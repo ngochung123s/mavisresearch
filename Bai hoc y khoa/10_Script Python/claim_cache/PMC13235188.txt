@@ -1,0 +1,498 @@
+TITLE: TLEUDS: a cascade Dual-Transfer learning system with quality- and knowledge-enhanced for precise fetal CHD screening
+
+=== SUPPLEMENTARY INFORMATION ===
+Congenital heart disease (CHD) is the most common major congenital anomaly and a leading cause of perinatal mortality and long-term neurodevelopmental disability globally, among which severe ductal dependent CHD (D-CHD) requires urgent clinical intervention due to the high risk of catastrophic cardiovascular collapse if undiagnosed. Despite the advancement of fetal echocardiography-based analysis models, there remains a lack of comprehensive and accurate evaluation approaches for D-CHD, especially for the precise differentiation of critical subtypes including coarctation of the aorta (CoA), interrupted aortic arch (IAA), and transposition of the great arteries (TGA). To address this gap, we developed the D-CHD Precision Screening System (TLEUDS) using 9,142 fetal aortic arch echocardiographic long-axis view images and 58 ultrasound clips from three medical institutions. Aiming to solve the challenges of uneven quality consistency and long-tail distribution in real-world ultrasound imaging data, TLEUDS adopts a cascaded Dual-Transfer learning framework for quality and knowledge enhancement, which implements a closed-loop screening process from initial disease detection (via the TEN-S module, a transfer version of EfficientNetV2-Screening) to detailed subtype-specific malformation screening (via the TY-PS module, a transfer version of YOLOv11-Precise Screening). Experimental results show that TLEUDS achieved a sensitivity of 0.988, 0.941, 0.966, and 0.900 for D-CHD overall, CoA, IAA, and TGA respectively, with corresponding specificities of 0.988, 0.987, 1.000, and 0.956, demonstrating state-of-the-art (SOTA) performance compared with general models. TLEUDS is expected to serve as a potential automated screening tool for tiered healthcare and computer-aided diagnosis of fetal D-CHD. Furthermore, the proposed quality and knowledge-enhanced cascaded Dual-Transfer learning framework fully leverages the “image quality distribution” and “structural prior knowledge” of fetal echocardiography, holding great potential for extension to other ultrasound image analysis domains.
+The online version contains supplementary material available at 10.1186/s13040-026-00535-3.
+
+=== CLINICAL TRIAL NUMBER ===
+Not applicable.
+The online version contains supplementary material available at 10.1186/s13040-026-00535-3.
+
+
+## INTRODUCTION
+Congenital heart disease (CHD) is the most common major congenital anomaly and remains the leading cause of perinatal mortality and long-term neurodevelopmental disability worldwide, with a reported incidence of 4–50 per 1,000 live births [1]. Between 1 and 1.8 per 1,000 live births exhibit duct-dependent circulation in whom persistent patency of the arterial duct is mandatory for survival [2]. For infants whose pulmonary or systemic perfusion is duct-dependent, discharge without diagnosis amplifies the risk of catastrophic cardiovascular collapse, this type of duct-dependent congenital heart disease (D-CHD) requires urgent intervention; 10–30% of all CHD deaths during the first year are attributable to lesions that remain undetected in the community [3, 4]. Accumulating evidence indicates that antenatal diagnosis improves the pre-operative status of patients with critical CHD (CCHD) and lowers pre-surgical morbidity and mortality [4–7]. Early prenatal detection and prompt referral to a tertiary centre capable of neonatal cardiac surgery are therefore essential.
+Prenatal ultrasound screening is a non-invasive, painless, safe and highly effective imaging modality [8, 9], experienced operators leverage domain-specific knowledge to extract critical information on fetal cardiac development from each scan [9–11]. Routine foetal echocardiography includes several standard views, and different diseases show view-specific pathognomonic features [12]. Even though improvements in ultrasound technology have made it easier to find things, the rates of finding things still differ a lot from country to country, especially in poorer areas [13, 14].
+Deep learning has shown a lot of promise in automating foetal cardiac screening in the last few years. These data-driven models can automatically find visual patterns in prenatal ultrasound images to help with diagnosis, often with little input from experts in the field. But the fact that the heart’s anatomy is very complicated, especially when it is not working properly, makes things very difficult. This complexity renders purely data-driven methodologies vulnerable to distraction from extraneous information, such as imaging artefacts. Consequently, there is a growing research focus on integrating medical domain knowledge into these pipelines to guide the models away from non-informative regions and toward clinically relevant features.
+While automated screening methods are urgently needed for D-CHD during fetal development, current research has not yet developed AI-based approaches to accurately identify severe D-CHD in fetuses, particularly distinguishing among three critical types: CoArctation of the aorta (CoA), interrupted aortic arch (IAA), and transposition of the great arteries (TGA). To solve this problem, we developed TLEUDS (Cascade Dual-Transfer Learning Enhanced Ultrasound Detection System) using echocardiographic long-axis views of the fetal aortic arch (ELVFAA) to enable precise screening for D-CHD. TLEUDS consists of two modules: the Initial Screening Module (a transfer version of EfficientNetV2-Screening, abbreviated as TEN-S) and the Precise Screening Module (a transfer version of YOLOv11-Precise Screening, abbreviated as TY-PS). It achieves a closed-loop process from initial disease detection to detailed screening of specific malformations (CoA, IAA, and TGA). Our research contributions are as follows:
+This study developed a quality- and knowledge-enhanced cascade dual-transfer learning system for fetal CHD screening, using fetal duct-dependent CHD as a case study. The system achieves a closed-loop process from initial disease detection (TEN-S) to detailed screening of specific malformations (TY-PS). Experimental results demonstrate that this approach outperforms conventional methods in the precise identification of CoA, TGA, and IAA.
+To address challenges of uneven data quality and long-tail distribution, this study proposes a cascade dual-transfer strategy. The framework adapts general knowledge acquired from “normal-quality” data to “high-quality” datasets, enabling robust initial screening of normal/abnormal cases. Through secondary transfer learning from “normal anatomy” to “abnormal anatomy”, it achieves precise identification and classification of anatomical structures with specific deformities.
+This study proposes a novel two-stage cascade fetal CHD screening framework called “Quality Enhancement-Anatomical Precision Screening”, which fully utilizes the “image quality distribution” and “structural prior knowledge” of fetal echocardiography, and is expected to be extended to other ultrasound image analysis fields.
+To validate practical applicability in real-world clinical settings, our proposed TLEUDS framework underwent rigorous testing and evaluation using a comprehensive dataset containing 9,142 ultrasound images and 58 video recordings of catheter-dependent congenital heart disease cases. The remainder of this paper is organised as follows. Section “Materials and image preprocessing” describes the datasets and image-pre-processing protocols. Section “Method” details the development of TLEUDS. Section “Result” presents the experimental results, and Section “Discussion” discusses the findings. Finally, Section “Conclusion and perspective” concludes the paper and outlines future directions.
+
+## MATERIALS AND IMAGE PREPROCESSING
+In this study, the echocardiographic long-axis views of the fetal aortic arch (ELVFAA) served as the standard view for image acquisition and analysis. In the dataset, a normal fetal heart was defined as one confirmed to be free of congenital heart defects postnatally. Abnormal cases consisted of duct-dependent congenital heart diseases, which manifest in the ELVFAA as one of the following three abnormalities: (1) CoA, presenting as a localized narrowing of the aortic arch; (2) IAA, characterized by a complete discontinuity between the ascending and descending aorta; and (3) TGA, identified by the aorta and pulmonary artery running parallel rather than crossing, with the ductus arteriosus connecting to the descending aorta. All prenatal ultrasound diagnoses were confirmed through postnatal follow-up examinations, surgeries, or consensus comments from three senior sonographers with over a decade of experience in prenatal care.
+The study utilized 9200 ELVFAA samples (9,142 image and 58 video clips) from three medical institutions to develop TLEUDS: an internal dataset from Guangzhou Women and Children’s Medical Center (GZMC) and external datasets from Xinqiao Hospital (XQH) and Wuhan Women and Children Health Care Center (WHCC), with detailed characteristics provided in Table 1. The retrospective study protocol was approved by the relevant ethics committees, and informed consent was waived.
+Dataset composition and statistics for model development and evaluation
+To thoroughly assess the efficacy of the proposed TLEUDS framework, a comprehensive evaluation protocol was utilized, incorporating metrics for screening, diagnosis, and model efficiency.
+The area under the receiver operating characteristic curve (AUROC), sensitivity (recall), specificity, and accuracy were all used to measure how well the TEN-S module did the screening task (normal vs. abnormal). These metrics are defined in the following way:
+For the lesion localization and diagnosis task conducted by the TY-PS module, model performance was assessed using Precision, mean Average Precision at an Intersection over Union threshold of 0.5 (mAP@0.5), Recall, and computational complexity (GFLOPs).
+
+[Table] Dataset composition and statistics for model development and evaluation
+
+## DATA ACQUISITION
+In this study, the echocardiographic long-axis views of the fetal aortic arch (ELVFAA) served as the standard view for image acquisition and analysis. In the dataset, a normal fetal heart was defined as one confirmed to be free of congenital heart defects postnatally. Abnormal cases consisted of duct-dependent congenital heart diseases, which manifest in the ELVFAA as one of the following three abnormalities: (1) CoA, presenting as a localized narrowing of the aortic arch; (2) IAA, characterized by a complete discontinuity between the ascending and descending aorta; and (3) TGA, identified by the aorta and pulmonary artery running parallel rather than crossing, with the ductus arteriosus connecting to the descending aorta. All prenatal ultrasound diagnoses were confirmed through postnatal follow-up examinations, surgeries, or consensus comments from three senior sonographers with over a decade of experience in prenatal care.
+The study utilized 9200 ELVFAA samples (9,142 image and 58 video clips) from three medical institutions to develop TLEUDS: an internal dataset from Guangzhou Women and Children’s Medical Center (GZMC) and external datasets from Xinqiao Hospital (XQH) and Wuhan Women and Children Health Care Center (WHCC), with detailed characteristics provided in Table 1. The retrospective study protocol was approved by the relevant ethics committees, and informed consent was waived.
+Dataset composition and statistics for model development and evaluation
+
+[Table] Dataset composition and statistics for model development and evaluation
+
+## EVALUATION METRICS
+To thoroughly assess the efficacy of the proposed TLEUDS framework, a comprehensive evaluation protocol was utilized, incorporating metrics for screening, diagnosis, and model efficiency.
+The area under the receiver operating characteristic curve (AUROC), sensitivity (recall), specificity, and accuracy were all used to measure how well the TEN-S module did the screening task (normal vs. abnormal). These metrics are defined in the following way:
+For the lesion localization and diagnosis task conducted by the TY-PS module, model performance was assessed using Precision, mean Average Precision at an Intersection over Union threshold of 0.5 (mAP@0.5), Recall, and computational complexity (GFLOPs).
+
+## METHOD
+In this work, we investigate a strategy for deeply integrating pivotal domain knowledge into transfer-learning models to achieve more accurate diagnosis. We address two practical challenges in deep-learning-based detection of duct-dependent congenital heart disease (CHD): first, the scarcity of positive samples, and second, the absence of explicit guidance from domain knowledge. To overcome these limitations, we employ transfer learning in both the classification-based screening stage and the detection-based lesion-localization and diagnosis stage. As illustrated in Fig. 1, we propose TLEUDS, a novel framework that integrates anatomical priors to improve screening precision. The system consists of two core components:
+Screening workflow of the TLEUDS system. (a) Workflow of the initial screening module (TEN-S): This module employs a two-phase transfer learning strategy. It is first pre-trained on an internal routine-quality dataset and then fine-tuned on a high-quality dataset to build a high-precision classifier for discriminating between normal and abnormal fetal hearts. (b) Workflow of the Precise Screening Module (TY-PS).This module illustrates a “learning from normal to diagnose abnormal” transfer learning strategy. The TY-PS model is first pre-trained on normal samples to learn standard anatomy (Right Atrium (RA), Left Atrium (LA), Descending Aorta (DAO), and Aortic Arch (ARCH); this knowledge is then transferred to abnormal cases for holistic structure recognition and precise lesion localization
+The Initial Screening Module (TEN-S): This module is constructed with an EfficientNetV2 backbone. It employs a two-phase transfer learning strategy: first learning general sonographic features from a routine-quality dataset, then refining them on a high-quality subset to achieve precise discrimination between normal and abnormal fetal hearts.
+The Precise Screening Module (TY-PS): This module is built around a structurally modified version of the YOLOv11s network, tailored for fine-grained analysis of fetal echocardiograms. Our customized architecture is first pre-trained on normal cases to learn the fundamental cardiac anatomy, including the Right Atrium (RA), Left Atrium (LA), Descending Aorta (DAO), and Aortic Arch (ARCH). The acquired representations are subsequently transferred through a normal-to-abnormal paradigm to the task of lesion detection, facilitating precise pixel-level localization of duct-dependent CHDs, including CoA, TGA, and IAA.
+In this study, we aimed to create a high-efficiency screening module specifically designed for identifying aortic arch abnormalities in fetal prenatal ultrasound. The inherently non-standardised nature of sonography, however, introduces substantial quality variance across scans, posing an additional challenge for model training. Based on our earlier multicenter study [15], we switched out the old backbone for the lighter EfficientNetV2 to better handle images with different quality while still being able to tell them apart.
+The training process consists of two sequential stages. In order to teach the model basic, subtle sonographic patterns, it is first pre-trained on a routine-quality dataset. The obtained weights are then applied to the high-quality dataset and adjusted. By using this technique, the network can accurately distinguish between normal and abnormal by utilizing the underlying ultrasound semantics it has learned. By leveraging transfer learning of data of different quality within the domain, we enhanced the model’s robustness under various image qualities and improved its overall reliability. The lightweight EfficientNetV2-S variant is adopted as the backbone, further boosting computational efficiency while reducing resource requirements.
+EfficientNetV2 represents the latest evolution of the EfficientNet family and introduces substantial improvements over EfficientNetV1. EfficientNetV2-S is a highly engineered network that employs a novel compound-scaling strategy to maintain competitive accuracy while markedly reducing model size and computational load. The architecture spans eight stages (Stage 0–7) and extensively utilises MBConv and Fused-MBConv blocks for efficient feature extraction. As illustrated in Fig. 2; Table 2, Stage 0 begins with a 3 × 3 convolution that extracts initial low-level features. Stages 1–3 then stack 2–4 Fused-MBConv layers: Stage 1 uses an expansion ratio of 1 and 3 × 3 kernels, whereas Stages 2–3 adopt an expansion ratio of 4 with 3 × 3 kernels.
+Architecture of the EfficientNetV2-SE network (high-quality data training path). This schematic illustrates the structure of the EfficientNetV2-SE model used for fetal cardiac screening, detailing the input layer, multi-stage Fused-MBConv modules, and the classification head. The diagram focuses on the final fine-tuning stage on the high-quality internal dataset, which is dedicated to the precise normal-versus-abnormal classification task
+Configuration of the EfficientNetV2-S Architecture
+In the deeper stages (4–6), MBConv blocks are repeated 6–15 times; stage 4 employs an expansion ratio of 4, 3 × 3 kernels and SE-0.25 modules for channel-wise recalibration, while stages 5–6 increase the expansion ratio to 6 and retain 3 × 3 kernels plus SE-0.25. Stage 7 finalises the representation via 1 × 1 convolution, global average pooling and a fully connected classifier.
+Additionally, progressive learning dynamically adjusts input resolution during training, trading speed for accuracy and further reducing compute demand. Joint optimisation of depth, width and resolution via compound scaling furnishes an efficient backbone for resource-constrained screening. When coupled with domain-adaptive transfer learning, the proposed model not only improves the recognition accuracy of abnormal arch morphology but also enhances sensitivity to subtle anatomical variations in fetal ultrasound.
+Following the initial normal-versus-abnormal screening with TEN-S, we developed TY-PS (Transfer-YOLOv11-Precise Screening), a transfer-learning-based lesion-detection module built upon YOLOv11s for fine-grained diagnosis. TY-PS is specifically designed to identify and localize both the overall disease pattern and the focal lesions in ultrasound images, covering CoA, transposition of TGA and IAA. As illustrated in Fig. 3, the training data for TY-PS were meticulously annotated under a unified clinical standard. For normal hearts, annotations highlight key anatomical structures (RA, LA, DAO, ARCH). For abnormal cases, annotations precisely delineate both the specific lesion areas (coa, tga, and iaa) and the overall pathological structure corresponding to the disease (CoA, TGA, IAA). TY-PS’s precision screening integrates both precise localization (coa, tga, and iaa) and overall localization (CoA, TGA, and IAA) results. Any detected lesion in any category qualifies as disease-related. In case of discrepancies between precise and overall localization results, the precise localization outcome takes precedence.
+Annotation examples of normal and pathological fetal heart structures in ultrasound images. The upper row displays a normal heart, with key anatomical structures annotated by colored bounding boxes: RA (green), LA (red), DAO (blue), and ARCH (yellow). The bottom row showcases three types of congenital heart disease. For each abnormal case, the disease name in uppercase (e.g., IAA) denotes the overall pathological structure, while the lowercase abbreviation (e.g., iaa) localizes the specific lesion or key pathological feature within that structure. In case of discrepancies between precise and overall localization results, the precise localization outcome takes precedence
+This high-quality, fine-grained annotation protocol provides the foundational supervision for our modified YOLOv11s algorithm to learn accurate detection and diagnosis.
+To better handle the problem of large-scale variation in anatomical features in long-axis planar images of fetal aortic arch, we applied the Wise-IoU (WIoU) loss function [16]. WIoU includes a weight mechanism that can dynamically adjust the loss contribution according to the target size, so that the model preferentially ensures the detection accuracy of smaller anatomical structures during the training process.
+In order to better extract the detailed information from the long-axis plane images of the fetal aortic arch and suppress the noise, we upgraded the processing of the main trunk of the aortic arch. We replaced the original C3k2 [17] module with the RepNCSPELAN4 [18] module and the SPPF [19] module with the SPPELAN [18] module.
+The RepNCSPELAN4 module is a crucial feature extraction component in YOLOv9 [18], incorporating a CSP-ELAN module that integrates the properties of Cross Stage Partial (CSP) [20] connections and Efficient Layer Aggregation Network (ELAN) [21]. The RepNCSPELAN4 module enhances the reusability and representational power of features by leveraging the connections of RepNCSP and CSP to achieve feature grouping and the exchange of information regarding input features. This design enables the neural network to process large amounts of data more effectively while significantly reducing memory and computational overhead. The detailed architecture is illustrated in Fig. 4.
+Architecture of the YOLOv11-Based Precise Screening (Y-PS) Module. The figure details the enhancements made to the YOLOv11s baseline for the TY-PS module, optimized for fetal echocardiogram analysis. The backbone employs Conv layers and RepNCSPELAN4 for feature extraction. The neck integrates features via concatenation and upsampling, enhancing multi-scale fusion. The head uses these refined features for precise lesion detection and classification. The inclusion of SPPELAN blocks improves spatial awareness, critical for small anomaly localization. WIoU loss in the head improves boundary regression. The right panel details the custom RepNCSPELAN4 and SPPELAN modules, emphasizing the integration of depthwise separable convolutions and batch normalization for optimized processing
+The SPPELAN module, standing for Spatial Pyramid Pooling - Enhanced Layer Aggregation Network, is an advancement over the traditional Spatial Pyramid Pooling (SPP) [22]. It integrates a fundamental convolutional block, denoted as CBS, along with three Maxpool2d operations. This design bolsters the network’s capacity to aggregate features across various scales, enhancing the detection of small, intricate cardiac anomalies in fetal ultrasound images. This module advancement over Spatial Pyramid Pooling, integrates a basic convolutional block and multiple Maxpool2d operations. It adeptly captures multi-scale features, enhancing complex scene perception through varied kernel pooling. This approach mitigates redundant feature extraction in CNNs, maintains a steady receptive field, accelerates box proposal generation, reduces computational load, and enhances overall network efficacy. Figure 4 illustrates this module’s configuration.
+During the lesion-detection phase, we first pre-train the TY-PS model on the basic anatomical structures of negative samples to obtain initial weights. These negative samples encompass key structures such as DAO, LA, ARCH and RA. The purpose of pre-training is to enable the model to learn and understand the characteristics of normal anatomy, thereby laying a solid foundation for subsequent anomaly detection. The pre-training process can be expressed as:
+Where represents the initial weights, is the pre-training function, and is the set of negative samples.
+Subsequently, the pre-trained weights are transferred to the abnormal-structure detection task on positive samples, with the objective of precisely identifying and localising specific lesions, including CoA & coa lesions, IAA & iaa lesions and TGA & tga lesions. This transfer process can be formalised as:
+Here, is the transfer function, is the set of positive samples, and are the final weights used for lesion detection.
+The proposed TY-PS model was benchmarked against several YOLO variants of comparable computational complexity (YOLOv3, YOLOv5m, YOLOv6m, YOLOv8m, YOLOv9m, YOLOv10m, and YOLOv11s) to ensure a fair comparison. A comprehensive evaluation was conducted across ablation experiment: (1) Train a precision screening model using abnormal data and evaluate its performance on the abnormal dataset (General method); (2) Mix normal and abnormal data sets for model training and evaluate its performance on the abnormal data set (Hybrid Training); 3)First, the model is trained on normal data set to learn normal anatomical structure knowledge, and then the model weight is transferred to abnormal data set for further training to learn abnormal anatomical structure features and evaluate its performance on abnormal data set (Structure-Enhanced Transfer Learning). Model performance was assessed using accuracy, recall, and the F1 score, with 95% confidence intervals (CIs) reported for each metric to ensure statistical robustness. Furthermore, an extensive ablation study was performed to dissect the individual contribution of each key component within the TY-PS framework.
+
+[Table] Configuration of the EfficientNetV2-S Architecture
+
+## FRAMEWORK OVERVIEW
+In this work, we investigate a strategy for deeply integrating pivotal domain knowledge into transfer-learning models to achieve more accurate diagnosis. We address two practical challenges in deep-learning-based detection of duct-dependent congenital heart disease (CHD): first, the scarcity of positive samples, and second, the absence of explicit guidance from domain knowledge. To overcome these limitations, we employ transfer learning in both the classification-based screening stage and the detection-based lesion-localization and diagnosis stage. As illustrated in Fig. 1, we propose TLEUDS, a novel framework that integrates anatomical priors to improve screening precision. The system consists of two core components:
+Screening workflow of the TLEUDS system. (a) Workflow of the initial screening module (TEN-S): This module employs a two-phase transfer learning strategy. It is first pre-trained on an internal routine-quality dataset and then fine-tuned on a high-quality dataset to build a high-precision classifier for discriminating between normal and abnormal fetal hearts. (b) Workflow of the Precise Screening Module (TY-PS).This module illustrates a “learning from normal to diagnose abnormal” transfer learning strategy. The TY-PS model is first pre-trained on normal samples to learn standard anatomy (Right Atrium (RA), Left Atrium (LA), Descending Aorta (DAO), and Aortic Arch (ARCH); this knowledge is then transferred to abnormal cases for holistic structure recognition and precise lesion localization
+The Initial Screening Module (TEN-S): This module is constructed with an EfficientNetV2 backbone. It employs a two-phase transfer learning strategy: first learning general sonographic features from a routine-quality dataset, then refining them on a high-quality subset to achieve precise discrimination between normal and abnormal fetal hearts.
+The Precise Screening Module (TY-PS): This module is built around a structurally modified version of the YOLOv11s network, tailored for fine-grained analysis of fetal echocardiograms. Our customized architecture is first pre-trained on normal cases to learn the fundamental cardiac anatomy, including the Right Atrium (RA), Left Atrium (LA), Descending Aorta (DAO), and Aortic Arch (ARCH). The acquired representations are subsequently transferred through a normal-to-abnormal paradigm to the task of lesion detection, facilitating precise pixel-level localization of duct-dependent CHDs, including CoA, TGA, and IAA.
+
+## INITIAL SCREENING MODULE: TRANSFER-EFFICIENTNETV2-SCREENING (TEN-S)
+In this study, we aimed to create a high-efficiency screening module specifically designed for identifying aortic arch abnormalities in fetal prenatal ultrasound. The inherently non-standardised nature of sonography, however, introduces substantial quality variance across scans, posing an additional challenge for model training. Based on our earlier multicenter study [15], we switched out the old backbone for the lighter EfficientNetV2 to better handle images with different quality while still being able to tell them apart.
+The training process consists of two sequential stages. In order to teach the model basic, subtle sonographic patterns, it is first pre-trained on a routine-quality dataset. The obtained weights are then applied to the high-quality dataset and adjusted. By using this technique, the network can accurately distinguish between normal and abnormal by utilizing the underlying ultrasound semantics it has learned. By leveraging transfer learning of data of different quality within the domain, we enhanced the model’s robustness under various image qualities and improved its overall reliability. The lightweight EfficientNetV2-S variant is adopted as the backbone, further boosting computational efficiency while reducing resource requirements.
+EfficientNetV2 represents the latest evolution of the EfficientNet family and introduces substantial improvements over EfficientNetV1. EfficientNetV2-S is a highly engineered network that employs a novel compound-scaling strategy to maintain competitive accuracy while markedly reducing model size and computational load. The architecture spans eight stages (Stage 0–7) and extensively utilises MBConv and Fused-MBConv blocks for efficient feature extraction. As illustrated in Fig. 2; Table 2, Stage 0 begins with a 3 × 3 convolution that extracts initial low-level features. Stages 1–3 then stack 2–4 Fused-MBConv layers: Stage 1 uses an expansion ratio of 1 and 3 × 3 kernels, whereas Stages 2–3 adopt an expansion ratio of 4 with 3 × 3 kernels.
+Architecture of the EfficientNetV2-SE network (high-quality data training path). This schematic illustrates the structure of the EfficientNetV2-SE model used for fetal cardiac screening, detailing the input layer, multi-stage Fused-MBConv modules, and the classification head. The diagram focuses on the final fine-tuning stage on the high-quality internal dataset, which is dedicated to the precise normal-versus-abnormal classification task
+Configuration of the EfficientNetV2-S Architecture
+In the deeper stages (4–6), MBConv blocks are repeated 6–15 times; stage 4 employs an expansion ratio of 4, 3 × 3 kernels and SE-0.25 modules for channel-wise recalibration, while stages 5–6 increase the expansion ratio to 6 and retain 3 × 3 kernels plus SE-0.25. Stage 7 finalises the representation via 1 × 1 convolution, global average pooling and a fully connected classifier.
+Additionally, progressive learning dynamically adjusts input resolution during training, trading speed for accuracy and further reducing compute demand. Joint optimisation of depth, width and resolution via compound scaling furnishes an efficient backbone for resource-constrained screening. When coupled with domain-adaptive transfer learning, the proposed model not only improves the recognition accuracy of abnormal arch morphology but also enhances sensitivity to subtle anatomical variations in fetal ultrasound.
+
+[Table] Configuration of the EfficientNetV2-S Architecture
+
+## PRECISE SCREENING MODULE: TRANSFER-YOLOV11-PRECISE SCREENING (TY-PS)
+Following the initial normal-versus-abnormal screening with TEN-S, we developed TY-PS (Transfer-YOLOv11-Precise Screening), a transfer-learning-based lesion-detection module built upon YOLOv11s for fine-grained diagnosis. TY-PS is specifically designed to identify and localize both the overall disease pattern and the focal lesions in ultrasound images, covering CoA, transposition of TGA and IAA. As illustrated in Fig. 3, the training data for TY-PS were meticulously annotated under a unified clinical standard. For normal hearts, annotations highlight key anatomical structures (RA, LA, DAO, ARCH). For abnormal cases, annotations precisely delineate both the specific lesion areas (coa, tga, and iaa) and the overall pathological structure corresponding to the disease (CoA, TGA, IAA). TY-PS’s precision screening integrates both precise localization (coa, tga, and iaa) and overall localization (CoA, TGA, and IAA) results. Any detected lesion in any category qualifies as disease-related. In case of discrepancies between precise and overall localization results, the precise localization outcome takes precedence.
+Annotation examples of normal and pathological fetal heart structures in ultrasound images. The upper row displays a normal heart, with key anatomical structures annotated by colored bounding boxes: RA (green), LA (red), DAO (blue), and ARCH (yellow). The bottom row showcases three types of congenital heart disease. For each abnormal case, the disease name in uppercase (e.g., IAA) denotes the overall pathological structure, while the lowercase abbreviation (e.g., iaa) localizes the specific lesion or key pathological feature within that structure. In case of discrepancies between precise and overall localization results, the precise localization outcome takes precedence
+This high-quality, fine-grained annotation protocol provides the foundational supervision for our modified YOLOv11s algorithm to learn accurate detection and diagnosis.
+To better handle the problem of large-scale variation in anatomical features in long-axis planar images of fetal aortic arch, we applied the Wise-IoU (WIoU) loss function [16]. WIoU includes a weight mechanism that can dynamically adjust the loss contribution according to the target size, so that the model preferentially ensures the detection accuracy of smaller anatomical structures during the training process.
+In order to better extract the detailed information from the long-axis plane images of the fetal aortic arch and suppress the noise, we upgraded the processing of the main trunk of the aortic arch. We replaced the original C3k2 [17] module with the RepNCSPELAN4 [18] module and the SPPF [19] module with the SPPELAN [18] module.
+The RepNCSPELAN4 module is a crucial feature extraction component in YOLOv9 [18], incorporating a CSP-ELAN module that integrates the properties of Cross Stage Partial (CSP) [20] connections and Efficient Layer Aggregation Network (ELAN) [21]. The RepNCSPELAN4 module enhances the reusability and representational power of features by leveraging the connections of RepNCSP and CSP to achieve feature grouping and the exchange of information regarding input features. This design enables the neural network to process large amounts of data more effectively while significantly reducing memory and computational overhead. The detailed architecture is illustrated in Fig. 4.
+Architecture of the YOLOv11-Based Precise Screening (Y-PS) Module. The figure details the enhancements made to the YOLOv11s baseline for the TY-PS module, optimized for fetal echocardiogram analysis. The backbone employs Conv layers and RepNCSPELAN4 for feature extraction. The neck integrates features via concatenation and upsampling, enhancing multi-scale fusion. The head uses these refined features for precise lesion detection and classification. The inclusion of SPPELAN blocks improves spatial awareness, critical for small anomaly localization. WIoU loss in the head improves boundary regression. The right panel details the custom RepNCSPELAN4 and SPPELAN modules, emphasizing the integration of depthwise separable convolutions and batch normalization for optimized processing
+The SPPELAN module, standing for Spatial Pyramid Pooling - Enhanced Layer Aggregation Network, is an advancement over the traditional Spatial Pyramid Pooling (SPP) [22]. It integrates a fundamental convolutional block, denoted as CBS, along with three Maxpool2d operations. This design bolsters the network’s capacity to aggregate features across various scales, enhancing the detection of small, intricate cardiac anomalies in fetal ultrasound images. This module advancement over Spatial Pyramid Pooling, integrates a basic convolutional block and multiple Maxpool2d operations. It adeptly captures multi-scale features, enhancing complex scene perception through varied kernel pooling. This approach mitigates redundant feature extraction in CNNs, maintains a steady receptive field, accelerates box proposal generation, reduces computational load, and enhances overall network efficacy. Figure 4 illustrates this module’s configuration.
+During the lesion-detection phase, we first pre-train the TY-PS model on the basic anatomical structures of negative samples to obtain initial weights. These negative samples encompass key structures such as DAO, LA, ARCH and RA. The purpose of pre-training is to enable the model to learn and understand the characteristics of normal anatomy, thereby laying a solid foundation for subsequent anomaly detection. The pre-training process can be expressed as:
+Where represents the initial weights, is the pre-training function, and is the set of negative samples.
+Subsequently, the pre-trained weights are transferred to the abnormal-structure detection task on positive samples, with the objective of precisely identifying and localising specific lesions, including CoA & coa lesions, IAA & iaa lesions and TGA & tga lesions. This transfer process can be formalised as:
+Here, is the transfer function, is the set of positive samples, and are the final weights used for lesion detection.
+The proposed TY-PS model was benchmarked against several YOLO variants of comparable computational complexity (YOLOv3, YOLOv5m, YOLOv6m, YOLOv8m, YOLOv9m, YOLOv10m, and YOLOv11s) to ensure a fair comparison. A comprehensive evaluation was conducted across ablation experiment: (1) Train a precision screening model using abnormal data and evaluate its performance on the abnormal dataset (General method); (2) Mix normal and abnormal data sets for model training and evaluate its performance on the abnormal data set (Hybrid Training); 3)First, the model is trained on normal data set to learn normal anatomical structure knowledge, and then the model weight is transferred to abnormal data set for further training to learn abnormal anatomical structure features and evaluate its performance on abnormal data set (Structure-Enhanced Transfer Learning). Model performance was assessed using accuracy, recall, and the F1 score, with 95% confidence intervals (CIs) reported for each metric to ensure statistical robustness. Furthermore, an extensive ablation study was performed to dissect the individual contribution of each key component within the TY-PS framework.
+
+## RESULT
+In this section, we first detail the datasets and experimental setup. To validate the proposed pipeline, TEN-S is benchmarked against state-of-the-art CHD screening models, and TY-PS is compared with both baseline and top-performing lesion-detection architectures. Finally, ablation studies quantify the contribution of each component within the proposed TLEUDS framework after transfer.
+In the abnormal-case screening phase of TEN-S, we compared the data-quality-aware transfer learning in the TEN-S module to the baseline EfficientNetV2-S model to see how well it worked at finding aortic arch problems. We used the area under the receiver operating characteristic curve (AUC-ROC), sensitivity, and specificity to measure how well the model worked. For each metric, we gave 95% confidence intervals. The results that are statistically better are shown in bold.
+To validate the contribution of transfer learning, we conducted an ablation study comparing the proposed TEN-S module and the original EfficientNetV2-S on the screening task, which is summarized in Table 3; Fig. 5. The results showed that the model did much better on all of the evaluation metrics after transfer learning. The AUC-ROC score went up from 0.981 to 0.997, the sensitivity went up from 0.958 to 0.988, and the specificity went up from 0.958 to 0.988. We also used heat map analysis to show the areas of interest in ultrasound images. Figure 6 shows that the transfer learning-enhanced model could more accurately find important anatomical structures. This further proves that transfer learning works to improve the model’s ability to find small anatomical features.
+Performance Improvement of TEN-S Over the EfficientNetV2-S Baseline on the Screening Task
+Before
+Transfer Learning
+(95% CI)
+(0.970–0.991)
+(0.974–0.992)
+(0.969–0.992)
+Sensitivity
+(95% CI)
+(0.939–0.975)
+(0.887–0.957)
+(0.985-1.000)
+Specificity
+(95% CI)
+(0.940–0.976)
+(0.984-1.000)
+(0.888–0.957)
+Structure-Enhanced
+Transfer Learning
+(Our method)
+(95% CI)
+(0.994-1.000)
+(0.994-1.000)
+(0.993-1.000)
+Sensitivity
+(95% CI)
+(0.976–0.996)
+(0.958–0.995)
+(0.993-1.000)
+Specificity
+(95% CI)
+(0.977–0.996)
+(0.993-1.000)
+(0.956–0.995)
+Screening Performance: TEN-S vs. EfficientNetV2-S
+Comparison of localization ability for critical disease features between TEN-S and EfficientNetV2-S. (a, b) TGA. (c, d) IAA. (e, f) CoA. For each case, the original ultrasound image is shown on the left, the class activation heatmap generated by TEN-S is in the middle, and the heatmap from the original EfficientNetV2-S is on the right. The TEN-S model demonstrates superior localization accuracy by producing more focused and clinically relevant activations on the pathological structures compared to the baseline model
+We compared the performance of our proposed TLEUDS system with that of previously published studies on prenatal CHD screening, as summarized in Table 4. The comparison demonstrates that our method achieves competitive, and in some aspects superior, performance against the current state-of-the-art.
+Summary of AI-based screening performance for congenital heart disease from representative studies
+(0.840.99)
+(0.95–0.97)
+(0.995–0.997)
+(0.929–0.991)
+(0/953-0.996)
+(0.834–0.902)
+(0.702–0.754)
+(0.733–0.817)
+(0.909–0.947)
+(0.994-1.000)
+(0.976–0.996)
+(0.977–0.996)
+In the lesion-detection and diagnosis phase of TLEUDS, we concurrently validated seven YOLO baselines (YOLOv3、YOLOv5、YOLOv6、YOLOv8、YOLOv9、YOLOv10、YOLOv11) and our proposed TY-PS on the retrospective test set. All models were evaluated on three critical tasks: normal anatomy detection (Normal), abnormal lesion detection (Abnormal), and the Normal-to-Abnormal transfer learning scenario. Performance was measured using Precision, mAP@0.5, and Recall. The per-class accuracy results of the ablation study are presented in Table 5 and Supplementary Table 1. It compares the performance of various YOLO baselines with our proposed Y-PS and TY-PS models, with superior values bolded.
+Ablation Study: Precise Screening Performance of the Proposed TY-PS Model Versus YOLO Baselines. General method: Train a precision screening model using abnormal data and evaluate its performance on the abnormal data set. Hybrid Training: Mix normal and abnormal data sets for model training and evaluate its performance on the abnormal data set. Structure-Enhanced Transfer Learning: The model is trained on normal data set to learn normal anatomical structure knowledge, and then the model weight is transferred to abnormal data set for further training to learn abnormal anatomical structure features and evaluate its performance on abnormal data set
+(YOLOv11-Precise Screening)
+(YOLOv11-Precise Screening)
+Transfer-YOLOv11-Precise Screening
+Structure-Enhanced Transfer Learning
+(Our method)
+For normal anatomy detection, Precision ranged from 0.758 to 0.895, mAP@0.5 from 0.617 to 0.887 and Recall from 0.64 to 0.96. For abnormal lesion detection, Precision ranged from 0.746 to 0.945, mAP@0.5 from 0.823 to 0.917 and Recall from 0.93 to 0.97. Under the transfer setting, Precision improved to 0.880–0.957, mAP@0.5 to 0.861–0.921 and Recall to 0.93–0.98. The per-class Precise Screening accuracy for congenital heart diseases (CoA, coa, IAA, iaa, TGA, and tga) is detailed in Table 6, comparing the YOLOv11m baseline with our proposed TY-PS models. Furthermore, the models’ capability to identify key anatomical structures (LA, DAO, RA, ARCH) in normal hearts is evaluated in Supplementary Table 2. Assisted by anatomy-informed transfer learning, TY-PS demonstrates a significant improvement in discriminating challenging categories (TGA, IAA) while maintaining high accuracy on relatively easier ones (CoA). This validates our motivation to embed domain-specific knowledge for enhancing small-sample recognition.
+Fine-grained Performance Comparison on Congenital Heart Disease Diagnosis: YOLOv11m Baseline vs. the Proposed Precise Screening Models. As shown in Fig. 3, coa, tga, and iaa indicate the precise locations of disease lesions, while CoA, TGA, and IAA represent the overall lesion locations. In case of discrepancies between precise and overall localization results, the precise localization outcome takes precedence
+Structure-Enhanced Transfer Learning
+(Our method)
+Structure-Enhanced Transfer Learning
+(Our method)
+To validate the efficacy of each component in the TY-PS architecture, we conducted an ablation study as shown in Table 7. The study reveals that the integration of WIoU loss function, RepNCSPELAN4, and SPPELAN modules into the baseline YOLOv11s significantly improves Precise Screening performance. Specifically, the combination of these modules elevates the precision and recall. The best setup, “Baseline + WIoU + RepNCSPELAN4 + SPPELAN,” shows better performance on all tested metrics, making it the best model for analyzing fetal echocardiograms.
+Ablation Study of TY-PS Components
+(Baseline + WIOU + RepNCSPELAN4 + SPPELAN)
+To validate the effectiveness of our proposed two-stage pipeline (screening followed by diagnosis), we conducted an ablation study comparing it against an end-to-end multi-class classification approach. As a baseline, we trained models (EfficientNetV2, ResNet, Swin Transformer) to directly classify images into four categories: Normal, CoA, IAA, and TGA. The results presented in Table 8 demonstrate that our two-stage TLEUDS system outperforms this end-to-end baseline, justifying our architectural design.
+Ablation Study on Precise Screening Strategy: End-to-End Four-Class Classification vs. The Two-Stage Pipeline. In the model evaluation of the four-category task, each category is combined with the other three categories to form a binary classification task for index calculation
+(0.848–0.965)
+(0.929–0.967)
+(0.940–0.987)
+(0.908-1.000)
+(0.976–0.994)
+(0.971–0.999)
+(0.796–0.920)
+(0.977–0.995)
+(0.908–0.977)
+(0.917–0.959)
+(0.870–0.939)
+(0.944–0.977)
+(0.769–0.919)
+(0.968–0.990)
+(0.907–0.970)
+(0.815–0.957)
+(0.991-1.000)
+(0.869–0.974)
+(0.816–0.942)
+(0.987–0.998)
+(0.897–0.969)
+(0.964–0.991)
+(0.810–0.895)
+(0.922–0.961)
+(0.821–0.949)
+(0.951–0.978)
+(0.927–0.982)
+(0.908-1.000)
+(0.950–0.978)
+(0.958–0.999)
+(0.824–0.939)
+(0.938–0.970)
+(0.908–0.972)
+(0.927–0.969)
+(0.880–0.947)
+(0.940–0.975)
+(0.810-1.000)
+(0.968-1.000)
+(0.993-1.000)
+(0.932–0.992)
+(1.000–1.000)
+(0.976-1.000)
+(0.786–0.977)
+(0.921–0.986)
+(0.911–0.989)
+(0.993-1.000)
+(0.930–0.982)
+(0.984–0.998)
+
+[Table] Performance Improvement of TEN-S Over the EfficientNetV2-S Baseline on the Screening Task
+  | Before Transfer Learning | AUROC (95% CI) | 0.981 (0.970–0.991) | 0.984 (0.974–0.992) | 0.981 (0.969–0.992)
+  | Sensitivity (95% CI) | 0.958 (0.939–0.975) | 0.923 (0.887–0.957) | 0.993 (0.985-1.000)
+  | Specificity (95% CI) | 0.958 (0.940–0.976) | 0.993 (0.984-1.000) | 0.923 (0.888–0.957)
+  | After Structure-Enhanced Transfer Learning (Our method) | AUROC (95% CI) | 0.997 (0.994-1.000) | 0.997 (0.994-1.000) | 0.997 (0.993-1.000)
+  | Sensitivity (95% CI) | 0.988 (0.976–0.996) | 0.977 (0.958–0.995) | 0.998 (0.993-1.000)
+  | Specificity (95% CI) | 0.988 (0.977–0.996) | 0.998 (0.993-1.000) | 0.977 (0.956–0.995)
+
+[Table] Summary of AI-based screening performance for congenital heart disease from representative studies
+  |  |  | 0.950 (0.840.99) | 0.960 (0.95–0.97)
+  |  | 0.996 (0.995–0.997) | 0.730 (0.929–0.991) | 0.950 (0/953-0.996)
+  |  |  | 0.868 (0.834–0.902) | 0.728 (0.702–0.754)
+  |  |  | 0.778 (0.733–0.817) | 0.927 (0.909–0.947)
+  |  | 0.997 (0.994-1.000) | 0.988 (0.976–0.996) | 0.988 (0.977–0.996)
+
+[Table] Ablation Study: Precise Screening Performance of the Proposed TY-PS Model Versus YOLO Baselines. General method: Train a precision screening model using abnormal data and evaluate its performance on the abnormal data set. Hybrid Training: Mix normal and abnormal data sets for model training and evaluate its performance on the abnormal data set. Structure-Enhanced Transfer Learning: The model is trained on normal data set to learn normal anatomical structure knowledge, and then the model weight is transferred to abnormal data set for further training to learn abnormal anatomical structure features and evaluate its performance on abnormal data set
+  |  | Y-PS (YOLOv11-Precise Screening) |  |  |  |  | 
+  | Y-PS (YOLOv11-Precise Screening) |  |  |  |  | 
+  | TY-PS Transfer-YOLOv11-Precise Screening | Structure-Enhanced Transfer Learning (Our method) |  |  |  | 
+
+[Table] Fine-grained Performance Comparison on Congenital Heart Disease Diagnosis: YOLOv11m Baseline vs. the Proposed Precise Screening Models. As shown in Fig. 3, coa, tga, and iaa indicate the precise locations of disease lesions, while CoA, TGA, and IAA represent the overall lesion locations. In case of discrepancies between precise and overall localization results, the precise localization outcome takes precedence
+  |  | Structure-Enhanced Transfer Learning (Our method) |  |  |  |  |  | 
+  |  | Structure-Enhanced Transfer Learning (Our method) |  |  |  |  |  | 
+
+[Table] Ablation Study of TY-PS Components
+  | TY-PS (Baseline + WIOU + RepNCSPELAN4 + SPPELAN) |  |  |  | 
+
+[Table] Ablation Study on Precise Screening Strategy: End-to-End Four-Class Classification vs. The Two-Stage Pipeline. In the model evaluation of the four-category task, each category is combined with the other three categories to form a binary classification task for index calculation
+  |  |  | 0.909 (0.848–0.965) | 0.949 (0.929–0.967) | 0.967 (0.940–0.987)
+  |  | 0.959 (0.908-1.000) | 0.988 (0.976–0.994) | 0.990 (0.971–0.999)
+  |  | 0.860 (0.796–0.920) | 0.989 (0.977–0.995) | 0.943 (0.908–0.977)
+  |  | 0.938 (0.917–0.959) | 0.907 (0.870–0.939) | 0.961 (0.944–0.977)
+  |  |  | 0.848 (0.769–0.919) | 0.979 (0.968–0.990) | 0.940 (0.907–0.970)
+  |  | 0.892 (0.815–0.957) | 0.998 (0.991-1.000) | 0.928 (0.869–0.974)
+  |  | 0.883 (0.816–0.942) | 0.993 (0.987–0.998) | 0.936 (0.897–0.969)
+  |  | 0.978 (0.964–0.991) | 0.855 (0.810–0.895) | 0.943 (0.922–0.961)
+  |  |  | 0.886 (0.821–0.949) | 0.965 (0.951–0.978) | 0.957 (0.927–0.982)
+  |  | 0.959 (0.908-1.000) | 0.966 (0.950–0.978) | 0.983 (0.958–0.999)
+  |  | 0.888 (0.824–0.939) | 0.954 (0.938–0.970) | 0.945 (0.908–0.972)
+  |  | 0.951 (0.927–0.969) | 0.914 (0.880–0.947) | 0.959 (0.940–0.975)
+  |  |  | 0.941 (0.810-1.000) | 0.987 (0.968-1.000) | 0.998 (0.993-1.000)
+  |  | 0.966 (0.932–0.992) | 1.000 (1.000–1.000) | 0.991 (0.976-1.000)
+  |  | 0.900 (0.786–0.977) | 0.956 (0.921–0.986) | 0.954 (0.911–0.989)
+  |  | 0.998 (0.993-1.000) | 0.959 (0.930–0.982) | 0.992 (0.984–0.998)
+
+## PERFORMANCE OF THE TEN-S SCREENING MODULE SURPASSES OTHER DEEP LEARNING MODELS ON EXTERNAL TEST SETS
+In the abnormal-case screening phase of TEN-S, we compared the data-quality-aware transfer learning in the TEN-S module to the baseline EfficientNetV2-S model to see how well it worked at finding aortic arch problems. We used the area under the receiver operating characteristic curve (AUC-ROC), sensitivity, and specificity to measure how well the model worked. For each metric, we gave 95% confidence intervals. The results that are statistically better are shown in bold.
+To validate the contribution of transfer learning, we conducted an ablation study comparing the proposed TEN-S module and the original EfficientNetV2-S on the screening task, which is summarized in Table 3; Fig. 5. The results showed that the model did much better on all of the evaluation metrics after transfer learning. The AUC-ROC score went up from 0.981 to 0.997, the sensitivity went up from 0.958 to 0.988, and the specificity went up from 0.958 to 0.988. We also used heat map analysis to show the areas of interest in ultrasound images. Figure 6 shows that the transfer learning-enhanced model could more accurately find important anatomical structures. This further proves that transfer learning works to improve the model’s ability to find small anatomical features.
+Performance Improvement of TEN-S Over the EfficientNetV2-S Baseline on the Screening Task
+Before
+Transfer Learning
+(95% CI)
+(0.970–0.991)
+(0.974–0.992)
+(0.969–0.992)
+Sensitivity
+(95% CI)
+(0.939–0.975)
+(0.887–0.957)
+(0.985-1.000)
+Specificity
+(95% CI)
+(0.940–0.976)
+(0.984-1.000)
+(0.888–0.957)
+Structure-Enhanced
+Transfer Learning
+(Our method)
+(95% CI)
+(0.994-1.000)
+(0.994-1.000)
+(0.993-1.000)
+Sensitivity
+(95% CI)
+(0.976–0.996)
+(0.958–0.995)
+(0.993-1.000)
+Specificity
+(95% CI)
+(0.977–0.996)
+(0.993-1.000)
+(0.956–0.995)
+Screening Performance: TEN-S vs. EfficientNetV2-S
+Comparison of localization ability for critical disease features between TEN-S and EfficientNetV2-S. (a, b) TGA. (c, d) IAA. (e, f) CoA. For each case, the original ultrasound image is shown on the left, the class activation heatmap generated by TEN-S is in the middle, and the heatmap from the original EfficientNetV2-S is on the right. The TEN-S model demonstrates superior localization accuracy by producing more focused and clinically relevant activations on the pathological structures compared to the baseline model
+We compared the performance of our proposed TLEUDS system with that of previously published studies on prenatal CHD screening, as summarized in Table 4. The comparison demonstrates that our method achieves competitive, and in some aspects superior, performance against the current state-of-the-art.
+Summary of AI-based screening performance for congenital heart disease from representative studies
+(0.840.99)
+(0.95–0.97)
+(0.995–0.997)
+(0.929–0.991)
+(0/953-0.996)
+(0.834–0.902)
+(0.702–0.754)
+(0.733–0.817)
+(0.909–0.947)
+(0.994-1.000)
+(0.976–0.996)
+(0.977–0.996)
+
+[Table] Performance Improvement of TEN-S Over the EfficientNetV2-S Baseline on the Screening Task
+  | Before Transfer Learning | AUROC (95% CI) | 0.981 (0.970–0.991) | 0.984 (0.974–0.992) | 0.981 (0.969–0.992)
+  | Sensitivity (95% CI) | 0.958 (0.939–0.975) | 0.923 (0.887–0.957) | 0.993 (0.985-1.000)
+  | Specificity (95% CI) | 0.958 (0.940–0.976) | 0.993 (0.984-1.000) | 0.923 (0.888–0.957)
+  | After Structure-Enhanced Transfer Learning (Our method) | AUROC (95% CI) | 0.997 (0.994-1.000) | 0.997 (0.994-1.000) | 0.997 (0.993-1.000)
+  | Sensitivity (95% CI) | 0.988 (0.976–0.996) | 0.977 (0.958–0.995) | 0.998 (0.993-1.000)
+  | Specificity (95% CI) | 0.988 (0.977–0.996) | 0.998 (0.993-1.000) | 0.977 (0.956–0.995)
+
+[Table] Summary of AI-based screening performance for congenital heart disease from representative studies
+  |  |  | 0.950 (0.840.99) | 0.960 (0.95–0.97)
+  |  | 0.996 (0.995–0.997) | 0.730 (0.929–0.991) | 0.950 (0/953-0.996)
+  |  |  | 0.868 (0.834–0.902) | 0.728 (0.702–0.754)
+  |  |  | 0.778 (0.733–0.817) | 0.927 (0.909–0.947)
+  |  | 0.997 (0.994-1.000) | 0.988 (0.976–0.996) | 0.988 (0.977–0.996)
+
+## SUPERIOR PERFORMANCE OF PRECISE SCREENING MODULE TY-PS OVER BASELINE AND CONVENTIONAL MODELS ON EXTERNAL DATASETS
+In the lesion-detection and diagnosis phase of TLEUDS, we concurrently validated seven YOLO baselines (YOLOv3、YOLOv5、YOLOv6、YOLOv8、YOLOv9、YOLOv10、YOLOv11) and our proposed TY-PS on the retrospective test set. All models were evaluated on three critical tasks: normal anatomy detection (Normal), abnormal lesion detection (Abnormal), and the Normal-to-Abnormal transfer learning scenario. Performance was measured using Precision, mAP@0.5, and Recall. The per-class accuracy results of the ablation study are presented in Table 5 and Supplementary Table 1. It compares the performance of various YOLO baselines with our proposed Y-PS and TY-PS models, with superior values bolded.
+Ablation Study: Precise Screening Performance of the Proposed TY-PS Model Versus YOLO Baselines. General method: Train a precision screening model using abnormal data and evaluate its performance on the abnormal data set. Hybrid Training: Mix normal and abnormal data sets for model training and evaluate its performance on the abnormal data set. Structure-Enhanced Transfer Learning: The model is trained on normal data set to learn normal anatomical structure knowledge, and then the model weight is transferred to abnormal data set for further training to learn abnormal anatomical structure features and evaluate its performance on abnormal data set
+(YOLOv11-Precise Screening)
+(YOLOv11-Precise Screening)
+Transfer-YOLOv11-Precise Screening
+Structure-Enhanced Transfer Learning
+(Our method)
+For normal anatomy detection, Precision ranged from 0.758 to 0.895, mAP@0.5 from 0.617 to 0.887 and Recall from 0.64 to 0.96. For abnormal lesion detection, Precision ranged from 0.746 to 0.945, mAP@0.5 from 0.823 to 0.917 and Recall from 0.93 to 0.97. Under the transfer setting, Precision improved to 0.880–0.957, mAP@0.5 to 0.861–0.921 and Recall to 0.93–0.98. The per-class Precise Screening accuracy for congenital heart diseases (CoA, coa, IAA, iaa, TGA, and tga) is detailed in Table 6, comparing the YOLOv11m baseline with our proposed TY-PS models. Furthermore, the models’ capability to identify key anatomical structures (LA, DAO, RA, ARCH) in normal hearts is evaluated in Supplementary Table 2. Assisted by anatomy-informed transfer learning, TY-PS demonstrates a significant improvement in discriminating challenging categories (TGA, IAA) while maintaining high accuracy on relatively easier ones (CoA). This validates our motivation to embed domain-specific knowledge for enhancing small-sample recognition.
+Fine-grained Performance Comparison on Congenital Heart Disease Diagnosis: YOLOv11m Baseline vs. the Proposed Precise Screening Models. As shown in Fig. 3, coa, tga, and iaa indicate the precise locations of disease lesions, while CoA, TGA, and IAA represent the overall lesion locations. In case of discrepancies between precise and overall localization results, the precise localization outcome takes precedence
+Structure-Enhanced Transfer Learning
+(Our method)
+Structure-Enhanced Transfer Learning
+(Our method)
+To validate the efficacy of each component in the TY-PS architecture, we conducted an ablation study as shown in Table 7. The study reveals that the integration of WIoU loss function, RepNCSPELAN4, and SPPELAN modules into the baseline YOLOv11s significantly improves Precise Screening performance. Specifically, the combination of these modules elevates the precision and recall. The best setup, “Baseline + WIoU + RepNCSPELAN4 + SPPELAN,” shows better performance on all tested metrics, making it the best model for analyzing fetal echocardiograms.
+Ablation Study of TY-PS Components
+(Baseline + WIOU + RepNCSPELAN4 + SPPELAN)
+To validate the effectiveness of our proposed two-stage pipeline (screening followed by diagnosis), we conducted an ablation study comparing it against an end-to-end multi-class classification approach. As a baseline, we trained models (EfficientNetV2, ResNet, Swin Transformer) to directly classify images into four categories: Normal, CoA, IAA, and TGA. The results presented in Table 8 demonstrate that our two-stage TLEUDS system outperforms this end-to-end baseline, justifying our architectural design.
+Ablation Study on Precise Screening Strategy: End-to-End Four-Class Classification vs. The Two-Stage Pipeline. In the model evaluation of the four-category task, each category is combined with the other three categories to form a binary classification task for index calculation
+(0.848–0.965)
+(0.929–0.967)
+(0.940–0.987)
+(0.908-1.000)
+(0.976–0.994)
+(0.971–0.999)
+(0.796–0.920)
+(0.977–0.995)
+(0.908–0.977)
+(0.917–0.959)
+(0.870–0.939)
+(0.944–0.977)
+(0.769–0.919)
+(0.968–0.990)
+(0.907–0.970)
+(0.815–0.957)
+(0.991-1.000)
+(0.869–0.974)
+(0.816–0.942)
+(0.987–0.998)
+(0.897–0.969)
+(0.964–0.991)
+(0.810–0.895)
+(0.922–0.961)
+(0.821–0.949)
+(0.951–0.978)
+(0.927–0.982)
+(0.908-1.000)
+(0.950–0.978)
+(0.958–0.999)
+(0.824–0.939)
+(0.938–0.970)
+(0.908–0.972)
+(0.927–0.969)
+(0.880–0.947)
+(0.940–0.975)
+(0.810-1.000)
+(0.968-1.000)
+(0.993-1.000)
+(0.932–0.992)
+(1.000–1.000)
+(0.976-1.000)
+(0.786–0.977)
+(0.921–0.986)
+(0.911–0.989)
+(0.993-1.000)
+(0.930–0.982)
+(0.984–0.998)
+
+[Table] Ablation Study: Precise Screening Performance of the Proposed TY-PS Model Versus YOLO Baselines. General method: Train a precision screening model using abnormal data and evaluate its performance on the abnormal data set. Hybrid Training: Mix normal and abnormal data sets for model training and evaluate its performance on the abnormal data set. Structure-Enhanced Transfer Learning: The model is trained on normal data set to learn normal anatomical structure knowledge, and then the model weight is transferred to abnormal data set for further training to learn abnormal anatomical structure features and evaluate its performance on abnormal data set
+  |  | Y-PS (YOLOv11-Precise Screening) |  |  |  |  | 
+  | Y-PS (YOLOv11-Precise Screening) |  |  |  |  | 
+  | TY-PS Transfer-YOLOv11-Precise Screening | Structure-Enhanced Transfer Learning (Our method) |  |  |  | 
+
+[Table] Fine-grained Performance Comparison on Congenital Heart Disease Diagnosis: YOLOv11m Baseline vs. the Proposed Precise Screening Models. As shown in Fig. 3, coa, tga, and iaa indicate the precise locations of disease lesions, while CoA, TGA, and IAA represent the overall lesion locations. In case of discrepancies between precise and overall localization results, the precise localization outcome takes precedence
+  |  | Structure-Enhanced Transfer Learning (Our method) |  |  |  |  |  | 
+  |  | Structure-Enhanced Transfer Learning (Our method) |  |  |  |  |  | 
+
+[Table] Ablation Study of TY-PS Components
+  | TY-PS (Baseline + WIOU + RepNCSPELAN4 + SPPELAN) |  |  |  | 
+
+[Table] Ablation Study on Precise Screening Strategy: End-to-End Four-Class Classification vs. The Two-Stage Pipeline. In the model evaluation of the four-category task, each category is combined with the other three categories to form a binary classification task for index calculation
+  |  |  | 0.909 (0.848–0.965) | 0.949 (0.929–0.967) | 0.967 (0.940–0.987)
+  |  | 0.959 (0.908-1.000) | 0.988 (0.976–0.994) | 0.990 (0.971–0.999)
+  |  | 0.860 (0.796–0.920) | 0.989 (0.977–0.995) | 0.943 (0.908–0.977)
+  |  | 0.938 (0.917–0.959) | 0.907 (0.870–0.939) | 0.961 (0.944–0.977)
+  |  |  | 0.848 (0.769–0.919) | 0.979 (0.968–0.990) | 0.940 (0.907–0.970)
+  |  | 0.892 (0.815–0.957) | 0.998 (0.991-1.000) | 0.928 (0.869–0.974)
+  |  | 0.883 (0.816–0.942) | 0.993 (0.987–0.998) | 0.936 (0.897–0.969)
+  |  | 0.978 (0.964–0.991) | 0.855 (0.810–0.895) | 0.943 (0.922–0.961)
+  |  |  | 0.886 (0.821–0.949) | 0.965 (0.951–0.978) | 0.957 (0.927–0.982)
+  |  | 0.959 (0.908-1.000) | 0.966 (0.950–0.978) | 0.983 (0.958–0.999)
+  |  | 0.888 (0.824–0.939) | 0.954 (0.938–0.970) | 0.945 (0.908–0.972)
+  |  | 0.951 (0.927–0.969) | 0.914 (0.880–0.947) | 0.959 (0.940–0.975)
+  |  |  | 0.941 (0.810-1.000) | 0.987 (0.968-1.000) | 0.998 (0.993-1.000)
+  |  | 0.966 (0.932–0.992) | 1.000 (1.000–1.000) | 0.991 (0.976-1.000)
+  |  | 0.900 (0.786–0.977) | 0.956 (0.921–0.986) | 0.954 (0.911–0.989)
+  |  | 0.998 (0.993-1.000) | 0.959 (0.930–0.982) | 0.992 (0.984–0.998)
+
+## DISCUSSION
+In this study, we developed a quality- and knowledge-enhanced cascade dual-transfer learning system for fetal CHD screening, using fetal duct-dependent CHD as a case study. The system achieves a closed-loop process from initial disease detection (TEN-S) to detailed screening of specific malformations (TY-PS). Experimental results demonstrate that this approach outperforms conventional methods in the precise identification of CoA, TGA, and IAA. The fetal echocardiographic analysis framework we propose can be extended to other CHD studies.
+To further validate the effectiveness of our approach, we compared the performance of the TLEUDS framework with other state-of-the-art studies. As shown in Table 4, our screening method (TEN-S) outperforms other studies in key metrics such as AUC-ROC, sensitivity, and specificity. Specifically, after transfer learning, the TEN-S module improved AUC-ROC from 0.981 to 0.997, sensitivity from 0.958 to 0.988, and specificity from 0.958 to 0.988. These results indicate that the transfer learning strategy effectively enhances the model’s ability to distinguish between normal and abnormal ultrasound images, particularly in improving the accuracy of abnormal case identification. We used Grad-CAM to compare the original EfficientNetV2-S and the post-transfer model (TEN-S) to see how domain-knowledge-based transfer learning worked, as shown in Fig. 6. The results indicated that the original model was more vulnerable to extraneous information in the image, whereas the post-transfer model was more adept at pinpointing critical lesion areas.
+The TY-PS module also showed superior performance in key metrics such as Precision, mAP@0.5, and Recall compared to the original YOLOv11s model after transfer learning. Tables 5 and 6 shows that TY-PS got a Precision of 0.825 and a mAP@0.5 of 0.887 in the normal sample classification task. In the abnormal sample classification task, Precision went up to 0.945 and mAP@0.5 went up to 0.917. In the normal-to-abnormal transfer learning task, TY-PS showed a Precision of 0.957 and a mAP@0.5 of 0.921, which means that transfer learning made a big difference in performance. After transfer, different YOLO models also did better than the original abnormal detection task.
+The TLEUDS framework covers the whole process, from screening to diagnosis, thanks to the cascading design of the TEN-S screening module and the TY-PS Precise Screening module. TEN-S, which uses the transferred EfficientNetV2-S, can tell the difference between normal and abnormal fetal hearts even when there isn’t much data. TY-PS, on the other hand, uses the transferred YOLOv11s to find and classify lesions accurately for small-sample lesions. The TLEUDS framework works very well with only a small amount of annotated data, but it still needs a lot of annotations, which is a big problem. Future research will investigate techniques to comprehensively characterize aortic arch abnormalities with minimal oversight and further refine the synergistic mechanism between the two modules to improve model robustness in actual clinical settings.
+
+## CONCLUSION AND PERSPECTIVE
+In this study, we introduced the Transfer Learning Enhanced Ultrasound Precise Screening System (TLEUDS), a novel framework consisting of the TEN-S screening module and the TY-PS Precise Screening module. We were able to improve the detection accuracy of abnormalities in the aortic arch section in fetal prenatal ultrasound images by employing domain-knowledge-driven transfer learning. According to our findings, the TLEUDS framework demonstrated excellent performance on both internal and external independent validation datasets (WHCC, XQH), showing robust generalization capability, particularly in scenarios with limited samples. Since there is frequently a lack of high-quality annotated data for ultrasound image analysis, this finding is especially important. The early diagnosis and treatment of related diseases may be enhanced by our model’s exceptional sensitivity to minute anatomical changes.
+Although TLEUDS demonstrated outstanding performance in this study, it still has some limitations, several limitations remain. First, although external datasets were used for validation, the training data primarily originated from a single-center internal dataset (comprising both routine-quality and high-quality subsets). Its generalizability across broader populations and varied equipment requires further confirmation. Secondly, from a methodological perspective, the current analysis is based solely on two-dimensional ultrasound images and does not incorporate key functional information such as Color Doppler Flow Mapping (CFM). This may limit performance in diagnosing flow-dependent anomalies like interrupted aortic arch. Third, the current framework’s performance is partly dependent on a substantial amount of annotated data for pre-training and fine-tuning.
+Addressing these limitations, future work will focus on: conducting prospective, multi-center clinical studies to comprehensively evaluate the robustness and clinical utility of TLEUDS in real-world settings; specifically, we will investigate how the system can serve as an assistive tool to improve diagnostic consistency for sonographers with varying expertise, quantifying its efficacy within actual clinical workflows. Concurrently, we will develop algorithms that integrate multimodal data such as CFM to enhance the comprehensive identification of complex lesions, and further optimize the framework’s efficiency while exploring its application under weakly supervised learning paradigms.
+
+## FUTURE PERSPECTIVES
+Although TLEUDS demonstrated outstanding performance in this study, it still has some limitations, several limitations remain. First, although external datasets were used for validation, the training data primarily originated from a single-center internal dataset (comprising both routine-quality and high-quality subsets). Its generalizability across broader populations and varied equipment requires further confirmation. Secondly, from a methodological perspective, the current analysis is based solely on two-dimensional ultrasound images and does not incorporate key functional information such as Color Doppler Flow Mapping (CFM). This may limit performance in diagnosing flow-dependent anomalies like interrupted aortic arch. Third, the current framework’s performance is partly dependent on a substantial amount of annotated data for pre-training and fine-tuning.
+Addressing these limitations, future work will focus on: conducting prospective, multi-center clinical studies to comprehensively evaluate the robustness and clinical utility of TLEUDS in real-world settings; specifically, we will investigate how the system can serve as an assistive tool to improve diagnostic consistency for sonographers with varying expertise, quantifying its efficacy within actual clinical workflows. Concurrently, we will develop algorithms that integrate multimodal data such as CFM to enhance the comprehensive identification of complex lesions, and further optimize the framework’s efficiency while exploring its application under weakly supervised learning paradigms.
+
+## SUPPLEMENTARY INFORMATION
+Below is the link to the electronic supplementary material.
+Supplementary Material 1
+
+## AUTHOR CONTRIBUTIONS
+1. , L.L., Y.J., J.T. conceived, designed the study. Y.L., Y.Z., J.W. collected data. Q.W., Y.L., Y.Z., H.W., J.W., X.H. performed imaging annotation. Y.J., J.T., performed the experiments. Y.J., J.T., F.Z., conducted the data analysis and mapping. Y.J., J.T., H.W., L.L. All authors reviewed and approved the final version of the manuscript.
+
+## FUNDING
+This research was funded by the STI 2030—Major Projects 2021ZD0200500, the National Natural Science Foundation of China (61936013), Basic Research Program of Guangzhou Science and Technology Bureau (SL2022A03J01132), the Key Technology Research and Development Project of the Science and Technology Bureau of Shapingba District, Chongqing (20240105) and the Key Project for Young Doctoral Talent Incubation of the Second Affiliated Hospital of the Army Medical University (2024YQB020), Beijing Hospital Authority Clinical Medicine Development special funding support (ZLRK202333). The numerical calculations in this paper were supported by the Supercomputing Center of Wuhan University.
+
+## DATA AVAILABILITY
+The data generated and/or analyzed during the current study are available upon reasonable request from the corresponding author. The data can be accessed only for research purposes. Researchers interested in using our data must provide a summary of the research they intend to conduct. The reviews will be completed within 2 weeks and then a decision will be sent to the applicant. The data are not publicly available due to hospital regulation restrictions.
+
+## DECLARATIONS
+This study was conducted in accordance with the principles outlined in the Declaration of Helsinki and was reviewed and approved by the Ethics Committee of Guangzhou Women and Children’s Medical Center (Approval Number: 358080). The ethics committee granted a waiver of informed consent for this retrospective analysis of anonymized ultrasound imaging data.
+Not applicable.
+The authors declare no competing interests.
+
+## ETHICS APPROVAL AND CONSENT TO PARTICIPATE
+This study was conducted in accordance with the principles outlined in the Declaration of Helsinki and was reviewed and approved by the Ethics Committee of Guangzhou Women and Children’s Medical Center (Approval Number: 358080). The ethics committee granted a waiver of informed consent for this retrospective analysis of anonymized ultrasound imaging data.
+
+## CONSENT FOR PUBLICATION
+Not applicable.
+
+## COMPETING INTERESTS
+The authors declare no competing interests.
+
+## FOOTNOTES
+Publisher’s note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Yuxuan Jiang and Jiajie Tang contributed equally to this work.
+
+## CONTRIBUTOR INFORMATION
+Hongying Wang, Email: why0118@gwcmc.org.
+Long Lu, Email: whumil@126.com.
+
+## REFERENCES
+
+## ASSOCIATED DATA
+Supplementary Material 1
+The data generated and/or analyzed during the current study are available upon reasonable request from the corresponding author. The data can be accessed only for research purposes. Researchers interested in using our data must provide a summary of the research they intend to conduct. The reviews will be completed within 2 weeks and then a decision will be sent to the applicant. The data are not publicly available due to hospital regulation restrictions.
+
+## SUPPLEMENTARY MATERIALS
+Supplementary Material 1
+
+## DATA AVAILABILITY STATEMENT
+The data generated and/or analyzed during the current study are available upon reasonable request from the corresponding author. The data can be accessed only for research purposes. Researchers interested in using our data must provide a summary of the research they intend to conduct. The reviews will be completed within 2 weeks and then a decision will be sent to the applicant. The data are not publicly available due to hospital regulation restrictions.

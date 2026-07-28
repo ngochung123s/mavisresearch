@@ -1,0 +1,2277 @@
+[
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\01_San phu khoa\\03_Preeclampsia_Screening\\Preeclampsia_Screening_2026-06-22.md",
+    "passed": false,
+    "failed_count": 5,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "6/10",
+        "threshold": "10/10",
+        "message": "Missing: ['CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'THEO DÕI', 'TÓM TẮT']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "32",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "6",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "55",
+        "threshold": "5",
+        "message": "Found: ACOG(16), SMFM(2), NICE(8), FIGO(19), WHO(7), Tier0citations(3)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": false,
+        "value": "9",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": false,
+        "value": "9",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "99.86%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "1",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "62 covered / 1 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "20808 chars / 449 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\01_San phu khoa\\04_Tu_cung_nhi_hoa\\Tu_cung_nhi_hoa_2026-06-23.md",
+    "passed": false,
+    "failed_count": 6,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "8/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TIPS', 'BẰNG CHỨNG']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "16",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": false,
+        "value": "5",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "19",
+        "threshold": "5",
+        "message": "Found: ACOG(1), ASRM(12), ESHRE(6)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": false,
+        "value": "8",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": false,
+        "value": "8",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "1",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "24 covered / 13 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "18737 chars / 342 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\01_San phu khoa\\05_Sinh_ly_chuyen_da_Do_de\\Sinh_ly_chuyen_da_Do_de_2026-06-23.md",
+    "passed": false,
+    "failed_count": 3,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "6/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TỔNG QUAN', 'CHẨN ĐOÁN', 'TIPS', 'BẰNG CHỨNG']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "17",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "8",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "51",
+        "threshold": "5",
+        "message": "Found: ACOG(18), RCOG(4), NICE(1), FIGO(7), WHO(16), Tier0citations(5)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "10",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "10",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "4 covered / 2 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "24103 chars / 384 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\01_San phu khoa\\06_Asherman_Syndrome\\Asherman_Syndrome_2026-06-23.md",
+    "passed": false,
+    "failed_count": 3,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "9/10",
+        "threshold": "10/10",
+        "message": "Missing: ['BẰNG CHỨNG']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "27",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "12",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": false,
+        "value": "0",
+        "threshold": "5",
+        "message": ""
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "14",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "10",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": true,
+        "value": "10",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "2",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "59 covered / 20 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "27062 chars / 413 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\01_San phu khoa\\07_De_chi_huy_OVD\\De_chi_huy_OVD_2026-06-23.md",
+    "passed": false,
+    "failed_count": 3,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "4/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TỔNG QUAN', 'CƠ CHẾ', 'CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'TIPS', 'BẰNG CHỨNG']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "15",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "10",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "36",
+        "threshold": "5",
+        "message": "Found: ACOG(16), RCOG(11), NICE(3), SOGC(2), FIGO(1), Tier0citations(3)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "11",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "11",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "22 covered / 15 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "23688 chars / 420 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\02_Ho tro sinh san ART\\07_OHSS\\OHSS_Prevention_Management_2026-06-14.md",
+    "passed": false,
+    "failed_count": 6,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "3/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TỔNG QUAN', 'ĐỊNH NGHĨA', 'CHẨN ĐOÁN', 'THEO DÕI', 'TIPS', 'BẰNG CHỨNG', 'TÀI LIỆU THAM KHẢO']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "12",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "11",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "26",
+        "threshold": "5",
+        "message": "Found: RCOG(5), ASRM(19), ESHRE(2)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": false,
+        "value": "1",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": false,
+        "value": "0",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": false,
+        "value": "4 covered / 14 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "12145 chars / 295 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\02_Ho tro sinh san ART\\08_Endometrial_Receptivity_ERA\\Endometrial_Receptivity_ERA_2026-06-16.md",
+    "passed": false,
+    "failed_count": 3,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "6/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TỔNG QUAN', 'CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'THEO DÕI']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "12",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "7",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "12",
+        "threshold": "5",
+        "message": "Found: ACOG(1), ASRM(2), ESHRE(9)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "14",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "14",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "24 covered / 14 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "16214 chars / 278 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\02_Ho tro sinh san ART\\10_ICSI\\ICSI_2026-06-20.md",
+    "passed": false,
+    "failed_count": 5,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "5/10",
+        "threshold": "10/10",
+        "message": "Missing: ['ĐỊNH NGHĨA', 'CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'THEO DÕI', 'TÓM TẮT']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "22",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "6",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "12",
+        "threshold": "5",
+        "message": "Found: ASRM(5), ESHRE(6), WHO(1)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": false,
+        "value": "4",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": false,
+        "value": "4",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "2",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "34 covered / 17 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "19017 chars / 406 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\02_Ho tro sinh san ART\\12_Luteal_Phase_Support\\Luteal_Phase_Support_2026-06-22.md",
+    "passed": false,
+    "failed_count": 3,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "5/10",
+        "threshold": "10/10",
+        "message": "Missing: ['ĐỊNH NGHĨA', 'CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'THEO DÕI', 'TÓM TẮT']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "20",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "8",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "6",
+        "threshold": "5",
+        "message": "Found: ASRM(2), ESHRE(4)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": false,
+        "value": "9",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "10",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": true,
+        "value": "12",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "2",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "13 covered / 3 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "21299 chars / 324 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\03_Sieu am thai\\01_Sieu am tim thai\\Sieu am tim thai - sieu chi tiet - 2026-06-19.md",
+    "passed": false,
+    "failed_count": 4,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "0/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TỔNG QUAN', 'ĐỊNH NGHĨA', 'CƠ CHẾ', 'CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'THEO DÕI', 'TÓM TẮT', 'TIPS', 'BẰNG CHỨNG', 'TÀI LIỆU THAM KHẢO']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "25",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "22",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "40",
+        "threshold": "5",
+        "message": "Found: ACOG(1), ISUOG(37), NICE(2)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "82",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": false,
+        "value": "0",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "138 covered / 49 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "117318 chars / 1002 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\03_Sieu am thai\\09_Cervical_Length_PTB\\Cervical_Length_Preterm_Birth_2026-06-17.md",
+    "passed": false,
+    "failed_count": 4,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "5/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TỔNG QUAN', 'ĐỊNH NGHĨA', 'CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'THEO DÕI']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "23",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "9",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "29",
+        "threshold": "5",
+        "message": "Found: ACOG(15), RCOG(3), ISUOG(6), SMFM(3), WHO(2)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "20",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": false,
+        "value": "0",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "27 covered / 4 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "22120 chars / 440 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\03_Sieu am thai\\11_First_Trimester_Screening\\First_Trimester_Screening_2026-06-22.md",
+    "passed": false,
+    "failed_count": 5,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "4/10",
+        "threshold": "10/10",
+        "message": "Missing: ['ĐỊNH NGHĨA', 'CƠ CHẾ', 'CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'THEO DÕI', 'TÓM TẮT']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "19",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "6",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "26",
+        "threshold": "5",
+        "message": "Found: ACOG(4), ISUOG(15), SMFM(2), Tier0citations(5)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": false,
+        "value": "7",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": false,
+        "value": "7",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "1",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "50 covered / 5 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "18764 chars / 410 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\03_Sieu am thai\\12_FGR_Doppler_UmbA_MCA\\Topic_2026-06-23.md",
+    "passed": false,
+    "failed_count": 2,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": true,
+        "value": "10/10",
+        "threshold": "10/10",
+        "message": ""
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "21",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": false,
+        "value": "5",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "32",
+        "threshold": "5",
+        "message": "Found: ACOG(1), ISUOG(12), SMFM(16), FIGO(3)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "12",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "15",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": true,
+        "value": "10",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "1",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "20 covered / 6 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "21247 chars / 335 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\09_Long_GnRH_Agonist\\Long_GnRH_Agonist_Protocol_2026-06-18.md",
+    "passed": false,
+    "failed_count": 4,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "7/10",
+        "threshold": "10/10",
+        "message": "Missing: ['ĐỊNH NGHĨA', 'CHẨN ĐOÁN', 'TÓM TẮT']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "18",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": false,
+        "value": "4",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "7",
+        "threshold": "5",
+        "message": "Found: ACOG(1), RCOG(1), ASRM(4), ESHRE(1)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "10",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "10",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "1",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "14 covered / 8 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "20879 chars / 376 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\10_Fetal_Doppler\\Fetal_Doppler_2026-06-19.md",
+    "passed": false,
+    "failed_count": 4,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "5/10",
+        "threshold": "10/10",
+        "message": "Missing: ['ĐỊNH NGHĨA', 'CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'THEO DÕI', 'TÓM TẮT']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "25",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": false,
+        "value": "5",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "21",
+        "threshold": "5",
+        "message": "Found: ISUOG(7), SMFM(9), Tier0citations(5)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "13",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "12",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "1",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "38 covered / 2 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "22512 chars / 419 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\Adenomyosis_ART_2026-06-13.md",
+    "passed": false,
+    "failed_count": 5,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "4/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TỔNG QUAN', 'CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'THEO DÕI', 'TÓM TẮT', 'BẰNG CHỨNG']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "24",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": false,
+        "value": "4",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": false,
+        "value": "0",
+        "threshold": "5",
+        "message": ""
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "14",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "12",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "61 covered / 1 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "14930 chars / 293 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\AndroGel_ART_2026-06-13.md",
+    "passed": false,
+    "failed_count": 5,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "4/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TỔNG QUAN', 'ĐỊNH NGHĨA', 'CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'THEO DÕI', 'TÓM TẮT']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "29",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": false,
+        "value": "5",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "5",
+        "threshold": "5",
+        "message": "Found: ASRM(1), ESHRE(4)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": false,
+        "value": "4",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "10",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "15 covered / 12 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "18213 chars / 342 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\De_chi_huy_Oxytocin_2026-06-23.md",
+    "passed": false,
+    "failed_count": 4,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "5/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TỔNG QUAN', 'CHẨN ĐOÁN', 'TÓM TẮT', 'TIPS', 'BẰNG CHỨNG']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "56",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "17",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "40",
+        "threshold": "5",
+        "message": "Found: ACOG(14), RCOG(8), SMFM(4), NICE(4), FIGO(2), WHO(8)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "28",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "46",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": false,
+        "value": "11 covered / 20 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "43066 chars / 938 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\duostim_summary.md",
+    "passed": false,
+    "failed_count": 8,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "4/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TỔNG QUAN', 'ĐỊNH NGHĨA', 'CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'THEO DÕI', 'TIPS']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "13",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": false,
+        "value": "2",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "5",
+        "threshold": "5",
+        "message": "Found: RCOG(1), ASRM(2), ESHRE(2)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": false,
+        "value": "3",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": false,
+        "value": "0",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": false,
+        "value": "0 covered / 1 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": false,
+        "value": "5897 chars / 177 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\Endometrial_Receptivity_Advanced_US_2026-06-21.md",
+    "passed": false,
+    "failed_count": 5,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "5/10",
+        "threshold": "10/10",
+        "message": "Missing: ['ĐỊNH NGHĨA', 'CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'THEO DÕI', 'TÓM TẮT']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": false,
+        "value": "0",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": false,
+        "value": "2",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "22",
+        "threshold": "5",
+        "message": "Found: ESHRE(18), Tier0citations(4)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "13",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "13",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "22 covered / 0 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "15892 chars / 277 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\Endometriosis_2026-06-13.md",
+    "passed": false,
+    "failed_count": 6,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "6/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TỔNG QUAN', 'TÓM TẮT', 'TIPS', 'BẰNG CHỨNG']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "32",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": false,
+        "value": "4",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": false,
+        "value": "2",
+        "threshold": "5",
+        "message": "Found: ESHRE(2)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "15",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "13",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": false,
+        "value": "10 covered / 9 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "23989 chars / 381 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\FET_Endometriosis_2026-06-13.md",
+    "passed": false,
+    "failed_count": 5,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "4/10",
+        "threshold": "10/10",
+        "message": "Missing: ['ĐỊNH NGHĨA', 'CƠ CHẾ', 'CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'THEO DÕI', 'TIPS']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "28",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": false,
+        "value": "3",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": false,
+        "value": "1",
+        "threshold": "5",
+        "message": "Found: ACOG(1)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "12",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "11",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "9 covered / 0 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "21082 chars / 362 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\MCMA_2026-06-13.md",
+    "passed": false,
+    "failed_count": 3,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "6/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TỔNG QUAN', 'ĐIỀU TRỊ', 'TIPS', 'BẰNG CHỨNG']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "19",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "6",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "8",
+        "threshold": "5",
+        "message": "Found: ACOG(3), RCOG(2), ISUOG(3)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "10",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "10",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": true,
+        "value": "44 covered / 9 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "17301 chars / 285 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\Oxytocin_Induction_Guideline_2026-06-23.md",
+    "passed": false,
+    "failed_count": 5,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "6/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TỔNG QUAN', 'CƠ CHẾ', 'CHẨN ĐOÁN', 'BẰNG CHỨNG']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "47",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "11",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "76",
+        "threshold": "5",
+        "message": "Found: ACOG(34), RCOG(9), SMFM(8), NICE(7), FIGO(6), WHO(12)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": false,
+        "value": "6",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "17",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": false,
+        "value": "3 covered / 50 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "36648 chars / 644 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\09_Source - Markdown\\Oxytocin_Mechanism_2026-06-23.md",
+    "passed": false,
+    "failed_count": 4,
+    "results": [
+      {
+        "name": "Required sections (9 keywords)",
+        "passed": false,
+        "value": "3/10",
+        "threshold": "10/10",
+        "message": "Missing: ['TỔNG QUAN', 'ĐỊNH NGHĨA', 'CHẨN ĐOÁN', 'ĐIỀU TRỊ', 'THEO DÕI', 'TIPS', 'BẰNG CHỨNG']"
+      },
+      {
+        "name": "Subsections (### X.Y)",
+        "passed": true,
+        "value": "41",
+        "threshold": "12",
+        "message": ""
+      },
+      {
+        "name": "Markdown tables",
+        "passed": true,
+        "value": "7",
+        "threshold": "6",
+        "message": ""
+      },
+      {
+        "name": "Guideline mentions",
+        "passed": true,
+        "value": "21",
+        "threshold": "5",
+        "message": "Found: ACOG(11), RCOG(4), SMFM(2), WHO(4)"
+      },
+      {
+        "name": "Unique PMIDs",
+        "passed": true,
+        "value": "40",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Papers in References",
+        "passed": true,
+        "value": "45",
+        "threshold": "10",
+        "message": ""
+      },
+      {
+        "name": "Tips bullets (Section 7)",
+        "passed": false,
+        "value": "0",
+        "threshold": "8",
+        "message": ""
+      },
+      {
+        "name": "Vietnam context (Section 8) — OPTIONAL",
+        "passed": true,
+        "value": "skipped",
+        "threshold": "n/a",
+        "message": "Section 8 không bắt buộc — user không cần data VN (2026-06-23)"
+      },
+      {
+        "name": "Vietnamese diacritics ratio",
+        "passed": true,
+        "value": "100.00%",
+        "threshold": "80%",
+        "message": ""
+      },
+      {
+        "name": "Epidemiology in overview",
+        "passed": false,
+        "value": "0",
+        "threshold": "3",
+        "message": "Section 0 needs ≥3 epi keywords"
+      },
+      {
+        "name": "Specific claims have PMID nearby",
+        "passed": false,
+        "value": "3 covered / 3 uncovered",
+        "threshold": "≥80% covered",
+        "message": ""
+      },
+      {
+        "name": "Total size (proxy for depth)",
+        "passed": true,
+        "value": "46121 chars / 661 lines",
+        "threshold": "12000/250",
+        "message": ""
+      }
+    ]
+  }
+]

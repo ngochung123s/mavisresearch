@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sinh lý chuyển dạ &amp;amp; Hướng dẫn đỡ đẻ</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+
+<header class="text-center py-12 mb-12 glass rounded-3xl shadow-lg">
+  <div class="inline-block px-4 py-1 mb-4 rounded-full bg-pink-200 text-pink-800 text-sm font-semibold">
+    Chuyên khoa: Sản phụ khoa
+  </div>
+  <h1 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800">Sinh lý chuyển dạ &amp; Hướng dẫn đỡ đẻ</h1>
+  <p class="text-stone-600 text-lg">Ngày 23/06/2026 | Cho bác sĩ sản phụ khoa</p>
+  <p class="text-sm text-stone-500 mt-2">Bác sĩ: <strong>Ngọc 🍅 🐈‍⬛</strong> | AI: <strong>MiniMax Mavis</strong></p>
+</header>
+<main class="max-w-6xl mx-auto space-y-8">
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">🎯 TỔNG QUAN</h2>
+  <p class="text-stone-700 mb-4">
+    Bài học gồm <strong>2 phần chính</strong>:
+  </p>
+  <ol class="list-decimal pl-8 mb-4 text-stone-700 space-y-2">
+    <li><strong>Sinh lý chuyển dạ</strong> — cơ chế khởi phát (parturition cascade), 3 giai đoạn lâm sàng, mô hình 3P, cardinal movements.</li>
+    <li><strong>Quản lý đỡ đẻ thực hành</strong> — theo dõi FHR (ACOG CPG #10/2025), WHO Labor Care Guide 2023, đỡ đẻ thường, AMTSL, xử trí biến cố.</li>
+  </ol>
+  <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r mt-4">
+    <p class="text-amber-900"><strong>📌 Thay đổi quan trọng (2023-2025):</strong></p>
+    <ul class="list-disc pl-6 mt-2 text-amber-900 space-y-1">
+      <li><strong>WHO Labor Care Guide 2023</strong> thay Partograph — 2 ngưỡng (alert/action), theo dõi đau, tư thế tự do.</li>
+      <li><strong>ACOG bỏ Friedman curve</strong> (2014) — tốc độ mở chậm hơn vẫn OK nếu thai khỏe.</li>
+      <li><strong>ACOG CPG #10 (2025)</strong> phân loại FHR: Category I/II/III (PMID 40966736).</li>
+    </ul>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">🧬 CƠ CHẾ KHỞI PHÁT CHUYỂN DẠ (PARTURITION CASCADE)</h2>
+  <p class="text-stone-700 mb-4">
+    Khởi phát chuyển dạ là kết quả của <strong>nhiều pathway song song</strong> hội tụ: cơ tử cung chuyển từ trạng thái nghỉ (quiescent) sang co bóp đồng bộ.
+  </p>
+
+  <h3 class="text-xl font-bold text-pink-600 mt-6 mb-3">Flowchart: Vòng feedback khởi phát</h3>
+  <div class="bg-white rounded-xl p-4 shadow-inner overflow-x-auto">
+    <pre class="mermaid">
+flowchart TD
+    A[Thai nhi trưởng thành trục HPA] --> B[Tuyến thượng thận thai nhi<br/>tăng cortisol]
+    B --> C[Nhau thai: 11β-HSD1, CYP17<br/>tăng tổng hợp ESTROGEN]
+    B --> D[Nhau thai tăng CRH]
+    C --> E[Tăng connexin-43<br/>gap junction]
+    C --> F[Tăng thụ thể OTR<br/>oxytocin receptor]
+    C --> G[Tăng COX-2<br/>prostaglandin]
+    D --> H[Khuếch đại cortisol thai nhi<br/>positive feedback]
+    E --> I[Tử cung co bóp đồng bộ]
+    F --> I
+    G --> J[Prostaglandin PGE2, PGF2α]
+    J --> F
+    J --> K[Cổ tử cung chín muồi<br/>collagen phân giải, HA tăng]
+    K --> I
+    I --> L[CHUYỂN DẠ]
+
+    style A fill:#fce7f3,stroke:#be185d
+    style I fill:#fce7f3,stroke:#be185d
+    style L fill:#fbcfe8,stroke:#be185d,stroke-width:3px
+    </pre>
+  </div>
+
+  <h3 class="text-xl font-bold text-pink-600 mt-6 mb-3">Cervical ripening — bảng tổng hợp</h3>
+  <div class="overflow-x-auto">
+    <table class="w-full border-collapse bg-white rounded-xl overflow-hidden shadow">
+      <thead class="bg-pink-100">
+        <tr>
+          <th class="border p-3 text-left">Thành phần</th>
+          <th class="border p-3 text-left">Trước chuyển dạ</th>
+          <th class="border p-3 text-left">Khi chín muồi</th>
+        </tr>
+      </thead>
+      <tbody class="text-stone-700">
+        <tr>
+          <td class="border p-3 font-bold">Collagen</td>
+          <td class="border p-3">Tổ chức chặt, dày đặc, cross-linked</td>
+          <td class="border p-3">Phân giải bởi MMPs, mất cross-link</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Hyaluronan (HA)</td>
+          <td class="border p-3">Ít</td>
+          <td class="border p-3"><strong>Tăng mạnh</strong> trong stroma, biểu mô, tế bào miễn dịch</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">Nước</td>
+          <td class="border p-3">~80% trọng lượng ẩm</td>
+          <td class="border p-3">Tăng hơn → mềm, phù</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Tế bào viêm</td>
+          <td class="border p-3">Ít</td>
+          <td class="border p-3"><strong>Tăng macrophage</strong> + cytokine IL-1, IL-6, IL-8, TNF-α</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">Mạch máu</td>
+          <td class="border p-3">Ít</td>
+          <td class="border p-3">Tăng tân tạo mạch</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm text-stone-500 mt-2"><em>Nguồn: Yellon 2019 (PMID 32038651), Mahendroo 2019 (PMID 29510230).</em></p>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">⚖️ MÔ HÌNH 3P — ĐÁNH GIÁ CHUYỂN DẠ</h2>
+  <p class="text-stone-700 mb-4">
+    Khi chuyển dạ chậm/đình trệ, dùng mô hình <strong>3P</strong> để xác định yếu tố bất thường:
+  </p>
+
+  <div class="grid md:grid-cols-3 gap-4 mb-6">
+    <div class="bg-pink-50 rounded-xl p-5 border-2 border-pink-300">
+      <h3 class="text-2xl font-bold text-pink-700 mb-2">💪 Power</h3>
+      <p class="text-stone-700 mb-2"><strong>Lực đẩy</strong></p>
+      <p class="text-stone-600 text-sm">Cơn co tử cung + cơ rặn</p>
+      <p class="text-stone-600 text-sm mt-2"><strong>Đánh giá:</strong> ≥3 co/10 phút, mỗi co ≥40 giây, đạt ≥200 MVU</p>
+      <p class="text-stone-600 text-sm mt-2"><strong>Xử trí nếu yếu:</strong> oxytocin low-dose (bắt đầu 2 mIU/phút)</p>
+    </div>
+    <div class="bg-pink-50 rounded-xl p-5 border-2 border-pink-300">
+      <h3 class="text-2xl font-bold text-pink-700 mb-2">🚪 Passage</h3>
+      <p class="text-stone-700 mb-2"><strong>Đường đi</strong></p>
+      <p class="text-stone-600 text-sm">Khung chậu + tầng sinh môn</p>
+      <p class="text-stone-600 text-sm mt-2"><strong>Đánh giá:</strong> khung chậu lâm sàng; theo dõi tiến triển bằng siêu âm/CTG</p>
+      <p class="text-stone-600 text-sm mt-2"><strong>Xử trí nếu hẹp:</strong> đánh giá mổ lấy thai</p>
+    </div>
+    <div class="bg-pink-50 rounded-xl p-5 border-2 border-pink-300">
+      <h3 class="text-2xl font-bold text-pink-700 mb-2">👶 Passenger</h3>
+      <p class="text-stone-700 mb-2"><strong>Hành khách</strong></p>
+      <p class="text-stone-600 text-sm">Thai + nhau + ối</p>
+      <p class="text-stone-600 text-sm mt-2"><strong>Đánh giá:</strong> cân nặng thai, ngôi thai, kiểu thế</p>
+      <p class="text-stone-600 text-sm mt-2"><strong>Xử trí nếu thai to/ngôi bất thường:</strong> forceps/vacuum/mổ</p>
+    </div>
+  </div>
+
+  <h3 class="text-xl font-bold text-pink-600 mt-6 mb-3">Algorithm: Xử trí chuyển dạ chậm</h3>
+  <div class="bg-white rounded-xl p-4 shadow-inner overflow-x-auto">
+    <pre class="mermaid">
+flowchart TD
+    A[Chuyển dạ chậm/đình trệ] --> B{Đánh giá 3P}
+    B --> C{Power yếu?}
+    B --> D{Passage hẹp?}
+    B --> E{Passenger bất thường?}
+
+    C -->|Có| F[Tăng co bằng oxytocin<br/>low-dose 2 mIU/phút]
+    F --> G{Co đủ sau 2-4 giờ?}
+    G -->|Có| H[Tiếp tục theo dõi]
+    G -->|Không| I[Cân nhắc mổ]
+
+    D -->|Có| I
+    E -->|Thai to| J[Forceps/Vacuum<br/>nếu đủ điều kiện]
+    E -->|Ngôi bất thường| K[Mổ lấy thai]
+    J -->|Thất bại| I
+
+    style A fill:#fce7f3,stroke:#be185d
+    style I fill:#fbcfe8,stroke:#be185d,stroke-width:2px
+    style H fill:#d1fae5,stroke:#10b981
+    </pre>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">📊 3 GIAI ĐOẠN LÂM SÀNG CỦA CHUYỂN DẠ</h2>
+
+  <h3 class="text-xl font-bold text-pink-600 mt-6 mb-3">Bảng tổng hợp ngưỡng thời gian theo ACOG</h3>
+  <div class="overflow-x-auto">
+    <table class="w-full border-collapse bg-white rounded-xl overflow-hidden shadow">
+      <thead class="bg-pink-100">
+        <tr>
+          <th class="border p-3 text-left">Giai đoạn</th>
+          <th class="border p-3 text-left">Con so</th>
+          <th class="border p-3 text-left">Con rạ</th>
+        </tr>
+      </thead>
+      <tbody class="text-stone-700">
+        <tr>
+          <td class="border p-3 font-bold">Latent (tiềm thời)</td>
+          <td class="border p-3">≤ 20 giờ</td>
+          <td class="border p-3">≤ 14 giờ</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Active (đình trệ, co đủ)</td>
+          <td class="border p-3">≥ 4 giờ không mở thêm</td>
+          <td class="border p-3">≥ 3 giờ không mở thêm</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">Active (đình trệ, co không đủ)</td>
+          <td class="border p-3">≥ 6 giờ</td>
+          <td class="border p-3">≥ 4 giờ</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Giai đoạn II (không gây tê)</td>
+          <td class="border p-3">≤ 3 giờ</td>
+          <td class="border p-3">≤ 2 giờ</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">Giai đoạn II (có epidural)</td>
+          <td class="border p-3">≤ 4 giờ</td>
+          <td class="border p-3">≤ 3 giờ</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Giai đoạn III (sổ nhau)</td>
+          <td class="border p-3" colspan="2">≤ 30 phút (cân nhắc can thiệp)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm text-stone-500 mt-2"><em>Nguồn: ACOG 2014 (cập nhật còn dùng đến 2025), Cohen &amp; Friedman 2023 (PMID 36973092).</em></p>
+
+  <h3 class="text-xl font-bold text-pink-600 mt-6 mb-3">Tốc độ mở cổ tử cung — đồ thị minh họa</h3>
+  <div class="bg-white rounded-xl p-4 shadow-inner">
+    <canvas id="chartDilatation" width="800" height="350"></canvas>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">🔄 CARDINAL MOVEMENTS (7 bước truyền thống)</h2>
+  <p class="text-stone-700 mb-4">
+    Mô tả thứ tự thai nhi "lọt và xoay" qua đường đẻ trong ngôi chỏm (theo Williams Obstetrics):
+  </p>
+
+  <div class="bg-white rounded-xl p-4 shadow-inner overflow-x-auto">
+    <pre class="mermaid">
+flowchart LR
+    A[1. Engagement<br/>Lọt] --> B[2. Descent<br/>Lọt xuống]
+    B --> C[3. Flexion<br/>Gấp cằm áp ngực]
+    C --> D[4. Internal Rotation<br/>Xoay trong → OA]
+    D --> E[5. Extension<br/>Ngửa đầu]
+    E --> F[6. External Rotation<br/>Restitution]
+    F --> G[7. Expulsion<br/>Vai trước → vai sau]
+
+    style A fill:#fce7f3,stroke:#be185d
+    style G fill:#fbcfe8,stroke:#be185d,stroke-width:2px
+    </pre>
+  </div>
+
+  <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r mt-4">
+    <p class="text-amber-900"><strong>⚠️ Quan điểm mới (Iversen 2021, PMID 34214716):</strong> chỉ <strong>4 movements</strong> thật (các chuyển động xoay: gấp, xoay trong, ngửa, xoay ngoài). Engagement, descent, expulsion được xem là <strong>sản phẩm của lực đẩy</strong>, không phải "movement" riêng. Hiện ACOG/Williams Obstetrics vẫn dùng 7 movements truyền thống.</p>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">📈 THEO DÕI TIM THAI TRONG CHUYỂN DẠ</h2>
+
+  <h3 class="text-xl font-bold text-pink-600 mb-3">Phân loại FIGO 2015 & ACOG CPG #10 (2025)</h3>
+  <div class="overflow-x-auto mb-4">
+    <table class="w-full border-collapse bg-white rounded-xl overflow-hidden shadow">
+      <thead class="bg-pink-100">
+        <tr>
+          <th class="border p-3 text-left">Đặc điểm</th>
+          <th class="border p-3 text-left">Bình thường</th>
+          <th class="border p-3 text-left">Bất thường / Xử trí</th>
+        </tr>
+      </thead>
+      <tbody class="text-stone-700">
+        <tr>
+          <td class="border p-3 font-bold">Baseline FHR</td>
+          <td class="border p-3">110–160 bpm</td>
+          <td class="border p-3">&lt;110 (nhịp chậm) hoặc &gt;160 (nhịp nhanh) — cần đánh giá</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Variability</td>
+          <td class="border p-3">5–25 bpm</td>
+          <td class="border p-3">&lt;5 bpm (giảm) — bất thường</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">Early decel</td>
+          <td class="border p-3">Lành tính (chép ép đầu)</td>
+          <td class="border p-3">—</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Late decel</td>
+          <td class="border p-3">—</td>
+          <td class="border p-3"><strong>Bất thường</strong> — suy nhau thai</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">Variable decel</td>
+          <td class="border p-3">Thường lành tính nếu ngắn + variability tốt</td>
+          <td class="border p-3">Kéo dài + giảm variability → xử trí</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Prolonged decel</td>
+          <td class="border p-3">—</td>
+          <td class="border p-3">&gt;2 phút — đánh giá ngay</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 class="text-xl font-bold text-pink-600 mt-6 mb-3">Algorithm: Xử trí FHR bất thường (Category III)</h3>
+  <div class="bg-white rounded-xl p-4 shadow-inner overflow-x-auto">
+    <pre class="mermaid">
+flowchart TD
+    A[Cat III / FHR bất thường] --> B[1. Ngưng oxytocin]
+    B --> C[2. Đổi tư thế mẹ<br/>nghiêng trái / knee-chest]
+    C --> D[3. Truyền dịch bolus<br/>500-1000 mL Ringer Lactate]
+    D --> E[4. Oxy mask mẹ 8-10 L/phút]
+    E --> F[5. Thăm khám<br/>kiểm tra sa dây rốn]
+    F --> G[6. Đánh giá lại sau 10 phút]
+    G -->|Cải thiện| H[Quay lại Cat I/II<br/>tiếp tục theo dõi]
+    G -->|Vẫn Cat III| I[MỔ CẤP CỨU<br/>decision-to-delivery ≤ 30 phút]
+
+    style A fill:#fee2e2,stroke:#dc2626
+    style I fill:#fca5a5,stroke:#dc2626,stroke-width:3px
+    style H fill:#d1fae5,stroke:#10b981
+    </pre>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">📋 WHO LABOR CARE GUIDE 2023 vs PARTOGRAPH</h2>
+
+  <div class="overflow-x-auto">
+    <table class="w-full border-collapse bg-white rounded-xl overflow-hidden shadow">
+      <thead class="bg-pink-100">
+        <tr>
+          <th class="border p-3 text-left">Thông số</th>
+          <th class="border p-3 text-left">Partograph cũ (1994)</th>
+          <th class="border p-3 text-left">WHO LCG 2023</th>
+        </tr>
+      </thead>
+      <tbody class="text-stone-700">
+        <tr>
+          <td class="border p-3 font-bold">Tốc độ mở</td>
+          <td class="border p-3">1 cm/giờ (Friedman) cho mọi đối tượng</td>
+          <td class="border p-3">≥1 cm/giờ từ 5 cm; chậm hơn OK nếu thai khỏe</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Ngưỡng cảnh báo</td>
+          <td class="border p-3">1 đường action</td>
+          <td class="border p-3"><strong>2 ngưỡng:</strong> alert (vàng, 4 giờ) + action (đỏ)</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">Theo dõi đau</td>
+          <td class="border p-3">Không</td>
+          <td class="border p-3">Có — đánh giá đau theo VAS mỗi lần</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Tư thế đẻ</td>
+          <td class="border p-3">Nằm ngửa cố định</td>
+          <td class="border p-3"><strong>Khuyến khích tư thế tự do</strong>, đi lại</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">Hỗ trợ tâm lý</td>
+          <td class="border p-3">Không nhấn mạnh</td>
+          <td class="border p-3"><strong>Companion during labor</strong> được khuyến cáo mạnh</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 class="text-xl font-bold text-pink-600 mt-6 mb-3">Biểu đồ: 4 nguyên tắc cốt lõi của WHO LCG 2023</h3>
+  <div class="bg-white rounded-xl p-4 shadow-inner">
+    <canvas id="chartLCG" width="800" height="350"></canvas>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">🤱 AMTSL — QUẢN LÝ TÍCH CỰC GIAI ĐOẠN III</h2>
+
+  <div class="bg-white rounded-xl p-4 shadow-inner overflow-x-auto mb-4">
+    <pre class="mermaid">
+flowchart LR
+    A[Sổ thai] --> B[1. Tiêm bắp oxytocin 10 IU<br/>trong vòng 1 phút]
+    B --> C[2. Kéo dây rốn có kiểm soát<br/>Brandt-Andrews]
+    C --> D[3. Xoa đáy tử cung<br/>qua bụng]
+    D --> E[Sổ nhau]
+    E --> F{Theo dõi 24 giờ}
+
+    style A fill:#fce7f3,stroke:#be185d
+    style E fill:#d1fae5,stroke:#10b981
+    style F fill:#fef3c7,stroke:#f59e0b
+    </pre>
+  </div>
+
+  <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r">
+    <p class="text-amber-900"><strong>📌 Lưu ý:</strong> Misoprostol 800 μg chỉ là <strong>lựa chọn thay thế</strong> khi không có oxytocin (nhiều tác dụng phụ: sốt, run, ỉa chảy). Trong hệ thống thiếu nhân lực, Raams 2018 (PMID 29409456) cho thấy <strong>task shifting oxytocin</strong> cho nhân viên y tế không chuyên vẫn giảm PPH; CCT <strong>không</strong> task shifting được.</p>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">🩹 RÁCH TẦNG SINH MÔN — PHÂN ĐỘ SULTAN 1999</h2>
+
+  <div class="overflow-x-auto">
+    <table class="w-full border-collapse bg-white rounded-xl overflow-hidden shadow">
+      <thead class="bg-pink-100">
+        <tr>
+          <th class="border p-3 text-left">Phân độ</th>
+          <th class="border p-3 text-left">Tổn thương</th>
+          <th class="border p-3 text-left">Xử trí</th>
+        </tr>
+      </thead>
+      <tbody class="text-stone-700">
+        <tr>
+          <td class="border p-3 font-bold">Độ 1</td>
+          <td class="border p-3">Chỉ da và niêm mạc âm hộ</td>
+          <td class="border p-3">Có thể không khâu nếu không chảy máu</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Độ 2</td>
+          <td class="border p-3">Cơ tầng sinh môn (không qua cơ thắt)</td>
+          <td class="border p-3">Khâu polyglactin 910 2/0 (Vicryl)</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">Độ 3a</td>
+          <td class="border p-3">Rách &lt;50% cơ thắt hậu môn ngoài (EAS)</td>
+          <td class="border p-3" rowspan="3"><strong>Bắt buộc khâu trong phòng mổ</strong><br/>Gây tê tại chỗ/gây mê<br/>Có bác sĩ phụ (phẫu thuật đại trực tràng nếu cần)</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Độ 3b</td>
+          <td class="border p-3">Rách &gt;50% EAS</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">Độ 3c</td>
+          <td class="border p-3">Rách cả EAS + cơ thắt hậu môn trong (IAS)</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Độ 4</td>
+          <td class="border p-3">Rách qua lớp cơ thắt → biểu mô trực tràng</td>
+          <td class="border p-3">Bắt buộc khâu — bác sĩ phẫu thuật đại trực tràng hỗ trợ</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="bg-emerald-50 border-l-4 border-emerald-500 p-4 rounded-r mt-4">
+    <p class="text-emerald-900"><strong>✅ Phòng ngừa:</strong></p>
+    <ul class="list-disc pl-6 mt-2 text-emerald-900 space-y-1">
+      <li><strong>Không</strong> cắt tầng sinh môn thường quy (restrictive episiotomy).</li>
+      <li>Khi cần (forceps/vacuum, nguy cơ rách nặng cao): cắt <strong>mediolateral trái</strong> ở góc <strong>45–60°</strong> so với đường giữa (bảo vệ cơ thắt hậu môn).</li>
+    </ul>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">📚 TÓM TẮT GUIDELINE THEO HỘI</h2>
+
+  <div class="overflow-x-auto">
+    <table class="w-full border-collapse bg-white rounded-xl overflow-hidden shadow">
+      <thead class="bg-pink-100">
+        <tr>
+          <th class="border p-3 text-left">Hội / Guideline</th>
+          <th class="border p-3 text-left">Năm</th>
+          <th class="border p-3 text-left">Điểm chính</th>
+        </tr>
+      </thead>
+      <tbody class="text-stone-700">
+        <tr>
+          <td class="border p-3 font-bold">ACOG CPG #10 (PMID 40966736)</td>
+          <td class="border p-3">2025</td>
+          <td class="border p-3">Phân loại FHR Cat I/II/III; quản lý suy thai dựa trên GRADE</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">WHO Intrapartum Care</td>
+          <td class="border p-3">2018</td>
+          <td class="border p-3">Đỡ đẻ lấy mẹ làm trung tâm, companion during labor</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">WHO Labor Care Guide</td>
+          <td class="border p-3">2023</td>
+          <td class="border p-3">Thay Partograph — 2 ngưỡng alert/action, theo dõi đau VAS</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">FIGO 2018 - PPH</td>
+          <td class="border p-3">2018</td>
+          <td class="border p-3">AMTSL + xử trí băng huyết</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">FIGO 2020 - Misoprostol</td>
+          <td class="border p-3">2020</td>
+          <td class="border p-3">Misoprostol 800 μg khi không có oxytocin</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">ACOG Practice Bulletin</td>
+          <td class="border p-3">2014 (cập nhật)</td>
+          <td class="border p-3">Bỏ Friedman curve; ngưỡng đình trệ mới 4h/6h (con so)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bài soạn theo workflow daily medical lesson (10_Script Python/lesson_builder). Citation tier: guideline (Tier 0) + Q1 (Tier 1).</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+<script>
+  const ctx = document.getElementById('chartDilatation').getContext('2d');
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: ['0h', '1h', '2h', '3h', '4h', '5h', '6h', '7h', '8h', '9h', '10h', '11h', '12h'],
+      datasets: [{
+        label: 'Friedman cũ (1 cm/h)',
+        data: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, null, null],
+        borderColor: '#dc2626',
+        backgroundColor: 'rgba(220,38,38,0.1)',
+        borderWidth: 2,
+        borderDash: [5, 5],
+        tension: 0
+      }, {
+        label: 'ACOG cập nhật (con so, có thể chậm hơn)',
+        data: [0, 0.5, 1.2, 2.1, 3.0, 4.0, 5.0, 6.0, 7.2, 8.5, 9.5, 10, null],
+        borderColor: '#be185d',
+        backgroundColor: 'rgba(190,24,93,0.1)',
+        borderWidth: 3,
+        tension: 0.3,
+        fill: true
+      }, {
+        label: 'Con rạ (nhanh hơn)',
+        data: [0, 1.0, 2.5, 4.0, 5.5, 7.0, 8.5, 10, null, null, null, null, null],
+        borderColor: '#059669',
+        backgroundColor: 'rgba(5,150,105,0.1)',
+        borderWidth: 3,
+        tension: 0.3,
+        fill: true
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: { display: true, text: 'Tốc độ mở cổ tử cung (cm) theo thời gian (giờ)', font: { size: 16 } },
+        legend: { position: 'bottom' }
+      },
+      scales: {
+        y: { title: { display: true, text: 'Độ mở (cm)' }, min: 0, max: 10 },
+        x: { title: { display: true, text: 'Thời gian (giờ)' } }
+      }
+    }
+  });
+</script>
+
+<script>
+  const ctx2 = document.getElementById('chartLCG').getContext('2d');
+  new Chart(ctx2, {
+    type: 'bar',
+    data: {
+      labels: ['Tư thế tự do', 'Companion during labor', 'Theo dõi đau VAS', '2 ngưỡng alert/action', 'Massage perineal'],
+      datasets: [{
+        label: 'Mức độ khuyến cáo trong WHO LCG 2023 (1-5)',
+        data: [5, 5, 5, 4, 4],
+        backgroundColor: ['#be185d', '#be185d', '#be185d', '#db2777', '#db2777'],
+        borderRadius: 8
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: { display: true, text: 'Các can thiệp được khuyến cáo trong WHO LCG 2023', font: { size: 16 } },
+        legend: { display: false }
+      },
+      scales: {
+        y: { title: { display: true, text: 'Mức độ khuyến cáo' }, min: 0, max: 5, ticks: { stepSize: 1 } }
+      }
+    }
+  });
+</script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AndroGel (Testosterone Gel) trong ART — Visual Summary</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Be Vietnam Pro', -apple-system, sans-serif; }
+  .gradient-bg { background: linear-gradient(135deg, #ede7f6 0%, #fff3e0 100%); }
+  .card-hover { transition: all 0.3s ease; }
+  .card-hover:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.08); }
+  .mermaid { background: white; border-radius: 12px; padding: 20px; }
+</style>
+</head>
+<body class="gradient-bg min-h-screen">
+
+<header class="bg-white shadow-sm border-b border-gray-200">
+  <div class="max-w-6xl mx-auto px-6 py-6">
+    <div class="flex items-center gap-3">
+      <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-orange-500 rounded-xl flex items-center justify-center text-white text-2xl">💉</div>
+      <div>
+        <h1 class="text-2xl font-bold text-gray-900">AndroGel (Testosterone Gel) trong ART</h1>
+        <p class="text-sm text-gray-600">Androgen Priming cho Poor Responder · Cập nhật Cochrane 2024 · 13/06/2026</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-6 py-8 space-y-8">
+
+  <!-- Key Stats -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📊 Evidence quan trọng nhất</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border-2 border-purple-300">
+        <div class="text-sm text-gray-500 font-medium">Naik 2024 Cochrane</div>
+        <div class="text-3xl font-bold text-purple-600 mt-1">×2.5 LBR</div>
+        <div class="text-xs text-gray-700 mt-2">Tăng LBR gấp 2.5 lần ở poor responder. n=28 RCT, 3002 phụ nữ.</div>
+        <div class="text-xs text-purple-600 mt-1 font-bold">PMID 38837771</div>
+      </div>
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border-2 border-orange-300">
+        <div class="text-sm text-gray-500 font-medium">Katsika 2023</div>
+        <div class="text-3xl font-bold text-orange-600 mt-1">×2.07 LBR</div>
+        <div class="text-xs text-gray-700 mt-2">Meta-analysis 8 RCT, n=797. T tăng LBR + tăng số noãn, giảm liều FSH.</div>
+        <div class="text-xs text-orange-600 mt-1 font-bold">PMID 36369150</div>
+      </div>
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border-2 border-rose-300">
+        <div class="text-sm text-gray-500 font-medium">DHEA Cochrane 2024</div>
+        <div class="text-3xl font-bold text-rose-600 mt-1">×1.30 LBR</div>
+        <div class="text-xs text-gray-700 mt-2">DHEA KHÔNG cải thiện so với placebo. T tốt hơn DHEA.</div>
+        <div class="text-xs text-rose-600 mt-1 font-bold">PMID 38837771</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mechanism -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🧬 Cơ chế — Androgen priming tăng đáp ứng FSH</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div class="mermaid">
+flowchart TD
+    A[Testosterone gel<br/>10-12.5 mg/ngày x 30-56 ngày] --> B[Testosterone hấp thu qua da<br/>→ tăng T toàn thân + nội bào]
+    B --> C[Androgen receptor<br/>trên tế bào hạt + tế bào vỏ]
+    C --> D[Tăng FSH receptor FSHR<br/>trên tế bào hạt]
+    C --> E[Tăng aromatase CYP19A1<br/>Androgen → Estradiol]
+    C --> F[Tăng tăng sinh tế bào hạt<br/>+ ngăn apoptosis]
+    C --> G[Tăng microvascular density<br/>quanh nang]
+    D --> H[Nang buồng trứng<br/>phát triển đồng bộ hơn]
+    E --> H
+    F --> H
+    G --> H
+    H --> I[FSH ngoại sinh<br/>tác động mạnh hơn]
+    I --> J[Tăng số nang trưởng thành]
+    J --> K[Tăng số noãn thu được]
+    K --> L[Nhiều phôi → tăng tỷ lệ thai]
+      </div>
+    </div>
+  </section>
+
+  <!-- Naik 2024 Cochrane Outcomes -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📈 Naik 2024 Cochrane — Testosterone vs Placebo ở Poor Responder</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <canvas id="naikChart" height="100"></canvas>
+      <p class="text-xs text-gray-500 mt-3">💡 <strong>Kết luận chính:</strong> Testosterone pretreatment LIKELY cải thiện LBR (OR 2.53) và CPR (OR 2.17) với <strong>moderate certainty</strong>. DHEA KHÔNG cải thiện. <span class="citation">PMID 38837771</span></p>
+    </div>
+  </section>
+
+  <!-- Protocol Timeline -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">⏰ Protocol thực hành AndroGel trong ART</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div class="mermaid">
+gantt
+    title Timeline AndroGel Pretreatment trong ART
+    dateFormat  YYYY-MM-DD
+    axisFormat  %W
+    section Chuẩn bị
+    Xét nghiệm nền + tư vấn          :a1, 2026-07-01, 7d
+    section Priming AndroGel
+    AndroGel 10-12.5 mg/ngày         :a2, after a1, 42d
+    Theo dõi T huyết thanh 2-4 tuần   :a3, after a2, 42d
+    section Kích thích buồng trứng
+    FSH 300-450 IU/ngày + Antagonist   :milestone, 2026-08-15, 0d
+    Theo dõi nang + E2 mỗi 2-3 ngày  :b1, after a2, 14d
+    GnRH antagonist khi nang ≥ 14mm    :b2, after b1, 5d
+    Trigger (dual trigger)             :milestone, 2026-08-30, 0d
+    section Sau kích thích
+    DỪNG AndroGel                     :crit, 2026-08-30, 0d
+    Chọc hút noãn 36h sau trigger      :milestone, 2026-09-01, 0d
+    ICSI + chuyển phôi                 :milestone, 2026-09-06, 0d
+      </div>
+    </div>
+  </section>
+
+  <!-- T vs DHEA Comparison -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">💊 Testosterone vs DHEA — Ai tốt hơn?</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="card-hover bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-5 border-2 border-purple-300">
+        <div class="text-2xl mb-2">💉</div>
+        <h3 class="font-bold text-purple-800 mb-2 text-lg">Testosterone Gel (AndroGel)</h3>
+        <div class="text-3xl font-bold text-purple-600 mb-3">OR 2.53 (LBR)</div>
+        <ul class="text-sm text-gray-700 space-y-1 list-disc pl-5">
+          <li><strong>CÓ CẢI THIỆN</strong> có ý nghĩa so với placebo</li>
+          <li>Bôi da 1 lần/ngày, dễ tuân thủ</li>
+          <li>Thời gian 30-56 ngày</li>
+          <li>Liều 10-12.5 mg/ngày</li>
+          <li>Tác dụng phụ androgenic nhẹ</li>
+          <li>Cần kê đơn nội tiết</li>
+        </ul>
+      </div>
+      <div class="card-hover bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-5 border-2 border-orange-300">
+        <div class="text-2xl mb-2">💊</div>
+        <h3 class="font-bold text-orange-800 mb-2 text-lg">DHEA (viên uống)</h3>
+        <div class="text-3xl font-bold text-orange-600 mb-3">OR 1.30 (LBR)</div>
+        <ul class="text-sm text-gray-700 space-y-1 list-disc pl-5">
+          <li><strong>KHÔNG cải thiện</strong> có ý nghĩa so với placebo</li>
+          <li>Uống 3 lần/ngày (75 mg/ngày)</li>
+          <li>Thời gian 60-120 ngày</li>
+          <li>Tác dụng phụ androgen/estrogen nhẹ</li>
+          <li>Rẻ hơn, dễ tiếp cận</li>
+          <li>OTC ở một số nước</li>
+        </ul>
+      </div>
+    </div>
+    <p class="text-xs text-gray-500 mt-3 text-center">→ <strong>Testosterone gel được ưu tiên</strong> ở poor responder (Naik 2024 Cochrane). DHEA không nên dùng đầu tay.</p>
+  </section>
+
+  <!-- Bologna vs POSEIDON -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🎯 Bologna vs POSEIDON — Ai là poor responder?</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="border-b-2 border-purple-300">
+            <th class="text-left py-2 font-semibold">Hệ</th>
+            <th class="text-left py-2 font-semibold">Tiêu chí chính</th>
+            <th class="text-left py-2 font-semibold">AndroGel chỉ định</th>
+          </tr>
+        </thead>
+        <tbody class="text-gray-700">
+          <tr class="border-b border-gray-100">
+            <td class="py-2 font-bold text-purple-700">Bologna 2011</td>
+            <td class="py-2">≥ 3 yếu tố: tuổi ≥ 40 HOẶC ≤ 3 noãn HOẶC AMH/AFC thấp + ≥ 1 yếu tố phụ (≥ 3 chu kỳ fail, mổ buồng trứng, ≥ 40 tuổi)</td>
+            <td class="py-2 text-emerald-600">Có - đặc biệt tuổi ≥ 40 + dự trữ thấp</td>
+          </tr>
+          <tr class="border-b border-gray-100 bg-purple-50">
+            <td class="py-2 font-bold text-purple-700">POSEIDON 2016</td>
+            <td class="py-2">4 nhóm dựa trên tuổi + dự trữ + đáp ứng:
+              <br>• Nhóm 1: &lt; 35 tuổi + dự trữ BT + &lt; 9 noãn
+              <br>• Nhóm 2: ≥ 35 tuổi + dự trữ BT + &lt; 9 noãn
+              <br>• Nhóm 3: &lt; 35 tuổi + dự trữ KÉM
+              <br>• Nhóm 4: ≥ 35 tuổi + dự trữ KÉM</td>
+            <td class="py-2 text-emerald-600">Có mạnh cho Nhóm 3, 4. Cân nhắc Nhóm 1, 2 có tiền sử fail</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Outcome Comparison Chart -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📊 3 nghiên cứu chính — Tác dụng testosterone</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <canvas id="studiesChart" height="100"></canvas>
+      <p class="text-xs text-gray-500 mt-3">💡 <strong>Insight:</strong> Bosdou 2016 (n=50 nhỏ, 21 ngày) âm tính nhưng 2 meta-analysis 2023-2024 đều dương tính mạnh. Meta-analysis mới = evidence mạnh nhất, hỗ trợ việc dùng AndroGel thường quy ở poor responder.</p>
+    </div>
+  </section>
+
+  <!-- Decision Algorithm -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🗺️ Algorithm dùng AndroGel</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div class="mermaid">
+flowchart TD
+    A[Bệnh nhân IVF có poor response?] --> B{Bologna/POSEIDON dương tính?}
+    B -->|Không| C[KHÔNG dùng AndroGel<br/>Lãng phí + tác dụng phụ]
+    B -->|Có| D{Loại trừ chống chỉ định?}
+    D -->|Có| E[KHÔNG dùng AndroGel<br/>Xem xét phương pháp khác]
+    D -->|Không| F[Xét nghiệm nền<br/>T, SHBG, DHEA-S, AMH, AFC<br/>CBC, lipid, TSH, prolactin]
+    F --> G[Tư vấn bệnh nhân<br/>Hiệu quả + tác dụng phụ + chi phí]
+    G --> H[Bắt đầu AndroGel 10-12.5 mg/ngày<br/>30-56 ngày, bôi da bụng/đùi/vai]
+    H --> I[Theo dõi T mỗi 2-4 tuần<br/>CBC mỗi 4-6 tuần]
+    I --> J[Sau 30-56 ngày:<br/>Bắt đầu FSH 300-450 IU + Antagonist]
+    J --> K[Trigger + chọc hút noãn]
+    K --> L[DỪNG AndroGel]
+    L --> M{Đáp ứng có cải thiện?}
+    M -->|Có| N[Chuyển phôi + hỗ trợ hoàng thể]
+    M -->|Không| O[Chu kỳ tiếp:<br/>Tăng liều T hoặc đổi protocol<br/>Hoặc chấp nhận dừng]
+      </div>
+    </div>
+  </section>
+
+  <!-- Pros/Cons -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">⚖️ Ưu nhược điểm & thận trọng</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="bg-gradient-to-br from-emerald-50 to-green-50 rounded-xl p-5 border-2 border-emerald-300">
+        <h3 class="font-bold text-emerald-800 mb-3">✅ ƯU ĐIỂM</h3>
+        <ul class="text-sm text-gray-700 space-y-1 list-disc pl-5">
+          <li>Evidence mạnh (Cochrane 2024 moderate certainty)</li>
+          <li>Tăng LBR × 2.5, tăng số noãn</li>
+          <li>Đường bôi da: tránh chuyển hóa gan, ổn định nồng độ</li>
+          <li>Dễ tuân thủ (1 lần/ngày)</li>
+          <li>Chi phí hợp lý, dễ tiếp cận ở VN</li>
+          <li>Tác dụng phụ nhẹ, hồi phục khi ngừng</li>
+        </ul>
+      </div>
+      <div class="bg-gradient-to-br from-rose-50 to-red-50 rounded-xl p-5 border-2 border-rose-300">
+        <h3 class="font-bold text-rose-800 mb-3">⚠️ THẬN TRỌNG</h3>
+        <ul class="text-sm text-gray-700 space-y-1 list-disc pl-5">
+          <li>Hầu hết RCT n nhỏ, đơn trung tâm</li>
+          <li>Bosdou 2016 âm tính (n=50)</li>
+          <li>Liều + thời gian tối ưu chưa rõ</li>
+          <li>Cần theo dõi T huyết thanh + tác dụng phụ</li>
+          <li>Tránh tiếp xúc da với người khác (trẻ em!)</li>
+          <li>KHÔNG dùng cho non-poor-responder</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Takeaways -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🎯 Điểm cần nhớ (Memory Hooks)</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-4 border border-purple-200">
+        <p class="text-sm text-gray-700"><strong>💉 AndroGel tăng LBR × 2.5</strong> ở poor responder theo Naik 2024 Cochrane (n=28 RCT, 3002 phụ nữ).</p>
+      </div>
+      <div class="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-4 border border-orange-200">
+        <p class="text-sm text-gray-700"><strong>💊 DHEA KHÔNG cải thiện</strong> (OR 1.30, không có ý nghĩa) - T gel tốt hơn DHEA.</p>
+      </div>
+      <div class="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl p-4 border border-cyan-200">
+        <p class="text-sm text-gray-700"><strong>📊 Liều 10-12.5 mg/ngày x 30-56 ngày</strong> - Bosdou 2016 dùng 21 ngày (quá ngắn) → âm tính.</p>
+      </div>
+      <div class="bg-gradient-to-br from-emerald-50 to-green-50 rounded-xl p-4 border border-emerald-200">
+        <p class="text-sm text-gray-700"><strong>🎯 Chỉ định: Bologna/POSEIDON dương tính</strong>, đặc biệt nhóm 3, 4 (dự trữ kém).</p>
+      </div>
+      <div class="bg-gradient-to-br from-rose-50 to-pink-50 rounded-xl p-4 border border-rose-200">
+        <p class="text-sm text-gray-700"><strong>🧬 Cơ chế:</strong> T → tăng FSHR trên tế bào hạt → tăng đáp ứng FSH ngoại sinh → tăng số noãn.</p>
+      </div>
+      <div class="bg-gradient-to-br from-yellow-50 to-amber-50 rounded-xl p-4 border border-yellow-200">
+        <p class="text-sm text-gray-700"><strong>⏰ DỪNG AndroGel</strong> ngay sau chọc hút noãn - không dùng khi có thai.</p>
+      </div>
+      <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-4 border border-indigo-200">
+        <p class="text-sm text-gray-700"><strong>👀 Tác dụng phụ:</strong> acne, hirsutism, giọng trầm (hiếm), Hb/Hct tăng nhẹ. Đa số hồi phục khi ngừng.</p>
+      </div>
+      <div class="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-xl p-4 border border-teal-200">
+        <p class="text-sm text-gray-700"><strong>⚠️ Tại VN:</strong> AndroGel/Testogel có, cần kê đơn nội tiết. Kết hợp antagonist/PPOS + FSH 300-450 IU.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- References -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📚 Tài liệu tham khảo (PMID)</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 text-sm space-y-2 text-gray-700">
+      <p>1. <strong>PMID 38837771</strong> — Naik S et al. Cochrane Review: Androgens (DHEA or T) for ART. <em>Cochrane Database Syst Rev</em> 2024;6:CD009749.</p>
+      <p>2. <strong>PMID 36369150</strong> — Katsika ET et al. Transdermal T pretreatment meta-analysis, 8 RCT n=797. <em>Reprod Biomed Online</em> 2023;46(1):81-91.</p>
+      <p>3. <strong>PMID 26956551</strong> — Bosdou JK et al. T gel RCT poor responder ICSI, n=50. <em>Hum Reprod</em> 2016;31(5):977-985.</p>
+      <p>4. <strong>PMID 25949183</strong> — Kim CH et al. T gel 2/3/4 weeks IVF outcomes poor responders. <em>Dev Reprod</em> 2014;18(3):145-152.</p>
+      <p>5. <strong>Conforti A et al.</strong> Androgen priming for poor ovarian response: systematic review meta-analysis. <em>Reprod Biol Endocrinol</em> 2019;17:42.</p>
+      <p>6. <strong>Poseidon Group (Alviggi C et al).</strong> New stratification low responders. <em>Fertil Steril</em> 2016;105(6):1452-1453.</p>
+      <p>7. <strong>Ferraretti AP et al.</strong> Bologna criteria ESHRE consensus poor response. <em>Hum Reprod Open</em> 2011;26(7):1616-1624.</p>
+      <p>8. <strong>ESHRE Guideline Group.</strong> Ovarian stimulation for IVF/ICSI 2019. <em>Hum Reprod Open</em> 2020;2020(2):hoaa009.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="bg-white border-t border-gray-200 mt-12">
+  <div class="max-w-6xl mx-auto px-6 py-4 text-center text-xs text-gray-500">
+    MiniMax Mavis · AndroGel ART Visual Summary · 13/06/2026 · Evidence: PMID 38837771, 36369150, 26956551
+  </div>
+</footer>
+
+<script>
+  new Chart(document.getElementById('naikChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Live birth (LBR)', 'Clinical pregnancy (CPR)', 'Miscarriage', 'Multiple pregnancy'],
+      datasets: [
+        { label: 'Testosterone gel (OR)', data: [2.53, 2.17, 1.63, 2.56], backgroundColor: '#8b5cf6', borderRadius: 6 },
+        { label: 'DHEA (OR)', data: [1.30, 1.18, 0.85, 3.05], backgroundColor: '#f97316', borderRadius: 6 }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: { tooltip: { enabled: true } },
+      scales: { y: { beginAtZero: true, max: 3.5 } }
+    }
+  });
+
+  new Chart(document.getElementById('studiesChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Bosdou 2016 (n=50, 21 ngày)', 'Katsika 2023 (8 RCT, n=797)', 'Naik 2024 Cochrane (28 RCT, n=3002)'],
+      datasets: [
+        {
+          label: 'LBR effect (RR/OR vs placebo)',
+          data: [0.99, 2.07, 2.53],
+          backgroundColor: ['#ef4444', '#f97316', '#8b5cf6'],
+          borderRadius: 6
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      indexAxis: 'y',
+      plugins: { tooltip: { enabled: true } },
+      scales: { x: { beginAtZero: true, max: 3 } }
+    }
+  });
+
+  mermaid.initialize({ startOnLoad: true, theme: 'default' });
+</script>
+
+</body>
+</html>

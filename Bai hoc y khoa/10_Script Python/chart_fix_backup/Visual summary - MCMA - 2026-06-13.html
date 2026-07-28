@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Song thai 1 buồng ối (MCMA) — Visual Summary</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Be Vietnam Pro', -apple-system, sans-serif; }
+  .gradient-bg { background: linear-gradient(135deg, #e0f2fe 0%, #fce7f3 100%); }
+  .card-hover { transition: all 0.3s ease; }
+  .card-hover:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.08); }
+  .mermaid { background: white; border-radius: 12px; padding: 20px; }
+  .citation { font-size: 0.75rem; color: #6b7280; }
+</style>
+</head>
+<body class="gradient-bg min-h-screen">
+
+<!-- Header -->
+<header class="bg-white shadow-sm border-b border-gray-200">
+  <div class="max-w-6xl mx-auto px-6 py-6">
+    <div class="flex items-center gap-3">
+      <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-pink-600 rounded-xl flex items-center justify-center text-white text-2xl">👯</div>
+      <div>
+        <h1 class="text-2xl font-bold text-gray-900">Song thai 1 buồng ối (MCMA)</h1>
+        <p class="text-sm text-gray-600">Visual Summary · Monochorionic Monoamniotic Twins · 13/06/2026</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-6 py-8 space-y-8">
+
+  <!-- Key Stats -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📊 Số liệu then chốt</h2>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border border-gray-100">
+        <div class="text-sm text-gray-500 font-medium">Tỷ lệ MCMA / tổng song thai</div>
+        <div class="text-3xl font-bold text-blue-600 mt-1">~1%</div>
+        <div class="text-xs text-gray-400 mt-1">PMID 30019431</div>
+      </div>
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border border-gray-100">
+        <div class="text-sm text-gray-500 font-medium">Tỷ lệ sống hiện đại</div>
+        <div class="text-3xl font-bold text-emerald-600 mt-1">88–92%</div>
+        <div class="text-xs text-gray-400 mt-1">PMID 30125418, 23371346</div>
+      </div>
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border border-gray-100">
+        <div class="text-sm text-gray-500 font-medium">Cord entanglement</div>
+        <div class="text-3xl font-bold text-rose-600 mt-1">~100%</div>
+        <div class="text-xs text-gray-400 mt-1">Đặc trưng MCMA</div>
+      </div>
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border border-gray-100">
+        <div class="text-sm text-gray-500 font-medium">Mổ lấy thai</div>
+        <div class="text-3xl font-bold text-amber-600 mt-1">32–34 tuần</div>
+        <div class="text-xs text-gray-400 mt-1">ISUOG/ACOG/RCOG</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Embryology Timeline -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🧬 Cơ chế hình thành — Phân chia phôi theo thời điểm</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div class="mermaid">
+timeline
+    title Phân chia phôi trong song thai cùng trứng
+    Ngày 0–3 sau thụ tinh : Morula : DCDA (2 bánh nhau, 2 buồng ối) — ~25–30%
+    Ngày 4–8 : Blastocyst, đã tạo trophoblast : MCDA (1 bánh nhau, 2 buồng ối) — ~70–75%
+    Ngày 8–13 : Đã tạo túi ối : MCMA (1 bánh nhau, 1 buồng ối) — ~1–2%
+    Sau ngày 13 : Phôi không tách hoàn toàn : Song thai dính (conjoined) — rất hiếm
+      </div>
+      <p class="text-xs text-gray-500 mt-3">💡 MCMA = phân chia giữa ngày 8–13: trophoblast đã thành 1 bánh nhau, NHƯNG amnion chưa hình thành → 2 thai chung buồng ối.</p>
+    </div>
+  </section>
+
+  <!-- Cord Entanglement Diagram -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🪢 Hệ quả tất yếu — Mạch máu chung & Dây rốn quấn nhau</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div class="mermaid">
+flowchart LR
+    A[1 bánh nhau] -->|Chia sẻ| B[Mạng nối mạch<br/>A-A, V-V, AV]
+    A --> C[1 buồng ối]
+    C -->|2 thai trôi tự do| D[Cord entanglement<br/>~100%]
+    B --> E[TTTS / TAPS / sIUGR]
+    B --> F[Nếu 1 thai chết<br/>→ back-bleeding<br/>→ tổn thương thai còn lại]
+    D --> G[Cơn co tử cung<br/>→ siết rốn<br/>→ mất tim thai đột ngột]
+    E --> H[Mổ lấy thai<br/>32–34 tuần<br/>KHÔNG sinh đường âm đạo]
+    G --> H
+    F --> H
+      </div>
+    </div>
+  </section>
+
+  <!-- Mortality Chart -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📉 Phân bố tử vong theo tuổi thai (D'Antonio 2019, n=1628)</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <canvas id="mortalityChart" height="100"></canvas>
+      <p class="text-xs text-gray-500 mt-3">⚠️ Cao nhất 24–30 tuần (4.3%), giảm sau 31 tuần, 0% sau 35 tuần. Vì vậy mổ lấy thai chủ động 32–34 tuần cân bằng giữa dự phòng IUD và hạn chế sinh non. <span class="citation">PMID 30125418</span></p>
+    </div>
+  </section>
+
+  <!-- Monitoring Protocol -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🔍 Protocol theo dõi theo tuổi thai</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div class="mermaid">
+gantt
+    title Monitoring timeline cho MCMA
+    dateFormat  YYYY-MM-DD
+    axisFormat  %W
+    section Chẩn đoán
+    Siêu âm quý 1 (T-sign)          :a1, 2026-01-01, 14d
+    Siêu âm hình thái 18–22 tuần    :a2, after a1, 28d
+    Siêu âm tim thai 22–24 tuần     :a3, after a2, 14d
+    section Theo dõi
+    Doppler UA + MCA mỗi 2 tuần     :b1, after a3, 70d
+    CTG mỗi 1–2 tuần từ 28 tuần     :b2, after b1, 42d
+    Nhập viện từ 28 tuần (lý tưởng) :b3, after b2, 28d
+    section Can thiệp
+    Corticosteroid 28 tuần           :c1, after b3, 4d
+    Mổ lấy thai 32–34 tuần          :milestone, 2026-04-01, 0d
+      </div>
+    </div>
+  </section>
+
+  <!-- Delivery Timing -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🏥 Thời điểm mổ lấy thai — So sánh guideline</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border-l-4 border-blue-500">
+        <div class="text-sm text-gray-500 font-medium">ISUOG 2016/2023</div>
+        <div class="text-2xl font-bold text-gray-900 mt-1">32–34 tuần</div>
+        <p class="text-xs text-gray-500 mt-2">PMID 33017845 (DEGUM guideline update)</p>
+      </div>
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border-l-4 border-emerald-500">
+        <div class="text-sm text-gray-500 font-medium">ACOG 2024</div>
+        <div class="text-2xl font-bold text-gray-900 mt-1">32 0/7 – 34 0/7 tuần</div>
+        <p class="text-xs text-gray-500 mt-2">Twin pregnancy practice bulletin</p>
+      </div>
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border-l-4 border-rose-500">
+        <div class="text-sm text-gray-500 font-medium">RCOG Green-top</div>
+        <div class="text-2xl font-bold text-gray-900 mt-1">32–34 tuần</div>
+        <p class="text-xs text-gray-500 mt-2">Sau khi cho steroid trưởng thành phổi</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Complications Comparison -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">⚠️ Các biến chứng chính — Tỷ lệ và tài liệu</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <canvas id="complicationChart" height="100"></canvas>
+    </div>
+  </section>
+
+  <!-- Differential Diagnosis -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🔬 Chẩn đoán phân biệt các loại song thai cùng trứng</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="border-b-2 border-gray-200">
+            <th class="text-left py-2 font-semibold">Loại</th>
+            <th class="text-left py-2 font-semibold">Bánh nhau</th>
+            <th class="text-left py-2 font-semibold">Buồng ối</th>
+            <th class="text-left py-2 font-semibold">Dấu hiệu siêu âm quý 1</th>
+            <th class="text-left py-2 font-semibold">Tỷ lệ</th>
+          </tr>
+        </thead>
+        <tbody class="text-gray-700">
+          <tr class="border-b border-gray-100">
+            <td class="py-2 font-medium text-blue-700">DCDA</td>
+            <td class="py-2">2 (Dichorionic)</td>
+            <td class="py-2">2 (Diamniotic)</td>
+            <td class="py-2">Lambda sign (▲ nhô ra)</td>
+            <td class="py-2">~25–30%</td>
+          </tr>
+          <tr class="border-b border-gray-100 bg-blue-50">
+            <td class="py-2 font-medium text-blue-700">MCDA</td>
+            <td class="py-2">1 (Monochorionic)</td>
+            <td class="py-2">2 (Diamniotic)</td>
+            <td class="py-2">T-sign (màng ối vuông góc)</td>
+            <td class="py-2">~70–75%</td>
+          </tr>
+          <tr class="border-b border-gray-100 bg-rose-50">
+            <td class="py-2 font-bold text-rose-700">MCMA</td>
+            <td class="py-2">1 (Monochorionic)</td>
+            <td class="py-2">1 (Monoamniotic)</td>
+            <td class="py-2">T-sign + 1 buồng ối, cord entanglement</td>
+            <td class="py-2">~1–2%</td>
+          </tr>
+          <tr>
+            <td class="py-2 font-medium text-gray-700">Conjoined</td>
+            <td class="py-2">1</td>
+            <td class="py-2">1</td>
+            <td class="py-2">2 thai không tách rời</td>
+            <td class="py-2">Rất hiếm (&lt;0.01%)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Clinical Checklist -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">✅ Checklist lâm sàng MCMA</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 space-y-2">
+      <div class="flex items-start gap-3"><span class="text-emerald-500 font-bold">1.</span><span>Siêu âm quý 1: xác nhận MCMA (T-sign, 1 buồng ối, 1 bánh nhau)</span></div>
+      <div class="flex items-start gap-3"><span class="text-emerald-500 font-bold">2.</span><span>Siêu âm hình thái 18–22 tuần + siêu âm tim thai 22–24 tuần</span></div>
+      <div class="flex items-start gap-3"><span class="text-emerald-500 font-bold">3.</span><span>Doppler UA + MCA mỗi 2 tuần từ 24 tuần (sàng lọc sIUGR/TAPS)</span></div>
+      <div class="flex items-start gap-3"><span class="text-emerald-500 font-bold">4.</span><span>Nhập viện từ 28 tuần (hoặc theo dõi ngoại trú + CTG 2 lần/tuần)</span></div>
+      <div class="flex items-start gap-3"><span class="text-emerald-500 font-bold">5.</span><span>Corticosteroid trưởng thành phổi từ 28 tuần</span></div>
+      <div class="flex items-start gap-3"><span class="text-rose-500 font-bold">6.</span><span class="font-semibold">Mổ lấy thai chủ động 32 0/7 – 34 0/7 tuần (TUYỆT ĐỐI không sinh đường âm đạo)</span></div>
+      <div class="flex items-start gap-3"><span class="text-emerald-500 font-bold">7.</span><span>Kíp sơ sinh sẵn sàng cho 2 trẻ, NICU theo dõi</span></div>
+    </div>
+  </section>
+
+  <!-- Key Takeaways -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🎯 Điểm cần nhớ (Memory Hooks)</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-4 border border-blue-200">
+        <p class="text-sm text-gray-700"><strong>🧬 MCMA = phân chia 8–13 ngày</strong> sau thụ tinh (muộn hơn MCDA 4–8 ngày, sớm hơn conjoined &gt;13 ngày).</p>
+      </div>
+      <div class="bg-gradient-to-br from-rose-50 to-pink-50 rounded-xl p-4 border border-rose-200">
+        <p class="text-sm text-gray-700"><strong>🪢 Cord entanglement gần như 100%</strong> nhưng <strong>KHÔNG tăng tỷ lệ tử vong</strong> (PMID 23371346) — vẫn phải mổ lấy thai vì nguy cơ khác.</p>
+      </div>
+      <div class="bg-gradient-to-br from-amber-50 to-yellow-50 rounded-xl p-4 border border-amber-200">
+        <p class="text-sm text-gray-700"><strong>🩺 TTTS trong MCMA:</strong> không dựa vào discordance ối (vì chung buồng ối) → dựa vào <strong>tim thai nhận (cardiomegaly, AV valve regurg, abnormal DV)</strong>.</p>
+      </div>
+      <div class="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl p-4 border border-purple-200">
+        <p class="text-sm text-gray-700"><strong>⚡ 1 thai chết → 20–30% thai còn lại tổn thương thần kinh</strong> (back-bleeding qua mạng nối mạch).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- References -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📚 Tài liệu tham khảo (PMID)</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 text-sm space-y-2 text-gray-700">
+      <p>1. <strong>PMID 30019431</strong> — MONOMONO Working Group. Inpatient vs outpatient MCMA. <em>UOG</em> 2019;53:175-183.</p>
+      <p>2. <strong>PMID 30125418</strong> — D'Antonio F et al. Perinatal mortality, timing of delivery — systematic review meta-analysis. <em>UOG</em> 2019;53:166-174.</p>
+      <p>3. <strong>PMID 31595578</strong> — Murgano D et al. TTTS in MCMA — systematic review meta-analysis. <em>UOG</em> 2020;55:310-317.</p>
+      <p>4. <strong>PMID 23371346</strong> — Rossi AC, Prefumo F. Impact of cord entanglement — systematic review. <em>UOG</em> 2013;41:131-135.</p>
+      <p>5. <strong>PMID 33017845</strong> — von Kaisenberg C et al. DEGUM twin pregnancy guideline. <em>Ultraschall Med</em> 2021.</p>
+      <p>6. <strong>PMID 25906204</strong> — Shub A, Walker S. Cochrane: planned early delivery vs expectant management. <em>CDSR</em> 2015.</p>
+      <p>7. <strong>PMID 25399524</strong> — Prefumo F et al. Natural history of monoamniotic twins. <em>Prenat Diagn</em> 2015.</p>
+      <p>8. <strong>PMID 30207011</strong> — Townsend R et al. sIUGR monochorionic management meta-analysis. <em>UOG</em> 2019;53:36-46.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="bg-white border-t border-gray-200 mt-12">
+  <div class="max-w-6xl mx-auto px-6 py-4 text-center text-xs text-gray-500">
+    MiniMax Mavis · MCMA Visual Summary · Cập nhật 13/06/2026 · Dựa trên evidence PMID 30019431, 30125418, 31595578, 23371346
+  </div>
+</footer>
+
+<script>
+  // Mortality Chart
+  new Chart(document.getElementById('mortalityChart'), {
+    type: 'bar',
+    data: {
+      labels: ['24–30 tuần', '31–32 tuần', '33–34 tuần', '≥ 35 tuần'],
+      datasets: [{
+        label: 'Tỷ lệ IUD (%)',
+        data: [4.3, 1.0, 2.2, 0.0],
+        backgroundColor: ['#ef4444', '#f59e0b', '#f59e0b', '#10b981'],
+        borderRadius: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: { enabled: true }
+      },
+      scales: {
+        y: { beginAtZero: true, max: 6, ticks: { callback: v => v + '%' } }
+      }
+    }
+  });
+
+  // Complication Chart
+  new Chart(document.getElementById('complicationChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Perinatal mortality\n(toàn bộ)', 'Single IUD', 'Double IUD', 'TTTS', 'Sinh non <32 tuần'],
+      datasets: [{
+        label: 'Tỷ lệ (%)',
+        data: [10.8, 2.5, 3.8, 6.0, 40.0],
+        backgroundColor: ['#dc2626', '#f97316', '#dc2626', '#8b5cf6', '#3b82f6'],
+        borderRadius: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      indexAxis: 'y',
+      plugins: { legend: { display: false } },
+      scales: { x: { beginAtZero: true, max: 50, ticks: { callback: v => v + '%' } } }
+    }
+  });
+
+  mermaid.initialize({ startOnLoad: true, theme: 'default' });
+</script>
+
+</body>
+</html>

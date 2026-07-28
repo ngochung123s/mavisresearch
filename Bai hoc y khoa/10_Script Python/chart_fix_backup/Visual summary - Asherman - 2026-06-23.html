@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asherman Syndrome - Dinh buong tu cung</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+
+<header class="text-center py-8">
+  <h1 class="text-4xl md:text-5xl font-bold text-stone-800 mb-3">Hội chứng Asherman</h1>
+  <p class="text-xl text-stone-600 mb-2">Dính buồng tử cung (Intrauterine Adhesions)</p>
+  <div class="flex flex-wrap justify-center gap-2 mt-4">
+    <span class="tag">#OBGYN</span>
+    <span class="tag">#ART</span>
+    <span class="tag">#Asherman</span>
+    <span class="tag">#TCRA</span>
+    <span class="tag">#IUA</span>
+  </div>
+  <p class="text-sm text-stone-500 mt-4">Daily lesson ngày 2026-06-23 — 10 papers Q1/Q2 verified</p>
+</header>
+<main class="max-w-6xl mx-auto space-y-8">
+
+<section class="glass rounded-2xl p-6 shadow-sm">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">📋 1. Định nghĩa & Tần suất</h2>
+  <div class="grid md:grid-cols-2 gap-4">
+    <div>
+      <h3 class="font-semibold text-stone-700 mb-2">Định nghĩa</h3>
+      <p class="text-stone-600">Asherman syndrome (AS) = hình thành <strong>dải xơ dính</strong> trong lòng tử cung sau tổn thương nội mạc, gây giảm thể tích buồng tử cung, rối loạn kinh nguyệt, vô sinh và biến chứng sản khoa.</p>
+    </div>
+    <div>
+      <h3 class="font-semibold text-stone-700 mb-2">Yếu tố nguy cơ chính</h3>
+      <ul class="text-stone-600 list-disc list-inside">
+        <li>Nạo hút thai / sau sảy thai (17% mới mắc)</li>
+        <li>Nạo hút sau đẻ (postpartum curettage)</li>
+        <li>Myomectomy / polypectomy nội soi</li>
+        <li>Metroplasty cắt vách ngăn</li>
+        <li>Viêm nội mạc tử cung</li>
+      </ul>
+    </div>
+  </div>
+  <div class="mt-4 p-4 bg-amber-50 rounded-lg border-l-4 border-amber-400">
+    <p class="text-sm text-stone-700">💡 <strong>~90% AS liên quan thai kỳ</strong> — khai thác kỹ tiền sử nạo thai, nạo sau đẻ, băng huyết sau sinh.</p>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-6 shadow-sm">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">📊 2. Nguy cơ IUA sau các can thiệp buồng tử cung</h2>
+  <p class="text-stone-600 mb-4">Theo Munro MG et al. 2025 (Hum Reprod Update, systematic review 249 publications):</p>
+  <canvas id="chartIUA" height="120"></canvas>
+  <p class="text-xs text-stone-500 mt-2">Nguồn: Munro 2025, PMID 40914965. I² = 87-93% (poor-to-good evidence quality).</p>
+</section>
+
+<section class="glass rounded-2xl p-6 shadow-sm">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">🗂️ 3. So sánh 5 hệ phân loại IUA</h2>
+  <p class="text-stone-600 mb-4">Theo Cao M et al. 2021 (n=128 phụ nữ AS sau TCRA):</p>
+  <canvas id="chartClass" height="120"></canvas>
+  <p class="text-xs text-stone-500 mt-2">Hệ Nasr có AUC 0.748 — cao nhất, sensitivity 81.8%, NPV 96.7%. PMID 33482838.</p>
+</section>
+
+<section class="glass rounded-2xl p-6 shadow-sm">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">🔬 4. Cơ chế bệnh sinh</h2>
+  <div class="mermaid">
+flowchart TD
+    A["Tổn thương nội mạc tử cung"] --> B["Hoạt hóa đại thực bào<br/>+ TNF-α, IL-1β, IL-6"]
+    B --> C["Lắng đọng fibrin<br/>trong buồng tử cung"]
+    C --> D{Tổn thương kéo dài?<br/>Nhiễm trùng?<br/>Thiếu estrogen?}
+    D -- Có --> E["Thay bằng mô sợi<br/>(collagen I, III)"]
+    D -- Không --> F["Lành bình thường"]
+    E --> G["Dải xơ dính<br/>trong buồng tử cung"]
+    G --> H["Cắt đứt nguồn máu<br/>nội mạc → Teo"]
+    H --> I["Asherman syndrome<br/>triệu chứng"]
+  </div>
+  <p class="text-xs text-stone-500 mt-2">Adapted from Munro MG 2025 (PMID 40914965).</p>
+</section>
+
+<section class="glass rounded-2xl p-6 shadow-sm">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">💉 5. Hiệu quả gel HA trong phòng ngừa nguyên phát</h2>
+  <p class="text-stone-600 mb-4">Theo Munro 2025 — Relative Risk (RR) cho IUA mới so với không dùng gel:</p>
+  <canvas id="chartHA" height="120"></canvas>
+  <p class="text-xs text-stone-500 mt-2">RR &lt; 1 = giảm nguy cơ. HA gel giảm 50-70% IUA mới sau các can thiệp ban đầu.</p>
+</section>
+
+<section class="glass rounded-2xl p-6 shadow-sm">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">🤰 6. Kết cục IVF ở phụ nữ Asherman</h2>
+  <div class="grid md:grid-cols-2 gap-4">
+    <div class="pastel-pink p-4 rounded-lg">
+      <h3 class="font-semibold text-stone-800">Nhóm AS (n=51)</h3>
+      <p class="text-stone-700 mt-2">Bề dày nội mạc: <strong>6.95 ± 1.7 mm</strong></p>
+      <p class="text-stone-700">Live birth aOR: <strong>0.174</strong> (95% CI 0.032-0.955)</p>
+      <p class="text-stone-700">Time to live birth: dài hơn (p=0.022)</p>
+    </div>
+    <div class="pastel-mint p-4 rounded-lg">
+      <h3 class="font-semibold text-stone-800">Nhóm chứng (n=51)</h3>
+      <p class="text-stone-700 mt-2">Bề dày nội mạc: <strong>8.7 ± 1.8 mm</strong></p>
+      <p class="text-stone-700">Endometrial thickness: p=0.001</p>
+      <p class="text-stone-700">Bề dày >7mm = tiên lượng tốt</p>
+    </div>
+  </div>
+  <p class="text-xs text-stone-500 mt-4">Fouks Y et al. 2022, J Minim Invasive Gynecol. PMID 35970266.</p>
+</section>
+
+<section class="glass rounded-2xl p-6 shadow-sm">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">🧬 7. Liệu pháp MSC trong Asherman kháng trị</h2>
+  <p class="text-stone-600 mb-4">Meta-analysis 12 nghiên cứu, 137 phụ nữ AS kháng trị (Jha S 2025):</p>
+  <canvas id="chartMSC" height="120"></canvas>
+  <p class="text-xs text-stone-500 mt-2">MSC = Mesenchymal Stem Cells. Rất hứa hẹn nhưng chưa có RCT lớn, chưa khuyến cáo thường quy. PMID 41694186.</p>
+</section>
+
+<section class="glass rounded-2xl p-6 shadow-sm">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">⚙️ 8. Algorithm xử trí Asherman</h2>
+  <div class="mermaid">
+flowchart TD
+    A["Phụ nữ có triệu chứng<br/>+ tiền sử nạo thai / can thiệp TC"] --> B["Siêu âm 2D / 3D<br/>Sonohysterography"]
+    B --> C["Hysteroscopy<br/>(tiêu chuẩn vàng)"]
+    C --> D{Mức độ AS?}
+    D -- Nhẹ AFS I --> E["TCRA đơn thuần<br/>+ estrogen + HA gel"]
+    D -- Trung bình AFS II --> F["TCRA + Foley 3-7 ngày<br/>+ HA gel + estrogen<br/>+ Second-look"]
+    D -- Nặng AFS III --> G["TCRA có hướng dẫn<br/>siêu âm / nội soi ổ bụng"]
+    G --> H{Thành công?}
+    H -- Có --> I["Tư vấn thai tự nhiên<br/>hoặc ART"]
+    H -- Thất bại 2 lần --> J["MSC therapy<br/>(nghiên cứu)"]
+    E --> I
+    F --> I
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-6 shadow-sm">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">💡 9. Khuyến cáo lâm sàng & Tips</h2>
+  <div class="grid md:grid-cols-2 gap-4">
+    <div class="pastel-lavender p-4 rounded-lg">
+      <h3 class="font-semibold text-stone-800 mb-2">Phòng ngừa (PRIMARY)</h3>
+      <ul class="text-sm text-stone-700 list-disc list-inside">
+        <li>Dùng HA gel SAU can thiệp (RR 0.29-0.45)</li>
+        <li>Tránh sharp curette ≥12 tuần</li>
+        <li>Hạn chế nạo nhiều lần</li>
+      </ul>
+    </div>
+    <div class="pastel-peach p-4 rounded-lg">
+      <h3 class="font-semibold text-stone-800 mb-2">Điều trị (SECONDARY)</h3>
+      <ul class="text-sm text-stone-700 list-disc list-inside">
+        <li>TCRA + bóng Foley 3-7 ngày</li>
+        <li>HA gel không cải thiện PR sau TCRA</li>
+        <li>Estrogen liệu pháp 2-3 chu kỳ</li>
+      </ul>
+    </div>
+    <div class="pastel-blue p-4 rounded-lg">
+      <h3 class="font-semibold text-stone-800 mb-2">Tiên lượng</h3>
+      <ul class="text-sm text-stone-700 list-disc list-inside">
+        <li>Nasr classification AUC 0.748</li>
+        <li>Bề dày nội mạc >7mm = tốt</li>
+        <li>MSC therapy: RR LBR 5.87</li>
+      </ul>
+    </div>
+    <div class="pastel-mint p-4 rounded-lg">
+      <h3 class="font-semibold text-stone-800 mb-2">Theo dõi thai kỳ</h3>
+      <ul class="text-sm text-stone-700 list-disc list-inside">
+        <li>Tầm soát nhau tiền đạo, PAS</li>
+        <li>Sinh tại CS có phẫu thuật sản</li>
+        <li>Cảnh bác băng huyết sau sinh</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-6 shadow-sm">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">📚 10. Tài liệu tham khảo (verified)</h2>
+  <ol class="text-sm text-stone-700 space-y-1 list-decimal list-inside">
+    <li><strong>Munro MG et al. 2025</strong> — Hum Reprod Update 31(6):588-625. PMID 40914965.</li>
+    <li><strong>Xu P et al. 2026</strong> — BMC Pregnancy Childbirth 26(1):256. PMID 41654781.</li>
+    <li><strong>Cao M et al. 2021</strong> — Reprod Biol Endocrinol 19(1):13. PMID 33482838.</li>
+    <li><strong>Fouks Y et al. 2022</strong> — J Minim Invasive Gynecol 29(11):1253-1259. PMID 35970266.</li>
+    <li><strong>Fayek B et al. 2026</strong> — J Minim Invasive Gynecol 33(2):205-212. PMID 41203068.</li>
+    <li><strong>Armstrong G et al. 2026</strong> — ANZJOG 66(1):e70071. PMID 41267665.</li>
+    <li><strong>Hurni Y et al. 2026</strong> — Int J Gynaecol Obstet 173(2):774-781. PMID 41239831.</li>
+    <li><strong>Jha S et al. 2025</strong> — Prz Menopauzalny 24(4):282-292. PMID 41694186.</li>
+    <li><strong>Ciftci B, Karadag B. 2026</strong> — Int J Womens Health 18:609095. PMID 42253844.</li>
+    <li><strong>Huang J et al. 2026</strong> — EJOG 318:114951. PMID 41534134.</li>
+  </ol>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Daily lesson 2026-06-23 — Bs. Ngọc 🍅 🐈‍⬛ | MiniMax Mavis | 10 papers Q1/Q2 verified</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+// Chart 1: IUA risk after interventions
+new Chart(document.getElementById('chartIUA'), {
+  type: 'bar',
+  data: {
+    labels: ['Sau nạo thai', 'Sau myomectomy nội soi', 'Sau metroplasty'],
+    datasets: [{
+      label: 'IUA mới (%)',
+      data: [17, 16, 28],
+      backgroundColor: ['#f4c2c2', '#c5d5e0', '#d4c5e2'],
+      borderColor: '#4a4a4a',
+      borderWidth: 1
+    },{
+      label: 'CI thấp (%)',
+      data: [11, 6, 13],
+      backgroundColor: 'rgba(0,0,0,0)',
+      borderColor: '#888',
+      borderWidth: 1,
+      type: 'bar'
+    },{
+      label: 'CI cao (%)',
+      data: [25, 28, 46],
+      backgroundColor: 'rgba(0,0,0,0)',
+      borderColor: '#888',
+      borderWidth: 1,
+      type: 'bar'
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: { legend: { position: 'top' } },
+    scales: { y: { beginAtZero: true, max: 50, title: { display: true, text: 'Tỷ lệ IUA (%)' } } }
+  }
+});
+
+// Chart 2: 5 classification systems AUC
+new Chart(document.getElementById('chartClass'), {
+  type: 'bar',
+  data: {
+    labels: ['AFS 1988', 'ESGE 1995', 'March 2006', 'Nasr 2000', 'TQ 2015'],
+    datasets: [{
+      label: 'AUC (tiên đoán live birth)',
+      data: [0.668, 0.672, 0.640, 0.748, 0.690],
+      backgroundColor: ['#c5d5e0', '#c5e0c9', '#f7d1ba', '#f4c2c2', '#d4c5e2'],
+      borderColor: '#4a4a4a',
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: { y: { min: 0.6, max: 0.8, title: { display: true, text: 'AUC' } } }
+  }
+});
+
+// Chart 3: HA gel primary prevention RR
+new Chart(document.getElementById('chartHA'), {
+  type: 'bar',
+  data: {
+    labels: ['Sau nạo thai', 'Sau myomectomy', 'Sau metroplasty'],
+    datasets: [{
+      label: 'RR (HA gel vs không gel)',
+      data: [0.45, 0.38, 0.29],
+      backgroundColor: ['#c5e0c9', '#c5d5e0', '#d4c5e2'],
+      borderColor: '#4a4a4a',
+      borderWidth: 1
+    },{
+      label: 'CI thấp',
+      data: [0.30, 0.20, 0.12],
+      backgroundColor: 'rgba(0,0,0,0)',
+      borderColor: '#888',
+      borderWidth: 1,
+      type: 'bar'
+    },{
+      label: 'CI cao',
+      data: [0.68, 0.73, 0.69],
+      backgroundColor: 'rgba(0,0,0,0)',
+      borderColor: '#888',
+      borderWidth: 1,
+      type: 'bar'
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: { legend: { position: 'top' } },
+    scales: { y: { min: 0, max: 1, title: { display: true, text: 'Relative Risk (RR)' } } }
+  }
+});
+
+// Chart 4: MSC therapy outcomes
+new Chart(document.getElementById('chartMSC'), {
+  type: 'bar',
+  data: {
+    labels: ['Pregnancy rate
+(RR)', 'Live birth rate
+(RR)', 'Bề dày NM
+(SMD)'],
+    datasets: [{
+      label: 'Hiệu quả MSC',
+      data: [9.35, 5.87, 2.09],
+      backgroundColor: ['#f4c2c2', '#f7d1ba', '#d4c5e2'],
+      borderColor: '#4a4a4a',
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: { y: { beginAtZero: true, title: { display: true, text: 'RR hoặc SMD' } } }
+  }
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FGR - Doppler UmbA &amp; MCA</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+
+<header class="text-center py-10">
+  <div class="inline-block glass rounded-2xl px-8 py-6 shadow-lg">
+    <h1 class="text-4xl font-bold text-stone-800 mb-3">Fetal Growth Restriction (FGR)</h1>
+    <p class="text-xl text-stone-600 mb-2">Vai trò của Doppler động mạch rốn và động mạch não giữa</p>
+    <div class="flex flex-wrap justify-center gap-2 mt-4">
+      <span class="tag pastel-pink text-white px-3 py-1 rounded-full text-sm">FGR</span>
+      <span class="tag pastel-blue text-white px-3 py-1 rounded-full text-sm">Umbilical Artery Doppler</span>
+      <span class="tag pastel-mint text-white px-3 py-1 rounded-full text-sm">Middle Cerebral Artery</span>
+      <span class="tag pastel-peach text-white px-3 py-1 rounded-full text-sm">Cerebroplacental Ratio</span>
+      <span class="tag pastel-lavender text-white px-3 py-1 rounded-full text-sm">ISUOG 2020</span>
+      <span class="tag pastel-pink text-white px-3 py-1 rounded-full text-sm">SMFM 2020</span>
+    </div>
+    <p class="text-sm text-stone-500 mt-3">Ngày 2026-06-23 | Bác sĩ Ngọc 🍅 🐈‍⬛ | MiniMax Mavis AI</p>
+  </div>
+</header>
+<main class="max-w-6xl mx-auto space-y-8">
+
+<!-- Section 1: Tổng quan -->
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">📋 Tổng quan — Vì sao bài này quan trọng?</h2>
+  <p class="text-stone-700 mb-4 leading-relaxed">
+    Fetal growth restriction (FGR) là một trong những nguyên nhân hàng đầu gây tử vong chu sinh, bệnh tật sơ sinh và ảnh hưởng sức khỏe lâu dài. Tỷ lệ FGR chiếm <strong class="text-rose-600">tới 10% thai kỳ</strong>.
+  </p>
+  <div class="grid md:grid-cols-2 gap-4 mt-6">
+    <div class="pastel-peach rounded-xl p-5">
+      <h3 class="font-bold text-stone-800 mb-2">🎯 SGA vs FGR</h3>
+      <p class="text-sm text-stone-700">
+        <strong>SGA</strong> = thai nhỏ, EFW/AC &lt; P10 (có thể do bản thân thai nhỏ constitutional).<br>
+        <strong>FGR</strong> = thai không đạt tiềm năng tăng trưởng do bệnh lý, đặc trưng bởi giảm tốc độ tăng trưởng và/hoặc Doppler bất thường.
+      </p>
+    </div>
+    <div class="pastel-mint rounded-xl p-5">
+      <h3 class="font-bold text-stone-800 mb-2">🧠 Brain-sparing effect</h3>
+      <p class="text-sm text-stone-700">
+        Khi nhau suy → ưu tiên tưới máu não → <strong>MCA-PI giảm</strong> trong khi <strong>UA-PI tăng</strong> → <strong>CPR giảm</strong>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Section 2: Phân loại FGR (Mermaid) -->
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">🔀 Phân loại FGR theo thời điểm chẩn đoán</h2>
+  <p class="text-stone-700 mb-4">Theo Lees CC 2022 (PMID 35026129), chia theo tuổi thai chẩn đoán 32 tuần.</p>
+  <div class="mermaid">
+flowchart TD
+    A[FGR chẩn đoán] --> B{Tuổi thai &lt; 32 tuần?}
+    B -->|Có| C[Early-onset FGR]
+    B -->|Không| D[Late-onset FGR]
+    C --> E["Doppler đặc trưng:<br/>• UAD bất thường sớm<br/>• PI tăng → AEDV → REDV"]
+    C --> F["Tiên lượng: nặng<br/>Sinh: 30-34 tuần"]
+    D --> G["Doppler đặc trưng:<br/>• MCA-PI giảm brain-sparing<br/>• UAD thường bình thường"]
+    D --> H["Tiên lượng: nhẹ hơn<br/>Sinh: 37-39 tuần"]
+    style C fill:#f4c2c2
+    style D fill:#c5d5e0
+    style E fill:#f7d1ba
+    style G fill:#c5e0c9
+  </div>
+</section>
+
+<!-- Section 3: Bảng so sánh ISUOG vs SMFM -->
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">📊 So sánh định nghĩa FGR: ISUOG 2020 vs SMFM 2020</h2>
+  <p class="text-stone-700 mb-4">Theo Roeckner 2021 (PMID 33798274) - 1054 thai kỳ 26+0 - 36+6 tuần.</p>
+  <div class="overflow-x-auto">
+    <table class="w-full border-collapse">
+      <thead>
+        <tr class="pastel-blue text-stone-800">
+          <th class="px-4 py-3 text-left font-bold border border-stone-300">Tiêu chí</th>
+          <th class="px-4 py-3 text-left font-bold border border-stone-300">ISUOG 2020 (PMID 32738107)</th>
+          <th class="px-4 py-3 text-left font-bold border border-stone-300">SMFM 2020 (PMID 32407785)</th>
+        </tr>
+      </thead>
+      <tbody class="text-sm">
+        <tr>
+          <td class="px-4 py-3 font-bold border border-stone-300 pastel-mint">Tiêu chuẩn</td>
+          <td class="px-4 py-3 border border-stone-300">EFW/AC &lt; P3 HOẶC &lt; P10 + Doppler bất thường</td>
+          <td class="px-4 py-3 border border-stone-300">EFW hoặc AC &lt; P10 (đơn giản)</td>
+        </tr>
+        <tr>
+          <td class="px-4 py-3 font-bold border border-stone-300 pastel-mint">Tỷ lệ FGR</td>
+          <td class="px-4 py-3 border border-stone-300">5.2%</td>
+          <td class="px-4 py-3 border border-stone-300">13.0%</td>
+        </tr>
+        <tr>
+          <td class="px-4 py-3 font-bold border border-stone-300 pastel-mint">Sensitivity SGA</td>
+          <td class="px-4 py-3 border border-stone-300">28.8%</td>
+          <td class="px-4 py-3 border border-stone-300">54.7%</td>
+        </tr>
+        <tr>
+          <td class="px-4 py-3 font-bold border border-stone-300 pastel-mint">Specificity SGA</td>
+          <td class="px-4 py-3 border border-stone-300"><strong>98.4%</strong></td>
+          <td class="px-4 py-3 border border-stone-300">93.3%</td>
+        </tr>
+        <tr>
+          <td class="px-4 py-3 font-bold border border-stone-300 pastel-mint">PPV SGA</td>
+          <td class="px-4 py-3 border border-stone-300"><strong>72.7%</strong></td>
+          <td class="px-4 py-3 border border-stone-300">55.5%</td>
+        </tr>
+        <tr>
+          <td class="px-4 py-3 font-bold border border-stone-300 pastel-mint">LR+ SGA</td>
+          <td class="px-4 py-3 border border-stone-300"><strong>18.0</strong></td>
+          <td class="px-4 py-3 border border-stone-300">8.2</td>
+        </tr>
+        <tr>
+          <td class="px-4 py-3 font-bold border border-stone-300 pastel-mint">Composite ANO</td>
+          <td class="px-4 py-3 border border-stone-300" colspan="2">Cả hai đều kém (sensitivity 10-15%)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm text-stone-600 mt-4"><em>SMFM có độ nhạy cao hơn (bắt nhiều ca hơn), ISUOG có độ đặc hiệu cao hơn (chắc chắn hơn).</em></p>
+</section>
+
+<!-- Section 4: Diễn tiến Doppler trong early FGR (Mermaid algorithm) -->
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">⏱️ Diễn tiến Doppler trong Early-onset FGR</h2>
+  <p class="text-stone-700 mb-4">Theo Lees CC 2022 (PMID 35026129) - thứ tự thời gian các bất thường Doppler xuất hiện.</p>
+  <div class="mermaid">
+flowchart TD
+    A[EFW/AC &lt; P10<br/>chẩn đoán FGR] --> B[UAD PI tăng &gt; P95<br/>giảm dòng cuối tâm trương]
+    B --> C["UAD AEDV<br/>Absent End-Diastolic Velocity<br/>Sinh 33-34 tuần"]
+    C --> D["UAD REDV<br/>Reversed End-Diastolic Velocity<br/>Sinh 30-32 tuần"]
+    D --> E["DV PI tăng / sóng a âm<br/>Ductus venosus bất thường"]
+    E --> F["CTG bất thường<br/>mất variability, decelerations"]
+    F --> G[Thai chết]
+    A -.Late-onset.-> H["MCA-PI giảm<br/>brain-sparing<br/>UAD thường bình thường"]
+    H --> I[Sinh 37-39 tuần]
+    style A fill:#fef9f3
+    style B fill:#f7d1ba
+    style C fill:#f4c2c2
+    style D fill:#e89999
+    style E fill:#d97a7a
+    style F fill:#c25b5b
+    style G fill:#8b3a3a
+    style H fill:#c5d5e0
+    style I fill:#c5e0c9
+  </div>
+</section>
+
+<!-- Section 5: CPR meta-analysis (Chart.js bar) -->
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">📈 Predictive accuracy của CPR (Conde-Agudelo 2018, PMID 29920817)</h2>
+  <p class="text-stone-700 mb-4">Meta-analysis 22 nghiên cứu / 4301 phụ nữ với suspected FGR.</p>
+  <div class="grid md:grid-cols-2 gap-6">
+    <div>
+      <canvas id="cprChart" height="300"></canvas>
+    </div>
+    <div class="space-y-3">
+      <div class="pastel-pink rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-1">🎯 Tử vong chu sinh</h3>
+        <p class="text-sm text-stone-700">AUC 0.83, sensitivity 93%, specificity 76%, LR+ 3.9, LR− 0.09</p>
+      </div>
+      <div class="pastel-mint rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-1">📏 SGA at birth</h3>
+        <p class="text-sm text-stone-700">LR+ 7.4 (độ chính xác trung bình)</p>
+      </div>
+      <div class="pastel-peach rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-1">⚠️ Kết cục khác</h3>
+        <p class="text-sm text-stone-700">Acidosis, NICU admission, Apgar thấp: accuracy thấp (LR+ 1.1-2.5)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 6: Quyết định thời điểm sinh (Table) -->
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">🗓️ Quyết định thời điểm sinh theo SMFM 2020</h2>
+  <p class="text-stone-700 mb-4">PMID 32407785 - GRADE 1B/2C.</p>
+  <div class="overflow-x-auto">
+    <table class="w-full border-collapse">
+      <thead>
+        <tr class="pastel-peach text-stone-800">
+          <th class="px-4 py-3 text-left font-bold border border-stone-300">Tình huống</th>
+          <th class="px-4 py-3 text-left font-bold border border-stone-300">Tuổi thai sinh</th>
+          <th class="px-4 py-3 text-left font-bold border border-stone-300">Mức GRADE</th>
+        </tr>
+      </thead>
+      <tbody class="text-sm">
+        <tr class="pastel-mint">
+          <td class="px-4 py-3 border border-stone-300">FGR + UAD bình thường + EFW P3-P10</td>
+          <td class="px-4 py-3 border border-stone-300 font-bold">38-39 tuần</td>
+          <td class="px-4 py-3 border border-stone-300">2C</td>
+        </tr>
+        <tr class="pastel-blue">
+          <td class="px-4 py-3 border border-stone-300">FGR + UAD PI &gt; P95 HOẶC EFW &lt; P3</td>
+          <td class="px-4 py-3 border border-stone-300 font-bold">37 tuần</td>
+          <td class="px-4 py-3 border border-stone-300">1B</td>
+        </tr>
+        <tr class="pastel-peach">
+          <td class="px-4 py-3 border border-stone-300">FGR + UAD AEDV</td>
+          <td class="px-4 py-3 border border-stone-300 font-bold">33-34 tuần</td>
+          <td class="px-4 py-3 border border-stone-300">1B</td>
+        </tr>
+        <tr class="pastel-pink">
+          <td class="px-4 py-3 border border-stone-300">FGR + UAD REDV</td>
+          <td class="px-4 py-3 border border-stone-300 font-bold">30-32 tuần</td>
+          <td class="px-4 py-3 border border-stone-300">1B</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="mt-4 grid md:grid-cols-2 gap-3 text-sm">
+    <div class="pastel-blue rounded-lg p-3">
+      <strong>Corticosteroids (GRADE 1A):</strong> mọi thai kỳ &lt; 33 6/7 tuần dự kiến sinh; và 34 0/7 - 36 6/7 tuần nếu nguy cơ sinh trong 7 ngày.
+    </div>
+    <div class="pastel-mint rounded-lg p-3">
+      <strong>Magnesium sulfate (GRADE 1A):</strong> bảo vệ thần kinh thai nhi nếu &lt; 32 tuần.
+    </div>
+  </div>
+</section>
+
+<!-- Section 7: Bằng chứng mới 2024-2025 (Chart.js bar) -->
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">🔬 Bằng chứng mới 2024-2025: Lopian 2025 (PMID 40286315)</h2>
+  <p class="text-stone-700 mb-4">Retrospective cohort 14,161 thai kỳ nguy cơ thấp, siêu âm 35+0 - 37+6 tuần. Independent predictors cho SGA.</p>
+  <div class="grid md:grid-cols-2 gap-6">
+    <div>
+      <canvas id="lopianChart" height="300"></canvas>
+    </div>
+    <div class="space-y-3">
+      <div class="pastel-blue rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-1">📊 Tỷ lệ SGA / FGR</h3>
+        <p class="text-sm text-stone-700">SGA: 3.1% (cân nặng &lt; P5) - FGR: 1.5% (cân nặng &lt; P3 hoặc &lt; P10 + CAPO)</p>
+      </div>
+      <div class="pastel-mint rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-1">🎯 EFW centile alone</h3>
+        <p class="text-sm text-stone-700">AUC 0.917 cho SGA, 0.925 cho FGR - yếu tố tiên đoán mạnh nhất</p>
+      </div>
+      <div class="pastel-peach rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-1">➕ Kết hợp Doppler</h3>
+        <p class="text-sm text-stone-700">AUC ~0.92-0.93 - <strong>không cải thiện nhiều</strong> so với EFW alone</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 8: DRIGITAT trial result (Mermaid) -->
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">🧪 DRIGITAT Trial 2024 (PMID 38498267, BJOG)</h2>
+  <p class="text-stone-700 mb-4">Multicentre cohort + nested RCT ở Hà Lan, 690 thai SGA 32-36+6 tuần. Sinh sớm 34 tuần vs theo dõi 37 tuần.</p>
+  <div class="mermaid">
+flowchart LR
+    A[Thai SGA 32-36+6 tuần<br/>n=690] --> B{UCR bất thường<br/>2 lần liên tiếp?}
+    B -->|Có| C{EFW &lt; P3<br/>≤35 tuần<br/>HOẶC &lt; P10<br/>ở 36 tuần?}
+    C -->|Có| D[RCT-eligible<br/>n=40]
+    C -->|Không| E[Theo dõi thường quy]
+    B -->|Không| E
+    D --> F[Sinh ngay 34 tuần]
+    D --> G[Theo dõi 37 tuần]
+    F --> H["CAPO 44%<br/>P &lt; 0.05<br/>Cân nặng thấp hơn"]
+    G --> I["Cân nặng cao hơn<br/>CAPO thấp hơn<br/>(P=0.07)"]
+    H -.RCT bị dừng sớm.-> J["Kết luận:<br/>Sinh sớm CHỈ nên<br/>thực hiện trong<br/>thử nghiệm lâm sàng"]
+    I -.-> J
+    style D fill:#f4c2c2
+    style H fill:#e89999
+    style G fill:#c5e0c9
+    style I fill:#a8d4ab
+    style J fill:#fef9f3
+  </div>
+</section>
+
+<!-- Section 9: Placental biomarker (Chart.js bar) -->
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">🔬 Doppler và bệnh lý nhau (Hong 2025, PMID 40329845)</h2>
+  <p class="text-stone-700 mb-4">Prospective cohort 367 thai SGA/FGR. Adjusted odds ratio cho placental maternal vascular malperfusion (MVM).</p>
+  <div>
+    <canvas id="placentaChart" height="200"></canvas>
+  </div>
+  <p class="text-sm text-stone-600 mt-4"><em>CPR &lt; P5, UAD bất thường, và UtA-PI &gt; P95 đều liên quan mạnh với MVM - tổn thương nền tảng của preeclampsia/FGR.</em></p>
+</section>
+
+<!-- Section 10: Tips thực hành -->
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">💡 Tips thực hành (Clinical Pearls)</h2>
+  <div class="grid md:grid-cols-2 gap-3">
+    <div class="pastel-peach rounded-xl p-4">
+      <p class="text-sm text-stone-700"><strong>1. Đo UAD ở dây rốn tự do</strong> - không đo ở đoạn bám bụng thai hay bám nhau (sai số lớn).</p>
+    </div>
+    <div class="pastel-mint rounded-xl p-4">
+      <p class="text-sm text-stone-700"><strong>2. Góc insonation &lt; 30°</strong> cho cả UAD và MCA - góc lớn sẽ làm sai PI.</p>
+    </div>
+    <div class="pastel-blue rounded-xl p-4">
+      <p class="text-sm text-stone-700"><strong>3. MCA Doppler</strong>: mặt cắt axial, đồi thị + xương cánh bướm, cổng Doppler ở 1/3 gần của MCA.</p>
+    </div>
+    <div class="pastel-lavender rounded-xl p-4">
+      <p class="text-sm text-stone-700"><strong>4. CPR = MCA-PI / UA-PI</strong> - CPR thấp có thể do MCA thấp HOẶC UA cao.</p>
+    </div>
+    <div class="pastel-pink rounded-xl p-4">
+      <p class="text-sm text-stone-700"><strong>5. Brain-sparing có thể "bình thường hóa"</strong> ở thai rất nặng (terminal) do mất cơ chế tự điều hòa.</p>
+    </div>
+    <div class="pastel-peach rounded-xl p-4">
+      <p class="text-sm text-stone-700"><strong>6. AEDV/REDV</strong> là dấu hiệu nặng - nhập viện, corticosteroids, theo dõi sát.</p>
+    </div>
+    <div class="pastel-mint rounded-xl p-4">
+      <p class="text-sm text-stone-700"><strong>7. CTG hàng tuần</strong> khi FGR ổn định, 2 lần/ngày khi có AEDV/REDV.</p>
+    </div>
+    <div class="pastel-blue rounded-xl p-4">
+      <p class="text-sm text-stone-700"><strong>8. Khi FGR + dị tật</strong> → chỉ định CMA bất kể tuổi thai (SMFM 2020, GRADE 1B).</p>
+    </div>
+    <div class="pastel-lavender rounded-xl p-4">
+      <p class="text-sm text-stone-700"><strong>9. CPR &lt; P5 + UtA-PI &gt; P95</strong> → nghi ngờ placental MVM cao - tiên lượng nặng.</p>
+    </div>
+    <div class="pastel-pink rounded-xl p-4">
+      <p class="text-sm text-stone-700"><strong>10. Tránh "over-monitoring"</strong>: late-onset FGR ổn định có UAD bình thường → theo dõi hàng tuần là đủ.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Section 11: Tổng kết -->
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">✅ Tổng kết điểm cần nhớ</h2>
+  <ol class="space-y-2 text-stone-700 list-decimal list-inside">
+    <li><strong>Phân biệt SGA và FGR</strong> - FGR đòi hỏi theo dõi sát hơn và có nguy cơ kết cục xấu.</li>
+    <li><strong>UAD Doppler là công cụ đầu tay</strong> cho early-onset FGR - PI &gt; P95 → AEDV → REDV là dấu hiệu nặng dần.</li>
+    <li><strong>MCA Doppler bổ sung cho late-onset FGR</strong> - MCA-PI &lt; P5 = brain-sparing.</li>
+    <li><strong>CPR &lt; P5 có giá trị tiên đoán tử vong chu sinh cao</strong> (sensitivity 93%, LR− 0.09) nhưng chưa có RCT cho thấy cải thiện kết cục khi dựa vào CPR để quyết định sinh.</li>
+    <li><strong>Quyết định thời điểm sinh</strong> dựa trên UAD Doppler + tuổi thai (theo SMFM 2020).</li>
+    <li><strong>Corticosteroids trước sinh</strong> cho mọi thai kỳ &lt; 33 6/7 tuần có nguy cơ sinh non.</li>
+    <li><strong>Magnesium sulfate</strong> bảo vệ thần kinh cho thai &lt; 32 tuần.</li>
+    <li><strong>Không dùng LMWH, sildenafil, hay bed rest</strong> để điều trị FGR (SMFM 2020, GRADE 1B).</li>
+    <li><strong>DRIGITAT 2024</strong>: sinh sớm SGA có UCR bất thường 34-36 tuần chưa được chứng minh lợi ích ngoài thử nghiệm.</li>
+    <li><strong>EFW centile ở 35-37 tuần</strong> là yếu tố tiên đoán mạnh nhất; Doppler bổ trợ nhưng không tăng AUC nhiều (Lopian 2025).</li>
+  </ol>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>© 2026-06-23 Daily Lesson | Bác sĩ Ngọc | MiniMax Mavis AI | 15 papers verified Q1/Q2</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+// Chart 1: CPR predictive accuracy
+const ctx1 = document.getElementById('cprChart').getContext('2d');
+new Chart(ctx1, {
+  type: 'bar',
+  data: {
+    labels: ['Perinatal death', 'SGA at birth', 'NICU admission', 'Neonatal acidosis', 'Cesarean for NRFS', 'Apgar < 7'],
+    datasets: [{
+      label: 'Summary Positive LR',
+      data: [3.9, 7.4, 2.5, 1.5, 1.8, 1.1],
+      backgroundColor: 'rgba(244, 194, 194, 0.7)',
+      borderColor: 'rgba(244, 194, 194, 1)',
+      borderWidth: 1
+    }, {
+      label: 'Summary Negative LR',
+      data: [0.09, 0.5, 0.7, 0.8, 0.6, 0.9],
+      backgroundColor: 'rgba(197, 213, 224, 0.7)',
+      borderColor: 'rgba(197, 213, 224, 1)',
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      title: { display: true, text: 'CPR Likelihood Ratios (Conde-Agudelo 2018)' },
+      legend: { position: 'top' }
+    },
+    scales: {
+      y: { beginAtZero: true, title: { display: true, text: 'Likelihood Ratio' } }
+    }
+  }
+});
+
+// Chart 2: Lopian 2025 aOR for SGA
+const ctx2 = document.getElementById('lopianChart').getContext('2d');
+new Chart(ctx2, {
+  type: 'bar',
+  data: {
+    labels: ['EFW centile', 'AC centile', 'UA-PI MoM', 'MCA-PI MoM', 'CPR MoM', 'UtA-PI MoM'],
+    datasets: [{
+      label: 'Adjusted OR for SGA',
+      data: [0.91, 0.91, 4.60, 0.37, 0.23, 2.54],
+      backgroundColor: 'rgba(197, 224, 201, 0.7)',
+      borderColor: 'rgba(197, 224, 201, 1)',
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      title: { display: true, text: 'Independent Predictors of SGA (Lopian 2025)' },
+      legend: { display: false }
+    },
+    scales: {
+      y: { beginAtZero: true, title: { display: true, text: 'Adjusted OR' } }
+    }
+  }
+});
+
+// Chart 3: Placental biomarker aOR for MVM
+const ctx3 = document.getElementById('placentaChart').getContext('2d');
+new Chart(ctx3, {
+  type: 'bar',
+  data: {
+    labels: ['CPR < P5', 'Abnormal UA Doppler', 'UtA-PI > P95', 'PlGF < 100 ng/L', 'sFlt-1/PlGF tăng'],
+    datasets: [{
+      label: 'aOR for MVM',
+      data: [2.47, 3.13, 4.01, 2.89, 3.15],
+      backgroundColor: [
+        'rgba(244, 194, 194, 0.7)',
+        'rgba(247, 209, 186, 0.7)',
+        'rgba(197, 213, 224, 0.7)',
+        'rgba(197, 224, 201, 0.7)',
+        'rgba(212, 197, 226, 0.7)'
+      ],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      title: { display: true, text: 'Doppler & Biomarkers vs MVM (Hong 2025)' },
+      legend: { display: false }
+    },
+    scales: {
+      x: { beginAtZero: true, title: { display: true, text: 'Adjusted OR' } }
+    }
+  }
+});
+
+</script>
+</body>
+</html>

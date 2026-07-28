@@ -1,0 +1,29 @@
+[
+  {
+    "type": "basic",
+    "front": "Tần số cắt lọc (filter) chuẩn cho máy ECG chẩn đoán người lớn là bao nhiêu?",
+    "back": "0.05 Hz đến 150 Hz.",
+    "extra": "Cài đặt filter sai (ví dụ cắt tần số thấp ở 0.5 Hz thay vì 0.05 Hz) có thể làm méo đoạn ST, gây chẩn đoán nhầm nhồi máu. {claim:C-001}"
+  },
+  {
+    "type": "basic",
+    "front": "Vận tốc giấy chuẩn của máy ECG là bao nhiêu?",
+    "back": "25 mm/s.",
+    "extra": "Ở tốc độ này, 1 ô vuông nhỏ (1 mm) tương ứng với 0.04 giây. {claim:C-002}"
+  },
+  {
+    "type": "basic",
+    "front": "Test amplitude (calibration) chuẩn của máy ECG là bao nhiêu?",
+    "back": "10 mm/mV.",
+    "extra": "Nghĩa là 1 ô vuông nhỏ (1 mm) tương ứng với 0.1 mV. {claim:C-003}"
+  },
+  {
+    "type": "basic",
+    "front": "Theo nguyên lý hình chiếu vector, khi vector điện tim hướng vuông góc với trục của chuyển đạo, máy ECG sẽ ghi lại hình ảnh sóng như thế nào?",
+    "back": "Sóng có biên độ bằng 0 (đường đẳng điện) hoặc sóng 2 pha (có phần dương và phần âm bằng nhau)."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong tam giác Einthoven, chuyển đạo DII nhìn tim từ dưới lên, chếch trái. Đây là góc nhìn song song nhất với trục khử cực bình thường của tim, nên sóng P và R thường {{c1::cao nhất}} ở DII."
+  }
+]

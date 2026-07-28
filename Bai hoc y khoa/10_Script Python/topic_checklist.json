@@ -1,0 +1,167 @@
+{
+  "_meta": {
+    "description": "Syllabus coverage checklist — mỗi topic có danh sách sub-topic BẮT BUỘC phải cover trong bài giảng.",
+    "usage": "Tham khảo từ Williams Obstetrics 26e, Gabbe 8e, TGCK syllabus, và guideline hiện hành.",
+    "updated": "2026-06-27"
+  },
+  "topics": {
+    "oligohydramnios_polyhydramnios_amniotic_fluid": {
+      "aliases": [
+        "amniotic fluid abnormalities",
+        "bất thường nước ối",
+        "thiểu ối",
+        "đa ối",
+        "AFI",
+        "SDP"
+      ],
+      "required": [
+        "Sinh lý nước ối: nguồn gốc, động học, thể tích theo tuổi thai (Brace 1989)",
+        "Kỹ thuật đo: AFI (Phelan 1987), SDP (Chamberlain 1984), error sources",
+        "So sánh AFI vs SDP: Chauhan 2004 RCT, khuyến cáo SMFM/ACOG",
+        "Định nghĩa thiểu ối: AFI ≤5, SDP <2, phân loại mild/moderate/severe",
+        "Nguyên nhân thiểu ối: PPROM, FGR, renal anomalies, post-term, medications (ACEi/ARB/NSAIDs)",
+        "Cơ chế thiểu ối trong FGR: brain-sparing → renal artery vasoconstriction",
+        "Quản lý thiểu ối: theo tuổi thai, nguyên nhân, mức độ; amnioinfusion",
+        "Định nghĩa đa ối: SDP ≥8 hoặc AFI ≥24 (SMFM #46); phân loại mild/mod/severe",
+        "Nguyên nhân đa ối: idiopathic 50-60%, GDM 15-20%, fetal anomalies 15-20%",
+        "SMFM #46 khuyến cáo: amnioreduction, indomethacin, surveillance, timing delivery",
+        "Biến chứng: cord prolapse, PPH, preterm labor, placental abruption",
+        "Tình huống đặc biệt: TTTS, esophageal atresia, aneuploidy"
+      ],
+      "recommended": [
+        "Anhydramnios sequence (Potter syndrome)",
+        "Mirror syndrome / Ballantyne syndrome",
+        "Amniotic fluid embolism (AFE) — brief mention",
+        "AFI nomograms for Asian populations"
+      ]
+    },
+    "fetal_growth_restriction_FGR": {
+      "aliases": [
+        "FGR",
+        "IUGR",
+        "fetal growth restriction",
+        "SGA"
+      ],
+      "required": [
+        "Định nghĩa: EFW <10th percentile; phân biệt FGR vs SGA",
+        "Phân loại: early-onset (<32w) vs late-onset (≥32w)",
+        "Nguyên nhân: placental, maternal, fetal, infections",
+        "Sàng lọc: risk factors, SFH, ultrasound biometry",
+        "Doppler trong FGR: UA, MCA, CPR, DV — ý nghĩa từng thông số",
+        "Cơ chế brain-sparing: hypoxia → redistribution",
+        "Quản lý: timing delivery dựa trên Doppler + CTG + BPP",
+        "Guidelines: SMFM #52, ISUOG Doppler 2021, TRUFFLE trial"
+      ]
+    },
+    "preeclampsia_screening": {
+      "aliases": [
+        "preeclampsia",
+        "pre-eclampsia",
+        "tiền sản giật",
+        "ASPRE"
+      ],
+      "required": [
+        "Định nghĩa + phân loại: ISSHP 2018, ACOG 2020",
+        "Sinh lý bệnh: 2-stage model, angiogenic imbalance (sFlt-1/PlGF)",
+        "Sàng lọc quý 1: FMF algorithm (MA, MAP, UtA-PI, PlGF, PAPP-A)",
+        "Dự phòng aspirin: ASPRE trial, liều 150mg, thời điểm, đối tượng",
+        "Sàng lọc quý 2-3: sFlt-1/PlGF ratio, UtA Doppler",
+        "Quản lý: theo dõi, thuốc hạ áp, MgSO4, timing delivery"
+      ]
+    },
+    "doppler_ultrasound": {
+      "aliases": [
+        "Doppler",
+        "Doppler velocimetry",
+        "UA Doppler",
+        "MCA Doppler"
+      ],
+      "required": [
+        "Nguyên lý Doppler: PW, CW, color, power Doppler",
+        "UA Doppler: waveform, PI, AEDF/REDF — ý nghĩa",
+        "MCA Doppler: PSV (fetal anemia), PI (brain-sparing)",
+        "CPR (MCA/UA): ý nghĩa trong FGR late-onset",
+        "DV Doppler: a-wave, PIV — marker suy tim phải",
+        "UtA Doppler: sàng lọc TSG, FGR",
+        "ISUOG 2021 guideline: kỹ thuật đo, cut-off"
+      ]
+    },
+    "cervical_length_PTB": {
+      "aliases": [
+        "cervical length",
+        "PTB",
+        "preterm birth",
+        "cổ tử cung"
+      ],
+      "required": [
+        "Kỹ thuật đo CL: TVS, bladder empty, 3 measurements",
+        "Cut-off: CL <25mm ở 16-24w = nguy cơ PTB cao",
+        "Dự phòng: progesterone (vaginal/IM/ oral), cerclage, pessary",
+        "Chỉ định cerclage: history-indicated, ultrasound-indicated, physical exam-indicated",
+        "Guidelines: ACOG PB #234, RCOG GTG"
+      ]
+    },
+    "ovarian_stimulation_ART": {
+      "aliases": [
+        "COS",
+        "ovarian stimulation",
+        "kích trứng",
+        "stimulation protocols"
+      ],
+      "required": [
+        "Cơ chế HPO axis, follicular wave, 2-cell theory, LH ceiling",
+        "Phân loại protocols: agonist (long/short/microdose), antagonist, PPOS, mild",
+        "Low responder: Bologna criteria, POSEIDON classification",
+        "ESHRE 2025 guideline (PMID 41732035): 121 recs, 21 key questions",
+        "DuoStim, random start, fertility preservation protocols",
+        "Trigger: hCG, GnRHa, dual trigger — OHSS risk",
+        "OHSS: prevention, risk factors, management"
+      ]
+    },
+    "first_trimester_screening": {
+      "aliases": [
+        "FTS",
+        "first trimester screening",
+        "11-14w",
+        "sàng lọc quý 1"
+      ],
+      "required": [
+        "Siêu âm 11-14w: CRL, NT, NB, DV flow, tricuspid regurgitation",
+        "Sàng lọc aneuploidy: combined test, cfDNA/NIPT",
+        "Cấu trúc thai ở 11-14w: ISUOG checklist",
+        "Sàng lọc TSG sớm: FMF algorithm",
+        "ISUOG 2022 guideline"
+      ]
+    },
+    "abnormal_uterine_bleeding": {
+      "aliases": [
+        "abnormal uterine bleeding",
+        "AUB",
+        "PALM-COEIN",
+        "rong kinh",
+        "rong huyet"
+      ],
+      "required": [
+        "FIGO PALM-COEIN classification",
+        "Workup: US, hysteroscopy, EMB",
+        "Medical management: hormonal, NSAIDs",
+        "Surgical: hysteroscopy, ablation",
+        "AUB in perimenopause"
+      ]
+    },
+    "postpartum_hemorrhage": {
+      "aliases": [
+        "postpartum hemorrhage",
+        "PPH",
+        "bang huyet sau sinh",
+        "uterine atony"
+      ],
+      "required": [
+        "Definition: >500mL vaginal, >1000mL CS",
+        "4Ts: Tone, Trauma, Tissue, Thrombin",
+        "Management cascade: uterotonics to hysterectomy",
+        "Massive transfusion protocol"
+      ]
+    }
+  }
+}

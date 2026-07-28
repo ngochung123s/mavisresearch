@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OHSS — Phòng ngừa & Xử trí</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy:  '#1a3a5c',
+            teal:  '#007a8a',
+            red:   '#c0392b',
+            gold:  '#d4a017',
+            slate: '#5d6d7e',
+            cream: '#fdf6f0',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background: #fdf6f0; font-family: 'Segoe UI', Arial, sans-serif; }
+    .card { background: white; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+    .mermaid { text-align: center; }
+    .badge { display: inline-block; padding: 2px 10px; border-radius: 99px; font-size: 13px; font-weight: 600; }
+    .badge-a { background: #27ae60; color: white; }
+    .badge-b { background: #2980b9; color: white; }
+    .badge-c { background: #f39c12; color: white; }
+    .badge-no { background: #e74c3c; color: white; }
+  </style>
+</head>
+<body class="p-6">
+
+<!-- HEADER -->
+<div class="max-w-5xl mx-auto mb-6">
+  <div class="card p-6 border-l-4 border-navy">
+    <div class="flex items-center justify-between">
+      <div>
+        <h1 class="text-3xl font-bold text-navy">OHSS: Phòng ngừa & Xử trí</h1>
+        <p class="text-slate mt-1">Ovarian Hyperstimulation Syndrome — Prevention & Management &nbsp;|&nbsp; 14/06/2026</p>
+        <p class="text-slate text-sm mt-1">PMID: 38099867 · ASRM 2024 · RCOG GTG No.5</p>
+      </div>
+      <div class="text-right">
+        <span class="badge badge-a">Level A Evidence</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 2-COLUMN GRID -->
+<div class="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+
+  <!-- PATHOPHYSIOLOGY FLOWCHART -->
+  <div class="card p-5">
+    <h2 class="text-lg font-bold text-navy mb-3 border-b-2 border-teal pb-2">1. Sinh lí bệnh học</h2>
+    <div class="mermaid" style="font-size:13px">
+flowchart TD
+    A["hCG trigger<br/>(exogenous / nội sinh)"] --> B["LH/hCG receptor<br/>Granulosa cells"]
+    B --> C["Tăng tiết VEGF-A<br/><b style='color:#c0392b'>CƠ CHẾ TRUNG TÂM</b>"]
+    C --> D["VEGFR-2 phosphorylation<br/>Src → actin stress fibers"]
+    D --> E["Tăng tính thấm<br/>mao mạch"]
+    E --> F["Dịch ngoài mạch"]
+    F --> G["Ascites + Pleural effusion<br/>→ OHSS"]
+    C --> H["RAAS activation<br/>Histamine<br/>Prostaglandins"]
+    C --> I["IL-6, TNF-α<br/>ADH → loãng máu"]
+    style C fill:#c0392b,color:#fff
+    style G fill:#1a3a5c,color:#fff
+    </div>
+  </div>
+
+  <!-- OHSS TIMELINE -->
+  <div class="card p-5">
+    <h2 class="text-lg font-bold text-navy mb-3 border-b-2 border-teal pb-2">2. Diễn tiến tự nhiên</h2>
+    <div class="relative pl-6 border-l-2 border-teal space-y-4 mt-2">
+      <div>
+        <span class="badge badge-c text-xs">Ngày 0-3</span>
+        <p class="text-sm mt-1 font-semibold">Giai đoạn khởi phát</p>
+        <p class="text-xs text-slate">Bụng chướng nhẹ, buồn nôn</p>
+      </div>
+      <div>
+        <span class="badge badge-a text-xs">Ngày 4-7</span>
+        <p class="text-sm mt-1 font-semibold text-red-600">ĐỈNH — vascular leakage cao nhất</p>
+        <p class="text-xs text-slate">Ascites dồn nhiều nhất, khó thở</p>
+      </div>
+      <div>
+        <span class="badge badge-b text-xs">Ngày 7-14</span>
+        <p class="text-sm mt-1 font-semibold">Không thai → tự giới hạn</p>
+        <p class="text-xs text-slate">Có thai → kéo dài 2-3 tuần</p>
+      </div>
+      <div class="bg-red-50 border border-red-200 rounded p-3">
+        <p class="text-xs font-bold text-red-700">⚠ Thai = Yếu tố làm nặng OHSS</p>
+        <p class="text-xs text-red-600 mt-1">hCG nội sinh từ nhau → kích hoạt lại vòng VEGF → freeze-all là giải pháp tối ưu</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- RISK FACTORS (bar chart) -->
+  <div class="card p-5">
+    <h2 class="text-lg font-bold text-navy mb-3 border-b-2 border-teal pb-2">3. Yếu tố nguy cơ (OR)</h2>
+    <canvas id="riskChart" height="200"></canvas>
+    <p class="text-xs text-slate mt-2">Nguồn: ASRM 2024 PMID 38099867; OR = Odds Ratio</p>
+  </div>
+
+  <!-- CLASSIFICATION TABLE -->
+  <div class="card p-5">
+    <h2 class="text-lg font-bold text-navy mb-3 border-b-2 border-teal pb-2">4. Phân loại Golan (1989)</h2>
+    <table class="w-full text-sm border-collapse">
+      <thead>
+        <tr class="bg-navy text-white">
+          <th class="p-2 text-left rounded-tl">Mức độ</th>
+          <th class="p-2 text-left">Triệu chứng</th>
+          <th class="p-2 text-left rounded-tr"> CLS quan trọng</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="bg-white odd:bg-gray-50">
+          <td class="p-2 font-semibold text-green-700">Nhẹ</td>
+          <td class="p-2">Bụng chướng, buồn nôn, tăng cân &lt;3kg</td>
+          <td class="p-2 text-slate text-xs">—</td>
+        </tr>
+        <tr class="bg-white odd:bg-gray-50">
+          <td class="p-2 font-semibold text-yellow-600">Trung bình</td>
+          <td class="p-2">Nôn, tăng cân 3-5kg, ascites</td>
+          <td class="p-2 text-slate text-xs">Ascites echo-free SA</td>
+        </tr>
+        <tr class="bg-white odd:bg-gray-50">
+          <td class="p-2 font-semibold text-orange-600">Nặng</td>
+          <td class="p-2">Khó thở, giảm tiểu, tăng cân >5kg</td>
+          <td class="p-2 text-xs">Hct >45%, Cr tăng, hypoNa/K</td>
+        </tr>
+        <tr class="bg-red-50">
+          <td class="p-2 font-bold text-red-700 rounded-bl">Nguy kịch</td>
+          <td class="p-2 text-red-700">Shock, ARDS, AKI</td>
+          <td class="p-2 text-red-600 text-xs rounded-br">Hct >55%, DIC, thromboembolism</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<!-- PREVENTION STRATEGIES -->
+<div class="max-w-5xl mx-auto mb-6">
+  <div class="card p-5">
+    <h2 class="text-lg font-bold text-navy mb-4 border-b-2 border-red-400 pb-2">5. Phòng ngừa — Chiến lược chính</h2>
+
+    <!-- Trigger comparison table -->
+    <div class="overflow-x-auto mb-4">
+      <table class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="bg-navy text-white">
+            <th class="p-2 text-left">Trigger Agent</th>
+            <th class="p-2 text-center">OHSS Rate</th>
+            <th class="p-2 text-left">Cơ chế</th>
+            <th class="p-2 text-center">Evidence</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="bg-red-50 border-b border-red-200">
+            <td class="p-2 font-semibold text-red-700">hCG 10,000 IU</td>
+            <td class="p-2 text-center text-red-600 font-bold">Baseline cao</td>
+            <td class="p-2 text-xs">FSH tinh khiết, LH mạnh, T½ = 36h</td>
+            <td class="p-2 text-center"><span class="badge badge-b">Reference</span></td>
+          </tr>
+          <tr class="bg-yellow-50 border-b border-yellow-200">
+            <td class="p-2 font-semibold text-yellow-700">hCG 5,000 IU</td>
+            <td class="p-2 text-center text-yellow-600">Giảm ~50%</td>
+            <td class="p-2 text-xs">Liều thấp hơn</td>
+            <td class="p-2 text-center"><span class="badge badge-b">B</span></td>
+          </tr>
+          <tr class="bg-green-50 border-b border-green-200">
+            <td class="p-2 font-semibold text-green-700">GnRH agonist (0.1mg triptorelin)</td>
+            <td class="p-2 text-center text-green-700 font-bold">Giảm 70-80%</td>
+            <td class="p-2 text-xs">LH surge tự nhiên, T½ ngắn → nội tiết nhanh phục → ít VEGF</td>
+            <td class="p-2 text-center"><span class="badge badge-a">A ★</span></td>
+          </tr>
+          <tr class="bg-blue-50">
+            <td class="p-2 font-semibold text-blue-700">Dual trigger (hCG 1000-2000 + GnRH agonist)</td>
+            <td class="p-2 text-center text-blue-600">Trung gian</td>
+            <td class="p-2 text-xs">Tối ưu luteal phase + giảm OHSS</td>
+            <td class="p-2 text-center"><span class="badge badge-b">B</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 3 columns: Protocol / Freeze-all / Drugs -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="bg-blue-50 rounded-lg p-4 border border-blue-200">
+        <h3 class="font-bold text-navy mb-2">GnRH Antagonist Protocol</h3>
+        <p class="text-sm mb-2">ASRM 2024 Level A — OR 0.61</p>
+        <ul class="text-xs space-y-1 text-slate">
+          <li>• Không flare-up ban đầu</li>
+          <li>• Cho phép GnRH agonist trigger</li>
+          <li>• Ưu tiên cho PCOS / nguy cơ cao</li>
+        </ul>
+      </div>
+      <div class="bg-teal/10 rounded-lg p-4 border border-teal/30">
+        <h3 class="font-bold text-teal mb-2">Freeze-all Embryo</h3>
+        <p class="text-sm mb-2">ASRM 2024 Level B</p>
+        <ul class="text-xs space-y-1 text-slate">
+          <li>• Loại bỏ hCG nội sinh từ thai</li>
+          <li>• Giảm OHSS + cải thiện LBR</li>
+          <li>• Trữ phôi, chuyển khi sẵn sàng</li>
+        </ul>
+      </div>
+      <div class="bg-gold/10 rounded-lg p-4 border border-gold/30">
+        <h3 class="font-bold text-yellow-700 mb-2">Cabergoline 0.5mg × 8d</h3>
+        <p class="text-sm mb-2">ASRM 2024 Level B — OR 0.48</p>
+        <ul class="text-xs space-y-1 text-slate">
+          <li>• Dopamine agonist → ức chế VEGF</li>
+          <li>• Bắt đầu từ ngày trigger</li>
+          <li>• Rẻ, an toàn, không ảnh hưởng phôi</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MANAGEMENT ALGORITHM -->
+<div class="max-w-5xl mx-auto mb-6">
+  <div class="card p-5">
+    <h2 class="text-lg font-bold text-navy mb-3 border-b-2 border-red-400 pb-2">6. Thuật toán xử trí</h2>
+    <div class="mermaid" style="font-size:12px">
+flowchart TD
+    A["SA thấy >12mm follicles<br/>+ triệu chứng OHSS"] --> B{"Phân loại<br/>mức độ"}
+    B --> C["Nhẹ / Trung bình"]
+    B --> D["Nặng"]
+    B --> E["Nguy kịch"]
+    C --> C1["Ngoại trú<br/>Paracetamol<br/>Cabergoline 0.5mg × 8d<br/>Protein 1.5g/kg/ngày<br/>Cân nặng + bụng/ngày<br/>Tái khám 2-3 ngày"]
+    D --> D1["Nhập viện<br/>Monitoring Hct/Cr/ly mạch<br/>Saline + Albumin 20% 100mL/d<br/>LMWH (enoxaparin 40mg/d)<br/>Chọc hút ascites nếu khó thở<br/>Progesterone + Estrogen support"]
+    E --> E1["ICU<br/>O₂/CPAP (ARDS)<br/>Full anticoagulation<br/>Renal consult<br/>Dialysis nếu AKI<br/>Quyết định chấm dứt thai<br/>nếu đe dọa tính mạng"]
+    C1 --> C2{"Chuyển nặng?"}
+    C2 -->|Có| D1
+    C2 -->|Không| C3["Hồi phục sau 7-14 ngày<br/>(hoặc sau khi thai mất)"]
+    style C fill:#d5f5e3,color:#1a3a5c,stroke:#27ae60
+    style D fill:#fff3cd,color:#1a3a5c,stroke:#f39c12
+    style E fill:#fddde6,color:#1a3a5c,stroke:#c0392b
+    </div>
+  </div>
+</div>
+
+<!-- KEY POINTS -->
+<div class="max-w-5xl mx-auto mb-6">
+  <div class="card p-5">
+    <h2 class="text-lg font-bold text-navy mb-3 border-b-2 border-gold pb-2">7. Điểm mấu chốt</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+      <div class="flex gap-3 items-start bg-red-50 rounded p-3">
+        <span class="text-2xl font-bold text-red-500">1</span>
+        <p class="text-sm">OHSS = <b>VEGF-driven capillary leak</b> — tất cả phòng ngừa/điều trị đều nhắm vào đây</p>
+      </div>
+      <div class="flex gap-3 items-start bg-green-50 rounded p-3">
+        <span class="text-2xl font-bold text-green-600">2</span>
+        <p class="text-sm"><b>GnRH agonist trigger</b> = chiến lược giảm OHSS hiệu quả nhất (giảm ~70-80% vs hCG)</p>
+      </div>
+      <div class="flex gap-3 items-start bg-blue-50 rounded p-3">
+        <span class="text-2xl font-bold text-blue-600">3</span>
+        <p class="text-sm"><b>Freeze-all</b> = giải pháp tối ưu cho nguy cơ cao — loại bỏ hCG nội sinh từ thai</p>
+      </div>
+      <div class="flex gap-3 items-start bg-yellow-50 rounded p-3">
+        <span class="text-2xl font-bold text-yellow-600">4</span>
+        <p class="text-sm"><b>Nhập viện khi:</b> Hct >48%, oligo, Cr tăng, khó thở, pleural effusion</p>
+      </div>
+      <div class="flex gap-3 items-start bg-purple-50 rounded p-3">
+        <span class="text-2xl font-bold text-purple-600">5</span>
+        <p class="text-sm"><b>Cabergoline</b> = cheap, effective, safe (dopamine agonist, ức chế VEGF receptor)</p>
+      </div>
+      <div class="flex gap-3 items-start bg-orange-50 rounded p-3">
+        <span class="text-2xl font-bold text-orange-600">6</span>
+        <p class="text-sm"><b>Không dùng</b> metformin/letrozole đơn độc phòng OHSS (ASRM 2024)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- EVIDENCE TABLE -->
+<div class="max-w-5xl mx-auto mb-6">
+  <div class="card p-5">
+    <h2 class="text-lg font-bold text-navy mb-3 border-b-2 border-teal pb-2">8. Bằng chứng — ASRM 2024 (PMID 38099867)</h2>
+    <canvas id="evidenceChart" height="120"></canvas>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="max-w-5xl mx-auto text-center text-xs text-slate pb-8">
+  OHSS Phòng ngừa & Xử trí · 14/06/2026 · PMID 38099867 · ASRM Practice Committee Fertil Steril 2024;121:230-245<br/>
+  Bác sĩ tự học sản phụ khoa — không thay thế hướng dẫn lâm sàng chính thức
+</div>
+
+<script>
+  mermaid.initialize({ startOnLoad: true, theme: 'base', themeVariables: {
+    primaryColor: '#1a3a5c', primaryTextColor: '#fff',
+    primaryBorderColor: '#007a8a', lineColor: '#5d6d7e',
+    secondaryColor: '#fdf6f0', tertiaryColor: '#d5f5e3'
+  }});
+
+  // Risk Factors Bar Chart
+  new Chart(document.getElementById('riskChart'), {
+    type: 'bar',
+    data: {
+      labels: ['PCOS', 'Tiền sử OHSS', 'AFC ≥20', 'Số noãn ≥15', 'AMH >3.0', 'BMI <25', 'PCO morphology'],
+      datasets: [{
+        label: 'Odds Ratio',
+        data: [6.0, 7.0, 6.2, 5.8, 4.0, 2.1, 3.0],
+        backgroundColor: ['#c0392b','#c0392b','#e67e22','#e67e22','#f39c12','#f39c12','#f39c12'],
+        borderRadius: 6,
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => `OR: ${ctx.raw}` } } },
+      scales: { x: { title: { display: true, text: 'Odds Ratio' }, grid: { color: '#eee' } }, y: { grid: { display: false } } }
+    }
+  });
+
+  // Evidence Chart
+  new Chart(document.getElementById('evidenceChart'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Level A (2)', 'Level B (3)', 'Level C (1)', 'Không khuyến cáo (4)'],
+      datasets: [{
+        data: [2, 3, 1, 4],
+        backgroundColor: ['#27ae60','#2980b9','#f39c12','#e74c3c'],
+        borderWidth: 2,
+        borderColor: '#fff',
+      }]
+    },
+    options: {
+      plugins: {
+        legend: { position: 'bottom', labels: { boxWidth: 14, font: { size: 12 } } },
+        tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.raw} khuyến cáo` } }
+      },
+      responsive: true,
+    }
+  });
+</script>
+</body>
+</html>

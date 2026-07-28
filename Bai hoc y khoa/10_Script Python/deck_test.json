@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Bất thường nước ối — Thiểu ối & Đa ối",
+    "author": "Bác sĩ Ngọc",
+    "subtitle": "Siêu âm sản khoa — Bài 20"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "variant": "split_dark",
+      "title": "Bất thường nước ối",
+      "subtitle": "Thiểu ối & Đa ối — Sinh lý, Siêu âm, Quản lý",
+      "author": "Bác sĩ Ngọc",
+      "specialty": "SIÊU ÂM SẢN KHOA",
+      "date": "06/2026"
+    },
+    {
+      "type": "objectives",
+      "variant": "icon_check",
+      "title": "Mục tiêu học tập",
+      "objectives": [
+        "Nắm vững sinh lý nước ối — nguồn gốc, động học, điều hòa theo tuổi thai",
+        "Thành thạo kỹ thuật đo AFI và SDP đúng chuẩn ISUOG 2023",
+        "Chẩn đoán và phân loại mức độ thiểu ối & đa ối",
+        "Áp dụng đúng SMFM #46 trong quản lý đa ối",
+        "Kết nối với Doppler — cơ chế thiểu ối trong FGR"
+      ]
+    },
+    {
+      "type": "key_message",
+      "variant": "dark_hero",
+      "kicker": "NGUYÊN TẮC VÀNG",
+      "message": "Nước ối là tấm gương phản chiếu sức khỏe thai nhi — bất thường nước ối là dấu hiệu chỉ điểm, không phải chẩn đoán cuối cùng"
+    },
+    {
+      "type": "definition",
+      "variant": "term_box",
+      "title": "Định nghĩa",
+      "term": "Thiểu ối (Oligohydramnios)",
+      "definition": "AFI ≤ 5 cm hoặc SDP < 2 cm. Severe: AFI ≤ 2 cm (AOR 1.96 cho adverse outcome — Ganem 2026). Nguyên nhân hàng đầu: PPROM, FGR (brain-sparing → renal vasoconstriction), bất thường thận thai, post-term."
+    },
+    {
+      "type": "two_column",
+      "variant": "vs_compare",
+      "title": "AFI vs SDP — Phương pháp đo nước ối",
+      "left_title": "AFI (4 góc phần tư)",
+      "left_points": [
+        "Chia tử cung 4 góc — linea nigra + rốn",
+        "Đo túi sâu nhất mỗi góc, tổng = AFI (cm)",
+        "Chẩn đoán oligo: 17% (Chauhan 2004)",
+        "Hữu ích cho theo dõi serial & đa thai"
+      ],
+      "right_title": "SDP (1 túi sâu nhất)",
+      "right_points": [
+        "Đo túi sâu nhất toàn buồng ối, rộng ≥ 1 cm",
+        "Chẩn đoán oligo: 10% (giảm 41% vs AFI)",
+        "Ít can thiệp không cần thiết hơn",
+        "SMFM/ACOG khuyến cáo ưu tiên"
+      ]
+    },
+    {
+      "type": "summary",
+      "variant": "takeaways",
+      "title": "Take-home Messages",
+      "points": [
+        "Sau 16w, nước tiểu thai là nguồn chính của nước ối — đỉnh 800-1000 mL ở 32-34w",
+        "Thiểu ối: AFI ≤5 / SDP <2. Severe (AFI ≤2) → induction. Borderline → theo dõi",
+        "Đa ối: SDP ≥8 / AFI ≥24 (SMFM #46). Mild idiopathic → KHÔNG can thiệp",
+        "SMFM #46: Amnioreduction chỉ khi mẹ khó thở. Indomethacin KHÔNG dùng",
+        "Brain-sparing → renal vasoconstriction → oligo. Kết nối Doppler UA/MCA/CPR",
+        "Luôn tìm nguyên nhân trước can thiệp. Tuổi thai quyết định xử trí"
+      ]
+    }
+  ]
+}

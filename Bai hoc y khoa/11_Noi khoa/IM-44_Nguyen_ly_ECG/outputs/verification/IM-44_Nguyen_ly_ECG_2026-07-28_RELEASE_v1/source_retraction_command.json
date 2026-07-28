@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "[retraction_check] Checking 1 PMIDs...\n{\n  \"status\": \"PASS\",\n  \"checked\": 1,\n  \"expected\": 1,\n  \"clean\": [\n    \"17349896\"\n  ],\n  \"retracted_or_concern\": [],\n  \"unknown\": [],\n  \"results\": {\n    \"17349896\": {\n      \"retracted\": false,\n      \"reason\": \"\",\n      \"details\": {\n        \"title\": \"Recommendations for the standardization and interpretation of the electrocardiogram: part I: the electrocardiogram and its technology a scientific statement from the American Heart Association Electro\",\n        \"journal\": \"Journal of the American College of Cardiology\",\n        \"year\": \"2007\",\n        \"publication_types\": [\n          \"Journal Article\",\n          \"Practice Guideline\",\n          \"Review\"\n        ],\n        \"corrections\": []\n      }\n    }\n  }\n}\n",
+  "stderr": ""
+}

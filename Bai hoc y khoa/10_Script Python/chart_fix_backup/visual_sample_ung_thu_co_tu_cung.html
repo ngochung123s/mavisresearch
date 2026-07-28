@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sàng lọc Ung thư Cổ tử cung — Visual Summary</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+body { font-family: 'Be Vietnam Pro', -apple-system, sans-serif; }
+.gradient-bg { background: linear-gradient(135deg, #fef3f8 0%, #e8f4fd 100%); }
+.card-hover { transition: all 0.3s ease; }
+.card-hover:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.08); }
+.mermaid { background: white; border-radius: 12px; padding: 20px; }
+</style>
+</head>
+<body class="gradient-bg min-h-screen">
+
+<!-- Header -->
+<header class="bg-white shadow-sm border-b border-gray-200">
+  <div class="max-w-6xl mx-auto px-6 py-6">
+    <div class="flex items-center gap-3">
+      <div class="w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-600 rounded-xl flex items-center justify-center text-white text-2xl">🎗️</div>
+      <div>
+        <h1 class="text-2xl font-bold text-gray-900">Sàng lọc Ung thư Cổ tử cung</h1>
+        <p class="text-sm text-gray-600">Visual Summary · Theo ASCCP 2019 Risk-Based Management</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-6 py-8 space-y-8">
+
+  <!-- Stats Grid -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📊 Dịch tễ học tại Việt Nam</h2>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border border-gray-100">
+        <div class="text-sm text-gray-500 font-medium">Ca mới / năm</div>
+        <div class="text-3xl font-bold text-pink-600 mt-1">~4.000</div>
+        <div class="text-xs text-gray-400 mt-1">Theo Globocan 2022</div>
+      </div>
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border border-gray-100">
+        <div class="text-sm text-gray-500 font-medium">Xếp hạng ung thư nữ</div>
+        <div class="text-3xl font-bold text-purple-600 mt-1">#2</div>
+        <div class="text-xs text-gray-400 mt-1">Sau ung thư vú</div>
+      </div>
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border border-gray-100">
+        <div class="text-sm text-gray-500 font-medium">Tử vong / năm</div>
+        <div class="text-3xl font-bold text-red-600 mt-1">~2.400</div>
+        <div class="text-xs text-gray-400 mt-1">Phát hiện muộn</div>
+      </div>
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border border-gray-100">
+        <div class="text-sm text-gray-500 font-medium">HPV prevalence</div>
+        <div class="text-3xl font-bold text-amber-600 mt-1">~10%</div>
+        <div class="text-xs text-gray-400 mt-1">Phụ nữ 18-69 tuổi</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Algorithm Flowchart -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🔀 Algorithm sàng lọc theo ASCCP 2019</h2>
+    <div class="mermaid">
+flowchart TD
+    A[Khám phụ khoa<br/>Tuổi ≥ 25] --> B{Co-test<br/>Pap + HPV}
+    B --> C{Pap kết quả}
+    C -->|NILM| D{HPV kết quả}
+    C -->|ASCUS| E{HPV kết quả}
+    C -->|LSIL| F{HPV kết quả}
+    C -->|HSIL+| G[Soi CTC ngay]
+    C -->|AGC| G
+    D -->|HPV âm tính| H[Tái khám 3 năm]
+    D -->|HPV dương tính| I[HPV genotype]
+    E -->|HPV âm tính| J[Tái khám 1 năm]
+    E -->|HPV dương tính| K[Soi CTC]
+    F -->|HPV âm tính| J
+    F -->|HPV 16/18+| G
+    I -->|16/18| G
+    I -->|Khác HR-HPV| J
+    K --> G
+    G --> L{SIN grade}
+    L -->|SIN 1| M[Theo dõi 1 năm]
+    L -->|SIN 2-3| N[Thủ thuật LEEP/Laser]
+    M --> O[Co-test lại]
+    N --> O
+    O --> P{Kết quả}
+    P -->|Bình thường| Q[Tái khám định kỳ]
+    P -->|Bất thường| R[Đánh giá lại]
+    style A fill:#fce7f3,stroke:#be185d
+    style G fill:#fed7aa,stroke:#ea580c
+    style N fill:#fee2e2,stroke:#dc2626
+    </div>
+  </section>
+
+  <!-- Risk Stratification Chart -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📈 Phân tầng nguy cơ theo kết quả Co-test</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <canvas id="riskChart" height="100"></canvas>
+    </div>
+    <p class="text-xs text-gray-500 mt-2 text-center">Nguồn: ASCCP 2019 - Risk-Based Management Consensus</p>
+  </section>
+
+  <!-- Management Comparison -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">⚖️ Quản lý theo mức nguy cơ</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+      <div class="card-hover bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-5 border border-green-200">
+        <div class="flex items-center gap-2 mb-3">
+          <div class="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center text-white text-xl">✓</div>
+          <div>
+            <div class="text-xs text-green-600 font-semibold uppercase">Nguy cơ thấp</div>
+            <div class="text-lg font-bold text-gray-900">Tái khám 3 năm</div>
+          </div>
+        </div>
+        <ul class="text-sm text-gray-700 space-y-2">
+          <li>• Pap NILM + HPV âm tính</li>
+          <li>• Đã cắt tử cung + tiền sử Co-test bình thường</li>
+          <li>• Sau điều trị CIN2-3, 3 năm Co-test âm tính</li>
+        </ul>
+      </div>
+
+      <div class="card-hover bg-gradient-to-br from-amber-50 to-yellow-50 rounded-xl p-5 border border-amber-200">
+        <div class="flex items-center gap-2 mb-3">
+          <div class="w-10 h-10 bg-amber-500 rounded-lg flex items-center justify-center text-white text-xl">⚠</div>
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase">Nguy cơ trung bình</div>
+            <div class="text-lg font-bold text-gray-900">Theo dõi 1 năm</div>
+          </div>
+        </div>
+        <ul class="text-sm text-gray-700 space-y-2">
+          <li>• ASCUS + HPV dương (không phải 16/18)</li>
+          <li>• LSIL + HPV âm tính</li>
+          <li>• HPV dương (không 16/18) + Pap âm</li>
+        </ul>
+      </div>
+
+      <div class="card-hover bg-gradient-to-br from-red-50 to-pink-50 rounded-xl p-5 border border-red-200">
+        <div class="flex items-center gap-2 mb-3">
+          <div class="w-10 h-10 bg-red-500 rounded-lg flex items-center justify-center text-white text-xl">!</div>
+          <div>
+            <div class="text-xs text-red-600 font-semibold uppercase">Nguy cơ cao</div>
+            <div class="text-lg font-bold text-gray-900">Soi cổ tử cung ngay</div>
+          </div>
+        </div>
+        <ul class="text-sm text-gray-700 space-y-2">
+          <li>• HSIL, AGC, AIS (bất kể HPV)</li>
+          <li>• ASCUS/LSIL + HPV 16/18 dương</li>
+          <li>• HPV 16/18 dương (kể cả Pap bình thường)</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- HPV Genotype Pie -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🦠 Phân bố HPV genotype ở ung thư cổ tử cung</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+        <canvas id="hpvChart" height="200"></canvas>
+      </div>
+      <div class="bg-amber-50 border border-amber-200 rounded-xl p-6">
+        <h3 class="font-bold text-amber-900 mb-3">⚠️ Ý nghĩa lâm sàng</h3>
+        <ul class="text-sm text-gray-800 space-y-2">
+          <li>• <b>HPV 16 & 18</b>: nguy cơ cao nhất (~70% ung thư CTC toàn cầu)</li>
+          <li>• <b>HPV 31, 33, 45, 52, 58</b>: nguy cơ trung bình-cao, phổ biến ở châu Á</li>
+          <li>• <b>HPV 6, 11</b>: nguy cơ thấp, gây mụn cóc sinh dục</li>
+          <li>• Vaccine 9-valent phòng 6, 11, 16, 18, 31, 33, 45, 52, 58</li>
+          <li>• Vaccine 4-valent phòng 6, 11, 16, 18</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key points -->
+  <section class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🎯 Điểm cần nhớ</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="space-y-3">
+        <div class="flex gap-3"><div class="w-6 h-6 rounded-full bg-pink-500 text-white flex items-center justify-center text-sm font-bold flex-shrink-0">1</div><div class="text-gray-700">Sàng lọc bắt đầu từ tuổi 25 (quan hệ tình dục 3 năm trước đó)</div></div>
+        <div class="flex gap-3"><div class="w-6 h-6 rounded-full bg-pink-500 text-white flex items-center justify-center text-sm font-bold flex-shrink-0">2</div><div class="text-gray-700">Co-test (Pap + HPV) là tiêu chuẩn vàng, ưu tiên phụ nữ 30-65 tuổi</div></div>
+        <div class="flex gap-3"><div class="w-6 h-6 rounded-full bg-pink-500 text-white flex items-center justify-center text-sm font-bold flex-shrink-0">3</div><div class="text-gray-700">HPV 16/18 dương → soi CTC ngay, bất kể kết quả Pap</div></div>
+        <div class="flex gap-3"><div class="w-6 h-6 rounded-full bg-pink-500 text-white flex items-center justify-center text-sm font-bold flex-shrink-0">4</div><div class="text-gray-700">Tổn thương HSIL+ cần soi và điều trị ngay</div></div>
+      </div>
+      <div class="space-y-3">
+        <div class="flex gap-3"><div class="w-6 h-6 rounded-full bg-purple-500 text-white flex items-center justify-center text-sm font-bold flex-shrink-0">5</div><div class="text-gray-700">Phụ nữ 21-24 tuổi: chỉ làm Pap, không HPV test</div></div>
+        <div class="flex gap-3"><div class="w-6 h-6 rounded-full bg-purple-500 text-white flex items-center justify-center text-sm font-bold flex-shrink-0">6</div><div class="text-gray-700">Tiêm vaccine HPV từ 9-26 tuổi, lý tưởng trước QHĐ</div></div>
+        <div class="flex gap-3"><div class="w-6 h-6 rounded-full bg-purple-500 text-white flex items-center justify-center text-sm font-bold flex-shrink-0">7</div><div class="text-gray-700">Sau 65 tuổi có thể ngừng nếu 10 năm qua Co-test bình thường</div></div>
+        <div class="flex gap-3"><div class="w-6 h-6 rounded-full bg-purple-500 text-white flex items-center justify-center text-sm font-bold flex-shrink-0">8</div><div class="text-gray-700">Đã cắt tử cung toàn phần: ngừng sàng lọc nếu không có CIN trước đó</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-xs text-gray-500 py-4">
+    Tạo bởi Mavis · Dữ liệu theo ASCCP 2019 + Globocan 2022 · Chỉ dành cho mục đích học tập, không thay thế hướng dẫn lâm sàng chính thức
+  </footer>
+
+</main>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'default' });
+
+// Risk chart
+const riskCtx = document.getElementById('riskChart').getContext('2d');
+new Chart(riskCtx, {
+  type: 'bar',
+  data: {
+    labels: ['Pap NILM\nHPV âm', 'ASCUS\nHPV âm', 'ASCUS\nHPV+', 'LSIL\nHPV âm', 'LSIL\nHPV+', 'HSIL\nbất kỳ', 'HPV 16/18+\nPap âm'],
+    datasets: [{
+      label: 'Nguy cơ CIN3+ trong 5 năm (%)',
+      data: [0.04, 0.6, 4.4, 3.8, 6.1, 49, 5.3],
+      backgroundColor: [
+        'rgba(34, 197, 94, 0.7)',
+        'rgba(34, 197, 94, 0.7)',
+        'rgba(251, 191, 36, 0.7)',
+        'rgba(251, 191, 36, 0.7)',
+        'rgba(249, 115, 22, 0.7)',
+        'rgba(220, 38, 38, 0.8)',
+        'rgba(249, 115, 22, 0.7)'
+      ],
+      borderRadius: 6
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => ctx.parsed.y + '% nguy cơ CIN3+'
+        }
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        title: { display: true, text: 'Nguy cơ CIN3+ (%)', font: { size: 12, weight: 'bold' } }
+      }
+    }
+  }
+});
+
+// HPV chart
+const hpvCtx = document.getElementById('hpvChart').getContext('2d');
+new Chart(hpvCtx, {
+  type: 'doughnut',
+  data: {
+    labels: ['HPV 16', 'HPV 18', 'HPV 45', 'HPV 33', 'HPV 31', 'HPV 52', 'HPV 58', 'Khác'],
+    datasets: [{
+      data: [55, 13, 6, 4, 4, 3, 3, 12],
+      backgroundColor: [
+        '#be185d', '#db2777', '#ec4899', '#f472b6', '#f9a8d4', '#fbcfe8', '#fce7f3', '#e5e7eb'
+      ],
+      borderWidth: 2,
+      borderColor: '#fff'
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { position: 'right' },
+      tooltip: {
+        callbacks: {
+          label: ctx => ctx.label + ': ' + ctx.parsed + '%'
+        }
+      }
+    }
+  }
+});
+</script>
+
+</body>
+</html>

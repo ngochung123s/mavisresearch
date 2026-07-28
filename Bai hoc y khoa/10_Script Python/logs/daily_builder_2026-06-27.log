@@ -1,0 +1,31 @@
+[2026-06-27 21:54:38] WARNING: opencode CLI not found. Generation step will be skipped.
+[2026-06-27 21:54:38] Starting daily_builder.py --run...
+
+============================================================
+  DAILY LESSON BUILDER G«ˆ 2026-06-27 21:54
+============================================================
+
+[1/5] PICK TOPIC
+  Last: OB -> Next: ART
+  Selected: COS
+  Required sub-topics: 7
+
+[2/5] GATHER EVIDENCE
+  PubMed: COS guideline management ACOG SMFM ISUOG...
+  PubMed: COS systematic review meta-analysis...
+  PubMed: COS clinical trial recent...
+  Fetching abstracts for 10 PMIDs...
+  Retraction check for 10 PMIDs...
+  Papers found: 10
+  Brief saved: F:\DL\mavisresearch\Bai hoc y khoa\10_Script Python\daily_briefs\daily_brief_2026-06-27.json
+
+[3/5] GENERATE LESSON
+  Prompt: F:\DL\mavisresearch\Bai hoc y khoa\10_Script Python\daily_briefs\prompt_2026-06-27.txt (5,366 chars)
+  Expected output: F:\DL\mavisresearch\Bai hoc y khoa\09_Source - Markdown\COS_2026-06-27.md
+  WARN opencode CLI not found in PATH!
+  Skipping generation. Brief saved for manual review.
+  Run manually: opencode run "$(cat F:\DL\mavisresearch\Bai hoc y khoa\10_Script Python\daily_briefs\prompt_2026-06-27.txt)"
+
+[5/5] NOTIFY
+  OK Telegram sent: ERR <b>B+·i hﬂ+Ïc ng+·y 2026-06-27</b>
+[2026-06-27 21:54:45] DAILY BUILDER COMPLETED

@@ -1,0 +1,50 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1_RESEARCH_BRIEF.md",
+  "parsed_claim_count": 3,
+  "verified_claim_count": 3,
+  "status": "PASS",
+  "claims": [
+    {
+      "claim_id": "C-001",
+      "claim_text": "Tần số cắt lọc (filter) chuẩn cho ECG chẩn đoán người lớn là 0.05 Hz đến 150 Hz",
+      "source_id": "17349896",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "For adults, the recommended low-frequency cutoff is 0.05 Hz... high-frequency cutoff is 150 Hz",
+      "line": 52,
+      "population": "Người lớn",
+      "intervention_comparator": "—",
+      "outcome": "—",
+      "timepoint": "—",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "claim_id": "C-002",
+      "claim_text": "Vận tốc giấy chuẩn là 25 mm/s",
+      "source_id": "17349896",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "A recording speed of 25 mm/s is the standard",
+      "line": 53,
+      "population": "—",
+      "intervention_comparator": "—",
+      "outcome": "—",
+      "timepoint": "—",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "claim_id": "C-003",
+      "claim_text": "Test amplitude (calibration) chuẩn là 10 mm/mV",
+      "source_id": "17349896",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "standard calibration of 10 mm/mV",
+      "line": 54,
+      "population": "—",
+      "intervention_comparator": "—",
+      "outcome": "—",
+      "timepoint": "—",
+      "status": "PASS",
+      "failures": []
+    }
+  ]
+}

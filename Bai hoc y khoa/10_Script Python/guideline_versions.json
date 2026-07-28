@@ -1,0 +1,431 @@
+{
+  "_meta": {
+    "description": "Guideline version registry - track mỗi guideline Tier 0/1 đã dùng cho medical lessons. Mỗi khi viết bài về guideline X, CHECK registry xem đã có bản mới hơn chưa. Ngăn miss guideline update (như case ESHRE 2025 update tháng 02/2026 mà search 'ESHRE 2023 2024' không ra).",
+    "version": "2026-06-25-v1",
+    "created": "2026-06-25",
+    "update_log": [
+      "2026-06-25 v1: Initial registry với 15 guidelines (ESHRE, ASRM, ACOG, NICE, RANZCOG, SOGC, FIGO, WHO, ISUOG, SMFM, RCOG, AAP, CDC, KHA, MFM) + version tracking + freshness check workflow",
+      "2026-07-20: Added 5 IM-37 guidelines (ACG_H_pylori_2024, ACG_CAG_dyspepsia_2017, ACG_GERD_2022, VNAGE_H_pylori_2022, Korean_drug_related_peptic_ulcer_2020)"
+    ],
+    "workflow": {
+      "before_writing_lesson": [
+        "1. Check guideline_versions.json - tìm guideline X cần dùng",
+        "2. Xem 'current' field = version mới nhất",
+        "3. Nếu bài viết về guideline đó → dùng version từ 'current'",
+        "4. Nếu dùng version cũ hơn 'current' → GHI RO trong bài 'previous version' + lý do"
+      ]
+    },
+    "freshness_policy": {
+      "rule": "Assume any guideline >2 years old có thể đã update. Always verify freshness before relying on it as Tier 0."
+    }
+  },
+  "guidelines": {
+    "ESHRE_ovarian_stimulation_IVF_ICSI": {
+      "current": {
+        "version_label": "ESHRE 2025 ovarian stimulation",
+        "pmid": "41732035",
+        "title": "ESHRE guideline: ovarian stimulation for IVF/ICSI",
+        "journal": "Human Reproduction",
+        "year_published": "2026",
+        "last_checked": "2026-07-18"
+      },
+      "related_lessons": [
+        "14_Stimulation_Protocols"
+      ]
+    },
+    "ESC_atrial_fibrillation": {
+      "current": {
+        "version_label": "ESC 2024 atrial fibrillation",
+        "pmid": "39210723",
+        "title": "2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+        "journal": "European Heart Journal",
+        "year_published": "2024",
+        "last_checked": "2026-07-18"
+      },
+      "related_lessons": [
+        "IM-23_Rung_nhi_va_nhip_nhanh_tren_that"
+      ]
+    },
+    "ACC_AHA_ACCP_HRS_atrial_fibrillation": {
+      "current": {
+        "version_label": "ACC/AHA/ACCP/HRS 2023 atrial fibrillation",
+        "pmid": "38033089",
+        "title": "2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation",
+        "journal": "Circulation",
+        "year_published": "2023",
+        "last_checked": "2026-07-18"
+      },
+      "related_lessons": [
+        "IM-23_Rung_nhi_va_nhip_nhanh_tren_that"
+      ]
+    },
+    "ESC_supraventricular_tachycardia": {
+      "current": {
+        "version_label": "ESC 2019 supraventricular tachycardia",
+        "pmid": "31504425",
+        "title": "2019 ESC Guidelines for the management of patients with supraventricular tachycardia",
+        "journal": "European Heart Journal",
+        "year_published": "2019",
+        "last_checked": "2026-07-18"
+      },
+      "related_lessons": [
+        "IM-23_Rung_nhi_va_nhip_nhanh_tren_that"
+      ]
+    },
+    "ESC_cardiac_pacing": {
+      "current": {
+        "version_label": "ESC 2021 cardiac pacing and cardiac resynchronization therapy",
+        "pmid": "34455430",
+        "title": "2021 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy",
+        "journal": "European Heart Journal",
+        "year_published": "2021",
+        "last_checked": "2026-07-18"
+      },
+      "related_lessons": [
+        "IM-24_Nhip_cham_block_nhi_that_va_loan_nhip_that"
+      ]
+    },
+    "ESC_ventricular_arrhythmia": {
+      "current": {
+        "version_label": "ESC 2022 ventricular arrhythmias and sudden cardiac death",
+        "pmid": "36017572",
+        "title": "2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death",
+        "journal": "European Heart Journal",
+        "year_published": "2022",
+        "last_checked": "2026-07-18"
+      },
+      "related_lessons": [
+        "IM-24_Nhip_cham_block_nhi_that_va_loan_nhip_that"
+      ]
+    },
+    "VSH_VNHA_hypertension": {
+      "current": {
+        "version_label": "VSH/VNHA 2024 hypertension",
+        "pmid": "",
+        "title": "Đồng Thuận Quan Điểm Của Một Số Chuyên Gia Của Phân Hội Tăng Huyết Áp VSH/VNHA 2024 Về Chiến Lược Thực Hành Lâm Sàng Quản Lý Tăng Huyết Áp tại Việt Nam",
+        "journal": "VSH/VNHA consensus",
+        "year_published": "2024",
+        "last_checked": "2026-07-18"
+      },
+      "related_lessons": [
+        "IM-20_Tang_huyet_ap"
+      ]
+    },
+    "ESC_hypertension": {
+      "current": {
+        "version_label": "ESC 2024 hypertension",
+        "pmid": "39210715",
+        "title": "2024 ESC Guidelines for the management of elevated blood pressure and hypertension",
+        "journal": "European Heart Journal",
+        "year_published": "2024",
+        "last_checked": "2026-07-18"
+      },
+      "related_lessons": [
+        "IM-20_Tang_huyet_ap"
+      ]
+    },
+    "AHA_ACC_hypertension": {
+      "current": {
+        "version_label": "AHA/ACC 2025 hypertension",
+        "pmid": "40811516",
+        "title": "Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults",
+        "journal": "Circulation",
+        "year_published": "2025",
+        "last_checked": "2026-07-18"
+      },
+      "related_lessons": [
+        "IM-20_Tang_huyet_ap"
+      ]
+    },
+    "ADA_glycemic_goals_hypoglycemia_crises": {
+      "current": {
+        "version_label": "ADA Standards of Care 2026 Section 6",
+        "pmid": "41358894",
+        "doi": "10.2337/dc26-S006",
+        "pmcid": "PMC12690178",
+        "title": "6. Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: Standards of Care in Diabetes—2026",
+        "journal": "Diabetes Care",
+        "year_published": "2026",
+        "last_checked": "2026-07-18"
+      },
+      "related_lessons": [
+        "IM-14_Roi_loan_duong_huyet_cap_15_phut_dau"
+      ]
+    },
+    "ADA_EASD_DKA_HHS_2024": {
+      "current": {
+        "version_label": "ADA/EASD/JBDS/AACE/DTS Hyperglycemic Crises 2024",
+        "pmid": "39052901",
+        "doi": "10.2337/dci24-0032",
+        "pmcid": "PMC11272983",
+        "title": "Hyperglycemic Crises in Adults With Diabetes: A Consensus Report",
+        "journal": "Diabetes Care",
+        "year_published": "2024",
+        "last_checked": "2026-07-18"
+      },
+      "related_lessons": [
+        "IM-14_Roi_loan_duong_huyet_cap_15_phut_dau"
+      ]
+    },
+    "JBDS_inpatient_hypoglycaemia": {
+      "current": {
+        "version_label": "JBDS 01 Hospital Management of Hypoglycaemia in Adults 2023",
+        "pmid": "",
+        "url": "https://abcd.care/sites/default/files/site_uploads/JBDS_Guidelines_Archive/JBDS_01_Hypo_Guideline_2023.pdf",
+        "title": "The Hospital Management of Hypoglycaemia in Adults with Diabetes Mellitus",
+        "journal": "JBDS guideline",
+        "year_published": "2023",
+        "last_checked": "2026-07-18"
+      },
+      "related_lessons": [
+        "IM-14_Roi_loan_duong_huyet_cap_15_phut_dau"
+      ]
+    },
+    "IDSA_infectious_diarrhea": {
+      "current": {
+        "version_label": "IDSA 2017 infectious diarrhea",
+        "pmid": "29194529",
+        "title": "2017 Infectious Diseases Society of America Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea",
+        "journal": "Clinical Infectious Diseases",
+        "year_published": "2017",
+        "last_checked": "2026-07-20"
+      },
+      "related_lessons": [
+        "IM-35_Tiep_can_dau_bung_cap",
+        "IM-38_Tieu_chay_va_viem_dai_trang"
+      ]
+    },
+    "ACG_acute_diarrhea": {
+      "current": {
+        "version_label": "ACG 2016 acute diarrhea",
+        "pmid": "27068718",
+        "title": "ACG Clinical Guideline: Diagnosis, Treatment, and Prevention of Acute Diarrheal Infections in Adults",
+        "journal": "American Journal of Gastroenterology",
+        "year_published": "2016",
+        "last_checked": "2026-07-20"
+      },
+      "related_lessons": [
+        "IM-35_Tiep_can_dau_bung_cap",
+        "IM-38_Tieu_chay_va_viem_dai_trang"
+      ]
+    },
+    "IDSA_complicated_intraabdominal_infection": {
+      "current": {
+        "version_label": "IDSA 2024 cIAI",
+        "pmid": "38965057",
+        "title": "2024 Clinical Practice Guideline Update by the Infectious Diseases Society of America on Complicated Intra-abdominal Infections",
+        "journal": "Clinical Infectious Diseases",
+        "year_published": "2024",
+        "last_checked": "2026-07-20"
+      },
+      "related_lessons": [
+        "IM-35_Tiep_can_dau_bung_cap"
+      ]
+    },
+    "IDSA_SHEA_CDI_2021": {
+      "current": {
+        "version_label": "IDSA/SHEA 2021 Focused Update — CDI in adults",
+        "pmid": "34164674",
+        "title": "Clinical Practice Guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults",
+        "journal": "Clinical Infectious Diseases",
+        "year_published": "2021",
+        "last_checked": "2026-07-20"
+      },
+      "related_lessons": [
+        "IM-38_Tieu_chay_va_viem_dai_trang"
+      ]
+    },
+    "IDSA_SHEA_CDI_2017": {
+      "current": {
+        "version_label": "IDSA/SHEA 2017 — CDI adults and children",
+        "pmid": "29462280",
+        "title": "Clinical Practice Guidelines for Clostridium difficile Infection in Adults and Children: 2017 Update by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA)",
+        "journal": "Clinical Infectious Diseases",
+        "year_published": "2018",
+        "last_checked": "2026-07-20"
+      },
+      "related_lessons": [
+        "IM-38_Tieu_chay_va_viem_dai_trang"
+      ]
+    },
+    "AGA_chronic_diarrhea_2019": {
+      "current": {
+        "version_label": "AGA 2019 Laboratory Evaluation of Functional Diarrhea and IBS-D",
+        "pmid": "31302098",
+        "title": "AGA Clinical Practice Guidelines on the Laboratory Evaluation of Functional Diarrhea and Diarrhea-Predominant Irritable Bowel Syndrome in Adults (IBS-D)",
+        "journal": "Gastroenterology",
+        "year_published": "2019",
+        "last_checked": "2026-07-20"
+      },
+      "related_lessons": [
+        "IM-38_Tieu_chay_va_viem_dai_trang"
+      ]
+    },
+    "ACG_crohn_disease_2025": {
+      "current": {
+        "version_label": "ACG 2025 Crohn's Disease",
+        "pmid": "40701562",
+        "title": "ACG Clinical Guideline: Management of Crohn's Disease in Adults",
+        "journal": "American Journal of Gastroenterology",
+        "year_published": "2025",
+        "last_checked": "2026-07-20"
+      },
+      "related_lessons": [
+        "IM-38_Tieu_chay_va_viem_dai_trang"
+      ]
+    },
+    "ACG_ulcerative_colitis_2025": {
+      "current": {
+        "version_label": "ACG 2025 Ulcerative Colitis",
+        "pmid": "40701556",
+        "title": "ACG Clinical Guideline Update: Ulcerative Colitis in Adults",
+        "journal": "American Journal of Gastroenterology",
+        "year_published": "2025",
+        "last_checked": "2026-07-20"
+      },
+      "related_lessons": [
+        "IM-38_Tieu_chay_va_viem_dai_trang"
+      ]
+    },
+    "ACG_H_pylori_2024": {
+      "current": {
+        "version_label": "ACG 2024 H. pylori treatment",
+        "pmid": "39626064",
+        "title": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection",
+        "journal": "Am J Gastroenterol",
+        "year_published": "2024",
+        "last_checked": "2026-07-20"
+      },
+      "related_lessons": [
+        "IM-37_Loet_da_day_ta_trang_GERD_kho_tieu"
+      ]
+    },
+    "ACG_CAG_dyspepsia_2017": {
+      "current": {
+        "version_label": "ACG/CAG 2017 dyspepsia",
+        "pmid": "28631728",
+        "title": "ACG and CAG Clinical Guideline: Management of Dyspepsia",
+        "journal": "Am J Gastroenterol",
+        "year_published": "2017",
+        "last_checked": "2026-07-20"
+      },
+      "related_lessons": [
+        "IM-37_Loet_da_day_ta_trang_GERD_kho_tieu"
+      ]
+    },
+    "ACG_GERD_2022": {
+      "current": {
+        "version_label": "ACG 2022 GERD",
+        "pmid": "34807007",
+        "title": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease",
+        "journal": "Am J Gastroenterol",
+        "year_published": "2022",
+        "last_checked": "2026-07-20"
+      },
+      "related_lessons": [
+        "IM-37_Loet_da_day_ta_trang_GERD_kho_tieu"
+      ]
+    },
+    "VNAGE_H_pylori_2022": {
+      "current": {
+        "version_label": "VNAGE 2022 H. pylori",
+        "pmid": "36714104",
+        "title": "Vietnam Association of Gastroenterology (VNAGE) consensus on the management of Helicobacter pylori infection",
+        "journal": "Front Med (Lausanne)",
+        "year_published": "2022",
+        "last_checked": "2026-07-20"
+      },
+      "related_lessons": [
+        "IM-37_Loet_da_day_ta_trang_GERD_kho_tieu"
+      ]
+    },
+    "Korean_drug_related_peptic_ulcer_2020": {
+      "current": {
+        "version_label": "Korean 2020 drug-related PUD",
+        "pmid": "33191311",
+        "title": "Clinical Guidelines for Drug-Related Peptic Ulcer, 2020 Revised Edition",
+        "journal": "Gut Liver",
+        "year_published": "2020",
+        "last_checked": "2026-07-20"
+      },
+      "related_lessons": [
+        "IM-37_Loet_da_day_ta_trang_GERD_kho_tieu"
+      ]
+    },
+    "SFMU_SRLF_respiratory_distress": {
+      "current": {
+        "version_label": "SFMU/SRLF 2026 respiratory distress",
+        "pmid": "41788490",
+        "title": "Guidelines for the Initial Assessment of Respiratory Distress in the Emergency Department.",
+        "journal": "Annals of intensive care",
+        "year_published": "2026",
+        "last_checked": "2026-07-22"
+      },
+      "related_lessons": [
+        "IM-07_Tiep_can_kho_tho_cap"
+      ]
+    },
+    "AARC_oxygen_acute_care": {
+      "current": {
+        "version_label": "AARC 2022 oxygen acute care",
+        "pmid": "34728574",
+        "title": "AARC Clinical Practice Guideline: Management of Adult Patients With Oxygen in the Acute Care Setting.",
+        "journal": "Respiratory care",
+        "year_published": "2022",
+        "last_checked": "2026-07-22"
+      },
+      "related_lessons": [
+        "IM-07_Tiep_can_kho_tho_cap"
+      ]
+    },
+    "ERS_ATS_NIV_acute_respiratory_failure": {
+      "current": {
+        "version_label": "ERS/ATS 2017 NIV acute respiratory failure",
+        "pmid": "28860265",
+        "title": "Official ERS/ATS clinical practice guidelines: noninvasive ventilation for acute respiratory failure.",
+        "journal": "The European respiratory journal",
+        "year_published": "2017",
+        "last_checked": "2026-07-22"
+      },
+      "related_lessons": [
+        "IM-07_Tiep_can_kho_tho_cap"
+      ]
+    },
+    "ESICM_ARDS": {
+      "current": {
+        "version_label": "ESICM 2023 ARDS respiratory support",
+        "pmid": "37326646",
+        "title": "ESICM guidelines on acute respiratory distress syndrome: definition, phenotyping and respiratory support strategies.",
+        "journal": "Intensive care medicine",
+        "year_published": "2023",
+        "last_checked": "2026-07-22"
+      },
+      "related_lessons": [
+        "IM-07_Tiep_can_kho_tho_cap"
+      ]
+    },
+    "BTS_ICS_acute_hypercapnic_respiratory_failure": {
+      "current": {
+        "version_label": "BTS/ICS 2016 acute hypercapnic respiratory failure",
+        "pmid": "26976648",
+        "title": "BTS/ICS guideline for the ventilatory management of acute hypercapnic respiratory failure in adults.",
+        "journal": "Thorax",
+        "year_published": "2016",
+        "last_checked": "2026-07-22"
+      },
+      "related_lessons": [
+        "IM-07_Tiep_can_kho_tho_cap"
+      ]
+    }
+  },
+  "search_strategies": {
+    "PubMed_freshness_check": {
+      "method_1_broad_term_date_sort": "Search 'X guideline Y' + sort=date → tìm latest",
+      "method_2_specific_year": "Search 'X guideline Y 2024 2025 2026' → tìm gần đây",
+      "method_3_author_team": "Search author của guideline cũ + year filter → check guideline mới"
+    },
+    "PMC_check": "If PubMed có PMID → check pmc.ncbi.nlm.nih.gov/articles/PMC{ID}/ cho full text open access",
+    "society_website": "Oxford Academic (Hum Reprod), ACOG website, ASRM website, ESHRE eshre.eu/Guidelines"
+  },
+  "incident_log": []
+}

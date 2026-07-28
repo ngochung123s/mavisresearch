@@ -1,0 +1,931 @@
+{
+  "_meta": {
+    "description": "Journal quartile mapping cho OB/GYN + ART + Fetal Ultrasound + Cardiology (fetal echo) + Pediatrics (neonatology). Dùng cho citation_audit.py để phân Tier 1-4.",
+    "version": "2026-07-02-v20",
+    "update_log": [
+      "2026-06-19 v1: Initial ~50 journal sản phụ khoa + ART + ultrasound",
+      "2026-06-19 v2: Add ~50 journal nữa sau khi scan_all_lessons (cardiology for fetal echo, pediatrics, OB/GYN extended, endocrinology, molecular bio)",
+      "2026-06-19 v3: Merge ~30 journal còn lại từ unknown scan: BMJ Open, Reprod Sci, Cell Rep, Science, Cureus, etc. Add 8 journal sai topic vào Q4 (Khirurgiia, Ugeskr Laeger, etc.)",
+      "2026-06-19 v4: Add 2 journal từ Doppler lesson (Med Ultrason, J Obstet Gynaecol - Q3) sau audit round 1 có 2 unknown",
+      "2026-06-20 v5: Add 3 Nature journals từ ICSI lesson (Nat Med, Nat Rev Urol - Q1; Biol Rev - Q1) + 1 Lancet (already existed)",
+      "2026-06-22 v6: Add Clinical Obstetrics and Gynecology (Q2) from FTS lesson 22/06 (Hopkins 2023 twins)",
+      "2026-06-23 v7: Add Facts Views Vis Obgyn (Q3, ESGE official), Clin Endocrinol (Q2) for uterine hypoplasia lesson",
+      "2026-06-23 v8: Add 4 journal for Sinh ly chuyen da lesson - Front Immunol (Q1 IF 7.3, immunobiology), Matrix Biol (Q1 IF 5.8, cervical HA), Am J Obstet Gynecol MFM (Q1 IF 4.0, ACOG companion), Ciba Found Symp (Q3, Liggins 1977 classic)",
+      "2026-06-23 v9: Add 3 journal for De chi huу OVD lesson - Acta Obstet Gynecol Scand (Q1 IF 4.1, Levin 2019 subgaleal), J Perinatol (Q2 IF 2.5, Babata 2025 SGH review), CMAJ (Q1 IF 16.9, Muraca 2022 OVD trauma)",
+      "2026-06-23 v10: Add J Obstet Gynaecol (Q3 IF 1.4, Giacchino 2022 Kielland) for De chi huy OVD lesson",
+      "2026-06-23 v11: Add 16 journal for Oxytocin IOL lesson mechanism - Physiol Rev (Q1 IF 33), J Biol Chem (Q1 IF 5.5), Endocrinology (Q1 IF 5.0), Trends Endocrinol Metab (Q1 IF 11), J Neuroendocrinol (Q1 IF 3.5), Am J Physiol Cell Physiol (Q2 IF 4.0), iScience (Q1 IF 5.8), Channels Austin (Q3 IF 1.5), Mol Hum Reprod (Q2 IF 3.6), Biochim Biophys Acta (Q1 IF 3.2), Cell Signal (Q2 IF 4.4), Exp Physiol (Q2 IF 3.0), Vitam Horm (Q2 IF 2.5), Endocr Metab Immune Disord Drug Targets (Q3 IF 1.5), Prog Brain Res (Q1 IF 2.5), Results Probl Cell Differ (Q3 IF 1.0)",
+      "2026-06-25 v12: Add 10 journal for Stimulation Protocols ART lesson - Hum Reprod Update (Q1 IF 12.4 - top OB/GYN review), Reprod Biomed Online (Q1 IF 4.0), Front Endocrinol Lausanne (Q1 IF 5.2), J Assist Reprod Genet (Q1 IF 3.0 - move from Q2 to Q1 based on updated IF), Ther Adv Reprod Health (Q2 IF 2.0), J Ovarian Res (Q2 IF 3.4), Gynecol Endocrinol (Q2 IF 2.0), J Hum Reprod Sci (Q3 IF 1.0), Turk J Med Sci (Q3 IF 1.5)",
+      "2026-06-27 v13: Add 5 journal for ART Complications lesson - Obstet Gynecol (Q1 IF 7.0 ACOG flagship), JAMA Netw Open (Q1 IF 13.0), J Matern Fetal Neonatal Med (Q1 IF 1.7), JMIR Cancer (Q2 IF 3.8), Medicina Kaunas (Q2 IF 2.6)",
+      "2026-06-27 v14: Add 5 journal for Gonadotropin Dosing lesson - Eur J Obstet Gynecol Reprod Biol (Q1 IF 4.1), BMC Pregnancy Childbirth (Q1 IF 3.0), Biomedicines (Q2 IF 3.9), J Obstet Gynaecol (Q2 IF 1.4), Cureus (Q3 IF 1.0)",
+      "2026-06-28 v15: Add 7 journal for HyCoSy/HyFoSy lesson - F S Sci (Q2 IF 2.0), Quant Imaging Med Surg (Q2 IF 2.2), Medicine Baltimore (Q2 IF 1.5), Afr J Reprod Health (Q3 IF 0.8), Case Rep Obstet Gynecol (Q3 IF 0.5), Med Sci Basel (Q3 IF 1.5)",
+      "2026-06-29 v16: Add 9 journal for AUB lesson - Int J Gynaecol Obstet (Q1 IF 3.5), Best Pract Res Clin Obstet Gynaecol (Q1 IF 3.5), Res Pract Thromb Haemost (Q2 IF 3.0), BMC Womens Health (Q2 IF 2.5), Eur J Contracept Reprod Health Care (Q2 IF 1.8), J Med Life (Q3 IF 1.5), Pediatr Ann (Q3 IF 0.5), Diagnostics Basel (Q2 IF 3.0)",
+      "2026-06-29 v17: Add 4 journal for Sieu am o bung tong quat lesson - Radiology (Q1 IF 5.5 RSNA flagship), Ultrasound in Medicine & Biology (Q1 IF 2.5 WFUMB official), Ultraschall in der Medizin (Q1 IF 3.0 EFSUMB official), J Am Coll Radiol (Q2 IF 4.0 ACR official)",
+      "2026-06-29 v18: Add 5 journal for Sieu am tuyen giap + Sieu am tuyen vu lessons - European Radiology (Q1 IF 5.7), Radiographics (Q1 IF 5.0 RSNA), Thyroid (Q1 IF 5.0 ATA), Can Assoc Radiol J (Q2 IF 1.8 CAR), Cancers (Q1 IF 4.5 MDPI)",
+      "2026-07-02 v19: Add Reproductive Biology and Endocrinology (Q1 IF 4.0) for Poor Ovarian Response lesson",
+      "2026-07-02 v20: Add Journal of Ultrasound in Medicine (Q2, AIUM official) for TVS basic lesson"
+    ],
+    "data_source": "JCR 2023/2024 categories (CARDIAC, OB/GYN, PEDIATRICS, ENDOCRINOLOGY), cross-checked với SJR 2024. Một số IF là ước lượng.",
+    "tier_definitions": {
+      "Q1": "Top 25% - Tier 1 - Nên cite, abstract/full verified",
+      "Q2": "25-50% - Tier 2 - Nên cite, abstract verified",
+      "Q3": "50-75% - Tier 3 - Cân nhắc, title-only OK",
+      "Q4": "Bottom 25% / predatory - Tier 4 - Tránh cite (block nếu có số liệu cụ thể)"
+    },
+    "how_to_add_journal": "Thêm journal mới khi gặp, đặc biệt journal thường xuyên cite. Nếu không rõ quartile, mặc định Tier 3 (cân nhắc).",
+    "coverage": "60+ OB/GYN/ART, 25+ Cardiology (fetal echo), 15+ Pediatrics/Neonatology, 15+ Endocrinology/Molecular, 10+ General medicine, 5+ misc"
+  },
+  "Q1": {
+    "Fertility and Sterility": {
+      "if": 7.0,
+      "field": "OB/GYN - Reproductive Medicine",
+      "abbr": "Fertil Steril",
+      "notes": "ASRM flagship. PGT-A committee opinions 2024, 2023; Mumusoglu 2025 unexplained RPL; Bayefsky 2026 donor egg PGT-A; Sakkas time-lapse."
+    },
+    "Human Reproduction": {
+      "if": 6.0,
+      "field": "OB/GYN - Reproductive Medicine",
+      "abbr": "Hum Reprod",
+      "notes": "ESHRE flagship. Hyttel 2026 PGT-A obstetric outcomes meta-analysis; Verpoest 2018 STAR trial sub-analysis; Cornelisse 2024 miRNA."
+    },
+    "Human Reproduction Open": {
+      "if": 6.0,
+      "field": "OB/GYN - Reproductive Medicine (open access)",
+      "abbr": "Hum Reprod Open",
+      "notes": "ESHRE open-access. Song 2025 polar body + nanopore PGT-A."
+    },
+    "Human Reproduction Update": {
+      "if": 12.4,
+      "field": "OB/GYN - Reproductive Medicine (top review)",
+      "abbr": "Hum Reprod Update",
+      "notes": "ESHRE top review journal (IF cao nhất OB/GYN). Lambalk 2017 IPD meta antagonist vs agonist; Venetis 2023 NMA antagonist protocols; Al-Inany 2016 Cochrane antagonists."
+    },
+    "Reproductive BioMedicine Online": {
+      "if": 4.0,
+      "field": "OB/GYN - Reproductive Medicine",
+      "abbr": "Reprod Biomed Online",
+      "notes": "Reproductive Healthcare Ltd. Ata 2024 PPOS review; Chen 2022 FP breast cancer meta; Vaiarelli 2018 DuoStim SWOT."
+    },
+    "Frontiers in Endocrinology": {
+      "if": 5.2,
+      "field": "Endocrinology (open access)",
+      "abbr": "Front Endocrinol (Lausanne)",
+      "notes": "Frontiers journal. Guan 2021 PPOS meta; Yang 2023 PPOS PCOS; Yang 2022 PPOS endometrioma; Qin 2025 PPOS PGT-A."
+    },
+    "Journal of Assisted Reproduction and Genetics": {
+      "if": 3.0,
+      "field": "OB/GYN - Reproductive Medicine",
+      "abbr": "J Assist Reprod Genet",
+      "notes": "ASRM society journal. Glujovsky 2020 non-conventional protocols NMA; La Marca 2026 DuoStim extended; Mercorio 2026 dual trigger poor responders."
+    },
+    "Reproductive Biology and Endocrinology": {
+      "if": 4.0,
+      "field": "Endocrinology - Reproductive Medicine",
+      "abbr": "Reprod Biol Endocrinol",
+      "notes": "BMC/Springer Nature open-access journal. Xu 2018 CoQ10 pretreatment in low-prognosis young women."
+    },
+    "Acta Obstetricia et Gynecologica Scandinavica": {
+      "if": 4.1,
+      "field": "OB/GYN",
+      "abbr": "Acta Obstet Gynecol Scand",
+      "notes": "Nordic OB/GYN (NFOG). Newnham 2026 RIF PGT-A meta-analysis."
+    },
+    "EClinicalMedicine": {
+      "if": 15.1,
+      "field": "General Medicine (Lancet family)",
+      "abbr": "EClinicalMedicine",
+      "notes": "Lancet open-access clinical journal. Xin 2024 AI for embryonic ploidy meta-analysis."
+    },
+    "Genetics": {
+      "if": 3.3,
+      "field": "Genetics",
+      "abbr": "Genetics",
+      "notes": "Genetics Society of America flagship. Yang 2025 ABC mosaicism rate blastocysts."
+    },
+    "Physiological Reviews": {
+      "if": 33.0,
+      "field": "Physiology",
+      "abbr": "Physiol Rev",
+      "notes": "Top physiology review journal (APS). Gimpl & Fahrenholz 2001 OXTR classic; Jurek & Neumann 2018 OXTR behavior."
+    },
+    "Journal of Biological Chemistry": {
+      "if": 5.5,
+      "field": "Biochemistry",
+      "abbr": "J Biol Chem",
+      "notes": "Q1 general biochemistry (high volume). Reversi 2005 atosiban biased mechanism."
+    },
+    "Endocrinology": {
+      "if": 5.0,
+      "field": "Endocrinology",
+      "abbr": "Endocrinology",
+      "notes": "Endocrine Society flagship. Larcher 1995 OXTR expression uterus."
+    },
+    "Trends in Endocrinology and Metabolism": {
+      "if": 11.0,
+      "field": "Endocrinology",
+      "abbr": "Trends Endocrinol Metab",
+      "notes": "Cell Press review journal. Zingg 2003 OXTR."
+    },
+    "Journal of Neuroendocrinology": {
+      "if": 3.5,
+      "field": "Neuroendocrinology",
+      "abbr": "J Neuroendocrinol",
+      "notes": "Arrowsmith 2014 OXT in myometrium."
+    },
+    "iScience": {
+      "if": 5.8,
+      "field": "Multidisciplinary",
+      "abbr": "iScience",
+      "notes": "Cell Press multidisciplinary. MacEwen 2023 calmodulin-MLCK."
+    },
+    "Molecular Human Reproduction": {
+      "if": 3.6,
+      "field": "Reproductive Biology",
+      "abbr": "Mol Hum Reprod",
+      "notes": "ESHRE journal. Moran 2002 Rho kinase myometrium."
+    },
+    "Biochimica et Biophysica Acta": {
+      "if": 3.2,
+      "field": "Biochemistry",
+      "abbr": "Biochim Biophys Acta",
+      "notes": "BBA family of journals. Tsujimoto 2005 oxytocinase subfamily."
+    },
+    "PLoS ONE": {
+      "if": 3.7,
+      "field": "Multidisciplinary",
+      "abbr": "PLoS One",
+      "notes": "Open access multidisciplinary. Kruit 2022 oxytocin IOL Helsinki cohort."
+    },
+    "Cochrane Database of Systematic Reviews": {
+      "if": 11.0,
+      "field": "Evidence-Based Medicine",
+      "abbr": "Cochrane Database Syst Rev",
+      "notes": "Top evidence synthesis. Kerr 2021 oral misoprostol IOL."
+    },
+    "American Journal of Obstetrics and Gynecology": {
+      "if": 7.0,
+      "field": "OB/GYN",
+      "abbr": "Am J Obstet Gynecol",
+      "notes": "ACOG flagship journal. Top OB/GYN journal. SMFM Consult Series, Chauhan 2004 AFI vs SDP, Johnson 2007 oligo criteria."
+    },
+    "American Journal of Obstetrics & Gynecology MFM": {
+      "if": 4.0,
+      "field": "OB/GYN",
+      "abbr": "Am J Obstet Gynecol MFM",
+      "notes": "ACOG companion journal. Grasch 2025 high vs low-dose; Nicol 2026 TOLAC."
+    },
+    "Journal of Perinatal Medicine": {
+      "if": 2.0,
+      "field": "OB/GYN",
+      "abbr": "J Perinat Med",
+      "notes": "Q2. Bossmar 1998 atosiban preterm."
+    },
+    "AJOG Global Reports": {
+      "if": 2.0,
+      "field": "OB/GYN",
+      "abbr": "AJOG Glob Rep",
+      "notes": "ACOG open-access companion. Carvajal 2024 RHOA/ROCK myometrium."
+    },
+    "American Journal of Physiology": {
+      "if": 4.0,
+      "field": "Physiology",
+      "abbr": "Am J Physiol",
+      "notes": "APS consolidated journal. Caritis 1987 myometrial desensitization classic."
+    },
+    "American Journal of Physiology - Gastrointestinal and Liver Physiology": {
+      "if": 4.0,
+      "field": "Gastrointestinal Physiology",
+      "abbr": "Am J Physiol Gastrointest Liver Physiol",
+      "notes": "APS GI/Liver. Sohn 2001 MLCK-PKC smooth muscle contraction."
+    },
+    "Healthcare": {
+      "if": 3.0,
+      "field": "Health Policy / Services",
+      "abbr": "Healthcare (Basel)",
+      "notes": "MDPI open access. Q1 in Health Policy. Zaman 2025 dinoprostone vs Foley meta-analysis."
+    },
+    "Ultrasound in Obstetrics and Gynecology": {
+      "if": 7.1,
+      "field": "Obstetrics/Gynecology - Ultrasound",
+      "abbr": "Ultrasound Obstet Gynecol",
+      "notes": "Official journal ISUOG. Top impact in OB ultrasound (IF ~ 7). PMID 19031473 Kagan 2009 TR screening, 37267096 ISUOG 2023 guideline."
+    },
+    "Clinics in Perinatology": {
+      "if": 2.8,
+      "field": "Pediatrics - Perinatology",
+      "abbr": "Clin Perinatol",
+      "notes": "Elsevier. McLaughlin 2016 fetal diagnostics sequential segmental approach."
+    },
+    "Prenatal Diagnosis": {
+      "if": 3.0,
+      "field": "Obstetrics/Gynecology - Prenatal",
+      "abbr": "Prenat Diagn",
+      "notes": "Journal quốc tế về chẩn đoán trước sinh. IF ~ 3. PMID 27060369 Burger 2016 DV anatomy."
+    },
+    "BJOG: An International Journal of Obstetrics and Gynaecology": {
+      "if": 5.8,
+      "field": "Obstetrics/Gynecology - General",
+      "abbr": "BJOG",
+      "notes": "Top OB/GYN journal UK (RCOG). IF ~ 5.8. PMID 12269675 Mavrides 2002 DV Doppler screening."
+    },
+    "Radiology": {
+      "if": 5.5,
+      "field": "Radiology / Medical Imaging",
+      "abbr": "Radiology",
+      "notes": "RSNA flagship. Chow 2016 spleen size normal values 1200 individuals. Tier 1."
+    },
+    "Ultrasound in Medicine & Biology": {
+      "if": 2.5,
+      "field": "Ultrasound / Medical Imaging",
+      "abbr": "Ultrasound Med Biol",
+      "notes": "WFUMB official journal. Trenker 2021 spleen IF, Dietrich 2022 liver IF, Jenssen 2022 gallbladder IF. Tier 1."
+    },
+    "Ultraschall in der Medizin": {
+      "if": 3.0,
+      "field": "Ultrasound / Medical Imaging",
+      "abbr": "Ultraschall Med",
+      "notes": "EFSUMB official journal. EFSUMB 2016 CEUS guidelines. Tier 1."
+    },
+    "Cancers": {
+      "if": 4.5,
+      "field": "Oncology",
+      "abbr": "Cancers (Basel)",
+      "notes": "MDPI open access. Șirli 2024 WFUMB liver incidental findings. Tier 1."
+    },
+    "European Radiology": {
+      "if": 5.7,
+      "field": "Radiology / Medical Imaging",
+      "abbr": "Eur Radiol",
+      "notes": "European Society of Radiology flagship. Vassallo 2026 ESR thyroid imaging essentials. Tier 1."
+    },
+    "Radiographics": {
+      "if": 5.0,
+      "field": "Radiology / Medical Imaging",
+      "abbr": "Radiographics",
+      "notes": "RSNA review journal. Retson 2026 BI-RADS 6th edition lymph node review. Tier 1."
+    },
+    "Thyroid": {
+      "if": 5.0,
+      "field": "Endocrinology / Thyroid",
+      "abbr": "Thyroid",
+      "notes": "American Thyroid Association flagship. Cibas 2017 Bethesda System. Tier 1."
+    },
+    "Obstetrics and Gynecology": {
+      "if": 7.0,
+      "field": "OB/GYN",
+      "abbr": "Obstet Gynecol",
+      "notes": "ACOG flagship. 2021 PB #231 multifetal; 2017 CO #719 MFPR; 2016 CO #671 ART perinatal risks."
+    },
+    "JAMA Network Open": {
+      "if": 13.0,
+      "field": "General Medicine (open access)",
+      "abbr": "JAMA Netw Open",
+      "notes": "JAMA family open access. Matsuzaki 2024 gestational carrier outcomes."
+    },
+    "Journal of Maternal-Fetal & Neonatal Medicine": {
+      "if": 1.7,
+      "field": "OB/GYN - Perinatal",
+      "abbr": "J Matern Fetal Neonatal Med",
+      "notes": "Haddadi 2026 endometrial thickness + EP."
+    },
+    "European Journal of Obstetrics, Gynecology, and Reproductive Biology": {
+      "if": 4.1,
+      "field": "OB/GYN - Reproductive",
+      "abbr": "Eur J Obstet Gynecol Reprod Biol",
+      "notes": "Elsevier. Sopa 2019 AMH algorithm; Liu 2023 poor responder RCT."
+    },
+    "BMC Pregnancy and Childbirth": {
+      "if": 3.0,
+      "field": "OB/GYN - Maternal-Fetal",
+      "abbr": "BMC Pregnancy Childbirth",
+      "notes": "BMC. Wang 2025 repeated COS cohort."
+    },
+    "International Journal of Gynecology & Obstetrics": {
+      "if": 3.5,
+      "field": "OB/GYN",
+      "abbr": "Int J Gynaecol Obstet",
+      "notes": "FIGO official journal. Diaz 2025 FIGO fibroid guidance; Kitahara 2024 AUB diagnosis."
+    },
+    "Best Practice & Research Clinical Obstetrics & Gynaecology": {
+      "if": 3.5,
+      "field": "OB/GYN - Review",
+      "abbr": "Best Pract Res Clin Obstet Gynaecol",
+      "notes": "Elsevier review journal. Munro 2016 FIGO systems practical aspects."
+    },
+    "European Heart Journal": {
+      "if": 37.0,
+      "quartile": "Q1",
+      "category": "Cardiac & Cardiovascular Systems"
+    },
+    "Circulation": {
+      "if": 35.0,
+      "quartile": "Q1",
+      "category": "Cardiac & Cardiovascular Systems"
+    },
+    "Journal of the American College of Cardiology": {
+      "if": 24.0,
+      "quartile": "Q1",
+      "category": "Cardiac & Cardiovascular Systems"
+    },
+    "New England Journal of Medicine": {
+      "if": 96.0,
+      "quartile": "Q1",
+      "category": "Medicine, General & Internal"
+    },
+    "The Lancet": {
+      "if": 98.0,
+      "quartile": "Q1",
+      "category": "Medicine, General & Internal"
+    },
+    "JACC Heart Failure": {
+      "if": 15.0,
+      "quartile": "Q1",
+      "category": "Cardiac & Cardiovascular Systems"
+    },
+    "ESC Heart Failure": {
+      "if": 5.5,
+      "quartile": "Q1",
+      "category": "Cardiac & Cardiovascular Systems"
+    },
+    "BMC Cardiovascular Disorders": {
+      "if": 2.5,
+      "quartile": "Q3",
+      "category": "Cardiac & Cardiovascular Systems"
+    },
+    "European Journal of Heart Failure": {
+      "if": 16.0,
+      "quartile": "Q1",
+      "category": "Cardiac & Cardiovascular Systems"
+    }
+  },
+  "Q2": {
+    "Journal of Ultrasound in Medicine": {
+      "if": 2.3,
+      "field": "Ultrasound / Medical Imaging",
+      "abbr": "J Ultrasound Med",
+      "notes": "AIUM official journal. AIUM 2024 female pelvis ultrasound practice parameter."
+    },
+    "Archives of Gynecology and Obstetrics": {
+      "if": 2.7,
+      "field": "OB/GYN",
+      "abbr": "Arch Gynecol Obstet",
+      "notes": "Springer OB/GYN. Jiang 2026 misdiagnosis PGT meta-analysis; Hochberg 2025 blastocyst morphology PGT-A; Qin 2025 PPOS PGT-A."
+    },
+    "Journal of the American College of Radiology": {
+      "if": 4.0,
+      "field": "Radiology / Medical Imaging",
+      "abbr": "J Am Coll Radiol",
+      "notes": "ACR official journal. Mody 2021 adrenal mass ACR appropriateness criteria. Tier 2."
+    },
+    "Canadian Association of Radiologists Journal": {
+      "if": 1.8,
+      "field": "Radiology / Medical Imaging",
+      "abbr": "Can Assoc Radiol J",
+      "notes": "CAR official journal. Fienberg 2026 breast ultrasound practice guidelines. Tier 2."
+    },
+    "European Journal of Medical Research": {
+      "if": 2.8,
+      "field": "General Medicine",
+      "abbr": "Eur J Med Res",
+      "notes": "Springer open access. Wan 2025 sperm DNA fragmentation + embryo euploidy."
+    },
+    "Genes": {
+      "if": 2.8,
+      "field": "Genetics",
+      "abbr": "Genes (Basel)",
+      "notes": "MDPI open access genetics. Navarro-Sanchez 2026 niPGT-A multicenter."
+    },
+    "American Journal of Physiology - Cell Physiology": {
+      "if": 4.0,
+      "field": "Cell Physiology",
+      "abbr": "Am J Physiol Cell Physiol",
+      "notes": "APS journal. Mizuno 2008 MLCK activation."
+    },
+    "Cellular Signalling": {
+      "if": 4.4,
+      "field": "Cell Signaling",
+      "abbr": "Cell Signal",
+      "notes": "Elsevier. Rajagopal 2018 GPCR desensitization."
+    },
+    "Experimental Physiology": {
+      "if": 3.0,
+      "field": "Physiology",
+      "abbr": "Exp Physiol",
+      "notes": "Physiological Society. Thornton 2001 oxytocin antagonists."
+    },
+    "Vitamins and Hormones": {
+      "if": 2.5,
+      "field": "Endocrinology",
+      "abbr": "Vitam Horm",
+      "notes": "Academic Press series. Mayasich 2020 vasotocin origin."
+    },
+    "Journal of Gynecology Obstetrics and Human Reproduction": {
+      "if": 1.7,
+      "field": "OB/GYN",
+      "abbr": "J Gynecol Obstet Hum Reprod",
+      "notes": "Elsevier French OB/GYN journal. Pieux 2025 misoprostol vs dinoprostone; Mashayekhi 2021 POSEIDON LBR; Tian 2023 endometriosis downregulation meta; Alexander 2021 random start FP cancer."
+    },
+    "Therapeutic Advances in Reproductive Health": {
+      "if": 2.0,
+      "field": "OB/GYN - Reproductive Medicine (open access)",
+      "abbr": "Ther Adv Reprod Health",
+      "notes": "SAGE open access. Drakopoulos 2020 POSEIDON concept; Di Guardo 2022 natural cycle poor responder; Kuan 2023 endometriosis GnRH comparison."
+    },
+    "Journal of Ovarian Research": {
+      "if": 3.4,
+      "field": "OB/GYN - Reproductive Medicine",
+      "abbr": "J Ovarian Res",
+      "notes": "Springer open access. Huang 2022 random-start PPOS for FP."
+    },
+    "Gynecological Endocrinology": {
+      "if": 2.0,
+      "field": "Endocrinology/OB/GYN",
+      "abbr": "Gynecol Endocrinol",
+      "notes": "Taylor & Francis. Fernandez-Sanchez 2023 OHSS risk GnRH trigger freeze-all; Sekiguchi 2023 DuoStim AML FP."
+    },
+    "JMIR Cancer": {
+      "if": 3.8,
+      "field": "Oncology (digital health)",
+      "abbr": "JMIR Cancer",
+      "notes": "Song 2025 ART + childhood cancer meta-analysis."
+    },
+    "Medicina (Kaunas)": {
+      "if": 2.6,
+      "field": "General Medicine",
+      "abbr": "Medicina (Kaunas)",
+      "notes": "MDPI. Criscione 2025 tubal stump EP after IVF-ET."
+    },
+    "Biomedicines": {
+      "if": 3.9,
+      "field": "Biomedical Research (open access)",
+      "abbr": "Biomedicines",
+      "notes": "MDPI. Chen 2026 personalized FSH in PCOS."
+    },
+    "Journal of Obstetrics and Gynaecology": {
+      "if": 1.4,
+      "field": "OB/GYN",
+      "abbr": "J Obstet Gynaecol",
+      "notes": "Taylor Francis. Barrenetxea 2023 Spain Delphi consensus."
+    },
+    "F S Sci": {
+      "if": 2.0,
+      "field": "OB/GYN - Reproductive Medicine",
+      "abbr": "F S Sci",
+      "notes": "ASRM family, sister journal of Fertility and Sterility. Luque-González 2026 HyFoSy vs HSG."
+    },
+    "Quantitative Imaging in Medicine and Surgery": {
+      "if": 2.2,
+      "field": "Radiology / Medical Imaging",
+      "abbr": "Quant Imaging Med Surg",
+      "notes": "AME Publishing. Du 2026 perfluoropropane HyCoSy phase III."
+    },
+    "Medicine (Baltimore)": {
+      "if": 1.5,
+      "field": "General Medicine",
+      "abbr": "Medicine (Baltimore)",
+      "notes": "Wolters Kluwer. Tao 2026 venous intravasation HyCoSy case report."
+    },
+    "Research and Practice in Thrombosis and Haemostasis": {
+      "if": 3.0,
+      "field": "Hematology / Thrombosis",
+      "abbr": "Res Pract Thromb Haemost",
+      "notes": "ISTH open access. Masood 2025 AUB + bleeding disorders systematic review."
+    },
+    "BMC Women's Health": {
+      "if": 2.5,
+      "field": "OB/GYN - Women's Health",
+      "abbr": "BMC Womens Health",
+      "notes": "BMC. Jiang 2026 mifepristone refractory HMB in bleeding disorders."
+    },
+    "European Journal of Contraception and Reproductive Health Care": {
+      "if": 1.8,
+      "field": "OB/GYN - Contraception",
+      "abbr": "Eur J Contracept Reprod Health Care",
+      "notes": "Taylor & Francis. Tsakiridis 2022 AUB guidelines comparison review."
+    }
+  },
+  "Q3": {
+    "Ciba Foundation Symposia": {
+      "if": 1.5,
+      "field": "General Medicine",
+      "abbr": "Ciba Found Symp",
+      "notes": "Historical symposium series (1977-era). Liggins 1977 'Parturition in the sheep' is a classic foundational reference; cited for historical context only."
+    },
+    "Channels (Austin)": {
+      "if": 1.5,
+      "field": "Molecular Biology",
+      "abbr": "Channels (Austin)",
+      "notes": "Ion channels journal, Q3."
+    },
+    "Endocr Metab Immune Disord Drug Targets": {
+      "if": 1.5,
+      "field": "Endocrinology / Pharmacology",
+      "abbr": "Endocr Metab Immune Disord Drug Targets",
+      "notes": "Q3, Bentham Science."
+    },
+    "Results Probl Cell Differ": {
+      "if": 1.0,
+      "field": "Cell Biology",
+      "abbr": "Results Probl Cell Differ",
+      "notes": "Springer book series. Cited for historical reviews."
+    },
+    "Prog Brain Res": {
+      "if": 2.5,
+      "field": "Neuroscience",
+      "abbr": "Prog Brain Res",
+      "notes": "Elsevier book series. Often Q2/Q3 depending on year; classify as Q3."
+    },
+    "Journal of Medical Ultrasonics": {
+      "if": 0.8,
+      "field": "Radiology/Ultrasound",
+      "abbr": "J Med Ultrasonics",
+      "notes": "Journal Hội siêu âm Nhật Bản. PMID 41854925 Yonehara 2026 sample volume position."
+    },
+    "Journal of Human Reproductive Sciences": {
+      "if": 1.0,
+      "field": "OB/GYN - Reproductive Medicine",
+      "abbr": "J Hum Reprod Sci",
+      "notes": "Indian Society of Assisted Reproduction. Kumar 2022 random start case reports."
+    },
+    "Turkish Journal of Medical Sciences": {
+      "if": 1.5,
+      "field": "General Medicine",
+      "abbr": "Turk J Med Sci",
+      "notes": "Tubitak. Ozkan 2019 poor responder modalities."
+    },
+    "Cureus": {
+      "if": 1.0,
+      "field": "General Medicine (open access)",
+      "abbr": "Cureus",
+      "notes": "Springer. Triantafyllidou 2026 clomiphene + low-dose antagonist. Cân nhắc vì impact factor thấp + open access wide."
+    },
+    "African Journal of Reproductive Health": {
+      "if": 0.8,
+      "field": "OB/GYN - Reproductive Health",
+      "abbr": "Afr J Reprod Health",
+      "notes": "Pan African. Fu 2026 multimodal HyCoSy tubal patency."
+    },
+    "Case Reports in Obstetrics and Gynecology": {
+      "if": 0.5,
+      "field": "OB/GYN - Case Reports",
+      "abbr": "Case Rep Obstet Gynecol",
+      "notes": "Hindawi open access. Bisogni 2024 spontaneous pregnancy after 4D-HyCoSy."
+    },
+    "Medical Sciences (Basel)": {
+      "if": 1.5,
+      "field": "General Medicine",
+      "abbr": "Med Sci (Basel)",
+      "notes": "MDPI open access. Xydias 2025 HyFoSy vs HyCoSy meta-analysis."
+    },
+    "Journal of Medicine and Life": {
+      "if": 1.5,
+      "field": "General Medicine",
+      "abbr": "J Med Life",
+      "notes": "Romanian journal. Ichim 2026 acute AUB hospital management review."
+    },
+    "Pediatric Annals": {
+      "if": 0.5,
+      "field": "Pediatrics - General",
+      "abbr": "Pediatr Ann",
+      "notes": "Slack. Brookhart 2025 AUB in adolescents."
+    },
+    "Medical Ultrasonography": {
+      "if": 1.8,
+      "field": "Radiology - Ultrasound",
+      "abbr": "Med Ultrason",
+      "notes": "Romanian ultrasound journal. Muresan 2016 complete AVSD prenatal diagnosis."
+    }
+  },
+  "Q4_AVOID": {
+    "_description": "Tier 4 - Tránh cite. Bao gồm predatory journals, hijacked journals, low-quality.",
+    "_examples_only": "List này để reference. Có thể mở rộng khi phát hiện journal predatory cụ thể.",
+    "Anales de la Real Academia Nacional de Medicina": {
+      "if": 0.1,
+      "field": "Regional Q4",
+      "abbr": "An R Acad Nac Med (Madr)",
+      "notes": "Spanish regional, low IF, consider avoiding."
+    },
+    "Journal of Applied Measurement": {
+      "if": 0.5,
+      "field": "Q4 Statistics",
+      "abbr": "J Appl Meas",
+      "notes": "Rasch measurement niche."
+    },
+    "Hindawi - Evidence-Based Complementary and Alternative Medicine": {
+      "if": 0.0,
+      "field": "Predatory",
+      "notes": "Hindawi bị reclassify, từng predatory. Check cẩn thận."
+    },
+    "Journal of SAFOG": {
+      "if": 0.0,
+      "field": "Predatory",
+      "notes": "South Asian Federation of OB/GYN - check status."
+    },
+    "International Journal of Reproduction, Contraception, Obstetrics and Gynecology": {
+      "if": 0.0,
+      "field": "Q4",
+      "abbr": "IJRCOG",
+      "notes": "Open access, low IF."
+    },
+    "Khirurgiia": {
+      "if": 0.1,
+      "field": "Q4 Regional Russian",
+      "abbr": "Khirurgiia (Mosk)",
+      "notes": "Russian surgery journal. If cited for non-Russian-surgery claim = wrong topic."
+    },
+    "Ugeskrift for Laeger": {
+      "if": 0.1,
+      "field": "Q4 Regional Danish",
+      "abbr": "Ugeskr Laeger",
+      "notes": "Danish medical journal. If cited for non-Danish = wrong topic."
+    },
+    "Laeknabladid": {
+      "if": 0.1,
+      "field": "Q4 Regional Icelandic",
+      "notes": "Icelandic medical journal."
+    },
+    "Virologie": {
+      "if": 0.1,
+      "field": "Q4 French",
+      "abbr": "Virologie (Montrouge)",
+      "notes": "French virology. If cited in non-virology context = wrong topic."
+    },
+    "Zentralblatt fur Gynakologie": {
+      "if": 0.1,
+      "field": "Q4 Old German",
+      "abbr": "Zentralbl Gynakol",
+      "notes": "Old German gyn, no longer active."
+    },
+    "British Journal of Community Nursing": {
+      "if": 0.3,
+      "field": "Q4 Nursing",
+      "abbr": "Br J Community Nurs",
+      "notes": "Low-tier nursing."
+    },
+    "Canadian Journal of Clinical Pharmacology": {
+      "if": 0.3,
+      "field": "Q4 Pharmacology",
+      "abbr": "Can J Clin Pharmacol",
+      "notes": "Discontinued 2012."
+    }
+  },
+  "ALIASES": {
+    "_description": "Map PubMed journal abbreviations + variants → canonical name. Updated 2026-06-19 v2.",
+    "_note": "PubMed trả về dạng NLM Journal Title Abbreviation (JTA). Aliases bao gồm cả viết tắt phổ biến và minor variants.",
+    "AJOG": "American Journal of Obstetrics and Gynecology",
+    "Am J Obstet Gynecol": "American Journal of Obstetrics and Gynecology",
+    "Obstet Gynecol": "Obstetrics and Gynecology",
+    "BJOG": "BJOG: An International Journal of Obstetrics and Gynaecology",
+    "BJOG An Int J Obstet Gynaecol": "BJOG: An International Journal of Obstetrics and Gynaecology",
+    "UOG": "Ultrasound in Obstetrics and Gynecology",
+    "Ultrasound Obstet Gynecol": "Ultrasound in Obstetrics and Gynecology",
+    "Fertil Steril": "Fertility and Sterility",
+    "Hum Reprod": "Human Reproduction",
+    "Hum Reprod Update": "Human Reproduction Update",
+    "Human Reproduction Update": "Human Reproduction Update",
+    "NEJM": "New England Journal of Medicine",
+    "N Engl J Med": "New England Journal of Medicine",
+    "Cochrane Database Syst Rev": "Cochrane Database of Systematic Reviews",
+    "RBMO": "Reproductive BioMedicine Online",
+    "Reprod Biomed Online": "Reproductive BioMedicine Online",
+    "JARG": "Journal of Assisted Reproduction and Genetics",
+    "J Assist Reprod Genet": "Journal of Assisted Reproduction and Genetics",
+    "EJOG": "European Journal of Obstetrics, Gynecology, and Reproductive Biology",
+    "Eur J Obstet Gynecol Reprod Biol": "European Journal of Obstetrics, Gynecology, and Reproductive Biology",
+    "IJGO": "International Journal of Gynecology & Obstetrics",
+    "Int J Gynaecol Obstet": "International Journal of Gynecology & Obstetrics",
+    "BPRCOG": "Best Practice & Research Clinical Obstetrics & Gynaecology",
+    "Best Pract Res Clin Obstet Gynaecol": "Best Practice & Research Clinical Obstetrics & Gynaecology",
+    "J Matern Fetal Neonatal Med": "Journal of Maternal-Fetal & Neonatal Medicine",
+    "PLoS Med": "PLoS Medicine",
+    "PLoS One": "PLoS ONE",
+    "PLoS ONE": "PLoS ONE",
+    "Sci Rep": "Scientific Reports",
+    "BMC Med": "BMC Medicine",
+    "BMC Pregnancy Childbirth": "BMC Pregnancy and Childbirth",
+    "Hum Reprod Open": "Human Reproduction Open",
+    "JPAG": "Journal of Pediatric and Adolescent Gynecology",
+    "J Pediatr Adolesc Gynecol": "Journal of Pediatric and Adolescent Gynecology",
+    "JOGR": "Journal of Obstetrics and Gynaecology Research",
+    "J Obstet Gynaecol Res": "Journal of Obstetrics and Gynaecology Research",
+    "Int J Womens Health": "International Journal of Women's Health",
+    "Expert Rev Mol Med": "Expert Review of Molecular Medicine",
+    "Adv Ther": "Advances in Therapy",
+    "Reprod Biol Endocrinol": "Reproductive Biology and Endocrinology",
+    "Arch Gynecol Obstet": "Archives of Gynecology and Obstetrics",
+    "Gynecol Endocrinol": "Gynecological Endocrinology",
+    "Curr Opin Obstet Gynecol": "Current Opinion in Obstetrics and Gynecology",
+    "Gynecol Oncol": "Gynecologic Oncology",
+    "JAMA Intern Med": "JAMA Internal Medicine",
+    "JAMA Pediatr": "JAMA Pediatrics",
+    "Ann Intern Med": "Annals of Internal Medicine",
+    "Lancet": "Lancet",
+    "The Lancet": "Lancet",
+    "Pediatrics": "Pediatrics",
+    "Prenat Diagn": "Prenatal Diagnosis",
+    "Fetal Diagn Ther": "Fetal Diagnosis and Therapy",
+    "J Perinat Med": "Journal of Perinatal Medicine",
+    "JBRA Assist Reprod": "JBRA Assisted Reproduction",
+    "J Reprod Infertil": "Journal of Reproduction & Infertility",
+    "Int J Reprod Biomed": "International Journal of Reproductive Biomedicine",
+    "Int J Fertil Steril": "International Journal of Fertility and Sterility",
+    "Taiwan J Obstet Gynecol": "Taiwanese Journal of Obstetrics & Gynecology",
+    "Middle East Fertil Soc J": "Middle East Fertility Society Journal",
+    "Clin Exp Reprod Med": "Clinical and Experimental Reproductive Medicine",
+    "Semin Perinatol": "Seminars in Perinatology",
+    "Am J Perinatol": "American Journal of Perinatology",
+    "Neonatology": "Neonatology",
+    "Early Hum Dev": "Early Human Development",
+    "Medicine (Baltimore)": "Medicine (Baltimore)",
+    "J Ovarian Res": "Journal of Ovarian Research",
+    "Front Endocrinol (Lausanne)": "Frontiers in Endocrinology",
+    "Front Endocrinol": "Frontiers in Endocrinology",
+    "Semin Fetal Neonatal Med": "Seminars in Fetal and Neonatal Medicine",
+    "J Obstet Gynaecol Can": "Journal of Obstetrics and Gynaecology Canada",
+    "J Obstet Gynaecol": "Journal of Obstetrics and Gynaecology",
+    "J Obstet Gynaecol (Lahore)": "Journal of Obstetrics and Gynaecology",
+    "Med Ultrason": "Medical Ultrasonography",
+    "Med Ultrason (Online)": "Medical Ultrasonography",
+    "Nat Med": "Nature Medicine",
+    "Nature Medicine": "Nature Medicine",
+    "Nat Rev Urol": "Nature Reviews Urology",
+    "Nat Rev Endocrinol": "Nature Reviews Endocrinology",
+    "Nature Reviews Endocrinology": "Nature Reviews Endocrinology",
+    "Biol Rev Camb Philos Soc": "Biological Reviews",
+    "Biol Rev": "Biological Reviews",
+    "Clin Chim Acta": "Clinica Chimica Acta",
+    "Insights Imaging": "Insights into Imaging",
+    "Eur J Obstet Gynecol Reprod Biol X": "European Journal of Obstetrics & Gynecology and Reproductive Biology: X",
+    "Front Pediatr": "Frontiers in Pediatrics",
+    "Front Cardiovasc Med": "Frontiers in Cardiovascular Medicine",
+    "Circ Res": "Circulation Research",
+    "Circulation": "Circulation",
+    "Eur Heart J": "European Heart Journal",
+    "J Am Coll Cardiol": "Journal of the American College of Cardiology",
+    "JACC": "Journal of the American College of Cardiology",
+    "JACC Cardiovasc Imaging": "JACC: Cardiovascular Imaging",
+    "J Am Soc Echocardiogr": "Journal of the American Society of Echocardiography",
+    "JASE": "Journal of the American Society of Echocardiography",
+    "Pediatr Res": "Pediatric Research",
+    "Arch Dis Child": "Archives of Disease in Childhood",
+    "Arch Dis Child Fetal Neonatal Ed": "Archives of Disease in Childhood",
+    "Lancet Child Adolesc Health": "Lancet Child & Adolescent Health",
+    "Pediatr Cardiol": "Pediatric Cardiology",
+    "Cardiol Young": "Cardiology in the Young",
+    "Curr Cardiol Rep": "Current Cardiology Reports",
+    "J Cardiothorac Vasc Anesth": "Journal of Cardiothoracic and Vascular Anesthesia",
+    "Int J Cardiovasc Imaging": "International Journal of Cardiovascular Imaging",
+    "J Cardiovasc Dev Dis": "Journal of Cardiovascular Development and Disease",
+    "Ann Thorac Surg": "Annals of Thoracic Surgery",
+    "Endoscopy": "Endoscopy",
+    "Int J Mol Sci": "International Journal of Molecular Sciences",
+    "Eur J Anaesthesiol": "European Journal of Anaesthesiology",
+    "Anesthesiology": "Anesthesiology",
+    "PLoS Negl Trop Dis": "PLoS Neglected Tropical Diseases",
+    "J Ultrasound Med": "Journal of Ultrasound in Medicine",
+    "Quant Imaging Med Surg": "Quantitative Imaging in Medicine and Surgery",
+    "Adv Exp Med Biol": "Advances in Experimental Medicine and Biology",
+    "Curr Top Dev Biol": "Current Topics in Developmental Biology",
+    "Dis Model Mech": "Disease Models & Mechanisms",
+    "BMC Med Inform Decis Mak": "BMC Medical Informatics and Decision Making",
+    "Bioengineering (Basel)": "Bioengineering",
+    "Expert Opin Investig Drugs": "Expert Opinion on Investigational Drugs",
+    "Obstet Gynecol Surv": "Obstetrical & Gynecological Survey",
+    "Asian Pac J Cancer Prev": "Asian Pacific Journal of Cancer Prevention",
+    "Birth Defects Res": "Birth Defects Research",
+    "An R Acad Nac Med (Madr)": "Anales de la Real Academia Nacional de Medicina",
+    "J Appl Meas": "Journal of Applied Measurement",
+    "BMJ Open": "BMJ Open",
+    "Reprod Sci": "Reproductive Sciences",
+    "Front Reprod Health": "Frontiers in Reproductive Health",
+    "Ultraschall Med": "Ultraschall in der Medizin",
+    "Front Med (Lausanne)": "Frontiers in Medicine",
+    "Med Sci Monit": "Med Sci Monit",
+    "Dev Reprod": "Development & Reproduction",
+    "Contemp Clin Trials Commun": "Contemporary Clinical Trials Communications",
+    "Int J Nurs Stud": "International Journal of Nursing Studies",
+    "Molecules": "Molecules",
+    "Int J Mol Med": "International Journal of Molecular Medicine",
+    "J Bone Miner Res": "Journal of Bone and Mineral Research",
+    "Skelet Muscle": "Skeletal Muscle",
+    "Ugeskr Laeger": "Ugeskrift for Laeger",
+    "BMC Musculoskelet Disord": "BMC Musculoskeletal Disorders",
+    "Indian J Med Res": "Indian Journal of Medical Research",
+    "Front Psychol": "Frontiers in Psychology",
+    "Nat Rev Gastroenterol Hepatol": "Nature Reviews Gastroenterology & Hepatology",
+    "Eur J Cancer": "European Journal of Cancer",
+    "Cell Rep": "Cell Reports",
+    "Virologie (Montrouge)": "Virologie",
+    "Epidemiol Psychiatr Sci": "Epidemiology and Psychiatric Sciences",
+    "Infect Control Hosp Epidemiol": "Infection Control & Hospital Epidemiology",
+    "Laeknabladid": "Laeknabladid",
+    "Science": "Science",
+    "Anat Rec A Discov Mol Cell Evol Biol": "Anatomical Record Part A: Discoveries in Molecular, Cellular, and Evolutionary Biology",
+    "Mol Genet Genomic Med": "Molecular Genetics & Genomic Medicine",
+    "J Clin Lab Anal": "Journal of Clinical Laboratory Analysis",
+    "Am Heart J": "American Heart Journal",
+    "Am J Cardiol": "American Journal of Cardiology",
+    "Congenit Heart Dis": "Congenital Heart Disease",
+    "Niger J Clin Pract": "Nigerian Journal of Clinical Practice",
+    "Heart Lung Circ": "Heart, Lung and Circulation",
+    "Br J Community Nurs": "British Journal of Community Nursing",
+    "Can J Clin Pharmacol": "Canadian Journal of Clinical Pharmacology",
+    "Environ Monit Assess": "Environmental Monitoring and Assessment",
+    "Environ Sci Technol": "Environmental Science & Technology",
+    "Diagnostics (Basel)": "Diagnostics",
+    "J Gynecol Obstet Hum Reprod": "Journal of Gynecology Obstetrics and Human Reproduction",
+    "Case Rep Obstet Gynecol": "Case Reports in Obstetrics and Gynecology",
+    "J Surg Res": "Journal of Surgical Research",
+    "Tuberculosis (Edinb)": "Tuberculosis",
+    "Arthroscopy": "Arthroscopy",
+    "Khirurgiia (Mosk)": "Khirurgiia",
+    "Vasc Endovascular Surg": "Vascular and Endovascular Surgery",
+    "J Sport Rehabil": "Journal of Sport Rehabilitation",
+    "Curr Urol Rep": "Current Urology Reports",
+    "Abdom Radiol (NY)": "Abdominal Radiology",
+    "Hum Genet": "Human Genetics",
+    "Cureus": "Cureus",
+    "Urology": "Urology",
+    "J Heart Lung Transplant": "Journal of Heart and Lung Transplantation",
+    "Heart": "Heart",
+    "Lancet Oncol": "Lancet Oncology",
+    "Lancet Neurol": "Lancet Neurology",
+    "JNCI": "Journal of the National Cancer Institute",
+    "JAMA Netw Open": "JAMA Network Open",
+    "Ultrasound Med Biol": "Ultrasound in Medicine & Biology",
+    "Zentralbl Gynakol": "Zentralblatt fur Gynakologie",
+    "Yeungnam Univ J Med": "Yeungnam University Journal of Medicine",
+    "Rambam Maimonides Med J": "Rambam Maimonides Medical Journal",
+    "J Phys Chem A": "Journal of Physical Chemistry A",
+    "Facts Views Vis Obgyn": "Facts, Views and Vision in ObGyn",
+    "Facts Views Vis ObGyn": "Facts, Views and Vision in ObGyn",
+    "Clin Endocrinol (Oxf)": "Clinical Endocrinology",
+    "Clin Endocrinol": "Clinical Endocrinology",
+    "Front Immunol": "Frontiers in Immunology",
+    "Frontiers in Immunology": "Frontiers in Immunology",
+    "Matrix Biol": "Matrix Biology",
+    "Matrix Biology": "Matrix Biology",
+    "Am J Obstet Gynecol MFM": "American Journal of Obstetrics & Gynecology MFM",
+    "Ciba Found Symp": "Ciba Foundation Symposia",
+    "Acta Obstet Gynecol Scand": "Acta Obstetricia et Gynecologica Scandinavica",
+    "J Perinatol": "Journal of Perinatology",
+    "CMAJ": "CMAJ",
+    "Physiol Rev": "Physiological Reviews",
+    "J Biol Chem": "Journal of Biological Chemistry",
+    "Trends Endocrinol Metab": "Trends in Endocrinology and Metabolism",
+    "J Neuroendocrinol": "Journal of Neuroendocrinology",
+    "Am J Physiol Cell Physiol": "American Journal of Physiology - Cell Physiology",
+    "Mol Hum Reprod": "Molecular Human Reproduction",
+    "Biochim Biophys Acta": "Biochimica et Biophysica Acta",
+    "Cell Signal": "Cellular Signalling",
+    "Exp Physiol": "Experimental Physiology",
+    "Vitam Horm": "Vitamins and Hormones",
+    "Channels (Austin)": "Channels (Austin)",
+    "Endocr Metab Immune Disord Drug Targets": "Endocr Metab Immune Disord Drug Targets",
+    "Results Probl Cell Differ": "Results Probl Cell Differ",
+    "Prog Brain Res": "Prog Brain Res",
+    "Am J Physiol Gastrointest Liver Physiol": "American Journal of Physiology - Gastrointestinal and Liver Physiology",
+    "Am J Physiol": "American Journal of Physiology",
+    "AJOG Glob Rep": "AJOG Global Reports",
+    "Healthcare (Basel)": "Healthcare",
+    "J Med Ultrason (2001)": "Journal of Medical Ultrasonics",
+    "J Med Ultrasonics": "Journal of Medical Ultrasonics",
+    "Radiology": "Radiology",
+    "J Am Coll Radiol": "Journal of the American College of Radiology",
+    "Cancers (Basel)": "Cancers",
+    "Eur Radiol": "European Radiology",
+    "Can Assoc Radiol J": "Canadian Association of Radiologists Journal",
+    "Radiographics": "Radiographics",
+    "Thyroid": "Thyroid",
+    "Clin Perinatol": "Clinics in Perinatology",
+    "european heart journal": "European Heart Journal",
+    "circulation": "Circulation",
+    "new england journal of medicine": "New England Journal of Medicine",
+    "the lancet": "The Lancet",
+    "jacc heart failure": "JACC Heart Failure",
+    "esc heart failure": "ESC Heart Failure",
+    "bmc cardiovascular disorders": "BMC Cardiovascular Disorders",
+    "european journal of heart failure": "European Journal of Heart Failure"
+  },
+  "aliases": {
+    "Obstet Gynecol": "Obstetrics and Gynecology",
+    "JAMA Netw Open": "JAMA Network Open",
+    "J Matern Fetal Neonatal Med": "Journal of Maternal-Fetal & Neonatal Medicine",
+    "JMIR Cancer": "JMIR Cancer",
+    "Medicina (Kaunas)": "Medicina (Kaunas)",
+    "Eur J Obstet Gynecol Reprod Biol": "European Journal of Obstetrics, Gynecology, and Reproductive Biology",
+    "BMC Pregnancy Childbirth": "BMC Pregnancy and Childbirth",
+    "Biomedicines": "Biomedicines",
+    "J Obstet Gynaecol": "Journal of Obstetrics and Gynaecology",
+    "Cureus": "Cureus",
+    "F S Sci": "F S Sci",
+    "Med Sci (Basel)": "Medical Sciences (Basel)",
+    "Afr J Reprod Health": "African Journal of Reproductive Health",
+    "Res Pract Thromb Haemost": "Research and Practice in Thrombosis and Haemostasis",
+    "BMC Womens Health": "BMC Women's Health",
+    "Eur J Contracept Reprod Health Care": "European Journal of Contraception and Reproductive Health Care",
+    "J Med Life": "Journal of Medicine and Life",
+    "Pediatr Ann": "Pediatric Annals",
+    "Diagnostics (Basel)": "Diagnostics",
+    "Clin Perinatol": "Clinics in Perinatology"
+  }
+}

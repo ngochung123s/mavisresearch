@@ -1,0 +1,134 @@
+{
+  "timestamp": "2026-06-25T10:11:05.568461+07:00",
+  "checked": 11,
+  "potential_updates": [
+    {
+      "name": "ASRM_ovarian_stimulation",
+      "current_pmid": "",
+      "current_year": "2020",
+      "society": "ASRM",
+      "status": "POTENTIAL_UPDATE",
+      "new_papers_found": [
+        {
+          "pmid": "38099867",
+          "title": "Prevention of moderate and severe ovarian hyperstimulation syndrome: a guideline.",
+          "year": "2024",
+          "journal": "Fertility and sterility",
+          "first_author": "Practice Committee of the American Society for Reproductive Medicine. Electronic address: asrm@asrm.org",
+          "is_guideline_pt": true,
+          "has_guideline_word": true,
+          "article_types": [
+            "Journal Article",
+            "Systematic Review",
+            "Practice Guideline"
+          ]
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "name": "ESHRE_ovarian_stimulation_IVF_ICSI",
+      "current_pmid": "41732035",
+      "current_year": "2026",
+      "society": "ESHRE",
+      "status": "OK",
+      "new_papers_found": []
+    },
+    {
+      "name": "ESHRE_RIF_recurrent_implantation_failure",
+      "current_pmid": "37332387",
+      "current_year": "2023",
+      "society": "ESHRE",
+      "status": "OK",
+      "new_papers_found": []
+    },
+    {
+      "name": "ESHRE_PGT",
+      "current_pmid": "",
+      "current_year": "2024",
+      "society": "ESHRE",
+      "status": "OK",
+      "new_papers_found": []
+    },
+    {
+      "name": "ACOG_multifetal_gestations",
+      "current_pmid": "34011891",
+      "current_year": "2021",
+      "society": "ACOG",
+      "status": "OK",
+      "new_papers_found": []
+    },
+    {
+      "name": "NICE_fertility",
+      "current_pmid": "",
+      "current_year": "2013",
+      "society": "NICE",
+      "status": "OK",
+      "new_papers_found": []
+    },
+    {
+      "name": "ASRM_ovarian_stimulation",
+      "current_pmid": "",
+      "current_year": "2020",
+      "society": "ASRM",
+      "status": "POTENTIAL_UPDATE",
+      "new_papers_found": [
+        {
+          "pmid": "38099867",
+          "title": "Prevention of moderate and severe ovarian hyperstimulation syndrome: a guideline.",
+          "year": "2024",
+          "journal": "Fertility and sterility",
+          "first_author": "Practice Committee of the American Society for Reproductive Medicine. Electronic address: asrm@asrm.org",
+          "is_guideline_pt": true,
+          "has_guideline_word": true,
+          "article_types": [
+            "Journal Article",
+            "Systematic Review",
+            "Practice Guideline"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ISUOG_fetal_biometry",
+      "current_pmid": "",
+      "current_year": "2023",
+      "society": "ISUOG",
+      "status": "OK",
+      "new_papers_found": []
+    },
+    {
+      "name": "ISUOG_doppler",
+      "current_pmid": "",
+      "current_year": "2024",
+      "society": "ISUOG",
+      "status": "OK",
+      "new_papers_found": []
+    },
+    {
+      "name": "ACOG_oxytocin_IOL",
+      "current_pmid": "",
+      "current_year": "2009",
+      "society": "ACOG",
+      "status": "OK",
+      "new_papers_found": []
+    },
+    {
+      "name": "WHO_ART_glossary",
+      "current_pmid": "None - Zegers-Hochschild 2017",
+      "current_year": "2017",
+      "society": "WHO",
+      "status": "OK",
+      "new_papers_found": []
+    },
+    {
+      "name": "FIGO_infertility",
+      "current_pmid": "",
+      "current_year": "2015",
+      "society": "FIGO",
+      "status": "OK",
+      "new_papers_found": []
+    }
+  ]
+}

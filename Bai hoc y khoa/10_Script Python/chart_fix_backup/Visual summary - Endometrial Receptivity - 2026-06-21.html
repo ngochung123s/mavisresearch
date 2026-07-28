@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nội mạc tử cung tiếp nhận & Siêu âm nâng cao trong IVF - Visual Summary 2026-06-21</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<style>
+body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #FAF7F2; }
+.hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+</style>
+</head>
+<body class="max-w-5xl mx-auto p-6">
+
+<header class="hero text-white rounded-lg p-8 mb-8 shadow-lg">
+    <div class="text-sm uppercase tracking-wider opacity-80">ART | 2026-06-21</div>
+    <h1 class="text-4xl font-bold mt-2 mb-3">Nội mạc tử cung tiếp nhận & Siêu âm nâng cao trong IVF</h1>
+    <p class="text-lg opacity-90">ERA test và tranh cãi, ESHRE 2023 RIF guideline, độ dày nội mạc, thể tích nội mạc 3D, Doppler động mạch tử cung, cửa sổ làm tổ (WOI)</p>
+    <div class="mt-4 flex gap-2 flex-wrap">
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm">ESHRE 2023 RIF Guideline</span>
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm">3 meta-analyses 2023</span>
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm">13 citations verified</span>
+    </div>
+</header>
+
+<div class="grid md:grid-cols-2 gap-6 mb-8">
+    <div class="bg-white rounded-lg shadow p-6">
+        <h3 class="text-lg font-bold text-indigo-900 mb-3">Key Numbers</h3>
+        <ul class="space-y-2 text-sm">
+            <li><strong>Displaced WOI trong RIF:</strong> 34% (95% CI 24-43%)</li>
+            <li><strong>Arian 2023 OR (LBR):</strong> 1.38 (95% CI 0.79-2.41) - NS</li>
+            <li><strong>p-ET vs sET trong RIF:</strong> 40.7% vs 49.6%, OR 0.94</li>
+            <li><strong>EMT &lt;7mm pregnancy OR:</strong> 0.61 (95% CI 0.52-0.70)</li>
+            <li><strong>EMT 3D volume ROC AUC:</strong> 0.48 (95% CI 0.38-0.58)</li>
+        </ul>
+    </div>
+    <div class="bg-white rounded-lg shadow p-6">
+        <h3 class="text-lg font-bold text-indigo-900 mb-3">ESHRE 2023 RIF Color Code</h3>
+        <div class="space-y-2 text-sm">
+            <div class="flex items-center gap-2"><span class="w-4 h-4 rounded bg-green-500"></span><strong>GREEN:</strong> TVUS 3D, karyotype, APS</div>
+            <div class="flex items-center gap-2"><span class="w-4 h-4 rounded bg-amber-500"></span><strong>ORANGE:</strong> ERA, NK cells, microbiome</div>
+            <div class="flex items-center gap-2"><span class="w-4 h-4 rounded bg-red-500"></span><strong>RED:</strong> IVIG, corticosteroids, scratching</div>
+        </div>
+    </div>
+</div>
+
+<section class="bg-white rounded-lg shadow p-6 mb-6">
+    <h3 class="text-xl font-bold text-indigo-900 mb-4">Algorithm: Endometrial Assessment</h3>
+    <div class="mermaid">
+flowchart TD
+    A[Đánh giá cơ bản: siêu âm 2D đo EMT] --> B{EMT <7mm?}
+    B -->|Có| C[Cảnh báo: giảm LBR, tăng HDP/SGA<br/>Xem xét đông phôi]
+    B -->|Không| D{EMT 7-14mm?}
+    D -->|Có| E[Tiến hành bình thường]
+    D -->|Không| F[EMT >14mm - không xấu]
+    C --> G[Sau 2-3 ET thất bại: workup RIF]
+    E --> G
+    F --> G
+    G --> H[Siêu âm 3D + Karyotype + APS antibodies]
+    H --> I{Có nguyên nhân?}
+    I -->|Có| J[Điều trị nguyên nhân]
+    I -->|Không| K[Cân nhắc ERA - ORANGE theo ESHRE 2023]
+    K --> L[Không nên: IVIG, corticosteroid, cào nội mạc]
+</div>
+</section>
+
+<section class="bg-white rounded-lg shadow p-6 mb-6">
+    <h3 class="text-xl font-bold text-indigo-900 mb-4">So sanh: EMT thap vs cao (OR cho pregnancy)</h3>
+    <canvas id="emtChart" height="200"></canvas>
+    <p class="text-xs text-gray-500 mt-2">Nguon: Gao 2020 meta-analysis (PMID 31786047), 30 study, 88,056 cycles. OR&lt;1 = lower EMT xau hon.</p>
+</section>
+
+<div class="bg-white rounded-lg shadow p-6 mb-6">
+    <h3 class="text-xl font-bold text-indigo-900 mb-4">Noi dung chi tiet</h3>
+    <section class="mb-6"><h2 class="text-2xl font-bold text-indigo-900 mb-3 border-b-2 border-indigo-200 pb-1">1. Tổng quan Nội mạc tử cung tiếp nhận và Cửa sổ làm tổ</h2><div class="text-gray-800 leading-relaxed"><p><strong>Nội mạc tử cung tiếp nhận (endometrial receptivity)</strong> là khả năng nội mạc tử cung (NMTC) cho phép phôi nang (blastocyst) làm tổ. Đây là bước giới hạn nhất của ART:</p><p>- <strong>Phôi vs nội mạc</strong>: phôi chỉ giải thích 1/3 thất bại làm tổ; 2/3 còn lại do NMTC và đối thoại phôi-nội mạc [Craciunas-2019, PMID 30624659].
+- <strong>Cửa sổ làm tổ (Window of Implantation - WOI)</strong>: cửa sổ ~30-36 giờ khi NMTC tiếp nhận, diễn ra <strong>P+4 đến P+7</strong> trong chu kỳ HRT (hormone replacement therapy), hoặc <strong>LH+6 đến LH+9</strong> trong chu kỳ tự nhiên (natural cycle) [Ruiz-Alonso-2021, PMID 33880420].
+- <strong>WOI lệch (displaced WOI)</strong>: theo nhà phát triển ERA test, ~30% chu kỳ IVF có WOI bị lệch, tương tác phôi-nội mạc không đạt được [Ruiz-Alonso-2021].
+- <strong>ESHRE 2023 data</strong>: WOI lệch ở bệnh nhân RIF/tiên lượng xấu là <strong>34% (95% CI 24-43%)</strong> theo meta-analysis 11 nghiên cứu [ESHRE-2023-RIF, PMID 37332387].</p><p>> <strong>Lưu ý</strong>: Con số 30% của Ruiz-Alonso (2021) là ước tính từ nhà phát triển ERA test; con số 34% của Liu 2022 (trích trong ESHRE 2023) là tỷ lệ ở bệnh nhân RIF từ 11 nghiên cứu khác. Hai con số khác quần thể, không quy về cùng một nhóm.</p></div></section>
+<section class="mb-6"><h2 class="text-2xl font-bold text-indigo-900 mb-3 border-b-2 border-indigo-200 pb-1">2. ERA Test - Cơ chế, bằng chứng và tranh cãi</h2><div class="text-gray-800 leading-relaxed"><p><strong>ERA (Endometrial Receptivity Analysis)</strong> - xét nghiệm phân tích transcriptomic của NMTC bằng NGS (next-generation sequencing), cho phép phân loại:</p><p><table class='border-collapse border w-full my-3 text-sm'><thead><tr><th class='border px-2 py-1 bg-gray-100'>Trạng thái</th><th class='border px-2 py-1 bg-gray-100'>Ý nghĩa</th><th class='border px-2 py-1 bg-gray-100'>Hành động lâm sàng</th></tr></thead><tbody><tr><td class='border px-2 py-1'><strong>Proliferative (PRO)</strong></td><td class='border px-2 py-1'>NMTC đang tăng sinh</td><td class='border px-2 py-1'>Tiếp tục estrogen</td></tr><tr><td class='border px-2 py-1'><strong>Pre-receptive (PRE)</strong></td><td class='border px-2 py-1'>NMTC chưa sẵn sàng</td><td class='border px-2 py-1'>Tăng thời gian progesterone</td></tr><tr><td class='border px-2 py-1'><strong>Receptive (R)</strong></td><td class='border px-2 py-1'>Sẵn sàng cho ET</td><td class='border px-2 py-1'>Chuyển phôi theo lịch ET bình thường</td></tr><tr><td class='border px-2 py-1'><strong>Post-receptive (POST)</strong></td><td class='border px-2 py-1'>Qua thời điểm</td><td class='border px-2 py-1'>Giảm thời gian progesterone</td></tr></tbody></table>
+<strong>Personalized Embryo Transfer (pET)</strong>: chuyển phôi theo WOI riêng của từng bệnh nhân, đối với standard ET (sET) theo protocol cố định.</p><p>### Bằng chứng từ 3 meta-analysis gần đây</p><p><strong>Arian 2023</strong> (Fertil Steril, 8 nghiên cứu, n=2.784) [Arian-2023, PMID 36414088]:
+- Tỷ lệ sinh sống/thai kỳ tiếp tục: <strong>OR 1,38 (95% CI 0,79-2,41), I² 83,0%</strong> - KHÔNG khác biệt
+- Tỷ lệ làm tổ, thai sinh hóa, thai lâm sàng, sẩy thai: không khác biệt
+- Kết luận: ERA không làm tăng tỷ lệ thai sau FET</p><p><strong>Glujovsky 2023</strong> (Hum Reprod, 35 nghiên cứu) [Glujovsky-2023, PMID 37203432]:
+- 85% nghiên cứu sử dụng ERA, 15% sử dụng TER khác
+- <strong>Phụ nữ KHÔNG có RIF</strong>: không khác biệt tỷ lệ sinh sống, thai lâm sàng (moderate CoE)
+- <strong>Phụ nữ có RIF</strong>: cần thêm nghiên cứu để đánh giá lợi ích tiềm tàng</p><p><strong>Mei 2023</strong> (Front Endocrinol, euploid embryo transfer) [Mei-2023, PMID 37964969]:
+- ERA KHÔNG tối ưu hóa kết quả sinh sản trong chu kỳ chuyển phôi euploid
+- Không kể bệnh nhân có hay không có tiền sử thất bại ET trước</p><p>### Tranh cãi PRO vs CON</p><p><strong>PRO (Ruiz-Alonso 2021, nhà phát triển IGG)</strong> [Ruiz-Alonso-2021, PMID 33880420]:
+- WOI thực sự tồn tại và có thể bị lệch
+- 30% chu kỳ IVF có WOI lệch (theo nhà phát triển)
+- pET cần đồng bộ phôi với WOI riêng</p><p><strong>CON (Ben Rafael 2021, phản biện)</strong> [BenRafael-2021, PMID 33880419]:
+- <strong>Hạn chế</strong>: không nhất quán sinh thiết, biến đổi gen, chưa tính progesterone huyết thanh, nguy cơ chu sinh từ trữ đông phôi
+- WOI ±12 giờ chỉ là giả thuyết; cửa sổ thực ra kéo dài vài ngày
+- Chưa giải quyết được biến thiên trong cùng bệnh nhân (intra-patient variation)
+- 'Ít có bằng chứng ERA có thể cải thiện đáng kể tỷ lệ thành công làm tổ'</p><p>### ESHRE 2023 RIF Guideline - kết luận chính thức</p><p><strong>ESHRE 2023</strong> [ESHRE-2023-RIF, PMID 37332387]:</p><p>> *'Không đủ bằng chứng để hỗ trợ việc sử dụng thường quy các xét nghiệm tiếp nhận nội mạc hiện có trong ART, cần thêm nghiên cứu để làm rõ giá trị của chúng.'*</p><p>- <strong>p-ET vs ET thường quy trong RIF</strong>: 40,7% vs 49,6% OPR/LBR, <strong>OR 0,94 (95% CI 0,70-1,26)</strong>, 6 nghiên cứu, n=2.552 (Liu 2022b)
+- Nghiên cứu đa trung tâm RCT 5 năm (Simón 2020): kết quả tương đương mỗi lần chuyển phôi; chỉ phân tích theo protocol cho thấy p-ET có tỷ lệ sinh sống tích lũy cao hơn
+- Propensity score-matched (Bergin 2021): không cải thiện có ý nghĩa
+- Mã màu: ERA test = <strong>ORANGE</strong> (cân nhắc) trong RIF, không phải <strong>GREEN</strong></p></div></section>
+<section class="mb-6"><h2 class="text-2xl font-bold text-indigo-900 mb-3 border-b-2 border-indigo-200 pb-1">3. Độ dày nội mạc (Endometrial Thickness - EMT) - Bằng chứng mạnh nhất</h2><div class="text-gray-800 leading-relaxed"><p><strong>Độ dày nội mạc (EMT)</strong> đo bằng siêu âm đường âm đạo 2D, là marker kinh điển và có nhiều bằng chứng nhất trong đánh giá tiếp nhận.</p><p>### Meta-analysis Gao 2020 (30 nghiên cứu, 88.056 chu kỳ) [Gao-2020, PMID 31786047]</p><p>So sánh EMT thấp vs EMT cao:</p><p><table class='border-collapse border w-full my-3 text-sm'><thead><tr><th class='border px-2 py-1 bg-gray-100'>Kết quả</th><th class='border px-2 py-1 bg-gray-100'>n nghiên cứu</th><th class='border px-2 py-1 bg-gray-100'>OR (95% CI)</th><th class='border px-2 py-1 bg-gray-100'>p</th></tr></thead><tbody><tr><td class='border px-2 py-1'>Tỷ lệ thai</td><td class='border px-2 py-1'>30</td><td class='border px-2 py-1'><strong>0,61 (0,52-0,70)</strong></td><td class='border px-2 py-1'><0,001</td></tr><tr><td class='border px-2 py-1'>Tỷ lệ làm tổ</td><td class='border px-2 py-1'>9</td><td class='border px-2 py-1'><strong>0,49 (0,32-0,74)</strong></td><td class='border px-2 py-1'>0,001</td></tr><tr><td class='border px-2 py-1'>Tỷ lệ sinh sống/thai tiếp tục</td><td class='border px-2 py-1'>11</td><td class='border px-2 py-1'><strong>0,60 (0,48-0,73)</strong></td><td class='border px-2 py-1'><0,001</td></tr><tr><td class='border px-2 py-1'>Tỷ lệ sẩy thai</td><td class='border px-2 py-1'>12</td><td class='border px-2 py-1'>Không có ý nghĩa</td><td class='border px-2 py-1'>-</td></tr><tr><td class='border px-2 py-1'>Thai ngoài tử cung</td><td class='border px-2 py-1'>3</td><td class='border px-2 py-1'>Không có ý nghĩa</td><td class='border px-2 py-1'>-</td></tr></tbody></table>
+<strong>Ngưỡng thông thường</strong>: <7 mm nội mạc mỏng; 7-14 mm bình thường; >14 mm dày.</p><p>### Meta-analysis Liao 2021 (22 nghiên cứu) [Liao-2021, PMID 35222264]</p><p>- <strong>Mỏng (<7 mm)</strong>: giảm tỷ lệ sinh sống (LBR), thai lâm sàng (CPR), làm tổ (IR)
+- <strong>Dày (>14 mm)</strong>: KHÔNG có tác động xấu
+- <strong>Mỏng (<7,5 mm)</strong>: TĂNG nguy cơ rối loạn tăng huyết áp thai kỳ (HDP), thai nhỏ so với tuổi thai (SGA), giảm cân nặng sơ sinh</p><p>> <strong>Ý nghĩa lâm sàng</strong>: Nội mạc mỏng không chỉ ảnh hưởng làm tổ mà còn tăng nguy cơ biến chứng sản khoa. Cần theo dõi thai kỳ chặt chẽ.</p><p>### Craciunas 2019 - Tổng quan các marker [Craciunas-2019, PMID 30624659]</p><p>163 nghiên cứu, 88.834 phụ nữ. Kết luận quan trọng:
+- Có mối liên quan giữa thai lâm sàng và EMT, pattern, Doppler, wave-like activity, các phân tử khác nhau
+- <strong>Nhưng khả năng dự đoán đều kém</strong> - không nên sử dụng đơn độc trong thực hành lâm sàng
+- <strong>Cửa sổ làm tổ có nhiều mức độ</strong> (không chỉ có/không), nên báo cáo kết quả theo phân nhóm biomarker thay vì chỉ giá trị trung bình</p></div></section>
+<section class="mb-6"><h2 class="text-2xl font-bold text-indigo-900 mb-3 border-b-2 border-indigo-200 pb-1">4. Thể tích nội mạc 3D - Tranh cãi</h2><div class="text-gray-800 leading-relaxed"><p><strong>Thể tích nội mạc (EV)</strong> đo bằng siêu âm đường âm đạo 3D với phần mềm Virtual Organ Computer-aided Analysis (VOCAL). Kết quả gần đây <strong>tranh cãi</strong>:</p><p>### Nghiên cứu tích cực: Liu 2023 [Liu-2023-3D, PMID 37284089]</p><p>- 85 bệnh nhân FET, 71% có thai, 55% thai lâm sàng, 45% thai tiếp tục
+- <strong>Mẫu thay đổi EV (giảm vs không giảm)</strong> quan trọng:
+  - Không giảm ở lần 1 (ngày P → P+3): kết quả xấu hơn (P=0,03)
+  - Không giảm ở lần 2 (P+3 → ngày ET): kết quả tốt hơn (P=0,03)
+- <strong>Kết luận</strong>: sự thay đổi động của EV có giá trị dự đoán, EMT và thay đổi tưới máu không có giá trị</p><p>### Nghiên cứu tiêu cực: Boza 2020 [Boza-2020, PMID 32330673]</p><p>- 142 bệnh nhân, chuyển phôi nang đơn (fresh + đông lạnh)
+- Phân vị EV: 5thp=1,7 mL, 50thp=4,3 mL, 75thp=5,3 mL
+- <strong>ROC AUC = 0,48 (95% CI 0,38-0,58)</strong> - không dự đoán được
+- Không có ngưỡng nào phân biệt có thai / không có thai
+- <strong>Kết luận</strong>: EV ngay ngày ET không phải công cụ hữu ích để dự đoán thai kỳ</p><p>### Lý do khác biệt</p><p>- <strong>Liu 2023</strong> đo thay đổi động (3D theo thời gian) - theo dõi qua 3 mốc
+- <strong>Boza 2020</strong> đo thể tích tĩnh (1 mốc ngày ET) - không theo dõi xu hướng
+- <strong>Craciunas 2019</strong> tổng quan: khả năng dự đoán của mọi marker đơn độc đều kém</p><p>> <strong>Ý nghĩa lâm sàng</strong>: EV 3D đơn độc không đủ để dự đoán. Mẫu thay đổi động (3 thời điểm) có thể có giá trị, nhưng cần thêm nghiên cứu lớn hơn.</p></div></section>
+<section class="mb-6"><h2 class="text-2xl font-bold text-indigo-900 mb-3 border-b-2 border-indigo-200 pb-1">5. Doppler động mạch tử cung</h2><div class="text-gray-800 leading-relaxed"><p><strong>Doppler động mạch tử cung</strong> đo <strong>chỉ số xung (PI - pulsatility index)</strong> qua siêu âm đường âm đạo. PI thấp = tưới máu tốt (mạch mềm, sức cản thấp).</p><p>### Vai trò trong đánh giá tiếp nhận</p><p>- <strong>PI bình thường giai đoạn tiếp nhận (P+4 đến ngày ET)</strong>: PI <3,0 (một số tham chiếu)
+- <strong>PI cao (>3,0)</strong>: liên quan tưới máu kém, giảm dòng máu nội mạc
+- Nhiều nghiên cứu hồi cứu và tiến cứu, nhưng <strong>không có đồng thuận</strong> về ngưỡng
+- <strong>Craciunas 2019</strong> [Craciunas-2019, PMID 30624659]: PI và chỉ số Doppler có liên quan với thai kỳ nhưng khả năng dự đoán kém</p><p>### PI động mạch tử cung qua thai kỳ (sau IVF)</p><p>- <strong>Cavoretto 2020</strong> (UOG, fresh vs đông lạnh phôi nang): PI khác biệt giữa fresh và đông lạnh, liên quan chức năng nhau thai
+- <strong>Carbone 2011</strong> (Hum Reprod): thụ thai hỗ trợ có PI cao hơn thụ thai tự nhiên ở 11-13 tuần (liên quan nguy cơ tiền sản giật)</p><p>> <strong>Lưu ý</strong>: PI động mạch tử cung quan trọng hơn cho theo dõi thai kỳ (sàng lọc tiền sản giật, IUGR) hơn là dự đoán khả năng tiếp nhận.</p></div></section>
+<section class="mb-6"><h2 class="text-2xl font-bold text-indigo-900 mb-3 border-b-2 border-indigo-200 pb-1">6. Workup RIF theo ESHRE 2023</h2><div class="text-gray-800 leading-relaxed"><p><strong>Recurrent Implantation Failure (RIF)</strong> - Định nghĩa ESHRE 2023 [ESHRE-2023-RIF, PMID 37332387]:</p><p>> *'RIF mô tả tình huống chuyển phôi được coi là khả thi đã thất bại tạo kết quả thử thai dương tính đủ thường xuyên ở một bệnh nhân cụ thể để bảo đảm xem xét các điều tra và/hoặc can thiệp thêm.'*</p><p>### Ngưỡng để điều tra thêm</p><p>- Khi xác suất tích lũy dự đoán làm tổ > 60% mà không thành công → cần điều tra
+- Ví dụ: 3 lần ET thất bại với phôi chất lượng tốt → cần workup RIF</p><p>### Căn nguyên phổ biến (tổng quan Ma 2022) [Ma-2022, PMID 36686483]</p><p>RIF (~10% cặp đôi IVF-ET) có thể do:</p><p>1. <strong>Yếu tố phôi</strong>: lệch bội, chất lượng kém (quan trọng nhất)
+2. <strong>Tiếp nhận nội mạc</strong>: WOI lệch, nội mạc mỏng, viêm nội mạc mạn
+3. <strong>Giải phẫu</strong>: polyp, u xơ, vách ngăn, hội chứng Asherman
+4. <strong>Miễn dịch</strong>: tế bào NK, cytokine, tự miễn
+5. <strong>Huyết khối</strong>: hội chứng antiphospholipid, huyết khối di truyền
+6. <strong>Hệ vi sinh</strong>: loạn khuẩn nội mạc
+7. <strong>Yếu tố nam</strong>: phân mảnh DNA tinh trùng</p><p>### ESHRE 2023 - Khuyến cáo (mã màu)</p><p><strong>GREEN (khuyến cáo)</strong>: 
+- Khai thác bệnh sử + khám chi tiết
+- Siêu âm 3D cho bất thường tử cung
+- Karyotype cả 2 vợ chồng (nếu có RIF + RPL)
+- Kháng thể antiphospholipid
+- <strong>Phân mảnh DNA tinh trùng</strong> (một số guideline đề xuất)</p><p><strong>ORANGE (cân nhắc)</strong>:
+- ERA test (chỉ sau khi đã loại trừ các nguyên nhân khác)
+- Siêu âm 3D
+- Xét nghiệm miễn dịch (tế bào NK, cytokine)
+- Hệ vi sinh nội mạc (chỉ trong nghiên cứu)</p><p><strong>RED (không khuyến cáo)</strong>: 
+- IVIG (không có bằng chứng)
+- Corticosteroid
+- Heparin/LMWH cho người không có huyết khối
+- Cào nội mạc (endometrial scratching) (không có bằng chứng)
+- ERA thường quy cho mọi bệnh nhân</p><p>### Khung Kliman 2019 [Kliman-2019, PMID 30929719]</p><p>Đánh giá nên chia thành:
+- <strong>Cấu trúc</strong>: siêu âm 3D, nội soi buồng tử cung, HSG/SIS
+- <strong>Chức năng</strong>: ERA, xét nghiệm ngày nội mạc, test tiếp nhận
+- <strong>Viêm</strong>: viêm nội mạc mạn, dấu ấn miễn dịch
+- <strong>Hệ vi sinh</strong>: đang phát triển</p><p>> Mục tiêu cuối cùng: tìm 'phát hiện có thể hành động' để cá thể hóa điều trị cho từng bệnh nhân.</p></div></section>
+<section class="mb-6"><h2 class="text-2xl font-bold text-indigo-900 mb-3 border-b-2 border-indigo-200 pb-1">7. Thuật toán thực hành - Đánh giá nội mạc</h2><div class="text-gray-800 leading-relaxed"><p>### Bước 1: Đánh giá cơ bản (tất cả bệnh nhân IVF)</p><p>- <strong>Siêu âm đường âm đạo 2D</strong>: đo EMT vào ngày kích trigger / P+4-5
+- <strong>EMT <7 mm</strong>: cảnh báo, xem xét hoãn ET, chiến lược đông phôi
+- <strong>EMT 7-14 mm</strong>: bình thường, tiến hành theo protocol
+- <strong>EMT >14 mm</strong>: không cần thiết phải lo (Liao 2021)</p><p>### Bước 2: Workup RIF (sau 2-3 lần ET thất bại với phôi tốt)</p><p>- Siêu âm 3D (VOCAL) cho bất thường tử cung, polyp
+- Nội soi buồng tử cung nếu nghi ngờ Asherman
+- Karyotype cả 2 vợ chồng
+- Kháng thể antiphospholipid (lupus anticoagulant, anticardiolipin, anti-β2GP1)
+- TSH, prolactin
+- Phân mảnh DNA tinh trùng (nếu tinh dịch đồ bình thường)</p><p>### Bước 3: Nâng cao (sau khi loại trừ cơ bản)</p><p>- <strong>ERA test</strong> (orange): có thể xem xét nhưng <strong>không bắt buộc</strong> theo ESHRE 2023
+- Thay đổi động EV 3D (chỉ trong nghiên cứu)
+- Sinh thiết nội mạc tìm viêm nội mạc mạn (nhuộm CD138)
+- Hệ vi sinh (chỉ trong nghiên cứu)</p><p>### Bước 4: Không nên làm</p><p>- ERA cho mọi bệnh nhân
+- IVIG, corticosteroid (không có bằng chứng, có thể gây hại)
+- Cào nội mạc (không có bằng chứng)
+- Heparin nếu không có huyết khối</p><p>### Điểm mấu chốt</p><p>- <strong>EMT là marker có bằng chứng mạnh nhất</strong> nhưng khả năng dự đoán vẫn kém
+- <strong>ERA test còn tranh cãi</strong> - ESHRE 2023 không khuyến cáo thường quy
+- <strong>Workup RIF nên hệ thống</strong> theo thuật toán ESHRE, không phải 'add-on' lung tung
+- <strong>Chất lượng phôi (euploid) là quan trọng nhất</strong> - hay quên điều này</p></div></section>
+</div>
+
+<section class="bg-white rounded-lg shadow p-6 mb-6">
+    <h3 class="text-xl font-bold text-indigo-900 mb-4">Tai lieu tham khao</h3>
+    <div class="bg-green-50 border-l-4 border-green-500 p-3 rounded mb-2"><div class="font-bold text-green-900">[GUIDELINE] ESHRE 2023 - RIF Good Practice</div><div class="text-sm text-gray-700">ESHRE good practice recommendations on recurrent implantation failure</div><div class="text-xs text-gray-500">Hum Reprod Open 2023 | PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37332387/" class="text-blue-600 underline">37332387</a></div></div>
+<div class="bg-gray-50 border-l-4 border-gray-300 p-3 rounded mb-2"><div class="font-bold text-gray-900">Arian SE et al., Fertil Steril 2023 <span class="text-xs bg-gray-200 px-2 py-0.5 rounded">Tier 1</span></div><div class="text-sm text-gray-700">Endometrial receptivity array before frozen embryo transfer cycles: a systematic review and meta-analysis</div><div class="text-xs text-gray-500">Fertil Steril 2023 | PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/36414088/" class="text-blue-600 underline">36414088</a></div></div>
+<div class="bg-gray-50 border-l-4 border-gray-300 p-3 rounded mb-2"><div class="font-bold text-gray-900">Glujovsky D et al., Hum Reprod 2023 <span class="text-xs bg-gray-200 px-2 py-0.5 rounded">Tier 1</span></div><div class="text-sm text-gray-700">Personalized embryo transfer guided by endometrial receptivity analysis: a systematic review with meta-analysis</div><div class="text-xs text-gray-500">Hum Reprod 2023 | PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37203432/" class="text-blue-600 underline">37203432</a></div></div>
+<div class="bg-gray-50 border-l-4 border-gray-300 p-3 rounded mb-2"><div class="font-bold text-gray-900">Craciunas L et al., Hum Reprod Update 2019 <span class="text-xs bg-gray-200 px-2 py-0.5 rounded">Tier 1</span></div><div class="text-sm text-gray-700">Conventional and modern markers of endometrial receptivity: a systematic review and meta-analysis</div><div class="text-xs text-gray-500">Hum Reprod Update 2019 | PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/30624659/" class="text-blue-600 underline">30624659</a></div></div>
+<div class="bg-gray-50 border-l-4 border-gray-300 p-3 rounded mb-2"><div class="font-bold text-gray-900">Gao G et al., Reprod Biomed Online 2020 <span class="text-xs bg-gray-200 px-2 py-0.5 rounded">Tier 1</span></div><div class="text-sm text-gray-700">Endometrial thickness and IVF cycle outcomes: a meta-analysis</div><div class="text-xs text-gray-500">Reprod Biomed Online 2020 | PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/31786047/" class="text-blue-600 underline">31786047</a></div></div>
+<div class="bg-gray-50 border-l-4 border-gray-300 p-3 rounded mb-2"><div class="font-bold text-gray-900">Liao Z et al., Front Endocrinol 2022 <span class="text-xs bg-gray-200 px-2 py-0.5 rounded">Tier 1</span></div><div class="text-sm text-gray-700">The Effect of Endometrial Thickness on Pregnancy, Maternal, and Perinatal Outcomes of Women in Fresh Cycles After IVF/ICSI: A Systematic Review and Meta-Analysis</div><div class="text-xs text-gray-500">Front Endocrinol (Lausanne) 2022 | PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/35222264/" class="text-blue-600 underline">35222264</a></div></div>
+<div class="bg-gray-50 border-l-4 border-gray-300 p-3 rounded mb-2"><div class="font-bold text-gray-900">Liu Y et al., Quant Imaging Med Surg 2023 <span class="text-xs bg-gray-200 px-2 py-0.5 rounded">Tier 1</span></div><div class="text-sm text-gray-700">Using 2D/3D ultrasound observation of endometrial thickness, endometrial volume, and blood flow changes to predict the outcome of frozen embryo transfer cycles</div><div class="text-xs text-gray-500">Quant Imaging Med Surg 2023 | PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37284089/" class="text-blue-600 underline">37284089</a></div></div>
+<div class="bg-gray-50 border-l-4 border-gray-300 p-3 rounded mb-2"><div class="font-bold text-gray-900">Ma J et al., Front Endocrinol 2023 <span class="text-xs bg-gray-200 px-2 py-0.5 rounded">Tier 1</span></div><div class="text-sm text-gray-700">Recurrent implantation failure: A comprehensive summary from etiology to treatment</div><div class="text-xs text-gray-500">Front Endocrinol (Lausanne) 2023 | PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/36686483/" class="text-blue-600 underline">36686483</a></div></div>
+<div class="bg-gray-50 border-l-4 border-gray-300 p-3 rounded mb-2"><div class="font-bold text-gray-900">Mei Y et al., Front Endocrinol 2023 <span class="text-xs bg-gray-200 px-2 py-0.5 rounded">Tier 1</span></div><div class="text-sm text-gray-700">Does endometrial receptivity array improve reproductive outcomes in euploid embryo transfer cycles? a systematic review</div><div class="text-xs text-gray-500">Front Endocrinol (Lausanne) 2023 | PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37964969/" class="text-blue-600 underline">37964969</a></div></div>
+<div class="bg-gray-50 border-l-4 border-gray-300 p-3 rounded mb-2"><div class="font-bold text-gray-900">Ruiz-Alonso M et al., Hum Reprod Open 2021 <span class="text-xs bg-gray-200 px-2 py-0.5 rounded">Tier 1</span></div><div class="text-sm text-gray-700">Endometrial Receptivity Analysis (ERA): data versus opinions</div><div class="text-xs text-gray-500">Hum Reprod Open 2021 | PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/33880420/" class="text-blue-600 underline">33880420</a></div></div>
+<div class="bg-gray-50 border-l-4 border-gray-300 p-3 rounded mb-2"><div class="font-bold text-gray-900">Ben Rafael Z, Hum Reprod Open 2021 <span class="text-xs bg-gray-200 px-2 py-0.5 rounded">Tier 1</span></div><div class="text-sm text-gray-700">Endometrial Receptivity Analysis (ERA) test: an unproven technology</div><div class="text-xs text-gray-500">Hum Reprod Open 2021 | PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/33880419/" class="text-blue-600 underline">33880419</a></div></div>
+<div class="bg-gray-50 border-l-4 border-gray-300 p-3 rounded mb-2"><div class="font-bold text-gray-900">Boza A et al., J Gynecol Obstet Hum Reprod 2020 <span class="text-xs bg-gray-200 px-2 py-0.5 rounded">Tier 2</span></div><div class="text-sm text-gray-700">Endometrial volume measured on the day of embryo transfer is not associated with live birth rates in IVF</div><div class="text-xs text-gray-500">J Gynecol Obstet Hum Reprod 2020 | PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/32330673/" class="text-blue-600 underline">32330673</a></div></div>
+<div class="bg-gray-50 border-l-4 border-gray-300 p-3 rounded mb-2"><div class="font-bold text-gray-900">Kliman HJ, Frankfurter D, Fertil Steril 2019 <span class="text-xs bg-gray-200 px-2 py-0.5 rounded">Tier 1</span></div><div class="text-sm text-gray-700">Clinical approach to recurrent implantation failure: evidence-based evaluation of the endometrium</div><div class="text-xs text-gray-500">Fertil Steril 2019 | PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/30929719/" class="text-blue-600 underline">30929719</a></div></div>
+</section>
+
+<footer class="text-center text-gray-500 text-sm mt-8">
+    Bai hoc duoc tao boi MiniMax Mavis cho BS Ngoc. So lieu da verify abstract trong file citations.
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'default' });
+
+new Chart(document.getElementById('emtChart'), {
+    type: 'bar',
+    data: {
+        labels: ["T\u1ef7 l\u1ec7 thai", "T\u1ef7 l\u1ec7 l\u00e0m t\u1ed5", "Sinh s\u1ed1ng"],
+        datasets: [{
+            label: 'OR (95% CI)',
+            data: [0.61, 0.49, 0.6],
+            backgroundColor: 'rgba(102, 126, 234, 0.7)',
+            borderColor: 'rgba(102, 126, 234, 1)',
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        scales: {
+            y: {
+                beginAtZero: true,
+                max: 1.0,
+                title: { display: true, text: 'Odds Ratio (<1 means lower EMT worse)' }
+            }
+        },
+        plugins: {
+            tooltip: {
+                callbacks: {
+                    label: function(ctx) {
+                        const labels = ["T\u1ef7 l\u1ec7 thai (CI 0.52-0.7)", "T\u1ef7 l\u1ec7 l\u00e0m t\u1ed5 (CI 0.32-0.74)", "Sinh s\u1ed1ng (CI 0.48-0.73)"];
+                        return labels[ctx.dataIndex];
+                    }
+                }
+            }
+        }
+    }
+});
+</script>
+
+</body>
+</html>
