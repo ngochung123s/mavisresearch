@@ -1,0 +1,98 @@
+[
+  {
+    "id": "PED01-V2-001",
+    "type": "basic",
+    "front": "Tại sao tâm thất của trẻ sơ sinh và trẻ nhũ nhi không thể tự tăng thể tích nhát bóp (Stroke Volume) khi nhu cầu tuần hoàn tăng cao?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Cơ tim trẻ sơ sinh chưa trưởng thành, chứa ít sợi tơ cơ co rút (myofibrils) và nhiều mô liên kết collagen không đàn hồi, làm tâm thất có độ giãn nở (compliance) rất kém.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Thể tích nhát bóp (SV) gần như cố định, do đó cung lượng tim (CO = HR x SV) phụ thuộc hoàn toàn vào tần số tim (HR). Nhịp tim nhanh là cơ chế bù trừ duy nhất của trẻ nhỏ."
+  },
+  {
+    "id": "PED01-V2-002",
+    "type": "basic",
+    "front": "Tại sao trẻ nhũ nhi khi bị suy hô hấp lại xuất hiện dấu hiệu co rút lồng ngực rõ rệt hơn rất nhiều so với người lớn?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Khung lồng ngực của trẻ nhỏ chủ yếu cấu tạo bằng sụn mềm, xương sườn nằm ngang và các cơ liên sườn chưa phát triển khỏe. Khi đường thở bị tắc nghẽn, áp lực âm trong màng phổi tăng cao sẽ kéo thụt lồng ngực mềm vào trong thay vì làm giãn nở phổi.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Co rút lồng ngực là dấu hiệu tăng công thở điển hình ở trẻ nhỏ, phản ánh tắc nghẽn đường thở hoặc phổi kém đàn hồi."
+  },
+  {
+    "id": "PED01-V2-003",
+    "type": "cloze",
+    "text": "Theo định luật Poiseuille, sức cản đường thở tỉ lệ nghịch với {{c1::lũy thừa bậc 4}} của bán kính lòng ống (R tỉ lệ nghịch r^4), giải thích vì sao phù nề niêm mạc 1 mm làm tăng sức cản đường thở ở trẻ nhỏ gấp 16 lần.",
+    "extra": "Ở người lớn, phù nề 1 mm chỉ làm tăng sức cản đường thở khoảng 3 lần do đường kính khí đạo ban đầu lớn hơn nhiều."
+  },
+  {
+    "id": "PED01-V2-004",
+    "type": "basic",
+    "front": "Tại sao cơ hoành là cơ hô hấp sống còn quan trọng nhất ở trẻ nhỏ và chướng bụng có thể gây ngừng thở?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Xương sườn trẻ nhỏ nằm ngang nên cơ liên sườn không thể tạo ra chuyển động quai xô để mở rộng lồng ngực; cơ hoành đảm nhiệm gần như toàn bộ công thở. Cơ hoành trẻ lại chứa ít sợi cơ loại I (chịu mỏi).<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Bất kỳ nguyên nhân nào làm chướng bụng (dạ dày căng hơi, bàng quang đầy, viêm phúc mạc) sẽ đẩy cơ hoành lên trên, làm giảm dung tích cặn chức năng và gây suy hô hấp cấp."
+  },
+  {
+    "id": "PED01-V2-005",
+    "type": "cloze",
+    "text": "Theo hướng dẫn WHO IMCI, ngưỡng thở nhanh ở trẻ từ 1 đến 5 tuổi là khi nhịp thở {{c1::≥ 40 lần/phút}} khi đếm trọn vẹn trong 60 giây lúc trẻ nằm yên.",
+    "extra": "Dưới 2 tháng: ≥ 60 bpm; 2-11 tháng: ≥ 50 bpm; Trên 5 tuổi: ≥ 30 bpm."
+  },
+  {
+    "id": "PED01-V2-006",
+    "type": "basic",
+    "front": "Tại sao bắt buộc phải đếm nhịp thở của trẻ nhũ nhi trong trọn vẹn 60 giây thay vì đếm 15 giây rồi nhân 4?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Trẻ nhũ nhi có kiểu thở có chu kỳ (Periodic Breathing) bình thường về mặt sinh lý: trẻ có thể thở nhanh vài nhịp rồi tạm ngưng thở 5 đến 10 giây mà không bị tím hay chậm nhịp tim.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Đếm 15 giây rồi nhân 4 sẽ bắt trúng khoảng ngưng thở (tưởng thở chậm) hoặc khoảng thở nhanh bù (tưởng thở nhanh bệnh lý), dẫn đến chẩn đoán sai lệch nghiêm trọng."
+  },
+  {
+    "id": "PED01-V2-007",
+    "type": "cloze",
+    "text": "Theo khuyến cáo PALS 2020, ngưỡng tụt huyết áp tâm thu (bách phân vị thứ 5) ở trẻ từ 1 đến 10 tuổi được tính bằng công thức: Huyết áp tâm thu tối thiểu = {{c1::70 + (2 × tuổi)}} mmHg.",
+    "extra": "Trẻ < 1 tháng: < 60 mmHg; Trẻ 1-12 tháng: < 70 mmHg; Trẻ > 10 tuổi: < 90 mmHg."
+  },
+  {
+    "id": "PED01-V2-008",
+    "type": "basic",
+    "front": "Tại sao tụt huyết áp là dấu hiệu muộn và nguy kịch ở trẻ bị sốc giảm thể tích?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Hệ vận mạch của trẻ em có khả năng giải phóng Catecholamine cực mạnh để co mạch ngoại vi bù trừ, giữ huyết áp tâm thu bình thường cho đến khi thể tích nội mạch đã mất trên 30% đến 40%.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Khi huyết áp đã tụt (sốc mất bù), các cơ chế bù trừ đã kiệt quệ hoàn toàn; nguy cơ ngừng tim rất cao nếu không hồi sức dịch tích cực ngay lập tức."
+  },
+  {
+    "id": "PED01-V2-009",
+    "type": "cloze",
+    "text": "Dấu hiệu lâm sàng sớm và nhạy nhất để phát hiện sốc còn bù ở trẻ nhỏ trước khi huyết áp tụt là {{c1::nhịp tim nhanh}} không tương xứng với sốt kết hợp với {{c1::CRT kéo dài > 2 giây}}.",
+    "extra": "Kèm theo đó là chân tay mát và mạch ngoại biên bắt nhẹ."
+  },
+  {
+    "id": "PED01-V2-010",
+    "type": "basic",
+    "front": "Tại sao dùng bao đo huyết áp (cuff) quá rộng lại cho kết quả huyết áp giả tạo thấp hơn thực tế?",
+    "back": "<b>📖 Nguyên lý kỹ thuật:</b><br>Khi bao đo quá rộng, diện tích tiếp xúc lớn làm áp lực ép từ bóng hơi phân tán trên diện rộng của động mạch cánh tay, máy chỉ cần một áp lực bơm nhỏ đã đủ làm xẹp động mạch, dẫn đến chỉ số ghi nhận thấp hơn huyết áp thực.<br><br><b>🔍 Cách chọn chuẩn:</b><br>Chiều rộng bóng hơi phải bao phủ 40% chu vi cánh tay; chiều dài bóng hơi bao phủ 80-100% vòng cánh tay."
+  },
+  {
+    "id": "PED01-V2-011",
+    "type": "cloze",
+    "text": "Công thức APLS ước tính nhanh kích thước ống nội khí quản có bóng chèn (Cuffed ETT) cho trẻ em từ 2 tuổi trở lên là: ID (mm) = {{c1::(Tuổi / 4) + 3.5}}.",
+    "extra": "Nếu dùng ống không bóng chèn (Uncuffed ETT), công thức là: ID = (Tuổi / 4) + 4. Độ sâu đặt ống tại mép môi = Cỡ ống ID x 3."
+  },
+  {
+    "id": "PED01-V2-012",
+    "type": "basic",
+    "front": "Tại sao nhịp tim chậm ở trẻ nhỏ luôn là dấu hiệu đe dọa ngừng tuần hoàn tối khẩn cấp trong PALS?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Do thể tích nhát bóp không thể tăng để bù trừ, nhịp tim giảm đồng nghĩa với việc cung lượng tim sụt giảm nghiêm trọng. Nguyên nhân hàng đầu gây nhịp tim chậm ở trẻ nhỏ là thiếu oxy mô kéo dài dẫn đến suy nút xoang thứ phát.<br><br><b>🔍 Xử trí cấp cứu:</b><br>Nếu nhịp tim < 60 lần/phút kèm tưới máu kém sau khi đã hỗ trợ oxy/thông khí, phải bắt đầu ép tim ngay."
+  },
+  {
+    "id": "PED01-V2-013",
+    "type": "cloze",
+    "text": "Ở trẻ nhỏ, sốt làm tăng nhịp tim sinh lý trung bình khoảng {{c1::10 nhịp/phút}} cho mỗi 1°C thân nhiệt tăng thêm trên mức 37°C.",
+    "extra": "Cần hạ sốt và để trẻ nằm yên trước khi kết luận nhịp tim nhanh bệnh lý."
+  },
+  {
+    "id": "PED01-V2-014",
+    "type": "basic",
+    "front": "Tại sao trẻ sơ sinh và trẻ nhỏ bị hạ thân nhiệt nhanh gấp nhiều lần so với người lớn khi cởi quần áo?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Tỉ lệ diện tích bề mặt cơ thể so với trọng lượng (BSA/Weight) ở trẻ sơ sinh cao gấp gần 3 lần người lớn, lớp mỡ dưới da cách nhiệt mỏng và mạch máu dưới da dồi dào, làm nhiệt lượng bức xạ và bốc hơi qua da cực nhanh.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Hạ thân nhiệt ở sơ sinh gây co mạch phổi, toan chuyển hóa và tăng tiêu thụ oxy/glucose dẫn đến ngừng thở."
+  },
+  {
+    "id": "PED01-V2-015",
+    "type": "cloze",
+    "text": "Mốc phát triển tâm vận cốt lõi ở trẻ 6 tháng tuổi là: trẻ có thể {{c1::ngồi có điểm tựa}}, chuyển đồ chơi từ tay này sang tay kia và bập bẹ âm đôi.",
+    "extra": "Biết lạ quen xuất hiện rõ từ 6 đến 9 tháng tuổi."
+  },
+  {
+    "id": "PED01-V2-016",
+    "type": "basic",
+    "front": "Công thức ước tính cân nặng nhanh theo tuổi của Nelson cho trẻ từ 1 đến 5 tuổi là gì?",
+    "back": "<b>📖 Công thức:</b><br>Cân nặng (kg) = (Số tuổi × 2) + 8.<br><br><b>🔍 Ví dụ áp dụng:</b><br>Trẻ 3 tuổi có cân nặng ước tính = (3 × 2) + 8 = 14 kg. Dùng để tính nhanh liều thuốc cấp cứu hoặc thể tích dịch bolus khi chưa kịp cân trẻ."
+  }
+]
