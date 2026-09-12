@@ -3,19 +3,19 @@
     "id": "PED01-V2-001",
     "type": "basic",
     "front": "Tại sao tâm thất của trẻ sơ sinh và trẻ nhũ nhi không thể tự tăng thể tích nhát bóp (Stroke Volume) khi nhu cầu tuần hoàn tăng cao?",
-    "back": "<b>📖 Cơ chế sinh lý:</b><br>Cơ tim trẻ sơ sinh chưa trưởng thành, chứa ít sợi tơ cơ co rút (myofibrils) và nhiều mô liên kết collagen không đàn hồi, làm tâm thất có độ giãn nở (compliance) rất kém.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Thể tích nhát bóp (SV) gần như cố định, do đó cung lượng tim (CO = HR x SV) phụ thuộc hoàn toàn vào tần số tim (HR). Nhịp tim nhanh là cơ chế bù trừ duy nhất của trẻ nhỏ."
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Cơ tim trẻ sơ sinh chưa trưởng thành, chứa ít sợi tơ cơ co rút (myofibrils) và nhiều mô liên kết collagen không đàn hồi, làm tâm thất có độ giãn nở (compliance) rất kém.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Thể tích nhát bóp (SV) gần như cố định ở mức 1 đến 1.5 ml/kg, do đó cung lượng tim (CO = HR x SV) phụ thuộc hoàn toàn vào tần số tim (HR). Nhịp tim nhanh là cơ chế bù trừ duy nhất của trẻ nhỏ."
   },
   {
     "id": "PED01-V2-002",
     "type": "basic",
-    "front": "Tại sao trẻ nhũ nhi khi bị suy hô hấp lại xuất hiện dấu hiệu co rút lồng ngực rõ rệt hơn rất nhiều so với người lớn?",
-    "back": "<b>📖 Cơ chế sinh lý:</b><br>Khung lồng ngực của trẻ nhỏ chủ yếu cấu tạo bằng sụn mềm, xương sườn nằm ngang và các cơ liên sườn chưa phát triển khỏe. Khi đường thở bị tắc nghẽn, áp lực âm trong màng phổi tăng cao sẽ kéo thụt lồng ngực mềm vào trong thay vì làm giãn nở phổi.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Co rút lồng ngực là dấu hiệu tăng công thở điển hình ở trẻ nhỏ, phản ánh tắc nghẽn đường thở hoặc phổi kém đàn hồi."
+    "front": "Tại sao nhịp tim chậm ở trẻ nhỏ luôn là dấu hiệu đe dọa ngừng tuần hoàn tối khẩn cấp trong hướng dẫn PALS?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Do thể tích nhát bóp không thể tăng để bù trừ, nhịp tim giảm đồng nghĩa với việc cung lượng tim sụt giảm theo đường thẳng. Nguyên nhân hàng đầu gây nhịp tim chậm ở trẻ nhỏ là thiếu oxy mô kéo dài dẫn đến suy nút xoang thứ phát.<br><br><b>🔍 Xử trí cấp cứu:</b><br>Hỗ trợ thông khí oxy 100% ngay. Nếu nhịp tim < 60 lần/phút kèm tưới máu kém sau khi đã hỗ trợ oxy/thông khí trong 30 giây, phải bắt đầu ép tim ngay."
   },
   {
     "id": "PED01-V2-003",
-    "type": "cloze",
-    "text": "Theo định luật Poiseuille, sức cản đường thở tỉ lệ nghịch với {{c1::lũy thừa bậc 4}} của bán kính lòng ống (R tỉ lệ nghịch r^4), giải thích vì sao phù nề niêm mạc 1 mm làm tăng sức cản đường thở ở trẻ nhỏ gấp 16 lần.",
-    "extra": "Ở người lớn, phù nề 1 mm chỉ làm tăng sức cản đường thở khoảng 3 lần do đường kính khí đạo ban đầu lớn hơn nhiều."
+    "type": "basic",
+    "front": "Tại sao trẻ nhũ nhi khi bị suy hô hấp lại xuất hiện dấu hiệu co rút lồng ngực rõ rệt hơn rất nhiều so với người lớn?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Khung lồng ngực của trẻ nhỏ chủ yếu cấu tạo bằng sụn mềm, xương sườn nằm ngang và các cơ liên sườn chưa phát triển khỏe. Khi đường thở bị tắc nghẽn, áp lực âm trong màng phổi tăng cao sẽ kéo thụt lồng ngực mềm vào trong thay vì làm giãn nở phổi.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Co rút lồng ngực là dấu hiệu tăng công thở điển hình ở trẻ nhỏ, phản ánh tắc nghẽn đường thở hoặc phổi kém đàn hồi."
   },
   {
     "id": "PED01-V2-004",
@@ -26,73 +26,265 @@
   {
     "id": "PED01-V2-005",
     "type": "cloze",
-    "text": "Theo hướng dẫn WHO IMCI, ngưỡng thở nhanh ở trẻ từ 1 đến 5 tuổi là khi nhịp thở {{c1::≥ 40 lần/phút}} khi đếm trọn vẹn trong 60 giây lúc trẻ nằm yên.",
-    "extra": "Dưới 2 tháng: ≥ 60 bpm; 2-11 tháng: ≥ 50 bpm; Trên 5 tuổi: ≥ 30 bpm."
+    "text": "Theo định luật Poiseuille, sức cản đường thở tỉ lệ nghịch với {{c1::lũy thừa bậc 4}} của bán kính lòng ống (R tỉ lệ nghịch r^4), giải thích vì sao phù nề niêm mạc 1 mm làm tăng sức cản đường thở ở trẻ nhỏ gấp 16 lần.",
+    "extra": "Ở người lớn, phù nề 1 mm chỉ làm tăng sức cản đường thở khoảng 3 lần do đường kính khí đạo ban đầu lớn hơn nhiều."
   },
   {
     "id": "PED01-V2-006",
-    "type": "basic",
-    "front": "Tại sao bắt buộc phải đếm nhịp thở của trẻ nhũ nhi trong trọn vẹn 60 giây thay vì đếm 15 giây rồi nhân 4?",
-    "back": "<b>📖 Cơ chế sinh lý:</b><br>Trẻ nhũ nhi có kiểu thở có chu kỳ (Periodic Breathing) bình thường về mặt sinh lý: trẻ có thể thở nhanh vài nhịp rồi tạm ngưng thở 5 đến 10 giây mà không bị tím hay chậm nhịp tim.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Đếm 15 giây rồi nhân 4 sẽ bắt trúng khoảng ngưng thở (tưởng thở chậm) hoặc khoảng thở nhanh bù (tưởng thở nhanh bệnh lý), dẫn đến chẩn đoán sai lệch nghiêm trọng."
-  },
-  {
-    "id": "PED01-V2-007",
-    "type": "cloze",
-    "text": "Theo khuyến cáo PALS 2020, ngưỡng tụt huyết áp tâm thu (bách phân vị thứ 5) ở trẻ từ 1 đến 10 tuổi được tính bằng công thức: Huyết áp tâm thu tối thiểu = {{c1::70 + (2 × tuổi)}} mmHg.",
-    "extra": "Trẻ < 1 tháng: < 60 mmHg; Trẻ 1-12 tháng: < 70 mmHg; Trẻ > 10 tuổi: < 90 mmHg."
-  },
-  {
-    "id": "PED01-V2-008",
-    "type": "basic",
-    "front": "Tại sao tụt huyết áp là dấu hiệu muộn và nguy kịch ở trẻ bị sốc giảm thể tích?",
-    "back": "<b>📖 Cơ chế sinh lý:</b><br>Hệ vận mạch của trẻ em có khả năng giải phóng Catecholamine cực mạnh để co mạch ngoại vi bù trừ, giữ huyết áp tâm thu bình thường cho đến khi thể tích nội mạch đã mất trên 30% đến 40%.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Khi huyết áp đã tụt (sốc mất bù), các cơ chế bù trừ đã kiệt quệ hoàn toàn; nguy cơ ngừng tim rất cao nếu không hồi sức dịch tích cực ngay lập tức."
-  },
-  {
-    "id": "PED01-V2-009",
-    "type": "cloze",
-    "text": "Dấu hiệu lâm sàng sớm và nhạy nhất để phát hiện sốc còn bù ở trẻ nhỏ trước khi huyết áp tụt là {{c1::nhịp tim nhanh}} không tương xứng với sốt kết hợp với {{c1::CRT kéo dài > 2 giây}}.",
-    "extra": "Kèm theo đó là chân tay mát và mạch ngoại biên bắt nhẹ."
-  },
-  {
-    "id": "PED01-V2-010",
-    "type": "basic",
-    "front": "Tại sao dùng bao đo huyết áp (cuff) quá rộng lại cho kết quả huyết áp giả tạo thấp hơn thực tế?",
-    "back": "<b>📖 Nguyên lý kỹ thuật:</b><br>Khi bao đo quá rộng, diện tích tiếp xúc lớn làm áp lực ép từ bóng hơi phân tán trên diện rộng của động mạch cánh tay, máy chỉ cần một áp lực bơm nhỏ đã đủ làm xẹp động mạch, dẫn đến chỉ số ghi nhận thấp hơn huyết áp thực.<br><br><b>🔍 Cách chọn chuẩn:</b><br>Chiều rộng bóng hơi phải bao phủ 40% chu vi cánh tay; chiều dài bóng hơi bao phủ 80-100% vòng cánh tay."
-  },
-  {
-    "id": "PED01-V2-011",
-    "type": "cloze",
-    "text": "Công thức APLS ước tính nhanh kích thước ống nội khí quản có bóng chèn (Cuffed ETT) cho trẻ em từ 2 tuổi trở lên là: ID (mm) = {{c1::(Tuổi / 4) + 3.5}}.",
-    "extra": "Nếu dùng ống không bóng chèn (Uncuffed ETT), công thức là: ID = (Tuổi / 4) + 4. Độ sâu đặt ống tại mép môi = Cỡ ống ID x 3."
-  },
-  {
-    "id": "PED01-V2-012",
-    "type": "basic",
-    "front": "Tại sao nhịp tim chậm ở trẻ nhỏ luôn là dấu hiệu đe dọa ngừng tuần hoàn tối khẩn cấp trong PALS?",
-    "back": "<b>📖 Cơ chế sinh lý:</b><br>Do thể tích nhát bóp không thể tăng để bù trừ, nhịp tim giảm đồng nghĩa với việc cung lượng tim sụt giảm nghiêm trọng. Nguyên nhân hàng đầu gây nhịp tim chậm ở trẻ nhỏ là thiếu oxy mô kéo dài dẫn đến suy nút xoang thứ phát.<br><br><b>🔍 Xử trí cấp cứu:</b><br>Nếu nhịp tim < 60 lần/phút kèm tưới máu kém sau khi đã hỗ trợ oxy/thông khí, phải bắt đầu ép tim ngay."
-  },
-  {
-    "id": "PED01-V2-013",
-    "type": "cloze",
-    "text": "Ở trẻ nhỏ, sốt làm tăng nhịp tim sinh lý trung bình khoảng {{c1::10 nhịp/phút}} cho mỗi 1°C thân nhiệt tăng thêm trên mức 37°C.",
-    "extra": "Cần hạ sốt và để trẻ nằm yên trước khi kết luận nhịp tim nhanh bệnh lý."
-  },
-  {
-    "id": "PED01-V2-014",
     "type": "basic",
     "front": "Tại sao trẻ sơ sinh và trẻ nhỏ bị hạ thân nhiệt nhanh gấp nhiều lần so với người lớn khi cởi quần áo?",
     "back": "<b>📖 Cơ chế sinh lý:</b><br>Tỉ lệ diện tích bề mặt cơ thể so với trọng lượng (BSA/Weight) ở trẻ sơ sinh cao gấp gần 3 lần người lớn, lớp mỡ dưới da cách nhiệt mỏng và mạch máu dưới da dồi dào, làm nhiệt lượng bức xạ và bốc hơi qua da cực nhanh.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Hạ thân nhiệt ở sơ sinh gây co mạch phổi, toan chuyển hóa và tăng tiêu thụ oxy/glucose dẫn đến ngừng thở."
   },
   {
+    "id": "PED01-V2-007",
+    "type": "basic",
+    "front": "Cơ chế sinh nhiệt chủ yếu ở trẻ sơ sinh là gì khi trẻ không có phản xạ run cơ?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Trẻ sơ sinh sinh nhiệt nhờ chuyển hóa mô mỡ nâu (Brown Adipose Tissue) tập trung ở vùng gáy, trung thất và quanh thận (sinh nhiệt không run cơ - Non-shivering thermogenesis).<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Quá trình này tiêu tốn rất nhiều oxy và glucose, do đó nhiễm lạnh kéo dài sẽ nhanh chóng dẫn đến toan chuyển hóa và hạ đường huyết cấp tính."
+  },
+  {
+    "id": "PED01-V2-008",
+    "type": "basic",
+    "front": "Tại sao trẻ em rất dễ bị hạ đường huyết nặng khi bị ốm hoặc nhịn ăn kéo dài?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Dự trữ Glycogen tại gan ở trẻ nhỏ rất thấp, quá trình tân tạo đường từ acid amin chưa hoàn thiện; trong khi nhu cầu tiêu thụ glucose của não bộ trẻ chiếm tới 25% tổng năng lượng cơ thể (người lớn chỉ khoảng 20%).<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Trong mọi tình huống cấp cứu trẻ li bì hoặc co giật, bắt buộc phải thử đường huyết mao mạch ngay lập tức."
+  },
+  {
+    "id": "PED01-V2-009",
+    "type": "basic",
+    "front": "Tại sao trẻ dưới 1 đến 2 tuổi vừa dễ mất nước nhanh vừa rất dễ bị quá tải dịch khi truyền dịch?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Nước chiếm tới 75% đến 80% trọng lượng cơ thể (chủ yếu là dịch ngoại bào). Quai Henle còn ngắn và độ lọc cầu thận (GFR) thấp khiến khả năng cô đặc cũng như pha loãng nước tiểu của thận rất kém (tối đa chỉ 600 - 700 mOsm/L).<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Trẻ mất nước nhanh khi tiêu chảy nhưng cũng dễ phù phổi hoặc nhiễm độc nước nếu truyền dịch tinh thể tự do không kiểm soát tốc độ."
+  },
+  {
+    "id": "PED01-V2-010",
+    "type": "basic",
+    "front": "Tại sao trẻ nhỏ khi bị suy hô hấp kiệt sức lại có biểu hiện nhịp thở CHẬM LẠI bất thường?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Cơ hoành của trẻ nhỏ chứa ít sợi cơ loại I (sợi co chậm chịu mỏi) và dự trữ Glycogen hạn chế. Khi phải thở nhanh gắng sức liên tục, các sợi cơ hoành sẽ cạn kiệt năng lượng ATP dẫn đến kiệt sức cơ hô hấp và toan hô hấp.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Nhịp thở chậm dần sau một đợt thở nhanh co kéo là dấu hiệu báo động sắp ngừng thở, tuyệt đối không được lầm tưởng là bệnh nhi đang ổn định hơn."
+  },
+  {
+    "id": "PED01-V2-011",
+    "type": "cloze",
+    "text": "Theo hướng dẫn WHO IMCI, ngưỡng thở nhanh ở trẻ dưới 2 tháng tuổi là khi nhịp thở {{c1::≥ 60 lần/phút}} và bắt buộc phải đếm lại lần 2 để xác nhận.",
+    "extra": "Thở 40 đến 59 lần/phút ở trẻ sơ sinh nằm yên là sinh lý bình thường."
+  },
+  {
+    "id": "PED01-V2-012",
+    "type": "cloze",
+    "text": "Theo hướng dẫn WHO IMCI, ngưỡng thở nhanh ở trẻ từ 2 tháng đến 11 tháng tuổi là khi nhịp thở {{c1::≥ 50 lần/phút}} khi trẻ nằm yên không khóc.",
+    "extra": "Dưới 2 tháng: ≥ 60 bpm; 1 đến 5 tuổi: ≥ 40 bpm; Trên 5 tuổi: ≥ 30 bpm."
+  },
+  {
+    "id": "PED01-V2-013",
+    "type": "cloze",
+    "text": "Theo hướng dẫn WHO IMCI, ngưỡng thở nhanh ở trẻ từ 1 đến 5 tuổi là khi nhịp thở {{c1::≥ 40 lần/phút}} khi đếm trọn vẹn trong 60 giây lúc trẻ nằm yên.",
+    "extra": "Trẻ trên 5 tuổi theo thực hành lâm sàng là ≥ 30 lần/phút."
+  },
+  {
+    "id": "PED01-V2-014",
+    "type": "basic",
+    "front": "Tại sao bắt buộc phải đếm nhịp thở của trẻ nhũ nhi trong trọn vẹn 60 giây thay vì đếm 15 giây rồi nhân 4?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Trẻ nhũ nhi có kiểu thở có chu kỳ (Periodic Breathing) bình thường về mặt sinh lý: trẻ có thể thở nhanh vài nhịp rồi tạm ngưng thở 5 đến 10 giây mà không bị tím hay chậm nhịp tim.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Đếm 15 giây rồi nhân 4 sẽ bắt trúng khoảng ngưng thở (tưởng thở chậm) hoặc khoảng thở nhanh bù (tưởng thở nhanh bệnh lý), dẫn đến chẩn đoán sai lệch nghiêm trọng."
+  },
+  {
     "id": "PED01-V2-015",
+    "type": "cloze",
+    "text": "Theo khuyến cáo PALS 2020, ngưỡng tụt huyết áp tâm thu (bách phân vị thứ 5) ở trẻ từ 1 đến 10 tuổi được tính bằng công thức: Huyết áp tâm thu tối thiểu = {{c1::70 + (2 × tuổi)}} mmHg.",
+    "extra": "Trẻ < 1 tháng: < 60 mmHg; Trẻ 1-12 tháng: < 70 mmHg; Trẻ > 10 tuổi: < 90 mmHg."
+  },
+  {
+    "id": "PED01-V2-016",
+    "type": "basic",
+    "front": "Ngưỡng tụt huyết áp tâm thu (P5) ở trẻ sơ sinh và trẻ nhũ nhi (dưới 1 tuổi) theo PALS là bao nhiêu?",
+    "back": "<b>📖 Ngưỡng số liệu PALS:</b><br>- Trẻ sơ sinh (0 - 28 ngày): Huyết áp tâm thu < 60 mmHg.<br>- Trẻ nhũ nhi (1 - 12 tháng): Huyết áp tâm thu < 70 mmHg.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Dưới các ngưỡng này, trẻ được xác định chính thức là Sốc mất bù, cần hồi sức dịch chống sốc ngay."
+  },
+  {
+    "id": "PED01-V2-017",
+    "type": "cloze",
+    "text": "Ở trẻ trên 10 tuổi, ngưỡng tụt huyết áp tâm thu theo tiêu chuẩn PALS là khi huyết áp tâm thu {{c1::< 90 mmHg}}.",
+    "extra": "Tương đương với tiêu chuẩn hạ huyết áp của người trưởng thành."
+  },
+  {
+    "id": "PED01-V2-018",
+    "type": "basic",
+    "front": "Làm thế nào để phân biệt nhịp nhanh xoang sinh lý với cơn tim nhanh kịch phát trên thất (SVT) ở trẻ nhỏ?",
+    "back": "<b>📖 Tiêu chuẩn phân biệt:</b><br>- Nhịp nhanh xoang: Tần số thường < 220 bpm ở nhũ nhi (< 180 bpm ở trẻ lớn), có biến thiên nhịp theo hô hấp/kích thích, còn sóng P trên điện tim.<br>- Cơn tim nhanh kịch phát (SVT): Tần số > 220 bpm ở nhũ nhi (> 180 bpm ở trẻ lớn), nhịp đều tuyệt đối, không có sóng P hoặc sóng P bất thường, khởi phát và kết thúc đột ngột."
+  },
+  {
+    "id": "PED01-V2-019",
+    "type": "cloze",
+    "text": "Ngưỡng nhịp tim chậm nguy kịch đe dọa ngừng tuần hoàn ở trẻ sơ sinh là khi nhịp tim {{c1::< 100 lần/phút}}, ở trẻ nhũ nhi là {{c1::< 90 lần/phút}} và ở trẻ lớn là {{c1::< 60 lần/phút}}.",
+    "extra": "Cần cung cấp oxy và thông khí ngay; ép tim nếu < 60 bpm kèm tưới máu kém."
+  },
+  {
+    "id": "PED01-V2-020",
+    "type": "basic",
+    "front": "Phân loại các mức độ hạ thân nhiệt ở trẻ sơ sinh theo Tổ chức Y tế Thế giới (WHO)?",
+    "back": "<b>📖 Phân độ thân nhiệt WHO:</b><br>- Thân nhiệt bình thường: 36.5 đến 37.5°C.<br>- Stress lạnh (Hạ thân nhiệt nhẹ): 36.0 đến 36.4°C.<br>- Hạ thân nhiệt trung bình: 32.0 đến 35.9°C.<br>- Hạ thân nhiệt nặng: < 32.0°C.<br><br><b>🔍 Xử trí:</b><br>Ủ ấm ngay bằng phương pháp Kangaroo hoặc lồng ấp và kiểm tra đường huyết."
+  },
+  {
+    "id": "PED01-V2-021",
+    "type": "basic",
+    "front": "Sự chênh lệch giữa nhiệt độ đo ở nách và nhiệt độ đo ở trực tràng là bao nhiêu và ngưỡng sốt ở nách là gì?",
+    "back": "<b>📖 Quy ước thân nhiệt:</b><br>Nhiệt độ nách thấp hơn nhiệt độ trực tràng (thân nhiệt trung tâm) khoảng 0.5°C.<br>- Sốt khi nhiệt độ nách ≥ 37.5°C (tương đương nhiệt độ trực tràng ≥ 38.0°C).<br><br><b>🔍 Tiêu chuẩn vàng:</b><br>Đo trực tràng là chuẩn vàng ở trẻ sơ sinh và hồi sức cấp cứu."
+  },
+  {
+    "id": "PED01-V2-022",
+    "type": "cloze",
+    "text": "Thiểu niệu ở trẻ nhũ nhi được xác định khi lượng nước tiểu dưới {{c1::1.0 ml/kg/giờ}}, trong khi ở trẻ lớn là dưới {{c1::0.5 ml/kg/giờ}} trong 6 giờ liên tục.",
+    "extra": "Phản ánh tình trạng giảm tưới máu thận hoặc tổn thương thận cấp tính."
+  },
+  {
+    "id": "PED01-V2-023",
+    "type": "basic",
+    "front": "Công thức Nelson ước tính nhanh cân nặng cho trẻ nhũ nhi từ 3 đến 12 tháng tuổi là gì?",
+    "back": "<b>📖 Công thức:</b><br>Cân nặng (kg) = (Số tháng tuổi + 9) / 2.<br><br><b>🔍 Ví dụ áp dụng:</b><br>Trẻ 5 tháng tuổi có cân nặng ước tính = (5 + 9) / 2 = 7 kg. Trẻ 7 tháng tuổi có cân nặng ước tính = (7 + 9) / 2 = 8 kg."
+  },
+  {
+    "id": "PED01-V2-024",
+    "type": "basic",
+    "front": "Công thức ước tính cân nặng nhanh theo tuổi của Nelson cho trẻ từ 1 đến 5 tuổi là gì?",
+    "back": "<b>📖 Công thức:</b><br>Cân nặng (kg) = (Số tuổi × 2) + 8.<br><br><b>🔍 Ví dụ áp dụng:</b><br>Trẻ 3 tuổi có cân nặng ước tính = (3 × 2) + 8 = 14 kg. Trẻ 4 tuổi nặng (4 × 2) + 8 = 16 kg."
+  },
+  {
+    "id": "PED01-V2-025",
+    "type": "cloze",
+    "text": "Công thức APLS cập nhật để ước tính cân nặng sát thực tế hơn ở trẻ từ 1 đến 10 tuổi là: Cân nặng (kg) = {{c1::(Số tuổi × 3) + 7}}.",
+    "extra": "Công thức cổ điển thường ước lượng thấp hơn cân nặng thật khoảng 20% dẫn đến nguy cơ thiếu liều thuốc."
+  },
+  {
+    "id": "PED01-V2-026",
+    "type": "cloze",
+    "text": "Công thức APLS ước tính nhanh kích thước ống nội khí quản có bóng chèn (Cuffed ETT) cho trẻ em từ 2 tuổi trở lên là: ID (mm) = {{c1::(Tuổi / 4) + 3.5}}.",
+    "extra": "Ví dụ: Trẻ 4 tuổi dùng ống cỡ (4/4) + 3.5 = 4.5 mm."
+  },
+  {
+    "id": "PED01-V2-027",
+    "type": "cloze",
+    "text": "Công thức APLS ước tính kích thước ống nội khí quản không bóng chèn (Uncuffed ETT) cho trẻ từ 1 đến 8 tuổi là: ID (mm) = {{c1::(Tuổi / 4) + 4}}.",
+    "extra": "Ví dụ: Trẻ 4 tuổi dùng ống không bóng cỡ (4/4) + 4 = 5.0 mm."
+  },
+  {
+    "id": "PED01-V2-028",
+    "type": "basic",
+    "front": "Công thức tính độ sâu đặt ống nội khí quản tính từ mép môi đến đầu tận ống ở trẻ em?",
+    "back": "<b>📖 Công thức tính độ sâu:</b><br>- Tính theo cỡ ống: Độ sâu (cm) = Cỡ ống ETT ID (mm) × 3.<br>- Hoặc tính theo tuổi: Độ sâu (cm) = (Tuổi / 2) + 12.<br><br><b>🔍 Ví dụ:</b><br>Trẻ 4 tuổi dùng ống 4.5 mm có độ sâu cố định tại mép môi là 4.5 × 3 = 13.5 cm."
+  },
+  {
+    "id": "PED01-V2-029",
+    "type": "basic",
+    "front": "Nêu quy tắc Holliday-Segar 4-2-1 để tính tốc độ truyền dịch duy trì hàng ngày cho trẻ em?",
+    "back": "<b>📖 Quy tắc 4-2-1 tính ml/giờ:</b><br>- 10 kg đầu tiên: 4 ml/kg/giờ (tối đa 40 ml/h).<br>- 10 kg tiếp theo (11-20 kg): + 2 ml/kg/giờ (tối đa thêm 20 ml/h).<br>- Mỗi kg trên 20 kg: + 1 ml/kg/giờ.<br><br><b>🔍 Ví dụ:</b><br>Trẻ 15 kg: (10 × 4) + (5 × 2) = 50 ml/giờ."
+  },
+  {
+    "id": "PED01-V2-030",
+    "type": "cloze",
+    "text": "Liều dịch tinh thể đẳng trương (Ringer Lactat hoặc NaCl 0.9%) bolus chống sốc chuẩn ở trẻ em là {{c1::20 ml/kg}} truyền tĩnh mạch xả nhanh trong 15 đến 20 phút.",
+    "extra": "Đánh giá lại sinh hiệu, CRT và dấu hiệu quá tải dịch sau mỗi lần bolus."
+  },
+  {
+    "id": "PED01-V2-031",
+    "type": "cloze",
+    "text": "Liều Adrenaline cấp cứu ngừng tuần hoàn ở trẻ em là {{c1::0.01 mg/kg}} tiêm tĩnh mạch hoặc tủy xương, tương đương với {{c1::0.1 ml/kg}} dung dịch Adrenaline 1/10.000.",
+    "extra": "Lặp lại mỗi 3 đến 5 phút nếu vẫn còn ngừng tuần hoàn."
+  },
+  {
+    "id": "PED01-V2-032",
+    "type": "basic",
+    "front": "Liều lượng và đường dùng Adrenaline trong xử trí cấp cứu phản vệ nặng ở trẻ em theo phác đồ?",
+    "back": "<b>📖 Phác đồ Adrenaline phản vệ:</b><br>- Dung dịch: Adrenaline 1/1.000 (1 mg/ml).<br>- Liều: 0.01 mg/kg = 0.01 ml/kg.<br>- Đường dùng: Tiêm bắp sâu ở mặt trước ngoài đùi.<br>- Liều tối đa: 0.3 mg ở trẻ nhỏ, 0.5 mg ở trẻ lớn.<br><br><b>🔍 Lưu ý:</b><br>Không tiêm dưới da vì hấp thu chậm trong sốc phản vệ."
+  },
+  {
+    "id": "PED01-V2-033",
+    "type": "cloze",
+    "text": "Mốc phát triển tâm vận cốt lõi ở trẻ 2 tháng tuổi là trẻ biết {{c1::mỉm cười xã hội (social smile)}} khi được trêu đùa và nâng đầu được 45 độ khi nằm sấp.",
+    "extra": "Mất mốc mỉm cười xã hội ở 3 tháng tuổi là dấu hiệu cờ đỏ về thị giác và tương tác."
+  },
+  {
+    "id": "PED01-V2-034",
+    "type": "basic",
+    "front": "Mốc phát triển tâm vận bình thường của trẻ lúc tròn 4 tháng tuổi là gì?",
+    "back": "<b>📖 Mốc phát triển 4 tháng:</b><br>- Vận động thô: Giữ cổ thẳng vững chắc khi kéo ngồi, lật từ ngửa sang sấp.<br>- Vận động tinh: Với tay cầm nắm đồ vật, đưa đồ vật vào miệng.<br>- Ngôn ngữ: Cười thành tiếng to, quay đầu về hướng âm thanh.<br><br><b>🔍 Cờ đỏ:</b><br>Nếu 4 tháng cổ vẫn mềm rũ là bất thường trương lực cơ."
+  },
+  {
+    "id": "PED01-V2-035",
     "type": "cloze",
     "text": "Mốc phát triển tâm vận cốt lõi ở trẻ 6 tháng tuổi là: trẻ có thể {{c1::ngồi có điểm tựa}}, chuyển đồ chơi từ tay này sang tay kia và bập bẹ âm đôi.",
     "extra": "Biết lạ quen xuất hiện rõ từ 6 đến 9 tháng tuổi."
   },
   {
-    "id": "PED01-V2-016",
+    "id": "PED01-V2-036",
     "type": "basic",
-    "front": "Công thức ước tính cân nặng nhanh theo tuổi của Nelson cho trẻ từ 1 đến 5 tuổi là gì?",
-    "back": "<b>📖 Công thức:</b><br>Cân nặng (kg) = (Số tuổi × 2) + 8.<br><br><b>🔍 Ví dụ áp dụng:</b><br>Trẻ 3 tuổi có cân nặng ước tính = (3 × 2) + 8 = 14 kg. Dùng để tính nhanh liều thuốc cấp cứu hoặc thể tích dịch bolus khi chưa kịp cân trẻ."
+    "front": "Mốc phát triển tâm vận bình thường của trẻ lúc tròn 9 tháng tuổi là gì?",
+    "back": "<b>📖 Mốc phát triển 9 tháng:</b><br>- Vận động thô: Tự ngồi vững không cần tựa, bò thuần thục, bám đứng dậy.<br>- Vận động tinh: Nhặt vật nhỏ bằng ngón cái và ngón trỏ (Pincer grasp).<br>- Giao tiếp: Bắt chước âm thanh, hiểu từ 'Không', biết sợ người lạ, chơi ú òa."
+  },
+  {
+    "id": "PED01-V2-037",
+    "type": "cloze",
+    "text": "Mốc phát triển tâm vận cốt lõi ở trẻ 12 tháng tuổi là: trẻ có thể đứng vững một mình vài giây, đi men quanh đồ vật, nói được {{c1::1 đến 2 từ đơn có nghĩa}} và biết chỉ tay vào đồ vật muốn lấy.",
+    "extra": "Chưa biết đứng vịn lúc 12 tháng là dấu hiệu cờ đỏ."
+  },
+  {
+    "id": "PED01-V2-038",
+    "type": "basic",
+    "front": "Mốc phát triển vận động và ngôn ngữ bình thường của trẻ lúc 18 và 24 tháng tuổi?",
+    "back": "<b>📖 Mốc 18 đến 24 tháng:</b><br>- 18 tháng: Tự đi vững vàng, chạy chập chững, vốn từ 10-20 từ đơn, tự xúc ăn.<br>- 24 tháng: Chạy nhảy nhanh nhẹn, bước lên xuống cầu thang, nói câu ghép 2 từ ('Mẹ bế'), vốn từ trên 50 từ.<br><br><b>🔍 Cờ đỏ:</b><br>18 tháng chưa biết đi hoặc 24 tháng chưa nói câu ghép 2 từ là cờ đỏ chậm phát triển."
+  },
+  {
+    "id": "PED01-V2-039",
+    "type": "basic",
+    "front": "Dấu hiệu cờ đỏ thoái lui phát triển (Developmental Regression) có ý nghĩa lâm sàng nghiêm trọng như thế nào?",
+    "back": "<b>📖 Định nghĩa & Cơ chế:</b><br>Là hiện tượng trẻ mất đi bất kỳ kỹ năng vận động, ngôn ngữ hoặc xã hội nào mà trước đây đã từng làm thành thạo (ví dụ: đang biết nói bỗng ngừng nói).<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Luôn luôn là dấu hiệu tổn thương thần kinh thực thể nặng, gợi ý bệnh thoái hóa thần kinh, rối loạn chuyển hóa bẩm sinh, viêm não tự miễn hoặc u não, cần chụp MRI não và chuyển chuyên khoa gấp."
+  },
+  {
+    "id": "PED01-V2-040",
+    "type": "basic",
+    "front": "Nguyên tắc sử dụng 'Tuổi hiệu chỉnh' (Corrected Age) ở trẻ sinh non được tính và áp dụng như thế nào?",
+    "back": "<b>📖 Nguyên tắc tính toán:</b><br>Tuổi hiệu chỉnh = Tuổi thực tế sau sinh - Số tuần sinh non trước ngày dự sinh 40 tuần.<br><br><b>🔍 Ví dụ & Thời gian áp dụng:</b><br>Trẻ sinh non 28 tuần (sinh sớm 12 tuần = 3 tháng), khi được 12 tháng tuổi thực tế thì tuổi hiệu chỉnh mới là 9 tháng. Phải dùng chuẩn 9 tháng để đánh giá phát triển, áp dụng kéo dài đến khi trẻ đạt 2 đến 3 tuổi."
+  },
+  {
+    "id": "PED01-V2-041",
+    "type": "basic",
+    "front": "Tại sao dùng bao đo huyết áp (cuff) quá rộng hoặc quá hẹp lại gây sai lệch kết quả huyết áp?",
+    "back": "<b>📖 Nguyên lý vật lý:</b><br>- Bao quá rộng: Áp lực khí nén phân tán trên diện rộng làm động mạch xẹp sớm ➔ Kết quả đo thấp hơn huyết áp thực 10-20 mmHg.<br>- Bao quá hẹp: Cần bơm áp lực rất cao mới ép xẹp được động mạch ➔ Kết quả đo cao hơn huyết áp thực 10-20 mmHg.<br><br><b>🔍 Tiêu chuẩn chọn cuff:</b><br>Bề rộng bóng hơi bao phủ 40% chu vi cánh tay; chiều dài bóng hơi ôm trọn 80-100% vòng cánh tay."
+  },
+  {
+    "id": "PED01-V2-042",
+    "type": "basic",
+    "front": "Tại sao huyết áp bình thường không loại trừ được tình trạng sốc ở bệnh nhi?",
+    "back": "<b>📖 Cơ chế bù trừ:</b><br>Hệ thần kinh giao cảm của trẻ tăng tiết Catecholamine gây co mạch ngoại vi cực mạnh để giữ huyết áp tâm thu nuôi tim và não. Huyết áp chỉ tụt khi cơ thể đã mất trên 30% đến 40% thể tích tuần hoàn.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Sốc ở trẻ nhỏ bắt đầu bằng mạch nhanh, da lạnh ẩm và CRT > 2 giây (sốc còn bù). Chờ huyết áp tụt mới chẩn đoán sốc là chờ ngừng tim."
+  },
+  {
+    "id": "PED01-V2-043",
+    "type": "basic",
+    "front": "Nguyên nhân hàng đầu gây nhịp tim chậm ở trẻ nhỏ là gì và tại sao không được coi là sinh lý?",
+    "back": "<b>📖 Căn nguyên bệnh sinh:</b><br>Nguyên nhân hàng đầu gây nhịp tim chậm ở trẻ nhỏ là thiếu oxy mô kéo dài dẫn đến suy chức năng nút xoang thứ phát (không phải do tim nguyên phát).<br><br><b>🔍 Hành động khẩn cấp:</b><br>Do cung lượng tim phụ thuộc hoàn toàn vào tần số tim, nhịp chậm sẽ làm sụp đổ huyết động. Cần cung cấp oxy và thông khí áp lực dương ngay lập tức."
+  },
+  {
+    "id": "PED01-V2-044",
+    "type": "basic",
+    "front": "Tại sao nhịp thở giảm dần ở một trẻ hen phế quản nặng là dấu hiệu nguy kịch tối khẩn?",
+    "back": "<b>📖 Cơ chế kiệt cơ:</b><br>Cơ hoành làm việc quá tải cạn kiệt Glycogen, kèm theo ứ đọng CO2 máu gây toan hô hấp và ức chế trung tâm hô hấp tại hành não. Nhịp thở giảm là dấu hiệu kiệt sức hô hấp sắp ngừng thở.<br><br><b>🔍 Hành động:</b><br>Chuẩn bị bóp bóng qua mask có oxy và đặt nội khí quản hỗ trợ thở máy khẩn cấp."
+  },
+  {
+    "id": "PED01-V2-045",
+    "type": "basic",
+    "front": "Tại sao không được tin cậy chỉ số SpO2 trên máy monitor khi trẻ đang có biểu hiện sốc hoặc hạ thân nhiệt?",
+    "back": "<b>📖 Nguyên lý quang học:</b><br>Khi sốc hoặc hạ thân nhiệt, co mạch ngoại biên làm giảm dòng máu nảy đến giường mao mạch ngón tay. Cảm biến SpO2 không bắt được dạng sóng mạch, dẫn đến chỉ số giả tạo.<br><br><b>🔍 Quy tắc an toàn:</b><br>Luôn quan sát sóng xung plethysmograph trên monitor; chỉ tin cậy SpO2 khi sóng đều và khớp với nhịp tim nghe qua ống nghe."
+  },
+  {
+    "id": "PED01-V2-046",
+    "type": "basic",
+    "front": "Chỉ định bắt đầu ép tim ngoài lồng ngực ở trẻ nhũ nhi theo khuyến cáo PALS 2020 là gì?",
+    "back": "<b>📖 Tiêu chuẩn PALS:</b><br>Bắt đầu ép tim ngoài lồng ngực khi nhịp tim < 60 lần/phút kèm theo dấu hiệu tưới máu mô kém (CRT kéo dài, da lạnh, mạch ngoại vi bắt yếu) sau khi đã hỗ trợ thông khí oxy hóa hiệu quả trong 30 giây.<br><br><b>🔍 Tỷ lệ ép tim:</b><br>15 lần ép tim : 2 lần thổi ngạt khi có 2 người cấp cứu y tế."
+  },
+  {
+    "id": "PED01-V2-047",
+    "type": "basic",
+    "front": "Tại sao khi đặt ống nội khí quản ở trẻ nhỏ phải kê gối dưới vai và ưu tiên dùng dao lưỡi thẳng (Miller)?",
+    "back": "<b>📖 Đặc điểm giải phẫu:</b><br>- Xương chẩm trẻ rất to: Kê gối dưới đầu làm gập cổ gây tắc đường thở; kê gối dưới vai mới giữ cổ ở tư thế ngửi (Sniffing position).<br>- Thanh quản nằm cao (C3-C4), nắp thanh thiệt dài, mềm và hình chữ omega: Cần dùng dao lưỡi thẳng Miller để nâng trực tiếp nắp thanh thiệt lên, bộc lộ dây thanh."
+  },
+  {
+    "id": "PED01-V2-048",
+    "type": "basic",
+    "front": "Nêu nguyên tắc 'Đếm khi ngủ, đo khi yên' khi khám sinh hiệu cho trẻ em tại buồng bệnh?",
+    "back": "<b>📖 Nguyên tắc thăm khám:</b><br>Luôn đếm nhịp thở và nghe nhịp tim đầu tiên khi trẻ còn đang ngủ hoặc nằm yên tĩnh trong lòng mẹ.<br><br><b>🔍 Trình tự hợp lý:</b><br>Quan sát vẻ ngoài, kiểu thở ➔ Bắt mạch, nghe tim ➔ Đo huyết áp ➔ Các thao tác gây sợ hãi hoặc đau đớn (đè lưỡi soi họng, đo nhiệt độ hậu môn) bắt buộc phải để lại thực hiện cuối cùng."
   }
 ]
