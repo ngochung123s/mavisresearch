@@ -19,7 +19,7 @@
 | ID | Ưu tiên | Bài học | Phạm vi cốt lõi (Làm gì + Tại sao) | Phụ thuộc | Trạng thái |
 |---|:---:|---|---|---|:---:|
 | **PED-01** | P0 | Đặc điểm sinh lý & Bảng sinh hiệu bình thường theo tuổi | Mạch, HA, nhịp thở (ngưỡng thở nhanh WHO: <2th, 2-12th, 1-5t), nhiệt độ; công thức ước tính cân nặng; các mốc phát triển tâm vận chính. | — | ✅ GATES ĐẠT (MD + APKG 48 thẻ + App HTML) |
-| **PED-02** | P0 | Tam giác đánh giá nhi khoa (PAT) & Tiếp cận ABCDE | Đánh giá nhanh trong 60 giây đầu: Vẻ ngoài (Appearance) - Hô hấp (Breathing) - Tuần hoàn da (Circulation); phân biệt suy hô hấp vs kiệt sức hô hấp, sốc bù vs mất bù. | — | ❌ CHƯA CÓ |
+| **PED-02** | P0 | Tam giác đánh giá nhi khoa (PAT) & Tiếp cận ABCDE | Đánh giá nhanh trong 60 giây đầu: Vẻ ngoài (Appearance) - Hô hấp (Breathing) - Tuần hoàn da (Circulation); phân biệt suy hô hấp vs kiệt sức hô hấp, sốc bù vs mất bù. | — | 📝 MD-RELEASE + App HTML |
 | **PED-03** | P0 | Nguyên tắc kê đơn & Tính liều thuốc an toàn ở trẻ em | Tính liều theo mg/kg; **bẫy trần liều người lớn**; dạng bào chế thực tế (siro, cốm, viên đạn); tốc độ truyền dịch và các thuốc chống chỉ định ở trẻ nhỏ. | — | ❌ CHƯA CÓ |
 
 ---

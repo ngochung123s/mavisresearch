@@ -1,0 +1,1505 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PED-02 · Tam giác đánh giá nhi khoa (PAT) & Tiếp cận ABCDE</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/500.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/600.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/700.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/800.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.1.0/400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.1.0/700.css">
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['"Be Vietnam Pro"', 'system-ui', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'monospace']
+      },
+      colors: {
+        ink: '#050a12', panel: '#0b1524', teal2: '#2dd4bf', sky2: '#38bdf8',
+        amber2: '#fbbf24', rose2: '#fb7185', crimson: '#ef4444'
+      }
+    }
+  }
+}
+</script>
+<style>
+:root{
+  --bg:#050a12; --line:rgba(255,255,255,.09); --txt:#e6edf7; --mut:#8ba0bb;
+  --teal:#2dd4bf; --sky:#38bdf8; --amber:#fbbf24; --rose:#fb7185; --crim:#ef4444; --violet:#a78bfa;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:
+    radial-gradient(1100px 600px at 8% -10%, rgba(45,212,191,.16), transparent 60%),
+    radial-gradient(900px 500px at 95% 0%, rgba(56,189,248,.13), transparent 60%),
+    radial-gradient(700px 500px at 50% 110%, rgba(167,139,250,.10), transparent 60%),
+    var(--bg);
+  color:var(--txt); font-family:'Be Vietnam Pro',sans-serif; -webkit-font-smoothing:antialiased;
+}
+.mono{font-family:'JetBrains Mono',monospace}
+#prog{position:fixed;top:0;left:0;height:3px;width:0;z-index:90;
+  background:linear-gradient(90deg,var(--teal),var(--sky),var(--violet));box-shadow:0 0 14px rgba(45,212,191,.7)}
+.card{background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:18px;
+  backdrop-filter:blur(9px);transition:border-color .25s, transform .25s, background .25s}
+.card:hover{border-color:rgba(45,212,191,.28)}
+.cardFlat{background:rgba(255,255,255,.028);border:1px solid var(--line);border-radius:16px}
+.chip{display:inline-flex;align-items:center;gap:.4rem;padding:.28rem .7rem;border-radius:999px;
+  font-size:.72rem;font-weight:600;border:1px solid var(--line);background:rgba(255,255,255,.04)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.65rem 1.1rem;border-radius:12px;
+  font-weight:600;font-size:.88rem;border:1px solid var(--line);cursor:pointer;transition:.2s;background:rgba(255,255,255,.04);color:var(--txt)}
+.btn:hover{background:rgba(255,255,255,.09);transform:translateY(-1px)}
+.btn-teal{background:linear-gradient(135deg,#14b8a6,#0ea5e9);border:none;color:#04121a;font-weight:700}
+.btn-teal:hover{filter:brightness(1.1);box-shadow:0 8px 26px rgba(20,184,166,.35)}
+.btn-rose{background:linear-gradient(135deg,#f43f5e,#fb7185);border:none;color:#fff;font-weight:700}
+.navlink{display:flex;align-items:center;gap:.6rem;padding:.5rem .7rem;border-radius:10px;font-size:.83rem;
+  color:var(--mut);cursor:pointer;transition:.18s;border-left:2px solid transparent}
+.navlink:hover{background:rgba(255,255,255,.05);color:#cfe4ff}
+.navlink.active{background:linear-gradient(90deg,rgba(45,212,191,.16),transparent);color:#7ff5e6;border-left-color:var(--teal)}
+.sec-num{font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.18em;color:var(--teal);font-weight:700}
+h2.sec{font-size:clamp(1.4rem,3vw,2.05rem);font-weight:800;letter-spacing:-.02em;line-height:1.15;margin:.35rem 0 .6rem}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .6s cubic-bezier(.2,.7,.3,1),transform .6s cubic-bezier(.2,.7,.3,1)}
+.reveal.in{opacity:1;transform:none}
+.why{border-left:3px solid var(--violet);background:linear-gradient(90deg,rgba(167,139,250,.10),transparent 70%);
+  border-radius:0 12px 12px 0;padding:.85rem 1rem}
+.trap{border-left:3px solid var(--rose);background:linear-gradient(90deg,rgba(251,113,133,.10),transparent 70%);
+  border-radius:0 12px 12px 0;padding:.85rem 1rem}
+.act{border-left:3px solid var(--teal);background:linear-gradient(90deg,rgba(45,212,191,.10),transparent 70%);
+  border-radius:0 12px 12px 0;padding:.85rem 1rem}
+table.tb{width:100%;border-collapse:separate;border-spacing:0;font-size:.83rem}
+table.tb th{position:sticky;top:0;background:#0d1a2c;color:#9fe8dc;font-weight:700;text-align:left;padding:.7rem .75rem;
+  border-bottom:1px solid var(--line);z-index:2;font-size:.75rem;letter-spacing:.04em;text-transform:uppercase}
+table.tb td{padding:.62rem .75rem;border-bottom:1px solid rgba(255,255,255,.055);vertical-align:top;color:#cddcf0}
+table.tb tr:hover td{background:rgba(45,212,191,.05)}
+.badge-n{background:rgba(45,212,191,.14);color:#7ff5e6;border:1px solid rgba(45,212,191,.32)}
+.badge-w{background:rgba(251,191,36,.14);color:#fcd34d;border:1px solid rgba(251,191,36,.32)}
+.badge-d{background:rgba(239,68,68,.16);color:#fca5a5;border:1px solid rgba(239,68,68,.36)}
+.pulseD{animation:pulseD 1.4s infinite}
+@keyframes pulseD{0%,100%{box-shadow:0 0 0 0 rgba(239,68,68,.55)}50%{box-shadow:0 0 0 14px rgba(239,68,68,0)}}
+.tick{display:flex;gap:.6rem;align-items:flex-start;padding:.5rem .6rem;border-radius:10px;cursor:pointer;
+  border:1px solid transparent;transition:.15s}
+.tick:hover{background:rgba(255,255,255,.045);border-color:var(--line)}
+.tick .box{flex:0 0 auto;width:18px;height:18px;border-radius:6px;border:1.5px solid rgba(255,255,255,.28);
+  display:grid;place-items:center;margin-top:2px;font-size:11px;color:transparent;transition:.15s}
+.tick.on .box{background:var(--crim);border-color:var(--crim);color:#fff}
+.tick.on{background:rgba(239,68,68,.09);border-color:rgba(239,68,68,.28)}
+.tick.on .lbl{color:#fecdd3}
+.flip{perspective:1400px;height:230px;cursor:pointer}
+.flip-in{position:relative;width:100%;height:100%;transition:transform .55s cubic-bezier(.3,.8,.3,1);transform-style:preserve-3d}
+.flip.open .flip-in{transform:rotateY(180deg)}
+.fc-face{position:absolute;inset:0;backface-visibility:hidden;border-radius:16px;padding:1.1rem;display:flex;
+  flex-direction:column;justify-content:center;border:1px solid var(--line)}
+.fc-back{transform:rotateY(180deg);background:linear-gradient(160deg,rgba(45,212,191,.13),rgba(56,189,248,.06))}
+.acc-body{max-height:0;overflow:hidden;transition:max-height .5s cubic-bezier(.2,.7,.3,1)}
+.acc.open .acc-body{max-height:3600px}
+.acc.open .acc-arrow{transform:rotate(180deg)}
+.acc-arrow{transition:transform .3s}
+.ecg{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 3.4s linear infinite}
+@keyframes draw{to{stroke-dashoffset:-1400}}
+.opt{display:block;width:100%;text-align:left;padding:.8rem .95rem;border-radius:12px;border:1px solid var(--line);
+  background:rgba(255,255,255,.035);cursor:pointer;transition:.18s;color:#dbe7f7;font-size:.88rem}
+.opt:hover{border-color:rgba(45,212,191,.4);background:rgba(45,212,191,.08);transform:translateX(3px)}
+.opt.correct{border-color:#22c55e;background:rgba(34,197,94,.14);color:#bbf7d0}
+.opt.wrong{border-color:#ef4444;background:rgba(239,68,68,.13);color:#fecaca}
+.opt:disabled{cursor:default}
+input[type=range]{-webkit-appearance:none;height:6px;border-radius:99px;background:rgba(255,255,255,.14);outline:none}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;border-radius:50%;
+  background:linear-gradient(135deg,#2dd4bf,#38bdf8);cursor:pointer;box-shadow:0 0 0 5px rgba(45,212,191,.16)}
+select,input[type=number]{background:#0d1a2c;border:1px solid var(--line);color:var(--txt);border-radius:10px;
+  padding:.5rem .65rem;font-size:.87rem;outline:none}
+select:focus,input:focus{border-color:var(--teal)}
+::-webkit-scrollbar{width:9px;height:9px}::-webkit-scrollbar-track{background:#070d18}
+::-webkit-scrollbar-thumb{background:#1d3049;border-radius:9px}::-webkit-scrollbar-thumb:hover{background:#2b4a6b}
+.vert-node{cursor:pointer;transition:.25s}
+.vert-node:hover .vring{stroke-width:5}
+.vring{transition:.3s}
+.phase.active{background:linear-gradient(90deg,rgba(45,212,191,.2),transparent);border-color:rgba(45,212,191,.5)}
+@media print{aside,#prog,.noprint{display:none!important}body{background:#fff;color:#000}.card{background:#fff;border-color:#ccc}}
+</style>
+</head>
+<body>
+<div id="prog"></div>
+
+<!-- ============ SIDEBAR ============ -->
+<aside class="noprint fixed left-0 top-0 h-screen w-[266px] border-r border-white/10 bg-[#060c16]/92 backdrop-blur-xl z-40 hidden lg:flex flex-col">
+  <div class="p-5 border-b border-white/10">
+    <div class="flex items-center gap-2.5">
+      <svg width="34" height="34" viewBox="0 0 40 40" fill="none">
+        <path d="M20 4 L35 31 H5 Z" stroke="#2dd4bf" stroke-width="2.2" fill="rgba(45,212,191,.12)" stroke-linejoin="round"/>
+        <circle cx="20" cy="9" r="3.2" fill="#38bdf8"/><circle cx="8" cy="30" r="3.2" fill="#2dd4bf"/><circle cx="32" cy="30" r="3.2" fill="#fb7185"/>
+      </svg>
+      <div>
+        <div class="text-[.68rem] mono tracking-[.2em] text-teal-300/80">CORE 45 · BLOCK 0</div>
+        <div class="font-extrabold text-[.95rem] leading-tight">Nhi khoa thực hành</div>
+      </div>
+    </div>
+    <div class="mt-3 flex flex-wrap gap-1.5">
+      <span class="chip text-amber-200">📝 MD-DRAFT</span>
+      <span class="chip text-rose-300">P0</span>
+      <span class="chip mono text-sky-300">PED-02</span>
+    </div>
+  </div>
+  <nav id="nav" class="flex-1 overflow-y-auto p-3 space-y-[2px]"></nav>
+  <div class="p-4 border-t border-white/10 text-[.72rem] text-slate-400 space-y-1.5">
+    <div class="flex justify-between"><span>Nền tảng trước</span><span class="mono text-teal-300">PED-01</span></div>
+    <div class="flex justify-between"><span>Mở khoá cho</span><span class="mono text-teal-300">04 · 05 · 09</span></div>
+    <div class="pt-1.5"><button onclick="window.print()" class="btn w-full text-[.78rem] py-2">🖨️ In bài giảng</button></div>
+  </div>
+</aside>
+
+<!-- ============ MAIN ============ -->
+<main class="lg:ml-[266px]">
+  <!-- mobile top -->
+  <div class="lg:hidden sticky top-0 z-30 border-b border-white/10 bg-[#060c16]/95 backdrop-blur px-4 py-3 flex items-center justify-between">
+    <div class="font-extrabold text-sm">PED-02 · PAT & ABCDE</div>
+    <select id="mnav" onchange="location.hash=this.value" class="text-xs py-1.5"></select>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <header class="relative overflow-hidden border-b border-white/10">
+    <div class="absolute inset-0 opacity-[.14] pointer-events-none">
+      <svg width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 1200 400">
+        <path class="ecg" d="M0 210 H150 l18 -8 l14 22 l16 -60 l18 96 l16 -50 l14 12 H360 l20 -8 l14 22 l18 -62 l16 100 l16 -52 l12 12 H620 l22 -8 l14 22 l18 -60 l16 96 l16 -50 l14 12 H880 l20 -8 l14 22 l18 -62 l16 100 l16 -52 l12 12 H1200"
+          stroke="#2dd4bf" stroke-width="2.4" fill="none"/>
+      </svg>
+    </div>
+    <div class="relative max-w-6xl mx-auto px-5 md:px-8 pt-14 pb-12">
+      <div class="flex flex-wrap items-center gap-2 mb-5">
+        <span class="chip mono text-teal-300 border-teal-400/30 bg-teal-400/10">PED-02</span>
+        <span class="chip text-rose-300 border-rose-400/30 bg-rose-400/10">P0 · Trọng tâm cốt lõi</span>
+        <span class="chip text-slate-300">Block 0 — Nền tảng tư duy</span>
+        <span class="chip text-amber-200">📝 MD-DRAFT</span>
+      </div>
+      <h1 class="text-[clamp(1.9rem,5.2vw,3.4rem)] font-extrabold leading-[1.05] tracking-[-.03em]">
+        Tam giác đánh giá nhi khoa <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-sky-400">(PAT)</span><br>
+        <span class="text-slate-300 text-[clamp(1.3rem,3.4vw,2.2rem)] font-bold">&amp; Tiếp cận ABCDE tại giường</span>
+      </h1>
+      <p class="mt-5 text-slate-300/90 max-w-3xl leading-relaxed">
+        60 giây đầu tiên ở cuối giường quyết định <b class="text-teal-300">bạn đang nhìn một đứa trẻ ốm</b> hay
+        <b class="text-rose-300">một đứa trẻ sắp ngừng tim</b>. PAT cho bạn chẩn đoán <i>mức độ nặng</i> trước cả khi chạm vào bệnh nhi;
+        ABCDE cho bạn trình tự hành động không bỏ sót. Bài này dạy cả hai — và quan trọng hơn: <b class="text-violet-300">tại sao</b>.
+      </p>
+      <div class="mt-7 flex flex-wrap gap-2.5">
+        <a href="#tool" class="btn btn-teal">🔺 Mở công cụ PAT Builder</a>
+        <a href="#drill" class="btn">🎯 Rèn luyện 9 tình huống</a>
+        <a href="#abcde" class="btn">🩺 Đi lại ABCDE</a>
+        <a href="#quiz" class="btn">📝 Trắc nghiệm 10 câu</a>
+      </div>
+      <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-3">
+        <div class="cardFlat p-4"><div class="mono text-2xl font-bold text-teal-300">60 s</div><div class="text-[.76rem] text-slate-400 mt-1">Thời gian đánh giá từ cuối giường, <b>không chạm trẻ</b></div></div>
+        <div class="cardFlat p-4"><div class="mono text-2xl font-bold text-sky-300">3 cạnh</div><div class="text-[.76rem] text-slate-400 mt-1">Appearance · Work of Breathing · Circulation to skin</div></div>
+        <div class="cardFlat p-4"><div class="mono text-2xl font-bold text-amber-300">8 mẫu</div><div class="text-[.76rem] text-slate-400 mt-1">Tổ hợp PAT → phân tầng nguy cơ &amp; hành động</div></div>
+        <div class="cardFlat p-4"><div class="mono text-2xl font-bold text-rose-300">70+2T</div><div class="text-[.76rem] text-slate-400 mt-1">Ngưỡng HA tâm thu tối thiểu (1–10 tuổi) — HA tụt là <b>dấu hiệu muộn</b></div></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="max-w-6xl mx-auto px-5 md:px-8 py-12 space-y-20">
+
+    <!-- ============ 01 MỤC TIÊU ============ -->
+    <section id="muc-tieu" class="scroll-mt-6 reveal">
+      <div class="sec-num">01 / MỤC TIÊU</div>
+      <h2 class="sec">Sau bài này, bạn phải làm được gì trước mặt bệnh nhân</h2>
+      <p class="text-slate-400 max-w-3xl -mt-1 mb-6">Đây là năng lực <b class="text-slate-200">hành vi</b>, không phải kiến thức để đọc. Mỗi mục tiêu đều có công cụ luyện trong bài.</p>
+      <div class="grid md:grid-cols-2 gap-3.5">
+        <div class="card p-5 flex gap-4"><div class="mono text-teal-300 font-bold text-lg">1</div><div><div class="font-bold">Thực hiện đánh giá PAT trong 60 giây</div><p class="text-sm text-slate-400 mt-1">Đứng cuối giường, quan sát theo trình tự Appearance → Công thở → Tuần hoàn da <b>trước khi chạm vào trẻ</b>, rồi phân loại mẫu hình.</p></div></div>
+        <div class="card p-5 flex gap-4"><div class="mono text-teal-300 font-bold text-lg">2</div><div><div class="font-bold">Áp dụng TICLS để lượng giá Appearance</div><p class="text-sm text-slate-400 mt-1">Tone · Interactiveness · Consolability · Look/Gaze · Speech/Cry — cửa sổ nhìn vào chức năng não (tưới máu + oxy + chuyển hóa não).</p></div></div>
+        <div class="card p-5 flex gap-4"><div class="mono text-teal-300 font-bold text-lg">3</div><div><div class="font-bold">Phân biệt suy hô hấp còn bù vs kiệt sức hô hấp</div><p class="text-sm text-slate-400 mt-1">Nhận ra bẫy <b class="text-rose-300">"cải thiện giả"</b>: co kéo giảm + nhịp thở chậm lại nhưng tri giác xấu đi = cơ hô hấp đã mỏi, dọa ngừng thở.</p></div></div>
+        <div class="card p-5 flex gap-4"><div class="mono text-teal-300 font-bold text-lg">4</div><div><div class="font-bold">Phân biệt sốc còn bù vs sốc mất bù</div><p class="text-sm text-slate-400 mt-1">Dùng ngưỡng HA tâm thu tối thiểu theo tuổi; hiểu vì sao trẻ giữ được HA rất lâu rồi tụt đột ngột và ngừng tim trong vài phút.</p></div></div>
+        <div class="card p-5 flex gap-4"><div class="mono text-teal-300 font-bold text-lg">5</div><div><div class="font-bold">Chạy ABCDE có hệ thống, không bỏ sót</div><p class="text-sm text-slate-400 mt-1">Biết ở mỗi bước: <i>nhìn gì – nghe gì – can thiệp gì – vì sao</i>, kèm các mốc thời gian quyết định (IO sau 90 s / 3 lần chọc TM thất bại).</p></div></div>
+        <div class="card p-5 flex gap-4"><div class="mono text-teal-300 font-bold text-lg">6</div><div><div class="font-bold">Đánh giá lại (reassessment) theo chu kỳ</div><p class="text-sm text-slate-400 mt-1">PAT là công cụ <b>động</b>: lặp lại sau mỗi can thiệp và theo mức độ nặng — trẻ nặng: mỗi 5–15 phút; trẻ ổn định: mỗi 4 giờ.</p></div></div>
+      </div>
+
+      <div class="card mt-5 p-5">
+        <div class="text-xs mono tracking-[.18em] text-slate-400 mb-3">BẢN ĐỒ BÀI HỌC · VỊ TRÍ TRONG CHUỖI PHỤ THUỘC</div>
+        <div class="flex flex-wrap items-center gap-2 text-sm">
+          <span class="chip text-slate-300">PED-01 Sinh lý &amp; sinh hiệu theo tuổi</span>
+          <span class="text-teal-300">→</span>
+          <span class="chip !bg-teal-400/15 !border-teal-400/40 text-teal-200 font-bold">PED-02 PAT &amp; ABCDE</span>
+          <span class="text-teal-300">→</span>
+          <span class="chip text-slate-300">PED-03 Liều thuốc mg/kg</span>
+          <span class="text-teal-300">→</span>
+          <span class="chip text-slate-300">PED-04 PALS</span>
+          <span class="chip text-slate-300">PED-05 Sốc</span>
+          <span class="chip text-slate-300">PED-09 Dị vật đường thở</span>
+        </div>
+        <p class="text-[.82rem] text-slate-400 mt-3">PAT trả lời câu hỏi <b class="text-teal-300">"NẶNG ĐẾN MỨC NÀO – CÓ PHẢI CẤP CỨU KHÔNG"</b>; ABCDE trả lời <b class="text-sky-300">"BÂY GIỜ LÀM GÌ, THEO THỨ TỰ NÀO"</b>. Chẩn đoán bệnh danh (viêm phổi, hen, Dengue…) đến <i>sau</i> hai bước này — đó chính là khác biệt giữa tư duy cấp cứu nhi và tư duy nội khoa kinh điển.</p>
+      </div>
+    </section>
+
+    <!-- ============ 02 PAT ============ -->
+    <section id="pat" class="scroll-mt-6 reveal">
+      <div class="sec-num">02 / TAM GIÁC ĐÁNH GIÁ</div>
+      <h2 class="sec">PAT: 3 cạnh = 3 cửa sổ sinh lý</h2>
+      <p class="text-slate-400 max-w-3xl -mt-1 mb-7">
+        Mỗi cạnh của tam giác phản ánh một hệ thống sinh lý khác nhau. Vì vậy <b class="text-slate-200">tổ hợp</b> ba cạnh cho bạn
+        chẩn đoán <i>sinh lý bệnh</i> ngay tại giường — trước khi có máy móc, xét nghiệm hay bệnh danh.
+      </p>
+
+      <div class="grid lg:grid-cols-[minmax(0,1fr)_340px] gap-6 items-start">
+        <!-- TRIANGLE SVG -->
+        <div class="card p-4 md:p-6">
+          <svg viewBox="0 0 620 540" class="w-full h-auto select-none">
+            <defs>
+              <linearGradient id="triFill" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#2dd4bf" stop-opacity=".14"/>
+                <stop offset="100%" stop-color="#38bdf8" stop-opacity=".04"/>
+              </linearGradient>
+              <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+            <polygon points="310,105 95,415 525,415" fill="url(#triFill)" stroke="rgba(255,255,255,.18)" stroke-width="1.6"/>
+            <g stroke-dasharray="5 7" stroke="rgba(255,255,255,.13)">
+              <line x1="310" y1="105" x2="310" y2="415"/><line x1="95" y1="415" x2="310" y2="300"/><line x1="525" y1="415" x2="310" y2="300"/>
+            </g>
+
+            <!-- center verdict -->
+            <g>
+              <circle id="ctrRing" cx="310" cy="318" r="74" fill="rgba(5,12,20,.85)" stroke="#2dd4bf" stroke-width="2"/>
+              <text id="ctrL1" x="310" y="308" text-anchor="middle" fill="#7ff5e6" font-size="15" font-weight="800" font-family="Be Vietnam Pro">BÌNH THƯỜNG</text>
+              <text id="ctrL2" x="310" y="330" text-anchor="middle" fill="#8ba0bb" font-size="11" font-family="Be Vietnam Pro">chưa có dấu hiệu nguy kịch</text>
+              <text x="310" y="352" text-anchor="middle" fill="#5b7391" font-size="9.5" font-family="JetBrains Mono">PAT VERDICT</text>
+            </g>
+
+            <!-- Appearance vertex (top) -->
+            <g class="vert-node" onclick="jumpSide('appearance')">
+              <circle id="vA_ring" class="vring" cx="310" cy="92" r="34" fill="#0b1524" stroke="#2dd4bf" stroke-width="3" filter="url(#glow)"/>
+              <text id="vA_txt" x="310" y="99" text-anchor="middle" fill="#7ff5e6" font-size="22" font-weight="800" font-family="JetBrains Mono">A</text>
+              <text x="310" y="42" text-anchor="middle" fill="#e6edf7" font-size="16" font-weight="800" font-family="Be Vietnam Pro">APPEARANCE</text>
+              <text x="310" y="60" text-anchor="middle" fill="#8ba0bb" font-size="11.5" font-family="Be Vietnam Pro">Vẻ ngoài · TICLS → CHỨC NĂNG NÃO</text>
+            </g>
+            <!-- WOB vertex (bottom-left) -->
+            <g class="vert-node" onclick="jumpSide('wob')">
+              <circle id="vW_ring" class="vring" cx="80" cy="440" r="34" fill="#0b1524" stroke="#2dd4bf" stroke-width="3" filter="url(#glow)"/>
+              <text id="vW_txt" x="80" y="447" text-anchor="middle" fill="#7ff5e6" font-size="22" font-weight="800" font-family="JetBrains Mono">W</text>
+              <text x="96" y="496" text-anchor="middle" fill="#e6edf7" font-size="16" font-weight="800" font-family="Be Vietnam Pro">WORK OF BREATHING</text>
+              <text x="96" y="514" text-anchor="middle" fill="#8ba0bb" font-size="11.5" font-family="Be Vietnam Pro">Công thở → NHU CẦU O₂ / THÔNG KHÍ</text>
+            </g>
+            <!-- Circulation vertex (bottom-right) -->
+            <g class="vert-node" onclick="jumpSide('circ')">
+              <circle id="vC_ring" class="vring" cx="540" cy="440" r="34" fill="#0b1524" stroke="#2dd4bf" stroke-width="3" filter="url(#glow)"/>
+              <text id="vC_txt" x="540" y="447" text-anchor="middle" fill="#7ff5e6" font-size="22" font-weight="800" font-family="JetBrains Mono">C</text>
+              <text x="524" y="496" text-anchor="middle" fill="#e6edf7" font-size="16" font-weight="800" font-family="Be Vietnam Pro">CIRCULATION TO SKIN</text>
+              <text x="524" y="514" text-anchor="middle" fill="#8ba0bb" font-size="11.5" font-family="Be Vietnam Pro">Tuần hoàn da → CUNG LƯỢNG TIM</text>
+            </g>
+          </svg>
+        </div>
+
+        <!-- LIVE PANEL -->
+        <div class="space-y-4 lg:sticky lg:top-5">
+          <div class="card p-5">
+            <div class="text-xs mono tracking-[.16em] text-slate-400 mb-2">KẾT QUẢ PAT TRỰC TIẾP</div>
+            <div id="verdictCard" class="rounded-xl p-4 badge-n">
+              <div id="verdictTitle" class="font-extrabold text-lg leading-tight">Chưa có bất thường</div>
+              <div id="verdictSub" class="text-[.82rem] mt-1 opacity-90">Đánh dấu các dấu hiệu ở công cụ PAT Builder bên dưới để phân loại.</div>
+            </div>
+            <div id="verdictMeta" class="mt-3 grid grid-cols-3 gap-2 text-center">
+              <div class="cardFlat p-2"><div class="text-[.66rem] text-slate-400">Appearance</div><div id="mA" class="mono font-bold text-teal-300 mt-0.5">N</div></div>
+              <div class="cardFlat p-2"><div class="text-[.66rem] text-slate-400">Công thở</div><div id="mW" class="mono font-bold text-teal-300 mt-0.5">N</div></div>
+              <div class="cardFlat p-2"><div class="text-[.66rem] text-slate-400">Tuần hoàn da</div><div id="mC" class="mono font-bold text-teal-300 mt-0.5">N</div></div>
+            </div>
+            <div class="mt-3 text-[.78rem] text-slate-400 leading-relaxed" id="verdictAction">
+              <b class="text-teal-300">Hành động:</b> tiếp tục thăm khám theo trọng tâm, đo sinh hiệu đầy đủ.
+            </div>
+          </div>
+          <div class="cardFlat p-4 why">
+            <div class="text-[.7rem] mono tracking-[.16em] text-violet-300 mb-1.5">VÌ SAO 3 CẠCH NÀY?</div>
+            <p class="text-[.82rem] text-slate-300 leading-relaxed">
+              PAT là sự cô đặc của <b>sinh lý bù trừ nhi khoa</b>: não là cơ quan được ưu tiên tưới máu cuối cùng
+              (nên Appearance bất thường = bù trừ đã thất bại), hô hấp phải trả giá bằng <b>công thở</b> khi nhu cầu O₂ tăng,
+              và tuần hoàn hy sinh <b>da – cơ – ruột</b> để giữ tim và não. Ba hệ thống này độc lập tương đối → tổ hợp của chúng
+              tạo ra 8 mẫu hình có giá trị tiên lượng rất cao, kể cả với người chưa có kinh nghiệm.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 SIDES DETAIL -->
+      <div class="grid lg:grid-cols-3 gap-4 mt-6">
+        <!-- APPEARANCE -->
+        <div class="card p-5" id="appearance">
+          <div class="flex items-center gap-2.5 mb-1">
+            <span class="w-9 h-9 rounded-xl grid place-items-center bg-teal-400/15 border border-teal-400/30 font-bold text-teal-300 mono">A</span>
+            <div><div class="font-extrabold">Appearance — Vẻ ngoài</div><div class="text-[.7rem] mono tracking-wider text-teal-300/80">TICLS · phản ánh CHỨC NĂNG NÃO</div></div>
+          </div>
+          <p class="text-[.83rem] text-slate-400 mt-2 mb-3 leading-relaxed">Cạnh <b>quan trọng nhất</b>. Trẻ giữ được vẻ ngoài bình thường nghĩa là não còn đủ oxy và tưới máu. Appearance bất thường ở trẻ em luôn là <b class="text-rose-300">tình trạng nặng</b>, không bao giờ là "trẻ mệt chút thôi".</p>
+          <div class="space-y-2.5 text-[.83rem]">
+            <div class="cardFlat p-3"><div class="font-bold text-teal-200">T — Tone (Trương lực cơ)</div><p class="text-slate-400 mt-1">✅ Cử động tự nhiên, kháng cự khi khám, bú mạnh, nằm co.<br>❌ Mềm nhão, duỗi, tay chân buông thõng, không kháng cự.</p></div>
+            <div class="cardFlat p-3"><div class="font-bold text-teal-200">I — Interactiveness (Tương tác)</div><p class="text-slate-400 mt-1">✅ Chơi với đồ chơi/mẹ, tò mò với người lạ, dõi theo.<br>❌ Li bì, không quan tâm môi trường, không chơi, ánh mắt "trống".</p></div>
+            <div class="cardFlat p-3"><div class="font-bold text-teal-200">C — Consolability (Dỗ nín được)</div><p class="text-slate-400 mt-1">✅ Khóc nhưng dỗ được khi mẹ ôm/cho bú.<br>❌ Khóc không dỗ được, rên rỉ liên tục, hoặc ngược lại: không khóc nổi.</p></div>
+            <div class="cardFlat p-3"><div class="font-bold text-teal-200">L — Look / Gaze (Ánh nhìn)</div><p class="text-slate-400 mt-1">✅ Nhìn thẳng vào người khám, giao tiếp mắt, nhìn theo vật.<br>❌ Nhìn xa xăm vô định, mắt không hội tụ, lơ đãng.</p></div>
+            <div class="cardFlat p-3"><div class="font-bold text-teal-200">S — Speech / Cry (Nói · Khóc)</div><p class="text-slate-400 mt-1">✅ Khóc to khỏe (trẻ nhỏ); nói rõ, thành câu (trẻ lớn).<br>❌ Khóc yếu, khóc the thé cao vút, rên, nói ngắt quãng từng từ vì khó thở, khàn tiếng.</p></div>
+          </div>
+          <div class="why mt-3"><div class="text-[.7rem] mono tracking-[.14em] text-violet-300 mb-1">WHY</div><p class="text-[.8rem] text-slate-300 leading-relaxed">Não tiêu thụ ~25% VO₂ toàn cơ thể ở trẻ nhỏ nhưng <b>không có dự trữ</b>. Bất kỳ nguyên nhân nào làm giảm cung cấp (thiếu oxy, giảm cung lượng tim, hạ đường huyết, nhiễm trùng CNS, ngộ độc) đều biểu hiện <b>trước tiên</b> ở hành vi — sớm hơn HA, sớm hơn SpO₂ tụt.</p></div>
+        </div>
+
+        <!-- WOB -->
+        <div class="card p-5" id="wob">
+          <div class="flex items-center gap-2.5 mb-1">
+            <span class="w-9 h-9 rounded-xl grid place-items-center bg-sky-400/15 border border-sky-400/30 font-bold text-sky-300 mono">W</span>
+            <div><div class="font-extrabold">Work of Breathing — Công thở</div><div class="text-[.7rem] mono tracking-wider text-sky-300/80">phản ánh NHU CẦU O₂ &amp; THÔNG KHÍ TĂNG</div></div>
+          </div>
+          <p class="text-[.83rem] text-slate-400 mt-2 mb-3 leading-relaxed">Nhìn từ <b>đầu xuống chân</b>, đếm đủ 60 giây. Công thở tăng nghĩa là trẻ đang <b>trả giá bằng năng lượng</b> để duy trì trao đổi khí — nguồn dự trữ có hạn.</p>
+          <div class="space-y-2.5 text-[.83rem]">
+            <div class="cardFlat p-3"><div class="font-bold text-sky-200">Âm thanh bất thường</div><p class="text-slate-400 mt-1"><b>Thở rít (stridor)</b> thì hít vào → tắc đường hô hấp trên (croup, dị vật, viêm nắp thanh quản).<br><b>Khò khè (wheezing)</b> thì thở ra → tắc đường hô hấp dưới (hen, VTPQ).<br><b>Thở rên (grunting)</b> thì thở ra → trẻ tự tạo PEEP chống xẹp phổi: dấu hiệu nặng.</p></div>
+            <div class="cardFlat p-3"><div class="font-bold text-sky-200">Tư thế chống khó thở</div><p class="text-slate-400 mt-1">Ngồi chồm hổm 3 điểm tựa (tripod), ngửa cổ, từ chối nằm phẳng, bám vai mẹ, khuỷu tay dạng ra.</p></div>
+            <div class="cardFlat p-3"><div class="font-bold text-sky-200">Co kéo &amp; phập phồng cánh mũi</div><p class="text-slate-400 mt-1">Trên ức → liên sườn → dưới sườn → hõm thượng vị. Ở nhũ nhi: <b>đầu gật gù (head bobbing)</b>, thở bụng, thở thấy bụng-ngực ngược pha (paradox).</p></div>
+            <div class="cardFlat p-3"><div class="font-bold text-sky-200">Nhịp thở</div><p class="text-slate-400 mt-1">Nhanh theo ngưỡng WHO → gợi ý bệnh phổi.<br><b class="text-rose-300">Chậm / không đều / ngừng thở từng cơn</b> → kiệt sức, tổn thương CNS, sắp ngừng thở.</p></div>
+          </div>
+          <div class="why mt-3"><div class="text-[.7rem] mono tracking-[.14em] text-violet-300 mb-1">WHY</div><p class="text-[.8rem] text-slate-300 leading-relaxed">Cơ hoành trẻ chứa nhiều sợi cơ type II (chuyển hóa yếm khí, mau mỏi), xương sườn nằm ngang nên không tăng được thể tích khí lưu thông — trẻ chỉ còn cách <b>tăng tần số</b>. FRC thấp + VO₂ cao (6–8 ml/kg/phút) → thời gian chịu đựng ngừng thở rất ngắn. Khi cơ mỏi, trẻ <i>buộc phải</i> bỏ cuộc: đó là lúc nhịp thở chậm lại.</p></div>
+        </div>
+
+        <!-- CIRC -->
+        <div class="card p-5" id="circ">
+          <div class="flex items-center gap-2.5 mb-1">
+            <span class="w-9 h-9 rounded-xl grid place-items-center bg-rose-400/15 border border-rose-400/30 font-bold text-rose-300 mono">C</span>
+            <div><div class="font-extrabold">Circulation to Skin</div><div class="text-[.7rem] mono tracking-wider text-rose-300/80">phản ánh CUNG LƯỢNG TIM</div></div>
+          </div>
+          <p class="text-[.83rem] text-slate-400 mt-2 mb-3 leading-relaxed">Da là cơ quan <b>bị hy sinh đầu tiên</b> khi cung lượng tim giảm. Vì vậy đây là cạnh nhạy nhất để phát hiện <b>sốc còn bù</b> — khi HA vẫn hoàn toàn bình thường.</p>
+          <div class="space-y-2.5 text-[.83rem]">
+            <div class="cardFlat p-3"><div class="font-bold text-rose-200">Tái nhợt (Pallor)</div><p class="text-slate-400 mt-1">Co mạch ngoại vi sớm. So sánh với màu da nền quen thuộc của trẻ và với lòng bàn tay, niêm mạc.</p></div>
+            <div class="cardFlat p-3"><div class="font-bold text-rose-200">Bông tím / vằn da (Mottling)</div><p class="text-slate-400 mt-1">Mạng lưới tím nhạt ở chi, thân mình → co mạch không đều. Nặng hơn tái đơn thuần; gặp trong sốc lạnh (sốc nhiễm khuẩn giai đoạn muộn).</p></div>
+            <div class="cardFlat p-3"><div class="font-bold text-rose-200">Tím (Cyanosis)</div><p class="text-slate-400 mt-1"><b>Trung tâm</b> (môi, lưỡi, niêm mạc) → giảm oxy máu nặng.<br><b>Ngoại vi</b> (đầu chi, quanh môi) → co mạch/lạnh, ít giá trị.<br><span class="text-rose-300">Tím là dấu hiệu MUỘN.</span></p></div>
+            <div class="cardFlat p-3"><div class="font-bold text-rose-200">CRT — thời gian làm đầy mao mạch</div><p class="text-slate-400 mt-1">Ấn xương ức hoặc mặt lòng đốt ngón tay <b>5 giây</b>, thả ra, đếm thời gian da hồng lại.<br>✅ &lt; 2 s · ⚠️ 2–3 s · ❌ &gt; 3 s = sốc.<br>Chuẩn hoá: nhiệt độ phòng ≥ 24 °C, nâng chi ngang tim, đủ ánh sáng.</p></div>
+          </div>
+          <div class="why mt-3"><div class="text-[.7rem] mono tracking-[.14em] text-violet-300 mb-1">WHY</div><p class="text-slate-300 text-[.8rem] leading-relaxed">Catecholamine nội sinh gây co mạch da – cơ – thận – ruột để dồn máu cho tim và não → <b>HA còn bình thường rất lâu</b>. Khi da đã bông tím và CRT dài, cơ thể đang ở "đỉnh" của nỗ lực bù trừ; chỉ cần thêm một chút mất dịch nữa là tụt HA. Trẻ em không "tụt dần" — trẻ <b>rơi xuống vực</b>.</p></div>
+        </div>
+      </div>
+
+      <!-- 8 PATTERNS TABLE -->
+      <div class="card mt-6 overflow-hidden">
+        <div class="px-5 py-4 border-b border-white/10 flex flex-wrap items-center justify-between gap-2">
+          <div><div class="font-extrabold">8 mẫu hình PAT → phân tầng nguy cơ &amp; hành động</div><div class="text-[.78rem] text-slate-400 mt-0.5">Bảng này là "máy phiên dịch" của tam giác. Học thuộc cột hành động.</div></div>
+          <span class="chip text-slate-300">A = Appearance · W = Công thở · C = Tuần hoàn da</span>
+        </div>
+        <div class="overflow-x-auto max-h-[560px] overflow-y-auto">
+          <table class="tb">
+            <thead><tr><th>A</th><th>W</th><th>C</th><th>Mẫu hình</th><th>Sinh lý bệnh</th><th>Hành động ngay</th></tr></thead>
+            <tbody id="patternBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 03 TOOL ============ -->
+    <section id="tool" class="scroll-mt-6 reveal">
+      <div class="sec-num">03 / CÔNG CỤ TƯƠNG TÁC</div>
+      <h2 class="sec">PAT Builder — đánh dấu dấu hiệu, hệ thống phân loại giúp bạn</h2>
+      <p class="text-slate-400 max-w-3xl -mt-1 mb-6">Dùng khi học ca lâm sàng hoặc khi đứng trước bệnh nhân thật: tick từng dấu hiệu <b>bất thường</b> bạn quan sát được. Cạnh nào có ≥ 1 dấu hiệu sẽ chuyển sang bất thường, và verdict ở giữa tam giác cập nhật tức thì.</p>
+      <div class="grid lg:grid-cols-3 gap-4">
+        <div class="card p-5">
+          <div class="flex items-center justify-between mb-3"><div class="font-extrabold text-teal-200">A · Appearance (TICLS)</div><span id="cA" class="chip badge-n mono">0</span></div>
+          <div id="ticksA" class="space-y-1"></div>
+        </div>
+        <div class="card p-5">
+          <div class="flex items-center justify-between mb-3"><div class="font-extrabold text-sky-200">W · Công thở</div><span id="cW" class="chip badge-n mono">0</span></div>
+          <div id="ticksW" class="space-y-1"></div>
+        </div>
+        <div class="card p-5">
+          <div class="flex items-center justify-between mb-3"><div class="font-extrabold text-rose-200">C · Tuần hoàn da</div><span id="cC" class="chip badge-n mono">0</span></div>
+          <div id="ticksC" class="space-y-1"></div>
+        </div>
+      </div>
+      <div class="card mt-4 p-5 flex flex-wrap items-center gap-4 justify-between">
+        <div class="flex-1 min-w-[260px]">
+          <div class="text-xs mono tracking-[.16em] text-slate-400 mb-1.5">KẾT LUẬN TỔNG HỢP</div>
+          <div id="bigVerdict" class="text-xl font-extrabold text-teal-200">Chưa có bất thường</div>
+          <div id="bigWhy" class="text-[.85rem] text-slate-400 mt-1.5 leading-relaxed">Tam giác bình thường. Vẫn phải đo sinh hiệu đầy đủ theo tuổi (PED-01) và đánh giá lại.</div>
+        </div>
+        <div class="flex gap-2">
+          <button onclick="resetPat()" class="btn">↺ Xoá</button>
+          <button onclick="loadExample()" class="btn btn-teal">⚡ Nạp ca ví dụ</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04 60 GIÂY ============ -->
+    <section id="giay60" class="scroll-mt-6 reveal">
+      <div class="sec-num">04 / KỸ THUẬT</div>
+      <h2 class="sec">Quy trình 60 giây cuối giường — và vì sao KHÔNG chạm vào trẻ</h2>
+      <div class="grid lg:grid-cols-[340px_minmax(0,1fr)] gap-6 items-start">
+        <div class="card p-6 text-center">
+          <svg viewBox="0 0 220 220" class="w-full max-w-[240px] mx-auto">
+            <circle cx="110" cy="110" r="92" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="14"/>
+            <circle id="ringT" cx="110" cy="110" r="92" fill="none" stroke="url(#gt)" stroke-width="14" stroke-linecap="round"
+              stroke-dasharray="578" stroke-dashoffset="578" transform="rotate(-90 110 110)"/>
+            <defs><linearGradient id="gt" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2dd4bf"/><stop offset="100%" stop-color="#38bdf8"/></linearGradient></defs>
+            <text id="tNum" x="110" y="112" text-anchor="middle" fill="#e6edf7" font-size="52" font-weight="800" font-family="JetBrains Mono">60</text>
+            <text x="110" y="140" text-anchor="middle" fill="#8ba0bb" font-size="13" font-family="Be Vietnam Pro">giây</text>
+          </svg>
+          <button id="btn60" onclick="startTimer()" class="btn btn-teal w-full mt-2">▶ Bắt đầu luyện 60 giây</button>
+          <button onclick="stopTimer()" class="btn w-full mt-2 text-sm py-2">■ Dừng</button>
+        </div>
+        <div class="space-y-2.5" id="phases">
+          <div class="phase cardFlat p-4" data-p="0">
+            <div class="flex items-center gap-3"><span class="mono text-teal-300 font-bold text-sm w-16">0 – 5 s</span><div class="font-bold">Đứng yên, nhìn toàn cảnh</div></div>
+            <p class="text-[.83rem] text-slate-400 mt-1.5 leading-relaxed">Không nói, không chạm. Nhìn tư thế trẻ trong tay mẹ, màu da, kiểu thở, mức độ hoạt động. Hỏi mẹ nhanh: <i>"Cháu khác mọi ngày thế nào?"</i> — trực giác của cha mẹ có độ nhạy rất cao.</p>
+          </div>
+          <div class="phase cardFlat p-4" data-p="1">
+            <div class="flex items-center gap-3"><span class="mono text-teal-300 font-bold text-sm w-16">5 – 20 s</span><div class="font-bold">Appearance — đi hết TICLS</div></div>
+            <p class="text-[.83rem] text-slate-400 mt-1.5 leading-relaxed">Trương lực → tương tác → dỗ nín → ánh nhìn → tiếng khóc/nói. Gọi tên trẻ, đưa đồ chơi, quan sát trẻ với mẹ.</p>
+          </div>
+          <div class="phase cardFlat p-4" data-p="2">
+            <div class="flex items-center gap-3"><span class="mono text-sky-300 font-bold text-sm w-16">20 – 40 s</span><div class="font-bold">Work of Breathing — đầu xuống chân</div></div>
+            <p class="text-[.83rem] text-slate-400 mt-1.5 leading-relaxed">Nghe âm thanh (stridor/wheeze/grunt) → tư thế → cánh mũi → co kéo các tầng → biên độ ngực-bụng → <b>đếm nhịp thở đủ 60 giây</b> (có thể tách ra làm sau nhưng bắt buộc đủ 60 s).</p>
+          </div>
+          <div class="phase cardFlat p-4" data-p="3">
+            <div class="flex items-center gap-3"><span class="mono text-rose-300 font-bold text-sm w-16">40 – 55 s</span><div class="font-bold">Circulation to Skin</div></div>
+            <p class="text-[.83rem] text-slate-400 mt-1.5 leading-relaxed">Màu da (tái / bông tím / tím trung tâm), chi lạnh hay ấm. Nếu trẻ yên lặng: ấn xương ức 5 s để đo CRT.</p>
+          </div>
+          <div class="phase cardFlat p-4" data-p="4">
+            <div class="flex items-center gap-3"><span class="mono text-violet-300 font-bold text-sm w-16">55 – 60 s</span><div class="font-bold">Phân loại &amp; quyết định</div></div>
+            <p class="text-[.83rem] text-slate-400 mt-1.5 leading-relaxed">3 lựa chọn duy nhất: <b class="text-teal-300">Ổn định</b> (khám tiếp theo trọng tâm) · <b class="text-amber-300">Cần can thiệp trong vài phút</b> (oxy, đường TM, dịch, thuốc) · <b class="text-rose-300">Cần can thiệp NGAY</b> (gọi hỗ trợ, bóp bóng, ép tim, adrenaline).</p>
+          </div>
+          <div class="trap mt-3"><div class="text-[.7rem] mono tracking-[.14em] text-rose-300 mb-1">BẪY SỐ 1</div><p class="text-[.82rem] text-slate-300 leading-relaxed">Chạm trẻ / dùng ống nghe lạnh <b>trước khi</b> quan sát → trẻ khóc nấc, tím tái, co kéo khắp nơi. Bạn vừa <b>phá huỷ</b> dữ liệu quý nhất của PAT và có thể gây nguy hiểm cho trẻ viêm nắp thanh quản hoặc tăng áp lực nội sọ. <b>Nguyên tắc: MẮT TRƯỚC – TAY SAU.</b></p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 05 SUY HH vs KIỆT SỨC ============ -->
+    <section id="suy-ho-hap" class="scroll-mt-6 reveal">
+      <div class="sec-num">05 / PHÂN BIỆT SỐNG CÒN #1</div>
+      <h2 class="sec">Suy hô hấp còn bù vs Kiệt sức hô hấp (dọa ngừng thở)</h2>
+      <p class="text-slate-400 max-w-3xl -mt-1 mb-6">Cùng một đứa trẻ, hai thời điểm. Ranh giới giữa hai cột dưới đây là ranh giới giữa <b class="text-teal-300">"thở oxy, theo dõi"</b> và <b class="text-rose-300">"bóp bóng – đặt ống – gọi hồi sức"</b>.</p>
+
+      <div class="grid lg:grid-cols-2 gap-4">
+        <div class="card p-5 border-teal-400/25">
+          <div class="flex items-center gap-2 mb-3"><span class="chip badge-w">CÒN BÙ</span><h3 class="font-extrabold text-lg">Suy hô hấp (Respiratory distress)</h3></div>
+          <ul class="space-y-2 text-[.86rem] text-slate-300">
+            <li>✅ <b>Nhịp thở NHANH</b> theo ngưỡng WHO — cơ chế bù chính của trẻ nhỏ</li>
+            <li>✅ Co kéo rõ (trên ức, liên sườn, dưới sườn), phập phồng cánh mũi</li>
+            <li>✅ Thở rên, stridor hoặc khò khè nghe được từ xa</li>
+            <li>✅ Tư thế chống khó thở (tripod, ngửa cổ), từ chối nằm</li>
+            <li>✅ <b class="text-teal-300">Appearance CÒN TỐT</b>: tỉnh, khóc to, tương tác, dỗ được</li>
+            <li>✅ Da hồng hoặc tái nhẹ; CRT &lt; 2 s; SpO₂ có thể vẫn ≥ 92 %</li>
+            <li>✅ Nhịp tim nhanh (bù trừ), HA bình thường</li>
+          </ul>
+          <div class="why mt-4"><div class="text-[.7rem] mono tracking-[.14em] text-violet-300 mb-1">CƠ CHẾ</div><p class="text-[.82rem] text-slate-300 leading-relaxed">Trẻ tăng <b>công thở</b> (tần số + lực cơ phụ) để duy trì thông khí phế nang. Năng lượng cơ hô hấp vẫn đủ → não còn được oxy hoá → TICLS bình thường. Đây là giai đoạn <b>có thể hồi phục bằng oxy + thuốc + thời gian</b>.</p></div>
+        </div>
+
+        <div class="card p-5 border-rose-400/30">
+          <div class="flex items-center gap-2 mb-3"><span class="chip badge-d">MẤT BÙ</span><h3 class="font-extrabold text-lg">Kiệt sức / Suy hô hấp mất bù</h3></div>
+          <ul class="space-y-2 text-[.86rem] text-slate-300">
+            <li>🚨 <b class="text-rose-300">Nhịp thở CHẬM LẠI</b> hoặc không đều, có cơn ngừng thở &gt; 20 s</li>
+            <li>🚨 <b class="text-rose-300">Co kéo GIẢM</b> — "trẻ có vẻ dễ chịu hơn": cải thiện giả</li>
+            <li>🚨 Thở nông, biên độ ngực giảm, chỉ thấy bụng phập phồng yếu, đầu gật gù</li>
+            <li>🚨 Rên/stridor giảm hoặc mất hẳn (không còn đủ lực tạo âm)</li>
+            <li>🚨 <b class="text-rose-300">Appearance XẤU ĐI</b>: li bì, lơ mơ, mềm nhão, không khóc, ánh mắt vô hồn</li>
+            <li>🚨 Tím trung tâm <b>không đáp ứng với oxy</b>; CRT kéo dài; chi lạnh</li>
+            <li>🚨 <b>Nhịp tim bắt đầu CHẬM</b> — bước cuối trước vô tâm thu</li>
+            <li>🚨 SpO₂ tụt nhanh, PaCO₂ tăng (mất khả năng thải CO₂)</li>
+          </ul>
+          <div class="trap mt-4"><div class="text-[.7rem] mono tracking-[.14em] text-rose-300 mb-1">HÀNH ĐỘNG</div><p class="text-[.82rem] text-slate-300 leading-relaxed"><b>KHÔNG chờ đợi, KHÔNG khí dung thêm một liều nữa để "xem đáp ứng".</b> Hỗ trợ thông khí ngay: bóp bóng mask 100 % O₂ (PIP 20–25 cmH₂O, tần số 12–20/phút), chuẩn bị đặt NKQ, gọi hồi sức, chuyển ICU. Nhịp tim &lt; 60/phút kèm tưới máu kém dù đã oxy hoá đầy đủ → <b>bắt đầu ép tim</b> (PED-04).</p></div>
+        </div>
+      </div>
+
+      <!-- interactive failure checklist -->
+      <div class="card mt-5 p-5">
+        <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+          <div><div class="font-extrabold">🧪 Bộ lọc "cải thiện giả" — tick những gì bạn thấy</div><div class="text-[.78rem] text-slate-400 mt-0.5">≥ 2 dấu hiệu = kiệt sức hô hấp cho đến khi chứng minh ngược lại</div></div>
+          <span id="failBadge" class="chip badge-n mono">0 dấu hiệu</span>
+        </div>
+        <div class="grid md:grid-cols-2 gap-1" id="failList"></div>
+        <div id="failVerdict" class="mt-4 rounded-xl p-4 badge-n">
+          <div class="font-bold">Chưa đủ dữ kiện — tiếp tục đánh giá</div>
+          <div class="text-[.82rem] opacity-90 mt-0.5">Đếm nhịp thở đủ 60 giây, so sánh với lần đếm trước đó, đánh giá lại TICLS.</div>
+        </div>
+      </div>
+
+      <div class="card mt-4 p-5">
+        <div class="text-xs mono tracking-[.16em] text-slate-400 mb-3">DIỄN TIẾN THEO THỜI GIAN — VÌ SAO CỬA SỔ CAN THIỆP RẤT NGẮN</div>
+        <div class="h-[230px]"><canvas id="respChart"></canvas></div>
+        <p class="text-[.8rem] text-slate-400 mt-3 leading-relaxed">Đường <b class="text-teal-300">xanh</b> là khả năng duy trì thông khí; đường <b class="text-rose-300">đỏ</b> là nhu cầu/nỗ lực. Khi hai đường cắt nhau, trẻ hết dự trữ. Điểm mấu chốt: ở trẻ nhỏ đoạn từ "còn bù" tới "ngừng thở" chỉ tính bằng <b>phút</b>, không phải giờ — vì dự trữ FRC thấp và VO₂ cao.</p>
+      </div>
+    </section>
+
+    <!-- ============ 06 SỐC ============ -->
+    <section id="soc" class="scroll-mt-6 reveal">
+      <div class="sec-num">06 / PHÂN BIỆT SỐNG CÒN #2</div>
+      <h2 class="sec">Sốc còn bù vs Sốc mất bù — HA là dấu hiệu MUỘN</h2>
+
+      <div class="grid lg:grid-cols-[minmax(0,1fr)_360px] gap-5 items-start">
+        <div class="space-y-4">
+          <div class="grid md:grid-cols-2 gap-4">
+            <div class="card p-5 border-amber-400/25">
+              <div class="flex items-center gap-2 mb-3"><span class="chip badge-w">GIAI ĐOẠN 1–2</span><h3 class="font-extrabold">Sốc CÒN BÙ</h3></div>
+              <ul class="space-y-1.5 text-[.84rem] text-slate-300">
+                <li>• <b class="text-amber-300">HA tâm thu BÌNH THƯỜNG</b> (có thể tăng nhẹ)</li>
+                <li>• Nhịp tim NHANH — dấu hiệu sớm nhất, nhạy nhất</li>
+                <li>• <b>CRT &gt; 2 s</b>, chi lạnh, da tái hoặc bông tím</li>
+                <li>• Mạch ngoại vi yếu/nảy kém; mạch trung tâm còn rõ</li>
+                <li>• Tri giác: kích thích, vật vã, hoặc <b>còn bình thường</b></li>
+                <li>• Nước tiểu giảm nhẹ (1 ml/kg/h → 0,5–1)</li>
+                <li>• Thở nhanh nhẹ (bù toan chuyển hoá)</li>
+              </ul>
+              <div class="why mt-3"><div class="text-[.7rem] mono tracking-[.14em] text-violet-300 mb-1">CƠ CHẾ</div><p class="text-[.8rem] text-slate-300 leading-relaxed">CO = HR × SV. Trẻ nhỏ không tăng được thể tích nhát bóp (thất kém giãn, tiền tải thấp) → <b>bù hoàn toàn bằng tần số + co mạch ngoại vi</b>. Trẻ có thể giữ HA bình thường khi đã mất tới <b>25–30 % thể tích tuần hoàn</b>.</p></div>
+            </div>
+            <div class="card p-5 border-rose-400/30">
+              <div class="flex items-center gap-2 mb-3"><span class="chip badge-d">GIAI ĐOẠN 3</span><h3 class="font-extrabold">Sốc MẤT BÙ</h3></div>
+              <ul class="space-y-1.5 text-[.84rem] text-slate-300">
+                <li>• <b class="text-rose-300">HA tâm thu TỤT dưới ngưỡng theo tuổi</b></li>
+                <li>• Li bì, lơ mơ, hôn mê — não đã mất tưới máu</li>
+                <li>• CRT rất dài (&gt; 4 s) hoặc không đo được; da bông tím, lạnh ẩm</li>
+                <li>• Mạch khó bắt / không bắt được; vô niệu</li>
+                <li>• Thở nhanh sâu (Kussmaul) hoặc thở bất thường, ngừng thở</li>
+                <li>• Có thể kèm <b>nhịp chậm</b> — báo hiệu ngừng tim sắp xảy ra</li>
+                <li>• Toan chuyển hoá nặng, lactat tăng cao</li>
+              </ul>
+              <div class="trap mt-3"><div class="text-[.7rem] mono tracking-[.14em] text-rose-300 mb-1">Ý NGHĨA</div><p class="text-[.8rem] text-slate-300 leading-relaxed">Tụt HA ở trẻ em <b>KHÔNG phải là sốc "bắt đầu"</b> — đó là sốc <b>sắp kết thúc bằng ngừng tim</b>. Tử vong tăng vọt ở nhóm này dù được điều trị đúng, vì đã trễ. Mục tiêu của bạn là <b>không bao giờ để trẻ tới được cột này</b>.</p></div>
+            </div>
+          </div>
+
+          <!-- BP calculator -->
+          <div class="card p-5">
+            <div class="font-extrabold mb-1">🩺 Máy tính ngưỡng HA tâm thu tối thiểu theo tuổi</div>
+            <p class="text-[.8rem] text-slate-400 mb-4">Công thức PALS/APLS: <span class="mono text-teal-300">HA tâm thu tối thiểu = 70 + (2 × tuổi tính theo năm)</span> áp dụng cho trẻ 1–10 tuổi.</p>
+            <div class="grid md:grid-cols-3 gap-3 items-end">
+              <div><label class="text-[.72rem] mono tracking-wider text-slate-400">TUỔI (tháng)</label>
+                <input id="bpAge" type="number" min="0" max="216" value="36" class="w-full mt-1"></div>
+              <div><label class="text-[.72rem] mono tracking-wider text-slate-400">HA TÂM THU ĐO ĐƯỢC (mmHg)</label>
+                <input id="bpVal" type="number" min="0" max="220" value="88" class="w-full mt-1"></div>
+              <div class="md:col-span-1"><button onclick="calcBP()" class="btn btn-teal w-full">Tính &amp; phân loại</button></div>
+            </div>
+            <div class="mt-3 flex flex-wrap gap-1.5" id="bpPresets"></div>
+            <div id="bpOut" class="mt-4 rounded-xl p-4 badge-n">
+              <div class="font-bold">Nhập tuổi và HA tâm thu để phân loại</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- gauge + perfusion -->
+        <div class="space-y-4">
+          <div class="card p-5">
+            <div class="text-xs mono tracking-[.16em] text-slate-400 mb-3">NGƯỠNG HA TÂM THU TỐI THIỂU (mmHg)</div>
+            <div class="space-y-2 text-[.83rem]">
+              <div class="flex items-center gap-2"><span class="w-28 text-slate-300">Sơ sinh &lt; 1 tháng</span><div class="flex-1 h-3 rounded-full bg-white/8"><div class="h-3 rounded-full bg-rose-400" style="width:30%"></div></div><span class="mono font-bold text-rose-300 w-10 text-right">60</span></div>
+              <div class="flex items-center gap-2"><span class="w-28 text-slate-300">1 – 12 tháng</span><div class="flex-1 h-3 rounded-full bg-white/8"><div class="h-3 rounded-full bg-rose-400" style="width:35%"></div></div><span class="mono font-bold text-rose-300 w-10 text-right">70</span></div>
+              <div class="flex items-center gap-2"><span class="w-28 text-slate-300">1 tuổi</span><div class="flex-1 h-3 rounded-full bg-white/8"><div class="h-3 rounded-full bg-amber-400" style="width:36%"></div></div><span class="mono font-bold text-amber-300 w-10 text-right">72</span></div>
+              <div class="flex items-center gap-2"><span class="w-28 text-slate-300">3 tuổi</span><div class="flex-1 h-3 rounded-full bg-white/8"><div class="h-3 rounded-full bg-amber-400" style="width:38%"></div></div><span class="mono font-bold text-amber-300 w-10 text-right">76</span></div>
+              <div class="flex items-center gap-2"><span class="w-28 text-slate-300">5 tuổi</span><div class="flex-1 h-3 rounded-full bg-white/8"><div class="h-3 rounded-full bg-amber-400" style="width:40%"></div></div><span class="mono font-bold text-amber-300 w-10 text-right">80</span></div>
+              <div class="flex items-center gap-2"><span class="w-28 text-slate-300">8 tuổi</span><div class="flex-1 h-3 rounded-full bg-white/8"><div class="h-3 rounded-full bg-sky-400" style="width:43%"></div></div><span class="mono font-bold text-sky-300 w-10 text-right">86</span></div>
+              <div class="flex items-center gap-2"><span class="w-28 text-slate-300">≥ 10 tuổi</span><div class="flex-1 h-3 rounded-full bg-white/8"><div class="h-3 rounded-full bg-teal-400" style="width:45%"></div></div><span class="mono font-bold text-teal-300 w-10 text-right">90</span></div>
+            </div>
+          </div>
+          <div class="card p-5">
+            <div class="font-extrabold mb-3">🔍 Bộ ba đánh giá tưới máu (không cần máy)</div>
+            <div class="space-y-2.5 text-[.84rem]">
+              <div class="cardFlat p-3"><b class="text-teal-200">1. CRT</b> — ấn xương ức 5 s. &lt; 2 s bình thường · 2–3 s bất thường · &gt; 3 s sốc</div>
+              <div class="cardFlat p-3"><b class="text-teal-200">2. Nhiệt độ &amp; màu da chi</b> — giới hạn lạnh: đầu ngón (nhẹ) → cổ tay/đầu gối → đùi/bụng (nặng, sốc lạnh)</div>
+              <div class="cardFlat p-3"><b class="text-teal-200">3. Tri giác</b> — vật vã/kích thích sớm; li bì/lơ mơ muộn</div>
+              <div class="cardFlat p-3"><b class="text-teal-200">4. Nhịp tim &amp; nước tiểu</b> — nhanh không giải thích được + thiểu niệu (&lt; 1 ml/kg/h)</div>
+            </div>
+            <div class="why mt-3"><p class="text-[.8rem] text-slate-300 leading-relaxed"><b>Kết hợp 4 dấu hiệu này có độ nhạy cao hơn HA rất nhiều</b> để phát hiện sốc sớm. HA chỉ nên dùng để xác nhận đã mất bù.</p></div>
+          </div>
+          <div class="card p-5">
+            <div class="font-extrabold mb-2">🩸 Hai kiểu sốc nhiễm khuẩn ở trẻ em</div>
+            <div class="grid grid-cols-2 gap-2.5 text-[.8rem]">
+              <div class="cardFlat p-3"><div class="font-bold text-rose-300 mb-1">SỐC LẠNH</div>Da lạnh, bông tím, tái; CRT dài; mạch yếu; HA thấp sớm. Thường gặp hơn ở trẻ em → dễ bỏ sót nếu không sờ da.</div>
+              <div class="cardFlat p-3"><div class="font-bold text-amber-300 mb-1">SỐC ẤM</div>Da ấm, hồng, đỏ bừng; CRT ngắn (&lt; 1 s); mạch nảy; HA tâm trương thấp, hiệu áp rộng. Giai đoạn sớm, dễ nhầm "trẻ còn tốt".</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 07 ABCDE ============ -->
+    <section id="abcde" class="scroll-mt-6 reveal">
+      <div class="sec-num">07 / TRÌNH TỰ HÀNH ĐỘNG</div>
+      <h2 class="sec">ABCDE — làm gì, tại sao, và mốc thời gian quyết định</h2>
+      <p class="text-slate-400 max-w-3xl -mt-1 mb-6">Nguyên tắc bất di bất dịch: <b class="text-slate-200">điều trị cái đe doạ tính mạng trước khi tìm ra nguyên nhân</b>, và <b class="text-teal-300">đánh giá lại sau mỗi can thiệp</b>. Không bao giờ chuyển sang bước sau nếu bước trước chưa ổn định.</p>
+
+      <div class="space-y-3" id="accList"></div>
+
+      <!-- GCS -->
+      <div class="card mt-6 p-5" id="gcs">
+        <div class="flex flex-wrap items-center justify-between gap-3 mb-1">
+          <div><div class="font-extrabold text-lg">🧠 Máy tính GCS nhi khoa + AVPU</div>
+          <div class="text-[.78rem] text-slate-400 mt-0.5">Chọn thang lời nói theo tuổi — trẻ chưa biết nói KHÔNG chấm như người lớn</div></div>
+          <span id="gcsBadge" class="chip badge-n mono">—</span>
+        </div>
+        <div class="grid md:grid-cols-4 gap-3 mt-4">
+          <div><label class="text-[.7rem] mono tracking-wider text-slate-400">NHÓM TUỔI</label>
+            <select id="gAge" class="w-full mt-1" onchange="renderGcs()">
+              <option value="infant">&lt; 12 tháng (chưa nói)</option>
+              <option value="toddler" selected>1 – 5 tuổi</option>
+              <option value="older">&gt; 5 tuổi</option>
+            </select></div>
+          <div><label class="text-[.7rem] mono tracking-wider text-slate-400">E — MỞ MẮT</label><select id="gE" class="w-full mt-1" onchange="calcGcs()"></select></div>
+          <div><label class="text-[.7rem] mono tracking-wider text-slate-400">V — LỜI NÓI</label><select id="gV" class="w-full mt-1" onchange="calcGcs()"></select></div>
+          <div><label class="text-[.7rem] mono tracking-wider text-slate-400">M — VẬN ĐỘNG</label><select id="gM" class="w-full mt-1" onchange="calcGcs()"></select></div>
+        </div>
+        <div class="grid md:grid-cols-[auto_minmax(0,1fr)] gap-4 mt-4 items-start">
+          <div class="cardFlat p-5 text-center min-w-[150px]">
+            <div class="text-[.7rem] mono tracking-wider text-slate-400">TỔNG ĐIỂM</div>
+            <div id="gcsScore" class="mono text-5xl font-bold text-teal-300 leading-tight mt-1">15</div>
+            <div id="gcsEvm" class="text-[.8rem] text-slate-400 mono mt-1">E4 V5 M6</div>
+          </div>
+          <div>
+            <div id="gcsOut" class="rounded-xl p-4 badge-n"><div class="font-bold">Bình thường</div><div class="text-[.82rem] opacity-90 mt-0.5">GCS 15. Vẫn theo dõi diễn tiến — GCS giảm ≥ 2 điểm là thay đổi có ý nghĩa.</div></div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 mt-3 text-center text-[.78rem]">
+              <div class="cardFlat p-2.5"><div class="font-bold text-teal-300 mono">15</div>Bình thường</div>
+              <div class="cardFlat p-2.5"><div class="font-bold text-amber-300 mono">13–14</div>Tổn thương nhẹ</div>
+              <div class="cardFlat p-2.5"><div class="font-bold text-orange-300 mono">9–12</div>Trung bình</div>
+              <div class="cardFlat p-2.5"><div class="font-bold text-rose-300 mono">≤ 8</div>Nặng → bảo vệ đường thở</div>
+            </div>
+            <p class="text-[.78rem] text-slate-400 mt-2.5 leading-relaxed"><b class="text-violet-300">AVPU</b> (nhanh hơn, dùng khi đang hồi sức): <b>A</b> = tỉnh · <b>V</b> = đáp ứng lời nói · <b>P</b> = chỉ đáp ứng đau · <b>U</b> = không đáp ứng. P và U tương đương GCS ≤ 8.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 08 BẪY ============ -->
+    <section id="bay" class="scroll-mt-6 reveal">
+      <div class="sec-num">08 / AN TOÀN</div>
+      <h2 class="sec">12 bẫy lâm sàng khiến bác sĩ bỏ sót trẻ nặng</h2>
+      <div class="grid md:grid-cols-2 gap-3.5" id="trapList"></div>
+    </section>
+
+    <!-- ============ 09 DRILL ============ -->
+    <section id="drill" class="scroll-mt-6 reveal">
+      <div class="sec-num">09 / LUYỆN TẬP</div>
+      <h2 class="sec">9 tình huống — đọc PAT, chọn phân loại, chọn hành động đầu tiên</h2>
+      <div class="flex flex-wrap items-center gap-3 mb-5">
+        <button onclick="nextCase()" class="btn btn-teal">🎲 Ca tiếp theo</button>
+        <span class="chip text-slate-300">Đúng: <b id="drOk" class="ml-1 text-teal-300">0</b></span>
+        <span class="chip text-slate-300">Sai: <b id="drNo" class="ml-1 text-rose-300">0</b></span>
+        <span class="chip text-slate-300 mono" id="drIdx">ca 1 / 9</span>
+      </div>
+      <div class="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-5">
+        <div class="card p-5">
+          <div class="flex flex-wrap gap-2 mb-3" id="caseTags"></div>
+          <div id="caseTitle" class="font-extrabold text-lg leading-snug"></div>
+          <p id="caseText" class="text-[.88rem] text-slate-300 leading-relaxed mt-2.5"></p>
+          <div class="mt-4 grid grid-cols-2 md:grid-cols-4 gap-2" id="caseVitals"></div>
+          <div class="mt-4 cardFlat p-4">
+            <div class="text-[.7rem] mono tracking-[.16em] text-slate-400 mb-2">QUAN SÁT PAT (60 giây đầu, chưa chạm trẻ)</div>
+            <div class="grid sm:grid-cols-3 gap-2 text-[.8rem]" id="casePat"></div>
+          </div>
+        </div>
+        <div class="space-y-3">
+          <div class="card p-5">
+            <div class="text-xs mono tracking-[.16em] text-teal-300 mb-3">BƯỚC 1 · MẪU PAT &amp; MỨC ĐỘ</div>
+            <div class="space-y-2" id="caseOpts"></div>
+            <div id="caseFb" class="mt-4 hidden"></div>
+          </div>
+          <div class="card p-5">
+            <div class="text-xs mono tracking-[.16em] text-sky-300 mb-2">BƯỚC 2 · HÀNH ĐỘNG ĐẦU TIÊN</div>
+            <div id="caseAct" class="act"><p class="text-[.84rem] text-slate-300 leading-relaxed">Chọn đáp án ở Bước 1 để mở phân tích hành động.</p></div>
+            <div id="caseWhy" class="mt-3 why"><p class="text-[.84rem] text-slate-300 leading-relaxed"><b class="text-violet-300">Vì sao:</b> —</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 10 FLASHCARDS ============ -->
+    <section id="flash" class="scroll-mt-6 reveal">
+      <div class="sec-num">10 / GHI NHỚ</div>
+      <h2 class="sec">Flashcards Why-based — 18 thẻ</h2>
+      <p class="text-slate-400 max-w-3xl -mt-1 mb-5">Nhấn vào thẻ để lật. Xuất file nạp thẳng vào Anki khi bạn sẵn sàng ôn ngắt quãng.</p>
+      <div class="flex flex-wrap gap-2.5 mb-5">
+        <button onclick="shuffleCards()" class="btn">🔀 Xáo trộn</button>
+        <button onclick="prevCard()" class="btn">‹ Trước</button>
+        <button onclick="nextCard()" class="btn">Sau ›</button>
+        <span class="chip mono text-slate-300 self-center" id="cardIdx">1 / 18</span>
+        <button onclick="exportAnki()" class="btn btn-teal ml-auto">⬇️ Xuất thẻ Anki (.txt)</button>
+      </div>
+      <div class="grid md:grid-cols-3 gap-4" id="cardGrid"></div>
+    </section>
+
+    <!-- ============ 11 QUIZ ============ -->
+    <section id="quiz" class="scroll-mt-6 reveal">
+      <div class="sec-num">11 / TỰ ĐÁNH GIÁ</div>
+      <h2 class="sec">Trắc nghiệm 10 câu — có giải thích cơ chế</h2>
+      <div class="flex flex-wrap items-center gap-3 mb-5">
+        <div id="qScore" class="chip badge-n mono">0 / 10</div>
+        <div class="flex-1 h-2 rounded-full bg-white/8 overflow-hidden min-w-[120px]"><div id="qBar" class="h-full rounded-full bg-gradient-to-r from-teal-400 to-sky-400 transition-all" style="width:0%"></div></div>
+        <button onclick="resetQuiz()" class="btn text-sm py-2">↺ Làm lại</button>
+      </div>
+      <div class="space-y-4" id="quizList"></div>
+    </section>
+
+    <!-- ============ 12 SUMMARY ============ -->
+    <section id="tong" class="scroll-mt-6 reveal">
+      <div class="sec-num">12 / TỔNG KẾT</div>
+      <h2 class="sec">Mang theo vào ca trực</h2>
+      <div class="grid lg:grid-cols-2 gap-4">
+        <div class="card p-5">
+          <div class="font-extrabold mb-3 text-teal-200">✅ Checklist đi buồng — 12 mục phải có</div>
+          <div id="ckList" class="space-y-1"></div>
+          <div class="mt-4 flex items-center justify-between">
+            <span class="chip badge-n mono" id="ckCount">0 / 12</span>
+            <button onclick="clearCk()" class="btn text-sm py-2">Xoá</button>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <div class="card p-5">
+            <div class="font-extrabold mb-3">🔟 Điều phải nhớ trước khi rời bài</div>
+            <ol class="space-y-2 text-[.85rem] text-slate-300 list-decimal list-inside">
+              <li>Mắt trước – tay sau: hoàn thành PAT <b>trước khi chạm trẻ</b>.</li>
+              <li>Appearance là cạnh quan trọng nhất — bất thường = nặng.</li>
+              <li>TICLS: Tone · Interactiveness · Consolability · Look · Speech/Cry.</li>
+              <li>Đếm nhịp thở <b>đủ 60 giây</b> và so sánh với lần trước.</li>
+              <li>"Co kéo giảm + nhịp thở chậm lại" = kiệt sức, không phải đỡ.</li>
+              <li>Nhịp chậm ở trẻ = thiếu oxy = cấp cứu, không phải chờ atropine.</li>
+              <li>HA tụt là dấu hiệu <b>muộn</b>; dùng CRT + da + tri giác + nhịp tim để bắt sốc sớm.</li>
+              <li>HA tối thiểu: &lt; 60 (sơ sinh) · &lt; 70 (nhũ nhi) · 70 + 2 × tuổi (1–10 t) · &lt; 90 (&gt; 10 t).</li>
+              <li>Mọi trẻ rối loạn tri giác đều phải thử <b>đường huyết mao mạch ngay</b>.</li>
+              <li>Đánh giá lại sau <b>mỗi</b> can thiệp; PAT là công cụ động.</li>
+            </ol>
+          </div>
+          <div class="card p-5">
+            <div class="font-extrabold mb-2">🔗 Bài tiếp theo trong chuỗi</div>
+            <div class="space-y-2 text-[.85rem]">
+              <div class="cardFlat p-3 flex justify-between items-center"><span><b class="text-teal-300 mono">PED-03</b> · Nguyên tắc kê đơn &amp; tính liều mg/kg</span><span class="chip">tiếp theo</span></div>
+              <div class="cardFlat p-3 flex justify-between items-center"><span><b class="text-teal-300 mono">PED-04</b> · Hồi sức tim phổi nâng cao (PALS)</span><span class="chip">mở khoá bởi PED-02</span></div>
+              <div class="cardFlat p-3 flex justify-between items-center"><span><b class="text-teal-300 mono">PED-05</b> · Phân loại &amp; xử trí sốc giờ đầu</span><span class="chip">mở khoá bởi PED-02</span></div>
+              <div class="cardFlat p-3 flex justify-between items-center"><span><b class="text-teal-300 mono">PED-09</b> · Cấp cứu dị vật đường thở</span><span class="chip">mở khoá bởi PED-02</span></div>
+            </div>
+          </div>
+          <div class="cardFlat p-4 why">
+            <div class="text-[.7rem] mono tracking-[.16em] text-violet-300 mb-1">TRẠNG THÁI BIÊN SOẠN</div>
+            <p class="text-[.82rem] text-slate-300 leading-relaxed"><b>PED-02 · 📝 MD-DRAFT</b> — nội dung core đã hoàn tất, công cụ tương tác đã chạy. Bộ APKG sẽ được đóng gói khi đạt GATES (đủ 18 thẻ + 10 câu trắc nghiệm + 9 ca drill, như bài này). Tài liệu tham chiếu: PALS Provider Manual (AHA), APLS, WHO ETID/IMCI, Phác đồ điều trị Nhi khoa Bộ Y tế.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="border-t border-white/10 mt-10 py-8 px-5 text-center text-[.78rem] text-slate-500">
+    Curriculum Nhi khoa · Core 45 · Block 0 — <span class="mono text-teal-300/80">PED-02: PAT &amp; ABCDE</span> · Why-based learning<br>
+    Nội dung phục vụ đào tạo bác sĩ thực hành. Luôn đối chiếu phác đồ hiện hành của đơn vị bạn trước khi áp dụng trên bệnh nhân.
+  </footer>
+</main>
+
+<script>
+/* ================= DATA ================= */
+const NAV = [
+  ['muc-tieu','Mục tiêu & bản đồ'],['pat','Tam giác PAT'],['tool','PAT Builder'],
+  ['giay60','Quy trình 60 giây'],['suy-ho-hap','Suy HH vs kiệt sức'],['soc','Sốc bù vs mất bù'],
+  ['abcde','Tiếp cận ABCDE'],['gcs','GCS nhi khoa'],['bay','12 bẫy lâm sàng'],
+  ['drill','Luyện tình huống'],['flash','Flashcards'],['quiz','Trắc nghiệm'],['tong','Tổng kết']
+];
+
+const TICKS = {
+  A: [
+    ['tone','Giảm/mất trương lực cơ (mềm nhão, duỗi)'],
+    ['inter','Không tương tác, li bì, không chơi'],
+    ['consol','Khóc không dỗ được / rên rỉ / không khóc nổi'],
+    ['gaze','Ánh mắt vô hồn, nhìn xa xăm, không giao tiếp mắt'],
+    ['cry','Khóc yếu, the thé, nói ngắt quãng, khàn tiếng']
+  ],
+  W: [
+    ['sound','Âm thanh bất thường: stridor / wheeze / grunting'],
+    ['pos','Tư thế tripod, ngửa cổ, từ chối nằm'],
+    ['retr','Co kéo liên sườn/dưới sườn, phập phồng cánh mũi'],
+    ['bob','Đầu gật gù, thở bụng, di động ngược pha'],
+    ['rate','Nhịp thở chậm, không đều hoặc có cơn ngừng thở']
+  ],
+  C: [
+    ['pallor','Tái nhợt rõ so với nền da của trẻ'],
+    ['mottle','Bông tím / vằn da'],
+    ['cyan','Tím trung tâm (môi, lưỡi, niêm mạc)'],
+    ['crt','CRT > 2 giây'],
+    ['cold','Chi lạnh đến gối/đùi, da lạnh ẩm']
+  ]
+};
+
+const PATTERNS = [
+  {a:0,w:0,c:0,name:'Bình thường',cls:'badge-n',lv:'ỔN ĐỊNH',
+   phys:'Cả 3 hệ thống còn bù trừ tốt.',act:'Khám theo trọng tâm, đo sinh hiệu đầy đủ theo tuổi (PED-01), theo dõi định kỳ.'},
+  {a:0,w:1,c:0,name:'Suy hô hấp (còn bù)',cls:'badge-w',lv:'CẤP CỨU TRONG PHÚT',
+   phys:'Tăng công thở để duy trì trao đổi khí; não còn được oxy hoá → TICLS tốt.',act:'Oxy, tư thế, hút thông đường thở, thuốc theo nguyên nhân (Salbutamol/Dexamethasone/kháng sinh), theo dõi sát nguy cơ kiệt sức.'},
+  {a:0,w:0,c:1,name:'Giảm tưới máu ngoại vi (sốc còn bù)',cls:'badge-w',lv:'CẤP CỨU TRONG PHÚT',
+   phys:'Co mạch bù trừ giữ HA và tưới máu não-tim; cung lượng tim đã giảm.',act:'Đường TM/IO, bolus dịch đẳng trương 20 ml/kg (cân nhắc cẩn thận nếu nghi sốc tim), tìm nguyên nhân sốc (PED-05).'},
+  {a:0,w:1,c:1,name:'Suy hô hấp + giảm tưới máu',cls:'badge-w',lv:'NGUY CƠ CAO',
+   phys:'Hai hệ cùng suy — thường là sốc nhiễm khuẩn có ARDS, viêm phổi nặng, hoặc sốc kéo dài gây quá tải cơ hô hấp.',act:'Oxy + hỗ trợ thông khí sớm (HFNC/CPAP), đường TM/IO, dịch + vận mạch, chuyển ICU.'},
+  {a:1,w:0,c:0,name:'Suy chức năng não / CNS',cls:'badge-d',lv:'CẤP CỨU',
+   phys:'Vấn đề nguyên phát ở não: viêm màng não/viêm não, co giật sau cơn, ngộ độc, chấn thương sọ não, hạ đường huyết, rối loạn chuyển hoá.',act:'Đường huyết mao mạch NGAY, oxy, bảo vệ đường thở nếu GCS ≤ 8, kháng sinh sớm nếu nghi viêm màng não, xét tìm ngộ độc/chấn thương.'},
+  {a:1,w:1,c:0,name:'Suy hô hấp NẶNG / kiệt sức hô hấp',cls:'badge-d',lv:'NGUY KỊCH',
+   phys:'Cơ hô hấp đã mỏi, não bắt đầu thiếu oxy → TICLS xấu đi. Đây là bước ngay trước ngừng thở.',act:'Hỗ trợ thông khí ngay (bóp bóng mask O₂ 100%), chuẩn bị đặt NKQ, gọi hồi sức, chuyển ICU. KHÔNG chờ thêm thuốc.'},
+  {a:1,w:0,c:1,name:'Sốc MẤT BÙ',cls:'badge-d',lv:'NGUY KỊCH',
+   phys:'Cơ chế bù trừ cạn kiệt → cung lượng tim không đủ tưới máu não. Tụt HA là dấu hiệu muộn.',act:'IO/TM trong 90 giây, bolus dịch 20 ml/kg nhanh, adrenaline nếu không đáp ứng, xử trí nguyên nhân, chuyển ICU.'},
+  {a:1,w:1,c:1,name:'Nguy kịch — dọa ngừng tim/ngừng thở',cls:'badge-d pulseD',lv:'HỒI SỨC NGAY',
+   phys:'Cả 3 hệ thống đều mất bù. Trẻ có thể ngừng tim trong vòng vài phút.',act:'Gọi hỗ trợ, bóp bóng O₂ 100%, ép tim nếu nhịp < 60/phút kèm tưới máu kém, adrenaline, chuẩn bị ngừng tuần hoàn (PED-04).'}
+];
+
+const FAIL_SIGNS = [
+  'Nhịp thở chậm hơn lần đếm trước (hoặc không đều)',
+  'Co kéo giảm / biên độ thở nông đi',
+  'Tiếng rên, stridor hoặc khò khè giảm hẳn',
+  'Tri giác xấu đi: li bì, lơ mơ, không tương tác',
+  'Tím trung tâm không cải thiện dù đã thở oxy',
+  'Nhịp tim chậm dần (đặc biệt < 60/phút ở nhũ nhi)',
+  'Cơn ngừng thở > 20 giây hoặc thở hấp hối',
+  'Đầu gật gù, chỉ còn thở bụng yếu'
+];
+
+const ABCDE = [
+ {k:'A',n:'AIRWAY — Đường thở',time:'mục tiêu: đánh giá & bảo đảm trong 30 giây',color:'teal',
+  look:['Nghe có tiếng khí đi qua không (im lặng hoàn toàn = tắc nghẽn nặng)','Tiếng bất thường: <b>stridor thì hít vào</b> (tắc trên thanh quản) · khụt khịt (nghẹt mũi — trẻ < 6 tháng thở mũi bắt buộc) · ngáy/khò khè ọc ọc (dịch, tụt lưỡi)','Nhìn: tư thế (ngồi chồm, ngửa cổ, chảy dãi), dị vật, chấn thương hàm mặt, bỏng vùng mặt, phù môi-lưỡi','Đánh giá khả năng BẢO VỆ đường thở: phản xạ ho, phản xạ nôn, nuốt, tri giác (GCS ≤ 8 → mất khả năng bảo vệ)','Nguy cơ tắc tiến triển: viêm nắp thanh quản, áp xe thành sau họng, bạch hầu thanh quản, dị vật, phù nề sau bỏng'],
+  do:['Giữ tư thế: nâng cằm / nâng hàm (jaw thrust) — KHÔNG ấn vào phần mềm dưới cằm','Nhũ nhi: kê gối dưới vai 2–3 cm để đưa về tư thế sniffing (chẩm to làm cổ bị gập)','Hút dịch/đờm/máu với sonde cỡ phù hợp, áp lực ≤ 80–100 mmHg, thời gian hút < 10 giây','Cân can đường miệng (OPA) / mũi (NPA) đúng cỡ; chuẩn bị NKQ theo cân nặng (PED-01)','Nếu nghi viêm nắp thanh quản: KHÔNG đè lưỡi, không chọc trẻ khóc, giữ trẻ trong tay mẹ, gọi gây mê/ENT ngay'],
+  why:'Đường thở trẻ nhỏ hẹp hơn nhiều: giảm 1 mm đường kính ở trẻ nhũ nhi (ống 4 mm) làm tăng sức cản khoảng 3 lần (R ∝ 1/r⁴) và giảm diện tích lòng ống ~44 %, trong khi ở người lớn (20 mm) chỉ tăng ~23 %. Thanh quản ở vị trí cao (C3–C4), nắp thanh thiệt dài-mềm-hình omega, lưỡi to, điểm hẹp nhất là sụn nhẫn → dễ tắc, dễ phù nề và khó đặt ống hơn.',
+  trap:'Ngửa cổ quá mức ở nhũ nhi làm gập cổ, đẩy chẩm to về trước và <b>gây tắc đường thở</b> thay vì mở ra. Cũng đừng quên: trẻ nghẹt mũi đơn thuần có thể suy hô hấp nặng vì trẻ < 6 tháng gần như thở mũi bắt buộc.'},
+
+ {k:'B',n:'BREATHING — Hô hấp',time:'mục tiêu: đánh giá & oxy hoá trong 1–2 phút',color:'sky',
+  look:['Đếm nhịp thở <b>đủ 60 giây</b>, so với ngưỡng theo tuổi (PED-01) và ngưỡng thở nhanh WHO','Công thở: co kéo các tầng, phập phồng cánh mũi, tư thế, đầu gật gù, thở paradox','Nghe phổi: rì rào phế nang 2 bên có đều không (mất 1 bên → tràn khí/dịch, dị vật, xẹp phổi), ran ẩm/khô, wheeze','SpO₂: mục tiêu ≥ 94 % (trừ bệnh tim bẩm sinh có chỉ định riêng); sơ sinh dùng tay PHẢI (preductal)','Độ giãn nở lồng ngực khi bóp bóng, vị trí mỏm tim & tiếng tim (lệch → tràn khí màng phổi áp lực)'],
+  do:['Oxy qua canula / mask có túi dự trữ (không dùng mask thường ở trẻ sốc nặng vì không đủ FiO₂)','Bóp bóng-mask: chọn mask phủ kín mũi-miệng không đè mắt, PIP vừa đủ thấy ngực nở (~20–25 cmH₂O), tần số 12–20/phút','Tránh tăng thông khí quá mức (làm giảm tưới máu não và gây tràn khí)','Nếu suy hô hấp còn bù: HFNC hoặc CPAP sớm (PED-25) để giảm công thở','Theo dõi đáp ứng bằng PAT lặp lại, không chỉ bằng SpO₂'],
+  why:'SpO₂ là chỉ số <b>oxy hoá</b>, không phải <b>thông khí</b>. Trẻ kiệt sức có thể còn SpO₂ khá nhờ đang thở oxy trong khi PaCO₂ tăng vọt. Ngoài ra trẻ nhỏ có FRC thấp, thành ngực mềm (dễ di động paradox, giảm hiệu quả thông khí), cơ hoành nhiều sợi type II mau mỏi → một khi đã mỏi thì tụt rất nhanh.',
+  trap:'"SpO₂ 96 % nên trẻ ổn" — SAI nếu trẻ đang co kéo toàn thân, thở 68 lần/phút. Và nhớ: trẻ tím cần Hb khử > 5 g/dL, nên trẻ thiếu máu nặng hoặc sốc nặng có thể <b>không bao giờ tím</b> dù đang thiếu oxy trầm trọng.'},
+
+ {k:'C',n:'CIRCULATION — Tuần hoàn',time:'mục tiêu: đường TM/IO + bolus trong 5–10 phút',color:'rose',
+  look:['Nhịp tim: tần số, đều/không đều, độ nảy. So với khoảng bình thường theo tuổi (PED-01)','CRT (ấn xương ức 5 giây), nhiệt độ & màu da chi, giới hạn lạnh','Mạch: ngoại vi (quay) vs trung tâm (bẹn/cảnh) — chênh lệch độ nảy là dấu hiệu sớm rất giá trị','HA bằng <b>cuff đúng cỡ</b>: bề ngang túi hơi ≈ 40 % chu vi cánh tay, chiều dài bao 80–100 % cánh tay','Dấu hiệu quá tải/suy tim: gan to, tĩnh mạch cổ nổi, phù, tiếng tim mờ hoặc tiếng ngựa phi'],
+  do:['Thiết lập đường truyền: 2 lần chọc TM hoặc 90 giây thất bại ở trẻ nguy kịch → <b>đường trong xương (IO)</b> ở đầu trên xương chày','Bolus dịch đẳng trương (NaCl 0,9 % hoặc Ringer Lactat) <b>20 ml/kg</b> trong 5–20 phút, đánh giá lại sau MỖI bolus','Sốc nhiễm khuẩn không đáp ứng dịch → adrenaline (sốc lạnh) / noradrenaline (sốc ấm) sớm (PED-05)','Nhịp chậm ở trẻ: ưu tiên oxy hoá + thông khí. Chỉ dùng adrenaline; atropine khi nghi ngờ tăng trương lực phế vị','SVT (nhũ nhi > 220, trẻ lớn > 180, QRS hẹp, không biến thiên): nghiệm pháp vagal → adenosine 0,1 mg/kg TM nhanh','Lấy máu xét nghiệm qua đường IO/TM ngay khi đặt: khí máu, lactat, đường, điện giải, cấy máu, Hb/Hct'],
+  why:'Cung lượng tim trẻ phụ thuộc gần như hoàn toàn vào tần số (CO = HR × SV, mà SV bị giới hạn bởi thất kém giãn). Vì vậy <b>nhịp nhanh là bù trừ, nhịp chậm là thảm hoạ</b>: ở trẻ em nhịp chậm gần như luôn do thiếu oxy, và là nhịp trước ngừng tim. Trương lực phó giao cảm cao càng làm trẻ dễ rơi vào nhịp chậm.',
+  trap:'Dùng cuff quá nhỏ → HA đọc được <b>cao giả</b>; cuff quá lớn → <b>thấp giả</b>. Và đừng để "HA còn bình thường" trì hoãn bù dịch ở trẻ sốc còn bù — đó chính là lỗi gây tử vong nhiều nhất.'},
+
+ {k:'D',n:'DISABILITY — Thần kinh',time:'mục tiêu: < 30 giây, nhưng bắt buộc',color:'violet',
+  look:['AVPU hoặc GCS nhi (dùng thang lời nói đúng theo nhóm tuổi)','Đồng tử: kích thước, phản xạ ánh sáng, đều 2 bên; đồng tử giãn một bên + li bì → tụt não','Đường huyết mao mạch — <b>luôn luôn</b>, ở mọi trẻ rối loạn tri giác','Trương lực cơ, tư thế bất thường (mất vỏ/duỗi cứng), dấu co giật hoặc co giật đang diễn ra','Ở nhũ nhi: thóp phồng (tăng áp lực nội sọ) hoặc thóp lõm (mất nước)','Tam chứng Cushing: HA cao + nhịp CHẬM + thở bất thường = tăng áp lực nội sọ muộn'],
+  do:['Hạ đường huyết: Glucose 10 % <b>2 ml/kg</b> TM nhanh (PED-17) — nguyên nhân có thể đảo ngược ngay lập tức','GCS ≤ 8 hoặc mất phản xạ bảo vệ → đặt NKQ bảo vệ đường thở','Nghi viêm màng não: kháng sinh + Dexamethasone sớm, KHÔNG trì hoãn vì chờ CT/chọc dò (PED-37)','Nghi tăng áp lực nội sọ: đầu cao 30°, tránh gập cổ, thông khí vừa đủ (không tăng thông khí quá mức), Mannitol 0,5–1 g/kg','Chống co giật theo phác đồ từng phút (PED-07)'],
+  why:'Não trẻ có autoregulation hẹp, hộp sọ còn thóp nên tăng áp lực nội sọ có thể âm thầm bù trừ một thời gian rồi mất bù đột ngột. Ngoài ra trẻ phụ thuộc hoàn toàn vào glucose: dự trữ glycogen gan thấp, gluconeogenesis kém, não chiếm tới 25 % VO₂ → hạ đường huyết xuất hiện rất nhanh và biểu hiện giống hệt bệnh lý thần kinh.',
+  trap:'Bỏ qua đường huyết là lỗi kinh điển. Và nhớ: trẻ "ngủ ngoan, dễ thương" trong tay mẹ có thể là <b>li bì bệnh lý</b> — luôn so sánh với mô tả của cha mẹ về trạng thái thường ngày.'},
+
+ {k:'E',n:'EXPOSURE — Bộc lộ & Môi trường',time:'mục tiêu: không bỏ sót tổn thương, nhưng không gây hạ thân nhiệt',color:'amber',
+  look:['Cởi toàn bộ quần áo (cắt nếu cần) trong điều kiện đủ ấm, đủ ánh sáng, tôn trọng riêng tư','Ban: dát sẩn, mụn nước, <b>xuất huyết dạng chấm (petechiae) / tử ban (purpura)</b> không mất khi căng da → viêm màng não mô cầu, Dengue nặng, ban xuất huyết','Dấu mất nước: mắt trũng, thóp lõm, độ đàn hồi da, môi khô, cân nặng so với lần cân trước','Chấn thương: xây xát, bầm ở nhiều giai đoạn lành, vết bỏng có hình dạng đặc thù, tổn thương vùng kín/miệng → nghi ngờ bạo hành','Phù, cổ chướng, gan lách to, khối bất thường','CÂN TRẺ (hoặc dùng thước Broselow) — bắt buộc để tính mọi liều thuốc'],
+  do:['Giữ ấm: đèn sưởi, chăn ấm, làm ấm dịch truyền, nhiệt độ phòng ≥ 25 °C với sơ sinh','Đo nhiệt độ trung tâm (sơ sinh: cặp nách đủ 3–5 phút hoặc hậu môn)','Điều chỉnh liều thuốc theo cân nặng THỰC, không theo tuổi ước đoán','Ghi nhận và báo cáo khi nghi ngờ bạo hành trẻ em (trách nhiệm pháp lý)','Lấy đủ xét nghiệm trong một lần chọc duy nhất'],
+  why:'Diện tích da trên cân nặng của trẻ lớn gấp 2–3 lần người lớn, lớp mỡ dưới da mỏng, khả năng run sinh nhiệt kém (sơ sinh sinh nhiệt nhờ <b>mỡ nâu</b> — quá trình này tiêu thụ rất nhiều oxy và glucose). Hạ thân nhiệt ở trẻ gây tăng tiêu thụ oxy, toan chuyển hoá và hạ đường huyết → vòng xoắn nặng lên nhanh chóng, đặc biệt ở trẻ sốc và sơ sinh.',
+  trap:'Để trẻ trần quá lâu trên bàn khám lạnh = tự tay gây hạ thân nhiệt và suy hô hấp thứ phát. Ngược lại, quấn quá kỹ khiến bạn bỏ sót ban xuất huyết hoặc vết thương. Và đừng bao giờ kê đơn mg/kg khi chưa có cân nặng thực.'}
+];
+
+const GCS_DATA = {
+  eye:[
+    {v:4,t:'4 — Tự mở mắt'},
+    {v:3,t:'3 — Mở mắt khi gọi / ra lệnh'},
+    {v:2,t:'2 — Mở mắt khi kích thích đau'},
+    {v:1,t:'1 — Không mở mắt'}
+  ],
+  verbal:{
+    infant:[
+      {v:5,t:'5 — Bập bẹ, ê a thích hợp với hoàn cảnh'},
+      {v:4,t:'4 — Khóc khó chịu, dỗ được một phần'},
+      {v:3,t:'3 — Khóc dai dẳng, không dỗ được'},
+      {v:2,t:'2 — Rên, kích thích đau'},
+      {v:1,t:'1 — Không đáp ứng'}
+    ],
+    toddler:[
+      {v:5,t:'5 — Nói từ/câu ngắn thích hợp'},
+      {v:4,t:'4 — Nói từ không thích hợp'},
+      {v:3,t:'3 — Nói lộn xộn, không rõ nghĩa'},
+      {v:2,t:'2 — Rên, âm thanh khi đau'},
+      {v:1,t:'1 — Không đáp ứng'}
+    ],
+    older:[
+      {v:5,t:'5 — Định hướng đúng (tên, nơi, thời gian)'},
+      {v:4,t:'4 — Lú lẫn, trả lời sai'},
+      {v:3,t:'3 — Lời nói không phù hợp'},
+      {v:2,t:'2 — Âm thanh không rõ'},
+      {v:1,t:'1 — Không đáp ứng'}
+    ]
+  },
+  motor:{
+    infant:[
+      {v:6,t:'6 — Cử động tự phát, bình thường'},
+      {v:5,t:'5 — Co lại khi chạm / kích thích'},
+      {v:4,t:'4 — Co rút tránh đau'},
+      {v:3,t:'3 — Gấp bất thường (mất vỏ)'},
+      {v:2,t:'2 — Duỗi cứng (mất não)'},
+      {v:1,t:'1 — Không đáp ứng'}
+    ],
+    toddler:[
+      {v:6,t:'6 — Cử động tự phát, bình thường'},
+      {v:5,t:'5 — Co lại khi chạm / kích thích'},
+      {v:4,t:'4 — Co rút tránh đau'},
+      {v:3,t:'3 — Gấp bất thường (mất vỏ)'},
+      {v:2,t:'2 — Duỗi cứng (mất não)'},
+      {v:1,t:'1 — Không đáp ứng'}
+    ],
+    older:[
+      {v:6,t:'6 — Làm theo lệnh'},
+      {v:5,t:'5 — Định khu được kích thích đau'},
+      {v:4,t:'4 — Co rút tránh đau'},
+      {v:3,t:'3 — Gấp bất thường (mất vỏ)'},
+      {v:2,t:'2 — Duỗi cứng (mất não)'},
+      {v:1,t:'1 — Không đáp ứng'}
+    ]
+  }
+};
+
+const TRAPS = [
+ ['Chạm trẻ trước khi quan sát','Trẻ khóc → mất dữ liệu PAT trung thực, có thể gây nguy hiểm (viêm nắp thanh quản, tăng ICP). Mắt trước – tay sau.'],
+ ['Đếm nhịp thở < 60 giây','Trẻ nhỏ thở không đều, có chu kỳ; đếm 15 s × 4 sẽ sai ngưỡng thở nhanh WHO và bỏ sót hoặc chẩn đoán quá mức.'],
+ ['"Co kéo giảm = trẻ đỡ"','Có thể là kiệt sức cơ hô hấp. Luôn đối chiếu với tri giác, nhịp thở và nhịp tim — cả ba phải cải thiện cùng lúc.'],
+ ['Chờ tụt HA mới chẩn đoán sốc','HA là dấu hiệu muộn. Trẻ có thể mất 25–30 % thể tích mà HA vẫn bình thường. Dùng CRT + da + nhịp tim + tri giác.'],
+ ['Tin SpO₂ để loại trừ suy hô hấp','SpO₂ đo oxy hoá, không đo thông khí và không đo công thở. Trẻ còn gắng sức sẽ tụt rất nhanh khi mỏi.'],
+ ['Chờ tím mới lo','Tím cần Hb khử > 5 g/dL. Trẻ thiếu máu nặng hoặc sốc nặng có thể không bao giờ tím.'],
+ ['Dùng cuff huyết áp sai cỡ','Cuff nhỏ → HA cao giả; cuff lớn → HA thấp giả. Bề ngang túi hơi ≈ 40 % chu vi cánh tay.'],
+ ['Xử trí nhịp chậm bằng atropine','Ở trẻ em nhịp chậm gần như luôn do thiếu oxy → oxy hoá + thông khí + ép tim nếu < 60/phút kèm tưới máu kém.'],
+ ['Quên đường huyết ở trẻ rối loạn tri giác','Hạ đường huyết là nguyên nhân có thể đảo ngược trong 2 phút nhưng để lại di chứng nếu trễ.'],
+ ['Kê liều khi chưa có cân nặng','Mọi liều nhi khoa là mg/kg. Ước lượng bằng mắt sai rất nhiều ở trẻ béo phì/suy dinh dưỡng → dùng thước Broselow hoặc cân.'],
+ ['Đánh giá PAT một lần duy nhất','PAT là công cụ ĐỘNG. Lặp lại sau mỗi can thiệp và định kỳ theo mức độ nặng (trẻ nguy kịch: mỗi 5–15 phút).'],
+ ['"Trẻ nằm im, ngoan" là dấu hiệu tốt','Li bì bệnh lý có thể trông giống trẻ đang ngủ yên. Hỏi cha mẹ: "Cháu có khác mọi ngày không?" — câu hỏi có độ nhạy rất cao.']
+];
+
+const CASES = [
+ {tag:'8 tháng · VTPQ do RSV',title:'Nhũ nhi thở nhanh 3 ngày, bú kém',
+  text:'Bé 8 tháng, 7,8 kg, sổ mũi 3 ngày, 12 giờ nay thở nhanh và bú giảm một nửa. Mẹ bế vào phòng khám, bé quấy nhưng dỗ được, mắt nhìn theo bạn, khóc to. Bạn đứng cuối giường quan sát.',
+  vitals:[['Nhịp thở','68 /ph'],['Nhịp tim','168 /ph'],['SpO₂','90 % khí phòng'],['Nhiệt độ','37,4 °C']],
+  pat:['<b>A:</b> tỉnh, khóc to, dỗ được, tương tác tốt → bình thường','<b>W:</b> co kéo dưới sườn + phập phồng cánh mũi, khò khè nghe rõ, thở 68/ph','<b>C:</b> da hồng, chi ấm, CRT 1,5 giây → bình thường'],
+  correct:1,
+  opts:['Nguy kịch — dọa ngừng tim/ngừng thở','Suy hô hấp còn bù (A bình thường, W bất thường, C bình thường)','Suy chức năng não / CNS','Sốc mất bù'],
+  act:'Oxy để giữ SpO₂ ≥ 92–94 %, hút thông mũi trước bú, cho bú/thử dinh dưỡng đường ruột nếu còn an toàn, cân nhắc HFNC. <b>KHÔNG</b> dùng kháng sinh, corticoid hay giãn phế quản thường quy (PED-22). Theo dõi sát nguy cơ kiệt sức.',
+  why:'Não còn được oxy hoá tốt (TICLS bình thường) dù công thở rất cao → đây là suy hô hấp CÒN BÙ. Ngưỡng thở nhanh WHO cho trẻ 2–12 tháng là ≥ 50/ph, bé 68/ph. Nhiệm vụ của bạn lúc này là giảm công thở và canh chừng thời điểm cơ hoành mỏi.'},
+
+ {tag:'3 tuổi · Tiêu chảy 4 ngày',title:'Li bì, da bông tím, HA 62/38',
+  text:'Bé 3 tuổi, 13 kg, tiêu chảy nước 4 ngày, nôn nhiều, bỏ uống từ hôm qua. Vào viện trong tay mẹ, bé mềm nhão, không phản ứng khi gọi tên, chỉ rên khi véo da. Da vằn tím, bàn chân lạnh.',
+  vitals:[['Nhịp thở','44 /ph'],['Nhịp tim','186 /ph'],['HA','62/38 mmHg'],['CRT','5 giây']],
+  pat:['<b>A:</b> li bì, giảm trương lực, chỉ rên khi đau → BẤT THƯỜNG','<b>W:</b> thở nhanh 44/ph (bù toan chuyển hoá) → BẤT THƯỜNG','<b>C:</b> da bông tím, chi lạnh, CRT 5 s → BẤT THƯỜNG'],
+  correct:3,
+  opts:['Sốc còn bù — HA vẫn chấp nhận được theo tuổi','Suy hô hấp nặng / kiệt sức hô hấp','Sốc nhiễm khuẩn giai đoạn sớm (sốc ấm)','Nguy kịch — cả 3 cạnh bất thường, sốc mất bù'],
+  act:'Gọi hỗ trợ ngay. Oxy + bóp bóng nếu cần. <b>Đường IO trong 90 giây</b> (TM không nên mất thời gian). Bolus dịch đẳng trương 20 ml/kg = 260 ml trong 5–10 phút, lặp lại và đánh giá sau mỗi bolus. Lấy máu qua IO: khí máu, đường, điện giải. Adrenaline nếu không đáp ứng dịch. Chuyển ICU.',
+  why:'Ngưỡng HA tâm thu tối thiểu ở 3 tuổi là 70 + (2 × 3) = <b>76 mmHg</b>. Bé 62 mmHg → đã MẤT BÙ. Ba cạnh tam giác đều bất thường nghĩa là cả hô hấp, tuần hoàn và não đều suy — tử vong tính bằng phút nếu không hồi sức ngay.'},
+
+ {tag:'16 tháng · Sốt 2 ngày',title:'Li bì, thóp phồng, tử ban ở chân',
+  text:'Bé 16 tháng, sốt 39,2 °C hai ngày, hôm nay bỏ bú, ngủ li bì, khóc the thé khi được bế. Thóp phồng nhẹ. Có vài chấm xuất huyết nhỏ và mảng tử ban ở 2 cẳng chân không mất khi căng da. Thở 32 lần/phút, không co kéo.',
+  vitals:[['Nhịp thở','32 /ph'],['Nhịp tim','152 /ph'],['HA','94/58 mmHg'],['CRT','1,8 giây']],
+  pat:['<b>A:</b> li bì, khóc the thé, bỏ bú → BẤT THƯỜNG','<b>W:</b> không co kéo, không âm thanh bất thường, thở 32/ph (trong giới hạn) → bình thường','<b>C:</b> da ấm, CRT bình thường, tử ban là tổn thương mạch máu chứ không phải dấu hiệu tưới máu → bình thường (về mặt tưới máu)'],
+  correct:2,
+  opts:['Suy hô hấp còn bù','Sốc còn bù','Suy chức năng não / CNS — nghi viêm màng não mô cầu','Bình thường, sốt đơn thuần'],
+  act:'Cách ly + kháng sinh kinh nghiệm NGAY (Ceftriaxone/Cefotaxim) không chờ kết quả chọc dò, kèm Dexamethasone. Đường huyết mao mạch. Đường TM, dịch. Oxy. Đánh giá GCS, đồng tử. Chọc dò thắt lưng chỉ khi không có chống chỉ định và không được trì hoãn kháng sinh (PED-37).',
+  why:'Chỉ MỘT cạnh bất thường (Appearance) với công thở và tưới máu da bình thường → mẫu hình kinh điển của <b>suy chức năng não nguyên phát</b>: viêm màng não/viêm não, ngộ độc, hạ đường huyết, chấn thương sọ não. Tử ban không mất khi căng da + sốc là dấu hiệu viêm màng não mô cầu / nhiễm khuẩn huyết tối cấp.'},
+
+ {tag:'5 tuổi · Hen nặng',title:'"Trẻ có vẻ đỡ hơn" sau 40 phút khí dung',
+  text:'Bé 5 tuổi, 18 kg, hen nặng vào viện thở 52/phút, co kéo toàn thể, wheeze rõ, SpO₂ 88 %. Sau 3 lần khí dung Salbutamol + Methylprednisolone TM, 40 phút sau bạn thấy bé thở 28/phút, không còn nghe wheeze, co kéo gần hết. Nhưng bé lơ mơ, trả lời chậm, mềm nhão, môi tái và SpO₂ 86 % dù đang thở oxy mask 8 l/p. Nhịp tim 96/phút (trước đó 148).',
+  vitals:[['Nhịp thở','28 /ph (giảm)'],['Nhịp tim','96 /ph (giảm)'],['SpO₂','86 % / oxy'],['Tri giác','Lơ mơ']],
+  pat:['<b>A:</b> lơ mơ, giảm trương lực, trả lời chậm → BẤT THƯỜNG (mới xuất hiện)','<b>W:</b> "giảm" công thở nhưng là GIẢ — phổi im lặng, thở nông','<b>C:</b> môi tái, SpO₂ không đáp ứng oxy → BẤT THƯỜNG'],
+  correct:3,
+  opts:['Cơn hen đã đáp ứng — chuyển khí dung duy trì mỗi 4 giờ','Cải thiện, cho bé nghỉ ngơi và theo dõi lại sau 1 giờ','Sốc còn bù do mất nước (thở nhanh, không uống được)','Kiệt sức hô hấp — "cải thiện giả", dọa ngừng thở'],
+  act:'Gọi hồi sức NGAY. Bóp bóng mask O₂ 100 % với PIP đủ làm nở ngực, chuẩn bị đặt NKQ (lưu ý nguy cơ tụt HA khi khởi mê ở trẻ hen nặng). Adrenaline TM/tiêm bắp theo phác đồ nặng, Magnesium sulfate, cân nhắc Salbutamol TM. ICU. Đo khí máu động mạch nhưng không trì hoãn hỗ trợ thông khí.',
+  why:'Đây là bẫy nguy hiểm nhất trong cấp cứu hô hấp nhi. Ba dấu hiệu "đỡ" (nhịp thở chậm, co kéo giảm, wheeze mất) đi kèm ba dấu hiệu <b>xấu</b> (tri giác giảm, tím không đáp ứng oxy, nhịp tim chậm lại). Wheeze biến mất không phải vì phế quản mở ra mà vì <b>luồng khí quá yếu</b> — "silent chest". Nhịp tim giảm ở trẻ đang suy hô hấp là điềm báo ngừng tim.',
+ },
+
+ {tag:'Sơ sinh 2 ngày tuổi',title:'Rên, giảm trương lực, tái',
+  text:'Sơ sinh đủ tháng 2 ngày tuổi, 3,1 kg, bú kém từ cữ sáng, mẹ gọi vì "con lạnh và thở lạ". Bé rên từng cơn thì thở ra, tay chân duỗi mềm, ít cử động, không khóc khi bạn chạm. Da tái, chi lạnh. Vỡ ối sớm 24 giờ, mẹ sốt trong chuyển dạ.',
+  vitals:[['Nhịp thở','72 /ph'],['Nhịp tim','188 /ph'],['Nhiệt độ nách','35,8 °C'],['ĐH mao mạch','1,9 mmol/L']],
+  pat:['<b>A:</b> giảm trương lực, không khóc, bú kém → BẤT THƯỜNG','<b>W:</b> rên, thở 72/ph (ngưỡng < 2 tháng: ≥ 60/ph) → BẤT THƯỜNG','<b>C:</b> tái, chi lạnh → BẤT THƯỜNG'],
+  correct:3,
+  opts:['Vàng da sinh lý — theo dõi và chiếu đèn','Suy hô hấp còn bù đơn thuần','Hạ thân nhiệt đơn độc, ủ ấm là đủ','Nguy kịch — nhiễm khuẩn sơ sinh sớm kèm hạ đường huyết + hạ thân nhiệt'],
+  act:'Ủ ấm chủ động ngay (đèn sưởi, giường ấm). <b>Glucose 10 % 2 ml/kg = 6,2 ml TM chậm</b>, sau đó truyền duy trì theo GIR. Hỗ trợ hô hấp (CPAP/thông khí). Kháng sinh kinh nghiệm Ampicillin + Gentamicin trong vòng 1 giờ sau khi cấy máu. Chuyển NICU. Tìm ổ nhiễm khuẩn, đánh giá mẹ (PED-16, 17).',
+  why:'Ở sơ sinh, triệu chứng nhiễm khuẩn rất tinh tế và không đặc hiệu: bỏ bú, hạ thân nhiệt (thay vì sốt), thở không đều, rên, giảm trương lực. Ba cạnh PAT đều bất thường ở sơ sinh = nguy kịch. Vòng xoắn hạ thân nhiệt → tăng tiêu thụ oxy → hạ đường huyết → toan chuyển hoá diễn ra cực nhanh vì dự trữ glycogen thấp và diện tích da/cân nặng lớn.'},
+
+ {tag:'7 tuổi · Sốt ngày 4',title:'Tỉnh táo nhưng da lạnh, CRT 3 giây',
+  text:'Bé 7 tuổi, 22 kg, sốt 4 ngày, đau bụng, nôn 2 lần, hôm nay hết sốt nhưng lả đi. Bé vẫn tỉnh, nói chuyện được, chơi với điện thoại. Da lạnh, hơi bông ở đầu gối, CRT 3 giây. Mạch quay nảy yếu.',
+  vitals:[['Nhịp thở','28 /ph'],['Nhịp tim','142 /ph'],['HA','96/62 mmHg'],['Nhiệt độ','36,9 °C']],
+  pat:['<b>A:</b> tỉnh, tương tác, nói được → bình thường','<b>W:</b> không co kéo, thở 28/ph hơi nhanh nhẹ → cơ bản bình thường','<b>C:</b> da lạnh, bông tím nhẹ, CRT 3 s, mạch yếu → BẤT THƯỜNG'],
+  correct:1,
+  opts:['Sốc mất bù — cần adrenaline ngay','Sốc còn bù (nghi sốc Dengue) — tuần hoàn da bất thường, appearance còn tốt','Suy hô hấp còn bù','Bình thường vì HA còn trong giới hạn'],
+  act:'Đường TM, lấy máu: Hct, tiểu cầu, nhóm máu. Truyền dịch chống sốc theo phác đồ Dengue (Ringer Lactat) với tốc độ khởi đầu theo mức độ, <b>theo dõi Hct và tái đánh giá PAT sau mỗi 15–30 phút</b>. Oxy. Không dùng thuốc hạ sốt nhóm NSAID. Chuẩn bị cho khả năng chuyển sang mất bù (PED-33, 34).',
+  why:'Ngưỡng HA tâm thu tối thiểu ở 7 tuổi là 70 + (2 × 7) = 84 mmHg. Bé 96 mmHg → <b>HA còn bình thường</b>, nhưng CRT 3 s + da bông tím + mạch yếu chứng tỏ cung lượng tim đã giảm. Đây chính xác là sốc CÒN BÙ: chỉ 1 cạnh C bất thường. Giai đoạn này cứu được gần như 100 % nếu xử trí đúng; nếu chờ tụt HA thì tỷ lệ tử vong tăng vọt.'},
+
+ {tag:'2 tuổi · Đang ăn nho',title:'Ho sặc sụa đột ngột, stridor, tím quanh môi',
+  text:'Bé 2 tuổi đang ăn nho thì ho sặc sụa, sau đó ho yếu dần, thở rít thì hít vào, co kéo trên ức. Bé hoảng sợ nhưng vẫn tỉnh, mắt mở to nhìn mẹ. Môi tím nhẹ khi gắng sức, da thân mình còn hồng. Không ai được phép móc họng trẻ.',
+  vitals:[['Nhịp thở','54 /ph'],['Nhịp tim','176 /ph'],['SpO₂','89 %'],['Âm thở','Stridor + ho yếu']],
+  pat:['<b>A:</b> tỉnh, hoảng sợ nhưng giao tiếp được → bình thường','<b>W:</b> stridor, co kéo, ho yếu dần → BẤT THƯỜNG','<b>C:</b> tím quanh môi khi gắng sức, SpO₂ 89 % → BẤT THƯỜNG'],
+  correct:0,
+  opts:['Tắc nghẽn đường thở nặng, chưa mất ý thức — xử trí dị vật NGAY (≥ 1 tuổi: Heimlich)','Suy hô hấp do viêm nắp thanh quản — cho khí dung adrenaline','Sốc phản vệ — adrenaline tiêm bắp','Kiệt sức hô hấp — đặt NKQ ngay'],
+  act:'Trẻ ≥ 1 tuổi còn tỉnh: <b>nghiệm pháp Heimlich</b> (ấn bụng) 5 lần liên tiếp, kiểm tra miệng giữa các chu kỳ, lặp lại đến khi dị vật ra hoặc trẻ bất tỉnh. Nếu bất tỉnh → nằm ngửa, mở miệng nhìn dị vật (chỉ lấy khi NHÌN THẤY), bóp bóng, bắt đầu CPR nếu cần (PED-09). Gọi hỗ trợ ngay từ đầu.',
+  why:'Tam chứng xâm nhập (ho sặc sụa đột ngột + stridor + khó thở) khi đang ăn là tắc nghẽn dị vật cho đến khi chứng minh ngược lại. Hai cạnh W và C bất thường nhưng Appearance còn tốt → trẻ còn đủ oxy não, đây là <b>cửa sổ vàng</b> để lấy dị vật. Móc họng mù có thể đẩy dị vật sâu hơn và gây co thắt thanh quản — tuyệt đối cấm.'},
+
+ {tag:'4 tuổi · Ngã cầu thang',title:'Bất tỉnh, đồng tử phải giãn, nhịp tim 52',
+  text:'Bé 4 tuổi ngã cầu thang cao 3 m, bất tỉnh tại chỗ. Khi bạn đến: không mở mắt, phát âm thanh không rõ khi kích thích đau, duỗi cứng 2 chi dưới khi véo. Đồng tử phải 6 mm phản xạ kém, trái 3 mm. Không co kéo, phổi trong. Da hồng.',
+  vitals:[['Nhịp thở','Cheyne-Stokes'],['Nhịp tim','52 /ph'],['HA','138/82 mmHg'],['SpO₂','93 %']],
+  pat:['<b>A:</b> GCS thấp, duỗi cứng, âm thanh không rõ → BẤT THƯỜNG','<b>W:</b> kiểu thở bất thường (Cheyne-Stokes) do tổn thương não → BẤT THƯỜNG','<b>C:</b> da hồng, nhưng nhịp chậm + HA cao = tam chứng Cushing'],
+  correct:2,
+  opts:['Sốc mất bù do mất máu — bolus dịch 20 ml/kg nhanh','Suy hô hấp do chấn thương ngực — bóp bóng và dẫn lưu','Tổn thương thần kinh nặng với tăng áp lực nội sọ (tam chứng Cushing) — bảo vệ đường thở & chống phù não','Ngộ độc thuốc an thần — dùng thuốc giải độc'],
+  act:'Bất động cột sống cổ, giữ đường thở thông thoáng (jaw thrust, không ngửa cổ quá mức). Oxy, bóp bóng nếu thông khí kém. GCS ≤ 8 → đặt NKQ bảo vệ đường thở, giữ PaCO₂ ở mức bình thường thấp (không tăng thông khí quá mức). Đầu cao 30 °, Mannitol 0,5–1 g/kg hoặc NaCl ưu trương. Đường huyết, CT sọ não khẩn, hội chẩn ngoại thần kinh.',
+  why:'Tam chứng Cushing (HA tăng + nhịp CHẬM + thở bất thường) là phản xạ Cushing: cơ thể tăng HA để thắng áp lực nội sọ, kích hoạt phản xạ baroreceptor làm chậm nhịp tim. Đây là dấu hiệu <b>tăng ICP đã mất bù, sắp tụt não</b>. Lưu ý bẫy: nhịp chậm + HA cao dễ bị đọc nhầm là "trẻ còn ổn".'},
+
+ {tag:'10 tuổi · Sau ăn hải sản',title:'Nổi mề đay, khàn tiếng, thở rít, HA 78/50',
+  text:'Bé 10 tuổi, 32 kg, 20 phút sau ăn tôm: ngứa, mề đay toàn thân, khàn tiếng, nuốt vướng, thở rít thì hít vào, thở 34/phút, co kéo nhẹ. Bé lo lắng, bứt rứt. Môi tái, da bông tím nhẹ, chi lạnh.',
+  vitals:[['Nhịp thở','34 /ph'],['Nhịp tim','138 /ph'],['HA','78/50 mmHg'],['SpO₂','91 %']],
+  pat:['<b>A:</b> bứt rứt, lo lắng (thiếu oxy não sớm), khàn tiếng → BẤT THƯỜNG','<b>W:</b> stridor (phù thanh quản), thở nhanh, co kéo → BẤT THƯỜNG','<b>C:</b> tái, bông tím, chi lạnh, HA 78 (ngưỡng ≥ 10 tuổi là 90) → BẤT THƯỜNG'],
+  correct:3,
+  opts:['Cơn hen cấp nặng — khí dung Salbutamol liên tục','Viêm nắp thanh quản — khí dung adrenaline và Dexamethasone','Sốc nhiễm khuẩn — cấy máu và kháng sinh trong 1 giờ','Phản vệ nặng — Adrenaline tiêm bắp đùi ngay lập tức'],
+  act:'<b>Adrenaline 1 mg/ml tiêm bắp mặt ngoài đùi: 0,01 ml/kg = 0,32 ml</b> (liều tối đa trẻ này 0,5 mg) — tiêm ngay, không trì hoãn, lặp lại mỗi 5–15 phút nếu chưa đáp ứng. Nằm đầu thấp-chân cao (nếu dung nạp), oxy liều cao, 2 đường TM lớn, NaCl 0,9 % 20 ml/kg nhanh. Corticoid + kháng H1 chỉ là thuốc phụ trợ, KHÔNG thay thế adrenaline. Theo dõi phản vệ hai pha ≥ 6–12 giờ (PED-06).',
+  why:'Khởi phát trong vài phút sau tiếp xúc dị nguyên + tổn thương da niêm mạc + phù đường thở (stridor, khàn) + tụt HA = phản vệ. Cả 3 cạnh PAT bất thường → nguy kịch. Cơ chế: giãn mạch và thoát dịch ồ ạt làm giảm tiền tải đột ngột; chỉ adrenaline mới đảo ngược được đồng thời co mạch, giảm phù nề và giãn phế quản. Chần chừ adrenaline là nguyên nhân tử vong hàng đầu trong phản vệ.'}
+];
+
+const CARDS = [
+ ['PAT là gì và đánh giá trong bao lâu?','Tam giác đánh giá nhi khoa: 3 cạnh Appearance – Work of Breathing – Circulation to Skin. Thực hiện trong <b>60 giây đầu</b> ở cuối giường, <b>không chạm vào trẻ</b>, cho ra chẩn đoán mức độ nặng (sinh lý bệnh) trước khi có bệnh danh.'],
+ ['TICLS gồm những gì?','<b>T</b>one (trương lực) · <b>I</b>nteractiveness (tương tác) · <b>C</b>onsolability (dỗ nín được) · <b>L</b>ook/Gaze (ánh nhìn) · <b>S</b>peech/Cry (nói/khóc). Là bộ công cụ lượng giá cạnh Appearance.'],
+ ['Vì sao Appearance là cạnh quan trọng nhất?','Vì não không có dự trữ oxy/glucose và được ưu tiên tưới máu cuối cùng. Appearance bất thường nghĩa là não đã thiếu oxy hoặc thiếu tưới máu → luôn là tình trạng nặng, bất kể HA và SpO₂ còn "đẹp".'],
+ ['Cạnh "Công thở" phản ánh điều gì?','Nhu cầu oxy và thông khí đang tăng, trẻ phải trả giá bằng năng lượng cơ hô hấp. Gồm: âm thanh bất thường (stridor/wheeze/grunt), tư thế chống khó thở, co kéo, phập phồng cánh mũi, nhịp thở bất thường.'],
+ ['Cạnh "Tuần hoàn da" phản ánh điều gì?','Cung lượng tim. Khi CO giảm, catecholamine co mạch da-cơ-ruột-thận để dồn máu cho tim và não → tái, bông tím, chi lạnh, CRT > 2 s xuất hiện <b>rất sớm</b>, trong khi HA vẫn bình thường.'],
+ ['Cách đo CRT chuẩn hoá?','Ấn xương ức hoặc mặt lòng đốt ngón tay trong <b>5 giây</b>, thả ra và đếm thời gian da hồng lại. Nhiệt độ phòng ≥ 24 °C, chi ngang mức tim, đủ ánh sáng. Bình thường < 2 s; 2–3 s bất thường; > 3 s gợi ý sốc.'],
+ ['8 mẫu hình PAT chính?','Bình thường · Suy hô hấp (chỉ W) · Sốc còn bù (chỉ C) · Suy HH + giảm tưới máu (W+C) · Suy chức năng não (chỉ A) · Kiệt sức hô hấp (A+W) · Sốc mất bù (A+C) · Nguy kịch dọa ngừng tim (A+W+C).'],
+ ['Chỉ A bất thường gợi ý gì?','Suy chức năng não nguyên phát: viêm màng não/viêm não, trạng thái sau co giật, ngộ độc, chấn thương sọ não, hạ đường huyết, rối loạn chuyển hoá. Việc đầu tiên: thử đường huyết mao mạch.'],
+ ['Suy hô hấp còn bù khác kiệt sức hô hấp thế nào?','Còn bù: thở NHANH + co kéo nhiều nhưng <b>TICLS còn tốt</b>. Kiệt sức: nhịp thở <b>chậm lại</b>, co kéo <b>giảm</b>, rên/wheeze mất, tím không đáp ứng oxy, <b>tri giác xấu đi</b>, nhịp tim bắt đầu chậm → dọa ngừng thở.'],
+ ['Vì sao "co kéo giảm" có thể là dấu hiệu xấu?','Vì co kéo là nỗ lực của cơ hô hấp phụ. Khi cơ hoành (nhiều sợi type II, mau mỏi) đã kiệt sức, trẻ không còn tạo được lực → co kéo giảm, phổi im lặng, nhưng trao đổi khí tồi hơn. Phải đối chiếu với tri giác và nhịp tim.'],
+ ['Vì sao HA tụt là dấu hiệu MUỘN của sốc ở trẻ?','Trẻ bù trừ bằng nhịp tim nhanh + co mạch ngoại vi cực mạnh, có thể giữ HA bình thường khi đã mất 25–30 % thể tích tuần hoàn. Khi HA tụt, bù trừ đã cạn → nguy cơ ngừng tim trong vài phút. Trẻ "rơi xuống vực" chứ không tụt dần.'],
+ ['Ngưỡng HA tâm thu tối thiểu theo tuổi?','Sơ sinh đủ tháng < <b>60</b> mmHg · 1–12 tháng < <b>70</b> · 1–10 tuổi < <b>70 + (2 × tuổi năm)</b> · > 10 tuổi < <b>90</b>. Dưới ngưỡng = sốc mất bù.'],
+ ['Dấu hiệu sốc CÒN BÙ (không cần HA)?','Nhịp tim nhanh không giải thích được, CRT > 2 s, da tái/bông tím, chi lạnh, mạch ngoại vi yếu so với mạch trung tâm, thiểu niệu, tri giác kích thích/vật vã. HA vẫn bình thường.'],
+ ['Xử trí nhịp chậm ở trẻ em?','Nhịp chậm ở trẻ gần như luôn do <b>thiếu oxy</b>, không phải bệnh tim nguyên phát. Ưu tiên oxy hoá + thông khí hiệu quả. Nếu nhịp < 60/phút kèm dấu hiệu tưới máu kém dù đã oxy hoá đầy đủ → <b>bắt đầu ép tim</b> + adrenaline.'],
+ ['Trình tự ABCDE và nguyên tắc cốt lõi?','Airway → Breathing → Circulation → Disability → Exposure. Nguyên tắc: điều trị cái đe doạ tính mạng <b>trước khi</b> tìm nguyên nhân; không sang bước sau nếu bước trước chưa ổn; <b>đánh giá lại</b> sau mỗi can thiệp.'],
+ ['Vì sao phải kê gối dưới vai khi mở đường thở ở nhũ nhi?','Nhũ nhi có chẩm rất to và cổ ngắn → nằm ngửa phẳng làm cổ bị GẬP, đẩy lưỡi ra sau gây tắc đường thở. Kê gối 2–3 cm dưới vai đưa trẻ về tư thế "sniffing", trục tai-ngang vai thẳng hàng, mở đường thở tối ưu.'],
+ ['Bước D (Disability) tối thiểu phải làm gì?','AVPU hoặc GCS nhi (thang lời nói theo nhóm tuổi), đồng tử, <b>đường huyết mao mạch</b>, trương lực, thóp ở nhũ nhi, tìm tam chứng Cushing. GCS ≤ 8 → đặt NKQ bảo vệ đường thở.'],
+ ['Vì sao bước E phải cân trẻ (hoặc dùng thước Broselow)?','Mọi liều thuốc nhi khoa là mg/kg. Ước lượng cân nặng bằng mắt hoặc theo tuổi sai lệch rất lớn ở trẻ béo phì/suy dinh dưỡng. Đồng thời bước E phải giữ ấm: trẻ mất nhiệt nhanh do diện tích da/cân nặng lớn → hạ thân nhiệt gây tăng tiêu thụ oxy và hạ đường huyết.']
+];
+
+const QUIZ = [
+ {q:'Bạn bước vào phòng cấp cứu và thấy một bé 3 tuổi. Việc ĐẦU TIÊN bạn làm là gì?',
+  o:['Đặt ống nghe lên ngực để đếm nhịp tim','Đứng cuối giường quan sát 60 giây, không chạm trẻ','Đo huyết áp và SpO₂','Hỏi bệnh sử chi tiết từ mẹ'],
+  c:1,
+  e:'Nguyên tắc "mắt trước – tay sau". Chạm trẻ ngay sẽ làm trẻ khóc, phá huỷ dữ liệu PAT trung thực và có thể nguy hiểm (viêm nắp thanh quản, tăng áp lực nội sọ). Hỏi bệnh sử có thể làm đồng thời nhưng không thay thế quan sát.'},
+ {q:'TICLS dùng để lượng giá cạnh nào của tam giác PAT?',
+  o:['Work of Breathing','Circulation to Skin','Appearance','Cả ba cạnh'],
+  c:2,
+  e:'TICLS (Tone, Interactiveness, Consolability, Look/Gaze, Speech/Cry) là bộ công cụ đánh giá Appearance — cửa sổ nhìn vào chức năng não.'},
+ {q:'Trẻ 4 tuổi viêm phổi: thở 52/phút, co kéo dưới sườn rõ, phập phồng cánh mũi, nhưng vẫn tỉnh, chơi với đồ chơi, khóc to khi bị tiêm, da hồng, CRT 1 giây. Mẫu PAT là gì?',
+  o:['Nguy kịch — dọa ngừng thở','Suy hô hấp còn bù','Suy hô hấp mất bù / kiệt sức','Sốc còn bù'],
+  c:1,
+  e:'Chỉ cạnh W bất thường; A và C bình thường → suy hô hấp CÒN BÙ. Não còn được oxy hoá tốt. Điều trị nguyên nhân + oxy, theo dõi sát nguy cơ chuyển sang kiệt sức.'},
+ {q:'Dấu hiệu nào sau đây báo hiệu trẻ đã chuyển từ suy hô hấp sang KIỆT SỨC hô hấp?',
+  o:['Nhịp thở tăng từ 48 lên 62/phút','Co kéo tăng, phập phồng cánh mũi rõ hơn','Nhịp thở chậm lại còn 24/phút, co kéo giảm, trẻ lơ mơ','Xuất hiện thở rên thì thở ra'],
+  c:2,
+  e:'Bộ ba "cải thiện giả": nhịp thở chậm lại + co kéo giảm + tri giác xấu đi = cơ hô hấp đã mỏi. Đây là chỉ định hỗ trợ thông khí ngay, không phải tin tốt.'},
+ {q:'Ngưỡng HA tâm thu tối thiểu (dưới đó là sốc mất bù) của trẻ 6 tuổi là bao nhiêu?',
+  o:['60 mmHg','70 mmHg','82 mmHg','90 mmHg'],
+  c:2,
+  e:'Công thức PALS/APLS cho trẻ 1–10 tuổi: 70 + (2 × tuổi năm) = 70 + 12 = <b>82 mmHg</b>. Sơ sinh < 60; 1–12 tháng < 70; > 10 tuổi < 90.'},
+ {q:'Trẻ 18 tháng tiêu chảy: tỉnh, khóc to, da tái, chi lạnh, CRT 3,5 giây, mạch quay khó bắt, nhịp tim 178/phút, HA 84/50. Phân loại đúng nhất?',
+  o:['Sốc mất bù','Sốc còn bù','Không sốc vì HA bình thường','Suy hô hấp còn bù'],
+  c:1,
+  e:'Ngưỡng HA tối thiểu ở 18 tháng (1,5 tuổi) = 70 + 3 = 73 mmHg; trẻ 84 mmHg nên HA còn bình thường. Nhưng CRT 3,5 s + tái + chi lạnh + mạch yếu + nhịp nhanh → sốc CÒN BÙ. Điều trị ngay, đừng chờ tụt HA.'},
+ {q:'Trẻ 8 tháng nhịp tim 54/phút, tím, thở ngáp, SpO₂ 74 % dù đang bóp bóng mask với oxy 100 %. Hành động đúng nhất?',
+  o:['Tiêm Atropine 0,02 mg/kg TM','Tiếp tục bóp bóng và quan sát thêm 2 phút','Bắt đầu ép tim ngay vì nhịp < 60/phút kèm tưới máu kém','Đặt NKQ rồi mới xem xét ép tim'],
+  c:2,
+  e:'Theo PALS: nhịp < 60/phút kèm dấu hiệu tưới máu kém dù đã oxy hoá và thông khí hiệu quả → bắt đầu ép tim (tỷ lệ 15:2 với 2 người cấp cứu) và adrenaline. Ở trẻ em nhịp chậm là nhịp trước ngừng tim do thiếu oxy.'},
+ {q:'Trong bước D (Disability), xét nghiệm tại giường nào bắt buộc ở MỌI trẻ rối loạn tri giác?',
+  o:['Khí máu động mạch','Đường huyết mao mạch','Lactat máu','CT sọ não'],
+  c:1,
+  e:'Hạ đường huyết là nguyên nhân gây rối loạn tri giác có thể đảo ngược trong 2 phút bằng Glucose 10 % 2 ml/kg, nhưng để lại di chứng vĩnh viễn nếu trễ. Trẻ nhỏ rất dễ hạ đường huyết do dự trữ glycogen thấp.'},
+ {q:'Trẻ 2 tuổi nghi viêm nắp thanh quản: chảy dãi, ngồi chồm hổm, stridor, sốt cao. Điều TUYỆT ĐỐI TRÁNH là gì?',
+  o:['Cho trẻ ngồi trong tay mẹ','Chuẩn bị oxy và bộ dụng cụ đường thở','Dùng đè lưỡi khám họng để nhìn nắp thanh quản','Gọi bác sĩ gây mê/ENT ngay'],
+  c:2,
+  e:'Kích thích trẻ (đè lưỡi, chọc khám họng, lấy máu) có thể gây co thắt thanh quản và tắc đường thở hoàn toàn đột ngột. Giữ trẻ bình tĩnh trong tay mẹ, không để trẻ khóc, gọi hỗ trợ đường thở chuyên khoa và chuẩn bị đặt ống tại phòng mổ.'},
+ {q:'Đặc điểm nào ĐÚNG về tuần hoàn da trong PAT?',
+  o:['Tím là dấu hiệu sớm nhất của sốc','CRT kéo dài xuất hiện trong khi HA vẫn còn bình thường','Da bông tím chỉ gặp trong sốc ấm','CRT > 5 giây mới được coi là bất thường'],
+  c:1,
+  e:'Co mạch ngoại vi là bù trừ ĐẦU TIÊN khi cung lượng tim giảm → da tái, bông tím, CRT > 2 s xuất hiện rất sớm, trước khi HA tụt. Tím là dấu hiệu muộn (cần Hb khử > 5 g/dL). CRT bình thường < 2 giây.'}
+];
+
+const CKLIST = [
+ 'Đứng cuối giường 60 giây, không chạm trẻ trước khi quan sát xong',
+ 'Hoàn thành TICLS và ghi nhận Appearance bình thường hay bất thường',
+ 'Đếm nhịp thở đủ 60 giây, đối chiếu ngưỡng WHO theo tuổi',
+ 'Mô tả công thở: âm thanh, tư thế, co kéo tầng nào, biên độ',
+ 'Đánh giá màu da, nhiệt độ chi và đo CRT chuẩn hoá',
+ 'Đo HA với cuff đúng cỡ, so với ngưỡng tối thiểu theo tuổi',
+ 'Đặt SpO₂ (sơ sinh: tay phải preductal) và ghi FiO₂ đang thở',
+ 'Thử đường huyết mao mạch nếu tri giác không bình thường',
+ 'CÂN trẻ (hoặc thước Broselow) trước khi kê bất kỳ liều nào',
+ 'Kiểm tra E (ban, chấn thương, dấu hiệu bạo hành) và ủ ấm',
+ 'Ghi lại mẫu PAT + phân tầng nguy cơ vào hồ sơ',
+ 'Hẹn mốc đánh giá lại (5–15 phút nếu nặng, sau mỗi can thiệp)'
+];
+
+/* ================= HELPERS ================= */
+const $=s=>document.querySelector(s), $$=s=>Array.from(document.querySelectorAll(s));
+function jumpSide(id){document.getElementById(id).scrollIntoView({behavior:'smooth',block:'center'});}
+
+/* nav */
+(function buildNav(){
+  const nav=$('#nav'), mn=$('#mnav');
+  NAV.forEach(([id,label])=>{
+    const a=document.createElement('a'); a.className='navlink'; a.href='#'+id; a.innerHTML='<span class="mono text-[.68rem] opacity-50 w-5 shrink-0">'+(NAV.indexOf(NAV.find(n=>n[0]===id))+1).toString().padStart(2,'0')+'</span>'+label;
+    nav.appendChild(a);
+    const o=document.createElement('option'); o.value='#'+id; o.textContent=label; mn.appendChild(o);
+  });
+})();
+
+/* scroll progress + reveal + active nav */
+window.addEventListener('scroll',()=>{
+  const h=document.documentElement; const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  $('#prog').style.width=p+'%';
+},{passive:true});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.06});
+$$('.reveal').forEach(e=>io.observe(e));
+const io2=new IntersectionObserver(es=>{es.forEach(e=>{
+  if(e.isIntersecting){
+    const id=e.target.id;
+    $$('.navlink').forEach((a,i)=>a.classList.toggle('active',NAV[i]&&NAV[i][0]===id));
+  }})},{rootMargin:'-15% 0px -70% 0px'});
+NAV.forEach(([id])=>{const el=document.getElementById(id); if(el) io2.observe(el);});
+
+/* ================= PAT TABLE ================= */
+(function(){
+  const tb=$('#patternBody');
+  PATTERNS.forEach(p=>{
+    const mark=v=>v?'<span class="text-rose-300 font-bold">✕</span>':'<span class="text-teal-300 font-bold">✓</span>';
+    tb.insertAdjacentHTML('beforeend',
+      `<tr>
+        <td class="text-center">${mark(p.a)}</td><td class="text-center">${mark(p.w)}</td><td class="text-center">${mark(p.c)}</td>
+        <td><div class="font-bold">${p.name}</div><span class="chip ${p.cls} text-[.68rem] mt-1">${p.lv}</span></td>
+        <td class="text-slate-400">${p.phys}</td><td class="text-teal-100/90">${p.act}</td>
+      </tr>`);
+  });
+})();
+
+/* ================= PAT BUILDER ================= */
+const state={A:new Set(),W:new Set(),C:new Set()};
+function buildTicks(){
+  const map={A:'#ticksA',W:'#ticksW',C:'#ticksC'};
+  Object.keys(TICKS).forEach(side=>{
+    const box=$(map[side]); box.innerHTML='';
+    TICKS[side].forEach(([key,label])=>{
+      const d=document.createElement('div');
+      d.className='tick'; d.dataset.side=side; d.dataset.key=key;
+      d.innerHTML=`<span class="box">✓</span><span class="lbl text-[.83rem] text-slate-300 leading-snug">${label}</span>`;
+      d.onclick=()=>{ state[side].has(key)?state[side].delete(key):state[side].add(key); d.classList.toggle('on'); renderPat(); };
+      box.appendChild(d);
+    });
+  });
+}
+function renderPat(){
+  const a=state.A.size>0?1:0,w=state.W.size>0?1:0,c=state.C.size>0?1:0;
+  $('#cA').textContent=state.A.size; $('#cW').textContent=state.W.size; $('#cC').textContent=state.C.size;
+  const p=PATTERNS.find(x=>x.a===a&&x.w===w&&x.c===c);
+  // vertex colours
+  const set=(pre,val,col,txt)=>{const r=$(pre+'_ring'),t=$(pre+'_txt'); r.setAttribute('stroke',col); t.setAttribute('fill',txt);};
+  set('#vA',a,a?'#ef4444':'#2dd4bf',a?'#fecaca':'#7ff5e6');
+  set('#vW',w,w?'#ef4444':'#2dd4bf',w?'#fecaca':'#7ff5e6');
+  set('#vC',c,c?'#ef4444':'#2dd4bf',c?'#fecaca':'#7ff5e6');
+  $('#ctrRing').setAttribute('stroke', (a||w||c)?'#ef4444':'#2dd4bf');
+  $('#ctrL1').textContent = p.lv;
+  $('#ctrL1').setAttribute('fill',(a||w||c)?'#fecaca':'#7ff5e6');
+  $('#ctrL1').setAttribute('font-size', p.lv.length>16?'12':'15');
+  $('#ctrL2').textContent = p.name;
+  const vc=$('#verdictCard'); vc.className='rounded-xl p-4 '+p.cls;
+  $('#verdictTitle').textContent=p.name;
+  $('#verdictSub').textContent='Mức độ: '+p.lv+' — '+p.phys;
+  $('#verdictAction').innerHTML='<b class="opacity-90">Hành động:</b> '+p.act;
+  const lab=v=>v?'<span class="text-rose-300 font-bold">✕ BT</span>':'<span class="text-teal-300 font-bold">✓</span>';
+  $('#mA').innerHTML=lab(a); $('#mW').innerHTML=lab(w); $('#mC').innerHTML=lab(c);
+  $('#bigVerdict').textContent=p.name+' · '+p.lv;
+  $('#bigVerdict').className='text-xl font-extrabold '+(a?'text-rose-300':(w||c)?'text-amber-300':'text-teal-200');
+  $('#bigWhy').innerHTML=p.phys+' <span class="text-teal-300 font-semibold">→ '+p.act+'</span>';
+}
+function resetPat(){state.A.clear();state.W.clear();state.C.clear();$$('.tick').forEach(t=>t.classList.remove('on'));renderPat();}
+function loadExample(){
+  resetPat();
+  [['A','tone'],['A','inter'],['W','rate'],['W','retr'],['C','mottle'],['C','crt']].forEach(([s,k])=>{
+    state[s].add(k);
+    const el=$(`.tick[data-side="${s}"][data-key="${k}"]`); if(el) el.classList.add('on');
+  });
+  renderPat();
+  $('#tool').scrollIntoView({behavior:'smooth',block:'start'});
+}
+buildTicks(); renderPat();
+
+/* ================= 60s TIMER ================= */
+let tInt=null, tLeft=60;
+function startTimer(){
+  stopTimer(); tLeft=60; tickTimer();
+  tInt=setInterval(()=>{tLeft--; if(tLeft<0){stopTimer();tLeft=0;} tickTimer();},1000);
+  $('#btn60').textContent='⏳ Đang chạy…';
+}
+function stopTimer(){ if(tInt){clearInterval(tInt);tInt=null;} $('#btn60').textContent='▶ Bắt đầu luyện 60 giây'; }
+function tickTimer(){
+  const el=tLeft<0?0:tLeft;
+  $('#tNum').textContent=el;
+  $('#ringT').setAttribute('stroke-dashoffset', 578*(1-el/60));
+  const passed=60-el;
+  let idx = passed<5?0: passed<20?1: passed<40?2: passed<55?3:4;
+  $$('.phase').forEach(p=>p.classList.toggle('active', +p.dataset.p===idx));
+  if(el===0){ $$('.phase').forEach(p=>p.classList.remove('active')); }
+}
+$$('.phase').forEach(p=>p.addEventListener('mouseenter',()=>{}));
+tickTimer();
+
+/* ================= FAIL CHECKLIST ================= */
+(function(){
+  const box=$('#failList');
+  FAIL_SIGNS.forEach((s,i)=>{
+    const d=document.createElement('div'); d.className='tick'; d.dataset.f=i;
+    d.innerHTML=`<span class="box">✓</span><span class="lbl text-[.83rem] text-slate-300 leading-snug">${s}</span>`;
+    d.onclick=()=>{d.classList.toggle('on');renderFail();};
+    box.appendChild(d);
+  });
+})();
+function renderFail(){
+  const n=$$('#failList .tick.on').length;
+  const b=$('#failBadge'); b.textContent=n+' dấu hiệu'; b.className='chip mono '+(n>=2?'badge-d':n===1?'badge-w':'badge-n');
+  const v=$('#failVerdict');
+  if(n===0){v.className='mt-4 rounded-xl p-4 badge-n';v.innerHTML='<div class="font-bold">Chưa có dấu hiệu kiệt sức</div><div class="text-[.82rem] opacity-90 mt-0.5">Tiếp tục theo dõi, đếm lại nhịp thở đủ 60 giây mỗi 15 phút và so sánh với lần trước.</div>';}
+  else if(n===1){v.className='mt-4 rounded-xl p-4 badge-w';v.innerHTML='<div class="font-bold">Cảnh báo sớm — theo dõi sát</div><div class="text-[.82rem] opacity-90 mt-0.5">Đánh giá lại sau 5–10 phút, chuẩn bị sẵn phương án hỗ trợ thông khí (mask, bóp bóng, HFNC/CPAP), gọi người hỗ trợ.</div>';}
+  else{v.className='mt-4 rounded-xl p-4 badge-d pulseD';v.innerHTML='<div class="font-bold text-base">🚨 KIỆT SỨC HÔ HẤP — dọa ngừng thở</div><div class="text-[.82rem] opacity-95 mt-1">Hỗ trợ thông khí ngay: bóp bóng mask O₂ 100 % (PIP 20–25 cmH₂O, tần số 12–20/phút), chuẩn bị đặt NKQ, gọi hồi sức, chuyển ICU. Nếu nhịp tim < 60/phút kèm tưới máu kém → bắt đầu ép tim.</div>';}
+}
+renderFail();
+
+/* ================= RESP CHART ================= */
+new Chart($('#respChart'),{
+  type:'line',
+  data:{labels:['T₀','+10 ph','+20 ph','+30 ph','+40 ph','+50 ph','+60 ph','+70 ph','Ngừng thở'],
+    datasets:[
+      {label:'Khả năng duy trì thông khí (dự trữ cơ hô hấp)',data:[100,96,90,80,66,48,30,14,0],borderColor:'#2dd4bf',backgroundColor:'rgba(45,212,191,.12)',fill:true,tension:.35,pointRadius:3,borderWidth:2.5},
+      {label:'Nhu cầu / nỗ lực hô hấp',data:[62,70,78,84,86,84,70,45,10],borderColor:'#fb7185',backgroundColor:'rgba(251,113,133,.10)',fill:true,tension:.35,pointRadius:3,borderWidth:2.5},
+      {label:'Mức tri giác (Appearance)',data:[100,98,95,90,80,62,40,18,0],borderColor:'#a78bfa',borderDash:[6,5],fill:false,tension:.35,pointRadius:2,borderWidth:2}
+    ]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{labels:{color:'#9fb4cd',font:{size:11,family:'Be Vietnam Pro'},boxWidth:14}},
+      tooltip:{backgroundColor:'#0b1524',borderColor:'rgba(255,255,255,.15)',borderWidth:1,titleColor:'#e6edf7',bodyColor:'#c9d8ee'}},
+    scales:{x:{grid:{color:'rgba(255,255,255,.05)'},ticks:{color:'#7e93ad',font:{size:10}}},
+      y:{min:0,max:105,grid:{color:'rgba(255,255,255,.05)'},ticks:{color:'#7e93ad',font:{size:10},callback:v=>v+'%'}}}
+  }
+});
+
+/* ================= BP CALC ================= */
+const BP_PRE=[['Sơ sinh',0],['4 tháng',4],['1 tuổi',12],['3 tuổi',36],['6 tuổi',72],['9 tuổi',108],['14 tuổi',168]];
+(function(){
+  const box=$('#bpPresets');
+  BP_PRE.forEach(([l,m])=>{const b=document.createElement('button');b.className='btn text-[.75rem] py-1.5 px-3';b.textContent=l;
+    b.onclick=()=>{$('#bpAge').value=m;calcBP();};box.appendChild(b);});
+})();
+function minSBP(months){
+  if(months<1) return 60;
+  if(months<12) return 70;
+  const y=months/12;
+  if(y<=10) return Math.round(70+2*y);
+  return 90;
+}
+function ageLabel(months){
+  if(months<1) return 'sơ sinh (< 1 tháng)';
+  if(months<12) return months+' tháng tuổi';
+  const y=Math.floor(months/12), m=months%12;
+  return y+' tuổi'+(m? ' '+m+' tháng':'');
+}
+function calcBP(){
+  const months=Math.max(0,Math.min(216,parseInt($('#bpAge').value||0)));
+  const sbp=parseFloat($('#bpVal').value||0);
+  const th=minSBP(months);
+  const out=$('#bpOut');
+  let cls='badge-n',title,sub;
+  if(!sbp){out.className='mt-4 rounded-xl p-4 badge-n';out.innerHTML='<div class="font-bold">Nhập HA tâm thu đo được</div>';return;}
+  if(sbp<th){cls='badge-d';title='🚨 SỐC MẤT BÙ — HA tâm thu dưới ngưỡng tối thiểu';
+    sub=`${ageLabel(months)}: ngưỡng tối thiểu <b>${th} mmHg</b>, bệnh nhân <b>${sbp} mmHg</b> (thấp hơn ${th-sbp} mmHg). Hồi sức ngay: IO/TM trong 90 giây, bolus dịch 20 ml/kg, adrenaline nếu không đáp ứng, chuyển ICU.`;}
+  else if(sbp<th+10){cls='badge-w';title='⚠️ VÙNG NGUY CƠ — HA sát ngưỡng tối thiểu';
+    sub=`${ageLabel(months)}: ngưỡng <b>${th} mmHg</b>, bệnh nhân <b>${sbp} mmHg</b>. Bù trừ đang cạn. Đánh giá tưới máu (CRT, da, tri giác, nhịp tim) và chuẩn bị can thiệp ngay, đừng chờ tụt HA.`;}
+  else{cls='badge-n';title='✅ HA tâm thu trên ngưỡng tối thiểu';
+    sub=`${ageLabel(months)}: ngưỡng <b>${th} mmHg</b>, bệnh nhân <b>${sbp} mmHg</b>. <b>Lưu ý:</b> HA bình thường KHÔNG loại trừ sốc — sốc còn bù chỉ biểu hiện ở da và CRT.`;}
+  out.className='mt-4 rounded-xl p-4 '+cls;
+  out.innerHTML=`<div class="font-bold text-base">${title}</div><div class="text-[.84rem] opacity-92 mt-1 leading-relaxed">${sub}</div>
+   <div class="mt-2.5 text-[.78rem] opacity-80 mono">Công thức: 1–10 tuổi → 70 + (2 × tuổi năm) = 70 + (2 × ${(months/12).toFixed(1)}) ≈ ${th} mmHg</div>`;
+}
+calcBP();
+
+/* ================= ABCDE ACCORDION ================= */
+(function(){
+  const colMap={teal:['#2dd4bf','rgba(45,212,191,.14)','border-teal-400/30','text-teal-300'],
+    sky:['#38bdf8','rgba(56,189,248,.14)','border-sky-400/30','text-sky-300'],
+    rose:['#fb7185','rgba(251,113,133,.14)','border-rose-400/30','text-rose-300'],
+    violet:['#a78bfa','rgba(167,139,250,.14)','border-violet-400/30','text-violet-300'],
+    amber:['#fbbf24','rgba(251,191,36,.14)','border-amber-400/30','text-amber-300']};
+  const box=$('#accList');
+  ABCDE.forEach((s,i)=>{
+    const c=colMap[s.color];
+    const el=document.createElement('div');
+    el.className='card acc overflow-hidden'+(i===0?' open':'');
+    el.innerHTML=`
+      <button class="w-full text-left px-5 py-4 flex items-center gap-4" onclick="this.parentElement.classList.toggle('open')">
+        <span class="w-11 h-11 shrink-0 rounded-xl grid place-items-center font-extrabold text-lg" style="background:${c[1]};border:1px solid ${c[0]}55;color:${c[0]}">${s.k}</span>
+        <span class="flex-1">
+          <span class="block font-extrabold text-[1.02rem] leading-tight">${s.n}</span>
+          <span class="block text-[.74rem] text-slate-400 mt-0.5 mono">${s.time}</span>
+        </span>
+        <svg class="acc-arrow shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8ba0bb" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+      <div class="acc-body"><div class="px-5 pb-5 grid lg:grid-cols-2 gap-4">
+        <div>
+          <div class="text-[.7rem] mono tracking-[.16em] text-slate-400 mb-2">👁 NHÌN / NGHE / ĐÁNH GIÁ GÌ</div>
+          <ul class="space-y-1.5">${s.look.map(x=>`<li class="flex gap-2 text-[.84rem] text-slate-300 leading-relaxed"><span class="${c[3]} shrink-0">›</span><span>${x}</span></li>`).join('')}</ul>
+          <div class="trap mt-3.5"><div class="text-[.7rem] mono tracking-[.14em] text-rose-300 mb-1">BẪY</div><p class="text-[.82rem] text-slate-300 leading-relaxed">${s.trap}</p></div>
+        </div>
+        <div>
+          <div class="text-[.7rem] mono tracking-[.16em] text-slate-400 mb-2">⚡ CAN THIỆP NGAY</div>
+          <ul class="space-y-1.5">${s.do.map(x=>`<li class="flex gap-2 text-[.84rem] text-slate-300 leading-relaxed"><span class="${c[3]} shrink-0">✓</span><span>${x}</span></li>`).join('')}</ul>
+          <div class="why mt-3.5"><div class="text-[.7rem] mono tracking-[.14em] text-violet-300 mb-1">VÌ SAO (CƠ CHẾ)</div><p class="text-[.82rem] text-slate-300 leading-relaxed">${s.why}</p></div>
+        </div>
+      </div></div>`;
+    box.appendChild(el);
+  });
+})();
+
+/* ================= GCS ================= */
+function renderGcs(){
+  const age=$('#gAge').value;
+  const fill=(id,arr)=>{const s=$(id);s.innerHTML='';arr.forEach(o=>{const op=document.createElement('option');op.value=o.v;op.textContent=o.t;s.appendChild(op);});};
+  fill('#gE',GCS_DATA.eye); fill('#gV',GCS_DATA.verbal[age]); fill('#gM',GCS_DATA.motor[age]);
+  calcGcs();
+}
+function calcGcs(){
+  const e=+$('#gE').value, v=+$('#gV').value, m=+$('#gM').value, t=e+v+m;
+  $('#gcsScore').textContent=t; $('#gcsEvm').textContent=`E${e} V${v} M${m}`;
+  const out=$('#gcsOut'), badge=$('#gcsBadge');
+  let cls='badge-n',title,sub;
+  if(t===15){cls='badge-n';title='GCS 15 — Bình thường';sub='Theo dõi diễn tiến; GCS giảm ≥ 2 điểm là thay đổi có ý nghĩa lâm sàng.';}
+  else if(t>=13){cls='badge-w';title='GCS 13–14 — Tổn thương thần kinh nhẹ';sub='Tìm nguyên nhân: hạ đường huyết, thiếu oxy, sau co giật, ngộ độc, chấn thương nhẹ. Đánh giá lại liên tục.';}
+  else if(t>=9){cls='badge-w';title='GCS 9–12 — Tổn thương trung bình';sub='Đường thở có nguy cơ. Oxy, đường TM, đường huyết, chuẩn bị phương án đặt NKQ, chuyển nơi có hồi sức.';}
+  else{cls='badge-d pulseD';title='🚨 GCS ≤ 8 — NẶNG: mất khả năng bảo vệ đường thở';sub='Chỉ định đặt NKQ bảo vệ đường thở (trừ khi cải thiện tức thì bằng glucose). Bất động cột sống cổ, giữ PaCO₂ bình thường, đầu cao 30°, chống phù não, chuyển ICU / hội chẩn ngoại thần kinh.';}
+  out.className='rounded-xl p-4 '+cls;
+  out.innerHTML=`<div class="font-bold text-base">${title}</div><div class="text-[.83rem] opacity-92 mt-1 leading-relaxed">${sub}</div>`;
+  badge.textContent='GCS '+t; badge.className='chip mono '+cls;
+  $('#gcsScore').style.color = t>=13?'#7ff5e6':t>=9?'#fcd34d':'#fca5a5';
+}
+renderGcs();
+
+/* ================= TRAPS ================= */
+(function(){
+  const box=$('#trapList');
+  TRAPS.forEach(([t,d],i)=>{
+    box.insertAdjacentHTML('beforeend',`
+      <div class="card p-4 flex gap-3.5">
+        <div class="mono font-bold text-rose-300/70 text-sm shrink-0 w-6 text-right">${(i+1).toString().padStart(2,'0')}</div>
+        <div><div class="font-bold text-[.94rem] text-rose-100">${t}</div>
+        <p class="text-[.82rem] text-slate-400 mt-1 leading-relaxed">${d}</p></div>
+      </div>`);
+  });
+})();
+
+/* ================= CASE DRILL ================= */
+let caseOrder=CASES.map((_,i)=>i), casePos=0, drOk=0, drNo=0;
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function loadCase(){
+  const ci=caseOrder[casePos%CASES.length], cs=CASES[ci];
+  $('#drIdx').textContent=`ca ${(casePos%CASES.length)+1} / ${CASES.length}`;
+  $('#caseTags').innerHTML=`<span class="chip text-teal-200">${cs.tag}</span><span class="chip text-slate-300">PAT 60 giây</span>`;
+  $('#caseTitle').textContent=cs.title;
+  $('#caseText').textContent=cs.text;
+  $('#caseVitals').innerHTML=cs.vitals.map(([l,v])=>`<div class="cardFlat p-2.5 text-center"><div class="text-[.66rem] text-slate-400 uppercase tracking-wide">${l}</div><div class="mono font-bold text-sky-200 text-[.95rem] mt-0.5">${v}</div></div>`).join('');
+  $('#casePat').innerHTML=cs.pat.map(p=>`<div class="cardFlat p-2.5 text-slate-300 leading-relaxed">${p}</div>`).join('');
+  const ob=$('#caseOpts'); ob.innerHTML=''; $('#caseFb').className='mt-4 hidden'; $('#caseFb').innerHTML='';
+  $('#caseAct').innerHTML='<p class="text-[.84rem] text-slate-300 leading-relaxed">Chọn đáp án ở Bước 1 để mở phân tích hành động.</p>';
+  $('#caseWhy').innerHTML='<p class="text-[.84rem] text-slate-300 leading-relaxed"><b class="text-violet-300">Vì sao:</b> —</p>';
+  cs.opts.forEach((o,i)=>{
+    const b=document.createElement('button'); b.className='opt'; b.textContent=String.fromCharCode(65+i)+'. '+o;
+    b.onclick=()=>answerCase(cs,b,i);
+    ob.appendChild(b);
+  });
+}
+function answerCase(cs,btn,i){
+  $$('#caseOpts .opt').forEach(b=>b.disabled=true);
+  const ok=i===cs.correct;
+  btn.classList.add(ok?'correct':'wrong');
+  if(!ok) $$('#caseOpts .opt')[cs.correct].classList.add('correct');
+  ok?drOk++:drNo++;
+  $('#drOk').textContent=drOk; $('#drNo').textContent=drNo;
+  const fb=$('#caseFb'); fb.className='mt-4 rounded-xl p-4 '+(ok?'badge-n':'badge-d');
+  fb.innerHTML=`<div class="font-bold">${ok?'✅ Chính xác — đúng mẫu PAT':'❌ Chưa đúng'}</div>
+    <div class="text-[.82rem] opacity-92 mt-1">Đáp án đúng: <b>${cs.opts[cs.correct]}</b></div>`;
+  $('#caseAct').innerHTML='<div class="text-[.7rem] mono tracking-[.14em] text-teal-300 mb-1">HÀNH ĐỘNG ĐẦU TIÊN</div><p class="text-[.85rem] text-slate-200 leading-relaxed">'+cs.act+'</p>';
+  $('#caseWhy').innerHTML='<p class="text-[.84rem] text-slate-300 leading-relaxed"><b class="text-violet-300">Vì sao:</b> '+cs.why+'</p>';
+}
+function nextCase(){casePos++; loadCase();}
+shuffle(caseOrder); loadCase();
+
+/* ================= FLASHCARDS ================= */
+let cardList=CARDS.slice();
+function renderCards(){
+  const g=$('#cardGrid'); g.innerHTML='';
+  cardList.forEach((c,i)=>{
+    const d=document.createElement('div'); d.className='flip';
+    d.innerHTML=`<div class="flip-in">
+      <div class="fc-face" style="background:linear-gradient(160deg,rgba(255,255,255,.05),rgba(255,255,255,.02))">
+        <div class="text-[.66rem] mono tracking-[.16em] text-teal-300/70 mb-2">THẺ ${(i+1).toString().padStart(2,'0')} · CÂU HỎI</div>
+        <div class="font-bold text-[.95rem] leading-snug">${c[0]}</div>
+        <div class="text-[.7rem] text-slate-500 mt-auto pt-3">nhấn để lật ↻</div>
+      </div>
+      <div class="fc-face fc-back">
+        <div class="text-[.66rem] mono tracking-[.16em] text-teal-200/80 mb-2">TRẢ LỜI</div>
+        <div class="text-[.85rem] leading-relaxed text-slate-100 overflow-y-auto">${c[1]}</div>
+      </div></div>`;
+    d.onclick=()=>d.classList.toggle('open');
+    g.appendChild(d);
+  });
+  $('#cardIdx').textContent=cardList.length+' thẻ · Why-based';
+}
+function shuffleCards(){shuffle(cardList);renderCards();}
+function nextCard(){const o=$$('#cardGrid .flip');o.forEach(x=>x.classList.remove('open'));const i=(++cardPtr)%o.length;o[i].classList.add('open');o[i].scrollIntoView({behavior:'smooth',block:'center'});$('#cardIdx').textContent=(i+1)+' / '+o.length;}
+function prevCard(){const o=$$('#cardGrid .flip');o.forEach(x=>x.classList.remove('open'));cardPtr=(cardPtr-1+o.length)%o.length;o[cardPtr].classList.add('open');o[cardPtr].scrollIntoView({behavior:'smooth',block:'center'});$('#cardIdx').textContent=(cardPtr+1)+' / '+o.length;}
+let cardPtr=0;
+renderCards();
+
+function exportAnki(){
+  let out='#separator:tab\n#html:true\n#tags column:3\n#columns:Front\tBack\tTags\n';
+  CARDS.forEach(c=>{
+    const clean=s=>s.replace(/<[^>]+>/g,'').replace(/\t/g,' ').replace(/\n/g,' ').trim();
+    out+=clean(c[0])+'\t'+clean(c[1])+'\tPED-02 PAT_ABCDE\n';
+  });
+  const blob=new Blob([out],{type:'text/plain;charset=utf-8'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+  a.download='PED-02_PAT_ABCDE_flashcards.txt'; a.click(); URL.revokeObjectURL(a.href);
+}
+
+/* ================= QUIZ ================= */
+let qDone=0,qRight=0;
+(function(){
+  const box=$('#quizList');
+  QUIZ.forEach((q,i)=>{
+    const d=document.createElement('div'); d.className='card p-5';
+    d.innerHTML=`<div class="flex gap-3 mb-3">
+        <span class="mono font-bold text-teal-300 shrink-0">Q${(i+1).toString().padStart(2,'0')}</span>
+        <span class="font-bold text-[.98rem] leading-snug">${q.q}</span></div>
+      <div class="space-y-2 pl-0 md:pl-9" id="qo${i}"></div>
+      <div id="qf${i}" class="mt-3 hidden md:ml-9"></div>`;
+    box.appendChild(d);
+    const ob=$('#qo'+i);
+    q.o.forEach((o,j)=>{
+      const b=document.createElement('button'); b.className='opt'; b.textContent=String.fromCharCode(65+j)+'. '+o;
+      b.onclick=()=>answerQ(i,j,b,q);
+      ob.appendChild(b);
+    });
+  });
+})();
+function answerQ(i,j,btn,q){
+  const box=$('#qo'+i); if(box.dataset.done) return; box.dataset.done='1';
+  qDone++; if(j===q.c){qRight++;btn.classList.add('correct');}
+  else{btn.classList.add('wrong'); box.children[q.c].classList.add('correct');}
+  Array.from(box.children).forEach(b=>b.disabled=true);
+  const f=$('#qf'+i); f.className='mt-3 md:ml-9 rounded-xl p-4 '+(j===q.c?'badge-n':'badge-d');
+  f.innerHTML=`<div class="font-bold text-[.9rem]">${j===q.c?'✅ Đúng':'❌ Sai'} — Giải thích cơ chế</div>
+    <p class="text-[.84rem] mt-1 leading-relaxed opacity-95">${q.e}</p>`;
+  $('#qScore').textContent=qRight+' / '+QUIZ.length;
+  $('#qScore').className='chip mono '+(qRight>=8?'badge-n':qRight>=5?'badge-w':'badge-d');
+  $('#qBar').style.width=(qDone/QUIZ.length*100)+'%';
+}
+function resetQuiz(){
+  qDone=0;qRight=0;$('#qScore').textContent='0 / '+QUIZ.length;$('#qScore').className='chip badge-n mono';$('#qBar').style.width='0%';
+  QUIZ.forEach((q,i)=>{
+    const box=$('#qo'+i); delete box.dataset.done; box.innerHTML='';
+    q.o.forEach((o,j)=>{const b=document.createElement('button');b.className='opt';b.textContent=String.fromCharCode(65+j)+'. '+o;b.onclick=()=>answerQ(i,j,b,q);box.appendChild(b);});
+    const f=$('#qf'+i); f.className='mt-3 hidden md:ml-9'; f.innerHTML='';
+  });
+}
+
+/* ================= CHECKLIST ================= */
+(function(){
+  const box=$('#ckList');
+  CKLIST.forEach((s,i)=>{
+    const d=document.createElement('div'); d.className='tick'; d.dataset.ck=i;
+    d.innerHTML=`<span class="box">✓</span><span class="lbl text-[.83rem] text-slate-300 leading-snug">${s}</span>`;
+    d.onclick=()=>{d.classList.toggle('on');
+      const n=$$('#ckList .tick.on').length; const b=$('#ckCount');
+      b.textContent=n+' / '+CKLIST.length; b.className='chip mono '+(n===CKLIST.length?'badge-n':'badge-w');};
+    box.appendChild(d);
+  });
+})();
+function clearCk(){$$('#ckList .tick').forEach(t=>t.classList.remove('on'));$('#ckCount').textContent='0 / '+CKLIST.length;$('#ckCount').className='chip badge-w mono';}
+clearCk();
+</script>
+</body>
+</html>
