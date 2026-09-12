@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-07-29T15:31:53.756473Z",
+  "providers": [
+    "europe_pmc_metadata",
+    "europe_pmc_oa_full_text",
+    "crossref_retraction_watch",
+    "openalex",
+    "official_source"
+  ],
+  "records": {
+    "pmid:33652595": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "33652595",
+        "pmcid": "PMC7956615",
+        "doi": "10.3390/ijms22052322",
+        "openalex": "https://openalex.org/W3129289862"
+      },
+      "title": "Neural-Induced Human Adipose Tissue-Derived Stem Cells Conditioned Medium Ameliorates Rotenone-Induced Toxicity in SH-SY5Y Cells.",
+      "abstract": "Parkinson's disease (PD) is an age-related neurodegenerative disease (NDD) characterized by the degenerative loss of dopaminergic neurons in the substantia nigra along with aggregation of α-synuclein (α-syn). Neurogenic differentiation of human adipose-derived stem cells (NI-hADSCs) by supplementary factors for 14 days activates different biological signaling pathways. In this study, we evaluated the therapeutic role of NI-hADSC-conditioned medium (NI-hADSC-CM) in rotenone (ROT)-induced toxicity in SH-SY5Y cells. Increasing concentrations of ROT led to decreased cell survival at 24 and 48 h in a dose- and time-dependent manner. Treatment of NI-hADSC-CM (50% dilution in DMEM) against ROT (0.5 μM) significantly increased the cell survival. ROT toxicity decreased the expression of tyrosine hydroxylase (TH). Western blot analysis of the Triton X-100-soluble fraction revealed that ROT significantly decreased the oligomeric, dimeric, and monomeric phosphorylated Serine129 (p-S129) α-syn, as well as the total monomeric α-syn expression levels. ROT toxicity increased the oligomeric, but decreased the dimeric and monomeric p-S129 α-syn expression levels. Total α-syn expression (in all forms) was increased in the Triton X-100-insoluble fraction, compared to the control. NI-hADSC-CM treatment enhanced the TH expression, stabilized α-syn monomers, reduced the levels of toxic insoluble p-S129 α-syn, improved the expression of neuronal functional proteins, regulated the Bax/Bcl-2 ratio, and upregulated the expression of pro-caspases, along with PARP-1 inactivation. Moreover, hADSC-CM treatment decreased the cell numbers and have no effect against ROT toxicity on SH-SY5Y cells. The therapeutic effects of NI-hADSC-CM was higher than the beneficial effects of hADSC-CM on cellular signaling. From these results, we conclude that NI-hADSC-CM exerts neuroregenerative effects on ROT-induced PD-like impairments in SH-SY5Y cells.",
+      "journal": "International journal of molecular sciences",
+      "year": "2021",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "Rotenone",
+        "Toxicity",
+        "Tyrosine hydroxylase",
+        "SH-SY5Y",
+        "Neurotoxicity",
+        "Western blot",
+        "Chemistry",
+        "Substantia nigra",
+        "Molecular biology",
+        "Biology",
+        "Biochemistry",
+        "Cell culture",
+        "Dopaminergic",
+        "Dopamine",
+        "Endocrinology",
+        "Enzyme",
+        "Mitochondrion"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "1981a03cb55f5fccaf3a42b56dffc18b40768a4e2ed39332dd12f17047cf21fa",
+        "ff6de3e4f3a952c23533d63dd9cb1c95facaea19ee68b6c135586cfc87e360f8",
+        "9e66d9ab6b0f662bd5a5bfe3123283d1261f4e7682b7bf21fef0066c6e8c37d2",
+        "228a6884ed787286279a38c7bc14334e2a5bda1107fb3f496eaeb1983177ef9a"
+      ],
+      "metadata_checked_at": "2026-07-29T15:31:53.756473Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "pmcid": "PMC7956615",
+        "sha256": "228a6884ed787286279a38c7bc14334e2a5bda1107fb3f496eaeb1983177ef9a"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T15:31:53.756473Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    }
+  },
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T15:31:53.756473Z",
+      "sha256": "1981a03cb55f5fccaf3a42b56dffc18b40768a4e2ed39332dd12f17047cf21fa",
+      "path": "raw/europe_pmc_metadata/1981a03cb55f5fccaf3a42b56dffc18b40768a4e2ed39332dd12f17047cf21fa.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T15:31:53.756473Z",
+      "sha256": "ff6de3e4f3a952c23533d63dd9cb1c95facaea19ee68b6c135586cfc87e360f8",
+      "path": "raw/openalex/ff6de3e4f3a952c23533d63dd9cb1c95facaea19ee68b6c135586cfc87e360f8.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T15:31:53.756473Z",
+      "sha256": "9e66d9ab6b0f662bd5a5bfe3123283d1261f4e7682b7bf21fef0066c6e8c37d2",
+      "path": "raw/crossref_retraction_watch/9e66d9ab6b0f662bd5a5bfe3123283d1261f4e7682b7bf21fef0066c6e8c37d2.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_oa_full_text",
+      "retrieved_at": "2026-07-29T15:31:53.756473Z",
+      "sha256": "228a6884ed787286279a38c7bc14334e2a5bda1107fb3f496eaeb1983177ef9a",
+      "path": "raw/europe_pmc_oa_full_text/228a6884ed787286279a38c7bc14334e2a5bda1107fb3f496eaeb1983177ef9a.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    }
+  ],
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P1_Nen_tang\\cache",
+  "content_hash": "dea8033a92de5e04cfb03aa52ce69e428d73f50ff320c9dc8e700270a6290d4c"
+}

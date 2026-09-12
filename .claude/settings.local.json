@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -d */)",
+      "Read(//f/DL/**)",
+      "Bash(head -30 _README.md)",
+      "Bash(biomcp search *)",
+      "Bash(biomcp get *)",
+      "Bash(biomcp variant *)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl -s http://localhost:20128/v1/models)",
+      "Bash(python -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(f'  {m[\\\\\"id\\\\\"]}  \\({m.get\\(\\\\\"owned_by\\\\\",\\\\\"?\\\\\"\\)}\\)'\\) for m in data.get\\('data',[]\\)]\")"
+    ]
+  }
+}

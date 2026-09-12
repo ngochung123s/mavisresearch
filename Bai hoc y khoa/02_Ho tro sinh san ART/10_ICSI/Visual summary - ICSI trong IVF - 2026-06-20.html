@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ICSI trong IVF - Visual Summary</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+
+<header class="max-w-6xl mx-auto mb-8 text-center">
+  <h1 class="text-4xl font-bold text-stone-700 mb-2">ICSI trong IVF</h1>
+  <p class="text-stone-500 italic">Visual Summary - Bai hoc 20/06/2026</p>
+  <div class="mt-3 flex justify-center gap-2 flex-wrap">
+    <span class="tag pastel-pink px-3 py-1 rounded-full text-sm">ART</span>
+    <span class="tag pastel-blue px-3 py-1 rounded-full text-sm">IVF/ICSI</span>
+    <span class="tag pastel-mint px-3 py-1 rounded-full text-sm">Embryology</span>
+    <span class="tag pastel-peach px-3 py-1 rounded-full text-sm">Male Factor</span>
+    <span class="tag pastel-lavender px-3 py-1 rounded-full text-sm">Sperm DNA</span>
+  </div>
+</header>
+<main class="max-w-6xl mx-auto space-y-8">
+
+
+  <!-- SECTION 1: ICSI LA GI -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">1. ICSI la gi?</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+      <div class="pastel-pink rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">Dinh nghia</h3>
+        <p class="text-sm text-stone-700"><b>Intracytoplasmic Sperm Injection</b> - tiem truc tiep 1 tinh trung vao bao tuong noan (ooplasm) qua micropipette.</p>
+      </div>
+      <div class="pastel-blue rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">Lich su</h3>
+        <p class="text-sm text-stone-700">Phat minh boi <b>Palermo nam 1992</b>. Ban dau chi cho severe male factor, nay chiem <b>70-80%</b> cycle toan cau.</p>
+      </div>
+      <div class="pastel-mint rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">Bypass tu nhien</h3>
+        <p class="text-sm text-stone-700">ICSI <b>bypass hoan toan</b> ZP va oolemma, khong can motility hay acrosome reaction binh thuong.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: TECHNIQUE 7 BUOC -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">2. Ky thuat ICSI - 7 buoc chinh</h2>
+    <div class="mermaid">
+flowchart TD
+    A["1. Oocyte Denudation<br/>(Hyaluronidase 80 IU/mL, 30-60s)"] --> B["2. Kiem tra do truong thanh<br/>(chi MII co polar body)"]
+    B --> C["3. Sperm Preparation<br/>(Density gradient hoac Swim-up)"]
+    C --> D["4. Sperm Immobilization<br/>(Ep duoi tinh trung)"]
+    D --> E["5. Oocyte Positioning<br/>(Holding pipette, polar body 6h hoac 12h)"]
+    E --> F["6. Injection o vi tri 3h<br/>(Doi dien polar body, bao ve spindle)"]
+    F --> G["7. Kiem tra fertilization 16-18h<br/>(2PN + 2 polar body = binh thuong)"]
+
+    style A fill:#f4c2c2
+    style B fill:#f7d1ba
+    style C fill:#c5d5e0
+    style D fill:#c5e0c9
+    style E fill:#d4c5e2
+    style F fill:#f4c2c2
+    style G fill:#c5e0c9
+    </div>
+  </section>
+
+  <!-- SECTION 3: SO SANH c-IVF vs ICSI -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">3. So sanh c-IVF vs ICSI</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-stone-200 text-stone-800">
+            <th class="px-3 py-2 text-left">Tieu chi</th>
+            <th class="px-3 py-2 text-left">c-IVF</th>
+            <th class="px-3 py-2 text-left">ICSI</th>
+          </tr>
+        </thead>
+        <tbody class="text-stone-700">
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-bold">So tinh trung</td><td class="px-3 py-2">50,000-100,000</td><td class="px-3 py-2">1 (chon loc)</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-bold">Can motility</td><td class="px-3 py-2">Co (bat buoc)</td><td class="px-3 py-2">Khong</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-bold">Can acrosome reaction</td><td class="px-3 py-2">Co</td><td class="px-3 py-2">Khong</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-bold">Can micromanipulator</td><td class="px-3 py-2">Khong</td><td class="px-3 py-2">Co</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-bold">Chi phi them</td><td class="px-3 py-2">0</td><td class="px-3 py-2">+$500-2000/cycle</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-bold">Fertilization rate</td><td class="px-3 py-2">60-70%</td><td class="px-3 py-2">70-80%</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-bold">FFR (fertilization failure)</td><td class="px-3 py-2">5-10%</td><td class="px-3 py-2">1-3%</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- SECTION 4: ALGORITHM -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">4. Algorithm quyet dinh ICSI vs c-IVF</h2>
+    <div class="mermaid">
+flowchart TD
+    A["Danh gia SA + tien su"] --> B{"Severe male factor?<br/>(count<5M, motility<5%,<br/>morphology<1% Kruger,<br/>globozoospermia,<br/>azoospermia TESE/MESA)"}
+    B -- "Co" --> Z1["ICSI"]
+    B -- "Khong" --> C{"Tien su FFR<br/>voi c-IVF?"}
+    C -- "Co" --> Z1
+    C -- "Khong" --> D{"PGT-A / PGT-M<br/>can lam?"}
+    D -- "Co" --> Z1
+    D -- "Khong" --> E{"Frozen oocyte<br/>hoac IVM?"}
+    E -- "Co" --> Z1
+    E -- "Khong" --> F{"SDF cao<br/>(>30%)?"}
+    F -- "Co" --> Z1
+    F -- "Khong" --> Z2["c-IVF<br/>(Wang 2024, Berntsen 2025)"]
+
+    style Z1 fill:#f4c2c2
+    style Z2 fill:#c5e0c9
+    style A fill:#f7d1ba
+    </div>
+  </section>
+
+  <!-- SECTION 5: CHART 1 - 2 RCT LIVE BIRTH -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-2">5. ICSI khong cai thien live birth (2 RCT 2024-2025)</h2>
+    <p class="text-sm text-stone-600 italic mb-4">Cung ket qua tu 2 chau luc: Trung Quoc (Lancet 2024) va Dan Mach (Nat Med 2025).</p>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div>
+        <canvas id="chart1"></canvas>
+      </div>
+      <div class="bg-white rounded-xl p-4 border border-stone-200 flex flex-col justify-center">
+        <h3 class="font-bold text-stone-800 mb-2">Wang 2024 + Berntsen 2025</h3>
+        <ul class="text-sm text-stone-700 space-y-2">
+          <li>• <b>Wang 2024 (Lancet, n=2329):</b> ICSI 33.8% vs c-IVF 36.6% LBR, RR 0.92 (0.83-1.03)</li>
+          <li>• <b>Berntsen 2025 (Nat Med, n=822):</b> ICSI 43.2% vs c-IVF 47.3% CLBR, RR 0.91 (0.79-1.06)</li>
+          <li>• <b>Ket luan:</b> c-IVF nen la first-line cho non-severe male factor</li>
+          <li>• ICSI danh rieng cho severe male factor</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: CHART 2 - SDF + IVF vs ICSI -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-2">6. Sperm DNA damage - ICSI buffer tot hon IVF</h2>
+    <p class="text-sm text-stone-600 italic mb-4">Ribas-Maynou 2021 (Biol Rev, PMID 33644978) - meta 25,639 cycles.</p>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div>
+        <canvas id="chart2"></canvas>
+      </div>
+      <div class="bg-white rounded-xl p-4 border border-stone-200 flex flex-col justify-center">
+        <h3 class="font-bold text-stone-800 mb-2">Y nghia SDF</h3>
+        <ul class="text-sm text-stone-700 space-y-2">
+          <li>• SDF cao: giam RO o IVF, KHONG anh huong o ICSI</li>
+          <li>• ICSI bypass acrosome reaction, nen DNA damage it anh huong</li>
+          <li>• Chi dinh ICSI khi SDF > 30% (DFI)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 7: EVIDENCE TABLE -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">7. Evidence - Papers quan trong</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-stone-200 text-stone-800">
+            <th class="px-3 py-2 text-left">PMID</th>
+            <th class="px-3 py-2 text-left">Tac gia (Nam)</th>
+            <th class="px-3 py-2 text-left">Loai</th>
+            <th class="px-3 py-2 text-left">Ket qua chinh</th>
+          </tr>
+        </thead>
+        <tbody class="text-stone-700">
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">38330980</td><td class="px-3 py-2">Wang Y. (2024)</td><td class="px-3 py-2">Lancet RCT, n=2329</td><td class="px-3 py-2">ICSI 33.8% vs c-IVF 36.6% LBR, RR 0.92 (0.83-1.03)</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">40217077</td><td class="px-3 py-2">Berntsen S. (2025)</td><td class="px-3 py-2">Nat Med RCT, n=822</td><td class="px-3 py-2">ICSI 43.2% vs c-IVF 47.3% CLBR, RR 0.91 (0.79-1.06)</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">29967387</td><td class="px-3 py-2">Esteves SC. (2018)</td><td class="px-3 py-2">Nat Rev Urol Review</td><td class="px-3 py-2">ICSI offspring risks tang nhe, ICSI bi overused</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">33644978</td><td class="px-3 py-2">Ribas-Maynou J. (2021)</td><td class="px-3 py-2">Biol Rev meta 25,639 cycles</td><td class="px-3 py-2">SDF cao giam IVF outcomes, ICSI buffer tot hon</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- SECTION 8: TY LE ICSI TOAN CAU -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">8. Ty le ICSI toan cau (2020-2021)</h2>
+    <div class="grid md:grid-cols-4 gap-3">
+      <div class="pastel-pink rounded-xl p-4 text-center">
+        <div class="text-3xl font-bold text-stone-800">~75%</div>
+        <div class="text-sm text-stone-600">My (CDC 2021)</div>
+      </div>
+      <div class="pastel-blue rounded-xl p-4 text-center">
+        <div class="text-3xl font-bold text-stone-800">~70%</div>
+        <div class="text-sm text-stone-600">Chau Au (ESHRE 2020)</div>
+      </div>
+      <div class="pastel-mint rounded-xl p-4 text-center">
+        <div class="text-3xl font-bold text-stone-800">~60-80%</div>
+        <div class="text-sm text-stone-600">Chau A (tuy nuoc)</div>
+      </div>
+      <div class="pastel-peach rounded-xl p-4 text-center">
+        <div class="text-3xl font-bold text-stone-800">~65%</div>
+        <div class="text-sm text-stone-600">Uc/NZ</div>
+      </div>
+    </div>
+    <p class="text-sm text-stone-600 mt-3 italic">Xu huong: Sau Wang 2024 + Berntsen 2025, nhieu nuoc bat dau thu hep chi dinh ICSI.</p>
+  </section>
+
+  <!-- SECTION 9: OFFSPRING RISKS -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">9. ICSI offspring - Risks (Esteves 2018)</h2>
+    <div class="grid md:grid-cols-2 gap-3">
+      <div class="pastel-pink rounded-xl p-3">
+        <h3 class="font-bold text-stone-800 mb-1 text-sm">Di tat bam sinh</h3>
+        <p class="text-xs text-stone-700">~1.5-2x (tim, co xuong, tiet nieu-sinh duc)</p>
+      </div>
+      <div class="pastel-blue rounded-xl p-3">
+        <h3 class="font-bold text-stone-800 mb-1 text-sm">Epigenetic disorders</h3>
+        <p class="text-xs text-stone-700">Beckwith-Wiedemann, Angelman (hiem, nang)</p>
+      </div>
+      <div class="pastel-mint rounded-xl p-3">
+        <h3 class="font-bold text-stone-800 mb-1 text-sm">Chromosomal abn</h3>
+        <p class="text-xs text-stone-700">Y microdeletion, balanced translocation tu cha</p>
+      </div>
+      <div class="pastel-peach rounded-xl p-3">
+        <h3 class="font-bold text-stone-800 mb-1 text-sm">Subfertility the he sau</h3>
+        <p class="text-xs text-stone-700">Con trai co the thua huong Y microdeletion</p>
+      </div>
+      <div class="pastel-lavender rounded-xl p-3">
+        <h3 class="font-bold text-stone-800 mb-1 text-sm">Cancer tang nhe</h3>
+        <p class="text-xs text-stone-700">Hepatoblastoma, leukemia (can data them)</p>
+      </div>
+      <div class="bg-stone-200 rounded-xl p-3">
+        <h3 class="font-bold text-stone-800 mb-1 text-sm">Cardiometabolic</h3>
+        <p class="text-xs text-stone-700">Tang HA, roi loan lipid (data moi)</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bai hoc soan boi MiniMax Mavis cho Bs. Ngoc 🍅 🐈‍⬛ | Verified PubMed: 4 papers (PMID 38330980, 40217077, 29967387, 33644978) - 2 RCT lon 2024-2025 thay doi chi dinh ICSI</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+// Chart 1: 2 RCT live birth comparison
+new Chart(document.getElementById('chart1'), {
+    type: 'bar',
+    data: {
+        labels: ['Wang 2024 (Lancet)\nICSI', 'Wang 2024 (Lancet)\nc-IVF', 'Berntsen 2025 (Nat Med)\nICSI', 'Berntsen 2025 (Nat Med)\nc-IVF'],
+        datasets: [{
+            label: '% Live Birth / CLBR',
+            data: [33.8, 36.6, 43.2, 47.3],
+            backgroundColor: [
+                'rgba(244, 194, 194, 0.85)',
+                'rgba(197, 213, 224, 0.85)',
+                'rgba(244, 194, 194, 0.85)',
+                'rgba(197, 213, 224, 0.85)'
+            ],
+            borderColor: [
+                'rgba(244, 194, 194, 1)',
+                'rgba(197, 213, 224, 1)',
+                'rgba(244, 194, 194, 1)',
+                'rgba(197, 213, 224, 1)'
+            ],
+            borderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            title: { display: true, text: 'ICSI vs c-IVF - Live Birth / CLBR' },
+            legend: { display: false },
+            tooltip: {
+                callbacks: {
+                    afterLabel: function(ctx) {
+                        const i = ctx.dataIndex;
+                        if (i === 0) return 'RR 0.92 (0.83-1.03), p=0.16';
+                        if (i === 1) return 'RR 0.92 (0.83-1.03), p=0.16';
+                        if (i === 2) return 'RR 0.91 (0.79-1.06), NS';
+                        if (i === 3) return 'RR 0.91 (0.79-1.06), NS';
+                    }
+                }
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: false,
+                min: 30,
+                max: 50,
+                title: { display: true, text: '% Live Birth / CLBR' }
+            }
+        }
+    }
+});
+
+// Chart 2: SDF impact on IVF vs ICSI
+new Chart(document.getElementById('chart2'), {
+    type: 'bar',
+    data: {
+        labels: ['Implantation\n(IVF)', 'Implantation\n(ICSI)', 'Pregnancy\n(IVF)', 'Pregnancy\n(ICSI)'],
+        datasets: [{
+            label: 'RR (SDF cao vs thap)',
+            data: [0.68, 0.79, 0.72, 0.89],
+            backgroundColor: [
+                'rgba(244, 194, 194, 0.85)',
+                'rgba(197, 213, 224, 0.85)',
+                'rgba(244, 194, 194, 0.85)',
+                'rgba(197, 213, 224, 0.85)'
+            ],
+            borderColor: [
+                'rgba(244, 194, 194, 1)',
+                'rgba(197, 213, 224, 1)',
+                'rgba(244, 194, 194, 1)',
+                'rgba(197, 213, 224, 1)'
+            ],
+            borderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            title: { display: true, text: 'Ribas-Maynou 2021 - SDF cao lam giam IVF nhung khong ICSI' },
+            legend: { display: false },
+            annotation: {}
+        },
+        scales: {
+            y: {
+                beginAtZero: false,
+                min: 0.5,
+                max: 1.0,
+                title: { display: true, text: 'Risk Ratio (RR)' }
+            }
+        }
+    }
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+{
+  "deck_name": "Fetal Doppler thai ky - 19/06/2026",
+  "cards": [
+    {
+      "front": "Ba mạch máu cốt lõi cần khảo sát khi Doppler thai kỳ? Phản ánh điều gì?",
+      "back": "1. Umbilical artery (UA) - phản ánh sức cản tuần hoàn nhau-nhau (uteroplacental + fetoplacental).\n2. Middle cerebral artery (MCA) - phản ánh sự phân phối máu lên não ('brain-sparing effect').\n3. Ductus venosus (DV) - phản ánh chức năng tim thai và tình trạng toan.\n\nTheo ISUOG 2021 Practice Guidelines (PMID 34278615)."
+    },
+    {
+      "front": "Công thức tính Pulsatility Index (PI) theo Gosling và ý nghĩa?",
+      "back": "PI = (PSV - EDV) / TAV\n\n- PSV = peak systolic velocity (vận tốc đỉnh tâm thu)\n- EDV = end-diastolic velocity (vận tốc cuối tâm trương)\n- TAV = time-averaged velocity (vận tốc trung bình theo thời gian)\n\nÝ nghĩa: PI tăng = sức cản mạch máu tăng (dòng máu khó đi qua, vd UA-PI cao = nhau xơ hóa). PI giảm = sức cản giảm (vd MCA-PI giảm ở FGR = brain-sparing)."
+    },
+    {
+      "front": "Kỹ thuật đo Umbilical Artery (UA) Doppler theo ISUOG 2021?",
+      "back": "1. Vị trí lấy mẫu: Dây rốn tự do (free loop), TRÁNH gần bám rốn (~5 cm từ chỗ bám).\n2. Góc insonation: < 30°.\n3. Sample volume: 2-4 mm, gate đặt ở giữa lumen dây rốn.\n4. Tín hiệu chất lượng: Hình dạng sóng rõ, ít nhiễu, ≥ 5 sóng liên tiếp đồng nhất.\n5. Cách tính: Đo trên nhiều sóng rồi lấy trung bình.\n\nTheo ISUOG 2021 (PMID 34278615)."
+    },
+    {
+      "front": "Bảng phân tầng UA Doppler trong FGR (ý nghĩa + xử trí)?",
+      "back": "Theo SMFM 2020 (PMID 32407785):\n\n- Bình thường (PI < p95): Nhau tốt - theo dõi thường quy.\n- PI tăng (≥ p95): Sức cản tăng, nghi ngờ suy nhau - theo dõi 1-2 lần/tuần.\n- EDV giảm: Suy nhau rõ - Doppler 1-2 lần/tuần (GRADE 2C).\n- Absent EDV (AEDV): Suy nhau nặng - Doppler 2-3 lần/tuần, corticosteroid (GRADE 1C).\n- Reversed EDV (REDV): Suy nhau rất nặng - nhập viện + corticosteroid + monitor sát (GRADE 2C)."
+    },
+    {
+      "front": "Thời điểm sinh theo SMFM 2020 cho FGR + UA Doppler? (4 tình huống)",
+      "back": "Theo SMFM 2020 (PMID 32407785):\n\n1. FGR + EFW < p3 HOẶC decreased diastolic flow: sinh 37 tuần (GRADE 1B).\n2. FGR + EFW p3-p10 + UA bình thường: sinh 38-39 tuần (GRADE 2C).\n3. FGR + Absent EDV: sinh 33-34 tuần (GRADE 1B).\n4. FGR + Reversed EDV: sinh 30-32 tuần (GRADE 1B)."
+    },
+    {
+      "front": "Ngưỡng MCA-PSV để nghi ngờ anemia thai? Đơn vị? Cơ chế?",
+      "back": "Ngưỡng: MCA-PSV ≥ 1.5 MoM (multiple of median).\n\nĐơn vị: cm/s, so sánh với bảng MoM theo tuổi thai (Mari 1995, vẫn dùng đến nay).\n\nCơ chế: Khi thai thiếu máu -> độ nhớt máu giảm -> dòng chảy tăng vận tốc; não ưu tiên nhận máu (tăng cardiac output đến não) -> MCA-PSV tăng.\n\nĐây là test KHÔNG xâm lấn thay thế cordocentesis."
+    },
+    {
+      "front": "Hiệu quả của MCA-PSV theo meta-analysis Martinez-Portilla 2019? (PMID 30932276)",
+      "back": "Meta-analysis 12 nghiên cứu, 696 thai:\n\n- AUC 0.83 cho anemia trung bình-nặng.\n- Pooled sensitivity 79% (95% CI 70-86), specificity 73% (95% CI 62-82).\n- Ở thai CHƯA truyền máu: AUC 0.87, sens 86% (95% CI 75-93), spec 71% (95% CI 49-87).\n- Sai số tăng theo số lần truyền máu (độ nhạy giảm 5.5% mỗi lần, P=0.039).\n\nKết luận: Tốt nhất ở thai chưa được truyền máu lần nào."
+    },
+    {
+      "front": "Cerebroplacental Ratio (CPR) là gì? Cách tính? Ý nghĩa lâm sàng?",
+      "back": "CPR = MCA-PI / UA-PI\n\n- CPR bình thường: ≥ p5 (hoặc > 1.08).\n- CPR thấp: < p5 = cảnh báo brain-sparing -> thai đang phân phối lại tuần hoàn ưu tiên não.\n\nÝ nghĩa: Phản ánh sự cân bằng giữa cung cấp máu nhau (UA) và nhu cầu não (MCA). Trong FGR, CPR giảm sớm hơn so với từng chỉ số riêng lẻ."
+    },
+    {
+      "front": "Kết quả Vollgraff Heidweiller-Schreurs 2021 (PMID 32363701) về CPR IPD meta-analysis?",
+      "back": "IPD meta-analysis lớn nhất về CPR:\n\n- 10 trung tâm, 17 dataset, 18,731 phụ nữ.\n- So sánh: UA-PI alone vs CPR alone vs UA-PI + CPR.\n\nKết quả:\n- UA-PI alone: AUC 0.775 (95% CI 0.709-0.828).\n- CPR alone: AUC 0.778 (95% CI 0.715-0.831).\n- UA-PI + CPR: AUC 0.778 (95% CI 0.714-0.831) - tăng 0.003 điểm.\n\nKết luận: CPR thêm KHÔNG cải thiện dự báo so với UA-PI alone. Tweetable: 'CPR in clinical practice has limited added predictive value to umbilical artery alone.'"
+    },
+    {
+      "front": "Ductus venosus (DV) - cấu trúc sóng bình thường?",
+      "back": "DV là mạch máu nối tĩnh mạch rốn với tĩnh mạch chủ dưới, lái dòng máu giàu oxy đi thẳng từ nhau -> tim -> não (qua foramen ovale), bypass gan.\n\nSóng bình thường DV gồm 3 pha (gọi là phổ 3 đỉnh):\n- S (systolic peak): đỉnh tâm thu.\n- D (diastolic peak): đỉnh tâm trương.\n- A (atrial contraction): sóng tiền tâm thu (a-wave) - phần NHẠY CẢM NHẤT với toan/tim suy."
+    },
+    {
+      "front": "Bảng diễn giải bất thường sóng DV?",
+      "back": "Theo bài học và ISUOG 2021 (PMID 34278615):\n\n- Bình thường (a-wave dương): Tim thai bù trừ tốt.\n- A-wave giảm: Bắt đầu mất bù - suy thai trung bình.\n- Absent A-wave (a = 0): Suy thai rõ, có thể toan - suy thai nặng.\n- Reversed A-wave (a < 0): Suy thai rất nặng, nguy cơ tử vong trong 1-7 ngày - CỰC NẶNG."
+    },
+    {
+      "front": "TRUFFLE trial (Lees 2013, Frusca 2018) là gì? Kết quả chính?",
+      "back": "TRUFFLE = Trial of Umbilical and Fetal Flow in Europe.\n\nThiết kế: European multicenter RCT, 503 phụ nữ, FGR sớm 26-32 tuần. So sánh 3 chiến lược can thiệp:\n1. cCTG alone (computerized cardiotocography).\n2. cCTG + early DV (can thiệp khi a-wave absent).\n3. cCTG + late DV (can thiệp khi a-wave reversed, muộn hơn).\n\nKết quả (Frusca 2018, PMID 29422211):\n- 92% (463/503) sống sót, 1% (6/443) bại não.\n- Trong số sống sót: 95% (133/144) nhóm late DV có outcome thần kinh bình thường vs 85% (111/131) nhóm cCTG alone (P < 0.01).\n- Kết luận: cCTG + late DV changes = chiến lược tối ưu cho early-onset FGR."
+    },
+    {
+      "front": "Ganzevoort 2020 (PMID 31125465) - kết quả kết hợp GRIT + TRUFFLE?",
+      "back": "Phân tích kết hợp GRIT và TRUFFLE trials, 741 phụ nữ với FGR sớm 26-32 tuần.\n\nKết quả tỷ lệ sống sót không tổn thương thần kinh ở 2 tuổi:\n- cCTG + DV Doppler: 84% (95% CI 80-89%).\n- cCTG only: 77% (TRUFFLE), 80% (GRIT).\n- Immediate delivery: 70% (95% CI 61-78%).\n- CTG alone: 69% (95% CI 57-82%).\n- P < 0.01 cho trend.\n\nKết luận: cCTG + DV cho outcome tốt nhất. Hỗ trợ chiến lược kết hợp cCTG + DV Doppler trong monitoring FGR sớm."
+    },
+    {
+      "front": "Uterine artery Doppler dùng cho mục đích gì? Kết hợp gì để sàng lọc preeclampsia?",
+      "back": "Uterine artery Doppler dùng để sàng lọc sớm preeclampsia và FGR.\n\nSàng lọc quý 1 (11-14 tuần):\n- PI cao + notching = tăng nguy cơ preeclampsia + FGR.\n- Kết hợp với PAPP-A, PlGF: hiệu quả sàng lọc tăng.\n\nASPRE trial (Rolnik 2017, PMID 28741785):\n- Aspirin 150 mg/đêm từ 11-14 tuần -> giảm 62% preterm preeclampsia ở nhóm nguy cơ cao.\n\nTheo Cao 2024 meta-analysis (PMID 38805623)."
+    },
+    {
+      "front": "ISUOG 2021 Practice Guidelines (PMID 34278615) - khuyến cáo chính về Doppler?",
+      "back": "Guideline chính cho Doppler thai kỳ (Bhide A. et al.), consensus 22 chuyên gia quốc tế, update 2013 guideline.\n\nKhuyến cáo chính:\n- Umbilical artery: dùng ở thai nghi ngờ FGR (good practice point).\n- Middle cerebral artery: dùng ở FGR; dùng MCA-PSV ≥ 1.5 MoM để sàng lọc anemia (Grade A).\n- Ductus venosus: dùng ở early-onset FGR với UA bất thường, đặc biệt < 32 tuần.\n- Uterine artery: sàng lọc preeclampsia/FGR quý 1 (kết hợp biomarkers).\n- KHÔNG khuyến cáo Doppler routine trong thai kỳ không biến chứng."
+    },
+    {
+      "front": "SMFM 2020 (PMID 32407785) - khuyến cáo về Doppler trong quản lý FGR?",
+      "back": "21 GRADE recommendations, guideline Mỹ cho FGR. Các khuyến cáo Doppler:\n\n- (9) Doppler UA serial sau khi chẩn đoán FGR (GRADE 1C).\n- (10) Doppler 1 lần/tuần khi decreased diastolic flow (GRADE 2C).\n- (11) Doppler 2-3 lần/tuần khi absent EDV (GRADE 1C).\n- (12) Nhập viện + corticosteroid + monitoring 1-2 lần/ngày khi reversed EDV (GRADE 2C).\n- (13) KHÔNG dùng DV/MCA/UA Doppler cho quản lý thường quy FGR (GRADE 2B) - vì chưa có RCT chứng minh cải thiện outcome."
+    },
+    {
+      "front": "Khi nào dùng Doppler nào? (6 tình huống lâm sàng)",
+      "back": "Bảng tổng hợp từ bài học:\n\n- Nghi ngờ FGR (EFW < p10): UA serial -> MCA, CPR.\n- FGR sớm (< 32 tuần): UA -> DV (giúp timing can thiệp).\n- FGR muộn (≥ 32 tuần): UA -> MCA, CPR (brain-sparing marker).\n- Thai anemia: MCA-PSV (PSV ≥ 1.5 MoM = nghi ngờ).\n- Preeclampsia screening: Uterine artery quý 1 + PAPP-A, PlGF.\n- Twin pregnancy: UA cả 2 thai + MCA cả 2 + DV cho TTTS (MCA-PSV tăng ở thai cho máu)."
+    },
+    {
+      "front": "Các lỗi thường gặp khi đo Doppler thai kỳ? (6 lỗi)",
+      "back": "6 lỗi thường gặp:\n\n1. Đặt sample volume sai vị trí trên MCA: gần phân nhánh -> PSV giảm giả -> âm tính giả anemia.\n2. Đo UA gần bám rốn: PI thấp hơn thực (ít sức cản) -> âm tính giả FGR.\n3. Góc insonation > 30°: sai số tăng theo cos θ.\n4. Dùng Doppler trong thai kỳ bình thường: tốn thời gian, gây lo lắng không cần thiết.\n5. Bỏ qua biến thiên sinh lý: UA-PI có thể tăng nhẹ thoáng qua -> không kết luận ngay.\n6. Quên ghi rõ gestational age: bảng MoM/percentile theo tuổi thai."
+    },
+    {
+      "front": "Late-onset FGR khác gì early-onset FGR về mặt Doppler?",
+      "back": "Late-onset FGR (≥ 32 tuần, chiếm ~70% các ca FGR):\n- UA-PI thường BÌNH THƯỜNG.\n- Cần MCA-PI + CPR để phát hiện brain-sparing.\n- Cơ chế: nhau suy nhẹ -> sức cản UA chưa tăng rõ, nhưng thai đã phân phối lại tuần hoàn ưu tiên não.\n\nEarly-onset FGR (< 32 tuần):\n- UA-PI BẤT THƯỜNG rõ (PI tăng, EDV absent/reversed).\n- Cần DV Doppler để đánh giá mức độ suy thai và timing can thiệp.\n- Cơ chế: nhau suy nặng, tổn thương mạch máu nhau nhiều.\n\nTheo Lees 2022 (PMID 35026129)."
+    },
+    {
+      "front": "Algorithm Doppler trong FGR sớm (early-onset, < 32 tuần)?",
+      "back": "Theo Lees 2022 (PMID 35026129) và TRUFFLE:\n\nThai <32 tuần + EFW <p10\n   ↓\nUA Doppler\n   ↓\nBình thường (PI < p95) -> MCA-PI, CPR đánh giá thêm -> theo dõi 1-2 lần/tuần.\n   ↓\nUA bất thường (PI ≥ p95, AEDV, REDV)\n   ↓\nDV Doppler + cCTG\n   ↓\na-wave bình thường -> Corticosteroid, theo dõi sát.\n   ↓\na-wave absent -> Cân nhắc can thiệp tùy tuổi thai.\n   ↓\na-wave reversed -> Can thiệp NẶNG (theo TRUFFLE).\n   ↓\nQuyết định: cCTG + late DV (Frusca 2018 - 95% normal outcome)."
+    }
+  ]
+}

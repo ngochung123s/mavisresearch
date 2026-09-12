@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "checked": 6,
+  "expected": 6,
+  "clean": [
+    "11320465",
+    "17317378",
+    "22929906",
+    "25213624",
+    "27498055",
+    "41103868"
+  ],
+  "retracted_or_concern": [],
+  "unknown": [],
+  "results": {
+    "11320465": {
+      "retracted": false,
+      "reason": "",
+      "details": {
+        "title": "Use of the sinus P wave in diagnosing electrocardiographic limb lead misplacement not involving the right leg (ground) lead.",
+        "journal": "Journal of electrocardiology",
+        "year": "2001",
+        "publication_types": [
+          "Comparative Study",
+          "Journal Article"
+        ],
+        "corrections": []
+      }
+    },
+    "17317378": {
+      "retracted": false,
+      "reason": "",
+      "details": {
+        "title": "Prevalence and clinical implications of improper filter settings in routine electrocardiography.",
+        "journal": "The American journal of cardiology",
+        "year": "2007",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "corrections": []
+      }
+    },
+    "22929906": {
+      "retracted": false,
+      "reason": "",
+      "details": {
+        "title": "Electrocardiographic electrode misplacement, misconnection, and artifact.",
+        "journal": "The Journal of emergency medicine",
+        "year": "2012",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "corrections": []
+      }
+    },
+    "25213624": {
+      "retracted": false,
+      "reason": "",
+      "details": {
+        "title": "The development and validation of an early warning system to prevent the acquisition of 12-lead resting ECGs with interchanged electrode positions.",
+        "journal": "Journal of electrocardiology",
+        "year": "2014",
+        "publication_types": [
+          "Evaluation Study",
+          "Journal Article",
+          "Validation Study"
+        ],
+        "corrections": []
+      }
+    },
+    "27498055": {
+      "retracted": false,
+      "reason": "",
+      "details": {
+        "title": "Impact of the high-frequency cutoff of bandpass filtering on ECG quality and clinical interpretation: A comparison between 40Hz and 150Hz cutoff in a surgical preoperative adult outpatient population.",
+        "journal": "Journal of electrocardiology",
+        "year": "2016",
+        "publication_types": [
+          "Journal Article",
+          "Observational Study"
+        ],
+        "corrections": []
+      }
+    },
+    "41103868": {
+      "retracted": false,
+      "reason": "",
+      "details": {
+        "title": "A Study of the Frequency of Lead Reversal at a Tertiary Care Institution.",
+        "journal": "Cureus",
+        "year": "2025",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "corrections": []
+      }
+    }
+  }
+}

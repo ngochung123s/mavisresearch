@@ -1,0 +1,484 @@
+[
+  {
+    "gate": "brief_pmid_preflight",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\preflight_check_pmids.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3_RESEARCH_BRIEF.md",
+      "--strict",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-29_RELEASE_v1_evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3_RESEARCH_BRIEF.md",
+        "sha256": "3e0c2698b7eafea9cf1c3cefd6ceff6a7bb232af4995a4ecfd8d72ee24038f70"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-29_RELEASE_v1_evidence_bundle.json",
+        "sha256": "dfed40bc0cb40fa68a419e56d9c797b81c66ea6a83f7bffa539a0f691ba4db81"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\brief_pmid_preflight.json",
+        "sha256": "26eb9b282c63f07dff94d7759153ee63b67c8e0614f1d70d2188f0edf4993a12"
+      }
+    ]
+  },
+  {
+    "gate": "brief_claims_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_claim_vs_abstract.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3_RESEARCH_BRIEF.md",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\brief_claims_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-29_RELEASE_v1_evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3_RESEARCH_BRIEF.md",
+        "sha256": "3e0c2698b7eafea9cf1c3cefd6ceff6a7bb232af4995a4ecfd8d72ee24038f70"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-29_RELEASE_v1_evidence_bundle.json",
+        "sha256": "dfed40bc0cb40fa68a419e56d9c797b81c66ea6a83f7bffa539a0f691ba4db81"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\brief_claims_command.json",
+        "sha256": "ea06971475ebf7c062d0a145b1ba20fd0df9836c23370760a36cc20ba8336b23"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\brief_claims_report.json",
+        "sha256": "af7b007e63d7fa2e5fb31ba529b946beb257ec6b150be22a9e4914f223623c38"
+      }
+    ]
+  },
+  {
+    "gate": "source_pmid_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_all_pmids.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+      "--strict",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-29_RELEASE_v1_evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+        "sha256": "a609ef60d1d5bbd730a8b457f30f6279ab3c2e5ad8b17ad25ebae42ec3e097f6"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-29_RELEASE_v1_evidence_bundle.json",
+        "sha256": "dfed40bc0cb40fa68a419e56d9c797b81c66ea6a83f7bffa539a0f691ba4db81"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\source_pmid_strict.json",
+        "sha256": "4f8a9714ed1830171b9d61046d10b14abf488450398cdc878a7e5ff7f817e874"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_guidelines.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\official_sources.json",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\guideline_report.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\official_sources.json",
+        "sha256": "8551a917d59f3f12cbdec8ec839fac95e5b398d92718ff1a604e4a3871c5a851"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\guideline_command.json",
+        "sha256": "e9b3ed8681b851cb0cbf08f882156f819db31840b44d9e8d9412edd57900c122"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\guideline_report.json",
+        "sha256": "026fd6e8466e20d5b15146bad8943c642e3db9e67e78aceb42dd24edb9548ff5"
+      }
+    ]
+  },
+  {
+    "gate": "source_claims_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_claims.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+      "--strict",
+      "--guideline-report",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\guideline_report.json",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\source_claims_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-29_RELEASE_v1_evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+        "sha256": "a609ef60d1d5bbd730a8b457f30f6279ab3c2e5ad8b17ad25ebae42ec3e097f6"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\official_sources.json",
+        "sha256": "8551a917d59f3f12cbdec8ec839fac95e5b398d92718ff1a604e4a3871c5a851"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-29_RELEASE_v1_evidence_bundle.json",
+        "sha256": "dfed40bc0cb40fa68a419e56d9c797b81c66ea6a83f7bffa539a0f691ba4db81"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\source_claims_command.json",
+        "sha256": "28b9aec49aa9de6888657be8fa04c302f4cac2e6e8f32681fd624c0c46cad266"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\source_claims_report.json",
+        "sha256": "c4dd61d786638f4ac19da35af0b0feececa30bc599a33fda5e32d0f8977fd64b"
+      }
+    ]
+  },
+  {
+    "gate": "source_retraction",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\retraction_check.py",
+      "--md",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+      "--strict",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\source_retraction_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-29_RELEASE_v1_evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+        "sha256": "a609ef60d1d5bbd730a8b457f30f6279ab3c2e5ad8b17ad25ebae42ec3e097f6"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-29_RELEASE_v1_evidence_bundle.json",
+        "sha256": "dfed40bc0cb40fa68a419e56d9c797b81c66ea6a83f7bffa539a0f691ba4db81"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\source_retraction_command.json",
+        "sha256": "5f1ad8e936944bfdae36d315a024fdcfcb12de37a1a6cb52d3b05ebb3af466b7"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\source_retraction_report.json",
+        "sha256": "003fbf327be0c4b41837ded913d2786afa8ded054239abab5aa28d54b2878897"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence_crosscheck",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "crosscheck_guidelines"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\official_sources.json",
+        "sha256": "8551a917d59f3f12cbdec8ec839fac95e5b398d92718ff1a604e4a3871c5a851"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3_RESEARCH_BRIEF.md",
+        "sha256": "3e0c2698b7eafea9cf1c3cefd6ceff6a7bb232af4995a4ecfd8d72ee24038f70"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+        "sha256": "a609ef60d1d5bbd730a8b457f30f6279ab3c2e5ad8b17ad25ebae42ec3e097f6"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\guideline_crosscheck_report.json",
+        "sha256": "61de2812738ecd4385aedcd2a2c82292882cc06fcb65934de688a3bbb7503891"
+      }
+    ]
+  },
+  {
+    "gate": "citation_zero_block",
+    "status": "FAIL",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\citation_audit.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-29_RELEASE_v1_evidence_bundle.json"
+    ],
+    "exit_code": 2,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+        "sha256": "a609ef60d1d5bbd730a8b457f30f6279ab3c2e5ad8b17ad25ebae42ec3e097f6"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\citation_audit.json",
+        "sha256": "0a12ff36a3b99ed205d44d4fdd975b9d6a0eb7ef5f38997f716fb299bb6eef3d"
+      }
+    ]
+  },
+  {
+    "gate": "depth_foundation",
+    "status": "FAIL",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\depth_check.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+      "--profile",
+      "foundation"
+    ],
+    "exit_code": 1,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+        "sha256": "a609ef60d1d5bbd730a8b457f30f6279ab3c2e5ad8b17ad25ebae42ec3e097f6"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\depth_foundation.json",
+        "sha256": "9adb4fbb0e3eef1995aef3cba1c55e1f170c02db7abfeaa1acabc6e074d96f8d"
+      }
+    ]
+  },
+  {
+    "gate": "cards_schema",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "--internal",
+      "cards_schema"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.cards.v2.json",
+        "sha256": "efced101b221633c5637e1ac496f09fe9e6daa7db4d793d440afebdab5f9a7b9"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\cards_schema.json",
+        "sha256": "bcd3fac2f51740a4dfb1a8abaf1413428ec0fd21a35178f7fd2acafd2878f2c8"
+      }
+    ]
+  },
+  {
+    "gate": "candidate_apkg_build",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_apkg.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.cards.v2.json",
+      "--output",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.apkg",
+      "--verify"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.cards.v2.json",
+        "sha256": "efced101b221633c5637e1ac496f09fe9e6daa7db4d793d440afebdab5f9a7b9"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\candidate_apkg_build.json",
+        "sha256": "b196f1cff8c133b6ee414b2aeb462997cfbb04f9baa0d961561f0168ae9966f9"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.apkg",
+        "sha256": "d1768aa8f267abbf62d90058958e05634cbbf5c91f0f1d3e679494a53b6b1d8c"
+      }
+    ]
+  },
+  {
+    "gate": "package_note_count",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "internal:package_note_count"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.cards.v2.json",
+        "sha256": "efced101b221633c5637e1ac496f09fe9e6daa7db4d793d440afebdab5f9a7b9"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.apkg",
+        "sha256": "d1768aa8f267abbf62d90058958e05634cbbf5c91f0f1d3e679494a53b6b1d8c"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\package_counts.json",
+        "sha256": "277a7303d2b2ecebb3c4bf378d63514ee5cf7199c578b6a1cc6fff416694ff53"
+      }
+    ]
+  },
+  {
+    "gate": "package_diacritics",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_apkg_diacritics.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.apkg"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.apkg",
+        "sha256": "d1768aa8f267abbf62d90058958e05634cbbf5c91f0f1d3e679494a53b6b1d8c"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\package_diacritics.json",
+        "sha256": "32271dc8762a7b05fd6cf9ce86184b0b871b1e10b5a459ba0481c0cebdee2b2a"
+      }
+    ]
+  },
+  {
+    "gate": "source_diacritics",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "internal:source_diacritics"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+        "sha256": "a609ef60d1d5bbd730a8b457f30f6279ab3c2e5ad8b17ad25ebae42ec3e097f6"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\source_diacritics.json",
+        "sha256": "91431d05d501307246a6f33243c9a782b6ab129c2af7589409101d4d7459ee96"
+      }
+    ]
+  },
+  {
+    "gate": "docx_build",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\md_to_docx.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.docx"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+        "sha256": "a609ef60d1d5bbd730a8b457f30f6279ab3c2e5ad8b17ad25ebae42ec3e097f6"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\docx_build.json",
+        "sha256": "920c89922944f39c1be377a13cbe0dec140eacbd17436b78bee2a4352e1a94c8"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.docx",
+        "sha256": "42c1766b040c1520ea2fb8b8f48240e6c0046dbdc0d8c993c88ea741959f398b"
+      }
+    ]
+  },
+  {
+    "gate": "learner_smoke",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\make_knowledge_check.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.cards.v2.json",
+      "--output-dir",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.cards.v2.json",
+        "sha256": "efced101b221633c5637e1ac496f09fe9e6daa7db4d793d440afebdab5f9a7b9"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-29_RELEASE_v1_evidence_bundle.json",
+        "sha256": "dfed40bc0cb40fa68a419e56d9c797b81c66ea6a83f7bffa539a0f691ba4db81"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\verification\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3\\learner_smoke.json",
+        "sha256": "2355453160008bc17477ec2842aa8c4fd2bfb0d8352283341cb5405a1543f24e"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3_knowledge_check.md",
+        "sha256": "aad556f919102b8c4d910ed55ebc616827085d3286e3ee77f6e6c80cb91b3d1e"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3_knowledge_check_answer_key.md",
+        "sha256": "c8cfe68f85ccd32f7e7f96bae7bb84c0905ba65e9ac7f7bd81f9378de69dbf23"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3_knowledge_check_score.json",
+        "sha256": "c6256ddd76e8d32c598dfaa1d95750737587757d99145b3be0754ea2a0f7506f"
+      }
+    ]
+  }
+]

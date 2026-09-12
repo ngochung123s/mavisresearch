@@ -1,0 +1,225 @@
+{
+  "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-29_RELEASE_v2.md",
+  "summary": {
+    "total": 6,
+    "pass": 6,
+    "warn": 0,
+    "block": 0
+  },
+  "citations": [
+    {
+      "citation": "PMID: 27498055",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 2,
+      "tier_reason": "Q2 (IF 1.7)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "27498055",
+          "status": "OK",
+          "year": "2016",
+          "title": "Impact of the high-frequency cutoff of bandpass filtering on ECG quality and clinical interpretation: A comparison between 40Hz and 150Hz cutoff in a surgical preoperative adult outpatient population.",
+          "author": "Ricciardi D",
+          "journal": "J Electrocardiol",
+          "article_type": "Journal Article, Observational Study",
+          "pubtypes": [
+            "Journal Article",
+            "Observational Study"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "J Electrocardiol",
+        "quartile": "Q2",
+        "if": 1.7
+      }
+    },
+    {
+      "citation": "PMID: 17317378",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 2,
+      "tier_reason": "Q2 (IF 2.8)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "17317378",
+          "status": "OK",
+          "year": "2007",
+          "title": "Prevalence and clinical implications of improper filter settings in routine electrocardiography.",
+          "author": "Kligfield P",
+          "journal": "Am J Cardiol",
+          "article_type": "Journal Article",
+          "pubtypes": [
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Am J Cardiol",
+        "quartile": "Q2",
+        "if": 2.8
+      }
+    },
+    {
+      "citation": "PMID: 41103868",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 3,
+      "tier_reason": "Q3 (IF 1.0)",
+      "verdict": "OK (Q3, direction only)",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "41103868",
+          "status": "OK",
+          "year": "2025",
+          "title": "A Study of the Frequency of Lead Reversal at a Tertiary Care Institution.",
+          "author": "Ramadurai S",
+          "journal": "Cureus",
+          "article_type": "Journal Article",
+          "pubtypes": [
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Cureus",
+        "quartile": "Q3",
+        "if": 1.0
+      }
+    },
+    {
+      "citation": "PMID: 25213624",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 2,
+      "tier_reason": "Q2 (IF 1.7)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "25213624",
+          "status": "OK",
+          "year": "2014",
+          "title": "The development and validation of an early warning system to prevent the acquisition of 12-lead resting ECGs with interchanged electrode positions.",
+          "author": "de Bie J",
+          "journal": "J Electrocardiol",
+          "article_type": "Evaluation Study, Journal Article",
+          "pubtypes": [
+            "Evaluation Study",
+            "Journal Article",
+            "Validation Study"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "J Electrocardiol",
+        "quartile": "Q2",
+        "if": 1.7
+      }
+    },
+    {
+      "citation": "PMID: 11320465",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 2,
+      "tier_reason": "Q2 (IF 1.7)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "11320465",
+          "status": "OK",
+          "year": "2001",
+          "title": "Use of the sinus P wave in diagnosing electrocardiographic limb lead misplacement not involving the right leg (ground) lead.",
+          "author": "Ho KK",
+          "journal": "J Electrocardiol",
+          "article_type": "Comparative Study, Journal Article",
+          "pubtypes": [
+            "Comparative Study",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "J Electrocardiol",
+        "quartile": "Q2",
+        "if": 1.7
+      }
+    },
+    {
+      "citation": "PMID: 22929906",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 2,
+      "tier_reason": "Q2 (IF 1.8)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "22929906",
+          "status": "OK",
+          "year": "2012",
+          "title": "Electrocardiographic electrode misplacement, misconnection, and artifact.",
+          "author": "Harrigan RA",
+          "journal": "J Emerg Med",
+          "article_type": "Journal Article",
+          "pubtypes": [
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "J Emerg Med",
+        "quartile": "Q2",
+        "if": 1.8
+      }
+    }
+  ]
+}

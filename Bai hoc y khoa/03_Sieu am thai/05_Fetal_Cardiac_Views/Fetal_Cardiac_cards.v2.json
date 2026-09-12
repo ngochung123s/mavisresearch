@@ -1,0 +1,60 @@
+[
+  {
+    "type": "basic",
+    "front": "5 mặt cắt tim thai TỐI THIỂU theo ISUOG 2023?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. <b>Situs/Bụng trên</b>: dạ dày trái, ĐMC trái cột sống (AL), IVC phải (IR)<br>2. <b>4 buồng (4CH)</b>: crux cordis, axis 45°±20°, CTR <0.33<br>3. <b>LVOT</b>: ĐMC từ thất trái, thành trước ĐMC liên tục vách liên thất<br>4. <b>RVOT</b>: ĐMP từ thất phải, BẮT CHÉO ĐMC<br>5. <b>3VT</b>: SVC-ĐMC-ĐMP hàng ngang, ĐMP>ĐMC>SVC<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Chỉ 4CH → 50% CHD. Thêm LVOT+RVOT → 80%. Thêm 3VT → 90%",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "5 mặt cắt tim thai: {{c1::Situs}} (AL-IR), {{c1::4CH}} (crux cordis, axis 45°), {{c1::LVOT}} (ĐMC từ LV), {{c1::RVOT}} (BẮT CHÉO!), {{c1::3VT}} (3 mạch: ĐMP>ĐMC>SVC).",
+    "extra": "TGA = KHÔNG bắt chéo. TOF = ĐMC cưỡi ngựa + VSD + ĐMP nhỏ."
+  },
+  {
+    "type": "basic",
+    "front": "Situs bình thường trên siêu âm bụng trên thai? Quy tắc nhớ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Dạ dày bên <b>TRÁI</b>, mỏm tim bên <b>TRÁI</b><br>• ĐMC bên <b>TRÁI</b> cột sống = <b>AL</b> (Aorta Left)<br>• IVC bên <b>PHẢI</b> cột sống = <b>IR</b> (IVC Right)<br>• Tĩnh mạch rốn đi vào gan, phân nhánh T/P<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Situs inversus = đảo ngược hoàn toàn (dạ dày + tim bên phải)<br>• Dextrocardia = tim bên phải nhưng dạ dày bên trái → situs ambiguous?",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Các cấu trúc cần đánh giá trên mặt cắt 4 buồng (4CH)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. Số buồng: 4 (2 nhĩ + 2 thất)<br>2. Kích thước: RV≈LV (chênh ≤10%)<br>3. <b>Crux cordis</b>: vách nhĩ-thất giao hình (+)<br>4. 2 van AV mở riêng biệt, van 3 lá bám thấp hơn<br>5. Vách liên thất liên tục<br>6. <b>Axis tim: 45° ± 20°</b><br>7. <b>CTR <0.33</b><br>8. Nhịp 110-160 bpm<br>9. Foramen ovale mở vào LA<br>10. Không tràn dịch màng tim<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• AVSD = mất crux cordis, 1 van AV chung → T21 50%<br>• Ebstein = van 3 lá bám thấp sâu, nhĩ phải lớn",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "LVOT (đường ra thất trái) — cấu trúc cần thấy?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• ĐMC xuất phát từ <b>thất trái</b><br>• Van ĐMC mỏng, mở ra thì tâm thu<br>• <b>Vách liên thất liên tục với thành trước ĐMC</b> (không VSD)<br>• ĐMC lên kích thước đồng nhất<br>• Doppler: dòng chảy xuôi, không hở<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• TOF = ĐMC cưỡi ngựa (overriding) + VSD<br>• HLHS = thất trái nhỏ, van 2 lá hẹp/tịt",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao BẮT CHÉO (crossover) giữa ĐMC và ĐMP là quan trọng nhất?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Bình thường: ĐMC và ĐMP <b>BẮT CHÉO NHAU</b>. ĐMC từ thất trái → vòng sau. ĐMP từ thất phải → vòng trước rồi chẻ nhánh<br>• <b>TGA</b>: ĐMC và ĐMP <b>SONG SONG</b> (không bắt chéo). ĐMC ra từ thất phải, ĐMP ra từ thất trái<br>• TGA là CHD critical — cần phẫu thuật sớm sau sinh<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• TGA chiếm 5% CHD, là 1 trong những CHD hay bị BỎ SÓT nhất<br>• Phát hiện TGA trước sinh → sinh ở trung tâm có phẫu thuật tim",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "BẮT CHÉO (crossover) ĐMC+ĐMP là phát hiện QUAN TRỌNG NHẤT để loại trừ {{c1::TGA}}. Nếu song song (không bắt chéo) → {{c1::TGA}} đến khi chứng minh ngược lại.",
+    "extra": "TGA chiếm 5% CHD, hay bị bỏ sót. Cần sinh ở trung tâm có phẫu thuật tim."
+  },
+  {
+    "type": "basic",
+    "front": "Mặt cắt 3VT (3 mạch khí quản) — quy tắc 5S?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Số lượng (Số)</b>: 3 mạch (SVC-ĐMC-ĐMP)<br>• <b>Sắp xếp (Sắp)</b>: hàng ngang trái→phải: ĐMP-ĐMC-SVC<br>• <b>Kích thước (Size)</b>: ĐMP > ĐMC > SVC (giảm dần T→P)<br>• <b>Hình dạng (Shape)</b>: ĐMP oval ngang, ĐMC+SVC tròn<br>• <b>Vị trí (Site)</b>: trước khí quản<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• 4 mạch = PLSVC (thường lành tính). 2 mạch = TAPVR<br>• ĐMC > ĐMP = TOF/CoA. ĐMC trước ĐMP = TGA",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Phát hiện TGA, TOF, CoA trên siêu âm tim thai?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>TGA</b>: RVOT+3VT — ĐMC+ĐMP SONG SONG (không bắt chéo), 3VT: ĐMC trước ĐMP<br>• <b>TOF</b>: LVOT+3VT — ĐMC cưỡi ngựa + VSD, 3VT: ĐMC > ĐMP (ĐMP nhỏ do hẹp)<br>• <b>CoA</b>: 3VT+Aortic arch — ĐMC < ĐMP (chênh kích thước), eo ĐMC hẹp<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• TOF phổ biến nhất trong CHD tím (5-7% CHD)<br>• CoA hay bị BỎ SÓT trên siêu âm — cần đánh giá 3VT kỹ",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Checklist đánh giá tim thai — 10 bước chính?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. Situs: dạ dày trái, ĐMC trái (AL), IVC phải (IR)<br>2. 4CH: 4 buồng + crux cordis<br>3. 4CH: axis 45°±20°<br>4. 4CH: CTR <0.33<br>5. 4CH: 2 van AV riêng biệt<br>6. LVOT: ĐMC từ LV, vách liên tục<br>7. RVOT: ĐMP từ RV, BẮT CHÉO<br>8. 3VT: 3 mạch, ĐMP>ĐMC>SVC<br>9. 3VT: hình V đặc trưng<br>10. Doppler: dòng xuôi, không hở<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Nếu BẤT CỨ bước nào bất thường → refer fetal echo<br>• TGA là CHD hay bị miss nhất — luôn check crossover",
+    "extra": ""
+  }
+]

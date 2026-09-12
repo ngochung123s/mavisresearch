@@ -1,0 +1,388 @@
+{
+  "cards": [
+    {
+      "type": "basic",
+      "front": "Định nghĩa Bệnh phổi tắc nghẽn mạn tính (COPD) theo GOLD là gì?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Là tình trạng bệnh lý hô hấp mạn tính đặc trưng bởi các triệu chứng hô hấp dai dẳng (khó thở, ho, khạc đờm)<br>• Giới hạn luồng khí thở ra không hồi phục hoàn toàn<br>• Hậu quả của bất thường đường thở và/hoặc phế nang do tiếp xúc kéo dài với phân tử/khí độc hại.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Tắc nghẽn hô hấp trong COPD mang tính tiến triển mạn tính và không thể đưa về bình thường hoàn toàn (khác với Hen phế quản).<br>• Nguyên nhân hàng đầu là khói thuốc lá và khói sinh khối đun nấu.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Bệnh phổi tắc nghẽn mạn tính (COPD) đặc trưng bởi các triệu chứng hô hấp dai dẳng và {{c1::giới hạn luồng khí thở ra không hồi phục hoàn toàn}} do tiếp xúc với {{c1::các phân tử hoặc khí độc hại}}.",
+      "extra": "Bệnh mang tính tiến triển mạn tính và không hồi phục hoàn toàn sau test giãn phế quản."
+    },
+    {
+      "type": "basic",
+      "front": "Bốn thách thức lâm sàng chính trong quản lý COPD tại Việt Nam là gì?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Chẩn đoán sót hoặc chẩn đoán muộn khi bệnh nhân đã suy hô hấp nặng.<br>• Nhầm lẫn giữa COPD và Hen phế quản (dùng sai ICS đơn trị cho COPD hoặc lạm dụng SABA).<br>• Kỹ thuật hít thuốc sai dẫn đến thất bại điều trị.<br>• Xử trí đợt cấp chưa chuẩn (thở oxy liều cao mù quáng gây toan hô hấp, lạm dụng kháng sinh/corticoid).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Việc nhầm lẫn COPD và Hen dẫn đến dùng ICS đơn trị (tăng nguy cơ viêm phổi ở COPD) hoặc phụ thuộc SABA cắt cơn.<br>• Thở oxy liều cao ở bệnh nhân ứ CO2 mạn làm dập tắt hypoxic drive, gây toan hô hấp và tử vong.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Trong sinh lý hô hấp bình thường, chỉ số FEV1 và FVC phản ánh điều gì?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>FVC (Dung tích sống gắng sức):</b> Thể tích khí tối đa thở ra mạnh sau khi đã hít vào hết sức.<br>• <b>FEV1 (Thể tích thở ra gắng sức trong giây đầu):</b> Thể tích khí thở ra được trong 1 giây đầu tiên của nghiệm pháp FVC.<br>• Ở người khỏe mạnh, tỷ lệ FEV1/FVC ≥ 0.75 - 0.80.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• FEV1 phản ánh tốc độ dòng khí và độ thông thoáng của đường thở nhỏ.<br>• Tỷ số FEV1/FVC < 0.70 sau test giãn phế quản là tiêu chuẩn vàng chẩn đoán hội chứng tắc nghẽn cố định.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Ở người bình thường, trong 1 giây đầu tiên thở ra gắng sức có thể xuất được {{c1::75-80%}} tổng dung tích khí thở ra tối đa, tương ứng tỷ lệ FEV1/FVC {{c1::≥ 0.75 - 0.80}}.",
+      "extra": "Trong COPD, FEV1 giảm nặng làm tỷ số FEV1/FVC rơi xuống dưới 0.70."
+    },
+    {
+      "type": "basic",
+      "front": "Cơ chế gây hiện tượng Bẫy khí (Air Trapping) và Tăng dung tích khí phế thũng (Hyperinflation) trong COPD là gì?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Thành phế quản bị dầy do viêm mạn, lòng chứa đờm nhầy, phế nang bị phá hủy làm mất sức kéo đàn hồi bấu giữ phế quản.<br>• Khi thở ra gắng sức, các phế quản nhỏ bị bẹp xẹp sớm, làm khí không thể thoát hết ra ngoài (bẫy khí).<br>• Lồng ngực căng phồng mạn tính làm cơ hoành bị đẩy dẹt, mất lợi thế cơ học, gây khó thở dai dẳng.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Bẫy khí làm tăng thể tích khí cặn (RV) và dung tích phổi toàn phần (TLC).<br>• Cơ hoành bị dẹt khiến bệnh nhân phải huy động các cơ hô hấp phụ (cơ liên sườn, cơ ức đòn chũm), làm tăng công hô hấp.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Tình trạng bẫy khí kéo dài làm tăng dung tích cặn phế nang (RV) và dung tích phổi toàn phần (TLC), đẩy {{c1::cơ hoành bị dẹt xuống}}, làm bệnh nhân phải dùng {{c1::các cơ hô hấp phụ}} và gây khó thở dai dẳng.",
+      "extra": "Cơ hoành bị đẩy dẹt làm mất lực co bóp hiệu quả thì hít vào."
+    },
+    {
+      "type": "basic",
+      "front": "Cơ chế điều hòa nhịp thở theo Kích thích thiếu Oxy (Hypoxic Drive) ở bệnh nhân COPD mạn tính là gì?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Ở bệnh nhân ứ CO2 mạn tính (hypercapnia mạn), trung tâm hô hấp ở hành não bị trơ với nồng độ CO2 cao.<br>• Nhịp thở lúc này hoạt động chủ yếu dựa vào nồng độ Oxy máu thấp (hypoxic drive).<br>• Nếu cho thở Oxy nồng độ cao mù quáng, đáp ứng thiếu oxy bị triệt tiêu $\\rightarrow$ gây giảm thông khí phế nang nghiêm trọng, CO2 máu tăng vọt (CO2 narcosis), toan hô hấp và hôn mê.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Đây là lý do mục tiêu SpO2 ở đợt cấp COPD chỉ duy trì ở mức 88% - 92%.<br>• Thở oxy liều cao còn giải phóng phản ứng co mạch phổi do thiếu oxy (V/Q mismatch), làm tăng khoảng chết phế nang.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Ở bệnh nhân COPD ứ CO2 mạn tính, trung tâm hô hấp bị trơ với CO2 và nhịp thở phụ thuộc vào {{c1::kích thích thiếu oxy (hypoxic drive)}}. Nếu cho thở Oxy liều cao mù quáng sẽ gây {{c1::toan hô hấp tăng CO2 máu cấp tính (CO2 narcosis)}}.",
+      "extra": "Mục tiêu SpO2 chuẩn cho COPD đợt cấp là 88% - 92%."
+    },
+    {
+      "type": "basic",
+      "front": "Hai tổn thương sinh bệnh học song song cốt lõi trong COPD là gì?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Bệnh đường thở nhỏ (Small Airway Disease):</b> Viêm mạn tính, phù nề niêm mạc, tăng tiết nhầy và xơ hóa làm hẹp đường thở nhỏ (< 2mm).<br>• <b>Khí phế thũng (Emphysema):</b> Mất cân bằng Protease/Anti-protease làm phá hủy phế nang và mất các sợi đàn hồi bấu giữ đường thở.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Bệnh đường thở nhỏ làm tăng sức cản luồng khí.<br>• Phá hủy phế nang làm giảm diện tích khuếch tán khí O2/CO2 và làm xẹp phế quản trong thì thở ra.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Khí phế thũng (Emphysema) xảy ra do sự mất cân bằng giữa enzyme {{c1::protease (như neutrophil elastase)}} phá hủy protein và {{c1::anti-protease (như Alpha-1 Antitrypsin)}} bảo vệ nhu mô phổi.",
+      "extra": "Neutrophil elastase do bạch cầu trung tính giải phóng phá hủy các sợi elastin."
+    },
+    {
+      "type": "basic",
+      "front": "So sánh đặc điểm sinh học giữa Viêm mạn tính trong COPD và Hen phế quản:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Tế bào viêm:</b> COPD chủ yếu là Đại thực bào, Bạch cầu trung tính (Neutrophil), T CD8+; Hen chủ yếu là Bạch cầu ái toan (Eosinophil), T CD4+ (Th2), Tế bào Mast.<br>• <b>Tắc nghẽn:</b> COPD tắc nghẽn không hồi phục hoàn toàn; Hen tắc nghẽn hồi phục hoàn toàn.<br>• <b>Đáp ứng ICS:</b> COPD đáp ứng kém (trừ khi EOS máu cao); Hen đáp ứng rất tốt (là nền tảng điều trị).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Bản chất tế bào viêm giải thích tại sao Corticoid hít (ICS) là trụ cột trong Hen nhưng lại có vai trò hạn chế trong COPD.<br>• Bạch cầu trung tính trong COPD giải phóng các protease không nhạy cảm với corticosteroid.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Trong COPD, tế bào viêm chủ yếu là {{c1::Đại thực bào, Bạch cầu trung tính (Neutrophil) và T CD8+}}, trong khi trong Hen phế quản tế bào viêm chủ yếu là {{c1::Bạch cầu ái toan (Eosinophil), T CD4+ và tế bào Mast}}.",
+      "extra": "Sự khác biệt tế bào viêm quyết định đáp ứng với thuốc Corticoid."
+    },
+    {
+      "type": "basic",
+      "front": "Chuỗi nhân quả từ thiếu O2 máu mạn tính dẫn tới Tâm phế mạn (Cor Pulmonale) trong COPD:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Thiếu O2 phế nang kéo dài $\\rightarrow$ Co mạch phổi đáp ứng (Hypoxic pulmonary vasoconstriction).<br>• Co mạch phổi dai dẳng $\\rightarrow$ Tăng sức cản và tăng áp lực động mạch phổi mạn tính.<br>• Tăng hậu gánh thất phải $\rightarrow$ Phì đại thất phải, giãn thất phải và cuối cùng gây Suy tim phải (Tâm phế mạn).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Biểu hiện lâm sàng tâm phế mạn: Tĩnh mạch cổ nổi, phù hai chân, gan to, phản hồi gan-tĩnh mạch cổ dương tính.<br>• Thở oxy dài hạn tại nhà (LTOT) giúp giảm co mạch phổi và cải thiện sống còn ở nhóm bệnh nhân này.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Thiếu O2 máu mạn tính trong COPD kích hoạt phản ứng {{c1::co mạch phổi do thiếu O2}}, dẫn đến tăng áp lực động mạch phổi mạn tính, phì đại thất phải và gây ra {{c1::Tâm phế mạn (Cor Pulmonale)}}.",
+      "extra": "Tâm phế mạn là biến chứng suy tim phải do bệnh lý phổi mạn tính."
+    },
+    {
+      "type": "basic",
+      "front": "Tại sao COPD được coi là một Bệnh lý toàn thân (Systemic disease)?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Phản ứng viêm mạn tính lan tỏa từ phổi vào tuần hoàn hệ thống.<br>• Gây ra các biến chứng toàn thân: Teo cơ / sụt cân kiệt sức, loãng xương, bệnh mạch máu vữa xơ / bệnh tim thiếu máu cục bộ, đái tháo đường và trầm cảm.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Sụt cân và teo cơ là yếu tố tiên lượng tử vong độc lập ở bệnh nhân COPD nặng.<br>• Cần đánh giá toàn diện các bệnh đồng mắc (comorbidities) ở mọi bệnh nhân COPD.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Công thức tính chỉ số Bao-năm (Pack-years) thuốc lá và ngưỡng nguy cơ cao mắc COPD:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Công thức:</b> Số bao-năm = (Số điếu hút mỗi ngày / 20) x Số năm hút.<br>• Nguy cơ mắc COPD tăng vọt khi chỉ số ≥ 20 bao-năm.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Ví dụ: Hút 10 điếu/ngày trong 40 năm = (10/20) x 40 = 20 bao-năm.<br>• Thuốc lá thụ động cũng là yếu tố nguy cơ quan trọng.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Chỉ số bao-năm thuốc lá được tính bằng {{c1::(Số điếu hút mỗi ngày / 20) x Số năm hút}}. Người có chỉ số {{c1::≥ 20 bao-năm}} có nguy cơ rất cao mắc COPD.",
+      "extra": "Một bao thuốc lá chuẩn chứa 20 điếu."
+    },
+    {
+      "type": "basic",
+      "front": "Đặc điểm nguy cơ mắc COPD do Khói sinh khối (Biomass smoke) tại Việt Nam là gì?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Gặp chủ yếu ở phụ nữ nông thôn/miền núi không hút thuốc lá.<br>• Tiếp xúc kéo dài hàng chục năm với khói đun nấu từ bếp củi, rơm rạ, than củi trong nhà kín khép.<br>• Biểu hiện kiểu hình bệnh đường thở nhỏ kéo dài nhiều hơn là khí phế thũng nặng.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Khói sinh khối chứa hàm lượng cao bụi mịn PM2.5, CO, PAHs và các chất oxy hóa.<br>• Cần khai thác tiền sử đun bếp củi tỉ mỉ ở phụ nữ khó thở mạn tính.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Thiếu hụt di truyền {{c1::Alpha-1 Antitrypsin (AAT)}} làm mất chất bảo vệ nhu mô phổi tự nhiên, gây ra khí phế thũng nặng xuất hiện sớm ở người trẻ {{c1::30-40 tuổi}}.",
+      "extra": "Do đột biến gen SERPINA1 di truyền lặn trên nhiễm sắc thể thường."
+    },
+    {
+      "type": "basic",
+      "front": "Ba triệu chứng cơ năng cốt lõi của bệnh nhân COPD là gì?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Khó thở:</b> Dai dẳng, tiến triển nặng dần theo thời gian (ban đầu khi gắng sức, sau đó cả khi nghỉ).<br>• <b>Ho mạn tính:</b> Ho dai dẳng hằng ngày, nhiều vào buổi sáng.<br>• <b>Khạc đờm mạn tính:</b> Đờm nhầy trong, tăng số lượng hoặc chuyển đờm mủ khi có đợt cấp.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Tiêu chuẩn Viêm phế quản mạn: Ho khạc đờm ≥ 3 tháng mỗi năm trong ít nhất 2 năm liên tiếp.<br>• Bệnh nhân thường giảm vận động để thích nghi nên hay đi khám muộn.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Các dấu hiệu khám thực thể điển hình ở lồng ngực bệnh nhân COPD giai đoạn tiến triển:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Hình thái:</b> Lồng ngực hình thùng (đường kính trước-sau tăng), khoảng liên sườn giãn rộng nằm ngang, góc ức sườn tù.<br>• <b>Thở:</b> Thở chúm môi (pursed-lip breathing), co kéo cơ hô hấp phụ, dấu hiệu Hoover (bờ dưới lồng ngực lõm vào khi hít vào).<br>• <b>Gõ & Nghe:</b> Gõ vang trống toàn phổi, rì rào phế nang giảm, thì thở ra kéo dài, có rale rít rale ngáy.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Dấu hiệu Hoover xuất hiện do cơ hoành bị dẹt kéo bờ dưới lồng ngực vào trong thì hít vào.<br>• Thở chúm môi giúp tạo áp lực dương cuối thì thở ra để giữ mở phế quản nhỏ.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Chi tiết 5 mức độ điểm khó thở theo Thang điểm mMRC (Modified Medical Research Council):",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>mMRC 0:</b> Chỉ khó thở khi hoạt động thể lực mạnh.<br>• <b>mMRC 1:</b> Khó thở khi đi nhanh trên đường bằng hoặc đi lên dốc nhẹ.<br>• <b>mMRC 2:</b> Đi chậm hơn người cùng tuổi trên đường bằng vì khó thở, hoặc phải dừng lại để thở khi đi tốc độ riêng.<br>• <b>mMRC 3:</b> Phải dừng lại để thở sau khi đi khoảng 100 mét hoặc sau vài phút trên đường bằng.<br>• <b>mMRC 4:</b> Quá khó thở để rời khỏi nhà, hoặc khó thở khi thay quần áo.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Ngưỡng phân tầng triệu chứng: mMRC 0-1 là triệu chứng ít; mMRC ≥ 2 là triệu chứng nhiều (nhóm B hoặc E).",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Theo thang điểm mMRC, mức độ 2 được định nghĩa là {{c1::đi chậm hơn người cùng tuổi trên đường bằng vì khó thở, hoặc phải dừng lại để thở khi đi tốc độ riêng}}, và mMRC ≥ 2 được xếp vào nhóm {{c1::triệu chứng nhiều}}.",
+      "extra": "mMRC từ 2 trở lên là mốc phân nhóm GOLD B hoặc E."
+    },
+    {
+      "type": "basic",
+      "front": "Thang điểm CAT (COPD Assessment Test) đánh giá những khía cạnh nào và mốc điểm phân loại?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Đánh giá 8 khía cạnh: Ho, đờm, nặng ngực, khó thở khi leo dốc/cầu thang, giới hạn hoạt động tại nhà, tự tin rời nhà, giấc ngủ và năng lượng (tổng 0-40 điểm).<br>• <b>CAT < 10:</b> Triệu chứng ít tác động.<br>• <b>CAT ≥ 10:</b> Triệu chứng tác động nhiều.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• CAT đánh giá toàn diện chất lượng cuộc sống hơn mMRC vốn chỉ tập trung vào khó thở.<br>• mMRC ≥ 2 hoặc CAT ≥ 10 đều đưa bệnh nhân vào nhóm triệu chứng nhiều.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Tiêu chuẩn vàng chẩn đoán xác định COPD trên Hô hấp ký sau thử thuốc giãn phế quản (BDR):",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Chỉ số FEV1/FVC < 0.70 sau test phục hồi phế quản</b> (dùng 400 mcg Salbutamol hít).<br>• Chứng minh tình trạng giới hạn luồng khí thở ra không hồi phục hoàn toàn.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Phải đo sau khi dùng thuốc giãn phế quản để loại trừ trường hợp co thắt phế quản thoáng qua.<br>• Nếu FEV1/FVC ≥ 0.70 sau BDR $\\rightarrow$ Loại trừ chẩn đoán COPD.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Tiêu chuẩn vàng để chẩn đoán xác định COPD trên hô hấp ký là tỷ số {{c1::FEV1/FVC < 0.70}} thu được {{c1::sau khi làm test phục hồi phế quản (sau BDR)}}.",
+      "extra": "Test BDR thường dùng 400 mcg Salbutamol xịt qua buồng đệm."
+    },
+    {
+      "type": "basic",
+      "front": "Phân độ mức độ nặng tắc nghẽn hô hấp GOLD 1, 2, 3, 4 dựa vào chỉ số FEV1 % dự đoán sau test BDR:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>GOLD 1 (Nhẹ):</b> FEV1 ≥ 80% dự đoán.<br>• <b>GOLD 2 (Trung bình):</b> 50% ≤ FEV1 < 80% dự đoán.<br>• <b>GOLD 3 (Nặng):</b> 30% ≤ FEV1 < 50% dự đoán.<br>• <b>GOLD 4 (Rất nặng):</b> FEV1 < 30% dự đoán.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Phân độ GOLD 1-4 chỉ đánh giá mức độ tắc nghẽn trên máy đo.<br>• KHÔNG trực tiếp quyết định chọn thuốc hít ban đầu (thuốc ban đầu phụ thuộc phân nhóm A, B, E).",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Phân độ tắc nghẽn COPD trên hô hấp ký: GOLD 1 có FEV1 ≥ {{c1::80%}}, GOLD 2 từ {{c1::50% đến < 80%}}, GOLD 3 từ {{c1::30% đến < 50%}}, và GOLD 4 có FEV1 < {{c1::30%}} dự đoán.",
+      "extra": "Tất cả đều đo sau khi đã dùng thuốc giãn phế quản."
+    },
+    {
+      "type": "basic",
+      "front": "Bốn dấu hiệu điển hình của Ứ khí phế thũng trên phim X-quang ngực thẳng:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Trường phổi hai bên tăng sáng (đen hơn bình thường).<br>• Vòm hoành hai bên hạ thấp, bị đẩy dẹt.<br>• Các khoảng liên sườn giãn rộng, nằm ngang.<br>• Bóng tim thon nhỏ hình giọt nước (do phổi căng phồng chèn ép).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• X-quang ngực không dùng để chẩn đoán xác định COPD mà để loại trừ chẩn đoán phân biệt (Lao, Ung thư, Giãn phế quản, Suy tim).<br>• Trên phim nghiêng: Khoảng sáng sau xương ức tăng rộng > 2.5 cm.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Ý nghĩa lâm sàng của chỉ số Bạch cầu ái toan máu (Blood Eosinophil - EOS) trong COPD:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Ngưỡng <b>EOS ≥ 300 tế bào/µL</b> tiên lượng bệnh nhân đáp ứng rất tốt với việc phối hợp thêm <b>Corticoid hít (ICS)</b> để giảm đợt cấp.<br>• Ngưỡng <b>EOS < 100 tế bào/µL</b> cảnh báo đáp ứng kém với ICS và nguy cơ gia tăng tác dụng phụ viêm phổi.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• EOS máu là biomarker quan trọng nhất hướng dẫn cá thể hóa chỉ định ICS trong COPD.<br>• Luôn kiểm tra CTM trước khi quyết định thêm hoặc ngưng ICS.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Chỉ số Bạch cầu ái toan máu (EOS) {{c1::≥ 300 tế bào/µL}} là yếu tố tiên lượng đáp ứng tốt với {{c1::Corticoid hít (ICS)}} ở bệnh nhân COPD có tiền sử đợt cấp.",
+      "extra": "Giúp đưa ra quyết định phối hợp ICS vào phác đồ LABA/LAMA."
+    },
+    {
+      "type": "basic",
+      "front": "Ba bước độc lập trong đánh giá toàn diện bệnh nhân COPD theo GOLD hiện hành:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Bước 1:</b> Chẩn đoán xác định bằng Hô hấp ký (FEV1/FVC < 0.70 sau BDR).<br>• <b>Bước 2:</b> Đánh giá mức độ nặng tắc nghẽn (GOLD 1, 2, 3, 4 dựa vào FEV1 % dự đoán).<br>• <b>Bước 3:</b> Đánh giá triệu chứng (mMRC/CAT) & tiền sử đợt cấp trong 12 tháng $\\rightarrow$ Phân nhóm A, B, E.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• GOLD 2023/2024 đã gộp nhóm C và D cũ thành Nhóm E (Exacerbation).<br>• Phân nhóm A, B, E quyết định phác đồ khởi đầu điều trị thuốc hít.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Tiêu chuẩn phân loại chi tiết các nhóm GOLD A, B, E:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Nhóm A:</b> Triệu chứng ít (mMRC 0-1, CAT < 10) VÀ 0-1 đợt cấp trung bình (không nhập viện).<br>• <b>Nhóm B:</b> Triệu chứng nhiều (mMRC ≥ 2, CAT ≥ 10) VÀ 0-1 đợt cấp trung bình (không nhập viện).<br>• <b>Nhóm E:</b> Nguy cơ đợt cấp cao (≥ 2 đợt cấp trung bình HOẶC ≥ 1 đợt cấp nhập viện), bất kể điểm mMRC/CAT.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Mọi bệnh nhân có từ 1 đợt cấp phải nhập viện trong 12 tháng qua đều tự động xếp vào Nhóm E.<br>• Nhóm E ưu tiên khởi đầu điều trị mạnh để bảo vệ bệnh nhân khỏi đợt cấp tái phát.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Bệnh nhân COPD có tiền sử {{c1::≥ 2 đợt cấp trung bình}} hoặc {{c1::≥ 1 đợt cấp phải nhập viện}} trong 12 tháng qua được xếp vào {{c1::Phân nhóm GOLD E}}, bất kể điểm triệu chứng mMRC hay CAT.",
+      "extra": "Nhóm E nhấn mạnh vào nguy cơ đợt cấp cao."
+    },
+    {
+      "type": "basic",
+      "front": "Bảng so sánh chẩn đoán phân biệt giữa COPD và Hen phế quản:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Tuổi khởi phát:</b> COPD thường > 40 tuổi; Hen thường tuổi trẻ/trẻ em.<br>• <b>Tiền sử:</b> COPD gắn liền thuốc lá/sinh khối; Hen gắn liền dị ứng/gia đình.<br>• <b>Tắc nghẽn hô hấp ký:</b> COPD không hồi phục hoàn toàn (FEV1/FVC < 0.70); Hen hồi phục hoàn toàn (FEV1 tăng > 12% và > 200mL đưa FEV1/FVC về bình thường).<br>• <b>Điều trị nền tảng:</b> COPD là LAMA/LABA; Hen bắt buộc có ICS.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Không dùng test BDR dương tính một phần để loại trừ COPD vì bệnh nhân COPD vẫn có thể có khả hồi phế quản một phần.<br>• Bệnh nhân hen lâu năm bị tái cấu trúc đường thở có thể gây tắc nghẽn cố định (ACO - Asthma-COPD Overlap).",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Trong chẩn đoán phân biệt, điều trị nền tảng cốt lõi của Hen phế quản bắt buộc phải có {{c1::Corticoid hít (ICS)}}, trong khi điều trị nền tảng của COPD là {{c1::Thuốc giãn phế quản tác dụng kéo dài (LAMA / LABA)}}.",
+      "extra": "Dùng ICS đơn trị liệu cho COPD là sai lầm nguy hiểm làm tăng nguy cơ viêm phổi."
+    },
+    {
+      "type": "basic",
+      "front": "Phân biệt COPD với Suy tim sung huyết và Giãn phế quản:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Suy tim:</b> Khó thở khi nằm phẳng, khó thở kịch phát về đêm, phù chân, X-quang bóng tim to/ứ huyết phổi, NT-proBNP tăng cao, hô hấp ký hội chứng hạn chế.<br>• <b>Giãn phế quản:</b> Ho khạc đờm mủ lượng nhiều (lắng 3 lớp), ran ẩm cố định một vùng, HRCT ngực thấy đường kính phế quản lớn hơn động mạch đi kèm (dấu nhẫn kim cương).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• COPD và Suy tim rất hay đồng mắc ở người cao tuổi hút thuốc lá.<br>• Siêu âm tim và NT-proBNP giúp phân biệt suy tim trái với COPD.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Hai nhóm mục tiêu chính trong điều trị COPD giai đoạn ổn định:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Giảm triệu chứng hiện tại:</b> Giảm khó thở, tăng khả năng gắng sức, cải thiện chất lượng cuộc sống.<br>• <b>Giảm nguy cơ tương lai:</b> Ngăn ngừa các đợt cấp, làm chậm tốc độ suy giảm chức năng phổi, giảm tỷ lệ tử vong.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Thuốc giãn phế quản chủ yếu phục vụ mục tiêu giảm triệu chứng và giảm đợt cấp.<br>• Cai thuốc lá và thở Oxy dài hạn (ở người thiếu O2 mạn) chứng minh giảm tử vong.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Quy trình 5A trong chiến lược tư vấn cai thuốc lá cho bệnh nhân COPD:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Ask (Hỏi):</b> Khai thác tình trạng hút thuốc tại mỗi lần khám.<br>• <b>Advise (Khuyên):</b> Khuyên bảo mạnh mẽ, rõ ràng việc cần ngưng thuốc.<br>• <b>Assess (Đánh giá):</b> Đánh giá mức độ sẵn sàng cai thuốc của người bệnh.<br>• <b>Assist (Hỗ trợ):</b> Lập kế hoạch cai, tư vấn tâm lý, dùng thuốc hỗ trợ (Nicotine thay thế, Varenicline).<br>• <b>Arrange (Theo dõi):</b> Lên lịch tái khám theo dõi chống tái phát.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Cai thuốc lá là can thiệp duy nhất chứng minh làm chậm tốc độ giảm FEV1 theo tuổi ở bệnh nhân COPD.<br>• Giúp giảm tỷ lệ tử vong và số đợt cấp.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Can thiệp duy nhất chứng minh làm chậm tốc độ suy giảm FEV1 và cải thiện sống còn ở bệnh nhân COPD là {{c1::cai thuốc lá hoàn toàn (Smoking Cessation)}}.",
+      "extra": "Giúp đưa tốc độ sụt giảm FEV1 theo năm trở lại mức gần như người bình thường."
+    },
+    {
+      "type": "basic",
+      "front": "Các vắc-xin bắt buộc được khuyến cáo tiêm phòng cho bệnh nhân COPD:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Vắc-xin Cúm:</b> Tiêm hằng năm cho tất cả bệnh nhân COPD (giảm đợt cấp nặng và tử vong).<br>• <b>Vắc-xin Phế cầu:</b> PCV15/PCV20 hoặc PPSV23 cho bệnh nhân ≥ 65 tuổi hoặc < 65 tuổi có FEV1 < 50%.<br>• <b>Vắc-xin Ho gà - Bạch hầu - Uốn ván (Tdap), COVID-19 & Vắc-xin RSV:</b> Tiêm theo khuyến cáo.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Nhiễm trùng hô hấp (cúm, phế cầu) là nguyên nhân của 70-80% các đợt cấp COPD.<br>• Tiêm phòng vắc-xin là giải pháp dự phòng đợt cấp hiệu quả cao.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Cơ chế tác dụng và đại diện của nhóm thuốc LAMA trong điều trị COPD:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Cơ chế:</b> Phong bế thụ thể Muscarinic M3 trên cơ trơn phế quản $\\rightarrow$ Ức chế tác dụng co thắt của Acetylcholine $\\rightarrow$ Giãn phế quản kéo dài (12-24h).<br>• <b>Đại diện:</b> Tiotropium (18 mcg/ngày), Umeclidinium (62.5 mcg/ngày), Aclidinium.<br>• <b>Vai trò:</b> Thuốc hàng đầu giảm khó thở và ngừa đợt cấp.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Tiotropium làm giảm bẫy khí và giảm tăng dung tích phổi động khi gắng sức.<br>• Tác dụng phụ: Khô miệng, bí tiểu ở người phì đại tuyến tiền liệt.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Cơ chế tác dụng và đại diện của nhóm thuốc LABA trong điều trị COPD:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Cơ chế:</b> Kích thích thụ thể Beta2-adrenergic trên cơ trơn phế quản $\\rightarrow$ Tăng cAMP nội bào $\rightarrow$ Giãn cơ trơn.<br>• <b>Đại diện:</b> Salmeterol (50 mcg x 2 lần/ngày), Formoterol (12 mcg x 2 lần/ngày), Indacaterol (150 mcg x 1 lần/ngày), Olodaterol.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• LABA phối hợp cùng LAMA (LABA+LAMA) cho tác dụng giãn phế quản kép mạnh mẽ.<br>• Tác dụng phụ: Run tay, hồi hộp đánh trống ngực, hạ kali máu nhẹ.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Phác đồ khởi đầu thuốc hít ban đầu theo phân nhóm GOLD A, B, E (GOLD 2024):",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Nhóm A:</b> Một thuốc giãn phế quản tác dụng kéo dài (LAMA hoặc LABA).<br>• <b>Nhóm B:</b> Phối hợp hai thuốc giãn phế quản kéo dài <b>LABA + LAMA</b>.<br>• <b>Nhóm E:</b> Khởi đầu bằng <b>LABA + LAMA</b>. (Cân nhắc dùng ngay Bộ ba <b>LABA + LAMA + ICS</b> nếu EOS máu ≥ 300 tế bào/µL).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Phối hợp LABA+LAMA giãn phế quản theo 2 con đường sinh lý khác nhau, hiệu quả hơn hẳn đơn trị liệu.<br>• GOLD 2024 không còn khuyến cáo dùng đơn trị liệu LAMA hay LABA cho nhóm B và E.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Theo GOLD 2024, phác đồ khởi đầu điều trị thuốc hít ban đầu cho cả Phân nhóm B và Phân nhóm E là {{c1::phối hợp giãn phế quản kép LABA + LAMA}}, trừ khi Nhóm E có EOS {{c1::≥ 300 tế bào/µL}} thì cân nhắc dùng Bộ ba LABA+LAMA+ICS.",
+      "extra": "Giãn phế quản kép là trụ cột khởi đầu điều trị."
+    },
+    {
+      "type": "basic",
+      "front": "Quy tắc CẤM tuyệt đối trong sử dụng Corticoid hít (ICS) cho bệnh nhân COPD:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>CẤM TUYỆT ĐỐI dùng ICS đơn trị liệu cho COPD!</b><br>• ICS phải luôn được phối hợp cùng với LABA (LABA+ICS) hoặc cùng LABA và LAMA (LABA+LAMA+ICS).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Dùng ICS đơn trị không cải thiện sống còn, không giãn phế quản hiệu quả và làm tăng nguy cơ viêm phổi nặng.<br>• ICS chỉ có vai trò giảm đợt cấp khi phối hợp với thuốc giãn phế quản kéo dài.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "TUYỆT ĐỐI CẤM sử dụng {{c1::ICS đơn trị liệu}} cho bệnh nhân COPD. ICS phải luôn được phối hợp cùng với {{c1::LABA hoặc LABA+LAMA}}.",
+      "extra": "ICS đơn trị làm tăng nguy cơ viêm phổi mà không mang lại lợi ích."
+    },
+    {
+      "type": "basic",
+      "front": "Bảng tiêu chí Khuyên dùng, Cân nhắc và Không khuyên dùng Corticoid hít (ICS) trong COPD:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Khuyên dùng mạnh:</b> Tiền sử ≥ 2 đợt cấp TB hoặc ≥ 1 đợt cấp nhập viện/năm VÀ EOS máu ≥ 300/µL; hoặc có tiền sử Hen đi kèm.<br>• <b>Cân nhắc dùng:</b> 1 đợt cấp TB/năm VÀ EOS máu 100-300/µL.<br>• <b>Không khuyên dùng:</b> EOS máu < 100/µL; tiền sử viêm phổi tái diễn; nhiễm Lao phổi tiến triển.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Viêm phổi là tác dụng phụ nguy hiểm nhất của ICS ở bệnh nhân COPD.<br>• Luôn cân nhắc giữa lợi ích giảm đợt cấp và nguy cơ viêm phổi khi quyết định dùng ICS.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "So sánh ưu nhược điểm và đối tượng thích hợp của 3 loại Dụng cụ hít (pMDI, DPI, SMI):",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>pMDI (Bình xịt định liều):</b> Thuốc phun sương, cần phối hợp tay ấn - hít vào chậm sâu. Thích hợp người trẻ; người già/hít yếu bắt buộc dùng <b>Buồng đệm (Spacer)</b>.<br>• <b>DPI (Bình hít bột khô):</b> Thuốc dạng bột, phụ thuộc lực hít mạnh sâu (>30-60 L/phút). Chống chỉ định người quá yếu hoặc đợt cấp.<br>• <b>SMI (Respimat - Hạt mịn):</b> Phun sương chậm 1.2s, không phụ thuộc lực hít. Rất tốt cho người già, lực hít yếu.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Hơn 50% thất bại điều trị COPD là do bệnh nhân sử dụng sai kỹ thuật dụng cụ hít.<br>• Luôn bắt bệnh nhân thao tác hít thử tại phòng khám trước khi quyết định đổi thuốc.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Đối với bình hít bột khô (DPI), thuốc phân tán phụ thuộc hoàn toàn vào {{c1::lực hít vào mạnh và sâu}} của bệnh nhân, do đó KHÔNG NÊN DÙNG ở người {{c1::quá yếu hoặc đang trong đợt cấp nặng}}.",
+      "extra": "Nếu lực hít yếu, bột thuốc không phân tán được và đọng lại ở khoang miệng."
+    },
+    {
+      "type": "basic",
+      "front": "Định nghĩa Đợt cấp COPD (COPD Exacerbation) theo Tiêu chuẩn Rome / GOLD 2024:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Sự biến đổi cấp tính của các triệu chứng hô hấp (khó thở tăng, ho tăng, khạc đờm tăng/thay đổi màu sắc) diễn ra trong vòng < 14 ngày.<br>• Thường kèm theo thở nhanh hoặc nhịp tim nhanh.<br>• Thường do nhiễm trùng đường hô hấp hoặc ô nhiễm môi trường, đòi hỏi phải thay đổi phác đồ điều trị.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Đợt cấp làm suy giảm chức năng phổi nhanh chóng và làm tăng nguy cơ tử vong.<br>• Mọi đợt cấp đều cần được phân độ và điều trị kịp thời.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Phân loại Mức độ nặng của Đợt cấp COPD (Nhẹ, Trung bình, Nặng):",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Nhẹ (Mild):</b> Chỉ cần tăng liều thuốc giãn phế quản tác dụng ngắn (SABA).<br>• <b>Trung bình (Moderate):</b> Cần dùng SABA + Corticoid toàn thân đường uống và/hoặc Kháng sinh.<br>• <b>Nặng (Severe):</b> Bệnh nhân phải nhập viện hoặc vào Cấp cứu, có thể kèm suy hô hấp cấp (toan hô hấp).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Đợt cấp trung bình điều trị tại ngoại trú bằng Prednisolone 40mg uống 5 ngày + Kháng sinh 5-7 ngày.<br>• Đợt cấp nặng cần nhập viện thở oxy kiểm soát và theo dõi sát.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Ba triệu chứng cốt lõi theo Tiêu chuẩn Anthonisen đánh giá đợt cấp COPD:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• 1. Khó thở tăng lên.<br>• 2. Thể tích đờm tăng lên.<br>• 3. Đờm chuyển thành đờm mủ (purulent sputum).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Anthonisen Loại 1 (Nặng): Có đủ 3 triệu chứng.<br>• Anthonisen Loại 2 (Trung bình): Có 2 trong 3 triệu chứng.<br>• Anthonisen Loại 3 (Nhẹ): Có 1 triệu chứng cốt lõi + 1 triệu chứng phụ (sốt, ho, rale nổ).",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Chỉ định dùng Kháng sinh trong đợt cấp COPD bao gồm: Đợt cấp Anthonisen Loại 1 (đủ 3 triệu chứng), Đợt cấp Anthonisen Loại 2 nếu có {{c1::triệu chứng đờm mủ}}, và bệnh nhân đợt cấp nặng có chỉ định {{c1::thông khí nhân tạo (NIV hoặc xâm nhập)}}.",
+      "extra": "Sự xuất hiện của đờm mủ là bằng chứng gợi ý nhiễm khuẩn đường hô hấp."
+    },
+    {
+      "type": "basic",
+      "front": "Các dấu hiệu Cảnh báo nguy hiểm (Red Flags) trong đợt cấp COPD cần chuyển ICU / Hồi sức khẩn cấp:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Ý thức:</b> Rối loạn tri giác (lơ mơ, ngủ gà, hôn mê) do toan hô hấp tăng CO2 nặng.<br>• <b>Hô hấp:</b> Thở nhanh nông > 30 lần/phút, hô hấp đảo ngược (bụng lõm vào khi hít vào), lồng ngực câm.<br>• <b>Oxy:</b> Tím tái trung ương mới xuất hiện, SpO2 < 88% dù đã thở oxy.<br>• <b>Tuần hoàn:</b> Tụt huyết áp, loạn nhịp tim cấp.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Khi xuất hiện Red flags: Kích hoạt cấp cứu ngay, cho thở oxy mục tiêu SpO2 88-92%, chuẩn bị BiPAP/NIV hoặc đặt nội khí quản.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Mục tiêu SpO2 chuẩn và Cảnh báo an toàn tuyệt đối khi thở Oxy trong đợt cấp COPD:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Mục tiêu SpO2 chuẩn:</b> <b>88% – 92%</b>.<br>• <b>Thở Oxy nồng độ cao mù quáng (SpO2 > 95%):</b> Làm triệt tiêu hypoxic drive và mất phản ứng co mạch phổi do thiếu oxy $\\rightarrow$ gây giảm thông khí phế nang, CO2 máu tăng vọt (CO2 narcosis), toan hô hấp nặng và hôn mê tử vong!<br>• <b>Cách cho thở:</b> Gọng kính mũi 1–2 Lít/phút hoặc Mặt nạ Venturi FiO2 24%–28%.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Luôn thử lại Khí máu động mạch (ABG) sau 30-60 phút thở oxy để kiểm tra PaCO2 và pH máu.<br>• Nếu SpO2 đã đạt 88-92% thì không cần tăng thêm lưu lượng oxy.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Mục tiêu SpO2 chuẩn khi thở Oxy trong đợt cấp COPD là {{c1::88% – 92%}}. Thở oxy quá mức (SpO2 > 95%) sẽ dập tắt hypoxic drive và gây {{c1::hôn mê toan hô hấp tăng CO2 máu (CO2 narcosis)}}.",
+      "extra": "Nên khởi đầu bằng canula mũi 1-2 L/phút hoặc mask Venturi 24-28%."
+    },
+    {
+      "type": "basic",
+      "front": "Liều lượng, đường dùng và thời gian chuẩn của Corticoid toàn thân trong đợt cấp COPD:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Thuốc và liều:</b> <b>Prednisolone 40 mg/ngày (uống)</b> (hoặc Methylprednisolone 40 mg IV nếu không uống được).<br>• <b>Thời gian:</b> <b>ĐÚNG 5 NÀY</b>. Ngừng ngay sau 5 ngày, không cần giảm liều từ từ.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Corticoid giúp rút ngắn thời gian đợt cấp, cải thiện FEV1 và giảm nguy cơ thất bại điều trị.<br>• Kéo dài corticoid > 5-7 ngày làm tăng nguy cơ đái tháo đường, loãng xương, suy thượng thận và nhiễm trùng.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Trong đợt cấp COPD, Corticoid toàn thân chuẩn là Prednisolone liều {{c1::40 mg/ngày đường uống}} trong thời gian {{c1::đúng 5 ngày}}, không cần giảm liều từ từ.",
+      "extra": "Liều 40mg x 5 ngày cho hiệu quả tương đương dùng liều cao kéo dài nhưng ít tác dụng phụ hơn."
+    },
+    {
+      "type": "basic",
+      "front": "Phác đồ thuốc giãn phế quản cấp cứu trong đợt cấp COPD tại khoa Cấp cứu:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Thuốc:</b> Phối hợp SABA (Salbutamol 2.5–5 mg) + SAMA (Ipratropium 0.5 mg) phun khí dung.<br>• <b>Tần suất:</b> Khí dung ngay lập tức, lặp lại mỗi 20–30 phút trong 1 giờ đầu nếu khó thở nặng, sau đó giãn ra mỗi 4–6 giờ.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Phun khí dung giúp đưa thuốc giãn phế quản liều cao vào niêm mạc hô hấp ngay cả khi bệnh nhân khó thở nặng.<br>• Có thể dùng pMDI + Buồng đệm (Spacer) 4-8 nhát xịt thay thế khí dung nếu không có máy.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Chỉ định và Cài đặt ban đầu của Thông khí nhân tạo không xâm nhập (NIV / BiPAP) trong đợt cấp COPD:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Chỉ định:</b> Toan hô hấp cấp (<b>pH < 7.35 và PaCO2 > 45 mmHg</b>) kèm khó thở nặng dù đã tối ưu hóa điều trị nội khoa.<br>• <b>Cài đặt ban đầu:</b> IPAP = 10–12 cmH2O, EPAP = 4–5 cmH2O. Tăng dần IPAP đến 15–20 cmH2O để đạt VT 6–8 mL/kg.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• BiPAP giúp giảm tỷ lệ đặt nội khí quản, giảm số ngày nằm viện và giảm tỷ lệ tử vong rõ rệt.<br>• Đánh giá lại ABG sau 1-2 giờ chạy BiPAP.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Chỉ định vàng của Thông khí nhân tạo không xâm nhập (NIV / BiPAP) trong đợt cấp COPD là tình trạng toan hô hấp cấp với {{c1::pH < 7.35}} và {{c1::PaCO2 > 45 mmHg}}.",
+      "extra": "NIV làm giảm 50% nguy cơ phải đặt nội khí quản."
+    },
+    {
+      "type": "basic",
+      "front": "Chống chỉ định tuyệt đối của BiPAP/NIV và Chỉ định Đặt nội khí quản trong đợt cấp COPD:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Chống chỉ định NIV:</b> Ngừng thở/ngừng tim, lơ mơ hôn mê không hợp tác, nôn ói nguy cơ sặc cao, bỏng/tổn thương mặt không đặt mask.<br>• <b>Chỉ định Đặt nội khí quản:</b> Thất bại với NIV, thở ngáp/ngừng thở, toan hô hấp nặng (pH < 7.25), huyết động tụt/sốc.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Đặt nội khí quản thở máy xâm nhập là giải pháp cuối cùng khi bệnh nhân suy hô hấp nặng nguy kịch.<br>• Cài đặt thở máy xâm nhập cần chú ý thời gian thở ra kéo dài để tránh PEEP nội sinh (auto-PEEP).",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Bẫy lâm sàng 1: Tại sao KHÔNG ĐƯỢC chẩn đoán COPD chỉ dựa trên X-quang phổi căng phồng hoặc triệu chứng lâm sàng?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Lý do:</b> Lâm sàng và X-quang có độ nhạy và độ đặc hiệu kém, rất dễ nhầm với Hen phế quản, Suy tim hoặc Giãn phế quản.<br>• <b>Hành động chuẩn:</b> BẮT BUỘC phải đo Hô hấp ký có FEV1/FVC < 0.70 sau test BDR mới được chẩn đoán xác định COPD.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Chẩn đoán nhầm COPD dẫn đến điều trị sai thuốc kéo dài hàng năm.<br>• Hô hấp ký là tiêu chuẩn vàng bắt buộc.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Bẫy lâm sàng 2: Tại sao KHÔNG ĐƯỢC tăng bậc thuốc hít ngay khi bệnh nhân than khó thở tại phòng khám?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Lý do:</b> Hơn 50% trường hợp không kiểm soát được triệu chứng là do bệnh nhân xịt/hít thuốc sai kỹ thuật hoặc tuân thủ kém, chứ không phải do thiếu thuốc.<br>• <b>Hành động chuẩn:</b> Luôn yêu cầu bệnh nhân thao tác lại kỹ thuật hít thuốc tại phòng khám trước khi quyết định tăng bậc hoặc đổi thuốc.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Tăng bậc thuốc khi hít sai gây lãng phí tiền bạc mà bệnh nhân vẫn không nhận được thuốc vào phổi.<br>• Kiểm tra kỹ thuật hít là bước đầu tiên.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Chỉ định điều trị Oxy dài hạn tại nhà (LTOT - Long-Term Oxygen Therapy) ở bệnh nhân COPD mạn tính:",
+      "back": "<b>📖 Văn bản gốc:</b><br>• <b>Chỉ định 1:</b> PaO2 ≤ 55 mmHg (hoặc SpO2 ≤ 88%) ở trạng thái nghỉ ngơi ổn định.<br>• <b>Chỉ định 2:</b> PaO2 56–59 mmHg (hoặc SpO2 89%) nếu có dấu hiệu Tâm phế mạn, phù chân hoặc Đa hồng cầu (Hct > 55%).<br>• <b>Thời gian thở:</b> Tối thiểu ≥ 15 giờ/ngày (bao gồm cả lúc ngủ).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• LTOT chứng minh kéo dài tuổi thọ ở bệnh nhân thiếu O2 mạn tính.<br>• Phải đo lại khí máu ở trạng thái ổn định (sau đợt cấp 1-2 tháng) trước khi chỉ định LTOT lâu dài.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Liệu pháp Oxy dài hạn tại nhà (LTOT) được chỉ định khi PaO2 ≤ {{c1::55 mmHg (hoặc SpO2 ≤ 88%)}} ở trạng thái nghỉ ngơi ổn định, và phải thở tối thiểu {{c1::≥ 15 giờ/ngày}}.",
+      "extra": "LTOT giúp cải thiện tỷ lệ sống còn ở bệnh nhân COPD suy hô hấp mạn."
+    }
+  ]
+}

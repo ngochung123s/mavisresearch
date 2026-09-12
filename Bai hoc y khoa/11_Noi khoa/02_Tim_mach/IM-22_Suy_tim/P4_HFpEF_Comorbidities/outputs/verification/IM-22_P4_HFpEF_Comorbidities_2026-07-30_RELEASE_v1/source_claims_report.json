@@ -1,0 +1,284 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1.md",
+  "parsed_claim_count": 6,
+  "verified_claim_count": 1,
+  "status": "FAIL",
+  "checks": [
+    {
+      "claim_id": "L179-1",
+      "claim_text": "[GUIDELINE VERIFIED] [PMID: 34447992]",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 179,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "BLOCK",
+      "failures": [
+        "claim_abstract: missing/irrelevant abstract"
+      ],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=1.00"
+        },
+        "claim_abstract": {
+          "status": "BLOCK",
+          "reason": "missing/irrelevant abstract"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "L219-1",
+      "claim_text": "#### Bằng chứng từ thử nghiệm TRED-HF [FETCHED] (PMID: 30429184)",
+      "source_id": "30429184",
+      "verification": "FETCHED",
+      "quote": "",
+      "line": 219,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.20"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "L236-1",
+      "claim_text": "[GUIDELINE VERIFIED] [PMID: 34447992]",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 236,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "BLOCK",
+      "failures": [
+        "claim_abstract: missing/irrelevant abstract"
+      ],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=1.00"
+        },
+        "claim_abstract": {
+          "status": "BLOCK",
+          "reason": "missing/irrelevant abstract"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "L322-1",
+      "claim_text": "[GUIDELINE VERIFIED] [PMID: 34447992]",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 322,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "BLOCK",
+      "failures": [
+        "claim_abstract: missing/irrelevant abstract"
+      ],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=1.00"
+        },
+        "claim_abstract": {
+          "status": "BLOCK",
+          "reason": "missing/irrelevant abstract"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "L374-1",
+      "claim_text": "[GUIDELINE VERIFIED] [PMID: 34447992]",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 374,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "BLOCK",
+      "failures": [
+        "claim_abstract: missing/irrelevant abstract"
+      ],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=1.00"
+        },
+        "claim_abstract": {
+          "status": "BLOCK",
+          "reason": "missing/irrelevant abstract"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "L378-1",
+      "claim_text": "[DATA VERIFIED] [PMID: 34449189]",
+      "source_id": "34449189",
+      "verification": "DATA VERIFIED",
+      "quote": "",
+      "line": 378,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "BLOCK",
+      "failures": [
+        "topic_relevance: overlap=0.00",
+        "claim_abstract: missing/irrelevant abstract"
+      ],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "BLOCK",
+          "reason": "overlap=0.00"
+        },
+        "claim_abstract": {
+          "status": "BLOCK",
+          "reason": "missing/irrelevant abstract"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    }
+  ],
+  "bundle_hash": "7fd7ff49b41b045d69130c35c68e2dc6a4f1af7385b8c6c9062bb1653f46f3c9"
+}

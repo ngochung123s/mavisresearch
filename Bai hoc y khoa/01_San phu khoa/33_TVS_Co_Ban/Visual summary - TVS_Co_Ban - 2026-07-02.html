@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bài học y khoa</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+  /* Chart.js canvas: giới hạn max-width để không bị kéo dãn khi render
+     trên màn hình rộng. Kết hợp với height attr trên <canvas> để giữ tỉ lệ.
+     Lý do: Chart.js mặc định maintainAspectRatio=false + responsive=true
+     sẽ fill 100% container width -> bar/doughnut bị oval/méo khi container
+     rộng hơn canvas internal pixel ratio. */
+  canvas { display: block; max-width: 800px; margin: 0 auto; height: auto !important; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+<header class="text-center py-12 mb-12 glass rounded-3xl shadow-lg">
+  <div class="inline-block px-4 py-1 mb-4 rounded-full bg-blue-200 text-blue-800 text-sm font-semibold">
+    Chuyên khoa: Sản phụ khoa
+  </div>
+  <h1 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800"></h1>
+  <p class="text-stone-600 text-lg">Ngày 2026-07-02 | Cho bác sĩ sản phụ khoa / học viên sau đại học</p>
+  <p class="text-sm text-stone-500 mt-2">Bác sĩ: <strong>Ngọc 🍅 🐈‍⬛</strong> | AI: <strong>MiniMax Mavis</strong></p>
+</header><main class="max-w-6xl mx-auto space-y-8">
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">0. TỔNG QUAN - VÌ SAO TVS LÀ KỸ NĂNG NỀN TẢNG?</h2>
+<p class="text-stone-700 mb-3">Siêu âm đầu dò âm đạo (transvaginal ultrasound, TVS) là kỹ thuật nền tảng trong phụ khoa vì đầu dò nằm gần tử cung, cổ tử cung, buồng trứng và phần phụ. Khoảng cách ngắn cho phép dùng tần số cao, độ phân giải tốt hơn siêu âm bụng trong nhiều tình huống phụ khoa.</p>
+<p class="text-stone-700 mb-3">Nhưng TVS không chỉ là đưa đầu dò vào âm đạo rồi nhìn hình. Một lần khám tốt gồm 4 lớp kỹ năng:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>An toàn, đồng thuận và tôn trọng bệnh nhân.</strong></li>
+<li><strong>Cầm đầu dò đúng và điều khiển bằng góc, không bằng lực.</strong></li>
+<li><strong>Biến hình ảnh 2 chiều trên màn hình thành định hướng 3 chiều trong vùng chậu.</strong></li>
+<li><strong>Khảo sát theo checklist để không bỏ sót tử cung, buồng trứng, phần phụ và túi cùng Douglas.</strong></li></ol>
+<p class="text-stone-700 mb-3"><strong>Mục tiêu bài:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Chuẩn bị đúng bệnh nhân, đầu dò, bao đầu dò, gel và cài đặt máy cơ bản.</li>
+<li>Cầm đầu dò và thực hiện 4 thao tác chính: đẩy/rút, nghiêng, xoay, quét hình quạt.</li>
+<li>Lấy được mặt cắt dọc giữa tử cung và mặt cắt ngang tử cung.</li>
+<li>Đo đúng kích thước tử cung, bề dày nội mạc tử cung, kích thước buồng trứng và nang cơ bản.</li>
+<li>Tìm buồng trứng hai bên, đánh giá phần phụ và túi cùng Douglas.</li>
+<li>Nhận biết lỗi thường gặp của người mới và biết cách sửa.</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">1. CHỈ ĐỊNH, GIỚI HẠN VÀ ĐỒNG THUẬN</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.1. Khi nào nên dùng TVS?</h3>
+<p class="text-stone-700 mb-3">TVS thường hữu ích trong các tình huống sau:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Nhóm chỉ định</th><th class="p-2 border whitespace-nowrap">Mục tiêu khảo sát</th><th class="p-2 border whitespace-nowrap">Ví dụ thực hành</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Tử cung</strong></td><td class="p-2 border">Tư thế, kích thước, cơ tử cung, nhân xơ, adenomyosis nghi ngờ</td><td class="p-2 border">Rong kinh, đau bụng kinh, tử cung to</td></tr><tr class=""><td class="p-2 border"><strong>Nội mạc tử cung</strong></td><td class="p-2 border">Bề dày, hình thái, dịch lòng tử cung, polyp nghi ngờ</td><td class="p-2 border">Ra máu tử cung bất thường, theo dõi nội mạc trong ART</td></tr><tr class=""><td class="p-2 border"><strong>Buồng trứng</strong></td><td class="p-2 border">Nang chức năng, nang hoàng thể, endometrioma, khối đặc, AFC</td><td class="p-2 border">Đau hố chậu, hiếm muộn, theo dõi kích thích buồng trứng</td></tr><tr class=""><td class="p-2 border"><strong>Phần phụ</strong></td><td class="p-2 border">Khối cạnh tử cung, ứ dịch vòi trứng, thai ngoài tử cung nghi ngờ</td><td class="p-2 border">Đau vùng chậu, beta-hCG dương tính, viêm phần phụ</td></tr><tr class=""><td class="p-2 border"><strong>Túi cùng Douglas</strong></td><td class="p-2 border">Dịch tự do, máu nghi ngờ, đau khi chạm đầu dò</td><td class="p-2 border">Đau cấp, vỡ nang, thai ngoài tử cung vỡ nghi ngờ</td></tr><tr class=""><td class="p-2 border"><strong>Thai sớm</strong></td><td class="p-2 border">Túi thai, yolk sac, phôi, tim thai, vị trí thai</td><td class="p-2 border">Trễ kinh, ra máu thai sớm, đau bụng thai sớm</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.2. Khi nào cần cân nhắc hoặc đổi đường khảo sát?</h3>
+<p class="text-stone-700 mb-3">TVS là thủ thuật xâm nhập tối thiểu, nên cần cân nhắc nếu:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Bệnh nhân không đồng ý hoặc chưa hiểu rõ thủ thuật.</li>
+<li>Bệnh nhân chưa từng quan hệ tình dục và không muốn khám đường âm đạo.</li>
+<li>Đau nhiều, co thắt âm đạo, sang chấn sinh dục, viêm cấp rất đau.</li>
+<li>Ra máu nhiều kèm dấu hiệu không ổn định huyết động: ưu tiên xử trí cấp cứu trước.</li>
+<li>Trẻ vị thành niên hoặc tình huống nhạy cảm: cần quy trình đồng thuận, người giám hộ và người hỗ trợ phù hợp theo quy định cơ sở.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Thay thế khi không làm TVS:</strong> siêu âm bụng, siêu âm đường trực tràng (transrectal ultrasound), hoặc MRI tùy câu hỏi lâm sàng.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.3. Đồng thuận và người hỗ trợ</h3>
+<p class="text-stone-700 mb-3">Trước khi khám, cần nói rõ bằng ngôn ngữ đơn giản:</p>
+<div class="p-4 my-4 border-l-4 border-blue-500 bg-blue-50 rounded-r-lg text-stone-700">"Tôi sẽ dùng đầu dò nhỏ có bọc bao sạch, đặt nhẹ vào âm đạo để quan sát tử cung và buồng trứng rõ hơn. Nếu chị đau hoặc muốn dừng, chị báo ngay, tôi sẽ dừng."</div>
+<p class="text-stone-700 mb-3">Thực hành tốt gồm:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Hỏi đồng ý rõ ràng trước khi bắt đầu.</li>
+<li>Giải thích từng bước trước khi đưa đầu dò.</li>
+<li>Che phủ kín đáo, chỉ bộc lộ vùng cần thiết.</li>
+<li>Có người hỗ trợ hoặc chaperone theo quy định cơ sở và theo mong muốn của bệnh nhân.</li>
+<li>Không tiếp tục nếu bệnh nhân rút lại đồng ý.</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">2. CHUẨN BỊ BỆNH NHÂN, MÁY VÀ ĐẦU DÒ</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.1. Chuẩn bị bệnh nhân</h3>
+<p class="text-stone-700 mb-3">Checklist trước khám:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Xác nhận họ tên, tuổi, lý do khám.</li>
+<li>Hỏi ngày kinh cuối, tình trạng có thai hoặc nghi có thai.</li>
+<li>Hỏi triệu chứng chính: đau, ra máu, sốt, khí hư, chậm kinh, vô sinh.</li>
+<li>Hỏi tiền sử phẫu thuật vùng chậu, lạc nội mạc tử cung, thai ngoài tử cung, viêm phần phụ.</li>
+<li>Cho bệnh nhân đi tiểu trước khám, trừ khi cần phối hợp siêu âm bụng với bàng quang căng.</li>
+<li>Đặt tư thế sản khoa hoặc nằm ngửa, gối gập, hai chân dạng nhẹ.</li></ol>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.2. Chuẩn bị đầu dò</h3>
+<p class="text-stone-700 mb-3">Đầu dò âm đạo thường có tần số cao, trường nhìn gần, phù hợp cơ quan vùng chậu nông. Chuẩn bị đúng giúp hình rõ và giảm nguy cơ nhiễm khuẩn chéo.</p>
+<p class="text-stone-700 mb-3">Các bước tối thiểu:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Kiểm tra đầu dò không nứt, không bong, không hở dây.</li>
+<li>Làm sạch và khử khuẩn theo quy trình cơ sở.</li>
+<li>Cho một lớp gel vào trong bao đầu dò để loại bỏ khoảng khí giữa đầu dò và bao.</li>
+<li>Bọc bao đầu dò kín, không rách, không có bọt khí lớn ở đầu.</li>
+<li>Cho gel ngoài bao đầu dò để giảm ma sát khi đưa vào âm đạo.</li>
+<li>Mang găng sạch.</li></ol>
+<p class="text-stone-700 mb-3"><strong>Lỗi hay gặp:</strong> chỉ bôi gel ngoài bao mà không có gel trong bao. Khi đó sóng âm bị cản bởi lớp khí, hình nhiễu và mờ dù máy tốt.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.3. Cài đặt máy ban đầu</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thông số</th><th class="p-2 border whitespace-nowrap">Cài đặt gợi ý</th><th class="p-2 border whitespace-nowrap">Lý do</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Preset</strong></td><td class="p-2 border">Gynecology hoặc pelvic TVS</td><td class="p-2 border">Tối ưu tần số, gain, focus cho vùng chậu</td></tr><tr class=""><td class="p-2 border"><strong>Depth</strong></td><td class="p-2 border">Vừa đủ chứa tử cung và phần phụ, ưu tiên trường nhìn nông - vừa</td><td class="p-2 border">Depth quá sâu làm cơ quan nhỏ, khó thấy chi tiết</td></tr><tr class=""><td class="p-2 border"><strong>Gain</strong></td><td class="p-2 border">Vừa phải, nội mạc và dịch không bị cháy sáng</td><td class="p-2 border">Gain quá cao gây giả hồi âm trong dịch</td></tr><tr class=""><td class="p-2 border"><strong>Focus</strong></td><td class="p-2 border">Đặt tại vùng quan tâm</td><td class="p-2 border">Tăng độ nét vùng cần đo</td></tr><tr class=""><td class="p-2 border"><strong>Zoom</strong></td><td class="p-2 border">Dùng khi đo nội mạc, nang nhỏ, AFC</td><td class="p-2 border">Đo chính xác hơn</td></tr><tr class=""><td class="p-2 border"><strong>Doppler</strong></td><td class="p-2 border">Chỉ bật khi có câu hỏi cụ thể</td><td class="p-2 border">Không dùng Doppler để "trang trí" hình</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3">Trong thai rất sớm, dùng nguyên tắc ALARA: năng lượng siêu âm thấp nhất hợp lý, thời gian Doppler ngắn và chỉ khi thật cần.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">3. CẦM ĐẦU DÒ: 4 CHUYỂN ĐỘNG PHẢI THUỘC</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.1. Cách cầm đầu dò</h3>
+<p class="text-stone-700 mb-3">Cầm đầu dò như cầm bút lớn hoặc cầm cán dao nhẹ. Cổ tay phải linh hoạt, khuỷu tay tựa ổn định, vai thả lỏng. Người mới thường cầm quá xa đầu dò hoặc siết quá chặt, làm tay run và dễ dùng lực.</p>
+<p class="text-stone-700 mb-3">Nguyên tắc:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Tay cầm đầu dò tạo chuyển động nhỏ, chậm, có kiểm soát.</li>
+<li>Không tì mạnh vào cổ tử cung hoặc thành âm đạo.</li>
+<li>Mắt nhìn màn hình, nhưng vẫn phải chú ý phản ứng đau của bệnh nhân.</li>
+<li>Nếu mất hình, quay lại mốc giải phẫu thay vì xoay đầu dò hỗn loạn.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.2. Bốn thao tác chính</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thao tác</th><th class="p-2 border whitespace-nowrap">Mô tả</th><th class="p-2 border whitespace-nowrap">Dùng để làm gì?</th><th class="p-2 border whitespace-nowrap">Lỗi thường gặp</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Đẩy/rút</strong></td><td class="p-2 border">Đưa đầu dò sâu hơn hoặc rút nông hơn</td><td class="p-2 border">Tìm cổ tử cung, đáy tử cung, buồng trứng cao/thấp</td><td class="p-2 border">Đẩy sâu khi chưa biết hướng gây đau</td></tr><tr class=""><td class="p-2 border"><strong>Nghiêng trước/sau</strong></td><td class="p-2 border">Đổi góc đầu dò trong mặt phẳng dọc</td><td class="p-2 border">Tìm thân tử cung ngả trước/ngả sau</td><td class="p-2 border">Dùng lực thay vì đổi góc</td></tr><tr class=""><td class="p-2 border"><strong>Xoay phải/trái</strong></td><td class="p-2 border">Xoay cán đầu dò quanh trục</td><td class="p-2 border">Chuyển mặt cắt dọc sang ngang, tìm phần phụ</td><td class="p-2 border">Xoay quá nhanh làm mất mốc</td></tr><tr class=""><td class="p-2 border"><strong>Quét hình quạt</strong></td><td class="p-2 border">Giữ điểm tựa, quét đầu dò qua phải/trái hoặc trước/sau</td><td class="p-2 border">Khảo sát toàn bộ tử cung và phần phụ</td><td class="p-2 border">Chỉ đứng yên một mặt cắt rồi kết luận</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Câu cần nhớ:</strong> TVS tốt là "tay nhẹ nhưng hình chắc". Nếu phải dùng lực nhiều để tìm hình, thường là sai hướng hoặc sai mặt cắt.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.3. Đưa đầu dò vào âm đạo</h3>
+<p class="text-stone-700 mb-3">Các bước an toàn:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Báo trước: "Tôi bắt đầu đặt đầu dò, chị thả lỏng, nếu đau báo tôi dừng."</li>
+<li>Tách nhẹ môi âm hộ nếu cần, đưa đầu dò theo trục âm đạo, hướng hơi xuống sau lúc đầu.</li>
+<li>Không đẩy thẳng lên trên xương mu.</li>
+<li>Khi đã vào âm đạo, tìm cổ tử cung trước, không vội tìm buồng trứng.</li>
+<li>Nếu bệnh nhân đau, dừng lại, rút nhẹ, đổi hướng, hỏi vị trí đau.</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">4. ĐỊNH HƯỚNG HÌNH ẢNH: TỪ MÀN HÌNH 2D SANG VÙNG CHẬU 3D</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.1. Mốc đầu tiên: cổ tử cung</h3>
+<p class="text-stone-700 mb-3">Với người mới, mốc an toàn nhất là cổ tử cung. Cổ tử cung thường có:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Cấu trúc chắc hơn mô âm đạo xung quanh.</li>
+<li>Kênh cổ tử cung là đường hồi âm giữa.</li>
+<li>Có thể thấy các nang Naboth nếu có.</li>
+<li>Nằm giữa đường vào âm đạo và thân tử cung.</li></ul>
+<p class="text-stone-700 mb-3">Từ cổ tử cung, đi theo kênh cổ tử cung lên eo tử cung, thân tử cung và đáy tử cung. Cách này ít lạc hướng hơn so với cố tìm ngay thân tử cung.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.2. Mặt cắt dọc giữa tử cung</h3>
+<p class="text-stone-700 mb-3">Mặt cắt dọc giữa tử cung là mặt cắt nền tảng. Mặt cắt đạt chuẩn khi thấy:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Cổ tử cung.</li>
+<li>Kênh cổ tử cung.</li>
+<li>Thân tử cung.</li>
+<li>Đáy tử cung.</li>
+<li>Nội mạc tử cung liên tục theo trục dài.</li></ul>
+<p class="text-stone-700 mb-3">Nếu nội mạc bị mất đoạn hoặc tử cung không dài nhất, mặt cắt có thể đang lệch sang phải/trái hoặc chưa đi đúng đường giữa.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.3. Mặt cắt ngang tử cung</h3>
+<p class="text-stone-700 mb-3">Từ mặt cắt dọc giữa, xoay đầu dò khoảng 90 độ để vào mặt cắt ngang. Sau đó quét từ thấp lên cao:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Mức cổ tử cung.</li>
+<li>Mức eo tử cung.</li>
+<li>Mức thân tử cung.</li>
+<li>Mức đáy tử cung.</li></ol>
+<p class="text-stone-700 mb-3">Mặt cắt ngang giúp đánh giá bề ngang tử cung, hai sừng tử cung, khối cơ tử cung và là đường xuất phát để tìm hai buồng trứng.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.4. Quy ước marker và trái - phải trên màn hình</h3>
+<p class="text-stone-700 mb-3">Trước khi khám, phải biết <strong>dấu marker trên đầu dò</strong> tương ứng với phía nào của màn hình. Không có quy ước này, người mới rất dễ nhầm phải - trái, nhất là khi xoay từ mặt cắt dọc sang mặt cắt ngang.</p>
+<p class="text-stone-700 mb-3">Quy ước thực hành thường dùng:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mặt cắt</th><th class="p-2 border whitespace-nowrap">Marker đầu dò thường hướng về đâu?</th><th class="p-2 border whitespace-nowrap">Ý nghĩa trên màn hình</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Dọc giữa tử cung</strong></td><td class="p-2 border">Hướng lên trước hoặc theo quy ước máy/cơ sở</td><td class="p-2 border">Một bên màn hình là phía cổ tử cung, bên còn lại là đáy tử cung</td></tr><tr class=""><td class="p-2 border"><strong>Ngang tử cung</strong></td><td class="p-2 border">Sau khi xoay 90 độ từ mặt cắt dọc</td><td class="p-2 border">Hai bên màn hình tương ứng hai bên phải - trái vùng chậu theo quy ước máy</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3">Vì mỗi hãng máy và cơ sở có thể cài đặt khác nhau, cách an toàn nhất là kiểm tra marker bằng phantom đơn giản, hoặc chạm nhẹ một bên đầu dò ngoài bao trước khi đặt để biết bên nào sáng trên màn hình.</p>
+<p class="text-stone-700 mb-3"><strong>Nguyên tắc báo cáo:</strong> nếu không chắc quy ước trái - phải, không được kết luận vị trí bên phải/bên trái của tổn thương. Phải xác định lại bằng mốc giải phẫu, marker và thao tác quét có kiểm soát.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.5. Bài tập định hướng cho người mới</h3>
+<p class="text-stone-700 mb-3">Khi mất nội mạc trên màn hình, đừng xoay liên tục. Hãy hỏi 3 câu:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Mình đang lệch khỏi đường giữa sang phải hay trái?</li>
+<li>Mình đang quá trước hay quá sau so với thân tử cung?</li>
+<li>Mình cần xoay đầu dò hay chỉ cần nghiêng/quét nhẹ?</li></ol>
+<p class="text-stone-700 mb-3">Nếu không trả lời được, quay về cổ tử cung và dựng lại mặt cắt dọc giữa.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">5. KHẢO SÁT TỬ CUNG TRÊN MẶT CẮT DỌC</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.1. Tìm tư thế tử cung</h3>
+<p class="text-stone-700 mb-3">Tư thế tử cung gồm hai thành phần:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thành phần</th><th class="p-2 border whitespace-nowrap">Ý nghĩa</th><th class="p-2 border whitespace-nowrap">Cách nhìn trên TVS</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Ngả tử cung</strong></td><td class="p-2 border">Hướng trục cổ tử cung - thân tử cung so với âm đạo</td><td class="p-2 border">Ngả trước (anteverted), ngả sau (retroverted), trung gian</td></tr><tr class=""><td class="p-2 border"><strong>Gập tử cung</strong></td><td class="p-2 border">Góc giữa thân tử cung và cổ tử cung</td><td class="p-2 border">Gập trước (anteflexed), gập sau (retroflexed)</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3">Người mới hay ghi nhầm ngả và gập. Trong thực hành, điều quan trọng nhất là biết thân tử cung đang hướng ra trước hay ra sau để chỉnh đầu dò đúng.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.2. Đo tử cung</h3>
+<p class="text-stone-700 mb-3">Trên mặt cắt dọc giữa:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Đo chiều dài tử cung từ đáy tử cung đến cổ tử cung theo trục dài nhất.</li>
+<li>Đo đường kính trước - sau vuông góc với trục dài tại vùng thân tử cung.</li></ul>
+<p class="text-stone-700 mb-3">Trên mặt cắt ngang:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Đo bề ngang tử cung ở vùng rộng nhất.</li></ul>
+<p class="text-stone-700 mb-3">Ghi kết quả dạng: <code class="bg-stone-200 px-1 rounded">Dài x trước-sau x ngang</code>, đơn vị mm.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.3. Đo nội mạc tử cung</h3>
+<p class="text-stone-700 mb-3">Nguyên tắc đo:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Đo trên mặt cắt dọc giữa tốt nhất.</li>
+<li>Đo lớp nội mạc kép, vuông góc với trục nội mạc.</li>
+<li>Đặt caliper tại ranh giới nội mạc - cơ tử cung hai bên.</li>
+<li>Không tính dịch lòng tử cung vào bề dày nội mạc.</li>
+<li>Nếu có dịch lòng tử cung, đo riêng lớp trước và lớp sau rồi cộng nếu cần báo cáo.</li></ol>
+<p class="text-stone-700 mb-3"><strong>Bẫy:</strong> mặt cắt lệch đường giữa có thể làm nội mạc mờ, méo hoặc giả mỏng. Gain quá cao có thể làm dịch lòng tử cung có hồi âm giả.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.4. Quan sát cơ tử cung</h3>
+<p class="text-stone-700 mb-3">Khi khảo sát cơ tử cung, mô tả tối thiểu:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Đồng nhất hay không đồng nhất.</li>
+<li>Có nhân xơ không.</li>
+<li>Vị trí nhân xơ: dưới thanh mạc, trong cơ, dưới niêm mạc, cổ tử cung.</li>
+<li>Có dấu gợi ý adenomyosis không: cơ tử cung không đồng nhất, nang nhỏ trong cơ, bóng cản hình quạt, đường nối nội mạc - cơ tử cung không đều.</li></ul>
+<p class="text-stone-700 mb-3">Bài cơ bản không cần chẩn đoán sâu adenomyosis, nhưng phải biết khi nào hình không bình thường để hẹn đánh giá chuyên sâu.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">6. KHẢO SÁT TỬ CUNG TRÊN MẶT CẮT NGANG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.1. Quy trình quét ngang</h3>
+<p class="text-stone-700 mb-3">Từ mặt cắt dọc giữa:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Xoay đầu dò 90 độ.</li>
+<li>Quét từ cổ tử cung lên thân tử cung.</li>
+<li>Tiếp tục đến đáy tử cung.</li>
+<li>Quét nhẹ sang phải và trái để đánh giá toàn bộ bề ngang.</li>
+<li>Nếu thấy bất thường, quay lại mặt cắt dọc để xác định vị trí 3 chiều.</li></ol>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.2. Những gì cần nhìn trên mặt cắt ngang</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Hình dạng tử cung tròn, bầu dục hay biến dạng.</li>
+<li>Độ đối xứng hai bên cơ tử cung.</li>
+<li>Nhân xơ làm lồi thanh mạc hoặc đẩy lệch nội mạc.</li>
+<li>Hai sừng tử cung, nhất là khi nghi dị dạng tử cung.</li>
+<li>Đường nội mạc ở các mức khác nhau.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Nguyên tắc:</strong> không kết luận tử cung bình thường nếu chỉ nhìn một mặt cắt dọc. Tử cung là cấu trúc 3D, phải quét qua ít nhất hai mặt phẳng.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">7. KHẢO SÁT BUỒNG TRỨNG HAI BÊN</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.1. Cách tìm buồng trứng</h3>
+<p class="text-stone-700 mb-3">Từ mặt cắt ngang tử cung, nghiêng/quét đầu dò sang bên phải hoặc bên trái. Buồng trứng thường nằm cạnh tử cung, gần bó mạch chậu. Nếu khó tìm:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Dùng tử cung làm mốc trung tâm.</li>
+<li>Tìm bó mạch chậu bằng thang xám hoặc Doppler màu ngắn.</li>
+<li>Quét vùng giữa tử cung và thành chậu.</li>
+<li>Rút đầu dò nhẹ nếu buồng trứng nằm cao.</li>
+<li>Phối hợp ấn bụng nhẹ từ ngoài vào để đưa buồng trứng gần đầu dò hơn.</li>
+<li>Nếu vẫn không thấy, ghi "không quan sát rõ" và nêu lý do nếu có, không bịa kết quả.</li></ol>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.2. Nhận diện buồng trứng</h3>
+<p class="text-stone-700 mb-3">Buồng trứng thường có:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Hình bầu dục hoặc hơi dẹt.</li>
+<li>Vỏ buồng trứng và mô đệm hồi âm trung bình.</li>
+<li>Các nang nhỏ ngoại vi hoặc rải rác.</li>
+<li>Di động tương đối khi ấn đầu dò hoặc ấn bụng.</li></ul>
+<p class="text-stone-700 mb-3">Quai ruột có thể giả buồng trứng nhưng thường có nhu động, khí, bóng cản bẩn và không có cấu trúc nang noãn điển hình.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.3. Đo buồng trứng và nang</h3>
+<p class="text-stone-700 mb-3">Đo buồng trứng 3 chiều:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Chiều dài.</li>
+<li>Chiều rộng.</li>
+<li>Chiều dày.</li></ul>
+<p class="text-stone-700 mb-3">Nếu cần thể tích:</p>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Thể tích buồng trứng = dài x rộng x dày x 0,523</code></pre>
+<p class="text-stone-700 mb-3">Đối với nang:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Nang đơn giản: đo đường kính lớn nhất, hoặc 3 chiều nếu cần theo dõi.</li>
+<li>Nang noãn trong theo dõi ART: thường đo đường kính trung bình từ 2 đường kính vuông góc.</li>
+<li>Khối phức tạp: mô tả thành, vách, chồi, phần đặc, bóng cản, dịch, tưới máu.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.4. AFC ở mức cơ bản</h3>
+<p class="text-stone-700 mb-3">Số nang thứ cấp (antral follicle count, AFC) là số nang nhỏ quan sát được ở buồng trứng trong giai đoạn đầu chu kỳ. Khi đếm AFC:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Dùng zoom và depth phù hợp.</li>
+<li>Quét toàn bộ buồng trứng, không chỉ một mặt cắt.</li>
+<li>Tránh đếm trùng khi quét qua lại.</li>
+<li>Ghi riêng buồng trứng phải và trái.</li></ul>
+<p class="text-stone-700 mb-3">Bài này chỉ nhấn kỹ thuật. Diễn giải AFC trong dự trữ buồng trứng cần bài riêng về ART.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">8. KHẢO SÁT PHẦN PHỤ VÀ TÚI CÙNG DOUGLAS</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">8.1. Phần phụ</h3>
+<p class="text-stone-700 mb-3">Sau khi thấy buồng trứng, cần khảo sát vùng quanh buồng trứng và cạnh tử cung:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Có khối tách biệt với buồng trứng không?</li>
+<li>Có cấu trúc dạng ống gợi ý ứ dịch vòi trứng không?</li>
+<li>Có đau khu trú khi chạm đầu dò không?</li>
+<li>Có dịch quanh buồng trứng không?</li>
+<li>Nếu beta-hCG dương tính, có khối cạnh tử cung nghi thai ngoài tử cung không?</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">8.2. Túi cùng Douglas</h3>
+<p class="text-stone-700 mb-3">Túi cùng Douglas nằm phía sau tử cung. Cần ghi:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Ý nghĩa thực hành</th></tr></thead><tbody><tr class="bg-green-50"><td class="p-2 border"><strong>Không dịch</strong></td><td class="p-2 border">Bình thường trong nhiều trường hợp</td></tr><tr class=""><td class="p-2 border"><strong>Dịch ít, trống âm</strong></td><td class="p-2 border">Có thể sinh lý quanh rụng trứng</td></tr><tr class=""><td class="p-2 border"><strong>Dịch nhiều</strong></td><td class="p-2 border">Cần liên hệ triệu chứng, thai sớm, đau cấp</td></tr><tr class=""><td class="p-2 border"><strong>Dịch có hồi âm/cục máu</strong></td><td class="p-2 border">Nghĩ máu, mủ hoặc dịch phức tạp tùy bối cảnh</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Cảnh báo:</strong> đau vùng chậu cấp + beta-hCG dương tính + dịch túi cùng nhiều hoặc có hồi âm là tình huống không được xem nhẹ.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">9. DOPPLER CƠ BẢN TRONG TVS</h2>
+<p class="text-stone-700 mb-3">Doppler có ích nhưng không thay thế thang xám. Dùng Doppler khi có câu hỏi rõ:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Cấu trúc này là mạch máu hay ống dịch?</li>
+<li>Khối phần phụ có tưới máu phần đặc không?</li>
+<li>Nang này có vòng mạch ngoại vi gợi ý hoàng thể không?</li>
+<li>Có dấu tưới máu bất thường trong khối cơ tử cung hoặc nội mạc không?</li></ul>
+<p class="text-stone-700 mb-3">Nguyên tắc dùng Doppler:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Tối ưu thang xám trước.</li>
+<li>Hộp màu nhỏ, đặt đúng vùng cần hỏi.</li>
+<li>Điều chỉnh PRF thấp khi khảo sát dòng chảy chậm vùng chậu.</li>
+<li>Không kết luận xoắn buồng trứng chỉ dựa vào Doppler còn tín hiệu; xoắn có thể còn dòng chảy do cấp máu kép.</li>
+<li>Trong thai rất sớm, hạn chế Doppler nếu không có chỉ định rõ.</li></ol>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">9.1. Tình huống phải báo ngay, không chỉ ghi nhận hình ảnh</h3>
+<p class="text-stone-700 mb-3">TVS cơ bản không chỉ là mô tả cấu trúc. Một số hình ảnh cần liên hệ lâm sàng và báo bác sĩ phụ trách ngay:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Tình huống</th><th class="p-2 border whitespace-nowrap">Vì sao nguy hiểm?</th><th class="p-2 border whitespace-nowrap">Hành động tối thiểu</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Đau vùng chậu cấp + beta-hCG dương tính + không thấy thai trong tử cung</strong></td><td class="p-2 border">Có thể là thai ngoài tử cung chưa vỡ hoặc đang vỡ</td><td class="p-2 border">Báo ngay, đánh giá huyết động, không kết luận trấn an</td></tr><tr class=""><td class="p-2 border"><strong>Dịch túi cùng nhiều hoặc có hồi âm ở bệnh nhân đau cấp</strong></td><td class="p-2 border">Có thể là máu, mủ hoặc dịch phức tạp</td><td class="p-2 border">Mô tả lượng/dạng dịch, báo lâm sàng ngay</td></tr><tr class=""><td class="p-2 border"><strong>Buồng trứng to, đau khi chạm đầu dò, nang ngoại vi, nghi xoắn</strong></td><td class="p-2 border">Doppler còn tín hiệu không loại trừ xoắn</td><td class="p-2 border">Báo nghi xoắn nếu hình thái và lâm sàng phù hợp</td></tr><tr class=""><td class="p-2 border"><strong>Khối phần phụ phức tạp có phần đặc/chồi/vách dày</strong></td><td class="p-2 border">Cần phân tầng nguy cơ theo IOTA/O-RADS, không gọi là nang đơn giản</td><td class="p-2 border">Lưu đủ hình, mô tả thành phần, hẹn/giới thiệu đánh giá chuyên sâu</td></tr><tr class=""><td class="p-2 border"><strong>Ra máu nhiều, huyết động không ổn định</strong></td><td class="p-2 border">Siêu âm không được làm chậm hồi sức</td><td class="p-2 border">Ưu tiên cấp cứu, siêu âm tại giường nếu phù hợp</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">10. CHECKLIST KHÁM TVS 8 BƯỚC</h2>
+<div class="mermaid text-center my-6">flowchart TD
+    A["1. Xác nhận chỉ định, đồng thuận, cho bệnh nhân đi tiểu"] --> B["2. Chuẩn bị đầu dò: khử khuẩn, gel trong bao, bao đầu dò, gel ngoài"]
+    B --> C["3. Đưa đầu dò nhẹ, tìm cổ tử cung"]
+    C --> D["4. Dựng mặt cắt dọc giữa tử cung"]
+    D --> E["5. Đo tử cung và nội mạc"]
+    E --> F["6. Xoay mặt cắt ngang, quét toàn bộ tử cung"]
+    F --> G["7. Tìm, đo và mô tả buồng trứng phải - trái"]
+    G --> H["8. Khảo sát phần phụ, túi cùng Douglas, Doppler nếu có câu hỏi"]
+    H --> I{"Hình ảnh đủ trả lời câu hỏi lâm sàng?"}
+    I -->|"Có"| J["Lưu hình chuẩn và viết báo cáo"]
+    I -->|"Không"| K["Ghi giới hạn khảo sát, cân nhắc siêu âm bụng/MRI/tái khám"]
+    style A fill:#e3f2fd,stroke:#1976d2
+    style J fill:#c8e6c9,stroke:#388e3c
+    style K fill:#fff3cd,stroke:#f57c00</div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">10.1. Bộ hình tối thiểu nên lưu cho một ca TVS cơ bản</h3>
+<p class="text-stone-700 mb-3">Một ca bình thường vẫn nên lưu đủ hình để người đọc sau hiểu cuộc khảo sát đã đi qua các mốc chính:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Mặt cắt dọc giữa tử cung, thấy cổ tử cung - thân - đáy - nội mạc.</li>
+<li>Hình đo kích thước tử cung trên mặt cắt dọc.</li>
+<li>Hình đo bề dày nội mạc tử cung trên mặt cắt dọc giữa.</li>
+<li>Mặt cắt ngang tử cung ở ít nhất một mức thân/đáy tử cung.</li>
+<li>Buồng trứng phải với đo 2-3 chiều hoặc nang nổi bật nếu có.</li>
+<li>Buồng trứng trái với đo 2-3 chiều hoặc nang nổi bật nếu có.</li>
+<li>Túi cùng Douglas.</li>
+<li>Hình Doppler chỉ khi có câu hỏi cụ thể: phần đặc, mạch máu, nghi xoắn, hoàng thể, thai ngoài tử cung.</li></ol>
+<p class="text-stone-700 mb-3"><strong>Không cần lưu quá nhiều hình giống nhau.</strong> Quan trọng là mỗi hình trả lời một câu hỏi: tử cung ở đâu, nội mạc thế nào, hai buồng trứng có thấy không, phần phụ và túi cùng có bất thường không.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">10.2. Tự đánh giá chất lượng sau mỗi ca</h3>
+<p class="text-stone-700 mb-3">Sau khi khám, tự hỏi 5 câu:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Tôi có chắc đã thấy cổ tử cung và dựng đúng mặt cắt dọc giữa không?</li>
+<li>Nội mạc được đo ở mặt cắt tốt nhất chưa?</li>
+<li>Tôi có quét ngang toàn bộ tử cung chưa, hay chỉ nhìn một lát rồi bỏ qua?</li>
+<li>Hai buồng trứng có được tìm có hệ thống không? Nếu không thấy, đã ghi giới hạn chưa?</li>
+<li>Kết luận có trả lời đúng câu hỏi lâm sàng ban đầu không?</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">11. MẪU BÁO CÁO CƠ BẢN</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">11.1. Mẫu bình thường</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Tử cung ngả trước, kích thước ... x ... x ... mm.
+Cơ tử cung đồng nhất, không thấy khối khu trú rõ.
+Nội mạc tử cung dày ... mm, đều, không thấy dịch lòng tử cung.
+Buồng trứng phải kích thước ... x ... x ... mm, cấu trúc trong giới hạn, không thấy khối bất thường.
+Buồng trứng trái kích thước ... x ... x ... mm, cấu trúc trong giới hạn, không thấy khối bất thường.
+Hai phần phụ chưa ghi nhận khối bất thường rõ.
+Túi cùng Douglas không có dịch tự do.
+Kết luận: Hình ảnh siêu âm phụ khoa hiện tại chưa ghi nhận bất thường rõ.</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">11.2. Mẫu khi không quan sát rõ</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Khảo sát hạn chế do đau / hơi ruột / tư thế tử cung / bệnh nhân không dung nạp đầu dò.
+Tử cung quan sát được một phần, ...
+Buồng trứng phải không quan sát rõ.
+Buồng trứng trái ...
+Không thấy dịch tự do lượng nhiều trong túi cùng Douglas trên phần khảo sát được.
+Đề nghị: phối hợp siêu âm bụng / tái khám / MRI nếu lâm sàng còn nghi ngờ.</code></pre>
+<p class="text-stone-700 mb-3"><strong>Nguyên tắc báo cáo:</strong> không thấy không đồng nghĩa không có. Nếu hình ảnh kém, phải ghi giới hạn khảo sát.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">12. SAI LẦM THƯỜNG GẶP</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">#</th><th class="p-2 border whitespace-nowrap">Sai lầm</th><th class="p-2 border whitespace-nowrap">Hậu quả</th><th class="p-2 border whitespace-nowrap">Cách tránh</th></tr></thead><tbody><tr class=""><td class="p-2 border">1</td><td class="p-2 border">Đưa đầu dò nhanh, dùng lực nhiều</td><td class="p-2 border">Đau, bệnh nhân mất tin tưởng, khó khám tiếp</td><td class="p-2 border">Báo trước, đưa chậm, đổi góc thay vì đẩy mạnh</td></tr><tr class=""><td class="p-2 border">2</td><td class="p-2 border">Không tìm cổ tử cung trước</td><td class="p-2 border">Mất định hướng, xoay đầu dò hỗn loạn</td><td class="p-2 border">Luôn dựng lại từ cổ tử cung và kênh cổ tử cung</td></tr><tr class=""><td class="p-2 border">3</td><td class="p-2 border">Chỉ nhìn một mặt cắt dọc tử cung</td><td class="p-2 border">Bỏ sót tổn thương lệch bên, nhân xơ, dị dạng</td><td class="p-2 border">Luôn có mặt cắt dọc và ngang, quét toàn bộ</td></tr><tr class=""><td class="p-2 border">4</td><td class="p-2 border">Đo nội mạc trên mặt cắt lệch</td><td class="p-2 border">Nội mạc giả mỏng hoặc giả dày</td><td class="p-2 border">Chỉ đo khi thấy đường nội mạc dài nhất và rõ nhất</td></tr><tr class=""><td class="p-2 border">5</td><td class="p-2 border">Tính cả dịch lòng tử cung vào nội mạc</td><td class="p-2 border">Báo cáo nội mạc dày giả</td><td class="p-2 border">Nếu có dịch, đo hai lớp nội mạc riêng</td></tr><tr class=""><td class="p-2 border">6</td><td class="p-2 border">Nhầm quai ruột với buồng trứng</td><td class="p-2 border">Báo cáo sai buồng trứng hoặc bỏ sót khối</td><td class="p-2 border">Tìm nang noãn, nhu động ruột, khí và mốc mạch chậu</td></tr><tr class=""><td class="p-2 border">7</td><td class="p-2 border">Không khảo sát túi cùng Douglas</td><td class="p-2 border">Bỏ sót dịch tự do trong đau cấp hoặc thai sớm</td><td class="p-2 border">Luôn nhìn túi cùng cuối cuộc khám</td></tr><tr class=""><td class="p-2 border">8</td><td class="p-2 border">Lạm dụng Doppler</td><td class="p-2 border">Tốn thời gian, tăng năng lượng không cần thiết</td><td class="p-2 border">Chỉ bật Doppler khi có câu hỏi cụ thể</td></tr><tr class=""><td class="p-2 border">9</td><td class="p-2 border">Kết luận "không xoắn" vì còn Doppler</td><td class="p-2 border">Bỏ sót xoắn buồng trứng</td><td class="p-2 border">Chẩn đoán xoắn dựa lâm sàng + hình thái + Doppler, không chỉ một dấu</td></tr><tr class=""><td class="p-2 border">10</td><td class="p-2 border">Không ghi giới hạn khảo sát</td><td class="p-2 border">Tạo cảm giác âm tính giả</td><td class="p-2 border">Ghi rõ khi không thấy buồng trứng hoặc hình ảnh hạn chế</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">13. BÀI TẬP THỰC HÀNH CHO NGƯỜI MỚI</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">13.1. Bài tập 1: dựng mặt cắt dọc giữa</h3>
+<p class="text-stone-700 mb-3">Mục tiêu đạt:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Thấy cổ tử cung.</li>
+<li>Thấy thân tử cung.</li>
+<li>Thấy đáy tử cung.</li>
+<li>Thấy nội mạc liên tục.</li>
+<li>Đo được chiều dài tử cung và nội mạc.</li></ul>
+<p class="text-stone-700 mb-3">Tự kiểm tra: nếu không thấy đáy tử cung và cổ tử cung cùng lúc, mặt cắt chưa đủ tốt để đo chiều dài.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">13.2. Bài tập 2: chuyển dọc sang ngang</h3>
+<p class="text-stone-700 mb-3">Mục tiêu đạt:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Từ dọc giữa, xoay 90 độ không mất tử cung.</li>
+<li>Quét ngang từ cổ tử cung đến đáy.</li>
+<li>Mô tả bề ngang tử cung.</li></ul>
+<p class="text-stone-700 mb-3">Tự kiểm tra: nếu xoay xong mất tử cung, có thể đầu dò đã di chuyển quá nhiều chứ không chỉ xoay.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">13.3. Bài tập 3: tìm hai buồng trứng</h3>
+<p class="text-stone-700 mb-3">Mục tiêu đạt:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Tìm được buồng trứng phải và trái.</li>
+<li>Đo 3 chiều mỗi buồng trứng.</li>
+<li>Phân biệt buồng trứng với quai ruột.</li>
+<li>Ghi rõ nếu một bên không quan sát rõ.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">13.4. Bài tập 4: báo cáo 60 giây</h3>
+<p class="text-stone-700 mb-3">Sau mỗi ca bình thường, tập nói báo cáo miệng trong 60 giây:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Tử cung tư thế gì, kích thước bao nhiêu?</li>
+<li>Nội mạc dày bao nhiêu, đều hay không?</li>
+<li>Hai buồng trứng thấy không, có khối không?</li>
+<li>Phần phụ và túi cùng Douglas có gì bất thường không?</li>
+<li>Kết luận có trả lời được câu hỏi lâm sàng không?</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">14. ÁP DỤNG TẠI VIỆT NAM</h2>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Trang thiết bị:</strong> TVS phổ biến ở phòng khám sản phụ khoa, bệnh viện tuyến huyện/tỉnh và trung tâm hỗ trợ sinh sản. Chất lượng hình phụ thuộc nhiều vào đầu dò, preset và kỹ năng người làm.</li>
+<li><strong>Kiểm soát nhiễm khuẩn:</strong> cần chuẩn hóa quy trình khử khuẩn đầu dò, bao đầu dò và gel. Không dùng một bao đầu dò cho nhiều bệnh nhân.</li>
+<li><strong>Đồng thuận:</strong> nên nói rõ đây là đầu dò đặt âm đạo, không chỉ nói chung là "siêu âm". Bệnh nhân có quyền từ chối.</li>
+<li><strong>Báo cáo:</strong> nên ghi đủ tử cung, nội mạc, hai buồng trứng, phần phụ, túi cùng Douglas. Nếu không thấy một cấu trúc, phải ghi "không quan sát rõ" thay vì bỏ trống.</li>
+<li><strong>Đào tạo:</strong> người mới nên học theo checklist thao tác trước khi học bệnh lý phức tạp như IOTA, O-RADS, DIE hoặc thai ngoài tử cung khó.</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">15. TIPS THỰC HÀNH</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Bắt đầu từ cổ tử cung, không bắt đầu từ buồng trứng.</li>
+<li>Nếu hình xấu, kiểm tra depth, gain, focus và bọt khí ở đầu bao trước khi nghĩ bệnh lý.</li>
+<li>Mỗi chuyển động đầu dò nên nhỏ. TVS rất nhạy với góc tay.</li>
+<li>Khi tử cung ngả sau, thường cần nghiêng đầu dò ra sau thay vì đẩy sâu.</li>
+<li>Khi không thấy buồng trứng, rút đầu dò nhẹ và quét sang bên; đừng chỉ đẩy sâu.</li>
+<li>Đo nội mạc chỉ khi thấy mặt cắt dọc giữa tốt nhất.</li>
+<li>Luôn khảo sát túi cùng Douglas trong đau cấp, thai sớm hoặc sau rụng trứng.</li>
+<li>Doppler còn tín hiệu không loại trừ xoắn buồng trứng.</li>
+<li>Nếu bệnh nhân đau, dừng lại trước khi cố lấy thêm hình.</li>
+<li>Báo cáo tốt phải có cả kết quả và giới hạn khảo sát.</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">16. TỔNG KẾT ĐIỂM CẦN NHỚ</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>TVS là kỹ thuật độ phân giải cao nhưng phụ thuộc rất nhiều vào tay người làm.</li>
+<li>Đồng thuận, che phủ và giao tiếp là một phần của kỹ thuật, không phải thủ tục phụ.</li>
+<li>Cầm đầu dò đúng nghĩa là điều khiển bằng góc nhỏ, không dùng lực.</li>
+<li>Cổ tử cung là mốc định hướng đầu tiên và an toàn nhất cho người mới.</li>
+<li>Mặt cắt dọc giữa tử cung phải thấy cổ tử cung, thân, đáy và nội mạc liên tục.</li>
+<li>Đo nội mạc trên mặt cắt lệch là lỗi rất thường gặp.</li>
+<li>Khảo sát tử cung phải có cả mặt cắt dọc và ngang.</li>
+<li>Tìm buồng trứng từ mặt cắt ngang tử cung, dùng mạch chậu và ấn bụng khi cần.</li>
+<li>Túi cùng Douglas phải được nhìn có chủ đích, đặc biệt trong đau cấp và thai sớm.</li>
+<li>Khi hình ảnh hạn chế, ghi rõ hạn chế; không biến "không thấy" thành "không có".</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">17. TÀI LIỆU THAM KHẢO</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>American Institute of Ultrasound in Medicine (2024)</strong> "AIUM Practice Parameter for the Performance of Ultrasound of the Female Pelvis, 2024 Revision." <em>Journal of Ultrasound in Medicine.</em> PMID: <strong>39158217</strong>. DOI: 10.1002/jum.16556. [GUIDELINE VERIFIED] [FETCHED]</li>
+<li><strong>Timmerman et al. (2000)</strong> "Terms, definitions and measurements to describe the sonographic features of adnexal tumors: a consensus opinion from the International Ovarian Tumor Analysis (IOTA) Group." <em>Ultrasound in Obstetrics & Gynecology.</em> PMID: <strong>11169340</strong>. [FETCHED]</li>
+<li><strong>Levine et al. (2010)</strong> "Management of asymptomatic ovarian and other adnexal cysts imaged at US: Society of Radiologists in Ultrasound Consensus Conference Statement." <em>Radiology.</em> PMID: <strong>20505067</strong>. DOI: 10.1148/radiol.10100213. [GUIDELINE VERIFIED] [FETCHED]</li>
+<li><strong>Andreotti et al. (2020)</strong> "O-RADS US Risk Stratification and Management System: A Consensus Guideline from the ACR Ovarian-Adnexal Reporting and Data System Committee." <em>Radiology.</em> PMID: <strong>31687921</strong>. DOI: 10.1148/radiol.2019191150. [GUIDELINE VERIFIED]</li></ol>
+<hr class="my-6 border-stone-300">
+<p class="text-stone-700 mb-3"><strong>- Hết bài học ngày 2026-07-02 -</strong></p>
+<p class="text-stone-700 mb-3"><strong>Bác sĩ:</strong> Ngọc Hưng | <strong>AI:</strong> OpenCode cx/gpt-5.5-xhigh</p>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bác sĩ: Ngọc 🍅 🐈‍⬛ | AI: MiniMax Mavis | 2026-07-02</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+</script>
+</body>
+</html>

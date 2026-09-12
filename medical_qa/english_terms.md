@@ -1,0 +1,462 @@
+# English Medical Terms
+
+> Danh sách thuật ngữ tiếng Anh chuyên ngành trích từ các đoạn người dùng gửi. Mỗi thuật ngữ chỉ xuất hiện một lần để sau này làm flashcard.
+
+## Quy ước
+
+- Chỉ lưu thuật ngữ chuyên ngành, không lưu từ tiếng Anh phổ thông.
+- Mỗi dòng là một thuật ngữ unique.
+- Giữ nguyên chính tả tiếng Anh gốc.
+- Có thể thêm nghĩa tiếng Việt ngắn sau dấu `—` khi chắc chắn.
+
+## Fetal Neurosonography
+
+- acrania — bất sản vòm sọ
+- ACTH deficiency — thiếu hormone ACTH (suy thượng thận thứ phát, nguy hiểm trong SOD)
+- anencephaly — vô sọ
+- Apert syndrome — hội chứng Apert
+- anterior fontanelle — thóp trước
+- atretic cephalocele — thoát vị não teo
+- Aicardi syndrome — hội chứng Aicardi
+- agyria — không hồi não
+- alobar holoprosencephaly — não trước không phân chia thể không thùy
+- anterior commissure — mép trước (cầu nối liên bán cầu thứ hai sau thể chai)
+- basal encephalocele — thoát vị não nền sọ
+- band heterotopia — heterotopia dải (dải chất xám trong chất trắng, hình ảnh "vỏ não kép")
+- benign familial macrocephaly — đầu to gia đình lành tính
+- beaked nasal tip — chóp mũi khoằm
+- biparietal diameter — đường kính lưỡng đỉnh
+- bicoronal craniosynostosis — dính sớm hai khớp vành
+- box-like frontal horns — sừng trán dạng vuông (dấu hiệu gợi ý SOD trên siêu âm)
+- brachycephaly — đầu ngắn
+- brachydactyly — ngón ngắn
+- brachysyndactyly — ngón ngắn kèm dính ngón
+- bimanual coordination — phối hợp hai tay (lĩnh vực dễ bị ảnh hưởng trong ACC)
+- broad great toes — ngón chân cái rộng
+- broad thumbs — ngón cái rộng
+- caudothalamic groove — rãnh đuôi-đồi thị
+- callosotomy — phẫu thuật cắt thể chai (điều trị động kinh)
+- carpal fusion — dính xương cổ tay
+- cavum septi pellucidi (CSP) — khoang vách trong suốt
+- cavum vergae — khoang Vergae (phần sau CSP, sau lỗ Monro)
+- cavum veli interpositi (CVI) — khoang màng mạch não thất ba (dưới fornix, chứa internal cerebral veins)
+- cephalocentesis — chọc hút dịch não thai để giảm kích thước đầu trong ca nặng chọn lọc
+- cephalopelvic disproportion — bất tương xứng đầu-chậu
+- cephalocele — thoát vị não/màng não qua khuyết sọ
+- cerebellar vermis — thùy nhộng tiểu não
+- choroid plexus — đám rối mạch mạc
+- chorioretinal lacunae — khuyết dạng ổ ở hắc võng mạc
+- chromosomal microarray — vi mảng nhiễm sắc thể
+- congenital microcephaly — đầu nhỏ bẩm sinh
+- congenital Zika syndrome — hội chứng Zika bẩm sinh
+- cisterna magna — bể lớn
+- classic lissencephaly — lissencephaly type I (cổ điển, 4 lớp vỏ não, gene LIS1/DCX)
+- corpus callosum — thể chai
+- cobblestone lissencephaly — não trơn kiểu lát đá cuội (lissencephaly type II)
+- cortex / cortical — vỏ não
+- cortical malformations — dị dạng vỏ não
+- cyclopia — một mắt/hai ổ mắt hợp nhất ở đường giữa
+- cone-shaped epiphyses — đầu xương dạng nón
+- coronal craniosynostosis — dính khớp vành sớm
+- craniofacial dysostosis — loạn sản xương sọ-mặt
+- cranial sutures — khớp sọ
+- craniofacial surgery — phẫu thuật sọ-mặt
+- cranium bifidum — chẻ đôi sọ
+- craniosynostosis — dính khớp sọ sớm
+- cranial neural tube defect — dị tật ống thần kinh vùng sọ
+- craniorachischisis
+- Crouzon syndrome — hội chứng Crouzon
+- De Morsier syndrome — hội chứng De Morsier (tên khác của septo-optic dysplasia)
+- developmental delay — chậm phát triển
+- developmental plasticity — tính dẻo phát triển (não thai thích nghi khi mất cấu trúc)
+- dysmorphic features — đặc điểm dị hình
+- dorsal sac — túi lưng
+- extra-axial fluid collections — tụ dịch ngoài trục
+- cutaneous syndactyly — dính da ngón
+- dorsal induction — cảm ứng lưng
+- encephalocele — thoát vị não
+- EFNB1 — gene EFNB1 liên quan hội chứng sọ-mặt
+- ectopic posterior pituitary — thùy sau tuyến yên lạc chỗ (dấu MRI trong SOD)
+- FGFR2 — gene thụ thể yếu tố tăng trưởng nguyên bào sợi 2
+- FGFR3 — gene thụ thể yếu tố tăng trưởng nguyên bào sợi 3
+- frontal narrowing — hẹp trán
+- frontal bossing — trán dô
+- exencephaly — lộ não
+- exorbitism — lồi nhãn cầu do hốc mắt nông
+- falcine sinus — xoang liềm
+- falx cerebri — liềm đại não
+- fetal brain MRI — cộng hưởng từ não thai
+- fetal macrocephaly — đầu to thai nhi
+- fetal microcephaly — đầu nhỏ thai nhi
+- frontal lobe hypoplasia — thiểu sản thùy trán
+- frontoethmoidal encephalocele — thoát vị não trán-sàng
+- fornix — vòm não (cấu trúc dưới thể chai, mốc giải phẫu quan trọng phân biệt CSP/cavum vergae với CVI)
+- foramen of Monro — lỗ Monro (lỗ thông giữa não thất bên và não thất ba)
+- fourth ventricle — não thất tư
+- germinal matrix — vùng mầm quanh não thất (nơi sinh neuron, mỏng manh dễ xuất huyết)
+- intraventricular hemorrhage — xuất huyết trong não thất
+- L1CAM mutation — đột biến L1CAM
+- head circumference — chu vi vòng đầu
+- HESX1 — gene HESX1 (một trong các gene liên quan SOD)
+- holoprosencephaly — não trước không phân chia
+- hippocampal commissure — mép hải mã (cầu nối liên bán cầu phụ)
+- hypertelorism — hai ổ mắt xa nhau
+- infantile spasms — co thắt trẻ nhỏ (kiểu động kinh điển hình trong lissencephaly)
+- hemimegalencephaly — phì đại một bán cầu đại não
+- heterotopia — lạc chỗ chất xám (neuron ở sai vị trí trong quá trình di trú)
+- hydrocephalus — não úng thủy
+- hypotelorism — hai ổ mắt gần nhau
+- increased intracranial pressure — tăng áp lực nội sọ
+- interhemispheric fissure — khe liên bán cầu
+- internal cerebral veins — tĩnh mạch não trong (dấu Doppler phân biệt CVI với CSP/cavum vergae)
+- ipsilateral — cùng bên (đường dẫn truyền không bắt chéo)
+- karyotyping — lập bộ nhiễm sắc thể
+- lateral ventricles — não thất bên
+- macrocephaly — đầu to
+- macrocrania — sọ to
+- low frontal hairline — chân tóc trán thấp
+- mandibular prognathism — hàm dưới nhô
+- midface hypoplasia — thiểu sản tầng giữa mặt
+- mitten hands — bàn tay dạng găng do dính ngón nặng
+- multisuture craniosynostosis — dính sớm nhiều khớp sọ
+- Muenke syndrome — hội chứng Muenke
+- meningocele — thoát vị màng não
+- meningoencephalocele — thoát vị màng não kèm mô não
+- Meckel-Gruber syndrome — hội chứng Meckel-Gruber
+- megalencephaly — não to thật
+- megalocephaly — não to thật
+- microcephaly — đầu nhỏ
+- microdeletions / duplications — mất đoạn/lặp đoạn vi thể
+- midsagittal view — mặt cắt dọc giữa
+- Miller-Diecker syndrome — hội chứng Miller-Diecker
+- malformations of cortical development — bất thường phát triển vỏ não
+- mesencephalosynapsis — dính não giữa
+- middle interhemispheric variant — biến thể giữa hai bán cầu
+- microlissencephaly — não trơn nhỏ
+- microforms — thể vi biểu hiện
+- monoventricle — não thất đơn (đặc trưng HPE thể alobar, hình móng ngựa)
+- mTOR pathway — đường truyền mTOR
+- mTORopathy — bệnh do rối loạn đường truyền mTOR
+- neuronal migration — di trú neuron
+- neuronal migration abnormalities — bất thường di trú neuron
+- neural tube defects — dị tật ống thần kinh
+- occipital encephalocele — thoát vị não chẩm
+- optic nerve hypoplasia (ONH) — thiểu sản thần kinh thị giác (dấu hiệu trong SOD)
+- optic disc hypoplasia — thiểu sản đĩa thị/gai thị (dấu hiệu đáy mắt trong SOD)
+- optic tract agenesis / hypoplasia — bất sản/thiểu sản đường thị giác
+- otocephaly — dị dạng đầu mặt nặng với bất thường tai
+- parasagittal plane — mặt cắt cạnh dọc giữa
+- pachygyria — hồi não dày
+- polydactyly — thừa ngón
+- posterior fontanelle — thóp sau
+- posterior fossa — hố sau
+- posterior fossa defects — bất thường hố sau
+- posterior pituitary bright spot — điểm tăng tín hiệu thùy sau tuyến yên (trên MRI)
+- proboscis — vòi mũi
+- Probst bundles — bó Probst (sợi trục chạy dọc thay vì băng qua thể chai trong ACC)
+- polymicrogyria — đa vi hồi não
+- PTEN-related disorders — nhóm bệnh liên quan PTEN
+- radial glial fibers — tế bào thần kinh đệm hướng tâm (đường dẫn di trú neuron)
+- primary neurulation — đóng ống thần kinh nguyên phát
+- Pfeiffer syndrome — hội chứng Pfeiffer
+- posteriorly rotated ears — tai xoay ra sau
+- pituitary hypoplasia — thiểu sản tuyến yên (dấu hiệu trong SOD)
+- proptosis — lồi mắt
+- sagittal plane — mặt cắt dọc
+- Saethre-Chotzen syndrome — hội chứng Saethre-Chotzen
+- semilobar holoprosencephaly — não trước không phân chia thể bán thùy
+- septopreoptic holoprosencephaly — não trước không phân chia thể vách-tiền thị
+- septo-optic dysplasia — loạn sản vách-thị (phân biệt với HPE nhẹ)
+- simple/isolated absent CSP — vắng mặt vách trong suốt đơn thuần
+- Seckel syndrome — hội chứng Seckel
+- skeletal dysplasia — loạn sản xương
+- shallow orbits — hốc mắt nông
+- simplified gyral pattern — mẫu hồi não đơn giản hóa
+- sloping forehead — trán dốc
+- Smith-Lemli-Opitz syndrome — hội chứng Smith-Lemli-Opitz
+- SOX2 — gene SOX2 (liên quan SOD và bất thường mắt)
+- sincipital encephalocele — thoát vị não vùng trước sọ
+- single azygous anterior cerebral artery — động mạch não trước đơn dạng azygos
+- single incisor — một răng cửa giữa
+- sock feet — bàn chân dạng tất do dính ngón nặng
+- syndactyly — dính ngón
+- syndromic craniosynostosis — dính khớp sọ sớm dạng hội chứng
+- sutural hypoechogenicity — dải giảm âm của đường khớp sọ
+- Sylvian fissures — khe Sylvius
+- syntelencephaly — tên khác của MIH (biến thể giữa hai bán cầu của HPE)
+- tarsal fusion — dính xương cổ chân
+- TORCH test — xét nghiệm nhóm nhiễm trùng TORCH
+- tuberous sclerosis — xơ cứng củ
+- TCF12 — gene TCF12 liên quan dính khớp sọ sớm
+- thimble-like middle phalanges — đốt giữa dạng ống khâu
+- third ventricle — não thất ba
+- turribrachycephaly — đầu ngắn cao dạng tháp
+- towering skull deformity — biến dạng sọ cao dạng tháp
+- TWIST1 — gene TWIST1 liên quan dính khớp sọ sớm
+- transthalamic plane — mặt cắt qua đồi thị
+- transventricular plane — mặt cắt qua não thất
+- ventriculomegaly — giãn não thất
+- ventriculo-amniotic shunting — shunt não thất-buồng ối
+- Walker-Warburg syndrome — hội chứng Walker-Warburg
+- X-linked hydrocephalus — não úng thủy liên kết X
+
+## Fetal Spine / Neural Tube Defects
+
+- banana sign — dấu hiệu tiểu não hình quả chuối trong Chiari II
+- caudal regression — thoái triển vùng đuôi
+- Chiari II malformation — dị dạng Chiari II
+- closed spinal dysraphism — rối loạn đóng cung sau kín
+- clubfoot — bàn chân khoèo
+- coronal plane — mặt cắt vành
+- hemivertebra — bán đốt sống
+- lemon sign — dấu hiệu hộp sọ hình quả chanh
+- meningocele — thoát vị màng não
+- myelomeningocele — thoát vị màng não-tủy
+- neural tube defects — dị tật ống thần kinh
+- open spina bifida — nứt đốt sống hở
+- primary neurulation — đóng ống thần kinh nguyên phát
+- sacral agenesis — bất sản xương cùng
+- sacrococcygeal teratoma — u quái cùng cụt
+- scoliosis — vẹo cột sống
+- secondary neurulation — tạo ống thần kinh thứ phát
+- spina bifida — nứt đốt sống
+- tethered cord — tủy bám thấp
+
+## Fetal Skeletal / Limbs
+
+- achondrogenesis — loạn sản sụn tạo xương nặng
+- amelia — không có chi
+- amniotic band sequence — chuỗi dải ối
+- arthrogryposis — cứng đa khớp bẩm sinh
+- bowing — cong xương
+- campomelic dysplasia — loạn sản xương cong campomelic
+- clenched hands — bàn tay nắm chặt
+- endochondral ossification — cốt hóa nội sụn
+- fetal talipes — bàn chân khoèo thai
+- limb buds — mầm chi
+- limb reduction — giảm/thiếu đoạn chi
+- mesomelia — ngắn đoạn giữa chi
+- osteogenesis imperfecta — tạo xương bất toàn
+- overlapping fingers — ngón tay chồng nhau
+- phocomelia — chi ngắn kiểu hải cẩu
+- polydactyly — thừa ngón
+- poor mineralization — khoáng hóa kém
+- radial ray defect — khuyết trục quay
+- rhizomelia — ngắn đoạn gần chi
+- rocker-bottom foot — bàn chân đáy cong
+- skeletal dysplasia — loạn sản xương
+- syndactyly — dính ngón
+- thanatophoric dysplasia — loạn sản xương gây chết thanatophoric
+- vertical talus — xương sên dọc
+
+## Fetal Urinary / Genital Tract
+
+- ambiguous genitalia — sinh dục ngoài không điển hình/không rõ nam nữ
+- anhydramnios — vô ối
+- autosomal recessive polycystic kidney disease — bệnh thận đa nang di truyền lặn
+- bilateral renal agenesis — bất sản thận hai bên
+- bladder exstrophy — lộ bàng quang
+- cloacal malformation — dị dạng ổ nhớp
+- disorders of sex development — rối loạn phát triển giới tính
+- fetal ovarian cyst — u nang buồng trứng thai
+- horseshoe kidney — thận móng ngựa
+- hydronephrosis — thận ứ nước
+- hydroureter — niệu quản giãn
+- keyhole sign — dấu hiệu lỗ khóa
+- LIS1 (PAFAH1B1) — gene LIS1, gây lissencephaly type I nặng vùng sau
+- lower urinary tract obstruction — tắc nghẽn đường tiểu thấp
+- megacystis — bàng quang lớn
+- multicystic dysplastic kidney — thận đa nang loạn sản
+- pelvic kidney — thận lạc chỗ vùng chậu
+- posterior urethral valves — van niệu đạo sau
+- pulmonary hypoplasia — thiểu sản phổi
+- renal agenesis — bất sản thận
+- renal pelvic dilation — giãn bể thận
+- urinary tract dilation — giãn đường tiết niệu
+- velum interpositum — màng mạch gấp đôi tạo mái não thất ba (vị trí của CVI)
+- vesicoureteral reflux — trào ngược bàng quang-niệu quản
+
+## Fetal Doppler / Umbilical Cord
+
+- color Doppler — siêu âm Doppler màu (hiển thị dòng chảy bằng mã màu)
+- divot sign — dấu lõm da cổ (gợi ý dây rốn quấn chặt)
+- horseshoe sign — dấu hiệu móng ngựa (Color Doppler thấy dây rốn quấn >=3/4 chu vi cổ)
+- nuchal cord — dây rốn quấn cổ
+- power Doppler — siêu âm Doppler năng lượng (nhạy hơn color, không phân biệt hướng dòng)
+- PRF (pulse repetition frequency) — tần số lặp xung (cài đặt trên máy siêu âm Doppler)
+- tight nuchal cord — dây rốn quấn cổ chặt
+- umbilical artery Doppler — Doppler động mạch rốn
+- variable decelerations — nhịp tim thai giảm thay đổi (kiểu bất định, thường do chèn ép dây rốn)
+
+## Congenital Infection / TORCH
+
+- amniotic fluid PCR — PCR nước ối
+- congenital infection — nhiễm trùng bào thai/bẩm sinh
+- congenital rubella syndrome — hội chứng rubella bẩm sinh
+- congenital syphilis — giang mai bẩm sinh
+- congenital Zika syndrome — hội chứng Zika bẩm sinh
+- echogenic bowel — ruột tăng âm
+- fetal anemia — thiếu máu thai
+- hepatosplenomegaly — gan lách to
+- hydrops fetalis — phù thai
+- IgG avidity — độ háo IgG
+- intrauterine transfusion — truyền máu trong tử cung
+- MCA-PSV — vận tốc đỉnh tâm thu động mạch não giữa
+- periventricular calcifications — vôi hóa quanh não thất
+- placentomegaly — bánh nhau to
+- TORCH panel — bộ xét nghiệm TORCH
+- valacyclovir — thuốc kháng virus valacyclovir
+
+## ART / IVF
+
+- azoospermia — vô tinh
+- obstructive azoospermia (OA) — vô tinh do tắc nghẽn
+- non-obstructive azoospermia (NOA) — vô tinh không do tắc nghẽn
+- cryptozoospermia — tinh trùng cực ít, thường chỉ thấy sau ly tâm cặn tinh dịch
+- intracytoplasmic sperm injection (ICSI) — tiêm tinh trùng vào bào tương noãn
+- testicular sperm extraction (TESE) — lấy tinh trùng từ mô tinh hoàn
+- microdissection testicular sperm extraction (micro-TESE) — vi phẫu tìm tinh trùng trong tinh hoàn
+- percutaneous epididymal sperm aspiration (PESA) — chọc hút tinh trùng mào tinh qua da
+- microsurgical epididymal sperm aspiration (MESA) — vi phẫu lấy tinh trùng mào tinh
+- testicular sperm aspiration (TESA) — chọc hút tinh trùng tinh hoàn
+- congenital bilateral absence of vas deferens (CBAVD) — không có ống dẫn tinh bẩm sinh hai bên
+- Y-chromosome microdeletion — mất đoạn nhiễm sắc thể Y
+- agonist protocol — phác đồ đồng vận GnRH
+- antagonist protocol — phác đồ đối vận GnRH
+- antral follicles — nang noãn thứ cấp (sẵn sàng được tuyển chọn đầu chu kỳ)
+- apoptosis — chết tế bào theo chương trình (trong luteolysis)
+- blastocyst — phôi nang
+- breakthrough bleeding — ra máu giữa chu kỳ do E2 dao động
+- cleavage embryo — phôi giai đoạn phân cắt
+- COC (combined oral contraceptive) — viên tránh thai phối hợp
+- controlled ovarian stimulation (COS) — kích thích buồng trứng có kiểm soát
+- corpus albicans — thể trắng (hoàng thể đã thoái triển hoàn toàn)
+- corpus luteum — hoàng thể
+- cyst aspiration — chọc hút nang buồng trứng
+- dermoid cyst — nang bì/nang quái buồng trứng lành
+- dominant follicle — nang noãn vượt trội
+- down-regulation — ức chế tuyến yên (trong IVF)
+- dual trigger — trigger kép
+- embryo transfer — chuyển phôi
+- endometrioma — nang lạc nội mạc tử cung
+- endometrial pattern — hình thái nội mạc
+- endometrial receptivity — khả năng tiếp nhận của nội mạc
+- endometrial thickness — độ dày nội mạc
+- euploid embryo — phôi nguyên bội
+- fertilization — thụ tinh
+- flare effect — hiệu ứng bùng phát FSH/LH nội sinh
+- FSH ceiling — trần đáp ứng với FSH
+- FSH threshold — ngưỡng FSH
+- FSH window — cửa sổ FSH
+- FSHR (FSH receptor) — thụ thể FSH (trên tế bào hạt của nang noãn)
+- freeze-all — đông toàn bộ phôi/noãn, không chuyển tươi
+- fresh transfer — chuyển phôi tươi
+- functional cyst — nang chức năng buồng trứng
+- GnRH agonist trigger — trigger bằng đồng vận GnRH
+- gonadotroph cells — tế bào hướng sinh dục (tại tuyến yên)
+- granulosa cells — tế bào hạt (của nang noãn)
+- ground-glass echo — hình ảnh kính mờ (trên siêu âm)
+- hCG trigger — trigger bằng hCG
+- high responder — người đáp ứng cao
+- HPO axis — trục hạ đồi-tuyến yên-buồng trứng
+- IGF (insulin-like growth factor) — yếu tố tăng trưởng giống insulin
+- inhibin — hormone ức chế FSH (inhibin A từ hoàng thể, inhibin B từ tế bào hạt)
+- incomplete down-regulation — ức chế tuyến yên chưa đủ
+- luteal phase support — hỗ trợ hoàng thể
+- luteinized unruptured follicle (LUF) — nang noãn hoàng thể hóa không vỡ
+- luteolysis — quá trình thoái triển hoàng thể
+- menorrhagia — rong kinh (lượng máu kinh nhiều)
+- metaphase II oocyte — noãn MII
+- microflare protocol — phác đồ microflare (agonist liều thấp flare)
+- MMPs (matrix metalloproteinases) — enzyme phân hủy chất nền ngoại bào (cần cho phóng noãn)
+- oocyte competence — năng lực phát triển của noãn
+- oligomenorrhea — chậm kinh (chu kỳ kéo dài >35 ngày)
+- ovarian reserve — dự trữ buồng trứng
+- ovarian response — đáp ứng buồng trứng
+- ovarian stimulation — kích thích buồng trứng
+- PPOS (progestin-primed ovarian stimulation) — kích thích buồng trứng có lót progestin
+- paracrine — tác động cận tiết (tại chỗ, giữa các tế bào lân cận)
+- priming — "mồi", khởi động (tuyển chọn nang noãn bởi FSH nội sinh đầu chu kỳ)
+- progesterone elevation — tăng progesterone
+- proliferative endometrium — nội mạc tử cung giai đoạn tăng sinh
+- residual ovarian cyst — nang buồng trứng tồn dư
+- secretory endometrium — nội mạc tử cung giai đoạn chế tiết
+- theca cells — tế bào vỏ (của nang noãn)
+- trigger — khởi phát trưởng thành noãn cuối cùng
+- unruptured follicular cyst — nang bọc noãn không vỡ, tồn dư sang chu kỳ sau
+- unopposed estrogen — estrogen không có progestin đối kháng
+- watchful waiting — chiến lược theo dõi chờ thoái triển tự nhiên
+- withdrawal bleed — ra máu do cai hormone (progesterone tụt)
+
+- polymicrogyria (PMG) — đa hồi não nhỏ (quá nhiều hồi nhỏ bất thường trên bề mặt vỏ não)
+- perisylvian — quanh khe Sylvian (vùng vỏ não vận động miệng-lưỡi-hầu)
+- bilateral perisylvian PMG (BPP) — PMG quanh khe Sylvian hai bên (thể phổ biến nhất, hội chứng giả hành tủy)
+- pseudobulbar palsy — hội chứng giả hành tủy (liệt mặt hai bên, nuốt khó, nói khó, nhưng não trước chi phối cảm xúc vẫn hoạt động)
+- schizencephaly — nứt não (khe nứt xuyên bán cầu nối não thất với khoang dưới nhện, bờ được lót bởi PMG)
+- bilateral frontoparietal PMG (BFPP) — PMG trán-đỉnh hai bên (gene GPR56, di truyền lặn, chậm phát triển nặng)
+- opercularization — quá trình đóng kín khe Sylvian trong phát triển não thai (không có trong BPP)
+- Sylvian fissure — khe Sylvian (khe giữa thùy trán và thùy thái dương, dấu mốc quan trọng trên neurosonography)
+- GPR56 — gene GPR56 (gây BFPP, di truyền lặn NST thường)
+- hemiparesis — liệt nửa người
+- spastic quadriparesis — tứ chi co cứng (do tổn thương não lan tỏa)
+- closed-lip schizencephaly — nứt não khe kín (type I, hai bờ áp sát, tiên lượng tốt hơn)
+- open-lip schizencephaly — nứt não khe hở (type II, hai bờ tách xa, khe chứa dịch)
+- dimple sign — dấu hiệu vết lõm/lồi thành não thất (gợi ý closed-lip schizencephaly)
+- porencephaly — nang não phá hủy (nang chứa dịch, thành lót mô đệm, KHÔNG có PMG — khác với schizencephaly)
+- EMX2 — gene homeobox EMX2 (nguyên nhân di truyền của schizencephaly)
+- ependyma — màng não thất (lớp lót trong não thất)
+- gliotic tissue — mô thần kinh đệm tăng sinh (lót thành porencephaly, không phải chất xám)
+- germinal matrix — mầm não thất (vùng mạch máu mong manh dưới màng não thất, nơi sản sinh neuron, tồn tại đến tuần 32–34)
+- germinal matrix hemorrhage (GMH) — xuất huyết mầm não thất (độ I theo Papile)
+- intraventricular hemorrhage (IVH) — xuất huyết não thất (GMH lan vào não thất, độ II–III)
+- post-hemorrhagic hydrocephalus — não úng thủy sau xuất huyết (tắc nghẽn dẫn lưu CSF do cục máu)
+- parenchymal hemorrhage — xuất huyết nhu mô não (độ IV, venous infarction quanh não thất)
+- arterial ischemic stroke — đột quỵ thiếu máu động mạch (tắc mạch → nhồi máu não, thường vùng MCA)
+- perinatal stroke — đột quỵ chu sinh (xảy ra quanh thời điểm sinh, nhiều ca có nguồn gốc trước sinh)
+- neonatal alloimmune thrombocytopenia (NAIT) — giảm tiểu cầu đồng miễn dịch sơ sinh (mẹ sinh kháng thể kháng tiểu cầu thai, nguyên nhân quan trọng gây ICH thai)
+- wallerian degeneration — thoái hóa waller (đường dẫn truyền tổn thương thứ phát sau nhồi máu não)
+- cystic encephalomalacia — nhuyễn não hóa nang (di chứng mạn của nhồi máu não)
+- middle cerebral artery (MCA) — động mạch não giữa (vùng tổn thương phổ biến nhất trong đột quỵ động mạch thai)
+- intracranial hemorrhage (ICH) — xuất huyết nội sọ (máu chảy ra ngoài lòng mạch trong hộp sọ thai/sơ sinh)
+- embryonal tumors — bướu thai (dòng tế bào mầm bất thường, ví dụ sacrococcygeal teratoma)
+- arachnoid cyst — nang màng nhện (lành tính, ngoài trục, chứa dịch CSF, giữa các lớp màng nhện)
+- Sylvian fissure arachnoid cyst — nang màng nhện khe Sylvian (vị trí hay gặp nhất, phân độ Galassi I–III)
+- interhemispheric arachnoid cyst — nang màng nhện liên bán cầu (thường kèm ACC)
+- suprasellar arachnoid cyst — nang màng nhện trên yên (có thể gây não úng thủy do tắc lỗ Monro)
+- quadrigeminal cistern — bể tứ điệp (phía sau đồi thị, vị trí nang màng nhện sau đồi thị)
+- fenestration — phẫu thuật mở thông nang (tạo cửa sổ trên thành nang để dịch thoát vào bể nền tự nhiên)
+- cystoperitoneal shunt — shunt nang-phúc mạc (dẫn lưu dịch từ nang vào khoang phúc mạc)
+- mega cisterna magna — bể lớn khổng lồ (sâu >10mm, thuỳ nhộng và não thất tư bình thường, KHÔNG có thành nang)
+- subdural hygroma — tụ dịch dưới màng cứng (hình liềm, sau chấn thương, không phải nang tròn)
+- ball-valve mechanism — cơ chế van một chiều (CSF vào được nhưng không ra được, khiến nang màng nhện to dần)
+
+## Gastroenterology — Tiêu hóa
+
+- PPI (proton pump inhibitor) — thuốc ức chế bơm proton (ức chế tiết acid dạ dày)
+- antacid — thuốc kháng acid/trung hòa acid dạ dày
+- gastritis — viêm dạ dày
+- H. pylori (Helicobacter pylori) — vi khuẩn xoắn gram âm gây viêm loét dạ dày-tá tràng
+- CYP-2C19 — enzyme cytochrome P450 2C19 ở gan, chuyển hóa nhiều thuốc trong đó có PPI thế hệ 1
+- rapid metabolizer — người chuyển hóa thuốc nhanh (kiểu gen CYP-2C19 khiến PPI thế hệ 1 kém hiệu quả)
+- canaliculus — ống tiết của tế bào thành dạ dày, nơi PPI được hoạt hóa trong môi trường acid
+- prodrug — tiền thuốc (dạng chưa hoạt động, cần chuyển hóa trong cơ thể mới có tác dụng)
+- H+/K+-ATPase — bơm proton (enzyme ở màng ống tiết tế bào thành, đích tác dụng của PPI)
+- rebound acid — tăng tiết acid phản ứng sau khi ngừng thuốc ức chế acid đột ngột
+- milk-alkali syndrome — hội chứng sữa-kiềm (tăng calci máu + kiềm chuyển hóa do dùng nhiều calci carbonate kéo dài)
+- functional dyspepsia (FD) — khó tiêu chức năng (triệu chứng dạ dày không có tổn thương thực thể trên nội soi)
+- epigastric pain syndrome (EPS) — hội chứng đau thượng vị (một kiểu hình của FD, đau rát là chính)
+- postprandial distress syndrome (PDS) — hội chứng khó chịu sau ăn (một kiểu hình của FD, đầy bụng/no sớm là chính)
+- UBT (urea breath test) — test hơi thở urea (test không xâm lấn chẩn đoán H. pylori, Sn 96%, Sp 93%)
+- RUT (rapid urease test) — test urease nhanh (test H. pylori trên mẫu sinh thiết qua nội soi)
+- PTMB — phác đồ 4 thuốc: PPI + Tetracycline + Metronidazole + Bismuth (đầu tay tại VN)
+- PALB — phác đồ 4 thuốc: PPI + Amoxicillin + Levofloxacin + Bismuth (thay thế đầu tay tại VN)
+- GERD (gastroesophageal reflux disease) — bệnh trào ngược dạ dày-thực quản
+- COX-1 (cyclooxygenase-1) — enzyme tổng hợp prostaglandin bảo vệ niêm mạc dạ dày (bị NSAID ức chế)
+- prostaglandin — chất bảo vệ niêm mạc dạ dày (tăng tiết chất nhầy, bicarbonate, duy trì dòng máu niêm mạc)
+- sucralfate — thuốc bảo vệ niêm mạc (tạo lớp gel che phủ ổ loét, không phải antacid thuần túy)
+- almagate — thuốc kháng acid cấu trúc lớp (Al-Mg-carbonate, giải phóng chậm, tác dụng kéo dài hơn)
+- clopidogrel — thuốc kháng kết tập tiểu cầu (chuyển hóa qua CYP-2C19, tương tác với omeprazole)
+- Correa cascade — chuỗi Correa: viêm dạ dày mạn -> teo niêm mạc -> dị sản ruột -> loạn sản -> ung thư dạ dày
+- VNAGE — Vietnamese National Association of Gastroenterology and Endoscopy (Hội Tiêu hóa-Nội soi Việt Nam)
+- test-and-treat — chiến lược xét nghiệm H. pylori không xâm lấn và điều trị ngay nếu dương tính (không cần nội soi)
+- test-of-cure — xét nghiệm xác nhận đã tiệt trừ H. pylori sau điều trị (thường dùng UBT, >= 4 tuần sau kết thúc kháng sinh)

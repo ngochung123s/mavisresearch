@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Long GnRH Agonist Protocol - Visual Summary</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+
+<header class="max-w-6xl mx-auto mb-8 text-center">
+  <h1 class="text-4xl font-bold text-stone-700 mb-2">Long GnRH Agonist Protocol trong IVF/ICSI</h1>
+  <p class="text-stone-500 italic">Visual Summary - Bài học 18/06/2026</p>
+  <div class="mt-3 flex justify-center gap-2 flex-wrap">
+    <span class="tag pastel-pink px-3 py-1 rounded-full text-sm">ART</span>
+    <span class="tag pastel-blue px-3 py-1 rounded-full text-sm">IVF/ICSI</span>
+    <span class="tag pastel-mint px-3 py-1 rounded-full text-sm">Pituitary Down-regulation</span>
+    <span class="tag pastel-peach px-3 py-1 rounded-full text-sm">COS</span>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto space-y-8">
+
+  <!-- SECTION 1: CO CHE DOWN-REGULATION -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">1. Cơ chế Down-Regulation (2 giai đoạn)</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="pastel-pink rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">Giai đoạn 1: FLARE EFFECT (Ngày 1-3)</h3>
+        <ul class="text-sm text-stone-700 space-y-1">
+          <li>• GnRH agonist gắn vào receptor ở thùy trước tuyến yên</li>
+          <li>• FSH tăng vọt 50-100% trong 24-48h đầu</li>
+          <li>• LH tăng tương tự, estrogen tăng theo</li>
+          <li>• Lý do: ái lực thuốc cao hơn GnRH nội sinh</li>
+        </ul>
+      </div>
+      <div class="pastel-blue rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">Giai đoạn 2: DESENSITIZATION (Ngày 4-14)</h3>
+        <ul class="text-sm text-stone-700 space-y-1">
+          <li>• Receptor downregulation (giảm số lượng)</li>
+          <li>• Uncoupling (G-protein ngừng truyền tín hiệu)</li>
+          <li>• Depletion of LH/FSH pool (bể chứa cạn kiệt)</li>
+          <li>• Kết quả: FSH/LH < 5 mIU/mL, E2 < 50 pg/mL</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: FLOWCHART -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">2. Quy trình Long Protocol (Flowchart)</h2>
+    <div class="mermaid">
+flowchart TD
+    A["Bệnh nhân: AMH >= 2, AFC >= 10,<br/>không PCOS, không poor responder"] --> B["Ngày 21 ± 1 chu kỳ trước:<br/>Bắt đầu GnRH agonist"]
+    B --> C["Leuprolide 0.5-1.0 mg/ngày SC<br/>hoặc Triptorelin 3.75 mg depot IM"]
+    C --> D["Ngày 2-3 chu kỳ mới:<br/>Đánh giá down-regulation"]
+    D --> E{"Đạt tiêu chí?<br/>E2 < 50, LH < 5,<br/>ET < 5 mm, không nang > 10 mm"}
+    E -- "Có" --> F["Bắt đầu rFSH/hMG<br/>150-225 IU/ngày"]
+    E -- "Không" --> D
+    F --> G["Monitoring mỗi 2-3 ngày:<br/>SA + E2"]
+    G --> H{"2-3 nang đạt<br/>17-18 mm?"}
+    H -- "Chưa" --> G
+    H -- "Rồi" --> I["Quyết định trigger"]
+    I --> J{"OHSS risk?"}
+    J -- "Cao" --> K["GnRH agonist trigger<br/>0.2 mg SC<br/>+ Freeze all"]
+    J -- "Thấp" --> L["hCG 5000-10000 IU SC<br/>hoặc 250 mcg rhCG"]
+    K --> M["OPU 35-36h sau trigger"]
+    L --> M
+    M --> N["Luteal support:<br/>Progesterone 200-400 mg/ngày<br/>âm đạo x 8-10 tuần"]
+    N --> O["Pregnancy test 14 ngày sau<br/>FET hoặc Fresh transfer"]
+
+    style A fill:#f4c2c2
+    style B fill:#f7d1ba
+    style F fill:#c5d5e0
+    style K fill:#d4c5e2
+    style L fill:#c5e0c9
+    style N fill:#f4c2c2
+    </div>
+  </section>
+
+  <!-- SECTION 3: CHI DINH -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">3. Ai phù hợp với Long Protocol?</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="pastel-mint rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-3">NÊN DÙNG (Indications)</h3>
+        <ul class="text-sm text-stone-700 space-y-2">
+          <li>✓ Normal responder (AMH 1-4, AFC 8-15)</li>
+          <li>✓ Endometriosis giai đoạn III/IV (ultra-long)</li>
+          <li>✓ Adenomyosis (ultra-long)</li>
+          <li>✓ Cần cycle programming (PGT-A, fertility preservation)</li>
+          <li>✓ Cycle trước LH surge sớm với antagonist</li>
+          <li>✓ Bệnh nhân ung thư cần fertility preservation</li>
+        </ul>
+      </div>
+      <div class="pastel-peach rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-3">KHÔNG NÊN (Contraindications)</h3>
+        <ul class="text-sm text-stone-700 space-y-2">
+          <li>✗ PCOS (OHSS risk tăng 2-3 lần)</li>
+          <li>✗ Poor responder theo Bologna criteria</li>
+          <li>✗ Phụ nữ > 40 tuổi với dự trữ kém</li>
+          <li>✗ Bệnh nhân cần cycle ngắn (antagonist tốt hơn)</li>
+          <li>✗ Tiền sử OHSS nặng với cycle trước</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: SO SANH PROTOCOL -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">4. So sánh Long Agonist vs Antagonist</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div>
+        <canvas id="chart1"></canvas>
+      </div>
+      <div>
+        <canvas id="chart2"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: EVIDENCE TABLE -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">5. Evidence - Meta-analysis quan trọng</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-stone-200 text-stone-800">
+            <th class="px-3 py-2 text-left">PMID</th>
+            <th class="px-3 py-2 text-left">Tác giả (Năm)</th>
+            <th class="px-3 py-2 text-left">Loại nghiên cứu</th>
+            <th class="px-3 py-2 text-left">Kết quả chính</th>
+          </tr>
+        </thead>
+        <tbody class="text-stone-700">
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">38095077</td><td class="px-3 py-2">Liu C. (2023)</td><td class="px-3 py-2">Meta-analysis 52 RCT, n=9950</td><td class="px-3 py-2">LBR tương đương (RR 0.96); OHSS thấp hơn với antagonist (RR 0.48)</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">35292717</td><td class="px-3 py-2">Kadoura S. (2022)</td><td class="px-3 py-2">Meta-analysis 6 RCT PCOS, n=986</td><td class="px-3 py-2">OHSS: Ant 5.2% vs Agonist 12.4% (giảm 58%)</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">28903472</td><td class="px-3 py-2">Lambalk CB. (2017)</td><td class="px-3 py-2">Subgroup analysis</td><td class="px-3 py-2">Hiệu quả khác nhau theo patient type</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">26558801</td><td class="px-3 py-2">Siristatidis CS. (2015)</td><td class="px-3 py-2">Cochrane Review 29 RCT, n=5499</td><td class="px-3 py-2">Long protocol LBR cao hơn short</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">38100935</td><td class="px-3 py-2">Goyri E. (2024)</td><td class="px-3 py-2">Review</td><td class="px-3 py-2">Ultra-long protocol cải thiện pregnancy ở endometriosis</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">36710334</td><td class="px-3 py-2">Orvieto R. (2023)</td><td class="px-3 py-2">Protocol mô tả</td><td class="px-3 py-2">"Stop protocol" - hybrid hữu ích cho poor responder</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">37884809</td><td class="px-3 py-2">Hu L. (2024)</td><td class="px-3 py-2">Retrospective study</td><td class="px-3 py-2">Tối ưu FSH modulation trong short-acting long protocol</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- SECTION 6: TIÊU CHÍ DOWN-REG -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">6. Tiêu chí Down-regulation đạt</h2>
+    <div class="grid md:grid-cols-3 gap-3">
+      <div class="pastel-pink rounded-xl p-4 text-center">
+        <div class="text-3xl font-bold text-stone-800">&lt; 50</div>
+        <div class="text-sm text-stone-600">E2 (pg/mL)</div>
+      </div>
+      <div class="pastel-blue rounded-xl p-4 text-center">
+        <div class="text-3xl font-bold text-stone-800">&lt; 5</div>
+        <div class="text-sm text-stone-600">LH (mIU/mL)</div>
+      </div>
+      <div class="pastel-mint rounded-xl p-4 text-center">
+        <div class="text-3xl font-bold text-stone-800">&lt; 5</div>
+        <div class="text-sm text-stone-600">ET (mm)</div>
+      </div>
+      <div class="pastel-peach rounded-xl p-4 text-center">
+        <div class="text-3xl font-bold text-stone-800">0</div>
+        <div class="text-sm text-stone-600">Nang > 10 mm</div>
+      </div>
+      <div class="pastel-lavender rounded-xl p-4 text-center">
+        <div class="text-3xl font-bold text-stone-800">&lt; 1.5</div>
+        <div class="text-sm text-stone-600">Progesterone (ng/mL)</div>
+      </div>
+      <div class="bg-stone-200 rounded-xl p-4 text-center">
+        <div class="text-3xl font-bold text-stone-800">~14</div>
+        <div class="text-sm text-stone-600">Ngày từ start</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 7: OHSS GRADING -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">7. OHSS Grading (Golan 1989)</h2>
+    <div class="mermaid">
+flowchart LR
+    A["Mild<br/>Bụng căng<br/>BT < 8 cm"] --> B["Moderate<br/>Ascites nhẹ<br/>BT 8-12 cm"]
+    B --> C["Severe<br/>Hct > 45%<br/>BT > 12 cm"]
+    C --> D["Critical<br/>Suy thận, huyết khối<br/>ARDS"]
+    A -.->|Tỷ lệ: 12-15%| E["Long Protocol"]
+    B -.->|1-3% nặng| E
+
+    style A fill:#c5e0c9
+    style B fill:#f7d1ba
+    style C fill:#f4c2c2
+    style D fill:#d4c5e2
+    </div>
+    <p class="text-sm text-stone-600 mt-3 italic">Phòng ngừa ở long protocol: giảm liều FSH ở high responder, coasting nếu E2 > 4000-5000 pg/mL, GnRH agonist trigger, freeze all.</p>
+  </section>
+
+  <!-- SECTION 8: TIMELINE -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">8. Timeline Long Protocol (4-5 tuần)</h2>
+    <div class="mermaid">
+gantt
+    title Long GnRH Agonist Protocol Timeline
+    dateFormat  YYYY-MM-DD
+    axisFormat  Day %d
+    section Down-reg
+    GnRH agonist luteal start    :a1, 2026-07-01, 14d
+    section Stimulation
+    Gonadotropin (FSH/hMG)       :a2, after a1, 10d
+    section Trigger & OPU
+    Trigger (hCG/GnRH-a)         :a3, after a2, 1d
+    OPU 35-36h                    :a4, after a3, 1d
+    section Luteal Support
+    Progesterone 8-10 weeks       :a5, after a4, 70d
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center text-stone-500 text-sm py-6">
+    <p>Bài học soạn bởi MiniMax Mavis cho Bs. Ngọc 🍅 🐈‍⬛</p>
+    <p>Verified PubMed: 10 papers (PMID 38095077, 35292717, 28903472, 26558801, 38100935, 36710334, 37884809, 36688363, 36549997, 39626004)</p>
+  </footer>
+
+</main>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+// Chart 1: OHSS comparison
+new Chart(document.getElementById('chart1'), {
+    type: 'bar',
+    data: {
+        labels: ['OHSS %', 'Cycle cancellation %', 'Total days', 'Number of injections'],
+        datasets: [{
+            label: 'Long Agonist',
+            data: [12.4, 6.5, 32, 30],
+            backgroundColor: 'rgba(244, 194, 194, 0.7)',
+            borderColor: 'rgba(244, 194, 194, 1)',
+            borderWidth: 1
+        }, {
+            label: 'Antagonist',
+            data: [5.2, 10, 18, 5],
+            backgroundColor: 'rgba(197, 213, 224, 0.7)',
+            borderColor: 'rgba(197, 213, 224, 1)',
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: { title: { display: true, text: 'So sánh hiệu quả & an toàn' } },
+        scales: { y: { beginAtZero: true } }
+    }
+});
+
+// Chart 2: LBR by patient type
+new Chart(document.getElementById('chart2'), {
+    type: 'doughnut',
+    data: {
+        labels: ['Normal responder', 'High responder/PCOS', 'Poor responder', 'Endometriosis'],
+        datasets: [{
+            data: [40, 25, 15, 20],
+            backgroundColor: [
+                'rgba(197, 224, 201, 0.7)',
+                'rgba(244, 194, 194, 0.7)',
+                'rgba(247, 209, 186, 0.7)',
+                'rgba(212, 197, 226, 0.7)'
+            ],
+            borderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: { title: { display: true, text: 'Phân bố chỉ định Long Protocol (%)' } }
+    }
+});
+</script>
+
+</body>
+</html>

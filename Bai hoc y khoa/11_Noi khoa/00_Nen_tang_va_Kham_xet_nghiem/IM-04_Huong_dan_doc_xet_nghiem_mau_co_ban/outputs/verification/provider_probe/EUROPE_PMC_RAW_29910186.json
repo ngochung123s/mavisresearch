@@ -1,0 +1,633 @@
+{
+  "hitCount": 1,
+  "nextCursorMark": "",
+  "results": [
+    {
+      "id": "29910186",
+      "source": "MED",
+      "pmid": "29910186",
+      "pmcid": "PMC6084407",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6084407"
+        ]
+      },
+      "doi": "10.1016/j.str.2018.05.001",
+      "title": "Structural Basis of Phosphatidic Acid Sensing by APH in Apicomplexan Parasites.",
+      "authorString": "Darvill N, Dubois DJ, Rouse SL, Hammoudi PM, Blake T, Benjamin S, Liu B, Soldati-Favre D, Matthews S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Darvill N",
+            "firstName": "Nick",
+            "lastName": "Darvill",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, London SW7 2AZ, UK."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dubois DJ",
+            "firstName": "David J",
+            "lastName": "Dubois",
+            "initials": "DJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology & Molecular Medicine, Faculty of Medicine, University of Geneva, 1 Rue Michel-Servet, 1211 Geneva, Switzerland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rouse SL",
+            "firstName": "Sarah L",
+            "lastName": "Rouse",
+            "initials": "SL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7115-1565"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, London SW7 2AZ, UK."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hammoudi PM",
+            "firstName": "Pierre-Mehdi",
+            "lastName": "Hammoudi",
+            "initials": "PM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8511-356X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology & Molecular Medicine, Faculty of Medicine, University of Geneva, 1 Rue Michel-Servet, 1211 Geneva, Switzerland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Blake T",
+            "firstName": "Tom",
+            "lastName": "Blake",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8534-0025"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, London SW7 2AZ, UK."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Benjamin S",
+            "firstName": "Stefi",
+            "lastName": "Benjamin",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, London SW7 2AZ, UK."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu B",
+            "firstName": "Bing",
+            "lastName": "Liu",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1670-6115"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, London SW7 2AZ, UK; BioBank, First Affiliated Hospital, School of Medicine, Xi'an Jiaotong University, Xi'an, 710049, P. R. China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Soldati-Favre D",
+            "firstName": "Dominique",
+            "lastName": "Soldati-Favre",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4156-2109"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology & Molecular Medicine, Faculty of Medicine, University of Geneva, 1 Rue Michel-Servet, 1211 Geneva, Switzerland. Electronic address: dominique.soldati-favre@unige.ch."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Matthews S",
+            "firstName": "Steve",
+            "lastName": "Matthews",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0676-0927"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, London SW7 2AZ, UK; BioBank, First Affiliated Hospital, School of Medicine, Xi'an Jiaotong University, Xi'an, 710049, P. R. China. Electronic address: s.j.matthews@imperial.ac.uk."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7115-1565"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8511-356X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8534-0025"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0676-0927"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1670-6115"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4156-2109"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "8",
+        "volume": "26",
+        "journalIssueId": 2715205,
+        "dateOfPublication": "2018 Aug",
+        "monthOfPublication": 8,
+        "yearOfPublication": 2018,
+        "printPublicationDate": "2018-08-01",
+        "journal": {
+          "title": "Structure (London, England : 1993)",
+          "medlineAbbreviation": "Structure",
+          "essn": "1878-4186",
+          "issn": "0969-2126",
+          "isoabbreviation": "Structure",
+          "nlmid": "101087697"
+        }
+      },
+      "pubYear": "2018",
+      "pageInfo": "1059-1071.e6",
+      "abstractText": "Plasmodium falciparum and Toxoplasma gondii are obligate intracellular parasites that belong to the phylum of Apicomplexa and cause major human diseases. Their access to an intracellular lifestyle is reliant on the coordinated release of proteins from the specialized apical organelles called micronemes and rhoptries. A specific phosphatidic acid effector, the acylated pleckstrin homology domain-containing protein (APH) plays a central role in microneme exocytosis and thus is essential for motility, cell entry, and egress. TgAPH is acylated on the surface of the micronemes and recruited to phosphatidic acid (PA)-enriched membranes. Here, we dissect the atomic details of APH PA-sensing hub and its functional interaction with phospholipid membranes. We unravel the key determinant of PA recognition for the first time and show that APH inserts into and clusters multiple phosphate head-groups at the bilayer binding surface.",
+      "affiliation": "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, London SW7 2AZ, UK.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "166678",
+            "agency": "Swiss National Science Foundation",
+            "orderIn": 0
+          },
+          {
+            "grantId": "310030B_166678",
+            "agency": "Swiss National Science Foundation",
+            "acronym": "SNSF_",
+            "orderIn": 0
+          },
+          {
+            "grantId": "IZRJZ3_164183",
+            "agency": "Swiss National Science Foundation",
+            "acronym": "SNSF_",
+            "orderIn": 0
+          },
+          {
+            "grantId": "085464",
+            "agency": "Wellcome Trust",
+            "acronym": "WT_",
+            "orderIn": 0
+          },
+          {
+            "grantId": "RPG-2018-107",
+            "agency": "Leverhulme Trust",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cell Membrane",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "PS",
+                  "qualifierName": "parasitology",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Organelles",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "UL",
+                  "qualifierName": "ultrastructure",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Fibroblasts",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "PS",
+                  "qualifierName": "parasitology",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Toxoplasma",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                },
+                {
+                  "abbreviation": "UL",
+                  "qualifierName": "ultrastructure",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plasmodium falciparum",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                },
+                {
+                  "abbreviation": "UL",
+                  "qualifierName": "ultrastructure",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Escherichia coli",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Lipid Bilayers",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phosphatidic Acids",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Protozoan Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Recombinant Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cloning, Molecular"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Sequence Alignment"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Signal Transduction"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Exocytosis"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Expression"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Protein Processing, Post-Translational"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Amino Acid Sequence"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Sequence Homology, Amino Acid"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Acylation"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Genetic Vectors",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Host-Parasite Interactions"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Molecular Dynamics Simulation"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Primary Cell Culture"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Pleckstrin Homology Domains"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Exocytosis",
+          "NMR",
+          "Plasmodium falciparum",
+          "Invasion",
+          "Microneme",
+          "Toxoplasma gondii",
+          "phosphatidic acid",
+          "Egress",
+          "Gliding Motility",
+          "Pleckstrin Homology Domain"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Phosphatidic Acids",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Lipid Bilayers",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Protozoan Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Recombinant Proteins",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.str.2018.05.001"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6084407"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6084407?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 21,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCompletion": "2019-08-08",
+      "dateOfCreation": "2018-06-19",
+      "firstIndexDate": "2018-06-18",
+      "fullTextReceivedDate": "2020-07-10",
+      "dateOfRevision": "2025-05-30",
+      "electronicPublicationDate": "2018-06-14",
+      "firstPublicationDate": "2018-06-14"
+    }
+  ]
+}

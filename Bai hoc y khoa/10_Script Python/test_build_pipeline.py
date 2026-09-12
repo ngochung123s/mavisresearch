@@ -7,7 +7,8 @@ from pathlib import Path
 from unittest.mock import patch
 
 import build_pipeline
-from publish_gate import PROFILE_GATES
+from evidence_bundle import content_hash
+from publish_gate import DEFAULT_DEPTH_CONTRACTS, PROFILE_GATES
 
 
 class ReleaseRunnerTest(unittest.TestCase):
@@ -19,9 +20,24 @@ class ReleaseRunnerTest(unittest.TestCase):
             cards = root / "lesson_RELEASE_v1.cards.v2.json"
             guidelines = root / "guidelines.json"
             outputs = root / "outputs"
+            bundle = root / "bundle.json"
+            raw = root / "raw.json"
+            raw.write_text("{}", encoding="utf-8")
+            import hashlib
+            digest = hashlib.sha256(raw.read_bytes()).hexdigest()
+            now = "2099-01-01T00:00:00Z"
+            bundle_data = {
+                "schema_version": "1.0", "created_at": now, "providers": ["fixture"], "cache_root": str(root),
+                "records": {"pmid:12345678": {"exists": True, "identifiers": {"pmid": "12345678", "doi": "10.1000/fixture"}, "providers": ["europe_pmc_metadata", "openalex", "crossref_retraction_watch"], "raw_sha256": [digest], "metadata_checked_at": now, "integrity": {"status": "clean", "checked_at": now, "corrections": [], "provider": "crossref_retraction_watch"}}},
+                "raw_objects": [{"provider": "fixture", "retrieved_at": now, "sha256": digest, "path": "raw.json", "media_type": "application/json", "license": "metadata-only"}], "content_hash": "",
+            }
+            bundle_data["content_hash"] = content_hash(bundle_data)
+            bundle.write_text(json.dumps(bundle_data), encoding="utf-8")
             contract = {
                 "profile": "foundation",
+                "mode": "L3_BEGINNER",
                 "required_gates": list(PROFILE_GATES["foundation"]),
+                "lesson_depth_contract": dict(DEFAULT_DEPTH_CONTRACTS["foundation"]),
                 "not_applicable": [],
                 "approved_exemptions": [],
             }
@@ -64,7 +80,7 @@ class ReleaseRunnerTest(unittest.TestCase):
 
             argv = [
                 "build_pipeline.py", "--brief", str(brief), "--lesson", str(lesson),
-                "--cards", str(cards), "--guidelines", str(guidelines), "--outputs", str(outputs),
+                "--cards", str(cards), "--guidelines", str(guidelines), "--evidence-bundle", str(bundle), "--outputs", str(outputs),
             ]
             with patch.object(sys, "argv", argv), patch.object(build_pipeline, "run", side_effect=fake_run), patch.object(build_pipeline, "verify_apkg", return_value=(1.0, 10, 10, 1, 1)), patch.object(build_pipeline, "count_words_classified", return_value=(10, 0, 1)):
                 code = build_pipeline.main()

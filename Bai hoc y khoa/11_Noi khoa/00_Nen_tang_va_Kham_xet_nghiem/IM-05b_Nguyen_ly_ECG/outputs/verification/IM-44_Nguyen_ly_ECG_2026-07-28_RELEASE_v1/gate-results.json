@@ -1,0 +1,412 @@
+[
+  {
+    "gate": "brief_pmid_preflight",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\preflight_check_pmids.py",
+      "..\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1_RESEARCH_BRIEF.md",
+      "--strict",
+      "--json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "6b35d14bc101af80ee6b7e57a89ce1b14516ae99543867358dcf13d8c4da879a"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\brief_pmid_preflight.json",
+        "sha256": "71aadee1a7e061f8c403c03bde989e5842599a14b6be4d4ef550f7808264b0e8"
+      }
+    ]
+  },
+  {
+    "gate": "brief_claims_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_claim_vs_abstract.py",
+      "..\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1_RESEARCH_BRIEF.md",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\brief_claims_report.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "6b35d14bc101af80ee6b7e57a89ce1b14516ae99543867358dcf13d8c4da879a"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\brief_claims_command.json",
+        "sha256": "2557bd0e920993cd09b1aeb08f359284478798646ac70cef9f845544a864118d"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\brief_claims_report.json",
+        "sha256": "031b148044112a053fcf98b892ce4bd0d512c27db1f3c278752fc21277b354f1"
+      }
+    ]
+  },
+  {
+    "gate": "source_pmid_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_all_pmids.py",
+      "..\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md",
+      "--strict",
+      "--json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md",
+        "sha256": "300bde9ae0c64636016527ce708b589103d8b077d731e6ffa70f66dded246a03"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\source_pmid_strict.json",
+        "sha256": "b6fa056aa59c3a2ca379e7ccff1ebca59ad40ecafbb09f962fdb3e3f1e1a9fc1"
+      }
+    ]
+  },
+  {
+    "gate": "source_claims_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_claims.py",
+      "..\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md",
+      "--strict",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\source_claims_report.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md",
+        "sha256": "300bde9ae0c64636016527ce708b589103d8b077d731e6ffa70f66dded246a03"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\source_claims_command.json",
+        "sha256": "2f5203473682d0a934d0e2a861cfbe62a09b7344695b6095de44efdb809a9141"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\source_claims_report.json",
+        "sha256": "813a93eb376c42e0b3ec4bef8cbef5c3f420a1387d23c4f6c59d03ccbaeb016e"
+      }
+    ]
+  },
+  {
+    "gate": "source_retraction",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\retraction_check.py",
+      "--md",
+      "..\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md",
+      "--strict",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\source_retraction_report.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md",
+        "sha256": "300bde9ae0c64636016527ce708b589103d8b077d731e6ffa70f66dded246a03"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\source_retraction_command.json",
+        "sha256": "abc5a29b74a3426763a600f19af07044f732269c677061771ecc411a9162cee2"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\source_retraction_report.json",
+        "sha256": "734f921934fde3b672b9d86bcfd95c6390d055d444af56cd85da31ae4922926f"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence",
+    "status": "FAIL",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_guidelines.py",
+      "..\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\guideline_evidence.json",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\guideline_report.json"
+    ],
+    "exit_code": 2,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\guideline_evidence.json",
+        "sha256": "8b77dff02308a3c6d1a8bf4c60c7cc5608ebe14791996d5bf614815d58da43c1"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\guideline_command.json",
+        "sha256": "cbd8842a42f0254503714f47ea331256cbb26f2e03dd4e133d37881e23fccf50"
+      }
+    ],
+    "failures": [
+      "lesson guideline claim 'C-002' not found in passing guideline evidence",
+      "lesson guideline claim 'C-003' not found in passing guideline evidence",
+      "lesson guideline claim 'C-001' not found in passing guideline evidence"
+    ]
+  },
+  {
+    "gate": "citation_zero_block",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\citation_audit.py",
+      "..\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md",
+      "--json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md",
+        "sha256": "300bde9ae0c64636016527ce708b589103d8b077d731e6ffa70f66dded246a03"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\citation_audit.json",
+        "sha256": "b99111d3ceacab772e25eafaf34f063a98550f5eabc94329c3486e8f9b63537c"
+      }
+    ]
+  },
+  {
+    "gate": "profile_foundation",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\profile_check.py",
+      "foundation",
+      "..\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md",
+        "sha256": "300bde9ae0c64636016527ce708b589103d8b077d731e6ffa70f66dded246a03"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\profile_foundation.json",
+        "sha256": "b88df03c6ecbdf5bec9461ec84b53b63f70efe60999ad8286358f5f121db6185"
+      }
+    ]
+  },
+  {
+    "gate": "cards_schema",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "--internal",
+      "cards_schema"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.cards.v2.json",
+        "sha256": "90213b22edc62efb94bfad5dd5525df5ead5ef2c77f1c8389c7b30beab1a45a6"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\cards_schema.json",
+        "sha256": "f565ee8306847391ab14280c9a3c877e1fdb0f0cb67e39f71080e089894e11f6"
+      }
+    ]
+  },
+  {
+    "gate": "candidate_apkg_build",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_apkg.py",
+      "..\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.cards.v2.json",
+      "--output",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.apkg",
+      "--verify"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.cards.v2.json",
+        "sha256": "90213b22edc62efb94bfad5dd5525df5ead5ef2c77f1c8389c7b30beab1a45a6"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\candidate_apkg_build.json",
+        "sha256": "3e8918ef187de16613ea6427f4556b77adb2074e7cf46c278e7953d4163adfd2"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.apkg",
+        "sha256": "80f1a982666788c83cdff205e462e52665642f028d5e60b7e535cdacd8de82c8"
+      }
+    ]
+  },
+  {
+    "gate": "package_note_count",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "internal:package_note_count"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.cards.v2.json",
+        "sha256": "90213b22edc62efb94bfad5dd5525df5ead5ef2c77f1c8389c7b30beab1a45a6"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.apkg",
+        "sha256": "80f1a982666788c83cdff205e462e52665642f028d5e60b7e535cdacd8de82c8"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\package_counts.json",
+        "sha256": "80659199a1d1b192cc626e765f62f859773707ecdd9fabfaa36ec6fddeb43492"
+      }
+    ]
+  },
+  {
+    "gate": "package_diacritics",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_apkg_diacritics.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.apkg"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.apkg",
+        "sha256": "80f1a982666788c83cdff205e462e52665642f028d5e60b7e535cdacd8de82c8"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\package_diacritics.json",
+        "sha256": "e3cac8663f50bd935bab7ddf7a812419b3078cf470b2f35c2f796a8c54d69da0"
+      }
+    ]
+  },
+  {
+    "gate": "source_diacritics",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "internal:source_diacritics"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md",
+        "sha256": "300bde9ae0c64636016527ce708b589103d8b077d731e6ffa70f66dded246a03"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\source_diacritics.json",
+        "sha256": "56fb447eb4a32866a79dce8330e6cfb6a7bd71d97e874b5aa07182296ca88521"
+      }
+    ]
+  },
+  {
+    "gate": "docx_build",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\md_to_docx.py",
+      "..\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.docx"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md",
+        "sha256": "300bde9ae0c64636016527ce708b589103d8b077d731e6ffa70f66dded246a03"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\docx_build.json",
+        "sha256": "6681802a103ddc2cdb069676ed6c7140293dfb07ee27769d85a7bda47b9f90db"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.docx",
+        "sha256": "e73aa2a30eb8b11074587d03d62747a38875e58d6a6c2f6042f23d6d6cc39d97"
+      }
+    ]
+  },
+  {
+    "gate": "learner_smoke",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\make_knowledge_check.py",
+      "..\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.cards.v2.json",
+      "--output-dir",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.cards.v2.json",
+        "sha256": "90213b22edc62efb94bfad5dd5525df5ead5ef2c77f1c8389c7b30beab1a45a6"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\verification\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1\\learner_smoke.json",
+        "sha256": "304c7a754f9adcbf1b8c0147040eb5911b701c096f4cdb15b3bc3faef91abd22"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1_knowledge_check.md",
+        "sha256": "77500011b74304755e71eeced86e5371414d32eeb812441a21944b814691ef15"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1_knowledge_check_answer_key.md",
+        "sha256": "daa8bb8d8d67702a60747f692fff65a22ae0407e8eebf4c621bb4389cfeeb443"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1_knowledge_check_score.json",
+        "sha256": "b835c3bd5835d1335322237e0456f530360a44476ac4f4cf0c53752e23b87b64"
+      }
+    ]
+  }
+]

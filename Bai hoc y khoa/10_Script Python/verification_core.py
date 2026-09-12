@@ -24,7 +24,8 @@ CLAIM_REF_RE = re.compile(r"\{claim\s*:\s*([A-Za-z0-9_.-]+)\}", re.IGNORECASE)
 NUMERIC_RE = re.compile(
     r"(?:\b(?:RR|OR|HR|aOR|AOR|SMD|WMD|MD)\s*[=:]?\s*-?\d+(?:[.,]\d+)?|"
     r"95\s*%\s*CI|\bn\s*[=:]\s*[\d,]+|\bp\s*[<>=]\s*\d+(?:[.,]\d+)?|"
-    r"\d+(?:[.,]\d+)?\s*(?:%|mg\b|mcg\b|µg\b|g\b|kg\b|mL\b|mmol/L\b|IU\b|UI\b|tuần\b|ngày\b|giờ\b))",
+    r"\d+(?:[.,]\d+)?\s*(?:%|mg(?:/kg)?\b|mcg\b|µg\b|g\b|kg\b|mL\b|mmol/L\b|IU\b|UI\b|tuần\b|ngày\b|giờ\b|"
+    r"Hz\b|kHz\b|mm/s\b|mm/mV\b|mV\b|ms\b|\bs\b))",
     re.IGNORECASE,
 )
 NUMBER_RE = re.compile(r"(?<![A-Za-z])[-+]?\d+(?:[.,]\d+)?")
@@ -75,6 +76,14 @@ def extract_claim_numbers(text: str) -> list[str]:
         numbers.extend(extract_numbers(metric.group(0)))
     return numbers
 
+
+def extract_metric_tokens(text: str) -> list[str]:
+    """Extract normalized metric tokens (number + unit/symbol) for clinical metric checking."""
+    tokens: list[str] = []
+    for match in NUMERIC_RE.finditer(text):
+        token = " ".join(match.group(0).lower().replace(",", ".").split())
+        tokens.append(token)
+    return tokens
 
 def split_markdown_row(line: str) -> list[str]:
     stripped = line.strip()
@@ -152,10 +161,16 @@ def extract_brief_claims(text: str) -> list[Claim]:
 
 
 def extract_lesson_claims(text: str) -> list[Claim]:
-    """Return one claim occurrence per PMID mention, using its containing line."""
+    """Return one claim occurrence per PMID mention outside the reference section, using its containing line."""
     claims: list[Claim] = []
     lines = text.splitlines()
+
+    ref_match = re.search(r"^##\s+(\d+\.\s+)?(Tài liệu tham khảo|References?)[^\n]*$", text, re.IGNORECASE | re.MULTILINE)
+    ref_start_line = text[:ref_match.start()].count("\n") + 1 if ref_match else len(lines) + 1
+
     for line_num, line in enumerate(lines, 1):
+        if line_num >= ref_start_line:
+            break
         line_str = line.strip()
         if not line_str:
             continue
@@ -168,11 +183,11 @@ def extract_lesson_claims(text: str) -> list[Claim]:
             next_start = pmid_matches[occurrence].start() if occurrence < len(pmid_matches) else len(line_str)
             segment = line_str[prev_end:next_start]
 
-            ref_match = CLAIM_REF_RE.search(segment) or CLAIM_REF_RE.search(line_str)
+            ref_match_claim = CLAIM_REF_RE.search(segment) or CLAIM_REF_RE.search(line_str)
             tag_match = TAG_RE.search(segment) or TAG_RE.search(line_str)
 
             claims.append(Claim(
-                claim_id=ref_match.group(1) if ref_match else f"L{line_num}-{occurrence}",
+                claim_id=ref_match_claim.group(1) if ref_match_claim else f"L{line_num}-{occurrence}",
                 claim_text=line_str,
                 source_id=match.group(1),
                 verification=tag_match.group(1).upper() if tag_match else "",

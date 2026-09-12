@@ -1,0 +1,304 @@
+[
+  {
+    "type": "basic",
+    "front": "5 tiêu chí chọn thuốc điều trị T2D theo ADA/EASD là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• 1. Comorbidity trước (ASCVD/HF/CKD); 2. Hiệu quả hạ HbA1c; 3. Tác động cân nặng; 4. Nguy cơ hạ đường huyết; 5. Chi phí.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Không còn 'metformin first, thêm bất kỳ thuốc gì' — chọn theo đồng mắc trước.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Bước 1 của thuật toán ADA/EASD cho T2D là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tất cả bệnh nhân: Lifestyle + Metformin (nếu không CCĐ).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Metformin vẫn là nền tảng bước 1, nhưng lựa chọn add-on ở bước 2 dựa trên đồng mắc.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào chỉ định insulin (bước 3 theo ADA/EASD)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• HbA1c &gt;10% hoặc glucose &gt;300 + triệu chứng.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Glucose rất cao + triệu chứng chuyển hóa cần insulin sớm, không chờ thuốc uống.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Bệnh nhân T2D có ASCVD nên chọn add-on thuốc gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• SGLT2i HOẶC GLP-1 RA có CV benefit.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>EMPA-REG (↓38% CV death), LEADER (↓13% MACE). Ưu tiên ngay cả khi HbA1c đã đạt target.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Bệnh nhân T2D có HF (đặc biệt HFrEF) nên chọn thuốc gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• SGLT2i (dapagliflozin, empagliflozin — DAPA-HF, EMPEROR-Reduced). Dùng cả khi KHÔNG CÓ T2D.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Lợi ích tim mạch của SGLT2i độc lập với hạ glucose.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế của Metformin (Biguanide)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• ↓ sản xuất glucose gan (kích hoạt AMPK), ↑ nhạy insulin ngoại biên, ↓ hấp thu glucose ruột.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>KHÔNG tăng insulin nội sinh → không gây hạ đường huyết. Hạ HbA1c 1.0-1.5%.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Chống chỉ định chính của Metformin?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• eGFR &lt;30 mL/min, toan lactic, suy gan nặng.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Metformin thải qua thận; suy thận nặng tích lũy → toan lactic. Tác dụng phụ: tiêu chảy, B12↓.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế và lợi ích nổi bật của SGLT2i?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Ức chế SGLT2 ở ống lượn gần → tăng đào thải glucose qua nước tiểu.<br>• Lợi ích tim-thận: ↓ CV death, ↓ suy tim, ↓ tiến triển CKD.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Lợi ích CV/renal ĐỘC LẬP với hạ glucose — ưu tiên ở ASCVD/HF/CKD.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tác dụng phụ cần lưu ý của SGLT2i?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Eugenlycemic DKA (toan ceton đường huyết bình thường), nấm sinh dục, UTI.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>euglycemic DKA nguy hiểm vì đường huyết không cao — cần nghĩ đến ở BN dùng SGLT2i bệnh cấp.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Chống chỉ định khởi trị SGLT2i khi eGFR bao nhiêu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Empagliflozin eGFR &lt;20, Dapagliflozin eGFR &lt;25 (ml/min).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Ở eGFR rất thấp, thuốc mất hiệu quả hạ glucose và nguy cơ.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế và chỉ định của GLP-1 RA?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tăng insulin phụ thuộc glucose, giảm glucagon, chậm rỗng dạ dày, giảm thèm ăn.<br>• ↓ MACE; tirzepatide (dual GIP/GLP-1) giảm cân mạnh nhất (15-20%).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Hạ HbA1c 1.0-2.0%, ít hạ đường huyết, tốt cho giảm cân.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Chống chỉ định của GLP-1 RA?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tiền sử MTC (medullary thyroid carcinoma), MEN2.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>GLP-1 kích thích tế bào C tuyến giáp → nguy cơ MTC. Tác dụng phụ: buồn nôn (tăng liều từ từ).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế và nhược điểm của Sulfonylurea (SU)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Đóng kênh K-ATP trên tế bào β → tăng tiết insulin (không phụ thuộc glucose).<br>• Nhược điểm: HẠ ĐƯỜNG HUYẾT và tăng cân.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Tiết insulin không phụ thuộc glucose → hạ đường huyết. Gliclazide MR ít hạ đường huyết hơn glimepiride.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế và chống chỉ định của TZD (Pioglitazone)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Chủ vận PPAR-γ → tăng nhạy insulin.<br>• CCĐ: suy tim (giữ nước), tiền sử ung thư bàng quang.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Pioglitazone gây giữ nước → làm nặng suy tim. Lợi ích bền vững, ↓ TG.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế của DPP-4i? Ưu điểm nổi bật?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Ức chế DPP-4 → tăng GLP-1/GIP nội sinh.<br>• Trung tính tim mạch, không hạ đường huyết, an toàn CKD (linagliptin không cần chỉnh liều).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Hiệu quả khiêm tốn nhất (↓HbA1c 0.5-0.8%) nhưng rất an toàn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế của α-GI (Acarbose)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Ức chế α-glucosidase ở ruột → giảm hấp thu carbohydrate.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Tác dụng tại ruột → đầy hơi, tiêu chảy; không gây hạ đường huyết toàn thân.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Khi bắt đầu basal-bolus insulin, thuốc nào phải NGỪNG? Vì sao?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• NGỪNG SU (sulfonylurea) để tránh hạ đường huyết nặng chồng lấp.<br>• Tiếp tục metformin, SGLT2i, GLP-1RA.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>SU + insulin đều tăng insulin → hạ đường huyết cộng dồn rất nguy hiểm.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào dùng initial combination (phối hợp thuốc ngay từ đầu)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Khi HbA1c &gt;1.5% trên target.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>HbA1c cao nhiều trên mục tiêu → đơn trị liệu không đủ, cần phối hợp sớm.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tổng liều insulin khởi đầu cho T1D (người lớn) là bao nhiêu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• 0.4-0.5 U/kg/ngày (tuổi dậy thì: 0.7-1.0).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Chia basal 40-50%, bolus 50-60% chia 3 bữa.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Công thức Insulin-to-carb ratio (ICR) là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• ICR = 500 ÷ TDD.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>TDD = tổng liều insulin mỗi ngày. ICR cho biết số gam carb 1U insulin bao phủ.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Công thức Correction factor (CF) là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• CF = 1800 ÷ TDD.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>CF cho biết 1U insulin hạ glucose bao nhiêu mg/dL.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Các loại insulin dài (basal) và thời gian tác dụng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Long-acting (Glargine U100, Detemir): 20-24h.<br>• Ultra-long (Glargine U300, Degludec): 24-42h. Không có đỉnh.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Basal không có đỉnh → ít hạ đường huyết. Degludec ít hạ đường huyết nhất.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Các loại insulin nhanh (rapid-acting) đặc điểm?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Lispro, Aspart, Faster aspart: khởi phát 5-15 phút, đỉnh 1-2h, thời gian 3-5h.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Tiêm trước bữa ăn để phủ glucose sau ăn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Phác đồ Step-wise cho T2D: Step 1, 2, 3 là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Step 1: Basal insulin (0.1-0.2 U/kg, thường 10U).<br>• Step 2: Basal-plus (thêm 1 mũi rapid trước bữa lớn).<br>• Step 3: Basal-bolus (MDI) — prandial mọi bữa, NGỪNG SU.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Đi từ đơn giản đến phức tạp; chỉ thêm mũi nhanh khi basal chưa đạt target.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Chỉ định của insulin pump / Hybrid Closed-Loop?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• T1D không đạt target MDI, hạ đường huyết nặng tái diễn, hypoglycemia unawareness, dawn phenomenon.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>HCL tăng TIR 10-15%, giảm HbA1c 0.3-0.5%. Nguy cơ: DKA nhanh nếu set hỏng (không depot basal).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "T2D cần giảm cân nên chọn thuốc nào? Tránh thuốc nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Chọn: GLP-1 RA / tirzepatide (giảm cân mạnh).<br>• Tránh: SU, TZD (tăng cân).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Tirzepatide (dual GIP/GLP-1) giảm cân đến 15-20%.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "T2D có CKD (eGFR 20-60 / albuminuria) chọn thuốc gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• SGLT2i; Finerenone nếu còn albuminuria.<br>• Tránh: Metformin nếu eGFR&lt;30; SU tích tụ.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>DAPA-CKD, EMPA-KIDNEY cho thấy SGLT2i bảo vệ thận.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Nguy cơ hạ đường huyết thấp nhất ở nhóm thuốc nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• SGLT2i, DPP-4i, GLP-1 RA, TZD — ít hạ đường huyết.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>SU và insulin gây hạ đường huyết nhiều nhất.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tần suất đánh giá HbA1c ở bệnh nhân T2D?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Mỗi 3-6 tháng; mỗi 3 tháng nếu chưa đạt target.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Đánh giá dày hơn khi đang chỉnh liều chưa ổn định.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Target TIR (time in range) của CGM là bao nhiêu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• TIR 70-180 mg/dL, mục tiêu &gt;70%.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>TIR là % thời gian glucose trong khoảng mục tiêu.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Nhóm thuốc gây hạ đường huyết nhiều nhất?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• SU và insulin.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Hạ đường huyết nặng do SU+insulin cần glucagon cấp cứu.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Euglycemic DKA do thuốc nào? Xử trí?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• SGLT2i.<br>• Xử trí: ngừng SGLT2i, truyền dịch, truyền insulin.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Đường huyết bình thường nhưng vẫn toan ceton — thận trọng khi BN bệnh cấp/phẫu thuật.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "5 tiêu chí chọn thuốc T2D theo ADA/EASD: {{c1::comorbidity}} trước, hiệu quả hạ {{c1::HbA1c}}, {{c1::cân nặng}}, {{c1::hạ đường huyết}}, {{c1::chi phí}}.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Bước 1 ADA/EASD: {{c1::Lifestyle}} + {{c1::Metformin}} (nếu không CCĐ).",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Chỉ định insulin: HbA1c &gt; {{c1::10%}} hoặc glucose &gt; {{c1::300}} + triệu chứng.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "ASCVD → chọn add-on {{c1::SGLT2i}} hoặc {{c1::GLP-1 RA}} có CV benefit.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Empagliflozin (EMPA-REG) giảm {{c1::38%}} CV death (HR 0.62).",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Liraglutide (LEADER) giảm {{c1::13%}} MACE.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Metformin hạ HbA1c {{c1::1.0-1.5%}}; CCĐ eGFR &lt; {{c1::30}}.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "SGLT2i CCĐ khởi trị: empagliflozin eGFR &lt; {{c1::20}}, dapagliflozin &lt; {{c1::25}}.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Tần số: tirzepatide giảm cân đến {{c1::15-20%}}.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "SU cơ chế: đóng kênh {{c1::K-ATP}} → tăng tiết insulin.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Tổng liều insulin T1D người lớn: {{c1::0.4-0.5 U/kg/ngày}}; dậy thì {{c1::0.7-1.0}}.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Basal chiếm {{c1::40-50%}} tổng liều; bolus {{c1::50-60%}} chia 3 bữa.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "ICR = {{c1::500 ÷ TDD}}; CF = {{c1::1800 ÷ TDD}}.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Insulin long-acting (Glargine U100, Detemir): {{c1::20-24h}}; ultra-long (Degludec): {{c1::24-42h}}.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Rapid-acting (Lispro, Aspart): khởi phát {{c1::5-15 phút}}, đỉnh {{c1::1-2h}}, thời gian {{c1::3-5h}}.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Step 1 insulin T2D: basal {{c1::0.1-0.2 U/kg}} (thường {{c1::10U}}).",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Khi bắt đầu basal-bolus: NGỪNG {{c1::SU}} để tránh hạ đường huyết chồng lấp.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "TIR mục tiêu: {{c1::&gt;70%}} (range {{c1::70-180 mg/dL}}).",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "HbA1c đánh giá mỗi {{c1::3-6 tháng}}; mỗi 3 tháng nếu chưa đạt target.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Gliclazide MR liều khởi đầu {{c1::30 mg}}/ngày, tối đa {{c1::120 mg}}/ngày.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Semaglutide SC: khởi đầu {{c1::0.25 mg/tuần}}, tối đa {{c1::2.0 mg/tuần}}.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Euglycemic DKA do {{c1::SGLT2i}} → ngừng, truyền dịch, truyền insulin.",
+    "extra": ""
+  }
+]

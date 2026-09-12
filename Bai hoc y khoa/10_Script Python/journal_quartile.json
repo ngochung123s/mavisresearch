@@ -400,6 +400,30 @@
       "abbr": "Am J Physiol Cell Physiol",
       "notes": "APS journal. Mizuno 2008 MLCK activation."
     },
+    "Journal of Electrocardiology": {
+      "quartile": "Q2",
+      "tier": 2,
+      "if": 1.7,
+      "category": "Cardiology / Electrocardiology"
+    },
+    "American Journal of Cardiology": {
+      "quartile": "Q2",
+      "tier": 2,
+      "if": 2.8,
+      "category": "Cardiology"
+    },
+    "The Journal of Emergency Medicine": {
+      "quartile": "Q2",
+      "tier": 2,
+      "if": 1.8,
+      "category": "Emergency Medicine"
+    },
+    "Cureus": {
+      "quartile": "Q3",
+      "tier": 3,
+      "if": 1.2,
+      "category": "General Medicine"
+    },
     "Cellular Signalling": {
       "if": 4.4,
       "field": "Cell Signaling",
@@ -672,6 +696,13 @@
     "_description": "Map PubMed journal abbreviations + variants → canonical name. Updated 2026-06-19 v2.",
     "_note": "PubMed trả về dạng NLM Journal Title Abbreviation (JTA). Aliases bao gồm cả viết tắt phổ biến và minor variants.",
     "AJOG": "American Journal of Obstetrics and Gynecology",
+    "J Electrocardiol": "Journal of Electrocardiology",
+    "J. Electrocardiol.": "Journal of Electrocardiology",
+    "Am J Cardiol": "The American Journal of Cardiology",
+    "Am. J. Cardiol.": "The American Journal of Cardiology",
+    "The Journal of Emergency Medicine": "The Journal of Emergency Medicine",
+    "J Emerg Med": "The Journal of Emergency Medicine",
+    "J. Emerg. Med.": "The Journal of Emergency Medicine",
     "Am J Obstet Gynecol": "American Journal of Obstetrics and Gynecology",
     "Obstet Gynecol": "Obstetrics and Gynecology",
     "BJOG": "BJOG: An International Journal of Obstetrics and Gynaecology",
@@ -719,6 +750,7 @@
     "JAMA Pediatr": "JAMA Pediatrics",
     "Ann Intern Med": "Annals of Internal Medicine",
     "Lancet": "Lancet",
+    "Lancet": "The Lancet",
     "The Lancet": "Lancet",
     "Pediatrics": "Pediatrics",
     "Prenat Diagn": "Prenatal Diagnosis",
@@ -900,6 +932,8 @@
     "european heart journal": "European Heart Journal",
     "circulation": "Circulation",
     "new england journal of medicine": "New England Journal of Medicine",
+    "the new england journal of medicine": "New England Journal of Medicine",
+    "lancet": "The Lancet",
     "the lancet": "The Lancet",
     "jacc heart failure": "JACC Heart Failure",
     "esc heart failure": "ESC Heart Failure",

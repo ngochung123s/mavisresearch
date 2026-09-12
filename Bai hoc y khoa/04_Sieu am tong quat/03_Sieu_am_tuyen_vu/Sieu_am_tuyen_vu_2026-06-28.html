@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BÀI HỌC Y KHOA: SIÊU ÂM TUYẾN VÚ — GIẢI PHẪU, BI-RADS, BẤT THƯỜNG VÀ QUY TRÌNH KHẢO SÁT</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+  /* Chart.js canvas: giới hạn max-width để không bị kéo dãn khi render
+     trên màn hình rộng. Kết hợp với height attr trên <canvas> để giữ tỉ lệ.
+     Lý do: Chart.js mặc định maintainAspectRatio=false + responsive=true
+     sẽ fill 100% container width -> bar/doughnut bị oval/méo khi container
+     rộng hơn canvas internal pixel ratio. */
+  canvas { display: block; max-width: 800px; margin: 0 auto; height: auto !important; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+<header class="text-center py-12 mb-12 glass rounded-3xl shadow-lg">
+  <div class="inline-block px-4 py-1 mb-4 rounded-full bg-blue-200 text-blue-800 text-sm font-semibold">
+    Chuyên khoa: Ngày:
+  </div>
+  <h1 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800">BÀI HỌC Y KHOA: SIÊU ÂM TUYẾN VÚ — GIẢI PHẪU, BI-RADS, BẤT THƯỜNG VÀ QUY TRÌNH KHẢO SÁT</h1>
+  <p class="text-stone-600 text-lg">Ngày  | Cho bác sĩ sản phụ khoa / học viên sau đại học</p>
+  <p class="text-sm text-stone-500 mt-2">Bác sĩ: <strong>Ngọc 🍅 🐈‍⬛</strong> | AI: <strong>MiniMax Mavis</strong></p>
+</header><main class="max-w-6xl mx-auto space-y-8">
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">0. TỔNG QUAN — CHỈ ĐỊNH, NGUYÊN LÝ CHUNG</h2>
+<p class="text-stone-700 mb-3">Siêu âm tuyến vú là kỹ thuật chẩn đoán hình ảnh quan trọng, đặc biệt ở <strong>phụ nữ trẻ < 30 tuổi có mô vú dày</strong> (mammography có độ nhạy thấp). Đây là phương tiện bổ trợ không thể thiếu cho mammography và MRI vú.</p>
+<p class="text-stone-700 mb-3"><strong>Chỉ định chính:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Khối sờ thấy ở vú hoặc nách (triệu chứng phổ biến nhất)</li>
+<li>Đau vú khu trú (mastalgia)</li>
+<li>Tiết dịch núm vú bất thường (đặc biệt dịch máu hoặc 1 bên)</li>
+<li>Da vú dày lên, đỏ, phù nề (nghĩ viêm vú, ung thư vú thể viêm)</li>
+<li>Mô vú dày trên mammography (ACR BI-RADS C hoặc D) — siêu âm bổ sung tầm soát</li>
+<li><strong>Bất thường trên mammography cần siêu âm để đặc điểm hóa</strong> (BI-RADS 0)</li>
+<li>Hướng dẫn sinh thiết lõi (core biopsy) hoặc hút tế bào (FNA)</li>
+<li>Theo dõi sau điều trị bảo tồn / phẫu thuật vú</li>
+<li>Sàng lọc ở phụ nữ nguy cơ cao (BRCA1/2, tiền sử gia đình, tiền sử xạ trị thành ngực)</li>
+<li>Đánh giá túi ngực (breast implant) — vỡ, co bao</li></ul>
+<p class="text-stone-700 mb-3"><strong>Ưu điểm của siêu âm vú so với mammography:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Không nhiễm xạ — an toàn cho phụ nữ trẻ và thai kỳ</li>
+<li>Phân biệt nang đơn thuần vs khối đặc (không cần chọc hút)</li>
+<li>Đặc điểm hóa tổn thương ở mô vú dày (mammogram độ nhạy giảm còn ~30-50%)</li>
+<li>Đánh giá hạch nách tại chỗ</li>
+<li>Hướng dẫn can thiệp thời gian thực</li></ul>
+<p class="text-stone-700 mb-3"><strong>Nhược điểm:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Phụ thuộc người làm (operator-dependent)</li>
+<li>Không phát hiện được vi vôi hóa đơn độc không kèm khối (DCIS grade thấp)</li>
+<li>Không thay thế mammography trong sàng lọc đại trà</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">1. CHUẨN BỊ BỆNH NHÂN & KỸ THUẬT CHUNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.1. Chuẩn bị bệnh nhân</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Yêu cầu</th><th class="p-2 border whitespace-nowrap">Lý do</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Tư thế</strong>: nằm ngửa, tay cùng bên giơ lên trên đầu</td><td class="p-2 border">Bộc lộ toàn bộ vú và hố nách, mô vú trải phẳng tối đa</td></tr><tr class=""><td class="p-2 border"><strong>Cởi áo hoàn toàn phần trên</strong></td><td class="p-2 border">Tránh artifact do vải; có thể khảo sát đối bên nếu cần</td></tr><tr class=""><td class="p-2 border"><strong>Gel ấm, đầy đủ</strong></td><td class="p-2 border">Giảm khó chịu, tối ưu tiếp xúc đầu dò-da</td></tr><tr class=""><td class="p-2 border"><strong>Hỏi tiền sử</strong>: phẫu thuật vú? xạ trị? tiền sử gia đình K vú?</td><td class="p-2 border">Giúp định hướng chẩn đoán</td></tr><tr class=""><td class="p-2 border"><strong>Đối chiếu mammography</strong></td><td class="p-2 border">Nếu có — xem vị trí, BI-RADS trên mammogram trước khi siêu âm</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.2. Thiết bị & Cài đặt</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thông số</th><th class="p-2 border whitespace-nowrap">Giá trị khuyến cáo</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Đầu dò</strong></td><td class="p-2 border"><strong>Linear (phẳng) tần số cao 10-15 MHz</strong> — BẮT BUỘC. Tần số ≥ 10 MHz cho độ phân giải tối ưu</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Độ sâu (Depth)</strong></td><td class="p-2 border">3-5 cm (vú bình thường); có thể cần sâu hơn ở vú to hoặc implant</td></tr><tr class=""><td class="p-2 border"><strong>Gain</strong></td><td class="p-2 border">Chỉnh sao cho mỡ dưới da có echo vừa phải, không quá sáng</td></tr><tr class=""><td class="p-2 border"><strong>Tiêu điểm (Focal zone)</strong></td><td class="p-2 border">Đặt ngay dưới tổn thương (nếu có); hoặc ở mức nhu mô tuyến</td></tr><tr class=""><td class="p-2 border"><strong>Harmonic Imaging</strong></td><td class="p-2 border">Bật — cải thiện độ tương phản, giảm artifact</td></tr><tr class=""><td class="p-2 border"><strong>Spatial Compounding (CrossBeam)</strong></td><td class="p-2 border">Bật nếu có — giảm nhiễu hạt, cải thiện bờ tổn thương</td></tr><tr class=""><td class="p-2 border"><strong>Doppler màu</strong></td><td class="p-2 border">PRF thấp — đánh giá mạch máu trong tổn thương</td></tr><tr class=""><td class="p-2 border"><strong>Elastography (nếu có)</strong></td><td class="p-2 border">Strain hoặc Shear Wave — đánh giá độ cứng</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.3. Cấu trúc báo cáo siêu âm vú</h3>
+<p class="text-stone-700 mb-3">Mỗi báo cáo cần:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Vị trí tổn thương: bên (P/T), quadrant, vị trí theo mặt đồng hồ (clock-face), khoảng cách đến núm vú</li>
+<li>Kích thước: tối đa ở mặt cắt radial và antiradial</li>
+<li>Đặc điểm BI-RADS (hình dạng, hướng, bờ, echo, echo phía sau, vôi hóa, đặc điểm phụ)</li>
+<li>Đánh giá hạch nách</li>
+<li>BI-RADS category cuối cùng + khuyến cáo</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">2. GIẢI PHẪU SIÊU ÂM TUYẾN VÚ</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.1. Các lớp giải phẫu từ nông đến sâu</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Lớp</th><th class="p-2 border whitespace-nowrap">Đặc điểm siêu âm</th><th class="p-2 border whitespace-nowrap">Độ dày</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>1. Da (Skin)</strong></td><td class="p-2 border">Đường echo dày, liên tục, song song bề mặt đầu dò</td><td class="p-2 border">1-3 mm</td></tr><tr class=""><td class="p-2 border"><strong>2. Lớp mỡ dưới da (Subcutaneous Fat / Premammary Fat)</strong></td><td class="p-2 border">Echo kém, các thùy mỡ ngăn cách bởi vách liên kết</td><td class="p-2 border">Thay đổi</td></tr><tr class=""><td class="p-2 border"><strong>3. Mô tuyến vú (Glandular Tissue / Fibroglandular Tissue)</strong></td><td class="p-2 border">Echo dày không đồng nhất, dạng thùy, hỗn hợp mô tuyến + mô đệm. <strong>Đây là lớp dày nhất ở phụ nữ trẻ</strong></td><td class="p-2 border">Dày nhất ở phụ nữ 20-40 tuổi</td></tr><tr class=""><td class="p-2 border"><strong>4. Lớp mỡ sau tuyến vú (Retromammary Fat)</strong></td><td class="p-2 border">Echo kém, tương tự lớp mỡ dưới da</td><td class="p-2 border">Mỏng</td></tr><tr class=""><td class="p-2 border"><strong>5. Cân ngực (Pectoral Fascia)</strong></td><td class="p-2 border">Đường echo dày mảnh, nằm trên cơ ngực lớn</td><td class="p-2 border">—</td></tr><tr class=""><td class="p-2 border"><strong>6. Cơ ngực lớn (Pectoralis Major)</strong></td><td class="p-2 border">Dải cơ echo kém đồng nhất, các bó cơ song song</td><td class="p-2 border">—</td></tr><tr class=""><td class="p-2 border"><strong>7. Xương sườn (Ribs)</strong></td><td class="p-2 border">Echo dày, hình oval, bóng cản phía sau</td><td class="p-2 border">—</td></tr><tr class=""><td class="p-2 border"><strong>8. Màng phổi (Pleura)</strong></td><td class="p-2 border">Đường echo dày, di động theo hô hấp (có thể thấy)</td><td class="p-2 border">—</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.2. Dây chằng Cooper (Cooper's Ligaments)</h3>
+<p class="text-stone-700 mb-3">Dải mô liên kết chạy từ cân nông đến cân sâu, nâng đỡ mô vú. Trên siêu âm: đường echo dày mỏng, lượn sóng.</p>
+<p class="text-stone-700 mb-3"><strong>Dấu hiệu quan trọng</strong>: Khối ác tính có thể gây co kéo hoặc phá vỡ dây chằng Cooper → lõm da (skin dimpling), tụt núm vú (nipple retraction).</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.3. Phân vùng vú theo mặt đồng hồ</h3>
+<p class="text-stone-700 mb-3">Vú được chia thành <strong>4 quadrant</strong> + vùng trung tâm + đuôi nách:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Vị trí</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>1 giờ — 3 giờ</strong></td><td class="p-2 border">1/4 trên trong (UOQ — Upper Outer Quadrant) — vị trí hay gặp ung thư nhất</td></tr><tr class=""><td class="p-2 border"><strong>10 giờ — 12 giờ</strong></td><td class="p-2 border">1/4 trên ngoài (UIQ — Upper Inner Quadrant)</td></tr><tr class=""><td class="p-2 border"><strong>4 giờ — 6 giờ</strong></td><td class="p-2 border">1/4 dưới ngoài (LOQ — Lower Outer Quadrant)</td></tr><tr class=""><td class="p-2 border"><strong>7 giờ — 9 giờ</strong></td><td class="p-2 border">1/4 dưới trong (LIQ — Lower Inner Quadrant)</td></tr><tr class=""><td class="p-2 border"><strong>Sau núm vú</strong></td><td class="p-2 border">Vùng trung tâm (Retroareolar / Central)</td></tr><tr class=""><td class="p-2 border"><strong>Đuôi nách (Axillary Tail / Tail of Spence)</strong></td><td class="p-2 border">Kéo dài về phía hố nách</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Ký hiệu vị trí</strong>: "Vú trái, vị trí 2 giờ, cách núm vú 3 cm" → dùng mặt đồng hồ (clock-face) + khoảng cách đến núm vú.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">3. CÁC MẶT CẮT CẦN LÀM</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.1. Mặt cắt Radial (dọc theo ống tuyến)</h3>
+<p class="text-stone-700 mb-3">Đầu dò đặt theo hướng <strong>từ núm vú ra ngoại vi</strong> (giống nan hoa bánh xe).</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Mục đích</strong>: Đánh giá ống tuyến dọc theo trục giải phẫu (từ núm vú đến ngoại vi). Tổn thương nằm trong ống tuyến (intraductal papilloma, DCIS) thấy rõ hơn.</li>
+<li><strong>Cách làm</strong>: Quét toàn bộ vú theo từng "múi" (segment) — giống như cắt bánh. Mỗi lần quét là 1 đường từ núm vú ra ngoại vi.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.2. Mặt cắt Antiradial (vuông góc với ống tuyến)</h3>
+<p class="text-stone-700 mb-3">Đầu dò đặt <strong>vuông góc</strong> với mặt cắt radial.</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Mục đích</strong>: Đo bề rộng của tổn thương, đánh giá bờ theo chiều vuông góc. Mặt cắt antiradial quan trọng để xác định tổn thương có bờ đều (lành tính) hay tua gai (ác tính).</li>
+<li><strong>Cách làm</strong>: Quét theo từng vòng tròn đồng tâm từ núm vú ra ngoài.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.3. Kỹ thuật quét hệ thống (Systematic Scanning)</h3>
+<p class="text-stone-700 mb-3">Có 2 cách:</p>
+<p class="text-stone-700 mb-3"><strong>Cách 1 — Quét theo quadrant (phổ biến nhất):</strong></p>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>1. Bắt đầu từ 12 giờ → quét radial từ núm vú ra ngoại vi
+2. Lặp lại antiradial cùng quadrant
+3. Tiếp tục theo chiều kim đồng hồ: 1h, 2h, 3h, ... 11h
+4. Không quên vùng sau núm vú (retroareolar) và đuôi nách
+   ↓
+5. Khi phát hiện tổn thương → đo ở cả radial và antiradial</code></pre>
+<p class="text-stone-700 mb-3"><strong>Cách 2 — Quét lawn-mower (cắt cỏ):</strong></p>
+<p class="text-stone-700 mb-3">Không theo mặt đồng hồ mà quét từng hàng ngang hoặc dọc toàn bộ vú. Áp dụng khi sàng lọc nhanh.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.4. Các mặt cắt bổ sung</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mặt cắt</th><th class="p-2 border whitespace-nowrap">Khi nào dùng</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Nén nhẹ (Gentle compression)</strong></td><td class="p-2 border">Phân biệt nang (xẹp khi nén) với khối đặc; đánh giá độ cứng; đẩy artifact</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>So sánh đối bên</strong></td><td class="p-2 border">Khi không chắc tổn thương có phải mô vú bình thường hay không</td></tr><tr class=""><td class="p-2 border"><strong>Siêu âm hố nách</strong></td><td class="p-2 border">Bắt buộc nếu nghi ngờ ác tính hoặc có hạch sờ thấy</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">4. QUY TRÌNH KHẢO SÁT</h2>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>BƯỚC 1: BN nằm ngửa, tay cùng bên giơ lên đầu
+    ↓
+BƯỚC 2: Xác định vùng cần khảo sát (BN chỉ điểm đau? sờ thấy khối?)
+    ↓
+BƯỚC 3: QUÉT TOÀN BỘ VÚ — radial + antiradial theo quadrant
+    ↓
+BƯỚC 4: Vùng sau núm vú (retroareolar) — dùng góc nghiêng đầu dò
+    ↓
+BƯỚC 5: Đuôi nách (axillary tail) — hướng đầu dò lên trên ra nách
+    ↓
+BƯỚC 6: NẾU CÓ TỔN THƯƠNG → đo 2 chiều (radial + antiradial)
+    ↓
+BƯỚC 7: Phân loại BI-RADS — 6 đặc điểm
+    ↓
+BƯỚC 8: Doppler màu — đánh giá mạch máu tổn thương
+    ↓
+BƯỚC 9: Elastography (nếu có) — đánh giá độ cứng
+    ↓
+BƯỚC 10: SIÊU ÂM HỐ NÁCH — hạch bất thường?
+    ↓
+BƯỚC 11: So sánh đối bên nếu cần
+    ↓
+BƯỚC 12: KẾT LUẬN: BI-RADS category + khuyến cáo</code></pre>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">5. BI-RADS SIÊU ÂM — PHÂN LOẠI NGUY CƠ (ACR 5th Edition)</h2>
+<p class="text-stone-700 mb-3">BI-RADS siêu âm dựa trên 6 nhóm đặc điểm. Mỗi nhóm chọn 1 mô tả phù hợp nhất.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.1. Đặc điểm BI-RADS siêu âm</h3>
+<p class="text-stone-700 mb-3"><strong>1. Hình dạng (Shape):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Gợi ý</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Oval (Bầu dục)</strong> — bao gồm cả "2-3 thùy nhẹ" (macrolobulated)</td><td class="p-2 border">Lành tính</td></tr><tr class=""><td class="p-2 border"><strong>Tròn (Round)</strong></td><td class="p-2 border">Có thể lành hoặc ác</td></tr><tr class=""><td class="p-2 border"><strong>Không đều (Irregular)</strong></td><td class="p-2 border"><strong>Nghi ngờ ác tính</strong></td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>2. Hướng (Orientation):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Gợi ý</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Song song với da (Parallel)</strong> — trục dài song song da</td><td class="p-2 border">Lành tính</td></tr><tr class=""><td class="p-2 border"><strong>Không song song (Not Parallel)</strong> — trục dài vuông góc da, "taller-than-wide"</td><td class="p-2 border"><strong>Nghi ngờ ác tính</strong></td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>3. Bờ (Margin):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Gợi ý</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Ranh giới rõ (Circumscribed)</strong> — bờ nhẵn, rõ nét</td><td class="p-2 border">Lành tính</td></tr><tr class=""><td class="p-2 border"><strong>Không rõ (Not circumscribed)</strong>: bờ không đều (indistinct), góc cạnh (angular), tua gai (spiculated), vi thùy (microlobulated)</td><td class="p-2 border"><strong>Nghi ngờ ác tính</strong></td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>4. Echo (Echo Pattern):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Gợi ý</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Trống âm (Anechoic)</strong></td><td class="p-2 border">Nang</td></tr><tr class=""><td class="p-2 border"><strong>Tăng echo (Hyperechoic)</strong></td><td class="p-2 border">Thường lành tính (mỡ, u mỡ)</td></tr><tr class=""><td class="p-2 border"><strong>Nang phức tạp (Complex cystic and solid)</strong></td><td class="p-2 border">Có thể lành hoặc ác</td></tr><tr class=""><td class="p-2 border"><strong>Giảm echo (Hypoechoic)</strong></td><td class="p-2 border">Có thể lành hoặc ác (RẤT THƯỜNG GẶP)</td></tr><tr class=""><td class="p-2 border"><strong>Đồng echo (Isoechoic)</strong></td><td class="p-2 border">Có thể lành hoặc ác</td></tr><tr class=""><td class="p-2 border"><strong>Không đồng nhất (Heterogeneous)</strong></td><td class="p-2 border">Nghi ngờ ác tính</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>5. Đặc điểm echo phía sau (Posterior Features):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Gợi ý</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Không thay đổi (No posterior features)</strong></td><td class="p-2 border">Không đặc hiệu</td></tr><tr class=""><td class="p-2 border"><strong>Tăng âm (Enhancement)</strong></td><td class="p-2 border">Nang, fibroadenoma</td></tr><tr class=""><td class="p-2 border"><strong>Bóng cản (Shadowing)</strong></td><td class="p-2 border"><strong>Nghi ngờ ác tính</strong> (do xơ hóa mô đệm quanh u, desmoplasia)</td></tr><tr class=""><td class="p-2 border"><strong>Kết hợp (Combined pattern)</strong></td><td class="p-2 border">Nghi ngờ ác tính</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>6. Vôi hóa (Calcifications):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Gợi ý</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Không có</strong></td><td class="p-2 border">—</td></tr><tr class=""><td class="p-2 border"><strong>Vôi hóa trong khối (Calcifications in a mass)</strong></td><td class="p-2 border">Có thể lành hoặc ác</td></tr><tr class=""><td class="p-2 border"><strong>Vôi hóa ngoài khối (Calcifications outside a mass)</strong></td><td class="p-2 border">Cần mammography để đặc điểm hóa</td></tr><tr class=""><td class="p-2 border"><strong>Vôi hóa trong ống tuyến (Intraductal calcifications)</strong></td><td class="p-2 border"><strong>Nghi ngờ DCIS</strong></td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>7. Đặc điểm phụ (Associated Features):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Gợi ý</th></tr></thead><tbody><tr class=""><td class="p-2 border">Biến dạng cấu trúc (Architectural distortion)</td><td class="p-2 border">Ác tính</td></tr><tr class=""><td class="p-2 border">Thay đổi ống tuyến (Duct changes) — ống tuyến giãn hoặc lấp đầy</td><td class="p-2 border">Có thể DCIS, papilloma</td></tr><tr class=""><td class="p-2 border">Thay đổi da: dày da (skin thickening), co kéo da (skin retraction)</td><td class="p-2 border">Ác tính</td></tr><tr class=""><td class="p-2 border">Phù nề (Edema)</td><td class="p-2 border">Viêm, ác tính</td></tr><tr class=""><td class="p-2 border">Tăng sinh mạch (Vascularity)</td><td class="p-2 border">Không đặc hiệu</td></tr><tr class=""><td class="p-2 border">Mất ranh giới (Elasticity assessment) — khối cứng</td><td class="p-2 border">Nghi ngờ ác tính</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.2. Bảng phân loại BI-RADS</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">BI-RADS</th><th class="p-2 border whitespace-nowrap">Mô tả</th><th class="p-2 border whitespace-nowrap">Nguy cơ ác tính</th><th class="p-2 border whitespace-nowrap">Khuyến cáo</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>0</strong></td><td class="p-2 border">Chưa hoàn chỉnh (Incomplete)</td><td class="p-2 border">—</td><td class="p-2 border">Cần thêm hình ảnh (mammography, MRI)</td></tr><tr class=""><td class="p-2 border"><strong>1</strong></td><td class="p-2 border">Âm tính (Negative)</td><td class="p-2 border">0%</td><td class="p-2 border">Sàng lọc định kỳ</td></tr><tr class=""><td class="p-2 border"><strong>2</strong></td><td class="p-2 border">Lành tính (Benign) — nang đơn thuần, fibroadenoma ổn định, hạch trong vú, implant intact</td><td class="p-2 border">0%</td><td class="p-2 border">Sàng lọc định kỳ</td></tr><tr class=""><td class="p-2 border"><strong>3</strong></td><td class="p-2 border">Có thể lành tính (Probably Benign)</td><td class="p-2 border"><strong>≤ 2%</strong></td><td class="p-2 border">Siêu âm theo dõi ngắn hạn (6 tháng)</td></tr><tr class=""><td class="p-2 border"><strong>4A</strong></td><td class="p-2 border">Nghi ngờ ác tính thấp</td><td class="p-2 border"><strong>2-10%</strong></td><td class="p-2 border">Sinh thiết</td></tr><tr class=""><td class="p-2 border"><strong>4B</strong></td><td class="p-2 border">Nghi ngờ ác tính vừa</td><td class="p-2 border"><strong>10-50%</strong></td><td class="p-2 border">Sinh thiết</td></tr><tr class=""><td class="p-2 border"><strong>4C</strong></td><td class="p-2 border">Nghi ngờ ác tính cao</td><td class="p-2 border"><strong>50-95%</strong></td><td class="p-2 border">Sinh thiết</td></tr><tr class=""><td class="p-2 border"><strong>5</strong></td><td class="p-2 border">Rất nghi ngờ ác tính</td><td class="p-2 border"><strong>≥ 95%</strong></td><td class="p-2 border">Sinh thiết</td></tr><tr class=""><td class="p-2 border"><strong>6</strong></td><td class="p-2 border">Đã xác nhận ác tính qua sinh thiết</td><td class="p-2 border">100%</td><td class="p-2 border">Điều trị theo giai đoạn</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">6. CÁC TỔN THƯƠNG HAY GẶP (LÀNH TÍNH & ÁC TÍNH)</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.1. A — TỔN THƯƠNG LÀNH TÍNH</h3>
+<p class="text-stone-700 mb-3"><strong>A1. Nang vú đơn thuần (Simple Cyst):</strong></p>
+<p class="text-stone-700 mb-3">TIÊU CHUẨN CHẨN ĐOÁN (3 tiêu chuẩn — cần CẢ 3):</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Trống âm (anechoic)</li>
+<li>Thành mỏng, không thấy</li>
+<li>Tăng âm phía sau (posterior acoustic enhancement)</li></ol>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>BI-RADS</strong></td><td class="p-2 border">2 (lành tính)</td></tr><tr class=""><td class="p-2 border"><strong>Xử trí</strong></td><td class="p-2 border">Không cần chọc hút, trừ khi có triệu chứng đau hoặc quá to</td></tr><tr class=""><td class="p-2 border"><strong>Dịch tễ</strong></td><td class="p-2 border">25-30% phụ nữ dưới 50 tuổi</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>A2. Nang phức tạp (Complicated Cyst):</strong></p>
+<p class="text-stone-700 mb-3">Là nang có echo bên trong (mảnh vụn, xuất huyết, viêm), nhưng thành vẫn mỏng và còn tăng âm phía sau.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>BI-RADS</strong></td><td class="p-2 border">3 (theo dõi) hoặc 2 (nếu điển hình)</td></tr><tr class=""><td class="p-2 border"><strong>Xử trí</strong></td><td class="p-2 border">Theo dõi hoặc chọc hút nếu có triệu chứng</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>A3. Fibroadenoma (U xơ tuyến — Bướu sợi tuyến):</strong></p>
+<p class="text-stone-700 mb-3">Khối u lành tính phổ biến nhất ở phụ nữ trẻ (15-35 tuổi).</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Hình dạng</strong></td><td class="p-2 border"><strong>Oval</strong>, thường có 2-3 thùy nhẹ (macrolobulated)</td></tr><tr class=""><td class="p-2 border"><strong>Hướng</strong></td><td class="p-2 border"><strong>Song song với da</strong> (rộng hơn cao)</td></tr><tr class=""><td class="p-2 border"><strong>Bờ</strong></td><td class="p-2 border"><strong>Ranh giới rõ</strong> (circumscribed)</td></tr><tr class=""><td class="p-2 border"><strong>Echo</strong></td><td class="p-2 border">Giảm echo đồng nhất (hypoechoic)</td></tr><tr class=""><td class="p-2 border"><strong>Phía sau</strong></td><td class="p-2 border">Tăng âm hoặc không thay đổi</td></tr><tr class=""><td class="p-2 border"><strong>BI-RADS</strong></td><td class="p-2 border">3 (tuổi trẻ, điển hình) hoặc 2 (ổn định qua nhiều lần SA)</td></tr><tr class=""><td class="p-2 border"><strong>Xử trí</strong></td><td class="p-2 border">Theo dõi siêu âm 6-12 tháng hoặc sinh thiết nếu > 35T, tăng kích thước, hoặc đặc điểm không điển hình</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>A4. Nang dầu (Oil Cyst / Fat Necrosis):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Nguyên nhân</strong></td><td class="p-2 border">Sau chấn thương, phẫu thuật, xạ trị — hoại tử mỡ</td></tr><tr class=""><td class="p-2 border"><strong>Hình ảnh</strong></td><td class="p-2 border">Nang echo trống hoặc hỗn hợp, có thể có vôi hóa viền (egg-shell calcification), thành dày</td></tr><tr class=""><td class="p-2 border"><strong>BI-RADS</strong></td><td class="p-2 border">2 nếu điển hình; 3 hoặc 4A nếu không điển hình</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>A5. Áp xe vú (Breast Abscess):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Lâm sàng</strong></td><td class="p-2 border">Sốt, đau, đỏ, sưng vú; hay gặp ở phụ nữ cho con bú (lactational mastitis)</td></tr><tr class=""><td class="p-2 border"><strong>Hình ảnh</strong></td><td class="p-2 border">Khối echo hỗn hợp, bờ không đều, có dịch echo kém bên trong (mủ), thành dày, tăng sinh mạch viền trên Doppler</td></tr><tr class=""><td class="p-2 border"><strong>BI-RADS</strong></td><td class="p-2 border">2 hoặc 3</td></tr><tr class=""><td class="p-2 border"><strong>Xử trí</strong></td><td class="p-2 border">Dẫn lưu (chọc hút hoặc rạch) + kháng sinh</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.2. B — TỔN THƯƠNG ÁC TÍNH</h3>
+<p class="text-stone-700 mb-3"><strong>B1. Ung thư vú thể ống xâm lấn (IDC — Invasive Ductal Carcinoma):</strong></p>
+<p class="text-stone-700 mb-3">Chiếm <strong>70-80%</strong> ung thư vú xâm lấn.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm siêu âm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Hình dạng</strong></td><td class="p-2 border"><strong>KHÔNG ĐỀU (Irregular)</strong></td></tr><tr class=""><td class="p-2 border"><strong>Hướng</strong></td><td class="p-2 border"><strong>Không song song da</strong> — "taller-than-wide"</td></tr><tr class=""><td class="p-2 border"><strong>Bờ</strong></td><td class="p-2 border"><strong>TUA GAI (Spiculated)</strong> hoặc góc cạnh (angular), không rõ</td></tr><tr class=""><td class="p-2 border"><strong>Echo</strong></td><td class="p-2 border"><strong>Giảm echo rõ</strong> (markedly hypoechoic), không đồng nhất</td></tr><tr class=""><td class="p-2 border"><strong>Phía sau</strong></td><td class="p-2 border"><strong>BÓNG CẢN (Posterior shadowing)</strong> — dấu hiệu đặc trưng</td></tr><tr class=""><td class="p-2 border"><strong>Vôi hóa</strong></td><td class="p-2 border">Có thể có vi vôi hóa trong khối</td></tr><tr class=""><td class="p-2 border"><strong>Mô xung quanh</strong></td><td class="p-2 border">Biến dạng cấu trúc (architectural distortion), co kéo dây chằng Cooper</td></tr><tr class=""><td class="p-2 border"><strong>Doppler</strong></td><td class="p-2 border">Tăng sinh mạch trung tâm và ngoại vi, RI cao</td></tr><tr class=""><td class="p-2 border"><strong>BI-RADS</strong></td><td class="p-2 border"><strong>4C hoặc 5</strong></td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>B2. Ung thư vú thể tiểu thùy xâm lấn (ILC — Invasive Lobular Carcinoma):</strong></p>
+<p class="text-stone-700 mb-3">Chiếm ~10%. <strong>KHÓ PHÁT HIỆN</strong> trên cả mammography và siêu âm.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm siêu âm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Hình ảnh</strong></td><td class="p-2 border">Có thể chỉ thấy <strong>bóng cản khu trú không có khối rõ</strong> (focal shadowing without mass)</td></tr><tr class=""><td class="p-2 border"><strong>Bờ</strong></td><td class="p-2 border">Biến dạng cấu trúc, mô vú không đối xứng</td></tr><tr class=""><td class="p-2 border"><strong>Khối</strong></td><td class="p-2 border">Nếu thấy khối: giảm echo, bờ tua gai</td></tr><tr class=""><td class="p-2 border"><strong>BI-RADS</strong></td><td class="p-2 border">4 hoặc 5 (nhưng dễ âm tính giả)</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>B3. DCIS (Ductal Carcinoma In Situ):</strong></p>
+<p class="text-stone-700 mb-3">Ung thư tại chỗ, chưa xâm lấn qua màng đáy.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm siêu âm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Khối</strong></td><td class="p-2 border">Có thể thấy giảm echo, bờ không đều, hình ống (tubular) hoặc phân nhánh</td></tr><tr class=""><td class="p-2 border"><strong>Ống tuyến giãn</strong></td><td class="p-2 border">Ống tuyến giãn chứa mô echo kém</td></tr><tr class=""><td class="p-2 border"><strong>Vi vôi hóa</strong></td><td class="p-2 border">Có thể thấy chấm echo dày trong ống tuyến giãn — phát hiện TỐT HƠN trên mammography</td></tr><tr class=""><td class="p-2 border"><strong>Không có khối</strong></td><td class="p-2 border">Nhiều trường hợp DCIS grade thấp KHÔNG thấy trên siêu âm (chỉ thấy vi vôi hóa trên mammogram)</td></tr><tr class=""><td class="p-2 border"><strong>BI-RADS</strong></td><td class="p-2 border">4 (nếu thấy)</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.3. BẢNG TỔNG HỢP: LÀNH vs ÁC TRÊN SIÊU ÂM</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Lành tính</th><th class="p-2 border whitespace-nowrap">Ác tính</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Hình dạng</strong></td><td class="p-2 border">Oval, tròn</td><td class="p-2 border"><strong>Không đều</strong> (Irregular)</td></tr><tr class=""><td class="p-2 border"><strong>Hướng</strong></td><td class="p-2 border"><strong>Song song da</strong> (Parallel)</td><td class="p-2 border"><strong>Không song song da</strong> (Taller-than-wide)</td></tr><tr class=""><td class="p-2 border"><strong>Bờ</strong></td><td class="p-2 border">Ranh giới rõ (Circumscribed)</td><td class="p-2 border"><strong>Tua gai (Spiculated), góc cạnh, vi thùy</strong></td></tr><tr class=""><td class="p-2 border"><strong>Echo</strong></td><td class="p-2 border">Đồng echo, tăng echo</td><td class="p-2 border"><strong>Giảm echo rõ, không đồng nhất</strong></td></tr><tr class=""><td class="p-2 border"><strong>Phía sau</strong></td><td class="p-2 border">Tăng âm, không đổi</td><td class="p-2 border"><strong>Bóng cản (Shadowing)</strong></td></tr><tr class=""><td class="p-2 border"><strong>Vôi hóa</strong></td><td class="p-2 border">Vôi hóa thô, viền</td><td class="p-2 border">Vi vôi hóa trong khối / ống tuyến</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Mô xung quanh</strong></td><td class="p-2 border">Bình thường</td><td class="p-2 border">Biến dạng cấu trúc, co kéo da, dày da, phù nề</td></tr><tr class=""><td class="p-2 border"><strong>Đàn hồi (Elastography)</strong></td><td class="p-2 border">Mềm, biến dạng khi nén</td><td class="p-2 border"><strong>Cứng</strong>, không biến dạng</td></tr><tr class=""><td class="p-2 border"><strong>Ví dụ</strong></td><td class="p-2 border">Nang đơn thuần, Fibroadenoma</td><td class="p-2 border">IDC, ILC, DCIS</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">7. DOPPLER & ELASTOGRAPHY</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.1. Doppler màu</h3>
+<p class="text-stone-700 mb-3">Doppler KHÔNG phải là tiêu chí độc lập trong BI-RADS 5th, nhưng cung cấp thông tin bổ trợ.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Lành tính</th><th class="p-2 border whitespace-nowrap">Ác tính</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Mạch máu</strong></td><td class="p-2 border">Ngoại vi, ít mạch máu</td><td class="p-2 border"><strong>Trung tâm + ngoại vi, tăng sinh mạch mạnh</strong></td></tr><tr class=""><td class="p-2 border"><strong>RI (Resistive Index)</strong></td><td class="p-2 border">< 0.7</td><td class="p-2 border"><strong>> 0.7</strong> (gợi ý, không chẩn đoán)</td></tr><tr class=""><td class="p-2 border"><strong>Số mạch máu</strong></td><td class="p-2 border">ít (< 2-3 mạch)</td><td class="p-2 border">Nhiều mạch xuyên thấu (penetrating vessels)</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.2. Elastography (Siêu âm đàn hồi)</h3>
+<p class="text-stone-700 mb-3">Đánh giá <strong>độ cứng</strong> của mô. Mô ác tính (xơ hóa mô đệm — desmoplasia) cứng hơn mô lành.</p>
+<p class="text-stone-700 mb-3"><strong>Strain Elastography — Thang điểm Tsukuba (1-5):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Điểm</th><th class="p-2 border whitespace-nowrap">Mô tả</th><th class="p-2 border whitespace-nowrap">Gợi ý</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>1</strong></td><td class="p-2 border">Toàn bộ tổn thương mềm (biến dạng đều)</td><td class="p-2 border">Lành tính</td></tr><tr class=""><td class="p-2 border"><strong>2</strong></td><td class="p-2 border">Hầu hết mềm, có vài vùng cứng nhỏ</td><td class="p-2 border">Lành tính</td></tr><tr class=""><td class="p-2 border"><strong>3</strong></td><td class="p-2 border">Cứng ở ngoại vi, mềm ở trung tâm</td><td class="p-2 border">Không xác định</td></tr><tr class=""><td class="p-2 border"><strong>4</strong></td><td class="p-2 border">Toàn bộ tổn thương cứng</td><td class="p-2 border"><strong>Ác tính</strong></td></tr><tr class=""><td class="p-2 border"><strong>5</strong></td><td class="p-2 border">Cứng lan ra mô xung quanh</td><td class="p-2 border"><strong>Ác tính</strong></td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Shear Wave Elastography (SWE):</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Đo vận tốc sóng biến dạng (m/s) hoặc độ cứng (kPa)</li>
+<li><strong>Emax > 80 kPa</strong> (hoặc > 160 kPa tùy máy) → nghi ngờ ác tính</li>
+<li><strong>Emean</strong> thấp, đồng nhất → lành tính</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">8. KHẢO SÁT HẠCH NÁCH</h2>
+<p class="text-stone-700 mb-3">Khảo sát hạch nách là <strong>BẮT BUỘC</strong> khi:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Phát hiện tổn thương BI-RADS 4 hoặc 5</li>
+<li>Có khối sờ thấy ở nách</li>
+<li>Ung thư vú đã xác nhận (đánh giá giai đoạn)</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">8.1. Hạch nách bình thường</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Hình dạng</strong></td><td class="p-2 border">Bầu dục dẹt (tỷ lệ dài/ngang > 2)</td></tr><tr class=""><td class="p-2 border"><strong>Vỏ hạch</strong></td><td class="p-2 border">Echo kém, mỏng, đều</td></tr><tr class=""><td class="p-2 border"><strong>Rốn hạch (Hilum)</strong></td><td class="p-2 border"><strong>CÓ</strong> — echo dày ở trung tâm (mô mỡ + mạch máu)</td></tr><tr class=""><td class="p-2 border"><strong>Mạch máu</strong></td><td class="p-2 border">Doppler thấy mạch máu đi vào qua rốn hạch</td></tr><tr class=""><td class="p-2 border"><strong>Kích thước</strong></td><td class="p-2 border">Trục ngắn thường ≤ 1 cm (có thể lớn hơn ở người béo phì)</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">8.2. Hạch nách ác tính / Di căn</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Hình dạng</strong></td><td class="p-2 border"><strong>Tròn</strong> (tỷ lệ dài/ngang < 2)</td></tr><tr class=""><td class="p-2 border"><strong>Vỏ hạch</strong></td><td class="p-2 border"><strong>Dày, không đều</strong>, echo kém (xâm lấn vỏ)</td></tr><tr class=""><td class="p-2 border"><strong>Rốn hạch</strong></td><td class="p-2 border"><strong>MẤT hoặc bị đẩy lệch</strong></td></tr><tr class=""><td class="p-2 border"><strong>Vôi hóa</strong></td><td class="p-2 border">Có thể có vi vôi hóa (di căn từ K vú)</td></tr><tr class=""><td class="p-2 border"><strong>Mạch máu</strong></td><td class="p-2 border">Mạch máu ngoại vi, xuyên vỏ (không qua rốn hạch)</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Lưu ý</strong>: Không phải mọi hạch tròn đều là di căn — hạch viêm phản ứng cũng có thể tròn. Kết hợp lâm sàng.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">9. LƯU ĐỒ QUYẾT ĐỊNH LÂM SÀNG</h2>
+<div class="mermaid text-center my-6">flowchart TD
+    START["SIÊU ÂM TUYẾN VÚ<br>Linear probe 10-15 MHz"] --> SCAN["Quét radial + antiradial<br>toàn bộ vú + đuôi nách"]
+    SCAN --> FIND{"Phát hiện<br>tổn thương?"}
+    FIND -->|"KHÔNG"| NEG["BI-RADS 1<br>Âm tính<br>Sàng lọc định kỳ"]
+    FIND -->|"CÓ"| CYST{"Nang đơn thuần?<br>(trống âm + thành mỏng<br>+ tăng âm phía sau)"}
+    CYST -->|"CÓ"| BR2["BI-RADS 2<br>Lành tính<br>Không can thiệp"]
+    CYST -->|"KHÔNG"| BIRADS["Phân loại BI-RADS<br>Dựa trên hình dạng, hướng,<br>bờ, echo, bóng cản, vôi hóa"]
+    BIRADS --> LEVEL{"BI-RADS Level?"}
+    LEVEL -->|"3"| BR3["Theo dõi SA<br>sau 6 tháng"]
+    LEVEL -->|"4A"| BX["SINH THIẾT<br>Core biopsy"]
+    LEVEL -->|"4B"| BX
+    LEVEL -->|"4C"| BX
+    LEVEL -->|"5"| BX
+    BX --> PATH{"Giải phẫu bệnh"}
+    PATH -->|"Lành tính"| FU["Theo dõi<br>± cắt bỏ"]
+    PATH -->|"Ác tính"| STAGE["Đánh giá giai đoạn<br>Mammography, MRI, CT<br>Hạch nách, di căn xa"]
+    STAGE --> TX["Phẫu thuật<br>± Hóa trị ± Xạ trị<br>± Nội tiết ± Đích"]
+    
+    style START fill:#e3f2fd,stroke:#1976d2
+    style BR2 fill:#c8e6c9,stroke:#388e3c
+    style NEG fill:#c8e6c9,stroke:#388e3c
+    style BX fill:#ffcdd2,stroke:#c62828
+    style TX fill:#ffcdd2,stroke:#c62828
+    style BIRADS fill:#fff3cd,stroke:#f57c00</div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">10. SAI LẦM THƯỜNG GẶP</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">#</th><th class="p-2 border whitespace-nowrap">Sai lầm</th><th class="p-2 border whitespace-nowrap">Hậu quả</th><th class="p-2 border whitespace-nowrap">Cách tránh</th></tr></thead><tbody><tr class=""><td class="p-2 border">1</td><td class="p-2 border"><strong>Dùng đầu dò convex thay vì linear</strong></td><td class="p-2 border">Độ phân giải kém, bỏ sót bờ tua gai và vi vôi hóa</td><td class="p-2 border">Luôn dùng <strong>linear probe ≥ 10 MHz</strong></td></tr><tr class=""><td class="p-2 border">2</td><td class="p-2 border"><strong>Không khảo sát đối bên</strong></td><td class="p-2 border">Bỏ sót ung thư vú 2 bên (2-5% các trường hợp)</td><td class="p-2 border">Luôn hỏi BN có muốn khảo sát cả 2 bên; khảo sát nếu nghi ngờ</td></tr><tr class="bg-green-50"><td class="p-2 border">3</td><td class="p-2 border"><strong>Nhầm mô mỡ vú bình thường với khối</strong></td><td class="p-2 border">Bệnh nhân lo lắng, sinh thiết không cần thiết</td><td class="p-2 border">Mô mỡ có echo kém nhưng hình thùy, có vách mỏng, không có bờ rõ như khối; so sánh đối bên</td></tr><tr class=""><td class="p-2 border">4</td><td class="p-2 border"><strong>Không khảo sát hạch nách khi có BI-RADS 4-5</strong></td><td class="p-2 border">Bỏ sót di căn hạch, đánh giá sai giai đoạn</td><td class="p-2 border">BẮT BUỘC siêu âm hạch nách khi nghi ngờ ác tính</td></tr><tr class=""><td class="p-2 border">5</td><td class="p-2 border"><strong>Kết luận BI-RADS 3 cho tổn thương không điển hình</strong></td><td class="p-2 border">Bỏ sót ung thư giai đoạn sớm</td><td class="p-2 border">BI-RADS 3 chỉ dành cho tổn thương CÓ THỂ lành tính với độ chắc chắn cao. Nếu không chắc → BI-RADS 4</td></tr><tr class=""><td class="p-2 border">6</td><td class="p-2 border"><strong>Không đo tổn thương ở cả radial và antiradial</strong></td><td class="p-2 border">Đo sai kích thước, bỏ sót "taller-than-wide"</td><td class="p-2 border">Luôn đo ở 2 mặt cắt vuông góc</td></tr><tr class=""><td class="p-2 border">7</td><td class="p-2 border"><strong>Chỉ dựa vào elastography để phân loại BI-RADS</strong></td><td class="p-2 border">Chẩn đoán sai (elastography bổ trợ, không thay thế BI-RADS 2D)</td><td class="p-2 border">Elastography là công cụ BỔ TRỢ — BI-RADS dựa trên đặc điểm 2D là chính</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">11. ÁP DỤNG TẠI VIỆT NAM</h2>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Dịch tễ ung thư vú tại VN</strong>: Là ung thư <strong>phổ biến nhất ở nữ giới Việt Nam</strong> (theo GLOBOCAN 2022). Tỷ lệ mắc chuẩn hóa theo tuổi ~34/100,000. Xu hướng trẻ hóa (nhiều BN < 40 tuổi).</li>
+<li><strong>Sàng lọc</strong>: Chưa có chương trình sàng lọc quốc gia toàn dân. Mammography có ở BV tuyến tỉnh trở lên nhưng chưa phổ cập.</li>
+<li><strong>Siêu âm vú tại VN</strong>: Phổ biến hơn mammography (chi phí thấp, sẵn có, không nhiễm xạ). Linear probe có ở hầu hết BV tuyến huyện trở lên.</li>
+<li><strong>Core biopsy</strong>: Có sẵn ở BV tuyến tỉnh. Sinh thiết lõi dưới hướng dẫn siêu âm là tiêu chuẩn vàng.</li>
+<li><strong>Điều trị</strong>: Phẫu thuật (cắt rộng, cắt toàn bộ, cắt triệt căn cải biên) có ở hầu hết BV tỉnh. Hóa trị, xạ trị, nội tiết, điều trị đích (Herceptin) có ở BV tuyến TW và BV chuyên khoa ung bướu.</li>
+<li><strong>Lưu ý đặc thù VN</strong>: Phụ nữ VN có mô vú dày (dense breast) phổ biến → mammography độ nhạy giảm → siêu âm vú CỰC KỲ QUAN TRỌNG. Nhiều BN trẻ (30-40T) phát hiện K vú qua siêu âm.</li>
+<li><strong>BI-RADS</strong>: Được áp dụng rộng rãi ở Việt Nam. Nên ghi BI-RADS category trong mọi báo cáo siêu âm vú.</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">12. TIPS THỰC HÀNH — 10 TIPS</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Linear probe ≥ 10 MHz là BẮT BUỘC</strong> — không thỏa hiệp với convex probe trong siêu âm vú</li>
+<li><strong>BN nằm ngửa, tay giơ lên đầu</strong> — mô vú trải phẳng, giảm bề dày, tăng độ phân giải</li>
+<li><strong>Quét RADIAL + ANTIRADIAL</strong> — radial theo ống tuyến, antiradial để đánh giá bờ vuông góc</li>
+<li><strong>Mặt đồng hồ (clock-face) + khoảng cách đến núm vú</strong> — mô tả chuẩn vị trí tổn thương</li>
+<li><strong>Nang đơn thuần = 3 tiêu chuẩn</strong> — trống âm + thành mỏng + tăng âm phía sau → BI-RADS 2, không chọc hút</li>
+<li><strong>"Taller-than-wide" + bờ tua gai + bóng cản = bộ ba IDC</strong> — nghi ngờ cao, sinh thiết ngay</li>
+<li><strong>Siêu âm hố nách là BẮT BUỘC</strong> khi BI-RADS ≥ 4 — đừng quên bước này</li>
+<li><strong>Không phải mọi khối giảm echo đều ác tính</strong> — fibroadenoma cũng giảm echo; phân biệt nhờ hình oval, bờ rõ, song song da</li>
+<li><strong>Elastography bổ trợ, không thay thế</strong> — độ cứng cao (Tsukuba 4-5) ủng hộ ác tính nhưng BI-RADS vẫn dựa trên 2D</li>
+<li><strong>Nếu không chắc → BI-RADS 4 (sinh thiết)</strong> — thà sinh thiết dư còn hơn bỏ sót ung thư</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">13. TỔNG KẾT — 10 ĐIỂM CẦN NHỚ</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Siêu âm vú là công cụ quan trọng</strong> — đặc biệt ở phụ nữ trẻ, mô vú dày. Bổ trợ mammography, không thay thế hoàn toàn.</li>
+<li><strong>Linear probe 10-15 MHz bắt buộc</strong> — cho độ phân giải tối ưu cấu trúc nông của vú</li>
+<li><strong>Hai mặt cắt chính</strong>: Radial (dọc ống tuyến) và Antiradial (vuông góc ống tuyến)</li>
+<li><strong>BI-RADS dựa trên 7 nhóm đặc điểm</strong>: Hình dạng, hướng, bờ, echo, echo phía sau, vôi hóa, đặc điểm phụ</li>
+<li><strong>Nang đơn thuần = BI-RADS 2</strong> — không cần chọc hút (trừ khi triệu chứng)</li>
+<li><strong>Fibroadenoma = oval, bờ rõ, song song da, giảm echo đồng nhất</strong> — BI-RADS 3 ở người trẻ</li>
+<li><strong>IDC = irregular, taller-than-wide, bờ tua gai, giảm echo rõ, bóng cản phía sau</strong> — BI-RADS 4C/5</li>
+<li><strong>BI-RADS 3</strong> = theo dõi 6 tháng; <strong>BI-RADS 4</strong> = sinh thiết; <strong>BI-RADS 5</strong> = sinh thiết</li>
+<li><strong>Hạch nách bất thường</strong>: tròn, mất rốn hạch, dày vỏ không đều → nghi ngờ di căn</li>
+<li><strong>Tại VN</strong>: ung thư vú #1 ở nữ, mô vú dày phổ biến → siêu âm vú CỰC KỲ QUAN TRỌNG. Ghi BI-RADS trong mọi báo cáo.</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">14. TÀI LIỆU THAM KHẢO</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Fienberg S, Crivellaro PS, Fleming R, et al. (2026).</strong> "CAR Practice Guidelines on Breast Imaging and Interventions: Breast Ultrasound." <em>Canadian Association of Radiologists Journal</em>, 2026 May 26. PMID: <strong>42198835</strong>. DOI: 10.1177/08465371261451256. [GUIDELINE VERIFIED — Tier 0, CAR Breast US 2026]</li>
+<li><strong>Expert Panel on Breast Imaging, Paulis LV, Lewin AA, et al. (2025).</strong> "ACR Appropriateness Criteria — Supplemental Breast Cancer Screening Based on Breast Density: 2024 Update." <em>Journal of the American College of Radiology</em>, 22(5S):S405-S423. PMID: <strong>40409891</strong>. DOI: 10.1016/j.jacr.2025.02.023. [GUIDELINE VERIFIED — Tier 0, ACR Breast Screening 2024]</li>
+<li><strong>Retson TA, Phillips BC, Fazeli S, et al. (2026).</strong> "Multimodality Evaluation of Regional Breast Lymph Nodes: Impact of Expected Changes in the Upcoming BI-RADS Sixth Edition." <em>Radiographics</em>, 46(5):e250188. PMID: <strong>42060488</strong>. DOI: 10.1148/rg.250188. [ABSTRACT VERIFIED — BI-RADS 6th edition lymph node]</li>
+<li><strong>ACR BI-RADS Atlas 5th Edition (2013).</strong> "Breast Imaging Reporting and Data System: Ultrasound." American College of Radiology. [GUIDELINE VERIFIED — Tier 0, ACR BI-RADS US]</li>
+<li><strong>Mendelson EB, Böhm-Vélez M, Berg WA, et al. (2013).</strong> "ACR BI-RADS — Ultrasound. In: ACR BI-RADS Atlas, Breast Imaging Reporting and Data System." American College of Radiology. [GUIDELINE VERIFIED — Tier 0, BI-RADS US lexicon]</li>
+<li><strong>Berg WA, Cosgrove DO, Doré CJ, et al. (2012).</strong> "Shear-wave Elastography Improves the Specificity of Breast US: The BE1 Multinational Study of 939 Masses." <em>Radiology</em>, 262(2):435-449. PMID: 22282184. [ABSTRACT VERIFIED — Elastography BE1 trial]</li>
+<li><strong>Barr RG, Nakashima K, Amy D, et al. (2015).</strong> "WFUMB Guidelines and Recommendations for Clinical Use of Ultrasound Elastography: Part 2: Breast." <em>Ultrasound in Medicine & Biology</em>, 41(5):1148-1160. [GUIDELINE VERIFIED — Tier 1, WFUMB Breast Elastography 2015]</li></ol>
+<hr class="my-6 border-stone-300">
+<p class="text-stone-700 mb-3"><strong>— Hết bài học ngày 2026-06-28 —</strong></p>
+<p class="text-stone-700 mb-3"><strong>Bác sĩ:</strong> Ngọc 🍅 🐈‍⬛ | <strong>AI:</strong> MiniMax Mavis | <strong>Bài số 26</strong> | <strong>Chuyên khoa:</strong> Siêu âm tổng quát — Siêu âm tuyến vú</p>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bác sĩ: Ngọc 🍅 🐈‍⬛ | AI: MiniMax Mavis | </p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+</script>
+</body>
+</html>

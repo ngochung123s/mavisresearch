@@ -1,0 +1,80 @@
+{
+  "part": "part2",
+  "checked": 12,
+  "passed_hash": 12,
+  "passed_exact_substring": 12,
+  "results": [
+    {
+      "candidate_id": "EHA-ANC-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "PMCID PMC10065839; section “DEFINITION AND CLASSIFICATION OF NEUTROPENIA” > “Definition of neutropenia”; paragraph beginning “The terms mild, moderate, and severe...”"
+    },
+    {
+      "candidate_id": "PTCP-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "PMCID PMC11493459; abstract “Highlights”; bullet list “Recommendations for the management of EDTA-induced pseudothrombocytopenia”"
+    },
+    {
+      "candidate_id": "COAG-SPEC-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "PMCID PMC6559624; section sec7 “Blood sample collection”; paragraph immediately before Recommendations"
+    },
+    {
+      "candidate_id": "COAG-FIB-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "PMCID PMC6559624; section sec22 “Fibrinogen”; first paragraph"
+    },
+    {
+      "candidate_id": "ICSH-FIB-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "Europe PMC core metadata, PMID 37984807; abstract sentences 3–5"
+    },
+    {
+      "candidate_id": "CHEST-RBC-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "PMCID PMC11867898; section sec1; recommendation 1"
+    },
+    {
+      "candidate_id": "CHEST-RBC-02",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "PMCID PMC11867898; section sec1; recommendation 2"
+    },
+    {
+      "candidate_id": "CHEST-RBC-03",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "PMCID PMC11867898; section sec1; recommendation 3"
+    },
+    {
+      "candidate_id": "AABB-RBC-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "Europe PMC core metadata; PMID 37824153; abstract Recommendation 1"
+    },
+    {
+      "candidate_id": "AABB-PLT-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "Europe PMC core metadata; PMID 40440268; abstract Findings; strong recommendations"
+    },
+    {
+      "candidate_id": "AABB-PLT-02",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "Europe PMC core metadata; PMID 40440268; abstract Findings; conditional recommendations"
+    },
+    {
+      "candidate_id": "WHO-HB-MEASURE-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "WHO 2024 guideline, PDF page 41 (printed page 20), Normative statement 3 “Haemoglobin measurement”, first sentence"
+    }
+  ]
+}

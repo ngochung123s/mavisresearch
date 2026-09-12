@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "schema_version": "1.0",
+  "content_hash": "1beb869140734f5767fb79d76e269ec1b00415125f8c19410a436d2b116cc3ee",
+  "records": 10,
+  "raw_objects": 29,
+  "created_at": "2026-07-29T10:31:11.747735Z",
+  "freshness_required": true,
+  "missing_records": [],
+  "conflicts": {},
+  "official_lookup_results": {
+    "OEGN-HYPONATREMIA-2024": {
+      "pmid": "38421476",
+      "pmcid": "PMC10904443",
+      "doi": "10.1007/s00508-024-02325-5",
+      "openalex": "https://openalex.org/W4392302702",
+      "official_id": "OEGN-HYPONATREMIA-2024"
+    },
+    "BSG-LIVER-BLOOD-TESTS-2018": {
+      "pmid": "29122851",
+      "pmcid": "PMC5754852",
+      "doi": "10.1136/gutjnl-2017-314924",
+      "openalex": "https://openalex.org/W2767262086",
+      "official_id": "BSG-LIVER-BLOOD-TESTS-2018"
+    },
+    "ESC-ACS-2023-LANDING": {
+      "pmid": "37622654",
+      "pmcid": null,
+      "doi": "10.1093/eurheartj/ehad191",
+      "openalex": "https://openalex.org/W4386153206",
+      "official_id": "ESC-ACS-2023-LANDING"
+    },
+    "KDIGO-AKI-2012": {
+      "official_id": "KDIGO-AKI-2012",
+      "pmid": null,
+      "doi": null
+    },
+    "KDIGO-AKI-AKD-2026-DRAFT": {
+      "official_id": "KDIGO-AKI-AKD-2026-DRAFT",
+      "pmid": null,
+      "doi": null
+    },
+    "UKKA-HYPERKALAEMIA-2023": {
+      "official_id": "UKKA-HYPERKALAEMIA-2023",
+      "pmid": null,
+      "doi": null
+    }
+  },
+  "official_lookup_pass": true
+}

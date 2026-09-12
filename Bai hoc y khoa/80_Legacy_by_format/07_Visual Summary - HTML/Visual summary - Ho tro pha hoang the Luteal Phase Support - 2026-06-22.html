@@ -1,0 +1,489 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hỗ trợ pha hoàng thể (LPS) trong ART</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+
+<header class="text-center py-12 mb-12 glass rounded-3xl shadow-lg">
+  <div class="inline-block px-4 py-1 mb-4 rounded-full bg-pink-200 text-pink-800 text-sm font-semibold">
+    Chuyên khoa: Hỗ trợ sinh sản (ART)
+  </div>
+  <h1 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800">Hỗ trợ pha hoàng thể (LPS) trong ART</h1>
+  <p class="text-stone-600 text-lg">Ngày 22/06/2026 | Cho bác sĩ sản phụ khoa</p>
+  <p class="text-sm text-stone-500 mt-2">Bác sĩ: <strong>Ngọc 🍅 🐈‍⬛</strong> | AI: <strong>MiniMax Mavis</strong></p>
+</header>
+<main class="max-w-6xl mx-auto space-y-8">
+
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">🎯 TỔNG QUAN</h2>
+  <p class="text-stone-700 mb-4">
+    <strong>Hỗ trợ pha hoàng thể (LPS)</strong> là thành phần BẮT BUỘC trong mọi chu kỳ IVF/ICSI fresh.
+    COS gây ra luteal phase dysfunction gần như 100% do supraphysiological steroid ức chế LH → CL thoái hóa sớm.
+  </p>
+  <div class="grid md:grid-cols-3 gap-4 mt-6">
+    <div class="pastel-pink p-5 rounded-xl">
+      <div class="text-3xl mb-2">📊</div>
+      <div class="font-bold text-stone-800">NMA Kastora 2024</div>
+      <div class="text-sm text-stone-600 mt-2">76 RCT, 26.536 bệnh nhân fresh cycles</div>
+    </div>
+    <div class="pastel-blue p-5 rounded-xl">
+      <div class="text-3xl mb-2">🧬</div>
+      <div class="font-bold text-stone-800">NMA Balachandren 2025</div>
+      <div class="text-sm text-stone-600 mt-2">14 studies, 4.688 phụ nữ FET cycles</div>
+    </div>
+    <div class="pastel-mint p-5 rounded-xl">
+      <div class="text-3xl mb-2">💊</div>
+      <div class="font-bold text-stone-800">IPD Griesinger 2020</div>
+      <div class="text-sm text-stone-600 mt-2">9 studies dydrogesterone vs MVP</div>
+    </div>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">🧬 SINH LÝ PHA HOÀNG THỂ</h2>
+  <p class="text-stone-700 mb-4">
+    Pha hoàng thể = giai đoạn từ <strong>rụng trứng → trước kỳ kinh sau</strong>, kéo dài ~14 ngày nếu không thụ thai.
+    Corpus luteum (CL) tiết progesterone + estradiol duy trì nội mạc tử cung cho implantation.
+  </p>
+
+  <div class="mermaid">
+    flowchart LR
+      A[Ovulation<br/>Day 0] --> B[Early Luteal<br/>Day 1-4]
+      B --> C[Mid-Luteal<br/>Day 5-9<br/>Progesterone peak]
+      C --> D{Luteal day 10-14}
+      D -->|No pregnancy| E[CL regression<br/>Progesterone drop<br/>Menstruation]
+      D -->|Pregnancy + hCG| F[CL rescue<br/>Luteal-placental shift<br/>~7-10 weeks]
+      style C fill:#f4c2c2,stroke:#c8a4a5
+      style F fill:#c5e0c9,stroke:#7ba87e
+  </div>
+
+  <h3 class="text-xl font-bold text-stone-800 mt-6 mb-3">⏰ Luteal-Placental Shift</h3>
+  <p class="text-stone-700">
+    ~7-10 tuần: nhau thai đảm nhận sản xuất progesterone. Trước đó, CL cần hCG từ phôi để duy trì.
+    Do đó LPS chỉ cần đến <strong>8-10 tuần</strong>, không cần kéo dài hơn.
+  </p>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">⚠️ TẠI SAO ART GÂY LUTEAL DYSFUNCTION?</h2>
+
+  <div class="grid md:grid-cols-3 gap-4">
+    <div class="pastel-peach p-5 rounded-xl">
+      <div class="text-2xl mb-2">🔴</div>
+      <div class="font-bold text-stone-800">LH suppression</div>
+      <p class="text-sm text-stone-600 mt-2">
+        Steroid cao gấp 5-10 lần sinh lý ức chế LH từ tuyến yên qua feedback âm tính.
+      </p>
+    </div>
+    <div class="pastel-lavender p-5 rounded-xl">
+      <div class="text-2xl mb-2">⏱️</div>
+      <div class="font-bold text-stone-800">Premature luteolysis</div>
+      <p class="text-sm text-stone-600 mt-2">
+        CL thoái hóa sớm vào ngày 5-7 thay vì ngày 10-14. Progesterone giảm quá sớm.
+      </p>
+    </div>
+    <div class="pastel-mint p-5 rounded-xl">
+      <div class="text-2xl mb-2">📅</div>
+      <div class="font-bold text-stone-800">Endometrial advancement</div>
+      <p class="text-sm text-stone-600 mt-2">
+        Nội mạc trưởng thành quá mức, lệch window of implantation → giảm implantation rate.
+      </p>
+    </div>
+  </div>
+
+  <h3 class="text-xl font-bold text-stone-800 mt-6 mb-3">🎯 Trigger protocols & LPS needs</h3>
+  <table class="w-full text-left text-sm mt-3 border-collapse">
+    <thead>
+      <tr class="bg-pink-200 text-stone-800">
+        <th class="p-3 border border-stone-300">Trigger</th>
+        <th class="p-3 border border-stone-300">LH activity duration</th>
+        <th class="p-3 border border-stone-300">LPS requirement</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="p-3 border border-stone-300 font-bold">hCG 5.000-10.000 IU</td>
+        <td class="p-3 border border-stone-300">5-7 ngày</td>
+        <td class="p-3 border border-stone-300">Standard LPS (progesterone ± E2)</td>
+      </tr>
+      <tr class="bg-stone-50">
+        <td class="p-3 border border-stone-300 font-bold">GnRH agonist (leuprolide)</td>
+        <td class="p-3 border border-stone-300">&lt;24 giờ</td>
+        <td class="p-3 border border-stone-300"><strong>BẮT BUỘC CL rescue</strong> (hCG rescue + aggressive LPS) hoặc freeze all</td>
+      </tr>
+      <tr>
+        <td class="p-3 border border-stone-300 font-bold">Dual trigger</td>
+        <td class="p-3 border border-stone-300">Trung gian</td>
+        <td class="p-3 border border-stone-300">Standard LPS</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">💊 CÁC THUỐC LPS - SO SÁNH</h2>
+
+  <table class="w-full text-left text-sm border-collapse">
+    <thead>
+      <tr class="bg-pink-200 text-stone-800">
+        <th class="p-3 border border-stone-300">Thuốc</th>
+        <th class="p-3 border border-stone-300">Đường dùng</th>
+        <th class="p-3 border border-stone-300">Liều</th>
+        <th class="p-3 border border-stone-300">Ưu điểm</th>
+        <th class="p-3 border border-stone-300">Nhược điểm</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="p-3 border border-stone-300 font-bold">Vaginal progesterone (MVP)</td>
+        <td class="p-3 border border-stone-300">Viên đặt / gel</td>
+        <td class="p-3 border border-stone-300">200-400 mg × 2-3 lần/ngày</td>
+        <td class="p-3 border border-stone-300">First uterine pass effect</td>
+        <td class="p-3 border border-stone-300">Khó chịu âm đạo</td>
+      </tr>
+      <tr class="bg-stone-50">
+        <td class="p-3 border border-stone-300 font-bold">IM progesterone</td>
+        <td class="p-3 border border-stone-300">Tiêm bắp</td>
+        <td class="p-3 border border-stone-300">50-100 mg/ngày</td>
+        <td class="p-3 border border-stone-300">Nồng độ huyết thanh cao</td>
+        <td class="p-3 border border-stone-300">Đau, áp xe</td>
+      </tr>
+      <tr>
+        <td class="p-3 border border-stone-300 font-bold">Subcutaneous progesterone</td>
+        <td class="p-3 border border-stone-300">Tiêm dưới da</td>
+        <td class="p-3 border border-stone-300">25-50 mg/ngày</td>
+        <td class="p-3 border border-stone-300">Ít đau, tự tiêm được</td>
+        <td class="p-3 border border-stone-300">Ít data</td>
+      </tr>
+      <tr class="bg-stone-50">
+        <td class="p-3 border border-stone-300 font-bold">Oral dydrogesterone</td>
+        <td class="p-3 border border-stone-300">Uống</td>
+        <td class="p-3 border border-stone-300">20-40 mg/ngày</td>
+        <td class="p-3 border border-stone-300">Dễ uống, sinh khả dụng cao</td>
+        <td class="p-3 border border-stone-300">Phải qua gan</td>
+      </tr>
+      <tr>
+        <td class="p-3 border border-stone-300 font-bold">hCG rescue</td>
+        <td class="p-3 border border-stone-300">Tiêm</td>
+        <td class="p-3 border border-stone-300">1.500 IU × 2 liều</td>
+        <td class="p-3 border border-stone-300">Rescue CL (sau GnRHa trigger)</td>
+        <td class="p-3 border border-stone-300">Nguy cơ OHSS</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">📊 GRIESINGER 2020 - DYDROGESTERONE vs MVP</h2>
+  <p class="text-stone-700 mb-4">
+    IPD meta-analysis (n=1.957) so sánh oral dydrogesterone với micronized vaginal progesterone.
+    <strong>Dydrogesterone TỐT HƠN</strong> về ongoing pregnancy và live birth.
+  </p>
+  <div style="max-width:800px;margin:0 auto;"><canvas id="griesingerChart" height="120" style="width:100%!important;height:auto!important;"></canvas></div>
+
+  <div class="mt-6 grid md:grid-cols-2 gap-4">
+    <div class="pastel-mint p-4 rounded-xl">
+      <div class="text-sm text-stone-600">Ongoing Pregnancy (12 tuần)</div>
+      <div class="text-2xl font-bold text-stone-800 mt-1">OR 1.32</div>
+      <div class="text-sm text-stone-500">95% CI 1.08-1.61, p=0.0075</div>
+    </div>
+    <div class="pastel-pink p-4 rounded-xl">
+      <div class="text-sm text-stone-600">Live Birth</div>
+      <div class="text-2xl font-bold text-stone-800 mt-1">OR 1.28</div>
+      <div class="text-sm text-stone-500">95% CI 1.04-1.57, p=0.0214</div>
+    </div>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">🏆 KASTORA 2024 NMA - FRESH CYCLES (n=26.536)</h2>
+  <p class="text-stone-700 mb-4">
+    NMA Bayesian lớn nhất so sánh 22 protocols LPS. Reference = Vaginal progesterone (VP).
+    <strong>Combinatorial LPS với SCGnRH-a cho kết quả tối ưu</strong>.
+  </p>
+  <div style="max-width:800px;margin:0 auto;"><canvas id="kastoraChart" height="120" style="width:100%!important;height:auto!important;"></canvas></div>
+
+  <div class="mt-6 grid md:grid-cols-3 gap-4">
+    <div class="pastel-mint p-4 rounded-xl">
+      <div class="text-sm text-stone-600">VP + SCGnRH-a: Clinical Pregnancy</div>
+      <div class="text-2xl font-bold text-stone-800 mt-1">OR 1.28</div>
+      <div class="text-sm text-stone-500">95% CrI 1.05-1.55</div>
+    </div>
+    <div class="pastel-pink p-4 rounded-xl">
+      <div class="text-sm text-stone-600">VP + SCGnRH-a: Live Birth</div>
+      <div class="text-2xl font-bold text-stone-800 mt-1">OR 1.76</div>
+      <div class="text-sm text-stone-500">95% CrI 1.45-2.15</div>
+    </div>
+    <div class="pastel-blue p-4 rounded-xl">
+      <div class="text-sm text-stone-600">VP + SCGnRH-a: Miscarriage</div>
+      <div class="text-2xl font-bold text-stone-800 mt-1">OR 0.54</div>
+      <div class="text-sm text-stone-500">95% CrI 0.37-0.80 (GIẢM 46%)</div>
+    </div>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">❄️ BALACHANDREN 2025 NMA - FET CYCLES (n=4.688)</h2>
+  <p class="text-stone-700 mb-4">
+    Bổ sung <strong>1-2 liều SCGnRHa (0.1 mg)</strong> vào vaginal progesterone trong FET
+    tăng clinical pregnancy.
+  </p>
+
+  <div class="mermaid">
+    flowchart TD
+      A[FET - HRT cycle<br/>E2 6-8 mg/ngày] --> B{Nội mạc ≥7mm?}
+      B -->|Có| C[Bắt đầu VP<br/>trước ET 3-5 ngày]
+      C --> D[Embryo Transfer]
+      D --> E[SCGnRHa 0.1 mg<br/>Ngày 3 sau ET]
+      E --> F{Tái liều?}
+      F -->|Có| G[SCGnRHa 0.1 mg<br/>Ngày 6 sau ET]
+      F -->|Không| H[Tiếp tục VP đến tuần 10-12]
+      G --> H
+      style D fill:#f4c2c2,stroke:#c8a4a5
+      style E fill:#c5d5e0,stroke:#7b8aa1
+      style G fill:#c5d5e0,stroke:#7b8aa1
+  </div>
+
+  <div class="mt-6 pastel-peach p-5 rounded-xl">
+    <div class="font-bold text-stone-800">Kết quả chính</div>
+    <div class="text-2xl font-bold text-pink-700 mt-2">Clinical Pregnancy RR 1.86</div>
+    <div class="text-sm text-stone-600 mt-1">95% CrI 1.18-2.93 vs VP đơn thuần</div>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">❄️ FET CYCLES - 4 PROTOCOL & LPS</h2>
+
+  <div class="grid md:grid-cols-2 gap-4">
+    <div class="pastel-mint p-5 rounded-xl">
+      <div class="font-bold text-stone-800">1. Natural Cycle FET (NC-FET)</div>
+      <p class="text-sm text-stone-600 mt-2">
+        Tranh cãi. Có thể không cần LPS nếu ovulation tự nhiên.
+        Mizrachi 2021 (Hum Reprod Update, PMID 33829269) cho thấy LPS cải thiện pregnancy nhẹ.
+      </p>
+    </div>
+    <div class="pastel-pink p-5 rounded-xl">
+      <div class="font-bold text-stone-800">2. Modified Natural FET</div>
+      <p class="text-sm text-stone-600 mt-2">
+        hCG trigger ovulation + vaginal progesterone từ ngày sau ovulation.
+      </p>
+    </div>
+    <div class="pastel-blue p-5 rounded-xl">
+      <div class="font-bold text-stone-800">3. Artificial FET (HRT-FET) ⭐ PHỔ BIẾN</div>
+      <p class="text-sm text-stone-600 mt-2">
+        E2 (valerate 6-8 mg/ngày) → nội mạc ≥7mm → vaginal progesterone trước ET 3-5 ngày.
+        Cân nhắc SCGnRHa 0.1 mg ngày 3 (±6) sau ET.
+      </p>
+    </div>
+    <div class="pastel-peach p-5 rounded-xl">
+      <div class="font-bold text-stone-800">4. Stimulated FET</div>
+      <p class="text-sm text-stone-600 mt-2">
+        Letrozole hoặc gonadotropin nhẹ + hCG trigger + progesterone LPS.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">🏥 ỨNG DỤNG LÂM SÀNG</h2>
+
+  <div class="grid md:grid-cols-2 gap-4">
+    <div class="border-2 border-pink-300 p-5 rounded-xl">
+      <div class="font-bold text-stone-800 mb-2">📌 Tình huống 1: Fresh cycle (hCG trigger)</div>
+      <ul class="text-sm text-stone-700 space-y-1">
+        <li>• <strong>First-line</strong>: Vaginal progesterone 200 mg × 2 lần/ngày</li>
+        <li>• Hoặc gel 90 mg × 1 lần/ngày</li>
+        <li>• Hoặc oral dydrogesterone 20 mg × 2 lần/ngày</li>
+        <li>• Bắt đầu: ngày sau oocyte retrieval</li>
+        <li>• Tiếp tục đến 8-10 tuần</li>
+      </ul>
+    </div>
+    <div class="border-2 border-pink-300 p-5 rounded-xl">
+      <div class="font-bold text-stone-800 mb-2">📌 Tình huống 2: GnRHa trigger</div>
+      <ul class="text-sm text-stone-700 space-y-1">
+        <li>• <strong>Freeze all</strong> (ưu tiên OHSS-free)</li>
+        <li>• Hoặc modified LPS: 1.500 IU hCG rescue + aggressive progesterone</li>
+        <li>• Theo dõi sát OHSS</li>
+      </ul>
+    </div>
+    <div class="border-2 border-pink-300 p-5 rounded-xl">
+      <div class="font-bold text-stone-800 mb-2">📌 Tình huống 3: HRT-FET</div>
+      <ul class="text-sm text-stone-700 space-y-1">
+        <li>• E2 6-8 mg/ngày → nội mạc ≥7mm</li>
+        <li>• Vaginal progesterone trước ET 3-5 ngày</li>
+        <li>• + SCGnRHa 0.1 mg ngày 3 (Balachandren 2025)</li>
+      </ul>
+    </div>
+    <div class="border-2 border-pink-300 p-5 rounded-xl">
+      <div class="font-bold text-stone-800 mb-2">📌 Tình huống 4: High responders (OHSS risk)</div>
+      <ul class="text-sm text-stone-700 space-y-1">
+        <li>• TRÁNH hCG-based LPS</li>
+        <li>• Ưu tiên vaginal progesterone đơn thuần hoặc dydrogesterone</li>
+        <li>• Cân nhắc GnRHa trigger + freeze all</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">✅ TỔNG KẾT ĐIỂM CẦN NHỚ</h2>
+
+  <div class="grid md:grid-cols-2 gap-3">
+    <div class="pastel-mint p-4 rounded-xl flex items-start gap-3">
+      <span class="text-2xl">1️⃣</span>
+      <div>
+        <div class="font-bold text-stone-800">Luteal dysfunction gần như 100%</div>
+        <div class="text-xs text-stone-600">Sau COS → BẮT BUỘC có LPS</div>
+      </div>
+    </div>
+    <div class="pastel-pink p-4 rounded-xl flex items-start gap-3">
+      <span class="text-2xl">2️⃣</span>
+      <div>
+        <div class="font-bold text-stone-800">Vaginal progesterone first-line</div>
+        <div class="text-xs text-stone-600">Cochrane 2015 (PMID 26148507)</div>
+      </div>
+    </div>
+    <div class="pastel-blue p-4 rounded-xl flex items-start gap-3">
+      <span class="text-2xl">3️⃣</span>
+      <div>
+        <div class="font-bold text-stone-800">Dydrogesterone TỐT HƠN MVP</div>
+        <div class="text-xs text-stone-600">OR 1.32 ongoing pregnancy (Griesinger 2020)</div>
+      </div>
+    </div>
+    <div class="pastel-peach p-4 rounded-xl flex items-start gap-3">
+      <span class="text-2xl">4️⃣</span>
+      <div>
+        <div class="font-bold text-stone-800">VP + SCGnRH-a tối ưu</div>
+        <div class="text-xs text-stone-600">Fresh: OR 1.28 CP, OR 1.76 LB (Kastora 2024)</div>
+      </div>
+    </div>
+    <div class="pastel-lavender p-4 rounded-xl flex items-start gap-3">
+      <span class="text-2xl">5️⃣</span>
+      <div>
+        <div class="font-bold text-stone-800">FET: VP + SCGnRHa</div>
+        <div class="text-xs text-stone-600">CP RR 1.86 (Balachandren 2025)</div>
+      </div>
+    </div>
+    <div class="pastel-mint p-4 rounded-xl flex items-start gap-3">
+      <span class="text-2xl">6️⃣</span>
+      <div>
+        <div class="font-bold text-stone-800">GnRHa trigger cần LPS tích cực</div>
+        <div class="text-xs text-stone-600">Hoặc freeze all (Kol 2021)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md">
+  <h2 class="text-3xl font-bold text-pink-700 mb-6">📚 TÀI LIỆU THAM KHẢO</h2>
+  <ol class="space-y-2 text-sm text-stone-700">
+    <li><strong>Garg A 2024</strong> - <em>Nat Rev Endocrinol</em> 20(3):149-167 - <strong>PMID: 38110672</strong> [FULL VERIFIED]</li>
+    <li><strong>Kastora SL 2024</strong> - <em>Sci Rep</em> 14(1):14492 - <strong>PMID: 38914570</strong> [FULL VERIFIED]</li>
+    <li><strong>Balachandren N 2025</strong> - <em>BJOG</em> 132(9):1187-1201 - <strong>PMID: 40313195</strong> [FULL VERIFIED]</li>
+    <li><strong>Griesinger G 2020</strong> - <em>PLoS One</em> 15(11):e0241044 - <strong>PMID: 33147288</strong> [FULL VERIFIED]</li>
+    <li><strong>Kol S 2021</strong> - <em>Curr Opin Obstet Gynecol</em> 33(3):188-195 - <strong>PMID: 33394734</strong> [FULL VERIFIED]</li>
+    <li><strong>Van der Linden M 2015</strong> - <em>Cochrane Database Syst Rev</em> (7):CD009154 - <strong>PMID: 26148507</strong> [ABSTRACT VERIFIED]</li>
+    <li><strong>Doblinger J 2016</strong> - <em>PLoS One</em> 11(3):e0151388 - <strong>PMID: 26991890</strong> [ABSTRACT VERIFIED]</li>
+    <li><strong>ESHRE 2019</strong> - <em>Hum Reprod Open</em> 2020:hoaa009 - <strong>PMID: 32395637</strong> [Tier 0 guideline]</li>
+    <li><strong>Mizrachi Y 2021</strong> - <em>Hum Reprod Update</em> 27(4):643-650 - <strong>PMID: 33829269</strong> [ABSTRACT VERIFIED]</li>
+  </ol>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bài học y khoa ngày 22/06/2026 - Bác sĩ Ngọc 🍅 🐈‍⬛ - AI: MiniMax Mavis</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+// Griesinger 2020 chart
+const ctxG = document.getElementById('griesingerChart').getContext('2d');
+new Chart(ctxG, {
+  type: 'bar',
+  data: {
+    labels: ['Ongoing Pregnancy', 'Live Birth'],
+    datasets: [
+      {
+        label: 'Dydrogesterone tốt hơn MVP',
+        data: [1.32, 1.28],
+        backgroundColor: '#f4c2c2',
+        borderColor: '#c8a4a5',
+        borderWidth: 2
+      },
+      {
+        label: 'Lower 95% CI',
+        data: [1.08, 1.04],
+        backgroundColor: '#c5d5e0',
+        borderColor: '#7b8aa1',
+        borderWidth: 2
+      },
+      {
+        label: 'Upper 95% CI',
+        data: [1.61, 1.57],
+        backgroundColor: '#c5e0c9',
+        borderColor: '#7ba87e',
+        borderWidth: 2
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { position: 'bottom' },
+      title: { display: true, text: 'Odds Ratio (vs MVP) — tất cả >1 = dydrogesterone TỐT HƠN' }
+    },
+    scales: {
+      y: { beginAtZero: true, max: 2, title: { display: true, text: 'Odds Ratio' } }
+    }
+  }
+});
+
+// Kastora 2024 chart
+const ctxK = document.getElementById('kastoraChart').getContext('2d');
+new Chart(ctxK, {
+  type: 'bar',
+  data: {
+    labels: ['Clinical Pregnancy', 'Live Birth', 'Miscarriage (GIẢM)'],
+    datasets: [
+      {
+        label: 'OR (95% CrI center)',
+        data: [1.28, 1.76, 0.54],
+        backgroundColor: ['#c5e0c9', '#f4c2c2', '#c5d5e0'],
+        borderColor: ['#7ba87e', '#c8a4a5', '#7b8aa1'],
+        borderWidth: 2
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { display: false },
+      title: { display: true, text: 'VP + SCGnRH-a vs Vaginal Progesterone đơn thuần' }
+    },
+    scales: {
+      y: { beginAtZero: true, max: 2, title: { display: true, text: 'Odds Ratio (1.0 = ngang bằng)' } }
+    }
+  }
+});
+
+</script>
+</body>
+</html>

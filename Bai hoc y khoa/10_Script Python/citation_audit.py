@@ -1,36 +1,20 @@
 #!/usr/bin/env python3
-"""Citation audit tool cho medical lessons.
+"""Offline, occurrence-based citation audit for medical lesson releases.
 
-Workflow:
-1. Extract PMIDs and guideline citations tu file .md / .docx
-2. Verify PMIDs qua PubMed E-utilities
-3. Map journal -> quartile -> tier (1-4)
-4. Match guideline citations trong registry -> tier 0
-5. Check superseded status
-6. Detect specific number claims (RR, CI, %, n=) trong context
-7. Apply strictness rule (hybrid):
-   - Q4/Q4_AVOID paper + specific claim -> BLOCK
-   - Q4 paper + direction only -> WARN
-   - Q1/Q2 + specific claim -> WARN (can check full text)
-   - Q3 + specific claim -> WARN
-   - Tier 0 guideline (superseded) -> WARN
-   - Unknown guideline -> WARN
-8. Output report (console + markdown + JSON)
-9. Exit 0 if no blocks, 1 if blocks (for CI/hook)
-
-Usage:
-  python citation_audit.py <file.md|file.docx>
-  python citation_audit.py <file> --json
-  python citation_audit.py <file> --out report.md
+The audit consumes ``--evidence-bundle`` only: no provider call or cache fallback
+is allowed. It preserves every citation occurrence, applies provider-neutral
+identity/topic/claim/integrity gates, then maps journal quality and guideline
+registry policy. Any BLOCK or WARN exits 2 for fail-closed release semantics.
 """
+import argparse
 import json
 import re
 import sys
 import time
-import urllib.parse
-import urllib.request
 from pathlib import Path
 from typing import Optional
+
+from evidence_bundle import BundleError, load_bundle, seven_gate_check
 
 try:
     from docx import Document
@@ -44,7 +28,7 @@ except ImportError:
 SCRIPT_DIR = Path(__file__).parent
 JOURNAL_QUARTILE_FILE = SCRIPT_DIR / "journal_quartile.json"
 GUIDELINE_REGISTRY_FILE = SCRIPT_DIR / "guideline_registry.json"
-EUTILS_DELAY = 0.35  # seconds between API calls (rate limit)
+EVIDENCE_BUNDLE_REQUIRED = True
 
 # Specific number claim patterns (for strictness mode)
 SPECIFIC_CLAIM_PATTERNS = [
@@ -79,7 +63,7 @@ SOCIETIES = ['ASRM', 'ACOG', 'RCOG', 'ESHRE', 'ISUOG', 'NICE', 'FIGO', 'WHO', 'S
 # MAIN CLASS
 # ============================================================
 class CitationAuditor:
-    def __init__(self, journal_quartile_file=None, guideline_registry_file=None, verbose=True):
+    def __init__(self, journal_quartile_file=None, guideline_registry_file=None, verbose=True, evidence_bundle=None):
         self.journal_file = journal_quartile_file or JOURNAL_QUARTILE_FILE
         self.guideline_file = guideline_registry_file or GUIDELINE_REGISTRY_FILE
         self.verbose = verbose
@@ -87,7 +71,9 @@ class CitationAuditor:
         self.guideline_table = self._load_json(self.guideline_file)
         self.journal_map = self._build_journal_map()
         self.aliases = self.journal_table.get('ALIASES', {})
-
+        if evidence_bundle is None:
+            raise BundleError("--evidence-bundle is required")
+        self.bundle = load_bundle(Path(evidence_bundle))
     def _load_json(self, path):
         with open(path, 'r', encoding='utf-8') as f:
             return json.load(f)
@@ -158,15 +144,8 @@ class CitationAuditor:
         # Sort by position
         citations.sort(key=lambda c: c['span'][0])
 
-        # Deduplicate by value (keep first)
-        seen = set()
-        unique = []
-        for c in citations:
-            key = (c['type'], c['value'])
-            if key not in seen:
-                seen.add(key)
-                unique.append(c)
-        return unique
+        # Keep every occurrence: release verification is occurrence-based.
+        return citations
 
     def detect_specific_claim(self, text, span, window=300):
         """Check if citation is in a context with specific numbers (RR, CI, %, n=)."""
@@ -180,34 +159,22 @@ class CitationAuditor:
         return (len(matches) > 0), matches
 
     def verify_pmid(self, pmid):
-        """Fetch title + journal + year from PubMed via E-utilities."""
-        params = urllib.parse.urlencode({
-            'db': 'pubmed', 'id': pmid, 'retmode': 'json'
-        })
-        url = f'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?{params}'
-        req = urllib.request.Request(url, headers={'User-Agent': 'citation-audit/1.0 (medical-lesson-toolkit)'})
-        try:
-            data = json.loads(urllib.request.urlopen(req, timeout=15).read().decode('utf-8'))
-        except Exception as e:
-            return {'pmid': pmid, 'status': 'ERROR', 'error': str(e)}
-
-        result = data.get('result', {})
-        if pmid in result and isinstance(result[pmid], dict) and 'error' not in result[pmid]:
-            item = result[pmid]
-            pubdate = item.get('pubdate', '')
-            year_m = re.search(r'(\d{4})', pubdate)
-            pubtypes = item.get('pubtype', [])
-            return {
-                'pmid': pmid,
-                'status': 'OK',
-                'year': year_m.group(1) if year_m else 'NA',
-                'title': item.get('title', 'NA'),
-                'author': item.get('sortfirstauthor', 'NA'),
-                'journal': item.get('source', 'NA'),
-                'article_type': ', '.join(pubtypes[:2]),
-                'pubtypes': pubtypes,
-            }
-        return {'pmid': pmid, 'status': 'NOT_FOUND'}
+        """Read normalized metadata from the already validated bundle."""
+        item = self.bundle.record_for_pmid(pmid)
+        if not item or item.get('exists') is not True:
+            return {'pmid': pmid, 'status': 'NOT_FOUND'}
+        if item.get('conflicts'):
+            return {'pmid': pmid, 'status': 'ERROR', 'error': '; '.join(item['conflicts'])}
+        return {
+            'pmid': pmid,
+            'status': 'OK',
+            'year': item.get('year', 'NA'),
+            'title': item.get('title', 'NA'),
+            'author': item.get('author', 'NA'),
+            'journal': item.get('journal', 'NA'),
+            'article_type': ', '.join(item.get('publication_types', [])[:2]),
+            'pubtypes': item.get('publication_types', []),
+        }
 
     @staticmethod
     def classify_evidence(pmid_info):
@@ -324,15 +291,14 @@ class CitationAuditor:
             entry = self.journal_map[journal_str]
             return entry, f"{entry['quartile']} (IF {entry.get('if', 'NA')})"
         # Check aliases
-        canonical = self.aliases.get(journal_str, journal_str)
+        canonical = self.aliases.get(journal_str, self.aliases.get(journal_str.lower(), journal_str))
         if canonical in self.journal_map:
             entry = self.journal_map[canonical]
             return entry, f"{entry['quartile']} (IF {entry.get('if', 'NA')})"
-        # Try fuzzy match (first 10 chars)
-        for jname in self.journal_map:
-            if jname[:10].lower() == journal_str[:10].lower():
-                entry = self.journal_map[jname]
-                return entry, f"{entry['quartile']} (IF {entry.get('if', 'NA')}) (fuzzy match: {jname})"
+        # Check case-insensitive match in journal_map
+        for jname, entry in self.journal_map.items():
+            if jname.lower() == journal_str.lower() or jname.lower() == canonical.lower():
+                return entry, f"{entry['quartile']} (IF {entry.get('if', 'NA')})"
         return None, f"Unknown journal: {journal_str}"
 
     def match_guideline(self, citation_text):
@@ -402,12 +368,24 @@ class CitationAuditor:
                 entry['tier'] = 5
                 entry['tier_reason'] = 'PMID invalid'
                 return entry
-
             if pmid_info.get('status') == 'ERROR':
-                entry['verdict'] = f"ERROR: {pmid_info.get('error', 'unknown')}"
-                entry['severity'] = 'warn'
+                entry['verdict'] = f"BLOCK: {pmid_info.get('error', 'provider conflict')}"
+                entry['severity'] = 'block'
                 entry['tier'] = None
-                entry['tier_reason'] = 'API error'
+                entry['tier_reason'] = 'bundle identity conflict'
+                return entry
+            # Extract claim context around the citation occurrence (symmetric window)
+            context_start = max(0, citation['span'][0] - 300)
+            context_end = min(len(text), citation['span'][1] + 300)
+            evidence_gates = seven_gate_check(
+                self.bundle.record_for_pmid(citation['value']),
+                claim=text[context_start:context_end],
+            )
+            failed_gates = [name for name, gate in evidence_gates.items() if gate['status'] != 'PASS']
+            if failed_gates:
+                entry['verdict'] = f"BLOCK evidence gates: {', '.join(failed_gates)}"
+                entry['severity'] = 'block'
+                entry['tier_reason'] = 'provider-neutral evidence gate failure'
                 return entry
 
             journal_entry, reason = self.resolve_journal(pmid_info['journal'])
@@ -455,7 +433,6 @@ class CitationAuditor:
                 entry['verdict'] = f'OK (tier {tier})'
                 entry['severity'] = 'pass'
 
-            time.sleep(EUTILS_DELAY)
 
         elif citation['type'] == 'guideline':
             gl_id, gl_data, society = self.match_guideline(citation['value'])
@@ -488,7 +465,7 @@ class CitationAuditor:
 
         citations = self.extract_citations(text)
         if self.verbose:
-            print(f"[citation_audit] {file_path}: {len(citations)} unique citations", file=sys.stderr)
+            print(f"[citation_audit] {file_path}: {len(citations)} citation occurrences", file=sys.stderr)
 
         results = []
         for cit in citations:
@@ -591,36 +568,26 @@ def format_markdown_report(result):
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python citation_audit.py <file.md|file.docx> [--json] [--out report.md] [--quiet]")
-        sys.exit(2)
-
-    import sys as _sys
-    _sys.stdout.reconfigure(encoding='utf-8', errors='replace')
-
-    file_path = sys.argv[1]
-    json_mode = '--json' in sys.argv
-    quiet = '--quiet' in sys.argv
-    out_file = None
-    if '--out' in sys.argv:
-        out_idx = sys.argv.index('--out')
-        out_file = sys.argv[out_idx + 1]
-
-    auditor = CitationAuditor(verbose=not quiet)
-    result = auditor.audit_file(file_path)
-
-    if json_mode:
+    parser = argparse.ArgumentParser(description="Offline occurrence-based citation audit")
+    parser.add_argument("file", type=Path)
+    parser.add_argument("--evidence-bundle", required=True, type=Path)
+    parser.add_argument("--json", action="store_true")
+    parser.add_argument("--out", type=Path)
+    parser.add_argument("--quiet", action="store_true")
+    args = parser.parse_args()
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    try:
+        auditor = CitationAuditor(verbose=not args.quiet, evidence_bundle=args.evidence_bundle)
+        result = auditor.audit_file(args.file)
+    except BundleError as exc:
+        result = {'file': str(args.file), 'error': str(exc), 'summary': {'total': 0, 'pass': 0, 'warn': 0, 'block': 1}, 'citations': []}
+    if args.json:
         print(json.dumps(result, indent=2, ensure_ascii=False))
-    elif not quiet:
+    elif not args.quiet:
         auditor.print_console_report(result)
-
-    if out_file:
-        Path(out_file).write_text(format_markdown_report(result), encoding='utf-8')
-        if not quiet:
-            print(f"\n[+] Markdown report saved: {out_file}", file=sys.stderr)
-
-    sys.exit(0 if result['summary']['block'] == 0 else 1)
-
+    if args.out:
+        args.out.write_text(format_markdown_report(result), encoding='utf-8')
+    return 0 if result['summary']['block'] == 0 and result['summary']['warn'] == 0 else 2
 
 if __name__ == '__main__':
-    main()
+    raise SystemExit(main())

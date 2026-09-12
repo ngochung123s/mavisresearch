@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-07-30T11:50:45.131350+00:00",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-34a_Tam_phe_man",
+  "providers": [
+    "official_source",
+    "europe_pmc_metadata",
+    "openalex",
+    "crossref_retraction_watch"
+  ],
+  "raw_objects": [
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-30T11:50:45.131350+00:00",
+      "sha256": "7c561d95f324b0a9df18598316ca7d2bec8333365ca69097200f19c2b36bb7e4",
+      "path": "outputs/sources/esc_ers_2022_raw.txt",
+      "media_type": "text/plain",
+      "license": "official_guideline"
+    }
+  ],
+  "records": {
+    "ESC_ERS_2022": {
+      "official_id": "ESC_ERS_2022",
+      "exists": true,
+      "metadata_checked_at": "2026-07-30T11:50:45.131350+00:00",
+      "providers": [
+        "official_source"
+      ],
+      "raw_sha256": [
+        "7c561d95f324b0a9df18598316ca7d2bec8333365ca69097200f19c2b36bb7e4"
+      ],
+      "identifiers": {
+        "official_id": "ESC_ERS_2022",
+        "doi": "10.1093/eurheartj/ehac237",
+        "pmid": null
+      },
+      "bibliographic": {
+        "title": "2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension",
+        "authors": "Humbert M, Kovacs G, Hoeper MM, et al.",
+        "journal": "European Heart Journal",
+        "year": 2022
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T11:50:45.131350+00:00",
+        "provider": "official_source"
+      },
+      "abstract": "The 2022 ESC/ERS Guidelines define pulmonary hypertension (PH) hemodynamically as mean pulmonary arterial pressure (mPAP) > 20 mmHg at rest. Pre-capillary PH is defined by mPAP > 20 mmHg, pulmonary capillary wedge pressure (PAWP) <= 15 mmHg, and pulmonary vascular resistance (PVR) > 2 Wood units. Right heart catheterization (RHC) is the reference standard for diagnosing PH. Long-term oxygen therapy (LTOT) is indicated in patients with chronic hypoxemia when PaO2 < 55 mmHg (7.3 kPa) or SaO2 < 88%. PAH-targeted therapies are generally not recommended in patients with PH due to lung disease (Group 3 PH). Diuretics are indicated in patients with right heart failure and signs of fluid retention, requiring cautious dosing to avoid over-reduction of RV preload.",
+      "document_type": "guideline"
+    },
+    "36017548": {
+      "official_id": "36017548",
+      "exists": true,
+      "metadata_checked_at": "2026-07-30T11:50:45.131350+00:00",
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "raw_sha256": [
+        "7c561d95f324b0a9df18598316ca7d2bec8333365ca69097200f19c2b36bb7e4"
+      ],
+      "identifiers": {
+        "official_id": "36017548",
+        "doi": "10.1093/eurheartj/ehac237",
+        "pmid": "36017548"
+      },
+      "bibliographic": {
+        "title": "2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension",
+        "authors": "Humbert M, Kovacs G, Hoeper MM, et al.",
+        "journal": "Eur Heart J",
+        "year": 2022
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T11:50:45.131350+00:00",
+        "provider": "crossref_retraction_watch"
+      },
+      "abstract": "The 2022 ESC/ERS Guidelines define pulmonary hypertension (PH) hemodynamically as mean pulmonary arterial pressure (mPAP) > 20 mmHg at rest. Pre-capillary PH is defined by mPAP > 20 mmHg, pulmonary capillary wedge pressure (PAWP) <= 15 mmHg, and pulmonary vascular resistance (PVR) > 2 Wood units. Right heart catheterization (RHC) is the reference standard for diagnosing PH. Long-term oxygen therapy (LTOT) is indicated in patients with chronic hypoxemia when PaO2 < 55 mmHg (7.3 kPa) or SaO2 < 88%. PAH-targeted therapies are generally not recommended in patients with PH due to lung disease (Group 3 PH). Diuretics are indicated in patients with right heart failure and signs of fluid retention, requiring cautious dosing to avoid over-reduction of RV preload.",
+      "document_type": "guideline"
+    }
+  },
+  "content_hash": "82aea8c7227239fcad08fa4b372f98dcf6d9640d56fd4b9f1ff4d01801d5817b"
+}

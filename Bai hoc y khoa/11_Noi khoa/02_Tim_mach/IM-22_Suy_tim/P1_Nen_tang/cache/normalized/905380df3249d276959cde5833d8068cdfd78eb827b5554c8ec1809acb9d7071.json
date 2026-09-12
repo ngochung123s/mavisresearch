@@ -1,0 +1,359 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-07-29T15:32:08.398430Z",
+  "providers": [
+    "europe_pmc_metadata",
+    "europe_pmc_oa_full_text",
+    "crossref_retraction_watch",
+    "openalex",
+    "official_source"
+  ],
+  "records": {
+    "pmid:33663679": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "33663679",
+        "pmcid": null,
+        "doi": "10.1071/fp20268",
+        "openalex": "https://openalex.org/W3135263446"
+      },
+      "title": "Crassulacean acid metabolism (CAM) supersedes the turgor loss point (TLP) as an important adaptation across a precipitation gradient, in the genus Clusia.",
+      "abstract": "As future climates continue to change, precipitation deficits are expected to become more severe across tropical ecosystems. As a result, it is important that we identify plant physiological traits that act as adaptations to drought, and determine whether these traits act synergistically or independently of each other. In this study, we assessed the role of three leaf-level putative adaptations to drought: crassulacean acid metabolism (CAM), the turgor loss point (TLPΨ) and water storage hydrenchyma tissue. Using the genus Clusia as a model, we were able to explore the extent to which these leaf physiological traits co-vary, and also how they contribute to species' distributions across a precipitation gradient in Central and South America. We found that CAM is independent of the TLPΨ and hydrenchyma depth in Clusia. In addition, we provide evidence that constitutive CAM is an adaptation to year-long water deficits, whereas facultative CAM appears to be more important for surviving acute dry seasons. Finally, we find that the other leaf traits tested did not correlate with environmental precipitation, suggesting that the reduced transpirational rates associated with CAM obviate the need to adapt the TLPΨ and hydrenchyma depth in this genus.",
+      "journal": "Functional plant biology : FPB",
+      "year": "2021",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "topics": [
+        "Crassulacean acid metabolism",
+        "Turgor pressure",
+        "Biology",
+        "Ecophysiology",
+        "Adaptation (eye)",
+        "Precipitation",
+        "Ecosystem",
+        "Facultative",
+        "Ecology",
+        "Botany",
+        "Photosynthesis"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "d96157babf9c04a1d7778553e6197bbb9284098f5488889148aeadf50856261f",
+        "fe6e333782325203cdcac9464570528f7ef71907e319f0330c3c57f781967d79",
+        "2117aa6548d71037b470dd40de5a0cd909953f3f8f4d968aed2cfc8e253f86a2"
+      ],
+      "metadata_checked_at": "2026-07-29T15:32:08.398430Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T15:32:08.398430Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:33652595": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "33652595",
+        "pmcid": "PMC7956615",
+        "doi": "10.3390/ijms22052322",
+        "openalex": "https://openalex.org/W3129289862"
+      },
+      "title": "Neural-Induced Human Adipose Tissue-Derived Stem Cells Conditioned Medium Ameliorates Rotenone-Induced Toxicity in SH-SY5Y Cells.",
+      "abstract": "Parkinson's disease (PD) is an age-related neurodegenerative disease (NDD) characterized by the degenerative loss of dopaminergic neurons in the substantia nigra along with aggregation of α-synuclein (α-syn). Neurogenic differentiation of human adipose-derived stem cells (NI-hADSCs) by supplementary factors for 14 days activates different biological signaling pathways. In this study, we evaluated the therapeutic role of NI-hADSC-conditioned medium (NI-hADSC-CM) in rotenone (ROT)-induced toxicity in SH-SY5Y cells. Increasing concentrations of ROT led to decreased cell survival at 24 and 48 h in a dose- and time-dependent manner. Treatment of NI-hADSC-CM (50% dilution in DMEM) against ROT (0.5 μM) significantly increased the cell survival. ROT toxicity decreased the expression of tyrosine hydroxylase (TH). Western blot analysis of the Triton X-100-soluble fraction revealed that ROT significantly decreased the oligomeric, dimeric, and monomeric phosphorylated Serine129 (p-S129) α-syn, as well as the total monomeric α-syn expression levels. ROT toxicity increased the oligomeric, but decreased the dimeric and monomeric p-S129 α-syn expression levels. Total α-syn expression (in all forms) was increased in the Triton X-100-insoluble fraction, compared to the control. NI-hADSC-CM treatment enhanced the TH expression, stabilized α-syn monomers, reduced the levels of toxic insoluble p-S129 α-syn, improved the expression of neuronal functional proteins, regulated the Bax/Bcl-2 ratio, and upregulated the expression of pro-caspases, along with PARP-1 inactivation. Moreover, hADSC-CM treatment decreased the cell numbers and have no effect against ROT toxicity on SH-SY5Y cells. The therapeutic effects of NI-hADSC-CM was higher than the beneficial effects of hADSC-CM on cellular signaling. From these results, we conclude that NI-hADSC-CM exerts neuroregenerative effects on ROT-induced PD-like impairments in SH-SY5Y cells.",
+      "journal": "International journal of molecular sciences",
+      "year": "2021",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "Rotenone",
+        "Toxicity",
+        "Tyrosine hydroxylase",
+        "SH-SY5Y",
+        "Neurotoxicity",
+        "Western blot",
+        "Chemistry",
+        "Substantia nigra",
+        "Molecular biology",
+        "Biology",
+        "Biochemistry",
+        "Cell culture",
+        "Dopaminergic",
+        "Dopamine",
+        "Endocrinology",
+        "Enzyme",
+        "Mitochondrion"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "c3872cee0447666737b2e8cb3cf677324efe960c6f5863efc29c257b8eb1a765",
+        "d51937555ad1bd9f0691e957775d1297f46e93dbe1a924b94449a07154706540",
+        "9e66d9ab6b0f662bd5a5bfe3123283d1261f4e7682b7bf21fef0066c6e8c37d2",
+        "228a6884ed787286279a38c7bc14334e2a5bda1107fb3f496eaeb1983177ef9a"
+      ],
+      "metadata_checked_at": "2026-07-29T15:32:08.398430Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "pmcid": "PMC7956615",
+        "sha256": "228a6884ed787286279a38c7bc14334e2a5bda1107fb3f496eaeb1983177ef9a"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T15:32:08.398430Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:33622222": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "33622222",
+        "pmcid": null,
+        "doi": "10.2174/0929867328666210223141555",
+        "openalex": "https://openalex.org/W3129817604"
+      },
+      "title": "Latest Advances in Hydrogel-Based Drug Delivery Systems for Optimization of Metabolic Syndrome Treatment.",
+      "abstract": "<h4>Background</h4>Drug delivery systems such as hydrogels have become relevant in cardiovascular and metabolic therapies due to their sustained and controlled release properties of drugs, versatile polymer structures, safety, and biodegradability.<h4>Results</h4>The literature presented demonstrates that a hydrogel-based controlled release system increases the therapeutic efficacy in different components of the metabolic syndrome. Hypertension has been the most explored component with advances in in vitro and murine models. However, clinical evidence in humans is scarce, and more translational studies are needed. Hydrogel-based systems for diabetes, obesity, and dyslipidemia have been little explored. Observations mainly demonstrated an increase in therapeutic efficacy, in vitro and in vivo, for the use of insulin, leptin, and natural components, such as epigallocatechin gallate. In all cases, the hydrogel systems achieve better plasma levels of the loaded compound, higher bioavailability, and low cytotoxicity compared to conventional systems. Also, the evidence existing suggests that the development of an injectable hydrogel system for controlled release of drugs or therapeutic compounds is presented as an attractive option for MeS treatment, and due to the possibility of sustained pharmacological release, there is no need for repeated doses and a safe administration route.<h4>Conclusion</h4>The following review aims to evaluate the use of the hydrogel systems in the therapy of diabetes, obesity, hypertension, and dyslipidemia, which are the main components of metabolic syndrome.",
+      "journal": "Current medicinal chemistry",
+      "year": "2021",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "Dyslipidemia",
+        "Controlled release",
+        "Drug delivery",
+        "Pharmacology",
+        "Medicine",
+        "Self-healing hydrogels",
+        "Metabolic syndrome",
+        "Bioavailability",
+        "Drug",
+        "Diabetes mellitus",
+        "Chemistry",
+        "Nanotechnology",
+        "Materials science",
+        "Endocrinology"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "2956b5b6d9147ecc175e28a3bb398f9db7787e278cf2e87eb1efcce88bef5f22",
+        "0665f809b6705f65a782589d47418d3390797a0bdfe5814aed8f1b19d754e258",
+        "033bb14a3ab3267a94e367f681a266cacec544717fffbc6abf81f7eb02f4a8ce"
+      ],
+      "metadata_checked_at": "2026-07-29T15:32:08.398430Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T15:32:08.398430Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:33653705": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "33653705",
+        "pmcid": "PMC8170605",
+        "doi": "10.3399/bjgpo.2021.0005",
+        "openalex": "https://openalex.org/W3134101448"
+      },
+      "title": "Understanding the impact of professional motivation on the workforce crisis in medicine: a rapid review.",
+      "abstract": "<h4>Background</h4>The NHS is facing a workforce crisis. Responses to date have focused on improving recruitment of staff, but less attention has been paid to retention.<h4>Aim</h4>To conduct a rapid review using Rosabeth Moss Kanter's three Ms model of workforce motivation as a sensitising framework to examine the current medical workforce crisis. The work considers how insights from research in other professions offers new thinking for understanding what motivates doctors to continue working.<h4>Design & setting</h4>Rapid literature review with secondary analysis of existing research examining reasons for leaving medicine.<h4>Method</h4>A systematic search strategy was developed with the aid of an information specialist. The search terms used were: medical professionals, retention, and NHS. The exclusions were: commentaries, non-medical professionals, non-English language, and it was limited to post-1990. The search was applied to three electronic databases, MEDLINE, Embase, and Healthcare Management Information Consortium (HMIC). This produced a dataset describing study design, and factors related to motivation for leaving the medical profession. Comparative thematic analysis distilled core themes explaining the reasons for leaving and their relation to the three Ms model.<h4>Results</h4>Of 3389 abstracts identified, screening and assessment produced 82 articles included in the final analysis. Thematic analysis identified four key themes: low morale, disconnect, unmanageable change, and lack of personal and professional support. The themes of mastery, membership, and meaning were substantially present within the dataset.<h4>Conclusion</h4>Kanter's three Ms model of motivation can be applied to the medical workforce to understand retention issues. This work supports the development of targeted solutions to tackle the worsening workforce crisis.",
+      "journal": "BJGP open",
+      "year": "2021",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "Workforce",
+        "Thematic analysis",
+        "Medical education",
+        "Psychology",
+        "Public relations",
+        "Medicine",
+        "Nursing",
+        "Qualitative research",
+        "Political science",
+        "Sociology",
+        "Social science"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "a98ec1e3b96bb7f6622da17570c01dd5b152045a62ef8785c8828d13a3800adb",
+        "4ffe2ef06ac2c5972e1a50e317b685db2e241a171d1a84bba6510e2454db90b6",
+        "6e9b4249e3e24c27c4689f8535e514067b7b58300008bfca45251664d42762f7",
+        "71887d3224f5c36807cf4dccfe905a34084bf3b33159957da580abfc74cf33ce"
+      ],
+      "metadata_checked_at": "2026-07-29T15:32:08.398430Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "pmcid": "PMC8170605",
+        "sha256": "71887d3224f5c36807cf4dccfe905a34084bf3b33159957da580abfc74cf33ce"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T15:32:08.398430Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    }
+  },
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T15:32:08.398430Z",
+      "sha256": "d96157babf9c04a1d7778553e6197bbb9284098f5488889148aeadf50856261f",
+      "path": "raw/europe_pmc_metadata/d96157babf9c04a1d7778553e6197bbb9284098f5488889148aeadf50856261f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T15:32:08.398430Z",
+      "sha256": "fe6e333782325203cdcac9464570528f7ef71907e319f0330c3c57f781967d79",
+      "path": "raw/openalex/fe6e333782325203cdcac9464570528f7ef71907e319f0330c3c57f781967d79.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T15:32:08.398430Z",
+      "sha256": "2117aa6548d71037b470dd40de5a0cd909953f3f8f4d968aed2cfc8e253f86a2",
+      "path": "raw/crossref_retraction_watch/2117aa6548d71037b470dd40de5a0cd909953f3f8f4d968aed2cfc8e253f86a2.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T15:32:08.398430Z",
+      "sha256": "c3872cee0447666737b2e8cb3cf677324efe960c6f5863efc29c257b8eb1a765",
+      "path": "raw/europe_pmc_metadata/c3872cee0447666737b2e8cb3cf677324efe960c6f5863efc29c257b8eb1a765.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T15:32:08.398430Z",
+      "sha256": "d51937555ad1bd9f0691e957775d1297f46e93dbe1a924b94449a07154706540",
+      "path": "raw/openalex/d51937555ad1bd9f0691e957775d1297f46e93dbe1a924b94449a07154706540.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T15:32:08.398430Z",
+      "sha256": "9e66d9ab6b0f662bd5a5bfe3123283d1261f4e7682b7bf21fef0066c6e8c37d2",
+      "path": "raw/crossref_retraction_watch/9e66d9ab6b0f662bd5a5bfe3123283d1261f4e7682b7bf21fef0066c6e8c37d2.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_oa_full_text",
+      "retrieved_at": "2026-07-29T15:32:08.398430Z",
+      "sha256": "228a6884ed787286279a38c7bc14334e2a5bda1107fb3f496eaeb1983177ef9a",
+      "path": "raw/europe_pmc_oa_full_text/228a6884ed787286279a38c7bc14334e2a5bda1107fb3f496eaeb1983177ef9a.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T15:32:08.398430Z",
+      "sha256": "2956b5b6d9147ecc175e28a3bb398f9db7787e278cf2e87eb1efcce88bef5f22",
+      "path": "raw/europe_pmc_metadata/2956b5b6d9147ecc175e28a3bb398f9db7787e278cf2e87eb1efcce88bef5f22.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T15:32:08.398430Z",
+      "sha256": "0665f809b6705f65a782589d47418d3390797a0bdfe5814aed8f1b19d754e258",
+      "path": "raw/openalex/0665f809b6705f65a782589d47418d3390797a0bdfe5814aed8f1b19d754e258.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T15:32:08.398430Z",
+      "sha256": "033bb14a3ab3267a94e367f681a266cacec544717fffbc6abf81f7eb02f4a8ce",
+      "path": "raw/crossref_retraction_watch/033bb14a3ab3267a94e367f681a266cacec544717fffbc6abf81f7eb02f4a8ce.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T15:32:08.398430Z",
+      "sha256": "a98ec1e3b96bb7f6622da17570c01dd5b152045a62ef8785c8828d13a3800adb",
+      "path": "raw/europe_pmc_metadata/a98ec1e3b96bb7f6622da17570c01dd5b152045a62ef8785c8828d13a3800adb.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T15:32:08.398430Z",
+      "sha256": "4ffe2ef06ac2c5972e1a50e317b685db2e241a171d1a84bba6510e2454db90b6",
+      "path": "raw/openalex/4ffe2ef06ac2c5972e1a50e317b685db2e241a171d1a84bba6510e2454db90b6.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T15:32:08.398430Z",
+      "sha256": "6e9b4249e3e24c27c4689f8535e514067b7b58300008bfca45251664d42762f7",
+      "path": "raw/crossref_retraction_watch/6e9b4249e3e24c27c4689f8535e514067b7b58300008bfca45251664d42762f7.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_oa_full_text",
+      "retrieved_at": "2026-07-29T15:32:08.398430Z",
+      "sha256": "71887d3224f5c36807cf4dccfe905a34084bf3b33159957da580abfc74cf33ce",
+      "path": "raw/europe_pmc_oa_full_text/71887d3224f5c36807cf4dccfe905a34084bf3b33159957da580abfc74cf33ce.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    }
+  ],
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P1_Nen_tang\\cache",
+  "content_hash": "905380df3249d276959cde5833d8068cdfd78eb827b5554c8ec1809acb9d7071"
+}

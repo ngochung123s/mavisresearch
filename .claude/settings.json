@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "biomcp": {
+      "command": "C:\\Users\\THANHANH\\.local\\bin\\biomcp.exe",
+      "args": ["mcp"],
+      "env": {}
+    },
+    "duckduckgo-search": {
+      "command": "npx",
+      "args": ["-y", "duckduckgo-mcp-server"],
+      "env": {}
+    }
+  }
+}

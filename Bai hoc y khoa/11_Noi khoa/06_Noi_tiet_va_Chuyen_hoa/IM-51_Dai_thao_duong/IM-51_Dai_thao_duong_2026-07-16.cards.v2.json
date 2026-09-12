@@ -1,0 +1,525 @@
+[
+  {
+    "type": "basic",
+    "front": "Dịch tễ ĐTĐ toàn cầu và tại Việt Nam?",
+    "back": "<b>📖 IDF 2021:</b><br>• Toàn cầu: <b>537 triệu</b> người trưởng thành, dự kiến <b>783 triệu</b> năm 2045<br>• Việt Nam: ước tính <b>~5% dân số trưởng thành</b><br>• <b>50-60% undiagnosed</b> tại VN<br><br><b>🔍 T2D chiếm 90-95%, T1D 5-10%.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "6 mục tiêu chính của bài học IM-51?",
+    "back": "<b>📖 Sau bài này, học viên có thể:</b><br>1. Chẩn đoán chính xác ĐTĐ type 1, type 2, prediabetes theo ADA 2026<br>2. Cá thể hóa mục tiêu HbA1c<br>3. Chọn thuốc hạ đường huyết theo comorbidity (ASCVD/HF/CKD)<br>4. Sử dụng insulin an toàn: khởi đầu, điều chỉnh, basal-bolus, pump<br>5. Nhận diện và xử trí DKA, HHS, hạ đường huyết nặng<br>6. Thiết lập kế hoạch tầm soát biến chứng mạn hàng năm",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "4 tiêu chuẩn chẩn đoán ĐTĐ (ADA 2026): FPG ≥{{c1::126 mg/dL}}, OGTT 2h ≥{{c1::200 mg/dL}}, HbA1c ≥{{c1::6.5% (48 mmol/mol)}}, random glucose ≥{{c1::200}} + triệu chứng. Cần {{c1::repeat test}} khác ngày để xác nhận (trừ khi có triệu chứng kinh điển).",
+    "extra": "ADA SOC 2026 Section 2. [GUIDELINE VERIFIED]"
+  },
+  {
+    "type": "basic",
+    "front": "5 tình huống KHÔNG nên dùng HbA1c để chẩn đoán ĐTĐ?",
+    "back": "<b>📖 ADA SOC 2026:</b><br>1. <b>Bệnh hemoglobin</b> (HbS, HbC, HbE, thalassemia)<br>2. <b>Thai kỳ</b> → dùng OGTT<br>3. <b>CKD stage 4-5</b> (eGFR <30)<br>4. <b>Mất máu gần đây, truyền máu, erythropoietin</b><br>5. <b>Thiếu máu tan máu, thiếu sắt nặng</b><br><br><b>⚠️ Điều trị sắt làm HbA1c giảm giả tạo!</b>",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Prediabetes: IFG = FPG {{c1::100–125 mg/dL}}, IGT = OGTT 2h {{c1::140–199 mg/dL}}, HbA1c = {{c1::5.7–6.4%}}. Nguy cơ tiến triển → T2D ~{{c1::5-10%/năm}}. DPP trial: lifestyle ↓ {{c1::58%}} nguy cơ.",
+    "extra": "ADA SOC 2026 Section 2 & 3. Metformin xem xét nếu BMI ≥35, age <60, hoặc prior GDM."
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chuẩn sàng lọc T2D ở người không triệu chứng?",
+    "back": "<b>📖 ADA SOC 2026:</b><br>• <b>Tất cả người ≥35 tuổi</b>: mỗi 1-3 năm<br>• <b>BMI ≥25 (≥23 châu Á) + ≥1 RF</b>: bất kỳ tuổi, mỗi 1-3 năm<br>• <b>Tiền sử GDM</b>: sau sinh và suốt đời, mỗi 1-3 năm<br>• <b>Prediabetes</b>: hàng năm<br>• <b>Trẻ em BMI ≥85th percentile + RF</b>: từ 10 tuổi, mỗi 3 năm<br><br><b>Phương pháp:</b> FPG, OGTT 75g, hoặc HbA1c.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Yếu tố nguy cơ T2D: tiền sử gia đình {{c1::bậc 1}}, chủng tộc {{c1::châu Á/Phi/Hispanic}}, {{c1::tăng huyết áp}}, HDL <{{c1::35}} hoặc TG >{{c1::250}}, {{c1::PCOS}}, ít vận động, {{c1::acanthosis nigricans}}, GDM hoặc sinh con ≥{{c1::4 kg}}.",
+    "extra": "ADA SOC 2026. BMI ≥25 (≥23 Asian) là ngưỡng bắt đầu sàng lọc."
+  },
+  {
+    "type": "basic",
+    "front": "Phân biệt T1D vs T2D trên lâm sàng (6 tiêu chí)?",
+    "back": "<b>📖 Bảng so sánh:</b><br>• <b>Tuổi</b>: T1D <30 (LADA >30) | T2D >40<br>• <b>BMI</b>: T1D gầy | T2D thừa cân/béo phì (~80%)<br>• <b>Khởi phát</b>: T1D cấp tính (tuần) | T2D từ từ (năm)<br>• <b>C-peptide</b>: T1D thấp/không detectable | T2D bình thường/cao<br>• <b>Tự kháng thể</b>: T1D GAD65/IA-2/ZnT8/IAA (+) | T2D (−)<br>• <b>DKA risk</b>: T1D cao | T2D thấp (trừ stress/SGLT2i)<br><br><b>⚠️ LADA = T1D tiến triển chậm >30t → dễ nhầm T2D!</b>",
+    "extra": "[REVIEW] PMID 29916386."
+  },
+  {
+    "type": "basic",
+    "front": "LADA (Latent Autoimmune Diabetes in Adults) — đặc điểm và cách phát hiện?",
+    "back": "<b>📖 Đặc điểm:</b><br>• Thể T1D tiến triển <b>chậm</b> ở người <b>>30 tuổi</b><br>• Thường <b>gầy</b> hoặc BMI bình thường<br>• Khởi phát giống T2D, đáp ứng ban đầu với thuốc uống<br>• Sau 6 tháng-2 năm: <b>thất bại điều trị</b><br><br><b>🔍 Quy tắc nghi ngờ:</b> T2D không đáp ứng ≥2 thuốc uống + gầy + young onset → check <b>GAD65 + C-peptide</b><br><br><b>⚠️ Dùng SU cho LADA → accelerate β-cell failure. Điều trị = insulin sớm.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "MODY (Maturity-Onset Diabetes of the Young) — khi nào nghi ngờ? 3 type chính?",
+    "back": "<b>📖 Nghi ngờ MODY khi:</b><br>• ĐTĐ khởi phát <b><25 tuổi</b><br>• <b>Strong family history</b> (≥2 thế hệ, autosomal dominant)<br>• <b>Không béo phì</b>, không acanthosis<br>• <b>Không có tự kháng thể</b> (GAD65 −)<br>• <b>C-peptide detectable</b><br><br><b>3 type thường gặp:</b><br>1. <b>HNF1A (MODY3)</b>: nhạy SU liều thấp<br>2. <b>GCK (MODY2)</b>: thường KHÔNG cần điều trị<br>3. <b>HNF4A (MODY1)</b>: nhạy SU<br><br><b>🔍 Genetic testing xác định → quyết định điều trị.</b>",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Các type ĐTĐ đặc hiệu: MODY ({{c1::đơn gen}}, <25t, AD, không béo phì), neonatal diabetes (đột biến {{c1::KCNJ11, ABCC8}} → đáp ứng SU uống), ĐTĐ do thuốc ({{c1::glucocorticoid, tacrolimus, olanzapine}}), ĐTĐ do bệnh tụy ({{c1::viêm tụy mạn, CF, cắt tụy}}).",
+    "extra": "ADA SOC 2026 Section 2."
+  },
+  {
+    "type": "basic",
+    "front": "Ominous Octet (DeFronzo 2009) — 8 khiếm khuyết trong T2D?",
+    "back": "<b>📖 8 cơ quan + khiếm khuyết:</b><br>1. <b>Tế bào β</b>: ↓ insulin secretion (apoptosis ↑, mất phase 1)<br>2. <b>Cơ vân</b>: ↓ glucose uptake (↓ GLUT4, ~80% disposal)<br>3. <b>Gan</b>: ↑ gluconeogenesis → ↑ glucose đói<br>4. <b>Mô mỡ</b>: ↑ lipolysis → ↑ FFA (lipotoxicity)<br>5. <b>Ruột</b>: ↓ incretin effect (GLP-1/GIP, ~50-70% tiết insulin sau ăn)<br>6. <b>Tế bào α</b>: ↑ glucagon (không bị ức chế)<br>7. <b>Thận</b>: ↑ SGLT2 → ↑ glucose tái hấp thu (ngưỡng thận >200-240)<br>8. <b>Não</b>: ↓ dopamine → rối loạn ngon miệng<br><br><b>🔍 T2D = hội chứng ĐA CƠ QUAN, không phải 1 defect.</b>",
+    "extra": "[REVIEW] PMID 32872570. DeFronzo RA. Diabetes 2009;58:773-795."
+  },
+  {
+    "type": "cloze",
+    "text": "Cơ chế đề kháng insulin: ↓ phosphoryl hóa {{c1::IRS-1}}, ↓ {{c1::PI3K/Akt}} → ↓ {{c1::GLUT4}} translocation. Nguyên nhân: ↑ {{c1::FFA}} (lipotoxicity), ↑ {{c1::TNF-α, IL-6}} (viêm mô mỡ), stress oxy hóa, rối loạn chức năng ty thể.",
+    "extra": "[REVIEW] PMID 32872570."
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế suy tế bào β trong T2D? (5 cơ chế)",
+    "back": "<b>📖 5 cơ chế chính:</b><br>1. <b>Glucolipotoxicity</b>: glucose + FFA cao → stress ER + stress oxy hóa<br>2. <b>Lắng đọng amyloid</b> (IAPP — islet amyloid polypeptide)<br>3. <b>Viêm tiểu đảo mức độ thấp</b> (low-grade insulitis)<br>4. <b>Suy giảm autophagy + tăng apoptosis</b><br>5. <b>Yếu tố di truyền</b>: TCF7L2, SLC30A8, KCNJ11<br><br><b>🔍 Diễn tiến tự nhiên: đề kháng insulin → hyperinsulinemia bù trừ → suy β-cell → chẩn đoán.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "3 giai đoạn của T1D (JDRF/ADA/Endocrine Society)?",
+    "back": "<b>📖 PMID 29916386:</b><br>• <b>Stage 1</b>: ≥2 autoantibodies (+), <b>normoglycemia</b>, không triệu chứng<br>• <b>Stage 2</b>: ≥2 autoantibodies (+) + <b>dysglycemia</b> (FPG 100-125 hoặc OGTT 140-199 hoặc HbA1c ≥5.7%), CHƯA triệu chứng<br>• <b>Stage 3</b>: <b>Triệu chứng lâm sàng</b> + tăng đường huyết đạt tiêu chuẩn chẩn đoán<br><br><b>🔍 Teplizumab (anti-CD3) FDA-approved trì hoãn Stage 2→3 (↓ ~50% risk trong 2 năm).</b>",
+    "extra": "[REVIEW] PMID 29916386."
+  },
+  {
+    "type": "cloze",
+    "text": "T1D: phá hủy tế bào β qua trung gian tế bào {{c1::T CD8+}} (insulitis → perforin/granzyme, Fas/FasL). HLA nguy cơ cao nhất: {{c1::DR3-DQ2, DR4-DQ8}}. Tự kháng thể: {{c1::GAD65, IA-2, ZnT8, IAA}}. ≥2 Ab → risk progression {{c1::50-80%}} trong 5-10 năm.",
+    "extra": "[REVIEW] PMID 29916386."
+  },
+  {
+    "type": "basic",
+    "front": "4 con đường gây biến chứng do tăng đường huyết? Cơ chế gốc chung?",
+    "back": "<b>📖 4 pathways — tất cả khởi nguồn từ ↑ mitochondrial superoxide:</b><br>1. <b>Polyol pathway</b>: glucose → sorbitol → fructose. ↓ NADPH, ↑ stress thẩm thấu → tổn thương TK, VM, thận<br>2. <b>AGE formation</b>: glucose + protein → AGEs → gắn RAGE → viêm, stress oxy hóa → dày màng đáy, rối loạn nội mô<br>3. <b>PKC activation</b>: DAG↑ → PKC → VEGF↑, TGF-β↑, eNOS↓ → tân mạch (VM), xơ hóa (thận)<br>4. <b>Hexosamine pathway</b>: Fru-6-P → UDP-GlcNAc → glycosyl hóa TF → PAI-1↑, TGF-β↑ → viêm, huyết khối, xơ hóa<br><br><b>🔍 'Metabolic memory' (DCCT/EDIC): thay đổi epigenetic tồn tại dù HbA1c converge.</b>",
+    "extra": "[REVIEW] PMID 32872570. Brownlee hypothesis."
+  },
+  {
+    "type": "basic",
+    "front": "'Metabolic memory' là gì? Ý nghĩa lâm sàng?",
+    "back": "<b>📖 DCCT/EDIC chứng minh:</b><br>• Nhóm intensive insulin: HbA1c tốt hơn trong <b>6.5 năm</b><br>• Sau đó HbA1c hai nhóm <b>hội tụ (converged)</b><br>• Nhưng nhóm intensive <b>VẪN ít biến chứng hơn sau 10-20 năm</b><br><br><b>🔍 Cơ chế:</b> Tăng đường huyết để lại 'dấu ấn' epigenetic (methyl hóa DNA, biến đổi histone, microRNA) → tồn tại lâu dài.<br><br><b>⚠️ Ý nghĩa: Kiểm soát glucose tốt CÀNG SỚM CÀNG TỐT — đừng trì hoãn!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Chẩn đoán phân biệt T1D vs T2D vs LADA vs MODY?",
+    "back": "<b>📖 Bảng 4 chẩn đoán phân biệt:</b><br>• <b>T1D</b>: trẻ, gầy, autoantibodies (+), C-peptide thấp, DKA risk cao<br>• <b>T2D</b>: >40t, béo phì, autoantibodies (−), C-peptide BT/cao<br>• <b>LADA</b>: >30t, gầy, GAD65 (+), C-peptide thấp, đáp ứng kém thuốc uống<br>• <b>MODY</b>: <25t, AD inheritance, không béo phì, autoantibodies (−), C-peptide (+)<br><br><b>⚠️ Khoảng 5-10% 'T2D' >30t thực chất là LADA → check GAD65 nếu không đáp ứng điều trị.</b>",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Sàng lọc T2D: tất cả người ≥{{c1::35}} tuổi, mỗi {{c1::1-3}} năm. BMI ≥{{c1::25}} (≥{{c1::23}} Asian) + risk factors → bất kỳ tuổi. Prediabetes → {{c1::hàng năm}}. Phụ nữ GDM → {{c1::sau sinh và suốt đời}}. Trẻ em BMI ≥{{c1::85th}} percentile + RF → từ {{c1::10}} tuổi.",
+    "extra": "ADA SOC 2026 Section 2."
+  },
+  {
+    "type": "basic",
+    "front": "Cá thể hóa mục tiêu HbA1c theo ADA 2026?",
+    "back": "<b>📖 ADA SOC 2026 Section 6:</b><br>• <b>&lt;6.5%</b>: Trẻ, mới chẩn đoán, không ASCVD, kỳ vọng sống dài — nếu an toàn<br>• <b>&lt;7.0%</b>: MỤC TIÊU CHUẨN cho hầu hết người lớn<br>• <b>&lt;7.5-8.0%</b>: ≥65t, nhiều bệnh nền, biến chứng tiến triển, tiền sử hạ ĐH nặng<br>• <b>&lt;8.0-8.5%</b>: Cuối đời, nursing home, kỳ vọng sống rất hạn chế<br><br><b>⚠️ ACCORD: aggressive &lt;6.0% → ↑ 22% tử vong! ADVANCE: hạ từ từ với gliclazide MR → an toàn.</b>",
+    "extra": "[GUIDELINE VERIFIED] ADA SOC 2026 Section 6."
+  },
+  {
+    "type": "basic",
+    "front": "6 chỉ số CGM metrics và mục tiêu?",
+    "back": "<b>📖 ADA SOC 2026 (dữ liệu ≥14 ngày):</b><br>• <b>TIR 70-180 mg/dL: >70%</b> (~16h48m/ngày) ≈ HbA1c ~7.0%<br>• <b>TBR &lt;70: &lt;4%</b> (&lt;1h/ngày)<br>• <b>TBR &lt;54: &lt;1%</b> (&lt;15 phút/ngày) — clinically significant<br>• <b>TAR >180: &lt;25%</b><br>• <b>TAR >250: &lt;5%</b><br>• <b>CV (Coefficient of Variation): ≤36%</b> — mục tiêu 'ổn định'<br><br><b>🔍 Mỗi 10% Δ TIR ≈ 0.5% Δ HbA1c. CGM nên offer cho T1D + T2D on intensive insulin.</b>",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Mục tiêu huyết áp ĐTĐ: <{{c1::130/80}} mmHg cho hầu hết. Ưu tiên {{c1::ACEi hoặc ARB}} nếu albuminuria (UACR ≥30). Mục tiêu lipid: LDL <{{c1::70}} nếu ASCVD, <{{c1::100}} nếu không ASCVD. Statin: {{c1::high-intensity}} cho age 40-75 + ASCVD hoặc risk factors.",
+    "extra": "ADA SOC 2026 Sections 6 & 10."
+  },
+  {
+    "type": "basic",
+    "front": "Aspirin trong ĐTĐ — primary vs secondary prevention?",
+    "back": "<b>📖 ADA SOC 2026:</b><br>• <b>Secondary prevention</b>: Aspirin 75-162 mg/day cho <b>TẤT CẢ</b> BN ĐTĐ + ASCVD<br>• <b>Primary prevention</b>: CÂN NHẮC ở BN 50-70t + ≥1 ASCVD risk factor + <b>low bleeding risk</b><br>• <b>KHÔNG khuyến cáo</b> primary prevention age <50 hoặc >70 (bleeding risk > benefit)<br><br><b>🔍 DAPT (aspirin + P2Y12i) sau ACS/PCI theo guideline tim mạch.</b>",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "MNT (Medical Nutrition Therapy) giảm HbA1c: T1D {{c1::1.0-1.9%}}, T2D {{c1::0.3-2.0%}}. Carb: ≥{{c1::14}}g xơ/1000 kcal, hạn chế đường bổ sung. Fat: thay {{c1::saturated/trans}} bằng {{c1::MUFA/PUFA}} (Địa Trung Hải). Tập thể dục: ≥{{c1::150}} phút/tuần aerobic + {{c1::2-3}} buổi resistance.",
+    "extra": "ADA SOC 2026 Section 5. NICE NG28."
+  },
+  {
+    "type": "basic",
+    "front": "Carb counting — công thức ICR và Correction Factor?",
+    "back": "<b>📖 Công thức cho BN dùng insulin:</b><br>• <b>ICR (Insulin-to-Carb Ratio)</b> = <b>500 ÷ TDD</b> (total daily insulin dose)<br>  → VD: TDD = 50U → ICR = 10g carb cần 1U insulin<br>• <b>CF (Correction Factor / Insulin Sensitivity Factor)</b> = <b>1800 ÷ TDD</b> (mg/dL)<br>  → VD: TDD = 50U → CF = 36 mg/dL (1U hạ glucose ~36 mg/dL)<br>  → Nếu dùng mmol/L: 100 ÷ TDD<br><br><b>🔍 Dùng để tính liều bolus trước ăn: carb count ÷ ICR + (glucose hiện tại − target) ÷ CF.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "7 nhóm thuốc trị T2D — cơ chế, ↓HbA1c, ưu/nhược chính?",
+    "back": "<b>📖 Bảng tổng quan:</b><br>1. <b>Metformin</b>: ↓ hepatic glucose → ↓1.0-1.5%. Rẻ, UKPDS mortality benefit. CCĐ eGFR<30.<br>2. <b>SGLT2i</b>: glucose niệu → ↓0.5-1.0%. ↓CV death, ↓HF, ↓CKD. Nấm SD, euglycemic DKA.<br>3. <b>GLP-1 RA</b>: ↑insulin GD, ↓glucagon → ↓1.0-2.0%. ↓MACE, ↓cân (tirzepatide 15-20%). Buồn nôn, đắt.<br>4. <b>DPP-4i</b>: ↑GLP-1 nội sinh → ↓0.5-0.8%. Trung tính CN, an toàn CKD. Hiệu quả khiêm tốn.<br>5. <b>SU</b>: đóng K-ATP → tiết insulin → ↓1.0-1.5%. Rẻ. HẠ ĐƯỜNG HUYẾT, tăng cân.<br>6. <b>TZD</b>: PPAR-γ → ↑nhạy insulin → ↓0.5-1.4%. Bền vững. Giữ nước/HF, gãy xương.<br>7. <b>α-GI</b>: ↓hấp thu carb → ↓0.5-0.8%. Không hạ ĐH. Đầy hơi, 3 lần/ngày.",
+    "extra": "[GUIDELINE VERIFIED] ADA SOC 2026 Section 9."
+  },
+  {
+    "type": "basic",
+    "front": "ADA/EASD 2026 Algorithm — chọn add-on theo comorbidity?",
+    "back": "<b>📖 Sau Metformin + Lifestyle → đánh giá:</b><br>• <b>ASCVD hoặc high CV risk</b> → + SGLT2i HOẶC GLP-1 RA<br>• <b>HF (đặc biệt HFrEF)</b> → + SGLT2i (cả khi KHÔNG có T2D!)<br>• <b>CKD (albuminuria hoặc eGFR↓)</b> → + SGLT2i (± GLP-1RA, ± finerenone)<br>• <b>Cần giảm cân / tránh hạ ĐH</b> → + GLP-1 RA hoặc dual GIP/GLP-1 (tirzepatide)<br>• <b>Cost là vấn đề</b> → + SU (gliclazide MR) hoặc TZD<br><br><b>⚠️ PARADIGM SHIFT: Comorbidity QUAN TRỌNG HƠN HbA1c khi chọn add-on.</b>",
+    "extra": "ADA SOC 2026 Section 9. NICE NG28."
+  },
+  {
+    "type": "cloze",
+    "text": "ADA/EASD Algorithm: ASCVD → +{{c1::SGLT2i hoặc GLP-1 RA}}. HFrEF → +{{c1::SGLT2i}}. CKD (albuminuria) → +{{c1::SGLT2i}}. Cần giảm cân → +{{c1::GLP-1 RA hoặc tirzepatide}}. Cost issue → +{{c1::SU hoặc TZD}}. Comorbidity {{c1::quan trọng hơn}} HbA1c.",
+    "extra": "ADA SOC 2026 Section 9."
+  },
+  {
+    "type": "basic",
+    "front": "Metformin — cơ chế, liều, CCĐ, lưu ý đặc biệt?",
+    "back": "<b>📖 First-line T2D:</b><br>• <b>Cơ chế</b>: ↓ gluconeogenesis gan (ức chế complex I ty thể → AMPK activation)<br>• <b>Liều</b>: Khởi đầu 500mg×1-2, tối đa 2000-2550mg/ngày, tăng dần để giảm GI side effects<br>• <b>CCĐ tuyệt đối</b>: eGFR <30, toan lactic, suy gan nặng, shock<br>• <b>CCĐ tương đối</b>: eGFR 30-44 → giảm liều (500-1000mg), theo dõi sát<br>• <b>↓HbA1c</b>: 1.0-1.5%<br>• <b>UKPDS 34</b>: Metformin = ONLY oral agent with mortality benefit (↓36% all-cause)<br><br><b>⚠️ B12 deficiency khi dùng dài hạn → kiểm tra định kỳ. Ngừng 24h trước PT nếu nguy cơ AKI.</b>",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "SGLT2i (empagliflozin, dapagliflozin): cơ chế = ức chế {{c1::SGLT2}} ở ống thận gần → {{c1::glucose niệu}}. ↓HbA1c {{c1::0.5-1.0%}}. Ưu: ↓{{c1::CV death}}, ↓{{c1::HF hospitalization}}, ↓{{c1::CKD progression}}, giảm {{c1::cân}} + {{c1::HA}}. Nhược: {{c1::nấm SD, UTI, euglycemic DKA}}.",
+    "extra": "EMPA-REG, DECLARE-TIMI, DAPA-HF, DAPA-CKD, EMPA-KIDNEY."
+  },
+  {
+    "type": "basic",
+    "front": "GLP-1 RA — tên thuốc, cơ chế, CV benefit, tác dụng phụ chính?",
+    "back": "<b>📖 Tên thuốc:</b> Liraglutide (SC), Semaglutide (SC/uống), Dulaglutide (SC), <b>Tirzepatide</b> (dual GIP/GLP-1, SC)<br><br><b>Cơ chế:</b> ↑ insulin glucose-dependent, ↓ glucagon, chậm rỗng dạ dày, ↓ appetite (TWT)<br><b>↓HbA1c</b>: 1.0-1.5% (semaglutide), 1.5-2.0% (tirzepatide)<br><br><b>CV benefit:</b><br>• Liraglutide (LEADER): ↓13% MACE<br>• Semaglutide SC (SUSTAIN-6): ↓26% MACE<br>• Dulaglutide (REWIND): ↓12% MACE<br><br><b>Tác dụng phụ:</b> Buồn nôn/nôn (tăng liều từ từ!), sỏi mật, viêm tụy (hiếm)<br><b>CCĐ tuyệt đối:</b> Medullary thyroid CA, MEN2<br><br><b>⚠️ Tirzepatide: giảm cân 15-20% — mạnh nhất trong tất cả GLP-1RA.</b>",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "SU (glimepiride, gliclazide MR): cơ chế = đóng kênh {{c1::K-ATP}} → khử cực → {{c1::Ca2+}} influx → tiết insulin. ↓HbA1c {{c1::1.0-1.5%}}. Nhược CHÍNH: {{c1::hạ đường huyết}} và {{c1::tăng cân}}. {{c1::TRÁNH}} dùng ở elderly và CKD. Nếu cần: chọn {{c1::gliclazide MR}}.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào bắt đầu insulin ở T2D? (6 chỉ định)",
+    "back": "<b>📖 ADA SOC 2026 + NICE NG28:</b><br>1. <b>HbA1c >10% hoặc glucose >300 + triệu chứng</b> → insulin ngay (có thể tạm thời)<br>2. <b>Không đạt target với ≥2-3 non-insulin agents</b><br>3. <b>Bằng chứng suy β-cell</b>: sút cân, C-peptide thấp<br>4. <b>CCĐ tất cả non-insulin agents</b><br>5. <b>Thai kỳ</b> (nếu MNT không kiểm soát được)<br>6. <b>Perioperative, bệnh cấp nặng, corticosteroid liều cao</b><br><br><b>⚠️ CLINICAL INERTIA = kẻ thù. Đừng trì hoãn insulin khi đã cần!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "6 loại insulin — tên, khởi phát, đỉnh, thời gian?",
+    "back": "<b>📖 Bảng insulin:</b><br>• <b>Rapid-acting</b> (lispro, aspart, faster aspart): 5-15min | 1-2h | 3-5h<br>• <b>Short-acting</b> (regular): 30-60min | 2-4h | 6-8h<br>• <b>Intermediate</b> (NPH): 1-3h | 4-8h | 12-18h — ĐỤC, lắc trước dùng<br>• <b>Long-acting</b> (glargine U100, detemir): 1-2h | không đỉnh/đỉnh nhẹ | 20-24h<br>• <b>Ultra-long</b> (glargine U300, degludec): 1-6h | không đỉnh | 24-42h — degludec linh hoạt ±8h<br>• <b>Premixed</b> (70/30, 75/25, 50/50): thay đổi | 2 đỉnh | 12-18h — kém linh hoạt<br><br><b>🔍 Degludec ít hạ ĐH ban đêm nhất. Insulin người rẻ hơn analog.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "T1D — khởi đầu insulin, phân chia basal-bolus, điều chỉnh liều?",
+    "back": "<b>📖 Protocol T1D:</b><br>• <b>Tổng liều khởi đầu</b>: 0.4-0.5 U/kg/ngày (tuổi dậy thì: 0.7-1.0)<br>• <b>Basal</b>: 40-50% tổng liều (glargine, degludec, detemir, NPH)<br>• <b>Bolus</b>: 50-60% chia 3 bữa (lispro, aspart)<br><br><b>Điều chỉnh:</b><br>• <b>Basal</b>: titrate mỗi 2-3 ngày, target fasting 80-130. Tăng 2-4U nếu >target.<br>• <b>Bolus</b>: ICR = 500÷TDD, CF = 1800÷TDD<br><br><b>⚠️ Dawn phenomenon: tăng basal rate 3-7 AM. Somogyi effect: rebound hyperglycemia sau nocturnal hypo → GIẢM basal.</b>",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "T2D insulin step-wise: Step 1 — {{c1::basal}} insulin (0.1-0.2 U/kg, titrate q2-3d). Step 2 — {{c1::basal-plus}} (thêm 1 mũi rapid trước bữa lớn nhất). Step 3 — {{c1::basal-bolus}} (MDI). NGỪNG {{c1::SU}} khi bắt đầu basal-bolus! Tiếp tục {{c1::metformin, SGLT2i, GLP-1RA}}.",
+    "extra": "ADA SOC 2026 Section 9."
+  },
+  {
+    "type": "basic",
+    "front": "Hybrid Closed-Loop (HCL) — lợi ích, chỉ định, nguy cơ?",
+    "back": "<b>📖 PMID 35450868:</b><br>• <b>HCL systems</b>: Medtronic 780G, Tandem Control-IQ, Omnipod 5, CamAPS FX<br>• <b>Lợi ích</b>: ↑ TIR 10-15%, ↓ HbA1c 0.3-0.5%, ↓ nocturnal hypoglycemia<br>• <b>Chỉ định chính</b>:<br>  - T1D không đạt target với MDI tối ưu<br>  - Recurrent severe hypoglycemia / hypoglycemia unawareness<br>  - Dawn phenomenon rõ<br>  - Phụ nữ có thai T1D<br>• <b>Nguy cơ</b>: <b>DKA nhanh hơn MDI</b> (không depot basal nếu set hỏng!) → backup insulin + test ketone nếu glucose >250<br><br><b>⚠️ Ưu điểm chính của HCL: tự động điều chỉnh basal → giảm hypoglycemia + tăng TIR.</b>",
+    "extra": "[ABSTRACT VERIFIED] PMID 35450868."
+  },
+  {
+    "type": "basic",
+    "front": "DKA — tiêu chuẩn chẩn đoán (phân độ nhẹ/trung bình/nặng)?",
+    "back": "<b>📖 PMID 19564476:</b><br>| Tiêu chí | Nhẹ | Trung bình | Nặng |<br>|---|---|---|---|<br>| Glucose | >250 | >250 | >250 |<br>| pH | 7.25-7.30 | 7.00-7.24 | <7.00 |<br>| HCO3 | 15-18 | 10-<15 | <10 |<br>| Anion gap | >10 | >12 | >12 |<br>| Ketone | (+) | (+) | (+) |<br><br><b>⚠️ Euglycemic DKA (SGLT2i): glucose <250 nhưng vẫn toan + ketone → luôn check ketone khi nghi ngờ!</b>",
+    "extra": "[ABSTRACT VERIFIED] PMID 19564476."
+  },
+  {
+    "type": "basic",
+    "front": "DKA — protocol điều trị 4 bước?",
+    "back": "<b>📖 Protocol DKA (ICU/CCU):</b><br>1. <b>DỊCH</b>: 0.9% NaCl 15-20 mL/kg/h giờ đầu (~1-1.5L). Sau đó 250-500 mL/h. Khi glucose ~200 → 5% dextrose + 0.45% NaCl.<br>2. <b>INSULIN IV</b>: 0.1 U/kg/h. Mục tiêu ↓glucose 50-75 mg/dL/h. KHÔNG NGỪNG đến khi toan resolved (pH≥7.30, HCO3≥18, AG≤12). Khi glucose ~200: giảm còn 0.02-0.05 U/kg/h.<br>3. <b>KALI</b>: Kiểm tra TRƯỚC insulin! Nếu K+<3.3 → HOÃN insulin, bù K+. Nếu 3.3-5.2 → bù 20-30 mEq/L. Mục tiêu 4.0-5.0.<br>4. <b>BICARBONATE</b>: CHỈ khi pH<6.9 (100 mmol NaHCO3 + 20 mEq KCl, truyền 2h).<br><br><b>⚠️ Theo dõi: glucose q1h, ĐG/KM/ketone q2-4h. Resolved = glucose<200 + ≥2/3 (pH≥7.30, HCO3≥18, AG≤12).</b>",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "DKA triggers chính: {{c1::bỏ insulin}} (#1 T1D), {{c1::nhiễm trùng}} (30-50%), {{c1::T1D mới}} (20-30% trẻ em), {{c1::MI, stroke, viêm tụy}}, {{c1::SGLT2i}} (euglycemic DKA!), {{c1::corticosteroid}}.",
+    "extra": "[ABSTRACT VERIFIED] PMID 19564476."
+  },
+  {
+    "type": "basic",
+    "front": "HHS vs DKA — 7 khác biệt chính?",
+    "back": "<b>📖 So sánh:</b><br>| Tiêu chí | HHS | DKA |<br>|---|---|---|<br>| <b>Tuổi</b> | >60 | <40 |<br>| <b>Type ĐTĐ</b> | T2D | T1D (T2D cũng có) |<br>| <b>Glucose</b> | >600 (800-1200) | >250 |<br>| <b>pH</b> | >7.30 | <7.30 |<br>| <b>Ketosis</b> | Không/ít | +++ |<br>| <b>Mất nước</b> | 8-12L | 6-9L |<br>| <b>Tử vong</b> | 5-20% | <1-5% |<br><br><b>⚠️ HHS: DỊCH QUAN TRỌNG HƠN INSULIN. Bắt đầu insulin SAU 1-2h truyền dịch. Effective osmolality = 2×Na(corrected) + glucose/18 >320.</b>",
+    "extra": "[ABSTRACT VERIFIED] PMID 19564476."
+  },
+  {
+    "type": "basic",
+    "front": "HHS — khác biệt điều trị so với DKA? (5 điểm)",
+    "back": "<b>📖 Điều trị HHS KHÁC DKA:</b><br>1. <b>DỊCH quan trọng hơn insulin</b>: thiếu hụt 8-12L, 1-1.5L/h giờ đầu<br>2. <b>Insulin SAU 1-2h truyền dịch</b> (bắt đầu sớm → tụt HA, sốc do glucose ↓ nhanh khi chưa bù dịch)<br>3. <b>Liều insulin THẤP HƠN</b>: 0.05 U/kg/h (vs 0.1 DKA)<br>4. <b>Theo dõi OSMOLALITY</b>: mục tiêu ↓3-8 mOsm/kg/h. Công thức: 2×Na(corr) + glucose/18<br>5. <b>CHỐNG ĐÔNG dự phòng</b>: LMWH (tuổi cao + cô đặc máu + nằm lâu → nguy cơ VTE cao)<br><br><b>⚠️ Ngừng insulin khi osmolality <315 + BN tỉnh táo (KHÔNG dựa vào glucose!).</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Hạ đường huyết — 3 mức phân độ và xử trí?",
+    "back": "<b>📖 ADA SOC 2026:</b><br>• <b>Level 1</b> (54-70 mg/dL): Alert value — điều chỉnh điều trị<br>• <b>Level 2</b> (<54 mg/dL): Clinically significant — triệu chứng thần kinh<br>• <b>Level 3</b> (bất kỳ + cần hỗ trợ): Severe — cấp cứu<br><br><b>Xử trí:</b><br>• <b>Level 1-2, tỉnh</b>: <b>Rule of 15</b> — 15g glucose nhanh → test sau 15min → lặp nếu <70. Sau ≥70: carb phức + protein.<br>• <b>Level 2-3, không uống được</b>: Glucagon 1mg IM/SC hoặc <b>xịt mũi 3mg</b> (Baqsimi). Hoặc D50W IV.<br><br><b>⚠️ Dùng ĐƯỜNG ĐƠN trước (viên glucose, nước trái cây) — KHÔNG dùng carb phức (bánh mì, chocolate) để xử trí cấp!</b>",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Hypoglycemia unawareness: mất triệu chứng {{c1::tự chủ}} → rơi thẳng vào level 2-3. YTNC: T1D {{c1::lâu năm}}, hạ ĐH {{c1::tái diễn}}, kiểm soát {{c1::quá chặt}}. Xử trí: {{c1::nới target}} 2-3 tuần, {{c1::CGM với alarm}}, giáo dục.",
+    "extra": "ADA SOC 2026 Section 6."
+  },
+  {
+    "type": "basic",
+    "front": "Tầm soát biến chứng mạn ĐTĐ — lịch và phương pháp từng loại?",
+    "back": "<b>📖 ADA SOC 2026 Sections 10-12:</b><br>• <b>Retinopathy</b>: T1D trong 5 năm | T2D <b>NGAY khi chẩn đoán</b> → dilated eye exam hàng năm (có thể 2 năm nếu ≥2 lần BT)<br>• <b>DKD</b>: <b>UACR + eGFR hàng năm</b>. DKD = UACR ≥30 mg/g và/hoặc eGFR <60 kéo dài ≥3 tháng<br>• <b>Neuropathy</b>: Monofilament 10g (4 sites) + rung 128Hz + proprioception + ankle reflexes — hàng năm<br>• <b>Foot exam</b>: Khám chân toàn diện hàng năm (mạch, biến dạng, loét)<br>• <b>Lipid</b>: Hàng năm<br>• <b>TSH (T1D)</b>: Tại chẩn đoán + mỗi 1-2 năm<br><br><b>⚠️ Biến chứng vi mạch có thể bắt đầu từ giai đoạn PREDIABETES!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Điều trị DKD (bệnh thận ĐTĐ) — 4 trụ cột?",
+    "back": "<b>📖 4 trụ cột bảo vệ thận:</b><br>1. <b>ACEi hoặc ARB</b>: cho UACR ≥30 mg/g, titrate đến max tolerated dose — kể cả không THA. KHÔNG phối hợp ACEi+ARB.<br>2. <b>SGLT2i</b> (dapagliflozin, empagliflozin): cho eGFR ≥20 + albuminuria. Evidence: DAPA-CKD, EMPA-KIDNEY.<br>3. <b>Finerenone</b> (non-steroidal MRA): thêm nếu vẫn albuminuria dù đã ACEi/ARB + SGLT2i. Evidence: FIDELIO-DKD, FIGARO-DKD.<br>4. <b>BP <130/80</b> + tránh nephrotoxins (NSAIDs!)<br><br><b>🔍 Refer nephrology khi eGFR <30 hoặc rapidly declining.</b>",
+    "extra": "ADA SOC 2026 Section 11. FLOW trial (semaglutide) cũng có renal benefit."
+  },
+  {
+    "type": "cloze",
+    "text": "Diabetic retinopathy: T1D → khám mắt trong {{c1::5 năm}} sau chẩn đoán | T2D → {{c1::ngay khi}} chẩn đoán. Điều trị: {{c1::anti-VEGF}} injections (first-line DME), {{c1::laser PRP}} (PDR), {{c1::vitrectomy}} (vitreous hemorrhage).",
+    "extra": "ADA SOC 2026 Section 12."
+  },
+  {
+    "type": "basic",
+    "front": "Điều trị đau do DSPN (diabetic neuropathy)?",
+    "back": "<b>📖 First-line (chọn dựa trên comorbidity, TDP, cost):</b><br>• <b>Gabapentin / Pregabalin</b> (gabapentinoid) — an thần, chóng mặt<br>• <b>Duloxetine</b> (SNRI) — tốt nếu kèm trầm cảm<br>• <b>Amitriptyline / Nortriptyline</b> (TCA) — rẻ, TDP kháng cholinergic, CCĐ tim mạch<br><br><b>Second-line:</b> Tramadol, tapentadol (cân nhắc nguy cơ nghiện). Capsaicin topical.<br><br><b>⚠️ Chăm sóc bàn chân: khám hàng ngày, rửa nước ấm, lau khô kẽ ngón, không đi chân trần, giày dép phù hợp.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "DCCT (1993) — thiết kế và kết quả chính?",
+    "back": "<b>📖 PMID 8366922:</b><br>• <b>1441 T1D</b>. Intensive vs conventional insulin<br>• HbA1c: <b>7.2% vs 9.0%</b><br>• ↓ <b>Retinopathy 76%</b><br>• ↓ <b>Nephropathy 50%</b><br>• ↓ <b>Neuropathy 60%</b><br><br><b>🔍 EDIC follow-up: 'Metabolic memory' — continued benefit dù HbA1c converge → kiểm soát tốt CÀNG SỚM CÀNG TỐT.</b>",
+    "extra": "[ABSTRACT VERIFIED] PMID 8366922."
+  },
+  {
+    "type": "basic",
+    "front": "UKPDS 33 & 34 — thiết kế và kết quả chính?",
+    "back": "<b>📖 UKPDS 33 (Lancet 1998, PMID 9742976):</b><br>• <b>5102 T2D mới chẩn đoán</b>. Intensive (SU/insulin) vs conventional<br>• HbA1c: <b>7.0% vs 7.9%</b><br>• ↓ <b>25% microvascular</b> (p=0.0099). ↓ 16% MI (p=0.052 — borderline)<br><br><b>📖 UKPDS 34 (Metformin subset, PMID 9742977):</b><br>• ↓ <b>32% any diabetes endpoint</b><br>• ↓ <b>42% diabetes-related death</b><br>• ↓ <b>36% all-cause mortality</b><br><br><b>🔍 Metformin = ONLY oral agent with mortality benefit. 10-year follow-up: Legacy effect confirmed.</b>",
+    "extra": "[ABSTRACT VERIFIED] PMID 9742976, 9742977."
+  },
+  {
+    "type": "basic",
+    "front": "ACCORD (2008) vs ADVANCE (2008) — bài học?",
+    "back": "<b>📖 ACCORD (NEJM 2008):</b><br>• Intensive (target <6.0%) vs standard (7.0-7.9%)<br>• <b>↑ 22% mortality (HR 1.22, p=0.04)</b> → trial DỪNG SỚM<br>• Nguyên nhân: severe hypoglycemia, polypharmacy, hạ HbA1c quá nhanh<br><br><b>📖 ADVANCE (NEJM 2008):</b><br>• Intensive (HbA1c 6.5%) vs standard (7.3%)<br>• ↓ 21% nephropathy. <b>KHÔNG tăng mortality</b><br>• Khác ACCORD: dùng gliclazide MR, hạ HbA1c TỪ TỪ<br><br><b>⚠️ BÀI HỌC: Aggressive glucose lowering CÓ HẠI ở BN nguy cơ cao. Hạ HbA1c từ từ, tránh hạ ĐH, cá thể hóa target.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "EMPA-REG OUTCOME (2015) — kết quả?",
+    "back": "<b>📖 Zinman B et al. NEJM 2015. PMID 26378978:</b><br>• Empagliflozin vs placebo ở T2D + established CVD<br>• <b>↓ 38% CV death</b> (HR 0.62, 95% CI 0.49-0.77, p<0.001)<br>• <b>↓ 35% HF hospitalization</b><br>• <b>↓ 32% all-cause mortality</b><br><br><b>🔍 Đây là thử nghiệm ĐẦU TIÊN chứng minh 1 thuốc hạ đường huyết GIẢM TỬ VONG TIM MẠCH. Mở ra kỷ nguyên CVOT.</b>",
+    "extra": "[ABSTRACT VERIFIED] PMID 26378978."
+  },
+  {
+    "type": "basic",
+    "front": "LEADER (2016) — kết quả?",
+    "back": "<b>📖 Marso SP et al. NEJM 2016. PMID 27295427:</b><br>• Liraglutide vs placebo ở T2D + high CV risk<br>• <b>↓ 13% MACE</b> (HR 0.87, 95% CI 0.78-0.97, p=0.01)<br>• <b>↓ 22% CV death</b><br>• <b>↓ 15% all-cause mortality</b><br><br><b>🔍 GLP-1RA đầu tiên chứng minh CV benefit. Khác SGLT2i: GLP-1RA mạnh hơn cho ATHEROSCLEROTIC events, SGLT2i mạnh hơn cho HF.</b>",
+    "extra": "[ABSTRACT VERIFIED] PMID 27295427."
+  },
+  {
+    "type": "basic",
+    "front": "CVOT summary — SGLT2i vs GLP-1RA khác nhau thế nào?",
+    "back": "<b>📖 Tổng kết từ EMPA-REG, DECLARE, LEADER, SUSTAIN-6, REWIND:</b><br><br><b>SGLT2i (empagliflozin, dapagliflozin):</b><br>• ↓ HF hospitalization ~27-35% — MẠNH NHẤT<br>• ↓ CV death (EMPA-REG: 38%)<br>• ↓ CKD progression<br>• Có thể dùng cho HF KHÔNG CÓ T2D<br><br><b>GLP-1 RA (liraglutide, semaglutide, dulaglutide):</b><br>• ↓ MACE ~12-26%<br>• ↓ Stroke (SUSTAIN-6: ↓39%)<br>• ↓ CV death (LEADER: ↓22%)<br>• Giảm cân mạnh<br><br><b>⚠️ SU, DPP-4i, insulin: CHƯA chứng minh CV benefit. Một số DPP-4i có signal ↑ HF (saxagliptin).</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "FLOW trial (2024) — kết quả?",
+    "back": "<b>📖 Perkovic V et al. NEJM 2024. PMID 38785209:</b><br>• Semaglutide vs placebo ở T2D + CKD<br>• <b>↓ 24% primary kidney composite</b> (kidney failure, eGFR decline ≥50%, renal/CV death)<br><br><b>🔍 GLP-1RA → renal benefit CONFIRMED. Đây là evidence mới nhất (2024) mở rộng chỉ định GLP-1RA sang bảo vệ thận.</b>",
+    "extra": "[ABSTRACT VERIFIED] PMID 38785209."
+  },
+  {
+    "type": "basic",
+    "front": "7 sai lầm thường gặp trong điều trị ĐTĐ?",
+    "back": "<b>📖 Clinical Pearls:</b><br>1. <b>Chẩn đoán nhầm LADA là T2D</b> → dùng SU sớm → accelerate β-cell failure → check GAD65!<br>2. <b>Sliding scale insulin đơn độc ở BN nội trú</b> → glucose roller-coaster → dùng basal-bolus!<br>3. <b>Ngừng metformin ở eGFR 30-44</b> → dùng được đến eGFR 30 với liều giảm (500-1000mg)!<br>4. <b>Không tầm soát biến chứng hàng năm</b> → bỏ lỡ can thiệp sớm → set reminder!<br>5. <b>Dùng SU ở elderly/CKD</b> → hạ ĐH nặng, té ngã, tử vong → tránh SU, chọn DPP-4i/SGLT2i/GLP-1RA!<br>6. <b>Quên điều chỉnh insulin khi dùng corticosteroid</b> → tăng prandial insulin!<br>7. <b>Clinical inertia — trì hoãn insulin</b> → kéo dài glucotoxicity → escalate mỗi 3-6 tháng!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: BN nữ 42t, FPG lần 1=130, lần 2=128 mg/dL, HbA1c=6.3%. Chẩn đoán?",
+    "back": "<b>📖 Chẩn đoán ĐTĐ.</b> FPG ≥126 ở HAI LẦN RIÊNG BIỆT là đủ tiêu chuẩn — không cần HbA1c ≥6.5% nếu FPG đã đạt ngưỡng. HbA1c 6.3% là yếu tố hỗ trợ, không loại trừ chẩn đoán.<br><br><b>🔍 Nếu 2 test discordant (FPG diagnostic, HbA1c non-diagnostic) → repeat test bất thường.</b>",
+    "extra": "Section 1 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: BN nam 30t, BMI 22, 'T2D' 1 năm, metformin+glimepiride, HbA1c 9.5%. Nghi ngờ gì?",
+    "back": "<b>📖 Nghi ngờ LADA.</b> T2D khởi phát trẻ + gầy + không đáp ứng ≥2 thuốc uống → cần kiểm tra <b>GAD65, IA-2, C-peptide</b>.<br><br><b>⚠️ Nếu GAD65 (+) + C-peptide thấp → chẩn đoán LADA → NGỪNG SU, bắt đầu insulin sớm để bảo tồn β-cell còn lại.</b>",
+    "extra": "Section 1 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: Tại sao BN T2D có glucose đói tăng dù chưa ăn? Cơ quan nào chịu trách nhiệm?",
+    "back": "<b>📖 Glucose đói tăng chủ yếu do GAN tăng gluconeogenesis</b> — 'khiếm khuyết #3' trong Ominous Octet.<br><br>Insulin không ức chế được gluconeogenesis do đề kháng insulin ở gan → glucose tiếp tục được sản xuất dù đã có tăng đường huyết.<br><br><b>🔍 Đây là đóng góp CHÍNH vào tăng glucose lúc đói ở T2D.</b>",
+    "extra": "Section 2 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: Trẻ 10t, GAD65(+), IA-2(+), FPG 90, OGTT 2h=130 mg/dL. Giai đoạn T1D? Điều trị?",
+    "back": "<b>📖 T1D Stage 1:</b> ≥2 autoantibodies (+), normoglycemia, không triệu chứng.<br><br>Hiện tại <b>CHƯA có điều trị chuẩn</b> — theo dõi định kỳ (FPG, HbA1c, OGTT). Teplizumab (anti-CD3) có thể xem xét nếu tiến triển sang <b>Stage 2</b> (có dysglycemia).<br><br><b>🔍 ≥2 Ab → risk progression 50-80% trong 5-10 năm.</b>",
+    "extra": "Section 2 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: BN nữ 25t, BMI 23, 'T2D' 6 tháng, metformin+gliclazide, HbA1c 9.8%, C-peptide 0.3 (thấp), GAD65(+). Chẩn đoán lại? Điều trị?",
+    "back": "<b>📖 LADA</b> — C-peptide thấp + GAD65 (+) ở BN trẻ, gầy, không đáp ứng thuốc uống.<br><br><b>Điều trị:</b> NGỪNG gliclazide (SU). Bắt đầu <b>basal insulin</b> (glargine/degludec 0.1-0.2 U/kg) + tiếp tục metformin. Có thể cần basal-bolus sớm nếu không đạt target.<br><br><b>⚠️ SU accelerate β-cell failure ở LADA → cần insulin sớm để bảo tồn.</b>",
+    "extra": "Section 3 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: BN nam 72t, T2D 15 năm, CKD3, HFrEF EF 35%, tiền sử hạ ĐH nặng, HbA1c 7.2%. Mục tiêu HbA1c?",
+    "back": "<b>📖 Nới target lên 7.5-8.0%.</b><br><br>Lý do: tuổi cao (72), CKD, suy tim, và ĐẶC BIỆT là <b>tiền sử hạ đường huyết nặng</b> → nguy cơ hạ ĐH > lợi ích của kiểm soát chặt.<br><br><b>⚠️ Ở BN này, hạ ĐH nặng có thể gây loạn nhịp, té ngã, gãy xương, sa sút trí tuệ → nguy hiểm hơn tăng nhẹ HbA1c.</b>",
+    "extra": "Section 4 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: BN T2D 62t, post-MI (PCI 2 stent), HbA1c 8.2%, metformin 1g×2. Chọn thêm thuốc gì?",
+    "back": "<b>📖 BN có ASCVD rõ → ưu tiên thuốc có CV benefit:</b><br>• <b>SGLT2i</b> (empagliflozin 10mg — EMPA-REG evidence) HOẶC<br>• <b>GLP-1 RA</b> (liraglutide 0.6→1.8mg — LEADER evidence)<br><br><b>Theo dõi nếu chọn SGLT2i:</b> eGFR, UACR, dấu hiệu nấm SD, UTI.<br><b>Theo dõi nếu chọn GLP-1RA:</b> dung nạp GI, tăng liều từ từ (0.6→1.2→1.8mg mỗi 1-2 tuần).<br><br><b>⚠️ Comorbidity QUAN TRỌNG HƠN HbA1c — thêm SGLT2i/GLP-1RA ngay dù HbA1c đã đạt target!</b>",
+    "extra": "Section 6 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: Tại sao SGLT2i được khuyến cáo cho HFrEF ngay cả khi KHÔNG có T2D?",
+    "back": "<b>📖 SGLT2i có lợi ích tim mạch QUA NHIỀU CƠ CHẾ NGOÀI hạ glucose:</b><br>1. <b>Lợi tiểu thẩm thấu</b> → ↓ preload và afterload<br>2. <b>Cải thiện chuyển hóa năng lượng cơ tim</b> (tăng ketone bodies → 'superfuel' cho tim suy)<br>3. <b>Giảm viêm và xơ hóa cơ tim</b><br>4. <b>Cải thiện chức năng nội mô</b><br>5. <b>↓ sympathetic overactivity</b><br><br><b>🔍 Evidence: DAPA-HF (dapagliflozin), EMPEROR-Reduced (empagliflozin) → ↓26-30% CV death or HF hospitalization. Đây là 'HF drug', không chỉ 'diabetes drug'!</b>",
+    "extra": "Section 6 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: BN nữ 28t, T1D mới, 60kg. Tính liều insulin khởi đầu? Fasting 170 sau 1 tuần → điều chỉnh?",
+    "back": "<b>📖 Tính liều:</b><br>• Tổng liều = 0.4-0.5 × 60 = <b>24-30 U/ngày</b><br>• Basal (glargine/degludec) 40-50% = <b>12-15 U/ngày</b><br>• Bolus (lispro/aspart) = 18-22 U chia 3 bữa ≈ <b>6-7 U/bữa</b><br><br><b>Sau 1 tuần fasting TB = 170 mg/dL (target 80-130):</b><br>→ Tăng basal thêm <b>2-4 U</b> (lên 14-19 U). Nếu degludec: tăng 2U mỗi 3 ngày đến khi đạt target.<br><br><b>⚠️ Kiểm tra overnight CGM để loại trừ Somogyi effect (rebound hyperglycemia sau nocturnal hypo → cần GIẢM basal, không tăng!).</b>",
+    "extra": "Section 7 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: BN T2D 68t, metformin+empa+glargine 30U, viêm phổi, glucose 850, pH 7.32, HCO3 20, ketone vết, Na 148 (corr 152). Chẩn đoán?",
+    "back": "<b>📖 Tính effective osmolality:</b> 2 × 152 + 850/18 = 304 + 47 = <b>351 mOsm/kg</b><br><br><b>Chẩn đoán: HHS</b> (glucose >600, pH >7.30, HCO3 >18, không ketosis đáng kể, osmolality >320).<br><br><b>Điều trị:</b> Bắt đầu bằng <b>TRUYỀN DỊCH 0.9% NaCl 1-1.5L giờ đầu</b>. Insulin bắt đầu SAU 1-2h truyền dịch (0.05 U/kg/h).<br><br><b>⚠️ Yếu tố khởi phát = viêm phổi → kháng sinh sớm + cấy máu. Chống đông dự phòng (LMWH).</b>",
+    "extra": "Section 8 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: BN T2D 58t, 10 năm, HbA1c 8.0%, UACR 85 mg/g, eGFR 55. Đang metformin+lisinopril 20mg. BP 136/84. Thêm gì?",
+    "back": "<b>📖 BN có DKD (UACR >30 + eGFR <60).</b><br><br>Đã có <b>ACEi max dose</b> (lisinopril 20mg).<br><br><b>Cần thêm:</b><br>1. <b>SGLT2i</b> (dapagliflozin 10mg hoặc empagliflozin 10mg) — evidence DAPA-CKD/EMPA-KIDNEY<br>2. Nếu sau 3-6 tháng vẫn albuminuria → thêm <b>finerenone</b> (non-steroidal MRA)<br>3. <b>Target BP <130/80</b> — có thể cần thêm CCB (amlodipine) hoặc lợi tiểu<br><br><b>⚠️ KHÔNG phối hợp ACEi+ARB! Theo dõi K+ và creatinine sau mỗi lần thêm thuốc.</b>",
+    "extra": "Section 9 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA CUỐI BÀI (1/3): BN T2D 55t, metformin+glimepiride, HbA1c 8.8%, C-peptide thấp, GAD65(+), BMI 21. Chẩn đoán? Điều trị?",
+    "back": "<b>📖 LADA</b> — T2D 'gầy', C-peptide thấp, GAD65 (+), không đáp ứng thuốc uống.<br><br><b>Điều trị:</b> NGỪNG glimepiride → bắt đầu <b>basal insulin</b> + tiếp tục metformin. Theo dõi C-peptide, có thể cần basal-bolus sớm.<br><br><b>⚠️ Đây là case LADA điển hình bị chẩn đoán nhầm.</b>",
+    "extra": "Section 17 — Tự kiểm tra cuối bài."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA CUỐI BÀI (2/3): BN nữ 70t, T2D 20 năm, CKD4, HFpEF, TIA. Metformin+linagliptin+gliclazide+glargine 16U. HbA1c 7.1%. Phân tích?",
+    "back": "<b>📖 Vấn đề chính:</b><br>• <b>Gliclazide + insulin</b> → nguy cơ hạ ĐH nặng chồng lấp ở elderly + CKD → <b>NGỪNG gliclazide!</b><br>• Metformin 500mg: cân nhắc ngừng nếu eGFR <30. CKD4 → vẫn OK nếu theo dõi sát.<br>• Linagliptin: an toàn CKD (không cần chỉnh liều) → giữ.<br>• Insulin glargine: xem xét chuyển <b>degludec</b> (ít hạ ĐH hơn).<br>• <b>Target HbA1c: nới 7.5-8.0%</b> (70t, CKD, TIA).<br><br><b>⚠️ Polydiabetes regimen ở elderly = nguy hiểm. Deprescribe SU!</b>",
+    "extra": "Section 17 — Tự kiểm tra cuối bài."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA CUỐI BÀI (3/3): Tại sao phải kiểm tra K+ TRƯỚC khi bắt đầu insulin trong DKA? Điều gì xảy ra nếu K+ <3.3?",
+    "back": "<b>📖 Insulin đẩy K+ vào tế bào → K+ máu tụt nhanh.</b><br><br>Trong DKA, K+ toàn cơ thể đã thiếu trầm trọng (3-5 mEq/kg) dù K+ máu ban đầu có thể BT hoặc cao (do toan → K+ shift ra ngoại bào).<br><br><b>Nếu bắt đầu insulin khi K+ <3.3:</b><br>→ K+ tụt thêm → <b>nguy cơ loạn nhịp tim, ngừng tim, yếu cơ hô hấp</b><br><br><b>⚠️ Protocol: Nếu K+ <3.3 → HOÃN insulin, bù K+ 20-30 mEq/h đến khi K+ >3.3 rồi MỚI bắt đầu insulin.</b>",
+    "extra": "Section 17 — Tự kiểm tra cuối bài."
+  },
+  {
+    "type": "basic",
+    "front": "Quản lý ĐTĐ perioperative — 5 nguyên tắc?",
+    "back": "<b>📖 Perioperative management:</b><br>1. <b>Target glucose 80-180 mg/dL</b> trong PT<br>2. <b>Ngừng SGLT2i 3-4 ngày</b> trước PT (nguy cơ euglycemic DKA!)<br>3. <b>Metformin: ngừng 24h</b> trước nếu nguy cơ AKI (contrast, hypotension)<br>4. <b>Insulin: giảm basal 25-50%</b> đêm trước + NPO. Dùng insulin IV trong major surgery<br>5. <b>SU, DPP-4i, GLP-1RA: ngừng sáng PT</b> (nguy cơ hạ ĐH / chậm rỗng DD)<br><br><b>⚠️ Euglycemic DKA do SGLT2i có thể xảy ra với glucose <250 → luôn test ketone nếu BN dùng SGLT2i và có triệu chứng.</b>",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Corticosteroid-induced hyperglycemia: glucose tăng chủ yếu {{c1::sau ăn (chiều/tối)}}. Điều trị: tăng {{c1::prandial}} insulin. {{c1::NPH}} buổi sáng có thể giúp (peak khớp steroid peak).",
+    "extra": "Dexamethasone, prednisone → ↑ insulin resistance + ↑ hepatic glucose production."
+  },
+  {
+    "type": "basic",
+    "front": "Tirzepatide — cơ chế, hiệu quả, khác biệt với GLP-1RA khác?",
+    "back": "<b>📖 Tirzepatide = DUAL GIP/GLP-1 receptor agonist:</b><br>• <b>Cơ chế kép</b>: hoạt hóa cả GIP receptor + GLP-1 receptor → synergy<br>• <b>↓HbA1c</b>: 1.5-2.0% (mạnh nhất trong tất cả incretin therapies)<br>• <b>Giảm cân</b>: 10-15kg (SURPASS trials), up to 15-20% body weight<br>• <b>Liều</b>: 2.5mg → 5mg → 7.5mg → 10mg → 12.5mg → 15mg/tuần, tăng mỗi 4 tuần<br><br><b>🔍 Khác GLP-1RA đơn thuần: GIP component tăng thêm hiệu quả trên β-cell và mô mỡ → HbA1c ↓ mạnh hơn + giảm cân nhiều hơn.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Finerenone — cơ chế, chỉ định, evidence?",
+    "back": "<b>📖 Finerenone = non-steroidal selective mineralocorticoid receptor antagonist (MRA):</b><br>• <b>Cơ chế</b>: ức chế MR → ↓ viêm, ↓ xơ hóa ở thận và tim<br>• <b>Khác spironolactone/eplerenone</b>: chọn lọc hơn, ít TDP nội tiết (gynecomastia), ít tăng K+ hơn<br>• <b>Chỉ định</b>: T2D + CKD (albuminuria) dù đã dùng ACEi/ARB tối đa<br><br><b>Evidence:</b><br>• <b>FIDELIO-DKD</b> (2020): ↓ CKD progression + CV events<br>• <b>FIGARO-DKD</b> (2021): ↓ CV events ở CKD giai đoạn sớm hơn<br><br><b>⚠️ Theo dõi K+ và eGFR. Ngừng nếu K+ >5.5.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "ĐTĐ tại Việt Nam — dịch tễ, thuốc sẵn có, khác biệt thực hành?",
+    "back": "<b>📖 Bối cảnh VN:</b><br>• <b>Dịch tễ</b>: ~5% dân số trưởng thành, <b>50-60% undiagnosed</b><br>• <b>Guideline</b>: QĐ 3319/QĐ-BYT (2019) + áp dụng ADA<br>• <b>Metformin, SU</b>: rất sẵn, giá rẻ, BHYT chi trả<br>• <b>SGLT2i, GLP-1RA</b>: có ở TP lớn, đắt, BHYT chưa chi trả. Generic Ấn Độ giúp giảm giá SGLT2i.<br>• <b>Insulin</b>: đầy đủ. Insulin người (Actrapid, Insulatard) rẻ + BHYT. Analog đắt hơn.<br><br><b>Khác biệt thực hành:</b><br>• SU vẫn phổ biến do rẻ → cần hạn chế elderly/CKD<br>• SMBG ít (que thử đắt)<br>• DSMES &amp; chuyên gia dinh dưỡng thiếu<br>• Chăm sóc bàn chân kém → loét nặng<br>• Y học cổ truyền: dây thìa canh, khổ qua — không thay thế thuốc Tây!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "10 điểm cần nhớ — Tổng kết IM-51?",
+    "back": "<b>📖 10 TAKE-HOME POINTS:</b><br>1. <b>Chẩn đoán</b>: FPG ≥126, OGTT 2h ≥200, HbA1c ≥6.5%, hoặc random ≥200 + TC. Confirm repeat test.<br>2. <b>HbA1c CÁ THỂ HÓA</b>: <6.5% (trẻ), <7.0% (chuẩn), <7.5-8.0% (cao tuổi/bệnh nền).<br>3. <b>Metformin nền tảng T2D + chọn add-on theo COMORBIDITY</b> (ASCVD/HF/CKD) — paradigm shift!<br>4. <b>T1D = insulin suốt đời</b>. Basal-bolus/pump. HCL là tiêu chuẩn vàng.<br>5. <b>DCCT, UKPDS</b>: intensive control ↓ microvascular. Metabolic memory → bắt đầu sớm!<br>6. <b>EMPA-REG, LEADER</b>: SGLT2i + GLP-1RA ↓ CV events ĐỘC LẬP glucose.<br>7. <b>DKA</b>: dịch → insulin IV → K+. HHS: DỊCH QUAN TRỌNG HƠN insulin.<br>8. <b>Tầm soát biến chứng HÀNG NĂM</b>: mắt, thận, thần kinh, bàn chân, lipid.<br>9. <b>Clinical inertia = kẻ thù</b>: escalate mỗi 3-6 tháng. Đừng trì hoãn insulin!<br>10. <b>Tại VN</b>: SU rẻ nhưng nguy hiểm elderly/CKD. Chuyển dần sang SGLT2i/GLP-1RA/DPP-4i khi có thể.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 1: Metformin — nguyên tắc vàng?",
+    "back": "<b>Metformin là nền tảng — không bao giờ bỏ trừ khi CCĐ.</b> Rẻ, an toàn, có bằng chứng tim mạch (UKPDS), KHÔNG gây hạ đường huyết. Luôn bắt đầu với metformin trừ khi eGFR < 30 hoặc không dung nạp tiêu hóa nghiêm trọng. Nếu tiêu chảy: giảm liều, dùng XR, uống sau ăn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 2: HbA1c target — nguyên tắc quan trọng nhất?",
+    "back": "<b>HbA1c < 7.0% là mục tiêu — nhưng tránh hạ đường huyết bằng mọi giá.</b> Một đợt hạ đường huyết nặng xóa sạch lợi ích kiểm soát tốt. BN cao tuổi: nới target lên 7.5-8.0%. <b>'Chất lượng sống > con số.'</b> Bài học ACCORD: intensive target < 6.0% → TĂNG tử vong!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 3: SGLT2i và GLP-1 RA — tại sao là 'thuốc 2.0'?",
+    "back": "<b>Không chỉ hạ đường huyết — chúng BẢO VỆ TIM THẬN.</b> Khi BN T2D có ASCVD, suy tim, hoặc CKD → chọn thuốc không chỉ dựa trên HbA1c. SGLT2i ↓ nhập viện suy tim + ↓ tiến triển CKD. GLP-1 RA ↓ MACE. Tác dụng bảo vệ cơ quan ĐỘC LẬP với hạ glucose.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 4: Euglycemic DKA — cạm bẫy chết người ở BN dùng SGLT2i?",
+    "back": "<b style='color:red'>Glucose CÓ THỂ < 250 mg/dL!</b> BN T2D dùng SGLT2i, vào viện buồn nôn/mệt → glucose 'chỉ' 200-250 → tưởng không phải DKA. Nhưng khí máu: toan chuyển hóa, anion gap ↑, ketone DƯƠNG TÍNH. <b>Luôn kiểm tra ketone + khí máu ở BN dùng SGLT2i có triệu chứng, bất kể glucose!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 5: Khởi đầu insulin basal — quy tắc vàng?",
+    "back": "<b>Bắt đầu THẤP, tăng CHẬM.</b> 10 units hoặc 0.1-0.2 U/kg/ngày. Chỉnh mỗi 3 ngày: nếu fasting > 130 trong ≥ 3 ngày → ↑ 2-4 units. Nếu nocturnal hypo → ↓ 10-20%. Không tăng quá 10-15% mỗi tuần.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 6: Khi nào nghi LADA?",
+    "back": "<b>Luôn kiểm tra C-peptide trước khi kết luận T2D ở BN trẻ, gầy.</b> 5-10% 'T2D' > 30t thực chất là LADA. Dấu hiệu: gầy, không đáp ứng ≥ 2 thuốc uống sau 6 tháng, HbA1c > 9%. → Check <b>GAD65 + C-peptide</b>. LADA → insulin sớm để bảo tồn tế bào beta.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 7: Khám bàn chân ĐTĐ — làm gì mỗi lần tái khám?",
+    "back": "<b>Tháo giày, tất. NHÌN:</b> vết chai, vết thương, biến dạng, nấm. <b>KHÁM:</b> monofilament 10g (4 điểm), bắt mạch mu chân + chày sau. Nếu mất cảm giác bảo vệ + mạch yếu → chuyển chuyên khoa Bàn chân. <b>Một vết loét bỏ sót → cắt cụt chi.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 8: Tầm soát biến chứng mắt — tần suất?",
+    "back": "<b>Soi đáy mắt hoặc chụp võng mạc mỗi năm.</b> Bệnh võng mạc ĐTĐ = nguyên nhân mù hàng đầu ở người trưởng thành. Không chỉ đo thị lực! Nếu có bệnh võng mạc → chuyển chuyên khoa Mắt. Kiểm soát glucose + HA tốt là cách phòng ngừa HIỆU QUẢ NHẤT.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 9: Microalbumin niệu — ý nghĩa?",
+    "back": "<b>UACR ≥ 30 mg/g = dấu hiệu SỚM NHẤT của bệnh thận ĐTĐ</b> — xuất hiện TRƯỚC khi eGFR giảm. Khi có → tối ưu ACEi/ARB + HA < 130/80 + cân nhắc SGLT2i. 'Microalbumin niệu không phải bệnh nhẹ — nó là hồi chuông cảnh báo.'",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 10: Tiêm chủng cho BN ĐTĐ?",
+    "back": "BN ĐTĐ nguy cơ nhiễm trùng NẶNG hơn. Cần: <b>cúm mùa</b> (hàng năm), <b>phế cầu</b>, <b>COVID-19</b>, <b>viêm gan B</b> (T1D/T2D 19-59t), <b>Zoster</b> (≥ 50t). Nhiễm trùng làm tăng glucose + nguy cơ DKA/HHS.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 11: Metformin + SU còn là 'tiêu chuẩn' không?",
+    "back": "<b>Không — khi BN có ASCVD hoặc CKD.</b> Nếu có ASCVD → thêm SGLT2i hoặc GLP-1 RA NGAY SAU metformin. Nếu có CKD → SGLT2i (dù HbA1c đạt mục tiêu — vì lợi ích bảo vệ thận). SU và DPP-4i không có lợi ích bảo vệ cơ quan.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 12: Tại tuyến tỉnh VN — chiến lược thực tế nhất?",
+    "back": "<b>Metformin + gliclazide + NPH insulin</b> vẫn cứu được hàng nghìn BN. Khi không có SGLT2i, GLP-1 RA, insulin analog, CGM: dùng những gì bạn có. Gliclazide ưu tiên hơn glimepiride (ít hạ đường huyết). SMBG chiến lược (fasting + trước ngủ). <b>'Không có điều kiện tốt nhất ≠ không làm gì.'</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: BN 70t, T2D 15 năm, eGFR 22, HbA1c 8.2%. Đang dùng metformin + glimepiride + sitagliptin. Điều chỉnh thuốc?",
+    "back": "<b style='color:red'>1. NGỪNG metformin</b> (eGFR < 30 — nguy cơ lactic acidosis)<br><b>2. NGỪNG glimepiride</b> (SU dài + suy thận → hạ ĐH kéo dài). Đổi sang gliclazide MR hoặc insulin<br><b>3. Sitagliptin ↓ liều</b> còn 25mg (eGFR < 50)<br><b>4. Khởi động insulin nền</b> 8-10U trước ngủ<br><b>5. Cân nhắc SGLT2i</b> nếu eGFR ≥ 20<br><b>6. Target HbA1c 7.5-8.0%</b> (tránh hypo)",
+    "extra": ""
+  }
+]

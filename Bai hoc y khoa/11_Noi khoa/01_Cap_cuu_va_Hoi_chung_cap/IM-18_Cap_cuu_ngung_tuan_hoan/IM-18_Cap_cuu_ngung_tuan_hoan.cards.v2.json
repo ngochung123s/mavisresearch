@@ -1,0 +1,277 @@
+[
+  {
+    "type": "cloze",
+    "text": "Ngừng tuần hoàn được định nghĩa là hiện tượng tim đột ngột {{c1::ngừng hoạt động cơ học}} hoặc còn hoạt động nhưng {{c1::không còn hiệu quả tống máu}}.",
+    "extra": "Các dạng điện học tương ứng: Rung thất (VF), Nhanh thất vô mạch (pVT), Vô tâm thu (Asystole), Phân ly điện cơ (PEA)."
+  },
+  {
+    "type": "cloze",
+    "text": "Nhóm nguyên nhân có thể đảo ngược được trong ngừng tuần hoàn gồm hệ thống {{c1::5T}} và {{c1::6H}}.",
+    "extra": "Rà soát 5T và 6H là nhiệm vụ sống còn, đặc biệt trong vô tâm thu và phân ly điện cơ."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong nhóm 5T, chữ T thứ 1 là {{c1::Tamponade (Ép tim cấp)}}.",
+    "extra": "Tràn dịch/máu màng ngoài tim làm hạn chế đổ đầy thất trong thì tâm trương; xử trí sống còn là chọc tháo dịch giải áp cấp cứu."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong nhóm 5T, chữ T thứ 2 là {{c1::Tension pneumothorax (Tràn khí màng phổi áp lực)}}.",
+    "extra": "Khí tích tụ áp lực dương đẩy lệch trung thất, chèn ép tĩnh mạch chủ dưới; xử trí cấp cứu là chọc kim giải áp khoang liên sườn 2 đường trung đòn."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong nhóm 5T, chữ T thứ 3 là {{c1::Thromboembolism (Tắc mạch phổi hoặc tắc mạch vành)}}.",
+    "extra": "Bao gồm thuyên tắc động mạch phổi cấp diện rộng và nhồi máu cơ tim cấp diện rộng."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong nhóm 5T, chữ T thứ 4 là {{c1::Traumatic (Chấn thương)}} và chữ T thứ 5 là {{c1::Toxicity (Ngộ độc thuốc/độc chất)}}.",
+    "extra": "Ngộ độc thuốc tim mạch: Digoxin, chẹn kênh calci, chẹn beta giao cảm, thuốc chống trầm cảm 3 vòng."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong nhóm 6H, 3 chữ H đầu tiên là: {{c1::Hypoxia (Thiếu oxy)}}, {{c1::Hypovolemia (Giảm thể tích)}} và {{c1::Hypothermia (Hạ thân nhiệt)}}.",
+    "extra": "Thiếu oxy và giảm thể tích là 2 nguyên nhân phổ biến hàng đầu của ngừng tuần hoàn ở khoa Cấp cứu."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong nhóm 6H, 3 chữ H tiếp theo là: {{c1::Hypoglycemia (Hạ đường huyết)}}, {{c1::H+ / Acidosis (Toan hóa máu nặng)}} và {{c1::Hypo/Hyperkalemia (Rối loạn kali máu)}}.",
+    "extra": "Tăng kali máu cấp là nguyên nhân hay gặp gây vô tâm thu hoặc nhanh thất ở bệnh nhân suy thận mạn."
+  },
+  {
+    "type": "cloze",
+    "text": "Quá trình ngừng tuần hoàn tiến triển qua 3 pha: Pha 1 là {{c1::Pha điện học (0 – 4 phút)}}; Pha 2 là {{c1::Pha huyết động (4 – 10 phút)}}; Pha 3 là {{c1::Pha chuyển hóa (> 10 phút)}}.",
+    "extra": "Quy tắc cốt lõi: Trước 4 phút ưu tiên Sốc điện; Sau 4 phút ưu tiên Ép tim hiệu quả liên tục."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Pha điện học (0 – 4 phút), nhịp ngừng tim chiếm đa số là {{c1::Rung thất (VF)}} và yếu tố sống còn quyết định thành công là {{c1::SỐC ĐIỆN PHÁ RUNG}}.",
+    "extra": "Tỷ lệ ROSC có thể đạt tới 85% ngay sau nhát sốc đầu tiên nếu sốc sớm trong pha này."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Pha huyết động (4 – 10 phút), yếu tố sống còn là {{c1::duy trì áp lực tưới máu động mạch vành và não}} bằng {{c1::ép tim liên tục hiệu quả}}.",
+    "extra": "Lúc này ATP đã cạn kiệt, bắt buộc phải ép tim để tái lập dòng tưới máu vành trước khi tiến hành sốc điện."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Pha chuyển hóa (> 10 phút), yếu tố sống còn là giải quyết {{c1::hội chứng đáp ứng viêm toàn thể sau hồi sức}} và áp dụng {{c1::hồi sinh não / hạ thân nhiệt mục tiêu}}.",
+    "extra": "Toàn thân bị thiếu máu kéo dài giải phóng ồ ạt cytokine và gốc tự do khi tái tưới máu."
+  },
+  {
+    "type": "cloze",
+    "text": "Khi ngừng tuần hoàn, lượng glucose dự trữ ở não chỉ đủ duy trì năng lượng trong vòng {{c1::2 phút}}; sau {{c1::4 – 5 phút}} dự trữ ATP của tế bào não bị cạn kiệt hoàn toàn.",
+    "extra": "Ngừng tuần hoàn trên 4 phút không được CPR sẽ xuất hiện phù não và các tổn thương neuron không hồi phục."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở bệnh nhân ngừng tuần hoàn luôn tồn tại tình trạng toan hỗn hợp gồm: {{c1::Toan hô hấp (do ngừng thở ứ trệ CO2)}} kết hợp với {{c1::Toan chuyển hóa (do thiếu máu mô sinh Acid Lactic)}}.",
+    "extra": "Toan máu nặng làm giảm tính đáp ứng của cơ tim với catecholamin nội sinh và thuốc vận mạch Adrenalin."
+  },
+  {
+    "type": "cloze",
+    "text": "Thời gian tối đa cho phép để bắt mạch cảnh/bẹn đánh giá ngừng tuần hoàn là {{c1::không quá 10 giây}}.",
+    "extra": "Nếu sau 10 giây không thấy mạch hoặc không chắc chắn có mạch, bắt buộc phải tiến hành ép tim ngoài lồng ngực ngay lập tức."
+  },
+  {
+    "type": "cloze",
+    "text": "Trình tự các bước cấp cứu hồi sinh tim phổi cơ bản (BLS) hiện nay là {{c1::C - A - B}} (thay đổi so với trước đây là A - B - C).",
+    "extra": "C: Chest compressions (Ép tim) → A: Airway (Đường thở) → B: Breathing (Hô hấp/Thổi ngạt)."
+  },
+  {
+    "type": "cloze",
+    "text": "Vị trí đặt tay chuẩn xác để ép tim ngoài lồng ngực ở người lớn là {{c1::1/3 dưới xương ức}} (nửa dưới xương ức).",
+    "extra": "Đặt cườm tay vào vị trí này, các ngón tay đan vào nhau, hai cánh tay duỗi thẳng vuông góc với lồng ngực nạn nhân."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở trẻ em từ 1 – 8 tuổi, kỹ thuật ép tim dùng {{c1::một bàn tay (hoặc 2 bàn tay nếu trẻ lớn)}}; ở trẻ 1 – 12 tháng tuổi dùng {{c1::2 ngón tay (hoặc 2 ngón cái ôm ngực)}}.",
+    "extra": "Độ sâu ép tim ở trẻ em đạt tối thiểu 1/3 đường kính trước - sau của lồng ngực."
+  },
+  {
+    "type": "cloze",
+    "text": "Tần số ép tim khuyến cáo chuẩn mực trong CPR ở người lớn là {{c1::100 – 120 lần/phút}}.",
+    "extra": "Ép < 100 lần/p không đủ tưới máu vành; ép > 120 lần/p tim không đủ thời gian giãn để nạp máu về thất."
+  },
+  {
+    "type": "cloze",
+    "text": "Biên độ (độ sâu) ép tim ở người lớn cần đạt tối thiểu là {{c1::5 cm}} và không vượt quá {{c1::6 cm}}.",
+    "extra": "Ở trẻ em: Sâu tối thiểu 1/3 đường kính trước - sau lồng ngực (khoảng 4cm ở nhũ nhi và 5cm ở trẻ nhỏ)."
+  },
+  {
+    "type": "cloze",
+    "text": "Sau mỗi nhát ép tim, người cấp cứu bắt buộc phải {{c1::để lồng ngực nở lại hoàn toàn (chest recoil)}} trước nhát ép tiếp theo.",
+    "extra": "Nếu tỳ tay liên tục sẽ cản trở máu tĩnh mạch hồi lưu về tâm thất, làm giảm cung lượng tim ép ra."
+  },
+  {
+    "type": "cloze",
+    "text": "Tỷ lệ thời gian ép tim hiệu dụng (Chest Compression Fraction - CCF) trong CPR chất lượng cao cần phấn đấu đạt {{c1::> 60 – 80%}}.",
+    "extra": "Hạn chế tối đa mọi khoảng dừng không cần thiết."
+  },
+  {
+    "type": "cloze",
+    "text": "Tỷ lệ phối hợp giữa ép tim và thổi ngạt ở người lớn khi CHƯA đặt ống nội khí quản là {{c1::30 lần ép tim : 2 lần thổi ngạt (30:2)}}.",
+    "extra": "Áp dụng cho cả 1 người hay 2 người cấp cứu ở người lớn."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở trẻ sơ sinh, tỷ lệ ép tim và thông khí là {{c1::3 : 1}}; ở trẻ em có 2 người cấp cứu do nguyên nhân tim mạch có thể dùng tỷ lệ {{c1::15 : 2}}.",
+    "extra": "Sơ sinh ưu tiên thông khí vì căn nguyên chủ yếu là ngạt thở thiếu oxy."
+  },
+  {
+    "type": "cloze",
+    "text": "Khi ĐÃ ĐẶT ỐNG NỘI KHÍ QUẢN, người cấp cứu tiến hành {{c1::ép tim liên tục 100 – 120 lần/phút không dừng}} và bóp bóng {{c1::10 lần/phút (mỗi 6 giây bóp 1 lần)}}.",
+    "extra": "Tránh thông khí quá mức (> 10-12 lần/phút) vì làm tăng áp lực lồng ngực, cản trở máu tĩnh mạch hồi lưu về tim."
+  },
+  {
+    "type": "cloze",
+    "text": "Khi nghi ngờ nạn nhân có CHẤN THƯƠNG CỘT SỐNG CỔ, kỹ thuật mở đường thở bắt buộc dùng là {{c1::Ấn góc hàm / Đẩy hàm (Jaw-thrust)}}.",
+    "extra": "Tránh dùng thủ thuật Ngửa đầu - Nâng cằm (Head-tilt/Chin-lift) vì làm di lệch gãy cột sống cổ gây liệt tủy."
+  },
+  {
+    "type": "cloze",
+    "text": "Kỹ thuật giữ mặt nạ Ambu áp kín vào miệng mũi nạn nhân bằng một tay tuân theo quy tắc bàn tay hình chữ {{c1::C – E}}.",
+    "extra": "Ngón cái và ngón trỏ tạo chữ C giữ chặt mask, 3 ngón còn lại tạo chữ E móc dưới góc xương hàm dưới nâng cằm lên."
+  },
+  {
+    "type": "cloze",
+    "text": "Thời gian tối đa cho phép để thực hiện thủ thuật đặt ống nội khí quản là {{c1::< 20 giây}}.",
+    "extra": "Nếu quá 20 giây chưa đặt được, phải rút đèn soi và bóp bóng có oxy hỗ trợ trước khi thử lại."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong cấp cứu ngừng tuần hoàn, bắt buộc phải thay đổi người ép tim mỗi {{c1::2 phút}} một lần.",
+    "extra": "Sau 2 phút, người ép tim bị mỏi cơ làm suy giảm độ sâu và tần số ép tim rõ rệt dù bản thân họ không nhận ra."
+  },
+  {
+    "type": "cloze",
+    "text": "Sau phút xử trí đầu tiên, dừng lại {{c1::không quá 5 giây}} để bắt mạch cảnh; sau đó cứ mỗi {{c1::2 – 3 phút}} dừng không quá 5 giây để kiểm tra lại mạch.",
+    "extra": "Tuyệt đối không dừng ép tim và bóp bóng quá 30 giây khi làm bất kỳ thủ thuật nào."
+  },
+  {
+    "type": "cloze",
+    "text": "Hai dạng rối loạn điện tim thuộc nhóm CÓ CHỈ ĐỊNH SỐC ĐIỆN trong ALS là: {{c1::Rung thất (VF)}} và {{c1::Nhanh thất vô mạch (pVT)}}.",
+    "extra": "Sốc điện phá rung khử đồng thời toàn bộ cơ tim, tạo điều kiện cho nút xoang tái lập quyền chủ nhịp."
+  },
+  {
+    "type": "cloze",
+    "text": "Hai dạng rối loạn điện tim thuộc nhóm KHÔNG SỐC ĐIỆN trong ALS là: {{c1::Vô tâm thu (Asystole)}} và {{c1::Phân ly điện cơ (PEA)}}.",
+    "extra": "Xử trí cốt lõi của nhóm này: Ép tim liên tục + Tiêm Adrenalin 1mg IV mỗi 3-5 phút + Tầm soát sửa chữa 5T & 6H."
+  },
+  {
+    "type": "cloze",
+    "text": "Mức năng lượng sốc điện ban đầu khuyến cáo đối với máy phá rung 2 pha (Biphasic) là {{c1::120 – 200 J}} (hoặc tối đa của máy là {{c1::200 J}}).",
+    "extra": "Đối với máy sốc điện 1 pha (Monophasic), sử dụng mức năng lượng 360 J."
+  },
+  {
+    "type": "cloze",
+    "text": "Ngay sau khi bấm nút phóng điện sốc điện phá rung, hành động bắt buộc tiếp theo là {{c1::tiếp tục ép tim ngay lập tức trong 2 phút}}.",
+    "extra": "Tuyệt đối không dừng lại bắt mạch hay kiểm tra nhịp ngay sau sốc, vì tim sau khử rung cần được tưới máu ngay để phục hồi co bóp."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc vận mạch cơ bản trong ALS là Adrenalin với liều lượng {{c1::1 mg}} tiêm tĩnh mạch (hoặc trong xương), lặp lại mỗi {{c1::3 – 5 phút/lần}}.",
+    "extra": "Sau khi tiêm thuốc qua catheter tĩnh mạch ngoại vi, phải bơm đuổi 20 ml dịch NaCl 0.9% và nâng cao chi 10-20 giây."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc chống loạn nhịp hàng đầu trong Rung thất / Nhanh thất vô mạch trơ là Amiodarone với liều đầu là {{c1::300 mg IV}}, liều nhắc lại là {{c1::150 mg IV}}.",
+    "extra": "Chỉ định sau nhát sốc điện thứ 3 (khi VF/pVT vẫn dai dẳng dù đã sốc 2 lần và đã dùng Adrenalin)."
+  },
+  {
+    "type": "cloze",
+    "text": "Khi không có Amiodarone, thuốc thay thế hợp lệ trong VF/pVT trơ là Lidocain với liều bolus {{c1::1 – 1,5 mg/kg IV}}, duy trì truyền {{c1::20 – 50 µg/kg/phút}}.",
+    "extra": "Tổng liều bolus tối đa của Lidocain không được vượt quá 3 mg/kg."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong cấp cứu ngừng tuần hoàn, Magnesi sulfat (MgSO4) liều {{c1::1 – 2 g IV chậm trong 1-2 phút}} được chỉ định đặc hiệu khi có rối loạn nhịp dạng {{c1::Xoắn đỉnh (Torsades de pointes)}}.",
+    "extra": "Pha trong 10 ml Dextrose 5% hoặc nước cất."
+  },
+  {
+    "type": "cloze",
+    "text": "Chỉ định dùng Natri hydrocarbonat (NaHCO3) trong ngừng tuần hoàn khi cấp cứu kéo dài {{c1::> 15 phút}}, toan chuyển hóa nặng, tăng kali máu hoặc {{c1::ngộ độc thuốc chống trầm cảm 3 vòng}}.",
+    "extra": "Tránh tiêm cùng đường truyền với Calci chloride hoặc Adrenalin vì gây tủa canxi carbonat và bất hoạt adrenalin."
+  },
+  {
+    "type": "cloze",
+    "text": "Khi monitor hiển thị đường đẳng điện nghi Vô tâm thu, bắt buộc phải kiểm tra cáp nối và quan sát trên {{c1::ít nhất 2 chuyển đạo điện tim khác nhau}} để loại trừ {{c1::Rung thất sóng nhỏ (Fine VF)}}.",
+    "extra": "Rung thất sóng nhỏ cần được sốc điện ngay lập tức."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong cấp cứu ngừng tuần hoàn do nhịp chậm hoặc Bloc nhĩ thất độ 3, Atropin được dùng với liều {{c1::0,5 – 1 mg IV}} mỗi 3-5 phút, tổng liều tối đa là {{c1::3 mg}}.",
+    "extra": "3 mg là liều ức chế hoàn toàn hệ thần kinh phó giao cảm (dây thần kinh X) trên tim."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc vận mạch truyền tĩnh mạch liên tục duy trì nhịp tim trong lúc chờ đặt máy tạo nhịp là {{c1::Dopamin (5 – 20 µg/kg/phút)}} hoặc {{c1::Adrenalin (2 – 10 µg/phút)}}.",
+    "extra": "Chỉnh liều theo đáp ứng tần số tim và huyết áp."
+  },
+  {
+    "type": "cloze",
+    "text": "Sau khi tái lập tuần hoàn tự nhiên (ROSC), thời gian theo dõi và điều trị tích cực tối thiểu tại khoa ICU là {{c1::24 – 48 giờ}}.",
+    "extra": "Nguy cơ ngừng tuần hoàn tái phát và phù não cao nhất trong 48 giờ đầu."
+  },
+  {
+    "type": "cloze",
+    "text": "Chiến lược hạ thân nhiệt mục tiêu (TTM) sau ROSC duy trì nhiệt độ cơ thể ở mức {{c1::32 – 36°C}} trong ít nhất {{c1::24 giờ}} đầu tiên.",
+    "extra": "Áp dụng cho mọi bệnh nhân hôn mê sau ngừng tuần hoàn để bảo vệ neuron não."
+  },
+  {
+    "type": "cloze",
+    "text": "Mục tiêu thông khí sau ROSC là duy trì SpO2 trong khoảng {{c1::92 – 98%}} và PaCO2 sinh lý trong khoảng {{c1::35 – 45 mmHg}}.",
+    "extra": "Tránh để PaO2 quá cao (> 200-300 mmHg) sinh gốc tự do; tránh tăng thông khí làm tụt PaCO2 gây co mạch não."
+  },
+  {
+    "type": "cloze",
+    "text": "Mục tiêu kiểm soát đường huyết sau ROSC là duy trì nồng độ glucose máu an toàn trong khoảng {{c1::7,8 – 10 mmol/L (140 – 180 mg/dL)}}.",
+    "extra": "Tránh tuyệt đối biến chứng hạ đường huyết vì hủy hoại tế bào não đang thiếu máu."
+  },
+  {
+    "type": "cloze",
+    "text": "Bác sĩ trưởng kíp có thể xem xét ngừng cấp cứu hồi sinh tim phổi khi cấp cứu đúng quy cách liên tục trong vòng {{c1::30 – 60 phút}} mà tim hoàn toàn không đập lại.",
+    "extra": "Trừ trường hợp hạ thân nhiệt sâu hoặc ngộ độc thuốc cần tiếp tục hồi sức đến khi làm ấm cơ thể."
+  },
+  {
+    "type": "cloze",
+    "text": "Trường hợp mất não sau ngừng tuần hoàn: Chết não có thể ngừng các biện pháp cấp cứu tích cực sau {{c1::24 giờ}} sau khi hoàn tất quy trình chẩn đoán.",
+    "extra": "Đời sống thực vật (Persistent Vegetative State) là tổn thương vỏ não lan tỏa không hồi phục, chuyển chăm sóc giảm nhẹ."
+  },
+  {
+    "type": "cloze",
+    "text": "Triệu chứng MUỘN của ngừng tuần hoàn xuất hiện sau vài phút thiếu máu não là {{c1::đồng tử giãn to, cố định hai bên, mất phản xạ ánh sáng}}.",
+    "extra": "Mất ý thức và ngừng thở xuất hiện tức thì trong 5 - 10 giây đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Tam chứng lâm sàng kinh điển để chẩn đoán xác định Ngừng tuần hoàn tại chỗ gồm những dấu hiệu nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Mất ý thức đột ngột ở bệnh nhân đang tỉnh.<br>• Đột ngột ngừng thở hoặc thở ngáp cá.<br>• Mất mạch cảnh và/hoặc mạch bẹn (thời gian bắt mạch không quá 10 giây).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Tuyệt đối không mất thời gian làm các động tác thừa như nghe tim, bắt mạch quay hay chờ máy đo huyết áp/ECG vì não chỉ chịu đựng được 4 phút thiếu máu cục bộ."
+  },
+  {
+    "type": "basic",
+    "front": "So sánh thứ tự ưu tiên giữa Sốc điện và Ép tim theo mốc thời gian 4 phút trong ngừng tuần hoàn?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Trước 4 phút (Pha điện học): Ưu tiên SỐC ĐIỆN PHÁ RUNG ngay lập tức.<br>• Sau 4 phút (Pha huyết động): Ưu tiên ÉP TIM LIÊN TỤC HIỆU QUẢ trước khi sốc điện.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Sau 4 phút, ATP cơ tim cạn kiệt, buồng tim giãn, áp lực tưới máu vành suy sụp. Sốc điện ngay trên quả tim thiếu máu sẽ thất bại; cần ép tim trước ít nhất 1.5 - 2 phút để tái lập áp lực tưới máu vành nạp lại năng lượng cho cơ tim."
+  },
+  {
+    "type": "basic",
+    "front": "Phân loại 4 dạng điện tâm đồ trong cấp cứu ngừng tuần hoàn nâng cao (ALS) và hướng xử trí tương ứng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. <b>Nhóm sốc điện được (Shockable):</b><br>• Rung thất (VF) và Nhanh thất vô mạch (pVT).<br>• <i>Xử trí:</i> Sốc điện phá rung ngay (200J Biphasic / 360J Monophasic) → Ép tim ngay 2 phút → Adrenalin 1mg IV mỗi 3-5p → Amiodarone 300mg IV sau sốc lần 3.<br>2. <b>Nhóm không sốc điện (Non-shockable):</b><br>• Vô tâm thu (Asystole) và Phân ly điện cơ (PEA).<br>• <i>Xử trí:</i> Tiếp tục CPR liên tục + Adrenalin 1mg IV càng sớm càng tốt + Rà soát nguyên nhân 5T & 6H.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Khi thấy đường đẳng điện nghi ngờ vô tâm thu, bắt buộc phải kiểm tra cáp nối và quan sát trên ít nhất 2 chuyển đạo để loại trừ Rung thất sóng nhỏ (Fine VF)."
+  },
+  {
+    "type": "basic",
+    "front": "Các thông số kỹ thuật chuẩn của động tác Ép tim ngoài lồng ngực chất lượng cao ở người lớn?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Vị trí: 1/3 dưới xương ức (nửa dưới xương ức).<br>• Tần số: 100 – 120 lần/phút.<br>• Độ sâu: Tối thiểu 5 cm, không quá 6 cm.<br>• Lồng ngực: Để lồng ngực nở lại hoàn toàn sau mỗi nhát ép.<br>• Tỷ lệ gián đoạn: Giảm thiểu tối đa, phân đoạn ép tim (CCF) > 60-80%.<br>• Đổi người: Mỗi 2 phút một lần.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Ép quá nông không tống được máu; ép quá sâu (>6cm) gây gãy xương sườn, tràn máu/khí màng phổi và đụng dập tạng trong lồng ngực."
+  },
+  {
+    "type": "basic",
+    "front": "Chỉ định và liều lượng của các thuốc Adrenalin, Amiodarone và Lidocain trong phác đồ ALS?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Adrenalin:</b> 1 mg tiêm tĩnh mạch/trong xương mỗi 3 – 5 phút/lần cho mọi thể ngừng tim.<br>• <b>Amiodarone:</b> Dùng cho VF/pVT trơ sau sốc lần 3; liều đầu 300 mg tiêm tĩnh mạch nhanh; liều nhắc lại 150 mg.<br>• <b>Lidocain (thay thế):</b> Bolus 1 – 1,5 mg/kg IV; sau đó duy trì truyền 20 – 50 µg/kg/phút.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Adrenalin có tác dụng co mạch alpha-1 cực mạnh, làm tăng áp lực tâm trương động mạch chủ, từ đó nâng cao áp lực tưới máu động mạch vành (Coronary Perfusion Pressure - CPP)."
+  },
+  {
+    "type": "basic",
+    "front": "Chiến lược hồi sức bảo vệ não sau khi tim đập lại thành công (ROSC) gồm những can thiệp nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Hạ thân nhiệt mục tiêu (TTM):</b> Duy trì 32 – 36°C trong ít nhất 24 giờ ở bệnh nhân hôn mê.<br>• <b>Kiểm soát hô hấp:</b> Đích SpO2 92 – 98% (tránh PaO2 quá cao > 200-300 mmHg); đích PaCO2 sinh lý 35 – 45 mmHg (tránh tăng thông khí làm co mạch não).<br>• <b>Kiểm soát huyết áp:</b> Duy trì HATB ≥ 65 mmHg và HATT ≥ 90 - 100 mmHg.<br>• <b>Kiểm soát đường huyết:</b> Duy trì 7,8 – 10 mmol/L (140 – 180 mg/dL), tránh hạ đường huyết.<br>• <b>Can thiệp vành:</b> Chụp và can thiệp mạch vành sớm (PCI) nếu nghi ngờ hội chứng vành cấp.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Thiếu máu tái tưới máu (reperfusion injury) giải phóng ồ ạt gốc tự do và kích hoạt apotosis neuron não; TTM là biện pháp duy nhất được chứng minh cải thiện tiên lượng thần kinh."
+  }
+]

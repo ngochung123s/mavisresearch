@@ -1,0 +1,548 @@
+[
+  {
+    "type": "basic",
+    "front": "<b>Định nghĩa suy tim</b> theo Universal Definition 2026 (AHA/ACC/ESC/WHF)?",
+    "back": "<b>Hội chứng lâm sàng</b> với triệu chứng/dấu hiệu do <b>bất thường cấu trúc và/hoặc chức năng tim</b>, dẫn đến:<br>• Tăng áp lực trong tim khi nghỉ hoặc gắng sức<br>• VÀ/HOẶC cung lượng tim không đủ<br><br><i>Nguồn: Walsh MN, Circulation 2026 — PMID 42366997</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Suy tim là chẩn đoán cuối cùng. Đúng hay sai?",
+    "back": "<b>SAI.</b> Suy tim là <b>hội chứng</b>, không phải chẩn đoán đơn lẻ.<br><br>Luôn phải tìm <b>nguyên nhân</b>: thiếu máu cục bộ, tăng huyết áp, bệnh van tim, bệnh cơ tim, rối loạn nhịp...",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>4 loại suy tim theo EF</b> (ESC 2021 / Universal Definition 2026)?",
+    "back": "<table><tr><th>Loại</th><th>LVEF</th></tr><tr><td><b>HFrEF</b></td><td>≤ 40%</td></tr><tr><td><b>HFmrEF</b></td><td>41–49%</td></tr><tr><td><b>HFpEF</b></td><td>≥ 50%</td></tr><tr><td><b>HFimpEF</b></td><td>Trước ≤ 40% → sau > 40% và ↑ ≥ 10 điểm %</td></tr></table><br><i>ESC 2021 (PMID 34447992) / Universal Definition 2026 (PMID 42366997)</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>HFrEF</b> — định nghĩa và chiến lược điều trị?",
+    "back": "<b>LVEF ≤ 40%</b><br><br>Điều trị: <b>'Tứ trụ' GDMT bắt buộc</b><br>• ARNI/ACEi/ARB<br>• Chẹn beta<br>• MRA (spironolactone/eplerenone)<br>• SGLT2i (dapagliflozin/empagliflozin)<br><br>Đây là nhóm có bằng chứng GDMT mạnh nhất.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>HFmrEF</b> — định nghĩa và điều trị?",
+    "back": "<b>LVEF 41–49%</b><br><br>Điều trị:<br>• <b>SGLT2i Class I</b><br>• Lợi tiểu kiểm soát sung huyết<br>• Có thể cân nhắc: ARNI/ACEi/ARB + MRA + chẹn beta (Class IIb)<br><br>Evidence yếu hơn HFrEF nhưng SGLT2i đã được chứng minh lợi ích (DELIVER, EMPEROR-Preserved).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>HFpEF</b> — định nghĩa và điều trị?",
+    "back": "<b>LVEF ≥ 50%</b><br><br>Điều trị:<br>• <b>SGLT2i Class I</b> (dapagliflozin/empagliflozin)<br>• Lợi tiểu kiểm soát sung huyết<br>• Điều trị tích cực bệnh nền: THA, ĐTĐ, béo phì, rung nhĩ<br>• ARNI/MRA có thể cân nhắc (Class IIb)<br><br>Quan trọng: HFpEF không 'nhẹ hơn' HFrEF — tử vong tương đương!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>HFimpEF</b> là gì? Nguyên tắc sống còn khi quản lý?",
+    "back": "<b>HFimpEF</b> = Heart Failure with <b>Improved</b> EF<br>• LVEF trước ≤ 40% → sau > 40% và ↑ ≥ 10 điểm %<br>• Là HFrEF đáp ứng điều trị<br><br><b style='color:red'>NGUYÊN TẮC SỐNG CÒN: KHÔNG BAO GIỜ NGỪNG GDMT!</b><br>EF cải thiện là nhờ thuốc — ngừng thuốc → EF tụt lại.<br><br><i>PMID 42274437</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tim là bơm kép — mô tả sinh lý bơm của tim và hậu quả khi suy?",
+    "back": "<b>Bình thường:</b> Thất phải → phổi → thất trái → cơ thể<br><br><b>Khi suy tim:</b><br>• <b>Ứ phía sau:</b> sung huyết phổi (khó thở) + sung huyết hệ thống (phù, gan to, JVP nổi)<br>• <b>Thiếu phía trước:</b> giảm tưới máu mô (mệt mỏi, thiểu niệu, lactate ↑)<br><br><i>TEXTBOOK: Braunwald 12e, Guyton 14e</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: BN trước đây LVEF 30%, sau 6 tháng điều trị LVEF lên 45%. Phân loại? Có nên ngừng thuốc?",
+    "back": "<b>HFimpEF</b> — <b style='color:red'>KHÔNG ngừng GDMT!</b><br><br>Lý do: EF cải thiện là nhờ thuốc. Ngừng thuốc → EF tụt lại.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>3 cơ chế bù trừ</b> thần kinh-thể dịch trong suy tim và hậu quả dài hạn?",
+    "back": "Khi ↓ cung lượng tim, cơ thể kích hoạt:<br><br>1. <b>SNS (giao cảm):</b> ↑ HR, ↑ co bóp, co mạch → duy trì HA. Dài hạn → ↑ hậu tải, ↓ tưới máu thận<br>2. <b>RAAS:</b> ↓ tưới máu thận → renin → Ang II → co mạch + aldosterone → giữ Na+/nước. Dài hạn → sung huyết<br>3. <b>ADH + endothelin:</b> giữ nước thêm, co mạch thêm<br><br><b>Nguyên lý GDMT:</b> phong tỏa các cơ chế bù trừ có hại này, không phải chỉ 'tăng sức bóp'!<br><br><i>ESC 2021 (PMID 34447992)</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "ESC 2021 vs ACC/AHA 2022 — điểm khác biệt chính về khuyến cáo GDMT?",
+    "back": "<b>ESC 2021:</b><br>• Khởi trị tuần tự hoặc song song<br>• SGLT2i Class I cho HFrEF, Class IIa cho HFmrEF/HFpEF (nâng lên Class I trong 2023 Update)<br><br><b>ACC/AHA 2022:</b><br>• <b>ARNI ưu tiên hơn ACEi/ARB</b> (Class I, LOE A)<br>• <b>SGLT2i Class I cho CẢ HFmrEF và HFpEF</b> (LOE A) ngay từ 2022<br>• Nhấn mạnh 'value statements' (phân tích chi phí–hiệu quả)",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Universal Definition of HF 2026 — 3 điểm mới quan trọng nhất?",
+    "back": "1. <b>Phân loại theo quỹ đạo (trajectory-based):</b> HFrEF → HFimpEF → remission/recovery. Loại bỏ HFmrEF cứng nhắc<br>2. <b>Phân loại nguyên nhân HF toàn cầu</b> (universal classification of HF causes)<br>3. <b>Nhấn mạnh yếu tố xã hội</b> (social determinants) và khác biệt địa lý<br><br><i>Walsh MN, Circulation 2026 — PMID 42366997</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Phân loại Stevenson/Nohria</b> — 4 profile huyết động trong suy tim cấp?",
+    "back": "Dựa trên 2 trục: <b>Ướt/Khô</b> (sung huyết) × <b>Nóng/Lạnh</b> (tưới máu)<br><br><table><tr><th></th><th>NÓNG</th><th>LẠNH</th></tr><tr><td><b>KHÔ</b></td><td><b>A</b> — Ấm & Khô (đã bù)</td><td><b>C</b> — Lạnh & Khô</td></tr><tr><td><b>ƯỚT</b></td><td><b>B</b> — Ấm & Ướt (mất bù)</td><td><b>D</b> — Lạnh & Ướt (sốc tim)</td></tr></table><br><i>ESC 2021 (PMID 34447992)</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Profile <b>A (Ấm & Khô)</b> — đặc điểm và xử trí?",
+    "back": "<b>Đặc điểm:</b> Đã bù, không sung huyết, tưới máu tốt<br><br><b>Xử trí:</b><br>• Tối ưu GDMT đường uống<br>• <b>Không cần lợi tiểu IV</b><br>• Theo dõi ngoại trú",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Profile <b>B (Ấm & Ướt)</b> — đặc điểm và xử trí?",
+    "back": "<b style='color:#1976d2'>Profile MẤT BÙ PHỔ BIẾN NHẤT (chiếm ~70%)</b><br><br><b>Đặc điểm:</b> Sung huyết nhưng tưới máu còn tốt<br><br><b>Xử trí:</b><br>• <b>Lợi tiểu IV</b> (furosemide)<br>• <b>Giãn mạch</b> (nitroglycerin) nếu HATT > 110<br>• <b style='color:red'>KHÔNG dùng inotrope</b> (tăng tử vong!)<br>• Tiếp tục GDMT uống trừ khi có CCĐ cấp",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Profile <b>C (Lạnh & Khô)</b> — đặc điểm và xử trí?",
+    "back": "<b>Đặc điểm:</b> Giảm tưới máu nhưng không sung huyết. <b>HIẾM GẶP</b><br><br><b>Xử trí:</b><br>• Thử dịch nhẹ nhàng (bolus 250 mL)<br>• Nếu không đáp ứng: cân nhắc inotrope<br>• Tìm nguyên nhân gây giảm thể tích tuần hoàn",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Profile <b>D (Lạnh & Ướt)</b> — đặc điểm và xử trí?",
+    "back": "<b style='color:red'>SỐC TIM — CẤP CỨU TỐI KHẨN!</b><br><br><b>Xử trí:</b><br>• <b>Inotrope</b> (dobutamine) ± <b>vận mạch</b> (norepinephrine)<br>• <b>CHUYỂN ICU NGAY</b><br>• Tìm nguyên nhân: NMCT cấp, hở van 2 lá cấp, VSD, viêm cơ tim tối cấp<br>• <b style='color:red'>Lợi tiểu đơn thuần bị CHỐNG CHỈ ĐỊNH!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Dấu hiệu 'ƯỚT' (sung huyết)</b> — lâm sàng và cận lâm sàng?",
+    "back": "<b>Triệu chứng:</b> Khó thở khi nằm (orthopnea), PND, phù 2 chi dưới<br><b>Khám:</b> JVP nổi, ran phổi, gan to, phù, báng bụng<br><b>Cận lâm sàng:</b> NT-proBNP ↑↑, X-quang: phù phổi, tràn dịch màng phổi",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Dấu hiệu 'LẠNH' (giảm tưới máu)</b> — lâm sàng và cận lâm sàng?",
+    "back": "<b>Triệu chứng:</b> Mệt lả, lú lẫn, thiểu niệu<br><b>Khám:</b> Chi lạnh ẩm, CRT > 2s, HATT < 90 mmHg, mạch yếu<br><b>Cận lâm sàng:</b> Lactate ↑, creatinine ↑, ALT/AST ↑, toan chuyển hóa",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>JVP</b> — ý nghĩa và cách khám trong suy tim?",
+    "back": "<b>JVP</b> = Jugular Venous Pressure — dấu hiệu thực thể <b>QUAN TRỌNG NHẤT</b> của tăng áp lực đổ đầy thất phải<br><br><b>Cách khám:</b> BN nằm 45°, đo khoảng cách từ góc Louis đến đỉnh cột máu TM cảnh<br>• Bình thường: ≤ 3 cm<br>• Tăng: > 3 cm<br><br><b>HJR (Hepatojugular Reflux):</b> ấn gan 10 giây → JVP tăng > 1 cm và duy trì = dấu hiệu rất đặc hiệu",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: BN 68t, khó thở 1 tuần, phù 2 chi dưới, JVP nổi 8cm, HJR (+), ran ẩm, NT-proBNP 6800. Profile + xử trí?",
+    "back": "<b>Profile B (Ấm & Ướt) — mất bù sung huyết</b><br><br><b>Xử trí:</b><br>• Furosemide IV (gấp đôi liều uống nếu đang dùng)<br>• Cân nhắc nitroglycerin IV nếu HA cao<br>• Siêu âm tim cấp<br>• KHÔNG inotrope<br>• Tiếp tục GDMT uống nếu không CCĐ",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: BN 75t, suy tim mất bù, HATT 85, chi lạnh ẩm, CRT 4s, thiểu niệu, lactate 4.5. Profile + xử trí?",
+    "back": "<b style='color:red'>Profile D (Lạnh & Ướt) = SỐC TIM</b><br><br><b>Xử trí cấp:</b><br>• Dobutamine IV ± norepinephrine<br>• CHUYỂN ICU NGAY<br>• Tìm NMCT cấp<br>• <b style='color:red'>KHÔNG dùng lợi tiểu đơn thuần!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>2 quyết định quan trọng nhất</b> khi tiếp nhận bệnh nhân suy tim?",
+    "back": "1. <b>Profile huyết động?</b> (ướt/khô × nóng/lạnh) → quyết định điều trị CẤP<br>2. <b>EF bao nhiêu?</b> → quyết định GDMT DÀI HẠN<br><br>Luôn thêm bước 3: <b>Nguyên nhân?</b> (thiếu máu cục bộ, THA, van tim, bệnh cơ tim, loạn nhịp)",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Yếu tố khởi phát</b> suy tim mất bù cần tìm (nhớ 'FAILURE')?",
+    "back": "• <b>F</b>orgot meds (bỏ thuốc)<br>• <b>A</b>rrhythmia (rung nhĩ, nhịp nhanh)<br>• <b>I</b>schemia/Infarction (NMCT, thiếu máu cục bộ)<br>• <b>L</b>ung issues (PE, viêm phổi, COPD)<br>• <b>U</b>pregulated BP (tăng HA không kiểm soát)<br>• <b>R</b>enal failure (suy thận tiến triển)<br>• <b>E</b>xcess fluid/salt, NSAIDs, anemia, thyroid",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Triệu chứng cơ năng</b> của suy tim (độ nhạy cao, độ đặc hiệu thấp)?",
+    "back": "• <b>Khó thở khi gắng sức</b> — sớm nhất và phổ biến nhất<br>• <b>Orthopnea</b> (khó thở khi nằm) — 'bác ngủ mấy gối?'<br>• <b>PND</b> (Paroxysmal Nocturnal Dyspnea)<br>• Mệt mỏi, giảm khả năng gắng sức<br>• Phù 2 chi dưới, tăng cân nhanh",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Dấu hiệu thực thể</b> của suy tim (độ đặc hiệu cao hơn)?",
+    "back": "• <b>JVP nổi</b> — quan trọng nhất!<br>• <b>HJR (+)</b>: ấn gan 10s → JVP ↑ > 1cm<br>• Ran ẩm phổi, có thể wheezing ('hen tim')<br>• Tim nhanh, <b>gallop T3</b> (đặc hiệu nhưng khó phát hiện)<br>• Mỏm tim lệch trái, lan tỏa<br>• Phù ấn lõm → anasarca, báng bụng<br>• Chi lạnh, CRT kéo dài (nếu giảm tưới máu)",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>NT-proBNP</b> — ngưỡng chẩn đoán suy tim CẤP?",
+    "back": "<table><tr><th>NT-proBNP (pg/mL)</th><th>Diễn giải</th></tr><tr><td><b>< 300</b></td><td>Suy tim KHÓ xảy ra → tìm NN khác</td></tr><tr><td><b>300–1800</b></td><td>Vùng xám → cần siêu âm tim</td></tr><tr><td><b>> 1800</b></td><td>Suy tim RẤT CÓ KHẢ NĂNG</td></tr></table><br><b>Mạn tính:</b> rule-out < 125 pg/mL (NT-proBNP) hoặc < 35 pg/mL (BNP)<br><br><i>ESC 2021 (PMID 34447992)</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Yếu tố ảnh hưởng</b> đến nồng độ NT-proBNP?",
+    "back": "<b>TĂNG (có thể dương giả):</b> Tuổi cao, suy thận (↓ thanh thải), rung nhĩ, viêm/nhiễm trùng<br><br><b>GIẢM (có thể âm giả):</b> Béo phì (BMI > 30)<br><br><i>Luôn kết hợp siêu âm tim — không chẩn đoán chỉ dựa trên NT-proBNP!</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Siêu âm tim</b> — 7 chỉ số cần báo cáo khi nghi suy tim?",
+    "back": "1. <b>LVEF (%)</b> — Simpson's biplane<br>2. <b>KT/thể tích thất trái</b> (LVEDD, LVESD, LVEDV, LVESV)<br>3. <b>Chức năng thất phải</b> (TAPSE, RV S')<br>4. <b>PAPs</b> (từ hở van 3 lá)<br>5. <b>Bất thường van tim</b><br>6. <b>Rối loạn vận động vùng</b> (→ bệnh mạch vành)<br>7. <b>Dấu hiệu tăng ALĐĐ:</b> E/e' > 14, LA volume ↑, TR velocity > 2.8 m/s",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Các xét nghiệm</b> cần làm khi chẩn đoán suy tim?",
+    "back": "• <b>Công thức máu:</b> thiếu máu → nặng thêm suy tim<br>• <b>Điện giải, creatinine, eGFR:</b> trước khi dùng ACEi/ARB/ARNI/MRA<br>• <b>Men gan:</b> ứ máu gan<br>• <b>TSH:</b> cường/suy giáp → suy tim<br>• <b>Ferritin + TSAT:</b> thiếu sắt ~50% BN HF<br>• <b>ECG:</b> rung nhĩ, LBBB (→ CRT), sóng Q cũ, dày thất<br>• <b>X-quang ngực:</b> CTR > 0.5, phù phổi, TDMP",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>ECG</b> trong suy tim — phát hiện gì?",
+    "back": "• <b>Rung nhĩ</b> — thường gặp, cần chống đông<br>• <b>LBBB (QRS ≥ 130 ms)</b> — có thể chỉ định CRT nếu EF ≤ 35%<br>• <b>Sóng Q cũ</b> — NMCT cũ → bệnh mạch vành<br>• <b>Dày thất trái</b> — gợi ý THA/bệnh cơ tim phì đại<br>• <b>Block AV</b> — CCĐ chẹn beta nếu chưa có pacemaker",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>COPD đợt cấp vs Suy tim</b> — phân biệt thế nào?",
+    "back": "<table><tr><th></th><th>COPD</th><th>Suy tim</th></tr><tr><td>NT-proBNP</td><td>Thấp</td><td><b>↑↑</b></td></tr><tr><td>X-quang</td><td>Ứ khí</td><td>Phù phổi, TDMP</td></tr><tr><td>JVP</td><td>Bình thường</td><td><b>Nổi</b></td></tr><tr><td>Siêu âm tim</td><td>Bình thường</td><td><b>EF ↓, ALĐĐ ↑</b></td></tr><tr><td>Tiền sử</td><td>Hút thuốc</td><td>THA, NMCT, bệnh van tim</td></tr></table>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Thiếu sắt (iron deficiency)</b> trong suy tim — tần suất, chẩn đoán, điều trị?",
+    "back": "<b>Tần suất:</b> ~50% bệnh nhân HF<br><br><b>Chẩn đoán:</b> Ferritin < 100 ng/mL HOẶC ferritin 100–299 + TSAT < 20%<br><br><b>Điều trị:</b> <b>Sắt tĩnh mạch (FCM — ferric carboxymaltose)</b><br>• Cải thiện QoL, ↓ HF hospitalization (AFFIRM-AHF, IRONMAN)<br>• Sắt uống KHÔNG hiệu quả trong suy tim",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Gallop T3</b> là gì và ý nghĩa lâm sàng?",
+    "back": "<b>T3 (S3 gallop):</b> tiếng đổ đầy đầu tâm trương, nghe ở mỏm tim<br><br>• <b>Độ đặc hiệu cao</b> cho tăng áp lực đổ đầy thất trái<br>• Nghe bằng chuông ống nghe, BN nằm nghiêng trái<br>• Ở người > 40t: T3 = BỆNH LÝ<br><br><i>Bình thường có thể có T3 ở người trẻ (T3 sinh lý).</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Phù do suy tim vs phù do suy thận/gan</b> — phân biệt?",
+    "back": "<b>Suy tim:</b><br>• <b>JVP nổi</b> — dấu hiệu quyết định!<br>• Siêu âm tim: EF ↓, ALĐĐ ↑<br>• NT-proBNP ↑↑<br><br><b>Suy thận:</b> thiểu niệu, creatinine ↑↑, SAT bình thường<br><b>Suy gan:</b> albumin ↓, INR ↑, không JVP nổi (trừ khi kèm suy tim phải)",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>PARADIGM-HF (2014)</b> — thiết kế và kết quả chính?",
+    "back": "<b>Thiết kế:</b> Sacubitril/valsartan vs enalapril, 8442 BN HFrEF, theo dõi 27 tháng<br><br><b>Kết quả:</b> CV death + HF hospitalization: <b>HR 0.80 (95% CI 0.73–0.87)</b><br>• <b>Dừng sớm vì hiệu quả vượt trội!</b><br><br><b>Ý nghĩa:</b> Đưa ARNI thành nền tảng GDMT<br><br><i>McMurray JJV, NEJM 2014 — PMID 25176015</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>DAPA-HF (2019)</b> — thiết kế và kết quả chính?",
+    "back": "<b>Thiết kế:</b> Dapagliflozin 10 mg vs placebo ở HFrEF, 4744 BN<br><br><b>Kết quả:</b> CV death + worsening HF: <b>HR 0.74 (95% CI 0.65–0.85)</b><br>• <b style='color:#1976d2'>Có lợi CẢ Ở BN KHÔNG ĐTĐ!</b><br><br><b>Ý nghĩa:</b> Đưa SGLT2i thành trụ cột thứ 4 của GDMT<br><br><i>PMID 31997538</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>SGLT2i meta-analysis (Zannad 2020)</b> — DAPA-HF + EMPEROR-Reduced?",
+    "back": "• 8474 BN HFrEF<br>• All-cause death: <b>HR 0.87 (95% CI 0.77–0.98)</b><br>• CV death: <b>HR 0.86 (0.76–0.98)</b><br>• CV death + HF hosp: <b>HR 0.74 (0.68–0.82)</b><br>• Renal composite: <b>HR 0.62 (0.43–0.90)</b><br><br><i>Zannad F, Lancet 2020 — PMID 32877652</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Comprehensive GDMT (Vaduganathan 2020)</b> — 'tứ trụ' giảm bao nhiêu % biến cố?",
+    "back": "<b>ARNI + BB + MRA + SGLT2i</b> vs ACEi/ARB + BB<br><br>• CV death + HF hosp: <b>HR 0.38 (95% CI 0.30–0.47)</b> → <b style='color:red'>↓ 62%!</b><br>• All-cause mortality: <b>HR 0.53 (0.40–0.70)</b><br><br><b>Lợi ích sống thêm:</b><br>• BN 55t: thêm <b>6.3 năm</b> sống + <b>8.3 năm</b> không biến cố<br>• BN 80t: thêm <b>1.4 năm</b> sống + <b>2.7 năm</b> không biến cố<br><br><i>Vaduganathan M, Lancet 2020 — PMID 32446323</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>DELIVER + EMPEROR-Preserved meta-analysis (Vaduganathan 2022)</b> — SGLT2i ở HFmrEF/HFpEF?",
+    "back": "Meta-analysis <b>5 thử nghiệm</b> (21,947 BN)<br><br><b>HFmrEF/HFpEF:</b> CV death + HF hosp: <b>HR 0.80 (95% CI 0.73–0.87)</b><br><br><b>Toàn bộ 5 trials:</b><br>• CV death: <b>HR 0.87 (0.79–0.95)</b><br>• HF hosp: <b>HR 0.72 (0.67–0.78)</b><br>• All-cause mortality: <b>HR 0.92 (0.86–0.99)</b><br><br><b style='color:#1976d2'>SGLT2i có lợi trên TOÀN BỘ phổ EF!</b><br><br><i>Vaduganathan M, Lancet 2022 — PMID 36041474</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>'Tứ trụ' GDMT</b> cho HFrEF — 4 nhóm thuốc + cơ chế chính?",
+    "back": "1️⃣ <b>ARNI</b> (ưu tiên) hoặc ACEi/ARB → ức chế RAAS + ↑ peptide lợi niệu natri<br>2️⃣ <b>Chẹn beta</b> → ức chế SNS, ↓ HR, ↓ MVO₂<br>3️⃣ <b>MRA</b> → ức chế aldosterone, chống xơ hóa<br>4️⃣ <b>SGLT2i</b> → lợi niệu thẩm thấu + chuyển hóa cơ tim + bảo vệ thận<br><br>PHẢI phối hợp — KHÔNG thay thế nhau!<br><br><i>ESC 2021 (PMID 34447992)</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>ARNI (Sacubitril/valsartan)</b> — liều khởi đầu → mục tiêu + CCĐ?",
+    "back": "<b>Khởi đầu:</b> 24/26 mg × 2/ngày<br><b>Mục tiêu:</b> 97/103 mg × 2/ngày<br>Chuẩn độ mỗi 2–4 tuần<br><br><b>CCĐ:</b> Hẹp ĐM thận 2 bên, phù mạch tiền sử, K⁺ > 5.5, thai kỳ<br>• <b style='color:red'>KHÔNG dùng đồng thời với ACEi</b> (washout 36h!)",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Chẹn beta</b> trong HFrEF — 3 thuốc + liều mục tiêu?",
+    "back": "<table><tr><th>Thuốc</th><th>Khởi đầu</th><th>Mục tiêu</th></tr><tr><td>Bisoprolol</td><td>1.25 mg × 1</td><td><b>10 mg × 1</b></td></tr><tr><td>Carvedilol</td><td>3.125 mg × 2</td><td><b>25 mg × 2</b></td></tr><tr><td>Metoprolol succ</td><td>12.5–25 mg × 1</td><td><b>200 mg × 1</b></td></tr></table><br><b>CCĐ:</b> Hen nặng, block AV 2–3 không pacemaker, nhịp chậm có triệu chứng, HATT < 90<br>Chuẩn độ mỗi 2 tuần.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>MRA</b> — 2 thuốc, liều, CCĐ và tác dụng phụ?",
+    "back": "<b>Spironolactone:</b> 25 mg → 25–50 mg × 1<br><b>Eplerenone:</b> 25 mg → 50 mg × 1<br><br><b>CCĐ:</b> K⁺ > 5.0, eGFR < 30 mL/min<br><br><b>Theo dõi:</b> K⁺, creatinine ngày 3, 7, 14, 28 sau khởi trị<br><br><b>Lưu ý:</b> Spironolactone → gynecomastia ~10% nam. Đổi sang eplerenone.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>SGLT2i</b> — liều, CCĐ và 'eGFR dip'?",
+    "back": "<b>Dapagliflozin:</b> 10 mg × 1/ngày<br><b>Empagliflozin:</b> 10 mg × 1/ngày<br>Không cần chuẩn độ!<br><br><b>CCĐ:</b> eGFR < 20 (dapagliflozin), ĐTĐ type 1, nhiễm toan ceton tiền sử<br><br><b style='color:#1976d2'>'eGFR dip' ~10% lúc khởi trị = LÀNH TÍNH</b> — cơ chế huyết động, KHÔNG ngừng thuốc!<br>Chỉ ngừng nếu eGFR ↓ > 30% kéo dài.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Nguyên tắc khởi trị GDMT</b> — 4 nguyên tắc vàng?",
+    "back": "1. <b>Bắt đầu CÙNG LÚC cả 4 nhóm</b> ở liều thấp — không tuần tự!<br>2. <b>Chuẩn độ mỗi 2–4 tuần</b> → liều mục tiêu<br>3. <b>Thứ tự ưu tiên nếu không dung nạp hết:</b><br>   • HATT thấp: SGLT2i + BB → MRA → ARNI<br>   • K⁺ cao: tránh MRA → ARNI + BB + SGLT2i<br>   • eGFR 20–30: SGLT2i + BB → ARNI → MRA<br>4. <b>Theo dõi:</b> creatinine, K⁺ sau 1–2 tuần mỗi lần ↑ ARNI/ACEi/MRA<br><br><i>ESC 2021 (PMID 34447992)</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Theo dõi khi chuẩn độ ACEi/ARB/ARNI/MRA</b> — creatinine tăng bao nhiêu thì chấp nhận được?",
+    "back": "• Creatinine ↑ <b>20–30% là CHẤP NHẬN ĐƯỢC</b><br>• ↑ 30–50%: giảm liều, theo dõi sát<br>• <b style='color:red'>↑ > 50% hoặc K⁺ > 5.5: NGỪNG THUỐC</b><br><br>Luôn kiểm tra creatinine và K⁺ sau <b>1–2 tuần</b> từ mỗi lần tăng liều.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>ARNI washout</b> — khi chuyển từ ACEi sang ARNI cần lưu ý gì?",
+    "back": "<b style='color:red'>PHẢI CÁCH 36 GIỜ WASHOUT!</b><br><br>• ACEi + ARNI đồng thời = ↑ nguy cơ phù mạch<br>• Ngừng ACEi → đợi <b>36 giờ</b> → bắt đầu ARNI liều thấp<br>• Với ARB: không cần washout, chuyển trực tiếp",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Lợi tiểu</b> trong suy tim mạn — vai trò và nguyên tắc?",
+    "back": "<b>Vai trò:</b> kiểm soát triệu chứng sung huyết<br><b style='color:red'>KHÔNG cải thiện sống còn!</b><br><br><b>Nguyên tắc:</b><br>• Dùng liều <b>thấp nhất</b> có hiệu quả<br>• Có thể <b>ngừng</b> khi BN khô và ổn định<br>• Furosemide uống 20–80 mg/ngày",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>SGLT2i ở HFmrEF/HFpEF</b> — Class mấy, bằng chứng?",
+    "back": "<b>Class I</b> (ESC 2023 / ACC/AHA 2022)<br><br>Meta-analysis DELIVER + EMPEROR-Preserved (21,947 BN):<br>• CV death + HF hosp: <b>HR 0.80 (95% CI 0.73–0.87)</b><br><br>Lợi ích nhất quán trên toàn bộ phổ EF.<br><br><i>Vaduganathan M, Lancet 2022 — PMID 36041474</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>HFpEF</b> — chiến lược điều trị toàn diện?",
+    "back": "1. <b>SGLT2i Class I</b> — dapagliflozin/empagliflozin<br>2. <b>Lợi tiểu</b> — kiểm soát sung huyết<br>3. <b>Điều trị bệnh nền tích cực:</b> THA (mt < 130/80), ĐTĐ, béo phì, rung nhĩ<br>4. ARNI/MRA: Class IIb (cân nhắc)<br>5. Sắt IV nếu thiếu sắt<br><br>HFpEF không 'nhẹ hơn' HFrEF — tử vong tương đương!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>ARNI trong HFpEF</b> — có chỉ định không?",
+    "back": "<b>Class IIb</b> — có thể cân nhắc<br><br><b>PARAGON-HF:</b> ARNI vs valsartan ở HFpEF<br>• Tiêu chí chính: HR 0.87 (95% CI 0.75–1.01) — <b>không đạt ý nghĩa thống kê</b><br>• Nhưng có lợi ở subgroup: nữ, EF ≤ 57%<br><br>→ FDA chấp thuận cho HFpEF dựa trên lợi ích subgroup.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>4 bước xử trí</b> suy tim cấp mất bù?",
+    "back": "1. <b>ABCDE</b> — loại trừ suy hô hấp, sốc tim, loạn nhịp nguy hiểm<br>2. <b>Phân loại huyết động</b> (ướt/khô, nóng/lạnh)<br>3. <b>Tìm yếu tố khởi phát</b> (bỏ thuốc, loạn nhịp, NMCT, nhiễm trùng, THA, NSAIDs...)<br>4. <b>Điều trị theo phenotype + chẩn đoán nguyên nhân</b><br><br><i>ESC 2021 (PMID 34447992)</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Furosemide IV</b> trong suy tim cấp — liều khởi đầu?",
+    "back": "• <b>Chưa dùng lợi tiểu trước:</b> 20–40 mg IV<br>• <b>Đang dùng lợi tiểu uống:</b> <b style='color:red'>GẤP ĐÔI liều uống</b> dạng IV<br><br><b>Theo dõi:</b> nước tiểu ≥ 100 mL/giờ trong 2h đầu<br>Mục tiêu: ↓ 1–2 kg/ngày<br><br><b>Nếu không đáp ứng:</b> tăng gấp đôi hoặc truyền TM liên tục. Có thể phối hợp thiazide hoặc acetazolamide.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Nitroglycerin IV</b> trong suy tim cấp — chỉ định và CCĐ?",
+    "back": "<b>Giãn mạch:</b> ↓ tiền tải + hậu tải<br><br><b>Chỉ định:</b> phù phổi cấp do tim, <b>HATT > 110 mmHg</b> (Profile B)<br>Liều: 10–200 mcg/phút<br><br><b style='color:red'>CCĐ:</b><br>• HATT < 90 mmHg<br>• Hẹp van ĐMC nặng<br>• Bệnh cơ tim phì đại tắc nghẽn<br><br>Theo dõi HATT mỗi 15–30 phút.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Inotrope (Dobutamine)</b> — chỉ định, CCĐ và nguyên tắc sử dụng?",
+    "back": "<b style='color:red'>CHỈ ĐỊNH:</b> Profile C (Lạnh & Khô) và D (Lạnh & Ướt)<br><br><b style='color:red'>CHỐNG CHỈ ĐỊNH:</b> Profile B (Ấm & Ướt) — TĂNG TỬ VONG!<br><br><b>Nguyên tắc:</b><br>• 'Con dao hai lưỡi': ↑ MVO₂, ↑ loạn nhịp<br>• Dùng <b>ngắn nhất có thể</b>, liều thấp nhất có hiệu quả<br>• Chỉ trong <b>ICU</b><br>• Là 'cầu nối', không phải duy trì<br><br>Liều: 2.5–20 mcg/kg/phút",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Vận mạch</b> trong sốc tim — chọn gì?",
+    "back": "<b>Norepinephrine:</b> ưu tiên trong sốc tim<br>• α1 > β1 → ↑ HA, ít ↑ HR<br>• Liều: 0.05–1 mcg/kg/phút qua <b>catheter TMTT</b><br><br><b>Dobutamine:</b> khi cần ↑ co bóp + ↓ hậu tải<br><br><b>Milrinone (PDE3i):</b> giãn mạch phổi + ↑ co bóp. Dùng khi cần ↓ hậu tải phổi.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Phù phổi cấp do THA (SCAPE)</b> — xử trí đặc hiệu?",
+    "back": "<b>SCAPE</b> = Sympathetic Crashing Acute Pulmonary Edema<br><br><b>Xử trí:</b><br>• Nằm đầu cao<br>• <b>CPAP/BiPAP</b><br>• <b>Nitroglycerin IV liều cao</b><br>• Furosemide IV<br><br><b>Mục tiêu:</b> HATT < 140 mmHg trong 1h, SpO₂ > 92%<br><br><b style='color:red'>KHÔNG dùng inotrope trong SCAPE!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Cardio-renal syndrome</b> — xử trí khi suy tim mất bù + suy thận tiến triển?",
+    "back": "<b>Cân bằng tinh tế:</b><br>• Vẫn cần giảm sung huyết<br>• Nhưng theo dõi creatinine <b>sát</b> (mỗi ngày)<br>• Có thể cần: giảm liều lợi tiểu, tạm giảm/ngừng ACEi/ARB/ARNI/MRA, tránh NSAIDs<br>• Nếu vô niệu/quá tải kháng trị → lọc máu<br><br>Mục tiêu: giảm sung huyết vừa đủ + bảo vệ thận.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Oxy đích</b> trong suy tim cấp?",
+    "back": "• <b>Đa số BN:</b> SpO₂ <b>94–98%</b><br>• <b>COPD/nguy cơ ứ CO₂:</b> SpO₂ <b>88–92%</b> (trong khi chờ khí máu)<br><br><b>Nguyên tắc:</b> Oxy là thuốc — phải có đích và đánh giá lại.<br>KHÔNG 'cho oxy tối đa' mặc định!<br><br><i>AARC 2022 (PMID 34728574), BTS 2017 (PMID 28507176)</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Ivabradine</b> — cơ chế, chỉ định, bằng chứng?",
+    "back": "<b>Cơ chế:</b> ức chế kênh I<sub>f</sub> nút xoang → ↓ HR<br><br><b>Chỉ định:</b> HFrEF, nhịp xoang, <b>HR ≥ 70 bpm</b> dù đã chẹn beta tối đa<br><br><b>SHIFT trial:</b> ↓ 18% CV death + HF hospitalization<br>Liều: 2.5–7.5 mg × 2/ngày",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Digoxin</b> — vai trò hiện tại trong suy tim?",
+    "back": "<b>Chỉ định chính:</b><br>• HFrEF + <b>rung nhĩ</b>: kiểm soát tần số thất<br>• Có thể cân nhắc ở nhịp xoang nếu vẫn triệu chứng dù GDMT tối đa<br><br><b>DIG trial:</b> ↓ HF hosp nhưng <b>KHÔNG ↓ tử vong</b><br><br><b>Nguy cơ:</b> ngộ độc (khoảng điều trị hẹp), đặc biệt khi suy thận, RLĐG<br>Theo dõi: nồng độ digoxin (mt 0.5–0.9 ng/mL)",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Vericiguat</b> — cơ chế, chỉ định?",
+    "back": "<b>Cơ chế:</b> kích thích guanylate cyclase hòa tan (sGC stimulator)<br><br><b>Chỉ định:</b> HFrEF nặng, NYHA II–IV, EF < 45%, NT-proBNP ↑ dù GDMT tối đa, có đợt mất bù gần đây<br><br><b>VICTORIA trial:</b> ↓ 10% CV death + HF hosp<br><br><i>Thuốc mới, chưa phổ biến tại Việt Nam.</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Hydralazine + ISDN</b> — chỉ định đặc biệt?",
+    "back": "<b>Chỉ định:</b><br>• BN <b>da đen (African-American)</b> — A-HeFT: ↓ 43% tử vong<br>• BN không dung nạp ACEi/ARB/ARNI<br><br><b>Cơ chế:</b> giãn mạch (hydralazine: ĐM; ISDN: TM)<br><br><i>Ít dùng tại Việt Nam.</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>CRT (tạo nhịp tái đồng bộ tim)</b> — chỉ định Class I?",
+    "back": "<b>Class I — cả 5 tiêu chuẩn:</b><br>• LVEF ≤ 35% dù GDMT ≥ 3 tháng<br>• <b>LBBB + QRS ≥ 150 ms</b><br>• NYHA II–IV (ambulatory)<br>• Nhịp xoang<br><br><b>CARE-HF, MADIT-CRT:</b> ↓ tử vong + ↓ HF hosp<br><br><i>'BN suy tim nặng + LBBB + QRS rộng: CRT có thể thay đổi cuộc đời!'</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>ICD (máy phá rung)</b> — chỉ định dự phòng nguyên phát?",
+    "back": "<b>Class I:</b><br>• LVEF ≤ 35% dù GDMT ≥ 3 tháng<br>• Tiên lượng sống > 1 năm<br>• KHÔNG trong 40 ngày sau NMCT<br><br><b>KHÔNG chỉ định ICD nếu:</b> NYHA IV, tiên lượng < 1 năm, suy tim giai đoạn cuối không ghép tim/VAD<br><br><i>SCD-HeFT, MADIT-II</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Sắt IV (FCM) trong suy tim</b> — chỉ định và bằng chứng?",
+    "back": "<b>Chỉ định:</b> TSAT < 20% + ferritin < 100 (hoặc 100–299 nếu có triệu chứng)<br><br><b>AFFIRM-AHF, IRONMAN:</b><br>• ↓ HF hospitalization<br>• Cải thiện QoL (6MWT, NYHA)<br><br><b>Sắt uống KHÔNG hiệu quả</b> trong suy tim — phải dùng đường TM!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 1: Không đo NT-proBNP trước khi cho lợi tiểu. Hậu quả?",
+    "back": "<b>Hậu quả:</b> điều trị lợi tiểu cho BN không suy tim (COPD, viêm phổi...) → mất nước, tụt HA, suy thận cấp<br><br><b>Cách tránh:</b> <b>NT-proBNP luôn là XN đầu tiên</b> khi nghi suy tim.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 2: Ngừng chẹn beta đột ngột ở BN suy tim ổn định. Hậu quả?",
+    "back": "<b style='color:red'>'Rebound' giao cảm → mất bù cấp, NMCT, rối loạn nhịp!</b><br><br>Chẹn beta phải <b>giảm liều từ từ</b> nếu cần ngừng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 3: Dùng inotrope cho Profile B (Ấm & Ướt).",
+    "back": "<b style='color:red'>TĂNG TỬ VONG, TĂNG LOẠN NHỊP!</b><br><br>Inotrope CHỈ cho Profile C và D. Profile B: lợi tiểu + giãn mạch — không cần inotrope.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 4: Không chuẩn độ GDMT, giữ liều thấp 'cho an toàn'.",
+    "back": "<b style='color:red'>Mất > 50% lợi ích sống còn!</b><br><br>Chuẩn độ lên liều mục tiêu trong mọi TH dung nạp được. Mỗi 2–4 tuần tăng 1 bậc.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 5: Coi HFmrEF/HFpEF 'nhẹ hơn' HFrEF — không dùng SGLT2i.",
+    "back": "<b style='color:red'>SAI! Bỏ lỡ SGLT2i → tăng nhập viện, tăng tử vong!</b><br><br>SGLT2i Class I cho HFmrEF và HFpEF (ESC 2023 / ACC 2022).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 6: Ngừng SGLT2i khi eGFR giảm nhẹ lúc khởi trị.",
+    "back": "<b style='color:red'>SAI — mất lợi ích bảo vệ thận!</b><br><br>'eGFR dip' ~10% = hiện tượng huyết động lành tính. Chỉ ngừng nếu ↓ > 30% kéo dài.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 7: BN suy tim ổn định hạn chế nước < 1 L/ngày.",
+    "back": "<b style='color:red'>SAI — gây hạ natri, suy thận, giảm QoL!</b><br><br>Profile A (đã bù): KHÔNG cần hạn chế nước nghiêm ngặt.<br>Hạn chế 1.5–2 L/ngày CHỈ khi: Na⁺ < 130 hoặc sung huyết kháng trị.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Suy tim tại Việt Nam</b> — đặc điểm dịch tễ và nguyên nhân?",
+    "back": "• ~3–5% dân số trưởng thành<br>• <b>Nguyên nhân hàng đầu:</b> bệnh mạch vành + THA<br>• <b>Khác biệt với phương Tây:</b> bệnh van tim hậu thấp (RHD) còn quan trọng ở người trẻ<br>• BN thường đến viện ở giai đoạn muộn (NYHA III–IV)<br>• Chưa có số liệu quốc gia đầy đủ",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>GDMT tại Việt Nam</b> — thuốc nào có sẵn, thuốc nào hạn chế?",
+    "back": "<b>CÓ SẴN:</b> enalapril, losartan, bisoprolol, carvedilol, spironolactone, furosemide (uống + tiêm), NT-proBNP, SAT cơ bản<br><br><b>HẠN CHẾ:</b><br>• ARNI: giá cao (500–800K/tháng), BHYT chưa chi trả đầy đủ<br>• SGLT2i: giá 300–500K/tháng<br>• Ivabradine, vericiguat, sắt IV: khó tiếp cận tuyến tỉnh",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Chiến lược thực tế</b> cho suy tim tại tuyến tỉnh Việt Nam?",
+    "back": "<b>Nền tảng:</b> ACEi + BB + spironolactone bắt buộc cho mọi HFrEF<br>• Cố gắng thêm <b>SGLT2i</b> khi có thể<br>• ARNI khi BN có điều kiện<br><br><b>Giảm tái nhập viện:</b><br>• <b>Hẹn tái khám ≤ 7 ngày</b> sau xuất viện<br>• Giáo dục BN: cân nặng mỗi ngày, muối < 5g/ngày<br><br><b>Chuyển tuyến:</b> khi cần CRT/ICD, phẫu thuật van tim, ghép tim.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tiêm chủng</b> ở bệnh nhân suy tim — khuyến cáo gì?",
+    "back": "<b>Khuyến cáo mạnh (ESC 2021 / ACC 2022):</b><br>• <b>Cúm mùa:</b> hàng năm — ↓ nhập viện, ↓ tử vong<br>• <b>Phế cầu:</b> một lần<br>• <b>COVID-19:</b> theo hướng dẫn quốc gia<br><br><i>Nhiễm trùng hô hấp = yếu tố khởi phát mất bù hàng đầu. Tiêm chủng rẻ, hiệu quả cao.</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case 1: Nam 62t, khó thở khi nằm 3 ngày, phù 2 chi dưới, JVP nổi 8cm, ran ẩm, HATT 160/95, NT-proBNP 6800, EF 32%. Chẩn đoán + xử trí?",
+    "back": "<b>HFrEF mất bù (Profile B — Ấm & Ướt)</b><br>Nguyên nhân: THA không kiểm soát<br><br><b>24h đầu:</b> CPAP nếu cần, furosemide IV, nitroglycerin IV<br><br><b>GDMT lâu dài:</b> khởi trị đồng thời ARNI + carvedilol + spironolactone + dapagliflozin. Chuẩn độ mỗi 2 tuần. Tái khám 7 ngày.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case 2: Nữ 70t, BMI 34, ĐTĐ, THA, khó thở NYHA II, phù nhẹ. NT-proBNP 540, EF 58%, E/e'=16. Đang dùng metformin + amlodipine. Chẩn đoán + xử trí?",
+    "back": "<b>HFpEF</b> (EF 58% + E/e' > 14 + LA ↑ + triệu chứng + NT-proBNP ↑)<br><br><b>Điều trị:</b><br>1. <b>Thêm dapagliflozin 10 mg</b> — Class I<br>2. Furosemide 20 mg nếu còn phù<br>3. Tối ưu HA (cân nhắc ARNI thay amlodipine)<br>4. Giảm cân, muối < 5g/ngày<br>5. Theo dõi NT-proBNP mỗi 3–6 tháng",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case 3: Nam 75t, suy tim nhập viện, HATT 85, chi lạnh, CRT 4s, thiểu niệu, lactate 4.5, EF 25%. Chẩn đoán + xử trí?",
+    "back": "<b style='color:red'>SỐC TIM (Profile D) trên HFrEF nặng</b><br><br><b>ICU ngay:</b><br>• Dobutamine ± norepinephrine<br>• Tìm NMCT cấp<br>• <b style='color:red'>KHÔNG dùng lợi tiểu đơn thuần!</b><br><br><b>Sau ổn định:</b> tái khởi động GDMT từ từ. Cân nhắc CRT/ICD.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 1: Công cụ đơn giản nhất để theo dõi sung huyết tại nhà?",
+    "back": "<b>Cân nặng hàng ngày!</b><br><br>• Cùng 1 cân, cùng thời điểm (sáng sớm)<br>• <b style='color:red'>↑ > 2 kg trong 3 ngày = BÁO ĐỘNG ĐỎ!</b><br>• BN cần báo bác sĩ ngay, điều chỉnh lợi tiểu<br><br>Câu hỏi: 'Bác ngủ mấy gối?' → tăng gối = orthopnea nặng lên.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 2: Trước khi kết luận 'suy tim kháng trị' — kiểm tra 4 thứ?",
+    "back": "1. BN có <b>thực sự uống thuốc</b> không?<br>2. <b>Liều đã đạt mục tiêu</b> chưa?<br>3. Có đang dùng <b>NSAIDs</b> không?<br>4. Có <b>uống quá nhiều nước</b> không?",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 3: 'Quy tắc 3 trong 1' ở BN suy tim chưa kiểm soát tốt?",
+    "back": "Luôn nghĩ đến 3 thứ:<br>1. <b>Thiếu sắt</b> (ferritin + TSAT)<br>2. <b>Rung nhĩ chưa phát hiện</b> (ECG, Holter)<br>3. <b>Bệnh mạch vành chưa chẩn đoán</b> (đau ngực không điển hình, RLVĐ vùng trên SAT)",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 4: Creatinine tăng khi khởi trị ACEi/ARB/ARNI — khi nào thì ngừng?",
+    "back": "<b>↑ 20–30%:</b> CHẤP NHẬN ĐƯỢC<br><b>↑ 30–50%:</b> giảm liều, theo dõi sát<br><b style='color:red'>↑ > 50% hoặc K⁺ > 5.5: NGỪNG!</b><br><br>Nguyên tắc: ↑ creatinine nhẹ = cơ chế huyết động (giãn tiểu ĐM đi), không phải tổn thương thận.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip 5: Mùa nắng nóng — lưu ý gì cho BN suy tim?",
+    "back": "• BN dễ <b>mất nước + tụt HA</b> khi dùng GDMT<br>• <b>Điều chỉnh lợi tiểu:</b> giảm liều<br>• Tư vấn bù nước phù hợp — không quá nhiều<br>• Theo dõi chóng mặt, mệt<br>• <b>KHÔNG tự ý ngừng GDMT!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tổng kết:</b> 3 quyết định quan trọng nhất khi tiếp nhận BN suy tim?",
+    "back": "1. <b>Profile huyết động?</b> (ướt/khô × nóng/lạnh) → điều trị CẤP<br>2. <b>EF bao nhiêu?</b> → GDMT DÀI HẠN<br>3. <b>Nguyên nhân?</b> → điều trị GỐC",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tổng kết:</b> 'Tứ trụ' GDMT cho HFrEF = ?",
+    "back": "1️⃣ <b>ARNI</b> (sacubitril/valsartan) hoặc ACEi/ARB<br>2️⃣ <b>Chẹn beta</b> (bisoprolol, carvedilol, metoprolol succinate)<br>3️⃣ <b>MRA</b> (spironolactone, eplerenone)<br>4️⃣ <b>SGLT2i</b> (dapagliflozin, empagliflozin)<br><br><b>PHẢI phối hợp cả 4!</b> Comprehensive GDMT ↓ <b style='color:red'>62%</b> CV death + HF hosp.<br><br><i>ESC 2021 (PMID 34447992), Vaduganathan M 2020 (PMID 32446323)</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tổng kết:</b> SGLT2i trong suy tim — 3 thông điệp chính?",
+    "back": "1. <b>Class I cho TOÀN BỘ phổ EF</b> — HFrEF, HFmrEF, HFpEF<br>2. <b>Có lợi CẢ Ở BN KHÔNG ĐTĐ</b> — đây là thuốc SUY TIM, không chỉ hạ đường huyết<br>3. <b>↓ tử vong TM + ↓ nhập viện + bảo vệ thận</b><br><br><i>Meta-analysis 5 trials: PMID 36041474</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tổng kết:</b> Lợi tiểu và inotrope — nguyên tắc vàng?",
+    "back": "<b>Lợi tiểu:</b> điều trị sung huyết, KHÔNG cải thiện sống còn. Liều thấp nhất, ngừng khi khô.<br><br><b>Inotrope:</b> <b style='color:red'>CHỈ trong sốc tim (Profile D).</b> Dùng ngắn nhất. Là 'cầu nối', không duy trì.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tổng kết cuối cùng:</b> 10 điểm cần nhớ về suy tim?",
+    "back": "1. Suy tim = hội chứng, luôn tìm nguyên nhân<br>2. Phân loại 4 profile huyết động trước điều trị<br>3. NT-proBNP là XN đầu tiên<br>4. HFrEF: 'Tứ trụ' GDMT bắt buộc<br>5. HFmrEF/HFpEF: SGLT2i Class I nền tảng<br>6. HFimpEF: KHÔNG BAO GIỜ NGỪNG GDMT<br>7. GDMT phối hợp 4 nhóm — ↓ 62% biến cố<br>8. Lợi tiểu: trị sung huyết, không ↓ tử vong<br>9. Inotrope: CHỈ trong sốc tim<br>10. VN: ACEi + BB + spironolactone là nền tảng<br><br><i>ESC 2021/2023, ACC/AHA 2022, Universal Definition 2026</i>",
+    "extra": ""
+  }
+]

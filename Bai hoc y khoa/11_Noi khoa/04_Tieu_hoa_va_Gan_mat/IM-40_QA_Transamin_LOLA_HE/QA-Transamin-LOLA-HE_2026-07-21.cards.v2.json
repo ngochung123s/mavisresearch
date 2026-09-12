@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "lesson_id": "QA-Transamin-LOLA-HE",
+    "title": "Transamin, L-Ornithin L-Aspartat và Hội chứng não gan",
+    "date": "2026-07-21",
+    "total_cards": 15
+  },
+  "cards": [
+    {
+      "front": "Transamin (tranexamic acid) có chỉ định trong XHTH do viêm loét dạ dày tá tràng không?",
+      "back": "KHÔNG.\n\nHALT-IT trial (Lancet 2020, n=12.009): TXA không giảm tử vong do chảy máu (RR 0.99), và TĂNG nguy cơ huyết khối tĩnh mạch (RR 1.85).\n\nCác guideline ESGE 2021, ACG 2021, BMJ 2021 đều KHÔNG khuyến cáo TXA cho XHTH.\n\nĐiều trị đúng: Hồi sức + PPI liều cao + nội soi cầm máu sớm ≤24h."
+    },
+    {
+      "front": "HALT-IT trial (Lancet 2020) — thiết kế và kết quả chính?",
+      "back": "Thiết kế: RCT mù đôi, 164 BV, 15 quốc gia, n=12.009 BN XHTH có ý nghĩa.\n\nCan thiệp: TXA 1g IV loading + 3g/24h vs Placebo.\n\nKết quả chính:\n• Tử vong do chảy máu (5 ngày): 4% vs 4% — KHÔNG khác biệt\n• VTE: 0.8% vs 0.4% (RR 1.85) — TĂNG nguy cơ\n\nKết luận: TXA không nên dùng cho XHTH ngoài RCT.\nPMID: 32563378"
+    },
+    {
+      "front": "Meta-analysis 2024 (Ir J Med Sci) về TXA trong XHTH — kết luận gì?",
+      "back": "14 RCTs, n=14.338.\n\n• Tử vong: RR 0.86 (p=0.05) — không ý nghĩa\n• Tái chảy máu: không khác biệt\n• Co giật: RR 1.73 (tăng nguy cơ)\n\nKết luận: \"The authors do NOT recommend TXA in acute GI bleeding.\"\nPMID: 37794272"
+    },
+    {
+      "front": "Các guideline lớn (ESGE, ACG, BMJ) khuyến cáo gì về TXA trong XHTH?",
+      "back": "TẤT CẢ đều KHÔNG khuyến cáo TXA:\n\n• ESGE 2021 (Endoscopy): không đề cập TXA trong bất kỳ khuyến cáo điều trị nào\n• ACG 2021 (Am J Gastroenterol): không đề cập TXA\n• BMJ Drug Ther Bull 2021: \"TXA should be AVOIDED for acute GI bleeds\"\n• ACP Journal Club 2020: \"TXA did NOT reduce death due to bleeding\""
+    },
+    {
+      "front": "L-Ornithin L-Aspartat (LOLA) có chỉ định chính gì ở BN xơ gan? Có phải first-line không?",
+      "back": "Chỉ định: BỆNH NÃO GAN (Hepatic Encephalopathy — HE).\n\nKHÔNG phải first-line. Lactulose luôn là lựa chọn hàng đầu.\n\nLOLA có vai trò BỔ TRỢ (adjunct), đặc biệt:\n• OHE cấp: LOLA IV 20–40g/ngày cùng lactulose\n• MHE/CHE có triệu chứng: LOLA uống nếu không dung nạp lactulose\n\nEASL 2022: khuyến cáo yếu."
+    },
+    {
+      "front": "Cochrane Review 2018 (Goh ET) kết luận gì về hiệu quả của LOLA trong HE?",
+      "back": "36 RCTs, n=2.377. So sánh LOLA vs Placebo/không can thiệp:\n\n• Tử vong: RR 0.42 (tất cả RCT) nhưng RR 0.47 (chỉ RCT bias thấp) → KHÔNG ý nghĩa\n• HE: RR 0.70 (tất cả) nhưng RR 0.96 (bias thấp) → KHÔNG ý nghĩa\n\nKẾT LUẬN: \"Chất lượng bằng chứng RẤT THẤP. TSA cho thấy KHÔNG ĐỦ bằng chứng để ủng hộ hoặc bác bỏ lợi ích.\"\nPMID: 29762873"
+    },
+    {
+      "front": "Cơ chế tác dụng hạ NH3 của LOLA?",
+      "back": "LOLA = muối của 2 amino acid:\n\n1. L-Ornithin: tăng cường CHU TRÌNH UREA tại gan → tăng thải NH3 (con đường chính)\n\n2. L-Aspartat: tổng hợp GLUTAMINE từ NH3 tại cơ vân và tế bào quanh tĩnh mạch trung tâm → giảm NH3 tự do\n\nNgoài ra: tác động lên hệ vi sinh đường ruột và hàng rào ruột-gan (gut-liver axis)."
+    },
+    {
+      "front": "Phác đồ dùng LOLA trong OHE cấp và MHE/CHE?",
+      "back": "OHE CẤP (grade 2–4) nhập viện:\n• LOLA IV 20–40g/ngày, BỔ TRỢ cùng lactulose\n• Mục tiêu: hạ NH3 nhanh\n\nMHE/CHE có triệu chứng (giảm QoL, té ngã):\n• LOLA uống 18g/ngày\n• Chỉ cân nhắc nếu không dung nạp/đáp ứng kém lactulose\n\nLOLA KHÔNG dùng để dự phòng tiên phát hoặc thay thế lactulose trong dự phòng thứ phát."
+    },
+    {
+      "front": "Phân độ West Haven của Hội chứng não gan (HE) — Grade 0 đến 4?",
+      "back": "Grade 0 (MHE): không dấu LS, chỉ bất thường test tâm thần vận động\nGrade 1: giảm chú ý, quên nhẹ, RL giấc ngủ, hưng phấn/lo âu\nGrade 2: lơ mơ, mất định hướng thời gian, thay đổi nhân cách, ASTERIXIS (+)\nGrade 3: ngủ gà → bán hôn mê, đáp ứng kích thích, lú lẫn nặng, ASTERIXIS (+)\nGrade 4: HÔN MÊ, không đáp ứng, asterixis (−)\n\nAsterixis xuất hiện từ grade 2, MẤT ở grade 4 (hôn mê)."
+    },
+    {
+      "front": "Phân loại SONIC (EASL/AASLD) về HE? Covert HE là gì?",
+      "back": "SONIC = Spectrum of Neurocognitive Impairment in Cirrhosis:\n\n• Bình thường: không bất thường LS + test\n• COVERT HE (CHE — HE ẩn): MHE (grade 0) + Grade 1 WHC. Khó phát hiện nếu không test chuyên biệt.\n• OVERT HE (OHE — HE rõ): Grades 2–4 WHC. Cần nhập viện.\n\nCovert HE là chỉ định điều trị nếu BN có triệu chứng (giảm QoL, té ngã, ảnh hưởng lái xe)."
+    },
+    {
+      "front": "Test nào được khuyến cáo NHIỀU NHẤT để chẩn đoán Minimal HE (MHE)?",
+      "back": "PHES (Psychometric Hepatic Encephalopathy Score) — bộ 5 test giấy-bút:\n• Nối số (NCT-A, NCT-B)\n• Nối chấm (LTT)\n• Vẽ đường (SDT)\n• Nối số-chữ (DST)\n\nĐiểm ≤ −4 SD = bất thường.\n\nKhuyến cáo MẠNH bởi EASL 2022.\n\nThay thế: CFF (Critical Flicker Frequency) nếu PHES không khả dụng.\n\nAmmonia máu KHÔNG được dùng để chẩn đoán MHE."
+    },
+    {
+      "front": "Các yếu tố thúc đẩy (precipitating factors) thường gặp của HE? Yếu tố nào #1?",
+      "back": "#1: NHIỄM TRÙNG (SBP, UTI, viêm phổi)\n\nKhác:\n• XHTH (vỡ giãn TQ, loét DD-TT)\n• Táo bón\n• Rối loạn điện giải (hạ Na+, hạ K+)\n• Thuốc an thần (BZD, opioid)\n• Mất nước/giảm thể tích (lợi tiểu quá mức)\n• Shunt cửa-chủ (TIPS, shunt bẩm sinh)\n• Ăn quá nhiều đạm một lần\n• Phẫu thuật\n\n~90% đợt OHE có yếu tố thúc đẩy → phải tìm và xử trí."
+    },
+    {
+      "front": "Điều trị first-line cho Overt HE cấp (grade 2–4) là gì? Chi tiết liều?",
+      "back": "LACTULOSE — FIRST-LINE:\n• Uống/NG: 15–30mL × 2–3 lần/ngày\n• Chỉnh liều để đạt 2–3 lần đi tiêu phân mềm/ngày\n• Nếu không uống được: thụt lactulose (300mL + 700mL nước)\n\nTHÊM Rifaximin 550mg BID nếu:\n• Không đáp ứng lactulose sau 24–48h, HOẶC\n• Tái phát ≥2 đợt/6 tháng\n\nLOLA IV 20–40g/ngày: bổ trợ.\n\nKHÔNG hạn chế protein! 1.2–1.5 g/kg/ngày."
+    },
+    {
+      "front": "Khi nào THÊM rifaximin vào lactulose trong điều trị HE?",
+      "back": "1. OHE cấp: thêm rifaximin nếu KHÔNG đáp ứng với lactulose đơn độc sau 24–48 giờ.\n\n2. Dự phòng thứ phát: thêm rifaximin nếu BN có ≥2 đợt OHE trong 6 tháng dù đã dùng lactulose duy trì.\n\nLiều: Rifaximin 550mg PO BID.\n\nĐây là khuyến cáo MẠNH từ EASL/AASLD.\n\nLactulose + Rifaximin hiệp đồng: lactulose đào thải NH3 qua phân + rifaximin giảm vi khuẩn sinh NH3."
+    },
+    {
+      "front": "Dinh dưỡng cho BN xơ gan có HE: có phải hạn chế protein không?",
+      "back": "KHÔNG HẠN CHẾ PROTEIN!\n\nĐây là quan niệm CŨ, SAI.\n\nKhuyến cáo hiện đại (EASL 2022):\n• Protein: 1.2–1.5 g/kg/ngày\n• Năng lượng: 35–40 kcal/kg/ngày\n• Chia nhỏ bữa ăn (4–6 bữa/ngày) + bữa phụ trước ngủ\n• Ưu tiên đạm thực vật và sữa\n• BN hôn mê: nuôi qua sonde, không bỏ đói\n\nHạn chế protein gây dị hóa cơ → tăng NH3 → LÀM NẶNG HE.\nBổ sung vitamin B1 (phòng Wernicke)."
+    }
+  ]
+}

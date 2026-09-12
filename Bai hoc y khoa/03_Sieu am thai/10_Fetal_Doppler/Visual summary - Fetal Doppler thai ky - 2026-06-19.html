@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fetal Doppler thai ky - Visual Summary</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+
+<header class="max-w-6xl mx-auto mb-8 text-center">
+  <h1 class="text-4xl font-bold text-stone-700 mb-2">Fetal Doppler Ultrasound trong San khoa</h1>
+  <p class="text-stone-500 italic">Visual Summary - Bai hoc 19/06/2026</p>
+  <div class="mt-3 flex justify-center gap-2 flex-wrap">
+    <span class="tag pastel-pink px-3 py-1 rounded-full text-sm">Fetal US</span>
+    <span class="tag pastel-blue px-3 py-1 rounded-full text-sm">Doppler</span>
+    <span class="tag pastel-mint px-3 py-1 rounded-full text-sm">FGR</span>
+    <span class="tag pastel-peach px-3 py-1 rounded-full text-sm">Anemia thai</span>
+    <span class="tag pastel-lavender px-3 py-1 rounded-full text-sm">Preeclampsia</span>
+  </div>
+</header>
+<main class="max-w-6xl mx-auto space-y-8">
+
+
+  <!-- SECTION 1: 3 MACH MAU COT LOI -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">1. Ba mach mau cot loi trong Doppler thai ky</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+      <div class="pastel-pink rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">Umbilical Artery (UA)</h3>
+        <p class="text-sm text-stone-700">Phan anh <b>suc can tuan hoan nhau-nhau</b> (uteroplacental + fetoplacental). Tieu chuan vang cho FGR.</p>
+      </div>
+      <div class="pastel-blue rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">Middle Cerebral Artery (MCA)</h3>
+        <p class="text-sm text-stone-700">Phan anh <b>su phan phoi mau len nao</b> ("brain-sparing effect"). MCA-PSV &gt;= 1.5 MoM = anemia thai.</p>
+      </div>
+      <div class="pastel-mint rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">Ductus Venosus (DV)</h3>
+        <p class="text-sm text-stone-700">Phan anh <b>chuc nang tim thai va tinh trang toan</b>. a-wave reversed = can thiep nang.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: ALGORITHM -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">2. Algorithm Doppler trong FGR som (&lt;32 tuan)</h2>
+    <div class="mermaid">
+flowchart TD
+    A["Thai &lt;32 tuan + EFW &lt;p10"] --&gt; B["UA Doppler"]
+    B --&gt; C{"Ket qua UA?"}
+    C -- "Binh thuong<br/>(PI &lt; p95)" --&gt; D["MCA-PI, CPR<br/>danh gia them"]
+    D --&gt; E["Theo doi 1-2 lan/tuan"]
+    C -- "Bat thuong<br/>(PI &gt;= p95, AEDV, REDV)" --&gt; F["DV Doppler + cCTG"]
+    F --&gt; G{"a-wave DV?"}
+    G -- "Binh thuong" --&gt; H["Corticosteroid<br/>Theo doi sat"]
+    G -- "Absent" --&gt; I["Can nhac can thiep<br/>tuy tuoi thai"]
+    G -- "Reversed" --&gt; J["Can thiep NANG<br/>(theo TRUFFLE)"]
+    J --&gt; K["Quyet dinh: cCTG + late DV<br/>(Frusca 2018 - 95% normal)"]
+
+    style A fill:#f4c2c2
+    style B fill:#c5d5e0
+    style F fill:#c5e0c9
+    style J fill:#d4c5e2
+    style K fill:#f7d1ba
+    </div>
+  </section>
+
+  <!-- SECTION 3: BA CHI SO DOPPLER -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">3. Ba chi so Doppler co ban</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+      <div class="bg-white rounded-xl p-4 border border-stone-200">
+        <h3 class="font-bold text-stone-800 mb-2">PI (Pulsatility Index) - Gosling</h3>
+        <p class="text-sm text-stone-700 font-mono bg-stone-100 p-2 rounded">PI = (PSV - EDV) / TAV</p>
+        <p class="text-sm text-stone-600 mt-2">Pho bien nhat. PI tang = suc can tang. PI giam = suc can giam.</p>
+      </div>
+      <div class="bg-white rounded-xl p-4 border border-stone-200">
+        <h3 class="font-bold text-stone-800 mb-2">RI (Resistance Index) - Pourcelot</h3>
+        <p class="text-sm text-stone-700 font-mono bg-stone-100 p-2 rounded">RI = (PSV - EDV) / PSV</p>
+        <p class="text-sm text-stone-600 mt-2">It dung hon PI, thuong dung cho Doppler than.</p>
+      </div>
+      <div class="bg-white rounded-xl p-4 border border-stone-200">
+        <h3 class="font-bold text-stone-800 mb-2">PSV (Peak Systolic Velocity)</h3>
+        <p class="text-sm text-stone-700 font-mono bg-stone-100 p-2 rounded">PSV (cm/s)</p>
+        <p class="text-sm text-stone-600 mt-2">Dung cho MCA-PSV (anemia). Nguong: &gt;= 1.5 MoM = nghi anemia.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: BANG UA DOPPLER -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">4. Phan tang UA Doppler trong FGR</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-stone-200 text-stone-800">
+            <th class="px-3 py-2 text-left">UA Doppler</th>
+            <th class="px-3 py-2 text-left">Y nghia</th>
+            <th class="px-3 py-2 text-left">Thoi diem sinh (SMFM 2020)</th>
+          </tr>
+        </thead>
+        <tbody class="text-stone-700">
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-bold">Binh thuong</td><td class="px-3 py-2">Nhau tot</td><td class="px-3 py-2">38-39 tuan (neu FGR + EFW p3-p10)</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-bold">PI tang</td><td class="px-3 py-2">Suy nhau bat dau</td><td class="px-3 py-2">37 tuan (GRADE 1B)</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-bold">EDV giam</td><td class="px-3 py-2">Suy nhau ro</td><td class="px-3 py-2">37 tuan (GRADE 1B)</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-bold">Absent EDV</td><td class="px-3 py-2">Suy nhau nang</td><td class="px-3 py-2">33-34 tuan (GRADE 1B)</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-bold">Reversed EDV</td><td class="px-3 py-2">Suy nhau rat nang</td><td class="px-3 py-2">30-32 tuan (GRADE 1B)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- SECTION 5: EVIDENCE -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">5. Evidence - Meta-analysis &amp; Trials quan trong</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-stone-200 text-stone-800">
+            <th class="px-3 py-2 text-left">PMID</th>
+            <th class="px-3 py-2 text-left">Tac gia (Nam)</th>
+            <th class="px-3 py-2 text-left">Loai nghien cuu</th>
+            <th class="px-3 py-2 text-left">Ket qua chinh</th>
+          </tr>
+        </thead>
+        <tbody class="text-stone-700">
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">34278615</td><td class="px-3 py-2">Bhide A. (2021)</td><td class="px-3 py-2">ISUOG Practice Guideline</td><td class="px-3 py-2">Doppler khong routine; chi dinh cu the</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">32407785</td><td class="px-3 py-2">SMFM (2020)</td><td class="px-3 py-2">Consult Series 21 GRADE recs</td><td class="px-3 py-2">Timing sinh theo UA Doppler</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">35026129</td><td class="px-3 py-2">Lees CC (2022)</td><td class="px-3 py-2">Clinical Opinion 27 chuyen gia</td><td class="px-3 py-2">cCTG + DV cho FGR som; CPR cho FGR muon</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">29920817</td><td class="px-3 py-2">Conde-Agudelo (2018)</td><td class="px-3 py-2">Meta-analysis 22 studies, n=4301</td><td class="px-3 py-2">CPR sens 93% cho perinatal death</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">32363701</td><td class="px-3 py-2">Vollgraff (2021)</td><td class="px-3 py-2">IPD meta-analysis 18,731 PN</td><td class="px-3 py-2">CPR them KHONG cai thien du bao</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">31125465</td><td class="px-3 py-2">Ganzevoort (2020)</td><td class="px-3 py-2">GRIT + TRUFFLE IPD 741 PN</td><td class="px-3 py-2">cCTG+DV: 84% song sot khong ton thuong</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">30932276</td><td class="px-3 py-2">Martinez-Portilla (2019)</td><td class="px-3 py-2">Meta-analysis 12 studies, 696 thai</td><td class="px-3 py-2">MCA-PSV AUC 0.83 cho anemia</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">29422211</td><td class="px-3 py-2">Frusca (2018)</td><td class="px-3 py-2">TRUFFLE RCT 503 PN</td><td class="px-3 py-2">Late DV: 95% normal outcome 2 tuoi</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- SECTION 6: CHART 1 - CPR AUC comparison - ZOOM IN -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-2">6. CPR khong them gia tri du bao (Vollgraff 2021)</h2>
+    <p class="text-sm text-stone-600 italic mb-4">Zoom vao scale AUC 0.770-0.780 de thay ro delta 0.003 - khong co y nghia lam sang.</p>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div>
+        <canvas id="chart1"></canvas>
+      </div>
+      <div class="bg-white rounded-xl p-4 border border-stone-200 flex flex-col justify-center">
+        <h3 class="font-bold text-stone-800 mb-2">IPD Meta-analysis 18,731 phu nu</h3>
+        <ul class="text-sm text-stone-700 space-y-2">
+          <li>• <b>UA-PI alone:</b> AUC 0.775</li>
+          <li>• <b>CPR alone:</b> AUC 0.778</li>
+          <li>• <b>UA-PI + CPR:</b> AUC 0.778 (chi tang 0.003)</li>
+          <li>• <b>Ket luan:</b> CPR them khong cai thien du bao</li>
+          <li>• Tweetable: "CPR has limited added predictive value to UA alone"</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 7: CHART 2 - TRUFFLE outcomes -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">7. TRUFFLE + GRIT - Song sot khong ton thuong than kinh 2 tuoi</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div>
+        <canvas id="chart2"></canvas>
+      </div>
+      <div class="bg-white rounded-xl p-4 border border-stone-200 flex flex-col justify-center">
+        <h3 class="font-bold text-stone-800 mb-2">Ganzevoort 2020 (PMID 31125465)</h3>
+        <ul class="text-sm text-stone-700 space-y-2">
+          <li>• Phan tich ket hop GRIT + TRUFFLE</li>
+          <li>• Early-onset FGR 26-32 tuan</li>
+          <li>• cCTG + DV cho outcome tot nhat</li>
+          <li>• P &lt; 0.01 cho trend</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 8: DV DOPPLER -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">8. Ductus Venosus - Song 3 dinh &amp; bat thuong</h2>
+    <div class="mermaid">
+flowchart LR
+    A["Binh thuong<br/>a-wave DUONG<br/>Tim bu tru tot"] --&gt; B["A-wave GIAM<br/>Bat dau mat bu<br/>Suy thai trung binh"]
+    B --&gt; C["Absent A-wave<br/>Suy thai ro<br/>Co the toan"]
+    C --&gt; D["Reversed A-wave<br/>Suy thai CUC NANG<br/>Nguy co tu vong 1-7 ngay"]
+
+    style A fill:#c5e0c9
+    style B fill:#f7d1ba
+    style C fill:#f4c2c2
+    style D fill:#d4c5e2
+    </div>
+    <p class="text-sm text-stone-600 mt-3 italic">DV: mach noi tinh mach ron voi tinh mach chau duoi, lai dong giau oxy tu nhau -&gt; tim -&gt; nao. Song a-wave (tien tam thu) nhay cam nhat voi toan/tim suy.</p>
+  </section>
+
+  <!-- SECTION 9: KHI NAO DUNG DOPPLER NAO -->
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">9. Khi nao dung Doppler nao?</h2>
+    <div class="grid md:grid-cols-2 gap-3">
+      <div class="pastel-pink rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">Nghi ngo FGR (EFW &lt; p10)</h3>
+        <p class="text-sm text-stone-700">UA serial -&gt; MCA, CPR</p>
+      </div>
+      <div class="pastel-blue rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">FGR som (&lt; 32 tuan)</h3>
+        <p class="text-sm text-stone-700">UA -&gt; DV (giup timing can thiep)</p>
+      </div>
+      <div class="pastel-mint rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">FGR muon (&gt;= 32 tuan)</h3>
+        <p class="text-sm text-stone-700">UA -&gt; MCA, CPR (brain-sparing)</p>
+      </div>
+      <div class="pastel-peach rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">Thai anemia</h3>
+        <p class="text-sm text-stone-700">MCA-PSV (&gt;= 1.5 MoM = nghi anemia)</p>
+      </div>
+      <div class="pastel-lavender rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">Preeclampsia screening</h3>
+        <p class="text-sm text-stone-700">Uterine artery quy 1 + PAPP-A, PlGF</p>
+      </div>
+      <div class="bg-stone-200 rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">Twin pregnancy</h3>
+        <p class="text-sm text-stone-700">UA ca 2 + MCA ca 2 + DV cho TTTS</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bai hoc soan boi MiniMax Mavis cho Bs. Ngoc 🍅 🐈‍⬛ | Verified PubMed: 13 papers (PMID 34278615, 32407785, 35026129, 29920817, 32363701, 31125465, 30932276, 29422211, 40187275, 34569419, 24078432, 38805623, 28741785)</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+// Chart 1: CPR AUC comparison - ZOOMED IN to highlight 0.003 delta
+new Chart(document.getElementById('chart1'), {
+    type: 'bar',
+    data: {
+        labels: ['UA-PI alone', 'CPR alone', 'UA-PI + CPR'],
+        datasets: [{
+            label: 'AUC',
+            data: [0.775, 0.778, 0.778],
+            backgroundColor: [
+                'rgba(197, 213, 224, 0.85)',
+                'rgba(244, 194, 194, 0.85)',
+                'rgba(212, 197, 226, 0.85)'
+            ],
+            borderColor: [
+                'rgba(197, 213, 224, 1)',
+                'rgba(244, 194, 194, 1)',
+                'rgba(212, 197, 226, 1)'
+            ],
+            borderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            title: { display: true, text: 'Vollgraff 2021 - AUC zoom 0.770-0.780' },
+            legend: { display: false },
+            tooltip: {
+                callbacks: {
+                    afterLabel: function(ctx) {
+                        const vals = [0.775, 0.778, 0.778];
+                        const delta = (vals[ctx.dataIndex] - vals[0]).toFixed(3);
+                        return delta === '0.000' ? 'Baseline (UA-PI alone)' : 'Delta vs UA-PI: +' + delta;
+                    }
+                }
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: false,
+                min: 0.770,
+                max: 0.780,
+                ticks: { stepSize: 0.002 },
+                title: { display: true, text: 'AUC (zoomed)' }
+            }
+        }
+    }
+});
+
+// Chart 2: TRUFFLE+GRIT survival without impairment
+new Chart(document.getElementById('chart2'), {
+    type: 'bar',
+    data: {
+        labels: ['Immediate delivery', 'CTG alone', 'cCTG only', 'cCTG + DV Doppler'],
+        datasets: [{
+            label: '% Song sot khong ton thuong than kinh (2 tuoi)',
+            data: [70, 69, 77, 84],
+            backgroundColor: [
+                'rgba(244, 194, 194, 0.7)',
+                'rgba(247, 209, 186, 0.7)',
+                'rgba(197, 213, 224, 0.7)',
+                'rgba(197, 224, 201, 0.7)'
+            ],
+            borderColor: [
+                'rgba(244, 194, 194, 1)',
+                'rgba(247, 209, 186, 1)',
+                'rgba(197, 213, 224, 1)',
+                'rgba(197, 224, 201, 1)'
+            ],
+            borderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        indexAxis: 'y',
+        plugins: {
+            title: { display: true, text: 'Ganzevoort 2020 - GRIT + TRUFFLE 2-year outcomes' },
+            legend: { display: false }
+        },
+        scales: { x: { beginAtZero: 50, max: 100 } }
+    }
+});
+
+</script>
+</body>
+</html>

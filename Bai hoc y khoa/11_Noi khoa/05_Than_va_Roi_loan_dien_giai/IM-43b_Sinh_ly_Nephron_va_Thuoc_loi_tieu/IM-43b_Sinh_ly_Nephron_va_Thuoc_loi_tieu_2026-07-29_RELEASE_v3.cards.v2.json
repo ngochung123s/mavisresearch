@@ -1,0 +1,1122 @@
+[
+  {
+    "type": "basic",
+    "front": "Nephron là gì?",
+    "back": "Đơn vị chức năng của thận gồm cầu thận và hệ thống ống thận; nó biến dịch lọc thành nước tiểu.",
+    "extra": "Nephron | Nền tảng.",
+    "id": "IM43B-PHY-001"
+  },
+  {
+    "type": "basic",
+    "front": "Ba quá trình tạo nước tiểu là gì?",
+    "back": "Lọc ở cầu thận, tái hấp thu từ lòng ống về máu và bài tiết từ máu/tế bào ống vào lòng ống.",
+    "extra": "Nephron | Nền tảng.",
+    "id": "IM43B-PHY-002"
+  },
+  {
+    "type": "basic",
+    "front": "Cầu thận có nhiệm vụ chính gì?",
+    "back": "Tạo dịch lọc từ huyết tương qua hàng rào lọc, trong khi hạn chế tế bào máu và phần lớn protein.",
+    "extra": "Filtration.",
+    "id": "IM43B-PHY-003"
+  },
+  {
+    "type": "basic",
+    "front": "Ba lớp của hàng rào lọc cầu thận là gì?",
+    "back": "Nội mô có cửa sổ, màng đáy cầu thận và khe lọc giữa các podocyte.",
+    "extra": "Filtration.",
+    "id": "IM43B-PHY-004"
+  },
+  {
+    "type": "basic",
+    "front": "Protein niệu gợi câu hỏi sinh lý nào?",
+    "back": "Có thể có vấn đề ở hàng rào lọc hoặc nguyên nhân khác; cần diễn giải với mẫu bệnh phẩm, albumin niệu, eGFR và lâm sàng.",
+    "extra": "Filtration | Cases.",
+    "id": "IM43B-PHY-005"
+  },
+  {
+    "type": "basic",
+    "front": "Hồng cầu niệu cần được hiểu thế nào?",
+    "back": "Là dấu hiệu cần tìm nguồn từ cầu thận hoặc đường niệu; không tự nó xác định chẩn đoán.",
+    "extra": "Filtration | Cases.",
+    "id": "IM43B-PHY-006"
+  },
+  {
+    "type": "basic",
+    "front": "GFR là gì?",
+    "back": "Tốc độ dịch được lọc qua cầu thận; eGFR là giá trị ước tính cần đọc cùng xu hướng creatinine và bối cảnh.",
+    "extra": "Filtration | Labs.",
+    "id": "IM43B-PHY-007"
+  },
+  {
+    "type": "basic",
+    "front": "Tự điều hòa GFR nhằm mục đích gì?",
+    "back": "Hạn chế dao động lọc khi huyết áp thay đổi sinh lý, không bảo vệ tuyệt đối trong sốc, mất nước nặng hay tắc nghẽn.",
+    "extra": "Filtration.",
+    "id": "IM43B-PHY-008"
+  },
+  {
+    "type": "basic",
+    "front": "Macula densa là gì?",
+    "back": "Nhóm tế bào ở vùng tiếp nối nephron cảm nhận NaCl lòng ống và tham gia phản hồi cầu–ống.",
+    "extra": "Filtration | Distal.",
+    "id": "IM43B-PHY-009"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao creatinine đơn lẻ không đủ đánh giá thận?",
+    "back": "Nó chịu ảnh hưởng bởi giá trị nền, khối cơ, thời gian diễn tiến và thể tích; cần đọc cùng eGFR, lượng nước tiểu và lâm sàng.",
+    "extra": "Filtration | Labs.",
+    "id": "IM43B-PHY-010"
+  },
+  {
+    "type": "basic",
+    "front": "PCT là viết tắt của gì?",
+    "back": "Ống lượn gần (proximal convoluted tubule), đoạn tái hấp thu hàng loạt ngay sau cầu thận.",
+    "extra": "Proximal.",
+    "id": "IM43B-PHY-011"
+  },
+  {
+    "type": "basic",
+    "front": "Nhiệm vụ nổi bật của PCT là gì?",
+    "back": "Tái hấp thu phần lớn nước và natri lọc qua, cùng bicarbonate, glucose và nhiều chất tan hữu ích.",
+    "extra": "Proximal.",
+    "id": "IM43B-PHY-012"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao nước thường đi theo natri ở PCT?",
+    "back": "PCT thấm nước cao; tái hấp thu natri tạo lực kéo nước đi cùng, giúp dịch tái hấp thu gần đẳng trương.",
+    "extra": "Proximal | Electrolytes.",
+    "id": "IM43B-PHY-013"
+  },
+  {
+    "type": "basic",
+    "front": "NHE3 làm gì tại PCT?",
+    "back": "Đưa natri vào tế bào đổi lấy hydrogen đi vào lòng ống, hỗ trợ tái hấp thu natri và bicarbonate.",
+    "extra": "Proximal | Electrolytes.",
+    "id": "IM43B-PHY-014"
+  },
+  {
+    "type": "basic",
+    "front": "SGLT2 làm gì tại PCT?",
+    "back": "Cùng vận chuyển natri và glucose từ lòng ống vào tế bào ống thận.",
+    "extra": "Proximal.",
+    "id": "IM43B-PHY-015"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao glucose niệu có thể xuất hiện?",
+    "back": "Khi tải glucose vượt khả năng tái hấp thu hoặc khi cơ chế SGLT2 bị ức chế; cần đọc cùng đường máu và thuốc.",
+    "extra": "Proximal | Cases.",
+    "id": "IM43B-PHY-016"
+  },
+  {
+    "type": "basic",
+    "front": "Carbonic anhydrase liên quan PCT thế nào?",
+    "back": "Hỗ trợ chu trình bicarbonate–CO2 để PCT tái hấp thu bicarbonate hiệu quả.",
+    "extra": "Proximal | Electrolytes.",
+    "id": "IM43B-PHY-017"
+  },
+  {
+    "type": "basic",
+    "front": "Cân bằng cầu–ống là gì?",
+    "back": "Xu hướng PCT tái hấp thu một tỷ lệ tương đối ổn định của dịch lọc khi GFR thay đổi vừa phải.",
+    "extra": "Proximal | Filtration.",
+    "id": "IM43B-PHY-018"
+  },
+  {
+    "type": "basic",
+    "front": "Na+/K+-ATPase có vai trò gì ở tế bào ống?",
+    "back": "Giữ natri nội bào thấp bằng cách đưa natri ra máu và kali vào tế bào, tạo động lực cho vận chuyển ở bờ lòng ống.",
+    "extra": "Proximal | Electrolytes.",
+    "id": "IM43B-PHY-019"
+  },
+  {
+    "type": "basic",
+    "front": "Giảm tái hấp thu bicarbonate ở PCT có thể dẫn đến gì?",
+    "back": "Tăng bicarbonate niệu và có thể góp phần tạo toan chuyển hóa.",
+    "extra": "Proximal | Electrolytes.",
+    "id": "IM43B-PHY-020"
+  },
+  {
+    "type": "basic",
+    "front": "Quai Henle gồm những nhánh chính nào?",
+    "back": "Nhánh xuống và nhánh lên; mỗi nhánh có tính thấm nước/chất tan khác nhau.",
+    "extra": "Loop.",
+    "id": "IM43B-PHY-021"
+  },
+  {
+    "type": "basic",
+    "front": "Nhánh xuống quai Henle thấm chất gì nổi bật?",
+    "back": "Thấm nước tốt, nên dịch lòng ống cô đặc dần khi đi sâu vào tủy trong điều kiện thích hợp.",
+    "extra": "Loop.",
+    "id": "IM43B-PHY-022"
+  },
+  {
+    "type": "basic",
+    "front": "Nhánh lên dày quai Henle có tính thấm nước thế nào?",
+    "back": "Gần như không thấm nước, nhưng tái hấp thu NaCl mạnh.",
+    "extra": "Loop.",
+    "id": "IM43B-PHY-023"
+  },
+  {
+    "type": "basic",
+    "front": "NKCC2 nằm ở đâu?",
+    "back": "Ở bờ lòng ống của nhánh lên dày quai Henle, đồng vận chuyển natri, kali và chloride.",
+    "extra": "Loop | Electrolytes.",
+    "id": "IM43B-PHY-024"
+  },
+  {
+    "type": "basic",
+    "front": "ROMK có vai trò gì ở TAL?",
+    "back": "Cho kali quay lại lòng ống, giúp duy trì hoạt động NKCC2 và góp phần tạo điện thế lòng ống.",
+    "extra": "Loop | Electrolytes.",
+    "id": "IM43B-PHY-025"
+  },
+  {
+    "type": "basic",
+    "front": "Điện thế lòng ống dương tại TAL giúp gì?",
+    "back": "Thuận lợi cho tái hấp thu calcium và magnesium qua đường gian bào.",
+    "extra": "Loop | Electrolytes.",
+    "id": "IM43B-PHY-026"
+  },
+  {
+    "type": "basic",
+    "front": "TAL đóng góp thế nào vào nước tiểu cô đặc?",
+    "back": "Tái hấp thu NaCl không kèm nước, giúp tạo gradient thẩm thấu tủy cần cho tái hấp thu nước ở ống góp.",
+    "extra": "Loop.",
+    "id": "IM43B-PHY-027"
+  },
+  {
+    "type": "basic",
+    "front": "Nhân nồng độ ngược dòng là gì?",
+    "back": "Cơ chế quai Henle tạo gradient thẩm thấu tăng dần từ vỏ vào tủy bằng vận chuyển NaCl và tính thấm khác nhau của các nhánh.",
+    "extra": "Loop.",
+    "id": "IM43B-PHY-028"
+  },
+  {
+    "type": "basic",
+    "front": "Vasa recta giữ vai trò gì?",
+    "back": "Trao đổi ngược dòng để bảo tồn tương đối gradient tủy, hạn chế rửa trôi chất tan.",
+    "extra": "Loop.",
+    "id": "IM43B-PHY-029"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao tổn thương TAL có thể làm giảm khả năng cô đặc nước tiểu?",
+    "back": "Vì gradient tủy giảm, nên ống góp có ít lực thẩm thấu hơn để tái hấp thu nước khi có ADH.",
+    "extra": "Loop | Cases.",
+    "id": "IM43B-PHY-030"
+  },
+  {
+    "type": "basic",
+    "front": "DCT là viết tắt của gì?",
+    "back": "Ống lượn xa (distal convoluted tubule), đoạn tinh chỉnh NaCl và calcium sau quai Henle.",
+    "extra": "Distal.",
+    "id": "IM43B-PHY-031"
+  },
+  {
+    "type": "basic",
+    "front": "NCC làm gì tại DCT?",
+    "back": "Tái hấp thu natri và chloride từ lòng ống vào tế bào DCT.",
+    "extra": "Distal | Electrolytes.",
+    "id": "IM43B-PHY-032"
+  },
+  {
+    "type": "basic",
+    "front": "DCT thấm nước thế nào?",
+    "back": "Tương đối ít thấm nước, góp phần làm dịch lòng ống loãng hơn.",
+    "extra": "Distal.",
+    "id": "IM43B-PHY-033"
+  },
+  {
+    "type": "basic",
+    "front": "PTH có liên quan gì tới DCT?",
+    "back": "PTH hỗ trợ tái hấp thu calcium tại DCT qua các cơ chế vận chuyển chuyên biệt.",
+    "extra": "Distal | Electrolytes.",
+    "id": "IM43B-PHY-034"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao DCT là đoạn quan trọng khi học thiazide?",
+    "back": "Vì NCC tại DCT là mục tiêu của thiazide/thiazide-like; bài Thuốc lợi tiểu giải thích ứng dụng và an toàn.",
+    "extra": "Distal | Cases.",
+    "id": "IM43B-PHY-035"
+  },
+  {
+    "type": "basic",
+    "front": "Ống góp có nhiệm vụ tổng quát gì?",
+    "back": "Tinh chỉnh cuối cùng lượng natri, kali, hydrogen và nước trước khi hình thành nước tiểu cuối.",
+    "extra": "CollectingDuct.",
+    "id": "IM43B-PHY-036"
+  },
+  {
+    "type": "basic",
+    "front": "Tế bào chính ở ống góp làm gì?",
+    "back": "Tái hấp thu natri qua ENaC và tham gia bài tiết kali; chúng đáp ứng với aldosterone và ADH.",
+    "extra": "CollectingDuct | Electrolytes.",
+    "id": "IM43B-PHY-037"
+  },
+  {
+    "type": "basic",
+    "front": "ENaC là gì?",
+    "back": "Kênh natri biểu mô ở bờ lòng ống của tế bào chính, cho natri đi từ dịch ống vào tế bào.",
+    "extra": "CollectingDuct | Electrolytes.",
+    "id": "IM43B-PHY-038"
+  },
+  {
+    "type": "basic",
+    "front": "Aldosterone làm gì tại ống góp?",
+    "back": "Tăng xu hướng tái hấp thu natri qua ENaC và bài tiết kali, giúp điều hòa thể tích và kali.",
+    "extra": "CollectingDuct | Electrolytes.",
+    "id": "IM43B-PHY-039"
+  },
+  {
+    "type": "basic",
+    "front": "ADH là gì?",
+    "back": "Hormone chống bài niệu (vasopressin) giúp điều chỉnh lượng nước tái hấp thu ở ống góp.",
+    "extra": "CollectingDuct.",
+    "id": "IM43B-PHY-040"
+  },
+  {
+    "type": "basic",
+    "front": "AQP2 làm gì?",
+    "back": "Là kênh nước được đưa ra bờ lòng ống góp khi ADH tác động, cho nước quay về máu nếu có gradient tủy.",
+    "extra": "CollectingDuct.",
+    "id": "IM43B-PHY-041"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao ADH cao có thể tạo nước tiểu cô đặc?",
+    "back": "ADH tăng AQP2 ở ống góp; nước đi ra mô kẽ tủy ưu trương và quay về máu.",
+    "extra": "CollectingDuct | Electrolytes.",
+    "id": "IM43B-PHY-042"
+  },
+  {
+    "type": "basic",
+    "front": "Tế bào kẽ type A làm gì?",
+    "back": "Tiết hydrogen vào lòng ống và hỗ trợ tái hấp thu bicarbonate, góp phần chống toan máu.",
+    "extra": "CollectingDuct | Electrolytes.",
+    "id": "IM43B-PHY-043"
+  },
+  {
+    "type": "basic",
+    "front": "Tế bào kẽ type B làm gì?",
+    "back": "Tham gia bài tiết bicarbonate và điều hòa khi cơ thể có xu hướng kiềm.",
+    "extra": "CollectingDuct | Electrolytes.",
+    "id": "IM43B-PHY-044"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao tăng tái hấp thu natri ở ống góp có thể làm kali giảm?",
+    "back": "Dòng natri qua ENaC làm lòng ống âm hơn, thuận lợi cho bài tiết kali qua các kênh thích hợp.",
+    "extra": "CollectingDuct | Electrolytes.",
+    "id": "IM43B-PHY-045"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao kali và acid–base phải được đọc cùng nhau?",
+    "back": "Cơ chế bài tiết kali và hydrogen ở đoạn xa có liên quan, nhưng bệnh thận, thuốc và thể tích có thể thay đổi cả hai.",
+    "extra": "Electrolytes.",
+    "id": "IM43B-PHY-046"
+  },
+  {
+    "type": "basic",
+    "front": "Nước tiểu cô đặc nói lên điều gì chắc chắn?",
+    "back": "Chỉ nói thận đang giữ nước tương đối; không tự xác định mất nước hay nguyên nhân nếu thiếu bối cảnh lâm sàng.",
+    "extra": "Electrolytes | Cases.",
+    "id": "IM43B-PHY-047"
+  },
+  {
+    "type": "basic",
+    "front": "Nước tiểu pha loãng có thể gặp khi nào?",
+    "back": "Khi ADH thấp hoặc khi khả năng cô đặc nước tiểu giảm; cần so với lượng uống và xét nghiệm liên quan.",
+    "extra": "Electrolytes | Cases.",
+    "id": "IM43B-PHY-048"
+  },
+  {
+    "type": "basic",
+    "front": "Thể tích tuần hoàn hiệu quả thấp ảnh hưởng ADH thế nào?",
+    "back": "Có thể kích thích ADH giữ nước dù nồng độ natri máu thấp, vì cơ thể ưu tiên duy trì tưới máu.",
+    "extra": "Electrolytes.",
+    "id": "IM43B-PHY-049"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao hạ natri máu không luôn là thiếu natri toàn thân?",
+    "back": "Nó phản ánh tương quan nước với natri; cần đánh giá thể tích, osmolality, nước tiểu và thuốc.",
+    "extra": "Electrolytes | Cases.",
+    "id": "IM43B-PHY-050"
+  },
+  {
+    "type": "basic",
+    "front": "Creatinine tăng nhanh cần được hiểu thế nào?",
+    "back": "Có thể gợi tổn thương thận cấp hoặc thay đổi huyết động; cần so nền, tốc độ thay đổi, lượng nước tiểu và nguyên nhân.",
+    "extra": "Labs | Cases.",
+    "id": "IM43B-PHY-051"
+  },
+  {
+    "type": "basic",
+    "front": "Albumin niệu hỗ trợ đánh giá điều gì?",
+    "back": "Tổn thương/thay đổi ở hàng rào lọc và nguy cơ thận; cần xác nhận và phân tầng theo IM-44/KDIGO.",
+    "extra": "Filtration | Labs.",
+    "id": "IM43B-PHY-052"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao phải rà thuốc khi eGFR xấu đi?",
+    "back": "Một số thuốc thay đổi huyết động cầu thận, bài tiết ống thận hoặc điện giải, nên có thể là nguyên nhân hay yếu tố làm nặng.",
+    "extra": "Labs | Safety.",
+    "id": "IM43B-PHY-053"
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào cần ECG trong bối cảnh thận–điện giải?",
+    "back": "Khi nghi tăng hoặc hạ kali có ý nghĩa lâm sàng, triệu chứng tim mạch hoặc bất thường nhanh; ECG không thay thế xét nghiệm và xử trí cấp cứu.",
+    "extra": "Electrolytes | Safety.",
+    "id": "IM43B-PHY-054"
+  },
+  {
+    "type": "basic",
+    "front": "Vô niệu mới xuất hiện cần nghĩ gì?",
+    "back": "Giảm tưới máu nặng, tắc nghẽn hoặc tổn thương thận cấp; đây là red flag cần đánh giá khẩn.",
+    "extra": "Safety | Cases.",
+    "id": "IM43B-PHY-055"
+  },
+  {
+    "type": "basic",
+    "front": "Giảm oxy kèm phù là nhánh nào?",
+    "back": "Nhánh cấp cứu: đánh giá hô hấp, quá tải dịch và tưới máu tại nơi có năng lực theo dõi/chuyển tuyến.",
+    "extra": "Safety | Cases.",
+    "id": "IM43B-PHY-056"
+  },
+  {
+    "type": "basic",
+    "front": "Lú lẫn kèm rối loạn thể tích/điện giải cần làm gì?",
+    "back": "Coi là red flag; đánh giá cấp cứu thay vì suy luận từ nước tiểu hay tự chỉnh thuốc.",
+    "extra": "Safety | Cases.",
+    "id": "IM43B-PHY-057"
+  },
+  {
+    "type": "basic",
+    "front": "Plan A khi nghi rối loạn nephron có red flag là gì?",
+    "back": "Đánh giá dấu sinh tồn, tưới máu, điện giải, creatinine/eGFR, nước tiểu và ECG khi cần ở nơi có năng lực xử trí.",
+    "extra": "Safety | PlanA.",
+    "id": "IM43B-PHY-058"
+  },
+  {
+    "type": "basic",
+    "front": "Plan B khi thiếu xét nghiệm là gì?",
+    "back": "Theo dõi dấu sinh tồn, lượng vào-ra, cân nặng và red flags; không suy đoán đoạn nephron, sắp xếp xét nghiệm/chuyển tuyến sớm.",
+    "extra": "Safety | PlanB.",
+    "id": "IM43B-PHY-059"
+  },
+  {
+    "type": "basic",
+    "front": "Case: tiêu chảy, chóng mặt tư thế và tiểu ít — hormone nào thường tăng?",
+    "back": "ADH và hệ giữ natri có thể tăng để bảo vệ tưới máu; vẫn phải đánh giá mức mất dịch và red flags.",
+    "extra": "Cases | CollectingDuct.",
+    "id": "IM43B-PHY-060"
+  },
+  {
+    "type": "basic",
+    "front": "Case: mất dịch, nước tiểu cô đặc — diễn giải đúng?",
+    "back": "Phù hợp với đáp ứng giữ nước nhưng không đủ để xác định nguyên nhân; cần khám, dấu sinh tồn và xét nghiệm theo chỉ định.",
+    "extra": "Cases.",
+    "id": "IM43B-PHY-061"
+  },
+  {
+    "type": "basic",
+    "front": "Case: protein niệu mới phát hiện — bước tiếp theo?",
+    "back": "Kiểm chất lượng mẫu, lặp/xác nhận theo bối cảnh, đánh giá eGFR/albumin niệu và tìm dấu cần chuyển chuyên khoa.",
+    "extra": "Cases | Filtration.",
+    "id": "IM43B-PHY-062"
+  },
+  {
+    "type": "basic",
+    "front": "Case: kali tăng ở người CKD — điều gì cần rà?",
+    "back": "Thuốc, chức năng thận, acid–base, triệu chứng và ECG khi phù hợp; nếu nặng hoặc có dấu tim mạch thì cấp cứu.",
+    "extra": "Cases | Electrolytes.",
+    "id": "IM43B-PHY-063"
+  },
+  {
+    "type": "basic",
+    "front": "Case: đang phù nhưng giảm oxy — vì sao không chỉ dựa vào nephron?",
+    "back": "Vì đây có thể là quá tải dịch/phù phổi cần hỗ trợ hô hấp và đánh giá cấp cứu trước mọi phân tích cơ chế chi tiết.",
+    "extra": "Cases | Safety.",
+    "id": "IM43B-PHY-064"
+  },
+  {
+    "type": "basic",
+    "front": "Thuốc lợi tiểu quai gắn với đoạn nào?",
+    "back": "TAL/NKCC2; hiểu đoạn này giúp dự đoán tăng thải natri và thay đổi khả năng cô đặc nước tiểu.",
+    "extra": "Loop | Cases.",
+    "id": "IM43B-PHY-065"
+  },
+  {
+    "type": "basic",
+    "front": "Thiazide gắn với đoạn nào?",
+    "back": "DCT/NCC; hiểu đoạn này giúp dự đoán thay đổi NaCl và calcium.",
+    "extra": "Distal | Cases.",
+    "id": "IM43B-PHY-066"
+  },
+  {
+    "type": "basic",
+    "front": "Thuốc tiết kiệm kali gắn với đoạn nào?",
+    "back": "Ống góp, qua ENaC hoặc thụ thể mineralocorticoid; nguy cơ an toàn chính là tăng kali.",
+    "extra": "CollectingDuct | Cases.",
+    "id": "IM43B-PHY-067"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao phải nối sinh lý nephron với dược lý lợi tiểu?",
+    "back": "Vị trí bị chặn quyết định lượng natri và nước còn lại trong lòng ống, điện giải đi kèm và tải natri đến đoạn xa; nhờ đó có thể suy luận hiệu lực, tác dụng phụ và cách theo dõi.",
+    "extra": "Tổng hợp | Nephron | Dược lý.",
+    "id": "IM43B-PHY-068"
+  },
+  {
+    "type": "basic",
+    "front": "Chuỗi suy luận cơ chế khi gặp một thuốc lợi tiểu gồm những bước nào?",
+    "back": "Xác định đoạn nephron → chất vận chuyển hoặc hormone bị tác động → thay đổi tái hấp thu natri/nước → thay đổi kali, calcium, magnesium và acid–base → chọn chỉ số theo dõi và red flags.",
+    "extra": "Tổng hợp | Cơ chế | An toàn.",
+    "id": "IM43B-PHY-069"
+  },
+  {
+    "type": "basic",
+    "front": "Mẹo nhớ PCT là gì?",
+    "back": "PCT = “tái hấp thu hàng loạt”: nước, natri, bicarbonate và chất dinh dưỡng được lấy lại sớm.",
+    "extra": "Proximal.",
+    "id": "IM43B-PHY-070"
+  },
+  {
+    "type": "basic",
+    "front": "Mẹo nhớ TAL là gì?",
+    "back": "TAL = “muối ra, nước không theo”: tạo nền tủy để điều hòa nước.",
+    "extra": "Loop.",
+    "id": "IM43B-PHY-071"
+  },
+  {
+    "type": "basic",
+    "front": "Mẹo nhớ DCT là gì?",
+    "back": "DCT = “NaCl và calcium”: tinh chỉnh natri-chloride và tái hấp thu calcium.",
+    "extra": "Distal.",
+    "id": "IM43B-PHY-072"
+  },
+  {
+    "type": "basic",
+    "front": "Mẹo nhớ ống góp là gì?",
+    "back": "Ống góp = “nút chỉnh cuối”: aldosterone chỉnh Na+/K+, ADH chỉnh nước.",
+    "extra": "CollectingDuct.",
+    "id": "IM43B-PHY-073"
+  },
+  {
+    "type": "basic",
+    "front": "Thông điệp an toàn quan trọng nhất khi học nephron là gì?",
+    "back": "Dùng cơ chế để đặt câu hỏi và kiểm tra bằng dữ liệu; red flags về tưới máu, vô niệu, điện giải hay hô hấp luôn cần đánh giá khẩn.",
+    "extra": "Safety | Summary.",
+    "id": "IM43B-PHY-074"
+  },
+  {
+    "type": "basic",
+    "front": "Natri niệu cao hoặc thấp có tự xác định nguyên nhân AKI không?",
+    "back": "Không. Nó chịu ảnh hưởng bởi thời điểm, thuốc, CKD và tình trạng thể tích; phải dùng như một phần của đánh giá tổng hợp.",
+    "extra": "Labs | Safety.",
+    "id": "IM43B-PHY-075"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao cần biết lượng dịch vào-ra khi đọc nước tiểu?",
+    "back": "Vì lượng nước tiểu chỉ có ý nghĩa khi so với dịch đưa vào, mất ngoài thận, cân nặng, huyết áp và tưới máu.",
+    "extra": "Labs | Monitoring.",
+    "id": "IM43B-PHY-076"
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào nghi tắc nghẽn niệu cần được ưu tiên?",
+    "back": "Khi vô niệu/tiểu rất ít mới xuất hiện, đau/quá căng bàng quang hoặc bối cảnh nguy cơ; cần đánh giá hình ảnh/chuyên khoa phù hợp.",
+    "extra": "Safety | Cases.",
+    "id": "IM43B-PHY-077"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao không tự kê lợi tiểu khi phù chưa rõ nguyên nhân?",
+    "back": "Vì phù có thể đi kèm giảm tưới máu, bệnh thận, gan hoặc tim; dùng sai có thể làm xấu thể tích, điện giải và chức năng thận.",
+    "extra": "Safety | Cases.",
+    "id": "IM43B-PHY-078"
+  },
+  {
+    "type": "basic",
+    "front": "Một flowchart sinh lý tốt phải bắt đầu bằng gì?",
+    "back": "Bắt đầu bằng red flags và dữ kiện lâm sàng có thể thu thập, rồi mới đi đến diễn giải đoạn nephron và xét nghiệm.",
+    "extra": "Nephron | Safety.",
+    "id": "IM43B-PHY-079"
+  },
+  {
+    "type": "basic",
+    "front": "Bốn năng lực cần đạt khi học bản đồ nephron là gì?",
+    "back": "Định vị đoạn nephron; nêu chất vận chuyển chính; dự đoán thay đổi nước–điện giải–acid–base; và nhận ra khi nào dữ kiện/red flags buộc phải xét nghiệm, xử trí cấp cứu hoặc chuyển tuyến.",
+    "extra": "Tổng hợp | Mục tiêu học.",
+    "id": "IM43B-PHY-080"
+  },
+  {
+    "type": "basic",
+    "front": "Lợi tiểu là gì?",
+    "back": "Là thuốc làm tăng bài tiết natri qua nước tiểu; nước đi theo natri nên thể tích dịch ngoại bào giảm.",
+    "extra": "Nephron | Cơ chế chung.",
+    "id": "IM43B-DIU-001"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao cần biết đoạn nephron trước khi chọn lợi tiểu?",
+    "back": "Vị trí tác động quyết định mức natri bị chặn, điện giải thay đổi, chỉ định và nguy cơ cần theo dõi.",
+    "extra": "Nephron | Nguyên tắc chọn thuốc.",
+    "id": "IM43B-DIU-002"
+  },
+  {
+    "type": "basic",
+    "front": "Ba câu hỏi trước khi kê lợi tiểu là gì?",
+    "back": "Mục tiêu điều trị là gì; người bệnh có giảm tưới máu/red flag không; và cần theo dõi thể tích, cân nặng, điện giải, creatinine thế nào.",
+    "extra": "Monitoring | Safety.",
+    "id": "IM43B-DIU-003"
+  },
+  {
+    "type": "basic",
+    "front": "Lợi tiểu quai tác động ở đâu?",
+    "back": "Ở nhánh lên dày quai Henle, ức chế kênh đồng vận Na+-K+-2Cl- (NKCC2).",
+    "extra": "Loop | Nephron.",
+    "id": "IM43B-DIU-004"
+  },
+  {
+    "type": "basic",
+    "front": "Hệ quả chính của ức chế NKCC2 là gì?",
+    "back": "Giảm tái hấp thu NaCl ở nhánh lên dày, tăng bài tiết natri và nước; đồng thời làm giảm khả năng cô đặc nước tiểu.",
+    "extra": "Loop | Cơ chế.",
+    "id": "IM43B-DIU-005"
+  },
+  {
+    "type": "basic",
+    "front": "Ba thuốc lợi tiểu quai thường gặp là gì?",
+    "back": "Furosemide, bumetanide và torsemide.",
+    "extra": "Loop.",
+    "id": "IM43B-DIU-006"
+  },
+  {
+    "type": "basic",
+    "front": "Lợi tiểu quai làm thay đổi calcium và magnesium niệu thế nào?",
+    "back": "Tăng bài tiết calcium và magnesium do làm mất điện thế lòng ống dương tại nhánh lên dày.",
+    "extra": "Loop | Electrolytes.",
+    "id": "IM43B-DIU-007"
+  },
+  {
+    "type": "basic",
+    "front": "Nguy cơ điện giải điển hình của lợi tiểu quai là gì?",
+    "back": "Hạ kali máu, hạ magnesium máu và có thể hạ natri máu; cần đối chiếu với thể tích và creatinine.",
+    "extra": "Loop | Safety.",
+    "id": "IM43B-DIU-008"
+  },
+  {
+    "type": "basic",
+    "front": "Một chỉ định ưu tiên của lợi tiểu quai là gì?",
+    "back": "Giảm sung huyết/phù do quá tải thể tích; suy tim cấp hoặc phù phổi phải được đánh giá trong môi trường có khả năng theo dõi.",
+    "extra": "Loop | Safety.",
+    "id": "IM43B-DIU-009"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao NSAID có thể làm giảm đáp ứng lợi tiểu quai?",
+    "back": "NSAID làm giảm bài tiết thuốc vào lòng ống và chặn cơ chế prostaglandin hỗ trợ thải natri, nên có thể gây kháng lợi tiểu.",
+    "extra": "Loop | Safety.",
+    "id": "IM43B-DIU-010"
+  },
+  {
+    "type": "basic",
+    "front": "Khi lợi tiểu quai uống không đáp ứng ở bệnh nhân phù nặng, cần kiểm gì trước?",
+    "back": "Tuân thủ, ăn mặn, NSAID/thuốc dùng kèm, tưới máu thận, hấp thu đường uống và red flags; không tự thêm thuốc mù quáng.",
+    "extra": "Loop | Monitoring.",
+    "id": "IM43B-DIU-011"
+  },
+  {
+    "type": "basic",
+    "front": "Thiazide/thiazide-like tác động ở đâu?",
+    "back": "Ở ống lượn xa, ức chế kênh đồng vận Na+-Cl- (NCC).",
+    "extra": "Thiazide | Nephron.",
+    "id": "IM43B-DIU-012"
+  },
+  {
+    "type": "basic",
+    "front": "Ba thuốc thiazide/thiazide-like thường gặp là gì?",
+    "back": "Hydrochlorothiazide, indapamide và chlorthalidone; metolazone thường dùng khi cần phối hợp theo dõi chặt.",
+    "extra": "Thiazide.",
+    "id": "IM43B-DIU-013"
+  },
+  {
+    "type": "basic",
+    "front": "Thiazide ảnh hưởng calcium niệu thế nào?",
+    "back": "Làm tăng tái hấp thu calcium ở ống lượn xa, vì vậy giảm calcium niệu.",
+    "extra": "Thiazide | Electrolytes.",
+    "id": "IM43B-DIU-014"
+  },
+  {
+    "type": "basic",
+    "front": "Nguy cơ điện giải quan trọng của thiazide là gì?",
+    "back": "Hạ natri máu và hạ kali máu; cũng có thể hạ magnesium máu và làm tăng uric acid.",
+    "extra": "Thiazide | Safety.",
+    "id": "IM43B-DIU-015"
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào thiazide-like thường phù hợp hơn lợi tiểu quai?",
+    "back": "Trong tăng huyết áp vô căn hoặc phù nhẹ, sau khi đã đánh giá chỉ định, điện giải, chức năng thận và bệnh kèm.",
+    "extra": "Thiazide | Clinical use.",
+    "id": "IM43B-DIU-016"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao hiệu quả thiazide có thể giảm khi eGFR thấp?",
+    "back": "Khi lượng dịch lọc và tải natri tới ống xa giảm, tác dụng lợi natri tuyệt đối của nhóm này giảm; lựa chọn cần theo bệnh cảnh và chuyên khoa.",
+    "extra": "Thiazide | CKD.",
+    "id": "IM43B-DIU-017"
+  },
+  {
+    "type": "basic",
+    "front": "Khóa nephron nối tiếp là gì?",
+    "back": "Phối hợp lợi tiểu quai chặn NKCC2 với thiazide/thiazide-like chặn NCC để hạn chế tái hấp thu natri bù ở đoạn xa.",
+    "extra": "Thiazide | Loop | Resistance.",
+    "id": "IM43B-DIU-018"
+  },
+  {
+    "type": "basic",
+    "front": "Nguy cơ chính của khóa nephron nối tiếp là gì?",
+    "back": "Mất thể tích, hạ natri, hạ kali, hạ magnesium và tăng creatinine; chỉ dùng khi có kế hoạch xét nghiệm và theo dõi sát.",
+    "extra": "Thiazide | Safety.",
+    "id": "IM43B-DIU-019"
+  },
+  {
+    "type": "basic",
+    "front": "MRA là viết tắt của gì?",
+    "back": "Mineralocorticoid receptor antagonist: thuốc đối kháng thụ thể mineralocorticoid/aldosterone, như spironolactone hoặc eplerenone.",
+    "extra": "K-sparing | Nephron.",
+    "id": "IM43B-DIU-020"
+  },
+  {
+    "type": "basic",
+    "front": "Spironolactone tác động ở đâu và làm gì?",
+    "back": "Tại ống góp, đối kháng aldosterone nên giảm biểu hiện ENaC/ROMK, giảm tái hấp thu natri và giảm bài tiết kali.",
+    "extra": "K-sparing | Nephron.",
+    "id": "IM43B-DIU-021"
+  },
+  {
+    "type": "basic",
+    "front": "Amiloride tác động thế nào?",
+    "back": "Chẹn trực tiếp kênh ENaC ở tế bào chính ống góp, nên giảm tái hấp thu natri và hạn chế bài tiết kali.",
+    "extra": "K-sparing | Nephron.",
+    "id": "IM43B-DIU-022"
+  },
+  {
+    "type": "basic",
+    "front": "Nguy cơ an toàn quan trọng nhất của lợi tiểu tiết kiệm kali là gì?",
+    "back": "Tăng kali máu, đặc biệt khi có CKD, dùng thuốc ảnh hưởng hệ renin–angiotensin hoặc có giảm tưới máu thận.",
+    "extra": "K-sparing | Safety.",
+    "id": "IM43B-DIU-023"
+  },
+  {
+    "type": "basic",
+    "front": "Hai tác dụng không mong muốn đặc trưng của spironolactone là gì?",
+    "back": "Tăng kali máu và tác dụng nội tiết như chứng vú to ở nam giới.",
+    "extra": "K-sparing | Safety.",
+    "id": "IM43B-DIU-024"
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào không được tự thêm spironolactone vào điều trị phù?",
+    "back": "Khi chưa có kali/creatinine nền, có tăng kali máu, suy thận tiến triển hoặc không thể theo dõi sớm; cần đánh giá/hội chẩn.",
+    "extra": "K-sparing | Monitoring.",
+    "id": "IM43B-DIU-025"
+  },
+  {
+    "type": "basic",
+    "front": "Ức chế carbonic anhydrase tác động chủ yếu ở đâu?",
+    "back": "Ở ống lượn gần, làm giảm tái hấp thu NaHCO3.",
+    "extra": "CAI | Nephron.",
+    "id": "IM43B-DIU-026"
+  },
+  {
+    "type": "basic",
+    "front": "Acetazolamide có hệ quả acid-base điển hình nào?",
+    "back": "Tăng mất bicarbonate qua nước tiểu và có thể gây toan chuyển hóa tăng chloride/giảm anion gap.",
+    "extra": "CAI | Safety.",
+    "id": "IM43B-DIU-027"
+  },
+  {
+    "type": "basic",
+    "front": "Một tình huống dùng acetazolamide là gì?",
+    "back": "Có thể dùng trong tăng áp nhãn cầu, phòng bệnh độ cao hoặc kiềm chuyển hóa do lợi tiểu; chỉ định cụ thể theo bối cảnh và phác đồ.",
+    "extra": "CAI | Clinical use.",
+    "id": "IM43B-DIU-028"
+  },
+  {
+    "type": "basic",
+    "front": "Mannitol là loại lợi tiểu nào?",
+    "back": "Lợi tiểu thẩm thấu; tăng áp suất thẩm thấu trong dịch lòng ống, cản trở tái hấp thu nước.",
+    "extra": "Osmotic | Nephron.",
+    "id": "IM43B-DIU-029"
+  },
+  {
+    "type": "basic",
+    "front": "Mannitol tác động ở những đoạn nào?",
+    "back": "Chủ yếu ở ống lượn gần và nhánh xuống quai Henle, nơi nước có thể di chuyển theo chênh lệch thẩm thấu.",
+    "extra": "Osmotic | Nephron.",
+    "id": "IM43B-DIU-030"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao mannitol không phù hợp khi phù phổi/suy tim nặng?",
+    "back": "Ban đầu kéo nước vào lòng mạch, có thể làm quá tải tuần hoàn và làm nặng phù phổi trước khi có lợi tiểu.",
+    "extra": "Osmotic | Safety.",
+    "id": "IM43B-DIU-031"
+  },
+  {
+    "type": "basic",
+    "front": "Một chỉ định chuyên khoa của mannitol là gì?",
+    "back": "Giảm tăng áp lực nội sọ hoặc tăng nhãn áp cấp trong bối cảnh có khả năng theo dõi và theo phác đồ.",
+    "extra": "Osmotic | Clinical use.",
+    "id": "IM43B-DIU-032"
+  },
+  {
+    "type": "basic",
+    "front": "Mục tiêu thực hành khi dùng lợi tiểu cho phù ổn định là gì?",
+    "back": "Đạt giảm sung huyết an toàn bằng liều thấp nhất còn hiệu quả, không chỉ làm tăng lượng nước tiểu.",
+    "extra": "Monitoring | Clinical goal.",
+    "id": "IM43B-DIU-033"
+  },
+  {
+    "type": "basic",
+    "front": "Ba chỉ số theo dõi tại nhà/cơ sở cho phù ổn định là gì?",
+    "back": "Cân nặng theo chuỗi, triệu chứng/phù và huyết áp; xét nghiệm điện giải/creatinine theo chỉ định.",
+    "extra": "Monitoring.",
+    "id": "IM43B-DIU-034"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao cân nặng theo chuỗi hữu ích hơn một số đo đơn lẻ?",
+    "back": "Nó phản ánh xu hướng thay đổi dịch; phải diễn giải cùng triệu chứng, lượng vào-ra, khám và xét nghiệm.",
+    "extra": "Monitoring.",
+    "id": "IM43B-DIU-035"
+  },
+  {
+    "type": "basic",
+    "front": "Xét nghiệm nền nên có trước khi bắt đầu hoặc tăng liều lợi tiểu là gì?",
+    "back": "Natri, kali, creatinine/eGFR; cân nhắc chloride, bicarbonate, magnesium và các xét nghiệm theo nhóm thuốc/bệnh cảnh.",
+    "extra": "Monitoring | Safety.",
+    "id": "IM43B-DIU-036"
+  },
+  {
+    "type": "basic",
+    "front": "Sau khi bắt đầu hoặc tăng lợi tiểu, xét nghiệm nào cần được xem lại?",
+    "back": "Điện giải và creatinine/eGFR theo mức nguy cơ, thuốc phối hợp và phác đồ cơ sở.",
+    "extra": "Monitoring.",
+    "id": "IM43B-DIU-037"
+  },
+  {
+    "type": "basic",
+    "front": "Tụt huyết áp tư thế khi dùng lợi tiểu gợi điều gì?",
+    "back": "Có thể là giảm thể tích hoặc không dung nạp; cần đánh giá triệu chứng, tưới máu, thuốc phối hợp và điều chỉnh an toàn.",
+    "extra": "Safety | Monitoring.",
+    "id": "IM43B-DIU-038"
+  },
+  {
+    "type": "basic",
+    "front": "Hạ kali máu trong người dùng lợi tiểu cần làm gì?",
+    "back": "Đánh giá mức độ, ECG/triệu chứng nếu nặng, thuốc gây mất kali, magnesium và nhu cầu ngưng/điều chỉnh/chuyển tuyến; không tự bù theo công thức chung.",
+    "extra": "Safety | Cases.",
+    "id": "IM43B-DIU-039"
+  },
+  {
+    "type": "basic",
+    "front": "Tăng kali máu ở người dùng MRA/amiloride cần làm gì?",
+    "back": "Ngừng đánh giá thường quy, kiểm tra ECG khi phù hợp, rà thuốc và chức năng thận, xử trí cấp cứu/chuyển tuyến theo mức độ và phác đồ.",
+    "extra": "K-sparing | Safety.",
+    "id": "IM43B-DIU-040"
+  },
+  {
+    "type": "basic",
+    "front": "Anuria là gì và tại sao là red flag khi đang dùng lợi tiểu?",
+    "back": "Là vô niệu; có thể báo giảm tưới máu nặng, tắc nghẽn hoặc suy thận cấp và không phải chỉ định để tự tăng lợi tiểu.",
+    "extra": "Safety | Red flag.",
+    "id": "IM43B-DIU-041"
+  },
+  {
+    "type": "basic",
+    "front": "Những dấu hiệu nào khiến nhánh lợi tiểu thường quy phải dừng?",
+    "back": "Phù phổi/giảm oxy, sốc hoặc giảm tưới máu, anuria, rối loạn tri giác, rối loạn kali nặng hoặc suy thận xấu nhanh.",
+    "extra": "Safety | Red flag.",
+    "id": "IM43B-DIU-042"
+  },
+  {
+    "type": "basic",
+    "front": "Plan A cho người phù có red flag là gì?",
+    "back": "Đánh giá cấp cứu tại nơi có theo dõi huyết động, oxy, điện giải, creatinine và khả năng chuyển ICU/chuyên khoa.",
+    "extra": "Safety | Plan A.",
+    "id": "IM43B-DIU-043"
+  },
+  {
+    "type": "basic",
+    "front": "Plan B khi không có xét nghiệm điện giải ngay là gì?",
+    "back": "Không tăng/khởi phối hợp lợi tiểu nguy cơ cao; đánh giá dấu sinh tồn và red flags, sắp xếp xét nghiệm/chuyển tuyến sớm.",
+    "extra": "Safety | Plan B.",
+    "id": "IM43B-DIU-044"
+  },
+  {
+    "type": "basic",
+    "front": "Kháng lợi tiểu không đồng nghĩa với điều gì?",
+    "back": "Không đồng nghĩa phải tự động thêm thiazide; trước hết tìm ăn mặn, bỏ liều, NSAID, giảm tưới máu, CKD và hấp thu kém.",
+    "extra": "Resistance | Safety.",
+    "id": "IM43B-DIU-045"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao ăn mặn có thể làm lợi tiểu tưởng như không hiệu quả?",
+    "back": "Lượng natri đưa vào có thể bù lại lượng natri thuốc làm mất, nên cân nặng/phù không giảm dù vẫn có tiểu nhiều.",
+    "extra": "Resistance | Monitoring.",
+    "id": "IM43B-DIU-046"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao giảm tưới máu có thể gây kháng lợi tiểu?",
+    "back": "Giảm tưới máu và giảm bài tiết thuốc vào lòng ống làm giảm lượng thuốc đến vị trí tác động.",
+    "extra": "Resistance | Loop.",
+    "id": "IM43B-DIU-047"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao CKD có thể làm cần thay đổi chiến lược lợi tiểu?",
+    "back": "Giảm GFR/tải natri và giảm bài tiết thuốc làm đáp ứng kém; cần cá thể hóa theo thể tích, eGFR, điện giải và theo dõi.",
+    "extra": "Resistance | CKD.",
+    "id": "IM43B-DIU-048"
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào cân nhắc khóa nephron nối tiếp?",
+    "back": "Khi sung huyết còn dai dẳng sau khi đã kiểm nguyên nhân kháng lợi tiểu và bảo đảm khả năng theo dõi điện giải, thể tích và creatinine.",
+    "extra": "Resistance | Sequential blockade.",
+    "id": "IM43B-DIU-049"
+  },
+  {
+    "type": "basic",
+    "front": "Theo dõi nào bắt buộc hơn khi thêm thiazide vào lợi tiểu quai?",
+    "back": "Theo dõi sớm điện giải, creatinine/eGFR, huyết áp/tưới máu, cân nặng và triệu chứng mất nước.",
+    "extra": "Resistance | Monitoring.",
+    "id": "IM43B-DIU-050"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao không được dùng lợi tiểu để xử trí anuria tại nhà?",
+    "back": "Vì anuria cần tìm nguyên nhân và đánh giá cấp cứu; tăng thuốc có thể làm nặng giảm tưới máu hoặc trì hoãn xử trí tắc nghẽn/sốc.",
+    "extra": "Safety | Cases.",
+    "id": "IM43B-DIU-051"
+  },
+  {
+    "type": "basic",
+    "front": "Bệnh nhân phù ổn định không red flags: bước lựa chọn đầu tiên là gì?",
+    "back": "Xác định nguyên nhân/mục tiêu phù và mức độ ổn định, sau đó chọn đường dùng/liều theo bệnh cảnh cùng kế hoạch cân nặng–điện giải–creatinine.",
+    "extra": "Cases | Monitoring.",
+    "id": "IM43B-DIU-052"
+  },
+  {
+    "type": "basic",
+    "front": "Bệnh nhân phù phổi kèm giảm oxy: hành động đầu tiên là gì?",
+    "back": "Dừng đường xử trí ngoại trú; đánh giá và điều trị cấp cứu tại nơi có hỗ trợ hô hấp, theo dõi và năng lực chuyển tuyến.",
+    "extra": "Cases | Safety.",
+    "id": "IM43B-DIU-053"
+  },
+  {
+    "type": "basic",
+    "front": "Bệnh nhân dùng furosemide vẫn sung huyết: bốn điểm rà đầu tiên?",
+    "back": "Tuân thủ thuốc, lượng natri ăn vào, NSAID/thuốc gây cản trở và dấu giảm tưới máu hoặc suy thận.",
+    "extra": "Cases | Resistance.",
+    "id": "IM43B-DIU-054"
+  },
+  {
+    "type": "basic",
+    "front": "Mục tiêu của đường dùng IV trong sung huyết cấp là gì?",
+    "back": "Đạt nồng độ thuốc hiệu quả nhanh và dự đoán được hơn khi đường uống/hấp thu không đáng tin; cần dùng trong bối cảnh có theo dõi.",
+    "extra": "Loop | Clinical use.",
+    "id": "IM43B-DIU-055"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao không có một liều furosemide đúng cho mọi người?",
+    "back": "Đáp ứng phụ thuộc chỉ định, mức sung huyết, eGFR, hấp thu, liều trước đó, tưới máu, điện giải và phác đồ địa phương.",
+    "extra": "Loop | Safety.",
+    "id": "IM43B-DIU-056"
+  },
+  {
+    "type": "basic",
+    "front": "Nguyên tắc khi tăng liều lợi tiểu quai không đáp ứng là gì?",
+    "back": "Đánh giá đáp ứng và an toàn theo thời điểm phù hợp; điều chỉnh theo phác đồ/bệnh cảnh thay vì chỉ tăng liên tiếp không kiểm tra.",
+    "extra": "Loop | Monitoring.",
+    "id": "IM43B-DIU-057"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao hiệu quả điều trị không được đánh giá chỉ bằng lượng nước tiểu?",
+    "back": "Lượng nước tiểu không cho biết cân bằng natri, tình trạng sung huyết, tưới máu hoặc độc tính điện giải; cần đánh giá tổng hợp.",
+    "extra": "Monitoring.",
+    "id": "IM43B-DIU-058"
+  },
+  {
+    "type": "basic",
+    "front": "Lợi tiểu quai và thiazide cùng có nguy cơ acid-base nào?",
+    "back": "Có thể góp phần gây kiềm chuyển hóa do tăng bài tiết kali/hydrogen và co thể tích, nhất là khi dùng phối hợp.",
+    "extra": "Loop | Thiazide | Electrolytes.",
+    "id": "IM43B-DIU-059"
+  },
+  {
+    "type": "basic",
+    "front": "Lợi tiểu tiết kiệm kali có thể gây rối loạn acid-base nào?",
+    "back": "Có thể góp phần gây toan chuyển hóa do giảm bài tiết kali và hydrogen ở ống góp.",
+    "extra": "K-sparing | Electrolytes.",
+    "id": "IM43B-DIU-060"
+  },
+  {
+    "type": "basic",
+    "front": "Acetazolamide có thể làm thay đổi kali thế nào?",
+    "back": "Tăng natri đến đoạn xa có thể tăng bài tiết kali; cần đánh giá kali và tình trạng acid-base theo chỉ định.",
+    "extra": "CAI | Safety.",
+    "id": "IM43B-DIU-061"
+  },
+  {
+    "type": "basic",
+    "front": "Dấu hiệu gợi giảm thể tích do lợi tiểu là gì?",
+    "back": "Chóng mặt tư thế, khát/niêm khô, tụt huyết áp, giảm tưới máu hoặc tăng creatinine phải được diễn giải cùng khám và xét nghiệm.",
+    "extra": "Safety | Monitoring.",
+    "id": "IM43B-DIU-062"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao cần hỏi thuốc không kê đơn khi kháng lợi tiểu?",
+    "back": "NSAID và một số thuốc/chất dùng kèm có thể giữ muối nước, giảm đáp ứng lợi tiểu hoặc làm tăng nguy cơ tổn thương thận.",
+    "extra": "Safety | Resistance.",
+    "id": "IM43B-DIU-063"
+  },
+  {
+    "type": "basic",
+    "front": "Nguyên tắc dùng lợi tiểu trong CKD là gì?",
+    "back": "Điều trị sung huyết theo đáp ứng lâm sàng nhưng đánh giá chặt eGFR, điện giải, liều đến lòng ống và nguy cơ giảm tưới máu.",
+    "extra": "CKD | Monitoring.",
+    "id": "IM43B-DIU-064"
+  },
+  {
+    "type": "basic",
+    "front": "Nguyên tắc lợi tiểu khi có xơ gan cổ trướng là gì?",
+    "back": "Dùng thuật toán tại IM-40 và không tự tăng hoặc phối hợp lợi tiểu. Cần đánh giá thể tích, kali, natri, chức năng thận, lú lẫn mới xuất hiện và khả năng theo dõi/chuyển tuyến.",
+    "extra": "Safety | Cross-link IM-40.",
+    "id": "IM43B-DIU-065"
+  },
+  {
+    "type": "basic",
+    "front": "Lú lẫn mới ở người có xơ gan cổ trướng đang dùng lợi tiểu gợi hành động nào?",
+    "back": "Xem là red flag cần đánh giá cấp cứu/chuyển tuyến theo IM-40; không tự tăng lợi tiểu chỉ để giảm phù.",
+    "extra": "Safety | Cross-link IM-40.",
+    "id": "IM43B-DIU-066"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao bài lợi tiểu không nêu tỷ lệ phối hợp hoặc liều cho cổ trướng?",
+    "back": "Vì đó là thuật toán bệnh-specific, phụ thuộc thể tích, natri, kali, chức năng thận và năng lực theo dõi; dùng IM-40 và protocol cơ sở thay vì áp dụng một công thức chung.",
+    "extra": "Safety | Cross-link IM-40.",
+    "id": "IM43B-DIU-067"
+  },
+  {
+    "type": "basic",
+    "front": "Lợi tiểu có thay thế điều trị bệnh nguyên của suy tim không?",
+    "back": "Không. Lợi tiểu chủ yếu giảm triệu chứng sung huyết; điều trị nền suy tim theo IM-22 và guideline tương ứng.",
+    "extra": "Loop | Clinical use.",
+    "id": "IM43B-DIU-068"
+  },
+  {
+    "type": "basic",
+    "front": "Lợi tiểu có thay thế điều trị tăng huyết áp toàn diện không?",
+    "back": "Không. Chọn thuốc và mục tiêu huyết áp theo IM-20, nguy cơ tim mạch và bệnh kèm.",
+    "extra": "Thiazide | Clinical use.",
+    "id": "IM43B-DIU-069"
+  },
+  {
+    "type": "basic",
+    "front": "Một người dùng MRA kèm ACEi/ARB cần chú ý gì?",
+    "back": "Nguy cơ tăng kali và giảm chức năng thận tăng; cần kali/creatinine nền và kế hoạch kiểm tra lại theo nguy cơ.",
+    "extra": "K-sparing | Safety.",
+    "id": "IM43B-DIU-070"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao magnesium cần được xem xét khi hạ kali khó chỉnh?",
+    "back": "Hạ magnesium có thể làm tăng mất kali qua thận và khiến hạ kali dai dẳng; cần đo và xử trí theo nguyên nhân/bệnh cảnh.",
+    "extra": "Electrolytes | Safety.",
+    "id": "IM43B-DIU-071"
+  },
+  {
+    "type": "basic",
+    "front": "Một case: phù nhẹ, huyết áp cao, không red flag—đường suy nghĩ đúng?",
+    "back": "Xác nhận mục tiêu điều trị tăng huyết áp theo IM-20, kiểm eGFR/điện giải/bệnh kèm và cân nhắc thiazide/thiazide-like cùng theo dõi phù hợp.",
+    "extra": "Cases | Thiazide.",
+    "id": "IM43B-DIU-072"
+  },
+  {
+    "type": "basic",
+    "front": "Một case: dùng spironolactone, yếu cơ, kali tăng—hành động đúng?",
+    "back": "Dừng nhánh tự chỉnh liều; đánh giá mức độ tăng kali, ECG/triệu chứng, chức năng thận và xử trí/chuyển tuyến khẩn theo mức độ.",
+    "extra": "Cases | K-sparing | Safety.",
+    "id": "IM43B-DIU-073"
+  },
+  {
+    "type": "basic",
+    "front": "Một case: furosemide không đáp ứng và đang dùng ibuprofen—ưu tiên gì?",
+    "back": "Rà/tạm ngừng NSAID khi an toàn, đánh giá tưới máu và chức năng thận trước khi tăng liều hoặc phối hợp lợi tiểu.",
+    "extra": "Cases | Loop | Resistance.",
+    "id": "IM43B-DIU-074"
+  },
+  {
+    "type": "basic",
+    "front": "Một case: phù, lú lẫn mới, xơ gan—hành động đúng?",
+    "back": "Xem là red flag; không chỉ tăng lợi tiểu. Đánh giá cấp cứu/hội chứng não gan, điện giải, nhiễm trùng và chuyển tuyến theo IM-40.",
+    "extra": "Cases | Safety.",
+    "id": "IM43B-DIU-075"
+  },
+  {
+    "type": "basic",
+    "front": "Thông điệp an toàn quan trọng nhất khi kê lợi tiểu là gì?",
+    "back": "Đúng mục tiêu, đúng đoạn nephron, theo dõi đúng và dừng/escalate đúng lúc; không dùng lợi tiểu như giải pháp tự động cho mọi tình trạng phù.",
+    "extra": "Safety | Summary.",
+    "id": "IM43B-DIU-076"
+  },
+  {
+    "type": "basic",
+    "front": "Mỗi nhóm lợi tiểu cần trả lời đủ bốn câu nào?",
+    "back": "Thuốc chặn đoạn nào; hệ quả điện giải/nước gì; mục tiêu/chỉ định nào phù hợp; và dấu hiệu nào cần dừng hoặc chuyển tuyến.",
+    "extra": "Nephron | Monitoring | Safety.",
+    "id": "IM43B-DIU-077"
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào cần hội chẩn chuyên khoa khi dùng lợi tiểu?",
+    "back": "Khi có kháng lợi tiểu dai dẳng, suy thận/điện giải xấu nhanh, bệnh gan mất bù, nghi tắc nghẽn hoặc cần phối hợp nguy cơ cao.",
+    "extra": "Safety | Resistance.",
+    "id": "IM43B-DIU-078"
+  },
+  {
+    "type": "basic",
+    "front": "Điều gì phải được ghi rõ khi bàn giao người bệnh đang dùng lợi tiểu?",
+    "back": "Mục tiêu điều trị, liều/đường/thời điểm liều gần nhất, cân nặng/dịch vào-ra, huyết áp, triệu chứng, điện giải-creatinine và red flags.",
+    "extra": "Monitoring | Safety.",
+    "id": "IM43B-DIU-079"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao bài thuốc lợi tiểu phải liên kết bài sinh lý nephron?",
+    "back": "Vì hiểu Na+ được tái hấp thu tại đâu giúp dự đoán hiệu quả, rối loạn điện giải và cách phối hợp thuốc an toàn.",
+    "extra": "Nephron | Summary.",
+    "id": "IM43B-DIU-080"
+  }
+]

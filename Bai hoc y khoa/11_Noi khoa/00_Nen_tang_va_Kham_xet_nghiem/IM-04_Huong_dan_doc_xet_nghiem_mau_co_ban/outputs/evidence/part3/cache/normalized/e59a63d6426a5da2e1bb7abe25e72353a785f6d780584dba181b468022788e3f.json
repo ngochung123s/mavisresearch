@@ -1,0 +1,898 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-07-29T10:21:40.551616Z",
+  "providers": [
+    "europe_pmc_metadata",
+    "europe_pmc_oa_full_text",
+    "crossref_retraction_watch",
+    "openalex",
+    "official_source"
+  ],
+  "records": {
+    "pmid:38421476": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "38421476",
+        "pmcid": "PMC10904443",
+        "doi": "10.1007/s00508-024-02325-5",
+        "openalex": "https://openalex.org/W4392302702"
+      },
+      "title": "[Consensus recommendations on the diagnosis and treatment of hyponatremia from the Austrian Society for Nephrology 2024].",
+      "abstract": "Hyponatremia is a disorder of water homeostasis. Water balance is maintained by the collaboration of renal function and cerebral structures, which regulate thirst mechanisms and secretion of the antidiuretic hormone. Measurement of serum-osmolality, urine osmolality and urine-sodium concentration help to diagnose the different reasons for hyponatremia. Hyponatremia induces cerebral edema and might lead to severe neurological symptoms, which need acute therapy. Also, mild forms of hyponatremia should be treated causally, or at least symptomatically. An inadequate fast increase of the serum sodium level should be avoided, because it raises the risk of cerebral osmotic demyelination. Basic pathophysiological knowledge is necessary to identify the different reasons for hyponatremia which need different therapeutic procedures.",
+      "journal": "Wiener klinische Wochenschrift",
+      "year": "2024",
+      "publication_types": [
+        "research-article",
+        "Consensus Statement",
+        "Journal Article",
+        "English Abstract",
+        "consensus statement"
+      ],
+      "topics": [
+        "Medicine",
+        "Gynecology"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "raw_sha256": [
+        "d70a00c062f5061237c952faaf81b5452f7697448658b141deb76db67e3cb991",
+        "5ba1ae46ee1e433f2f2f76b83ef64a9cfd9ef96792c5a693588fde1ce7a033e4",
+        "d8f2dd9c97aa9a6815f26bebeb717e4c2e29122ed036e9320d0a1d68c4622817",
+        "d3ee0ff904b26e1db4ccb7115f103fbf3e5b9ac272a6364b38f7ab1ee7f6e2be"
+      ],
+      "metadata_checked_at": "2026-07-29T10:21:40.551616Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "pmcid": "PMC10904443",
+        "sha256": "d3ee0ff904b26e1db4ccb7115f103fbf3e5b9ac272a6364b38f7ab1ee7f6e2be"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:21:40.551616Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "consensus statement",
+        "canonical_url": "https://europepmc.org/articles/PMC10904443",
+        "version": "2024",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null,
+        "current_version": true
+      }
+    },
+    "pmid:29122851": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "29122851",
+        "pmcid": "PMC5754852",
+        "doi": "10.1136/gutjnl-2017-314924",
+        "openalex": "https://openalex.org/W2767262086"
+      },
+      "title": "Guidelines on the management of abnormal liver blood tests.",
+      "abstract": "These updated guidelines on the management of abnormal liver blood tests have been commissioned by the Clinical Services and Standards Committee (CSSC) of the British Society of Gastroenterology (BSG) under the auspices of the liver section of the BSG. The original guidelines, which this document supersedes, were written in 2000 and have undergone extensive revision by members of the Guidelines Development Group (GDG). The GDG comprises representatives from patient/carer groups (British Liver Trust, Liver4life, PBC Foundation and PSC Support), elected members of the BSG liver section (including representatives from Scotland and Wales), British Association for the Study of the Liver (BASL), Specialist Advisory Committee in Clinical Biochemistry/Royal College of Pathology and Association for Clinical Biochemistry, British Society of Paediatric Gastroenterology, Hepatology and Nutrition (BSPGHAN), Public Health England (implementation and screening), Royal College of General Practice, British Society of Gastrointestinal and Abdominal Radiologists (BSGAR) and Society of Acute Medicine. The quality of evidence and grading of recommendations was appraised using the AGREE II tool. These guidelines deal specifically with the management of abnormal liver blood tests in children and adults in both primary and secondary care under the following subheadings: (1) What constitutes an abnormal liver blood test? (2) What constitutes a standard liver blood test panel? (3) When should liver blood tests be checked? (4) Does the extent and duration of abnormal liver blood tests determine subsequent investigation? (5) Response to abnormal liver blood tests. They are not designed to deal with the management of the underlying liver disease.",
+      "journal": "Gut",
+      "year": "2018",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Practice Guideline",
+        "Journal Article",
+        "clinical practice guideline"
+      ],
+      "topics": [
+        "Medicine",
+        "Hepatology",
+        "Liver disease",
+        "Grading (engineering)",
+        "Internal medicine",
+        "Gastroenterology",
+        "Family medicine",
+        "Public health",
+        "Blood test",
+        "Pathology"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "raw_sha256": [
+        "d145ee2caa97e713b080d6966ec7a84e4e2f183c70a943c7ebca72b2d08e7b6b",
+        "873ad2ba1fd7284ce6afa391d072c6c683a1984e0b0afaa2c70e3cfd7ad1e5bb",
+        "d5f42e4a1dc5466552e84eee7e2f11949f4aa8939fc3b3e5888804db6d190cd9",
+        "f927f2148bcf6d177ef9ee01217c509d83c7d49e4074554bdcaf8473952aa004"
+      ],
+      "metadata_checked_at": "2026-07-29T10:21:40.551616Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "pmcid": "PMC5754852",
+        "sha256": "f927f2148bcf6d177ef9ee01217c509d83c7d49e4074554bdcaf8473952aa004"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:21:40.551616Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "clinical practice guideline",
+        "canonical_url": "https://europepmc.org/articles/PMC5754852",
+        "version": "2018",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null,
+        "current_version": true
+      }
+    },
+    "pmid:41358893": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "41358893",
+        "pmcid": "PMC12690183",
+        "doi": "10.2337/dc26-s002",
+        "openalex": "https://openalex.org/W4417121491"
+      },
+      "title": "2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes-2026.",
+      "abstract": "The American Diabetes Association (ADA) \"Standards of Care in Diabetes\" includes the ADA's current clinical practice recommendations and is intended to provide the components of diabetes care, general treatment goals and guidelines, and tools to evaluate quality of care. Members of the ADA Professional Practice Committee for Diabetes, an interprofessional expert committee, are responsible for updating the Standards of Care annually, or more frequently as warranted. For a detailed description of ADA standards, statements, and reports, as well as the evidence-grading system for ADA's clinical practice recommendations and a full list of Professional Practice Committee members, please refer to Introduction and Methodology. Readers who wish to comment on the Standards of Care are invited to do so at professional.diabetes.org/SOC.",
+      "journal": "Diabetes care",
+      "year": "2026",
+      "publication_types": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "Clinical Practice",
+        "Professional standards",
+        "MEDLINE",
+        "Patient care",
+        "Quality (philosophy)",
+        "Association (psychology)",
+        "Standard of care"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "6b8df02705a3d07964beaa51451670bd599cf8ca6fb3668b85afb0e0e1cd830e",
+        "b239182fb7a712a230baef581edd53c33e9b8d7a2697f45c6389b6eb3752fa64",
+        "c2d861a3bdd311a79a5bd1aae46f8695c114035ab9038ee2049d0ba371316ca1"
+      ],
+      "metadata_checked_at": "2026-07-29T10:21:40.551616Z",
+      "full_text": {
+        "available": true,
+        "license": "unknown",
+        "reuse_suitable": false,
+        "pmcid": "PMC12690183"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:21:40.551616Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:37622654": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "37622654",
+        "pmcid": null,
+        "doi": "10.1093/eurheartj/ehad191",
+        "openalex": "https://openalex.org/W4386153206"
+      },
+      "title": "2023 ESC Guidelines for the management of acute coronary syndromes.",
+      "abstract": "International audience",
+      "journal": "European heart journal",
+      "year": "2023",
+      "publication_types": [
+        "Journal Article",
+        "clinical practice guideline"
+      ],
+      "topics": [
+        "Medicine",
+        "Acute coronary syndrome",
+        "Intensive care medicine",
+        "Cardiology",
+        "Internal medicine",
+        "Myocardial infarction"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "raw_sha256": [
+        "4f4953cef0cfdb20ca1307ac68fe9e241392b7bc496f722b7ce6731b0b2be73a",
+        "ef0efad9e7e13446ee58021720802dce97bac57983a3bb507829ccb88f766d8f",
+        "a70461116419c85efa205f2bde21fa4fc0ec929c33aaf5561c910551e8793b63",
+        "ce6967039c79c1ea3c6b46962c276e8a37b9fd1edbd7cce558b5de1fa1a06ba9"
+      ],
+      "metadata_checked_at": "2026-07-29T10:21:40.551616Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:21:40.551616Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "clinical practice guideline",
+        "canonical_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes/",
+        "version": "2023",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null,
+        "current_version": true
+      }
+    },
+    "pmid:38383069": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "38383069",
+        "pmcid": null,
+        "doi": "10.1093/eurheartj/ehad870",
+        "openalex": "https://openalex.org/W4392774335"
+      },
+      "title": "Correction to: 2023 ESC Guidelines for the management of acute coronary syndromes: Developed by the task force on the management of acute coronary syndromes of the European Society of Cardiology (ESC).",
+      "abstract": "",
+      "journal": "European heart journal",
+      "year": "2024",
+      "publication_types": [
+        "Published Erratum"
+      ],
+      "topics": [
+        "Medicine",
+        "Task force",
+        "Cardiology",
+        "Acute coronary syndrome",
+        "Internal medicine",
+        "Intensive care medicine",
+        "Myocardial infarction"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "5828c752a7eb16b23bd0755589f2080834a8093a854dde70d18cf042ab8877f9",
+        "e2393eef79ce74ef057a18db80e5d77c17d03dea5bfe6e38c10f26dcf51c12c1",
+        "819b4fe134310f0fb993ea7344113ad19cfaf3591d7a4138bf448972a3b1a7ba"
+      ],
+      "metadata_checked_at": "2026-07-29T10:21:40.551616Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:21:40.551616Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:33909381": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "33909381",
+        "pmcid": null,
+        "doi": null,
+        "openalex": null
+      },
+      "title": "WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations",
+      "abstract": "This guideline provides global, evidence-informed recommendations on the use of indicators for assessing a population’s iron status and application of the use of ferritin concentrations for monitoring and evaluating iron interventions. The recommendations in this guideline are intended for a wide audience, including health professionals, clinicians, researchers, managers of nutrition and health programmes, and public health policy-makers, their expert advisers, and technical and programme staff at government institutions and organizations involved in the design and conduct of surveys to assess micronutrient status in all settings. This guideline aims to help WHO Member States and their partners to make evidence-informed decisions on the appropriate actions in their efforts to achieve the Sustainable Development Goals, and the global targets as put forward in the Comprehensive implementation plan on maternal, infant, and the Global strategy for women’s, children’s and adolescents’ health (2016–2030).",
+      "journal": "",
+      "year": "2020",
+      "publication_types": [
+        "Practice Guideline",
+        "Review"
+      ],
+      "topics": [],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex"
+      ],
+      "raw_sha256": [
+        "dd88e1a418fe7ea59193b599ac180909b3bbd47278ab89d25b25141a99fd9910",
+        "cb82e531f24dfe92376d6bbd46495248642a56a89cc4fd16ec2d167093e67714"
+      ],
+      "metadata_checked_at": "2026-07-29T10:21:40.551616Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:21:40.551616Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:40699541": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "40699541",
+        "pmcid": "PMC12518491",
+        "doi": "10.1007/s40618-025-02652-y",
+        "openalex": "https://openalex.org/W4412617144"
+      },
+      "title": "Italian guidelines for the management of adult individuals with primary hypothyroidism outside pregnancy.",
+      "abstract": "<h4>Aim</h4>The present guideline (GL) is aimed to improve and standardize the treatment of primary hypothyroidism in non-pregnant adults and to offer all the patients the best possible care across the Italian country.<h4>Target population</h4>Non-pregnant adults with hypothyroidism.<h4>Excluded population</h4>This GL does not cover the treatment of hypothyroidism in children and adolescents under 18 years of age, in women who are pregnant or breastfeeding, nor in subjects with central hypothyroidism. Also patients who require suppressive therapy with levothyroxine after thyroidectomy for thyroid cancer and those with transient iatrogenic hypothyroidism were not considered in this GL.<h4>Methods</h4>The direct costs and the utilization of resources over time were evaluated for the implementation of the appropriate management within the National Health Service. Recommendations were based on the analysis, according to the GRADE methodology, of the evidence from literature. Patients preferences were collected and verified by means of specific bibliographic research and the active participation of two patients' representatives in the GL development group.<h4>Results</h4>The present GL provides 4 formal graded recommendations and 16 ungraded indications for good clinical practice. An elevated agreement was consistently obtained among the panel members.<h4>Conclusions</h4>The present GL provides operative recommendations-based on the best available evidence and cost-effectiveness analysis-for the treatment of adult patients with primary hypothyroidism. The expected benefits from the dissemination, application and implementation of this GL are the improvement of the quality of care, its homogenization across the national territory and the rationalization of health expenditure in the respect of patient preferences.",
+      "journal": "Journal of endocrinological investigation",
+      "year": "2025",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "Levothyroxine",
+        "Medicine",
+        "Guideline",
+        "Pediatrics",
+        "Population",
+        "Family medicine",
+        "Thyroidectomy",
+        "Gynecology",
+        "Thyroid",
+        "Internal medicine",
+        "Environmental health"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "5aaf87e3d7eabd76764e26f7c390c4ca6402a62e48a0de80e1b3f0341bc4f570",
+        "8d55453697f6bf5b0be4def09d0816c65bcfe4ff07fb6c0550b924dcca2d2f17",
+        "2ee866dc9d705e382951912a95fc1503e61bd350a7d7693c943359e098fbd21a",
+        "904af0dc4576359ab25b6501229c7a671ffa6cdb695ec599173da3b4f13f193e"
+      ],
+      "metadata_checked_at": "2026-07-29T10:21:40.551616Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "pmcid": "PMC12518491",
+        "sha256": "904af0dc4576359ab25b6501229c7a671ffa6cdb695ec599173da3b4f13f193e"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:21:40.551616Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "official:KDIGO-AKI-2012": {
+      "exists": true,
+      "identifiers": {
+        "official_id": "KDIGO-AKI-2012",
+        "pmid": null,
+        "doi": null
+      },
+      "title": "KDIGO Clinical Practice Guideline for Acute Kidney Injury",
+      "abstract": "Published 2012 KDIGO AKI guideline. Official 2026 page says a first major update is in public-review draft; the draft is not yet a published replacement. Current/supersession therefore requires release-time adjudication and must not be assumed.",
+      "publication_types": [
+        "clinical practice guideline"
+      ],
+      "providers": [
+        "official_source"
+      ],
+      "raw_sha256": [
+        "20db2b44ea228cd1006ea9f867ee8d830663fae04c7f1ac3d24aaab7388ed1ad"
+      ],
+      "metadata_checked_at": "2026-07-29T10:21:40.551616Z",
+      "full_text": {
+        "available": true,
+        "license": "all-rights-reserved",
+        "reuse_suitable": false,
+        "sha256": "20db2b44ea228cd1006ea9f867ee8d830663fae04c7f1ac3d24aaab7388ed1ad"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "clinical practice guideline",
+        "canonical_url": "https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf",
+        "version": "2012",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": "KDIGO 2026 AKI/AKD public-review draft pending publication; release-time adjudication required",
+        "current_version": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:21:40.551616Z",
+        "corrections": [],
+        "provider": "official_source"
+      },
+      "conflicts": []
+    },
+    "official:KDIGO-AKI-AKD-2026-DRAFT": {
+      "exists": true,
+      "identifiers": {
+        "official_id": "KDIGO-AKI-AKD-2026-DRAFT",
+        "pmid": null,
+        "doi": null
+      },
+      "title": "KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury and Acute Kidney Disease - Public Review Draft",
+      "abstract": "Official public-review draft; not a final published guideline and not eligible for current formal guideline claims.",
+      "publication_types": [
+        "draft guideline"
+      ],
+      "providers": [
+        "official_source"
+      ],
+      "raw_sha256": [
+        "a0cf2b6db03a17f3e0c96a746032885b3b14a96786fcc9bb971aeeceff1b8fab"
+      ],
+      "metadata_checked_at": "2026-07-29T10:21:40.551616Z",
+      "full_text": {
+        "available": true,
+        "license": "all-rights-reserved",
+        "reuse_suitable": false,
+        "sha256": "a0cf2b6db03a17f3e0c96a746032885b3b14a96786fcc9bb971aeeceff1b8fab"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "draft guideline",
+        "canonical_url": "https://kdigo.org/wp-content/uploads/2026/03/KDIGO-2026-AKI-AKD-Guideline-Public-Review-Draft-March-2026.pdf",
+        "version": "March 2026 public review",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null,
+        "current_version": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:21:40.551616Z",
+        "corrections": [],
+        "provider": "official_source"
+      },
+      "conflicts": []
+    },
+    "official:UKKA-HYPERKALAEMIA-2023": {
+      "exists": true,
+      "identifiers": {
+        "official_id": "UKKA-HYPERKALAEMIA-2023",
+        "pmid": null,
+        "doi": null
+      },
+      "title": "UK Kidney Association Clinical Practice Guideline: Treatment of Acute Hyperkalaemia in Adults",
+      "abstract": "Final October 2023 guideline; official page gives review date October 2026 and includes emergency thresholds and pseudo-hyperkalaemia specimen guidance.",
+      "publication_types": [
+        "clinical practice guideline"
+      ],
+      "providers": [
+        "official_source"
+      ],
+      "raw_sha256": [
+        "d1a1d3cd95ac326699f8f921422347cee5df56ba8a009525133132c66f16a2c7"
+      ],
+      "metadata_checked_at": "2026-07-29T10:21:40.551616Z",
+      "full_text": {
+        "available": true,
+        "license": "all-rights-reserved",
+        "reuse_suitable": false,
+        "sha256": "d1a1d3cd95ac326699f8f921422347cee5df56ba8a009525133132c66f16a2c7"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "clinical practice guideline",
+        "canonical_url": "https://guidelines.ukkidney.org/hyperkalaemia/",
+        "version": "Final October 2023; review October 2026",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null,
+        "current_version": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:21:40.551616Z",
+        "corrections": [],
+        "provider": "official_source"
+      },
+      "conflicts": []
+    },
+    "official:OEGN-HYPONATREMIA-2024": {
+      "exists": true,
+      "identifiers": {
+        "official_id": "OEGN-HYPONATREMIA-2024",
+        "pmid": "38421476",
+        "doi": "10.1007/s00508-024-02325-5"
+      },
+      "title": "Consensus recommendations on the diagnosis and treatment of hyponatremia from the Austrian Society for Nephrology 2024",
+      "abstract": "Current society consensus on sodium classification, symptoms, osmolality and pseudohyponatremia.",
+      "publication_types": [
+        "consensus statement"
+      ],
+      "providers": [
+        "official_source"
+      ],
+      "raw_sha256": [
+        "d3ee0ff904b26e1db4ccb7115f103fbf3e5b9ac272a6364b38f7ab1ee7f6e2be"
+      ],
+      "metadata_checked_at": "2026-07-29T10:21:40.551616Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "sha256": "d3ee0ff904b26e1db4ccb7115f103fbf3e5b9ac272a6364b38f7ab1ee7f6e2be"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "consensus statement",
+        "canonical_url": "https://europepmc.org/articles/PMC10904443",
+        "version": "2024",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null,
+        "current_version": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:21:40.551616Z",
+        "corrections": [],
+        "provider": "official_source"
+      },
+      "conflicts": []
+    },
+    "official:BSG-LIVER-BLOOD-TESTS-2018": {
+      "exists": true,
+      "identifiers": {
+        "official_id": "BSG-LIVER-BLOOD-TESTS-2018",
+        "pmid": "29122851",
+        "doi": "10.1136/gutjnl-2017-314924"
+      },
+      "title": "Guidelines on the management of abnormal liver blood tests",
+      "abstract": "British Society of Gastroenterology guideline on initial analytes, context and common biochemical patterns.",
+      "publication_types": [
+        "clinical practice guideline"
+      ],
+      "providers": [
+        "official_source"
+      ],
+      "raw_sha256": [
+        "f927f2148bcf6d177ef9ee01217c509d83c7d49e4074554bdcaf8473952aa004"
+      ],
+      "metadata_checked_at": "2026-07-29T10:21:40.551616Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "sha256": "f927f2148bcf6d177ef9ee01217c509d83c7d49e4074554bdcaf8473952aa004"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "clinical practice guideline",
+        "canonical_url": "https://europepmc.org/articles/PMC5754852",
+        "version": "2018",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null,
+        "current_version": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:21:40.551616Z",
+        "corrections": [],
+        "provider": "official_source"
+      },
+      "conflicts": []
+    },
+    "official:ESC-ACS-2023-LANDING": {
+      "exists": true,
+      "identifiers": {
+        "official_id": "ESC-ACS-2023-LANDING",
+        "pmid": "37622654",
+        "doi": "10.1093/eurheartj/ehad191"
+      },
+      "title": "2023 ESC Guidelines for the management of acute coronary syndromes",
+      "abstract": "Official ESC current guideline landing page. Local copy records title/version/authority only; ESC page states formal licensing is required for guideline content included in AI systems, so no guideline-body quote is stored here.",
+      "publication_types": [
+        "clinical practice guideline"
+      ],
+      "providers": [
+        "official_source"
+      ],
+      "raw_sha256": [
+        "ce6967039c79c1ea3c6b46962c276e8a37b9fd1edbd7cce558b5de1fa1a06ba9"
+      ],
+      "metadata_checked_at": "2026-07-29T10:21:40.551616Z",
+      "full_text": {
+        "available": true,
+        "license": "all-rights-reserved",
+        "reuse_suitable": false,
+        "sha256": "ce6967039c79c1ea3c6b46962c276e8a37b9fd1edbd7cce558b5de1fa1a06ba9"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "clinical practice guideline",
+        "canonical_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes/",
+        "version": "2023",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null,
+        "current_version": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:21:40.551616Z",
+        "corrections": [],
+        "provider": "official_source"
+      },
+      "conflicts": []
+    }
+  },
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "d70a00c062f5061237c952faaf81b5452f7697448658b141deb76db67e3cb991",
+      "path": "raw/europe_pmc_metadata/d70a00c062f5061237c952faaf81b5452f7697448658b141deb76db67e3cb991.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "5ba1ae46ee1e433f2f2f76b83ef64a9cfd9ef96792c5a693588fde1ce7a033e4",
+      "path": "raw/openalex/5ba1ae46ee1e433f2f2f76b83ef64a9cfd9ef96792c5a693588fde1ce7a033e4.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "d8f2dd9c97aa9a6815f26bebeb717e4c2e29122ed036e9320d0a1d68c4622817",
+      "path": "raw/crossref_retraction_watch/d8f2dd9c97aa9a6815f26bebeb717e4c2e29122ed036e9320d0a1d68c4622817.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_oa_full_text",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "d3ee0ff904b26e1db4ccb7115f103fbf3e5b9ac272a6364b38f7ab1ee7f6e2be",
+      "path": "raw/europe_pmc_oa_full_text/d3ee0ff904b26e1db4ccb7115f103fbf3e5b9ac272a6364b38f7ab1ee7f6e2be.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "d145ee2caa97e713b080d6966ec7a84e4e2f183c70a943c7ebca72b2d08e7b6b",
+      "path": "raw/europe_pmc_metadata/d145ee2caa97e713b080d6966ec7a84e4e2f183c70a943c7ebca72b2d08e7b6b.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "873ad2ba1fd7284ce6afa391d072c6c683a1984e0b0afaa2c70e3cfd7ad1e5bb",
+      "path": "raw/openalex/873ad2ba1fd7284ce6afa391d072c6c683a1984e0b0afaa2c70e3cfd7ad1e5bb.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "d5f42e4a1dc5466552e84eee7e2f11949f4aa8939fc3b3e5888804db6d190cd9",
+      "path": "raw/crossref_retraction_watch/d5f42e4a1dc5466552e84eee7e2f11949f4aa8939fc3b3e5888804db6d190cd9.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_oa_full_text",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "f927f2148bcf6d177ef9ee01217c509d83c7d49e4074554bdcaf8473952aa004",
+      "path": "raw/europe_pmc_oa_full_text/f927f2148bcf6d177ef9ee01217c509d83c7d49e4074554bdcaf8473952aa004.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "6b8df02705a3d07964beaa51451670bd599cf8ca6fb3668b85afb0e0e1cd830e",
+      "path": "raw/europe_pmc_metadata/6b8df02705a3d07964beaa51451670bd599cf8ca6fb3668b85afb0e0e1cd830e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "b239182fb7a712a230baef581edd53c33e9b8d7a2697f45c6389b6eb3752fa64",
+      "path": "raw/openalex/b239182fb7a712a230baef581edd53c33e9b8d7a2697f45c6389b6eb3752fa64.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "c2d861a3bdd311a79a5bd1aae46f8695c114035ab9038ee2049d0ba371316ca1",
+      "path": "raw/crossref_retraction_watch/c2d861a3bdd311a79a5bd1aae46f8695c114035ab9038ee2049d0ba371316ca1.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "4f4953cef0cfdb20ca1307ac68fe9e241392b7bc496f722b7ce6731b0b2be73a",
+      "path": "raw/europe_pmc_metadata/4f4953cef0cfdb20ca1307ac68fe9e241392b7bc496f722b7ce6731b0b2be73a.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "ef0efad9e7e13446ee58021720802dce97bac57983a3bb507829ccb88f766d8f",
+      "path": "raw/openalex/ef0efad9e7e13446ee58021720802dce97bac57983a3bb507829ccb88f766d8f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "a70461116419c85efa205f2bde21fa4fc0ec929c33aaf5561c910551e8793b63",
+      "path": "raw/crossref_retraction_watch/a70461116419c85efa205f2bde21fa4fc0ec929c33aaf5561c910551e8793b63.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "5828c752a7eb16b23bd0755589f2080834a8093a854dde70d18cf042ab8877f9",
+      "path": "raw/europe_pmc_metadata/5828c752a7eb16b23bd0755589f2080834a8093a854dde70d18cf042ab8877f9.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "e2393eef79ce74ef057a18db80e5d77c17d03dea5bfe6e38c10f26dcf51c12c1",
+      "path": "raw/openalex/e2393eef79ce74ef057a18db80e5d77c17d03dea5bfe6e38c10f26dcf51c12c1.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "819b4fe134310f0fb993ea7344113ad19cfaf3591d7a4138bf448972a3b1a7ba",
+      "path": "raw/crossref_retraction_watch/819b4fe134310f0fb993ea7344113ad19cfaf3591d7a4138bf448972a3b1a7ba.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "dd88e1a418fe7ea59193b599ac180909b3bbd47278ab89d25b25141a99fd9910",
+      "path": "raw/europe_pmc_metadata/dd88e1a418fe7ea59193b599ac180909b3bbd47278ab89d25b25141a99fd9910.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "cb82e531f24dfe92376d6bbd46495248642a56a89cc4fd16ec2d167093e67714",
+      "path": "raw/openalex/cb82e531f24dfe92376d6bbd46495248642a56a89cc4fd16ec2d167093e67714.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "5aaf87e3d7eabd76764e26f7c390c4ca6402a62e48a0de80e1b3f0341bc4f570",
+      "path": "raw/europe_pmc_metadata/5aaf87e3d7eabd76764e26f7c390c4ca6402a62e48a0de80e1b3f0341bc4f570.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "8d55453697f6bf5b0be4def09d0816c65bcfe4ff07fb6c0550b924dcca2d2f17",
+      "path": "raw/openalex/8d55453697f6bf5b0be4def09d0816c65bcfe4ff07fb6c0550b924dcca2d2f17.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "2ee866dc9d705e382951912a95fc1503e61bd350a7d7693c943359e098fbd21a",
+      "path": "raw/crossref_retraction_watch/2ee866dc9d705e382951912a95fc1503e61bd350a7d7693c943359e098fbd21a.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_oa_full_text",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "904af0dc4576359ab25b6501229c7a671ffa6cdb695ec599173da3b4f13f193e",
+      "path": "raw/europe_pmc_oa_full_text/904af0dc4576359ab25b6501229c7a671ffa6cdb695ec599173da3b4f13f193e.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "20db2b44ea228cd1006ea9f867ee8d830663fae04c7f1ac3d24aaab7388ed1ad",
+      "path": "raw/official_source/20db2b44ea228cd1006ea9f867ee8d830663fae04c7f1ac3d24aaab7388ed1ad.pdf",
+      "media_type": "application/pdf",
+      "license": "all-rights-reserved"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "a0cf2b6db03a17f3e0c96a746032885b3b14a96786fcc9bb971aeeceff1b8fab",
+      "path": "raw/official_source/a0cf2b6db03a17f3e0c96a746032885b3b14a96786fcc9bb971aeeceff1b8fab.pdf",
+      "media_type": "application/pdf",
+      "license": "all-rights-reserved"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "d1a1d3cd95ac326699f8f921422347cee5df56ba8a009525133132c66f16a2c7",
+      "path": "raw/official_source/d1a1d3cd95ac326699f8f921422347cee5df56ba8a009525133132c66f16a2c7.html",
+      "media_type": "text/html",
+      "license": "all-rights-reserved"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "d3ee0ff904b26e1db4ccb7115f103fbf3e5b9ac272a6364b38f7ab1ee7f6e2be",
+      "path": "raw/official_source/d3ee0ff904b26e1db4ccb7115f103fbf3e5b9ac272a6364b38f7ab1ee7f6e2be.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "f927f2148bcf6d177ef9ee01217c509d83c7d49e4074554bdcaf8473952aa004",
+      "path": "raw/official_source/f927f2148bcf6d177ef9ee01217c509d83c7d49e4074554bdcaf8473952aa004.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-29T10:21:40.551616Z",
+      "sha256": "ce6967039c79c1ea3c6b46962c276e8a37b9fd1edbd7cce558b5de1fa1a06ba9",
+      "path": "raw/official_source/ce6967039c79c1ea3c6b46962c276e8a37b9fd1edbd7cce558b5de1fa1a06ba9.html",
+      "media_type": "text/html",
+      "license": "all-rights-reserved"
+    }
+  ],
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\evidence\\part3\\cache",
+  "content_hash": "e59a63d6426a5da2e1bb7abe25e72353a785f6d780584dba181b468022788e3f"
+}

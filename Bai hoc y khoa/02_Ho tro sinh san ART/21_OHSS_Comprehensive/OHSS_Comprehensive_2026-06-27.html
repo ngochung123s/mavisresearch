@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bài học: OHSS — Cơ chế, Phòng ngừa &amp; Xử trí Toàn diện (ASRM 2024)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+  /* Chart.js canvas: giới hạn max-width để không bị kéo dãn khi render
+     trên màn hình rộng. Kết hợp với height attr trên <canvas> để giữ tỉ lệ.
+     Lý do: Chart.js mặc định maintainAspectRatio=false + responsive=true
+     sẽ fill 100% container width -> bar/doughnut bị oval/méo khi container
+     rộng hơn canvas internal pixel ratio. */
+  canvas { display: block; max-width: 800px; margin: 0 auto; height: auto !important; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+<header class="text-center py-12 mb-12 glass rounded-3xl shadow-lg">
+  <div class="inline-block px-4 py-1 mb-4 rounded-full bg-blue-200 text-blue-800 text-sm font-semibold">
+    Chuyên khoa: Hỗ trợ sinh sản (ART)
+  </div>
+  <h1 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800">Bài học: OHSS — Cơ chế, Phòng ngừa & Xử trí Toàn diện (ASRM 2024)</h1>
+  <p class="text-stone-600 text-lg">Ngày 2026-06-27 | Cho bác sĩ sản phụ khoa / học viên sau đại học</p>
+  <p class="text-sm text-stone-500 mt-2">Bác sĩ: <strong>Ngọc 🍅 🐈‍⬛</strong> | AI: <strong>MiniMax Mavis</strong></p>
+</header><main class="max-w-6xl mx-auto space-y-8">
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">0. TỔNG QUAN — ĐỊNH NGHĨA, DỊCH TỄ, TẦM QUAN TRỌNG</h2>
+<p class="text-stone-700 mb-3"><strong>Ovarian Hyperstimulation Syndrome (OHSS)</strong> là biến chứng iatrogenic nghiêm trọng nhất của Controlled Ovarian Stimulation (COS) trong ART. Đặc trưng bởi <strong>buồng trứng to, tăng tính thấm mao mạch → dịch thoát vào khoang thứ ba → cô đặc máu, rối loạn điện giải, suy đa cơ quan</strong>.</p>
+<p class="text-stone-700 mb-3"><strong>Định nghĩa ASRM 2024</strong> (PMID 38099867):</p>
+<div class="p-4 my-4 border-l-4 border-blue-500 bg-blue-50 rounded-r-lg text-stone-700">"OHSS is a serious complication associated with assisted reproductive technology. This systematic review aims to identify who is at high risk, along with evidence-based strategies to prevent it."</div>
+<p class="text-stone-700 mb-3"><strong>Dịch tễ:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>OHSS thể nhẹ: <strong>20-33%</strong> các chu kỳ IVF (phổ biến, tự giới hạn)</li>
+<li>OHSS thể trung bình: <strong>3-8%</strong></li>
+<li>OHSS thể nặng: <strong>0.5-2%</strong> (nhập viện)</li>
+<li>OHSS thể nguy kịch: <strong><0.5%</strong> (ICU, có thể tử vong)</li>
+<li>Tỷ lệ tử vong OHSS: <strong>1/45,000-1/500,000</strong> chu kỳ (hiếm nhưng có thật — chủ yếu do thromboembolism, ARDS, suy thận)</li></ul>
+<p class="text-stone-700 mb-3"><strong>Tầm quan trọng lâm sàng (5 điểm):</strong></p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Có thể tử vong</strong>: Thromboembolism, ARDS, suy thận cấp — đặc biệt late OHSS có thai</li>
+<li><strong>Phòng ngừa được</strong>: GnRH agonist trigger + freeze-all giảm ~80% OHSS nặng</li>
+<li><strong>Chi phí cao</strong>: Nhập viện dài ngày, ICU, albumin, LMWH — gánh nặng tài chính</li>
+<li><strong>Ảnh hưởng tâm lý</strong>: Bệnh nhân lo lắng, trì hoãn ET, giảm cơ hội có thai</li>
+<li><strong>Medicolegal risk</strong>: OHSS là biến chứng iatrogenic → risk management quan trọng</li></ol>
+<p class="text-stone-700 mb-3"><strong>Mục tiêu bài học:</strong></p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Hiểu cơ chế phân tử VEGF pathway — chìa khóa sinh lý bệnh</li>
+<li>Phân biệt early vs late OHSS — cơ chế khác, xử trí khác</li>
+<li>Phân loại OHSS theo 3 hệ thống — áp dụng đúng guideline</li>
+<li>Nắm vững 3 cấp phòng ngừa — trước/khi/sau kích thích</li>
+<li>Quản lý OHSS nặng/nguy kịch — hồi sức, chọc hút, chống đông</li>
+<li>So sánh guideline ASRM 2024 vs ESHRE 2025 vs RCOG</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">1. SINH LÝ BỆNH — CƠ CHẾ PHÂN TỬ VEGF</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.1. VEGF pathway — Cơ chế trung tâm</h3>
+<p class="text-stone-700 mb-3">VEGF (Vascular Endothelial Growth Factor) là nhân tố trung tâm của OHSS. Cơ chế diễn ra tại buồng trứng sau khi có tín hiệu hCG (ngoại sinh hoặc nội sinh):</p>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>hCG (trigger / từ thai)
+        ↓
+LH/hCG receptor trên granulosa cells của hoàng thể
+        ↓
+↑ cAMP → ↑ PKA → ↑ CREB → ↑ VEGF-A mRNA transcription
+        ↓
+Granulosa cells tiết ồ ạt VEGF-A vào tuần hoàn
+        ↓
+VEGF-A gắn VEGFR-2 (KDR/Flk-1) trên tế bào nội mô
+        ↓
+Phosphorylation VEGFR-2 → Src kinase activation
+        ↓
+Src phosphorylates VE-cadherin → VE-cadherin internalization
+        ↓
+Mất liên kết kết dính (adherens junction) giữa tế bào nội mô
+        ↓
+TĂNG TÍNH THẤM MAO MẠCH (Capillary leak)
+        ↓
+Dịch + protein thoát từ lòng mạch → khoang thứ ba
+        ↓
+Hậu quả: Ascites, pleural effusion, hypovolemia,
+         hemoconcentration, hypoproteinemia</code></pre>
+<p class="text-stone-700 mb-3"><strong>Điểm mấu chốt:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>VEGF-A là <strong>isoform chính</strong> gây OHSS (VEGF-C, VEGF-D vai trò phụ)</li>
+<li>Src kinase → VE-cadherin internalization là bước quyết định gây capillary leak</li>
+<li>Đây là lý do <strong>dopamine agonists (cabergoline)</strong> ức chế VEGFR-2 phosphorylation → chặn OHSS</li>
+<li>hCG có <strong>T½ dài 36h</strong> (so với LH tự nhiên 60 phút) → kích thích kéo dài → OHSS kéo dài</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.2. Con đường phụ — Yếu tố hỗ trợ capillary leak</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Yếu tố</th><th class="p-2 border whitespace-nowrap">Nguồn gốc</th><th class="p-2 border whitespace-nowrap">Cơ chế</th><th class="p-2 border whitespace-nowrap">Vai trò trong OHSS</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>VEGF-A</strong></td><td class="p-2 border">Granulosa cells</td><td class="p-2 border">↑ VEGFR-2 → VE-cadherin mất</td><td class="p-2 border"><strong>Trung tâm</strong> — quyết định cường độ OHSS</td></tr><tr class=""><td class="p-2 border"><strong>Angiopoietin-2 (Ang-2)</strong></td><td class="p-2 border">Endothelial cells</td><td class="p-2 border">Đối kháng Ang-1/Tie2 → destabilize mạch</td><td class="p-2 border">Tăng trong OHSS nặng</td></tr><tr class=""><td class="p-2 border"><strong>IL-6, IL-8, TNF-α</strong></td><td class="p-2 border">Immune cells, granulosa</td><td class="p-2 border">↑ viêm hệ thống, ↑ tính thấm</td><td class="p-2 border">Tăng trong late OHSS</td></tr><tr class=""><td class="p-2 border"><strong>RAAS</strong></td><td class="p-2 border">Thận (đáp ứng với hypovolemia)</td><td class="p-2 border">Angiotensin II → giữ Na⁺/H₂O, ↑ HA</td><td class="p-2 border">Hậu quả của capillary leak</td></tr><tr class=""><td class="p-2 border"><strong>Kallikrein-kinin</strong></td><td class="p-2 border">Huyết tương</td><td class="p-2 border">Bradykinin → giãn mạch, ↑ tính thấm</td><td class="p-2 border">Giai đoạn sớm</td></tr><tr class=""><td class="p-2 border"><strong>Ovarian renin-angiotensin</strong></td><td class="p-2 border">Buồng trứng</td><td class="p-2 border">Renin tại chỗ → Ang II tại chỗ</td><td class="p-2 border">Tăng trong PCOS</td></tr><tr class=""><td class="p-2 border"><strong>VEGF-C, VEGF-D</strong></td><td class="p-2 border">Granulosa</td><td class="p-2 border">↑ lymphangiogenesis (hiếm)</td><td class="p-2 border">Ascites dẫn lưu bạch huyết</td></tr><tr class=""><td class="p-2 border"><strong>ADH (Vasopressin)</strong></td><td class="p-2 border">Tuyến yên (đáp ứng giảm thể tích)</td><td class="p-2 border">↑ tái hấp thu nước ống góp</td><td class="p-2 border">Giữ nước → loãng máu giả</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.3. Early OHSS vs Late OHSS — Hai cơ chế KHÁC NHAU</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Early OHSS</th><th class="p-2 border whitespace-nowrap">Late OHSS</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Khởi phát</strong></td><td class="p-2 border">Trong vòng <strong>9 ngày</strong> sau trigger</td><td class="p-2 border"><strong>Sau 10 ngày</strong> sau trigger</td></tr><tr class=""><td class="p-2 border"><strong>Nguyên nhân</strong></td><td class="p-2 border"><strong>hCG ngoại sinh</strong> (thuốc trigger)</td><td class="p-2 border"><strong>hCG nội sinh</strong> từ thai đã làm tổ (syncytiotrophoblast)</td></tr><tr class=""><td class="p-2 border"><strong>Cơ chế VEGF</strong></td><td class="p-2 border">hCG ngoại sinh → granulosa lutein cells → VEGF-A surge</td><td class="p-2 border">hCG nội sinh từ nhau → tái kích hoạt granulosa lutein → VEGF kéo dài</td></tr><tr class=""><td class="p-2 border"><strong>Liên quan thai</strong></td><td class="p-2 border">Không cần có thai</td><td class="p-2 border"><strong>LUÔN có thai</strong> (nếu không có thai → OHSS tự giới hạn 7-14 ngày)</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Độ nặng</strong></td><td class="p-2 border">Thường nhẹ-trung bình</td><td class="p-2 border">Thường <strong>nặng hơn</strong>, kéo dài hơn (2-3 tuần)</td></tr><tr class=""><td class="p-2 border"><strong>Đáp ứng điều trị</strong></td><td class="p-2 border">Tốt, tự giới hạn nếu không có thai</td><td class="p-2 border">Khó hơn, cần quản lý kéo dài</td></tr><tr class=""><td class="p-2 border"><strong>Phòng ngừa chính</strong></td><td class="p-2 border">GnRH agonist trigger thay hCG</td><td class="p-2 border"><strong>Freeze-all</strong> (tránh thai) → không có late OHSS</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Ý nghĩa lâm sàng cực kỳ quan trọng:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Early OHSS sau hCG trigger: nếu thai diễn tiến → chuyển thành late OHSS nặng hơn</li>
+<li>GnRH agonist trigger: hầu như <strong>chỉ có early OHSS nhẹ</strong> (vì không có hCG ngoại sinh tác dụng kéo dài)</li>
+<li><strong>Freeze-all = loại bỏ hoàn toàn late OHSS</strong> — đây là lý do freeze-all ở bệnh nhân nguy cơ cao</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.4. Sơ đồ cơ chế bệnh sinh (Flowchart)</h3>
+<div class="mermaid text-center my-6">flowchart TD
+    A["hCG (ngoại sinh hoặc nội sinh từ thai)"] --> B["LH/hCG Receptor trên<br>Granulosa Lutein Cells"]
+    B --> C["↑ cAMP → ↑ VEGF-A mRNA"]
+    C --> D["↑ Tiết VEGF-A vào tuần hoàn"]
+    D --> E["VEGF-A + VEGFR-2<br>trên Tế bào Nội mô"]
+    E --> F["Src kinase →<br>VE-Cadherin Internalization"]
+    F --> G["TĂNG TÍNH THẤM MAO MẠCH<br>(Capillary Leak)"]
+    G --> H1["Ascites, Pleural Effusion"]
+    G --> H2["Hypovolemia → ↑ Hct, ↑ WBC"]
+    G --> H3["RAAS activation → Giữ Na⁺ / H₂O"]
+    H2 --> I1["↓ Renal Perfusion → Suy thận cấp"]
+    H2 --> I2["↑ Độ nhớt máu → Huyết khối"]
+    H3 --> I3["Hạ Na⁺ máu pha loãng"]
+    
+    D --> J["Cabergoline<br>(ức chế VEGFR-2 phosphorylation)"]
+    J -->|"CHẶN"| E
+    
+    B -.-> K["GnRH agonist trigger:<br>LH tự nhiên T½=60 phút"]
+    K -.->|"Tránh kích thích kéo dài"| D
+    
+    style G fill:#ffcccc,stroke:#cc0000,color:#000
+    style J fill:#ccffcc,stroke:#009900,color:#000
+    style K fill:#ccffcc,stroke:#009900,color:#000</div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">2. YẾU TỐ NGUY CƠ & DỰ ĐOÁN</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.1. Yếu tố nguy cơ cao (ASRM 2024)</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Yếu tố nguy cơ</th><th class="p-2 border whitespace-nowrap">Cut-off</th><th class="p-2 border whitespace-nowrap">OR / Risk</th><th class="p-2 border whitespace-nowrap">Cơ chế</th><th class="p-2 border whitespace-nowrap">Evidence Level</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>PCOS</strong></td><td class="p-2 border">Rotterdam criteria</td><td class="p-2 border">OR 4.0-8.0</td><td class="p-2 border">Nhiều nang nhỏ, AMH cao, granulosa cells nhạy cảm hCG</td><td class="p-2 border">Level A</td></tr><tr class=""><td class="p-2 border"><strong>AMH cao</strong></td><td class="p-2 border">>3.0 ng/mL (>25 pmol/L)</td><td class="p-2 border">Sensitivity 82%, Specificity 76%</td><td class="p-2 border">Số nang antral nhiều → nhiều granulosa cells</td><td class="p-2 border">Level A</td></tr><tr class=""><td class="p-2 border"><strong>AFC cao</strong></td><td class="p-2 border">≥20 nang (tổng 2 buồng trứng)</td><td class="p-2 border">OR 6.2</td><td class="p-2 border">Nhiều nang → nhiều granulosa → nhiều VEGF</td><td class="p-2 border">Level A</td></tr><tr class=""><td class="p-2 border"><strong>Tiền sử OHSS</strong></td><td class="p-2 border">≥1 episode trước đó</td><td class="p-2 border">OR 6.0-8.0</td><td class="p-2 border">Cơ địa đáp ứng cao lặp lại</td><td class="p-2 border">Level A</td></tr><tr class=""><td class="p-2 border"><strong>Số noãn ≥15/chu kỳ</strong></td><td class="p-2 border">≥15 oocytes retrieved</td><td class="p-2 border">OR 5.8</td><td class="p-2 border">Càng nhiều noãn → càng nhiều hoàng thể → càng nhiều VEGF</td><td class="p-2 border">Level A</td></tr><tr class=""><td class="p-2 border"><strong>E2 đỉnh cao</strong></td><td class="p-2 border">>3,500 pg/mL (>12,800 pmol/L) ngày trigger</td><td class="p-2 border">OR 3.0-5.0</td><td class="p-2 border">Marker đáp ứng buồng trứng quá mức</td><td class="p-2 border">Level B</td></tr><tr class=""><td class="p-2 border"><strong>BMI thấp</strong></td><td class="p-2 border"><25 kg/m² (đặc biệt <20)</td><td class="p-2 border">OR 2.1</td><td class="p-2 border">Thể tích phân phối nhỏ → nồng độ hCG/VEGF cao hơn</td><td class="p-2 border">Level B</td></tr><tr class=""><td class="p-2 border"><strong>Tuổi trẻ</strong></td><td class="p-2 border"><30 tuổi</td><td class="p-2 border">OR 2.0-3.0</td><td class="p-2 border">Dự trữ buồng trứng tốt → đáp ứng mạnh</td><td class="p-2 border">Level B</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.2. Yếu tố nguy cơ trung bình — thấp</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Yếu tố</th><th class="p-2 border whitespace-nowrap">Chi tiết</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Đa nang buồng trứng trên siêu âm</strong></td><td class="p-2 border">PCOM morphology (không cần đủ Rotterdam)</td></tr><tr class=""><td class="p-2 border"><strong>Sử dụng hCG hỗ trợ hoàng thể</strong></td><td class="p-2 border">hCG luteal support thay progesterone</td></tr><tr class=""><td class="p-2 border"><strong>GnRH agonist protocol</strong></td><td class="p-2 border">Long agonist → không switch được sang agonist trigger</td></tr><tr class=""><td class="p-2 border"><strong>Dị ứng/atopy</strong></td><td class="p-2 border">Cơ địa dị ứng → phản ứng mạch máu mạnh hơn</td></tr><tr class=""><td class="p-2 border"><strong>Thiếu Vitamin D</strong></td><td class="p-2 border">Dữ liệu yếu, chưa RCT</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.3. Công cụ dự đoán nguy cơ OHSS</h3>
+<p class="text-stone-700 mb-3">ASRM 2024 khuyến cáo dùng <strong>kết hợp nhiều yếu tố</strong> thay vì 1 marker đơn độc:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Công cụ</th><th class="p-2 border whitespace-nowrap">Thành phần</th><th class="p-2 border whitespace-nowrap">Ứng dụng</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>ASRM 2024 Risk Stratification</strong></td><td class="p-2 border">AMH + AFC + tuổi + BMI + PCOS status</td><td class="p-2 border">Low (<5%), Moderate (5-15%), High (>15%) risk</td></tr><tr class=""><td class="p-2 border"><strong>AMH đơn độc</strong></td><td class="p-2 border">AMH >3.0 ng/mL</td><td class="p-2 border">Sensitivity 82% — dùng sàng lọc ban đầu</td></tr><tr class=""><td class="p-2 border"><strong>AMH + AFC kết hợp</strong></td><td class="p-2 border">AMH >3.0 + AFC >20</td><td class="p-2 border">PPV cao hơn từng marker đơn lẻ</td></tr><tr class=""><td class="p-2 border"><strong>Số noãn chọc hút</strong></td><td class="p-2 border">≥15 oocytes</td><td class="p-2 border">Post-hoc assessment — quyết định freeze-all</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">3. PHÂN LOẠI — 3 HỆ THỐNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.1. Phân loại Golan (1989) — KINH ĐIỂN, DÙNG NHIỀU NHẤT</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mức độ</th><th class="p-2 border whitespace-nowrap">Triệu chứng lâm sàng</th><th class="p-2 border whitespace-nowrap">Cận lâm sàng</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Nhẹ (Mild)</strong></td><td class="p-2 border">Bụng chướng, buồn nôn nhẹ, tăng cân <3 kg</td><td class="p-2 border">Không bất thường</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Trung bình (Moderate)</strong></td><td class="p-2 border">Bụng chướng nhiều, nôn, tăng cân 3-5 kg</td><td class="p-2 border">Ascites trên siêu âm, buồng trứng 8-12 cm</td></tr><tr class=""><td class="p-2 border"><strong>Nặng (Severe)</strong></td><td class="p-2 border">Ascites căng, khó thở, thiểu niệu, tăng cân >5 kg</td><td class="p-2 border">Hct >45%, WBC >15,000/μL, Cr↑, HypoNa, HypoK, buồng trứng >12 cm</td></tr><tr class=""><td class="p-2 border"><strong>Nguy kịch (Critical)</strong></td><td class="p-2 border">Shock, ARDS, suy thận, huyết khối</td><td class="p-2 border">Hct >55%, Cr↑ gấp đôi, DIC, thromboembolism</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.2. Phân loại RCOG/BFS (2016)</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mức độ</th><th class="p-2 border whitespace-nowrap">Đặc điểm chính</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Nhẹ</strong></td><td class="p-2 border">Bụng chướng, buồn nôn, buồng trứng <8 cm</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Trung bình</strong></td><td class="p-2 border">Ascites vừa, buồng trứng 8-12 cm</td></tr><tr class=""><td class="p-2 border"><strong>Nặng</strong></td><td class="p-2 border">Ascites căng, hydrothorax, Hct >45%, Cr↑</td></tr><tr class=""><td class="p-2 border"><strong>Nguy kịch</strong></td><td class="p-2 border">Thromboembolism, ARDS, AKI</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.3. Phân loại ASRM 2024</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mức độ</th><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Hành động</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Nhẹ (Mild)</strong></td><td class="p-2 border">Bụng chướng, buồng nôn, tăng cân <3 kg, buồng trứng <8 cm</td><td class="p-2 border">Ngoại trú, theo dõi</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Trung bình (Moderate)</strong></td><td class="p-2 border">Bụng chướng nhiều, ascites trên SA, buồng trứng 8-12 cm, Hct <45%</td><td class="p-2 border">Ngoại trú ± theo dõi sát</td></tr><tr class=""><td class="p-2 border"><strong>Nặng (Severe)</strong></td><td class="p-2 border">Ascites căng, Hct >45%, WBC >15K, Cr↑, HypoNa/K, buồng trứng >12 cm</td><td class="p-2 border"><strong>NHẬP VIỆN</strong></td></tr><tr class=""><td class="p-2 border"><strong>Nguy kịch (Critical)</strong></td><td class="p-2 border">Shock, ARDS, AKI, VTE, DIC, Hct >55%</td><td class="p-2 border"><strong>ICU</strong></td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.4. So sánh 3 hệ thống</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Tiêu chí</th><th class="p-2 border whitespace-nowrap">Golan 1989</th><th class="p-2 border whitespace-nowrap">RCOG 2016</th><th class="p-2 border whitespace-nowrap">ASRM 2024</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Phân độ</strong></td><td class="p-2 border">4 mức</td><td class="p-2 border">4 mức</td><td class="p-2 border">4 mức</td></tr><tr class=""><td class="p-2 border"><strong>Nhấn mạnh</strong></td><td class="p-2 border">Triệu chứng + CLS</td><td class="p-2 border">Triệu chứng + CLS</td><td class="p-2 border">Triệu chứng + <strong>Hành động cụ thể</strong></td></tr><tr class=""><td class="p-2 border"><strong>Cut-off Hct</strong></td><td class="p-2 border">>45% severe, >55% critical</td><td class="p-2 border">>45% severe</td><td class="p-2 border">>45% severe, >55% critical</td></tr><tr class=""><td class="p-2 border"><strong>Buồng trứng</strong></td><td class="p-2 border">>12 cm severe</td><td class="p-2 border">8-12 cm moderate</td><td class="p-2 border">8-12 moderate, >12 severe</td></tr><tr class=""><td class="p-2 border"><strong>Điểm mạnh</strong></td><td class="p-2 border">Dùng rộng rãi nhất</td><td class="p-2 border">Hệ thống Anh</td><td class="p-2 border"><strong>Hướng dẫn hành động cụ thể</strong></td></tr><tr class=""><td class="p-2 border"><strong>Điểm yếu</strong></td><td class="p-2 border">Không gắn với hành động</td><td class="p-2 border">Ít chi tiết về xử trí</td><td class="p-2 border">Mới, chưa phổ biến rộng</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Khuyến cáo thực hành:</strong> Dùng <strong>ASRM 2024</strong> cho quyết định lâm sàng (có hành động cụ thể), kết hợp <strong>Golan</strong> khi báo cáo nghiên cứu (phổ biến trong y văn).</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">4. PHÒNG NGỪA — 3 CẤP ĐỘ</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.1. Primary Prevention — TRƯỚC khi bắt đầu kích thích</h3>
+<p class="text-stone-700 mb-3"><strong>Bước 1: Xác định bệnh nhân nguy cơ cao</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đánh giá</th><th class="p-2 border whitespace-nowrap">Công cụ</th><th class="p-2 border whitespace-nowrap">Ngưỡng nguy cơ cao</th></tr></thead><tbody><tr class=""><td class="p-2 border">Dự trữ buồng trứng</td><td class="p-2 border">AMH, AFC</td><td class="p-2 border">AMH >3.0 ng/mL, AFC >20</td></tr><tr class=""><td class="p-2 border">Hình thái buồng trứng</td><td class="p-2 border">Siêu âm</td><td class="p-2 border">PCOM (≥20 nang 2-9 mm mỗi buồng trứng)</td></tr><tr class=""><td class="p-2 border">Tiền sử</td><td class="p-2 border">Bệnh án</td><td class="p-2 border">PCOS, OHSS trước đây, đáp ứng cao</td></tr><tr class=""><td class="p-2 border">BMI</td><td class="p-2 border">Đo</td><td class="p-2 border"><25 kg/m²</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Bước 2: Chọn phác đồ</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Phác đồ</th><th class="p-2 border whitespace-nowrap">Khuyến cáo ASRM 2024</th><th class="p-2 border whitespace-nowrap">Lý do</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>GnRH Antagonist</strong></td><td class="p-2 border"><strong>Nên dùng cho nguy cơ cao</strong> (Level A)</td><td class="p-2 border">Cho phép switch sang GnRH agonist trigger</td></tr><tr class=""><td class="p-2 border">GnRH Agonist (long)</td><td class="p-2 border">Không khuyến cáo cho nguy cơ cao</td><td class="p-2 border">Không dùng được agonist trigger (pituitary desensitized)</td></tr><tr class=""><td class="p-2 border">PPOS</td><td class="p-2 border">Có thể dùng (ESHRE 2025)</td><td class="p-2 border">Dùng GnRH agonist trigger hoặc hCG liều thấp</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Bước 3: Chọn liều FSH khởi đầu</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Nhóm bệnh nhân</th><th class="p-2 border whitespace-nowrap">Liều FSH khởi đầu khuyến cáo</th></tr></thead><tbody><tr class="bg-green-50"><td class="p-2 border"><strong>Nguy cơ cao (PCOS, AMH cao, AFC >20)</strong></td><td class="p-2 border"><strong>100-150 IU/ngày</strong> — thấp hơn bình thường</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Nguy cơ trung bình</strong></td><td class="p-2 border"><strong>150-225 IU/ngày</strong></td></tr><tr class=""><td class="p-2 border"><strong>Nguy cơ thấp (DOR, tuổi cao)</strong></td><td class="p-2 border"><strong>225-300 IU/ngày</strong></td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Nguyên tắc</strong>: "Start low, go slow" cho nguy cơ cao. Không dùng FSH >150 IU/ngày cho PCOS.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.2. Secondary Prevention — TRONG khi kích thích</h3>
+<p class="text-stone-700 mb-3"><strong>Chiến lược 1: GnRH Agonist Trigger (HIỆU QUẢ NHẤT)</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Trigger</th><th class="p-2 border whitespace-nowrap">OHSS risk</th><th class="p-2 border whitespace-nowrap">Cơ chế</th><th class="p-2 border whitespace-nowrap">Luteal phase</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>GnRH agonist (triptorelin 0.2mg / leuprolide 1mg)</strong></td><td class="p-2 border"><strong>Giảm 70-80%</strong> vs hCG</td><td class="p-2 border">LH surge nội sinh T½=60 phút, không tác dụng kéo dài</td><td class="p-2 border"><strong>YẾU</strong> — cần aggressive luteal support</td></tr><tr class=""><td class="p-2 border"><strong>hCG 10,000 IU</strong></td><td class="p-2 border">Baseline cao</td><td class="p-2 border">T½=36h, kéo dài 5-7 ngày</td><td class="p-2 border">Mạnh</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>hCG 5,000 IU</strong></td><td class="p-2 border">Giảm ~50% vs 10,000 IU</td><td class="p-2 border">Liều thấp hơn</td><td class="p-2 border">Trung bình</td></tr><tr class=""><td class="p-2 border"><strong>Dual trigger (hCG 1,000-2,000 + GnRH agonist)</strong></td><td class="p-2 border">Trung gian</td><td class="p-2 border">Kết hợp ưu điểm cả hai</td><td class="p-2 border">Khá hơn agonist đơn thuần</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Luteal phase support sau GnRH agonist trigger:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>KHÔNG dùng progesterone đơn độc</strong> → luteal phase quá yếu</li>
+<li>Phác đồ khuyến cáo (ESHRE 2025):</li></ul>
+<p class="text-stone-700 mb-3">  - <strong>hCG liều thấp 1,500 IU</strong> vào ngày chọc hút + progesterone</p>
+<p class="text-stone-700 mb-3">  - HOẶC <strong>E2 + P</strong> liều cao (E2 2mg × 3/ngày + P 400mg × 2/ngày đặt âm đạo)</p>
+<p class="text-stone-700 mb-3">  - HOẶC <strong>"Intensive luteal support"</strong> E2 + P + hCG mini-boost 500 IU mỗi 3 ngày</p>
+<p class="text-stone-700 mb-3">  - HOẶC đơn giản nhất: <strong>Freeze-all</strong> (không cần luteal support phức tạp)</p>
+<p class="text-stone-700 mb-3"><strong>Chiến lược 2: Coasting — Ngừng FSH khi E2 quá cao</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Tiêu chí</th><th class="p-2 border whitespace-nowrap">Chi tiết</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Chỉ định</strong></td><td class="p-2 border">E2 >3,500-4,000 pg/mL + ≥3 nang ≥14 mm</td></tr><tr class=""><td class="p-2 border"><strong>Kỹ thuật</strong></td><td class="p-2 border">Ngừng FSH, tiếp tục GnRH antagonist, chờ E2 giảm</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Thời gian</strong></td><td class="p-2 border">Trung bình <strong>2-4 ngày</strong> (không quá 4 ngày)</td></tr><tr class=""><td class="p-2 border"><strong>Mục tiêu</strong></td><td class="p-2 border">E2 giảm 10-20%/ngày → trigger khi E2 đạt mức an toàn</td></tr><tr class=""><td class="p-2 border"><strong>ASRM khuyến cáo</strong></td><td class="p-2 border">Level C — bằng chứng không đồng nhất</td></tr><tr class=""><td class="p-2 border"><strong>Rủi ro</strong></td><td class="p-2 border">Coasting >4 ngày → giảm số noãn trưởng thành, giảm chất lượng</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Chiến lược 3: Metformin — CHO PCOS</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Khuyến cáo</th><th class="p-2 border whitespace-nowrap">ASRM 2024</th><th class="p-2 border whitespace-nowrap">ESHRE 2025</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Metformin co-treatment trong chu kỳ IVF</strong></td><td class="p-2 border"><strong>Không khuyến cáo</strong> dùng ĐƠN ĐỘC để phòng OHSS</td><td class="p-2 border">Có thể xem xét cho PCOS (giảm OHSS nhẹ nhưng không cải thiện LBR)</td></tr><tr class=""><td class="p-2 border"><strong>Liều</strong></td><td class="p-2 border">—</td><td class="p-2 border">1,500-2,000 mg/ngày, bắt đầu trước COS 4-8 tuần</td></tr><tr class=""><td class="p-2 border"><strong>Cơ chế</strong></td><td class="p-2 border">↓ insulin → ↓ theca cell androgen → ↓ granulosa sensitivity</td><td class="p-2 border">Tương tự</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.3. Tertiary Prevention — SAU khi chọc hút trứng</h3>
+<p class="text-stone-700 mb-3"><strong>Chiến lược 1: Freeze-All Embryos (HIỆU QUẢ NHẤT CHO LATE OHSS)</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Chỉ định freeze-all</th><th class="p-2 border whitespace-nowrap">Khuyến cáo ASRM 2024</th></tr></thead><tbody><tr class=""><td class="p-2 border">Nguy cơ OHSS cao + GnRH agonist trigger</td><td class="p-2 border"><strong>Khuyến cáo mạnh</strong> (Level A)</td></tr><tr class=""><td class="p-2 border">Nguy cơ OHSS cao + hCG trigger</td><td class="p-2 border"><strong>Khuyến cáo</strong> (Level B)</td></tr><tr class=""><td class="p-2 border">Số noãn ≥20</td><td class="p-2 border"><strong>Cân nhắc mạnh</strong></td></tr><tr class=""><td class="p-2 border">E2 >5,000 pg/mL ngày trigger</td><td class="p-2 border"><strong>Cân nhắc</strong></td></tr><tr class=""><td class="p-2 border">Early OHSS đang diễn tiến</td><td class="p-2 border"><strong>Bắt buộc</strong> freeze-all</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Cơ chế bảo vệ</strong>: Không có thai → không có hCG nội sinh → không có late OHSS. Early OHSS nếu có sẽ tự giới hạn trong 7-14 ngày.</p>
+<p class="text-stone-700 mb-3"><strong>Chiến lược 2: Cabergoline (Dopamine Agonist)</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thông số</th><th class="p-2 border whitespace-nowrap">Chi tiết</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Liều</strong></td><td class="p-2 border"><strong>0.5 mg/ngày × 8 ngày</strong>, bắt đầu ngày trigger (hoặc ngày chọc hút)</td></tr><tr class=""><td class="p-2 border"><strong>Cơ chế</strong></td><td class="p-2 border">Dopamine D2 agonist → ↓ VEGFR-2 phosphorylation → ↓ capillary leak</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Hiệu quả</strong></td><td class="p-2 border">OR 0.48 (giảm 52% OHSS trung bình-nặng) — Cochrane 2012</td></tr><tr class=""><td class="p-2 border"><strong>Tác dụng phụ</strong></td><td class="p-2 border">Buồn nôn, chóng mặt, hạ HA tư thế (thường nhẹ, tự hết)</td></tr><tr class=""><td class="p-2 border"><strong>ASRM khuyến cáo</strong></td><td class="p-2 border"><strong>Level B</strong> — nên dùng cho nguy cơ cao</td></tr><tr class=""><td class="p-2 border"><strong>Ưu điểm</strong></td><td class="p-2 border">Rẻ, uống, an toàn, không ảnh hưởng thai</td></tr><tr class=""><td class="p-2 border"><strong>Ghi chú</strong></td><td class="p-2 border">Có thể dùng <strong>đồng thời với freeze-all</strong> — cơ chế bổ trợ</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Chiến lược 3: KHÔNG KHUYẾN CÁO</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Can thiệp</th><th class="p-2 border whitespace-nowrap">ASRM 2024</th><th class="p-2 border whitespace-nowrap">Lý do</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Albumin truyền tĩnh mạch</strong> dự phòng</td><td class="p-2 border"><strong>Không khuyến cáo</strong></td><td class="p-2 border">Không cải thiện OHSS, tốn kém, nguy cơ dị ứng</td></tr><tr class=""><td class="p-2 border"><strong>Hydroxyethyl starch (HES)</strong> dự phòng</td><td class="p-2 border"><strong>Không khuyến cáo</strong></td><td class="p-2 border">Nguy cơ suy thận, không hơn albumin</td></tr><tr class=""><td class="p-2 border"><strong>Letrozole</strong> phòng OHSS</td><td class="p-2 border"><strong>Chưa đủ bằng chứng</strong></td><td class="p-2 border">Một số pilot studies nhưng chưa có RCT lớn</td></tr><tr class=""><td class="p-2 border"><strong>hCG luteal support</strong> cho nguy cơ cao</td><td class="p-2 border"><strong>Chống chỉ định</strong></td><td class="p-2 border">Tăng OHSS, dùng progesterone thay thế</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.4. Bảng tổng hợp chiến lược phòng ngừa</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Cấp</th><th class="p-2 border whitespace-nowrap">Chiến lược</th><th class="p-2 border whitespace-nowrap">Mức khuyến cáo</th><th class="p-2 border whitespace-nowrap">OHSS reduction</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Primary</strong></td><td class="p-2 border">GnRH Antagonist protocol</td><td class="p-2 border">A</td><td class="p-2 border">OR 0.61</td></tr><tr class=""><td class="p-2 border"><strong>Primary</strong></td><td class="p-2 border">Low starting FSH dose</td><td class="p-2 border">Expert consensus</td><td class="p-2 border">↓ đáp ứng quá mức</td></tr><tr class=""><td class="p-2 border"><strong>Secondary</strong></td><td class="p-2 border">GnRH Agonist trigger</td><td class="p-2 border"><strong>A</strong></td><td class="p-2 border"><strong>↓ 70-80%</strong></td></tr><tr class=""><td class="p-2 border"><strong>Secondary</strong></td><td class="p-2 border">Coasting</td><td class="p-2 border">C</td><td class="p-2 border">↓ 30-50%</td></tr><tr class=""><td class="p-2 border"><strong>Secondary</strong></td><td class="p-2 border">Cycle cancellation</td><td class="p-2 border">B</td><td class="p-2 border">100% (no retrieval)</td></tr><tr class=""><td class="p-2 border"><strong>Tertiary</strong></td><td class="p-2 border">Freeze-all</td><td class="p-2 border"><strong>A</strong></td><td class="p-2 border"><strong>↓ late OHSS 100%</strong></td></tr><tr class=""><td class="p-2 border"><strong>Tertiary</strong></td><td class="p-2 border">Cabergoline 0.5mg × 8d</td><td class="p-2 border"><strong>B</strong></td><td class="p-2 border"><strong>OR 0.48</strong></td></tr><tr class=""><td class="p-2 border"><strong>Tertiary</strong></td><td class="p-2 border">Albumin / HES</td><td class="p-2 border"><strong>Không KC</strong></td><td class="p-2 border">Không hiệu quả</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">5. LƯU ĐỒ QUYẾT ĐỊNH LÂM SÀNG</h2>
+<div class="mermaid text-center my-6">flowchart TD
+    START["Bệnh nhân chuẩn bị COS"] --> RISK["Đánh giá nguy cơ OHSS<br>AMH, AFC, PCOS, tuổi, BMI"]
+    RISK --> HIGH{"Nguy cơ CAO?"}
+    HIGH -->|"KHÔNG"| STD["Phác đồ chuẩn<br>FSH 150-225 IU, hCG trigger"]
+    HIGH -->|"CÓ"| ANT["GnRH ANTAGONIST protocol<br>FSH khởi đầu 100-150 IU"]
+    ANT --> MONITOR["Theo dõi sát<br>E2, số nang, kích thước"]
+    MONITOR --> DECISION{"E2 >3,500<br>HOẶC >20 nang ≥14mm?"}
+    DECISION -->|"KHÔNG"| HCG["Trigger hCG<br>liều thấp nhất hiệu quả"]
+    DECISION -->|"CÓ"| AGONIST["GnRH AGONIST trigger<br>triptorelin 0.2mg"]
+    AGONIST --> FRZ{"Freeze-all?"}
+    FRZ -->|"CÓ"| FREEZE["TRỮ TOÀN BỘ PHÔI<br>+ Cabergoline 0.5mg × 8d"]
+    FRZ -->|"KHÔNG"| LPS["Luteal support tích cực<br>P + E2 ± mini-hCG boost"]
+    HCG --> RETRIEVAL["Chọc hút noãn"]
+    FREEZE --> RETRIEVAL
+    LPS --> RETRIEVAL
+    RETRIEVAL --> OOCYTES{"Số noãn ≥15?"}
+    OOCYTES -->|"KHÔNG"| FRESH["Fresh ET — an toàn"]
+    OOCYTES -->|"CÓ"| FREEZE2["CÂN NHẮC FREEZE-ALL<br>nếu chưa làm"]
+    RETRIEVAL --> MONITOR2["Theo dõi OHSS sớm<br>Cân nặng, bụng, nước tiểu<br>3-5 ngày sau chọc hút"]
+    MONITOR2 --> SYMPTOM{"Triệu chứng OHSS?"}
+    SYMPTOM -->|"KHÔNG"| OK["ỔN — Theo dõi ngoại trú"]
+    SYMPTOM -->|"CÓ"| SEVERITY{"Đánh giá mức độ"}
+    
+    SEVERITY -->|"Nhẹ-TB"| OUTPATIENT["NGOẠI TRÚ<br>Cabergoline, protein, theo dõi<br>Tái khám 2-3 ngày"]
+    SEVERITY -->|"Nặng"| ADMIT["NHẬP VIỆN<br>Truyền dịch, LMWH,<br>Paracentesis nếu cần"]
+    SEVERITY -->|"Nguy kịch"| ICU["ICU<br>Hồi sức, chống đông,<br>lọc máu nếu AKI"]
+    
+    style AGONIST fill:#c8e6c9,stroke:#388e3c,stroke-width:3px
+    style FREEZE fill:#c8e6c9,stroke:#388e3c,stroke-width:3px
+    style ADMIT fill:#ffcc80,stroke:#ef6c00,stroke-width:2px
+    style ICU fill:#ffcdd2,stroke:#c62828,stroke-width:3px</div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">6. SAI LẦM THƯỜNG GẶP</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">#</th><th class="p-2 border whitespace-nowrap">Sai lầm</th><th class="p-2 border whitespace-nowrap">Hậu quả</th><th class="p-2 border whitespace-nowrap">Cách tránh</th></tr></thead><tbody><tr class=""><td class="p-2 border">1</td><td class="p-2 border"><strong>Không đánh giá nguy cơ OHSS trước COS</strong></td><td class="p-2 border">Bắt đầu phác đồ không phù hợp → OHSS nặng</td><td class="p-2 border">Luôn đo AMH, AFC, đánh giá PCOS trước mọi chu kỳ IVF đầu tiên</td></tr><tr class=""><td class="p-2 border">2</td><td class="p-2 border"><strong>Dùng hCG trigger cho PCOS/high responder</strong></td><td class="p-2 border">OHSS early + late nếu có thai</td><td class="p-2 border">Chuyển sang GnRH antagonist + agonist trigger cho nhóm nguy cơ cao</td></tr><tr class=""><td class="p-2 border">3</td><td class="p-2 border"><strong>Fresh ET sau GnRH agonist trigger không có luteal support đủ mạnh</strong></td><td class="p-2 border">Thai không làm tổ do luteal phase quá yếu</td><td class="p-2 border">Hoặc freeze-all, hoặc E2+P liều cao + hCG mini-boost</td></tr><tr class=""><td class="p-2 border">4</td><td class="p-2 border"><strong>Dùng cabergoline thay vì freeze-all cho nguy cơ rất cao</strong></td><td class="p-2 border">Cabergoline chỉ giảm OHSS 50%, không loại bỏ late OHSS</td><td class="p-2 border">Freeze-all cho nhóm nguy cơ rất cao; cabergoline bổ trợ</td></tr><tr class=""><td class="p-2 border">5</td><td class="p-2 border"><strong>Truyền quá nhiều dịch tinh thể cho OHSS nặng</strong></td><td class="p-2 border">Làm nặng thêm ascites, phù, hạ Na⁺</td><td class="p-2 border">Dùng keo (albumin 20%) 100-200 mL/ngày + hạn chế crystalloid</td></tr><tr class=""><td class="p-2 border">6</td><td class="p-2 border"><strong>Quên dự phòng huyết khối ở OHSS nặng</strong></td><td class="p-2 border">Thromboembolism → tử vong</td><td class="p-2 border">LMWH (enoxaparin 40mg/ngày) khi Hct >45% hoặc bất động</td></tr><tr class=""><td class="p-2 border">7</td><td class="p-2 border"><strong>Cho xuất viện quá sớm sau OHSS nặng</strong></td><td class="p-2 border">Hct giảm giả (do truyền dịch) che lấp cô đặc máu → tái phát nặng hơn</td><td class="p-2 border">Theo dõi Hct mỗi 12h, ra viện khi Hct <40% ổn định + hết khó thở</td></tr><tr class=""><td class="p-2 border">8</td><td class="p-2 border"><strong>NSAIDs giảm đau cho OHSS</strong></td><td class="p-2 border">Suy thận cấp (đặc biệt khi đã hypovolemia)</td><td class="p-2 border"><strong>TUYỆT ĐỐI tránh NSAIDs</strong>. Dùng paracetamol 500-1000mg/6h</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">7. QUẢN LÝ OHSS NẶNG & NGUY KỊCH</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.1. Chỉ định nhập viện (ANY of the following)</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Chỉ định</th><th class="p-2 border whitespace-nowrap">Ngưỡng</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Cô đặc máu</strong></td><td class="p-2 border">Hct >45% (hoặc >48% theo Golan)</td></tr><tr class=""><td class="p-2 border"><strong>Tăng bạch cầu</strong></td><td class="p-2 border">WBC >15,000/μL</td></tr><tr class=""><td class="p-2 border"><strong>Thiểu niệu</strong></td><td class="p-2 border">Nước tiểu <500 mL/24h hoặc <30 mL/h</td></tr><tr class=""><td class="p-2 border"><strong>Suy thận</strong></td><td class="p-2 border">Creatinine >1.2 mg/dL hoặc tăng gấp đôi baseline</td></tr><tr class=""><td class="p-2 border"><strong>Rối loạn điện giải</strong></td><td class="p-2 border">HypoNa <133 mmol/L, HypoK <3.0 mmol/L</td></tr><tr class=""><td class="p-2 border"><strong>Khó thở</strong></td><td class="p-2 border">Tràn dịch màng phổi, SpO2 <95%, xẹp phổi</td></tr><tr class=""><td class="p-2 border"><strong>Đau không kiểm soát</strong></td><td class="p-2 border">Đau bụng không đáp ứng paracetamol đường uống</td></tr><tr class=""><td class="p-2 border"><strong>Không dung nạp đường uống</strong></td><td class="p-2 border">Nôn liên tục, không uống được</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.2. Hồi sức dịch & Điện giải</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dung dịch</th><th class="p-2 border whitespace-nowrap">Liều</th><th class="p-2 border whitespace-nowrap">Chỉ định</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Albumin 20%</strong> (keo)</td><td class="p-2 border">100-200 mL/ngày, truyền tĩnh mạch chậm</td><td class="p-2 border">Duy trì thể tích lòng mạch, kéo dịch từ khoang thứ ba về</td></tr><tr class=""><td class="p-2 border"><strong>NaCl 0.9%</strong> (tinh thể)</td><td class="p-2 border">1-1.5 L giờ đầu nếu tụt HA, sau đó 125-150 mL/h duy trì</td><td class="p-2 border">Bù dịch ban đầu</td></tr><tr class=""><td class="p-2 border"><strong>Ringer Lactate</strong></td><td class="p-2 border">1-1.5 L/24h</td><td class="p-2 border">Thay thế NaCl 0.9% nếu toan chuyển hóa</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Nguyên tắc</strong>: </p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Hạn chế crystalloid</strong> — crystalloid thoát nhanh ra khoang thứ ba → làm nặng ascites</li>
+<li><strong>Ưu tiên keo (albumin)</strong> — giữ dịch trong lòng mạch</li>
+<li>Cân bằng I/O nghiêm ngặt, theo dõi CVP nếu ICU</li>
+<li><strong>KHÔNG lợi tiểu</strong> (furosemide) — giảm thể tích lòng mạch → suy thận nặng hơn</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.3. Chọc hút dịch cổ trướng (Paracentesis)</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thông số</th><th class="p-2 border whitespace-nowrap">Chi tiết</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Chỉ định</strong></td><td class="p-2 border">Khó thở nặng (SpO2 <95%), đau căng bụng không chịu được, Hct không cải thiện sau 48h điều trị nội</td></tr><tr class=""><td class="p-2 border"><strong>Kỹ thuật</strong></td><td class="p-2 border">Siêu âm hướng dẫn, kim 18-20G, qua thành bụng (tránh buồng trứng to)</td></tr><tr class=""><td class="p-2 border"><strong>Thể tích</strong></td><td class="p-2 border">Hút tối đa 2-3 L/lần, hút chậm (nguy cơ tụt HA đột ngột)</td></tr><tr class=""><td class="p-2 border"><strong>Catheter lưu</strong></td><td class="p-2 border">Có thể đặt pigtail catheter dẫn lưu liên tục nếu tái phát nhanh</td></tr><tr class=""><td class="p-2 border"><strong>Xét nghiệm dịch</strong></td><td class="p-2 border">Không cần routine — dịch thấm (transudate) điển hình</td></tr><tr class=""><td class="p-2 border"><strong>Rủi ro</strong></td><td class="p-2 border">Chảy máu (đặc biệt nếu rối loạn đông máu), thủng ruột, nhiễm trùng</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.4. Dự phòng huyết khối</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thuốc</th><th class="p-2 border whitespace-nowrap">Liều</th><th class="p-2 border whitespace-nowrap">Chỉ định</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Enoxaparin (LMWH)</strong></td><td class="p-2 border">40 mg/ngày tiêm dưới da</td><td class="p-2 border">Hct >45% HOẶC bất động</td></tr><tr class=""><td class="p-2 border"><strong>Enoxaparin liều điều trị</strong></td><td class="p-2 border">1 mg/kg × 2/ngày</td><td class="p-2 border">Đã có huyết khối (VTE)</td></tr><tr class=""><td class="p-2 border"><strong>Tất áp lực (TED stockings)</strong></td><td class="p-2 border">—</td><td class="p-2 border">Tất cả OHSS nhập viện</td></tr><tr class=""><td class="p-2 border"><strong>Vận động sớm</strong></td><td class="p-2 border">—</td><td class="p-2 border">Tránh bất động kéo dài</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.5. ICU admission criteria</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Shock (HA tụt không đáp ứng dịch)</li>
+<li>ARDS (SpO2 <90% với O2 15L, PaO2/FiO2 <200)</li>
+<li>Suy thận cấp cần lọc máu (Cr >3.0 hoặc K+ >6.0)</li>
+<li>Huyết khối có triệu chứng (PE, DVT lan rộng)</li>
+<li>DIC (tiểu cầu giảm, PT/aPTT kéo dài, fibrinogen giảm)</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">8. BẢNG THUỐC VÀ LIỀU DÙNG</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thuốc</th><th class="p-2 border whitespace-nowrap">Liều</th><th class="p-2 border whitespace-nowrap">Đường dùng</th><th class="p-2 border whitespace-nowrap">Chỉ định</th><th class="p-2 border whitespace-nowrap">Chống chỉ định</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Cabergoline</strong></td><td class="p-2 border">0.5 mg × 1/ngày × 8 ngày</td><td class="p-2 border">Uống</td><td class="p-2 border">Dự phòng OHSS (bắt đầu ngày trigger)</td><td class="p-2 border">Dị ứng, bệnh van tim</td></tr><tr class=""><td class="p-2 border"><strong>Triptorelin (GnRH agonist trigger)</strong></td><td class="p-2 border">0.2 mg × 1 liều duy nhất</td><td class="p-2 border">Tiêm dưới da</td><td class="p-2 border">Trigger thay hCG ở antagonist cycle nguy cơ cao</td><td class="p-2 border">—</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>hCG (trigger)</strong></td><td class="p-2 border">3,300-5,000 IU (low-risk) hoặc 10,000 IU (standard)</td><td class="p-2 border">Tiêm dưới da / bắp</td><td class="p-2 border">Trigger ở bệnh nhân nguy cơ thấp-trung bình</td><td class="p-2 border">Nguy cơ OHSS cao</td></tr><tr class=""><td class="p-2 border"><strong>Albumin 20%</strong></td><td class="p-2 border">100-200 mL/ngày</td><td class="p-2 border">Truyền tĩnh mạch</td><td class="p-2 border">OHSS nặng — duy trì thể tích lòng mạch</td><td class="p-2 border">Quá tải dịch, suy tim</td></tr><tr class=""><td class="p-2 border"><strong>Enoxaparin dự phòng</strong></td><td class="p-2 border">40 mg × 1/ngày</td><td class="p-2 border">Tiêm dưới da</td><td class="p-2 border">Dự phòng VTE khi Hct >45%</td><td class="p-2 border">Chảy máu hoạt động</td></tr><tr class=""><td class="p-2 border"><strong>Enoxaparin điều trị</strong></td><td class="p-2 border">1 mg/kg × 2/ngày</td><td class="p-2 border">Tiêm dưới da</td><td class="p-2 border">VTE đã xác định</td><td class="p-2 border">Chảy máu hoạt động</td></tr><tr class=""><td class="p-2 border"><strong>Paracetamol</strong></td><td class="p-2 border">500-1,000 mg mỗi 6h (tối đa 4g/ngày)</td><td class="p-2 border">Uống</td><td class="p-2 border">Giảm đau OHSS (THAY NSAIDs)</td><td class="p-2 border">Suy gan nặng</td></tr><tr class=""><td class="p-2 border"><strong>Metoclopramide</strong></td><td class="p-2 border">10 mg mỗi 8h</td><td class="p-2 border">Uống/TM</td><td class="p-2 border">Chống nôn OHSS</td><td class="p-2 border">Parkinson, tắc ruột</td></tr><tr class=""><td class="p-2 border"><strong>Progesterone micronized</strong></td><td class="p-2 border">400 mg × 2/ngày</td><td class="p-2 border">Đặt âm đạo</td><td class="p-2 border">Luteal support sau agonist trigger</td><td class="p-2 border">—</td></tr><tr class=""><td class="p-2 border"><strong>Estradiol valerate</strong></td><td class="p-2 border">2 mg × 3/ngày</td><td class="p-2 border">Uống</td><td class="p-2 border">Luteal support (bổ trợ E2) sau agonist trigger</td><td class="p-2 border">Tiền sử VTE</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">9. CASE STUDIES — 4 CA LÂM SÀNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Case 1: PCOS nguy cơ cao — Phòng ngừa thành công</h3>
+<p class="text-stone-700 mb-3"><strong>Bệnh nhân</strong>: 28 tuổi, PCOS (Rotterdam), BMI 22, AMH 5.6 ng/mL, AFC 32. Chu kỳ IVF đầu tiên.</p>
+<p class="text-stone-700 mb-3"><strong>Xử trí</strong>: GnRH antagonist protocol, FSH 112.5 IU/ngày. Theo dõi đến ngày 10: E2 4,200 pg/mL, 22 nang ≥14 mm. <strong>GnRH agonist trigger (triptorelin 0.2mg)</strong> + <strong>freeze-all</strong>. Cabergoline 0.5mg/ngày × 8 ngày.</p>
+<p class="text-stone-700 mb-3"><strong>Kết quả</strong>: Chọc hút 18 noãn. Early OHSS nhẹ (bụng chướng nhẹ 2 ngày, tự hết). Không late OHSS. FET chu kỳ sau → thai đơn.</p>
+<p class="text-stone-700 mb-3"><strong>Bài học</strong>: <strong>Antagonist + agonist trigger + freeze-all = gold standard</strong> cho PCOS nguy cơ cao.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Case 2: Early OHSS sau hCG trigger — Xử trí ngoại trú</h3>
+<p class="text-stone-700 mb-3"><strong>Bệnh nhân</strong>: 32 tuổi, không PCOS, AMH 2.1, AFC 14. Long GnRH agonist protocol (không có chỉ định nguy cơ cao). FSH 225 IU/ngày.</p>
+<p class="text-stone-700 mb-3"><strong>Diễn tiến</strong>: Chọc hút 14 noãn, hCG 10,000 IU trigger. Ngày 3 post-retrieval: bụng chướng, buồn nôn, tăng cân 2.5 kg. Siêu âm: ascites nhẹ, buồng trứng 9 cm.</p>
+<p class="text-stone-700 mb-3"><strong>Xử trí</strong>: <strong>Ngoại trú</strong>. Cabergoline 0.5mg/ngày × 8 ngày. Uống protein 1.5g/kg. Theo dõi cân nặng mỗi ngày. Tái khám sau 3 ngày.</p>
+<p class="text-stone-700 mb-3"><strong>Kết quả</strong>: Triệu chứng ổn định, không cần nhập viện. Fresh ET ngày 5 → thai sinh hóa (không có late OHSS).</p>
+<p class="text-stone-700 mb-3"><strong>Bài học</strong>: Early OHSS nhẹ → ngoại trú. Cabergoline hiệu quả. Nếu có thai → theo dõi sát late OHSS.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Case 3: Late OHSS nặng sau fresh ET — Nhập viện</h3>
+<p class="text-stone-700 mb-3"><strong>Bệnh nhân</strong>: 26 tuổi, PCOS, AMH 8.2, AFC 28. IVF lần 2.</p>
+<p class="text-stone-700 mb-3"><strong>Diễn tiến</strong>: GnRH antagonist + hCG 5,000 IU trigger (lâm sàng đánh giá nguy cơ thấp). Chọc hút 16 noãn, fresh ET 1 blastocyst ngày 5. β-hCG ngày 12 = 280 mIU/mL (thai). Ngày 7 post-ET (ngày 12 post-trigger): <strong>đau bụng nhiều, khó thở, tăng cân 4.5 kg, Hct 47%</strong>.</p>
+<p class="text-stone-700 mb-3"><strong>Xử trí</strong>: Nhập viện. Albumin 20% 100 mL/ngày. Enoxaparin 40mg. Paracentesis: hút 2.2L dịch vàng trong. Theo dõi I/O.</p>
+<p class="text-stone-700 mb-3"><strong>Kết quả</strong>: Ổn sau 5 ngày. Hct giảm dần 47→38%. Xuất viện ngày 6. Thai diễn tiến bình thường (đơn thai).</p>
+<p class="text-stone-700 mb-3"><strong>Bài học</strong>: <strong>Late OHSS = hCG nội sinh từ thai</strong> — dù đã giảm hCG trigger xuống 5,000 IU, vẫn có thể xảy ra. Lẽ ra nên <strong>freeze-all</strong>.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Case 4: Critical OHSS — Thromboembolism & ICU</h3>
+<p class="text-stone-700 mb-3"><strong>Bệnh nhân</strong>: 24 tuổi, PCOS nặng, AMH 12 ng/mL. IVF lần đầu, không đánh giá nguy cơ trước COS. Long GnRH agonist protocol + hCG 10,000 IU.</p>
+<p class="text-stone-700 mb-3"><strong>Diễn tiến</strong>: Chọc hút 25 noãn. Fresh ET 2 blastocysts. Ngày 14 post-trigger: đau ngực, khó thở nặng, SpO2 88%, Hct 55%, Cr 2.3, D-dimer >10,000. <strong>CTPA</strong>: pulmonary embolism nhánh nhỏ. Siêu âm Doppler: DVT tĩnh mạch khoeo trái.</p>
+<p class="text-stone-700 mb-3"><strong>Xử trí</strong>: ICU. O2 mask 15L. Enoxaparin điều trị 1mg/kg × 2. Albumin. Paracentesis 2.5L + dẫn lưu màng phổi 1.2L. Thai sinh hóa (sẩy tuần 5). Hồi phục sau 12 ngày ICU.</p>
+<p class="text-stone-700 mb-3"><strong>Bài học</strong>: <strong>Thảm họa hoàn toàn phòng ngừa được</strong>: lẽ ra dùng antagonist + agonist trigger + freeze-all. Đây là ví dụ điển hình về hậu quả của việc <strong>không đánh giá nguy cơ OHSS trước COS</strong>.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">10. GUIDELINES SO SÁNH</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Khuyến cáo</th><th class="p-2 border whitespace-nowrap">ASRM 2024</th><th class="p-2 border whitespace-nowrap">ESHRE 2025</th><th class="p-2 border whitespace-nowrap">RCOG GTG No.5 (2016)</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Antagonist cho nguy cơ cao</strong></td><td class="p-2 border">Level A</td><td class="p-2 border">Strong ⊕⊕⊕◯</td><td class="p-2 border">Khuyến cáo</td></tr><tr class=""><td class="p-2 border"><strong>GnRH agonist trigger</strong></td><td class="p-2 border">Level <strong>A</strong></td><td class="p-2 border">Strong ⊕⊕⊕◯</td><td class="p-2 border">Khuyến cáo</td></tr><tr class=""><td class="p-2 border"><strong>Freeze-all cho nguy cơ cao</strong></td><td class="p-2 border">Level <strong>A</strong></td><td class="p-2 border">Strong ⊕⊕⊕◯</td><td class="p-2 border">Khuyến cáo</td></tr><tr class=""><td class="p-2 border"><strong>Cabergoline 0.5mg × 8d</strong></td><td class="p-2 border">Level <strong>B</strong></td><td class="p-2 border">Conditional ⊕⊕◯◯</td><td class="p-2 border">Khuyến cáo</td></tr><tr class=""><td class="p-2 border"><strong>Coasting</strong></td><td class="p-2 border">Level C</td><td class="p-2 border">Conditional ⊕◯◯◯</td><td class="p-2 border">Có thể xem xét</td></tr><tr class=""><td class="p-2 border"><strong>Metformin phòng OHSS</strong></td><td class="p-2 border"><strong>Không khuyến cáo</strong></td><td class="p-2 border">GPP (có thể xem xét)</td><td class="p-2 border">Không khuyến cáo</td></tr><tr class=""><td class="p-2 border"><strong>Albumin/HES dự phòng</strong></td><td class="p-2 border"><strong>Không khuyến cáo</strong></td><td class="p-2 border">Không khuyến cáo</td><td class="p-2 border">Không khuyến cáo</td></tr><tr class=""><td class="p-2 border"><strong>hCG liều thấp (trigger)</strong></td><td class="p-2 border">Level B</td><td class="p-2 border">Conditional ⊕⊕◯◯</td><td class="p-2 border">Khuyến cáo</td></tr><tr class=""><td class="p-2 border"><strong>Paracentesis OHSS nặng</strong></td><td class="p-2 border">Khuyến cáo</td><td class="p-2 border">Khuyến cáo</td><td class="p-2 border">Khuyến cáo</td></tr><tr class=""><td class="p-2 border"><strong>LMWH dự phòng</strong></td><td class="p-2 border">Khuyến cáo</td><td class="p-2 border">Khuyến cáo</td><td class="p-2 border">Khuyến cáo</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">11. ÁP DỤNG TẠI VIỆT NAM</h2>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Dịch tễ OHSS tại VN</strong>: Chưa có số liệu quốc gia chính thức. Ước tính từ các trung tâm IVF lớn (Từ Dũ, Hạnh Phúc, Vinmec): OHSS nặng ~0.5-1% các chu kỳ, tương đương quốc tế.</li>
+<li><strong>Triptorelin (GnRH agonist trigger)</strong>: Có sẵn tại VN (Diphereline 0.1mg). Giá ~200,000-400,000 VNĐ/liều — rẻ hơn hCG 10,000 IU (Ovitrelle ~1,500,000 VNĐ).</li>
+<li><strong>Cabergoline</strong>: Có sẵn (Dostinex 0.5mg × 8 viên ~300,000 VNĐ). Rẻ, dễ dùng.</li>
+<li><strong>Albumin 20%</strong>: Có sẵn nhưng đắt (100mL ~1,000,000 VNĐ). BHYT chi trả khi nhập viện.</li>
+<li><strong>Enoxaparin (Lovenox)</strong>: Có sẵn. Lưu ý: ở VN thường dùng Clexane 40mg/ngày.</li>
+<li><strong>Paracentesis siêu âm hướng dẫn</strong>: Kỹ thuật sẵn có ở các bệnh viện có khoa IVF + siêu âm can thiệp.</li>
+<li><strong>Freeze-all</strong>: Phổ biến tại VN từ 2022-2024. Chi phí vitrification ~5-8 triệu VNĐ/chu kỳ.</li>
+<li><strong>Hạn chế chính tại VN</strong>: Một số cơ sở tuyến dưới chưa có sẵn triptorelin/cabergoline. Bác sĩ cần kiểm tra thuốc sẵn có trước khi chọn phác đồ.</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">12. TIPS THỰC HÀNH — 12 TIPS</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Luôn đo AMH + AFC trước mọi chu kỳ IVF đầu tiên</strong> — đừng bao giờ skip bước đánh giá nguy cơ OHSS</li>
+<li><strong>PCOS = Antagonist protocol MẶC ĐỊNH</strong> — KHÔNG dùng long GnRH agonist cho nhóm này</li>
+<li><strong>Agonist trigger + Freeze-all = "vaccine" OHSS</strong> — hiệu quả nhất, đặc biệt cho AMH >3.0, AFC >20</li>
+<li><strong>Dual trigger (hCG 1,500 + agonist) = lựa chọn cân bằng</strong> — nếu không muốn freeze-all nhưng vẫn cần giảm OHSS</li>
+<li><strong>Cabergoline = "bảo hiểm thêm"</strong> — rẻ, an toàn, nên cho MỌI nguy cơ cao dù đã freeze-all</li>
+<li><strong>Early OHSS + fresh ET = coi chừng late OHSS</strong> — nếu có thai, theo dõi sát đến tuần 8-10</li>
+<li><strong>Hct >45% = báo động đỏ</strong> — nhập viện, LMWH, theo dõi I/O</li>
+<li><strong>Không dùng NSAIDs giảm đau OHSS</strong> — paracetamol hoặc opiate nhẹ (tramadol)</li>
+<li><strong>Truyền albumin, không truyền nhiều NaCl</strong> — keo giữ dịch trong lòng mạch, tinh thể thoát ra ngoài</li>
+<li><strong>Paracentesis sớm nếu khó thở</strong> — đừng trì hoãn, an toàn dưới siêu âm</li>
+<li><strong>TED stockings + LMWH cho MỌI OHSS nhập viện</strong> — VTE là nguyên nhân tử vong #1</li>
+<li><strong>Tư vấn trước COS: "bạn có nguy cơ OHSS X%, chúng tôi sẽ phòng ngừa bằng..."</strong> — informed consent</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">13. TỔNG KẾT — 10 ĐIỂM CẦN NHỚ</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>OHSS = VEGF-driven capillary leak</strong> — cơ chế trung tâm: hCG → VEGF-A → VEGFR-2 → Src → VE-cadherin mất → dịch thoát mạch</li>
+<li><strong>Early vs Late OHSS là HAI BỆNH KHÁC NHAU</strong> — cơ chế khác, xử trí khác, phòng ngừa khác</li>
+<li><strong>High-risk = PCOS, AMH >3.0, AFC >20, tiền sử OHSS</strong> — đánh giá BẮT BUỘC trước mọi chu kỳ</li>
+<li><strong>Antagonist + agonist trigger = phòng ngừa hiệu quả nhất</strong> — ↓OHSS nặng 70-80%</li>
+<li><strong>Freeze-all = loại bỏ late OHSS</strong> — không có thai → không có hCG nội sinh → không có late OHSS</li>
+<li><strong>Cabergoline 0.5mg × 8d = "bảo hiểm giá rẻ"</strong> — OR 0.48, nên cho mọi nguy cơ cao</li>
+<li><strong>Hct >45% = NHẬP VIỆN</strong> — đừng trì hoãn</li>
+<li><strong>Albumin 20% (không phải NaCl) cho hồi sức dịch</strong> — keo giữ dịch, tinh thể làm nặng ascites</li>
+<li><strong>LMWH dự phòng cho mọi OHSS nặng</strong> — VTE là nguyên nhân tử vong số 1</li>
+<li><strong>TUYỆT ĐỐI không NSAIDs cho OHSS</strong> — suy thận cấp trên nền hypovolemia</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">14. TÀI LIỆU THAM KHẢO</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Practice Committee of ASRM.</strong> "Prevention of moderate and severe ovarian hyperstimulation syndrome: a guideline." <em>Fertil Steril.</em> 2024;121(2):230-245. PMID: <strong>38099867</strong>. [Tier 0 — ASRM 2024, thay thế ASRM 2016]</li>
+<li><strong>Practice Committee of ASRM.</strong> "Prevention and treatment of moderate and severe ovarian hyperstimulation syndrome: a guideline." <em>Fertil Steril.</em> 2016;106(7):1634-1647. PMID: <strong>27678032</strong>. [Tier 0 — ASRM 2016, tham khảo lịch sử]</li>
+<li><strong>ESHRE Guideline Group on Ovarian Stimulation.</strong> "ESHRE guideline: ovarian stimulation for IVF/ICSI: an update in 2025." <em>Hum Reprod.</em> 2026;41(4):498-514. PMID: <strong>41732035</strong>. [Tier 0 — OHSS section trong 121 recommendations]</li>
+<li><strong>Royal College of Obstetricians and Gynaecologists.</strong> "The Management of Ovarian Hyperstimulation Syndrome." Green-top Guideline No. 5, 2016. [Tier 0 — RCOG GTG No.5, vẫn áp dụng]</li>
+<li><strong>Soares SR, Gómez R, Simón C, García-Velasco JA, Pellicer A.</strong> "Targeting the vascular endothelial growth factor system to prevent ovarian hyperstimulation syndrome." <em>Hum Reprod Update.</em> 2008;14(4):321-333. PMID: <strong>18477582</strong>. [Review — Cơ chế VEGF trong OHSS]</li>
+<li><strong>Tang H, Hunter T, Hu Y, Zhai SD, Sheng X, Hart RJ.</strong> "Cabergoline for preventing ovarian hyperstimulation syndrome." <em>Cochrane Database Syst Rev.</em> 2012;(2):CD008605. PMID: <strong>22336848</strong>. [Cochrane SR — Cabergoline]</li>
+<li><strong>Golan A, Ron-El R, Herman A, Soffer Y, Weinraub Z, Caspi E.</strong> "Ovarian hyperstimulation syndrome: an update review." <em>Obstet Gynecol Surv.</em> 1989;44(6):430-440. PMID: <strong>2660028</strong>. [Phân loại Golan cổ điển]</li>
+<li><strong>Youssef MA, Van der Veen F, Al-Inany HG, Griesinger G, Mochtar MH, Aboulfoutouh I, Khattab SM, van Wely M.</strong> "Gonadotropin-releasing hormone agonist versus HCG for oocyte triggering in antagonist-assisted reproductive technology." <em>Cochrane Database Syst Rev.</em> 2014;(10):CD008046. PMID: <strong>25358904</strong>. [Cochrane SR — GnRH agonist trigger]</li></ol>
+<hr class="my-6 border-stone-300">
+<p class="text-stone-700 mb-3"><strong>— Hết bài học ngày 2026-06-27 —</strong></p>
+<p class="text-stone-700 mb-3"><strong>Bác sĩ:</strong> Ngọc 🍅 🐈‍⬛ | <strong>AI:</strong> MiniMax Mavis | <strong>Bài số 21</strong> | <strong>Chuyên khoa:</strong> ART — OHSS Toàn diện</p>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bác sĩ: Ngọc 🍅 🐈‍⬛ | AI: MiniMax Mavis | 2026-06-27</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+</script>
+</body>
+</html>

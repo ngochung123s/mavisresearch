@@ -1,0 +1,18 @@
+{
+  "cards": [
+    {"front": "Đầu dò nào BẮT BUỘC dùng cho siêu âm tuyến vú?", "back": "Linear (phẳng) tần số cao 10-15 MHz. Không thỏa hiệp với convex probe — cần độ phân giải tối ưu cho cấu trúc nông"},
+    {"front": "Hai mặt cắt chính trong siêu âm vú? Mục đích từng mặt cắt?", "back": "Radial: dọc theo ống tuyến từ núm vú ra ngoại vi (đánh giá ống tuyến). Antiradial: vuông góc ống tuyến (đánh giá bờ, đo bề rộng). Quét hệ thống theo mặt đồng hồ"},
+    {"front": "Các lớp giải phẫu từ nông đến sâu trên siêu âm vú?", "back": "Da → mỡ dưới da → mô tuyến vú → mỡ sau tuyến vú → cân ngực → cơ ngực lớn → xương sườn → màng phổi"},
+    {"front": "3 tiêu chuẩn chẩn đoán nang vú đơn thuần? BI-RADS?", "back": "1. Trống âm (anechoic). 2. Thành mỏng, không thấy. 3. Tăng âm phía sau. BI-RADS 2 (lành tính) — không cần chọc hút trừ khi có triệu chứng"},
+    {"front": "Đặc điểm siêu âm của fibroadenoma?", "back": "Oval, bờ rõ (circumscribed), SONG SONG với da (rộng hơn cao), giảm echo đồng nhất, có thể có tăng âm phía sau. BI-RADS 3 ở người trẻ"},
+    {"front": "Đặc điểm siêu âm của IDC (Invasive Ductal Carcinoma)?", "back": "KHÔNG ĐỀU (irregular), TALLER-THAN-WIDE, BỜ TUA GAI (spiculated), giảm echo rõ, BÓNG CẢN PHÍA SAU. BI-RADS 4C/5"},
+    {"front": "BI-RADS 3, 4, 5 có nghĩa là gì? Xử trí?", "back": "BI-RADS 3: có thể lành tính (≤2% ác), theo dõi SA 6 tháng. BI-RADS 4: nghi ngờ ác tính (2-95%), SINH THIẾT. BI-RADS 5: rất nghi ngờ (≥95% ác), sinh thiết"},
+    {"front": "Phân biệt hạch nách lành tính và di căn trên siêu âm?", "back": "Lành: bầu dục dẹt (dài/ngang >2), CÓ rốn hạch, vỏ mỏng. Di căn: tròn (dài/ngang <2), MẤT rốn hạch, vỏ dày không đều"},
+    {"front": "Thang điểm Tsukuba trong strain elastography vú?", "back": "1: toàn bộ mềm (lành). 2: hầu hết mềm (lành). 3: cứng ngoại vi (không xác định). 4: toàn bộ cứng (ÁC TÍNH). 5: cứng lan ra mô xung quanh (ÁC TÍNH)"},
+    {"front": "Bộ ba đặc điểm siêu âm nghi ngờ ác tính nhất của vú?", "back": "Taller-than-wide + bờ tua gai (spiculated) + bóng cản phía sau (posterior shadowing). Đây là bộ ba đặc trưng của IDC"},
+    {"front": "DCIS có luôn thấy trên siêu âm không? Tại sao?", "back": "KHÔNG. DCIS grade thấp thường chỉ biểu hiện bằng vi vôi hóa trên mammography. Siêu âm có thể thấy ống tuyến giãn chứa mô echo kém hoặc vi vôi hóa, nhưng mammography nhạy hơn"},
+    {"front": "Tại sao siêu âm vú đặc biệt quan trọng ở phụ nữ Việt Nam?", "back": "Phụ nữ VN có mô vú dày (dense breast) phổ biến → mammography độ nhạy giảm còn 30-50%. Siêu âm vú là công cụ bổ trợ quan trọng. K vú là ung thư số 1 ở nữ VN"},
+    {"front": "Cách mô tả vị trí tổn thương vú trên siêu âm?", "back": "Bên (P/T) + vị trí theo mặt đồng hồ (clock-face) + khoảng cách đến núm vú. VD: 'Vú trái, 2 giờ, cách núm vú 3cm'"},
+    {"front": "Phân biệt mô mỡ vú bình thường với khối trên siêu âm?", "back": "Mô mỡ: echo kém, hình thùy, có vách mỏng, KHÔNG có bờ rõ như khối, so sánh đối bên thấy tương tự. Khối: có bờ rõ, hình dạng xác định, khác biệt với mô xung quanh"}
+  ]
+}

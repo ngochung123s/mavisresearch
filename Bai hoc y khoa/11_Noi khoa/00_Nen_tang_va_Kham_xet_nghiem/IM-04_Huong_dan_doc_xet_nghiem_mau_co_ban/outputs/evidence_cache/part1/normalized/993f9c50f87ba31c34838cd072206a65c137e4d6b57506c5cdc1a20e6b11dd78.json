@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-07-29T10:33:04.181936Z",
+  "providers": [
+    "europe_pmc_metadata",
+    "europe_pmc_oa_full_text",
+    "crossref_retraction_watch",
+    "openalex",
+    "official_source"
+  ],
+  "records": {
+    "pmid:23741774": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "23741774",
+        "pmcid": null,
+        "doi": null,
+        "openalex": null,
+        "official_id": "WHO-PHLEBOTOMY-2010"
+      },
+      "title": "WHO Guidelines on Drawing Blood: Best Practices in Phlebotomy",
+      "abstract": "Phlebotomy uses large, hollow needles to remove blood specimens for lab testing or blood donation. Each step in the process carries risks - both for patients and health workers. Patients may be bruised. Health workers may receive needle-stick injuries. Both can become infected with bloodborne organisms such as hepatitis B, HIV, syphilis or malaria. Moreover, each step affects the quality of the specimen and the diagnosis. A contaminated specimen will produce a misdiagnosis. Clerical errors can prove fatal. The new WHO guidelines provide recommended steps for safe phlebotomy and reiterate accepted principles for drawing, collecting blood and transporting blood to laboratories/blood banks.",
+      "journal": "",
+      "year": "2010",
+      "publication_types": [
+        "Practice Guideline",
+        "Review",
+        "guideline"
+      ],
+      "topics": [],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "official_source"
+      ],
+      "raw_sha256": [
+        "67d41802864bf15945cbfa5cc244222afdc7c2f2d8da1d337d5f5908f4a027d6",
+        "6c2e47033b7e6992857ecfc4ca26b1b2a86314e629cd88c12484ecf294ec67e7",
+        "556e2ce4f33cf1aaa5bd392aa7350c1fabced158cbac461d6d4631488ba8e940"
+      ],
+      "metadata_checked_at": "2026-07-29T10:33:04.181936Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:33:04.181936Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "guideline",
+        "canonical_url": "https://www.who.int/publications/i/item/9789241599221",
+        "version": "2010",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "superseded_by": null,
+        "current_version": true
+      }
+    }
+  },
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:33:04.181936Z",
+      "sha256": "67d41802864bf15945cbfa5cc244222afdc7c2f2d8da1d337d5f5908f4a027d6",
+      "path": "raw/europe_pmc_metadata/67d41802864bf15945cbfa5cc244222afdc7c2f2d8da1d337d5f5908f4a027d6.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:33:04.181936Z",
+      "sha256": "6c2e47033b7e6992857ecfc4ca26b1b2a86314e629cd88c12484ecf294ec67e7",
+      "path": "raw/openalex/6c2e47033b7e6992857ecfc4ca26b1b2a86314e629cd88c12484ecf294ec67e7.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-29T10:33:04.181936Z",
+      "sha256": "556e2ce4f33cf1aaa5bd392aa7350c1fabced158cbac461d6d4631488ba8e940",
+      "path": "raw/official_source/556e2ce4f33cf1aaa5bd392aa7350c1fabced158cbac461d6d4631488ba8e940.pdf",
+      "media_type": "application/pdf",
+      "license": "all-rights-reserved"
+    }
+  ],
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\evidence_cache\\part1",
+  "content_hash": "993f9c50f87ba31c34838cd072206a65c137e4d6b57506c5cdc1a20e6b11dd78"
+}

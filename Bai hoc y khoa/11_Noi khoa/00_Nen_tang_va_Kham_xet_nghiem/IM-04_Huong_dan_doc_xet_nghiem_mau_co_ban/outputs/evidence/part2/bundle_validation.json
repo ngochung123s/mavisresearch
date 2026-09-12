@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "schema_version": "1.0",
+  "content_hash": "626dff6bab4befacb1e798a0d2d465228d17bd224b4ec1c71d504984b16a58e4",
+  "records": 11,
+  "raw_objects": 35,
+  "created_at": "2026-07-29T10:43:17.017582Z",
+  "freshness_required": true,
+  "missing_records": [],
+  "conflicts": {},
+  "official_lookup_results": {
+    "EHA-EUNET-NEUTROPENIA-2023": {
+      "pmid": "37008163",
+      "pmcid": "PMC10065839",
+      "doi": "10.1097/hs9.0000000000000872",
+      "openalex": "https://openalex.org/W4361270484",
+      "official_id": "EHA-EUNET-NEUTROPENIA-2023"
+    },
+    "CSMBLM-PTCP-2024": {
+      "pmid": "39435172",
+      "pmcid": "PMC11493459",
+      "doi": "10.11613/bm.2024.030504",
+      "openalex": "https://openalex.org/W4403310515",
+      "official_id": "CSMBLM-PTCP-2024"
+    },
+    "CSMBLM-COAG-PREANALYTICS-2019": {
+      "pmid": "31223257",
+      "pmcid": "PMC6559624",
+      "doi": "10.11613/bm.2019.020503",
+      "openalex": "https://openalex.org/W2963907836",
+      "official_id": "CSMBLM-COAG-PREANALYTICS-2019"
+    },
+    "CHEST-RBC-TRANSFUSION-2025": {
+      "pmid": "39341492",
+      "pmcid": "PMC11867898",
+      "doi": "10.1016/j.chest.2024.09.016",
+      "openalex": "https://openalex.org/W4402898662",
+      "official_id": "CHEST-RBC-TRANSFUSION-2025"
+    },
+    "BSH-FBC-EDU-2022": {
+      "official_id": "BSH-FBC-EDU-2022",
+      "pmid": null,
+      "doi": null
+    },
+    "BSH-CLOTTING-EDU-2022": {
+      "official_id": "BSH-CLOTTING-EDU-2022",
+      "pmid": null,
+      "doi": null
+    },
+    "WHO-ANAEMIA-CUTOFFS-2024": {
+      "pmid": "38530913",
+      "pmcid": null,
+      "doi": null,
+      "openalex": null,
+      "official_id": "WHO-ANAEMIA-CUTOFFS-2024"
+    }
+  },
+  "official_lookup_pass": true
+}

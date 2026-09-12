@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="100%" height="100%" fill="#F8FAFC"/>
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#1E293B">GIẢI PHẪU THÀNH TỬ CUNG &amp; VÙNG CHUYỂN TIẾP (JUNCTIONAL ZONE - JZ)</text>
+  
+  <!-- Uterus layers box -->
+  <g transform="translate(100, 80)">
+    <!-- Serosa & Outer Myometrium -->
+    <rect x="0" y="0" width="600" height="350" rx="16" fill="#F1F5F9" stroke="#94A3B8" stroke-width="2"/>
+    <text x="20" y="35" font-family="Arial" font-size="16" font-weight="bold" fill="#475569">1. Lớp thanh mạc &amp; Cơ ngoài (Outer Myometrium)</text>
+    <text x="20" y="58" font-family="Arial" font-size="13" fill="#64748B">• Nguồn gốc trung mô, sợi cơ xếp chéo đan lưới, chức năng co hồi cầm máu sau sinh</text>
+    
+    <!-- Junctional Zone (Inner Myometrium) -->
+    <rect x="30" y="90" width="540" height="230" rx="12" fill="#E2E8F0" stroke="#64748B" stroke-width="2" stroke-dasharray="4,4"/>
+    <text x="50" y="125" font-family="Arial" font-size="16" font-weight="bold" fill="#0F172A">2. Vùng chuyển tiếp (Junctional Zone - JZ / Inner Myometrium)</text>
+    <text x="50" y="148" font-family="Arial" font-size="13" fill="#334155">• Nguồn gốc ống Müller, cơ trơn xếp vòng đồng tâm, kiểm soát nhu động tử cung</text>
+    <text x="50" y="170" font-family="Arial" font-size="13" font-weight="bold" fill="#DC2626">• Sinh lý bình thường: JZ &lt; 8 mm | Bệnh lý Adenomyosis: JZ ≥ 12 mm (Gây Dysperistalsis)</text>
+    
+    <!-- Endometrium -->
+    <rect x="60" y="195" width="480" height="105" rx="8" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>
+    <text x="80" y="225" font-family="Arial" font-size="15" font-weight="bold" fill="#991B1B">3. Lớp Nội mạc tử cung (Endometrium)</text>
+    <text x="80" y="248" font-family="Arial" font-size="13" fill="#B91C1C">• Lớp đáy (Basal layer): Chứa tế bào gốc, sát JZ (nguồn gốc xâm lấn trong Adenomyosis)</text>
+    <text x="80" y="270" font-family="Arial" font-size="13" fill="#B91C1C">• Lớp chức năng (Functional layer): Tăng sinh, chế tiết và bong tróc chu kỳ (Kinh nguyệt / Làm tổ)</text>
+  </g>
+  
+  <text x="400" y="475" font-family="Arial" font-size="12" font-style="italic" text-anchor="middle" fill="#64748B">Sơ đồ giải phẫu phân tầng thành tử cung - Nền tảng sinh bệnh học Adenomyosis</text>
+</svg>

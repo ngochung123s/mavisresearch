@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trigger Mechanism Visual — Dual vs Double vs hCG vs GnRHa</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Be Vietnam Pro', 'Segoe UI', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f0e6dc 100%); color: #3a3a3a; padding: 24px; }
+  .container { max-width: 1000px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; color: #5c3a3a; margin-bottom: 4px; }
+  .subtitle { color: #8a7a7a; font-size: 0.9rem; margin-bottom: 24px; }
+  h2 { font-size: 1.2rem; color: #5c3a3a; margin: 28px 0 12px; border-bottom: 2px solid #e6d2c4; padding-bottom: 6px; }
+  .card { background: rgba(255,255,255,0.8); border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 20px; }
+  .chart-box { position: relative; height: 400px; margin: 12px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin: 12px 0; }
+  th { background: #5c3a3a; color: #fff; padding: 8px 10px; text-align: left; border-radius: 6px 6px 0 0; }
+  td { padding: 8px 10px; border-bottom: 1px solid #eee; }
+  tr:nth-child(even) td { background: rgba(92,58,58,0.03); }
+  .tag { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; }
+  .tag-green { background: #c5e0c9; color: #2d6a4f; }
+  .tag-red { background: #f4c2c2; color: #8b2c2c; }
+  .tag-orange { background: #f7d1ba; color: #a05a2c; }
+  .tag-blue { background: #c5d5e0; color: #1a5276; }
+  .mech-box { display: flex; gap: 16px; flex-wrap: wrap; }
+  .mech-step { flex: 1; min-width: 280px; background: rgba(255,255,255,0.6); border: 1px solid #e6d2c4; border-radius: 10px; padding: 16px; }
+  .mech-step h3 { font-size: 0.95rem; color: #5c3a3a; margin-bottom: 8px; }
+  .mech-step .time { font-size: 0.8rem; color: #a05a2c; font-weight: 600; margin-bottom: 6px; }
+  .mech-step p { font-size: 0.82rem; line-height: 1.6; }
+  .arrow { text-align: center; font-size: 1.5rem; color: #c8a4a5; margin: 8px 0; }
+  .highlight { background: rgba(228,184,152,0.2); padding: 1px 4px; border-radius: 3px; font-weight: 600; }
+  .analogy { background: rgba(197,224,201,0.25); border-left: 4px solid #6baa77; padding: 12px 16px; border-radius: 0 10px 10px 0; margin: 12px 0; font-style: italic; }
+  .footer { text-align: center; color: #a89888; font-size: 0.8rem; margin-top: 32px; padding-top: 16px; border-top: 1px solid #e6d2c4; }
+  .legend-item { display: inline-flex; align-items: center; gap: 6px; margin-right: 16px; font-size: 0.8rem; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Cơ chế 4 loại Trigger trong IVF</h1>
+<p class="subtitle">hCG — GnRHa — Kép đồng thời (dual trigger) — Kép tuần tự (double trigger) | Bác sĩ Ngọc Hưng | 29/06/2026</p>
+
+<!-- ============ SECTION 1: TIMELINE CHARTS ============ -->
+<h2>1. Biểu đồ timeline LH/FSH sau trigger</h2>
+<div class="card">
+  <p style="font-size:0.85rem; margin-bottom:12px;">Trục ngang = giờ sau trigger (0 → 40). Trục dọc = nồng độ hormone tương đối. Đường đứt段 = OPU lúc giờ 36-40.</p>
+
+  <div class="chart-box"><canvas id="chartHCG"></canvas></div>
+  <div class="chart-box"><canvas id="chartGnRHa"></canvas></div>
+  <div class="chart-box"><canvas id="chartDual"></canvas></div>
+  <div class="chart-box"><canvas id="chartDouble"></canvas></div>
+
+  <div style="margin-top:12px;">
+    <span class="legend-item"><span class="legend-dot" style="background:#e74c3c"></span>LH (ngoại sinh từ hCG)</span>
+    <span class="legend-item"><span class="legend-dot" style="background:#3498db"></span>LH (nội sinh từ GnRHa)</span>
+    <span class="legend-item"><span class="legend-dot" style="background:#2ecc71"></span>FSH (nội sinh từ GnRHa)</span>
+    <span class="legend-item"><span class="legend-dot" style="background:#9b59b6"></span>VEGF (liên quan OHSS)</span>
+  </div>
+</div>
+
+<!-- ============ SECTION 2: COMPARISON TABLE ============ -->
+<h2>2. Bảng so sánh 4 loại trigger</h2>
+<div class="card">
+<table>
+<thead>
+<tr><th>Tiêu chí</th><th>hCG thường</th><th>GnRHa trigger</th><th>Kép đồng thời (dual)</th><th>Kép tuần tự (double)</th></tr>
+</thead>
+<tbody>
+<tr>
+  <td><b>Thuốc</b></td>
+  <td>hCG 5.000-10.000 IU</td>
+  <td>GnRHa 0.2 mg</td>
+  <td>GnRHa + hCG 1.000-2.500 IU <b>cùng lúc</b></td>
+  <td>GnRHa 40h → hCG 34h <b>cách 6h</b></td>
+</tr>
+<tr>
+  <td><b>LH ngoại sinh</b></td>
+  <td>Mạnh, kéo dài 5-7 ngày</td>
+  <td>KHÔNG</td>
+  <td>Trung bình (hCG liều thấp)</td>
+  <td>Trung bình (hCG liều thấp)</td>
+</tr>
+<tr>
+  <td><b>LH nội sinh</b></td>
+  <td>KHÔNG</td>
+  <td>CÓ, ngắn <24h</td>
+  <td>CÓ, ngắn <24h</td>
+  <td>CÓ, ngắn <24h (đỉnh 1)</td>
+</tr>
+<tr>
+  <td><b>FSH nội sinh</b></td>
+  <td><span class="tag tag-red">KHÔNG</span></td>
+  <td><span class="tag tag-green">CÓ</span></td>
+  <td><span class="tag tag-green">CÓ</span></td>
+  <td><span class="tag tag-green">CÓ</span></td>
+</tr>
+<tr>
+  <td><b>Số đỉnh LH</b></td>
+  <td>1 (hCG)</td>
+  <td>1 (nội sinh)</td>
+  <td>1 (chồng nhau)</td>
+  <td><b>2 (tuần tự)</b></td>
+</tr>
+<tr>
+  <td><b>VEGF / OHSS</b></td>
+  <td><span class="tag tag-red">Cao (reference)</span></td>
+  <td><span class="tag tag-green">Thấp nhất (RR 0.23)</span></td>
+  <td><span class="tag tag-orange">Thấp hơn (RR 0.28)</span></td>
+  <td><span class="tag tag-orange">Thấp hơn (RR 0.28)</span></td>
+</tr>
+<tr>
+  <td><b>Chuyển phôi tươi</b></td>
+  <td><span class="tag tag-green">Được</span></td>
+  <td><span class="tag tag-red">KHÔNG (phải freeze-all)</span></td>
+  <td><span class="tag tag-green">Được</span></td>
+  <td><span class="tag tag-green">Được</span></td>
+</tr>
+<tr>
+  <td><b>MII rate (unselected)</b></td>
+  <td>Chuẩn</td>
+  <td>Tương đương</td>
+  <td>Tương đương</td>
+  <td>Tương đương</td>
+</tr>
+<tr>
+  <td><b>Dành cho</b></td>
+  <td>Normo-responder, chu kỳ đầu</td>
+  <td>High responder + freeze-all</td>
+  <td>High responder muốn fresh ET, MII thấp</td>
+  <td>Đáp ứng kém, EFS, thất bại dual</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<!-- ============ SECTION 3: MECHANISM DUAL ============ -->
+<h2>3. Cơ chế kép đồng thời (dual trigger)</h2>
+<div class="card">
+  <p style="font-size:0.85rem; margin-bottom:12px;">GnRHa + hCG chích <b>cùng 1 lúc</b>, 36h trước chọc hút. Không có giai đoạn "mồi" — 2 tín hiệu chồng lên nhau.</p>
+
+  <div class="mech-box">
+    <div class="mech-step">
+      <h3>Bước duy nhất — Cùng lúc</h3>
+      <div class="mech-step time">Giờ 0 (36h trước OPU)</div>
+      <p>• <b>GnRHa</b> chạy lên tuyến yên → xả LH + FSH nội sinh (cần 4-6h mới lên đỉnh)<br>• <b>hCG</b> chảy đến nang noãn → bắt đầu gắn LH-R (ngấm từ từ, t½ dài)</p>
+    </div>
+    <div class="mech-step">
+      <h3>Giờ 4-12 — Chồng tín hiệu</h3>
+      <div class="mech-step time">Đỉnh cộng hưởng</div>
+      <p>• LH nội sinh đạt đỉnh <b>đúng lúc</b> hCG đã ngấm đủ<br>• FSH gắn FSH-R → COC phồng, tách khỏi thành nang<br>• Tín hiệu LH <b>chồng lên nhau</b> → đủ mạnh → noãn MII</p>
+    </div>
+    <div class="mech-step">
+      <h3>Giờ 12-36 — hCG duy trì</h3>
+      <div class="mech-step time">Sau khi LH nội sinh tắt</div>
+      <p>• LH nội sinh tắt (~24h)<br>• hCG vẫn còn → duy trì hoàng thể 5-7 ngày<br>• → <b>Chuyển phôi tươi được</b><br>• VEGF thấp (hCG liều thấp) → ít OHSS</p>
+    </div>
+  </div>
+
+  <div class="analogy">
+    <b>Ví dụ:</b> Dual trigger giống anh pha 2 viên thuốc uống chung 1 lần — cả hai tác dụng chồng lên nhau cùng lúc. Không cần chờ.
+  </div>
+</div>
+
+<!-- ============ SECTION 4: MECHANISM DOUBLE ============ -->
+<h2>4. Cơ chế kép tuần tự (double trigger)</h2>
+<div class="card">
+  <p style="font-size:0.85rem; margin-bottom:12px;">GnRHa chích <b>trước</b> (40h trước OPU) → 6h sau mới chích hCG (34h trước OPU). Có giai đoạn "mồi" rồi mới "đập".</p>
+
+  <div class="mech-box">
+    <div class="mech-step">
+      <h3>Bước 1 — GnRHa "mồi"</h3>
+      <div class="mech-step time">Giờ 0 (40h trước OPU)</div>
+      <p>• GnRHa → tuyến yên xả <b>LH + FSH nội sinh</b><br>• FSH gắn FSH-R trên tế bào hạt<br>• → Tế bào hạt <b>sản xuất thêm LH-R</b> trên bề mặt<br>• → COC bắt đầu phồng (hyaluronic acid)</p>
+    </div>
+    <div class="mech-step">
+      <h3>6 tiếng sau</h3>
+      <div class="mech-step time">Giờ 6 (34h trước OPU)</div>
+      <p>• LH-R đã <b>tăng số lượng</b> nhờ FSH mồi<br>• Tế bào hạt có <b>dày đặc ăng-ten</b> để bắt LH<br>• Sẵn sàng nhận tín hiệu mạnh hơn</p>
+    </div>
+    <div class="mech-step">
+      <h3>Bước 2 — hCG "đập"</h3>
+      <div class="mech-step time">Giờ 6 (cùng lúc bước trên)</div>
+      <p>• hCG vào → gắn toàn bộ LH-R vừa được mồi<br>• → <b>Tín hiệu LH cực mạnh</b> (gấp đôi dual)<br>• cAMP tăng vọt → meiosis hoàn tất<br>• → Noãn MII nhiều hơn ở bn đáp ứng kém</p>
+    </div>
+  </div>
+
+  <div class="analogy">
+    <b>Ví dụ:</b> Double trigger giống anh <b>bón phân cho cây trước</b>, đợi 6 tiếng cho rễ hấp thụ, rồi mới <b>tưới nước</b> — cây hút được nhiều hơn. Còn dual là vừa bón phân vừa tưới cùng lúc — phân chưa kịp tan thì nước đã trôi.
+  </div>
+</div>
+
+<!-- ============ SECTION 5: KEY DIFFERENCE ============ -->
+<h2>5. Khác biệt cốt lõi: Dual vs Double</h2>
+<div class="card">
+  <table>
+  <thead>
+  <tr><th></th><th>Dual (cùng lúc)</th><th>Double (tuần tự 6h)</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><b>FSH đến trước hCG?</b></td>
+    <td><span class="tag tag-red">KHÔNG — cùng lúc</span></td>
+    <td><span class="tag tag-green">CÓ — FSH mồi trước 6h</span></td>
+  </tr>
+  <tr>
+    <td><b>LH-R tăng trước khi hCG đến?</b></td>
+    <td>Không (chưa kịp upregulate)</td>
+    <td><b>Có</b> (FSH đã mồi xong)</td>
+  </tr>
+  <tr>
+    <td><b>Cường độ LH tại tế bào hạt</b></td>
+    <td>Trung bình-Cao</td>
+    <td><b>Rất cao</b> (nhiều LH-R hơn để gắn)</td>
+  </tr>
+  <tr>
+    <td><b>Số đỉnh LH</b></td>
+    <td>1 (chồng nhau)</td>
+    <td><b>2</b> (tuần tự: nội sinh → ngoại sinh)</td>
+  </tr>
+  <tr>
+    <td><b>Ưu thế</b></td>
+    <td>Giảm OHSS + giữ fresh ET</td>
+    <td>Cứu nang "lười" ở đáp ứng kém</td>
+  </tr>
+  </tbody>
+  </table>
+</div>
+
+<!-- ============ SECTION 6: WHEN TO USE WHAT ============ -->
+<h2>6. Khi nào dùng cái nào?</h2>
+<div class="card">
+  <table>
+  <thead>
+  <tr><th>Tình huống</th><th>Trigger nên dùng</th><th>Lý do</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>Chu kỳ đầu, đáp ứng bình thường</td><td><b>hCG 5.000-6.500 IU</b></td><td>Chuẩn, evidence mạnh nhất</td></tr>
+  <tr><td>Đáp ứng cao + OHSS risk cao</td><td><b>GnRHa + freeze-all</b></td><td>An toàn OHSS tuyệt đối</td></tr>
+  <tr><td>Đáp ứng cao + muốn chuyển phôi tươi</td><td><b>Dual</b> (GnRHa + hCG 1.500)</td><td>Giảm OHSS + fresh ET được</td></tr>
+  <tr><td>MII thấp chu kỳ trước</td><td><b>Dual</b></td><td>FSH surge + LH kéo dài</td></tr>
+  <tr><td>Đáp ứng kém, ít noãn</td><td><b>Double</b> (GnRHa 40h → hCG 34h)</td><td>Mồi trước đập sau → tín hiệu cực mạnh</td></tr>
+  <tr><td>Hội chứng nang trống (EFS)</td><td><b>Double</b> (sau thất bại dual)</td><td>Augmented signal</td></tr>
+  <tr><td>PCOS + nguy cơ OHSS</td><td>GnRHa + freeze-all <i>hoặc</i> dual</td><td>Cá thể hóa theo E2, số nang</td></tr>
+  </tbody>
+  </table>
+</div>
+
+<!-- ============ SECTION 7: FREEZE-ALL ============ -->
+<h2>7. Nếu đã freeze-all thì dual có hơn GnRHa không?</h2>
+<div class="card">
+  <p style="font-size:0.9rem; line-height:1.8;">
+    <b>Không.</b> Lợi thế duy nhất của dual so với GnRHa là hCG liều thấp duy trì hoàng thể → chuyển phôi tươi được. Nhưng freeze-all thì <b>hoàng thể không cần</b> — noãn đã chọc hút xong rồi.<br><br>
+    Còn lại chỉ so sánh: MII (<b>tương đương</b>), FSH surge (<b>giống nhau</b>), OHSS (<b>GnRHa an toàn hơn</b> RR 0.23 vs 0.28), số mũi (GnRHa <b>1 mũi</b> vs dual <b>2 mũi</b>), chi phí (GnRHa <b>rẻ hơn</b>).<br><br>
+    → <b>Trong freeze-all, GnRHa trigger đơn thuần thắng dual trigger trên mọi mặt.</b>
+  </p>
+</div>
+
+<div class="footer">
+  <p>Bác sĩ Ngọc Hưng | opencode | 29/06/2026</p>
+  <p>Evidence: Beebeejaun 2026 NMA (PMID 42006270), Haas 2014 (PMID 25296696), Haas 2019 RCT (PMID 30810400), Tu B 2024 (PMID 38961417), Syam 2025 Meta (PMID 41196830)</p>
+</div>
+
+</div>
+
+<script>
+// Chart defaults
+Chart.defaults.font.size = 11;
+Chart.defaults.font.family = "'Be Vietnam Pro', 'Segoe UI', sans-serif";
+Chart.defaults.color = '#5a4a4a';
+
+const labels = ['0h','4h','8h','12h','16h','20h','24h','28h','32h','36h','40h'];
+const opuLine = { type: 'line', borderColor: '#ccc', borderWidth: 1, borderDash: [5,5] }; // placeholder
+
+// Common chart options
+function makeOptions(title) {
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      title: { display: true, text: title, font: { size: 14 }, color: '#5c3a3a' },
+      legend: { display: true, position: 'top', labels: { boxWidth: 20, font: { size: 10 } } }
+    },
+    scales: {
+      y: { beginAtZero: true, max: 100, title: { display: true, text: 'Nồng độ tương đối (%)', font: { size: 10 } } },
+      x: { title: { display: true, text: 'Giờ sau trigger (OPU lúc 36-40h)', font: { size: 10 } } }
+    }
+  };
+}
+
+// --- hCG trigger ---
+new Chart(document.getElementById('chartHCG'), {
+  type: 'line',
+  data: {
+    labels,
+    datasets: [
+      { label: 'LH ngoại sinh (hCG)', data: [5,15,35,55,70,80,85,85,82,78,75], borderColor: '#e74c3c', backgroundColor: 'rgba(231,76,60,0.1)', borderWidth: 2.5, fill: true, tension: 0.4 },
+      { label: 'VEGF', data: [10,20,35,50,60,68,72,74,72,70,66], borderColor: '#9b59b6', borderDash: [6,4], borderWidth: 2, fill: false, tension: 0.4 },
+      { label: 'OPU', data: [null,null,null,null,null,null,null,null,null,90,90], borderColor: '#aaa', borderWidth: 1, borderDash: [4,4], pointRadius: 0, fill: false }
+    ]
+  },
+  options: makeOptions('① hCG thường (5.000-10.000 IU) — LH mạnh + kéo dài, KHÔNG có FSH, VEGF cao → OHSS')
+});
+
+// --- GnRHa trigger ---
+new Chart(document.getElementById('chartGnRHa'), {
+  type: 'line',
+  data: {
+    labels,
+    datasets: [
+      { label: 'LH nội sinh', data: [0,25,70,80,60,35,15,5,0,0,0], borderColor: '#3498db', backgroundColor: 'rgba(52,152,219,0.1)', borderWidth: 2.5, fill: true, tension: 0.4 },
+      { label: 'FSH nội sinh', data: [0,15,55,65,45,25,10,3,0,0,0], borderColor: '#2ecc71', backgroundColor: 'rgba(46,204,113,0.08)', borderWidth: 2, fill: true, tension: 0.4 },
+      { label: 'VEGF', data: [5,12,25,30,25,18,12,8,5,3,2], borderColor: '#9b59b6', borderDash: [6,4], borderWidth: 2, fill: false, tension: 0.4 },
+      { label: 'OPU', data: [null,null,null,null,null,null,null,null,null,90,90], borderColor: '#aaa', borderWidth: 1, borderDash: [4,4], pointRadius: 0, fill: false }
+    ]
+  },
+  options: makeOptions('② GnRHa trigger (0.2 mg) — LH + FSH ngắn, VEGF thấp nhất → ít OHSS nhất, nhưng phải freeze-all')
+});
+
+// --- Dual trigger ---
+new Chart(document.getElementById('chartDual'), {
+  type: 'line',
+  data: {
+    labels,
+    datasets: [
+      { label: 'LH nội sinh (GnRHa)', data: [0,20,60,70,50,25,10,3,0,0,0], borderColor: '#3498db', backgroundColor: 'rgba(52,152,219,0.08)', borderWidth: 2, fill: true, tension: 0.4 },
+      { label: 'LH ngoại sinh (hCG liều thấp)', data: [3,8,18,30,42,50,52,52,50,46,42], borderColor: '#e74c3c', backgroundColor: 'rgba(231,76,60,0.08)', borderWidth: 2.5, fill: true, tension: 0.4 },
+      { label: 'FSH nội sinh', data: [0,12,45,55,38,20,8,2,0,0,0], borderColor: '#2ecc71', borderWidth: 2, fill: true, tension: 0.4 },
+      { label: 'LH tổng (chồng nhau)', data: [3,28,75,95,88,72,60,54,50,46,42], borderColor: '#8e44ad', borderDash: [3,3], borderWidth: 2, fill: false, tension: 0.4 },
+      { label: 'VEGF', data: [4,10,20,28,32,30,26,22,18,15,12], borderColor: '#9b59b6', borderDash: [6,4], borderWidth: 2, fill: false, tension: 0.4 }
+    ]
+  },
+  options: makeOptions('③ Kép đồng thời (dual trigger) — LH nội sinh + ngoại sinh chồng nhau → 1 đỉnh, VEGF thấp → fresh ET được')
+});
+
+// --- Double trigger ---
+new Chart(document.getElementById('chartDouble'), {
+  type: 'line',
+  data: {
+    labels,
+    datasets: [
+      { label: 'Đỉnh 1: LH nội sinh (GnRHa lúc 0h)', data: [0,25,72,82,60,35,15,5,0,0,0], borderColor: '#3498db', backgroundColor: 'rgba(52,152,219,0.1)', borderWidth: 2.5, fill: true, tension: 0.4 },
+      { label: 'FSH nội sinh (mồi LH-R)', data: [0,15,55,65,45,25,10,3,0,0,0], borderColor: '#2ecc71', borderWidth: 2, fill: true, tension: 0.4 },
+      { label: 'Đỉnh 2: LH ngoại sinh (hCG lúc +6h, vào LH-R đã mồi)', data: [0,0,5,15,35,52,58,56,52,48,44], borderColor: '#e74c3c', backgroundColor: 'rgba(231,76,60,0.1)', borderWidth: 2.5, fill: true, tension: 0.4 },
+      { label: 'LH-R trên tế bào hạt', data: [10,20,40,55,60,65,62,58,52,46,40], borderColor: '#f39c12', borderDash: [4,3], borderWidth: 2, fill: false, tension: 0.4 },
+      { label: 'VEGF', data: [4,8,18,25,30,28,24,20,16,13,10], borderColor: '#9b59b6', borderDash: [6,4], borderWidth: 2, fill: false, tension: 0.4 }
+    ]
+  },
+  options: makeOptions('④ Kép tuần tự (double trigger) — GnRHa 40h trước → hCG 34h trước. FSH mồi LH-R 6h, rồi hCG đập → 2 đỉnh tuần tự')
+});
+</script>
+</body>
+</html>

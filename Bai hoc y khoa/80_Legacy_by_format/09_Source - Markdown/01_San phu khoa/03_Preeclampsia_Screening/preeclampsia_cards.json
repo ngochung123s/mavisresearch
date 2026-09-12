@@ -1,0 +1,85 @@
+{
+  "deck_name": "Sang loc + Du phong Tien san giat - 22/06/2026",
+  "cards": [
+    {
+      "front": "Dinh nghia ISSHP 2018 cua Tien san giat (PE)?",
+      "back": "PE theo ISSHP 2018 (FIGO 2019 PMID 31111484):\n\nHA >= 140/90 mmHg (it nhat 2 lan, cach nhau >= 4 gio) o phu nu truoc do binh thuong, SAU 20 tuan, kem MOT TRONG CAC tieu chi sau:\n\n1. Proteinuria:\n   - Protein/creatinine ratio >= 30 mg/mmol (>= 300 mg/24h)\n   - Hoac dipstick >= 2+\n\n2. Roi loan chuc nang co quan khac:\n   - Than: creatinine >= 90 umol/L (1 mg/dL)\n   - Gan: ALT hoac AST > 40 IU/L, co/khong kem dau ha suon phai\n   - Than kinh: san giat, thay doi y thuc, mu, dot quy, clonus, dau dau nang, roi loan thi truong\n   - Huyet hoc: tieu cau < 150,000/uL, DIC, tan huyet\n\n3. Roi loan nhau thai - tu cung: FGR, abnormal umbilical artery Doppler, thai chet luu."
+    },
+    {
+      "front": "Phan loai PE theo thoi diem khoi phat (theo FIGO 2019)?",
+      "back": "4 loai:\n\n1. Early-onset PE: sinh < 34+0 tuan - nguy co cao nhat, lien quan nhau bat thuong nang.\n2. Preterm PE: sinh < 37+0 tuan - muc tieu chinh cua screening + aspirin du phong.\n3. Late-onset PE: sinh >= 34+0 tuan - thuong nhau it bat thuong, lien quan yeu to me.\n4. Term PE: sinh >= 37+0 tuan - pho bien nhat, thuong nhe.\n\nLuu y: Phan loai khong loai tru nhau - mot benh nhan co the vua early-onset vua preterm PE."
+    },
+    {
+      "front": "Co che benh sinh PE - 2-step theory?",
+      "back": "Step 1: Bat thuong xam nhap te bao nuoi (trophoblast invasion)\n- Tuan 8-18: trophoblast xam nhap thanh mach mau xoan (spiral arteries) cua me.\n- Binh thuong: trophoblast pha huy lop co tron -> spiral arteries thanh mach co duong kinh lon, ap luc thap.\n- Bat thuong: trophoblast chi xam nhap mot phan -> spiral arteries giu duong kinh nho, ap luc cao -> nhau thieu mau, stress oxy hoa.\n\nStep 2: Mat can bang yeu to tao mach (Angiogenic imbalance)\n- Nhau thieu mau tiet: tang sFlt-1 (chen VEGF, PlGF), giam PlGF.\n- Hau qua: co that mach (tang HA), ton thuong noi mo (proteinuria, phu, roi loan dong mau), giam tuoi mau cac co quan (gan, than, nao, nhau)."
+    },
+    {
+      "front": "Biomarker huyet thanh trong PE: PlGF, sFlt-1, PAPP-A thay doi the nao?",
+      "back": "PlGF (Placental Growth Factor): GIAM trong PE som (som nhat 11-13 tuan da phat hien duoc). Day la marker nhay nhat trong 3 biomarkers.\n\nsFlt-1 (soluble fms-like tyrosine kinase-1): TANG (bieu hien ro tu 20-24 tuan tro di). Chen VEGF va PlGF -> roi loan chuc nang noi mo me.\n\nPAPP-A: GIAM nhe (it nhay hon PlGF). Cung duoc su dung trong FMF Triple Test nhung gia tri thap hon PlGF.\n\nTi le sFlt-1/PlGF: SU DUNG de chan doan PE sau 20 tuan (khi ca 2 da ro). Ngoai 20 tuan ti le sFlt-1/PlGF co the phan biet PE voi chronic HTN, giai doan benh, do nang."
+    },
+    {
+      "front": "Yeu to nguy co CAO cua PE (ACOG/FIGO) - chi can 1 yeu to?",
+      "back": "7 yeu to nguy co CAO (chi can 1 yeu to de khuyen cao aspirin, theo ACOG 2013/2019):\n\n1. Tien su PE (dac biet kem sinh non truoc 34 tuan) - nguy co tai phat 16-32%.\n2. Benh than man.\n3. Benh tu mien (SLE, APS - antiphospholipid syndrome).\n4. Tang HA man (chronic hypertension).\n5. Dai thao duong type 1 hoac 2.\n6. Hoi chung antiphospholipid (APS).\n7. Benh tim mach (suy tim, benh mach vanh,....)."
+    },
+    {
+      "front": "Yeu to nguy co TRUNG BINH cua PE (>= 2 yeu to)?",
+      "back": "Yeu to nguy co TRUNG BINH (can >= 2 yeu to theo ACOG 2013):\n\n1. Tuoi me >= 35.\n2. BMI >= 30.\n3. Tien su gia dinh PE (me/chi em).\n4. Nulliparity.\n5. ART (thu tinh trong ong nghiem).\n6. Da thai.\n7. Khoang cach thai ky > 10 nam hoac < 1 nam.\n8. Sac toc: Chau Phi, Nam A.\n9. Benh than, tim, mach mau co san.\n\nLuu y: Tien su PE kem sinh non truoc 34 tuan = nguy co rat cao (tai phat 25-65%)."
+    },
+    {
+      "front": "So sanh 3 phuong phap sang loc PE (ACOG 2013, NICE 2019, FMF Triple Test)?",
+      "back": "Theo Chaemsaithong 2022 (AJOG PMID 32682859):\n\n1. ACOG 2013 (maternal risk factors only):\n   - DR preterm PE: chi 5%.\n   - DR term PE: 2%.\n   - FPR: 0.2%.\n   -> Kem, khong nen lam test sang loc chinh.\n\n2. NICE 2019 (maternal risk factors):\n   - DR preterm PE: 41%.\n   - DR term PE: 34%.\n   - FPR: 10%.\n   -> Tot hon ACOG, nhung van kem FMF.\n\n3. FMF Triple Test (maternal + MAP + PlGF + UtA-PI):\n   - DR preterm PE: 75-90%.\n   - DR term PE: 41-43%.\n   - FPR: 10%.\n   -> TOT NHAT hien nay. NNT = 250."
+    },
+    {
+      "front": "FMF Triple Test gom nhung thanh phan nao? Cut-off nguy co cao?",
+      "back": "FMF Triple Test = Maternal risk factors + MAP + PlGF + UtA-PI.\n\n1. Maternal risk factors: tuoi, BMI, chung toc, parity, tien su PE, tien su gia dinh, benh nen (HTN, DM, SLE, APS, than), ART, khoang cach thai ky, hut thuoc.\n\n2. MAP (Mean Arterial Pressure): do 2 lan, moi ben canh tay, nghi 5 phut. PE som: MAP TANG (dau hieu som nhat).\n\n3. PlGF (Placental Growth Factor): mau me, do ELISA. PE som: PlGF GIAM (< 0.7-0.8 MoM). Day la marker nhay nhat.\n\n4. UtA-PI (Uterine Artery Pulsatility Index): Doppler qua ca 2 dong mach tu cung. PE som: UtA-PI TANG + notching som.\n\nCut-off nguy co cao: >= 1:100 (theo FIGO 2019 va FMF).\n\nRisk calculator mien phi: fetalmedicine.org/research/assess/preeclampsia"
+    },
+    {
+      "front": "ASPRE trial (NEJM 2017, PMID 28657417) - thiet ke va ket qua chinh?",
+      "back": "Thiet ke: Multicentre, double-blind, placebo-controlled RCT.\n- N = 1,776 phu nu singleton, nguy co cao preterm PE (theo FMF).\n- Random 1:1: Aspirin 150 mg/dem vs Placebo.\n- Tu 11-14 tuan -> 36 tuan (hoac sinh).\n- Primary outcome: Preterm PE (sinh < 37 tuan).\n\nKet qua (FULL VERIFIED):\n- Preterm PE: 1.6% (13/798) aspirin vs 4.3% (35/822) placebo.\n- OR 0.38 (95% CI 0.20-0.74), p = 0.004.\n- Reduction 62%.\n- Adherence: 79.9% uong >= 85% lieu.\n- Khong co khac biet dang ke ve adverse neonatal/other events."
+    },
+    {
+      "front": "Aspirin co che gi de phong PE? Co khong tac dong len biomarker nao?",
+      "back": "Co che chinh: GIAM UtA-PI (cau truc lai spiral arteries).\n\nTheo Rolnik 2023 (UOG, PMID 37058400):\n- Aspirin giam UtA-PI dang ke (p = 0.006), dac biet TRUOC 20 tuan.\n- P for interaction: 0.006 (significant).\n\nAspirin KHONG tac dong:\n- MAP trajectory (p = 0.340).\n- PAPP-A trajectory (p = 0.259) - theo Rolnik 2024 (AJOG PMID 38151219).\n- PlGF trajectory (p = 0.335) - theo Rolnik 2024 (AJOG PMID 38151219).\n\n-> Co che chinh: cai thien su tai cau truc spiral arteries (giam suc can dong mach tu cung) thong qua uc che TXA2 -> uc che ket tieu tieu cau -> cai thien vi tuan hoan nhau. KHONG phai qua giam PlGF hay huyet ap."
+    },
+    {
+      "front": "Aspirin lieu bao nhieu, khi nao bat dau, khi nao dung?",
+      "back": "Lieu:\n- FIGO, NICE, WHO, USPSTF 2024: 150 mg/dem (lieu cao - ASPRE trial).\n- ACOG truoc 2019/WHO cu: 75-100 mg/dem (low-dose).\n- Ly do 150 mg: ASPRE trial su dung 150 mg, DR 62%.\n- Lieu duoi 100 mg: hieu qua thap hon (meta-analysis Roberge 2017).\n\nKhi nao bat dau:\n- TRUOC 16 tuan (ly tuong 11-14 tuan) - FIGO 2019.\n- Sau 16 tuan: KHONG con hieu qua (Roberge meta-analysis).\n- Ly do: spiral arteries phai remodeling trong giai doan som, aspirin muon khong con tac dung.\n\nKhi nao dung:\n- 36 tuan (theo ASPRE protocol).\n- Hoac khi sinh.\n- Hoac khi chan doan PE (tiep tuc dieu tri theo guideline PE).\n- Ly do dung 36 tuan: tranh chay mau khi sinh, da du thoi gian du phong."
+    },
+    {
+      "front": "Aspirin co an toan khong? Co tang LGA khong?",
+      "back": "Theo Rolnik 2025 (BJOG, PMID 40590060):\n\n- KHONG tang LGA (large-for-gestational-age): 5.5% aspirin vs 6.2% placebo (p = 0.667).\n- Shift birthweight distribution tu < 2500g len 2500-4000g (cai thien nhe).\n- NGOAI LE: Phu nu DAI THAO DUONG - aspirin co the tang LGA (can than trong).\n- Khong tang nguy co di tat bam sinh, chay mau, hoac bong nhau.\n- An toan trong 3 thang dau thai ky.\n\nAi KHONG nen dung aspirin:\n- Di ung aspirin/NSAID.\n- Loet da day - ta trang hoat dong.\n- Suyren nang do aspirin.\n- Roi loan dong mau (hemophilia, vWD nang).\n- Benh gan nang (giai doan cuoi)."
+    },
+    {
+      "front": "Yeu to nao du bao that bai voi aspirin? (Shen 2021, PMID 33998099)",
+      "back": "Theo Shen 2021 (UOG, PMID 33998099) - phan tich phu ASPRE:\n\n1. Chronic hypertension: Aspirin KHONG co effect (p interaction = 0.042). Yeu to quan trong nhat.\n\n2. Risk rat cao (1:2 den 1:10): 7x cao hon so voi 1:51-1:100 (aOR 6.71, 95% CI 2.38-18.88).\n\n3. Risk cao (1:11 den 1:50): 3x cao hon (aOR 2.77, 95% CI 1.11-6.94).\n\n4. PlGF < 0.712 MoM (cut-off toi uu): 3.7x cao hon (aOR 3.68, 95% CI 1.53-8.86).\n\n-> Phu nu co chronic HTN can theo doi sat du aspirin - thuoc co the khong du hieu qua. Nhom rat cao (1:2-1:10) can can nhac bien phap bo sung."
+    },
+    {
+      "front": "Calcium trong du phong PE - chi dinh, lieu, hieu qua?",
+      "back": "Theo FIGO 2019 (PMID 31111484) + WHO 2011:\n\nChi dinh: Phu nu co CALCIUM INTAKE < 800 mg/ngay (pho bien o cac nuoc thu nhap thap).\n\nLieu: 1.5-2 g elemental calcium/ngay (chia 3 lan, tu sau 20 tuan).\n\nCo che: Giam co that mach, on dinh noi mo.\n\nHieu qua (WHO 2011): Giam ~50% PE, dac biet EARLY-ONSET PE.\n\nLuu y: O cac nuoc phat trien co calcium intake du, KHONG co evidence ro rang ve loi ich.\n\nNguon calcium: thuc pham giau canxi (sua, pho mat, rau la xanh) hoac vien bo sung (calcium carbonate, citrate)."
+    },
+    {
+      "front": "Magnesium trong PE - khi nao dung, lieu?",
+      "back": "Magnesium sulfate (MgSO4):\n\n- KHONG khuyen cao du phong thuong quy.\n- CHI DUNG trong:\n  1. ECLAMPSIA (san giat) - dieu tri + phong ngua tai phat.\n  2. SEVERE PREECLAMPSIA gan sinh (trong vong 24h) - de:\n     - Phong ngua san giat.\n     - Bao ve nao thai nhi (neuroprotection) - dac biet < 32 tuan.\n\nLieu (theo ACOG/MAGPIE trial):\n- Loading dose: 4-6 g IV trong 15-20 phut.\n- Maintenance: 1-2 g/hr IV lien tuc.\n- Tiep tuc 24h sau sinh (hoac 24h sau con giat cuoi cung neu eclampsia).\n\nCan theo doi: phan xa (knee jerk), Mg nhiem than (RR < 12, SpO2 < 95%, urine output < 100 mL/4h) -> giam lieu hoac dung.\n\nAntidote: calcium gluconate 1g IV."
+    },
+    {
+      "front": "Cac bien phap du phong PE nao KHONG khuyen cao?",
+      "back": "5 bien phap KHONG khuyen cao theo WHO 2011 / SMFM 2020 / FIGO 2019:\n\n1. Heparin trong luong phan tu thap (LMWH):\n   - KHONG du phong PE o thai phu thuong.\n   - Chi can nhac trong APS (khop aspirin + LMWH).\n\n2. Nghi ngoi, han che van dong:\n   - KHONG co evidence giam PE.\n   - Co the tang nguy co DVT.\n\n3. Che do an, chat chong oxy hoa (vitamin C/E, lycopene):\n   - Meta-analysis khong thay loi ich.\n\n4. Vitamin D bo sung thuong quy (ACOG):\n   - Chi bo sung neu thieu (theo khuyen cao chung cho thai ky).\n\n5. Magnesium du phong thuong quy:\n   - Chi dung trong eclampsia hoac severe PE gan sinh."
+    },
+    {
+      "front": "Algorithm sang loc PE theo FIGO 2019 (FMF Triple Test)?",
+      "back": "Thai 11-13+6 tuan:\n\n1. Thu thap: maternal factors + MAP + PlGF + UtA-PI.\n2. Su dung FMF risk calculator (fetalmedicine.org).\n\n3. Nguy co cao: >= 1:100 -> Aspirin 150 mg/dem (cho den 36 tuan hoac sinh).\n4. Nguy co trung binh: 1:101-1:1000 -> Theo doi sat (co the can nhac aspirin 75-100 mg).\n5. Nguy co thap: < 1:1000 -> Routine prenatal care.\n\nContingent screening (cho he thong nguon luc han che):\n- Buoc 1: maternal factors + MAP cho tat ca.\n- Buoc 2: chi do PlGF + UtA-PI cho nhom nguy co trung binh-cao sau buoc 1.\n- Tiet kiem chi phi, van duy tri detection rate cao."
+    },
+    {
+      "front": "PE nang (severe features) theo ACOG 2019?",
+      "back": "PE nang (severe features) theo ACOG 2019 (Practice Bulletin #202) va ISSHP 2018:\n\n1. HA >= 160/110 mmHg.\n2. Tieu cau < 100,000/uL.\n3. Men gan tang gap doi binh thuong (ALT/AST > 2x ULN).\n4. Suy than cap (creatinine > 1.1 mg/dL hoac tang gap doi).\n5. Phu phoi.\n6. Trieu chung than kinh moi (dau dau nang, roi loan thi truong, co gat - san giat).\n7. Dau ha suon phai du doi.\n\nXu tri: nhap vien, magnesium sulfate (neu co chi dinh), kiem soat HA (hydralazine, labetalol, nifedipine), corticosteroid (neu < 34 tuan), can nhac sinh som tuy thai."
+    },
+    {
+      "front": "ASPRE secondary analysis: Aspirin + birthweight + LGA (Rolnik 2025)?",
+      "back": "Theo Rolnik 2025 (BJOG, PMID 40590060):\n\n- N = 1,571 singleton live neonates (777 aspirin, 794 placebo).\n- Aspirin shift birthweight distribution tu < 2500g len 2500-4000g.\n- KHONG tang LGA (large-for-gestational-age): 5.5% aspirin vs 6.2% placebo (p = 0.667).\n- Tang LGA chi o phu nu DAI THAO DUONG (interaction p = 0.034): can than trong.\n- Maternal weight la yeu to doc lap manh nhat (aOR 1.040, 95% CI 1.030-1.051, p < 0.001).\n\n-> Aspirin co loi cho birthweight nhe (giam SGA) ma khong gay LGA - profile an toan tot."
+    },
+    {
+      "front": "Nicolaides 2024 (BJOG, PMID 37749709) - ASPRE + SPREE: hieu qua aspirin theo loai PTB?",
+      "back": "Phan tich ket hop SPREE (N=16,451) + ASPRE (N=1,620):\n\n| Outcome | Detection rate (FMF Triple Test) | Detection rate (NICE) | Aspirin effect |\n|---|---|---|---|\n| Spontaneous PTB (sPTB) | 17% | 12% | 14% reduction |\n| Iatrogenic PTB do PE (iPTB-PE) | 82% | 39% | 65% reduction |\n| Iatrogenic PTB khong do PE (iPTB-noPE) | 25% | 19% | 0% reduction |\n\n-> Triple Test + aspirin HIEU QUA DAC BIET trong viec giam iPTB-PE (65% reduction), khong anh huong sPTB/iPTB-noPE.\n\n-> Ly do aspirin giam iPTB-PE: phong ngua PE som -> tranh sinh non can thiep do PE nang. Khong phong ngua sinh non do nguyen nhan khac."
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adenomyosis ảnh hưởng ART — Visual Summary</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Be Vietnam Pro', -apple-system, sans-serif; }
+  .gradient-bg { background: linear-gradient(135deg, #fce4ec 0%, #ffebee 100%); }
+  .card-hover { transition: all 0.3s ease; }
+  .card-hover:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.08); }
+  .mermaid { background: white; border-radius: 12px; padding: 20px; }
+</style>
+</head>
+<body class="gradient-bg min-h-screen">
+
+<header class="bg-white shadow-sm border-b border-gray-200">
+  <div class="max-w-6xl mx-auto px-6 py-6">
+    <div class="flex items-center gap-3">
+      <div class="w-12 h-12 bg-gradient-to-br from-red-500 to-pink-600 rounded-xl flex items-center justify-center text-white text-2xl">🔴</div>
+      <div>
+        <h1 class="text-2xl font-bold text-gray-900">Adenomyosis ảnh hưởng ART</h1>
+        <p class="text-sm text-gray-600">Visual Summary · Cách tiếp cận hiện đại · 13/06/2026</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-6 py-8 space-y-8">
+
+  <!-- Key Stats -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📊 2 Meta-analysis quan trọng nhất 2024</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border-2 border-red-300">
+        <div class="text-sm text-gray-500 font-medium">Ge 2024 BMJ Open</div>
+        <div class="text-3xl font-bold text-red-600 mt-1">-35% LBR</div>
+        <div class="text-xs text-gray-700 mt-2">CPR -26% (OR 0.74), LBR -35% (OR 0.65), Miscarriage +90% (OR 1.90). Meta-analysis 25+ nghiên cứu.</div>
+        <div class="text-xs text-red-600 mt-1 font-bold">PMID 39025820</div>
+      </div>
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border-2 border-purple-300">
+        <div class="text-sm text-gray-500 font-medium">Bourdon 2025 Hum Reprod</div>
+        <div class="text-3xl font-bold text-purple-600 mt-1">OR 0.65 LBR</div>
+        <div class="text-xs text-gray-700 mt-2">n=570 matched case-control, MRI confirmed. LBR 41.4% vs 51.9% (p=0.012). Adenomyosis là yếu tố nguy cơ độc lập.</div>
+        <div class="text-xs text-purple-600 mt-1 font-bold">PMID 40159349</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pathogenesis -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🧬 Cơ chế — Tại sao adenomyosis giảm tỷ lệ có thai</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div class="mermaid">
+flowchart TD
+    A[Adenomyosis<br/>Tuyến nội mạc trong cơ tử cung] --> B[Junctional Zone dày bất thường<br/>JZ > 12 mm trên MRI]
+    B --> C[Co thắt cơ tử cung bất thường]
+    C --> D[Giảm tưới máu nội mạc]
+    D --> E[Giảm endometrial receptivity]
+    B --> F[Progesterone resistance<br/>Giảm PGR-B, HOXA10/11, integrin]
+    F --> G[Giảm decidualization<br/>Giảm khả năng làm tổ]
+    B --> H[Viêm mạn<br/>IL-6, IL-8, TNF-α, ROS]
+    H --> E
+    E --> I[Giảm tỷ lệ có thai<br/>LBR -35%]
+    G --> I
+    B --> J[Nội mạc mỏng<br/>+ bất thường cấu trúc]
+    J --> I
+    H --> K[Tăng oxidative stress<br/>→ tổn thương mô]
+    K --> L[Tăng sẩy thai<br/>OR 1.90]
+    J --> L
+    I --> M[Fresh ET thất bại<br/>CPR chỉ 34.4%]
+      </div>
+    </div>
+  </section>
+
+  <!-- Outcomes Chart -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📈 So sánh kết quả IVF ở Adenomyosis vs Không Adenomyosis</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div style="max-width:800px;margin:0 auto;"><canvas id="outcomesChart" height="100" style="width:100%!important;height:auto!important;"></canvas></div>
+      <p class="text-xs text-gray-500 mt-3">💡 <strong>Insight:</strong> Adenomyosis giảm rõ rệt CPR (-26%) và LBR (-35%), đồng thời tăng gần gấp đôi tỷ lệ sẩy thai. <span class="citation">PMID 39025820, 40159349</span></p>
+    </div>
+  </section>
+
+  <!-- Protocol Comparison -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🔬 4 Protocol IVF ở Adenomyosis - So sánh</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div style="max-width:800px;margin:0 auto;"><canvas id="protocolChart" height="100" style="width:100%!important;height:auto!important;"></canvas></div>
+      <p class="text-xs text-gray-500 mt-3">💡 <strong>Insight:</strong> Fresh ET có CPR thấp ở adenomyosis. FET + GnRHa pretreatment có CPR cải thiện rõ rệt - tương đương nhóm không adenomyosis. <span class="citation">PMID 39025820</span></p>
+    </div>
+  </section>
+
+  <!-- Latif 2024 Forest Plot -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🌲 Latif 2024 - Prolonged GnRHa Pretreatment (n=2422)</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div style="max-width:800px;margin:0 auto;"><canvas id="latifChart" height="100" style="width:100%!important;height:auto!important;"></canvas></div>
+      <p class="text-xs text-gray-500 mt-3">💡 <strong>Insight:</strong> Prolonged GnRHa (median 2.5 tháng) cải thiện Implantation (OR 1.69) và CPR (OR 1.42) NHƯNG không cải thiện LBR hoặc Miscarriage. <span class="citation">PMID 39116480</span></p>
+    </div>
+  </section>
+
+  <!-- Treatment Algorithm -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🗺️ Algorithm tối ưu cho Adenomyosis trong ART</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div class="mermaid">
+flowchart TD
+    A[BN adenomyosis cần IVF] --> B[Chẩn đoán: siêu âm MUSA + MRI nếu cần]
+    B --> C[Đánh giá mức độ: JZ thickness, kích thước TC, kèm ENDO/fibroid]
+    C --> D[Pretreatment 3-6 tháng]
+    D --> D1[GnRHa Leuprolide 3.75 mg/tháng<br/>+ add-back nếu > 3 tháng]
+    D --> D2[Hoặc Dienogest 2mg/ngày]
+    D --> D3[Hoặc Mirena IUD]
+    D1 --> E[Siêu âm đánh giá lại]
+    D2 --> E
+    D3 --> E
+    E --> F[IVF: Antagonist + FSH 300-450 IU]
+    F --> G[Chọc hút noãn + ICSI]
+    G --> H[Freeze-all toàn bộ phôi]
+    H --> I[FET sau 1-2 tháng]
+    I --> I1[NC-FET ưu tiên<br/>nếu có rụng trứng tự nhiên]
+    I --> I2[AC-FET nếu không rụng trứng]
+    I1 --> J[P4 huyết thanh ≥ 10 ng/mL]
+    I2 --> J
+    J --> K[eSET nếu phôi tốt]
+    K --> L[Theo dõi: Aspirin 81 mg từ 12 tuần]
+    L --> M[Siêu âm hình thái 18-22 tuần]
+      </div>
+    </div>
+  </section>
+
+  <!-- Pretreatment Options -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">💊 3 Lựa chọn Pretreatment cho Adenomyosis</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="card-hover bg-gradient-to-br from-red-50 to-pink-50 rounded-xl p-5 border-2 border-red-300">
+        <div class="text-2xl mb-2">💉</div>
+        <h3 class="font-bold text-red-800 mb-2">GnRHa (FIRST-LINE)</h3>
+        <p class="text-sm text-gray-700 mb-2"><strong>Leuprolide 3.75 mg IM/tháng</strong></p>
+        <ul class="text-xs text-gray-600 space-y-1 list-disc pl-5">
+          <li>Thời gian: 3-6 tháng trước FET</li>
+          <li>Add-back nếu > 3 tháng (NETA + E2)</li>
+          <li>Ức chế HPO hoàn toàn</li>
+          <li>Teo tổn thương, reset thụ thể</li>
+          <li>Hiệu quả: cải thiện CPR (PMID 39025820)</li>
+        </ul>
+      </div>
+      <div class="card-hover bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl p-5 border-2 border-purple-300">
+        <div class="text-2xl mb-2">💊</div>
+        <h3 class="font-bold text-purple-800 mb-2">Dienogest</h3>
+        <p class="text-sm text-gray-700 mb-2"><strong>2 mg/ngày uống</strong></p>
+        <ul class="text-xs text-gray-600 space-y-1 list-disc pl-5">
+          <li>Progestin đơn thuần</li>
+          <li>Ít tác dụng phụ hơn GnRHa</li>
+          <li>Có thể dùng lâu dài</li>
+          <li>Alternative khi không dùng GnRHa</li>
+          <li>Rẻ hơn ở VN (Visanne)</li>
+        </ul>
+      </div>
+      <div class="card-hover bg-gradient-to-br from-teal-50 to-cyan-50 rounded-xl p-5 border-2 border-teal-300">
+        <div class="text-2xl mb-2">🌀</div>
+        <h3 class="font-bold text-teal-800 mb-2">Mirena IUD</h3>
+        <p class="text-sm text-gray-700 mb-2"><strong>LNG-IUS 52 mg, 5 năm</strong></p>
+        <ul class="text-xs text-gray-600 space-y-1 list-disc pl-5">
+          <li>Levonorgestrel tại chỗ</li>
+          <li>Ít tác dụng phụ toàn thân</li>
+          <li>Tiện cho BN không muốn uống thuốc</li>
+          <li>Dùng được 5 năm</li>
+          <li>Có thể tháo trước IVF</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Risk of Complications -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">⚠️ Biến chứng thai kỳ ở Adenomyosis</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div style="max-width:800px;margin:0 auto;"><canvas id="complicationChart" height="100" style="width:100%!important;height:auto!important;"></canvas></div>
+      <p class="text-xs text-gray-500 mt-3">⚠️ <strong>Insight:</strong> Adenomyosis tăng nguy cơ sẩy gần gấp đôi, sẩy tự nhiên cao nhất trong 3 tháng đầu. Cần theo dõi sát + Aspirin 81 mg từ 12 tuần dự phòng HDP.</p>
+    </div>
+  </section>
+
+  <!-- Pros/Cons -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">⚖️ Tóm tắt ưu nhược điểm protocol tối ưu</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="bg-gradient-to-br from-emerald-50 to-green-50 rounded-xl p-5 border-2 border-emerald-300">
+        <h3 class="font-bold text-emerald-800 mb-3">✅ ƯU ĐIỂM</h3>
+        <ul class="text-sm text-gray-700 space-y-1 list-disc pl-5">
+          <li>Ge 2024 BMJ Open: FET + GnRHa = CPR tương đương nhóm chứng</li>
+          <li>Antagonist + freeze-all là approach an toàn</li>
+          <li>eSET tránh đa thai (nguy cơ cao ở adenomyosis)</li>
+          <li>NC-FET ưu tiên giảm HDP, nhau tiền đạo</li>
+          <li>Aspirin dự phòng hiệu quả</li>
+        </ul>
+      </div>
+      <div class="bg-gradient-to-br from-rose-50 to-red-50 rounded-xl p-5 border-2 border-rose-300">
+        <h3 class="font-bold text-rose-800 mb-3">⚠️ HẠN CHẾ / THẬN TRỌNG</h3>
+        <ul class="text-sm text-gray-700 space-y-1 list-disc pl-5">
+          <li>Miscarriage vẫn cao dù có GnRHa (Latif 2024)</li>
+          <li>Evidence chủ yếu retrospective</li>
+          <li>Chưa có guideline chính thức ESHRE/ASRM</li>
+          <li>Chi phí GnRHa kéo dài cao</li>
+          <li>Tác dụng phụ GnRHa: bốc hỏa, khô âm đạo, mất xương</li>
+          <li>Tăng nguy cơ vỡ tử cung (hiếm)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Takeaways -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🎯 Điểm cần nhớ (Memory Hooks)</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="bg-gradient-to-br from-red-50 to-pink-50 rounded-xl p-4 border border-red-200">
+        <p class="text-sm text-gray-700"><strong>🔴 Adenomyosis giảm LBR 35%</strong> (OR 0.65) + <strong>tăng sẩy 90%</strong> (OR 1.90) theo Ge 2024.</p>
+      </div>
+      <div class="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl p-4 border border-purple-200">
+        <p class="text-sm text-gray-700"><strong>❄️ Freeze-all + FET</strong> ưu tiên hơn fresh transfer (CPR cải thiện rõ rệt).</p>
+      </div>
+      <div class="bg-gradient-to-br from-amber-50 to-yellow-50 rounded-xl p-4 border border-amber-200">
+        <p class="text-sm text-gray-700"><strong>💉 GnRHa 3-6 tháng</strong> trước FET cải thiện CPR (Implantation OR 1.69) nhưng <strong>KHÔNG</strong> cải thiện LBR/Miscarriage rõ ràng (Latif 2024).</p>
+      </div>
+      <div class="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-xl p-4 border border-teal-200">
+        <p class="text-sm text-gray-700"><strong>🧪 Bourdon 2025 (n=570):</strong> Adenomyosis là yếu tố nguy cơ độc lập giảm LBR sau hồi quy đa biến.</p>
+      </div>
+      <div class="bg-gradient-to-br from-rose-50 to-pink-50 rounded-xl p-4 border border-rose-200">
+        <p class="text-sm text-gray-700"><strong>🧬 Cơ chế:</strong> JZ dày + co cơ bất thường + progesterone resistance + viêm → giảm receptivity + tăng sẩy.</p>
+      </div>
+      <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-4 border border-blue-200">
+        <p class="text-sm text-gray-700"><strong>🌿 NC-FET ưu tiên</strong> nếu có rụng trứng (giảm HDP, nhau tiền đạo so với AC-FET).</p>
+      </div>
+      <div class="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-4 border border-orange-200">
+        <p class="text-sm text-gray-700"><strong>💊 Aspirin 81 mg từ 12 tuần</strong> dự phòng HDP (quan trọng vì adenomyosis tăng nguy cơ).</p>
+      </div>
+      <div class="bg-gradient-to-br from-emerald-50 to-green-50 rounded-xl p-4 border border-emerald-200">
+        <p class="text-sm text-gray-700"><strong>🎯 eSET ưu tiên</strong> - adenomyosis + đa thai = nguy cơ cực cao (sinh non, HDP, sẩy).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- References -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📚 Tài liệu tham khảo (PMID)</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 text-sm space-y-2 text-gray-700">
+      <p>1. <strong>PMID 39025820</strong> — Ge L et al. Different protocols IVF/ICSI adenomyosis meta-analysis. <em>BMJ Open</em> 2024;14(7):e077025.</p>
+      <p>2. <strong>PMID 39116480</strong> — Latif S et al. Prolonged GnRHa IVF/ICSI adenomyosis meta-analysis. <em>Eur J Obstet Gynecol</em> 2024;301:87-94.</p>
+      <p>3. <strong>PMID 40159349</strong> — Bourdon M et al. ART adenomyosis matched control. <em>Hum Reprod</em> 2025;40(5):855-864.</p>
+      <p>4. <strong>PMID 39666211</strong> — Galati G et al. Medical treatment before IVF adenomyosis. <em>J Assist Reprod Genet</em> 2025.</p>
+      <p>5. <strong>PMID 34981458</strong> — Cozzolino M et al. Uterine adenomyosis IVF meta-analysis. <em>Reprod Sci</em> 2022.</p>
+      <p>6. <strong>PMID 33191131</strong> — Nirgianakis K et al. Fertility pregnancy neonatal adenomyosis. <em>Reprod Biomed Online</em> 2021.</p>
+      <p>7. <strong>PMID 34895827</strong> — Wu Y et al. Long-term GnRHa pretreatment FET adenomyosis. <em>Reprod Biomed Online</em> 2022.</p>
+      <p>8. <strong>PMID 40674550</strong> — González-Comadran M et al. GnRHa before ET adenomyosis. <em>JBRA Assist Reprod</em> 2025.</p>
+      <p>9. <strong>PMID 28865548</strong> — Younes G, Tulandi T. Adenomyosis IVF meta-analysis. <em>Fertil Steril</em> 2017.</p>
+      <p>10. <strong>PMID 37185812</strong> — Wang Y et al. Adenomyosis + endometriosis IVF/ICSI GnRHa + FET. <em>Sci Rep</em> 2023.</p>
+      <p>11. <strong>PMID 22832421</strong> — Salim R et al. Adenomyosis reduces IVF pregnancy rates. <em>Reprod Biomed Online</em> 2012.</p>
+      <p>12. <strong>PMID 40438397</strong> — Han Y et al. Freeze-all vs fresh ET adenomyosis + endometriosis. <em>Front Endocrinol</em> 2025.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="bg-white border-t border-gray-200 mt-12">
+  <div class="max-w-6xl mx-auto px-6 py-4 text-center text-xs text-gray-500">
+    MiniMax Mavis · Adenomyosis ART Visual Summary · 13/06/2026 · Evidence: PMID 39025820, 40159349, 39116480
+  </div>
+</footer>
+
+<script>
+  new Chart(document.getElementById('outcomesChart'), {
+    type: 'bar',
+    data: {
+      labels: ['CPR (%)', 'LBR (%)', 'Miscarriage (%)'],
+      datasets: [
+        { label: 'Adenomyosis (Ge 2024)', data: [42.5, 30.7, 27.8], backgroundColor: '#ef4444', borderRadius: 6 },
+        { label: 'Không Adenomyosis', data: [55.9, 47.8, 13.9], backgroundColor: '#10b981', borderRadius: 6 }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: { tooltip: { enabled: true } },
+      scales: { y: { beginAtZero: true, max: 70 } }
+    }
+  });
+
+  new Chart(document.getElementById('protocolChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Long GnRHa (Fresh ET)', 'Antagonist (Fresh ET)', 'GnRHa + FET (Ultra-long)', 'FET no GnRHa'],
+      datasets: [
+        { label: 'CPR Adenomyosis (%)', data: [34.4, 32.0, 51.3, 50.3], backgroundColor: '#ef4444', borderRadius: 6 },
+        { label: 'CPR Không Adenomyosis (%)', data: [58.3, 56.0, 43.5, 60.1], backgroundColor: '#10b981', borderRadius: 6 }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: { tooltip: { enabled: true } },
+      scales: { y: { beginAtZero: true, max: 70 } }
+    }
+  });
+
+  new Chart(document.getElementById('latifChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Implantation', 'CPR', 'LBR', 'Miscarriage'],
+      datasets: [{
+        label: 'OR (GnRHa vs no pretreatment)',
+        data: [1.69, 1.42, 1.12, 0.92],
+        backgroundColor: ['#10b981', '#10b981', '#9ca3af', '#9ca3af'],
+        borderRadius: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: { tooltip: { enabled: true } },
+      scales: { y: { beginAtZero: true, max: 2.5 } }
+    }
+  });
+
+  new Chart(document.getElementById('complicationChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Sẩy thai', 'Tiền sản giật', 'Nhau tiền đạo', 'Đẻ non', 'FGR'],
+      datasets: [
+        { label: 'Adenomyosis', data: [27.8, 8.0, 5.0, 35.0, 10.0], backgroundColor: '#ef4444', borderRadius: 6 },
+        { label: 'Bình thường', data: [13.9, 4.0, 2.0, 10.0, 3.0], backgroundColor: '#10b981', borderRadius: 6 }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: { tooltip: { enabled: true } },
+      scales: { y: { beginAtZero: true, max: 40, ticks: { callback: v => v + '%' } } }
+    }
+  });
+
+  mermaid.initialize({ startOnLoad: true, theme: 'default' });
+</script>
+
+</body>
+</html>

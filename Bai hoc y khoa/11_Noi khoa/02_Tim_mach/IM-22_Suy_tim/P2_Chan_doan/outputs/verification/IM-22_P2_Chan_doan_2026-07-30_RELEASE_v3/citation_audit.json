@@ -1,0 +1,89 @@
+{
+  "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+  "summary": {
+    "total": 2,
+    "pass": 0,
+    "warn": 2,
+    "block": 0
+  },
+  "citations": [
+    {
+      "citation": "PMID: 34447992",
+      "type": "pmid",
+      "has_specific_claim": true,
+      "specific_patterns": [
+        "range",
+        "percent",
+        "gt-percent"
+      ],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 37.0)",
+      "verdict": "WARN (Q1/Q2 + specific claim, cần verify full text)",
+      "severity": "warn",
+      "details": {
+        "pmid_info": {
+          "pmid": "34447992",
+          "status": "OK",
+          "year": "2021",
+          "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure.",
+          "author": "NA",
+          "journal": "European heart journal",
+          "article_type": "Journal Article, Clinical Practice Guideline",
+          "pubtypes": [
+            "Journal Article",
+            "Clinical Practice Guideline"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "European heart journal",
+        "quartile": "Q1",
+        "if": 37.0
+      }
+    },
+    {
+      "citation": "PMID: 34447992",
+      "type": "pmid",
+      "has_specific_claim": true,
+      "specific_patterns": [
+        "percent"
+      ],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 37.0)",
+      "verdict": "WARN (Q1/Q2 + specific claim, cần verify full text)",
+      "severity": "warn",
+      "details": {
+        "pmid_info": {
+          "pmid": "34447992",
+          "status": "OK",
+          "year": "2021",
+          "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure.",
+          "author": "NA",
+          "journal": "European heart journal",
+          "article_type": "Journal Article, Clinical Practice Guideline",
+          "pubtypes": [
+            "Journal Article",
+            "Clinical Practice Guideline"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "European heart journal",
+        "quartile": "Q1",
+        "if": 37.0
+      }
+    }
+  ]
+}

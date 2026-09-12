@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"checked\": 1,\n  \"results\": {\n    \"34447992\": {\n      \"status\": \"PASS\",\n      \"reason\": \"status=clean; fresh=True; unresolved_corrections=0\",\n      \"integrity\": {\n        \"status\": \"clean\",\n        \"checked_at\": \"2026-07-30T06:41:00.161449+00:00\",\n        \"corrections\": [],\n        \"reinstated\": false,\n        \"provider\": \"crossref_retraction_watch\"\n      }\n    }\n  },\n  \"bundle_hash\": \"20e9751099e628e140e9c6dc2f9e04e163e1d00701e5ca777f661f6249b5ec0d\"\n}\n",
+  "stderr": ""
+}

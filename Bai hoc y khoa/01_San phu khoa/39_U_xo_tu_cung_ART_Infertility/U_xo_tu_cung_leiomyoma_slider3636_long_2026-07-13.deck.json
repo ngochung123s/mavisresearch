@@ -1,0 +1,1606 @@
+{
+  "meta": {
+    "title": "U xơ cơ tử cung và ART",
+    "subtitle": "Dựng lại từ DOCX nguồn",
+    "author": "Bác sĩ Ngọc Hưng",
+    "specialty": "Sản phụ khoa + Hỗ trợ sinh sản",
+    "date": "2026-07-13",
+    "source_docx": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\01_San phu khoa\\39_U_xo_tu_cung_ART_Infertility\\U_xo_tu_cung_ART_Infertility_2026-07-12.docx",
+    "source_docx_sha256": "a26a3eedc3c8e3ba14ba9b55e4d215a6cc1643c39c64230d2d57987a82552320"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "title": "U xơ cơ tử cung và ART",
+      "variant": "split_dark",
+      "subtitle": "Từ mô tả tổn thương đến quyết định IVF/FET",
+      "author": "Bác sĩ Ngọc Hưng",
+      "specialty": "Sản phụ khoa + Hỗ trợ sinh sản",
+      "date": "2026-07-13"
+    },
+    {
+      "type": "objectives",
+      "title": "Mục tiêu học tập",
+      "variant": "icon_check",
+      "objectives": [
+        "Mô tả u xơ bằng ngôn ngữ FIGO và dữ liệu ART cần thiết",
+        "Chọn xét nghiệm hình ảnh theo câu hỏi lâm sàng",
+        "Quyết định mổ, theo dõi, tạo phôi trước hoặc chuyển phôi dựa trên buồng tử cung + tuổi noãn + triệu chứng",
+        "Tư vấn trade-off: lợi ích sửa buồng tử cung và cái giá sẹo/dính/trì hoãn"
+      ],
+      "note": "Làm gì? Định hướng mục tiêu bài học.\nTại sao? Người học cần biết bài này dạy quyết định ART, không chỉ mô tả bệnh.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P001, P018"
+    },
+    {
+      "type": "outline",
+      "title": "Lộ trình bài giảng",
+      "variant": "tree",
+      "chapters": [
+        {
+          "title": "Khung lâm sàng",
+          "sub": [
+            "câu hỏi đúng",
+            "dữ liệu tối thiểu"
+          ]
+        },
+        {
+          "title": "FIGO và nguy cơ ART",
+          "sub": [
+            "buồng tử cung",
+            "type 3",
+            "tuổi noãn"
+          ]
+        },
+        {
+          "title": "Chẩn đoán",
+          "sub": [
+            "Siêu âm",
+            "Bơm nước/3D",
+            "MRI"
+          ]
+        },
+        {
+          "title": "Xử trí",
+          "sub": [
+            "Theo FIGO",
+            "phẫu thuật",
+            "thời điểm"
+          ]
+        },
+        {
+          "title": "Tích hợp",
+          "sub": [
+            "thuật toán",
+            "ca lâm sàng",
+            "điểm cần nhớ"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "title": "Vì sao u xơ quan trọng trong ART",
+      "variant": "bullets",
+      "points": [
+        "U xơ rất thường gặp nhưng không phải mọi u đều cần can thiệp",
+        "Trong ART, điều quan trọng là buồng tử cung, nội mạc, đường thao tác và thời gian của noãn",
+        "Bài này chuyển từ mô tả bệnh sang quyết định: mổ trước, tạo phôi trước, theo dõi hay đánh giá lại"
+      ],
+      "note": "Làm gì? Đặt vấn đề lâm sàng.\nTại sao? U xơ phổ biến nên phát hiện tình cờ dễ dẫn tới điều trị thừa.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P018, P023, P043"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "1",
+      "part_title": "Khung tư duy lâm sàng",
+      "part_subtitle": "Không hỏi ‘có u xơ thì mổ không?’"
+    },
+    {
+      "type": "content",
+      "title": "Câu hỏi sai: có u xơ thì mổ không?",
+      "variant": "bullets",
+      "points": [
+        "Câu hỏi này bỏ qua vị trí, buồng tử cung và mục tiêu sinh sản",
+        "Một u nhỏ trong buồng tử cung có thể quan trọng hơn u lớn dưới thanh mạc",
+        "Mổ nhầm chỉ định có thể gây dính, sẹo và trì hoãn IVF"
+      ],
+      "note": "Làm gì? Sửa câu hỏi mở đầu.\nTại sao? Quyết định đúng bắt đầu từ câu hỏi đúng.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P023, P108, P201"
+    },
+    {
+      "type": "content",
+      "title": "Câu hỏi đúng trong phòng khám ART",
+      "variant": "bullets",
+      "points": [
+        "U thuộc FIGO type nào?",
+        "Có chạm hoặc biến dạng buồng tử cung không?",
+        "Có gây AUB, thiếu máu, đau, chèn ép không?",
+        "Can thiệp giúp mục tiêu ART hay chỉ làm chậm?"
+      ],
+      "note": "Làm gì? Dạy bộ câu hỏi ra quyết định.\nTại sao? Bốn câu này thay thế phản xạ ‘cứ u xơ là mổ’. \nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P043, P045, P108"
+    },
+    {
+      "type": "three_column",
+      "title": "Ba đích cần giữ cùng lúc",
+      "variant": "pillars",
+      "columns": [
+        {
+          "title": "Noãn",
+          "points": [
+            "Tuổi",
+            "AMH/AFC",
+            "khả năng tạo phôi"
+          ]
+        },
+        {
+          "title": "Phôi",
+          "points": [
+            "số phôi",
+            "phôi quý",
+            "chuyển tươi hay chuyển trữ"
+          ]
+        },
+        {
+          "title": "Tử cung",
+          "points": [
+            "buồng tử cung",
+            "nội mạc",
+            "sẹo/dính"
+          ]
+        }
+      ],
+      "note": "Làm gì? Tách ba đích ART.\nTại sao? Một quyết định tốt phải bảo vệ cả thời gian noãn và readiness tử cung.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P196, P193, P211"
+    },
+    {
+      "type": "two_column",
+      "title": "Ba archetype lâm sàng",
+      "variant": "cards",
+      "left_title": "Chỉ định rõ",
+      "left_points": [
+        "Type 0–2",
+        "méo buồng tử cung",
+        "trước chuyển phôi"
+      ],
+      "right_title": "Vùng xám",
+      "right_points": [
+        "Type 3",
+        "type 4 lớn hoặc nhiều u",
+        "RIF hoặc phôi quý"
+      ],
+      "note": "Làm gì? Nhận diện ba kiểu ca.\nTại sao? Ca rõ và ca vùng xám cần cách tư vấn khác nhau.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P023, P123, P131, P134"
+    },
+    {
+      "type": "two_column",
+      "title": "Khi nào không nên trì hoãn ART",
+      "variant": "vs_compare",
+      "left_title": "Không nên mổ vội",
+      "left_points": [
+        "type 5–7 nhỏ",
+        "type 4 nhỏ",
+        "không méo buồng tử cung",
+        "DOR hoặc tuổi cao"
+      ],
+      "right_title": "Cần xử trí trước",
+      "right_points": [
+        "type 0–2",
+        "thiếu máu nặng",
+        "cản chọc hút hoặc chuyển phôi",
+        "dấu hiệu bất thường"
+      ],
+      "note": "Làm gì? Dạy điểm cân bằng thời gian.\nTại sao? Noãn mất theo thời gian; tử cung có thể tối ưu sau trong nhiều ca.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P134, P196, P201"
+    },
+    {
+      "type": "content",
+      "title": "Đừng quy mọi thất bại ART cho u xơ",
+      "variant": "bullets",
+      "points": [
+        "Kiểm tra phôi, nội mạc, adenomyosis, polyp, viêm nội mạc, ứ dịch vòi trứng và yếu tố nam",
+        "U xơ có thể là một phần, không phải luôn là nguyên nhân chính",
+        "Cần đánh giá lại buồng tử cung trước khi can thiệp lớn"
+      ],
+      "note": "Làm gì? Chống thiên kiến neo bám.\nTại sao? RIF là hội chứng đa nguyên nhân.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P201, P222, P246"
+    },
+    {
+      "type": "content",
+      "title": "Bộ dữ liệu tối thiểu trước tư vấn",
+      "variant": "bullets",
+      "points": [
+        "Số lượng u + ba kích thước",
+        "FIGO type và khoảng cách tới nội mạc",
+        "Có/không biến dạng buồng tử cung",
+        "Liên quan lỗ vòi/cổ tử cung/buồng trứng",
+        "Adenomyosis/polyp/dính đi kèm"
+      ],
+      "note": "Làm gì? Chuẩn hóa dữ liệu đầu vào.\nTại sao? Thiếu dữ liệu này thì không thể chọn đúng thứ tự IVF-mổ.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P045, P105"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "2",
+      "part_title": "Mô tả tổn thương và FIGO",
+      "part_subtitle": "Vị trí quan trọng hơn kích thước đơn độc"
+    },
+    {
+      "type": "content",
+      "title": "Mỗi khối u cần được mô tả thế nào",
+      "variant": "bullets",
+      "points": [
+        "Vị trí theo FIGO",
+        "Kích thước 3 chiều",
+        "Khoảng cách đến nội mạc",
+        "Biến dạng buồng tử cung hay không",
+        "Ảnh hưởng đường chọc hút/chuyển phôi"
+      ],
+      "note": "Làm gì? Dạy mô tả u theo ART.\nTại sao? Mô tả đủ biến siêu âm thành quyết định.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P038, P045, P105"
+    },
+    {
+      "type": "table",
+      "title": "FIGO 0–8: bản đồ dựng bằng shape native",
+      "variant": "standard",
+      "headers": [
+        "Nhóm",
+        "Giải phẫu",
+        "Ý nghĩa ART"
+      ],
+      "rows": [
+        [
+          "0–2",
+          "Dưới niêm mạc/làm biến dạng buồng tử cung",
+          "Ưu tiên đánh giá và sửa buồng tử cung trước chuyển phôi"
+        ],
+        [
+          "3",
+          "Chạm nội mạc, không lồi buồng tử cung",
+          "Vùng xám trong ART"
+        ],
+        [
+          "4",
+          "Trong cơ không chạm buồng tử cung",
+          "Cá thể hóa theo từng ca"
+        ],
+        [
+          "5–7",
+          "Dưới thanh mạc",
+          "Thường không mổ chỉ vì chuẩn bị IVF"
+        ],
+        [
+          "8",
+          "Vị trí đặc biệt (cổ tử cung, dây chằng, ký sinh)",
+          "Cần lập bản đồ riêng"
+        ]
+      ],
+      "note": "Làm gì? Dựng FIGO bằng bảng native.\nTại sao? DOCX không có hình, nhưng FIGO có thể dạy rõ bằng bảng/shape.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T3, P038"
+    },
+    {
+      "type": "content",
+      "title": "FIGO 0–2: làm biến dạng buồng tử cung",
+      "variant": "bullets",
+      "points": [
+        "Type 0: trong buồng tử cung có cuống",
+        "Type 1: phần lớn trong buồng tử cung",
+        "Type 2: phần lớn trong cơ nhưng lồi buồng tử cung",
+        "Đây là nhóm can thiệp rõ nhất trước chuyển phôi"
+      ],
+      "note": "Làm gì? Nhận diện nhóm dưới niêm mạc.\nTại sao? Buồng tử cung là nơi phôi bám nên méo buồng tử cung là thông tin quyết định.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T3, P038, P123"
+    },
+    {
+      "type": "content",
+      "title": "FIGO 3: chạm nội mạc nhưng không lồi buồng tử cung",
+      "variant": "bullets",
+      "points": [
+        "Không thấy rõ như u dưới niêm mạc",
+        "Nội soi buồng tử cung có thể gần bình thường",
+        "Cần tách khỏi type 4 khi tư vấn ART",
+        "Là vùng xám cần cá thể hóa",
+        "Quyết định phụ thuộc kích thước, diện tiếp xúc nội mạc, tiền sử RIF hoặc phôi quý"
+      ],
+      "note": "Làm gì? Tách type 3 thành nhóm riêng.\nTại sao? Chạm nội mạc có ý nghĩa với vi môi trường dù không méo buồng tử cung rõ.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T3, P069, P131"
+    },
+    {
+      "type": "content",
+      "title": "FIGO 4: trong cơ không chạm buồng tử cung",
+      "variant": "bullets",
+      "points": [
+        "Trong cơ hoàn toàn",
+        "Quyết định theo kích thước, số lượng, triệu chứng, tuổi noãn",
+        "Không tự động mổ chỉ vì IVF",
+        "Cần cân bằng lợi ích chưa chắc với thời gian chờ, sẹo, dính",
+        "Khi phân loại mơ hồ, cần 3D, bơm nước buồng tử cung, hoặc MRI theo câu hỏi"
+      ],
+      "note": "Làm gì? Cá thể hóa type 4.\nTại sao? Type 4 là nơi điều trị thừa dễ xảy ra.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T3, P134, P190"
+    },
+    {
+      "type": "content",
+      "title": "FIGO 5–7: dưới thanh mạc",
+      "variant": "bullets",
+      "points": [
+        "Xa buồng tử cung hơn",
+        "Thường ít ảnh hưởng khả năng làm tổ nếu nhỏ",
+        "Mổ nếu có triệu chứng, xoắn, cản thao tác hoặc khối lớn",
+        "Không mổ chỉ vì chuẩn bị IVF"
+      ],
+      "note": "Làm gì? Tránh mổ thừa dưới thanh mạc.\nTại sao? Vị trí xa nội mạc thường không phải nút nghẽn ART.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T3, P123, P201"
+    },
+    {
+      "type": "content",
+      "title": "FIGO 8 và vị trí đặc biệt",
+      "variant": "bullets",
+      "points": [
+        "Cổ tử cung, dây chằng rộng, ký sinh hoặc vị trí đặc biệt",
+        "Có thể gần bàng quang, niệu quản, mạch máu",
+        "MRI có ích khi bản đồ phức tạp",
+        "Cần cá thể hóa và phẫu thuật viên kinh nghiệm"
+      ],
+      "note": "Làm gì? Nhận diện nhóm đặc biệt.\nTại sao? Không áp công thức FIGO thường gặp cho vị trí nguy cơ cao.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T3, P041, P101"
+    },
+    {
+      "type": "two_column",
+      "title": "Type 3 và type 4",
+      "variant": "vs_compare",
+      "left_title": "Type 3",
+      "left_points": [
+        "chạm nội mạc",
+        "không lồi buồng tử cung",
+        "vùng xám trong ART",
+        "nội soi buồng tử cung có thể không thấy tổn thương rõ"
+      ],
+      "right_title": "Type 4",
+      "right_points": [
+        "không chạm buồng tử cung",
+        "trong cơ thật sự",
+        "theo dõi hoặc cá thể hóa",
+        "không tự động mổ nếu nhỏ và buồng tử cung ổn"
+      ],
+      "note": "Làm gì? So sánh ranh giới sát nội mạc.\nTại sao? Gộp hai nhóm làm mất thông tin quan trọng cho ART.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P069, P131, P134"
+    },
+    {
+      "type": "content",
+      "title": "Checklist báo cáo siêu âm trước ART",
+      "variant": "bullets",
+      "points": [
+        "FIGO type + kích thước",
+        "khoảng cách đến nội mạc",
+        "biến dạng buồng tử cung",
+        "liên quan lỗ vòi/cổ tử cung",
+        "khả năng tiếp cận buồng trứng"
+      ],
+      "note": "Làm gì? Chuẩn hóa báo cáo hình ảnh.\nTại sao? Báo cáo tốt rút ngắn đường đi quyết định.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P045, P105"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "3",
+      "part_title": "Phân tầng nguy cơ ART",
+      "part_subtitle": "Nguy cơ là bối cảnh, không phải nhãn cố định"
+    },
+    {
+      "type": "table",
+      "title": "Nhóm nguy cơ trong ART theo DOCX",
+      "variant": "standard",
+      "headers": [
+        "Nhóm",
+        "Dấu hiệu",
+        "Hành động"
+      ],
+      "rows": [
+        [
+          "Cao",
+          "Type 0–2/biến dạng buồng tử cung",
+          "Sửa buồng tử cung trước"
+        ],
+        [
+          "Trung gian",
+          "Type 3/intramural chọn lọc",
+          "Cá thể hóa"
+        ],
+        [
+          "Thấp hơn",
+          "Dưới thanh mạc nhỏ",
+          "Thường theo dõi"
+        ],
+        [
+          "Thuộc về thao tác",
+          "Cản chọc hút noãn/chuyển phôi",
+          "Xử trí theo đường vào ART"
+        ]
+      ],
+      "note": "Làm gì? Tóm bảng nguy cơ ART.\nTại sao? Bảng này chuyển FIGO thành quyết định ART.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T5, P043"
+    },
+    {
+      "type": "content",
+      "title": "Nhóm nguy cơ cao: buồng tử cung bị ảnh hưởng",
+      "variant": "bullets",
+      "points": [
+        "Type 0–2",
+        "biến dạng buồng tử cung",
+        "polyp hoặc dính phối hợp cần phân biệt",
+        "ưu tiên chứng minh và sửa buồng tử cung trước chuyển phôi"
+      ],
+      "note": "Làm gì? Nhận diện nhóm nguy cơ cao.\nTại sao? Phôi cần buồng tử cung đủ điều kiện để làm tổ.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T5, P123, P101"
+    },
+    {
+      "type": "content",
+      "title": "Nhóm trung gian: type 3 và intramural chọn lọc",
+      "variant": "bullets",
+      "points": [
+        "Type 3 chạm nội mạc",
+        "type 4 lớn hoặc nhiều u",
+        "tiền sử RIF hoặc phôi quý",
+        "cần hội chẩn thay vì áp công thức"
+      ],
+      "note": "Làm gì? Dạy xử trí vùng xám.\nTại sao? Bằng chứng không đủ để biến mọi type 3/4 thành chỉ định mổ.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T5, P131, P134"
+    },
+    {
+      "type": "content",
+      "title": "Nhóm thấp hơn: dưới thanh mạc nhỏ",
+      "variant": "bullets",
+      "points": [
+        "Type 5–7 nhỏ",
+        "không méo buồng tử cung",
+        "không triệu chứng",
+        "không cản thao tác ART"
+      ],
+      "note": "Làm gì? Tránh điều trị thừa.\nTại sao? Mổ không cần thiết có thể tạo nguy cơ mới.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T5, P123, P201"
+    },
+    {
+      "type": "content",
+      "title": "Nguy cơ kỹ thuật trong ART",
+      "variant": "bullets",
+      "points": [
+        "U đẩy lệch buồng trứng",
+        "cản đường chọc hút noãn",
+        "làm khó chuyển phôi",
+        "cần nhận diện trước khi kích thích buồng trứng"
+      ],
+      "note": "Làm gì? Đưa thao tác ART vào quyết định.\nTại sao? Không chỉ buồng tử cung, đường vào ART cũng quyết định tạo phôi được hay không.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P045, P123, P196"
+    },
+    {
+      "type": "content",
+      "title": "Nguy cơ do thời gian bệnh nhân",
+      "variant": "bullets",
+      "points": [
+        "Tuổi",
+        "AMH và AFC",
+        "số phôi hiện có",
+        "thời gian chờ sau can thiệp",
+        "khả năng trì hoãn an toàn"
+      ],
+      "note": "Làm gì? Gắn tuổi noãn vào quyết định.\nTại sao? Ở DOR, vài tháng trì hoãn có thể đắt hơn lợi ích mổ chưa chắc.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P196, P193"
+    },
+    {
+      "type": "content",
+      "title": "Bẫy: điều trị theo hình ảnh",
+      "variant": "bullets",
+      "points": [
+        "Siêu âm bất thường không đồng nghĩa cần mổ",
+        "Cần nối hình ảnh với triệu chứng và mục tiêu ART",
+        "Theo dõi có thể là điều trị đúng",
+        "Quyết định phải là quyết định chung với bệnh nhân"
+      ],
+      "note": "Làm gì? Chống điều trị theo siêu âm.\nTại sao? Mổ không đúng đích có thể gây hại.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P108, P201, P222"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "4",
+      "part_title": "Cơ chế ảnh hưởng sinh sản",
+      "part_subtitle": "Chỉ giữ phần thay đổi quyết định"
+    },
+    {
+      "type": "mechanism",
+      "title": "Năm tầng cơ chế",
+      "variant": "horizontal_steps",
+      "steps": [
+        {
+          "title": "Buồng tử cung",
+          "description": "hình học nơi phôi bám"
+        },
+        {
+          "title": "Nội mạc",
+          "description": "khả năng tiếp nhận phôi"
+        },
+        {
+          "title": "Co bóp",
+          "description": "nhu động tử cung"
+        },
+        {
+          "title": "Tưới máu và viêm",
+          "description": "vi môi trường quanh u"
+        },
+        {
+          "title": "Kỹ thuật",
+          "description": "chọc hút noãn và chuyển phôi"
+        }
+      ],
+      "outcome": "Cơ chế giúp giải thích tại sao vị trí quan trọng hơn kích thước.",
+      "note": "Làm gì? Tóm cơ chế theo tầng.\nTại sao? Cơ chế giúp giải thích tại sao vị trí quan trọng hơn kích thước.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P061, P063, P065, P067"
+    },
+    {
+      "type": "content",
+      "title": "Hình học buồng tử cung",
+      "variant": "bullets",
+      "points": [
+        "U lồi vào buồng tử cung thay đổi nơi phôi bám",
+        "Có thể làm méo nội mạc dù kích thước không lớn",
+        "Buồng tử cung là mục tiêu trực tiếp trước chuyển phôi",
+        "Khoảng cách từ u tới nội mạc quyết định mức độ ảnh hưởng"
+      ],
+      "note": "Làm gì? Giải thích vai trò buồng tử cung.\nTại sao? Nếu buồng tử cung xấu, phôi tốt vẫn có thể thất bại.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P063, P123"
+    },
+    {
+      "type": "content",
+      "title": "Nội mạc tiếp nhận phôi",
+      "variant": "bullets",
+      "points": [
+        "U gần nội mạc có thể ảnh hưởng tín hiệu tiếp nhận",
+        "Type 3 quan trọng vì chạm nội mạc",
+        "Không thấy lồi buồng tử cung không có nghĩa hoàn toàn vô hại",
+        "Đánh giá cần siêu âm kinh nghiệm hoặc 3D"
+      ],
+      "note": "Làm gì? Liên hệ nội mạc với type 3.\nTại sao? Đây là lý do type 3 không nên bị gộp chung type 4.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P065, P069, P131"
+    },
+    {
+      "type": "content",
+      "title": "Co bóp tử cung",
+      "variant": "bullets",
+      "points": [
+        "U có thể thay đổi nhu động quanh thời điểm làm tổ",
+        "Cơ chế này giải thích thất bại không chỉ do chiếm chỗ",
+        "Không dùng cơ chế đơn độc để chỉ định mổ",
+        "Đánh giá nhu động còn hạn chế trên siêu âm thường"
+      ],
+      "note": "Làm gì? Giải thích nhu động tử cung.\nTại sao? Cơ chế hỗ trợ tư vấn nhưng quyết định vẫn cần bằng chứng và bối cảnh.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P067, P071"
+    },
+    {
+      "type": "content",
+      "title": "Vi môi trường và thao tác ART",
+      "variant": "bullets",
+      "points": [
+        "Viêm và tưới máu cục bộ quanh u có thể ảnh hưởng nội mạc",
+        "U cũng có thể cản chọc hút noãn hoặc chuyển phôi",
+        "Đây là chỉ định kỹ thuật khác với chỉ định về khả năng làm tổ",
+        "Cơ chế không đồng nghĩa tự động mổ"
+      ],
+      "note": "Làm gì? Gộp vi môi trường và đường vào ART.\nTại sao? Cơ chế chỉ có giá trị khi nối được với hành động có lợi.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P045, P065, P067, P123"
+    },
+    {
+      "type": "algorithm",
+      "title": "Từ cơ chế đến quyết định",
+      "variant": "linear_flow",
+      "nodes": [
+        {
+          "text": "Cơ chế nghi ngờ",
+          "type": "start"
+        },
+        {
+          "text": "Xác định FIGO và buồng tử cung",
+          "type": "process"
+        },
+        {
+          "text": "Đánh giá triệu chứng và thời điểm ART",
+          "type": "process"
+        },
+        {
+          "text": "Chọn: theo dõi / sửa buồng tử cung / tạo phôi trước / đánh giá lại",
+          "type": "end"
+        }
+      ],
+      "note": "Làm gì? Chuyển cơ chế thành thuật toán.\nTại sao? Cơ chế chỉ hữu ích khi dẫn đến hành động có lợi.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P061, P123, P196, P222"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "5",
+      "part_title": "Chẩn đoán để trả lời câu hỏi ART",
+      "part_subtitle": "Không làm xét nghiệm cho đủ; làm để quyết định"
+    },
+    {
+      "type": "content",
+      "title": "Mục tiêu của chẩn đoán",
+      "variant": "bullets",
+      "points": [
+        "Xác định FIGO và buồng tử cung",
+        "Phân biệt tổn thương đi kèm",
+        "Lập kế hoạch mổ hoặc ART",
+        "Tránh chuyển phôi khi buồng tử cung chưa rõ"
+      ],
+      "note": "Làm gì? Định nghĩa mục tiêu chẩn đoán.\nTại sao? Câu hỏi chẩn đoán quyết định xét nghiệm cần làm.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P090, P099, P101"
+    },
+    {
+      "type": "table",
+      "title": "So sánh công cụ hình ảnh",
+      "variant": "standard",
+      "headers": [
+        "Công cụ",
+        "Mạnh nhất khi",
+        "Giới hạn"
+      ],
+      "rows": [
+        [
+          "Siêu âm qua ngã âm đạo 2D",
+          "Bước đầu tiên",
+          "Không đủ nếu buồng tử cung chưa rõ"
+        ],
+        [
+          "Siêu âm qua ngã âm đạo 3D",
+          "Phân biệt type 3/4, dựng bản đồ buồng tử cung",
+          "Cần kinh nghiệm người làm"
+        ],
+        [
+          "Bơm nước buồng tử cung (SIS)",
+          "Làm rõ đường viền buồng tử cung",
+          "Rất hữu ích trước chuyển phôi"
+        ],
+        [
+          "Nội soi buồng tử cung",
+          "Chẩn đoán và xử trí tổn thương buồng",
+          "Không khảo sát hết phần cơ tử cung"
+        ],
+        [
+          "Cộng hưởng từ (MRI)",
+          "Đa u/nghi adenomyosis/dấu hiệu bất thường",
+          "Không dùng thường quy"
+        ]
+      ],
+      "note": "Làm gì? Tóm bảng diagnostic methods.\nTại sao? Người học cần biết chọn test theo câu hỏi.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T11, P099"
+    },
+    {
+      "type": "content",
+      "title": "Siêu âm 3D qua ngã âm đạo",
+      "variant": "bullets",
+      "points": [
+        "Mặt phẳng vành giúp nhìn quan hệ u với nội mạc",
+        "Phân biệt type 3 với type 4 khi 2D mơ hồ",
+        "Đo khoảng cách tới nội mạc",
+        "Hữu ích trước chuyển phôi khi cần chứng minh buồng tử cung",
+        "Giới hạn: phụ thuộc người làm và chất lượng máy"
+      ],
+      "note": "Làm gì? Chỉ định 3D đúng câu hỏi.\nTại sao? 3D giải quyết vấn đề mặt phẳng buồng tử cung mà 2D dễ bỏ sót.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T11, P101"
+    },
+    {
+      "type": "content",
+      "title": "Bơm nước buồng tử cung (SIS)",
+      "variant": "bullets",
+      "points": [
+        "Làm rõ đường viền buồng tử cung",
+        "Phát hiện u dưới niêm mạc và polyp nhỏ",
+        "Rẻ và nhanh hơn một lần chuyển phôi thất bại",
+        "Tránh khi đang viêm âm đạo cấp hoặc đang có thai"
+      ],
+      "note": "Làm gì? Chọn bơm nước khi câu hỏi là buồng tử cung.\nTại sao? Bơm nước giúp chứng minh điều kiện chuyển phôi.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T11, P101"
+    },
+    {
+      "type": "content",
+      "title": "Nội soi buồng tử cung",
+      "variant": "bullets",
+      "points": [
+        "Vừa chẩn đoán vừa điều trị tổn thương buồng tử cung",
+        "Phù hợp cho type 0–2",
+        "Không khảo sát phần ngoài cơ tử cung",
+        "Can thiệp quá mức làm tăng nguy cơ dính",
+        "Cần kết hợp siêu âm để biết vị trí u trong cơ"
+      ],
+      "note": "Làm gì? Đặt nội soi buồng tử cung đúng vai trò.\nTại sao? Không dùng nội soi buồng tử cung để thay thế toàn bộ bản đồ u xơ.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T11, P125"
+    },
+    {
+      "type": "content",
+      "title": "Cộng hưởng từ (MRI)",
+      "variant": "bullets",
+      "points": [
+        "Dùng khi đa u hoặc u lớn làm siêu âm khó lập bản đồ",
+        "Nghi adenomyosis đi kèm",
+        "Dấu hiệu bất thường nghi sarcoma hoặc STUMP",
+        "Lập kế hoạch phẫu thuật cho ca khó",
+        "Không dùng thường quy cho mọi bệnh nhân ART"
+      ],
+      "note": "Làm gì? Dùng MRI khi bản đồ 2D/3D không đủ.\nTại sao? MRI có ích ở ca phức tạp nhưng không cần thường quy mọi ca.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T11, P101, P103"
+    },
+    {
+      "type": "algorithm",
+      "title": "Thuật toán nâng bậc hình ảnh trước ART",
+      "variant": "linear_flow",
+      "nodes": [
+        {
+          "text": "Siêu âm 2D qua ngã âm đạo",
+          "type": "start"
+        },
+        {
+          "text": "Ghi nhận FIGO nghi ngờ",
+          "type": "process"
+        },
+        {
+          "text": "Buồng tử cung chưa rõ?",
+          "type": "process"
+        },
+        {
+          "text": "Siêu âm 3D hoặc bơm nước buồng tử cung",
+          "type": "process"
+        },
+        {
+          "text": "Nội soi buồng tử cung nếu tổn thương trong buồng",
+          "type": "process"
+        },
+        {
+          "text": "MRI nếu đa u, u lớn, nghi adenomyosis hoặc dấu hiệu bất thường",
+          "type": "end"
+        }
+      ],
+      "note": "Làm gì? Dạy lộ trình chẩn đoán.\nTại sao? Đi từng bước giúp tránh vừa thiếu vừa thừa xét nghiệm.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P101, T11"
+    },
+    {
+      "type": "content",
+      "title": "Mẫu báo cáo tối thiểu",
+      "variant": "bullets",
+      "points": [
+        "Số lượng và ba chiều kích thước của u",
+        "FIGO type và vị trí",
+        "Khoảng cách tới nội mạc",
+        "Có hay không biến dạng buồng tử cung",
+        "Liên quan cổ tử cung, lỗ vòi trứng, buồng trứng"
+      ],
+      "note": "Làm gì? Chuẩn hóa kết quả chẩn đoán hình ảnh.\nTại sao? Báo cáo đủ giúp chọn đúng thứ tự IVF và mổ.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P105"
+    },
+    {
+      "type": "content",
+      "title": "Chẩn đoán phân biệt và dấu hiệu bất thường",
+      "variant": "bullets",
+      "points": [
+        "Adenomyosis đi kèm",
+        "Polyp hoặc vách ngăn buồng tử cung",
+        "Nghi sarcoma hoặc STUMP khi u lớn nhanh, tăng sinh mạch",
+        "Khối buồng trứng giả u cuống"
+      ],
+      "note": "Làm gì? Không bỏ sót chẩn đoán khác.\nTại sao? Mổ đúng u xơ nhưng sai bệnh chính vẫn thất bại.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P103, P087"
+    },
+    {
+      "type": "content",
+      "title": "Trước chuyển phôi: phải chứng minh buồng tử cung",
+      "variant": "bullets",
+      "points": [
+        "Không giả định buồng tử cung ổn chỉ vì 2D bình thường",
+        "Phôi quý cần buồng tử cung được chứng minh",
+        "Đánh giá lại sau can thiệp khó hoặc kết quả siêu âm không chắc chắn",
+        "Đừng chuyển phôi vào buồng tử cung còn mơ hồ"
+      ],
+      "note": "Làm gì? Chốt tiêu chuẩn trước chuyển phôi.\nTại sao? Chuyển phôi là lúc cần chắc chắn về buồng tử cung.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P101, P105, P193"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "6",
+      "part_title": "Đích điều trị trước khi chọn phương pháp",
+      "part_subtitle": "Biết đang sửa gì trước khi can thiệp"
+    },
+    {
+      "type": "content",
+      "title": "Chọn mục tiêu điều trị trước",
+      "variant": "bullets",
+      "points": [
+        "Giảm máu và đau",
+        "Sửa thiếu máu",
+        "Giảm thể tích khối u",
+        "Phục hồi buồng tử cung",
+        "Bảo vệ thời gian noãn"
+      ],
+      "note": "Làm gì? Dạy tư duy đặt mục tiêu trước.\nTại sao? Tên phương pháp ít quan trọng hơn mục tiêu điều trị.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P119, P137, P196"
+    },
+    {
+      "type": "table",
+      "title": "Quyết định theo FIGO trước ART",
+      "variant": "standard",
+      "headers": [
+        "FIGO",
+        "Vấn đề chính",
+        "Hành động"
+      ],
+      "rows": [
+        [
+          "0–2",
+          "Làm biến dạng buồng tử cung",
+          "Thường sửa buồng tử cung trước chuyển phôi"
+        ],
+        [
+          "3",
+          "Chạm nội mạc không lồi buồng",
+          "Hội chẩn và cá thể hóa"
+        ],
+        [
+          "4",
+          "Không chạm buồng tử cung",
+          "Cân bằng kích thước, tuổi, số phôi"
+        ],
+        [
+          "5–7",
+          "Dưới thanh mạc",
+          "Không mổ chỉ vì IVF nếu nhỏ"
+        ],
+        [
+          "8",
+          "Vị trí đặc biệt",
+          "MRI/kế hoạch riêng"
+        ]
+      ],
+      "note": "Làm gì? Dùng bảng quyết định FIGO.\nTại sao? Đây là xương sống của phần xử trí.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T15, P123"
+    },
+    {
+      "type": "content",
+      "title": "Type 0–2: phục hồi buồng tử cung",
+      "variant": "bullets",
+      "points": [
+        "Ảnh hưởng trực tiếp buồng tử cung",
+        "Đường nội soi buồng tử cung thường phù hợp",
+        "Kiểm tra lại buồng tử cung nếu ca khó",
+        "Ưu tiên trước chuyển phôi",
+        "Cần theo dõi nguy cơ dính sau thủ thuật"
+      ],
+      "note": "Làm gì? Dạy chỉ định rõ nhất.\nTại sao? Sửa buồng tử cung là mục tiêu có lý nhất trước chuyển phôi.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T15, P125"
+    },
+    {
+      "type": "content",
+      "title": "Type 3: vùng xám",
+      "variant": "bullets",
+      "points": [
+        "Chạm nội mạc",
+        "Không lồi buồng tử cung",
+        "Cân nhắc tiền sử ART và phôi quý",
+        "Chưa đủ chắc để mổ mọi ca",
+        "Quyết định cần hội chẩn và trao đổi với bệnh nhân"
+      ],
+      "note": "Làm gì? Tư vấn type 3 cân bằng.\nTại sao? Vùng xám cần quyết định chung và hội chẩn.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T15, P131"
+    },
+    {
+      "type": "content",
+      "title": "Type 4: cân bằng nhiều yếu tố",
+      "variant": "bullets",
+      "points": [
+        "Kích thước và số lượng u",
+        "Triệu chứng kèm theo",
+        "Tuổi, AMH, số phôi hiện có",
+        "Nguy cơ phẫu thuật (sẹo, dính, thời gian chờ)",
+        "Không dùng công thức cứng"
+      ],
+      "note": "Làm gì? Cá thể hóa type 4.\nTại sao? Type 4 là nơi cần cân bằng nhất.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T15, P134, P196"
+    },
+    {
+      "type": "content",
+      "title": "Type 5–7: thường không mổ chỉ vì IVF",
+      "variant": "bullets",
+      "points": [
+        "Xa buồng tử cung",
+        "Ít ảnh hưởng khả năng làm tổ nếu nhỏ",
+        "Mổ khi có triệu chứng hoặc cản thao tác",
+        "Theo dõi nếu không triệu chứng và buồng tử cung ổn"
+      ],
+      "note": "Làm gì? Tránh trì hoãn IVF vì u dưới thanh mạc nhỏ.\nTại sao? Lợi ích mổ thấp không bù được sẹo, dính, thời gian chờ.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T15, P201"
+    },
+    {
+      "type": "content",
+      "title": "Triệu chứng và thiếu máu là chỉ định riêng",
+      "variant": "bullets",
+      "points": [
+        "Chảy máu nhiều và thiếu máu cần xử trí",
+        "Đau và chèn ép cần cân nhắc",
+        "Chỉ định triệu chứng khác chỉ định vì khả năng làm tổ",
+        "Đừng trộn hai mục tiêu khi tư vấn",
+        "Mức Hb mục tiêu trước khi chuyển phôi"
+      ],
+      "note": "Làm gì? Tách chỉ định triệu chứng khỏi ART.\nTại sao? Điều trị đúng triệu chứng chưa chắc tối ưu tỉ lệ sanh sống.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P091, P115, P137"
+    },
+    {
+      "type": "content",
+      "title": "Đường vào ART: chọc hút noãn và chuyển phôi",
+      "variant": "bullets",
+      "points": [
+        "U cản đường chọc hút noãn",
+        "Cổ tử cung hoặc trục tử cung khó chuyển phôi",
+        "Cần đánh giá trước khi kích thích buồng trứng",
+        "Đây có thể là chỉ định kỹ thuật riêng"
+      ],
+      "note": "Làm gì? Đưa kỹ thuật ART vào kế hoạch.\nTại sao? Một ca có buồng tử cung ổn vẫn có thể thất bại do không lấy được noãn hoặc không chuyển được phôi.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P045, P123, P196"
+    },
+    {
+      "type": "criteria",
+      "title": "Bảng kiểm quyết định chung",
+      "variant": "score_points",
+      "items": [
+        {
+          "text": "FIGO và tình trạng buồng tử cung đã rõ chưa?",
+          "points": "✓"
+        },
+        {
+          "text": "Triệu chứng và thiếu máu có cần xử trí trước?",
+          "points": "✓"
+        },
+        {
+          "text": "Tuổi, AMH và số phôi hiện có thế nào?",
+          "points": "✓"
+        },
+        {
+          "text": "Đường chọc hút noãn và chuyển phôi có thuận?",
+          "points": "✓"
+        },
+        {
+          "text": "Nguy cơ sẹo, dính và thời gian chờ?",
+          "points": "✓"
+        },
+        {
+          "text": "Bệnh nhân ưu tiên điều gì nhất?",
+          "points": "✓"
+        }
+      ],
+      "interpretation": [
+        {
+          "range": "Đủ dữ liệu",
+          "label": "Có thể chọn thứ tự IVF và mổ"
+        },
+        {
+          "range": "Thiếu dữ liệu",
+          "label": "Chụp lại hình ảnh hoặc hội chẩn trước"
+        }
+      ],
+      "note": "Làm gì? Dùng bảng kiểm trước quyết định.\nTại sao? Quyết định chung cần dữ liệu và mục tiêu rõ.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P108, P196, P222"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "7",
+      "part_title": "Xử trí theo FIGO và bối cảnh ART",
+      "part_subtitle": "Cùng là u xơ, hành động khác nhau"
+    },
+    {
+      "type": "table",
+      "title": "Xử trí theo FIGO",
+      "variant": "standard",
+      "headers": [
+        "Đường",
+        "Nhóm",
+        "Điểm phải nhớ"
+      ],
+      "rows": [
+        [
+          "Nội soi buồng tử cung",
+          "Type 0–2",
+          "Sửa buồng tử cung, bảo vệ nội mạc"
+        ],
+        [
+          "Nội soi ổ bụng/mổ mở/robot",
+          "Type 3–7 chọn lọc",
+          "Sẹo, dính, thời gian chờ"
+        ],
+        [
+          "Theo dõi",
+          "Không triệu chứng, buồng tử cung ổn",
+          "Tránh trì hoãn ART"
+        ],
+        [
+          "Chụp lại hình ảnh",
+          "Buồng tử cung chưa chắc chắn",
+          "Trước chuyển phôi/khi phôi quý"
+        ]
+      ],
+      "note": "Làm gì? Tóm xử trí theo FIGO.\nTại sao? Bảng này thay các slide phẫu thuật dàn trải.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T20, P174"
+    },
+    {
+      "type": "content",
+      "title": "Type 0",
+      "variant": "bullets",
+      "points": [
+        "Trong buồng tử cung có cuống",
+        "Bóc u qua nội soi buồng tử cung thường hợp lý",
+        "Mục tiêu sửa nơi phôi bám",
+        "Kiểm tra nền và diện cắt cuống",
+        "Tránh đốt sâu để bảo vệ nội mạc"
+      ],
+      "note": "Làm gì? Xử trí type 0.\nTại sao? Đây là tổn thương sửa được rõ trước chuyển phôi.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T20, P125"
+    },
+    {
+      "type": "content",
+      "title": "Type 1",
+      "variant": "bullets",
+      "points": [
+        "Phần lớn trong buồng tử cung",
+        "Cắt từng lớp",
+        "Bảo vệ lớp đáy nội mạc",
+        "Tránh đốt sâu để không hình thành sẹo dày"
+      ],
+      "note": "Làm gì? Xử trí type 1.\nTại sao? Vừa lấy u vừa giữ nội mạc cho ART.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T20, P125"
+    },
+    {
+      "type": "content",
+      "title": "Type 2",
+      "variant": "bullets",
+      "points": [
+        "Phần lớn trong cơ",
+        "Nguy cơ thủng, dính, quá tải dịch",
+        "Có thể chia hai thì",
+        "An toàn hơn là lấy sạch bằng mọi giá"
+      ],
+      "note": "Làm gì? Xử trí type 2 an toàn.\nTại sao? Buồng tử cung sau mổ quan trọng hơn cảm giác lấy sạch.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T20, P125, P190"
+    },
+    {
+      "type": "content",
+      "title": "Type 3",
+      "variant": "bullets",
+      "points": [
+        "Không thấy lồi buồng tử cung",
+        "Chạm nội mạc",
+        "Bằng chứng còn vùng xám",
+        "Cần cá thể hóa và hội chẩn"
+      ],
+      "note": "Làm gì? Xử trí type 3.\nTại sao? Không vô hại nhưng cũng không tự động mổ.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T20, P131"
+    },
+    {
+      "type": "content",
+      "title": "Type 4",
+      "variant": "bullets",
+      "points": [
+        "Trong cơ thật sự",
+        "Mổ nếu lớn, nhiều, có triệu chứng hoặc cản thao tác",
+        "Cân nhắc tạo và trữ phôi trước",
+        "Theo dõi nếu nhỏ và buồng tử cung ổn"
+      ],
+      "note": "Làm gì? Xử trí type 4.\nTại sao? Quyết định phải cân bằng lợi ích và nguy cơ.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T20, P134, P196"
+    },
+    {
+      "type": "content",
+      "title": "Type 5–7",
+      "variant": "bullets",
+      "points": [
+        "Dưới thanh mạc",
+        "Mổ khi có triệu chứng hoặc cản thao tác ART",
+        "Không mổ chỉ vì IVF đơn thuần nếu nhỏ",
+        "Giữ thời gian cho noãn"
+      ],
+      "note": "Làm gì? Xử trí type 5–7.\nTại sao? Tránh tạo sẹo và dính vì lợi ích ART thấp.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T20, P201"
+    },
+    {
+      "type": "content",
+      "title": "Khi nào mổ trước IVF",
+      "variant": "bullets",
+      "points": [
+        "Buồng tử cung méo rõ",
+        "Type 0–2",
+        "Thiếu máu hoặc triệu chứng nặng",
+        "U cản chọc hút noãn hoặc chuyển phôi",
+        "Dấu hiệu bất thường nghi ác tính"
+      ],
+      "note": "Làm gì? Chốt chỉ định mổ trước.\nTại sao? Mổ trước có lợi khi sửa đúng nút nghẽn thật.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P123, P137, P201"
+    },
+    {
+      "type": "content",
+      "title": "Khi nào không trì hoãn IVF",
+      "variant": "bullets",
+      "points": [
+        "Tuổi cao hoặc DOR",
+        "Type 4 nhỏ",
+        "Type 5–7 nhỏ",
+        "Không méo buồng tử cung",
+        "Không cản thao tác ART"
+      ],
+      "note": "Làm gì? Chốt chỉ định không trì hoãn.\nTại sao? Tạo phôi có thể là bước bảo vệ cơ hội sinh sản.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P134, P196, P201"
+    },
+    {
+      "type": "content",
+      "title": "Khi nào tạo và trữ phôi trước",
+      "variant": "bullets",
+      "points": [
+        "AMH hoặc AFC thấp",
+        "Tuổi lớn",
+        "U chưa cản chọc hút noãn",
+        "Tử cung có thể tối ưu sau",
+        "Phôi cần được bảo vệ trước"
+      ],
+      "note": "Làm gì? Dạy chiến lược tạo và trữ phôi trước.\nTại sao? Noãn lão hóa nhanh hơn nhiều kế hoạch tối ưu tử cung.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T21, P196"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "8",
+      "part_title": "Phẫu thuật và cái giá của bảo tồn tử cung",
+      "part_subtitle": "Lấy u là phá; bảo vệ tử cung là xây lại"
+    },
+    {
+      "type": "content",
+      "title": "Bóc u không phải một thủ thuật duy nhất",
+      "variant": "bullets",
+      "points": [
+        "Qua nội soi buồng tử cung",
+        "Qua nội soi ổ bụng",
+        "Mổ mở",
+        "Phẫu thuật robot",
+        "Chọn theo FIGO và mục tiêu điều trị"
+      ],
+      "note": "Làm gì? Phân loại đường mổ.\nTại sao? Tên mổ không đủ; cần biết đường vào sửa vấn đề nào.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P125, P128, P174"
+    },
+    {
+      "type": "two_column",
+      "title": "Bóc u qua nội soi buồng tử cung",
+      "variant": "vs_compare",
+      "left_title": "Giải quyết",
+      "left_points": [
+        "Type 0–2",
+        "Buồng tử cung",
+        "Chảy máu nhiều",
+        "Trước chuyển phôi"
+      ],
+      "right_title": "Nguy cơ",
+      "right_points": [
+        "Thủng",
+        "Quá tải dịch",
+        "Đốt sâu",
+        "Dính sau mổ"
+      ],
+      "note": "Làm gì? Tư vấn nội soi buồng tử cung cân bằng.\nTại sao? Sửa buồng tử cung có lợi nhưng cũng có nguy cơ với nội mạc.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P125, P190"
+    },
+    {
+      "type": "two_column",
+      "title": "Bóc u qua nội soi ổ bụng, mổ mở, robot",
+      "variant": "vs_compare",
+      "left_title": "Giải quyết",
+      "left_points": [
+        "U trong cơ lớn",
+        "Nhiều u",
+        "Cản thao tác ART",
+        "Triệu chứng khối"
+      ],
+      "right_title": "Cái giá",
+      "right_points": [
+        "Sẹo cơ tử cung",
+        "Dính",
+        "Thời gian chờ",
+        "Cần theo dõi thai kỳ sau này"
+      ],
+      "note": "Làm gì? Tư vấn đường vào qua bụng.\nTại sao? Bảo tồn tử cung không miễn phí về mặt ART.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P128, P190, P193"
+    },
+    {
+      "type": "content",
+      "title": "Type 2: an toàn hơn là lấy sạch",
+      "variant": "bullets",
+      "points": [
+        "Có phần sâu trong cơ",
+        "Không cố đào khi mất an toàn",
+        "Có thể chia thì phẫu thuật",
+        "Bảo vệ lớp đáy nội mạc"
+      ],
+      "note": "Làm gì? Dạy nguyên tắc dừng an toàn.\nTại sao? Buồng tử cung lành quan trọng hơn lấy hết bằng mọi giá.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P125, P190"
+    },
+    {
+      "type": "content",
+      "title": "Ghi nhận khi mở vào buồng tử cung",
+      "variant": "bullets",
+      "points": [
+        "U sâu gần nội mạc có thể mở vào buồng tử cung",
+        "Ảnh hưởng thời điểm chuyển phôi",
+        "Ảnh hưởng tư vấn thai kỳ và sinh",
+        "Cần ghi rõ trong tường trình mổ"
+      ],
+      "note": "Làm gì? Nhấn mạnh ghi nhận đầy đủ.\nTại sao? Thiếu thông tin này làm mất dữ liệu an toàn cho lần theo.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P193, P211"
+    },
+    {
+      "type": "content",
+      "title": "Nguy cơ dính và lớp đáy nội mạc",
+      "variant": "bullets",
+      "points": [
+        "Tổn thương nội mạc làm tăng nguy cơ dính",
+        "Đốt rộng hoặc tổn thương sâu có hại",
+        "Hai diện thương đối diện dễ dính",
+        "Phôi cần buồng tử cung lành"
+      ],
+      "note": "Làm gì? Giải thích dính ở mức cần thiết.\nTại sao? Không lấy nội dung phẫu thuật phụ; chỉ giữ nguyên tắc có trong DOCX mega.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P190, P211, P246"
+    },
+    {
+      "type": "content",
+      "title": "Nguyên tắc phòng dính",
+      "variant": "bullets",
+      "points": [
+        "Hạn chế sang chấn",
+        "Bảo vệ nội mạc lành",
+        "Cân nhắc chia thì cho type 2",
+        "Kiểm tra lại buồng tử cung khi nguy cơ cao"
+      ],
+      "note": "Làm gì? Dạy thứ tự ưu tiên phòng dính.\nTại sao? Phòng dính là bảo vệ tương lai chuyển phôi.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P190, P211, P246"
+    },
+    {
+      "type": "content",
+      "title": "Đánh giá lại buồng tử cung sau mổ",
+      "variant": "bullets",
+      "points": [
+        "Bơm nước, siêu âm 3D hoặc nội soi buồng tử cung khi ca khó",
+        "Trước chuyển phôi nếu phôi quý",
+        "Khi kinh ít hoặc nghi dính",
+        "Không giả định buồng tử cung đã tốt"
+      ],
+      "note": "Làm gì? Dạy đánh giá lại sau mổ.\nTại sao? Điều trị xong u chưa chắc xong buồng tử cung.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P193, P211"
+    },
+    {
+      "type": "content",
+      "title": "Thời điểm sau nội soi buồng tử cung",
+      "variant": "bullets",
+      "points": [
+        "Phụ thuộc độ sâu u và diện thương nội mạc",
+        "Ca đơn giản có thể rút ngắn thời gian chờ",
+        "Type 2 hoặc nhiều diện thương cần đánh giá lại buồng tử cung",
+        "Ưu tiên buồng tử cung lành hơn số tuần cố định"
+      ],
+      "note": "Làm gì? Tư vấn thời điểm sau nội soi buồng tử cung.\nTại sao? Đợi đúng mức giúp giảm nguy cơ mất phôi do buồng tử cung chưa lành.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P193, P211"
+    },
+    {
+      "type": "content",
+      "title": "Thời điểm sau bóc u đường bụng hoặc nội soi ổ bụng",
+      "variant": "bullets",
+      "points": [
+        "Không có một mốc duy nhất cho mọi ca",
+        "Phụ thuộc độ sâu đường rạch, số lớp khâu, có mở vào buồng tử cung hay không",
+        "Cần thời gian lành sẹo cơ tử cung trước thai",
+        "Tư vấn thai kỳ và lựa chọn sinh mổ chọn lọc"
+      ],
+      "note": "Làm gì? Tư vấn thời điểm sau đường bụng.\nTại sao? Sẹo cơ tử cung ảnh hưởng an toàn thai kỳ.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P193, P211"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "9",
+      "part_title": "Thuốc và can thiệp không phẫu thuật",
+      "part_subtitle": "Giảm triệu chứng không đồng nghĩa sửa buồng tử cung"
+    },
+    {
+      "type": "table",
+      "title": "Ma trận tác động điều trị",
+      "variant": "standard",
+      "headers": [
+        "Nhóm",
+        "Thay đổi gì",
+        "Không thay đổi gì"
+      ],
+      "rows": [
+        [
+          "Sắt, NSAID, tranexamic acid",
+          "Giảm triệu chứng và sửa thiếu máu",
+          "Không sửa được buồng tử cung"
+        ],
+        [
+          "Nội tiết/GnRH",
+          "Cầu nối trước mổ, giảm chảy máu",
+          "Không chữa được cấu trúc"
+        ],
+        [
+          "Bóc u (myomectomy)",
+          "Có thể sửa buồng tử cung/lấy u",
+          "Dính, sẹo, thời gian chờ"
+        ],
+        [
+          "Nút mạch, siêu âm hội tụ, đốt",
+          "Giảm thể tích và triệu chứng",
+          "Còn bất định về kết quả ART"
+        ]
+      ],
+      "note": "Làm gì? Tóm hiệu ứng điều trị.\nTại sao? Bảng này ngăn nhầm mục tiêu triệu chứng với mục tiêu ART.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T24, P240"
+    },
+    {
+      "type": "content",
+      "title": "Sắt, NSAID, tranexamic acid",
+      "variant": "bullets",
+      "points": [
+        "Sửa thiếu máu, giảm đau, giảm máu",
+        "Không làm nhỏ u đáng kể",
+        "Không sửa biến dạng buồng tử cung",
+        "Rất hữu ích như cầu nối chờ mổ"
+      ],
+      "note": "Làm gì? Đặt thuốc triệu chứng đúng vai trò.\nTại sao? Đúng cho chảy máu nhiều chưa chắc đủ cho chuyển phôi.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P137, P141, T24"
+    },
+    {
+      "type": "content",
+      "title": "Nội tiết và GnRH",
+      "variant": "bullets",
+      "points": [
+        "Kiểm soát chảy máu",
+        "Giảm kích thước tạm thời",
+        "Là cầu nối trước mổ",
+        "Không phải điều trị cấu trúc"
+      ],
+      "note": "Làm gì? Dạy thuốc như cầu nối.\nTại sao? Thuốc không thay thế sửa type 0–2.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P137, P141, T24"
+    },
+    {
+      "type": "content",
+      "title": "Nút mạch tử cung (UAE)",
+      "variant": "bullets",
+      "points": [
+        "Giảm triệu chứng ở ca chọn lọc",
+        "Không dùng thường quy khi đang tích cực mong thai",
+        "Lo ngại ảnh hưởng nội mạc, buồng trứng và tử cung",
+        "Không thay thế chỉ định mổ cho ART"
+      ],
+      "note": "Làm gì? Tư vấn UAE theo mục tiêu sinh sản.\nTại sao? Ít xâm lấn không đồng nghĩa phù hợp ART.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P159, T24"
+    },
+    {
+      "type": "table",
+      "title": "Thay đổi gì và không thay đổi gì",
+      "variant": "standard",
+      "headers": [
+        "Mục tiêu",
+        "Có thể đạt",
+        "Cần kiểm tra lại"
+      ],
+      "rows": [
+        [
+          "Máu và đau",
+          "Thuốc và cầu nối",
+          "Hb và triệu chứng"
+        ],
+        [
+          "Thể tích khối u",
+          "GnRH, UAE, HIFU, đốt",
+          "Buồng tử cung và thời điểm"
+        ],
+        [
+          "Buồng tử cung",
+          "Bóc u chọn lọc",
+          "Bơm nước, 3D, nội soi buồng"
+        ],
+        [
+          "Tuổi noãn",
+          "Tạo và trữ phôi",
+          "Số phôi và AMH"
+        ]
+      ],
+      "note": "Làm gì? Chốt ma trận mục tiêu.\nTại sao? Mỗi mục tiêu cần một cách kiểm tra khác nhau.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T24, P196"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "10",
+      "part_title": "Tạo và trữ phôi và thứ tự",
+      "part_subtitle": "Noãn và tử cung lão hóa khác nhau"
+    },
+    {
+      "type": "table",
+      "title": "Quyết định tạo và trữ phôi",
+      "variant": "standard",
+      "headers": [
+        "Chiến lược",
+        "Ứng viên",
+        "Lý do"
+      ],
+      "rows": [
+        [
+          "Tạo/trữ phôi trước",
+          "Tuổi cao/AMH thấp, u chưa cản chọc hút noãn",
+          "Bảo vệ tuổi noãn"
+        ],
+        [
+          "Xử trí u trước",
+          "Buồng tử cung méo rõ, type 0–2 lớn",
+          "Không chuyển phôi vào buồng tử cung xấu"
+        ],
+        [
+          "Đánh giá lại buồng tử cung",
+          "Sau mổ hoặc sau can thiệp",
+          "Chứng minh buồng tử cung trước chuyển phôi"
+        ]
+      ],
+      "note": "Làm gì? Tóm quyết định tạo và trữ phôi.\nTại sao? Đây là cầu nối giữa tuổi noãn và tối ưu tử cung.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T21, P196"
+    },
+    {
+      "type": "content",
+      "title": "Ưu tiên tạo và trữ phôi trước: ai phù hợp",
+      "variant": "bullets",
+      "points": [
+        "Tuổi cao hoặc AMH thấp",
+        "U chưa cản chọc hút noãn",
+        "Buồng tử cung chưa cần sửa ngay",
+        "Cần bảo vệ cơ hội tạo phôi",
+        "Sẵn sàng chuyển phôi trữ sau khi tối ưu tử cung"
+      ],
+      "note": "Làm gì? Nhận diện nhóm tạo và trữ trước.\nTại sao? Tạo phôi trước là chiến lược thời gian, không phải điều trị u.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T21, P196"
+    },
+    {
+      "type": "content",
+      "title": "Ưu tiên xử trí u trước: ai phù hợp",
+      "variant": "bullets",
+      "points": [
+        "Type 0–2 lớn hoặc méo buồng tử cung",
+        "U cản chọc hút noãn hoặc chuyển phôi",
+        "Thiếu máu hoặc triệu chứng nặng",
+        "Dấu hiệu bất thường nghi ác tính"
+      ],
+      "note": "Làm gì? Nhận diện nhóm xử trí u trước.\nTại sao? Không nên tạo phôi rồi chuyển vào buồng tử cung chưa thể dùng.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T21, P123, P137"
+    },
+    {
+      "type": "two_column",
+      "title": "Chuyển phôi tươi và chuyển phôi trữ",
+      "variant": "vs_compare",
+      "left_title": "Tươi",
+      "left_points": [
+        "Ít thời gian chuẩn bị tử cung",
+        "Tránh nếu buồng tử cung chưa rõ",
+        "Không phù hợp khi cần mổ hoặc can thiệp"
+      ],
+      "right_title": "Trữ",
+      "right_points": [
+        "Tách tạo phôi khỏi chuẩn bị tử cung",
+        "Cho thời gian sửa và đánh giá lại",
+        "Phù hợp với phôi quý và ca chọn lọc"
+      ],
+      "note": "Làm gì? Phân biệt thời điểm chuyển phôi.\nTại sao? Chuyển phôi trữ giúp giải quyết tuần tự hai bài toán.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P196, P193"
+    },
+    {
+      "type": "algorithm",
+      "title": "Thuật toán chọn thời điểm",
+      "variant": "linear_flow",
+      "nodes": [
+        {
+          "text": "Đánh giá FIGO và buồng tử cung",
+          "type": "start"
+        },
+        {
+          "text": "Nút nghẽn là noãn hay tử cung?",
+          "type": "process"
+        },
+        {
+          "text": "Tạo và trữ phôi nếu noãn là nút nghẽn",
+          "type": "process"
+        },
+        {
+          "text": "Sửa buồng tử cung nếu đó là nút nghẽn",
+          "type": "process"
+        },
+        {
+          "text": "Đánh giá lại buồng tử cung",
+          "type": "process"
+        },
+        {
+          "text": "Chuyển phôi khi buồng tử cung sẵn sàng",
+          "type": "end"
+        }
+      ],
+      "note": "Làm gì? Tích hợp thứ tự xử trí.\nTại sao? Thuật toán giảm mâu thuẫn giữa phẫu thuật và tuổi noãn.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: T21, P196, P193"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "11",
+      "part_title": "Theo dõi và tư vấn thai kỳ",
+      "part_subtitle": "Kết thúc can thiệp chưa phải kết thúc nguy cơ"
+    },
+    {
+      "type": "content",
+      "title": "Theo dõi khi chưa can thiệp",
+      "variant": "bullets",
+      "points": [
+        "Tái khám theo triệu chứng",
+        "Chụp lại hình ảnh khi kế hoạch ART thay đổi",
+        "Theo dõi chảy máu và thiếu máu",
+        "Không quên bệnh đi kèm",
+        "Ghi nhận khi bệnh nhân quyết định chuyển sang can thiệp"
+      ],
+      "note": "Làm gì? Dạy theo dõi bảo tồn.\nTại sao? Theo dõi có chủ đích khác với bỏ mặc.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P211, P222"
+    },
+    {
+      "type": "content",
+      "title": "Sau nội soi buồng tử cung",
+      "variant": "bullets",
+      "points": [
+        "Theo dõi ra máu và đau",
+        "Nghi dính nếu kinh ít rõ",
+        "Đánh giá lại buồng tử cung ở ca nguy cơ",
+        "Đợi buồng tử cung lành trước chuyển phôi"
+      ],
+      "note": "Làm gì? Dạy theo dõi sau nội soi buồng tử cung.\nTại sao? Buồng tử cung sau thủ thuật là mục tiêu ART.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P193, P211"
+    },
+    {
+      "type": "content",
+      "title": "Sau bóc u đường bụng hoặc nội soi ổ bụng",
+      "variant": "bullets",
+      "points": [
+        "Theo dõi đau và thiếu máu",
+        "Sẹo cơ tử cung và nguy cơ vỡ tử cung",
+        "Việc mở vào buồng tử cung và thời gian chờ",
+        "Nguy cơ u tái phát và u còn lại"
+      ],
+      "note": "Làm gì? Dạy theo dõi đường bụng.\nTại sao? Sẹo và u tái phát ảnh hưởng kế hoạch thai kỳ.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P193, P211"
+    },
+    {
+      "type": "content",
+      "title": "Tư vấn thai kỳ sau bóc u",
+      "variant": "bullets",
+      "points": [
+        "Có thể cần theo dõi thai kỳ nguy cơ cao",
+        "Kế hoạch sinh phụ thuộc độ sâu và việc mở vào buồng tử cung",
+        "Tư vấn nguy cơ u tái phát và u còn lại",
+        "Ghi rõ thông tin mổ cho bác sĩ sản khoa theo dõi"
+      ],
+      "note": "Làm gì? Dạy tư vấn thai kỳ.\nTại sao? Thông tin phẫu thuật hiện tại phục vụ an toàn thai kỳ sau này.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P211, P222"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "12",
+      "part_title": "Tích hợp và kết thúc",
+      "part_subtitle": "Từ dữ liệu đến quyết định"
+    },
+    {
+      "type": "algorithm",
+      "title": "Thuật toán quyết định ART tích hợp",
+      "variant": "linear_flow",
+      "nodes": [
+        {
+          "text": "Mô tả u xơ: FIGO và tình trạng buồng tử cung",
+          "type": "start"
+        },
+        {
+          "text": "Đánh giá triệu chứng, thiếu máu, dấu hiệu bất thường",
+          "type": "process"
+        },
+        {
+          "text": "Đánh giá thời gian noãn và số phôi hiện có",
+          "type": "process"
+        },
+        {
+          "text": "Chọn: theo dõi / chụp thêm hình ảnh / mổ / tạo và trữ phôi trước",
+          "type": "process"
+        },
+        {
+          "text": "Đánh giá lại buồng tử cung trước chuyển phôi",
+          "type": "end"
+        }
+      ],
+      "note": "Làm gì? Tích hợp toàn bài.\nTại sao? Thuật toán biến bài dài thành hành động tại phòng khám.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P045, T15, T21, P222"
+    },
+    {
+      "type": "summary",
+      "title": "Điểm cần nhớ",
+      "variant": "takeaways",
+      "points": [
+        "Điều trị bệnh nhân, không điều trị hình ảnh",
+        "FIGO cộng buồng tử cung là ngôn ngữ quyết định ART",
+        "Type 0–2 rõ nhất cần sửa buồng tử cung",
+        "Type 3 là vùng xám riêng, không gộp chung type 4",
+        "Type 5–7 nhỏ thường không mổ chỉ vì IVF",
+        "Thuốc giảm triệu chứng không chứng minh buồng tử cung sẵn sàng",
+        "Tạo và trữ phôi bảo vệ tuổi noãn trong ca chọn lọc",
+        "Trước chuyển phôi: phải chứng minh buồng tử cung"
+      ],
+      "note": "Làm gì? Chốt thông điệp.\nTại sao? Người học cần nhớ thuật toán hơn là từng số liệu.\nNếu bỏ qua/làm sai? Dễ áp dụng máy móc hoặc quyết định không khớp mục tiêu ART.\nNguồn DOCX: P222, P246"
+    },
+    {
+      "type": "qa_clinical",
+      "title": "Ca luyện quyết định 1: type 1 trước chuyển phôi",
+      "variant": "pearl_card",
+      "question": "Có nên chuyển phôi ngay không, hay cần xử trí u trước?",
+      "pearl": "Ưu tiên sửa buồng tử cung trước chuyển phôi; sau đó đánh giá lại bằng bơm nước hoặc 3D nếu diện thương rộng hoặc nghi type 2.",
+      "note": "Làm gì? Thảo luận ca đại diện.\nTại sao? Dùng ca lâm sàng để kiểm tra quyết định, không học thuộc máy móc.\nNếu bỏ qua/làm sai? Không đặt ca vào thuật toán sẽ dễ chọn mổ/IVF theo phản xạ.\nNguồn DOCX: T15, P125"
+    },
+    {
+      "type": "qa_clinical",
+      "title": "Ca luyện quyết định 2: DOR và type 4 nhỏ",
+      "variant": "pearl_card",
+      "question": "Nên mổ trước hay tạo và trữ phôi trước?",
+      "pearl": "Ưu tiên tạo và trữ phôi trước vì tuổi noãn đang là nút nghẽn; buồng tử cung ổn có thể tối ưu sau bằng theo dõi.",
+      "note": "Làm gì? Thảo luận ca đại diện.\nTại sao? Dùng ca lâm sàng để kiểm tra quyết định, không học thuộc máy móc.\nNếu bỏ qua/làm sai? Không đặt ca vào thuật toán sẽ dễ chọn mổ/IVF theo phản xạ.\nNguồn DOCX: T21, P196, P134"
+    },
+    {
+      "type": "qa_clinical",
+      "title": "Ca luyện quyết định 3: RIF và type 3",
+      "variant": "pearl_card",
+      "question": "Bước tiếp theo trước khi quyết định mổ là gì?",
+      "pearl": "Đánh giá lại buồng tử cung bằng 3D hoặc nội soi, loại trừ adenomyosis, polyp và yếu tố phôi, rồi mới hội chẩn; không mổ theo phản xạ.",
+      "note": "Làm gì? Thảo luận ca đại diện.\nTại sao? Dùng ca lâm sàng để kiểm tra quyết định, không học thuộc máy móc.\nNếu bỏ qua/làm sai? Không đặt ca vào thuật toán sẽ dễ chọn mổ/IVF theo phản xạ.\nNguồn DOCX: P131, P201"
+    },
+    {
+      "type": "references",
+      "title": "Tài liệu tham khảo từ DOCX nguồn",
+      "variant": "numbered",
+      "refs": [
+        "PMID: 42104843; PMCID: PMC13278667; DOI: 10.1002/ijgo.71062.",
+        "Citation discipline: Các nhận định định hướng được gắn PMID/guideline.",
+        "PMID: 42104843; PMCID: PMC13278667.",
+        "PMID: 27335259.",
+        "PMID: 12548202.",
+        "PMID: 28296146.",
+        "PMID: 18534913.",
+        "PMID: 22448610; PMCID: PMC3342149.",
+        "PMID: 42104843.",
+        "PMID: 12548202; PMID: 28296146."
+      ],
+      "note": "Làm gì? Hiển thị nguồn chính đã có trong DOCX.\nTại sao? Không thêm reference từ ngoài DOCX.\nNếu bỏ qua/làm sai? Thêm nguồn ngoài sẽ vi phạm phạm vi user yêu cầu.\nNguồn DOCX: P281"
+    }
+  ]
+}

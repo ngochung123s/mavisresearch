@@ -1,0 +1,322 @@
+[
+  {
+    "id": "IM56_001",
+    "type": "basic",
+    "front": "Trình bày 3 con đường chuyển hóa lipid chính trong cơ thể (Ngoại sinh, Nội sinh, Vận chuyển ngược RCT)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Con đường ngoại sinh:</b> Chất béo thức ăn → Chylomicron tại ruột → Men LPL thủy phân giải phóng acid béo vào cơ/mô mỡ → Chylomicron remnant về gan.<br>• <b>Con đường nội sinh:</b> Gan tổng hợp VLDL (mang ApoB-100) → Men LPL thủy phân thành IDL → LDL-C cung cấp cholesterol cho mô ngoại vi → 70 - 80% hạt LDL-C được gan thu hồi qua thụ thể LDL-R.<br>• <b>Con đường vận chuyển ngược (RCT):</b> Tiền chất HDL (ApoA-I) thu gom cholesterol tự do từ mô ngoại vi và đại thực bào qua ABCA1/ABCG1 → Men LCAT ester hóa → HDL trưởng thành mang cholesterol về gan qua thụ thể SR-B1.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Mọi hạt lipoprotein sinh xơ vữa (Chylomicron remnant, VLDL, IDL, LDL) đều mang phân tử Apolipoprotein B (ApoB), trong khi hạt bảo vệ HDL mang ApoA-I. Điều này giải thích vì sao định lượng ApoB và Non-HDL-C phản ánh toàn diện gánh nặng sinh xơ vữa hơn LDL-C đơn độc.",
+    "tags": [
+      "IM-56",
+      "Lipid_Pathways",
+      "Physiology",
+      "ApoB"
+    ]
+  },
+  {
+    "id": "IM56_002",
+    "type": "basic",
+    "front": "Cơ chế 4 giai đoạn hình thành và nứt vỡ mảng xơ vữa động mạch (Atherogenesis) diễn ra như thế nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. <b>Xâm nhập & Bắt giữ:</b> Các hạt chứa ApoB (chủ yếu LDL-C) xuyên qua nội mạc và bị bẫy lại ở lớp dưới nội mạc do gắn vào proteoglycan.<br>2. <b>Oxy hóa & Viêm:</b> Hạt LDL bị oxy hóa thành oxLDL → Kích thích nội mạc biểu hiện VCAM-1, ICAM-1 và tiết MCP-1 thu hút bạch cầu đơn nhân (Monocytes).<br>3. <b>Hình thành Tế bào bọt (Foam cells):</b> Đại thực bào bắt giữ oxLDL qua thụ thể dọn dẹp (CD36, SRA-1) tạo vệt mỡ → Tế bào bọt chết hoại tử hình thành Lõi giàu lipid.<br>4. <b>Mỏng màng xơ & Nứt vỡ:</b> Đại thực bào tiết men Matrix Metalloproteinases (MMPs) tiêu hủy collagen màng xơ → Màng xơ nứt vỡ bộc lộ yếu tố mô (Tissue Factor) kích hoạt huyết khối tắc mạch cấp.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Đây là cơ sở giải thích tại sao biến cố tim mạch không phụ thuộc vào độ hẹp lòng mạch (mảng xơ vữa hẹp 30% có màng xơ mỏng vẫn có thể nứt vỡ gây nhồi máu cơ tim cấp) mà phụ thuộc vào tính ổn định của màng xơ và mức độ viêm thành mạch.",
+    "tags": [
+      "IM-56",
+      "Atherosclerosis",
+      "Foam_Cells",
+      "MMP"
+    ]
+  },
+  {
+    "id": "IM56_003",
+    "type": "basic",
+    "front": "Định nghĩa Non-HDL-C và Lipoprotein(a) [Lp(a)]? Tại sao ESC khuyến cáo nên xét nghiệm Lp(a) ít nhất 1 lần trong đời?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Non-HDL-C:</b> Tính bằng Tổng Cholesterol trừ HDL-C, đại diện cho toàn bộ lượng cholesterol nằm trong tất cả các hạt sinh xơ vữa (LDL, VLDL, IDL, Chylomicron remnant).<br>• <b>Lipoprotein(a) [Lp(a)]:</b> Là hạt LDL liên kết cộng hóa trị với glycoprotein Apolipoprotein(a).<br>• <b>Khuyến cáo xét nghiệm Lp(a):</b> Nồng độ Lp(a) do gen di truyền quyết định > 90%. Lp(a) vừa gây xơ vữa, vừa kích hoạt huyết khối (cạnh tranh ức chế plasminogen) và thúc đẩy vôi hóa hẹp van động mạch chủ. Đo 1 lần trong đời giúp phát hiện người có Lp(a) > 50 mg/dL (> 125 nmol/L) có nguy cơ tim mạch rất cao suốt đời.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Non-HDL-C là chỉ số ưu việt hơn LDL-C ở bệnh nhân có tăng Triglyceride, ĐTĐ hoặc béo phì. Mục tiêu Non-HDL-C luôn bằng mục tiêu LDL-C cộng thêm 30 mg/dL (0.8 mmol/L).",
+    "tags": [
+      "IM-56",
+      "Non_HDL",
+      "Lpa",
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "IM56_004",
+    "type": "basic",
+    "front": "Thực hành lấy mẫu xét nghiệm lipid máu: Tại sao ESC/EAS và AHA/ACC khuyến cáo làm xét nghiệm KHÔNG CẦN NHỊN ĂN (Non-fasting)? Khi nào bắt buộc phải nhịn ăn?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Lý do làm Non-fasting:</b> Hầu hết thời gian trong 24 giờ con người ở trạng thái sau ăn; xét nghiệm không nhịn ăn phản ánh trung thực nồng độ hạt sinh xơ vữa thực tế, dự báo biến cố tim mạch tương đương hoặc tốt hơn nhịn ăn, và giúp tăng tuân thủ tái khám của người bệnh.<br>• <b>Khi nào bắt buộc phải nhịn ăn (Fasting)?</b><br>  1. Khi Triglyceride không nhịn ăn > 4.5 mmol/L (> 400 mg/dL).<br>  2. Theo dõi điều trị tăng Triglyceride nặng đã biết hoặc sau viêm tụy cấp do tăng TG.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Ăn uống thông thường chỉ làm tăng Triglyceride nhẹ khoảng 0.3 - 0.6 mmol/L (25 - 50 mg/dL) và hầu như không làm thay đổi nồng độ Cholesterol toàn phần, HDL-C hay ApoB.",
+    "tags": [
+      "IM-56",
+      "Non_Fasting",
+      "Clinical_Practice"
+    ]
+  },
+  {
+    "id": "IM56_005",
+    "type": "basic",
+    "front": "Tiêu chuẩn phân tầng Nguy cơ Tim mạch RẤT CAO (Very-High Risk) theo ESC/EAS 2019/2023 là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Bệnh nhân được xếp vào nhóm <b>Nguy cơ Rất Cao</b> khi có bất kỳ tiêu chí nào sau đây:<br>1. Tiền sử bệnh tim mạch do xơ vữa (ASCVD) trên lâm sàng (NMCT, đột quỵ, can thiệp mạch vành) hoặc hình ảnh học rõ rệt.<br>2. ĐTĐ kèm tổn thương cơ quan đích (đạm niệu, dày thất trái, bệnh võng mạc) hoặc kèm ≥ 3 yếu tố nguy cơ chính.<br>3. Bệnh thận mạn nặng (eGFR < 30 mL/min/1.73m²).<br>4. Điểm nguy cơ 10 năm SCORE2 / SCORE2-Diabetes / SCORE2-OP ≥ 10%.<br>5. Tăng cholesterol máu gia đình (FH) kèm ASCVD hoặc kèm 1 yếu tố nguy cơ chính.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Nhóm nguy cơ rất cao bắt buộc phải áp dụng mục tiêu hạ LDL-C tích cực nhất: Giảm ≥ 50% so với mức nền VÀ đạt LDL-C < 1.4 mmol/L (< 55 mg/dL).",
+    "tags": [
+      "IM-56",
+      "Risk_Stratification",
+      "Very_High_Risk",
+      "ESC"
+    ]
+  },
+  {
+    "id": "IM56_006",
+    "type": "basic",
+    "front": "Tiêu chuẩn phân tầng Nguy cơ Tim mạch CAO (High Risk) theo ESC/EAS 2019 là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Bệnh nhân được xếp vào nhóm <b>Nguy cơ Cao</b> khi có một trong các tiêu chí:<br>1. Tăng rõ rệt 1 yếu tố nguy cơ đơn độc: Cholesterol toàn phần > 8 mmol/L (> 310 mg/dL) hoặc LDL-C > 4.9 mmol/L (> 190 mg/dL) hoặc Huyết áp ≥ 180/110 mmHg.<br>2. Tăng cholesterol máu gia đình (FH) không kèm yếu tố nguy cơ chính khác.<br>3. ĐTĐ kéo dài ≥ 10 năm chưa có tổn thương cơ quan đích.<br>4. Bệnh thận mạn trung bình (eGFR 30 - 59 mL/min/1.73m²).<br>5. Điểm nguy cơ 10 năm SCORE2 từ 5% đến < 10%.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Mục tiêu LDL-C cho nhóm nguy cơ cao là: Giảm ≥ 50% so với mức nền VÀ đạt LDL-C < 1.8 mmol/L (< 70 mg/dL).",
+    "tags": [
+      "IM-56",
+      "Risk_Stratification",
+      "High_Risk"
+    ]
+  },
+  {
+    "id": "IM56_007",
+    "type": "basic",
+    "front": "Điểm Vôi hóa Động mạch vành (CAC Score - Coronary Artery Calcium) đóng vai trò gì trong phân tầng nguy cơ và chỉ định Statin?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Chỉ định:</b> Dùng làm 'trọng tài' quyết định ở nhóm bệnh nhân thuộc Nguy cơ trung bình hoặc Ranh giới (Borderline/Intermediate risk) khi còn phân vân có nên dùng Statin dự phòng suốt đời hay không.<br>• <b>Ngưỡng diễn giải CAC:</b><br>  - <b>CAC = 0 Agatston:</b> Nguy cơ tim mạch 5-10 năm cực thấp → <b>Có thể trì hoãn việc dùng Statin</b>.<br>  - <b>CAC 1 - 99 Agatston:</b> Ủng hộ khởi động Statin liều trung bình.<br>  - <b>CAC ≥ 100 Agatston hoặc ≥ 75th percentile theo tuổi/giới:</b> Tái phân tầng lên nguy cơ cao → <b>Bắt buộc khởi trị Statin cường độ cao</b>.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Không áp dụng CAC = 0 để hoãn statin ở 3 đối tượng: Người hút thuốc lá nặng, bệnh nhân Đái tháo đường, hoặc người có tiền sử gia đình mắc bệnh mạch vành rất sớm.",
+    "tags": [
+      "IM-56",
+      "CAC_Score",
+      "Imaging",
+      "AHA_ACC"
+    ]
+  },
+  {
+    "id": "IM56_008",
+    "type": "basic",
+    "front": "Kể tên các nhóm tiêu chuẩn trong Thang điểm Mạng lưới Phòng khám Lipid Hà Lan (DLCN) chẩn đoán Tăng cholesterol máu gia đình (FH)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Gồm 5 nhóm tiêu chuẩn:<br>1. <b>Tiền sử gia đình:</b> Trực hệ cấp 1 mắc bệnh mạch vành sớm hoặc có LDL-C > 95th percentile (1-2 điểm).<br>2. <b>Tiền sử bản thân:</b> Mắc bệnh mạch vành sớm (2 điểm), bệnh mạch não/ngoại biên sớm (1 điểm).<br>3. <b>Khám thực thể:</b> <b>U gân Achille/gân duỗi bàn tay (6 điểm)</b>, Vòng giác mạc trước 45 tuổi (4 điểm).<br>4. <b>Mức LDL-C:</b> ≥ 8.5 mmol/L (8 điểm), 6.5-8.4 mmol/L (5 điểm), 5.0-6.4 mmol/L (3 điểm), 4.0-4.9 mmol/L (1 điểm).<br>5. <b>Đột biến gen:</b> Đột biến LDLR, APOB hoặc PCSK9 (8 điểm).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Chẩn đoán xác định khi > 8 điểm (Definite FH), nhiều khả năng khi 6-8 điểm (Probable FH). U gân (Tendon xanthoma) là dấu hiệu thực thể có điểm số rất cao (6 điểm).",
+    "tags": [
+      "IM-56",
+      "FH",
+      "DLCN_Score",
+      "Genetics"
+    ]
+  },
+  {
+    "id": "IM56_009",
+    "type": "basic",
+    "front": "Mục tiêu điều trị LDL-C theo khuyến cáo ESC/EAS 2019 cho 4 nhóm nguy cơ tim mạch là bao nhiêu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Nguy cơ Rất Cao:</b> Giảm ≥ 50% so với mức nền <b>VÀ</b> đạt LDL-C < 1.4 mmol/L (< 55 mg/dL).<br>  <i>(Nếu tái phát biến cố trong 2 năm dù đang dùng statin tối đa: cân nhắc LDL-C < 1.0 mmol/L / < 40 mg/dL)</i>.<br>• <b>Nguy cơ Cao:</b> Giảm ≥ 50% so với mức nền <b>VÀ</b> đạt LDL-C < 1.8 mmol/L (< 70 mg/dL).<br>• <b>Nguy cơ Trung Bình:</b> Đạt LDL-C < 2.6 mmol/L (< 100 mg/dL).<br>• <b>Nguy cơ Thấp:</b> Đạt LDL-C < 3.0 mmol/L (< 116 mg/dL).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bắt buộc phải thỏa mãn đồng thời cả 2 tiêu chí ở nhóm nguy cơ cao/rất cao: vừa giảm được ≥ 50% so với số ban đầu, vừa phải ép con số tuyệt đối xuống dưới ngưỡng mục tiêu.",
+    "tags": [
+      "IM-56",
+      "LDL_Goals",
+      "ESC_2019",
+      "EBM"
+    ]
+  },
+  {
+    "id": "IM56_010",
+    "type": "basic",
+    "front": "Kết luận cốt lõi của Phân tích gộp CTT Collaboration (Lancet 2010 - PMID: 21067804) về hiệu quả hạ LDL-C là gì?",
+    "back": "<b>📖 Văn bản gốc (CTT Collaboration - Lancet 2010):</b><br>• Cứ mỗi <b>1.0 mmol/L (~38.7 mg/dL)</b> nồng độ LDL-C giảm được:<br>  → Làm giảm <b>22% nguy cơ hàng năm của các biến cố mạch máu lớn</b> (tử vong tim mạch, nhồi máu cơ tim, đột quỵ, tái tưới máu).<br>  → Làm giảm 10% tử vong do mọi nguyên nhân.<br>• Lợi ích giảm biến cố tỷ lệ thuận tuyến tính với mức hạ LDL-C và không ghi nhận ngưỡng giới hạn an toàn dưới.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Đây là bằng chứng nền tảng cho triết lý 'The Lower, The Better'. Kể cả khi LDL-C hạ xuống mức rất thấp (< 30 mg/dL trong thử nghiệm FOURIER), bệnh nhân vẫn tiếp tục nhận được thêm lợi ích bảo vệ tim mạch mà không tăng nguy cơ xuất huyết não hay suy giảm nhận thức.",
+    "tags": [
+      "IM-56",
+      "CTT",
+      "Lancet",
+      "Meta_Analysis"
+    ]
+  },
+  {
+    "id": "IM56_011",
+    "type": "basic",
+    "front": "Phân loại các mức cường độ của Statin (Cao, Trung bình, Thấp) và 'Quy tắc 6%' (Rule of 6s) là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Statin cường độ cao (Giảm LDL-C ≥ 50%):</b> Atorvastatin 40 - 80 mg/ngày hoặc Rosuvastatin 20 - 40 mg/ngày.<br>• <b>Statin cường độ trung bình (Giảm LDL-C 30 - 49%):</b> Atorvastatin 10 - 20 mg, Rosuvastatin 5 - 10 mg, Simvastatin 20 - 40 mg, Pravastatin 40 - 80 mg.<br>• <b>Statin cường độ thấp (Giảm LDL-C < 30%):</b> Simvastatin 10 mg, Pravastatin 10 - 20 mg.<br>• <b>Quy tắc 6%:</b> Mỗi lần tăng gấp đôi liều statin chỉ giúp hạ thêm khoảng 6% LDL-C nhưng nguy cơ tác dụng phụ tăng theo cấp số nhân.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Do quy tắc 6%, nếu dùng Atorvastatin 40mg chưa đạt mục tiêu, việc tăng lên 80mg chỉ giúp hạ thêm 6%, nhưng nếu phối hợp thêm Ezetimibe 10mg sẽ giúp hạ thêm tới 15-20% LDL-C.",
+    "tags": [
+      "IM-56",
+      "Statin",
+      "Rule_of_6",
+      "Dosing"
+    ]
+  },
+  {
+    "id": "IM56_012",
+    "type": "basic",
+    "front": "Cơ chế tác dụng và hiệu quả lâm sàng của Ezetimibe (Thử nghiệm IMPROVE-IT - PMID: 26039521) là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Cơ chế:</b> Gắn chọn lọc vào protein vận chuyển NPC1L1 ở diềm bàn chải ruột non, ức chế tái hấp thu cholesterol ngoại sinh từ thức ăn và dịch mật khoảng 54%.<br>• <b>Hiệu quả:</b> Dùng đơn độc hạ 15-20% LDL-C. Khi phối hợp với Statin, giúp hạ thêm 15-20% LDL-C.<br>• <b>Thử nghiệm IMPROVE-IT:</b> Ở bệnh nhân sau hội chứng vành cấp, phối hợp Simvastatin + Ezetimibe giúp hạ LDL-C từ 69.5 mg/dL xuống 53.7 mg/dL và làm giảm có ý nghĩa thống kê các biến cố tim mạch (HR 0.936, p=0.016).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>IMPROVE-IT là thử nghiệm đầu tiên chứng minh việc hạ LDL-C bằng một thuốc NGOÀI statin vẫn đem lại lợi ích bảo vệ tim mạch, khẳng định bản thân phân tử LDL-C chính là đích ngắm điều trị.",
+    "tags": [
+      "IM-56",
+      "Ezetimibe",
+      "IMPROVE_IT",
+      "NPC1L1"
+    ]
+  },
+  {
+    "id": "IM56_013",
+    "type": "basic",
+    "front": "Nhóm thuốc ức chế PCSK9 gồm những loại nào? Cơ chế và hiệu quả hạ LDL-C (Thử nghiệm FOURIER & ODYSSEY OUTCOMES)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Cơ chế:</b> Ngăn enzyme PCSK9 gắn vào thụ thể LDL-R, tránh cho LDL-R bị tiêu hủy tại lysosome, giúp thụ thể tái tuần hoàn trở lại màng tế bào gan để dọn sạch LDL-C.<br>• <b>Kháng thể đơn dòng (mAbs):</b> Evolocumab (140 mg SC mỗi 2 tuần) và Alirocumab (75-150 mg SC mỗi 2 tuần) giúp hạ sâu thêm 50 - 60% LDL-C.<br>• <b>siRNA can thiệp gen:</b> Inclisiran (tiêm dưới da ngày 1, ngày 90, sau đó 6 tháng/lần) hạ bền vững ~50% LDL-C.<br>• <b>Bằng chứng EBM:</b> FOURIER (Evolocumab) và ODYSSEY (Alirocumab) chứng minh giảm 15% biến cố tim mạch chính MACE.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Khi phối hợp 'Bộ ba' Statin liều cao + Ezetimibe + PCSK9i, nồng độ LDL-C có thể giảm tới 85% so với mức nền ban đầu.",
+    "tags": [
+      "IM-56",
+      "PCSK9",
+      "FOURIER",
+      "ODYSSEY",
+      "Inclisiran"
+    ]
+  },
+  {
+    "id": "IM56_014",
+    "type": "basic",
+    "front": "Cơ chế tác dụng và tính ưu việt của Bempedoic Acid (Thử nghiệm CLEAR Outcomes - PMID: 36876740) là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Cơ chế:</b> Ức chế enzyme ATP Citrate Lyase (ACL) — bước đi trước HMG-CoA Reductase trong chu trình tổng hợp cholesterol tại gan.<br>• <b>Tính ưu việt:</b> Bempedoic acid là tiền chất (prodrug), chỉ được hoạt hóa bởi enzyme ACSVL1 tại gan mà <b>hoàn toàn không có trong cơ vân</b>. Do đó, thuốc không gây đau cơ.<br>• <b>Thử nghiệm CLEAR Outcomes (2023):</b> Ở bệnh nhân không dung nạp statin, Bempedoic acid (180 mg/ngày) giúp hạ 21.7% LDL-C và làm giảm 13% biến cố tim mạch chính MACE (HR 0.87, p=0.004).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bempedoic acid là lựa chọn hàng đầu cho bệnh nhân đau cơ do statin thực sự. Khi phối hợp sẵn dạng viên kết hợp Bempedoic acid + Ezetimibe giúp hạ tới 35-40% LDL-C không cần statin.",
+    "tags": [
+      "IM-56",
+      "Bempedoic_Acid",
+      "CLEAR_Outcomes",
+      "Statin_Intolerance"
+    ]
+  },
+  {
+    "id": "IM56_015",
+    "type": "basic",
+    "front": "Vai trò của nhóm đồng vận thụ thể GLP-1 (GLP-1 RAs / Semaglutide) trong giao thoa Tim mạch — Chuyển hóa (Thử nghiệm SELECT)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Thử nghiệm SELECT (2023 - PMID: 37952131):</b> Semaglutide 2.4 mg tiêm dưới da 1 lần/tuần giúp làm giảm 20% biến cố tim mạch chính (MACE) ở bệnh nhân thừa cân/béo phì có tiền sử ASCVD nhưng KHÔNG mắc đái tháo đường.<br>• <b>Tác động lên Lipid:</b> Giảm cân nặng và mỡ nội tạng, giảm đề kháng insulin tại gan → Giảm tổng hợp VLDL, hạ mạnh Triglyceride (15-20%), giảm các hạt lipoprotein tồn dư và tăng HDL-C.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>GLP-1 RA đại diện cho sự xóa nhòa ranh giới giữa Tim mạch và Nội tiết, kiểm soát đồng thời cân nặng, đường huyết, huyết áp và chuyển hóa lipid.",
+    "tags": [
+      "IM-56",
+      "GLP1_RA",
+      "Semaglutide",
+      "SELECT_Trial"
+    ]
+  },
+  {
+    "id": "IM56_016",
+    "type": "basic",
+    "front": "Kể tên các liệu pháp nhắm trúng đích Lipoprotein(a) mới đang trong thử nghiệm lâm sàng Phase 3 (Pelacarsen, Olpasiran)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. <b>Pelacarsen:</b> Đoạn oligonucleotide đối mã (Antisense Oligonucleotide - ASO) liên kết GalNAc, gắn chọn lọc vào mRNA của Apo(a) tại gan để ức chế dịch mã (Thử nghiệm Phase 3 HORIZON).<br>2. <b>Olpasiran / Zerlasiran:</b> Các phân tử RNA can thiệp nhỏ (siRNA) tiêm dưới da mỗi 3 - 6 tháng, giúp làm <b>hạ > 90% nồng độ Lp(a)</b> lưu hành trong máu (Thử nghiệm Phase 3 OCEAN(a)-DOSE).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Statin thông thường không hạ được Lp(a) (thậm chí có thể làm tăng nhẹ 10-20% Lp(a)). Do đó, các thuốc can thiệp RNA thế hệ mới này sẽ mở ra kỷ nguyên điều trị trúng đích cho bệnh nhân có Lp(a) cao di truyền.",
+    "tags": [
+      "IM-56",
+      "Lpa_Therapy",
+      "Pelacarsen",
+      "Olpasiran"
+    ]
+  },
+  {
+    "id": "IM56_017",
+    "type": "basic",
+    "front": "Phân tầng mức độ tăng Triglyceride máu và 2 mục tiêu điều trị hoàn toàn khác biệt?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Tăng TG Nặng (≥ 500 mg/dL / ≥ 5.6 mmol/L):</b><br>  - <b>Mục tiêu khẩn cấp:</b> PHÒNG NGỪA VIÊM TỤY CẤP.<br>  - <b>Can thiệp:</b> Nhịn mỡ, kiêng 100% rượu bia, khởi trị ngay <b>Fenofibrate (145-200 mg/ngày)</b>; lọc huyết tương nếu TG > 1000 mg/dL kèm viêm tụy cấp nặng.<br>• <b>Tăng TG Nhẹ đến Vừa (135 - 499 mg/dL / 1.5 - 5.6 mmol/L):</b><br>  - <b>Mục tiêu chính:</b> DỰ PHÒNG BIẾN CỐ TIM MẠCH XƠ VỮA (ASCVD).<br>  - <b>Can thiệp:</b> Dùng Statin tối ưu trước; nếu TG vẫn dai dẳng ở BN có ASCVD/ĐTĐ thì phối hợp <b>Icosapent Ethyl (4 g/ngày)</b>.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Khi TG ≥ 500 mg/dL, ưu tiên phòng viêm tụy cấp là số 1 (dùng Fibrate trước). Khi TG < 500 mg/dL, ưu tiên hạ LDL-C phòng xơ vữa mạch vành là số 1 (dùng Statin trước).",
+    "tags": [
+      "IM-56",
+      "Triglyceride",
+      "Pancreatitis",
+      "Treatment_Goals"
+    ]
+  },
+  {
+    "id": "IM56_018",
+    "type": "basic",
+    "front": "Cơ chế gây Viêm tụy cấp của Tăng Triglyceride máu nặng (≥ 500 - 1000 mg/dL) là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. Nồng độ Triglyceride và hạt Chylomicron quá cao làm tăng độ nhớt máu mao mạch tụy → Gây tắc nghẽn vi tuần hoàn và thiếu máu cục bộ mô tụy.<br>2. Men Lipase tụy rò rỉ thủy phân lượng lớn TG, giải phóng ồ ạt các <b>Acid béo tự do không gắn albumin (Free Fatty Acids - FFA)</b>.<br>3. Nồng độ FFA cao gây độc trực tiếp tế bào nang tuyến tụy và nội mạc mao mạch, làm vỡ màng lysosome và kích hoạt trypsinogen thành trypsin tự tiêu hóa mô tụy gây viêm tụy cấp hoại tử.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Điều trị cấp cứu hạ TG trong viêm tụy cấp ở bệnh nhân ĐTĐ/tăng đường huyết là truyền Insulin tĩnh mạch liên tục (Insulin kích hoạt mạnh mẽ enzyme LPL giúp dọn sạch TG máu trong 24-48 giờ).",
+    "tags": [
+      "IM-56",
+      "Pancreatitis",
+      "Pathophysiology",
+      "FFA"
+    ]
+  },
+  {
+    "id": "IM56_019",
+    "type": "basic",
+    "front": "Thử nghiệm REDUCE-IT (Bhatt et al., NEJM 2019 - PMID: 30415628): Chỉ định và hiệu quả của Icosapent Ethyl?",
+    "back": "<b>📖 Văn bản gốc (Thử nghiệm REDUCE-IT):</b><br>• <b>Đối tượng:</b> Bệnh nhân có tiền sử ASCVD hoặc Đái tháo đường kèm ≥ 2 yếu tố nguy cơ, đã dùng Statin tối ưu nhưng nồng độ Triglyceride vẫn tăng dai dẳng 135 - 499 mg/dL.<br>• <b>Can thiệp:</b> Dùng Icosapent Ethyl (EPA tinh khiết liều cao 4 g/ngày, 2g x 2 lần/ngày).<br>• <b>Kết quả:</b> Làm <b>giảm 25% biến cố tim mạch chính MACE</b> (HR 0.75, p < 0.001) và giảm 20% tử vong tim mạch so với nhóm chứng.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Chỉ có EPA tinh khiết liều cao (Icosapent ethyl) mới chứng minh được giảm biến cố tim mạch; các viên dầu cá Omega-3 hỗn hợp (chứa DHA + EPA) thông thường ở liều thấp không đem lại lợi ích này.",
+    "tags": [
+      "IM-56",
+      "REDUCE_IT",
+      "Icosapent_Ethyl",
+      "EPA"
+    ]
+  },
+  {
+    "id": "IM56_020",
+    "type": "basic",
+    "front": "CẢNH BÁO AN TOÀN SỐNG CÒN: Tại sao TUYỆT ĐỐI KHÔNG ĐƯỢC PHỐI HỢP GEMFIBROZIL VỚI STATIN? Thuốc Fibrate nào an toàn khi phối hợp?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Nguy cơ của Gemfibrozil:</b> Gemfibrozil ức chế mạnh men glucuronid hóa (UGT1A1/1A3) và ức chế protein vận chuyển OATP1B1 tại gan → Làm <b>tăng nồng độ Statin trong máu lên gấp 2 - 6 lần</b>, dẫn đến nguy cơ tiêu cơ vân cấp và suy thận cấp cực kỳ nguy hiểm.<br>• <b>Lựa chọn an toàn:</b> Nếu bắt buộc phải phối hợp Statin với Fibrate, <b>LỰA CHỌN DUY NHẤT LÀ FENOFIBRATE</b>.<br>• Fenofibrate đào thải qua con đường chuyển hóa khác nên không làm tăng nồng độ Statin trong máu.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Đây là lỗi kê đơn kinh điển nhưng chết người cần tuyệt đối ghi nhớ khi đi lâm sàng.",
+    "tags": [
+      "IM-56",
+      "Safety",
+      "Drug_Interaction",
+      "Gemfibrozil",
+      "Fenofibrate"
+    ]
+  },
+  {
+    "id": "IM56_021",
+    "type": "basic",
+    "front": "Phân loại 3 mức độ tổn thương cơ do Statin (Đau cơ, Viêm cơ, Tiêu cơ vân)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. <b>Đau cơ (Myalgia):</b> Bệnh nhân đau mỏi, co cứng cơ (thường đối xứng gốc chi), không kèm yếu cơ, <b>men CK máu hoàn toàn bình thường</b> (chiếm 5 - 10% bệnh nhân).<br>2. <b>Viêm cơ (Myositis):</b> Đau cơ kèm men <b>CK tăng > 3 - 10 lần giới hạn trên bình thường (ULN)</b>.<br>3. <b>Tiêu cơ vân cấp (Rhabdomyolysis):</b> Hoại tử cơ ồ ạt kèm <b>CK > 40 - 50 lần ULN</b>, đau cơ dữ dội, yếu cơ, tiểu Myoglobin màu nước tiểu xá xị, suy thận cấp do tắc ống thận (cực hiếm, < 1/100.000 bệnh nhân-năm).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Khi men CK < 4 lần ULN và bệnh nhân không đau nhiều, không bắt buộc phải ngưng statin ngay mà có thể theo dõi sát.",
+    "tags": [
+      "IM-56",
+      "SAMS",
+      "Myopathy",
+      "Rhabdomyolysis"
+    ]
+  },
+  {
+    "id": "IM56_022",
+    "type": "basic",
+    "front": "Hiệu ứng Nocebo trong dùng Statin là gì (Thử nghiệm SAMSON - PMID: 33191238)? Quy trình 5 bước xử trí đau cơ do Statin?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Bản chất Nocebo:</b> Thử nghiệm SAMSON (N-of-1 trial) chứng minh <b>> 90% triệu chứng đau cơ</b> khi dùng statin là do tâm lý lo sợ (uống viên giả dược placebo nhưng bảo là statin vẫn đau cơ tương tự).<br>• <b>Quy trình 5 bước xử trí:</b><br>  1. Xét nghiệm CK, TSH (loại trừ suy giáp), Vitamin D.<br>  2. Tạm ngưng statin 2-4 tuần xem triệu chứng có hết không (De-challenge).<br>  3. Dùng lại statin liều thấp xem có tái phát không (Re-challenge).<br>  4. Đổi sang statin thải qua thận ít qua CYP3A4 (Rosuvastatin, Pitavastatin) dùng cách nhật 2-3 lần/tuần.<br>  5. Phối hợp sớm Ezetimibe hoặc Bempedoic acid để đạt mục tiêu LDL-C.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Quy tắc ngón tay cái: Không bao giờ vội vã kết luận bệnh nhân 'dị ứng/không dung nạp statin' chỉ sau 1 lần than đau cơ.",
+    "tags": [
+      "IM-56",
+      "SAMSON",
+      "Nocebo",
+      "Clinical_Approach"
+    ]
+  },
+  {
+    "id": "IM56_023",
+    "type": "basic",
+    "front": "Dư thừa Nguy cơ Viêm (Residual Inflammatory Risk) là gì? Xét nghiệm chỉ điểm hs-CRP và vai trò của Colchicine (LoDoCo2, COLCOT)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Khái niệm:</b> Tình trạng bệnh nhân đã đạt mục tiêu LDL-C rất thấp (< 55 mg/dL) nhưng vẫn tái phát biến cố tim mạch do phản ứng viêm thành mạch mạn tính tồn dư.<br>• <b>Chỉ số chỉ điểm:</b> <b>hs-CRP ≥ 2.0 mg/L</b>.<br>• <b>Bằng chứng EBM:</b> Thử nghiệm LoDoCo2 (2020) và COLCOT (2019) chứng minh sử dụng <b>Colchicine liều thấp (0.5 mg/ngày)</b> giúp làm giảm 23 - 31% biến cố tim mạch chính ở bệnh nhân bệnh mạch vành mạn tính hoặc sau nhồi máu cơ tim, độc lập hoàn toàn với mức hạ LDL-C.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Điều trị xơ vữa hiện đại chuyển từ 'Hạ mỡ máu đơn thuần' sang mô hình kép 'Hạ mỡ máu + Kháng viêm thành mạch'.",
+    "tags": [
+      "IM-56",
+      "Inflammation",
+      "hs_CRP",
+      "Colchicine",
+      "LoDoCo2"
+    ]
+  },
+  {
+    "id": "IM56_024",
+    "type": "basic",
+    "front": "Quy tắc quản lý Lipid ở bệnh nhân Bệnh thận mạn (CKD theo hướng dẫn KDIGO và thử nghiệm 4D, AURORA)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>CKD Giai đoạn 3 - 5 chưa lọc máu (eGFR < 60 mL/min/1.73m²):</b> BẮT BUỘC điều trị bằng Statin hoặc Statin + Ezetimibe để giảm biến cố tim mạch (Khuyến cáo KDIGO).<br>• <b>Bệnh nhân chạy thận nhân tạo chu kỳ (ESRD):</b><br>  - <b>Không khởi trị Statin mới</b> nếu bệnh nhân chưa từng dùng (Thử nghiệm 4D và AURORA chứng minh statin không làm giảm tử vong tim mạch ở nhóm đã chạy thận vì cơ chế tử vong chủ yếu do loạn nhịp và vôi hóa mạch máu không do xơ vữa).<br>  - <b>Nếu bệnh nhân đang dùng statin hiệu quả từ trước khi chạy thận:</b> TIẾP TỤC DUY TRÌ STATIN.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Quy tắc ngón tay cái cho sinh viên đi lâm sàng: 'Chưa lọc máu thì khởi trị; đã lọc máu thì không khởi trị mới nhưng duy trì nếu đã có từ trước'.",
+    "tags": [
+      "IM-56",
+      "CKD",
+      "KDIGO",
+      "Dialysis",
+      "AURORA"
+    ]
+  },
+  {
+    "id": "IM56_025",
+    "type": "basic",
+    "front": "Quy tắc lâm sàng 'Bộ ba sát thủ' (The Lethal Triad) trong rối loạn lipid máu ở bệnh nhân Đái tháo đường Type 2?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Bộ ba rối loạn lipid sinh xơ vữa (Atherogenic Dyslipidemia Triad) gồm:<br>1. <b>Tăng Triglyceride máu.</b><br>2. <b>Hạ HDL-C</b> (< 40 mg/dL ở nam, < 50 mg/dL ở nữ).<br>3. <b>LDL-C ở mức bình thường nhưng bản chất là các hạt LDL nhỏ, đậm đặc (Small dense LDL - sdLDL)</b> có khả năng đâm xuyên qua nội mạc và oxy hóa cực mạnh.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Ở bệnh nhân ĐTĐ, mức LDL-C xét nghiệm bình thường gây cảm giác 'an tâm giả tạo'. Bác sĩ bắt buộc phải theo dõi mục tiêu <b>Non-HDL-C (< 85 mg/dL)</b> và <b>Apolipoprotein B (< 65 mg/dL)</b>.",
+    "tags": [
+      "IM-56",
+      "Diabetes",
+      "Lethal_Triad",
+      "sdLDL"
+    ]
+  },
+  {
+    "id": "IM56_026",
+    "type": "cloze",
+    "text": "Mục tiêu điều trị LDL-C theo ESC 2019 ở bệnh nhân có nguy cơ tim mạch rất cao là giảm ≥ {{c1::50%}} so với mức nền và đạt mức tuyệt đối < {{c1::1.4}} mmol/L (< {{c1::55}} mg/dL).",
+    "extra": "Nếu bệnh nhân tái phát biến cố mạch máu thứ hai trong vòng 2 năm dù đã dùng statin tối đa, có thể cân nhắc mục tiêu LDL-C < 1.0 mmol/L (< 40 mg/dL)."
+  },
+  {
+    "id": "IM56_027",
+    "type": "cloze",
+    "text": "Theo CTT Collaboration (Lancet 2010), cứ mỗi {{c1::1.0}} mmol/L (~{{c1::38.7}} mg/dL) nồng độ LDL-C giảm được sẽ giúp làm giảm {{c1::22%}} nguy cơ biến cố tim mạch chính hàng năm.",
+    "extra": "Lợi ích giảm biến cố tỷ lệ thuận tuyến tính với mức hạ LDL-C và không có ngưỡng an toàn dưới."
+  },
+  {
+    "id": "IM56_028",
+    "type": "cloze",
+    "text": "Khi nồng độ Triglyceride máu ≥ {{c1::500}} mg/dL (≥ {{c1::5.6}} mmol/L), mục tiêu điều trị khẩn cấp hàng đầu là phòng ngừa {{c1::Viêm tụy cấp hoại tử}}, và thuốc điều trị lựa chọn ưu tiên là {{c1::Fenofibrate}}.",
+    "extra": "Tuyệt đối không phối hợp Gemfibrozil với Statin vì nguy cơ tiêu cơ vân cấp."
+  }
+]

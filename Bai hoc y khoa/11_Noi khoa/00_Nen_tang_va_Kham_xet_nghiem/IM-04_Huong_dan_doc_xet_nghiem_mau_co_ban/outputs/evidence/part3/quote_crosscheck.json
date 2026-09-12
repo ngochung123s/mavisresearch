@@ -1,0 +1,62 @@
+{
+  "part": "part3",
+  "checked": 9,
+  "passed_hash": 9,
+  "passed_exact_substring": 9,
+  "results": [
+    {
+      "candidate_id": "KDIGO-STATUS-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "HTML lines 851–852; page opening paragraphs"
+    },
+    {
+      "candidate_id": "KDIGO-STATUS-02",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "HTML line 852; second opening paragraph"
+    },
+    {
+      "candidate_id": "NA-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "PMCID PMC10904443; English abstract; sentences 4–7"
+    },
+    {
+      "candidate_id": "K-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "Official HTML; Lay Summary; opening paragraph"
+    },
+    {
+      "candidate_id": "K-02",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "Official HTML; Section II Hospital; Guideline 15.3"
+    },
+    {
+      "candidate_id": "LIVER-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "PMCID PMC5754852; section s1 “Recommendations list”; Recommendation 1"
+    },
+    {
+      "candidate_id": "LIVER-02",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "PMCID PMC5754852; section s1; Recommendations 2–3"
+    },
+    {
+      "candidate_id": "ADA-STATUS-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "Europe PMC core metadata; PMID 41358893; abstract sentences 1–2"
+    },
+    {
+      "candidate_id": "WHO-FERRITIN-01",
+      "sha256_match": true,
+      "exact_continuous_substring": true,
+      "locator": "Europe PMC core metadata; PMID 33909381; abstract sentence 1"
+    }
+  ]
+}

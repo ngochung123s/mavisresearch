@@ -1,0 +1,484 @@
+[
+  {
+    "gate": "brief_pmid_preflight",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\preflight_check_pmids.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1_RESEARCH_BRIEF.md",
+      "--strict",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\evidence-bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "4eac916437e634fbf7da66ada0c73d0787ae3e46671a8e060e539b62bd3f069c"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\evidence-bundle.json",
+        "sha256": "ed26705292e2c254c3c0fc41a1e4609192487977e3db2c256c079a3b8ba07ed8"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\brief_pmid_preflight.json",
+        "sha256": "71ffe54c0d7652420962476e965e5449a5c03c859f59ccddeaccf5806938c5fe"
+      }
+    ]
+  },
+  {
+    "gate": "brief_claims_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_claim_vs_abstract.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1_RESEARCH_BRIEF.md",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\brief_claims_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\evidence-bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "4eac916437e634fbf7da66ada0c73d0787ae3e46671a8e060e539b62bd3f069c"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\evidence-bundle.json",
+        "sha256": "ed26705292e2c254c3c0fc41a1e4609192487977e3db2c256c079a3b8ba07ed8"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\brief_claims_command.json",
+        "sha256": "360d305df5994f2488a829e75feb8f3bd107cb902a748c3c88185664b8df315e"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\brief_claims_report.json",
+        "sha256": "dc60b9a107b955962928307bc370f42718259c98142666b8d8df5de34d63b015"
+      }
+    ]
+  },
+  {
+    "gate": "source_pmid_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_all_pmids.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+      "--strict",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\evidence-bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+        "sha256": "7abcce4ef1f4b35195fe70d03338bfa8bb86fdf2976412271dddb7942527e816"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\evidence-bundle.json",
+        "sha256": "ed26705292e2c254c3c0fc41a1e4609192487977e3db2c256c079a3b8ba07ed8"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\source_pmid_strict.json",
+        "sha256": "99ae198411b29ca13a80de19d6781829c5c59d7310eb62e5f24ebecee196d278"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_guidelines.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.guideline_evidence.json",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\guideline_report.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.guideline_evidence.json",
+        "sha256": "bf1d446d86a82fe6514d9a1c295c5be7526934938ffac0b8712213c8dbdb228b"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\guideline_command.json",
+        "sha256": "3b9b7ca556267388e8cc4e81d45505c2d3582db6bf0c53bd7adc69ab1e94858d"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\guideline_report.json",
+        "sha256": "764dd67c9c3c7e516f607b467487d11947453af2f164457de937484e89947084"
+      }
+    ]
+  },
+  {
+    "gate": "source_claims_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_claims.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+      "--strict",
+      "--guideline-report",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\guideline_report.json",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\source_claims_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\evidence-bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+        "sha256": "7abcce4ef1f4b35195fe70d03338bfa8bb86fdf2976412271dddb7942527e816"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.guideline_evidence.json",
+        "sha256": "bf1d446d86a82fe6514d9a1c295c5be7526934938ffac0b8712213c8dbdb228b"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\evidence-bundle.json",
+        "sha256": "ed26705292e2c254c3c0fc41a1e4609192487977e3db2c256c079a3b8ba07ed8"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\source_claims_command.json",
+        "sha256": "37de407a8de47c5979ae109369ebf8130d71058a7ea0d7753ff12ee20d69442a"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\source_claims_report.json",
+        "sha256": "b4f311d1a9a3b746f884bd0d386dee033477ddf4d0701b3d11ae43e46297ccb8"
+      }
+    ]
+  },
+  {
+    "gate": "source_retraction",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\retraction_check.py",
+      "--md",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+      "--strict",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\source_retraction_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\evidence-bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+        "sha256": "7abcce4ef1f4b35195fe70d03338bfa8bb86fdf2976412271dddb7942527e816"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\evidence-bundle.json",
+        "sha256": "ed26705292e2c254c3c0fc41a1e4609192487977e3db2c256c079a3b8ba07ed8"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\source_retraction_command.json",
+        "sha256": "6be95a24647e4eb538bfd877d6b3e4130673c67f220ec8c2103dd117668f7b20"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\source_retraction_report.json",
+        "sha256": "13fbecca049aa23b4455a3475d21bad68a43e24a8602643e3699391f3a1e162b"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence_crosscheck",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "crosscheck_guidelines"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.guideline_evidence.json",
+        "sha256": "bf1d446d86a82fe6514d9a1c295c5be7526934938ffac0b8712213c8dbdb228b"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "4eac916437e634fbf7da66ada0c73d0787ae3e46671a8e060e539b62bd3f069c"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+        "sha256": "7abcce4ef1f4b35195fe70d03338bfa8bb86fdf2976412271dddb7942527e816"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\guideline_crosscheck_report.json",
+        "sha256": "61de2812738ecd4385aedcd2a2c82292882cc06fcb65934de688a3bbb7503891"
+      }
+    ]
+  },
+  {
+    "gate": "citation_zero_block",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\citation_audit.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\evidence-bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+        "sha256": "7abcce4ef1f4b35195fe70d03338bfa8bb86fdf2976412271dddb7942527e816"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\citation_audit.json",
+        "sha256": "69b09cb66c7325a456411430505b789f1049320d52c67fc65be2b56847cd59a6"
+      }
+    ]
+  },
+  {
+    "gate": "depth_foundation",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\depth_check.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+      "--profile",
+      "foundation"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+        "sha256": "7abcce4ef1f4b35195fe70d03338bfa8bb86fdf2976412271dddb7942527e816"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\depth_foundation.json",
+        "sha256": "7190b465e3367329d3036171ac099eb483f89bc6eddf3d9cfae8755cd6d9bc7b"
+      }
+    ]
+  },
+  {
+    "gate": "cards_schema",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "--internal",
+      "cards_schema"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.cards.v2.json",
+        "sha256": "1d7b205c7bae381aab582656430c2b717924523d879021acab2184e1b083207b"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\cards_schema.json",
+        "sha256": "9b5ba2f158ce6ede34944bc17df751d75ae5fe861cc0e0894c0ae89a6d1b0ea3"
+      }
+    ]
+  },
+  {
+    "gate": "candidate_apkg_build",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_apkg.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.cards.v2.json",
+      "--output",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.apkg",
+      "--verify"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.cards.v2.json",
+        "sha256": "1d7b205c7bae381aab582656430c2b717924523d879021acab2184e1b083207b"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\candidate_apkg_build.json",
+        "sha256": "d2f10f38c74811dc6339199769cf7e50298d1a81dbbe208a617cc8d430051835"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.apkg",
+        "sha256": "288d04a404018f9fbf36a844034eed4d4e1e41db71e9be1439548ba31b67e392"
+      }
+    ]
+  },
+  {
+    "gate": "package_note_count",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "internal:package_note_count"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.cards.v2.json",
+        "sha256": "1d7b205c7bae381aab582656430c2b717924523d879021acab2184e1b083207b"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.apkg",
+        "sha256": "288d04a404018f9fbf36a844034eed4d4e1e41db71e9be1439548ba31b67e392"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\package_counts.json",
+        "sha256": "fb1ccdb08f18e3e3d5395df3ab732f85ea6122e940dfa35f49518e72c26776c3"
+      }
+    ]
+  },
+  {
+    "gate": "package_diacritics",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_apkg_diacritics.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.apkg"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.apkg",
+        "sha256": "288d04a404018f9fbf36a844034eed4d4e1e41db71e9be1439548ba31b67e392"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\package_diacritics.json",
+        "sha256": "8a403d32cf1c867defca519ff136b594b52b37d11980a08c63feb5056607b9da"
+      }
+    ]
+  },
+  {
+    "gate": "source_diacritics",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "internal:source_diacritics"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+        "sha256": "7abcce4ef1f4b35195fe70d03338bfa8bb86fdf2976412271dddb7942527e816"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\source_diacritics.json",
+        "sha256": "862eace099c6518c0baeca7c75cb065d702302059f719d6b583f278fbffb9553"
+      }
+    ]
+  },
+  {
+    "gate": "docx_build",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\md_to_docx.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.docx"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+        "sha256": "7abcce4ef1f4b35195fe70d03338bfa8bb86fdf2976412271dddb7942527e816"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\docx_build.json",
+        "sha256": "2d787fe37621ddb7660ea9883dc30ad926d370ac995c63c8ea6cc6d89742fc1a"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.docx",
+        "sha256": "654e6c174ab297962164ac786e585dc6dc44435599c90b6402026ca30ead0823"
+      }
+    ]
+  },
+  {
+    "gate": "learner_smoke",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\make_knowledge_check.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.cards.v2.json",
+      "--output-dir",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.cards.v2.json",
+        "sha256": "1d7b205c7bae381aab582656430c2b717924523d879021acab2184e1b083207b"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\evidence-bundle.json",
+        "sha256": "ed26705292e2c254c3c0fc41a1e4609192487977e3db2c256c079a3b8ba07ed8"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\learner_smoke.json",
+        "sha256": "5457aeac8f6ceade9f1f763c6f51b99e808d2ecf98885fdf99b50275cec7f94b"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1_knowledge_check.md",
+        "sha256": "ad2adf597ef6e31900da72768be3c330923ceae09f872741564eb4dba449fb72"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1_knowledge_check_answer_key.md",
+        "sha256": "8badd675d774992763c05f346a77ced27af919d70914571bb0eac299740a05bc"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1_knowledge_check_score.json",
+        "sha256": "441f4483faa3b1e6297b84d155c52964564ef760d256d282a2f9058fff7856aa"
+      }
+    ]
+  }
+]

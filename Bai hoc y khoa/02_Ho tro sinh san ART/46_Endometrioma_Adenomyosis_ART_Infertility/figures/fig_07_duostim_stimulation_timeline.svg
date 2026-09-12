@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480">
+  <rect width="100%" height="100%" fill="#FAF5FF"/>
+  <text x="450" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#581C87">LƯỢC ĐỒ PHÁC ĐỒ KÍCH THÍCH BUỒNG TRỨNG KÉP (DUOSTIM PROTOCOL)</text>
+  <text x="450" y="60" font-family="Arial" font-size="13" font-style="italic" text-anchor="middle" fill="#7E22CE">Chiến lược gom noãn khẩn cấp trong 1 tháng cho bệnh nhân Lạc nội mạc tử cung giảm dự trữ buồng trứng (DOR)</text>
+  
+  <!-- Wave 1: Follicular Phase -->
+  <g transform="translate(50, 90)">
+    <rect x="0" y="0" width="370" height="340" rx="12" fill="#FFFFFF" stroke="#A855F7" stroke-width="2"/>
+    <rect x="0" y="0" width="370" height="40" rx="10" fill="#F3E8FF"/>
+    <text x="185" y="26" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="#6B21A8">ĐỢT 1: PHA NANG NOÃN (FPS)</text>
+    
+    <text x="20" y="70" font-family="Arial" font-size="13" font-weight="bold" fill="#3B0764">1. Khởi động (Ngày 2-3 Chu kỳ):</text>
+    <text x="35" y="92" font-family="Arial" font-size="12" fill="#4B5563">• Tiêm Gonadotropin liều cao (rFSH + hMG)</text>
+    
+    <text x="20" y="125" font-family="Arial" font-size="13" font-weight="bold" fill="#3B0764">2. Ức chế đỉnh LH:</text>
+    <text x="35" y="147" font-family="Arial" font-size="12" fill="#4B5563">• GnRH Antagonist hoặc Medroxyprogesterone (PPOS)</text>
+    
+    <text x="20" y="180" font-family="Arial" font-size="13" font-weight="bold" fill="#3B0764">3. Trưởng thành noãn (Trigger):</text>
+    <text x="35" y="202" font-family="Arial" font-size="12" fill="#4B5563">• GnRH Agonist Trigger (Triptorelin 0.2mg)</text>
+    
+    <rect x="20" y="235" width="330" height="75" rx="8" fill="#FDF4FF" stroke="#E879F9"/>
+    <text x="185" y="260" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#9333EA">CHỌC HÚT NOÃN ĐỢT 1 (OPU-1)</text>
+    <text x="185" y="285" font-family="Arial" font-size="12" text-anchor="middle" fill="#6B21A8">• Tạo phôi ICSI &amp; Nuôi cấy phôi ngày 5</text>
+  </g>
+  
+  <!-- Wave 2: Luteal Phase -->
+  <g transform="translate(480, 90)">
+    <rect x="0" y="0" width="370" height="340" rx="12" fill="#FFFFFF" stroke="#EC4899" stroke-width="2"/>
+    <rect x="0" y="0" width="370" height="40" rx="10" fill="#FCE7F3"/>
+    <text x="185" y="26" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="#9D174D">ĐỢT 2: PHA HOÀNG THỂ (LPS)</text>
+    
+    <text x="20" y="70" font-family="Arial" font-size="13" font-weight="bold" fill="#831843">1. Khởi động lại (Sau OPU-1 từ 2-5 ngày):</text>
+    <text x="35" y="92" font-family="Arial" font-size="12" fill="#4B5563">• Tiêm Gonadotropin liều tương tự đợt 1</text>
+    
+    <text x="20" y="125" font-family="Arial" font-size="13" font-weight="bold" fill="#831843">2. Ức chế đỉnh LH:</text>
+    <text x="35" y="147" font-family="Arial" font-size="12" fill="#4B5563">• Nồng độ Progesterone tự nhiên của hoàng thể ức chế LH</text>
+    
+    <text x="20" y="180" font-family="Arial" font-size="13" font-weight="bold" fill="#831843">3. Trưởng thành noãn (Trigger):</text>
+    <text x="35" y="202" font-family="Arial" font-size="12" fill="#4B5563">• GnRH Agonist Trigger hoặc Dual Trigger</text>
+    
+    <rect x="20" y="235" width="330" height="75" rx="8" fill="#FFF1F2" stroke="#FDA4AF"/>
+    <text x="185" y="260" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#E11D48">CHỌC HÚT NOÃN ĐỢT 2 (OPU-2)</text>
+    <text x="185" y="285" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#BE123C">• Đông toàn bộ phôi (FREEZE-ALL PHÔI NGÀY 5)</text>
+  </g>
+</svg>

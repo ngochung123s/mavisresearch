@@ -1,0 +1,356 @@
+# -*- coding: utf-8 -*-
+"""build_chapter_1_mastery_deck.py — Build Chapter 1 standalone master slide deck with pure unnumbered bullet points."""
+import json
+import sys
+from pathlib import Path
+
+TARGET_DIR = Path(r"F:\DL\mavisresearch\Bai hoc y khoa\02_Ho tro sinh san ART\46_Endometrioma_Adenomyosis_ART_Infertility")
+OUTPUTS_DIR = TARGET_DIR / "outputs"
+OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
+SCRIPT_DIR = Path(r"F:\DL\mavisresearch\Bai hoc y khoa\10_Script Python")
+sys.path.insert(0, str(SCRIPT_DIR))
+
+import slider3636
+
+# Clean footer override (no text, no page number, no divider line)
+def clean_empty_footer(slide, left="", page_num=None, total=None):
+    pass
+
+slider3636.footer = clean_empty_footer
+
+# All content slides strictly use unnumbered bullets (variant: "bullets"), clean headings without numbers
+pure_bullet_chapter_1 = {
+    "meta": {
+        "title": "",
+        "subtitle": "",
+        "author": ""
+    },
+    "slides": [
+        # Slide 1: Title
+        {
+            "type": "title",
+            "variant": "split_dark",
+            "title": "CHƯƠNG 1: ĐẠI CƯƠNG & CƠ CHẾ SINH BỆNH HỌC PHÂN TỬ",
+            "subtitle": "Định Nghĩa Chi Tiết, Học Thuyết Hình Thành & Cơ Chế Suy Giảm Khả Năng Sinh Sản",
+            "author": "Giáo Trình Master Chuyên Sâu — Dạng Bullet Thuần",
+            "specialty": "Hỗ Trợ Sinh Sản & Phụ Khoa",
+            "date": "2026"
+        },
+        # Slide 2: Key Message
+        {
+            "type": "key_message",
+            "variant": "dark_hero",
+            "kicker": "TRIẾT LÝ TIẾP CẬN Y HỌC CHỨNG CỨ",
+            "message": "Hiểu Rõ Gốc Rễ Cơ Chế Hình Thành Tổn Thương\nĐể Cá Thể Hóa Chiến Lược Bảo Tồn Noãn & Phục Hồi Làm Tổ"
+        },
+        # Slide 3: Objectives
+        {
+            "type": "objectives",
+            "variant": "numbered_circles",
+            "title": "Mục Tiêu Học Tập Chương 1",
+            "objectives": [
+                "Nắm vững định nghĩa và cơ sở giải phẫu mô học của các thực thể bệnh lý phụ khoa.",
+                "Phân tích cặn kẽ các học thuyết hình thành tổn thương Lạc nội mạc tử cung, OMA và Adenomyosis.",
+                "Giải thích cơ chế phân tử tàn phá buồng trứng của OMA: phản ứng Fenton, ROS, xơ hóa vỏ, burnout.",
+                "Hiểu rõ bản chất đề kháng Progesterone, hỏng màng rụng hóa và loạn động JZ trong Adenomyosis."
+            ]
+        },
+        # Slide 4: Dịch tễ học
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Dịch Tễ Học Lạc Nội Mạc Tử Cung & Adenomyosis Trong Vô Sinh",
+            "points": [
+                "Tỷ lệ mắc trong cộng đồng: Chiếm khoảng 10% phụ nữ trong độ tuổi sinh sản (~190 triệu người theo WHO & NEJM).",
+                "Tỷ lệ trong quần thể vô sinh: Tăng vọt lên 30% - 50% ở phụ nữ đến khám và điều trị hiếm muộn (ESHRE 2022).",
+                "Tỷ lệ u lạc nội mạc buồng trứng (OMA): Xuất hiện ở 17% - 44% bệnh nhân Lạc nội mạc tử cung; 20% - 30% bị cả hai bên.",
+                "Tỷ lệ đồng mắc Adenomyosis: Xuất hiện ở 30% - 40% bệnh nhân lạc nội mạc sâu (DIE) hoặc u OMA, tạo tổn thương kép."
+            ]
+        },
+
+        # --- NỘI MẠC TỬ CUNG BÌNH THƯỜNG ---
+        # Slide 5: Eutopic Endometrium Definition & Histology
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Nội Mạc Tử Cung Bình Thường (Eutopic Endometrium) — Định Nghĩa & Cấu Trúc",
+            "points": [
+                "Định nghĩa: Lớp niêm mạc lót bên trong lòng tử cung, chịu sự biến đổi chu kỳ theo trục Dưới đồi - Tuyến yên - Buồng trứng.",
+                "Lớp Chức Năng (Stratum Functionale): Nằm nông, gồm lớp đặc và lớp xốp, cấp máu bởi động mạch xoắn nhạy cảm hormone; dày lên ở pha tăng sinh/chế tiết và bong ra tạo kinh nguyệt.",
+                "Lớp Đáy (Stratum Basale): Nằm sâu sát cơ tử cung, cấp máu bởi động mạch thẳng không phụ thuộc hormone; không bao giờ bong ra trong kỳ kinh.",
+                "Quần thể tế bào gốc: Lớp đáy chứa các tế bào gốc trung mô (eMSCs) và tế bào tiền thân biểu mô chịu trách nhiệm tái tạo lớp chức năng sau mỗi chu kỳ."
+            ]
+        },
+        # Slide 6: Eutopic Endometrium Cycle & Decidualization
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Nội Mạc Tử Cung Bình Thường — Quá Trình Màng Rụng Hóa (Decidualization)",
+            "points": [
+                "Pha Tăng Sinh (Follicular Phase): Dưới tác động của Estrogen buồng trứng, tế bào biểu mô và mô đệm phân chia mạnh làm dày niêm mạc.",
+                "Pha Chế Tiết (Luteal Phase): Dưới tác động của Progesterone qua thụ thể PR-B, các tuyến nội mạc giãn rộng và chế tiết glycogen.",
+                "Màng Rụng Hóa (Decidualization): Biến đổi các tế bào mô đệm hình thoi thành tế bào biểu mô đa diện giàu lipid và glycogen nuôi dưỡng phôi.",
+                "Cửa Sổ Làm Tổ (Window of Implantation - WOI): Xuất hiện vào ngày 19 - 21 chu kỳ kinh, biểu hiện tối đa các phân tử tiếp nhận HOXA10, LIF và integrin αvβ3 để đón nhận phôi nang."
+            ]
+        },
+
+        # --- LẠC NỘI MẠC TỬ CUNG ---
+        # Slide 7: Endometriosis Definition & Pathology
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Lạc Nội Mạc Tử Cung (Endometriosis) — Định Nghĩa & Tiêu Chuẩn Mô Bệnh Học",
+            "points": [
+                "Định nghĩa: Bệnh lý viêm mạn tính phụ thuộc estrogen, đặc trưng bởi sự xuất hiện của mô nội mạc tử cung ở bên ngoài buồng tử cung.",
+                "Tiêu chuẩn vàng mô bệnh học: Bắt buộc phải có đồng thời cả Tuyến nội mạc (glands) và Mô đệm nội mạc (stroma) kèm đại thực bào ăn hemosiderin.",
+                "Vị trí giải phẫu: Phúc mạc chậu, bề mặt buồng trứng, vòi tử cung, dây chằng tử cung - cùng, túi cùng Douglas, vách trực tràng - âm đạo, bàng quang và quai ruột.",
+                "Đặc tính lâm sàng: Mô lạc chỗ chảy máu chu kỳ gây phản ứng viêm mạn tính, lắng đọng fibrin và tạo các dải xơ dính co kéo vùng chậu."
+            ]
+        },
+        # Slide 8: Endometriosis Mechanism 1 - Sampson
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Lạc Nội Mạc Tử Cung — Thuyết Trào Ngược Máu Kinh (Sampson 1927) & Miễn Dịch",
+            "points": [
+                "Hiện tượng trào ngược: Trong chu kỳ hành kinh, máu kinh mang theo các mảnh biểu mô và mô đệm nội mạc còn sống bị trào ngược qua vòi trứng vào ổ phúc mạc.",
+                "Nghịch lý miễn dịch: 90% phụ nữ có hiện tượng trào ngược nhưng chỉ 10% bị bệnh do ở người bệnh có sự suy giảm hoạt tính dọn dẹp của tế bào NK và đại thực bào phúc mạc.",
+                "Kháng chết tế bào (Apoptosis Resistance): Tế bào nội mạc trào ngược tăng biểu hiện protein kháng chết Bcl-2, giúp chúng sống sót dai dẳng ngoài buồng tử cung.",
+                "Bám dính & Cấy ghép: Tăng biểu hiện các phân tử bám dính (Integrins, CD44, ICAM-1) giúp mảnh mô gắn chặt vào lớp thanh mạc phúc mạc."
+            ]
+        },
+        # Slide 9: Endometriosis Mechanism 2 - Coelomic Metaplasia
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Lạc Nội Mạc Tử Cung — Thuyết Dị Sản Biểu Mô Thể Xoang (Meyer 1919)",
+            "points": [
+                "Cơ sở phôi thai học: Biểu mô phúc mạc, buồng trứng và nội mạc tử cung đều có chung nguồn gốc phôi thai từ biểu mô thể xoang nguyên thủy (Coelomic epithelium).",
+                "Chuyển dạng tế bào (Metaplasia): Dưới kích thích của nồng độ Estrogen cao và tình trạng viêm mạn tính, các tế bào trung biểu mô phúc mạc biệt hóa ngược thành biểu mô tuyến nội mạc.",
+                "Bằng chứng y học ủng hộ: Giải thích được các ca bệnh Lạc nội mạc tử cung ở bé gái trước tuổi dậy thì, phụ nữ không có tử cung bẩm sinh (Hội chứng MRKH), hoặc nam giới dùng Estrogen liều cao trị ung thư tuyến tiền liệt."
+            ]
+        },
+        # Slide 10: Endometriosis Mechanism 3 - Stem Cells
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Lạc Nội Mạc Tử Cung — Thuyết Tế Bào Gốc & Tế Bào Tiền Thân (eMSCs)",
+            "points": [
+                "Nguồn gốc tế bào gốc: Quần thể tế bào gốc trung mô nội mạc (eMSCs - CD146+/PDGFRβ+) và tế bào tiền thân biểu mô (SUSD2+) nằm ở lớp nội mạc đáy bị bong theo máu kinh trào ngược.",
+                "Di chuyển theo mạch máu/bạch huyết: Thuyết Halban giải thích các tế bào gốc có thể đi theo đường tuần hoàn máu và bạch huyết đến các cơ quan xa (phổi, não, rốn).",
+                "Khả năng tạo mạch tân tạo: Do có tính đa tiềm năng, eMSCs khi rơi vào khoang chậu tiết mạnh yếu tố tăng sinh mạch VEGF để tạo mạng mạch máu nuôi dưỡng và thiết lập ổ bệnh vĩnh viễn."
+            ]
+        },
+        # Slide 11: Endometriosis Mechanism 4 - Somatic Mutations
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Lạc Nội Mạc Tử Cung — Vai Trò Của Đột Biến Gen Soma (Somatic Mutations)",
+            "points": [
+                "Phát hiện giải trình tự gen (NGS): Các ổ Lạc nội mạc tử cung sâu (DIE) và u OMA thường mang các đột biến gen soma tương tự như trong khối u (nhưng không biến thành ung thư).",
+                "Các gen đột biến chính: ARID1A (mất chức năng phức hợp tái cấu trúc chất nhiễm sắc SWI/SNF), PIK3CA, KRAS và PPP2R1A.",
+                "Hậu quả sinh học phân tử: Kích hoạt liên tục con đường sinh tồn tế bào PI3K/Akt/mTOR và MAPK, mang lại khả năng xâm lấn mô sâu, đề kháng apoptosis và tự sản xuất hormone tại chỗ.",
+                "Giải thích tính chất xâm lấn phá hủy mô và tái phát dai dẳng của bệnh Lạc nội mạc tử cung."
+            ]
+        },
+
+        # --- U LẠC NỘI MẠC BUỒNG TRỨNG (ENDOMETRIOMA - OMA) ---
+        # Slide 12: OMA Definition & Nature
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "U Lạc Nội Mạc Buồng Trứng (Endometrioma - OMA) — Định Nghĩa & Bản Chất U Nang Giả",
+            "points": [
+                "Định nghĩa: Thể tổn thương lạc nội mạc nằm trong nhu mô buồng trứng, tạo thành nang chứa dịch máu thoái hóa màu nâu đen đặc sánh như sô-cô-la.",
+                "Bản chất u nang giả (Pseudocyst): Phần lớn u OMA không có vỏ bao biểu mô thực thụ của buồng trứng mà là khoang kín hình thành do vỏ buồng trứng bị cuộn lõm vào trong.",
+                "Tích tụ độc tố: Máu kinh thoái hóa giải phóng lượng khổng lồ sắt tự do (Fe2+) và hạt sắc tố hemosiderin lơ lửng, tạo hình ảnh 'kính mờ' (ground-glass) trên siêu âm.",
+                "Ổ độc tính sinh học: Nang OMA liên tục khuếch tán các gốc oxy hóa tự do (ROS) và cytokine viêm tàn phá nhu mô buồng trứng lành lân cận."
+            ]
+        },
+        # Slide 13: OMA Formation Theories
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "U Lạc Nội Mạc Buồng Trứng — Cơ Chế Hình Thành U Nang (Hughesdon / Donnez)",
+            "points": [
+                "Thuyết Cuộn Gập Vỏ Buồng Trứng (Invagination Theory - Hughesdon 1957 / Brosens 1994): Mảnh nội mạc trào ngược bám vào mặt ngoài buồng trứng → Viêm dính buồng trứng vào hố buồng trứng thành chậu → Chảy máu chu kỳ giam cầm kéo cuộn lõm vỏ buồng trứng vào trong nhu mô tạo nang giả.",
+                "Thuyết Dị Sản Biểu Mô Mầm (Donnez 1996): Dưới kích thích của dịch phúc mạc viêm, các túi lõm của biểu mô bề mặt mầm buồng trứng biến đổi dị sản thành biểu mô tuyến nội mạc và phát triển thành nang trong nhu mô.",
+                "Thuyết Rụng Trứng & Hoàng Thể (Nezhat): Mô lạc nội mạc cấy ghép vào lỗ rách hoàng thể sau rụng trứng và phát triển thành nang sô-cô-la."
+            ]
+        },
+        # Slide 14: OMA Toxicity 1 - Fenton Reaction & ROS
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "U Lạc Nội Mạc Buồng Trứng — Phản Ứng Fenton & Stress Oxy Hóa Dịch Nang",
+            "points": [
+                "Tích tụ sắt tự do: Dịch sô-cô-la chứa nồng độ Sắt tự do (Fe2+) cao gấp hàng trăm lần huyết thanh bình thường.",
+                "Phản ứng Fenton: Fe2+ xúc tác phản ứng với H2O2 tạo ra gốc tự do Hydroxyl (•OH) — gốc oxy hóa hoạt tính (ROS) có độc tính mạnh nhất.",
+                "Khuếch tán độc tố: ROS và các cytokine viêm (TNF-α, IL-6, IL-8) thẩm thấu xuyên qua vách nang vào dịch nang noãn xung quanh.",
+                "Tổn thương giao tử: Gây peroxy hóa lipid màng noãn, đứt gãy thoi vô sắc (spindle aberration) và phân mảnh DNA noãn/tinh trùng, làm giảm tỷ lệ thụ tinh."
+            ]
+        },
+        # Slide 15: OMA Toxicity 2 - Cortical Fibrosis & Burnout
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "U Lạc Nội Mạc Buồng Trứng — Xơ Hóa Mô Vỏ & Hiện Tượng Cạn Kiệt Nang Noãn",
+            "points": [
+                "Xơ Hóa Mô Vỏ (Cortical Fibrosis): Cytokine viêm kích thích nguyên bào sợi lắng đọng mạng lưới collagen đặc quánh làm xơ cứng mô đệm vỏ buồng trứng bao quanh u nang.",
+                "Thiếu Máu Nuôi Vi Mạch: Các tiểu động mạch rốn buồng trứng nuôi cụm nang nguyên thủy bị chèn ép và xơ hóa tắc nghẽn.",
+                "Hiện Tượng Cạn Kiệt Nang Noãn ('Burnout' Effect): Lực căng cơ học và viêm kích hoạt bất thường con đường PTEN/Akt/Foxo3, làm các nang noãn nguyên thủy đang ngủ yên thức giấc đồng loạt ngoài tầm kiểm soát.",
+                "Hậu quả lâm sàng: Nang noãn sau đó thoái hóa và teo hàng loạt (Atresia), làm sụt giảm nhanh nồng độ AMH và số lượng nang thứ cấp AFC."
+            ]
+        },
+        # Slide 16: OMA Infertility Impact - Hamdan 2015
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "U Lạc Nội Mạc Buồng Trứng — Tác Động Lên Kết Cục ART (Hamdan 2015)",
+            "points": [
+                "Giảm số lượng noãn thu hồi: Bệnh nhân OMA thu được ít noãn hơn đáng kể (Mean Difference -1.97 noãn, 95% CI: -2.62 đến -1.33).",
+                "Tăng tiêu tốn thuốc kích trứng: Cần tổng liều Gonadotropin cao hơn và thời gian tiêm thuốc dài hơn.",
+                "Tỷ lệ tạo phôi nang giảm: Tỷ lệ phát triển thành phôi nang ngày 5 thấp hơn do chất lượng noãn bị ảnh hưởng bởi stress oxy hóa.",
+                "Kết luận EBM cốt lõi: Nếu thu đủ số phôi chất lượng tốt, tỷ lệ thai lâm sàng và tỷ lệ sinh sống trên mỗi chu kỳ chuyển phôi không bị suy giảm nghiêm trọng."
+            ]
+        },
+
+        # --- VÙNG CHUYỂN TIẾP (JUNCTIONAL ZONE - JZ) ---
+        # Slide 17: JZ Anatomy & Physiology
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Vùng Chuyển Tiếp (Junctional Zone - JZ) — Giải Phẫu & Sinh Lý Nhu Động",
+            "points": [
+                "Định nghĩa giải phẫu: Dải mô cơ trơn trong tử cung (Inner myometrium) nằm ngay dưới lớp nội mạc đáy, có nguồn gốc phôi thai từ ống Müller (khác cơ ngoài nguồn gốc trung mô).",
+                "Sinh lý bình thường: Độ dày JZ < 8 mm trên phim chụp CHT (MRI T2-weighted) hoặc siêu âm 3D ngả âm đạo.",
+                "Nhu động pha nang noãn (Retrograde Peristalsis): JZ co bóp nhẹ nhàng từ cổ tử cung hướng lên đáy với tần số 1 - 2 lần/phút dưới tác động của Estrogen, hỗ trợ hút tinh trùng đi lên gặp noãn.",
+                "Yên tĩnh pha hoàng thể: Dưới tác động ức chế của Progesterone, JZ trở nên hoàn toàn yên tĩnh để phôi nang bám dính và làm tổ."
+            ]
+        },
+        # Slide 18: JZ Pathological Thresholds & Dysperistalsis
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Vùng Chuyển Tiếp (JZ) — Tiêu Chuẩn Bệnh Học & Hậu Quả Loạn Động (Dysperistalsis)",
+            "points": [
+                "Tiêu chuẩn vàng trên MRI T2W: Bề dày tối đa JZmax ≥ 12 mm hoặc độ chênh lệch JZdiff (JZmax - JZmin) ≥ 5 mm khẳng định tổn thương Adenomyosis.",
+                "Vùng ranh giới nghi ngờ: JZmax từ 8 đến 11 mm (cần kết hợp triệu chứng lâm sàng và tiêu chuẩn siêu âm MUSA).",
+                "Cơ chế 'Cỗ máy đẩy' (Dysperistalsis / Hyperperistalsis): Cấu trúc JZ bị phá vỡ làm mất tính ức chế sinh lý của progesterone, cơ tử cung liên tục co thắt mạnh bạo ngay trong pha hoàng thể.",
+                "Hậu quả sinh sản: Tống xuất phôi thai cơ học ra ngoài lòng tử cung trước khi phôi kịp tiếp xúc và bám dính vào lớp nội mạc màng rụng."
+            ]
+        },
+
+        # --- LẠC NỘI MẠC TRONG CƠ (ADENOMYOSIS) ---
+        # Slide 19: Adenomyosis Definition & Pathology
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Lạc Nội Mạc Trong Cơ (Adenomyosis) — Định Nghĩa & Phân Loại FIGO",
+            "points": [
+                "Định nghĩa mô bệnh học (Bird 1972 / FIGO): Sự xâm lấn lành tính của tuyến và mô đệm nội mạc đáy vào sâu trong lớp cơ tử cung vượt quá mốc 2.5 mm (hoặc > 1 vi trường độ phóng đại thấp).",
+                "Phản ứng phì đại cơ trơn: Mô cơ trơn xung quanh tăng sinh và xơ hóa phản ứng (Reactive myometrial hyperplasia & hypertrophy), làm biến dạng tử cung thành hình cầu.",
+                "Adenomyosis Khu Trú (Adenomyoma): Tổn thương tụ thành khối u cơ tuyến có ranh giới tương đối nhưng không có vỏ bao giả (khác u xơ tử cung).",
+                "Adenomyosis Lan Tỏa (Diffuse Adenomyosis): Tổn thương lan rộng khắp các thành tử cung, là thủ phạm chính gây thất bại làm tổ (RIF) và sảy thai trong ART."
+            ]
+        },
+        # Slide 20: Adenomyosis Pathogenesis 1 - TIAR & EMT
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Adenomyosis — Thuyết Chấn Thương Vi Thể (TIAR) & Chuyển Dạng EMT",
+            "points": [
+                "Chấn thương vi thể lặp lại: Tăng nhu động tử cung (hyperperistalsis) gây lực căng kéo liên tục làm nứt rạn vi thể tại ranh giới cơ - nội mạc (Endometrial-Myometrial Interface - EMI).",
+                "Quá trình tự sửa chữa (TIAR Theory / Leyendecker): Phản ứng sửa chữa vết thương kích thích giải phóng ồ ạt Estrogen nội tại (qua men Aromatase) và Prostaglandin E2 (PGE2) tại chỗ.",
+                "Chuyển Dạng Biểu Mô - Trung Mô (EMT): Estrogen cao kích hoạt trục TGF-β1/Smad làm tế bào tuyến nội mạc đáy mất tính phân cực, trở nên di động và đâm chồi xâm lấn sâu vào cơ tử cung.",
+                "Chuyển Dạng Sợi - Cơ (FMT): Nguyên bào sợi trong cơ chuyển thành tế bào sợi cơ tạo mạng lưới xơ hóa bao quanh."
+            ]
+        },
+        # Slide 21: Adenomyosis Pathogenesis 2 & 3 - Outside-In & Stem Cells
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Adenomyosis — Con Đường Xâm Lấn Từ Ngoài Vào & Tế Bào Gốc",
+            "points": [
+                "Con đường từ ngoài vào (Outside-In Invasion): Các tổn thương Lạc nội mạc tử cung sâu (DIE) ở túi cùng sau (dây chằng tử cung - cùng, trực tràng) xâm lấn trực tiếp xuyên qua thanh mạc vào lớp cơ ngoài (thể Extrinsic Adenomyosis).",
+                "Con đường tế bào gốc tại chỗ: Tế bào gốc trung mô ống Müller tồn dư hoặc tế bào gốc từ tủy xương di chuyển đến cơ tử cung bị kích hoạt biệt hóa bất thường thành tuyến nội mạc.",
+                "Tăng sinh mạch tân tạo: Mô tuyến lạc chỗ tiết lượng lớn VEGF và PDGF thúc đẩy hình thành mạng mạch máu nuôi dưỡng đâm xuyên cơ (dấu hiệu translesional flow trên Doppler)."
+            ]
+        },
+        # Slide 22: Implantation Failure 1 - Progesterone Resistance
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Adenomyosis — Bản Chất Hiện Tượng Đề Kháng Progesterone (PR-B)",
+            "points": [
+                "Sinh lý bình thường: Progesterone gắn thụ thể PR-B trên mô đệm nội mạc để kích hoạt quá trình màng rụng hóa (Decidualization) biến đổi tế bào giàu glycogen nuôi phôi.",
+                "Bất thường trong Adenomyosis: Tình trạng viêm và methyl hóa promoter gen làm suy giảm trầm trọng thụ thể PR-B, trong khi thụ thể ức chế PR-A chiếm ưu thế.",
+                "Nội mạc 'trơ' với Progesterone: Dù nồng độ Progesterone trong máu đạt rất cao, nội mạc tử cung vẫn không đáp ứng và đình trệ quá trình màng rụng hóa.",
+                "Đóng kín Cửa sổ làm tổ (WOI): Suy giảm biểu hiện các phân tử bám dính then chốt gồm HOXA10, Leukemia Inhibitory Factor (LIF), glycodelin-A và integrin αvβ3."
+            ]
+        },
+        # Slide 23: Implantation Failure 2 - Aromatase & PGE2 Loop
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Adenomyosis — Vòng Xoắn Tự Duy Trì Aromatase ↔ Prostaglandin E2",
+            "points": [
+                "Tự sản xuất Estrogen tại chỗ: Mô tuyến lạc trong cơ biểu hiện quá mức enzyme Aromatase (CYP19A1) và 17β-HSD1, tự chuyển Androgen thành Estradiol (E2) nồng độ cao trong cơ.",
+                "Kích hoạt enzyme COX-2: E2 nội tại kích thích enzyme COX-2 tổng hợp ồ ạt Prostaglandin E2 (PGE2).",
+                "Duy trì ổ viêm & Co thắt: PGE2 gây phản ứng viêm mạn tính, tăng co thắt cơ tử cung và ức chế miễn dịch làm tổ của phôi.",
+                "Khuếch đại ngược: PGE2 quay lại kích hoạt tăng phiên mã gen Aromatase, tạo thành vòng xoắn bệnh lý tự duy trì vĩnh viễn."
+            ]
+        },
+        # Slide 24: Clinical Impact - Cozzolino 2022 Meta-analysis
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Adenomyosis — Tác Động Lâm Sàng Lên Kết Cục ART (Cozzolino 2022 / Vercellini 2014)",
+            "points": [
+                "Giảm 31% Tỷ Lệ Thai Lâm Sàng (CPR): RR = 0.69 (95% CI: 0.59 - 0.81) do hỏng cửa sổ làm tổ và loạn động tử cung.",
+                "Giảm 31% Tỷ Lệ Trẻ Sinh Sống (LBR): RR = 0.69 (95% CI: 0.51 - 0.94) trên mỗi chu kỳ chuyển phôi.",
+                "Tăng gấp hơn 2 lần Nguy Cơ Sảy Thai: RR = 2.17 (95% CI: 1.25 - 3.79) trong 3 tháng đầu thai kỳ.",
+                "Giảm tỷ lệ làm tổ của phôi nang: RR = 0.72 (95% CI: 0.55 - 0.95) khẳng định Adenomyosis là nguyên nhân hàng đầu gây thất bại làm tổ tái phát (RIF)."
+            ]
+        },
+
+        # --- TỔNG KẾT & TÀI LIỆU THAM KHẢO ---
+        # Slide 25: Summary Key Takeaways
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Tóm Tắt Cốt Lõi Chương 1 (Thông Điệp Master)",
+            "points": [
+                "Bản chất giải phẫu: Phân biệt rõ 4 thực thể; Vùng chuyển tiếp JZ có nguồn gốc ống Müller, dày ≥ 12 mm là tiêu chuẩn vàng chẩn đoán Adenomyosis trên MRI.",
+                "Học thuyết hình thành: Endometriosis hình thành do trào ngược máu kinh (Sampson) kèm khiếm khuyết miễn dịch/kháng apoptosis, dị sản thể xoang, tế bào gốc eMSCs và đột biến soma (ARID1A/KRAS).",
+                "Cơ chế OMA: Nang giả hình thành do cuộn gập vỏ buồng trứng; sắt tự do (Fe2+) kích hoạt phản ứng Fenton tạo ROS phá hủy DNA noãn và gây xơ hóa cạn kiệt nang nguyên thủy ('Burnout').",
+                "Cơ chế Adenomyosis: Hình thành qua thuyết chấn thương vi thể TIAR & chuyển dạng EMT; gây đề kháng Progesterone (PR-B), vòng xoắn tự tạo Estrogen qua Aromatase và loạn động tử cung (Dysperistalsis).",
+                "Hậu quả EBM: OMA làm giảm số noãn thu được; Adenomyosis làm giảm 31% tỷ lệ sinh sống (LBR RR 0.69) và tăng gấp đôi nguy cơ sảy thai (RR 2.17)."
+            ]
+        },
+        # Slide 26: References
+        {
+            "type": "content",
+            "variant": "bullets",
+            "title": "Tài Liệu Tham Khảo Y Học Chứng Cứ Của Chương 1",
+            "points": [
+                "Giudice LC. Clinical practice: Endometriosis. N Engl J Med. 2010;362(25):2389-2398. PMID: 20573927.",
+                "Sampson JA. Peritoneal endometriosis due to the menstrual dissemination of endometrial tissue. Am J Obstet Gynecol. 1927;14:422.",
+                "Leyendecker G, Bilgicyildirim A, et al. Adenomyosis and endometriosis. The significance of the subendometrial myometrium. Hum Reprod Update. 2009;15(1):113-131. PMID: 19064666.",
+                "Hughesdon PE. The structure of an endometrial cyst of the ovary. J Obstet Gynaecol Br Emp. 1957;64(4):481-487.",
+                "ESHRE Guideline: Endometriosis. Hum Reprod Open. 2022;2022(2):hoac009. PMID: 35350465.",
+                "Hamdan M, Dunselman G, Li TC, et al. The impact of endometrioma on IVF/ICSI outcomes. Hum Reprod Update. 2015; PMID: 26168799.",
+                "Cozzolino M, Tartaglia S, et al. The Effect of Uterine Adenomyosis on IVF Outcomes. Reprod Sci. 2022; PMID: 34981458."
+            ]
+        }
+    ]
+}
+
+deck_json_path = TARGET_DIR / "chapter_1_slider3636_deck.json"
+deck_json_path.write_text(json.dumps(pure_bullet_chapter_1, ensure_ascii=False, indent=2), encoding="utf-8")
+print(f"Saved pure-bullet Chapter 1 deck JSON ({len(pure_bullet_chapter_1['slides'])} slides): {deck_json_path}")
+
+slider3636.set_theme("Medical Teal", "Segoe UI", "Standard — mặc định", show_pagenum=False)
+out_pptx = OUTPUTS_DIR / "Chuong_01_Dai_cuong_Co_che_benh_sinh_Mastery.pptx"
+out_path, rendered = slider3636.build_presentation(pure_bullet_chapter_1, str(out_pptx))
+print(f"\n🎉 Successfully compiled Pure Bullet Chapter 1 Master Deck: {out_pptx} ({out_pptx.stat().st_size} bytes, {rendered} slides rendered)")

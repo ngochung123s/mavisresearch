@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BÀI HỌC: XUẤT HUYẾT TỬ CUNG BẤT THƯỜNG (AUB) — SINH LÝ, PHÂN LOẠI, PROTOCOL ĐIỀU TRỊ &amp; CASE LÂM SÀNG</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+  /* Chart.js canvas: giới hạn max-width để không bị kéo dãn khi render
+     trên màn hình rộng. Kết hợp với height attr trên <canvas> để giữ tỉ lệ.
+     Lý do: Chart.js mặc định maintainAspectRatio=false + responsive=true
+     sẽ fill 100% container width -> bar/doughnut bị oval/méo khi container
+     rộng hơn canvas internal pixel ratio. */
+  canvas { display: block; max-width: 800px; margin: 0 auto; height: auto !important; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+<header class="text-center py-12 mb-12 glass rounded-3xl shadow-lg">
+  <div class="inline-block px-4 py-1 mb-4 rounded-full bg-blue-200 text-blue-800 text-sm font-semibold">
+    Chuyên khoa: Ngày:
+  </div>
+  <h1 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800">BÀI HỌC: XUẤT HUYẾT TỬ CUNG BẤT THƯỜNG (AUB) — SINH LÝ, PHÂN LOẠI, PROTOCOL ĐIỀU TRỊ & CASE LÂM SÀNG</h1>
+  <p class="text-stone-600 text-lg">Ngày  | Cho bác sĩ sản phụ khoa / học viên sau đại học</p>
+  <p class="text-sm text-stone-500 mt-2">Bác sĩ: <strong>Ngọc 🍅 🐈‍⬛</strong> | AI: <strong>MiniMax Mavis</strong></p>
+</header><main class="max-w-6xl mx-auto space-y-8">
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">0. TỔNG QUAN — VÌ SAO AUB QUAN TRỌNG?</h2>
+<p class="text-stone-700 mb-3"><strong>Xuất huyết tử cung bất thường (abnormal uterine bleeding — AUB)</strong> là một trong những lý do phổ biến nhất khiến phụ nữ đến khám phụ khoa. AUB ảnh hưởng đến <strong>chất lượng sống</strong>, gây <strong>thiếu máu</strong>, đôi khi là <strong>dấu hiệu cảnh báo ung thư nội mạc tử cung</strong>, và chiếm một tỷ lệ lớn trong các ca cấp cứu sản phụ khoa.</p>
+<p class="text-stone-700 mb-3"><strong>Dịch tễ:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Heavy menstrual bleeding (HMB) ảnh hưởng đến <strong>10-30% phụ nữ trong độ tuổi sinh sản</strong>.</li>
+<li>AUB là nguyên nhân gây <strong>thiếu máu mạn tính</strong> phổ biến nhất ở phụ nữ tiền mãn kinh.</li>
+<li><strong>>90% phụ nữ mãn kinh bị ung thư nội mạc tử cung</strong> có triệu chứng đầu tiên là xuất huyết âm đạo bất thường — đây là lý do <strong>không bao giờ bỏ qua PMB</strong> (postmenopausal bleeding).</li>
+<li>AUB do rối loạn đông máu (vWD) chiếm khoảng <strong>13-20% HMB ở vị thành niên</strong>.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Mục tiêu bài học (6 điểm):</strong></p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Hiểu sinh lý kinh nguyệt bình thường và cơ chế cầm máu nội mạc.</li>
+<li>Phân loại AUB theo FIGO PALM-COEIN và phân biệt các thuật ngữ.</li>
+<li>Thực hiện đúng bộ khám và cận lâm sàng cho từng nhóm tuổi.</li>
+<li>Áp dụng protocol điều trị nội khoa (hormonal, antifibrinolytic, NSAID) và biết chỉ định phẫu thuật.</li>
+<li>Quản lý acute AUB an toàn, tránh thiếu máu nặng.</li>
+<li>Nhận diện được dấu hiệu cảnh báo ung thư và không bỏ sót PMB.</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">1. SINH LÝ KINH NGUYỆT BÌNH THƯỜNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.1. Chu kỳ kinh nguyệt bình thường (FIGO 2011 — Munro)</h3>
+<p class="text-stone-700 mb-3">Trước khi gọi là "bất thường", phải biết "bình thường" là gì. FIGO định nghĩa:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thông số</th><th class="p-2 border whitespace-nowrap">Bình thường</th><th class="p-2 border whitespace-nowrap">Bất thường</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Tần suất</strong></td><td class="p-2 border">24-38 ngày</td><td class="p-2 border"><24 hoặc >38 ngày</td></tr><tr class=""><td class="p-2 border"><strong>Độ dài chu kỳ thay đổi</strong></td><td class="p-2 border"><7-9 ngày giữa các chu kỳ</td><td class="p-2 border">≥9 ngày</td></tr><tr class=""><td class="p-2 border"><strong>Thởi gian kinh</strong></td><td class="p-2 border">≤8 ngày</td><td class="p-2 border">>8 ngày</td></tr><tr class=""><td class="p-2 border"><strong>Lượng máu</strong></td><td class="p-2 border">Không ảnh hưởng sinh hoạt, không gây thiếu máu</td><td class="p-2 border">Cần thay băng vệ sinh ≥1 lần/giờ, cục máu >2.5 cm, kéo dài >7 ngày, Hb giảm</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Nguồn gốc kinh nguyệt:</strong> Chu kỳ kinh là kết quả của sự phối hợp giữa <strong>trục HPO (hypothalamic-pituitary-ovarian)</strong>, buồng trứng, và niêm mạc tử cung.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.2. Trục HPO và chu kỳ nội mạc</h3>
+<p class="text-stone-700 mb-3"><strong>Giai đoạn nang (follicular phase):</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>GnRH → FSH → nang trứng phát triển → estrogen tăng.</li>
+<li>Estrogen kích thích tăng sinh nội mạc tử cung (proliferative phase).</li>
+<li>Khi estrogen đỉnh → positive feedback → LH surge → rụng trứng.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Giai đoạn hoàng thể (luteal phase):</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Corpus luteum tiết progesterone → chuyển nội mạc sang secretory phase.</li>
+<li>Nếu không có thai → corpus luteum thoái hóa → progesterone giảm mạnh → kinh nguyệt bắt đầu.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Điểm then chốt:</strong> Progesterone withdrawal là tín hiệu khởi động kinh nguyệt. Nếu không có phóng noãn (anovulation), nội mạc bị estrogen kích thích liên tục không có progesterone đối kháng → tăng sinh quá mức → khi niêm mạc bị bong tróc không đồng bộ → xuất huyết bất thường, kéo dài.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.3. Cấu trúc nội mạc tử cung</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Lớp</th><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Chức năng</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Basalis</strong></td><td class="p-2 border">Lớp đáy, không bong trong kinh nguyệt</td><td class="p-2 border">Tái tạo functionalis sau kinh</td></tr><tr class=""><td class="p-2 border"><strong>Functionalis</strong></td><td class="p-2 border">Lớp chức năng, bong trong kinh</td><td class="p-2 border">Chịu ảnh hưởng hormone, nơi làm tổ</td></tr><tr class=""><td class="p-2 border"><strong>Epithelial surface</strong></td><td class="p-2 border">Biểu mô tuyến</td><td class="p-2 border">Bao phủ bề mặt</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Cơ chế shed:</strong> Khi progesterone giảm, các yếu tố pro-inflammatory (PGF2α, IL-8, TNF-α) tăng → MMPs (matrix metalloproteinases) kích hoạt → phân hủy ECM → vỡ mạch máu → kinh nguyệt.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">2. CƠ CHẾ CẦM MÁU NỘI MẠC TỬ CUNG</h2>
+<p class="text-stone-700 mb-3">Sau khi nội mạc bong, cơ thể phải cầm máu trong vòng vài giờ đến vài ngày. Có <strong>4 cơ chế chính:</strong></p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.1. Co mạch (Vasoconstriction)</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Động mạch xoắn (spiral arterioles)</strong> trong nội mạc co lại do:</li></ul>
+<p class="text-stone-700 mb-3">  - Prostaglandin F2α (PGF2α) — mạnh nhất</p>
+<p class="text-stone-700 mb-3">  - Endothelin-1</p>
+<p class="text-stone-700 mb-3">  - Thromboxane A2</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Co mạch giảm lưu lượng máu đến bề mặt nội mạc.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.2. Huyết khối (Thrombosis)</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Tổn thương mạch máu → tiểu cầu bám → huyết khối tại chỗ.</li>
+<li>Fibrin trong mạch máu bị tan bởi plasmin; cân bằng này được điều hòa bởi:</li></ul>
+<p class="text-stone-700 mb-3">  - <strong>PAI-1</strong> (plasminogen activator inhibitor-1) — ức chế fibrinolysis</p>
+<p class="text-stone-700 mb-3">  - <strong>tPA/uPA</strong> — thúc đẩy fibrinolysis</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Nếu fibrinolysis quá mạnh → chảy máu kéo dài → đây là lý do <strong>tranexamic acid</strong> hiệu quả trong HMB.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.3. Tái lập biểu mô (Re-epithelialization)</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Các tế bào biểu mô từ lớp basalis di chuyển lên phủ kín bề mặt vết loét.</li>
+<li>Quá trình này bắt đầu ngay sau khi kinh nguyệt xảy ra và hoàn tất trong vài ngày.</li>
+<li>Yếu tố tăng trưởng (EGF, VEGF, TGF-β) đóng vai trò quan trọng.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.4. Cơ chế tại chỗ của nội mạc (Local endometrial hemostasis)</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Nội mạc tử cung tự sản xuất các yếu tố đông máu (fibrinogen, thrombin, plasminogen).</li>
+<li>Estrogen và progesterone điều chỉnh số lượng và chức năng của các yếu tố này.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Ý nghĩa lâm sàng:</strong> Mọi yếu tố làm rối loạn 4 cơ chế trên đều có thể gây AUB — từ rối loạn đông máu (coagulopathy), rối loạn phóng noãn (anovulation), đến tổn thương cấu trúc tử cung (polyp, myoma).</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">3. ĐỊNH NGHĨA & THUẬT NGỮ (AUB, HMB, IMB, DUB)</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.1. Abnormal uterine bleeding (AUB)</h3>
+<p class="text-stone-700 mb-3">AUB là xuất huyết tử cung <strong>khác với kinh nguyệt bình thường</strong> về tần suất, độ dài, lượng máu, hoặc thờii điểm xuất hiện — <strong>không do thai kỳ</strong>.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.2. Heavy menstrual bleeding (HMB)</h3>
+<p class="text-stone-700 mb-3"><strong>HMB = lượng kinh nhiều</strong>, gây ảnh hưởng chất lượng sống hoặc thiếu máu, bất kể chu kỳ đều hay không.</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Định lượng: PBAC (Pictorial Blood Loss Assessment Chart) score ≥100 = HMB.</li>
+<li>Cũ hơn gọi là <strong>menorrhagia</strong> — FIGO 2011 khuyến cáo bỏ thuật ngữ này vì không rõ ràng.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.3. Intermenstrual bleeding (IMB)</h3>
+<p class="text-stone-700 mb-3"><strong>IMB = chảy máu giữa chu kỳ</strong>. Cũ gọi là <strong>metrorrhagia</strong> — cũng nên bỏ.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.4. Dysfunctional uterine bleeding (DUB)</h3>
+<p class="text-stone-700 mb-3"><strong>DUB là thuật ngữ cũ</strong> chỉ AUB không có tổn thương cấu trúc, thường do rối loạn phóng noãn. FIGO khuyến cáo <strong>KHÔNG dùng DUB</strong> nữa — thay bằng AUB-O (ovulatory dysfunction) hoặc AUB-E (endometrial).</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.5. Acute AUB vs Chronic AUB</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Acute AUB</th><th class="p-2 border whitespace-nowrap">Chronic AUB</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Định nghĩa</strong></td><td class="p-2 border">Xuất huyết nặng, cấp tính, đủ để gây tình trạng huyết động bất ổn</td><td class="p-2 border">Xuất huyết bất thường kéo dài ≥6 tháng</td></tr><tr class=""><td class="p-2 border"><strong>Mục tiêu đầu tiên</strong></td><td class="p-2 border">Ổn định huyết động, cầm máu</td><td class="p-2 border">Tìm nguyên nhân, điều trị dài hạn</td></tr><tr class=""><td class="p-2 border"><strong>Nơi xử trí</strong></td><td class="p-2 border">BV/cấp cứu</td><td class="p-2 border">Phòng khám</td></tr><tr class=""><td class="p-2 border"><strong>Thuốc đầu tay</strong></td><td class="p-2 border">IV estrogen, COC liều cao, TXA, progestin</td><td class="p-2 border">LNG-IUS, COC, TXA, progestin</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">4. PHÂN LOẠI FIGO PALM-COEIN</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.1. Nguyên tắc PALM-COEIN</h3>
+<p class="text-stone-700 mb-3"><strong>PALM = structural causes</strong> (chẩn đoán bằng hình ảnh/histology):</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>P</strong> = Polyp</li>
+<li><strong>A</strong> = Adenomyosis</li>
+<li><strong>L</strong> = Leiomyoma</li>
+<li><strong>M</strong> = Malignancy/hyperplasia</li></ul>
+<p class="text-stone-700 mb-3"><strong>COEIN = non-structural causes</strong> (chẩn đoán bằng lâm sàng/xét nghiệm):</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>C</strong> = Coagulopathy</li>
+<li><strong>O</strong> = Ovulatory dysfunction</li>
+<li><strong>E</strong> = Endometrial (primary endometrial disorder)</li>
+<li><strong>I</strong> = Iatrogenic</li>
+<li><strong>N</strong> = Not yet classified</li></ul>
+<p class="text-stone-700 mb-3">Munro 2016 (PMID 27836285): FIGO đã loại bỏ các thuật ngữ cũ như menorrhagia, metrorrhagia, DUB để thay bằng hệ thống AUB trong độ tuổi sinh sản + PALM-COEIN.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.2. Chi tiết từng nhóm</h3>
+<h4 class="font-bold text-stone-700 text-lg mt-6 mb-3">AUB-P: Polyp (Polype)</h4>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Triệu chứng điển hình:</strong> IMB, HMB, chảy máu sau giao hợp (postcoital bleeding).</li>
+<li><strong>Chẩn đoán:</strong> Siêu âm đầu dò âm đạo + <strong>SIS (saline infusion sonohysterography)</strong>.</li>
+<li><strong>Điều trị:</strong> Polypectomy (hysteroscopy) là gold standard; nếu polyp nhỏ, mãn kinh, không triệu chứng → theo dõi.</li></ul>
+<h4 class="font-bold text-stone-700 text-lg mt-6 mb-3">AUB-A: Adenomyosis</h4>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Đặc điểm:</strong> Nội mạc tử cung lạc vào cơ tử cung.</li>
+<li><strong>Triệu chứng:</strong> Kinh nhiều + đau bụng kinh nặng, tử cung to, mềm, đau.</li>
+<li><strong>Siêu âm:</strong> Junctional zone không đều/dày >12 mm, cyst nhỏ trong cơ tử cung, "fan-shaped" shadowing.</li>
+<li><strong>MRI:</strong> Dòng giới hạn junctional zone dày >12 mm là chuẩn vàng hình ảnh.</li>
+<li><strong>Điều trị:</strong> LNG-IUS là first-line; GnRH antagonist (relugolix/elagolix) cho ngắn hạn; hysterectomy khi điều trị nội khoa thất bại và không muốn con.</li></ul>
+<h4 class="font-bold text-stone-700 text-lg mt-6 mb-3">AUB-L: Leiomyoma (u xơ tử cung)</h4>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>U xơ được phân loại theo FIGO (type 0-8) dựa trên vị trí.</li>
+<li><strong>U xơ dưới niêm (submucosal, type 0-2)</strong> gây AUB nhiều nhất.</li>
+<li><strong>U xơ trong cơ (intramural)</strong> gây AUB nếu >4-5 cm hoặc tiếp xúc với cavity.</li>
+<li><strong>U xơ dưới thanh mạc (subserosal)</strong> hiếm khi gây AUB.</li>
+<li><strong>Điều trị:</strong> Myomectomy cơ học (hysteroscopic cho submucosal), GnRH agonist/antagonist thu nhỏ trước mổ, UAE, hysterectomy khi đủ con.</li></ul>
+<p class="text-stone-700 mb-3">Diaz 2025 (PMID 40927887) — FIGO best practice: GnRH antagonist được FDA/EMA duyệt cho u xơ; COC, progestin, LNG-IUS, TXA có thể giảm HMB dù không được chỉ định chính thức cho u xơ.</p>
+<h4 class="font-bold text-stone-700 text-lg mt-6 mb-3">AUB-M: Malignancy/hyperplasia</h4>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Endometrial cancer:</strong> Triệu chứng đầu tiên ở >90% phụ nữ mãn kinh là PMB.</li>
+<li><strong>Endometrial hyperplasia:</strong> Gắn với estrogen không đối kháng (obesity, PCOS, anovulation, tamoxifen).</li>
+<li><strong>Chẩn đoán xác định:</strong> Sinh thiết nội mạc (endometrial biopsy) hoặc D&C/hysteroscopy.</li>
+<li><strong>Tầm soát:</strong> Phụ nữ ≥45 tuổi, hoặc <45 tuổi có yếu tố nguy cơ (obesity, PCOS, tamoxifen, gia đình Lynch), cần sinh thiết nếu AUB kéo dài.</li></ul>
+<h4 class="font-bold text-stone-700 text-lg mt-6 mb-3">AUB-C: Coagulopathy</h4>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>vWD (von Willebrand disease)</strong> là nguyên nhân phổ biến nhất ở vị thành niên HMB.</li>
+<li>Các rối loạn đông máu khác: thrombocytopenia, hemophilia, platelet dysfunction.</li>
+<li><strong>Tầm soát:</strong> Ở vị thành niên HMB nặng từ menarche, hoặc có tiền sử chảy máu kéo dài sau nhổ răng/phẫu thuật.</li></ul>
+<p class="text-stone-700 mb-3">Masood 2025 (PMID 41050634): LNG-IUS hiệu quả nhất trong AUB do rối loạn đông máu; TXA hoặc DDAVP có thể phối hợp.</p>
+<h4 class="font-bold text-stone-700 text-lg mt-6 mb-3">AUB-O: Ovulatory dysfunction</h4>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Nguyên nhân:</strong> PCOS, thyroid disease, hyperprolactinemia, stress, weight loss/gain, perimenopause.</li>
+<li><strong>Cơ chế:</strong> Estrogen không có progesterone đối kháng → nội mạc tăng sinh quá mức → bong tróc không đồng đều.</li>
+<li><strong>Điều trị:</strong> Progestin cyclic hoặc COC; ở PCOS cần quản lý insulin/metformin; đối với phụ nữ lớn tuổi (>45) cần loại trừ hyperplasia trước khi điều trị hormone.</li></ul>
+<h4 class="font-bold text-stone-700 text-lg mt-6 mb-3">AUB-E: Endometrial</h4>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Chẩn đoán <strong>loại trừ</strong> sau khi đã loại bỏ PALM, C, O, I.</li>
+<li><strong>Đặc điểm:</strong> Nội mạc bình thường về mặt cấu trúc nhưng rối loạn chức năng cầm máu cục bộ — tăng fibrinolysis, tăng PGs, rối loạn mạch máu.</li>
+<li><strong>Điều trị:</strong> LNG-IUS, TXA, COC, NSAID.</li></ul>
+<h4 class="font-bold text-stone-700 text-lg mt-6 mb-3">AUB-I: Iatrogenic</h4>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Các thuốc: anticoagulants, antipsychotics (risperidone → hyperprolactinemia), tamoxifen, corticosteroids.</li>
+<li>Thiết bị: IUD đồng (copper IUD) gây HMB phổ biến.</li>
+<li>Hormone therapy: unopposed estrogen, irregular progestin use.</li></ul>
+<h4 class="font-bold text-stone-700 text-lg mt-6 mb-3">AUB-N: Not yet classified</h4>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Các nguyên nhân chưa xác định rõ: vascular malformation, chronic endometritis, myometrial hypertrophy...</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">5. KHÁM VÀ CẬN LÂM SÀNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.1. Bệnh sử chi tiết</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Yếu tố</th><th class="p-2 border whitespace-nowrap">Nội dung cần hỏi</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Lượng máu</strong></td><td class="p-2 border">Băng vệ sinh ướt đẫm? Cần thay ≥1 lần/giờ? Cục máu?</td></tr><tr class=""><td class="p-2 border"><strong>Thờii gian</strong></td><td class="p-2 border">Kinh kéo dài bao lâu? Chu kỳ bao nhiêu ngày? Đều không?</td></tr><tr class=""><td class="p-2 border"><strong>Đau</strong></td><td class="p-2 border">Đau bụng kinh? Đau giao hợp?</td></tr><tr class=""><td class="p-2 border"><strong>Tuổi</strong></td><td class="p-2 border">Vị thành niên, sinh sản, tiền mãn kinh, mãn kinh?</td></tr><tr class=""><td class="p-2 border"><strong>PMB</strong></td><td class="p-2 border">Đã mãn kinh bao lâu? Bất kỳ chảy máu nào cũng phải đánh giá!</td></tr><tr class=""><td class="p-2 border"><strong>Tiền sử</strong></td><td class="p-2 border">Chảy máu sau nhổ răng/phẫu thuật? Bệnh đông máu? Gia đình?</td></tr><tr class=""><td class="p-2 border"><strong>Sản khoa</strong></td><td class="p-2 border">Mang thai? Sẩy thai? Nạo hút? IUD?</td></tr><tr class=""><td class="p-2 border"><strong>Thuốc</strong></td><td class="p-2 border">Anticoagulant? Tamoxifen? Hormone? Antipsychotic?</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.2. Khám thực thể</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Khám bụng:</strong> Tử cung to? Đau?</li>
+<li><strong>Khám âm đạo:</strong> Cổ tử cung bình thường? Polyp lộ? Tử cung to, đều hay không đều?</li>
+<li><strong>Khám trực tràng</strong> nếu cần.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.3. Cận lâm sàng</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Xét nghiệm</th><th class="p-2 border whitespace-nowrap">Chỉ định</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>β-hCG</strong></td><td class="p-2 border">Mọi phụ nữ trong độ tuổi sinh sản, bất kể triệu chứng</td></tr><tr class=""><td class="p-2 border"><strong>CBC</strong></td><td class="p-2 border">Đánh giá thiếu máu, mức độ mất máu</td></tr><tr class=""><td class="p-2 border"><strong>Fe/TIBC/ferritin</strong></td><td class="p-2 border">Nếu nghi thiếu sắt</td></tr><tr class=""><td class="p-2 border"><strong>Đông máu cơ bản</strong></td><td class="p-2 border">PT, aPTT, fibrinogen nếu chảy máu nặng</td></tr><tr class=""><td class="p-2 border"><strong>TSH, prolactin</strong></td><td class="p-2 border">Nghi rối loạn phóng noãn</td></tr><tr class=""><td class="p-2 border"><strong>Siêu âm đầu dò âm đạo</strong></td><td class="p-2 border">First-line imaging cho mọi AUB</td></tr><tr class=""><td class="p-2 border"><strong>SIS (sonohysterography)</strong></td><td class="p-2 border">Nghi polyp/submucosal fibroid, đánh giá cavity</td></tr><tr class=""><td class="p-2 border"><strong>MRI</strong></td><td class="p-2 border">Nghi adenomyosis, phân loại u xơ phức tạp</td></tr><tr class=""><td class="p-2 border"><strong>Endometrial biopsy</strong></td><td class="p-2 border">≥45 tuổi AUB, <45 tuổi có yếu tố nguy cơ ung thư, PMB</td></tr><tr class=""><td class="p-2 border"><strong>Hysteroscopy + biopsy</strong></td><td class="p-2 border">Vàng chuẩn khi siêu âm bất thường hoặc PMB ET >4mm</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.4. Chỉ định sinh thiết nội mạc (Endometrial biopsy)</h3>
+<p class="text-stone-700 mb-3"><strong>Phải sinh thiết khi:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Tuổi ≥45 với AUB mới hoặc thay đổi kinh nguyệt.</li>
+<li>PMB bất kể tuổi.</li>
+<li><45 tuổi có yếu tố nguy cơ: obesity (BMI ≥30), PCOS, tamoxifen, gia đình Lynch/Cowden, diabetes type 2, unopposed estrogen.</li>
+<li>Siêu âm: endometrium dày (>4mm ở PMB; >14-16mm ở tiền mãn kinh tuỳ ngữ cảnh).</li>
+<li>Điều trị nội khoa thất bại.</li></ul>
+<p class="text-stone-700 mb-3">ACOG CO #734 (PMID 29683909): Ở PMB, <strong>ET ≤4 mm</strong> có <strong>NPV >99%</strong> cho ung thư nội mạc → có thể bỏ qua sinh thiết nếu lần đầu chảy máu, không yếu tố nguy cơ. ET >4 mm cần sinh thiết.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.5. Đánh giá lượng máu — PBAC</h3>
+<p class="text-stone-700 mb-3"><strong>PBAC score:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Băng vệ sinh nhẹ ướt = 1 điểm</li>
+<li>Băng vệ sinh vừa ướt = 5 điểm</li>
+<li>Băng vệ sinh ướt đẫm = 20 điểm</li>
+<li>Cục máu nhỏ (≤2.5 cm) = 1 điểm; cục máu lớn (>2.5 cm) = 5 điểm</li>
+<li>Thay băng do lý do vệ sinh = 0 điểm; thay do ướt = + điểm</li>
+<li><strong>PBAC ≥100 = HMB</strong></li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">6. PROTOCOL ĐIỀU TRỊ AUB</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.1. Nguyên tắc chung</h3>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Ổn định huyết động</strong> nếu acute AUB.</li>
+<li><strong>Xác định nguyên nhân</strong> theo PALM-COEIN.</li>
+<li><strong>Điều trị theo nguyên nhân</strong> + bảo tồn khả năng sinh sản nếu bệnh nhân muốn con.</li>
+<li><strong>Bổ sung sắt</strong> cho tất cả bệnh nhân thiếu máu.</li>
+<li><strong>Theo dõi đáp ứng</strong> sau 3-6 tháng.</li></ol>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.2. Điều trị nội khoa — First-line cho HMB/AUB</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thuốc</th><th class="p-2 border whitespace-nowrap">Cơ chế</th><th class="p-2 border whitespace-nowrap">Liều</th><th class="p-2 border whitespace-nowrap">Chỉ định</th><th class="p-2 border whitespace-nowrap">Chống chỉ định</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>LNG-IUS</strong> (Mirena®)</td><td class="p-2 border">Progestin địa phương, làm mỏng nội mạc</td><td class="p-2 border">Đặt 5 năm</td><td class="p-2 border">HMB nguyên nhân không rõ, AUB-O, adenomyosis</td><td class="p-2 border">Cổ tử cung viêm nhiễm, nghi ung thư, bệnh gan nặng</td></tr><tr class=""><td class="p-2 border"><strong>COC</strong></td><td class="p-2 border">Ức chế HPO, ổn định nội mạc</td><td class="p-2 border">1 viên/ngày (21/7 hoặc 24/4)</td><td class="p-2 border">AUB-O, HMB, cần tránh thai</td><td class="p-2 border">Hút thuốc ≥35 tuổi, migraine có aura, tiền sử huyết khối</td></tr><tr class=""><td class="p-2 border"><strong>Tranexamic acid</strong></td><td class="p-2 border">Ức chế plasminogen → giảm fibrinolysis</td><td class="p-2 border">1-1.5g x 3-4 lần/ngày, uống trong 3-5 ngày đầu kinh</td><td class="p-2 border">HMB, AUB-E</td><td class="p-2 border">Tiền sử huyết khối, hematuria do rối loạn fibrinolysis</td></tr><tr class=""><td class="p-2 border"><strong>NSAID</strong> (ibuprofen, mefenamic acid)</td><td class="p-2 border">Ức chế COX → giảm PGs</td><td class="p-2 border">Ibuprofen 400-600mg q6-8h trong kinh</td><td class="p-2 border">HMB nhẹ-vừa, đau bụng kinh</td><td class="p-2 border">Loét dạ dày, suy thận, đông máu bất thường</td></tr><tr class=""><td class="p-2 border"><strong>Progestin</strong> (norethisterone, medroxyprogesterone, DMPA)</td><td class="p-2 border">Chuyển hóa nội mạc, ức chế rụng trứng</td><td class="p-2 border">Tuỳ loại: cyclic 5-10mg/ngày ngày 5-26 chu kỳ</td><td class="p-2 border">AUB-O, điều trị cấp tính</td><td class="p-2 border">Mang thai, ung thư nội tiết</td></tr><tr class=""><td class="p-2 border"><strong>GnRH agonist</strong> (leuprolide)</td><td class="p-2 border">Tắt HPO, tạo trạng thái giả mãn kinh</td><td class="p-2 border">3.75mg IM/tháng</td><td class="p-2 border">Thu nhỏ u xơ trước mổ, HMB nặng tạm thờii</td><td class="p-2 border">Loãng xương khi dùng >6 tháng</td></tr><tr class=""><td class="p-2 border"><strong>GnRH antagonist</strong> (relugolix combo)</td><td class="p-2 border">Đối kháng GnRH receptor + add-back</td><td class="p-2 border">1 viên/ngày</td><td class="p-2 border">U xơ, đau do endometriosis</td><td class="p-2 border">Thờii gian giới hạn 24 tháng</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Evidence:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Vani Lanka 2026 (PMID 41664752): Trong 240 phụ nữ HMB, <strong>LNG-IUS giảm PBAC 93% sau 6 tháng</strong>, TXA giảm 78%, DMPA giảm 78%, COC giảm ~70%. LNG-IUS có tuân thủ cao nhất và cải thiện Hb đáng kể.</li>
+<li>NICE NG88: First-line cho HMB là <strong>LNG-IUS</strong>; nếu từ chối hoặc chống chỉ định → COC, TXA, NSAID.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.3. Acute AUB — Protocol cấp cứu</h3>
+<p class="text-stone-700 mb-3">ACOG PB #557 (PMID 23635706): Đánh giá huyết động đầu tiên, sau đó cầm máu y tế.</p>
+<p class="text-stone-700 mb-3"><strong>Bước 1: Đánh giá huyết động</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Tụt huyết áp, nhịp tim nhanh, da lạnh, ẩm → <strong>shock mất máu</strong>.</li>
+<li>CBC, type & screen/crossmatch, đông máu, β-hCG.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Bước 2: Cầm máu y tế</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thuốc</th><th class="p-2 border whitespace-nowrap">Liều lượng</th><th class="p-2 border whitespace-nowrap">Ghi chú</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Conjugated equine estrogen (CEE) IV</strong></td><td class="p-2 border">25mg IV mỗi 4-6 giờ, tối đa 24 giờ</td><td class="p-2 border">Hiệu quả cầm máu nhanh, thường dùng trong 24h</td></tr><tr class=""><td class="p-2 border"><strong>COC liều cao</strong></td><td class="p-2 border">1 viên 3 lần/ngày x 7 ngày, sau đó giảm dần</td><td class="p-2 border">Phổ biến hơn CEE IV ở nhiều cơ sở</td></tr><tr class=""><td class="p-2 border"><strong>TXA</strong></td><td class="p-2 border">1-1.3g IV hoặc PO 3-4 lần/ngày</td><td class="p-2 border">Kết hợp với estrogen</td></tr><tr class=""><td class="p-2 border"><strong>Progestin</strong></td><td class="p-2 border">Medroxyprogesterone 20mg 3 lần/ngày hoặc norethisterone 5mg 3 lần/ngày</td><td class="p-2 border">Khi không dùng estrogen</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Bước 3: Hỗ trợ</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Truyền máu nếu Hb <7 g/dL hoặc có triệu chứng thiếu máu nặng.</li>
+<li>Bổ sung sắt.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Bước 4: Chuyển sang duy trì sau khi cầm máu</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>COC hàng ngày, LNG-IUS, hoặc progestin cyclic.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.4. Điều trị ngoại khoa</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Phương pháp</th><th class="p-2 border whitespace-nowrap">Chỉ định</th><th class="p-2 border whitespace-nowrap">Ưu điểm</th><th class="p-2 border whitespace-nowrap">Nhược điểm</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Polypectomy hysteroscopy</strong></td><td class="p-2 border">Polyp gây AUB/IMB</td><td class="p-2 border">Tối thiểu xâm lấn, chẩn đoán + điều trị</td><td class="p-2 border">Rủi ro thủng tử cung thấp</td></tr><tr class=""><td class="p-2 border"><strong>Myomectomy</strong></td><td class="p-2 border">U xơ dưới niêm/type 0-2, hoặc u xơ trong cơ gây HMB</td><td class="p-2 border">Bảo tồn tử cung</td><td class="p-2 border">Tái phát 15-30%</td></tr><tr class=""><td class="p-2 border"><strong>UAE (uterine artery embolization)</strong></td><td class="p-2 border">U xơ lớn, không muốn mổ</td><td class="p-2 border">Ít xâm lấn, giữ tử cung</td><td class="p-2 border">Có thể gây mãn kinh sớm, đau sau thủ thuật</td></tr><tr class=""><td class="p-2 border"><strong>Endometrial ablation</strong></td><td class="p-2 border">HMB không rõ nguyên nhân, đủ con, không muốn hysterectomy</td><td class="p-2 border">Nhanh, hiệu quả 80-90%</td><td class="p-2 border">Không dùng nếu muốn con sau; nguy cơ thai ngoài tử cung</td></tr><tr class=""><td class="p-2 border"><strong>Hysterectomy</strong></td><td class="p-2 border">Mọi điều trị khác thất bại, u xơ lớn, adenomyosis nặng, ung thư/tiền ung thư</td><td class="p-2 border">Chữa khỏi triệt để</td><td class="p-2 border">Phẫu thuật lớn, mất khả năng sinh sản</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.5. Bổ sung sắt</h3>
+<p class="text-stone-700 mb-3">Mọi bệnh nhân AUB/HMB nên được tầm soát thiếu máu và thiếu sắt.</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Ferrous sulfate 65mg (elemental iron 325mg) 1 viên/ngày hoặc 2 lần/ngày.</li>
+<li>Nếu thiếu máu nặng (Hb <8 g/dL) hoặc không dung nạp đường uống → truyền sắt IV (ferric carboxymaltose).</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">7. AUB THEO TỪNG GIAI ĐOẠN TUỔI</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.1. Vị thành niên (Adolescents)</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Nguyên nhân phổ biến nhất:</strong> AUB-O do trục HPO chưa trưởng thành → anovulation.</li>
+<li><strong>Phải loại trừ:</strong> rối loạn đông máu (vWD), mang thai, nhiễm trùng, tổn thương cấu trúc.</li>
+<li><strong>Tầm soát vWD:</strong> Ở HMB nặng từ menarche hoặc tiền sử chảy máu bất thường.</li>
+<li><strong>Điều trị:</strong> COC hoặc progestin cyclic là first-line; TXA có thể dùng.</li></ul>
+<p class="text-stone-700 mb-3">Brookhart 2025 (PMID 40924008): AUB ở vị thành niên — nhấn mạnh HPO axis immaturity, coagulopathy, PCOS; dùng PALM-COEIN với tập trung vào C, O, I.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.2. Phụ nữ trong độ tuổi sinh sản</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>PALM:</strong> Polyp, adenomyosis, leiomyoma là phổ biến.</li>
+<li><strong>COEIN:</strong> PCOS (O), rối loạn đông máu (C), IUD đồng (I), AUB-E.</li>
+<li><strong>Ưu tiên bảo tồn sinh sản:</strong> LNG-IUS, COC, TXA, myomectomy/polypectomy có chọn lọc.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.3. Tiền mãn kinh (Perimenopause)</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Nguyên nhân phổ biến nhất:</strong> AUB-O do suy buồng trứng, rụng trứng không đều.</li>
+<li><strong>Nguy cơ ung thư tăng</strong> do nội mạc bị estrogen kích thích kéo dài.</li>
+<li><strong>Phải sinh thiết nội mạc</strong> nếu ≥45 tuổi hoặc có yếu tố nguy cơ.</li>
+<li><strong>Điều trị:</strong> Progestin cyclic, LNG-IUS; nếu không muốn hormone → TXA/NSAID.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.4. Mãn kinh (Postmenopause)</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>PMB = ung thư nội mạc tử cung cho đến khi chứng minh ngược lại.</strong></li>
+<li><strong>Đánh giá:</strong> TVUS ET; nếu ET >4 mm → sinh thiết/hysteroscopy.</li>
+<li><strong>Không nên dùng hormone ức chế kinh nguyệt để "điều trị" PMB</strong> — phải loại trừ ung thư trước.</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">8. SO SÁNH GUIDELINE: FIGO vs ACOG vs NICE</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Nội dung</th><th class="p-2 border whitespace-nowrap">FIGO 2011/2016</th><th class="p-2 border whitespace-nowrap">ACOG</th><th class="p-2 border whitespace-nowrap">NICE NG88 (2018)</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Phân loại</strong></td><td class="p-2 border"><strong>PALM-COEIN</strong> — thay thế thuật ngữ cũ</td><td class="p-2 border">Sử dụng PALM-COEIN; PB #557 cho acute AUB</td><td class="p-2 border">Phân loại HMB theo nguyên nhân</td></tr><tr class=""><td class="p-2 border"><strong>HMB định nghĩa</strong></td><td class="p-2 border">Lượng máu ảnh hưởng QoL, PBAC ≥100</td><td class="p-2 border">Tương tự</td><td class="p-2 border">HMB = lượng máu gây ảnh hưởng sinh hoạt</td></tr><tr class=""><td class="p-2 border"><strong>First-line HMB</strong></td><td class="p-2 border">Không có one-size-fits-all; điều trị theo nguyên nhân</td><td class="p-2 border">LNG-IUS, COC, TXA, NSAID</td><td class="p-2 border"><strong>LNG-IUS là first-line</strong></td></tr><tr class=""><td class="p-2 border"><strong>Second-line HMB</strong></td><td class="p-2 border">Progestin, GnRH analog, surgery</td><td class="p-2 border">COC, TXA, progestin, surgery</td><td class="p-2 border">COC, TXA, NSAID, surgery</td></tr><tr class=""><td class="p-2 border"><strong>Sinh thiết nội mạc</strong></td><td class="p-2 border">Tuỳ nguy cơ ung thư</td><td class="p-2 border">≥45 tuổi hoặc yếu tố nguy cơ; PMB ET >4mm cần sinh thiết</td><td class="p-2 border">PMB ET >4mm hoặc yếu tố nguy cơ</td></tr><tr class=""><td class="p-2 border"><strong>Acute AUB</strong></td><td class="p-2 border">Không có guideline chi tiết</td><td class="p-2 border"><strong>PB #557</strong>: estrogen IV/COC liều cao + TXA; phẫu thuật nếu thất bại</td><td class="p-2 border">Không có acute protocol riêng</td></tr><tr class=""><td class="p-2 border"><strong>Imaging first-line</strong></td><td class="p-2 border">TVUS</td><td class="p-2 border">TVUS</td><td class="p-2 border">TVUS</td></tr><tr class=""><td class="p-2 border"><strong>SIS/Hysteroscopy</strong></td><td class="p-2 border">Polyp/submucosal lesion</td><td class="p-2 border">Nghi polyp/submucosal fibroid</td><td class="p-2 border">Nghi cấu trúc bất thường</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3">Tsakiridis 2022 (PMID 36053280): Review so sánh ACOG, NICE, RANZCOG, SOGC, FIGO — đồng thuận về lịch sử + khám; TVUS first-line; endometrial biopsy chỉ khi có yếu tố nguy cơ; điều trị nội khoa first-line nếu không có tổn thương cấu trúc.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">9. 6 CASE LÂM SÀNG GIẢ ĐỊNH</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Case 1: Vị thành niên HMB nặng — Nghi vWD</h3>
+<p class="text-stone-700 mb-3"><strong>Bệnh nhân:</strong> Nữ 14 tuổi, menarche 1 năm. Kinh rất nhiều, phải thay băng vệ sinh mỗi giờ, nhiều cục máu to. Mệt mỏi, da nhợt nhạt. Hb 7.2 g/dL. Tiền sử: nhổ răng khôn chảy máu 2 ngày.</p>
+<p class="text-stone-700 mb-3"><strong>Phân tích:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Chẩn đoán ban đầu:</strong> HMB nặng, thiếu máu trung bình.</li>
+<li><strong>Nguyên nhân nghi ngờ:</strong> AUB-C (coagulopathy, có thể vWD) hoặc AUB-O (HPO immaturity).</li>
+<li><strong>Xét nghiệm:</strong> CBC, đông máu cơ bản, vWD panel (vWF antigen, vWF activity, factor VIII), ferritin, β-hCG.</li>
+<li><strong>Xử trí cấp:</strong> TXA 1g x 3 lần/ngày + COC liều cao (1 viên 3 lần/ngày) hoặc CEE IV nếu nhập viện; truyền máu nếu Hb <7 g/dL hoặc shock.</li>
+<li><strong>Xử trí dài hạn:</strong> Nếu vWD (+) → desmopressin + TXA trong kinh; nếu vWD (-) → COC hoặc LNG-IUS.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Case 2: PCOS + AUB-O ở tuổi sinh sản</h3>
+<p class="text-stone-700 mb-3"><strong>Bệnh nhân:</strong> Nữ 28 tuổi, BMI 32. Chu kỳ kinh 2-4 tháng/lần. Lần này chảy máu kéo dài 18 ngày, lượng vừa. Mụn, rậm lông. Siêu âm: buồng trứng đa nang, nội mạc dày 14 mm.</p>
+<p class="text-stone-700 mb-3"><strong>Phân tích:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Chẩn đoán:</strong> AUB-O do PCOS.</li>
+<li><strong>Loại trừ:</strong> Phải sinh thiết nội mạc trước khi điều trị hormone vì nội mạc dày + obesity.</li>
+<li><strong>Điều trị:</strong> Sau khi loại trừ hyperplasia/ung thư → COC hoặc progestin cyclic 10-14 ngày/tháng; metformin nếu insulin resistance; giảm cân.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Case 3: HMB do u xơ dưới niêm</h3>
+<p class="text-stone-700 mb-3"><strong>Bệnh nhân:</strong> Nữ 35 tuổi, đa sản 2 con, không muốn sinh thêm. Kinh nhiều 2 năm, Hb 8.5 g/dL. Siêu âm: u xơ dưới niêm type 1, kích thước 2.5 cm, đẩy vào lòng tử cung.</p>
+<p class="text-stone-700 mb-3"><strong>Phân tích:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Chẩn đoán:</strong> AUB-L (submucosal leiomyoma).</li>
+<li><strong>Điều trị:</strong> Hysteroscopic myomectomy là lựa chọn tốt nhất — vừa chẩn đoán vừa điều trị, bảo tồn tử cung.</li>
+<li><strong>Dự phòng tái phát HMB:</strong> Có thể đặt LNG-IUS sau mổ nếu còn HMB.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Case 4: Adenomyosis ở tuổi 42</h3>
+<p class="text-stone-700 mb-3"><strong>Bệnh nhân:</strong> Nữ 42 tuổi. Đau bụng kinh nặng 5 năm, kinh nhiều, đau giao hợp. Tử cung to bằng quả trứng gà, mềm, đau. Siêu âm: junctional zone dày 16 mm, không đều.</p>
+<p class="text-stone-700 mb-3"><strong>Phân tích:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Chẩn đoán:</strong> AUB-A (adenomyosis).</li>
+<li><strong>Điều trị:</strong></li></ul>
+<p class="text-stone-700 mb-3">  - First-line: <strong>LNG-IUS</strong> (Mirena).</p>
+<p class="text-stone-700 mb-3">  - Nếu đau nhiều: NSAID trong kinh.</p>
+<p class="text-stone-700 mb-3">  - Nếu thất bại: GnRH antagonist + add-back therapy trong 12-24 tháng.</p>
+<p class="text-stone-700 mb-3">  - Hysterectomy nếu đủ con, điều trị nội khoa thất bại.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Case 5: Tiền mãn kinh + AUB kéo dài</h3>
+<p class="text-stone-700 mb-3"><strong>Bệnh nhân:</strong> Nữ 48 tuổi. Kinh không đều 1 năm, lần này chảy máu 20 ngày. BMI 34, PCOS tiền sử. Siêu âm: nội mạc dày 18 mm, không polyp.</p>
+<p class="text-stone-700 mb-3"><strong>Phân tích:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Nguy cơ:</strong> Estrogen không đối kháng → endometrial hyperplasia/malignancy.</li>
+<li><strong>BẮT BUỘC:</strong> Endometrial biopsy trước khi điều trị hormone.</li>
+<li><strong>Nếu simple hyperplasia:</strong> Progestin (MPA 10-20mg/ngày) 3-6 tháng, sau đó sinh thiết lại.</li>
+<li><strong>Nếu atypical hyperplasia/carcinoma:</strong> Hysterectomy.</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Case 6: Xuất huyết sau mãn kinh</h3>
+<p class="text-stone-700 mb-3"><strong>Bệnh nhân:</strong> Nữ 58 tuổi, mãn kinh 6 năm, chảy máu âm đạo nhẹ 2 lần trong 1 tháng. BMI 28. Không dùng HRT.</p>
+<p class="text-stone-700 mb-3"><strong>Phân tích:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>PMB = ung thư nội mạc tử cung cho đến khi chứng minh ngược lại.</strong></li>
+<li><strong>Làm ngay:</strong> TVUS đo ET; nếu ET >4 mm → endometrial biopsy/hysteroscopy.</li>
+<li><strong>Nếu ET ≤4 mm và lần đầu PMB:</strong> Có thể theo dõi 1-2 tháng; nếu tái phát → sinh thiết.</li>
+<li><strong>Không được:</strong> Kê hormone "cầm máu" khi chưa loại trừ ung thư.</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">10. SAI LẦM THƯỜNG GẶP</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">#</th><th class="p-2 border whitespace-nowrap">Sai lầm</th><th class="p-2 border whitespace-nowrap">Hậu quả</th><th class="p-2 border whitespace-nowrap">Cách tránh</th></tr></thead><tbody><tr class=""><td class="p-2 border">1</td><td class="p-2 border">Không làm β-hCG ở phụ nữ trong độ tuổi sinh sản</td><td class="p-2 border">Bỏ sót thai ngoài tử cung, sảy thai, thai lưu</td><td class="p-2 border">Mọi AUB ở tuổi sinh sản đều phải test β-hCG</td></tr><tr class=""><td class="p-2 border">2</td><td class="p-2 border">Không sinh thiết nội mạc ở ≥45 tuổi hoặc có yếu tố nguy cơ</td><td class="p-2 border">Bỏ sót ung thư nội mạc/hyperplasia</td><td class="p-2 border">Sinh thiết trước khi điều trị hormone dài hạn</td></tr><tr class=""><td class="p-2 border">3</td><td class="p-2 border">Dùng estrogen liều cao cấp tính mà không kèm progestin</td><td class="p-2 border">Tăng nguy cơ hyperplasia, chảy máu tiếp tục</td><td class="p-2 border">COC hoặc estrogen + progestin phối hợp</td></tr><tr class=""><td class="p-2 border">4</td><td class="p-2 border">Chẩn đoán "DUB" mà không tìm nguyên nhân theo PALM-COEIN</td><td class="p-2 border">Điều trị sai, tái phát</td><td class="p-2 border">Dùng PALM-COEIN toàn diện</td></tr><tr class=""><td class="p-2 border">5</td><td class="p-2 border">Bỏ qua rối loạn đông máu ở vị thành niên HMB</td><td class="p-2 border">Chảy máu kéo dài, thiếu máu nặng</td><td class="p-2 border">Tầm soát vWD nếu HMB từ menarche hoặc tiền sử chảy máu bất thường</td></tr><tr class=""><td class="p-2 border">6</td><td class="p-2 border">Điều trị PMB bằng hormone trước khi loại trừ ung thư</td><td class="p-2 border">Chậm chẩn đoán ung thư giai đoạn muộn</td><td class="p-2 border">Luôn đánh giá ET + sinh thiết nếu cần trước</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">11. LƯU ĐỒ QUYẾT ĐỊNH LÂM SÀNG</h2>
+<div class="mermaid text-center my-6">flowchart TD
+    A["Bệnh nhân đến vì AUB"] --> B{"Có dấu hiệu shock?<br>tụt huyết áp, nhịp nhanh?"}
+    B -->|"Có"| C["Acute AUB protocol:<br>IV access, CBC, type&screen,<br>β-hCG, CEE IV/COC liều cao + TXA"]
+    B -->|"Không"| D["Bệnh sử + khám phụ khoa<br>+ β-hCG + CBC + TVUS"]
+    D --> E{"Tuổi + nguy cơ ung thư?"}
+    E -->|"≥45 tuổi hoặc yếu tố nguy cơ"| F["Endometrial biopsy<br>TRƯỚC khi điều trị hormone"]
+    E -->|"<45, không yếu tố nguy cơ"| G["PALM-COEIN classification"]
+    F --> H{"Kết quả sinh thiết?"}
+    H -->|"Hyperplasia/atypia/cancer"| I["Hysterectomy hoặc<br>chuyên khoa ung thư"]
+    H -->|"Bình thường"| G
+    G --> J{"Nguyên nhân PALM?"}
+    J -->|"Polyp"| K["Hysteroscopic polypectomy"]
+    J -->|"Adenomyosis"| L["LNG-IUS first-line"]
+    J -->|"Leiomyoma"| M["Myomectomy / UAE /<br>GnRH antagonist"]
+    J -->|"Malignancy"| I
+    J -->|"Không PALM"| N{"COEIN?"}
+    N -->|"Coagulopathy"| O["Hematology consult<br>TXA ± desmopressin ± LNG-IUS"]
+    N -->|"Ovulatory dysfunction"| P["COC / progestin cyclic<br>+ điều trị nguyên nhân"]
+    N -->|"Endometrial"| Q["LNG-IUS / TXA / COC"]
+    N -->|"Iatrogenic"| R["Điều chỉnh thuốc / thay IUD"]
+    C --> S{"Cầm máu?"}
+    S -->|"Không"| T["Surgical hemostasis:<br>D&C, hysteroscopy, UAE,<br>hay hysterectomy"]
+    S -->|"Có"| U["Chuyển duy trì:<br>LNG-IUS / COC / progestin"]
+    K --> U
+    L --> U
+    M --> U
+    O --> U
+    P --> U
+    Q --> U
+    R --> U
+    style A fill:#e3f2fd,stroke:#1976d2
+    style C fill:#ffcdd2,stroke:#c2185b
+    style I fill:#ffcdd2,stroke:#c2185b
+    style U fill:#c8e6c9,stroke:#388e3c
+    style F fill:#fff3cd,stroke:#f57c00</div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">12. ÁP DỤNG TẠI VIỆT NAM</h2>
+<p class="text-stone-700 mb-3"><strong>Tình hình thực tế:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>AUB là lý do khám phụ khoa phổ biến tại các BV tuyến tỉnh và Trung ương.</li>
+<li>Nhiều cơ sở tuyến dưới chưa có hysteroscopy; TVUS là cận lâm sàng chủ yếu.</li>
+<li>LNG-IUS (Mirena) đã có tại Việt Nam nhưng giá còn cao (~2-3 triệu/1 lần đặt 5 năm), BHYT chưa chi trả rộng rãi.</li>
+<li>TXA (Transamin®) rẻ, sẵn có, thường được dùng đầu tay ở tuyến cơ sở.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Khuyến cáo thực hành:</strong></p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Tuyến cơ sở:</strong> TXA + NSAID + sắt; chuyển tuyến trên nếu Hb <8 g/dL, chảy máu >7 ngày, hoặc nghi cấu trúc bất thường.</li>
+<li><strong>Tuyến trên:</strong> TVUS + SIS + hysteroscopy + sinh thiết nội mạc theo chỉ định.</li>
+<li><strong>PMB:</strong> Bắt buộc TVUS ET; ET >4 mm phải sinh thiết — đừng chỉ kê hormone "cầm máu".</li>
+<li><strong>Vị thành niên HMB nặng:</strong> Nên tầm soát vWD; nếu cơ sở không làm được → chuyển BV tuyến trên.</li>
+<li><strong>Giáo dục bệnh nhân:</strong> PBAC chart có thể tự theo dõi; nhấn mạnh dấu hiệu cần đi khám ngay (chóng mặt, tim đập nhanh, chảy máu >7 ngày).</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">13. TIPS THỰC HÀNH (CLINICAL PEARLS)</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>AUB không phải là chẩn đoán — đó là triệu chứng.</strong> Luôn tìm nguyên nhân theo PALM-COEIN.</li>
+<li><strong>PMB = ung thư nội mạc tử cung cho đến khi chứng minh ngược lại.</strong> Không bao giờ bỏ qua, dù chỉ chảy máu 1 lần nhẹ.</li>
+<li><strong>β-hCG là xét nghiệm đầu tiên</strong> cho mọi phụ nữ trong độ tuổi sinh sản, bất kể bệnh nhân nói "tôi không thể có thai".</li>
+<li><strong>LNG-IUS là "vua" trong HMB/AUB-E/AUB-O.</strong> Giảm >90% lượng máu sau 6 tháng, đồng thờii là biện pháp tránh thai hiệu quả.</li>
+<li><strong>TXA an toàn và rẻ</strong> — dùng trong 3-5 ngày đầu kinh, hiệu quả giảm 40-50% lượng máu.</li>
+<li><strong>Đừng quên sắt.</strong> Thiếu máu do HMB thường đi kèm thiếu sắt; bổ sung sắt giúp bệnh nhân cảm thấy khỏe hơn nhanh hơn.</li>
+<li><strong>Ở vị thành niên HMB nặng từ menarche, nghĩ ngay vWD</strong> — không phải chỉ do "trục HPO chưa ổn định".</li>
+<li><strong>Siêu âm đầu dò là first-line</strong>, nhưng <strong>SIS tốt hơn nhiều</strong> để đánh giá polyp và u xơ dưới niêm.</li>
+<li><strong>Chronic AUB kéo dài ≥6 tháng</strong> cần tìm nguyên nhân xác định; đừng chỉ kê thuốc cầm máu mãi.</li>
+<li><strong>Khi chuyển từ cấp cứu sang duy trì</strong>, phải có kế hoạch rõ ràng — nếu không, bệnh nhân sẽ tái phát chảy máu.</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">14. TỔNG KẾT ĐIỂM CẦN NHỚ</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>AUB là triệu chứng, không phải chẩn đoán cuối cùng.</strong> Phải tìm nguyên nhân theo <strong>FIGO PALM-COEIN</strong>.</li>
+<li><strong>PALM = structural</strong> (P-polyp, A-adenomyosis, L-leiomyoma, M-malignancy); <strong>COEIN = non-structural</strong> (C-coagulopathy, O-ovulatory dysfunction, E-endometrial, I-iatrogenic, N-not classified).</li>
+<li><strong>HMB</strong> = lượng kinh nhiều; <strong>IMB</strong> = chảy máu giữa chu kỳ; <strong>DUB</strong> là thuật ngữ cũ, không nên dùng.</li>
+<li><strong>PMB bất kỳ</strong> đều phải đánh giá loại trừ ung thư nội mạc — <strong>ET >4 mm trên TVUS cần sinh thiết</strong> (ACOG CO #734).</li>
+<li><strong>Acute AUB:</strong> Ổn định huyết động đầu tiên → <strong>CEE IV hoặc COC liều cao + TXA</strong>; phẫu thuật nếu thất bại (ACOG PB #557).</li>
+<li><strong>First-line HMB/AUB:</strong> <strong>LNG-IUS</strong> hiệu quả nhất (giảm ~93% PBAC sau 6 tháng), tiếp theo là COC, TXA, NSAID.</li>
+<li><strong>Vị thành niên HMB nặng:</strong> Tầm soát <strong>vWD</strong> và các rối loạn đông máu.</li>
+<li><strong>≥45 tuổi hoặc yếu tố nguy cơ ung thư</strong> cần <strong>sinh thiết nội mạc trước</strong> khi điều trị hormone dài hạn.</li>
+<li><strong>SIS và hysteroscopy</strong> là công cụ tốt để đánh giá polyp và u xơ dưới niêm; TVUS alone nhạy cảm thấp cho polyp (Se ~51%).</li>
+<li><strong>Bổ sung sắt</strong> là một phần không thể thiếu trong quản lý AUB/HMB — đừng chỉ tập trung cầm máu mà quên tái tạo máu.</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">15. TÀI LIỆU THAM KHẢO</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Guideline Tier 0:</h3>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Munro MG et al. (2016)</strong> "Practical aspects of the two FIGO systems for management of abnormal uterine bleeding in the reproductive years." <em>Best Pract Res Clin Obstet Gynaecol.</em> PMID: <strong>27836285</strong>. [FETCHED] [GUIDELINE VERIFIED] — FIGO System 1 (nomenclature) và System 2 (PALM-COEIN).</li>
+<li><strong>Madhra M et al. (2014)</strong> "Abnormal uterine bleeding: advantages of formal classification to patients, clinicians and researchers." <em>Acta Obstet Gynecol Scand.</em> PMID: <strong>24702613</strong>. [FETCHED] [DIRECTION ONLY] — Giải thích lợi ích của PALM-COEIN so với thuật ngữ cũ.</li>
+<li><strong>ACOG Practice Bulletin No. 557 (2013)</strong> "Management of acute abnormal uterine bleeding in nonpregnant reproductive-aged women." <em>Obstet Gynecol.</em> PMID: <strong>23635706</strong>. [FETCHED] [GUIDELINE VERIFIED] — Protocol cấp cứu acute AUB: estrogen IV/COC liều cao + TXA, phẫu thuật khi thất bại.</li>
+<li><strong>ACOG Committee Opinion No. 734 (2018)</strong> "The Role of Transvaginal Ultrasonography in Evaluating the Endometrium of Women With Postmenopausal Bleeding." <em>Obstet Gynecol.</em> PMID: <strong>29683909</strong>. [FETCHED] [GUIDELINE VERIFIED] — ET ≤4 mm có NPV >99% cho ung thư nội mạc; ET >4 mm cần sinh thiết.</li></ol>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">NICE Guideline (không có PMID riêng):</h3>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>NICE NG88 (2018)</strong> "Heavy menstrual bleeding: assessment and management." [GUIDELINE VERIFIED] — LNG-IUS là first-line; nếu từ chối → COC/TXA/NSAID.</li></ol>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Chẩn đoán & phân loại:</h3>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Kitahara Y et al. (2024)</strong> "Diagnosis of abnormal uterine bleeding based on the FIGO classification: A systematic review and expert opinions." <em>J Obstet Gynaecol Res.</em> PMID: <strong>39234899</strong>. [FETCHED] [DIRECTION ONLY] — 9 khuyến cáo/statement + flowchart chẩn đoán.</li>
+<li><strong>Viganò S et al. (2024)</strong> "Abnormal Uterine Bleeding: A Pictorial Review on Differential Diagnosis and Not-So-Common Cases of Interventional Radiology Management." <em>Diagnostics (Basel).</em> PMID: <strong>38667444</strong>. [FETCHED] [DIRECTION ONLY] — Review hình ảnh và PALM-COEIN.</li>
+<li><strong>Maheux-Lacroix S et al. (2016)</strong> "Imaging for Polyps and Leiomyomas in Women With Abnormal Uterine Bleeding: A Systematic Review." <em>Obstet Gynecol.</em> PMID: <strong>27824761</strong>. [FULL VERIFIED] — SIS Se 92%, Sp 89% vs TVUS Se 64%, Sp 90% cho polyp/u xơ dưới niêm.</li></ol>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Điều trị:</h3>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Vani Lanka V et al. (2026)</strong> "Effectiveness of Medical Management in Heavy Menstrual Bleeding: A Prospective Cohort Study." <em>Cureus.</em> PMID: <strong>41664752</strong>. [FULL VERIFIED] — 240 phụ nữ HMB; LNG-IUS giảm PBAC 93% sau 6 tháng, DMPA 78%, TXA giảm mạnh, tất cả nhóm cải thiện Hb.</li>
+<li><strong>Diaz I et al. (2025)</strong> "Medical treatment of fibroids: FIGO best practice guidance." <em>Int J Gynaecol Obstet.</em> PMID: <strong>40927887</strong>. [FETCHED] [DIRECTION ONLY] — FIGO khuyến cáo GnRH antagonist; COC/progestin/LNG-IUS/TXA giảm HMB do u xơ.</li>
+<li><strong>Masood R et al. (2025)</strong> "How should abnormal uterine bleeding be managed in people with bleeding disorders: a systematic review of the literature and thematic synthesis." <em>Res Pract Thromb Haemost.</em> PMID: <strong>41050634</strong>. [FETCHED] [DIRECTION ONLY] — LNG-IUS first-line cho AUB do rối loạn đông máu; phối hợp TXA/DDAVP.</li>
+<li><strong>Jiang X et al. (2026)</strong> "Low-dose mifepristone for the management of refractory heavy menstrual bleeding in women with bleeding disorders: a retrospective study." <em>BMC Womens Health.</em> PMID: <strong>41832474</strong>. [FULL VERIFIED] — 63 bệnh nhân, PBAC giảm từ 385 xuống 0 sau 1 tháng, Hb tăng từ 51 lên 84 g/L, amenorrhea 92.1% sau 1 tháng.</li></ol>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Adolescent & Acute:</h3>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Brookhart CD, Naroji S (2025)</strong> "Abnormal Uterine Bleeding, Polycystic Ovary Syndrome, and Heavy Menstrual Bleeding in Adolescents." <em>Pediatr Ann.</em> PMID: <strong>40924008</strong>. [FETCHED] [DIRECTION ONLY] — AUB ở vị thành niên, HPO immaturity, coagulopathy, PCOS.</li>
+<li><strong>Ichim M et al. (2026)</strong> "Management of obstetric and gynecologic hemorrhage: a narrative review of current guidelines and evidence." <em>J Med Life.</em> PMID: <strong>42112220</strong>. [FETCHED] [DIRECTION ONLY] — Acute AUB dựa trên antifibrinolytic và hormonal therapy.</li></ol>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">So sánh guideline:</h3>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Tsakiridis I et al. (2022)</strong> "Investigation and management of abnormal uterine bleeding in reproductive-aged women: a descriptive review of national and international recommendations." <em>Eur J Contracept Reprod Health Care.</em> PMID: <strong>36053280</strong>. [FETCHED] [DIRECTION ONLY] — So sánh ACOG, NICE, RANZCOG, SOGC, FIGO.</li></ol>
+<hr class="my-6 border-stone-300">
+<p class="text-stone-700 mb-3"><strong>— Hết bài học ngày 2026-06-29 —</strong></p>
+<p class="text-stone-700 mb-3"><strong>Bác sĩ:</strong> Ngọc 🍅 🐈‍⬛ | <strong>AI assistant:</strong> MiniMax Mavis</p>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bác sĩ: Ngọc 🍅 🐈‍⬛ | AI: MiniMax Mavis | </p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+</script>
+</body>
+</html>

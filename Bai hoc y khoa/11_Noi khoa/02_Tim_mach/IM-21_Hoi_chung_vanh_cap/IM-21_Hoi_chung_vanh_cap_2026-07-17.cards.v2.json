@@ -1,0 +1,596 @@
+[
+  {
+    "type": "basic",
+    "front": "<b>ACS là gì? Giải thích bằng phép so sánh.</b>",
+    "back": "ACS = <b>Hội chứng vành cấp</b>. ĐMV như ống nước nuôi tim. Mảng xơ vữa như cặn vôi bám → nứt/vỡ → cục máu đông bịt ống → cơ tim chết.<br><br>2 thể: <b>STEMI</b> (tắc HOÀN TOÀN → PCI cấp cứu) và <b>NSTE-ACS</b> (tắc không hoàn toàn → phân tầng nguy cơ).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>2 động mạch vành chính và vùng nuôi?</b>",
+    "back": "<b>ĐMV TRÁI (LM):</b><br>• <b>LAD</b> (liên thất trước): thành trước, vách liên thất, mỏm — 'đường cao tốc' quan trọng nhất<br>• <b>LCx</b> (mũ): thành bên, có thể nuôi thành sau<br><br><b>ĐMV PHẢI (RCA):</b> thất phải, thành dưới, nút xoang (60%), nút AV (80%)",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Bảng: Tắc ĐMV nào → ECG thay đổi ở đâu?</b>",
+    "back": "<table><tr><th>ĐMV</th><th>Vùng</th><th>ECG</th></tr><tr><td>LAD</td><td>Trước vách/rộng</td><td>V1-V4 (V1-V6)</td></tr><tr><td>LCx</td><td>Bên</td><td>I, aVL, V5-V6</td></tr><tr><td>RCA</td><td>Dưới</td><td>II, III, aVF</td></tr><tr><td>RCA/LCx</td><td>Sau thực</td><td>ST ↓ V1-V3 + R cao</td></tr></table><br>Mẹo: 'Trước vách LAD, bên cao LCx, dưới là RCA, sau thực dễ quên.'",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>5 type MI theo Universal Definition 2018?</b>",
+    "back": "<b>Type 1:</b> Nứt/vỡ mảng xơ vữa → huyết khối → <b>ACS điển hình, PCI!</b><br><b>Type 2:</b> Mất cân bằng cung-cầu oxy (thiếu máu, sốc, sepsis...) → <b>điều trị NGUYÊN NHÂN GỐC, KHÔNG PCI!</b><br><b>Type 3:</b> Đột tử trước khi đo troponin<br><b>Type 4a:</b> Liên quan PCI<br><b>Type 5:</b> Liên quan CABG<br><br><i>PMID 30153967</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Phân biệt STEMI, NSTEMI, UA?</b>",
+    "back": "<table><tr><th></th><th>STEMI</th><th>NSTEMI</th><th>UA</th></tr><tr><td>ECG</td><td>ST ↑</td><td>ST ↓/T âm/bình thường</td><td>ST ↓/T âm/bình thường</td></tr><tr><td>Troponin</td><td>↑ (muộn)</td><td><b>↑</b></td><td><b>Bình thường</b></td></tr><tr><td>Tắc</td><td>HOÀN TOÀN</td><td>Không hoàn toàn</td><td>Hẹp + nứt nhỏ</td></tr><tr><td>Xử trí</td><td>PCI < 90ph HOẶC fibrin.</td><td>PCI 2-72h tùy GRACE</td><td>Nội khoa ± PCI</td></tr></table>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "⚠️ Học viên hay nhầm: 'Troponin tăng = type 1 MI = phải chụp MV'. Đúng hay sai?",
+    "back": "<b>SAI!</b> Type 2 MI (do thiếu máu, nhiễm trùng, suy tim...) chiếm 30-50% ca troponin tăng. <b>Không PCI type 2!</b> Luôn hỏi: 'Troponin tăng do mảng xơ vữa vỡ (type 1) hay mismatch cung-cầu (type 2)?'",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "⚠️ Học viên hay nhầm: 'STEMI luôn có ST chênh lên rõ, ECG bình thường = không phải ACS'.",
+    "back": "<b>SAI!</b> 4 tình huống ECG 'bình thường' vẫn là ACS:<br>1. STEMI rất sớm (< 30 phút)<br>2. NMCT SAU THỰC (ST ↓ V1-V3, cần V7-V9)<br>3. NSTEMI (20-30% ECG bình thường)<br>4. LBBB mới + triệu chứng = STEMI equivalent<br><br><b>→ ECG nối tiếp mỗi 15-30 phút!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>'Time is Muscle' — chuỗi thiếu máu cơ tim theo thời gian?</b>",
+    "back": "0 giây: tắc ĐMV → vài giây: RL chức năng tâm trương → 5-10 phút: <b>ST ↑ (CỬA SỔ VÀNG!)</b> → 20-40 phút: hoại tử bắt đầu từ nội tâm mạc → 3-6h: hoại tử xuyên thành → > 6-12h: PCI ít lợi ích.<br><br><b>Mỗi 30 phút chậm = ↑ ~7.5% tử vong 1 năm.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Case: BN trước LVEF 30% → sau 6 tháng GDMT lên 45%. Phân loại? Ngừng thuốc?</b>",
+    "back": "<b>HFimpEF.</b> <b style='color:red'>KHÔNG ngừng GDMT!</b> EF cải thiện nhờ thuốc — ngừng → EF tụt lại.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Xơ vữa ĐM hình thành thế nào? (20 năm âm thầm)</b>",
+    "back": "1. <b>Tổn thương nội mạc</b> (THA, thuốc lá, ĐTĐ, LDL cao) → lớp 'áo trong' trầy xước<br>2. <b>LDL chui vào</b> thành mạch → oxy hóa → oxLDL<br>3. <b>Đại thực bào đến 'dọn rác'</b> → ăn oxLDL → tế bào bọt (foam cells) → chết tại chỗ<br>4. <b>Vệt mỡ → mảng xơ vữa:</b> tế bào cơ trơn bao bọc, canxi lắng đọng<br>5. <b>TCFA:</b> lõi mỡ LỚN + vỏ xơ MỎNG (< 65µm) = 'quả trứng vỏ mỏng' — dễ vỡ nhất!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Khoảnh khắc mảng xơ vữa vỡ — 60 giây định mệnh?</b>",
+    "back": "<b>0-5s:</b> Vỏ xơ NỨT → lõi mỡ (tissue factor) tiếp xúc máu<br><b>5-15s:</b> Hoạt hóa tiểu cầu: bám dính → hoạt hóa → kết tập (thromboxane A2, ADP)<br><b>15-30s:</b> Huyết khối TRẮNG (tiểu cầu)<br><b>30-60s:</b> Thrombin → fibrin → lưới bẫy hồng cầu → huyết khối ĐỎ<br><br><b>Tại sao aspirin quan trọng?</b> Ức chế COX-1 → chặn thromboxane A2 → chặn kết tập tiểu cầu ở bước ĐẦU TIÊN.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tại sao aspirin là thuốc ĐẦU TIÊN trong ACS?</b>",
+    "back": "Aspirin ức chế <b>VĨNH VIỄN COX-1</b> trong tiểu cầu → ngăn thromboxane A2 → chặn kết tập tiểu cầu ở bước đầu tiên.<br><br>1 viên 300mg NHAI → tác dụng sau <b>15 phút</b> — nhanh hơn bất kỳ thuốc nào khác.<br><br><b>ISIS-2 (1988):</b> Aspirin đơn độc ↓ 23% tử vong 5 tuần. Cứu 25 mạng/1,000 BN.<br><br><i>PMID 2899772</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tại sao hoại tử cơ tim đi từ TRONG ra NGOÀI?</b>",
+    "back": "Lớp <b>dưới nội tâm mạc (subendocardium)</b> nhận máu CUỐI CÙNG trong chuỗi tưới máu xuyên thành. Trong tâm thu, áp lực buồng thất (120 mmHg) ép vào lớp này → máu khó vào.<br><br>→ Khi ĐMV tắc, subendocardium thiếu oxy NẶNG NHẤT → chết đầu tiên. Hoại tử lan dần ra thượng tâm mạc như 'làn sóng thần'.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tại sao PCI sau 12h ít có lợi ích?</b>",
+    "back": "Sau 6-12h, phần lớn cơ tim bị tắc đã <b>hoại tử không hồi phục</b>.<br>• PCI < 3h: cứu được > 80% cơ tim<br>• PCI 3-6h: cứu được ~50%<br>• PCI > 12h: cứu được < 10%<br><br>Ngoại lệ: nếu BN còn đau ngực hoặc sốc tim → PCI vẫn có lợi dù > 12h (cơ tim còn sống).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tại sao chẹn beta bảo vệ tim trong thiếu máu cục bộ?</b>",
+    "back": "Tim nhận máu trong thời kỳ <b>TÂM TRƯƠNG</b> (khi tim giãn). Tâm thu: mạch vành bị ép xẹp.<br><br><b>Nhịp tim nhanh = thời gian tâm trương NGẮN = ↓ tưới máu vành.</b><br><br>Chẹn beta ↓ nhịp tim → kéo dài tâm trương → ↑ tưới máu vành + ↓ nhu cầu oxy. Đây là cơ chế bảo vệ kép.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Huyết khối TRẮNG vs ĐỎ — khác nhau và ý nghĩa điều trị?</b>",
+    "back": "<b>Huyết khối TRẮNG:</b> chủ yếu TIỂU CẦU, hình thành sớm, mềm, không bền<br>→ Điều trị: <b>kháng kết tập tiểu cầu</b> (aspirin + P2Y12i)<br><br><b>Huyết khối ĐỎ:</b> giàu FIBRIN + HỒNG CẦU, hình thành muộn hơn, chắc hơn<br>→ Điều trị: <b>fibrinolysis</b> (streptokinase, alteplase) + kháng đông (UFH)<br><br><b>Tại sao fibrinolysis KHÔNG dùng trong NSTE-ACS?</b> Vì huyết khối NSTE-ACS chủ yếu là TRẮNG (tiểu cầu) — fibrinolysis không hiệu quả + gây chảy máu!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>NO (nitric oxide) từ nội mạc khỏe mạnh — vai trò?</b>",
+    "back": "NO = 'chất bôi trơn' tự nhiên của mạch máu:<br>• Giãn mạch<br>• Ngăn tiểu cầu và bạch cầu bám vào thành mạch<br>• Ức chế tăng sinh tế bào cơ trơn<br><br>Khi nội mạc tổn thương (THA, thuốc lá, ĐTĐ, LDL) → ↓ NO → mất hàng rào bảo vệ → LDL dễ xâm nhập → xơ vữa.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Troponin — từ lúc tế bào chết đến lúc XN dương tính mất bao lâu?</b>",
+    "back": "Troponin bắt đầu tăng sau <b>2-4 giờ</b> từ khi tắc ĐMV, đạt đỉnh 12-24h, về bình thường sau 7-14 ngày.<br><br><b>hs-cTn (high-sensitivity):</b> phát hiện sớm hơn — có thể dương sau 1-2h.<br><br><b style='color:red'>Đừng chờ troponin để xử trí STEMI!</b> STEMI = ECG → tái tưới máu NGAY. Troponin để xác nhận, không để quyết định.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tại sao ĐTĐ làm 'im lặng' cơn đau NMCT?</b>",
+    "back": "ĐTĐ gây <b>tổn thương thần kinh tự chủ</b> (autonomic neuropathy) → mất cảm giác đau từ tim.<br><br>→ BN ĐTĐ thường <b>không đau ngực điển hình</b>, chỉ thấy mệt, buồn nôn, khó thở → DỄ BỎ SÓT!<br><br><b>Nguyên tắc:</b> BN ĐTĐ + buồn nôn/mệt/khó thở = ACS cho đến khi chứng minh ngược lại.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "⚠️ Học viên hay nhầm: 'BN hết đau ngực = ổn rồi, không cần PCI nữa'.",
+    "back": "<b>SAI!</b> Hết đau ngực có thể là dấu hiệu <b>hoại tử HOÀN TOÀN</b> — tế bào đã chết hết, không còn cảm giác đau. Hoặc tuần hoàn bàng hệ tạm thời mở — nhưng nguy cơ tái tắc rất cao.<br><br><b>KHÔNG dựa vào triệu chứng đau để quyết định tái tưới máu. Dựa vào ECG và thời gian!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Case: BN thiếu máu nặng (Hb 6), troponin tăng nhẹ, ECG bình thường. Type MI? Xử trí?</b>",
+    "back": "<b>Type 2 MI</b> — do thiếu máu gây mất cân bằng cung-cầu oxy.<br><br><b>Xử trí: TRUYỀN MÁU</b> — điều trị nguyên nhân gốc. <b>KHÔNG PCI, KHÔNG DAPT!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>STEMI trên ECG: tiêu chuẩn chẩn đoán?</b>",
+    "back": "<b>ST ↑ tại điểm J, mới xuất hiện, ≥ 2 CHUYỂN ĐẠO LIÊN TIẾP:</b><br>• ≥ <b>1 mm</b> ở tất cả chuyển đạo TRỪ V2-V3<br>• V2-V3: ≥ <b>2 mm</b> (nam ≥ 40t), ≥ <b>2.5 mm</b> (nam < 40t), ≥ <b>1.5 mm</b> (nữ)<br><br><b>HOẶC LBBB MỚI + triệu chứng = STEMI EQUIVALENT.</b><br><br><i>Fourth Universal Definition of MI 2018 (PMID 30153967)</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tại sao V2-V3 cần ngưỡng ST ↑ cao hơn?</b>",
+    "back": "V2-V3 nằm ngay trên vách liên thất, gần tim nhất → bình thường ST đã hơi cao (early repolarization — lành tính).<br><br>Nếu dùng ngưỡng 1 mm như các chuyển đạo khác → chẩn đoán nhầm STEMI ở người khỏe mạnh, đặc biệt nam trẻ.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Định khu vùng NMCT theo ECG?</b>",
+    "back": "<table><tr><th>ST ↑ ở</th><th>Vùng</th><th>ĐMV</th></tr><tr><td>V1-V4</td><td>Trước vách</td><td>LAD</td></tr><tr><td>V1-V6, I, aVL</td><td>Trước rộng</td><td>LAD đoạn gần</td></tr><tr><td>I, aVL, V5-V6</td><td>Bên cao</td><td>LCx hoặc nhánh chéo</td></tr><tr><td>II, III, aVF</td><td>Dưới</td><td>RCA (80%) hoặc LCx</td></tr><tr><td>V4R ST ↑</td><td>Thất phải</td><td>RCA đoạn gần</td></tr><tr><td>ST ↓ V1-V3 + R cao</td><td>Sau thực</td><td>RCA hoặc LCx</td></tr></table>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>NMCT dưới (ST ↑ II, III, aVF) → phải làm gì NGAY?</b>",
+    "back": "<b style='color:red'>LUÔN ghi V4R!</b><br><br>V4R ST ↑ ≥ 1 mm = <b>NMCT THẤT PHẢI</b>.<br><br>Nếu NMCT thất phải:<br>• <b>CCĐ nitroglycerin và morphine!</b><br>• <b>BÙ DỊCH</b> (NaCl 0.9% bolus 250-500 mL)<br>• Nếu vẫn tụt HA → dobutamine<br><br>Mẹo: 'NMCT dưới + JVP nổi + phổi TRONG + tụt HA = NMCT thất phải.'",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>NMCT sau thực (True Posterior MI) — dấu hiệu ECG?</b>",
+    "back": "<b>Rất dễ bỏ sót!</b><br><br>ECG 12 chuyển đạo thông thường:<br>• <b>ST ↓ V1-V3</b> (không phải ST ↑!)<br>• <b>Sóng R cao bất thường ở V1-V2</b> (R/S > 1)<br><br>→ Cần ghi thêm <b>V7-V8-V9</b>: ST ↑ ≥ 1 mm = xác nhận NMCT sau thực.<br><br>Mẹo: 'ST ↓ V1-V3 + R cao = lật ECG ra sau lưng (V7-V9).'",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>'Hình ảnh gương' (reciprocal changes) là gì?</b>",
+    "back": "ST <b>CHÊNH XUỐNG</b> ở các chuyển đạo ĐỐI DIỆN với vùng ST chênh lên. Là dấu hiệu GIÁN TIẾP nhưng rất giá trị.<br><br>• NMCT dưới (ST ↑ II, III, aVF) → ST ↓ I, aVL<br>• NMCT bên cao (ST ↑ I, aVL) → ST ↓ II, III, aVF<br>• NMCT trước (ST ↑ V1-V4) → ST ↓ III, aVF",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>LBBB mới + đau ngực = STEMI equivalent. Tại sao?</b>",
+    "back": "LBBB làm <b>đảo ngược hoàn toàn trục khử cực</b> → không thể đọc ST chênh lên chính xác được nữa.<br><br>→ Nếu BN có triệu chứng ACS + LBBB MỚI (hoặc không rõ cũ/mới) → <b>xử trí NHƯ STEMI.</b><br><br><b>Sgarbossa criteria</b> giúp phát hiện STEMI trên nền LBBB CŨ: ≥ 3 điểm → STEMI rất có khả năng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>ECG nối tiếp — tại sao và khi nào?</b>",
+    "back": "<b>20-30% BN ACS có ECG đầu tiên BÌNH THƯỜNG!</b><br><br>→ Làm lại ECG mỗi <b>15-30 phút</b> nếu:<br>• Đau ngực tái phát<br>• Nghi ngờ cao dù ECG bình thường<br><br>'ECG động học' = ST thay đổi theo thời gian → ACS đang TIẾN TRIỂN.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>4 bẫy ECG thường gặp — đừng chẩn đoán nhầm STEMI!</b>",
+    "back": "1. <b>Tái cực sớm (Early Repolarization):</b> ST ↑ lõm lên, ST/T ratio < 0.25 ở V6, không triệu chứng, ECG cũ cũng có<br>2. <b>Viêm màng ngoài tim:</b> ST ↑ LAN TỎA, PR ↓, đau thay đổi theo tư thế<br>3. <b>LVH:</b> ST ↑ V1-V3 + sóng S rất sâu — strain pattern mạn tính<br>4. <b>Tăng kali máu:</b> ST ↑ giả STEMI — luôn kiểm tra K⁺!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>hs-cTn — thuật toán rule-out 0h/1h?</b>",
+    "back": "Lấy máu <b>0h (nhập viện) và 1h sau:</b><br>• hs-cTn RẤT THẤP ở 0h VÀ delta NHỎ → <b>LOẠI TRỪ MI</b><br>• hs-cTn TĂNG RÕ hoặc delta LỚN → <b>XÁC NHẬN MI</b><br>• Ở giữa → vùng quan sát, cần thêm XN<br><br><b style='color:red'>Mỗi assay có cutoff RIÊNG — phải biết assay BV mình dùng!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Troponin tăng nhưng KHÔNG phải ACS — 8 nguyên nhân?</b>",
+    "back": "1. Suy tim cấp/mạn<br>2. Thuyên tắc phổi (PE)<br>3. Viêm cơ tim<br>4. Suy thận mạn (↓ thanh thải)<br>5. Sepsis/sốc nhiễm trùng<br>6. Takotsubo cardiomyopathy<br>7. Nhịp nhanh kéo dài (> 150 bpm vài giờ)<br>8. Đột quỵ (đặc biệt xuất huyết dưới nhện)<br><br><b>Nguyên tắc: Troponin tăng = tế bào CHẾT, nhưng không nói TẠI SAO.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Siêu âm tim trong ACS — 3 vai trò?</b>",
+    "back": "1. <b>RWMA (rối loạn vận động vùng):</b> xuất hiện RẤT SỚM (vài phút) — trước cả ST ↑ và troponin. Vùng thiếu máu không co bóp<br>2. <b>EF:</b> đánh giá chức năng thất trái → tiên lượng<br>3. <b>Biến chứng cơ học:</b> hở van 2 lá cấp (đứt cơ nhú), VSD, vỡ thành tự do, tràn dịch màng ngoài tim, huyết khối trong thất",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Khám thực thể ACS — thường BÌNH THƯỜNG. Phải tìm gì?</b>",
+    "back": "Khám thường <b>BÌNH THƯỜNG</b> trong giai đoạn sớm — đừng để bị đánh lừa!<br><br><b>TÌM:</b><br>• Suy tim cấp: T3, ran phổi, JVP nổi → Killip II-III<br>• Sốc tim: HATT < 90, chi lạnh → Killip IV<br>• Âm thổi MỚI: hở van 2 lá cấp, VSD<br>• Tiếng cọ màng ngoài tim → viêm màng ngoài tim",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Đau ngực KHÔNG điển hình — nhóm BN nào dễ bỏ sót nhất?</b>",
+    "back": "<b>Phụ nữ:</b> đau thượng vị, buồn nôn, mệt, khó thở<br><b>ĐTĐ:</b> ĐAU RẤT ÍT hoặc KHÔNG ĐAU (silent MI)<br><b>Người già > 75t:</b> khó thở, lú lẫn, mệt, té ngã<br><b>Suy thận mạn:</b> khó thở, tụt HA, phù phổi cấp không rõ NN<br><br><b>Nguyên tắc vàng:</b> 'Vã mồ hôi lạnh + đau ngực = ACS cho đến khi chứng minh ngược lại.'",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "⚠️ CẢNH BÁO ĐỎ: Chẩn đoán phân biệt QUAN TRỌNG NHẤT với ACS?",
+    "back": "<b>BÓC TÁCH ĐMC (Aortic Dissection)!</b><br><br>Nếu chẩn đoán nhầm là STEMI và cho kháng đông/tiêu sợi huyết → <b>BN CHẾT vì chảy máu không kiểm soát!</b><br><br><b>Phân biệt:</b> đau 'xé rách' lan ra sau lưng, HA 2 tay chênh > 20 mmHg, có YTNC (THA, Marfan).<br><br><b>Xử trí:</b> CT ĐMC có cản quang NGAY — trước khi dùng bất kỳ thuốc chống đông nào.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Bóc tách ĐMC lan vào ĐMV gây STEMI — làm sao nhận biết?</b>",
+    "back": "Bóc tách type A lan xuống ĐMV (thường RCA) → gây NMCT dưới THỨ PHÁT.<br><br><b>Dấu hiệu cảnh báo:</b><br>• Đau ngực + đau lưng dữ dội<br>• HA 2 tay chênh > 20 mmHg<br>• Hở van ĐMC mới (âm thổi tâm trương)<br>• Tràn dịch màng ngoài tim<br>• X-quang: trung thất rộng<br><br><b style='color:red'>Nếu nghi ngờ: CT ĐMC TRƯỚC, không PCI trước!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Case: BN 60t, đau ngực 2h, ECG: ST ↑ 3mm V1-V4, ST ↓ 2mm III, aVF. Chẩn đoán + ĐMV + xử trí?</b>",
+    "back": "<b>STEMI trước rộng, LAD đoạn gần.</b><br><br>ST ↓ III, aVF = reciprocal changes (hình ảnh gương) — dấu hiệu GIÁN TIẾP khẳng định STEMI trước rộng.<br><br><b>Xử trí:</b> Aspirin 300mg nhai + ticagrelor 180mg + kích hoạt PCI < 90 phút.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Case: BN 72t, ĐTĐ, đau ngực 6h, ECG: ST ↓ 2mm V4-V6, hs-cTnI 1200. Chẩn đoán?</b>",
+    "back": "<b>NSTEMI nguy cơ CAO</b> (tuổi > 65, ĐTĐ, troponin ↑).<br><br>GRACE score ~132 → <b>PCI < 24 GIỜ.</b><br><br>KHÔNG phải STEMI (ST chênh XUỐNG, không chênh lên) → KHÔNG cần PCI cấp cứu < 90 phút, nhưng vẫn cần PCI SỚM.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Case: BN NMCT dưới, HA 85/60, JVP nổi, phổi TRONG. Bạn định cho nitroglycerin. Đúng không?</b>",
+    "back": "<b style='color:red'>KHÔNG! NMCT THẤT PHẢI!</b><br><br>Dấu hiệu: NMCT dưới + JVP nổi + phổi TRONG + tụt HA.<br><br><b>Nitroglycerin và morphine bị CHỐNG CHỈ ĐỊNH!</b> (giãn TM → ↓ tiền tải → sốc nặng hơn).<br><br><b>Xử trí:</b> bù dịch NaCl 0.9% bolus + PCI cấp cứu.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>PLATO (2009): Ticagrelor vs Clopidogrel?</b>",
+    "back": "18,624 BN ACS. CV death + MI + stroke: <b>HR 0.84 (95% CI 0.77-0.92)</b> — ↓ 16%.<br>Tử vong toàn bộ: <b>HR 0.78 (0.69-0.89)</b> — P2Y12i DUY NHẤT ↓ tử vong toàn bộ.<br>Tăng nhẹ chảy máu lớn không CABG (4.5% vs 3.8%).<br><br><b>→ Ticagrelor = P2Y12i ƯU TIÊN trong ACS.</b><br><br><i>Wallentin L, NEJM 2009 — PMID 19717846</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>TRITON-TIMI 38 (2007): Prasugrel vs Clopidogrel?</b>",
+    "back": "13,608 BN ACS có PCI. CV death + MI + stroke: <b>HR 0.81 (0.73-0.90)</b> — ↓ 19%.<br>Nhưng ↑ chảy máu lớn (HR 1.32), đặc biệt ở BN > 75t, < 60kg, hoặc tiền sử TIA/đột quỵ.<br><br><b>→ Prasugrel hiệu quả hơn nhưng có net clinical benefit kém ở 3 nhóm trên.</b><br><br><i>Wiviott SD, NEJM 2007 — PMID 17982182</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>CURE (2001): Clopidogrel + Aspirin vs Aspirin đơn độc?</b>",
+    "back": "12,562 BN NSTE-ACS. CV death + MI + stroke: <b>RR 0.80 (0.72-0.90)</b> — ↓ 20%.<br>Tăng chảy máu lớn: 3.7% vs 2.7%.<br><br><b>→ Nền móng cho kỷ nguyên DAPT: aspirin + P2Y12i > aspirin đơn độc.</b><br><br><i>Yusuf S, NEJM 2001 — PMID 11519503</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>COMPLETE (2019): Complete vs Culprit-Only Revascularization?</b>",
+    "back": "4,041 BN STEMI + bệnh nhiều nhánh. CV death + MI: <b>HR 0.74 (0.60-0.91)</b> — ↓ 26%.<br><br><b>→ PCI TẤT CẢ tổn thương ≥ 70% (complete), không chỉ nhánh thủ phạm.</b><br><br><i>Mehta SR, NEJM 2019 — PMID 31475795</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>DANAMI-2 (2003): Chuyển PCI vs Fibrinolysis tại chỗ?</b>",
+    "back": "1,572 BN STEMI. Death + reinfarction + stroke 30 ngày: <b>8.0% (PCI) vs 13.7% (fibrinolysis); p < 0.001.</b><br><br><b>→ Chuyển BN đến nơi có PCI TỐT HƠN tiêu sợi huyết tại chỗ, ngay cả khi vận chuyển mất 120 phút.</b><br><br><i>Andersen HR, NEJM 2003 — PMID 12517460</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>ISIS-2 (1988): Aspirin + Streptokinase?</b>",
+    "back": "17,187 BN nghi MI cấp. Thiết kế giai thừa 2×2.<br>Aspirin: ↓ 23% tử vong 5 tuần. Streptokinase: ↓ 25%. Cả hai: <b>↓ 42%!</b><br><br><b>→ Nền móng cho aspirin + fibrinolysis trong MI cấp. Cứu 25 mạng/1,000 BN.</b><br><br><i>Lancet 1988 — PMID 2899772</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>ESC 2023 ACS Guideline — khuyến cáo Class I chính?</b>",
+    "back": "• ECG ≤ 10 phút từ FMC<br>• hs-cTn 0h/1h algorithm<br>• STEMI: Primary PCI < 90 phút (door-to-balloon)<br>• NSTE-ACS: GRACE score + PCI < 24h cho nguy cơ cao<br>• DAPT 12 tháng, P2Y12i mạnh ưu tiên<br>• Statin cường độ cao càng sớm càng tốt<br><br><i>Byrne RA, Eur Heart J 2023 — PMID 37622654</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>ACC/AHA 2025 ACS Guideline — điểm mới vs ESC 2023?</b>",
+    "back": "• <b>P2Y12i mạnh ưu tiên TUYỆT ĐỐI</b> hơn clopidogrel (Class I)<br>• <b>Rút ngắn DAPT 3-6 tháng</b> nếu PRECISE-DAPT ≥ 25 → aspirin đơn trị<br>• <b>Complete revascularization</b> ở STEMI bệnh nhiều nhánh<br>• <b>Tránh morphine thường quy</b> (↓ hấp thu P2Y12i)<br><br><i>Rao SV, Circulation 2025 — PMID 40014670</i>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>So sánh 3 P2Y12i: Ticagrelor vs Prasugrel vs Clopidogrel?</b>",
+    "back": "<table><tr><th></th><th>Ticagrelor</th><th>Prasugrel</th><th>Clopidogrel</th></tr><tr><td>Hiệu quả</td><td>Cao nhất (↓ tử vong)</td><td>Cao</td><td>Thấp nhất</td></tr><tr><td>Khởi phát</td><td>30 phút</td><td>30 phút</td><td>2-6 giờ</td></tr><tr><td>Chảy máu</td><td>Tăng nhẹ</td><td>Tăng (đặc biệt >75t,<60kg)</td><td>Thấp nhất</td></tr><tr><td>CCĐ</td><td>XH nội sọ, suy gan nặng</td><td>TIA/đột quỵ, >75t+<60kg</td><td>Dị ứng</td></tr><tr><td>Giá VN</td><td>1.8-2.4 triệu/tháng</td><td>Hầu như không có</td><td>90-150K/tháng</td></tr></table>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tại sao fibrinolysis KHÔNG dùng trong NSTE-ACS?</b>",
+    "back": "NSTE-ACS: huyết khối chủ yếu là <b>TRẮNG (tiểu cầu)</b> — ít fibrin. Fibrinolysis làm tan fibrin → không hiệu quả với huyết khối trắng.<br><br><b>Thử nghiệm TIMI IIIB:</b> fibrinolysis trong NSTE-ACS → <b>KHÔNG giảm tử vong/MI, TĂNG chảy máu, TĂNG tử vong!</b><br><br>→ NSTE-ACS = DAPT + kháng đông ± PCI. TUYỆT ĐỐI KHÔNG fibrinolysis!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Case: Vì sao PLATO là thử nghiệm P2Y12i DUY NHẤT giảm tử vong toàn bộ?</b>",
+    "back": "Ticagrelor có cơ chế <b>đa hiệu (pleiotropic)</b> ngoài ức chế P2Y12: ức chế ENT-1 → ↑ adenosine nội sinh → giãn mạch, bảo vệ tim, ức chế viêm.<br><br>Prasugrel và clopidogrel CHỈ ức chế P2Y12 — không có tác dụng adenosine.<br><br>→ Lợi ích sống còn của ticagrelor có thể đến từ cả ức chế tiểu cầu VÀ adenosine.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tại VN, P2Y12i nào là nền tảng thực tế nhất? Tại sao?</b>",
+    "back": "<b>CLOPIDOGREL</b> — vì:<br>• RẺ (90-150K/tháng), BHYT chi trả<br>• SẴN CÓ ở mọi tuyến<br>• Dữ liệu an toàn lâu dài<br><br>Ticagrelor hiệu quả hơn nhưng đắt (1.8-2.4 triệu/tháng), ít được BHYT chi trả đầy đủ. Prasugrel hầu như không có.<br><br><b>Thực tế VN: clopidogrel + aspirin là xương sống DAPT.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>STEMI: Mục tiêu thời gian tái tưới máu?</b>",
+    "back": "<table><tr><th>Mốc</th><th>Mục tiêu</th></tr><tr><td>FMC → ECG</td><td><b>≤ 10 phút</b></td></tr><tr><td>Door-to-balloon (BV CÓ PCI)</td><td><b>≤ 90 phút</b></td></tr><tr><td>FMC-to-balloon (BV KHÔNG PCI)</td><td><b>≤ 120 phút</b></td></tr><tr><td>Door-to-needle (fibrinolysis)</td><td><b>≤ 30 phút</b></td></tr></table><br><b>Nếu FMC-to-balloon > 120 phút → CHỌN FIBRINOLYSIS!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Primary PCI — quy trình từng bước?</b>",
+    "back": "1. FMC → ECG ≤ 10 phút → chẩn đoán STEMI<br>2. <b>Aspirin 300mg NHAI</b> + P2Y12i loading<br>3. Kích hoạt đội PCI<br>4. UFH 70-100 IU/kg IV bolus<br>5. Chụp MV → xác định ĐMV thủ phạm<br>6. Nong bóng ± stent DES<br>7. Mục tiêu: <b>TIMI 3 flow</b><br>8. Sau PCI: DAPT + statin + chẹn beta + ACEi",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Fibrinolysis — khi nào chọn thay vì PCI?</b>",
+    "back": "• STEMI chẩn đoán xác định<br>• Đau < 12h (lý tưởng < 3h)<br>• <b>FMC-to-balloon > 120 phút</b> (không kịp PCI)<br>• <b>KHÔNG có CCĐ</b> tiêu sợi huyết<br><br><b>3 thuốc chính:</b><br>• <b>Streptokinase:</b> 1.5 triệu IU TM/30-60ph — RẺ, SẴN CÓ (~500K)<br>• <b>Alteplase (tPA):</b> truyền 90ph — hiệu quả hơn, đắt hơn<br>• <b>Tenecteplase:</b> 1 mũi bolus IV — tiện nhất, đắt nhất",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>CCĐ tiêu sợi huyết — tuyệt đối và tương đối?</b>",
+    "back": "<b>TUYỆT ĐỐI:</b><br>• Xuất huyết nội sọ trước đây<br>• Đột quỵ < 3 tháng<br>• Nghi bóc tách ĐMC<br>• Chảy máu đang hoạt động<br>• U não, dị dạng mạch não<br><br><b>TƯƠNG ĐỐI:</b><br>• THA nặng không KS (> 180/110)<br>• Phẫu thuật lớn < 3 tuần<br>• CPR kéo dài > 10 phút<br>• Thai kỳ<br>• Loét DD đang chảy máu",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Pharmacoinvasive strategy là gì?</b>",
+    "back": "Sau fibrinolysis <b>THÀNH CÔNG</b> (đau ↓ + ST ↓ > 50%):<br>→ <b>VẪN chuyển PCI trong 3-24 GIỜ.</b><br><br>Lý do: fibrinolysis làm tan cục máu đông nhưng KHÔNG giải quyết mảng xơ vữa → nguy cơ tái tắc 20-30% → cần stent 'gia cố'.<br><br>Nếu fibrinolysis <b>THẤT BẠI</b> (ST không ↓ > 50% + vẫn đau sau 60-90ph):<br>→ <b style='color:red'>RESCUE PCI — chuyển cấp cứu NGAY!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Oxygen trong STEMI — cho hay không?</b>",
+    "back": "<b style='color:red'>CHỈ khi SpO₂ < 90%!</b> (mt 90-94%)<br><br>Bằng chứng AVOID và DETO2X-AMI: oxygen TỰ DO (cho mọi BN) → <b>co mạch vành, ↑ stress oxy hóa, TĂNG kích thước ổ nhồi máu!</b><br><br><b>O₂ là THUỐC, không vô hại. KHÔNG cho thường quy!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Nitroglycerin trong STEMI — chỉ định và CCĐ quan trọng?</b>",
+    "back": "<b>Chỉ định:</b> đau ngực + HATT > 110 mmHg. 0.4mg ngậm dưới lưỡi × 3.<br><br><b style='color:red'>CCĐ:</b><br>• <b>HATT < 90</b> hoặc tụt > 30 mmHg<br>• <b>NMCT THẤT PHẢI</b> (V4R ST ↑)<br>• <b>Dùng PDE5i</b> (sildenafil 24h, tadalafil 48h) → tụt HA chết người!<br>• Hẹp van ĐMC nặng, HCM tắc nghẽn",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Morphine trong STEMI — lợi ích và nguy cơ?</b>",
+    "back": "<b>Lợi ích:</b> giảm đau + giãn mạch + an thần.<br><br><b>Nguy cơ (ACC/AHA 2025 hạ khuyến cáo!):</b><br>• <b>Chậm hấp thu P2Y12i đường uống</b> (↓ nhu động DD) → ↓ hiệu quả kháng TC<br>• Nôn (nguy cơ hít sặc)<br>• Ức chế hô hấp<br><br>→ Chỉ dùng khi đau dữ dội không đỡ nitroglycerin. <b>KHÔNG dùng thường quy!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Aspirin trong ACS — liều và cách dùng?</b>",
+    "back": "<b>Loading:</b> 150-300mg <b>NHAI</b> (không nuốt nguyên viên!) — hấp thu qua niêm mạc miệng, tác dụng sau 15 phút.<br><br><b>Maintenance:</b> 75-100mg/ngày uống SAU ĂN.<br><br><b>Cơ chế:</b> Ức chế VĨNH VIỄN COX-1 → ngăn thromboxane A2 → chặn hoạt hóa tiểu cầu.<br><br><b>Không bao giờ được quên aspirin trong ACS!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>DAPT duration — 12 tháng hay cá thể hóa?</b>",
+    "back": "<b>12 tháng là TIÊU CHUẨN.</b><br><br><b>Rút ngắn 3-6 tháng</b> nếu nguy cơ chảy máu CAO:<br>• PRECISE-DAPT ≥ 25<br>• > 75t, suy thận, suy gan, TS chảy máu, thiếu máu mạn<br><br><b>Kéo dài > 12 tháng</b> nếu nguy cơ thiếu máu CAO + chảy máu THẤP:<br>• Tái MI, ĐTĐ, suy thận, bệnh nhiều nhánh, PCI phức tạp<br>• DAPT score ≥ 2",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>UFH trong PCI — liều và lưu ý?</b>",
+    "back": "<b>UFH (heparin không phân đoạn):</b><br>• 70-100 IU/kg IV bolus (nếu dùng kèm GP IIb/IIIa)<br>• 50-70 IU/kg (nếu không) — theo dõi ACT mt 250-300s<br><br><b>Ưu điểm:</b> rẻ, có antidote (protamine)<br><b>Nguy cơ:</b> HIT (giảm TC do heparin) — hiếm (1-3%)<br><br><b style='color:red'>Fondaparinux KHÔNG dùng đơn độc trong PCI!</b> → catheter thrombosis!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Statin trong ACS — tại sao là thuốc CẤP CỨU?</b>",
+    "back": "<b>Atorvastatin 80mg/ngày</b> cho TẤT CẢ BN ACS, càng sớm càng tốt.<br><br><b>2 cơ chế:</b><br>1. ↓ LDL cholesterol (dài hạn)<br>2. <b>Tác dụng đa hiệu (pleiotropic) — QUAN TRỌNG HƠN trong giai đoạn cấp:</b> ổn định mảng xơ vữa, chống viêm, cải thiện chức năng nội mạc. Xuất hiện trong VÀI GIỜ!<br><br>→ Statin không phải 'hạ mỡ máu từ từ' — trong ACS, nó là thuốc CẤP CỨU.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Chẹn beta trong STEMI — uống hay IV? Khi nào CCĐ?</b>",
+    "back": "<b>UỐNG trong 24h đầu</b> — KHÔNG cần IV thường quy (COMMIT trial: chẹn beta IV sớm không ↓ tử vong, ↑ sốc tim).<br><br><b>CCĐ:</b><br>• Suy tim cấp (Killip II-III)<br>• Sốc tim (Killip IV)<br>• Block AV 2-3<br>• Nhịp chậm < 60<br>• HATT < 100<br>• COPD nặng đợt cấp",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>ACEi/ARB trong STEMI — chỉ định và CCĐ?</b>",
+    "back": "<b>UỐNG trong 24-48h đầu.</b> Đặc biệt ở BN có:<br>• EF ≤ 40%<br>• Suy tim<br>• THA<br>• ĐTĐ<br>• NMCT trước rộng<br><br><b>CCĐ:</b> HATT < 90, hẹp ĐM thận 2 bên, K⁺ > 5.5, phù mạch tiền sử.<br><br>Ví dụ: ramipril 2.5mg × 2 → chuẩn độ 5mg × 2.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Case: BN STEMI, HA 80/50, JVP nổi, phổi TRONG. Bạn định cho nitroglycerin. Đúng không?</b>",
+    "back": "<b style='color:red'>KHÔNG! NMCT THẤT PHẢI!</b><br><br>NMCT dưới + JVP nổi + phổi trong + tụt HA = NMCT thất phải.<br><br>Nitroglycerin và morphine bị CCĐ tuyệt đối.<br><br><b>Xử trí:</b> bù dịch NaCl 0.9% 250-500mL bolus → nếu không đáp ứng → dobutamine → PCI cấp cứu.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Case: BN STEMI đến BV không PCI, cách 90 phút đến BV có PCI. FMC-to-balloon dự kiến 150 phút. Chọn gì?</b>",
+    "back": "<b>FIBRINOLYSIS (streptokinase) NGAY</b> — vì FMC-to-balloon > 120 phút.<br><br>Door-to-needle ≤ 30 phút. Sau fibrinolysis thành công → chuyển PCI 3-24h (pharmacoinvasive).<br><br>Nếu fibrinolysis thất bại (ST không ↓ > 50% sau 60-90ph) → rescue PCI cấp cứu.<br><br>Đây là chiến lược PHỔ BIẾN NHẤT tại VN hiện nay.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Case: BN STEMI đến muộn 14h, không đau ngực. Chiến lược?</b>",
+    "back": "<b>KHÔNG PCI cấp cứu, KHÔNG fibrinolysis.</b> (ngoài cửa sổ 12h, không còn cơ tim để cứu).<br><br><b>Điều trị nội khoa:</b> DAPT + statin + chẹn beta + ACEi. Chụp MV chương trình sau 2-7 ngày nếu có chỉ định.<br><br>Ngoại lệ: nếu còn đau ngực hoặc sốc tim → PCI vẫn có lợi dù > 12h.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>NSTE-ACS khác STEMI thế nào về cách tiếp cận?</b>",
+    "back": "<b>STEMI:</b> PCI CẤP CỨU cho TẤT CẢ BN (trừ quá muộn).<br><b>NSTE-ACS:</b> <b>PHÂN TẦNG NGUY CƠ</b> → chỉ BN nguy cơ cao PCI sớm. BN thấp → nội khoa + non-invasive test.<br><br><b style='color:red'>KHÔNG fibrinolysis trong NSTE-ACS!</b> (huyết khối trắng — không đáp ứng, tăng chảy máu).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>GRACE score — 8 biến số?</b>",
+    "back": "1. Tuổi<br>2. Nhịp tim<br>3. HATT<br>4. Creatinine<br>5. Killip class (I-IV)<br>6. Ngừng tim lúc nhập viện<br>7. ST chênh trên ECG<br>8. Men tim (troponin) tăng<br><br>Tính bằng app GRACE hoặc online calculator.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>GRACE score → chiến lược PCI?</b>",
+    "back": "<table><tr><th>GRACE</th><th>Nguy cơ</th><th>PCI</th></tr><tr><td><b>> 140</b></td><td>RẤT CAO</td><td><b>< 2 GIỜ</b></td></tr><tr><td>109-140</td><td>CAO</td><td><b>< 24 GIỜ</b></td></tr><tr><td>< 109</td><td>THẤP-TB</td><td>Trì hoãn hoặc non-invasive test</td></tr></table><br>Nguy cơ RẤT CAO còn bao gồm: sốc tim, đau tái phát dù điều trị nội, loạn nhịp thất, biến chứng cơ học, ST động học.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>TIMI risk score NSTEMI/UA — 7 biến?</b>",
+    "back": "Mỗi biến 1 điểm:<br>1. Tuổi ≥ 65<br>2. ≥ 3 YTNC CAD<br>3. CAD đã biết (hẹp ≥ 50%)<br>4. Aspirin 7 ngày qua<br>5. ≥ 2 cơn đau 24h qua<br>6. ST chênh ≥ 0.5mm<br>7. Men tim ↑<br><br><b>Score 0-1:</b> 4.7% nguy cơ 14 ngày<br><b>Score 5-7:</b> 26-41% — CAO!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>GRACE vs TIMI — dùng cái nào?</b>",
+    "back": "<b>GRACE:</b> chính xác hơn (dựa trên 100,000+ BN toàn cầu), được ESC khuyến cáo CHÍNH THỨC. Cần máy tính/app.<br><br><b>TIMI:</b> đơn giản hơn, tính được tại giường không cần máy tính. Hữu ích khi cần ước lượng nhanh.<br><br><b>Nên biết cả hai. Dùng GRACE khi có thời gian, TIMI khi cần nhanh.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>NSTE-ACS: điều trị nội khoa ban đầu?</b>",
+    "back": "1. <b>Aspirin 300mg nhai</b><br>2. <b>P2Y12i:</b> ticagrelor 180mg HOẶC clopidogrel 600mg<br>3. <b>Kháng đông:</b> enoxaparin 1mg/kg SC mỗi 12h HOẶC UFH IV<br>4. <b>Statin cường độ cao</b><br>5. Chẹn beta uống nếu không CCĐ<br>6. Nitroglycerin nếu đau<br>7. <b style='color:red'>KHÔNG fibrinolysis!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>NSTE-ACS nguy cơ RẤT CAO (PCI < 2h) — tiêu chuẩn?</b>",
+    "back": "• Sốc tim / suy tim cấp (Killip III-IV)<br>• Đau ngực tái phát dù điều trị nội tối đa<br>• Loạn nhịp thất đe dọa tính mạng (VT/VF)<br>• Biến chứng cơ học (hở van 2 lá cấp, VSD)<br>• ST thay đổi ĐỘNG HỌC<br>• <b>GRACE score > 140</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>NSTE-ACS: khi nào PCI < 24h vs < 72h vs không xâm lấn?</b>",
+    "back": "<b>PCI < 24h (early):</b> GRACE > 109, troponin ↑, ST động<br><b>PCI < 72h (delayed):</b> ĐTĐ, suy thận, EF < 40%, PCI/CABG cũ<br><b>Không xâm lấn thường quy:</b> GRACE < 109, không triệu chứng → stress test hoặc CT MV trước",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Case: BN NSTE-ACS, GRACE 155, đau ngực tái phát dù đã dùng aspirin + clopidogrel + enoxaparin. Làm gì?</b>",
+    "back": "<b>PCI < 2 GIỜ — NSTE-ACS nguy cơ RẤT CAO!</b><br><br>GRACE > 140 + đau ngực tái phát dù điều trị nội tối đa = chỉ định PCI cấp cứu.<br><br>Xử trí như STEMI về mức độ khẩn — nhưng KHÔNG dùng fibrinolysis!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Flowchart: Tiếp cận đau ngực cấp 10 phút đầu?</b>",
+    "back": "<b>1. ABCDE + sinh hiệu</b><br><b>2. ECG 12 chuyển đạo ≤ 10 phút:</b><br>• ST ↑ hoặc LBBB mới → <b>STEMI pathway</b> (PCI < 90ph hoặc fibrin.)<br>• ST ↓/T âm/bt → <b>hs-cTn</b><br><b>3. hs-cTn:</b><br>• ↑ → NSTEMI pathway (GRACE → PCI)<br>• Bình thường → UA hoặc non-ACS",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Flowchart: STEMI pathway — PCI hay Fibrinolysis?</b>",
+    "back": "<b>FMC-to-balloon ≤ 120 phút?</b><br>• <b>CÓ</b> → Primary PCI (door-to-balloon ≤ 90ph)<br>• <b>KHÔNG</b> → Có CCĐ fibrinolysis?<br>  - Không CCĐ → <b>FIBRINOLYSIS</b> (door-to-needle ≤ 30ph)<br>  - Có CCĐ → chuyển PCI<br><br><b>Sau fibrin.:</b> ST ↓ > 50%?<br>• CÓ → pharmacoinvasive (PCI 3-24h)<br>• KHÔNG → RESCUE PCI cấp cứu",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Flowchart: NSTE-ACS — GRACE → PCI khi nào?</b>",
+    "back": "<b>GRACE score + yếu tố lâm sàng:</b><br>• Nguy cơ RẤT CAO (GRACE > 140, sốc, đau tái phát) → <b>PCI < 2h</b><br>• Nguy cơ CAO (GRACE 109-140, troponin ↑) → <b>PCI < 24h</b><br>• Nguy cơ TRUNG BÌNH (ĐTĐ, suy thận, EF < 40%) → <b>PCI < 72h</b><br>• Nguy cơ THẤP → non-invasive test trước",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 1: Không ECG trong 10 phút đầu — 'chờ troponin'. Hậu quả?",
+    "back": "Chậm STEMI → mỗi 30 phút ↑ 7.5% tử vong 1 năm. <b>ECG là XN ĐẦU TIÊN — làm SONG SONG với hỏi bệnh.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 2: Gọi STEMI khi ST ↑ do LBBB CŨ hoặc LVH. Hậu quả?",
+    "back": "BN vào cath lab không cần thiết. <b>Luôn so sánh ECG cũ. Dùng Sgarbossa criteria cho LBBB.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 3: KHÔNG ghi V4R khi NMCT dưới. Hậu quả?",
+    "back": "Bỏ sót NMCT thất phải → cho nitroglycerin → <b>TỤT HA NẶNG, SỐC!</b> Luôn ghi V4R khi ST ↑ II, III, aVF.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 4: Dùng fondaparinux ĐƠN ĐỘC trong PCI.",
+    "back": "<b>CATHETER THROMBOSIS!</b> Fondaparinux + PCI = PHẢI thêm UFH 70-85 IU/kg.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 5: Cho O₂ tự do mọi BN ACS.",
+    "back": "Co mạch vành, ↑ stress oxy hóa, <b>TĂNG kích thước ổ NMCT</b> (AVOID, DETO2X-AMI). Chỉ O₂ khi SpO₂ < 90%!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 6: Ngừng DAPT sớm < 12 tháng ở BN stent DES.",
+    "back": "<b>STENT THROMBOSIS CẤP → tử vong 50-70%!</b> DAPT tối thiểu 12 tháng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 7: Dùng NSAIDs ở BN ACS.",
+    "back": "↑ tái MI, suy tim, vỡ thành tim. <b>NSAIDs CCĐ trong ACS.</b> Giảm đau = morphine hoặc acetaminophen.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 8: Quên hỏi PDE5i trước nitroglycerin.",
+    "back": "<b>TỤT HA CHẾT NGƯỜI!</b> Luôn hỏi: 'Bác có dùng thuốc cường dương 24h qua không?'",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "❌ Sai lầm 9: Không phân biệt Type 1 vs Type 2 MI.",
+    "back": "Type 2: điều trị NGUYÊN NHÂN GỐC, không PCI. Luôn hỏi: 'Troponin tăng do mảng vỡ hay mismatch?'",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>DAPT tại VN — thực tế sử dụng?</b>",
+    "back": "<b>Nền tảng:</b> aspirin + <b>clopidogrel</b> (rẻ, BHYT, sẵn có).<br><b>Ticagrelor:</b> hiệu quả hơn nhưng đắt (1.8-2.4 triệu/tháng).<br><b>Prasugrel:</b> hầu như không có.<br><br>→ Clopidogrel là xương sống DAPT tại VN.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Chiến lược STEMI cho BV KHÔNG PCI tại VN?</b>",
+    "back": "<b>FIBRINOLYSIS (streptokinase) NGAY</b> — door-to-needle ≤ 30ph.<br>Aspirin + clopidogrel. Chuyển BV PCI 3-24h sau (pharmacoinvasive).<br><br>Đây là chiến lược PHỔ BIẾN NHẤT tại VN.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Chi phí ACS tại VN (tham khảo)?</b>",
+    "back": "<b>Streptokinase + chuyển PCI:</b> ~35-65 triệu (thuốc 2-3M + stent 30-60M)<br><b>Primary PCI:</b> ~35-65 triệu<br>BHYT chi trả 80%. BN đồng chi trả 20%.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip: Công cụ theo dõi đơn giản nhất sau PCI?",
+    "back": "<b>Hẹn tái khám ≤ 7 ngày</b> sau xuất viện. Kiểm tra: triệu chứng, HA, HR, tuân thủ thuốc, tác dụng phụ. Đây là 'gói chuẩn' giảm tái nhập viện.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "💡 Tip: 'Quy tắc 3 trong 1' ở BN ACS chưa kiểm soát tốt?",
+    "back": "1. <b>Thiếu sắt</b> (ferritin + TSAT)<br>2. <b>Rung nhĩ chưa phát hiện</b> (ECG, Holter)<br>3. <b>Bệnh nhiều nhánh chưa tái thông</b> (complete revascularization)",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tổng kết: 3 quyết định quan trọng nhất khi tiếp nhận BN đau ngực?</b>",
+    "back": "1. <b>STEMI hay không?</b> → ECG ≤ 10 phút<br>2. <b>Nếu không STEMI, nguy cơ cao hay thấp?</b> → troponin + GRACE<br>3. <b>Nguyên nhân?</b> → type 1 (PCI) hay type 2 (điều trị gốc)?",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tổng kết: 'Tứ trụ' điều trị ACS = ?</b>",
+    "back": "1️⃣ <b>DAPT</b> (aspirin + P2Y12i) — nền tảng chống huyết khối<br>2️⃣ <b>Kháng đông</b> (UFH/enoxaparin) — trong PCI hoặc NSTE-ACS<br>3️⃣ <b>Statin cường độ cao</b> — ổn định mảng xơ vữa<br>4️⃣ <b>Tái tưới máu</b> (PCI hoặc fibrinolysis) — cứu cơ tim<br><br>+ Chẹn beta + ACEi nếu không CCĐ.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Tổng kết: 12 điểm cần nhớ về ACS?</b>",
+    "back": "1. ACS = STEMI + NSTEMI + UA — cùng phổ bệnh<br>2. ECG ≤ 10 phút — bước QUAN TRỌNG NHẤT<br>3. STEMI: ST ↑ ≥ 1mm, ≥ 2 CĐLT (V2-V3 ≥ 2mm)<br>4. ECG bt không loại trừ ACS → ECG nối tiếp<br>5. Troponin ↑ = tế bào chết, không nói tại sao<br>6. STEMI: PCI < 90ph hoặc fibrin. < 30ph<br>7. DAPT 12 tháng, cá thể hóa<br>8. NMCT dưới → LUÔN ghi V4R<br>9. NSTE-ACS: GRACE → PCI 2-72h<br>10. O₂ CHỈ khi SpO₂ < 90%<br>11. Statin + BB + ACEi cho mọi BN<br>12. VN: streptokinase + clopidogrel + aspirin cứu mạng",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "<b>Case cuối: BN nam 55t, đau ngực 1h, ECG ST ↑ 5mm V1-V5, HA 100/60, HR 110, ran ẩm 2 đáy. Chẩn đoán + Killip + xử trí?</b>",
+    "back": "<b>STEMI trước rộng, Killip II</b> (suy tim nhẹ — ran ẩm).<br><br><b>Xử trí:</b> PCI < 90ph + aspirin + ticagrelor. Cân nhắc chẹn beta sau ổn định huyết động. <b>KHÔNG morphine nếu không thực sự cần.</b>",
+    "extra": ""
+  }
+]

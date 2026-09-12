@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PPTX Skill Settings</title>
+  <style>
+    :root { --bg:#f7f7fb; --card:#fff; --text:#1f2937; --muted:#6b7280; --line:#e5e7eb; --accent:#2563eb; }
+    body { margin:0; font-family: Arial, sans-serif; background:var(--bg); color:var(--text); }
+    main { max-width: 920px; margin: 32px auto; padding: 0 18px 48px; }
+    h1 { margin: 0 0 6px; font-size: 30px; }
+    .sub { color:var(--muted); margin-bottom: 22px; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:16px; }
+    section { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px; box-shadow:0 1px 4px rgba(0,0,0,.04); }
+    h2 { margin:0 0 12px; font-size:18px; }
+    label { display:flex; gap:10px; align-items:center; margin:10px 0; line-height:1.35; }
+    input[type="text"] { width:100%; box-sizing:border-box; border:1px solid var(--line); border-radius:10px; padding:10px; }
+    .row { display:flex; gap:10px; flex-wrap:wrap; margin-top:20px; }
+    button { border:0; border-radius:10px; padding:11px 16px; cursor:pointer; font-weight:700; }
+    .primary { background:var(--accent); color:white; }
+    .secondary { background:#e5e7eb; color:#111827; }
+    textarea { width:100%; min-height:260px; box-sizing:border-box; border:1px solid var(--line); border-radius:12px; padding:12px; font-family:Consolas, monospace; font-size:13px; }
+    .hint { color:var(--muted); font-size:13px; margin-top:8px; }
+    .status { margin-top:12px; font-weight:700; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>PPTX Skill Settings</h1>
+  <div class="sub">UI tĩnh: chỉnh setting rồi tải file <code>settings.json</code> để ghi đè vào thư mục skill.</div>
+
+  <div class="grid">
+    <section>
+      <h2>Engine & canvas</h2>
+      <label><input type="radio" name="engine" value="pptxgenjs"> PptxGenJS canonical</label>
+      <label><input type="radio" name="engine" value="slider3636"> slider3636 legacy</label>
+      <label><input type="radio" name="canvas" value="canonical"> 10 × 5.625 canonical</label>
+      <label><input type="radio" name="canvas" value="legacy"> 13.33 × 7.5 legacy</label>
+    </section>
+
+    <section>
+      <h2>QA gates</h2>
+      <label><input type="checkbox" id="checkCanvas"> Check canvas</label>
+      <label><input type="checkbox" id="checkOverflow"> Check overflow</label>
+      <label><input type="checkbox" id="checkPageBadge"> Check page badge</label>
+      <label><input type="checkbox" id="checkPlaceholder"> Check placeholder</label>
+      <label><input type="checkbox" id="checkThinSlides"> Check thin slides</label>
+      <label><input type="checkbox" id="requireSpeakerNotes"> Require speaker notes</label>
+      <label><input type="checkbox" id="warnRepeatedCitations"> Warn repeated PMID footer</label>
+      <label><input type="checkbox" id="requireImageSources"> Require image sources</label>
+    </section>
+
+    <section>
+      <h2>Medical teaching mode</h2>
+      <label><input type="checkbox" id="medicalEnabled"> Enable medical mode</label>
+      <label><input type="checkbox" id="requireWhat"> Làm gì?</label>
+      <label><input type="checkbox" id="requireWhy"> Tại sao làm vậy?</label>
+      <label><input type="checkbox" id="requireRiskIfWrong"> Nếu sai/bỏ qua thì nguy cơ gì?</label>
+    </section>
+
+    <section>
+      <h2>Render</h2>
+      <label><input type="checkbox" id="renderEnabled"> Run render QA</label>
+      <label><input type="checkbox" id="tryPowerPoint"> Try PowerPoint COM</label>
+      <label><input type="checkbox" id="tryLibreOffice"> Try LibreOffice fallback</label>
+      <label><input type="checkbox" id="requireRenderPass"> Require render pass</label>
+    </section>
+
+    <section>
+      <h2>Citation</h2>
+      <label><input type="checkbox" id="preferClaimSpecificNotes"> Prefer claim-specific notes</label>
+      <label><input type="checkbox" id="allowRepeatedPmidFooter"> Allow repeated PMID footer</label>
+    </section>
+
+    <section>
+      <h2>Output</h2>
+      <label><input type="checkbox" id="saveNextToSource"> Save next to source lesson</label>
+      <label>Output folder</label>
+      <input type="text" id="outputFolder" placeholder="optional" />
+    </section>
+  </div>
+
+  <div class="row">
+    <button class="primary" onclick="downloadSettings()">Download settings.json</button>
+    <button class="secondary" onclick="copyJson()">Copy JSON</button>
+    <button class="secondary" onclick="resetDefaults()">Reset defaults</button>
+  </div>
+  <div class="hint">Sau khi download, thay file: <code>C:\Users\THANHANH\.claude\skills\pptx\settings.json</code></div>
+  <div id="status" class="status"></div>
+
+  <h2 style="margin-top:28px">Preview JSON</h2>
+  <textarea id="jsonPreview" spellcheck="false"></textarea>
+</main>
+
+<script>
+const defaults = {
+  engine: "pptxgenjs",
+  canvas: "canonical",
+  qa: {
+    checkCanvas: true,
+    checkOverflow: true,
+    checkPageBadge: true,
+    checkPlaceholder: true,
+    checkThinSlides: true,
+    requireSpeakerNotes: false,
+    warnRepeatedCitations: true,
+    requireImageSources: false
+  },
+  medicalTeaching: {
+    enabled: true,
+    requireWhat: true,
+    requireWhy: true,
+    requireRiskIfWrong: true
+  },
+  render: {
+    enabled: false,
+    tryPowerPoint: true,
+    tryLibreOffice: true,
+    requireRenderPass: false
+  },
+  citation: {
+    preferClaimSpecificNotes: true,
+    allowRepeatedPmidFooter: false
+  },
+  output: {
+    saveNextToSource: true,
+    outputFolder: ""
+  }
+};
+
+function setChecked(id, value) { document.getElementById(id).checked = !!value; }
+function getChecked(id) { return document.getElementById(id).checked; }
+function setRadio(name, value) { document.querySelector(`input[name="${name}"][value="${value}"]`).checked = true; }
+function getRadio(name) { return document.querySelector(`input[name="${name}"]:checked`).value; }
+
+function applySettings(s) {
+  setRadio('engine', s.engine);
+  setRadio('canvas', s.canvas);
+  setChecked('checkCanvas', s.qa.checkCanvas);
+  setChecked('checkOverflow', s.qa.checkOverflow);
+  setChecked('checkPageBadge', s.qa.checkPageBadge);
+  setChecked('checkPlaceholder', s.qa.checkPlaceholder);
+  setChecked('checkThinSlides', s.qa.checkThinSlides);
+  setChecked('requireSpeakerNotes', s.qa.requireSpeakerNotes);
+  setChecked('warnRepeatedCitations', s.qa.warnRepeatedCitations);
+  setChecked('requireImageSources', s.qa.requireImageSources);
+  setChecked('medicalEnabled', s.medicalTeaching.enabled);
+  setChecked('requireWhat', s.medicalTeaching.requireWhat);
+  setChecked('requireWhy', s.medicalTeaching.requireWhy);
+  setChecked('requireRiskIfWrong', s.medicalTeaching.requireRiskIfWrong);
+  setChecked('renderEnabled', s.render.enabled);
+  setChecked('tryPowerPoint', s.render.tryPowerPoint);
+  setChecked('tryLibreOffice', s.render.tryLibreOffice);
+  setChecked('requireRenderPass', s.render.requireRenderPass);
+  setChecked('preferClaimSpecificNotes', s.citation.preferClaimSpecificNotes);
+  setChecked('allowRepeatedPmidFooter', s.citation.allowRepeatedPmidFooter);
+  setChecked('saveNextToSource', s.output.saveNextToSource);
+  document.getElementById('outputFolder').value = s.output.outputFolder || '';
+  updatePreview();
+}
+
+function readSettings() {
+  return {
+    engine: getRadio('engine'),
+    canvas: getRadio('canvas'),
+    qa: {
+      checkCanvas: getChecked('checkCanvas'),
+      checkOverflow: getChecked('checkOverflow'),
+      checkPageBadge: getChecked('checkPageBadge'),
+      checkPlaceholder: getChecked('checkPlaceholder'),
+      checkThinSlides: getChecked('checkThinSlides'),
+      requireSpeakerNotes: getChecked('requireSpeakerNotes'),
+      warnRepeatedCitations: getChecked('warnRepeatedCitations'),
+      requireImageSources: getChecked('requireImageSources')
+    },
+    medicalTeaching: {
+      enabled: getChecked('medicalEnabled'),
+      requireWhat: getChecked('requireWhat'),
+      requireWhy: getChecked('requireWhy'),
+      requireRiskIfWrong: getChecked('requireRiskIfWrong')
+    },
+    render: {
+      enabled: getChecked('renderEnabled'),
+      tryPowerPoint: getChecked('tryPowerPoint'),
+      tryLibreOffice: getChecked('tryLibreOffice'),
+      requireRenderPass: getChecked('requireRenderPass')
+    },
+    citation: {
+      preferClaimSpecificNotes: getChecked('preferClaimSpecificNotes'),
+      allowRepeatedPmidFooter: getChecked('allowRepeatedPmidFooter')
+    },
+    output: {
+      saveNextToSource: getChecked('saveNextToSource'),
+      outputFolder: document.getElementById('outputFolder').value.trim()
+    }
+  };
+}
+
+function updatePreview() {
+  document.getElementById('jsonPreview').value = JSON.stringify(readSettings(), null, 2);
+}
+
+function downloadSettings() {
+  const blob = new Blob([JSON.stringify(readSettings(), null, 2) + '\n'], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'settings.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+  document.getElementById('status').textContent = 'Downloaded settings.json';
+}
+
+async function copyJson() {
+  await navigator.clipboard.writeText(document.getElementById('jsonPreview').value);
+  document.getElementById('status').textContent = 'Copied JSON to clipboard';
+}
+
+function resetDefaults() { applySettings(structuredClone(defaults)); }
+
+document.querySelectorAll('input').forEach(el => el.addEventListener('input', updatePreview));
+resetDefaults();
+</script>
+</body>
+</html>

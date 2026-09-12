@@ -1,0 +1,72 @@
+[
+  {
+    "type": "basic",
+    "front": "Khảo sát bụng thai quý 2 phải trả lời 5 câu hỏi nào?",
+    "back": "Situs có đúng không? Dạ dày có thấy và đúng bên không? Gan/túi mật/dịch/vôi hóa có bất thường không? Ruột có tăng âm hoặc giãn không? Thành bụng và chân rốn có kín không?"
+  },
+  {
+    "type": "cloze",
+    "text": "AC chuẩn là điểm {{c1::bắt đầu}}, không phải điểm kết thúc của khảo sát bụng thai.",
+    "extra": "Cần quét bụng trên - giữa - dưới sau khi đo AC."
+  },
+  {
+    "type": "basic",
+    "front": "Situs bụng bình thường trên siêu âm quý 2 gồm gì?",
+    "back": "Tim trái, dạ dày trái, ĐMC bên trái cột sống, TMCD trước/phải ĐMC và gan chủ yếu bên phải."
+  },
+  {
+    "type": "basic",
+    "front": "Khi không thấy dạ dày thai trong scan hình thái, cần làm gì?",
+    "back": "Xác định lại mặt cắt và phải - trái, chờ và khảo sát lại cuối buổi, kiểm tra nước ối, tìm dạ dày trong lồng ngực và tìm dấu kèm như ruột giãn, bất thường mặt/cổ/tim/CNS."
+  },
+  {
+    "type": "cloze",
+    "text": "Không thấy dạ dày lặp lại kèm đa ối gợi ý {{c1::teo thực quản hoặc rối loạn nuốt}}.",
+    "extra": "Một lần không thấy dạ dày chưa đủ kết luận bất thường."
+  },
+  {
+    "type": "basic",
+    "front": "Double bubble trên siêu âm thai gợi ý gì?",
+    "back": "Hai túi dịch cạnh nhau ở bụng trên, thường là dạ dày và tá tràng giãn, gợi ý tắc/tịt tá tràng; cần tìm đa ối, marker lệch bội và bất thường tim."
+  },
+  {
+    "type": "basic",
+    "front": "Trước khi gọi ruột tăng âm cần kiểm tra gì?",
+    "back": "Giảm gain về mức chuẩn, so sánh ruột với xương chậu/cột sống, kiểm tra bóng cản, tìm FGR, dị tật, vôi hóa và bất thường nước ối."
+  },
+  {
+    "type": "cloze",
+    "text": "Báo cáo ruột tăng âm phải ghi rõ là {{c1::isolated}} hay có bất thường kèm.",
+    "extra": "Nếu kèm FGR/marker khác/vôi hóa/nước ối bất thường thì cần đánh giá sâu hơn."
+  },
+  {
+    "type": "basic",
+    "front": "Khi thấy ruột giãn thai, cần mô tả những gì?",
+    "back": "Vị trí, số lượng quai giãn, đường kính quai, thành ruột dày/mỏng, nhu động, đa ối, ascites, vôi hóa hoặc dấu meconium peritonitis."
+  },
+  {
+    "type": "basic",
+    "front": "Phân biệt omphalocele và gastroschisis trên siêu âm?",
+    "back": "Omphalocele: đường giữa tại chân rốn, có màng, dây rốn cắm vào khối, có thể chứa gan. Gastroschisis: thường cạnh phải rốn, không màng, ruột tự do trong ối, dây rốn cắm bình thường cạnh khối."
+  },
+  {
+    "type": "cloze",
+    "text": "Situs bất thường hoặc nghi heterotaxy luôn cần khảo sát {{c1::tim thai chuyên sâu}}.",
+    "extra": "Đọc situs bụng phải liên kết với tim, ĐMC/TMCD và dạ dày."
+  },
+  {
+    "type": "basic",
+    "front": "Bất thường bụng/thành bụng nào cần targeted scan hoặc chuyển tuyến?",
+    "back": "Không thấy dạ dày lặp lại, dạ dày trong ngực, double bubble, ruột giãn rõ, ruột tăng âm kèm marker/FGR/vôi hóa/nước ối bất thường, omphalocele, gastroschisis, ascites, vôi hóa nhiều, khối bụng, gan to hoặc situs bất thường."
+  },
+  {
+    "type": "basic",
+    "front": "Mẫu báo cáo bình thường phần bụng - ruột thai?",
+    "back": "Dạ dày thấy bên trái, chứa dịch. Gan hồi âm đồng nhất. Thành bụng trước liên tục, dây rốn cắm bình thường. Ruột không tăng âm rõ, không thấy quai ruột giãn. Bàng quang thấy, thành mỏng."
+  },
+  {
+    "type": "basic",
+    "front": "Sai lầm thường gặp nhất khi khảo sát bụng thai?",
+    "back": "Chỉ đo AC rồi bỏ qua khảo sát situs, dạ dày, ruột và thành bụng. Cần quét có hệ thống từ bụng trên đến bụng dưới và chân rốn."
+  }
+]

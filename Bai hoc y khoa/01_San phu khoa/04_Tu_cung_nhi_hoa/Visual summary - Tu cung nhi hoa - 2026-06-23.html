@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tu cung nhi hoa (Hypoplastic Uterus) - Visual Summary</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+
+<header class="max-w-6xl mx-auto mb-8 text-center">
+  <h1 class="text-4xl font-bold text-stone-700 mb-2">Tu cung nhi hoa (Hypoplastic Uterus)</h1>
+  <p class="text-stone-500 italic">Visual Summary - Bai hoc 23/06/2026</p>
+  <div class="mt-3 flex justify-center gap-2 flex-wrap">
+    <span class="tag pastel-pink px-3 py-1 rounded-full text-sm">OB-GYN</span>
+    <span class="tag pastel-blue px-3 py-1 rounded-full text-sm">Mullerian Anomaly</span>
+    <span class="tag pastel-mint px-3 py-1 rounded-full text-sm">ASRM Class I</span>
+    <span class="tag pastel-peach px-3 py-1 rounded-full text-sm">ESHRE-ESGE U1</span>
+    <span class="tag pastel-lavender px-3 py-1 rounded-full text-sm">Uterus Transplant</span>
+  </div>
+</header>
+<main class="max-w-6xl mx-auto space-y-8">
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">1. Dinh nghia va phan loai</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white rounded-xl p-4 border border-stone-200">
+        <h3 class="font-bold text-stone-800 mb-2">Tieu chan chan doan ASRM 2021</h3>
+        <p class="text-sm text-stone-700">- Buong tu cung &lt; 5-6 cm<br>- HOAC than tu cung &lt; 4 cm<br>- Ty le than/co &lt; 1:1 (binh thuong 2:1)<br>- The tich buong &lt; 2.5-3 mL</p>
+      </div>
+      <div class="bg-white rounded-xl p-4 border border-stone-200">
+        <h3 class="font-bold text-stone-800 mb-2">Phan loai 2 guideline</h3>
+        <p class="text-sm text-stone-700"><b>ASRM 2021:</b> Class Ia (Mullerian agenesis/hypoplasia segment)<br><b>ESHRE-ESGE 2013:</b> U1 (dysmorphic uterus)<br><br>2 he thong deu cong nhan la 1 thuc the rieng biet, khac voi septate (ASRM II/ESHRE U2) va bicornuate (ASRM III/ESHRE U3).</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">2. Phat trien ong Mullerian binh thuong vs bat thuong</h2>
+    <div class="mermaid">
+flowchart TD
+    A["Tuan 6-7: 2 ong Muller hinh thanh song song"] --> B["Tuan 8-12: HOP NHAT phan duoi"]
+    B --> C["Tuan 12-20: Wolffian thoai trien, Muller phat trien"]
+    C --> D["Tuan 20-40: Tu cung phat trien kich thuoc"]
+    D --> E["Day thi: ESTROGEN qua ERalpha thuc day tang truong"]
+    E --> F["Tu cung truong thanh binh thuong: than/co = 2:1, buong 7-8 cm"]
+
+    B -.Loi hop nhat.-> G["Bat thuong ong Muller (MRKH)"]
+    D -.Loi phat trien.-> H1["Tu cung nhi hoa"]
+    E -.Loi ERalpha/aromatase.-> H2["Tu cung nhi hoa do thieu estrogen"]
+    A -.Gene LHX1/HNF1B/TBX6.-> H1
+    D -.Phoi nhiem DES.-> H3["Tu cung hinh T (DES-related)"]
+
+    style F fill:#c5e0c9
+    style G fill:#f4c2c2
+    style H1 fill:#f7d1ba
+    style H2 fill:#d4c5e2
+    style H3 fill:#c5d5e0
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-2">3. So sanh 3 muc do tu cung nhi hoa</h2>
+    <p class="text-sm text-stone-600 italic mb-4">Phan loai theo kha nang dap ung dieu tri.</p>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-stone-200 text-stone-800">
+            <th class="px-3 py-2 text-left">Muc do</th>
+            <th class="px-3 py-2 text-left">Mang thai tu nhien</th>
+            <th class="px-3 py-2 text-left">Sau dieu tri</th>
+            <th class="px-3 py-2 text-left">Sau UTx</th>
+          </tr>
+        </thead>
+        <tbody class="text-stone-700">
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-bold">Nhe</td><td class="px-3 py-2">50-70%</td><td class="px-3 py-2">70-80% (theo doi chat)</td><td class="px-3 py-2">N/A</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-bold">Trung binh</td><td class="px-3 py-2">20-30%</td><td class="px-3 py-2">40-50% (HRT + metroplasty + ART)</td><td class="px-3 py-2">70% (neu UTx)</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-bold">Nang (gan MRKH)</td><td class="px-3 py-2">&lt; 5%</td><td class="px-3 py-2">&lt; 10% (thuong that bai)</td><td class="px-3 py-2">70% graft success -> 100% co con</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">4. Algorithm dieu tri theo muc do</h2>
+    <div class="mermaid">
+flowchart TD
+    A["Tu cung nhi hoa (ASRM Ia / ESHRE U1)"] --> B{"Muc do nao?"}
+    B -- "NHE<br/>(kinh deu, buong 5-6 cm)" --> C1["Theo doi tu nhien<br/>IUI/IVF khi can"]
+    B -- "TRUNG BINH<br/>(kinh it, buong 3-5 cm)" --> C2["Estrogen HRT 6-12 thang<br/>+ Hysteroscopic metroplasty<br/>+ IVF/ICSI"]
+    B -- "NANG<br/>(gan MRKH, buong < 3 cm)" --> C3{"Lua chon?"}
+    C3 -- "Co kha nang" --> D1["GHEP TU CUNG (UTx)<br/>70% graft success<br/>Testa 2024 JAMA"]
+    C3 -- "Khong/khong dat dk" --> D2["Mang thai ho<br/>(neu hop phap)"]
+    C2 --> E["Theo doi thai ky chat<br/>cerclage, aspirin, mo lay thai 37-38w"]
+    C1 --> E
+    D1 --> E
+
+    style C1 fill:#c5e0c9
+    style C2 fill:#f7d1ba
+    style C3 fill:#f4c2c2
+    style D1 fill:#d4c5e2
+    style D2 fill:#c5d5e0
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-2">5. Testa 2024 JAMA - UTx case series n=20</h2>
+    <p class="text-sm text-stone-600 italic mb-4">PMID 39145955 - Baylor 2016-2019. 18 living donor, 2 deceased.</p>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div>
+        <canvas id="chart1"></canvas>
+      </div>
+      <div class="bg-white rounded-xl p-4 border border-stone-200 flex flex-col justify-center">
+        <h3 class="font-bold text-stone-800 mb-2">Testa 2024 (PMID 39145955)</h3>
+        <ul class="text-sm text-stone-700 space-y-2">
+          <li>• <b>14/20 (70%)</b> graft thanh cong</li>
+          <li>• <b>14/14 (100%)</b> co it nhat 1 tre song</li>
+          <li>• <b>11/20 (55%)</b> co it nhat 1 bien chung</li>
+          <li>• 16 tre sinh ra: <b>KHONG</b> co di tat bam sinh</li>
+          <li>• Bien chung thai ky: tăng HA 14%, ho eo co 14%, doa sinh non 14%</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-2">6. Pereira 2025 Systematic Review - UTx outcomes</h2>
+    <p class="text-sm text-stone-600 italic mb-4">PMID 40422584 - 10 nghien cuu 2002-2024 (PROSPERO dang ky).</p>
+    <div>
+      <canvas id="chart2"></canvas>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">7. 5 nhom nguyen nhan gay tu cung nhi hoa</h2>
+    <div class="grid md:grid-cols-2 gap-3">
+      <div class="pastel-pink rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2 text-sm">1. Bam sinh - ong Muller</h3>
+        <p class="text-xs text-stone-700">Loi hop nhat/thoai trien mot phan ong Muller. Hoi chung MRKH, gene LHX1, HNF1B, TBX6.</p>
+      </div>
+      <div class="pastel-blue rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2 text-sm">2. Bam sinh - tin hieu estrogen</h3>
+        <p class="text-xs text-stone-700">Khiem khuyet ERalpha, aromatase deficiency. Estrogen khong the kich thich tang truong tu cung.</p>
+      </div>
+      <div class="pastel-mint rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2 text-sm">3. Mac phai - phoi nhiem DES</h3>
+        <p class="text-xs text-stone-700">DES trong tu cung (me dung DES) -> tu cung hinh T, nhi hoa, voi tu cung bat thuong.</p>
+      </div>
+      <div class="pastel-peach rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2 text-sm">4. Mac phai - thieu estrogen</h3>
+        <p class="text-xs text-stone-700">POI (suy buong trung som), chan an tam than, hoa tri/xa tri vung chau truoc day thi.</p>
+      </div>
+      <div class="pastel-lavender rounded-xl p-4 col-span-2">
+        <h3 class="font-bold text-stone-800 mb-2 text-sm">5. Di truyen - gene</h3>
+        <p class="text-xs text-stone-700">MRKH type II lien quan 17q12 (LHX1, HNF1B), 16p11.2 (TBX6), GREB1L, PAX8. Di truyen RAT KHONG DONG NHAT.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">8. EVIDENCE TABLE - 8 papers verified</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-stone-200 text-stone-800">
+            <th class="px-3 py-2 text-left">PMID</th>
+            <th class="px-3 py-2 text-left">Tac gia (Nam)</th>
+            <th class="px-3 py-2 text-left">Loai</th>
+            <th class="px-3 py-2 text-left">Ket qua chinh</th>
+          </tr>
+        </thead>
+        <tbody class="text-stone-700">
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">39145955</td><td class="px-3 py-2">Testa (2024)</td><td class="px-3 py-2">JAMA case series, n=20</td><td class="px-3 py-2">UTx 70% success, 100% co con</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">40422584</td><td class="px-3 py-2">Pereira (2025)</td><td class="px-3 py-2">Diseases systematic review</td><td class="px-3 py-2">UTx 74% success, LBR 22%/ET</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">38954427</td><td class="px-3 py-2">Brannstrom (2024)</td><td class="px-3 py-2">Physiology review</td><td class="px-3 py-2">UTx Moore + IDEAL framework</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">38699388</td><td class="px-3 py-2">Herlin (2024)</td><td class="px-3 py-2">Front Endocrinol review</td><td class="px-3 py-2">MRKH genetics: LHX1, HNF1B, TBX6, GREB1L, PAX8</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">32623449</td><td class="px-3 py-2">Hewitt (2020)</td><td class="px-3 py-2">Endocrinology animal model</td><td class="px-3 py-2">ERalpha + estrogen can thiet cho tu cung day thi</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">12504966</td><td class="px-3 py-2">Barranger (2002)</td><td class="px-3 py-2">BJOG, n=29</td><td class="px-3 py-2">Hysteroscopic metroplasty: 72.4% co thai, sinh song 3.8% -> 63.2%</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">39280286</td><td class="px-3 py-2">Mishra (2024)</td><td class="px-3 py-2">Narra J case report</td><td class="px-3 py-2">MRKH + multidisciplinary management</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">29210893</td><td class="px-3 py-2">Brannstrom (2018)</td><td class="px-3 py-2">Transplantation review</td><td class="px-3 py-2">AUFI 3-5% nu vo sinh, UTx expanding field</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">9. Quy trinh 8 buoc UTx (Uterus Transplantation)</h2>
+    <div class="mermaid">
+flowchart TD
+    A["1. Danh gia nguoi nhan<br/>(hormon, gene, tam ly, huyet hoc)"] --> B["2. Tim nguoi hien<br/>(living hoac deceased)"]
+    B --> C["3. Phau thuat ghep<br/>(noi mach voi dong/tinh mach chau ngoai)"]
+    C --> D["4. Uc che mien dich duy tri"]
+    D --> E["5. Chuyen phoi dong lanh<br/>(frozen-thawed ET, 6-12 thang sau ghep)"]
+    E --> F["6. Theo doi thai ky chat<br/>(co tu cung, huyet ap)"]
+    F --> G["7. Mo lay thai 37-38 tuan<br/>(KHONG cho sinh nga am dao)"]
+    G --> H["8. Cat bo tu cung ghep<br/>(sau 1-2 lan sinh hoac that bai)"]
+
+    style A fill:#f4c2c2
+    style B fill:#f7d1ba
+    style C fill:#d4c5e2
+    style D fill:#c5d5e0
+    style E fill:#c5e0c9
+    style F fill:#c5e0c9
+    style G fill:#c5e0c9
+    style H fill:#f4c2c2
+    </div>
+  </section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bai hoc soan boi MiniMax Mavis cho Bs. Ngoc 🍅 🐈‍⬛ | Verified PubMed: 8 papers (PMID 39145955, 40422584, 38954427, 38699388, 32623449, 12504966, 39280286, 29210893) - Testa 2024 JAMA, Pereira 2025 Diseases</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+new Chart(document.getElementById('chart1'), {
+    type: 'bar',
+    data: {
+        labels: ['Graft success', 'Co it nhat 1 tre song', 'Co bien chung', 'Living donor co bien chung do 3'],
+        datasets: [{
+            label: 'Testa 2024 JAMA (n=20)',
+            data: [70, 100, 55, 22],
+            backgroundColor: [
+                'rgba(197, 224, 201, 0.85)',
+                'rgba(197, 213, 224, 0.85)',
+                'rgba(244, 194, 194, 0.85)',
+                'rgba(247, 209, 186, 0.85)'
+            ],
+            borderColor: [
+                'rgba(197, 224, 201, 1)',
+                'rgba(197, 213, 224, 1)',
+                'rgba(244, 194, 194, 1)',
+                'rgba(247, 209, 186, 1)'
+            ],
+            borderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        indexAxis: 'y',
+        plugins: {
+            title: { display: true, text: 'Testa 2024 JAMA (n=20) - UTx outcomes (% of cohort)' },
+            legend: { display: false }
+        },
+        scales: {
+            x: { beginAtZero: true, max: 100, title: { display: true, text: 'Phan tram (%)' } }
+        }
+    }
+});
+
+new Chart(document.getElementById('chart2'), {
+    type: 'bar',
+    data: {
+        labels: ['UTx thanh cong ky thuat', 'CPR per ET', 'LBR per ET'],
+        datasets: [{
+            label: 'Pereira 2025 (10 studies, 2002-2024)',
+            data: [74.0, 36.3, 22.0],
+            backgroundColor: [
+                'rgba(212, 197, 226, 0.85)',
+                'rgba(197, 213, 224, 0.85)',
+                'rgba(197, 224, 201, 0.85)'
+            ],
+            borderColor: [
+                'rgba(212, 197, 226, 1)',
+                'rgba(197, 213, 224, 1)',
+                'rgba(197, 224, 201, 1)'
+            ],
+            borderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            title: { display: true, text: 'Pereira 2025 Systematic Review - UTx outcomes (%)' },
+            legend: { display: false }
+        },
+        scales: {
+            y: { beginAtZero: true, max: 100, title: { display: true, text: 'Phan tram (%)' } }
+        }
+    }
+});
+
+</script>
+</body>
+</html>

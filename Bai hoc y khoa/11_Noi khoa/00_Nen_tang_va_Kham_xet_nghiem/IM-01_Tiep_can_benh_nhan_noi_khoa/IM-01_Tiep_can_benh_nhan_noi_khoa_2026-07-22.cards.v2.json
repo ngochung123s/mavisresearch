@@ -1,0 +1,119 @@
+[
+  {
+    "type": "basic",
+    "front": "Câu hỏi đầu tiên khi tiếp cận người bệnh Nội khoa là gì?",
+    "back": "Người bệnh có đang không ổn định không? Nếu có, ưu tiên nhận diện nguy cơ tức thì, gọi hỗ trợ, đánh giá ABCDE và đánh giá lại; không chờ hoàn tất bệnh sử thường quy.",
+    "extra": "IM-01 | Ưu tiên an toàn"
+  },
+  {
+    "type": "basic",
+    "front": "Triệu chứng khác dấu hiệu thế nào?",
+    "back": "Triệu chứng là điều người bệnh cảm nhận/kể lại. Dấu hiệu là điều người khám quan sát, đo hoặc phát hiện khi khám.",
+    "extra": "IM-01 | Nền tảng"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao dữ kiện không tự là chẩn đoán?",
+    "back": "Một dữ kiện cần được đặt trong bối cảnh, kiểm tra chất lượng và liên kết với các dữ kiện khác trước khi tạo assessment hoặc quyết định.",
+    "extra": "IM-01 | Lập luận"
+  },
+  {
+    "type": "basic",
+    "front": "Problem list là gì?",
+    "back": "Là danh sách các bất thường hoặc nguy cơ cần giải quyết, được viết bằng ngôn ngữ mô tả và sắp xếp theo ưu tiên.",
+    "extra": "IM-01 | Problem list"
+  },
+  {
+    "type": "basic",
+    "front": "Một mục trong problem list cần có các thành phần nào?",
+    "back": "Vấn đề; bằng chứng; mức ưu tiên; khả năng cần loại trừ; dữ kiện còn thiếu; hành động, theo dõi và mốc đánh giá lại/chuyển tuyến.",
+    "extra": "IM-01 | Problem list"
+  },
+  {
+    "type": "basic",
+    "front": "Assessment và plan khác nhau thế nào?",
+    "back": "Assessment là giải thích tạm thời các vấn đề dựa trên dữ kiện hiện có. Plan là hành động tiếp theo, theo dõi, thứ tự ưu tiên và tiêu chí đánh giá lại/chuyển tuyến.",
+    "extra": "IM-01 | Nền tảng"
+  },
+  {
+    "type": "basic",
+    "front": "ABCDE viết tắt cho những thành phần nào?",
+    "back": "Airway (đường thở), Breathing (hô hấp), Circulation (tuần hoàn), Disability (thần kinh/ý thức), Exposure (bộc lộ và khám toàn diện).",
+    "extra": "IM-01 | ABCDE"
+  },
+  {
+    "type": "basic",
+    "front": "Nguyên tắc cốt lõi khi dùng ABCDE là gì?",
+    "back": "Ưu tiên vấn đề đe dọa tính mạng, xử trí trong phạm vi năng lực trước khi sang phần kế tiếp, rồi đánh giá lại đáp ứng và huy động hỗ trợ sớm khi cần.",
+    "extra": "IM-01 | ABCDE"
+  },
+  {
+    "type": "basic",
+    "front": "Những tình huống nào là BOX ĐỎ trong bài IM-01?",
+    "back": "Không đáp ứng; dấu suy hô hấp rõ hoặc nghi tắc nghẽn đường thở; giảm tưới máu/sốc; xuất huyết diễn tiến; thay đổi ý thức mới; hoặc nguy cơ không thể theo dõi/xử trí an toàn tại nơi đang có.",
+    "extra": "IM-01 | An toàn"
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào bắt đầu bệnh sử có mục tiêu?",
+    "back": "Khi người bệnh đủ ổn định để trao đổi. Nếu có nguy cơ tức thì, đánh giá và xử trí an toàn ban đầu trước.",
+    "extra": "IM-01 | Bệnh sử"
+  },
+  {
+    "type": "basic",
+    "front": "Câu hỏi nào nên đặt trước khi chỉ định xét nghiệm?",
+    "back": "Kết quả nào sẽ thay đổi quyết định nào? Nếu không trả lời được, cần xem lại mục tiêu của xét nghiệm.",
+    "extra": "IM-01 | Dữ kiện"
+  },
+  {
+    "type": "basic",
+    "front": "Khám có mục tiêu nghĩa là gì?",
+    "back": "Mỗi thao tác khám phục vụ một câu hỏi lâm sàng: tìm dấu để đổi giả thuyết, đổi mức chăm sóc hoặc xác định dữ kiện còn thiếu.",
+    "extra": "IM-01 | Khám"
+  },
+  {
+    "type": "basic",
+    "front": "Problem representation là gì?",
+    "back": "Câu tóm tắt ngắn, trung tính gồm bối cảnh phù hợp, thời gian, hội chứng chính, mức nặng và dữ kiện phân biệt quan trọng; nó chưa phải chẩn đoán cuối cùng.",
+    "extra": "IM-01 | Lập luận"
+  },
+  {
+    "type": "basic",
+    "front": "Làm thế nào tránh đóng chẩn đoán quá sớm?",
+    "back": "Giữ câu tóm tắt trung tính, lập differential theo hội chứng, tìm dữ kiện không phù hợp với giả thuyết ưa thích và quay lại problem list khi có thông tin quan trọng.",
+    "extra": "IM-01 | Lập luận"
+  },
+  {
+    "type": "basic",
+    "front": "Một kế hoạch tối thiểu phải ghi rõ gì?",
+    "back": "Việc làm ngay; dữ kiện/kết quả nào đổi hướng; người cần thông báo hoặc hội chẩn; điều phải theo dõi; mốc đánh giá lại và tiêu chí chuyển tuyến.",
+    "extra": "IM-01 | Plan"
+  },
+  {
+    "type": "basic",
+    "front": "Plan B an toàn khi thiếu nguồn lực là gì?",
+    "back": "Ghi rõ giới hạn, thực hiện hỗ trợ cơ bản trong phạm vi năng lực, tổ chức theo dõi hoặc chuyển tuyến phù hợp. Không kết luận chắc từ một dữ kiện mỏng để bù cho thiếu nguồn lực.",
+    "extra": "IM-01 | An toàn"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao đánh giá lại là một phần bắt buộc của plan?",
+    "back": "Tình trạng người bệnh, kết quả xét nghiệm và đáp ứng với can thiệp có thể thay đổi assessment; plan phải chỉ ra khi nào xem lại và dấu hiệu nào buộc đổi mức chăm sóc.",
+    "extra": "IM-01 | Theo dõi"
+  },
+  {
+    "type": "cloze",
+    "text": "Trong ABCDE, {{c1::A}} là đường thở, {{c2::B}} là hô hấp và {{c3::C}} là tuần hoàn.",
+    "extra": "IM-01 | ABCDE"
+  },
+  {
+    "type": "cloze",
+    "text": "Nếu người bệnh có BOX ĐỎ, không chờ hỏi đủ bệnh sử: {{c1::gọi hỗ trợ, đánh giá có hệ thống và xử trí nguy cơ tức thì trong phạm vi năng lực}}.",
+    "extra": "IM-01 | An toàn"
+  },
+  {
+    "type": "cloze",
+    "text": "Dữ kiện mới hoặc tình trạng thay đổi phải đưa người học quay lại {{c1::đánh giá an toàn và problem list}} thay vì giữ nguyên kế hoạch cũ.",
+    "extra": "IM-01 | Theo dõi"
+  }
+]

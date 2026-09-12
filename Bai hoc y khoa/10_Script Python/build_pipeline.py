@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import subprocess
 import sys
@@ -22,6 +23,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
 from publish_gate import extract_contract, validate_contract
+from evidence_bundle import BundleError, load_bundle
 from verification_core import sha256_file
 from verify_apkg_diacritics import verify_apkg
 from verify_diacritics import count_words_classified
@@ -33,7 +35,15 @@ def hashed(path: Path) -> dict[str, str]:
 
 
 def run(command: list[str], timeout: int = 300) -> subprocess.CompletedProcess[str]:
-    return subprocess.run(command, capture_output=True, text=True, timeout=timeout, cwd=SCRIPT_DIR)
+    env = os.environ.copy()
+    guard = str(SCRIPT_DIR / "network_guard")
+    env["PYTHONPATH"] = guard + (os.pathsep + env["PYTHONPATH"] if env.get("PYTHONPATH") else "")
+    env["NO_PROXY"] = "*"
+    env["no_proxy"] = "*"
+    for key in tuple(env):
+        if "PROXY" in key.upper() and key.upper() not in {"NO_PROXY"}:
+            env.pop(key, None)
+    return subprocess.run(command, capture_output=True, text=True, timeout=timeout, cwd=SCRIPT_DIR, env=env)
 
 
 def write_command_artifact(path: Path, completed: subprocess.CompletedProcess[str]) -> None:
@@ -69,12 +79,17 @@ def main() -> int:
     parser.add_argument("--lesson", required=True, type=Path)
     parser.add_argument("--cards", required=True, type=Path)
     parser.add_argument("--guidelines", required=True, type=Path, help="Guideline evidence JSON")
+    parser.add_argument("--evidence-bundle", required=True, type=Path, help="Immutable provider-neutral evidence bundle")
     parser.add_argument("--outputs", type=Path, help="Release outputs folder; default: <lesson-dir>/outputs")
     args = parser.parse_args()
 
-    for path in (args.brief, args.lesson, args.cards, args.guidelines):
+    for path in (args.brief, args.lesson, args.cards, args.guidelines, args.evidence_bundle):
         if not path.is_file():
             parser.error(f"file not found: {path}")
+    try:
+        load_bundle(args.evidence_bundle)
+    except BundleError as exc:
+        parser.error(f"invalid evidence bundle: {exc}")
 
     contract = extract_contract(args.brief.read_text(encoding="utf-8"))
     profile, required = validate_contract(contract)
@@ -111,26 +126,115 @@ def main() -> int:
         return completed.returncode
 
     python = sys.executable
-    command_gate("brief_pmid_preflight", [python, str(SCRIPT_DIR / "preflight_check_pmids.py"), str(args.brief), "--strict", "--json"], [args.brief], "brief_pmid_preflight.json")
+    bundle_args = ["--evidence-bundle", str(args.evidence_bundle)]
+    command_gate("brief_pmid_preflight", [python, str(SCRIPT_DIR / "preflight_check_pmids.py"), str(args.brief), "--strict", "--json", *bundle_args], [args.brief, args.evidence_bundle], "brief_pmid_preflight.json")
     brief_claim_report = evidence_dir / "brief_claims_report.json"
-    command_gate("brief_claims_strict", [python, str(SCRIPT_DIR / "verify_claim_vs_abstract.py"), str(args.brief), "--json-out", str(brief_claim_report)], [args.brief], "brief_claims_command.json")
+    command_gate("brief_claims_strict", [python, str(SCRIPT_DIR / "verify_claim_vs_abstract.py"), str(args.brief), "--json-out", str(brief_claim_report), *bundle_args], [args.brief, args.evidence_bundle], "brief_claims_command.json")
     if results[-1]["gate"] == "brief_claims_strict" and results[-1]["status"] == "PASS":
         results[-1]["artifacts"].append(hashed(brief_claim_report))
-    command_gate("source_pmid_strict", [python, str(SCRIPT_DIR / "verify_all_pmids.py"), str(args.lesson), "--strict", "--json"], [args.lesson], "source_pmid_strict.json")
+    command_gate("source_pmid_strict", [python, str(SCRIPT_DIR / "verify_all_pmids.py"), str(args.lesson), "--strict", "--json", *bundle_args], [args.lesson, args.evidence_bundle], "source_pmid_strict.json")
     claims_report = evidence_dir / "source_claims_report.json"
-    command_gate("source_claims_strict", [python, str(SCRIPT_DIR / "verify_claims.py"), str(args.lesson), "--strict", "--json-out", str(claims_report)], [args.lesson], "source_claims_command.json")
-    if results[-1]["gate"] == "source_claims_strict" and results[-1]["status"] == "PASS":
-        results[-1]["artifacts"].append(hashed(claims_report))
-    retraction_report = evidence_dir / "source_retraction_report.json"
-    command_gate("source_retraction", [python, str(SCRIPT_DIR / "retraction_check.py"), "--md", str(args.lesson), "--strict", "--json-out", str(retraction_report)], [args.lesson], "source_retraction_command.json")
-    if results[-1]["gate"] == "source_retraction" and results[-1]["status"] == "PASS":
-        results[-1]["artifacts"].append(hashed(retraction_report))
     guideline_report = evidence_dir / "guideline_report.json"
     command_gate("guideline_evidence", [python, str(SCRIPT_DIR / "verify_guidelines.py"), str(args.guidelines), "--json-out", str(guideline_report)], [args.guidelines], "guideline_command.json")
     if results[-1]["gate"] == "guideline_evidence" and results[-1]["status"] == "PASS":
         results[-1]["artifacts"].append(hashed(guideline_report))
 
-    citation_command = [python, str(SCRIPT_DIR / "citation_audit.py"), str(args.lesson), "--json"]
+    command_gate(
+        "source_claims_strict",
+        [python, str(SCRIPT_DIR / "verify_claims.py"), str(args.lesson), "--strict", "--guideline-report", str(guideline_report), "--json-out", str(claims_report), *bundle_args],
+        [args.lesson, args.guidelines, args.evidence_bundle],
+        "source_claims_command.json",
+    )
+    if results[-1]["gate"] == "source_claims_strict" and results[-1]["status"] == "PASS":
+        results[-1]["artifacts"].append(hashed(claims_report))
+    retraction_report = evidence_dir / "source_retraction_report.json"
+    command_gate("source_retraction", [python, str(SCRIPT_DIR / "retraction_check.py"), "--md", str(args.lesson), "--strict", "--json-out", str(retraction_report), *bundle_args], [args.lesson, args.evidence_bundle], "source_retraction_command.json")
+    if results[-1]["gate"] == "source_retraction" and results[-1]["status"] == "PASS":
+        results[-1]["artifacts"].append(hashed(retraction_report))
+
+    # Cross-evidence gate: check BOTH directions & linkage
+    crosscheck_artifact = evidence_dir / "guideline_crosscheck_report.json"
+    crosscheck_failures = []
+    try:
+        g_rep = json.loads(guideline_report.read_text(encoding="utf-8")) if guideline_report.is_file() else {}
+        b_rep = json.loads(brief_claim_report.read_text(encoding="utf-8")) if brief_claim_report.is_file() else {}
+        s_rep = json.loads(claims_report.read_text(encoding="utf-8")) if claims_report.is_file() else {}
+
+        guideline_rows = g_rep.get("guidelines", [])
+        all_g_entries = {}
+        dup_g_ids = set()
+        for row in guideline_rows:
+            if isinstance(row, dict) and "claim_id" in row:
+                cid = row["claim_id"]
+                if cid in all_g_entries:
+                    dup_g_ids.add(cid)
+                else:
+                    all_g_entries[cid] = row
+
+        if dup_g_ids:
+            crosscheck_failures.append(f"duplicate guideline evidence claim IDs found in guideline_report: {sorted(dup_g_ids)}")
+
+        passed_g_entries = {cid: row for cid, row in all_g_entries.items() if row.get("status") == "PASS"}
+
+        referenced_claim_ids = set()
+
+        # Check brief claims
+        brief_claims_list = b_rep.get("claims", [])
+        for check in brief_claims_list:
+            if isinstance(check, dict) and check.get("verification") == "GUIDELINE VERIFIED":
+                cid = check.get("claim_id")
+                referenced_claim_ids.add(cid)
+                if cid not in passed_g_entries:
+                    crosscheck_failures.append(f"brief guideline claim '{cid}' not found in passing guideline evidence")
+                else:
+                    g_entry = passed_g_entries[cid]
+                    g_pmid = str(g_entry.get("pmid") or "").strip()
+                    s_id = str(check.get("source_id", "")).strip()
+                    if s_id and s_id.isdigit():
+                        if not g_pmid or g_pmid in ("None", "null"):
+                            crosscheck_failures.append(f"brief claim '{cid}' cites PMID '{s_id}' but guideline evidence pmid is null/missing")
+                        elif g_pmid != s_id:
+                            crosscheck_failures.append(f"brief claim '{cid}' PMID mismatch: claim source_id '{s_id}' vs guideline evidence pmid '{g_pmid}'")
+
+        # Check lesson claims
+        lesson_claims_list = s_rep.get("checks", [])
+        for check in lesson_claims_list:
+            if isinstance(check, dict) and check.get("verification") == "GUIDELINE VERIFIED":
+                cid = check.get("claim_id")
+                referenced_claim_ids.add(cid)
+                if cid not in passed_g_entries:
+                    crosscheck_failures.append(f"lesson guideline claim '{cid}' not found in passing guideline evidence")
+                else:
+                    g_entry = passed_g_entries[cid]
+                    g_pmid = str(g_entry.get("pmid") or "").strip()
+                    s_id = str(check.get("source_id", "")).strip()
+                    if s_id and s_id.isdigit():
+                        if not g_pmid or g_pmid in ("None", "null"):
+                            crosscheck_failures.append(f"lesson claim '{cid}' cites PMID '{s_id}' but guideline evidence pmid is null/missing")
+                        elif g_pmid != s_id:
+                            crosscheck_failures.append(f"lesson claim '{cid}' PMID mismatch: claim source_id '{s_id}' vs guideline evidence pmid '{g_pmid}'")
+
+        # Orphan check: guideline evidence claim ID not referenced anywhere in lesson or brief
+        for cid in all_g_entries:
+            if cid not in referenced_claim_ids:
+                crosscheck_failures.append(f"orphan guideline evidence '{cid}': not referenced in lesson or brief")
+    except Exception as exc:
+        crosscheck_failures.append(f"crosscheck exception fail-closed: {exc}")
+
+    crosscheck_report = {
+        "status": "PASS" if not crosscheck_failures else "FAIL",
+        "failures": crosscheck_failures,
+    }
+    crosscheck_artifact.write_text(json.dumps(crosscheck_report, ensure_ascii=False, indent=2), encoding="utf-8")
+    record(
+        "guideline_evidence_crosscheck",
+        [python, "crosscheck_guidelines"],
+        [args.guidelines, args.brief, args.lesson],
+        [crosscheck_artifact],
+        0 if not crosscheck_failures else 2,
+    )
+    print(f"[{results[-1]['status']}] guideline_evidence_crosscheck")
+    citation_command = [python, str(SCRIPT_DIR / "citation_audit.py"), str(args.lesson), "--json", *bundle_args]
     citation_run = run(citation_command)
     citation_artifact = evidence_dir / "citation_audit.json"
     citation_artifact.write_text(citation_run.stdout or json.dumps({"error": citation_run.stderr}), encoding="utf-8")
@@ -144,9 +248,9 @@ def main() -> int:
     record("citation_zero_block", citation_command, [args.lesson], [citation_artifact], citation_code)
     print(f"[{results[-1]['status']}] citation_zero_block")
 
-    structure_gate = "depth_disease" if profile == "disease" else f"profile_{profile}"
-    structure_script = "depth_check.py" if profile == "disease" else "profile_check.py"
-    structure_args = [str(args.lesson), "--profile", profile] if profile == "disease" else [profile, str(args.lesson)]
+    structure_gate = f"depth_{profile}"
+    structure_script = "depth_check.py"
+    structure_args = [str(args.lesson), "--profile", profile]
     command_gate(structure_gate, [python, str(SCRIPT_DIR / structure_script), *structure_args], [args.lesson], f"{structure_gate}.json")
 
     cards_artifact = evidence_dir / "cards_schema.json"
@@ -221,7 +325,7 @@ def main() -> int:
         learner_code = 2
     write_command_artifact(learner_artifact, learner_run)
     learner_outputs = [learner_artifact, *(path for path in learner_paths if path.is_file())]
-    record("learner_smoke", learner_command, [args.cards], learner_outputs, learner_code)
+    record("learner_smoke", learner_command, [args.cards, args.evidence_bundle], learner_outputs, learner_code)
     print(f"[{results[-1]['status']}] learner_smoke")
 
     results_path.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")

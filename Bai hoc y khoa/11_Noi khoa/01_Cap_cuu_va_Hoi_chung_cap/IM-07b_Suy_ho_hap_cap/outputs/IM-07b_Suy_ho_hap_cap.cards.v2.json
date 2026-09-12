@@ -1,0 +1,242 @@
+[
+  {
+    "type": "basic",
+    "front": "Định nghĩa Suy hô hấp cấp (SHHC) và 3 thể suy hô hấp chính trên khí máu động mạch?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Định nghĩa:</b> Là tình trạng cơ quan hô hấp đột nhiên không bảo đảm được chức năng trao đổi khí bình thường của phổi, gây ra <b>thiếu oxy máu</b>, có hoặc không kèm theo <b>tăng cacbonic (CO2) máu</b>.<br>• <b>Thể thiếu oxy máu (Type I):</b> Khi PaO2 < 50 – 60 mmHg (ở khí phòng).<br>• <b>Thể tăng CO2 máu (Type II):</b> Khi PaCO2 > 50 mmHg kèm toan hô hấp (pH < 7,36).<br>• <b>Thể hỗn hợp (Type III/IV):</b> Vừa có PaO2 < 60 mmHg vừa có PaCO2 > 50 mmHg.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Thể hỗn hợp là dạng suy hô hấp phổ biến nhất tại các khoa Hồi sức tích cực (ICU) ở các bệnh nhân nặng có kiệt cơ hô hấp trên nền tổn thương nhu mô phổi."
+  },
+  {
+    "type": "cloze",
+    "text": "Suy hô hấp cấp được định nghĩa là tình trạng cơ quan hô hấp đột nhiên không bảo đảm được chức năng trao đổi khí, gây ra {{c1::thiếu oxy máu (PaO2 < 50 – 60 mmHg)}}, có hoặc không kèm theo {{c1::tăng CO2 máu (PaCO2 > 50 mmHg kèm pH < 7,36)}}.",
+    "extra": "💡 Thể hỗn hợp (vừa giảm PaO2 vừa tăng PaCO2) là dạng hay gặp nhất trên bệnh nhân nặng tại khoa hồi sức cấp cứu."
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chuẩn chẩn đoán Suy hô hấp cấp Thể thiếu oxy máu (Type I) và Thể tăng CO2 máu (Type II) trên khí máu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Thể thiếu oxy máu (Type I - Hypoxemic):</b> PaO2 < 50 – 60 mmHg khi thở khí phòng.<br>• <b>Thể tăng CO2 máu (Type II - Hypercapnic):</b> PaCO2 > 50 mmHg KÈM THEO toan hô hấp cấp (pH < 7,36).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bắt buộc phải có toan hô hấp kèm theo để xác nhận tình trạng tăng CO2 cấp tính, phân biệt với tăng CO2 máu mạn tính đã được thận bù trừ Bicarbonate ở bệnh nhân COPD ổn định."
+  },
+  {
+    "type": "cloze",
+    "text": "Khí máu động mạch xác định Suy hô hấp cấp Type I (thiếu oxy) khi {{c1::PaO2 < 50 – 60 mmHg ở khí phòng}}; xác định Type II (tăng CO2 cấp) khi {{c1::PaCO2 > 50 mmHg kèm toan hô hấp pH < 7,36}}.",
+    "extra": "💡 Nếu PaCO2 > 50 mmHg nhưng pH bình thường (7,35 - 7,45) thì đó là suy hô hấp mạn tính có bù trừ thận."
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế 'Suy bơm hô hấp' (Giảm thông khí phế nang toàn bộ): Căn nguyên lâm sàng và đặc trưng khí máu động mạch?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Căn nguyên:</b> Phát sinh do các tổn thương ngoài nhu mô phổi: (1) Ức chế trung tâm hô hấp (ngộ độc thuốc ngủ, opiate, tai biến mạch não); (2) Tổn thương thần kinh cơ (chấn thương tủy cổ C3-C5, Guillain-Barré, nhược cơ, rắn cắn); (3) Thành ngực (mảng sườn di động, gù vẹo); (4) Tắc nghẽn đường thở trên (dị vật, phù thanh môn).<br>• <b>Đặc trưng khí máu:</b> PaCO2 tăng cao, PaO2 giảm, và <b>Độ chênh phân áp oxy phế nang - động mạch hoàn toàn bình thường: P(A-a)O2 < 20 mmHg</b>.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Vì màng phế nang mao mạch hoàn toàn nguyên vẹn nên P(A-a)O2 không tăng; điều trị căn bản là thông khí hỗ trợ phục hồi thể tích lưu thông chứ không phải thở oxy đơn thuần."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong cơ chế Giảm thông khí phế nang toàn bộ (Suy bơm hô hấp do nguyên nhân ngoài phổi), đặc trưng khí máu kinh điển là: PaCO2 tăng cao, PaO2 giảm, nhưng {{c1::độ chênh phân áp oxy phế nang - động mạch P(A-a)O2 hoàn toàn bình thường (< 20 mmHg)}}.",
+    "extra": "💡 P(A-a)O2 bình thường chứng tỏ màng phế nang mao mạch không hề bị tổn thương, suy hô hấp đơn thuần do giảm cơ học thể tích thông khí."
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế Shunt trong suy hô hấp cấp: Định nghĩa, các bệnh cảnh điển hình và đặc trưng đáp ứng với oxy liệu pháp?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Định nghĩa:</b> Dòng máu tĩnh mạch từ tim phải đi qua mao mạch phổi trở về tim trái mà hoàn toàn không được tiếp xúc với phế nang có thông khí (có tưới máu nhưng không thông khí, VA/Q = 0).<br>• <b>Bệnh cảnh:</b> Xẹp phổi, viêm phổi thùy đông đặc, phù phổi cấp huyết động, ARDS, tràn dịch/khí màng phổi nặng, tim bẩm sinh shunt phải - trái (Fallot, Eisenmenger).<br>• <b>Đặc trưng khí máu:</b> PaO2 giảm rất sâu, P(A-a)O2 tăng cao (> 20 mmHg) và <b>HOÀN TOÀN KHÔNG ĐÁP ỨNG VỚI OXY LIỆU PHÁP (trơ với oxy 100%)</b>.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Dù tăng FiO2 lên 100% thì máu đi qua vùng phế nang xẹp/đông đặc vẫn là máu tĩnh mạch không nhận được oxy, hòa vào máu động mạch làm tụt PaO2; xử trí bắt buộc phải mở phế nang bằng PEEP hoặc CPAP."
+  },
+  {
+    "type": "cloze",
+    "text": "Cơ chế Shunt nội phổi (VA/Q = 0 trong xẹp phổi, đông đặc, ARDS) đặc trưng trên khí máu bởi PaO2 giảm sâu, P(A-a)O2 tăng cao và {{c1::hoàn toàn không đáp ứng với oxy liệu pháp (trơ với FiO2 100%)}}.",
+    "extra": "💡 Điểm phân biệt sống còn với bất tương hợp V/Q: Shunt thì trơ với oxy, trong khi bất tương hợp V/Q đáp ứng rất tốt với oxy."
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế Bất tương hợp thông khí - tưới máu (V/Q Mismatch): Phân biệt vùng VA/Q giảm vs vùng VA/Q tăng và đáp ứng với oxy?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Tỷ lệ VA/Q giảm (< 0,8):</b> Phế nang thông khí kém hơn dòng máu tưới do tắc nghẽn phế quản: Gặp trong <b>Hen phế quản, đợt cấp COPD, viêm phế quản co thắt</b>.<br>• <b>Tỷ lệ VA/Q tăng (> 0,8 - Khoảng chết sinh lý):</b> Phế nang thông khí tốt nhưng dòng máu tưới bị tắc nghẽn: Gặp điển hình trong <b>Thuyên tắc động mạch phổi (PE)</b>.<br>• <b>Đáp ứng oxy:</b> P(A-a)O2 tăng cao (> 20 mmHg) nhưng <b>ĐÁP ỨNG RẤT TỐT VỚI OXY LIỆU PHÁP</b>.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Tăng FiO2 giúp khuếch tán một lượng lớn oxy vào các phế nang bị giảm thông khí, nhanh chóng nâng PaO2 máu lên mức an toàn."
+  },
+  {
+    "type": "cloze",
+    "text": "Bất tương hợp thông khí - tưới máu (V/Q mismatch) gặp tỷ lệ VA/Q giảm (< 0,8) trong {{c1::Hen phế quản và đợt cấp COPD}}; gặp tỷ lệ VA/Q tăng (> 0,8 - khoảng chết) trong {{c1::Thuyên tắc động mạch phổi (PE)}}.",
+    "extra": "💡 Khác biệt cơ bản với Shunt: Bất tương hợp V/Q đáp ứng rất tốt khi tăng nồng độ oxy thở vào."
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế Rối loạn khuếch tán màng phế nang - mao mạch: Tại sao PaO2 giảm sâu nhưng PaCO2 lại không tăng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Bệnh cảnh:</b> Màng phế nang - mao mạch bị dày lên hoặc phù nề: Viêm phổi kẽ, phù phổi tổn thương, tổn thương phổi cấp (ALI/ARDS), ngạt nước.<br>• <b>Đặc trưng khí máu:</b> PaO2 giảm sâu, P(A-a)O2 tăng cao, nhưng <b>PaCO2 KHÔNG TĂNG (bình thường hoặc giảm do tăng thông khí)</b>.<br>• <b>Lý do sinh lý học:</b> Khả năng khuếch tán qua màng phế nang - mao mạch của khí CO2 <b>lớn hơn khí Oxy trên 20 lần</b> (do CO2 tan trong nước và lipid màng cực mạnh), nên CO2 vẫn khuếch tán dễ dàng.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Chỉ khi bệnh nhân bước vào giai đoạn kiệt cơ hô hấp không còn sức thở nhanh thì PaCO2 mới bắt đầu ứ đọng tăng lên."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong rối loạn khuếch tán màng phế nang - mao mạch (viêm phổi kẽ, ARDS), PaO2 giảm sâu nhưng PaCO2 không tăng vì {{c1::khả năng khuếch tán qua màng của CO2 lớn hơn Oxy trên 20 lần}}.",
+    "extra": "💡 Bệnh nhân thường thở nhanh do thiếu oxy, làm tăng đào thải CO2 khiến PaCO2 ban đầu thường giảm nhẹ."
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế Mất cân bằng cung - cầu thông khí: Những yếu tố nào đẩy bệnh nhân vào tình trạng kiệt cơ hô hấp?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Nhu cầu thông khí tăng vọt:</b> Sốt cao, nhiễm trùng huyết, đa chấn thương, toan chuyển hóa, thuyên tắc phổi, quá tải carbohydrate trong dinh dưỡng (sinh nhiều CO2).<br>• <b>Khả năng cung cấp bị suy kiệt:</b> Mệt mỏi cơ hô hấp, suy dinh dưỡng teo cơ, rối loạn điện giải (hạ kali, hạ phosphat, hạ calci), toan máu, đau sau mổ, chướng bụng cổ trướng.<br>• <b>Hậu quả:</b> Cơ hoành và cơ liên sườn bị kiệt sức hoàn toàn dẫn đến suy bơm và ứ đọng CO2 cấp tính.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Đặc biệt lưu ý hạ Phosphat và hạ Kali máu là hai nguyên nhân chuyển hóa phổ biến làm liệt cơ hô hấp tại ICU."
+  },
+  {
+    "type": "cloze",
+    "text": "Cơ chế Mất cân bằng cung - cầu thông khí dẫn đến kiệt cơ hô hấp khi nhu cầu thông khí tăng vọt kết hợp với sự suy kiệt khả năng cung cấp do {{c1::suy dinh dưỡng, đau sau mổ, toan máu và rối loạn điện giải (hạ Kali, hạ Phosphat, hạ Calci)}}.",
+    "extra": "💡 Dinh dưỡng quá tải carbohydrate sinh ra lượng lớn CO2 làm tăng gánh nặng thông khí cho phổi."
+  },
+  {
+    "type": "basic",
+    "front": "Dấu hiệu Kiệt cơ hô hấp trong suy hô hấp cấp: Kiểu thở nghịch thường bụng - ngực có cơ chế và ý nghĩa gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Kiểu thở nghịch thường bụng - ngực (Paradoxical breathing):</b> Khi hít vào, lồng ngực nở ra nhưng thành bụng lại bị lõm vào (thay vì phồng lên như bình thường).<br>• <b>Cơ chế:</b> Cơ hoành đã bị kiệt sức hoặc tê liệt hoàn toàn, không còn co xuống được; cơ hô hấp phụ ở ngực phải co kéo tạo áp lực âm kéo cơ hoành và tạng bụng thụ động đi lên.<br>• <b>Ý nghĩa lâm sàng:</b> Là dấu hiệu báo động đỏ của kiệt cơ hô hấp cực kỳ nguy kịch, bệnh nhân sẽ ngừng thở trong tích tắc nếu không được hỗ trợ thông khí nhân tạo ngay lập tức.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Khi thấy thở nghịch thường kèm thở chậm dần (< 10 lần/phút), bắt buộc phải chuẩn bị bóp bóng Ambu và đặt ống nội khí quản cấp cứu."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu kiệt cơ hô hấp đe dọa ngừng thở trong suy hô hấp cấp là xuất hiện {{c1::kiểu thở nghịch thường bụng - ngực (khi hít vào bụng lõm lại)}}, báo hiệu cơ hoành đã bị kiệt sức hoặc tê liệt hoàn toàn.",
+    "extra": "💡 Thường đi kèm thở chậm dần (< 10 lần/phút) hoặc thở ngáp cá, cần đặt nội khí quản ngay lập tức."
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế và ngưỡng xuất hiện triệu chứng Xanh tím (Cyanosis) trong suy hô hấp cấp?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Tím trung ương (niêm mạc môi, vòm miệng, lưỡi):</b> Xuất hiện khi nồng độ Deoxyhemoglobin (hemoglobin khử) trong máu mao mạch vượt quá <b>5 g/dL</b> (50 g/L), thường tương ứng với SaO2 < 85%.<br>• <b>Tím ngoại biên (đầu ngón tay, chân):</b> Do co thắt mạch ngoại vi, ứ trệ tuần hoàn máu làm tăng tiêu thụ oxy tại mô.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Ở bệnh nhân thiếu máu nặng (Hb < 5 g/dL), dù thiếu oxy mô trầm trọng cũng KHÔNG THỂ xuất hiện xanh tím vì không đủ 5 g/dL DeoxyHb; ngược lại ở bệnh nhân đa hồng cầu, xanh tím có thể xuất hiện rất sớm dù PaO2 chưa giảm nặng."
+  },
+  {
+    "type": "cloze",
+    "text": "Triệu chứng tím tái trung ương (lưỡi, môi) trong suy hô hấp cấp chỉ xuất hiện khi nồng độ hemoglobin khử (Deoxyhemoglobin) trong máu mao mạch vượt quá {{c1::5 g/dL (50 g/L)}}, thường tương ứng SaO2 < 85%.",
+    "extra": "💡 Bệnh nhân thiếu máu nặng (Hb < 7 g/dL) có thể chết vì thiếu oxy mô mà không hề có biểu hiện tím tái."
+  },
+  {
+    "type": "basic",
+    "front": "Các triệu chứng cường giao cảm phản ứng trong suy hô hấp cấp và dấu hiệu cảnh báo giai đoạn kiệt sức?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Giai đoạn cường giao cảm (bù trừ):</b> Do thiếu oxy máu và tăng CO2 kích thích tủy thượng thận giải phóng ồ ạt Catecholamin → Nhịp tim nhanh (100 - 140 l/p), huyết áp tăng cao, vã mồ hôi đầm đìa dính ở trán và mặt.<br>• <b>Giai đoạn kiệt sức (mất bù):</b> Khi cơ thể cạn kiệt, bệnh nhân chuyển sang tụt huyết áp, trụy mạch, nhịp tim chậm dần (< 50 l/p) báo hiệu ngừng tuần hoàn.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Mạch chậm trong suy hô hấp cấp là dấu hiệu cực kỳ nguy hiểm, phản ánh tình trạng thiếu oxy cơ tim nặng nề và kiệt sức trung tâm vận mạch."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong suy hô hấp cấp, phản xạ cường giao cảm bù trừ ban đầu gây tim nhanh, vã mồ hôi và tăng huyết áp; khi chuyển sang giai đoạn kiệt sức mất bù bệnh nhân sẽ xuất hiện {{c1::tụt huyết áp / trụy mạch và nhịp tim chậm dần (< 50 lần/phút)}} báo hiệu ngừng tuần hoàn.",
+    "extra": "💡 Mạch chậm và tụt huyết áp là dấu hiệu cận tử của suy hô hấp cấp."
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chuẩn phân loại Suy hô hấp cấp mức độ TRUNG BÌNH theo bảng lâm sàng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Tri giác:</b> Glasgow 15 điểm (tỉnh táo).<br>• <b>Nhịp tim:</b> 100 – 120 lần/phút.<br>• <b>Huyết áp:</b> Bình thường.<br>• <b>Nhịp thở:</b> 25 – 30 lần/phút.<br>• <b>Khả năng nói:</b> Nói được câu dài trọn vẹn.<br>• <b>Xanh tím & Vã mồ hôi:</b> Dấu hiệu (+) nhẹ ở môi.<br>• <b>Khí máu:</b> pH 7,35 – 7,45; PaO2 từ 60 – 80 mmHg.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Mức độ trung bình thường chỉ định oxy dòng thấp qua gọng kính mũi (1 - 5 l/p) và theo dõi sát đáp ứng."
+  },
+  {
+    "type": "cloze",
+    "text": "Suy hô hấp cấp mức độ TRUNG BÌNH có đặc điểm: Điểm Glasgow {{c1::15 điểm (tỉnh)}}, tần số thở {{c1::25 – 30 lần/phút}}, nói được {{c1::câu dài}}, huyết áp bình thường, PaO2 từ {{c1::60 – 80 mmHg}}.",
+    "extra": "💡 Mức độ trung bình chưa có rối loạn huyết động và chưa có toan máu mất bù."
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chuẩn phân loại Suy hô hấp cấp mức độ NẶNG theo bảng lâm sàng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Tri giác:</b> Glasgow 13 – 14 điểm (bồn chồn, lo lắng, kích thích).<br>• <b>Nhịp tim:</b> 121 – 140 lần/phút.<br>• <b>Huyết áp:</b> Tăng huyết áp phản ứng.<br>• <b>Nhịp thở:</b> 31 – 40 lần/phút.<br>• <b>Khả năng nói:</b> Chỉ nói được câu ngắn ngắt quãng.<br>• <b>Xanh tím & Vã mồ hôi:</b> Dấu hiệu (++) rõ ở môi và đầu chi.<br>• <b>Khí máu:</b> pH 7,20 – 7,34; PaO2 từ 40 – 59 mmHg.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Mức độ nặng cần oxy lưu lượng cao (mặt nạ túi dự trữ NRBM) hoặc cân nhắc thở máy không xâm nhập NIV sớm."
+  },
+  {
+    "type": "cloze",
+    "text": "Suy hô hấp cấp mức độ NẶNG có đặc điểm: Điểm Glasgow {{c1::13 – 14 điểm (kích thích, bồn chồn)}}, tần số thở {{c1::31 – 40 lần/phút}}, chỉ nói được {{c1::câu ngắn}}, huyết áp {{c1::tăng phản xạ}}, PaO2 từ {{c1::40 – 59 mmHg}}.",
+    "extra": "💡 Bắt đầu xuất hiện toan máu nhẹ pH 7,20 - 7,34 và mạch nhanh 121 - 140 lần/phút."
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chuẩn phân loại Suy hô hấp cấp mức độ NGUY KỊCH theo bảng lâm sàng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Tri giác:</b> Glasgow < 13 điểm (lơ mơ, ngủ gà, lú lẫn, hôn mê).<br>• <b>Nhịp tim:</b> > 140 lần/phút HOẶC nhịp tim chậm < 50 lần/phút.<br>• <b>Huyết áp:</b> Tụt huyết áp / Trụy mạch.<br>• <b>Nhịp thở:</b> > 40 lần/phút HOẶC < 10 lần/phút (thở ngáp, thở chậm kiệt cơ).<br>• <b>Khả năng nói:</b> Chỉ nói được từng từ ngắt quãng hoặc không nói được.<br>• <b>Xanh tím & Vã mồ hôi:</b> (+++) tím tái toàn thân, mồ hôi đầm đìa.<br>• <b>Khí máu:</b> pH < 7,20 (toan mất bù nặng); PaO2 < 40 mmHg.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Mức độ nguy kịch là chỉ định can thiệp đường thở khẩn cấp (bóp bóng Ambu, đặt ống nội khí quản thở máy xâm nhập)."
+  },
+  {
+    "type": "cloze",
+    "text": "Suy hô hấp cấp mức độ NGUY KỊCH có đặc điểm: Điểm Glasgow {{c1::< 13 điểm (lơ mơ, hôn mê)}}, tần số thở {{c1::> 40 lần/phút HOẶC < 10 lần/phút (thở ngáp)}}, huyết áp {{c1::tụt / trụy mạch}}, PaO2 {{c1::< 40 mmHg}} và pH máu {{c1::< 7,20}}.",
+    "extra": "💡 Là chỉ định đặt nội khí quản thở máy xâm nhập cấp cứu tức thì."
+  },
+  {
+    "type": "basic",
+    "front": "Giá trị và Hạn chế cốt lõi của đo độ bão hòa oxy mao mạch qua mạch nảy (SpO2) trong cấp cứu suy hô hấp?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Giá trị:</b> Đánh giá nhanh, liên tục và không xâm nhập tình trạng oxy hóa máu tại giường bệnh.<br>• <b>Hạn chế cốt lõi:</b> SpO2 hoàn toàn KHÔNG đánh giá được tình trạng thông khí (không biết PaCO2) và mức độ toan kiềm (pH máu).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Cạm bẫy lâm sàng chết người: Bệnh nhân COPD thở oxy gọng kính có SpO2 98% nhưng thực chất đang bị ứ CO2 máu nặng (PaCO2 lên tới 80 - 90 mmHg) và rơi vào hôn mê do toan hô hấp mà SpO2 không thể cảnh báo!"
+  },
+  {
+    "type": "cloze",
+    "text": "Hạn chế cốt lõi nguy hiểm nhất của máy đo SpO2 tại giường là {{c1::hoàn toàn không đánh giá được nồng độ CO2 máu (PaCO2) và thăng bằng toan kiềm (pH máu)}}.",
+    "extra": "💡 Bệnh nhân có thể hôn mê do ngộ độc CO2 và toan máu nặng dù SpO2 vẫn hiển thị 95 - 98%."
+  },
+  {
+    "type": "basic",
+    "front": "Ba tư thế nằm cấp cứu bắt buộc tương ứng với từng tình huống bệnh nhân suy hô hấp cấp?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Nằm nghiêng an toàn:</b> Dành cho bệnh nhân hôn mê chưa đặt ống nội khí quản (để dịch nôn, đờm dãi tự chảy ra ngoài, chống hít sặc vào phổi).<br>• <b>Nằm ngửa cổ ưỡn:</b> Dành cho bệnh nhân ngừng thở, ngừng tuần hoàn để tiến hành hồi sinh tim phổi (CPR).<br>• <b>Nằm tư thế Fowler (nửa nằm nửa ngồi 45° – 90°):</b> Dành cho bệnh nhân phù phổi cấp huyết động và phần lớn bệnh nhân suy hô hấp cấp tỉnh táo.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Tư thế Fowler giúp các tạng trong ổ bụng hạ thấp kéo cơ hoành xuống dưới, giải phóng thể tích lồng ngực và giảm lượng máu tĩnh mạch hồi lưu về tim phải."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong cấp cứu suy hô hấp, tư thế NẰM NGHIÊNG AN TOÀN chỉ định cho {{c1::bệnh nhân hôn mê chưa đặt nội khí quản (chống hít sặc)}}; tư thế FOWLER (ngồi 45° – 90°) chỉ định cho {{c1::phù phổi cấp huyết động và bệnh nhân tỉnh táo (giảm tiền gánh, tăng giãn nở ngực)}}.",
+    "extra": "💡 Tư thế nằm ngửa cổ ưỡn chỉ dành cho cấp cứu ngừng tuần hoàn (CPR)."
+  },
+  {
+    "type": "basic",
+    "front": "Các can thiệp cơ học khai thông đường thở khẩn cấp trong suy hô hấp cấp?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Hút sạch đờm dãi, máu, mủ, chất nôn trong khoang miệng hầu họng.<br>• Nghiệm pháp Heimlich ngay nếu có dị vật đường hô hấp trên.<br>• Đặt canuyn miệng hầu (Guedel hoặc Mayo) cho bệnh nhân hôn mê có tụt lưỡi.<br>• Bóp bóng Ambu có oxy hỗ trợ 6 – 10 lít/phút.<br>• Đặt ống nội khí quản (NKQ), mở khí quản hoặc chọc kim lớn qua màng nhẫn giáp cấp cứu khi phù nề thanh môn không đặt được NKQ.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Canuyn Guedel/Mayo có tác dụng đè giữ gốc lưỡi không cho tụt ra sau bịt kín hạ họng ở bệnh nhân mất phản xạ nuốt."
+  },
+  {
+    "type": "cloze",
+    "text": "Để khai thông đường thở ở bệnh nhân suy hô hấp hôn mê bị tụt lưỡi gây bít tắc, dụng cụ cơ học đầu tay cần đặt là {{c1::canuyn miệng hầu (Guedel hoặc Mayo)}} kết hợp bóp bóng Ambu có oxy 6 – 10 lít/phút.",
+    "extra": "💡 Nếu có phù nề thanh môn co thắt không thể đặt NKQ, biện pháp cứu mạng tức thì là chọc kim lớn qua màng nhẫn giáp."
+  },
+  {
+    "type": "basic",
+    "front": "Oxy kính (Gọng kính mũi - Nasal Cannula): Lưu lượng dòng, nồng độ FiO2 cung cấp và chỉ định phù hợp?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Lưu lượng dòng:</b> Dụng cụ tạo dòng thấp từ <b>1 – 5 lít/phút</b>.<br>• <b>Nồng độ oxy (FiO2):</b> Cung cấp từ <b>24% – 48%</b> (quy tắc ngón tay cái: Cứ tăng 1 lít/phút oxy làm tăng thêm khoảng 4% FiO2).<br>• <b>Chỉ định:</b> Suy hô hấp mức độ trung bình, đợt cấp COPD, hoặc các nguyên nhân không có shunt hoặc shunt trong phổi thấp.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Lưu lượng > 5 - 6 l/p qua gọng kính không làm tăng thêm FiO2 mà gây khô rát, loét niêm mạc mũi và chảy máu cam."
+  },
+  {
+    "type": "cloze",
+    "text": "Oxy gọng kính mũi (Nasal Cannula) là dụng cụ dòng thấp với lưu lượng {{c1::1 – 5 lít/phút}}, cung cấp nồng độ FiO2 từ {{c1::24% – 48% (mỗi 1 l/p tăng ~ 4% FiO2)}}, chỉ định cho suy hô hấp mức độ trung bình không có shunt lớn.",
+    "extra": "💡 Thở oxy gọng kính > 6 lít/phút không làm tăng FiO2 mà gây khô loét niêm mạc mũi."
+  },
+  {
+    "type": "basic",
+    "front": "Oxy mặt nạ thường (Simple Face Mask): Lưu lượng dòng tối thiểu, FiO2 và lưu ý an toàn?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Lưu lượng dòng:</b> <b>5 – 10 lít/phút</b> (bắt buộc tối thiểu phải ≥ 5 l/p).<br>• <b>Nồng độ oxy (FiO2):</b> <b>35% – 60%</b>.<br>• <b>Chỉ định & Lưu ý:</b> Suy hô hấp mức độ trung bình do tổn thương màng phế nang mao mạch. Thận trọng ở bệnh nhân có nôn trớ do tăng nguy cơ sặc chất nôn vào phổi.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Tuyệt đối không để lưu lượng < 5 lít/phút vì khoảng chết trong lòng mặt nạ sẽ làm bệnh nhân thở hít lại khí CO2 của chính mình (Rebreathing)."
+  },
+  {
+    "type": "cloze",
+    "text": "Oxy qua Mặt nạ thường (Simple Face Mask) bắt buộc cài đặt lưu lượng tối thiểu từ {{c1::5 – 10 lít/phút}} (tránh hít lại CO2), cung cấp nồng độ FiO2 từ {{c1::35% – 60%}}.",
+    "extra": "💡 Dưới 5 lít/phút, khí CO2 thở ra đọng lại trong khoang mặt nạ gây ngộ độc toan hô hấp."
+  },
+  {
+    "type": "basic",
+    "front": "Mặt nạ có túi dự trữ không thở lại (Non-rebreathing Mask - NRBM): Lưu lượng dòng, FiO2 và chỉ định?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Lưu lượng dòng:</b> <b>8 – 15 lít/phút</b> (đảm bảo túi dự trữ luôn căng phồng ít nhất 2/3 trong suốt chu kỳ thở).<br>• <b>Nồng độ oxy (FiO2):</b> Cung cấp nồng độ rất cao từ <b>60% – 100%</b>.<br>• <b>Chỉ định:</b> Suy hô hấp mức độ nặng do tổn thương màng phế nang mao mạch (phù phổi cấp, ALI/ARDS, viêm phổi nặng).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Là dụng cụ cung cấp oxy nồng độ cao nhất trước khi phải can thiệp thở máy xâm nhập."
+  },
+  {
+    "type": "cloze",
+    "text": "Mặt nạ có túi dự trữ không thở lại (NRBM) cài đặt lưu lượng oxy từ {{c1::8 – 15 lít/phút}} (giữ túi luôn căng 2/3), cung cấp nồng độ FiO2 rất cao từ {{c1::60% – 100%}}, chỉ định cho suy hô hấp cấp mức độ nặng.",
+    "extra": "💡 Nếu túi dự trữ bị xẹp khi hít vào chứng tỏ lưu lượng dòng chưa đủ, phải tăng oxy lên."
+  },
+  {
+    "type": "basic",
+    "front": "Mặt nạ Venturi (Venturi Mask): Nguyên lý hoạt động và tại sao là lựa chọn số 1 cho bệnh nhân COPD?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Nguyên lý:</b> Là dụng cụ tạo dòng cao (High-flow), hút không khí phòng hòa trộn với oxy theo hiệu ứng Bernoulli để tạo nồng độ oxy chính xác cố định (24%, 28%, 31%, 35%, 40%, 50%) bất kể kiểu thở của bệnh nhân.<br>• <b>Chỉ định số 1 cho COPD:</b> Bệnh nhân COPD có tình trạng tăng CO2 mạn tính, trung tâm hô hấp bị trơ với CO2 và chỉ còn duy trì nhịp thở nhờ kích thích của thiếu oxy máu (Hypoxic drive). Mặt nạ Venturi giúp kiểm soát nồng độ oxy chuẩn xác ở mức thấp an toàn (24% - 28%), tránh làm tăng oxy quá mức dập tắt phản xạ thở gây ngừng thở hôn mê.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Đích SpO2 an toàn khuyến cáo ở bệnh nhân đợt cấp COPD có nguy cơ ứ CO2 là 88% – 92%."
+  },
+  {
+    "type": "cloze",
+    "text": "Mặt nạ Venturi cung cấp nồng độ oxy chính xác cố định (24% – 50%) theo nguyên lý dòng cao, là lựa chọn số 1 cho bệnh nhân {{c1::đợt cấp COPD có tăng CO2 mạn tính}}, giúp tránh nguy cơ {{c1::tăng oxy quá mức dập tắt phản xạ thở (Hypoxic drive) gây hôn mê do toan CO2}}.",
+    "extra": "💡 Đích SpO2 an toàn duy trì ở bệnh nhân đợt cấp COPD luôn là 88% – 92%."
+  },
+  {
+    "type": "basic",
+    "front": "Thông khí nhân tạo không xâm nhập (NIV): Hai nhóm chỉ định kinh điển và ưu điểm hàng đầu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Nguyên lý:</b> Hỗ trợ thông khí qua mặt nạ mũi - miệng duy trì áp lực dương cuối kỳ thở ra (EPAP/CPAP) mở phế nang và áp lực hỗ trợ hít vào (IPAP/PS) giảm công thở mà không cần đặt ống nội khí quản.<br>• <b>Hai chỉ định hàng đầu (Class I):</b> (1) <b>Đợt cấp COPD có toan hô hấp mất bù (pH 7,25 - 7,35, PaCO2 > 45 mmHg)</b>; (2) <b>Phù phổi cấp huyết động do tim (Cardiogenic Pulmonary Edema)</b> trơ với thuốc.<br>• <b>Ưu điểm:</b> Tránh được các biến chứng nặng của đặt nội khí quản (viêm phổi thở máy VAP, tổn thương thanh quản, an thần dãn cơ kéo dài).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>NIV giúp giảm tỷ lệ đặt nội khí quản và giảm tỷ lệ tử vong lên tới 50% ở bệnh nhân đợt cấp COPD."
+  },
+  {
+    "type": "cloze",
+    "text": "Hai chỉ định hàng đầu mang lại bằng chứng giảm tỷ lệ tử vong cao nhất của Thở máy không xâm nhập (NIV) là: {{c1::Đợt cấp COPD có toan hô hấp}} và {{c1::Phù phổi cấp huyết động do tim}}.",
+    "extra": "💡 Giúp tránh được biến chứng viêm phổi thở máy (VAP) và chấn thương đường thở do đặt ống NKQ."
+  },
+  {
+    "type": "basic",
+    "front": "Tám chống chỉ định tuyệt đối và tương đối của Thở máy không xâm nhập (NIV)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. Nguy kịch ngừng thở, ngừng tim.<br>2. <b>Tụt huyết áp nặng (Huyết áp tâm thu ≤ 90 mmHg) hoặc sốc</b>.<br>3. <b>Rối loạn ý thức, hôn mê (Điểm Glasgow ≤ 12 điểm)</b>.<br>4. Nguy cơ trào ngược cao, nôn mửa liên tục, ho khạc kém ứ đọng đờm dãi.<br>5. Chấn thương, biến dạng hoặc mới mổ vùng hàm mặt.<br>6. Biến dạng nặng cơ xương lồng ngực.<br>7. Tắc nghẽn cơ học đường hô hấp trên.<br>8. Bệnh nhân kích động không hợp tác.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Nếu bệnh nhân có tụt huyết áp hoặc hôn mê (Glasgow ≤ 12), cố chấp cho thở NIV sẽ làm chậm trễ thời gian đặt NKQ và làm tăng tỷ lệ tử vong."
+  },
+  {
+    "type": "cloze",
+    "text": "Các chống chỉ định bắt buộc không được thở máy không xâm nhập (NIV) gồm: Nguy cơ ngừng thở, {{c1::tụt huyết áp HATT ≤ 90 mmHg / sốc}}, {{c1::rối loạn tri giác hôn mê (Glasgow ≤ 12 điểm)}}, và {{c1::nôn trớ nguy cơ trào ngược sặc phổi}}.",
+    "extra": "💡 Ở các bệnh nhân này bắt buộc phải đặt ống nội khí quản thở máy xâm nhập."
+  },
+  {
+    "type": "basic",
+    "front": "Cài đặt các thông số ban đầu của máy thở NIV: Áp lực IPAP, EPAP và giới hạn trần áp lực an toàn?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Áp lực thì thở vào (IPAP):</b> Ban đầu đặt <b>8 – 10 cmH2O</b>, điều chỉnh tăng dần mỗi lần 1 – 2 cmH2O theo đáp ứng lâm sàng.<br>• <b>Giới hạn trần an toàn của IPAP:</b> Tối đa <b>không quá 20 cmH2O</b> (để tránh vượt quá áp lực mở cơ thắt thực quản dưới gây bơm hơi vào dạ dày dẫn đến trào ngược và hít sặc).<br>• <b>Áp lực thì thở ra (EPAP):</b> Ban đầu đặt <b>4 – 5 cmH2O</b>, điều chỉnh tăng giảm mỗi lần 1 – 2 cmH2O.<br>• <b>Thời gian tăng áp lực (Risetime):</b> Đặt 10% – 20%.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Hiệu số giữa IPAP và EPAP chính là áp lực hỗ trợ (Pressure Support - PS = IPAP - EPAP), quyết định thể tích khí lưu thông đưa vào phổi."
+  },
+  {
+    "type": "cloze",
+    "text": "Cài đặt thông số ban đầu máy thở NIV: Áp lực thì hít vào IPAP ban đầu từ {{c1::8 – 10 cmH2O}}, giới hạn trần an toàn tối đa {{c1::không vượt quá 20 cmH2O (tránh tràn khí dạ dày trào ngược)}}; áp lực thì thở ra EPAP ban đầu {{c1::4 – 5 cmH2O}}.",
+    "extra": "💡 Áp lực > 20 cmH2O sẽ thắng áp lực cơ thắt thực quản dưới làm khí tràn vào dạ dày gây nôn sặc."
+  },
+  {
+    "type": "basic",
+    "front": "Cài đặt các thông số ban đầu cơ bản khi bắt đầu thở máy xâm nhập (IMV) qua ống nội khí quản?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Phương thức thở:</b> Kiểm soát thể tích (VCV) hoặc Kiểm soát áp lực (PCV).<br>• <b>Thể tích lưu thông (Vt):</b> Đặt ban đầu <b>8 ml/kg cân nặng lý tưởng (PBW)</b> (riêng ARDSNet đặt 6 ml/kg PBW).<br>• <b>Tần số thở (f):</b> <b>14 – 18 lần/phút</b>.<br>• <b>Tỷ lệ thời gian hít vào/thở ra (I:E):</b> <b>1:1 đến 1:3</b> (ở bệnh nhân COPD kéo dài thì thở ra I:E = 1:2 đến 1:3 để tránh bẫy khí Auto-PEEP).<br>• <b>FiO2:</b> Bắt đầu 100%, sau đó giảm nhanh dần để duy trì SpO2 > 90% – 92%.<br>• <b>PEEP ban đầu:</b> Đặt <b>5 cmH2O</b>.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Luôn luôn tính Vt theo cân nặng lý tưởng (PBW theo chiều cao) chứ không tính theo cân nặng thực tế để tránh thông khí thể tích quá mức gây chấn thương áp lực phổi."
+  },
+  {
+    "type": "cloze",
+    "text": "Cài đặt thông số ban đầu khi thở máy xâm nhập (IMV) chuẩn: Thể tích lưu thông Vt đặt {{c1::8 ml/kg cân nặng lý tưởng (PBW)}}, tần số thở {{c1::14 – 18 lần/phút}}, PEEP ban đầu {{c1::5 cmH2O}}, tỷ lệ I:E ở bệnh nhân tắc nghẽn COPD là {{c1::1:2 đến 1:3 (kéo dài thì thở ra chống bẫy khí)}}.",
+    "extra": "💡 Riêng hội chứng ARDS, Vt bắt buộc phải cài đặt thấp hơn ở mức 6 ml/kg PBW."
+  }
+]

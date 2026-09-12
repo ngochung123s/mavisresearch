@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BÀI HỌC Y KHOA: SIÊU ÂM Ổ BỤNG TỔNG QUÁT — GIẢI PHẪU, MẶT CẮT, BẤT THƯỜNG VÀ QUY TRÌNH THEO TỪNG TẠNG</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+  /* Chart.js canvas: giới hạn max-width để không bị kéo dãn khi render
+     trên màn hình rộng. Kết hợp với height attr trên <canvas> để giữ tỉ lệ.
+     Lý do: Chart.js mặc định maintainAspectRatio=false + responsive=true
+     sẽ fill 100% container width -> bar/doughnut bị oval/méo khi container
+     rộng hơn canvas internal pixel ratio. */
+  canvas { display: block; max-width: 800px; margin: 0 auto; height: auto !important; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+<header class="text-center py-12 mb-12 glass rounded-3xl shadow-lg">
+  <div class="inline-block px-4 py-1 mb-4 rounded-full bg-blue-200 text-blue-800 text-sm font-semibold">
+    Chuyên khoa: Ngày:
+  </div>
+  <h1 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800">BÀI HỌC Y KHOA: SIÊU ÂM Ổ BỤNG TỔNG QUÁT — GIẢI PHẪU, MẶT CẮT, BẤT THƯỜNG VÀ QUY TRÌNH THEO TỪNG TẠNG</h1>
+  <p class="text-stone-600 text-lg">Ngày  | Cho bác sĩ sản phụ khoa / học viên sau đại học</p>
+  <p class="text-sm text-stone-500 mt-2">Bác sĩ: <strong>Ngọc 🍅 🐈‍⬛</strong> | AI: <strong>MiniMax Mavis</strong></p>
+</header><main class="max-w-6xl mx-auto space-y-8">
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">0. TỔNG QUAN — CHỈ ĐỊNH, NGUYÊN LÝ CHUNG</h2>
+<p class="text-stone-700 mb-3">Siêu âm ổ bụng tổng quát là một trong những kỹ thuật chẩn đoán hình ảnh <strong>được chỉ định nhiều nhất</strong> trong thực hành lâm sàng — an toàn, không nhiễm xạ, giá thành thấp, và có thể thực hiện tại giường.</p>
+<p class="text-stone-700 mb-3"><strong>Chỉ định chính:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Đau bụng cấp hoặc mạn tính (hạ sườn phải → nghi túi mật/gan; hố chậu phải → nghi ruột thừa; hạ sườn trái → nghi lách/tụy; hố thắt lưng → nghi thận)</li>
+<li>Vàng da, rối loạn men gan, nghi tắc mật</li>
+<li>Sốt chưa rõ nguyên nhân (tìm abscess, viêm thận, viêm túi mật)</li>
+<li>Tiểu máu, đau hố thắt lưng, nghi sỏi thận</li>
+<li>Sờ thấy khối ổ bụng</li>
+<li>Chấn thương bụng kín (FAST — Focused Assessment with Sonography in Trauma)</li>
+<li>Sàng lọc phình động mạch chủ bụng (AAA screening) ở nam >65 tuổi có tiền sử hút thuốc</li>
+<li>Theo dõi sau ghép tạng, sau phẫu thuật ổ bụng</li></ul>
+<p class="text-stone-700 mb-3"><strong>7 tạng khảo sát bắt buộc theo AIUM 2022:</strong></p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Gan</strong> — nhu mô, mạch máu (TMC, TM gan), đường mật trong gan, kích thước</li>
+<li><strong>Túi mật & Đường mật</strong> — thành, lòng, sỏi, polyp, đường mật chính</li>
+<li><strong>Tụy</strong> — đầu, thân, đuôi, ống tụy (nếu thấy)</li>
+<li><strong>Lách</strong> — kích thước, nhu mô, mạch máu rốn lách</li>
+<li><strong>Thận (2 bên)</strong> — kích thước, phân biệt tủy-vỏ, bể thận, niệu quản (nếu giãn)</li>
+<li><strong>Bàng quang</strong> — thành, lòng, thể tích tồn dư sau tiểu (PVR)</li>
+<li><strong>Động mạch chủ bụng (ĐMC)</strong> — kích thước, thành mạch, mảng xơ vữa, phình, tách</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">1. CHUẨN BỊ BỆNH NHÂN & KỸ THUẬT CHUNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.1. Chuẩn bị bệnh nhân</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Yêu cầu</th><th class="p-2 border whitespace-nowrap">Lý do</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Nhịn đói 6-8 giờ</strong></td><td class="p-2 border">Giảm hơi dạ dày/ruột, túi mật không co bóp → khảo sát tốt hơn</td></tr><tr class=""><td class="p-2 border"><strong>Bàng quang đầy</strong> (uống 500-1000ml nước, nhịn tiểu 1-2h trước siêu âm)</td><td class="p-2 border">Cửa sổ âm cho tiểu khung; bắt buộc nếu siêu âm bàng quang + tử cung/phần phụ</td></tr><tr class=""><td class="p-2 border"><strong>Tháo bỏ trang sức, quần áo vùng bụng</strong></td><td class="p-2 border">Giảm artifact</td></tr><tr class=""><td class="p-2 border"><strong>Tư thế bệnh nhân</strong>: Nằm ngửa (supine) là chính; có thể xoay nghiêng trái/phải hoặc nằm sấp nếu cần</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.2. Thiết bị & Cài đặt</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thông số</th><th class="p-2 border whitespace-nowrap">Giá trị khuyến cáo</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Đầu dò</strong></td><td class="p-2 border">Convex (curvilinear) 2-5 MHz (C5-1 hoặc C5-2) — tần số thấp xuyên sâu, tần số cao cho cấu trúc nông</td></tr><tr class=""><td class="p-2 border"><strong>Độ sâu (Depth)</strong></td><td class="p-2 border">Điều chỉnh sao cho thấy được thành bụng sau (cột sống) và cơ hoành</td></tr><tr class=""><td class="p-2 border"><strong>Gain tổng thể</strong></td><td class="p-2 border">Đủ sáng để thấy rõ nhu mô gan/thận nhưng không quá sáng gây nhiễu</td></tr><tr class=""><td class="p-2 border"><strong>TGC (Time Gain Compensation)</strong></td><td class="p-2 border">Bù trừ suy giảm tín hiệu theo độ sâu — chỉnh để ảnh đồng đều từ nông đến sâu</td></tr><tr class=""><td class="p-2 border"><strong>Tiêu điểm (Focal zone)</strong></td><td class="p-2 border">Đặt ngang vùng quan tâm (vd: ngang mức túi mật khi khảo sát túi mật)</td></tr><tr class=""><td class="p-2 border"><strong>Harmonic Imaging</strong></td><td class="p-2 border">BẬT — cải thiện độ phân giải tương phản, giảm artifact thành bụng</td></tr><tr class=""><td class="p-2 border"><strong>Doppler màu</strong></td><td class="p-2 border">Dùng kiểm tra mạch máu (TMC, TM gan, ĐMC, mạch thận) — PRF thấp cho tĩnh mạch, cao hơn cho động mạch</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.3. Trình tự khảo sát (hệ thống hóa)</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>1. Khảo sát sơ bộ toàn ổ bụng — tìm dịch tự do, khối lớn
+2. GAN: hạ sườn phải + liên sườn → mặt cắt dọc, ngang, dưới sườn
+3. TÚI MẬT + ĐƯỜNG MẬT: hạ sườn phải → dọc + ngang + tư thế nghiêng trái
+4. LÁCH: hạ sườn trái → liên sườn + dọc
+5. TỤY: thượng vị → ngang + dọc, ép bụng để đẩy hơi
+6. THẬN PHẢI: hạ sườn phải/lưng → dọc + ngang
+7. THẬN TRÁI: hạ sườn trái/lưng → dọc + ngang
+8. BÀNG QUANG: hạ vị → dọc + ngang, đo PVR sau khi đi tiểu
+9. ĐMC BỤNG: thượng vị → dọc + ngang, đo đường kính
+10. TỔNG KẾT: ghi nhận bất thường, đo kích thước các tạng</code></pre>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">2. GAN (LIVER)</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.1. Giải phẫu siêu âm</h3>
+<p class="text-stone-700 mb-3">Gan là tạng đặc <strong>lớn nhất</strong> ổ bụng, nằm dưới cơ hoành phải, chia thành <strong>8 hạ phân thùy theo Couinaud</strong> dựa trên phân nhánh TMC và TM gan.</p>
+<p class="text-stone-700 mb-3"><strong>Các cấu trúc giải phẫu siêu âm quan trọng:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Cấu trúc</th><th class="p-2 border whitespace-nowrap">Đặc điểm trên siêu âm</th><th class="p-2 border whitespace-nowrap">Vị trí</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Tĩnh mạch cửa (Portal Vein - TMC)</strong></td><td class="p-2 border">Thành dày, echo dày (do mô liên kết bao quanh), dễ thấy</td><td class="p-2 border">Chia gan thành thùy phải/trái, phân thùy trên/dưới</td></tr><tr class=""><td class="p-2 border"><strong>Tĩnh mạch gan (Hepatic Veins)</strong></td><td class="p-2 border">Thành mỏng, echo kém, hướng về IVC</td><td class="p-2 border">Phân chia gan thành 3 vùng: phải, giữa, trái</td></tr><tr class=""><td class="p-2 border"><strong>Dây chằng liềm (Falciform Ligament)</strong></td><td class="p-2 border">Đường echo dày</td><td class="p-2 border">Phân cách thùy trái và thùy phải</td></tr><tr class=""><td class="p-2 border"><strong>Dây chằng tĩnh mạch (Ligamentum Venosum)</strong></td><td class="p-2 border">Đường echo dày</td><td class="p-2 border">Phân cách thùy đuôi và thùy trái</td></tr><tr class=""><td class="p-2 border"><strong>Tĩnh mạch chủ dưới (IVC)</strong></td><td class="p-2 border">Cấu trúc ống thành mỏng, thay đổi theo hô hấp</td><td class="p-2 border">Phía sau gan, bên phải ĐMC</td></tr><tr class=""><td class="p-2 border"><strong>Ống mật chủ (CBD - Common Bile Duct)</strong></td><td class="p-2 border">Ống nhỏ thành mỏng, nằm trước TMC</td><td class="p-2 border">Rốn gan, thường thấy ở mặt cắt dọc/ngang</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Phân thùy Couinaud trên siêu âm (được chia bởi TM gan và TMC):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">TM gan phải</th><th class="p-2 border whitespace-nowrap">Phân cách hạ phân thùy V-VIII (trước) và VI-VII (sau)</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>TM gan giữa</strong></td><td class="p-2 border">Phân cách gan phải (V, VIII) và gan trái (IV, III, II)</td></tr><tr class=""><td class="p-2 border"><strong>TM gan trái</strong></td><td class="p-2 border">Phân cách hạ phân thùy II (trên) và III (dưới) của gan trái</td></tr><tr class=""><td class="p-2 border"><strong>HPT I (Thùy đuôi)</strong></td><td class="p-2 border">Nằm trước IVC, sau dây chằng tĩnh mạch</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Kích thước bình thường gan ở người lớn:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Trục dọc (đường giữa đòn phải)</strong>: ≤ <strong>15 cm</strong> (thường 13-15 cm)</li>
+<li><strong>Thùy trái</strong>: ≤ 8 cm trục dọc</li>
+<li><strong>Bề mặt</strong>: nhẵn, bờ sắc (bờ tù → gan to hoặc bệnh lý)</li>
+<li><strong>Nhu mô</strong>: echo đồng nhất, hơi tăng echo hơn vỏ thận (bình thường có thể isoechoic hoặc hơi tăng echo nhẹ)</li>
+<li><strong>Góc gan</strong>: sắc (bờ tù → xơ gan giai đoạn muộn)</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.2. Các mặt cắt cần làm</h3>
+<p class="text-stone-700 mb-3"><strong>Mặt cắt dọc (Sagittal/Longitudinal) — 3 vị trí chính:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mặt cắt</th><th class="p-2 border whitespace-nowrap">Vị trí đầu dò</th><th class="p-2 border whitespace-nowrap">Cấu trúc thấy</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Dọc đường giữa đòn phải</strong></td><td class="p-2 border">Dưới bờ sườn phải, hướng lên cơ hoành</td><td class="p-2 border">Gan phải, TM gan phải/giữa, cơ hoành, túi mật (ở mặt cắt hơi chếch)</td></tr><tr class=""><td class="p-2 border"><strong>Dọc thượng vị (giữa)</strong></td><td class="p-2 border">Dưới mũi ức</td><td class="p-2 border">Gan trái (HPT II, III), ĐMC, thân tạng (celiac trunk), ĐM mạc treo tràng trên (SMA)</td></tr><tr class=""><td class="p-2 border"><strong>Dọc cạnh ức trái</strong></td><td class="p-2 border">Cạnh mũi ức trái</td><td class="p-2 border">Gan trái ngoài, dây chằng tĩnh mạch, dây chằng liềm</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Mặt cắt ngang (Transverse/Axial):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mặt cắt</th><th class="p-2 border whitespace-nowrap">Vị trí</th><th class="p-2 border whitespace-nowrap">Cấu trúc thấy</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Ngang thượng vị</strong></td><td class="p-2 border">Dưới mũi ức</td><td class="p-2 border">Gan trái, TMC, IVC, ĐMC, thân tạng</td></tr><tr class=""><td class="p-2 border"><strong>Ngang hạ sườn phải</strong></td><td class="p-2 border">Dưới bờ sườn phải</td><td class="p-2 border">Gan phải, TMC, TM gan, ống mật chủ</td></tr><tr class=""><td class="p-2 border"><strong>Ngang dưới sườn (Subcostal oblique)</strong></td><td class="p-2 border">Đầu dò chếch lên cơ hoành</td><td class="p-2 border">Toàn bộ gan phải + TM gan đổ vào IVC ("Playboy Bunny sign")</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Mặt cắt liên sườn (Intercostal):</strong></p>
+<p class="text-stone-700 mb-3">Dùng khi bệnh nhân có nhiều hơi hoặc gan teo nhỏ (xơ gan). Đặt đầu dò giữa các xương sườn 9-11 đường nách trước/giữa, thấy được gan phải, TMC, TM gan, và túi mật.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.3. Quy trình khảo sát gan</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>BƯỚC 1: Đặt BN nằm ngửa, tay phải giơ lên đầu (mở rộng khoang liên sườn)
+    ↓
+BƯỚC 2: Mặt cắt dọc đường giữa đòn phải → đo KT trục dọc gan phải (<15cm)
+    ↓
+BƯỚC 3: Mặt cắt ngang dưới sườn → đánh giá TM gan, TMC, CBD
+    ↓
+BƯỚC 4: Mặt cắt dọc thượng vị → đánh giá gan trái, KT thùy trái
+    ↓
+BƯỚC 5: Doppler màu TMC (hướng về gan = hepatopetal), TM gan
+    ↓
+BƯỚC 6: Quét toàn bộ nhu mô — tìm tổn thương khu trú (nang, u, abscess...)
+    ↓
+BƯỚC 7: Đánh giá bờ gan (sắc hay tù?), bề mặt (nhẵn hay lổn nhổn?)
+    ↓
+BƯỚC 8: Nếu cần → mặt cắt liên sườn (BN nhiều hơi, gan teo)</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.4. Các dấu hiệu bất thường hay gặp</h3>
+<p class="text-stone-700 mb-3"><strong>A. Gan nhiễm mỡ (Hepatic Steatosis):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Nhu mô tăng echo lan tỏa</strong> ("bright liver")</td><td class="p-2 border">Echo gan >> vỏ thận; không còn thấy rõ TMC và cơ hoành ở độ sâu</td></tr><tr class=""><td class="p-2 border"><strong>Phân độ</strong></td><td class="p-2 border">Nhẹ: tăng echo nhẹ, còn thấy cơ hoành. Vừa: mờ TMC trong gan. Nặng: mất hẳn TMC và cơ hoành phía sau</td></tr><tr class=""><td class="p-2 border"><strong>Gan to</strong></td><td class="p-2 border">Có thể đi kèm, bờ tù</td></tr><tr class=""><td class="p-2 border"><strong>Phân bố khu trú</strong></td><td class="p-2 border">Có thể ưu thế vùng quanh TMC hoặc quanh túi mật → phân biệt với khối</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>B. Xơ gan (Cirrhosis):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Chi tiết</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Bề mặt gan lổn nhổn, nốt</strong></td><td class="p-2 border">Đặc biệt rõ ở mặt cắt dọc — bề mặt không nhẵn</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Bờ gan tù</strong></td><td class="p-2 border">Mất bờ sắc bình thường</td></tr><tr class=""><td class="p-2 border"><strong>HPT I phì đại</strong></td><td class="p-2 border">Thùy đuôi to bất thường — dấu hiệu đặc trưng của xơ gan</td></tr><tr class=""><td class="p-2 border"><strong>Gan teo (giai đoạn muộn)</strong></td><td class="p-2 border">KT trục dọc <12 cm, đặc biệt gan phải</td></tr><tr class=""><td class="p-2 border"><strong>Tăng áp lực TMC</strong></td><td class="p-2 border">TMC giãn (>13mm), lưu lượng chậm hoặc đảo chiều, bàng hệ, lách to, ascites</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>C. Nang gan (Hepatic Cyst):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Dấu hiệu</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Hình dạng</strong></td><td class="p-2 border">Tròn/bầu dục, ranh giới rõ</td></tr><tr class=""><td class="p-2 border"><strong>Echo</strong></td><td class="p-2 border"><strong>Trống âm hoàn toàn</strong> (anechoic), không vách, không vôi hóa</td></tr><tr class=""><td class="p-2 border"><strong>Tăng âm phía sau (Posterior acoustic enhancement)</strong></td><td class="p-2 border">Dấu hiệu đặc trưng của nang đơn thuần</td></tr><tr class=""><td class="p-2 border"><strong>Kích thước</strong></td><td class="p-2 border">Thường <3 cm, có thể rất to</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>D. U máu gan (Hemangioma):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Dấu hiệu</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Lành tính phổ biến nhất</strong></td><td class="p-2 border">Thường phát hiện tình cờ</td></tr><tr class=""><td class="p-2 border"><strong>Echo</strong></td><td class="p-2 border"><strong>Tăng echo</strong> (hyperechoic), đồng nhất, ranh giới rõ</td></tr><tr class=""><td class="p-2 border"><strong>Kích thước</strong></td><td class="p-2 border">Thường <3 cm</td></tr><tr class=""><td class="p-2 border"><strong>Dấu hiệu đặc trưng</strong></td><td class="p-2 border">Dấu hiệu tăng âm phía sau (không điển hình như nang)</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>E. Ung thư gan nguyên phát (HCC):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Khối khu trú</strong></td><td class="p-2 border">Echo hỗn hợp (giảm/tăng echo), bờ không đều, có vỏ bao (capsule)</td></tr><tr class=""><td class="p-2 border"><strong>Xâm lấn mạch máu</strong></td><td class="p-2 border"><strong>Xâm lấn TMC</strong> (portal vein tumor thrombus) — dấu hiệu đặc trưng, phân biệt với huyết khối thường</td></tr><tr class=""><td class="p-2 border"><strong>Nền xơ gan</strong></td><td class="p-2 border">80-90% HCC trên nền xơ gan</td></tr><tr class=""><td class="p-2 border"><strong>Doppler</strong></td><td class="p-2 border">Tăng sinh mạch (hypervascular), phổ động mạch trong khối</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>F. Di căn gan (Metastasis):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Đa ổ</strong></td><td class="p-2 border">Nhiều khối kích thước khác nhau</td></tr><tr class=""><td class="p-2 border"><strong>Echo thay đổi theo nguyên phát</strong></td><td class="p-2 border">Giảm echo (phổ biến nhất), tăng echo (GI, HCC, NET), "target" hoặc "bull's eye" (dấu hiệu đặc trưng của di căn), vôi hóa (mucinous adenocarcinoma)</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">3. TÚI MẬT & ĐƯỜNG MẬT (GALLBLADDER & BILIARY TREE)</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.1. Giải phẫu siêu âm</h3>
+<p class="text-stone-700 mb-3">Túi mật nằm ở hố túi mật (gallbladder fossa), mặt dưới gan phải, giữa HPT IV và V. Là cấu trúc rỗng chứa dịch mật.</p>
+<p class="text-stone-700 mb-3"><strong>Kích thước bình thường:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Dài</strong>: ≤ <strong>10 cm</strong></li>
+<li><strong>Ngang</strong>: ≤ <strong>4 cm</strong></li>
+<li><strong>Thành</strong>: ≤ <strong>3 mm</strong> (đo ở mặt trước, nơi thành vuông góc với chùm tia siêu âm)</li>
+<li><strong>Lòng</strong>: trống âm, không có echo bên trong</li>
+<li><strong>Thể tích</strong>: 35-50 ml khi đói</li></ul>
+<p class="text-stone-700 mb-3"><strong>Mốc giải phẫu quan trọng:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>TMC chính (Main Portal Vein)</strong>: nằm ngay sau cổ túi mật và ống mật chủ</li>
+<li><strong>Ống mật chủ (CBD - Common Bile Duct)</strong>: nằm trước TMC, đường kính ≤ <strong>6 mm</strong> (tăng 1mm mỗi thập kỷ sau 60 tuổi, có thể tới 7-8mm); sau cắt túi mật có thể giãn tới 8-10mm</li>
+<li><strong>Ống gan chung (CHD - Common Hepatic Duct)</strong>: đoạn trước khi hợp lưu với ống túi mật</li>
+<li><strong>Túi mật</strong> → cổ túi mật → ống túi mật → hợp với CHD → CBD → đổ vào tá tràng qua bóng Vater</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.2. Các mặt cắt cần làm</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mặt cắt</th><th class="p-2 border whitespace-nowrap">Vị trí đầu dò</th><th class="p-2 border whitespace-nowrap">Cấu trúc thấy</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Dọc hạ sườn phải</strong></td><td class="p-2 border">Dưới bờ sườn, chếch theo trục túi mật</td><td class="p-2 border">Túi mật dọc — đo dài, thành trước, lòng</td></tr><tr class=""><td class="p-2 border"><strong>Ngang hạ sườn phải</strong></td><td class="p-2 border">Vuông góc với mặt cắt dọc</td><td class="p-2 border">Túi mật ngang — đo ngang, đánh giá lòng</td></tr><tr class=""><td class="p-2 border"><strong>Mặt cắt qua rốn gan</strong></td><td class="p-2 border">Dọc chếch qua rốn gan</td><td class="p-2 border">CBD + TMC ("dấu hiệu shotgun" hoặc "2 ống song song" — CBD nằm trước TMC)</td></tr><tr class=""><td class="p-2 border"><strong>Tư thế nghiêng trái (LLD - Left Lateral Decubitus)</strong></td><td class="p-2 border">BN nằm nghiêng trái, đầu dò dưới bờ sườn phải</td><td class="p-2 border">Túi mật di chuyển, sỏi di động → phân biệt sỏi vs polyp</td></tr><tr class=""><td class="p-2 border"><strong>Tư thế đứng</strong></td><td class="p-2 border">BN đứng hoặc ngồi</td><td class="p-2 border">Sỏi nhỏ di chuyển xuống đáy túi mật, dễ thấy hơn</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.3. Quy trình khảo sát túi mật & đường mật</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>BƯỚC 1: BN nằm ngửa → mặt cắt dọc hạ sườn phải
+    ↓
+BƯỚC 2: Đo KT túi mật (dài <10cm, ngang <4cm), thành trước (<3mm)
+    ↓
+BƯỚC 3: Đánh giá lòng túi mật — sỏi? polyp? bùn?
+    ↓
+BƯỚC 4: Xoay BN nghiêng trái (LLD) → đánh giá di động của sỏi
+    ↓
+BƯỚC 5: Mặt cắt qua rốn gan → tìm CBD, đo đường kính (<6mm)
+    ↓
+BƯỚC 6: Khảo sát đường mật trong gan — bình thường KHÔNG thấy (nếu thấy = giãn)
+    ↓
+BƯỚC 7: Dấu hiệu Murphy siêu âm (dùng đầu dò ấn trực tiếp vào túi mật)
+    ↓
+BƯỚC 8: Đánh giá nhu mô gan quanh túi mật, tụ dịch quanh túi mật</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.4. Các dấu hiệu bất thường hay gặp</h3>
+<p class="text-stone-700 mb-3"><strong>A. Sỏi túi mật (Cholelithiasis):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Hình ảnh điển hình</strong></td><td class="p-2 border">Cấu trúc tăng echo trong lòng túi mật + <strong>bóng cản âm phía sau</strong> (posterior acoustic shadowing)</td></tr><tr class=""><td class="p-2 border"><strong>Di động</strong></td><td class="p-2 border">Sỏi di chuyển khi BN thay đổi tư thế (LLD hoặc đứng) → <strong>dấu hiệu quan trọng phân biệt với polyp</strong></td></tr><tr class=""><td class="p-2 border"><strong>Sỏi bùn (Sludge)</strong></td><td class="p-2 border">Echo thấp, không bóng cản, tạo mặt phẳng dịch-dịch, di chuyển chậm</td></tr><tr class=""><td class="p-2 border"><strong>Sỏi kẹt cổ</strong></td><td class="p-2 border">Sỏi ở cổ túi mật, không di động, có thể gây viêm túi mật cấp</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>B. Viêm túi mật cấp (Acute Cholecystitis):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Chi tiết</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Sỏi kẹt cổ/cổ túi mật</strong></td><td class="p-2 border">Dấu hiệu thường gặp nhất (90-95% các trường hợp)</td></tr><tr class=""><td class="p-2 border"><strong>Dấu hiệu Murphy siêu âm DƯƠNG TÍNH</strong></td><td class="p-2 border">Dùng đầu dò ấn trực tiếp vào túi mật → BN đau chói (quan trọng hơn dày thành)</td></tr><tr class=""><td class="p-2 border"><strong>Thành túi mật dày</strong></td><td class="p-2 border">>3 mm (có thể tới 5-10 mm), thường phù nề 2 lớp ("striated wall")</td></tr><tr class=""><td class="p-2 border"><strong>Túi mật căng to</strong></td><td class="p-2 border">Dài >10 cm, ngang >4 cm</td></tr><tr class=""><td class="p-2 border"><strong>Dịch quanh túi mật (pericholecystic fluid)</strong></td><td class="p-2 border">Dấu hiệu viêm lan ra tổ chức xung quanh</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>C. Polyp túi mật:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Echo</strong></td><td class="p-2 border">Tăng echo, dính vào thành</td></tr><tr class=""><td class="p-2 border"><strong>KHÔNG di động</strong></td><td class="p-2 border">Phân biệt với sỏi — polyp không di chuyển khi BN thay đổi tư thế</td></tr><tr class=""><td class="p-2 border"><strong>KHÔNG có bóng cản</strong></td><td class="p-2 border">Trừ khi vôi hóa</td></tr><tr class=""><td class="p-2 border"><strong>Ngưỡng nguy cơ</strong></td><td class="p-2 border">>10 mm → tăng nguy cơ ác tính → chỉ định cắt túi mật</td></tr><tr class=""><td class="p-2 border"><strong>Tăng sinh Cholesterol (Cholesterolosis)</strong></td><td class="p-2 border">Nhiều polyp nhỏ <5mm, echo dày — lành tính, phổ biến nhất</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>D. Giãn đường mật (Biliary Dilatation):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mức độ</th><th class="p-2 border whitespace-nowrap">CBD</th><th class="p-2 border whitespace-nowrap">Đường mật trong gan</th></tr></thead><tbody><tr class="bg-green-50"><td class="p-2 border"><strong>Bình thường</strong></td><td class="p-2 border">≤6 mm</td><td class="p-2 border">Không thấy</td></tr><tr class=""><td class="p-2 border"><strong>Giãn nhẹ</strong></td><td class="p-2 border">7-10 mm</td><td class="p-2 border">Có thể thấy nhẹ</td></tr><tr class=""><td class="p-2 border"><strong>Giãn rõ</strong></td><td class="p-2 border">>10 mm</td><td class="p-2 border">Giãn rõ, "double channel sign" hoặc "parallel channel sign"</td></tr><tr class=""><td class="p-2 border"><strong>Nguyên nhân</strong></td><td class="p-2 border">Sỏi OMC, u bóng Vater, u đầu tụy, viêm tụy mạn, hẹp đường mật, cholangiocarcinoma</td><td class="p-2 border"></td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>E. Túi mật sứ (Porcelain Gallbladder):</strong></p>
+<p class="text-stone-700 mb-3">Thành túi mật vôi hóa — echo dày mạnh + bóng cản lan rộng. Nguy cơ cao ung thư túi mật → chỉ định cắt túi mật.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">4. TỤY (PANCREAS)</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.1. Giải phẫu siêu âm</h3>
+<p class="text-stone-700 mb-3">Tụy nằm sau phúc mạc, trước ĐMC và IVC, ngang mức L1-L2. Siêu âm tụy là <strong>một trong những kỹ thuật khó nhất</strong> do vị trí sâu và bị hơi dạ dày/đại tràng che khuất.</p>
+<p class="text-stone-700 mb-3"><strong>Cấu trúc giải phẫu siêu âm:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Phần tụy</th><th class="p-2 border whitespace-nowrap">Vị trí & mốc mạch máu</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Đầu tụy (Head)</strong></td><td class="p-2 border">Bên phải ĐMC, nằm trong khung tá tràng; phía trước IVC; <strong>TM mạc treo tràng trên (SMV)</strong> nằm bên phải đầu tụy</td></tr><tr class=""><td class="p-2 border"><strong>Mỏm móc (Uncinate process)</strong></td><td class="p-2 border">Sau SMV, trước ĐMC — thường khó thấy nhất</td></tr><tr class=""><td class="p-2 border"><strong>Cổ tụy (Neck)</strong></td><td class="p-2 border">Ngay trước chỗ hợp lưu SMV + TM lách → TMC</td></tr><tr class=""><td class="p-2 border"><strong>Thân tụy (Body)</strong></td><td class="p-2 border">Trước ĐMC và SMA; <strong>TM lách</strong> chạy dọc bờ sau thân tụy</td></tr><tr class=""><td class="p-2 border"><strong>Đuôi tụy (Tail)</strong></td><td class="p-2 border">Kéo dài về phía rốn lách, trước thận trái — khó thấy nhất do hơi đại tràng góc lách</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Kích thước bình thường (người lớn):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Phần</th><th class="p-2 border whitespace-nowrap">Đường kính trước-sau (AP) bình thường</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Đầu tụy</strong></td><td class="p-2 border">≤ <strong>3.0 cm</strong></td></tr><tr class=""><td class="p-2 border"><strong>Thân tụy</strong></td><td class="p-2 border">≤ <strong>2.5 cm</strong></td></tr><tr class=""><td class="p-2 border"><strong>Đuôi tụy</strong></td><td class="p-2 border">≤ <strong>2.0 cm</strong></td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Ống tụy chính (Duct of Wirsung)</strong>: ≤ <strong>2-3 mm</strong> (bình thường không thấy hoặc rất mảnh)</p>
+<p class="text-stone-700 mb-3"><strong>Nhu mô tụy bình thường:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Echo đồng nhất, hơi tăng echo hơn gan (do mô mỡ xen kẽ ở người lớn tuổi)</li>
+<li>Ở người trẻ: echo tương đương hoặc thấp hơn gan</li>
+<li>Bề mặt nhẵn, bờ rõ</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.2. Các mặt cắt cần làm</h3>
+<p class="text-stone-700 mb-3"><strong>Mặt cắt ngang thượng vị (Transverse Epigastric) — mặt cắt CHÍNH:</strong></p>
+<p class="text-stone-700 mb-3">Đặt đầu dò ngang thượng vị, ấn nhẹ để đẩy hơi dạ dày. Thấy được toàn bộ tụy từ đầu đến đuôi với các mốc mạch máu:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>ĐMC và IVC (mặt cắt tròn) ở giữa</li>
+<li>SMA (tròn, thành dày, echo dày) xuất phát từ ĐMC</li>
+<li>TM lách chạy dọc bờ sau thân/đuôi tụy</li>
+<li>SMV nằm bên phải SMA</li></ul>
+<p class="text-stone-700 mb-3"><strong>Mặt cắt dọc thượng vị:</strong></p>
+<p class="text-stone-700 mb-3">Đặt đầu dò dọc đường giữa, thấy thân tụy nằm trước ĐMC, dưới gan trái.</p>
+<p class="text-stone-700 mb-3"><strong>Mặt cắt qua hạ sườn trái/lưng (cho đuôi tụy):</strong></p>
+<p class="text-stone-700 mb-3">Dùng lách làm cửa sổ âm — đặt đầu dò ở khoang liên sườn trái, thấy được đuôi tụy qua lách.</p>
+<p class="text-stone-700 mb-3"><strong>Mẹo kỹ thuật:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Cho BN uống 300-500 ml nước → dạ dày đầy dịch làm cửa sổ âm tốt hơn</li>
+<li>Ấn từ từ, kiên nhẫn đẩy hơi</li>
+<li>BN hít sâu → gan và lách đẩy xuống làm cửa sổ âm</li>
+<li>Nếu vẫn không thấy → ghi nhận "tụy bị hơi che khuất, không đánh giá được" (đừng cố đoán!)</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.3. Quy trình khảo sát tụy</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>BƯỚC 1: BN nằm ngửa, uống nước nếu cần
+    ↓
+BƯỚC 2: Mặt cắt ngang thượng vị → xác định mốc mạch máu (ĐMC, IVC, SMA, SMV, TM lách)
+    ↓
+BƯỚC 3: Đo KT đầu tụy (<3cm), thân tụy (<2.5cm), đuôi tụy (<2cm)
+    ↓
+BƯỚC 4: Đánh giá echo nhu mô (đồng nhất? tăng/giảm echo?)
+    ↓
+BƯỚC 5: Tìm ống tụy chính (nếu giãn)
+    ↓
+BƯỚC 6: Khảo sát ống mật chủ đoạn trong tụy (intrapancreatic CBD)
+    ↓
+BƯỚC 7: Tìm tổn thương khu trú (nang, khối echo kém)
+    ↓
+BƯỚC 8: Nếu tụy bị che khuất → thử tư thế nghiêng phải, ngồi, hoặc dùng lách làm cửa sổ
+    ↓
+BƯỚC 9: GHI NHẬN nếu không đánh giá được phần nào của tụy</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.4. Các dấu hiệu bất thường hay gặp</h3>
+<p class="text-stone-700 mb-3"><strong>A. Viêm tụy cấp (Acute Pancreatitis):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Tụy TO lan tỏa hoặc khu trú</strong></td><td class="p-2 border">Phù nề → tụy to, bờ không rõ, echo giảm</td></tr><tr class=""><td class="p-2 border"><strong>Dịch quanh tụy</strong></td><td class="p-2 border">Dịch echo trống quanh tụy, khoang cạnh thận trước (anterior pararenal space)</td></tr><tr class=""><td class="p-2 border"><strong>Giãn ống tụy</strong></td><td class="p-2 border">Nếu có sỏi/nguyên nhân tắc</td></tr><tr class=""><td class="p-2 border"><strong>Hoại tử tụy</strong></td><td class="p-2 border">Vùng echo hỗn hợp, không tưới máu trên Doppler</td></tr><tr class=""><td class="p-2 border"><strong>Nang giả tụy (Pseudocyst)</strong></td><td class="p-2 border">Xuất hiện sau 4-6 tuần — cấu trúc nang echo trống, có thể có vách, mảnh vụn bên trong</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>B. Viêm tụy mạn (Chronic Pancreatitis):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Vôi hóa tụy</strong></td><td class="p-2 border">Các nốt echo dày + bóng cản (pathognomonic)</td></tr><tr class=""><td class="p-2 border"><strong>Ống tụy giãn không đều</strong></td><td class="p-2 border">Giãn (>3mm), ngoằn ngoèo, có thể có sỏi trong ống</td></tr><tr class=""><td class="p-2 border"><strong>Teo tụy</strong></td><td class="p-2 border">KT giảm, bờ không đều</td></tr><tr class=""><td class="p-2 border"><strong>Nhu mô tăng echo</strong></td><td class="p-2 border">Không đặc hiệu</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>C. Nang tụy (Pancreatic Cysts):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Loại</th><th class="p-2 border whitespace-nowrap">Đặc điểm</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Nang giả tụy (Pseudocyst)</strong></td><td class="p-2 border">Hậu quả viêm tụy, thành dày, có mảnh vụn, thường ngoài tụy, KHÔNG có lớp biểu mô</td></tr><tr class=""><td class="p-2 border"><strong>Nang tân sinh (Mucinous/Serous Cystadenoma)</strong></td><td class="p-2 border">Có vách, nốt thành, liên quan ống tụy — nguy cơ ác tính</td></tr><tr class=""><td class="p-2 border"><strong>IPMN (Intraductal Papillary Mucinous Neoplasm)</strong></td><td class="p-2 border">Giãn ống tụy chính hoặc nhánh bên, có nốt trong lòng</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>D. Ung thư tụy (Pancreatic Adenocarcinoma):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Khối echo kém (hypoechoic)</strong></td><td class="p-2 border">Đầu tụy (60-70%), ranh giới không rõ</td></tr><tr class=""><td class="p-2 border"><strong>Giãn ống tụy + ống mật chủ</strong> ("double duct sign")</td><td class="p-2 border">Dấu hiệu đặc trưng → u đầu tụy</td></tr><tr class=""><td class="p-2 border"><strong>Xâm lấn mạch máu</strong></td><td class="p-2 border">Mất mặt phẳng mỡ giữa u và SMA/SMV/TMC</td></tr><tr class=""><td class="p-2 border"><strong>Di căn gan, hạch ổ bụng</strong></td><td class="p-2 border"></td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">5. LÁCH (SPLEEN)</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.1. Giải phẫu siêu âm</h3>
+<p class="text-stone-700 mb-3">Lách nằm ở hạ sườn trái, dưới cơ hoành trái, phía trước thận trái. Là tạng đặc, echo đồng nhất, hơi giảm echo hơn gan.</p>
+<p class="text-stone-700 mb-3"><strong>Kích thước bình thường (người lớn):</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Trục dọc (chiều dài)</strong>: ≤ <strong>12 cm</strong> (có thể tới 13 cm ở người cao lớn)</li>
+<li><strong>Diện tích cắt dọc</strong>: ≤ <strong>45 cm²</strong></li>
+<li><strong>Bề dày</strong>: ≤ <strong>5 cm</strong></li>
+<li><strong>Bề mặt</strong>: nhẵn, bờ tù (không sắc như gan)</li>
+<li><strong>Rốn lách (Splenic Hilum)</strong>: TM lách + ĐM lách vào qua rốn lách</li></ul>
+<p class="text-stone-700 mb-3"><strong>Hình dạng:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Mặt cắt dọc: hình bầu dục, lồi về phía cơ hoành, bờ trong hơi lõm (rốn lách)</li>
+<li>Mặt cắt ngang: hình liềm, ôm lấy thận trái</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.2. Các mặt cắt cần làm</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mặt cắt</th><th class="p-2 border whitespace-nowrap">Vị trí đầu dò</th><th class="p-2 border whitespace-nowrap">Cấu trúc thấy</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Dọc hạ sườn trái (Coronal/Sagittal)</strong></td><td class="p-2 border">Khoang liên sườn 9-11 đường nách sau</td><td class="p-2 border">Toàn bộ lách dọc — đo trục dọc + diện tích</td></tr><tr class=""><td class="p-2 border"><strong>Ngang hạ sườn trái</strong></td><td class="p-2 border">Vuông góc, qua khoang liên sườn</td><td class="p-2 border">Lách ngang — đo bề dày</td></tr><tr class=""><td class="p-2 border"><strong>Dọc qua lưng</strong></td><td class="p-2 border">BN nằm nghiêng phải</td><td class="p-2 border">Lách qua thận trái làm cửa sổ âm</td></tr><tr class=""><td class="p-2 border"><strong>Qua hạ sườn trái (Subcostal)</strong></td><td class="p-2 border">Đầu dò dưới bờ sườn trái, hướng lên trên</td><td class="p-2 border">Lách khi to (splenomegaly) — thấy dưới bờ sườn</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Lưu ý</strong>: Lách bình thường KHÔNG thấy dưới bờ sườn. Nếu thấy dưới bờ sườn ở mặt cắt dọc khi BN nằm ngửa → lách to.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.3. Quy trình khảo sát lách</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>BƯỚC 1: BN nằm ngửa hoặc nghiêng phải
+    ↓
+BƯỚC 2: Đầu dò ở khoang liên sườn 9-11 đường nách sau → mặt cắt dọc
+    ↓
+BƯỚC 3: Đo trục dọc lách (<12cm) — từ cực trên đến cực dưới
+    ↓
+BƯỚC 4: Mặt cắt ngang → đo bề dày (<5cm)
+    ↓
+BƯỚC 5: Đánh giá echo nhu mô (đồng nhất? thấp hơn gan)
+    ↓
+BƯỚC 6: Khảo sát rốn lách → mạch máu rốn lách, TM lách
+    ↓
+BƯỚC 7: Tìm lách phụ (splenunculus/accessory spleen) — nốt tròn echo tương tự lách, thường ở rốn lách, <2 cm
+    ↓
+BƯỚC 8: Mặt cắt dưới sườn trái — xác nhận lách KHÔNG vượt quá bờ sườn</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.4. Các dấu hiệu bất thường hay gặp</h3>
+<p class="text-stone-700 mb-3"><strong>A. Lách to (Splenomegaly):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mức độ</th><th class="p-2 border whitespace-nowrap">Trục dọc</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Nhẹ</strong></td><td class="p-2 border">12-14 cm</td></tr><tr class=""><td class="p-2 border"><strong>Vừa</strong></td><td class="p-2 border">14-18 cm</td></tr><tr class=""><td class="p-2 border"><strong>Nặng</strong></td><td class="p-2 border">>18 cm (thấy rõ dưới bờ sườn, có thể tới hố chậu)</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Nguyên nhân thường gặp:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Xơ gan + tăng áp TMC (phổ biến nhất ở VN)</li>
+<li>Nhiễm trùng: sốt rét, EBV (mononucleosis), lao, HIV</li>
+<li>Bệnh lý huyết học: thalassemia, leukemia, lymphoma</li>
+<li>Bệnh tự miễn: lupus, Felty syndrome, sarcoidosis</li>
+<li>Suy tim sung huyết</li></ul>
+<p class="text-stone-700 mb-3"><strong>B. Nang lách (Splenic Cyst):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Nang đơn thuần</strong></td><td class="p-2 border">Echo trống, thành mỏng, không vách, tăng âm phía sau</td></tr><tr class=""><td class="p-2 border"><strong>Nang sau chấn thương</strong></td><td class="p-2 border">Có vách, mảnh vụn, vôi hóa — tiền sử chấn thương</td></tr><tr class=""><td class="p-2 border"><strong>Nang ký sinh trùng (Hydatid cyst)</strong></td><td class="p-2 border">Vách dày, nang con trong nang mẹ, vôi hóa — hiếm gặp ở VN, trừ vùng dịch tễ</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>C. Áp xe lách (Splenic Abscess):</strong></p>
+<p class="text-stone-700 mb-3">Echo hỗn hợp, có thể có dịch + khí (echo dày + bóng cản bẩn). Thường gặp ở BN suy giảm miễn dịch, viêm nội tâm mạc nhiễm trùng.</p>
+<p class="text-stone-700 mb-3"><strong>D. Vỡ lách (Splenic Rupture — chấn thương):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Tụ máu dưới bao (Subcapsular hematoma)</strong></td><td class="p-2 border">Vùng echo hỗn hợp dưới bao lách, hình liềm</td></tr><tr class=""><td class="p-2 border"><strong>Rách nhu mô</strong></td><td class="p-2 border">Đường echo hỗn hợp xuyên nhu mô</td></tr><tr class=""><td class="p-2 border"><strong>Dịch tự do ổ bụng</strong></td><td class="p-2 border">Máu trong ổ bụng → echo trống ± mảnh vụn</td></tr><tr class=""><td class="p-2 border"><strong>Vỡ 2 thì</strong></td><td class="p-2 border">BN ổn định ban đầu → vỡ sau vài giờ đến vài ngày</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>E. Lách phụ (Accessory Spleen):</strong></p>
+<p class="text-stone-700 mb-3">Nốt tròn nhỏ (<2 cm) echo tương tự lách, thường ở rốn lách. Phân biệt với hạch to: lách phụ echo đồng nhất giống lách, hạch thường echo kém hơn. KHÔNG phải bệnh lý — nhưng quan trọng ở BN chuẩn bị cắt lách (phải cắt cả lách phụ nếu cắt lách điều trị).</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">6. THẬN (KIDNEYS)</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.1. Giải phẫu siêu âm</h3>
+<p class="text-stone-700 mb-3">Thận là cặp tạng sau phúc mạc, nằm 2 bên cột sống, ngang mức T12-L3. <strong>Thận phải thấp hơn thận trái</strong> (bị gan đẩy xuống).</p>
+<p class="text-stone-700 mb-3"><strong>Các lớp giải phẫu từ ngoài vào trong:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Lớp</th><th class="p-2 border whitespace-nowrap">Đặc điểm siêu âm</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Bao thận (Renal Capsule)</strong></td><td class="p-2 border">Đường echo dày, liên tục bao quanh thận</td></tr><tr class=""><td class="p-2 border"><strong>Vỏ thận (Cortex)</strong></td><td class="p-2 border">Echo đồng nhất, thấp hoặc tương đương gan/lách; bao gồm cả cột Bertin (cột vỏ thận xen giữa các tháp thận)</td></tr><tr class=""><td class="p-2 border"><strong>Tủy thận (Medulla)</strong></td><td class="p-2 border">Các tháp thận (renal pyramids) hình tam giác/nón, <strong>echo kém hơn</strong> vỏ (có thể bị nhầm là nang hoặc ứ nước!)</td></tr><tr class=""><td class="p-2 border"><strong>Xoang thận (Renal Sinus)</strong></td><td class="p-2 border"><strong>Echo dày trung tâm</strong> (do mỡ xoang thận + mạch máu + đài-bể thận) — mốc siêu âm quan trọng nhất</td></tr><tr class=""><td class="p-2 border"><strong>Bể thận (Renal Pelvis)</strong></td><td class="p-2 border">Có thể thấy 1 lớp dịch mỏng sinh lý trong xoang thận (APD <5 mm)</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Niệu quản</strong></td><td class="p-2 border">Bình thường KHÔNG thấy trên siêu âm (trừ khi giãn)</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Kích thước bình thường (người lớn):</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Chiều dài</strong>: <strong>9-13 cm</strong> (thận trái thường dài hơn thận phải 0.5-1 cm)</li>
+<li><strong>Chênh lệch 2 thận</strong>: ≤ <strong>2 cm</strong></li>
+<li><strong>Bề dày nhu mô</strong> (từ bao thận đến xoang thận): ≥ <strong>1.5 cm</strong></li>
+<li><strong>Bề dày vỏ thận</strong>: ≥ <strong>1.0 cm</strong></li></ul>
+<p class="text-stone-700 mb-3"><strong>Phân biệt tủy-vỏ (Corticomedullary Differentiation - CMD):</strong> Bình thường PHẢI thấy rõ ranh giới giữa vỏ (echo dày) và tủy (echo kém). Mất CMD → bệnh thận mạn.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.2. Các mặt cắt cần làm</h3>
+<p class="text-stone-700 mb-3"><strong>Mỗi thận cần tối thiểu 2 mặt cắt:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mặt cắt</th><th class="p-2 border whitespace-nowrap">Vị trí đầu dò</th><th class="p-2 border whitespace-nowrap">Cấu trúc thấy</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Dọc thận (Longitudinal)</strong></td><td class="p-2 border">Hạ sườn/lưng, dọc theo trục dài của thận</td><td class="p-2 border">Toàn bộ thận — đo chiều dài, đánh giá CMD, xoang thận, bể thận</td></tr><tr class=""><td class="p-2 border"><strong>Ngang thận (Transverse)</strong></td><td class="p-2 border">Vuông góc mặt cắt dọc, qua rốn thận</td><td class="p-2 border">Mặt cắt ngang qua xoang thận, đo bề dày nhu mô, đánh giá APD bể thận</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Vị trí đặt đầu dò cho từng thận:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thận</th><th class="p-2 border whitespace-nowrap">Cửa sổ âm chính</th><th class="p-2 border whitespace-nowrap">Cửa sổ phụ</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Thận phải</strong></td><td class="p-2 border">Hạ sườn phải (qua gan) — mặt cắt dọc và ngang</td><td class="p-2 border">Lưng phải (BN nghiêng trái) nếu nhiều hơi</td></tr><tr class=""><td class="p-2 border"><strong>Thận trái</strong></td><td class="p-2 border">Hạ sườn trái (qua lách) — mặt cắt dọc và ngang</td><td class="p-2 border">Lưng trái (BN nghiêng phải) nếu nhiều hơi</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.3. Quy trình khảo sát thận</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>BƯỚC 1: BN nằm ngửa → khảo sát thận phải qua gan (cửa sổ âm)
+    ↓
+BƯỚC 2: Mặt cắt dọc thận phải → đo chiều dài (9-13cm), đánh giá CMD
+    ↓
+BƯỚC 3: Mặt cắt ngang thận phải → đo APD bể thận (bình thường <5mm T2, <7mm T3 ở thai nhi; ở người lớn: <10mm hoặc không thấy)
+    ↓
+BƯỚC 4: Lặp lại cho thận trái qua lách
+    ↓
+BƯỚC 5: Doppler màu mạch thận (nếu có chỉ định: tăng huyết áp, nghi hẹp ĐM thận)
+    ↓
+BƯỚC 6: Đánh giá niệu quản — chỉ thấy nếu giãn (tắc nghẽn)
+    ↓
+BƯỚC 7: Tìm tổn thương khu trú (nang, sỏi, u, sẹo)
+    ↓
+BƯỚC 8: Nếu thấy bất thường → quét dọc theo niệu quản tìm điểm tắc</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.4. Các dấu hiệu bất thường hay gặp</h3>
+<p class="text-stone-700 mb-3"><strong>A. Thận ứ nước (Hydronephrosis):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Độ</th><th class="p-2 border whitespace-nowrap">Dấu hiệu siêu âm</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Độ I</strong></td><td class="p-2 border">Giãn bể thận nhẹ, đài thận chưa giãn</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Độ II</strong></td><td class="p-2 border">Giãn bể thận + đài thận giãn, nhu mô bình thường</td></tr><tr class=""><td class="p-2 border"><strong>Độ III</strong></td><td class="p-2 border">Giãn rõ bể thận + đài thận, nhu mô mỏng nhẹ</td></tr><tr class=""><td class="p-2 border"><strong>Độ IV</strong></td><td class="p-2 border">Giãn rất to, nhu mô mỏng rõ, thận mất chức năng dần</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Phân biệt ứ nước với nang cạnh bể thận (Parapelvic Cyst):</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Ứ nước</strong>: các đài thận giãn THÔNG với bể thận (hình "nang thông nhau")</li>
+<li><strong>Parapelvic cyst</strong>: nang KHÔNG thông với đài-bể thận, nằm trong xoang thận</li></ul>
+<p class="text-stone-700 mb-3"><strong>B. Sỏi thận (Nephrolithiasis):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Cấu trúc echo dày + bóng cản</strong></td><td class="p-2 border">Trong đài-bể thận hoặc niệu quản</td></tr><tr class=""><td class="p-2 border"><strong>Twinkling artifact (Doppler màu)</strong></td><td class="p-2 border">Tín hiệu màu nhấp nháy phía sau sỏi — <strong>giúp phát hiện sỏi nhỏ KHÔNG có bóng cản rõ</strong></td></tr><tr class=""><td class="p-2 border"><strong>Sỏi san hô (Staghorn Calculus)</strong></td><td class="p-2 border">Sỏi to lấp đầy đài-bể thận, echo dày mạnh hình san hô</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>C. Nang thận (Renal Cyst):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Nang đơn thuần (Bosniak I)</th><th class="p-2 border whitespace-nowrap">Nang phức tạp (Bosniak II-IV)</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Echo</strong></td><td class="p-2 border">Trống âm hoàn toàn</td><td class="p-2 border">Echo hỗn hợp, có vách, nốt</td></tr><tr class=""><td class="p-2 border"><strong>Thành</strong></td><td class="p-2 border">Mỏng, không thấy</td><td class="p-2 border">Dày, có nốt</td></tr><tr class=""><td class="p-2 border"><strong>Tăng âm phía sau</strong></td><td class="p-2 border">Có</td><td class="p-2 border">Có thể có hoặc không</td></tr><tr class=""><td class="p-2 border"><strong>Vôi hóa</strong></td><td class="p-2 border">Không</td><td class="p-2 border">Có thể có</td></tr><tr class=""><td class="p-2 border"><strong>Nguy cơ ác tính</strong></td><td class="p-2 border">~0%</td><td class="p-2 border">Bosniak IIF: 5-10%; III: 50%; IV: >90%</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>D. U thận (Renal Tumor):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Loại</th><th class="p-2 border whitespace-nowrap">Đặc điểm siêu âm</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Renal Cell Carcinoma (RCC)</strong></td><td class="p-2 border">Khối echo hỗn hợp (có thể tăng/giảm/đồng echo), ranh giới rõ hoặc xâm lấn, tăng sinh mạch trên Doppler. RCC dạng nang → phân biệt với nang phức tạp</td></tr><tr class=""><td class="p-2 border"><strong>Angiomyolipoma (AML)</strong></td><td class="p-2 border"><strong>Tăng echo rất mạnh</strong> (do mỡ), đồng nhất — lành tính, thường phát hiện tình cờ. >4 cm → nguy cơ chảy máu</td></tr><tr class=""><td class="p-2 border"><strong>Transitional Cell Carcinoma (TCC)</strong></td><td class="p-2 border">Khối echo kém trong xoang thận, gây giãn đài-bể thận</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>E. Bệnh thận mạn (CKD — Chronic Kidney Disease):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Thận teo</strong></td><td class="p-2 border">Chiều dài <9 cm, bờ không đều</td></tr><tr class=""><td class="p-2 border"><strong>Mất phân biệt tủy-vỏ</strong></td><td class="p-2 border">Không còn thấy rõ ranh giới vỏ-tủy</td></tr><tr class=""><td class="p-2 border"><strong>Nhu mô mỏng</strong></td><td class="p-2 border"><1.5 cm</td></tr><tr class=""><td class="p-2 border"><strong>Nang mắc phải</strong></td><td class="p-2 border">Có thể có nang nhỏ ở BN chạy thận lâu năm</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>F. Thận đa nang (ADPKD — Autosomal Dominant Polycystic Kidney Disease):</strong></p>
+<p class="text-stone-700 mb-3">Hai thận to, vô số nang kích thước khác nhau, mất cấu trúc thận bình thường. Có thể kèm nang gan, nang tụy, phình mạch não.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">7. BÀNG QUANG (URINARY BLADDER)</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.1. Giải phẫu siêu âm</h3>
+<p class="text-stone-700 mb-3">Bàng quang là tạng rỗng chứa nước tiểu, nằm sau xương mu, trước tử cung (nữ) hoặc trực tràng (nam).</p>
+<p class="text-stone-700 mb-3"><strong>Cấu trúc siêu âm khi đầy nước tiểu:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Cấu trúc</th><th class="p-2 border whitespace-nowrap">Đặc điểm</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Lòng bàng quang</strong></td><td class="p-2 border">Echo trống (anechoic), đồng nhất</td></tr><tr class=""><td class="p-2 border"><strong>Thành bàng quang</strong></td><td class="p-2 border">Đường echo dày, ≤ <strong>3 mm</strong> (đo ở mặt trước, nơi thành vuông góc với chùm siêu âm; khi đầy vừa phải)</td></tr><tr class=""><td class="p-2 border"><strong>Lỗ niệu quản (Ureteral Orifices)</strong></td><td class="p-2 border">2 lỗ nhỏ ở thành sau-bên, có thể thấy tia nước tiểu (ureteral jet) trên Doppler màu</td></tr><tr class=""><td class="p-2 border"><strong>Túi thừa (Diverticulum)</strong></td><td class="p-2 border">Túi thoát vị niêm mạc qua thành cơ — cấu trúc nang thông với lòng bàng quang</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.2. Các mặt cắt cần làm</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mặt cắt</th><th class="p-2 border whitespace-nowrap">Vị trí</th><th class="p-2 border whitespace-nowrap">Cấu trúc thấy</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Dọc hạ vị (Sagittal)</strong></td><td class="p-2 border">Trên xương mu, hướng xuống</td><td class="p-2 border">Bàng quang dọc — đo dài, thành trước-sau, đánh giá đáy, lỗ niệu đạo</td></tr><tr class=""><td class="p-2 border"><strong>Ngang hạ vị (Transverse)</strong></td><td class="p-2 border">Vuông góc</td><td class="p-2 border">Bàng quang ngang — đo ngang, 2 lỗ niệu quản, thành bên</td></tr><tr class=""><td class="p-2 border"><strong>Sau tiểu (Post-void)</strong></td><td class="p-2 border">Siêu âm lại sau khi BN đi tiểu</td><td class="p-2 border">Đo thể tích nước tiểu tồn dư (PVR)</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.3. Quy trình khảo sát bàng quang</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>BƯỚC 1: BN nằm ngửa, bàng quang đầy vừa phải
+    ↓
+BƯỚC 2: Mặt cắt dọc hạ vị → đo trục dọc, đánh giá thành trước và sau
+    ↓
+BƯỚC 3: Mặt cắt ngang → đo trục ngang, đánh giá thành bên
+    ↓
+BƯỚC 4: Doppler màu → tìm tia niệu quản 2 bên (xác nhận không tắc)
+    ↓
+BƯỚC 5: Tìm bất thường: sỏi, u, túi thừa, thành dày
+    ↓
+BƯỚC 6: Đo PVR (Post-Void Residual) → BN đi tiểu, siêu âm ngay sau đó
+    ↓
+BƯỚC 7: Đo 3 kích thước (dài × ngang × cao) × 0.52 = thể tích tồn dư (ml)</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.4. Các dấu hiệu bất thường hay gặp</h3>
+<p class="text-stone-700 mb-3"><strong>A. Sỏi bàng quang (Bladder Calculus):</strong></p>
+<p class="text-stone-700 mb-3">Echo dày mạnh trong lòng + bóng cản, DI ĐỘNG khi BN thay đổi tư thế (phân biệt với sỏi kẹt niệu quản đoạn trong thành bàng quang — không di động).</p>
+<p class="text-stone-700 mb-3"><strong>B. U bàng quang (Bladder Tumor — TCC):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Khối nhô vào lòng</strong></td><td class="p-2 border">Echo hỗn hợp, dính vào thành, KHÔNG di động, KHÔNG bóng cản</td></tr><tr class=""><td class="p-2 border"><strong>Doppler màu</strong></td><td class="p-2 border">Có tín hiệu mạch trong khối (phân biệt với cục máu đông)</td></tr><tr class=""><td class="p-2 border"><strong>Vị trí</strong></td><td class="p-2 border">Thường ở thành sau-bên, quanh lỗ niệu quản</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>C. Thành bàng quang dày:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Nguyên nhân</th><th class="p-2 border whitespace-nowrap">Đặc điểm</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Tắc nghẽn đường ra</strong> (BPH, hẹp niệu đạo)</td><td class="p-2 border">Dày lan tỏa, thành trơn nhẵn, có thể có bè (trabeculation) và túi thừa</td></tr><tr class=""><td class="p-2 border"><strong>Viêm bàng quang</strong></td><td class="p-2 border">Dày thành + echo kém (phù nề)</td></tr><tr class=""><td class="p-2 border"><strong>Bàng quang thần kinh</strong></td><td class="p-2 border">Dày thành + bè + nhiều túi thừa</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>D. Nước tiểu tồn dư (PVR — Post-Void Residual):</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Bình thường</strong>: < <strong>50 ml</strong> (có thể tới 100 ml ở người già)</li>
+<li><strong>Tăng</strong>: >100 ml → gợi ý tắc nghẽn đường ra hoặc bàng quang thần kinh</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">8. ĐỘNG MẠCH CHỦ BỤNG (ABDOMINAL AORTA)</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">8.1. Giải phẫu siêu âm</h3>
+<p class="text-stone-700 mb-3">ĐMC bụng chạy trước cột sống, hơi lệch trái đường giữa, từ cơ hoành (T12) đến chỗ chia đôi (L4) thành 2 ĐM chậu chung.</p>
+<p class="text-stone-700 mb-3"><strong>Các nhánh chính (từ trên xuống dưới):</strong></p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Thân tạng (Celiac Trunk)</strong> — chia 3 nhánh: ĐM gan chung, ĐM lách, ĐM vị trái (hình "mòng biển" — seagull sign)</li>
+<li><strong>ĐM mạc treo tràng trên (SMA)</strong> — chạy song song ĐMC, bên trái có TM mạc treo tràng trên (SMV)</li>
+<li><strong>ĐM thận (Renal Arteries)</strong> — xuất phát ngay dưới SMA, chạy ra 2 bên</li>
+<li><strong>ĐM mạc treo tràng dưới (IMA)</strong> — nhỏ, thường khó thấy</li>
+<li><strong>Chia đôi ĐM chậu chung</strong> — ngang mức L4 (ngang rốn)</li></ol>
+<p class="text-stone-700 mb-3"><strong>Kích thước bình thường:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>ĐMC đoạn trên thận</strong>: ≤ <strong>2.5-3.0 cm</strong> (đường kính trước-sau, đo từ bờ ngoài đến bờ ngoài)</li>
+<li><strong>ĐMC đoạn dưới thận</strong>: ≤ <strong>2.0 cm</strong> (hơi nhỏ hơn)</li>
+<li><strong>Thành ĐMC</strong>: ≤ <strong>3 mm</strong></li>
+<li><strong>Lòng</strong>: echo trống, dòng chảy xoáy nhẹ</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">8.2. Các mặt cắt cần làm</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mặt cắt</th><th class="p-2 border whitespace-nowrap">Vị trí</th><th class="p-2 border whitespace-nowrap">Mục đích</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Dọc thượng vị — rốn (Sagittal)</strong></td><td class="p-2 border">Dọc đường giữa, từ mũi ức đến rốn</td><td class="p-2 border">Đo đường kính trước-sau ĐMC, thấy các nhánh chính, đánh giá thành, mảng xơ vữa</td></tr><tr class=""><td class="p-2 border"><strong>Ngang thượng vị (Transverse)</strong></td><td class="p-2 border">Vuông góc, nhiều mức (trên thận, ngang thận, dưới thận, chỗ chia đôi)</td><td class="p-2 border">Đo đường kính ngang, đánh giá phình/tách</td></tr><tr class=""><td class="p-2 border"><strong>Ngang trên rốn</strong></td><td class="p-2 border">Chỗ chia đôi ĐM chậu chung</td><td class="p-2 border">Kiểm tra phình ĐM chậu kèm theo</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">8.3. Quy trình khảo sát ĐMC bụng</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>BƯỚC 1: BN nằm ngửa, đầu dò dọc thượng vị
+    ↓
+BƯỚC 2: Mặt cắt dọc — quét từ cơ hoành đến chỗ chia đôi (ngang rốn)
+    ↓
+BƯỚC 3: Đo đường kính TRƯỚC-SAU (AP) — từ bờ NGOÀI thành trước đến bờ NGOÀI thành sau
+    ↓
+BƯỚC 4: Đo ở 3 mức: đoạn TRÊN thận, đoạn DƯỚI thận, và ngay TRÊN chỗ chia đôi
+    ↓
+BƯỚC 5: Mặt cắt ngang ở từng mức → đo đường kính ngang
+    ↓
+BƯỚC 6: Đánh giá thành mạch: dày? vôi hóa? mảng xơ vữa? huyết khối thành?
+    ↓
+BƯỚC 7: Doppler màu → xác nhận dòng chảy, tìm hẹp, tách thành (flap)
+    ↓
+BƯỚC 8: Kiểm tra ĐM chậu chung 2 bên (có phình kèm theo không?)</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">8.4. Các dấu hiệu bất thường hay gặp</h3>
+<p class="text-stone-700 mb-3"><strong>A. Phình động mạch chủ bụng (AAA — Abdominal Aortic Aneurysm):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Đường kính</strong></td><td class="p-2 border">≥ <strong>3.0 cm</strong> (một số guideline dùng ngưỡng >2.5 cm cho đoạn dưới thận)</td></tr><tr class=""><td class="p-2 border"><strong>Hình thoi (Fusiform)</strong></td><td class="p-2 border">Phổ biến nhất — giãn lan tỏa đoạn dưới thận</td></tr><tr class=""><td class="p-2 border"><strong>Hình túi (Saccular)</strong></td><td class="p-2 border">Giãn khu trú 1 bên</td></tr><tr class=""><td class="p-2 border"><strong>Huyết khối thành (Mural Thrombus)</strong></td><td class="p-2 border">Echo hỗn hợp bám vào thành, lòng mạch còn lại hẹp</td></tr><tr class=""><td class="p-2 border"><strong>Nguy cơ vỡ</strong></td><td class="p-2 border">Nam: >5.5 cm → nguy cơ vỡ 10-20%/năm; Nữ: >5.0 cm</td></tr><tr class=""><td class="p-2 border"><strong>Sàng lọc</strong></td><td class="p-2 border">Khuyến cáo siêu âm 1 lần cho nam 65-75 tuổi có tiền sử hút thuốc (USPSTF)</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>B. Tách thành động mạch chủ (Aortic Dissection):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Flap nội mạc</strong></td><td class="p-2 border">Dải echo mảnh di động trong lòng ĐMC, phân chia lòng thật và lòng giả</td></tr><tr class=""><td class="p-2 border"><strong>Doppler màu</strong></td><td class="p-2 border">Dòng chảy khác nhau giữa lồng thật (nhanh, sáng) và lồng giả (chậm, tối)</td></tr><tr class=""><td class="p-2 border"><strong>Cấp cứu tối khẩn</strong></td><td class="p-2 border">Nếu nghi ngờ → CT mạch máu khẩn</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>C. Xơ vữa động mạch chủ (Atherosclerosis):</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Mảng xơ vữa</strong></td><td class="p-2 border">Echo hỗn hợp dọc thành mạch</td></tr><tr class=""><td class="p-2 border"><strong>Vôi hóa</strong></td><td class="p-2 border">Echo dày + bóng cản dọc thành</td></tr><tr class=""><td class="p-2 border"><strong>Thành dày, không đều</strong></td><td class="p-2 border"></td></tr><tr class=""><td class="p-2 border"><strong>Loét</strong></td><td class="p-2 border">Ổ loét xuyên qua mảng xơ vữa → nguy cơ thuyên tắc</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">9. BẢNG TỔNG HỢP BẤT THƯỜNG HAY GẶP THEO TỪNG TẠNG</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Tạng</th><th class="p-2 border whitespace-nowrap">Dấu hiệu siêu âm</th><th class="p-2 border whitespace-nowrap">Nghĩ đến</th><th class="p-2 border whitespace-nowrap">Hành động tiếp theo</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Gan</strong></td><td class="p-2 border">Tăng echo lan tỏa, mờ mạch máu sâu</td><td class="p-2 border">Gan nhiễm mạch</td><td class="p-2 border">Đánh giá men gan, mỡ máu, siêu âm đàn hồi (FibroScan)</td></tr><tr class=""><td class="p-2 border"><strong>Gan</strong></td><td class="p-2 border">Bề mặt lổn nhổn, bờ tù, thùy đuôi to, lách to, ascites</td><td class="p-2 border">Xơ gan</td><td class="p-2 border">Công thức máu, chức năng gan, INR, FibroScan, tầm soát HCC bằng AFP + siêu âm 6 tháng/lần</td></tr><tr class=""><td class="p-2 border"><strong>Gan</strong></td><td class="p-2 border">Khối echo kém ± xâm lấn TMC, nền xơ gan</td><td class="p-2 border">HCC</td><td class="p-2 border">AFP, CT/MRI bụng có cản quang, sinh thiết nếu cần</td></tr><tr class=""><td class="p-2 border"><strong>Gan</strong></td><td class="p-2 border">Nhiều khối echo hỗn hợp, "target sign"</td><td class="p-2 border">Di căn gan</td><td class="p-2 border">Tìm nguyên phát, CT/MRI, sinh thiết</td></tr><tr class=""><td class="p-2 border"><strong>Túi mật</strong></td><td class="p-2 border">Echo dày + bóng cản, di động khi LLD</td><td class="p-2 border">Sỏi túi mật</td><td class="p-2 border">Không triệu chứng → theo dõi; có triệu chứng → phẫu thuật</td></tr><tr class=""><td class="p-2 border"><strong>Túi mật</strong></td><td class="p-2 border">Murphy (+), thành dày >3mm, dịch quanh túi mật, sỏi kẹt</td><td class="p-2 border">Viêm túi mật cấp</td><td class="p-2 border">Nhập viện, kháng sinh, phẫu thuật cấp cứu</td></tr><tr class=""><td class="p-2 border"><strong>Túi mật</strong></td><td class="p-2 border">Nốt echo dày dính thành, không di động</td><td class="p-2 border">Polyp túi mật</td><td class="p-2 border"><10mm → siêu âm theo dõi 6-12 tháng; >10mm → cắt túi mật</td></tr><tr class=""><td class="p-2 border"><strong>Đường mật</strong></td><td class="p-2 border">CBD >6mm (chưa cắt TM), giãn đường mật trong gan</td><td class="p-2 border">Tắc mật</td><td class="p-2 border">Tìm nguyên nhân (sỏi OMC, u đầu tụy, u bóng Vater), MRCP/ERCP</td></tr><tr class=""><td class="p-2 border"><strong>Tụy</strong></td><td class="p-2 border">To lan tỏa, echo kém, dịch quanh tụy</td><td class="p-2 border">Viêm tụy cấp</td><td class="p-2 border">Amylase/lipase máu, nhập viện, bù dịch, nhịn ăn</td></tr><tr class=""><td class="p-2 border"><strong>Tụy</strong></td><td class="p-2 border">Vôi hóa, ống tụy giãn ngoằn ngoèo, teo tụy</td><td class="p-2 border">Viêm tụy mạn</td><td class="p-2 border">Men tụy, chức năng tụy, kiểm soát đau, theo dõi biến chứng</td></tr><tr class=""><td class="p-2 border"><strong>Tụy</strong></td><td class="p-2 border">Khối echo kém đầu tụy + double duct sign</td><td class="p-2 border">Ung thư tụy</td><td class="p-2 border">CT/MRI, CA19-9, sinh thiết, hội chẩn ngoại khoa</td></tr><tr class=""><td class="p-2 border"><strong>Lách</strong></td><td class="p-2 border">Trục dọc >12cm</td><td class="p-2 border">Lách to</td><td class="p-2 border">Tìm nguyên nhân (xơ gan, nhiễm trùng, huyết học)</td></tr><tr class=""><td class="p-2 border"><strong>Thận</strong></td><td class="p-2 border">Echo dày + bóng cản trong đài-bể thận</td><td class="p-2 border">Sỏi thận</td><td class="p-2 border">Theo dõi nếu <5mm; tán sỏi/phẫu thuật nếu >10mm hoặc có biến chứng</td></tr><tr class=""><td class="p-2 border"><strong>Thận</strong></td><td class="p-2 border">Giãn đài-bể thận, niệu quản giãn</td><td class="p-2 border">Thận ứ nước</td><td class="p-2 border">Tìm mức độ tắc (CT, IVP), can thiệp nếu ứ nước độ III-IV</td></tr><tr class=""><td class="p-2 border"><strong>Thận</strong></td><td class="p-2 border">Cấu trúc trống âm, thành mỏng, tăng âm phía sau</td><td class="p-2 border">Nang thận đơn thuần</td><td class="p-2 border">Bosniak I → không cần theo dõi</td></tr><tr class=""><td class="p-2 border"><strong>Thận</strong></td><td class="p-2 border">Khối echo hỗn hợp, tăng sinh mạch</td><td class="p-2 border">RCC</td><td class="p-2 border">CT/MRI, hội chẩn tiết niệu</td></tr><tr class=""><td class="p-2 border"><strong>Thận</strong></td><td class="p-2 border">Khối tăng echo rất mạnh</td><td class="p-2 border">AML (Angiomyolipoma)</td><td class="p-2 border"><4cm → theo dõi; >4cm → nguy cơ chảy máu, cân nhắc can thiệp</td></tr><tr class=""><td class="p-2 border"><strong>Bàng quang</strong></td><td class="p-2 border">Echo dày + bóng cản, di động</td><td class="p-2 border">Sỏi bàng quang</td><td class="p-2 border">Soi bàng quang, tán sỏi</td></tr><tr class=""><td class="p-2 border"><strong>Bàng quang</strong></td><td class="p-2 border">Khối nhú vào lòng, không di động, có tín hiệu Doppler</td><td class="p-2 border">U bàng quang (TCC)</td><td class="p-2 border">Soi bàng quang + sinh thiết, CT</td></tr><tr class=""><td class="p-2 border"><strong>Bàng quang</strong></td><td class="p-2 border">PVR >100ml</td><td class="p-2 border">Bí tiểu không hoàn toàn</td><td class="p-2 border">Tìm nguyên nhân (BPH, hẹp niệu đạo, bàng quang thần kinh)</td></tr><tr class=""><td class="p-2 border"><strong>ĐMC</strong></td><td class="p-2 border">Đường kính ≥3cm, thường dưới ĐM thận</td><td class="p-2 border">AAA</td><td class="p-2 border">Siêu âm theo dõi mỗi 6-12 tháng; >5.5cm → phẫu thuật</td></tr><tr class=""><td class="p-2 border"><strong>ĐMC</strong></td><td class="p-2 border">Flap nội mạc + 2 lòng</td><td class="p-2 border">Tách thành ĐMC</td><td class="p-2 border">CẤP CỨU — CT mạch máu khẩn</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">10. LƯU ĐỒ KHẢO SÁT Ổ BỤNG</h2>
+<div class="mermaid text-center my-6">flowchart TD
+    START["SIÊU ÂM Ổ BỤNG<br>Chuẩn bị: nhịn đói 6-8h, bàng quang đầy"] --> SCREEN["Quét sơ bộ toàn bụng<br>Tìm dịch tự do, khối lớn"]
+    SCREEN --> LIVER["1. GAN<br>Dọc+ngang hạ sườn P<br>Đo KT, TM gan, TMC, CBD<br>Đánh giá nhu mô"]
+    LIVER --> GB["2. TÚI MẬT+ĐƯỜNG MẬT<br>Dọc+ngang hạ sườn P<br>Đo thành, tìm sỏi/polyp<br>CBD, Murphy, LLD test"]
+    GB --> SPLEEN["3. LÁCH<br>Liên sườn trái<br>Đo trục dọc (<12cm)"]
+    SPLEEN --> PANCREAS["4. TỤY<br>Ngang thượng vị<br>Đầu <3cm, Thân <2.5cm<br>Ống tụy, CBD đoạn tụy"]
+    PANCREAS --> RKIDNEY["5. THẬN PHẢI<br>Dọc+ngang qua gan<br>Đo dài, CMD, APD"]
+    RKIDNEY --> LKIDNEY["6. THẬN TRÁI<br>Dọc+ngang qua lách<br>Đo dài, CMD, APD"]
+    LKIDNEY --> BLADDER["7. BÀNG QUANG<br>Dọc+ngang hạ vị<br>Thành <3mm, sỏi, u<br>PVR sau tiểu"]
+    BLADDER --> AORTA["8. ĐMC BỤNG<br>Dọc+ngang thượng vị-rốn<br>Đo AP ở 3 mức<br><3cm bình thường"]
+    AORTA --> CHECK{"Phát hiện<br>bất thường?"}
+    CHECK -->|"CÓ"| ACTION["Phân loại mức độ<br>Khẩn: AAA vỡ, tách ĐMC<br>Cấp: viêm túi mật, viêm tụy<br>Bán cấp: u, sỏi, nang<br>→ Hội chẩn chuyên khoa"]
+    CHECK -->|"KHÔNG"| NORMAL["KẾT LUẬN:<br>Siêu âm ổ bụng<br>trong giới hạn bình thường"]
+    
+    style START fill:#e3f2fd,stroke:#1976d2
+    style LIVER fill:#c8e6c9,stroke:#388e3c
+    style GB fill:#c8e6c9,stroke:#388e3c
+    style SPLEEN fill:#c8e6c9,stroke:#388e3c
+    style PANCREAS fill:#c8e6c9,stroke:#388e3c
+    style RKIDNEY fill:#c8e6c9,stroke:#388e3c
+    style LKIDNEY fill:#c8e6c9,stroke:#388e3c
+    style BLADDER fill:#c8e6c9,stroke:#388e3c
+    style AORTA fill:#c8e6c9,stroke:#388e3c
+    style ACTION fill:#ffcdd2,stroke:#c62828
+    style NORMAL fill:#c8e6c9,stroke:#388e3c
+    style CHECK fill:#fff3cd,stroke:#f57c00</div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">11. SAI LẦM THƯỜNG GẶP</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">#</th><th class="p-2 border whitespace-nowrap">Sai lầm</th><th class="p-2 border whitespace-nowrap">Hậu quả</th><th class="p-2 border whitespace-nowrap">Cách tránh</th></tr></thead><tbody><tr class=""><td class="p-2 border">1</td><td class="p-2 border"><strong>Không nhịn đói → siêu âm ngay</strong></td><td class="p-2 border">Túi mật co bóp không đánh giá được; hơi dạ dày/ruột che khuất tụy và ĐMC</td><td class="p-2 border">Yêu cầu BN nhịn đói 6-8h, hẹn lịch siêu âm buổi sáng</td></tr><tr class=""><td class="p-2 border">2</td><td class="p-2 border"><strong>Chỉ đo đường kính trong (inner-to-inner) của ĐMC</strong></td><td class="p-2 border">Đánh giá thấp kích thước thật, bỏ sót phình ĐMC</td><td class="p-2 border">Đo <strong>outer-to-outer</strong> (bờ ngoài thành trước đến bờ ngoài thành sau)</td></tr><tr class=""><td class="p-2 border">3</td><td class="p-2 border"><strong>Nhầm tháp thận (renal pyramid) với nang hoặc ứ nước</strong></td><td class="p-2 border">Chẩn đoán sai, gây lo lắng không cần thiết</td><td class="p-2 border">Tháp thận echo kém nhưng XẾP THEO HÀNG, không thông với bể thận, KHÔNG tăng âm phía sau</td></tr><tr class=""><td class="p-2 border">4</td><td class="p-2 border"><strong>Không đổi tư thế BN khi khảo sát túi mật</strong></td><td class="p-2 border">Sỏi nhỏ không di động → nhầm với polyp</td><td class="p-2 border">Luôn cho BN nằm nghiêng trái (LLD) hoặc đứng → sỏi di động, polyp không</td></tr><tr class=""><td class="p-2 border">5</td><td class="p-2 border"><strong>Nhầm polyp túi mật với sỏi không bóng cản</strong></td><td class="p-2 border">Quyết định sai (cắt/không cắt túi mật)</td><td class="p-2 border">Phân biệt: sỏi DI ĐỘNG khi thay đổi tư thế; polyp KHÔNG di động và KHÔNG có bóng cản</td></tr><tr class=""><td class="p-2 border">6</td><td class="p-2 border"><strong>Không đo PVR (nước tiểu tồn dư)</strong></td><td class="p-2 border">Bỏ sót bí tiểu không hoàn toàn, tắc nghẽn đường ra</td><td class="p-2 border">Luôn đo PVR nếu có chỉ định siêu âm bàng quang</td></tr><tr class="bg-green-50"><td class="p-2 border">7</td><td class="p-2 border"><strong>Kết luận "tụy bình thường" khi không thấy rõ</strong></td><td class="p-2 border">Bỏ sót bệnh lý tụy</td><td class="p-2 border">Ghi rõ "tụy bị hơi che khuất, không đánh giá được phần nào"</td></tr><tr class=""><td class="p-2 border">8</td><td class="p-2 border"><strong>Không so sánh 2 thận với nhau</strong></td><td class="p-2 border">Bỏ sót bất thường 1 bên</td><td class="p-2 border">Luôn so sánh kích thước + CMD 2 thận; chênh lệch >2cm là bất thường</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">12. ÁP DỤNG TẠI VIỆT NAM</h2>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Máy siêu âm</strong>: Phần lớn bệnh viện Việt Nam (từ tuyến huyện) đã có máy siêu âm có đầu dò convex 2-5 MHz — đủ khả năng siêu âm ổ bụng tổng quát.</li>
+<li><strong>Đào tạo</strong>: Một số bác sĩ thiếu kiến thức giải phẫu mặt cắt (cross-sectional anatomy) — dễ nhầm cấu trúc bình thường (tháp thận, cột Bertin, dây chằng liềm) với bệnh lý.</li>
+<li><strong>BHYT</strong>: Siêu âm ổ bụng được BHYT chi trả — nên chỉ định rộng rãi và hợp lý.</li>
+<li><strong>Bối cảnh Việt Nam — các bệnh lý đặc thù:</strong></li></ul>
+<p class="text-stone-700 mb-3">  - <strong>Xơ gan do viêm gan B/C và rượu</strong>: Rất phổ biến. Tỷ lệ nhiễm HBV ~8-10% dân số → luôn hỏi tiền sử viêm gan khi thấy gan bất thường.</p>
+<p class="text-stone-700 mb-3">  - <strong>Sỏi mật, sỏi thận</strong>: Tỷ lệ mắc cao, đặc biệt ở miền Trung (nước cứng, thói quen ăn uống).</p>
+<p class="text-stone-700 mb-3">  - <strong>Áp xe gan amip</strong>: Hay gặp ở VN so với phương Tây → khi thấy tổn thương dạng nang/áp xe trong gan, luôn nghĩ đến amip.</p>
+<p class="text-stone-700 mb-3">  - <strong>Lách to do sốt rét, thalassemia</strong>: Vẫn còn ở một số vùng.</p>
+<p class="text-stone-700 mb-3">  - <strong>Ung thư gan (HCC)</strong>: Một trong những ung thư phổ biến nhất ở VN, thường trên nền xơ gan do viêm gan B.</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Siêu âm đàn hồi gan (FibroScan)</strong>: Đã có ở hầu hết BV tỉnh trở lên — bổ sung cho siêu âm 2D trong đánh giá xơ gan.</li>
+<li><strong>CT/MRI</strong>: Có sẵn ở BV tuyến tỉnh nhưng chi phí cao hơn → siêu âm vẫn là bước đầu không thể thiếu.</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">13. TIPS THỰC HÀNH — 10 TIPS</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Luôn bắt đầu với quét sơ bộ toàn ổ bụng</strong> — tìm dịch tự do, khối lớn trước khi đi vào chi tiết từng tạng</li>
+<li><strong>Thành túi mật ≤3mm — nhưng quan trọng hơn là Murphy siêu âm</strong> — thành dày + Murphy (+) = viêm túi mật cấp; thành dày + Murphy (-) = cần tìm nguyên nhân khác</li>
+<li><strong>CBD đo đường kính trong (inner-to-inner), ĐMC đo outer-to-outer</strong> — đừng nhầm lẫn 2 cách đo này</li>
+<li><strong>Tháp thận KHÔNG phải nang</strong> — echo kém nhưng thành hình tam giác, xếp hàng, không tăng âm phía sau</li>
+<li><strong>Sỏi túi mật DI ĐỘNG, polyp KHÔNG di động</strong> — test LLD là bắt buộc</li>
+<li><strong>Tụy là tạng khó nhất</strong> — nếu không thấy, uống nước + kiên nhẫn ấn đẩy hơi. Đừng "đoán" kích thước tụy</li>
+<li><strong>ĐMC phải quét HẾT từ cơ hoành đến chỗ chia đôi</strong> — AAA thường ở đoạn dưới thận, sát chỗ chia đôi</li>
+<li><strong>PVR = Dài × Ngang × Cao × 0.52</strong> — đo sau tiểu, luôn ghi thể tích tồn dư nếu đánh giá bàng quang</li>
+<li><strong>So sánh 2 thận với nhau</strong> — chênh lệch >2cm là bất thường; mất CMD 1 bên là bệnh lý tại thận đó</li>
+<li><strong>Ghi rõ phần nào KHÔNG đánh giá được</strong> — "tụy bị hơi che khuất" tốt hơn nhiều so với "tụy bình thường" khi không thấy</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">14. TỔNG KẾT — 10 ĐIỂM CẦN NHỚ</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Chuẩn bị BN đúng</strong>: nhịn đói 6-8h, bàng quang đầy → mới siêu âm được đầy đủ 7 tạng</li>
+<li><strong>Gan</strong>: trục dọc ≤15cm, bờ sắc, echo đồng nhất; tăng echo lan tỏa + mờ mạch máu sâu = gan nhiễm mỡ; bề mặt lổn nhổn + thùy đuôi to = xơ gan</li>
+<li><strong>Túi mật</strong>: thành ≤3mm, dài ≤10cm; Murphy siêu âm (+) quan trọng hơn dày thành; test LLD phân biệt sỏi (di động) vs polyp (không di động)</li>
+<li><strong>Đường mật</strong>: CBD ≤6mm bình thường; đường mật trong gan KHÔNG thấy; giãn cả trong và ngoài gan = tắc mật</li>
+<li><strong>Tụy</strong>: đầu ≤3cm, thân ≤2.5cm, đuôi ≤2cm; double duct sign = u đầu tụy; nếu không thấy → uống nước, ép bụng, hoặc ghi nhận "không đánh giá được"</li>
+<li><strong>Lách</strong>: trục dọc ≤12cm; nếu thấy dưới bờ sườn = lách to; nguyên nhân số 1 ở VN: xơ gan + tăng áp TMC</li>
+<li><strong>Thận</strong>: dài 9-13cm, phải thấy rõ CMD (phân biệt tủy-vỏ); tháp thận echo kém nhưng hình tam giác — KHÔNG phải nang; APD bể thận bình thường <10mm ở người lớn</li>
+<li><strong>Bàng quang</strong>: thành ≤3mm, PVR <50ml; khối trong lòng + không di động + có tín hiệu Doppler = u bàng quang</li>
+<li><strong>ĐMC</strong>: đường kính <3cm, đo outer-to-outer; ≥3cm = AAA; quét từ cơ hoành đến chỗ chia đôi; AAA thường ở đoạn dưới thận</li>
+<li><strong>Nguyên tắc chung</strong>: khảo sát THEO TRÌNH TỰ, ghi nhận phần nào không thấy được, so sánh 2 bên khi có cặp tạng (thận), và luôn cân nhắc bối cảnh lâm sàng Việt Nam (viêm gan B, xơ gan, HCC, sỏi, áp xe amip)</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">15. TÀI LIỆU THAM KHẢO</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>AIUM (2022).</strong> "The AIUM Practice Parameter for the Performance of an Ultrasound Examination of the Abdomen and/or Retroperitoneum." <em>Journal of Ultrasound in Medicine</em>, 41(4):E1-E8. PMID: <strong>34792206</strong>. DOI: 10.1002/jum.15874. [GUIDELINE VERIFIED — Tier 0, AIUM Abdominal US 2022]</li>
+<li><strong>Trenker C, Görg C, Freeman S, et al. (2021).</strong> "WFUMB Position Paper — Incidental Findings, How to Manage: Spleen." <em>Ultrasound in Medicine & Biology</em>, 47(8):2017-2032. PMID: <strong>34052061</strong>. DOI: 10.1016/j.ultrasmedbio.2021.03.032. [GUIDELINE VERIFIED — Tier 0, WFUMB Spleen 2021]</li>
+<li><strong>Șirli R, Popescu A, Jenssen C, et al. (2024).</strong> "WFUMB Review Paper. Incidental Findings in Otherwise Healthy Subjects, How to Manage: Liver." <em>Cancers (Basel)</em>, 16(16):2908. PMID: <strong>39199678</strong>. DOI: 10.3390/cancers16162908. [ABSTRACT VERIFIED — WFUMB Liver IF 2024, Cancers journal]</li>
+<li><strong>Jenssen C, et al. (2022).</strong> "WFUMB Position Paper — Incidental Findings, How to Manage: Gallbladder and Bile Ducts." <em>Ultrasound in Medicine & Biology</em>, 48(12):2373-2392. PMID: <strong>36058799</strong>. [ABSTRACT VERIFIED — WFUMB Gallbladder IF 2022]</li>
+<li><strong>AIUM (2024).</strong> "AIUM Practice Parameter for the Performance of Duplex Sonography of Native Renal Vessels." <em>Journal of Ultrasound in Medicine</em>, 43(3):E1-E7. PMID: <strong>37812188</strong>. DOI: 10.1002/jum.16353. [GUIDELINE VERIFIED — Tier 0, AIUM Renal Duplex 2024]</li>
+<li><strong>EFSUMB Study Group (2016).</strong> "EFSUMB Guidelines and Recommendations on the Clinical Use of Contrast Enhanced Ultrasound (CEUS)." <em>Ultraschall in der Medizin</em>, 37(2):E2-E33. [DIRECTION ONLY — EFSUMB CEUS general]</li>
+<li><strong>Rumack CM, Wilson SR, Charboneau JW, et al.</strong> <em>Diagnostic Ultrasound.</em> 5th Edition. Elsevier Mosby, 2018. [DIRECTION ONLY — Textbook standard reference]</li>
+<li><strong>Middleton WD, Kurtz AB, Hertzberg BS.</strong> <em>Ultrasound: The Requisites.</em> 3rd Edition. Mosby, 2015. [DIRECTION ONLY — Textbook]</li>
+<li><strong>Chow KU, Luxembourg B, Seifried E, Bonig H. (2016).</strong> "Spleen Size is Significantly Influenced by Body Height and Sex: Establishment of Normal Values for Spleen Size at US with a Cohort of 1200 Healthy Individuals." <em>Radiology</em>, 279(1):306-313. PMID: 26509293. [ABSTRACT VERIFIED — Normal spleen size reference]</li>
+<li><strong>Mody RN, et al. Expert Panel on Urological Imaging. (2021).</strong> "ACR Appropriateness Criteria — Adrenal Mass Evaluation: 2021 Update." <em>Journal of the American College of Radiology</em>, 18(11S):S251-S267. PMID: <strong>34794587</strong>. [GUIDELINE VERIFIED — Tier 0, ACR Adrenal 2021; dùng tham khảo mốc giải phẫu]</li></ol>
+<hr class="my-6 border-stone-300">
+<p class="text-stone-700 mb-3"><strong>— Hết bài học ngày 2026-06-28 —</strong></p>
+<p class="text-stone-700 mb-3"><strong>Bác sĩ:</strong> Ngọc 🍅 🐈‍⬛ | <strong>AI:</strong> MiniMax Mavis | <strong>Bài số 24</strong> | <strong>Chuyên khoa:</strong> Siêu âm tổng quát — Siêu âm ổ bụng người lớn</p>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bác sĩ: Ngọc 🍅 🐈‍⬛ | AI: MiniMax Mavis | </p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "IM05_001",
+    "deck": "Internal medicine::ECG::IM-05",
+    "card_type": "Basic",
+    "front": "Điện thế nghỉ màng tế bào cơ tim bình thường có điện thế ở trong màng là bao nhiêu và do cơ chế bơm/kênh ion nào duy trì?",
+    "back": "Mặt trong màng tế bào cơ tim lúc nghỉ mang điện thế <b>-90 mV</b> so với mặt ngoài. Được duy trì bởi bơm $Na^+/K^+-ATPase$ (bơm 3 $Na^+$ ra ngoài, 2 $K^+$ vào trong) và các kênh rò $K^+$. [TEXTBOOK]",
+    "tag": ["Internal_Medicine", "ECG", "IM-05"]
+  },
+  {
+    "id": "IM05_002",
+    "deck": "Internal medicine::ECG::IM-05",
+    "card_type": "Basic",
+    "front": "Nêu 3 Quy tắc vàng tạo sóng trên ECG theo Nguyên lý Máy quay phim (Lead Vector Principle).",
+    "back": "1. Dòng điện khử cực chạy <b>THẲNG VỀ PHÍA Camera (Cực Dương)</b> → Sóng nhô LÊN (Sóng Dương ↑).<br>2. Dòng điện khử cực chạy <b>RA XA Camera (Đi về Cực Âm)</b> → Sóng lõm XUỐNG (Sóng Âm ↓).<br>3. Dòng điện khử cực chạy <b>VUÔNG GÓC với Camera</b> → Sóng Hai Pha (↑↓) hoặc Đường Đẳng Điện. [TEXTBOOK]",
+    "tag": ["Internal_Medicine", "ECG", "IM-05"]
+  },
+  {
+    "id": "IM05_003",
+    "deck": "Internal medicine::ECG::IM-05",
+    "card_type": "Basic",
+    "front": "Tại sao chuyển đạo aVR bình thường trên ECG lại ghi nhận toàn bộ các sóng P, QRS, T đều ÂM?",
+    "back": "Vì cực dương của chuyển đạo aVR đặt tại Tay Phải (-150°). Vector khử cực tổng thể của tim chạy xuôi từ trên xuống dưới và sang trái (đâm về mỏm tim), tức là <b>chạy trốn RA XA cực dương của aVR</b>. Theo quy tắc vector, dòng điện chạy ra xa cực dương sẽ ghi nhận sóng ÂM. [TEXTBOOK]",
+    "tag": ["Internal_Medicine", "ECG", "IM-05"]
+  },
+  {
+    "id": "IM05_004",
+    "deck": "Internal medicine::ECG::IM-05",
+    "card_type": "Basic",
+    "front": "Tại sao Sóng T đại diện cho hiện tượng TÁI CỰC tâm thất nhưng trên các chuyển đạo DII, V5, V6 bình thường lại nhô LÊN (Sóng Dương)?",
+    "back": "Vì điện thế tái cực đi ngược chiều khử cực (từ Âm về Dương), nhưng <b>lớp cơ ngoài màng tim lại tái cực TRƯỚC lớp cơ trong tâm mạc</b> (hướng lan ngược). Hai sự ngược chiều này triệt tiêu nhau, tạo ra sóng T cùng chiều với phức bộ QRS (Sóng Dương). [TEXTBOOK]",
+    "tag": ["Internal_Medicine", "ECG", "IM-05"]
+  },
+  {
+    "id": "IM05_005",
+    "deck": "Internal medicine::ECG::IM-05",
+    "card_type": "Basic",
+    "front": "Mức liều Calcium Chloride 10% tiêm tĩnh mạch cấp cứu để ổn định màng tế bào cơ tim khi có biến dạng ECG do tăng kali máu là bao nhiêu?",
+    "back": "Liều <b>10 mg/kg</b> (hoặc 10 mL) tiêm tĩnh mạch chậm trong 2-3 phút. (PMID: 19419407) [ABSTRACT MATCH]",
+    "tag": ["Internal_Medicine", "ECG", "IM-05"]
+  },
+  {
+    "id": "IM05_006",
+    "deck": "Internal medicine::ECG::IM-05",
+    "card_type": "Basic",
+    "front": "Hiện tượng Sóng R tiến triển kém (Poor R wave progression) từ V1 đến V6 là gì và gợi ý tổn thương buồng tim nào?",
+    "back": "Bình thường sóng R phải cao dần từ V1 đến V5-V6. Sóng R tiến triển kém là khi sóng R ở V1-V4 vẫn mỏng nhỏ (< 3mm) và sóng S rất sâu. Gợi ý <b>tổn thương mất cơ tim vách liên thất (Nhồi máu cơ tim cũ)</b> hoặc dày thất phải. [TEXTBOOK]",
+    "tag": ["Internal_Medicine", "ECG", "IM-05"]
+  },
+  {
+    "id": "IM05_007",
+    "deck": "Internal medicine::ECG::IM-05",
+    "card_type": "Basic",
+    "front": "Khi phát hiện sóng P âm ở D1 và sóng P dương ở aVR trên một bản ghi ECG 12 chuyển đạo, sai sót kỹ thuật nào nghi ngờ đầu tiên?",
+    "back": "<b>99% là do điều dưỡng mắc ngược dây chì Tay Phải (RA) và Tay Trái (LA)</b>. Cần kiểm tra và yêu cầu đo lại ECG đúng vị trí điện cực. (PMID: 22929906) [ABSTRACT MATCH]",
+    "tag": ["Internal_Medicine", "ECG", "IM-05"]
+  },
+  {
+    "id": "IM05_008",
+    "deck": "Internal medicine::ECG::IM-05",
+    "card_type": "Basic",
+    "front": "Khoảng PR bình thường trên ECG có độ dài thời gian bao nhiêu và đại diện cho hiện tượng sinh lý gì?",
+    "back": "Độ dài thời gian chuẩn từ <b>0.12 s đến 0.20 s</b> (3 đến 5 ô nhỏ). Đại diện cho <b>thời gian tín hiệu điện bị trì hoãn tại Nút Nhĩ Thất (AV Node Delay)</b> để tâm nhĩ kịp co bóp tống máu xuống thất trước khi thất co. [TEXTBOOK]",
+    "tag": ["Internal_Medicine", "ECG", "IM-05"]
+  },
+  {
+    "id": "IM05_009",
+    "deck": "Internal medicine::ECG::IM-05",
+    "card_type": "Basic",
+    "front": "Tốc độ chạy giấy chuẩn và biên độ test liều chuẩn trên máy ghi ECG là bao nhiêu?",
+    "back": "Tốc độ chạy giấy chuẩn là <b>25 mm/s</b> (mỗi ô nhỏ 1mm = 0.04s). Biên độ chuẩn là <b>10 mm = 1 mV</b>. [TEXTBOOK]",
+    "tag": ["Internal_Medicine", "ECG", "IM-05"]
+  },
+  {
+    "id": "IM05_010",
+    "deck": "Internal medicine::ECG::IM-05",
+    "card_type": "Basic",
+    "front": "Nhóm chuyển đạo ngoại biên nào quan sát thành dưới thất trái và nhóm nào quan sát thành bên cao?",
+    "back": "- <b>Thành dưới thất trái:</b> DII, DIII, aVF (Camera hướng xuống chân).<br>- <b>Thành bên cao thất trái:</b> DI, aVL (Camera hướng sang vai trái). [TEXTBOOK]",
+    "tag": ["Internal_Medicine", "ECG", "IM-05"]
+  }
+]

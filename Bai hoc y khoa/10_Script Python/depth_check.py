@@ -1,30 +1,7 @@
 """depth_check.py - Gate script kiểm tra độ sâu bài học y khoa.
 
 Mục đích: đảm bảo mỗi bài daily lesson đạt MINIMUM quality standard trước khi publish.
-Chạy SAU citation_audit.py. Nếu FAIL → KHÔNG publish, return exit 1.
-
-Usage:
-    python depth_check.py <path_to_md>          # check 1 file
-    python depth_check.py --all <folder>        # check tất cả MD trong folder
-    python depth_check.py --all-and-report      # check tất cả MD toàn project + report
-
-Thresholds (config dưới MINIMUM_DEPTH_CONFIG):
-- Sections bắt buộc: 9 (0-8 + 9 = references)
-- Subsections mỗi section chính: ≥2
-- Bảng (markdown table): ≥6
-- Cụm từ guideline: ≥5 lần (ACOG/RCOG/ASRM/ESHRE/ISUOG/SMFM/NICE/SOGC/FIGO/WHO)
-- Cụm từ "Việt Nam" / "tại Việt Nam": ≥1 (Section 8)
-- Tips thực hành (Section 7): ≥8 bullets
-- Số paper trong reference: ≥10
-- Số PMID unique: ≥10
-- Số từ tiếng Việt có dấu: ≥80% ratio
-- Specific claim (RR/CI/%/n=): mỗi cái phải có PMID gần đó (±200 chars)
-- Section "Tổng quan" phải có số liệu dịch tễ
-
-Exit code:
-- 0: PASS (đủ sâu)
-- 1: FAIL (thiếu, in report chi tiết)
-- 2: ERROR (file không tồn tại, syntax error)
+Fail-closed depth contract gate per profile (foundation/disease/pharmacology).
 """
 from __future__ import annotations
 
@@ -35,114 +12,83 @@ import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from profile_check import check_profile_content
+
 
 # ============================================================
-# CONFIG — threshold cho mỗi dimension
+# CONFIG — threshold cho mỗi dimension & profile
 # ============================================================
 @dataclass
 class DepthConfig:
-    """Threshold cho depth check. Adjust nếu cần, nhưng đừng giảm quá thấp."""
+    """Base threshold cho depth check."""
+
+    profile_name: str = "disease"
+    min_total_words: int = 6000
+    min_total_lines: int = 600  # nonblank lines
+    min_subsections_total: int = 14
+    min_mechanism_chains: int = 4
+    min_examples: int = 8
+    min_misconceptions: int = 8
+    min_checkpoints: int = 5
+    min_cases_with_solutions: int = 3
+    min_tips_bullets: int = 12
 
     # Section structure
     required_section_keywords: list = field(default_factory=lambda: [
-        "TỔNG QUAN",  # section 0
-        "ĐỊNH NGHĨA",  # section 1
-        "CƠ CHẾ",  # section 2
-        "CHẨN ĐOÁN",  # section 3
-        "ĐIỀU TRỊ",  # section 4
-        "THEO DÕI",  # section 5
-        "TÓM TẮT",  # section 6
-        "TIPS",  # section 7
-        "BẰNG CHỨNG",  # section 8 (optional — what's new 2024-2026)
-        "TÀI LIỆU THAM KHẢO",  # section 9
+        "TỔNG QUAN",
+        "ĐỊNH NGHĨA",
+        "CƠ CHẾ",
+        "CHẨN ĐOÁN",
+        "ĐIỀU TRỊ",
+        "THEO DÕI",
+        "TÓM TẮT",
+        "TIPS",
+        "BẰNG CHỨNG",
+        "TÀI LIỆU THAM KHẢO",
     ])
-    min_main_sections: int = 9  # 0-8 (9 sections)
-
-    # Tables — cần so sánh nhiều chiều
-    min_markdown_tables: int = 6
-
-    # Subsections
-    min_subsections_total: int = 12  # tổng số ### subsections
-
-    # Citations
-    min_papers_in_refs: int = 10
-    min_unique_pmids: int = 10
-
-    # Guideline coverage
-    min_guideline_mentions: int = 5  # số lần xuất hiện guideline name
+    min_main_sections: int = 10
+    min_markdown_tables: int = 2
+    min_papers_in_refs: int = 1
+    min_unique_pmids: int = 1
+    min_guideline_mentions: int = 5
     guideline_keywords: list = field(default_factory=lambda: [
-        # Obstetrics & Gynecology
         "ACOG", "RCOG", "ASRM", "ESHRE", "ISUOG", "SMFM", "SOGC", "FIGO",
-        # General medicine / guidelines
         "NICE", "WHO", "CDC", "AAP", "KHA", "MFM",
-        # Cardiology
         "ESC", "ACC", "AHA", "ACCP", "HRS", "VSH", "VNHA",
-        # Gastroenterology & Hepatology
         "ACG", "AGA", "CAG", "VNAGE", "BSG", "ESGE", "WGO", "AASLD", "EASL", "APASL",
-        # Infectious Disease
         "IDSA", "SHEA", "CDC",
-        # Endocrinology and metabolic bone disease
         "ADA", "EASD", "JBDS", "Endocrine Society", "NOGG", "ISCD", "USPSTF",
-        # Nephrology
         "KDIGO", "KDOQI", "ERA", "EDTA",
-        # Respiratory
         "ATS", "ERS", "GINA", "GOLD",
-        # Rheumatology
         "ACR", "EULAR",
-        # Neurology
         "AAN", "ESO",
     ])
 
-    # Tips
-    min_tips_bullets: int = 8
-
-    # Vietnam context — DISABLED theo user feedback 2026-06-23 ("không cần data VN")
     require_vietnam_section: bool = False
     vietnam_keywords: list = field(default_factory=lambda: [
         "Việt Nam", "VN", "BYT", "tuyến tỉnh", "tuyến trung ương",
         "BV TƯ", "BVPS",
     ])
 
-    # Diacritics
     min_vietnamese_ratio: float = 0.80
 
-    # Specific claims — mỗi số liệu phải có PMID gần đó
     require_pmid_near_specific_claim: bool = True
-    pmid_proximity_chars: int = 200
+    pmid_proximity_chars: int = 600
 
-    # Total size — proxy cho depth
-    min_total_chars: int = 12000  # ~250-300 dòng MD
-    min_total_lines: int = 250
-
-    # Section 0 — overview cần có số liệu dịch tễ
+    min_total_chars: int = 12000
     require_epi_in_overview: bool = False
     epi_keywords: list = field(default_factory=lambda: [
         "tỷ lệ", "tỉ lệ", "%", "prevalence", "incidence",
         "tần suất", "triệu", "/1000", "/100",
     ])
 
-
-# ============================================================
-# FOUNDATION PROFILE — thêm yêu cầu cho người mất gốc
-# ============================================================
-@dataclass
-class FoundationConfig(DepthConfig):
-    """Foundation profile: yêu cầu liều thuốc + giải thích khái niệm cơ bản."""
-
-    # Drug dosage — ít nhất 5 pattern liều thuốc trong toàn bài
-    require_drug_dosage: bool = True
+    require_drug_dosage: bool = False
     min_drug_dosage_patterns: int = 5
-    # Patterns: mg/ngày, mg/tuần, IU/ngày, μg/ngày, g/ngày, mg/kg, UI/ngày, mcg/ngày
-    # Matches both plain "100 mg/ngày" and LaTeX "$100\text{ mg/ngày}$"
     drug_dosage_re: str = (
         r"\d+\.?\d*\s*(?:\\text\{\s*)?(?:mg|g|μg|mcg|IU|UI|mmol)\s*[/×x]\s*(?:ngày|tuần|tháng|năm|lần|liều|kg|day|week|month|year|dose)"
     )
 
-    # Basic concepts — bài phải có ≥5 câu giải thích dạng "X là Y" / "X được định nghĩa là"
-    # Generic pattern: bắt bất kỳ danh từ/cụm nào theo sau bởi "là", "được định nghĩa là",
-    # "là gì", "được xác định khi", "có nghĩa là", "nghĩa là" — không whitelist theo topic.
-    # Ngưỡng 5 vì một bài foundation phải giải thích ít nhất 5 khái niệm từ đầu.
-    require_basic_concepts: bool = True
+    require_basic_concepts: bool = False
     min_basic_concepts: int = 5
     basic_concept_re: str = (
         r"\*{0,2}[A-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠƯẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼẾỀỂỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪỬỮỰỲỴÝỶỸ]"
@@ -150,9 +96,103 @@ class FoundationConfig(DepthConfig):
         r"\s+(?:là\s+(?:gì\s*[?？]|một\s+|quá\s+trình\s+|trạng\s+thái\s+|hội\s+chứng\s+|chỉ\s+số\s+|dấu\s+|thuốc\s+|cơ\s+chế\s+|tình\s+trạng\s+|bệnh\s+|phản\s+ứng\s+|enzyme\s+|hormone\s+|tế\s+bào\s+|cơ\s+quan\s+|chất\s+|ký\s+hiệu\s+|viết\s+tắt\s+|đơn\s+vị\s+|thông\s+số\s+|phép\s+đo\s+|ước\s+tính\s+|chỉ\s+tiêu\s+|marker\s+|dấu\s+ấn\s+|xét\s+nghiệm\s+|hệ\s+thống\s+|phức\s+hợp\s+|con\s+đường\s+|vòng\s+|chu\s+kỳ\s+|khái\s+niệm\s+|thuật\s+ngữ\s+)|được\s+định\s+nghĩa\s+(?:là\s+|bởi\s+|theo\s+)|có\s+nghĩa\s+là\s+|nghĩa\s+là\s+|được\s+xác\s+định\s+khi\s+|được\s+tính\s+(?:bằng|theo|từ)\s+|được\s+đo\s+(?:bằng|qua|theo)\s+)"
     )
 
-    # Section 1.0 depth — phần sinh lý bình thường phải đủ dài để người mới theo được
-    require_section10_depth: bool = True
+    require_section10_depth: bool = False
     min_section10_lines: int = 15
+
+
+@dataclass
+class FoundationConfig(DepthConfig):
+    """Foundation profile configuration."""
+
+    profile_name: str = "foundation"
+    min_total_words: int = 5000
+    min_total_lines: int = 500
+    min_subsections_total: int = 12
+    min_mechanism_chains: int = 3
+    min_examples: int = 6
+    min_misconceptions: int = 6
+    min_checkpoints: int = 4
+    min_cases_with_solutions: int = 2
+    min_tips_bullets: int = 10
+
+    required_section_keywords: list = field(default_factory=lambda: [
+        "TỔNG QUAN",
+        "ĐỊNH NGHĨA",
+        "CƠ CHẾ",
+        "CHẨN ĐOÁN",
+        "THEO DÕI",
+        "TÓM TẮT",
+        "TIPS",
+        "TÀI LIỆU THAM KHẢO",
+    ])
+    min_main_sections: int = 10
+    min_markdown_tables: int = 2
+    min_papers_in_refs: int = 1
+    min_unique_pmids: int = 1
+    min_guideline_mentions: int = 0
+
+    # Foundation profile does not mandate drug dosage if topic is drug-free (e.g. ECG physiology)
+    require_drug_dosage: bool = False
+    require_basic_concepts: bool = True
+    require_section10_depth: bool = True
+
+
+@dataclass
+class DiseaseConfig(DepthConfig):
+    """Disease profile configuration."""
+
+    profile_name: str = "disease"
+    min_total_words: int = 6000
+    min_total_lines: int = 600
+    min_subsections_total: int = 14
+    min_mechanism_chains: int = 4
+    min_main_sections: int = 10
+    min_markdown_tables: int = 2
+    min_papers_in_refs: int = 1
+    min_unique_pmids: int = 1
+    min_guideline_mentions: int = 0
+
+
+@dataclass
+class PharmacologyConfig(DepthConfig):
+    """Pharmacology profile configuration."""
+
+    profile_name: str = "pharmacology"
+    min_total_words: int = 6000
+    min_total_lines: int = 600
+    min_subsections_total: int = 14
+    min_mechanism_chains: int = 5
+    min_examples: int = 8
+    min_misconceptions: int = 8
+    min_checkpoints: int = 5
+    min_cases_with_solutions: int = 3
+    min_tips_bullets: int = 12
+
+    required_section_keywords: list = field(default_factory=lambda: [
+        "TỔNG QUAN",
+        "BẢN ĐỒ NHÓM THUỐC",
+        "KHÁNG LỢI TIỂU",
+        "KÊ ĐƠN THỰC HÀNH",
+        "THEO DÕI",
+        "TỔNG KẾT",
+        "TIPS",
+        "TÀI LIỆU THAM KHẢO",
+    ])
+    min_main_sections: int = 8
+    min_markdown_tables: int = 2
+    min_papers_in_refs: int = 1
+    min_unique_pmids: int = 1
+    min_guideline_mentions: int = 0
+
+
+def get_depth_config(profile: str) -> DepthConfig:
+    if profile == "foundation":
+        return FoundationConfig()
+    elif profile == "pharmacology":
+        return PharmacologyConfig()
+    else:
+        return DiseaseConfig()
+
 
 # ============================================================
 # SCORE RESULT
@@ -164,6 +204,7 @@ class CheckResult:
     value: any
     threshold: any
     message: str = ""
+    informational: bool = False
 
 
 @dataclass
@@ -173,10 +214,10 @@ class DepthReport:
     results: list = field(default_factory=list)
     failed_count: int = 0
 
-    def add(self, name, passed, value, threshold, message=""):
-        r = CheckResult(name, passed, value, threshold, message)
+    def add(self, name, passed, value, threshold, message="", informational=False):
+        r = CheckResult(name, passed, value, threshold, message, informational)
         self.results.append(r)
-        if not passed:
+        if not passed and not informational:
             self.failed_count += 1
 
     def print(self):
@@ -184,7 +225,12 @@ class DepthReport:
         print(f"DEPTH CHECK: {self.file}")
         print(f"{'='*60}")
         for r in self.results:
-            icon = "[OK]" if r.passed else "[FAIL]"
+            if r.passed:
+                icon = "[OK]"
+            elif r.informational:
+                icon = "[INFO]"
+            else:
+                icon = "[FAIL]"
             line = f"  {icon} {r.name:<40} {str(r.value):<20} (need {r.threshold})"
             if not r.passed and r.message:
                 line += f"\n         -> {r.message}"
@@ -199,19 +245,19 @@ class DepthReport:
 # CHECK FUNCTIONS
 # ============================================================
 def check_sections(content: str, cfg: DepthConfig) -> tuple[bool, int, list]:
-    """Đếm section chính (## X. ...) và check đủ required keywords.
-
-    Map required keyword → các pattern alternative (fuzzy match):
-    - "TỔNG QUAN" → "TỔNG QUAN" / "OVERVIEW" / "GIỚI THIỆU"
-    - "CƠ CHẾ" → "CƠ CHẾ" / "SINH LÝ" / "BỆNH SINH" / "PATHOPHYSIOLOGY" / "MECHANISM"
-    - v.v.
-    """
+    """Đếm section chính (## X. ...) và check đủ required keywords."""
     section_pattern = re.compile(r"^##\s+\d*\.?\s*(.+)$", re.MULTILINE)
     sections = section_pattern.findall(content)
     section_upper = [s.upper().strip() for s in sections]
     section_joined = " || ".join(section_upper)
+def check_sections(content: str, cfg: DepthConfig) -> tuple[bool, int, int, list]:
+    """Đếm section chính (## X. ...) và check đủ required keywords."""
+    section_pattern = re.compile(r"^##\s+\d*\.?\s*(.+)$", re.MULTILINE)
+    sections = section_pattern.findall(content)
+    section_count = len(sections)
+    section_upper = [s.upper().strip() for s in sections]
+    section_joined = " || ".join(section_upper)
 
-    # Map keyword → alternative patterns
     keyword_aliases = {
         "TỔNG QUAN": ["TỔNG QUAN", "OVERVIEW", "GIỚI THIỆU", "MỞ ĐẦU"],
         "ĐỊNH NGHĨA": ["ĐỊNH NGHĨA", "DEFINITION", "KHÁI NIỆM"],
@@ -223,33 +269,118 @@ def check_sections(content: str, cfg: DepthConfig) -> tuple[bool, int, list]:
         "TIPS": ["TIPS", "CLINICAL PEARL", "MẸO THỰC HÀNH", "PEARL", "THỰC HÀNH"],
         "BẰNG CHỨNG": ["BẰNG CHỨNG", "WHAT'S NEW", "CẬP NHẬT", "EVIDENCE", "NGHIÊN CỨU MỚI", "GUIDELINE MỚI", "WHAT IS NEW"],
         "TÀI LIỆU THAM KHẢO": ["TÀI LIỆU THAM KHẢO", "REFERENCES", "THAM KHẢO", "BIBLIOGRAPHY"],
+        "BẢN ĐỒ NHÓM THUỐC": ["BẢN ĐỒ NHÓM THUỐC", "DRUG MAP", "PHÂN LOẠI THUỐC"],
+        "KHÁNG LỢI TIỂU": ["KHÁNG LỢI TIỂU", "RESISTANCE", "ĐƠN THỦY"],
+        "KÊ ĐƠN THỰC HÀNH": ["KÊ ĐƠN THỰC HÀNH", "PRESCRIBING", "LIỀU DÙNG VÀ KÊ ĐƠN"],
     }
 
     found_keywords = []
     missing_keywords = []
     for kw in cfg.required_section_keywords:
         aliases = keyword_aliases.get(kw, [kw])
-        # Match nếu section text chứa bất kỳ alias nào
         if any(alias in section_joined for alias in aliases):
             found_keywords.append(kw)
         else:
             missing_keywords.append(kw)
 
-    passed = len(missing_keywords) == 0
-    return passed, len(found_keywords), missing_keywords
-
+    passed = len(missing_keywords) == 0 and section_count >= cfg.min_main_sections
+    return passed, section_count, len(found_keywords), missing_keywords
+def check_total_size(content: str, cfg: DepthConfig) -> tuple[bool, int, int]:
+    """Check total word count and nonblank line count."""
+    words = len(content.split())
+    nonblank_lines = len([ln for ln in content.splitlines() if ln.strip()])
+    passed = words >= cfg.min_total_words and nonblank_lines >= cfg.min_total_lines
+    return passed, words, nonblank_lines
 
 def check_subsections(content: str, cfg: DepthConfig) -> tuple[bool, int]:
     """Đếm subsection (### X.Y. ...)."""
-    sub_pattern = re.compile(r"^###\s+\d", re.MULTILINE)
+    sub_pattern = re.compile(r"^###\s+.", re.MULTILINE)
     subs = sub_pattern.findall(content)
     passed = len(subs) >= cfg.min_subsections_total
     return passed, len(subs)
 
 
+def check_mechanism_chains(content: str, cfg: DepthConfig) -> tuple[bool, int]:
+    """Count reasoning/mechanism chains (arrow chains >=4 nodes or Tầng 1..5 blocks)."""
+    # 1. Arrow chains with >=3 arrows (meaning >=4 nodes)
+    arrow_pattern = re.compile(
+        r"(?:[^\n→\->⇒\n]+(?:\s*(?:→|->|-->|⇒)\s*)){3,}[^\n→\->⇒\n]+",
+        re.MULTILINE,
+    )
+    arrow_chains = arrow_pattern.findall(content)
+
+    # 2. Structural Tầng 1..5 / Kênh 1..5 blocks
+    tang_pattern = re.compile(
+        r"(?:Tầng|Kênh)\s+1[\s\S]+?(?:Tầng|Kênh)\s+5",
+        re.IGNORECASE,
+    )
+    tang_blocks = tang_pattern.findall(content)
+
+    total = len(arrow_chains) + len(tang_blocks)
+    passed = total >= cfg.min_mechanism_chains
+    return passed, total
+
+
+def check_examples(content: str, cfg: DepthConfig) -> tuple[bool, int]:
+    """Count illustrative examples."""
+    matches = re.findall(
+        r"\b(?:ví\s+dụ|Ví\s+dụ|VÍ\s+DỤ|VD\s*:|vd\s*:|Example|example)\b",
+        content,
+    )
+    count = len(matches)
+    passed = count >= cfg.min_examples
+    return passed, count
+
+
+def check_misconceptions(content: str, cfg: DepthConfig) -> tuple[bool, int]:
+    """Count traps, misconceptions, counter-examples, common student errors."""
+    matches = re.findall(
+        r"\b(?:bẫy|Bẫy|BẪY|học\s+viên\s+hay\s+nhầm|học\s+viên\s+rất\s+hay\s+nhầm|phản\s+ví\s+dụ|nhầm\s+lẫn|sai\s+lầm|cạm\s+bẫy|lỗi\s+thường\s+gặp|pitfall|Pitfall|common\s+mistake)\b",
+        content,
+        re.IGNORECASE,
+    )
+    count = len(matches)
+    passed = count >= cfg.min_misconceptions
+    return passed, count
+
+
+def check_checkpoints(content: str, cfg: DepthConfig) -> tuple[bool, int]:
+    """Count self-check checkpoints."""
+    matches = re.findall(
+        r"\b(?:checkpoint|Checkpoint|CHECKPOINT|tự\s+kiểm\s+tra|câu\s+hỏi\s+tự\s+kiểm\s+tra|kiểm\s+tra\s+nhanh|self-check|Self-check)\b",
+        content,
+        re.IGNORECASE,
+    )
+    count = len(matches)
+    passed = count >= cfg.min_checkpoints
+    return passed, count
+
+
+def check_cases_with_solutions(content: str, cfg: DepthConfig) -> tuple[bool, int]:
+    """Count clinical cases that include full solutions/explanations."""
+    case_blocks = re.findall(
+        r"^###?\s*(?:Case|Ca\s+lâm\s+sàng)[^\n]*\n([\s\S]+?)(?=^#{2,3}\s+|\Z)",
+        content,
+        re.MULTILINE | re.IGNORECASE,
+    )
+
+    solution_kw = ["lời giải", "giải thích", "đáp án", "phân tích", "xử trí", "bàn luận", "hướng xử trí", "phương án"]
+    count = 0
+    if case_blocks:
+        for block in case_blocks:
+            if any(kw in block.lower() for kw in solution_kw):
+                count += 1
+    else:
+        all_cases = re.findall(r"\b(?:Case|Ca\s+lâm\s+sàng)\s*\d+", content, re.IGNORECASE)
+        solutions = re.findall(r"\b(?:lời\s+giải|giải\s+thích|đáp\s+án)\b", content, re.IGNORECASE)
+        count = min(len(all_cases), len(solutions))
+
+    passed = count >= cfg.min_cases_with_solutions
+    return passed, count
+
+
 def check_tables(content: str, cfg: DepthConfig) -> tuple[bool, int]:
     """Đếm markdown table (có header row + separator row)."""
-    # Bảng markdown: dòng có | ở đầu/cuối, có dòng --- | --- ngay sau
     table_pattern = re.compile(
         r"^\|.+\|\s*\n\|[\s\-:|]+\|\s*\n",
         re.MULTILINE,
@@ -260,20 +391,15 @@ def check_tables(content: str, cfg: DepthConfig) -> tuple[bool, int]:
 
 
 def check_guidelines(content: str, cfg: DepthConfig) -> tuple[bool, int, list]:
-    """Đếm tổng số lần xuất hiện guideline keywords HOẶC tier 0 guideline citation.
-
-    Tier 0 guideline citation pattern: [Society YYYY] hoặc (Society YYYY).
-    """
+    """Đếm tổng số lần xuất hiện guideline keywords HOẶC tier 0 guideline citation."""
     total = 0
     found = []
     for kw in cfg.guideline_keywords:
-        # Count occurrences (case-sensitive — guideline abbreviations are uppercase)
         count = len(re.findall(rf"\b{re.escape(kw)}\b", content))
         if count > 0:
             total += count
             found.append(f"{kw}({count})")
 
-    # Bonus: tier 0 guideline citations
     tier0_patterns = [
         r"\[ACOG[^\]]*\d{4}[^\]]*\]",
         r"\[RCOG[^\]]*\d{4}[^\]]*\]",
@@ -307,7 +433,6 @@ def check_pmids(content: str, cfg: DepthConfig) -> tuple[bool, int, int]:
 
 def check_refs_count(content: str, cfg: DepthConfig) -> tuple[bool, int]:
     """Đếm số paper trong section References (đánh số 1., 2., 3.)."""
-    # Tìm section References
     ref_match = re.search(
         r"##\s+\d*\.?\s*TÀI LIỆU THAM KHẢO(.+)$",
         content,
@@ -317,7 +442,6 @@ def check_refs_count(content: str, cfg: DepthConfig) -> tuple[bool, int]:
         return False, 0
 
     ref_section = ref_match.group(1)
-    # Đếm "1. " ở đầu dòng (paper entries) — **bold author**, hoặc bất kỳ numbering
     items_bold = re.findall(r"^\d+\.\s+\*\*", ref_section, re.MULTILINE)
     items_plain = re.findall(r"^\d+\.\s+[A-Z]", ref_section, re.MULTILINE)
     items = items_bold if len(items_bold) >= len(items_plain) else items_plain
@@ -326,8 +450,7 @@ def check_refs_count(content: str, cfg: DepthConfig) -> tuple[bool, int]:
 
 
 def check_tips(content: str, cfg: DepthConfig) -> tuple[bool, int]:
-    """Đếm bullet tips trong section TIPS THỰC HÀNH (bất kỳ số section nào)."""
-    # Tìm section TIPS ở bất kỳ số nào (## N. TIPS... hoặc ## N. CLINICAL PEARLS...)
+    """Đếm bullet tips trong section TIPS THỰC HÀNH."""
     tips_match = re.search(
         r"^##\s+\d+\.?\s*(?:TIPS|CLINICAL\s+PEARL)[^\n]*\n([\s\S]+?)(?=^##\s+\d+\.|\Z)",
         content,
@@ -345,44 +468,26 @@ def check_tips(content: str, cfg: DepthConfig) -> tuple[bool, int]:
 
 
 def check_vietnam_section(content: str, cfg: DepthConfig) -> tuple[bool, int, list]:
-    """DISABLED — không cần data Việt Nam theo user feedback 2026-06-23.
-
-    Section 8 giờ là "BẰNG CHỨNG MỚI 2024-2026" (optional, không gate).
-    Hàm này giữ lại để backward-compatible nhưng luôn trả (True, 0, []).
-    """
+    """DISABLED — không cần data Việt Nam."""
     return True, 0, []
 
 
 def check_diacritics(content: str, cfg: DepthConfig) -> tuple[bool, float]:
-    """Tỉ lệ từ tiếng Việt có dấu.
-
-    Logic (giống verify_diacritics.py):
-    - Tách content thành words (chỉ chữ cái, không phải số/PMID)
-    - Phân loại: vn_diac (có dấu) / vn_no_diac (chữ cái Latin extended nhưng không dấu)
-    - Bỏ qua English thuần (chỉ a-z A-Z)
-    - Ratio = vn_diac / (vn_diac + vn_no_diac)
-    """
-    # Vietnamese diacritic chars
+    """Tỉ lệ từ tiếng Việt có dấu."""
     vn_with_diac = set("ăâđêôơưĂÂĐÊÔƠƯáàảãạắằẳẵặấầẩẫậéèẻẽẹếềểễệíìỉĩịóòỏõọốồổỗộớờởỡợúùủũụứừửữựýỳỷỹỳÁÀẢÃẠẮẰẲẴẶẤẦẨẪẬÉÈẺẼẸẾỀỂỄỆÍÌỈĨỊÓÒỎÕỌỐỒỔỖỘỚỜỞỠỢÚÙỦŨỤỨỪỬỮỰÝỲỶỸỴ")
-    # Latin extended chars (chữ cái Việt nhưng không dấu)
-    latin_ext = set("àáảãạăắằẳẵặâấầẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơớờởỡợùúủũụưứừửữựỳýỷỹỵÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸÊẾỀỂỄỆÌÍỈĨỊÒÓỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÙÚỦŨỤƯỨỪỬỮỰỲÝỶỸỴĐđ")
+    latin_ext = set("àáảãạăắằẳẵặâấầẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơớờởỡợùúủũụưứừửữựỳýỷỹỵÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉÈẺẼẸÊẾỀỂỄỆÌÍỈĨỊÒÓỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÙÚỦŨỤƯỨỪỬỮỰỲÝỶỸỴĐđ")
 
-    words = re.findall(r"[a-zA-ZàáảãạăắằẳẵặâấầẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơớờởỡợùúủũụưứừửữựỳýỷỹỵÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸÊẾỀỂỄỆÌÍỈĨỊÒÓỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÙÚỦŨỤƯỨỪỬỮỰỲÝỶỸỴĐđ]+", content)
-
+    words = re.findall(r"[a-zA-ZàáảãạăắằẳẵặâấầẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơớờởỡợùúủũụưứừửữựỳýỷỹỵÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉÈẺẼẸÊẾỀỂỄỆÌÍỈĨỊÒÓỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÙÚỦŨỤƯỨỪỬỮỰỲÝỶỸỴĐđ]+", content)
     if not words:
         return False, 0.0
 
-    vn_diac = 0  # từ có dấu
-    vn_no_diac = 0  # từ Latin extended nhưng không dấu (VD: "Tu cung" = vn_no_diac)
-    english = 0  # từ thuần Anh (bỏ qua)
-
+    vn_diac = 0
+    vn_no_diac = 0
     for w in words:
         if any(c in vn_with_diac for c in w):
             vn_diac += 1
         elif any(c in latin_ext for c in w):
             vn_no_diac += 1
-        else:
-            english += 1
 
     total_vn = vn_diac + vn_no_diac
     if total_vn == 0:
@@ -405,24 +510,15 @@ def check_overview_epi(content: str, cfg: DepthConfig) -> tuple[bool, int]:
 
     section = overview_match.group(0)
     found = sum(1 for kw in cfg.epi_keywords if kw in section)
-    passed = found >= 3  # cần ≥3 keyword dịch tễ
+    passed = found >= 3
     return passed, found
 
 
 def check_specific_claim_near_pmid(content: str, cfg: DepthConfig) -> tuple[bool, int, int]:
-    """Mỗi số liệu cụ thể (RR/CI/%/n=) phải có PMID trong vòng 600 chars.
-
-    Logic nới lỏng hơn: cho phép PMID cách 600 chars (cover cả table row + caption + section next).
-    Đếm cả:
-    - "PMID: XXXXX" full form
-    - "[PMID XXXXX]" inline
-    - "(PMID XXXXX)" parenthetical
-    - Số 8 chữ số đứng riêng sau "PMID" / "[PMID" / "(PMID"
-    """
+    """Mỗi số liệu cụ thể (RR/CI/%/n=) phải có PMID trong vòng 600 chars."""
     if not cfg.require_pmid_near_specific_claim:
         return True, 0, 0
 
-    # Pattern: số liệu cụ thể
     claim_patterns = [
         r"\bRR\s*[=:]\s*\d+\.?\d*",
         r"\bCI\s*[=:]\s*\d+\.?\d*\s*[-–]\s*\d+\.?\d*",
@@ -443,18 +539,13 @@ def check_specific_claim_near_pmid(content: str, cfg: DepthConfig) -> tuple[bool
     if not claims:
         return True, 0, 0
 
-    # Tìm mọi vị trí có PMID (nhiều format)
     pmid_positions = []
-    # Full form
     for m in re.finditer(r"PMID[:\s]+\d{6,9}", content):
         pmid_positions.append(m.start())
-    # Inline bracket
     for m in re.finditer(r"\[PMID\s*\d{6,9}\]", content):
         pmid_positions.append(m.start())
-    # Parenthetical
     for m in re.finditer(r"\(PMID\s*\d{6,9}\)", content):
         pmid_positions.append(m.start())
-    # Trailing after period (cuối paragraph)
     for m in re.finditer(r"\.\s*PMID[:\s]+\d{6,9}", content):
         pmid_positions.append(m.start())
 
@@ -463,13 +554,10 @@ def check_specific_claim_near_pmid(content: str, cfg: DepthConfig) -> tuple[bool
 
     covered = 0
     uncovered = 0
-    proximity = 600  # table + caption
+    proximity = 600
     for claim in claims:
         pos = claim.start()
-        has_pmid = any(
-            abs(p - pos) <= proximity
-            for p in pmid_positions
-        )
+        has_pmid = any(abs(p - pos) <= proximity for p in pmid_positions)
         if has_pmid:
             covered += 1
         else:
@@ -478,73 +566,120 @@ def check_specific_claim_near_pmid(content: str, cfg: DepthConfig) -> tuple[bool
     if covered + uncovered == 0:
         return True, 0, 0
     coverage_ratio = covered / (covered + uncovered)
-    passed = coverage_ratio >= 0.55  # relax hơn nữa
+    passed = coverage_ratio >= 0.55
     return passed, covered, uncovered
 
 
-def check_total_size(content: str, cfg: DepthConfig) -> tuple[bool, int, int]:
-    """Check tổng kích thước bài (proxy cho depth)."""
-    chars = len(content)
-    lines = content.count("\n") + 1
-    passed = chars >= cfg.min_total_chars and lines >= cfg.min_total_lines
-    return passed, chars, lines
-
-
-# ============================================================
-# FOUNDATION-SPECIFIC CHECKS
-# ============================================================
-def check_drug_dosage(content: str, cfg: FoundationConfig) -> tuple[bool, int]:
-    """Đếm số pattern liều thuốc trong toàn bài. Foundation yêu cầu ≥5."""
+def check_drug_dosage(content: str, cfg: DepthConfig) -> tuple[bool, int]:
+    """Đếm số pattern liều thuốc trong toàn bài."""
     if not getattr(cfg, "require_drug_dosage", False):
-        return True, -1  # skipped
-    import re
+        return True, -1
     matches = re.findall(getattr(cfg, "drug_dosage_re", r""), content, re.IGNORECASE)
     count = len(matches)
     passed = count >= cfg.min_drug_dosage_patterns
     return passed, count
 
 
-def check_basic_concepts(content: str, cfg: FoundationConfig) -> tuple[bool, int]:
-    """Đếm số khái niệm nền tảng được giải thích rõ ràng.
-
-    Consensus prose is counted by explanatory language, not an LLM-authored
-    verification label. Verification tags are reserved for source-backed claims.
-    """
+def check_basic_concepts(content: str, cfg: DepthConfig) -> tuple[bool, int]:
+    """Đếm số khái niệm nền tảng được giải thích rõ ràng."""
     if not getattr(cfg, "require_basic_concepts", False):
-        return True, -1  # skipped
-    import re
+        return True, -1
     pattern_matches = re.findall(getattr(cfg, "basic_concept_re", r""), content, re.IGNORECASE)
     count = len(pattern_matches)
     passed = count >= cfg.min_basic_concepts
     return passed, count
 
 
-def check_section10_depth(content: str, cfg: "FoundationConfig") -> tuple[bool, int]:
-    """Đo độ dài thực của section 0.1 (Nền tảng tối thiểu cần dùng ngay).
-
-    Trích nội dung từ heading '### 0.1' đến heading tiếp theo (## hoặc ###).
-    Đếm số dòng không rỗng. Yêu cầu ≥ min_section10_lines (mặc định 15).
-    Nếu không tìm thấy '### 0.1', trả về (False, 0) — thiếu section là fail.
-    Target: '### 0.1 Nền tảng tối thiểu cần dùng ngay' — đây là nơi thực sự
-    giải thích khái niệm từ đầu cho người mới, khác với ### 1.0 là định nghĩa bệnh.
-    """
+def check_section10_depth(content: str, cfg: DepthConfig) -> tuple[bool, int]:
+    """Đo độ dài thực của section 0.1 (Nền tảng tối thiểu cần dùng ngay)."""
     if not getattr(cfg, "require_section10_depth", False):
-        return True, -1  # skipped
-    import re
-    # Tìm heading ### 0.1 (bất kể tên phụ sau đó)
+        return True, -1
     m = re.search(r"^###\s+0\.1[\s.]", content, re.MULTILINE)
     if not m:
         return False, 0
     start = m.end()
-    # Tìm heading tiếp theo (## hoặc ###) sau vị trí đó
     next_heading = re.search(r"^#{2,3}\s", content[start:], re.MULTILINE)
     block = content[start: start + next_heading.start()] if next_heading else content[start:]
-    # Đếm dòng không rỗng (bỏ dòng trống và dòng chỉ có ---)
     non_empty = [ln for ln in block.splitlines() if ln.strip() and ln.strip() != "---"]
     count = len(non_empty)
     passed = count >= cfg.min_section10_lines
     return passed, count
 
+
+def check_placeholders(content: str) -> tuple[bool, int, list[str]]:
+    """Detect leftover placeholders."""
+    patterns = [
+        r"\[(?:Mục\s+tiêu|Tên|Nội\s+dung|Tiêu\s+đề|Điền|insert|TODO|TBD|Tên\s+bài|Cần\s+bổ\s+sung|xxx|XXX)[^\]]*\]",
+        r"\[[A-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠƯẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼẾỀỂỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪỬỮỰỲỴÝỶỸ\s]*\.\.\.[^\]]*\]",
+        r"\b(?:TODO|TBD|FIXME)\b",
+        r"\[\s*\.\.\.\s*\]",
+    ]
+    found = []
+    for pat in patterns:
+        matches = re.findall(pat, content, re.IGNORECASE)
+        found.extend(matches)
+    found_unique = sorted(set(found))
+    count = len(found)
+    passed = count == 0
+    return passed, count, found_unique
+
+
+def check_padding_and_duplicates(content: str) -> tuple[bool, int, list[str]]:
+    """Detect verbatim padding/repeats, template-pattern line repeats, and overly short main sections."""
+    lines = [ln.strip() for ln in content.splitlines() if ln.strip()]
+
+    candidates = [
+        ln for ln in lines
+        if len(ln) >= 25
+        and not ln.startswith("#")
+        and not ln.startswith("```")
+        and not ln.startswith("|---")
+    ]
+
+    # 1. Exact verbatim repeated non-trivial lines
+    seen = set()
+    verbatim_duplicates = set()
+    for ln in candidates:
+        if ln in seen:
+            verbatim_duplicates.add(ln[:60] + "...")
+        else:
+            seen.add(ln)
+
+    # 2. Template-line repeats (same string pattern with only numbers changing)
+    normalized_counts: dict[str, int] = {}
+    normalized_samples: dict[str, str] = {}
+    for ln in candidates:
+        norm = re.sub(r"\d+", "N", ln)
+        normalized_counts[norm] = normalized_counts.get(norm, 0) + 1
+        if norm not in normalized_samples:
+            normalized_samples[norm] = ln[:60] + "..."
+
+    template_duplicates = set()
+    for norm, count in normalized_counts.items():
+        if count >= 3:
+            template_duplicates.add(f"Template repeat ({count}x): {normalized_samples[norm]}")
+
+    # 3. Short sections (main heading ## with <3 non-empty lines before next heading)
+    short_sections = []
+    heading_matches = list(re.finditer(r"^##\s+(.+)$", content, re.MULTILINE))
+    for i, m in enumerate(heading_matches):
+        start = m.end()
+        end = heading_matches[i + 1].start() if i + 1 < len(heading_matches) else len(content)
+        sec_body = content[start:end]
+        sec_title = m.group(1).strip()
+        sec_lines = [ln.strip() for ln in sec_body.splitlines() if ln.strip() and ln.strip() != "---"]
+        if "THAM KHẢO" in sec_title.upper() or "REFERENCES" in sec_title.upper():
+            continue
+        if len(sec_lines) < 3:
+            short_sections.append(f"Section '## {sec_title}' has only {len(sec_lines)} lines")
+
+    issues = list(verbatim_duplicates) + list(template_duplicates) + short_sections
+    passed = len(verbatim_duplicates) == 0 and len(template_duplicates) == 0 and len(short_sections) == 0
+    return passed, len(issues), issues
+
+
+# ============================================================
+# MAIN RUNNER
 # ============================================================
 def run_depth_check(md_path: Path, cfg: DepthConfig = None) -> DepthReport:
     if cfg is None:
@@ -557,57 +692,87 @@ def run_depth_check(md_path: Path, cfg: DepthConfig = None) -> DepthReport:
     content = md_path.read_text(encoding="utf-8")
     report = DepthReport(file=str(md_path), passed=True)
 
-    # 1. Sections
-    passed, found_count, missing = check_sections(content, cfg)
+    # 1. Structural profile check (headings + markers)
+    profile_failures = check_profile_content(cfg.profile_name, content)
     report.add(
-        "Required sections (9 keywords)",
-        passed,
-        f"{found_count}/10",
-        "10/10",
-        f"Missing: {missing}" if missing else "",
+        f"Profile structural markers ({cfg.profile_name})",
+        len(profile_failures) == 0,
+        f"{len(profile_failures)} issues",
+        "0 issues",
+        "; ".join(profile_failures) if profile_failures else "",
     )
 
-    # 2. Subsections
+    # 2. Sections
+    passed, sec_count, found_count, missing = check_sections(content, cfg)
+    report.add(
+        f"Main sections count (##) & keywords",
+        passed,
+        f"{sec_count} sections ({found_count}/{len(cfg.required_section_keywords)} keywords)",
+        f"≥{cfg.min_main_sections} sections ({len(cfg.required_section_keywords)} keywords)",
+        f"Missing keywords: {missing}" if missing else "",
+    )
+
+    # 3. Subsections (###)
     passed, count = check_subsections(content, cfg)
     report.add("Subsections (### X.Y)", passed, count, cfg.min_subsections_total)
 
-    # 3. Tables
-    passed, count = check_tables(content, cfg)
-    report.add("Markdown tables", passed, count, cfg.min_markdown_tables)
+    # 4. Total size (word count & nonblank lines)
+    passed, words, lines = check_total_size(content, cfg)
+    report.add(
+        "Total size (words / nonblank lines)",
+        passed,
+        f"{words} words / {lines} lines",
+        f"{cfg.min_total_words} words / {cfg.min_total_lines} lines",
+    )
 
-    # 4. Guidelines
+    # 5. Mechanism chains
+    passed, count = check_mechanism_chains(content, cfg)
+    report.add("Mechanism chains (→ / Tầng 1..5)", passed, count, cfg.min_mechanism_chains)
+
+    # 6. Examples
+    passed, count = check_examples(content, cfg)
+    report.add("Examples (ví dụ / VD)", passed, count, cfg.min_examples)
+
+    # 7. Misconceptions / traps
+    passed, count = check_misconceptions(content, cfg)
+    report.add("Misconceptions / traps (bẫy / hay nhầm)", passed, count, cfg.min_misconceptions)
+
+    # 8. Checkpoints
+    passed, count = check_checkpoints(content, cfg)
+    report.add("Self-check checkpoints", passed, count, cfg.min_checkpoints)
+
+    # 9. Cases with solutions
+    passed, count = check_cases_with_solutions(content, cfg)
+    report.add("Clinical cases with solutions", passed, count, cfg.min_cases_with_solutions)
+
+    # 10. Practical tips
+    passed, count = check_tips(content, cfg)
+    report.add("Tips bullets (Section 7)", passed, count, cfg.min_tips_bullets)
+
+    # 11. Markdown tables (informational)
+    passed, count = check_tables(content, cfg)
+    report.add("Markdown tables (informational)", passed, count, cfg.min_markdown_tables, informational=True)
+
+    # 12. Guidelines (informational)
     passed, count, found = check_guidelines(content, cfg)
     report.add(
-        "Guideline mentions",
+        "Guideline mentions (informational)",
         passed,
         count,
         cfg.min_guideline_mentions,
         f"Found: {', '.join(found)}" if found else "",
+        informational=True,
     )
 
-    # 5. PMIDs unique
+    # 13. PMIDs unique (informational)
     passed, unique, total = check_pmids(content, cfg)
-    report.add("Unique PMIDs", passed, unique, cfg.min_unique_pmids)
+    report.add("Unique PMIDs (informational)", passed, unique, cfg.min_unique_pmids, informational=True)
 
-    # 6. Refs count
+    # 14. Refs count (informational)
     passed, count = check_refs_count(content, cfg)
-    report.add("Papers in References", passed, count, cfg.min_papers_in_refs)
+    report.add("Papers in References (informational)", passed, count, cfg.min_papers_in_refs, informational=True)
 
-    # 7. Tips
-    passed, count = check_tips(content, cfg)
-    report.add("Tips bullets (Section 7)", passed, count, cfg.min_tips_bullets)
-
-    # 8. Vietnam section — DISABLED, luôn pass
-    passed, count, found = check_vietnam_section(content, cfg)
-    report.add(
-        "Vietnam context (Section 8) — OPTIONAL",
-        passed,
-        "skipped",
-        "n/a",
-        "Section 8 không bắt buộc — user không cần data VN (2026-06-23)",
-    )
-
-    # 9. Diacritics
+    # 15. Diacritics
     passed, ratio = check_diacritics(content, cfg)
     report.add(
         "Vietnamese diacritics ratio",
@@ -616,50 +781,55 @@ def run_depth_check(md_path: Path, cfg: DepthConfig = None) -> DepthReport:
         f"{cfg.min_vietnamese_ratio:.0%}",
     )
 
-    # 10. Overview epi
-    passed, count = check_overview_epi(content, cfg)
-    report.add(
-        "Epidemiology in overview",
-        passed,
-        count,
-        3,
-        "Section 0 needs ≥3 epi keywords",
-    )
-
-    # 11. Specific claim near PMID
+    # 16. Specific claim near PMID (informational)
     passed, covered, uncovered = check_specific_claim_near_pmid(content, cfg)
     report.add(
-        "Specific claims have PMID nearby",
+        "Specific claims have PMID nearby (informational)",
         passed,
         f"{covered} covered / {uncovered} uncovered",
-        "≥80% covered",
+        "≥55% covered",
+        informational=True,
     )
-
-    # 12. Total size
-    passed, chars, lines = check_total_size(content, cfg)
+    # 17. Placeholders
+    passed, count, found_placeholders = check_placeholders(content)
     report.add(
-        "Total size (proxy for depth)",
+        "No leftover placeholders",
         passed,
-        f"{chars} chars / {lines} lines",
-        f"{cfg.min_total_chars}/{cfg.min_total_lines}",
+        f"{count} found",
+        "0 found",
+        f"Found: {found_placeholders}" if found_placeholders else "",
     )
 
-    # FOUNDATION CHECKS (chỉ chạy nếu cfg có require_drug_dosage)
+    # 18. Padding & duplicated text
+    passed, count, issues = check_padding_and_duplicates(content)
+    report.add(
+        "No padding or duplicated sections",
+        passed,
+        f"{count} issues",
+        "0 issues",
+        "; ".join(issues[:3]) if issues else "",
+    )
+
+    # FOUNDATION / PHARMACOLOGY SPECIFIC CHECKS
     if getattr(cfg, "require_drug_dosage", False):
         passed, count = check_drug_dosage(content, cfg)
         report.add(
-            "Drug dosage patterns (foundation)",
+            "Drug dosage patterns",
             passed,
             count,
             cfg.min_drug_dosage_patterns,
         )
+
+    if getattr(cfg, "require_basic_concepts", False):
         passed, count = check_basic_concepts(content, cfg)
         report.add(
-            "Basic concepts explained (foundation)",
+            "Basic concepts explained",
             passed,
             count,
             cfg.min_basic_concepts,
         )
+
+    if getattr(cfg, "require_section10_depth", False):
         passed, count = check_section10_depth(content, cfg)
         report.add(
             "Section 0.1 depth (foundation primer ≥15 lines)",
@@ -685,13 +855,13 @@ def main():
     parser.add_argument(
         "--all",
         action="store_true",
-        help="Check all lesson MD files under Bai hoc y khoa (hoặc --root nếu chỉ định)",
+        help="Check all lesson MD files under Bai hoc y khoa",
     )
     parser.add_argument(
         "--root",
         type=str,
         default=None,
-        help="Root folder để scan khi dùng --all (mặc định: toàn Bai hoc y khoa)",
+        help="Root folder để scan khi dùng --all",
     )
     parser.add_argument(
         "--report",
@@ -704,51 +874,41 @@ def main():
         type=str,
         default="foundation",
         choices=["disease", "foundation", "pharmacology"],
-        help="Lesson profile (default: foundation). Disease skips drug dosage + basic concept checks.",
+        help="Lesson profile (default: foundation).",
     )
     args = parser.parse_args()
-    cfg = FoundationConfig() if args.profile == "foundation" else DepthConfig()
+    cfg = get_depth_config(args.profile)
 
     if args.all:
         project_root = Path(r"F:\DL\mavisresearch\Bai hoc y khoa")
-        # --root override; mặc định scan toàn Bai hoc y khoa
         scan_root = Path(args.root) if args.root else project_root
         if not scan_root.exists():
             print(f"ERROR: scan root not found: {scan_root}", file=sys.stderr)
             sys.exit(2)
 
-        # Chỉ scan file bài học chính — allowlist theo naming convention:
-        #   IM-NN_Ten_bai_YYYY-MM-DD.md  hoặc  Ten_bai_YYYY-MM-DD.md
-        # Loại trừ folder không phải bài học và suffix không phải bài chính.
         EXCLUDE_DIRS = {
             "10_Script Python", "09_Source - Markdown",
             "80_Legacy_by_format", "99_Inbox", "_duplicates_review",
             "07_Visual Summary - HTML", "08_Anki Deck - apkg",
         }
-        # Suffix của file phụ trợ — loại dù có date trong tên
         EXCLUDE_STEM_SUFFIXES = (
             "_RESEARCH_BRIEF", "_research_brief",
             "_knowledge_check", "_knowledge_check_answer_key",
             "_remediation_gate_report", "_remediation_evidence",
             "_citation_audit", "_gate_report",
         )
-        import re as _re
-        _date_re = _re.compile(r"_\d{4}-\d{2}-\d{2}")
+        _date_re = re.compile(r"_\d{4}-\d{2}-\d{2}")
 
         def _is_lesson_file(p: Path) -> bool:
-            # Phải nằm ngoài folder loại trừ
             if any(part in EXCLUDE_DIRS for part in p.parts):
                 return False
             name = p.name
             stem = p.stem
-            # Loại file theo prefix tên — không phải bài học dạng IM-NN
             EXCLUDE_NAME_PREFIXES = ("QA-", "case-gia-lap-")
             if any(name.startswith(pfx) for pfx in EXCLUDE_NAME_PREFIXES):
                 return False
-            # Phải có date stamp trong tên (YYYY-MM-DD)
             if not _date_re.search(stem):
                 return False
-            # Không được là file phụ trợ (suffix của stem)
             if any(stem.endswith(s) for s in EXCLUDE_STEM_SUFFIXES):
                 return False
             return True

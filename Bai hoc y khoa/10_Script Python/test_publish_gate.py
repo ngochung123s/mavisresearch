@@ -6,6 +6,7 @@ import unittest
 from pathlib import Path
 
 from publish_gate import (
+    DEFAULT_DEPTH_CONTRACTS,
     PROFILE_GATES,
     ContractError,
     extract_contract,
@@ -24,7 +25,9 @@ def brief_with(contract: object, prefix: str = "") -> str:
 def valid_contract(profile: str = "disease") -> dict:
     return {
         "profile": profile,
+        "mode": "L3_BEGINNER",
         "required_gates": list(PROFILE_GATES[profile]),
+        "lesson_depth_contract": dict(DEFAULT_DEPTH_CONTRACTS[profile]),
         "not_applicable": [],
         "approved_exemptions": [],
     }
@@ -71,6 +74,41 @@ class PublishGateTest(unittest.TestCase):
         with self.assertRaisesRegex(ContractError, "cannot include required"):
             validate_contract(contract)
 
+    def test_mode_and_depth_contract_validation(self):
+        contract = valid_contract()
+        contract["mode"] = "LONG_FORM_DEEP_DIVE"
+        with self.assertRaisesRegex(ContractError, "invalid contract mode"):
+            validate_contract(contract)
+
+        # Modified threshold (lowered)
+        contract = valid_contract()
+        contract["lesson_depth_contract"]["min_total_words"] = 100
+        with self.assertRaisesRegex(ContractError, "must exactly match canonical default"):
+            validate_contract(contract)
+
+        # Modified threshold (raised)
+        contract = valid_contract()
+        contract["lesson_depth_contract"]["min_total_words"] = 99999
+        with self.assertRaisesRegex(ContractError, "must exactly match canonical default"):
+            validate_contract(contract)
+
+        # Extra key
+        contract = valid_contract()
+        contract["lesson_depth_contract"]["extra_key"] = 123
+        with self.assertRaisesRegex(ContractError, "keys mismatch"):
+            validate_contract(contract)
+
+        # Missing key
+        contract = valid_contract()
+        del contract["lesson_depth_contract"]["no_padding"]
+        with self.assertRaisesRegex(ContractError, "keys mismatch"):
+            validate_contract(contract)
+
+        # Wrong type
+        contract = valid_contract()
+        contract["lesson_depth_contract"]["no_padding"] = 1
+        with self.assertRaisesRegex(ContractError, "must exactly match canonical default"):
+            validate_contract(contract)
     def test_results_fail_closed_for_fake_pass_missing_unknown_duplicate_and_warn(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

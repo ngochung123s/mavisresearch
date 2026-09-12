@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Endometrial Receptivity & ERA Test trong IVF/FET</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<style>
+  body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #f8fafc; }
+  .card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 24px; margin-bottom: 20px; }
+  .badge { display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+  .badge-red { background: #fee2e2; color: #991b1b; }
+  .badge-yellow { background: #fef3c7; color: #92400e; }
+  .badge-green { background: #d1fae5; color: #065f46; }
+  .badge-blue { background: #dbeafe; color: #1e40af; }
+  .badge-purple { background: #ede9fe; color: #5b21b6; }
+  .badge-pink { background: #fce7f3; color: #be185d; }
+  table { border-collapse: collapse; width: 100%; }
+  th { background: #0E4D92; color: white; padding: 10px; text-align: left; }
+  td { padding: 10px; border-bottom: 1px solid #e5e7eb; }
+  tr:hover { background: #f9fafb; }
+  .keypoint { background: #fffbeb; border-left: 4px solid #f59e0b; padding: 12px; margin: 8px 0; border-radius: 4px; }
+  .danger { background: #fee2e2; border-left: 4px solid #dc2626; padding: 12px; margin: 8px 0; border-radius: 4px; }
+  .safe { background: #d1fae5; border-left: 4px solid #10b981; padding: 12px; margin: 8px 0; border-radius: 4px; }
+  .info { background: #dbeafe; border-left: 4px solid #1e40af; padding: 12px; margin: 8px 0; border-radius: 4px; }
+  .mermaid { background: white; padding: 16px; border-radius: 8px; text-align: center; }
+  .chart-box { max-width: 100%; height: 400px; }
+  .chart-box-sm { max-width: 100%; height: 300px; }
+</style>
+</head>
+<body class="p-6">
+<div class="max-w-6xl mx-auto">
+
+  <!-- HEADER -->
+  <div class="card bg-gradient-to-r from-blue-50 to-pink-50">
+    <h1 class="text-3xl font-bold text-blue-900 mb-2">Endometrial Receptivity & ERA Test trong IVF/FET</h1>
+    <p class="text-gray-700">B&agrave;i h&#7885;c y khoa ART &#273;&#7863;c bi&#7879;t &mdash; Ng&agrave;y 16/06/2026 &middot; Window of Implantation &middot; RIF &middot; pET</p>
+    <div class="mt-3 flex gap-2 flex-wrap">
+      <span class="badge badge-pink">ART chuy&ecirc;n s&acirc;u</span>
+      <span class="badge badge-blue">ESHRE 2023</span>
+      <span class="badge badge-purple">PMID 37332387</span>
+      <span class="badge badge-yellow">COMPETE RCT 2025</span>
+      <span class="badge badge-green">BMJ RCT 2026</span>
+    </div>
+  </div>
+
+  <!-- 1. DINH NGHIA WOI -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">1. Window of Implantation (WOI) l&agrave; g&igrave;?</h2>
+    <p><strong>WOI</strong> = c&#7917;a s&#7893; sinh h&#7885;c <span class="badge badge-pink">~48&ndash;72 gi&#7901;</span> trong secretory mu&#7897;n khi n&#7897;i m&#7841;c receptive, s&#7861;n s&agrave;ng &#273;&oacute;n ph&ocirc;i l&agrave;m t&#7893;.</p>
+    
+    <div class="info mt-3">
+      <strong>Timing ch&iacute;nh x&aacute;c theo protocol (PMID 37711892):</strong>
+      <ul class="mt-2 list-disc pl-6">
+        <li><strong>True Natural Cycle (tNC):</strong> LH surge + <strong>6 ng&agrave;y</strong> (blastocyst)</li>
+        <li><strong>Modified Natural Cycle (mNC):</strong> hCG trigger + <strong>7 ng&agrave;y</strong></li>
+        <li><strong>HRT / Artificial Cycle:</strong> P (progesterone) + <strong>5 ng&agrave;y</strong></li>
+      </ul>
+    </div>
+
+    <h3 class="text-lg font-semibold mt-4 mb-2">Molecular signature c&#7911;a WOI</h3>
+    <div class="grid grid-cols-2 gap-3">
+      <div class="keypoint">
+        <strong>Cytokines/Chemokines:</strong> LIF, IL-6, IL-11, CXCL12
+      </div>
+      <div class="keypoint">
+        <strong>Adhesion molecules:</strong> integrins (&#945;V&#946;3, &#945;1&#946;1), selectins, cadherins
+      </div>
+      <div class="keypoint">
+        <strong>Glycoproteins:</strong> glycodelin, MUC-1
+      </div>
+      <div class="keypoint">
+        <strong>Morphology:</strong> pinopodes (vi nhung mao ng&agrave;y 20-21)
+      </div>
+      <div class="keypoint">
+        <strong>Decidualization:</strong> stromal &rarr; decidual cells
+      </div>
+      <div class="keypoint">
+        <strong>LncRNAs:</strong> 742 candidates (PMID 38875127)
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. WOI DISPLACEMENT -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">2. WOI Displacement &mdash; D&#7841;ng v&agrave; t&#7927; l&#7879;</h2>
+    
+    <h3 class="text-lg font-semibold mt-2 mb-2">Ph&acirc;n b&#7889; d&#7841;ng WOI &#7903; b&#7879;nh nh&acirc;n RIF</h3>
+    <div class="mermaid">
+pie title Phan bo WOI dang o benh nhan RIF
+    "Pre-receptive" : 75
+    "Early receptive" : 18
+    "Post-receptive" : 5
+    "Receptive binh thuong" : 2
+    </div>
+    <p class="text-sm text-gray-600 mt-2 text-center"><em>T&#7927; l&#7879; tham kh&#7843;o: Edimiris 2023 (PMID 37261585) &mdash; 73% RIF c&oacute; WOI displacement</em></p>
+
+    <h3 class="text-lg font-semibold mt-4 mb-2">3 d&#7841;ng WOI theo ERA v&agrave; x&#7917; tr&iacute;</h3>
+    <table>
+      <thead>
+        <tr><th>D&#7841;ng</th><th>T&#7927; l&#7879;</th><th>&#272;&#7863;c &#273;i&#7875;m</th><th>X&#7917; tr&iacute;</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Receptive</strong> <span class="badge badge-green">b&igrave;nh th&#432;&#7901;ng</span></td><td>~25-50%</td><td>WOI &#273;&uacute;ng P+5</td><td>ET theo protocol chu&#7849;n</td></tr>
+        <tr style="background: #fef2f2;"><td><strong>Pre-receptive</strong> <span class="badge badge-red">ph&#7893; bi&#7871;n nh&#7845;t</span></td><td>~50-75%</td><td>WOI mu&#7897;n h&#417;n</td><td>Th&ecirc;m progesterone 12-24h (pET)</td></tr>
+        <tr><td><strong>Post-receptive</strong> <span class="badge badge-yellow">hi&#7871;m</span></td><td>~5%</td><td>WOI s&#7899;m h&#417;n</td><td>R&uacute;t progesterone (pET)</td></tr>
+        <tr><td><strong>Early receptive</strong></td><td>hi&#7871;m</td><td>Trung gian</td><td>pET c&aacute; nh&#7889;i</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 3. ERA TEST -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">3. ERA Test &mdash; C&ocirc;ng ngh&#7879;</h2>
+    
+    <div class="info">
+      <strong>ERA (Igenomix, 2011 &mdash; Carlos Sim&oacute;n)</strong> l&agrave; test <strong>transcriptomic</strong> ph&acirc;n t&iacute;ch bi&#7875;u hi&#7879;n <strong>238 gene</strong> trong m&#7851;u sinh thi&#7871;t n&#7897;i m&#7841;c. S&#7917; d&#7909;ng <strong>machine learning classifier</strong> ph&acirc;n lo&#7841;i: Receptive / Pre-receptive / Post-receptive.
+    </div>
+
+    <h3 class="text-lg font-semibold mt-4 mb-2">Quy tr&igrave;nh 5 b&#432;&#7899;c</h3>
+    <div class="mermaid">
+flowchart TD
+    A[Chuan bi noi mac bang HRT gia lap E2 -> P4] --> B[Sinh thiet noi mac vao P+5 120h sau P]
+    B --> C[RNA extraction + sequencing]
+    C --> D[Phan tich bioinformatic ML classifier]
+    D --> E{Receptive?}
+    E -->|Receptive| F[ET theo protocol chuan]
+    E -->|Pre-receptive| G[pET: them progesterone 12-24h]
+    E -->|Post-receptive| H[pET: rut progesterone]
+    E -->|Early receptive| I[pET: ca nhoi]
+    style A fill:#dbeafe
+    style F fill:#d1fae5
+    style G fill:#fee2e2
+    style H fill:#fef3c7
+    </div>
+  </div>
+
+  <!-- 4. EVIDENCE ERA -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">4. Evidence ERA &mdash; C&oacute; th&#7853;t s&#7921; hi&#7879;u qu&#7843;?</h2>
+    
+    <h3 class="text-lg font-semibold mb-2">Evidence T&Iacute;CH C&#7920;C (&#7910;ng h&#7897; ERA)</h3>
+    <table>
+      <thead>
+        <tr><th>Nghi&ecirc;n c&#7913;u</th><th>Thi&#7871;t k&#7871;</th><th>n</th><th>K&#7871;t qu&#7843; ch&iacute;nh</th><th>PMID</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Sim&oacute;n C 2020</strong> <span class="badge badge-green">5 n&#259;m</span></td>
+          <td>RCT 3-arm (PET/ERA vs FET vs Fresh)</td>
+          <td>458</td>
+          <td><strong>Cumulative LBR 71.2% (PET) vs 55.4% (FET) vs 48.9% (Fresh)</strong>, p&lt;0.05</td>
+          <td>32723696</td>
+        </tr>
+        <tr>
+          <td><strong>Zheng Y 2025</strong> <span class="badge badge-blue">Trung Qu&#7889;c</span></td>
+          <td>Prospective cohort RIF</td>
+          <td>85</td>
+          <td><strong>LBR 53.3% (ERT) vs 30% (control), p=0.030</strong></td>
+          <td>40221820</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 class="text-lg font-semibold mt-4 mb-2">Evidence TRUNG L&#7852;P / TI&Ecirc;U C&#7920;C</h3>
+    <table>
+      <thead>
+        <tr><th>Nghi&ecirc;n c&#7913;u</th><th>Thi&#7871;t k&#7871;</th><th>n</th><td>K&#7871;t qu&#7843;</td><th>PMID</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Arian SE 2023</strong> <span class="badge badge-purple">meta-analysis</span></td>
+          <td>8 studies</td>
+          <td>2,784</td>
+          <td>LBR/ongoing pregnancy: <strong>OR 1.38 (0.79&ndash;2.41)</strong> &mdash; kh&ocirc;ng kh&aacute;c bi&#7879;t</td>
+          <td>36414088</td>
+        </tr>
+        <tr>
+          <td><strong>Edimiris P 2023</strong> <span class="badge badge-blue">&#272;&#7913;c</span></td>
+          <td>Retrospective RIF</td>
+          <td>99</td>
+          <td>Pregnancy 49% (pET) vs 44% (standard), p=NS</td>
+          <td>37261585</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="keypoint mt-4">
+      <strong>K&#7871;t lu&#7853;n:</strong> ERA c&oacute; l&#7907;i &#7903; m&#7897;t s&#7889; cohort RIF, kh&ocirc;ng l&#7907;i &#7903; population chung. <strong>ESHRE 2023 kh&ocirc;ng khuy&#7871;n c&aacute;o th&#432;&#7901;ng quy</strong> ERA trong RIF (PMID 37332387).
+    </div>
+  </div>
+
+  <!-- 5. NC vs HRT CHART -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">5. FET Endometrial Preparation &mdash; Natural Cycle vs HRT</h2>
+    
+    <h3 class="text-lg font-semibold mb-2">So s&aacute;nh 2 RCT l&#7899;n nh&#7845;t 2025-2026</h3>
+    <div class="chart-box"><canvas id="ncHrTChart"></canvas></div>
+
+    <h3 class="text-lg font-semibold mt-4 mb-2">C&aacute;c protocol chu&#7849;n b&#7883; n&#7897;i m&#7841;c</h3>
+    <table>
+      <thead>
+        <tr><th>Protocol</th><th>C&aacute;ch ti&#7871;n h&agrave;nh</th><th>ET timing</th><th>Pre-eclampsia</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>True NC (tNC)</strong></td><td>Theo d&otilde;i LH t&#7921; nhi&ecirc;n</td><td>LH + 7 ng&agrave;y</td><td><span class="badge badge-green">Th&#7845;p</span></td></tr>
+        <tr><td><strong>Modified NC (mNC)</strong></td><td>Trigger hCG khi follicle &#273;&#7911;</td><td>hCG + 7 ng&agrave;y</td><td><span class="badge badge-green">Th&#7845;p</span></td></tr>
+        <tr><td><strong>HRT / Artificial</strong></td><td>E2 &rarr; P4</td><td>P + 5 ng&agrave;y</td><td><span class="badge badge-red">T&#259;ng (~1.5-2x)</span></td></tr>
+        <tr><td><strong>Mild Stimulation</strong></td><td>Letrozole + trigger</td><td>hCG + 7 ng&agrave;y</td><td><span class="badge badge-yellow">Trung b&igrave;nh</span></td></tr>
+        <tr><td><strong>P4-modified NC</strong></td><td>NC + progesterone h&#7895; tr&#7907;</td><td>Linh ho&#7841;t</td><td><span class="badge badge-green">Th&#7845;p</span></td></tr>
+      </tbody>
+    </table>
+
+    <div class="danger mt-3">
+      <strong>L&#432;u &yacute;:</strong> HRT cycle kh&ocirc;ng c&oacute; corpus luteum &rarr; gi&#7843;m angiogenic factors (VEGF, PlGF) + t&#259;ng sFlt-1 &rarr; t&#259;ng pre-eclampsia. <strong>Ph&ograve;ng ng&#7915;a:</strong> Aspirin 81&ndash;162 mg/ng&agrave;y t&#7915; 12&ndash;16 tu&#7847;n thai.
+    </div>
+  </div>
+
+  <!-- 6. THUAT TOAN -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">6. Thu&#7853;t to&aacute;n &mdash; Khi n&agrave;o d&ugrave;ng ERA?</h2>
+    <div class="mermaid">
+flowchart TD
+    A[Benh nhan IVF/FET] --> B{Chu ky FET may?}
+    B -->|Dau tien| C[NC neu ovulatory deu hoac HRT - KHONG CAN ERA]
+    B -->|Sau 1 FET that bai| D[Review phoi + protocol - KHONG CAN ERA]
+    B -->|Sau 2 FET that bai| E[RIF tiem an - Can nhac ERA neu phoi euploid]
+    B -->|Sau >=3 FET that bai| F[RIF xac dinh theo ESHRE 2023]
+    F --> G[Full RIF workup: karyotype, anatomy, immune]
+    G --> H{Can nhac ERA}
+    H -->|Co phoi euploid| I[ERA test]
+    H -->|Phoi chat luong kem| J[Can nhac PGT-A truoc]
+    I --> K{WOI displacement?}
+    K -->|Pre-receptive| L[pET: them P 12-24h]
+    K -->|Post-receptive| M[pET: rut P]
+    K -->|Receptive| N[ET protocol chuan]
+    style C fill:#d1fae5
+    style D fill:#d1fae5
+    style F fill:#fee2e2
+    style L fill:#dbeafe
+    style M fill:#fef3c7
+    </div>
+  </div>
+
+  <!-- 7. ESHRE 2023 RIF DEFINITION -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">7. &#272;&#7883;nh ngh&#297;a RIF theo ESHRE 2023</h2>
+    <div class="info">
+      <em>"RIF describes the scenario in which the transfer of embryos considered to be viable has failed to result in a positive pregnancy test sufficiently often in a specific patient to warrant consideration of further investigation and/or intervention."</em>
+    </div>
+    <h3 class="text-lg font-semibold mt-3 mb-2">Ti&ecirc;u ch&iacute; c&#7909; th&#7875;</h3>
+    <ul class="list-disc pl-6">
+      <li><strong>&ge; 3 l&#7847;n</strong> chuy&#7875;n ph&ocirc;i th&#7845;t b&#7841;i (&#946;-hCG &acirc;m t&iacute;nh), HO&#7860;C</li>
+      <li><strong>&ge; 2 l&#7847;n</strong> n&#7871;u ph&ocirc;i ch&#7845;t l&#432;&#7907;ng t&#7889;t (euploid blastocyst)</li>
+      <li>Ph&ocirc;i ph&#7843;i &#273;&aacute;nh gi&aacute; "viable" (h&igrave;nh th&aacute;i t&#7889;t, ph&aacute;t tri&#7875;n &#273;&uacute;ng ng&agrave;y)</li>
+      <li>T&iacute;nh &#273;&#7871;n tu&#7893;i m&#7865;</li>
+    </ul>
+  </div>
+
+  <!-- 8. hCG INTRAUTERINE -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">8. hCG Intrauterine trong RIF</h2>
+    <div class="safe">
+      <strong>Meta-analysis 2024 (PMID 38982352, Luo X et al., 13 studies, n=2,157):</strong>
+      <ul class="mt-2 list-disc pl-6">
+        <li>C&#7843;i thi&#7879;n clinical pregnancy rate (CPR)</li>
+        <li>C&#7843;i thi&#7879;n embryo implantation rate</li>
+        <li>Kh&ocirc;ng t&#259;ng miscarriage rate</li>
+      </ul>
+    </div>
+    <h3 class="text-lg font-semibold mt-3 mb-2">C&#417; ch&#7871; 5 &#273;&#432;&#7901;ng</h3>
+    <ol class="list-decimal pl-6">
+      <li>K&iacute;ch th&iacute;ch <strong>decidualization</strong> stromal cells</li>
+      <li>K&eacute;o d&agrave;i WOI (t&#259;ng progesterone receptors)</li>
+      <li>T&#259;ng hCG/LH receptors &#7903; n&#7897;i m&#7841;c</li>
+      <li>&#272;i&#7873;u h&ograve;a mi&#7877;n d&#7883;ch (t&#259;ng Treg, gi&#7843;m NK cytotoxic)</li>
+      <li>T&#259;ng angiogenic factors (VEGF)</li>
+    </ol>
+    <p class="mt-3"><strong>Li&#7873;u:</strong> 500&ndash;1000 IU, tr&#432;&#7899;c ET 3&ndash;7 ng&agrave;y. <em>Cost-effective cho c&aacute;c n&#432;&#7899;c &#273;ang ph&aacute;t tri&#7875;n.</em></p>
+  </div>
+
+  <!-- 9. WOI DISPLACEMENT BY STUDY -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">9. WOI Displacement qua c&aacute;c nghi&ecirc;n c&#7913;u</h2>
+    <div class="chart-box-sm"><canvas id="woiChart"></canvas></div>
+  </div>
+
+  <!-- 10. BIOMARKER COMPARISON -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">10. So s&aacute;nh c&aacute;c marker receptivity</h2>
+    <div class="chart-box"><canvas id="biomarkerChart"></canvas></div>
+  </div>
+
+  <!-- 11. CLINICAL PEARLS -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">11. Clinical Pearls &mdash; &#272;i&#7875;m c&#7847;n nh&#7899;</h2>
+    <div class="keypoint"><strong>1.</strong> Kh&ocirc;ng ph&#7843;i m&#7885;i RIF &#273;&#7873;u do endometrial factor. Kho&#7843;ng 28&ndash;30% c&oacute; WOI displacement th&#7853;t s&#7921;.</div>
+    <div class="keypoint"><strong>2.</strong> ERA t&#7889;n k&eacute;m (~1,500&ndash;3,000 USD/test) v&agrave; evidence ch&#432;a nh&#7845;t qu&aacute;n &rarr; gi&#7843;i th&iacute;ch k&#7929; cho b&#7879;nh nh&acirc;n.</div>
+    <div class="safe"><strong>3.</strong> NC &#432;u ti&ecirc;n HRT cho ph&#7909; n&#7919; ovulatory &#273;&#7873;u (PMID 40561125) &mdash; gi&#7843;m pre-eclampsia, c&oacute; th&#7875; t&#259;ng LBR.</div>
+    <div class="danger"><strong>4.</strong> HRT cycle t&#259;ng pre-eclampsia risk (RR ~1.5&ndash;2) &rarr; aspirin 81&ndash;162 mg t&#7915; 12&ndash;16 tu&#7847;n theo USPSTF/ACOG.</div>
+    <div class="keypoint"><strong>5.</strong> WOI timing: True NC = LH+6; Modified NC = hCG+7; HRT = P+5 (cho blastocyst).</div>
+    <div class="safe"><strong>6.</strong> hCG intrauterine (500&ndash;1000 IU, ET -3&ndash;-7 ng&agrave;y) c&oacute; th&#7875; c&#7843;i thi&#7879;n RIF outcomes (PMID 38982352).</div>
+    <div class="keypoint"><strong>7.</strong> PGT-A k&#7871;t h&#7907;p ERA: ch&#7881; c&oacute; &yacute; ngh&#297;a khi transfer embryo euploid.</div>
+  </div>
+
+  <!-- 12. REFERENCES -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">12. T&agrave;i li&#7879;u tham kh&#7843;o (PubMed IDs)</h2>
+    <table>
+      <thead>
+        <tr><th>PMID</th><th>N&#259;m</th><th>T&aacute;c gi&#7843;</th><th>Ti&ecirc;u &#273;&#7873;</th><th>T&aacute;p ch&iacute;</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>40221820</td><td>2025</td><td>Zheng Y et al.</td><td>Novel endometrial receptivity test in RIF</td><td>Int J Gynaecol Obstet</td></tr>
+        <tr><td>40561125</td><td>2025</td><td>Liu X et al.</td><td>COMPETE RCT: NC vs HRT for FET</td><td>PLoS Med</td></tr>
+        <tr><td>37711892</td><td>2023</td><td>Hsueh YW et al.</td><td>Optimal preparation of endometrium in FET</td><td>Front Endocrinol</td></tr>
+        <tr><td>32723696</td><td>2020</td><td>Sim&oacute;n C et al.</td><td>5-year RCT PET/ERA vs FET vs Fresh</td><td>Reprod Biomed Online</td></tr>
+        <tr><td>37261585</td><td>2023</td><td>Edimiris P et al.</td><td>One center experience with pFET in RIF</td><td>J Assist Reprod Genet</td></tr>
+        <tr><td>38875127</td><td>2024</td><td>Hasanabadi HE et al.</td><td>LncRNAs in endometrial receptivity</td><td>JBRA Assist Reprod</td></tr>
+        <tr><td>41565309</td><td>2026</td><td>Wei D et al.</td><td>Natural ovulation vs programmed FET (BMJ RCT)</td><td>BMJ</td></tr>
+        <tr><td>38641194</td><td>2024</td><td>Rokhsartalab Azar P et al.</td><td>Uterine fluid miRNAs in RIF</td><td>Clin Chim Acta</td></tr>
+        <tr><td>39244908</td><td>2024</td><td>Kornilov N et al.</td><td>P4mNC preparation for FET</td><td>Reprod Biomed Online</td></tr>
+        <tr><td><strong>37332387</strong></td><td><strong>2023</strong></td><td><strong>Cimadomo D et al.</strong></td><td><strong>ESHRE good practice on RIF</strong></td><td><strong>Hum Reprod Open</strong></td></tr>
+        <tr><td>38982352</td><td>2024</td><td>Luo X et al.</td><td>Meta-analysis intrauterine hCG in RIF</td><td>BMC Pregnancy Childbirth</td></tr>
+        <tr><td>36414088</td><td>2023</td><td>Arian SE et al.</td><td>ERA before FET: systematic review and meta-analysis</td><td>Fertil Steril</td></tr>
+        <tr><td>35669489</td><td>2022</td><td>Zhang WB et al.</td><td>Tb-ERA in Chinese RIF patients: RCT protocol</td><td>Contemp Clin Trials Commun</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card bg-gradient-to-r from-blue-50 to-pink-50">
+    <p class="text-center text-sm text-gray-600">
+      <strong>T&agrave;i li&#7879;u Visual Summary</strong> &middot; MiniMax Mavis &middot; 2026-06-16<br>
+      <em>M&#7905;i quy&#7871;t &#273;&#7883;nh l&acirc;m s&agrave;ng c&#7847;n &#273;&#432;&#7907;c b&aacute;c s&#297; &#273;i&#7873;u tr&#7883; c&acirc;n nh&#7855;c v&#7899;i b&#7879;nh nh&acirc;n c&#7909; th&#7875;.</em>
+    </p>
+  </div>
+
+</div>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'default' });
+
+// Chart 1: NC vs HRT - Live Birth Rate
+const ncHrTChart = new Chart(document.getElementById('ncHrTChart').getContext('2d'), {
+  type: 'bar',
+  data: {
+    labels: ['COMPETE RCT 2025 (n=902)', 'BMJ Wei RCT 2026 (n=4,376)'],
+    datasets: [
+      { label: 'Natural Cycle (%)', data: [54.0, 41.6], backgroundColor: '#10b981' },
+      { label: 'HRT (%)', data: [43.0, 40.6], backgroundColor: '#f59e0b' }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      title: { display: true, text: 'Live Birth Rate: NC vs HRT (2 RCT lớn nhất)' },
+      legend: { position: 'top' }
+    },
+    scales: {
+      y: { beginAtZero: true, max: 70, title: { display: true, text: 'LBR (%)' } }
+    }
+  }
+});
+
+// Chart 2: WOI Displacement by study
+const woiChart = new Chart(document.getElementById('woiChart').getContext('2d'), {
+  type: 'bar',
+  data: {
+    labels: ['Pre-receptive', 'Early receptive', 'Post-receptive', 'Receptive'],
+    datasets: [
+      { label: 'Zheng Y 2025 (n=85 RIF)', data: [100, 0, 0, 0], backgroundColor: '#0E4D92' },
+      { label: 'Edimiris P 2023 (n=67 RIF)', data: [74, 24, 2, 0], backgroundColor: '#BE185D' }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      title: { display: true, text: 'Phân bố WOI Displacement ở RIF theo 2 nghiên cứu (%)' },
+      legend: { position: 'top' }
+    },
+    scales: {
+      y: { beginAtZero: true, max: 100, title: { display: true, text: 'Tỉ lệ (%)' } },
+      x: { stacked: false }
+    }
+  }
+});
+
+// Chart 3: Biomarker comparison radar
+const biomarkerChart = new Chart(document.getElementById('biomarkerChart').getContext('2d'), {
+  type: 'radar',
+  data: {
+    labels: ['Chi phí thấp', 'Non-invasive', 'Evidence mạnh', 'Dễ thực hiện', 'Đã validate lâm sàng'],
+    datasets: [
+      { label: 'ERA (RNA-seq 238 gene)', data: [2, 2, 3, 3, 4], borderColor: '#0E4D92', backgroundColor: 'rgba(14, 77, 146, 0.2)' },
+      { label: 'hCG intrauterine', data: [4, 2, 3, 4, 3], borderColor: '#BE185D', backgroundColor: 'rgba(190, 24, 93, 0.2)' },
+      { label: 'miRNA uterine fluid', data: [3, 5, 2, 3, 2], borderColor: '#7c3aed', backgroundColor: 'rgba(124, 58, 237, 0.2)' },
+      { label: 'Ultrasound pattern', data: [5, 5, 2, 5, 3], borderColor: '#10b981', backgroundColor: 'rgba(16, 185, 129, 0.2)' }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      title: { display: true, text: 'So sánh ưu/nhược điểm các marker receptivity (1-5)' }
+    },
+    scales: {
+      r: { beginAtZero: true, max: 5, ticks: { stepSize: 1 } }
+    }
+  }
+});
+</script>
+</body>
+</html>

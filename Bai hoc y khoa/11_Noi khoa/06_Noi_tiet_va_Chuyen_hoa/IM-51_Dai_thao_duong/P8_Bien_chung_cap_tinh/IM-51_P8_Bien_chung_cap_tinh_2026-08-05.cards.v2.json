@@ -1,0 +1,303 @@
+[
+  {
+    "type": "basic",
+    "front": "Ba biến chứng cấp tính chính của bệnh Đái tháo đường?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• 1. Nhiễm toan ceton do đái tháo đường (DKA).<br>• 2. Hôn mê tăng áp lực thẩm thấu (HHS).<br>• 3. Hạ đường huyết (Hypoglycemia).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>DKA và HHS là biến chứng tăng đường huyết đe dọa tính mạng; Hạ đường huyết là biến chứng do điều trị/sai lầm liều lượng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tỷ lệ nhập viện do các biến chứng tăng đường huyết cấp tính ở người bệnh ĐTĐ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Khoảng 1% tổng số ca nhập viện ở người bệnh ĐTĐ là do các cơn tăng đường huyết cấp tính.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bao gồm DKA và HHS, là hai tình trạng khủng hoảng chuyển hóa cần được nhận diện khẩn cấp.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Điểm mấu chốt sinh lý bệnh chung của cả DKA và HHS?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Thiếu hụt insulin tương đối hoặc tuyệt đối.<br>• Dẫn đến tăng đường huyết (tân tạo đường tại gan + giảm sử dụng ở mô) và mất nước (lợi niệu thẩm thấu qua thận).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Tuy nhiên khác biệt cốt lõi: DKA thiếu insulin tuyệt đối (đốt mỡ tạo ceton), HHS thiếu insulin tương đối (đủ ức chế lipolysis nên không toan).",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Trong DKA, thiếu insulin {{c1::tuyệt đối}} dẫn đến đốt cháy mỡ tạo ceton; trong HHS, thiếu insulin {{c1::tương đối}} đủ ức chế quá trình lipolysis nên {{c1::không có toan}}.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tam chứng kinh điển đặc trưng cho DKA (Nhiễm toan ceton ĐTĐ)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• 1. Tăng đường huyết (Glucose > 13.9 mmol/L hoạc 250 mg/dL).<br>• 2. Tăng ceton máu (hoặc ceton niệu).<br>• 3. Toan chuyển hóa khoảng trống anion.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Euglycemic DKA là ngoại lệ có ceton và toan nhưng glucose ≤ 13.9 mmol/L.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế bệnh sinh 4 bước của DKA?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• 1. Thiếu insulin + tăng hormone đối kháng (glucagon, cortisol, GH, catecholamines).<br>• 2. Tăng phân giải mỡ (lipolysis) tại mô mỡ → giải phóng acid béo tự do.<br>• 3. Gan chuyển hóa acid béo → thể ceton (beta-hydroxybutyrate, acetoacetate).<br>• 4. Tích tụ ceton → toan chuyển hóa anion gap.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Các thể ceton làm giảm pH máu và gây triệu chứng lâm sàng như nôn, đau bụng.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Hai thể ceton chính được gan tạo ra từ acid béo tự do trong DKA là {{c1::beta-hydroxybutyrate}} và {{c1::acetoacetate}}.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Các nhóm đối tượng có nguy cơ cao bị DKA?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Đái tháo đường type 1 (nguy cơ cao nhất do thiếu insulin tuyệt đối).<br>• ĐTĐ type 2 trong tình huống stress (phẫu thuật, chấn thương, nhiễm trùng, corticoid).<br>• ĐTĐ type 2 dùng SGLT2 inhibitors (nguy cơ Euglycemic DKA).<br>• Nhóm đặc biệt: người rất trẻ, người cao tuổi, phụ nữ mang thai.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Cần lưu ý nhóm dùng SGLT2i không được loại trừ DKA dựa vào đường huyết bình thường.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Bảng tiêu chuẩn chẩn đoán DKA theo ADA?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Ceton máu hoặc niệu: Dương tính.<br>• Glucose: > 13.9 mmol/L (> 250 mg/dL).<br>• Bicarbonate (HCO₃⁻): < 18 mmol/L.<br>• pH động mạch: < 7.3.<br>• Anion gap: > 10.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Nếu pH 7.25-7.30 (nhẹ), pH 7.00-7.24 (trung bình), pH < 7.00 (nặng).",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Phân loại mức độ DKA theo ADA: Nhẹ (pH {{c1::7.25–7.30}}, HCO₃⁻ {{c1::15–18 mmol/L}}), Trung bình (pH {{c1::7.00–7.24}}, HCO₃⁻ {{c1::10–14 mmol/L}}), Nặng (pH {{c1::< 7.00}}, HCO₃⁻ {{c1::< 10 mmol/L}}).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Triệu chứng lâm sàng kinh điển của DKA?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Khát nhiều, tiểu nhiều, mất nước, nhịp tim nhanh.<br>• Thở Kussmaul (thở sâu, nhanh, gắng sức bù toan).<br>• Hơi thở mùi acetone (mùi trái cây chín).<br>• Buồn nôn, nôn, đau bụng.<br>• Nhìn mờ, đau đầu, lú lẫn, lơ mơ, hôn mê.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Thở Kussmaul và mùi acetone là 2 dấu hiệu đặc trưng giúp gợi ý DKA ngay tại phòng cấp cứu.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Kiểu thở sâu, nhanh, gắng sức đặc trưng nhằm bù trừ cho tình trạng toan chuyển hóa trong DKA gọi là kiểu thở {{c1::Kussmaul}}.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Đặc điểm và rủi ro của DKA trong thai kỳ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Diễn tiến nhanh hơn, nặng hơn và xuất hiện với mức đường huyết THẤP hơn.<br>• Tỷ lệ thai lưu (fetal demise) có thể lên đến 35%.<br>• Thường do không tuân thủ insulin, nhiễm trùng, dùng glucocorticoid hoặc beta-mimetic.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Mang thai làm tăng đề kháng insulin và tăng phân giải mỡ, khiến DKA dễ xảy ra hơn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Định nghĩa và cơ chế cốt lõi của HHS (Hôn mê tăng áp lực thẩm thấu)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tình trạng tăng đường huyết nghiêm trọng và tăng áp lực thẩm thấu mà KHÔNG có toan ceton nặng.<br>• Cơ chế: Thiếu insulin tương đối → hormone đối kháng tăng → đường huyết tăng cực cao → lợi niệu thẩm thấu → mất nước nghiêm trọng.<br>• Insulin vẫn đủ để ức chế lipolysis nên không có ceton.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>HHS thường gặp ở người cao tuổi ĐTĐ type 2 chưa chẩn đoán hoặc có bệnh kèm theo.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tiên lượng và tỷ lệ tử vong của HHS so với DKA?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tỷ lệ tử vong của HHS là 15–20% hoặc cao hơn ở người lớn — CAO HƠN ĐÁNG KỂ so với DKA (DKA < 1-5%).<br>• Thường gặp hơn ở người cao tuổi.<br>• Đường huyết có thể tăng rất cao (lên tới 100 mmol/L / 1800 mg/dL).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Nguyên nhân tử vong cao ở HHS là do mất nước quá nặng, lớn tuổi và có nhiều bệnh lý nền kết hợp.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Tỷ lệ tử vong của HHS dao động từ {{c1::15–20%}} (hoặc cao hơn), cao hơn nhiều so với DKA chủ yếu do {{c1::mất nước nghiêm trọng}} và {{c1::bệnh nền ở người cao tuổi}}.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Yếu tố nguy cơ và yếu tố thúc đẩy hàng đầu của HHS?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Nguy cơ: Người cao tuổi, suy thận, giảm cảm giác khát, kiểm soát kém.<br>• Thúc đẩy hàng đầu: NHIỄM TRÙNG (chiếm 50–60% các trường hợp).<br>• Thuốc thúc đẩy: Beta-blockers, thiazide, glucocorticoid, antipsychotics thế hệ 2.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Nhiễm trùng cấp tính (phổi, tiết niệu) là ngòi nổ phổ biến nhất kích hoạt HHS.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Yếu tố thúc đẩy hàng đầu gây ra HHS là {{c1::Nhiễm trùng}}, chiếm từ {{c1::50–60%}} tổng số các trường hợp.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "4 tiêu chuẩn chẩn đoán HHS theo Consensus Report?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• 1. Đường huyết > 600 mg/dL (33.3 mmol/L).<br>• 2. pH tĩnh mạch > 7.25 / động mạch > 7.30.<br>• 3. Bicarbonate > 15 mmol/L (thường > 18).<br>• 4. Áp lực thẩm thấu máu hiệu dụng > 320 mOsm/kg.<br>• Ceton niệu âm tính hoặc nhẹ.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Lưu ý: Hơn 1/3 trường hợp có thể chồng lấp lâm sàng giữa DKA và HHS.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Tiêu chuẩn áp lực thẩm thấu máu hiệu dụng để chẩn đoán HHS là > {{c1::320 mOsm/kg}}.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "So sánh bảng chỉ số chẩn đoán giữa HHS và DKA?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• pH động mạch: HHS > 7.30 vs DKA ≤ 7.30.<br>• Glucose: HHS > 600 mg/dL (33.3 mmol/L) vs DKA > 250 mg/dL (13.9 mmol/L).<br>• Bicarbonate: HHS > 15 mEq/L vs DKA < 18 mEq/L.<br>• Anion gap: HHS < 12 vs DKA > 12.<br>• Ceton: HHS không/vết vs DKA dương tính rõ.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Mặc dù chỉ số rõ ràng nhưng 1/3 ca có biểu hiện chồng lấp cả 2 bệnh.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Đặc điểm lâm sàng phân biệt HHS với DKA?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• HHS khởi phát từ từ qua nhiều ngày (DKA vài giờ đến vài ngày).<br>• Thiếu hụt nước lớn hơn nhiều: HHS thiếu ~9 L (so với DKA ~6 L).<br>• Rối loạn ý thức kinh điển (lơ mơ, hôn mê, co giật, liệt nửa người thoáng qua).<br>• Sốt hoặc bạch cầu > 25,000/μL gợi ý nhiễm trùng tiềm ẩn.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Thiếu hụt 9L nước làm tăng osmolality máu > 320, teo tế bào teo mô não gây rối loạn thần kinh rầm rộ.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Lượng nước thiếu hụt trung bình ở bệnh nhân HHS là khoảng {{c1::9 Lít}}, trong khi ở DKA là khoảng {{c1::6 Lít}}.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Định nghĩa và ngưỡng chẩn đoán Hạ đường huyết ở người bệnh ĐTĐ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Hội chứng lâm sàng với rối loạn chức năng thần kinh tự chủ và suy giảm nhận thức khi đường huyết giảm dưới ngưỡng sinh lý.<br>• Ngưỡng chẩn đoán: Đường huyết < 70 mg/dL (3.9 mmol/L).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Cần xử trí ngay từ mốc < 70 mg/dL để phòng ngừa tiến triển hạ đường huyết nặng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Phân mức Hạ đường huyết Level 1, Level 2, Level 3 theo ADA 2026?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Level 1: Glucose < 70 mg/dL (3.9 mmol/L) và ≥ 54 mg/dL (3.0 mmol/L).<br>• Level 2: Glucose < 54 mg/dL (3.0 mmol/L).<br>• Level 3: Biến cố nặng với biến đổi thể chất/tinh thần (cần sự trợ giúp của người khác).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Level 1 là mốc cảnh báo; Level 2 là mốc lâm sàng quan trọng; Level 3 phân độ theo triệu chứng nặng bất kể con số.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Hạ đường huyết Level 1 là Glucose < {{c1::70 mg/dL}} (3.9 mmol/L); Level 2 là Glucose < {{c1::54 mg/dL}} (3.0 mmol/L).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "So sánh xu hướng nhập viện do Tăng đường huyết vs Hạ đường huyết ở người tuổi già?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Nhập viện vì tăng đường huyết giảm 39% (1999-2011).<br>• Nhập viện vì hạ đường huyết TĂNG 12%.<br>• Nhập viện vì hạ đường huyết nặng có nguy cơ tử vong cao hơn nhập viện vì tăng đường huyết.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Kiểm soát đường huyết quá nghiêm ngặt ở người lớn tuổi làm tăng nguy cơ hạ đường huyết nguy hiểm.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Phân loại các triệu chứng lâm sàng của Hạ đường huyết (Thần kinh vs Tự chủ)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Triệu chứng Thần kinh (Neuroglycopenic): Lơ mơ, lú lẫn, đau đầu, chóng mặt, khiếm khuyết thần kinh, co giật, hôn mê.<br>• Triệu chứng Tự chủ (Cholinergic/Adrenergic): Vã mồ hôi, run tay, nhịp tim nhanh/bất thường, lo âu, hồi hộp, buồn nôn.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Ở người ĐTĐ lâu năm, triệu chứng tự chủ có thể mất đi (hypoglycemia unawareness), bệnh nhân đi thẳng vào lơ mơ/hôn mê.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Quy tắc 15/15 (Rule of 15) trong xử trí Hạ đường huyết Level 1 & 2?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Ăn/uống 15g Carbohydrate hấp thu nhanh (nước trái cây, nước ngọt, gel glucose).<br>• Thử lại đường huyết sau 15 phút.<br>• Nếu đường huyết vẫn < 100 mg/dL: Lặp lại 15g Carb.<br>• Khi đã ổn định: Cho ăn nhẹ để duy trì.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Không dùng thức ăn giàu chất béo (như sô-cô-la) vì mỡ làm chậm hấp thu đường.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Quy tắc 15/15: Cho bệnh nhân dùng {{c1::15g Carb nhanh}}, sau đó kiểm tra lại đường huyết sau {{c1::15 phút}}.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Xử trí CẤP CỨU Hạ đường huyết Level 3 (hôn mê / co giật / không nuốt được)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Dextrose IV: 25g Dextrose 50% (bolus) hoặc 10g Dextrose 10% (bolus) hoặc 25g D10% truyền 20 phút.<br>• Glucagon IM: Tiêm bắp 1 mg.<br>• Tuyệt đối không cho uống khi không tỉnh táo hoàn toàn.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Cần mở đường truyền tĩnh mạch nhanh chóng hoặc dùng Glucagon nếu chưa có đường truyền.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao hạ đường huyết do thuốc Sulfonylurea (SU) bắt buộc phải nằm viện theo dõi 24–48 giờ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Thuốc SU (như Gliclazide, Glimepiride, Glibenclamide) có thời gian bán thải kéo dài và kích thích tiết insulin liên tục.<br>• Đường huyết có thể hạ tái phát nhiều lần sau khi ngưng truyền glucose.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bệnh nhân dùng SU bị hạ đường huyết tuyệt đối không được cho về nhà ngay trong ngày.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Bệnh nhân ĐTĐ hạ đường huyết do thuốc nhóm Sulfonylurea (SU) bắt buộc giữ theo dõi nội trú ít nhất {{c1::24–48 giờ}}.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Ba trụ cột điều trị cốt lõi của DKA và HHS theo Standards of Care 2026?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• 1. Bù dịch tĩnh mạch (Fluid resuscitation) — Phục hồi tuần hoàn, cải thiện tưới máu.<br>• 2. Truyền Insulin — Ức chế tạo ceton và giảm đường huyết.<br>• 3. Bù điện giải — Đặc biệt là Kali (K⁺) để tránh hạ kali máu tử vong.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Song song với 3 trụ cột là tìm và điều trị yếu tố thúc đẩy (nhiễm trùng, bỏ thuốc).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao HHS cần bù dịch tích cực hơn DKA và lý do gây suy sụp tuần hoàn?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• HHS thiếu hụt thể tích nặng hơn (9L vs 6L).<br>• Khi osmolality huyết thanh giảm trong quá trình điều trị, nước kéo từ lòng mạch ra khoang tế bào → cùng với lợi niệu thẩm thấu có thể gây giảm thể tích lòng mạch nhanh chóng → tụt huyết áp/suy sụp tuần hoàn.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Do đó trong HHS phải bolus ngay ≥ 20 mL/kg NaCl 0.9% trong giờ đầu tiên.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Phác đồ bù dịch giờ đầu tiên cho HHS người lớn: Bolus ban đầu {{c1::≥ 20 mL/kg}} dung dịch muối đẳng trương {{c1::NaCl 0.9%}}.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Bảng lựa chọn dịch truyền duy trì dựa vào nồng độ Natri hiệu chỉnh trong DKA/HHS?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Ban đầu: 1000 mL NaCl 0.9% bolus giờ đầu.<br>• Natri hiệu chỉnh > 140 mEq/L: Dùng NaCl 0.45%, tốc độ 250-500 mL/h.<br>• Natri hiệu chỉnh < 140 mEq/L: Dùng NaCl 0.9%, tốc độ 250-500 mL/h.<br>• Đường huyết giảm < 250 mg/dL (13.9 mmol/L): Thêm Dextrose 5% (D5) vào dịch truyền.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Thêm D5 khi đường huyết < 250 mg/dL giúp ngăn ngừa hạ đường huyết và phù brain trong khi vẫn duy trì truyền insulin để xóa toan ceton.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Thêm Dextrose 5% vào dịch truyền DKA khi đường huyết giảm xuống dưới {{c1::250 mg/dL}} (13.9 mmol/L).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Nguyên tắc dùng Insulin trong điều trị HHS?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Bắt đầu insulin sau khi đã bù dịch ban đầu (có thể trì hoãn insulin nếu bù dịch đơn thuần đang làm giảm đường huyết tốt).<br>• Tốc độ truyền tĩnh mạch liên tục: 0.025 – 0.05 units/kg/giờ.<br>• Tốc độ giảm đường huyết mục tiêu: 50 – 75 mg/dL mỗi giờ (2.8 - 4.2 mmol/L/giờ).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Giảm đường huyết quá nhanh (> 75-100 mg/dL/h) làm tăng nguy cơ phù não.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Tốc độ giảm đường huyết an toàn mục tiêu trong xử trí DKA/HHS là {{c1::50–75 mg/dL mỗi giờ}}.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Hướng dẫn bù Kali chi tiết trong DKA và HHS dựa trên nồng độ K⁺ máu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• K⁺ < 3.3 mEq/L: TẠM NGỪNG insulin, bù K 20-30 mEq/h đến khi K > 3.3.<br>• K⁺ 3.3 - 5.3 mEq/L: Tiếp tục insulin, bù K 20-30 mEq/L dịch truyền (duy trì K 4-5).<br>• K⁺ > 5.3 mEq/L: Tiếp tục insulin, TẠM NGỪNG bù kali.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Insulin đẩy Kali vào trong tế bào rất mạnh. Nếu bù Insulin khi K < 3.3 sẽ gây hạ Kali trầm trọng dẫn đến loạn nhịp tim tử vong.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Khi nồng độ K⁺ huyết thanh < {{c1::3.3 mEq/L}}, quy tắc an toàn bắt buộc là {{c1::TẠM NGỪNG truyền Insulin}} và bù Kali {{c1::20–30 mEq/giờ}}.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Lưu ý đặc biệt về bù điện giải Phosphate và Magnesium trong HHS?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• HHS mất nhiều kali, phosphate và magnesium hơn DKA.<br>• Bù Phosphate: Dung dịch 50:50 kali phosphate + muối kali khác (KCL hoặc K-acetate).<br>• Bù Magnesium: Khi hạ Mg nặng kèm hạ Ca, liều 25-50 mg/kg mỗi 4-6h.<br>• Theo dõi điện giải mỗi 2-4 giờ.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Hạ Magnesium làm rối loạn đáp ứng với Kali, do đó cần sửa Mg trước nếu Kali không tăng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Chỉ định duy nhất dùng Sodium Bicarbonate trong DKA?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Chỉ dùng khi pH động mạch severe < 6.90.<br>• Liều: 100 mmol Sodium Bicarbonate trong 400 mL nước cất + 20 mEq KCl truyền trong 2 giờ.<br>• KHÔNG dùng bicarbonate nếu pH ≥ 6.90.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Dùng Bicarbonate không đúng chỉ định gây hạ K nặng, toan ceton nghịch lý trong dịch não tủy và suy giảm giao oxy cho mô.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Chỉ định dùng Sodium Bicarbonate trong DKA là khi pH động mạch severe < {{c1::6.90}}.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao CHỐNG CHỈ ĐỊNH dùng Sodium Bicarbonate trong điều trị HHS?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Bicarbonate trong HHS làm tăng nguy cơ hạ kali máu nặng.<br>• Làm suy giảm khả năng cung cấp oxy cho mô (chuyển dịch đường cong DPG).<br>• HHS vốn không có toan ceton nặng nên không có chỉ định dùng bicarbonate.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Trong HHS tuyệt đối không được pha thêm Bicarbonate vào dịch truyền.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chuẩn giải quyết (Resolution criteria) hoàn toàn DKA và HHS?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• DKA: pH tĩnh mạch > 7.3 HOẶC Bicarbonate > 18 mmol/L VÀ ceton máu/niệu giảm.<br>• HHS: Áp lực thẩm thấu huyết thanh giảm về bình thường VÀ đường huyết kiểm soát được, bệnh nhân tỉnh táo.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Khi đạt tiêu chuẩn giải quyết mới chuyển từ truyền insulin IV sang tiêm dưới da (SC).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Các biến chứng nguy hiểm cần theo dõi trong quá trình điều trị DKA/HHS?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Hạ đường huyết (do truyền insulin quá liều/kéo dài).<br>• Hạ kali máu (do insulin đẩy K vào tế bào).<br>• Phù brain (cerebral edema - đặc biệt ở trẻ em do giảm áp lực thẩm thấu quá nhanh).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Theo dõi lâm sàng thần kinh và điện giải máu mỗi 2-4 giờ.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Euglycemic DKA (euDKA) là gì và tỷ lệ xuất hiện?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Là DKA xảy ra với mức đường huyết KHÔNG tăng đáng kể (Glucose ≤ 13.9 mmol/L / 250 mg/dL).<br>• Chiếm khoảng 10% tổng số ca DKA.<br>• Thường gặp nhất ở bệnh nhân ĐTĐ đang điều trị bằng thuốc nhóm SGLT2 inhibitors.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>SGLT2i làm tăng thải glucose qua nước tiểu làm đường huyết không cao, nhưng thiếu insulin vẫn gây lipolysis và toan ceton.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao Euglycemic DKA lại cực kỳ nguy hiểm trong lâm sàng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Do đường huyết bình thường hoặc chỉ tăng nhẹ, bác sĩ dễ bỏ sót chẩn đoán.<br>• Dẫn đến trì hoãn xét nghiệm ceton/khí máu và trì hoãn điều trị bù dịch/insulin.<br>• Bệnh nhân có thể đi vào toan chuyển hóa nặng và sốc.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Cần nghi ngờ euDKA ở bất kỳ bệnh nhân dùng SGLT2i nào có dấu hiệu mệt mỏi, nôn, đau bụng, thở nhanh.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Bệnh nhân đang dùng thuốc nhóm {{c1::SGLT2 inhibitors}} nghi ngờ DKA {{c1::KHÔNG bắt buộc phải có tăng đường huyết}} để chẩn đoán.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Các thời điểm đặc biệt nguy cơ cao bùng phát Euglycemic DKA ở người dùng SGLT2i?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Giai đoạn chu phẫu (perioperative) — nhịn ăn, stress phẫu thuật.<br>• Khi có bệnh lý đan xen nghiêm trọng (nhiễm trùng, chấn thương).<br>• Khi giảm liều insulin quá nhanh.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Khuyến cáo ngưng SGLT2i trước phẫu thuật chương trình 3-4 ngày để tránh euDKA.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "6 Bẫy lâm sàng thường gặp (Clinical Pitfalls) trong xử trí DKA/HHS?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• 1. Bỏ sót euDKA ở người dùng SGLT2i.<br>• 2. Bắt đầu insulin khi Kali < 3.3 mEq/L.<br>• 3. Dùng Bicarbonate trong HHS.<br>• 4. Bù dịch không đủ tích cực trong HHS.<br>• 5. Không tìm và điều trị yếu tố thúc đẩy (nhiễm trùng).<br>• 6. Không giáo dục bệnh nhân trước khi xuất viện.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Tránh được 6 bẫy này giúp giảm đáng kể nguy cơ biến chứng và tỷ lệ tử vong.",
+    "extra": ""
+  }
+]

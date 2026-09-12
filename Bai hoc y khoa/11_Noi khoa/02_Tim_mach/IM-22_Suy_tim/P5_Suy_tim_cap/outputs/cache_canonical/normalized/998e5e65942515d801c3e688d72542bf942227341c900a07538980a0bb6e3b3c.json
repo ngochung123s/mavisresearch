@@ -1,0 +1,517 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-07-30T14:30:23.208320Z",
+  "providers": [
+    "europe_pmc_metadata",
+    "europe_pmc_oa_full_text",
+    "crossref_retraction_watch",
+    "openalex",
+    "official_source"
+  ],
+  "records": {
+    "pmid:34447992": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "34447992",
+        "pmcid": null,
+        "doi": "10.1093/eurheartj/ehab368",
+        "openalex": "https://openalex.org/W3193598686",
+        "official_id": "ESC-HF-2021-ESSENTIAL"
+      },
+      "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure.",
+      "abstract": "The ESC Guidelines represent the views of the ESC and were produced after careful consideration of the scientific and medical knowledge and the evidence available at the time of their publication.The ESC is not responsible in the event of any contradiction, discrepancy and/or ambiguity between the ESC Guidelines and any other official recommendations or guidelines issued by the relevant public health authorities, in particular in relation to good use of healthcare or therapeutic strategies.Health professionals are encouraged to take the ESC Guidelines fully into account when exercising their clinical judgment, as well as in the determination and the implementation of preventive, diagnostic or therapeutic medical strategies; however, the ESC Guidelines do not override, in any way whatsoever, the individual responsibility of health professionals to make appropriate and accurate decisions in consideration of each patient's health condition and in consultation with that patient and, where appropriate and/or necessary, the patient's caregiver.Nor do the ESC Guidelines exempt health professionals from taking into full and careful consideration the relevant official updated recommendations or guidelines issued by the competent public health authorities, in order to manage each patient's case in light of the scientifically accepted data pursuant to their respective ethical and professional obligations.It is also the health professional's responsibility to verify the applicable rules and regulations relating to drugs and medical devices at the time of prescription.",
+      "journal": "European heart journal",
+      "year": "2021",
+      "publication_types": [
+        "Journal Article",
+        "Clinical Practice Guideline"
+      ],
+      "topics": [
+        "Medicine",
+        "Heart failure",
+        "Intensive care medicine",
+        "Cardiology",
+        "Internal medicine"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "raw_sha256": [
+        "f8be0ae07a93af2dc826030a80689b28307dd24aaed8021775b0fcd1532aa02f",
+        "7912a1e8c1de0c848caa47c70ccb85dce68e2301f5d61778fad52756a006c71a",
+        "ddfbc9d5ccadaab1c3cd1ff8d8dacd6b717d9222b6048caa61ede9ea3f0ca8a8",
+        "d69308e8eb8a5af3409697bd1be1c0dca3496035b71fbd9e3bdc4fa8c88f7422"
+      ],
+      "metadata_checked_at": "2026-07-30T14:30:23.208320Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T14:30:23.208320Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "Clinical Practice Guideline",
+        "canonical_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-and-chronic-heart-failure/",
+        "version": "2021",
+        "translation_of": null,
+        "endorsement_status": "original",
+        "superseded_by": null,
+        "current_version": true
+      }
+    },
+    "pmid:35363499": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "35363499",
+        "pmcid": null,
+        "doi": "10.1161/cir.0000000000001063",
+        "openalex": "https://openalex.org/W4220946720"
+      },
+      "title": "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines.",
+      "abstract": "<h4>Aim</h4>The \"2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure\" replaces the \"2013 ACCF/AHA Guideline for the Management of Heart Failure\" and the \"2017 ACC/AHA/HFSA Focused Update of the 2013 ACCF/AHA Guideline for the Management of Heart Failure.\" The 2022 guideline is intended to provide patient-centric recommendations for clinicians to prevent, diagnose, and manage patients with heart failure.<h4>Methods</h4>A comprehensive literature search was conducted from May 2020 to December 2020, encompassing studies, reviews, and other evidence conducted on human subjects that were published in English from MEDLINE (PubMed), EMBASE, the Cochrane Collaboration, the Agency for Healthcare Research and Quality, and other relevant databases. Additional relevant clinical trials and research studies, published through September 2021, were also considered. This guideline was harmonized with other American Heart Association/American College of Cardiology guidelines published through December 2021. Structure: Heart failure remains a leading cause of morbidity and mortality globally. The 2022 heart failure guideline provides recommendations based on contemporary evidence for the treatment of these patients. The recommendations present an evidence-based approach to managing patients with heart failure, with the intent to improve quality of care and align with patients' interests. Many recommendations from the earlier heart failure guidelines have been updated with new evidence, and new recommendations have been created when supported by published data. Value statements are provided for certain treatments with high-quality published economic analyses.",
+      "journal": "Circulation",
+      "year": "2022",
+      "publication_types": [
+        "Practice Guideline",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "Guideline",
+        "MEDLINE",
+        "Heart failure",
+        "Clinical Practice",
+        "Clinical trial",
+        "Health care",
+        "Systematic review",
+        "Evidence-based medicine"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "5e27472cf80158760478490b09b7732986d7342418ac570681b5f140e26cc1d8",
+        "51ae1a41d15c1d6a32a090d0da23454fe32d3137ee074acf8210b62412045b81",
+        "fb7595ab7a08de6b2e0a4be457ca497b31099c47731539f1b89c111042047a35"
+      ],
+      "metadata_checked_at": "2026-07-30T14:30:23.208320Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T14:30:23.208320Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:35040931": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "35040931",
+        "pmcid": "PMC9020374",
+        "doi": "10.1093/ehjacc/zuab122",
+        "openalex": "https://openalex.org/W4206345701"
+      },
+      "title": "Acute Heart Failure in the 2021 ESC Heart Failure Guidelines: a scientific statement from the Association for Acute CardioVascular Care (ACVC) of the European Society of Cardiology.",
+      "abstract": "The current European Society of Cardiology (ESC) Heart Failure Guidelines are the most comprehensive ESC document covering heart failure to date; however, the section focused on acute heart failure remains relatively too concise. Although several topics are more extensively covered than in previous versions, including some specific therapies, monitoring and disposition in the hospital, and the management of cardiogenic shock, the lack of high-quality evidence in acute, emergency, and critical care scenarios, poses a challenge for providing evidence-based recommendations, in particular when by comparison the data for chronic heart failure is so extensive. The paucity of evidence and specific recommendations for the general approach and management of acute heart failure in the emergency department is particularly relevant, because this is the setting where most acute heart failure patients are initially diagnosed and stabilized. The clinical phenotypes proposed are comprehensive, clinically relevant and with minimal overlap, whilst providing additional opportunity for discussion around respiratory failure and hypoperfusion.",
+      "journal": "European heart journal. Acute cardiovascular care",
+      "year": "2022",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "Medicine",
+        "Heart failure",
+        "Cardiology",
+        "Internal medicine",
+        "Intensive care medicine",
+        "Statement (logic)"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "ac76a85e6f6d0c2ab21f0a73e797dc063bf8e48db4b18a3980d625a6043f8e1a",
+        "407e3e68d9a5e18a3460a93eefe2fdd22b2b916286a48e6d0854c385d9ca5eff",
+        "7a7b866c24be1a764ac32af5a8ab1f2a23c26e03e249e8e64b5e8d9122bf3ede"
+      ],
+      "metadata_checked_at": "2026-07-30T14:30:23.208320Z",
+      "full_text": {
+        "available": true,
+        "license": "unknown",
+        "reuse_suitable": false,
+        "pmcid": "PMC9020374"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T14:30:23.208320Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:36027559": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "36027559",
+        "pmcid": null,
+        "doi": "10.1056/nejmoa2203094",
+        "openalex": "https://openalex.org/W4293872386"
+      },
+      "title": "Acetazolamide in Acute Decompensated Heart Failure with Volume Overload.",
+      "abstract": "<h4>Background</h4>Whether acetazolamide, a carbonic anhydrase inhibitor that reduces proximal tubular sodium reabsorption, can improve the efficiency of loop diuretics, potentially leading to more and faster decongestion in patients with acute decompensated heart failure with volume overload, is unclear.<h4>Methods</h4>In this multicenter, parallel-group, double-blind, randomized, placebo-controlled trial, we assigned patients with acute decompensated heart failure, clinical signs of volume overload (i.e., edema, pleural effusion, or ascites), and an N-terminal pro-B-type natriuretic peptide level of more than 1000 pg per milliliter or a B-type natriuretic peptide level of more than 250 pg per milliliter to receive either intravenous acetazolamide (500 mg once daily) or placebo added to standardized intravenous loop diuretics (at a dose equivalent to twice the oral maintenance dose). Randomization was stratified according to the left ventricular ejection fraction (≤40% or >40%). The primary end point was successful decongestion, defined as the absence of signs of volume overload, within 3 days after randomization and without an indication for escalation of decongestive therapy. Secondary end points included a composite of death from any cause or rehospitalization for heart failure during 3 months of follow-up. Safety was also assessed.<h4>Results</h4>A total of 519 patients underwent randomization. Successful decongestion occurred in 108 of 256 patients (42.2%) in the acetazolamide group and in 79 of 259 (30.5%) in the placebo group (risk ratio, 1.46; 95% confidence interval [CI], 1.17 to 1.82; P<0.001). Death from any cause or rehospitalization for heart failure occurred in 76 of 256 patients (29.7%) in the acetazolamide group and in 72 of 259 patients (27.8%) in the placebo group (hazard ratio, 1.07; 95% CI, 0.78 to 1.48). Acetazolamide treatment was associated with higher cumulative urine output and natriuresis, findings consistent with better diuretic efficiency. The incidence of worsening kidney function, hypokalemia, hypotension, and adverse events was similar in the two groups.<h4>Conclusions</h4>The addition of acetazolamide to loop diuretic therapy in patients with acute decompensated heart failure resulted in a greater incidence of successful decongestion. (Funded by the Belgian Health Care Knowledge Center; ADVOR ClinicalTrials.gov number, NCT03505788.).",
+      "journal": "The New England journal of medicine",
+      "year": "2022",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "Acetazolamide",
+        "Volume overload",
+        "Heart failure",
+        "Medicine",
+        "Acute decompensated heart failure",
+        "Internal medicine",
+        "Carbonic anhydrase inhibitor",
+        "Cardiology",
+        "Volume (thermodynamics)",
+        "Carbonic anhydrase",
+        "Chemistry",
+        "Biochemistry"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "58c33904d2a60da4e9f274f01c599030d60c7ff0223d5d211e102c6c1deb4616",
+        "086a9995e98ac0e52bc7b89298cc09421484f1decf322fda1cd3e9ec9c4602f1",
+        "8df1d37156ef766a2e871f2e611e517887dba9c7f3bbb38dc7d31fb8e8f3d267"
+      ],
+      "metadata_checked_at": "2026-07-30T14:30:23.208320Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T14:30:23.208320Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:21366472": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "21366472",
+        "pmcid": "PMC3412356",
+        "doi": "10.1056/nejmoa1005419",
+        "openalex": "https://openalex.org/W2139359396"
+      },
+      "title": "Diuretic strategies in patients with acute decompensated heart failure.",
+      "abstract": "<h4>Background</h4>Loop diuretics are an essential component of therapy for patients with acute decompensated heart failure, but there are few prospective data to guide their use.<h4>Methods</h4>In a prospective, double-blind, randomized trial, we assigned 308 patients with acute decompensated heart failure to receive furosemide administered intravenously by means of either a bolus every 12 hours or continuous infusion and at either a low dose (equivalent to the patient's previous oral dose) or a high dose (2.5 times the previous oral dose). The protocol allowed specified dose adjustments after 48 hours. The coprimary end points were patients' global assessment of symptoms, quantified as the area under the curve (AUC) of the score on a visual-analogue scale over the course of 72 hours, and the change in the serum creatinine level from baseline to 72 hours.<h4>Results</h4>In the comparison of bolus with continuous infusion, there was no significant difference in patients' global assessment of symptoms (mean AUC, 4236±1440 and 4373±1404, respectively; P=0.47) or in the mean change in the creatinine level (0.05±0.3 mg per deciliter [4.4±26.5 μmol per liter] and 0.07±0.3 mg per deciliter [6.2±26.5 μmol per liter], respectively; P=0.45). In the comparison of the high-dose strategy with the low-dose strategy, there was a nonsignificant trend toward greater improvement in patients' global assessment of symptoms in the high-dose group (mean AUC, 4430±1401 vs. 4171±1436; P=0.06). There was no significant difference between these groups in the mean change in the creatinine level (0.08±0.3 mg per deciliter [7.1±26.5 μmol per liter] with the high-dose strategy and 0.04±0.3 mg per deciliter [3.5±26.5 μmol per liter] with the low-dose strategy, P=0.21). The high-dose strategy was associated with greater diuresis and more favorable outcomes in some secondary measures but also with transient worsening of renal function.<h4>Conclusions</h4>Among patients with acute decompensated heart failure, there were no significant differences in patients' global assessment of symptoms or in the change in renal function when diuretic therapy was administered by bolus as compared with continuous infusion or at a high dose as compared with a low dose. (Funded by the National Heart, Lung, and Blood Institute; ClinicalTrials.gov number, NCT00577135.).",
+      "journal": "The New England journal of medicine",
+      "year": "2011",
+      "publication_types": [
+        "Comparative Study",
+        "research-article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "topics": [
+        "Acute decompensated heart failure",
+        "Diuretic",
+        "Medicine",
+        "Heart failure",
+        "Cardiology",
+        "Intensive care medicine",
+        "Internal medicine"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "032456c65d55d656416447bb29973d963a9fb6953d88b9ed6ba384a15bfc3662",
+        "46baf2896b6d223525ea25d730a0cf25b4b94781e0278fc16a0c25de0f6548df",
+        "d912f5411627802805c579ddb0a9a7b2a92c0d2944683e88197dbdadae1a801c"
+      ],
+      "metadata_checked_at": "2026-07-30T14:30:23.208320Z",
+      "full_text": {
+        "available": true,
+        "license": "unknown",
+        "reuse_suitable": false,
+        "pmcid": "PMC3412356"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T14:30:23.208320Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:35228754": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "35228754",
+        "pmcid": "PMC8938265",
+        "doi": "10.1038/s41591-021-01659-1",
+        "openalex": "https://openalex.org/W4214940159"
+      },
+      "title": "The SGLT2 inhibitor empagliflozin in patients hospitalized for acute heart failure: a multinational randomized trial.",
+      "abstract": "The sodium-glucose cotransporter 2 inhibitor empagliflozin reduces the risk of cardiovascular death or heart failure hospitalization in patients with chronic heart failure, but whether empagliflozin also improves clinical outcomes when initiated in patients who are hospitalized for acute heart failure is unknown. In this double-blind trial (EMPULSE; NCT04157751 ), 530 patients with a primary diagnosis of acute de novo or decompensated chronic heart failure regardless of left ventricular ejection fraction were randomly assigned to receive empagliflozin 10 mg once daily or placebo. Patients were randomized in-hospital when clinically stable (median time from hospital admission to randomization, 3 days) and were treated for up to 90 days. The primary outcome of the trial was clinical benefit, defined as a hierarchical composite of death from any cause, number of heart failure events and time to first heart failure event, or a 5 point or greater difference in change from baseline in the Kansas City Cardiomyopathy Questionnaire Total Symptom Score at 90 days, as assessed using a win ratio. More patients treated with empagliflozin had clinical benefit compared with placebo (stratified win ratio, 1.36; 95% confidence interval, 1.09-1.68; P = 0.0054), meeting the primary endpoint. Clinical benefit was observed for both acute de novo and decompensated chronic heart failure and was observed regardless of ejection fraction or the presence or absence of diabetes. Empagliflozin was well tolerated; serious adverse events were reported in 32.3% and 43.6% of the empagliflozin- and placebo-treated patients, respectively. These findings indicate that initiation of empagliflozin in patients hospitalized for acute heart failure is well tolerated and results in significant clinical benefit in the 90 days after starting treatment.",
+      "journal": "Nature medicine",
+      "year": "2022",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "Empagliflozin",
+        "Medicine",
+        "Heart failure",
+        "Ejection fraction",
+        "Clinical endpoint",
+        "Placebo",
+        "Internal medicine",
+        "Randomized controlled trial",
+        "Acute decompensated heart failure",
+        "Cardiology",
+        "Hazard ratio",
+        "Confidence interval",
+        "Randomization",
+        "Clinical trial",
+        "Diabetes mellitus",
+        "Type 2 diabetes",
+        "Endocrinology"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "1695cb02de6da4a7861daa633673b5c3b2d475cfd61cbc66f23e246071024529",
+        "9d20e73fdb96e74e42b5bc45b9e224b21661b97de5b0e216560bc6317f4531df",
+        "fa91542b1796e45c40d51d9016cb2428006cd8e0e6be998f20ef30d00a420b52",
+        "cf64ef4d3ac2546a82a0bc1855c3ee705d40d6c22a20456dc2e818a278f7801a"
+      ],
+      "metadata_checked_at": "2026-07-30T14:30:23.208320Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "pmcid": "PMC8938265",
+        "sha256": "cf64ef4d3ac2546a82a0bc1855c3ee705d40d6c22a20456dc2e818a278f7801a"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T14:30:23.208320Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    }
+  },
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "f8be0ae07a93af2dc826030a80689b28307dd24aaed8021775b0fcd1532aa02f",
+      "path": "raw/europe_pmc_metadata/f8be0ae07a93af2dc826030a80689b28307dd24aaed8021775b0fcd1532aa02f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "7912a1e8c1de0c848caa47c70ccb85dce68e2301f5d61778fad52756a006c71a",
+      "path": "raw/openalex/7912a1e8c1de0c848caa47c70ccb85dce68e2301f5d61778fad52756a006c71a.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "ddfbc9d5ccadaab1c3cd1ff8d8dacd6b717d9222b6048caa61ede9ea3f0ca8a8",
+      "path": "raw/crossref_retraction_watch/ddfbc9d5ccadaab1c3cd1ff8d8dacd6b717d9222b6048caa61ede9ea3f0ca8a8.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "5e27472cf80158760478490b09b7732986d7342418ac570681b5f140e26cc1d8",
+      "path": "raw/europe_pmc_metadata/5e27472cf80158760478490b09b7732986d7342418ac570681b5f140e26cc1d8.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "51ae1a41d15c1d6a32a090d0da23454fe32d3137ee074acf8210b62412045b81",
+      "path": "raw/openalex/51ae1a41d15c1d6a32a090d0da23454fe32d3137ee074acf8210b62412045b81.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "fb7595ab7a08de6b2e0a4be457ca497b31099c47731539f1b89c111042047a35",
+      "path": "raw/crossref_retraction_watch/fb7595ab7a08de6b2e0a4be457ca497b31099c47731539f1b89c111042047a35.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "ac76a85e6f6d0c2ab21f0a73e797dc063bf8e48db4b18a3980d625a6043f8e1a",
+      "path": "raw/europe_pmc_metadata/ac76a85e6f6d0c2ab21f0a73e797dc063bf8e48db4b18a3980d625a6043f8e1a.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "407e3e68d9a5e18a3460a93eefe2fdd22b2b916286a48e6d0854c385d9ca5eff",
+      "path": "raw/openalex/407e3e68d9a5e18a3460a93eefe2fdd22b2b916286a48e6d0854c385d9ca5eff.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "7a7b866c24be1a764ac32af5a8ab1f2a23c26e03e249e8e64b5e8d9122bf3ede",
+      "path": "raw/crossref_retraction_watch/7a7b866c24be1a764ac32af5a8ab1f2a23c26e03e249e8e64b5e8d9122bf3ede.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "58c33904d2a60da4e9f274f01c599030d60c7ff0223d5d211e102c6c1deb4616",
+      "path": "raw/europe_pmc_metadata/58c33904d2a60da4e9f274f01c599030d60c7ff0223d5d211e102c6c1deb4616.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "086a9995e98ac0e52bc7b89298cc09421484f1decf322fda1cd3e9ec9c4602f1",
+      "path": "raw/openalex/086a9995e98ac0e52bc7b89298cc09421484f1decf322fda1cd3e9ec9c4602f1.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "8df1d37156ef766a2e871f2e611e517887dba9c7f3bbb38dc7d31fb8e8f3d267",
+      "path": "raw/crossref_retraction_watch/8df1d37156ef766a2e871f2e611e517887dba9c7f3bbb38dc7d31fb8e8f3d267.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "032456c65d55d656416447bb29973d963a9fb6953d88b9ed6ba384a15bfc3662",
+      "path": "raw/europe_pmc_metadata/032456c65d55d656416447bb29973d963a9fb6953d88b9ed6ba384a15bfc3662.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "46baf2896b6d223525ea25d730a0cf25b4b94781e0278fc16a0c25de0f6548df",
+      "path": "raw/openalex/46baf2896b6d223525ea25d730a0cf25b4b94781e0278fc16a0c25de0f6548df.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "d912f5411627802805c579ddb0a9a7b2a92c0d2944683e88197dbdadae1a801c",
+      "path": "raw/crossref_retraction_watch/d912f5411627802805c579ddb0a9a7b2a92c0d2944683e88197dbdadae1a801c.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "1695cb02de6da4a7861daa633673b5c3b2d475cfd61cbc66f23e246071024529",
+      "path": "raw/europe_pmc_metadata/1695cb02de6da4a7861daa633673b5c3b2d475cfd61cbc66f23e246071024529.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "9d20e73fdb96e74e42b5bc45b9e224b21661b97de5b0e216560bc6317f4531df",
+      "path": "raw/openalex/9d20e73fdb96e74e42b5bc45b9e224b21661b97de5b0e216560bc6317f4531df.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "fa91542b1796e45c40d51d9016cb2428006cd8e0e6be998f20ef30d00a420b52",
+      "path": "raw/crossref_retraction_watch/fa91542b1796e45c40d51d9016cb2428006cd8e0e6be998f20ef30d00a420b52.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_oa_full_text",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "cf64ef4d3ac2546a82a0bc1855c3ee705d40d6c22a20456dc2e818a278f7801a",
+      "path": "raw/europe_pmc_oa_full_text/cf64ef4d3ac2546a82a0bc1855c3ee705d40d6c22a20456dc2e818a278f7801a.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-30T14:30:23.208320Z",
+      "sha256": "d69308e8eb8a5af3409697bd1be1c0dca3496035b71fbd9e3bdc4fa8c88f7422",
+      "path": "raw/official_source/d69308e8eb8a5af3409697bd1be1c0dca3496035b71fbd9e3bdc4fa8c88f7422.txt",
+      "media_type": "text/plain",
+      "license": "all-rights-reserved"
+    }
+  ],
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P5_Suy_tim_cap\\outputs\\cache_canonical",
+  "content_hash": "998e5e65942515d801c3e688d72542bf942227341c900a07538980a0bb6e3b3c"
+}

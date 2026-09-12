@@ -1,0 +1,131 @@
+[
+  {
+    "id": "ECG-V2-001",
+    "type": "basic",
+    "front": "Điện thế nghỉ của tế bào cơ tâm thất bình thường là bao nhiêu mV và do bơm ion nào duy trì?",
+    "back": "Điện thế nghỉ của tế bào cơ tâm thất là -90 mV. Nó được duy trì liên tục nhờ bơm Na+/K+-ATPase (đưa 3 Na+ ra ngoài và 2 K+ vào trong tế bào)."
+  },
+  {
+    "id": "ECG-V2-002",
+    "type": "cloze",
+    "text": "Pha 0 của điện thế hoạt động cơ tim là quá trình {{c1::khử cực nhanh}} do sự mở ồ ạt của các {{c1::kênh Na+ nhanh}}, đưa điện thế màng vọt từ -90 mV lên +20 mV."
+  },
+  {
+    "id": "ECG-V2-003",
+    "type": "basic",
+    "front": "Dòng ion nào chịu trách nhiệm chính tạo nên Pha 2 (Pha cao nguyên - Plateau) của điện thế hoạt động tế bào cơ tim?",
+    "back": "Dòng Canxi (Ca2+) đi VÀO tế bào qua các kênh Canxi tuýp L (L-type Ca2+ channels), cân bằng với dòng Kali (K+) đi RA ngoài tế bào."
+  },
+  {
+    "id": "ECG-V2-004",
+    "type": "cloze",
+    "text": "Trong thời kỳ {{c1::trơ tuyệt đối (ARP)}}, các kênh Na+ bị bất hoạt hoàn toàn, màng tế bào {{c1::không thể kích thích}} bởi bất kỳ xung điện nào."
+  },
+  {
+    "id": "ECG-V2-005",
+    "type": "basic",
+    "front": "Quy tắc vàng thứ nhất của ECG: Khi Vector khử cực lan hướng VỀ PHÍA cực dương của chuyển đạo thì máy ECG sẽ ghi nhận sóng như thế nào?",
+    "back": "Máy ECG ghi nhận SÓNG DƯƠNG (sóng nhô lên phía trên đường đẳng điện)."
+  },
+  {
+    "id": "ECG-V2-006",
+    "type": "basic",
+    "front": "Quy tắc vàng thứ ba của ECG: Khi Vector khử cực lan VUÔNG GÓC (90 độ) với trục chuyển đạo thì máy ECG ghi nhận sóng thế nào?",
+    "back": "Máy ECG ghi nhận SÓNG HAI PHA (bằng nhau ở phía dương và phía âm) hoặc sóng ĐẲNG ĐIỆN (biên độ bằng 0)."
+  },
+  {
+    "id": "ECG-V2-007",
+    "type": "cloze",
+    "text": "Vì lớp {{c1::ngoại mạc}} tâm thất tái cực trước lớp {{c1::nội mạc}}, vector tái cực thất vẫn hướng ra ngoài da, làm sóng T thường {{c1::cùng chiều dương}} với phức bộ QRS."
+  },
+  {
+    "id": "ECG-V2-008",
+    "type": "basic",
+    "front": "Nêu Định luật Einthoven về mối liên hệ điện thế giữa 3 chuyển đạo chi lưỡng cực I, II, III.",
+    "back": "Chuyển đạo II = Chuyển đạo I + Chuyển đạo III (Lead II = Lead I + Lead III)."
+  },
+  {
+    "id": "ECG-V2-009",
+    "type": "cloze",
+    "text": "Chuyển đạo aVR có cực dương đặt ở {{c1::Tay phải (RA)}}. Ở tim bình thường, vector tổng khử cực hướng xuống dưới - sang trái nên aVR bắt buộc phải có sóng P và QRS {{c1::âm}}."
+  },
+  {
+    "id": "ECG-V2-010",
+    "type": "basic",
+    "front": "Vị trí giải phẫu chính xác để dán điện cực trước tim V1 và V2 trên lồng ngực là ở đâu?",
+    "back": "V1 dán ở Khoang liên sườn 4 bờ PHẢI xương ức. V2 dán ở Khoang liên sườn 4 bờ TRÁI xương ức."
+  },
+  {
+    "id": "ECG-V2-011",
+    "type": "cloze",
+    "text": "Tiêu chuẩn khuyến cáo dải tần số lọc (bandwidth) chuẩn AHA cho bản ghi ECG 12 chuyển đạo tiêu chuẩn ở người lớn là {{c1::0.05 Hz}} đến {{c1::150 Hz}} (PMID: 27498055)."
+  },
+  {
+    "id": "ECG-V2-012",
+    "type": "basic",
+    "front": "Tác hại nguy hiểm khi bác sĩ tự ý nâng tần số cắt thấp (High-pass filter) từ 0.05 Hz lên 0.5 Hz hoặc 1.0 Hz để làm đẹp đường đẳng điện là gì?",
+    "back": "Nó làm xoắn vặn méo biến dạng đoạn ST và sóng T, gây chẩn đoán sai lệch hoặc bỏ sót Nhồi máu cơ tim cấp!"
+  },
+  {
+    "claim_id": "C-002",
+    "id": "ECG-V2-013",
+    "type": "basic",
+    "front": "Ảnh hưởng của bộ lọc tần số cao 40 Hz so với 150 Hz đến tỷ lệ bản ghi ECG đạt chất lượng tối ưu theo nghiên cứu của Ricciardi 2016 (PMID: 27498055) là gì?",
+    "back": "Bộ lọc 40 Hz làm tăng tỷ lệ bản ghi đạt chất lượng tối ưu lên 93.4% so với 54.6% ở dải 150 Hz (p < 0.001), nhưng có thể làm tù đỉnh QRS."
+  },
+  {
+    "claim_id": "C-003",
+    "id": "ECG-V2-014",
+    "type": "cloze",
+    "text": "Theo nghiên cứu của Kligfield 2007 (PMID: 17317378), thực tế lâm sàng chỉ có {{c1::25%}} bản ghi ECG (65/256) tuân thủ đúng tiêu chuẩn dải tần số bộ lọc khuyến cáo."
+  },
+  {
+    "id": "ECG-V2-015",
+    "type": "basic",
+    "front": "Ở tốc độ chạy giấy tiêu chuẩn 25 mm/s, 1 ô nhỏ (1 mm) và 1 ô lớn (5 mm) đại diện cho thời gian bao nhiêu?",
+    "back": "1 ô nhỏ (1 mm) = 0.04 giây (40 ms). 1 ô lớn (5 mm) = 0.20 giây (200 ms)."
+  },
+  {
+    "id": "ECG-V2-016",
+    "type": "basic",
+    "front": "Nếu bản ghi ECG bị in nhầm ở tốc độ 50 mm/s mà bác sĩ đếm ô tính tần số theo chuẩn 25 mm/s thì hậu quả chẩn đoán là gì?",
+    "back": "Tần số tim tính ra sẽ bị CHẬM ĐI MỘT NỬA so với thực tế (dễ chẩn đoán nhầm nhịp chậm xoang cấp cứu và đo khoảng QTc bị dài ra gấp đôi)!"
+  },
+  {
+    "id": "ECG-V2-017",
+    "type": "cloze",
+    "text": "Ở biên độ chuẩn tiêu chuẩn 10 mm/mV (1 N), 1 ô nhỏ (1 mm) đại diện cho điện thế {{c1::0.1 mV}}, xung Test Calibration cao đúng {{c1::10 mm}} (2 ô lớn)."
+  },
+  {
+    "claim_id": "C-004",
+    "id": "ECG-V2-018",
+    "type": "basic",
+    "front": "Tỷ lệ mắc nhầm dây điện cực tại bệnh viện thực tế theo khảo sát của Ramadurai 2025 (PMID: 41103868) là bao nhiêu %?",
+    "back": "Tỷ lệ mắc nhầm dây là 1.5% (15/1.000 ECG), trong đó đảo dây chi chiếm 1.1% (phổ biến nhất là đảo LA-LL chiếm 0.8%)."
+  },
+  {
+    "claim_id": "C-005",
+    "id": "ECG-V2-019",
+    "type": "cloze",
+    "text": "Thuật toán cảnh báo tự động phát hiện đảo dây điện cực có độ đặc hiệu {{c1::99.8%}} per type và độ nhạy trung bình {{c1::90%}} (PMID: 25213624)."
+  },
+  {
+    "claim_id": "C-006",
+    "id": "ECG-V2-020",
+    "type": "basic",
+    "front": "Biểu hiện điển hình nhất trên chuyển đạo I khi bị mắc đảo dây điện cực Tay phải - Tay trái (RA-LA reversal) là gì?",
+    "back": "Chuyển đạo I bị đảo ngược 180 độ hoàn toàn: Sóng P âm, bộ phức QRS âm và sóng T âm hoàn toàn!"
+  },
+  {
+    "id": "ECG-V2-021",
+    "type": "cloze",
+    "text": "Lỗi cắm nhầm dây điện cực đất Chân phải (RL) vào Tay phải hoặc Tay trái sẽ làm chuyển đạo II hoặc III xuất hiện một {{c1::đường thẳng tắp (Flatline)}} biên độ 0."
+  },
+  {
+    "claim_id": "C-007",
+    "id": "ECG-V2-022",
+    "type": "basic",
+    "front": "Hậu quả chẩn đoán khi kỹ thuật viên dán điện cực V1, V2 quá cao ở khoang liên sườn 2 thay vì khoang liên sườn 4 là gì?",
+    "back": "Tạo ra dạng sóng rSr' ở V1/V2 giả lập Block nhánh phải không hoàn toàn hoặc giả hình ảnh sóng Brugada typ 2 (PMID: 22929906)."
+  }
+]

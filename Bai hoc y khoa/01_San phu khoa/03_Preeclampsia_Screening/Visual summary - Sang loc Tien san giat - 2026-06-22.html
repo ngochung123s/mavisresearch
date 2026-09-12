@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sang loc &amp; Du phong Tien san giat - Visual Summary</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+
+<header class="max-w-6xl mx-auto mb-8 text-center">
+  <h1 class="text-4xl font-bold text-stone-700 mb-2">Sang loc & Du phong Tien san giat</h1>
+  <p class="text-stone-500 italic">Visual Summary - Bai hoc 22/06/2026</p>
+  <div class="mt-3 flex justify-center gap-2 flex-wrap">
+    <span class="tag pastel-pink px-3 py-1 rounded-full text-sm">OB-GYN</span>
+    <span class="tag pastel-blue px-3 py-1 rounded-full text-sm">Preeclampsia</span>
+    <span class="tag pastel-mint px-3 py-1 rounded-full text-sm">FMF Triple Test</span>
+    <span class="tag pastel-peach px-3 py-1 rounded-full text-sm">ASPRE / Aspirin</span>
+    <span class="tag pastel-lavender px-3 py-1 rounded-full text-sm">PlGF / UtA-PI</span>
+  </div>
+</header>
+<main class="max-w-6xl mx-auto space-y-8">
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">1. ISSHP 2018 - Dinh nghia Preeclampsia</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white rounded-xl p-4 border border-stone-200">
+        <h3 class="font-bold text-stone-800 mb-2">Tieu chi bat buoc</h3>
+        <p class="text-sm text-stone-700">HA &gt;= 140/90 mmHg (it nhat 2 lan, cach nhau &gt;= 4 gio) <b>SAU 20 tuan</b> thai ky o phu nu truoc do binh thuong.</p>
+      </div>
+      <div class="bg-white rounded-xl p-4 border border-stone-200">
+        <h3 class="font-bold text-stone-800 mb-2">+ 1 trong 3 tieu chi</h3>
+        <p class="text-sm text-stone-700">1. Proteinuria (P/C ratio &gt;= 30 mg/mmol)<br>2. Roi loan co quan (than, gan, than kinh, huyet hoc)<br>3. Roi loan nhau thai (FGR, abnormal UA Doppler)</p>
+      </div>
+    </div>
+    <p class="text-sm text-stone-600 mt-3 italic">FIGO 2019 phan loai: Early-onset (&lt;34w) / Preterm (&lt;37w) / Late-onset (>=34w) / Term (>=37w). Muc tieu chinh cua screening la PRETERM PE.</p>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">2. Algorithm sang loc (FIGO 2019)</h2>
+    <div class="mermaid">
+flowchart TD
+    A["Thai 11-13+6 tuan<br/>Thu thap: maternal + MAP + PlGF + UtA-PI"] --> B{"FMF Risk Calculator<br/>(fetalmedicine.org)"}
+    B -- ">= 1:100<br/>(nguy co cao)" --> Z1["Aspirin 150 mg/dem<br/>11-14+6 -> 36 tuan<br/>(ASPRE protocol)"]
+    B -- "1:101 - 1:1000<br/>(trung binh)" --> Z2["Theo doi sat<br/>+ Can nhac aspirin 75-100 mg"]
+    B -- "< 1:1000<br/>(thap)" --> Z3["Routine prenatal care"]
+    Z1 --> C["Kiem tra: chronic HTN?<br/>Risk 1:2-1:10?<br/>PlGF < 0.712 MoM?"]
+    C -- "Co" --> Z4["Theo doi sat<br/>Aspirin co the kem hieu qua<br/>(Shen 2021)"]
+    C -- "Khong" --> Z5["Aspirin se hieu qua<br/>62% reduction<br/>(Rolnik 2017 NEJM)"]
+
+    style Z1 fill:#f4c2c2
+    style Z2 fill:#f7d1ba
+    style Z3 fill:#c5e0c9
+    style Z4 fill:#d4c5e2
+    style Z5 fill:#c5d5e0
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-2">3. So sanh 3 phuong phap sang loc PE</h2>
+    <p class="text-sm text-stone-600 italic mb-4">Chaemsaithong 2022 (AJOG PMID 32682859).</p>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div>
+        <canvas id="chart1"></canvas>
+      </div>
+      <div class="bg-white rounded-xl p-4 border border-stone-200 flex flex-col justify-center">
+        <h3 class="font-bold text-stone-800 mb-2">Phuong phap nao tot nhat?</h3>
+        <ul class="text-sm text-stone-700 space-y-2">
+          <li>• <b>ACOG 2013:</b> chi 5% DR - kem</li>
+          <li>• <b>NICE 2019:</b> 41% DR - trung binh</li>
+          <li>• <b>FMF Triple Test:</b> 75-90% DR - <b style="color:#c8a4a5">tot nhat hien nay</b></li>
+          <li>• NNT = 250 (sang loc 250 de phong 1 ca preterm PE)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-2">4. ASPRE MAIN RCT (NEJM 2017, n=1776)</h2>
+    <p class="text-sm text-stone-600 italic mb-4">Aspirin 150 mg/dem vs Placebo, 11-14 -> 36 tuan.</p>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div>
+        <canvas id="chart2"></canvas>
+      </div>
+      <div class="bg-white rounded-xl p-4 border border-stone-200 flex flex-col justify-center">
+        <h3 class="font-bold text-stone-800 mb-2">ASPRE (Rolnik 2017, PMID 28657417)</h3>
+        <ul class="text-sm text-stone-700 space-y-2">
+          <li>• <b>Preterm PE:</b> 1.6% aspirin vs 4.3% placebo</li>
+          <li>• <b>OR 0.38 (95% CI 0.20-0.74), p = 0.004</b></li>
+          <li>• <b>Reduction 62%</b></li>
+          <li>• Adherence: 79.9% uong >= 85% lieu</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">5. FMF Triple Test - 4 thanh phan</h2>
+    <div class="grid md:grid-cols-2 gap-3">
+      <div class="pastel-pink rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2 text-sm">1. Maternal risk factors</h3>
+        <p class="text-xs text-stone-700">Tuoi, BMI, chung toc, parity, tien su PE, tien su gia dinh, benh nen (HTN, DM, SLE, APS, than), ART, hut thuoc.</p>
+      </div>
+      <div class="pastel-blue rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2 text-sm">2. MAP (Mean Arterial Pressure)</h3>
+        <p class="text-xs text-stone-700">Do 2 lan, moi ben canh tay, nghi 5 phut. PE som: MAP TANG (dau hieu som nhat).</p>
+      </div>
+      <div class="pastel-mint rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2 text-sm">3. PlGF (Placental Growth Factor)</h3>
+        <p class="text-xs text-stone-700">Mau me, do ELISA. PE som: PlGF GIAM (&lt; 0.7-0.8 MoM). Day la <b>marker nhay nhat</b>.</p>
+      </div>
+      <div class="pastel-peach rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2 text-sm">4. UtA-PI (Uterine Artery)</h3>
+        <p class="text-xs text-stone-700">Doppler qua ca 2 dong mach tu cung. PE som: UtA-PI TANG + notching som.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">6. EVIDENCE TABLE - 9 papers quan trong</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-stone-200 text-stone-800">
+            <th class="px-3 py-2 text-left">PMID</th>
+            <th class="px-3 py-2 text-left">Tac gia (Nam)</th>
+            <th class="px-3 py-2 text-left">Loai</th>
+            <th class="px-3 py-2 text-left">Ket qua chinh</th>
+          </tr>
+        </thead>
+        <tbody class="text-stone-700">
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">28657417</td><td class="px-3 py-2">Rolnik (2017)</td><td class="px-3 py-2">NEJM RCT, n=1776</td><td class="px-3 py-2">Aspirin 150 mg giam 62% preterm PE</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">31111484</td><td class="px-3 py-2">Poon (2019)</td><td class="px-3 py-2">FIGO guideline</td><td class="px-3 py-2">Universal screening + 150 mg aspirin</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">28741785</td><td class="px-3 py-2">Rolnik (2017)</td><td class="px-3 py-2">UOG screening, n=25,797</td><td class="px-3 py-2">FMF Triple Test DR 76.7% preterm PE</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">32682859</td><td class="px-3 py-2">Chaemsaithong (2022)</td><td class="px-3 py-2">AJOG review</td><td class="px-3 py-2">FMF Triple Test vs ACOG/NICE</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">38151219</td><td class="px-3 py-2">Rolnik (2024)</td><td class="px-3 py-2">AJOG secondary</td><td class="px-3 py-2">Aspirin khong anh huong PlGF/PAPP-A</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">37058400</td><td class="px-3 py-2">Rolnik (2023)</td><td class="px-3 py-2">UOG secondary</td><td class="px-3 py-2">Aspirin giam UtA-PI (p=0.006)</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">33998099</td><td class="px-3 py-2">Shen (2021)</td><td class="px-3 py-2">UOG secondary</td><td class="px-3 py-2">Chronic HTN + risk rat cao: aspirin kem</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">37749709</td><td class="px-3 py-2">Nicolaides (2024)</td><td class="px-3 py-2">BJOG combined</td><td class="px-3 py-2">FMF + aspirin giam 65% iPTB-PE</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">40590060</td><td class="px-3 py-2">Rolnik (2025)</td><td class="px-3 py-2">BJOG secondary</td><td class="px-3 py-2">Aspirin khong tang LGA</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">7. Co che 2-step cua PE</h2>
+    <div class="mermaid">
+flowchart LR
+    A["Step 1: Trophoblast xam nhap<br/>spiral arteries kem<br/>(8-18 tuan)"] --> B["Spiral arteries<br/>duong kinh nho, ap luc cao<br/>-> Nhau thieu mau"]
+    B --> C["Step 2: Mat can bang<br/>angiogenic factors"]
+    C --> D["Tang sFlt-1<br/>Giam PlGF"]
+    D --> E["Co that mach<br/>tang HA"]
+    D --> F["Ton thuong noi mo<br/>proteinuria, phu"]
+    D --> G["Giam tuoi mau<br/>gan, than, nao, nhau"]
+
+    style A fill:#f4c2c2
+    style B fill:#f7d1ba
+    style C fill:#d4c5e2
+    style D fill:#c5d5e0
+    style E fill:#c5e0c9
+    style F fill:#c5e0c9
+    style G fill:#c5e0c9
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">8. ASPRE Secondary Analyses 2021-2025</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-stone-200 text-stone-800">
+            <th class="px-3 py-2 text-left">Phan tich</th>
+            <th class="px-3 py-2 text-left">PMID</th>
+            <th class="px-3 py-2 text-left">Ket qua chinh</th>
+          </tr>
+        </thead>
+        <tbody class="text-stone-700">
+          <tr class="border-b border-stone-200"><td class="px-3 py-2">PAPP-A + PlGF trajectories (2024)</td><td class="px-3 py-2 font-mono text-xs">38151219</td><td class="px-3 py-2">Aspirin KHONG anh huong PAPP-A (p=0.259) va PlGF (p=0.335)</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2">MAP + UtA-PI trajectories (2023)</td><td class="px-3 py-2 font-mono text-xs">37058400</td><td class="px-3 py-2">Aspirin giam UtA-PI (p=0.006) nhat la truoc 20 tuan, KHONG anh huong MAP (p=0.340)</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2">Risk factors that bai (2021)</td><td class="px-3 py-2 font-mono text-xs">33998099</td><td class="px-3 py-2">Chronic HTN + risk rat cao (1:2-1:10) + PlGF &lt; 0.712 MoM: aspirin kem hieu qua</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2">Effect on PTB (2024)</td><td class="px-3 py-2 font-mono text-xs">37749709</td><td class="px-3 py-2">Aspirin giam 65% iPTB-PE, 14% sPTB, 0% iPTB-noPE</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2">Birthweight + LGA (2025)</td><td class="px-3 py-2 font-mono text-xs">40590060</td><td class="px-3 py-2">Aspirin khong tang LGA (5.5% vs 6.2%, p=0.667) - tru dai thao duong</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bai hoc soan boi MiniMax Mavis cho Bs. Ngoc 🍅 🐈‍⬛ | Verified PubMed: 9 papers (PMID 28657417, 31111484, 28741785, 32682859, 38151219, 37058400, 33998099, 37749709, 40590060) - ASPRE trial Rolnik 2017 NEJM</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+new Chart(document.getElementById('chart1'), {
+    type: 'bar',
+    data: {
+        labels: ['ACOG 2013', 'NICE 2019', 'FMF Triple Test'],
+        datasets: [{
+            label: 'Detection Rate - Preterm PE (%)',
+            data: [5, 41, 90],
+            backgroundColor: [
+                'rgba(244, 194, 194, 0.85)',
+                'rgba(247, 209, 186, 0.85)',
+                'rgba(197, 224, 201, 0.85)'
+            ],
+            borderColor: [
+                'rgba(244, 194, 194, 1)',
+                'rgba(247, 209, 186, 1)',
+                'rgba(197, 224, 201, 1)'
+            ],
+            borderWidth: 2
+        }, {
+            label: 'Detection Rate - Term PE (%)',
+            data: [2, 34, 43],
+            backgroundColor: [
+                'rgba(244, 194, 194, 0.55)',
+                'rgba(247, 209, 186, 0.55)',
+                'rgba(197, 224, 201, 0.55)'
+            ],
+            borderColor: [
+                'rgba(244, 194, 194, 1)',
+                'rgba(247, 209, 186, 1)',
+                'rgba(197, 224, 201, 1)'
+            ],
+            borderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            title: { display: true, text: 'So sanh 3 phuong phap sang loc PE (Chaemsaithong 2022)' },
+            tooltip: {
+                callbacks: {
+                    afterLabel: function(ctx) {
+                        return 'FPR ~10% (ACOG 0.2%)';
+                    }
+                }
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: true,
+                max: 100,
+                title: { display: true, text: 'Detection Rate (%)' }
+            }
+        }
+    }
+});
+
+new Chart(document.getElementById('chart2'), {
+    type: 'bar',
+    data: {
+        labels: ['Aspirin 150 mg', 'Placebo'],
+        datasets: [{
+            label: 'Preterm PE incidence (%)',
+            data: [1.6, 4.3],
+            backgroundColor: [
+                'rgba(197, 224, 201, 0.85)',
+                'rgba(244, 194, 194, 0.85)'
+            ],
+            borderColor: [
+                'rgba(197, 224, 201, 1)',
+                'rgba(244, 194, 194, 1)'
+            ],
+            borderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        indexAxis: 'y',
+        plugins: {
+            title: { display: true, text: 'ASPRE MAIN RCT (NEJM 2017) - n=1,776' },
+            legend: { display: false },
+            tooltip: {
+                callbacks: {
+                    afterLabel: function(ctx) {
+                        return 'OR 0.38 (95% CI 0.20-0.74), p=0.004';
+                    }
+                }
+            }
+        },
+        scales: {
+            x: {
+                beginAtZero: true,
+                max: 6,
+                title: { display: true, text: 'Preterm PE incidence (%)' }
+            }
+        }
+    }
+});
+
+</script>
+</body>
+</html>

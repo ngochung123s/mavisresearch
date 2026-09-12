@@ -1,0 +1,129 @@
+{
+  "deck_name": "Oxytocin IOL 2026-06-23",
+  "cards": [
+    {
+      "front": "Oxytocin là gì? Cấu trúc hoá học và nguồn gốc?",
+      "back": "Nonapeptide (9 amino acid) tuần hoàn có cầu disulfide giữa Cys¹-Cys⁶. Tổng hợp từ SON/PVN vùng dưới đồi → thuỳ sau tuyến yên → máu. T½ 3-5 phút. Bị phân huỷ bởi placental oxytocinase (P-LAP/LNPEP). Tên từ Hy Lạp \"ὀξύς τόκος\" = sinh nhanh (Dale 1906)."
+    },
+    {
+      "front": "Thụ thể OXTR là loại gì? G-protein nào?",
+      "back": "OXTR là GPCR class A (rhodopsin-like), 7 transmembrane domain, 389 aa. Gene OXTR nằm trên chromosome 3p25.3. G-protein chính: Gq/11 → PLCβ → PIP2 → IP3 + DAG → Ca²⁺ nội bào tăng → co cơ trơn."
+    },
+    {
+      "front": "Trình bày pathway tín hiệu của oxytocin từ ligand → co cơ",
+      "back": "OXT → OXTR → Gq/11 (GTP exchange) → PLCβ → PIP2 → IP3 + DAG. IP3 gắn IP3R trên sarcoplasmic reticulum → Ca²⁺ release vào cytosol. Ca²⁺ gắn calmodulin (Ca²⁺₄-CaM) → kích hoạt MLCK → phosphoryl hoá MLC20 (Ser-19) → myosin-actin cross-bridge cycling → co cơ tử cung. Song song: DAG + Ca²⁺ → PKC → CPI-17-P ức chế MLCP. Độc lập: RhoA/ROCK phosphoryl MYPT1 → ức chế MLCP → tăng Ca²⁺ sensitivity."
+    },
+    {
+      "front": "OXTR density thay đổi thế nào trong thai kỳ? Yếu tố nào điều hoà?",
+      "back": "OXTR density tăng 100-1000 lần từ non-pregnant → late pregnancy. Điều hoà bởi: (1) Estrogen tăng → ERE trong promoter OXTR; (2) Progesterone withdrawal → mất ức chế PR; (3) Myometrial stretch → MAPK/ERK → AP-1; (4) CRH từ nhau; (5) PGF2α → FP receptor. Đồng thời connexin-43 (gap junction) tăng → đồng bộ cơn co."
+    },
+    {
+      "front": "Tại sao low-dose oxytocin protocol được ưa chuộng?",
+      "back": "4 lý do chính: (1) Receptor reserve: OXTR tăng 100-1000 lần, chỉ cần 5-10% occupancy đủ đáp ứng max; (2) Tránh desensitization: liều cao phosphoryl hoá OXTR hàng loạt → β-arrestin recruit → giảm đáp ứng nhanh (15-30 phút); (3) Tránh tachysystole (5% vs 10-15%); (4) An toàn tail effect: T½ 3-5 phút, 30-45 phút tan effect; low-dose tail ngắn hơn khi cần stop."
+    },
+    {
+      "front": "Desensitization (tachyphylaxis) của OXTR diễn ra thế nào?",
+      "back": "Trình tự: (1) Phosphorylation (5-15 phút): GRK2/3 phosphoryl hoá Ser/Thr ở C-terminal OXTR; (2) β-arrestin recruitment (15-30 phút): β-arrestin 1/2 gắn → steric block ngăn Gq → uncoupling; (3) Internalization (30+ phút): clathrin-mediated endocytosis; (4) Re-sensitization: recycle về màng (sensitive) hoặc lysosomal degradation (mất). Ý nghĩa: ngừng OXT 30-60 phút cho receptor recycle; low-dose titrated duy trì đáp ứng bền vững."
+    },
+    {
+      "front": "Định nghĩa tachysystole theo ACOG?",
+      "back": "> 5 cơn co / 10 phút, trung bình trong 30 phút liên tục. Phân loại: tachysystole without FHR changes (FHR bình thường) vs tachysystole with FHR changes (FHR Category II/III). Cập nhật 2024 theo ACOG Practice Bulletin #204."
+    },
+    {
+      "front": "Xử trí tachysystole theo ACOG (trình tự)",
+      "back": "(1) Dừng OXT ngay; (2) Mẹ nằm nghiêng trái; (3) O2 10 L/min qua mask; (4) IV bolus 500-1000 mL Lactated Ringer; (5) Đánh giá lại FHR sau 10-15 phút. Nếu cải thiện → theo dõi; resume OXT ở ½ liều cũ sau ≥ 30 phút. Nếu KHÔNG cải thiện → tocolysis cấp cứu: Terbutaline 0.25 mg SC/IV (β2-agonist), hoặc Nitroglycerin 50-100 mcg IV, hoặc Nifedipine 10-20 mg PO."
+    },
+    {
+      "front": "Tại sao tachysystole gây nguy hiểm cho thai?",
+      "back": "Co cơ dồn dập → thời gian relax < 60 giây → máu qua spiral arteries/intervillous space không kịp tái tưới → giảm uteroplacental flow → thai cạn O2 reserve → chuyển yếm khí → lactate tăng → pH giảm (acidosis) → FHR Category II (variable/late decel, baseline tăng, variability giảm) → có thể Category III (bradycardia kéo dài, variability absent). Hậu quả: HIE, cerebral palsy, tử vong chu sinh."
+    },
+    {
+      "front": "Bishop score là gì? Ngưỡng để quyết định ripening hay OXT?",
+      "back": "Bishop score đánh giá 5 tiêu chí: độ xoá (0-3), độ mở (0-3), vị trí (0-2), mật độ (0-2), ngôi (0-3). Tổng ≥ 6 = thuận lợi → có thể IOL trực tiếp bằng OXT. Bishop < 6 = chưa thuận lợi → cần cervical ripening trước (Foley hoặc prostaglandin). Ở nulliparous, ngưỡng có thể cần ≥ 8."
+    },
+    {
+      "front": "So sánh Low-dose vs High-dose oxytocin protocol",
+      "back": "Low-dose: khởi đầu 0.5-2 mU/min, tăng +1-2 mU/min mỗi 30-40 min, max 20 mU/min, thời gian đạt active labor ~6-8 giờ, tachysystole ~5%. High-dose: khởi đầu 4-6 mU/min, tăng +4-6 mU/min mỗi 15-20 min, max 20 mU/min, thời gian ~3-4 giờ, tachysystole ~10-15%. Grasch 2025 meta-analysis (PMID 40334983): không khác biệt cesarean; high-dose ít PPH hơn (RR 0.78, 95% CI 0.66-0.92)."
+    },
+    {
+      "front": "Oxytocin trên sẹo mổ cũ (TOLAC) — protocol cụ thể",
+      "back": "Khởi đầu 0.5-1 mU/min (thấp hơn non-TOLAC). Tăng +1 mU/min mỗi ≥ 30 phút. Max ≤ 20 mU/min. Foley ripening ưu tiên (không prostaglandin). Monitor FHR + TOCO liên tục. Sẵn sàng mổ cấp cứu trong 30 phút. Theo Nicol 2026 PMID 41241095: OXT use TOLAC OR 1.94 (95% CI 1.36-2.77) cho vỡ tử cung; interval <30 min và max >20 đồng nhất tăng UR risk."
+    },
+    {
+      "front": "So sánh Atosiban vs Nifedipine vs Indomethacin",
+      "back": "Atosiban: OXTR antagonist cạnh tranh chọn lọc, EMA approved 2000 (không FDA), không ảnh hưởng HA, dùng 24-34 tuần. Nifedipine: L-type Ca²⁺ channel blocker (PO/sublingual), có thể hạ HA + phù phổi hiếm, dùng 24-34 tuần. Indomethacin: COX-1/2 inhibitor (PO/rectal), qua nhau thai → đóng ống ĐM sớm nếu >32 tuần, giảm nước ối; chỉ dùng <32 tuần, ≤48 giờ."
+    },
+    {
+      "front": "Pharmacogenomics OXTR — SNP quan trọng?",
+      "back": "rs53576 (intron 3) allele A: ↓OXTR mRNA, có thể cần OXT liều cao hơn. rs2254298 (intron 1) allele A: ↓OXTR expression. rs2228485 (exon 3 synonymous): liên quan postpartum depression. Grotegut 2017 PMID 28526450: 5 SNP OXTR liên quan max OXT infusion rate; rs2731664 (GRK6): mean labor duration 17.7h (AA) vs 23.5h (CC), p=0.0014. Hiện KHÔNG khuyến cáo xét nghiệm thường quy vì hiệu ứng allele nhỏ."
+    },
+    {
+      "front": "Placental oxytocinase (P-LAP) là gì? Vai trò lâm sàng?",
+      "back": "Placental leucine aminopeptidase (P-LAP, gene LNPEP, còn gọi oxytocinase/IRAP), thuộc M1 aminopeptidase family. Chịu trách nhiệm phân huỷ oxytocin huyết thanh. Hoạt tính tăng dần theo tuổi thai → góp phần thanh lọc OXT khi truyền kéo dài. Nồng độ bất thường thấp ở pre-eclampsia → ứng dụng sàng lọc."
+    },
+    {
+      "front": "Tại sao oxytocin tĩnh mạch không ảnh hưởng hành vi trung ương?",
+      "back": "OXT là peptide 9 aa, poorly lipid-soluble, bị efflux bởi P-glycoprotein ở BBB → không qua hàng rào máu-não ở liều lâm sàng. Vì vậy IOL oxytocin hoàn toàn là tác dụng ngoại vi trên myometrium + myoepithelial tuyến vú (khi cho con bú). Tác dụng trung ương (social bonding, maternal behavior) từ OXT nội sinh từ cho bú, da-kề-da vẫn xảy ra bình thường."
+    },
+    {
+      "front": "Chống chỉ định tuyệt đối của IOL bằng OXT",
+      "back": "(1) Nhau tiền đạo che phủ lỗ trong CTC; (2) Vasa previa; (3) Ngôi bất thường (ngang, mông); (4) Dây rốn sa trước; (5) Sẹo mổ xuyên thân TC (classical, T-incision, myomectomy xuyên thân); (6) HSV đang hoạt động; (7) Carcinoma CTC xâm lấn; (8) CPD rõ ràng; (9) Vỡ tử cung trước đó."
+    },
+    {
+      "front": "Tại sao Foley catheter được ưu tiên trong cervical ripening cho TOLAC?",
+      "back": "Foley catheter (cơ học): áp lực cơ học → giải phóng PGE2 nội sinh → ripening. An toàn, rẻ, KHÔNG gây tachysystole do thuốc. Prostaglandin (PGE1/PGE2) có nguy cơ tăng co cơ → tăng nguy cơ vỡ tử cung trên sẹo cũ. Foley ripening + OXT low-dose + interval ≥30 min + max ≤20 mU/min = protocol an toàn nhất cho TOLAC."
+    },
+    {
+      "front": "Kruit 2022 (Helsinki) cho thấy điều gì về high-dose oxytocin?",
+      "back": "Kruit H 2022 PMID 35452451, retrospective cohort 487 ca, sau khi chuyển từ low-dose sang high-dose: vaginal delivery tăng 47.9% → 69.9% (p<0.004); maternal infection giảm 22.1% → 13.6%; neonatal infection giảm 14.6% → 2.9%; induction-to-delivery ngắn hơn (32.0h vs 37.9h). Tác giả đề xuất high-dose + stop khi active labor + max 15-18h trong latent phase."
+    },
+    {
+      "front": "Các yếu tố quyết định IOL thất bại (failed induction)?",
+      "back": "IOL thất bại khi: đã dùng max OXT dose (20 mU/min) trong thời gian khuyến cáo (≥ 18-24 giờ) mà KHÔNG vào active labor. Cần đánh giá: (1) Cervical status (Bishop); (2) Parity (nulliparous khó hơn); (3) BMI (béo phì khó hơn); (4) Ngôi/thế; (5) CPD; (6) Đáp ứng cơn co (MVU <200 = co yếu). Khi IOL fail → mổ lấy thai. Có thể thử re-riping 1 lần trước khi mổ."
+    },
+    {
+      "front": "Grasch 2025 meta-analysis kết luận gì về high vs low-dose OXT?",
+      "back": "Grasch JL 2025 PMID 40334983 (AJOG MFM), systematic review + meta-analysis 6 nghiên cứu, 7850 ca (3957 high-dose + 3893 low-dose). Kết quả: Cesarean không khác biệt (26.0% vs 28.4%; RR 1.02, 95% CI 0.85-1.21). PPH: high-dose thấp hơn (7.6% vs 9.9%; RR 0.78, 95% CI 0.66-0.92). Thời gian chuyển dạ: không khác biệt. Tác giả: cần thêm RCT chất lượng cao để xác định protocol tối ưu."
+    },
+    {
+      "front": "Pieux 2025 cho thấy điều gì về misoprostol uống vs dinoprostone?",
+      "back": "Pieux A 2025 PMID 40097030, retrospective cohort 439 ca cervical ripening tại Lyon. Tachysystole sau oral misoprostol: 5.3% vs dinoprostone vaginal pessary: 17.2%. Tachysystole + FHR abnormal: 1.1% vs 5.2%. OR cho tachysystole (misoprostol so với dinoprostone): 0.28, 95% CI 0.13-0.55, p<0.01. Cơ chế: misoprostol uống có sinh khả dụng thấp hơn, đỉnh muộn hơn → ít burst co cơ."
+    },
+    {
+      "front": "Tại sao Bishop score đánh giá lại sau ripening quan trọng?",
+      "back": "Bishop score có thể thay đổi đáng kể sau cervical ripening (Foley 6-12h, misoprostol 4-6h). Đánh giá lại giúp: (1) Xác định đã đạt ≥ 6 để bắt đầu OXT; (2) Nếu < 6 sau ripening → re-riping (1 lần) hoặc mổ lấy thai; (3) Modified Bishop score có thêm parità tăng giá trị tiên đoán; (4) Tránh bỏ lỡ cơ hội OXT khi cổ tử cung đã chín muồi; (5) Tránh bắt đầu OXT khi cổ tử cung chưa sẵn sàng (kéo dài thời gian IOL, tăng nguy cơ thất bại)."
+    },
+    {
+      "front": "Liên quan giữa Oxytocin nội sinh và bài tiết sữa non?",
+      "back": "OXT từ SON/PVN → posterior pituitary → máu → myoepithelial cells ở vú → co bóp các cơ quanh nang sữa → milk ejection (phản xạ đẩy sữa, Ferguson-like reflex khi núm vú bị kích thích). Đây là tác dụng ngoại vi quan trọng nhất của OXT ngoài co tử cung. Cho con bú sớm + da-kề-da sau sinh kích thích OXT nội sinh → đẩy sữa + co tử cung (giảm PPH)."
+    },
+    {
+      "front": "MVU (Montevideo Units) là gì? Ngưỡng mục tiêu?",
+      "back": "MVU = số cơn co trong 10 phút × cường độ trung bình (mmHg), đo bằng intrauterine pressure catheter (IUPC). Mục tiêu trong active labor: 200-250 MVU. Nếu MVU < 200 sau khi đã tăng OXT đến liều cao → coi là hypotonic labor → cân nhắc nguyên nhân (CPD, ngôi, dystocia) trước khi tăng liều tiếp. KHÔNG nên tăng OXT vô tận — mục tiêu là cơn co hiệu quả, không phải cơn co max."
+    },
+    {
+      "front": "Tại sao tăng liều OXT nhanh nguy hiểm cho TOLAC?",
+      "back": "Nicol 2026 PMID 41241095 meta-analysis 51511 ca TOLAC: interval < 30 phút đồng nhất tăng nguy cơ vỡ tử cung (uterine rupture - UR). Cơ chế: tăng liều nhanh → OXTR overstimulate → cơn co mạnh liên tục → sẹo mổ cũ chịu áp lực cao > ngưỡng chịu → nứt/vỡ. Khuyến cáo: interval ≥ 30 phút cho TOLAC (vs 15-30 phút cho non-TOLAC), max ≤ 20 mU/min, monitor liên tục, sẵn sàng mổ cấp cứu trong 30 phút."
+    },
+    {
+      "front": "Carbetocin là gì? Khác gì oxytocin thường?",
+      "back": "Carbetocin: chủ vận OXTR/V1a mạnh, kéo dài (T½ 5-10 phút nhưng thời gian tác dụng kéo dài 1 giờ do kháng phân huỷ bởi oxytocinase). Hiện chủ yếu dùng dự phòng PPH (1 liều 100 mcg IV sau sinh). Đang nghiên cứu cho IOL thay OXT. Cơ chế kéo dài: carbetocin có N-methyl group ở cysteine → kháng aminopeptidase."
+    },
+    {
+      "front": "Vasopressin (ADH) và oxytocin liên quan thế nào?",
+      "back": "Cùng prepro-hormone ở SON/PVN, chỉ khác 2/9 amino acid. Tách ra từ tiền chất chung → neurophysin I mang OXT, neurophysin II mang AVP. Receptor V1a (Gq): vasoconstriction + co tử cung thứ phát. V1b (Gq): ACTH release. V2 (Gs): AQP2 → tái hấp thu nước ở thận. OXT liều cao có thể cross-bind V1a → tăng HA nhẹ; cross-bind V2 → giảm bài niệu, hyponatremia (đặc biệt truyền kéo dài hoặc nạp nhiều dịch nhược trương)."
+    },
+    {
+      "front": "Hậu quả của OXT truyền kéo dài > 24 giờ?",
+      "back": "(1) Tachyphylaxis: giảm đáp ứng do OXTR desensitization + internalization; (2) Nguy cơ PPH: do tử cung mệt mỏi (uterine atony thứ phát); (3) Nguy cơ thai suy: do cơn co không đều + monitoring khó khăn khi IOL kéo dài; (4) Hyponatremia: do cross-bind V2 + nạp nhiều dịch nhược trương; (5) Tăng nguy cơ vỡ tử cung (đặc biệt TOLAC). Khuyến cáo: max 15-18h trong latent phase (Kruit 2022), max 24h tổng; re-evaluate sau 18-24h nếu chưa vào active labor."
+    },
+    {
+      "front": "Vai trò của amniotomy (ARM) trong IOL?",
+      "back": "ARM (Artificial Rupture of Membranes): làm vỡ ối → giải phóng PGF2α nội sinh + tăng áp lực nội tử cung + giải phóng prostaglandin từ màng rụng. Tác dụng: tăng cơn co + ripening nhẹ. Áp dụng khi Bishop thuận lợi (≥ 6-8), kết hợp với OXT để đẩy nhanh. Rủi ro: vỡ ối đột ngột (cord prolapse, abruption nếu ngôi cao), nhiễm trùng tăng sau 24h vỡ ối. KHÔNG ARM nếu ngôi cao chưa cố định."
+    },
+    {
+      "front": "Tại sao misoprostol uống 25 mcg phổ biến tại VN?",
+      "back": "BYT VN hướng dẫn dùng misoprostol uống 25 mcg mỗi 2-4 giờ, max 200 mcg/24h cho cervical ripening khi Bishop < 6. Ưu điểm: rẻ, dễ dùng (không cần đặt âm đạo), sinh khả dụng qua đường uống ổn định, ít tachysystole hơn dinoprostone vaginal insert (theo Pieux 2025: 5.3% vs 17.2%). Chú ý: không dùng cho TOLAC (vì prostaglandin tăng nguy cơ vỡ tử cung). Liều cao hơn 50 mcg vaginal → nguy cơ tachysystole tăng."
+    }
+  ]
+}

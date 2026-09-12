@@ -1,0 +1,73 @@
+{
+  "status": "FAIL",
+  "checked": 3,
+  "failed": 3,
+  "guidelines": [
+    {
+      "claim_id": "C-001",
+      "society": "AHA/ACC/HRS",
+      "title": "Recommendations for the standardization and interpretation of the electrocardiogram: part I",
+      "document_id": "10.1016/j.jacc.2007.01.024",
+      "version": "2007",
+      "publication_date": "2007-03-13",
+      "accessed_at": "2026-07-28",
+      "canonical_url": "https://www.jacc.org/doi/10.1016/j.jacc.2007.01.024",
+      "local_copy": "F:/DL/mavisresearch/Bai hoc y khoa/11_Noi khoa/IM-44_Nguyen_ly_ECG/outputs/sources/AHA_ECG_Part1.txt",
+      "sha256": "5d6dad699e9d47962a3d2815dae76b4e2d16b95b795270469a76d70ba647f568",
+      "recommendation_text": "For adults, the recommended low-frequency cutoff is 0.05 Hz... high-frequency cutoff is 150 Hz",
+      "superseded_by": null,
+      "locator": "UNVERIFIED_FULLTEXT_PAYWALLED",
+      "pmid": "17349896",
+      "status": "FAIL",
+      "failures": [
+        "locator is unverified: 'UNVERIFIED_FULLTEXT_PAYWALLED' (must be a valid machine-readable locator like section/page/paragraph)",
+        "recommendation_text contains forbidden ellipsis '...' (must be exact continuous quote)",
+        "recommendation_text quote not found as exact normalized continuous substring in local_copy",
+        "recommendation_text numbers absent from local source: ['0.05', '150']"
+      ]
+    },
+    {
+      "claim_id": "C-002",
+      "society": "AHA/ACC/HRS",
+      "title": "Recommendations for the standardization and interpretation of the electrocardiogram: part I",
+      "document_id": "10.1016/j.jacc.2007.01.024",
+      "version": "2007",
+      "publication_date": "2007-03-13",
+      "accessed_at": "2026-07-28",
+      "canonical_url": "https://www.jacc.org/doi/10.1016/j.jacc.2007.01.024",
+      "local_copy": "F:/DL/mavisresearch/Bai hoc y khoa/11_Noi khoa/IM-44_Nguyen_ly_ECG/outputs/sources/AHA_ECG_Part1.txt",
+      "sha256": "5d6dad699e9d47962a3d2815dae76b4e2d16b95b795270469a76d70ba647f568",
+      "recommendation_text": "A recording speed of 25 mm/s is the standard",
+      "superseded_by": null,
+      "locator": "UNVERIFIED_FULLTEXT_PAYWALLED",
+      "pmid": "17349896",
+      "status": "FAIL",
+      "failures": [
+        "locator is unverified: 'UNVERIFIED_FULLTEXT_PAYWALLED' (must be a valid machine-readable locator like section/page/paragraph)",
+        "recommendation_text quote not found as exact normalized continuous substring in local_copy",
+        "recommendation_text numbers absent from local source: ['25']"
+      ]
+    },
+    {
+      "claim_id": "C-003",
+      "society": "AHA/ACC/HRS",
+      "title": "Recommendations for the standardization and interpretation of the electrocardiogram: part I",
+      "document_id": "10.1016/j.jacc.2007.01.024",
+      "version": "2007",
+      "publication_date": "2007-03-13",
+      "accessed_at": "2026-07-28",
+      "canonical_url": "https://www.jacc.org/doi/10.1016/j.jacc.2007.01.024",
+      "local_copy": "F:/DL/mavisresearch/Bai hoc y khoa/11_Noi khoa/IM-44_Nguyen_ly_ECG/outputs/sources/AHA_ECG_Part1.txt",
+      "sha256": "5d6dad699e9d47962a3d2815dae76b4e2d16b95b795270469a76d70ba647f568",
+      "recommendation_text": "standard calibration of 10 mm/mV",
+      "superseded_by": null,
+      "locator": "UNVERIFIED_FULLTEXT_PAYWALLED",
+      "pmid": "17349896",
+      "status": "FAIL",
+      "failures": [
+        "locator is unverified: 'UNVERIFIED_FULLTEXT_PAYWALLED' (must be a valid machine-readable locator like section/page/paragraph)",
+        "recommendation_text quote not found as exact normalized continuous substring in local_copy"
+      ]
+    }
+  ]
+}

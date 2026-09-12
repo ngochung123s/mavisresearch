@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"checked\": 1,\n  \"failed\": 0,\n  \"guidelines\": [\n    {\n      \"claim_id\": \"G-P1-SCOPE\",\n      \"society\": \"AHA/ACC\",\n      \"title\": \"2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure\",\n      \"document_id\": \"PMID: 35363499\",\n      \"version\": \"2022\",\n      \"publication_date\": \"2022-04-01\",\n      \"accessed_at\": \"2026-07-29\",\n      \"canonical_url\": \"https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063\",\n      \"local_copy\": \"F:/DL/mavisresearch/Bai hoc y khoa/11_Noi khoa/IM-22_Suy_tim/P1_Nen_tang/outputs/sources/aha_acc_hfsa_2022_abstract.txt\",\n      \"sha256\": \"76c96f35379a36bd9e5d5fe2dc4e90676e444f89eb3de8820a5fde74d8f02be4\",\n      \"recommendation_text\": \"The 2022 guideline is intended to provide patient-centric recommendations for clinicians to prevent, diagnose, and manage patients with heart failure.\",\n      \"locator\": \"Abstract / Aim\",\n      \"pmid\": \"35363499\",\n      \"superseded_by\": null,\n      \"status\": \"PASS\",\n      \"failures\": []\n    }\n  ]\n}\n",
+  "stderr": ""
+}

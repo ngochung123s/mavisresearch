@@ -1,0 +1,386 @@
+version: 1
+plan:
+  name: "Sieu am tim thai - Huong dan sieu chi tiet (3 deliverables)"
+  max_concurrency: 5
+  max_consecutive_failures: 2
+  max_cycles: 8
+  auto_reject_retries: 1
+  verifier_config:
+    default_verifiers: [verifier]
+    audit_sample_rate: 0.0
+tasks:
+  # ==================== LEVEL 1: PARALLEL RESEARCH ====================
+  - id: t1_guidelines
+    title: "Tong hop guideline ISUOG/AHA/ASE cho sieu am tim thai"
+    prompt: |
+      Nhiem vu: tong hop cac guideline hien hanh ve sieu am tim thai (fetal echocardiography) tu cac hoi nghe nghiep lon, phuc vu bai hoc sieu chi tiet cho bac si san khoa.
+
+      Cac guideline can tim (uu tien 2020-2025, neu khong co thi lay moi nhat):
+      1. ISUOG Practice Guidelines for fetal cardiac screening (2013 ban goc, 2023 update neu co)
+      2. ISUOG guideline cho first-trimester fetal cardiac screening (2023 neu co)
+      3. AHA (American Heart Association) - recommendations for fetal echocardiography (2014, voi 2020+ updates neu co)
+      4. ASE (American Society of Echocardiocardiography) guidelines
+      5. ESPR (European Society of Paediatric Radiology)
+      6. Fetal Medicine Foundation (FMF) protocols
+      7. RCOG / NICE guideline lien quan den fetal anomaly screening (tim thai)
+      8. Any 2023-2025 systematic review / meta-analysis quan trong ve prenatal detection rate
+
+      Dung `mavis mcp call pubmed pubmed_search` va `pubmed_fetch` de lay evidence. Cu phap:
+        mavis mcp call pubmed pubmed_search '{"query":"fetal echocardiography guideline ISUOG 2023","retmax":10}'
+        mavis mcp call pubmed pubmed_fetch '{"pmid":12345}'
+
+      VOI MOI GUIDELINE, can ghi ro:
+      - Hoi nghe nghiep + nam + title day du + journal + PMID (hoac DOI neu khong co PMID)
+      - Pham vi: chi dinh lam sieu am tim thai chuyen sau, thoi diem (tuan thai), cac mat cat khuyen cao
+      - Key recommendations (bullets, kem evidence level neu co)
+      - Khi nao chuyen tu sang loc co ban sang chan doan chuyen sau (screening vs diagnostic criteria)
+      - Detection rate benchmark neu co
+
+      OUTPUT: ghi vao file `01_guidelines_raw.md` tai:
+      F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/sources/01_guidelines_raw.md
+
+      FORMAT: Tieng Viet binh luan, citation giu tieng Anh (ten guideline, tac gia, journal), moi citation kem PMID/DOI ro rang. KHONG dung chu Trung/汉字. It nhat 8 guideline khac nhau.
+
+      Stop condition: file da ghi, co it nhat 8 citation ro rang, moi citation co PMID hoac DOI.
+    assigned_to: guideline-analyst
+    verified_by: verifier
+    verify_prompt: |
+      Kiem tra file F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/sources/01_guidelines_raw.md.
+      PASS neu:
+      - File ton tai va > 5KB
+      - Co it nhat 8 guideline khac nhau (ISUOG, AHA, ASE, ESPR, FMF, RCOG/NICE, ...)
+      - Moi citation co PMID hoac DOI
+      - It nhat 3 guideline tu 2020 tro ve sau
+      - Khong co chu Trung/Han tu
+      FAIL neu thieu bat ky tieu chi tren.
+    max_retries: 2
+
+  - id: t2_anatomy
+    title: "Phoi thai hoc + giai phau + segmental analysis tim thai"
+    prompt: |
+      Viet bai phoi thai hoc + giai phau + segmental analysis cho sieu am tim thai, depth = bac si chuyen khoa.
+
+      Cac section bat buoc (theo thu tu):
+      1. Phoi thai hoc tim (cardiac embryology)
+         - Mesoderm -> cardiac tube (ngay 15-18 post-fertilization)
+         - Looping (ngay 18-28) - dau truoc, bend trai-phai
+         - Septation (ngay 28-50): atrial septation, ventricular septation, outflow tract septation
+         - Key transcription factors: NKX2-5, TBX5, GATA4, NOTCH1, JAG1, CHD7, HAND1/2
+         - Timeline tom tat bang text
+      2. Giai phau binh thuong (gross anatomy)
+         - 4 buong (LA, RA, LV, RV) - dac diem phan biet tren sieu am
+         - 4 van (MV, TV, AV, PV) - morphology, van nao gan tam that nao
+         - 3 dai mach lon: aorta, pulmonary artery, ductus arteriosus
+         - Tinh mach: SVC, IVC, pulmonary veins, coronary sinus
+         - Mach vanh (coronary) - tom tat
+      3. Situs & connections
+         - Situs solitus, inversus, ambiguus (left/right atrial isomerism)
+         - Phan biet tren sieu am: stomach, liver, IVC-aorta position
+      4. Segmental analysis (Van Praagh)
+         - 3 segments: atrial situs (S/I/A), ventricular loop (D/L), great arteries (S/I)
+         - 2 connections: AV connection (concordant/discordant/cross), VA connection
+         - Step-by-step approach de evaluate
+      5. Do dac binh thuong & Z-scores
+         - GA-based reference ranges cho: heart axis, cardiothoracic ratio, ventricular length, valve annulus, aorta, PA, ductal arch
+         - Cong thuc Z-score (Schneider 2005, Krishnan 2020)
+         - Bang tham chieu tom gon
+      6. Cac mat cat chuan (5-7 views)
+         - 4-chamber view (chi tiet: landmarks, Doppler settings)
+         - LVOT (left ventricular outflow tract)
+         - RVOT (right ventricular outflow tract)
+         - 3-vessel view (3V)
+         - 3-vessel trachea view (3VT)
+         - Aortic arch (long axis)
+         - Ductal arch (long axis)
+         - Bicaval view (short/long)
+         - Moi view: vi tri dau do, structure thay duoc, do dac, tips
+
+      VOI MOI SECTION, can:
+      - Bullet points cho fact chinh
+      - Mo ta pathway/diagram (text-based - coder se convert sang mermaid)
+      - PubMed citations (PMID) cho cac tham khao quan trong
+      - It nhat 1-2 doan lien quan lam sang
+
+      OUTPUT: ghi vao `02_anatomy_pathway.md` tai:
+      F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/sources/02_anatomy_pathway.md
+
+      Ngon ngu: Tieng Viet, khong chu Trung/汉字 (chi dung Han Viet neu co). Thuat ngu y khoa giu tieng Anh.
+
+      Stop condition: file >= 1500 lines, co du 6 section, co it nhat 6 PMID citation.
+    assigned_to: mechanism-reviewer
+    verified_by: verifier
+    verify_prompt: |
+      Kiem tra file F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/sources/02_anatomy_pathway.md.
+      PASS neu:
+      - File ton tai va > 20KB
+      - Co it nhat 1500 lines
+      - Co 6 section: embryology, anatomy, situs, segmental analysis, Z-scores, views
+      - Co it nhat 6 PMID citations
+      - Khong co chu Han tu (kiem tra pattern /[一-鿿]/)
+      - Bang/cac mat cat co trong phan views
+      FAIL neu thieu bat ky tieu chi tren.
+    max_retries: 2
+
+  - id: t3_pathology_tips
+    title: "Catalog 12+ ton thuong tim thai + meo thuc hanh"
+    prompt: |
+      Viet catalog 12+ ton thuong tim thai thuong gap kem meo thuc hanh sieu chi tiet, phuc vu bai hoc cho bac si.
+
+      PHAN A - Catalog 12 ton thuong (moi ton thuong >= 250 words, kem PMID neu co):
+
+      1. VSD (ventricular septal defect) - perimembranous, muscular, inlet, outlet
+      2. ASD (atrial septal defect) - secundum, primum, sinus venosus
+      3. AVSD (atrioventricular septal defect) - complete, partial, transitional, unbalanced
+      4. Tetralogy of Fallot (TOF) - kem voi pulmonary stenosis, RVH, VSD, overriding aorta
+      5. TGA (transposition of great arteries) - D-TGA, L-TGA / cc-TGA
+      6. Double outlet right ventricle (DORV) - Subaortic, subpulmonary, doubly-committed, non-committed
+      7. Truncus arteriosus
+      8. HLHS (hypoplastic left heart syndrome)
+      9. Coarctation of aorta (CoA)
+      10. Aortic stenosis (AS) - critical AS, evolving HLHS
+      11. Pulmonary stenosis / atresia (PS/PA) - voi intact ventricular septum
+      12. Ebstein anomaly / tricuspid dysplasia
+      13. TAPVR (total anomalous pulmonary venous return)
+      14. (Bonus) Cardiomyopathy, fetal arrhythmia (SVT, AF, heart block), cardiac tumors (rhabdomyoma)
+
+      VOI MOI TON THUONG:
+      - Anatomy & embryology (co che sai sot)
+      - Sonographic clues (4-chamber, LVOT, RVOT, 3VT views - thay gi, o dau)
+      - Differential diagnosis
+      - Associated anomalies (chromosomal: T21, T18, T13, 22q11 deletion; extracardiac)
+      - Counseling points (prognosis, options: comfort care vs surgery, postnatal plan, long-term outcomes)
+      - 1-2 PMID citations
+
+      PHAN B - Meo thuc hanh (it nhat 25 meo, moi meo 30-60 words):
+      - Probe selection, frequency (5-9 MHz), presets
+      - Maternal/fetal positioning (lithotomy, decubitus)
+      - Acoustic window optimization (maternal bladder, transvaginal approach early)
+      - Sweep technique (transverse sweep tu bung den nguc)
+      - Color/Power Doppler settings: PRF, gain, color box
+      - Spectral Doppler: peak velocity, E/A ratio, myocardial performance index (MPI/Tei index)
+      - Pitfalls: drop-out vs true VSD, pseudo-coarctation, RV vs LV identification
+      - First trimester fetal echo (11-14 weeks): TVS, indications
+      - Fetal heart rhythm: M-mode, spectral Doppler, mechanical PR interval
+      - 3D/4D fetal echo (STIC - spatiotemporal image correlation)
+      - Khi nao can MRI bo sung
+      - Tinh huong dac biet: twin pregnancy (van tim thai), TTTS, sIUGR
+
+      OUTPUT: ghi vao `03_pathology_tips.md` tai:
+      F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/sources/03_pathology_tips.md
+
+      Ngon ngu: Tieng Viet, khong chu Trung/汉字. Thuat ngu y khoa giu tieng Anh.
+
+      Stop condition: file >= 1200 lines, 14 ton thuong (12 + bonus), >= 25 meo, it nhat 12 PMID citation.
+    assigned_to: medical-synthesis-writer
+    verified_by: verifier
+    verify_prompt: |
+      Kiem tra file F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/sources/03_pathology_tips.md.
+      PASS neu:
+      - File ton tai va > 20KB
+      - Co 12+ ton thuong (moi ton thuong co heading rieng va >= 200 words)
+      - Co it nhat 25 meo thuc hanh
+      - Co it nhat 12 PMID citations
+      - Khong co chu Han tu
+      - Co phan counseling cho moi lesion
+      FAIL neu thieu bat ky tieu chi tren.
+    max_retries: 2
+
+  # ==================== LEVEL 2: SYNTHESIS (parallel) ====================
+  - id: t4_docx_apkg
+    title: "Tong hop thanh docx sieu chi tiet + Anki deck 100+ cards"
+    prompt: |
+      Tong hop 3 file nguon thanh bai viet sieu chi tiet + bo Anki flashcard sieu chi tiet.
+
+      INPUT FILES (da co san):
+      - F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/sources/01_guidelines_raw.md
+      - F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/sources/02_anatomy_pathway.md
+      - F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/sources/03_pathology_tips.md
+
+      OUTPUTS (3 file):
+
+      1. **DOCX** (sieutra nhat, target > 150KB, 30+ trang in):
+         File: `Sieu am tim thai - sieu chi tiet - 2026-06-19.docx`
+         Path: `F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/Sieu am tim thai - sieu chi tiet - 2026-06-19.docx`
+
+         Format: dung `python-docx`. Reference script mau:
+         `F:/DL/mavisresearch/Bai hoc y khoa/08_Anki Deck - apkg/build_docx_cl_ptb.py` (30KB - read it first de hoc pattern)
+
+         Style: 
+         - Title 18pt bold blue, subtitle italic 12pt gray
+         - Heading 1: 16pt bold dark blue
+         - Heading 2: 14pt bold dark red
+         - Heading 3: 13pt bold black
+         - Body: Times New Roman 13pt, line spacing 1.4
+         - Tables: header bold white on blue (#0E4D92), alternating row shading #F0F4FA, border, alignment center, font 10.5pt
+         - Bullets: indented 0.6cm
+         - In-text citation: [PMID: 12345] format
+         - References: list cuoi bai
+
+         Noi dung (10+ section):
+         1. Bia (title, subtitle, meta)
+         2. Tom tat quan diem chinh
+         3. Boi canh lam sang (dich tat tim bam sinh, prevalence)
+         4. Phoi thai hoc + giai phau (tighter version cua source)
+         5. Chi dinh sieu am tim thai (indications list, bang)
+         6. Ky thuat sieu am (probe, position, sweep, Doppler, 3D/4D)
+         7. 5-7 mat cat chuan (chi tiet tung view)
+         8. Do dac + Z-score (bang tham chieu theo GA)
+         9. Catalog 12-14 ton thuong (moi ton thuong: anatomy, sono clues, DD, counseling)
+         10. Meo thuc hanh (25+ tips)
+         11. Tu van benh nhan (algorithm counseling, prognosis, options)
+         12. Bang guideline tom tat (ISUOG, AHA, ASE, ESPR, FMF)
+         13. References (full list, PMID)
+
+      2. **ANKI DECK** (sieutra nhat, target 100-150 cards):
+         File: `Anki - Sieu am tim thai ~120 cards - 2026-06-19.apkg`
+         Path: `F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/Anki - Sieu am tim thai ~120 cards - 2026-06-19.apkg`
+
+         Dung `genanki` library. Reference: cards_era_2026-06-16.json format de thay structure.
+
+         Phan bo cards (tong 100-150):
+         - Anatomy (20-25 cards): chamber, valve, vessel, situs
+         - Embryology (10-12 cards): timeline, genes, septation steps
+         - Segmental analysis (8-10 cards): Van Praagh rules
+         - Views/technique (15-18 cards): tung mat cat, Doppler settings
+         - Measurements/Z-scores (10-12 cards): GA-based ranges, Z-score formula
+         - Lesion catalog (30-35 cards): 12-14 lesion, moi lesion 2-3 cards
+         - Counseling (10-12 cards): prognosis, options, follow-up
+         - Guidelines/PMID (8-10 cards): ISUOG, AHA, ASE, FMF recommendations
+         - Practical tips (8-10 cards): probe, position, common pitfalls
+
+         Moi card:
+         - Front: clinical scenario / direct question (ngan gon, giong cau hoi thi)
+         - Back: answer chi tiet (5-15 lines) kem PMID, mechanism, clinical context
+         - Extra: PMID citation o cuoi
+         - Type: "basic" hoac "cloze" (cloze cho cac fact memorize nhu Z-score, timing)
+
+         Theme: Pastel (preference user). Dung genanki standard model_id.
+         Luu JSON source truoc (debug/deploy):
+         `F:/DL/mavisresearch/Bai hoc y khoa/09_Source - Markdown/03_Sieu am thai/01_Sieu am tim thai/sat_cards_2026-06-19.json`
+
+      3. **MARKDOWN SOURCE** (cho archive):
+         File: `Sieu am tim thai - sieu chi tiet - 2026-06-19.md`
+         Path: `F:/DL/mavisresearch/Bai hoc y khoa/09_Source - Markdown/03_Sieu am thai/01_Sieu am tim thai/Sieu am tim thai - sieu chi tiet - 2026-06-19.md`
+
+         Markdown day du noi dung bai (cung noi dung nhu docx nhung format MD), de archive va search.
+
+      Quy tac:
+      - Tieng Viet xuyen suot, KHONG chu Trung/汉字 (chi Han Viet neu can)
+      - Moi clinical claim co PMID hoac guideline citation
+      - Docx tables phai co header in dam, border, alignment
+      - Anki: front/back deu co noi dung y hoc chat, khong placeholder
+
+      Test truoc khi xong:
+      - python -c "from docx import Document; d=Document('...'); print(len(d.paragraphs), len(d.tables))"
+      - python -c "import zipfile; z=zipfile.ZipFile('...apkg'); print(len([n for n in z.namelist() if n.startswith('0')]))" de check so note
+
+      Stop condition:
+      - docx file > 100KB va co >= 20 tables, >= 200 paragraphs
+      - apkg file > 50KB va co >= 100 notes
+      - md file > 30KB
+    assigned_to: medical-synthesis-writer
+    depends_on: [t1_guidelines, t2_anatomy, t3_pathology_tips]
+    verify_skip_reason: "Final gate (t6) se verify ca 3 deliverables."
+    max_retries: 2
+
+  - id: t5_html_visual
+    title: "HTML visual summary voi Tailwind + Mermaid + Chart.js"
+    prompt: |
+      Build trang HTML visual summary (interactive, single file) cho bai sieu am tim thai.
+
+      OUTPUT: `Visual summary - Sieu am tim thai - 2026-06-19.html`
+      Path: `F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/Visual summary - Sieu am tim thai - 2026-06-19.html`
+
+      Reference existing: `F:/DL/mavisresearch/Bai hoc y khoa/07_Visual Summary - HTML/visual_cervical_length_ptb_2026-06-17.html` (doc truoc do de hoc style)
+
+      Tech stack:
+      - Tailwind CSS (CDN: https://cdn.tailwindcss.com)
+      - Mermaid.js (CDN: https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js)
+      - Chart.js (CDN: https://cdn.jsdelivr.net/npm/chart.js)
+      - Google Fonts: Inter hoac Roboto
+
+      Style:
+      - Color palette: blue primary (#0E4D92), teal accent (#14B8A6), soft red for warning (#BE185D)
+      - Background: white / light gray (#F9FAFB)
+      - Mobile responsive (Tailwind md: lg: breakpoints)
+      - Card-based layout, shadow, rounded
+
+      Sections bat buoc (theo thu tu):
+      1. **Cover/Hero**: Title lon, subtitle, date 2026-06-19, 1 stat lon (8-10/1000 CHD prevalence)
+      2. **Stats bar**: 4-6 stat cards (prevalence, detection rate, need surgery, mortality, etc.)
+      3. **Indications flowchart** (Mermaid): 
+         "Bệnh nhân có chỉ định fetal echo" -> branches: maternal factors, fetal factors, family history -> "Siêu âm tim thai chuyên sâu"
+      4. **Segmental analysis flowchart** (Mermaid): step-by-step Van Praagh approach
+      5. **Standard views comparison** (table hoac card grid): 5-7 views voi landmarks
+      6. **GA-based measurements chart** (Chart.js line chart): heart rate theo GA, valve annulus theo GA
+      7. **Lesion gallery** (12-14 cards grid): icon (emoji hoac SVG), name, 1-line description, prevalence
+      8. **Counseling decision tree** (Mermaid): suspected CHD -> confirm -> options (comfort care vs surgery) -> outcomes
+      9. **Practical tips** (numbered list, 10-15 tips voi icon)
+      10. **References** (10+ PMID links, format "Author Year - Journal - PMID:xxxxx")
+
+      Noi dung lay tu cac source file (co the doc de extract):
+      - F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/sources/01_guidelines_raw.md
+      - F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/sources/02_anatomy_pathway.md
+      - F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/sources/03_pathology_tips.md
+
+      Ngon ngu: Tieng Viet, khong chu Trung/汉字.
+
+      Stop condition: file > 60KB, mo duoc trong browser, co Mermaid + Chart.js, mobile responsive.
+    assigned_to: coder
+    depends_on: [t2_anatomy, t3_pathology_tips]
+    verify_skip_reason: "Final gate (t6) se verify HTML."
+    max_retries: 2
+
+  # ==================== LEVEL 3: FINAL GATE ====================
+  - id: t6_final_gate
+    title: "Final gate - verify 3 deliverables + chat luong noi dung"
+    role: verify-as-task
+    prompt: |
+      Chay final verification cho 3 deliverables, bao gom ca content quality check.
+
+      DELIVERABLES:
+      1. DOCX: F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/Sieu am tim thai - sieu chi tiet - 2026-06-19.docx
+      2. APKG: F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/Anki - Sieu am tim thai ~120 cards - 2026-06-19.apkg
+      3. HTML: F:/DL/mavisresearch/Bai hoc y khoa/03_Sieu am thai/01_Sieu am tim thai/Visual summary - Sieu am tim thai - 2026-06-19.html
+
+      KIEM TRA TUNG FILE:
+
+      ### 1. DOCX checks
+      - File exists, size > 100KB
+      - Mo bang python-docx:
+        python -c "from docx import Document; d=Document('PATH'); print(len(d.paragraphs), 'paras,', len(d.tables), 'tables')"
+      - Phai co >= 200 paragraphs, >= 20 tables
+      - Extract first 200 paragraphs va grep cho: 'PMID' (it nhat 10 lan), 'guideline', 'ISUOG'/'AHA'/'ASE', 'VSD'/'TOF'/'TGA'/'HLHS'
+      - Kiem tra khong co chu Han tu (regex /[一-鿿]/) trong text
+      - Kiem tra co heading hierarchy (Heading 1, 2, 3)
+
+      ### 2. APKG checks
+      - File exists, size > 50KB
+      - Extract va count notes:
+        python -c "import zipfile, sqlite3, io; z=zipfile.ZipFile('PATH'); print(z.namelist()[:5])"
+      - Lay collection.anki2, mo sqlite, count notes trong table 'notes'
+      - Phai co >= 100 notes
+      - Extract 5 notes mau, kiem tra: co front text, co back text, co PMID trong extra field, tieng Viet
+      - Kiem tra theme Pastel (CSS color #A7C7E7, #F4B6C2, #B5EAD7 etc neu co)
+
+      ### 3. HTML checks
+      - File exists, size > 60KB
+      - Co <script src=... mermaid>, <script src=... chart.js>, Tailwind CDN
+      - Co it nhat 3 mermaid diagrams (grep 'mermaid' div class)
+      - Co it nhat 2 chart canvas elements
+      - Co references section voi 5+ PMID links
+      - Kiem tra khong co chu Han tu
+
+      ### 4. Cross-deliverable checks
+      - Cung topic, consistent terminology
+      - Cung PMID citations set (3 file deu cite cung guideline chinh)
+
+      Output format:
+      - List PASS/FAIL cho moi file
+      - Specific findings (size, so notes, so tables, vi du citations)
+      - Overall verdict: PASS (ship) hoac FAIL (list can fix)
+
+      Stop condition: PASS report with all 3 files green.
+    assigned_to: verifier
+    depends_on: [t4_docx_apkg, t5_html_visual]
+    max_retries: 1

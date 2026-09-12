@@ -1,0 +1,252 @@
+[
+  {
+    "type": "basic",
+    "front": "Khi nào một người bệnh được xem là có tiêu chảy?",
+    "back": "Khi đi ngoài phân lỏng hoặc nước từ 3 lần trong 24 giờ, hoặc nhiều hơn mức bình thường của chính người bệnh. Sau đó phải hỏi thêm thời gian, kiểu hình phân, khả năng uống, mất nước và dấu hiệu báo động."
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chảy dưới 14 ngày được xếp loại thế nào và ưu tiên quyết định gì?",
+    "back": "Là tiêu chảy cấp. Ưu tiên kiểm tra an toàn, bù dịch, xác định kiểu hình và phơi nhiễm nhiễm trùng trước khi chọn xét nghiệm hoặc thuốc."
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chảy kéo dài 14–29 ngày phải làm thay đổi tư duy xử trí ra sao?",
+    "back": "Xếp là tiêu chảy kéo dài; không tiếp tục xử trí như một đợt cấp đơn giản. Phải đánh giá lại tác nhân, thuốc/phơi nhiễm và nguyên nhân hữu cơ."
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chảy từ 30 ngày hoặc trên 4 tuần mở đường đi nào?",
+    "back": "Xếp là tiêu chảy mạn. Chuyển sang phân loại phân nước, phân mỡ/kém hấp thu hoặc viêm; không mặc định là nhiễm trùng cấp."
+  },
+  {
+    "type": "basic",
+    "front": "Ba lớp thông tin nào phải được ghi sau khi đã kiểm tra an toàn ở người bệnh tiêu chảy?",
+    "back": "Thời gian (cấp/kéo dài/mạn), kiểu hình (nước/viêm hoặc máu/mỡ hoặc kém hấp thu), và bối cảnh chủ thể–phơi nhiễm làm thay đổi xét nghiệm hoặc nơi điều trị."
+  },
+  {
+    "type": "basic",
+    "front": "Kiểu hình phân nước định hướng hành động ban đầu thế nào?",
+    "back": "Đánh giá mất nước, thời gian, chủ thể nguy cơ và phơi nhiễm; nhiều ca ưu tiên bù dịch. Không được đồng nhất phân nước với bệnh nhẹ."
+  },
+  {
+    "type": "basic",
+    "front": "Máu đại thể, nhầy, sốt, đau quặn hoặc mót rặn làm thay đổi xử trí thế nào?",
+    "back": "Mở nhánh tiêu chảy viêm/phân máu: đánh giá cấp cứu, lấy mẫu phân phù hợp, cân nhắc STEC và không tự động dùng kháng sinh hay thuốc giảm nhu động."
+  },
+  {
+    "type": "basic",
+    "front": "Kiểu hình phân mỡ/kém hấp thu dẫn đến quyết định gì?",
+    "back": "Đánh giá nguyên nhân hữu cơ và kém hấp thu thay vì lặp kháng sinh; chuyển chuyên khoa nếu cơ sở chưa xác định được nguyên nhân."
+  },
+  {
+    "type": "basic",
+    "front": "Người bệnh tiêu chảy có sinh hiệu không ổn định, giảm tưới máu hoặc thay đổi tri giác: làm gì?",
+    "back": "Dừng nhánh ngoại trú, không chờ kết quả phân. Thực hiện ABCDE, hồi sức và theo dõi liên tục theo IM-35; chuyển Cấp cứu hoặc ICU tùy đáp ứng."
+  },
+  {
+    "type": "basic",
+    "front": "Mất nước nặng, không uống được, ORS thất bại hoặc nghi liệt ruột đòi hỏi hành động nào?",
+    "back": "Dùng dịch tinh thể đẳng trương đường tĩnh mạch, đánh giá lại và xử trí tại Cấp cứu/nội trú; đường uống không còn đủ an toàn hoặc hiệu quả."
+  },
+  {
+    "type": "basic",
+    "front": "Nhiễm độc toàn thân hoặc nghi nhiễm trùng huyết ở người bệnh tiêu chảy phải được xử trí thế nào?",
+    "back": "Hồi sức và xử trí song song; lấy mẫu phù hợp nếu không làm chậm điều trị sống còn, hội chẩn và chuyển Cấp cứu/ICU/Truyền nhiễm."
+  },
+  {
+    "type": "basic",
+    "front": "Cứng bụng, phản ứng phúc mạc, bí trung đại tiện hoặc dấu tắc ruột có ý nghĩa gì?",
+    "back": "Đe dọa thủng, viêm phúc mạc hoặc tắc ruột. Dừng đường đi tiêu chảy thường quy, xử trí theo IM-35 và chuyển Cấp cứu/Ngoại khoa."
+  },
+  {
+    "type": "basic",
+    "front": "Viêm đại tràng chảy máu nặng kèm đau hoặc chướng bụng tiến triển: quyết định an toàn là gì?",
+    "back": "Nhập viện và đánh giá khẩn; không dùng thuốc cầm tiêu chảy. Chuyển Tiêu hóa/Cấp cứu và hội chẩn Ngoại khoa khi cần."
+  },
+  {
+    "type": "basic",
+    "front": "Ba dấu hiệu nào xác định nhánh CDI tối cấp và nơi xử trí?",
+    "back": "Tụt huyết áp/sốc, liệt ruột hoặc phình đại tràng nhiễm độc. Điều trị ngay trong nhánh hồi sức; ICU và hội chẩn khẩn Tiêu hóa, Truyền nhiễm, Ngoại khoa."
+  },
+  {
+    "type": "basic",
+    "front": "Suy giảm miễn dịch, tuổi cao/yếu hoặc dự trữ sinh lý thấp làm thay đổi ngưỡng xử trí thế nào?",
+    "back": "Hạ ngưỡng nhập viện, xét nghiệm, hội chẩn và đánh giá lặp lại vì biểu hiện có thể không điển hình nhưng nguy cơ diễn tiến nặng cao."
+  },
+  {
+    "type": "basic",
+    "front": "Những nhóm bệnh sử phơi nhiễm nào phải hỏi có hệ thống trong tiêu chảy cấp?",
+    "back": "Thức ăn/nước; du lịch; người tiếp xúc/chùm ca; thuốc và kháng sinh; chăm sóc y tế; tình trạng miễn dịch–tuổi–bệnh nền; phơi nhiễm tình dục; cùng kiểu hình và mức mất nước."
+  },
+  {
+    "type": "basic",
+    "front": "Nguồn thức ăn/nước chung hoặc nhiều người cùng mắc làm thay đổi hành động gì?",
+    "back": "Gợi ý phơi nhiễm chung hay ổ dịch; cần chọn xét nghiệm phân có mục tiêu, ghi rõ bối cảnh cho labo và thực hiện cảnh báo/kiểm soát nhiễm khuẩn phù hợp."
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chảy mới xuất hiện sau kháng sinh hoặc chăm sóc y tế mở nhánh nào?",
+    "back": "Mở nhánh CDI: kiểm tra có đủ hội chứng để test, bắt đầu cách ly tiếp xúc khi nghi ngờ, chọn đúng mẫu và diễn giải theo thuật toán labo."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao phải rà thuốc và thuốc nhuận tràng ở người bệnh tiêu chảy?",
+    "back": "Thuốc có thể là nguyên nhân; nhuận tràng có thể giải thích tiêu chảy và làm chọn sai quần thể test CDI. Chỉ ngừng thuốc không còn chỉ định khi an toàn và phối hợp người kê."
+  },
+  {
+    "type": "basic",
+    "front": "Phơi nhiễm tình dục liên quan thế nào đến tiếp cận tiêu chảy?",
+    "back": "Hỏi riêng tư, không phán xét vì thông tin có thể thay đổi vị trí lấy mẫu và xét nghiệm; chỉ hỏi khi gắn với hành động lâm sàng rõ ràng."
+  },
+  {
+    "type": "basic",
+    "front": "Câu hỏi bắt buộc trước khi gửi bất kỳ xét nghiệm phân nào là gì?",
+    "back": "“Kết quả này sẽ làm tôi bắt đầu, ngừng, thu hẹp hay đổi điều trị, kiểm soát nhiễm khuẩn hoặc chuyển tuyến như thế nào?” Không gửi nếu kết quả không đổi hành động."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào nên cân nhắc cấy phân và kết quả dùng để làm gì?",
+    "back": "Khi tiêu chảy viêm/phân máu, bệnh nặng, chủ thể nguy cơ, phơi nhiễm/ổ dịch hoặc kết quả sẽ đổi xử trí. Dùng để điều trị hướng đích, ngừng/thu hẹp thuốc hoặc hỗ trợ điều tra ổ dịch."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào panel phân tử/PCR đa tác nhân hữu ích và khi nào không nên dùng?",
+    "back": "Hữu ích khi cần câu trả lời nhanh ở ca nặng/phức tạp hoặc theo năng lực địa phương; không dùng như gói xét nghiệm cho mọi tiêu chảy cấp."
+  },
+  {
+    "type": "basic",
+    "front": "Phải diễn giải một đích dương tính trên panel phân tử như thế nào?",
+    "back": "Đối chiếu hội chứng và phơi nhiễm, xem đồng nhiễm/phát hiện không giải thích bệnh cảnh, và chỉ đổi điều trị khi lâm sàng cùng kết quả chỉ ra lợi ích. Không điều trị hết danh sách dương tính."
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chảy máu/viêm nghi STEC cần chọn xét nghiệm và thời điểm lấy mẫu thế nào?",
+    "back": "Lấy mẫu phân tìm Shiga toxin/STEC và tác nhân ruột theo phơi nhiễm trước kháng sinh khi khả thi; không khởi kháng sinh mù trước khi cân nhắc nhánh STEC."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào xét nghiệm ký sinh trùng được chọn và Giardia được tìm bằng gì trong tiêu chảy mạn phân nước?",
+    "back": "Chọn khi tiêu chảy kéo dài/mạn hoặc có phơi nhiễm đặc hiệu. Với tiêu chảy mạn phân nước, tìm Giardia bằng kháng nguyên hoặc PCR trên mẫu phân phù hợp."
+  },
+  {
+    "type": "basic",
+    "front": "Nguyên tắc lấy mẫu phân trước kháng sinh là gì?",
+    "back": "Lấy mẫu hướng đích trước kháng sinh khi khả thi để tăng giá trị diễn giải, nhưng không được trì hoãn hồi sức hoặc xử trí sống còn. Ghi rõ bối cảnh cho labo."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào ORS thẩm thấu thấp là lựa chọn đầu tay?",
+    "back": "Khi mất nước nhẹ–vừa và người bệnh còn uống, dung nạp được. Tiếp tục theo dõi khả năng uống và xu hướng sinh hiệu, tưới máu, tri giác."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào phải chuyển từ ORS sang dịch tinh thể đẳng trương IV?",
+    "back": "Khi mất nước nặng, sốc, thay đổi tri giác, ORS thất bại hoặc liệt ruột; dùng Lactated Ringer hoặc Normal Saline và đánh giá lại."
+  },
+  {
+    "type": "basic",
+    "front": "Sau bù dịch, phải theo dõi gì và khi nào dừng nhánh ngoại trú?",
+    "back": "Theo dõi xu hướng sinh hiệu, tri giác, khả năng uống, lượng nước tiểu, số lần phân và khám bụng. Nếu tưới máu không cải thiện, triệu chứng tiến triển hoặc xuất hiện dấu ngoại khoa, chuyển Cấp cứu."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào không dùng thuốc giảm nhu động?",
+    "back": "Không dùng khi sốt hoặc tiêu chảy viêm/phân máu; tránh che diễn tiến viêm đại tràng hoặc giữ độc tố/tác nhân trong ruột. Ưu tiên bù dịch và đánh giá nguyên nhân."
+  },
+  {
+    "type": "basic",
+    "front": "Trước khi cân nhắc kháng sinh kinh nghiệm cho tiêu chảy cấp, phải hoàn tất những quyết định nào?",
+    "back": "Xác định red flags, kiểu hình, chủ thể, phơi nhiễm và khả năng STEC; lấy mẫu trước khi dùng nếu khả thi. Không kê kháng sinh theo phản xạ cho mọi ca."
+  },
+  {
+    "type": "basic",
+    "front": "Stewardship yêu cầu làm gì khi đã có kết quả vi sinh?",
+    "back": "Đối chiếu với lâm sàng rồi điều trị hướng đích, thu hẹp hoặc ngừng thuốc không còn được dữ liệu ủng hộ; không cộng thêm kháng sinh tự động."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nghi hoặc xác nhận STEC, hai quyết định an toàn trọng tâm là gì?",
+    "back": "Tránh kháng sinh và thuốc giảm nhu động; bù dịch, theo dõi sát hội chứng tán huyết–tăng ure máu (HUS) và hội chẩn/chuyển tuyến nếu diễn tiến nặng."
+  },
+  {
+    "type": "basic",
+    "front": "Chẩn đoán CDI đòi hỏi sự kết hợp nào?",
+    "back": "Hội chứng tiêu chảy phù hợp cộng với xét nghiệm phân dương tính với độc tố hoặc chủng sinh độc tố; không chẩn đoán hay điều trị chỉ từ một xét nghiệm dương tính tách khỏi lâm sàng."
+  },
+  {
+    "type": "basic",
+    "front": "Ai là đối tượng phù hợp để test CDI?",
+    "back": "Người có từ 3 lần phân không thành khuôn trong 24 giờ, mới khởi phát và không giải thích được, đặc biệt trong bối cảnh kháng sinh hoặc chăm sóc y tế."
+  },
+  {
+    "type": "basic",
+    "front": "Người bệnh vừa dùng nhuận tràng hoặc chỉ có phân khuôn: làm gì trước test CDI?",
+    "back": "Đánh giá xem nhuận tràng có giải thích triệu chứng không; không test thường quy nếu đã dùng trong 48 giờ trước. Không gửi phân khuôn; chỉ gửi phân lỏng/mềm không giữ hình dạng vật chứa."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nghi CDI, có chờ kết quả mới cách ly tiếp xúc không?",
+    "back": "Không. Bắt đầu cách ly tiếp xúc ngay theo quy trình cơ sở khi nghi ngờ, đồng thời chọn đúng người bệnh và mẫu để xét nghiệm."
+  },
+  {
+    "type": "basic",
+    "front": "GDH, toxin assay và NAAT/PCR trong xét nghiệm CDI trả lời khác nhau thế nào?",
+    "back": "GDH nhạy với sự hiện diện vi khuẩn nhưng không chứng minh độc tố gây bệnh; toxin assay tìm độc tố; NAAT/PCR tìm gene của chủng sinh độc tố nhưng có thể dương khi không có bệnh hoạt động."
+  },
+  {
+    "type": "basic",
+    "front": "Khi cơ sở không kiểm soát nghiêm việc nộp mẫu CDI, nên dùng thuật toán nào?",
+    "back": "Dùng thuật toán nhiều bước như GDH + toxin hoặc NAAT + toxin thay vì NAAT đơn độc. Nếu kết quả bất đồng, đối chiếu hội chứng và trao đổi Vi sinh/Truyền nhiễm."
+  },
+  {
+    "type": "basic",
+    "front": "Mức độ CDI được dùng để quyết định gì, và dấu tối cấp thay đổi hành động ra sao?",
+    "back": "Dùng lâm sàng cùng WBC và creatinine để quyết định nơi chăm sóc và mức theo dõi; nếu tụt huyết áp/sốc, liệt ruột hoặc phình đại tràng nhiễm độc, điều trị ngay và chuyển ICU/hội chẩn khẩn."
+  },
+  {
+    "type": "basic",
+    "front": "Trước khi điều trị CDI đợt đầu, phải xác nhận gì và thực hiện stewardship nào?",
+    "back": "Xác nhận CDI có triệu chứng, mức độ bệnh và khả năng dùng đường uống; fidaxomicin là lựa chọn ưu tiên, vancomycin là lựa chọn thay thế theo hướng dẫn. Rà và ngừng kháng sinh không còn chỉ định."
+  },
+  {
+    "type": "basic",
+    "front": "Khi triệu chứng CDI tái diễn, vì sao không tự động lặp phác đồ đợt đầu?",
+    "back": "Phải xác nhận hội chứng tái phát, không đọc kết quả phân tử tách khỏi lâm sàng; lựa chọn phụ thuộc số đợt và thuốc đã dùng, nên theo hướng dẫn hiện hành hoặc hội chẩn Tiêu hóa/Truyền nhiễm."
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chảy kéo dài/mạn phải được chia lại theo kiểu hình để mở các nhánh nào?",
+    "back": "Phân nước: xét nghiệm chọn lọc viêm ruột, Giardia, coeliac, acid mật; phân mỡ/kém hấp thu: đánh giá hữu cơ/chuyên khoa; phân viêm/máu: loại nhiễm trùng rồi ưu tiên nội soi/hình ảnh."
+  },
+  {
+    "type": "basic",
+    "front": "Calprotectin hoặc lactoferrin phân giúp quyết định gì và không chứng minh điều gì?",
+    "back": "Giúp sàng lọc tín hiệu viêm ruột và ưu tiên đánh giá tiếp. Kết quả tăng không tự chẩn đoán IBD hay phân biệt IBD với nhiễm trùng; kết quả thấp không cho phép bỏ qua red flags."
+  },
+  {
+    "type": "basic",
+    "front": "Bộ xét nghiệm chọn lọc cho tiêu chảy mạn phân nước gồm gì, và ESR/CRP có vai trò nào?",
+    "back": "Cân nhắc calprotectin/lactoferrin phân, Giardia, IgA tTG cùng tổng IgA, và xét nghiệm tiêu chảy acid mật nếu có. Không dùng ESR/CRP thường quy để thay chỉ dấu viêm phân trong sàng lọc IBD ở nhóm này."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào mới cân nhắc nhãn tiêu chảy chức năng hoặc IBS-D?",
+    "back": "Chỉ sau khi đã đánh giá dấu hiệu báo động và các nguyên nhân hữu cơ phù hợp. Xét nghiệm ban đầu âm tính không đồng nghĩa chắc chắn là chức năng."
+  },
+  {
+    "type": "basic",
+    "front": "Trước khi gọi tiêu chảy viêm kéo dài là IBD hoạt động, phải làm gì?",
+    "back": "Loại tác nhân ruột và CDI phù hợp với bệnh cảnh; dùng chỉ dấu viêm để triage, rồi kết hợp lâm sàng, nội soi, hình ảnh và mô bệnh học. Không có test máu hay phân đơn độc xác định IBD."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nghi UC hoặc Crohn nhưng chẩn đoán chưa chắc, bridge care an toàn là gì?",
+    "back": "Bù dịch, theo dõi red flags, xét nghiệm nhiễm trùng phù hợp, cách ly nếu nghi CDI và tránh thuốc cầm tiêu chảy khi viêm/sốt; chuyển Tiêu hóa, không khởi điều trị duy trì IBD chỉ từ calprotectin."
+  },
+  {
+    "type": "basic",
+    "front": "Plan A và Plan B khác nhau thế nào, và khi nào Plan B phải chuyển tuyến?",
+    "back": "Plan A hoàn tất xét nghiệm có chỉ định, thuật toán CDI, chỉ dấu viêm, nội soi/hình ảnh và điều trị hướng đích. Plan B vẫn đánh giá red flags, bù dịch/cách ly, ghi thời gian–kiểu hình–phơi nhiễm, gửi test tốt nhất trước kháng sinh khi khả thi và không suy diễn test không đặc hiệu; chuyển khi có red flags, chủ thể nguy cơ cao, CDI nặng/tối cấp, viêm đại tràng chảy máu, không đáp ứng hoặc không thể hoàn tất đánh giá cần thiết."
+  }
+]

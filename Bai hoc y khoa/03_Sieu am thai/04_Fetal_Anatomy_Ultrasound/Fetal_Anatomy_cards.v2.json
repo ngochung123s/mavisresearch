@@ -1,0 +1,53 @@
+[
+  {
+    "type": "basic",
+    "front": "3 thời điểm siêu âm hình thái theo ISUOG?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Quý 1 (11-14w)</b>: Early anatomy scan — sàng lọc aneuploidy, phát hiện dị tật nặng<br>• <b>Quý 2 (18-22w)</b>: <b>Fetal anatomy survey TIÊU CHUẨN</b> — tất cả cơ quan<br>• <b>Quý 3 (28-34w)</b>: Đánh giá tăng trưởng, phát hiện dị tật muộn<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Quý 2 là quan trọng nhất — 50-70% dị tật phát hiện được<br>• Quý 1 phát hiện thêm 30-50% dị tật nặng nếu làm systematic",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "3 thời điểm siêu âm hình thái: Quý 1 ({{c1::11-14w}}), Quý 2 TIÊU CHUẨN ({{c1::18-22w}}), Quý 3 ({{c1::28-34w}}). Quý 2 phát hiện {{c1::50-70%}} dị tật.",
+    "extra": "ISUOG/ACOG khuyến cáo systematic scan, không phải nhìn qua."
+  },
+  {
+    "type": "basic",
+    "front": "3 mặt cắt não (CNS) cơ bản trong siêu âm quý 2?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. <b>Transventricular</b>: Đo BPD, HC. CSP, não thất bên (atrium ≤10mm), choroid plexus<br>2. <b>Transthalamic</b>: Thalami, đo OFD, gyrus cingulate<br>3. <b>Transcerebellar</b>: Tiểu não (TCD), cisterna magna (2-10mm), nuchal fold (<6mm)<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Ventriculomegaly = atrium >10mm: nhẹ (10-12), vừa (12.1-15), nặng (>15)<br>• Banana sign + lemon sign = spina bifida (Chiari II)",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "5 mặt cắt tim thai tối thiểu theo ISUOG 2023?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. <b>Situs/Bụng trên</b>: dạ dày trái, mỏm trái, ĐMC trái cột sống, IVC phải<br>2. <b>4 buồng (4CH)</b>: crux cordis, axis 45°, CTR <0.33<br>3. <b>LVOT</b>: ĐMC từ thất trái, vách liên thất liên tục<br>4. <b>RVOT</b>: ĐMP từ thất phải, BẮT CHÉO ĐMC<br>5. <b>3VT</b>: SVC-ĐMC-ĐMP hàng ngang, ĐMP>ĐMC>SVC<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Chỉ 4CH phát hiện 50% CHD. Thêm outflow tracts → 80%. Thêm 3VT → 90%",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "5 mặt cắt tim thai ISUOG 2023: {{c1::Situs}}, {{c1::4CH}} (axis 45°, CTR <0.33), {{c1::LVOT}} (ĐMC từ LV), {{c1::RVOT}} (BẮT CHÉO!), {{c1::3VT}} (3 mạch: SVC-ĐMC-ĐMP).",
+    "extra": "TGA = KHÔNG bắt chéo (song song). AVSD = mất crux cordis (T21 50%)."
+  },
+  {
+    "type": "basic",
+    "front": "Phân biệt Omphalocele vs Gastroschisis?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Omphalocele</b>: Chân rốn (midline), <b>CÓ màng bọc</b> (amnion+peritoneum), dây rốn cắm vào túi, chứa ruột ± gan, liên quan T18/T13<br>• <b>Gastroschisis</b>: Cạnh rốn (thường PHẢI), <b>KHÔNG màng bọc</b>, ruột tự do trong ối, dây rốn cạnh khối, thường ĐƠN ĐỘC<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Omphalocele cần chọc ối karyotype (T18, T13). Gastroschisis ít cần<br>• Đừng nhầm thoát vị rốn sinh lý 8-11 tuần với omphalocele!",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Omphalocele: chân rốn, {{c1::CÓ}} màng bọc, liên quan {{c1::T18/T13}}. Gastroschisis: cạnh rốn, {{c1::KHÔNG}} màng, thường {{c1::đơn độc}}.",
+    "extra": "Đừng chẩn đoán omphalocele ở tuần 10 (thoát vị sinh lý)."
+  },
+  {
+    "type": "basic",
+    "front": "Phân loại giãn bể thận thai nhi theo UTD?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>UTD P1 (low risk)</b>: APD <7mm T2, <10mm T3, không giãn đài, nhu mô bình thường<br>• <b>UTD P2 (intermediate)</b>: APD 7-10mm T2, 10-15mm T3, có giãn đài, nhu mô bình thường<br>• <b>UTD P3 (high risk)</b>: APD >10mm T2, >15mm T3, giãn đài + mỏng nhu mô<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• UTD thay thế phân loại SFU cũ<br>• Đo APD trong mặt cắt NGANG thận, đừng đo chéo",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Absent stomach + đa ối → chẩn đoán? Double bubble + đa ối → chẩn đoán?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Absent stomach + đa ối</b> → <b>Esophageal atresia (± TEF)</b><br>• <b>Double bubble + đa ối</b> → <b>Duodenal atresia</b> (T21 30%)<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Absent stomach: lặp siêu âm sau 30-60 phút để xác nhận<br>• Double bubble: dạ dày + tá tràng giãn, thường phát hiện từ 24w",
+    "extra": ""
+  }
+]

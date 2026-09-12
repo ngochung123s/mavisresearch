@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-07-29T15:59:33.032377Z",
+  "providers": [
+    "europe_pmc_metadata",
+    "europe_pmc_oa_full_text",
+    "crossref_retraction_watch",
+    "openalex",
+    "official_source"
+  ],
+  "records": {
+    "pmid:35363499": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "35363499",
+        "pmcid": null,
+        "doi": "10.1161/cir.0000000000001063",
+        "openalex": "https://openalex.org/W4220946720",
+        "official_id": "AHA-ACC-HFSA-HF-2022"
+      },
+      "title": "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines.",
+      "abstract": "<h4>Aim</h4>The \"2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure\" replaces the \"2013 ACCF/AHA Guideline for the Management of Heart Failure\" and the \"2017 ACC/AHA/HFSA Focused Update of the 2013 ACCF/AHA Guideline for the Management of Heart Failure.\" The 2022 guideline is intended to provide patient-centric recommendations for clinicians to prevent, diagnose, and manage patients with heart failure.<h4>Methods</h4>A comprehensive literature search was conducted from May 2020 to December 2020, encompassing studies, reviews, and other evidence conducted on human subjects that were published in English from MEDLINE (PubMed), EMBASE, the Cochrane Collaboration, the Agency for Healthcare Research and Quality, and other relevant databases. Additional relevant clinical trials and research studies, published through September 2021, were also considered. This guideline was harmonized with other American Heart Association/American College of Cardiology guidelines published through December 2021. Structure: Heart failure remains a leading cause of morbidity and mortality globally. The 2022 heart failure guideline provides recommendations based on contemporary evidence for the treatment of these patients. The recommendations present an evidence-based approach to managing patients with heart failure, with the intent to improve quality of care and align with patients' interests. Many recommendations from the earlier heart failure guidelines have been updated with new evidence, and new recommendations have been created when supported by published data. Value statements are provided for certain treatments with high-quality published economic analyses.",
+      "journal": "Circulation",
+      "year": "2022",
+      "publication_types": [
+        "Practice Guideline",
+        "Review",
+        "Journal Article",
+        "Clinical Practice Guideline"
+      ],
+      "topics": [
+        "Guideline",
+        "MEDLINE",
+        "Heart failure",
+        "Clinical Practice",
+        "Clinical trial",
+        "Health care",
+        "Systematic review",
+        "Evidence-based medicine"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "raw_sha256": [
+        "02a871392db3669cae6d6974324eaa4f73e97ea538d1bfd1bc81c985f61b5c2d",
+        "09115611eb935d3bc044644238ec27c7bb6d485ec2118e491408c3504f1cb522",
+        "b7d34b46b808aae003ef83f355e42d57e87bd71f4d6db929771ed61b827ae369",
+        "76c96f35379a36bd9e5d5fe2dc4e90676e444f89eb3de8820a5fde74d8f02be4"
+      ],
+      "metadata_checked_at": "2026-07-29T15:59:33.032377Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T15:59:33.032377Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "Clinical Practice Guideline",
+        "canonical_url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063",
+        "version": "2022",
+        "translation_of": null,
+        "endorsement_status": "original",
+        "superseded_by": null,
+        "current_version": true
+      }
+    }
+  },
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T15:59:33.032377Z",
+      "sha256": "02a871392db3669cae6d6974324eaa4f73e97ea538d1bfd1bc81c985f61b5c2d",
+      "path": "raw/europe_pmc_metadata/02a871392db3669cae6d6974324eaa4f73e97ea538d1bfd1bc81c985f61b5c2d.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T15:59:33.032377Z",
+      "sha256": "09115611eb935d3bc044644238ec27c7bb6d485ec2118e491408c3504f1cb522",
+      "path": "raw/openalex/09115611eb935d3bc044644238ec27c7bb6d485ec2118e491408c3504f1cb522.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T15:59:33.032377Z",
+      "sha256": "b7d34b46b808aae003ef83f355e42d57e87bd71f4d6db929771ed61b827ae369",
+      "path": "raw/crossref_retraction_watch/b7d34b46b808aae003ef83f355e42d57e87bd71f4d6db929771ed61b827ae369.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-29T15:59:33.032377Z",
+      "sha256": "76c96f35379a36bd9e5d5fe2dc4e90676e444f89eb3de8820a5fde74d8f02be4",
+      "path": "raw/official_source/76c96f35379a36bd9e5d5fe2dc4e90676e444f89eb3de8820a5fde74d8f02be4.txt",
+      "media_type": "text/plain",
+      "license": "all-rights-reserved"
+    }
+  ],
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P1_Nen_tang\\cache",
+  "content_hash": "bc5cdc2bbcc46ca0f19c61955a13268af4c279491b24f8349e111df070bfb414"
+}

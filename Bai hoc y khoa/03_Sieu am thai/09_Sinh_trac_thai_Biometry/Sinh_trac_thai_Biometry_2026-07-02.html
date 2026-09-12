@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bài học y khoa</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+  /* Chart.js canvas: giới hạn max-width để không bị kéo dãn khi render
+     trên màn hình rộng. Kết hợp với height attr trên <canvas> để giữ tỉ lệ.
+     Lý do: Chart.js mặc định maintainAspectRatio=false + responsive=true
+     sẽ fill 100% container width -> bar/doughnut bị oval/méo khi container
+     rộng hơn canvas internal pixel ratio. */
+  canvas { display: block; max-width: 800px; margin: 0 auto; height: auto !important; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+<header class="text-center py-12 mb-12 glass rounded-3xl shadow-lg">
+  <div class="inline-block px-4 py-1 mb-4 rounded-full bg-blue-200 text-blue-800 text-sm font-semibold">
+    Chuyên khoa: Ngày:
+  </div>
+  <h1 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800"></h1>
+  <p class="text-stone-600 text-lg">Ngày  | Cho bác sĩ sản phụ khoa / học viên sau đại học</p>
+  <p class="text-sm text-stone-500 mt-2">Bác sĩ: <strong>Ngọc 🍅 🐈‍⬛</strong> | AI: <strong>MiniMax Mavis</strong></p>
+</header><main class="max-w-6xl mx-auto space-y-8">
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">0. TỔNG QUAN — VÌ SAO SINH TRẮC LÀ KỸ NĂNG NỀN TẢNG?</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">0.1. Tầm quan trọng</h3>
+<p class="text-stone-700 mb-3">Sinh trắc thai (fetal biometry) là <strong>phép đo cốt lõi</strong> của mọi cuộc siêu âm sản khoa. Mọi quyết định lâm sàng — theo dõi thường quy, can thiệp, hay chấm dứt thai kỳ — đều dựa trên kết quả sinh trắc.</p>
+<p class="text-stone-700 mb-3"><strong>"Bạn không thể quản lý cái bạn không đo được"</strong> — câu nói này đặc biệt đúng trong sản khoa:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Phát hiện sớm thai chậm tăng trưởng (Fetal Growth Restriction — FGR) giúp can thiệp kịp thời</li>
+<li>Phát hiện thai to (Large for Gestational Age — LGA) giúp dự phòng shoulder dystocia (kẹt vai)</li>
+<li>Đánh giá tốc độ tăng trưởng (growth velocity) giúp phân biệt FGR bệnh lý vs SGA constitution</li></ul>
+<p class="text-stone-700 mb-3"><strong>Mục tiêu bài:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Nắm vững kỹ thuật đo đúng 4 thông số cơ bản: BPD, HC, AC, FL</li>
+<li>Hiểu các công thức ước tính cân nặng (Estimated Fetal Weight — EFW)</li>
+<li>Phân biệt các biểu đồ tăng trưởng (growth charts) phổ biến</li>
+<li>Ứng dụng lâm sàng: SGA vs FGR vs LGA</li>
+<li>Nhận diện và tránh sai lầm kỹ thuật phổ biến</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">0.2. Tỷ lệ phát hiện bất thường tăng trưởng</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Nhóm</th><th class="p-2 border whitespace-nowrap">Tỷ lệ thai kỳ</th><th class="p-2 border whitespace-nowrap">Hậu quả nếu không phát hiện</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>FGR (fetal growth restriction)</strong></td><td class="p-2 border">5-10%</td><td class="p-2 border">Thai lưu, tử vong sơ sinh, biến chứng thần kinh</td></tr><tr class=""><td class="p-2 border"><strong>SGA constitution</strong> (nhỏ do di truyền)</td><td class="p-2 border">5-8%</td><td class="p-2 border">Theo dõi không cần thiết nếu chẩn đoán nhầm thành FGR</td></tr><tr class=""><td class="p-2 border"><strong>LGA (large for gestational age)</strong></td><td class="p-2 border">10-15%</td><td class="p-2 border">Shoulder dystocia, mổ ngoài ý muốn, chấn thương sản khoa</td></tr><tr class=""><td class="p-2 border"><strong>Macrosomia</strong> (EFW ≥4000g)</td><td class="p-2 border">5-10%</td><td class="p-2 border">Vai trò dự đoán hạn chế, nhưng cảnh báo lâm sàng</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">1. CƠ CHẾ TĂNG TRƯỞNG THAI</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.1. Ba giai đoạn tăng trưởng</h3>
+<p class="text-stone-700 mb-3">Tăng trưởng thai nhi diễn ra theo 3 giai đoạn liên tiếp, mỗi giai đoạn có đặc điểm tế bào khác nhau:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Giai đoạn</th><th class="p-2 border whitespace-nowrap">Thời gian</th><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Thông số siêu âm nhạy nhất</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Giai đoạn 1: Tăng sinh (hyperplasia)</strong></td><td class="p-2 border">0-16 tuần</td><td class="p-2 border">Tăng số lượng tế bào. Tốc độ chậm</td><td class="p-2 border">CRL (crown-rump length)</td></tr><tr class=""><td class="p-2 border"><strong>Giai đoạn 2: Tăng sinh + Phì đại</strong></td><td class="p-2 border">16-32 tuần</td><td class="p-2 border">Tăng số lượng + tăng kích thước tế bào</td><td class="p-2 border">BPD, HC tăng nhanh</td></tr><tr class=""><td class="p-2 border"><strong>Giai đoạn 3: Phì đại (hypertrophy)</strong></td><td class="p-2 border">32-40 tuần</td><td class="p-2 border">Chủ yếu tăng kích thước tế bào, tích lũy glycogen và mỡ</td><td class="p-2 border"><strong>AC tăng nhanh nhất</strong>, EFW tăng nhanh</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.2. Yếu tố điều hòa tăng trưởng</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Insulin và IGF-1 (Insulin-like Growth Factor 1)</strong>: hormone tăng trưởng chính ở giai đoạn 3. Thai GDM có hyperinsulinemia → tăng AC và EFW (macrosomia)</li>
+<li><strong>Placental perfusion</strong>: giảm tưới máu nhau → FGR (đặc biệt early-onset <32w)</li>
+<li><strong>Dinh dưỡng mẹ</strong>: thiếu protein/calorie → FGR; thừa cân/obesity → LGA</li>
+<li><strong>Di truyền</strong>: SGA constitution (cha mẹ nhỏ → thai nhỏ nhưng Doppler bình thường)</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.3. Cơ chế khác biệt HC vs AC trong FGR</h3>
+<p class="text-stone-700 mb-3"><strong>"Head sparing" (brain sparing)</strong>: Khi FGR do giảm tưới máu nhau, thai ưu tiên tưới máu não (qua ductus venosus) → HC được bảo toàn tương đối, trong khi AC (phản ánh gan + mỡ dưới da) giảm ĐẦU TIÊN.</p>
+<p class="text-stone-700 mb-3">→ <strong>AC là thông số nhạy nhất cho FGR sớm</strong>, HC chỉ giảm khi FGR nặng/muộn.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">2. KỸ THUẬT ĐO 4 THÔNG SỐ CƠ BẢN</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.1. BPD (Biparietal Diameter) & OFD (Occipitofrontal Diameter) → HC</h3>
+<p class="text-stone-700 mb-3"><strong>Mặt cắt chuẩn: Transthalamic (ngang đồi thị)</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Mốc giải phẫu</strong>: Thalamus (đồi thị) hai bên, Cavum septum pellucidum (CSP), Falx cerebri</li>
+<li><strong>Caliper</strong>: outer-to-inner (mép ngoài hộp sọ bên gần → mép trong hộp sọ bên xa)</li>
+<li><strong>Đo OFD</strong>: cùng mặt cắt, từ mép ngoài trán → mép ngoài chẩm</li></ul>
+<p class="text-stone-700 mb-3"><strong>Tính HC từ BPD và OFD:</strong></p>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>HC = (BPD + OFD) × π/2</code></pre>
+<p class="text-stone-700 mb-3"><strong>Sai lầm phổ biến:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">#</th><th class="p-2 border whitespace-nowrap">Sai lầm</th><th class="p-2 border whitespace-nowrap">Hậu quả</th><th class="p-2 border whitespace-nowrap">Cách tránh</th></tr></thead><tbody><tr class=""><td class="p-2 border">1</td><td class="p-2 border">Đo inner-to-inner</td><td class="p-2 border">BPD nhỏ hơn thật → EFW underestimate</td><td class="p-2 border">Luôn dùng outer-to-inner</td></tr><tr class=""><td class="p-2 border">2</td><td class="p-2 border">Mặt cắt nghiêng (không đối xứng)</td><td class="p-2 border">BPD/HC sai lệch >5%</td><td class="p-2 border">Kiểm tra: Falx thẳng đứng, Thalamus đối xứng</td></tr><tr class=""><td class="p-2 border">3</td><td class="p-2 border">Đo ở tư thế mặt (sagittal)</td><td class="p-2 border">Đo sai hoàn toàn</td><td class="p-2 border">Phải là axial (ngang)</td></tr><tr class=""><td class="p-2 border">4</td><td class="p-2 border">Đầu thai bị chèn (dolichocephaly)</td><td class="p-2 border">BPD giảm, OFD tăng → HC vẫn đúng nếu tính đúng</td><td class="p-2 border">Dùng HC thay BPD khi đầu méo</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Lưu ý quan trọng:</strong> Khi đầu thai bị chèn ép (breech, song thai, oligohydramnios), BPD KHÔNG đáng tin → dùng <strong>HC</strong> thay thế.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.2. AC (Abdominal Circumference)</h3>
+<p class="text-stone-700 mb-3"><strong>Mặt cắt chuẩn: ngang dạ dày + tĩnh mạch cửa + xoang cửa (portal sinus)</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Mốc giải phẫu</strong>: Dạ dày (stomach bubble) thấy rõ, tĩnh mạch cửa chia nhánh trái-phải tại mức xoang cửa (portal sinus), cột sống (vertebral body) thấy cắt ngang</li>
+<li><strong>Caliper</strong>: đo ellipse theo mép ngoài da (outer-to-outer)</li>
+<li><strong>Kiểm tra</strong>: hình dạng bụng phải TRÒN (circular), không méo</li></ul>
+<p class="text-stone-700 mb-3"><strong>Sai lầm phổ biến:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">#</th><th class="p-2 border whitespace-nowrap">Sai lầm</th><th class="p-2 border whitespace-nowrap">Hậu quả</th><th class="p-2 border whitespace-nowrap">Cách tránh</th></tr></thead><tbody><tr class=""><td class="p-2 border">1</td><td class="p-2 border">Đo ở mức thận (renal) thay vì portal sinus</td><td class="p-2 border">AC lớn hơn thật → EFW overestimate</td><td class="p-2 border">Tìm portal sinus + stomach bubble</td></tr><tr class=""><td class="p-2 border">2</td><td class="p-2 border">Không thấy stomach bubble</td><td class="p-2 border">Có thể đo sai mức</td><td class="p-2 border">Di chuyển probe lên xuống tìm</td></tr><tr class=""><td class="p-2 border">3</td><td class="p-2 border">Bụng méo (do chèn ép, tư thế)</td><td class="p-2 border">AC không chính xác</td><td class="p-2 border">Dùng 2 đường kính (D1 × D2) thay vì ellipse nếu méo rõ</td></tr><tr class=""><td class="p-2 border">4</td><td class="p-2 border">Bao gồm cả dây rốn vào AC</td><td class="p-2 border">AC lớn hơn thật → EFW overestimate</td><td class="p-2 border">Kiểm tra vị trí chèn dây rốn</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>AC là thông số QUAN TRỌNG NHẤT</strong> trong sinh trắc thai vì:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Nhạy nhất cho FGR (giảm đầu tiên do "head sparing")</li>
+<li>Nhạy nhất cho LGA/macrosomia (tăng do tích mỡ + gan to)</li>
+<li>Phản ánh dinh dưỡng thai trực tiếp (gan là cơ quan chuyển hóa chính)</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.3. FL (Femur Length)</h3>
+<p class="text-stone-700 mb-3"><strong>Mặt cắt chuẩn: trục dài xương đùi (femur diaphysis)</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Mốc giải phẫu</strong>: toàn bộ trục xương đùi, từ đầu gần (greater trochanter region) đến đầu xa (condyle region)</li>
+<li><strong>Caliper</strong>: đo từ đầu gần đến đầu xa của phần xương (ossified diaphysis), KHÔNG bao gồm đầu sụn (cartilaginous epiphysis)</li>
+<li><strong>Yêu cầu</strong>: trục xương phải thẳng, vuông góc với chùm tia siêu âm (perpendicular to beam), không bị nghiêng</li></ul>
+<p class="text-stone-700 mb-3"><strong>Sai lầm phổ biến:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">#</th><th class="p-2 border whitespace-nowrap">Sai lầm</th><th class="p-2 border whitespace-nowrap">Hậu quả</th><th class="p-2 border whitespace-nowrap">Cách tránh</th></tr></thead><tbody><tr class=""><td class="p-2 border">1</td><td class="p-2 border">Đo xương mác (tibia) thay xương đùi</td><td class="p-2 border">FL ngắn hơn thật → EFW underestimate</td><td class="p-2 border">Xác định đúng xương đùi (dài nhất, gần bladder)</td></tr><tr class=""><td class="p-2 border">2</td><td class="p-2 border">Bao gồm đầu sụn (epiphysis)</td><td class="p-2 border">FL dài hơn thật</td><td class="p-2 border">Chỉ đo phần xương đã cốt hóa</td></tr><tr class=""><td class="p-2 border">3</td><td class="p-2 border">Xương nghiêng (không vuông góc beam)</td><td class="p-2 border">FL ngắn hơn thật</td><td class="p-2 border">Xoay probe cho xương thẳng nhất</td></tr><tr class=""><td class="p-2 border">4</td><td class="p-2 border">Đo xương đùi xa (xa probe)</td><td class="p-2 border">Khó thấy, dễ sai</td><td class="p-2 border">Đo xương đùi gần probe trước</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.4. Bảng tóm tắt kỹ thuật</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thông số</th><th class="p-2 border whitespace-nowrap">Mặt cắt</th><th class="p-2 border whitespace-nowrap">Caliper</th><th class="p-2 border whitespace-nowrap">Sai số chấp nhận</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>BPD</strong></td><td class="p-2 border">Axial transthalamic</td><td class="p-2 border">Outer-to-inner</td><td class="p-2 border">±2 mm</td></tr><tr class=""><td class="p-2 border"><strong>HC</strong></td><td class="p-2 border">Axial transthalamic</td><td class="p-2 border">Tính từ BPD+OFD hoặc đo ellipse</td><td class="p-2 border">±5 mm</td></tr><tr class=""><td class="p-2 border"><strong>AC</strong></td><td class="p-2 border">Axial ngang portal sinus</td><td class="p-2 border">Outer-to-outer ellipse</td><td class="p-2 border">±5 mm</td></tr><tr class=""><td class="p-2 border"><strong>FL</strong></td><td class="p-2 border">Trục dài xương đùi</td><td class="p-2 border">Đầu gần → đầu xa (bone only)</td><td class="p-2 border">±2 mm</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">3. ƯỚC TÍNH CÂN NẶNG (EFW — ESTIMATED FETAL WEIGHT)</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.1. Các công thức Hadlock</h3>
+<p class="text-stone-700 mb-3">Theo Hadlock et al. 1985 (PMID: 3881966, Am J Obstet Gynecol), công thức ước tính cân nặng thai sử dụng head, body, và femur measurements cho độ chính xác cao nhất (1 SD = 7.5%). Các công thức Hadlock là <strong>tiêu chuẩn</strong> trong siêu âm sản khoa toàn cầu.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Công thức</th><th class="p-2 border whitespace-nowrap">Biến số</th><th class="p-2 border whitespace-nowrap">Ghi chú</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Hadlock I</strong></td><td class="p-2 border">BPD, HC, AC, FL</td><td class="p-2 border">Phổ biến nhất, dùng khi đo đủ 4 thông số</td></tr><tr class=""><td class="p-2 border"><strong>Hadlock II</strong></td><td class="p-2 border">HC, AC, FL</td><td class="p-2 border">Khi BPD không đáng tin (đầu méo)</td></tr><tr class=""><td class="p-2 border"><strong>Hadlock III</strong></td><td class="p-2 border">BPD, AC, FL</td><td class="p-2 border">Khi HC không đo được</td></tr><tr class=""><td class="p-2 border"><strong>Hadlock IV</strong></td><td class="p-2 border">BPD, HC, AC</td><td class="p-2 border">Khi FL không đo được (chi bất thường)</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Sai số hệ thống (systematic error):</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>EFW <strong>overestimate</strong> thai nhỏ (small fetuses) — do regression to the mean</li>
+<li>EFW <strong>underestimate</strong> thai to (large fetuses)</li>
+<li>Sai số tổng thể: <strong>±10-15%</strong> ở term, có thể lên <strong>±20%</strong> ở preterm</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.2. Các công thức khác (lịch sử)</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Công thức</th><th class="p-2 border whitespace-nowrap">Tác giả</th><th class="p-2 border whitespace-nowrap">Năm</th><th class="p-2 border whitespace-nowrap">Biến số</th><th class="p-2 border whitespace-nowrap">Ghi chú</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Warsof</strong></td><td class="p-2 border">Warsof et al.</td><td class="p-2 border">1977</td><td class="p-2 border">BPD, AC</td><td class="p-2 border">Cũ, sai số lớn hơn Hadlock</td></tr><tr class=""><td class="p-2 border"><strong>Shepard</strong></td><td class="p-2 border">Shepard et al.</td><td class="p-2 border">1982</td><td class="p-2 border">BPD, AC</td><td class="p-2 border">Tương đối chính xác cho thai nhỏ</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3">→ <strong>Hadlock (HC, AC, FL)</strong> là công thức được ISUOG 2019 khuyến cáo dùng thường quy.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.3. EFW từ AC đơn lẻ — KHÔNG khuyến cáo</h3>
+<p class="text-stone-700 mb-3">Dùng AC đơn lẻ để ước tính cân nặng:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Sai số lớn hơn đáng kể so với công thức đa thông số</li>
+<li>Chỉ dùng khi KHÔNG thể đo các thông số khác</li>
+<li>Có thể dùng AC >35 cm ở term như screening macrosomia (nhưng không thay thế EFW)</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">4. BIỂU ĐỒ TĂNG TRƯỞNG (GROWTH CHARTS)</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.1. Prescriptive (Standard) vs Descriptive (Reference)</h3>
+<p class="text-stone-700 mb-3"><strong>Phân biệt then chốt:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Loại</th><th class="p-2 border whitespace-nowrap">Khái niệm</th><th class="p-2 border whitespace-nowrap">Ví dụ</th><th class="p-2 border whitespace-nowrap">Ưu điểm</th><th class="p-2 border whitespace-nowrap">Nhược điểm</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Prescriptive (Standard)</strong></td><td class="p-2 border">Mô tả thai tăng trưởng TỐI ƯU trong điều kiện lý tưởng</td><td class="p-2 border">INTERGROWTH-21st, WHO</td><td class="p-2 border">Phát hiện sớm bất thường</td><td class="p-2 border">Có thể over-diagnose SGA ở dân số nhỏ</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Descriptive (Reference)</strong></td><td class="p-2 border">Mô tả thai tăng trưởng TRUNG BÌNH trong dân số chung</td><td class="p-2 border">Hadlock 1991</td><td class="p-2 border">Phản ánh thực tế</td><td class="p-2 border">Bỏ sót bất thường (vì "trung bình" bao gồm cả bệnh lý)</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.2. Bảng so sánh các biểu đồ phổ biến</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Biểu đồ</th><th class="p-2 border whitespace-nowrap">Tác giả</th><th class="p-2 border whitespace-nowrap">Năm</th><th class="p-2 border whitespace-nowrap">Loại</th><th class="p-2 border whitespace-nowrap">Dân số</th><th class="p-2 border whitespace-nowrap">Ghi chú</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Hadlock</strong></td><td class="p-2 border">Hadlock et al.</td><td class="p-2 border">1991</td><td class="p-2 border">Reference</td><td class="p-2 border">Mỹ (n=392)</td><td class="p-2 border">Phổ biến nhất, cài sẵn trong máy siêu âm</td></tr><tr class=""><td class="p-2 border"><strong>INTERGROWTH-21st</strong></td><td class="p-2 border">Papageorghiou et al.</td><td class="p-2 border">2014</td><td class="p-2 border">Standard</td><td class="p-2 border">8 quốc gia, prospective</td><td class="p-2 border">Chuẩn quốc tế, nhưng có thể không phù hợp dân số châu Á nhỏ</td></tr><tr class=""><td class="p-2 border"><strong>WHO Fetal Growth</strong></td><td class="p-2 border">Kiserud et al.</td><td class="p-2 border">2017</td><td class="p-2 border">Standard</td><td class="p-2 border">10 quốc gia</td><td class="p-2 border">Tương tự IG-21st, WHO endorsement</td></tr><tr class=""><td class="p-2 border"><strong>FMF Customized</strong></td><td class="p-2 border">Nicolaides et al.</td><td class="p-2 border">2018</td><td class="p-2 border">Customized</td><td class="p-2 border">Điều chỉnh chủng tộc + cân nặng mẹ</td><td class="p-2 border">Giảm over-diagnosis SGA constitution</td></tr><tr class=""><td class="p-2 border"><strong>GROW</strong></td><td class="p-2 border">Gardosi</td><td class="p-2 border">1992</td><td class="p-2 border">Customized</td><td class="p-2 border">Điều chỉnh theo mẹ</td><td class="p-2 border">Phổ biến ở UK, NICE khuyến cáo</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.3. Chọn biểu đồ nào?</h3>
+<p class="text-stone-700 mb-3"><strong>Khuyến cáo ISUOG 2019 (PMID 31169958):</strong> Không có biểu đồ "tốt nhất" tuyệt đối. Lựa chọn phụ thuộc vào:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Dân số địa phương</li>
+<li>Mục tiêu sàng lọc (phát hiện FGR vs tránh over-referral)</li>
+<li>Nguồn lực theo dõi</li></ul>
+<p class="text-stone-700 mb-3"><strong>Tại Việt Nam:</strong> Đa số trung tâm dùng <strong>Hadlock</strong> (cài sẵn trong máy siêu âm). INTERGROWTH-21st ít dùng hơn do chưa quen thuộc. FMF Customized cần app/web tính toán.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.4. Nghiên cứu so sánh biểu đồ</h3>
+<p class="text-stone-700 mb-3">Theo Verger C et al. 2020 (PMID: 31364195, Ultrasound Obstet Gynecol), so sánh 5 biểu đồ tăng trưởng trong dự đoán LGA ở dân số béo phì đa chủng tộc:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Hadlock và GROW: độ nhạy ~66%, độ đặc hiệu ~83% cho LGA</li>
+<li>INTERGROWTH-21st, WHO, FMF: độ nhạy cao hơn (~85%) nhưng độ đặc hiệu thấp hơn (66-72%)</li>
+<li>Tất cả biểu đồ đều có giá trị dự đoán LGA đi kèm bệnh lý sơ sinh</li></ul>
+<p class="text-stone-700 mb-3">→ <strong>Hadlock có độ đặc hiệu cao hơn</strong> (ít false positive), nhưng <strong>IG-21st/WHO có độ nhạy cao hơn</strong> (ít bỏ sót). Lựa chọn phụ thuộc ưu tiên lâm sàng.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">5. SGA vs FGR — PHÂN BIỆT QUAN TRỌNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.1. Định nghĩa</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thuật ngữ</th><th class="p-2 border whitespace-nowrap">Định nghĩa</th><th class="p-2 border whitespace-nowrap">Bản chất</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>SGA (Small for Gestational Age)</strong></td><td class="p-2 border">EFW hoặc BW < 10th percentile</td><td class="p-2 border">Mô tả KÍCH THƯỚC — không nhất thiết bệnh lý</td></tr><tr class=""><td class="p-2 border"><strong>FGR (Fetal Growth Restriction)</strong></td><td class="p-2 border">Thai không đạt tiềm năng tăng trưởng</td><td class="p-2 border">CHẨN ĐOÁN BỆNH LÝ — cần can thiệp</td></tr><tr class=""><td class="p-2 border"><strong>Constitutional SGA</strong></td><td class="p-2 border">SGA do di truyền (cha mẹ nhỏ)</td><td class="p-2 border">KHÔNG bệnh lý — theo dõi thường quy</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.2. Tiêu chuẩn Delphi (Gordijn 2016) cho FGR</h3>
+<p class="text-stone-700 mb-3">Theo ISUOG 2020 (PMID 32738107), tiêu chuẩn chẩn đoán FGR:</p>
+<p class="text-stone-700 mb-3"><strong>Early-onset FGR (<32 tuần):</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>AC hoặc EFW < 3rd percentile, HOẶC</li>
+<li>AC hoặc EFW < 10th percentile + <strong>bất kỳ</strong> dấu hiệu Doppler bất thường:</li></ul>
+<p class="text-stone-700 mb-3">  - Umbilical artery PI > 95th percentile</p>
+<p class="text-stone-700 mb-3">  - Uterine artery PI > 95th percentile</p>
+<p class="text-stone-700 mb-3">  - Cerebroplacental ratio (CPR) < 5th percentile</p>
+<p class="text-stone-700 mb-3"><strong>Late-onset FGR (≥32 tuần):</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>AC hoặc EFW < 3rd percentile, HOẶC</li>
+<li>AC hoặc EFW < 10th percentile + <strong>bất kỳ</strong> 2 trong các dấu hiệu:</li></ul>
+<p class="text-stone-700 mb-3">  - Umbilical artery PI > 95th percentile</p>
+<p class="text-stone-700 mb-3">  - CPR < 5th percentile</p>
+<p class="text-stone-700 mb-3">  - ACGV (abdominal circumference growth velocity) < 10th percentile</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.3. Phân biệt Constitutional SGA vs FGR</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Constitutional SGA</th><th class="p-2 border whitespace-nowrap">FGR</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>EFW percentile</strong></td><td class="p-2 border"><10th nhưng ổn định</td><td class="p-2 border"><10th và giảm dần</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Doppler UmbA</strong></td><td class="p-2 border">Bình thường (PI <95th)</td><td class="p-2 border">Có thể bất thường (PI >95th)</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Doppler MCA</strong></td><td class="p-2 border">Bình thường</td><td class="p-2 border">Brain sparing (PI giảm)</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>CPR</strong></td><td class="p-2 border">Bình thường</td><td class="p-2 border">Giảm (<5th)</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Nước ối</strong></td><td class="p-2 border">Bình thường</td><td class="p-2 border">Có thể giảm (oligohydramnios)</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>ACGV</strong></td><td class="p-2 border">Bình thường (không giảm)</td><td class="p-2 border">Giảm (<10th)</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Cân nặng/chiều cao cha mẹ</strong></td><td class="p-2 border">Nhỏ</td><td class="p-2 border">Bình thường</td></tr><tr class=""><td class="p-2 border"><strong>Quản lý</strong></td><td class="p-2 border">Theo dõi thường quy, term delivery</td><td class="p-2 border">Can thiệp tùy giai đoạn</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Quy tắc vàng:</strong> Constitutional SGA có Doppler BÌNH THƯỜNG + growth velocity BÌNH THƯỜNG. Nếu Doppler bất thường → FGR cho đến khi chứng minh ngược lại.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">6. LGA & MACROSOMIA</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.1. Định nghĩa</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thuật ngữ</th><th class="p-2 border whitespace-nowrap">Định nghĩa</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>LGA (Large for Gestational Age)</strong></td><td class="p-2 border">EFW > 90th percentile</td></tr><tr class=""><td class="p-2 border"><strong>Macrosomia</strong></td><td class="p-2 border">EFW ≥ 4000g (bất kể tuổi thai), hoặc ≥ 4500g ở GDM</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.2. Vai trò của AC</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>AC > 95th percentile</strong> = chỉ số đơn lẻ tốt nhất dự đoán LGA</li>
+<li><strong>AC > 35 cm ở term</strong> → cảnh báo macrosomia (cần đánh giá thêm)</li>
+<li>AC phản ánh gan to + tích mỡ dưới da → trực tiếp liên quan cân nặng</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.3. Nghiên cứu MACRODIA 2026</h3>
+<p class="text-stone-700 mb-3">Theo Carbone et al. 2026 (PMID: 42036405, J Matern Fetal Neonatal Med), nghiên cứu MACRODIA trên 223 thai phụ có thai to:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Tỷ lệ mổ lấy thai/giác hút ngoài kế hoạch cao hơn ở nhóm khởi phát sớm theo protocol (52.9%) so với quản lý kỳ vọng (12.0%)</li>
+<li>EFW/SPA (subpubic angle) ≥ 34.78 là ngưỡng tối ưu dự đoán can thiệp ngoài kế hoạch</li>
+<li>Gợi ý: cần kết hợp EFW với khung chậu mẹ (SPA) để đánh giá nguy cơ shoulder dystocia</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">7. GIAI ĐOẠN ĐÁNH GIÁ & TIMING</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.1. Quý 1 (8-14 tuần): Dating</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>CRL (Crown-Rump Length)</strong> là tiêu chuẩn vàng cho xác định tuổi thai</li>
+<li>Đo 1 lần duy nhất ở 8-14 tuần → xác định EDD (Estimated Date of Delivery)</li>
+<li>Khi CRL > 84 mm → dùng HC thay CRL</li>
+<li><strong>KHÔNG thay đổi EDD</strong> sau khi đã xác định ở Q1 — đây là quy tắc VÀNG</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.2. Quý 2 (18-22 tuần): Baseline</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Đo sinh trắc (BPD, HC, AC, FL) cùng anatomy scan</li>
+<li>Tạo baseline cho so sánh sau này</li>
+<li>EFW tại thời điểm này chủ yếu để xác nhận dating (không dùng cho screening FGR)</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.3. Quý 3 (28-40 tuần): Growth Velocity</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Growth velocity (tốc độ tăng trưởng) QUAN TRỌNG HƠN single-point EFW</strong></li>
+<li>Cần ít nhất 2 lần siêu âm cách nhau ≥ 2 tuần để đánh giá ACGV</li>
+<li>ACGV < 10th percentile → cảnh báo FGR dù EFW vẫn bình thường</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.4. Timing scan tối ưu</h3>
+<p class="text-stone-700 mb-3">Theo Ciobanu A et al. 2019 (PMID: 30883981, Ultrasound Obstet Gynecol), so sánh scan 32 tuần vs 36 tuần:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Scan 36 tuần <strong>vượt trội hơn</strong> scan 32 tuần trong dự đoán SGA</li>
+<li>EFW < 10th percentile ở 36 tuần: phát hiện 70% BW < 10th, 84% BW < 3rd (trong vòng 2 tuần sau scan)</li>
+<li>Để phát hiện >85% SGA, cần nâng ngưỡng lên EFW < 40th percentile</li></ul>
+<p class="text-stone-700 mb-3">→ <strong>Khuyến cáo:</strong> Nếu chỉ scan 1 lần ở Q3, chọn 35-37 tuần.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">8. LƯU ĐỒ QUYẾT ĐỊNH LÂM SÀNG</h2>
+<div class="mermaid text-center my-6">flowchart TD
+    A["Siêu âm sinh trắc<br>BPD + HC + AC + FL<br>Tính EFW"] --> B{"EFW so với<br>growth chart?"}
+    B -->|"EFW ≥ 90th"| LGA["LGA<br>→ AC > 35cm?<br>→ Đánh giá khung chậu"]
+    B -->|"10th ≤ EFW ≤ 90th"| AGA["AGA (Appropriate)<br>→ Theo dõi thường quy"]
+    B -->|"EFW < 10th"| C{"Doppler<br>UmbA PI?"}
+    C -->|"UmbA PI < 95th<br>+ CPR bình thường"| SGA["Constitutional SGA<br>→ Theo dõi<br>Term delivery"]
+    C -->|"UmbA PI > 95th<br>hoặc CPR < 5th"| FGR["FGR<br>→ Phân loại early/late<br>→ Steroid nếu <34w<br>→ Delivery timing"]
+    style A fill:#e3f2fd,stroke:#1976d2
+    style AGA fill:#c8e6c9,stroke:#388e3c
+    style SGA fill:#fff3cd,stroke:#f57c00
+    style LGA fill:#fff3cd,stroke:#f57c00
+    style FGR fill:#fce4ec,stroke:#c2185b</div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">9. SAI LẦM THƯỜNG GẶP</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">#</th><th class="p-2 border whitespace-nowrap">Sai lầm</th><th class="p-2 border whitespace-nowrap">Hậu quả</th><th class="p-2 border whitespace-nowrap">Cách tránh</th></tr></thead><tbody><tr class=""><td class="p-2 border">1</td><td class="p-2 border">Đo sai mặt cắt AC (mức thận thay vì portal sinus)</td><td class="p-2 border">AC lớn hơn thật → EFW overestimate → lo lắng không cần thiết</td><td class="p-2 border">Luôn tìm stomach bubble + portal sinus</td></tr><tr class=""><td class="p-2 border">2</td><td class="p-2 border">Thay đổi EDD ở Q2/Q3</td><td class="p-2 border">Tuổi thai sai → EFW percentile sai → chẩn đoán sai</td><td class="p-2 border">EDD chỉ xác định 1 lần ở Q1</td></tr><tr class="bg-green-50"><td class="p-2 border">3</td><td class="p-2 border">Dùng single-point EFW thay vì growth velocity</td><td class="p-2 border">Miss FGR nếu EFW vẫn trong giới hạn bình thường</td><td class="p-2 border">Luôn so sánh ≥ 2 lần scan cách ≥ 2 tuần</td></tr><tr class=""><td class="p-2 border">4</td><td class="p-2 border">Nhầm Constitutional SGA với FGR</td><td class="p-2 border">Can thiệp không cần thiết (steroids, early delivery)</td><td class="p-2 border">Kiểm tra Doppler + ACGV + cân nặng cha mẹ</td></tr><tr class=""><td class="p-2 border">5</td><td class="p-2 border">Không đo HC (chỉ BPD)</td><td class="p-2 border">Miss HC giảm trong FGR nặng</td><td class="p-2 border">Luôn đo HC, đặc biệt khi đầu méo</td></tr><tr class=""><td class="p-2 border">6</td><td class="p-2 border">Dùng EFW để kết luận macrosomia ở preterm</td><td class="p-2 border">EFW sai số lớn ở preterm (±20%)</td><td class="p-2 border">Kết hợp EFW + AC + lâm sàng</td></tr><tr class=""><td class="p-2 border">7</td><td class="p-2 border">Đo FL xương mác thay xương đùi</td><td class="p-2 border">FL ngắn hơn thật → EFW underestimate</td><td class="p-2 border">Xác định xương đùi = xương dài nhất gần bladder</td></tr><tr class=""><td class="p-2 border">8</td><td class="p-2 border">Quên đánh giá nước ối khi EFW bất thường</td><td class="p-2 border">Miss oligohydramnios trong FGR</td><td class="p-2 border">Luôn đo AFI/SDP kèm sinh trắc</td></tr><tr class="bg-green-50"><td class="p-2 border">9</td><td class="p-2 border">Báo cáo "EFW bình thường" khi ACGV giảm</td><td class="p-2 border">False reassurance</td><td class="p-2 border">Luôn tính ACGV nếu có scan trước</td></tr><tr class=""><td class="p-2 border">10</td><td class="p-2 border">Không ghi chú biểu đồ đã dùng</td><td class="p-2 border">Không so sánh được giữa các lần scan</td><td class="p-2 border">Ghi rõ: "Hadlock 1991 chart" hoặc "IG-21st"</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">10. ỨNG DỤNG LÂM SÀNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">10.1. Tình huống 1: EFW < 10th ở 36 tuần</h3>
+<p class="text-stone-700 mb-3"><strong>Đánh giá:</strong></p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Kiểm tra Doppler: UmbA PI, MCA PI, CPR, Uterine artery PI</li>
+<li>Kiểm tra ACGV (nếu có scan trước)</li>
+<li>Kiểm tra nước ối (AFI/SDP)</li></ol>
+<p class="text-stone-700 mb-3"><strong>Xử trí:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Doppler bình thường + ACGV bình thường → Constitutional SGA → theo dõi 2 tuần/lần, chờ term delivery</li>
+<li>Doppler bất thường → FGR late-onset → theo dõi sát (1-2 lần/tuần), cân nhắc delivery tùy mức độ</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">10.2. Tình huống 2: AC > 95th ở 34 tuần</h3>
+<p class="text-stone-700 mb-3"><strong>Đánh giá:</strong></p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>EFW percentile → LGA nếu >90th</li>
+<li>Kiểm tra OGTT (nghi GDM)</li>
+<li>Đánh giá khung chậu mẹ (SPA nếu có)</li></ol>
+<p class="text-stone-700 mb-3"><strong>Xử trí:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>GDM có → kiểm soát đường huyết, đánh giá macrosomia ở 36-37w</li>
+<li>Không GDM → LGA constitution → theo dõi, tư vấn mode of delivery</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">10.3. Tình huống 3: EFW bình thường nhưng ACGV < 10th</h3>
+<p class="text-stone-700 mb-3"><strong>Đây là FGR masked (ẩn):</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>EFW vẫn trong giới hạn bình thường nhưng tốc độ tăng trưởng bụng giảm</li>
+<li>Cần đánh giá Doppler ngay</li>
+<li>Theo dõi sát 1-2 tuần/lần</li></ul>
+<p class="text-stone-700 mb-3">Theo D'Alberti E et al. 2026 (PMID: 41796020, BJOG), nghiên cứu 45.179 thai kỳ tại Oxford cho thấy phần lớn kết cục bất lợi xảy ra ở thai có siêu âm "bình thường" — nhấn mạnh rằng FGR có thể bị bỏ sót nếu chỉ dựa vào single-point EFW.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">11. ÁP DỤNG TẠI VIỆT NAM</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">11.1. Tình hình thực tế</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Hadlock</strong> là biểu đồ phổ biến nhất (cài sẵn trong máy siêu âm GE, Samsung, Mindray)</li>
+<li><strong>INTERGROWTH-21st</strong> ít được sử dụng (cần phần mềm riêng)</li>
+<li><strong>AC</strong> là thông số được chú trọng nhất trong thực hành hàng ngày</li>
+<li>Doppler UmbA có sẵn ở các BV tuyến tỉnh trở lên</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">11.2. Khác biệt thực hành</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Chiều cao/cân nặng người Việt nhỏ hơn trung bình thế giới</strong> → dùng Hadlock (reference) có thể phù hợp hơn INTERGROWTH-21st (standard) vì ít over-diagnose SGA constitution</li>
+<li><strong>OGTT 75g</strong> đã phổ biến, giúp phát hiện GDM sớm → dự phòng macrosomia</li>
+<li><strong>Siêu âm Q3 thường quy</strong> chưa được BHYT chi trả → cần chỉ định đúng</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">11.3. Hướng dẫn Bộ Y tế</h3>
+<p class="text-stone-700 mb-3">Chưa có guideline riêng của Bộ Y tế về sinh trắc thai. Áp dụng guideline ISUOG 2019/2020 + ACOG PB #175.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">12. TIPS THỰC HÀNH (CLINICAL PEARLS)</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>AC là vua</strong> — thông số quan trọng nhất trong sinh trắc thai, nhạy cho cả FGR và LGA.</li>
+<li><strong>Growth velocity > single-point EFW</strong> — luôn so sánh ≥ 2 lần scan.</li>
+<li><strong>EDD chỉ xác định 1 lần ở Q1</strong> — KHÔNG bao giờ thay đổi sau đó.</li>
+<li><strong>EFW sai số ±15%</strong> — đừng nói với bệnh nhân "thai nặng 3200g" mà nói "khoảng 2700-3700g".</li>
+<li><strong>Doppler bình thường = SGA constitution</strong> cho đến khi có bằng chứng ngược lại.</li>
+<li><strong>ACGV < 10th = FGR</strong> dù EFW vẫn bình thường — masked FGR.</li>
+<li><strong>Scan 36w > 32w</strong> cho screening SGA — nếu chỉ scan 1 lần.</li>
+<li><strong>Đầu méo (dolichocephaly) → dùng HC, không dùng BPD</strong> cho EFW.</li>
+<li><strong>EFW overestimate thai nhỏ, underestimate thai to</strong> — systematic bias cần biết.</li>
+<li><strong>Ghi rõ biểu đồ đã dùng</strong> (Hadlock, IG-21st, FMF) — tránh nhầm lẫn khi so sánh.</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">13. TỔNG KẾT ĐIỂM CẦN NHỚ</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>4 thông số cơ bản: BPD, HC, AC, FL</strong> — mỗi thông số có mặt cắt chuẩn và sai lầm riêng. AC là quan trọng nhất.</li>
+<li><strong>Hadlock (HC, AC, FL)</strong> là công thức EFW được khuyến cáo — sai số ±10-15%, overestimate thai nhỏ, underestimate thai to.</li>
+<li><strong>Prescriptive vs Descriptive charts</strong> — IG-21st/WHO là standard (phát hiện sớm), Hadlock là reference (phù hợp dân số). Không có "tốt nhất" tuyệt đối.</li>
+<li><strong>SGA ≠ FGR</strong> — SGA là mô tả kích thước, FGR là chẩn đoán bệnh lý. Phân biệt bằng Doppler + ACGV.</li>
+<li><strong>Growth velocity quan trọng hơn single-point EFW</strong> — masked FGR có EFW bình thường nhưng ACGV giảm.</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">14. THAM KHẢO</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Salomon LJ et al. 2019 (PMID: 31169958) — ISUOG Practice Guidelines: ultrasound assessment of fetal biometry and growth. <em>Ultrasound Obstet Gynecol</em>. [ABSTRACT VERIFIED]</li>
+<li>Lees CC et al. 2020 (PMID: 32738107) — ISUOG Practice Guidelines: diagnosis and management of SGA fetus and FGR. <em>Ultrasound Obstet Gynecol</em>. [DIRECTION ONLY]</li>
+<li>Hadlock FP et al. 1985 (PMID: 3881966) — Estimation of fetal weight with the use of head, body, and femur measurements. <em>Am J Obstet Gynecol</em>. [ABSTRACT VERIFIED]</li>
+<li>Papageorghiou AT et al. 2014 (PMID: 25209487) — International standards for fetal growth based on serial ultrasound measurements (INTERGROWTH-21st). <em>Lancet</em>. [DIRECTION ONLY]</li>
+<li>Nicolaides KH et al. 2018 (PMID: 29696704) — Fetal Medicine Foundation fetal and neonatal population weight charts. <em>Ultrasound Obstet Gynecol</em>. [ABSTRACT VERIFIED]</li>
+<li>Ciobanu A et al. 2019 (PMID: 30883981) — Routine ultrasound at 32 vs 36 weeks for SGA prediction. <em>Ultrasound Obstet Gynecol</em>. [ABSTRACT VERIFIED]</li>
+<li>Verger C et al. 2020 (PMID: 31364195) — Performance of different fetal growth charts for LGA prediction. <em>Ultrasound Obstet Gynecol</em>. [ABSTRACT VERIFIED]</li>
+<li>Carbone IF et al. 2026 (PMID: 42036405) — MACRODIA Trial: composite maternal & fetal ultrasound for LGA. <em>J Matern Fetal Neonatal Med</em>. [ABSTRACT VERIFIED]</li>
+<li>D'Alberti E et al. 2026 (PMID: 41796020) — FGR at universal late third-trimester scan. <em>BJOG</em>. [ABSTRACT VERIFIED]</li></ol>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bác sĩ: Ngọc 🍅 🐈‍⬛ | AI: MiniMax Mavis | </p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+</script>
+</body>
+</html>

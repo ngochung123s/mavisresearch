@@ -1,0 +1,62 @@
+[
+  {
+    "id": "IM42a-001",
+    "type": "cloze",
+    "question": "Theo Revised Atlanta 2012, chẩn đoán Viêm tụy cấp đòi hỏi ít nhất {{c1::2 trong 3}} tiêu chuẩn: (1) Đau bụng thượng vị điển hình, (2) Lipase/Amylase máu > {{c2::3 lần ULN}}, (3) Dấu hiệu trên hình ảnh học.",
+    "extra": "Lipase máu có độ nhạy và đặc hiệu cao hơn Amylase máu."
+  },
+  {
+    "id": "IM42a-002",
+    "type": "cloze",
+    "question": "Hai nguyên nhân hàng đầu gây Viêm tụy cấp là {{c1::Sỏi mật ( Gallstones - 40-50% )}} và {{c2::Rượu bia ( Ethanol - 25-35% )}}.",
+    "extra": "Mnemonic I GET SMASHED liệt kê đầy đủ các nguyên nhân gây VTC."
+  },
+  {
+    "id": "IM42a-003",
+    "type": "cloze",
+    "question": "Dịch truyền ưu tiên hàng đầu trong hồi sức Viêm tụy cấp là {{c1::Ringer Lactate}}, giúp giảm {{c2::52%}} nguy cơ tiến triển thành Severe AP so với Normal Saline 0.9% (OR 0.48, PMID: 40085761).",
+    "extra": "Normal Saline 0.9% chứa Chloride cao gây toan hóa và làm tăng phản ứng viêm tại tụy."
+  },
+  {
+    "id": "IM42a-004",
+    "type": "cloze",
+    "question": "Theo Revised Atlanta 2012, Viêm tụy cấp NẶNG (Severe AP) được định nghĩa khi có suy tạng kéo dài tồn tại {{c1::> 48 giờ}}.",
+    "extra": "Suy tạng < 48 giờ được xếp vào nhóm Viêm tụy cấp trung bình nặng (Moderate AP)."
+  },
+  {
+    "id": "IM42a-005",
+    "type": "cloze",
+    "question": "Kháng sinh dự phòng {{c1::KHÔNG được khuyến cáo}} sử dụng thường quy cho bệnh nhân viêm tụy cấp hoại tử vô trùng (PMID: 20464721).",
+    "extra": "CHỈ dùng kháng sinh khi có bằng chứng hoại tử nhiễm trùng (sốt muộn, bọt khí trên CT, Procalcitonin tăng)."
+  },
+  {
+    "id": "IM42a-006",
+    "type": "cloze",
+    "question": "Thời điểm tối ưu để chụp CT scanner bụng có tiêm thuốc đối quang đánh giá hoại tử tụy là {{c1::72 - 96 giờ}} sau khởi phát đau.",
+    "extra": "Chụp quá sớm (< 48h) tổn thương hoại tử chưa hiện rõ và thuốc tương quan gây nguy cơ độc thận."
+  },
+  {
+    "id": "IM42a-007",
+    "type": "cloze",
+    "question": "Chế độ dinh dưỡng đường ruột (qua miệng hoặc sonde dạ dày) được khuyến cáo khởi động sớm trong vòng {{c1::24 - 48 giờ}} đầu.",
+    "extra": "Giúp duy trì hàng rào niêm mạc ruột và ngăn ngừa vi khuẩn bốc lọt vào khối hoại tử tụy."
+  },
+  {
+    "id": "IM42a-008",
+    "type": "cloze",
+    "question": "Chỉ số CRP > {{c1::150 mg/L}} ở thời điểm 48 giờ sau phát bệnh là chỉ dấu dự báo tiên lượng Viêm tụy cấp hoại tử nặng.",
+    "extra": "Các chỉ dấu khác: BISAP ≥ 3, Hematocrit > 44%, BUN tăng > 1.8 mmol/L sau 24h."
+  },
+  {
+    "id": "IM42a-009",
+    "type": "cloze",
+    "question": "Chiến lược điều trị hoại tử tụy nhiễm trùng tuân thủ nguyên tắc {{c1::Step-up approach}}: Kháng sinh ngấm tụy (Meropenem) → Dẫn lưu qua da/nội soi → Phẫu thuật mổ mở là bước cuối cùng.",
+    "extra": "Tránh mổ mở can thiệp sớm làm tăng tỷ lệ tử vong và biến chứng."
+  },
+  {
+    "id": "IM42a-010",
+    "type": "cloze",
+    "question": "Tỷ lệ nồng độ Lipase/Amylase bình thường (âm tính giả) có thể gặp ở khoảng {{c1::25%}} trường hợp do bệnh nhân đến muộn hoặc do {{c2::Tăng Triglyceride máu}} (PMID: 28431198).",
+    "extra": "Triglyceride > 11.3 mmol/L (> 1000 mg/dL) gây ức chế phản ứng màu đo Lipase."
+  }
+]

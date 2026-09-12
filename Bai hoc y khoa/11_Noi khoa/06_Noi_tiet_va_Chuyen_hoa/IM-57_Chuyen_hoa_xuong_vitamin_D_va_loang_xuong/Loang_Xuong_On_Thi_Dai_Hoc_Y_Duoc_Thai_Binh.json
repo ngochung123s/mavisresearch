@@ -1,0 +1,205 @@
+[
+  {
+    "type": "basic",
+    "front": "Định nghĩa bệnh Loãng xương và hai thành phần cốt lõi cấu thành Sức mạnh của xương là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Định nghĩa:</b> Rối loạn chuyển hóa của bộ xương làm tổn thương sức mạnh của xương $\\rightarrow$ làm tăng nguy cơ gãy xương.<br>• <b>Sức mạnh của xương bao gồm 2 thành phần:</b><br>  1. <b>Khối lượng xương (Bone Mass):</b> Biểu hiện bằng Mật độ khoáng chất xương (BMD - Bone Mineral Density) và Khối lượng xương (BMC - Bone Mass Content).<br>  2. <b>Chất lượng xương (Bone Quality):</b> Phụ thuộc vào thể tích xương, vi cấu trúc của xương (chất nền protein và khoáng chất) và chu chuyển xương (mức độ tổn thương và khả năng tự sửa chữa vi cấu trúc).",
+    "extra": "• Loãng xương không đơn thuần là giảm mật độ khoáng chất (BMD) mà còn là sự suy thoái vi cấu trúc bè xương.<br>• Người có BMD bằng nhau nhưng chất lượng xương kém hơn sẽ có nguy cơ gãy xương cao hơn nhiều lần."
+  },
+  {
+    "type": "cloze",
+    "text": "Sức mạnh của xương được cấu thành bởi 2 yếu tố: {{c1::Khối lượng xương (biểu hiện qua BMD và BMC)}} và {{c1::Chất lượng xương (thể tích, vi cấu trúc và chu chuyển xương)}}.",
+    "extra": "Tổn thương bất kỳ thành phần nào cũng làm tăng nguy cơ gãy xương."
+  },
+  {
+    "type": "basic",
+    "front": "Sinh lý đỉnh khối lượng xương và diễn tiến tốc độ mất xương ở nam giới và nữ giới?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Đỉnh khối lượng xương (Peak Bone Mass):</b> Đạt được quanh độ tuổi <b>25 tuổi</b>; duy trì ổn định đến khoảng <b>40 – 55 tuổi</b>.<br>• <b>Diễn tiến mất xương ở Nữ giới:</b><br>  - <i>Giai đoạn mất xương nhanh:</i> Xảy ra quanh và sau mãn kinh, mất <b>25 – 30% khối lượng xương trong vòng 5 – 10 năm</b>.<br>  - <i>Giai đoạn mất xương chậm:</i> Sau đó mất ổn định khoảng <b>0,5 – 1% mỗi năm</b>.<br>• <b>Diễn tiến mất xương ở Nam giới:</b> Không có giai đoạn mất nhanh đột ngột, mà giảm mật độ xương từ từ với một tỷ lệ ổn định theo tuổi.",
+    "extra": "• Đỉnh khối lượng xương đạt được ở tuổi 25 là yếu tố dự trữ quan trọng nhất quyết định việc có bị loãng xương khi về già hay không.<br>• Sự sụt giảm đột ngột estrogen sau mãn kinh là nguyên nhân trực tiếp gây ra giai đoạn mất xương bùng nổ ở phụ nữ."
+  },
+  {
+    "type": "cloze",
+    "text": "Đỉnh khối lượng xương đạt được quanh độ tuổi {{c1::25 tuổi}}. Ở phụ nữ sau mãn kinh, giai đoạn mất xương nhanh làm mất khoảng {{c1::25 – 30%}} khối lượng xương trong vòng {{c1::5 – 10 năm}}.",
+    "extra": "Sau giai đoạn mất nhanh, phụ nữ tiếp tục mất xương chậm với tốc độ 0,5 – 1% mỗi năm."
+  },
+  {
+    "type": "basic",
+    "front": "So sánh toàn diện Loãng xương nguyên phát Type 1 (Sau mãn kinh) và Type 2 (Tuổi già) về độ tuổi, cơ chế chu chuyển, loại xương tổn thương, vị trí gãy và căn nguyên?",
+    "back": "<b>📖 Văn bản gốc:</b><br><table class=\"card-table\"><tr><th>Tiêu chí</th><th>Type 1 (Sau mãn kinh)</th><th>Type 2 (Tuổi già)</th></tr><tr><td><b>Độ tuổi & Giới</b></td><td>Phụ nữ sau mãn kinh (50 – 60 tuổi)</td><td>Nam và Nữ (> 70 tuổi)</td></tr><tr><td><b>Chu chuyển</b></td><td><b>Tăng hủy xương</b> (Tạo xương bình thường)</td><td><b>Tăng hủy xương + GIẢM TẠO XƯƠNG</b></td></tr><tr><td><b>Loại xương</b></td><td>Tổn thương chủ yếu <b>xương xốp (bè)</b></td><td>Mất cả <b>xương xốp (bè) + xương đặc (vỏ)</b></td></tr><tr><td><b>Vị trí gãy</b></td><td>• Lún xẹp đốt sống<br>• Đầu dưới xương quay (Pouteau-Colles)</td><td>• <b>Gãy cổ xương đùi</b><br>• Gãy lún nhiều đốt sống</td></tr><tr><td><b>Căn nguyên</b></td><td><b>Thiếu hụt Estrogen</b> sau mãn kinh</td><td>• Lão hóa tạo cốt bào $\\rightarrow$ Cường cận giáp thứ phát<br>• <b>Giảm hấp thu Calci ở ruột</b> (giảm tổng hợp vitamin D)</td></tr></table>",
+    "extra": "• Type 1 là thể hủy xương nhanh (high turnover); Type 2 là thể suy giảm tạo xương do lão hóa tế bào (low turnover kết hợp tăng hủy do cường cận giáp thứ phát)."
+  },
+  {
+    "type": "cloze",
+    "text": "Loãng xương Type 1 gặp ở phụ nữ mãn kinh (50 – 60 tuổi) do thiếu hụt {{c1::Estrogen}}, gây tổn thương chủ yếu ở {{c1::xương xốp (xương bè)}} và hay gây gãy {{c1::đầu dưới xương quay (Pouteau-Colles) và lún đốt sống}}.",
+    "extra": "Cơ chế chính của Type 1 là tăng hủy xương trong khi tạo xương bình thường."
+  },
+  {
+    "type": "cloze",
+    "text": "Loãng xương Type 2 gặp ở người > 70 tuổi do lão hóa tạo cốt bào và giảm hấp thu Calci ở ruột, gây tổn thương cả {{c1::xương xốp và xương vỏ (đặc)}}, vị trí gãy xương điển hình nhất là {{c1::Gãy cổ xương đùi}}.",
+    "extra": "Type 2 có sự kết hợp giữa tăng hủy xương và giảm rõ rệt quá trình tạo xương."
+  },
+  {
+    "type": "basic",
+    "front": "Kể tên các nguyên nhân chính gây Loãng xương thứ phát (nhóm bệnh nội tiết, tiêu hóa, thận, ác tính, bất động) và các thuốc kinh điển gây bệnh?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Bệnh nội tiết:</b> Cường vỏ thượng thận (Hội chứng Cushing), cường cận giáp, cường giáp, suy tuyến sinh dục (mãn kinh sớm, cắt buồng trứng, suy tinh hoàn).<br>• <b>Bệnh tiêu hóa & Chuyển hóa:</b> Hội chứng kém hấp thu, bệnh đường tiêu hóa mạn tính, thiếu hụt calci mạn tính.<br>• <b>Bệnh thận & Khớp:</b> Suy thận mạn, chạy thận nhân tạo lâu ngày; Viêm khớp dạng thấp, Thoái hóa khớp.<br>• <b>Bệnh ác tính:</b> Đa u tủy xương (Bệnh Kahler), ung thư di căn xương.<br>• <b>Bất động:</b> Bất động kéo dài, nằm liệt lâu ngày.<br>• <b>Do thuốc dùng kéo dài:</b><br>  - <b>Corticosteroid:</b> Nguyên nhân hàng đầu gây loãng xương thứ phát.<br>  - Thuốc chống động kinh: <b>Dihydan</b>.<br>  - Thuốc điều trị đái tháo đường: <b>Insulin</b> kéo dài.<br>  - Thuốc chống đông: <b>Heparin</b> kéo dài.",
+    "extra": "• Bất kỳ bệnh nhân nào dùng Prednisolone liều ≥ 5 mg/ngày kéo dài trên 3 tháng đều phải được đánh giá nguy cơ và dự phòng loãng xương.<br>• Dihydan làm tăng chuyển hóa bất hoạt Vitamin D ở gan."
+  },
+  {
+    "type": "basic",
+    "front": "Trình bày 4 cơ chế bệnh sinh chính khiến Corticosteroid gây loãng xương thứ phát?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Corticosteroid dùng kéo dài gây tổn thương xương qua 4 cơ chế phối hợp:<br>1. <b>Ức chế trực tiếp tạo cốt bào (Osteoblast)</b> $\\rightarrow$ giảm tổng hợp chất nền protein và giảm tạo xương mới.<br>2. <b>Kích thích hủy cốt bào (Osteoclast)</b> $\\rightarrow$ tăng tốc độ tiêu hủy và xốp xương.<br>3. <b>Giảm hấp thu Calci tại biểu mô ruột</b>.<br>4. <b>Tăng bài xuất Calci qua đường nước tiểu</b> tại ống thận $\\rightarrow$ gây mất cân bằng calci âm tính và kích thích cường tuyến cận giáp thứ phát.",
+    "extra": "• Corticoid gây mất xương rất nhanh ngay trong 3 – 6 tháng đầu điều trị, đặc biệt tại các vùng xương xốp như cột sống và cổ xương đùi."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc gây loãng xương thứ phát phổ biến hàng đầu là {{c1::Corticosteroid}}. Các thuốc khác dùng kéo dài cũng gây loãng xương gồm: thuốc chống động kinh {{c1::Dihydan}}, thuốc chống đông {{c1::Heparin}} và {{c1::Insulin}}.",
+    "extra": "Corticoid vừa ức chế tạo xương, vừa tăng hủy xương, vừa giảm hấp thu và tăng bài tiết calci."
+  },
+  {
+    "type": "basic",
+    "front": "Các nhóm yếu tố nguy cơ chính của bệnh Loãng xương là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>1. Đỉnh khối lượng xương thấp:</b> Kém phát triển thể chất từ nhỏ (còi xương, suy dinh dưỡng thời niên thiếu, chế độ ăn thiếu protein/calci/vitamin D).<br>• <b>2. Yếu tố gia đình:</b> Tiền sử gia đình có cha/mẹ bị loãng xương hoặc gãy xương.<br>• <b>3. Lối sống & Thói quen:</b> Ít vận động thể lực, ít ra ngoài trời, lạm dụng <b>rượu, bia, cà phê, thuốc lá</b> (làm tăng thải calci qua thận và giảm hấp thu calci tại ruột).<br>• <b>4. Mắc bệnh hoặc dùng thuốc:</b> Bệnh nội tiết, tiêu hóa, khớp mạn tính hoặc dùng Corticoid, Heparin, Dihydan kéo dài.",
+    "extra": "• Thiếu vận động làm mất lực cơ học kích thích tạo cốt bào; hút thuốc lá làm tăng thoái giáng estrogen ở gan."
+  },
+  {
+    "type": "basic",
+    "front": "Đặc điểm diễn tiến lâm sàng của Loãng xương và tính chất của cơn đau do lún xẹp đốt sống cấp tính?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Đặc điểm cốt lõi:</b> Loãng xương diễn biến <b>âm thầm (kẻ cắp thầm lặng)</b>, hoàn toàn không có triệu chứng cho đến khi xuất hiện biến chứng gãy xương/lún xẹp đốt sống.<br>• <b>Tính chất đau do lún xẹp đốt sống:</b><br>  - Xuất hiện tự nhiên hoặc sau gắng sức/chấn thương nhẹ.<br>  - Đau cột sống cấp tính khởi phát đột ngột, <b>KHÔNG LAN, KHÔNG CÓ triệu chứng chèn ép rễ thần kinh</b>.<br>  - Đau <b>giảm rõ rệt khi nằm nghỉ</b>, giảm dần và hết hẳn sau vài tuần.<br>  - <i>Lưu ý:</i> Nhiều trường hợp lún xẹp đốt sống diễn biến thầm lặng mà <b>hoàn toàn không đau</b>.",
+    "extra": "• Nếu đau cột sống có lan theo rễ thần kinh hoặc đau tăng về đêm, phải cảnh giác với thoát vị đĩa đệm, lao cột sống hoặc u xương di căn chứ không đơn thuần là loãng xương."
+  },
+  {
+    "type": "basic",
+    "front": "Các biểu hiện rối loạn tư thế, biến dạng lồng ngực và 3 vị trí gãy xương thường gặp nhất trong Loãng xương?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Rối loạn tư thế & Cột sống:</b><br>  - <b>Gù cong</b> đoạn cột sống lưng – thắt lưng.<br>  - <b>Giảm chiều cao cơ thể</b> rõ rệt (> 3 cm).<br>  - Lồng ngực sụp xuống: <b>Xương sườn 10 – 12 cọ sát vào mào chậu</b>.<br>• <b>3 vị trí gãy xương thường gặp nhất (sau chấn thương nhẹ):</b><br>  1. <b>Đầu dưới xương quay (Gãy Pouteau-Colles)</b>.<br>  2. <b>Cổ xương đùi</b>.<br>  3. <b>Các đốt sống (ngực và thắt lưng)</b>.<br>  <i>(Ngoài ra có thể gãy xương sườn, xương chậu, xương cùng).</i>",
+    "extra": "• Gãy cổ xương đùi ở người già có tỷ lệ tử vong lên tới 20% trong năm đầu tiên do các biến chứng nằm liệt (loét tỳ đè, viêm phổi, thuyên tắc mạch)."
+  },
+  {
+    "type": "cloze",
+    "text": "3 vị trí gãy xương do loãng xương thường gặp nhất sau chấn thương nhẹ là: {{c1::Đầu dưới xương quay (Pouteau-Colles)}}, {{c1::Cổ xương đùi}}, và {{c1::Các thân đốt sống (lưng - thắt lưng)}}.",
+    "extra": "Dấu hiệu cọ sát giữa xương sườn 10 - 12 vào mào chậu xuất hiện khi lún xẹp nhiều đốt sống làm giảm chiều cao thân mình."
+  },
+  {
+    "type": "basic",
+    "front": "Hình ảnh tổn thương trên X-quang quy ước và các DẤU HIỆU LOẠI TRỪ quan trọng trong Loãng xương?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Hình ảnh loãng xương trên X-quang:</b><br>  - Đốt sống tăng thấu quang ('đốt sống rỗng', viền sáng quanh vỏ đốt sống), thân đốt sống biến dạng hình chêm hoặc hình thấu kính 2 mặt lõm.<br>  - Xương dài: Vỏ xương mỏng đi $\\rightarrow$ <b>làm rộng ống tủy</b>.<br>• <b>DẤU HIỆU LOẠI TRỪ QUAN TRỌNG TRÊN X-QUANG:</b><br>  1. <b>KHÔNG CÓ tổn thương hủy xương khu trú</b> (không có hốc tiêu xương $\\rightarrow$ phân biệt với Đa u tủy xương hoặc Ung thư di căn).<br>  2. <b>Khe liên đốt sống (đĩa đệm) KHÔNG bị hẹp</b>.<br>  3. Cung sau đốt sống hầu như bình thường.",
+    "extra": "• X-quang chỉ phát hiện được loãng xương khi khối lượng khoáng chất của xương đã bị mất trên 30 – 40%."
+  },
+  {
+    "type": "basic",
+    "front": "Vai trò của phương pháp đo mật độ xương DXA và đặc điểm các chỉ số sinh hóa máu trong Loãng xương nguyên phát?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Đo mật độ xương DXA (Dual Energy X-ray Absorptiometry):</b> Tiêu chuẩn vàng đo tại 2 vị trí trung tâm là <b>Cột sống thắt lưng và Cổ xương đùi</b> (đo ngoại vi ở gót chân chỉ để sàng lọc).<br>• <b>Xét nghiệm sinh hóa trong Loãng xương nguyên phát:</b><br>  - <b>Máu lắng, CRP và Bilan Calci - Phospho máu BẮT BUỘC BÌNH THƯỜNG</b>.<br>  - <i>Ngoại lệ thoáng qua:</i> Ngay sau khi mới lún xẹp đốt sống, máu lắng có thể tăng nhẹ tới 30 mm và Phosphatase kiềm (ALP) tăng thoáng qua, nhưng <b>sẽ về bình thường trong vòng 1 tuần</b>.<br>  - Nếu các chỉ số trên tăng cao kéo dài $\\rightarrow$ bắt buộc tìm nguyên nhân thứ phát (đa u tủy, ung thư di căn, cường cận giáp).",
+    "extra": "• Marker chu chuyển xương: Marker hủy xương (NTX, CTX), Marker tạo xương (Osteocalcin, bALP, P1NP) dùng để theo dõi đáp ứng điều trị sớm."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong loãng xương nguyên phát, các xét nghiệm viêm (máu lắng, CRP) và bilan Calci - Phospho máu {{c1::bắt buộc phải bình thường}}. Ngay sau lún xẹp đốt sống cấp, máu lắng và {{c1::Phosphatase kiềm (ALP)}} có thể tăng nhẹ thoáng qua nhưng sẽ về bình thường trong vòng {{c1::1 tuần}}.",
+    "extra": "Nếu Calci máu tăng hoặc máu lắng tăng rất cao phải tầm soát ngay Đa u tủy xương hoặc Ung thư di căn xương."
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chuẩn chẩn đoán Loãng xương theo WHO (1994) dựa trên T-score gồm 4 phân loại nào? Khái niệm Z-score áp dụng cho đối tượng nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Đo mật độ xương bằng DXA tại cột sống thắt lưng hoặc cổ xương đùi:<br><table class=\"card-table\"><tr><th>Phân loại theo WHO</th><th>Chỉ số T-score</th></tr><tr><td><b>1. Bình thường</b></td><td><b>T-score ≥ -1,0 SD</b></td></tr><tr><td><b>2. Thiếu xương (Osteopenia)</b></td><td><b>-2,5 SD &lt; T-score &lt; -1,0 SD</b></td></tr><tr><td><b>3. Loãng xương (Osteoporosis)</b></td><td><b>T-score ≤ -2,5 SD</b></td></tr><tr><td><b>4. Loãng xương nặng (Severe)</b></td><td><b>T-score ≤ -2,5 SD KÈM tiền sử gãy xương</b> (do chấn thương nhẹ hoặc lún xẹp đốt sống)</td></tr></table><br>• <b>Z-score:</b> So sánh với người cùng tuổi, cùng giới tính. Áp dụng cho <b>phụ nữ tiền mãn kinh, nam giới &lt; 50 tuổi và trẻ em</b> (nếu Z-score ≤ -2,0 SD $\\rightarrow$ mật độ xương thấp dưới mức mong đợi theo tuổi).",
+    "extra": "• T-score so sánh với người trẻ khỏe mạnh (20–30 tuổi) đạt đỉnh xương; Z-score so sánh với bạn đồng lứa.<br>• Phụ nữ tiền mãn kinh và nam < 50 tuổi không dùng T-score để chẩn đoán loãng xương mà dùng Z-score."
+  },
+  {
+    "type": "cloze",
+    "text": "Theo WHO (1994): Thiếu xương khi {{c1::-2,5 SD &lt; T-score &lt; -1,0 SD}}; Loãng xương khi {{c1::T-score ≤ -2,5 SD}}; Loãng xương nặng khi {{c1::T-score ≤ -2,5 SD kèm có tiền sử gãy xương sau chấn thương nhẹ}}.",
+    "extra": "Chỉ số Z-score ≤ -2,0 SD phản ánh mật độ xương thấp dưới mức kỳ vọng theo độ tuổi."
+  },
+  {
+    "type": "basic",
+    "front": "So sánh 2 mô hình tiên lượng nguy cơ gãy xương: Mô hình FRAX (WHO) và Mô hình NGUYEN (Viện Garvan, Úc)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>1. Mô hình FRAX (WHO):</b><br>  - Sử dụng <b>12 yếu tố nguy cơ</b>: Tuổi, giới, cân nặng, chiều cao, tiền sử gãy xương bản thân, T-score cổ xương đùi, tiền sử cha mẹ gãy xương hông, hút thuốc lá, uống rượu, viêm khớp dạng thấp, loãng xương thứ phát, dùng Corticoid.<br>  - <i>Kết quả:</i> Tiên lượng xác suất gãy xương chính do loãng xương và gãy cổ xương đùi trong vòng <b>10 năm</b>.<br>• <b>2. Mô hình NGUYEN (Viện Garvan, Úc):</b><br>  - Sử dụng <b>5 yếu tố nguy cơ</b>: Tuổi, cân nặng, tiền sử gãy xương, T-score, và <b>TIỀN SỬ TÉ NGÃ trong 12 tháng qua</b>.<br>  - <i>Kết quả:</i> Dự báo nguy cơ gãy xương trong vòng <b>5 năm và 10 năm</b>.",
+    "extra": "• Mô hình Garvan đưa thêm yếu tố 'tiền sử té ngã' vào tính toán, giúp phản ánh sát thực tế lâm sàng ở người cao tuổi.<br>• Cả 2 công cụ đều có sẵn trên website trực tuyến để bác sĩ nhập số liệu tính toán nhanh."
+  },
+  {
+    "type": "cloze",
+    "text": "Mô hình FRAX của WHO sử dụng {{c1::12 yếu tố nguy cơ}} để tiên lượng xác suất gãy xương trong 10 năm. Mô hình NGUYEN (Garvan, Úc) sử dụng 5 yếu tố nguy cơ cốt lõi gồm: tuổi, cân nặng, tiền sử gãy xương, T-score và {{c1::tiền sử té ngã}} để dự báo nguy cơ gãy xương trong 5 năm và 10 năm.",
+    "extra": "Té ngã là yếu tố kích hoạt trực tiếp gây ra hơn 90% các ca gãy cổ xương đùi ở người già."
+  },
+  {
+    "type": "basic",
+    "front": "Chẩn đoán phân biệt Loãng xương với Bệnh xương thủy tinh (OI), Đa u tủy xương (Kahler) và Bệnh nhuyễn xương (Osteomalacia)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>1. Bất toàn tạo xương / Xương thủy tinh (Osteogenesis Imperfecta - OI):</b> Bệnh di truyền khiếm khuyết Collagen type I, gãy xương nhiều lần từ nhỏ, <b>củng mạc mắt màu xanh</b>, giảm thính lực.<br>• <b>2. Đa u tủy xương (Bệnh Kahler):</b> Đau xương liên tục tăng về đêm, thiếu máu, <b>máu lắng tăng rất cao (> 100 mm)</b>, X-quang có <b>hố tiêu xương hình đột lỗ</b>, có Protein Bence-Jones niệu, điện di đạm có đỉnh đơn dòng.<br>• <b>3. Nhuyễn xương (Osteomalacia):</b> Do thiếu Vitamin D nặng ở người lớn $\\rightarrow$ giảm khoáng hóa chất nền xương; xét nghiệm thấy <b>Calci máu và Phospho máu giảm, Phosphatase kiềm tăng cao</b> (khác loãng xương các chỉ số này bình thường).",
+    "extra": "• Trong loãng xương, cấu trúc vi thể giảm cả chất nền protein và khoáng chất theo tỷ lệ đồng đều; trong nhuyễn xương, chất nền protein bình thường nhưng không được khoáng hóa calci."
+  },
+  {
+    "type": "basic",
+    "front": "Nhu cầu bổ sung Calci và Vitamin D nền tảng trong điều trị loãng xương là bao nhiêu? Các bài tập thể dục phù hợp?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Bổ sung Canxi:</b> Nhu cầu cơ thể <b>1.000 – 1.500 mg/ngày</b> (bổ sung từ thức ăn, sữa và dược phẩm từ <b>500 – 1.500 mg/ngày</b>).<br>• <b>Bổ sung Vitamin D:</b> <b>800 – 1.000 UI/ngày</b> (hoặc dùng chất chuyển hóa hoạt tính <b>Calcitriol 0,25 – 0,5 µg/ngày</b> cho bệnh nhân lớn tuổi hoặc suy giảm chức năng thận do không chuyển hóa được vitamin D).<br>• <b>Vận động thể lực:</b> Duy trì các bài tập <b>chịu sức nặng cơ thể (đi bộ, chạy bộ, khiêu vũ, tennis...)</b> và bài tập kháng lực tăng sức mạnh của cơ (cử tạ nhẹ, kéo xà).<br>• <b>Phòng chống té ngã:</b> Cải thiện thị lực, chỉnh sửa sàn nhà trơn, lắp tay vịn.",
+    "extra": "• Thiếu Calci và Vitamin D nền tảng sẽ làm giảm hiệu quả của các thuốc chống hủy xương như Bisphosphonate.<br>• Calcitriol (1,25-(OH)2-D3) không cần qua bước hydroxyl hóa ở thận nên rất thích hợp cho bệnh nhân suy thận."
+  },
+  {
+    "type": "cloze",
+    "text": "Nhu cầu bổ sung Calci hàng ngày là {{c1::1.000 – 1.500 mg/ngày}}, Vitamin D là {{c1::800 – 1.000 UI/ngày}} (hoặc Calcitriol {{c1::0,25 – 0,5 µg/ngày}} cho người già/suy thận). Các bài tập thể dục tốt nhất cho xương là bài tập {{c1::chịu sức nặng cơ thể (đi bộ, chạy bộ)}}.",
+    "extra": "Bổ sung calci và vitamin D là bắt buộc trong mọi phác đồ điều trị loãng xương."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào có chỉ định điều trị thuốc loãng xương đặc hiệu mà KHÔNG CẦN CHỜ kết quả đo mật độ xương (BMD)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Có chỉ định điều trị thuốc ngay mà không cần chờ đo mật độ xương trong các trường hợp sau:<br>1. <b>Phụ nữ > 65 tuổi có từ 2 yếu tố nguy cơ trở lên</b>.<br>2. <b>Phụ nữ đã mãn kinh có tiền sử gãy xương</b> sau chấn thương nhẹ.<br>3. Phụ nữ sau mãn kinh có <b>T-score &lt; -2,0 SD</b> (không có YTNC) hoặc <b>T-score &lt; -1,5 SD</b> (kèm có YTNC).",
+    "extra": "• Sự xuất hiện của một biến chứng gãy xương sau chấn thương nhẹ ở người già là bằng chứng lâm sàng trực tiếp khẳng định sức mạnh xương đã suy giảm nghiêm trọng."
+  },
+  {
+    "type": "basic",
+    "front": "Kể tên các thuốc Bisphosphonate dạng uống (liều dùng), dạng truyền tĩnh mạch và 5 QUY TẮC UỐNG BẮT BUỘC để tránh loét thực quản?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Dạng uống:</b><br>  - <i>Alendronat (Fosamax):</i> 10 mg/ngày hoặc viên <b>70 mg/tuần</b> (Fosamax Plus: Alendronat 70 mg + 2800 UI Cholecalciferol).<br>  - <i>Risedronat (Actonel):</i> 5 mg/ngày hoặc viên <b>35 mg/tuần</b>.<br>• <b>Dạng truyền tĩnh mạch:</b> <i>Acid Zoledronic (Aclasta 5 mg/100 mL):</i> <b>Truyền TM 1 lần duy nhất mỗi năm</b>.<br><br>• <b>5 QUY TẮC UỐNG BISPHOSPHONATE (BẮT BUỘC):</b><br>  1. Uống vào <b>buổi sáng sớm khi dạ dày hoàn toàn trống rỗng (uống lúc đói)</b>.<br>  2. Uống với <b>một cốc nước lọc đầy (≥ 200 mL)</b>.<br>  3. Uống trước bữa ăn sáng <b>ít nhất 30 phút</b>.<br>  4. <b>PHẢI GIỮ TƯ THẾ ĐỨNG HOẶC NGỒI THẲNG, TUYỆT ĐỐI KHÔNG ĐƯỢC NẰM trong ít nhất 30 phút sau uống</b> (để chống trào ngược gây loét thực quản).<br>  5. <i>Tác dụng phụ:</i> Kích ứng đường tiêu hóa (viêm thực quản, loét dạ dày, nuốt khó).",
+    "extra": "• Sinh khả dụng đường uống của Bisphosphonate rất thấp (< 1%), nếu uống cùng thức ăn hoặc sữa thì thuốc sẽ bị mất tác dụng hoàn toàn.<br>• Bisphosphonate gắn chặt vào tinh thể hydroxyapatite và lưu lại trong xương nhiều năm."
+  },
+  {
+    "type": "basic",
+    "front": "Chỉ định, ưu điểm, chống chỉ định và lưu ý xử trí tác dụng phụ sau truyền của Acid Zoledronic (Aclasta 5 mg)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Liều lượng & Đường dùng:</b> Aclasta 5 mg/100 mL, <b>truyền tĩnh mạch 1 lần/năm</b>.<br>• <b>Ưu điểm:</b> Sinh khả dụng 100%, không gây tác dụng phụ đường tiêu hóa, tối ưu hóa tuân thủ điều trị.<br>• <b>Chống chỉ định tuyệt đối:</b> <b>Mức lọc cầu thận eGFR &lt; 35 mL/phút</b>, hạ calci máu chưa điều chỉnh.<br>• <b>Lưu ý & Xử trí:</b><br>  - Phải bù đủ nước (uống ≥ 500 mL nước), bổ sung calci và vitamin D trước khi truyền.<br>  - Dùng <b>Paracetamol (Acetaminophen)</b> để dự phòng và điều trị phản ứng giả cúm sau truyền (sốt nhẹ, đau cơ khớp, đau đầu trong 1 – 3 ngày đầu).",
+    "extra": "• Phản ứng giả cúm (acute phase reaction) xuất hiện ở khoảng 20 – 30% bệnh nhân trong lần truyền đầu tiên do giải phóng cytokine tạm thời."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc Bisphosphonate truyền tĩnh mạch 1 lần/năm là {{c1::Acid Zoledronic (Aclasta 5 mg)}}; thuốc có chống chỉ định tuyệt đối khi mức lọc cầu thận {{c1::eGFR &lt; 35 mL/phút}}. Thuốc uống tuần gồm Alendronat viên {{c1::70 mg/tuần}} hoặc Risedronat viên {{c1::35 mg/tuần}}.",
+    "extra": "Sau khi uống Bisphosphonate phải giữ tư thế đứng/ngồi thẳng ít nhất 30 phút để chống loét thực quản."
+  },
+  {
+    "type": "basic",
+    "front": "Calcitonin: Nguồn gốc, liều dùng, ĐẶC TÍNH ĐỘC NHẤT và nguyên tắc thời gian sử dụng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Nguồn gốc & Liều lượng:</b> Chiết xuất từ cá hồi (Miacalcic); liều <b>100 UI tiêm dưới da/bắp</b> hoặc <b>200 UI xịt qua niêm mạc mũi hàng ngày</b>.<br>• <b>Đặc tính độc nhất:</b> Là <b>thuốc chống loãng xương DUY NHẤT có tác dụng GIẢM ĐAU nhanh</b>.<br>• <b>Nguyên tắc sử dụng:</b> <b>Chỉ dùng NGẮN NGÀY (2 – 4 tuần)</b> trong các trường hợp mới gãy xương, lún xẹp đốt sống cấp có đau nhiều. <b>Không dùng dài ngày</b>; khi bệnh nhân giảm đau thì chuyển sang nhóm Bisphosphonates.",
+    "extra": "• Calcitonin giảm đau qua cơ chế kích thích giải phóng beta-endorphin trung ương.<br>• Không dùng kéo dài Calcitonin do tăng nhẹ nguy cơ ung thư và hiện tượng dung nạp thuốc (thoái hóa thụ thể)."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc chống loãng xương duy nhất có tác dụng giảm đau là {{c1::Calcitonin (Miacalcic)}}. Thuốc chỉ được chỉ định ngắn ngày trong thời gian {{c1::2 – 4 tuần}} khi mới gãy xương hoặc lún xẹp đốt sống cấp.",
+    "extra": "Sau khi hết đau, bệnh nhân phải được chuyển sang thuốc điều trị nền tảng như Bisphosphonate."
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế, liều dùng, hiệu quả và chống chỉ định của thuốc tăng tạo xương Teriparatide (PTH 1-34 / Forsteo)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Bản chất & Cơ chế:</b> Hormon cận giáp tái tổ hợp (PTH 1-34); kích thích trực tiếp tạo cốt bào $\\rightarrow$ <b>tăng sinh và tạo xương mới</b>.<br>• <b>Liều dùng:</b> <b>20 – 40 µg/ngày tiêm dưới da</b>.<br>• <b>Hiệu quả:</b> Giảm <b>65%</b> nguy cơ gãy xương đốt sống và giảm <b>54%</b> nguy cơ gãy xương ngoài đốt sống sau 18 tháng điều trị.<br>• <b>Chống chỉ định:</b> Bệnh nhân có nguy cơ ung thư xương (tiền sử xạ trị vùng xương, bệnh Paget xương, tăng calci máu chưa rõ nguyên nhân).",
+    "extra": "• Trong khi PTH bài tiết liên tục gây hủy xương (như trong cường cận giáp), thì việc tiêm ngắt quãng PTH 1 lần/ngày lại kích thích ưu thế tạo xương mạnh mẽ."
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế tác dụng kép của Strontium ranelat (Protos) và vai trò của SERMs (Raloxifen)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Strontium ranelat (Protos):</b><br>  - <i>Cơ chế tác dụng kép:</i> Vừa kích thích <b>tăng tạo xương</b> vừa <b>ức chế hủy xương</b>.<br>  - <i>Liều dùng:</i> Gói <b>2 g/ngày</b> uống vào buổi tối (sau ăn 2 giờ, trước khi đi ngủ).<br>  - <i>Chỉ định:</i> Dùng cho bệnh nhân chống chỉ định hoặc không dung nạp nhóm Bisphosphonates.<br>• <b>Raloxifen (Evista):</b><br>  - Thuốc điều hòa chọn lọc thụ thể Estrogen (SERMs); viên <b>60 mg uống 1 lần/ngày</b> trong thời gian ≤ 2 năm.<br>  - Chỉ định cho phụ nữ sau mãn kinh có nguy cơ cao hoặc loãng xương sau mãn kinh.",
+    "extra": "• Raloxifen có tác dụng chủ vận estrogen trên xương (giảm hủy xương) nhưng lại đối kháng estrogen trên mô vú và tử cung (không gây quá sản nội mạc tử cung hay ung thư vú)."
+  },
+  {
+    "type": "basic",
+    "front": "Các phương pháp điều trị ngoại khoa biến chứng gãy xương do loãng xương (gãy cổ xương đùi, lún xẹp đốt sống)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Gãy cổ xương đùi:</b> Phẫu thuật bắt vít xốp, thay chỏm xương đùi hoặc <b>thay toàn bộ khớp háng</b> (giúp bệnh nhân vận động sớm, tránh biến chứng nằm liệt).<br>• <b>Lún xẹp đốt sống gây biến dạng & đau đớn:</b> Phục hồi chiều cao đốt sống bằng phương pháp <b>bơm xi măng sinh học vào thân đốt sống (Vertebroplasty / Kyphoplasty)</b> hoặc thay đốt sống nhân tạo.",
+    "extra": "• Bơm xi măng sinh học (Vertebroplasty/Kyphoplasty) giúp làm vững thân đốt sống và giảm đau cột sống tức thì trong vòng 24 – 48 giờ."
+  },
+  {
+    "type": "basic",
+    "front": "Thời gian của một liệu trình điều trị loãng xương và khoảng thời gian đo lại mật độ xương (DXA) định kỳ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Thời gian điều trị một liệu trình:</b> Phải kéo dài từ <b>3 – 5 năm</b> (tùy mức độ loãng xương), sau đó đánh giá lại toàn diện để quyết định tạm dừng (drug holiday) hoặc đổi phác đồ.<br>• <b>Theo dõi mật độ xương (DXA):</b> Đo lại mật độ xương định kỳ <b>mỗi 2 năm một lần</b> tại cùng một cơ sở máy đo.<br>• <b>Markers chu chuyển xương:</b> Định lượng sau <b>3 – 6 tháng</b> để kiểm tra đáp ứng điều trị sớm.",
+    "extra": "• Sau 3 – 5 năm dùng Bisphosphonate, mật độ xương đã bão hòa và nguy cơ tác dụng phụ hiếm gặp (hoại tử xương hàm, gãy xương đùi không điển hình) tăng lên, do đó bác sĩ có thể cân nhắc cho bệnh nhân 'nghỉ thuốc' (drug holiday) 1 – 2 năm."
+  },
+  {
+    "type": "cloze",
+    "text": "Thời gian của một liệu trình điều trị thuốc loãng xương kéo dài từ {{c1::3 – 5 năm}}. Đánh giá lại mật độ xương bằng phương pháp DXA định kỳ {{c1::mỗi 2 năm một lần}}.",
+    "extra": "Các marker chu chuyển xương có thể định lượng sớm sau 3 - 6 tháng điều trị để đánh giá đáp ứng."
+  },
+  {
+    "type": "basic",
+    "front": "Phân biệt Phòng bệnh Loãng xương Cấp 1 (toàn dân) và Dự phòng Cấp 2 (nhóm nguy cơ cao)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Phòng bệnh Cấp 1 (Tiên phát - Toàn dân):</b><br>  - Cung cấp đủ Calci (1.000 mg/ngày) và Vitamin D (800 UI/ngày) từ nhỏ để đạt <b>đỉnh khối lượng xương tối đa</b> ở tuổi 25.<br>  - Vận động thể lực thường xuyên, tiếp xúc ánh nắng, bỏ thuốc lá, hạn chế rượu bia, cà phê.<br>• <b>Phòng bệnh Cấp 2 (Thứ phát - Nhóm nguy cơ cao):</b><br>  - <i>Đối tượng:</i> Bệnh nhân có <b>Thiếu xương (T-score từ -1,5 đến -2,4 SD)</b> KÈM THEO nhiều yếu tố nguy cơ: Phải dùng <b>Corticoid kéo dài</b>, tiền sử gia đình có cha mẹ gãy xương, hoặc nguy cơ té ngã cao.<br>  - <i>Xử trí:</i> Chỉ định dùng <b>Bisphosphonates liều dự phòng</b> phối hợp Calci và Vitamin D để ngăn tiến triển thành loãng xương thực thụ.",
+    "extra": "• Dự phòng cấp 2 bằng Bisphosphonate ở bệnh nhân dùng corticoid liều cao giúp bảo tồn mật độ bè xương ngay từ giai đoạn sớm."
+  }
+]

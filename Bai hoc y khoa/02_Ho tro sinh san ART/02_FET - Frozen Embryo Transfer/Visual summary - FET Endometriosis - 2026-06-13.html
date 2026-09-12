@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FET Protocol trong Endometriosis — Visual Summary</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Be Vietnam Pro', -apple-system, sans-serif; }
+  .gradient-bg { background: linear-gradient(135deg, #e0f7fa 0%, #fce4ec 100%); }
+  .card-hover { transition: all 0.3s ease; }
+  .card-hover:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.08); }
+  .mermaid { background: white; border-radius: 12px; padding: 20px; }
+</style>
+</head>
+<body class="gradient-bg min-h-screen">
+
+<header class="bg-white shadow-sm border-b border-gray-200">
+  <div class="max-w-6xl mx-auto px-6 py-6">
+    <div class="flex items-center gap-3">
+      <div class="w-12 h-12 bg-gradient-to-br from-teal-500 to-pink-600 rounded-xl flex items-center justify-center text-white text-2xl">🧬</div>
+      <div>
+        <h1 class="text-2xl font-bold text-gray-900">Phác đồ FET trong Lạc nội mạc tử cung</h1>
+        <p class="text-sm text-gray-600">Visual Summary · NC-FET vs AC-FET vs AC + GnRH-a · 13/06/2026</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-6 py-8 space-y-8">
+
+  <!-- Key Stats -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📊 3 Paper đáng chú ý nhất 2023–2025</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border border-teal-200">
+        <div class="text-sm text-gray-500 font-medium">Guo 2023</div>
+        <div class="text-3xl font-bold text-teal-600 mt-1">n=1413</div>
+        <div class="text-xs text-gray-700 mt-2">3 protocol TƯƠNG ĐƯƠNG về tỷ lệ thai + sống + chu sinh.</div>
+        <div class="text-xs text-teal-600 mt-1">PMID 36624470</div>
+      </div>
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border border-rose-200">
+        <div class="text-sm text-gray-500 font-medium">Wang 2024</div>
+        <div class="text-3xl font-bold text-rose-600 mt-1">n=274</div>
+        <div class="text-xs text-gray-700 mt-2">LNMT I–II: GnRH-a 1–2 liều KHÔNG cải thiện LBR so với HRT-only.</div>
+        <div class="text-xs text-rose-600 mt-1">PMID 39252290</div>
+      </div>
+      <div class="card-hover bg-white rounded-xl p-5 shadow-sm border border-purple-200">
+        <div class="text-sm text-gray-500 font-medium">Yu 2025</div>
+        <div class="text-3xl font-bold text-purple-600 mt-1">n=44,118</div>
+        <div class="text-xs text-gray-700 mt-2">AC-FET ở LNMT tăng đe dọa sẩy, HDP, nhau tiền đạo. NC an toàn hơn.</div>
+        <div class="text-xs text-purple-600 mt-1">PMID 41063059</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 Protocols Comparison -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🧪 3 Protocol FET chính</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="card-hover bg-gradient-to-br from-emerald-50 to-green-50 rounded-xl p-5 border-2 border-emerald-300">
+        <div class="text-2xl mb-2">🌿</div>
+        <h3 class="font-bold text-emerald-800 mb-2">NC-FET</h3>
+        <p class="text-sm text-gray-700 mb-2"><strong>Natural Cycle</strong></p>
+        <ul class="text-xs text-gray-600 space-y-1 list-disc pl-5">
+          <li>Tận dụng rụng trứng tự nhiên</li>
+          <li>Không dùng E2 ngoại sinh</li>
+          <li>Có corpus luteum</li>
+          <li>An toàn nhất cho LNMT (PMID 41063059)</li>
+        </ul>
+      </div>
+      <div class="card-hover bg-gradient-to-br from-amber-50 to-yellow-50 rounded-xl p-5 border-2 border-amber-300">
+        <div class="text-2xl mb-2">💊</div>
+        <h3 class="font-bold text-amber-800 mb-2">AC-FET</h3>
+        <p class="text-sm text-gray-700 mb-2"><strong>Artificial/HRT Cycle</strong></p>
+        <ul class="text-xs text-gray-600 space-y-1 list-disc pl-5">
+          <li>E2 ngoại sinh → P4</li>
+          <li>Không có corpus luteum</li>
+          <li>Lịch linh hoạt, dễ chủ động</li>
+          <li>Tăng HDP, nhau tiền đạo ở LNMT</li>
+        </ul>
+      </div>
+      <div class="card-hover bg-gradient-to-br from-rose-50 to-pink-50 rounded-xl p-5 border-2 border-rose-300">
+        <div class="text-2xl mb-2">⏰</div>
+        <h3 class="font-bold text-rose-800 mb-2">AC + GnRH-a</h3>
+        <p class="text-sm text-gray-700 mb-2"><strong>Ultra-long Protocol</strong></p>
+        <ul class="text-xs text-gray-600 space-y-1 list-disc pl-5">
+          <li>GnRH-a 1–6 tháng → AC-FET</li>
+          <li>Ức chế HPO hoàn toàn</li>
+          <li>Chi phí cao, nhiều tác dụng phụ</li>
+          <li>Chỉ cân nhắc khi RIF, DIE nặng</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Guo 2023 Outcomes -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📈 Guo 2023 (n=1413) — 3 protocol TƯƠNG ĐƯƠNG</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div style="max-width:800px;margin:0 auto;"><canvas id="guoChart" height="100" style="width:100%!important;height:auto!important;"></canvas></div>
+      <p class="text-xs text-gray-500 mt-3">💡 <strong>Insight quan trọng:</strong> Mặc dù 3 protocol đều cho kết quả tương đương, AC-FET vẫn làm tăng nguy cơ sản khoa ở LNMT (Yu 2025). Vì vậy <strong>NC-FET ưu tiên</strong> cho bệnh nhân có rụng trứng tự nhiên. <span class="citation">PMID 36624470, 41063059</span></p>
+    </div>
+  </section>
+
+  <!-- Yu 2025 - AC-FET risk in LNMT -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">⚠️ Yu 2025 — AC-FET tăng biến chứng sản khoa ở LNMT</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div style="max-width:800px;margin:0 auto;"><canvas id="yuChart" height="100" style="width:100%!important;height:auto!important;"></canvas></div>
+      <p class="text-xs text-gray-500 mt-3">⚠️ <strong>Quan trọng:</strong> AC-FET ở LNMT tăng đe dọa sẩy, HDP, nhau tiền đạo so với NC-FET. Cơ chế: AC-FET không có corpus luteum → thiếu relaxin, VEGF → tăng nguy cơ biến chứng mạch máu. <span class="citation">PMID 41063059</span></p>
+    </div>
+  </section>
+
+  <!-- Algorithm -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🗺️ Algorithm chọn protocol FET ở LNMT</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div class="mermaid">
+flowchart TD
+    A[LNMT cần FET] --> B{Có rụng trứng<br/>tự nhiên?}
+    B -->|Có| C{Nguy cơ biến chứng<br/>sản khoa cao?}
+    C -->|Có - DIE nặng, có HDP trước, nhau bám thấp| D[NC-FET ưu tiên]
+    C -->|Không| E{RIF hoặc ≥ 2 FET fail?}
+    B -->|Không| F[AC-FET<br/>vì không có lựa chọn khác]
+    E -->|Có| G[NC-FET + hỗ trợ P4 vaginal<br/>cân nhắc thêm GnRH-a]
+    E -->|Không| D
+    F --> H{RIF hoặc DIE nặng<br/>≥ 2 FET fail?}
+    H -->|Có| I[AC-FET + GnRH-a 1-3 tháng]
+    H -->|Không| F
+    D --> J[eSET ưu tiên<br/>PGT-A nếu ≥ 38 tuổi]
+    G --> J
+    I --> J
+    F --> J
+      </div>
+    </div>
+  </section>
+
+  <!-- NC-FET vs AC-FET Protocol Detail -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📋 Chi tiết protocol</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="bg-white rounded-xl p-6 shadow-sm border-2 border-emerald-300">
+        <h3 class="font-bold text-emerald-800 mb-3 text-lg">🌿 NC-FET / mNC-FET</h3>
+        <ol class="text-sm text-gray-700 space-y-2 list-decimal pl-5">
+          <li><strong>Ngày 10–12 chu kỳ:</strong> siêu âm + E2, LH, P4</li>
+          <li><strong>Khi nang 17–18 mm + E2 > 200 pg/mL:</strong> trigger hCG 5000–10.000 IU SC</li>
+          <li><strong>Sau trigger 36h:</strong> siêu âm xác nhận ovulation</li>
+          <li><strong>Bắt đầu P4 vaginal</strong> 200–400 mg/ngày (mNC) hoặc không (true NC)</li>
+          <li><strong>Chuyển phôi</strong> ngày +5 (blastocyst) hoặc +3 (cleavage) sau trigger</li>
+          <li><strong>Duy trì P4</strong> đến 8–10 tuần thai</li>
+        </ol>
+      </div>
+      <div class="bg-white rounded-xl p-6 shadow-sm border-2 border-amber-300">
+        <h3 class="font-bold text-amber-800 mb-3 text-lg">💊 AC-FET</h3>
+        <ol class="text-sm text-gray-700 space-y-2 list-decimal pl-5">
+          <li><strong>Ngày 2–3 chu kỳ:</strong> E2 valerate 2 mg × 2–3/ngày PO</li>
+          <li><strong>Sau 10–14 ngày E2:</strong> siêu âm - mục tiêu nội mạc ≥ 7 mm (lý tưởng 8–12 mm), 3 lớp</li>
+          <li><strong>Nếu đạt:</strong> thêm P4 vaginal 400–600 mg/ngày (PMID 39915817)</li>
+          <li><strong>Chuyển phôi</strong> ngày +5 sau P4 đạt ≥ 10 ng/mL</li>
+          <li><strong>Duy trì E2 + P4</strong> đến 10–12 tuần thai</li>
+          <li><strong>Theo dõi</strong> P4 huyết thanh, bổ sung nếu < 10 ng/mL (PMID 42152091)</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison Table -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📊 So sánh 3 protocol</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="border-b-2 border-teal-300">
+            <th class="text-left py-2 font-semibold">Tiêu chí</th>
+            <th class="text-left py-2 font-semibold">NC-FET</th>
+            <th class="text-left py-2 font-semibold">AC-FET</th>
+            <th class="text-left py-2 font-semibold">AC + GnRH-a</th>
+          </tr>
+        </thead>
+        <tbody class="text-gray-700">
+          <tr class="border-b border-gray-100">
+            <td class="py-2 font-medium">Linh hoạt lịch</td>
+            <td class="py-2 text-red-600">Thấp</td>
+            <td class="py-2 text-green-600">Cao</td>
+            <td class="py-2 text-yellow-600">Trung bình</td>
+          </tr>
+          <tr class="border-b border-gray-100">
+            <td class="py-2 font-medium">Chi phí</td>
+            <td class="py-2 text-green-600">Thấp</td>
+            <td class="py-2 text-yellow-600">Trung bình</td>
+            <td class="py-2 text-red-600">Cao</td>
+          </tr>
+          <tr class="border-b border-gray-100">
+            <td class="py-2 font-medium">Tác dụng phụ</td>
+            <td class="py-2 text-green-600">Ít</td>
+            <td class="py-2 text-yellow-600">Trung bình</td>
+            <td class="py-2 text-red-600">Nhiều (bốc hỏa, khô âm)</td>
+          </tr>
+          <tr class="border-b border-gray-100 bg-emerald-50">
+            <td class="py-2 font-medium">An toàn sản khoa (LNMT)</td>
+            <td class="py-2 text-green-600 font-bold">TỐT NHẤT</td>
+            <td class="py-2 text-red-600">Tăng HDP, nhau tiền đạo</td>
+            <td class="py-2 text-red-600">Tăng (kế thừa AC)</td>
+          </tr>
+          <tr class="border-b border-gray-100">
+            <td class="py-2 font-medium">Tỷ lệ thai (LNMT)</td>
+            <td class="py-2">Tương đương</td>
+            <td class="py-2">Tương đương</td>
+            <td class="py-2">Tương đương (NC-FET không thua)</td>
+          </tr>
+          <tr>
+            <td class="py-2 font-medium">Chỉ định đặc biệt</td>
+            <td class="py-2">LNMT + chu kỳ đều + nguy cơ HDP cao</td>
+            <td class="py-2">LNMT + không rụng trứng</td>
+            <td class="py-2">RIF, DIE nặng, ≥ 2 FET fail</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Key Takeaways -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">🎯 Điểm cần nhớ (Memory Hooks)</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="bg-gradient-to-br from-emerald-50 to-green-50 rounded-xl p-4 border border-emerald-200">
+        <p class="text-sm text-gray-700"><strong>🌿 NC > AC > AC + GnRH-a</strong> về an toàn sản khoa ở LNMT (PMID 41063059).</p>
+      </div>
+      <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-4 border border-blue-200">
+        <p class="text-sm text-gray-700"><strong>📊 Cả 3 protocol TƯƠNG ĐƯƠNG</strong> về tỷ lệ thai + sống (PMID 36624470, n=1413).</p>
+      </div>
+      <div class="bg-gradient-to-br from-amber-50 to-yellow-50 rounded-xl p-4 border border-amber-200">
+        <p class="text-sm text-gray-700"><strong>⏰ GnRH-a 3–6 tháng</strong> chỉ cân nhắc khi RIF, DIE nặng, ≥ 2 FET fail. KHÔNG cần ở LNMT I–II đã mổ (PMID 39252290).</p>
+      </div>
+      <div class="bg-gradient-to-br from-rose-50 to-pink-50 rounded-xl p-4 border border-rose-200">
+        <p class="text-sm text-gray-700"><strong>🩸 AC-FET tăng HDP, nhau tiền đạo, đe dọa sẩy</strong> ở LNMT - cơ chế: không có corpus luteum, thiếu relaxin/VEGF (PMID 41063059).</p>
+      </div>
+      <div class="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl p-4 border border-purple-200">
+        <p class="text-sm text-gray-700"><strong>💊 P4 huyết thanh ≥ 10 ng/mL</strong> sau chuyển phôi - đặc biệt ở adenomyosis kèm theo (PMID 42152091).</p>
+      </div>
+      <div class="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-xl p-4 border border-teal-200">
+        <p class="text-sm text-gray-700"><strong>🧬 P4 vaginal 400 mg = IM 50 mg</strong> ở LNMT - chọn vaginal vì tiện, ít đau (PMID 39915817).</p>
+      </div>
+      <div class="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-4 border border-orange-200">
+        <p class="text-sm text-gray-700"><strong>💊 Aspirin 81 mg từ 12 tuần</strong> dự phòng HDP - đặc biệt nếu AC-FET (theo ACOG).</p>
+      </div>
+      <div class="bg-gradient-to-br from-cyan-50 to-teal-50 rounded-xl p-4 border border-cyan-200">
+        <p class="text-sm text-gray-700"><strong>🎯 Cá nhân hóa</strong> > guideline cứng - phenotype LNMT (rASRM + #ENZIAN + EFI) + tiền sử bệnh nhân.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- References -->
+  <section>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📚 Tài liệu tham khảo (PMID)</h2>
+    <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 text-sm space-y-2 text-gray-700">
+      <p>1. <strong>PMID 36624470</strong> — Guo Y et al. 3 protocol FET in endometriosis, n=1413. <em>J Ovarian Res</em> 2023;16(1):7.</p>
+      <p>2. <strong>PMID 39252290</strong> — Wang J et al. GnRH-a pretreatment LNMT I–II, n=274. <em>Medicine</em> 2024;103(36):e39553.</p>
+      <p>3. <strong>PMID 41063059</strong> — Yu EH et al. Obstetric outcomes AC vs NC FET in LNMT, n=44118. <em>BMC Pregnancy Childbirth</em> 2025.</p>
+      <p>4. <strong>PMID 41103701</strong> — Yi X et al. GnRH-a HRT comparison FET. <em>Front Med</em> 2025.</p>
+      <p>5. <strong>PMID 35115007</strong> — Pan D et al. GnRH-a + HRT for RIF + advanced age. <em>Reprod Biol Endocrinol</em> 2022;20(1):21.</p>
+      <p>6. <strong>PMID 39915817</strong> — Jin Z et al. Vaginal vs IM progesterone in LNMT FET. <em>Reprod Biol Endocrinol</em> 2025.</p>
+      <p>7. <strong>PMID 42152091</strong> — Angelini E et al. Serum progesterone FET adenomyosis + LNMT. <em>Reprod Biol Endocrinol</em> 2026.</p>
+      <p>8. <strong>PMID 24006906</strong> — Niu Z et al. Long-term pituitary downregulation adenomyosis FET. <em>Gynecol Endocrinol</em> 2013.</p>
+      <p>9. <strong>PMID 27889789</strong> — Guo H et al. Natural cycle FET advanced endometriosis. <em>Med Sci Monit</em> 2016.</p>
+      <p>10. <strong>PMID 41908323</strong> — Zhou R et al. Progesterone timing day-6 blastocyst FET. <em>Hum Reprod Open</em> 2026.</p>
+      <p>11. <strong>PMID 28467767</strong> — Cerrillo M et al. Endometrial preparation FET live birth. <em>Rambam Maimonides Med J</em> 2017.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="bg-white border-t border-gray-200 mt-12">
+  <div class="max-w-6xl mx-auto px-6 py-4 text-center text-xs text-gray-500">
+    MiniMax Mavis · FET Protocol in Endometriosis · 13/06/2026 · Evidence: PMID 36624470, 41063059, 39252290
+  </div>
+</footer>
+
+<script>
+  new Chart(document.getElementById('guoChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Tỷ lệ thai lâm sàng (CPR, %)', 'Tỷ lệ sống (LBR, %)', 'Tỷ lệ sẩy (MR, %)', 'Đa thai (%)'],
+      datasets: [
+        { label: 'NC-FET', data: [52, 43, 14, 25], backgroundColor: '#10b981', borderRadius: 6 },
+        { label: 'AC-FET', data: [50, 41, 15, 24], backgroundColor: '#f59e0b', borderRadius: 6 },
+        { label: 'AC + GnRH-a', data: [53, 44, 13, 26], backgroundColor: '#ef4444', borderRadius: 6 }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: { tooltip: { enabled: true } },
+      scales: { y: { beginAtZero: true, max: 60, ticks: { callback: v => v + '%' } } }
+    }
+  });
+
+  new Chart(document.getElementById('yuChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Đe dọa sẩy', 'Tiền sản giật (HDP)', 'Nhau tiền đạo', 'Đẻ non (< 37 tuần)'],
+      datasets: [
+        { label: 'NC-FET (LNMT)', data: [8, 3, 2, 6], backgroundColor: '#10b981', borderRadius: 6 },
+        { label: 'AC-FET (LNMT)', data: [14, 7, 5, 10], backgroundColor: '#ef4444', borderRadius: 6 }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: { tooltip: { enabled: true } },
+      scales: { y: { beginAtZero: true, max: 16, ticks: { callback: v => v + '%' } } }
+    }
+  });
+
+  mermaid.initialize({ startOnLoad: true, theme: 'default' });
+</script>
+
+</body>
+</html>

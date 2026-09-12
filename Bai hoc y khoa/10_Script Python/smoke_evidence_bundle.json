@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-07-29T09:57:48.349231Z",
+  "providers": [
+    "europe_pmc_metadata",
+    "europe_pmc_oa_full_text",
+    "crossref_retraction_watch",
+    "openalex",
+    "official_source"
+  ],
+  "records": {
+    "pmid:29910186": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "29910186",
+        "pmcid": "PMC6084407",
+        "doi": "10.1016/j.str.2018.05.001",
+        "openalex": "https://openalex.org/W2808555331"
+      },
+      "title": "Structural Basis of Phosphatidic Acid Sensing by APH in Apicomplexan Parasites.",
+      "abstract": "Plasmodium falciparum and Toxoplasma gondii are obligate intracellular parasites that belong to the phylum of Apicomplexa and cause major human diseases. Their access to an intracellular lifestyle is reliant on the coordinated release of proteins from the specialized apical organelles called micronemes and rhoptries. A specific phosphatidic acid effector, the acylated pleckstrin homology domain-containing protein (APH) plays a central role in microneme exocytosis and thus is essential for motility, cell entry, and egress. TgAPH is acylated on the surface of the micronemes and recruited to phosphatidic acid (PA)-enriched membranes. Here, we dissect the atomic details of APH PA-sensing hub and its functional interaction with phospholipid membranes. We unravel the key determinant of PA recognition for the first time and show that APH inserts into and clusters multiple phosphate head-groups at the bilayer binding surface.",
+      "journal": "Structure (London, England : 1993)",
+      "year": "2018",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "Microneme",
+        "Phosphatidic acid",
+        "Rhoptry",
+        "Biology",
+        "Cell biology",
+        "Exocytosis",
+        "Pleckstrin homology domain",
+        "Phosphatidylinositol",
+        "Biochemistry",
+        "Apicomplexa",
+        "Intracellular",
+        "Plasmodium falciparum",
+        "Signal transduction",
+        "Phospholipid",
+        "Secretion",
+        "Membrane"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "5751da61d46321e61efde634c137c8477f6f28eb919489dd69252366c4ce3ae5",
+        "c412d800318214febcc7e6133721d15b8e83d6a41878ebe9d899643ad2204ed5",
+        "09f2ab8837d45909aafd132c086154fb49d2ac54b850d25646aec4059d1e7a66",
+        "1339a6eb697a5f4c0eeb0726d86ee9992ef463c9d54f610cbdd0732879d31b24"
+      ],
+      "metadata_checked_at": "2026-07-29T09:57:48.349231Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "pmcid": "PMC6084407",
+        "sha256": "1339a6eb697a5f4c0eeb0726d86ee9992ef463c9d54f610cbdd0732879d31b24"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T09:57:48.349231Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:27235445": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "27235445",
+        "pmcid": null,
+        "doi": "10.1373/clinchem.2016.258897",
+        "openalex": "https://openalex.org/W2397537668"
+      },
+      "title": "Fasting Is Not Routinely Required for Determination of a Lipid Profile: Clinical and Laboratory Implications Including Flagging at Desirable Concentration Cutpoints-A Joint Consensus Statement from the European Atherosclerosis Society and European Federation of Clinical Chemistry and Laboratory Medicine.",
+      "abstract": "<h4>Aims</h4>To critically evaluate the clinical implications of the use of non-fasting rather than fasting lipid profiles and to provide guidance for the laboratory reporting of abnormal non-fasting or fasting lipid profiles.<h4>Methods and results</h4>Extensive observational data, in which random non-fasting lipid profiles have been compared with those determined under fasting conditions, indicate that the maximal mean changes at 1-6 h after habitual meals are not clinically significant [+0.3 mmol/L (26 mg/dL) for triglycerides; -0.2 mmol/L (8 mg/dL) for total cholesterol; -0.2 mmol/L (8 mg/dL) for LDL cholesterol; +0.2 mmol/L (8 mg/dL) for calculated remnant cholesterol; -0.2 mmol/L (8 mg/dL) for calculated non-HDL cholesterol]; concentrations of HDL cholesterol, apolipoprotein A1, apolipoprotein B, and lipoprotein(a) are not affected by fasting/non-fasting status. In addition, non-fasting and fasting concentrations vary similarly over time and are comparable in the prediction of cardiovascular disease. To improve patient compliance with lipid testing, we therefore recommend the routine use of non-fasting lipid profiles, whereas fasting sampling may be considered when non-fasting triglycerides are >5 mmol/L (440 mg/dL). For non-fasting samples, laboratory reports should flag abnormal concentrations as triglycerides ≥2 mmol/L (175 mg/dL), total cholesterol ≥5 mmol/L (190 mg/dL), LDL cholesterol ≥3 mmol/L (115 mg/dL), calculated remnant cholesterol ≥0.9 mmol/L (35 mg/dL), calculated non-HDL cholesterol ≥3.9 mmol/L (150 mg/dL), HDL cholesterol ≤1 mmol/L (40 mg/dL), apolipoprotein A1 ≤1.25 g/L (125 mg/dL), apolipoprotein B ≥1.0 g/L (100 mg/dL), and lipoprotein(a) ≥50 mg/dL (80th percentile); for fasting samples, abnormal concentrations correspond to triglycerides ≥1.7 mmol/L (150 mg/dL). Life-threatening concentrations require separate referral for the risk of pancreatitis when triglycerides are >10 mmol/L (880 mg/dL), for homozygous familial hypercholesterolemia when LDL cholesterol is >13 mmol/L (500 mg/dL), for heterozygous familial hypercholesterolemia when LDL cholesterol is >5 mmol/L (190 mg/dL), and for very high cardiovascular risk when lipoprotein(a) >150 mg/dL (99th percentile).<h4>Conclusions</h4>We recommend that non-fasting blood samples be routinely used for the assessment of plasma lipid profiles. Laboratory reports should flag abnormal values on the basis of desirable concentration cutpoints. Non-fasting and fasting measurements should be complementary but not mutually exclusive.",
+      "journal": "Clinical chemistry",
+      "year": "2016",
+      "publication_types": [
+        "Consensus Statement",
+        "Journal Article"
+      ],
+      "topics": [
+        "Flagging",
+        "Statement (logic)",
+        "Joint (building)",
+        "Medicine",
+        "Political science",
+        "Law",
+        "Engineering",
+        "Geography",
+        "Cartography"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "a914ff992873d1df075d31080858928173f6749c1939f1a9d6b73fbbe8a5ff51",
+        "0e3d5e44b9ab2633ed92fe6a7727fb80ffb8b700c1f3dd720386ad949f17e1b6",
+        "55841ea5aa54464e9550bca9960315e7d2e58a8d99da2ccc8bc4ab9a4661d1ea"
+      ],
+      "metadata_checked_at": "2026-07-29T09:57:48.349231Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T09:57:48.349231Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    }
+  },
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T09:57:48.349231Z",
+      "sha256": "5751da61d46321e61efde634c137c8477f6f28eb919489dd69252366c4ce3ae5",
+      "path": "raw/europe_pmc_metadata/5751da61d46321e61efde634c137c8477f6f28eb919489dd69252366c4ce3ae5.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T09:57:48.349231Z",
+      "sha256": "c412d800318214febcc7e6133721d15b8e83d6a41878ebe9d899643ad2204ed5",
+      "path": "raw/openalex/c412d800318214febcc7e6133721d15b8e83d6a41878ebe9d899643ad2204ed5.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T09:57:48.349231Z",
+      "sha256": "09f2ab8837d45909aafd132c086154fb49d2ac54b850d25646aec4059d1e7a66",
+      "path": "raw/crossref_retraction_watch/09f2ab8837d45909aafd132c086154fb49d2ac54b850d25646aec4059d1e7a66.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_oa_full_text",
+      "retrieved_at": "2026-07-29T09:57:48.349231Z",
+      "sha256": "1339a6eb697a5f4c0eeb0726d86ee9992ef463c9d54f610cbdd0732879d31b24",
+      "path": "raw/europe_pmc_oa_full_text/1339a6eb697a5f4c0eeb0726d86ee9992ef463c9d54f610cbdd0732879d31b24.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T09:57:48.349231Z",
+      "sha256": "a914ff992873d1df075d31080858928173f6749c1939f1a9d6b73fbbe8a5ff51",
+      "path": "raw/europe_pmc_metadata/a914ff992873d1df075d31080858928173f6749c1939f1a9d6b73fbbe8a5ff51.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T09:57:48.349231Z",
+      "sha256": "0e3d5e44b9ab2633ed92fe6a7727fb80ffb8b700c1f3dd720386ad949f17e1b6",
+      "path": "raw/openalex/0e3d5e44b9ab2633ed92fe6a7727fb80ffb8b700c1f3dd720386ad949f17e1b6.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T09:57:48.349231Z",
+      "sha256": "55841ea5aa54464e9550bca9960315e7d2e58a8d99da2ccc8bc4ab9a4661d1ea",
+      "path": "raw/crossref_retraction_watch/55841ea5aa54464e9550bca9960315e7d2e58a8d99da2ccc8bc4ab9a4661d1ea.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\evidence_cache",
+  "content_hash": "9aa4aa139989c634e7c121e92c35f78befcfc3e33d1015d9eeebed1d92669847"
+}

@@ -1,0 +1,679 @@
+[
+  {
+    "type": "basic",
+    "front": "Suy tim là gì? Nêu định nghĩa thống nhất (Universal Definition) năm 2021?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Suy tim là hội chứng lâm sàng phức tạp với triệu chứng điển hình (khó thở, mệt mỏi, phù chân) và dấu hiệu thực thể (tĩnh mạch cổ nổi, ran phổi, tiếng T3).<br>• Nguyên nhân: bất thường cấu trúc hoặc chức năng tim → tăng áp lực trong buồng tim HOẶC giảm cung lượng tim lúc nghỉ hoặc khi gắng sức.<br>• Chẩn đoán được xác nhận bởi nồng độ peptide lợi niệu tăng cao và bằng chứng khách quan của sung huyết phổi hoặc hệ thống (PMID 33605000).<br>• Phân loại giai đoạn: nguy cơ (at risk) → tiền suy tim (pre-HF) → suy tim có triệu chứng (symptomatic HF) → suy tim tiến triển (advanced HF).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Suy tim KHÔNG phải một con số LVEF. LVEF thấp chưa từng có triệu chứng = tiền suy tim (Stage B), không tự động là suy tim lâm sàng.",
+    "extra": "IM-22 P2 · Định nghĩa · Universal Definition 2021"
+  },
+  {
+    "type": "basic",
+    "front": "4 câu hỏi cốt lõi phải trả lời khi chẩn đoán suy tim?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• 1. Có suy tim hay không? (Triệu chứng + biomarker NP + siêu âm tim).<br>• 2. Phân loại suy tim theo LVEF là gì? (HFrEF, HFmrEF, HFpEF).<br>• 3. Mức độ nặng lâm sàng và giai đoạn bệnh ra sao? (NYHA I-IV, ACC/AHA A-D).<br>• 4. Nguyên nhân cơ bản và yếu tố thúc đẩy là gì? (Bệnh mạch vành, THA, van tim, cơ tim, loạn nhịp, suy thận, nhiễm trùng).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Câu 4 rất dễ bỏ quên — suy tim là hội chứng của một bệnh nền, phải tìm căn nguyên để điều trị trúng đích.",
+    "extra": "IM-22 P2 · Định nghĩa · 4 câu hỏi cốt lõi"
+  },
+  {
+    "type": "cloze",
+    "text": "Phân loại suy tim theo LVEF: HFrEF có LVEF {{c1::≤ 40%}}; HFmrEF có LVEF {{c1::41–49%}}; HFpEF có LVEF {{c1::≥ 50%}}; HFimpEF là LVEF ban đầu {{c1::≤ 40%}} sau đó hồi phục lên cao hơn.",
+    "extra": "IM-22 P2 · Phân loại · Ngưỡng LVEF"
+  },
+  {
+    "type": "basic",
+    "front": "4 giai đoạn ACC/AHA của suy tim là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Giai đoạn A: Nguy cơ cao chưa có bệnh tim cấu trúc (THA, ĐTĐ, bệnh mạch vành chưa tổn thương cơ tim).<br>• Giai đoạn B: Tiền suy tim — có bệnh cấu trúc tim nhưng chưa có triệu chứng.<br>• Giai đoạn C: Suy tim có triệu chứng lâm sàng hiện tại hoặc trước đây.<br>• Giai đoạn D: Suy tim tiến triển kháng trị, triệu chứng nặng ngay cả khi nghỉ ngơi.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>ACC/AHA là phân loại TIẾN TRIỂN MỘT CHIỀU A→B→C→D: điều trị hết khó thở không thể 'lùi' Stage C về Stage B — bẫy nhầm lẫn 7 trong bài.",
+    "extra": "IM-22 P2 · Phân loại · Giai đoạn ACC/AHA"
+  },
+  {
+    "type": "basic",
+    "front": "Phân độ NYHA I-IV trong suy tim?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• NYHA I: Không hạn chế hoạt động thể lực; vận động thông thường không gây khó thở, mệt mỏi, hồi hộp.<br>• NYHA II: Hạn chế nhẹ; thoải mái lúc nghỉ, nhưng vận động thông thường (đi bộ nhanh, leo cầu thang) gây khó thở.<br>• NYHA III: Hạn chế đáng kể; thoải mái lúc nghỉ, nhưng vận động nhẹ (đi bộ đoạn ngắn, mặc quần áo) đã khó thở.<br>• NYHA IV: Không thể vận động nào mà không khó chịu; triệu chứng xuất hiện ngay cả khi nghỉ ngơi.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Phân biệt: ACC/AHA mô tả TIẾN TRIỂN CẤU TRÚC bệnh; NYHA mô tả TRIỆU CHỨNG HIỆN TẠI — hai hệ phân loại độc lập, không thay thế nhau.",
+    "extra": "IM-22 P2 · Phân loại · NYHA I-IV"
+  },
+  {
+    "type": "basic",
+    "front": "Trình bày vòng xoắn bệnh lý giao cảm (SNS) trong suy tim?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tổn thương cơ tim → Giảm cung lượng tim → Kích hoạt hệ thần kinh giao cảm → Tăng noradrenaline.<br>• Tăng nhịp tim và sức co bóp → Tăng tiêu thụ oxy cơ tim → Chết tế bào cơ tim theo chương trình (apoptosis) → Suy tim tiến triển nặng hơn.<br>• Ví dụ: Nhịp tim nhanh kéo dài rút ngắn thời gian tâm trương, giảm tưới máu mạch vành.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Cơ chế bù trừ giúp sống sót trong ngắn hạn nhưng trở thành vòng xoắn phá hủy trong dài hạn — nền tảng cho chẹn beta trong điều trị.",
+    "extra": "IM-22 P2 · Sinh lý bệnh · Vòng xoắn giao cảm"
+  },
+  {
+    "type": "basic",
+    "front": "Trình bày vòng xoắn RAAS và hậu quả tái cấu trúc cơ tim (remodeling)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Giảm tưới máu thận → Kích hoạt RAAS → Giữ nước-muối tại ống thận + Co mạch hệ thống → Tăng tiền gánh và hậu gánh → Tăng áp lực thành thất → Suy tim nặng thêm.<br>• Remodeling: Tăng áp lực/thể tích thành thất → Phì đại tế bào cơ tim bù trừ → Xơ hóa mô kẽ do đọng collagen → Giảm đàn hồi + rối loạn co bóp → Giãn buồng tim hình cầu → Hở van hai lá thứ phát → Tăng gánh thất trái.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Hở van hai lá thứ phát do giãn vòng van ở cơ tim giãn nở là hậu quả điển hình của remodeling — khác hở van hai lá nguyên phát (thoái hóa van).",
+    "extra": "IM-22 P2 · Sinh lý bệnh · RAAS & Remodeling"
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế sung huyết phổi và sung huyết hệ thống trong suy tim?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sung huyết phổi: LVEDP tăng → áp lực nhĩ trái tăng → áp lực tĩnh mạch phổi/mao mạch phổi tăng → thoát dịch mô kẽ (Kerley B) → thoát dịch phế nang → phù phổi cấp.<br>• Sung huyết hệ thống: áp lực thất phải tăng → áp lực nhĩ phải tăng → áp lực tĩnh mạch chủ dưới và tĩnh mạch gan tăng → tĩnh mạch cổ nổi + gan to sung huyết + phù mềm hai chi dưới + tràn dịch đa màng.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Sung huyết trái biểu hiện ở PHỔI; sung huyết phải biểu hiện ở HỆ TĨNH MẠCH NGOẠI BIÊN. Suy tim hai thất kết hợp cả hai.",
+    "extra": "IM-22 P2 · Sinh lý bệnh · Cơ chế sung huyết"
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế giảm tưới máu ngoại vi và rối loạn nhịp trong suy tim?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Giảm tưới máu: Giảm cung lượng → giảm áp lực động mạch trung bình → co mạch bù trừ qua receptor alpha-1 → chi lạnh, nổi vân tím, vã mồ hôi → thiểu niệu → lú lẫn, ngủ gà.<br>• Rối loạn nhịp: Giãn buồng tim → tái cấu trúc điện học → vòng vào lại (reentry) hoặc ổ phát nhịp ngoại vị → rung nhĩ, cuồng nhĩ, ngoại tâm thu thất, nhịp nhanh thất → mất co bóp nhĩ + nhịp nhanh → giảm thêm cung lượng.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Rung nhĩ là rối loạn nhịp PHỔ BIẾN NHẤT ở suy tim — vừa là yếu tố thúc đẩy đợt cấp vừa là hậu quả của giãn nhĩ trái.",
+    "extra": "IM-22 P2 · Sinh lý bệnh · Giảm tưới máu & loạn nhịp"
+  },
+  {
+    "type": "basic",
+    "front": "Triệu chứng điển hình và dấu hiệu thực thể có độ đặc hiệu CAO của suy tim?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Triệu chứng điển hình: Khó thở khi gắng sức; khó thở khi nằm (orthopnea); khó thở kịch phát về đêm (PND); mệt mỏi giảm khả năng gắng sức; phù hai mắt cá chân.<br>• Dấu hiệu đặc hiệu cao: Tĩnh mạch cổ nổi ở 45 độ; phản hồi gan-tĩnh mạch cổ dương tính; tiếng tim T3; mỏm tim lệch trái và xuống dưới.<br>• Dấu hiệu kém đặc hiệu: Phù ấn lõm hai chi dưới; ran nổ/ẩm; gan to sung huyết, báng; nhịp tim nhanh; thổi tâm thu mỏm (hở van hai lá thứ phát).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>T3 (ngựa phi tâm trương) nghe bằng CHUÔNG ống nghe ở tư thế NẰM NGHIÊNG TRÁI tại mỏm — dấu hiệu đặc hiệu cao nhất cho suy tim thất trái.",
+    "extra": "IM-22 P2 · Lâm sàng · Triệu chứng & dấu hiệu"
+  },
+  {
+    "type": "basic",
+    "front": "Đánh giá sung huyết (Wet vs Dry) trên lâm sàng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sung huyết phổi: Ran ẩm/ran nổ hai đáy phổi, ho ra bọt hồng.<br>• Lưu ý: ran phổi CÓ THỂ VẮNG MẶT ở suy tim mạn do hệ bạch huyết tăng dẫn lưu dịch.<br>• Sung huyết hệ thống: Tĩnh mạch cổ nổi (CVP tăng), phản hồi gan-tĩnh mạch cổ (+), gan to đau, báng bụng, phù ấn lõm vùng thấp (mắt cá, cẳng chân, vùng xương cùng ở bệnh nhân nằm lâu).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Sung huyết là lý do hàng đầu khiến bệnh nhân suy tim cấp nhập viện — phải chủ động tìm dấu hiệu ứ dịch chứ không chờ bệnh nhân than phiền.",
+    "extra": "IM-22 P2 · Lâm sàng · Sung huyết Wet/Dry"
+  },
+  {
+    "type": "basic",
+    "front": "Đánh giá tưới máu mô (Cold vs Warm) trên lâm sàng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tưới máu ngoại vi: Chi lạnh, da ẩm, nổi vân tím (mottling), thời gian phục hồi màu da (CRT) kéo dài.<br>• Tưới máu cơ quan đích: Thiểu niệu, tăng ure/creatinine (suy thận cấp trước thận), lú lẫn, ngủ gà, huyết áp kẹp (hiệu số HATT - HATTr giảm).<br>• Mẹo khám: dùng lưng bàn tay sờ nhiệt độ da từ cẳng chân đến đầu ngón chân.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Huyết áp không phải toàn bộ tưới máu — co mạch bù trừ có thể GIỮ huyết áp trong khi cơ quan đã thiếu máu. Giảm tưới máu có thể xảy ra TRƯỚC tụt huyết áp.",
+    "extra": "IM-22 P2 · Lâm sàng · Tưới máu Cold/Warm"
+  },
+  {
+    "type": "cloze",
+    "text": "4 mẫu huyết động Forrester: {{c1::Warm & Dry}} (bù trừ tốt, ổn định); {{c1::Warm & Wet}} (sung huyết, dạng phổ biến nhất khi nhập viện); {{c1::Cold & Dry}} (giảm thể tích hoặc cung lượng thấp đơn thuần); {{c1::Cold & Wet}} (nguy cơ cao, đánh giá sốc tim, theo dõi ICU).",
+    "extra": "IM-22 P2 · Lâm sàng · Forrester 4 mẫu"
+  },
+  {
+    "type": "basic",
+    "front": "Vai trò của ECG 12 chuyển đạo trong chẩn đoán suy tim?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Được khuyến cáo cho TẤT CẢ bệnh nhân nghi ngờ suy tim.<br>• ECG hoàn toàn bình thường → chẩn đoán suy tim ÍT KHẢ NĂNG (giá trị loại trừ cao).<br>• Sóng Q bệnh lý (rộng, sâu): nhồi máu cơ tim cũ — ví dụ sóng Q ở V1-V3 gợi ý sẹo NMCT thành trước.<br>• LVH: Sokolow-Lyon (S V1 + R V5/V6 tăng) hoặc Cornell (R aVL + S V3 tăng) → THA mạn, hẹp van ĐMC, bệnh cơ tim phì đại.<br>• LBBB: QRS giãn rộng, R có khía ở V5-V6 → suy tim nặng, mất đồng bộ thất trái.<br>• Rung nhĩ/cuồng nhĩ: rối loạn nhịp phổ biến nhất ở suy tim.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Nên đo ECG 12 chuyển đạo SỚM ở bệnh nhân khó thở cấp, đặc biệt nghi ACS hoặc loạn nhịp nguy hiểm — nằm trong safety box của bài.",
+    "extra": "IM-22 P2 · ECG · Vai trò & bất thường"
+  },
+  {
+    "type": "basic",
+    "front": "Các mức độ sung huyết tĩnh mạch phổi trên X-quang ngực (CXR)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Bóng tim to: Tỷ lệ tim/lồng ngực (CTR) tăng trên phim PA.<br>• Mức 1 - Tái phân bố tuần hoàn (nhẹ): mạch máu đỉnh phổi giãn bằng hoặc lớn hơn đáy (inversion of pulmonary blood flow).<br>• Mức 2 - Phù mô kẽ (trung bình): đường Kerley B (mờ ngang ngắn sát góc sườn hoành), mờ rãnh liên thùy, mờ quanh phế quản (peribronchial cuffing).<br>• Mức 3 - Phù phế nang (nặng): mờ hai bên từ rốn tim ra ngoại vi hình cánh bướm (butterfly/bat-wing), tràn dịch màng phổi (thường phải nhiều hơn trái).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>X-quang ngực BÌNH THƯỜNG KHÔNG loại trừ suy tim — bệnh nhân suy tim mạn ổn định có thể có phim bình thường do bạch huyết phổi tăng dẫn lưu (bẫy nhầm lẫn 2).",
+    "extra": "IM-22 P2 · X-quang · Sung huyết tĩnh mạch phổi"
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế sinh học và đào thải của BNP và NT-proBNP?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Áp lực thành tim tăng → tế bào cơ tâm thất tổng hợp Pre-proBNP → phân cắt thành proBNP → enzyme furin/corin cắt thành BNP và NT-proBNP.<br>• BNP: hormone có hoạt tính sinh học (giãn mạch, thải muối, ức chế RAAS); bán hủy ngắn; thanh thải qua receptor NP-C và enzyme neprilysin.<br>• NT-proBNP: đoạn N không hoạt tính sinh học; bán hủy dài hơn; thanh thải một phần qua thận → nồng độ cao hơn, ít dao động ngắn hạn hơn BNP.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Vì NT-proBNP thanh thải qua thận, suy thận mạn làm TĂNG NT-proBNP giả — điểm mấu chốt trong Case 4 (CKD).",
+    "extra": "IM-22 P2 · Biomarker · BNP vs NT-proBNP"
+  },
+  {
+    "type": "basic",
+    "front": "Nguyên tắc diễn giải peptide lợi niệu (NP) theo bối cảnh lâm sàng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Nguyên tắc chung: NP thấp (dưới ngưỡng loại trừ) → giảm mạnh khả năng suy tim; NP tăng → diễn giải theo bối cảnh lâm sàng.<br>• Ngoại trú/mạn tính: NP dưới ngưỡng loại trừ mạn → ít khả năng suy tim; trên ngưỡng → cần siêu âm tim TTE xác nhận.<br>• Cấp cứu: NP dưới ngưỡng loại trừ cấp → giảm mạnh khả năng suy tim cấp (độ nhạy cao); NT-proBNP tăng cao vượt ngưỡng chẩn đoán → phù hợp suy tim cấp.<br>• NP tăng theo tuổi và giảm chức năng thận → phải điều chỉnh diễn giải theo bối cảnh từng bệnh nhân.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>BNP/NT-proBNP là công cụ CHẨN ĐOÁN và TIÊN LƯỢNG, KHÔNG phải đích điều trị — không 'điều trị hạ NT-proBNP' đơn thuần (bẫy nhầm lẫn 6).",
+    "extra": "IM-22 P2 · Biomarker · Diễn giải NP"
+  },
+  {
+    "type": "basic",
+    "front": "Các yếu tố làm tăng NP (dương tính giả) và giảm NP (âm tính giả)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tăng NP (dương tính giả): Tuổi cao, suy thận mạn (giảm thanh thải NT-proBNP), rung nhĩ, thiếu máu, nhiễm trùng huyết, thuyên tắc phổi cấp, xơ gan.<br>• Giảm NP (âm tính giả): Béo phì (nhiều cơ chế: tăng thanh thải, thay đổi phân bố thể tích), suy tim giai đoạn rất sớm, suy tim màng ngoài tim co thắt.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bẫy âm tính giả quan trọng: KHÔNG vội loại trừ suy tim chỉ vì NP 'bình thường' ở bệnh nhân BÉO PHÌ — kiểm tra BMI khi NT-proBNP ở ranh giới nghi ngờ.",
+    "extra": "IM-22 P2 · Biomarker · Yếu tố nhiễu NP"
+  },
+  {
+    "type": "basic",
+    "front": "Vai trò và các chỉ số chính của siêu âm tim qua thành ngực (TTE) trong suy tim?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• TTE là phương pháp hình ảnh quan trọng nhất: xác lập chẩn đoán, phân loại LVEF, tìm tổn thương cấu trúc.<br>• LVEF đo bằng phương pháp đĩa Simpson cải tiến (biplane) trên mặt cắt 4 buồng và 2 buồng từ mỏm.<br>• LVEF suy giảm nặng → hỗ trợ HFrEF; trung bình → HFmrEF; bảo tồn đơn độc KHÔNG đủ chẩn đoán HFpEF — cần thêm bằng chứng.<br>• GLS (sức căng dọc toàn bộ): đo bằng speckle tracking, phát hiện suy chức năng tâm thu SỚM khi LVEF còn bảo tồn (hóa trị Doxorubicin/Trastuzumab, amyloidosis).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>LVEF phụ thuộc tải và có sai số đo; LVEF bình thường không đồng nghĩa thể tích nhát bóp bình thường (thất nhỏ cứng có EF cao nhưng SV thấp).",
+    "extra": "IM-22 P2 · Siêu âm · Vai trò TTE & GLS"
+  },
+  {
+    "type": "basic",
+    "front": "Các thông số siêu âm đánh giá chức năng tâm trương và áp lực đổ đầy thất trái?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Dòng chảy qua van hai lá (Doppler xung): sóng E (đổ đầy nhanh đầu tâm trương), sóng A (nhĩ co); tỷ lệ E/A: rối loạn thư giãn (E/A giảm), giả bình thường (E/A bình thường kèm E/e' tăng), dạng hạn chế (E/A tăng cao).<br>• Doppler mô vòng van hai lá (TDI): vận tốc e' vách và e' bên — giảm phản ánh suy giảm thư giãn.<br>• Tỷ lệ E/e' trung bình: tăng cao → gợi ý tăng áp lực đổ đầy thất trái.<br>• LAVI (thể tích nhĩ trái chuẩn hóa diện tích da): tăng → nhĩ trái căng giãn mạn do tăng áp lực thất trái kéo dài.<br>• TR velocity và sPAP: vận tốc hở 3 lá tăng / sPAP tăng → tăng áp phổi thứ phát.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Checkpoint 4: các thông số gợi ý rối loạn tâm trương/tăng áp lực đổ đầy = E/e' tăng + LAVI tăng + TR velocity tăng (sPAP tăng) + e' vách giảm — KHÔNG có thông số đơn lẻ nào đủ chẩn đoán.",
+    "extra": "IM-22 P2 · Siêu âm · Chức năng tâm trương"
+  },
+  {
+    "type": "cloze",
+    "text": "Các xét nghiệm máu cơ bản khuyến cáo cho mọi bệnh nhân suy tim mới chẩn đoán: {{c1::công thức máu}}, {{c1::ure/creatinine}}, {{c1::điện giải đồ}}, chức năng tuyến giáp, sắt huyết thanh, HbA1c, lipid máu.",
+    "extra": "IM-22 P2 · Cận lâm sàng · Xét nghiệm máu cơ bản"
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chuẩn chẩn đoán HFpEF theo ESC?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• 1. Triệu chứng và/hoặc dấu hiệu suy tim (khó thở, mệt mỏi, phù).<br>• 2. LVEF bảo tồn (đo trên TTE).<br>• 3. Bằng chứng khách quan bất thường cấu trúc/chức năng tim phù hợp tăng áp lực đổ đầy: LAVI tăng và/hoặc LVMI tăng; E/e' trung bình tăng lúc nghỉ.<br>• 4. NP tăng: NT-proBNP/BNP tăng trên ngưỡng mạn tính ở nhịp xoang; ngưỡng CAO HƠN ở bệnh nhân rung nhĩ.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Chẩn đoán HFpEF đòi hỏi bằng chứng khách quan (cấu trúc/chức năng + NP tăng) phù hợp rối loạn tâm trương và tăng áp lực đổ đầy — LVEF bảo tồn đơn độc không đủ (claim P2-C02, GUIDELINE VERIFIED PMID 34447992).",
+    "extra": "IM-22 P2 · HFpEF · Tiêu chuẩn ESC"
+  },
+  {
+    "type": "basic",
+    "front": "Thang điểm H2FPEF (Mayo Clinic) gồm những yếu tố nào và cách phiên giải?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• H - Heavy: Béo phì (BMI cao).<br>• H - Hypertension: Tăng huyết áp cần thuốc hạ áp.<br>• F - Atrial Fibrillation: Rung nhĩ kịch phát hoặc mạn tính.<br>• P - Pulmonary Hypertension: Tăng áp phổi (sPAP TTE tăng).<br>• E - Elderly: Tuổi cao.<br>• F - Filling Pressure: Tăng áp lực đổ đầy (E/e' tăng).<br>• Phiên giải: điểm thấp → xác suất HFpEF rất thấp, tìm nguyên nhân khác; trung bình → cần siêu âm gắng sức hoặc thông tim xâm lấn; cao → xác suất rất cao.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>H2FPEF dùng ước tính XÁC SUẤT lâm sàng ở bệnh nhân khó thở chưa rõ nguyên nhân LVEF bảo tồn — điểm cao gợi ý mạnh nhưng không thay thế đánh giá chuyên sâu.",
+    "extra": "IM-22 P2 · HFpEF · H2FPEF"
+  },
+  {
+    "type": "basic",
+    "front": "Thuật toán HFA-PEFF (ESC) chẩn đoán HFpEF gồm 4 bước nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Bước 1 (P - Pre-test): Đánh giá tiền nghiệm — triệu chứng, yếu tố nguy cơ, ECG, NP.<br>• Bước 2 (E - Diagnostic Score): Siêu âm tim TTE + NT-proBNP, tính điểm cấu trúc/chức năng.<br>• Bước 3 (F1 - Functional testing): Siêu âm tim gắng sức xe đạp nằm (E/e' và sPAP khi gắng sức) HOẶC thông tim xâm lấn đo PCWP (tăng lúc nghỉ hoặc khi gắng sức).<br>• Bước 4 (F2 - Final etiology): Đánh giá căn nguyên sâu — MRI tim, sinh thiết, xét nghiệm gen (Amyloidosis, Sarcoidosis, Fabry).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>HFA-PEFF là quy trình ĐA BƯỚC của ESC — khác H2FPEF (thang điểm ước tính xác suất). Ghi nhớ: P-E-F-F.",
+    "extra": "IM-22 P2 · HFpEF · HFA-PEFF"
+  },
+  {
+    "type": "basic",
+    "front": "Chẩn đoán phân biệt khó thở: phân biệt suy tim với COPD/hen, thuyên tắc phổi, viêm phổi, thiếu máu/cường giáp?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• COPD/Hen: khó thở kèm khò khè, tiền sử hút thuốc, ran rít/ngáy. Lưu ý suy tim cấp có thể gây 'hen tim' (cardiac asthma) do phù mô kẽ quanh phế quản → NT-proBNP + POCUS (LVEF + B-lines) phân biệt.<br>• Thuyên tắc phổi cấp: khó thở đột ngột, đau ngực kiểu màng phổi, ho máu, yếu tố nguy cơ DVT; siêu âm có thể thấy giãn thất phải/RV strain; xác định bằng CTPA hoặc V/Q.<br>• Viêm phổi/ARDS: sốt, ho đờm đục, ran nổ khu trú, CRP/Procalcitonin tăng, X-quang đông đặc thùy.<br>• Thiếu máu nặng/cường giáp: khó thở do tăng cung lượng bù trừ (high-output HF); tim to nhẹ, NT-proBNP tăng nhẹ, Hb giảm nặng hoặc TSH giảm.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Suy tim và viêm phổi CÓ THỂ cùng tồn tại — chẩn đoán phân biệt cần tích hợp hình ảnh, biomarker và đáp ứng lâm sàng.",
+    "extra": "IM-22 P2 · Chẩn đoán phân biệt · Khó thở"
+  },
+  {
+    "type": "basic",
+    "front": "Chỉ định chụp mạch vành (coronary angiography) ở bệnh nhân suy tim?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Cân nhắc khi có chỉ định lâm sàng phù hợp: đau thắt ngực không đáp ứng điều trị, hoặc tiền sử ngừng tim / rối loạn nhịp thất nguy hiểm.<br>• Quyết định dựa trên guideline hiện hành và đánh giá chuyên khoa tim mạch.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Checkpoint 5: nhóm bệnh nhân suy tim có chỉ định chụp mạch vành = có đau thắt ngực/thiếu máu cục bộ triệu chứng HOẶC tiền sử ngừng tim/loạn nhịp thất nguy hiểm.",
+    "extra": "IM-22 P2 · Nguyên nhân · Chụp mạch vành"
+  },
+  {
+    "type": "basic",
+    "front": "Case 1: Nam 68t, hút thuốc 40 gói-năm, THA, khó thở dữ dội 2h, khò khè, SpO2 88%, ran rít/ngáy, phù nhẹ 2 mắt cá. Phân biệt đợt cấp COPD vs suy tim cấp?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Red flag: suy hô hấp cấp SpO2 thấp đe dọa tính mạng → hỗ trợ hô hấp ngay. Không thể phân biệt chỉ bằng triệu chứng (hen tim giả COPD).<br>• Dữ kiện quyết định: ECG nhịp xoang nhanh 110 + LVH Sokolow-Lyon; NT-proBNP tăng vượt ngưỡng loại trừ cấp; POCUS: giảm động thất trái toàn thể + B-lines lan tỏa → suy tim cấp trên nền HFrEF.<br>• Hành động: ECG ngay, NT-proBNP khẩn, POCUS (LVEF + B-lines), X-quang ngực, khí máu.<br>• Monitoring: SpO2 liên tục, nước tiểu mỗi giờ; chuyển ICU nếu SpO2 xấu/kiệt sức hô hấp; chuyển hồi sức tim nếu giảm tưới máu.<br>• Why alternatives wrong: COPD đơn thuần không tăng NT-proBNP vượt ngưỡng + không giảm LVEF nặng; PE cần CTPA và siêu âm thấy giãn thất phải không phải giảm động thất trái; viêm phổi có sốt/đờm/ran khu trú.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bài dạy cốt lõi: 'Hen tim' (cardiac asthma) bắt chước đợt cấp COPD — NT-proBNP + POCUS B-lines là chìa khóa phân biệt (Tip 10).",
+    "extra": "IM-22 P2 · Case 1 · HF vs COPD"
+  },
+  {
+    "type": "basic",
+    "front": "Case 2: Nam 55t, STEMI thành trước cách 2 năm, không tái khám; 1 tháng nay mệt, khó thở leo 2 tầng, phù nhẹ mắt cá. Chẩn đoán?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Red flag: STEMI trước không theo dõi/dự phòng thứ phát → nguy cơ cao HFrEF mạn; khó thở tiến triển 1 tháng → suy tim xấu dần.<br>• Dữ kiện: mỏm tim lệch trái KLS VI đường nách trước (giãn thất trái mạn); ECG sóng Q bệnh lý V1-V4 (sẹo NMCT cũ trước rộng); NT-proBNP tăng vượt ngưỡng mạn; TTE: LVEDD tăng, vô động vách+mỏm, LVEF suy giảm nặng.<br>• Chẩn đoán: HFrEF mạn, Giai đoạn C, do bệnh tim thiếu máu cục bộ sau NMCT cũ thành trước rộng.<br>• Xử trí: TTE đầy đủ (Simpson, vùng vô động, thất phải, sPAP, van); xét nghiệm máu cơ bản + TSH; NYHA + ACC/AHA; cân nhắc chụp mạch vành theo guideline.<br>• Why wrong: mệt do tuổi không giải thích mỏm lệch/sóng Q/LVEF giảm; COPD không phù hợp tiền sử; bệnh van nguyên phát bị loại vì không có tổn thương van nặng.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Sóng Q V1-V4 = sẹo thành trước; LVEF suy giảm nặng + tiền sử STEMI = nguyên nhân thiếu máu cục bộ gần như chắc chắn — điều trị dự phòng thứ phát là bắt buộc.",
+    "extra": "IM-22 P2 · Case 2 · HFrEF sau STEMI"
+  },
+  {
+    "type": "basic",
+    "front": "Case 3: Nữ 72t, béo phì, THA, rung nhĩ mạn, khó thở đi bộ đoạn ngắn, JVP nổi nhẹ, tim không đều. Chẩn đoán?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Red flag: rung nhĩ đáp ứng thất nhanh có thể thúc đẩy mất bù; nhịp hiện 82 (kiểm soát tốt); JVP nổi nhẹ → tăng áp lực đổ đầy thất phải.<br>• Dữ kiện: NT-proBNP tăng vượt ngưỡng mạn (béo phì làm thấp giả nhưng rung nhĩ vẫn vượt ngưỡng); TTE: LVEF bảo tồn + LVMI tăng (phì đại đồng tâm) + LAVI tăng nặng (nhĩ trái giãn) + E/e' tăng; H2FPEF điểm cao (béo phì + THA + AF + tuổi + E/e' tăng).<br>• Chẩn đoán: HFpEF, Giai đoạn C, nền rung nhĩ mạn + béo phì + THA.<br>• Xử trí: TTE đầy đủ (E/A, E/e', e', LAVI, TR velocity), tính H2FPEF, diễn giải NT-proBNP theo tuổi/BMI/thận/AF; loại trừ nguyên nhân khác; nếu chưa rõ → siêu âm gắng sức hoặc thông tim phải đo PCWP.<br>• Why wrong: 'LVEF bảo tồn là bình thường' sai vì HFpEF là thể suy tim thường gặp; béo phì đơn thuần không giải thích NP/E/e'/LAVI tăng; COPD không phù hợp (không hút thuốc, không khò khè).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bẫy: NT-proBNP 'không quá cao' ở béo phì vẫn là HFpEF khi kết hợp E/e' tăng + LAVI tăng + H2FPEF cao — chẩn đoán dựa vào tổng thể, không phải một thông số đơn lẻ.",
+    "extra": "IM-22 P2 · Case 3 · HFpEF béo phì + AF"
+  },
+  {
+    "type": "basic",
+    "front": "Case 4: Nam 65t, CKD tiến triển (eGFR giảm nặng), KHÔNG khó thở/phù, leo cầu thang bình thường, NT-proBNP tăng cao. Chẩn đoán?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Red flag: eGFR thấp → NT-proBNP thanh thải một phần qua thận, diễn giải phải thận trọng; không có triệu chứng suy tim → nguy cơ chẩn đoán sai cao.<br>• Dữ kiện: không triệu chứng/dấu hiệu suy tim (không khó thở, không phù, không JVP nổi, không ran); TTE: LVEF bảo tồn, buồng tim bình thường, E/e' bình thường, không dày thất, không giãn nhĩ trái.<br>• Kết luận: CHƯA đủ bằng chứng suy tim lâm sàng (Stage C) — NT-proBNP tăng nhiều khả năng do giảm thanh thải qua thận trên nền CKD (yếu tố nhiễu quan trọng).<br>• Xử trí: hỏi kỹ triệu chứng, khám dấu sung huyết, TTE, so sánh NT-proBNP nền, đánh giá yếu tố khác (tuổi, thiếu máu, rung nhĩ); theo dõi sát.<br>• Why wrong: 'NT-proBNP tăng = suy tim' là bẫy nghiêm trọng — cần TRIỆU CHỨNG + DẤU HIỆU + CẬN LÂM SÀNG; KHÔNG lợi tiểu để hạ NP khi không có bằng chứng sung huyết.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Cảnh báo an toàn: KHÔNG điều trị biomarker đơn độc — quyết định điều trị dựa vào đánh giá toàn diện, không phải con số xét nghiệm.",
+    "extra": "IM-22 P2 · Case 4 · CKD + NT-proBNP tăng"
+  },
+  {
+    "type": "basic",
+    "front": "Case 5: Nữ 60t, đột ngột khó thở dữ dội, ho bọt hồng, vã mồ hôi; trước khỏe mạnh; HA 150/90, mạch 125; ÂM THỔI TÂM THU MỚI (4/6) ở mỏm lan nách. Chẩn đoán?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Red flag: phù phổi cấp + âm thổi tâm thu mới ở mỏm lan nách → BIẾN CỐ CƠ HỌC CẤP: hở van hai lá cấp (đứt dây chằng/đứt cơ nhú); thủng vách liên thất thường âm thổi cạnh ức trái.<br>• Dữ kiện: TTE cấp cứu: đứt dây chằng lá sau van hai lá → hở van hai lá cấp RẤT NẶNG; buồng thất trái chưa kịp giãn (kích thước bình thường); LVEF có thể bình thường hoặc tăng.<br>• Đặc điểm hở van hai lá cấp: thất trái chưa kịp giãn thích nghi → áp lực nhĩ trái tăng đột ngột rất cao → thoát dịch nhanh vào phế nang → phù phổi cấp.<br>• Hành động: ECG ngay (loại STEMI - có thể gây đứt cơ nhú), TTE cấp cứu, X-quang, NT-proBNP + troponin siêu nhạy, hội chẩn Tim mạch/Phẫu thuật Tim khẩn.<br>• Monitoring: chuyển ICU/hồi sức tim, theo dõi sát sinh hiệu + nước tiểu; nếu sốc tim → hỗ trợ huyết động theo protocol.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Why wrong: suy tim mạn mất bù không giải thích âm thổi mới + thất không giãn; STEMI là NGUYÊN NHÂN đứt cơ nhú cần ECG/troponin nhưng tổn thương cơ học phải xác định bằng siêu âm; EF không dùng đơn độc loại trừ phù phổi do THA; Takotsubo không điển hình khi có tổn thương van xác định.",
+    "extra": "IM-22 P2 · Case 5 · Biến cố cơ học cấp"
+  },
+  {
+    "type": "basic",
+    "front": "8 bẫy nhầm lẫn thường gặp trong chẩn đoán suy tim?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• 1. 'Suy tim thì LVEF bắt buộc giảm' — sai: HFpEF chiếm tỷ lệ đáng kể.<br>• 2. 'X-quang ngực bình thường loại trừ suy tim' — sai: suy tim mạn ổn định có phim bình thường.<br>• 3. 'NT-proBNP tăng luôn = suy tim' — sai: tăng trong suy thận, rung nhĩ, tuổi cao, PE, nhiễm trùng huyết.<br>• 4. Vội loại trừ suy tim ở BÉO PHÌ khi NP bình thường — sai: béo phì làm NP thấp giả.<br>• 5. 'Phù hai chân luôn do suy tim' — sai: giãn tĩnh mạch, thận hư, xơ gan, amlodipine.<br>• 6. 'Điều trị hạ NT-proBNP' — sai: NP là công cụ chẩn đoán/tiên lượng, không phải đích điều trị.<br>• 7. 'Stage C hết triệu chứng thì lùi về Stage B' — sai: ACC/AHA một chiều A→B→C→D.<br>• 8. 'HFpEF nhẹ hơn HFrEF' — sai: tỷ lệ nhập viện và tử vong đáng kể.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bẫy 5 nhắc thuốc: chẹn kênh calci DHP (Amlodipine) gây phù mắt cá do giãn tiểu động mạch, không phải suy tim — rất hay gặp trên lâm sàng.",
+    "extra": "IM-22 P2 · Bẫy lâm sàng · 8 misconception"
+  },
+  {
+    "type": "basic",
+    "front": "Safety Box: các cảnh báo an toàn lâm sàng khi tiếp cận bệnh nhân nghi suy tim?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• ECG 12 chuyển đạo SỚM ở khó thở cấp/nghi suy tim, đặc biệt nghi ACS hoặc loạn nhịp nguy hiểm.<br>• THẬN TRỌNG âm tính giả: béo phì nặng làm NT-proBNP/BNP thấp hơn dự kiến — đừng loại trừ suy tim chỉ vì NP ở béo phì.<br>• RED FLAG: phù phổi cấp + âm thổi tâm thu mới → siêu âm tim CẤP CỨU tìm biến cố cơ học (âm thổi mỏm lan nách = hở van hai lá cấp/đứt dây chằng; cạnh ức trái = thủng vách liên thất).<br>• PHÂN TẦNG: Cold & Wet = nguy cơ cao → đánh giá tiêu chuẩn sốc tim → theo dõi sát ICU/hồi sức tim.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Vị trí âm thổi định hướng tổn thương: MỎM LAN NÁCH = hở van hai lá; CẠNH ỨC TRÁI = thủng vách liên thất.",
+    "extra": "IM-22 P2 · An toàn · Safety Box"
+  },
+  {
+    "type": "basic",
+    "front": "11 tips thực hành lâm sàng trong chẩn đoán suy tim (chọn các tip quan trọng nhất)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tip 1: Khám JVP ở 30–45°, quan sát TĨNH MẠCH CẢNH TRONG (không phải cảnh ngoài), điều chỉnh góc theo bệnh nhân.<br>• Tip 2: HJR: ấn giữ hạ sườn phải, dương tính khi JVP nổi cao thêm và duy trì trong thời gian ấn.<br>• Tip 3: Tiếng T3 nghe bằng CHUÔNG ống nghe ở mỏm, tư thế nằm nghiêng trái — đặc hiệu cao cho suy tim thất trái.<br>• Tip 5: NT-proBNP ranh giới nghi ngờ → kiểm tra BMI và eGFR để chỉnh mức kỳ vọng.<br>• Tip 6: H2FPEF ước tính xác suất HFpEF ở người lớn tuổi béo phì rung nhĩ khó thở LVEF bảo tồn.<br>• Tip 7: Đánh giá tưới máu bằng lưng bàn tay sờ từ cẳng chân đến ngón chân.<br>• Tip 9: Phù phổi cấp + thổi tâm thu mới → siêu âm cấp cứu tìm biến cố cơ học.<br>• Tip 10: Phân biệt hen tim vs đợt cấp COPD bằng NT-proBNP + POCUS (LVEF + B-lines).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Tip 11: HFrEF + LBBB QRS rộng → siêu âm đánh giá mất đồng bộ, hội chẩn nhịp học khi có chỉ định (liên quan CRT).",
+    "extra": "IM-22 P2 · Tips · Clinical pearls"
+  },
+  {
+    "type": "basic",
+    "front": "Quy trình chẩn đoán suy tim 4 bước trên lâm sàng và cận lâm sàng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Bước 1: Nghi ngờ lâm sàng (triệu chứng + dấu hiệu + yếu tố nguy cơ).<br>• Bước 2: ECG + X-quang ngực + XN máu cơ bản + Định lượng NP (BNP/NT-proBNP): NP dưới ngưỡng → giảm khả năng suy tim; NP tăng → tiếp tục.<br>• Bước 3: Siêu âm tim TTE (LVEF, chức năng tâm trương, cấu trúc).<br>• Bước 4: Tích hợp: phân loại phenotype (HFrEF/HFmrEF/HFpEF/HFimpEF) + mẫu huyết động (Warm/Cold, Wet/Dry) + tìm nguyên nhân cơ bản.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>NP và siêu âm tim đóng vai trò THEN CHỐT trong chẩn đoán (claim P2-C01, GUIDELINE VERIFIED PMID 34447992).",
+    "extra": "IM-22 P2 · Quy trình · 4 bước chẩn đoán"
+  },
+  {
+    "type": "cloze",
+    "text": "Trong chẩn đoán HFpEF, các thông số siêu âm gợi ý rối loạn chức năng tâm trương và tăng áp lực đổ đầy gồm: tỷ lệ {{c1::E/e'}} tăng cao, chỉ số thể tích nhĩ trái {{c1::LAVI}} tăng, vận tốc hở 3 lá {{c1::TR velocity}} tăng (sPAP tăng), và {{c1::e' vách}} giảm thấp.",
+    "extra": "IM-22 P2 · Siêu âm · 4 thông số tâm trương"
+  },
+  {
+    "type": "cloze",
+    "text": "Trong cấp cứu, NT-proBNP dưới ngưỡng loại trừ cấp làm giảm mạnh khả năng suy tim cấp (độ nhạy cao); trên ngưỡng chẩn đoán cần phân tầng theo {{c1::tuổi}} và {{c1::chức năng thận}} để tránh dương tính giả.",
+    "extra": "IM-22 P2 · Biomarker · Diễn giải cấp cứu"
+  },
+  {
+    "type": "cloze",
+    "text": "Trên ECG, phì đại thất trái được phát hiện qua chỉ số Sokolow-Lyon ({{c1::S V1 + R V5/V6}} tăng) hoặc Cornell ({{c1::R aVL + S V3}} tăng), gợi ý THA mạn, hẹp van động mạch chủ hoặc bệnh cơ tim phì đại.",
+    "extra": "IM-22 P2 · ECG · LVH Sokolow/Cornell"
+  },
+  {
+    "type": "cloze",
+    "text": "X-quang ngực: phù mô kẽ biểu hiện bằng đường {{c1::Kerley B}} (mờ ngang ngắn sát góc sườn hoành); phù phế nang nặng tạo hình ảnh {{c1::'cánh bướm'}} (butterfly/bat-wing) lan từ rốn tim ra ngoại vi.",
+    "extra": "IM-22 P2 · X-quang · Kerley B & cánh bướm"
+  },
+  {
+    "type": "basic",
+    "front": "Tiền gánh (preload) là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Độ căng giãn của tâm thất trái ở cuối thì tâm trương, phụ thuộc vào thể tích máu trở về tim.<br>• Tăng tiền gánh kéo dài gây giãn buồng tim.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Tiền gánh liên quan nhưng KHÔNG đồng nhất với thể tích tuần hoàn — tĩnh mạch cổ nổi gợi ý áp lực nhĩ phải tăng hơn là chứng minh thừa toàn bộ dịch cơ thể.",
+    "extra": "IM-22 P2 · Nền tảng · Preload"
+  },
+  {
+    "type": "basic",
+    "front": "Hậu gánh (afterload) là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sức cản mà tâm thất trái phải vượt qua để tống máu vào động mạch chủ trong thì tâm thu.<br>• Phụ thuộc chính vào sức cản ngoại vi hệ thống và độ cứng động mạch.<br>• Tăng huyết áp làm tăng hậu tải thất trái; tăng áp phổi làm tăng hậu tải thất phải.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Hậu tải cao làm tim khó tống máu hơn — co mạch bù trừ kéo dài là một phần của vòng xoắn bệnh lý.",
+    "extra": "IM-22 P2 · Nền tảng · Afterload"
+  },
+  {
+    "type": "basic",
+    "front": "Sức co bóp cơ tim (contractility) là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Khả năng tạo lực của cơ tim, độc lập tương đối với điều kiện tải (tiền gánh, hậu gánh).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Phân biệt 3 yếu tố quyết định thể tích nhát bóp: tiền gánh (độ căng cuối tâm trương), hậu gánh (trở lực tống máu), sức co bóp (lực nội tại của cơ tim).",
+    "extra": "IM-22 P2 · Nền tảng · Contractility"
+  },
+  {
+    "type": "basic",
+    "front": "Cung lượng tim (CO) là gì? Công thức?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Thể tích máu tim bơm vào hệ tuần hoàn trong 1 phút: CO = SV × HR (thể tích nhát bóp × nhịp tim).<br>• Nhịp quá chậm giảm cung lượng dù mỗi nhát bóp tốt; nhịp quá nhanh rút ngắn thời gian đổ đầy, giảm thể tích nhát bóp.<br>• Trong suy tim, giảm CO kéo dài kích hoạt hệ SNS và RAAS bù trừ.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>LVEF không trực tiếp đo cung lượng tim — EF bình thường không đồng nghĩa SV bình thường (thất nhỏ cứng tống tỷ lệ cao nhưng lượng tuyệt đối thấp).",
+    "extra": "IM-22 P2 · Nền tảng · Cardiac Output"
+  },
+  {
+    "type": "basic",
+    "front": "Áp lực đổ đầy thất trái (LV filling pressure) là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Áp lực cuối tâm trương trong buồng thất trái (LVEDP).<br>• LVEDP tăng cao → áp lực dội ngược về nhĩ trái và tĩnh mạch phổi → khó thở.<br>• Ví dụ: E/e' tăng cao trên siêu âm là chỉ dấu gián tiếp gợi ý tăng LV filling pressure, cần tích hợp với các thông số khác.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Áp lực đổ đầy tăng là nguồn gốc của sung huyết — 'bài toán phía sau' của suy tim.",
+    "extra": "IM-22 P2 · Nền tảng · LV filling pressure"
+  },
+  {
+    "type": "basic",
+    "front": "Tái cấu trúc cơ tim (cardiac remodeling) là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sự thay đổi về hình thái, thể tích và cấu trúc mô kẽ thất trái sau tổn thương cơ tim.<br>• Ví dụ: thất trái giãn to dạng hình cầu sau nhồi máu cơ tim trước rộng.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Remodeling là nền tảng của tiến triển suy tim mạn — giải thích vì sao điều trị sớm (GDMT) ngăn tiến triển.",
+    "extra": "IM-22 P2 · Nền tảng · Remodeling"
+  },
+  {
+    "type": "basic",
+    "front": "Mất đồng bộ cơ tim (cardiac dyssynchrony) là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sự co bóp không đồng thời giữa các vách tim (đặc biệt vách liên thất và thành sau thất trái).<br>• Ví dụ: LBBB với QRS giãn rộng liên quan mất đồng bộ thất trái, góp phần giảm hiệu suất bơm máu.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Mất đồng bộ là chỉ định đánh giá CRT (tái đồng bộ tim) — LBBB QRS rộng + HFrEF là kiểu hình kinh điển.",
+    "extra": "IM-22 P2 · Nền tảng · Dyssynchrony"
+  },
+  {
+    "type": "basic",
+    "front": "GLS (global longitudinal strain) là gì? Vai trò?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Thông số siêu âm đánh dấu mô (speckle tracking) đo độ biến dạng dọc thất trái trong thì tâm thu.<br>• Phát hiện suy chức năng tâm thu SỚM (tiềm tàng) khi LVEF còn bình thường.<br>• Ví dụ: độc tính cơ tim do hóa trị Doxorubicin/Trastuzumab, bệnh cơ tim thâm nhiễm Amyloidosis.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>GLS 'bắt bài' LVEF: LVEF có thể còn 55% nhưng GLS đã giảm rõ — rất hữu ích tầm soát độc tính hóa trị.",
+    "extra": "IM-22 P2 · Nền tảng · GLS"
+  },
+  {
+    "type": "basic",
+    "front": "Đặc điểm lâm sàng và ý nghĩa chẩn đoán của HFrEF (LVEF suy giảm nặng)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Đặc điểm: suy giảm co bóp tâm thu rõ rệt, buồng thất trái thường giãn to, tăng áp lực đổ đầy.<br>• Ý nghĩa chẩn đoán: cần tìm nguyên nhân bệnh mạch vành, bệnh cơ tim giãn nở, hoặc bệnh van tim gây suy giảm co bóp.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>HFrEF là kiểu hình có bằng chứng GDMT mạnh nhất — 'tứ trụ' ARNI/BB/MRA/SGLT2i.",
+    "extra": "IM-22 P2 · Phân loại · HFrEF"
+  },
+  {
+    "type": "basic",
+    "front": "Đặc điểm lâm sàng và ý nghĩa chẩn đoán của HFmrEF (LVEF suy giảm trung bình)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Đặc điểm: thể trung gian, pha trộn đặc điểm HFrEF và HFpEF.<br>• Ý nghĩa chẩn đoán: đánh giá kỹ cả chức năng tâm thu và tâm trương, tìm dấu hiệu bệnh mạch vành hoặc rối loạn thư giãn.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>HFmrEF đáp ứng một phần với GDMT của HFrEF — không xem như HFpEF thuần túy.",
+    "extra": "IM-22 P2 · Phân loại · HFmrEF"
+  },
+  {
+    "type": "basic",
+    "front": "Đặc điểm lâm sàng và ý nghĩa chẩn đoán của HFpEF (LVEF bảo tồn)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Đặc điểm: LVEF bảo tồn, rối loạn thư giãn tâm trương, tăng cứng thành thất trái, lớn nhĩ trái.<br>• Ý nghĩa chẩn đoán: đòi hỏi bằng chứng khách quan về rối loạn chức năng tâm trương và tăng áp lực đổ đầy (Mục 7).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>LVEF bảo tồn đơn độc KHÔNG đủ chẩn đoán HFpEF — cần LAVI/LVMI/E-e' tăng + NP tăng.",
+    "extra": "IM-22 P2 · Phân loại · HFpEF"
+  },
+  {
+    "type": "basic",
+    "front": "HFimpEF là gì và tại sao không gọi là 'khỏi bệnh'?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• LVEF ban đầu ≤ 40%, sau đó hồi phục lên mức cao hơn (thường &gt; 40%).<br>• Đây là QUỸ ĐẠO CẢI THIỆN, không đồng nghĩa khỏi bệnh.<br>• Phải giữ nhãn lịch sử và tìm hiểu nguyên nhân, không đổi thành 'tim bình thường'.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>HFimpEF vẫn có nguy cơ tái phát — bắt buộc duy trì GDMT (bẫy nhầm lẫn: EF hồi phục 25%→55% vẫn phải điều trị tiếp).",
+    "extra": "IM-22 P2 · Phân loại · HFimpEF"
+  },
+  {
+    "type": "basic",
+    "front": "Giai đoạn A (ACC/AHA) — đặc điểm và ý nghĩa?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Nguy cơ cao chưa có bệnh tim cấu trúc: THA, ĐTĐ, bệnh mạch vành chưa tổn thương cơ tim.<br>• Chưa có tổn thương cấu trúc, chưa có triệu chứng.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>At-risk: đây là nhóm can thiệp DỰ PHÒNG — kiểm soát huyết áp, đường huyết, lipid.",
+    "extra": "IM-22 P2 · ACC/AHA · Stage A"
+  },
+  {
+    "type": "basic",
+    "front": "Giai đoạn B (ACC/AHA) — đặc điểm và ý nghĩa?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tiền suy tim (pre-HF): có bệnh cấu trúc tim nhưng chưa có triệu chứng.<br>• Ví dụ: LVEF giảm không triệu chứng, dày thất trái, lớn nhĩ trái, tổn thương van không triệu chứng.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bất thường chức năng không triệu chứng = Stage B, KHÔNG tự động ghi Stage C (checkpoint 0.5 Part 1).",
+    "extra": "IM-22 P2 · ACC/AHA · Stage B"
+  },
+  {
+    "type": "basic",
+    "front": "Giai đoạn C (ACC/AHA) — đặc điểm và ý nghĩa?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Suy tim có triệu chứng lâm sàng hiện tại hoặc trước đây.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Stage C là 'suy tim lâm sàng' thực sự — hết triệu chứng không lùi về B (phân loại một chiều).",
+    "extra": "IM-22 P2 · ACC/AHA · Stage C"
+  },
+  {
+    "type": "basic",
+    "front": "Giai đoạn D (ACC/AHA) — đặc điểm và ý nghĩa?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Suy tim tiến triển kháng trị, triệu chứng nặng ngay cả khi nghỉ ngơi.<br>• Cần cân nhắc: hỗ trợ tuần hoàn cơ học (LVAD), ghép tim, chăm sóc giảm nhẹ.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Stage D là đối tượng chuyển tuyến trung tâm suy tim tiến triển — đánh giá LVAD/ghép.",
+    "extra": "IM-22 P2 · ACC/AHA · Stage D"
+  },
+  {
+    "type": "basic",
+    "front": "NYHA I — mô tả?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Không hạn chế hoạt động thể lực.<br>• Vận động thể lực thông thường không gây khó thở, mệt mỏi hay hồi hộp.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>NYHA I có thể gặp ở Stage B (chưa triệu chứng) HOẶC Stage C đã điều trị ổn — NYHA đo triệu chứng hiện tại.",
+    "extra": "IM-22 P2 · NYHA · Độ I"
+  },
+  {
+    "type": "basic",
+    "front": "NYHA II — mô tả?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Hạn chế nhẹ hoạt động thể lực.<br>• Thoải mái lúc nghỉ ngơi, nhưng vận động thông thường (đi bộ nhanh, leo cầu thang) gây khó thở, mệt mỏi.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Ngưỡng 'vận động thông thường' là mốc phân biệt NYHA I vs II.",
+    "extra": "IM-22 P2 · NYHA · Độ II"
+  },
+  {
+    "type": "basic",
+    "front": "NYHA III — mô tả?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Hạn chế đáng kể hoạt động thể lực.<br>• Thoải mái lúc nghỉ, nhưng vận động NHẸ (đi bộ đoạn ngắn, mặc quần áo) đã khó thở.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Mốc 'mặc quần áo, đi bộ đoạn ngắn' — vận động nhẹ hơn nhiều so với NYHA II.",
+    "extra": "IM-22 P2 · NYHA · Độ III"
+  },
+  {
+    "type": "basic",
+    "front": "NYHA IV — mô tả?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Không thể thực hiện bất kỳ hoạt động thể lực nào mà không thấy khó chịu.<br>• Triệu chứng suy tim xuất hiện ngay cả khi nghỉ ngơi.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>NYHA IV = triệu chứng lúc nghỉ — phân biệt với III (chỉ khó thở khi vận động nhẹ).",
+    "extra": "IM-22 P2 · NYHA · Độ IV"
+  },
+  {
+    "type": "basic",
+    "front": "Trên ECG, sóng Q bệnh lý có ý nghĩa gì trong suy tim?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sóng Q bệnh lý (rộng và sâu hơn bình thường): bằng chứng nhồi máu cơ tim cũ (bệnh tim thiếu máu cục bộ).<br>• Ví dụ: sóng Q ở V1-V3 gợi ý sẹo nhồi máu cơ tim thành trước.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Sóng Q định vị vùng sẹo: V1-V4 = thành trước; II-III-aVF = thành dưới; V5-V6 = thành bên.",
+    "extra": "IM-22 P2 · ECG · Sóng Q bệnh lý"
+  },
+  {
+    "type": "basic",
+    "front": "Trên ECG, phì đại thất trái (LVH) gợi ý nguyên nhân gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Chỉ số Sokolow-Lyon (S V1 + R V5/V6 tăng) hoặc Cornell (R aVL + S V3 tăng).<br>• Gợi ý: tăng huyết áp mạn tính, hẹp van động mạch chủ, hoặc bệnh cơ tim phì đại.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>LVH là dấu chỉ áp lực mạn tính lên thất trái — nguyên nhân suy tim 'có thể đảo ngược' nếu kiểm soát được bệnh nền.",
+    "extra": "IM-22 P2 · ECG · LVH"
+  },
+  {
+    "type": "basic",
+    "front": "Trên ECG, LBBB có ý nghĩa gì trong suy tim?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• QRS giãn rộng rõ rệt với dạng R có khía ở V5-V6.<br>• Gợi ý suy tim nặng, mất đồng bộ thất trái.<br>• Cần siêu âm tim đánh giá mức độ mất đồng bộ cơ học.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>LBBB + HFrEF + QRS rộng là bộ ba chỉ định đánh giá CRT — hội chẩn nhịp học khi có chỉ định.",
+    "extra": "IM-22 P2 · ECG · LBBB"
+  },
+  {
+    "type": "basic",
+    "front": "Trên ECG, rung nhĩ/cuồng nhĩ ở bệnh nhân suy tim có ý nghĩa gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Rối loạn nhịp phổ biến nhất ở bệnh nhân suy tim.<br>• Vừa là nguyên nhân thúc đẩy đợt cấp vừa là hậu quả của giãn nhĩ trái.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Rung nhĩ làm TĂNG NT-proBNP giả — cần ngưỡng chẩn đoán NP cao hơn ở bệnh nhân rung nhĩ.",
+    "extra": "IM-22 P2 · ECG · Rung nhĩ"
+  },
+  {
+    "type": "basic",
+    "front": "X-quang ngực: 'bóng tim to' được đánh giá thế nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tỷ lệ tim/lồng ngực (Cardiothoracic Ratio - CTR) tăng cao trên phim sau-trước (PA).<br>• CTR bình thường &lt; 0.5; &gt; 0.5 gợi ý tim to.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Phim PA mới đánh giá CTR chuẩn — phim nằm (AP) làm tim 'to giả' do phóng đại hình học.",
+    "extra": "IM-22 P2 · X-quang · Bóng tim to"
+  },
+  {
+    "type": "basic",
+    "front": "X-quang ngực: tái phân bố tuần hoàn phổi (mức 1) là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Các mạch máu ở đỉnh phổi giãn to bằng hoặc lớn hơn mạch máu ở đáy phổi (inversion of pulmonary blood flow).<br>• Đây là giai đoạn NHẸ của sung huyết tĩnh mạch phổi.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bình thường mạch máu đáy phổi nổi bật hơn đỉnh; khi áp lực tĩnh mạch phổi tăng, đỉnh phổi giãn ra — dấu sớm nhất trên CXR.",
+    "extra": "IM-22 P2 · X-quang · Tái phân bố tuần hoàn"
+  },
+  {
+    "type": "basic",
+    "front": "X-quang ngực: phù mô kẽ (mức 2) biểu hiện thế nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Đường Kerley B: đường mờ ngang ngắn nằm sát góc sườn hoành hai bên.<br>• Mờ rãnh liên thùy, mờ quanh phế quản (peribronchial cuffing).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Kerley B = dịch mô kẽ dày lên ở vách liên tiểu thùy — dấu sung huyết TRUNG BÌNH.",
+    "extra": "IM-22 P2 · X-quang · Phù mô kẽ"
+  },
+  {
+    "type": "basic",
+    "front": "X-quang ngực: phù phế nang (mức 3) biểu hiện thế nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Mờ phế nang lan tỏa hai bên từ rốn tim ra ngoại vi tạo hình ảnh 'cánh bướm' (butterfly/bat-wing pattern).<br>• Tràn dịch màng phổi hai bên (thường bên phải nhiều hơn bên trái).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Hình cánh bướm = phù phổi cấp nặng — cấp cứu, cần xử trí ngay.",
+    "extra": "IM-22 P2 · X-quang · Phù phế nang"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao NT-proBNP có nồng độ cao hơn và ổn định hơn BNP?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• NT-proBNP là đoạn N không hoạt tính sinh học, bán hủy DÀI HƠN BNP.<br>• NT-proBNP thanh thải một phần qua thận; BNP thanh thải qua receptor NP-C và enzyme neprilysin.<br>• Kết quả: NT-proBNP ít bị dao động ngắn hạn hơn BNP.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Vì NT-proBNP bị ảnh hưởng bởi thận, suy thận mạn làm tăng NT-proBNP — cần diễn giải theo eGFR.",
+    "extra": "IM-22 P2 · Biomarker · NT-proBNP vs BNP"
+  },
+  {
+    "type": "basic",
+    "front": "Ngưỡng NP ở bối cảnh ngoại trú/mạn tính được dùng thế nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• NP dưới ngưỡng loại trừ mạn tính → giảm mạnh khả năng suy tim (giá trị dự đoán âm cao).<br>• NP trên ngưỡng → cần siêu âm tim TTE xác nhận.<br>• Quyết định siêu âm dựa trên đánh giá lâm sàng tổng thể, không chỉ NP đơn độc.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Mục tiêu ngoại trú là RULE-OUT — NP thấp giúp tránh siêu âm tim không cần thiết.",
+    "extra": "IM-22 P2 · Biomarker · Ngưỡng mạn tính"
+  },
+  {
+    "type": "basic",
+    "front": "Ngưỡng NP ở bối cảnh cấp cứu được dùng thế nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• NP dưới ngưỡng loại trừ cấp tính → giảm mạnh khả năng suy tim cấp (độ nhạy cao).<br>• NP trên ngưỡng chẩn đoán → phù hợp chẩn đoán suy tim cấp, nhưng cần điều chỉnh theo tuổi và chức năng thận.<br>• Diễn giải theo thời gian khởi phát triệu chứng và các yếu tố gây nhiễu.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Diễn giải cấp: NT-proBNP tăng theo tuổi (ngưỡng cao hơn ở người già) và giảm eGFR — cùng một con số, ý nghĩa khác nhau ở từng bệnh nhân.",
+    "extra": "IM-22 P2 · Biomarker · Ngưỡng cấp cứu"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao rung nhĩ cần ngưỡng NP cao hơn?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Rung nhĩ làm tăng NT-proBNP/BNP do căng giãn nhĩ và mất co bóp nhĩ.<br>• Tiêu chuẩn HFpEF: NP tăng trên ngưỡng mạn tính ở nhịp xoang; ngưỡng CAO HƠN ở bệnh nhân rung nhĩ.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Rung nhĩ + béo phì là 2 yếu tố nhiễu ngược chiều — phải cân nhắc cả hai khi đọc NP.",
+    "extra": "IM-22 P2 · Biomarker · Rung nhĩ & NP"
+  },
+  {
+    "type": "basic",
+    "front": "LVEF đo bằng phương pháp nào trên siêu âm tim?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Phương pháp đĩa Simpson cải tiến (biplane Simpson's rule).<br>• Mặt cắt 4 buồng và 2 buồng từ mỏm.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Simpson biplane là chuẩn vàng đo LVEF 2D — phân chia thất trái thành nhiều đĩa nhỏ cộng thể tích.",
+    "extra": "IM-22 P2 · Siêu âm · Phương pháp Simpson"
+  },
+  {
+    "type": "basic",
+    "front": "Dòng chảy qua van hai lá (Doppler xung): sóng E, sóng A và 3 kiểu hình E/A?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sóng E: đổ đầy nhanh đầu tâm trương; sóng A: nhĩ co cuối tâm trương.<br>• Kiểu 1 - Rối loạn thư giãn: E/A giảm.<br>• Kiểu 2 - Giả bình thường: E/A trong giới hạn bình thường KÈM E/e' tăng.<br>• Kiểu 3 - Dạng hạn chế: E/A tăng cao rõ rệt.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Kiểu 'giả bình thường' là bẫy: E/A bình thường nhưng E/e' tăng mới lộ rối loạn — không đọc E/A đơn độc.",
+    "extra": "IM-22 P2 · Siêu âm · E/A 3 kiểu hình"
+  },
+  {
+    "type": "basic",
+    "front": "Doppler mô vòng van hai lá (TDI): sóng e' có ý nghĩa gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Vận tốc sóng e' đo tại vách liên thất và thành bên.<br>• e' vách giảm hoặc e' bên giảm phản ánh suy giảm khả năng thư giãn cơ tim.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>e' giảm là dấu rối loạn thư giãn sớm nhất — nền tảng để tính E/e'.",
+    "extra": "IM-22 P2 · Siêu âm · e' TDI"
+  },
+  {
+    "type": "basic",
+    "front": "LAVI và TR velocity/sPAP có ý nghĩa gì trong đánh giá HFpEF?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• LAVI (thể tích nhĩ trái chuẩn hóa diện tích da): tăng → nhĩ trái căng giãn mạn do tăng áp lực thất trái kéo dài.<br>• TR velocity tăng / sPAP tăng: tăng áp phổi thứ phát do tăng áp lực tĩnh mạch phổi.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>LAVI là 'hồ sơ áp lực mạn' của nhĩ trái — tăng mạn tính không hồi phục nhanh, khác E/e' (nhạy với thay đổi tải).",
+    "extra": "IM-22 P2 · Siêu âm · LAVI & TR velocity"
+  },
+  {
+    "type": "basic",
+    "front": "Case 2 (HFrEF sau STEMI): vì sao 'mệt do tuổi' là câu trả lời sai?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Không giải thích được cụm dữ kiện khách quan: mỏm tim lệch trái, sóng Q bệnh lý, LVEF suy giảm nặng, NT-proBNP tăng rõ.<br>• Mệt mạn đơn thuần không kèm bằng chứng cấu trúc/chức năng tim bất thường.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bệnh sử + khám + cận lâm sàng phải 'khớp thành một câu chuyện' — triệu chứng đơn lẻ không định bệnh.",
+    "extra": "IM-22 P2 · Case 2 · Why wrong"
+  },
+  {
+    "type": "basic",
+    "front": "Case 1 (HF vs COPD): vì sao 'đợt cấp COPD đơn thuần' là câu trả lời sai?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• COPD đơn thuần không điển hình gây tăng NT-proBNP vượt ngưỡng chẩn đoán suy tim cấp.<br>• COPD không điển hình gây giảm LVEF xuống mức suy giảm nặng kèm E/e' tăng cao.<br>• Dữ kiện POCUS: giảm động thất trái toàn thể + B-lines lan tỏa → suy tim.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bài học: 'hen tim' (cardiac asthma) có thể bắt chước hoàn toàn COPD — biomarker + siêu âm mới phân biệt được.",
+    "extra": "IM-22 P2 · Case 1 · Why wrong"
+  },
+  {
+    "type": "basic",
+    "front": "Case 1 (HF vs COPD): vì sao 'thuyên tắc phổi' là câu trả lời sai?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• PE gây khó thở đột ngột và có thể thấy giãn thất phải/RV strain trên siêu âm.<br>• Trường hợp này siêu âm thấy GIẢM ĐỘNG THẤT TRÁI toàn thể, không khu trú thất phải.<br>• Chẩn đoán xác định PE cần xác suất tiền nghiệm + CTPA hoặc V/Q — không dựa vào siêu âm.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Phân biệt hướng tổn thương: PE = thất PHẢI; suy tim trái = thất TRÁI.",
+    "extra": "IM-22 P2 · Case 1 · PE loại trừ"
+  },
+  {
+    "type": "basic",
+    "front": "Case 5 (biến cố cơ học): vì sao 'suy tim mạn mất bù' là câu trả lời sai?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Không giải thích được âm thổi tâm thu MỚI xuất hiện (4/6) và cơ chế cấp tính.<br>• Tiền sử khỏe mạnh trước đó, buồng thất không giãn → hướng đến cơ chế cơ học cấp tính.<br>• EF trong hở van hai lá cấp nặng có thể KHÔNG phản ánh chính xác chức năng cơ tim (điều kiện tải thay đổi đột ngột).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Hở van hai lá cấp: thất trái chưa kịp giãn → áp lực nhĩ trái tăng đột ngột rất cao → phù phổi cấp 'flash'.",
+    "extra": "IM-22 P2 · Case 5 · Why wrong"
+  },
+  {
+    "type": "basic",
+    "front": "Case 4 (CKD + NT-proBNP tăng): vì sao 'điều trị lợi tiểu để hạ NT-proBNP' là sai?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Cảnh báo an toàn: không điều trị biomarker đơn độc khi không có bằng chứng sung huyết trên lâm sàng.<br>• Quyết định điều trị phải dựa vào đánh giá toàn diện, không phải con số xét nghiệm.<br>• Bệnh nhân không có triệu chứng/dấu hiệu suy tim + siêu âm tim bình thường → chưa đủ bằng chứng Stage C.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bài học cốt lõi: NP là công cụ CHẨN ĐOÁN/TIÊN LƯỢNG, không phải đích điều trị.",
+    "extra": "IM-22 P2 · Case 4 · Không điều trị NP"
+  },
+  {
+    "type": "basic",
+    "front": "Checkpoint: Vai trò của NT-proBNP trong loại trừ suy tim ở ngoại trú mạn tính?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• NT-proBNP thấp (dưới ngưỡng loại trừ mạn tính) có giá trị dự đoán âm tính cao.<br>• Giúp loại trừ suy tim mạn tính một cách tin cậy.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Rule-out là công dụng mạnh nhất của NP — độ nhạy cao hơn độ đặc hiệu.",
+    "extra": "IM-22 P2 · Checkpoint · NP rule-out mạn"
+  },
+  {
+    "type": "basic",
+    "front": "Checkpoint: Bệnh nhân cao tuổi khó thở cấp, NT-proBNP tăng cao — diễn giải?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• NT-proBNP tăng cao rõ rệt vượt ngưỡng chẩn đoán cấp tính → phù hợp chẩn đoán suy tim cấp.<br>• Cần diễn giải theo bối cảnh tuổi tác và chức năng thận — NP tăng tự nhiên theo tuổi và suy giảm chức năng thận.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Cùng một giá trị NP: người 80 tuổi eGFR 40 có thể 'bình thường hóa' theo tuổi — không áp ngưỡng cứng cho mọi bệnh nhân.",
+    "extra": "IM-22 P2 · Checkpoint · NP cao tuổi"
+  },
+  {
+    "type": "basic",
+    "front": "Checkpoint: Tiêu chuẩn phân loại suy tim theo LVEF gồm những nhóm nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• HFrEF (LVEF suy giảm nặng).<br>• HFmrEF (LVEF suy giảm mức độ trung bình).<br>• HFpEF (LVEF bảo tồn).<br>• HFimpEF (LVEF ban đầu suy giảm nặng sau đó hồi phục lên mức cao hơn).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>HFimpEF là QUỸ ĐẠO, không phải nhóm tĩnh — phải biết LVEF thấp nhất trong lịch sử.",
+    "extra": "IM-22 P2 · Checkpoint · Phân loại LVEF"
+  },
+  {
+    "type": "basic",
+    "front": "Checkpoint: Các thông số siêu âm gợi ý rối loạn tâm trương và tăng áp lực đổ đầy?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tỷ lệ E/e' tăng cao.<br>• Chỉ số thể tích nhĩ trái LAVI tăng cao.<br>• Vận tốc hở 3 lá TR tăng cao (sPAP tăng).<br>• e' vách giảm thấp.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bộ 4 thông số này là 'gói bằng chứng' tăng áp lực đổ đầy — cần ≥1 trong số đó kèm NP tăng và triệu chứng để chẩn đoán HFpEF.",
+    "extra": "IM-22 P2 · Checkpoint · Thông số tâm trương"
+  },
+  {
+    "type": "basic",
+    "front": "Checkpoint: Nhóm bệnh nhân suy tim nào có chỉ định chụp mạch vành tìm nguyên nhân thiếu máu cục bộ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Bệnh nhân suy tim có đau thắt ngực / thiếu máu cục bộ cơ tim có triệu chứng.<br>• Hoặc bệnh nhân có tiền sử ngừng tim / rối loạn nhịp thất nguy hiểm.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Không chụp mạch vành 'tầm soát' cho mọi suy tim — chỉ định dựa trên triệu chứng thiếu máu cục bộ và nguy cơ loạn nhịp.",
+    "extra": "IM-22 P2 · Checkpoint · Chụp mạch vành"
+  },
+  {
+    "type": "basic",
+    "front": "Bẫy 1: 'Suy tim thì LVEF bắt buộc phải giảm' — sai ở đâu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sự thật: một tỷ lệ đáng kể bệnh nhân suy tim có LVEF bảo tồn (HFpEF).<br>• LVEF bảo tồn đơn độc không loại trừ suy tim — HFpEF cần chứng minh tăng áp lực đổ đầy.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Suy tim là HỘI CHỨNG lâm sàng, không phải con số EF — EF chỉ phân loại kiểu hình.",
+    "extra": "IM-22 P2 · Bẫy · 1: EF phải giảm"
+  },
+  {
+    "type": "basic",
+    "front": "Bẫy 3: 'NT-proBNP tăng cao luôn luôn = suy tim' — sai ở đâu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sự thật: NT-proBNP còn tăng trong suy thận mạn (giảm thải trừ), rung nhĩ, tuổi cao, thuyên tắc phổi, nhiễm trùng huyết.<br>• Bắt buộc kết hợp triệu chứng lâm sàng và siêu âm tim.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>NP tăng = STRESS THÀNH TIM, không riêng gì suy tim — đọc theo bối cảnh.",
+    "extra": "IM-22 P2 · Bẫy · 3: NP tăng = suy tim"
+  },
+  {
+    "type": "basic",
+    "front": "Bẫy 5: 'Phù hai chân luôn do suy tim' — sai ở đâu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sự thật: phù hai chân còn gặp trong suy giãn tĩnh mạch chi dưới mạn tính, hội chứng thận hư, xơ gan.<br>• Tác dụng phụ của thuốc chẹn kênh calci nhóm DHP (Amlodipine).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Amlodipine gây phù mắt cá do giãn tiểu động mạch — phân biệt bằng hỏi thuốc và kiểm tra JVP (không tăng).",
+    "extra": "IM-22 P2 · Bẫy · 5: Phù = suy tim"
+  },
+  {
+    "type": "basic",
+    "front": "Bẫy 6: 'Điều trị hạ NT-proBNP' — sai ở đâu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sự thật: NT-proBNP là công cụ chẩn đoán và tiên lượng, KHÔNG phải đích điều trị.<br>• Quyết định lâm sàng dựa vào triệu chứng và dấu hiệu thực thể, không dựa vào con số NP đơn độc.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Theo dõi NP để đánh giá đáp ứng điều trị thì đúng; điều trị để 'hạ NP cho bằng được' thì sai.",
+    "extra": "IM-22 P2 · Bẫy · 6: Điều trị NP"
+  },
+  {
+    "type": "basic",
+    "front": "Bẫy 7: 'Stage C hết khó thở thì lùi về Stage B' — sai ở đâu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sự thật: phân loại giai đoạn ACC/AHA là phân loại TIẾN TRIỂN MỘT CHIỀU A → B → C → D.<br>• Không có chiều ngược lại — Stage C đã có triệu chứng thì mãi là Stage C.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Phân biệt: NYHA có thể cải thiện (IV→II), nhưng Stage ACC/AHA không lùi — ghi nhớ 'Stage là lịch sử, NYHA là hiện tại'.",
+    "extra": "IM-22 P2 · Bẫy · 7: Stage không lùi"
+  },
+  {
+    "type": "basic",
+    "front": "Bẫy 8: 'HFpEF nhẹ hơn HFrEF' — sai ở đâu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sự thật: HFpEF là thể bệnh nghiêm trọng với tỷ lệ nhập viện và tử vong đáng kể.<br>• Không nên xem nhẹ so với HFrEF.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>HFpEF chiếm &gt; 50% bệnh nhân suy tim nhập viện — tiên lượng không hề 'lành' hơn.",
+    "extra": "IM-22 P2 · Bẫy · 8: HFpEF nhẹ"
+  },
+  {
+    "type": "basic",
+    "front": "Tip: Tại sao khám JVP phải quan sát tĩnh mạch cảnh TRONG (IJV) thay vì cảnh ngoài?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Đầu giường nâng 30–45°, quan sát IJV (không phải EJV).<br>• Điều chỉnh góc phù hợp từng bệnh nhân.<br>• EJV nông, có van, chịu ảnh hưởng tư thế → kém tin cậy.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>IJV đi thẳng, liên tục với SVC và nhĩ phải → truyền áp lực nhĩ phải trung thực nhất.",
+    "extra": "IM-22 P2 · Tips · Khám JVP"
+  },
+  {
+    "type": "basic",
+    "front": "Tip: Tại sao tiếng T3 nghe bằng CHUÔNG ống nghe, tư thế nằm nghiêng trái?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tiếng T3 (ngựa phi tâm trương) là âm TRẦM — chuông ống nghe lọc âm trầm tốt hơn màng.<br>• Nằm nghiêng trái đưa mỏm tim sát thành ngực → nghe rõ nhất.<br>• Dấu hiệu đặc hiệu cao cho suy tim thất trái.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>T3 = dòng máu đổ nhanh vào thất giãn cứng — bản chất âm trầm nên 'chuông bắt T3, màng bắt T1/T2'.",
+    "extra": "IM-22 P2 · Tips · Tiếng T3"
+  },
+  {
+    "type": "basic",
+    "front": "Tip: NT-proBNP ở ranh giới nghi ngờ — làm gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Kiểm tra ngay BMI và chức năng thận (eGFR) để chỉnh mức kỳ vọng.<br>• Béo phì làm NP thấp giả; suy thận làm NP cao giả.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Công thức nhớ: 'BMI cao → NP thấp đi; eGFR thấp → NP cao lên' — chỉnh kỳ vọng trước khi kết luận.",
+    "extra": "IM-22 P2 · Tips · NP ranh giới"
+  },
+  {
+    "type": "basic",
+    "front": "Tip: Đánh giá tưới máu ngoại vi (Warm vs Cold) đơn giản thế nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Dùng LƯNG BÀN TAY sờ nhiệt độ da từ cẳng chân đến đầu ngón chân bệnh nhân.<br>• Lưng bàn tay nhạy cảm với chênh lệch nhiệt độ hơn lòng bàn tay.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Sờ theo gradient: chân lạnh dần từ gối xuống ngón = giảm tưới máu ngoại vi.",
+    "extra": "IM-22 P2 · Tips · Đánh giá Cold/Warm"
+  },
+  {
+    "type": "basic",
+    "front": "Tip: Phân biệt 'hen tim' và đợt cấp COPD bằng gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Phối hợp NT-proBNP + Siêu âm tim POCUS (LVEF + đường B-lines phổi).<br>• NT-proBNP tăng vượt ngưỡng + B-lines lan tỏa + LVEF giảm → suy tim cấp.<br>• COPD: không tăng NP vượt ngưỡng, phổi không B-lines.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>B-lines = dấu phù mô kẽ phổi trên siêu âm — 'thủy thũng' lan tỏa 2 phế trường trong suy tim.",
+    "extra": "IM-22 P2 · Tips · Hen tim vs COPD"
+  },
+  {
+    "type": "basic",
+    "front": "Mẫu Warm & Dry (ấm-khô): ý nghĩa lâm sàng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tưới máu tốt, không sung huyết.<br>• Tình trạng bù trừ tốt, bệnh nhân ổn định về mặt huyết động.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Đây là mục tiêu cần đạt khi điều trị mất bù — 'đích đến' của giảm sung huyết.",
+    "extra": "IM-22 P2 · Forrester · Warm-Dry"
+  },
+  {
+    "type": "basic",
+    "front": "Mẫu Warm & Wet (ấm-ướt): ý nghĩa lâm sàng và xử trí?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tưới máu tốt, có sung huyết.<br>• Dạng PHỔ BIẾN NHẤT của suy tim cấp nhập viện.<br>• Cần đánh giá mức độ quá tải thể tích và theo dõi sát.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Warm-Wet = 'thừa nước nhưng tim còn bơm khỏe' → nền tảng điều trị là LỢI TIỂU quai IV (P2 kết nối P5).",
+    "extra": "IM-22 P2 · Forrester · Warm-Wet"
+  },
+  {
+    "type": "basic",
+    "front": "Mẫu Cold & Dry (lạnh-khô): ý nghĩa lâm sàng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Giảm tưới máu, không sung huyết.<br>• Cảnh báo giảm thể tích nội mạch HOẶC suy tim cung lượng thấp đơn thuần.<br>• Cần đánh giá nguyên nhân — phân biệt giảm thể tích thật vs cung lượng thấp.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bẫy: 'khô' không đồng nghĩa thiếu dịch — cung lượng thấp cũng lạnh-khô. Phân định bằng bệnh sử + JVP + siêu âm + đáp ứng bù dịch.",
+    "extra": "IM-22 P2 · Forrester · Cold-Dry"
+  },
+  {
+    "type": "basic",
+    "front": "Mẫu Cold & Wet (lạnh-ướt): ý nghĩa lâm sàng và xử trí?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Giảm tưới máu kèm sung huyết.<br>• Nhóm NGUY CƠ CAO — đánh giá khẩn xem có đủ tiêu chuẩn sốc tim (tụt HA + giảm tưới máu cơ quan đích) hay không.<br>• Theo dõi sát tại đơn vị hồi sức tim mạch hoặc ICU.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Cold-Wet = 'tim yếu + phổi ngập' — nguy cơ sốc tim, cần hỗ trợ huyết động chuyên sâu, không trì hoãn.",
+    "extra": "IM-22 P2 · Forrester · Cold-Wet"
+  },
+  {
+    "type": "basic",
+    "front": "Theo dõi và tiên lượng sau khi chẩn đoán suy tim gồm những gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Theo dõi tiến triển lâm sàng: triệu chứng, dấu hiệu thực thể, cân nặng, khả năng gắng sức định kỳ.<br>• Theo dõi cận lâm sàng: chức năng thận và điện giải đồ định kỳ; NP có thể lặp lại để theo dõi xu hướng.<br>• Tiêu chí chuyển tuyến: chẩn đoán không rõ ràng, nghi ngờ nguyên nhân đặc biệt, hoặc tình trạng xấu đi nhanh.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Cân nặng hàng ngày là 'dấu hiệu sinh tồn số 0' của bệnh nhân suy tim — tăng 2-3 kg trong vài ngày = sắp mất bù.",
+    "extra": "IM-22 P2 · Theo dõi · Sau chẩn đoán"
+  },
+  {
+    "type": "basic",
+    "front": "Bước 1 của HFA-PEFF (P - Pre-test) gồm những gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Đánh giá tiền nghiệm: triệu chứng, yếu tố nguy cơ, ECG, NP.<br>• Bước sàng lọc trước khi đi sâu vào siêu âm.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Pre-test giúp chọn đúng bệnh nhân đáng làm tiếp các bước sau — tránh siêu âm không cần thiết.",
+    "extra": "IM-22 P2 · HFA-PEFF · Bước 1 Pre-test"
+  },
+  {
+    "type": "basic",
+    "front": "Bước 2 của HFA-PEFF (E - Diagnostic Score) gồm những gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Siêu âm tim TTE + NT-proBNP.<br>• Tính điểm cấu trúc/chức năng (morphological + functional score).<br>• Điểm số cao gợi ý xác suất HFpEF cao.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Điểm chức năng (E/e', e') + điểm hình thái (LAVI, LVMI) — cộng với NP để phân tầng.",
+    "extra": "IM-22 P2 · HFA-PEFF · Bước 2 Diagnostic Score"
+  },
+  {
+    "type": "basic",
+    "front": "Bước 3 của HFA-PEFF (F1 - Functional testing) gồm những gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Siêu âm tim gắng sức bằng xe đạp nằm (đo E/e' và sPAP khi gắng sức).<br>• HOẶC thông tim xâm lấn đo áp lực bít mao mạch phổi (PCWP) — tăng lúc nghỉ hoặc khi gắng sức.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Khi điểm nghỉ không thuyết phục, gắng sức 'phơi bày' tăng áp lực đổ đầy ẩn — PCWP ≥ 15 mmHg khi nghỉ hoặc ≥ 25 khi gắng sức.",
+    "extra": "IM-22 P2 · HFA-PEFF · Bước 3 Functional testing"
+  },
+  {
+    "type": "basic",
+    "front": "Bước 4 của HFA-PEFF (F2 - Final etiology) gồm những gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Đánh giá căn nguyên sâu: MRI tim, sinh thiết, xét nghiệm gen.<br>• Mục tiêu tìm Amyloidosis, Sarcoidosis, Fabry.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Bước 4 trả lời 'vì sao HFpEF?' — bệnh thâm nhiễm có điều trị đặc hiệu (tafamidis cho ATTR-CM, enzyme replacement cho Fabry).",
+    "extra": "IM-22 P2 · HFA-PEFF · Bước 4 Final etiology"
+  },
+  {
+    "type": "basic",
+    "front": "Phân biệt H2FPEF và HFA-PEFF?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• H2FPEF (Mayo Clinic): THANG ĐIỂM ước tính xác suất lâm sàng HFpEF — nhanh, dựa trên 6 yếu tố lâm sàng (béo phì, THA, AF, tăng áp phổi, tuổi, E/e').<br>• HFA-PEFF (ESC): THUẬT TOÁN đa bước chẩn đoán — Pre-test → Diagnostic score → Functional testing → Final etiology (P-E-F-F).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>H2FPEF = 'đoán xác suất'; HFA-PEFF = 'đi đến chẩn đoán chắc chắn'. Dùng H2FPEF sàng lọc, HFA-PEFF khi cần xác lập.",
+    "extra": "IM-22 P2 · HFpEF · H2FPEF vs HFA-PEFF"
+  },
+  {
+    "type": "basic",
+    "front": "Case 3 (HFpEF + AF + béo phì): vì sao 'khó thở do béo phì đơn thuần' là sai?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Không giải thích được NT-proBNP tăng, E/e' tăng, và LAVI tăng trên siêu âm tim.<br>• Béo phì đơn thuần không gây bằng chứng khách quan tăng áp lực đổ đầy.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Béo phì là yếu tố nguy cơ + yếu tố nhiễu NP, nhưng không 'miễn nhiễm' khỏi HFpEF — đừng đổ lỗi hết cho béo phì.",
+    "extra": "IM-22 P2 · Case 3 · Why wrong"
+  },
+  {
+    "type": "basic",
+    "front": "Case 3 (HFpEF + AF + béo phì): vì sao 'khó thở do COPD' là sai?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Không có tiền sử hút thuốc, không khò khè.<br>• X-quang phổi không có dấu hiệu căng giãn phổi.<br>• Bằng chứng siêu âm + NP hướng thẳng về suy tim.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Chẩn đoán phân biệt khó thở phải 'loại trừ dần bằng dữ kiện' — mỗi giả thuyết cần bị bác bỏ bởi bằng chứng cụ thể.",
+    "extra": "IM-22 P2 · Case 3 · COPD loại trừ"
+  },
+  {
+    "type": "basic",
+    "front": "Case 4 (CKD): vì sao 'suy tim Stage B (tiền suy tim)' chưa chắc chắn?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Đánh giá pre-HF ở người có yếu tố nguy cơ + biomarker tăng cần dựa trên định nghĩa hiện hành (Universal Definition).<br>• Cần xác nhận xu hướng biomarker, loại trừ nguyên nhân khác, theo dõi dọc.<br>• Không chỉ dựa vào một lần siêu âm tim bình thường để kết luận.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Một lần NT-proBNP tăng ở CKD chưa đủ — phải xem xu hướng theo thời gian và lâm sàng.",
+    "extra": "IM-22 P2 · Case 4 · Stage B chưa chắc"
+  },
+  {
+    "type": "basic",
+    "front": "Case 5 (đứt dây chằng van hai lá): vì sao 'phù phổi do THA cấp' là sai?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tăng huyết áp nặng có thể gây phù phổi cấp, nhưng bệnh cảnh này có âm thổi MỚI + buồng thất không giãn + tổn thương cấu trúc van xác định trên siêu âm.<br>• EF có thể còn bảo tồn hoặc tăng — không dùng EF đơn độc để loại trừ phù phổi do THA.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Phù phổi cấp tăng huyết áp (SCAPE) thường EF tăng động, không có âm thổi mới — so sánh để phân biệt.",
+    "extra": "IM-22 P2 · Case 5 · THA cấp loại trừ"
+  },
+  {
+    "type": "basic",
+    "front": "Case 5 (biến cố cơ học): vì sao 'Takotsubo' là sai?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Takotsubo gây suy tim cấp với rối loạn vận động vùng thành thất trái.<br>• Kiểu rối loạn vận động thành KHÔNG điển hình cho Takotsubo + có tổn thương cấu trúc van xác định trên siêu âm.<br>• EF đơn độc không loại trừ Takotsubo — cần theo dõi diễn tiến lâm sàng.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Takotsubo = 'bóng đỉnh' (apical ballooning) kèm tiền sử stress; biến cố cơ học van cần siêu âm xác định tổn thương.",
+    "extra": "IM-22 P2 · Case 5 · Takotsubo loại trừ"
+  },
+  {
+    "type": "basic",
+    "front": "Bẫy 2: 'X-quang ngực bình thường thì loại trừ suy tim' — sai ở đâu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sự thật: một tỷ lệ đáng kể bệnh nhân suy tim mạn tính ổn định có CXR hoàn toàn bình thường.<br>• Do hệ bạch huyết phổi tăng đáp ứng dẫn lưu dịch mô kẽ.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>CXR nhạy với suy tim CẤP (sung huyết), kém nhạy với suy tim mạn đã bù — đừng trấn an bệnh nhân chỉ vì phim sạch.",
+    "extra": "IM-22 P2 · Bẫy · 2: CXR bình thường"
+  },
+  {
+    "type": "basic",
+    "front": "Bẫy 4: 'NP bình thường ở bệnh nhân béo phì → loại trừ suy tim' — sai ở đâu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sự thật: béo phì làm nồng độ NP thấp hơn dự kiến qua nhiều cơ chế (tăng thanh thải, thay đổi phân bố thể tích).<br>• Không nên loại trừ suy tim chỉ dựa vào NP 'bình thường' ở bệnh nhân béo phì.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Ở béo phì, NP 'bình thường' có thể là suy tim thật bị che giấu — dựa thêm vào lâm sàng + siêu âm.",
+    "extra": "IM-22 P2 · Bẫy · 4: Béo phì NP thấp"
+  },
+  {
+    "type": "basic",
+    "front": "Bẫy 1-8 đầy đủ: liệt kê nhanh 8 bẫy nhầm lẫn?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• 1. LVEF bắt buộc giảm mới là suy tim (sai — HFpEF tồn tại).<br>• 2. CXR bình thường loại trừ suy tim (sai — suy tim mạn có phim sạch).<br>• 3. NT-proBNP tăng luôn = suy tim (sai — thận, AF, tuổi, PE, sepsis).<br>• 4. Loại trừ suy tim ở béo phì vì NP bình thường (sai — NP thấp giả).<br>• 5. Phù 2 chân luôn do suy tim (sai — giãn TM, thận hư, xơ gan, amlodipine).<br>• 6. Điều trị hạ NT-proBNP (sai — NP là công cụ, không phải đích).<br>• 7. Stage C hết triệu chứng lùi về B (sai — một chiều A→D).<br>• 8. HFpEF nhẹ hơn HFrEF (sai — nhập viện/tử vong đáng kể).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Ôn nhanh: 'EF - CXR - NP - béo phì - phù - đích điều trị - stage - HFpEF' — 8 bẫy là đề thi hay hỏi.",
+    "extra": "IM-22 P2 · Bẫy · Tổng hợp 8 bẫy"
+  }
+]

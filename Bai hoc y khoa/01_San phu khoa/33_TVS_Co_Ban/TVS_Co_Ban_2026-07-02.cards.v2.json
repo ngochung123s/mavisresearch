@@ -1,0 +1,62 @@
+[
+  {
+    "type": "basic",
+    "front": "TVS cơ bản: 4 lớp kỹ năng của một lần khám tốt là gì?",
+    "back": "1. An toàn, đồng thuận và tôn trọng bệnh nhân.<br>2. Cầm đầu dò đúng, điều khiển bằng góc thay vì lực.<br>3. Biến hình ảnh 2D thành định hướng 3D trong vùng chậu.<br>4. Khảo sát theo checklist để không bỏ sót tử cung, buồng trứng, phần phụ và túi cùng Douglas."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong TVS, mốc định hướng đầu tiên và an toàn nhất cho người mới là {{c1::cổ tử cung}}.",
+    "extra": "Từ cổ tử cung đi theo kênh cổ tử cung lên eo, thân và đáy tử cung."
+  },
+  {
+    "type": "basic",
+    "front": "4 thao tác chính khi điều khiển đầu dò âm đạo?",
+    "back": "Đẩy/rút, nghiêng trước/sau, xoay phải/trái và quét hình quạt. Nguyên tắc: chuyển động nhỏ, chậm, có kiểm soát; nếu mất hình thì quay lại mốc cổ tử cung."
+  },
+  {
+    "type": "cloze",
+    "text": "Mặt cắt dọc giữa tử cung đạt chuẩn khi thấy {{c1::cổ tử cung}}, {{c1::kênh cổ tử cung}}, {{c1::thân tử cung}}, {{c1::đáy tử cung}} và {{c1::nội mạc liên tục}}.",
+    "extra": "Nếu nội mạc bị mất đoạn, thường là lệch đường giữa hoặc chưa tối ưu góc đầu dò."
+  },
+  {
+    "type": "basic",
+    "front": "Nguyên tắc đo bề dày nội mạc tử cung trên TVS?",
+    "back": "Đo trên mặt cắt dọc giữa tốt nhất, đo lớp nội mạc kép vuông góc với trục nội mạc, đặt caliper tại ranh giới nội mạc - cơ tử cung hai bên, không tính dịch lòng tử cung vào bề dày nội mạc."
+  },
+  {
+    "type": "cloze",
+    "text": "Nếu có dịch lòng tử cung, không tính dịch vào nội mạc; cần đo {{c1::lớp nội mạc trước}} và {{c1::lớp nội mạc sau}} riêng rồi cộng nếu cần báo cáo.",
+    "extra": "Gain quá cao có thể tạo hồi âm giả trong dịch."
+  },
+  {
+    "type": "basic",
+    "front": "Khi không tìm thấy buồng trứng trên TVS, cần làm gì trước khi kết luận?",
+    "back": "Dùng tử cung làm mốc trung tâm, tìm bó mạch chậu, quét vùng giữa tử cung và thành chậu, rút đầu dò nhẹ nếu buồng trứng nằm cao, phối hợp ấn bụng nhẹ. Nếu vẫn không thấy, ghi 'không quan sát rõ' và lý do nếu có."
+  },
+  {
+    "type": "cloze",
+    "text": "Quai ruột có thể giả buồng trứng nhưng thường có {{c1::nhu động}}, {{c1::khí}}, {{c1::bóng cản bẩn}} và không có cấu trúc nang noãn điển hình.",
+    "extra": "Buồng trứng thường có hình bầu dục, mô đệm hồi âm trung bình và nang nhỏ."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao Doppler còn tín hiệu không loại trừ xoắn buồng trứng?",
+    "back": "Buồng trứng có cấp máu kép và xoắn có thể không làm mất dòng chảy ngay. Chẩn đoán xoắn dựa trên lâm sàng, hình thái buồng trứng, đau khi chạm đầu dò và Doppler; không dựa vào một dấu đơn lẻ."
+  },
+  {
+    "type": "basic",
+    "front": "Bộ hình tối thiểu nên lưu trong một ca TVS cơ bản gồm gì?",
+    "back": "Dọc giữa tử cung, đo tử cung, đo nội mạc, ngang tử cung, buồng trứng phải, buồng trứng trái, túi cùng Douglas và Doppler nếu có câu hỏi cụ thể."
+  },
+  {
+    "type": "cloze",
+    "text": "Nguyên tắc báo cáo TVS: không thấy không đồng nghĩa {{c1::không có}}; nếu hình ảnh kém phải ghi rõ {{c1::giới hạn khảo sát}}.",
+    "extra": "Đặc biệt khi không quan sát rõ buồng trứng hoặc phần phụ."
+  },
+  {
+    "type": "basic",
+    "front": "Những tình huống TVS cơ bản phải báo ngay thay vì chỉ ghi nhận hình ảnh?",
+    "back": "Đau vùng chậu cấp kèm beta-hCG dương tính và chưa thấy thai trong tử cung; dịch túi cùng nhiều hoặc có hồi âm; nghi xoắn buồng trứng; khối phần phụ phức tạp có phần đặc/chồi/vách dày; ra máu nhiều hoặc huyết động không ổn định."
+  }
+]

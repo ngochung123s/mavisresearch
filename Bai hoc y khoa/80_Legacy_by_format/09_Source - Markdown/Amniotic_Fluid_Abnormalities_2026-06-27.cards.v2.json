@@ -1,0 +1,164 @@
+[
+  {
+    "type": "basic",
+    "front": "Nguồn chính của nước ối từ 16 tuần thai là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Sau 16 tuần, <b>nước tiểu thai (fetal urine)</b> là nguồn chính của nước ối<br>• Trước 16 tuần: transudate từ da thai, màng ối và dây rốn<br>• Thai sản xuất 600-1200 mL nước tiểu/ngày ở cuối thai kỳ<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Da thai keratin hóa hoàn tất ở 16-20 tuần → mất khả năng khuếch tán nước<br>• Nước tiểu thai trở thành nguồn AF chính từ thời điểm này → bất thường thận thai (renal agenesis, PUV) dẫn đến thiểu ối/anhydramnios",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Sau 16 tuần, nguồn chính của nước ối là {{c1::nước tiểu thai (fetal urine)}}. Thai sản xuất {{c1::600-1200}} mL/ngày ở cuối thai kỳ.",
+    "extra": "Trước 16 tuần: transudate từ da thai + amnion + dây rốn. Thai nuốt 200-500 mL/ngày là cơ chế hấp thu chính."
+  },
+  {
+    "type": "basic",
+    "front": "Thể tích nước ối đạt đỉnh ở tuần thai nào và bao nhiêu mL?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Đỉnh ở <b>32-34 tuần</b>, khoảng <b>800-1000 mL</b><br>• Sau đó giảm dần sinh lý đến đủ tháng<br>• Sau 40 tuần: giảm ~8%/tuần ở quá ngày<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Đây là lý do thiểu ối phổ biến hơn ở thai quá ngày<br>• Sau 42 tuần, thể tích AF chỉ còn khoảng 300-400 mL<br>• Theo dõi AFI/SDP là bắt buộc trong quản lý thai quá ngày",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Thể tích nước ối đạt đỉnh ở {{c1::32-34 tuần}}, khoảng {{c1::800-1000 mL}}. Sau 40 tuần giảm {{c1::~8%/tuần}}.",
+    "extra": "Đường cong Brace 1989: tăng dần đến đỉnh rồi giảm sinh lý. Quá ngày nguy cơ thiểu ối cao hơn."
+  },
+  {
+    "type": "basic",
+    "front": "AFI (Amniotic Fluid Index) là gì và kỹ thuật đo thế nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Chia tử cung thành <b>4 góc phần tư</b> bằng linea nigra (dọc) và rốn (ngang)<br>• Đo túi ối sâu nhất (chiều thẳng đứng) ở mỗi góc, không chứa dây rốn/phần thai<br>• Tổng 4 số = AFI (cm)<br>• Đầu dò vuông góc sàn nhà, KHÔNG nghiêng<br>• Mỗi túi đo phải rộng ≥1 cm<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Dùng Color Doppler nếu nghi ngờ dây rốn trong túi đo<br>• AFI mất nhiều thời gian hơn SDP nhưng hữu ích cho theo dõi serial và đa thai<br>• ISUOG 2023 khuyến cáo probe vuông góc sàn, không đè ép đầu dò",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "AFI đo nước ối bằng cách chia tử cung thành {{c1::4 góc phần tư}}, đo túi ối sâu nhất mỗi góc. Đầu dò phải {{c1::vuông góc sàn nhà}}, không nghiêng.",
+    "extra": "Phelan 1987. Túi đo phải không chứa dây rốn/phần thai, rộng ≥1 cm."
+  },
+  {
+    "type": "basic",
+    "front": "SDP (Single Deepest Pocket) là gì và cut-off thiểu ối/đa ối?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Đo túi ối sâu nhất toàn bộ buồng ối, theo chiều thẳng đứng<br>• Túi đo phải rộng ≥1 cm, không chứa dây rốn/phần thai<br>• <b>Thiểu ối</b>: SDP < 2 cm (severe < 1 cm)<br>• <b>Bình thường</b>: SDP 2-7.9 cm<br>• <b>Đa ối</b>: SDP ≥ 8 cm (SMFM #46 GRADE 2C)<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• SDP là phương pháp được SMFM/ACOG khuyến cáo ưu tiên vì ít chẩn đoán oligo giả hơn AFI<br>• Chauhan 2004 RCT: SDP chẩn đoán oligo 10% vs AFI 17% — adverse outcome không khác biệt<br>• SDP nhanh hơn AFI, phù hợp cho sàng lọc",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Thiểu ối theo SDP: < {{c1::2 cm}}. Đa ối theo SDP: ≥ {{c1::8 cm}} (SMFM #46 GRADE 2C).",
+    "extra": "Chamberlain 1984. SDP = ưu tiên trong antenatal surveillance (SMFM/ACOG)."
+  },
+  {
+    "type": "basic",
+    "front": "Định nghĩa thiểu ối (oligohydramnios) theo AFI — phân loại mức độ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Thiểu ối: <b>AFI ≤ 5 cm</b><br>• Severe (nặng): <b>AFI ≤ 2 cm</b><br>• Mild (nhẹ): AFI 2.1-5.0 cm<br>• Borderline (ranh giới): AFI 5.1-8.0 cm<br>• Anhydramnios: không còn túi ối nào<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Ganem 2026 (n=29,759): severe oligo (AFI ≤2) ở đủ tháng — AOR 1.96 cho adverse outcome<br>• Borderline AFI (5-8 cm): KHÔNG phải là thiểu ối — theo dõi serial, không cần induction khẩn<br>• Mức độ nặng quyết định hướng xử trí: severe → induction, mild → cá thể hóa",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Thiểu ối: AFI ≤ {{c1::5 cm}}. Thiểu ối nặng: AFI ≤ {{c1::2 cm}} — AOR {{c1::1.96}} cho adverse outcome (Ganem 2026).",
+    "extra": "Borderline: AFI 5.1-8.0 cm — không cần induction khẩn. Anhydramnios: không còn túi ối nào."
+  },
+  {
+    "type": "basic",
+    "front": "Định nghĩa đa ối (polyhydramnios) theo SMFM #46? Phân loại mức độ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• SMFM #46 (GRADE 2C): <b>SDP ≥ 8 cm</b> HOẶC <b>AFI ≥ 24 cm</b><br>• Nhẹ (mild): SDP 8-11.9 cm, AFI 24-29.9 cm (~60-70% ca)<br>• Vừa (moderate): SDP 12-15 cm, AFI 30-34.9 cm (~15-20%)<br>• Nặng (severe): SDP >15 cm, AFI ≥ 35 cm (~10-15%)<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Đa ối càng nặng → khả năng bất thường thai càng cao<br>• Mức độ quyết định quản lý: mild idiopathic → KHÔNG can thiệp, severe → tertiary center<br>• SMFM khuyến cáo AFI ≥24 cm (một số classic dùng ≥25 cm)",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "SMFM #46 định nghĩa đa ối là SDP ≥ {{c1::8 cm}} HOẶC AFI ≥ {{c1::24 cm}} (GRADE 2C). Đa ối nặng: SDP > {{c1::15 cm}}, AFI ≥ {{c1::35 cm}}.",
+    "extra": "Phân loại: mild (~60-70%), moderate (~15-20%), severe (~10-15%). Càng nặng → nguy cơ bất thường thai càng cao."
+  },
+  {
+    "type": "basic",
+    "front": "SMFM #46: Chỉ định amnioreduction trong đa ối là gì? GRADE?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>GRADE 1C</b> (strong recommendation): Chỉ amnioreduction khi có <b>triệu chứng mẹ nặng</b> (khó thở, đau bụng dữ dội) trong đa ối nặng<br>• <b>KHÔNG</b> chỉ định chỉ vì AFI/SDP cao đơn thuần<br>• <b>KHÔNG</b> dùng để 'dự phòng' biến chứng<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Kỹ thuật: kim 18-20G, hút tối đa 1-2 L/buổi (không hút quá nhanh → nguy cơ placental abruption)<br>• Biến chứng: PPROM (1-2%), nhiễm trùng ối, chuyển dạ sinh non<br>• Sau amnioreduction: AF thường tái tích tụ trong 24-72h → có thể cần lặp lại",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "SMFM #46: Có nên dùng Indomethacin để giảm nước ối trong đa ối? Tại sao?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>GRADE 1B</b> (strong recommendation, moderate-quality evidence): <b>KHÔNG</b> dùng indomethacin để giảm AF đơn thuần<br>• Cơ chế: NSAID → ức chế COX → ↓prostaglandin → ↓renal blood flow → ↓urine output<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Nguy cơ thai: đóng sớm ductus arteriosus (đặc biệt sau 32w), thiểu ối quá mức, NEC, suy thận<br>• Nguy cơ mẹ: viêm loét dạ dày, suy thận<br>• Ngoại lệ: có thể cân nhắc trong đa ối nặng gây chuyển dạ sinh non <28w nếu thất bại amnioreduction — nhưng là off-label, cần hội chẩn MFM",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "SMFM #46: {{c1::amnioreduction}} chỉ khi triệu chứng mẹ nặng (GRADE {{c1::1C}}). {{c1::Indomethacin}} KHÔNG dùng để giảm AF (GRADE {{c1::1B}}).",
+    "extra": "Amnioreduction: không chỉ định chỉ vì AFI/SDP cao. Indomethacin nguy cơ đóng ductus arteriosus."
+  },
+  {
+    "type": "basic",
+    "front": "SMFM #46: Mild idiopathic polyhydramnios — thời điểm sinh? Có cần antenatal surveillance?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Antenatal surveillance</b>: KHÔNG cần (GRADE 2C) cho mild idiopathic polyhydramnios đơn thuần<br>• <b>Timing delivery</b>: Chờ chuyển dạ tự nhiên, KHÔNG induction < 39 tuần (GRADE 1C)<br>• <b>Phương thức sinh</b>: Theo chỉ định sản khoa thông thường<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Đừng gây can thiệp không cần thiết — mild idiopathic lành tính<br>• Khi bấm ối: bấm kim nhỏ, tháo nước từ từ để tránh cord prolapse<br>• Sau sinh: nguy cơ PPH cao do tử cung quá căng → oxytocin chủ động",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Chauhan 2004 RCT: AFI vs SDP — kết quả chính?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• RCT n=1,080 thai phụ nguy cơ cao ≥28 tuần<br>• AFI chẩn đoán oligo: <b>17%</b><br>• SDP (2×1 cm) chẩn đoán oligo: <b>10%</b> (p=0.002)<br>• Tỷ lệ C-section vì FHR không yên tâm: 3.0% vs 2.0% — không khác biệt<br>• NICU admission, Apgar thấp: không khác biệt<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• SDP giảm 41% tỷ lệ chẩn đoán oligo so với AFI<br>• Adverse outcome KHÔNG tăng khi dùng SDP → SDP an toàn<br>• → SMFM/ACOG khuyến cáo SDP là phương pháp ưu tiên trong antenatal fetal surveillance<br>• PMID 15343260, Q1 AJOG IF 7.0",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Ganem 2026: Thiểu ối nặng vs nhẹ ở đủ tháng — AOR và ý nghĩa lâm sàng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Hồi cứu cohort, n=29,759 ca sinh, 432 ca (1.5%) thiểu ối đơn độc ở 37-42 tuần<br>• Severe (AFI ≤2 cm, n=66): adverse outcome <b>22.7%</b><br>• Mild (AFI 2.1-5.0 cm, n=366): adverse outcome <b>12.8%</b> (p=0.039)<br>• <b>AOR 1.96</b> (95% CI 1.09-3.78, p=0.044)<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Severe oligo đơn độc đủ tháng tăng GẦN GẤP ĐÔI nguy cơ kết cục bất lợi<br>• → Phân tầng mức độ thiểu ối để cá thể hóa quyết định induction<br>• Severe (AFI ≤2) ở đủ tháng: khuyến cáo INDUCTION — không nên 'chờ thêm vài ngày'<br>• PMID 41765752, Q1 J Matern Fetal Neonatal Med",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Ganem 2026: Severe oligo (AFI ≤2 cm) ở đủ tháng có adverse outcome {{c1::22.7%}} vs mild 12.8%, <b>AOR</b> = {{c1::1.96}} (95% CI 1.09-3.78).",
+    "extra": "N=29,759 ca sinh, 432 ca thiểu ối đơn độc. → Khuyến cáo: severe oligo đủ tháng → induction."
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế thiểu ối trong FGR — brain-sparing effect?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Placental insufficiency → fetal hypoxia → chemoreceptor activation → sympathetic ↑ → catecholamine<br>• Blood redistribution (brain-sparing): ưu tiên máu cho não (MCA ↓PI), tim, thượng thận<br>• <b>Renal artery VASOCONSTRICTION</b> → ↓GFR → ↓fetal urine output → <b>OLIGOHYDRAMNIOS</b><br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Thiểu ối trong FGR = giai đoạn redistribution đã tiến triển, KHÔNG phải dấu hiệu sớm<br>• Trình tự thời gian: UA PI↑ → MCA PI↓ → CPR↓ + Thiểu ối → DV bất thường → BPP bất thường<br>• Kết nối với bài Doppler (Bài 15): CPR và DV là yếu tố quyết định timing delivery",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Brain-sparing trong FGR: fetal hypoxia → sympathetic ↑ → {{c1::renal artery vasoconstriction}} → ↓GFR → ↓urine → {{c1::oligohydramnios}}.",
+    "extra": "Trình tự Doppler: UA PI↑ → MCA PI↓ → CPR↓ + thiểu ối → DV bất thường → BPP bất thường."
+  },
+  {
+    "type": "basic",
+    "front": "3 nguyên nhân hàng đầu gây đa ối? Tỷ lệ mỗi loại?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. <b>Vô căn (idiopathic)</b> — <b>50-60%</b>, thường mức độ nhẹ<br>2. <b>Đái tháo đường mẹ (GDM/DM)</b> — <b>15-20%</b><br>3. <b>Bất thường thai nhi</b> — <b>15-20%</b> (GI atresia, CNS defects, aneuploidy T21/T18, fetal hydrops)<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Idiopathic: không tìm thấy nguyên nhân sau khảo sát đầy đủ — tiên lượng tốt<br>• GDM: cơ chế maternal hyperglycemia → fetal hyperglycemia → osmotic diuresis → ↑urine → đa ối<br>• Bất thường thai: đa ối càng nặng → khả năng bất thường càng cao<br>• Nguyên nhân khác (<10%): TTTS, nhiễm trùng bào thai (CMV, toxo), alloimmunization",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Absent stomach bubble + polyhydramnios → chẩn đoán hàng đầu? Cần làm gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Chẩn đoán hàng đầu: <b>Esophageal atresia</b> (± tracheoesophageal fistula)<br>• Cơ chế: thai không nuốt được → AF ứ lại → đa ối<br>• Dạ dày không có dịch/hơi vì không có AF xuống dạ dày<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Siêu âm lặp sau 30-60 phút để xác nhận absent stomach<br>• Cân nhắc fetal MRI → đánh giá khoảng cách 2 đầu thực quản<br>• Có thể nằm trong VACTERL association (Vertebral, Anorectal, Cardiac, TE, Renal, Limb)<br>• CMA (microarray) qua chọc ối<br>• Sinh ở tertiary center, phẫu thuật sửa EA vài ngày sau sinh",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Absent stomach bubble + polyhydramnios → chẩn đoán {{c1::esophageal atresia (± TEF)}} cho đến khi chứng minh ngược lại.",
+    "extra": "Cơ chế: thai không nuốt được. Cần lặp siêu âm sau 30-60 phút. Có thể nằm trong VACTERL association."
+  },
+  {
+    "type": "basic",
+    "front": "Thuốc nào TUYỆT ĐỐI tránh trong thai kỳ vì gây thiểu ối và fetal renal tubular dysgenesis?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>ACE inhibitors (ACEi) và ARBs</b><br>• Cơ chế: ức chế RAAS thai → ↓efferent arteriole constriction → ↓GFR<br>• Hậu quả: fetal renal tubular dysgenesis → thiểu ối/anhydramnios <b>KHÔNG HỒI PHỤC</b> → pulmonary hypoplasia<br>• Fetal RAAS rất nhạy cảm với blockade trong tam cá nguyệt 2-3<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Chuyển sang labetalol, nifedipine, methyldopa TRƯỚC KHI có thai hoặc ngay khi phát hiện<br>• NSAIDs/Indomethacin cũng gây thiểu ối nhưng có thể hồi phục sau ngừng thuốc (khác với ACEi)<br>• Hỏi kỹ tiền sử dùng thuốc ở mọi BN có thiểu ối không rõ nguyên nhân",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "{{c1::ACEi/ARBs}} gây fetal renal tubular dysgenesis → thiểu ối/anhydramnios {{c1::không hồi phục}}. TUYỆT ĐỐI tránh trong thai kỳ.",
+    "extra": "Chuyển sang labetalol/nifedipine/methyldopa. NSAIDs gây thiểu ối có thể hồi phục sau ngừng thuốc."
+  },
+  {
+    "type": "basic",
+    "front": "3 nguyên tắc vàng trong xử trí bất thường nước ối?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. <b>Luôn tìm nguyên nhân trước khi can thiệp</b> — AF là marker, không phải chẩn đoán cuối cùng<br>2. <b>Tuổi thai quyết định hướng xử trí</b> — cùng 1 AFI 4 cm ở 28w (expectant + CS) vs 39w (induction) → quản lý hoàn toàn khác<br>3. <b>Phân tầng mức độ</b> — mild vs moderate vs severe → quyết định can thiệp<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Đa ối nhẹ vô căn (SMFM #46): KHÔNG can thiệp, chờ chuyển dạ tự nhiên<br>• Thiểu ối nặng (AFI ≤2) đủ tháng: INDUCTION (Ganem 2026 AOR 1.96)<br>• Borderline AFI (5-8 cm): theo dõi serial — đừng vội induction<br>• Luôn check thuốc mẹ (ACEi, NSAIDs), rỉ ối, Doppler bất thường",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "3 nguyên tắc vàng bất thường nước ối: (1) {{c1::Tìm nguyên nhân}} trước can thiệp, (2) {{c1::Tuổi thai}} quyết định xử trí, (3) {{c1::Phân tầng mức độ}} để cá thể hóa.",
+    "extra": "Mild idiopathic polyhydramnios → KHÔNG can thiệp. Severe oligo → induction. Borderline → theo dõi."
+  },
+  {
+    "type": "basic",
+    "front": "TTTS (Twin-Twin Transfusion Syndrome) Stage I — biểu hiện siêu âm?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Song thai <b>MCDA</b> (1 bánh nhau, 2 buồng ối)<br>• <b>Recipient</b>: ĐA ỐI (SDP ≥8 cm), bàng quang căng<br>• <b>Donor</b>: THIỂU ỐI/ANHYDRAMNIOS (SDP <2 cm), bàng quang không thấy — 'stuck twin'<br>• Quintero Stage I: chưa Doppler bất thường, chưa hydrops, chưa IUFD<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Đây là hình ảnh KINH ĐIỂN — đa ối + thiểu ối trong MCDA = TTTS<br>• Quản lý Stage I: theo dõi sát (US 1-2 lần/tuần) HOẶC laser photocoagulation<br>• Stage II-IV: laser photocoagulation các anastomoses<br>• SMFM Consult #72 (PMID 39029545)",
+    "extra": ""
+  }
+]

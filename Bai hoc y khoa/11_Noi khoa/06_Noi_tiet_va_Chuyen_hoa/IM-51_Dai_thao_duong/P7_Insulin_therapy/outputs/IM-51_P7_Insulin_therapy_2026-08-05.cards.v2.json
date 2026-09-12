@@ -1,0 +1,72 @@
+[
+  {
+    "front": "Vì sao Insulin được gọi là thuốc hạ đường huyết không có 'liều trần' (No Ceiling Dose)?",
+    "back": "Khác với thuốc uống có giới hạn thụ thể, Insulin là hormone hạ đường sinh lý trực tiếp gắn vào thụ thể INSR, huy động kênh GLUT4. <b>Tăng liều insulin đến bất kỳ mức nào cần thiết đều có thể hạ đường huyết về mức mong muốn</b>.",
+    "extra": "ADA Standards of Care 2026 — Insulin Principles"
+  },
+  {
+    "front": "Phép so sánh hình tượng của Insulin Nền (Basal Insulin) là gì?",
+    "back": "<b>'Ngọn lửa nền' (Background Flame)</b> — giữ mức insulin ổn định liên tục suốt 24/7 để kiểm soát sự sản xuất glucose từ gan trong trạng thái nhịn ăn.",
+    "extra": "IM-51 P7 — Ẩn dụ lâm sàng"
+  },
+  {
+    "front": "Phép so sánh hình tượng của Insulin Bữa ăn (Bolus Insulin) là gì?",
+    "back": "<b>'Bình chữa cháy tức thì'</b> — dập tắt đỉnh đường huyết vọt cao sau mỗi bữa ăn chứa Carbohydrate.",
+    "extra": "IM-51 P7 — Ẩn dụ lâm sàng"
+  },
+  {
+    "front": "Hệ số ICR (Insulin-to-Carb Ratio) là gì và tính theo công thức nào?",
+    "back": "ICR là số gam Carbohydrate được xử lý bởi 1 đơn vị Insulin. Tính theo <b>Quy tắc 500: ICR = 500 / TDD</b> (ví dụ TDD = 50U -> ICR = 10g Carb/1U).",
+    "extra": "T1D Bolus Calculation"
+  },
+  {
+    "front": "Hệ số hiệu chỉnh CF (Correction Factor / ISF) là gì và công thức tính?",
+    "back": "CF là mức đường huyết hạ được bởi 1 đơn vị Insulin. Tính theo <b>CF (mg/dL) = 1800 / TDD</b> hoặc <b>CF (mmol/L) = 100 / TDD</b>.",
+    "extra": "T1D Correction Calculation"
+  },
+  {
+    "front": "Đặc điểm động học quan trọng nhất của các Insulin nền thế hệ mới (Toujeo, Tresiba) là gì?",
+    "back": "<b>Không có đỉnh tác dụng (Peakless)</b> và thời gian kéo dài trên 24–42 giờ -> Giúp giảm tối đa nguy cơ hạ đường huyết ban đêm so với NPH.",
+    "extra": "DEVOTE & EDITION Trials"
+  },
+  {
+    "front": "Quy tắc chỉnh liều Insulin nền (Quy tắc 2-4-2) trong T2D như thế nào?",
+    "back": "• Đo đường huyết đói mỗi sáng.<br>• <b>Tăng 2U mỗi 3 ngày</b> nếu Glucose đói > 7.2 mmol/L (130 mg/dL).<br>• <b>Giảm 2–4U (hoặc 10–20%)</b> nếu Glucose đói < 3.9 mmol/L (70 mg/dL).",
+    "extra": "ADA 2026 Basal Titration Algorithm"
+  },
+  {
+    "front": "Phân biệt Hiện tượng Rạng đông (Dawn Phenomenon) vs Hiệu ứng Somogyi?",
+    "back": "• <b>Đo đường huyết lúc 3h sáng:</b><br>  - Nếu 3h sáng ĐƯỜNG CAO / BÌNH THƯỜNG -> <b>Hiện tượng Rạng đông</b> (do tăng tiết Cortisol/GH) -> Tăng liều Basal tối.<br>  - Nếu 3h sáng HẠ ĐƯỜNG HUYẾT (< 70 mg/dL) -> <b>Hiệu ứng Somogyi</b> (phản ứng bù trừ sau hạ ĐH đêm) -> GIẢM liều Basal tối hoặc ăn nhẹ trước ngủ.",
+    "extra": "Dawn vs Somogyi Differential"
+  },
+  {
+    "front": "Vì sao bắt buộc phải xoay vòng vị trí tiêm Insulin mỗi lần tiêm?",
+    "back": "Để ngăn ngừa biến chứng <b>Loạn dưỡng mỡ (Lipohypertrophy - mô mỡ phì đại chai cứng)</b>. Tiêm vào mô chai cứng làm giảm và thay đổi thất thường sự hấp thu insulin.",
+    "extra": "Insulin Injection Technique"
+  },
+  {
+    "front": "Kỹ thuật tiêm Insulin bằng bút tiêm: Giữ kim trong bao lâu sau khi bấm hết nút?",
+    "back": "Giữ kim dưới da <b>đúng 10 giây</b> sau khi bấm hết pittông để đảm bảo toàn bộ thể tích thuốc đã được giải phóng hoàn toàn và không bị trào ngược ra ngoài.",
+    "extra": "The 10-Second Injection Rule"
+  },
+  {
+    "front": "Nhiệt độ bảo quản bút tiêm Insulin chưa mở và bút tiêm đang sử dụng?",
+    "back": "• Bút chưa mở: Bảo quản <b>ngăn mát tủ lạnh 2°C – 8°C</b>.<br>• Bút đang dùng: Để ở <b>nhiệt độ phòng < 30°C trong vòng 28 ngày</b> (tránh ánh sáng trực tiếp, không để lại trong tủ lạnh để tránh buốt rát khi tiêm).",
+    "extra": "Insulin Storage Guidelines"
+  },
+  {
+    "front": "Xử trí Hạ đường huyết Mức 1 (Glucose < 70 mg/dL / 3.9 mmol/L) theo Quy tắc 15-15?",
+    "back": "1. Ăn/uống ngay <b>15g Carbohydrate tác dụng nhanh</b> (1/2 cốc nước cam, 3 viên đường).<br>2. Nghỉ 15 phút, đo lại đường huyết.<br>3. Nếu vẫn < 70 mg/dL -> Lặp lại thêm 15g đường.<br>4. Khi đã > 70 mg/dL -> Ăn bữa chính hoặc bữa phụ.",
+    "extra": "Rule of 15 for Hypoglycemia"
+  },
+  {
+    "front": "Xử trí Hạ đường huyết Mức 3 (Hạ đường huyết nặng có mất ý thức/hôn mê)?",
+    "back": "• <b>CẤM nhét thức ăn/nước uống vào miệng</b> (nguy cơ sặc vào phổi).<br>• Tiêm <b>Glucagon 1mg</b> (tiêm bắp/dưới da hoặc dạng bột xịt mũi Baqsimi 3mg).<br>• Hoặc truyền tĩnh mạch <b>Glucose 20% – 30% (50 – 100 mL)</b> tại cơ sở y tế.",
+    "extra": "Severe Hypoglycemia Emergency Protocol"
+  },
+  {
+    "front": "Quy tắc an toàn sống còn: Bệnh nhân T1D có bao giờ được tự ý ngưng tiêm Insulin nền không?",
+    "back": "<b>TUYỆT ĐỐI KHÔNG BAO GIỜ (RED BOX).</b> Ngay cả khi bệnh nhân bị ốm, sốt, nôn ói không ăn được, nồng độ Basal tối thiểu vẫn phải được duy trì để ngăn ngừa Toan Ceton (DKA) tử vong.",
+    "extra": "T1D Survival Red Box"
+  }
+]

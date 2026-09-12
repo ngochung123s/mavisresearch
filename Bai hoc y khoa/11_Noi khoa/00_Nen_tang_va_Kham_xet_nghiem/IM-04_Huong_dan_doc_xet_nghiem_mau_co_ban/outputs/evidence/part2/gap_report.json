@@ -1,0 +1,44 @@
+{
+  "part": "IM-04 Part 2",
+  "status": "CANDIDATES_PREPARED_NOT_RELEASED",
+  "covered": [
+    "BSH CBC/clotting PDFs retained and typed educational, not guideline",
+    "ANC severity definitions from EHA/EuNet-INNOCHRON consensus",
+    "EDTA pseudothrombocytopenia confirmation and citrate recount procedure",
+    "Coagulation specimen 9:1 blood:citrate ratio",
+    "Clauss as functional fibrinogen method; ICSH cautions against interchangeability with PT-derived fibrinogen",
+    "Current formal RBC transfusion recommendations from CHEST 2025 and threshold metadata from AABB 2023",
+    "Current AABB/ICTMG platelet threshold candidates from 2025 metadata",
+    "Current WHO 2024 haemoglobin measurement normative statement from a legally local WHO IRIS PDF, hash-locked and exactly located"
+  ],
+  "blocking_or_unresolved_gaps": [
+    {
+      "topic": "CBC general interpretation / indices",
+      "gap": "No single current formal society guideline covering every CBC index (RBC/Hb/Hct/MCV/MCH/RDW/WBC differential/ANC/ALC/PLT/MPV) was identified; BSH remains educational only.",
+      "impact": "Use BSH only as educational orientation; numeric or authoritative CBC claims need claim-specific sources."
+    },
+    {
+      "topic": "EHA neutropenia correction",
+      "gap": "PMID 37125258 is a correction notice linked to PMID 37008163 and requires correction-impact adjudication before any release claim.",
+      "impact": "Do not assign a verification label from this candidate alone."
+    },
+    {
+      "topic": "Fibrinogen replacement/transfusion threshold",
+      "gap": "The current ICSH source supports assay choice, not a universal replacement threshold. Context-specific fibrinogen replacement thresholds still require a current formal bleeding/massive-haemorrhage guideline and exact quote.",
+      "impact": "No universal 1.0 or 1.5 g/L treatment threshold candidate is promoted."
+    },
+    {
+      "topic": "Transfusion scope",
+      "gap": "AABB RBC/platelet full text is not locally reusable; only Europe PMC metadata/abstract is stored. CHEST applies to critically ill adults and explicitly differs for ACS.",
+      "impact": "Thresholds must retain population/procedure context; no universal threshold."
+    },
+    {
+      "topic": "WHO haemoglobin numeric cutoffs",
+      "gap": "The current WHO 2024 guideline PDF is locally available and hash-locked, but no numeric adult cutoff claim is promoted in this candidate set.",
+      "impact": "If Part 2 states a numeric anaemia cutoff, select and independently cross-check the exact Table 2 row with population, sex, pregnancy, altitude and smoking context."
+    }
+  ],
+  "verification_labels_assigned": false,
+  "research_brief_created": false,
+  "release_artifacts_created": false
+}

@@ -1,0 +1,217 @@
+[
+  {
+    "type": "basic",
+    "front": "Định nghĩa Đái tháo đường thai kỳ (GDM) theo ACOG PB #190?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• GDM là <b>tình trạng rối loạn dung nạp carbohydrate với mức độ bất kỳ</b>, khởi phát hoặc được phát hiện lần đầu <b>trong thai kỳ</b><br>• Áp dụng bất kể dùng insulin hay không, kéo dài sau sinh hay không<br>• Xuất hiện do kháng insulin sinh lý của thai kỳ + tế bào β tụy không bù trừ đủ<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• KHÔNG bao gồm ĐTĐ type 1 hoặc type 2 có trước thai kỳ<br>• Sau GDM: 50-70% phát triển ĐTĐ type 2 trong 10-25 năm → cần sàng lọc hậu sản",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "GDM là tình trạng rối loạn dung nạp {{c1::carbohydrate}} khởi phát hoặc phát hiện lần đầu trong {{c1::thai kỳ}}. Sau GDM: {{c1::50-70%}} phát triển ĐTĐ type 2 trong 10-25 năm.",
+    "extra": "ACOG PB #190 (PMID 29370047). 7-17% thai kỳ toàn cầu, VN 10-15%."
+  },
+  {
+    "type": "basic",
+    "front": "Dịch tễ GDM toàn cầu và tại Việt Nam?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Toàn cầu: <b>7-17%</b> thai kỳ<br>• Hoa Kỳ: <b>6-9%</b><br>• Châu Á: <b>10-20%</b> (cao nhất thế giới — di truyền + chế độ ăn)<br>• Việt Nam: ước tính <b>10-15%</b> thai phụ thành thị<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Châu Á: BMI thấp nhưng kháng insulin cao hơn<br>• Tại VN: tỷ lệ tăng nhanh do đô thị hóa + cơm trắng GI cao, nước ngọt",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Hormone nào gây kháng insulin MẠNH NHẤT trong thai kỳ? Cơ chế?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Human Placental Lactogen (hPL)</b> — MẠNH NHẤT, do syncytiotrophoblast tiết<br>• Các hormone phụ: Progesterone, Estrogen (estriol), Cortisol<br>• Cơ chế: ↓ GLUT4 translocation → ↓ glucose uptake ở cơ và mô mỡ<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• hPL tăng dần từ quý 2, đạt đỉnh quý 3 — tương ứng thời điểm GDM xuất hiện<br>• Mục đích sinh lý: đảm bảo glucose liên tục cho thai nhi",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Hormone kháng insulin MẠNH NHẤT trong thai kỳ là {{c1::Human Placental Lactogen (hPL)}}, do {{c1::syncytiotrophoblast}} của nhau thai tiết. Cơ chế: ↓ {{c1::GLUT4}} translocation.",
+    "extra": "Các hormone phụ: Progesterone, Estrogen, Cortisol, TNF-α."
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế GDM: tại sao tế bào β thất bại trong việc bù trừ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Thai kỳ bình thường: tế bào β TĂNG tiết insulin 2-3 lần → dung nạp glucose bình thường<br>• GDM: tế bào β <b>KHÔNG tăng tiết đủ</b> để bù trừ kháng insulin<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Nguyên nhân: di truyền (TCF7L2, GCK), béo phì, oxidative stress<br>• Béo phì là yếu tố nguy cơ MẠNH NHẤT (OR 2-4)<br>• GDM = 'stress test' cho tụy — bộc lộ β-cell reserve yếu",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "GDM xảy ra khi tế bào {{c1::β tụy}} KHÔNG tăng tiết insulin đủ để bù trừ cho {{c1::kháng insulin}} sinh lý của thai kỳ. Yếu tố nguy cơ MẠNH NHẤT là {{c1::béo phì}} (OR 2-4).",
+    "extra": "GDM = 'stress test' cho tụy. Gen: TCF7L2, GCK, KCNJ11."
+  },
+  {
+    "type": "basic",
+    "front": "Two-Step Approach (ACOG) sàng lọc GDM? Các bước?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Bước 1 — GCT 50g (24-28 tuần)</b>: Không cần nhịn đói. Uống 50g glucose, đo đường huyết sau <b>1 giờ</b>. Ngưỡng dương tính: <b>≥130-140 mg/dL</b><br>• <b>Bước 2 — OGTT 100g</b> (chỉ nếu GCT dương tính): Nhịn đói 8-14h. Đo đói + 1h + 2h + 3h. Tiêu chuẩn Carpenter-Coustan (≥2/4)<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• GCT cut-off 130 → sensitivity 90%. Cut-off 140 → specificity 90%<br>• Two-step chẩn đoán 5-7% GDM",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Two-Step (ACOG): Bước 1 — GCT {{c1::50g}} glucose, đo sau {{c1::1 giờ}}. Dương tính nếu ≥ {{c1::130-140 mg/dL}}. Bước 2 — OGTT {{c1::100g}}, tiêu chuẩn {{c1::Carpenter-Coustan}} (≥2/4).",
+    "extra": "Two-step chẩn đoán 5-7% GDM. ACOG khuyến cáo."
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chuẩn Carpenter-Coustan cho OGTT 100g?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Chẩn đoán GDM khi <b>≥2/4 giá trị</b> đạt hoặc vượt ngưỡng:<br>• <b>Đói: ≥95 mg/dL (5.3 mmol/L)</b><br>• <b>1h: ≥180 mg/dL (10.0 mmol/L)</b><br>• <b>2h: ≥155 mg/dL (8.6 mmol/L)</b><br>• <b>3h: ≥140 mg/dL (7.8 mmol/L)</b><br><br><b>🔍 Góc nhìn bổ sung:</b><br>• NDDG cũ (≥105/190/165/145) không còn dùng<br>• ACOG khuyến cáo Carpenter-Coustan",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chuẩn IADPSG 2010 cho OGTT 75g (One-Step)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>OGTT 75g (24-28 tuần)</b>: Nhịn đói 8-14h<br>• Chẩn đoán GDM khi <b>≥1/3 giá trị</b> vượt ngưỡng:<br>• <b>Đói: ≥92 mg/dL (5.1 mmol/L)</b><br>• <b>1h: ≥180 mg/dL (10.0 mmol/L)</b><br>• <b>2h: ≥153 mg/dL (8.5 mmol/L)</b><br>• Dựa trên HAPO study (NEJM 2008, n=25,505), OR 1.75 cho adverse outcome<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• One-step chẩn đoán 15-18% GDM — cao gấp 2-3 lần two-step<br>• FIGO/WHO khuyến cáo",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "IADPSG 2010 (OGTT 75g): Đói ≥ {{c1::92 mg/dL}}, 1h ≥ {{c1::180 mg/dL}}, 2h ≥ {{c1::153 mg/dL}}. Chẩn đoán GDM khi ≥ {{c1::1/3}} giá trị vượt ngưỡng. Dựa trên {{c1::HAPO}} study.",
+    "extra": "One-step chẩn đoán 15-18% GDM. FIGO/WHO khuyến cáo."
+  },
+  {
+    "type": "basic",
+    "front": "So sánh Two-Step vs One-Step sàng lọc GDM?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Two-step: chẩn đoán <b>5-7%</b> GDM, sensitivity 70-80%, specificity 95%<br>• One-step: chẩn đoán <b>15-18%</b> GDM, sensitivity 90-95%, specificity 85%<br>• MFMU Network trial (NEJM 2022): one-step KHÔNG vượt trội two-step<br>• Two-step chi phí thấp hơn<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Việt Nam: hầu hết BV lớn dùng Two-Step",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "5 yếu tố nguy cơ MẠNH NHẤT của GDM?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. <b>BMI ≥30 kg/m²</b>: OR 2-4 (MẠNH NHẤT)<br>2. <b>Tiền sử GDM</b>: OR 10-20, tái phát 30-70%<br>3. <b>Tiền sử gia đình ĐTĐ type 2</b>: OR 2-3<br>4. <b>Chủng tộc Á, Hispanic, Phi</b>: OR 2-4<br>5. <b>Tuổi mẹ ≥35</b>: OR 2-3<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• BMI là yếu tố CÓ THỂ THAY ĐỔI — giảm cân trước thai kỳ",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "5 yếu tố nguy cơ GDM mạnh nhất: {{c1::BMI ≥30}} (OR 2-4), {{c1::tiền sử GDM}} (OR 10-20), {{c1::tiền sử gia đình ĐTĐ}} (OR 2-3), {{c1::chủng tộc Á}} (OR 2-4), {{c1::tuổi ≥35}} (OR 2-3).",
+    "extra": "BMI là yếu tố CÓ THỂ THAY ĐỔI. TS GDM: cần sàng lọc SỚM ở thai kỳ sau."
+  },
+  {
+    "type": "basic",
+    "front": "Biến chứng GDM đối với MẸ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Tiền sản giật</b>: OR 1.5-2.0<br>• <b>Sinh mổ</b>: OR 1.3-1.8<br>• <b>ĐTĐ type 2 sau sinh</b>: 50-70% trong 10-25 năm<br>• <b>GDM tái phát</b>: 30-70%<br>• <b>Đa ối</b>: 10-20%<br>• <b>Nhiễm trùng tiểu</b>: OR 1.5-2<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Tiền sản giật do ↑ stress oxy hóa từ tăng glucose<br>• OGTT 75g hậu sản BẮT BUỘC để phát hiện ĐTĐ type 2",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Biến chứng GDM đối với THAI NHI và SƠ SINH?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Macrosomia (≥4,000g)</b>: OR 2-3 (15-30% GDM)<br>• <b>LGA (>90th)</b>: OR 2-4<br>• <b>Hạ đường huyết sơ sinh</b>: 10-20%<br>• <b>RDS</b>: OR 1.5-2<br>• <b>Dị tật bẩm sinh</b>: OR 2-4 (nếu không kiểm soát quý 1)<br>• <b>Bệnh cơ tim phì đại</b>: ĐẶC HIỆU cho GDM<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Macrosomia: ↑ glucose mẹ → ↑ insulin thai → ↑ IGF-1<br>• Hạ đường huyết sơ sinh: insulin thai cao → sau sinh glucose mẹ mất → hạ đột ngột",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Biến chứng thai GDM: Macrosomia OR {{c1::2-3}}, LGA OR {{c1::2-4}}, hạ đường huyết sơ sinh {{c1::10-20%}}, RDS OR {{c1::1.5-2}}. ĐẶC HIỆU cho GDM: {{c1::bệnh cơ tim phì đại}}.",
+    "extra": "Macrosomia cơ chế: ↑ glucose mẹ → ↑ insulin thai → ↑ IGF-1 → ↑ tăng trưởng vai, bụng."
+  },
+  {
+    "type": "basic",
+    "front": "Hậu quả DÀI HẠN cho con của mẹ GDM (fetal programming)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Béo phì trẻ em</b>: OR 1.5-2.0<br>• <b>ĐTĐ type 2</b>: OR 2-8 ở tuổi trưởng thành<br>• <b>Hội chứng chuyển hóa</b>: OR 1.5-2.0<br>• Cơ chế: <b>Lập trình bào thai</b> — hyperinsulinemia in utero → epigenetic changes<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• HAPO FUS (PMID 30617141): glucose mẹ tăng → ↑ béo phì/ĐTĐ con 10-14 tuổi<br>• Vòng xoắn liên thế hệ: mẹ GDM → con GDM → cháu GDM",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Mục tiêu đường huyết trong quản lý GDM theo ACOG?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Lúc đói: ≤95 mg/dL (5.3 mmol/L)</b><br>• <b>1h sau ăn: ≤140 mg/dL (7.8 mmol/L)</b><br>• <b>2h sau ăn: ≤120 mg/dL (6.7 mmol/L)</b><br>• <b>HbA1c: <6.0%</b><br>• Mục tiêu: <b>≥80% giá trị đạt mục tiêu/tuần</b><br>• SMBG 4 lần/ngày (đói + sau 3 bữa chính)<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Đường huyết sau ăn 1h QUAN TRỌNG HƠN đói trong dự đoán macrosomia",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Mục tiêu đường huyết GDM (ACOG): Đói ≤ {{c1::95 mg/dL}}, 1h sau ăn ≤ {{c1::140 mg/dL}}, 2h sau ăn ≤ {{c1::120 mg/dL}}, HbA1c < {{c1::6.0%}}. SMBG {{c1::4}} lần/ngày.",
+    "extra": "Đường huyết sau ăn 1h QUAN TRỌNG HƠN đói trong dự đoán macrosomia."
+  },
+  {
+    "type": "basic",
+    "front": "Medical Nutrition Therapy (MNT) trong GDM — nguyên tắc chính?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Tổng calo</b>: 30-35 kcal/kg/ngày (BMI bình thường), 25 (BMI >30)<br>• <b>Carbohydrate</b>: 40-45% tổng calo, chia nhỏ 3 bữa chính + 2-4 bữa phụ<br>• <b>Bữa sáng</b>: Carb THẤP NHẤT (15-30g) — kháng insulin cao nhất<br>• <b>Bữa phụ tối</b>: Carb 15-20g — ngừa ketosis<br>• <b>Đường đơn, nước ngọt</b>: TRÁNH HOÀN TOÀN<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• 40% BN GDM kiểm soát được CHỈ BẰNG MNT<br>• Tại VN: gạo lứt thay cơm trắng",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào khởi đầu THUỐC trong GDM? Lựa chọn first-line cho đường huyết đói vs sau ăn?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Chỉ định: Sau 1-2 tuần MNT + tập thể dục mà <b>≥30% giá trị vượt mục tiêu</b><br>• <b>Đói tăng chủ yếu → INSULIN NPH</b> 0.2 IU/kg buổi tối<br>• <b>Sau ăn tăng chủ yếu → METFORMIN</b> 500mg × 1-2/ngày<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• ACOG PB #190: insulin first-line, metformin alternative<br>• FIGO 2015: metformin first-line → insulin nếu thất bại",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Khởi đầu thuốc GDM khi ≥ {{c1::30%}} giá trị vượt mục tiêu sau {{c1::1-2 tuần}} MNT. Đói tăng → {{c1::Insulin NPH}} 0.2 IU/kg. Sau ăn tăng → {{c1::Metformin}} 500mg.",
+    "extra": "ACOG: insulin first-line. FIGO: metformin first-line. MiG trial (NEJM 2008): metformin = insulin."
+  },
+  {
+    "type": "basic",
+    "front": "So sánh Insulin vs Metformin vs Glyburide trong GDM?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Insulin</b>: Tiêu chuẩn vàng. KHÔNG qua nhau. Hiệu quả nhất. Nhược: tiêm, hạ đường huyết<br>• <b>Metformin</b>: Uống, rẻ. QUA NHAU THAI nhưng dữ liệu dài hạn yên tâm. Category B<br>• <b>Glyburide</b>: Qua nhau thai NHIỀU. Tăng hạ đường huyết sơ sinh. <b>KHÔNG ƯU TIÊN</b><br><br><b>🔍 Góc nhìn bổ sung:</b><br>• MiG trial (NEJM 2008, PMID 18463376): metformin = insulin, 46% cần thêm insulin<br>• Glyburide: ban đầu thấy an toàn (NEJM 2000), nhưng các nghiên cứu sau không ủng hộ",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Liều insulin khởi đầu và điều chỉnh trong GDM?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Insulin NPH (basal)</b>: khởi đầu <b>0.2 IU/kg buổi tối</b>. Tăng 2-4 IU mỗi 3 ngày đến khi đói ≤95<br>• <b>Insulin Regular</b>: khởi đầu <b>0.1-0.2 IU/kg trước bữa ăn</b>. Tăng 1-2 IU mỗi 3 ngày<br>• <b>Insulin Aspart/Lispro (rapid)</b>: 0.1 IU/kg trước bữa ăn (ưu tiên hơn Regular)<br>• Tổng liều insulin cuối thai kỳ: thường <b>0.7-1.0 IU/kg/ngày</b><br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Nhu cầu insulin TĂNG DẦN từ 24w đến đủ tháng do kháng insulin tăng",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Insulin GDM: NPH khởi đầu {{c1::0.2 IU/kg}} buổi tối, tăng {{c1::2-4 IU}} mỗi 3 ngày. Regular khởi đầu {{c1::0.1-0.2 IU/kg}} trước ăn. Tổng liều cuối thai kỳ thường {{c1::0.7-1.0 IU/kg/ngày}}.",
+    "extra": "Nhu cầu insulin TĂNG DẦN từ 24w đến đủ tháng do kháng insulin tăng."
+  },
+  {
+    "type": "basic",
+    "front": "Thời điểm sinh cho GDM theo mức độ kiểm soát?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>MNT đơn thuần, kiểm soát tốt</b>: 39w0d-40w6d (chờ chuyển dạ tự nhiên)<br>• <b>Dùng thuốc, kiểm soát tốt</b>: 39w0d-39w6d (cân nhắc induction)<br>• <b>Kiểm soát kém</b>: 37w0d-38w6d (cá thể hóa)<br>• <b>Có biến chứng (macrosomia, TSG)</b>: cá thể hóa, có thể 34-37w<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Không sinh chủ động <39w nếu kiểm soát tốt<br>• EFW ≥4,500g → cân nhắc mổ lấy thai chủ động (shoulder dystocia)",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Quản lý GDM trong chuyển dạ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>GDM MNT đơn thuần</b>: Không cần theo dõi glucose liên tục. Glucose đói lúc nhập viện<br>• <b>GDM dùng insulin</b>: <b>Truyền glucose 5% + insulin TM</b> để duy trì glucose 70-110 mg/dL<br>• Mục tiêu glucose trong chuyển dạ: <b>70-110 mg/dL (3.9-6.1 mmol/L)</b><br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Tránh tăng glucose mẹ trong chuyển dạ → hạ đường huyết sơ sinh",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "GDM dùng insulin trong chuyển dạ: truyền {{c1::glucose 5% + insulin TM}}, mục tiêu glucose {{c1::70-110 mg/dL}}. GDM MNT đơn thuần: {{c1::không cần}} theo dõi liên tục.",
+    "extra": "Tránh tăng glucose mẹ → hạ đường huyết sơ sinh."
+  },
+  {
+    "type": "basic",
+    "front": "Sàng lọc ĐTĐ type 2 sau GDM — KHI NÀO và BẰNG GÌ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>4-12 tuần hậu sản: OGTT 75g</b> — BẮT BUỘC cho mọi BN GDM<br>• Tiêu chuẩn ADA: đói ≥126 mg/dL HOẶC 2h ≥200 mg/dL → ĐTĐ type 2<br>• Sau đó: <b>HbA1c hoặc glucose đói HÀNG NĂM</b><br>• Trước thai kỳ sau: sàng lọc lại, tư vấn giảm cân<br>• <b>Cho con bú GIẢM nguy cơ ĐTĐ type 2 ở mẹ</b><br><br><b>🔍 Góc nhìn bổ sung:</b><br>• 50-70% GDM → ĐTĐ type 2 trong 10-25 năm<br>• Lifelong screening sau GDM",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Thai monitoring GDM — tần suất và công cụ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>28-32w</b>: Siêu âm tăng trưởng baseline (EFW, AC)<br>• <b>32-36w</b>: Siêu âm tăng trưởng mỗi <b>3-4 tuần</b><br>• <b>Từ 32w (nếu dùng thuốc)</b>: <b>NST hoặc BPP 1-2 lần/tuần</b><br>• <b>Từ 36w</b>: NST + AFI hàng tuần<br>• Thai GDM có nguy cơ thai lưu cao hơn → antenatal surveillance quan trọng<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Macrosomia → AC >90th percentile là dấu hiệu sớm nhất",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Thai monitoring GDM dùng thuốc: NST/BPP {{c1::1-2 lần/tuần}} từ {{c1::32w}}. Siêu âm tăng trưởng mỗi {{c1::3-4 tuần}} từ 28-32w. Macrosomia dấu hiệu sớm: {{c1::AC >90th percentile}}.",
+    "extra": "Thai GDM nguy cơ thai lưu cao hơn."
+  },
+  {
+    "type": "basic",
+    "front": "Sàng lọc GDM SỚM — chỉ định và công cụ?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Chỉ định sàng lọc ở <b>lần khám thai đầu tiên</b> cho:<br>  • BMI ≥30 kg/m²<br>  • Tiền sử GDM<br>  • Tiền sử gia đình ĐTĐ<br>  • Tiền sử sinh con ≥4,000g<br>  • PCOS<br>• Công cụ: <b>HbA1c + glucose đói + OGTT 75g</b><br>• Nếu âm tính → lặp lại 24-28 tuần<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• HbA1c ≥6.5% hoặc glucose đói ≥126 → gợi ý pregestational diabetes",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "7 SAI LẦM THƯỜNG GẶP trong quản lý GDM?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. Không sàng lọc GDM sớm ở BN nguy cơ cao → bỏ lỡ chẩn đoán<br>2. Chỉ làm GCT 50g, không làm OGTT khi GCT dương tính → miss GDM<br>3. Khởi đầu insulin quá muộn → macrosomia không hồi phục<br>4. Dùng glyburide thay insulin/metformin → hạ đường huyết sơ sinh<br>5. Không theo dõi thai đủ sát khi dùng thuốc → thai lưu<br>6. Sinh non <39w chỉ vì GDM kiểm soát tốt → iatrogenic<br>7. Quên OGTT 75g hậu sản → bỏ lỡ ĐTĐ type 2<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Glyburide KHÔNG phải first-line theo ACOG PB #190",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "So sánh guideline GDM: ACOG vs FIGO vs IADPSG vs ADA?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Sàng lọc</b>: ACOG two-step, FIGO/IADPSG/ADA one-step<br>• <b>First-line thuốc</b>: ACOG insulin, FIGO metformin, ADA metformin→insulin<br>• <b>Glyburide</b>: Tất cả đều KHÔNG khuyến cáo<br>• <b>Thai monitoring</b>: NST/BPP từ 32w nếu dùng thuốc (tất cả)<br>• <b>Thời điểm sinh</b>: 39-40w nếu kiểm soát tốt (tất cả)<br>• <b>Postpartum OGTT</b>: 4-12 tuần (tất cả)<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Việt Nam: theo ACOG (two-step), đang dần chuyển sang one-step",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "GDM tại Việt Nam — đặc điểm và thách thức?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Dịch tễ</b>: 10-15% thai phụ thành thị, tăng nhanh<br>• <b>Sàng lọc</b>: Hầu hết BV lớn dùng Two-Step (GCT → OGTT 100g)<br>• <b>Thuốc sẵn có</b>: Metformin 500mg (rẻ, BHYT), Insulin NPH/Regular (BHYT)<br>• <b>Thách thức</b>: Nhiều BN không tuân thủ SMBG (que thử 5,000đ/lần)<br>• <b>Dinh dưỡng VN</b>: Cần điều chỉnh cơm trắng→gạo lứt, hạn chế nước mía, xoài, nhãn<br><br><b>🔍 Góc nhìn bổ sung:</b><br>• Tư vấn dinh dưỡng cần phù hợp văn hóa ẩm thực Việt",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "GDM tại VN: tỷ lệ {{c1::10-15%}} thai phụ thành thị. Sàng lọc chủ yếu dùng {{c1::Two-Step (GCT → OGTT 100g)}}. Thuốc rẻ sẵn có: {{c1::Metformin 500mg}} và {{c1::Insulin NPH}}. Thách thức: {{c1::không tuân thủ SMBG}} (chi phí que thử).",
+    "extra": "Dinh dưỡng: gạo lứt thay cơm trắng, hạn chế nước mía, xoài, nhãn, sầu riêng."
+  }
+]

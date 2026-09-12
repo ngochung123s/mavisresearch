@@ -1,0 +1,71 @@
+{
+  "lesson": "IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu",
+  "release": "2026-07-29_RELEASE_v3",
+  "scope": "package-only verification; not a canonical PUBLISH READY manifest",
+  "publish_ready": false,
+  "publish_ready_blocker": "No locked canonical evidence bundle exists for the legacy IM-43b lesson.",
+  "source_cards": {
+    "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu\\IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu_2026-07-29_RELEASE_v3.cards.v2.json",
+    "sha256": "51955958cc1e7dc254b25c628922e03af5d7cbae8f9c2e36bf2eb232a213bd41",
+    "count": 160
+  },
+  "apkg": {
+    "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu\\outputs\\Anki - IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu_2026-07-29_RELEASE_v3.apkg",
+    "sha256": "5b7394d1c3af115d2ccae88660671d1ab7c4704a8110ec499de08721f25d03cc",
+    "notes": 160,
+    "cards": 160
+  },
+  "checks": [
+    {
+      "gate": "cards_schema",
+      "status": "PASS",
+      "details": "160 basic cards; required fields non-empty; 160 unique IDs"
+    },
+    {
+      "gate": "source_uniqueness",
+      "status": "PASS",
+      "details": "0 duplicate fronts; 0 meta cards"
+    },
+    {
+      "gate": "candidate_apkg_build",
+      "status": "PASS",
+      "details": "build_apkg.py --verify exit 0"
+    },
+    {
+      "gate": "package_note_count",
+      "status": "PASS",
+      "details": "160 source cards = 160 notes = 160 cards"
+    },
+    {
+      "gate": "package_diacritics",
+      "status": "PASS",
+      "details": "95.8% (3841/4011 detected Vietnamese words with diacritics)"
+    },
+    {
+      "gate": "package_content_roundtrip",
+      "status": "PASS",
+      "details": "0 missing, 0 unexpected, 0 blank, 0 duplicate question-answer pairs"
+    },
+    {
+      "gate": "legacy_cutover",
+      "status": "PASS",
+      "details": "obsolete 10-card root APKG removed; verified release retained under outputs/"
+    }
+  ],
+  "coverage_counts": {
+    "cầu thận": 23,
+    "PCT": 12,
+    "quai Henle": 18,
+    "DCT": 18,
+    "ống góp": 19,
+    "lợi tiểu quai": 16,
+    "tiết kiệm kali": 10,
+    "acetazolamide": 4,
+    "mannitol": 4,
+    "điện giải/acid-base": 65,
+    "theo dõi": 42,
+    "kháng lợi tiểu/SNB": 8,
+    "red flags/Plan": 30,
+    "ca lâm sàng": 13
+  }
+}

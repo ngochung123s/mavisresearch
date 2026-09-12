@@ -1,0 +1,72 @@
+[
+  {
+    "type": "basic",
+    "front": "Checklist 10 điểm khi mô tả tổn thương trên TVS?",
+    "back": "1. Ở đâu?<br>2. Kích thước?<br>3. Dạng nang/đặc/hỗn hợp?<br>4. Hồi âm?<br>5. Thành?<br>6. Vách?<br>7. Chồi/phần đặc?<br>8. Bóng cản?<br>9. Doppler?<br>10. Dịch tự do?"
+  },
+  {
+    "type": "cloze",
+    "text": "Đọc hình bệnh lý TVS bắt đầu bằng {{c1::mô tả}}, không bắt đầu bằng {{c1::tên bệnh}}.",
+    "extra": "Tên bệnh chỉ có giá trị khi mô tả đủ đặc điểm hình ảnh."
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chuẩn hình ảnh của nang đơn giản buồng trứng trên TVS?",
+    "back": "Trống âm, thành mỏng đều, không vách dày, không chồi, không phần đặc, có tăng âm sau. Nếu thiếu các tiêu chuẩn này thì không nên gọi là nang đơn giản."
+  },
+  {
+    "type": "cloze",
+    "text": "Endometrioma điển hình thường là nang hồi âm thấp đồng nhất dạng {{c1::kính mờ}}, thành tương đối đều, ít hoặc không có mạch trong lòng nang.",
+    "extra": "Nếu có chồi/phần đặc, cần đánh giá chuyên sâu."
+  },
+  {
+    "type": "basic",
+    "front": "Dấu hiệu gợi ý nang xuất huyết trên TVS?",
+    "back": "Hồi âm dạng lưới/fibrin, cục máu đông bám thành không có mạch bên trong, dịch hồi âm thay đổi theo thời gian, có thể kèm đau cấp nếu vỡ."
+  },
+  {
+    "type": "basic",
+    "front": "Dấu hiệu gợi ý dermoid / mature cystic teratoma trên TVS?",
+    "back": "Thành phần tăng âm do mỡ, bóng cản bẩn, nốt Rokitansky, đường mức mỡ - dịch hoặc khối hồi âm hỗn hợp."
+  },
+  {
+    "type": "cloze",
+    "text": "Hình ảnh buồng trứng đa nang (PCOM) không đồng nghĩa tự động với {{c1::hội chứng buồng trứng đa nang (PCOS)}}.",
+    "extra": "PCOS cần tiêu chuẩn lâm sàng/nội tiết, không chỉ dựa vào siêu âm."
+  },
+  {
+    "type": "basic",
+    "front": "Những dấu hiệu nào làm khối buồng trứng/phần phụ cần đánh giá chuyên sâu?",
+    "back": "Phần đặc, chồi nhú, vách dày hoặc không đều, thành không đều, mạch trong phần đặc/chồi, dịch ổ bụng, khối hai bên, lớn nhanh hoặc không giải thích được bằng nang chức năng."
+  },
+  {
+    "type": "basic",
+    "front": "Hình ảnh gợi ý hydrosalpinx trên TVS?",
+    "back": "Cấu trúc dạng ống ngoằn ngoèo cạnh tử cung, chứa dịch, thành mỏng, có thể có nếp niêm mạc, và tách biệt với buồng trứng."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong bối cảnh beta-hCG dương tính, không thấy thai trong tử cung và có khối cạnh tử cung/dịch túi cùng thì phải nghĩ đến {{c1::thai ngoài tử cung}}.",
+    "extra": "Không thấy khối ngoài tử cung không loại trừ thai ngoài tử cung nếu lâm sàng còn nghi ngờ."
+  },
+  {
+    "type": "basic",
+    "front": "Dịch túi cùng Douglas khi nào đáng lo?",
+    "back": "Đáng lo khi đau bụng cấp, beta-hCG dương tính, huyết động không ổn định, dịch nhiều/lan lên ổ bụng, dịch có hồi âm hoặc cục máu, hoặc có khối phần phụ nghi vỡ/xoắn."
+  },
+  {
+    "type": "cloze",
+    "text": "Doppler còn tín hiệu không loại trừ {{c1::xoắn buồng trứng}}.",
+    "extra": "Xoắn cần đánh giá lâm sàng + hình thái + Doppler, không dựa vào một dấu đơn lẻ."
+  },
+  {
+    "type": "basic",
+    "front": "Các red flags trên TVS bệnh lý phụ khoa phải báo ngay?",
+    "back": "Thai ngoài tử cung nghi ngờ, dịch túi cùng nhiều hoặc có hồi âm trong đau cấp, xoắn buồng trứng nghi ngờ, áp xe phần phụ nghi ngờ, khối phần phụ nghi ác tính, ra máu nhiều hoặc huyết động không ổn định."
+  },
+  {
+    "type": "basic",
+    "front": "Mẫu tư duy khi thấy khối phần phụ phức tạp?",
+    "back": "Xác định khối thuộc buồng trứng hay tách biệt; đo 3 chiều; mô tả nang/đặc/hỗn hợp; tìm vách, chồi, phần đặc, bóng cản; dùng Doppler cho phần đặc/chồi; tìm dịch tự do; quyết định cần theo dõi, chuyên sâu hay báo ngay."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checked": 1,
+  "results": {
+    "35363499": {
+      "status": "PASS",
+      "reason": "status=clean; fresh=True; unresolved_corrections=0",
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T06:41:00.161449+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      }
+    }
+  },
+  "bundle_hash": "07bb09b6b7222f1d888d6c9c0375ffc96dfb53dee558cb0237c7658ce8c3f6ac"
+}

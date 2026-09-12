@@ -1,0 +1,73 @@
+{
+  "deck_name": "Long GnRH Agonist Protocol - 18/06/2026",
+  "cards": [
+    {
+      "front": "Long GnRH agonist protocol bắt đầu vào thời điểm nào của chu kỳ?\n\nA. Ngày 2-3 chu kỳ (follicular start)\nB. Ngày 21 ± 1 chu kỳ TRƯỚC (luteal start)\nC. Ngày 14 chu kỳ (ovulation)\nD. Ngày 7-8 chu kỳ (mid-follicular)",
+      "back": "Đáp án: B\n\nLuteal start (ngày 21 ± 1 chu kỳ trước) là thời điểm tối ưu vì:\n- Tránh flare effect kích thích nang non từ wave 1 (nếu follicular start)\n- Đảm bảo đến ngày 2-3 chu kỳ mới, down-regulation đã hoàn tất (~14 ngày sau)\n- Không có nang trội đang phát triển trong luteal phase\n\nPMID 38095077 (Liu 2023), PMID 36710334 (Orvieto 2023)."
+    },
+    {
+      "front": "Tiêu chí nào sau đây XÁC NHẬN down-regulation đã đạt trong long protocol?\n\nA. E2 > 100 pg/mL, LH > 10 mIU/mL\nB. E2 < 50 pg/mL, LH < 5 mIU/mL, ET < 5 mm, không nang > 10 mm\nC. Có nang trội 18 mm\nD. Progesterone > 5 ng/mL",
+      "back": "Đáp án: B\n\nĐánh giá vào ngày 2-3 chu kỳ mới:\n- E2 < 50 pg/mL (< 30 lý tưởng)\n- LH < 5 mIU/mL (< 3 lý tưởng)\n- Endometrial thickness < 5 mm\n- Không có nang > 10 mm\n- Progesterone < 1.5 ng/mL (đảm bảo không còn thể vàng)"
+    },
+    {
+      "front": "Hai giai đoạn sinh học của GnRH agonist khi bắt đầu dùng là gì? Mô tả ngắn gọn.",
+      "back": "1. **Flare effect (ngày 1-3)**: GnRH agonist gắn vào receptor ở thùy trước tuyến yên, gây kích thích mạnh → FSH và LH tăng vọt 50-100% trong 24-48h đầu, estrogen tăng theo. Do ái lực thuốc cao hơn GnRH nội sinh và nội bào hóa receptor chậm.\n\n2. **Desensitization (ngày 4-14)**: Ba hiện tượng song song:\n- Receptor downregulation (giảm số lượng receptor trên bề mặt)\n- Uncoupling (G-protein ngừng truyền tín hiệu)\n- Depletion of LH/FSH pool (bể chứa cạn kiệt)\n\nKết quả: FSH/LH < 5 mIU/mL, E2 < 50 pg/mL, đạt trạng thái hypogonadotropic hypogonadism tạm thời."
+    },
+    {
+      "front": "Bệnh nhân PCOS nên chọn protocol nào? Tại sao KHÔNG dùng long GnRH-agonist?",
+      "back": "PCOS nên dùng **GnRH-antagonist + GnRH trigger + freeze all**.\n\nLý do TRÁNH long agonist ở PCOS:\n- OHSS risk tăng 2-3 lần: 12.4% (agonist) vs 5.2% (antagonist) theo Kadoura 2022 (PMID 35292717)\n- PCOS có nhiều nang nhỏ, down-regulation sâu của agonist kết hợp với high FSH sensitivity → nguy cơ OHSS rất cao\n- GnRH trigger ở antagonist protocol cho phép giảm OHSS gần như tuyệt đối\n- Kết hợp freeze all → tránh fresh transfer trong giai đoạn nội tiết bất ổn"
+    },
+    {
+      "front": "Khi nào NÊN chọn long GnRH-agonist protocol? Liệt kê 4 nhóm bệnh nhân chính.",
+      "back": "1. **Normal-to-high responder** (AMH 1-4 ng/mL, AFC 8-15)\n2. **Endometriosis giai đoạn III/IV** (cân nhắc ultra-long 3-6 tháng)\n3. **Cần cycle programming chính xác** (PGT, fertility preservation trước hóa trị, ngân hàng mô)\n4. **Cycle trước LH surge sớm** dù antagonist\n\nNgoài ra còn: bệnh nhân ung thư cần fertility preservation, adenomyosis (ultra-long)."
+    },
+    {
+      "front": "Bologna criteria cho poor responder gồm những tiêu chí nào? Cần mấy tiêu chí để chẩn đoán?",
+      "back": "Theo Ferraretti 2011, cần **≥ 2 trong 3** tiêu chí:\n\n1. Tuổi ≥ 40 HOẶC có yếu tố poor response khác\n2. Trước đó poor response (≤ 3 noãn với protocol kích thích thông thường)\n3. AMH < 0.5-1.1 ng/mL HOẶC AFC < 5-7\n\nỞ nhóm này, long protocol KHÔNG phải lựa chọn đầu tay — ưu tiên antagonist hoặc natural cycle IVF (Vaz 2024, PMID 39626004)."
+    },
+    {
+      "front": "So sánh LBR giữa long GnRH-agonist và GnRH-antagonist ở normal responder theo meta-analysis 2023.",
+      "back": "Theo Liu C. et al. 2023 (PMID 38095077, Expert Rev Mol Med) — meta-analysis 52 RCT, n = 9950:\n\n- **LBR**: Tương đương (RR = 0.96, 95% CI 0.90-1.03, p = 0.27)\n- **OHSS**: GnRH-ant thấp hơn đáng kể (RR = 0.48, 95% CI 0.38-0.61), đặc biệt PCOS\n- **Clinical pregnancy rate**: Tương đương\n- **Miscarriage rate**: Tương đương\n\nKết luận: 2 protocol tương đương cho LBR, antagonist ưu việt hơn về an toàn (giảm OHSS). Long protocol vẫn có chỗ đứng ở specific patient groups."
+    },
+    {
+      "front": "Trong long protocol, tại sao luteal support với progesterone là BẮT BUỘC (không phải tùy chọn)?",
+      "back": "Ba lý do:\n\n1. **Down-regulation kéo dài** ức chế cả LH nội sinh → thể vàng kém chức năng tổng hợp progesterone\n2. **Sau OPU**, nhiều nang bị chọc hút → giảm khối lượng tế bào steroidogenic của thể vàng\n3. **Nếu dùng GnRH trigger** → LH nội sinh gần như bằng 0 → luteal phase defect NẶNG\n\n**Protocol chuẩn**:\n- Progesterone 200-400 mg/ngày đường âm đạo (Crinone gel 8% hoặc Endometrin 100 mg x 2-3 lần/ngày)\n- Bắt đầu từ ngày OPU, kéo dài đến tuần 8-10 nếu có thai\n- KHÔNG dùng hCG để hỗ trợ hoàng thể ở long protocol (gây OHSS)"
+    },
+    {
+      "front": "Ultra-long protocol là gì? Khi nào dùng? Ưu/nhược điểm?",
+      "back": "**Định nghĩa**: Down-regulation bằng GnRH agonist depot 3.75 mg mỗi 4 tuần × **3-6 tháng** TRƯỚC khi bắt đầu kích thích buồng trứng. Sau đó tiến hành long protocol bình thường.\n\n**Chỉ định**:\n- Endometriosis giai đoạn III/IV (PMID 38100935, PMID 36688363)\n- Adenomyosis (PMID 36549997)\n\n**Cơ chế**: Ức chế hoàn toàn estrogen → làm teo nang lạc nội mạc, giảm inflammation, cải thiện endometrial receptivity.\n\n**Ưu điểm**: Cải thiện pregnancy rate, giảm impact của endometriosis/adenomyosis.\n\n**Nhược điểm**: Thời gian rất dài, chi phí cao, triệu chứng hypoestrogen kéo dài (hot flash, loãng xương, khô âm đạo)."
+    },
+    {
+      "front": "Trigger trong long protocol: các lựa chọn và khi nào dùng loại nào?",
+      "back": "3 lựa chọn trigger khi 2-3 nang đạt 17-18 mm:\n\n1. **hCG** (5000-10000 IU SC hoặc 250 mcg rhCG):\n- Kinh điển, luteal support tốt\n- Nguy cơ OHSS cao, kéo dài LH activity 7-10 ngày\n\n2. **GnRH agonist trigger** (Leuprolide 0.2 mg SC):\n- OHSS gần như bằng 0\n- Luteal phase defect NẶNG → BẮT BUỘC aggressive luteal support hoặc **freeze all**\n- Ưu tiên ở high responder OHSS risk\n\n3. **Dual trigger** (hCG 1000 IU + Leuprolide 0.2 mg):\n- Kết hợp ưu điểm, giảm OHSS so với hCG đơn thuần\n- Cải thiện oocyte maturity\n- Vẫn có nguy cơ OHSS nhẹ\n\n**Quy tắc**: Long protocol + nguy cơ OHSS cao → **GnRH trigger + freeze all**."
+    },
+    {
+      "front": "OHSS là gì? Phân loại mức độ theo Golan 1989? Cách phòng ngừa ở long protocol?",
+      "back": "**OHSS** (Ovarian Hyperstimulation Syndrome) - hội chứng quá kích buồng trứng do đáp ứng quá mức với gonadotropin.\n\n**Phân loại Golan 1989**:\n- **Nhẹ**: Căng bụng, buồn nôn, buồng trứng < 8 cm\n- **Trung bình**: Ascites nhẹ, buồng trứng 8-12 cm\n- **Nặng**: Ascites nhiều, hematocrit > 45%, creatinine tăng, buồng trứng > 12 cm\n- **Rất nặng**: Suy thận, huyết khối, ARDS\n\n**Tỷ lệ ở long protocol**: 12-15% thể nhẹ, 1-3% thể nặng (high responder)\n\n**Phòng ngừa**:\n- Giảm liều FSH ở high responder\n- **Coasting** (ngừng FSH 1-2 ngày trước trigger) nếu E2 > 4000-5000 pg/mL\n- Trigger bằng **GnRH agonist** thay vì hCG\n- **Freeze all** toàn bộ embryo, trì hoãn transfer"
+    },
+    {
+      "front": "Tại sao bắt đầu GnRH agonist ở luteal phase (ngày 21) thay vì follicular phase (ngày 2-3) trong long protocol?",
+      "back": "Lý do chính:\n\n1. **Tránh kích thích nang non**: Nếu bắt đầu ngày 2-3 chu kỳ, flare effect (FSH/LH tăng vọt) sẽ kích thích nang non từ wave 1 phát triển không kiểm soát → có thể gây cyst formation.\n\n2. **Tận dụng trạng thái sinh lý**: Ở luteal phase, KHÔNG có nang trội nào đang phát triển → flare effect không ảnh hưởng đến nang hiện có.\n\n3. **Timing hoàn hảo cho down-regulation**: ~14 ngày sau (đến ngày 2-3 chu kỳ mới) đã đạt desensitization hoàn toàn → sẵn sàng bắt đầu gonadotropin.\n\n4. **Synchronization tốt**: Cho phép cycle programming chính xác (quan trọng cho PGT, fertility preservation)."
+    },
+    {
+      "front": "Microflare/short protocol là gì? Dùng cho ai? Tận dụng cơ chế nào?",
+      "back": "**Định nghĩa**: Bắt đầu GnRH agonist từ **ngày 2 chu kỳ** đồng thời với gonadotropin. Sau 3-4 ngày, bổ sung antagonist khi nang 14 mm.\n\n**Dùng cho**: Poor responder (Bologna criteria, Poseidon 3-4)\n\n**Cơ chế tận dụng flare effect**:\n- FSH tăng 50-100% trong 48h đầu → tăng tổng FSH exposure\n- LH tăng tương tự → kích thích nang nhỏ phát triển (LH có vai trò trên nang non)\n- Sau flare, GnRH agonist chuyển sang ức chế → bổ sung antagonist để chặn LH surge\n\n**Bằng chứng**: Cải thiện oocyte yield ở poor responder, mặc dù LBR vẫn thấp so với normal responder."
+    },
+    {
+      "front": "So sánh cycle length, số mũi tiêm, chi phí giữa long agonist và antagonist.",
+      "back": "| Tiêu chí | Long Agonist | Antagonist |\n|---|---|---|\n| **Tổng thời gian cycle** | 4-5 tuần | 2-3 tuần |\n| **Số mũi tiêm** | 25-35 mũi (daily) hoặc 1-2 mũi (depot) | 4-6 mũi |\n| **Chi phí thuốc** | Trung bình (có thể cao nếu depot) | Thấp hơn |\n| **Tổng liều gonadotropin** | Cao hơn ~250 IU | Thấp hơn |\n| **OHSS risk** | Cao hơn | Thấp hơn |\n| **Cycle cancellation** | Thấp (~5-8%) | Trung bình (~8-12%) |\n| **Patient convenience** | Kém (nhiều tiêm, kéo dài) | Tốt (ngắn, ít tiêm) |"
+    },
+    {
+      "front": "Theo ASRM 2023, khi nào nên chọn antagonist vs long agonist?",
+      "back": "**ASRM 2023 Practice Committee Opinion**:\n\nChọn **antagonist** ưu tiên khi:\n- High responder (AMH > 4, AFC > 20)\n- PCOS (giảm OHSS risk)\n- Cần giảm OHSS risk\n- Patient preference (ít tiêm, ngắn ngày)\n\nChọn **long agonist** phù hợp khi:\n- Normal responder (AMH 1-4, AFC 8-15)\n- Endometriosis (đặc biệt ultra-long)\n- Cần cycle programming chính xác (PGT, fertility preservation)\n- Cycle trước LH surge sớm với antagonist\n- Bệnh nhân ung thư cần fertility preservation (kết hợp letrozole)\n\nCả hai đều tương đương LBR ở normal responder (Liu 2023, PMID 38095077)."
+    },
+    {
+      "front": "Luteal phase defect sau GnRH trigger trong long protocol - xử trí thế nào?",
+      "back": "GnRH trigger gây luteal phase defect NẶNG vì:\n- LH nội sinh gần như bằng 0 sau trigger\n- Thể vàng không được duy trì\n- Progesterone nội sinh giảm mạnh\n\n**Xử trí**:\n\n1. **Modified luteal support** (cho fresh transfer):\n- Progesterone 200-400 mg/ngày âm đạo\n- E2 4-6 mg/ngày uống\n- **hCG 1500 IU** vào ngày OPU + 1-2 ngày sau (kích thích thể vàng, nhưng cẩn thận OHSS)\n\n2. **Freeze all** (an toàn nhất):\n- Trì hoãn transfer\n- Chuẩn bị nội mạc tốt ở cycle FET\n- Loại bỏ nguy cơ OHSS và luteal defect\n\n3. **Aggressive luteal support** với GnRH trigger:\n- Kết hợp progesterone + E2 + small dose hCG\n- Theo dõi sát OHSS\n\n**Khuyến cáo hiện nay**: GnRH trigger → freeze all → FET là an toàn nhất."
+    },
+    {
+      "front": "Daily vs depot GnRH agonist trong long protocol - ưu/nhược điểm mỗi loại?",
+      "back": "**Daily (short-acting)** - Leuprolide 0.5 mg SC mỗi ngày:\n- **Ưu**: Linh hoạt, dễ điều chỉnh liều, phù hợp poor responder, dừng thuốc nhanh nếu cần\n- **Nhược**: Nhiều mũi tiêm (25-35 mũi), compliance kém hơn\n\n**Depot (long-acting)** - Triptorelin 3.75 mg IM hoặc Leuprolide 3.75 mg SC:\n- **Ưu**: 1 mũi duy nhất (hoặc 1/tháng), tiện lợi, compliance tốt\n- **Nhược**: Khó điều chỉnh liều, suppress sâu hơn (có thể cần tăng FSH liều), khó dừng nếu có biến chứng\n\n**Hiệu quả**: Meta-analysis cho thấy tương đương về LBR và oocyte yield.\n\n**Lựa chọn**:\n- Normal responder + cần tiện → depot\n- Poor/moderate responder hoặc cần flexibility → daily\n- Ngân sách hạn chế → daily (rẻ hơn)"
+    }
+  ]
+}

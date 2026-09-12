@@ -1,0 +1,212 @@
+{
+  "deck_name": "Nội khoa - Hội chứng vành cấp & Nhồi máu cơ tim cấp (ACS & AMI Master Deck)",
+  "description": "Bộ thẻ Flashcard Anki siêu chi tiết toàn diện ôn thi Hội chứng vành cấp, STEMI, NSTE-ACS, Điện tâm đồ nâng cao, Động học Troponin, Siêu âm tim 17 phân vùng, TIMI Flow, Killip/Forrester/SCAI Shock, Biến chứng cơ học & Dược lý tái tưới máu theo ESC 2023, 2021 ACC/AHA Revascularization và Fourth Universal Definition of MI.",
+  "total_cards": 36,
+  "cards": [
+    {
+      "type": "basic",
+      "front": "Nêu định nghĩa Nhồi máu cơ tim cấp theo Universal Definition 2018 và phân biệt với Tổn thương cơ tim?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Nhồi máu cơ tim (MI): Hoại tử tế bào cơ tim do thiếu máu cục bộ kéo dài. Bắt buộc có: Nồng độ Troponin tim (cTn) tăng/giảm động học với ít nhất 1 giá trị > bách phân vị 99 KÈM THEO ít nhất 1 bằng chứng thiếu máu (đau ngực, biến đổi ST-T/LBBB mới, sóng Q mới, RWMA mới trên siêu âm, huyết khối ĐMV).<br>• Tổn thương cơ tim (Myocardial Injury): Troponin tăng nhưng KHÔNG CÓ bằng chứng thiếu máu cục bộ cơ tim.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Troponin tăng trong suy tim mất bù, suy thận mạn, viêm cơ tim, nhiễm trùng huyết là Tổn thương cơ tim, không được chẩn đoán là Nhồi máu cơ tim.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Phân biệt cơ chế và cách tiếp cận điều trị giữa Nhồi máu cơ tim Type 1 vs Type 2?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Type 1 MI: Do NỨT VỠ HOẶC LOÉT MẢNG XƠ VỮA gây huyết khối bít tắc cấp tính ĐMV. Điều trị: TÁI THÔNG MẠCH VÀNH CẤP CỨU (PCI / Tiêu sợi huyết) + DAPT + Kháng đông + Statin liều cao.<br>• Type 2 MI: Do MẤT CÂN BẰNG CUNG - CẦU OXY CƠ TIM không do nứt mảng xơ vữa (thiếu máu nặng Hb < 7g/dL, tụt áp sốc, cơn THA cấp cứu, loạn nhịp nhanh > 150 l/p, co thắt vành). Điều trị: ĐIỀU TRỊ NGUYÊN NHÂN CĂN NGUYÊN GỐC (truyền máu, hạ áp, cắt cơn nhịp nhanh). TUYỆT ĐỐI KHÔNG CAN THIỆP PCI THƯỜNG QUY.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Sai lầm kinh điển tại cấp cứu là thấy Troponin tăng lập tức chụp mạch can thiệp mà không nhận diện Type 2 MI do sốc nhiễm trùng hoặc xuất huyết tiêu hóa thiếu máu.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Định nghĩa các Type 3, 4a, 4b, 4c và 5 của Nhồi máu cơ tim?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Type 3: Đột tử do tim nghi do thiếu máu cơ tim trước khi kịp lấy mẫu máu hoặc trước khi troponin kịp tăng.<br>• Type 4a: Nhồi máu cơ tim liên quan can thiệp PCI (Troponin tăng > 5 lần bách phân vị 99 trong vòng 48h sau PCI).<br>• Type 4b: Huyết khối trong stent (Stent Thrombosis) xác nhận qua chụp mạch vành.<br>• Type 4c: Tái hẹp trong stent (In-stent Restenosis).<br>• Type 5: Nhồi máu cơ tim liên quan phẫu thuật bắc cầu CABG (Troponin tăng > 10 lần bách phân vị 99 trong vòng 48h sau mổ).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Type 4b (Huyết khối trong stent) là cấp cứu tối khẩn với tỷ lệ tử vong 50-70%, cần chụp mạch can thiệp khẩn cấp ngay.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Định nghĩa, căn nguyên và chiến lược điều trị Bóc tách động mạch vành tự phát (SCAD) trong MINOCA?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Định nghĩa: Bệnh nhân đáp ứng tiêu chuẩn MI nhưng chụp mạch KHÔNG THẤY HẸP ĐMV CÓ Ý NGHĨA (hẹp < 50%), nguyên nhân do rách lớp nội mạc tự phát tạo lòng giả bít tắc lòng thật.<br>• Thường gặp: Phụ nữ trẻ tuổi, phụ nữ mang thai hoặc thời kỳ hậu sản (nồng độ Progesterone cao làm yếu trung mạc).<br>• Chiến lược điều trị: ƯU TIÊN ĐIỀU TRỊ BẢO TỒN NỘI KHOA (Chẹn beta + Aspirin đơn). Hạn chế tối đa can thiệp PCI vì thành mạch bở dễ làm bóc tách lan rộng xuôi/ngược dòng. Chỉ can thiệp PCI cứu vãn khi tắc hoàn toàn dòng chảy TIMI 0/1 hoặc bất ổn huyết động kéo dài.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Chụp cộng hưởng từ tim (Cardiac MRI) là tiêu chuẩn vàng để phân biệt MINOCA với Viêm cơ tim cấp (Lake Louise Criteria 2018) và Bệnh cơ tim Takotsubo.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Nêu tam chứng cơn đau thắt ngực kiểu vành điển hình và các thể đau ngực không điển hình?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Tam chứng kinh điển: (1) Tính chất đè nặng, bóp nghẹt sau xương ức, dấu hiệu Levine; (2) Lan lên vai trái, tay trái ngón 4-5, hàm dưới, sau lưng hoặc thượng vị; (3) Kéo dài TRÊN 20 PHÚT, không đỡ khi nghỉ/ngậm Nitroglycerin.<br>• Triệu chứng kèm: Vã mồ hôi lạnh (cực kỳ giá trị), buồn nôn (hay gặp NMCT thành dưới), khó thở, cảm giác sợ chết.<br>• Biểu hiện không điển hình: Người đái tháo đường (bệnh TK tự chủ làm mất cảm giác đau), người cao tuổi ≥ 75t (lú lẫn, ngã, khó thở đột ngột, tụt áp), phụ nữ (mệt mỏi, khó tiêu, đau thượng vị).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• 'Đau ngực + Vã mồ hôi lạnh = Hội chứng vành cấp cho đến khi chứng minh ngược lại'. Luôn đo ECG 12 chuyển đạo trong ≤ 10 phút.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Tiêu chuẩn chẩn đoán đoạn ST chênh lên tại điểm J trong STEMI (ESC 2023)?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Tất cả chuyển đạo (trừ V2, V3): ST chênh lên tại điểm J ≥ 1.0 mm (0.1 mV) ở ít nhất 2 chuyển đạo liên tiếp cùng vùng giải phẫu.<br>• Riêng chuyển đạo V2 và V3:<br>  - Nam giới < 40 tuổi: ST chênh lên tại điểm J ≥ 2.5 mm (0.25 mV).<br>  - Nam giới ≥ 40 tuổi: ST chênh lên tại điểm J ≥ 2.0 mm (0.20 mV).<br>  - Phụ nữ (mọi lứa tuổi): ST chênh lên tại điểm J ≥ 1.5 mm (0.15 mV).<br>• Chuyển đạo mở rộng V3R, V4R và V7, V8, V9: ST chênh lên ≥ 0.5 mm (nam < 30t ở V4R: ≥ 1.0 mm).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• V2-V3 nằm sát vách liên thất nên bình thường đã có điện thế hơi nâng cao. Ngưỡng phân tầng tuổi/giới giúp tránh chẩn đoán dương tính giả ở người trẻ có tái cực sớm sinh lý.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Lập bảng định khu 12 chuyển đạo tương ứng với vùng nhồi máu và nhánh động mạch vành thủ phạm?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• V1, V2, V3: Vùng TRƯỚC VÁCH → Tắc Động mạch liên thất trước (LAD).<br>• V3, V4: Vùng TRƯỚC MỎM → Tắc LAD đoạn giữa/xa.<br>• V1 đến V6, I, aVL: Vùng TRƯỚC RỘNG → Tắc LAD ĐOẠN GẦN (nguy cơ sốc tim cao nhất).<br>• I, aVL, V5, V6: Vùng THÀNH BÊN → Tắc Động mạch Mũ (LCx) hoặc nhánh chéo D1 LAD.<br>• II, III, aVF: Vùng THÀNH DƯỚI → Tắc Động mạch vành phải RCA (85-90%) hoặc LCx (10-15%).<br>• V3R, V4R: Vùng THẤT PHẢI → Tắc RCA ĐOẠN GẦN.<br>• V7, V8, V9: Vùng THÀNH SAU THỰC → Tắc nhánh LCx (OM) hoặc RCA (PDA).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Trong NMCT thành dưới (ST ↑ D2, D3, aVF): Nếu ST ↑ D3 > D2 kèm ST ↓ aVL > D1 thì thủ phạm là RCA. Ngược lại nếu D2 > D3 và ST aVL dương thì thủ phạm là LCx.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Nêu tiêu chuẩn chẩn đoán ECG, cơ chế và cảnh báo điều trị sống còn của Nhồi máu cơ tim thất phải?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Tiêu chuẩn ECG: Đoạn ST chênh lên ≥ 0.5 mm (hoặc ≥ 1.0 mm ở nam < 30t) tại CHUYỂN ĐẠO V4R (kèm ST chênh lên ở D2, D3, aVF). Gặp trong 30% đến 50% các ca NMCT thành dưới do tắc đoạn gần RCA.<br>• Tam chứng lâm sàng: Tụt huyết áp + Tĩnh mạch cổ nổi to + Trường phổi hoàn toàn trong sạch (không có ran ứ huyết).<br>• CẢNH BÁO ĐIỀU TRỊ SỐNG CÒN: CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI NITRATES, MORPHINE VÀ LỢI TIỂU (vì làm giảm đột ngột tiền tải thất phải gây tụt áp trụy mạch tử vong).<br>• Xử trí cốt lõi: BÙ DỊCH NHANH NaCl 0.9% để nâng áp lực đổ đầy thất phải.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Đoạn ST chênh lên ở V4R biến mất rất nhanh trong vòng 2 - 6 giờ đầu. Vì vậy bắt buộc phải đo V4R ngay lập tức khi phát hiện nhồi máu cơ tim thành dưới!",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Đặc điểm nhận diện trên ECG 12 chuyển đạo tiêu chuẩn của Nhồi máu cơ tim thành sau thực (True Posterior MI)?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Dấu hiệu gián tiếp (Hình ảnh soi gương) ở chuyển đạo V1, V2, V3:<br>  1. Đoạn ST CHÊNH XUỐNG NẰM NGANG HOẶC DỐC XUỐNG ở V1, V2, V3.<br>  2. Sóng R CAO, RỘNG (Tỷ lệ R/S > 1, thời gian sóng R > 0.04s) ở V1, V2.<br>  3. Sóng T DƯƠNG CAO, NHỌN, ĐỐI XỨNG ở V1, V2.<br>• Tiêu chuẩn khẳng định: Mắc chuyển đạo sau lưng V7, V8, V9 thấy đoạn ST chênh lên ≥ 0.5 mm → Kích hoạt can thiệp cấp cứu ngay như STEMI.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Đây là bẫy bỏ sót kinh điển nhất khiến bệnh nhân tắc hoàn toàn ĐMV bị phân loại nhầm thành NSTE-ACS nguy cơ thấp do không thấy ST chênh lên ở 12 chuyển đạo trước.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Nêu đặc điểm của các thể 'Tương đương STEMI' (STEMI Equivalents): Hội chứng de Winter, Hội chứng Wellens, ST chênh lên ở aVR và Dấu hiệu Aslanger?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• 1. Hội chứng de Winter: Tắc cấp tính đoạn gần LAD → ST chênh xuống dốc lên > 1.0 mm tại điểm J ở V1-V6 nối tiếp bởi sóng T CAO NHỌN ĐỐI XỨNG KHỔNG LỒ kèm ST chênh lên 0.5-1.0mm ở aVR.<br>• 2. Hội chứng Wellens: Hẹp rất nặng đoạn gần LAD (xuất hiện khi hết đau ngực) → Type A: Sóng T hai pha (+/-) ở V2, V3; Type B: Sóng T âm rất sâu đối xứng ở V2, V3. CẤM LÀM NGHIỆM PHÁP GẮNG SỨC!<br>• 3. ST chênh lên ở aVR: Tắc Thân chung vành trái (LMCA) hoặc 3 thân ĐMV → ST chênh lên ≥ 1.0 mm ở aVR (aVR > V1) kèm ST CHÊNH XUỐNG SÂU LAN TỎA ở ≥ 6 chuyển đạo ngoại biên và trước tim.<br>• 4. Dấu hiệu Aslanger: NMCT thành dưới kèm bệnh nhiều thân ĐMV → ST chênh lên duy nhất ở D3 kèm ST chênh xuống ở V4-V6 và ST V1 > V2.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Cả 4 thể trên đều không có ST chênh lên kinh điển nhưng có nguy cơ hoại tử cơ tim tối cấp và đột tử cực cao, bắt buộc kích hoạt can thiệp mạch vành qua da (Primary PCI) cấp cứu như STEMI.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "So sánh Tiêu chuẩn Sgarbossa kinh điển (1996) vs Tiêu chuẩn Smith-Modified Sgarbossa (2012) trong chẩn đoán STEMI trên nền LBBB?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Tiêu chuẩn Sgarbossa kinh điển (1996):<br>  - Tiêu chuẩn A: ST chênh lên ≥ 1mm cùng chiều QRS (5 điểm).<br>  - Tiêu chuẩn B: ST chênh xuống ≥ 1mm cùng chiều ở V1-V3 (3 điểm).<br>  - Tiêu chuẩn C: ST chênh lên ≥ 5mm ngược chiều QRS (2 điểm).<br>  - ĐẶC ĐIỂM: Độ đặc hiệu rất cao (~98%) nhưng ĐỘ NHẠY RẤT THẤP (~36%) → ÂM TÍNH KHÔNG LOẠI TRỪ ĐƯỢC MI.<br>• Tiêu chuẩn Smith-Modified Sgarbossa (2012):<br>  - Thay tiêu chuẩn C tuyệt đối 5mm bằng TỶ LỆ |ST / S| ≥ 0.25 (tức ≥ 25%) kèm ST chênh ≥ 1mm.<br>  - ĐẶC ĐIỂM: Nâng độ nhạy lên 91% - 93% trong khi vẫn giữ độ đặc hiệu cao ~90%.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Nếu bệnh nhân có LBBB mới hoặc không rõ cũ mới kèm triệu chứng đau ngực thiếu máu cục bộ nặng nề, dù Sgarbossa âm tính vẫn phải kích hoạt chụp mạch can thiệp cấp cứu!",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Nêu bảng cut-off định lượng của thuật toán hs-cTn 0h/1h theo ESC 2023 và lưu ý khi áp dụng trên thực hành?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Mốc cut-off theo ESC 2023 Supplementary Table 3 (đơn vị ng/L):<br>  - Roche hs-cTnT: Rule-out 0h < 5 ng/L (hoặc 0h < 12 & Δ1h < 3); Rule-in 0h ≥ 52 ng/L (hoặc Δ1h ≥ 5 ng/L).<br>  - Abbott hs-cTnI: Rule-out 0h < 4 ng/L (hoặc 0h < 5 & Δ1h < 2); Rule-in 0h ≥ 52 ng/L (hoặc Δ1h ≥ 6 ng/L).<br>  - Siemens hs-cTnI: Rule-out 0h < 3 ng/L (hoặc 0h < 6 & Δ1h < 3); Rule-in 0h ≥ 120 ng/L (hoặc Δ1h ≥ 12 ng/L).<br>• LƯU Ý THỰC HÀNH: Ngưỡng có thể thay đổi tùy phiên bản kit của nhà sản xuất (ví dụ Abbott IFU ghi rule-out < 5 ng/L, Siemens một số lab dùng rule-in ≥ 100 ng/L). Luôn đối chiếu với bảng tham chiếu của phòng xét nghiệm bệnh viện sở tại! Chỉ áp dụng Rule-out 0h khi khởi phát đau ngực > 3 giờ.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Nếu bệnh nhân đến sớm trong vòng 3 giờ đầu sau đau ngực, bắt buộc phải làm mẫu 1 giờ để tính delta biến thiên.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Nêu vai trò của Siêu âm tim tại giường trong hội chứng vành cấp và sơ đồ phân bố 17 phân vùng thất trái?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Vai trò: Đánh giá Rối loạn vận động vùng (RWMA), đo phân suất tống máu LVEF, đánh giá chức năng thất phải (TAPSE) và phát hiện sớm các biến chứng cơ học cấp cứu.<br>• Phân bố 17 phân vùng theo ĐMV:<br>  - LAD: Thành trước và Vách liên thất (phân vùng 1, 2, 7, 8, 13, 14 và chóp mỏm 17).<br>  - LCx: Thành bên và Sau bên (phân vùng 5, 6, 11, 12, 16).<br>  - RCA: Thành dưới và Dưới vách (phân vùng 3, 4, 9, 10, 15) và toàn bộ thất phải.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• RWMA xuất hiện chỉ sau vài phút tắc mạch vành, trước cả khi có biến đổi ST trên ECG và trước khi troponin tăng trong máu.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Nêu 4 phân độ dòng chảy mạch vành TIMI Flow Grade (0, 1, 2, 3) trên phim chụp mạch vành can thiệp?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• TIMI 0 (Không có dòng chảy): Tắc hoàn toàn, không có thuốc cản quang đi qua tổn thương.<br>• TIMI 1 (Dòng chảy mờ nhạt): Có ít thuốc cản quang lọt qua nhưng không lấp đầy được đoạn mạch hạ lưu.<br>• TIMI 2 (Dòng chảy chậm): Thuốc lấp đầy toàn bộ lòng mạch hạ lưu nhưng tốc độ chảy và rửa trôi chậm hơn rõ rệt so với nhánh lành.<br>• TIMI 3 (Dòng chảy bình thường): Thuốc cản quang lấp đầy hoàn toàn và rửa trôi nhanh chóng với tốc độ bình thường. (MỤC TIÊU BẮT BUỘC CỦA MỌI CA CAN THIỆP PCI).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Đạt TIMI 3 sau can thiệp là yếu tố tiên quyết quyết định sự sống còn của mô cơ tim và tiên lượng tử vong của bệnh nhân.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Nêu vai trò của Hình ảnh học nội mạch (IVUS và OCT) và Hội chẩn Đa chuyên khoa Tim mạch (Heart Team) trong hội chứng vành cấp?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Vai trò IVUS / OCT (Class IIa theo ESC 2023 & 2021 ACC/AHA):<br>  1. Đánh giá chính xác kích thước lòng mạch và độ dài tổn thương để chọn cỡ stent chuẩn.<br>  2. Đảm bảo stent nở tối đa (Expansion > 80%) và áp sát hoàn toàn vào thành mạch, không bóc tách mép.<br>  3. Xác định bản chất tổn thương (nứt mảng, xói mòn mảng, SCAD) và nguyên nhân huyết khối/tái hẹp stent.<br>• Vai trò Heart Team (Class I): Bắt buộc phối hợp giữa BS Can thiệp tim mạch, BS Phẫu thuật tim và BS Hồi sức tim đối với tổn thương thân chung LMCA phức tạp, tổn thương đa thân kèm đái tháo đường (SYNTAX ≥ 23) hoặc biến chứng cơ học để chọn lựa tối ưu giữa PCI vs Phẫu thuật bắc cầu CABG.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Sử dụng IVUS/OCT giúp giảm có ý nghĩa biến cố huyết khối trong stent và tái can thiệp mạch máu đích.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Trình bày 4 phân độ suy tim lâm sàng theo Killip và tỷ lệ tử vong 30 ngày tương ứng?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Killip I: Không có dấu hiệu suy tim ứ huyết (không ran, không T3, không TM cổ nổi). Tỷ lệ tử vong 30 ngày: ~ 3 - 5%.<br>• Killip II: Suy tim nhẹ đến vừa (ran ẩm < 1/2 đáy phổi, hoặc tiếng T3 gallop, hoặc TM cổ nổi). Tỷ lệ tử vong: ~ 10 - 15%.<br>• Killip III: Phù phổi cấp (ran ẩm dâng ngập > 1/2 hai phế trường, khó thở co kéo dữ dội). Tỷ lệ tử vong: ~ 35 - 40%.<br>• Killip IV: SỐC TIM (Huyết áp tâm thu < 90 mmHg kéo dài, chi lạnh ẩm, thiểu niệu, lú lẫn). Tỷ lệ tử vong: ~ 50 - 80%.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Phân độ Killip được đánh giá ngay tại giường cấp cứu mà không cần chờ bất kỳ xét nghiệm cận lâm sàng nào.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Trình bày 4 nhóm huyết động học theo Forrester (dựa trên PCWP và CI) và định hướng điều trị?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Nhóm I (Ấm & Khô: CI > 2.2, PCWP ≤ 18): Huyết động bình thường → Theo dõi sát, duy trì thuốc.<br>• Nhóm II (Ấm & Ướt: CI > 2.2, PCWP > 18): Ứ huyết phổi đơn thuần → Lợi tiểu quai Furosemide IV + Nitroglycerin IV.<br>• Nhóm III (Lạnh & Khô: CI < 2.2, PCWP ≤ 18): Giảm thể tích / NMCT Thất phải → BÙ DỊCH THỬ THÁCH (NaCl 0.9%).<br>• Nhóm IV (Lạnh & Ướt: CI < 2.2, PCWP > 18): SỐC TIM KINH ĐIỂN → Tăng co bóp Dobutamine + Vận mạch Noradrenaline + Dụng cụ hỗ trợ cơ học (IABP, Impella, ECMO).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Thông số thu được từ Catheter động mạch phổi Swan-Ganz: CI bình thường ≥ 2.2 L/min/m², PCWP bình thường ≤ 18 mmHg.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Nêu 5 giai đoạn phân độ Sốc tim theo SCAI Shock Stages (A, B, C, D, E)?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Stage A (At Risk): Có nguy cơ sốc do nhồi máu diện rộng nhưng huyết động hiện tại bình thường, Lactate < 2.0 mmol/L.<br>• Stage B (Beginning): Tiền sốc, có tụt áp tương đối (HATT < 90 hoặc MAP < 60) hoặc mạch nhanh > 100 l/p, nhưng CHƯA CÓ giảm tưới máu mô.<br>• Stage C (Classic): Sốc tim kinh điển, có giảm tưới máu mô rõ rệt, cần ít nhất 1 loại thuốc vận mạch/tăng co bóp hoặc dụng cụ cơ học, Lactate > 2.0 mmol/L.<br>• Stage D (Deteriorating): Sốc kháng trị, không đáp ứng sau 30p hồi sức ban đầu, cần leo thang nhiều vận mạch liều cao.<br>• Stage E (Extremis): Sụp đổ huyết động hoàn toàn, ngừng tuần hoàn đang hồi sức CPR, toan chuyển hóa nặng (Lactate > 8.0, pH < 7.0) → Chỉ định VA-ECMO tối khẩn.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Phân độ SCAI 2022 giúp chuẩn hóa mức độ sốc tim và đưa ra quyết định đặt dụng cụ hỗ trợ tuần hoàn cơ học sớm.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Phân biệt đặc điểm lâm sàng, cơ chế và xử trí của 3 biến chứng cơ học chính sau nhồi máu cơ tim cấp (Đứt cơ nhú, Thủng vách liên thất VSD, Vỡ thành tự do)?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Đứt cơ nhú van 2 lá (thường gặp ở NMCT thành dưới do đứt cơ nhú sau dưới): Đột ngột phù phổi cấp và sốc tim, nghe tiếng thổi tâm thu mới ở mỏm lan nách. Xử trí: Đặt IABP + Phẫu thuật thay van hai lá cấp cứu.<br>• Thủng vách liên thất VSD: Tụt áp và phù phổi cấp, nghe TIẾNG THỔI TOÀN TÂM THU THÔ RÁP DẠNG DẢI CẠNH ỨC TRÁI KÈM RUNG MIÊU. Xử trí: IABP + Phẫu thuật vá vách liên thất.<br>• Vỡ thành tự do thất trái: Đau ngực đột ngột dữ dội, trụy mạch, phân ly điện cơ (PEA) → Chèn ép tim cấp (Tamponade) tử vong trong vài phút.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Đỉnh nguy cơ biến chứng cơ học rơi vào ngày thứ 3 đến ngày thứ 7 (giai đoạn hoại tử tiêu cơ mạnh nhất), nhưng có thể xuất hiện từ ngày 1 đến ngày 14.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Phân biệt Rối loạn nhịp thất nguy hiểm trong 48 giờ đầu vs sau 48 giờ sau nhồi máu cơ tim cấp?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Trong vòng 48 giờ đầu (Giai đoạn tối cấp): Do rối loạn điện sinh lý cấp tính (thiếu máu cơ tim, toan hóa nội bào, tích tụ ion Kali ngoại bào, giải phóng Catecholamine). Sau khi sốc điện phá rung và tái thông mạch vành thành công, NGUY CƠ TÁI PHÁT LÂU DÀI THẤP, KHÔNG CẦN CẤY MÁY ICD DỰ PHÒNG!<br>• Sau 48 giờ trở đi (Giai đoạn muộn / bán cấp): Do vòng vào lại quanh mô sẹo hoại tử xơ hóa (Structural Reentry). Thường liên quan đến suy tim LVEF ≤ 35%. NGUY CƠ ĐỘT TỬ DO TIM LÂU DÀI CỰC KỲ CAO → BẮT BUỘC ĐÁNH GIÁ CHỈ ĐỊNH CẤY MÁY PHÁ RUNG TỰ ĐỘNG (ICD) DỰ PHÒNG THỨ PHÁT.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Đây là tiêu chuẩn vàng phân biệt chỉ định cấy máy ICD giữa loạn nhịp giai đoạn cấp tính vs giai đoạn sẹo mạn tính.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Nêu liều nạp và liều duy trì chi tiết của các thuốc Kháng P2Y12: Ticagrelor, Prasugrel và Clopidogrel?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Ticagrelor (Brilinta - Ưu tiên số 1): Liều nạp 180 mg (2 viên 90mg) → Liều duy trì 90 mg × 2 lần/ngày.<br>• Prasugrel (Effient): Liều nạp 60 mg → Liều duy trì 10 mg × 1 lần/ngày (nếu < 60kg hoặc ≥ 75 tuổi dùng 5 mg/ngày). CHỐNG CHỈ ĐỊNH: Tiền sử TIA / Đột quỵ não!<br>• Clopidogrel (Plavix): Liều nạp 600 mg (nếu làm PCI) hoặc 300 mg (nếu dùng Tiêu sợi huyết, riêng người ≥ 75 tuổi nạp 75mg) → Liều duy trì 75 mg × 1 lần/ngày.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Khuyến cáo ESC/ACC ưu tiên tuyệt đối Ticagrelor và Prasugrel hơn Clopidogrel ở bệnh nhân ACS vì ức chế tiểu cầu nhanh hơn, mạnh hơn và giảm tỷ lệ tử vong toàn bộ (thử nghiệm PLATO).",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Nêu liều lượng tiêm Bolus duy nhất của Tenecteplase (TNK-tPA) theo các mốc cân nặng và lưu ý đặc biệt ở người cao tuổi?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Liều theo cân nặng (tiêm tĩnh mạch nhanh trong 5 - 10 giây):<br>  - Dưới 60 kg: 30 mg (6,000 IU).<br>  - 60 đến 69 kg: 35 mg (7,000 IU).<br>  - 70 đến 79 kg: 40 mg (8,000 IU).<br>  - 80 đến 89 kg: 45 mg (9,000 IU).<br>  - Từ 90 kg trở lên: 50 mg (10,000 IU).<br>• KHÁC BIỆT KHUYẾN CÁO Ở NGƯỜI ≥ 75 TUỔI:<br>  - Theo ESC 2023: BẮT BUỘC GIẢM NỬA LIỀU (50% liều) để giảm biến chứng xuất huyết não.<br>  - Theo ACC/AHA: Không bắt buộc giảm liều theo tuổi nhưng cảnh báo nguy cơ xuất huyết nội sọ tăng cao ở người cao tuổi.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Tenecteplase là thuốc tiêu sợi huyết được ưu tiên số 1 do tính đặc hiệu Fibrin cao nhất và cực kỳ tiện dụng (chỉ 1 mũi tiêm bolus duy nhất, có thể thực hiện ngay trên xe cấp cứu).",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Nêu các tiêu chuẩn đánh giá tái tưới máu thành công sau Tiêu sợi huyết và phân biệt Chiến lược Pharmacoinvasive vs Rescue PCI?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Tiêu chuẩn tái thông thành công (đánh giá sau 60 - 90 phút dùng thuốc):<br>  1. Đoạn ST chênh lên giảm ≥ 50% trên chuyển đạo có ST chênh cao nhất.<br>  2. Cơn đau ngực giảm hoàn toàn hoặc giảm > 50%.<br>  3. Xuất hiện rối loạn nhịp tái tưới máu (AIVR, ngoại tâm thu thất).<br>• Chiến lược can thiệp tiếp theo:<br>  - Nếu THÀNH CÔNG → Pharmacoinvasive Strategy: Chuyển bệnh nhân chụp và can thiệp mạch vành thường quy trong vòng 2 đến 24 giờ.<br>  - Nếu THẤT BẠI (ST không giảm ≥ 50% & còn đau ngực) → Rescue PCI: Chuyển can thiệp mạch vành cứu vãn cấp cứu ngay lập tức.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Tiêu sợi huyết chỉ làm tan cục máu đông nhưng không xử lý được mảng xơ vữa nền. Do đó kể cả khi tiêu sợi huyết thành công, 100% bệnh nhân vẫn cần được chụp mạch vành đặt stent trong 24h.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Chiến lược Tái thông toàn bộ (Complete Revascularization) ở bệnh nhân STEMI đa nhánh có bằng chứng từ thử nghiệm nào và khuyến cáo ra sao?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Bằng chứng từ Thử nghiệm COMPLETE (NEJM 2019): Can thiệp tái thông hoàn toàn tất cả các nhánh hẹp có ý nghĩa (≥ 70%) giúp giảm 26% biến cố kết hợp tử vong tim mạch hoặc tái nhồi máu cơ tim (HR 0.74, p = 0.004) so với chỉ can thiệp nhánh thủ phạm đơn thuần.<br>• Khuyến cáo ESC 2023 & 2021 ACC/AHA: Khuyến cáo tái thông hoàn toàn (Class IIa, Level A) đối với các tổn thương không phải nhánh thủ phạm, có thể thực hiện ngay trong cùng thì can thiệp ban đầu hoặc trì hoãn theo chương trình trong thời gian nằm viện / trong vòng 45 ngày.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Tái thông hoàn toàn giúp cải thiện tiên lượng sống còn lâu dài và giảm nhu cầu tái can thiệp cấp cứu do thiếu máu cơ tim tồn dư.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Liệu pháp Kháng huyết khối đường kép (Dual Pathway Inhibition - DPI) sau nhồi máu cơ tim cấp dựa trên bằng chứng nào và chỉ định cho đối tượng nào?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Bằng chứng từ Thử nghiệm COMPASS (NEJM 2017): Phối hợp RIVAROXABAN 2.5 mg × 2 lần/ngày cùng ASPIRIN 100 mg/ngày giúp giảm 24% biến cố tim mạch gộp (tử vong tim mạch, đột quỵ, nhồi máu cơ tim) ở bệnh nhân bệnh mạch vành.<br>• Khuyến cáo ESC 2023 (Class IIb): Chỉ định sau khi hoàn thành phác đồ DAPT chuẩn ở bệnh nhân có nguy cơ thiếu máu cục bộ tái phát cao (bệnh nhiều nhánh ĐMV, đái tháo đường, suy thận, tái phát biến cố) và có nguy cơ xuất huyết thấp.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Đây là chiến lược bảo vệ mạch máu kép lâu dài kết hợp giữa ức chế tiểu cầu (Aspirin) và ức chế dòng thác đông máu yếu tố Xa (Rivaroxaban liều mạch máu).",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Thời gian mục tiêu tối đa từ lúc First Medical Contact (FMC) đến khi ghi và đọc xong Điện tâm đồ 12 chuyển đạo là {{c1::≤ 10 phút}}.",
+      "extra": "<b>🔍 Góc nhìn bổ sung:</b> Mọi chậm trễ trong việc ghi ECG ban đầu đều làm chậm toàn bộ chuỗi tái tưới máu cơ tim."
+    },
+    {
+      "type": "cloze",
+      "text": "Mục tiêu thời gian Door-to-Balloon tại bệnh viện có phòng Cathlab là {{c1::≤ 90 phút}}, và thời gian Door-to-Needle khi sử dụng thuốc tiêu sợi huyết là {{c1::≤ 30 phút}}.",
+      "extra": "<b>🔍 Góc nhìn bổ sung:</b> Nếu bệnh nhân đến rất sớm (< 2 giờ), mục tiêu Door-to-Balloon lý tưởng là ≤ 60 phút."
+    },
+    {
+      "type": "cloze",
+      "text": "Chỉ định thở oxy trong nhồi máu cơ tim cấp theo ESC 2023 chỉ đặt ra khi nồng độ SpO2 đo được {{c1::< 90%}} (hoặc PaO2 < 60 mmHg) với mục tiêu SpO2 duy trì trong khoảng {{c1::90% đến 94%}}.",
+      "extra": "<b>🔍 Góc nhìn bổ sung:</b> Thở oxy thường quy khi SpO2 ≥ 90% gây co thắt mạch vành và làm tăng kích thước vùng hoại tử cơ tim."
+    },
+    {
+      "type": "cloze",
+      "text": "Mục tiêu kiểm soát lipid máu tích cực sau nhồi máu cơ tim cấp là phải giảm nồng độ LDL-C {{c1::≥ 50%}} so với mức nền VÀ đồng thời đạt mức LDL-C tuyệt đối {{c1::< 1.4 mmol/L}} (< 55 mg/dL).",
+      "extra": "<b>🔍 Góc nhìn bổ sung:</b> Phối hợp Statin cường độ cao (Atorvastatin 80mg / Rosuvastatin 40mg) + Ezetimibe 10mg."
+    },
+    {
+      "type": "cloze",
+      "text": "Thuốc ức chế P2Y12 Prasugrel chống chỉ định tuyệt đối ở bệnh nhân có tiền sử {{c1::tai biến mạch máu não (TIA / Đột quỵ)}} do làm tăng nguy cơ xuất huyết não gây tử vong.",
+      "extra": "<b>🔍 Góc nhìn bổ sung:</b> Prasugrel cũng cần giảm liều xuống 5mg/ngày ở người có cân nặng < 60 kg hoặc tuổi ≥ 75."
+    },
+    {
+      "type": "cloze",
+      "text": "Trong Hội chứng Wellens Type B, điện tâm đồ ghi nhận sóng T {{c1::âm rất sâu, đối xứng}} ở chuyển đạo V2, V3, chỉ điểm hẹp rất nặng đoạn gần nhánh {{c1::LAD}} và chống chỉ định làm nghiệm pháp gắng sức.",
+      "extra": "<b>🔍 Góc nhìn bổ sung:</b> Hội chứng Wellens Type A đặc trưng bởi sóng T hai pha (+/-) ở V2, V3."
+    },
+    {
+      "type": "cloze",
+      "text": "Đỉnh nguy cơ xuất hiện các biến chứng cơ học sau nhồi máu cơ tim cấp (đứt cơ nhú, thủng vách liên thất, vỡ thành tự do) thường rơi vào {{c1::ngày thứ 3 đến ngày thứ 7}}, nhưng có thể xuất hiện từ {{c1::ngày 1 đến ngày 14}}.",
+      "extra": "<b>🔍 Góc nhìn bổ sung:</b> Đây là giai đoạn hoại tử tiêu cơ tim mạnh nhất làm cơ tim mềm yếu nhất."
+    },
+    {
+      "type": "cloze",
+      "text": "Tiêu chuẩn Smith-Modified Sgarbossa chẩn đoán STEMI trên nền LBBB xác định khi tỷ lệ độ chênh ST ngược chiều so với sóng S đạt {{c1::|ST/S| ≥ 0.25}} (tức ≥ 25%) kèm độ chênh tối thiểu {{c1::≥ 1.0 mm}}.",
+      "extra": "<b>🔍 Góc nhìn bổ sung:</b> Nâng độ nhạy chẩn đoán từ 36% (Sgarbossa kinh điển) lên > 90%."
+    },
+    {
+      "type": "cloze",
+      "text": "Thử nghiệm COMPLETE (2019) chứng minh ở bệnh nhân STEMI đa nhánh, can thiệp tái thông hoàn toàn các tổn thương hẹp có ý nghĩa giúp giảm {{c1::26%}} biến cố kết hợp tử vong tim mạch hoặc tái nhồi máu cơ tim.",
+      "extra": "<b>🔍 Góc nhìn bổ sung:</b> Khuyến cáo ESC 2023 xếp mức Class IIa (Level A) thực hiện trong đợt nằm viện hoặc trong vòng 45 ngày."
+    },
+    {
+      "type": "cloze",
+      "text": "Theo thử nghiệm COMPASS (2017), liệu pháp kháng huyết khối đường kép (DPI) phối hợp {{c1::Rivaroxaban 2.5 mg × 2 lần/ngày}} cùng {{c1::Aspirin 100 mg/ngày}} giúp giảm biến cố tim mạch ở bệnh nhân sau ACS có nguy cơ thiếu máu cao và xuất huyết thấp.",
+      "extra": "<b>🔍 Góc nhìn bổ sung:</b> Khuyến cáo ESC 2023 xếp mức Class IIb sau khi hoàn tất phác đồ DAPT chuẩn."
+    },
+    {
+      "type": "cloze",
+      "text": "Khi sử dụng thuốc tiêu sợi huyết Tenecteplase (TNK-tPA) cho bệnh nhân từ 75 tuổi trở lên, theo khuyến cáo của ESC 2023 bắt buộc phải {{c1::giảm 50% liều (nửa liều)}} để phòng ngừa biến chứng xuất huyết não.",
+      "extra": "<b>🔍 Góc nhìn bổ sung:</b> ACC/AHA không bắt buộc giảm liều nhưng cảnh báo nguy cơ xuất huyết tăng cao."
+    }
+  ]
+}

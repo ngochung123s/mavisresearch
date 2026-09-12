@@ -1,0 +1,110 @@
+[
+  {
+    "type": "basic",
+    "front": "Cấu trúc 3 bước tiếp cận trong Tiêu chuẩn Phân loại Bệnh Gút theo ACR/EULAR 2015 là gì?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Bước 1 (Tiêu chuẩn đầu vào - Entry Criterion):</b> Có ít nhất 1 đợt sưng, đau hoặc tăng cảm giác đau ở một khớp ngoại vi hoặc bao hoạt dịch.<br>• <b>Bước 2 (Tiêu chuẩn đủ/vàng - Sufficient Criterion):</b> Tìm thấy tinh thể Monosodium Urat (MSU) trong dịch khớp có triệu chứng hoặc trong hạt tophi $\\rightarrow$ <b>Xác chẩn Gút ngay lập tức</b>, không cần tính điểm.<br>• <b>Bước 3 (Thang điểm phân loại - Classification Criteria):</b> Khi chưa tìm thấy tinh thể MSU, tính điểm theo 8 miền (Domains). Bệnh nhân được xác chẩn gút khi <b>Tổng điểm ≥ 8 / 23 điểm</b>.",
+    "extra": "• Bước 1 là điều kiện tiên quyết để được áp dụng tiêu chuẩn.<br>• Nếu Bước 2 dương tính thì dừng lại ngay; chỉ chuyển sang Bước 3 tính điểm khi không chọc được dịch khớp hoặc soi không thấy tinh thể."
+  },
+  {
+    "type": "cloze",
+    "text": "Tiêu chuẩn phân loại gút ACR/EULAR 2015 gồm 3 bước: Bước 1 là {{c1::Tiêu chuẩn đầu vào (có ít nhất 1 đợt sưng đau khớp/bao hoạt dịch)}}, Bước 2 là {{c1::Tiêu chuẩn đủ (tìm thấy tinh thể MSU xác chẩn ngay)}}, và Bước 3 là Thang điểm 8 miền với ngưỡng xác chẩn khi tổng điểm đạt {{c1::≥ 8 / 23 điểm}}.",
+    "extra": "Thang điểm có dải điểm từ -6 đến +23 điểm."
+  },
+  {
+    "type": "basic",
+    "front": "Nêu chi tiết Tiêu chuẩn đầu vào (Entry Criterion) và Tiêu chuẩn đủ (Sufficient Criterion) theo ACR/EULAR 2015?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Tiêu chuẩn đầu vào:</b> Bệnh nhân có ít nhất 1 đợt sưng, đau hoặc tăng cảm giác đau ở 1 khớp ngoại vi hoặc 1 bao hoạt dịch.<br>  - <i>Ý nghĩa:</i> Là 'cánh cửa' bắt buộc. Nếu không thỏa mãn thì KHÔNG ĐƯỢC áp dụng bộ tiêu chuẩn này.<br>• <b>Tiêu chuẩn đủ:</b> Phát hiện tinh thể Monosodium Urat (MSU) dưới kính hiển vi phân cực trong dịch màng hoạt dịch của khớp có triệu chứng (hoặc bao hoạt dịch) hoặc trong chất lắng đọng của hạt tophi.<br>  - <i>Ý nghĩa:</i> Là tiêu chuẩn vàng tuyệt đối. Bệnh nhân được phân loại mắc bệnh Gút ngay lập tức mà không cần tính điểm Bước 3.",
+    "extra": "• Kính hiển vi phân cực có kính bù đỏ phát hiện tinh thể MSU hình kim có tính chất lưỡng chiết quang âm tính (negative birefringence)."
+  },
+  {
+    "type": "basic",
+    "front": "Miền 1 (Vị trí khớp/bao hoạt dịch bị tổn thương) trong thang điểm ACR/EULAR 2015 gồm các mức điểm nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Đánh giá vị trí khớp hoặc bao hoạt dịch bị tổn thương trong đợt sưng đau điển hình nhất từng xuất hiện:<br>• <b>0 điểm:</b> Các khớp khác (khớp gối, cổ tay, khớp bàn ngón tay, khuỷu tay...).<br>• <b>+1 điểm:</b> Khớp cổ chân <b>HOẶC</b> khớp bàn ngón chân khác (không phải ngón chân cái) / khớp mu chân.<br>• <b>+2 điểm:</b> <b>Khớp bàn ngón chân cái (1st Metatarsophalangeal - 1st MTP joint)</b>.",
+    "extra": "• Khớp bàn ngón chân cái (ngón 1) là vị trí điển hình nhất của gút và nhận mức điểm tối đa trong Miền 1 (+2 điểm)."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Miền 1 của ACR/EULAR 2015: Khớp bàn ngón chân cái (ngón 1) được tính {{c1::+2 điểm}}; khớp cổ chân hoặc khớp bàn ngón chân khác được tính {{c1::+1 điểm}}; các khớp khác như khớp gối được tính {{c1::0 điểm}}.",
+    "extra": "Chỉ lấy điểm của vị trí tổn thương đặc trưng nhất từng bị."
+  },
+  {
+    "type": "basic",
+    "front": "Miền 2 (Tính chất của đợt viêm cấp có triệu chứng) trong ACR/EULAR 2015 gồm 3 đặc điểm nào và cách tính điểm?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Đánh giá 3 đặc điểm lâm sàng trong đợt sưng đau:<br>1. <b>Da trên khớp đỏ rực (Erythema)</b>.<br>2. <b>Không chịu được va chạm hoặc áp lực nhẹ</b> vào khớp tổn thương (đau chói khi chạm ga giường).<br>3. <b>Rất khó khăn khi đi lại</b> hoặc không thể cử động, sử dụng khớp tổn thương.<br><br><b>Cách tính điểm:</b><br>• Không có hoặc chỉ có 1 đặc điểm: <b>0 điểm</b>.<br>• Có <b>2 trong 3</b> đặc điểm: <b>+1 điểm</b>.<br>• Có <b>đủ cả 3</b> đặc điểm: <b>+2 điểm</b> *(nếu tính theo bảng rút gọn) hoặc <b>+3 điểm</b>*.",
+    "extra": "• Đủ 3 đặc điểm phản ánh một phản ứng viêm cấp tính cực kỳ dữ dội đặc trưng của gút."
+  },
+  {
+    "type": "cloze",
+    "text": "3 đặc điểm của đợt viêm cấp trong Miền 2 gồm: (1) Da trên khớp đỏ rực, (2) Không chịu được va chạm/áp lực nhẹ, và (3) Rất khó khăn khi đi lại/cử động khớp. Có 2/3 đặc điểm được tính {{c1::+1 điểm}}, có đủ 3/3 đặc điểm được tính {{c1::+2 (hoặc +3) điểm}}.",
+    "extra": "Nếu chỉ có 1 đặc điểm hoặc không có đặc điểm nào thì tính 0 điểm."
+  },
+  {
+    "type": "basic",
+    "front": "Miền 3 (Đặc điểm thời gian của đợt viêm) định nghĩa một 'đợt điển hình' như thế nào và các mức điểm?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Một 'đợt viêm điển hình' phải thỏa mãn đủ 3 tiêu chí thời gian:<br>  1. Đau đạt mức tối đa/cực đại trong vòng <b>&lt; 24 giờ</b>.<br>  2. Triệu chứng tự thoái lui hoàn toàn trong vòng <b>≤ 14 ngày</b>.<br>  3. <b>Khỏi hoàn toàn</b> (không còn triệu chứng) giữa các đợt cấp.<br><br><b>Cách tính điểm:</b><br>• Không có đợt nào điển hình: <b>0 điểm</b>.<br>• Có <b>1 đợt điển hình</b>: <b>+1 điểm</b>.<br>• Có <b>≥ 2 đợt tái phát điển hình</b>: <b>+2 điểm</b>.",
+    "extra": "• Khởi phát đột ngột đạt đỉnh cực nhanh (< 24h) và khỏi hoàn toàn giữa các đợt là đặc tính cực kỳ quan trọng phân biệt gút với thoái hóa khớp hay viêm khớp dạng thấp."
+  },
+  {
+    "type": "cloze",
+    "text": "Đợt viêm gút điển hình theo Miền 3 có: đau đạt đỉnh trong vòng {{c1::< 24 giờ}}, khỏi hoàn toàn trong vòng {{c1::≤ 14 ngày}}, và khỏi hoàn toàn giữa các đợt. Nếu có 1 đợt điển hình tính {{c1::+1 điểm}}, có ≥ 2 đợt tái phát điển hình tính {{c1::+2 điểm}}.",
+    "extra": "Nếu triệu chứng kéo dài liên tục không có khoảng nghỉ thì tính 0 điểm."
+  },
+  {
+    "type": "basic",
+    "front": "Miền 4 (Bằng chứng lâm sàng của Hạt Tophi) được chấm bao nhiêu điểm trong ACR/EULAR 2015?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Khám thấy nốt/hạt tophi dưới da điển hình:<br>• Khối u hạt chắc/rắn dưới da, nhìn thấy màu trắng đục của tinh thể urat bên trong; vị trí ở vành tai, quanh khớp, mỏm khuỷu hoặc gân Achille (hoặc từng rò chất dịch như vôi bột/phấn).<br><br><b>Cách tính điểm:</b><br>• Không có hạt tophi: <b>0 điểm</b>.<br>• <b>Có hạt tophi trên lâm sàng:</b> <b>+4 ĐIỂM</b>.",
+    "extra": "• Sự xuất hiện của hạt tophi lâm sàng giúp bệnh nhân nhận ngay +4 điểm (chiếm một nửa số điểm cần để xác chẩn ≥ 8 điểm)."
+  },
+  {
+    "type": "basic",
+    "front": "Miền 5 (Nồng độ Acid Uric huyết thanh) trong ACR/EULAR 2015 gồm đầy đủ các mốc nồng độ và điểm số nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Nồng độ Acid Uric máu (đo bằng phương pháp enzym so màu, tốt nhất khi không dùng thuốc hạ AU và cách đợt cấp > 4 tuần):<br><br><table class=\"card-table\"><tr><th>Nồng độ AU (µmol/L)</th><th>Nồng độ AU (mg/dL)</th><th>Điểm số</th></tr><tr><td><b>&lt; 240</b></td><td>&lt; 4,0</td><td><b>-4 ĐIỂM</b></td></tr><tr><td>240 – &lt; 360</td><td>4,0 – &lt; 6,0</td><td><b>0 điểm</b></td></tr><tr><td>360 – &lt; 480</td><td>6,0 – &lt; 8,0</td><td><b>+2 điểm</b></td></tr><tr><td>480 – &lt; 600</td><td>8,0 – &lt; 10,0</td><td><b>+3 điểm</b></td></tr><tr><td><b>≥ 600</b></td><td>≥ 10,0</td><td><b>+4 ĐIỂM</b></td></tr></table>",
+    "extra": "• Mốc điểm trừ: Nếu AU máu < 240 µmol/L sẽ bị TRỪ 4 ĐIỂM (vì nồng độ này cực kỳ khó kết tủa tinh thể urat).<br>• Mốc điểm cộng tối đa: AU máu ≥ 600 µmol/L nhận trọn vẹn +4 điểm."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Miền 5 về Acid Uric máu: Mức &lt; 240 µmol/L (&lt; 4 mg/dL) bị tính {{c1::-4 điểm}}; mức 360 – &lt; 480 µmol/L tính {{c1::+2 điểm}}; mức 480 – &lt; 600 µmol/L tính {{c1::+3 điểm}}; và mức ≥ 600 µmol/L (≥ 10 mg/dL) tính {{c1::+4 điểm}}.",
+    "extra": "Mức bình thường 240 đến < 360 µmol/L được tính 0 điểm."
+  },
+  {
+    "type": "basic",
+    "front": "Miền 6 (Xét nghiệm dịch khớp tìm tinh thể MSU) tính điểm như thế nào khi kết quả ÂM TÍNH?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Được thực hiện bởi người có chuyên môn soi dịch khớp hoặc dịch bao hoạt dịch dưới kính hiển vi phân cực:<br>• Chưa làm xét nghiệm: <b>0 điểm</b>.<br>• <b>ÂM TÍNH (Không tìm thấy tinh thể MSU):</b> <b>-2 ĐIỂM</b>.<br>• <i>(Nếu DƯƠNG TÍNH $\\rightarrow$ Đã thỏa mãn Tiêu chuẩn đủ ở Bước 2 $\\rightarrow$ Xác chẩn Gút ngay không cần tính điểm).</i>",
+    "extra": "• Kết quả soi dịch khớp âm tính làm giảm khả năng chẩn đoán gút nên bị tính điểm trừ (-2 điểm)."
+  },
+  {
+    "type": "basic",
+    "front": "Miền 7 (Bằng chứng hình ảnh học về lắng đọng Urat) gồm những kỹ thuật nào và số điểm nhận được?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Phát hiện lắng đọng tinh thể urat bằng phương tiện chẩn đoán hình ảnh:<br>• <b>Siêu âm khớp:</b> Thấy <b>Dấu hiệu đường đôi (Double contour sign)</b> — dải tăng âm không đều trên bề mặt sụn khớp hyaline.<br><b>HOẶC</b><br>• <b>DECT (CT năng lượng kép):</b> Phát hiện lắng đọng urat được mã hóa màu đặc hiệu tại khớp/quanh khớp.<br><br><b>Cách tính điểm:</b><br>• Không có hoặc chưa làm: <b>0 điểm</b>.<br>• <b>CÓ BẰNG CHỨNG (trên Siêu âm hoặc DECT):</b> <b>+4 ĐIỂM</b>.",
+    "extra": "• Chỉ cần dương tính trên 1 trong 2 phương tiện (Siêu âm hoặc DECT) là đủ để nhận trọn vẹn +4 điểm."
+  },
+  {
+    "type": "cloze",
+    "text": "Bằng chứng lắng đọng urat trong Miền 7 gồm: {{c1::Dấu hiệu đường đôi (Double contour sign)}} trên Siêu âm khớp HOẶC phát hiện urat trên {{c1::DECT (CT năng lượng kép)}}. Nếu có bằng chứng này sẽ được cộng {{c1::+4 điểm}}.",
+    "extra": "Đây là bằng chứng hình ảnh hiện đại rất nhạy và đặc hiệu cho gút."
+  },
+  {
+    "type": "basic",
+    "front": "Miền 8 (Bằng chứng hình ảnh về tổn thương/hủy hoại khớp do gút trên X-quang) được tính bao nhiêu điểm?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Chụp X-quang thường quy bàn tay hoặc bàn chân:<br>• Thấy hình ảnh <b>bào mòn/khuyết xương do gút (Erosion)</b>: Hình hốc xương bờ vỏ mỏng, bờ xơ cứng, có mỏm xương nhô ra (overhanging edge), nằm xa vị trí bám màng hoạt dịch.<br><br><b>Cách tính điểm:</b><br>• Không có hoặc chưa chụp: <b>0 điểm</b>.<br>• <b>CÓ HÌNH ẢNH BÀO MÒN XƯƠNG DO GÚT:</b> <b>+4 ĐIỂM</b>.",
+    "extra": "• Khuyết xương do gút phân biệt với VKDT ở chỗ: Gút có bờ xơ và vỏ xương che phủ nhô ra ngoài, không có loãng xương quanh khớp."
+  },
+  {
+    "type": "basic",
+    "front": "Tổng kết: Điểm tối đa, điểm trừ tối đa và ngưỡng điểm xác chẩn bệnh Gút theo ACR/EULAR 2015 là bao nhiêu?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Tổng điểm dương tối đa:</b> $2 + 3 + 2 + 4 + 4 + 0 + 4 + 4 = \\mathbf{23\\text{ điểm}}$.<br>• <b>Tổng điểm âm tối đa:</b> $-4 + (-2) = \\mathbf{-6\\text{ điểm}}$.<br>• <b>NGƯỠNG XÁC CHẨN:</b> Bệnh nhân có <b>Tổng điểm ≥ 8 / 23 điểm</b> $\\rightarrow$ Đủ tiêu chuẩn chẩn đoán xác định BỆNH GÚT.",
+    "extra": "• Độ nhạy của thang điểm ACR/EULAR 2015 đạt 92%, độ đặc hiệu đạt 89%."
+  },
+  {
+    "type": "basic",
+    "front": "Bài tập lâm sàng 1: Nam 40 tuổi, đau sưng đỏ chói ngón chân cái P lúc nửa đêm, không chạm được vào chăn, không đi lại được. Đã bị 2 lần tương tự khỏi sau 5 ngày. AU máu = 520 µmol/L. Chưa làm xét nghiệm khác. Tính điểm ACR/EULAR 2015?",
+    "back": "<b>📖 Tính điểm chi tiết:</b><br>1. Vị trí ngón chân cái (1st MTP): <b>+2 điểm</b>.<br>2. Đủ 3 tính chất đợt cấp (đỏ, đau chói, không đi được): <b>+3 điểm</b>.<br>3. Có ≥ 2 đợt tái phát điển hình: <b>+2 điểm</b>.<br>4. Tophi: 0 điểm.<br>5. AU máu 520 µmol/L (mức 480 – &lt; 600): <b>+3 điểm</b>.<br>6. Dịch khớp: 0 điểm.<br>7. Siêu âm: 0 điểm.<br>8. X-quang: 0 điểm.<br><br>👉 <b>TỔNG ĐIỂM = 2 + 3 + 2 + 3 = 10 ĐIỂM (≥ 8) $\\rightarrow$ KẾT LUẬN: CHẨN ĐOÁN XÁC ĐỊNH BỆNH GÚT.</b>",
+    "extra": "• Đây là ca lâm sàng gút cấp kinh điển; không cần chọc dịch khớp vẫn đủ điểm xác chẩn."
+  },
+  {
+    "type": "basic",
+    "front": "Bài tập lâm sàng 2: Nữ 60 tuổi sưng đau khớp cổ chân 1 đợt, đỏ nhẹ, đi lại khập khiễng (có 2 tính chất). Chọc dịch khớp không thấy tinh thể MSU. AU máu = 220 µmol/L. Tính điểm ACR/EULAR 2015?",
+    "back": "<b>📖 Tính điểm chi tiết:</b><br>1. Vị trí khớp cổ chân: <b>+1 điểm</b>.<br>2. Có 2 tính chất đợt cấp: <b>+1 điểm</b>.<br>3. Có 1 đợt điển hình: <b>+1 điểm</b>.<br>4. Tophi: 0 điểm.<br>5. AU máu 220 µmol/L (&lt; 240): <b>-4 ĐIỂM</b>.<br>6. Dịch khớp ÂM TÍNH: <b>-2 ĐIỂM</b>.<br>7. Hình ảnh: 0 điểm.<br><br>👉 <b>TỔNG ĐIỂM = 1 + 1 + 1 - 4 - 2 = -3 ĐIỂM (&lt; 8) $\\rightarrow$ KẾT LUẬN: LOẠI TRỪ GÚT (Tìm nguyên nhân khác).</b>",
+    "extra": "• Dù có đau khớp nhưng nồng độ AU máu rất thấp và dịch khớp âm tính đã trừ điểm triệt để, loại trừ gút an toàn."
+  }
+]

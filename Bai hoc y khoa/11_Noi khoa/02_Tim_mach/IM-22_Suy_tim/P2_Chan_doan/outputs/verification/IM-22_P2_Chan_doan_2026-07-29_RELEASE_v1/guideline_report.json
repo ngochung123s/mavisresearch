@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checked": 1,
+  "failed": 0,
+  "guidelines": [
+    {
+      "claim_id": "P2-C01",
+      "society": "AHA/ACC/HFSA",
+      "title": "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure",
+      "document_id": "AHA-ACC-HFSA-HF-2022",
+      "version": "2022",
+      "publication_date": "2022-04-01",
+      "accessed_at": "2026-07-30",
+      "canonical_url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063",
+      "local_copy": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\sources\\aha_acc_hfsa_2022_abstract.txt",
+      "sha256": "383c328faa04df3f28b66fbe2a61f64e119a7e7d0c92496af3c10b3063269ac8",
+      "recommendation_text": "to provide patient-centric recommendations for clinicians to prevent, diagnose, and manage patients with heart failure",
+      "locator": "Abstract",
+      "pmid": "35363499",
+      "superseded_by": null,
+      "status": "PASS",
+      "failures": []
+    }
+  ]
+}

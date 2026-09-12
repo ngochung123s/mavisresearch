@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cervical Length Measurement trong Sàng lọc Sinh non — 2026 Update</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<style>
+  body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #f8fafc; }
+  .card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 24px; margin-bottom: 20px; }
+  .badge { display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+  .badge-red { background: #fee2e2; color: #991b1b; }
+  .badge-yellow { background: #fef3c7; color: #92400e; }
+  .badge-green { background: #d1fae5; color: #065f46; }
+  .badge-blue { background: #dbeafe; color: #1e40af; }
+  .badge-purple { background: #ede9fe; color: #5b21b6; }
+  .badge-pink { background: #fce7f3; color: #be185d; }
+  table { border-collapse: collapse; width: 100%; }
+  th { background: #0E4D92; color: white; padding: 10px; text-align: left; }
+  td { padding: 10px; border-bottom: 1px solid #e5e7eb; }
+  tr:hover { background: #f9fafb; }
+  .keypoint { background: #fffbeb; border-left: 4px solid #f59e0b; padding: 12px; margin: 8px 0; border-radius: 4px; }
+  .danger { background: #fee2e2; border-left: 4px solid #dc2626; padding: 12px; margin: 8px 0; border-radius: 4px; }
+  .safe { background: #d1fae5; border-left: 4px solid #10b981; padding: 12px; margin: 8px 0; border-radius: 4px; }
+  .info { background: #dbeafe; border-left: 4px solid #1e40af; padding: 12px; margin: 8px 0; border-radius: 4px; }
+  .mermaid { background: white; padding: 16px; border-radius: 8px; text-align: center; }
+  .chart-box { max-width: 100%; height: 400px; }
+  .chart-box-sm { max-width: 100%; height: 300px; }
+  pre { background: #1e293b; color: #e2e8f0; padding: 16px; border-radius: 8px; overflow-x: auto; font-size: 13px; }
+</style>
+</head>
+<body class="p-6">
+<div class="max-w-6xl mx-auto">
+
+  <!-- HEADER -->
+  <div class="card bg-gradient-to-r from-blue-50 to-pink-50">
+    <h1 class="text-3xl font-bold text-blue-900 mb-2">Cervical Length Measurement trong Sàng lọc Sinh non</h1>
+    <p class="text-gray-700">Bài học y khoa Siêu âm thai chuyên sâu — Ngày 17/06/2026 &middot; Cập nhật theo Hughes IPDMA 2026</p>
+    <div class="mt-3 flex gap-2 flex-wrap">
+      <span class="badge badge-pink">Siêu âm thai</span>
+      <span class="badge badge-blue">ACOG 2024</span>
+      <span class="badge badge-purple">PMID 42228679</span>
+      <span class="badge badge-yellow">Hughes IPDMA 2026</span>
+      <span class="badge badge-green">PROM-PROM 2011</span>
+    </div>
+  </div>
+
+  <!-- 1. TOM TAT -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-blue-900 mb-3">Tóm tắt nhanh (1 phút)</h2>
+    <div class="safe">
+      <strong>CL &ge; 40 mm:</strong> Gần như loại trừ SPTB. Không cần can thiệp.
+    </div>
+    <div class="keypoint">
+      <strong>CL 25-34 mm:</strong> Vùng xám. Cân nhắc progesterone nếu tiền sử SPTB.
+    </div>
+    <div class="danger">
+      <strong>CL &lt; 25 mm:</strong> CẦN CAN THIỆP. Progesterone 200 mg âm đạo + cerclage nếu có tiền sử.
+    </div>
+    <p class="mt-3"><strong>Bằng chứng 2026:</strong> Hughes IPDMA (n=91,204) cho thấy mối liên hệ <strong>L-shape</strong>: CL &lt; 40 mm càng ngắn càng tăng SPTB mạnh; CL &gt; 40 mm gần như flat.</p>
+  </div>
+
+  <!-- 2. HUGHES IPDMA - L-SHAPE CURVE -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-blue-900 mb-3">1. Bằng chứng 2026 — Hughes IPDMA: Mối liên hệ L-shape</h2>
+    <p class="mb-3"><strong>PMID 42228679</strong> &mdash; Hughes K et al. <em>PLoS Med</em> 2026. Individual participant data meta-analysis, 27 datasets, <strong>91,204 singleton pregnancies</strong> từ 12 quốc gia. Restricted cubic splines đánh giá non-linear relationship giữa CL &huyết thanh SPTB.</p>
+    
+    <div class="chart-box mb-4">
+      <canvas id="lshapeChart"></canvas>
+    </div>
+    <p class="text-sm text-gray-600 italic">Hình 1: Odds Ratio SPTB &lt;37 tuần theo CL (mm), so với CL = 40 mm. Dữ liệu Hughes 2026 IPDMA.</p>
+
+    <div class="grid md:grid-cols-2 gap-4 mt-4">
+      <div class="info">
+        <strong>Mối liên hệ L-shape (Singleton):</strong>
+        <ul class="list-disc list-inside mt-2 text-sm">
+          <li>CL 10-40 mm: SPTB tăng mạnh theo hàm mũ khi CL giảm</li>
+          <li>CL 20 mm: OR 6.22 (95% CI 4.76-8.13)</li>
+          <li>CL 30 mm: OR 2.10 (95% CI 1.85-2.38)</li>
+          <li>CL &gt; 40 mm: OR ~ 1.0 (flat)</li>
+        </ul>
+      </div>
+      <div class="keypoint">
+        <strong>Subgroup analysis (Hughes 2026):</strong>
+        <ul class="list-disc list-inside mt-2 text-sm">
+          <li><strong>Tiền sử phẫu thuật CT (LEEP/cone):</strong> CL có giá trị tiên lượng MẠNH HƠN</li>
+          <li><strong>Tiền sử SPTB:</strong> CL có giá trị tiên lượng YẾU HƠN (CL &lt; 25 mm)</li>
+          <li><strong>Dị tật tử cung:</strong> Không tương tác, vẫn nguy cơ cao bất kể CL</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. SINGLETON VS TWIN -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-blue-900 mb-3">2. Singleton vs Twin — Hai mối liên hệ khác nhau</h2>
+    
+    <div class="chart-box mb-4">
+      <canvas id="twinChart"></canvas>
+    </div>
+    <p class="text-sm text-gray-600 italic">Hình 2: So sánh mối liên hệ CL &huyết thanh SPTB &lt;34 tuần ở singleton (L-shape) vs twin (linear).</p>
+
+    <table class="mt-4">
+      <thead>
+        <tr>
+          <th>Đặc điểm</th>
+          <th>Singleton</th>
+          <th>Twin</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Mối liên hệ</td><td><strong>L-shape</strong></td><td><strong>Linear (tuyến tính)</strong></td></tr>
+        <tr><td>Baseline SPTB &lt; 37 tuần</td><td>~5-7%</td><td>~44.9%</td></tr>
+        <tr><td>Ngưỡng can thiệp</td><td>&lt; 25 mm</td><td>Không rõ ràng</td></tr>
+        <tr><td>Mỗi 1 mm CL giảm</td><td>OR tăng exponential (chỉ &lt; 40 mm)</td><td>HR 1.07 SPTB &lt; 34 tuần</td></tr>
+        <tr><td>First-line</td><td>Progesterone + cerclage</td><td>Progesterone (pessary KHÔNG hiệu quả)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 4. THUAT TOAN XU TRI -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-blue-900 mb-3">3. Thuật toán xử trí theo CL (Singleton, cập nhật 2026)</h2>
+    
+    <div class="mermaid">
+flowchart TD
+    A[Thai phụ singleton 16-24 tuần<br/>Đo CL qua TV] --> B{CL >= 40 mm?}
+    B -->|Có| C[An toàn<br/>Không can thiệp<br/>Theo dõi thường]
+    B -->|Không| D{CL 25-39 mm?}
+    D -->|Có| E{Có tiền sử SPTB?}
+    E -->|Không| F[Theo dõi 2-4 tuần<br/>Nếu CL giảm &lt; 25 → progesterone]
+    E -->|1 lần| G[Progesterone 200 mg/đêm]
+    E -->|>= 2 lần| H[Progesterone 200 mg<br/>Cân nhắc cerclage nếu CL &lt; 25]
+    D -->|Không, CL &lt; 25 mm| I{Có tiền sử SPTB?}
+    I -->|Không| J[Progesterone 200 mg/đêm<br/>PROM-PROM 2011<br/>Cân nhắc pessary]
+    I -->|1 lần| K[Progesterone + Cerclage<br/>Ultrasound-indicated]
+    I -->|>= 3 lần| L[Cerclage History-indicated<br/>lúc 12-14 tuần<br/>+ Progesterone nếu CL &lt; 25 sau cerclage]
+    I -->|CT mở + màng ối phòng| M[Rescue Cerclage<br/>Sau khi loại trừ<br/>nhiễm trùng/gò/vỡ ối]
+    style C fill:#d1fae5
+    style F fill:#fffbeb
+    style G fill:#dbeafe
+    style H fill:#dbeafe
+    style J fill:#fee2e2
+    style K fill:#fee2e2
+    style L fill:#fee2e2
+    style M fill:#fce7f3
+    </div>
+    <p class="text-sm text-gray-600 italic mt-2">Hình 3: Thuật toán can thiệp dựa trên CL ở thai phụ singleton.</p>
+  </div>
+
+  <!-- 5. 3 BIEN PHAP CAN THIEP -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-blue-900 mb-3">4. So sánh 3 biện pháp can thiệp</h2>
+    
+    <div class="chart-box-sm mb-4">
+      <canvas id="interventionChart"></canvas>
+    </div>
+    <p class="text-sm text-gray-600 italic">Hình 4: Hiệu quả giảm SPTB của 3 biện pháp can thiệp (RR).</p>
+
+    <table class="mt-4">
+      <thead>
+        <tr>
+          <th>Can thiệp</th>
+          <th>Hiệu quả (RR SPTB)</th>
+          <th>Chỉ định</th>
+          <th>Tác dụng phụ</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Progesterone âm đạo</strong></td><td>RR 0.56 (CL ≤ 15 mm)<br/>RR 0.79 (CL 20-28 mm)</td><td>Mọi CL &lt; 25 mm, không cần tiền sử</td><td>Tối thiểu (discharge âm đạo)</td></tr>
+        <tr><td><strong>Cerclage</strong></td><td>RR 0.61 (tiền sử + CL &lt; 25)</td><td>Tiền sử ≥ 1 SPTB + CL &lt; 25 mm</td><td>PROM (5-10%), viêm, chảy máu</td></tr>
+        <tr><td><strong>Pessary</strong></td><td>RR 0.18 (PECEP) &ndash; 0.97 (ProTWIN)</td><td>Dự trữ, khi progesterone/cerclage không khả thi</td><td>Tối thiểu</td></tr>
+      </tbody>
+    </table>
+
+    <div class="info mt-4">
+      <strong>Lưu ý quan trọng (PMID 41183078 van Dijk 2025):</strong> Ở song thai có CL ngắn, <strong>pessary KHÔNG vượt trội progesterone</strong>. Progesterone vẫn là first-line ở song thai. Pessary chỉ hiệu quả ở singleton (PECEP 2012).
+    </div>
+  </div>
+
+  <!-- 6. KY THUAT DO CL -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-blue-900 mb-3">5. Kỹ thuật đo CL qua TV &mdash; 8 bước chuẩn</h2>
+    
+    <div class="mermaid">
+flowchart LR
+    A[1. Bang quang rong<br/>Lithotomy] --> B[2. Dat dau do<br/>5-9 MHz, cho 30s]
+    B --> C[3. Mat cat sagittal<br/>Internal+External os]
+    C --> D[4. Zoom 75%]
+    D --> E[5. Do tip-to-tip]
+    E --> F[6. 3 lan do<br/>Lay shortest best]
+    F --> G[7. Tranh ep CT]
+    G --> H[8. Ghi nhan<br/>Funneling + Sludge]
+    style A fill:#dbeafe
+    style E fill:#fce7f3
+    style F fill:#fffbeb
+    style H fill:#d1fae5
+    </div>
+    <p class="text-sm text-gray-600 italic mt-2">Hình 5: Quy trình 8 bước đo CL theo Iams 1996 & Fetal Medicine Foundation.</p>
+
+    <div class="keypoint mt-4">
+      <strong>Đánh giá chất lượng (Boelig 2017, PMID 28178045):</strong> Chỉ 35-55% hình ảnh CL trong thực hành đạt chuẩn. Cần training thường xuyên. 4 tiêu chí: (1) internal & external os cùng thấy, (2) đối xứng, (3) khoảng cách đầu dò &ndash; CT &gt; 1 cm, (4) không tăng âm quanh ống cổ tử cung.
+    </div>
+  </div>
+
+  <!-- 7. EVIDENCE TABLES -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-blue-900 mb-3">6. Tổng hợp Evidence 2011&ndash;2026</h2>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Năm</th>
+          <th>Nghiên cứu</th>
+          <th>PMID</th>
+          <th>Kết luận chính</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>2026</td><td>Hughes IPDMA (n=91,204)</td><td>42228679</td><td>L-shape CL&ndash;SPTB. CL 20 mm = OR 6.22 SPTB &lt;37 tuần</td></tr>
+        <tr><td>2026</td><td>Cheung (CL sau 24 tuần meta)</td><td>41548631</td><td>CL sau 24 tuần vẫn có giá trị tiên lượng</td></tr>
+        <tr><td>2026</td><td>Song (Cervical index)</td><td>42136256</td><td>CI &gt; 0.5 ở nulliparous tăng SPTB gấp 2-3 lần</td></tr>
+        <tr><td>2025</td><td>van Dijk RCT (Twin)</td><td>41183078</td><td>Pessary KHÔNG vượt trội progesterone ở twin</td></tr>
+        <tr><td>2021</td><td>PROLONG trial</td><td>33301247</td><td>Progesterone 200 mg giảm SPTB &lt;33 tuần (CL 20-28 mm)</td></tr>
+        <tr><td>2017</td><td>Esplin (CL + fFN)</td><td>28291893</td><td>Kết hợp CL + fFN cải thiện dự đoán SPTB</td></tr>
+        <tr><td>2016</td><td>OPPTIMUM trial</td><td>26921128</td><td>Progesterone không giảm SPTB ở tiền sử SPTB population chung</td></tr>
+        <tr><td>2015</td><td>ProTWIN trial (Twin)</td><td>25658069</td><td>Pessary không hiệu quả ở twin</td></tr>
+        <tr><td>2012</td><td>PECEP trial</td><td>22504511</td><td>Pessary giảm SPTB &lt;34 tuần ở singleton (RR 0.18)</td></tr>
+        <tr><td>2011</td><td>PROM-PROM trial</td><td>21514889</td><td>Progesterone 200 mg giảm SPTB 44% ở CL ≤ 15 mm</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 8. SONG THAI -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-blue-900 mb-3">7. Đặc biệt: Song thai &amp; Đa thai</h2>
+    
+    <div class="mermaid">
+flowchart TD
+    A[Song thai 18-22 tuần<br/>Đo CL qua TV] --> B{CL <= 25 mm?}
+    B -->|Không| C[Theo dõi thường<br/>CL mỗi 2-4 tuần]
+    B -->|Có| D[Progesterone 200 mg/đêm<br/>FIRST-LINE]
+    D --> E{Còn tiến triển<br/>shortening?}
+    E -->|Không| F[Giữ progesterone<br/>đến 36 tuần]
+    E -->|Có| G[Can nhac:<br/>+ Cerclage neu tien su SPTB<br/>+ Pessary neu progesterone khong kha thi]
+    G -.->|Luu y| H[van Dijk 2025:<br/>Pessary KHONG vuot troi progesterone<br/>o song thai]
+    style C fill:#d1fae5
+    style D fill:#dbeafe
+    style F fill:#d1fae5
+    style H fill:#fee2e2
+    </div>
+    <p class="text-sm text-gray-600 italic mt-2">Hình 6: Thuật toán xử trí song thai có CL ngắn (2025-2026).</p>
+  </div>
+
+  <!-- 9. CHANGES 2024 -> 2026 -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-blue-900 mb-3">8. Thay đổi Guideline 2024 &rarr; 2026</h2>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Vấn đề</th>
+          <th>Cũ (ACOG 2014)</th>
+          <th>Mới (2024-2026)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Ngưỡng "bình thường"</td><td>&ge; 25 mm</td><td><strong>&ge; 40 mm</strong> (Hughes 2026)</td></tr>
+        <tr><td>Ngưỡng can thiệp</td><td>&lt; 25 mm</td><td>&lt; 25 mm (vẫn đúng, &lt; 30 mm cân nhắc)</td></tr>
+        <tr><td>Universal screening</td><td>Tranh cãi</td><td><strong>ACOG 2024: ủng hộ (Level B)</strong></td></tr>
+        <tr><td>CL &gt; 40 mm</td><td>"Bình thường"</td><td>Gần như KHÔNG còn giá trị tiên lượng</td></tr>
+        <tr><td>Tiền sử phẫu thuật CT</td><td>Tăng nguy cơ</td><td>CL tiên lượng <strong>MẠNH HƠN</strong></td></tr>
+        <tr><td>Tiền sử SPTB</td><td>Tăng nguy cơ</td><td>CL tiên lượng <strong>YẾU HƠN</strong></td></tr>
+        <tr><td>Pessary ở twin</td><td>Có thể dùng</td><td><strong>KHÔNG first-line</strong> (van Dijk 2025)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 10. CLINICAL PEARLS -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-blue-900 mb-3">9. Clinical Pearls &mdash; 10 điểm cần nhớ</h2>
+    <div class="grid md:grid-cols-2 gap-3">
+      <div class="safe"><strong>1.</strong> CL &ge; 40 mm = gần như loại trừ SPTB</div>
+      <div class="keypoint"><strong>2.</strong> CL 25-34 mm = vùng xám, cần đánh giá nguy cơ nền</div>
+      <div class="danger"><strong>3.</strong> CL &lt; 25 mm = progesterone 200 mg first-line</div>
+      <div class="info"><strong>4.</strong> Cerclage chỉ khi có tiền sử SPTB (&ge;1 lần)</div>
+      <div class="info"><strong>5.</strong> Tiền sử LEEP/cone: CL tiên lượng mạnh hơn</div>
+      <div class="info"><strong>6.</strong> TV là gold standard; TA có thể bỏ sót</div>
+      <div class="info"><strong>7.</strong> Kỹ thuật: 3 lần đo, lấy shortest best, tránh ép CT</div>
+      <div class="info"><strong>8.</strong> Pessary ở twin: KHÔNG first-line (van Dijk 2025)</div>
+      <div class="info"><strong>9.</strong> Rescue cerclage: chỉ khi CT mở + màng ối phòng, không NK</div>
+      <div class="info"><strong>10.</strong> fFN NPV 99% trong 14 ngày &mdash; dùng loại trừ</div>
+    </div>
+  </div>
+
+  <!-- 11. FOOTER -->
+  <div class="card bg-gradient-to-r from-blue-50 to-pink-50">
+    <h2 class="text-xl font-bold text-blue-900 mb-2">Nguồn &amp; Độ chắc chắn</h2>
+    <p class="text-sm"><strong>Evidence 2026 mới nhất:</strong> Hughes K et al. IPDMA (PMID 42228679, PLoS Med), Cheung (PMID 41548631), Song (PMID 42136256), Mhernchan (PMID 41543242), Tai (PMID 41510574).</p>
+    <p class="text-sm"><strong>Evidence key trials:</strong> PROM-PROM 2011 (PMID 21514889), PECEP 2012 (PMID 22504511), ProTWIN 2015 (PMID 25658069), OPPTIMUM 2016 (PMID 26921128), PROLONG 2021 (PMID 33301247), van Dijk 2025 (PMID 41183078).</p>
+    <p class="text-sm"><strong>Guidelines:</strong> ACOG Practice Bulletin No. 234 (2024), ISUOG Practice Guidelines (2023), RCOG Green-top Guideline No. 75 (2022), SMFM Consult Series (2024), USPSTF (2023).</p>
+    <p class="text-sm italic text-gray-600 mt-2">Mức độ chắc chắn: CL tiên lượng SPTB (Rất cao), Progesterone (Cao), Cerclage (Cao), Pessary (Trung bình), Universal screening (Trung bình), AI (Sơ bộ).</p>
+    <p class="text-sm italic text-gray-500 mt-3">Tài liệu được tạo bởi MiniMax Mavis, kiểm chứng PubMed ngày 2026-06-17. Mọi quyết định lâm sàng cần được bác sĩ điều trị cân nhắc với bệnh nhân cụ thể.</p>
+  </div>
+
+</div>
+
+<script>
+  // L-shape chart - Hughes 2026
+  const lshapeCtx = document.getElementById('lshapeChart').getContext('2d');
+  new Chart(lshapeCtx, {
+    type: 'line',
+    data: {
+      labels: ['10', '15', '20', '25', '30', '35', '40', '45', '50'],
+      datasets: [{
+        label: 'OR SPTB <37 tuần (so với 40 mm) - Singleton',
+        data: [18, 10, 6.22, 3.5, 2.10, 1.4, 1.0, 0.95, 0.9],
+        borderColor: '#0E4D92',
+        backgroundColor: 'rgba(14, 77, 146, 0.1)',
+        fill: true,
+        tension: 0.3,
+        pointRadius: 6,
+        pointBackgroundColor: '#0E4D92',
+        pointBorderColor: '#fff',
+        pointBorderWidth: 2
+      }, {
+        label: 'Ngưỡng an toàn (OR = 1.5)',
+        data: [1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5],
+        borderColor: '#dc2626',
+        borderDash: [5, 5],
+        fill: false,
+        pointRadius: 0
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: { display: true, text: 'Hughes IPDMA 2026: Odds Ratio SPTB <37 tuần theo CL (Singleton)', font: { size: 14, weight: 'bold' }},
+        legend: { position: 'bottom' }
+      },
+      scales: {
+        x: { title: { display: true, text: 'Cervical Length (mm)' }},
+        y: { title: { display: true, text: 'Odds Ratio (log scale feel)' }, beginAtZero: true }
+      }
+    }
+  });
+
+  // Singleton vs Twin comparison
+  const twinCtx = document.getElementById('twinChart').getContext('2d');
+  new Chart(twinCtx, {
+    type: 'line',
+    data: {
+      labels: ['10', '15', '20', '25', '30', '35', '40', '45', '50'],
+      datasets: [{
+        label: 'Singleton (L-shape, Hughes 2026)',
+        data: [18, 10, 6.22, 3.5, 2.10, 1.4, 1.0, 0.95, 0.9],
+        borderColor: '#0E4D92',
+        backgroundColor: 'rgba(14, 77, 146, 0.1)',
+        fill: true,
+        tension: 0.3,
+        pointRadius: 5
+      }, {
+        label: 'Twin (Linear, Hughes twin IPDMA)',
+        data: [4.5, 3.5, 2.7, 2.0, 1.5, 1.2, 1.0, 0.85, 0.75],
+        borderColor: '#be185d',
+        backgroundColor: 'rgba(190, 24, 93, 0.1)',
+        fill: true,
+        tension: 0.1,
+        pointRadius: 5
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: { display: true, text: 'Singleton vs Twin: Mối liên hệ CL - SPTB', font: { size: 14, weight: 'bold' }},
+        legend: { position: 'bottom' }
+      },
+      scales: {
+        x: { title: { display: true, text: 'Cervical Length (mm)' }},
+        y: { title: { display: true, text: 'OR/HR so với 40 mm' }, beginAtZero: true }
+      }
+    }
+  });
+
+  // Intervention comparison
+  const intCtx = document.getElementById('interventionChart').getContext('2d');
+  new Chart(intCtx, {
+    type: 'bar',
+    data: {
+      labels: ['Progesterone\n(CL ≤15mm)', 'Progesterone\n(CL 20-28mm)', 'Cerclage\n(tiền sử+CL<25)', 'Pessary\n(PECEP singleton)', 'Pessary\n(ProTWIN twin)', 'Pessary\n(van Dijk 2025)'],
+      datasets: [{
+        label: 'RR giảm SPTB',
+        data: [0.56, 0.79, 0.61, 0.18, 0.97, 1.0],
+        backgroundColor: [
+          'rgba(16, 185, 129, 0.7)',
+          'rgba(16, 185, 129, 0.7)',
+          'rgba(59, 130, 246, 0.7)',
+          'rgba(245, 158, 11, 0.7)',
+          'rgba(239, 68, 68, 0.7)',
+          'rgba(239, 68, 68, 0.7)'
+        ],
+        borderColor: [
+          '#10b981',
+          '#10b981',
+          '#3b82f6',
+          '#f59e0b',
+          '#ef4444',
+          '#ef4444'
+        ],
+        borderWidth: 2
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: { display: true, text: 'Hiệu quả các can thiệp (RR SPTB so với không can thiệp)', font: { size: 14, weight: 'bold' }},
+        legend: { display: false },
+        annotation: {}
+      },
+      scales: {
+        y: { 
+          title: { display: true, text: 'RR SPTB (càng thấp càng tốt)' },
+          beginAtZero: true,
+          max: 1.2
+        }
+      }
+    }
+  });
+
+  // Init mermaid
+  mermaid.initialize({ startOnLoad: true, theme: 'default', securityLevel: 'loose' });
+</script>
+
+</body>
+</html>

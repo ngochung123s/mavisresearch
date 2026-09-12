@@ -1,0 +1,602 @@
+[
+  {
+    "front": "Viêm tụy cấp (AP) được chẩn đoán theo tiêu chuẩn nào? Cần mấy trong mấy tiêu chuẩn?",
+    "back": "Theo Revised Atlanta 2012: cần ≥ 2 trong 3 tiêu chuẩn:\n1. Đau bụng điển hình (thượng vị dữ dội, lan ra sau lưng)\n2. Amylase và/hoặc lipase ≥ 3 lần giới hạn trên bình thường (ULN)\n3. Hình ảnh học (CT, MRI, SA) có dấu hiệu đặc trưng của AP",
+    "tags": "AcutePancreatitis,Diagnosis"
+  },
+  {
+    "front": "Hai câu hỏi quyết định trong 10 phút đầu khi BN nghi viêm tụy cấp/bệnh đường mật?",
+    "back": "1. BN có dấu hiệu nặng/sốc không? → Đánh giá ABCDE. Nếu CÓ: hành động ngay, không chờ xét nghiệm\n2. Có tắc mật cần can thiệp ERCP không? → Dấu hiệu: vàng da, LFT tắc mật, CBD giãn >6mm, sỏi OMC, viêm đường mật. Nếu CÓ → ERCP cấp cứu (<24h, hoặc <6h nếu nặng)",
+    "tags": "AcutePancreatitis,Emergency"
+  },
+  {
+    "front": "Tại sao lipase được ưu tiên hơn amylase trong chẩn đoán AP?",
+    "back": "1. Đặc hiệu hơn: lipase gần như chỉ có ở tụy, amylase có 60% từ tuyến nước bọt\n2. Tăng lâu hơn: lipase còn tăng 8-14 ngày, amylase về bình thường sau 3-5 ngày\n3. Không bị ảnh hưởng bởi macroamylasemia\n4. Trong AP do tăng TG, TG cản trở xét nghiệm amylase → lipase vẫn chính xác",
+    "tags": "AcutePancreatitis,LabTests"
+  },
+  {
+    "front": "I GET SMASHED — liệt kê các nguyên nhân viêm tụy cấp?",
+    "back": "I = Idiopathic (vô căn)\nG = Gallstones (sỏi mật) — #1 (~50%)\nE = Ethanol (rượu) — #2\nT = Trauma (chấn thương)\nS = Steroids\nM = Mumps/Malignancy (quai bị, u)\nA = Autoimmune (IgG4)\nS = Scorpion (nọc bọ cạp)\nH = Hypertriglyceridemia/Hypercalcemia\nE = ERCP (post-ERCP pancreatitis)\nD = Drugs (thuốc: azathioprine, valproic acid, GLP-1 agonists...)",
+    "tags": "AcutePancreatitis,Etiology"
+  },
+  {
+    "front": "Nguyên nhân #1 gây viêm tụy cấp tại Việt Nam? Liên quan đến yếu tố gì đặc thù?",
+    "back": "Sỏi mật (40-60%), liên quan đến nhiễm ký sinh trùng đường mật: Clonorchis sinensis (sán lá gan nhỏ), Opisthorchis viverrini, Ascaris lumbricoides (giun đũa). Liên quan tập quán ăn gỏi cá sống.",
+    "tags": "AcutePancreatitis,Vietnam"
+  },
+  {
+    "front": "Giải phẫu: Ống tụy chính (Wirsung) và ống mật chủ (CBD) cùng đổ vào đâu? Cơ nào kiểm soát?",
+    "back": "Cùng đổ vào bóng Vater (ampulla of Vater) ở tá tràng, qua nhú tá lớn (major duodenal papilla). Được kiểm soát bởi cơ vòng Oddi (sphincter of Oddi).",
+    "tags": "Anatomy,Pancreas,Biliary"
+  },
+  {
+    "front": "Các phần của tụy? Vị trí giải phẫu?",
+    "back": "4 phần:\n1. Đầu tụy: nằm trong khung tá tràng\n2. Mỏm móc (uncinate process): sau TM mạc treo tràng trên\n3. Thân tụy: sau dạ dày, ngang cột sống\n4. Đuôi tụy: kéo dài đến rốn lách\nTụy nằm trong khoang sau phúc mạc (retroperitoneum), trước L1-L2.",
+    "tags": "Anatomy,Pancreas"
+  },
+  {
+    "front": "Đường mật: mô tả đường đi từ gan đến tá tràng?",
+    "back": "Ống gan phải + ống gan trái → Ống gan chung (CHD) → hợp lưu với ống túi mật (cystic duct) → Ống mật chủ (CBD) → bóng Vater → tá tràng. CBD dài 5-8 cm, đường kính ≤ 6 mm.",
+    "tags": "Anatomy,Biliary"
+  },
+  {
+    "front": "Chuyển đổi đơn vị: Bilirubin từ mg/dL sang µmol/L? BUN từ mg/dL sang mmol/L?",
+    "back": "Bilirubin: mg/dL × 17.1 = µmol/L\nBUN: mg/dL × 0.357 = mmol/L\nCreatinine: mg/dL × 88.4 = µmol/L\nGlucose: mg/dL × 0.0555 = mmol/L\nTriglyceride: mg/dL × 0.0113 = mmol/L\nCalcium: mg/dL × 0.25 = mmol/L",
+    "tags": "LabTests,Conversion"
+  },
+  {
+    "front": "3 pattern tổn thương gan chính? R value từng pattern?",
+    "back": "R value = (ALT/ULN ALT) ÷ (ALP/ULN ALP)\n1. Hepatocellular: R ≥ 5, ALT/AST ↑↑ >> ALP → viêm gan virus, thuốc, rượu, thiếu máu gan\n2. Cholestatic: R ≤ 2, ALP/GGT ↑↑, bilirubin TT ↑ → tắc mật, sỏi OMC, u đầu tụy\n3. Mixed: R 2-5, cả hai nhóm cùng tăng → viêm gan rượu, thuốc, tự miễn",
+    "tags": "LabTests,LFT,Patterns"
+  },
+  {
+    "front": "ALT > 150 U/L ở BN viêm tụy cấp có ý nghĩa gì? Độ mạnh?",
+    "back": "PPV ~95% cho sỏi mật là nguyên nhân gây AP. Đây là dấu hiệu đơn lẻ mạnh nhất gợi ý gallstone pancreatitis. Tuy nhiên, ALT < 150 KHÔNG loại trừ sỏi mật (~50% GSP có ALT < 150).",
+    "tags": "AcutePancreatitis,Gallstone,LFT"
+  },
+  {
+    "front": "BISAP — 5 thành phần và cách tính? BISAP ≥ 3 có ý nghĩa gì?",
+    "back": "B = BUN > 25 mg/dL (8.9 mmol/L)\nI = Impaired mental status (GCS < 15)\nS = SIRS ≥ 2 tiêu chuẩn\nA = Age > 60 tuổi\nP = Pleural effusion (TDMP)\n\nMỗi tiêu chí = 1 điểm.\nBISAP 0-1: tử vong < 1%\nBISAP 2: tử vong ~2%\nBISAP ≥ 3: tử vong 5-20% → CẦN ICU, theo dõi sát",
+    "tags": "AcutePancreatitis,Severity,BISAP"
+  },
+  {
+    "front": "Cơ chế cốt lõi của viêm tụy cấp? Bắt đầu từ sự kiện gì?",
+    "back": "Hoạt hóa sớm trypsinogen thành trypsin ngay trong tế bào nang tụy (acinar cell) — thay vì chờ đến tá tràng.\n\nCơ chế phân tử: đồng định vị (co-localization) bất thường của zymogen và lysosome → cathepsin B cắt trypsinogen → trypsin hoạt hóa → cascade tự tiêu bùng nổ.",
+    "tags": "AcutePancreatitis,Pathophysiology"
+  },
+  {
+    "front": "Hai pha tử vong trong viêm tụy cấp? Cơ chế và thời gian?",
+    "back": "Pha sớm (< 1-2 tuần): SIRS → MODS → tử vong do suy đa tạng (viêm vô trùng, cytokine storm)\n\nPha muộn (> 2 tuần): nhiễm trùng hoại tử tụy → sepsis → tử vong do sốc nhiễm trùng (vi khuẩn từ ruột: E. coli, Klebsiella, Enterococcus)",
+    "tags": "AcutePancreatitis,Pathophysiology,Mortality"
+  },
+  {
+    "front": "3 mức độ nặng của AP theo Revised Atlanta 2012? Tiêu chuẩn từng mức?",
+    "back": "1. Nhẹ (Mild): không suy tạng, không biến chứng tại chỗ. Tử vong < 1% (~80%)\n2. Trung bình (Moderately Severe): suy tạng thoáng qua (< 48h) HOẶC biến chứng tại chỗ. Tử vong 2-5% (~10-15%)\n3. Nặng (Severe): suy tạng kéo dài > 48h. Tử vong 20-40% (~5-10%)",
+    "tags": "AcutePancreatitis,Severity,Atlanta"
+  },
+  {
+    "front": "SIRS — 4 tiêu chuẩn chẩn đoán?",
+    "back": "Cần ≥ 2 trong 4:\n1. Nhiệt độ > 38°C hoặc < 36°C\n2. Nhịp tim > 90 lần/phút\n3. Nhịp thở > 20 lần/phút hoặc PaCO₂ < 32 mmHg\n4. WBC > 12,000/mm³ hoặc < 4,000/mm³ hoặc > 10% band forms",
+    "tags": "SIRS,Diagnosis"
+  },
+  {
+    "front": "Ranson criteria — 5 yếu tố lúc nhập viện?",
+    "back": "1. Tuổi > 55\n2. WBC > 16,000/mm³\n3. Glucose > 200 mg/dL (11.1 mmol/L)\n4. LDH > 350 U/L\n5. AST > 250 U/L",
+    "tags": "AcutePancreatitis,Severity,Ranson"
+  },
+  {
+    "front": "Ranson criteria — 6 yếu tố lúc 48 giờ?",
+    "back": "1. Hct giảm > 10%\n2. BUN tăng > 5 mg/dL (1.8 mmol/L)\n3. Ca²⁺ < 8 mg/dL (2.0 mmol/L)\n4. PaO₂ < 60 mmHg\n5. Base deficit > 4 mEq/L\n6. Dịch bù > 6 L",
+    "tags": "AcutePancreatitis,Severity,Ranson"
+  },
+  {
+    "front": "Ranson 0-2, 3-4, 5-6, ≥ 7 — tử vong tương ứng?",
+    "back": "Ranson 0-2: tử vong < 1%\nRanson 3-4: tử vong ~15%\nRanson 5-6: tử vong ~40%\nRanson ≥ 7: tử vong > 50%",
+    "tags": "AcutePancreatitis,Severity,Ranson"
+  },
+  {
+    "front": "Murphy's sign — cách khám và ý nghĩa?",
+    "back": "Cách khám: đặt tay lên HSP, yêu cầu BN hít sâu. Khi túi mật viêm chạm tay → BN đau và ngừng thở đột ngột → Murphy (+).\nĐộ nhạy ~65%, độ đặc hiệu ~87%.\nCó thể (-) ở BN già, tiểu đường, đã dùng giảm đau.",
+    "tags": "Cholecystitis,PhysicalExam"
+  },
+  {
+    "front": "Viêm túi mật cấp do sỏi (calculous) vs không do sỏi (acalculous) — khác biệt chính?",
+    "back": "Calculous (90%): sỏi kẹt cổ túi mật/ống túi mật → tắc nghẽn. Đối tượng: 4F (Female, Forty, Fat, Fertile). SA thấy sỏi.\n\nAcalculous (10%): ứ mật + thiếu máu thành túi mật (sốc, bỏng, TPN kéo dài). Đối tượng: BN ICU. SA thấy dày thành, không sỏi. Tỉ lệ tử vong cao (30-50%).",
+    "tags": "Cholecystitis,Classification"
+  },
+  {
+    "front": "Siêu âm trong viêm túi mật cấp — các dấu hiệu chính?",
+    "back": "Dấu hiệu chính:\n1. Sỏi túi mật\n2. Sonographic Murphy (+)\n3. Thành túi mật dày > 3 mm\n\nDấu hiệu phụ:\n- Túi mật căng to (ngang > 4 cm, dọc > 8 cm)\n- Dịch quanh túi mật (pericholecystic fluid)\n- Dấu hiệu 'double wall' hoặc 'striated wall'",
+    "tags": "Cholecystitis,Ultrasound"
+  },
+  {
+    "front": "Phân độ TG18 viêm túi mật cấp — tiêu chuẩn và điều trị từng Grade?",
+    "back": "Grade I (Nhẹ): BN khỏe mạnh, không rối loạn chức năng cơ quan → KS + cắt túi mật nội soi sớm < 72h\n\nGrade II (Trung bình): WBC > 18K, khối viêm HSP, triệu chứng > 72h, hoặc viêm túi mật hoại tử/khí thũng → KS + hồi sức → cắt túi mật sớm; BN cao tuổi → PTGBD\n\nGrade III (Nặng): Suy tạng → KS mạnh + hồi sức + PTGBD. KHÔNG cắt túi mật cấp cứu!",
+    "tags": "Cholecystitis,TG18,Severity"
+  },
+  {
+    "front": "Charcot's Triad — 3 dấu hiệu? Reynolds Pentad thêm 2 dấu hiệu gì?",
+    "back": "Charcot's Triad: Sốt + Vàng da + Đau HSP\n→ Chẩn đoán viêm đường mật cấp (độ nhạy chỉ ~20-50%)\n\nReynolds Pentad: Charcot's Triad + Tụt HA + Rối loạn ý thức\n→ Viêm đường mật cấp NẶNG (TG18 Grade III) — CẤP CỨU TỐI KHẨN",
+    "tags": "Cholangitis,Diagnosis"
+  },
+  {
+    "front": "Phân tầng nguy cơ sỏi OMC theo ASGE? Xử trí từng nhóm?",
+    "back": "Nguy cơ CAO (> 50%): CBD giãn > 6mm + sỏi thấy trên SA + Bilirubin > 68 µmol/L → ERCP trực tiếp\n\nNguy cơ TRUNG BÌNH (10-50%): 1-2 tiêu chuẩn không đầy đủ → EUS hoặc MRCP trước ERCP\n\nNguy cơ THẤP (< 10%): không tiêu chuẩn nào → cắt túi mật, nội soi kiểm tra CBD trong mổ nếu nghi",
+    "tags": "Choledocholithiasis,ASGE,ERCP"
+  },
+  {
+    "front": "TG18 phân độ viêm đường mật cấp — thời điểm ERCP cho từng Grade?",
+    "back": "Grade I (Nhẹ): không suy tạng → KS + hồi sức → ERCP bán cấp < 24-48h\nGrade II (Trung bình): ≥ 2 tiêu chí (WBC bất thường, sốt ≥ 39°C, tuổi ≥ 75, bilirubin ≥ 85 µmol/L, albumin thấp) → KS + ERCP < 24h\nGrade III (Nặng): suy tạng → KS + hồi sức tích cực + ERCP CẤP CỨU < 6h (hoặc PTBD nếu ERCP không khả thi)",
+    "tags": "Cholangitis,TG18,ERCP,Severity"
+  },
+  {
+    "front": "ERCP trong viêm đường mật cấp — bằng chứng về thời điểm? (Seo 2020)",
+    "back": "Theo Seo et al. (2020, n=91,051):\n- ERCP ≤ 72 giờ từ nhập viện làm giảm tử vong nội viện so với ERCP sau 72h\n- ERCP trong ngày nhập viện KHÔNG làm giảm tử vong thêm ở TG Grade III so với ERCP trong 24-72h\n→ Có thể hồi sức trước nhưng không trì hoãn > 72h",
+    "tags": "Cholangitis,ERCP,Evidence"
+  },
+  {
+    "front": "Viêm tụy do sỏi mật (GSP) — cơ chế?",
+    "back": "Sỏi từ túi mật di chuyển xuống CBD → kẹt tạm thời ở bóng Vater → tắc đường ra chung của mật và dịch tụy → tăng áp lực ống tụy → trào ngược mật → hoạt hóa sớm trypsinogen → AP.\nSỏi thường nhỏ (< 5 mm). 50-70% tự trôi.",
+    "tags": "GallstonePancreatitis,Pathophysiology"
+  },
+  {
+    "front": "GSP — chỉ định ERCP? Khi nào KHÔNG cần ERCP?",
+    "back": "CÓ chỉ định ERCP:\n- Viêm đường mật cấp kèm theo → ERCP cấp cứu < 24h\n- Tắc mật dai dẳng (bilirubin tăng, CBD giãn, không cải thiện sau 48h) → ERCP < 72h\n\nKHÔNG cần ERCP:\n- GSP không tắc mật, không viêm đường mật → điều trị AP trước, cắt túi mật index admission",
+    "tags": "GallstonePancreatitis,ERCP"
+  },
+  {
+    "front": "GSP — khi nào cắt túi mật? Mild vs Moderate-Severe?",
+    "back": "Mild GSP: Index admission cholecystectomy — trong cùng đợt nhập viện, lý tưởng < 48-72h sau hết triệu chứng (thường ngày 3-5). Đây là khuyến cáo MẠNH.\n\nModerate-Severe GSP: Trì hoãn đến khi hết viêm và biến chứng tại chỗ ổn định (thường 4-8 tuần sau xuất viện). KHÔNG cắt trong đợt AP nặng.",
+    "tags": "GallstonePancreatitis,Cholecystectomy"
+  },
+  {
+    "front": "Nếu mild GSP xuất viện chưa cắt túi mật — nguy cơ gì?",
+    "back": "30-50% tái phát AP trong vòng 6-12 tuần, trong đó 10-15% tái phát thể NẶNG. Cắt túi mật index admission giảm nguy cơ từ 30% xuống < 1%.",
+    "tags": "GallstonePancreatitis,Recurrence"
+  },
+  {
+    "front": "Lipase vs Amylase — độ nhạy và độ đặc hiệu trong chẩn đoán AP?",
+    "back": "Amylase: độ nhạy 67-83%, độ đặc hiệu 85-93%\nLipase: độ nhạy 82-92%, độ đặc hiệu 94-98%\n\nLipase ưu việt hơn về cả độ nhạy và độ đặc hiệu. Là xét nghiệm được ưu tiên theo ACG 2024.",
+    "tags": "LabTests,Lipase,Amylase"
+  },
+  {
+    "front": "Khoảng tham chiếu Amylase và Lipase (đơn vị VN)? Ngưỡng chẩn đoán AP?",
+    "back": "Amylase: 28-100 U/L. Ngưỡng chẩn đoán: > 300 U/L (≥ 3× ULN)\nLipase: 13-60 U/L. Ngưỡng chẩn đoán: > 180 U/L (≥ 3× ULN)",
+    "tags": "LabTests,ReferenceRange"
+  },
+  {
+    "front": "Amylase và lipase có thể bình thường trong AP không? Bao nhiêu %?",
+    "back": "CÓ! Theo Cochrane SR 2017:\n- ~25% BN AP có amylase/lipase bình thường (false negative)\n- ~10% BN không AP có amylase/lipase tăng (false positive)\n→ Nếu lâm sàng nghi AP nhưng enzyme bình thường → vẫn điều trị như AP + CT xác định",
+    "tags": "LabTests,FalseNegative"
+  },
+  {
+    "front": "Tại sao amylase có thể bình thường trong AP do tăng TG?",
+    "back": "TG rất cao (> 1000 mg/dL) cản trở xét nghiệm amylase trong mẫu máu (che dấu enzyme) → amylase âm tính giả. Lipase vẫn chính xác. Đây là dấu hiệu KINH ĐIỂN của AP do tăng TG: amylase bình thường + lipase tăng.",
+    "tags": "LabTests,Hypertriglyceridemia"
+  },
+  {
+    "front": "CRP trong AP — thời gian tăng, ngưỡng gợi ý nặng?",
+    "back": "CRP tăng chậm sau 24-48h từ khởi phát.\nCRP > 150 mg/L lúc 48h → gợi ý AP nặng, nguy cơ hoại tử.\nCRP < 150 mg/L → không loại trừ hoàn toàn AP nặng.\nĐơn vị VN: mg/L.",
+    "tags": "LabTests,CRP,Severity"
+  },
+  {
+    "front": "Procalcitonin (PCT) — vai trò trong AP? Ngưỡng phân biệt viêm vs nhiễm trùng?",
+    "back": "PCT là dấu ấn phân biệt TỐT NHẤT viêm vô trùng vs nhiễm khuẩn:\n- < 0.5 ng/mL: viêm vô trùng (SIRS)\n- > 0.5-2.0 ng/mL: gợi ý nhiễm trùng\n- > 2.0 ng/mL: nghi ngờ nhiễm trùng → cần KS\n\nChiến lược: theo dõi PCT mỗi 24-48h. PCT tăng dần + sốt > 7-10 ngày → nghi hoại tử nhiễm trùng → CT.",
+    "tags": "LabTests,Procalcitonin,Infection"
+  },
+  {
+    "front": "BUN tăng trong AP có ý nghĩa gì? Ngưỡng tiên lượng?",
+    "back": "BUN > 7.1 mmol/L (20 mg/dL) lúc nhập viện HOẶC tăng trong 24h → dấu hiệu giảm tưới máu thận, bù dịch chưa đủ.\n\nBUN là thành phần của BISAP và Ranson 48h.\nNếu BUN không giảm hoặc tăng sau 24h bù dịch → TĂNG tốc độ truyền hoặc chuyển ICU.",
+    "tags": "LabTests,BUN,Prognosis"
+  },
+  {
+    "front": "Calcium hạ trong AP — cơ chế và ngưỡng tiên lượng?",
+    "back": "Cơ chế: xà phòng hóa mỡ (FFA + Ca²⁺ → kết tủa canxi trong ổ hoại tử mỡ).\nNgưỡng: Ca²⁺ < 2.0 mmol/L (8.0 mg/dL) → thành phần Ranson, tiên lượng nặng.",
+    "tags": "LabTests,Calcium,Prognosis"
+  },
+  {
+    "front": "CT bụng trong AP — khi nào nên chụp? Tại sao không quá sớm?",
+    "back": "Chỉ định CT có cản quang:\n- Nghi hoại tử hoặc biến chứng\n- BN không cải thiện sau 48-72h điều trị\n- Không rõ chẩn đoán\n\nThời điểm: SAU 48-72h từ khởi phát. CT quá sớm sẽ ĐÁNH GIÁ THẤP mức độ hoại tử (hoại tử cần thời gian tiến triển).",
+    "tags": "Imaging,CT,Timing"
+  },
+  {
+    "front": "CTSI (CT Severity Index) — cách tính và ý nghĩa?",
+    "back": "CTSI = Balthazar grade (0-4) + % hoại tử (0-6). Tổng 0-10.\n\nBalthazar: A (bình thường)=0, B (to)=1, C (viêm mỡ)=2, D (1 ổ dịch)=3, E (≥2 ổ hoặc khí)=4\nHoại tử: không=0, <30%=2, 30-50%=4, >50%=6\n\nCTSI 0-3: nhẹ. CTSI 4-6: trung bình. CTSI ≥ 7: nặng (tử vong ~17%).",
+    "tags": "Imaging,CTSI,Severity"
+  },
+  {
+    "front": "MRCP vs EUS vs ERCP trong chẩn đoán sỏi OMC — ưu nhược điểm?",
+    "back": "MRCP: không xâm lấn, độ nhạy > 90%. Chống chỉ định: máy tạo nhịp, claustrophobia.\nEUS: độ nhạy > 95%, phát hiện sỏi < 3mm, có thể kết hợp ERCP. Nhược: xâm lấn, cần gây mê.\nERCP: vừa chẩn đoán vừa điều trị. Biến chứng: viêm tụy sau ERCP 3-10%.",
+    "tags": "Imaging,MRCP,EUS,ERCP"
+  },
+  {
+    "front": "4 trụ cột xử trí viêm tụy cấp?",
+    "back": "1. Bù dịch: Lactated Ringer (LR), không phải Normal Saline\n2. Kiểm soát đau: opioid IV (morphine/fentanyl)\n3. Dinh dưỡng: EN sớm trong 24-48h (KHÔNG NPO kéo dài)\n4. Kháng sinh: CHỈ khi có bằng chứng nhiễm trùng (KHÔNG dự phòng)",
+    "tags": "AcutePancreatitis,Treatment"
+  },
+  {
+    "front": "Bù dịch trong AP — LR vs NS, bằng chứng?",
+    "back": "Meta-analysis Zhao 2025 (6 RCT + 4 quan sát, n=1,500):\n- LR giảm moderate-severe AP: OR 0.48 (95% CI 0.34-0.67)\n- LR giảm ICU admission: RR 0.42 (95% CI 0.20-0.89)\n- LR giảm thời gian nằm viện: MD -0.74 ngày\n\nTại sao LR tốt hơn? NS gây toan chuyển hóa tăng clo; LR chứa lactate (→ bicarbonate), thành phần gần dịch ngoại bào hơn.",
+    "tags": "AcutePancreatitis,FluidResuscitation,LR"
+  },
+  {
+    "front": "Tốc độ bù dịch trong AP theo mức độ?",
+    "back": "AP nhẹ: LR 1.5-2 mL/kg/h trong 24h đầu\nAP trung bình-nặng: LR 5-10 mL/kg/h. Nếu sốc → bolus 20 mL/kg\nSAP + suy tạng: bolus + duy trì 3 mL/kg/h, điều chỉnh theo đáp ứng huyết động\n\nMục tiêu: BUN ↓, Hct ↓ về 35-40%, nước tiểu ≥ 0.5 mL/kg/h, lactate ↓.",
+    "tags": "AcutePancreatitis,FluidResuscitation"
+  },
+  {
+    "front": "Cảnh báo bù dịch quá mức trong AP?",
+    "back": "Dấu hiệu quá tải dịch:\n- Rales phổi mới xuất hiện\n- JVP nổi\n- SpO₂ giảm\n- X-quang phổi: phù mô kẽ\n\nNếu có → GIẢM tốc độ truyền. Nguy cơ: phù phổi cấp, hội chứng khoang bụng, làm nặng ARDS.",
+    "tags": "AcutePancreatitis,FluidOverload,Safety"
+  },
+  {
+    "front": "Tại sao morphine không gây co cơ Oddi có ý nghĩa lâm sàng?",
+    "back": "Mối lo ngại morphine gây co cơ Oddi đã được chứng minh là KHÔNG có ý nghĩa lâm sàng. Morphine được khuyến cáo bởi ACG 2024 để giảm đau trong AP. Fentanyl là lựa chọn thay thế, đặc biệt ở BN suy thận (không chất chuyển hóa tích lũy).",
+    "tags": "AcutePancreatitis,PainManagement"
+  },
+  {
+    "front": "Tại sao KHÔNG nên NPO kéo dài trong AP? Cơ chế?",
+    "back": "Tụy KHÔNG 'nghỉ' khi BN nhịn ăn — vẫn tiết enzyme nền.\n\nNPO kéo dài > 48h → teo niêm mạc ruột → vi khuẩn chuyển vị (bacterial translocation) từ lòng ruột vào ổ hoại tử tụy → NHIỄM TRÙNG HOẠI TỬ.\n\n→ EN sớm trong 24-48h: duy trì hàng rào niêm mạc, ngăn bacterial translocation.",
+    "tags": "AcutePancreatitis,Nutrition,NPO"
+  },
+  {
+    "front": "Dinh dưỡng trong AP — đường dùng và thời điểm?",
+    "back": "AP nhẹ: ăn đường miệng ngay khi đau giảm (thường 24-48h). Chế độ mềm, ít mỡ.\nAP trung bình-nặng: dinh dưỡng qua sonde dạ dày (NG) trong 24-48h. NG an toàn và hiệu quả tương đương NJ.\nEN không dung nạp: cân nhắc NJ hoặc PN (chỉ khi EN thất bại).\nEN giảm nhiễm trùng và tử vong so với PN trong SAP.",
+    "tags": "AcutePancreatitis,Nutrition,EN"
+  },
+  {
+    "front": "Khi nào dùng kháng sinh trong AP? Khi nào KHÔNG?",
+    "back": "KHÔNG dùng KS:\n- AP nhẹ-trung bình, không hoại tử\n- AP nặng + hoại tử VÔ TRÙNG\n\nCÓ dùng KS:\n- Nghi hoại tử NHIỄM TRÙNG (sốt > 7-10 ngày, khí trong hoại tử, PCT↑)\n- Viêm đường mật kèm theo\n- SBP ở BN xơ gan + AP\n\nBằng chứng: Cochrane 2010 — KS dự phòng không giảm tử vong hay nhiễm trùng hoại tử.",
+    "tags": "AcutePancreatitis,Antibiotics"
+  },
+  {
+    "front": "Step-up approach trong hoại tử tụy nhiễm trùng?",
+    "back": "Bước 1: Dẫn lưu qua da hoặc nội soi qua dạ dày-tá tràng (LAMS stent) — ưu tiên nội soi nếu có chuyên môn\nBước 2: Nội soi hoại tử (endoscopic necrosectomy) — nếu bước 1 thất bại\nBước 3: Phẫu thuật hoại tử (open necrosectomy) — trì hoãn > 4 tuần để mô 'tổ chức hóa' (walled-off)",
+    "tags": "AcutePancreatitis,StepUp,Necrosectomy"
+  },
+  {
+    "front": "Viêm túi mật cấp Grade III — tại sao KHÔNG cắt túi mật cấp cứu?",
+    "back": "Grade III = BN đang suy tạng (sốc, suy hô hấp, suy thận). Mổ cấp cứu trong bối cảnh này có tỉ lệ tử vong chu phẫu rất cao.\n→ Hồi sức + KS mạnh + PTGBD (dẫn lưu túi mật qua da) trước. Cắt túi mật trì hoãn sau khi BN ổn định.",
+    "tags": "Cholecystitis,TG18,GradeIII"
+  },
+  {
+    "front": "Viêm đường mật cấp — 3 mục tiêu điều trị đồng thời?",
+    "back": "1. Kháng sinh IV trong giờ đầu (piperacillin-tazobactam hoặc meropenem)\n2. Hồi sức (LR bolus, theo dõi lactate)\n3. Giải áp đường mật: ERCP (Grade I/II < 24h, Grade III < 6h) hoặc PTBD nếu ERCP không khả thi",
+    "tags": "Cholangitis,Treatment,Emergency"
+  },
+  {
+    "front": "5 sai lầm thường gặp trong xử trí viêm tụy cấp?",
+    "back": "1. Dùng KS dự phòng trong AP vô trùng\n2. Trì hoãn/bù dịch không đủ trong 24h đầu\n3. Cho NPO kéo dài thay vì EN sớm\n4. Bỏ sót GSP vì ALT bình thường (50% GSP có ALT < 150)\n5. Không kiểm tra TG máu → bỏ sót AP do tăng TG",
+    "tags": "AcutePancreatitis,MedicalErrors"
+  },
+  {
+    "front": "Phòng ngừa tái phát AP do sỏi mật?",
+    "back": "Cắt túi mật nội soi: index admission cho mild GSP; trì hoãn 4-8 tuần cho moderate-severe.\nERCP + cắt cơ Oddi nếu còn sỏi OMC.\n\nPhòng ngừa khác:\n- AP do rượu → bỏ rượu vĩnh viễn\n- AP do tăng TG → TG < 5.6 mmol/L; lọc huyết tương nếu nặng\n- AP do thuốc → ngừng thuốc vĩnh viễn",
+    "tags": "AcutePancreatitis,Prevention"
+  },
+  {
+    "front": "BV tuyến huyện không có CT/ERCP — xử trí AP như thế nào?",
+    "back": "Bước 1: Phân tầng bằng BISAP. BISAP ≥ 3 → chuyển tuyến NGAY\nBước 2: Xử trí trước chuyển — LR 5-10 mL/kg/h, morphine/fentanyl IV, sonde dạ dày nếu nôn nhiều. KS CHỈ khi có dấu hiệu nhiễm trùng\nBước 3: Chuyển tuyến an toàn — đặt ĐTMT, theo dõi sinh hiệu, phiếu tóm tắt + KQXN\n\nKHÔNG làm: trì hoãn chuyển tuyến, KS dự phòng, somatostatin/octreotide, mổ thăm dò",
+    "tags": "Vietnam,DistrictHospital,PlanB"
+  },
+  {
+    "front": "Những thực hành cần thay đổi tại Việt Nam trong xử trí AP?",
+    "back": "1. Dùng KS dự phòng thường quy → KHÔNG. Chỉ khi có bằng chứng nhiễm trùng\n2. NPO kéo dài → EN sớm 24-48h\n3. Somatostatin/octreotide thường quy → KHÔNG (không bằng chứng, lãng phí)\n4. NaCl 0.9% thay vì LR → LR được ưu tiên\n5. Chưa cắt túi mật trong mild GSP → cắt index admission",
+    "tags": "Vietnam,PracticeChange"
+  },
+  {
+    "front": "Meta-analysis Zhao 2025: LR giảm moderate-severe AP với OR = {{c1::0.48}} (95% CI {{c2::0.34-0.67}})",
+    "back": "N = 1,500 (6 RCT + 4 observational). LR giảm 52% nguy cơ moderate-severe AP so với NS.\nNgoài ra: giảm ICU admission RR 0.42, giảm LOS MD -0.74 ngày.",
+    "tags": "Evidence,LRvsNS"
+  },
+  {
+    "front": "Cochrane 2017: ~{{c1::25%}} BN AP có enzyme bình thường (false negative), ~{{c2::10%}} BN không AP có enzyme tăng (false positive)",
+    "back": "Do đó: nếu lâm sàng nghi AP nhưng enzyme bình thường → vẫn điều trị như AP và CT xác định.",
+    "tags": "Evidence,Amylase,Lipase"
+  },
+  {
+    "front": "GSP chiếm ~{{c1::50%}} các trường hợp AP. ALT > {{c2::150}} U/L có PPV ~{{c3::95%}} cho sỏi mật",
+    "back": "Nhưng ALT < 150 không loại trừ GSP (~50% GSP có ALT < 150). Luôn làm SA túi mật.",
+    "tags": "GallstonePancreatitis,ALT"
+  },
+  {
+    "front": "WSES 2019: {{c1::20-30%}} AP tiến triển thành SAP, {{c2::20-40%}} SAP có nhiễm trùng hoại tử",
+    "back": "Hoại tử vô trùng → điều trị bảo tồn. Hoại tử nhiễm trùng → step-up approach.",
+    "tags": "AcutePancreatitis,Severity,WSES"
+  },
+  {
+    "front": "ERCP trong viêm đường mật: ≤ {{c1::72}} giờ làm giảm tử vong. Grade III cần ERCP < {{c2::6}} giờ",
+    "back": "Seo 2020 (n=91,051). ERCP trong ngày nhập viện không giảm tử vong thêm so với ERCP trong 24-72h.",
+    "tags": "Cholangitis,ERCP,Timing"
+  },
+  {
+    "front": "Bù dịch AP nặng: LR {{c1::5-10}} mL/kg/h trong 24h đầu. Nếu sốc → bolus {{c2::20}} mL/kg",
+    "back": "Theo dõi BUN, Hct mỗi 6-8h. Mục tiêu: BUN ↓, Hct ↓ về 35-40%.",
+    "tags": "AcutePancreatitis,FluidResuscitation"
+  },
+  {
+    "front": "BISAP ≥ {{c1::3}} → tử vong {{c2::5-20%}}, cần ICU. Ranson ≥ {{c3::3}} → nặng",
+    "back": "BISAP 0-1: < 1%. BISAP 2: ~2%.\nRanson 3-4: ~15%. Ranson 5-6: ~40%. Ranson ≥ 7: > 50%.",
+    "tags": "AcutePancreatitis,Severity,Scores"
+  },
+  {
+    "front": "AP do tăng TG: TG > {{c1::1000 mg/dL (11.3 mmol/L)}}. Amylase có thể {{c2::bình thường}}",
+    "back": "Cơ chế: TG cao cản trở xét nghiệm amylase. Lipase vẫn tăng. Điều trị: insulin + heparin ± lọc huyết tương.",
+    "tags": "Hypertriglyceridemia,AcutePancreatitis"
+  },
+  {
+    "front": "Cắt túi mật trong mild GSP: index admission, lý tưởng < {{c1::48-72}}h sau hết triệu chứng",
+    "back": "Nếu xuất viện chưa cắt → 30-50% tái phát AP trong 6-12 tuần.",
+    "tags": "GallstonePancreatitis,Cholecystectomy"
+  },
+  {
+    "front": "TG18: CBD bình thường ≤ {{c1::6}} mm. Thành túi mật dày > {{c2::3}} mm là bệnh lý",
+    "back": "CBD có thể đến 8-10 mm sau cắt túi mật hoặc ở người già.",
+    "tags": "TG18,Ultrasound,Measurements"
+  },
+  {
+    "front": "Định luật Courvoisier — ý nghĩa?",
+    "back": "Túi mật to + vàng da không đau = u đầu tụy cho đến khi chứng minh ngược lại.\nCơ chế: u đầu tụy chèn ép CBD → tắc mật từ từ → túi mật giãn to không đau.",
+    "tags": "Biliary,Courvoisier,PhysicalExam"
+  },
+  {
+    "front": "So sánh sỏi OMC nguyên phát vs thứ phát?",
+    "back": "Nguyên phát: hình thành NGAY trong đường mật (ứ mật mạn, nhiễm trùng, ký sinh trùng). Sỏi sắc tố nâu, mềm. Phổ biến tại châu Á/Việt Nam.\n\nThứ phát: từ túi mật di chuyển xuống. Sỏi cholesterol vàng, cứng. Phổ biến ở phương Tây.",
+    "tags": "Choledocholithiasis,Classification"
+  },
+  {
+    "front": "Dấu hiệu suy gan cấp trên xét nghiệm?",
+    "back": "1. Albumin ↓ < 30 g/L + INR kéo dài (> 1.5 không đáp ứng vitamin K)\n2. Bilirubin ↑↑ (> 170 µmol/L) và tiếp tục tăng\n3. Hạ đường huyết (< 3.9 mmol/L) — gan mất khả năng tân tạo đường\n4. Lactate tăng → toan chuyển hóa",
+    "tags": "LiverFailure,LabTests"
+  },
+  {
+    "front": "Kháng sinh trong viêm đường mật cấp — phác đồ theo mức độ?",
+    "back": "Grade I: Ceftriaxone 2g/24h IV + Metronidazole 500mg/8h IV\nGrade II: Piperacillin-Tazobactam 4.5g/6h IV\nGrade III hoặc nguy cơ ESBL: Meropenem 1g/8h IV (hoặc Imipenem 500mg/6h IV)",
+    "tags": "Cholangitis,Antibiotics,TG18"
+  },
+  {
+    "front": "Biến chứng muộn của AP? Theo dõi gì sau xuất viện?",
+    "back": "1. Nang giả tụy (4-6 tuần): nếu không triệu chứng → theo dõi; nếu đau/nhiễm trùng → dẫn lưu\n2. WON (> 4 tuần): step-up approach\n3. Suy tụy ngoại tiết: tiêu chảy mỡ, sụt cân → enzyme tụy uống\n4. Suy tụy nội tiết: ĐTĐ type 3c → insulin\n5. Tái phát AP: 20-30% nếu không giải quyết nguyên nhân",
+    "tags": "AcutePancreatitis,Complications,FollowUp"
+  },
+  {
+    "front": "TG18 tiêu chuẩn chẩn đoán xác định viêm đường mật cấp?",
+    "back": "A. Viêm toàn thân: sốt/rét run + dấu ấn viêm (WBC, CRP...)\nB. Ứ mật: vàng da, LFT bất thường (ALP, GGT, bilirubin ↑)\nC. Hình ảnh: CBD giãn, sỏi OMC, u, hẹp...\n\nChẩn đoán xác định: A + (B hoặc C)\nNghi ngờ: chỉ có A",
+    "tags": "Cholangitis,TG18,Diagnosis"
+  },
+  {
+    "front": "Phân biệt đau bụng thượng vị cấp: AP vs thủng tạng rỗng vs NMCT thành sau?",
+    "back": "AP: đau lan sau lưng + amylase/lipase > 3× ULN\nThủng tạng rỗng: đau đột ngột như dao đâm + phản ứng thành bụng + liềm hơi dưới hoành\nNMCT thành sau: đau thượng vị đơn thuần + ECG thay đổi (ST chênh xuống ở V1-V3, ST chênh lên ở thành sau V7-V9) + troponin ↑\n\nLuôn làm ECG cho BN > 50 tuổi đau thượng vị cấp!",
+    "tags": "DifferentialDiagnosis"
+  },
+  {
+    "front": "Phân biệt viêm tụy cấp vs viêm túi mật cấp?",
+    "back": "AP: đau thượng vị lan SAU LƯNG, enzyme tụy ↑↑, SA tụy to/phù nề\nAC: đau HSP + Murphy (+), SA túi mật sỏi/dày thành, LFT tắc mật\n\nCả hai có thể cùng tồn tại (gallstone pancreatitis)!",
+    "tags": "DifferentialDiagnosis"
+  },
+  {
+    "front": "Phân biệt pattern tắc mật ngoài gan vs trong gan?",
+    "back": "Ngoài gan (sỏi OMC, u đầu tụy): CBD giãn > 6mm trên SA + ALP/GGT ↑↑ + bilirubin TT ↑\nTrong gan (ứ mật do thuốc, PBC, PSC): CBD KHÔNG giãn + ALP/GGT ↑↑ + bilirubin TT ↑\n\nCBD giãn là dấu hiệu QUAN TRỌNG NHẤT phân biệt!",
+    "tags": "DifferentialDiagnosis,Cholestasis"
+  },
+  {
+    "front": "Cơ chế 'effective hypovolemia' có gây ra trong AP không?",
+    "back": "CÓ — tương tự xơ gan nhưng mức độ ít hơn. Viêm tụy → SIRS → giãn mạch nội tạng + tăng tính thấm thành mạch → thoát dịch vào khoang thứ 3 (retroperitoneum, ổ bụng) → giảm thể tích tuần hoàn hiệu quả → RAAS hoạt hóa. Đây là lý do BN AP cần bù dịch LỚN trong 24h đầu.",
+    "tags": "Pathophysiology,EffectiveHypovolemia"
+  },
+  {
+    "front": "Tại sao hoại tử tụy thường nhiễm vi khuẩn từ ruột?",
+    "back": "1. NPO kéo dài → teo niêm mạc ruột, tăng tính thấm\n2. Giảm tưới máu ruột do sốc/SIRS\n3. Rối loạn hệ vi sinh đường ruột do KS phổ rộng (nếu dùng)\n4. Ứ mật → giảm dòng mật → giảm khả năng diệt khuẩn của muối mật\n→ Vi khuẩn (E. coli, Klebsiella, Enterococcus) xuyên thành ruột → vào ổ hoại tử",
+    "tags": "Pathophysiology,BacterialTranslocation"
+  },
+  {
+    "front": "Kiểm soát đường huyết trong SAP — mục tiêu glucose?",
+    "back": "Mục tiêu glucose 6-10 mmol/L (110-180 mg/dL).\nDùng insulin truyền tĩnh mạch theo protocol.\nTránh hạ đường huyết (< 3.9 mmol/L) — nguy hiểm ở BN SAP.\nTăng glucose > 11.1 mmol/L là thành phần Ranson.",
+    "tags": "Treatment,GlucoseControl"
+  },
+  {
+    "front": "Chỉ định đặt sonde dạ dày trong AP?",
+    "back": "CHỈ đặt khi:\n- Nôn nhiều, không kiểm soát\n- Chướng bụng nặng (liệt ruột)\n- Giảm nguy cơ hít sặc ở BN rối loạn ý thức\n\nKHÔNG đặt thường quy cho mọi BN AP.",
+    "tags": "Treatment,NGTube"
+  },
+  {
+    "front": "Cách theo dõi đáp ứng bù dịch trong 24h đầu AP?",
+    "back": "Mỗi 6-8h: BUN, Hct\n- BUN KHÔNG giảm hoặc TĂNG → bù dịch chưa đủ → TĂNG tốc độ\n- Hct KHÔNG giảm hoặc TĂNG → cô đặc máu → TĂNG tốc độ\n- Nước tiểu < 0.5 mL/kg/h → giảm tưới máu thận\n- Lactate không giảm → giảm tưới máu mô\n\nNếu sau 24h tích cực bù dịch mà không cải thiện → xem xét ICU.",
+    "tags": "Treatment,FluidMonitoring"
+  },
+  {
+    "front": "Dự phòng loét do stress trong AP — chỉ định và thuốc?",
+    "back": "Chỉ định: BN SAP nặng, ICU, thở máy, rối loạn đông máu.\nThuốc: PPI (pantoprazole 40mg/24h IV) hoặc H2 blocker (ranitidine/famotidine).\nNgừng khi BN ăn được đường miệng.\nKHÔNG dùng thường quy cho AP nhẹ.",
+    "tags": "Treatment,StressUlcer"
+  },
+  {
+    "front": "AP do tăng TG — điều trị đặc hiệu?",
+    "back": "1. Insulin IV (0.1-0.3 U/kg/h) + glucose → hoạt hóa LPL, phân hủy TG\n2. Heparin IV (5,000-10,000 U bolus → duy trì) → giải phóng LPL từ nội mô\n3. Omega-3 IV (nếu có)\n4. Lọc huyết tương (plasmapheresis): TG > 1000 mg/dL + SAP/không đáp ứng sau 24-48h\n5. Sau giai đoạn cấp: fibrate, omega-3 PO, chế độ ăn ít mỡ",
+    "tags": "Hypertriglyceridemia,Treatment"
+  },
+  {
+    "front": "CTSI (Balthazar) grade A đến E?",
+    "back": "A: Tụy bình thường (0 điểm)\nB: Tụy to khu trú hoặc lan tỏa (1)\nC: Tụy bất thường + viêm mỡ quanh tụy (2)\nD: Một ổ dịch tụy (3)\nE: ≥ 2 ổ dịch tụy hoặc khí trong tụy/quanh tụy (4)",
+    "tags": "Imaging,CTSI,Balthazar"
+  },
+  {
+    "front": "Chỉ định và chống chỉ định của MRCP?",
+    "back": "Chỉ định:\n- Nghi sỏi OMC nguy cơ trung bình\n- SA không kết luận được\n- Đánh giá giải phẫu đường mật trước phẫu thuật\n\nChống chỉ định:\n- Máy tạo nhịp không tương thích MRI\n- Claustrophobia nặng\n- Suy thận nặng (GFR < 30) — nguy cơ NSF do gadolinium",
+    "tags": "Imaging,MRCP"
+  },
+  {
+    "front": "Post-ERCP pancreatitis — tỉ lệ, yếu tố nguy cơ, dự phòng?",
+    "back": "Tỉ lệ: 3-10% (cao hơn ở BN trẻ, nữ, SOD, tiền sử post-ERCP AP).\nYếu tố nguy cơ: cannulation khó, cắt cơ Oddi, tiền sử AP, SOD type III.\nDự phòng: NSAID đặt hậu môn (indomethacin 100mg) trước/sau ERCP; đặt stent tụy dự phòng; kỹ thuật guidewire cannulation.",
+    "tags": "ERCP,Complications,Prevention"
+  },
+  {
+    "front": "Khuyến cáo MẠNH nhất của ACG 2024 và IAP/APA 2012 về AP?",
+    "back": "Chung:\n1. Chẩn đoán AP theo Revised Atlanta (≥ 2/3 tiêu chuẩn)\n2. Bù dịch bằng LR (không NS)\n3. KHÔNG dùng KS dự phòng\n4. EN sớm trong 24-48h, không NPO kéo dài\n5. ERCP chỉ khi tắc mật/viêm đường mật\n6. Cắt túi mật index admission cho mild GSP\n7. Step-up approach cho hoại tử nhiễm trùng",
+    "tags": "Guidelines,ACG,IAP-APA"
+  },
+  {
+    "front": "TG18 management bundles cho viêm đường mật và viêm túi mật?",
+    "back": "1. Chẩn đoán: lâm sàng + xét nghiệm + hình ảnh (SA, CT, MRCP)\n2. Đánh giá độ nặng: Grade I/II/III\n3. Chuyển viện: nếu cơ sở không đủ khả năng xử trí Grade II/III\n4. Điều trị: KS + hồi sức + can thiệp (ERCP/PTBD/PTGBD/cắt túi mật) theo Grade\n5. Theo dõi: đánh giá đáp ứng sau 24-48h",
+    "tags": "TG18,Bundles"
+  },
+  {
+    "front": "ESGE 2019 khuyến cáo gì về chẩn đoán và điều trị sỏi OMC?",
+    "back": "- LFT + SA bụng là bước chẩn đoán đầu tiên\n- EUS hoặc MRCP để chẩn đoán khi SA không kết luận được\n- Lấy sỏi OMC cho MỌI BN, có triệu chứng hay không, nếu đủ sức chịu can thiệp\n- Cắt cơ Oddi + lấy sỏi bằng bóng/rọ là kỹ thuật chuẩn",
+    "tags": "ESGE,CBDStones"
+  },
+  {
+    "front": "Tại Việt Nam, nhiễm KST đường mật nào gây sỏi mật? Vùng dịch tễ?",
+    "back": "Sán lá gan nhỏ (Clonorchis sinensis, Opisthorchis viverrini): gây viêm xơ đường mật mạn → sỏi sắc tố nguyên phát.\nGiun đũa (Ascaris lumbricoides): có thể chui vào đường mật → tắc nghẽn + viêm đường mật.\n\nVùng dịch tễ: miền Bắc và miền Trung (liên quan tập quán ăn gỏi cá sống).",
+    "tags": "Vietnam,Parasite,Biliary"
+  },
+  {
+    "front": "Somatostatin/octreotide trong AP — có vai trò không?",
+    "back": "KHÔNG có bằng chứng RCT chất lượng cao ủng hộ dùng thường quy trong AP. Các guideline lớn (ACG, IAP/APA, WSES) KHÔNG khuyến cáo.\n\nCó thể có vai trò rất hạn chế:\n- Dự phòng post-ERCP AP (trước ERCP)\n- AP do tăng TG? (bằng chứng yếu)\n\nTại VN: thuốc RẤT ĐẮT (vài triệu/ngày), thường KHÔNG được BHYT chi trả toàn bộ → LÃNG PHÍ nếu dùng thường quy.",
+    "tags": "Vietnam,Somatostatin,Evidence"
+  },
+  {
+    "front": "BHYT tại Việt Nam chi trả những gì trong điều trị AP?",
+    "back": "ĐƯỢC chi trả: amylase, lipase, LFT, CRP, siêu âm, X-quang, kháng sinh cơ bản (ceftriaxone, metronidazole, piperacillin-tazobactam), Lactated Ringer\n\nCHI TRẢ MỘT PHẦN: CT có cản quang, MRCP, ERCP (BN đồng chi trả 20-40%)\n\nHẠN CHẾ/GIỚI HẠN: meropenem (cần phê duyệt), somatostatin/octreotide (thường không được chi trả toàn bộ)",
+    "tags": "Vietnam,Insurance,BHYT"
+  },
+  {
+    "front": "Khi nào nghi ngờ AP do thuốc?",
+    "back": "Các thuốc thường gây AP: azathioprine/6-MP, valproic acid, didanosine, GLP-1 agonists, thiazide, furosemide, sulfonamide, ACE inhibitors, mesalamine.\n\nĐặc điểm: AP xuất hiện vài tuần đến vài tháng sau bắt đầu thuốc. Không có dấu hiệu sỏi mật hoặc rượu. Hết sau ngừng thuốc vài ngày.",
+    "tags": "Etiology,DrugInduced"
+  },
+  {
+    "front": "Viêm tụy tự miễn (Autoimmune Pancreatitis) — type 1 vs type 2?",
+    "back": "Type 1 (IgG4-RD): nam > 60t, IgG4 huyết thanh ↑, tổn thương đa cơ quan (viêm đường mật, viêm tuyến nước bọt, xơ hóa sau phúc mạc...), đáp ứng corticosteroid tốt\nType 2: trẻ hơn, không tăng IgG4, thường kèm IBD (viêm loét đại tràng), đáp ứng corticosteroid\n\nCả hai: SA/CT thấy tụy to lan tỏa 'hình xúc xích' (sausage-shaped), bao xơ quanh tụy (capsule-like rim).",
+    "tags": "Etiology,AutoimmunePancreatitis,IgG4"
+  },
+  {
+    "front": "AP ở phụ nữ mang thai — nguyên nhân và lưu ý?",
+    "back": "Nguyên nhân chính: sỏi mật (90%) và tăng TG (thai kỳ tăng TG sinh lý).\nLưu ý:\n- SA bụng là an toàn, nhưng CT chống chỉ định tương đối (nhiễm xạ)\n- MRCP không thuốc có thể dùng trong thai kỳ (tam cá nguyệt 2-3)\n- ERCP có thể thực hiện với che chắn thai, ưu tiên không chiếu X-quang (dùng EUS-guided)\n- Điều trị bảo tồn giống không mang thai, nhưng fibrate CHỐNG CHỈ ĐỊNH\n- Theo dõi sát thai (tim thai, NST, Doppler)",
+    "tags": "Pregnancy,AcutePancreatitis"
+  },
+  {
+    "front": "Viêm tụy cấp tái phát — tiếp cận chẩn đoán nguyên nhân?",
+    "back": "Sau đợt AP đầu tiên, cần loại trừ tuần tự:\n1. Sỏi mật: SA bụng, LFT, MRCP nếu nghi sỏi OMC/sỏi nhỏ (microlithiasis)\n2. Rượu: hỏi kỹ tiền sử uống\n3. Tăng TG: TG máu (lưu ý phải lấy máu LÚC ĐÓI, TG có thể giảm sau 24-48h AP)\n4. Tăng Ca²⁺: Ca²⁺ máu, PTH (cường cận giáp)\n5. Thuốc: rà soát tất cả thuốc đang dùng\n6. Tự miễn: IgG4, ANA, anti-SSA/SSB\n7. Giải phẫu bất thường: pancreas divisum, annular pancreas → MRCP\n8. Di truyền: PRSS1, SPINK1, CFTR (viêm tụy di truyền, khởi phát < 30t)",
+    "tags": "RecurrentPancreatitis,Etiology"
+  },
+  {
+    "front": "Tiêu chuẩn chẩn đoán suy tạng trong AP (Modified Marshall)?",
+    "back": "3 hệ cơ quan, mỗi hệ ≥ 2 điểm = suy tạng:\n1. Hô hấp: PaO₂/FiO₂ < 300 (= 2 điểm), < 200 (= 3 điểm), < 100 (= 4 điểm)\n2. Tim mạch: HA tâm thu < 90 mmHg đáp ứng bù dịch (= 2), không đáp ứng (= 3), pH < 7.2 (= 4)\n3. Thận: Creatinine > 1.8 mg/dL (170 µmol/L) (= 2), > 3.6 (= 3), > 4.9 hoặc cần lọc máu (= 4)\n\nSuy tạng > 48h = Severe AP.",
+    "tags": "Severity,OrganFailure,Marshall"
+  },
+  {
+    "front": "WON (Walled-Off Necrosis) — định nghĩa và thời điểm can thiệp?",
+    "back": "WON = hoại tử tụy/quanh tụy được 'bao bọc' bởi vách viêm và xơ, xuất hiện sau ≥ 4 tuần từ khởi phát AP.\n\nThời điểm can thiệp: CHỈ khi có triệu chứng (đau, tắc nghẽn tiêu hóa/mật, nhiễm trùng không đáp ứng KS) và mô đã 'tổ chức hóa' đủ (≥ 4 tuần).\n\nCan thiệp: step-up approach (dẫn lưu nội soi hoặc qua da trước).",
+    "tags": "Complications,WON"
+  },
+  {
+    "front": "Hội chứng khoang bụng (Abdominal Compartment Syndrome) trong AP?",
+    "back": "Định nghĩa: áp lực ổ bụng (IAP) > 20 mmHg + suy tạng MỚI XUẤT HIỆN.\nNguyên nhân: bù dịch quá mức + phù nề tụy/sau phúc mạc + liệt ruột.\nĐiều trị: giảm bù dịch, dẫn lưu dịch báng, giãn cơ (thuốc). Nếu IAP > 25 mmHg không đáp ứng → phẫu thuật giải áp (decompressive laparotomy).",
+    "tags": "Complications,AbdominalCompartmentSyndrome"
+  },
+  {
+    "front": "Indication for urgent (<24h) vs emergency (<6h) ERCP in acute cholangitis?",
+    "back": "Urgent < 24h: TG18 Grade I/II\nEmergency < 6h: TG18 Grade III (organ failure = Reynolds pentad)\n\nNếu ERCP không khả thi → PTBD (percutaneous transhepatic biliary drainage).",
+    "tags": "Cholangitis,ERCP,Timing"
+  },
+  {
+    "front": "SIRS vs Sepsis vs Septic Shock — khác biệt?",
+    "back": "SIRS: đáp ứng viêm toàn thân (≥ 2/4 tiêu chuẩn), có thể vô trùng\nSepsis: SIRS + ổ nhiễm trùng xác định (SIRS + infection)\nSeptic Shock: Sepsis + tụt HA không đáp ứng bù dịch + lactate > 2 mmol/L\n\nTrong AP: pha sớm = SIRS vô trùng. Chuyển sang Sepsis/Septic Shock khi nhiễm trùng hoại tử hoặc viêm đường mật.",
+    "tags": "SIRS,Sepsis,Definitions"
+  },
+  {
+    "front": "Tiêu chuẩn SIRS — khác biệt ở BN lớn tuổi?",
+    "back": "BN già có thể không đáp ứng đủ tiêu chuẩn SIRS dù đang nhiễm trùng nặng (giảm đáp ứng sốt, nhịp tim không tăng do thuốc chẹn beta, WBC không tăng do tủy xương lão hóa).\n→ Luôn dựa vào lâm sàng + lactate + SOFA thay vì chỉ SIRS ở BN già.",
+    "tags": "SIRS,Elderly"
+  },
+  {
+    "front": "Đánh giá đáp ứng với điều trị nội khoa trong AP?",
+    "back": "Sau 24-48h điều trị:\nCẢI THIỆN: đau giảm, BUN/Hct ↓, lactate ↓, sinh hiệu ổn định, ăn uống được\nKHÔNG CẢI THIỆN: đau không giảm, BUN/Hct không ↓ hoặc ↑, sốt kéo dài, suy tạng mới/xấu đi\n→ Nếu không cải thiện: CT bụng có cản quang, đánh giá hoại tử/biến chứng, xem xét ICU.",
+    "tags": "Treatment,Monitoring"
+  },
+  {
+    "front": "BN AP nặng, đang thở máy, sốt 39°C kéo dài — tiếp cận?",
+    "back": "1. Loại trừ nhiễm trùng bệnh viện: VAP, nhiễm trùng catheter, NT tiểu\n2. Cấy máu + cấy dịch phế quản + cấy nước tiểu\n3. PCT máu + theo dõi xu hướng\n4. CT bụng có cản quang (kể cả BN đang thở máy): tìm khí trong hoại tử, ổ áp xe mới\n5. Nếu CT gợi ý nhiễm trùng hoại tử → CT-guided FNA (nhuộm Gram + cấy)\n6. Meropenem IV + step-up approach nếu xác định nhiễm trùng",
+    "tags": "Treatment,ICU,Infection"
+  },
+  {
+    "front": "TIPS và PTBD/PTC — vai trò trong bệnh đường mật?",
+    "back": "TIPS (Transjugular Intrahepatic Portosystemic Shunt): không liên quan bệnh đường mật — dùng cho tăng áp cửa trong xơ gan.\n\nPTBD (Percutaneous Transhepatic Biliary Drainage) / PTC (Percutaneous Transhepatic Cholangiography): dẫn lưu đường mật qua da dưới DSA hoặc siêu âm. Chỉ định khi ERCP thất bại hoặc không khả thi (sau phẫu thuật dạ dày, hẹp môn vị, u bóng Vater không cannulate được).",
+    "tags": "Biliary,PTBD,PTC"
+  },
+  {
+    "front": "PTGBD (Percutaneous Transhepatic Gallbladder Drainage) — kỹ thuật và chỉ định?",
+    "back": "Kỹ thuật: chọc kim qua da xuyên gan vào túi mật dưới hướng dẫn SA/CT, đặt ống dẫn lưu (pigtail catheter) 6-10 Fr.\n\nChỉ định chính:\n1. Viêm túi mật cấp TG18 Grade III\n2. BN không phẫu thuật được (cao tuổi, nhiều bệnh nền, sốc)\n3. Cầu nối tạm thời chờ phẫu thuật\n\nBiến chứng: chảy máu, rò mật, tụt catheter, nhiễm trùng.",
+    "tags": "Cholecystitis,PTGBD"
+  },
+  {
+    "front": "Lipase/amylase ratio > 3 — ý nghĩa?",
+    "back": "Có thể gợi ý AP DO RƯỢU (alcoholic pancreatitis). Tuy nhiên, độ chính xác không cao, không đủ để chẩn đoán xác định. Không dùng đơn độc để quyết định nguyên nhân.\nCần kết hợp với: tiền sử uống rượu, AST/ALT > 2, GGT tăng, MCV tăng.",
+    "tags": "LabTests,LipaseAmylaseRatio"
+  },
+  {
+    "front": "Macroamylasemia là gì? Ý nghĩa lâm sàng?",
+    "back": "Amylase gắn với immunoglobulin (thường là IgA hoặc IgG) tạo phức hợp phân tử lớn → không lọc qua cầu thận được → amylase máu TĂNG MẠN TÍNH, nhưng amylase niệu BÌNH THƯỜNG hoặc THẤP.\n\nĐây là nguyên nhân lành tính — KHÔNG phải AP. Không cần điều trị. Chẩn đoán: amylase niệu bình thường + amylase máu tăng + không có triệu chứng AP.",
+    "tags": "LabTests,Macroamylasemia"
+  },
+  {
+    "front": "Biliary sludge là gì? Có gây AP không?",
+    "back": "Biliary sludge = bùn mật = hỗn hợp của tinh thể cholesterol, muối canxi bilirubinate, và mucin trong túi mật. Tiền thân của sỏi mật.\n\nCÓ thể gây AP (sludge di chuyển xuống kẹt bóng Vater). Chiếm ~5-10% AP 'vô căn'.\n\nChẩn đoán: SA bụng thấy echo tầng di động trong túi mật, không có bóng lưng. EUS nhạy hơn SA.\nĐiều trị: cắt túi mật nếu gây AP tái phát hoặc triệu chứng.",
+    "tags": "Biliary,Sludge"
+  },
+  {
+    "front": "Nang giả tụy (pseudocyst) vs WON — phân biệt?",
+    "back": "Pseudocyst: dịch tụy được bao bọc bởi vách XƠ (không có mô hoại tử). Xuất hiện sau ≥ 4 tuần. Thường sau AP nhẹ-trung bình. Dịch trong, amylase RẤT CAO.\n\nWON: hoại tử tụy được bao bọc bởi vách viêm-xơ, CHỨA MÔ HOẠI TỬ (đặc) bên trong. Xuất hiện sau ≥ 4 tuần. Sau AP nặng. Trên CT: dịch không đồng nhất, có mảnh vụn.\n\nPhân biệt quan trọng vì WON cần kỹ thuật dẫn lưu khác (LAMS đường kính lớn + nội soi hoại tử).",
+    "tags": "Complications,Pseudocyst,WON"
+  },
+  {
+    "front": "Tại sao cần theo dõi Ca²⁺ trong AP? Hạ Ca²⁺ nặng xử trí gì?",
+    "back": "Hạ Ca²⁺ trong AP do:\n1. Xà phòng hóa mỡ (FFA + Ca²⁺ → kết tủa)\n2. Giảm PTH (giảm đáp ứng)\n3. Hạ albumin máu (Ca²⁺ toàn phần giảm do giảm protein gắn)\n\nCa²⁺ < 1.5 mmol/L HOẶC có triệu chứng (co cứng cơ, tetany, QT kéo dài) → calcium gluconate IV (1-2g trong 10-20 phút), sau đó truyền duy trì.",
+    "tags": "Complications,Hypocalcemia"
+  },
+  {
+    "front": "Nuôi ăn tĩnh mạch (PN) trong AP — khi nào?",
+    "back": "Chỉ dùng khi:\n1. EN thất bại (không dung nạp > 48-72h dù đã thử NJ)\n2. Chống chỉ định EN: tắc ruột hoàn toàn, thủng ruột, thiếu máu ruột\n3. Hội chứng khoang bụng nặng\n\nPN làm tăng nguy cơ nhiễm trùng catheter, rối loạn chuyển hóa, ứ mật, và teo niêm mạc ruột → LUÔN ưu tiên EN.",
+    "tags": "Nutrition,PN"
+  },
+  {
+    "front": "EN qua sonde NG có an toàn trong AP không? Có cần NJ?",
+    "back": "CÓ — EN qua NG an toàn và hiệu quả tương đương NJ trong hầu hết các trường hợp AP. Không làm tăng nguy cơ viêm tụy nặng thêm.\n\nChỉ cân nhắc NJ khi:\n- Liệt dạ dày nặng, dịch dạ dày tồn lưu > 500 mL/6h\n- Nôn không kiểm soát dù đã dùng thuốc chống nôn\n- BN có nguy cơ hít sặc cao",
+    "tags": "Nutrition,NG,NJ"
+  },
+  {
+    "front": "Các biến chứng mạch máu trong AP?",
+    "back": "1. Huyết khối tĩnh mạch lách/cửa (splenic/portal vein thrombosis): 10-20% SAP. Biến chứng: giãn TMTQ đơn độc (left-sided portal HTN), nhồi máu lách\n2. Giả phình động mạch (pseudoaneurysm): động mạch lách, vị-tá tràng, tụy-tá tràng. Nguy cơ VỠ gây xuất huyết ồ ạt → nút mạch cấp cứu\n3. Xuất huyết sau phúc mạc\n4. Hội chứng Budd-Chiari (hiếm)",
+    "tags": "Complications,Vascular"
+  },
+  {
+    "front": "Điều trị kháng sinh trong viêm đường mật — thời gian?",
+    "back": "Grade I: 3-5 ngày sau khi giải áp đường mật thành công + hết sốt 48h\nGrade II-III: 5-7 ngày, có thể kéo dài hơn tùy đáp ứng lâm sàng\n\nNgừng KS khi: hết sốt ≥ 48h + WBC về bình thường + hemodynamic ổn định. KHÔNG cần KS kéo dài sau khi đã giải áp đường mật thành công.",
+    "tags": "Cholangitis,Antibiotics,Duration"
+  },
+  {
+    "front": "TG18 — dấu hiệu viêm túi mật hoại tử hoặc khí thũng?",
+    "back": "Viêm túi mật hoại tử (gangrenous cholecystitis): SA/CT thấy thành túi mật không đều, mất tưới máu trên Doppler, bong niêm mạc (membrane sloughing).\n\nViêm túi mật khí thũng (emphysematous cholecystitis): khí trong lòng hoặc thành túi mật trên CT/SA. Do vi khuẩn sinh hơi (Clostridium, E. coli).\n\nCả hai đều là Grade II hoặc III — nguy cơ thủng cao.",
+    "tags": "Cholecystitis,TG18,Gangrenous"
+  },
+  {
+    "front": "4F của bệnh sỏi mật?",
+    "back": "Female (nữ giới)\nForty (trên 40 tuổi)\nFat (béo phì)\nFertile (đã sinh nhiều con)\n\nĐây là nhóm nguy cơ CAO cho sỏi cholesterol.",
+    "tags": "Cholelithiasis,RiskFactors"
+  },
+  {
+    "front": "Điều trị bảo tồn viêm túi mật cấp không phẫu thuật?",
+    "back": "Chỉ khi: BN từ chối mổ, ASA IV-V không thể phẫu thuật.\n\nKháng sinh (theo TG18) + NPO + giảm đau + bù dịch. Theo dõi sát sinh hiệu.\nNếu thất bại (sốt không giảm, đau tăng, WBC/PCT tăng) → PTGBD.\n\nNguy cơ tái phát viêm túi mật cấp: 20-40% trong 1 năm nếu không cắt túi mật.",
+    "tags": "Cholecystitis,Conservative"
+  },
+  {
+    "front": "Chiến lược xử trí AP tại BV tuyến tỉnh không có ICU?",
+    "back": "1. Phân tầng BISAP. BISAP 0-2: điều trị tại chỗ. BISAP ≥ 3: chuyển tuyến có ICU\n2. LR 5-10 mL/kg/h + giảm đau morphine/fentanyl + EN sớm\n3. KHÔNG dùng KS dự phòng\n4. SA bụng tìm nguyên nhân (sỏi mật)\n5. Theo dõi BUN, Hct, SpO₂ mỗi 6-8h\n6. Nếu suy hô hấp (SpO₂ < 92% dù thở oxy), suy thận (nước tiểu < 0.5 mL/kg/h), tụt HA cần vận mạch → chuyển ICU NGAY",
+    "tags": "Vietnam,ProvincialHospital"
+  },
+  {
+    "front": "AP do rượu — đặc điểm lâm sàng và cận lâm sàng?",
+    "back": "Lâm sàng: thường sau uống rượu nhiều 1-3 ngày. BN thường nam, tuổi 30-50, tiền sử uống rượu mạn.\n\nCận lâm sàng: AST/ALT thường > 2 (AST tăng hơn ALT), GGT tăng, MCV tăng (thiếu folate do rượu). Có thể có hạ Mg²⁺, hạ phospho.\n\nThường AP nặng hơn AP do sỏi mật. Nguy cơ tiến triển thành viêm tụy MẠN nếu tiếp tục uống.",
+    "tags": "Etiology,Alcohol"
+  }
+]

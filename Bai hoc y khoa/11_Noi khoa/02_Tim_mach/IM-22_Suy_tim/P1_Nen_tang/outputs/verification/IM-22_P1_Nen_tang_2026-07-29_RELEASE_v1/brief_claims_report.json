@@ -1,0 +1,361 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P1_Nen_tang\\IM-22_P1_Nen_tang_2026-07-29_RELEASE_v1_RESEARCH_BRIEF.md",
+  "parsed_claim_count": 8,
+  "verified_claim_count": 8,
+  "status": "PASS",
+  "claims": [
+    {
+      "claim_id": "P1-C01",
+      "claim_text": "Suy tim (heart failure) là một hội chứng lâm sàng với các triệu chứng và/hoặc dấu hiệu gây ra bởi sự bất thường về cấu trúc và/hoặc chức năng của tim, dẫn đến cung lượng tim giảm và/hoặc áp lực trong buồng tim tăng cao khi nghỉ ngơi hoặc khi gắng sức.",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "heart failure",
+      "line": 79,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.11"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P1-C02",
+      "claim_text": "Theo Universal Definition, chẩn đoán (diagnose) suy tim (heart failure) đòi hỏi có triệu chứng/dấu hiệu suy tim VÀ bằng chứng khách quan về rối loạn chức năng cấu trúc/chức năng tim (như siêu âm tim bất thường) VÀ/HOẶC tăng biomarker (BNP/NT-proBNP) hoặc bằng chứng sung huyết khách quan.",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "heart failure\" \"diagnose",
+      "line": 80,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.12"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P1-C03",
+      "claim_text": "Suy tim (heart failure) được phân loại dựa trên phân suất tống máu thất trái (LVEF): HFrEF, HFmrEF, HFpEF, và HFimpEF.",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "heart failure",
+      "line": 81,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.14"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P1-C04",
+      "claim_text": "Suy tim (heart failure) phát triển qua 4 giai đoạn theo ACC/AHA: Giai đoạn A (Nguy cơ cao, chưa có bệnh cấu trúc/triệu chứng), Giai đoạn B (Tiền suy tim - có bệnh cấu trúc/tăng biomarker nhưng chưa có triệu chứng), Giai đoạn C (Suy tim có triệu chứng), Giai đoạn D (Suy tim tiến triển/kháng trị).",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "heart failure",
+      "line": 82,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.11"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P1-C05",
+      "claim_text": "Trong suy tim (heart failure), giảm cung lượng tim kích hoạt các cơ chế bù trừ thần kinh thể dịch, đặc biệt là hệ thần kinh giao cảm (SNS) và hệ Renin-Angiotensin-Aldosterone (RAAS), dẫn đến co mạch, giữ muối nước và tái cấu trúc cơ tim (remodeling), gây vòng xoắn bệnh lý làm suy tim tiến triển (management).",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "heart failure\" \"management",
+      "line": 83,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.11"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P1-C06",
+      "claim_text": "Các nguyên nhân phổ biến nhất của suy tim (heart failure) bao gồm bệnh tim thiếu máu cục bộ (bệnh mạch vành), tăng huyết áp, bệnh van tim, bệnh cơ tim, và rối loạn nhịp tim.",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "heart failure",
+      "line": 84,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.14"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P1-C07",
+      "claim_text": "Dựa trên lâm sàng, bệnh nhân suy tim (heart failure) cấp được phân loại theo tình trạng sung huyết (Wet/Dry) và tưới máu ngoại vi (Warm/Cold), tạo thành 4 nhóm: Warm & Dry (Bình thường), Warm & Wet (Sung huyết), Cold & Dry (Giảm tưới máu), Cold & Wet (Sốc tim/Sung huyết nặng).",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "heart failure",
+      "line": 85,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.09"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "G-P1-SCOPE",
+      "claim_text": "Hướng dẫn AHA/ACC/HFSA 2022 nhằm cung cấp các khuyến nghị lấy người bệnh làm trung tâm cho bác sĩ lâm sàng để phòng ngừa, chẩn đoán và quản lý người bệnh suy tim: patient-centric recommendations for clinicians to prevent, diagnose, and manage patients with heart failure.",
+      "source_id": "35363499",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "The 2022 guideline is intended to provide patient-centric recommendations for clinicians to prevent, diagnose, and manage patients with heart failure.",
+      "line": 86,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.44"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    }
+  ],
+  "bundle_hash": "bc5cdc2bbcc46ca0f19c61955a13268af4c279491b24f8349e111df070bfb414"
+}

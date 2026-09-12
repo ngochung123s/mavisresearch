@@ -1,0 +1,117 @@
+[
+  {
+    "type": "basic",
+    "front": "Trong ART, vì sao không nên xem cutoff là luật cứng?",
+    "back": "Vì đa số cutoff là ngưỡng thực hành phụ thuộc assay, protocol, labo, endpoint và bối cảnh bệnh nhân. Cutoff giúp đổi hành động lâm sàng, không phải ranh giới sinh học tuyệt đối."
+  },
+  {
+    "type": "basic",
+    "front": "Bốn câu hỏi cần đặt ra trước khi dùng một cutoff trong IVF là gì?",
+    "back": "Cutoff dự đoán endpoint nào; dùng trong protocol nào; có phụ thuộc assay/labo không; và nếu vượt cutoff thì hành động lâm sàng thay đổi ra sao."
+  },
+  {
+    "type": "cloze",
+    "text": "{{c1::FSH threshold}} là mức FSH tối thiểu cần vượt để nang tiếp tục phát triển thay vì thoái triển."
+  },
+  {
+    "type": "cloze",
+    "text": "{{c1::FSH window}} là khoảng thời gian FSH được duy trì trên threshold, giúp mở rộng số nang được cứu trong chu kỳ IVF."
+  },
+  {
+    "type": "cloze",
+    "text": "{{c1::FSH ceiling}} nghĩa là sau một mức kích thích nhất định, tăng thêm FSH không còn tăng số noãn tương xứng vì giới hạn là số nang có thể tuyển mộ."
+  },
+  {
+    "type": "basic",
+    "front": "Câu giải thích ngắn gọn về FSH ceiling cho bệnh nhân là gì?",
+    "back": "Thuốc kích trứng không tạo thêm nang mới; thuốc chỉ giúp những nang đang có khả năng đáp ứng phát triển. Nếu tháng này chỉ có vài nang, tăng liều quá cao khó biến chúng thành nhiều nang hơn."
+  },
+  {
+    "type": "basic",
+    "front": "Ovarian reserve khác ovarian response như thế nào?",
+    "back": "Ovarian reserve là dự trữ nền, thường đánh giá bằng AMH, AFC, tuổi và tiền sử phẫu thuật. Ovarian response là kết quả của chu kỳ kích thích hiện tại: số nang, E2, số noãn và MII."
+  },
+  {
+    "type": "basic",
+    "front": "Oocyte competence chủ yếu bị chi phối bởi yếu tố nào?",
+    "back": "Tuổi mẹ là yếu tố rất mạnh, vì tuổi liên quan chất lượng noãn và nguy cơ aneuploidy. AMH/AFC dự đoán số lượng tốt hơn chất lượng."
+  },
+  {
+    "type": "basic",
+    "front": "Khi số noãn thấp hơn kỳ vọng so với AFC/AMH, cần làm gì trước khi kết luận giảm dự trữ nặng?",
+    "back": "Cần audit protocol: liều và loại gonadotropin, số ngày kích thích, BMI, kỹ thuật tiêm, tuân thủ, thời điểm antagonist, số nang ngày trigger, loại trigger, số MII và kỹ thuật chọc hút."
+  },
+  {
+    "type": "basic",
+    "front": "Trigger trong IVF nhằm mục tiêu gì?",
+    "back": "Trigger bắt chước đỉnh LH để hoàn tất trưởng thành noãn, giúp noãn vào metaphase II và chuẩn bị cho chọc hút. Trigger sai thời điểm hoặc sai loại có thể làm tăng noãn non hoặc tăng nguy cơ OHSS."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao không nên trigger chỉ dựa vào một nang lớn nhất?",
+    "back": "Vì cần nhìn toàn bộ cohort nang. Trigger quá sớm có thể tăng noãn non; kéo dài quá mức để nang nhỏ đuổi kịp có thể làm cohort chính quá chín và tăng rủi ro."
+  },
+  {
+    "type": "basic",
+    "front": "Ưu điểm chính của GnRH agonist trigger trong antagonist cycle là gì?",
+    "back": "Giảm mạnh nguy cơ OHSS, đặc biệt ở high responder hoặc PCOS. Điểm yếu là luteal phase yếu nếu fresh transfer không được hỗ trợ/rescue phù hợp."
+  },
+  {
+    "type": "basic",
+    "front": "Dual trigger thường được cân nhắc trong bối cảnh nào?",
+    "back": "Có thể cân nhắc chọn lọc khi tiền sử MII thấp, empty follicle-like hoặc nghi ngờ đáp ứng trigger chưa tối ưu. Không nên dùng như mặc định cho mọi bệnh nhân vì có thể tăng OHSS hơn agonist-only."
+  },
+  {
+    "type": "basic",
+    "front": "Progesterone elevation ngày trigger ảnh hưởng fresh transfer chủ yếu qua cơ chế nào?",
+    "back": "Nó có thể làm nội mạc đi nhanh hơn phôi, gây lệch cửa sổ làm tổ. Vấn đề chính là đồng bộ nội mạc-phôi, không phải progesterone làm hỏng phôi."
+  },
+  {
+    "type": "cloze",
+    "text": "Nhiều trung tâm dùng mốc progesterone quanh {{c1::1.5 ng/mL}} ngày trigger để cân nhắc giảm cơ hội fresh transfer, nhưng cutoff phụ thuộc assay và bối cảnh."
+  },
+  {
+    "type": "basic",
+    "front": "Nếu đã planned freeze-all, progesterone tăng ngày trigger có ý nghĩa khác gì so với fresh transfer?",
+    "back": "Ít ảnh hưởng đến cơ hội chuyển phôi vì phôi sẽ gặp nội mạc ở chu kỳ khác. Progesterone ngày trigger khi đó chủ yếu là dữ liệu chu kỳ, không nhất thiết buộc thay đổi lớn."
+  },
+  {
+    "type": "basic",
+    "front": "Endometrial thickness nên được hiểu như thế nào trong IVF/FET?",
+    "back": "Là marker dễ đo và hữu ích nhưng không hoàn hảo. Nội mạc mỏng làm giảm xác suất, nhưng không có ngưỡng tuyệt đối dưới đó chắc chắn thất bại."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong thực hành, mốc nội mạc khoảng {{c1::7 mm}} thường là tín hiệu cần xem lại chuẩn bị nội mạc, không phải án tử tuyệt đối cho chu kỳ."
+  },
+  {
+    "type": "basic",
+    "front": "Trong FET chu kỳ hormone replacement, yếu tố timing nào rất quan trọng?",
+    "back": "Thời gian tiếp xúc progesterone phải khớp tuổi phôi. Phôi ngày 5 thường cần khoảng 5 ngày progesterone trước chuyển, tùy quy ước tính giờ của trung tâm."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao không thể nói lấy được 8 noãn nghĩa là có 8 phôi?",
+    "back": "Vì phôi học là funnel hao hụt: không phải mọi noãn đều MII, không phải mọi MII đều thụ tinh, không phải mọi 2PN đều thành blastocyst và không phải mọi blastocyst đều euploid/chuyển được."
+  },
+  {
+    "type": "basic",
+    "front": "Morphology phôi khác genetics như thế nào?",
+    "back": "Morphology đánh giá hình thái và phát triển, còn genetics liên quan euploid/aneuploid. Phôi đẹp có xác suất tốt hơn nhưng không đảm bảo euploid, nhất là khi tuổi mẹ cao."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào day 3 transfer có thể vẫn được cân nhắc thay vì cố nuôi blastocyst?",
+    "back": "Ở bệnh nhân rất ít phôi, quyết định day 3 hay day 5 cần cá thể hóa theo labo, tiền sử và chiến lược trung tâm. Không nên áp dụng khẩu hiệu blastocyst cho mọi người."
+  },
+  {
+    "type": "basic",
+    "front": "High responder cần gắn quyết định trigger với chiến lược nào?",
+    "back": "Chiến lược phòng OHSS: antagonist protocol, cân nhắc GnRH agonist trigger, freeze-all và luteal support phù hợp nếu có fresh transfer chọn lọc."
+  },
+  {
+    "type": "basic",
+    "front": "Thông điệp một câu của bài ART core concepts là gì?",
+    "back": "Trong ART, ngưỡng thực hành chỉ có giá trị khi được đặt vào đúng bệnh nhân, đúng protocol, đúng assay và dẫn đến một hành động lâm sàng rõ ràng."
+  }
+]

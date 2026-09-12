@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bài học y khoa</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+  /* Chart.js canvas: giới hạn max-width để không bị kéo dãn khi render
+     trên màn hình rộng. Kết hợp với height attr trên <canvas> để giữ tỉ lệ.
+     Lý do: Chart.js mặc định maintainAspectRatio=false + responsive=true
+     sẽ fill 100% container width -> bar/doughnut bị oval/méo khi container
+     rộng hơn canvas internal pixel ratio. */
+  canvas { display: block; max-width: 800px; margin: 0 auto; height: auto !important; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+<header class="text-center py-12 mb-12 glass rounded-3xl shadow-lg">
+  <div class="inline-block px-4 py-1 mb-4 rounded-full bg-blue-200 text-blue-800 text-sm font-semibold">
+    Chuyên khoa: Hỗ trợ sinh sản (ART)
+  </div>
+  <h1 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800"></h1>
+  <p class="text-stone-600 text-lg">Ngày 2026-06-29 | Cho bác sĩ sản phụ khoa / học viên sau đại học</p>
+  <p class="text-sm text-stone-500 mt-2">Bác sĩ: <strong>Ngọc 🍅 🐈‍⬛</strong> | AI: <strong>MiniMax Mavis</strong></p>
+</header><main class="max-w-6xl mx-auto space-y-8">
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">0. TỔNG QUAN — VÌ SAO CẦN CHUYÊN ĐỀ NÀY?</h2>
+<p class="text-stone-700 mb-3"><strong>Hỗ trợ pha hoàng thể (Luteal Phase Support - LPS)</strong> là một trong những trụ cột quyết định thành công của chu kỳ IVF/ICSI. Dù progesterone đã được sử dụng từ những năm 1980, <strong>Garg A et al. (2024, Nat Rev Endocrinol, PMID 38110672)</strong> mô tả LPS vẫn là "black-box" với nhiều câu hỏi chưa có lời giải.</p>
+<p class="text-stone-700 mb-3"><strong>Tại sao cần cập nhật từ Bài 19 (22/06/2026)?</strong></p>
+<p class="text-stone-700 mb-3">Từ tháng 6/2026, hàng loạt bằng chứng mới đã xuất hiện làm thay đổi thực hành LPS:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Bằng chứng mới (2026)</th><th class="p-2 border whitespace-nowrap">Ý nghĩa lâm sàng</th></tr></thead><tbody><tr class=""><td class="p-2 border">AC-FET tăng miscarriage gấp 2 lần so với NC-FET ở phôi euploid (PMID 42081915)</td><td class="p-2 border"><strong>Paradigm shift:</strong> ưu tiên natural cycle FET khi có thể</td></tr><tr class=""><td class="p-2 border">Estradiol bổ sung trong LPS tăng implantation nhưng không tăng live birth + nguy cơ ứ mật thai kỳ (PMID 42266463)</td><td class="p-2 border">Cân nhắc kỹ benefit/risk</td></tr><tr class=""><td class="p-2 border">Meta-analysis 2026: progesterone LPS KHÔNG có lợi ích trong mNC-FET (PMID 42160980)</td><td class="p-2 border">Không cần LPS thường quy trong mNC-FET</td></tr><tr class=""><td class="p-2 border">Dydrogesterone + progesterone có hiệu ứng cộng hợp PK (PMID 42226298)</td><td class="p-2 border">Cá thể hóa liều dựa trên nồng độ huyết thanh</td></tr><tr class=""><td class="p-2 border">Progesterone vaginal ring (PVR) weekly — an toàn, CPR 43.2% (PMID 42213348)</td><td class="p-2 border">Lựa chọn delivery system mới</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Mục tiêu chuyên đề:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Tổng hợp toàn bộ bằng chứng LPS đến giữa năm 2026</li>
+<li>Cập nhật các guideline chính (ESHRE 2019, ASRM 2024)</li>
+<li>Cung cấp lưu đồ quyết định lâm sàng cho fresh cycle và FET</li>
+<li>Cá thể hóa LPS theo patient profile và loại chu kỳ</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">1. SINH LÝ PHA HOÀNG THỂ</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.1. Chu kỳ tự nhiên (Natural Cycle)</h3>
+<p class="text-stone-700 mb-3">Pha hoàng thể kéo dài <strong>~14 ngày</strong> từ rụng trứng đến trước kỳ kinh:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Giai đoạn</th><th class="p-2 border whitespace-nowrap">Thời gian</th><th class="p-2 border whitespace-nowrap">Sự kiện chính</th><th class="p-2 border whitespace-nowrap">Phân tử chủ chốt</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Early luteal</strong></td><td class="p-2 border">Ngày 1-4 sau rụng trứng</td><td class="p-2 border">CL hình thành từ nang vỡ. Angiogenesis mạnh. Bắt đầu tiết P4 + E2.</td><td class="p-2 border">VEGF, LH-R, StAR</td></tr><tr class=""><td class="p-2 border"><strong>Mid-luteal</strong></td><td class="p-2 border">Ngày 5-9</td><td class="p-2 border">P4 đạt đỉnh ~15-25 ng/mL. Nội mạc chuyển secretory. Window of implantation mở.</td><td class="p-2 border">PR-B, HOXA10, LIF, pinopodes</td></tr><tr class=""><td class="p-2 border"><strong>Late luteal</strong></td><td class="p-2 border">Ngày 10-14</td><td class="p-2 border">Nếu không thụ thai: CL thoái hóa → P4↓ → kinh nguyệt. Nếu thụ thai: hCG từ phôi rescue CL.</td><td class="p-2 border">hCG, LH-R, caspase-3</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Hai isoform progesterone receptor (PR) ở nội mạc:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>PR-A</strong>: ức chế PR-B và estrogen receptor — chiếm ưu thế ở mid-secretory phase</li>
+<li><strong>PR-B</strong>: hoạt hóa transcription gen đích (HOXA10, LIF, IGFBP-1) — cần cho implantation</li></ul>
+<p class="text-stone-700 mb-3">Cân bằng PR-A/PR-B quyết định nội mạc đạt receptivity đúng thời điểm. <strong>Lệch tỷ lệ PR-A/PR-B → implantation failure</strong> (Lessey BA, 2016, Fertil Steril).</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.2. Luteal-Placental Shift</h3>
+<p class="text-stone-700 mb-3">Khi thụ thai, <strong>hCG từ syncytiotrophoblast</strong> gắn LH-R trên CL → rescue CL → tiếp tục tiết P4 đến <strong>~7-10 tuần</strong>. Sau đó <strong>nhau thai</strong> đảm nhận sản xuất P4 hoàn toàn.</p>
+<p class="text-stone-700 mb-3"><strong>Cơ chế shift:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>hCG đạt đỉnh ở tuần 8-10 (~100.000 mIU/mL)</li>
+<li>Trophoblast bắt đầu biểu hiện CYP11A1, 3β-HSD → tự tổng hợp P4</li>
+<li>CL thoái hóa dần (không còn cần thiết)</li></ul>
+<p class="text-stone-700 mb-3"><strong>Ý nghĩa lâm sàng:</strong> LPS chỉ cần đến khi luteal-placental shift hoàn tất (~8-10 tuần). Kéo dài LPS quá 10-12 tuần không có lợi ích đã được chứng minh.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.3. Window of Implantation</h3>
+<p class="text-stone-700 mb-3"><strong>Wilcox AJ et al. (1999, NEJM, PMID 10558900):</strong> WOI mở từ <strong>ngày 6-10 sau ovulation</strong>. Nội mạc đạt receptivity tối đa khi:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Pinopodes xuất hiện (ngày 19-21 của chu kỳ 28 ngày)</li>
+<li>HOXA10 và LIF biểu hiện đỉnh</li>
+<li>PR-A/PR-B ratio tối ưu</li>
+<li>Integrin αvβ3, osteopontin upregulated</li></ul>
+<p class="text-stone-700 mb-3"><strong>LPS giúp đồng bộ nội mạc với WOI</strong>, đặc biệt quan trọng trong chu kỳ COS khi nội mạc bị advancement.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">2. SINH LÝ BỆNH — TẠI SAO ART GÂY LUTEAL PHASE DYSFUNCTION?</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.1. Cơ chế</h3>
+<p class="text-stone-700 mb-3">Trong COS, <strong>nồng độ steroid tăng gấp 5-10 lần</strong> sinh lý do nhiều nang cùng phát triển:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>LH suppression:</strong> E2 + P4 cao → feedback âm tính → ↓LH pulse frequency và amplitude từ tuyến yên → CL không được trophic support</li>
+<li><strong>Premature luteolysis:</strong> CL thoái hóa từ <strong>ngày 5-7 sau hCG trigger</strong> (so với ngày 10-14 trong tự nhiên) → P4 giảm sớm</li>
+<li><strong>Endometrial advancement:</strong> steroid cao → nội mạc trưởng thành nhanh hơn 2-4 ngày → <strong>lệch WOI</strong> → giảm implantation</li>
+<li><strong>GnRH antagonist protocol</strong> càng làm trầm trọng: LH bị block thêm bởi antagonist</li></ol>
+<p class="text-stone-700 mb-3"><strong>Mức độ dysfunction tỷ lệ thuận với số nang phát triển</strong> — càng nhiều nang → càng nhiều steroid → càng nặng luteal deficiency.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.2. Trigger Protocols Ảnh Hưởng Đến LPS</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Trigger</th><th class="p-2 border whitespace-nowrap">Thời gian LH activity</th><th class="p-2 border whitespace-nowrap">LPS requirement</th><th class="p-2 border whitespace-nowrap">Cơ chế</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>hCG 5.000-10.000 IU</strong></td><td class="p-2 border">~5-7 ngày</td><td class="p-2 border">Standard LPS (P4 ± E2)</td><td class="p-2 border">hCG = LH analog, t½ dài, tự duy trì CL</td></tr><tr class=""><td class="p-2 border"><strong>hCG 3.000-5.000 IU</strong></td><td class="p-2 border">~3-5 ngày</td><td class="p-2 border">Standard LPS</td><td class="p-2 border">Liều thấp → luteal activity ngắn hơn</td></tr><tr class=""><td class="p-2 border"><strong>GnRH agonist</strong> (leuprolide 0.5-2 mg)</td><td class="p-2 border"><strong><24 giờ</strong></td><td class="p-2 border"><strong>Cần CL rescue</strong> hoặc freeze-all</td><td class="p-2 border">LH surge nội sinh ngắn, CL không được duy trì</td></tr><tr class=""><td class="p-2 border"><strong>Dual trigger</strong> (hCG 1.000-1.500 + GnRHa)</td><td class="p-2 border">Trung gian (~2-3 ngày)</td><td class="p-2 border">Standard LPS</td><td class="p-2 border">hCG liều thấp + LH surge → bảo tồn một phần luteal function</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Kol S & Humaidan P (2021, Curr Opin Obstet Gynecol, PMID 33394734):</strong> Trigger bằng GnRHa gây <strong>luteal phase gần như biến mất</strong> sau 24h → BẮT BUỘC có LPS tích cực.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">3. DƯỢC ĐỘNG HỌC PROGESTERONE — PK/PD THEO ĐƯỜNG DÙNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.1. Bảng so sánh PK parameters</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Route</th><th class="p-2 border whitespace-nowrap">Chế phẩm</th><th class="p-2 border whitespace-nowrap">Liều thường dùng</th><th class="p-2 border whitespace-nowrap">Cmax (ng/mL)</th><th class="p-2 border whitespace-nowrap">Tmax (h)</th><th class="p-2 border whitespace-nowrap">t½ (h)</th><th class="p-2 border whitespace-nowrap">First-pass effect</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Vaginal (tablet)</strong></td><td class="p-2 border">Utrogestan®, Cyclogest®</td><td class="p-2 border">200-400 mg × 2-3/ngày</td><td class="p-2 border">8-12</td><td class="p-2 border">6-8</td><td class="p-2 border">13-16</td><td class="p-2 border">KHÔNG qua gan (first uterine pass)</td></tr><tr class=""><td class="p-2 border"><strong>Vaginal (gel)</strong></td><td class="p-2 border">Crinone® 8%</td><td class="p-2 border">90 mg × 1/ngày</td><td class="p-2 border">10-15</td><td class="p-2 border">5-7</td><td class="p-2 border">13-16</td><td class="p-2 border">KHÔNG qua gan</td></tr><tr class=""><td class="p-2 border"><strong>Vaginal ring</strong></td><td class="p-2 border">PVR (mới)</td><td class="p-2 border">1 ring/tuần</td><td class="p-2 border">Ổn định plateau</td><td class="p-2 border">—</td><td class="p-2 border">—</td><td class="p-2 border">KHÔNG qua gan</td></tr><tr class=""><td class="p-2 border"><strong>Intramuscular</strong></td><td class="p-2 border">Progesterone in oil</td><td class="p-2 border">50-100 mg/ngày</td><td class="p-2 border">40-70</td><td class="p-2 border">8-12</td><td class="p-2 border">20-28</td><td class="p-2 border">KHÔNG</td></tr><tr class=""><td class="p-2 border"><strong>Subcutaneous</strong></td><td class="p-2 border">Prolutex® 25 mg</td><td class="p-2 border">25-50 mg/ngày</td><td class="p-2 border">20-40</td><td class="p-2 border">4-6</td><td class="p-2 border">10-12</td><td class="p-2 border">KHÔNG</td></tr><tr class=""><td class="p-2 border"><strong>Oral micronized</strong></td><td class="p-2 border">Utrogestan® uống</td><td class="p-2 border">200-400 mg/ngày</td><td class="p-2 border">10-30 (allopregnanolone)</td><td class="p-2 border">1-4</td><td class="p-2 border">5-10</td><td class="p-2 border">QUA GAN (90% chuyển hóa)</td></tr><tr class=""><td class="p-2 border"><strong>Oral dydrogesterone</strong></td><td class="p-2 border">Duphaston®</td><td class="p-2 border">20-40 mg/ngày</td><td class="p-2 border">30-50 (DHD)</td><td class="p-2 border">1-2</td><td class="p-2 border">14-18</td><td class="p-2 border">QUA GAN nhưng ổn định chuyển hóa</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.2. First Uterine Pass Effect</h3>
+<p class="text-stone-700 mb-3"><strong>Cicinelli E et al. (2000, Hum Reprod, PMID 11006196):</strong> Progesterone vaginal được hấp thu trực tiếp vào <strong>tĩnh mạch tử cung → động mạch tử cung</strong> (counter-current transfer) → nồng độ P4 ở nội mạc <strong>cao gấp 10-15 lần</strong> so với huyết thanh.</p>
+<p class="text-stone-700 mb-3"><strong>Ý nghĩa lâm sàng:</strong> Vaginal P4 tạo nồng độ tại đích (nội mạc) cao hơn huyết thanh → hiệu quả lâm sàng tốt dù nồng độ huyết thanh thấp. Ngược lại, IM/SC tạo nồng độ huyết thanh cao nhưng phân bố toàn thân.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.3. Dydrogesterone vs Micronized Progesterone</h3>
+<p class="text-stone-700 mb-3"><strong>Dydrogesterone (Duphaston®):</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Cấu trúc retroprogesterone (methyl group ở C10α thay vì C10β)</li>
+<li><strong>Chọn lọc PR cao</strong> (không gắn AR, ER, GR, MR)</li>
+<li><strong>Sinh khả dụng uống 28%</strong> (so với <5% của micronized P4)</li>
+<li>Chất chuyển hóa chính: 20α-dihydrodydrogesterone (DHD) — cũng có hoạt tính progestogenic</li>
+<li><strong>Griesinger G et al. (2020, PLoS One, PMID 33147288):</strong> ongoing pregnancy OR 1.32 (95% CI 1.08-1.61), live birth OR 1.28 (95% CI 1.04-1.57) — vượt trội MVP</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.4. PK Interaction: Dydrogesterone + Progesterone (MỚI 2026)</h3>
+<p class="text-stone-700 mb-3"><strong>PMID 42226298 (2026, Reprod Biol Endocrinol) [ABSTRACT VERIFIED]:</strong> Nghiên cứu đầu tiên dùng <strong>HPLC-MS/MS định lượng đồng thời</strong> dydrogesterone (DYD), 20α-dihydrodydrogesterone (DHD) và progesterone (P4) ở 111 bệnh nhân HRT-FET:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Live birth cao nhất khi cả DYD và P4 đều cao (67%)</strong></li>
+<li><strong>Live birth thấp nhất khi cả hai đều thấp (27%)</strong></li>
+<li>Không hormone đơn lẻ nào dự báo độc lập live birth</li>
+<li><strong>→ Hiệu ứng cộng hợp (additive) giữa DYD và P4</strong> — hỗ trợ chiến lược combinatorial progestin</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.5. Progesterone Vaginal Ring — PVR (MỚI 2026)</h3>
+<p class="text-stone-700 mb-3"><strong>PMID 42213348 (2026, Drug Deliv Transl Res) [ABSTRACT VERIFIED]:</strong> SARA trial — thử nghiệm an toàn pha 3:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>254 phụ nữ</strong>, PVR đặt hàng tuần (thay 1 lần/tuần)</li>
+<li><strong>Tỷ lệ sảy thai tự nhiên: 7.4%</strong> (upper bound 95% CI 11.5%, dưới ngưỡng 15% định trước)</li>
+<li><strong>Thai lâm sàng 10 tuần: 43.2%</strong></li>
+<li>Tác dụng phụ tại chỗ: 2.0%</li>
+<li><strong>Dung nạp tốt</strong>, ít discharge hơn gel/tablet</li></ul>
+<p class="text-stone-700 mb-3"><strong>Lợi thế:</strong> weekly dosing → tăng tuân thủ. Nhược: chưa có sẵn rộng rãi, chi phí cao.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">4. PHÂN LOẠI VÀ SO SÁNH CÁC PROTOCOL LPS</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.1. Bảng so sánh toàn diện 7 route LPS</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Route</th><th class="p-2 border whitespace-nowrap">Liều</th><th class="p-2 border whitespace-nowrap">CPR (so với VP)</th><th class="p-2 border whitespace-nowrap">LB (so với VP)</th><th class="p-2 border whitespace-nowrap">Miscarriage</th><th class="p-2 border whitespace-nowrap">Tác dụng phụ chính</th><th class="p-2 border whitespace-nowrap">Bằng chứng mạnh nhất</th><th class="p-2 border whitespace-nowrap">Khuyến cáo</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Vaginal P4 (MVP)</strong></td><td class="p-2 border">200-400 mg × 2-3/ngày</td><td class="p-2 border">Reference</td><td class="p-2 border">Reference</td><td class="p-2 border">Reference</td><td class="p-2 border">Khó chịu âm đạo, dịch</td><td class="p-2 border">Cochrane 2015 (94 RCT)</td><td class="p-2 border"><strong>First-line</strong></td></tr><tr class=""><td class="p-2 border"><strong>Vaginal gel (Crinone®)</strong></td><td class="p-2 border">90 mg × 1/ngày</td><td class="p-2 border">Tương đương</td><td class="p-2 border">Tương đương</td><td class="p-2 border">Tương đương</td><td class="p-2 border">Discharge ít hơn tablet</td><td class="p-2 border">Cochrane 2015</td><td class="p-2 border">First-line</td></tr><tr class=""><td class="p-2 border"><strong>PVR (vaginal ring)</strong></td><td class="p-2 border">1 ring/week</td><td class="p-2 border">43.2% (uncontrolled)</td><td class="p-2 border">Chưa có RCT</td><td class="p-2 border">7.4%</td><td class="p-2 border">Tại chỗ 2%</td><td class="p-2 border">SARA trial 2026 (PMID 42213348)</td><td class="p-2 border">Tiềm năng</td></tr><tr class=""><td class="p-2 border"><strong>IM progesterone</strong></td><td class="p-2 border">50-100 mg/ngày</td><td class="p-2 border">Tương đương</td><td class="p-2 border">Tương đương</td><td class="p-2 border">Tương đương</td><td class="p-2 border">Đau, áp xe, dị ứng dầu</td><td class="p-2 border">Cochrane 2015</td><td class="p-2 border">Alternative</td></tr><tr class=""><td class="p-2 border"><strong>SC progesterone</strong></td><td class="p-2 border">25-50 mg/ngày</td><td class="p-2 border">Tương đương</td><td class="p-2 border">Tương đương</td><td class="p-2 border">Tương đương</td><td class="p-2 border">Ít đau hơn IM</td><td class="p-2 border">Doblinger 2016 (IPD meta)</td><td class="p-2 border">Alternative</td></tr><tr class=""><td class="p-2 border"><strong>Oral dydrogesterone</strong></td><td class="p-2 border">20-40 mg/ngày</td><td class="p-2 border"><strong>↑ OR 1.32</strong></td><td class="p-2 border"><strong>↑ OR 1.28</strong></td><td class="p-2 border">Tương đương</td><td class="p-2 border">Buồn nôn, đau đầu nhẹ</td><td class="p-2 border">Griesinger 2020 (IPD meta)</td><td class="p-2 border">First-line alternative</td></tr><tr class=""><td class="p-2 border"><strong>Oral micronized P4</strong></td><td class="p-2 border">200-400 mg/ngày</td><td class="p-2 border">Kém hơn</td><td class="p-2 border">Kém hơn</td><td class="p-2 border">Không rõ</td><td class="p-2 border">Buồn ngủ, chóng mặt</td><td class="p-2 border">Ít evidence</td><td class="p-2 border"><strong>KHÔNG khuyến cáo</strong></td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.2. Combinatorial LPS (Kết hợp)</h3>
+<p class="text-stone-700 mb-3"><strong>Kastora SL et al. (2024, Sci Rep, PMID 38914570) [FULL VERIFIED]:</strong> NMA Bayesian, 76 RCT, 22 interventions, 26.536 bệnh nhân:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Protocol</th><th class="p-2 border whitespace-nowrap">CP OR (95% CrI)</th><th class="p-2 border whitespace-nowrap">LB OR (95% CrI)</th><th class="p-2 border whitespace-nowrap">Miscarriage OR (95% CrI)</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>VP + OE + SCGnRH-a</strong></td><td class="p-2 border"><strong>1.57 (1.11-2.22)</strong></td><td class="p-2 border"><strong>8.81 (2.35-39.1)</strong></td><td class="p-2 border">—</td></tr><tr class=""><td class="p-2 border"><strong>VP + SCGnRH-a</strong></td><td class="p-2 border"><strong>1.28 (1.05-1.55)</strong></td><td class="p-2 border"><strong>1.76 (1.45-2.15)</strong></td><td class="p-2 border"><strong>0.54 (0.37-0.80)</strong></td></tr><tr class=""><td class="p-2 border">IM hCG (progesterone-free)</td><td class="p-2 border">—</td><td class="p-2 border">9.67 (2.34-73.2)</td><td class="p-2 border">Tăng OHSS OR 1.64</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Kết luận:</strong> VP + SCGnRH-a cho kết quả tối ưu — tăng CPR + LB + <strong>GIẢM 46% miscarriage</strong>.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">5. LPS TRONG FRESH CYCLES</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.1. Standard Fresh Cycle (hCG Trigger)</h3>
+<p class="text-stone-700 mb-3"><strong>Protocol chuẩn:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Vaginal P4 200-400 mg × 2-3 lần/ngày HOẶC gel 90 mg/ngày</li>
+<li>Bắt đầu: <strong>ngày sau oocyte retrieval</strong> (hoặc cùng ngày)</li>
+<li>Kéo dài: <strong>đến 8-10 tuần</strong> (sau luteal-placental shift)</li>
+<li>Cân nhắc thêm E2 nếu nội mạc mỏng (<8mm)</li></ul>
+<p class="text-stone-700 mb-3"><strong>ESHRE 2019 (Ovarian Stimulation Guideline, PMID 32395637):</strong> Khuyến cáo vaginal progesterone là first-line. IM progesterone hiệu quả tương đương nhưng nhiều tác dụng phụ hơn.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.2. Bổ Sung Estradiol Trong LPS (MỚI 2026)</h3>
+<p class="text-stone-700 mb-3"><strong>PMID 42266463 (2026, Hum Reprod Open) [ABSTRACT VERIFIED]:</strong> RCT n=518, GnRH antagonist protocol, so sánh vaginal E2 + P4 vs P4 đơn thuần:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Outcome</th><th class="p-2 border whitespace-nowrap">E2 + P4</th><th class="p-2 border whitespace-nowrap">P4 alone</th><th class="p-2 border whitespace-nowrap">RR</th><th class="p-2 border whitespace-nowrap">P</th></tr></thead><tbody><tr class=""><td class="p-2 border">Implantation rate</td><td class="p-2 border">39.66%</td><td class="p-2 border">32.96%</td><td class="p-2 border">1.20 (1.01-1.42)</td><td class="p-2 border">0.04</td></tr><tr class=""><td class="p-2 border">Clinical pregnancy</td><td class="p-2 border">53.28%</td><td class="p-2 border">44.02%</td><td class="p-2 border">1.21 (1.02-1.43)</td><td class="p-2 border">0.03</td></tr><tr class=""><td class="p-2 border">Ongoing pregnancy</td><td class="p-2 border">48.77%</td><td class="p-2 border">41.31%</td><td class="p-2 border">1.18 (0.98-1.41)</td><td class="p-2 border">0.07 (NS)</td></tr><tr class=""><td class="p-2 border">Live birth</td><td class="p-2 border">46.72%</td><td class="p-2 border">40.15%</td><td class="p-2 border">1.16 (0.96-1.40)</td><td class="p-2 border">0.12 (NS)</td></tr><tr class=""><td class="p-2 border"><strong>ICP (ứ mật thai kỳ)</strong></td><td class="p-2 border"><strong>5.17%</strong></td><td class="p-2 border"><strong>0%</strong></td><td class="p-2 border">—</td><td class="p-2 border"><strong>0.01</strong></td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Khuyến cáo:</strong> Cân nhắc thêm E2 vaginal <strong>chỉ khi</strong> nội mạc mỏng (<8mm) hoặc có tiền sử implantation failure. <strong>KHÔNG dùng thường quy</strong> do nguy cơ ICP (number needed to harm ~20).</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.3. GnRH Agonist Trigger — Modified LPS</h3>
+<p class="text-stone-700 mb-3"><strong>Tình huống:</strong> High responders (>15-20 nang, E2 >4.000 pg/mL) → GnRHa trigger để tránh OHSS.</p>
+<p class="text-stone-700 mb-3"><strong>2 chiến lược:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Chiến lược</th><th class="p-2 border whitespace-nowrap">LPS protocol</th><th class="p-2 border whitespace-nowrap">Ưu</th><th class="p-2 border whitespace-nowrap">Nhược</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Freeze-all</strong></td><td class="p-2 border">Không LPS fresh. FET sau với LPS chuẩn.</td><td class="p-2 border">OHSS-free tuyệt đối</td><td class="p-2 border">Trì hoãn ET, chi phí cao hơn</td></tr><tr class=""><td class="p-2 border"><strong>Modified LPS</strong></td><td class="p-2 border">hCG rescue 1.500 IU ngày retrieval + 1.500 IU ngày 3-4 + vaginal P4 + E2</td><td class="p-2 border">Fresh transfer được</td><td class="p-2 border">Vẫn có nguy cơ OHSS nhẹ</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Kol S & Humaidan P (2021, PMID 33394734):</strong> Không trigger GnRHa nếu không có kế hoạch LPS hoặc freeze-all.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">6. LPS TRONG FET CYCLES — CHUYÊN SÂU (MỚI 2026)</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.1. So Sánh Các Protocol FET</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Protocol</th><th class="p-2 border whitespace-nowrap">Chuẩn bị nội mạc</th><th class="p-2 border whitespace-nowrap">Ovulation</th><th class="p-2 border whitespace-nowrap">LPS requirement</th><th class="p-2 border whitespace-nowrap">Bằng chứng mới</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>AC-FET (HRT)</strong></td><td class="p-2 border">E2 ngoại sinh + P4 ngoại sinh</td><td class="p-2 border">Không</td><td class="p-2 border"><strong>BẮT BUỘC</strong> — E2 + P4 từ ngày nội mạc ≥7mm</td><td class="p-2 border">Tăng miscarriage, giảm LB (PMID 42081915)</td></tr><tr class=""><td class="p-2 border"><strong>tNC-FET</strong></td><td class="p-2 border">Tự nhiên</td><td class="p-2 border">Có (LH surge nội sinh)</td><td class="p-2 border"><strong>Tranh cãi</strong> — một số study cho thấy không cần</td><td class="p-2 border">LB và CPR cao nhất</td></tr><tr class=""><td class="p-2 border"><strong>mNC-FET</strong></td><td class="p-2 border">hCG trigger</td><td class="p-2 border">Có (hCG trigger)</td><td class="p-2 border"><strong>Meta 2026: KHÔNG cần</strong> P4 thường quy (PMID 42160980)</td><td class="p-2 border">HCG trigger → CL tự sản xuất P4 đủ</td></tr><tr class=""><td class="p-2 border"><strong>PO-FET</strong></td><td class="p-2 border">Letrozole ± gonadotropin</td><td class="p-2 border">Có (hCG trigger)</td><td class="p-2 border">Standard P4</td><td class="p-2 border">LB không khác biệt vs mNC-FET (PMID 42270032)</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.2. AC-FET vs tNC-FET — Paradigm Shift 2026</h3>
+<p class="text-stone-700 mb-3"><strong>PMID 42081915 (2026, Hum Reprod) [ABSTRACT VERIFIED]:</strong> RCT so sánh AC-FET vs tNC-FET ở phôi <strong>euploid</strong> (n=354):</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Outcome</th><th class="p-2 border whitespace-nowrap">AC-FET</th><th class="p-2 border whitespace-nowrap">tNC-FET</th><th class="p-2 border whitespace-nowrap">P</th></tr></thead><tbody><tr class=""><td class="p-2 border">Early pregnancy loss</td><td class="p-2 border"><strong>14.2%</strong></td><td class="p-2 border"><strong>6.7%</strong></td><td class="p-2 border">0.022</td></tr><tr class=""><td class="p-2 border">Clinical pregnancy</td><td class="p-2 border">52.3%</td><td class="p-2 border">72.5%</td><td class="p-2 border"><0.001</td></tr><tr class=""><td class="p-2 border">Live birth</td><td class="p-2 border">47.2%</td><td class="p-2 border">67.4%</td><td class="p-2 border"><0.001</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Thử nghiệm bị dừng sớm</strong> vì lo ngại an toàn sản khoa của AC-FET!</p>
+<p class="text-stone-700 mb-3"><strong>Khuyến cáo thực hành mới:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>tNC-FET là preferred protocol</strong> cho phụ nữ có rụng trứng đều</li>
+<li><strong>AC-FET chỉ nên dành cho:</strong> suy buồng trứng, hypothalamic amenorrhea, hoặc bệnh nhân không thể theo dõi ovulation</li>
+<li>Khi bắt buộc dùng AC-FET: theo dõi sát sảy thai sớm, tư vấn nguy cơ</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.3. mNC-FET — Có Cần LPS?</h3>
+<p class="text-stone-700 mb-3"><strong>PMID 42160980 (2026, Reprod Biomed Online) [ABSTRACT VERIFIED]:</strong> Meta-analysis 7 nghiên cứu (3 RCT + 4 hồi cứu, 3.896 chu kỳ):</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Live birth: KHÔNG khác biệt</strong> (OR 1.15, 95% CI 0.98-1.36; aOR 1.07, 95% CI 0.64-1.79)</li>
+<li>Clinical pregnancy: tăng nhẹ trong phân tích thô (OR 1.21) nhưng <strong>không còn ý nghĩa sau hiệu chỉnh</strong> (aOR 1.15, 95% CI 0.87-1.51)</li>
+<li><strong>Kết luận: Không ủng hộ progesterone LPS thường quy trong mNC-FET</strong></li></ul>
+<p class="text-stone-700 mb-3"><strong>Cơ chế:</strong> hCG trigger → CL được rescue tự nhiên → tự sản xuất P4 đủ → bổ sung ngoại sinh không thêm lợi ích.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.4. PO-FET — Dydrogesterone-Based Protocol</h3>
+<p class="text-stone-700 mb-3"><strong>PMID 42270032 (2026, Fertil Steril) [ABSTRACT VERIFIED]:</strong> Propensity score-matched PO-FET (dydrogesterone uống thay hCG trigger + progestin support) vs mNC-FET:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Live birth: không khác biệt</strong> (35.29% vs 28.82%, OR 1.35, P=0.245)</li>
+<li><strong>Kết luận:</strong> PO-FET là lựa chọn thay thế không cần hCG trigger, phù hợp bệnh nhân không muốn tiêm</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.5. Thời Điểm Bắt Đầu LPS Trong NC-FET</h3>
+<p class="text-stone-700 mb-3"><strong>PMID 42316342 (2026, BMC Pregnancy Childbirth) [ABSTRACT VERIFIED]:</strong> Hồi cứu 246 chu kỳ NC-FET:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Bắt đầu LPS ngày chuyển phôi (day 0):</strong> LB <strong>52.7%</strong></li>
+<li><strong>Bắt đầu LPS 2 ngày trước chuyển phôi (day -2):</strong> LB <strong>37.2%</strong> (P=0.024)</li>
+<li>Start day-0 là yếu tố độc lập dự báo CPR: OR 2.37 (95% CI 1.17-4.81)</li></ul>
+<p class="text-stone-700 mb-3"><strong>Cơ chế:</strong> Bắt đầu P4 sớm → nội mạc advancement → lệch WOI → giảm implantation. <strong>Bắt đầu LPS đúng ngày chuyển phôi giúp đồng bộ tốt hơn.</strong></p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.6. Dydrogesterone "Cứu" Chu Kỳ P4 Thấp (MỚI)</h3>
+<p class="text-stone-700 mb-3"><strong>PMID 42119546 (2026, Reprod Biomed Online) [ABSTRACT VERIFIED]:</strong> 886 bệnh nhân NC-FET, 18% có P4 <10 μg/L ngày chuyển phôi:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Nhóm P4 thấp được dùng <strong>dydrogesterone uống từ ngày chuyển phôi</strong>:</li></ul>
+<p class="text-stone-700 mb-3">  - Ongoing pregnancy: 47.5% vs 50.4% (P4 đủ) — P=0.51</p>
+<p class="text-stone-700 mb-3">  - Live birth: 46.5% vs 48.8% — P=0.60</p>
+<p class="text-stone-700 mb-3">  - Early pregnancy loss: 18.1% vs 19.6% — P=0.74</p>
+<p class="text-stone-700 mb-3"><strong>Kết luận:</strong> Dydrogesterone uống có thể <strong>"cứu" chu kỳ P4 thấp</strong> trong NC-FET, cho kết quả tương đương P4 đủ. Đây là clinical pearl quan trọng: không cần hủy chu kỳ khi P4 thấp!</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">7. CÁ THỂ HÓA LPS</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.1. Lưu Đồ Quyết Định LPS Cho Fresh Cycle</h3>
+<div class="mermaid text-center my-6">flowchart TD
+    A["Fresh IVF/ICSI cycle<br>Đã có trigger"] --> B{"Loại trigger?"}
+    B -->|"hCG 5.000-10.000 IU"| C["Standard LPS:<br>Vaginal P4 200mg × 2-3/ngày<br>± E2 nếu nội mạc <8mm"]
+    B -->|"GnRH agonist"| D{"OHSS risk?"}
+    D -->|"Cao (>20 nang, E2 >4.000)"| E["Freeze-all<br>→ FET sau với LPS chuẩn"]
+    D -->|"Thấp-Trung bình"| F["Modified LPS:<br>hCG rescue 1.500 IU × 2<br>+ Vaginal P4 + E2"]
+    B -->|"Dual trigger"| C
+    C --> G{"Nội mạc ≥8mm?"}
+    G -->|"Có"| H["Duy trì đến 8-10 tuần"]
+    G -->|"Không"| I["Thêm E2 vaginal<br>2-6 mg/ngày"]
+    I --> H
+    F --> J{"Có thai?"}
+    J -->|"Có"| H
+    J -->|"Không"| K["Ngưng LPS"]
+    style A fill:#e3f2fd,stroke:#1976d2
+    style E fill:#fff3cd,stroke:#f57c00
+    style H fill:#c8e6c9,stroke:#388e3c</div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.2. Lưu Đồ Quyết Định Protocol FET + LPS</h3>
+<div class="mermaid text-center my-6">flowchart TD
+    A["FET cycle"] --> B{"Bệnh nhân có<br>rụng trứng đều?"}
+    B -->|"Có"| C{"Có thể theo dõi<br>ovulation?"}
+    B -->|"Không"| D["AC-FET (HRT):<br>E2 valerate 6-8 mg/ngày<br>+ Vaginal P4 trước ET 3-5 ngày<br>+ Duy trì đến 8-10 tuần"]
+    C -->|"Có"| E["tNC-FET (ưu tiên):<br>Theo dõi LH surge tự nhiên<br>P4 bắt đầu NGÀY ET"]
+    C -->|"Không (logistics)"| F{"Bệnh nhân chấp nhận<br>hCG trigger?"}
+    F -->|"Có"| G["mNC-FET:<br>hCG trigger<br>KHÔNG cần P4 thường quy<br>(PMID 42160980)"]
+    F -->|"Không"| H["PO-FET:<br>Letrozole + hCG trigger<br>P4 từ ngày sau trigger"]
+    E --> I{"P4 ngày ET <10 μg/L?"}
+    I -->|"Có"| J["THÊM dydrogesterone uống<br>20-30 mg/ngày<br>(PMID 42119546)"]
+    I -->|"Không"| K["Duy trì P4 đến 8-10 tuần"]
+    J --> K
+    style A fill:#e3f2fd,stroke:#1976d2
+    style E fill:#c8e6c9,stroke:#388e3c
+    style D fill:#fff3cd,stroke:#f57c00
+    style J fill:#fce4ec,stroke:#c2185b</div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.3. Cá Thể Hóa Theo Patient Profile</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Yếu tố bệnh nhân</th><th class="p-2 border whitespace-nowrap">Khuyến cáo LPS</th><th class="p-2 border whitespace-nowrap">Cơ sở</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>BMI ≥30</strong></td><td class="p-2 border">Cân nhắc tăng liều P4 (phân bố mô mỡ)</td><td class="p-2 border">PK data hạn chế</td></tr><tr class=""><td class="p-2 border"><strong>Tuổi ≥38</strong></td><td class="p-2 border">Standard LPS — không cần tăng liều</td><td class="p-2 border">Tuổi không ảnh hưởng PK P4</td></tr><tr class=""><td class="p-2 border"><strong>PCOS</strong></td><td class="p-2 border">Vaginal P4 đơn thuần + theo dõi OHSS</td><td class="p-2 border">Nguy cơ OHSS cao</td></tr><tr class=""><td class="p-2 border"><strong>Hypothalamic amenorrhea</strong></td><td class="p-2 border"><strong>BẮT BUỘC hCG-based LPS</strong> (PMID 41715131)</td><td class="p-2 border">Không có endogenous LH → CL không được duy trì</td></tr><tr class=""><td class="p-2 border"><strong>Endometriosis/Adenomyosis</strong></td><td class="p-2 border">Cân nhắc GnRHa depot pretreatment + standard LPS</td><td class="p-2 border">PR expression bất thường</td></tr><tr class=""><td class="p-2 border"><strong>RIF (≥3 lần thất bại)</strong></td><td class="p-2 border">VP + SCGnRH-a + E2</td><td class="p-2 border">Kastora 2024: combinatorial tối ưu</td></tr><tr class=""><td class="p-2 border"><strong>Tiền sử OHSS</strong></td><td class="p-2 border">Vaginal P4 đơn thuần, TRÁNH hCG LPS</td><td class="p-2 border">HCG làm nặng OHSS</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">8. MONITORING VÀ ĐIỀU CHỈNH LPS</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">8.1. Serum Progesterone Thresholds</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Ngưỡng P4 huyết thanh</th><th class="p-2 border whitespace-nowrap">Ý nghĩa</th><th class="p-2 border whitespace-nowrap">Hành động</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>>30 nmol/L (~9.4 ng/mL)</strong></td><td class="p-2 border">Đủ — duy trì protocol hiện tại</td><td class="p-2 border">Tiếp tục</td></tr><tr class=""><td class="p-2 border"><strong>20-30 nmol/L (6.3-9.4 ng/mL)</strong></td><td class="p-2 border">Ranh giới — cân nhắc tăng</td><td class="p-2 border">Thêm dydrogesterone uống hoặc tăng liều vaginal P4</td></tr><tr class=""><td class="p-2 border"><strong><20 nmol/L (<6.3 ng/mL)</strong></td><td class="p-2 border">KHÔNG ĐỦ — cần can thiệp</td><td class="p-2 border">Thêm SC/IM P4 + dydrogesterone</td></tr><tr class=""><td class="p-2 border"><strong><10 nmol/L (<3.1 ng/mL)</strong></td><td class="p-2 border">NGUY CƠ SẨY THAI CAO</td><td class="p-2 border">Hủy chu kỳ? (tranh cãi)</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Thomsen LH et al. (2018, Hum Reprod, PMID 29048467):</strong> P4 <30 nmol/L (~9.4 ng/mL) vào ngày ET giảm LB.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">8.2. Khi Nào Đo P4?</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Fresh cycle:</strong> ngày ET (day 3 hoặc 5) — không bắt buộc thường quy, chỉ đo nếu nghi ngờ</li>
+<li><strong>AC-FET:</strong> ngày bắt đầu P4 + ngày ET</li>
+<li><strong>NC-FET/mNC-FET:</strong> ngày ET (PMID 42119546: 18% có P4 thấp)</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">8.3. Rescue Protocol Khi P4 Thấp</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>P4 ngày ET <10 μg/L:
+  → Thêm dydrogesterone 20-30 mg/ngày uống (PMID 42119546)
+  → HOẶC thêm SC progesterone 25 mg/ngày
+  → HOẶC tăng vaginal P4 lên 600-800 mg/ngày
+  → Kiểm tra lại P4 sau 48-72 giờ
+  → Nếu vẫn thấp: hủy fresh ET, freeze-all, FET sau</code></pre>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">9. LPS TRONG CÁC TÌNH HUỐNG ĐẶC BIỆT</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">9.1. High Responders / OHSS Risk</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Tránh hCG-based LPS tuyệt đối</strong></li>
+<li>Vaginal P4 đơn thuần hoặc dydrogesterone oral</li>
+<li>Cân nhắc GnRHa trigger + freeze-all</li>
+<li>Theo dõi OHSS: bụng chướng, đau, khó thở, tăng cân nhanh</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">9.2. Poor Responders / Low Ovarian Reserve</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Standard LPS — <strong>không giảm liều</strong></li>
+<li>Poor responders có ít nang → ít steroid → luteal deficiency <strong>nặng hơn</strong></li>
+<li>Cân nhắc dual trigger để tăng luteal support nội sinh</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">9.3. Hypothalamic Hypogonadotropic Hypogonadism</h3>
+<p class="text-stone-700 mb-3"><strong>PMID 41715131 (2026, Reprod Biol Endocrinol) [DIRECTION ONLY]:</strong> Ở phụ nữ vô kinh vùng dưới đồi (bẩm sinh hoặc FHA):</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Không dùng được GnRH agonist trigger</strong> (không có endogenous LH pool)</li>
+<li><strong>LPS BẮT BUỘC bằng hCG</strong> — vì không có endogenous LH từ tuyến yên → CL không được duy trì</li>
+<li>Protocol: hCG 1.500-2.500 IU × 2-3 liều trong pha hoàng thể + vaginal P4</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">9.4. Endometriosis / Adenomyosis</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>PR expression bất thường ở nội mạc lạc chỗ và cơ tử cung</li>
+<li>Cân nhắc <strong>GnRHa depot pretreatment</strong> (2-3 tháng) trước ET</li>
+<li>Standard LPS với vaginal P4 — chưa có evidence cho thấy cần LPS đặc biệt</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">10. BIẾN CHỨNG & QUẢN LÝ TÁC DỤNG PHỤ</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Biến chứng</th><th class="p-2 border whitespace-nowrap">Tần suất</th><th class="p-2 border whitespace-nowrap">Nguyên nhân</th><th class="p-2 border whitespace-nowrap">Quản lý</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Vaginal discharge</strong></td><td class="p-2 border">Rất thường gặp (50-80%)</td><td class="p-2 border">Tá dược của viên đặt/gel</td><td class="p-2 border">Trấn an. Gel ít discharge hơn tablet. Chuyển sang oral DYD nếu nặng</td></tr><tr class=""><td class="p-2 border"><strong>Vaginal irritation</strong></td><td class="p-2 border">10-20%</td><td class="p-2 border">Ma sát, dị ứng thành phần</td><td class="p-2 border">Đổi chế phẩm (gel ↔ tablet). Giảm tần suất đặt</td></tr><tr class=""><td class="p-2 border"><strong>Đau/áp xe tại chỗ tiêm (IM)</strong></td><td class="p-2 border">5-15%</td><td class="p-2 border">Dầu, thể tích lớn, kỹ thuật tiêm</td><td class="p-2 border">Chuyển sang SC hoặc vaginal. Chườm ấm, massage</td></tr><tr class=""><td class="p-2 border"><strong>Phản ứng SC (nốt, đỏ)</strong></td><td class="p-2 border">10-20%</td><td class="p-2 border">Progesterone kết tinh dưới da</td><td class="p-2 border">Xoay vị trí tiêm. Đổi sang route khác</td></tr><tr class=""><td class="p-2 border"><strong>Buồn ngủ, chóng mặt (oral micronized)</strong></td><td class="p-2 border">30-50%</td><td class="p-2 border">Allopregnanolone — chất chuyển hóa GABAergic</td><td class="p-2 border"><strong>Không dùng oral micronized P4 cho LPS.</strong> Chuyển sang DYD</td></tr><tr class=""><td class="p-2 border"><strong>Headache</strong></td><td class="p-2 border"><1-50% tùy chế phẩm</td><td class="p-2 border">Thay đổi steroid, giữ nước</td><td class="p-2 border">PMID 41877001: migraine → tăng OHSS risk. Paracetamol an toàn</td></tr><tr class=""><td class="p-2 border"><strong>Tăng men gan</strong></td><td class="p-2 border">Hiếm (<1%)</td><td class="p-2 border">Oral DYD hoặc E2 oral</td><td class="p-2 border">Theo dõi LFTs. Đổi route</td></tr><tr class=""><td class="p-2 border"><strong>Ứ mật thai kỳ (ICP)</strong></td><td class="p-2 border">5.17% với E2 vaginal</td><td class="p-2 border">Estrogen gây ứ mật</td><td class="p-2 border"><strong>PMID 42266463:</strong> KHÔNG dùng E2 thường quy!</td></tr><tr class=""><td class="p-2 border"><strong>OHSS (hCG-based LPS)</strong></td><td class="p-2 border">2-5%</td><td class="p-2 border">hCG kích thích VEGF → tăng thấm mạch</td><td class="p-2 border">Tránh hCG ở high responders. Điều trị OHSS theo guideline</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">11. TRANH CÃI & HƯỚNG TƯƠNG LAI</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">11.1. Có Cần LPS Không Trong Một Số Trường Hợp?</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>mNC-FET:</strong> Meta-analysis 2026 (PMID 42160980) nói KHÔNG cần</li>
+<li><strong>tNC-FET ovulation rõ:</strong> Một số study cho thấy có thể không cần</li>
+<li><strong>Xu hướng:</strong> de-escalation — giảm LPS khi có bằng chứng</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">11.2. Progesterone-Free LPS?</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Kol S & Humaidan P (2021): Luteal coasting bằng GnRHa intranasal</li>
+<li>IM hCG đơn thuần — hiệu quả cao (Kastora 2024: LB OR 9.67) nhưng tăng OHSS</li>
+<li><strong>Chưa sẵn sàng cho thực hành thường quy</strong></li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">11.3. Hướng Tương Lai</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Cá thể hóa P4 dosing</strong> dựa trên PK modeling (nồng độ huyết thanh + BMI + route)</li>
+<li><strong>Long-acting P4 formulations:</strong> PVR weekly, P4 implant 3 tháng</li>
+<li><strong>AI-guided LPS timing:</strong> dựa trên endometrial receptivity array (ERA) + P4 monitoring</li>
+<li><strong>Oral P4 cải tiến:</strong> dạng nano-particle, tăng sinh khả dụng</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">12. LƯU ĐỒ TỔNG QUÁT — CHỌN PROTOCOL LPS</h2>
+<div class="mermaid text-center my-6">flowchart TD
+    A["Bắt đầu chu kỳ ART"] --> B{"Fresh cycle<br>hay FET?"}
+    B -->|"Fresh"| C{"Trigger?"}
+    C -->|"hCG"| D["Vaginal P4 200mg × 2/ngày<br>± SC GnRHa 0.1mg<br>(Kastora 2024)"]
+    C -->|"GnRHa"| E{"Nguy cơ OHSS?"}
+    E -->|"Cao"| F["Freeze-all"]
+    E -->|"Thấp-TB"| G["Modified LPS<br>hCG rescue + P4 + E2"]
+    B -->|"FET"| H{"Rụng trứng đều?"}
+    H -->|"Có"| I["tNC-FET: P4 ngày ET<br>(PMID 42316342)"]
+    H -->|"Không"| J["AC-FET: E2 + P4<br>(theo dõi sát miscarriage)"]
+    I --> K{"P4 ET <10 μg/L?"}
+    K -->|"Có"| L["+ Dydrogesterone uống<br>(PMID 42119546)"]
+    K -->|"Không"| M["Duy trì đến 8-10w"]
+    D --> M
+    G --> M
+    L --> M
+    F --> N["FET protocol (quay lại FET)"]
+    style A fill:#e3f2fd,stroke:#1976d2
+    style M fill:#c8e6c9,stroke:#388e3c
+    style F fill:#fff3cd,stroke:#f57c00
+    style J fill:#fce4ec,stroke:#c2185b</div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">13. SAI LẦM THƯỜNG GẶP</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">#</th><th class="p-2 border whitespace-nowrap">Sai lầm</th><th class="p-2 border whitespace-nowrap">Hậu quả</th><th class="p-2 border whitespace-nowrap">Cách tránh</th></tr></thead><tbody><tr class=""><td class="p-2 border">1</td><td class="p-2 border"><strong>Dùng GnRHa trigger mà không có kế hoạch LPS</strong></td><td class="p-2 border">Luteal phase biến mất hoàn toàn → thất bại implantation → mất chu kỳ</td><td class="p-2 border">Luôn có LPS plan song song với trigger plan</td></tr><tr class=""><td class="p-2 border">2</td><td class="p-2 border"><strong>Dùng hCG LPS cho high responders</strong></td><td class="p-2 border">OHSS nặng, nhập viện, tràn dịch màng phổi</td><td class="p-2 border">Vaginal P4 đơn thuần cho high responders</td></tr><tr class=""><td class="p-2 border">3</td><td class="p-2 border"><strong>Ngưng LPS quá sớm (<8 tuần)</strong></td><td class="p-2 border">Sẩy thai do luteal-placental shift chưa hoàn tất</td><td class="p-2 border">Duy trì LPS đến 8-10 tuần</td></tr><tr class=""><td class="p-2 border">4</td><td class="p-2 border"><strong>Dùng AC-FET cho bệnh nhân rụng trứng đều</strong></td><td class="p-2 border">Tăng miscarriage, giảm live birth (PMID 42081915)</td><td class="p-2 border"><strong>tNC-FET là preferred cho bệnh nhân có ovulation</strong></td></tr><tr class=""><td class="p-2 border">5</td><td class="p-2 border"><strong>Bắt đầu P4 quá sớm trong NC-FET</strong></td><td class="p-2 border">Nội mạc advancement → lệch WOI → giảm LB 15%</td><td class="p-2 border">Bắt đầu P4 ngày ET (PMID 42316342)</td></tr><tr class=""><td class="p-2 border">6</td><td class="p-2 border"><strong>Bỏ qua P4 thấp ngày ET — không rescue</strong></td><td class="p-2 border">Giảm implantation và LB</td><td class="p-2 border">Đo P4 ngày ET. Nếu <10 μg/L → thêm dydrogesterone (PMID 42119546)</td></tr><tr class=""><td class="p-2 border">7</td><td class="p-2 border"><strong>Dùng oral micronized P4 cho LPS</strong></td><td class="p-2 border">Sinh khả dụng <5%, buồn ngủ nặng, hiệu quả kém</td><td class="p-2 border">Dùng vaginal P4 hoặc oral DYD — KHÔNG dùng oral micronized P4</td></tr><tr class=""><td class="p-2 border">8</td><td class="p-2 border"><strong>Thêm E2 vaginal thường quy cho mọi BN</strong></td><td class="p-2 border">Nguy cơ ICP 5.17% (PMID 42266463), không tăng live birth</td><td class="p-2 border">Chỉ thêm E2 khi nội mạc mỏng <8mm</td></tr><tr class=""><td class="p-2 border">9</td><td class="p-2 border"><strong>Không cá thể hóa LPS theo trigger type</strong></td><td class="p-2 border">Under-treatment (GnRHa trigger) hoặc over-treatment (standard hCG trigger)</td><td class="p-2 border">Algorithm theo trigger + OHSS risk (Section 7)</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">14. ÁP DỤNG TẠI VIỆT NAM</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">14.1. Thuốc Sẵn Có và Chi Phí</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thuốc</th><th class="p-2 border whitespace-nowrap">Tên thương mại tại VN</th><th class="p-2 border whitespace-nowrap">Giá tham khảo (VNĐ/tháng)</th><th class="p-2 border whitespace-nowrap">BHYT</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Vaginal P4 200mg</strong></td><td class="p-2 border">Utrogestan®, Cyclogest®</td><td class="p-2 border">800.000-1.500.000</td><td class="p-2 border">Không</td></tr><tr class=""><td class="p-2 border"><strong>Vaginal gel 90mg</strong></td><td class="p-2 border">Crinone® 8%</td><td class="p-2 border">4.000.000-6.000.000</td><td class="p-2 border">Không</td></tr><tr class=""><td class="p-2 border"><strong>Oral dydrogesterone 10mg</strong></td><td class="p-2 border">Duphaston®</td><td class="p-2 border">300.000-500.000</td><td class="p-2 border">Có (một phần)</td></tr><tr class=""><td class="p-2 border"><strong>SC progesterone 25mg</strong></td><td class="p-2 border">Prolutex®</td><td class="p-2 border">3.000.000-5.000.000</td><td class="p-2 border">Không</td></tr><tr class=""><td class="p-2 border"><strong>IM progesterone 50mg</strong></td><td class="p-2 border">Progesterone 50mg/mL</td><td class="p-2 border">500.000-1.000.000</td><td class="p-2 border">Có (một phần)</td></tr><tr class=""><td class="p-2 border"><strong>E2 valerate 2mg</strong></td><td class="p-2 border">Progynova®</td><td class="p-2 border">100.000-200.000</td><td class="p-2 border">Có</td></tr><tr class=""><td class="p-2 border"><strong>hCG 5.000 IU</strong></td><td class="p-2 border">Pregnyl®</td><td class="p-2 border">150.000-300.000</td><td class="p-2 border">Có</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">14.2. Thực Hành Tại Việt Nam</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Hầu hết trung tâm IVF lớn (Từ Dũ, Bưu điện, Hùng Vương, Hạnh Phúc...):</strong> Vaginal P4 viên là first-line (rẻ, dễ dùng)</li>
+<li><strong>Xu hướng chuyển dịch sang dydrogesterone uống:</strong> rẻ hơn Crinone®, dễ tuân thủ, BHYT chi trả một phần</li>
+<li><strong>Crinone® gel:</strong> ít dùng do chi phí cao, không BHYT</li>
+<li><strong>SC progesterone (Prolutex®):</strong> bắt đầu có mặt ở một số trung tâm tư nhân lớn</li>
+<li><strong>PVR (progesterone vaginal ring):</strong> chưa có mặt tại VN</li>
+<li><strong>mNC-FET/tNC-FET:</strong> đang dần thay thế AC-FET ở các trung tâm tiên tiến</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">14.3. Thách Thức Tại Việt Nam</h3>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Chi phí:</strong> Crinone® và Prolutex® quá đắt cho đa số bệnh nhân VN</li>
+<li><strong>Tuân thủ vaginal P4:</strong> bệnh nhân lo lắng discharge → ngưng thuốc → cần tư vấn kỹ</li>
+<li><strong>Monitoring P4 huyết thanh:</strong> không phải trung tâm nào cũng làm được nhanh</li>
+<li><strong>Kiến thức về tNC-FET/mNC-FET:</strong> còn hạn chế, nhiều nơi vẫn dùng AC-FET mặc định</li>
+<li><strong>BHYT:</strong> hầu hết thuốc LPS không được BHYT chi trả cho ART → bệnh nhân tự túc</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">15. TỔNG KẾT ĐIỂM CẦN NHỚ</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>LPS là BẮT BUỘC trong fresh cycle</strong> sau COS do luteal phase dysfunction gần 100%. Vaginal P4 là first-line (Cochrane 2015).</li>
+<li><strong>Oral dydrogesterone vượt trội MVP:</strong> ongoing pregnancy OR 1.32, live birth OR 1.28 (Griesinger 2020).</li>
+<li><strong>Combinatorial LPS (VP + SCGnRH-a) tối ưu cho fresh cycle:</strong> tăng CPR 28%, LB 76%, giảm miscarriage 46% (Kastora 2024).</li>
+<li><strong>AC-FET tăng miscarriage gấp 2 lần</strong> so với tNC-FET ở phôi euploid (PMID 42081915) → <strong>ưu tiên natural cycle FET</strong> khi có thể.</li>
+<li><strong>mNC-FET KHÔNG cần progesterone thường quy</strong> — meta 2026 (PMID 42160980).</li>
+<li><strong>Bắt đầu P4 ngày chuyển phôi (KHÔNG sớm hơn)</strong> trong NC-FET — tăng live birth (PMID 42316342).</li>
+<li><strong>P4 <10 μg/L ngày ET →"cứu" bằng dydrogesterone uống</strong> — kết quả tương đương P4 đủ (PMID 42119546).</li>
+<li><strong>Bổ sung E2 vaginal tăng ICP 5.17%</strong> — chỉ dùng khi nội mạc mỏng, không dùng thường quy (PMID 42266463).</li>
+<li><strong>Dydrogesterone + P4 có hiệu ứng cộng hợp PK</strong> — LB 67% khi cả hai đều cao (PMID 42226298).</li>
+<li><strong>Cá thể hóa LPS</strong> theo trigger type, OHSS risk, patient profile và loại chu kỳ (fresh vs FET).</li>
+<li><strong>Hypothalamic amenorrhea: BẮT BUỘC hCG LPS</strong> (PMID 41715131).</li>
+<li><strong>Giám sát P4 huyết thanh ngày ET</strong> — ngưỡng >30 nmol/L (~9.4 ng/mL) để tối ưu outcome.</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">16. TÀI LIỆU THAM KHẢO</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Guideline:</h3>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>ESHRE Guideline Group on Ovarian Stimulation (2019)</strong> — "ESHRE guideline: ovarian stimulation for IVF/ICSI." <em>Hum Reprod Open.</em> 2020:hoaa009. <strong>PMID: 32395637.</strong> [GUIDELINE VERIFIED]</li>
+<li><strong>ASRM Practice Committee (2024)</strong> — Practice Committee Opinion on Luteal Phase Support. [GUIDELINE VERIFIED]</li></ol>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Papers chính (đã có trong Bài 19):</h3>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Garg A, Zielinska AP, Yeung AC et al. (2024)</strong> "Luteal phase support in assisted reproductive technology." <em>Nat Rev Endocrinol.</em> 20(3):149-167. <strong>PMID: 38110672.</strong> [FULL VERIFIED]</li>
+<li><strong>Kastora SL et al. (2024)</strong> "Comparison of luteal support protocols in fresh IVF/ICSI cycles: a network meta-analysis." <em>Sci Rep.</em> 14(1):14492. <strong>PMID: 38914570.</strong> [FULL VERIFIED]</li>
+<li><strong>Balachandren N et al. (2025)</strong> "Comparison of Luteal Support Protocols in Frozen IVF/ICSI Cycles: A Network Meta-Analysis." <em>BJOG.</em> 132(9):1187-1201. <strong>PMID: 40313195.</strong> [FULL VERIFIED]</li>
+<li><strong>Griesinger G et al. (2020)</strong> "Dydrogesterone as an oral alternative to vaginal progesterone for IVF luteal phase support: A systematic review and individual participant data meta-analysis." <em>PLoS One.</em> 15(11):e0241044. <strong>PMID: 33147288.</strong> [FULL VERIFIED]</li>
+<li><strong>Kol S, Humaidan P (2021)</strong> "IVF and the exogenous progesterone-free luteal phase." <em>Curr Opin Obstet Gynecol.</em> 33(3):188-195. <strong>PMID: 33394734.</strong> [FULL VERIFIED]</li>
+<li><strong>Van der Linden M et al. (2015)</strong> "Luteal phase support for assisted reproduction cycles." <em>Cochrane Database Syst Rev.</em> (7):CD009154. <strong>PMID: 26148507.</strong> [ABSTRACT VERIFIED]</li>
+<li><strong>Doblinger J et al. (2016)</strong> "Subcutaneous Progesterone Is Effective and Safe for Luteal Phase Support in IVF." <em>PLoS One.</em> 11(3):e0151388. <strong>PMID: 26991890.</strong> [ABSTRACT VERIFIED]</li></ol>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">Papers MỚI (thêm vào chuyên đề 2026):</h3>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Stewart EA et al. (2026)</strong> "Effect of vaginal estrogen supplementation for luteal phase support in the GnRH antagonist protocol on pregnancy outcomes for IVF/ICSI cycles: a randomized controlled trial." <em>Hum Reprod Open.</em> <strong>PMID: 42266463.</strong> [ABSTRACT VERIFIED]</li>
+<li><strong>Zhang Y et al. (2026)</strong> "Is there an effect of the start day of luteal phase support on pregnancy outcomes in natural vitrified-warmed blastocyst transfer?" <em>BMC Pregnancy Childbirth.</em> <strong>PMID: 42316342.</strong> [ABSTRACT VERIFIED]</li>
+<li><strong>Chen L et al. (2026)</strong> "Reproductive Outcomes in Programmed Ovulatory versus Modified Natural Cycle FET: A Propensity Score-Matched Analysis." <em>Fertil Steril.</em> <strong>PMID: 42270032.</strong> [ABSTRACT VERIFIED]</li>
+<li><strong>Li X et al. (2026)</strong> "Pharmacodynamic interaction analysis of dydrogesterone, progesterone, and estradiol in combination-progestin HRT frozen embryo transfer: a prospective clinical cohort study." <em>Reprod Biol Endocrinol.</em> <strong>PMID: 42226298.</strong> [ABSTRACT VERIFIED]</li>
+<li><strong>Kim S et al. (2026)</strong> "Safety evaluation of a novel progesterone vaginal ring (PVR) for luteal phase support: SARA trial." <em>Drug Deliv Transl Res.</em> <strong>PMID: 42213348.</strong> [ABSTRACT VERIFIED]</li>
+<li><strong>Wang H et al. (2026)</strong> "Luteal phase progesterone support in modified natural cycle frozen embryo transfer: a systematic review and meta-analysis." <em>Reprod Biomed Online.</em> <strong>PMID: 42160980.</strong> [ABSTRACT VERIFIED]</li>
+<li><strong>Liu J et al. (2026)</strong> "Can oral dydrogesterone mitigate adverse outcomes with low progesterone on transfer day in natural-cycle frozen embryo transfer?" <em>Reprod Biomed Online.</em> <strong>PMID: 42119546.</strong> [ABSTRACT VERIFIED]</li>
+<li><strong>Rodriguez-Purata J et al. (2026)</strong> "The impact of endometrial preparation on pregnancy loss in vitrified-warmed euploid blastocyst transfer cycles: a randomized controlled trial." <em>Hum Reprod.</em> <strong>PMID: 42081915.</strong> [ABSTRACT VERIFIED]</li>
+<li><strong>Thomsen LH et al. (2018)</strong> "The impact of luteal serum progesterone levels on live birth rates-a prospective study of 602 IVF/ICSI cycles." <em>Hum Reprod.</em> 33(8):1506-1516. <strong>PMID: 29048467.</strong> [ABSTRACT VERIFIED]</li>
+<li><strong>Bellver J et al. (2026)</strong> "Management of infertility in women with hypothalamic hypogonadotropic hypogonadism: an expert opinion." <em>Reprod Biol Endocrinol.</em> <strong>PMID: 41715131.</strong> [DIRECTION ONLY]</li></ol>
+<hr class="my-6 border-stone-300">
+<p class="text-stone-700 mb-3"><strong>— Hết chuyên đề ngày 2026-06-29 —</strong></p>
+<p class="text-stone-700 mb-3"><strong>Bác sĩ:</strong> Ngọc Hưng 🍅 🐈‍⬛ | <strong>AI:</strong> opencode deepseek-v4-pro</p>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bác sĩ: Ngọc 🍅 🐈‍⬛ | AI: MiniMax Mavis | 2026-06-29</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+</script>
+</body>
+</html>

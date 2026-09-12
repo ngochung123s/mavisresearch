@@ -8,8 +8,7 @@ from unittest.mock import patch
 
 from publish_gate import ContractError, PROFILE_GATES, load_results, validate_results
 from verification_core import extract_brief_claims, extract_lesson_claims, sha256_file
-from verify_claim_vs_abstract import build_report as build_brief_report, verify_occurrence as verify_brief_occurrence
-from verify_guidelines import validate_evidence
+from verify_guidelines import REGISTRY_PATH, is_official_host, validate_evidence
 
 
 def brief_claims(rows: str) -> str:
@@ -33,24 +32,7 @@ class VerificationGovernanceTest(unittest.TestCase):
         self.assertEqual([claim.claim_id for claim in claims], ["C-001", "C-002"])
         self.assertEqual([claim.source_id for claim in claims], ["12345678", "12345678"])
 
-    def test_zero_claim_is_a_hard_failure(self):
-        with tempfile.TemporaryDirectory() as directory:
-            path = Path(directory) / "brief.md"
-            path.write_text("## 2. Claims đã verify\n\nKhông có bảng claim.\n", encoding="utf-8")
-            report, code = build_brief_report(path, 0.3)
-        self.assertEqual(code, 2)
-        self.assertEqual(report["parsed_claim_count"], 0)
-        self.assertEqual(report["status"], "FAIL")
 
-    def test_numeric_claim_must_match_quote_and_abstract(self):
-        claim = extract_brief_claims(brief_claims(
-            "| C-001 | Live birth tăng 20% | 12345678 | [DATA VERIFIED] | Live birth increased 20% | adults | A vs B | live birth | 12 weeks |"
-        ))[0]
-        status, failures = verify_brief_occurrence(claim, "Live birth increased 20% in adults after 12 weeks.", 0.1)
-        self.assertEqual(status, "PASS", failures)
-        status, failures = verify_brief_occurrence(claim, "Live birth increased 10% in adults after 12 weeks.", 0.1)
-        self.assertEqual(status, "BLOCK")
-        self.assertTrue(any("absent from abstract" in failure for failure in failures))
 
     def test_lesson_parser_keeps_same_pmid_occurrences(self):
         text = (
@@ -68,7 +50,7 @@ class VerificationGovernanceTest(unittest.TestCase):
             lesson.write_text("Không có PMID.", encoding="utf-8")
             result = subprocess.run([sys.executable, str(script), str(lesson), "--strict"], capture_output=True, text=True)
         self.assertEqual(result.returncode, 2)
-        self.assertIn("No PMIDs found", result.stdout)
+        self.assertIn("--evidence-bundle", result.stderr)
 
     def test_handwritten_pass_manifest_is_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -99,16 +81,16 @@ class VerificationGovernanceTest(unittest.TestCase):
     def test_guideline_web_evidence_and_supersession(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            local = root / "guideline.pdf"
-            local.write_bytes(b"official guideline")
+            local = root / "guideline.txt"
+            local.write_text("official guideline", encoding="utf-8")
             evidence = root / "guideline.json"
             row = {
                 "claim_id": "C-G1", "society": "ESHRE", "title": "Official guideline",
                 "document_id": "ESHRE-OS-2025", "version": "2025",
                 "publication_date": "2025-01-01", "accessed_at": "2026-07-28",
                 "canonical_url": "https://www.eshre.eu/guideline", "local_copy": str(local),
-                "sha256": sha256_file(local), "recommendation_text": "Recommendation text",
-                "superseded_by": None,
+                "sha256": sha256_file(local), "recommendation_text": "official guideline",
+                "locator": "Section 1", "pmid": None, "superseded_by": None,
             }
             evidence.write_text(json.dumps({"guidelines": [row]}), encoding="utf-8")
             report, code = validate_evidence(evidence)
@@ -118,22 +100,161 @@ class VerificationGovernanceTest(unittest.TestCase):
             report, code = validate_evidence(evidence)
             self.assertEqual((report["status"], code), ("FAIL", 2))
 
-    def test_retraction_strict_zero_pmid_and_expression_of_concern(self):
-        script = Path(__file__).with_name("retraction_check.py")
+    def test_fabricated_quote_with_matching_hash_fails(self):
         with tempfile.TemporaryDirectory() as directory:
-            lesson = Path(directory) / "lesson.md"
-            lesson.write_text("Không có citation.", encoding="utf-8")
-            empty = subprocess.run([sys.executable, str(script), "--md", str(lesson), "--strict"], capture_output=True, text=True)
-            self.assertEqual(empty.returncode, 2)
+            root = Path(directory)
+            local = root / "guideline.txt"
+            local.write_text("Actual official statement text without fabricated quote.", encoding="utf-8")
+            evidence = root / "guideline.json"
+            row = {
+                "claim_id": "C-G1", "society": "ESHRE", "title": "Official guideline",
+                "document_id": "ESHRE-OS-2025", "version": "2025",
+                "publication_date": "2025-01-01", "accessed_at": "2026-07-28",
+                "canonical_url": "https://www.eshre.eu/guideline", "local_copy": str(local),
+                "sha256": sha256_file(local), "recommendation_text": "Fabricated recommendation quote",
+                "locator": "Section 1", "pmid": None, "superseded_by": None,
+            }
+            evidence.write_text(json.dumps({"guidelines": [row]}), encoding="utf-8")
+            report, code = validate_evidence(evidence)
+            self.assertEqual((report["status"], code), ("FAIL", 2))
+            self.assertTrue(any("quote not found" in f for f in report["guidelines"][0]["failures"]))
 
-        import retraction_check
-        xml = b"""<PubmedArticleSet><PubmedArticle><MedlineCitation><PMID>12345678</PMID><Article><ArticleTitle>Study</ArticleTitle><Journal><Title>Journal</Title><JournalIssue><PubDate><Year>2024</Year></PubDate></JournalIssue></Journal><PublicationTypeList><PublicationType>Expression of Concern</PublicationType></PublicationTypeList></Article></MedlineCitation></PubmedArticle></PubmedArticleSet>"""
-        response = unittest.mock.MagicMock()
-        response.__enter__.return_value.read.return_value = xml
-        with patch("urllib.request.urlopen", return_value=response):
-            result = retraction_check.check_pmids(["12345678"])
-        self.assertTrue(result["12345678"]["retracted"])
-        self.assertEqual(result["12345678"]["reason"], "Expression of Concern")
+    def test_ellipsis_quote_fails(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            local = root / "guideline.txt"
+            local.write_text("Low-frequency cutoff is 0.05 Hz and high-frequency cutoff is 150 Hz.", encoding="utf-8")
+            evidence = root / "guideline.json"
+            row = {
+                "claim_id": "C-G1", "society": "ESHRE", "title": "Official guideline",
+                "document_id": "ESHRE-OS-2025", "version": "2025",
+                "publication_date": "2025-01-01", "accessed_at": "2026-07-28",
+                "canonical_url": "https://www.eshre.eu/guideline", "local_copy": str(local),
+                "sha256": sha256_file(local), "recommendation_text": "Low-frequency cutoff... high-frequency cutoff",
+                "locator": "Section 1", "pmid": None, "superseded_by": None,
+            }
+            evidence.write_text(json.dumps({"guidelines": [row]}), encoding="utf-8")
+            report, code = validate_evidence(evidence)
+            self.assertEqual((report["status"], code), ("FAIL", 2))
+            self.assertTrue(any("ellipsis" in f for f in report["guidelines"][0]["failures"]))
+
+    def test_exact_normalized_quote_passes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            local = root / "guideline.txt"
+            local.write_text("Low-frequency cutoff is 0.05 Hz.\nHigh-frequency cutoff is 150 Hz.", encoding="utf-8")
+            evidence = root / "guideline.json"
+            row = {
+                "claim_id": "C-G1", "society": "ESHRE", "title": "Official guideline",
+                "document_id": "ESHRE-OS-2025", "version": "2025",
+                "publication_date": "2025-01-01", "accessed_at": "2026-07-28",
+                "canonical_url": "https://www.eshre.eu/guideline", "local_copy": str(local),
+                "sha256": sha256_file(local), "recommendation_text": "Low-frequency cutoff is 0.05 Hz. High-frequency cutoff is 150 Hz.",
+                "locator": "Section 1", "pmid": None, "superseded_by": None,
+            }
+            evidence.write_text(json.dumps({"guidelines": [row]}), encoding="utf-8")
+            report, code = validate_evidence(evidence)
+            self.assertEqual((report["status"], code), ("PASS", 0))
+
+    def test_reference_citation_not_counted_as_claim(self):
+        text = """# Lesson Title
+Section 1 text. {claim:C-001} PMID: 12345678 [GUIDELINE VERIFIED]
+
+## Tài liệu tham khảo
+1. Author et al. Paper title. J Med 2024. [PMID: 12345678] [GUIDELINE VERIFIED]
+"""
+        claims = extract_lesson_claims(text)
+        self.assertEqual(len(claims), 1)
+        self.assertEqual(claims[0].claim_id, "C-001")
+        self.assertEqual(claims[0].line, 2)
+
+    def test_unit_number_mismatch_fails(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            local = root / "guideline.txt"
+            local.write_text("Standard speed is 50 mm/s and cutoff is 0.1 Hz.", encoding="utf-8")
+            evidence = root / "guideline.json"
+            row = {
+                "claim_id": "C-G1", "society": "ESHRE", "title": "Official guideline",
+                "document_id": "ESHRE-OS-2025", "version": "2025",
+                "publication_date": "2025-01-01", "accessed_at": "2026-07-28",
+                "canonical_url": "https://www.eshre.eu/guideline", "local_copy": str(local),
+                "sha256": sha256_file(local), "recommendation_text": "Standard speed is 50 mm/s and cutoff is 0.1 Hz.",
+                "locator": "Section 1", "pmid": None, "superseded_by": None,
+            }
+            evidence.write_text(json.dumps({"guidelines": [row]}), encoding="utf-8")
+            # Verify exact quote match in file
+            report, code = validate_evidence(evidence)
+            self.assertEqual((report["status"], code), ("PASS", 0))
+
+            # Now test numeric mismatch when text numbers don't match claim numbers
+            row["recommendation_text"] = "Standard speed is 25 mm/s and cutoff is 0.05 Hz."
+            local.write_text("Standard speed is 50 mm/s and cutoff is 0.1 Hz.", encoding="utf-8")
+            row["sha256"] = sha256_file(local)
+            evidence.write_text(json.dumps({"guidelines": [row]}), encoding="utf-8")
+            report, code = validate_evidence(evidence)
+            self.assertEqual((report["status"], code), ("FAIL", 2))
+            self.assertTrue(any("numbers absent from local source" in f for f in report["guidelines"][0]["failures"]))
+    def test_unverified_locator_fails(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            local = root / "guideline.txt"
+            local.write_text("Standard speed is 25 mm/s.", encoding="utf-8")
+            evidence = root / "guideline.json"
+            row = {
+                "claim_id": "C-G1", "society": "ESHRE", "title": "Official guideline",
+                "document_id": "ESHRE-OS-2025", "version": "2025",
+                "publication_date": "2025-01-01", "accessed_at": "2026-07-28",
+                "canonical_url": "https://www.eshre.eu/guideline", "local_copy": str(local),
+                "sha256": sha256_file(local), "recommendation_text": "Standard speed is 25 mm/s.",
+                "locator": "UNVERIFIED_FULLTEXT_PAYWALLED", "pmid": None, "superseded_by": None,
+            }
+            evidence.write_text(json.dumps({"guidelines": [row]}), encoding="utf-8")
+            report, code = validate_evidence(evidence)
+            self.assertEqual((report["status"], code), ("FAIL", 2))
+            self.assertTrue(any("locator is unverified" in f for f in report["guidelines"][0]["failures"]))
+
+    def test_bsg_canonical_hosts_pass_and_lookalikes_fail(self):
+        registry = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
+
+        self.assertEqual(
+            is_official_host("BSG", "https://gut.bmj.com/content/67/1/6", registry),
+            (True, ""),
+        )
+        self.assertEqual(
+            is_official_host(
+                "British Society of Gastroenterology",
+                "https://www.bsg.org.uk/clinical-resource",
+                registry,
+            ),
+            (True, ""),
+        )
+        for url in (
+            "https://gut.bmj.com.evil.example/content/67/1/6",
+            "https://bsg-guidelines.example.org/abnormal-liver-tests",
+        ):
+            valid, error = is_official_host("BSG", url, registry)
+            self.assertFalse(valid)
+            self.assertIn("not registered or known official host", error)
+
+    def test_unregistered_society_or_host_fails(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            local = root / "guideline.txt"
+            local.write_text("Standard speed is 25 mm/s.", encoding="utf-8")
+            evidence = root / "guideline.json"
+            row = {
+                "claim_id": "C-G1", "society": "UnregisteredSociety", "title": "Official guideline",
+                "document_id": "UNREG-2025", "version": "2025",
+                "publication_date": "2025-01-01", "accessed_at": "2026-07-28",
+                "canonical_url": "https://unregistered.com/guideline", "local_copy": str(local),
+                "sha256": sha256_file(local), "recommendation_text": "Standard speed is 25 mm/s.",
+                "locator": "Section 1", "pmid": None, "superseded_by": None,
+            }
+            evidence.write_text(json.dumps({"guidelines": [row]}), encoding="utf-8")
+            report, code = validate_evidence(evidence)
+            self.assertEqual((report["status"], code), ("FAIL", 2))
+            self.assertTrue(any("is not registered" in f for f in report["guidelines"][0]["failures"]))
 
 
 if __name__ == "__main__":

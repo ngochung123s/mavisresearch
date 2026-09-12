@@ -1,0 +1,97 @@
+{
+  "deck_name": "PGT-A - Sàng lọc di truyền tiền làm tổ (Aneuploidy) - 2026-06-25",
+  "cards": [
+    {
+      "front": "PGT-A là gì và khác gì với PGT-M, PGT-SR?",
+      "back": "**PGT-A** (Aneuploidy): sàng lọc bất thường số lượng NST (24 NST) trên phôi blastocyst, dùng NGS hoặc aCGH. Trước đây gọi là PGS.\n\n**PGT-M** (Monogenic): chẩn đoán bệnh đơn gen (Huntington, BRCA1, thalassemia), dùng PCR + STR linkage + WGA. Trước đây gọi là PGD.\n\n**PGT-SR** (Structural Rearrangements): phát hiện chuyển đoạn/đảo đoạn cân bằng ở cha/mẹ, dùng FISH hoặc NGS với probe đặc hiệu.\n\n**PMID 38762806** (ASRM 2024) + **PMID 37162432** (ASRM 2023 PGT-M)"
+    },
+    {
+      "front": "Tại sao PGT-A KHÔNG khuyến cáo thường quy cho mọi bệnh nhân IVF?",
+      "back": "Theo **ASRM 2024** (PMID 38762806):\n- \"The value of PGT-A as a routine screening test for **ALL patients** undergoing IVF has **NOT been demonstrated**\"\n- RCT đa trung tâm gần đây cho thấy kết quả thai kỳ qua FET **TƯƠNG ĐƯƠNG** giữa PGT-A và IVF thường quy\n- Giá trị giảm sẩy thai **cũng chưa rõ ràng**\n- **CLBR** (Cumulative Live Birth Rate) **không khác biệt** ở good prognosis\n\n→ Cá thể hóa theo chỉ định: AMA, RPL, RIF."
+    },
+    {
+      "front": "Các chỉ định CỤ THỂ của PGT-A có bằng chứng mạnh?",
+      "back": "**CÓ chỉ định (bằng chứng tốt):**\n1. **RPL ≥2 lần unexplained**: pregnancy loss OR 0.42 (95% CI 0.27-0.67); LBR per transfer OR 2.17 (1.77-2.65) — **PMID 39151684**\n2. **RIF ≥3 ET thất bại**: CLBR OR 4.23 (95% CI 2.14-8.38); SET OR 2.79 (1.90-4.10) — **PMID 41738632**\n3. **AMA ≥35-38**: cân nhắc (tăng euploid transfer, giảm miscarriage)\n\n**KHÔNG chỉ định:**\n- Good prognosis, ít phôi, **donor oocyte** (HR 0.89, 0.73-1.09) — **PMID 42252048**"
+    },
+    {
+      "front": "Cơ chế sai lệch NST trong noãn theo tuổi mẹ?",
+      "back": "**Non-disjunction ở meiosis I**: cặp NST homolog không tách → noãn giữ cả 2 NST (trisomy sau thụ tinh) hoặc không có NST (monosomy).\n\n**Nguyên nhân chính**: suy giảm **cohesin complex** theo tuổi mẹ. Cohesin giữ 2 chromatid chị-em dính vào nhau từ thai kỳ; ở tuổi sinh đẻ, cohesin đã \"hao mòn\" sau nhiều năm.\n\n**Trisomy 21**: 1/1.500 thai (25 tuổi) → 1/30 thai (45 tuổi) — tức tăng ~5-7 lần.\n\n**Mitotic error**: 1.5-6.3% mỗi phân bào trong phôi sớm (PMID 40746180) — gây mosaic."
+    },
+    {
+      "front": "Tại sao TE biopsy là chuẩn vàng thay vì PB biopsy hay cleavage-stage?",
+      "back": "Theo **ESHRE 2024 PGT-A** + **ASRM 2024**:\n\n1. **Lượng DNA nhiều hơn** (5-10 tế bào TE) so với PB (1 tế bào) hoặc blastomere (1 tế bào) → amplification thành công cao hơn\n2. **Không ảnh hưởng đến ICM** (lớp tế bào sẽ thành thai) → giảm lo ngại an toàn phôi so với cleavage-stage biopsy\n3. **Phát hiện được CẢ lỗi meiotic và mitotic** — trong khi PB biopsy chỉ phát hiện lỗi meiotic mẹ (PMID 41268069)\n\nPB biopsy + nanopore TGS vẫn là **lựa chọn thay thế**, không thay thế hoàn toàn."
+    },
+    {
+      "front": "Các platform chẩn đoán PGT-A: FISH vs aCGH vs NGS vs niPGT-A?",
+      "back": "| Platform | Độ phân giải | Trạng thái |\n|---|---|---|\n| **FISH** | 5-12 NST (chọn lọc) | **Lạc hậu** - bỏ sót aneuploidy |\n| **aCGH** | 24 NST (toàn bộ) | Ít dùng từ 2018 |\n| **NGS** | 24 NST + mosaic 20-80% | **TIÊU CHUẨN** hiện tại |\n| **nanopore TGS** | Tương đương NGS, nhanh hơn | Mới nổi - PMID 41268069 |\n| **niPGT-A** | Concordance SBM-TE 79.1% | Nghiên cứu - PMID 42074534 |\n\nNGS phát hiện được **mosaic** 20-80% - đây là bước tiến lớn so với aCGH."
+    },
+    {
+      "front": "Misdiagnosis với segmental aneuploidy: tỷ lệ và ý nghĩa?",
+      "back": "Meta-analysis 22 nghiên cứu (Jiang W et al., **PMID 41945151**, Arch Gynecol Obstet 2026):\n\n- Discordance TE-ICM/WB:\n  - **Euploid: 2.6%**\n  - **Aneuploid toàn phần: 9.2%**\n  - **Segmental: 17.4%**\n- **Segmental misdiagnosis OR 10.04 (95% CI 7.60-13.27, I²=0%, p<0.001)**\n\n**Ý nghĩa lâm sàng**: CẢNH BÁO bệnh nhân; **không vội bỏ** phôi segmental; confirm bằng POC (products of conception) nếu sẩy; cân nhắc re-biopsy."
+    },
+    {
+      "front": "Quản lý phôi MOSAIC theo ASRM 2023?",
+      "back": "**ASRM 2023 Committee Opinion** (PMID 37678731):\n\n| Mức độ mosaic | Khuyến cáo |\n|---|---|\n| **<20%** | Có thể chuyển - tương tự euploid |\n| **20-40%** | Cân nhắc - ưu tiên nếu không có euploid |\n| **40-50%** | Có thể chuyển với tư vấn chi tiết |\n| **≥50%** | KHÔNG ưu tiên - chỉ chuyển nếu không có lựa chọn |\n| **NST giới tính (X, Y)** | Có thể chuyển - tiên lượng tốt |\n\n**Nguyên tắc**: Ưu tiên chất lượng phôi + ngày biopsy (D5 > D6); tư vấn chi tiết; vẫn cần **CVS/amnio** sau khi có thai."
+    },
+    {
+      "front": "Tại sao donor oocyte KHÔNG cần PGT-A?",
+      "back": "**Bayefsky MJ et al. 2026** (Fertil Steril, **PMID 42252048**):\n- 629 bệnh nhân, 927 ETs (312 PGT-A, 317 no PGT-A)\n- Số ET để đạt live birth: **HR 0.89 (95% CI 0.73-1.09)** - **không khác biệt**\n- First ET LBR: **aOR 1.29 (95% CI 0.91-1.84)** - không khác biệt\n- Spontaneous abortion per patient: **aOR 1.08 (95% CI 0.52-2.27)**\n\n**Kết luận**: Bệnh nhân dùng noãn hiến có thể chuyển fresh dựa trên morphology mà không tốn chi phí PGT-A."
+    },
+    {
+      "front": "PGT-A có ảnh hưởng đến obstetric và neonatal outcomes không?",
+      "back": "**Hyttel CB et al. 2026** (Hum Reprod, **PMID 41966094**):\n- Meta-analysis 12 nghiên cứu, **56.113 live births** (17.254 PGT-A + 38.859 IVF/ICSI)\n- PGT-A **KHÔNG tăng** nguy cơ:\n  - Hypertensive disorders of pregnancy (HDP)\n  - Preterm delivery\n  - Abnormal placentation\n  - Low birth weight\n  - Very low birth weight\n  - Small for gestational age (SGA)\n\n→ PGT-A **an toàn** về obstetric/neonatal - trấn an bệnh nhân lo ngại."
+    },
+    {
+      "front": "SDF (sperm DNA fragmentation) cao có ảnh hưởng đến tỷ lệ euploidy phôi?",
+      "back": "**Wan B et al. 2025** (Eur J Med Res, **PMID 41254767**):\n- Meta-analysis 6 nghiên cứu, 1.516 ART cycles\n- **Ngưỡng 15% (SCSA)**: KHÔNG liên hệ - pooled OR 0.897 (95% CI 0.741-1.085, I²=0.0%)\n- **Ngưỡng 30% (DFI ≥30%)**: **giảm euploidy** - pooled OR **0.742 (95% CI 0.558-0.988, I²=62.2%)**\n\n**Kết luận**: SDF cao (≥30%) có ảnh hưởng threshold-dependent đến tỷ lệ euploidy phôi → cân nhắc PGT-A + điều trị nguyên nhân (antioxidant, varicocele, TESE)."
+    },
+    {
+      "front": "Tại sao phôi 'euploid' vẫn có thể mang mosaic? Mô hình mới?",
+      "back": "**Yang Q et al. 2025** (Genetics, **PMID 40746180**):\n- Mô hình mô phỏng + approximate Bayesian computation\n- Ước tính:\n  - **Meiotic error: 40-58%** mỗi meiosis\n  - **Mitotic error: 1.5-6.3%** mỗi mitosis\n  - **<1% blastocyst hoàn toàn euploid** ở cấp độ whole-embryo\n\n**Ý nghĩa**: Low-level mosaicism là **đặc điểm bình thường** của phôi người. Sinh thiết TE 5-10 tế bào có thể bỏ sót clone mosaic ở vùng khác. Giải thích tại sao mosaic low-level vẫn có tiên lượng tốt."
+    },
+    {
+      "front": "AI dự đoán ploidy phôi có thay thế được PGT-A không?",
+      "back": "**Xin X et al. 2024** (EClinicalMedicine, IF 15.1, **PMID 39513188**):\n- Meta-analysis 20 nghiên cứu, 12 trong MA, 6.879 phôi\n- **Pooled sensitivity 0.71 (95% CI 0.59-0.81)**\n- **Pooled specificity 0.75 (95% CI 0.69-0.80)**\n- **Pooled AUC 0.80 (95% CI 0.76-0.83)**\n\n**Kết luận**: AI hiện **CHƯA thay thế** được PGT-A nhưng là công cụ bổ trợ hữu ích khi bệnh nhân không thể hoặc không muốn làm PGT-A."
+    },
+    {
+      "front": "Polar body biopsy + nanopore TGS: ưu điểm và hạn chế?",
+      "back": "**Song D et al. 2025** (Hum Reprod Open, **PMID 41268069**):\n- 125 oocytes, 89 PB analyzed\n- Amplification success: PB1 97.75%, PB2 92.13%, PB1+PB2 97.22%\n- Concordance NGS-TGS: 96.81%\n- **Euploidy rate PB-based 55.4% vs TE-based 43.1%** - PB cho nhiều phôi 'euploid' hơn\n- AMA euploidy 40% vs <38 tuổi 64%\n\n**Hạn chế**: CHỈ phát hiện lỗi **meiotic mẹ** - không phát hiện mitotic hoặc lỗi từ cha. Vẫn là **lựa chọn thay thế**, không thay thế hoàn toàn TE biopsy."
+    },
+    {
+      "front": "niPGT-A (non-invasive) concordance với TE biopsy là bao nhiêu?",
+      "back": "**Navarro-Sánchez L et al. 2026** (Genes, **PMID 42074534**):\n- Multicenter: 716 bệnh nhân, 2.539 blastocysts (ClinicalTrials.gov: NCT03520933)\n- Concordance:\n  - **SBM vs TE: 79.1%** (range 74.1-82.1%)\n  - **SBM vs ICM: 87.0%**\n- Miscarriage rate khi SBM concordant-euploid: 13.0% vs SBM discordant-an euploid TE: 22.2%\n\n**Kết luận**: niPGT-A **CHƯA thay thế** được TE biopsy; chỉ dùng như công cụ bổ trợ hoặc prioritization khi bệnh nhân từ chối xâm lấn."
+    },
+    {
+      "front": "Machine learning cho mosaic embryo transfer: predictors quan trọng nhất?",
+      "back": "**Ortiz JA et al. 2026** (J Assist Reprod Genet, **PMID 42319719**):\n- 264 phôi mosaic đã chuyển từ 2.583 PGT-A cycles\n- Biochemical pregnancy: 50.75%\n- Clinical pregnancy: 41.66%\n- **Live birth: 36.36%**\n- ML predictors quan trọng:\n  - **Chất lượng phôi: 42%**\n  - **Ngày biopsy: 34%** (D5 tốt hơn D6)\n  - **Monosomy/trisomy: 18%**\n  - **Mức độ mosaic: 6%**\n\n→ Ưu tiên phôi chất lượng cao, biopsy D5, tránh monosomy."
+    },
+    {
+      "front": "Quy trình TE biopsy + NGS: các bước chính?",
+      "back": "**Quy trình chuẩn:**\n1. Phôi đạt blastocyst (≥3BB theo Gardner) ngày 5-6\n2. Laser hoặc mechanical hatching tạo lỗ trên zona pellucida (~20-30 µm)\n3. Hút **5-10 tế bào trophoblast** bằng pipette biopsy\n4. Ống nghiệm chứa tế bào → lab di truyền trong **24 giờ**\n5. **Whole Genome Amplification (WGA)** → NGS hoặc aCGH\n6. Phân tích CNV cho 24 NST\n7. Báo cáo trong **7-14 ngày**\n8. **Vitrify** tất cả phôi trong khi chờ kết quả → **FET** ở chu kỳ sau"
+    },
+    {
+      "front": "PGT-A chống chỉ định / không khuyến cáo: 7 trường hợp?",
+      "back": "1. **PGT-A thường quy cho mọi bệnh nhân** - PMID 38762806 (ASRM 2024)\n2. **PGT-A cho donor oocyte** - PMID 42252048 (Bayefsky 2026)\n3. **Cleavage-stage biopsy (D3)** thay vì TE - ESHRE 2024\n4. **FISH cho 5-9 NST** thay vì NGS 24 NST - lạc hậu\n5. **PGT-P (polygenic) thường quy** - PMID 41309413 (ASRM 2026 Ethics)\n6. **niPGT-A đơn thuần (bỏ TE)** - PMID 42074534 (concordance 79.1% chưa đủ)\n7. **Chuyển phôi aneuploid toàn phần** - chỉ khi không có lựa chọn khác"
+    },
+    {
+      "front": "Tại sao vẫn cần CVS/amnio sau khi làm PGT-A?",
+      "back": "**Lý do phải làm thêm sàng lọc thai kỳ:**\n\n1. **Misdiagnosis**: 2.6% (euploid), 9.2% (aneuploid), **17.4% (segmental)** - PMID 41945151\n2. **PGT-A chỉ sàng lọc số lượng NST** - KHÔNG phát hiện:\n   - Bệnh đơn gen (PGT-M riêng)\n   - Microdeletion/microduplication\n   - UPD (uniparental disomy) - trừ khi dùng SNP array\n3. **Mosaicism thấp** có thể bỏ qua trong sinh thiết 5-10 tế bào TE\n\n→ Tất cả bệnh nhân có thai sau PGT-A vẫn cần **combined first trimester screening** (11-13 tuần) và **CVS/amnio** nếu có chỉ định (PMID 38762806)."
+    },
+    {
+      "front": "Hiệu quả PGT-A theo nhóm bệnh nhân: so sánh?",
+      "back": "| Nhóm | Hiệu quả PGT-A | Khuyến cáo | PMID |\n|---|---|---|---|\n| **Good prognosis** | Không cải thiện CLBR | KHÔNG thường quy | 38762806 |\n| **AMA ≥35-38** | Tăng euploid transfer, giảm miscarriage | Cân nhắc | 41268069 |\n| **RPL ≥2 unexplained** | Pregnancy loss OR 0.42; LBR per transfer OR 2.17 | CÓ | 39151684 |\n| **RIF ≥3 ET thất bại** | CLBR OR 4.23; SET OR 2.79 | CÓ | 41738632 |\n| **Donor oocyte** | Không thay đổi (HR 0.89) | KHÔNG | 42252048 |\n| **SDF ≥30%** | Tăng aneuploidy | Cân nhắc + tư vấn SDF | 41254767 |\n| **Poor responder (≤3 phôi)** | Có thể mất cơ hội | KHÔNG | (extrapolation) |"
+    },
+    {
+      "front": "Hochberg 2025: Mối liên hệ giữa morphology blastocyst và euploidy?",
+      "back": "**Hochberg A et al. 2025** (Arch Gynecol Obstet, **PMID 39878851**):\n- 855 blastocysts, 38.86% euploid (321/826)\n- Higher expansion, embryo quality, TE và ICM grades → tăng odds của euploidy\n- **Higher expansion aOR 2.94 (95% CI 1.52-5.56, p=0.001)** for single vs double aneuploidy\n- **Higher ICM grade aOR 2.86 (95% CI 1.15-7.12, p=0.024)** for single vs complex aneuploidy\n- **KHÔNG** có morphological parameter nào phân biệt được single vs mosaic aneuploidy\n\n**Ý nghĩa**: Khi KHÔNG làm PGT-A, các parameter Gardner giúp chọn phôi tốt nhất có thể."
+    },
+    {
+      "front": "Listorti 2025: Time-lapse KIDscore và PGT-A?",
+      "back": "**Listorti I et al. 2025** (J Assist Reprod Genet, **PMID 39832027**):\n- 832 phôi time-lapse (≥1 putative mosaic)\n- Mosaic embryo chậm hơn euploid ở tPNF, t2, t4, t7, t8 nhưng nhanh hơn aneuploid\n- **Low-putative mosaic (<50%)** sớm hơn aneuploid ở tSC, tM, tSB, tB\n- **KIDscore™Day5 algorithm** phản ánh interplay giữa morphokinetic và chromosome content\n- Euploid blastocysts có clinical outcomes tốt nhất\n- **Segmental putative mosaic** tốt hơn **complex putative mosaic**\n\n→ KIDscore bổ trợ cho PGT-A, không thay thế."
+    },
+    {
+      "front": "ESHRE 2024 PGT-A: khuyến cáo chính?",
+      "back": "**ESHRE 2024 - PGT-A Guideline** (https://www.eshre.eu/Guidelines-and-Legal/Guidelines/PGT-A):\n\n- **TE biopsy + NGS** là chuẩn (thay thế FISH, aCGH)\n- **Khuyến cáo chọn lọc** (không thường quy) - tương tự ASRM 2024\n- Hướng dẫn chi tiết về **mosaic reporting**\n- Cân nhắc **PB biopsy** cho một số trường hợp (đặc biệt AMA)\n- **niPGT-A** đang được nghiên cứu, chưa thay thế TE\n- Tư vấn **chi tiết** cho bệnh nhân trước khi quyết định\n\nSo với ASRM 2024: nhấn mạnh **kỹ thuật TE biopsy** + **mosaic reporting** chi tiết hơn."
+    }
+  ]
+}

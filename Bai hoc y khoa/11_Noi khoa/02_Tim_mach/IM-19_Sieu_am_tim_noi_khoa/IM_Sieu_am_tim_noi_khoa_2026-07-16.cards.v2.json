@@ -1,0 +1,474 @@
+[
+  {
+    "type": "basic",
+    "front": "4 mode siêu âm tim cơ bản và ứng dụng chính?",
+    "back": "<b>4 mode:</b><br>• <b>2D</b>: cấu trúc — kích thước buồng tim, van<br>• <b>M-mode</b>: chuyển động theo thời gian — LVEDD, EF<br>• <b>Doppler</b> (CW/PW): vận tốc dòng máu — chênh áp van, PASP<br>• <b>TDI</b> (Tissue Doppler): vận tốc cơ tim — e', S', chức năng tâm trương",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "7 mặt cắt chuẩn TTE? Mỗi mặt cắt thấy gì?",
+    "back": "<b>7 mặt cắt:</b><br>• <b>PLAX</b>: VLT, TT, van 2 lá, van ĐMC, NT<br>• <b>PSAX</b>: mặt cắt ngang TT (hình tròn), van 2 lá (miệng cá)<br>• <b>A4C</b>: 4 buồng, van 2 lá + 3 lá — mặt cắt VÀNG<br>• <b>A2C</b>: NT + TT, thành dưới + trước<br>• <b>A3C</b>: NT, TT, LVOT, van ĐMC<br>• <b>Subcostal</b>: VLN (ASD), IVC, màng tim<br>• <b>Suprasternal</b>: quai ĐMC, eo ĐMC",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "LVEDD bình thường: nam {{c1::42-59}} mm, nữ {{c1::39-53}} mm. IVSd/LVPWd bình thường: {{c1::6-10}} mm. >{{c1::10}} mm = phì đại. LAVI bình thường ≤{{c1::34}} mL/m².",
+    "extra": "ASE/EACVI 2015. Lang RM et al. JASE 2015;28:1-39."
+  },
+  {
+    "type": "cloze",
+    "text": "Thất phải: RV basal diameter {{c1::25-41}} mm. TAPSE bình thường ≥{{c1::17}} mm. S' (TDI vòng van 3 lá) ≥{{c1::9.5}} cm/s.",
+    "extra": "ASE 2025 Right Heart Guideline."
+  },
+  {
+    "type": "basic",
+    "front": "LAVI bao nhiêu là bất thường? Ý nghĩa tiên lượng?",
+    "back": "<b>LAVI >34 mL/m² = bất thường.</b><br><br>LAVI tăng phản ánh tăng áp lực đổ đầy thất trái MẠN TÍNH. Tiên lượng: tăng nguy cơ rung nhĩ, suy tim, đột quỵ, tử vong tim mạch.<br><br>LAVI là 1 trong 4 tiêu chí chính trong thuật toán diastolic dysfunction.",
+    "extra": "ASE/EACVI 2015, 2016."
+  },
+  {
+    "type": "basic",
+    "front": "Phân loại EF — 4 mức?",
+    "back": "<b>Phân loại EF:</b><br>• <b>Bình thường</b>: ≥55% (nam), ≥54% (nữ)<br>• <b>Giảm nhẹ</b>: 50-54%<br>• <b>Giảm trung bình (HFmrEF)</b>: 40-49%<br>• <b>Giảm nặng (HFrEF)</b>: <40%<br><br>Simpson's biplane (A4C+A2C) là CHUẨN. M-mode (Teichholz) nhanh nhưng SAI nếu có RLVDV (sau NMCT).",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "EF = ({{c1::EDV}} - {{c1::ESV}}) / {{c1::EDV}} × 100%. Phương pháp chuẩn: {{c1::Simpson's biplane}} (A4C+A2C). HFrEF = EF <{{c1::40%}}. HFmrEF = EF {{c1::40-49%}}. HFpEF = EF ≥{{c1::50%}}.",
+    "extra": "GLS ≤-18% là bình thường. MAPSE ≥10 mm."
+  },
+  {
+    "type": "basic",
+    "front": "3 chỉ số chính đánh giá chức năng thất phải?",
+    "back": "<b>3 chỉ số:</b><br>• <b>TAPSE ≥17 mm</b> (M-mode vòng van 3 lá bên) — ĐƠN GIẢN NHẤT<br>• <b>S' ≥9.5 cm/s</b> (TDI vòng van 3 lá)<br>• <b>FAC ≥35%</b> (Fractional Area Change từ A4C RV-focused)<br><br><b>TAPSE <17 mm = rối loạn chức năng TP → tiên lượng xấu!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "4 tiêu chí chính đánh giá chức năng tâm trương (ASE 2016)?",
+    "back": "<b>4 tiêu chí (với EF ≥50%):</b><br>1. <b>E/e' trung bình >14</b> — QUAN TRỌNG NHẤT<br>2. <b>TR velocity >2.8 m/s</b> — tăng áp lực nhĩ trái<br>3. <b>LAVI >34 mL/m²</b> — tăng áp lực mạn tính<br>4. <b>e' septal <7 hoặc e' lateral <10 cm/s</b> — giãn chậm<br><br><b><2 TC (+): BT. 2 TC: không xác định. ≥3 TC (+): diastolic dysfunction.</b>",
+    "extra": "ASE/EACVI 2016. Nagueh SF et al. JASE 2016;29:277-314."
+  },
+  {
+    "type": "cloze",
+    "text": "Chỉ số QUAN TRỌNG NHẤT đánh giá áp lực đổ đầy thất trái: {{c1::E/e'}}. Bình thường <{{c1::8}}. Tăng áp lực đổ đầy khi >{{c1::14}}.",
+    "extra": "E = peak early diastolic mitral inflow. e' = early diastolic mitral annular velocity (TDI)."
+  },
+  {
+    "type": "basic",
+    "front": "Phân độ diastolic dysfunction — Grade I, II, III?",
+    "back": "<b>3 grade:</b><br>• <b>Grade I (Impaired relaxation)</b>: E/A <0.8, E/e' BT hoặc ↑ nhẹ. Giãn chậm, áp lực đổ đầy chưa tăng.<br>• <b>Grade II (Pseudonormal)</b>: E/A 1-2, E/e' >14. Áp lực đổ đầy tăng. DỄ BỎ SÓT!<br>• <b>Grade III (Restrictive)</b>: E/A >2, E/e' >14. Áp lực đổ đầy tăng nặng. Tiên lượng xấu.<br><br><b>Đừng chỉ nhìn E/A — luôn kiểm tra E/e' và LAVI!</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "MR nặng — 4 tiêu chuẩn?",
+    "back": "<b>ASE 2017 — MR NẶNG:</b><br>• <b>EROA ≥0.40 cm²</b><br>• <b>RVol ≥60 mL</b><br>• <b>VC ≥7 mm</b><br>• <b>RF ≥50%</b><br><br>Phân biệt cơ năng (van BT, vòng van giãn) vs thực thể (tổn thương lá van/dây chằng).",
+    "extra": "ASE 2017. Zoghbi WA et al. JASE 2017;30:303-371."
+  },
+  {
+    "type": "cloze",
+    "text": "MR nặng: EROA ≥{{c1::0.40}} cm², RVol ≥{{c1::60}} mL, VC ≥{{c1::7}} mm, RF ≥{{c1::50%}}.",
+    "extra": "ASE 2017 Native Valvular Regurgitation."
+  },
+  {
+    "type": "basic",
+    "front": "AS nặng — 3 tiêu chuẩn? Paradoxical low-flow low-gradient?",
+    "back": "<b>AS NẶNG:</b><br>• <b>AVA <1.0 cm²</b> (hoặc AVAi <0.6 cm²/m²)<br>• <b>MG ≥40 mmHg</b><br>• <b>Peak V ≥4.0 m/s</b><br><br><b>Paradoxical low-flow low-gradient:</b> AVA<1.0 + MG<40 + EF≥50% + SVi≤35 → CÓ THỂ là AS nặng! Cần stress echo hoặc CT calcium score.",
+    "extra": "ESC/EACTS 2021 Valvular Heart Disease."
+  },
+  {
+    "type": "cloze",
+    "text": "AS nặng: AVA <{{c1::1.0}} cm², MG ≥{{c1::40}} mmHg, Peak V ≥{{c1::4.0}} m/s. Có triệu chứng → {{c1::thay van}} (TAVI/phẫu thuật) — Class I.",
+    "extra": "ESC/EACTS 2021."
+  },
+  {
+    "type": "basic",
+    "front": "MS nặng — 3 tiêu chuẩn?",
+    "back": "<b>MS NẶNG:</b><br>• <b>MVA <1.0 cm²</b><br>• <b>PHT ≥220 ms</b><br>• <b>MG >10 mmHg</b><br><br>MS hầu như luôn do thấp tim. MVA giảm dần theo thời gian.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "AR nặng — 3 tiêu chuẩn?",
+    "back": "<b>AR NẶNG:</b><br>• <b>EROA ≥0.30 cm²</b><br>• <b>VC >6 mm</b><br>• <b>PHT <200 ms</b><br><br>AR nặng + LVEDD>65mm hoặc LVESD>50mm → chỉ định phẫu thuật dù chưa TC!",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Ngưỡng nặng: AS → AVA<{{c1::1.0}}, MG≥{{c1::40}}. MR → EROA≥{{c1::0.40}}, VC≥{{c1::7}}. MS → MVA<{{c1::1.0}}, PHT≥{{c1::220}}. AR → EROA≥{{c1::0.30}}, PHT<{{c1::200}}.",
+    "extra": "ASE 2017 + ESC/EACTS 2021."
+  },
+  {
+    "type": "cloze",
+    "text": "PASP = {{c1::4}} × (TR velocity)² + {{c1::RAP}}. RAP từ IVC: IVC ≤2.1 + xẹp>50% → {{c1::3}} mmHg. IVC >2.1 + xẹp<50% → {{c1::15}} mmHg. PASP BT ≤{{c1::35}} mmHg.",
+    "extra": "ASE Right Heart 2025."
+  },
+  {
+    "type": "basic",
+    "front": "4 dấu hiệu echo của chèn ép tim (tamponade)?",
+    "back": "<b>CẤP CỨU — 4 dấu hiệu:</b><br>1. <b>RA collapse</b> cuối tâm trương/đầu tâm thu — sớm và nhạy nhất<br>2. <b>RV collapse</b> đầu tâm trương<br>3. <b>Respiratory variation >25%</b> mitral inflow<br>4. <b>IVC giãn + không xẹp</b> (>2.1cm + <50% collapse)<br><br><b>Tamponade = chẩn đoán LÂM SÀNG. Echo hỗ trợ. Nghi ngờ → CHỌC DẪN LƯU NGAY.</b>",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "7 bước đọc 1 tờ kết quả siêu âm tim?",
+    "back": "<b>Hệ thống 7 bước:</b><br>B1: Patient info + chỉ định<br>B2: <b>LV size + EF</b> (LVEDD, IVSd, EDV/ESV, EF)<br>B3: <b>LA + RA</b> (LAVI!)<br>B4: <b>Valves</b> (2 lá→ĐMC→3 lá→ĐMP)<br>B5: <b>Diastolic</b> (E/A, E/e', TR V, LAVI → grade)<br>B6: <b>RV + PASP</b> (TAPSE, PASP)<br>B7: <b>Pericardium + IVC</b> + kết luận<br><br>Đọc theo THỨ TỰ, không nhảy cóc, không bỏ mục!",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: LVEDV 180mL, LVESV 120mL. EF=? Phân loại?",
+    "back": "<b>EF = (180-120)/180 = 33% → HFrEF nặng.</b><br>LVEDV 180mL > bình thường → giãn TT → pattern DCM.<br>Cần tìm nguyên nhân + GDMT (ACEi/ARB/ARNI + BB + MRA + SGLT2i).",
+    "extra": "Section 3 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: EF 62%, E/A 0.7, E/e' 16, LAVI 40, TR V 3.0. Chẩn đoán?",
+    "back": "<b>HFpEF — diastolic dysfunction Grade II.</b><br>EF bảo tồn + E/e'>14 + LAVI>34 + TR V>2.8 → ≥3 TC → tăng áp lực đổ đầy.<br>E/A 0.7 = impaired relaxation, nhưng E/e' cao + LAVI tăng → đã tiến triển.<br>Đây là pattern HFpEF điển hình do THA lâu năm.",
+    "extra": "Section 5 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: AVA 0.8, MG 28, Peak V 3.2, EF 60%, SVi 30. AS nặng?",
+    "back": "<b>Paradoxical low-flow low-gradient AS — CÓ THỂ nặng!</b><br>AVA<1.0 (nặng giải phẫu) + MG<40 + EF≥50% + SVi≤35.<br>Cần stress echo hoặc CT calcium score để xác nhận mức độ nặng thực sự.",
+    "extra": "Section 6 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: IVC 2.4cm, collapse <50%, TR V 3.5. RAP? PASP?",
+    "back": "<b>RAP = 15 mmHg</b> (IVC >2.1 + collapse <50%).<br><b>PASP = 4×3.5² + 15 = 64 mmHg</b> → tăng áp phổi trung bình-nặng.<br>Cần tìm nguyên nhân: bệnh tim trái (#1), bệnh phổi mạn, CTEPH, hay PAH.",
+    "extra": "Section 7 — Dừng 1 phút."
+  },
+  {
+    "type": "basic",
+    "front": "🛑 TỰ KIỂM TRA: K vú hóa trị, HA 90/60, TM cổ nổi. Echo: TDMT 28mm, RA collapse, IVC 2.5cm không xẹp, resp var 35%. Xử trí?",
+    "back": "<b>CHÈN ÉP TIM — CHỌC DẪN LƯU CẤP CỨU.</b><br>Beck's triad + TDMT nặng >25mm + RA collapse + resp variation >25%.<br><b>KHÔNG TRÌ HOÃN. Đây là cấp cứu nội khoa.</b>",
+    "extra": "Section 8 — Case lâm sàng."
+  },
+  {
+    "type": "basic",
+    "front": "7 sai lầm thường gặp khi đọc siêu âm tim?",
+    "back": "<b>7 sai lầm:</b><br>1. Chỉ nhìn EF, bỏ qua tâm trương → bỏ sót HFpEF<br>2. Nhầm pseudonormal (Grade II) là BT vì E/A 1-2<br>3. Không kiểm tra TAPSE và RV<br>4. Dùng M-mode EF cho BN sau NMCT → SAI<br>5. Bỏ qua paradoxical low-flow low-gradient AS<br>6. Không kiểm tra IVC<br>7. Kết luận tăng áp phổi nguyên phát khi TR V cao (thường thứ phát!)",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "POCUS 3 câu hỏi cấp cứu — cách làm và dấu hiệu?",
+    "back": "<b>3 câu hỏi:</b><br>1. <b>IVC — dịch hay lợi tiểu?</b> IVC <1cm+xẹp>50%→DỊCH. IVC>2.1cm+xẹp<50%→LỢI TIỂU.<br>2. <b>EF — tim bóp tốt?</b> Visual: >50%? 30-50%? <30%?<br>3. <b>Pericardial effusion?</b> Echo-free space? RA/RV collapse?<br><br>POCUS là SÀNG LỌC — bất thường → echo chuyên khoa.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "10 điểm cần nhớ — Tổng kết siêu âm tim Nội khoa?",
+    "back": "<b>10 TAKE-HOME POINTS:</b><br>1. Đọc echo 7 bước hệ thống<br>2. EF quan trọng nhất nhưng không duy nhất<br>3. E/e'>14 = dấu ấn tăng áp lực đổ đầy<br>4. LAVI>34 = tăng áp lực mạn tính<br>5. AS nặng có TC → thay van<br>6. MR cơ năng ≠ thực thể<br>7. TAPSE<17 = RL chức năng TP<br>8. PASP = 4×(TR V)²+RAP<br>9. Tamponade = chẩn đoán LS → chọc dẫn lưu<br>10. POCUS: IVC? EF? Dịch MT? — 3 câu hỏi trong <2 phút",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Cửa sổ cạnh ức trục dài (PLAX) cần nhận diện gì?",
+    "back": "Thất trái, nhĩ trái, van hai lá, LVOT, van động mạch chủ và gốc động mạch chủ. So sánh kích thước, cấu trúc van và dịch màng tim khi có.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Mặt cắt cạnh ức trục ngắn (PSAX) hữu ích nhất khi nào?",
+    "back": "Khi cần nhìn hình dạng tròn của thất trái, vận động thành theo vùng, van hai lá hoặc van động mạch chủ theo mức cắt.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "A4C phải bao gồm những buồng nào?",
+    "back": "Nhĩ phải, thất phải, nhĩ trái và thất trái; mặt cắt này hỗ trợ đo thể tích, EF Simpson, TAPSE và diện tích nhĩ.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "A2C bổ sung gì cho A4C?",
+    "back": "A2C cùng A4C tạo Simpson biplane, giảm sai lệch khi một mặt cắt không bao phủ đủ thất trái.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Subcostal view đặc biệt hữu ích cho hai câu hỏi nào?",
+    "back": "Tìm dịch màng tim/dấu chèn ép và quan sát IVC; chất lượng ảnh phụ thuộc cửa sổ và người làm.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "EDV và ESV là gì?",
+    "back": "EDV là thể tích thất cuối tâm trương; ESV là thể tích còn lại cuối tâm thu. Hiệu số là thể tích nhát bóp.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao cần index thể tích theo BSA?",
+    "back": "Kích thước tuyệt đối bị ảnh hưởng thể trạng; index theo diện tích da giúp so sánh hợp lý hơn giữa người bệnh.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao EF bình thường không loại trừ suy tim?",
+    "back": "Suy tim có thể do thất cứng, áp lực đổ đầy cao, bệnh van hoặc nguyên nhân ngoài tim; cần triệu chứng, khám và các chỉ số khác.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "TDI đo gì?",
+    "back": "Tissue Doppler đo vận tốc cơ tim/vòng van, ví dụ e′ và S′; không diễn giải tách rời nhịp, tuổi và chất lượng ảnh.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Doppler liên tục và Doppler xung khác nhau thế nào?",
+    "back": "CW đo vận tốc cao nhưng không định vị sâu chính xác; PW định vị vị trí lấy mẫu nhưng bị giới hạn aliasing.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Dòng màu Doppler dùng để làm gì?",
+    "back": "Sàng lọc hướng và mức lan của dòng máu bất thường; định lượng bệnh van cần nhiều thông số, không chỉ nhìn diện tích màu.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "RWT là gì?",
+    "back": "Relative wall thickness mô tả hình học thất trái; dùng cùng khối cơ thất, không tự chẩn đoán tăng huyết áp hay bệnh cơ tim.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao nhĩ trái to là dấu ấn mạn tính?",
+    "back": "Nhĩ trái giãn khi áp lực đổ đầy tăng kéo dài; một giá trị cần đặt trong bối cảnh rung nhĩ, bệnh van và thể trạng.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "FAC thất phải là gì?",
+    "back": "Fractional area change là phần trăm thay đổi diện tích thất phải từ tâm trương sang tâm thu, đo ở A4C RV-focused.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao thất phải không thể chỉ đánh giá bằng một TAPSE?",
+    "back": "TAPSE là vận động dọc một điểm; cần ghép với hình dạng, S′, FAC, áp lực phổi và chất lượng ảnh.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "IVC giúp ước tính điều gì?",
+    "back": "Kích thước và độ xẹp IVC hỗ trợ ước tính áp lực nhĩ phải, nhưng bị ảnh hưởng thông khí, áp lực ổ bụng và chất lượng ảnh.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Chỉ số nào mô tả vận tốc hở ba lá?",
+    "back": "TR velocity; nó hỗ trợ ước tính áp lực động mạch phổi nhưng không một mình xác định nguyên nhân tăng áp phổi.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Màng ngoài tim bình thường trên echo trông thế nào?",
+    "back": "Không có khoảng echo-free đáng kể quanh tim; ít dịch có thể khó phân biệt mỡ màng tim, cần mặt cắt và bối cảnh.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao phải ghi nhịp tim khi đọc tâm trương?",
+    "back": "Rung nhĩ hoặc nhịp nhanh làm thay đổi E/A và thời gian đổ đầy, có thể khiến thuật toán thông thường không áp dụng trực tiếp.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào cần nghi ngờ sai số đo EF?",
+    "back": "Khi bờ nội mạc không rõ, foreshortening, rối loạn vận động vùng, nhịp không đều hoặc report chỉ ước lượng thị giác.",
+    "extra": "Nhóm: Cấu trúc bình thường. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Pattern EF giảm mới kèm rối loạn vận động vùng gợi ý gì?",
+    "back": "Thiếu máu cục bộ/NMCT là một khả năng; cần đối chiếu triệu chứng, ECG, troponin và đánh giá cấp cứu khi phù hợp.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Thất trái giãn và EF giảm lan tỏa gợi pattern nào?",
+    "back": "Bệnh cơ tim giãn hoặc quá tải thể tích có thể phù hợp; tìm nguyên nhân theo lâm sàng và report van.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Dày thất trái đồng tâm thường phản ánh điều gì?",
+    "back": "Áp lực hậu tải kéo dài như tăng huyết áp/hẹp van ĐMC có thể gây pattern này; không gán nguyên nhân chỉ từ hình ảnh.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "E/e′ tăng nên được diễn giải thế nào?",
+    "back": "Gợi áp lực đổ đầy thất trái tăng khi phù hợp bối cảnh; ghép với LAVI, TR velocity, EF và triệu chứng.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "E/A “bình thường” có luôn bình thường không?",
+    "back": "Không. Có thể là pseudonormal; kiểm tra e′, E/e′, LAVI và TR velocity.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Khi report ghi EF thấp nhưng thất trái nhỏ, cần nghĩ gì?",
+    "back": "Có thể là giảm tiền tải, bệnh cơ tim hạn chế hoặc sai số; cần đánh giá lâm sàng, thể tích và report hoàn chỉnh.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Tăng PASP trên echo nghĩa là tăng áp phổi nguyên phát?",
+    "back": "Không. Bệnh tim trái và bệnh phổi thường gặp hơn; echo chỉ là ước tính, cần tìm nguyên nhân và xác nhận phù hợp.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào MR có thể là cơ năng?",
+    "back": "Khi lá van không tổn thương chính nhưng vòng van giãn hoặc thất trái tái cấu trúc kéo lá van.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào cần xác nhận low-flow low-gradient AS?",
+    "back": "Khi AVA nhỏ nhưng gradient/vận tốc không tương xứng; cần kiểm tra dòng chảy, chất lượng phép đo và hội chẩn/stress echo hoặc CT phù hợp.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Report có dịch màng tim nhưng huyết động ổn định: bước tiếp?",
+    "back": "Không quyết định dẫn lưu chỉ từ lượng dịch. Đánh giá triệu chứng, dấu chèn ép, nguyên nhân, tốc độ xuất hiện và kế hoạch chuyên khoa.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Rối loạn thất phải kèm TR velocity cao cần làm gì?",
+    "back": "Đặt trong bối cảnh bệnh tim trái/phổi/PE; đánh giá cấp cứu nếu có giảm oxy hoặc bất ổn, và chuyển tim mạch khi cần.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao report “không tăng áp phổi” phải có dữ liệu?",
+    "back": "Cần chất lượng TR jet/ước tính RAP hoặc ghi giới hạn; thiếu dữ liệu không đồng nghĩa áp lực bình thường.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Một report có EF bảo tồn nhưng LAVI lớn, E/e′ cao gợi gì?",
+    "back": "Áp lực đổ đầy tăng mạn có thể phù hợp HFpEF nếu có triệu chứng/dấu suy tim; cần loại nguyên nhân khác.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao vận động thành cần đọc theo nhiều mặt cắt?",
+    "back": "Một mặt cắt có thể tạo giả ảnh/foreshortening; đối chiếu nhiều view và lâm sàng giúp tránh gọi nhầm rối loạn vùng.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Hở van đánh giá bằng nguyên tắc nào?",
+    "back": "Dùng tiếp cận tích hợp: cấu trúc van, Doppler màu, vena contracta, PISA/EROA, thể tích buồng tim và hậu quả huyết động.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Hẹp van đánh giá bằng nguyên tắc nào?",
+    "back": "Kết hợp diện tích van, vận tốc/gradient, dòng chảy, triệu chứng và chất lượng Doppler; số đơn lẻ có thể sai.",
+    "extra": "Nhóm: Pattern diễn giải. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Tamponade là chẩn đoán hình ảnh hay lâm sàng?",
+    "back": "Lâm sàng–huyết động. Echo tìm dịch và dấu hỗ trợ; tụt huyết áp/giảm tưới máu cần kích hoạt cấp cứu, không chờ report hoàn hảo.",
+    "extra": "Nhóm: Safety. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Dấu nào trên report khiến cần gọi cấp cứu thay vì hẹn khám?",
+    "back": "Dịch kèm dấu chèn ép, EF mới giảm nặng kèm sốc/khó thở, van cấp nặng, hoặc nghi bóc tách trong bối cảnh phù hợp.",
+    "extra": "Nhóm: Safety. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "POCUS bất thường có thay thế echo chuyên khoa?",
+    "back": "Không. POCUS hỗ trợ câu hỏi tập trung; bệnh van, tâm trương, số đo định lượng hoặc kết quả không chắc cần echo hoàn chỉnh/hội chẩn.",
+    "extra": "Nhóm: Safety. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào report van nặng phải được hội chẩn sớm?",
+    "back": "Khi có triệu chứng, giảm EF, dấu giảm tưới máu hoặc thay đổi mới; thời điểm và biện pháp can thiệp do nhóm tim mạch quyết định.",
+    "extra": "Nhóm: Safety. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào IVC không nên được dùng để tự quyết định truyền dịch?",
+    "back": "Ở người thở máy, tăng áp lực ổ bụng, bệnh thất phải hoặc khi ảnh không tin cậy; cần đánh giá huyết động toàn diện.",
+    "extra": "Nhóm: Safety. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "TR velocity cao: lỗi an toàn hay gặp?",
+    "back": "Kết luận tăng áp phổi nguyên phát ngay. Hãy kiểm tra dữ liệu, bệnh tim trái/phổi và chuyển đánh giá nguyên nhân.",
+    "extra": "Nhóm: Safety. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Đọc report thiếu LAVI/E/e′ ở người khó thở: làm gì?",
+    "back": "Không kết luận không có HFpEF. Yêu cầu report hoàn chỉnh hoặc chuyển làm echo/hội chẩn phù hợp.",
+    "extra": "Nhóm: Workflow. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Report thiếu TAPSE ở người có bệnh phổi/suy tim: làm gì?",
+    "back": "Ghi rõ giới hạn và yêu cầu đánh giá thất phải đầy đủ nếu kết quả sẽ đổi xử trí.",
+    "extra": "Nhóm: Workflow. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào cần làm lại echo?",
+    "back": "Khi ảnh kém, chỉ số mâu thuẫn lâm sàng, thiếu số đo quyết định hoặc diễn biến lâm sàng thay đổi.",
+    "extra": "Nhóm: Workflow. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Một report bình thường có loại trừ mọi nguyên nhân khó thở?",
+    "back": "Không. Echo đánh giá tim theo giới hạn kỹ thuật; cần tiếp tục đánh giá hô hấp, thiếu máu, PE và nguyên nhân khác.",
+    "extra": "Nhóm: Workflow. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Sai lầm: chỉ đọc kết luận mà bỏ chỉ định?",
+    "back": "Sai vì cùng con số có ý nghĩa khác ở bệnh nhân ngất, sốc, khó thở hay theo dõi ổn định. Luôn đọc câu hỏi lâm sàng trước.",
+    "extra": "Nhóm: Common error. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Sai lầm: gọi EF là “sức khỏe tim hoàn toàn”?",
+    "back": "Sai. EF không thay thế đánh giá van, tâm trương, thất phải, mạch vành hoặc triệu chứng.",
+    "extra": "Nhóm: Common error. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Sai lầm: định lượng van từ một chỉ số?",
+    "back": "Sai. Dùng tiếp cận tích hợp và kiểm tra chất lượng Doppler.",
+    "extra": "Nhóm: Common error. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Case: report không rõ hình ảnh van ở người có tiếng thổi mới. Kế hoạch?",
+    "back": "1. Sàng suy tim/ngất/đau ngực. 2. Report không đủ là dữ kiện quyết định. 3. Yêu cầu echo hoàn chỉnh. 4. Chuyển nếu triệu chứng hoặc bất ổn. 5. Không gọi tiếng thổi là lành tính từ report thiếu.",
+    "extra": "Nhóm: Case. Xem _remediation_evidence.md và guideline liên quan."
+  },
+  {
+    "type": "basic",
+    "front": "Case: EF giảm, chi lạnh và thiểu niệu. Kế hoạch?",
+    "back": "1. Nhận diện giảm tưới máu/sốc. 2. Huyết động quan trọng hơn con số EF. 3. ABCDE và monitor. 4. Chuyển ICU/tim mạch. 5. Không điều chỉnh thuốc ngoại trú.",
+    "extra": "Nhóm: Case. Xem _remediation_evidence.md và guideline liên quan."
+  }
+]

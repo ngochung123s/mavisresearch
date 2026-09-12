@@ -1,0 +1,54 @@
+{
+  "part": "IM-04 Part 3",
+  "status": "CANDIDATES_PREPARED_NOT_RELEASED",
+  "covered": [
+    "KDIGO 2012 local PDF retained with official 2026 landing page and public-review draft",
+    "Current sodium consensus with osmolality/pseudohyponatremia and safety framing",
+    "Current UKKA 2023 potassium classification, ECG urgency and pseudohyperkalaemia specimen guidance",
+    "BSG liver analyte panel, pattern/context recommendations",
+    "ADA 2026 current Standards metadata for glucose/HbA1c research",
+    "ESC 2023 ACS official landing/version plus Europe PMC/Crossref/OpenAlex identity metadata",
+    "WHO ferritin 2020 guideline metadata",
+    "Current 2025 adult hypothyroidism guideline metadata"
+  ],
+  "blocking_or_unresolved_gaps": [
+    {
+      "topic": "KDIGO 2012 freshness/supersession",
+      "gap": "Official KDIGO page states the 2026 document is a public-review draft and the first major update since 2012. It is not yet final, so neither treating 2012 as unquestionably current nor treating it as formally superseded is justified without release-time adjudication.",
+      "impact": "Manifest intentionally marks the 2012 official record current_version=false and records pending update; draft is typed draft guideline and cannot support a formal current recommendation."
+    },
+    {
+      "topic": "Glucose/HbA1c",
+      "gap": "ADA 2026 identity/currentness and abstract are captured, but no legally reusable local full section with diagnostic thresholds/interference exact quotes was obtained.",
+      "impact": "Do not use threshold/interference claims until exact local quote is available."
+    },
+    {
+      "topic": "Troponin",
+      "gap": "ESC official landing page proves authority/version but contains no usable troponin recommendation text; the page also states a formal licence is required for guideline content included or transformed in AI systems. Correction PMID 38383069 exists and needs adjudication.",
+      "impact": "No troponin delta/0h-1h numeric candidate is promoted."
+    },
+    {
+      "topic": "CRP/ESR",
+      "gap": "No current general-purpose official society guideline covering basic CRP versus ESR interpretation was found. Disease-specific guidelines are not a substitute for a general laboratory claim.",
+      "impact": "Keep CRP/ESR statements qualitative and claim-specific, or obtain an official laboratory medicine source."
+    },
+    {
+      "topic": "TSH",
+      "gap": "A 2025 adult primary hypothyroidism guideline metadata record was captured, but exact diagnostic TSH/FT4 recommendations and a legally reusable local copy were not obtained; NICE direct access was blocked.",
+      "impact": "No universal TSH threshold candidate is promoted."
+    },
+    {
+      "topic": "Ferritin",
+      "gap": "WHO 2020 guideline identity/abstract is stored, but WHO local full copy was inaccessible. Ferritin is an acute-phase reactant and numeric interpretation requires inflammation context and exact source text.",
+      "impact": "No numeric ferritin cutoff candidate is promoted."
+    },
+    {
+      "topic": "Integrated-case safety",
+      "gap": "No single official source safely governs all four integrated cases. Each case needs its own claim-level authorities for emergency potassium/sodium, AKI, bleeding/transfusion, liver context, glucose, and troponin; current artifacts cover only part of that matrix.",
+      "impact": "Cases must remain blocked until brief locks claim-specific sources and all correction/freshness gates pass."
+    }
+  ],
+  "verification_labels_assigned": false,
+  "research_brief_created": false,
+  "release_artifacts_created": false
+}

@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "lesson_id": "IM-16",
+    "title": "Xuất huyết tiêu hóa cấp — Hồi sức 0–60 phút",
+    "date": "2026-07-19",
+    "total_cards": 35
+  },
+  "cards": [
+    {
+      "front": "ATLS class III của sốc mất máu: mất bao nhiêu % thể tích máu? Nhịp tim và HA thế nào?",
+      "back": "Mất 30–40% thể tích máu (1.500–2.000 mL ở người 70 kg). Nhịp tim 120–140/phút, HA tụt (HATT <90), thiểu niệu (<20 mL/h), lú lẫn."
+    },
+    {
+      "front": "Tại sao BN già, dùng chẹn beta, hoặc ĐTĐ có thể KHÔNG nhịp nhanh dù đang sốc mất máu class III?",
+      "back": "Vì giảm đáp ứng giao cảm (già), bị chặn thụ thể beta (chẹn beta), hoặc rối loạn thần kinh tự chủ (ĐTĐ). Không dùng nhịp tim để loại trừ sốc ở những BN này."
+    },
+    {
+      "front": "Trong ABCDE của XHTH, 'A' — Airway: 3 hành động chính là gì?",
+      "back": "(1) Đặt BN nằm nghiêng trái, (2) Hút miệng-hầu liên tục, (3) Đặt NKQ sớm nếu Glasgow <8 hoặc nôn máu ồ ạt không kiểm soát."
+    },
+    {
+      "front": "4 câu hỏi quyết định trong 2 phút đầu ở BN XHTH cấp?",
+      "back": "(1) Máu đỏ tươi hay bã cà phê? (2) Đi ngoài phân đen hay máu đỏ? (3) Tiền sử: xơ gan? loét DD-TT? NSAID/kháng đông? rượu? (4) Đợt này mất bao nhiêu máu?"
+    },
+    {
+      "front": "Tại sao Hb ban đầu có thể BÌNH THƯỜNG dù BN đang mất máu nặng?",
+      "back": "Mất máu toàn phần cấp → mất cả hồng cầu và huyết tương cùng lúc → nồng độ Hb chưa đổi. Hb chỉ tụt sau khi truyền dịch pha loãng hoặc sau 24–72h khi cơ thể tự bù dịch."
+    },
+    {
+      "front": "BUN/Cr >30:1 ở BN XHTH gợi ý điều gì?",
+      "back": "Gợi ý XHTH TRÊN — do hấp thu protein từ máu ở ruột non làm tăng BUN, trong khi creatinine không đổi."
+    },
+    {
+      "front": "NG tube: 3 kết quả dịch hút và ý nghĩa lâm sàng?",
+      "back": "(1) Máu đỏ tươi → đang chảy, cần nội soi cấp cứu. (2) Bã cà phê → chảy đã chậm/ngừng. (3) Dịch trong → KHÔNG loại trừ XHTH trên (tổn thương tá tràng có thể không trào ngược lên dạ dày)."
+    },
+    {
+      "front": "Ngưỡng truyền máu restrictive trong XHTH theo ESGE 2021 và ACG 2021?",
+      "back": "Hb <7 g/dL (hoặc <8 g/dL ở BN bệnh tim mạch). Mục tiêu duy trì Hb 7–9 g/dL, KHÔNG truyền lên >9 g/dL."
+    },
+    {
+      "front": "Kết quả chính của TRIGGER trial (NEJM 2013) về restrictive vs liberal transfusion?",
+      "back": "n=921. Restrictive (Hb<7) vs liberal (Hb<9): survival 6 tuần 95% vs 91% (HR 0.55, P=0.02); tái xuất huyết 10% vs 16% (P=0.01); adverse events 40% vs 48% (P=0.02)."
+    },
+    {
+      "front": "Cochrane 2017 về restrictive transfusion: RR tử vong và RR tái xuất huyết?",
+      "back": "5 RCTs, n=1.965. Tử vong: RR 0.65 (95% CI 0.44–0.97, p=0.03). Tái xuất huyết: RR 0.58 (95% CI 0.40–0.84, p=0.004)."
+    },
+    {
+      "front": "Vì sao truyền máu quá mức (Hb >9) làm TĂNG nguy cơ tái xuất huyết?",
+      "back": "(1) Tăng áp lực thủy tĩnh và áp lực cửa → vỡ cục máu đông. (2) Rối loạn đông máu pha loãng. (3) Phản ứng miễn dịch (TRALI, TACO). (4) Máu lưu trữ 2,3-DPG thấp → giảm nhả oxy."
+    },
+    {
+      "front": "Khi nào kích hoạt Massive Transfusion Protocol (MTP)? Tỉ lệ truyền?",
+      "back": "Khi: mất >50% thể tích máu trong <3h, hoặc >4 PRBC trong 1h không ổn định, hoặc sốc class IV không đáp ứng dịch. Tỉ lệ 1:1:1 (PRBC : FFP : Tiểu cầu)."
+    },
+    {
+      "front": "Tại sao KHÔNG dùng FFP thường quy để điều chỉnh INR kéo dài ở BN xơ gan có XHTH?",
+      "back": "INR ở xơ gan không phản ánh đúng nguy cơ chảy máu (giảm CẢ yếu tố đông máu và chống đông — 'rebalanced hemostasis'). FFP không cải thiện outcome, tăng nguy cơ quá tải tuần hoàn và TRALI. Baveno VII."
+    },
+    {
+      "front": "PPI trong XHTH: cơ chế tác dụng? Có giảm tử vong không?",
+      "back": "Cơ chế: ức chế bơm proton → nâng pH dịch vị >6 → ổn định cục máu đông (pepsin tiêu fibrin ở pH thấp). KHÔNG giảm tử vong hay tái xuất huyết. Lợi ích chính: giảm stigmata nguy cơ cao → giảm nhu cầu can thiệp nội soi."
+    },
+    {
+      "front": "Liều PPI IV trong XHTH trên không do vỡ TMTQ?",
+      "back": "Phác đồ A: Bolus 80 mg IV + truyền liên tục 8 mg/h × 72h. Phác đồ B: Bolus 40–80 mg IV mỗi 12h (ngắt quãng)."
+    },
+    {
+      "front": "Khi nào bắt đầu terlipressin/octreotide ở BN XHTH? Cần chờ nội soi không?",
+      "back": "NGAY khi NGHI vỡ TMTQ (xơ gan + nôn máu đỏ tươi + dấu hiệu TAC). KHÔNG chờ nội soi xác nhận — Baveno VII."
+    },
+    {
+      "front": "Liều terlipressin trong vỡ TMTQ? Chống chỉ định chính?",
+      "back": "2 mg IV bolus, sau đó 1–2 mg IV mỗi 4–6h. CCĐ: bệnh mạch vành nặng, bệnh mạch ngoại vi nặng, THA không kiểm soát."
+    },
+    {
+      "front": "So sánh terlipressin và octreotide về tử vong và tác dụng phụ?",
+      "back": "Tử vong TƯƠNG ĐƯƠNG (RR 1.01, 95%CI 0.83–1.22). Terlipressin có adverse events CAO HƠN (RR 2.39, 95%CI 1.58–3.63). Octreotide: 50 mcg IV bolus → 25–50 mcg/h."
+    },
+    {
+      "front": "Kháng sinh dự phòng trong vỡ TMTQ: thuốc, liều, thời gian?",
+      "back": "Ceftriaxone 1 g IV mỗi 24h × 7 ngày (hoặc norfloxacin 400 mg PO mỗi 12h nếu uống được). Giảm nhiễm trùng, tái xuất huyết sớm, tử vong."
+    },
+    {
+      "front": "Erythromycin trong XHTH: liều, thời điểm, cơ chế?",
+      "back": "250 mg IV truyền 20–30 phút, 30–90 phút trước nội soi. Cơ chế: kích thích thụ thể motilin → tăng nhu động dạ dày → tống máu/thức ăn xuống tá tràng → làm sạch dạ dày cho nội soi."
+    },
+    {
+      "front": "Erythromycin pre-endoscopy NMA 2025: kết quả chính?",
+      "back": "16 RCTs, n=1.447. Cải thiện visualization score (SMD 0.58, 95%CI 0.26–0.91), adequate mucosal visualization (RR 1.55, 95%CI 1.18–2.04). Giảm second-look endoscopy, transfusion, hospital stay. Metoclopramide KHÔNG hiệu quả."
+    },
+    {
+      "front": "HALT-IT trial (Lancet 2020): TXA có giảm tử vong do XHTH không?",
+      "back": "KHÔNG. n=12.009. Tử vong do chảy máu 5 ngày: TXA 4% vs placebo 4% (RR 0.99, 95% CI 0.82–1.18). VTE CAO HƠN ở nhóm TXA. Khuyến cáo: KHÔNG dùng TXA trong XHTH ngoài thử nghiệm."
+    },
+    {
+      "front": "Đảo ngược warfarin ở BN XHTH đe dọa tính mạng: dùng gì (ưu tiên)?",
+      "back": "Vitamin K 5–10 mg IV chậm + PCC (Prothrombin Complex Concentrate) 25–50 IU/kg. PCC là lựa chọn HÀNG ĐẦU (tác dụng 10–30 phút, thể tích nhỏ). FFP chỉ dùng khi không có PCC."
+    },
+    {
+      "front": "BN đang DAPT sau stent ĐMV 2 tuần, nay XHTH: xử trí kháng TC thế nào?",
+      "back": "Hội chẩn tim mạch khẩn. Thường: TIẾP TỤC aspirin (nguy cơ huyết khối stent > nguy cơ XH), TẠM NGƯNG P2Y12 inhibitor (clopidogrel/ticagrelor) 5–7 ngày. ESGE 2021: aspirin đơn trị cho dự phòng thứ phát — KHÔNG ngưng."
+    },
+    {
+      "front": "Glasgow-Blatchford Score (GBS) gồm những biến nào?",
+      "back": "8 biến: BUN, Hb (nam/nữ riêng), HATT, nhịp tim, phân đen, ngất, bệnh gan, suy tim."
+    },
+    {
+      "front": "GBS 0–1 có ý nghĩa gì? Xử trí?",
+      "back": "Nguy cơ RẤT THẤP — có thể XUẤT VIỆN an toàn với nội soi ngoại trú. ESGE 2021 (Strong recommendation, moderate evidence). ACG 2021: GBS 0–1 = very-low-risk → outpatient."
+    },
+    {
+      "front": "AIMS65 gồm những biến nào? Mỗi biến mấy điểm?",
+      "back": "5 biến, mỗi biến 1 điểm: Albumin <3.0, INR >1.5, Altered Mental Status, HATT ≤90, Tuổi >65. Điểm càng cao → tử vong nội viện càng cao."
+    },
+    {
+      "front": "So sánh GBS và AIMS65: dùng thang nào khi nào?",
+      "back": "GBS: nhạy hơn (Se 0.98) → tốt để LOẠI TRỪ BN nguy cơ thấp (GBS 0–1 → xuất viện). AIMS65: đặc hiệu hơn (Sp 0.774) → tốt để XÁC ĐỊNH BN nguy cơ cao (AIMS65 ≥2 → ICU). Dùng cả hai bổ trợ."
+    },
+    {
+      "front": "Phân loại thời gian nội soi trong XHTH: 4 mức?",
+      "back": "(1) Cấp cứu <6h: sốc không đáp ứng, đang chảy, nghi vỡ TMTQ (<12h). (2) Sớm <24h: GBS ≥7, huyết động ổn sau hồi sức. (3) Trì hoãn >24h: GBS 2–6, ổn định. (4) Ngoại trú: GBS 0–1."
+    },
+    {
+      "front": "Tiêu chí chuyển tuyến ở BN XHTH tại BV không có nội soi cấp cứu?",
+      "back": "≥1 tiêu chí: (a) GBS ≥7, (b) nôn máu đỏ tươi đang tiến triển, (c) nghi vỡ TMTQ, (d) huyết động không ổn định sau 2 bolus dịch. Trước chuyển: NKQ nếu cần, hồi sức tối ưu, bàn giao đầy đủ."
+    },
+    {
+      "front": "Tại Việt Nam, Plan B khi không có terlipressin cho vỡ TMTQ?",
+      "back": "Octreotide IV (50 mcg bolus → 25–50 mcg/h) — rẻ hơn, sẵn có hơn, tử vong tương đương, ít tác dụng phụ hơn. Nếu không có cả hai → chuyển tuyến ngay."
+    },
+    {
+      "front": "Tại Việt Nam, Plan B khi không có PCC cho BN XHTH đang warfarin?",
+      "back": "Vitamin K 10 mg IV chậm + FFP 15–20 mL/kg. Chấp nhận hiệu quả thấp hơn, thể tích lớn hơn, nguy cơ quá tải tuần hoàn. PCC chỉ có ở BV trung ương."
+    },
+    {
+      "front": "Cơ chế cầm máu tự nhiên gồm 3 bước? Vì sao PPI giúp ổn định cục máu đông?",
+      "back": "3 bước: (1) co mạch tại chỗ, (2) kết tập tiểu cầu tạo nút, (3) đông máu huyết tương tạo fibrin. PPI nâng pH >6 → pepsin không tiêu được fibrin → cục máu đông bền."
+    },
+    {
+      "front": "Baveno VII 2022: 5 khuyến cáo chính cho XHTH do vỡ TMTQ?",
+      "back": "(1) Vasoactive drugs NGAY khi nghi vỡ. (2) Kháng sinh dự phòng cho mọi BN xơ gan. (3) Restrictive transfusion (Hb <7). (4) Nội soi <12h. (5) KHÔNG FFP để chỉnh INR."
+    },
+    {
+      "front": "Sai lầm 'over-resuscitation' trong XHTH là gì và hậu quả?",
+      "back": "Truyền dịch/máu quá mức → tăng áp lực thủy tĩnh lòng mạch → vỡ cục máu đông cầm máu tạm thời → TÁI XUẤT HUYẾT. Mục tiêu: đủ tưới máu cơ quan, không quá để vỡ clot."
+    }
+  ]
+}

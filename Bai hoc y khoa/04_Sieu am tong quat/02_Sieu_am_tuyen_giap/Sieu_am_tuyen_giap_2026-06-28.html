@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BÀI HỌC Y KHOA: SIÊU ÂM TUYẾN GIÁP — GIẢI PHẪU, TI-RADS, BẤT THƯỜNG VÀ QUY TRÌNH KHẢO SÁT</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+  /* Chart.js canvas: giới hạn max-width để không bị kéo dãn khi render
+     trên màn hình rộng. Kết hợp với height attr trên <canvas> để giữ tỉ lệ.
+     Lý do: Chart.js mặc định maintainAspectRatio=false + responsive=true
+     sẽ fill 100% container width -> bar/doughnut bị oval/méo khi container
+     rộng hơn canvas internal pixel ratio. */
+  canvas { display: block; max-width: 800px; margin: 0 auto; height: auto !important; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+<header class="text-center py-12 mb-12 glass rounded-3xl shadow-lg">
+  <div class="inline-block px-4 py-1 mb-4 rounded-full bg-blue-200 text-blue-800 text-sm font-semibold">
+    Chuyên khoa: Ngày:
+  </div>
+  <h1 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800">BÀI HỌC Y KHOA: SIÊU ÂM TUYẾN GIÁP — GIẢI PHẪU, TI-RADS, BẤT THƯỜNG VÀ QUY TRÌNH KHẢO SÁT</h1>
+  <p class="text-stone-600 text-lg">Ngày  | Cho bác sĩ sản phụ khoa / học viên sau đại học</p>
+  <p class="text-sm text-stone-500 mt-2">Bác sĩ: <strong>Ngọc 🍅 🐈‍⬛</strong> | AI: <strong>MiniMax Mavis</strong></p>
+</header><main class="max-w-6xl mx-auto space-y-8">
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">0. TỔNG QUAN — CHỈ ĐỊNH, NGUYÊN LÝ CHUNG</h2>
+<p class="text-stone-700 mb-3">Siêu âm tuyến giáp là phương tiện chẩn đoán hình ảnh <strong>đầu tay và quan trọng nhất</strong> để đánh giá bệnh lý tuyến giáp. Đây là kỹ thuật có độ phân giải cao, không nhiễm xạ, giá thành thấp và có thể thực hiện tại phòng khám.</p>
+<p class="text-stone-700 mb-3"><strong>Chỉ định chính:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Sờ thấy khối/nốt vùng cổ trước</li>
+<li>Bất thường xét nghiệm chức năng tuyến giáp (TSH, FT3, FT4)</li>
+<li>Sàng lọc ở nhóm nguy cơ cao (tiền sử gia đình ung thư giáp, MEN2, xạ trị vùng cổ thời thơ ấu)</li>
+<li>Theo dõi sau phẫu thuật tuyến giáp hoặc sau điều trị I-131</li>
+<li>Triệu chứng chèn ép (nuốt vướng, khó thở, khàn tiếng)</li>
+<li>Bất thường phát hiện tình cờ trên CT/MRI/PET-CT</li></ul>
+<p class="text-stone-700 mb-3"><strong>Tần suất bệnh lý tuyến giáp:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Nốt giáp sờ thấy trên lâm sàng: <strong>5% ở nữ, 1% ở nam</strong></li>
+<li>Nốt giáp phát hiện trên siêu âm: <strong>19-68%</strong> dân số (tăng theo tuổi, nữ > nam)</li>
+<li>Tỷ lệ ác tính trong nốt giáp: <strong>7-15%</strong></li>
+<li>Ung thư giáp là ung thư nội tiết phổ biến nhất, tỷ lệ mắc tăng nhanh trên toàn cầu</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">1. CHUẨN BỊ BỆNH NHÂN & KỸ THUẬT CHUNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.1. Chuẩn bị bệnh nhân</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Yêu cầu</th><th class="p-2 border whitespace-nowrap">Lý do</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Tư thế</strong>: nằm ngửa, kê gối dưới vai</td><td class="p-2 border">Cổ ngửa tối đa, bộc lộ toàn bộ vùng cổ trước</td></tr><tr class=""><td class="p-2 border"><strong>Cởi áo, tháo dây chuyền</strong></td><td class="p-2 border">Tránh cản trở đầu dò</td></tr><tr class=""><td class="p-2 border"><strong>Không cần nhịn đói đặc biệt</strong></td><td class="p-2 border">Trừ khi kết hợp siêu âm bụng</td></tr><tr class=""><td class="p-2 border"><strong>Giải thích bé nhẹ nhàng</strong></td><td class="p-2 border">Trẻ em có thể sợ đầu dò đè vào cổ</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.2. Thiết bị & Cài đặt</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thông số</th><th class="p-2 border whitespace-nowrap">Giá trị khuyến cáo</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Đầu dò</strong></td><td class="p-2 border"><strong>Linear (phẳng) tần số cao 7-15 MHz</strong> — BẮT BUỘC. Tần số cao cho độ phân giải tối ưu cấu trúc nông</td></tr><tr class=""><td class="p-2 border"><strong>Độ sâu (Depth)</strong></td><td class="p-2 border">3-5 cm (tuyến giáp nằm nông, ngay dưới da)</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Gain</strong></td><td class="p-2 border">Chỉnh sao cho nhu mô giáp bình thường có echo đồng nhất, không quá sáng</td></tr><tr class=""><td class="p-2 border"><strong>Tiêu điểm (Focal zone)</strong></td><td class="p-2 border">Đặt ở mức 1.5-3 cm (ngang mức tuyến giáp)</td></tr><tr class=""><td class="p-2 border"><strong>Harmonic Imaging</strong></td><td class="p-2 border">Có thể bật, nhưng lưu ý có thể làm nang echo kém trông giống nốt đặc</td></tr><tr class=""><td class="p-2 border"><strong>Doppler màu</strong></td><td class="p-2 border">PRF thấp (tuyến giáp là cơ quan rất giàu mạch máu)</td></tr><tr class=""><td class="p-2 border"><strong>Elastography (nếu có)</strong></td><td class="p-2 border">Strain hoặc Shear Wave — đánh giá độ cứng của nốt</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.3. Cấu trúc báo cáo siêu âm tuyến giáp</h3>
+<p class="text-stone-700 mb-3">Mỗi báo cáo siêu âm tuyến giáp cần mô tả:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Kích thước tuyến giáp (3 chiều: dài × ngang × dày cho từng thùy + eo)</li>
+<li>Đặc điểm nhu mô: đồng nhất? không đồng nhất? echo gì?</li>
+<li>Nốt: vị trí, kích thước, TI-RADS score, đặc điểm</li>
+<li>Hạch cổ: bất thường?</li>
+<li>Tổng kết + khuyến nghị (theo dõi / FNA / phẫu thuật)</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">2. GIẢI PHẪU SIÊU ÂM TUYẾN GIÁP</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.1. Vị trí & Hình dạng</h3>
+<p class="text-stone-700 mb-3">Tuyến giáp nằm ở vùng cổ trước, ngang mức C5-T1, trước khí quản, hai bên thanh quản. Hình dạng giống <strong>con bướm</strong> với 2 thùy nối với nhau bằng eo tuyến.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.2. Các cấu trúc giải phẫu trên siêu âm</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Cấu trúc</th><th class="p-2 border whitespace-nowrap">Vị trí</th><th class="p-2 border whitespace-nowrap">Đặc điểm siêu âm</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Thùy phải & Thùy trái</strong></td><td class="p-2 border">Hai bên khí quản</td><td class="p-2 border">Echo đồng nhất, hơi tăng echo hơn cơ ức đòn chũm; có các hạt echo rải rác (nang keo)</td></tr><tr class=""><td class="p-2 border"><strong>Eo tuyến giáp</strong></td><td class="p-2 border">Trước khí quản, ngang sụn nhẫn</td><td class="p-2 border">Dải mô mỏng nối 2 thùy, dày ≤ <strong>3 mm</strong></td></tr><tr class=""><td class="p-2 border"><strong>Thùy tháp (Pyramidal lobe)</strong></td><td class="p-2 border">Kéo dài từ eo lên trên</td><td class="p-2 border">30-50% dân số, phần còn lại của ống giáp lưỡi (thyroglossal duct)</td></tr><tr class=""><td class="p-2 border"><strong>Khí quản (Trachea)</strong></td><td class="p-2 border">Đường giữa, sau eo</td><td class="p-2 border">Cấu trúc rỗng, vòng sụn hình móng ngựa, echo dày, bóng cản bẩn phía sau</td></tr><tr class=""><td class="p-2 border"><strong>Thực quản (Esophagus)</strong></td><td class="p-2 border">Sau thùy trái</td><td class="p-2 border">Cấu trúc đa lớp "target sign" — lòng xẹp có thể có ít khí</td></tr><tr class=""><td class="p-2 border"><strong>ĐM cảnh chung (CCA)</strong></td><td class="p-2 border">Ngoài thùy giáp</td><td class="p-2 border">Mạch đập, thành dày, không xẹp khi ấn</td></tr><tr class=""><td class="p-2 border"><strong>TM cảnh trong (IJV)</strong></td><td class="p-2 border">Ngoài CCA</td><td class="p-2 border">Thành mỏng, xẹp khi ấn nhẹ, thay đổi theo hô hấp</td></tr><tr class=""><td class="p-2 border"><strong>Cơ ức đòn chũm (SCM)</strong></td><td class="p-2 border">Lớp nông nhất 2 bên</td><td class="p-2 border">Dải cơ echo kém đồng nhất, bao quanh bởi cân</td></tr><tr class=""><td class="p-2 border"><strong>Cơ ức giáp (Sternothyroid)</strong></td><td class="p-2 border">Sát tuyến giáp</td><td class="p-2 border">Dải cơ mỏng, echo kém, ngăn cách tuyến giáp và cơ ức đòn chũm</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Tuyến cận giáp (Parathyroid)</strong></td><td class="p-2 border">Mặt sau thùy giáp</td><td class="p-2 border">Bình thường KHÔNG THẤY (kích thước ~5×3×1 mm); khi thấy = u tuyến cận giáp</td></tr><tr class="bg-green-50"><td class="p-2 border"><strong>Hạch cổ</strong></td><td class="p-2 border">Dọc theo CCA/IJV</td><td class="p-2 border">Bình thường hình bầu dục dẹt, rốn hạch echo dày, vỏ mỏng echo kém</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.3. Kích thước bình thường (người lớn)</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thành phần</th><th class="p-2 border whitespace-nowrap">Trục dọc (cm)</th><th class="p-2 border whitespace-nowrap">Trục ngang (cm)</th><th class="p-2 border whitespace-nowrap">Bề dày (cm)</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Thùy phải / trái</strong></td><td class="p-2 border">4-6</td><td class="p-2 border">1.5-2.0</td><td class="p-2 border">1.5-2.0</td></tr><tr class=""><td class="p-2 border"><strong>Eo tuyến giáp</strong></td><td class="p-2 border">—</td><td class="p-2 border">—</td><td class="p-2 border">≤ 0.3</td></tr><tr class=""><td class="p-2 border"><strong>Tổng thể tích tuyến</strong></td><td class="p-2 border">Nữ: 6-18 ml; Nam: 8-20 ml (chiều dài × ngang × dày × 0.52 cho mỗi thùy, cộng lại)</td><td class="p-2 border"></td><td class="p-2 border"></td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">3. CÁC MẶT CẮT CẦN LÀM</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.1. Mặt cắt ngang (Transverse/Axial)</h3>
+<p class="text-stone-700 mb-3">Đặt đầu dò <strong>ngang</strong> vùng cổ trước, quét từ trên xuống dưới.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mức</th><th class="p-2 border whitespace-nowrap">Cấu trúc thấy</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Trên eo (mức sụn giáp)</strong></td><td class="p-2 border">Thùy phải, thùy trái, khí quản, thực quản, CCA, IJV</td></tr><tr class=""><td class="p-2 border"><strong>Ngang eo</strong></td><td class="p-2 border">Eo nối 2 thùy, khí quản phía sau</td></tr><tr class=""><td class="p-2 border"><strong>Dưới eo (mức tuyến ức)</strong></td><td class="p-2 border">Phần dưới 2 thùy, đôi khi thấy thùy tháp</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3">Mặt cắt ngang dùng để:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Đo trục ngang và bề dày từng thùy</li>
+<li>Đánh giá mối liên quan nốt với khí quản, thực quản, bó mạch cảnh</li>
+<li>Khảo sát hạch cổ hai bên dọc theo CCA và IJV</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.2. Mặt cắt dọc (Sagittal/Longitudinal)</h3>
+<p class="text-stone-700 mb-3">Đặt đầu dò <strong>dọc</strong> theo trục dài của từng thùy.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mặt cắt</th><th class="p-2 border whitespace-nowrap">Vị trí đầu dò</th><th class="p-2 border whitespace-nowrap">Cấu trúc thấy</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Dọc thùy phải</strong></td><td class="p-2 border">Cạnh phải khí quản</td><td class="p-2 border">Thùy phải toàn bộ chiều dài, CCA, IJV</td></tr><tr class=""><td class="p-2 border"><strong>Dọc thùy trái</strong></td><td class="p-2 border">Cạnh trái khí quản</td><td class="p-2 border">Thùy trái toàn bộ chiều dài, thực quản (hình ống sau thùy trái)</td></tr><tr class=""><td class="p-2 border"><strong>Dọc eo</strong></td><td class="p-2 border">Đường giữa</td><td class="p-2 border">Eo tuyến, khí quản phía sau</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3">Mặt cắt dọc dùng để:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Đo chiều dài thùy</li>
+<li>Đánh giá giới hạn trên và dưới của nốt</li>
+<li>Đo kích thước nốt theo 2 chiều (dài × dày)</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">4. QUY TRÌNH KHẢO SÁT</h2>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>BƯỚC 1: BN nằm ngửa, kê gối dưới vai, cổ ngửa tối đa
+    ↓
+BƯỚC 2: QUÉT NGANG toàn bộ tuyến giáp từ sụn giáp đến hõm ức
+    ↓
+BƯỚC 3: QUÉT DỌC thùy phải, thùy trái, eo — đo kích thước 3 chiều mỗi thùy
+    ↓
+BƯỚC 4: ĐÁNH GIÁ NHU MÔ: đồng nhất? echo (tăng/giảm/bình thường)? có dải xơ? có vi vôi hóa?
+    ↓
+BƯỚC 5: NẾU CÓ NỐT → đo 3 chiều + phân loại TI-RADS (5 tiêu chí ACR)
+    ↓
+BƯỚC 6: Doppler màu — đánh giá mạch máu nhu mô và trong nốt
+    ↓
+BƯỚC 7: KHẢO SÁT HẠCH CỔ 2 bên (vùng I-VI) — tìm hạch nghi ngờ
+    ↓
+BƯỚC 8: Nếu có chỉ định → đánh dấu vị trí sinh thiết FNA
+    ↓
+BƯỚC 9: KẾT LUẬN: TI-RADS score + khuyến cáo theo dõi/FNA</code></pre>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">5. TI-RADS — PHÂN LOẠI NGUY CƠ ÁC TÍNH (ACR 2017)</h2>
+<p class="text-stone-700 mb-3"><strong>TI-RADS</strong> (Thyroid Imaging Reporting and Data System) là hệ thống phân loại nguy cơ ác tính của nốt giáp do <strong>American College of Radiology (ACR)</strong> phát triển. Dựa trên 5 tiêu chí, mỗi tiêu chí được cho điểm.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.1. Bảng điểm ACR TI-RADS (2017)</h3>
+<p class="text-stone-700 mb-3"><strong>1. Thành phần (Composition) — chọn 1:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Điểm</th></tr></thead><tbody><tr class=""><td class="p-2 border">Nang hoặc gần như hoàn toàn là nang (Cystic/Almost completely cystic)</td><td class="p-2 border">0</td></tr><tr class=""><td class="p-2 border">Dạng bọt biển (Spongiform)</td><td class="p-2 border">0</td></tr><tr class=""><td class="p-2 border">Hỗn hợp nang-đặc (Mixed cystic and solid)</td><td class="p-2 border">1</td></tr><tr class=""><td class="p-2 border">Đặc hoặc gần như hoàn toàn đặc (Solid/Almost completely solid)</td><td class="p-2 border">2</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>2. Echo (Echogenicity) — chọn 1:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Điểm</th></tr></thead><tbody><tr class=""><td class="p-2 border">Trống âm (Anechoic)</td><td class="p-2 border">0</td></tr><tr class=""><td class="p-2 border">Tăng echo / đồng echo (Hyperechoic / Isoechoic)</td><td class="p-2 border">1</td></tr><tr class=""><td class="p-2 border">Giảm echo (Hypoechoic)</td><td class="p-2 border">2</td></tr><tr class=""><td class="p-2 border">Giảm echo rất mạnh (Very hypoechoic — thấp hơn cơ ức đòn chũm)</td><td class="p-2 border">3</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>3. Hình dạng (Shape) — chọn 1:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Điểm</th></tr></thead><tbody><tr class=""><td class="p-2 border">Rộng hơn cao (Wider-than-tall — trục ngang > trục dọc)</td><td class="p-2 border">0</td></tr><tr class=""><td class="p-2 border"><strong>Cao hơn rộng (Taller-than-wide — trục dọc > trục ngang)</strong></td><td class="p-2 border"><strong>3</strong></td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>4. Bờ (Margin) — chọn 1:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Điểm</th></tr></thead><tbody><tr class=""><td class="p-2 border">Bờ nhẵn (Smooth)</td><td class="p-2 border">0</td></tr><tr class=""><td class="p-2 border">Bờ không rõ (Ill-defined)</td><td class="p-2 border">0</td></tr><tr class=""><td class="p-2 border">Bờ thùy hoặc không đều (Lobulated/Irregular)</td><td class="p-2 border">2</td></tr><tr class=""><td class="p-2 border"><strong>Bờ xâm lấn ngoài tuyến giáp (Extra-thyroidal extension)</strong></td><td class="p-2 border"><strong>3</strong></td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>5. Chấm echo dày (Echogenic Foci) — chọn TẤT CẢ những gì có:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Điểm</th></tr></thead><tbody><tr class=""><td class="p-2 border">Không có hoặc đuôi sao chổi lớn (comet-tail artifact)</td><td class="p-2 border">0</td></tr><tr class=""><td class="p-2 border">Vôi hóa lớn (Macrocalcifications)</td><td class="p-2 border">1</td></tr><tr class=""><td class="p-2 border">Vôi hóa viền (Peripheral/rim calcifications)</td><td class="p-2 border">2</td></tr><tr class=""><td class="p-2 border"><strong>Chấm echo dày nhỏ (Punctate echogenic foci — microcalcifications)</strong></td><td class="p-2 border"><strong>3</strong></td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.2. Phân loại TI-RADS theo tổng điểm</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Tổng điểm</th><th class="p-2 border whitespace-nowrap">TI-RADS Level</th><th class="p-2 border whitespace-nowrap">Nguy cơ ác tính</th><th class="p-2 border whitespace-nowrap">Khuyến cáo</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>0</strong></td><td class="p-2 border">TR1 — Lành tính (Benign)</td><td class="p-2 border">≤ 2%</td><td class="p-2 border">Không cần FNA</td></tr><tr class=""><td class="p-2 border"><strong>2</strong></td><td class="p-2 border">TR2 — Không nghi ngờ (Not Suspicious)</td><td class="p-2 border">≤ 2%</td><td class="p-2 border">Không cần FNA</td></tr><tr class=""><td class="p-2 border"><strong>3</strong></td><td class="p-2 border">TR3 — Nghi ngờ nhẹ (Mildly Suspicious)</td><td class="p-2 border">≤ 5%</td><td class="p-2 border">FNA nếu ≥ <strong>2.5 cm</strong>; theo dõi nếu ≥ <strong>1.5 cm</strong></td></tr><tr class=""><td class="p-2 border"><strong>4-6</strong></td><td class="p-2 border">TR4 — Nghi ngờ vừa (Moderately Suspicious)</td><td class="p-2 border">5-20%</td><td class="p-2 border">FNA nếu ≥ <strong>1.5 cm</strong>; theo dõi nếu ≥ <strong>1.0 cm</strong></td></tr><tr class=""><td class="p-2 border"><strong>≥ 7</strong></td><td class="p-2 border">TR5 — Nghi ngờ cao (Highly Suspicious)</td><td class="p-2 border">≥ 20%</td><td class="p-2 border">FNA nếu ≥ <strong>1.0 cm</strong>; theo dõi nếu ≥ <strong>0.5 cm</strong></td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.3. Các đặc điểm lành tính điển hình</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Nang đơn thuần</strong>: trống âm, thành mỏng, không có thành phần đặc → TR1, không FNA</li>
+<li><strong>Dạng bọt biển (Spongiform)</strong>: nốt echo đồng nhất, nhiều nang nhỏ như bọt biển → TR1</li>
+<li><strong>Nốt tăng echo đồng nhất, bờ nhẵn, rộng hơn cao, không chấm echo dày</strong>: thường là lành tính</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.4. Các đặc điểm nghi ngờ ác tính (cần chú ý)</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Cao hơn rộng (Taller-than-wide)</strong> → TIỀN LƯỢNG ÁC TÍNH RẤT CAO (3 điểm)</li>
+<li><strong>Giảm echo rất mạnh</strong> (very hypoechoic) → 3 điểm</li>
+<li><strong>Chấm echo dày nhỏ (microcalcifications)</strong> → 3 điểm</li>
+<li><strong>Bờ xâm lấn ngoài tuyến</strong> → 3 điểm</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">6. CÁC DẤU HIỆU BẤT THƯỜNG HAY GẶP</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.1. Nốt giáp lành tính (Benign Nodule)</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Hình dạng</strong></td><td class="p-2 border">Oval, rộng hơn cao</td></tr><tr class=""><td class="p-2 border"><strong>Bờ</strong></td><td class="p-2 border">Nhẵn, rõ</td></tr><tr class=""><td class="p-2 border"><strong>Echo</strong></td><td class="p-2 border">Đồng echo hoặc tăng echo</td></tr><tr class=""><td class="p-2 border"><strong>Viền Halo</strong></td><td class="p-2 border">Viền echo kém mỏng bao quanh (dấu hiệu lành tính)</td></tr><tr class=""><td class="p-2 border"><strong>Thoái hóa nang</strong></td><td class="p-2 border">Vùng echo trống trong nốt (do hoại tử/keo hóa lỏng)</td></tr><tr class=""><td class="p-2 border"><strong>Đuôi sao chổi (Comet-tail artifact)</strong></td><td class="p-2 border">Dấu hiệu đặc trưng của nốt keo (colloid nodule) — LÀNH TÍNH</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.2. Bướu giáp đa nhân (Multinodular Goiter)</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Tuyến giáp to</strong></td><td class="p-2 border">Thể tích tăng rõ, có thể chèn ép khí quản</td></tr><tr class=""><td class="p-2 border"><strong>Nhiều nốt</strong></td><td class="p-2 border">Kích thước, echo khác nhau; có thể nang, đặc, hoặc hỗn hợp</td></tr><tr class=""><td class="p-2 border"><strong>Vôi hóa</strong></td><td class="p-2 border">Vôi hóa thô, vôi hóa viền (hình "vỏ trứng")</td></tr><tr class=""><td class="p-2 border"><strong>Nguy cơ ác tính</strong></td><td class="p-2 border">Tương đương nốt đơn độc — MỖI NỐT phải được phân loại TI-RADS riêng</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.3. Viêm giáp Hashimoto (Hashimoto's Thyroiditis)</h3>
+<p class="text-stone-700 mb-3">Là bệnh tự miễn phổ biến nhất của tuyến giáp, gây suy giáp.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu siêu âm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Nhu mô giảm echo lan tỏa</strong></td><td class="p-2 border">Echo rất kém, "giả u" (pseudonodule)</td></tr><tr class=""><td class="p-2 border"><strong>Dải xơ (Fibrous septa)</strong></td><td class="p-2 border">Các dải echo dày chạy trong nhu mô</td></tr><tr class=""><td class="p-2 border"><strong>Bề mặt không đều</strong></td><td class="p-2 border">Viền bao tuyến không nhẵn</td></tr><tr class=""><td class="p-2 border"><strong>Tăng sinh mạch lan tỏa</strong></td><td class="p-2 border">Doppler thấy tăng tín hiệu mạch máu</td></tr><tr class=""><td class="p-2 border"><strong>Giả u (Pseudonodule)</strong></td><td class="p-2 border">Vùng echo kém khu trú dạng nốt, KHÔNG có viền rõ → dễ nhầm với nốt thật</td></tr><tr class=""><td class="p-2 border"><strong>Vi vôi hóa</strong></td><td class="p-2 border">Có thể có (tăng nguy cơ lymphoma giáp hoặc PTC trên nền Hashimoto)</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.4. Bệnh Basedow (Graves' Disease)</h3>
+<p class="text-stone-700 mb-3">Bệnh tự miễn gây cường giáp.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu siêu âm</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>"Thyroid inferno"</strong></td><td class="p-2 border">Tăng sinh mạch máu lan tỏa RẤT MẠNH trên Doppler màu — dấu hiệu gần như chẩn đoán</td></tr><tr class=""><td class="p-2 border"><strong>Nhu mô giảm echo lan tỏa</strong></td><td class="p-2 border">Không đồng nhất</td></tr><tr class=""><td class="p-2 border"><strong>Tuyến giáp to</strong></td><td class="p-2 border">Thường to lan tỏa, không có nốt khu trú</td></tr><tr class=""><td class="p-2 border"><strong>Tăng vận tốc dòng chảy</strong></td><td class="p-2 border">ĐM giáp trên và ĐM giáp dưới có PSV tăng cao</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.5. Ung thư tuyến giáp (Thyroid Cancer)</h3>
+<p class="text-stone-700 mb-3"><strong>A. Ung thư tuyến giáp thể nhú (PTC — Papillary Thyroid Carcinoma):</strong></p>
+<p class="text-stone-700 mb-3">Chiếm <strong>80-85%</strong> ung thư giáp. Tiên lượng tốt.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Giảm echo</strong></td><td class="p-2 border">Rất giảm echo (very hypoechoic)</td></tr><tr class=""><td class="p-2 border"><strong>Cao hơn rộng (Taller-than-wide)</strong></td><td class="p-2 border">Dấu hiệu đặc trưng nhất trên mặt cắt ngang</td></tr><tr class=""><td class="p-2 border"><strong>Bờ tua gai / không đều (Spiculated/Irregular)</strong></td><td class="p-2 border">Xâm lấn vi thể</td></tr><tr class=""><td class="p-2 border"><strong>Chấm echo dày nhỏ (Microcalcifications)</strong></td><td class="p-2 border">Dấu hiệu RẤT gợi ý PTC</td></tr><tr class=""><td class="p-2 border"><strong>Hạch di căn</strong></td><td class="p-2 border">Hạch cổ tròn, mất rốn hạch, có vi vôi hóa, có thành phần nang</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>B. Ung thư thể nang (FTC — Follicular Thyroid Carcinoma):</strong></p>
+<p class="text-stone-700 mb-3">Chiếm ~10%. Khó phân biệt với u tuyến lành tính trên siêu âm.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Nốt đặc, đồng echo hoặc tăng echo</strong></td><td class="p-2 border">Thường không có đặc điểm ác tính rõ rệt</td></tr><tr class=""><td class="p-2 border"><strong>Viền Halo dày, không đều</strong></td><td class="p-2 border">Phân biệt với viền mỏng của u lành</td></tr><tr class=""><td class="p-2 border"><strong>Xâm lấn mạch máu</strong></td><td class="p-2 border">Chỉ thấy trên mô bệnh học (không thấy trên siêu âm)</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>C. Ung thư thể tủy (MTC — Medullary Thyroid Carcinoma):</strong></p>
+<p class="text-stone-700 mb-3">Chiếm ~5%. Liên quan MEN2. Sản xuất calcitonin.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Nốt giảm echo, đặc</strong></td><td class="p-2 border">Thường ở 1/3 trên thùy giáp</td></tr><tr class=""><td class="p-2 border"><strong>Vôi hóa thô</strong></td><td class="p-2 border">Phổ biến</td></tr><tr class=""><td class="p-2 border"><strong>Hạch di căn sớm</strong></td><td class="p-2 border">Tiên lượng xấu hơn PTC nếu di căn</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>D. Ung thư thể không biệt hóa (Anaplastic Thyroid Carcinoma):</strong></p>
+<p class="text-stone-700 mb-3">Rất hiếm (<2%), cực kỳ xâm lấn, tiên lượng rất xấu.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Dấu hiệu</th><th class="p-2 border whitespace-nowrap">Mô tả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Khối to xâm lấn</strong></td><td class="p-2 border">Xâm lấn khí quản, thực quản, bó mạch cảnh</td></tr><tr class=""><td class="p-2 border"><strong>Hoại tử, vôi hóa thô</strong></td><td class="p-2 border">Echo hỗn hợp, bờ không rõ</td></tr><tr class=""><td class="p-2 border"><strong>Hạch di căn rộng</strong></td><td class="p-2 border"></td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.6. Hạch cổ — lành tính vs ác tính</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Đặc điểm</th><th class="p-2 border whitespace-nowrap">Lành tính</th><th class="p-2 border whitespace-nowrap">Ác tính / Di căn</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Hình dạng</strong></td><td class="p-2 border">Bầu dục dẹt (tỷ lệ dài/ngang >2)</td><td class="p-2 border">Tròn (tỷ lệ dài/ngang <2)</td></tr><tr class=""><td class="p-2 border"><strong>Rốn hạch (Hilum)</strong></td><td class="p-2 border"><strong>CÓ</strong> — echo dày ở trung tâm</td><td class="p-2 border"><strong>MẤT</strong> rốn hạch</td></tr><tr class=""><td class="p-2 border"><strong>Vỏ hạch</strong></td><td class="p-2 border">Mỏng, đều</td><td class="p-2 border">Dày, không đều</td></tr><tr class=""><td class="p-2 border"><strong>Vôi hóa</strong></td><td class="p-2 border">Không</td><td class="p-2 border"><strong>Có</strong> (vi vôi hóa = đặc trưng di căn PTC)</td></tr><tr class=""><td class="p-2 border"><strong>Thành phần nang</strong></td><td class="p-2 border">Không</td><td class="p-2 border">Có thể có (PTC di căn)</td></tr><tr class=""><td class="p-2 border"><strong>Doppler</strong></td><td class="p-2 border">Mạch máu rốn hạch</td><td class="p-2 border">Mạch máu ngoại vi hoặc hỗn hợp</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">7. DOPPLER TUYẾN GIÁP</h2>
+<p class="text-stone-700 mb-3">Doppler màu và Doppler năng lượng (power Doppler) giúp đánh giá tình trạng mạch máu của tuyến giáp và các nốt.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.1. Phân loại mạch máu trong nốt</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Pattern</th><th class="p-2 border whitespace-nowrap">Mô tả</th><th class="p-2 border whitespace-nowrap">Gợi ý</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Type I — Không mạch máu</strong></td><td class="p-2 border">Không tín hiệu Doppler</td><td class="p-2 border">Nang, nốt keo</td></tr><tr class=""><td class="p-2 border"><strong>Type II — Mạch máu ngoại vi (Peripheral)</strong></td><td class="p-2 border">Mạch máu viền quanh nốt</td><td class="p-2 border">Lành tính (u tuyến, bướu keo)</td></tr><tr class=""><td class="p-2 border"><strong>Type III — Mạch máu trung tâm (Central)</strong></td><td class="p-2 border">Mạch máu chủ yếu trong nốt</td><td class="p-2 border">Nghi ngờ ác tính (không đặc hiệu)</td></tr><tr class=""><td class="p-2 border"><strong>Type IV — Mạch máu hỗn hợp (Mixed)</strong></td><td class="p-2 border">Cả ngoại vi và trung tâm</td><td class="p-2 border">Không đặc hiệu</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Lưu ý</strong>: Doppler KHÔNG phải là tiêu chí độc lập để phân biệt lành/ác. Nốt lành có thể tăng sinh mạch (u tuyến); nốt ác có thể ít mạch. Doppler bổ trợ, không thay thế TI-RADS.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.2. Doppler trong bệnh lý lan tỏa</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Bệnh lý</th><th class="p-2 border whitespace-nowrap">Pattern Doppler đặc trưng</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Basedow (Graves)</strong></td><td class="p-2 border">"Thyroid inferno" — tăng sinh mạch lan tỏa CỰC MẠNH; PSV ĐM giáp trên tăng cao</td></tr><tr class=""><td class="p-2 border"><strong>Hashimoto (giai đoạn hoạt động)</strong></td><td class="p-2 border">Tăng sinh mạch lan tỏa vừa phải</td></tr><tr class=""><td class="p-2 border"><strong>Hashimoto (giai đoạn xơ teo)</strong></td><td class="p-2 border">Giảm mạch máu (hypovascular)</td></tr><tr class=""><td class="p-2 border"><strong>Viêm giáp bán cấp (de Quervain)</strong></td><td class="p-2 border">Giảm mạch máu khu trú ở vùng viêm</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">8. CHỈ ĐỊNH FNA THEO ACR TI-RADS</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">8.1. Bảng chỉ định FNA</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">TI-RADS</th><th class="p-2 border whitespace-nowrap">Tổng điểm</th><th class="p-2 border whitespace-nowrap">Kích thước chỉ định FNA</th><th class="p-2 border whitespace-nowrap">Theo dõi (nếu không FNA)</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>TR1</strong> (Lành tính)</td><td class="p-2 border">0</td><td class="p-2 border"><strong>Không FNA</strong></td><td class="p-2 border">Không cần theo dõi</td></tr><tr class=""><td class="p-2 border"><strong>TR2</strong> (Không nghi ngờ)</td><td class="p-2 border">2</td><td class="p-2 border"><strong>Không FNA</strong></td><td class="p-2 border">Không cần theo dõi</td></tr><tr class=""><td class="p-2 border"><strong>TR3</strong> (Nghi ngờ nhẹ)</td><td class="p-2 border">3</td><td class="p-2 border">≥ <strong>2.5 cm</strong></td><td class="p-2 border">Siêu âm theo dõi sau 1, 3, 5 năm nếu ≥ 1.5 cm</td></tr><tr class=""><td class="p-2 border"><strong>TR4</strong> (Nghi ngờ vừa)</td><td class="p-2 border">4-6</td><td class="p-2 border">≥ <strong>1.5 cm</strong></td><td class="p-2 border">Siêu âm theo dõi sau 1, 2, 3, 5 năm nếu ≥ 1.0 cm</td></tr><tr class=""><td class="p-2 border"><strong>TR5</strong> (Nghi ngờ cao)</td><td class="p-2 border">≥ 7</td><td class="p-2 border">≥ <strong>1.0 cm</strong></td><td class="p-2 border">Siêu âm theo dõi hàng năm trong 5 năm nếu ≥ 0.5 cm</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">8.2. Khi nào không cần FNA dù TR cao?</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Nốt < 1 cm</strong> (dù TR5) — trừ khi có yếu tố nguy cơ cao (di căn hạch, xâm lấn ngoài tuyến, tiền sử gia đình)</li>
+<li><strong>Nang đơn thuần</strong> (TR1) — kể cả khi kích thước lớn, trừ khi có triệu chứng chèn ép</li>
+<li><strong>Dạng bọt biển (Spongiform)</strong> — lành tính, không cần FNA bất kể kích thước</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">8.3. Kết quả FNA — Phân loại Bethesda</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Bethesda</th><th class="p-2 border whitespace-nowrap">Chẩn đoán</th><th class="p-2 border whitespace-nowrap">Nguy cơ ác tính</th><th class="p-2 border whitespace-nowrap">Xử trí</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>I</strong></td><td class="p-2 border">Không đạt (Non-diagnostic)</td><td class="p-2 border">1-4%</td><td class="p-2 border">FNA lại sau 3 tháng</td></tr><tr class=""><td class="p-2 border"><strong>II</strong></td><td class="p-2 border">Lành tính (Benign)</td><td class="p-2 border">0-3%</td><td class="p-2 border">Theo dõi siêu âm</td></tr><tr class=""><td class="p-2 border"><strong>III</strong></td><td class="p-2 border">Tế bào không điển hình ý nghĩa không xác định (AUS/FLUS)</td><td class="p-2 border">5-15%</td><td class="p-2 border">FNA lại ± xét nghiệm phân tử</td></tr><tr class=""><td class="p-2 border"><strong>IV</strong></td><td class="p-2 border">U tuyến thể nang / nghi ngờ u thể nang (FN/SFN)</td><td class="p-2 border">15-30%</td><td class="p-2 border">Phẫu thuật chẩn đoán (cắt thùy)</td></tr><tr class=""><td class="p-2 border"><strong>V</strong></td><td class="p-2 border">Nghi ngờ ác tính (Suspicious for Malignancy)</td><td class="p-2 border">60-75%</td><td class="p-2 border">Phẫu thuật (cắt toàn bộ tuyến giáp)</td></tr><tr class=""><td class="p-2 border"><strong>VI</strong></td><td class="p-2 border">Ác tính (Malignant)</td><td class="p-2 border">97-99%</td><td class="p-2 border">Phẫu thuật (cắt toàn bộ tuyến giáp)</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">9. LƯU ĐỒ QUYẾT ĐỊNH LÂM SÀNG</h2>
+<div class="mermaid text-center my-6">flowchart TD
+    START["SIÊU ÂM TUYẾN GIÁP<br>Linear probe 7-15 MHz"] --> SCAN["Quét ngang + dọc toàn bộ<br>Đo KT từng thùy + eo"]
+    SCAN --> NODULE{"Phát hiện nốt?"}
+    NODULE -->|"KHÔNG"| DIFFUSE["Đánh giá nhu mô lan tỏa<br>Hashimoto? Basedow?"]
+    DIFFUSE --> DOPPLER["Doppler → 'thyroid inferno'?<br>→ TSH, FT4, TRAb"]
+    DOPPLER --> DONE["KẾT LUẬN<br>Theo dõi / điều trị nội khoa"]
+    NODULE -->|"CÓ"| TIRADS["Phân loại TI-RADS<br>5 tiêu chí ACR<br>→ Tính tổng điểm"]
+    TIRADS --> NODES["Khảo sát hạch cổ<br>Hạch bất thường?"]
+    NODES --> RISK{"TI-RADS Level?"}
+    RISK -->|"TR1-TR2<br>(0-2 điểm)"| BENIGN["LÀNH TÍNH<br>Không FNA<br>Theo dõi nếu triệu chứng"]
+    RISK -->|"TR3<br>(3 điểm)"| IF3{"KT<br>≥ 2.5cm?"}
+    IF3 -->|"CÓ"| FNA["FNA<br>(Bethesda)"]
+    IF3 -->|"KHÔNG"| FU3["Theo dõi SA<br>1, 3, 5 năm"]
+    RISK -->|"TR4<br>(4-6 điểm)"| IF4{"KT<br>≥ 1.5cm?"}
+    IF4 -->|"CÓ"| FNA
+    IF4 -->|"KHÔNG"| FU4["Theo dõi SA<br>1, 2, 3, 5 năm"]
+    RISK -->|"TR5<br>(≥7 điểm)"| IF5{"KT<br>≥ 1.0cm?"}
+    IF5 -->|"CÓ"| FNA
+    IF5 -->|"KHÔNG"| FU5["Theo dõi SA<br>hàng năm × 5 năm"]
+    FNA --> BETH{"Bethesda?"}
+    BETH -->|"I"| REFNA["FNA lại sau 3 tháng"]
+    BETH -->|"II"| B_FU["Theo dõi siêu âm"]
+    BETH -->|"III-IV"| SURGERY1["Xét nghiệm phân tử<br>± Phẫu thuật chẩn đoán"]
+    BETH -->|"V-VI"| SURGERY2["Phẫu thuật<br>Cắt toàn bộ tuyến giáp"]
+    
+    style START fill:#e3f2fd,stroke:#1976d2
+    style TIRADS fill:#fff3cd,stroke:#f57c00
+    style BENIGN fill:#c8e6c9,stroke:#388e3c
+    style FNA fill:#ffcdd2,stroke:#c62828
+    style SURGERY2 fill:#ffcdd2,stroke:#c62828</div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">10. SAI LẦM THƯỜNG GẶP</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">#</th><th class="p-2 border whitespace-nowrap">Sai lầm</th><th class="p-2 border whitespace-nowrap">Hậu quả</th><th class="p-2 border whitespace-nowrap">Cách tránh</th></tr></thead><tbody><tr class=""><td class="p-2 border">1</td><td class="p-2 border"><strong>Dùng đầu dò convex (C5-2) thay vì linear</strong></td><td class="p-2 border">Độ phân giải kém, bỏ sót vi vôi hóa và bờ tua gai</td><td class="p-2 border">Luôn dùng <strong>linear probe 7-15 MHz</strong> cho tuyến giáp</td></tr><tr class=""><td class="p-2 border">2</td><td class="p-2 border"><strong>Không kê gối dưới vai</strong></td><td class="p-2 border">Cổ không ngửa đủ, bỏ sót phần dưới thùy giáp và hạch trung thất trên</td><td class="p-2 border">Kê gối dưới vai, cổ ngửa tối đa</td></tr><tr class=""><td class="p-2 border">3</td><td class="p-2 border"><strong>Chỉ phân loại TI-RADS 1 nốt lớn nhất</strong></td><td class="p-2 border">Bỏ sót nốt nhỏ nhưng TR5 ở thùy còn lại</td><td class="p-2 border">MỖI NỐT phải được phân loại TI-RADS riêng biệt</td></tr><tr class=""><td class="p-2 border">4</td><td class="p-2 border"><strong>Nhầm thực quản với nốt giáp</strong></td><td class="p-2 border">Chẩn đoán sai, FNA không cần thiết</td><td class="p-2 border">Thực quản có hình "target sign" đa lớp, nằm sau thùy TRÁI; cho BN nuốt → thực quản di động</td></tr><tr class=""><td class="p-2 border">5</td><td class="p-2 border"><strong>Không khảo sát hạch cổ</strong></td><td class="p-2 border">Bỏ sót di căn hạch — thay đổi hoàn toàn kế hoạch điều trị</td><td class="p-2 border">Luôn khảo sát hạch cổ 2 bên (Level I-VI) khi có nốt giáp</td></tr><tr class=""><td class="p-2 border">6</td><td class="p-2 border"><strong>FNA nốt nang đơn thuần</strong></td><td class="p-2 border">Kết quả không đạt (Bethesda I), BN đau, tốn kém</td><td class="p-2 border">Nang đơn thuần (TR1) → không FNA, trừ khi có triệu chứng chèn ép</td></tr><tr class=""><td class="p-2 border">7</td><td class="p-2 border"><strong>Không đo 3 chiều nốt</strong></td><td class="p-2 border">Không đánh giá được "taller-than-wide" — bỏ sót dấu hiệu ác tính quan trọng</td><td class="p-2 border">Đo dài × ngang × dày ở mặt cắt dọc và ngang</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">11. ÁP DỤNG TẠI VIỆT NAM</h2>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Tình hình bệnh lý tuyến giáp tại VN</strong>: Tỷ lệ bướu giáp cao (thiếu i-ốt trước đây); ung thư giáp tăng nhanh (đặc biệt PTC), là 1 trong 10 ung thư phổ biến nhất ở nữ.</li>
+<li><strong>Máy siêu âm</strong>: Phần lớn BV tuyến huyện có máy siêu âm nhưng <strong>không phải lúc nào cũng có linear probe</strong>. Cần vận động trang bị đầu dò linear 7-12 MHz.</li>
+<li><strong>FNA</strong>: Có sẵn ở BV tỉnh trở lên. Bethesda System được áp dụng rộng rãi. Xét nghiệm phân tử (BRAF V600E, TERT promoter) có ở các trung tâm lớn (K, Bạch Mai, ĐH Y Dược, Vinmec).</li>
+<li><strong>Điều trị</strong>: Phẫu thuật tuyến giáp phổ biến (mổ mở và nội soi). I-131 có ở BV Ung Bướu, BV Chợ Rẫy, BV Bạch Mai.</li>
+<li><strong>Lưu ý tại VN</strong>: Bướu giáp đa nhân lành tính phổ biến — tránh phẫu thuật quá mức. Phân biệt giả u (pseudonodule) trong Hashimoto với nốt thật sự.</li>
+<li><strong>Sàng lọc</strong>: Chưa có chương trình sàng lọc quốc gia. Siêu âm tuyến giáp thường được làm khi BN đi khám sức khỏe tổng quát.</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">12. TIPS THỰC HÀNH — 10 TIPS</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Linear probe là BẮT BUỘC</strong> — nếu không có linear probe, không nên làm siêu âm tuyến giáp vì sẽ bỏ sót tổn thương</li>
+<li><strong>Kê gối dưới vai + cổ ngửa tối đa</strong> — không ngửa cổ đủ = bỏ sót 1/3 dưới thùy giáp</li>
+<li><strong>Mặt cắt ngang để đánh giá "taller-than-wide"</strong> — đây là dấu hiệu quan trọng nhất (3 điểm TI-RADS)</li>
+<li><strong>Đo 3 chiều MỖI nốt</strong> — ghi rõ dài × ngang × dày; nếu taller-than-wide → nghi ngờ ác tính</li>
+<li><strong>Đuôi sao chổi (comet-tail) = lành tính</strong> — đặc trưng của nốt keo, đừng nhầm với microcalcifications</li>
+<li><strong>Phân biệt thực quản với nốt giáp</strong> — thực quản nằm sau thùy TRÁI, có target sign, di động khi nuốt</li>
+<li><strong>Luôn khảo sát hạch cổ 2 bên</strong> — hạch tròn, mất rốn hạch, vi vôi hóa, nang hóa = di căn PTC</li>
+<li><strong>"Thyroid inferno" trên Doppler = Basedow</strong> — gần như chẩn đoán xác định, không cần sinh thiết</li>
+<li><strong>FNA nốt ≥ 1cm với TR5, ≥ 1.5cm với TR4, ≥ 2.5cm với TR3</strong> — tuân thủ đúng ngưỡng ACR</li>
+<li><strong>Kết quả Bethesda I (không đạt) → FNA lại sau 3 tháng</strong> — đừng vội phẫu thuật nếu chưa có chẩn đoán tế bào học rõ ràng</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">13. TỔNG KẾT — 10 ĐIỂM CẦN NHỚ</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Siêu âm tuyến giáp là kỹ thuật đầu tay</strong> — đánh giá nhu mô, nốt, hạch cổ, mạch máu</li>
+<li><strong>Linear probe 7-15 MHz là bắt buộc</strong> — không thay thế bằng convex probe</li>
+<li><strong>ACR TI-RADS gồm 5 tiêu chí</strong>: Thành phần (0-2đ) + Echo (0-3đ) + Hình dạng (0-3đ) + Bờ (0-3đ) + Chấm echo dày (0-3đ)</li>
+<li><strong>Taller-than-wide (3 điểm) + Microcalcifications (3 điểm) + Very hypoechoic (3 điểm)</strong> = bộ ba ác tính quan trọng nhất</li>
+<li><strong>TR1-TR2 (0-2đ)</strong>: không FNA; <strong>TR3 (3đ)</strong>: FNA ≥ 2.5cm; <strong>TR4 (4-6đ)</strong>: FNA ≥ 1.5cm; <strong>TR5 (≥7đ)</strong>: FNA ≥ 1.0cm</li>
+<li><strong>Hashimoto</strong>: nhu mô giảm echo lan tỏa + dải xơ; Basedow: "thyroid inferno" trên Doppler</li>
+<li><strong>PTC (80-85% K giáp)</strong>: giảm echo rất mạnh + taller-than-wide + microcalcifications + bờ tua gai</li>
+<li><strong>Hạch di căn</strong>: tròn, mất rốn hạch, vi vôi hóa, có thể có thành phần nang (đặc trưng PTC)</li>
+<li><strong>Bethesda System</strong>: I (không đạt) → FNA lại; II (lành) → theo dõi SA; III-IV → xét nghiệm phân tử ± phẫu thuật; V-VI → phẫu thuật</li>
+<li><strong>Tại Việt Nam</strong>: bướu giáp phổ biến, ung thư giáp tăng nhanh. Linear probe cần được trang bị. Tránh phẫu thuật quá mức nốt lành tính.</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">14. TÀI LIỆU THAM KHẢO</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Cantisani V, Radzina M, Dietrich CF, et al. (2026).</strong> "EFSUMB Guidelines on Multiparametric Ultrasound Thyroid Nodule Evaluation: PART I." <em>Ultraschall in der Medizin</em>, 47(3):253-262. PMID: <strong>41330556</strong>. DOI: 10.1055/a-2761-1191. [GUIDELINE VERIFIED — Tier 0, EFSUMB 2026 — GOLD STANDARD]</li>
+<li><strong>Vassallo E, Péporté A, McQueen A, et al. (2026).</strong> "ESR Essentials: Thyroid Imaging — Practice Recommendations by the European Society of Head and Neck Radiology." <em>European Radiology</em>, 36(5):3788-3796. PMID: <strong>41258456</strong>. DOI: 10.1007/s00330-025-12101-2. [GUIDELINE VERIFIED — Tier 0, ESR 2026]</li>
+<li><strong>Dietrich CF, Müller T, Bojunga J, et al. (2018).</strong> "Statement and Recommendations on Interventional Ultrasound as a Thyroid Diagnostic and Treatment Procedure." <em>Ultrasound in Medicine & Biology</em>, 44(1):14-36. PMID: <strong>29126752</strong>. [GUIDELINE VERIFIED — Tier 1, WFUMB Thyroid Intervention 2018]</li>
+<li><strong>Tessler FN, Middleton WD, Grant EG, et al. (2017).</strong> "ACR Thyroid Imaging, Reporting and Data System (TI-RADS): White Paper of the ACR TI-RADS Committee." <em>Journal of the American College of Radiology</em>, 14(5):587-595. [GUIDELINE VERIFIED — Tier 0, ACR TI-RADS original white paper]</li>
+<li><strong>Cibas ES, Ali SZ. (2017).</strong> "The 2017 Bethesda System for Reporting Thyroid Cytopathology." <em>Thyroid</em>, 27(11):1341-1346. [GUIDELINE VERIFIED — Tier 0, Bethesda 2017]</li></ol>
+<hr class="my-6 border-stone-300">
+<p class="text-stone-700 mb-3"><strong>— Hết bài học ngày 2026-06-28 —</strong></p>
+<p class="text-stone-700 mb-3"><strong>Bác sĩ:</strong> Ngọc 🍅 🐈‍⬛ | <strong>AI:</strong> MiniMax Mavis | <strong>Bài số 25</strong> | <strong>Chuyên khoa:</strong> Siêu âm tổng quát — Siêu âm tuyến giáp</p>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bác sĩ: Ngọc 🍅 🐈‍⬛ | AI: MiniMax Mavis | </p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,1394 @@
+{
+  "meta": {
+    "title": "Siêu âm theo dõi kích thích buồng trứng",
+    "author": "Bác sĩ Ngọc Hưng",
+    "subtitle": "Deck học cá nhân — engine slider3636"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "variant": "split_dark",
+      "title": "Siêu âm theo dõi quá trình kích thích buồng trứng",
+      "subtitle": "Chương 5 — Deck học cá nhân",
+      "author": "Bác sĩ Ngọc Hưng",
+      "specialty": "ART / IVF-ICSI",
+      "date": "2026-07-03"
+    },
+    {
+      "type": "outline",
+      "variant": "numbered",
+      "title": "Nội dung bài học",
+      "chapters": [
+        "I. Đại cương",
+        "II. Các phác đồ KTBT — 1. Dự trữ & đáp ứng",
+        "II. 2. Cơ sở lý thuyết của phác đồ",
+        "II. 3. Các phác đồ chính",
+        "II. 4. Thời điểm kích thích",
+        "II. 5. Liều FSH & theo dõi",
+        "II. 6. Trưởng thành noãn (trigger)",
+        "II. 7. Đông phôi toàn bộ",
+        "III. Kết luận & TLTK"
+      ]
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "I",
+      "part_title": "ĐẠI CƯƠNG",
+      "part_subtitle": "Siêu âm theo dõi quá trình kích thích buồng trứng"
+    },
+    {
+      "type": "content",
+      "title": "Đại cương — tầm quan trọng",
+      "variant": "bullets",
+      "points": [
+        "Kích thích buồng trứng là một bước rất quan trọng trong hỗ trợ sinh sản.",
+        "Đánh giá dự trữ buồng trứng trước KTBT giúp TIÊN LƯỢNG và ĐỊNH LIỀU FSH khởi đầu.",
+        "Liều quá thấp → nang thoái hóa.",
+        "Liều quá cao → nguy cơ quá kích buồng trứng + tăng chi phí."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Vai trò theo dõi trong KTBT",
+      "variant": "bullets",
+      "points": [
+        "Theo dõi sự phát triển nang noãn để kịp thời điều chỉnh liều.",
+        "Bổ sung antagonist đúng thời điểm.",
+        "Quyết định thời gian trưởng thành noãn (trigger).",
+        "Phát hiện sớm nguy cơ quá kích buồng trứng để điều chỉnh kịp thời."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Cập nhật: ASRM về ovarian reserve",
+      "variant": "bullets",
+      "points": [
+        "ASRM định nghĩa ovarian reserve là SỐ LƯỢNG NOÃN CÒN LẠI.",
+        "AMH và AFC hữu ích để dự đoán oocyte yield sau controlled ovarian stimulation.",
+        "Nhưng là POOR PREDICTORS của reproductive potential nếu tách khỏi yếu tố TUỔI.",
+        "PMID: 33280722"
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Cập nhật: ESHRE 2020 → 2025/2026",
+      "variant": "bullets",
+      "points": [
+        "ESHRE 2020: 84 khuyến cáo cho chọn phác đồ, liều, theo dõi, trigger, phòng OHSS.",
+        "ESHRE update 2025/2026: mở rộng thành 121 khuyến cáo.",
+        "Nhấn mạnh CÁ THỂ HÓA theo đáp ứng dự kiến, hiệu quả và an toàn.",
+        "PMID: 32395637; 41732035"
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.1",
+      "part_title": "Dự trữ buồng trứng & đáp ứng",
+      "part_subtitle": "Ovarian reserve ≠ Ovarian response"
+    },
+    {
+      "type": "content",
+      "title": "Khái niệm dự trữ buồng trứng",
+      "variant": "bullets",
+      "points": [
+        "Trước KTBT, phải đánh giá dự trữ buồng trứng (ovarian reserve).",
+        "Mục tiêu: tiên lượng khả năng thu được noãn sau KTBT và định liều FSH khởi đầu.",
+        "Các marker: tuổi, FSH đầu chu kỳ, AFC, AMH, trọng lượng, tiền sử."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "4 marker dự trữ buồng trứng chính",
+      "variant": "bullets",
+      "points": [
+        "1) Tuổi: càng tăng thì dự trữ càng giảm.",
+        "2) FSH đầu chu kỳ: nếu trên 10 IU/L thì dự trữ giảm.",
+        "3) AFC: đếm số nang thứ cấp trên siêu âm.",
+        "4) AMH: Anti-Mullerian Hormone.",
+        "Hiện nay AFC và AMH là hai chỉ số được sử dụng nhiều nhất."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Ovarian response — đáp ứng buồng trứng",
+      "variant": "bullets",
+      "points": [
+        "Không phải bệnh nhân nào có dự trữ tốt cũng đáp ứng tốt.",
+        "Ovarian response là KHẢ NĂNG PHÁT TRIỂN nang noãn khi KTBT.",
+        "FOI (follicle-oocyte-index): số noãn chọc hút / số nang thứ cấp.",
+        "FORT (Follicular Output Rate): số nang trưởng thành / số nang thứ cấp."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "two_column",
+      "title": "Dự trữ vs Đáp ứng",
+      "variant": "vs_compare",
+      "left_title": "Ovarian reserve",
+      "left_points": [
+        "Số lượng noãn tiềm năng",
+        "AMH/AFC dự đoán oocyte yield",
+        "Không phản ánh chất lượng noãn"
+      ],
+      "right_title": "Ovarian response",
+      "right_points": [
+        "Số nang/noãn THỰC TẾ sau KTBT",
+        "Phụ thuộc liều, protocol, tiền sử",
+        "Có thể khác dự đoán ban đầu"
+      ],
+      "note": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Cập nhật: Reserve ≠ Response",
+      "variant": "bullets",
+      "points": [
+        "Reserve là số lượng tiềm năng; response là số nang/noãn THỰC SỰ thu được.",
+        "AMH/AFC thấp thường nguy cơ đáp ứng kém.",
+        "TUỔI vẫn là yếu tố lớn nhất chi phối chất lượng noãn và tiên lượng sinh sống."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "table",
+      "variant": "comparison_highlight",
+      "title": "Bảng cập nhật — Marker dự trữ buồng trứng",
+      "headers": [
+        "Marker",
+        "Dự đoán tốt",
+        "Hạn chế",
+        "Ghi nhớ"
+      ],
+      "rows": [
+        [
+          "AMH",
+          "Oocyte yield",
+          "Không thay tuổi để dự đoán chất lượng",
+          "Ổn định → lấy bất kỳ ngày"
+        ],
+        [
+          "AFC",
+          "Số nang huy động",
+          "Phụ thuộc người siêu âm",
+          "Cần siêu âm tốt"
+        ],
+        [
+          "FSH",
+          "Reserve giảm khi tăng rõ",
+          "Dao động giữa các chu kỳ",
+          "Hữu ích khi AMH/AFC thấp"
+        ],
+        [
+          "Tuổi",
+          "Chất lượng noãn & lệch bội",
+          "Không đo số nang trực tiếp",
+          "Biến tiên lượng lớn nhất"
+        ]
+      ]
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.1.1",
+      "part_title": "Đếm số nang thứ cấp (AFC)",
+      "part_subtitle": ""
+    },
+    {
+      "type": "content",
+      "title": "AFC — Định nghĩa",
+      "variant": "bullets",
+      "points": [
+        "Nang thứ cấp: các nang có kích thước từ 2 đến 9 mm.",
+        "Đo và đếm vào ngày đầu chu kỳ kinh.",
+        "Đây là đoàn hệ nang đã được tuyển chọn từ trước, sẽ phát triển trong chu kỳ này và phụ thuộc FSH.",
+        "AFC được dùng để tiên lượng dự trữ buồng trứng và định liều FSH khởi đầu."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "AFC — Đánh giá độ đồng đều",
+      "variant": "bullets",
+      "points": [
+        "Trong siêu âm, cần đánh giá sự ĐỒNG ĐỀU của các nang.",
+        "Nang không đồng đều → phát triển không đều → có nang trưởng thành xen lẫn noãn thoái hóa và noãn non.",
+        "Một số tác giả chủ trương ĐỒNG BỘ HÓA bằng estrogen trong pha hoàng thể trước KTBT.",
+        "Mục tiêu: tăng số noãn, tăng số phôi."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "AFC — Tiếp cận đầu dò",
+      "variant": "bullets",
+      "points": [
+        "Đánh giá tiếp cận của đầu dò đến buồng trứng.",
+        "Buồng trứng xa đầu dò → KHÓ KHĂN khi chọc hút noãn.",
+        "Nguyên nhân có thể do VIÊM DÍNH, buồng trứng bị kéo cao.",
+        "Ảnh hưởng tới tưới máu buồng trứng → gián tiếp ảnh hưởng đáp ứng."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.1.2",
+      "part_title": "Nồng độ AMH",
+      "part_subtitle": ""
+    },
+    {
+      "type": "content",
+      "title": "AMH — Bản chất và nguồn gốc",
+      "variant": "bullets",
+      "points": [
+        "AMH là hormon kháng ống Muller.",
+        "Được bài tiết bởi các TẾ BÀO HẠT của nang noãn nhỏ và nang có hốc.",
+        "Tác dụng: ƯC CHẾ tuyển chọn nang noãn.",
+        "AMH giảm dần theo độ tuổi của người phụ nữ."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "AMH — Diễn giải lâm sàng",
+      "variant": "bullets",
+      "points": [
+        "PCOS: AMH CAO → nang không phát triển và trưởng thành được.",
+        "Giảm dự trữ buồng trứng: AMH rất thấp (số nang dự trữ còn lại ít).",
+        "Ưu điểm: nồng độ KHÔNG thay đổi trong chu kỳ → lấy bất kỳ ngày nào.",
+        "Chính xác và thuận tiện hơn so với FSH."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.1.3",
+      "part_title": "Các chỉ số khác",
+      "part_subtitle": "Tuổi, FSH, mục tiêu số noãn"
+    },
+    {
+      "type": "content",
+      "title": "Tuổi — Yếu tố quan trọng nhất",
+      "variant": "bullets",
+      "points": [
+        "Tuổi phản ánh một phần dự trữ buồng trứng nhưng không phải hoàn toàn.",
+        "Càng lớn tuổi thì dự trữ càng giảm.",
+        "Từ 35 tuổi trở lên: dự trữ giảm + tỷ lệ BẤT THƯỜNG NHIỄM SẮC THỂ TĂNG.",
+        "Hệ quả: tỷ lệ có thai THẤP."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "FSH đầu chu kỳ",
+      "variant": "bullets",
+      "points": [
+        "FSH là hormon hướng sinh dục do tuyến yên bài tiết.",
+        "Khi dự trữ buồng trứng giảm → FSH càng tăng cao.",
+        "FSH > 10 IU/L → dự trữ buồng trứng giảm rất nhiều, KTBT thường đáp ứng kém.",
+        "Hiện FSH chủ yếu được xem xét khi AFC và AMH thấp.",
+        "FSH cao ở bệnh nhân đã giảm dự trữ → tiên lượng KÉM hơn FSH bình thường."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Mục tiêu số noãn — nghiên cứu của Sunkara",
+      "variant": "bullets",
+      "points": [
+        "Mục đích KTBT trong IVF: đủ nang, chất lượng tốt, an toàn.",
+        "Nghiên cứu Sunkara (HFEA): phân tích 400.135 chu kỳ IVF.",
+        "Live birth rate TĂNG theo số noãn thu được đến khoảng 15 noãn.",
+        "Sau 15-20 noãn: PLATEAU, không tăng thêm.",
+        "Số noãn rất cao → LIVE BIRTH RATE GIẢM + tăng tỷ lệ OHSS."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "big_number",
+      "variant": "single_hero",
+      "title": "Số noãn tối ưu → ~15 noãn",
+      "stats": [
+        {
+          "value": "~15",
+          "label": "noãn là vùng tối ưu trong nghiên cứu HFEA 400.135 chu kỳ; sau đó plateau và nguy cơ tăng (PMID 21558332)"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "title": "Cập nhật: Mục tiêu không phải càng nhiều càng tốt",
+      "variant": "bullets",
+      "points": [
+        "Mục tiêu thực hành là TỐI ƯU số noãn đi kèm AN TOÀN.",
+        "Không phải kích càng nhiều càng tốt.",
+        "Số noãn rất cao → nguy cơ OHSS, không cải thiện live birth thêm.",
+        "PMID: 21558332"
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.2",
+      "part_title": "Cơ sở lý thuyết của phác đồ",
+      "part_subtitle": "FSH threshold – FSH window – LH control"
+    },
+    {
+      "type": "content",
+      "title": "Ba khái niệm cần phân biệt",
+      "variant": "bullets",
+      "points": [
+        "Ovarian stimulation: dùng thuốc kích thích nang phát triển (thường cho IUI).",
+        "COH (Controlled Ovarian Hyperstimulation): dùng thuốc + KIỂM SOÁT LH → tránh hoàng thể sớm (thường cho IVF).",
+        "Ovulation induction (trigger): kích thích nang vỡ, giải phóng noãn, giúp noãn MI → MII để thụ tinh."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "mechanism",
+      "variant": "horizontal_steps",
+      "title": "Giả thuyết hai hormon, hai tế bào",
+      "steps": [
+        {
+          "title": "LH",
+          "desc": "Kích thích tế bào vỏ → bài tiết androgen"
+        },
+        {
+          "title": "Androgen",
+          "desc": "Tác động vào tế bào hạt"
+        },
+        {
+          "title": "FSH",
+          "desc": "Thơm hóa androgen → estrogen"
+        },
+        {
+          "title": "Kết quả",
+          "desc": "Nếu thiếu LH → giảm thơm hóa → giảm estrogen"
+        }
+      ]
+    },
+    {
+      "type": "definition",
+      "variant": "term_box",
+      "term": "FSH threshold",
+      "definition": "Giá trị nồng độ FSH mà trên giá trị này nang noãn sẽ phát triển. MỖI NANG CÓ MỘT NGƯỠNG KHÁC NHAU."
+    },
+    {
+      "type": "definition",
+      "variant": "term_box",
+      "term": "FSH window",
+      "definition": "Khoảng thời gian nồng độ FSH nằm trên ngưỡng. Phải đủ lâu để nhiều nang cùng phát triển."
+    },
+    {
+      "type": "content",
+      "title": "Ngưỡng LH và cửa sổ LH",
+      "variant": "bullets",
+      "points": [
+        "Theo Howles: có một ‘cửa sổ’ nồng độ LH.",
+        "LH nằm trong cửa sổ → nang phát triển bình thường.",
+        "LH vượt quá ngưỡng → nang thoái hóa hoặc hoàng thể hóa sớm.",
+        "LH dưới ngưỡng → nang không phát triển được."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Cơ sở lý thuyết của phác đồ KTBT",
+      "variant": "bullets",
+      "points": [
+        "Nâng FSH lên trên ngưỡng + kéo dài FSH window → nhiều nang cùng phát triển.",
+        "Tránh hoàng thể hóa sớm → KIỂM SOÁT ĐỈNH LH.",
+        "Tăng FSH: dùng FSH NGOẠI SINH; liều tùy bệnh nhân.",
+        "Kiểm soát LH: GnRH agonist (phác đồ dài), GnRH antagonist (ngày 5-6), hoặc progestin (PPOS)."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Cập nhật: Antagonist được ưu tiên hơn",
+      "variant": "bullets",
+      "points": [
+        "Hiện nay phác đồ antagonist thường được ưu tiên ở nhiều nhóm bệnh nhân.",
+        "Lý do: thời gian NGẮN hơn, THUẬN TIỆN hơn, cho phép GnRH agonist trigger khi nguy cơ OHSS cao.",
+        "Phác đồ dài vẫn có vai trò chọn lọc nhưng KHÔNG còn là lựa chọn MẶC ĐỊNH cho mọi bệnh nhân IVF."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Kích thích buồng trứng KHÔNG làm giảm dự trữ",
+      "variant": "bullets",
+      "points": [
+        "KTBT chỉ làm TRÁNH THOÁI HÓA các nang lẽ ra sẽ bị thoái hóa.",
+        "KTBT KHÔNG làm giảm dự trữ buồng trứng.",
+        "Điểm cần tư vấn cho bệnh nhân: KTBT huy động nang của chu kỳ đó, không lấy nang của tương lai."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Follicular waves — nhiều đợt tuyển chọn",
+      "variant": "bullets",
+      "points": [
+        "Đầu chu kỳ: 1 đoàn hệ nang được tuyển chọn → 1-2 nang vượt trội (thuyết tuyển chọn đơn).",
+        "Hiện đã có bằng chứng: trong 1 chu kỳ có NHIỀU LÀN SÓNG tuyển chọn nang.",
+        "Đa số phụ nữ có HAI đợt: đợt 1 đầu pha nang, đợt 2 đầu pha hoàng thể.",
+        "Đây là cơ sở cho: DuoStim (KTBT kép) và Random start."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "DuoStim và Random start — chỉ định chọn lọc",
+      "variant": "bullets",
+      "points": [
+        "DuoStim: khuyến cáo cho giảm dự trữ buồng trứng nặng.",
+        "Random start: áp dụng khi cần bảo tồn sinh sản (hóa chất/tia xạ) → chạy đua thời gian.",
+        "HIỆN TẠI: dữ liệu về DuoStim và random start CHỈ khuyến cáo cho các tình huống chọn lọc.",
+        "KHÔNG phải phác đồ routine cho mọi bệnh nhân."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.3",
+      "part_title": "Các phác đồ kích thích buồng trứng",
+      "part_subtitle": "Agonist (dài / flare-up) — Antagonist — Các phác đồ khác"
+    },
+    {
+      "type": "content",
+      "title": "Hai loại phác đồ chính",
+      "variant": "bullets",
+      "points": [
+        "1) Phác đồ AGONIST: từng phổ biến, gồm phác đồ ngắn (flare up) và phác đồ dài (long protocol).",
+        "Flare up: lợi dụng tác dụng flare up của agonist → tăng FSH nội sinh + FSH ngoại sinh → KTBT.",
+        "Long protocol: ức chế tuyến yên bằng agonist từ giữa pha hoàng thể → dùng FSH ngoại sinh.",
+        "2) Phác đồ ANTAGONIST: kiểm soát đỉnh LH bằng antagonist, thân thiện hơn, an toàn hơn → đa phần trung tâm dùng."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.3.1",
+      "part_title": "Phác đồ dài (long protocol)",
+      "part_subtitle": ""
+    },
+    {
+      "type": "content",
+      "title": "Long protocol — Tổng quan",
+      "variant": "bullets",
+      "points": [
+        "Từng được sử dụng nhiều nhất, xem là phác đồ CHUẨN.",
+        "Ưu điểm: nang đồng đều, chất lượng noãn tốt (tuyến yên bị ức chế hoàn toàn trước KTBT).",
+        "Nhược điểm: kích thích dài ngày, dùng nhiều gonadotropin, nguy cơ OHSS CAO hơn."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Long protocol — Hai pha",
+      "variant": "bullets",
+      "points": [
+        "Pha 1 (ỨC CHẾ TUYẾN YÊN): GnRH agonist từ giữa pha hoàng thể → khi ức chế hoàn toàn.",
+        "Tiêu chí ức chế: LH < 5 IU/L và E2 < 50 pg/mL.",
+        "Thời gian dùng agonist: thường 12-14 ngày.",
+        "Pha 2 (KTBT): dùng FSH ngoại sinh, tiếp tục agonist liều giảm 1/2 so với ban đầu, đến ngày trưởng thành noãn."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "two_column",
+      "title": "Long protocol: Ưu và Nhược",
+      "variant": "vs_compare",
+      "left_title": "Ưu điểm",
+      "left_points": [
+        "Nang đồng đều",
+        "Chất lượng noãn tốt",
+        "Ức chế LH mạnh"
+      ],
+      "right_title": "Nhược điểm",
+      "right_points": [
+        "Thời gian dài",
+        "Nhiều FSH → tăng chi phí",
+        "OHSS cao hơn, nhất với PCOS",
+        "HIỆN RẤT ÍT DÙNG"
+      ],
+      "note": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.3.2",
+      "part_title": "Phác đồ ngắn (flare up)",
+      "part_subtitle": ""
+    },
+    {
+      "type": "content",
+      "title": "Flare up protocol — Cơ chế & giới hạn",
+      "variant": "bullets",
+      "points": [
+        "Dựa trên tác dụng FLARE UP của agonist → tăng FSH nội sinh + FSH ngoại sinh → KTBT.",
+        "NHƯỢC điểm lớn: tăng FSH nội sinh đi kèm TĂNG LH → KHÔNG kiểm soát tốt đỉnh LH.",
+        "Hệ quả: chất lượng noãn KHÔNG tốt, nang phát triển không đồng đều.",
+        "Thường áp dụng cho bệnh nhân LỚN TUỔI, GIẢM DỰ TRỮ.",
+        "HIỆN NAY: gần như rất ít được áp dụng."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Flare up — Cách thực hiện",
+      "variant": "bullets",
+      "points": [
+        "Bắt đầu GnRH agonist từ ngày thứ 2 của chu kỳ kinh.",
+        "Dùng ĐỒNG THỜI với FSH.",
+        "Theo dõi KTBT bằng siêu âm nang noãn, niêm mạc tử cung và định lượng hormon.",
+        "Khi đủ tiêu chuẩn → trigger bằng hCG."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.3.3",
+      "part_title": "Phác đồ đối vận (antagonist)",
+      "part_subtitle": ""
+    },
+    {
+      "type": "content",
+      "title": "Antagonist protocol — Ưu điểm nổi bật",
+      "variant": "bullets",
+      "points": [
+        "Áp dụng HẦU HẾT cho các bệnh nhân KTBT.",
+        "Lấy BỆNH NHÂN LÀM TRUNG TÂM.",
+        "Thời gian KTBT ngắn, ức chế đỉnh LH TỐT, chất lượng noãn tương tự phác đồ dài.",
+        "Thời gian kích thích NGẮN hơn, ít OHSS hơn.",
+        "Có thể trưởng thành noãn bằng AGONIST khi nguy cơ OHSS."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Antagonist — Cách thực hiện",
+      "variant": "bullets",
+      "points": [
+        "Gonadotropin (FSH) bắt đầu từ ngày thứ 2-3 của chu kỳ kinh.",
+        "Antagonist được dùng theo 2 cách:",
+        "FIXED: antagonist cố định vào ngày 5 hoặc 6 KTBT.",
+        "FLEXIBLE: antagonist khi nang lớn nhất đạt 14 mm, không muộn hơn ngày 7 KTBT.",
+        "Antagonist dùng song song FSH đến ngày trưởng thành noãn."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "two_column",
+      "title": "Fixed vs Flexible Antagonist",
+      "variant": "vs_compare",
+      "left_title": "Fixed",
+      "left_points": [
+        "Bắt đầu ngày 5-6 KTBT",
+        "Dễ vận hành, giảm nguy cơ quên/muộn",
+        "Thuận tiện khi logistics đông"
+      ],
+      "right_title": "Flexible",
+      "right_points": [
+        "Bắt khi nang lớn nhất ≈ 14 mm",
+        "Cá thể hóa hơn",
+        "Giảm số ngày dùng antagonist",
+        "Nhưng CẦN SIÊU ÂM đúng thời điểm"
+      ],
+      "note": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Cập nhật: Fixed vs Flexible",
+      "variant": "bullets",
+      "points": [
+        "Fixed: giảm nguy cơ quên/muộn antagonist, thuận tiện vận hành.",
+        "Flexible: giảm số ngày dùng antagonist nhưng đòi hỏi SIÊU ÂM đúng thời điểm.",
+        "Lựa chọn dựa trên: nguy cơ LH surge, logistics trung tâm, kinh nghiệm theo dõi."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.3.4",
+      "part_title": "Các phác đồ khác",
+      "part_subtitle": "Mild — DuoStim — PPOS"
+    },
+    {
+      "type": "content",
+      "title": "Mild stimulation",
+      "variant": "bullets",
+      "points": [
+        "Định nghĩa: kết hợp thuốc uống (clomiphene citrate hoặc aromatase inhibitor) + FSH liều thấp.",
+        "FSH thường không quá 150 đơn vị.",
+        "Có thể phù hợp ở một số bệnh nhân GIẢM DỰ TRỮ.",
+        "Nhưng cần đánh giá theo mục tiêu cá thể hóa: chi phí, số noãn kỳ vọng, đặc điểm bệnh nhân."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Duo stimulation — KTBT kép",
+      "variant": "bullets",
+      "points": [
+        "Tác giả Kuang Yanping báo cáo đầu tiên.",
+        "Chỉ định: GIẢM DỰ TRỮ NẶNG.",
+        "Kết quả: số noãn thu trong pha hoàng thể NHIỀU hơn pha nang noãn.",
+        "Chỉ định chủ yếu: giảm dự trữ + bảo tồn sinh sản trước hóa/xạ trị.",
+        "Một số nghiên cứu: tỷ lệ thu noãn và phôi pha hoàng thể > pha nang."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "PPOS — Progestin-Primed Ovarian Stimulation",
+      "variant": "bullets",
+      "points": [
+        "Nguyên lý: progestin ức chế đỉnh LH tương tự antagonist.",
+        "Khác biệt: tác dụng ức chế KHÔNG TỨC THỜI như antagonist → cần dùng SỚM hơn.",
+        "Nếu dùng dydrogesterone: bắt đầu NGAY từ khi KTBT, liều 30 mg/ngày.",
+        "Bắt buộc: ĐÔNG PHÔI TOÀN BỘ (nội mạc không đồng bộ với phôi)."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Cập nhật: PPOS và freeze-all",
+      "variant": "bullets",
+      "points": [
+        "PPOS là lựa chọn hữu ích khi dự kiến freeze-all.",
+        "Tình huống: bảo tồn sinh sản, nguy cơ OHSS, chiến lược đông phôi toàn bộ.",
+        "KHÔNG phù hợp nếu mục tiêu là chuyển phôi TƯƠI cùng chu kỳ."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.4",
+      "part_title": "Thời điểm kích thích buồng trứng",
+      "part_subtitle": ""
+    },
+    {
+      "type": "content",
+      "title": "Thời điểm theo phác đồ",
+      "variant": "bullets",
+      "points": [
+        "Long protocol: bắt đầu agonist từ GIỮ_A PHA HOÀNG THỂ, thông thường ngày 21 của chu kỳ, trong khoảng 2 tuần.",
+        "Sau khi tuyến yên bị ức chế hoàn toàn → chuyển sang FSH.",
+        "Flare up / Antagonist: bắt đầu ĐẦU CHU KỲ KINH, thường từ ngày 2 đến ngày 4.",
+        "Cơ sở: nang thứ cấp được tuyển mộ vào đầu chu kỳ, phát triển dưới tác dụng của FSH."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Random start — Cơ sở và chỉ định",
+      "variant": "bullets",
+      "points": [
+        "Xuất phát từ nghiên cứu bảo tồn sinh sản cho bệnh nhân ác tính.",
+        "Ở mỗi phụ nữ có thể có NHIỀU đợt sóng chiêu mộ nang (thường 2, cá biệt 3).",
+        "→ Có thể KTBT vào BẤT KỲ thời điểm nào nếu dự định đông phôi toàn bộ."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Nghiên cứu về thời điểm KTBT",
+      "variant": "bullets",
+      "points": [
+        "Liu và cs: bệnh nhân lớn tuổi/giảm dự trữ → số noãn PHA HOÀNG THỂ > PHA NANG.",
+        "Baris Ata phân tích: KTBT pha nang / pha hoàng thể / kép ở nhóm bảo tồn, giảm dự trữ, vô sinh.",
+        "Kết quả: số noãn, số phôi, tỷ lệ có thai TƯƠNG ĐƯƠNG khi KTBT bất kỳ thời điểm nào.",
+        "Pha hoàng thể: kết quả có phần NHỈNH hơn nhưng lượng FSH ngoại sinh NHIỀU hơn."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Cập nhật: Random start & DuoStim",
+      "variant": "bullets",
+      "points": [
+        "Random start và DuoStim là chiến lược CHỌN LỌC.",
+        "Random start phù hợp nhất khi cần rút ngắn thời gian trước điều trị gonadotoxic.",
+        "DuoStim: cân nhắc ở bệnh nhân tiên lượng kém/giảm dự trữ cần gom noãn nhanh.",
+        "KHÔNG phải phác đồ ROUTINE cho mọi bệnh nhân."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.5",
+      "part_title": "Liều FSH khởi đầu & theo dõi",
+      "part_subtitle": "Đánh giá trước KTBT — Theo dõi đáp ứng"
+    },
+    {
+      "type": "content",
+      "title": "Liều FSH khởi đầu — Các yếu tố",
+      "variant": "bullets",
+      "points": [
+        "Dựa vào: cân nặng, AMH, AFC, FSH đầu chu kỳ và TIỀN SỬ đáp ứng (nếu có).",
+        "La Marca: đề xuất cách xác định liều khởi đầu theo các chỉ số dự trữ.",
+        "Cũng có thể dựa vào AMH và cân nặng để định liều (ví dụ: follitropin delta)."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Liều FSH tối đa",
+      "variant": "bullets",
+      "points": [
+        "Các tác giả THỐNG NHẤT: liều FSH tối đa KHÔNG QUÁ 300 đơn vị/ngày.",
+        "Đây là liều đủ để KTBT.",
+        "Đã được ESHRE KHUYẾN CÁO."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Đáp ứng kém — Tăng liều có hiệu quả không?",
+      "variant": "bullets",
+      "points": [
+        "Đối với bệnh nhân đã dùng liều cao nhưng không đáp ứng:",
+        "Theo Khalaf Y và cs: VIỆC TĂNG LIỀU KHÔNG CẢI THIỆN được kết quả.",
+        "→ Tăng liều vô hạn ở poor responder là KHÔNG CÓ CƠ SỞ."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Cập nhật: Cá thể hóa liều (ESHRE)",
+      "variant": "bullets",
+      "points": [
+        "ESHRE khuyến cáo cá thể hóa liều gonadotropin theo đáp ứng dự kiến.",
+        "Poor responder: tăng liều rất cao thường KHÔNG đảm bảo tăng noãn tương xứng.",
+        "High responder: GIẢM liều + antagonist + agonist trigger + freeze-all → giảm OHSS.",
+        "PMID: 32395637"
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.5.1",
+      "part_title": "Đánh giá trước kích thích buồng trứng",
+      "part_subtitle": ""
+    },
+    {
+      "type": "criteria",
+      "variant": "score_points",
+      "title": "Siêu âm trước KTBT — Checklist",
+      "items": [
+        {
+          "text": "Đếm số nang thứ cấp (AFC)",
+          "points": "✓"
+        },
+        {
+          "text": "Có nang tồn dư hay không?",
+          "points": "✓"
+        },
+        {
+          "text": "Có bất thường buồng trứng? (nang lạc nội mạc tử cung...)",
+          "points": "✓"
+        },
+        {
+          "text": "Có bất thường tử cung?",
+          "points": "✓"
+        },
+        {
+          "text": "Đánh giá đường tiếp cận buồng trứng cho chọc hút",
+          "points": "✓"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "title": "Nang lạc nội mạc tử cung",
+      "variant": "bullets",
+      "points": [
+        "Có thể một hoặc nhiều nang, kích thước khác nhau.",
+        "Ranh giới rõ, âm vang không đều.",
+        "Nếu không ảnh hưởng đến chọc hút noãn → KHÔNG nhất thiết chọc hút trước KTBT.",
+        "Nếu nang to, tồn tại nhiều chu kỳ → CÂN NHẮC chọc hút trước KTBT."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Nang tồn dư buồng trứng",
+      "variant": "bullets",
+      "points": [
+        "Là các nang có kích thước to nhỏ khác nhau.",
+        "Nếu có nang kích thước trên 18 mm → cần chọc hút nang HOẶC chờ sang chu kỳ tiếp theo.",
+        "Trong thời gian chờ: có thể không dùng thuốc hoặc dùng viên tránh thai kết hợp."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Đánh giá tử cung trước KTBT",
+      "variant": "bullets",
+      "points": [
+        "Cần loại trừ các bất thường có thể ảnh hưởng kết quả có thai.",
+        "Tử cung ngả sau + không di động khi ấn đầu dò → thường do DÍNH (Lạc nội mạc tử cung).",
+        "Tiên lượng KHÔNG TỐT trong quá trình KTBT.",
+        "Cần phát hiện: u xơ cơ, polyp, vách ngăn → có thể cần trì hoãn chuyển phôi."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.5.2",
+      "part_title": "Theo dõi trong quá trình kích thích",
+      "part_subtitle": ""
+    },
+    {
+      "type": "content",
+      "title": "4 mục đích của theo dõi",
+      "variant": "bullets",
+      "points": [
+        "1) Đánh giá hiệu quả ức chế tuyến yên (down-regulation) trong phác đồ dài.",
+        "2) Theo dõi đáp ứng buồng trứng để THAY ĐỔI LIỀU nếu cần.",
+        "3) Xác định thời điểm dùng ANTAGONIST trong phác đồ đối vận linh hoạt.",
+        "4) Xác định thời điểm TRIGGER và phát hiện sớm OHSS."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Cập nhật: Checklist theo dõi siêu âm",
+      "variant": "bullets",
+      "points": [
+        "Mỗi lần siêu âm nên ghi:",
+        "Số nang theo NHÓM KÍCH THƯỚC.",
+        "Nang lớn nhất HAI BÊN.",
+        "Độ dày / hình thái NỘI MẠC.",
+        "Khả năng TIẾP CẬN buồng trứng khi chọc hút.",
+        "Dấu nguy cơ OHSS.",
+        "Kế hoạch: fresh transfer hay freeze-all.",
+        "Nội tiết (E2/LH/P4): KHÔNG nhất thiết mọi lần, nhưng hữu ích khi nghi OHSS / đáp ứng bất thường / LH surge / P4 tăng sớm."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.5.3",
+      "part_title": "Theo dõi sự đáp ứng",
+      "part_subtitle": ""
+    },
+    {
+      "type": "content",
+      "title": "Siêu âm theo từng phác đồ",
+      "variant": "bullets",
+      "points": [
+        "Long protocol: sau GnRH agonist 10-12 ngày, kiểm tra ức chế hoàn toàn.",
+        "Tiêu chí ức chế: LH < 5 IU/L, E2 < 50 pg/mL, siêu âm KHÔNG có nang tồn dư.",
+        "Sau đó bắt đầu FSH ngoại sinh + duy trì agonist liều giảm 1/2.",
+        "Antagonist / flare up: bắt đầu FSH từ ngày 2-3 khi siêu âm không có nang tồn dư và bất thường."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Lịch siêu âm trong theo dõi",
+      "variant": "bullets",
+      "points": [
+        "Siêu âm tiếp theo: ngày 6 hoặc 7 dùng FSH.",
+        "Đếm và đo kích thước TẤT CẢ nang hai bên + độ dày niêm mạc.",
+        "Sau đó: siêu âm cách 2 hoặc 1 ngày tùy kích thước nang.",
+        "Tốc độ phát triển nang ước đoán: 1-2 mm/ngày.",
+        "Fixed antagonist: KHÔNG cần siêu âm sớm (antagonist ngày cố định).",
+        "Flexible antagonist: BẮT BUỘC siêu âm ngày 6 để quyết định antagonist."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Cách đo kích thước nang",
+      "variant": "bullets",
+      "points": [
+        "Đo từ BỜ TRONG bên này đến BỜ TRONG bên đối diện.",
+        "Nang tròn đều: chỉ cần đo MỘT chiều.",
+        "Nang không tròn: đo HAI chiều (lớn nhất và bé nhất) → lấy GIÁ TRỊ TRUNG BÌNH."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Diễn biến kích thước nang theo thời gian",
+      "variant": "bullets",
+      "points": [
+        "Đầu chu kỳ: nang thứ cấp 2-9 mm.",
+        "Ngày 6-7: nang vượt trội ≥ 12 mm, tốc độ trung bình 2 mm/ngày.",
+        "Nang 14-24 mm: tỷ lệ thu noãn và thụ tinh TỐI ƯU.",
+        "Nang > 24 mm: số noãn thu được GIẢM.",
+        "Có thể quan sát GÒ NOÃN bên trong nang trước phóng noãn."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Buồng trứng nhiều nang / PCOS",
+      "variant": "bullets",
+      "points": [
+        "Buồng trứng ít nang: đo và đếm không quá khó.",
+        "Buồng trứng NHIỀU NANG (PCOS): các nang phát triển không đều → dễ BỎ SÓT hoặc ĐẾM LẶP.",
+        "Cần người có KINH NGHIỆM để siêu âm.",
+        "Máy siêu âm 3D với đầu dò âm đạo: lập ảnh 3D, mỗi nang hiển thị màu khác nhau → hạn chế sai số.",
+        "Nhưng giá thành CAO → không phải cơ sở nào cũng có."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Đánh giá niêm mạc tử cung",
+      "variant": "bullets",
+      "points": [
+        "Đo ở vị trí DÀY NHẤT trên đường cắt dọc.",
+        "Đặt con trỏ ở vị trí TIẾP GIÁP niêm mạc – cơ tử cung, đo VUÔNG GÓC với đường niêm mạc.",
+        "Có 3 loại hình thái:",
+        "Dạng 1 (BA LÁ, hình hạt cà phê): 3 đường tăng âm + 2 đường giảm âm → THUẬN LỢI nhất cho làm tổ.",
+        "Dạng 2: TĂNG ÂM TOÀN BỘ, không có vùng giảm âm → KHÔNG thuận lợi.",
+        "Dạng 3: TRUNG GIAN giữa dạng 1 và 2."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Niêm mạc tử cung — Khi nào đo có ý nghĩa?",
+      "variant": "bullets",
+      "points": [
+        "Theo dõi niêm mạc MỖI LẦN siêu âm là KHÔNG thực sự cần thiết.",
+        "CHỈ CẦN đo vào NGÀY TRƯỞNG THÀNH NOÃN.",
+        "Mục đích: tư vấn cơ hội có thai + quyết định chuyển phôi TƯƠI hay ĐÔNG PHÔI."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Vai trò của xét nghiệm nội tiết",
+      "variant": "bullets",
+      "points": [
+        "Siêu âm + xét nghiệm E2, LH, P4: đánh giá chất lượng nang noãn.",
+        "LH tăng hoặc P4 tăng sớm → ảnh hưởng chất lượng noãn.",
+        "Tuy nhiên: định lượng hormon KHÔNG cải thiện tỷ lệ có thai so với KHÔNG định lượng.",
+        "KHUYẾN CÁO: KHÔNG cần định lượng hormon cho TẤT CẢ các bệnh nhân.",
+        "E2 có giá trị trong trường hợp QUÁ KÍCH BUỒNG TRỨNG.",
+        "LH: tùy thuộc vào từng bệnh nhân cụ thể, KHÔNG cần theo dõi hệ thống.",
+        "Người có kinh nghiệm: có thể GIẢM số lần siêu âm + không định lượng hormon → giảm chi phí."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Siêu âm 3D và Doppler",
+      "variant": "bullets",
+      "points": [
+        "Siêu âm 3D và Doppler: KHÔNG thực sự cần thiết cho TẤT CẢ bệnh nhân.",
+        "Chỉ nên áp dụng cho một số bệnh nhân nhất định.",
+        "Đặc biệt: bệnh nhân GIẢM DỰ TRỮ hoặc ĐÁP ỨNG KÉM."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Guideline ESHRE — Cá thể hóa",
+      "variant": "bullets",
+      "points": [
+        "ESHRE 2020: guideline nền về chọn phác đồ, liều FSH, trigger cho IVF/ICSI.",
+        "ESHRE 2025/2026: bản cập nhật mở rộng.",
+        "Các khuyến cáo cần hiểu theo hướng: CÁ THỂ HÓA và CẬP NHẬT THEO GUIDELINE MỚI NHẤT."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.6",
+      "part_title": "Tiêu chuẩn và phác đồ trưởng thành noãn",
+      "part_subtitle": "Trigger — hCG — GnRH agonist — Dual/Double"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.6.1",
+      "part_title": "Tiêu chuẩn trưởng thành noãn",
+      "part_subtitle": ""
+    },
+    {
+      "type": "content",
+      "title": "Tiêu chuẩn trigger",
+      "variant": "bullets",
+      "points": [
+        "Ít nhất 3 nang trên 17 mm HOẶC 2 nang trên 18 mm.",
+        "Tối thiểu 1/2 tổng số nang có kích thước trên 14 mm.",
+        "Thời gian KTBT trung bình: 8-12 ngày.",
+        "E2 trung bình cho mỗi nang: khoảng 150-200 pg/mL (một số thực hành).",
+        "hCG trigger: liều 5.000-10.000 đơn vị hoặc hCG tái tổ hợp 250 mcg (≈ 6.500 đơn vị).",
+        "Chọc hút noãn: 34-36 GIỜ sau trigger, qua đường âm đạo."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Cập nhật: Tiêu chuẩn trigger linh hoạt",
+      "variant": "bullets",
+      "points": [
+        "Tiêu chuẩn trigger THAY ĐỔI theo phác đồ và mục tiêu trung tâm.",
+        "Nên xem số nang theo NHIỀU NHÓM kích thước thay vì chỉ nhìn 1 nang lớn nhất.",
+        "Trước trigger cần kiểm tra: nguy cơ OHSS, kế hoạch fresh/freeze-all, loại trigger, thời điểm chọc hút, hỗ trợ hoàng thể."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "criteria",
+      "variant": "score_points",
+      "title": "Trigger checklist",
+      "items": [
+        {
+          "text": "Số nang theo nhóm kích thước đã đủ chưa?",
+          "points": "✓"
+        },
+        {
+          "text": "Có bao nhiêu nang nguy cơ đóng góp OHSS?",
+          "points": "✓"
+        },
+        {
+          "text": "Nội mạc và P4 còn phù hợp fresh transfer?",
+          "points": "✓"
+        },
+        {
+          "text": "Chu kỳ antagonist có thể dùng agonist trigger?",
+          "points": "✓"
+        },
+        {
+          "text": "Giờ chọc hút 34-36h sau trigger đã lên lịch?",
+          "points": "✓"
+        },
+        {
+          "text": "Kế hoạch hỗ trợ hoàng thể đã rõ?",
+          "points": "✓"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.6.2",
+      "part_title": "Trưởng thành noãn bằng hCG",
+      "part_subtitle": ""
+    },
+    {
+      "type": "content",
+      "title": "hCG trigger — Cơ chế và ưu điểm",
+      "variant": "bullets",
+      "points": [
+        "hCG có cấu trúc TƯƠNG TỰ LH → thay thế LH trong trưởng thành noãn.",
+        "hCG gắn cùng thụ thể LH/hCG.",
+        "Thời gian BÁN HỦY KÉO DÀI hơn LH → tác dụng hoàng thể hóa và nguy cơ OHSS KÉO DÀI hơn.",
+        "Liều: 5.000-10.000 đơn vị.",
+        "Urinary hCG hoặc recombinant hCG: kết quả TƯƠNG ĐƯƠNG.",
+        "Nguy cơ OHSS: có thể GIẢM LIỀU xuống 5.000 đơn vị và dùng hCG tái tổ hợp (bán hủy ngắn hơn)."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.6.3",
+      "part_title": "Trưởng thành noãn bằng GnRH agonist",
+      "part_subtitle": ""
+    },
+    {
+      "type": "content",
+      "title": "GnRH agonist trigger — Cơ chế",
+      "variant": "bullets",
+      "points": [
+        "Dựa trên tác dụng FLARE UP của GnRH agonist → tạo đỉnh LH NỘI SINH.",
+        "Đỉnh LH nội sinh có tác dụng trưởng thành noãn TƯƠNG TỰ hCG.",
+        "Ưu điểm của đỉnh LH nội sinh:",
+        "- Giống chu kỳ tự nhiên hơn.",
+        "- Xuất hiện sớm, biên độ THẤP, giảm NHANH hơn.",
+        "- → GIẢM nguy cơ OHSS sớm."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "GnRH agonist trigger — Nhược điểm",
+      "variant": "bullets",
+      "points": [
+        "Làm SUY HOÀNG THỂ.",
+        "Giảm khả năng TIẾP NHẬN NIÊM MẠC tử cung.",
+        "→ GIẢM tỷ lệ có thai nếu CHUYỂN PHÔI TƯƠI.",
+        "CHỈ ĐỊNH: nguy cơ OHSS cao, nhiều nang, E2 rất cao.",
+        "Kết hợp: ĐÔNG PHÔI TOÀN BỘ → chuyển chu kỳ sau.",
+        "Thuốc dùng: buserelin hoặc Decapeptyl, tiêm dưới da bụng."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Trigger failure — Nguy cơ cần nhớ",
+      "variant": "bullets",
+      "points": [
+        "Sau GnRH agonist trigger: vẫn có thể THẤT BẠI trigger.",
+        "Hoặc thu được RẤT ÍT noãn / noãn KHÔNG như kỳ vọng.",
+        "Đặc biệt khi: tuyến yên bị ức chế QUÁ MẠNH hoặc đáp ứng LH KHÔNG ĐỦ.",
+        "Cần có quy trình KIỂM TRA và CỨU VÃN chu kỳ tùy trung tâm.",
+        "Có thể dùng hCG để CỨU VÃN và chọc hút được noãn."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Khi nào KHÔNG dùng agonist trigger?",
+      "variant": "bullets",
+      "points": [
+        "Long protocol: tuyến yên đã bị ỨC CHẾ HOÀN TOÀN → KHÔNG có chỉ định agonist trigger.",
+        "Antagonist cycle + agonist trigger: cần lưu ý thời gian từ mũi antagonist cuối đến trigger KHÔNG DƯỚI 10 GIỜ.",
+        "Mục đích: đảm bảo tuyến yên KHÔNG còn bị ức chế."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Cập nhật: Chiến lược giảm OHSS",
+      "variant": "bullets",
+      "points": [
+        "Dùng ANTAGONIST thay vì agonist dài ở nhóm nguy cơ.",
+        "GnRH AGONIST TRIGGER trong chu kỳ antagonist.",
+        "GIẢM liều FSH.",
+        "FREEZE-ALL.",
+        "SINGLE EMBRYO TRANSFER khi phù hợp.",
+        "PMID: 26597569"
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.6.4",
+      "part_title": "Trưởng thành noãn kép",
+      "part_subtitle": ""
+    },
+    {
+      "type": "content",
+      "title": "Dual trigger & Double trigger",
+      "variant": "bullets",
+      "points": [
+        "Trưởng thành noãn kép: sử dụng CẢ hCG và agonist.",
+        "Mục đích: vừa GIẢM OHSS vừa GIỮ tỷ lệ có thai cao.",
+        "Về sau: mở rộng cho đáp ứng kém, tiền sử trigger kết quả kém.",
+        "Nghiên cứu phân tích gộp của Ding và cs: cải thiện số noãn hoặc tỷ lệ có thai."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "two_column",
+      "title": "Dual vs Double trigger",
+      "variant": "vs_compare",
+      "left_title": "Dual trigger",
+      "left_points": [
+        "hCG + GnRH agonist CÙNG THỜI ĐIỂM",
+        "Phối hợp tín hiệu trưởng thành noãn",
+        "Cân nhắc OHSS nếu có hCG"
+      ],
+      "right_title": "Double trigger",
+      "right_points": [
+        "GnRH agonist TRƯỚC, hCG SAU",
+        "Dùng trong đáp ứng kém / tiền sử trigger kém",
+        "KHÔNG nên dùng routine"
+      ],
+      "note": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Nghiên cứu của Hồ Sỹ Hùng",
+      "variant": "bullets",
+      "points": [
+        "So sánh trưởng thành noãn kép với hCG đơn thuần.",
+        "Đối tượng: bệnh nhân GIẢM DỰ TRỮ BUỒNG TRỨNG.",
+        "Kết quả: trưởng thành noãn kép làm TĂNG TỶ LỆ NOÃN MII so với nhóm rhCG đơn thuần."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "II.7",
+      "part_title": "Đông phôi toàn bộ (freeze-all)",
+      "part_subtitle": ""
+    },
+    {
+      "type": "content",
+      "title": "Ưu điểm của kỹ thuật đông phôi thủy tinh hóa",
+      "variant": "bullets",
+      "points": [
+        "Kỹ thuật đông phôi THỦY TINH HÓA cho tỷ lệ sống sau rã đông CAO.",
+        "Chất lượng phôi KHÔNG THAY ĐỔI trước và sau rã đông.",
+        "Tỷ lệ có thai chu kỳ chuyển phôi trữ lạnh KHÔNG THUA KÉM chu kỳ chuyển phôi tươi.",
+        "→ Freeze-all được chỉ định THƯỜNG QUY trong các chu kỳ có chỉ định."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Chỉ định freeze-all",
+      "variant": "bullets",
+      "points": [
+        "Nguy cơ quá kích buồng trứng (OHSS).",
+        "Chu kỳ tăng progesterone sớm.",
+        "Chu kỳ có niêm mạc tử cung KHÔNG thuận lợi.",
+        "Bất cứ lý do nào cần TRÌ HOÃN chuyển phôi.",
+        "Chu kỳ trưởng thành noãn bằng GnRH agonist (suy hoàng thể).",
+        "Chu kỳ random start (nội mạc không đồng bộ).",
+        "Chu kỳ PPOS (nội mạc không đồng bộ với tuổi phôi)."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Cập nhật: Freeze-all — Cá thể hóa",
+      "variant": "bullets",
+      "points": [
+        "Freeze-all đặc biệt hợp lý khi: OHSS, P4 tăng sớm, PPOS, random start, agonist trigger, nội mạc không thuận lợi.",
+        "Tuy nhiên: freeze-all KHÔNG nên được hiểu là LUÔN TỐT HƠN fresh transfer cho MỌI bệnh nhân.",
+        "Quyết định cần CÁ THỂ HÓA theo nguy cơ và mục tiêu điều trị."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "III",
+      "part_title": "Kết luận",
+      "part_subtitle": "Siêu âm là công cụ không thể thay thế trong theo dõi KTBT"
+    },
+    {
+      "type": "content",
+      "title": "Tóm tắt vai trò của KTBT và theo dõi",
+      "variant": "bullets",
+      "points": [
+        "KTBT là bước quan trọng trong IVF, quyết định tạo được NHIỀU noãn với CHẤT LƯỢNG tốt hay không.",
+        "Theo dõi trong KTBT: điều chỉnh kịp thời, quyết định trigger, phát hiện sớm OHSS.",
+        "Phương pháp chính: SIÊU ÂM đường âm đạo + XÉT NGHIỆM HORMON.",
+        "Siêu âm là phương pháp ĐƠN GIẢN, KHÔNG XÂM NHẬP và KHÔNG THỂ THAY THẾ."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Bảng cập nhật — Quyết định nhanh trong thực hành",
+      "variant": "bullets",
+      "points": [
+        "Đáp ứng THẤP → kiểm tra tuổi, AMH/AFC, liều đang dùng, số nang thực sự phát triển; cân nhắc KHÔNG tăng liều quá mức.",
+        "Đáp ứng CAO → ưu tiên phòng OHSS bằng giảm liều / antagonist / agonist trigger / freeze-all.",
+        "Progesterone TĂNG SỚM hoặc PPOS → KHÔNG chuyển tươi.",
+        "Nghi chọc hút KHÓ → ghi rõ vị trí buồng trứng và chuẩn bị thủ thuật."
+      ],
+      "footnote": "Nguồn: bài soạn đã verify — PMID 32395637; 41732035; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "algorithm",
+      "variant": "branching_yesno",
+      "title": "Decision: Đáp ứng thấp",
+      "question": "Ít nang phát triển hơn kỳ vọng?",
+      "yes_branch": [
+        "Kiểm tra tuổi, AMH/AFC, FSH",
+        "Xem tiền sử và số nang thật",
+        "Tư vấn kỳ vọng; không tăng liều vô hạn"
+      ],
+      "no_branch": [
+        "Tiếp tục theo protocol",
+        "Theo dõi sát"
+      ]
+    },
+    {
+      "type": "algorithm",
+      "variant": "branching_yesno",
+      "title": "Decision: Đáp ứng cao",
+      "question": "Nhiều nang và nguy cơ OHSS?",
+      "yes_branch": [
+        "Giảm nguy cơ",
+        "E2 nếu cần",
+        "Antagonist + agonist trigger",
+        "Freeze-all"
+      ],
+      "no_branch": [
+        "Tiếp tục kế hoạch",
+        "Theo dõi sát"
+      ]
+    },
+    {
+      "type": "algorithm",
+      "variant": "branching_yesno",
+      "title": "Decision: P4 / nội mạc",
+      "question": "Fresh transfer còn phù hợp?",
+      "yes_branch": [
+        "Fresh nếu P4, nội mạc và OHSS risk đều ổn"
+      ],
+      "no_branch": [
+        "Cân nhắc freeze-all",
+        "Ghi rõ lý do"
+      ]
+    },
+    {
+      "type": "algorithm",
+      "variant": "branching_yesno",
+      "title": "Decision: Chọc hút khó",
+      "question": "Buồng trứng xa đầu dò hoặc nghi dính?",
+      "yes_branch": [
+        "Ghi vị trí, hướng tiếp cận",
+        "Tìm vật cản (ruột, mạch máu)",
+        "Báo trước ekip"
+      ],
+      "no_branch": [
+        "Theo dõi thường quy",
+        "Vẫn ghi access nếu thay đổi"
+      ]
+    },
+    {
+      "type": "summary",
+      "variant": "takeaways",
+      "title": "Take-home messages",
+      "points": [
+        "1. Reserve ≠ Response: AMH/AFC dự đoán số noãn; tuổi dự đoán chất lượng.",
+        "2. Siêu âm là trục chính: ghi checklist mỗi lần, không chỉ nhìn nang lớn nhất.",
+        "3. Antagonist được ưu tiên: ngắn, an toàn, cho phép agonist trigger.",
+        "4. Trigger là quyết định AN TOÀN: cân bằng toàn cohort, không tối ưu một nang.",
+        "5. Freeze-all là công cụ cá thể hóa: không phải mặc định tốt hơn fresh."
+      ]
+    },
+    {
+      "type": "references",
+      "variant": "numbered",
+      "title": "Tài liệu tham khảo đã verify",
+      "refs": [
+        "ESHRE guideline: ovarian stimulation for IVF/ICSI. PMID: 32395637.",
+        "ESHRE guideline: ovarian stimulation for IVF/ICSI: an update in 2025. PMID: 41732035.",
+        "Testing and interpreting measures of ovarian reserve: a committee opinion. PMID: 33280722.",
+        "Association between the number of eggs and live birth in IVF treatment. PMID: 21558332.",
+        "Consensus statement on prevention and detection of ovarian hyperstimulation syndrome. PMID: 26597569."
+      ]
+    }
+  ]
+}

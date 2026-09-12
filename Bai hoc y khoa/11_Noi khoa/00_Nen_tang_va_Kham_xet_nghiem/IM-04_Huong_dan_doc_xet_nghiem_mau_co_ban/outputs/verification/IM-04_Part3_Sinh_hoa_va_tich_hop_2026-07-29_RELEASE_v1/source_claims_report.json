@@ -1,0 +1,53 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1.md",
+  "parsed_claim_count": 1,
+  "verified_claim_count": 1,
+  "status": "PASS",
+  "checks": [
+    {
+      "claim_id": "C-301",
+      "claim_text": "- Abnormal liver blood test results should only be interpreted after review of the previous results, past medical history and current medical condition. [GUIDELINE VERIFIED] {claim:C-301} (PMID: **29122851**)",
+      "source_id": "29122851",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 318,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.29"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    }
+  ],
+  "bundle_hash": "1beb869140734f5767fb79d76e269ec1b00415125f8c19410a436d2b116cc3ee"
+}

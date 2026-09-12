@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>First Trimester Screening - Visual Summary</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+
+<header class="max-w-6xl mx-auto mb-8 text-center">
+  <h1 class="text-4xl font-bold text-stone-700 mb-2">First Trimester Screening (Sang loc Quy 1)</h1>
+  <p class="text-stone-500 italic">Visual Summary - Bai hoc 22/06/2026</p>
+  <div class="mt-3 flex justify-center gap-2 flex-wrap">
+    <span class="tag pastel-pink px-3 py-1 rounded-full text-sm">Fetal US</span>
+    <span class="tag pastel-blue px-3 py-1 rounded-full text-sm">11-14w Scan</span>
+    <span class="tag pastel-mint px-3 py-1 rounded-full text-sm">NT / Combined</span>
+    <span class="tag pastel-peach px-3 py-1 rounded-full text-sm">NIPT / cfDNA</span>
+    <span class="tag pastel-lavender px-3 py-1 rounded-full text-sm">Aneuploidy</span>
+  </div>
+</header>
+<main class="max-w-6xl mx-auto space-y-8">
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">1. 3 muc tieu FTS (11+0 den 13+6 tuan)</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+      <div class="pastel-pink rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">1. Dating</h3>
+        <p class="text-sm text-stone-700">Xac dinh tuoi thai chinh xac qua <b>CRL</b> (chinh xac +/- 5-7 ngay). Khi CRL > 84 mm chuyen sang HC.</p>
+      </div>
+      <div class="pastel-blue rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">2. Aneuploidy screening</h3>
+        <p class="text-sm text-stone-700"><b>Combined test</b> (NT + PAPP-A + free beta-hCG) hoac <b>NIPT</b> (cfDNA). Detect T21 ~90-99%.</p>
+      </div>
+      <div class="pastel-mint rounded-xl p-4">
+        <h3 class="font-bold text-stone-800 mb-2">3. Early anatomy</h3>
+        <p class="text-sm text-stone-700">Phat hien <b>~50% di tat lon</b>. Cau truc: nao, tim, bung, cot song, tu chi, day ron, placenta.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">2. Algorithm FTS 2024 (theo ISUOG 2022 + ACMG + ACOG)</h2>
+    <div class="mermaid">
+flowchart TD
+    A["Thai 11-13+6 tuan<br/>Sieu am ISUOG<br/>+ Danh gia base risk"] --> B{"Nguy co cao?<br/>(me >= 35,<br/>tier su aneuploidy,<br/>NT >= 3.5 mm,<br/>structural anomaly)"}
+    B -- "Co" --> Z1["Tu van diagnostic test<br/>(CVS hoac amniocentesis)<br/>+ NIPT neu khong muon invasive"]
+    B -- "Khong" --> C{"Nguy co trung binh?<br/>(me < 35,<br/>khong yeu to nguy co)"}
+    C -- "Co" --> D["Combined test<br/>HOAC NIPT<br/>(neu co dieu kien)"]
+    C -- "Khong (thap)" --> E["Combined test<br/>(NIPT khong khuyen cao<br/>vi PPV thap)"]
+    D --> F{"Ket qua Combined"}
+    E --> F
+    F -- "High risk >= 1:150" --> Z1
+    F -- "Intermediate 1:151-1:1000" --> Z2["NIPT<br/>(Contingent screening)"]
+    F -- "Low risk < 1:1000" --> Z3["Tiep tuc routine<br/>+ Anatomy scan 18-22 tuan"]
+
+    style Z1 fill:#f4c2c2
+    style Z2 fill:#c5d5e0
+    style Z3 fill:#c5e0c9
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-2">3. NIPT performance (Zhang 2015, n=146,958)</h2>
+    <p class="text-sm text-stone-600 italic mb-4">Clinical experience BGI - 146,958 pregnancies, khong khac biet high-risk vs low-risk.</p>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div>
+        <canvas id="chart1"></canvas>
+      </div>
+      <div class="bg-white rounded-xl p-4 border border-stone-200 flex flex-col justify-center">
+        <h3 class="font-bold text-stone-800 mb-2">NIPT (cfDNA) - Zhang 2015</h3>
+        <ul class="text-sm text-stone-700 space-y-2">
+          <li>• <b>Sensitivity T21:</b> 99.17%</li>
+          <li>• <b>Sensitivity T18:</b> 98.24%</li>
+          <li>• <b>Sensitivity T13:</b> 100%</li>
+          <li>• <b>Specificity:</b> >99.95% ca 3 trisomy</li>
+          <li>• PPV phu thuoc a priori risk (low-risk co PPV thap hon)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-2">4. Combined test - Pattern dac trung</h2>
+    <p class="text-sm text-stone-600 italic mb-4">PAPP-A va free beta-hCG giup phan biet T21 vs T18 vs T13 som.</p>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div>
+        <canvas id="chart2"></canvas>
+      </div>
+      <div class="bg-white rounded-xl p-4 border border-stone-200 flex flex-col justify-center">
+        <h3 class="font-bold text-stone-800 mb-2">Pattern biochem</h3>
+        <ul class="text-sm text-stone-700 space-y-2">
+          <li>• <b>T21:</b> PAPP-A giam, free beta-hCG tang</li>
+          <li>• <b>T18:</b> PAPP-A giam manh, beta-hCG giam</li>
+          <li>• <b>T13:</b> PAPP-A giam, beta-hCG giam</li>
+          <li>• Risk = base risk x LR(NT) x LR(PAPP-A) x LR(beta-hCG)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">5. EVIDENCE TABLE</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-stone-200 text-stone-800">
+            <th class="px-3 py-2 text-left">PMID</th>
+            <th class="px-3 py-2 text-left">Tac gia (Nam)</th>
+            <th class="px-3 py-2 text-left">Loai</th>
+            <th class="px-3 py-2 text-left">Ket qua chinh</th>
+          </tr>
+        </thead>
+        <tbody class="text-stone-700">
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">36594739</td><td class="px-3 py-2">ISUOG 2022 (Bilardo et al.)</td><td class="px-3 py-2">Practice guideline</td><td class="px-3 py-2">Standard 11-14w scan, 3 muc tieu</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">38723258</td><td class="px-3 py-2">Bromley (2024)</td><td class="px-3 py-2">Clinical recommendation</td><td class="px-3 py-2">Early anatomy scan tat ca thai phu</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">25598039</td><td class="px-3 py-2">Zhang (2015)</td><td class="px-3 py-2">Clinical series, n=146,958</td><td class="px-3 py-2">NIPT sens 99% T21</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">37438894</td><td class="px-3 py-2">Hopkins (2023)</td><td class="px-3 py-2">Review</td><td class="px-3 py-2">NIPT first-line cho twins</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">39305990</td><td class="px-3 py-2">Mortaki (2024)</td><td class="px-3 py-2">Meta 1,886 (8 studies)</td><td class="px-3 py-2">PAS biomarkers tang Q1</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-mono text-xs">31766927</td><td class="px-3 py-2">Suciu (2021)</td><td class="px-3 py-2">Review</td><td class="px-3 py-2">Contingent screening tiet kiem</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-mono text-xs">31169958</td><td class="px-3 py-2">Salomon (2019)</td><td class="px-3 py-2">ISUOG biometry</td><td class="px-3 py-2">HC khi CRL > 84 mm</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">6. So sanh Combined vs NIPT vs Contingent</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-stone-200 text-stone-800">
+            <th class="px-3 py-2 text-left">Phuong phap</th>
+            <th class="px-3 py-2 text-left">Detect T21</th>
+            <th class="px-3 py-2 text-left">FPR</th>
+            <th class="px-3 py-2 text-left">Uu diem</th>
+            <th class="px-3 py-2 text-left">Nhuoc diem</th>
+          </tr>
+        </thead>
+        <tbody class="text-stone-700">
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-bold">Combined test</td><td class="px-3 py-2">~90%</td><td class="px-3 py-2">5%</td><td class="px-3 py-2">Re, tich hop sieu am, phat hien NT/di tat</td><td class="px-3 py-2">Can mau me + sieu am</td></tr>
+          <tr class="border-b border-stone-200 bg-stone-50"><td class="px-3 py-2 font-bold">NIPT</td><td class="px-3 py-2">>99%</td><td class="px-3 py-2"><0.1%</td><td class="px-3 py-2">Sens cao nhat, chi mau me</td><td class="px-3 py-2">Dat, khong phat hien NT/di tat</td></tr>
+          <tr class="border-b border-stone-200"><td class="px-3 py-2 font-bold">Contingent</td><td class="px-3 py-2">~95%</td><td class="px-3 py-2">1-2%</td><td class="px-3 py-2">Tiet kiem chi phi</td><td class="px-3 py-2">Phuc tap logistics</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">7. 5 markers aneuploidy Q1</h2>
+    <div class="mermaid">
+flowchart LR
+    A["NT day<br/>(>= p95)"] --> B["Absent/hypoplastic<br/>nasal bone"]
+    B --> C["Tricuspid<br/>regurgitation"]
+    C --> D["Abnormal DV<br/>a-wave"]
+    D --> E["Aberrant right<br/>subclavian artery"]
+
+    style A fill:#f4c2c2
+    style B fill:#c5d5e0
+    style C fill:#c5e0c9
+    style D fill:#f7d1ba
+    style E fill:#d4c5e2
+    </div>
+    <p class="text-sm text-stone-600 mt-3 italic">NT day + 4 markers khac giup phat hien som T21, T18, T13, Turner. Markers co do nhay khac nhau cho moi loai trisomy.</p>
+  </section>
+
+  <section class="glass rounded-2xl p-6 shadow-sm">
+    <h2 class="text-2xl font-semibold text-stone-700 mb-4">8. Han che quan trong cua NIPT (5 diem)</h2>
+    <div class="grid md:grid-cols-2 gap-3">
+      <div class="pastel-pink rounded-xl p-3">
+        <h3 class="font-bold text-stone-800 mb-1 text-sm">1. CHI SANG LOC, KHONG CHAN DOAN</h3>
+        <p class="text-xs text-stone-700">Positive NIPT CAN diagnostic test truoc khi quyet dinh thai ky</p>
+      </div>
+      <div class="pastel-blue rounded-xl p-3">
+        <h3 class="font-bold text-stone-800 mb-1 text-sm">2. Test failure ~2-5%</h3>
+        <p class="text-xs text-stone-700">Thai som, fetal fraction thap, maternal obesity</p>
+      </div>
+      <div class="pastel-mint rounded-xl p-3">
+        <h3 class="font-bold text-stone-800 mb-1 text-sm">3. False positive</h3>
+        <p class="text-xs text-stone-700">Confined placental mosaicism, maternal CNV, vanishing twin, malignancy</p>
+      </div>
+      <div class="pastel-peach rounded-xl p-3">
+        <h3 class="font-bold text-stone-800 mb-1 text-sm">4. False negative</h3>
+        <p class="text-xs text-stone-700">Fetal fraction < 4%, mosaicism thap, BMI > 35</p>
+      </div>
+      <div class="pastel-lavender rounded-xl p-3">
+        <h3 class="font-bold text-stone-800 mb-1 text-sm">5. NIPT khong phat hien</h3>
+        <p class="text-xs text-stone-700">Structural anomalies, NT day, pre-eclampsia markers, MC twins</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bai hoc soan boi MiniMax Mavis cho Bs. Ngoc 🍅 🐈‍⬛ | Verified PubMed: 7 papers (PMID 36594739, 38723258, 25598039, 37438894, 39305990, 31766927, 31169958)</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+new Chart(document.getElementById('chart1'), {
+    type: 'bar',
+    data: {
+        labels: ['T21', 'T18', 'T13'],
+        datasets: [{
+            label: 'Sensitivity (%)',
+            data: [99.17, 98.24, 100],
+            backgroundColor: 'rgba(197, 213, 224, 0.85)',
+            borderColor: 'rgba(197, 213, 224, 1)',
+            borderWidth: 2
+        }, {
+            label: 'Specificity (%)',
+            data: [99.95, 99.95, 99.96],
+            backgroundColor: 'rgba(197, 224, 201, 0.85)',
+            borderColor: 'rgba(197, 224, 201, 1)',
+            borderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            title: { display: true, text: 'Zhang 2015 - NIPT n=146,958 pregnancies' },
+            tooltip: {
+                callbacks: {
+                    afterLabel: function(ctx) {
+                        const i = ctx.dataIndex;
+                        const sens = [99.17, 98.24, 100];
+                        const spec = [99.95, 99.95, 99.96];
+                        if (ctx.datasetIndex === 0) return 'Specificity: ' + spec[i] + '%';
+                        return 'Sensitivity: ' + sens[i] + '%';
+                    }
+                }
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: false,
+                min: 95,
+                max: 100,
+                title: { display: true, text: 'Performance (%)' }
+            }
+        }
+    }
+});
+
+new Chart(document.getElementById('chart2'), {
+    type: 'bar',
+    data: {
+        labels: ['T21 (PAPP-A)', 'T21 (beta-hCG)', 'T18 (PAPP-A)', 'T18 (beta-hCG)', 'T13 (PAPP-A)', 'T13 (beta-hCG)'],
+        datasets: [{
+            label: 'MoM thay doi (Giam/Tang)',
+            data: [0.5, 2.0, 0.3, 0.5, 0.5, 0.5],
+            backgroundColor: [
+                'rgba(244, 194, 194, 0.85)', 'rgba(197, 224, 201, 0.85)',
+                'rgba(244, 194, 194, 0.85)', 'rgba(244, 194, 194, 0.85)',
+                'rgba(244, 194, 194, 0.85)', 'rgba(244, 194, 194, 0.85)'
+            ],
+            borderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        indexAxis: 'y',
+        plugins: {
+            title: { display: true, text: 'Pattern PAPP-A + free beta-hCG (MoM thay doi)' },
+            legend: { display: false },
+            annotation: { annotations: {} }
+        },
+        scales: {
+            x: {
+                beginAtZero: true,
+                title: { display: true, text: 'MoM (Multiple of Median)' }
+            }
+        }
+    }
+});
+
+</script>
+</body>
+</html>

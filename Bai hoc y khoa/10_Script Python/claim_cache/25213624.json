@@ -1,0 +1,8 @@
+{
+  "pmid": "25213624",
+  "status": "ok",
+  "title": "The development and validation of an early warning system to prevent the acquisition of 12-lead resting ECGs with interchanged electrode positions.",
+  "abstract": "A fraction of routine resting ECG's are taken with electrode positions interchanged, leading to possible clinical misinterpretation.\nDevelop and test a method to detect and prevent electrode reversals at the electrocardiograph before the ECG is acquired.\nThe algorithm is based on QRS axis and P amplitudes for limb electrode reversals, and P-Q-RS amplitude distances to detect chest electrode reversals. The evaluation method involved a large (>18,000) hospital database for which serial ECG's were available and was based on simulated juxtapositions.\nThe 7 most common lead reversals could be detected with a specificity of 99.8% per type and an average sensitivity of 90%, excluding LA-LL reversal (22% sensitivity).\nResults are similar to retrospective studies that used smaller, more homogeneous datasets.\nThe early warning system reduces the ECG's recorded with reversal by 80%, at the price of a modest false alert rate of 1.4%.",
+  "journal": "Journal of electrocardiology",
+  "year": "2014"
+}

@@ -1,0 +1,562 @@
+[
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-001",
+    "front": "Có tồn tại một \"liều chuẩn\" lợi tiểu chung cho mọi bệnh nhân không?",
+    "back": "Không. Việc chỉnh liều lợi tiểu cần cá thể hóa.",
+    "extra": "Dựa trên mục tiêu điều trị, đánh giá lâm sàng và cận lâm sàng."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-002",
+    "front": "Mục tiêu điều trị khi dùng lợi tiểu thường là gì?",
+    "back": "- Giảm sung huyết/phù.\n- Kiểm soát huyết áp.\n- Hoặc các mục tiêu chuyên khoa cụ thể.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-003",
+    "front": "Các yếu tố lâm sàng nào cần đánh giá ban đầu trước khi chỉnh liều lợi tiểu?",
+    "back": "- Cân nặng khô/hiện tại.\n- Triệu chứng cơ năng (khó thở, mệt mỏi).\n- Tình trạng phù, tĩnh mạch cổ nổi, ran phổi.\n- Huyết áp (kể cả tư thế), dấu hiệu tưới máu ngoại biên.\n- Lượng nước tiểu và cân bằng dịch vào - ra.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-004",
+    "front": "3 xét nghiệm nền (baseline) bắt buộc trước khi dùng lợi tiểu là gì?",
+    "back": "1. Natri (Na)\n2. Kali (K)\n3. Creatinine / eGFR",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-005",
+    "front": "Ngoài Na, K, creatinine, các xét nghiệm nào có thể cân nhắc làm baseline tùy nhóm thuốc và bệnh cảnh?",
+    "back": "Mg, Cl, bicarbonate, ure, glucose, uric acid.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-006",
+    "front": "Trước khi quyết định chỉnh liều lợi tiểu, bác sĩ cần rà soát những yếu tố nào có thể cản trở đáp ứng của thuốc?",
+    "back": "Cần rà soát:\n- Thuốc: NSAID, thuốc ảnh hưởng hệ renin-angiotensin, thuốc giữ kali.\n- Lối sống: Ăn mặn, không tuân thủ điều trị (bỏ liều).\n- Bệnh lý: Giảm hấp thu đường uống, CKD, giảm tưới máu thận.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-007",
+    "front": "Có nên dùng \"tiểu nhiều\" đơn độc làm tiêu chuẩn đánh giá đáp ứng lợi tiểu không?",
+    "back": "Không.",
+    "extra": "Cần kết hợp với giảm cân nặng, cải thiện triệu chứng sung huyết và huyết động."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-008",
+    "front": "Nhóm thuốc giảm đau nào thường gây cản trở đáp ứng của thuốc lợi tiểu?",
+    "back": "NSAID (thuốc chống viêm không steroid).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-009",
+    "front": "Yếu tố lối sống nào thường gặp nhất làm giảm hiệu quả của thuốc lợi tiểu?",
+    "back": "Ăn mặn (chế độ ăn nhiều muối) và không tuân thủ điều trị.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-010",
+    "front": "Ở bệnh nhân ngoại trú, đáp ứng lợi tiểu được đánh giá qua các thông số nào?",
+    "back": "- Triệu chứng cơ năng.\n- Cân nặng theo chuỗi.\n- Mức độ phù.\n- Huyết áp, dấu hiệu tưới máu.\n- Khả năng hoạt động thể lực.\n- Xét nghiệm định kỳ.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-011",
+    "front": "Ở bệnh nhân nội trú, đáp ứng lợi tiểu được đánh giá qua các thông số nào?",
+    "back": "- Triệu chứng hô hấp/sung huyết.\n- Cân nặng hằng ngày.\n- Cân bằng dịch vào - ra.\n- Lượng nước tiểu theo thời điểm.\n- Xét nghiệm Na, K, Mg, creatinine thường xuyên hơn.\n- Đánh giá huyết động.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-012",
+    "front": "Khi bệnh nhân đang dùng lợi tiểu có tình trạng **còn sung huyết nhưng tưới máu ổn**, hướng xử trí là gì?",
+    "back": "Tiếp tục lợi tiểu, cân nhắc tăng liều nếu cần.",
+    "extra": "Đây là nhánh \"Đáp ứng tốt, còn sung huyết, an toàn\"."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-013",
+    "front": "Khi bệnh nhân đang dùng lợi tiểu đã đạt trạng thái **euvolemia (đẳng thể tích)**, hướng xử trí là gì?",
+    "back": "Giảm dần về liều duy trì thấp nhất có hiệu quả.",
+    "extra": "Tránh giữ nguyên liều tấn công để phòng ngừa giảm thể tích."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-014",
+    "front": "Khi bệnh nhân đang dùng lợi tiểu có biểu hiện **giảm thể tích**, hướng xử trí là gì?",
+    "back": "Ngừng hoặc giảm liều lợi tiểu, bù dịch nếu cần.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-015",
+    "front": "Kháng lợi tiểu giả (pseudo-resistance) thường do những nguyên nhân nào?",
+    "back": "- Không tuân thủ điều trị (bỏ thuốc).\n- Chế độ ăn quá nhiều muối (ăn mặn).\n- Sử dụng NSAID.",
+    "extra": "Cần giáo dục bệnh nhân và điều chỉnh các yếu tố này."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-016",
+    "front": "Khi xác định bệnh nhân bị **kháng lợi tiểu thật sự**, hướng xử trí tiếp theo là gì?",
+    "back": "Cần hội chẩn chuyên khoa hoặc cân nhắc khóa nephron nối tiếp.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-017",
+    "front": "Kể tên 3 thuốc lợi tiểu quai thường dùng.",
+    "back": "Furosemide, Torsemide, Bumetanide.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-018",
+    "front": "Các thông số cần theo dõi khi dùng lợi tiểu quai là gì?",
+    "back": "Huyết áp, điện giải (Na, K, Mg), creatinine/eGFR.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-019",
+    "front": "Theo NHS SPS, thời điểm kiểm tra lại điện giải và creatinine sau khi **khởi trị hoặc tăng liều lợi tiểu quai** là khi nào?",
+    "back": "Sau 1-2 tuần (hoặc 5-7 ngày nếu bệnh nhân có nguy cơ cao).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-020",
+    "front": "Theo NHS SPS, khi bệnh nhân dùng lợi tiểu quai đã **ổn định**, cần kiểm tra điện giải và creatinine bao lâu một lần?",
+    "back": "Mỗi 6 tháng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-021",
+    "front": "Các rối loạn điện giải và chuyển hóa thường gặp khi dùng lợi tiểu quai là gì?",
+    "back": "Hạ K, hạ Na, hạ Mg, kiềm chuyển hóa, tăng uric acid.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-022",
+    "front": "Khi nào cần giảm liều hoặc tạm ngưng lợi tiểu quai?",
+    "back": "Khi có dấu hiệu giảm thể tích, hạ huyết áp tư thế, hoặc rối loạn điện giải nặng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-023",
+    "front": "Kể tên 3 thuốc thuộc nhóm Thiazide và Thiazide-like.",
+    "back": "Hydrochlorothiazide, Indapamide, Chlorthalidone.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-024",
+    "front": "Các thông số cần theo dõi khi dùng Thiazide/Thiazide-like là gì?",
+    "back": "Huyết áp, điện giải (Na, K), creatinine, đường huyết, uric acid.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-025",
+    "front": "Nhóm lợi tiểu nào có nguy cơ gây **hạ Na máu** cao hơn, đặc biệt trong những tuần đầu sử dụng?",
+    "back": "Thiazide và Thiazide-like.",
+    "extra": "Cần theo dõi sát Na máu, đặc biệt ở người cao tuổi."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-026",
+    "front": "Các rối loạn điện giải và chuyển hóa thường gặp khi dùng Thiazide là gì?",
+    "back": "Hạ Na, hạ K, tăng uric acid, tăng đường huyết, tăng canxi máu.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-027",
+    "front": "Cần thận trọng hoặc tránh dùng Thiazide ở những bệnh nhân có tiền sử bệnh lý nào?",
+    "back": "Tiền sử gout hoặc hạ Na máu.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-028",
+    "front": "Kể tên 2 thuốc đối kháng Mineralocorticoid (MRA) thường dùng.",
+    "back": "Spironolactone, Eplerenone.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-029",
+    "front": "Hai thông số quan trọng nhất cần theo dõi khi dùng MRA là gì?",
+    "back": "Kali (K) và creatinine/eGFR.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-030",
+    "front": "Theo NHS SPS, thời điểm kiểm tra lại K và creatinine sau khi **khởi trị hoặc tăng liều Spironolactone/Eplerenone** là khi nào?",
+    "back": "Sau 1 tuần.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-031",
+    "front": "Theo NHS SPS, lịch theo dõi K và creatinine trong **3 tháng đầu** dùng MRA là như thế nào?",
+    "back": "Hằng tháng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-032",
+    "front": "Theo NHS SPS, lịch theo dõi K và creatinine trong **1 năm tiếp theo** (sau 3 tháng đầu) dùng MRA là như thế nào?",
+    "back": "Mỗi 3 tháng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-033",
+    "front": "Theo NHS SPS, khi bệnh nhân dùng MRA đã **ổn định**, cần kiểm tra K và creatinine bao lâu một lần?",
+    "back": "Mỗi 6 tháng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-034",
+    "front": "Hai rối loạn thường gặp nhất khi dùng MRA là gì?",
+    "back": "Tăng K máu và suy giảm chức năng thận.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-035",
+    "front": "Khi nào cần giảm liều hoặc ngừng MRA?",
+    "back": "Khi K tăng cao hoặc eGFR giảm đáng kể (theo protocol cụ thể của từng bệnh lý).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-036",
+    "front": "Kể tên 2 thuốc chẹn ENaC thường dùng.",
+    "back": "Amiloride, Triamterene.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-037",
+    "front": "Mục đích chính khi dùng thuốc chẹn ENaC là gì?",
+    "back": "Chủ yếu dùng phối hợp để giữ kali.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-038",
+    "front": "Nguy cơ chính của nhóm chẹn ENaC là gì?",
+    "back": "Tăng kali máu (tương tự MRA).",
+    "extra": "Cần theo dõi sát K và chức năng thận."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-039",
+    "front": "Acetazolamide và mannitol có được dùng làm thuốc giảm phù ngoại trú thường quy không?",
+    "back": "Không.",
+    "extra": "Chỉ dùng khi có chỉ định chuyên khoa."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-040",
+    "front": "Mục tiêu dùng lợi tiểu trong suy tim mạn có sung huyết là gì?",
+    "back": "Đạt euvolemia với liều lợi tiểu thấp nhất.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-041",
+    "front": "Nhóm thuốc lợi tiểu nào là chủ lực để giảm sung huyết trong suy tim mạn?",
+    "back": "Lợi tiểu quai.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-042",
+    "front": "Trong suy tim mạn, MRA (Spironolactone, Eplerenone) được sử dụng với mục tiêu chính là gì?",
+    "back": "Điều trị nền (cải thiện tiên lượng).",
+    "extra": "Khác với việc dùng MRA liều cao để lợi tiểu."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-043",
+    "front": "Có nên ngừng MRA (đang dùng như điều trị nền suy tim) chỉ dựa vào creatinine tăng nhẹ đơn độc không?",
+    "back": "Không.",
+    "extra": "Không được bỏ qua mức K, tình trạng thể tích và protocol suy tim."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-044",
+    "front": "Bệnh nhân suy tim cấp / phù phổi cấp có được áp dụng thuật toán tự chỉnh liều lợi tiểu tại nhà không?",
+    "back": "Không.",
+    "extra": "Chỉ xử trí trong môi trường có monitor (cấp cứu/ICU)."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-045",
+    "front": "Mục tiêu chính khi dùng Thiazide/Thiazide-like trong bệnh cảnh tăng huyết áp là gì?",
+    "back": "Kiểm soát huyết áp.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-046",
+    "front": "Khi dùng Thiazide điều trị tăng huyết áp ở người cao tuổi, cần theo dõi sát điện giải nào?",
+    "back": "Natri (Na) máu.",
+    "extra": "Do nguy cơ hạ Na máu cao."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-047",
+    "front": "Theo KDIGO 2024, ở bệnh nhân CKD có quá tải dịch, cần theo dõi GFR/albuminuria với tần suất tối thiểu bao lâu?",
+    "back": "Ít nhất hằng năm.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-048",
+    "front": "Theo KDIGO 2024, mức thay đổi eGFR bao nhiêu phần trăm cần được đánh giá kỹ (loại trừ giảm thể tích) ở bệnh nhân CKD?",
+    "back": "Thay đổi eGFR > 20% vượt biến thiên kỳ vọng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-049",
+    "front": "Bệnh nhân CKD có quá tải dịch thường cần liều lợi tiểu quai như thế nào so với người có chức năng thận bình thường?",
+    "back": "Thường cần liều cao hơn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-050",
+    "front": "Mục tiêu giảm cân tối đa mỗi ngày ở bệnh nhân xơ gan cổ trướng **không có phù ngoại biên** là bao nhiêu?",
+    "back": "Không quá 0.5 kg/ngày.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-051",
+    "front": "Mục tiêu giảm cân tối đa mỗi ngày ở bệnh nhân xơ gan cổ trướng **có phù ngoại biên** là bao nhiêu?",
+    "back": "Tối đa 1 kg/ngày.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-052",
+    "front": "Trong xơ gan cổ trướng, tỷ lệ phối hợp thường dùng giữa Spironolactone và Furosemide để duy trì K máu là bao nhiêu?",
+    "back": "100mg Spironolactone : 40mg Furosemide.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-053",
+    "front": "Cần ngừng lợi tiểu ở bệnh nhân xơ gan cổ trướng khi xuất hiện biến chứng thần kinh nào?",
+    "back": "Bệnh não gan (lú lẫn).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-054",
+    "front": "Cần ngừng lợi tiểu ở bệnh nhân xơ gan cổ trướng khi xuất hiện các biến chứng toàn thân/thận nào?",
+    "back": "Nhiễm trùng, tụt huyết áp, suy thận (AKI).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-055",
+    "front": "Ngưỡng hạ Na máu nào bắt buộc phải ngừng lợi tiểu ở bệnh nhân xơ gan cổ trướng?",
+    "back": "Hạ Na máu nặng (< 120 mmol/L).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-056",
+    "front": "Tại sao bệnh nhân hội chứng thận hư thường bị kháng lợi tiểu?",
+    "back": "Do giảm albumin máu và protein niệu gắn kết thuốc.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-057",
+    "front": "Phù do thuốc (VD: chẹn kênh canxi) hoặc suy tĩnh mạch có luôn cần tăng lợi tiểu không?",
+    "back": "Không.",
+    "extra": "Cần giải quyết nguyên nhân gốc."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-058",
+    "front": "Khóa nephron nối tiếp (Sequential Nephron Blockade) là gì?",
+    "back": "Là sự phối hợp lợi tiểu quai + thiazide/thiazide-like.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-059",
+    "front": "Chỉ định của khóa nephron nối tiếp là gì?",
+    "back": "Khi bệnh nhân có kháng lợi tiểu thật sự.",
+    "extra": "Sau khi đã rà soát tuân thủ, ăn mặn, NSAID, tưới máu."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-060",
+    "front": "5 nguy cơ rất cao của khóa nephron nối tiếp là gì?",
+    "back": "1. Hạ Na\n2. Hạ K\n3. Hạ Mg\n4. AKI (Tổn thương thận cấp)\n5. Giảm thể tích nghiêm trọng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-061",
+    "front": "Yêu cầu bắt buộc về mặt theo dõi khi thực hiện khóa nephron nối tiếp là gì?",
+    "back": "Phải đi kèm kế hoạch xét nghiệm sớm (trong vòng vài ngày) và năng lực xử trí.",
+    "extra": "Thiếu khả năng xét nghiệm là lý do chuyển tuyến, không phải lý do để phối hợp mù."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-062",
+    "front": "Mọi thay đổi liều lợi tiểu phải dựa đồng thời trên 5 yếu tố nào?",
+    "back": "1. Còn hay hết sung huyết.\n2. Tưới máu/thể tích.\n3. Na/K/Mg và acid-base.\n4. Creatinine/eGFR và xu hướng.\n5. Bệnh nền và thuốc phối hợp.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-063",
+    "front": "Theo thuật toán chỉnh liều, nếu bệnh nhân **đáp ứng tốt, còn sung huyết, an toàn**, hướng xử trí là gì?",
+    "back": "Tiếp tục theo protocol hiện tại và đánh giá lại định kỳ.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-064",
+    "front": "Theo thuật toán chỉnh liều, nếu bệnh nhân **đã euvolemia**, hướng xử trí là gì?",
+    "back": "Giảm dần về liều thấp nhất duy trì.",
+    "extra": "Tránh giữ nguyên liều tấn công."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-065",
+    "front": "Theo thuật toán chỉnh liều, nếu bệnh nhân **không đáp ứng nhưng chưa có độc tính**, hướng xử trí đầu tiên là gì?",
+    "back": "Rà soát nguyên nhân sửa được (NSAID, ăn mặn, tuân thủ) trước khi tăng liều hoặc phối hợp thuốc.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-066",
+    "front": "Theo thuật toán chỉnh liều, nếu bệnh nhân có **giảm thể tích hoặc AKI**, có được tăng liều lợi tiểu không?",
+    "back": "Không tăng liều.",
+    "extra": "Đánh giá giảm/ngưng lợi tiểu theo bệnh cảnh và xử trí nguyên nhân."
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-067",
+    "front": "Theo thuật toán chỉnh liều, nếu bệnh nhân có **rối loạn điện giải nặng hoặc có triệu chứng**, hướng xử trí là gì?",
+    "back": "Cấp cứu hoặc hội chẩn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-068",
+    "front": "Dấu hiệu Red Flag về hô hấp cần cấp cứu/chuyển tuyến ngay khi dùng lợi tiểu là gì?",
+    "back": "Giảm oxy máu / Phù phổi cấp.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-069",
+    "front": "Dấu hiệu Red Flag về huyết động cần cấp cứu/chuyển tuyến ngay khi dùng lợi tiểu là gì?",
+    "back": "Sốc hoặc dấu hiệu giảm tưới máu nghiêm trọng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-070",
+    "front": "Dấu hiệu Red Flag về nước tiểu cần cấp cứu/chuyển tuyến ngay khi dùng lợi tiểu là gì?",
+    "back": "Vô niệu / Thiểu niệu mới xuất hiện rõ.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-071",
+    "front": "Dấu hiệu Red Flag về thần kinh cần cấp cứu/chuyển tuyến ngay khi dùng lợi tiểu là gì?",
+    "back": "Lú lẫn, co giật hoặc các triệu chứng thần kinh mới.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-072",
+    "front": "Dấu hiệu Red Flag về tim mạch/cơ cần cấp cứu/chuyển tuyến ngay khi dùng lợi tiểu là gì?",
+    "back": "Loạn nhịp tim, yếu cơ nặng hoặc nghi ngờ thay đổi điện tâm đồ (do rối loạn K).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-073",
+    "front": "Dấu hiệu Red Flag về chức năng thận cần cấp cứu/chuyển tuyến ngay khi dùng lợi tiểu là gì?",
+    "back": "Creatinine tăng nhanh / AKI.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-074",
+    "front": "Dấu hiệu Red Flag về Natri máu cần cấp cứu/chuyển tuyến ngay khi dùng lợi tiểu là gì?",
+    "back": "Hạ Na máu có triệu chứng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-075",
+    "front": "Dấu hiệu Red Flag về Kali máu cần cấp cứu/chuyển tuyến ngay khi dùng lợi tiểu là gì?",
+    "back": "Tăng K máu nặng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-076",
+    "front": "Ở bệnh nhân xơ gan, 4 dấu hiệu Red Flag nào yêu cầu phải cấp cứu/chuyển tuyến và ngưng lợi tiểu?",
+    "back": "1. Lú lẫn (bệnh não gan)\n2. Nhiễm trùng\n3. Tụt huyết áp\n4. Suy thận",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-077",
+    "front": "Khi hỏi bệnh nhân dùng lợi tiểu kém đáp ứng, cần đặc biệt hỏi về việc sử dụng loại thuốc mua ngoài nào?",
+    "back": "Thuốc giảm đau, kháng viêm (NSAID).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-078",
+    "front": "Khi hỏi bệnh nhân dùng lợi tiểu kém đáp ứng, cần khai thác thói quen ăn uống nào?",
+    "back": "Chế độ ăn có mặn không (nêm nếm nhiều gia vị, đồ hộp, dưa cà muối).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-079",
+    "front": "Lý do phổ biến nào khiến bệnh nhân tự ý bỏ liều lợi tiểu mà bác sĩ cần hỏi?",
+    "back": "Sợ đi tiểu nhiều.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "id": "QA-DIURETIC-080",
+    "front": "Ngoài ăn mặn và bỏ thuốc, thói quen uống nước nào có thể làm giảm hiệu quả giảm phù của lợi tiểu?",
+    "back": "Uống quá nhiều nước so với mức khuyến cáo.",
+    "extra": ""
+  }
+]

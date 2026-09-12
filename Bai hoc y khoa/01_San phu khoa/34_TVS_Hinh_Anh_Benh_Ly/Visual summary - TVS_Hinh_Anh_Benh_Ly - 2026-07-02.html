@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bài học y khoa</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+  /* Chart.js canvas: giới hạn max-width để không bị kéo dãn khi render
+     trên màn hình rộng. Kết hợp với height attr trên <canvas> để giữ tỉ lệ.
+     Lý do: Chart.js mặc định maintainAspectRatio=false + responsive=true
+     sẽ fill 100% container width -> bar/doughnut bị oval/méo khi container
+     rộng hơn canvas internal pixel ratio. */
+  canvas { display: block; max-width: 800px; margin: 0 auto; height: auto !important; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+<header class="text-center py-12 mb-12 glass rounded-3xl shadow-lg">
+  <div class="inline-block px-4 py-1 mb-4 rounded-full bg-blue-200 text-blue-800 text-sm font-semibold">
+    Chuyên khoa: Sản phụ khoa
+  </div>
+  <h1 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800"></h1>
+  <p class="text-stone-600 text-lg">Ngày 2026-07-02 | Cho bác sĩ sản phụ khoa / học viên sau đại học</p>
+  <p class="text-sm text-stone-500 mt-2">Bác sĩ: <strong>Ngọc 🍅 🐈‍⬛</strong> | AI: <strong>MiniMax Mavis</strong></p>
+</header><main class="max-w-6xl mx-auto space-y-8">
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">0. TỔNG QUAN - BÀI NÀY DÙNG ĐỂ LÀM GÌ?</h2>
+<p class="text-stone-700 mb-3">Bài trước tập trung vào kỹ thuật TVS cơ bản: cầm đầu dò, định hướng hình ảnh, khảo sát tử cung - phần phụ và viết báo cáo bình thường. Bài này là bước kế tiếp: <strong>gặp hình bất thường thì mô tả thế nào, nghĩ gì trước, và khi nào phải báo ngay</strong>.</p>
+<p class="text-stone-700 mb-3">Trong thực hành phòng khám, người làm TVS thường không cần chẩn đoán mô bệnh học ngay. Việc quan trọng hơn là:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Nhận ra hình không bình thường.</li>
+<li>Mô tả đủ đặc điểm để người sau đọc lại hiểu tổn thương.</li>
+<li>Phân biệt nhóm lành tính thường gặp với nhóm cần đánh giá chuyên sâu.</li>
+<li>Không bỏ sót tình huống cấp cứu như thai ngoài tử cung, xoắn buồng trứng, dịch máu ổ bụng hoặc nhiễm trùng phần phụ.</li></ol>
+<p class="text-stone-700 mb-3"><strong>Mục tiêu bài:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Biết cách mô tả một tổn thương trên TVS theo checklist cố định.</li>
+<li>Nhận diện các hình ảnh bệnh lý thường gặp của tử cung, nội mạc tử cung, buồng trứng, phần phụ và túi cùng Douglas.</li>
+<li>Viết được báo cáo ngắn gọn nhưng đủ ý cho các tình huống hay gặp.</li>
+<li>Biết dấu hiệu nào chỉ cần theo dõi, dấu hiệu nào cần hẹn đánh giá chuyên sâu, dấu hiệu nào phải báo ngay.</li>
+<li>Hiểu vai trò nhập môn của IOTA và O-RADS nhưng không biến bài này thành bài phân tầng nguy cơ nâng cao.</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">1. CÁCH MÔ TẢ MỘT TỔN THƯƠNG TRÊN TVS</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.1. Checklist mô tả 10 điểm</h3>
+<p class="text-stone-700 mb-3">Khi thấy một bất thường, đừng vội gọi tên bệnh. Trước hết mô tả theo 10 điểm:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Câu hỏi</th><th class="p-2 border whitespace-nowrap">Cần ghi gì?</th><th class="p-2 border whitespace-nowrap">Ví dụ</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>1. Ở đâu?</strong></td><td class="p-2 border">Tử cung, nội mạc, cổ tử cung, buồng trứng phải/trái, cạnh tử cung, túi cùng</td><td class="p-2 border">Khối cạnh tử cung phải</td></tr><tr class=""><td class="p-2 border"><strong>2. Kích thước?</strong></td><td class="p-2 border">Đo ít nhất 2 chiều, tốt nhất 3 chiều nếu là khối</td><td class="p-2 border">38 x 32 x 30 mm</td></tr><tr class=""><td class="p-2 border"><strong>3. Dạng gì?</strong></td><td class="p-2 border">Nang, đặc, hỗn hợp, dạng ống, dạng dịch</td><td class="p-2 border">Nang hỗn hợp</td></tr><tr class=""><td class="p-2 border"><strong>4. Hồi âm?</strong></td><td class="p-2 border">Trống âm, hồi âm thấp, hồi âm dày, không đồng nhất</td><td class="p-2 border">Dịch hồi âm mịn dạng kính mờ</td></tr><tr class=""><td class="p-2 border"><strong>5. Thành?</strong></td><td class="p-2 border">Mỏng, dày, đều, không đều</td><td class="p-2 border">Thành mỏng đều</td></tr><tr class=""><td class="p-2 border"><strong>6. Vách?</strong></td><td class="p-2 border">Không vách, vách mỏng, vách dày, nhiều vách</td><td class="p-2 border">Có vách mỏng</td></tr><tr class=""><td class="p-2 border"><strong>7. Chồi / phần đặc?</strong></td><td class="p-2 border">Có hay không; nếu có, đo và xem Doppler</td><td class="p-2 border">Chồi 8 mm có mạch</td></tr><tr class=""><td class="p-2 border"><strong>8. Bóng cản?</strong></td><td class="p-2 border">Có bóng cản sạch/bẩn hay không</td><td class="p-2 border">Bóng cản sau gợi ý dermoid</td></tr><tr class=""><td class="p-2 border"><strong>9. Doppler?</strong></td><td class="p-2 border">Tưới máu thành, vách, chồi, phần đặc</td><td class="p-2 border">Mạch trong phần đặc</td></tr><tr class=""><td class="p-2 border"><strong>10. Dịch tự do?</strong></td><td class="p-2 border">Không, ít, nhiều, trống âm hay có hồi âm</td><td class="p-2 border">Dịch túi cùng có hồi âm</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Nguyên tắc:</strong> gọi tên bệnh chỉ là phần sau. Nếu mô tả thiếu, tên bệnh đúng cũng không giúp ích nhiều.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.2. Ba mức kết luận thực hành</h3>
+<p class="text-stone-700 mb-3">Sau khi mô tả, nên kết luận theo 3 mức:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mức</th><th class="p-2 border whitespace-nowrap">Ý nghĩa</th><th class="p-2 border whitespace-nowrap">Ví dụ</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Có vẻ lành tính, theo dõi được</strong></td><td class="p-2 border">Hình điển hình, không red flag</td><td class="p-2 border">Nang đơn giản nhỏ, nang hoàng thể điển hình</td></tr><tr class=""><td class="p-2 border"><strong>Cần đánh giá chuyên sâu</strong></td><td class="p-2 border">Hình không điển hình hoặc có yếu tố nguy cơ</td><td class="p-2 border">Khối phần phụ phức tạp, phần đặc, chồi, vách dày</td></tr><tr class=""><td class="p-2 border"><strong>Cần báo ngay / xử trí cấp cứu</strong></td><td class="p-2 border">Có nguy cơ mất máu, xoắn, nhiễm trùng, thai ngoài tử cung</td><td class="p-2 border">Đau cấp + beta-hCG dương + dịch túi cùng nhiều</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">2. BỆNH LÝ TỬ CUNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.1. Nhân xơ tử cung</h3>
+<p class="text-stone-700 mb-3">Nhân xơ tử cung thường là khối giảm âm hoặc hồi âm hỗn hợp trong cơ tử cung, có thể làm biến dạng bờ tử cung hoặc đẩy lệch nội mạc.</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Loại</th><th class="p-2 border whitespace-nowrap">Hình ảnh gợi ý</th><th class="p-2 border whitespace-nowrap">Điều cần ghi</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Dưới thanh mạc</strong></td><td class="p-2 border">Khối lồi ra ngoài bờ tử cung</td><td class="p-2 border">Vị trí, kích thước, có cuống không</td></tr><tr class=""><td class="p-2 border"><strong>Trong cơ</strong></td><td class="p-2 border">Khối nằm trong cơ tử cung</td><td class="p-2 border">Có làm biến dạng nội mạc không</td></tr><tr class=""><td class="p-2 border"><strong>Dưới niêm mạc</strong></td><td class="p-2 border">Khối sát hoặc lồi vào lòng tử cung</td><td class="p-2 border">Mức độ đẩy lệch/lồi vào lòng tử cung</td></tr><tr class=""><td class="p-2 border"><strong>Thoái hóa</strong></td><td class="p-2 border">Hồi âm không đồng nhất, có vùng nang hóa</td><td class="p-2 border">Không gọi nhầm là khối phần phụ</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Mẫu mô tả:</strong></p>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Cơ tử cung có nhân xơ vùng thành trước thân tử cung, kích thước ... x ... x ... mm, hồi âm giảm, bờ rõ, gây/không gây biến dạng đường nội mạc.</code></pre>
+<p class="text-stone-700 mb-3"><strong>Bẫy:</strong> nhân xơ dưới thanh mạc có cuống có thể giống khối phần phụ. Cần chứng minh khối liên tục với cơ tử cung hoặc dùng Doppler tìm mạch nuôi từ tử cung nếu cần.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.2. Adenomyosis</h3>
+<p class="text-stone-700 mb-3">Adenomyosis không phải lúc nào cũng tạo một khối rõ. TVS thường gợi ý qua <strong>kiểu thay đổi lan tỏa của cơ tử cung</strong>.</p>
+<p class="text-stone-700 mb-3">Các dấu hiệu hay gặp:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Tử cung to kiểu hình cầu.</li>
+<li>Cơ tử cung không đồng nhất.</li>
+<li>Nang nhỏ trong cơ tử cung.</li>
+<li>Bóng cản hình quạt.</li>
+<li>Đường nối nội mạc - cơ tử cung không đều.</li>
+<li>Thành trước và thành sau tử cung không đối xứng.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Mẫu mô tả:</strong></p>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Cơ tử cung không đồng nhất, có các nang nhỏ trong cơ và bóng cản hình quạt, gợi ý adenomyosis. Đề nghị đối chiếu đau bụng kinh/rong kinh và đánh giá chuyên sâu nếu cần.</code></pre>
+<p class="text-stone-700 mb-3"><strong>Bẫy:</strong> đừng chẩn đoán adenomyosis chỉ vì tử cung hơi to. Cần mô tả dấu hiệu hình ảnh cụ thể.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.3. Dị dạng tử cung nghi ngờ</h3>
+<p class="text-stone-700 mb-3">TVS 2D có thể gợi ý dị dạng khi thấy:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Hai khoang nội mạc tách nhau.</li>
+<li>Đáy tử cung lõm bất thường.</li>
+<li>Hình tử cung không đối xứng trên mặt cắt ngang.</li>
+<li>Khó dựng một đường nội mạc liên tục ở mặt cắt dọc giữa.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Thực hành:</strong> nếu nghi dị dạng tử cung, không nên cố phân loại chắc chắn bằng TVS 2D thường quy. Ghi nghi ngờ và đề nghị siêu âm 3D hoặc MRI khi có chỉ định.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.4. Sẹo mổ lấy thai và niche</h3>
+<p class="text-stone-700 mb-3">Niche là khuyết sẹo vùng eo - thành trước tử cung sau mổ lấy thai, có thể thấy như vùng lõm hoặc túi dịch nhỏ tại sẹo.</p>
+<p class="text-stone-700 mb-3">Điều cần ghi:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Vị trí sẹo ở đoạn dưới tử cung.</li>
+<li>Có tụ dịch tại niche không.</li>
+<li>Độ dày cơ tử cung còn lại nếu đo được.</li>
+<li>Liên hệ triệu chứng ra máu kéo dài sau sạch kinh.</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">3. BỆNH LÝ NỘI MẠC TỬ CUNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.1. Nội mạc dày hoặc không đều</h3>
+<p class="text-stone-700 mb-3">Đánh giá nội mạc phải đặt trong bối cảnh: tuổi, ngày chu kỳ, đang dùng hormone, ra máu bất thường, sau mãn kinh hay chưa.</p>
+<p class="text-stone-700 mb-3">Mô tả tối thiểu:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Bề dày nội mạc.</li>
+<li>Đều hay không đều.</li>
+<li>Có dịch lòng tử cung không.</li>
+<li>Có khối khu trú không.</li>
+<li>Có tăng sinh mạch khu trú trên Doppler không.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Bẫy:</strong> không lấy một con số nội mạc đơn độc để kết luận bệnh nếu không biết ngày chu kỳ và bối cảnh lâm sàng.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.2. Polyp nội mạc tử cung</h3>
+<p class="text-stone-700 mb-3">Polyp thường gợi ý khi thấy tổn thương khu trú trong lòng tử cung, làm nội mạc dày không đều hoặc có khối tăng âm/đồng âm với nội mạc.</p>
+<p class="text-stone-700 mb-3">Dấu hiệu hỗ trợ:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Khối khu trú trong lòng tử cung.</li>
+<li>Bờ tương đối rõ.</li>
+<li>Có thể có mạch nuôi trung tâm trên Doppler.</li>
+<li>Có thể rõ hơn khi có dịch lòng tử cung hoặc khi làm sonohysterography.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Mẫu mô tả:</strong></p>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Trong lòng tử cung có cấu trúc khu trú kích thước ... mm, hồi âm tương đương/tăng âm so với nội mạc, nghi polyp nội mạc. Có/không thấy mạch nuôi trung tâm trên Doppler.</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.3. Dịch lòng tử cung và máu đông</h3>
+<p class="text-stone-700 mb-3">Dịch lòng tử cung có thể gặp trong nhiều bối cảnh: sau mãn kinh, hẹp cổ tử cung, viêm, sau thủ thuật, thai sớm, hoặc ra máu bất thường.</p>
+<p class="text-stone-700 mb-3">Khi thấy dịch, cần ghi:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Dịch trống âm hay có hồi âm.</li>
+<li>Nội mạc hai bên dịch dày bao nhiêu.</li>
+<li>Có khối khu trú trong lòng tử cung không.</li>
+<li>Cổ tử cung có hẹp, khối hoặc dịch không.</li></ul>
+<p class="text-stone-700 mb-3">Máu đông thường có hồi âm không đồng nhất, không có mạch bên trong trên Doppler. Tuy nhiên, không được dùng Doppler một mình để loại trừ tổn thương thật.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">3.4. Sản phẩm thụ thai còn sót</h3>
+<p class="text-stone-700 mb-3">Trong bối cảnh sau sẩy thai, sau hút thai hoặc sau sinh, cần nghĩ đến sản phẩm thụ thai còn sót khi thấy:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Khối hồi âm hỗn hợp trong lòng tử cung.</li>
+<li>Nội mạc dày không đều.</li>
+<li>Có mạch trong khối trên Doppler.</li>
+<li>Ra máu kéo dài hoặc beta-hCG giảm chậm.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Red flag:</strong> ra máu nhiều hoặc dấu hiệu nhiễm trùng không phải là tình huống chỉ theo dõi siêu âm.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">4. BỆNH LÝ BUỒNG TRỨNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.1. Nang đơn giản</h3>
+<p class="text-stone-700 mb-3">Nang đơn giản có đặc điểm:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Trống âm.</li>
+<li>Thành mỏng, đều.</li>
+<li>Không vách dày.</li>
+<li>Không chồi.</li>
+<li>Không phần đặc.</li>
+<li>Tăng âm sau.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Mẫu mô tả:</strong></p>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Buồng trứng phải có nang đơn giản kích thước ... x ... mm, thành mỏng đều, dịch trống âm, không thấy vách dày/chồi/phần đặc.</code></pre>
+<p class="text-stone-700 mb-3"><strong>Thực hành:</strong> quản lý nang đơn giản phụ thuộc tuổi, triệu chứng, kích thước và bối cảnh. Bài này chỉ nhấn kỹ thuật nhận diện; nếu cần quản lý chi tiết, dùng SRU/O-RADS.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.2. Nang hoàng thể và nang xuất huyết</h3>
+<p class="text-stone-700 mb-3">Nang hoàng thể thường gặp ở phụ nữ trong tuổi sinh sản. Hình có thể là nang thành dày, hồi âm hỗn hợp, có vòng mạch ngoại vi trên Doppler.</p>
+<p class="text-stone-700 mb-3">Nang xuất huyết có thể có:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Hồi âm dạng lưới/fibrin.</li>
+<li>Cục máu đông bám thành nhưng không có mạch bên trong.</li>
+<li>Dịch hồi âm thay đổi theo thời gian.</li>
+<li>Có thể đau cấp nếu vỡ.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Bẫy:</strong> nang hoàng thể có vòng mạch mạnh có thể bị nhầm với thai ngoài tử cung nếu chỉ nhìn Doppler. Luôn đối chiếu beta-hCG, vị trí thai trong tử cung và khối cạnh tử cung.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.3. Endometrioma</h3>
+<p class="text-stone-700 mb-3">Endometrioma điển hình có:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Nang hồi âm thấp đồng nhất.</li>
+<li>Dịch dạng kính mờ.</li>
+<li>Thành tương đối đều.</li>
+<li>Ít hoặc không có mạch trong lòng nang.</li>
+<li>Có thể hai bên hoặc kèm dính vùng chậu.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Mẫu mô tả:</strong></p>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Buồng trứng trái có nang hồi âm thấp đồng nhất dạng kính mờ, kích thước ... x ... mm, không thấy chồi rõ, gợi ý endometrioma. Đề nghị đối chiếu đau bụng kinh/lạc nội mạc tử cung.</code></pre>
+<p class="text-stone-700 mb-3"><strong>Bẫy:</strong> endometrioma không điển hình ở người lớn tuổi hoặc có chồi/phần đặc cần đánh giá chuyên sâu, không chỉ gọi là nang lạc nội mạc.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.4. Dermoid / mature cystic teratoma</h3>
+<p class="text-stone-700 mb-3">Dermoid có thể có hình rất đa dạng:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Thành phần tăng âm do mỡ.</li>
+<li>Bóng cản bẩn.</li>
+<li>Nốt Rokitansky.</li>
+<li>Đường mức mỡ - dịch.</li>
+<li>Vùng hồi âm hỗn hợp.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Mẫu mô tả:</strong></p>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Buồng trứng phải có khối dạng nang hỗn hợp, bên trong có thành phần tăng âm kèm bóng cản bẩn, gợi ý dermoid. Đề nghị đánh giá chuyên sâu/đối chiếu lâm sàng.</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.5. Hình ảnh buồng trứng đa nang</h3>
+<p class="text-stone-700 mb-3">Hình ảnh buồng trứng đa nang (polycystic ovarian morphology, PCOM) không đồng nghĩa tự động với hội chứng buồng trứng đa nang (PCOS).</p>
+<p class="text-stone-700 mb-3">Trên TVS có thể thấy:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Nhiều nang nhỏ ở ngoại vi hoặc rải rác.</li>
+<li>Mô đệm tăng tương đối.</li>
+<li>Thể tích buồng trứng tăng.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Nguyên tắc:</strong> không chẩn đoán PCOS chỉ từ siêu âm. Cần tiêu chuẩn lâm sàng, rối loạn phóng noãn và cường androgen tùy guideline.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.6. Khối buồng trứng phức tạp</h3>
+<p class="text-stone-700 mb-3">Khối buồng trứng cần thận trọng khi có:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Phần đặc.</li>
+<li>Chồi nhú.</li>
+<li>Vách dày hoặc không đều.</li>
+<li>Thành không đều.</li>
+<li>Tưới máu trong phần đặc/chồi.</li>
+<li>Dịch ổ bụng hoặc dịch màng bụng.</li>
+<li>Hai bên, lớn nhanh, hoặc không giải thích được bằng nang chức năng.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Không nên ghi:</strong> "nang buồng trứng phức tạp" rồi dừng. Phải mô tả phức tạp ở điểm nào: vách, chồi, phần đặc, mạch hay dịch.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">5. BỆNH LÝ PHẦN PHỤ VÀ VÒI TRỨNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.1. Hydrosalpinx</h3>
+<p class="text-stone-700 mb-3">Hydrosalpinx là vòi trứng ứ dịch. Hình ảnh gợi ý:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Cấu trúc dạng ống, ngoằn ngoèo cạnh tử cung.</li>
+<li>Dịch trống âm hoặc hồi âm thấp.</li>
+<li>Thành mỏng.</li>
+<li>Có thể có các nếp niêm mạc tạo dấu bánh răng/cogwheel trong một số trường hợp.</li>
+<li>Tách biệt với buồng trứng.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Mẫu mô tả:</strong></p>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Cạnh tử cung trái có cấu trúc dạng ống chứa dịch, tách biệt với buồng trứng trái, gợi ý hydrosalpinx.</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.2. Pyosalpinx và tubo-ovarian abscess</h3>
+<p class="text-stone-700 mb-3">Khi nhiễm trùng, dịch trong vòi trứng hoặc khối phần phụ thường phức tạp hơn:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Thành dày.</li>
+<li>Dịch có hồi âm.</li>
+<li>Khối cạnh tử cung đau khi chạm đầu dò.</li>
+<li>Buồng trứng và vòi trứng khó phân biệt.</li>
+<li>Có thể kèm sốt, bạch cầu tăng, đau hạ vị.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Red flag:</strong> nghi áp xe phần phụ không phải tình huống chỉ hẹn theo dõi. Cần báo lâm sàng để đánh giá và điều trị.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.3. Paraovarian cyst</h3>
+<p class="text-stone-700 mb-3">Nang cạnh buồng trứng thường là nang đơn giản nằm gần buồng trứng nhưng tách biệt khỏi buồng trứng.</p>
+<p class="text-stone-700 mb-3">Cách nhận diện:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Thấy buồng trứng riêng biệt với nang.</li>
+<li>Nang không di chuyển cùng buồng trứng khi ấn nhẹ.</li>
+<li>Thành mỏng, dịch trống âm nếu đơn giản.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Bẫy:</strong> nếu không chứng minh được buồng trứng riêng biệt, đừng vội gọi là paraovarian cyst.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.4. Thai ngoài tử cung nghi ngờ</h3>
+<p class="text-stone-700 mb-3">Trong bối cảnh beta-hCG dương tính, đau bụng hoặc ra máu, cần nghĩ thai ngoài tử cung khi:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Không thấy thai trong tử cung khi lâm sàng đáng nghi.</li>
+<li>Có khối cạnh tử cung tách biệt với buồng trứng.</li>
+<li>Có vòng hồi âm cạnh tử cung.</li>
+<li>Có túi thai ngoài tử cung, yolk sac hoặc phôi nếu thấy.</li>
+<li>Có dịch túi cùng nhiều hoặc có hồi âm.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Nguyên tắc:</strong> không thấy khối ngoài tử cung không loại trừ thai ngoài tử cung. Nếu lâm sàng nghi, cần theo dõi beta-hCG, siêu âm lại và xử trí theo protocol.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">6. TÚI CÙNG DOUGLAS VÀ DỊCH TỰ DO</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.1. Cách mô tả dịch</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Hình ảnh</th><th class="p-2 border whitespace-nowrap">Ý nghĩa thực hành</th></tr></thead><tbody><tr class="bg-green-50"><td class="p-2 border"><strong>Không dịch</strong></td><td class="p-2 border">Bình thường trong nhiều tình huống</td></tr><tr class=""><td class="p-2 border"><strong>Dịch ít, trống âm</strong></td><td class="p-2 border">Có thể sinh lý quanh rụng trứng</td></tr><tr class=""><td class="p-2 border"><strong>Dịch nhiều, trống âm</strong></td><td class="p-2 border">Cần liên hệ đau, nang vỡ, thai sớm, viêm</td></tr><tr class=""><td class="p-2 border"><strong>Dịch có hồi âm</strong></td><td class="p-2 border">Nghĩ máu, mủ hoặc dịch phức tạp</td></tr><tr class=""><td class="p-2 border"><strong>Cục máu đông trong túi cùng</strong></td><td class="p-2 border">Red flag trong đau cấp hoặc beta-hCG dương</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">6.2. Khi nào dịch túi cùng đáng lo?</h3>
+<p class="text-stone-700 mb-3">Đáng lo khi có một trong các bối cảnh:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Đau bụng cấp.</li>
+<li>Beta-hCG dương tính.</li>
+<li>Huyết động không ổn định.</li>
+<li>Dịch nhiều hoặc lan lên ổ bụng.</li>
+<li>Dịch có hồi âm hoặc cục máu.</li>
+<li>Khối phần phụ nghi vỡ hoặc xoắn.</li></ul>
+<p class="text-stone-700 mb-3"><strong>Câu cần nhớ:</strong> dịch ít trống âm có thể sinh lý; dịch có hồi âm trong đau cấp thì không nên xem nhẹ.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">7. DOPPLER TRONG ĐÁNH GIÁ BỆNH LÝ TVS</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.1. Khi nào nên bật Doppler?</h3>
+<p class="text-stone-700 mb-3">Doppler nên dùng khi có câu hỏi cụ thể:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Cấu trúc này là mạch máu hay ống dịch?</li>
+<li>Phần đặc/chồi có mạch không?</li>
+<li>Khối này có vòng mạch hoàng thể không?</li>
+<li>Có tăng sinh mạch khu trú trong nội mạc không?</li>
+<li>Có nghi xoắn buồng trứng không?</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">7.2. Khi nào Doppler dễ gây hiểu nhầm?</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Tình huống</th><th class="p-2 border whitespace-nowrap">Bẫy</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Nang hoàng thể</strong></td><td class="p-2 border">Vòng mạch ngoại vi có thể giống ring of fire của thai ngoài tử cung</td></tr><tr class=""><td class="p-2 border"><strong>Xoắn buồng trứng</strong></td><td class="p-2 border">Còn dòng chảy không loại trừ xoắn</td></tr><tr class=""><td class="p-2 border"><strong>Máu đông</strong></td><td class="p-2 border">Không có mạch không chứng minh chắc là lành tính nếu hình không điển hình</td></tr><tr class=""><td class="p-2 border"><strong>Thai rất sớm</strong></td><td class="p-2 border">Không dùng Doppler kéo dài nếu không cần, tuân thủ ALARA</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">8. RED FLAGS PHẢI BÁO NGAY</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Red flag</th><th class="p-2 border whitespace-nowrap">Hình ảnh / bối cảnh</th><th class="p-2 border whitespace-nowrap">Vì sao phải báo?</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Thai ngoài tử cung nghi ngờ</strong></td><td class="p-2 border">beta-hCG dương, không thấy thai trong tử cung, khối cạnh tử cung, dịch túi cùng</td><td class="p-2 border">Nguy cơ vỡ, mất máu</td></tr><tr class=""><td class="p-2 border"><strong>Dịch túi cùng nhiều hoặc có hồi âm</strong></td><td class="p-2 border">Đau cấp, dịch máu nghi ngờ</td><td class="p-2 border">Có thể là máu trong ổ bụng</td></tr><tr class=""><td class="p-2 border"><strong>Xoắn buồng trứng nghi ngờ</strong></td><td class="p-2 border">Buồng trứng to, đau khi chạm, nang ngoại vi, phù mô đệm</td><td class="p-2 border">Cần xử trí nhanh để bảo tồn buồng trứng</td></tr><tr class=""><td class="p-2 border"><strong>Áp xe phần phụ nghi ngờ</strong></td><td class="p-2 border">Khối phần phụ đau, thành dày, dịch hồi âm, sốt</td><td class="p-2 border">Cần kháng sinh/can thiệp</td></tr><tr class=""><td class="p-2 border"><strong>Khối phần phụ nghi ác tính</strong></td><td class="p-2 border">Chồi, phần đặc có mạch, vách dày, dịch ổ bụng</td><td class="p-2 border">Cần phân tầng nguy cơ và chuyển tuyến phù hợp</td></tr><tr class=""><td class="p-2 border"><strong>Ra máu nhiều/huyết động không ổn định</strong></td><td class="p-2 border">Siêu âm chỉ là hỗ trợ</td><td class="p-2 border">Không được làm chậm hồi sức</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">9. CHECKLIST ĐỌC HÌNH BỆNH LÝ TVS</h2>
+<div class="mermaid text-center my-6">flowchart TD
+    A["Thấy bất thường trên TVS"] --> B{"Nằm ở cơ quan nào?"}
+    B --> C["Tử cung / nội mạc"]
+    B --> D["Buồng trứng / phần phụ"]
+    B --> E["Túi cùng Douglas"]
+    C --> F["Mô tả vị trí, kích thước, liên quan nội mạc, Doppler nếu cần"]
+    D --> G{"Nang đơn giản hay khối phức tạp?"}
+    G -->|"Nang đơn giản"| H["Đo kích thước, ghi thành mỏng, không vách dày/chồi/phần đặc"]
+    G -->|"Phức tạp"| I["Mô tả vách, chồi, phần đặc, bóng cản, Doppler, dịch"]
+    E --> J["Ghi lượng dịch và hồi âm: trống âm hay có hồi âm/cục máu"]
+    I --> K{"Có red flag?"}
+    J --> K
+    F --> K
+    K -->|"Có"| L["Báo ngay / đề nghị đánh giá cấp cứu hoặc chuyên sâu"]
+    K -->|"Không"| M["Viết báo cáo có giới hạn khảo sát và hướng theo dõi phù hợp"]
+    style A fill:#e3f2fd,stroke:#1976d2
+    style L fill:#f8d7da,stroke:#c62828
+    style M fill:#c8e6c9,stroke:#388e3c</div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">10. MẪU BÁO CÁO THEO TÌNH HUỐNG</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">10.1. Nang đơn giản buồng trứng</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Buồng trứng phải có nang đơn giản kích thước ... x ... mm, thành mỏng đều, dịch trống âm, không thấy vách dày, chồi hay phần đặc. Không thấy dịch tự do lượng nhiều trong túi cùng Douglas.
+Kết luận: Nang đơn giản buồng trứng phải. Đề nghị theo dõi theo tuổi, triệu chứng và kích thước nang.</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">10.2. Endometrioma nghi ngờ</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Buồng trứng trái có nang hồi âm thấp đồng nhất dạng kính mờ, kích thước ... x ... mm, không thấy chồi rõ, không thấy phần đặc tăng sinh mạch. Túi cùng Douglas ...
+Kết luận: Hình ảnh gợi ý endometrioma buồng trứng trái. Đề nghị đối chiếu triệu chứng đau bụng kinh/lạc nội mạc tử cung và đánh giá chuyên sâu nếu cần.</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">10.3. Khối phần phụ phức tạp</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Cạnh tử cung phải/buồng trứng phải có khối kích thước ... x ... x ... mm, cấu trúc hỗn hợp, có vách dày/phần đặc/chồi kích thước ... mm, Doppler ghi nhận có/không tưới máu trong phần đặc. Có/không có dịch tự do.
+Kết luận: Khối phần phụ phức tạp, không đủ tiêu chuẩn nang đơn giản. Đề nghị đánh giá chuyên sâu theo IOTA/O-RADS và xử trí theo lâm sàng.</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">10.4. Thai ngoài tử cung nghi ngờ</h3>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Bệnh nhân beta-hCG dương tính. Trong buồng tử cung chưa thấy túi thai rõ. Cạnh tử cung phải/trái có khối ... mm tách biệt với buồng trứng, kèm dịch túi cùng Douglas lượng ... / có hồi âm.
+Kết luận: Chưa loại trừ thai ngoài tử cung. Cần báo bác sĩ lâm sàng ngay, theo dõi huyết động, beta-hCG và xử trí theo protocol.</code></pre>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">11. SAI LẦM THƯỜNG GẶP</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">#</th><th class="p-2 border whitespace-nowrap">Sai lầm</th><th class="p-2 border whitespace-nowrap">Hậu quả</th><th class="p-2 border whitespace-nowrap">Cách tránh</th></tr></thead><tbody><tr class=""><td class="p-2 border">1</td><td class="p-2 border">Gọi tên bệnh trước khi mô tả</td><td class="p-2 border">Báo cáo thiếu thông tin, khó theo dõi</td><td class="p-2 border">Mô tả vị trí - kích thước - cấu trúc trước</td></tr><tr class=""><td class="p-2 border">2</td><td class="p-2 border">Gọi mọi nang có hồi âm là endometrioma</td><td class="p-2 border">Bỏ sót nang xuất huyết hoặc khối phức tạp</td><td class="p-2 border">Tìm dạng kính mờ, thành, chồi, Doppler, theo dõi thời gian</td></tr><tr class=""><td class="p-2 border">3</td><td class="p-2 border">Nhầm nang hoàng thể với thai ngoài tử cung</td><td class="p-2 border">Gây báo động sai hoặc bỏ sót thai ngoài tử cung thật</td><td class="p-2 border">Đối chiếu beta-hCG, thai trong tử cung, khối tách biệt buồng trứng</td></tr><tr class=""><td class="p-2 border">4</td><td class="p-2 border">Kết luận không xoắn vì còn Doppler</td><td class="p-2 border">Bỏ sót xoắn buồng trứng</td><td class="p-2 border">Xoắn là chẩn đoán lâm sàng + hình thái + Doppler</td></tr><tr class=""><td class="p-2 border">5</td><td class="p-2 border">Không khảo sát túi cùng Douglas</td><td class="p-2 border">Bỏ sót dịch máu/dịch mủ</td><td class="p-2 border">Luôn nhìn túi cùng cuối cuộc khám</td></tr><tr class=""><td class="p-2 border">6</td><td class="p-2 border">Ghi "khối phần phụ" nhưng không nói thuộc buồng trứng hay tách biệt</td><td class="p-2 border">Khó định hướng chẩn đoán</td><td class="p-2 border">Cố chứng minh buồng trứng riêng biệt hoặc liên quan với khối</td></tr><tr class=""><td class="p-2 border">7</td><td class="p-2 border">Không ghi giới hạn khảo sát</td><td class="p-2 border">Tạo âm tính giả</td><td class="p-2 border">Ghi rõ khi hơi ruột, đau, tư thế hoặc không thấy buồng trứng</td></tr><tr class=""><td class="p-2 border">8</td><td class="p-2 border">Lạm dụng O-RADS khi mô tả cơ bản còn thiếu</td><td class="p-2 border">Phân tầng sai</td><td class="p-2 border">Mô tả chuẩn trước, phân tầng sau</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">12. BÀI TẬP THỰC HÀNH ĐỌC HÌNH</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">12.1. Case 1: nang trống âm buồng trứng</h3>
+<p class="text-stone-700 mb-3">Tự hỏi:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Nang có thật sự trống âm không?</li>
+<li>Thành có mỏng đều không?</li>
+<li>Có vách dày, chồi, phần đặc không?</li>
+<li>Có dịch túi cùng không?</li>
+<li>Báo cáo có đủ kích thước không?</li></ol>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">12.2. Case 2: đau cấp + nang hỗn hợp</h3>
+<p class="text-stone-700 mb-3">Tự hỏi:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Có hình lưới fibrin hoặc cục máu đông không?</li>
+<li>Có dịch túi cùng không?</li>
+<li>Beta-hCG có dương tính không?</li>
+<li>Có đau khi chạm đầu dò không?</li>
+<li>Có cần báo ngay không?</li></ol>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">12.3. Case 3: khối phần phụ phức tạp</h3>
+<p class="text-stone-700 mb-3">Tự hỏi:</p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Khối thuộc buồng trứng hay tách biệt buồng trứng?</li>
+<li>Có phần đặc/chồi/vách dày không?</li>
+<li>Phần đặc/chồi có mạch không?</li>
+<li>Có dịch ổ bụng không?</li>
+<li>Cần đánh giá chuyên sâu theo IOTA/O-RADS không?</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">13. ÁP DỤNG TẠI VIỆT NAM</h2>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Phòng khám sản phụ khoa:</strong> thường gặp nang chức năng, endometrioma, u xơ, polyp nghi ngờ, hydrosalpinx và thai sớm chưa rõ vị trí.</li>
+<li><strong>Tuyến cơ sở:</strong> điều quan trọng là nhận diện red flags và ghi giới hạn khảo sát, không cố phân tầng quá chi tiết khi hình ảnh chưa đủ.</li>
+<li><strong>Chuyển tuyến:</strong> khối phần phụ phức tạp có phần đặc/chồi/vách dày hoặc dịch ổ bụng nên được đánh giá bởi người có kinh nghiệm IOTA/O-RADS.</li>
+<li><strong>Thai ngoài tử cung:</strong> nếu beta-hCG dương tính, đau bụng, ra máu và TVS không thấy thai trong tử cung, cần quản lý theo protocol, không trấn an bằng một lần siêu âm âm tính.</li>
+<li><strong>Báo cáo:</strong> nên dùng ngôn ngữ mô tả thay vì kết luận mơ hồ. Ví dụ "nang hồi âm thấp dạng kính mờ, không thấy chồi" tốt hơn "nang lạc nội mạc" nếu chưa đủ chắc.</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">14. TIPS THỰC HÀNH</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Đừng gọi "nang buồng trứng" nếu chưa chứng minh tổn thương nằm trong buồng trứng.</li>
+<li>Nang đơn giản phải thật sự đơn giản: trống âm, thành mỏng, không vách dày, không chồi, không phần đặc.</li>
+<li>Nang xuất huyết thay đổi theo thời gian; nếu hình không điển hình, cần theo dõi hoặc đánh giá lại.</li>
+<li>Endometrioma điển hình có hồi âm thấp đồng nhất dạng kính mờ, nhưng chồi hoặc phần đặc làm thay đổi mức độ lo ngại.</li>
+<li>Dermoid hay có bóng cản bẩn và thành phần tăng âm, nhưng hình có thể đa dạng.</li>
+<li>Hydrosalpinx là cấu trúc dạng ống, không phải nang tròn đơn độc.</li>
+<li>Dịch túi cùng có hồi âm trong đau cấp là dấu hiệu phải chú ý.</li>
+<li>Doppler giúp trả lời câu hỏi, không thay thế mô tả thang xám.</li>
+<li>Còn dòng chảy không loại trừ xoắn buồng trứng.</li>
+<li>Khi không chắc, ghi mô tả trung thực và đề nghị đánh giá chuyên sâu; đừng bịa chẩn đoán chắc chắn.</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">15. TỔNG KẾT ĐIỂM CẦN NHỚ</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li>Đọc hình bệnh lý TVS bắt đầu bằng mô tả, không bắt đầu bằng tên bệnh.</li>
+<li>Mọi tổn thương cần được mô tả vị trí, kích thước, cấu trúc, thành, vách, chồi, phần đặc, Doppler và dịch kèm theo.</li>
+<li>Nang đơn giản có tiêu chuẩn hình ảnh rõ; nếu thiếu tiêu chuẩn, đừng gọi là đơn giản.</li>
+<li>Endometrioma, nang xuất huyết và dermoid có hình điển hình nhưng vẫn cần cảnh giác khi có phần đặc, chồi hoặc mạch bất thường.</li>
+<li>Khối phần phụ phức tạp cần mô tả chi tiết và cân nhắc IOTA/O-RADS.</li>
+<li>Thai ngoài tử cung là chẩn đoán theo bối cảnh beta-hCG, triệu chứng và siêu âm; một lần không thấy khối không loại trừ bệnh.</li>
+<li>Dịch túi cùng phải được nhìn có chủ đích, nhất là trong đau cấp và thai sớm.</li>
+<li>Doppler còn tín hiệu không loại trừ xoắn buồng trứng.</li>
+<li>Báo cáo tốt phải phân biệt được: theo dõi được, cần đánh giá chuyên sâu, hay phải báo ngay.</li>
+<li>Nếu hình ảnh hạn chế, ghi rõ giới hạn khảo sát thay vì kết luận âm tính giả.</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">16. TÀI LIỆU THAM KHẢO</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>American Institute of Ultrasound in Medicine (2024)</strong> "AIUM Practice Parameter for the Performance of Ultrasound of the Female Pelvis, 2024 Revision." <em>Journal of Ultrasound in Medicine.</em> PMID: <strong>39158217</strong>. DOI: 10.1002/jum.16556. [GUIDELINE VERIFIED] [FETCHED]</li>
+<li><strong>Timmerman et al. (2000)</strong> "Terms, definitions and measurements to describe the sonographic features of adnexal tumors: a consensus opinion from the International Ovarian Tumor Analysis (IOTA) Group." <em>Ultrasound in Obstetrics & Gynecology.</em> PMID: <strong>11169340</strong>. [FETCHED]</li>
+<li><strong>Levine et al. (2010)</strong> "Management of asymptomatic ovarian and other adnexal cysts imaged at US: Society of Radiologists in Ultrasound Consensus Conference Statement." <em>Radiology.</em> PMID: <strong>20505067</strong>. DOI: 10.1148/radiol.10100213. [GUIDELINE VERIFIED] [FETCHED]</li>
+<li><strong>Andreotti et al. (2020)</strong> "O-RADS US Risk Stratification and Management System: A Consensus Guideline from the ACR Ovarian-Adnexal Reporting and Data System Committee." <em>Radiology.</em> PMID: <strong>31687921</strong>. DOI: 10.1148/radiol.2019191150. [GUIDELINE VERIFIED] [FETCHED]</li></ol>
+<hr class="my-6 border-stone-300">
+<p class="text-stone-700 mb-3"><strong>- Hết bài học ngày 2026-07-02 -</strong></p>
+<p class="text-stone-700 mb-3"><strong>Bác sĩ:</strong> Ngọc Hưng | <strong>AI:</strong> OpenCode cx/gpt-5.5-xhigh</p>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bác sĩ: Ngọc 🍅 🐈‍⬛ | AI: MiniMax Mavis | 2026-07-02</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+</script>
+</body>
+</html>

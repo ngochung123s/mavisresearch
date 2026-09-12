@@ -1,0 +1,1272 @@
+{
+  "meta": {
+    "title": "Tinh dịch đồ trong vô sinh nam và ART",
+    "subtitle": "Bài giảng lâm sàng ART",
+    "author": "Bác sĩ Ngọc Hưng",
+    "specialty": "Hỗ trợ sinh sản / Nam khoa",
+    "date": "2026-07-13"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "variant": "split_dark",
+      "title": "Tinh dịch đồ trong vô sinh nam và ART",
+      "subtitle": "Lấy mẫu đúng, đọc kết quả đúng, không biến reference values thành cutoff",
+      "author": "Bác sĩ Ngọc Hưng",
+      "specialty": "Hỗ trợ sinh sản / Nam khoa / Labo ART",
+      "date": "2026-07-13",
+      "note": "Làm gì? Đặt thông điệp trung tâm ngay từ đầu.\nTại sao? Người học cần hiểu tinh dịch đồ là snapshot chuẩn hóa, không phải xét nghiệm đậu/rớt fertility.\nNếu bỏ qua/làm sai? Nếu mở bài bằng các cutoff, học viên dễ diễn giải như fertile/infertile.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "outline",
+      "variant": "numbered",
+      "title": "Bản đồ bài học",
+      "chapters": [
+        "Vai trò và sinh lý",
+        "Lấy mẫu - tiền phân tích - QC",
+        "WHO 2021 và thuật ngữ",
+        "Repeat testing và pattern",
+        "ART decisions",
+        "Advanced tests, report và cases"
+      ],
+      "note": "Làm gì? Dẫn người học đi từ mẫu xét nghiệm đến quyết định ART.\nTại sao? Trình tự này buộc kiểm tra tiền phân tích trước khi đọc số và chọn can thiệp.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "0",
+      "part_title": "Thông điệp trung tâm",
+      "part_subtitle": "Tinh dịch đồ là snapshot, không phải phép thử đậu/rớt fertility",
+      "note": "Làm gì? Chuyển sang phần 0: Thông điệp trung tâm.\nTại sao? Section divider giúp người học reset câu hỏi lâm sàng trước phần mới.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Một câu phải nhớ",
+      "points": [
+        "Tinh dịch đồ mô tả một mẫu xuất tinh tại một thời điểm",
+        "Không chứng minh người nam fertile hay infertile tuyệt đối",
+        "Phải đọc cùng tiền phân tích, repeat và bối cảnh cặp đôi",
+        "Nhiều thông số bất thường cùng lúc có ý nghĩa hơn một con số lẻ",
+        "Ý nghĩa: Nếu hiểu sai vai trò, mọi con số phía sau sẽ bị dùng như cutoff chẩn đoán.",
+        "Nếu sai, Bệnh nhân có thể bị tư vấn ART quá mức hoặc trấn an quá mức."
+      ],
+      "note": "Làm gì? Đặt định nghĩa vận hành cho bài học.\nTại sao? Nếu hiểu sai vai trò, mọi con số phía sau sẽ bị dùng như cutoff chẩn đoán.\nNếu bỏ qua/làm sai? Bệnh nhân có thể bị tư vấn ART quá mức hoặc trấn an quá mức.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "two_column",
+      "variant": "cards",
+      "title": "Tinh dịch đồ đo gì và không đo gì",
+      "left_title": "Đo được",
+      "left_points": [
+        "Volume, pH, hóa lỏng",
+        "Concentration và total number",
+        "Motility, vitality, morphology",
+        "Round cells/WBC, agglutination",
+        "Dấu gợi ý tắc/viêm"
+      ],
+      "right_title": "Không tự đo được",
+      "right_points": [
+        "Fertile/infertile tuyệt đối",
+        "Live birth chắc chắn",
+        "DNA tinh trùng tuyệt đối bình thường",
+        "Nguyên nhân giải phẫu chính xác",
+        "IUI/IVF/ICSI chỉ bằng một chỉ số",
+        "Chốt: SA là đầu vào của workup, không phải quyết định cuối."
+      ],
+      "note": "Làm gì? Tách năng lực xét nghiệm khỏi diễn giải lâm sàng.\nTại sao? SA là đầu vào của workup, không phải quyết định cuối.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "1",
+      "part_title": "Vai trò và sinh lý nguồn gốc tinh dịch",
+      "part_subtitle": "Biết dịch đến từ đâu để đọc pattern",
+      "note": "Làm gì? Chuyển sang phần 1: Vai trò và sinh lý nguồn gốc tinh dịch.\nTại sao? Section divider giúp người học reset câu hỏi lâm sàng trước phần mới.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "mechanism",
+      "variant": "horizontal_steps",
+      "title": "Đường đi tinh trùng",
+      "steps": [
+        {
+          "title": "Tinh hoàn",
+          "description": "sinh tinh"
+        },
+        {
+          "title": "Mào tinh",
+          "description": "trưởng thành và tăng vận động"
+        },
+        {
+          "title": "Ống dẫn tinh",
+          "description": "vận chuyển"
+        },
+        {
+          "title": "Túi tinh",
+          "description": "thể tích, fructose, pH kiềm"
+        },
+        {
+          "title": "Tiền liệt tuyến",
+          "description": "hóa lỏng và enzyme"
+        }
+      ],
+      "outcome": "Ý nghĩa lâm sàng: Volume, pH và azoospermia chỉ có nghĩa khi hiểu tuyến phụ và đường dẫn tinh.",
+      "note": "Làm gì? Liên hệ giải phẫu với thông số báo cáo.\nTại sao? Volume, pH và azoospermia chỉ có nghĩa khi hiểu tuyến phụ và đường dẫn tinh.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "two_column",
+      "variant": "cards",
+      "title": "Pattern từ sinh lý",
+      "left_title": "Sản xuất kém",
+      "left_points": [
+        "Tinh hoàn nhỏ",
+        "FSH tăng",
+        "Oligo/azoospermia",
+        "Nghĩ NOA/suy sinh tinh"
+      ],
+      "right_title": "Tắc nghẽn",
+      "right_points": [
+        "Tinh hoàn có thể bình thường",
+        "FSH thường bình thường",
+        "Mào tinh/ống dẫn tinh bất thường",
+        "Nghĩ OA/CBAVD/EOD",
+        "Chốt: Cùng là azoospermia nhưng nhánh xử trí khác nhau hoàn toàn."
+      ],
+      "note": "Làm gì? Dùng pattern thay vì nhìn một con số.\nTại sao? Cùng là azoospermia nhưng nhánh xử trí khác nhau hoàn toàn.\nNếu bỏ qua/làm sai? Nhầm OA và NOA làm sai genetics, imaging và retrieval planning.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Vì sao volume + pH quan trọng?",
+      "points": [
+        "Low volume có thể do lấy mẫu thiếu hoặc xuất tinh ngược",
+        "pH acid gợi ý thiếu đóng góp túi tinh",
+        "Low-volume acidic azoospermia gợi ý CBAVD/EOD sau khi loại trừ lỗi mẫu",
+        "Cần liên kết sang siêu âm bìu/TRUS ở bài 42 khi đúng chỉ định",
+        "Ý nghĩa: Một thông số đại thể có thể chỉ đường tới giải phẫu tắc nghẽn.",
+        "Nếu sai, Bỏ qua collection error có thể chẩn đoán tắc giả."
+      ],
+      "note": "Làm gì? Đọc đại thể trước khi nhảy sang ART.\nTại sao? Một thông số đại thể có thể chỉ đường tới giải phẫu tắc nghẽn.\nNếu bỏ qua/làm sai? Bỏ qua collection error có thể chẩn đoán tắc giả.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "2",
+      "part_title": "Lấy mẫu và tiền phân tích",
+      "part_subtitle": "Phần quan trọng nhất của bài",
+      "note": "Làm gì? Chuyển sang phần 2: Lấy mẫu và tiền phân tích.\nTại sao? Section divider giúp người học reset câu hỏi lâm sàng trước phần mới.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "criteria",
+      "variant": "score_points",
+      "title": "Checklist trước khi nhận mẫu",
+      "items": [
+        {
+          "text": "Kiêng xuất tinh 2-7 ngày",
+          "points": "✓"
+        },
+        {
+          "text": "Lấy đủ toàn bộ mẫu, nhất là phần đầu",
+          "points": "✓"
+        },
+        {
+          "text": "Dụng cụ/lubricant không độc tinh trùng",
+          "points": "✓"
+        },
+        {
+          "text": "Ghi giờ lấy mẫu và giờ bắt đầu phân tích",
+          "points": "✓"
+        },
+        {
+          "text": "Vận chuyển nhanh, tránh lạnh/nóng",
+          "points": "✓"
+        },
+        {
+          "text": "Hỏi sốt, bệnh cấp, thuốc, testosterone/anabolic steroid",
+          "points": "✓"
+        }
+      ],
+      "interpretation": [
+        {
+          "range": "Cần làm",
+          "label": "Kiểm tra mẫu trước khi đọc số."
+        },
+        {
+          "range": "Lý do",
+          "label": "Tiền phân tích sai có thể tạo hypospermia, oligozoospermia hoặc asthenozoospermia giả."
+        },
+        {
+          "range": "Nếu bỏ sót",
+          "label": "Kết luận bệnh lý từ mẫu lỗi sẽ kéo theo workup và ART sai."
+        }
+      ],
+      "note": "Làm gì? Kiểm tra mẫu trước khi đọc số.\nTại sao? Tiền phân tích sai có thể tạo hypospermia, oligozoospermia hoặc asthenozoospermia giả.\nNếu bỏ qua/làm sai? Kết luận bệnh lý từ mẫu lỗi sẽ kéo theo workup và ART sai.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Kiêng xuất tinh: 2-7 ngày",
+      "points": [
+        "WHO dùng 2-7 ngày để chuẩn hóa điều kiện so sánh",
+        "Kiêng quá ngắn có thể thấp số lượng",
+        "Kiêng quá dài có thể tăng tinh trùng già/kém di động",
+        "Luôn ghi số ngày kiêng trên report",
+        "Ý nghĩa: Không có thông tin này thì khó so sánh mẫu giữa các lần."
+      ],
+      "note": "Làm gì? Ghi và diễn giải thời gian kiêng.\nTại sao? Không có thông tin này thì khó so sánh mẫu giữa các lần.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Lấy đủ mẫu: hỏi thẳng",
+      "points": [
+        "Phần đầu mẫu thường giàu tinh trùng",
+        "Mất phần đầu làm volume và count thấp giả",
+        "Report phải ghi giới hạn mẫu",
+        "Thường nên lặp lại đúng chuẩn trước khi chẩn đoán",
+        "Ý nghĩa: Câu hỏi đơn giản này tránh chẩn đoán hypospermia/oligozoospermia giả."
+      ],
+      "note": "Làm gì? Hỏi bệnh nhân có mất mẫu không.\nTại sao? Câu hỏi đơn giản này tránh chẩn đoán hypospermia/oligozoospermia giả.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Thời gian phân tích",
+      "points": [
+        "WHO: bắt đầu phân tích lý tưởng trong 30 phút",
+        "Muộn nhất trong 60 phút sau lấy mẫu",
+        "Delay và nhiệt độ không phù hợp làm giảm motility giả",
+        "Mẫu lấy tại nhà phải ghi giờ và điều kiện vận chuyển",
+        "Ý nghĩa: Motility là thông số rất nhạy với tiền phân tích.",
+        "Nếu sai, Có thể gắn nhãn asthenozoospermia sai."
+      ],
+      "note": "Làm gì? Ghi delay và nhiệt độ vận chuyển.\nTại sao? Motility là thông số rất nhạy với tiền phân tích.\nNếu bỏ qua/làm sai? Có thể gắn nhãn asthenozoospermia sai.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "criteria",
+      "variant": "score_points",
+      "title": "Khi nào report phải ghi giới hạn?",
+      "items": [
+        {
+          "text": "Báo mất một phần mẫu",
+          "points": "✓"
+        },
+        {
+          "text": "Mẫu đến muộn hoặc không rõ giờ lấy",
+          "points": "✓"
+        },
+        {
+          "text": "Dùng dụng cụ/lubricant không phù hợp",
+          "points": "✓"
+        },
+        {
+          "text": "Độ nhớt/hóa lỏng làm khó đếm",
+          "points": "✓"
+        },
+        {
+          "text": "Vừa sốt hoặc dùng thuốc ảnh hưởng sinh tinh",
+          "points": "✓"
+        },
+        {
+          "text": "Labo không đủ điều kiện đọc morphology/advanced test",
+          "points": "✓"
+        }
+      ],
+      "interpretation": [
+        {
+          "range": "Cần làm",
+          "label": "Ghi limitation thay vì che lấp lỗi mẫu."
+        },
+        {
+          "range": "Lý do",
+          "label": "Report trung thực giúp bác sĩ không xử trí quá mức."
+        }
+      ],
+      "note": "Làm gì? Ghi limitation thay vì che lấp lỗi mẫu.\nTại sao? Report trung thực giúp bác sĩ không xử trí quá mức.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "3",
+      "part_title": "Basic semen examination và QC",
+      "part_subtitle": "Đọc đúng từng thông số",
+      "note": "Làm gì? Chuyển sang phần 3: Basic semen examination và QC.\nTại sao? Section divider giúp người học reset câu hỏi lâm sàng trước phần mới.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "two_column",
+      "variant": "cards",
+      "title": "Concentration vs total sperm number",
+      "left_title": "Concentration",
+      "left_points": [
+        "Triệu tinh trùng/mL",
+        "Không tính volume",
+        "Dễ bị nhìn đơn độc",
+        "Ví dụ: 16 triệu/mL"
+      ],
+      "right_title": "Total sperm number",
+      "right_points": [
+        "Tổng số tinh trùng/ejaculate",
+        "Concentration x volume",
+        "Phản ánh toàn mẫu hơn",
+        "WHO 2021: 39 triệu/ejaculate",
+        "Chốt: Hai bệnh nhân cùng concentration có thể có total count khác nhau."
+      ],
+      "note": "Làm gì? Dạy công thức trước khi đọc mức độ nặng.\nTại sao? Hai bệnh nhân cùng concentration có thể có total count khác nhau.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "two_column",
+      "variant": "cards",
+      "title": "Progressive vs total motility",
+      "left_title": "Progressive motility",
+      "left_points": [
+        "Di chuyển tiến tới",
+        "Liên quan thực hành IUI/ART hơn",
+        "WHO 2021 lower 5th centile: 30%"
+      ],
+      "right_title": "Total motility",
+      "right_points": [
+        "Progressive + non-progressive",
+        "Có thể chỉ rung/động tại chỗ",
+        "WHO 2021 lower 5th centile: 42%",
+        "Chốt: Total motility cao nhưng progressive thấp vẫn có ý nghĩa lâm sàng."
+      ],
+      "note": "Làm gì? Tách di động có ích khỏi chỉ có động đậy.\nTại sao? Total motility cao nhưng progressive thấp vẫn có ý nghĩa lâm sàng.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Khi motility thấp, cần vitality",
+      "points": [
+        "Vitality phân biệt bất động còn sống với tinh trùng chết",
+        "Motility thấp + vitality còn tốt: nghĩ vấn đề vận động/tiền phân tích",
+        "Motility thấp + vitality thấp: nghĩ necrozoospermia hoặc tổn thương nặng",
+        "WHO 2021 lower 5th centile vitality: 54%",
+        "Ý nghĩa: Không phải mọi tinh trùng bất động đều đã chết."
+      ],
+      "note": "Làm gì? Yêu cầu vitality khi motility thấp.\nTại sao? Không phải mọi tinh trùng bất động đều đã chết.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "two_column",
+      "variant": "cards",
+      "title": "Round cells vs leukocytospermia",
+      "left_title": "Round cells",
+      "left_points": [
+        "Nhóm hình thái",
+        "Có thể là bạch cầu",
+        "Có thể là tế bào mầm non",
+        "Chưa phải chẩn đoán nhiễm trùng"
+      ],
+      "right_title": "Leukocytospermia",
+      "right_points": [
+        "Cần xác nhận là bạch cầu",
+        "Đặt trong bối cảnh triệu chứng/nguy cơ",
+        "Mới cân nhắc culture/điều trị",
+        "Tránh overtreatment",
+        "Chốt: Giảm culture/kháng sinh không cần thiết."
+      ],
+      "note": "Làm gì? Không gọi round cells là leukocytes khi chưa xác nhận.\nTại sao? Giảm culture/kháng sinh không cần thiết.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "two_column",
+      "variant": "cards",
+      "title": "Agglutination vs aggregation",
+      "left_title": "Agglutination",
+      "left_points": [
+        "Tinh trùng dính với tinh trùng",
+        "Có pattern đầu-đầu/đuôi-đuôi",
+        "Có thể gợi ý ASA trong bối cảnh phù hợp"
+      ],
+      "right_title": "Aggregation",
+      "right_points": [
+        "Tinh trùng kẹt với nhầy",
+        "Dính mảnh vụn/tế bào khác",
+        "Không thay thế thuật ngữ agglutination",
+        "Chốt: ASA testing không routine ban đầu chỉ vì một báo cáo mơ hồ."
+      ],
+      "note": "Làm gì? Dùng đúng thuật ngữ labo.\nTại sao? ASA testing không routine ban đầu chỉ vì một báo cáo mơ hồ.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "QC labo: bác sĩ cần biết gì?",
+      "points": [
+        "Buồng đếm, pipette và timing phải chuẩn",
+        "Đếm nên có duplicate/đánh giá sai số",
+        "Morphology phụ thuộc nhuộm và người đọc",
+        "CASA hữu ích nhưng không thay thế QC",
+        "Advanced tests cần labo validate threshold",
+        "Ý nghĩa: SA khác labo có thể khác vì phương pháp và QC, không chỉ vì bệnh nhân thay đổi."
+      ],
+      "note": "Làm gì? Hiểu nguồn sai số của kết quả.\nTại sao? SA khác labo có thể khác vì phương pháp và QC, không chỉ vì bệnh nhân thay đổi.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "4",
+      "part_title": "WHO 2021 reference values",
+      "part_subtitle": "Mốc tham chiếu, không phải cutoff fertile/infertile",
+      "note": "Làm gì? Chuyển sang phần 4: WHO 2021 reference values.\nTại sao? Section divider giúp người học reset câu hỏi lâm sàng trước phần mới.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Bảng WHO 2021 lower 5th centile",
+      "points": [
+        "Volume: 1.4 mL",
+        "Concentration: 16 triệu/mL",
+        "Total sperm number: 39 triệu/ejaculate",
+        "Total motility: 42%; progressive motility: 30%",
+        "Vitality: 54%; normal morphology: 4%",
+        "Ý nghĩa: Cần thuộc số nhưng phải thuộc kèm ý nghĩa đúng.",
+        "Nếu sai, Học số mà quên provenance sẽ biến reference value thành cutoff."
+      ],
+      "note": "Làm gì? Dạy các mốc thường dùng.\nTại sao? Cần thuộc số nhưng phải thuộc kèm ý nghĩa đúng.\nNếu bỏ qua/làm sai? Học số mà quên provenance sẽ biến reference value thành cutoff.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Câu cảnh báo bắt buộc",
+      "points": [
+        "WHO 2021 lower fifth-centile reference values là mốc phân bố tham chiếu",
+        "Không phải ranh giới fertile/infertile",
+        "Dưới mốc: tăng xác suất male factor nhưng không vô sinh tuyệt đối",
+        "Trên mốc: không bảo đảm có thai",
+        "Ý nghĩa: Reference distribution không đo toàn bộ chức năng sinh sản của cặp đôi.",
+        "Nếu sai, Đây là critical miss lớn nhất của bài."
+      ],
+      "note": "Làm gì? Sửa cách gọi cutoff.\nTại sao? Reference distribution không đo toàn bộ chức năng sinh sản của cặp đôi.\nNếu bỏ qua/làm sai? Đây là critical miss lớn nhất của bài.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "two_column",
+      "variant": "vs_compare",
+      "title": "Dùng đúng vs dùng sai WHO values",
+      "left_title": "Dùng đúng",
+      "left_points": [
+        "Chuẩn hóa báo cáo",
+        "Ước lượng mức bất thường",
+        "Quyết định repeat/workup",
+        "Trao đổi với labo/cặp đôi"
+      ],
+      "right_title": "Dùng sai",
+      "right_points": [
+        "Kết luận fertile/infertile",
+        "Chọn ICSI chỉ bằng morphology",
+        "Bỏ qua tiền phân tích",
+        "Bỏ qua người nữ và cặp đôi",
+        "Chốt: Mốc tham chiếu hỗ trợ tư duy, không thay thế tư duy."
+      ],
+      "note": "Làm gì? Đặt WHO values vào đúng vai trò.\nTại sao? Mốc tham chiếu hỗ trợ tư duy, không thay thế tư duy.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Morphology 4%: đừng overcall",
+      "points": [
+        "Normal forms lower 5th centile là 4%",
+        "Morphology biến thiên theo phương pháp và người đọc",
+        "Không đại diện trực tiếp cho DNA hoặc khả năng thụ tinh tuyệt đối",
+        "Isolated teratozoospermia không tự động là chỉ định ICSI",
+        "Ý nghĩa: Đây là lỗi thường gặp trong ART counseling.",
+        "Nếu sai, Bệnh nhân có thể bị chuyển sang ICSI không cần thiết."
+      ],
+      "note": "Làm gì? Giảm diễn giải quá mức morphology.\nTại sao? Đây là lỗi thường gặp trong ART counseling.\nNếu bỏ qua/làm sai? Bệnh nhân có thể bị chuyển sang ICSI không cần thiết.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "5",
+      "part_title": "Thuật ngữ, độ biến thiên và repeat testing",
+      "part_subtitle": "Không phân nhánh khi chẩn đoán chưa chắc",
+      "note": "Làm gì? Chuyển sang phần 5: Thuật ngữ, độ biến thiên và repeat testing.\nTại sao? Section divider giúp người học reset câu hỏi lâm sàng trước phần mới.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "criteria",
+      "variant": "score_points",
+      "title": "Các cặp thuật ngữ dễ nhầm",
+      "items": [
+        {
+          "text": "Aspermia khác azoospermia",
+          "points": "✓"
+        },
+        {
+          "text": "Cryptozoospermia khác severe oligozoospermia",
+          "points": "✓"
+        },
+        {
+          "text": "Asthenozoospermia khác necrozoospermia",
+          "points": "✓"
+        },
+        {
+          "text": "Teratozoospermia không đồng nghĩa DNA xấu",
+          "points": "✓"
+        },
+        {
+          "text": "OAT là mô tả nhiều trục bất thường, không phải nguyên nhân",
+          "points": "✓"
+        }
+      ],
+      "interpretation": [
+        {
+          "range": "Cần làm",
+          "label": "Chuẩn hóa từ vựng trước khi tư vấn."
+        },
+        {
+          "range": "Lý do",
+          "label": "Dùng sai thuật ngữ làm sai workup và kỳ vọng bệnh nhân."
+        }
+      ],
+      "note": "Làm gì? Chuẩn hóa từ vựng trước khi tư vấn.\nTại sao? Dùng sai thuật ngữ làm sai workup và kỳ vọng bệnh nhân.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Vì sao cần repeat?",
+      "points": [
+        "Tinh dịch đồ dao động theo ngày kiêng, sốt, stress, thuốc, độc chất, giấc ngủ",
+        "Một mẫu đơn độc có thể không đại diện baseline",
+        "EAU 2026: ít nhất hai SA liên tiếp nếu baseline bất thường",
+        "AUA/ASRM: đánh giá ban đầu bằng one or more semen analyses",
+        "Ý nghĩa: Repeat phân biệt bất thường thật với dao động sinh học hoặc lỗi mẫu."
+      ],
+      "note": "Làm gì? Lặp lại mẫu bất thường khi phù hợp.\nTại sao? Repeat phân biệt bất thường thật với dao động sinh học hoặc lỗi mẫu.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "algorithm",
+      "variant": "linear_flow",
+      "title": "Azoospermia: xác nhận trước OA/NOA",
+      "nodes": [
+        {
+          "text": "Không thấy tinh trùng trên lam ban đầu",
+          "type": "start"
+        },
+        {
+          "text": "Kiểm tra tiền phân tích và mẫu lấy đủ",
+          "type": "process"
+        },
+        {
+          "text": "Ly tâm mẫu, tái huyền phù pellet, soi rare sperm",
+          "type": "process"
+        },
+        {
+          "text": "Nếu vẫn không thấy: repeat SA",
+          "type": "process"
+        },
+        {
+          "text": "Sau pellet + repeat mới phân nhánh OA/NOA",
+          "type": "end"
+        }
+      ],
+      "note": "Làm gì? Không chẩn đoán azoospermia từ một lam ban đầu.\nTại sao? Pellet/repeat tránh bỏ sót cryptozoospermia và mẫu lỗi.\nNếu bỏ qua/làm sai? Sai ở bước này làm sai toàn bộ genetics, imaging và retrieval.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "EAU/AUA chi tiết cần nhớ",
+      "points": [
+        "AUA/ASRM: repeat azoospermia sau ít nhất 1-2 tuần",
+        "EAU: ly tâm khoảng 3.000g trong 15 phút và soi pellet",
+        "EAU mô tả xác nhận bằng hai mẫu sau ly tâm",
+        "Mục tiêu: phân biệt absolute azoospermia với cryptozoospermia",
+        "Ý nghĩa: Đây là chi tiết an toàn trước khi workup tắc hay suy sinh tinh."
+      ],
+      "note": "Làm gì? Ghi số liệu xác nhận azoospermia.\nTại sao? Đây là chi tiết an toàn trước khi workup tắc hay suy sinh tinh.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Khi nào không chờ quá lâu?",
+      "points": [
+        "Azoospermia/cryptozoospermia sát chu kỳ ART",
+        "Số lượng cực thấp có nguy cơ mẫu sau không còn tinh trùng",
+        "Trước hóa trị/xạ trị hoặc điều trị độc sinh dục",
+        "Sát ngày chọc hút noãn",
+        "Cần chuẩn bị surgical sperm retrieval",
+        "Ý nghĩa: Không trì hoãn khi kết quả sẽ ảnh hưởng chu kỳ ART hoặc bảo tồn sinh sản."
+      ],
+      "note": "Làm gì? Biết ngoại lệ của repeat chậm.\nTại sao? Không trì hoãn khi kết quả sẽ ảnh hưởng chu kỳ ART hoặc bảo tồn sinh sản.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "6",
+      "part_title": "Diễn giải theo pattern",
+      "part_subtitle": "Đi từ lỗi mẫu đến nguyên nhân",
+      "note": "Làm gì? Chuyển sang phần 6: Diễn giải theo pattern.\nTại sao? Section divider giúp người học reset câu hỏi lâm sàng trước phần mới.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "algorithm",
+      "variant": "linear_flow",
+      "title": "Low volume pathway",
+      "nodes": [
+        {
+          "text": "Low volume",
+          "type": "start"
+        },
+        {
+          "text": "Hỏi lấy đủ mẫu? mất phần đầu?",
+          "type": "process"
+        },
+        {
+          "text": "Loại trừ xuất tinh ngược khi phù hợp",
+          "type": "process"
+        },
+        {
+          "text": "Xem pH/fructose",
+          "type": "process"
+        },
+        {
+          "text": "Low volume + pH acid + azoospermia: nghi CBAVD/EOD",
+          "type": "process"
+        },
+        {
+          "text": "Khám ống dẫn tinh, CFTR nếu nghi CBAVD, TRUS/siêu âm theo bài 42",
+          "type": "end"
+        }
+      ],
+      "note": "Làm gì? Đọc low volume theo thứ tự.\nTại sao? Lỗi lấy mẫu thường gặp hơn tắc hiếm, nhưng pattern acid azoospermia rất quan trọng.\nNếu bỏ qua/làm sai? Nhảy thẳng tới CBAVD/EOD có thể bỏ sót collection error.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "algorithm",
+      "variant": "linear_flow",
+      "title": "Normal-volume azoospermia",
+      "nodes": [
+        {
+          "text": "Azoospermia đã pellet + repeat",
+          "type": "start"
+        },
+        {
+          "text": "Volume và pH bình thường",
+          "type": "process"
+        },
+        {
+          "text": "Khám tinh hoàn/ống dẫn tinh",
+          "type": "process"
+        },
+        {
+          "text": "FSH/LH/testosterone",
+          "type": "process"
+        },
+        {
+          "text": "Tinh hoàn nhỏ + FSH cao: nghi NOA",
+          "type": "process"
+        },
+        {
+          "text": "Tinh hoàn bình thường + FSH bình thường + dấu tắc: nghi OA",
+          "type": "end"
+        }
+      ],
+      "note": "Làm gì? Phân nhánh OA/NOA bằng pattern.\nTại sao? Hormone và khám đặt SA vào sinh lý sản xuất hay tắc nghẽn.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Severe oligozoospermia / cryptozoospermia",
+      "points": [
+        "Repeat và loại trừ tiền phân tích",
+        "Hỏi testosterone/anabolic steroid, sốt, thuốc, độc chất",
+        "Đánh giá hormone khi nghi suy sinh tinh",
+        "Nghĩ genetics theo ngưỡng guideline",
+        "Cân nhắc trữ tinh trùng nếu chuẩn bị ART",
+        "Ý nghĩa: Mẫu sau có thể không còn tinh trùng để dùng ngày OPU.",
+        "Nếu sai, Có thể phải hủy chu kỳ hoặc retrieval khẩn cấp."
+      ],
+      "note": "Làm gì? Không xem số lượng rất thấp là ổn định.\nTại sao? Mẫu sau có thể không còn tinh trùng để dùng ngày OPU.\nNếu bỏ qua/làm sai? Có thể phải hủy chu kỳ hoặc retrieval khẩn cấp.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Y-chromosome microdeletion testing",
+      "points": [
+        "AUA/ASRM 2024: primary infertility kèm azoospermia",
+        "Hoặc sperm concentration <=1 triệu/mL",
+        "Khi có FSH tăng, teo tinh hoàn hoặc chẩn đoán impaired sperm production",
+        "Kết quả ảnh hưởng tư vấn tiên lượng và di truyền",
+        "Ý nghĩa: Không phải mọi SA bất thường đều cần xét nghiệm Y microdeletion."
+      ],
+      "note": "Làm gì? Dùng đúng ngưỡng xét nghiệm di truyền.\nTại sao? Không phải mọi SA bất thường đều cần xét nghiệm Y microdeletion.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Low motility pathway",
+      "points": [
+        "Kiểm tra delay và nhiệt độ vận chuyển",
+        "Hỏi lubricant/condom không phù hợp",
+        "Xem hóa lỏng/độ nhớt",
+        "Làm vitality khi motility thấp",
+        "Chỉ sau đó mới quy asthenozoospermia thật",
+        "Ý nghĩa: Motility rất dễ bị preanalytics làm sai."
+      ],
+      "note": "Làm gì? Tìm asthenozoospermia giả trước.\nTại sao? Motility rất dễ bị preanalytics làm sai.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "7",
+      "part_title": "Ý nghĩa đối với natural conception, IUI, IVF và ICSI",
+      "part_subtitle": "Quyết định ở mức cặp đôi",
+      "note": "Làm gì? Chuyển sang phần 7: Ý nghĩa đối với natural conception, IUI, IVF và ICSI.\nTại sao? Section divider giúp người học reset câu hỏi lâm sàng trước phần mới.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "criteria",
+      "variant": "score_points",
+      "title": "Ngoài SA, quyết định ART cần gì?",
+      "items": [
+        {
+          "text": "Tuổi và dự trữ buồng trứng của người nữ",
+          "points": "✓"
+        },
+        {
+          "text": "Thời gian vô sinh",
+          "points": "✓"
+        },
+        {
+          "text": "Vòi tử cung và tử cung",
+          "points": "✓"
+        },
+        {
+          "text": "Số lần thất bại trước",
+          "points": "✓"
+        },
+        {
+          "text": "Số thông số SA bất thường",
+          "points": "✓"
+        },
+        {
+          "text": "Khả năng repeat/trữ tinh trùng",
+          "points": "✓"
+        },
+        {
+          "text": "Năng lực labo và mong muốn cặp đôi",
+          "points": "✓"
+        }
+      ],
+      "interpretation": [
+        {
+          "range": "Cần làm",
+          "label": "Luôn đưa người nữ và cặp đôi vào quyết định."
+        },
+        {
+          "range": "Lý do",
+          "label": "Tinh dịch đồ không tồn tại trong chân không."
+        },
+        {
+          "range": "Nếu bỏ sót",
+          "label": "Chọn IUI/IVF/ICSI bằng một chỉ số là critical miss."
+        }
+      ],
+      "note": "Làm gì? Luôn đưa người nữ và cặp đôi vào quyết định.\nTại sao? Tinh dịch đồ không tồn tại trong chân không.\nNếu bỏ qua/làm sai? Chọn IUI/IVF/ICSI bằng một chỉ số là critical miss.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "TMSC dùng để làm gì?",
+      "points": [
+        "TMSC kết hợp volume, concentration và motility",
+        "Gần với số tinh trùng di động có thể dùng hơn concentration đơn độc",
+        "Hữu ích cho tư vấn IUI và lập kế hoạch labo",
+        "Không dạy một cutoff cứng cho IUI/IVF/ICSI trong bài này",
+        "Ý nghĩa: Ngưỡng phụ thuộc nghiên cứu, labo và toàn cảnh cặp đôi."
+      ],
+      "note": "Làm gì? Dùng TMSC như công cụ tư vấn, không như luật.\nTại sao? Ngưỡng phụ thuộc nghiên cứu, labo và toàn cảnh cặp đôi.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "two_column",
+      "variant": "vs_compare",
+      "title": "IUI/IVF/ICSI: cách nghĩ đúng",
+      "left_title": "Không làm",
+      "left_points": [
+        "Không chọn bằng concentration đơn độc",
+        "Không dùng morphology đơn độc để ICSI",
+        "Không bỏ qua tuổi/noãn",
+        "Không bỏ qua repeat và preanalytics"
+      ],
+      "right_title": "Nên làm",
+      "right_points": [
+        "Xem toàn bộ SA và repeat",
+        "Tính TMSC/post-wash nếu IUI",
+        "Xem tiền sử fertilization failure",
+        "Chuẩn bị backup sperm/retrieval nếu rất thấp",
+        "Chốt: ART là can thiệp của cả cặp đôi và labo."
+      ],
+      "note": "Làm gì? Dạy quyết định đa biến.\nTại sao? ART là can thiệp của cả cặp đôi và labo.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Khi nào chuẩn bị IVF/ICSI hoặc retrieval?",
+      "points": [
+        "Azoospermia đã xác nhận",
+        "Cryptozoospermia hoặc số lượng cực thấp",
+        "OA: PESA/MESA/TESE + ICSI tùy vị trí và nguồn lực",
+        "NOA: micro-TESE + ICSI sau nội tiết/di truyền và tư vấn",
+        "Severe male factor: trữ tinh trùng backup nếu có mẫu",
+        "Ý nghĩa: Chuẩn bị labo và backup giảm nguy cơ hủy chu kỳ."
+      ],
+      "note": "Làm gì? Lập kế hoạch ART sớm khi nguy cơ không có tinh trùng.\nTại sao? Chuẩn bị labo và backup giảm nguy cơ hủy chu kỳ.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Trữ tinh trùng ở số lượng rất thấp",
+      "points": [
+        "Mẫu sau có thể không còn tinh trùng",
+        "Ngày chọc hút noãn có thể không đủ tinh trùng",
+        "Trữ mẫu có tinh trùng giảm nguy cơ hủy chu kỳ",
+        "Không thay thế tìm nguyên nhân nhưng bảo vệ kế hoạch ART",
+        "Ý nghĩa: Đây là hành động ít xâm lấn có thể cứu chu kỳ."
+      ],
+      "note": "Làm gì? Cân nhắc cryopreservation khi có tinh trùng hiếm.\nTại sao? Đây là hành động ít xâm lấn có thể cứu chu kỳ.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "8",
+      "part_title": "Extended / advanced tests",
+      "part_subtitle": "Chỉ làm khi câu hỏi lâm sàng cụ thể",
+      "note": "Làm gì? Chuyển sang phần 8: Extended / advanced tests.\nTại sao? Section divider giúp người học reset câu hỏi lâm sàng trước phần mới.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "two_column",
+      "variant": "cards",
+      "title": "SDF: vai trò và giới hạn",
+      "left_title": "Có thể cân nhắc",
+      "left_points": [
+        "RPL",
+        "Thất bại ART",
+        "Unexplained infertility chọn lọc",
+        "Theo guideline/labo"
+      ],
+      "right_title": "Không dùng như",
+      "right_points": [
+        "Screening routine ban đầu",
+        "Cutoff chung cho mọi assay",
+        "Thay thế SA/basic workup",
+        "Quyết định ART đơn độc",
+        "Chốt: Threshold phụ thuộc assay và labo phải validate."
+      ],
+      "note": "Làm gì? Đặt sperm DNA fragmentation đúng vị trí.\nTại sao? Threshold phụ thuộc assay và labo phải validate.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "ROS/oxidative stress",
+      "points": [
+        "Đo stress oxy hóa hoặc proxy tùy assay",
+        "Có thể quan tâm khi viêm, varicocele, độc chất hoặc nghiên cứu",
+        "Deep-research chưa xác minh đủ để đưa vào thuật toán routine",
+        "Không dạy như screening ban đầu",
+        "Ý nghĩa: Bằng chứng/chuẩn hóa chưa đủ cho routine pathway."
+      ],
+      "note": "Làm gì? Không lạm dụng ROS trong bài này.\nTại sao? Bằng chứng/chuẩn hóa chưa đủ cho routine pathway.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "ASA, culture, biochemistry",
+      "points": [
+        "ASA: chọn lọc khi agglutination/bối cảnh phù hợp",
+        "Culture: triệu chứng nhiễm trùng, leukocytes xác nhận, STI/viêm tuyến phụ",
+        "Fructose/zinc/alpha-glucosidase: trả lời câu hỏi tuyến phụ/tắc nghẽn",
+        "Không test nào thay thế khám, hormone, genetics, imaging khi cần",
+        "Ý nghĩa: Test thêm không làm kết quả tự rõ nếu câu hỏi ban đầu sai."
+      ],
+      "note": "Làm gì? Chỉ định xét nghiệm nâng cao theo câu hỏi.\nTại sao? Test thêm không làm kết quả tự rõ nếu câu hỏi ban đầu sai.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "criteria",
+      "variant": "score_points",
+      "title": "Bốn câu trước advanced test",
+      "items": [
+        {
+          "text": "Test đo gì?",
+          "points": "✓"
+        },
+        {
+          "text": "Khi nào cân nhắc?",
+          "points": "✓"
+        },
+        {
+          "text": "Không trả lời được gì?",
+          "points": "✓"
+        },
+        {
+          "text": "Kết quả có đổi quản lý không?",
+          "points": "✓"
+        }
+      ],
+      "interpretation": [
+        {
+          "range": "Cần làm",
+          "label": "Dùng bốn câu này trước khi order test."
+        },
+        {
+          "range": "Lý do",
+          "label": "Nếu không đổi quản lý, test thường chỉ tăng chi phí và nhiễu."
+        }
+      ],
+      "note": "Làm gì? Dùng bốn câu này trước khi order test.\nTại sao? Nếu không đổi quản lý, test thường chỉ tăng chi phí và nhiễu.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "9",
+      "part_title": "Report chuẩn và mini-cases",
+      "part_subtitle": "Biến kết quả thành hành động",
+      "note": "Làm gì? Chuyển sang phần 9: Report chuẩn và mini-cases.\nTại sao? Section divider giúp người học reset câu hỏi lâm sàng trước phần mới.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "criteria",
+      "variant": "score_points",
+      "title": "Report SA tối thiểu",
+      "items": [
+        {
+          "text": "Tiền phân tích: kiêng, giờ lấy, giờ phân tích, lấy đủ/mất mẫu",
+          "points": "✓"
+        },
+        {
+          "text": "Đại thể: volume, liquefaction, viscosity, appearance, pH",
+          "points": "✓"
+        },
+        {
+          "text": "Concentration và total sperm number",
+          "points": "✓"
+        },
+        {
+          "text": "Motility breakdown",
+          "points": "✓"
+        },
+        {
+          "text": "Vitality khi cần",
+          "points": "✓"
+        },
+        {
+          "text": "Morphology và phương pháp",
+          "points": "✓"
+        },
+        {
+          "text": "Round cells/leukocyte confirmation",
+          "points": "✓"
+        },
+        {
+          "text": "Comments: limitation, repeat, clinical correlation",
+          "points": "✓"
+        }
+      ],
+      "interpretation": [
+        {
+          "range": "Cần làm",
+          "label": "Yêu cầu report đủ dữ liệu hành động."
+        },
+        {
+          "range": "Lý do",
+          "label": "Thiếu tiền phân tích và comments khiến kết quả khó tin và khó dùng."
+        }
+      ],
+      "note": "Làm gì? Yêu cầu report đủ dữ liệu hành động.\nTại sao? Thiếu tiền phân tích và comments khiến kết quả khó tin và khó dùng.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Case 1: mất phần đầu mẫu",
+      "points": [
+        "Volume 0,7 mL, concentration thấp",
+        "Bệnh nhân báo phần đầu rơi ra ngoài",
+        "Không kết luận hypospermia/oligozoospermia thật",
+        "Ghi limitation và lặp mẫu đúng chuẩn",
+        "Ý nghĩa: Phần đầu giàu tinh trùng nên count/volume có thể thấp giả."
+      ],
+      "note": "Làm gì? Xử trí mẫu mất phần đầu.\nTại sao? Phần đầu giàu tinh trùng nên count/volume có thể thấp giả.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Case 2: mẫu đến sau 2 giờ, trời lạnh",
+      "points": [
+        "Motility thấp",
+        "Nghĩ asthenozoospermia giả",
+        "Cần repeat với vận chuyển đúng",
+        "Không quy bệnh lý vận động từ mẫu delay/lạnh",
+        "Ý nghĩa: Delay/nhiệt độ là nguyên nhân giả thường gặp của motility thấp."
+      ],
+      "note": "Làm gì? Nhận diện lỗi vận chuyển.\nTại sao? Delay/nhiệt độ là nguyên nhân giả thường gặp của motility thấp.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Case 3: low-volume acidic azoospermia",
+      "points": [
+        "Volume 0,6 mL, pH acid, mẫu lấy đủ",
+        "Không bỏ qua pellet/repeat nếu chưa xác nhận",
+        "Loại trừ xuất tinh ngược",
+        "Khám ống dẫn tinh, CFTR nếu nghi CBAVD, TRUS/siêu âm theo bài 42",
+        "Ý nghĩa: Pattern này gợi ý thiếu dịch túi tinh hoặc EOD/CBAVD."
+      ],
+      "note": "Làm gì? Đi theo pathway tắc đoạn xa.\nTại sao? Pattern này gợi ý thiếu dịch túi tinh hoặc EOD/CBAVD.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Case 4: normal-volume azoospermia + FSH cao",
+      "points": [
+        "Azoospermia đã repeat/pellet",
+        "Volume bình thường, tinh hoàn nhỏ, FSH cao",
+        "Hướng NOA/suy sinh tinh",
+        "Nội tiết, di truyền, tư vấn tiên lượng, cân nhắc micro-TESE + ICSI",
+        "Ý nghĩa: Người bệnh cần biết khả năng không tìm được tinh trùng và lựa chọn thay thế."
+      ],
+      "note": "Làm gì? Tư vấn nhánh NOA.\nTại sao? Người bệnh cần biết khả năng không tìm được tinh trùng và lựa chọn thay thế.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Case 5: cryptozoospermia",
+      "points": [
+        "Pellet còn vài tinh trùng",
+        "Không xem như 'không có gì để làm'",
+        "Repeat và tìm nguyên nhân",
+        "Trữ tinh trùng nếu có thể",
+        "Chuẩn bị labo ART vì ngày OPU có thể không có tinh trùng",
+        "Ý nghĩa: Không chuẩn bị backup có thể dẫn tới hủy chu kỳ hoặc retrieval khẩn cấp."
+      ],
+      "note": "Làm gì? Bảo vệ chu kỳ ART khi tinh trùng dao động rất thấp.\nTại sao? Không chuẩn bị backup có thể dẫn tới hủy chu kỳ hoặc retrieval khẩn cấp.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Case 6: isolated teratozoospermia",
+      "points": [
+        "Morphology thấp đơn độc",
+        "Không tự động ICSI",
+        "Xem repeat, method, TMSC, tiền sử fertilization failure",
+        "Đặt trong tuổi/noãn và chính sách labo",
+        "Ý nghĩa: Morphology đơn độc là bẫy diễn giải rất thường gặp."
+      ],
+      "note": "Làm gì? Giảm over-treatment theo morphology.\nTại sao? Morphology đơn độc là bẫy diễn giải rất thường gặp.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Case 7: round cells tăng",
+      "points": [
+        "Không gọi ngay leukocytospermia",
+        "Xác định bạch cầu hay tế bào mầm non",
+        "Culture/điều trị khi có triệu chứng hoặc bối cảnh phù hợp",
+        "Tránh kháng sinh quá mức",
+        "Ý nghĩa: Round cells là mô tả hình thái, không phải chẩn đoán nhiễm trùng."
+      ],
+      "note": "Làm gì? Xử trí round cells có chọn lọc.\nTại sao? Round cells là mô tả hình thái, không phải chẩn đoán nhiễm trùng.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Case 8: varicocele + SA bất thường",
+      "points": [
+        "OAT lặp lại và khám có varicocele sờ thấy",
+        "Siêu âm bìu/Doppler hỗ trợ đánh giá theo bài 42",
+        "Không mổ varicocele cận lâm sàng chỉ vì siêu âm giãn nhẹ",
+        "Quyết định theo guideline, triệu chứng và mục tiêu cặp đôi",
+        "Ý nghĩa: Điều trị varicocele theo hình ảnh đơn độc có thể over-treatment."
+      ],
+      "note": "Làm gì? Liên kết SA bất thường với khám và siêu âm đúng chỉ định.\nTại sao? Điều trị varicocele theo hình ảnh đơn độc có thể over-treatment.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "10",
+      "part_title": "Critical misses",
+      "part_subtitle": "Sai ở đây thì phải ôn lại dù tổng điểm cao",
+      "note": "Làm gì? Chuyển sang phần 10: Critical misses.\nTại sao? Section divider giúp người học reset câu hỏi lâm sàng trước phần mới.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "criteria",
+      "variant": "score_points",
+      "title": "Critical miss checklist",
+      "items": [
+        {
+          "text": "Gọi WHO lower reference values là cutoff fertile/infertile",
+          "points": "✓"
+        },
+        {
+          "text": "Chẩn đoán azoospermia mà chưa pellet/repeat",
+          "points": "✓"
+        },
+        {
+          "text": "Bỏ qua lấy mẫu thiếu hoặc delay vận chuyển",
+          "points": "✓"
+        },
+        {
+          "text": "Dùng isolated morphology để chỉ định ICSI tự động",
+          "points": "✓"
+        },
+        {
+          "text": "Dùng SDF/ROS/ASA/culture như screening routine",
+          "points": "✓"
+        },
+        {
+          "text": "Quyết định ART bằng một chỉ số mà không xét toàn cặp đôi",
+          "points": "✓"
+        }
+      ],
+      "interpretation": [
+        {
+          "range": "Cần làm",
+          "label": "Dùng checklist để tự chấm an toàn."
+        },
+        {
+          "range": "Lý do",
+          "label": "Các lỗi này gây hại thực hành nhiều hơn quên một con số nhỏ."
+        }
+      ],
+      "note": "Làm gì? Dùng checklist để tự chấm an toàn.\nTại sao? Các lỗi này gây hại thực hành nhiều hơn quên một con số nhỏ.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "summary",
+      "variant": "takeaways",
+      "title": "Take-home messages",
+      "points": [
+        "SA là snapshot chuẩn hóa, không phải xét nghiệm đậu/rớt fertility.",
+        "Tiền phân tích đứng trước mọi con số: kiêng 2-7 ngày, lấy đủ mẫu, phân tích 30-60 phút.",
+        "WHO 2021 lower fifth-centile values là mốc tham chiếu, không phải cutoff vô sinh.",
+        "Azoospermia cần pellet + repeat trước OA/NOA.",
+        "Quyết định IUI/IVF/ICSI là quyết định của cả cặp đôi, không phải của một chỉ số."
+      ],
+      "note": "Làm gì? Chốt các thông điệp hành động.\nTại sao? Take-home ngắn giúp người học tự kiểm tra trước khi dùng kết quả SA cho ART.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "references",
+      "variant": "numbered",
+      "title": "Tài liệu tham khảo chính",
+      "refs": [
+        "WHO laboratory manual for the examination and processing of human semen, 6th ed. 2021. ISBN 9789240030787.",
+        "Boitrelle F et al. Sixth edition of the WHO manual: critical review and SWOT analysis. Andrology. 2021. PMID 33528873. DOI 10.1111/andr.12983.",
+        "Paffoni A et al. Reference values for human semen analysis. Hum Reprod. 2022. PMID 35849333. DOI 10.1093/humrep/deac161.",
+        "Brannigan RE et al. Updates to Male Infertility: AUA/ASRM Guideline (2024). J Urol. 2024. PMID 39145501. DOI 10.1097/JU.0000000000004180.",
+        "AUA/ASRM. Diagnosis and Treatment of Infertility in Men: guideline, published 2020; amended 2024.",
+        "EAU Guidelines on Sexual and Reproductive Health, chapter Male Infertility. 2026.",
+        "Kohn TP et al. Genetic testing for men with NOA or severe oligozoospermia. Fertil Steril. 2019. PMID 31400948."
+      ],
+      "note": "Làm gì? Ghi nguồn chính đã dùng trong bài.\nTại sao? Nguồn giúp truy ngược các ngưỡng WHO và khuyến cáo AUA/ASRM, EAU.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "11",
+      "part_title": "Drill nhanh",
+      "part_subtitle": "Tập trả lời như khi đi lâm sàng",
+      "note": "Làm gì? Chuyển sang phần 11: Drill nhanh.\nTại sao? Section divider giúp người học reset câu hỏi lâm sàng trước phần mới.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Drill 1: WHO 16 triệu/mL là gì?",
+      "points": [
+        "Lower 5th centile",
+        "Không phải cutoff vô sinh",
+        "Dưới mốc tăng xác suất male factor",
+        "Trên mốc không bảo đảm có thai",
+        "Ý nghĩa: Sửa critical miss về reference values.",
+        "Nếu sai, Dùng sai làm tư vấn fertile/infertile giả."
+      ],
+      "note": "Làm gì? Trả lời ca ngắn theo checklist.\nTại sao? Sửa critical miss về reference values.\nNếu bỏ qua/làm sai? Dùng sai làm tư vấn fertile/infertile giả.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Drill 2: Một mẫu azoospermia ban đầu",
+      "points": [
+        "Kiểm tra tiền phân tích",
+        "Ly tâm và soi pellet",
+        "Repeat SA",
+        "Sau đó mới OA/NOA",
+        "Ý nghĩa: Pellet/repeat tránh bỏ sót cryptozoospermia.",
+        "Nếu sai, Workup sai nhánh."
+      ],
+      "note": "Làm gì? Trả lời ca ngắn theo checklist.\nTại sao? Pellet/repeat tránh bỏ sót cryptozoospermia.\nNếu bỏ qua/làm sai? Workup sai nhánh.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Drill 3: Motility thấp",
+      "points": [
+        "Xem delay/nhiệt độ",
+        "Xem lubricant/độ nhớt",
+        "Làm vitality",
+        "Repeat nếu mẫu lỗi",
+        "Ý nghĩa: Motility dễ bị tiền phân tích làm sai.",
+        "Nếu sai, Chẩn đoán asthenozoospermia giả."
+      ],
+      "note": "Làm gì? Trả lời ca ngắn theo checklist.\nTại sao? Motility dễ bị tiền phân tích làm sai.\nNếu bỏ qua/làm sai? Chẩn đoán asthenozoospermia giả.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Drill 4: Volume thấp",
+      "points": [
+        "Hỏi lấy đủ mẫu",
+        "Hỏi mất phần đầu",
+        "Loại trừ retrograde",
+        "Xem pH/fructose nếu mẫu đáng tin",
+        "Ý nghĩa: Low volume trước hết là câu hỏi collection.",
+        "Nếu sai, Gắn nhãn CBAVD/EOD quá sớm."
+      ],
+      "note": "Làm gì? Trả lời ca ngắn theo checklist.\nTại sao? Low volume trước hết là câu hỏi collection.\nNếu bỏ qua/làm sai? Gắn nhãn CBAVD/EOD quá sớm.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Drill 5: Severe oligo/crypto",
+      "points": [
+        "Repeat",
+        "Tìm thuốc/sốt/testosterone",
+        "Hormone/genetics theo ngưỡng",
+        "Trữ tinh trùng nếu chuẩn bị ART",
+        "Ý nghĩa: Số lượng rất thấp có thể dao động tới zero.",
+        "Nếu sai, Không có tinh trùng ngày OPU."
+      ],
+      "note": "Làm gì? Trả lời ca ngắn theo checklist.\nTại sao? Số lượng rất thấp có thể dao động tới zero.\nNếu bỏ qua/làm sai? Không có tinh trùng ngày OPU.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Drill 6: Morphology thấp đơn độc",
+      "points": [
+        "Không tự động ICSI",
+        "Xem method/repeat",
+        "Xem fertilization failure",
+        "Xem tuổi/noãn/labo",
+        "Ý nghĩa: Morphology có biến thiên cao.",
+        "Nếu sai, Over-treatment."
+      ],
+      "note": "Làm gì? Trả lời ca ngắn theo checklist.\nTại sao? Morphology có biến thiên cao.\nNếu bỏ qua/làm sai? Over-treatment.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Drill 7: Round cells",
+      "points": [
+        "Không mặc định bạch cầu",
+        "Xác nhận loại tế bào",
+        "Culture khi triệu chứng/leukocytes/nguy cơ",
+        "Tránh kháng sinh quá mức",
+        "Ý nghĩa: Round cells là mô tả hình thái.",
+        "Nếu sai, Overtesting/overtreatment."
+      ],
+      "note": "Làm gì? Trả lời ca ngắn theo checklist.\nTại sao? Round cells là mô tả hình thái.\nNếu bỏ qua/làm sai? Overtesting/overtreatment.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    },
+    {
+      "type": "content",
+      "variant": "bullets",
+      "title": "Drill 8: TMSC",
+      "points": [
+        "Volume x concentration x motility",
+        "Hữu ích tư vấn IUI",
+        "Không cutoff cứng trong bài",
+        "Phụ thuộc labo/cặp đôi",
+        "Ý nghĩa: TMSC tốt hơn concentration đơn độc nhưng không thay quyết định đa biến.",
+        "Nếu sai, Chọn ART máy móc."
+      ],
+      "note": "Làm gì? Trả lời ca ngắn theo checklist.\nTại sao? TMSC tốt hơn concentration đơn độc nhưng không thay quyết định đa biến.\nNếu bỏ qua/làm sai? Chọn ART máy móc.\nNguồn chính: WHO semen manual 6th ed 2021; AUA/ASRM Male Infertility Guideline amended 2024 PMID 39145501; EAU Sexual and Reproductive Health Guideline 2026."
+    }
+  ]
+}

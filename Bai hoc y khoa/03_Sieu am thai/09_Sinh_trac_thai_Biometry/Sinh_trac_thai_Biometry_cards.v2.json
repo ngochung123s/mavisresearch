@@ -1,0 +1,106 @@
+[
+  {
+    "type": "basic",
+    "front": "4 thông số sinh trắc thai cơ bản là gì?",
+    "back": "<b>Đáp án:</b><br>1. <b>BPD</b>: đường kính lưỡng đỉnh (Biparietal Diameter)<br>2. <b>HC</b>: chu vi đầu (Head Circumference)<br>3. <b>AC</b>: chu vi bụng (Abdominal Circumference)<br>4. <b>FL</b>: chiều dài xương đùi (Femur Length)<br><br><b>Điểm nhớ:</b> AC là thông số nhạy nhất cho cả FGR và LGA.",
+    "extra": "ISUOG 2019: các thông số thường dùng nhất là BPD, HC, AC, FL."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong FGR do giảm tưới máu nhau, {{c1::AC}} giảm sớm nhất vì gan và mỡ dưới da giảm; {{c1::HC}} được bảo tồn tương đối do cơ chế ưu tiên não (brain sparing).",
+    "extra": "AC phản ánh dinh dưỡng thai trực tiếp; HC giảm muộn khi FGR nặng."
+  },
+  {
+    "type": "basic",
+    "front": "Mặt cắt đúng để đo BPD và HC là gì?",
+    "back": "<b>Mặt cắt:</b> axial transthalamic (ngang đồi thị).<br><br><b>Mốc giải phẫu:</b><br>• Thalamus hai bên đối xứng<br>• Cavum septum pellucidum (CSP)<br>• Falx cerebri đường giữa<br><br><b>BPD:</b> đo outer-to-inner, vuông góc với falx.<br><b>HC:</b> đo ellipse hoặc tính từ BPD + OFD.",
+    "extra": "Nếu đầu méo (dolichocephaly/brachycephaly), ưu tiên HC hơn BPD."
+  },
+  {
+    "type": "basic",
+    "front": "Mặt cắt đúng để đo AC là gì?",
+    "back": "<b>Mặt cắt chuẩn:</b> axial ngang qua dạ dày và portal sinus.<br><br><b>Mốc cần thấy:</b><br>• Stomach bubble bên trái<br>• Portal sinus / tĩnh mạch cửa trong gan<br>• Cột sống cắt ngang<br>• Bụng tròn, không méo<br><br><b>Caliper:</b> ellipse theo mép ngoài da (outer-to-outer).",
+    "extra": "Sai lầm số 1: đo AC ở mức thận thay vì mức portal sinus."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao AC là thông số quan trọng nhất trong sinh trắc thai?",
+    "back": "<b>AC quan trọng vì:</b><br>1. Nhạy nhất cho FGR: giảm sớm do gan và mỡ dưới da giảm<br>2. Nhạy nhất cho LGA/macrosomia: tăng do gan to và tích mỡ<br>3. Phản ánh tình trạng dinh dưỡng thai trực tiếp<br>4. Là biến số quan trọng trong hầu hết công thức EFW",
+    "extra": "AC bất thường cần đánh giá Doppler, nước ối và bối cảnh mẹ như GDM."
+  },
+  {
+    "type": "basic",
+    "front": "Cách đo FL đúng kỹ thuật?",
+    "back": "<b>FL:</b> chiều dài thân xương đùi đã cốt hóa.<br><br><b>Kỹ thuật:</b><br>• Lấy trục dài xương đùi<br>• Xương càng vuông góc chùm tia càng tốt<br>• Đo phần diaphysis đã cốt hóa<br>• Không tính đầu sụn (epiphysis)<br><br><b>Sai lầm:</b> đo xương chày/xương mác, đo cả đầu sụn, hoặc đo khi xương bị nghiêng.",
+    "extra": "FL ngắn thật cần nghĩ tới skeletal dysplasia, FGR, hoặc bất thường NST tùy bối cảnh."
+  },
+  {
+    "type": "cloze",
+    "text": "Công thức EFW Hadlock được dùng rộng rãi nhất vì phối hợp {{c1::head size}}, {{c1::abdominal size}} và {{c1::femur length}}, cho độ chính xác tốt hơn công thức chỉ dùng đầu + bụng.",
+    "extra": "Hadlock 1985 (PMID 3881966): mô hình head + body + femur có 1 SD khoảng 7.5%."
+  },
+  {
+    "type": "basic",
+    "front": "Sai số thường gặp của EFW là bao nhiêu và cần tư vấn bệnh nhân thế nào?",
+    "back": "<b>Sai số thực hành:</b> thường khoảng ±10-15% ở term, có thể lớn hơn ở preterm hoặc thai quá nhỏ/quá to.<br><br><b>Tư vấn đúng:</b> không nói 'thai nặng đúng 3200g', mà nói 'ước khoảng 2.7-3.7 kg' nếu EFW 3200g.<br><br><b>Bias:</b> EFW có xu hướng overestimate thai nhỏ và underestimate thai to.",
+    "extra": "EFW là ước tính, không phải cân thật."
+  },
+  {
+    "type": "basic",
+    "front": "Prescriptive standard khác descriptive reference như thế nào?",
+    "back": "<table><tr><th>Loại</th><th>Ý nghĩa</th><th>Ví dụ</th></tr><tr><td>Prescriptive standard</td><td>Thai nên tăng trưởng như thế nào trong điều kiện tối ưu</td><td>INTERGROWTH-21st, WHO</td></tr><tr><td>Descriptive reference</td><td>Thai trong dân số thực tế tăng trưởng như thế nào</td><td>Hadlock</td></tr></table><br><b>Ý nghĩa:</b> standard nhạy hơn nhưng dễ over-diagnose SGA ở dân số nhỏ; reference đặc hiệu hơn nhưng có thể bỏ sót bệnh lý.",
+    "extra": "Không có biểu đồ tốt nhất tuyệt đối; phải hiểu mục tiêu sử dụng."
+  },
+  {
+    "type": "basic",
+    "front": "Phân biệt SGA và FGR?",
+    "back": "<b>SGA:</b> thai nhỏ theo bách phân vị, thường EFW hoặc BW <10th. Đây là mô tả kích thước.<br><br><b>FGR:</b> thai không đạt tiềm năng tăng trưởng, là chẩn đoán bệnh lý.<br><br><b>Điểm quyết định:</b> SGA có Doppler bình thường và growth velocity bình thường có thể là constitutional SGA; Doppler bất thường hoặc ACGV giảm gợi ý FGR.",
+    "extra": "SGA không đồng nghĩa FGR."
+  },
+  {
+    "type": "cloze",
+    "text": "Constitutional SGA thường có EFW <10th nhưng {{c1::Doppler bình thường}}, {{c1::growth velocity bình thường}} và tiền sử cha mẹ nhỏ; FGR thường có {{c1::Doppler bất thường}} hoặc {{c1::ACGV giảm}}.",
+    "extra": "Doppler + tốc độ tăng trưởng giúp tránh can thiệp quá mức."
+  },
+  {
+    "type": "basic",
+    "front": "Khi EFW <10th percentile ở 36 tuần, cần làm gì tiếp?",
+    "back": "<b>Bước tiếp theo:</b><br>1. Kiểm tra Doppler UmbA, MCA, CPR<br>2. Đánh giá nước ối (AFI/SDP)<br>3. So sánh với scan trước để tính growth velocity<br>4. Tìm yếu tố mẹ: tăng huyết áp, GDM, tiền sản giật, hút thuốc<br><br><b>Nếu Doppler bình thường:</b> nghĩ constitutional SGA.<br><b>Nếu Doppler bất thường:</b> xử trí như FGR.",
+    "extra": "Không dừng ở kết luận 'thai nhỏ'."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao không được thay đổi EDD ở quý 2 hoặc quý 3?",
+    "back": "EDD nên được xác định bằng CRL ở 8-14 tuần. Nếu sau đó thai nhỏ do FGR mà đổi EDD theo sinh trắc quý 3, bạn sẽ làm tuổi thai nhỏ giả và che lấp FGR.<br><br><b>Quy tắc:</b> đã có dating quý 1 đáng tin thì không redating bằng BPD/HC/AC/FL ở các lần sau.",
+    "extra": "Redating muộn là lỗi có thể làm bỏ sót FGR."
+  },
+  {
+    "type": "basic",
+    "front": "Scan 32 tuần hay 36 tuần tốt hơn để dự đoán SGA?",
+    "back": "Theo Ciobanu 2019 (PMID 30883981), scan 35-36 tuần dự đoán SGA tốt hơn scan 31-33 tuần. Nếu chỉ có một lần siêu âm tăng trưởng ở quý 3, mốc 35-37 tuần có giá trị hơn cho dự đoán cân nặng lúc sinh.",
+    "extra": "Scan sớm hơn vẫn hữu ích khi có nguy cơ FGR hoặc bệnh lý mẹ."
+  },
+  {
+    "type": "basic",
+    "front": "LGA và macrosomia khác nhau thế nào?",
+    "back": "<b>LGA:</b> EFW >90th percentile theo tuổi thai.<br><b>Macrosomia:</b> cân nặng ước tính hoặc lúc sinh vượt ngưỡng tuyệt đối, thường ≥4000g hoặc ≥4500g tùy bối cảnh.<br><br><b>AC >95th</b> là dấu hiệu quan trọng gợi ý thai to, đặc biệt trong GDM.",
+    "extra": "LGA phụ thuộc tuổi thai; macrosomia là ngưỡng cân nặng tuyệt đối."
+  },
+  {
+    "type": "basic",
+    "front": "10 sai lầm thường gặp nhất trong sinh trắc thai?",
+    "back": "1. Đo AC sai mức<br>2. Thay đổi EDD ở quý 2/quý 3<br>3. Chỉ nhìn single-point EFW<br>4. Nhầm SGA với FGR<br>5. Không đo HC khi đầu méo<br>6. Quên đánh giá nước ối<br>7. Quên Doppler khi EFW <10th<br>8. Đo FL sai xương hoặc sai đoạn<br>9. Không ghi biểu đồ đã dùng<br>10. Tư vấn EFW như cân nặng thật",
+    "extra": "Sai lầm kỹ thuật nhỏ có thể dẫn tới quyết định sản khoa sai."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong báo cáo sinh trắc nên ghi rõ {{c1::tuổi thai theo EDD}}, {{c1::BPD/HC/AC/FL}}, {{c1::EFW + percentile}}, {{c1::growth chart đã dùng}}, {{c1::nước ối}} và {{c1::Doppler nếu có chỉ định}}.",
+    "extra": "Ghi chart giúp so sánh giữa các lần scan và giữa các cơ sở."
+  },
+  {
+    "type": "basic",
+    "front": "Thông điệp chính của bài B5 là gì?",
+    "back": "<b>5 điểm cần nhớ:</b><br>1. AC là thông số quan trọng nhất<br>2. EFW là ước tính, sai số đáng kể<br>3. Hadlock phổ biến nhưng không phải chân lý tuyệt đối<br>4. SGA không đồng nghĩa FGR<br>5. Growth velocity và Doppler quyết định nguy cơ bệnh lý",
+    "extra": "Sinh trắc tốt = đo đúng + hiểu đúng + quản lý đúng."
+  }
+]

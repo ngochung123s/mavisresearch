@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checked": 1,
+  "failed": 0,
+  "guidelines": [
+    {
+      "claim_id": "C-001",
+      "society": "AHA/ACC",
+      "title": "Impact of the high-frequency cutoff of bandpass filtering on ECG quality and clinical interpretation: A comparison between 40Hz and 150Hz cutoff in a surgical preoperative adult outpatient population",
+      "document_id": "PMID: 27498055",
+      "version": "2016",
+      "publication_date": "2016-09-01",
+      "accessed_at": "2026-07-29",
+      "canonical_url": "https://www.ncbi.nlm.nih.gov/pubmed/27498055",
+      "local_copy": "F:/DL/mavisresearch/Bai hoc y khoa/11_Noi khoa/IM-44_Nguyen_ly_ECG/outputs/sources/pmid_27498055.txt",
+      "sha256": "ce29f76538bbb446c90c23b29d6510df2fd1e599c74bc86e8d32bc32e8ec0733",
+      "recommendation_text": "established a standard 0.05 to 150Hz bandwidth for the routine recording of 12-lead electrocardiograms",
+      "locator": "Abstract Background Section",
+      "pmid": "27498055",
+      "superseded_by": null,
+      "status": "PASS",
+      "failures": []
+    }
+  ]
+}

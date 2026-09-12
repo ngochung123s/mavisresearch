@@ -1,0 +1,14 @@
+{
+  "name": "us-monitoring-ovarian-stimulation-pptx",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "generate": "node generate-slides.js",
+    "build": "node slides/compile.js",
+    "lint:slides": "node -e \"const fs=require('fs');const path=require('path');const dir='slides';const bad=/[\\u201c\\u201d\\u2018\\u2019\\u3001\\u3002\\uff0c\\uff1b\\uff1a\\uff01\\uff1f\\uff08\\uff09\\u2014\\u2013\\u2026\\u00a0]/g;let ok=true;for(const f of fs.readdirSync(dir).filter(x=>x.endsWith('.js'))){const s=fs.readFileSync(path.join(dir,f),'utf8');const lines=s.split('\\n');lines.forEach((line,i)=>{const m=line.match(bad);if(m){console.error('NON-ASCII punctuation in '+f+':'+(i+1)+' -> '+JSON.stringify(m));ok=false;}})}if(!ok)process.exit(1);console.log('Pre-compile lint passed.');\""
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  }
+}

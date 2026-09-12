@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "lesson_id": "IM-16-QA",
+    "title": "BUN (Blood Urea Nitrogen) — Xét nghiệm và ứng dụng trong XHTH",
+    "date": "2026-07-20",
+    "total_cards": 8
+  },
+  "cards": [
+    {
+      "front": "BUN là gì? Viết tắt của từ gì?",
+      "back": "BUN = Blood Urea Nitrogen (Nitơ ure máu).\n\nSản phẩm cuối của chuyển hóa protein. Ure tổng hợp tại gan (chu trình ure), được thận lọc và bài tiết qua nước tiểu."
+    },
+    {
+      "front": "BUN bình thường bao nhiêu? Lab báo cáo 'Ure' thì quy đổi thế nào?",
+      "back": "BUN: 5–20 mg/dL.\n\nQuy đổi sang Ure:\n• Ure (mg/dL) = BUN (mg/dL) × 2.14\n• Ure (mmol/L) = BUN (mg/dL) × 0.357\n\nNhiều lab báo cáo 'Ure' thay vì 'BUN' — cần kiểm tra đơn vị.\nNguồn: NCBI Bookshelf — BUN and Creatinine."
+    },
+    {
+      "front": "BUN tăng — 4 nhóm nguyên nhân chính?",
+      "back": "1. Trước thận: mất nước, suy tim, HRS, giảm VTH\n2. Tại thận: AKI/ATN, viêm cầu thận, CKD\n3. Sau thận: tắc nghẽn đường tiểu\n4. Tăng sản xuất: XHTH trên (máu tiêu hóa → tăng ure), ăn nhiều đạm, dị hóa, corticoid"
+    },
+    {
+      "front": "BUN giảm — nguyên nhân chính?",
+      "back": "Giảm sản xuất: suy gan nặng (giảm chu trình ure), suy dinh dưỡng\nTăng thải / pha loãng: thai kỳ (tăng VTH), SIADH, truyền dịch quá mức"
+    },
+    {
+      "front": "Cơ chế nào khiến BUN tăng trong XHTH trên?",
+      "back": "Máu trong lòng ruột → tiêu hóa → hấp thu amino acid → gan chuyển thành ure → BUN tăng.\n\nCreatinin không tăng (nếu chức năng thận bình thường).\nNhưng: mất nước / giảm VTH cũng làm tăng BUN/Cr — không thể dùng BUN/Cr đơn độc để phân biệt."
+    },
+    {
+      "front": "BUN/Cr có dùng để chẩn đoán UGIB được không?",
+      "back": "KHÔNG. BUN/Cr chỉ là xét nghiệm hỗ trợ, gợi ý.\n\nKhông được dùng để chẩn đoán xác định UGIB hay phân biệt UGIB vs LGIB.\nBUN/Cr tăng còn do mất nước và giảm thể tích tuần hoàn — phân biệt bằng lâm sàng, không bằng BUN/Cr.\nỞ BN có CKD, BUN/Cr mất giá trị định hướng.\nChẩn đoán xác định UGIB = nội soi."
+    },
+    {
+      "front": "BUN khác gì Ure? Công thức quy đổi?",
+      "back": "• Ure (mg/dL) = BUN (mg/dL) × 2.14\n• Ure (mmol/L) = BUN (mg/dL) × 0.357\n• BUN (mg/dL) = Ure (mmol/L) × 2.80\n\nMột số lab báo cáo 'Ure' thay vì 'BUN' — cần kiểm tra đơn vị trước khi đọc kết quả."
+    },
+    {
+      "front": "Trong XHTH cấp, quyết định xử trí dựa vào BUN được không?",
+      "back": "KHÔNG. Quyết định hồi sức, truyền máu, nội soi cấp cứu dựa trên lâm sàng và huyết động — không dựa vào BUN.\n\nBUN chỉ là một mảnh ghép trong bức tranh tổng thể."
+    }
+  ]
+}

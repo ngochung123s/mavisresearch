@@ -1,0 +1,405 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v2_RESEARCH_BRIEF.md",
+  "parsed_claim_count": 9,
+  "verified_claim_count": 9,
+  "status": "PASS",
+  "claims": [
+    {
+      "claim_id": "P2-C01",
+      "claim_text": "Heart failure diagnosis (chẩn đoán suy tim) based on clinical history, physical examination, and ECG findings: typical symptoms include breathlessness, orthopnoea, paroxysmal nocturnal dyspnoea, fatigue, and ankle swelling; specific signs include elevated JVP, hepatojugular reflux, and third heart sound (T3 gallop).",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "Typical symptoms of heart failure include breathlessness, orthopnoea, paroxysmal nocturnal dyspnoea, reduced exercise tolerance, fatigue, tiredness, and ankle swelling. Specific signs include elevated jugular venous pressure, hepatojugular reflux, third heart sound (gallop rhythm), and laterally displaced apical impulse.",
+      "line": 80,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.23"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C02",
+      "claim_text": "Natriuretic peptides BNP and NT-proBNP are recommended as initial diagnostic test to rule out heart failure. Non-acute rule-out thresholds: BNP less than 35 pg/mL, NT-proBNP less than 125 pg/mL.",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "Natriuretic peptides (NPs) are recommended as an initial diagnostic test in patients with non-acute symptoms suspected of HF to rule out the diagnosis. The rule-out thresholds for non-acute HF are BNP <35 pg/mL or NT-proBNP <125 pg/mL.",
+      "line": 81,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.64"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C03",
+      "claim_text": "Acute heart failure rule-out thresholds for natriuretic peptides: BNP less than 100 pg/mL, NT-proBNP less than 300 pg/mL.",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "The rule-out thresholds for acute HF are BNP <100 pg/mL or NT-proBNP <300 pg/mL.",
+      "line": 82,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.70"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C04",
+      "claim_text": "Transthoracic echocardiography TTE is the most important imaging test (Class I) in suspected heart failure to assess cardiac structure, systolic function LVEF, diastolic function, and valve abnormalities.",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "Echocardiography is the most useful, widely available test in patients with suspected HF to establish the diagnosis. It provides immediate information on chamber volumes, ventricular systolic and diastolic function, wall thickness, valve function and pulmonary hypertension.",
+      "line": 83,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.32"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C05",
+      "claim_text": "A 12-lead ECG is recommended for all patients with suspected heart failure. A completely normal ECG makes the diagnosis of HF unlikely, revealing abnormalities such as atrial fibrillation, Q waves (prior MI), and LV hypertrophy.",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "A 12-lead ECG is recommended for all patients with suspected HF. A completely normal ECG makes the diagnosis of HF unlikely. It can reveal abnormalities such as atrial fibrillation, Q waves indicating prior myocardial infarction, and left ventricular hypertrophy.",
+      "line": 84,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.32"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C06",
+      "claim_text": "Chest X-ray is recommended in suspected heart failure to detect pulmonary congestion and exclude pulmonary causes of dyspnoea.",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "Chest X-ray is recommended in patients with suspected HF to detect/exclude pulmonary congestion and other pulmonary or cardiac diseases that may cause or contribute to the patient's symptoms.",
+      "line": 85,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.36"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C07",
+      "claim_text": "Diagnosis of HFpEF requires symptoms and/or signs of HF, preserved LVEF, and objective evidence of cardiac structural and/or functional abnormalities including LV diastolic dysfunction, raised filling pressures, and elevated natriuretic peptides.",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "The diagnosis of HFpEF requires symptoms and/or signs of HF, an LVEF ≥50%, and objective evidence of cardiac structural and/or functional abnormalities consistent with the presence of LV diastolic dysfunction/raised LV filling pressures, including raised natriuretic peptides.",
+      "line": 86,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.59"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C08",
+      "claim_text": "Routine blood tests (FBC, urea, creatinine, electrolytes, thyroid function, HbA1c, lipids, iron status) are recommended in all patients with newly diagnosed heart failure to evaluate comorbidities and reversible causes.",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "Routine blood tests are recommended in all patients with suspected HF to evaluate comorbidities and suitability for specific treatments. These include full blood count, urea, creatinine, electrolytes, thyroid function, fasting glucose/HbA1c, lipids, and iron status.",
+      "line": 87,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.23"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C09",
+      "claim_text": "Coronary angiography is indicated in heart failure patients with angina pectoris despite medical therapy, or with symptomatic ventricular arrhythmias, to evaluate ischemic etiology.",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "Coronary angiography is recommended in patients with HF and angina pectoris despite pharmacological therapy or symptomatic ventricular arrhythmias to establish the diagnosis of coronary artery disease and evaluate for revascularization.",
+      "line": 88,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.71"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    }
+  ],
+  "bundle_hash": "0667288209d150971fe8a235b2f386b20770ac21b2a3faf2115bf8d0c98702fa"
+}

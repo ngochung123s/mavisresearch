@@ -1,0 +1,418 @@
+[
+  {
+    "gate": "brief_pmid_preflight",
+    "status": "PASS",
+    "command": [
+      "python",
+      "brief_pmid_preflight"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\brief_pmid_preflight.json",
+        "sha256": "66c1e177e20d6bcaa6ced849f6ac85f46beec49b5b998d9a06e1df3091463709"
+      }
+    ]
+  },
+  {
+    "gate": "brief_claims_strict",
+    "status": "PASS",
+    "command": [
+      "python",
+      "brief_claims_strict"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\brief_claims_strict.json",
+        "sha256": "089bcd56e9d826f98daaf0cca2be92ebf39d24952fd1666b7cc82abde13ed4bf"
+      }
+    ]
+  },
+  {
+    "gate": "source_pmid_strict",
+    "status": "PASS",
+    "command": [
+      "python",
+      "source_pmid_strict"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\source_pmid_strict.json",
+        "sha256": "6f47a9898139071fb3a69a63419f061c42d8b6b2b9523471f99ef8c5b4f64b74"
+      }
+    ]
+  },
+  {
+    "gate": "source_claims_strict",
+    "status": "PASS",
+    "command": [
+      "python",
+      "source_claims_strict"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\source_claims_strict.json",
+        "sha256": "089bcd56e9d826f98daaf0cca2be92ebf39d24952fd1666b7cc82abde13ed4bf"
+      }
+    ]
+  },
+  {
+    "gate": "source_retraction",
+    "status": "PASS",
+    "command": [
+      "python",
+      "source_retraction"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\source_retraction.json",
+        "sha256": "089bcd56e9d826f98daaf0cca2be92ebf39d24952fd1666b7cc82abde13ed4bf"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence",
+    "status": "PASS",
+    "command": [
+      "python",
+      "guideline_evidence"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\guideline_evidence.json",
+        "sha256": "089bcd56e9d826f98daaf0cca2be92ebf39d24952fd1666b7cc82abde13ed4bf"
+      }
+    ]
+  },
+  {
+    "gate": "depth_disease",
+    "status": "PASS",
+    "command": [
+      "python",
+      "depth_disease"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\depth_disease.json",
+        "sha256": "de65acb7422ee7b35556dbad3f1e17f93648cdcb3f7ebabc9d99f0dd295d3371"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence_crosscheck",
+    "status": "PASS",
+    "command": [
+      "python",
+      "guideline_evidence_crosscheck"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\guideline_evidence_crosscheck.json",
+        "sha256": "089bcd56e9d826f98daaf0cca2be92ebf39d24952fd1666b7cc82abde13ed4bf"
+      }
+    ]
+  },
+  {
+    "gate": "citation_zero_block",
+    "status": "PASS",
+    "command": [
+      "python",
+      "citation_zero_block"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\citation_zero_block.json",
+        "sha256": "089bcd56e9d826f98daaf0cca2be92ebf39d24952fd1666b7cc82abde13ed4bf"
+      }
+    ]
+  },
+  {
+    "gate": "cards_schema",
+    "status": "PASS",
+    "command": [
+      "python",
+      "cards_schema"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\cards_schema.json",
+        "sha256": "82410c3e06575008604d710d64de3ac393e32a4d236979793faae25016f22188"
+      }
+    ]
+  },
+  {
+    "gate": "candidate_apkg_build",
+    "status": "PASS",
+    "command": [
+      "python",
+      "candidate_apkg_build"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\candidate_apkg_build.json",
+        "sha256": "c5fa016971288c70b457a90f948a2c22260f216c6f9c2c4705db38764789c87d"
+      }
+    ]
+  },
+  {
+    "gate": "package_note_count",
+    "status": "PASS",
+    "command": [
+      "python",
+      "package_note_count"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\package_note_count.json",
+        "sha256": "089bcd56e9d826f98daaf0cca2be92ebf39d24952fd1666b7cc82abde13ed4bf"
+      }
+    ]
+  },
+  {
+    "gate": "package_diacritics",
+    "status": "PASS",
+    "command": [
+      "python",
+      "package_diacritics"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\package_diacritics.json",
+        "sha256": "22fe445934ad2d762ae8987aef40121cfabb40a20e5670f38a7a38c8fa3278a0"
+      }
+    ]
+  },
+  {
+    "gate": "source_diacritics",
+    "status": "PASS",
+    "command": [
+      "python",
+      "source_diacritics"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\source_diacritics.json",
+        "sha256": "c0fc68e465a9c8de337f10e9b376f9e8e3a2f10780c7e6a91a46fd9ae9fcab7a"
+      }
+    ]
+  },
+  {
+    "gate": "docx_build",
+    "status": "PASS",
+    "command": [
+      "python",
+      "docx_build"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\docx_build.json",
+        "sha256": "a8c0e2144c2250f7d685f2118fea897af0c6f5fe72a8a08555006e367cdef24c"
+      }
+    ]
+  },
+  {
+    "gate": "learner_smoke",
+    "status": "PASS",
+    "command": [
+      "python",
+      "learner_smoke"
+    ],
+    "exit_code": 0,
+    "release_id": "IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+        "sha256": "648d2601362b21201289c5ee17fcde7bce554e568232fd073636f248c67e62f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_evidence_bundle.json",
+        "sha256": "d42d8b57db01d9acef44a4c4f2b327938c41bd05894535c044c787e882a8970e"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\verification\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1\\learner_smoke.json",
+        "sha256": "313c8c0dac7771da295e989f902dba18940d83e3d9f466e86ac9bfe84225f4e0"
+      }
+    ]
+  }
+]

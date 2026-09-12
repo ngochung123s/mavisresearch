@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "lesson_id": "IM-16-QA",
+    "title": "Đọc Xét Nghiệm Đông Máu — PT, aPTT, Fibrinogen",
+    "date": "2026-07-20",
+    "total_cards": 10
+  },
+  "cards": [
+    {
+      "front": "PT, aPTT, Fibrinogen đo những đường nào trong cascade đông máu?",
+      "back": "PT: đường ngoại sinh + chung (VII → II, V, X, Fibrinogen)\naPTT: đường nội sinh + chung (XII, XI, IX, VIII → II, V, X, Fibrinogen)\nFibrinogen: cơ chất cuối cùng → Fibrin bởi Thrombin"
+    },
+    {
+      "front": "Trị số bình thường của PT, INR, aPTT, Fibrinogen?",
+      "back": "PT: 11–13.5 giây\nINR: 0.8–1.2\naPTT: 25–35 giây\nFibrinogen (Clauss): 200–400 mg/dL (2.0–4.0 g/L)\n\nLưu ý: thay đổi theo lab và thuốc thử."
+    },
+    {
+      "front": "PT ↑, aPTT bình thường → nghĩ đến gì?",
+      "back": "Thiếu Factor VII; bệnh gan nhẹ; warfarin giai đoạn sớm; thiếu vitamin K sớm.\nChỉ đường ngoại sinh bị ảnh hưởng."
+    },
+    {
+      "front": "PT bình thường, aPTT ↑ → nghĩ đến gì?",
+      "back": "Thiếu yếu tố nội sinh: Hemophilia A (VIII) / B (IX); XI, XII;\nLupus anticoagulant; Heparin không phân đoạn.\nChỉ đường nội sinh bị ảnh hưởng."
+    },
+    {
+      "front": "PT ↑, aPTT ↑ → nghĩ đến gì?",
+      "back": "Bệnh gan nặng; thiếu vitamin K nặng; DIC;\nwarfarin đủ liều; thiếu II, V, X, fibrinogen; truyền máu ồ ạt.\nCon đường chung hoặc đa yếu tố bị ảnh hưởng."
+    },
+    {
+      "front": "PT và aPTT đều bình thường nhưng BN có biểu hiện chảy máu → nghĩ đến gì?",
+      "back": "Rối loạn chức năng tiểu cầu; von Willebrand disease;\nthiếu Factor XIII.\nPT/aPTT không bao phủ được các yếu tố này."
+    },
+    {
+      "front": "aPTT kéo dài đơn độc — các bước xử trí tiếp theo?",
+      "back": "Trước hết loại trừ:\n1. Lỗi tiền phân tích (mẫu từ line heparin? tỉ lệ citrate sai?)\n2. Thuốc chống đông (UFH, DOAC, warfarin)\n3. Bệnh lý nền (gan?)\n\nNếu vẫn không giải thích được: cân nhắc Mixing Study\n• Về bình thường → thiếu yếu tố → định lượng VIII, IX, XI, XII\n• Không về bình thường → chất ức chế (LA, anti-VIII)\n\nMixing Study KHÔNG bắt buộc cho mọi aPTT kéo dài."
+    },
+    {
+      "front": "Fibrinogen < 1.5 g/L — khi nào cần bù?",
+      "back": "Chỉ bù khi fibrinogen giảm + đang có chảy máu đáng kể hoặc chuẩn bị thủ thuật xâm lấn có nguy cơ chảy máu.\n\nKhông chỉ định bù chỉ dựa trên con số đơn độc.\nBù bằng: tủa lạnh (cryoprecipitate) hoặc fibrinogen concentrate."
+    },
+    {
+      "front": "Fibrinogen là acute phase reactant — ngụ ý lâm sàng gì?",
+      "back": "Fibrinogen tăng trong viêm, sau mổ, thai kỳ, ung thư.\n→ Một kết quả 'bình thường thấp' ở BN nặng thực chất đã là tiêu thụ đáng kể.\n→ Trong DIC / truyền máu ồ ạt, fibrinogen là yếu tố đầu tiên tụt xuống ngưỡng nguy hiểm."
+    },
+    {
+      "front": "Trong XHTH cấp, dùng PT/INR để quyết định truyền máu được không?",
+      "back": "KHÔNG. Quyết định truyền máu dựa trên huyết động và LS chảy máu.\n\nPT/aPTT dùng để đánh giá bệnh nền (gan? chống đông? DIC?), không phải để quyết định truyền HCL.\n\nĐặc biệt: INR không đáng tin cậy ở BN xơ gan (Baveno VII) — cả pro- và anti-coagulant đều giảm → INR 'cân bằng giả'."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# Windows / Google Drive File Stream metadata
+desktop.ini
+.tmp.driveupload/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Office lock/temp files
+~$*
+
+# OS cruft
+Thumbs.db
+.DS_Store

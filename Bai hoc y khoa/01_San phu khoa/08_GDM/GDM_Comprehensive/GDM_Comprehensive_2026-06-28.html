@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bài học: Đái tháo đường thai kỳ — Sàng lọc, Chẩn đoán &amp; Quản lý Toàn diện</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+  /* Chart.js canvas: giới hạn max-width để không bị kéo dãn khi render
+     trên màn hình rộng. Kết hợp với height attr trên <canvas> để giữ tỉ lệ.
+     Lý do: Chart.js mặc định maintainAspectRatio=false + responsive=true
+     sẽ fill 100% container width -> bar/doughnut bị oval/méo khi container
+     rộng hơn canvas internal pixel ratio. */
+  canvas { display: block; max-width: 800px; margin: 0 auto; height: auto !important; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+<header class="text-center py-12 mb-12 glass rounded-3xl shadow-lg">
+  <div class="inline-block px-4 py-1 mb-4 rounded-full bg-blue-200 text-blue-800 text-sm font-semibold">
+    Chuyên khoa: Sản phụ khoa
+  </div>
+  <h1 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800">Bài học: Đái tháo đường thai kỳ — Sàng lọc, Chẩn đoán & Quản lý Toàn diện</h1>
+  <p class="text-stone-600 text-lg">Ngày 2026-06-28 | Cho bác sĩ sản phụ khoa / học viên sau đại học</p>
+  <p class="text-sm text-stone-500 mt-2">Bác sĩ: <strong>Ngọc 🍅 🐈‍⬛</strong> | AI: <strong>MiniMax Mavis</strong></p>
+</header><main class="max-w-6xl mx-auto space-y-8">
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">0. TỔNG QUAN — ĐỊNH NGHĨA, DỊCH TỄ</h2>
+<p class="text-stone-700 mb-3"><strong>Gestational Diabetes Mellitus (GDM)</strong> — Đái tháo đường thai kỳ — là tình trạng <strong>rối loạn dung nạp glucose với mức độ bất kỳ</strong>, khởi phát hoặc được phát hiện lần đầu <strong>trong thai kỳ</strong>.</p>
+<p class="text-stone-700 mb-3"><strong>Định nghĩa ACOG PB #190 (PMID 29370047):</strong></p>
+<div class="p-4 my-4 border-l-4 border-blue-500 bg-blue-50 rounded-r-lg text-stone-700">"GDM is carbohydrate intolerance of variable severity with onset or first recognition during pregnancy. This definition applies regardless of whether insulin is used for treatment or the condition persists after pregnancy."</div>
+<p class="text-stone-700 mb-3"><strong>Dịch tễ:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Toàn cầu: <strong>7-17%</strong> thai kỳ (tùy dân số và tiêu chuẩn chẩn đoán)</li>
+<li>Hoa Kỳ: <strong>6-9%</strong> (tăng gấp đôi trong 20 năm qua)</li>
+<li>Châu Á: <strong>10-20%</strong> (cao hơn đáng kể — do di truyền & chế độ ăn)</li>
+<li>Việt Nam: ước tính <strong>10-15%</strong> thai phụ ở thành thị (HAPO-VN sub-study, BV Từ Dũ)</li>
+<li>Sau GDM: <strong>50-70%</strong> phát triển ĐTĐ type 2 trong 10-25 năm</li></ul>
+<p class="text-stone-700 mb-3"><strong>Tầm quan trọng lâm sàng (5 điểm):</strong></p>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Biến chứng mẹ</strong>: Tiền sản giật (OR 1.5-2), sinh mổ, ĐTĐ type 2 tương lai</li>
+<li><strong>Biến chứng thai</strong>: Macrosomia (OR 2-3), sinh non, hạ đường huyết sơ sinh</li>
+<li><strong>Lập trình bào thai</strong>: Con của mẹ GDM tăng nguy cơ béo phì, ĐTĐ type 2</li>
+<li><strong>Sàng lọc phổ quát</strong>: Hầu hết guideline khuyến cáo sàng lọc CHO MỌI thai phụ 24-28w</li>
+<li><strong>Can thiệp hiệu quả</strong>: Kiểm soát đường huyết chặt → giảm macrosomia 50%, giảm tiền sản giật 30%</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">1. SINH LÝ BỆNH — CƠ CHẾ KHÁNG INSULIN TRONG THAI KỲ</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.1. Thai kỳ bình thường — "Physiologic insulin resistance"</h3>
+<p class="text-stone-700 mb-3">Thai kỳ là trạng thái <strong>tăng kháng insulin sinh lý</strong>, tiến triển dần từ quý 2, đạt đỉnh ở quý 3. Mục đích: <strong>đảm bảo cung cấp glucose liên tục cho thai nhi</strong>.</p>
+<p class="text-stone-700 mb-3"><strong>Cơ chế:</strong></p>
+<pre class="bg-stone-100 p-4 rounded-lg overflow-x-auto my-4 text-sm"><code>Nhau thai (syncytiotrophoblast)
+        ↓
+Tiết hormones kháng insulin:
+  • Human Placental Lactogen (hPL) — MẠNH NHẤT
+  • Progesterone
+  • Estrogen (estriol)
+  • Cortisol (nhau thai + tuyến thượng thận mẹ)
+  • TNF-α, leptin, adiponectin ↓
+        ↓
+↓ Độ nhạy insulin ngoại biên (cơ, mô mỡ)
+  ↓ GLUT4 translocation → ↓ glucose uptake
+        ↓
+↑ Insulin secretion bù trừ (tế bào β tụy)
+  ↑↑ khối lượng tế bào β (β-cell mass)
+        ↓
+NẾU BÙ TRỪ ĐỦ → DUNG NẠP GLUCOSE BÌNH THƯỜNG
+NẾU BÙ TRỪ KHÔNG ĐỦ → GDM</code></pre>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.2. GDM — Khi cơ chế bù trừ thất bại</h3>
+<p class="text-stone-700 mb-3">Trong GDM, tế bào β tụy <strong>không tăng tiết insulin đủ</strong> để bù trừ cho tình trạng kháng insulin nặng hơn của thai kỳ. Đây là do:</p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Yếu tố</th><th class="p-2 border whitespace-nowrap">Cơ chế</th><th class="p-2 border whitespace-nowrap">Hậu quả</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>hPL ↑↑</strong></td><td class="p-2 border">hPL gây ↑↑ kháng insulin, đồng thời ↑↑ lipolysis → ↑ FFA → ↑↑ kháng insulin</td><td class="p-2 border">Tải lên tế bào β</td></tr><tr class=""><td class="p-2 border"><strong>TNF-α ↑</strong></td><td class="p-2 border">Viêm mức độ thấp → ↓ tín hiệu insulin receptor</td><td class="p-2 border">↓ glucose uptake</td></tr><tr class=""><td class="p-2 border"><strong>Adiponectin ↓</strong></td><td class="p-2 border">↓ tăng nhạy insulin bù trừ</td><td class="p-2 border">Mất cơ chế bảo vệ</td></tr><tr class=""><td class="p-2 border"><strong>Genetic predisposition</strong></td><td class="p-2 border">Đa gen (TCF7L2, GCK, KCNJ11...)</td><td class="p-2 border">↓ β-cell reserve</td></tr><tr class=""><td class="p-2 border"><strong>Béo phì mẹ</strong></td><td class="p-2 border">Viêm mạn + ↑ FFA + ↓ adiponectin</td><td class="p-2 border">Nhân đôi gánh nặng</td></tr><tr class=""><td class="p-2 border"><strong>Oxidative stress</strong></td><td class="p-2 border">↑ ROS ở tụy → tổn thương tế bào β</td><td class="p-2 border">↓ insulin secretion</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">1.3. Biểu đồ cơ chế bệnh sinh</h3>
+<div class="mermaid text-center my-6">flowchart TD
+    A["Nhau thai"] -->|"hPL, Progesterone, Estrogen, Cortisol"| B["↑ Kháng insulin sinh lý"]
+    C["Béo phì mẹ"] -->|"↑ TNF-α, ↑ FFA, ↓ Adiponectin"| B
+    B -->|"Tế bào β bình thường"| D["↑ Insulin secretion<br>DUNG NẠP GLUCOSE BÌNH THƯỜNG"]
+    B -->|"Tế bào β không đủ dự trữ<br>+ Yếu tố di truyền"| E["KHÔNG BÙ TRỪ ĐỦ<br>↑↑ Glucose máu"]
+    E --> F["GDM"]
+    F --> G1["Thai nhi: ↑ glucose qua nhau<br>→ ↑ insulin thai → Macrosomia"]
+    F --> G2["Mẹ: ↑ glucose → ↑ oxi hóa<br>→ ↑ stress oxy hóa → TSG"]
+    style E fill:#ffcccc,stroke:#cc0000
+    style F fill:#ff6666,stroke:#990000,color:#fff
+    style D fill:#ccffcc,stroke:#009900</div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">2. SÀNG LỌC & CHẨN ĐOÁN — TWO-STEP vs ONE-STEP</h2>
+<p class="text-stone-700 mb-3">Đây là <strong>tranh cãi lớn nhất</strong> trong GDM. Hai chiến lược chính:</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.1. Two-Step Approach (ACOG khuyến cáo — Mỹ)</h3>
+<p class="text-stone-700 mb-3"><strong>Bước 1 — Glucose Challenge Test (GCT) 50g:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Thời điểm</strong>: 24-28 tuần (sớm hơn nếu nguy cơ cao)</li>
+<li><strong>Nhịn đói</strong>: KHÔNG cần</li>
+<li><strong>Uống 50g glucose</strong>, đo đường huyết <strong>sau 1 giờ</strong></li>
+<li><strong>Ngưỡng dương tính</strong>:</li></ul>
+<p class="text-stone-700 mb-3">  - ≥130 mg/dL (7.2 mmol/L): sensitivity 90%, specificity 80%</p>
+<p class="text-stone-700 mb-3">  - ≥135 mg/dL (7.5 mmol/L): sensitivity 80%, specificity 85%</p>
+<p class="text-stone-700 mb-3">  - ≥140 mg/dL (7.8 mmol/L): sensitivity 70%, specificity 90%</p>
+<p class="text-stone-700 mb-3">  - <strong>ACOG khuyến cáo 130-140 mg/dL</strong> tùy dân số</p>
+<p class="text-stone-700 mb-3"><strong>Bước 2 — OGTT 100g (chỉ làm nếu GCT dương tính):</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Nhịn đói</strong>: 8-14 giờ</li>
+<li><strong>Uống 100g glucose</strong>, đo đường huyết lúc đói + 1h + 2h + 3h</li>
+<li><strong>Tiêu chuẩn Carpenter-Coustan</strong> (≥2 giá trị vượt ngưỡng):</li></ul>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thời điểm</th><th class="p-2 border whitespace-nowrap">Ngưỡng (mg/dL)</th><th class="p-2 border whitespace-nowrap">Ngưỡng (mmol/L)</th></tr></thead><tbody><tr class=""><td class="p-2 border">Lúc đói</td><td class="p-2 border">≥95</td><td class="p-2 border">≥5.3</td></tr><tr class=""><td class="p-2 border">1 giờ</td><td class="p-2 border">≥180</td><td class="p-2 border">≥10.0</td></tr><tr class=""><td class="p-2 border">2 giờ</td><td class="p-2 border">≥155</td><td class="p-2 border">≥8.6</td></tr><tr class=""><td class="p-2 border">3 giờ</td><td class="p-2 border">≥140</td><td class="p-2 border">≥7.8</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.2. One-Step Approach (IADPSG/WHO/FIGO khuyến cáo)</h3>
+<p class="text-stone-700 mb-3"><strong>OGTT 75g — không cần GCT sàng lọc trước:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Nhịn đói</strong>: 8-14 giờ</li>
+<li><strong>Uống 75g glucose</strong>, đo đường huyết lúc đói + 1h + 2h</li>
+<li><strong>Tiêu chuẩn IADPSG 2010</strong> (≥1 giá trị vượt ngưỡng → GDM):</li></ul>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thời điểm</th><th class="p-2 border whitespace-nowrap">Ngưỡng (mg/dL)</th><th class="p-2 border whitespace-nowrap">Ngưỡng (mmol/L)</th></tr></thead><tbody><tr class=""><td class="p-2 border">Lúc đói</td><td class="p-2 border">≥92</td><td class="p-2 border">≥5.1</td></tr><tr class=""><td class="p-2 border">1 giờ</td><td class="p-2 border">≥180</td><td class="p-2 border">≥10.0</td></tr><tr class=""><td class="p-2 border">2 giờ</td><td class="p-2 border">≥153</td><td class="p-2 border">≥8.5</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Lý do IADPSG chọn các ngưỡng này</strong>: Dựa trên HAPO study (NEJM 2008, n=25,505), các ngưỡng này tương ứng với <strong>OR 1.75</strong> cho adverse outcome (macrosomia, C-peptide dây rốn >90th percentile, neonatal adiposity).</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.3. So sánh Two-Step vs One-Step</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Tiêu chí</th><th class="p-2 border whitespace-nowrap">Two-Step (ACOG)</th><th class="p-2 border whitespace-nowrap">One-Step (IADPSG/FIGO/WHO)</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Số bước</strong></td><td class="p-2 border">2 (GCT → OGTT 100g)</td><td class="p-2 border">1 (OGTT 75g)</td></tr><tr class=""><td class="p-2 border"><strong>Tỷ lệ chẩn đoán GDM</strong></td><td class="p-2 border">5-7%</td><td class="p-2 border">15-18% (cao gấp 2-3 lần!)</td></tr><tr class=""><td class="p-2 border"><strong>Sensitivity</strong></td><td class="p-2 border">70-80%</td><td class="p-2 border">90-95%</td></tr><tr class=""><td class="p-2 border"><strong>Specificity</strong></td><td class="p-2 border">95%</td><td class="p-2 border">85%</td></tr><tr class=""><td class="p-2 border"><strong>Số ca điều trị</strong></td><td class="p-2 border">Ít hơn</td><td class="p-2 border">Nhiều hơn (tiêu chuẩn thấp hơn)</td></tr><tr class=""><td class="p-2 border"><strong>Bằng chứng RCT</strong></td><td class="p-2 border">MFMU Network (NEJM 2022)</td><td class="p-2 border">HAPO (quan sát, 2008)</td></tr><tr class=""><td class="p-2 border"><strong>Chi phí</strong></td><td class="p-2 border">Thấp hơn (nhiều BN chỉ cần GCT)</td><td class="p-2 border">Cao hơn (mọi BN OGTT 75g)</td></tr><tr class=""><td class="p-2 border"><strong>Dùng ở</strong></td><td class="p-2 border">Mỹ, Canada</td><td class="p-2 border">Châu Âu, Úc, châu Á, WHO</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Tranh cãi chính</strong>: One-step chẩn đoán GDM gấp 2-3 lần → nhiều BN được điều trị → giảm biến chứng? Hay overdiagnosis? MFMU Network trial (NEJM 2022) không cho thấy one-step vượt trội two-step về adverse outcomes.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">2.4. Sàng lọc sớm (<24 tuần)</h3>
+<p class="text-stone-700 mb-3">ACOG khuyến cáo sàng lọc <strong>sớm ở lần khám thai đầu tiên</strong> cho phụ nữ có yếu tố nguy cơ:</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>BMI ≥30 kg/m²</strong></li>
+<li><strong>Tiền sử GDM</strong></li>
+<li><strong>Tiền sử gia đình ĐTĐ (cha/mẹ/anh/chị/em)</strong></li>
+<li><strong>Tiền sử sinh con ≥4,000g</strong></li>
+<li><strong>Hội chứng buồng trứng đa nang (PCOS)</strong></li>
+<li><strong>Chủng tộc nguy cơ cao</strong> (Á, Mỹ Latinh, Phi)</li></ul>
+<p class="text-stone-700 mb-3">Sàng lọc sớm dùng <strong>HbA1c + đường huyết đói + OGTT 75g</strong>. Nếu âm tính → lặp lại 24-28 tuần.</p>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">3. YẾU TỐ NGUY CƠ</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Yếu tố nguy cơ</th><th class="p-2 border whitespace-nowrap">OR / Nguy cơ</th><th class="p-2 border whitespace-nowrap">Ghi chú</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>BMI ≥30 kg/m²</strong></td><td class="p-2 border">OR 2-4</td><td class="p-2 border">Yếu tố mạnh nhất</td></tr><tr class=""><td class="p-2 border"><strong>Tiền sử GDM</strong></td><td class="p-2 border">OR 10-20</td><td class="p-2 border">Nguy cơ tái phát 30-70%</td></tr><tr class=""><td class="p-2 border"><strong>Tiền sử gia đình ĐTĐ type 2</strong></td><td class="p-2 border">OR 2-3</td><td class="p-2 border">Di truyền</td></tr><tr class=""><td class="p-2 border"><strong>Tuổi mẹ ≥35</strong></td><td class="p-2 border">OR 2-3</td><td class="p-2 border">↑ kháng insulin theo tuổi</td></tr><tr class=""><td class="p-2 border"><strong>Chủng tộc Á, Hispanic, Phi</strong></td><td class="p-2 border">OR 2-4</td><td class="p-2 border">Genetic susceptibility</td></tr><tr class=""><td class="p-2 border"><strong>PCOS</strong></td><td class="p-2 border">OR 2-3</td><td class="p-2 border">↑ insulin resistance nền</td></tr><tr class=""><td class="p-2 border"><strong>Tiền sử macrosomia (≥4,000g)</strong></td><td class="p-2 border">OR 3-5</td><td class="p-2 border">Marker GDM ẩn trước đó</td></tr><tr class=""><td class="p-2 border"><strong>Tăng cân quá mức trong thai kỳ</strong></td><td class="p-2 border">OR 1.5-2</td><td class="p-2 border">↑ kháng insulin</td></tr><tr class=""><td class="p-2 border"><strong>Đa ối vô căn</strong></td><td class="p-2 border">Có thể là dấu hiệu sớm</td><td class="p-2 border">Fetal osmotic diuresis</td></tr><tr class=""><td class="p-2 border"><strong>Thai to trên siêu âm (AC >90th)</strong></td><td class="p-2 border">Dấu hiệu gợi ý</td><td class="p-2 border">Cần sàng lọc lại</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">4. BIẾN CHỨNG MẸ & THAI NHI</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.1. Biến chứng mẹ</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Biến chứng</th><th class="p-2 border whitespace-nowrap">Nguy cơ so với thai bình thường</th><th class="p-2 border whitespace-nowrap">Cơ chế</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Tiền sản giật</strong></td><td class="p-2 border">OR 1.5-2.0</td><td class="p-2 border">↑ stress oxy hóa, endothelial dysfunction</td></tr><tr class=""><td class="p-2 border"><strong>Sinh mổ</strong></td><td class="p-2 border">OR 1.3-1.8</td><td class="p-2 border">Macrosomia, đình trệ chuyển dạ</td></tr><tr class=""><td class="p-2 border"><strong>ĐTĐ type 2 sau sinh</strong></td><td class="p-2 border">50-70% trong 10-25 năm</td><td class="p-2 border">β-cell exhaustion tiếp diễn</td></tr><tr class=""><td class="p-2 border"><strong>GDM tái phát</strong></td><td class="p-2 border">30-70% thai kỳ sau</td><td class="p-2 border">Cơ địa</td></tr><tr class=""><td class="p-2 border"><strong>Sinh non</strong></td><td class="p-2 border">OR 1.2-1.5</td><td class="p-2 border">Đa ối, nhiễm trùng</td></tr><tr class=""><td class="p-2 border"><strong>Đa ối</strong></td><td class="p-2 border">10-20% GDM</td><td class="p-2 border">Osmotic diuresis thai</td></tr><tr class=""><td class="p-2 border"><strong>Nhiễm trùng tiểu</strong></td><td class="p-2 border">OR 1.5-2.0</td><td class="p-2 border">Glycosuria</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.2. Biến chứng thai nhi & sơ sinh</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Biến chứng</th><th class="p-2 border whitespace-nowrap">Nguy cơ</th><th class="p-2 border whitespace-nowrap">Cơ chế</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Macrosomia (≥4,000g)</strong></td><td class="p-2 border">OR 2-3 (15-30% GDM)</td><td class="p-2 border">↑ glucose qua nhau → ↑ insulin thai → ↑ IGF-1 → ↑ tăng trưởng</td></tr><tr class=""><td class="p-2 border"><strong>Large for Gestational Age (LGA >90th)</strong></td><td class="p-2 border">OR 2-4</td><td class="p-2 border">Như trên</td></tr><tr class=""><td class="p-2 border"><strong>Hạ đường huyết sơ sinh (<40 mg/dL)</strong></td><td class="p-2 border">10-20%</td><td class="p-2 border">↑ insulin sơ sinh (do ↑ glucose từ mẹ) → hạ đột ngột sau sinh</td></tr><tr class=""><td class="p-2 border"><strong>Hội chứng suy hô hấp (RDS)</strong></td><td class="p-2 border">OR 1.5-2</td><td class="p-2 border">Insulin ức chế surfactant synthesis, sinh non</td></tr><tr class=""><td class="p-2 border"><strong>Vàng da sơ sinh</strong></td><td class="p-2 border">OR 1.5-2</td><td class="p-2 border">Polycythemia → ↑ bilirubin</td></tr><tr class=""><td class="p-2 border"><strong>Hạ canxi máu</strong></td><td class="p-2 border">OR 2-3</td><td class="p-2 border">↓ PTH đáp ứng</td></tr><tr class=""><td class="p-2 border"><strong>Bệnh cơ tim phì đại</strong></td><td class="p-2 border">Hiếm nhưng đặc hiệu</td><td class="p-2 border">Septal hypertrophy do ↑ insulin</td></tr><tr class=""><td class="p-2 border"><strong>Dị tật bẩm sinh</strong></td><td class="p-2 border">OR 2-4 (nếu GDM không kiểm soát quý 1)</td><td class="p-2 border">↑ glucose gây teratogenic (đặc biệt tim, NTD)</td></tr><tr class=""><td class="p-2 border"><strong>Tử vong chu sinh</strong></td><td class="p-2 border">OR 1.5-2 (hiếm nếu kiểm soát tốt)</td><td class="p-2 border">Đa yếu tố</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">4.3. Hậu quả dài hạn cho con</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Béo phì trẻ em</strong>: OR 1.5-2.0</li>
+<li><strong>ĐTĐ type 2</strong>: OR 2-8 ở tuổi trưởng thành</li>
+<li><strong>Hội chứng chuyển hóa</strong>: OR 1.5-2.0</li>
+<li><strong>Cơ chế</strong>: <strong>Lập trình bào thai (fetal programming)</strong> — hyperinsulinemia in utero → epigenetic changes → altered metabolic set points</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">5. QUẢN LÝ</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.1. Mục tiêu đường huyết</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thời điểm</th><th class="p-2 border whitespace-nowrap">ACOG (mg/dL)</th><th class="p-2 border whitespace-nowrap">ADA/FIGO (mg/dL)</th><th class="p-2 border whitespace-nowrap">mmol/L</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Lúc đói</strong></td><td class="p-2 border">≤95</td><td class="p-2 border">≤95</td><td class="p-2 border">≤5.3</td></tr><tr class=""><td class="p-2 border"><strong>1 giờ sau ăn</strong></td><td class="p-2 border">≤140</td><td class="p-2 border">≤140</td><td class="p-2 border">≤7.8</td></tr><tr class=""><td class="p-2 border"><strong>2 giờ sau ăn</strong></td><td class="p-2 border">≤120</td><td class="p-2 border">≤120</td><td class="p-2 border">≤6.7</td></tr><tr class=""><td class="p-2 border"><strong>HbA1c</strong></td><td class="p-2 border"><6.0%</td><td class="p-2 border"><6.0-6.5%</td><td class="p-2 border">—</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.2. Liệu pháp dinh dưỡng (Medical Nutrition Therapy — MNT)</h3>
+<p class="text-stone-700 mb-3"><strong>Chế độ ăn nền tảng — CHO MỌI BN GDM:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Nguyên tắc</th><th class="p-2 border whitespace-nowrap">Chi tiết</th></tr></thead><tbody><tr class="bg-green-50"><td class="p-2 border"><strong>Tổng calo</strong></td><td class="p-2 border">30-35 kcal/kg/ngày (BMI bình thường), 25 kcal/kg/ngày (BMI >30)</td></tr><tr class=""><td class="p-2 border"><strong>Carbohydrate</strong></td><td class="p-2 border">40-45% tổng calo, chia nhỏ 3 bữa chính + 2-4 bữa phụ</td></tr><tr class=""><td class="p-2 border"><strong>Protein</strong></td><td class="p-2 border">20-25% tổng calo, 1.1-1.5 g/kg/ngày</td></tr><tr class=""><td class="p-2 border"><strong>Chất béo</strong></td><td class="p-2 border">30-35% tổng calo, ưu tiên không bão hòa</td></tr><tr class=""><td class="p-2 border"><strong>Bữa sáng</strong></td><td class="p-2 border">Carb thấp hơn (15-30g) — kháng insulin cao nhất buổi sáng</td></tr><tr class=""><td class="p-2 border"><strong>Bữa phụ tối</strong></td><td class="p-2 border">Carb 15-20g — ngừa ketosis qua đêm</td></tr><tr class=""><td class="p-2 border"><strong>Chất xơ</strong></td><td class="p-2 border">25-30g/ngày — làm chậm hấp thu glucose</td></tr><tr class=""><td class="p-2 border"><strong>Đường đơn, nước ngọt</strong></td><td class="p-2 border">TRÁNH HOÀN TOÀN</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Phân phối calo trong ngày:</strong></p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li>Sáng: 10-15%</li>
+<li>Trưa: 20-30%</li>
+<li>Tối: 30-40%</li>
+<li>3 bữa phụ: 5-10% mỗi bữa</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.3. Tập thể dục</h3>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Đi bộ 30 phút/ngày</strong> sau bữa ăn → ↓ đường huyết sau ăn 10-15%</li>
+<li><strong>Tập 5 ngày/tuần</strong>, ít nhất 150 phút/tuần</li>
+<li>Các môn an toàn: đi bộ, bơi, đạp xe tĩnh, yoga thai kỳ</li>
+<li>Tránh: môn dễ ngã, nằm ngửa kéo dài sau 20 tuần</li></ul>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.4. Theo dõi đường huyết tại nhà (SMBG)</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Tần suất</th><th class="p-2 border whitespace-nowrap">Chỉ định</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>4 lần/ngày</strong> (đói + 1h sau 3 bữa chính)</td><td class="p-2 border">Mọi BN GDM</td></tr><tr class=""><td class="p-2 border"><strong>Giảm còn 2-4 lần/ngày</strong></td><td class="p-2 border">Nếu ổn định với chế độ ăn >2 tuần</td></tr><tr class=""><td class="p-2 border"><strong>Tăng lên 7 lần/ngày</strong></td><td class="p-2 border">Nếu dùng insulin</td></tr></tbody></table></div>
+<p class="text-stone-700 mb-3"><strong>Mục tiêu</strong>: ≥80% giá trị đạt mục tiêu trong 1 tuần.</p>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.5. Thuốc — Khi MNT không đủ</h3>
+<p class="text-stone-700 mb-3"><strong>Chỉ định dùng thuốc</strong>: Sau 1-2 tuần MNT + tập thể dục mà ≥30% giá trị vượt mục tiêu.</p>
+<p class="text-stone-700 mb-3"><strong>Lựa chọn theo ACOG PB #190 (PMID 29370047):</strong></p>
+<div class="mermaid text-center my-6">flowchart TD
+    A["GDM — Sau 1-2 tuần MNT<br>≥30% glucose vượt mục tiêu"] --> B{"Đường huyết đói<br>chủ yếu tăng?"}
+    B -->|"CÓ (đói ≥95)"| C["INSULIN NPH<br>0.2 IU/kg khởi đầu<br>tiêm dưới da buổi tối"]
+    B -->|"KHÔNG (sau ăn chủ yếu)"| D["METFORMIN<br>500mg × 1-2/ngày<br>(khởi đầu), điều chỉnh"]
+    C --> E{"Kiểm soát đạt?"}
+    D --> E
+    E -->|"KHÔNG"| F["Phối hợp<br>Insulin NPH + Metformin<br>HOẶC Insulin basal-bolus"]
+    E -->|"CÓ"| G["Tiếp tục, theo dõi<br>SMBG 4 lần/ngày"]
+    style C fill:#c8e6c9,stroke:#388e3c
+    style D fill:#fff3cd,stroke:#f57c00</div>
+<p class="text-stone-700 mb-3"><strong>Bảng so sánh thuốc GDM:</strong></p>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thuốc</th><th class="p-2 border whitespace-nowrap">Cơ chế</th><th class="p-2 border whitespace-nowrap">Ưu điểm</th><th class="p-2 border whitespace-nowrap">Nhược điểm</th><th class="p-2 border whitespace-nowrap">Thai kỳ</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Insulin</strong></td><td class="p-2 border">Thay thế insulin ngoại sinh</td><td class="p-2 border"><strong>TIÊU CHUẨN VÀNG</strong>, không qua nhau (basal), hiệu quả nhất</td><td class="p-2 border">Tiêm, hạ đường huyết, tăng cân</td><td class="p-2 border"><strong>An toàn</strong></td></tr><tr class=""><td class="p-2 border"><strong>Metformin</strong></td><td class="p-2 border">↓ tân tạo glucose gan, ↑ nhạy insulin</td><td class="p-2 border">Uống, rẻ, không hạ đường huyết</td><td class="p-2 border"><strong>QUA NHAU THAI</strong>, tác dụng phụ tiêu hóa</td><td class="p-2 border"><strong>Category B</strong>, dùng rộng rãi</td></tr><tr class=""><td class="p-2 border"><strong>Glyburide (Glibenclamide)</strong></td><td class="p-2 border">↑ tiết insulin từ tế bào β</td><td class="p-2 border">Uống, rẻ</td><td class="p-2 border"><strong>QUA NHAU THAI</strong>, hạ đường huyết sơ sinh, macrosomia</td><td class="p-2 border"><strong>Không ưu tiên</strong> (ACOG PB #190)</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">5.6. Thai kỳ monitoring</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Tuần thai</th><th class="p-2 border whitespace-nowrap">Đánh giá</th><th class="p-2 border whitespace-nowrap">Mục đích</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Chẩn đoán (24-28w)</strong></td><td class="p-2 border">Siêu âm hình thái nếu chưa làm</td><td class="p-2 border">Loại trừ dị tật</td></tr><tr class=""><td class="p-2 border"><strong>28-32w</strong></td><td class="p-2 border">Siêu âm tăng trưởng</td><td class="p-2 border">Baseline EFW, AC</td></tr><tr class=""><td class="p-2 border"><strong>32-36w</strong></td><td class="p-2 border">Siêu âm tăng trưởng mỗi 3-4 tuần</td><td class="p-2 border">Theo dõi macrosomia</td></tr><tr class=""><td class="p-2 border"><strong>Từ 32w</strong></td><td class="p-2 border"><strong>NST hoặc BPP 1-2 lần/tuần</strong></td><td class="p-2 border">Nếu dùng thuốc (insulin/metformin)</td></tr><tr class=""><td class="p-2 border"><strong>Từ 36w</strong></td><td class="p-2 border">NST + AFI hàng tuần</td><td class="p-2 border">Antepartum surveillance</td></tr><tr class=""><td class="p-2 border"><strong>≥39w</strong></td><td class="p-2 border">Quyết định thời điểm sinh</td><td class="p-2 border">Dựa trên kiểm soát đường huyết + biến chứng</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">6. LƯU ĐỒ QUYẾT ĐỊNH LÂM SÀNG</h2>
+<div class="mermaid text-center my-6">flowchart TD
+    START["Mọi thai phụ"] --> RISK{"Yếu tố nguy cơ cao?<br>BMI≥30, TS GDM, TS GĐ ĐTĐ"}
+    RISK -->|"CÓ"| EARLY["Sàng lọc sớm (lần khám đầu)<br>HbA1c + Glucose đói ± OGTT 75g"]
+    RISK -->|"KHÔNG"| ROUTINE["Sàng lọc 24-28 tuần<br>GCT 50g (ACOG) hoặc OGTT 75g (FIGO)"]
+    EARLY --> EARLY_RES{"Dương tính?"}
+    EARLY_RES -->|"CÓ"| GDM_DX["CHẨN ĐOÁN GDM"]
+    EARLY_RES -->|"KHÔNG"| ROUTINE
+    ROUTINE --> GCT{"GCT ≥130-140?"}
+    GCT -->|"KHÔNG"| NORMAL["BÌNH THƯỜNG<br>Không cần thêm"]
+    GCT -->|"CÓ"| OGTT["OGTT 100g (Two-step)<br>hoặc OGTT 75g (One-step)"]
+    OGTT --> OGTT_RES{"≥2 giá trị CC (100g)<br>hoặc ≥1 giá trị IADPSG (75g)?"}
+    OGTT_RES -->|"KHÔNG"| NORMAL
+    OGTT_RES -->|"CÓ"| GDM_DX
+    GDM_DX --> MNT["MNT + Tập thể dục<br>1-2 tuần + SMBG"]
+    MNT --> CONTROL{"≥70% glucose<br>đạt mục tiêu?"}
+    CONTROL -->|"CÓ"| CONTINUE["Tiếp tục MNT<br>Theo dõi thai định kỳ"]
+    CONTROL -->|"KHÔNG"| MEDS["THUỐC:<br>Insulin (ưu tiên đói tăng)<br>Metformin (ưu tiên sau ăn tăng)"]
+    MEDS --> DELIVERY["Lên kế hoạch sinh:<br>- Kiểm soát tốt, không thuốc: 39-40w<br>- Dùng thuốc: 39w<br>- Biến chứng: cá thể hóa"]
+    
+    style GDM_DX fill:#ffcccc,stroke:#cc0000
+    style MEDS fill:#fff3cd,stroke:#f57c00
+    style NORMAL fill:#ccffcc,stroke:#009900</div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">7. SAI LẦM THƯỜNG GẶP</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">#</th><th class="p-2 border whitespace-nowrap">Sai lầm</th><th class="p-2 border whitespace-nowrap">Hậu quả</th><th class="p-2 border whitespace-nowrap">Cách tránh</th></tr></thead><tbody><tr class=""><td class="p-2 border">1</td><td class="p-2 border"><strong>Không sàng lọc GDM sớm ở BN nguy cơ cao</strong></td><td class="p-2 border">GDM không được chẩn đoán → tăng đường huyết kéo dài → dị tật thai</td><td class="p-2 border">Sàng lọc GDM ở lần khám đầu tiên cho BMI ≥30, TS GDM, TS GĐ ĐTĐ</td></tr><tr class=""><td class="p-2 border">2</td><td class="p-2 border"><strong>Chỉ dùng GCT 50g, không làm OGTT khi GCT dương tính</strong></td><td class="p-2 border">Bỏ sót GDM</td><td class="p-2 border">GCT ≥130-140 → BẮT BUỘC OGTT 100g (two-step)</td></tr><tr class=""><td class="p-2 border">3</td><td class="p-2 border"><strong>Khởi đầu insulin quá muộn</strong></td><td class="p-2 border">Macrosomia không hồi phục</td><td class="p-2 border">Bắt đầu insulin/metformin sau 1-2 tuần MNT thất bại, không trì hoãn</td></tr><tr class=""><td class="p-2 border">4</td><td class="p-2 border"><strong>Dùng glyburide thay vì insulin/metformin</strong></td><td class="p-2 border">Hạ đường huyết sơ sinh, macrosomia nặng hơn</td><td class="p-2 border"><strong>Glyburide không phải first-line</strong> (ACOG PB #190). Insulin hoặc metformin</td></tr><tr class=""><td class="p-2 border">5</td><td class="p-2 border"><strong>Không theo dõi thai đủ sát khi dùng thuốc</strong></td><td class="p-2 border">Thai lưu, suy thai không phát hiện</td><td class="p-2 border">NST/BPP 1-2 lần/tuần từ 32w nếu dùng insulin/metformin</td></tr><tr class=""><td class="p-2 border">6</td><td class="p-2 border"><strong>Sinh non chủ động <39w chỉ vì GDM kiểm soát tốt</strong></td><td class="p-2 border">Sinh non iatrogenic không cần thiết</td><td class="p-2 border">GDM kiểm soát tốt bằng MNT → chờ chuyển dạ tự nhiên đến 40w</td></tr><tr class=""><td class="p-2 border">7</td><td class="p-2 border"><strong>Quên sàng lọc ĐTĐ type 2 sau sinh</strong></td><td class="p-2 border">Bỏ lỡ chẩn đoán sớm ĐTĐ type 2</td><td class="p-2 border">OGTT 75g ở 4-12 tuần hậu sản CHO MỌI BN GDM</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">8. BẢNG THUỐC VÀ LIỀU DÙNG</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Thuốc</th><th class="p-2 border whitespace-nowrap">Liều khởi đầu</th><th class="p-2 border whitespace-nowrap">Điều chỉnh</th><th class="p-2 border whitespace-nowrap">Đường dùng</th><th class="p-2 border whitespace-nowrap">Chống chỉ định</th><th class="p-2 border whitespace-nowrap">Ghi chú</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Insulin NPH (basal)</strong></td><td class="p-2 border">0.2 IU/kg buổi tối</td><td class="p-2 border">Tăng 2-4 IU mỗi 3 ngày đến khi đói đạt mục tiêu</td><td class="p-2 border">Tiêm dưới da</td><td class="p-2 border">Hạ đường huyết nặng</td><td class="p-2 border">—</td></tr><tr class=""><td class="p-2 border"><strong>Insulin Regular (prandial)</strong></td><td class="p-2 border">0.1-0.2 IU/kg trước bữa ăn</td><td class="p-2 border">Tăng 1-2 IU mỗi 3 ngày đến khi sau ăn 1h đạt mục tiêu</td><td class="p-2 border">Tiêm dưới da</td><td class="p-2 border">Hạ đường huyết nặng</td><td class="p-2 border">Dùng trước ăn 30 phút</td></tr><tr class=""><td class="p-2 border"><strong>Insulin Aspart/Lispro (rapid)</strong></td><td class="p-2 border">0.1 IU/kg trước bữa ăn</td><td class="p-2 border">Tăng 1-2 IU mỗi 3 ngày</td><td class="p-2 border">Tiêm dưới da</td><td class="p-2 border">Hạ đường huyết nặng</td><td class="p-2 border">Dùng ngay trước ăn, ưu tiên hơn Regular</td></tr><tr class=""><td class="p-2 border"><strong>Metformin</strong></td><td class="p-2 border">500mg × 1/ngày (tối)</td><td class="p-2 border">Tăng lên 500mg × 2/ngày sau 1 tuần, tối đa 2,500mg/ngày</td><td class="p-2 border">Uống</td><td class="p-2 border">Suy thận (Cr >1.4), toan chuyển hóa</td><td class="p-2 border">Uống sau ăn để giảm tác dụng phụ tiêu hóa</td></tr><tr class=""><td class="p-2 border"><strong>Glyburide</strong></td><td class="p-2 border">2.5-5mg/ngày</td><td class="p-2 border">Tăng 2.5-5mg/tuần, tối đa 20mg/ngày</td><td class="p-2 border">Uống</td><td class="p-2 border"><strong>Không ưu tiên</strong> (qua nhau thai nhiều)</td><td class="p-2 border">Chỉ dùng nếu không có insulin/metformin</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">9. CHUYỂN DẠ, SINH & HẬU SẢN</h2>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">9.1. Thời điểm sinh</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Tình trạng kiểm soát</th><th class="p-2 border whitespace-nowrap">Tuổi thai sinh khuyến cáo (ACOG)</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Kiểm soát tốt bằng MNT</strong></td><td class="p-2 border"><strong>39w0d - 40w6d</strong> (chờ chuyển dạ tự nhiên)</td></tr><tr class=""><td class="p-2 border"><strong>Kiểm soát tốt bằng thuốc</strong></td><td class="p-2 border"><strong>39w0d - 39w6d</strong> (cân nhắc induction)</td></tr><tr class=""><td class="p-2 border"><strong>Kiểm soát kém</strong></td><td class="p-2 border"><strong>37w0d - 38w6d</strong> (cá thể hóa, có thể sớm hơn)</td></tr><tr class=""><td class="p-2 border"><strong>Biến chứng (macrosomia, đa ối, TSG)</strong></td><td class="p-2 border"><strong>Cá thể hóa</strong>, có thể 34-37w nếu nặng</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">9.2. Quản lý trong chuyển dạ</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Tình huống</th><th class="p-2 border whitespace-nowrap">Xử trí</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>GDM MNT đơn thuần</strong></td><td class="p-2 border">Không cần theo dõi glucose trong chuyển dạ. Glucose đói lúc nhập viện</td></tr><tr class=""><td class="p-2 border"><strong>GDM dùng insulin</strong></td><td class="p-2 border"><strong>Truyền glucose 5% + insulin TM</strong> để duy trì glucose 70-110 mg/dL</td></tr><tr class=""><td class="p-2 border"><strong>Mục tiêu glucose trong chuyển dạ</strong></td><td class="p-2 border">70-110 mg/dL (3.9-6.1 mmol/L)</td></tr><tr class=""><td class="p-2 border"><strong>Thai to (EFW ≥4,500g)</strong></td><td class="p-2 border">Cân nhắc <strong>mổ lấy thai chủ động</strong> (ACOG) để tránh shoulder dystocia</td></tr><tr class=""><td class="p-2 border"><strong>Thai to (EFW ≥4,000-4,500g)</strong></td><td class="p-2 border">Cá thể hóa — cân nhắc nguy cơ shoulder dystocia vs lợi ích sinh ngả âm đạo</td></tr></tbody></table></div>
+<h3 class="font-bold text-purple-700 text-xl mt-6 mb-3">9.3. Hậu sản</h3>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Mốc thời gian</th><th class="p-2 border whitespace-nowrap">Hành động</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Ngay sau sinh</strong></td><td class="p-2 border">Ngừng insulin/metformin. Glucose đói buổi sáng hôm sau</td></tr><tr class=""><td class="p-2 border"><strong>4-12 tuần hậu sản</strong></td><td class="p-2 border"><strong>OGTT 75g</strong> để sàng lọc ĐTĐ type 2 (tiêu chuẩn ADA: đói ≥126, 2h ≥200)</td></tr><tr class=""><td class="p-2 border"><strong>Hàng năm</strong></td><td class="p-2 border">HbA1c hoặc glucose đói</td></tr><tr class=""><td class="p-2 border"><strong>Trước thai kỳ sau</strong></td><td class="p-2 border">Sàng lọc ĐTĐ, tư vấn giảm cân nếu BMI ≥25</td></tr><tr class=""><td class="p-2 border"><strong>Cho con bú</strong></td><td class="p-2 border"><strong>GIẢM nguy cơ ĐTĐ type 2</strong> ở mẹ. Khuyến khích mạnh mẽ</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">10. GUIDELINES SO SÁNH</h2>
+<div class="overflow-x-auto my-4"><table class="w-full text-left border-collapse text-sm"><thead><tr class="bg-blue-100"><th class="p-2 border whitespace-nowrap">Khía cạnh</th><th class="p-2 border whitespace-nowrap">ACOG PB #190 (2018)</th><th class="p-2 border whitespace-nowrap">FIGO 2015</th><th class="p-2 border whitespace-nowrap">IADPSG/WHO 2013</th><th class="p-2 border whitespace-nowrap">ADA 2024</th></tr></thead><tbody><tr class=""><td class="p-2 border"><strong>Sàng lọc</strong></td><td class="p-2 border">Two-step (GCT → OGTT 100g)</td><td class="p-2 border">One-step (OGTT 75g)</td><td class="p-2 border">One-step (OGTT 75g)</td><td class="p-2 border">One-step (ưu tiên)</td></tr><tr class=""><td class="p-2 border"><strong>Tiêu chuẩn</strong></td><td class="p-2 border">Carpenter-Coustan (≥2/4)</td><td class="p-2 border">IADPSG (≥1/3)</td><td class="p-2 border">IADPSG (≥1/3)</td><td class="p-2 border">IADPSG hoặc CC</td></tr><tr class=""><td class="p-2 border"><strong>GCT cut-off</strong></td><td class="p-2 border">130-140 mg/dL</td><td class="p-2 border">Không dùng GCT</td><td class="p-2 border">Không dùng GCT</td><td class="p-2 border">—</td></tr><tr class=""><td class="p-2 border"><strong>First-line thuốc</strong></td><td class="p-2 border">Insulin</td><td class="p-2 border">Metformin → Insulin</td><td class="p-2 border">Insulin</td><td class="p-2 border">Metformin → Insulin</td></tr><tr class=""><td class="p-2 border"><strong>Glyburide</strong></td><td class="p-2 border">Không ưu tiên</td><td class="p-2 border">Không khuyến cáo</td><td class="p-2 border">Không khuyến cáo</td><td class="p-2 border">Không khuyến cáo</td></tr><tr class=""><td class="p-2 border"><strong>Thai monitoring</strong></td><td class="p-2 border">NST/BPP từ 32w nếu dùng thuốc</td><td class="p-2 border">Tương tự</td><td class="p-2 border">Tương tự</td><td class="p-2 border">Cá thể hóa</td></tr><tr class=""><td class="p-2 border"><strong>Thời điểm sinh</strong></td><td class="p-2 border">39-40w nếu kiểm soát tốt</td><td class="p-2 border">Tương tự</td><td class="p-2 border">Tương tự</td><td class="p-2 border">39w0d-40w6d</td></tr><tr class=""><td class="p-2 border"><strong>Postpartum OGTT</strong></td><td class="p-2 border">4-12 tuần</td><td class="p-2 border">6-12 tuần</td><td class="p-2 border">6-12 tuần</td><td class="p-2 border">4-12 tuần</td></tr></tbody></table></div>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">11. ÁP DỤNG TẠI VIỆT NAM</h2>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Dịch tễ GDM tại VN</strong>: 10-15% thai phụ thành thị. Tỷ lệ tăng nhanh do đô thị hóa + thay đổi chế độ ăn (cơm trắng, nước ngọt).</li>
+<li><strong>Sàng lọc phổ biến tại VN</strong>: Hầu hết BV lớn (Từ Dũ, Hùng Vương, Phụ sản TW) dùng <strong>Two-step (GCT 50g → OGTT 100g)</strong> — tương tự ACOG.</li>
+<li><strong>OGTT 75g (One-step)</strong>: Đang dần được áp dụng ở một số BV theo FIGO/WHO.</li>
+<li><strong>Thuốc sẵn có</strong>:</li></ul>
+<p class="text-stone-700 mb-3">  - <strong>Metformin 500mg</strong>: RẺ (50,000-100,000 VNĐ/tháng), BHYT chi trả. Uống, dễ tuân thủ.</p>
+<p class="text-stone-700 mb-3">  - <strong>Insulin NPH + Regular</strong>: Có sẵn, BHYT chi trả. Insulin aspart/lispro đắt hơn, không phải lúc nào cũng có.</p>
+<p class="text-stone-700 mb-3">  - <strong>Glyburide</strong>: Có, nhưng không nên dùng (theo ACOG).</p>
+<ul class="list-disc list-inside space-y-1 mb-4"><li><strong>Theo dõi đường huyết tại nhà</strong>: Máy đo đường huyết cá nhân phổ biến (200,000-500,000 VNĐ). Que thử ~5,000 VNĐ/lần.</li>
+<li><strong>Dinh dưỡng tại VN</strong>: Cần tư vấn điều chỉnh <strong>cơm trắng</strong> (GI cao) → gạo lứt, chia nhỏ bữa. Hạn chế <strong>nước mía, trái cây ngọt</strong> (xoài, nhãn, sầu riêng).</li>
+<li><strong>Thách thức</strong>: Nhiều BN VN không tuân thủ SMBG vì chi phí que thử. Tư vấn dinh dưỡng cần phù hợp văn hóa ẩm thực Việt.</li></ul>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">12. TIPS THỰC HÀNH — 12 TIPS</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>Sàng lọc CHO MỌI thai phụ 24-28w</strong> — không chọn lọc theo nguy cơ (universal screening)</li>
+<li><strong>GCT 50g dương tính ≥130 → LÀM NGAY OGTT 100g</strong> — không trì hoãn</li>
+<li><strong>Metformin là thuốc uống duy nhất nên dùng</strong> — glyburide đã lỗi thời (qua nhau thai nhiều, tăng hạ đường huyết sơ sinh)</li>
+<li><strong>Insulin là tiêu chuẩn vàng khi đường huyết đói tăng chủ yếu</strong> — insulin NPH buổi tối bắt đầu 0.2 IU/kg</li>
+<li><strong>Đường huyết sau ăn 1h quan trọng hơn đói</strong> trong dự đoán macrosomia</li>
+<li><strong>Bữa sáng ít carb nhất</strong> (15-30g) — kháng insulin cao nhất buổi sáng</li>
+<li><strong>Đi bộ 30 phút sau mỗi bữa ăn</strong> — giảm đường huyết sau ăn 10-15%, KHÔNG tốn tiền</li>
+<li><strong>NST/BPP 2 lần/tuần từ 32w nếu dùng insulin</strong> — thai GDM có nguy cơ thai lưu cao hơn</li>
+<li><strong>Không sinh chủ động <39w nếu GDM kiểm soát tốt</strong> — trừ khi có biến chứng</li>
+<li><strong>OGTT 75g 4-12 tuần hậu sản</strong> — 50-70% GDM → ĐTĐ type 2, phát hiện sớm để can thiệp</li>
+<li><strong>Cho con bú giảm nguy cơ ĐTĐ type 2 ở mẹ</strong> — khuyến khích mạnh mẽ</li>
+<li><strong>Sàng lọc GDM sớm (lần khám đầu) cho BMI ≥30, TS GDM</strong> — dùng HbA1c + glucose đói</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">13. TỔNG KẾT — 10 ĐIỂM CẦN NHỚ</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>GDM = rối loạn dung nạp glucose khởi phát/phát hiện trong thai kỳ</strong> — do kháng insulin sinh lý + β-cell không bù trừ đủ</li>
+<li><strong>hPL (Human Placental Lactogen) là hormone kháng insulin MẠNH NHẤT trong thai kỳ</strong> — do nhau thai tiết</li>
+<li><strong>Sàng lọc PHỔ QUÁT 24-28 tuần</strong> — two-step (ACOG) hoặc one-step (FIGO/WHO)</li>
+<li><strong>Tiêu chuẩn chẩn đoán</strong>: Carpenter-Coustan (≥2/4 giá trị OGTT 100g) hoặc IADPSG (≥1/3 giá trị OGTT 75g)</li>
+<li><strong>MNT (dinh dưỡng) là nền tảng</strong> — 40% BN kiểm soát được chỉ bằng MNT</li>
+<li><strong>Insulin là tiêu chuẩn vàng</strong> khi MNT thất bại — đặc biệt nếu đường huyết đói tăng</li>
+<li><strong>Metformin là lựa chọn uống an toàn</strong> — qua nhau thai nhưng dữ liệu dài hạn yên tâm</li>
+<li><strong>Glyburide KHÔNG phải first-line</strong> — qua nhau thai nhiều, tăng hạ đường huyết sơ sinh</li>
+<li><strong>Thai GDM cần NST/BPP từ 32w nếu dùng thuốc</strong> — nguy cơ thai lưu cao hơn</li>
+<li><strong>OGTT 75g hậu sản 4-12 tuần LÀ BẮT BUỘC</strong> — phát hiện sớm ĐTĐ type 2</li></ol>
+<hr class="my-6 border-stone-300">
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+<h2 class="text-3xl font-bold text-blue-700 mb-6">14. TÀI LIỆU THAM KHẢO</h2>
+<ol class="list-decimal list-inside space-y-1 mb-4"><li><strong>ACOG Practice Bulletin No. 190.</strong> "Gestational Diabetes Mellitus." <em>Obstet Gynecol.</em> 2018;131(2):e49-e64. PMID: <strong>29370047</strong>. [GUIDELINE VERIFIED — Tier 0, ACOG PB #190, reaffirmed 2023]</li>
+<li><strong>HAPO Study Cooperative Research Group.</strong> "Hyperglycemia and Adverse Pregnancy Outcomes." <em>N Engl J Med.</em> 2008;358(19):1991-2002. PMID: <strong>18463375</strong>. [ABSTRACT VERIFIED — Tier 1, HAPO original, n=25,505, basis for IADPSG criteria]</li>
+<li><strong>International Association of Diabetes and Pregnancy Study Groups (IADPSG).</strong> "International Association of Diabetes and Pregnancy Study Groups Recommendations on the Diagnosis and Classification of Hyperglycemia in Pregnancy." <em>Diabetes Care.</em> 2010;33(3):676-682. PMID: <strong>20190296</strong>. [GUIDELINE VERIFIED — Tier 0, IADPSG diagnostic criteria]</li>
+<li><strong>American Diabetes Association.</strong> "Standards of Care in Diabetes — 2024. Section 15: Management of Diabetes in Pregnancy." <em>Diabetes Care.</em> 2024;47(Suppl 1):S282-S294. [GUIDELINE VERIFIED — Tier 0, ADA 2024]</li>
+<li><strong>FIGO Working Group on GDM.</strong> "The FIGO Initiative on Gestational Diabetes Mellitus: A Pragmatic Guide for Diagnosis, Management, and Care." <em>Int J Gynaecol Obstet.</em> 2015;131(S3):S173-S211. [GUIDELINE VERIFIED — Tier 0, FIGO 2015 GDM Guide]</li>
+<li><strong>Rowan JA, Hague WM, Gao W, Battin MR, Moore MP; MiG Trial Investigators.</strong> "Metformin versus Insulin for the Treatment of Gestational Diabetes." <em>N Engl J Med.</em> 2008;358(19):2003-2015. PMID: <strong>18463376</strong>. [FULL VERIFIED — Tier 1, NEJM, MiG trial, metformin vs insulin RCT]</li>
+<li><strong>Langer O, Conway DL, Berkus MD, Xenakis EM, Gonzales O.</strong> "A Comparison of Glyburide and Insulin in Women with Gestational Diabetes Mellitus." <em>N Engl J Med.</em> 2000;343(16):1134-1138. PMID: <strong>11036118</strong>. [ABSTRACT VERIFIED — Tier 1, NEJM, glyburide vs insulin RCT]</li>
+<li><strong>HAPO Follow-up Study Cooperative Research Group.</strong> "Hyperglycemia and Adverse Pregnancy Outcome Follow-Up Study (HAPO FUS): Maternal Glycemia and Childhood Glucose Metabolism." <em>Diabetes Care.</em> 2019;42(3):381-392. PMID: <strong>30617141</strong>. [ABSTRACT VERIFIED — Tier 1, HAPO FUS, long-term outcomes]</li>
+<li><strong>Garrison A.</strong> "Screening, Diagnosis, and Management of Gestational Diabetes Mellitus." <em>Am Fam Physician.</em> 2015;91(7):460-467. PMID: <strong>25884746</strong>. [DIRECTION ONLY — Review]</li>
+<li><strong>Mittal R, et al.</strong> "Unveiling Gestational Diabetes: An Overview of Pathophysiology and Management." <em>Int J Mol Sci.</em> 2025;26(5):2320. PMID: <strong>40076938</strong>. [ABSTRACT VERIFIED — Tier 2, Q1, recent comprehensive review]</li></ol>
+<hr class="my-6 border-stone-300">
+<p class="text-stone-700 mb-3"><strong>— Hết bài học ngày 2026-06-28 —</strong></p>
+<p class="text-stone-700 mb-3"><strong>Bác sĩ:</strong> Ngọc 🍅 🐈‍⬛ | <strong>AI:</strong> MiniMax Mavis | <strong>Bài số 22</strong> | <strong>Chuyên khoa:</strong> Sản phụ khoa — Đái tháo đường thai kỳ</p>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bác sĩ: Ngọc 🍅 🐈‍⬛ | AI: MiniMax Mavis | 2026-06-28</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+[
+  {
+    "type": "basic",
+    "front": "Gốc của lưu đồ chẩn đoán khi phát hiện bất sản vách trong suốt (absent CSP) là câu hỏi gì?",
+    "back": "Sừng trán não thất bên (frontal horns) có giao tiếp với nhau ở phần trước nhất không (communicate at their foremost anterior portion)?\n\nĐây là nhánh quyết định chính - phân chia toàn bộ hướng chẩn đoán tiếp theo."
+  },
+  {
+    "type": "basic",
+    "front": "Nhánh 1 của lưu đồ: sừng trán giao tiếp ở phần trước nhất - chẩn đoán gì?",
+    "back": "Holoprosencephaly (HPE) - các thể lobar, semilobar hoặc alobar.\n\nCác dấu hiệu xác nhận: không phân chia vỏ não hoặc hạch nền (non-cleavage of cortex/basal ganglia), dị thường mặt, bất sản thể chai (agenesis of CC)."
+  },
+  {
+    "type": "basic",
+    "front": "Nhánh 2 của lưu đồ: sừng trán tách biệt ở phần trước nhất và giao tiếp ở phía sau - câu hỏi tiếp theo là gì?",
+    "back": "Có không phân chia vỏ não hoặc hạch nền (non-cleavage of cortex/basal ganglia) không?\n\nĐây là câu hỏi để phân biệt HPE biến thể MIH với các nguyên nhân khác."
+  },
+  {
+    "type": "basic",
+    "front": "Sừng trán tách biệt trước + có non-cleavage vỏ não/hạch nền - chẩn đoán là gì?",
+    "back": "Holoprosencephaly biến thể giữa hai bán cầu (Middle Interhemispheric Variant - MIH / syntelencephaly).\n\nĐặc điểm: liềm đại não còn trước và sau, mất đoạn giữa; thân thể chai vắng mặt nhưng gối và lồi có thể có."
+  },
+  {
+    "type": "basic",
+    "front": "Sừng trán tách biệt trước + phân chia vỏ não/hạch nền bình thường - câu hỏi tiếp theo là gì?",
+    "back": "Có thấy thể chai (corpus callosum) không?\n\nĐây là câu hỏi phân nhánh tiếp: nếu không có thể chai - ACC; nếu có - đi tiếp trong lưu đồ."
+  },
+  {
+    "type": "basic",
+    "front": "Sừng trán tách biệt + phân chia bình thường + KHÔNG thấy thể chai - chẩn đoán là gì?",
+    "back": "Bất sản thể chai (Corpus Callosum Agenesis - ACC).\n\nLưu ý: ACC cũng có thể đi kèm HPE, nhưng trong nhánh này, ACC là chẩn đoán chính (không kèm non-cleavage)."
+  },
+  {
+    "type": "basic",
+    "front": "Sừng trán tách biệt + phân chia bình thường + CÓ thấy thể chai - câu hỏi tiếp theo là gì?",
+    "back": "Có thấy di tích vách trong suốt (septum pellucidum remnants) không?\n\nĐây là nhánh phân biệt: còn di tích - hướng mắc phải hoặc bán phần. Không còn di tích - hướng bẩm sinh nặng hơn."
+  },
+  {
+    "type": "basic",
+    "front": "CÓ di tích vách trong suốt - câu hỏi tiếp theo là gì?",
+    "back": "Có giãn não thất nặng (severe ventriculomegaly) không?\n\nGiãn não thất nặng gợi ý CSP mất thứ phát (mắc phải) do tăng áp lực hoặc tổn thương não."
+  },
+  {
+    "type": "basic",
+    "front": "Còn di tích vách trong suốt + CÓ giãn não thất nặng - chẩn đoán gì? Nguyên nhân?",
+    "back": "Bất sản vách trong suốt mắc phải (Acquired Absent CSP).\n\nNguyên nhân:\n- Não úng thủy tắc nghẽn: hẹp cống não, Chiari II, thoát vị não\n- Tật não nước (hydranencephaly)\n- Tổn thương do xuất huyết, nhiễm trùng, chấn thương"
+  },
+  {
+    "type": "basic",
+    "front": "Còn di tích vách trong suốt + KHÔNG giãn não thất nặng - chẩn đoán gì?",
+    "back": "Bất sản vách trong suốt bán phần (Partial absence of septum pellucidum).\n\nĐây là thể không hoàn toàn: còn lại một phần vách trong suốt, không có giãn não thất nặng, thường nhẹ hơn các chẩn đoán khác trong lưu đồ."
+  },
+  {
+    "type": "basic",
+    "front": "KHÔNG có di tích vách trong suốt - câu hỏi tiếp theo là gì?",
+    "back": "Có dị tật vỏ não (cortical malformation) không?\n\nDị tật vỏ não (như polymicrogyria, nứt não) sẽ hướng đến một chẩn đoán cụ thể khác với các nguyên nhân còn lại."
+  },
+  {
+    "type": "basic",
+    "front": "Không còn di tích vách + CÓ dị tật vỏ não - chẩn đoán gì?",
+    "back": "Tật nứt não (Schizencephaly).\n\nSchizencephaly là khe nứt xuyên từ bề mặt vỏ não đến não thất, thường CSP vắng mặt do tổn thương phát triển vỏ não lan rộng."
+  },
+  {
+    "type": "basic",
+    "front": "Không còn di tích vách + KHÔNG dị tật vỏ não - câu hỏi cuối cùng là gì?",
+    "back": "Có thiểu sản thần kinh thị giác (optic nerve hypoplasia), estriol mẹ giảm, hoặc nồng độ hormone bất thường không?\n\nĐây là nhánh phân biệt septo-optic dysplasia với isolated absent CSP."
+  },
+  {
+    "type": "basic",
+    "front": "Không di tích vách + không dị tật vỏ não + CÓ dấu hiệu ON hypoplasia/estriol thấp/hormone bất thường - chẩn đoán gì?",
+    "back": "Loạn sản vách-thị (Septo-optic dysplasia - SOD).\n\nSOD = CSP vắng mặt + thiểu sản gai thị/thần kinh thị + có thể thiểu sản tuyến yên - rối loạn hormone, hạ đường huyết sơ sinh, vàng da kéo dài, estriol mẹ thấp."
+  },
+  {
+    "type": "basic",
+    "front": "Không di tích vách + không dị tật vỏ não + KHÔNG dấu hiệu SOD - chẩn đoán cuối cùng là gì?",
+    "back": "Bất sản vách trong suốt đơn thuần (Apparently isolated absent CSP - AIAC).\n\nĐây là chẩn đoán loại trừ sau khi đã đi hết lưu đồ. Tiên lượng thường tốt hơn các nguyên nhân khác, nhưng vẫn cần theo dõi phát triển thần kinh và thị giác sau sinh."
+  },
+  {
+    "type": "basic",
+    "front": "Tóm tắt tất cả các chẩn đoán 'cuối cùng' của lưu đồ bất sản vách trong suốt?",
+    "back": "1. Holoprosencephaly (alobar/semilobar/lobar)\n2. Holoprosencephaly MIH variant\n3. Corpus callosum agenesis\n4. Acquired absent CSP\n5. Partial absence of septum pellucidum\n6. Schizencephaly\n7. Septo-optic dysplasia\n8. Apparently isolated absent CSP"
+  },
+  {
+    "type": "basic",
+    "front": "Dấu hiệu nào là 'gốc' phân nhánh đầu tiên và quan trọng nhất trong lưu đồ absent CSP?",
+    "back": "Hình thái sừng trán não thất bên:\n- Nếu hai sừng trán GIAO TIẾP TRƯỚC (communicate anteriorly) - HPE cổ điển\n- Nếu hai sừng trán TÁCH BIỆT TRƯỚC (separated anteriorly) - đi tiếp trong lưu đồ\n\nĐây là dấu hiệu phân biệt HPE với các nguyên nhân còn lại."
+  },
+  {
+    "type": "basic",
+    "front": "Phân biệt ba chẩn đoán khi CSP vắng + phân chia vỏ não bình thường + có thể chai?",
+    "back": "Cả ba đều có CSP vắng + phân chia bình thường + thể chai có.\n\nKhác nhau ở:\n- Còn di tích vách + giãn não thất nặng - Acquired absent CSP\n- Còn di tích vách + không giãn - Partial absence\n- Không di tích vách + không dị tật vỏ não - tiếp tục xét SOD hay isolated"
+  },
+  {
+    "type": "basic",
+    "front": "Septo-optic dysplasia phân biệt với apparently isolated absent CSP bằng dấu hiệu gì?",
+    "back": "Septo-optic dysplasia CÓ thêm ít nhất một trong các dấu:\n- Thiểu sản thần kinh thị giác (optic nerve hypoplasia)\n- Estriol mẹ giảm trong thai kỳ\n- Bất thường nồng độ hormone (gợi ý thiểu sản tuyến yên)\n\nApparently isolated absent CSP là chẩn đoán LOẠI TRỪ - không có các dấu trên."
+  },
+  {
+    "type": "basic",
+    "front": "Ba nguyên nhân chính gây bất sản vách trong suốt mắc phải (Acquired absent CSP)?",
+    "back": "1. Não úng thủy tắc nghẽn nặng: hẹp cống não, Chiari II, thoát vị não\n2. Tật não nước (hydranencephaly) - mô não bị phá hủy và thay thế bởi dịch\n3. Tổn thương mắc phải: xuất huyết nội sọ nặng, nhiễm trùng bào thai, chấn thương\n\nCơ chế chung: tăng áp lực trong não thất hoặc phá hủy mô - vách trong suốt bị kéo giãn, hoại tử và biến mất."
+  },
+  {
+    "type": "basic",
+    "front": "Trong lưu đồ, mũi tên 'CÓ di tích vách' dẫn đến hai chẩn đoán nào? Cách phân biệt?",
+    "back": "Hai chẩn đoán: Acquired absent CSP và Partial absence of septum pellucidum.\n\nCách phân biệt DUY NHẤT: có giãn não thất nặng không?\n- Có giãn nặng - Acquired (mắc phải, thứ phát)\n- Không giãn nặng - Partial (bán phần, có thể bẩm sinh nhẹ)"
+  },
+  {
+    "type": "basic",
+    "front": "Trong lưu đồ, mũi tên 'KHÔNG di tích vách' dẫn đến ba chẩn đoán nào? Theo thứ tự?",
+    "back": "1. Có dị tật vỏ não? - Schizencephaly\n2. Có dấu SOD (ON hypoplasia, estriol thấp, hormone bất thường)? - Septo-optic dysplasia\n3. Không cả hai - Apparently isolated absent CSP\n\nThứ tự quan trọng vì phải loại trừ schizencephaly và SOD trước khi kết luận isolated."
+  },
+  {
+    "type": "basic",
+    "front": "Mẹo nhớ: 'CSP vắng thì nhìn sừng trán trước' - giải thích?",
+    "back": "Khi phát hiện CSP vắng mặt, việc đầu tiên là nhìn hình thái sừng trán não thất bên trên mặt cắt coronal/axial:\n\n- Hai sừng trán DÍNH NHAU phía trước - đi thẳng đến HPE\n- Hai sừng trán TÁCH RỜI phía trước - loại trừ HPE cổ điển, đi tiếp trong lưu đồ\n\nĐây là bước quyết định hướng chẩn đoán, tiết kiệm thời gian nhất."
+  },
+  {
+    "type": "basic",
+    "front": "Mẹo nhớ: 'Còn vách - hỏi giãn. Mất vách - hỏi vỏ não' - giải thích?",
+    "back": "Sau bước kiểm tra thể chai:\n\nNếu CÒN di tích vách trong suốt - câu hỏi tiếp là 'có giãn não thất nặng không?'\n  - Có: Acquired. Không: Partial.\n\nNếu KHÔNG CÒN di tích vách - câu hỏi tiếp là 'có dị tật vỏ não không?'\n  - Có: Schizencephaly. Không: Xét tiếp SOD hay Isolated."
+  },
+  {
+    "type": "basic",
+    "front": "Ứng dụng lâm sàng: phát hiện CSP vắng lúc 22 tuần trên siêu âm hình thái. Sừng trán tách biệt, phân chia vỏ não bình thường, thể chai có, không di tích vách, không dị tật vỏ não. Bước tiếp theo?",
+    "back": "Cần đánh giá thêm:\n1. Siêu âm hoặc MRI tìm thiểu sản thần kinh thị giác (ON hypoplasia)\n2. Xét nghiệm estriol máu mẹ (trong triple test/quad test)\n3. Đánh giá hormone thai/sơ sinh (tuyến yên)\n\nNếu CÓ bất thường - Septo-optic dysplasia\nNếu KHÔNG - Apparently isolated absent CSP\n\nĐồng thời tư vấn di truyền."
+  },
+  {
+    "type": "basic",
+    "front": "Phân biệt ACC (bất sản thể chai) với HPE qua dấu hiệu gì trong bối cảnh CSP vắng?",
+    "back": "Cả hai đều có CSP vắng + không thấy thể chai.\n\nPhân biệt:\n- ACC: sừng trán TÁCH BIỆT trước, phân chia vỏ não BÌNH THƯỜNG\n- HPE: sừng trán GIAO TIẾP trước (HPE cổ điển) hoặc có non-cleavage (MIH)\n\nDấu phân chia vỏ não là then chốt: ACC vẫn có hai bán cầu tách biệt bình thường."
+  },
+  {
+    "type": "cloze",
+    "text": "Gốc lưu đồ chẩn đoán absent CSP: câu hỏi đầu tiên là sừng trán não thất bên có {{c1::giao tiếp với nhau ở phần trước nhất}} không?",
+    "extra": "Nếu có - HPE. Nếu không - đi tiếp trong lưu đồ."
+  },
+  {
+    "type": "cloze",
+    "text": "Sừng trán giao tiếp trước - {{c1::Holoprosencephaly (lobar/semilobar/alobar)}}, xác nhận bằng {{c2::non-cleavage vỏ não/hạch nền, dị thường mặt, bất sản thể chai}}.",
+    "extra": "Đây là nhánh HPE cổ điển."
+  },
+  {
+    "type": "cloze",
+    "text": "Sừng trán tách biệt trước + non-cleavage - {{c1::HPE biến thể MIH (middle interhemispheric variant)}}.",
+    "extra": "MIH = syntelencephaly. Liềm đại não mất đoạn giữa, thân thể chai vắng."
+  },
+  {
+    "type": "cloze",
+    "text": "Sừng trán tách biệt + phân chia bình thường + không thể chai - {{c1::Bất sản thể chai (ACC)}}.",
+    "extra": "Không có non-cleavage - phân biệt với HPE."
+  },
+  {
+    "type": "cloze",
+    "text": "Còn di tích vách + có giãn não thất nặng - {{c1::Acquired absent CSP (mắc phải)}}. Nguyên nhân: {{c2::não úng thủy tắc nghẽn, hydranencephaly, xuất huyết/nhiễm trùng/chấn thương}}.",
+    "extra": "CSP bị phá hủy thứ phát do tăng áp lực hoặc tổn thương mô não."
+  },
+  {
+    "type": "cloze",
+    "text": "Còn di tích vách + không giãn não thất nặng - {{c1::Partial absence of septum pellucidum}}.",
+    "extra": "Thể bán phần, không hoàn toàn, thường nhẹ hơn."
+  },
+  {
+    "type": "cloze",
+    "text": "Không di tích vách + có dị tật vỏ não - {{c1::Schizencephaly (tật nứt não)}}.",
+    "extra": "Khe nứt từ vỏ não đến não thất, CSP vắng do tổn thương phát triển vỏ não."
+  },
+  {
+    "type": "cloze",
+    "text": "Không di tích vách + không dị tật vỏ não + có ON hypoplasia/estriol thấp - {{c1::Septo-optic dysplasia (loạn sản vách-thị)}}.",
+    "extra": "SOD = CSP vắng + thiểu sản thần kinh thị giác + có thể thiểu sản tuyến yên."
+  },
+  {
+    "type": "cloze",
+    "text": "Không di tích vách + không dị tật vỏ não + không dấu SOD - {{c1::Apparently isolated absent CSP}}.",
+    "extra": "Chẩn đoán loại trừ - đã đi hết lưu đồ, không còn nguyên nhân nào khác."
+  }
+]

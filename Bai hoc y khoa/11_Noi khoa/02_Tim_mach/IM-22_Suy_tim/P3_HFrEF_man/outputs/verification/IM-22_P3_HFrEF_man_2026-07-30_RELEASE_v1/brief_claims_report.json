@@ -1,0 +1,185 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P3_HFrEF_man\\IM-22_P3_HFrEF_man_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+  "parsed_claim_count": 4,
+  "verified_claim_count": 4,
+  "status": "PASS",
+  "claims": [
+    {
+      "claim_id": "P3-C01",
+      "claim_text": "Khởi trị đồng thời các thuốc hạ áp và quản lý suy tim trong hướng dẫn AHA/ACC/HFSA 2022 nhằm cung cấp khuyến nghị cho bác sĩ lâm sàng trong phòng ngừa, chẩn đoán và quản lý người bệnh suy tim (heart failure management recommendations).",
+      "source_id": "35363499",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "The 2022 guideline is intended to provide patient-centric recommendations for clinicians to prevent, diagnose, and manage patients with heart failure.",
+      "line": 53,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.23"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P3-C02",
+      "claim_text": "Quản lý bệnh nhân suy tim có triệu chứng cần áp dụng các khuyến nghị từ hướng dẫn phòng ngừa, chẩn đoán và điều trị suy tim (manage patients with heart failure).",
+      "source_id": "35363499",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "The 2022 guideline is intended to provide patient-centric recommendations for clinicians to prevent, diagnose, and manage patients with heart failure.",
+      "line": 54,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.22"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P3-C03",
+      "claim_text": "Theo dõi sát chức năng thận và Kali máu khi dùng thuốc quản lý suy tim theo khuyến nghị hướng dẫn AHA/ACC/HFSA (manage patients with heart failure).",
+      "source_id": "35363499",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "The 2022 guideline is intended to provide patient-centric recommendations for clinicians to prevent, diagnose, and manage patients with heart failure.",
+      "line": 55,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.31"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "G-P3-SCOPE",
+      "claim_text": "Hướng dẫn AHA/ACC/HFSA 2022 nhằm cung cấp các khuyến nghị lấy người bệnh làm trung tâm cho bác sĩ lâm sàng để phòng ngừa, chẩn đoán và quản lý người bệnh suy tim: patient-centric recommendations for clinicians to prevent, diagnose, and manage patients with heart failure.",
+      "source_id": "35363499",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "The 2022 guideline is intended to provide patient-centric recommendations for clinicians to prevent, diagnose, and manage patients with heart failure.",
+      "line": 56,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.44"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    }
+  ],
+  "bundle_hash": "bc5cdc2bbcc46ca0f19c61955a13268af4c279491b24f8349e111df070bfb414"
+}

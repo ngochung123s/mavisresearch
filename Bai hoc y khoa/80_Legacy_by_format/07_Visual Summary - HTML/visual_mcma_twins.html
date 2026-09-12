@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Song thai MCMA — Quản lý và theo dõi</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<style>
+  body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #f8fafc; }
+  .card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 24px; margin-bottom: 20px; }
+  .badge { display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+  .badge-red { background: #fee2e2; color: #991b1b; }
+  .badge-yellow { background: #fef3c7; color: #92400e; }
+  .badge-green { background: #d1fae5; color: #065f46; }
+  .badge-blue { background: #dbeafe; color: #1e40af; }
+  .badge-purple { background: #ede9fe; color: #5b21b6; }
+  table { border-collapse: collapse; width: 100%; }
+  th { background: #1e40af; color: white; padding: 10px; text-align: left; }
+  td { padding: 10px; border-bottom: 1px solid #e5e7eb; }
+  tr:hover { background: #f9fafb; }
+  .keypoint { background: #fffbeb; border-left: 4px solid #f59e0b; padding: 12px; margin: 8px 0; border-radius: 4px; }
+  .danger { background: #fee2e2; border-left: 4px solid #dc2626; padding: 12px; margin: 8px 0; border-radius: 4px; }
+  .safe { background: #d1fae5; border-left: 4px solid #10b981; padding: 12px; margin: 8px 0; border-radius: 4px; }
+  .mermaid { background: white; padding: 16px; border-radius: 8px; }
+</style>
+</head>
+<body class="p-6">
+<div class="max-w-6xl mx-auto">
+
+  <!-- HEADER -->
+  <div class="card bg-gradient-to-r from-red-50 to-pink-50">
+    <h1 class="text-3xl font-bold text-red-800 mb-2">Song thai MCMA — Quản lý và theo dõi</h1>
+    <p class="text-gray-700">Bài học Fetal Ultrasound ngày 13/06/2026 · Monochorionic Monoamniotic Twin Pregnancy</p>
+    <div class="mt-3 flex gap-2 flex-wrap">
+      <span class="badge badge-red">Nguy cơ rất cao</span>
+      <span class="badge badge-yellow">PMID 30125418</span>
+      <span class="badge badge-green">SOGC 2023</span>
+      <span class="badge badge-blue">PMID 37541734</span>
+      <span class="badge badge-purple">PMID 34563720</span>
+    </div>
+  </div>
+
+  <!-- DEFINITION -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">1. Định nghĩa và phân loại</h2>
+    <p><strong>MCMA (Monochorionic Monoamniotic)</strong> = 2 thai cùng giới, cùng 1 bánh nhau, cùng 1 buồng ối, <strong>không có màng ngăn</strong> giữa 2 thai.</p>
+    <p class="mt-2"><strong>Tỷ lệ:</strong> 1/800–1/1000 thai kỳ · chiếm ~1% song thai tự nhiên · dạng song thai nguy cơ CAO NHẤT</p>
+    
+    <h3 class="text-lg font-semibold mt-4 mb-2">Phân loại song thai theo mức chia sẻ bánh nhau + buồng ối</h3>
+    <table>
+      <thead>
+        <tr><th>Loại</th><th>Bánh nhau</th><th>Buồng ối</th><th>Tần suất</th><th>Mức nguy cơ</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>DCDA</strong></td><td>2 bánh</td><td>2 buồng</td><td>~80%</td><td><span class="badge badge-green">Thấp</span></td></tr>
+        <tr><td><strong>MCDA</strong></td><td>1 bánh</td><td>2 buồng</td><td>~20%</td><td><span class="badge badge-yellow">Trung bình</span></td></tr>
+        <tr style="background: #fef2f2;"><td><strong>MCMA</strong></td><td>1 bánh</td><td>1 buồng</td><td>~1%</td><td><span class="badge badge-red">Rất cao</span></td></tr>
+        <tr><td><strong>Conjoined</strong></td><td>1 bánh</td><td>1 buồng</td><td>1/100.000</td><td><span class="badge badge-red">Cực cao</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- PATHOGENESIS -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">2. Cơ chế hình thành</h2>
+    <p>1 hợp tử → 1 phôi phân chia, thời điểm phân chia quyết định loại song thai:</p>
+    <div class="mermaid">
+flowchart TD
+  A[1 hợp tử] --> B[1 phôi phân chia]
+  B --> C{Ngày phân chia?}
+  C -->|Ngày 0-3 morula| D[DCDA: 2 bánh, 2 buồng]
+  C -->|Ngày 4-8 blastocyst| E[MCDA: 1 bánh, 2 buồng]
+  C -->|Ngày 8-13 sau túi ối| F[MCMA: 1 bánh, 1 buồng]
+  C -->|Sau ngày 13| G[Conjoined twins dính nhau]
+  
+  style F fill:#fee2e2,stroke:#dc2626,stroke-width:3px
+  style D fill:#d1fae5,stroke:#10b981
+  style E fill:#fef3c7,stroke:#f59e0b
+  style G fill:#fecaca,stroke:#991b1b
+    </div>
+  </div>
+
+  <!-- DIAGNOSIS -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">3. Chẩn đoán siêu âm</h2>
+    <h3 class="text-lg font-semibold mb-2">Thời điểm: tuần 8-14</h3>
+    <ul class="list-disc pl-6 space-y-1">
+      <li>1 bánh nhau (1 khối mô nhau đồng nhất, <strong>KHÔNG có "lambda sign"</strong>)</li>
+      <li>1 buồng ối (<strong>KHÔNG thấy màng ngăn</strong> ở mọi mặt cắt)</li>
+      <li>2 thai di động tự do trong cùng 1 buồng ối</li>
+      <li>Có thể thấy dây rốn entanglement ngay từ 3 tháng đầu (PMID 33804073)</li>
+      <li>Luôn cùng giới tính (vì từ cùng 1 hợp tử)</li>
+    </ul>
+    
+    <h3 class="text-lg font-semibold mt-4 mb-2">Phân biệt với MCDA</h3>
+    <div class="grid grid-cols-2 gap-4">
+      <div class="danger">
+        <strong>MCMA:</strong> KHÔNG có màng ngăn ở bất kỳ mặt cắt nào. Doppler không thấy tín hiệu màng.
+      </div>
+      <div class="safe">
+        <strong>MCDA:</strong> Có "T-sign" — màng ngăn vuông góc với thành tử cung (do 2 lớp amnion ép sát).
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPLICATIONS -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">4. Biến chứng</h2>
+    <p class="text-gray-700 mb-3">Theo PMID 30125418 (D'Antonio 2019, meta-analysis &gt;2900 thai MCMA): tử vong chu sinh 11-30%.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <canvas id="complicationChart"></canvas>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Các biến chứng chính</h3>
+        <ul class="space-y-2">
+          <li class="danger"><strong>Cord entanglement:</strong> 50-70% — đặc trưng, nguy hiểm nhất</li>
+          <li class="keypoint"><strong>TTTS:</strong> 10-15% (khó chẩn đoán, không dùng Quintero)</li>
+          <li class="keypoint"><strong>TAPS:</strong> 5-10%</li>
+          <li class="keypoint"><strong>Sẩy thai:</strong> 10-20%</li>
+          <li class="keypoint"><strong>Thai chết lưu &gt;24 tuần:</strong> 4-8% (gấp 10× đơn thai)</li>
+          <li class="keypoint"><strong>Sinh non trung bình:</strong> tuần 32-34</li>
+          <li class="keypoint"><strong>Dị tật bẩm sinh:</strong> 15-25% (tim 5-7%)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- MANAGEMENT FLOWCHART -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">5. Quản lý thai kỳ MCMA — Flowchart</h2>
+    <div class="mermaid">
+flowchart TD
+  S[Phát hiện MCMA tuần 8-14] --> A1[Tư vấn gia đình: nguy cơ 11-30%]
+  A1 --> A2[Sàng lọc quý 1: NIPT/combined test]
+  A2 --> A3[Chuyển trung tâm chuyên sâu]
+  A3 --> B1[16-24 tuần: SA mỗi 2 tuần]
+  B1 --> B2[24-28 tuần: SA mỗi 1-2 tuần]
+  B2 --> B3{Doppler MCA-PSV bất thường?}
+  B3 -->|Có| C1[Nghi TAPS: laser/transfusion]
+  B3 -->|Không| B4[28-32 tuần: SA mỗi tuần]
+  B4 --> B5{Có biến chứng nặng?}
+  B5 -->|Có TTTS/TAPS nặng| C2[Cân nhắc can thiệp sớm]
+  B5 -->|Không| B6[Nhập viện tuần 26-28]
+  B6 --> B7[Monitor tim thai mỗi ngày]
+  B7 --> B8{Corticosteroid &lt; 32 tuần?}
+  B8 -->|Có| B9[Betamethasone 12mg x 2]
+  B8 -->|Không| D1[Mổ lấy thai tuần 32-34]
+  B9 --> D1
+  C2 --> D1
+  D1 --> E1[Mổ chủ động, KHÔNG chờ CDTN]
+  E1 --> E2[NICU sẵn sàng]
+  
+  style S fill:#fee2e2,stroke:#dc2626,stroke-width:3px
+  style D1 fill:#d1fae5,stroke:#10b981,stroke-width:3px
+  style E1 fill:#dbeafe,stroke:#1e40af
+    </div>
+  </div>
+
+  <!-- MONITORING SCHEDULE -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">6. Lịch theo dõi siêu âm (SOGC 2023)</h2>
+    <table>
+      <thead>
+        <tr><th>Tuổi thai</th><th>Tần suất</th><th>Mục đích</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>10-14 tuần</strong></td><td>1 lần</td><td>Chẩn đoán MCMA, đánh giá NT, sàng lọc</td></tr>
+        <tr><td><strong>16-24 tuần</strong></td><td>Mỗi 2 tuần</td><td>Theo dõi cord entanglement, phát hiện TTTS/TAPS sớm</td></tr>
+        <tr><td><strong>24-28 tuần</strong></td><td>Mỗi 1-2 tuần</td><td>Đánh giá Doppler MCA-PSV, cân nặng ước lượng</td></tr>
+        <tr><td><strong>28-32 tuần</strong></td><td>Mỗi 1 tuần</td><td>Sát sao, chuẩn bị can thiệp</td></tr>
+        <tr><td><strong>32-34 tuần</strong></td><td>Mỗi 1 tuần</td><td>Quyết định thời điểm mổ lấy thai</td></tr>
+        <tr style="background: #fef3c7;"><td><strong>Nhập viện</strong></td><td>Tuần 26-28</td><td>Theo dõi sát, monitor tim thai liên tục</td></tr>
+        <tr style="background: #fee2e2;"><td><strong>Sinh</strong></td><td>Tuần 32-34</td><td>Mổ lấy thai chủ động, không chờ chuyển dạ</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- COMPARISON MCDA VS MCMA -->
+  <div class="card">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">7. So sánh MCDA vs MCMA</h2>
+    <table>
+      <thead>
+        <tr><th>Đặc điểm</th><th>MCDA</th><th>MCMA</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Bánh nhau</td><td>1 bánh</td><td>1 bánh</td></tr>
+        <tr><td>Buồng ối</td><td>2 buồng (có màng ngăn)</td><td>1 buồng (không màng)</td></tr>
+        <tr><td>Tỷ lệ</td><td>~20% song thai</td><td>~1% song thai</td></tr>
+        <tr><td>Cord entanglement</td><td>Hiếm gặp</td><td><strong>50-70%</strong></td></tr>
+        <tr><td>TTTS</td><td>15-20%</td><td>10-15% (khó chẩn đoán)</td></tr>
+        <tr><td>TAPS</td><td>13% (sau laser)</td><td>5-10%</td></tr>
+        <tr><td>Tử vong chu sinh</td><td>2-5%</td><td><strong>11-30%</strong></td></tr>
+        <tr><td>Thời điểm sinh</td><td>36-38 tuần</td><td><strong>32-34 tuần</strong></td></tr>
+        <tr><td>Phương pháp sinh</td><td>Có thể sinh thường</td><td><strong>Bắt buộc mổ</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KEY POINTS -->
+  <div class="card bg-yellow-50">
+    <h2 class="text-2xl font-bold text-yellow-800 mb-4">ĐIỂM CẦN NHỚ</h2>
+    <ul class="space-y-2">
+      <li>MCMA: 1 bánh nhau, 1 buồng ối, không màng ngăn — dạng nguy cơ CAO NHẤT</li>
+      <li>Cơ chế: phôi phân chia ngày 8-13 (sau khi tạo túi ối)</li>
+      <li>Biến chứng đặc trưng: cord entanglement 50-70%, tử vong chu sinh 11-30%</li>
+      <li>Siêu âm chẩn đoán tuần 8-14: 1 bánh nhau, 1 buồng ối, không màng ngăn</li>
+      <li>Theo dõi siêu âm mỗi 2 tuần từ tuần 16, Doppler MCA-PSV phát hiện TAPS</li>
+      <li>Nhập viện tuần 26-28, monitor tim thai mỗi ngày</li>
+      <li>Mổ lấy thai chủ động tuần 32-34, KHÔNG chờ chuyển dạ tự nhiên</li>
+      <li>Corticosteroid trước sinh: betamethasone 12mg x 2 liều, 24h trước mổ</li>
+    </ul>
+  </div>
+
+  <!-- REFERENCES -->
+  <div class="card bg-gray-50">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">Tài liệu tham khảo</h2>
+    <ol class="list-decimal pl-6 space-y-1 text-sm">
+      <li>PMID 30125418 (D'Antonio 2019, Ultrasound Obstet Gynecol): Meta-analysis &gt;2900 thai MCMA — tử vong chu sinh, thời điểm sinh, theo dõi</li>
+      <li>PMID 37541734 (Lee HS 2023, JOGC): SOGC Guideline No. 440 — Quản lý song thai 1 bánh nhau</li>
+      <li>PMID 34563720 (Delabaere 2022): Quản lý MCMA — Where, when, how?</li>
+      <li>PMID 33804073 (Panaitescu 2021, Diagnostics): Chẩn đoán sớm cord entanglement bằng siêu âm</li>
+      <li>PMID 37087836 (Oliver 2023): So sánh guideline quốc tế về song thai</li>
+      <li>PMID 34101825 (Svelato 2021): Case report cord entanglement</li>
+      <li>PMID 41810058 (Alagha 2026): Severe cord entanglement case report</li>
+    </ol>
+  </div>
+
+  <div class="text-center text-gray-500 text-sm mt-6 mb-2">
+    — Bài học Fetal Ultrasound ngày 13/06/2026 —
+  </div>
+</div>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'default' });
+
+const ctx = document.getElementById('complicationChart').getContext('2d');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ['Cord entanglement', 'TTTS', 'TAPS', 'Dị tật bẩm sinh', 'Thai chết lưu >24w', 'Sẩy thai', 'Tử vong chu sinh'],
+    datasets: [{
+      label: 'Tỷ lệ (%)',
+      data: [60, 12, 7, 20, 6, 15, 20],
+      backgroundColor: [
+        'rgba(220, 38, 38, 0.8)',
+        'rgba(245, 158, 11, 0.8)',
+        'rgba(245, 158, 11, 0.6)',
+        'rgba(168, 85, 247, 0.8)',
+        'rgba(220, 38, 38, 0.6)',
+        'rgba(220, 38, 38, 0.4)',
+        'rgba(127, 29, 29, 0.9)'
+      ],
+      borderColor: [
+        'rgb(220, 38, 38)',
+        'rgb(245, 158, 11)',
+        'rgb(245, 158, 11)',
+        'rgb(168, 85, 247)',
+        'rgb(220, 38, 38)',
+        'rgb(220, 38, 38)',
+        'rgb(127, 29, 29)'
+      ],
+      borderWidth: 2
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    plugins: {
+      legend: { display: false },
+      title: { display: true, text: 'Tỷ lệ biến chứng MCMA (%)', font: { size: 14, weight: 'bold' } }
+    },
+    scales: {
+      x: { beginAtZero: true, max: 70, ticks: { callback: v => v + '%' } }
+    }
+  }
+});
+</script>
+</body>
+</html>

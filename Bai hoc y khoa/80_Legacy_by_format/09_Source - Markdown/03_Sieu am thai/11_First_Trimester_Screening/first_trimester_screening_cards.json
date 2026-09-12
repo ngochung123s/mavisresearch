@@ -1,0 +1,85 @@
+{
+  "deck_name": "First Trimester Screening - 22/06/2026",
+  "cards": [
+    {
+      "front": "First trimester screening (FTS) thuc hien o tuan thai nao? CRL? 3 muc tieu chinh?",
+      "back": "FTS o 11+0 den 13+6 tuan (CRL 45-84 mm).\n\n3 muc tieu chinh (theo ISUOG 2022 PMID 36594739):\n1. Xac dinh tuoi thai chinh xac (CRL).\n2. Sang loc bat thuong NST (T21, T18, T13) - Combined test hoac NIPT.\n3. Danh gia giai phau thai som (early anatomy) - phat hien ~50% di tat lon."
+    },
+    {
+      "front": "3 lua chon chinh trong sang loc bat thuong NST quy 1?",
+      "back": "1. Combined test (NT + PAPP-A + free beta-hCG): detect ~90% T21, FPR 5%.\n2. NIPT (cfDNA): sens >99% T21, FPR <0.1% (Zhang 2015, n=146,958 PMID 25598039).\n3. Contingent screening: Combined truoc, NIPT cho nhom intermediate risk (1:100-1:1000) - tiet kiem chi phi."
+    },
+    {
+      "front": "Ky thuat do Nuchal Translucency (NT) theo FMF?",
+      "back": "Yeu cau ky thuat (Fetal Medicine Foundation):\n\n- Tuoi thai: 11+0 den 13+6 tuan (CRL 45-84 mm).\n- Mat cat: Sagittal (dung doc giua thai).\n- Hinh anh: Thai chiem 75% man hinh, mat va nguc song song voi probe.\n- Vi tri do: Vung day nhat cua khoang duoi da sau co.\n- Calipers: ON-ON (dat tren duong trang-trong cua da, khong de vao).\n- Phan biet: Da (membranous) khac amnion (o tuoi thai nay chua dinh).\n- So lan do: >= 3 lan, lay gia tri lon nhat."
+    },
+    {
+      "front": "Dien gia NT theo do day?",
+      "back": "Theo FMF:\n\n- < 3.0 mm (hoac < p95 theo CRL): Binh thuong - tiep tuc routine.\n- 3.0-3.4 mm: Borderline - Combined test chi tiet + NIPT can nhac.\n- >= 3.5 mm: Day - Combined test + NIPT + CVS/amniocentesis tu van.\n- >= 6.0 mm: Rat day - nguy co cao aneuploidy + cardiac defect, can diagnostic test + fetal echo 18-22 tuan."
+    },
+    {
+      "front": "NT day co nhung nguy co gi (khong chi aneuploidy)?",
+      "back": "NT day KHONG chi aneuploidy - con lien quan:\n\n1. Cardiac defect: 5-10% thai co NT >= p99 co CHD (ngay ca khi karyotype binh thuong).\n2. Genetic syndromes: Noonan, Smith-Lemli-Opitz, etc.\n3. Fetal anemia: Parvovirus B19, alloimmunization.\n4. NT day + binh thuong karyotype: tang nguy co can theo doi tim mach o 20-22 tuan.\n\n=> NT day = can danh gia nhieu kha nang, khong phai ket luan aneuploidy ngay."
+    },
+    {
+      "front": "Co so sinh hoc: PAPP-A va free beta-hCG trong T21/T18/T13?",
+      "back": "Pattern dac trung:\n\n- T21: PAPP-A GIAM (low MoM) + free beta-hCG TANG (high MoM).\n- T18: PAPP-A GIAM MANH + free beta-hCG GIAM.\n- T13: PAPP-A GIAM + free beta-hCG GIAM.\n\nPAPP-A: glycoprotein do nhau tiet, tang dan theo tuoi thai.\nFree beta-hCG: tiet tu hop bao nuoi (syncytiotrophoblast).\n\n=> Pattern khac nhau giua T21 va T18/T13 giup phan biet som."
+    },
+    {
+      "front": "Cong thuc tinh risk cho Combined test?",
+      "back": "Risk = Base risk (theo tuoi me) x Likelihood ratio (LR)\n      = Base risk x LR(NT) x LR(PAPP-A) x LR(free beta-hCG)\n\nVi du: Me 35 tuoi (base risk T21 = 1:350)\n- NT 2.5 mm (binh thuong) -> LR ~0.5\n- PAPP-A 0.8 MoM (binh thuong) -> LR ~0.7\n- Free beta-hCG 1.5 MoM (cao nhe) -> LR ~1.5\n- Final risk = 1:350 x 0.5 x 0.7 x 1.5 = 1:1111 (giam so voi base risk).\n\nPhan mem: FMF risk calculator, Astraia, ViewPoint."
+    },
+    {
+      "front": "NIPT co che va fetal fraction?",
+      "back": "NIPT (Non-Invasive Prenatal Testing) / cfDNA:\n\n- Tu tuan thu 5+, cell-free DNA cua thai (cfDNA) xuat hien trong mau me.\n- cfDNA tu apoptosis cua trophoblast (nhau thai).\n- Ty le cfDNA thai / tong cfDNA = fetal fraction (thuong 5-15% o 11 tuan).\n- Phan tich cfDNA bang massively parallel sequencing hoac SNP-based methods.\n\nNIPT chi sang loc (screening), KHONG chan doan. Positive NIPT can diagnostic test (CVS/amniocentesis) truoc khi quyet dinh thai ky."
+    },
+    {
+      "front": "Hieu qua NIPT theo Zhang H. 2015 (n=146,958)?",
+      "back": "Meta-analysis BGI clinical data (PMID 25598039, UOG):\n\n- Tong N = 146,958 pregnancies (low + high risk).\n- Sensitivity: T21 99.17%, T18 98.24%, T13 100%.\n- Specificity: T21 99.95%, T18 99.95%, T13 99.96%.\n- KHONG khac biet giua high-risk (n=72,382) va low-risk (n=40,287) populations.\n- PPV (positive predictive value) phu thuoc a priori risk - low-risk co PPV thap hon vi prevalence thap."
+    },
+    {
+      "front": "5 han che cua NIPT?",
+      "back": "5 han che quan trong:\n\n1. CHI SANG LOC, KHONG CHAN DOAN - positive NIPT CAN diagnostic test (CVS/amniocentesis) truoc khi quyet dinh.\n2. Test failure ~2-5%: thai som, fetal fraction thap, maternal obesity.\n3. False positive: confined placental mosaicism (CPM), maternal CNV, vanishing twin, maternal malignancy (hiem).\n4. False negative: fetal fraction < 4%, mosaicism thap, maternal obesity (BMI > 35).\n5. NIPT KHONG phat hien: structural fetal anomalies, NT day, pre-eclampsia screening markers, monochorionic twins co han che."
+    },
+    {
+      "front": "Vi sao NIPT KHONG the thay the sieu am 11-14 tuan?",
+      "back": "Theo Suciu 2021 (PMID 31766927) va Bromley 2024 (PMID 38723258):\n\nNIPT chi phan tich cfDNA trong mau me, KHONG cho thong tin ve:\n\n1. Dating chinh xac (CRL-based).\n2. NT (Nuchal Translucency) - marker quan trong cho aneuploidy + cardiac defect.\n3. Structural fetal anomalies (khoang 50% di tat lon co the phat hien som o 11-14 tuan).\n4. Pre-eclampsia screening (PlGF, uterine artery Doppler).\n5. Multiple gestations va chorionicity.\n6. Nasal bone, tricuspid regurgitation, DV a-wave.\n\n=> NIPT la advanced screening, KHONG thay the sieu am."
+    },
+    {
+      "front": "Contingent screening la gi? Uu diem?",
+      "back": "Contingent screening = Combined test truoc, NIPT cho nhom intermediate risk.\n\nUu diem (theo Suciu 2021 PMID 31766927):\n\n1. Tiet kiem chi phi so voi NIPT cho tat ca (NIPT dat tien hon combined test 5-10 lan).\n2. Van duy tri detection rate cao (>95% voi cut-off toi uu).\n3. Phu hop voi public health system (NHS UK, Dan Mach, Ha Lan, mot so bang Australia).\n4. Cut-off dien hinh: NIPT cho nhom risk 1:100 den 1:1000 (mot so he thong 1:50 den 1:2500).\n\n=> Chien luoc tot cho cac nuoc co nguon luc han che, giam chi phi nhung van bao ve detection rate."
+    },
+    {
+      "front": "First trimester anatomy scan phat hien duoc gi?",
+      "back": "Theo ISUOG 2022 (PMID 36594739) va Bromley 2024 (PMID 38723258):\n\nPhat hien ~50% di tat lon o 11-14 tuan.\n\nCau truc co the danh gia:\n- Nao: skull, midline, choroid plexus, ventricles.\n- Mat: orbits, nasal bone, profile.\n- Tim: 4-chamber view (thuong), outflow tracts (kho hon).\n- Bung: stomach, liver, kidneys, bladder.\n- Cot song: 3 vung (co, nguc, that lung).\n- Tu chi: 3 segments (dui, cang, ban).\n- Day ron: 3 vessels.\n- Placenta, amniotic fluid.\n\nBromley 2024: nen offer cho MOI thai phu khong phu thuoc ket qua aneuploidy screening."
+    },
+    {
+      "front": "5 markers quan trong cho aneuploidy o quy 1?",
+      "back": "5 markers (theo FMF):\n\n1. NT day (>= p95): T21, T18, T13, Turner - tang ca 4 nhom.\n2. Absent/hypoplastic nasal bone: T21 (+++), T18 (++), T13 (+).\n3. Tricuspid regurgitation: T21 (++), T18 (+), T13 (+).\n4. Abnormal DV a-wave: T21 (++), T18 (+++), T13 (+), Turner (+++).\n5. Aberrant right subclavian artery: T21 (+) - 3VT view."
+    },
+    {
+      "front": "Algorithm sang loc aneuploidy 2024? (5 buoc)",
+      "back": "Thai 11-13+6 tuan -> Sieu am 11-14 tuan (ISUOG) -> Danh gia base risk.\n\nBuoc 1: Nguyen co cao (me >= 35, tien su aneuploidy, NT >= 3.5 mm, structural anomaly)?\n-> Tu van diagnostic test (CVS/amniocentesis) + NIPT neu khong muon invasive.\n\nBuoc 2: Nguyen co trung binh (me < 35, khong yeu to nguy co)?\n-> Combined test HOAC NIPT (neu co dieu kien).\n\nBuoc 3: Nguyen co thap (me tre, binh thuong)?\n-> Combined test (NIPT khong khuyen cao vi PPV thap).\n\nBuoc 4: Ket qua Combined:\n- High risk (>= 1:150) -> diagnostic test hoac NIPT.\n- Intermediate (1:151-1:1000) -> NIPT (Contingent).\n- Low risk (< 1:1000) -> Tiep tuc routine, anatomy scan 18-22 tuan."
+    },
+    {
+      "front": "Aneuploidy screening trong twins - khuyen cao?",
+      "back": "Theo Hopkins 2023 (PMID 37438894):\n\n- NIPT first-line cho twins (ca MC va DC) theo ACOG/SMFM 2020.\n- Neu NIPT khong kha thi: Combined test (NT do ca 2 thai) + serum markers.\n- NT cut-off o twins: van dung nguong singleton (chua co consensus rieng).\n- Chorionicity phai xac dinh o 11-14 tuan (lambda sign hoac T-sign).\n- NIPT o DC twins: sens T21 ~95% (thap hon singleton ~99%), T13 ~80%.\n- NIPT o MC twins: tuong duong singleton (vi cung cfDNA).\n- Vanishing twin: NIPT co the false positive do cfDNA thai chet."
+    },
+    {
+      "front": "First trimester biomarkers cho Placenta Accreta Spectrum (PAS)?",
+      "back": "Mortaki 2024 meta-analysis (PMID 39305990, 8 studies, n=1,886):\n\n- PAPP-A: PAS > previa (MD 0.48 MoM; 95% CI 0.23-0.73, p=0.0001).\n- Free beta-hCG: previa > binh thuong (MD 0.27 MoM; 95% CI 0.17-0.38, p<0.00001).\n\nY nghia: First trimester combined test co the giup sang loc som PAS o thai phu co nguy co (tien su mo lay thai + placenta previa).\n\nLuu y: Can nhac PAS neu thai phu co tien su mo lay thai nhieu lan + placenta previa, dac biet o vung sau (posterior) hoac anterior low-lying."
+    },
+    {
+      "front": "NIPT test failure - xu tri the nao?",
+      "back": "NIPT test failure xay ra o ~2-5% thai phu.\n\nNguyen nhan:\n- Thai qua som (< 10 tuan, fetal fraction < 4%).\n- Maternal obesity (BMI > 35, fetal fraction bi pha loang).\n- Heparin/lovenox therapy (anh huong ky thuat sequencing).\n- Maternal malignancy (hien, nhung can luu y).\n- Vanishing twin.\n\nXu tri:\n- KHONG lap lai NIPT (ti le that bai tiep theo cao).\n- Chuyen sang Combined test neu chua lam.\n- Hoac CVS/amniocentesis neu co yeu to nguy co khac.\n- Cho thai lon hon (15-16 tuan) roi xet lai NIPT neu can."
+    },
+    {
+      "front": "NIPT mở rộng (beyond common trisomies) - can nhac gi?",
+      "back": "Mot so lab cung cap:\n\n- Sex chromosome aneuploidy (Turner 45,X, Klinefelter 47,XXY): nhay hon nhung PPV thap.\n- Microdeletion syndromes (22q11.2 = DiGeorge, 1p36, etc.): PPV rat thap.\n- Rare autosomal trisomy (RAT).\n\nCAN NHAC KY truoc khi offer extended NIPT:\n1. PPV thap (1-5% cho microdeletion) -> nhieu false positive.\n2. False positive co the dan den unnecessary invasive procedures.\n3. Counseling truoc va sau test rat quan trong.\n4. ACMG khuyen cao: chi offer sex chromosome aneuploidy screening khi co clinical concern, KHONG routine."
+    },
+    {
+      "front": "Khi nao CRL > 84 mm thi chuyen sang HC de dating?",
+      "back": "Theo ISUOG 2019 (PMID 31169958):\n\n- CRL chinh xac nhat trong dating pregnancy (8-14 tuan).\n- Khi CRL > 84 mm (~14 tuan): chuyen sang dung Head Circumference (HC) de dating.\n- HC co the dung cho dating tu mid-trimester neu khong co first-trimester scan va menstrual history khong reliable.\n- HC + FL co the combine de dating tu mid-trimester.\n- Khi da co early scan chinh xac: KHONG dung scan sau de recalculate gestational age."
+    }
+  ]
+}

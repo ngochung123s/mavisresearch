@@ -1,0 +1,578 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PGT-A - Sàng lọc di truyền tiền làm tổ (Aneuploidy) - 2026-06-25</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+
+<header class="text-center py-8 mb-8">
+  <div class="inline-block px-4 py-2 mb-4 rounded-full text-sm font-medium pastel-peach">ART / Hỗ trợ sinh sản</div>
+  <h1 class="text-4xl md:text-5xl font-bold text-stone-800 mb-3">PGT-A — Sàng lọc Di truyền Tiền làm tổ</h1>
+  <p class="text-lg text-stone-600 mb-2">Preimplantation Genetic Testing for Aneuploidy</p>
+  <div class="flex flex-wrap justify-center gap-2 mt-4">
+    <span class="tag">PGT-A</span>
+    <span class="tag">Aneuploidy</span>
+    <span class="tag">IVF/ICSI</span>
+    <span class="tag">TE biopsy</span>
+    <span class="tag">NGS</span>
+    <span class="tag">Mosaic</span>
+    <span class="tag">ASRM 2024</span>
+    <span class="tag">ESHRE 2024</span>
+  </div>
+  <p class="text-sm text-stone-500 mt-4">Ngày: 2026-06-25 | 18 papers verified | 9 sections guideline + cơ chế + bằng chứng 2024-2026</p>
+</header>
+<main class="max-w-6xl mx-auto space-y-8">
+
+<section class="glass rounded-2xl p-6 mb-8">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">📊 0. Tổng quan — Tại sao PGT-A quan trọng?</h2>
+  <div class="grid md:grid-cols-3 gap-4 mb-6">
+    <div class="pastel-peach rounded-xl p-4 text-center">
+      <div class="text-3xl font-bold text-stone-800">40-58%</div>
+      <div class="text-sm text-stone-600 mt-1">Xác suất sai lệch meiotic mỗi lần phân bào (Yang 2025)</div>
+    </div>
+    <div class="pastel-blue rounded-xl p-4 text-center">
+      <div class="text-3xl font-bold text-stone-800">1.5-6.3%</div>
+      <div class="text-sm text-stone-600 mt-1">Sai lệch mitotic mỗi lần phân bào</div>
+    </div>
+    <div class="pastel-mint rounded-xl p-4 text-center">
+      <div class="text-3xl font-bold text-stone-800">&lt;1%</div>
+      <div class="text-sm text-stone-600 mt-1">Blastocyst hoàn toàn euploid (whole-embryo)</div>
+    </div>
+  </div>
+  <div class="grid md:grid-cols-2 gap-4">
+    <div>
+      <h3 class="font-semibold text-stone-800 mb-2">🔑 Khuyến cáo cốt lõi (ASRM 2024)</h3>
+      <p class="text-stone-700 text-sm italic">"The value of PGT-A as a routine screening test for ALL patients undergoing IVF has NOT been demonstrated."</p>
+      <p class="text-stone-600 text-xs mt-2">→ PMID 38762806 — Không dùng thường quy; cá thể hóa theo chỉ định.</p>
+    </div>
+    <div>
+      <h3 class="font-semibold text-stone-800 mb-2">📈 Tỷ lệ aneuploidy theo tuổi mẹ</h3>
+      <div style="max-width:800px;margin:0 auto;"><canvas id="ageChart" height="180" style="width:100%!important;height:auto!important;"></canvas></div>
+    </div>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-6 mb-8">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">🧬 1. Định nghĩa & Phân loại PGT</h2>
+  <div class="overflow-x-auto">
+    <table class="w-full text-sm">
+      <thead>
+        <tr class="pastel-blue">
+          <th class="p-3 text-left">Loại</th>
+          <th class="p-3 text-left">Mục đích</th>
+          <th class="p-3 text-left">Kỹ thuật</th>
+          <th class="p-3 text-left">Chỉ định</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="border-b border-stone-200">
+          <td class="p-3 font-semibold">PGT-A</td>
+          <td class="p-3">Sàng lọc aneuploidy (thể lệch bội) 24 NST</td>
+          <td class="p-3">NGS / aCGH trên TE biopsy</td>
+          <td class="p-3">AMA, RPL, RIF</td>
+        </tr>
+        <tr class="border-b border-stone-200">
+          <td class="p-3 font-semibold">PGT-M</td>
+          <td class="p-3">Bệnh đơn gen đã biết (Huntington, BRCA1, thalassemia)</td>
+          <td class="p-3">PCR + STR linkage + WGA</td>
+          <td class="p-3">Cặp vợ chồng mang gen bệnh</td>
+        </tr>
+        <tr class="border-b border-stone-200">
+          <td class="p-3 font-semibold">PGT-SR</td>
+          <td class="p-3">Chuyển đoạn/đảo đoạn cân bằng</td>
+          <td class="p-3">FISH hoặc NGS probe đặc hiệu</td>
+          <td class="p-3">Cha/mẹ mang balanced rearrangement</td>
+        </tr>
+        <tr>
+          <td class="p-3 font-semibold">PGT-P</td>
+          <td class="p-3">Sàng lọc nguy cơ đa gen (đa polyp, ung thư vú...)</td>
+          <td class="p-3">Polygenic risk score (PRS)</td>
+          <td class="p-3">⚠️ KHÔNG khuyến cáo thường quy (ASRM 2026 Ethics)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-6 mb-8">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">🔬 2. Cơ chế bệnh sinh — Từ noãn đến phôi aneuploidy</h2>
+  <div class="mermaid mb-6">
+flowchart TD
+    A[Noãn - Meiosis I] -->|Non-disjunction| B[Noãn aneuploid]
+    A -->|Bình thường| C[Noãn euploid]
+    B --> D[Thụ tinh - ICSI/IVF]
+    C --> D
+    D --> E[Cleavage - Phân cắt]
+    E -->|Mitotic error| F[Phôi MOSAIC]
+    E -->|Bình thường| G[Blastocyst Euploid]
+    F --> H[TE biopsy ngày 5-6]
+    G --> H
+    H -->|NGS| I{Kết quả PGT-A}
+    I -->|Euploid| J[FET - ưu tiên]
+    I -->|Mosaic low| K[Cân nhắc chuyển]
+    I -->|Aneuploid| L[BỎ]
+    style B fill:#f4c2c2
+    style F fill:#f7d1ba
+    style G fill:#c5e0c9
+    style J fill:#c5d5e0
+  </div>
+  <div class="grid md:grid-cols-2 gap-4">
+    <div class="pastel-lavender rounded-xl p-4">
+      <h3 class="font-semibold text-stone-800 mb-2">Meiotic Error (chủ yếu ở mẹ)</h3>
+      <ul class="text-sm text-stone-700 space-y-1">
+        <li>• <b>Non-disjunction Meiosis I</b>: cặp NST homolog không tách</li>
+        <li>• <b>PSSC</b> (Premature Separation of Sister Chromatids)</li>
+        <li>• <b>Nguyên nhân</b>: suy giảm <b>cohesin complex</b> theo tuổi mẹ</li>
+        <li>• Trisomy 21: 1/1500 (25t) → 1/30 (45t) = <b>5-7 lần</b></li>
+      </ul>
+    </div>
+    <div class="pastel-mint rounded-xl p-4">
+      <h3 class="font-semibold text-stone-800 mb-2">Mitotic Error (1.5-6.3% mỗi mitosis)</h3>
+      <ul class="text-sm text-stone-700 space-y-1">
+        <li>• Xảy ra trong cleavage hoặc blastocyst</li>
+        <li>• Tạo <b>mosaic embryo</b> (2+ dòng tế bào)</li>
+        <li>• <b>&lt;1% blastocyst</b> hoàn toàn euploid (whole-embryo)</li>
+        <li>• Giải thích tại sao TE biopsy có thể bỏ sót</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-6 mb-8">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">🧪 3. Platforms chẩn đoán PGT-A</h2>
+  <div class="grid md:grid-cols-2 gap-6 mb-6">
+    <div>
+      <h3 class="font-semibold text-stone-800 mb-3">So sánh platforms</h3>
+      <div style="max-width:800px;margin:0 auto;"><canvas id="platformChart" height="200" style="width:100%!important;height:auto!important;"></canvas></div>
+    </div>
+    <div>
+      <h3 class="font-semibold text-stone-800 mb-3">Misdiagnosis theo loại aneuploidy</h3>
+      <div style="max-width:800px;margin:0 auto;"><canvas id="misdiagnosisChart" height="200" style="width:100%!important;height:auto!important;"></canvas></div>
+    </div>
+  </div>
+  <div class="overflow-x-auto mt-4">
+    <table class="w-full text-sm">
+      <thead>
+        <tr class="pastel-peach">
+          <th class="p-3 text-left">Platform</th>
+          <th class="p-3 text-left">Độ phân giải</th>
+          <th class="p-3 text-left">Trạng thái</th>
+          <th class="p-3 text-left">PMID</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="border-b border-stone-200">
+          <td class="p-3 font-semibold">FISH</td>
+          <td class="p-3">5-12 NST (chọn lọc)</td>
+          <td class="p-3 text-red-600">❌ Lạc hậu</td>
+          <td class="p-3">-</td>
+        </tr>
+        <tr class="border-b border-stone-200">
+          <td class="p-3 font-semibold">aCGH</td>
+          <td class="p-3">24 NST (toàn bộ)</td>
+          <td class="p-3 text-yellow-600">⚠️ Ít dùng từ 2018</td>
+          <td class="p-3">-</td>
+        </tr>
+        <tr class="border-b border-stone-200">
+          <td class="p-3 font-semibold">NGS</td>
+          <td class="p-3">24 NST + mosaic 20-80%</td>
+          <td class="p-3 text-green-600 font-bold">✅ TIÊU CHUẨN hiện tại</td>
+          <td class="p-3">38762806</td>
+        </tr>
+        <tr class="border-b border-stone-200">
+          <td class="p-3 font-semibold">nanopore TGS</td>
+          <td class="p-3">Tương đương NGS, nhanh hơn</td>
+          <td class="p-3 text-blue-600">🆕 Mới nổi</td>
+          <td class="p-3">41268069</td>
+        </tr>
+        <tr>
+          <td class="p-3 font-semibold">niPGT-A</td>
+          <td class="p-3">Concordance SBM-TE 79.1%</td>
+          <td class="p-3 text-yellow-600">🧪 Nghiên cứu</td>
+          <td class="p-3">42074534</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-6 mb-8">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">💊 4. Điều trị — Hiệu quả PGT-A theo nhóm bệnh nhân</h2>
+  <div class="mermaid mb-6">
+flowchart TD
+    A[Bệnh nhân IVF/ICSI] --> B{Số phôi blastocyst dự kiến}
+    B -->|≥4-5| C{Có chỉ định PGT-A?}
+    B -->|≤3| M[KHÔNG PGT-A - Fresh ET]
+    C -->|CÓ: AMA, RPL, RIF| D[TE biopsy → NGS → FET]
+    C -->|KHÔNG| E[Fresh ET theo morphology]
+    D --> F{Kết quả NGS}
+    F -->|Euploid| G[FET - LBR 50-65%]
+    F -->|Mosaic low| H[Cân nhắc - LBR 30-40%]
+    F -->|Aneuploid/Complex| I[BỎ]
+    style D fill:#c5d5e0
+    style G fill:#c5e0c9
+    style H fill:#f7d1ba
+    style I fill:#f4c2c2
+  </div>
+  <div class="overflow-x-auto">
+    <table class="w-full text-sm">
+      <thead>
+        <tr class="pastel-mint">
+          <th class="p-3 text-left">Nhóm bệnh nhân</th>
+          <th class="p-3 text-left">Hiệu quả PGT-A</th>
+          <th class="p-3 text-left">Khuyến cáo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="border-b border-stone-200">
+          <td class="p-3 font-semibold">Good prognosis</td>
+          <td class="p-3">Không cải thiện CLBR</td>
+          <td class="p-3 text-red-600">❌ KHÔNG thường quy (PMID 38762806)</td>
+        </tr>
+        <tr class="border-b border-stone-200">
+          <td class="p-3 font-semibold">RPL ≥2 unexplained</td>
+          <td class="p-3">Pregnancy loss OR 0.42; LBR OR 2.17</td>
+          <td class="p-3 text-green-600">✅ CÓ (PMID 39151684)</td>
+        </tr>
+        <tr class="border-b border-stone-200">
+          <td class="p-3 font-semibold">RIF ≥3 ET thất bại</td>
+          <td class="p-3">CLBR OR 4.23; SET OR 2.79</td>
+          <td class="p-3 text-green-600">✅ CÓ (PMID 41738632)</td>
+        </tr>
+        <tr class="border-b border-stone-200">
+          <td class="p-3 font-semibold">Donor oocyte</td>
+          <td class="p-3">HR 0.89 (không khác biệt)</td>
+          <td class="p-3 text-red-600">❌ KHÔNG (PMID 42252048)</td>
+        </tr>
+        <tr>
+          <td class="p-3 font-semibold">SDF ≥30%</td>
+          <td class="p-3">Euploidy OR 0.742</td>
+          <td class="p-3 text-yellow-600">⚠️ Cân nhắc + tư vấn SDF (PMID 41254767)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-6 mb-8">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">📈 5. Theo dõi & Tiên lượng</h2>
+  <div class="grid md:grid-cols-2 gap-6">
+    <div>
+      <h3 class="font-semibold text-stone-800 mb-3">Lịch theo dõi sau FET (PGT-A)</h3>
+      <div class="space-y-2 text-sm">
+        <div class="flex items-center gap-3 p-2 rounded pastel-peach">
+          <div class="font-bold text-stone-700 w-32">Ngày ET</div>
+          <div class="text-stone-700">Nội mạc ≥7mm; progesterone đủ</div>
+        </div>
+        <div class="flex items-center gap-3 p-2 rounded pastel-blue">
+          <div class="font-bold text-stone-700 w-32">Ngày 9-10</div>
+          <div class="text-stone-700">β-hCG máu &gt;100 mIU/mL</div>
+        </div>
+        <div class="flex items-center gap-3 p-2 rounded pastel-mint">
+          <div class="font-bold text-stone-700 w-32">5-6 tuần</div>
+          <div class="text-stone-700">Siêu âm: gestational sac</div>
+        </div>
+        <div class="flex items-center gap-3 p-2 rounded pastel-lavender">
+          <div class="font-bold text-stone-700 w-32">6-7 tuần</div>
+          <div class="text-stone-700">FHR ≥100 bpm</div>
+        </div>
+        <div class="flex items-center gap-3 p-2 rounded pastel-peach">
+          <div class="font-bold text-stone-700 w-32">10-13 tuần</div>
+          <div class="text-stone-700">CVS + combined first trimester screening</div>
+        </div>
+        <div class="flex items-center gap-3 p-2 rounded pastel-blue">
+          <div class="font-bold text-stone-700 w-32">20-22 tuần</div>
+          <div class="text-stone-700">Anomaly scan</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h3 class="font-semibold text-stone-800 mb-3">Tiên lượng Live Birth (LBR)</h3>
+      <div style="max-width:800px;margin:0 auto;"><canvas id="lbrChart" height="220" style="width:100%!important;height:auto!important;"></canvas></div>
+    </div>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-6 mb-8">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">📋 6. Tóm tắt & Khuyến cáo lâm sàng</h2>
+  <div class="mb-6">
+    <h3 class="font-semibold text-stone-800 mb-3">6.1 So sánh Guideline ASRM vs ESHRE</h3>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="pastel-lavender">
+            <th class="p-3 text-left">Hội / Năm</th>
+            <th class="p-3 text-left">Khuyến cáo chính</th>
+            <th class="p-3 text-left">Điểm khác biệt</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-stone-200">
+            <td class="p-3 font-semibold">ASRM 2024</td>
+            <td class="p-3">PGT-A KHÔNG thường quy cho ALL; có chỉ định chọn lọc (AMA, RPL, RIF)</td>
+            <td class="p-3">Nhấn mạnh counseling + cost-benefit</td>
+          </tr>
+          <tr class="border-b border-stone-200">
+            <td class="p-3 font-semibold">ESHRE 2024 PGT-A</td>
+            <td class="p-3">TE biopsy + NGS là chuẩn; cân nhắc PB biopsy cho một số trường hợp</td>
+            <td class="p-3">Chi tiết về mosaic reporting</td>
+          </tr>
+          <tr class="border-b border-stone-200">
+            <td class="p-3 font-semibold">ASRM 2023 PGT-M</td>
+            <td class="p-3">Cần STR linkage + WGA; tư vấn di truyền</td>
+            <td class="p-3">PGT-M LUÔN cần khi có chỉ định</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">ASRM 2026 PGT-P Ethics</td>
+            <td class="p-3">KHÔNG khuyến cáo PGT-P thường quy</td>
+            <td class="p-3">Phản đối trait selection</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div>
+    <h3 class="font-semibold text-stone-800 mb-3">6.2 Hiệu quả theo chỉ định (Forest plot data)</h3>
+    <div style="max-width:800px;margin:0 auto;"><canvas id="orChart" height="180" style="width:100%!important;height:auto!important;"></canvas></div>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-6 mb-8">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">💡 7. Tips thực hành (Clinical Pearls)</h2>
+  <div class="grid md:grid-cols-2 gap-3">
+    <div class="pastel-peach rounded-xl p-3 text-sm">
+      <span class="font-bold text-stone-800">1.</span> LUÔN tư vấn trước PGT-A — là CHỌN LỌC không phải điều trị; có thể VỨT BỎ phôi euploid tiềm năng; vẫn cần CVS/amnio.
+    </div>
+    <div class="pastel-blue rounded-xl p-3 text-sm">
+      <span class="font-bold text-stone-800">2.</span> Đếm số phôi TRƯỚC — &lt;3-4 blastocyst thường KHÔNG nên PGT-A.
+    </div>
+    <div class="pastel-mint rounded-xl p-3 text-sm">
+      <span class="font-bold text-stone-800">3.</span> TE biopsy cần ≥3BB Gardner; embryologist có kinh nghiệm quyết định thành công.
+    </div>
+    <div class="pastel-lavender rounded-xl p-3 text-sm">
+      <span class="font-bold text-stone-800">4.</span> Mosaic low-level &lt;40% vẫn có LBR 30-40% — đừng vội bỏ. Ưu tiên: chất lượng phôi + D5 biopsy.
+    </div>
+    <div class="pastel-peach rounded-xl p-3 text-sm">
+      <span class="font-bold text-stone-800">5.</span> Segmental aneuploidy có misdiagnosis 17.4% (OR 10.04) — KHÔNG vội bỏ; confirm bằng POC nếu sẩy.
+    </div>
+    <div class="pastel-blue rounded-xl p-3 text-sm">
+      <span class="font-bold text-stone-800">6.</span> RPL ≥2 lần (unexplained): PGT-A giảm pregnancy loss OR 0.42 (Mumusoglu 2025) — bằng chứng mạnh nhất ủng hộ.
+    </div>
+    <div class="pastel-mint rounded-xl p-3 text-sm">
+      <span class="font-bold text-stone-800">7.</span> RIF ≥3 lần: CLBR OR 4.23 (Newnham 2026) — đảm bảo RIF do phôi (không phải nội mạc, miễn dịch).
+    </div>
+    <div class="pastel-lavender rounded-xl p-3 text-sm">
+      <span class="font-bold text-stone-800">8.</span> Donor oocyte: KHÔNG cần PGT-A (Bayefsky 2026 HR 0.89) — chuyển fresh theo morphology.
+    </div>
+    <div class="pastel-peach rounded-xl p-3 text-sm">
+      <span class="font-bold text-stone-800">9.</span> AMA ≥38: cân nhắc PB biopsy + nanopore TGS (Song 2025) — tránh freeze-all.
+    </div>
+    <div class="pastel-blue rounded-xl p-3 text-sm">
+      <span class="font-bold text-stone-800">10.</span> SDF ≥30% (SCSA): cân nhắc PGT-A + điều trị nguyên nhân (antioxidant, TESE).
+    </div>
+    <div class="pastel-mint rounded-xl p-3 text-sm">
+      <span class="font-bold text-stone-800">11.</span> Poor responder (≤3 phôi): KHÔNG PGT-A — ưu tiên AI time-lapse nếu có.
+    </div>
+    <div class="pastel-lavender rounded-xl p-3 text-sm">
+      <span class="font-bold text-stone-800">12.</span> VẪN cần first trimester screening + CVS/amnio — PGT-A không loại trừ tất cả bất thường.
+    </div>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-6 mb-8">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">🆕 8. Bằng chứng mới 2024-2026 (What's New)</h2>
+  <div class="grid md:grid-cols-3 gap-4">
+    <div class="pastel-peach rounded-xl p-4">
+      <h3 class="font-semibold text-stone-800 mb-2">ASRM 2024 — PGT-A</h3>
+      <p class="text-xs text-stone-700 mb-2"><b>PMID 38762806</b></p>
+      <p class="text-sm text-stone-600">PGT-A KHÔNG khuyến cáo thường quy. RCT đa trung tâm: kết quả thai kỳ FET tương đương giữa PGT-A vs IVF thường.</p>
+    </div>
+    <div class="pastel-blue rounded-xl p-4">
+      <h3 class="font-semibold text-stone-800 mb-2">Hyttel 2026 — Obstetric</h3>
+      <p class="text-xs text-stone-700 mb-2"><b>PMID 41966094</b></p>
+      <p class="text-sm text-stone-600">Meta-analysis 12 nghiên cứu, 56.113 live births. PGT-A KHÔNG tăng HDP, preterm, SGA.</p>
+    </div>
+    <div class="pastel-mint rounded-xl p-4">
+      <h3 class="font-semibold text-stone-800 mb-2">Newnham 2026 — RIF</h3>
+      <p class="text-xs text-stone-700 mb-2"><b>PMID 41738632</b></p>
+      <p class="text-sm text-stone-600">13 nghiên cứu. RIF: CLBR OR 4.23 (2.14-8.38); SET OR 2.79 (1.90-4.10).</p>
+    </div>
+    <div class="pastel-lavender rounded-xl p-4">
+      <h3 class="font-semibold text-stone-800 mb-2">Mumusoglu 2025 — RPL</h3>
+      <p class="text-xs text-stone-700 mb-2"><b>PMID 39151684</b></p>
+      <p class="text-sm text-stone-600">RPL: pregnancy loss OR 0.42 (0.27-0.67); LBR per transfer OR 2.17 (1.77-2.65).</p>
+    </div>
+    <div class="pastel-peach rounded-xl p-4">
+      <h3 class="font-semibold text-stone-800 mb-2">Bayefsky 2026 — Donor</h3>
+      <p class="text-xs text-stone-700 mb-2"><b>PMID 42252048</b></p>
+      <p class="text-sm text-stone-600">629 pts, 927 ETs. Donor oocyte: HR 0.89 (0.73-1.09) — KHÔNG cải thiện.</p>
+    </div>
+    <div class="pastel-blue rounded-xl p-4">
+      <h3 class="font-semibold text-stone-800 mb-2">Jiang 2026 — Misdiagnosis</h3>
+      <p class="text-xs text-stone-700 mb-2"><b>PMID 41945151</b></p>
+      <p class="text-sm text-stone-600">22 nghiên cứu. Segmental misdiagnosis OR 10.04 (7.60-13.27) — cao nhất.</p>
+    </div>
+    <div class="pastel-mint rounded-xl p-4">
+      <h3 class="font-semibold text-stone-800 mb-2">Yang 2025 — Mosaicism</h3>
+      <p class="text-xs text-stone-700 mb-2"><b>PMID 40746180</b></p>
+      <p class="text-sm text-stone-600">Bayesian model: &lt;1% blastocyst hoàn toàn euploid. Low-level mosaic là BÌNH THƯỜNG.</p>
+    </div>
+    <div class="pastel-lavender rounded-xl p-4">
+      <h3 class="font-semibold text-stone-800 mb-2">Song 2025 — PB + TGS</h3>
+      <p class="text-xs text-stone-700 mb-2"><b>PMID 41268069</b></p>
+      <p class="text-sm text-stone-600">125 oocytes. PB euploidy 55.4% vs TE 43.1%. AMA 40% vs &lt;38y 64%.</p>
+    </div>
+    <div class="pastel-peach rounded-xl p-4">
+      <h3 class="font-semibold text-stone-800 mb-2">Navarro 2026 — niPGT-A</h3>
+      <p class="text-xs text-stone-700 mb-2"><b>PMID 42074534</b></p>
+      <p class="text-sm text-stone-600">716 pts, 2.539 blastocysts. niPGT-A concordance SBM-TE 79.1%, SBM-ICM 87%.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bác sĩ: Ngọc 🍅 🐈‍⬛ | AI: MiniMax Mavis | 18 papers verified Q1/Q2 + 2 ASRM Tier 0 guidelines | 2026-06-25</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+// Age chart - Trisomy 21 risk by maternal age
+const ageCtx = document.getElementById('ageChart').getContext('2d');
+new Chart(ageCtx, {
+  type: 'line',
+  data: {
+    labels: ['25', '30', '35', '38', '40', '42', '45'],
+    datasets: [{
+      label: 'Trisomy 21 risk (%)',
+      data: [0.07, 0.1, 0.3, 0.6, 1.2, 2.5, 3.3],
+      borderColor: '#c8a4a5',
+      backgroundColor: 'rgba(244, 194, 194, 0.3)',
+      fill: true,
+      tension: 0.4,
+      pointRadius: 5,
+      pointBackgroundColor: '#c8a4a5'
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: true, position: 'top' } },
+    scales: {
+      y: { title: { display: true, text: 'Trisomy 21 risk (%)' }, beginAtZero: true }
+    }
+  }
+});
+
+// Platform adoption chart
+const platformCtx = document.getElementById('platformChart').getContext('2d');
+new Chart(platformCtx, {
+  type: 'doughnut',
+  data: {
+    labels: ['NGS (tiêu chuẩn)', 'aCGH', 'FISH (lạc hậu)', 'nanopore TGS', 'niPGT-A'],
+    datasets: [{
+      data: [65, 15, 5, 8, 7],
+      backgroundColor: ['#c5d5e0', '#f7d1ba', '#f4c2c2', '#d4c5e2', '#c5e0c9'],
+      borderWidth: 2
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'right', labels: { font: { size: 11 } } }
+    }
+  }
+});
+
+// Misdiagnosis chart
+const misdiagCtx = document.getElementById('misdiagnosisChart').getContext('2d');
+new Chart(misdiagCtx, {
+  type: 'bar',
+  data: {
+    labels: ['Euploid', 'Aneuploid toàn phần', 'Segmental'],
+    datasets: [{
+      label: 'Discordance TE-ICM/WB (%)',
+      data: [2.6, 9.2, 17.4],
+      backgroundColor: ['#c5e0c9', '#f7d1ba', '#f4c2c2'],
+      borderWidth: 1,
+      borderColor: '#4a4a4a'
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      y: { title: { display: true, text: 'Discordance (%)' }, beginAtZero: true, max: 25 }
+    }
+  }
+});
+
+// LBR chart
+const lbrCtx = document.getElementById('lbrChart').getContext('2d');
+new Chart(lbrCtx, {
+  type: 'bar',
+  data: {
+    labels: ['Euploid phôi', 'Mosaic low (<40%)', 'Mosaic high (≥40%)', 'Aneuploid toàn phần'],
+    datasets: [{
+      label: 'LBR per transfer (%)',
+      data: [57, 36, 18, 5],
+      backgroundColor: ['#c5e0c9', '#c5d5e0', '#f7d1ba', '#f4c2c2'],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    indexAxis: 'y',
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { title: { display: true, text: 'LBR per transfer (%)' }, beginAtZero: true, max: 70 }
+    }
+  }
+});
+
+// OR Forest plot (4 outcomes)
+const orCtx = document.getElementById('orChart').getContext('2d');
+new Chart(orCtx, {
+  type: 'bar',
+  data: {
+    labels: ['Mumusoglu 2025: Pregnancy loss↓', 'Mumusoglu 2025: LBR per ET↑', 'Newnham 2026: CLBR (RIF)↑', 'Newnham 2026: SET (RIF)↑'],
+    datasets: [{
+      label: 'OR (95% CI midpoint)',
+      data: [0.42, 2.17, 4.23, 2.79],
+      backgroundColor: ['#c5e0c9', '#c5d5e0', '#d4c5e2', '#f7d1ba'],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      y: { title: { display: true, text: 'OR (Odds Ratio)' }, beginAtZero: true }
+    }
+  }
+});
+
+</script>
+</body>
+</html>

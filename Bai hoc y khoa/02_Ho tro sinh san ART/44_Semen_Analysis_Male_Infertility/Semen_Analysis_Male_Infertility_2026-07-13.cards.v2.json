@@ -1,0 +1,227 @@
+[
+  {
+    "type": "basic",
+    "front": "Tinh dịch đồ đo gì và không đo gì trong đánh giá vô sinh nam?",
+    "back": "<b>Đo:</b> đặc điểm của một mẫu xuất tinh tại một thời điểm: thể tích, số lượng, di động, sống/chết, hình dạng, tế bào tròn/bạch cầu và dấu hiệu gợi ý tắc/viêm.<br><br><b>Không đo:</b> khả năng sinh sản tuyệt đối của người nam và không tự quyết định IUI/IVF/ICSI. Phải đọc trong bối cảnh cả cặp đôi.",
+    "extra": "WHO 2021; AUA/ASRM 2024; EAU 2026"
+  },
+  {
+    "type": "cloze",
+    "text": "WHO 2021 lower fifth-centile reference values là {{c1::mốc phân bố tham chiếu}}, không phải {{c1::cutoff fertile/infertile}}.",
+    "extra": "Critical miss: không được gọi các mốc WHO là ranh giới chẩn đoán vô sinh."
+  },
+  {
+    "type": "cloze",
+    "text": "Theo WHO, mẫu tinh dịch thường quy nên lấy sau {{c1::2-7 ngày}} kiêng xuất tinh.",
+    "extra": "Mục tiêu là chuẩn hóa điều kiện so sánh giữa các mẫu."
+  },
+  {
+    "type": "cloze",
+    "text": "WHO khuyến nghị bắt đầu phân tích mẫu lý tưởng trong {{c1::30 phút}} và muộn nhất trong {{c1::60 phút}} sau lấy mẫu.",
+    "extra": "Delay có thể làm giảm motility giả."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao phải hỏi bệnh nhân có lấy đủ toàn bộ mẫu tinh dịch không?",
+    "back": "Phần đầu của mẫu thường giàu tinh trùng. Nếu bị rơi/mất phần đầu, volume và count có thể thấp giả. Báo cáo phải ghi giới hạn và thường nên lặp mẫu đúng chuẩn trước khi kết luận bệnh lý.",
+    "extra": "Preanalytics first."
+  },
+  {
+    "type": "basic",
+    "front": "Các dữ liệu tiền phân tích tối thiểu cần ghi trong báo cáo tinh dịch đồ?",
+    "back": "Kiêng xuất tinh bao lâu; lấy mẫu tại labo hay tại nhà; giờ lấy mẫu; giờ bắt đầu phân tích; mẫu có lấy đủ không; dụng cụ/lubricant có phù hợp không; bệnh/sốt/thuốc gần đây nếu ảnh hưởng diễn giải.",
+    "extra": "Thiếu tiền phân tích làm kết quả khó tin."
+  },
+  {
+    "type": "cloze",
+    "text": "WHO 2021 lower 5th centile cho semen volume là {{c1::1.4 mL}}.",
+    "extra": "Không dùng như cutoff fertile/infertile."
+  },
+  {
+    "type": "cloze",
+    "text": "WHO 2021 lower 5th centile cho sperm concentration là {{c1::16 triệu/mL}}.",
+    "extra": "Đọc cùng volume để tính total sperm number."
+  },
+  {
+    "type": "cloze",
+    "text": "WHO 2021 lower 5th centile cho total sperm number là {{c1::39 triệu/ejaculate}}.",
+    "extra": "Total sperm number = concentration x volume."
+  },
+  {
+    "type": "cloze",
+    "text": "WHO 2021 lower 5th centile cho total motility là {{c1::42%}}, progressive motility là {{c1::30%}}.",
+    "extra": "Progressive motility quan trọng hơn chỉ 'có động đậy'."
+  },
+  {
+    "type": "cloze",
+    "text": "WHO 2021 lower 5th centile cho vitality là {{c1::54%}} và normal morphology là {{c1::4%}}.",
+    "extra": "Morphology đơn độc không tự động là chỉ định ICSI."
+  },
+  {
+    "type": "basic",
+    "front": "Concentration khác total sperm number thế nào?",
+    "back": "Concentration là số tinh trùng trên 1 mL. Total sperm number là tổng số tinh trùng trong toàn bộ mẫu, bằng concentration x volume. Hai bệnh nhân cùng concentration có thể có total count rất khác nhau nếu volume khác nhau.",
+    "extra": "Common mistake: chỉ nhìn concentration."
+  },
+  {
+    "type": "basic",
+    "front": "Progressive motility khác total motility thế nào?",
+    "back": "Progressive motility là tinh trùng di chuyển tiến tới. Total motility gồm progressive + non-progressive. Trong ART/IUI, progressive motility thường có ý nghĩa thực hành hơn việc tinh trùng chỉ rung/động tại chỗ.",
+    "extra": "Motility categories."
+  },
+  {
+    "type": "basic",
+    "front": "Khi motility thấp, vì sao cần vitality?",
+    "back": "Vitality phân biệt tinh trùng bất động nhưng còn sống với tinh trùng chết. Nếu motility thấp mà vitality còn tốt, cần nghĩ đến vấn đề vận động/tiền phân tích; nếu vitality thấp thật, nghĩ necrozoospermia hoặc tổn thương nặng hơn.",
+    "extra": "WHO basic/extended examination."
+  },
+  {
+    "type": "basic",
+    "front": "Round cells khác leukocytospermia thế nào?",
+    "back": "Round cells là nhóm hình thái gồm bạch cầu và tế bào mầm non. Không được gọi leukocytospermia nếu chưa xác nhận đó là bạch cầu bằng phương pháp phù hợp hoặc bối cảnh lâm sàng.",
+    "extra": "Tránh điều trị nhiễm trùng quá mức."
+  },
+  {
+    "type": "basic",
+    "front": "Agglutination khác aggregation thế nào?",
+    "back": "Agglutination là tinh trùng dính với tinh trùng, có thể gợi ý kháng thể trong bối cảnh phù hợp. Aggregation là tinh trùng kẹt với nhầy, mảnh vụn hoặc tế bào khác. Hai thuật ngữ không thay thế nhau.",
+    "extra": "ASA testing không routine ban đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Azoospermia phải được xác nhận ra sao trước khi phân nhánh OA/NOA?",
+    "back": "Phải kiểm tra tiền phân tích, ly tâm mẫu, tái huyền phù pellet và soi tìm rare sperm. Nếu không thấy tinh trùng, lặp tinh dịch đồ. AUA/ASRM nêu lặp sau ít nhất 1-2 tuần; EAU mô tả ly tâm 3.000g trong 15 phút và xác nhận bằng hai mẫu sau ly tâm.",
+    "extra": "Critical miss nếu bỏ qua pellet/repeat."
+  },
+  {
+    "type": "cloze",
+    "text": "EAU mô tả xác nhận azoospermia bằng ly tâm khoảng {{c1::3.000g trong 15 phút}} và soi pellet.",
+    "extra": "Dùng để phân biệt absolute azoospermia với cryptozoospermia."
+  },
+  {
+    "type": "basic",
+    "front": "Low-volume acidic azoospermia gợi ý gì và phải loại trừ gì trước?",
+    "back": "Gợi ý thiếu đóng góp túi tinh hoặc tắc đoạn xa như CBAVD/EOD, nhưng trước hết phải loại trừ lấy mẫu thiếu, mất phần đầu và xuất tinh ngược. Sau đó mới khám ống dẫn tinh, xét CFTR nếu nghi CBAVD và cân nhắc TRUS/siêu âm theo bài 42.",
+    "extra": "Pattern-based interpretation."
+  },
+  {
+    "type": "basic",
+    "front": "Normal-volume azoospermia + tinh hoàn nhỏ + FSH cao gợi ý gì?",
+    "back": "Gợi ý non-obstructive azoospermia / suy sinh tinh. Cần đánh giá nội tiết, di truyền, tư vấn tiên lượng và cân nhắc micro-TESE + ICSI nếu phù hợp.",
+    "extra": "Link to NOA workup."
+  },
+  {
+    "type": "basic",
+    "front": "Normal-volume azoospermia + tinh hoàn bình thường + FSH bình thường gợi ý gì?",
+    "back": "Gợi ý obstructive azoospermia hơn, đặc biệt nếu có giãn mào tinh, tiền sử thắt ống dẫn tinh/viêm/phẫu thuật hoặc bất thường ống dẫn tinh. Cần khám, siêu âm bìu/TRUS theo pattern và lập kế hoạch PESA/MESA/TESE + ICSI nếu cần.",
+    "extra": "Không kết luận khi chưa pellet/repeat."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào cân nhắc Y-chromosome microdeletion testing theo AUA/ASRM 2024?",
+    "back": "Ở primary infertility kèm azoospermia hoặc sperm concentration ≤1 triệu/mL khi có FSH tăng, teo tinh hoàn hoặc chẩn đoán impaired sperm production.",
+    "extra": "PMID 39145501; Kohn PMID 31400948."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao severe oligozoospermia/cryptozoospermia cần nghĩ đến trữ tinh trùng?",
+    "back": "Vì mẫu sau có thể không còn tinh trùng hoặc không đủ cho ngày chọc hút noãn. Nếu đang chuẩn bị ART, trữ được mẫu có tinh trùng giúp giảm nguy cơ hủy chu kỳ hoặc cần retrieval khẩn cấp.",
+    "extra": "ART planning."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao isolated teratozoospermia không nên tự động dẫn tới ICSI?",
+    "back": "Morphology có biến thiên theo phương pháp/người đọc, không đại diện trực tiếp cho DNA hoặc khả năng thụ tinh tuyệt đối. Phải xem repeat, các thông số khác, tiền sử fertilization failure, tuổi/noãn và chính sách labo.",
+    "extra": "Common mistake."
+  },
+  {
+    "type": "basic",
+    "front": "Sperm DNA fragmentation có vai trò gì và giới hạn gì?",
+    "back": "SDF đo tổn thương DNA/chromatin theo assay. Có thể cân nhắc trong bối cảnh chọn lọc như RPL, thất bại ART hoặc unexplained infertility tùy guideline/labo, nhưng không là xét nghiệm routine ban đầu. Ngưỡng phụ thuộc assay và labo phải validate.",
+    "extra": "WHO 2021; AUA/ASRM 2024."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao không dùng ROS/oxidative stress như xét nghiệm routine trong bài này?",
+    "back": "Deep-research chưa xác minh đủ guideline/paper để đưa ROS vào thuật toán thường quy. Có thể nhắc là xét nghiệm chọn lọc hoặc nghiên cứu ở trung tâm có chuẩn, nhưng không dạy như screening ban đầu.",
+    "extra": "Evidence caveat."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào semen culture hợp lý hơn là làm cho mọi SA bất thường?",
+    "back": "Khi có triệu chứng nhiễm trùng, bạch cầu được xác nhận, nguy cơ STI/viêm tuyến phụ hoặc bối cảnh lâm sàng phù hợp. Không culture mọi mẫu bất thường chỉ vì count/motility thấp.",
+    "extra": "Avoid overtesting."
+  },
+  {
+    "type": "basic",
+    "front": "Seminal biochemistry như fructose, zinc, alpha-glucosidase dùng để trả lời câu hỏi gì?",
+    "back": "Dùng khi nghi vấn tuyến phụ hoặc tắc nghẽn: fructose/túi tinh, zinc/tuyến tiền liệt, alpha-glucosidase/mào tinh. Không thay thế khám, hormone, genetics hoặc imaging khi cần.",
+    "extra": "Selective use."
+  },
+  {
+    "type": "basic",
+    "front": "TMSC hữu ích ra sao và vì sao không dạy một cutoff cứng cho IUI/IVF/ICSI?",
+    "back": "TMSC kết hợp volume, concentration và motility nên gần với số tinh trùng di động có thể dùng hơn concentration đơn độc. Nhưng ngưỡng quyết định phụ thuộc nghiên cứu, labo và toàn cảnh cặp đôi; deep-research chưa xác minh đủ một cutoff duy nhất để dạy như luật.",
+    "extra": "Use as counseling/planning, not hard rule."
+  },
+  {
+    "type": "basic",
+    "front": "Quyết định natural conception, IUI, IVF hay ICSI cần xét những yếu tố nào ngoài tinh dịch đồ?",
+    "back": "Tuổi và dự trữ buồng trứng của người nữ, thời gian vô sinh, vòi tử cung, tử cung, số lần thất bại trước, số lượng thông số SA bất thường, khả năng repeat/trữ tinh trùng, năng lực labo và mong muốn của cặp đôi.",
+    "extra": "Couple-level decision."
+  },
+  {
+    "type": "basic",
+    "front": "Case: volume 0,7 mL, concentration thấp, bệnh nhân báo phần đầu mẫu rơi ra ngoài. Xử trí diễn giải?",
+    "back": "Không kết luận hypospermia/oligozoospermia thật. Ghi giới hạn mẫu và lặp lại đúng chuẩn vì phần đầu mẫu giàu tinh trùng; mất phần đầu có thể làm volume và count thấp giả.",
+    "extra": "Clinical mini-case."
+  },
+  {
+    "type": "basic",
+    "front": "Case: mẫu lấy tại nhà đến labo sau 2 giờ, trời lạnh, motility thấp. Nghĩ gì?",
+    "back": "Nghĩ asthenozoospermia giả do delay/nhiệt độ vận chuyển. Cần lặp mẫu với điều kiện đúng trước khi quy kết bệnh lý di động tinh trùng.",
+    "extra": "Preanalytics case."
+  },
+  {
+    "type": "basic",
+    "front": "Case: azoospermia, volume 0,6 mL, pH acid, mẫu lấy đủ. Bước tiếp theo?",
+    "back": "Loại trừ xuất tinh ngược, khám ống dẫn tinh, nghĩ CBAVD/EOD, xét CFTR nếu nghi CBAVD và cân nhắc siêu âm bìu/TRUS theo bài 42. Không bỏ qua pellet/repeat nếu chưa xác nhận azoospermia.",
+    "extra": "Low-volume acidic azoospermia."
+  },
+  {
+    "type": "basic",
+    "front": "Case: azoospermia đã repeat/pellet, volume bình thường, tinh hoàn nhỏ, FSH cao. Tư vấn hướng nào?",
+    "back": "Hướng NOA: đánh giá nội tiết và di truyền, tư vấn tiên lượng, cân nhắc micro-TESE + ICSI nếu phù hợp; cũng cần tư vấn khả năng không tìm được tinh trùng và các lựa chọn thay thế.",
+    "extra": "NOA pattern."
+  },
+  {
+    "type": "basic",
+    "front": "Các mục tối thiểu trong một report tinh dịch đồ tốt?",
+    "back": "Tiền phân tích; đại thể; concentration và total number; motility breakdown; vitality khi cần; morphology và phương pháp; round cells/leukocyte confirmation; comments về giới hạn mẫu và khuyến nghị repeat/clinical correlation.",
+    "extra": "Report template."
+  },
+  {
+    "type": "basic",
+    "front": "Critical miss: nếu học viên nói WHO 2021 concentration 16 triệu/mL là cutoff vô sinh thì sửa thế nào?",
+    "back": "Sửa ngay: 16 triệu/mL là lower 5th centile của phân bố tham chiếu, không phải ranh giới fertile/infertile. Dưới mốc tăng xác suất male factor nhưng không vô sinh tuyệt đối; trên mốc không bảo đảm có thai.",
+    "extra": "Critical miss."
+  },
+  {
+    "type": "basic",
+    "front": "Critical miss: nếu chẩn đoán azoospermia chỉ từ một mẫu không thấy tinh trùng trên lam ban đầu thì sai ở đâu?",
+    "back": "Sai vì chưa xác nhận bằng ly tâm/pellet và repeat. Có thể bỏ sót cryptozoospermia hoặc mẫu lỗi tiền phân tích, dẫn tới workup/ART sai.",
+    "extra": "Critical miss."
+  },
+  {
+    "type": "basic",
+    "front": "Critical miss: vì sao không dùng SDF như screening thường quy ban đầu?",
+    "back": "AUA/ASRM không khuyến cáo SDF trong initial infertility evaluation; WHO nhấn mạnh threshold phụ thuộc assay và labo phải validate. Test chỉ có ý nghĩa khi có câu hỏi lâm sàng cụ thể và kết quả đổi quản lý.",
+    "extra": "Critical miss."
+  },
+  {
+    "type": "basic",
+    "front": "Khi kết quả tinh dịch đồ gợi ý giải phẫu/tắc nghẽn, bài nào trong thư viện nên đọc tiếp?",
+    "back": "Bài 42: Scrotal Ultrasound Male Infertility, vì bài đó dạy siêu âm bìu/TRUS, varicocele, CBAVD, EOD và phân biệt obstructive vs non-obstructive azoospermia.",
+    "extra": "Cross-link to lesson 42."
+  }
+]

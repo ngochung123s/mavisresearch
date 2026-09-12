@@ -1,0 +1,102 @@
+[
+  {
+    "type": "basic",
+    "front": "Phân biệt 3 cửa sổ: routine 11–14w, early anomaly 13–16w, midtrimester 18–22w?",
+    "back": "<b>11–14w (A2):</b> dating, viability, số thai/chorionicity, sàng lọc lệch bội (NT ± markers), giải phẫu theo protocol ISUOG — không phải early comprehensive anatomy cho mọi thai.<br><b>13–16w early anomaly / ECFAS (A3):</b> khảo sát giải phẫu sớm <b>có chỉ định</b> (nguy cơ cao hoặc midtrimester dự kiến khó kỹ thuật).<br><b>18–22w (B1):</b> hình thái chuẩn toàn diện — <b>không bị hủy</b> vì early scan bình thường."
+  },
+  {
+    "type": "basic",
+    "front": "Chỉ định chính của early comprehensive fetal anatomy (ECFAS / early anomaly scan)?",
+    "back": "1. Thai <b>nguy cơ cao</b> dị tật cấu trúc (tiền sử dị tật, bệnh nền/teratogen, marker bất thường…).<br>2. Midtrimester <b>dự kiến khó kỹ thuật</b> (béo phì nặng, sẹo bụng, u xơ nhiều, tư thế khó lặp lại).<br>3. Cần quyết định/tư vấn sớm (ART phức tạp, song thai, bệnh lý mẹ nặng).<br><b>Không</b> thay thế screening hàng loạt 18–22w cho mọi thai low-risk."
+  },
+  {
+    "type": "cloze",
+    "text": "Early anomaly scan bình thường {{c1::không}} thay thế siêu âm hình thái {{c1::18–22 tuần}}. Incomplete exam → {{c1::ghi nhận + rescan/chuyển tuyến}}, không trấn an đã loại trừ dị tật.",
+    "extra": "Câu chốt pháp lý-lâm sàng: early normal ≠ all anomalies excluded."
+  },
+  {
+    "type": "basic",
+    "front": "Protocol kỹ thuật TA → TV trong early anatomy scan?",
+    "back": "1. Bắt đầu TA systematic theo checklist.<br>2. Cấu trúc then chốt chưa thấy → đổi tư thế mẹ, bàng quang vừa, góc đầu dò.<br>3. Vẫn incomplete và không chống chỉ định → <b>TVS</b>.<br>4. Sau TVS vẫn incomplete → ghi INCOMPLETE + hẹn rescan sớm / CĐTS.<br>5. Không ghi “giải phẫu sớm bình thường” khi chưa thấy đủ cấu trúc then chốt."
+  },
+  {
+    "type": "basic",
+    "front": "Checklist tối thiểu early anatomy 13–16w theo hệ?",
+    "back": "– Tổng quan: số thai, màng, tim thai, CRL, nhau/ối thô.<br>– Đầu/não/sọ: vòm sọ ossified, falx/midline, pattern não thất thô.<br>– Mặt/cổ thô; cột sống dọc ± da che phủ.<br>– Ngực/cơ hoành; situs + 4CH (± outflow khi feasible).<br>– Thành bụng/cord insertion, dạ dày, bàng quang, thận thô.<br>– 4 chi 3 đoạn, bàn tay/chân thô.<br>– Nhau/màng/cord insertion sớm."
+  },
+  {
+    "type": "basic",
+    "front": "Các red flag dị tật lớn cần nhận diện trên early anomaly scan?",
+    "back": "Acrania/anencephaly sequence; alobar holoprosencephaly; encephalocele/open NTD lớn; body-stalk / limb–body-wall complex; ectopia cordis / Cantrell; omphalocele/gastroschisis lớn; pattern CHD nặng/phức tạp (1 thất rõ, trục lệch nặng, hydrops, ectopia).<br>→ CĐTS ± di truyền; không false reassurance."
+  },
+  {
+    "type": "basic",
+    "front": "Karim 2017: detection rate siêu âm trước 14 tuần (số đã verify)?",
+    "back": "Major anomalies, low-risk/unselected: <b>46.10%</b> (95% CI 36.88–55.46%; 19 NC, 115 731 thai).<br>All anomalies, low-risk: <b>32.35%</b> (95% CI 22.45–43.12%).<br>All anomalies, high-risk: <b>61.18%</b> (95% CI 37.71–82.19%).<br>Protocol checklist chuẩn cải thiện độ nhạy (p &lt; 0.0001).<br>PMID 27546497."
+  },
+  {
+    "type": "cloze",
+    "text": "Guideline khung: ISUOG 11–14w PMID {{c1::36594739}}; SOGC ECFAS No. 352 PMID {{c1::29197487}}; AIUM detailed 12+0–13+6 PMID {{c1::32852128}}; midtrimester ISUOG PMID {{c1::20842655}}.",
+    "extra": "Không có guideline ISUOG standalone 13–16w; triangulate SOGC + AIUM + ISUOG 11–14 + 18–22."
+  },
+  {
+    "type": "basic",
+    "front": "Case 14 tuần: BMI cao, TA không thấy 4CH/thận; TV thấy sọ, midline, thành bụng, bàng quang, 4 chi; tim vẫn mờ. Xử trí?",
+    "back": "Ghi <b>incomplete early anatomy</b> (tim/thận chưa đủ).<br>Hẹn rescan sớm hoặc chuyển CĐTS tùy nguy cơ nền.<br><b>Giữ</b> hẹn hình thái 18–22w.<br><b>Không</b> ghi “đã loại trừ dị tật” / không trấn an hoàn toàn."
+  },
+  {
+    "type": "basic",
+    "front": "Case 15 tuần: mất vòm sọ ossified, mô não tiếp xúc nước ối. Chẩn đoán hướng và bước tiếp?",
+    "back": "Nghi <b>acrania / anencephaly sequence</b>.<br>Lưu ảnh chuẩn → chuyển/hội chẩn CĐTS → tư vấn di truyền và lựa chọn thai kỳ theo quy trình cơ sở.<br>Không trì hoãn bằng “theo dõi thêm vài tuần” khi hình ảnh đã rõ."
+  },
+  {
+    "type": "basic",
+    "front": "Early anatomy “bình thường” ở mẹ ĐTĐ type 1 (13w6d) nghĩa là gì?",
+    "back": "Chỉ nghĩa: <b>chưa thấy dị tật lớn</b> trong phạm vi đã khảo sát hôm nay.<br>Vẫn <b>bắt buộc</b> hình thái 18–22w; cân nhắc fetal echo/theo dõi theo bệnh nền.<br>Không hủy các mốc chuyên sâu vì early scan ổn."
+  },
+  {
+    "type": "basic",
+    "front": "ALARA và Doppler trong early anomaly scan?",
+    "back": "Công suất thấp nhất đạt chẩn đoán; thời gian hợp lý.<br>Color/pulsed Doppler <b>khi có chỉ định</b> (tim, mạch rốn, nghi bất thường dòng) — không Doppler mọi cấu trúc.<br>Tránh kéo dài phổ Doppler không cần thiết trên thai sớm."
+  },
+  {
+    "type": "basic",
+    "front": "Nội dung tối thiểu phải có trong báo cáo early anatomy incomplete?",
+    "back": "Tuổi thai; TA ± TV; danh sách cấu trúc <b>đã thấy</b>; cấu trúc <b>chưa thấy</b> + lý do (BMI/tư thế/sẹo…); kết luận incomplete/nghi bất thường; kế hoạch rescan/CĐTS; <b>giữ hẹn 18–22w</b>."
+  },
+  {
+    "type": "cloze",
+    "text": "Body-stalk / LBWC gợi ý khi có {{c1::khuyết thành bụng lớn}} + {{c1::bất thường chi}} + {{c1::cuống rốn ngắn/bất thường}}. Ectopia cordis = {{c1::tim ngoài lồng ngực}}.",
+    "extra": "Red flag nặng → CĐTS, không quản lý như “omphalocele đơn thuần” khi kèm phức hợp."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao standardized anatomical protocol quan trọng ở quý 1?",
+    "back": "Karim 2017: có mối liên quan có ý nghĩa thống kê giữa dùng protocol/checklist giải phẫu chuẩn và <b>độ nhạy phát hiện dị tật</b> cao hơn (p &lt; 0.0001) ở các subgroup.<br>Thực hành: checklist cố định > nhìn ngẫu nhiên."
+  },
+  {
+    "type": "basic",
+    "front": "Áp dụng Việt Nam: đã có protocol Bộ Y tế riêng cho early anomaly 13–16w trong kho bài?",
+    "back": "<b>Chưa tìm thấy</b> protocol project-local chuyên biệt cho ECFAS 13–16w.<br>Thực hành bám ISUOG/SOGC/AIUM; tách chỉ định early anatomy khỏi gói “siêu âm quý 1” ngắn; <b>không hủy</b> mốc hình thái 18–22w; red flag/incomplete dai dẳng → trung tâm CĐTS."
+  },
+  {
+    "type": "basic",
+    "front": "8 sai lầm thường gặp khi làm early anomaly scan?",
+    "back": "1. Coi early = thay 18–22w.<br>2. Ghi bình thường khi incomplete.<br>3. Không TV khi TA thất bại.<br>4. Nhầm A3 với A2 (NT/risk math).<br>5. Không lưu ảnh checklist.<br>6. Cite % detection không verify.<br>7. Doppler kéo dài không chỉ định.<br>8. Tự kết luận bệnh hiếm tại tuyến cơ sở thay vì chuyển CĐTS."
+  },
+  {
+    "type": "basic",
+    "front": "Case 14w suspicious spine mass + incomplete cranial views: đường đi đúng?",
+    "back": "1. Systematic còn lại + TV nếu cần.<br>2. Ghi cấu trúc nghi và phần chưa thấy.<br>3. <b>Không</b> kết luận “NTD đã loại trừ” hay “não bình thường” khi chưa đủ mặt cắt.<br>4. Chuyển CĐTS; giữ 18–22w nếu thai tiếp tục.<br>5. Tư vấn giới hạn của early scan."
+  },
+  {
+    "type": "cloze",
+    "text": "Mục tiêu A3 là phát hiện dị tật {{c1::lớn}} sớm và lập đường đi lâm sàng; không nhân bản toán risk aneuploidy của {{c1::A2}} và không thay full organ pathology của {{c1::18–22w}}.",
+    "extra": "Cross-ref: A2 screening 11–14w; A4/A5 markers; B1/08 midtrimester; 43 placenta-cord quý 2."
+  },
+  {
+    "type": "basic",
+    "front": "Câu tư vấn chuẩn sau early anatomy đủ checklist, không red flag?",
+    "back": "“Hôm nay không thấy dị tật lớn trong phạm vi đã khảo sát. Siêu âm hình thái 18–22 tuần vẫn <b>bắt buộc</b> vì nhiều bất thường chỉ thấy rõ hoặc chỉ xuất hiện muộn hơn. Nếu có yếu tố nguy cơ, có thể cần thêm fetal echo hoặc xét nghiệm di truyền theo chỉ định.”"
+  }
+]

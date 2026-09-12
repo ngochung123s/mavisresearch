@@ -1,0 +1,132 @@
+[
+  {
+    "type": "cloze",
+    "text": "Hội chứng đáp ứng viêm toàn thân (SIRS) được xác định khi có từ {{c1::2 dấu hiệu trở lên}} trong 4 tiêu chuẩn (Nhiệt độ, Mạch, Nhịp thở, Bạch cầu).",
+    "extra": "Nhiệt độ > 38°C hoặc < 36°C; Mạch > 90 l/p; Nhịp thở > 20 l/p hoặc PaCO2 < 32 mmHg; Bạch cầu > 12.000 hoặc < 4.000 hoặc Bc non > 10%."
+  },
+  {
+    "type": "cloze",
+    "text": "Hạ thân nhiệt {{c1::< 36°C}} và giảm bạch cầu {{c1::< 4.000/µL}} trong SIRS là những dấu hiệu phản ánh {{c1::tiên lượng tử vong rất nặng}}.",
+    "extra": "Cho thấy hệ miễn dịch của bệnh nhân đã suy kiệt, không còn khả năng đáp ứng sinh nhiệt và huy động bạch cầu."
+  },
+  {
+    "type": "cloze",
+    "text": "Mức nồng độ Lactate máu động mạch báo động để kích hoạt hồi sức tích cực khẩn cấp trong sốc nhiễm khuẩn là {{c1::Lactate > 4 mmol/L}}.",
+    "extra": "Chỉ số phản ánh thiếu oxy mô và chuyển hóa yếm khí mức độ nặng."
+  },
+  {
+    "type": "cloze",
+    "text": "Thời gian vàng bắt buộc phải tiêm kháng sinh phổ rộng đường tĩnh mạch trong sốc nhiễm khuẩn là trong vòng {{c1::1 – 3 giờ đầu}}.",
+    "extra": "Càng sớm càng tốt trong giờ đầu tiên sau khi đã lấy bệnh phẩm cấy máu."
+  },
+  {
+    "type": "cloze",
+    "text": "Mỗi 1 giờ chậm trễ sử dụng kháng sinh thích hợp trong sốc nhiễm khuẩn làm tăng tỷ lệ tử vong thêm {{c1::7,6%}} (nghiên cứu của Kumar et al.).",
+    "extra": "Khẳng định kháng sinh tĩnh mạch sớm là biện pháp sống còn."
+  },
+  {
+    "type": "cloze",
+    "text": "Quy tắc cấy máu trước khi dùng kháng sinh: Lấy tối thiểu {{c1::2 mẫu máu}} (ít nhất 1 mẫu qua tĩnh mạch ngoại biên và 1 mẫu qua catheter mạch máu lưu > 48 giờ).",
+    "extra": "Mỗi mẫu gồm 1 chai hiếu khí và 1 chai kỵ khí, lấy tại 2 vị trí chọc khác nhau."
+  },
+  {
+    "type": "cloze",
+    "text": "Khuyến cáo thể tích dịch tinh thể truyền nhanh ban đầu trong sốc nhiễm khuẩn là {{c1::1.000 ml trong 30 phút – 1 giờ đầu}} (ở trẻ em: {{c1::20 ml/kg}}).",
+    "extra": "Sử dụng dung dịch tinh thể đẳng trương NaCl 0.9% hoặc Ringer lactat."
+  },
+  {
+    "type": "cloze",
+    "text": "Mục tiêu 1 trong phác đồ EGDT (6 giờ đầu) là đưa áp lực tĩnh mạch trung tâm ALTMTT đạt {{c1::8 – 12 mmHg}} (đạt {{c1::12 – 15 mmHg}} nếu đang thở máy).",
+    "extra": "Đạt được mục tiêu này bằng cách bồi phụ tích cực dịch tinh thể đẳng trương."
+  },
+  {
+    "type": "cloze",
+    "text": "Mục tiêu 2 trong phác đồ EGDT là đưa huyết áp trung bình HATB đạt {{c1::≥ 65 mmHg}} (tương đương HATT ≥ 90 mmHg) bằng thuốc vận mạch.",
+    "extra": "Thuốc co mạch lựa chọn số 1 là Noradrenalin."
+  },
+  {
+    "type": "cloze",
+    "text": "Mục tiêu 3 trong phác đồ EGDT là thể tích bài niệu nước tiểu đạt {{c1::≥ 0,5 ml/kg/giờ}}.",
+    "extra": "Phản ánh dòng máu tưới qua thận đã hồi phục tốt."
+  },
+  {
+    "type": "cloze",
+    "text": "Mục tiêu 4 trong phác đồ EGDT là độ bão hòa oxy máu tĩnh mạch trung tâm ScvO2 đạt {{c1::≥ 70%}} (hoặc SvO2 máu pha trộn đạt {{c1::≥ 65%}}).",
+    "extra": "Nếu CVP và HATB đạt mà ScvO2 < 70%: Truyền hồng cầu nâng Ht ≥ 30%; nếu Ht đã đủ thì truyền Dobutamin."
+  },
+  {
+    "type": "cloze",
+    "text": "Khi CVP và HATB đã đạt mục tiêu nhưng ScvO2 vẫn < 70%: Nếu Hematocrit {{c1::Ht < 30%}} tiến hành truyền khối hồng cầu; nếu Ht đã {{c1::≥ 30%}} thì truyền Dobutamin.",
+    "extra": "Truyền hồng cầu nâng dung tích mang oxy; Dobutamin tăng cung lượng tim tống máu."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc vận mạch co mạch lựa chọn đầu tiên trong sốc nhiễm khuẩn là {{c1::Noradrenalin}} với liều lượng {{c1::0,05 – 2 µg/kg/phút}}.",
+    "extra": "Kích thích chọn lọc alpha-1 nâng huyết áp hiệu quả mà ít gây loạn nhịp tim nhanh so với Dopamin."
+  },
+  {
+    "type": "cloze",
+    "text": "Dopamin (liều 2,5 – 20 µg/kg/phút) chỉ được xem xét thay thế Noradrenalin khi bệnh nhân có {{c1::nguy cơ loạn nhịp tim thấp}} hoặc {{c1::có nhịp tim chậm kèm theo}}.",
+    "extra": "Dopamin có tỷ lệ gây rung nhĩ và nhịp nhanh thất cao hơn đáng kể so với Noradrenalin."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc tăng co bóp cơ tim được chỉ định khi ScvO2 < 70% sau khi đã bù dịch và đạt Ht ≥ 30% là {{c1::Dobutamin}} liều {{c1::5 – 20 µg/kg/phút}}.",
+    "extra": "Giúp tăng thể tích tống máu của tâm thất trái đến các mô."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc co mạch thứ hai được phối hợp thêm vào Noradrenalin liều cao với liều cố định 0,03 đơn vị/phút qua thụ thể V1 là {{c1::Vasopressin}}.",
+    "extra": "Giúp nâng huyết áp và giảm bớt liều Noradrenalin ở bệnh nhân sốc trơ."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong sốc nhiễm khuẩn kháng trị trơ với vận mạch, Corticoid được chỉ định là Hydrocortison liều {{c1::50 mg tiêm TM mỗi 6 giờ}} (tổng liều {{c1::200 mg/24 giờ}}).",
+    "extra": "Bù đắp tình trạng suy tuyến thượng thận cấp tương đối do stress nặng."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong hồi sức sốc nhiễm khuẩn, chỉ định bắt đầu dùng Insulin khi glucose máu {{c1::> 11 mmol/L}} và mục tiêu duy trì an toàn trong khoảng {{c1::6 – 10 mmol/L}}.",
+    "extra": "Tránh kiểm soát quá gắt gao làm tăng nguy cơ hạ đường huyết nguy hiểm."
+  },
+  {
+    "type": "cloze",
+    "text": "Biện pháp kiểm soát nguồn nhiễm (Source control) trong sốc nhiễm khuẩn bao gồm: {{c1::dẫn lưu ổ mủ/sỏi đường mật}}, {{c1::cắt lọc mô hoại tử}} và rút bỏ catheter nghi nhiễm trùng.",
+    "extra": "Điều trị sốc không thể thành công nếu ổ nhiễm trùng nguyên phát chưa được giải quyết dứt điểm."
+  },
+  {
+    "type": "cloze",
+    "text": "Tam chứng Charcot gợi ý nhiễm trùng đường mật cấp gây sốc nhiễm khuẩn gồm: {{c1::Đau hạ sườn phải}} + {{c1::Sốt cao rét run}} + {{c1::Vàng da vàng mắt}}.",
+    "extra": "Xử trí cấp cứu bằng kháng sinh phối hợp và dẫn lưu mật qua ERCP hoặc dẫn lưu qua da."
+  },
+  {
+    "type": "cloze",
+    "text": "Chiến lược thông khí bảo vệ phổi theo ARDS Network ở bệnh nhân sốc nhiễm khuẩn có tổn thương phổi cấp gồm: Thể tích lưu thông thấp {{c1::Vt = 6 ml/kg}} cân nặng lý tưởng và áp lực đỉnh {{c1::Pplat ≤ 30 cmH2O}}.",
+    "extra": "Phòng ngừa chấn thương thể tích (volutrauma) và chấn thương áp lực (barotrauma)."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc dự phòng tổn thương niêm mạc ống tiêu hóa do stress trong sốc nhiễm khuẩn là {{c1::thuốc ức chế bơm proton PPI (Omeprazole, Pantoprazole 40 mg/ngày)}} hoặc thuốc kháng H2.",
+    "extra": "Chỉ định cho bệnh nhân thở máy > 48 giờ hoặc có rối loạn đông máu."
+  },
+  {
+    "type": "basic",
+    "front": "Bốn mục tiêu huyết động cốt lõi cần đạt được trong 6 giờ đầu theo phác đồ EGDT (Early Goal-Directed Therapy) trong sốc nhiễm khuẩn?",
+    "back": "<b>📖 Văn bản gốc:</b><br>1. <b>CVP (ALTMTT):</b> Đạt 8 – 12 mmHg (12 – 15 mmHg nếu đang thở máy PEEP) → bằng bù dịch tinh thể.<br>2. <b>HATB (MAP):</b> Đạt ≥ 65 mmHg (HATT ≥ 90 mmHg) → bằng Noradrenalin.<br>3. <b>Nước tiểu:</b> Đạt ≥ 0,5 ml/kg/giờ.<br>4. <b>ScvO2:</b> Đạt ≥ 70% (hoặc SvO2 ≥ 65%) → nếu Ht < 30% truyền hồng cầu; nếu Ht ≥ 30% truyền Dobutamin (5-20 µg/kg/p).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>EGDT là phác đồ hồi sức mục tiêu định lượng giúp giảm tỷ lệ tử vong từ 46.5% xuống 30.5% trong nghiên cứu kinh điển của Rivers et al."
+  },
+  {
+    "type": "basic",
+    "front": "Bốn tiêu chuẩn chẩn đoán Hội chứng đáp ứng viêm toàn thân (SIRS)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>Xác định khi có từ 2 tiêu chuẩn trở lên:<br>• <b>Thân nhiệt:</b> > 38°C hoặc < 36°C.<br>• <b>Nhịp tim:</b> Mạch nhanh > 90 lần/phút.<br>• <b>Hô hấp:</b> Thở nhanh > 20 lần/phút hoặc PaCO2 < 32 mmHg.<br>• <b>Bạch cầu máu:</b> > 12.000/µL hoặc < 4.000/µL hoặc tỷ lệ bạch cầu non dạng dải > 10%.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Hạ thân nhiệt (< 36°C) và giảm bạch cầu (< 4.000/µL) phản ánh hệ miễn dịch suy kiệt và có tiên lượng tử vong cao hơn sốt cao tăng bạch cầu."
+  },
+  {
+    "type": "basic",
+    "front": "Chiến lược sử dụng kháng sinh ban đầu theo kinh nghiệm và nguyên tắc kiểm soát nguồn nhiễm trong sốc nhiễm khuẩn?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Thời gian:</b> Tiêm tĩnh mạch ngay trong vòng 1 – 3 giờ đầu (càng sớm càng tốt trong giờ đầu sau khi cấy máu).<br>• <b>Phổ tác dụng:</b> Kháng sinh phổ rộng bao phủ cả vi khuẩn Gram âm và Gram dương: Beta-lactam liều cao / Cephalosporin thế hệ 3, 4 hoặc Carbapenem phối hợp với Aminoside hoặc Quinolone.<br>• <b>Kiểm soát nguồn nhiễm (Source control):</b> Can thiệp ngoại khoa cấp cứu dẫn lưu ổ mủ đường mật, mủ màng phổi, cắt lọc hoại tử, rút bỏ catheter nghi nhiễm trùng trong vòng 6 – 12 giờ đầu.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Mỗi 1 giờ chậm trễ dùng kháng sinh thích hợp làm tăng tỷ lệ tử vong thêm 7.6% (Kumar et al.)."
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế tác dụng và chỉ định của các thuốc vận mạch - nội tiết trong sốc nhiễm khuẩn: Noradrenalin, Dobutamin, Vasopressin và Hydrocortison?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• <b>Noradrenalin (0,05 – 2 µg/kg/p):</b> Lựa chọn đầu tay, co mạch alpha-1 mạnh đưa MAP ≥ 65 mmHg.<br>• <b>Dobutamin (5 – 20 µg/kg/p):</b> Dùng khi ScvO2 < 70% dù đã đủ dịch và Ht ≥ 30%, giúp tăng sức bóp cơ tim.<br>• <b>Vasopressin (0,03 đơn vị/p cố định):</b> Kích thích thụ thể V1 co mạch, phối hợp để giảm liều Noradrenalin trong sốc trơ.<br>• <b>Hydrocortison (50 mg mỗi 6h IV = 200 mg/24h):</b> Điều trị suy thượng thận tương đối khi sốc kém đáp ứng vận mạch liều cao.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Không dùng Vasopressin đơn độc và không chỉnh liều tự do vì có thể gây co thắt mạch vành và thiếu máu mạc treo."
+  }
+]

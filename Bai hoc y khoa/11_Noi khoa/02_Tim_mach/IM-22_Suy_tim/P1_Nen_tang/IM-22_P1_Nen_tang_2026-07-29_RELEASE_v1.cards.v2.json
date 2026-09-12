@@ -1,0 +1,537 @@
+[
+  {
+    "type": "basic",
+    "front": "Suy tim được định nghĩa là gì?",
+    "back": "Hội chứng lâm sàng có triệu chứng và/hoặc dấu hiệu do bất thường cấu trúc hoặc chức năng tim, được củng cố bằng peptide lợi niệu tăng hoặc bằng chứng khách quan của sung huyết."
+  },
+  {
+    "type": "basic",
+    "front": "Ba thành phần cần ghép khi chẩn đoán hội chứng suy tim là gì?",
+    "back": "Lâm sàng; bất thường cấu trúc/chức năng tim; và bằng chứng khách quan như peptide lợi niệu, hình ảnh sung huyết hoặc áp lực đổ đầy tăng."
+  },
+  {
+    "type": "basic",
+    "front": "LVEF thấp đơn độc có đủ chẩn đoán suy tim có triệu chứng không?",
+    "back": "Không. Nếu chưa từng có triệu chứng/dấu hiệu, người bệnh có thể thuộc tiền suy tim (Stage B)."
+  },
+  {
+    "type": "basic",
+    "front": "Phù chân đơn độc có đủ chẩn đoán suy tim không?",
+    "back": "Không. Còn nhiều nguyên nhân như bệnh tĩnh mạch, gan, thận, thuốc hoặc giảm albumin."
+  },
+  {
+    "type": "basic",
+    "front": "Khó thở đơn độc có đặc hiệu cho suy tim không?",
+    "back": "Không. Cần phân biệt bệnh phổi, thiếu máu, béo phì, giảm thể lực và thuyên tắc phổi."
+  },
+  {
+    "type": "basic",
+    "front": "Peptide lợi niệu tăng đơn độc có đủ chẩn đoán suy tim không?",
+    "back": "Không. Phải diễn giải cùng tuổi, rung nhĩ, bệnh thận, lâm sàng và hình ảnh."
+  },
+  {
+    "type": "basic",
+    "front": "LVEF bảo tồn có loại trừ suy tim không?",
+    "back": "Không. HFpEF có thể có áp lực đổ đầy tăng dù LVEF ≥50%."
+  },
+  {
+    "type": "basic",
+    "front": "Suy tim trái thường gây sung huyết ở đâu?",
+    "back": "Tuần hoàn phổi, gây khó thở, orthopnea, ran phổi hoặc phù phổi."
+  },
+  {
+    "type": "basic",
+    "front": "Suy tim phải thường gây sung huyết ở đâu?",
+    "back": "Hệ tĩnh mạch toàn thân, gây JVP cao, gan to, báng và phù ngoại biên."
+  },
+  {
+    "type": "basic",
+    "front": "Suy tim hai thất là gì?",
+    "back": "Kết hợp sung huyết phổi và hệ thống, thường gặp khi bệnh tiến triển."
+  },
+  {
+    "type": "basic",
+    "front": "Công thức LVEF là gì?",
+    "back": "(Thể tích cuối tâm trương − thể tích cuối tâm thu) / thể tích cuối tâm trương × 100%."
+  },
+  {
+    "type": "basic",
+    "front": "Ngưỡng LVEF của HFrEF là gì?",
+    "back": "LVEF ≤40%."
+  },
+  {
+    "type": "basic",
+    "front": "Ngưỡng LVEF của HFmrEF là gì?",
+    "back": "LVEF 41-49% cùng bằng chứng hỗ trợ suy tim."
+  },
+  {
+    "type": "basic",
+    "front": "Ngưỡng LVEF của HFpEF là gì?",
+    "back": "LVEF ≥50% cùng bằng chứng hỗ trợ tăng áp lực đổ đầy hoặc sung huyết."
+  },
+  {
+    "type": "basic",
+    "front": "HFimpEF được nhận diện thế nào?",
+    "back": "LVEF ban đầu ≤40%, sau đó tăng lên >40%."
+  },
+  {
+    "type": "basic",
+    "front": "HFimpEF có đồng nghĩa khỏi bệnh không?",
+    "back": "Không. Đây là quỹ đạo cải thiện nhưng vẫn có nguy cơ tái phát."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao phải giữ lịch sử LVEF ở người HFimpEF?",
+    "back": "Vì LVEF hiện tại không phản ánh đầy đủ bệnh nền và nguy cơ tái phát."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao LVEF gần ranh giới cần đọc thận trọng?",
+    "back": "LVEF phụ thuộc tải, chất lượng hình ảnh và có sai số đo; cần xem xu hướng."
+  },
+  {
+    "type": "basic",
+    "front": "EF bình thường có bảo đảm thể tích nhát bóp bình thường không?",
+    "back": "Không. Một thất nhỏ và cứng có thể tống tỷ lệ cao nhưng lượng máu tuyệt đối thấp."
+  },
+  {
+    "type": "basic",
+    "front": "Phân loại LVEF không trả lời câu hỏi nào tại giường?",
+    "back": "Không cho biết người bệnh đang sung huyết, giảm tưới máu hay sốc."
+  },
+  {
+    "type": "basic",
+    "front": "Cung lượng tim được tính thế nào?",
+    "back": "Nhịp tim × thể tích nhát bóp."
+  },
+  {
+    "type": "basic",
+    "front": "Hai thất hoạt động theo quan hệ nào?",
+    "back": "Nối tiếp; rối loạn một thất sớm hay muộn ảnh hưởng thất kia."
+  },
+  {
+    "type": "basic",
+    "front": "Thất phải đặc biệt nhạy với thay đổi nào?",
+    "back": "Tăng hậu tải đột ngột, như trong thuyên tắc phổi hoặc tăng áp phổi cấp."
+  },
+  {
+    "type": "basic",
+    "front": "Sung huyết là bài toán phía nào của tim?",
+    "back": "Phía sau: áp lực đổ đầy tăng truyền ngược về nhĩ và hệ tĩnh mạch."
+  },
+  {
+    "type": "basic",
+    "front": "Giảm tưới máu là bài toán phía nào của tim?",
+    "back": "Phía trước: cung lượng không đáp ứng nhu cầu cơ quan."
+  },
+  {
+    "type": "basic",
+    "front": "Dấu giảm tưới máu não là gì?",
+    "back": "Lú lẫn, vật vã hoặc lơ mơ."
+  },
+  {
+    "type": "basic",
+    "front": "Dấu giảm tưới máu thận là gì?",
+    "back": "Thiểu niệu và chức năng thận xấu đi."
+  },
+  {
+    "type": "basic",
+    "front": "Dấu giảm tưới máu da là gì?",
+    "back": "Đầu chi lạnh, da nổi bông, thời gian làm đầy mao mạch kéo dài."
+  },
+  {
+    "type": "basic",
+    "front": "Lactate tăng trong suy tim gợi ý gì?",
+    "back": "Thiếu oxy mô hoặc giảm tưới máu đủ nặng, nhưng phải diễn giải theo bối cảnh."
+  },
+  {
+    "type": "basic",
+    "front": "Huyết áp bình thường có loại trừ giảm tưới máu không?",
+    "back": "Không. Co mạch bù trừ có thể giữ huyết áp trong khi tưới máu cơ quan đã giảm."
+  },
+  {
+    "type": "basic",
+    "front": "Hoạt hóa giao cảm bù trừ bằng cách nào?",
+    "back": "Tăng nhịp, tăng co bóp và co mạch để giữ cung lượng và huyết áp ngắn hạn."
+  },
+  {
+    "type": "basic",
+    "front": "Hệ renin-angiotensin-aldosterone bù trừ bằng cách nào?",
+    "back": "Giữ natri-nước và co mạch."
+  },
+  {
+    "type": "basic",
+    "front": "Vasopressin góp phần gì trong suy tim?",
+    "back": "Tăng giữ nước, có thể làm sung huyết và hạ natri máu nặng hơn."
+  },
+  {
+    "type": "basic",
+    "front": "Cơ chế Frank-Starling có giới hạn gì?",
+    "back": "Tăng đổ đầy chỉ tăng lực co trong giới hạn; quá mức làm tăng áp lực và sung huyết."
+  },
+  {
+    "type": "basic",
+    "front": "Vai trò đối kháng của peptide lợi niệu là gì?",
+    "back": "Thúc đẩy thải natri-nước và giãn mạch, nhưng thường không thắng hoàn toàn các hệ giữ dịch."
+  },
+  {
+    "type": "basic",
+    "front": "Cái giá dài hạn của nhịp nhanh là gì?",
+    "back": "Tăng nhu cầu oxy và rút ngắn thời gian tâm trương."
+  },
+  {
+    "type": "basic",
+    "front": "Cái giá dài hạn của co mạch là gì?",
+    "back": "Tăng hậu tải, làm tim khó tống máu hơn."
+  },
+  {
+    "type": "basic",
+    "front": "Cái giá dài hạn của giữ muối-nước là gì?",
+    "back": "Tăng áp lực đổ đầy và sung huyết."
+  },
+  {
+    "type": "basic",
+    "front": "Aldosterone và catecholamine thúc đẩy gì?",
+    "back": "Xơ hóa, chết tế bào, rối loạn nhịp và tái cấu trúc."
+  },
+  {
+    "type": "basic",
+    "front": "Tái cấu trúc thất có thể gây hở van bằng cách nào?",
+    "back": "Thay đổi hình học buồng tim và vòng van, gây hở van chức năng."
+  },
+  {
+    "type": "basic",
+    "front": "Rối loạn tâm thu là gì?",
+    "back": "Giảm khả năng co bóp và tống máu, thường nổi bật trong HFrEF."
+  },
+  {
+    "type": "basic",
+    "front": "Rối loạn tâm trương là gì?",
+    "back": "Thư giãn chậm hoặc tăng độ cứng làm áp lực đổ đầy tăng."
+  },
+  {
+    "type": "basic",
+    "front": "Có nên đồng nhất HFpEF với chỉ suy tâm trương không?",
+    "back": "Không. Nhiều người bệnh có đồng thời bất thường tâm thu kín đáo và nhiều cơ chế khác."
+  },
+  {
+    "type": "basic",
+    "front": "Hai cơ chế tim-thận chính trong sung huyết là gì?",
+    "back": "Giảm tưới máu thận và tăng áp tĩnh mạch thận; cả hai có thể làm chức năng thận xấu đi."
+  },
+  {
+    "type": "basic",
+    "front": "Creatinine tăng trong sung huyết có tự chứng minh thiếu dịch không?",
+    "back": "Không. Cần diễn giải cùng tình trạng dịch, JVP, tưới máu và xu hướng."
+  },
+  {
+    "type": "basic",
+    "front": "Stage A là gì?",
+    "back": "Có yếu tố nguy cơ nhưng chưa có triệu chứng/dấu hiệu và chưa có bất thường cấu trúc/chức năng tim."
+  },
+  {
+    "type": "basic",
+    "front": "Nêu ba yếu tố nguy cơ Stage A.",
+    "back": "Tăng huyết áp, đái tháo đường, béo phì; cũng có bệnh mạch vành hoặc phơi nhiễm độc tim."
+  },
+  {
+    "type": "basic",
+    "front": "Stage B là gì?",
+    "back": "Tiền suy tim: chưa có triệu chứng/dấu hiệu nhưng đã có bất thường cấu trúc/chức năng, áp lực đổ đầy tăng hoặc biomarker tim bất thường dai dẳng."
+  },
+  {
+    "type": "basic",
+    "front": "Stage C là gì?",
+    "back": "Hiện có hoặc trước đây từng có triệu chứng/dấu hiệu suy tim do bất thường tim."
+  },
+  {
+    "type": "basic",
+    "front": "Stage D là gì?",
+    "back": "Suy tim tiến triển với triệu chứng nặng, nhập viện tái diễn hoặc khó dung nạp điều trị, cần đánh giá chuyên sâu hay chăm sóc giảm nhẹ."
+  },
+  {
+    "type": "basic",
+    "front": "Người từng Stage C nhưng hiện hết triệu chứng có trở về Stage B không?",
+    "back": "Không. Stage phản ánh lịch sử và tiến triển sinh học, không chỉ ảnh chụp hôm nay."
+  },
+  {
+    "type": "basic",
+    "front": "NYHA I là gì?",
+    "back": "Hoạt động thông thường không gây triệu chứng."
+  },
+  {
+    "type": "basic",
+    "front": "NYHA II là gì?",
+    "back": "Hạn chế nhẹ; hoạt động thông thường gây triệu chứng nhưng thoải mái khi nghỉ."
+  },
+  {
+    "type": "basic",
+    "front": "NYHA III là gì?",
+    "back": "Hạn chế rõ; hoạt động ít hơn thông thường đã gây triệu chứng."
+  },
+  {
+    "type": "basic",
+    "front": "NYHA IV là gì?",
+    "back": "Có triệu chứng khi nghỉ hoặc bất kỳ hoạt động nào cũng làm nặng."
+  },
+  {
+    "type": "basic",
+    "front": "Khác biệt cốt lõi giữa Stage và NYHA là gì?",
+    "back": "Stage phản ánh tiến triển bệnh; NYHA mô tả mức hạn chế chức năng tại một thời điểm."
+  },
+  {
+    "type": "basic",
+    "front": "Quỹ đạo suy tim ổn định-mất bù có hình dạng gì?",
+    "back": "Giai đoạn ổn định mạn xen kẽ các đợt mất bù, mỗi đợt có thể làm dự trữ giảm thêm."
+  },
+  {
+    "type": "basic",
+    "front": "Những dấu nào gợi quỹ đạo suy tim tiến triển?",
+    "back": "Nhập viện lặp lại, triệu chứng nặng, suy mòn, giảm khả năng gắng sức, tổn thương cơ quan hoặc khó dung nạp điều trị."
+  },
+  {
+    "type": "basic",
+    "front": "Mỗi lần tái khám cần ghi những trục nào?",
+    "back": "Stage, NYHA, LVEF hiện tại/lịch sử, nhập viện, sung huyết, tưới máu, chức năng cơ quan, khả năng gắng sức và cân nặng."
+  },
+  {
+    "type": "basic",
+    "front": "Nguyên nhân thiếu máu cục bộ của suy tim gồm gì?",
+    "back": "Bệnh mạch vành, nhồi máu cơ tim và thiếu máu cục bộ mạn."
+  },
+  {
+    "type": "basic",
+    "front": "Quá tải áp lực gây suy tim qua ví dụ nào?",
+    "back": "Tăng huyết áp kéo dài, hẹp van động mạch chủ hoặc tắc nghẽn đường ra."
+  },
+  {
+    "type": "basic",
+    "front": "Quá tải thể tích gây suy tim qua ví dụ nào?",
+    "back": "Hở van, shunt hoặc giữ dịch kéo dài."
+  },
+  {
+    "type": "basic",
+    "front": "Nhóm bệnh cơ tim cần nghĩ đến gồm gì?",
+    "back": "Giãn, phì đại, hạn chế; di truyền, viêm, quanh sinh, stress và bệnh thâm nhiễm."
+  },
+  {
+    "type": "basic",
+    "front": "Rối loạn nhịp nào có thể gây hoặc làm nặng suy tim?",
+    "back": "Nhịp nhanh kéo dài, rung nhĩ nhanh, nhịp chậm nặng và rối loạn đồng bộ."
+  },
+  {
+    "type": "basic",
+    "front": "Phơi nhiễm nào cần hỏi trong bệnh cơ tim độc chất?",
+    "back": "Rượu, stimulant, hóa trị, xạ trị; cần hỏi liều, thời điểm và quan hệ thời gian."
+  },
+  {
+    "type": "basic",
+    "front": "Bệnh màng ngoài tim nào có thể biểu hiện như suy tim?",
+    "back": "Co thắt màng tim và tràn dịch gây chèn ép."
+  },
+  {
+    "type": "basic",
+    "front": "Nguyên nhân tăng hậu tải thất phải cấp quan trọng là gì?",
+    "back": "Thuyên tắc phổi; cũng có thiếu oxy hoặc bệnh mạch phổi nặng."
+  },
+  {
+    "type": "basic",
+    "front": "Tình trạng cung lượng cao gây suy tim gồm gì?",
+    "back": "Thiếu máu nặng, cường giáp, shunt lớn và beriberi."
+  },
+  {
+    "type": "basic",
+    "front": "Phân biệt nguyên nhân nền với yếu tố thúc đẩy thế nào?",
+    "back": "Nguyên nhân nền giải thích vì sao có suy tim; yếu tố thúc đẩy giải thích vì sao nặng lên hôm nay."
+  },
+  {
+    "type": "basic",
+    "front": "Nêu năm yếu tố thúc đẩy mất bù thường gặp.",
+    "back": "Thiếu máu cục bộ, rối loạn nhịp, nhiễm trùng, tăng huyết áp, không tuân thủ/ăn mặn; còn có suy thận, thiếu máu, PE và biến cố van."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao không dừng sau khi tìm thấy một yếu tố thúc đẩy?",
+    "back": "Người bệnh thường có nhiều tác nhân đồng thời."
+  },
+  {
+    "type": "basic",
+    "front": "Trục ướt-khô đánh giá gì?",
+    "back": "Sung huyết hoặc áp lực đổ đầy tăng."
+  },
+  {
+    "type": "basic",
+    "front": "Trục ấm-lạnh đánh giá gì?",
+    "back": "Mức tưới máu ngoại vi và cơ quan."
+  },
+  {
+    "type": "basic",
+    "front": "Dấu sung huyết trái quan trọng gồm gì?",
+    "back": "Orthopnea, khó thở kịch phát về đêm, ran và hình ảnh sung huyết phổi."
+  },
+  {
+    "type": "basic",
+    "front": "Dấu sung huyết hệ thống quan trọng gồm gì?",
+    "back": "JVP cao, phản hồi gan-tĩnh mạch cổ, phù, gan sung huyết và báng."
+  },
+  {
+    "type": "basic",
+    "front": "“Khô” có đồng nghĩa giảm thể tích không?",
+    "back": "Không. Chỉ nghĩa là chưa thấy sung huyết đáng kể."
+  },
+  {
+    "type": "basic",
+    "front": "Dấu “ấm” gồm gì?",
+    "back": "Đầu chi ấm, tri giác bình thường, nước tiểu còn và không có dấu suy tuần hoàn."
+  },
+  {
+    "type": "basic",
+    "front": "Dấu “lạnh” gồm gì?",
+    "back": "Đầu chi lạnh, CRT kéo dài, lú lẫn, thiểu niệu, mạch yếu, hiệu áp hẹp hoặc lactate tăng."
+  },
+  {
+    "type": "basic",
+    "front": "Có nên dùng riêng nhiệt độ bàn chân để gọi “lạnh” không?",
+    "back": "Không. Phải ghép nhiều cơ quan và theo dõi xu hướng."
+  },
+  {
+    "type": "basic",
+    "front": "Ấm-khô mô tả gì?",
+    "back": "Tưới máu đủ và không sung huyết; thường là mục tiêu ổn định."
+  },
+  {
+    "type": "basic",
+    "front": "Ấm-ướt mô tả gì?",
+    "back": "Tưới máu còn đủ nhưng có sung huyết; kiểu thường gặp trong mất bù."
+  },
+  {
+    "type": "basic",
+    "front": "Lạnh-khô mô tả gì?",
+    "back": "Giảm tưới máu mà không có sung huyết rõ; cần phân biệt cung lượng thấp với giảm thể tích."
+  },
+  {
+    "type": "basic",
+    "front": "Lạnh-ướt mô tả gì?",
+    "back": "Vừa sung huyết vừa giảm tưới máu; kiểu nguy cơ cao."
+  },
+  {
+    "type": "basic",
+    "front": "Sốc tim là gì?",
+    "back": "Suy tuần hoàn do tim gây tưới máu mô không đủ, thường kèm huyết áp thấp hoặc cần hỗ trợ huyết áp."
+  },
+  {
+    "type": "basic",
+    "front": "Sốc tim có chỉ là huyết áp thấp không?",
+    "back": "Không. Cần bằng chứng giảm tưới máu và nguyên nhân tim, đồng thời đánh giá sốc khác."
+  },
+  {
+    "type": "basic",
+    "front": "Tiền sốc có thể có huyết áp chưa thấp vì sao?",
+    "back": "Co mạch bù trừ còn duy trì huyết áp dù tưới máu cơ quan đã giảm."
+  },
+  {
+    "type": "basic",
+    "front": "Red flags hô hấp trong suy tim là gì?",
+    "back": "Suy hô hấp, SpO2 giảm, kiệt sức hô hấp hoặc phù phổi cấp."
+  },
+  {
+    "type": "basic",
+    "front": "Red flags tuần hoàn trong suy tim là gì?",
+    "back": "Huyết áp giảm tiến triển, lạnh ẩm, lú lẫn, thiểu niệu hoặc lactate tăng."
+  },
+  {
+    "type": "basic",
+    "front": "Red flags nguyên nhân cần can thiệp khẩn là gì?",
+    "back": "ACS, loạn nhịp mất ổn định, biến cố cơ học/van cấp, chèn ép tim hoặc PE nguy cơ cao."
+  },
+  {
+    "type": "basic",
+    "front": "Ca ấm-ướt: dữ kiện quyết định là gì?",
+    "back": "Nhiều dấu sung huyết như orthopnea, JVP cao, ran, phù cùng tưới máu còn đủ như tay ấm, tỉnh, tiểu còn."
+  },
+  {
+    "type": "basic",
+    "front": "Ca ấm-ướt: hành động nền tảng là gì?",
+    "back": "ABCDE, đánh giá oxy hóa, xác nhận sung huyết, tìm yếu tố thúc đẩy và kích hoạt quy trình suy tim cấp."
+  },
+  {
+    "type": "basic",
+    "front": "Ca ấm-ướt: vì sao cho dịch theo phản xạ có thể sai?",
+    "back": "Vì người bệnh đã sung huyết; dịch có thể làm áp lực đổ đầy và phù phổi nặng hơn."
+  },
+  {
+    "type": "basic",
+    "front": "Ca lạnh-ướt: red flag quyết định sốc là gì?",
+    "back": "Tụt huyết áp kèm lơ mơ, thiểu niệu, lạnh ẩm, CRT kéo dài hoặc lactate tăng."
+  },
+  {
+    "type": "basic",
+    "front": "Ca lạnh-ướt: hành động đầu tiên là gì?",
+    "back": "Kích hoạt hồi sức sốc và gọi tim mạch/hồi sức, đồng thời tìm nguyên nhân đảo ngược ngay."
+  },
+  {
+    "type": "basic",
+    "front": "Ca lạnh-ướt: theo dõi và chuyển tuyến thế nào?",
+    "back": "Monitor liên tục, nước tiểu và lactate nối tiếp; chuyển ICU hoặc trung tâm có hỗ trợ tuần hoàn/can thiệp."
+  },
+  {
+    "type": "basic",
+    "front": "Ca lạnh-khô: dữ kiện nào nghi giảm thể tích?",
+    "back": "Mất dịch/ăn uống kém, không JVP cao, phổi trong, không phù và dấu tư thế; vẫn cần đánh giá động."
+  },
+  {
+    "type": "basic",
+    "front": "Ca lạnh-khô: Plan B an toàn khi thể tích chưa rõ là gì?",
+    "back": "Đánh giá siêu âm tại giường nếu có, can thiệp từng bước nhỏ và tái khám sau mỗi bước; tránh bolus lớn."
+  },
+  {
+    "type": "basic",
+    "front": "Ca lạnh-khô: vì sao lợi tiểu theo tiền sử suy tim có thể sai?",
+    "back": "Vì người bệnh có thể đang giảm thể tích và lợi tiểu làm giảm tưới máu nặng hơn."
+  },
+  {
+    "type": "basic",
+    "front": "Ca suy tim phải: dấu quyết định sung huyết hệ thống là gì?",
+    "back": "JVP cao, gan to đau, báng và phù ngoại biên."
+  },
+  {
+    "type": "basic",
+    "front": "Ca suy tim phải: vì sao ít ran không loại trừ suy tim?",
+    "back": "Sung huyết có thể ưu thế hệ thống do thất phải mà không gây phù phổi rõ."
+  },
+  {
+    "type": "basic",
+    "front": "Ca suy tim phải: yếu tố làm tăng hậu tải thất phải cần tìm là gì?",
+    "back": "Thuyên tắc phổi, thiếu oxy, bệnh mạch phổi, loạn nhịp hoặc nhiễm trùng."
+  },
+  {
+    "type": "basic",
+    "front": "Plan A đánh giá nền tảng suy tim gồm các bước nào?",
+    "back": "Xác nhận hội chứng; xếp ướt/khô, ấm/lạnh; ghi red flags, stage, NYHA, LVEF/trajectory; tìm nguyên nhân và yếu tố thúc đẩy."
+  },
+  {
+    "type": "basic",
+    "front": "Plan B khi thiếu siêu âm hoặc biomarker là gì?",
+    "back": "Không trì hoãn hồi sức; dùng cụm dấu đa cơ quan; ghi mức chắc chắn; gọi hỗ trợ/chuyển tuyến; tránh can thiệp nguy cơ cao khi thể tích chưa rõ."
+  },
+  {
+    "type": "basic",
+    "front": "Bẫy của việc dùng huyết áp làm đại diện tưới máu là gì?",
+    "back": "Bỏ sót giảm tưới máu được che bởi co mạch bù trừ."
+  },
+  {
+    "type": "basic",
+    "front": "Bẫy của việc gọi HFpEF là “tim bình thường” là gì?",
+    "back": "Bỏ qua tăng áp lực đổ đầy, độ cứng thất và nguy cơ biến cố."
+  },
+  {
+    "type": "basic",
+    "front": "Bẫy của việc giữ nguyên nhãn huyết động là gì?",
+    "back": "Kiểu hình có thể đổi trong vài giờ, nên quyết định dựa trên đánh giá lại."
+  },
+  {
+    "type": "basic",
+    "front": "Thông điệp chốt của Part 1 là gì?",
+    "back": "Suy tim là hội chứng động; luôn ghép định nghĩa, LVEF, stage/trajectory và hai trục sung huyết-tưới máu để ra quyết định an toàn."
+  }
+]

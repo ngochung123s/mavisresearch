@@ -1,0 +1,986 @@
+{
+  "meta": {
+    "title": "Siêu âm theo dõi kích thích buồng trứng",
+    "author": "Bác sĩ Ngọc Hưng",
+    "subtitle": "Deck học cá nhân từ bài mẹ 2026-07-04"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "variant": "split_dark",
+      "title": "Siêu âm theo dõi kích thích buồng trứng trong IVF/ICSI",
+      "subtitle": "Deck học cá nhân — từ bài mẹ 2026-07-04",
+      "author": "Bác sĩ Ngọc Hưng",
+      "specialty": "ART / IVF-ICSI",
+      "date": "2026-07-04"
+    },
+    {
+      "type": "outline",
+      "variant": "numbered",
+      "title": "Nội dung",
+      "chapters": [
+        "0. Tổng quan",
+        "1. Siêu âm trước KTBT",
+        "2. Khung sinh lý",
+        "3. Kỹ thuật đếm AFC",
+        "4. Theo dõi theo phác đồ",
+        "5. Kỹ thuật đo nang",
+        "6. Niêm mạc tử cung",
+        "7. Nội tiết trong theo dõi",
+        "8. Các điểm quyết định",
+        "9. PCOS / đáp ứng cao",
+        "10. Đáp ứng thấp",
+        "11. Nhận diện OHSS",
+        "12. Freeze-all",
+        "13. Mẫu phiếu & checklist",
+        "14. Atlas ca lâm sàng",
+        "15. Bài học lâm sàng",
+        "TLTK"
+      ]
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "0",
+      "part_title": "Tổng quan",
+      "part_subtitle": "Vì sao siêu âm là trục chính trong theo dõi KTBT?"
+    },
+    {
+      "type": "content",
+      "title": "KTBT là bài toán điều khiển đoàn hệ nang",
+      "points": [
+        "Kích thích buồng trứng có kiểm soát (COS) là bước nền tảng của IVF/ICSI.",
+        "Mỗi lần siêu âm phải trả lời được một câu hỏi điều trị.",
+        "Siêu âm là công cụ ra quyết định theo thời gian thực, không chỉ để đo nang."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "4 mục tiêu của theo dõi siêu âm",
+      "points": [
+        "1. Đánh giá đáp ứng buồng trứng: số nang phát triển, tốc độ lớn, phân bố kích thước.",
+        "2. Xác định thời điểm dùng antagonist (flexible) và thời điểm trigger.",
+        "3. Phát hiện sớm nguy cơ OHSS để điều chỉnh trigger và kế hoạch chuyển phôi.",
+        "4. Đánh giá nội mạc tử cung để quyết định chuyển phôi tươi hay đông phôi toàn bộ."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Nguyên tắc cốt lõi",
+      "points": [
+        "Mỗi lần siêu âm kết thúc bằng một KẾT LUẬN QUẢN LÝ: giữ liều, đổi liều, bắt antagonist, trigger, đông phôi toàn bộ, hay chuẩn bị chọc hút.",
+        "Siêu âm là phương pháp KHÔNG XÂM NHẬP, lặp lại được, và KHÔNG THỂ THAY THẾ bằng xét nghiệm nội tiết đơn thuần."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "ESHRE 2025 về theo dõi (PMID 41732035)",
+      "points": [
+        "KHÔNG khuyến cáo điều chỉnh liều FSH giữa chu kỳ thường quy (conditional).",
+        "Nhấn mạnh tầm quan trọng của việc chọn đúng liều KHỞI ĐẦU.",
+        "Siêu âm đóng vai trò XÁC NHẬN đáp ứng hơn là công cụ để chỉnh liều từng ngày.",
+        "KHÔNG khuyến cáo đo E2 thường quy vào ngày trigger cho chuyển phôi tươi cycle (strong).",
+        "Khuyến cáo đo PROGESTERONE vào ngày trigger cho chuyển phôi tươi cycle (conditional)."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "timeline",
+      "variant": "horizontal_milestones",
+      "title": "Bản đồ một chu kỳ monitor KTBT",
+      "events": [
+        {
+          "date": "Baseline",
+          "title": "AFC - tử cung",
+          "desc": "Định liều FSH, phát hiện nang tồn dư, đường chọc hút"
+        },
+        {
+          "date": "Start FSH",
+          "title": "Ngày 2-4",
+          "desc": "Bắt đầu gonadotropin theo liều đã chọn"
+        },
+        {
+          "date": "Day 5-7",
+          "title": "Đánh giá đáp ứng",
+          "desc": "Đọc tốc độ đoàn hệ, quyết định antagonist"
+        },
+        {
+          "date": "Day 7-12",
+          "title": "Late stimulation",
+          "desc": "Theo dõi nang, nội mạc, OHSS, progesterone"
+        },
+        {
+          "date": "Trigger",
+          "title": "Quyết định cuối",
+          "desc": "Chọn loại trigger, giờ chọc hút 34-36h"
+        },
+        {
+          "date": "OPU/ET",
+          "title": "Chọc hút & chuyển phôi",
+          "desc": "Fresh hay đông phôi toàn bộ"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "1",
+      "part_title": "Siêu âm trước kích thích",
+      "part_subtitle": "Baseline scan: AFC, nang tồn dư, tử cung, đường chọc hút"
+    },
+    {
+      "type": "criteria",
+      "variant": "score_points",
+      "title": "Baseline ultrasound checklist",
+      "items": [
+        {
+          "text": "AFC hai buồng trứng (nang 2-9 mm từng bên)",
+          "points": "✓"
+        },
+        {
+          "text": "Nang tồn dư / cyst (vị trí, kích thước, tính chất)",
+          "points": "✓"
+        },
+        {
+          "text": "Endometrioma (kích thước, bên, quan hệ với đường chọc hút)",
+          "points": "✓"
+        },
+        {
+          "text": "Tử cung: polyp, u xơ dưới niêm, vách ngăn, dịch lòng tử cung",
+          "points": "✓"
+        },
+        {
+          "text": "Đường tiếp cận buồng trứng (khoảng cách, vật cản)",
+          "points": "✓"
+        },
+        {
+          "text": "Tử cung di động (ngả sau, cố định → nghi dính/endometriosis)",
+          "points": "✓"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "title": "Xử trí nang tồn dư",
+      "points": [
+        "Nang đơn thuần <18 mm, không hoạt động nội tiết → có thể bắt đầu KTBT.",
+        "Nang >18 mm → chọc hút hoặc chờ sang chu kỳ tiếp theo.",
+        "Nang tồn tại nhiều chu kỳ, to → cân nhắc chọc hút trước KTBT.",
+        "Nang không ảnh hưởng chọc hút noãn → không nhất thiết can thiệp.",
+        "Có thể dùng COCP để làm tiêu nang tồn dư (khác với COCP pretreatment cho antagonist)."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Đánh giá tử cung trước KTBT",
+      "points": [
+        "U xơ dưới niêm, polyp, vách ngăn, dịch lòng tử cung → có thể thay đổi kế hoạch chuyển phôi.",
+        "Mục tiêu trước kích thích: không chỉ là buồng trứng, mà còn xác định chuyển phôi tươi có khả thi không.",
+        "Nếu phát hiện bất thường có ý nghĩa → kích thích và thu phôi nhưng trì hoãn chuyển phôi (đông phôi toàn bộ)."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Endometrioma trước kích thích",
+      "points": [
+        "Ghi kích thước, bên, số lượng và quan hệ với đường chọc hút.",
+        "Nếu không ảnh hưởng đến chọc hút noãn: KHÔNG nhất thiết can thiệp.",
+        "Cân bằng nguy cơ giảm dự trữ sau can thiệp với nguy cơ nhiễm/khó chọc hút.",
+        "Tử cung ngả sau cố định và đau khi ấn: gợi ý dính/endometriosis, tiên lượng không tốt."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Buồng trứng xa đầu dò",
+      "points": [
+        "Gợi ý chọc hút noãn có thể khó hơn.",
+        "Có thể liên quan dính vùng chậu, endometriosis hoặc buồng trứng bị kéo cao.",
+        "Cần ghi hướng tiếp cận, khoảng cách và nguy cơ mạch máu/ruột xen giữa nếu thấy.",
+        "Thông tin này quan trọng NGANG VỚI SỐ NANG trong planning thủ thuật."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "ESHRE 2025 về dự đoán đáp ứng",
+      "points": [
+        "AFC hoặc AMH đủ để dự đoán ovarian response (strong).",
+        "FSH nền, E2 nền, LH nền, inhibin B, progesterone nền KHÔNG được khuyến cáo để dự đoán response (strong, MỚI 2025).",
+        "Tuổi mẹ và BMI là predictors của pregnancy và live birth (strong, MỚI 2025)."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "2",
+      "part_title": "Khung sinh lý cần nhớ khi đọc siêu âm",
+      "part_subtitle": "FSH threshold, FSH window, follicular waves, LH ceiling/floor"
+    },
+    {
+      "type": "definition",
+      "variant": "term_box",
+      "term": "FSH threshold (ngưỡng FSH)",
+      "definition": "Nồng độ FSH mà trên đó một nang có thể tiếp tục phát triển. MỖI NANG CÓ MỘT NGƯỠNG RIÊNG. FSH ngoại sinh giúp nhiều nang vượt ngưỡng hơn."
+    },
+    {
+      "type": "content",
+      "title": "Ý nghĩa FSH threshold trên siêu âm",
+      "points": [
+        "Nếu đoàn hệ có nhiều nang nhỏ nhưng chỉ một vài nang lớn, có thể do liều FSH chỉ vừa đủ cho nhóm nang nhạy nhất.",
+        "Những nang còn lại đang ở dưới ngưỡng → cần thời gian hơn là tăng liều."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "definition",
+      "variant": "term_box",
+      "term": "FSH window (cửa sổ FSH)",
+      "definition": "Khoảng thời gian nồng độ FSH nằm trên ngưỡng. Cửa sổ quá ngắn → mất nang nhỏ. Cửa sổ quá dài ở đáp ứng cao → quá nhiều nang nhỏ phát triển → OHSS."
+    },
+    {
+      "type": "content",
+      "title": "Follicular waves (sóng nang)",
+      "points": [
+        "Không phải mọi nang chỉ được tuyển một lần duy nhất vào đầu chu kỳ.",
+        "Có bằng chứng về nhiều đợt sóng tuyển nang trong một chu kỳ.",
+        "Đây là cơ sở cho DuoStim và random start.",
+        "Ý nghĩa: có thể bắt đầu KTBT không nhất thiết ngày 2-3 nếu có lý do.",
+        "Nhưng khi dùng random start, thường cần đông phôi toàn bộ do nội mạc không đồng bộ."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "two_column",
+      "title": "LH ceiling vs LH floor",
+      "left_title": "LH quá cao (surge / ceiling)",
+      "left_points": [
+        "Hoàng thể hóa sớm",
+        "Ức chế aromatase, giảm chất lượng noãn",
+        "Đây là lý do dùng antagonist"
+      ],
+      "right_title": "LH quá thấp (floor)",
+      "right_points": [
+        "Giảm sản xuất androgen nền",
+        "Deep suppression từ long agonist",
+        "Có thể cần thêm LH ở một số bệnh nhân"
+      ],
+      "variant": "vs_compare",
+      "note": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "3",
+      "part_title": "Kỹ thuật đếm AFC",
+      "part_subtitle": "Antral Follicle Count — chỉ số thực hành quan trọng nhất"
+    },
+    {
+      "type": "content",
+      "title": "Định nghĩa và kỹ thuật",
+      "points": [
+        "AFC: số nang thứ cấp đường kính 2-9 mm (đôi khi 2-10 mm) đếm được vào đầu chu kỳ.",
+        "Dùng đầu dò âm đạo tần số cao (≥7 MHz) nếu có thể.",
+        "Quét toàn bộ buồng trứng theo một chiều có hệ thống.",
+        "Đếm từng nang có bờ trong rõ, dịch trống âm.",
+        "Ghi riêng AFC buồng trứng phải và trái."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Sai số thường gặp khi đếm AFC",
+      "points": [
+        "Bỏ sót nang nhỏ (2-4 mm): quét chậm, tăng gain nhẹ.",
+        "Đếm lặp cùng một nang: giữ mặt cắt có hệ thống, không xoay đầu dò lung tung.",
+        "Nhầm mạch máu vùng chậu với nang nhỏ: dùng Doppler nếu nghi ngờ.",
+        "Nhầm nang tồn dư với nang thứ cấp: nang tồn dư >10 mm.",
+        "Không ghi nhận buồng trứng khó tiếp cận: luôn ghi chú nếu buồng trứng ở vị trí khó."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "AFC và định liều FSH khởi đầu",
+      "points": [
+        "AFC <5 → Low responder → 225-300 IU/ng. Không tăng quá 300 IU.",
+        "AFC 5-7 → Suboptimal → 200-300 IU/ng. Cân nhắc tích lũy.",
+        "AFC 8-18 → Normal responder → 150-225 IU/ng.",
+        "AFC >18 → High responder → 100-150 IU/ng. Nguy cơ OHSS, ưu tiên antagonist.",
+        "ESHRE 2025: KHÔNG dùng >300 IU/ng cho đáp ứng thấp (strong)."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Độ đồng đều của đoàn hệ nang",
+      "points": [
+        "Đoàn hệ đồng đều: nang có kích thước tương tự → tiên lượng phát triển đồng bộ tốt.",
+        "Đoàn hệ không đồng đều: nang to nhỏ xen kẽ → nguy cơ lệch pha, khó chọn trigger.",
+        "Đừng chỉ nhìn tổng AFC, hãy quan sát cả độ đồng đều của đoàn hệ."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "4",
+      "part_title": "Theo dõi theo từng loại phác đồ",
+      "part_subtitle": "Long agonist, Antagonist fixed/flexible, PPOS, DuoStim"
+    },
+    {
+      "type": "content",
+      "title": "Phác đồ Long GnRH Agonist",
+      "points": [
+        "Mốc 1 (sau downregulation): không có nang >10 mm, nội mạc mỏng. LH <5 IU/L, E2 <50 pg/mL.",
+        "Mốc 2 (ngày 5-7 FSH): đánh giá đáp ứng ban đầu. Long agonist đã kiểm soát LH surge.",
+        "Mốc 3 (cuối KT, ngày 8-12): đo toàn bộ nang, phân nhóm, nội mạc, nguy cơ quá kích.",
+        "Trigger: BẮT BUỘC hCG (không dùng được GnRH agonist trigger vì tuyến yên đã bị ức chế)."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Phác đồ Antagonist Fixed",
+      "points": [
+        "Baseline: như mục 1.",
+        "Ngày 5-6 FSH: đánh giá đáp ứng. Antagonist bắt đầu theo lịch cố định.",
+        "Fixed đơn giản hóa vận hành, giảm nguy cơ quên/muộn antagonist.",
+        "Cuối KT: có thêm lựa chọn GnRH agonist trigger nếu nguy cơ OHSS.",
+        "ESHRE 2025: fixed probably recommended over flexible (conditional, ⊕⊕◯◯)."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Phác đồ Antagonist Flexible",
+      "points": [
+        "Ngày 5-6 FSH: BẮT BUỘC siêu âm.",
+        "Nếu nang lớn nhất ≥14 mm → bắt đầu antagonist.",
+        "KHÔNG được siêu âm muộn hơn ngày 7 (nguy cơ bắt antagonist trễ → LH surge).",
+        "Flexible giảm số ngày dùng antagonist ở một số bệnh nhân.",
+        "Nhưng đòi hỏi siêu âm đúng thời điểm. Không phù hợp nếu logistics khó."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "PPOS và DuoStim / Random Start",
+      "points": [
+        "PPOS: theo dõi siêu âm tương tự antagonist. LUÔN đông phôi toàn bộ.",
+        "DuoStim: 2 đợt KTBT trong 1 chu kỳ. Luteal phase stimulation: progesterone nội sinh tự bảo vệ chống LH surge.",
+        "Random start: bắt đầu bất kỳ thời điểm nào. Cả hai đều đi kèm đông phôi toàn bộ."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "two_column",
+      "title": "Fixed vs Flexible Antagonist",
+      "left_title": "Fixed",
+      "left_points": [
+        "Bắt đầu ngày 5-6 không phụ thuộc nang",
+        "Dễ vận hành, ít lỗi",
+        "ESHRE 2025: probably preferred",
+        "Phù hợp trung tâm đông"
+      ],
+      "right_title": "Flexible",
+      "right_points": [
+        "Bắt khi nang ≥14 mm",
+        "Cá thể hóa, ít ngày thuốc",
+        "Cần siêu âm đúng ngày",
+        "Không phù hợp logistics khó"
+      ],
+      "variant": "vs_compare",
+      "note": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "5",
+      "part_title": "Kỹ thuật đo nang noãn",
+      "part_subtitle": "Đo bờ trong, phân nhóm kích thước, tốc độ phát triển"
+    },
+    {
+      "type": "content",
+      "title": "Nguyên tắc đo",
+      "points": [
+        "Đo từ BỜ TRONG đến BỜ TRONG (inner-to-inner). Không đo cả thành nang.",
+        "Đo trên mặt cắt lớn nhất của nang (đi qua trung tâm).",
+        "Nang tròn đều: đo một đường kính.",
+        "Nang không tròn (bầu dục): đo hai đường kính vuông góc, lấy TRUNG BÌNH."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Phân nhóm kích thước nang",
+      "points": [
+        "Nhỏ (<10 mm): đang phát triển, cần thêm thời gian.",
+        "Trung bình (10-13 mm): sẽ đóng góp vào đoàn hệ nếu còn thời gian.",
+        "Gần trưởng thành (14-16 mm): khả năng cao có noãn.",
+        "Trưởng thành (17-18 mm): sẵn sàng trigger.",
+        "Quá lớn (>18 mm, đặc biệt >24 mm): nguy cơ noãn già hoặc mất noãn."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Tốc độ phát triển nang",
+      "points": [
+        "Trung bình: 1-2 mm/ngày.",
+        "Có thể tăng nhanh hơn ở giai đoạn cuối (2-3 mm/ngày).",
+        "Cohort chậm (<1 mm/ngày): xem xét tăng liều (trong giới hạn) hoặc kiểm tra tuân thủ.",
+        "Cohort nhanh bất thường (>3 mm/ngày): cảnh giác high response, đặc biệt PCOS."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Vùng kỳ vọng noãn 14-24 mm",
+      "points": [
+        "Nhiều thực hành xem nhóm 14-24 mm là nhóm có khả năng đóng góp noãn tốt nhất.",
+        "Tỷ lệ thu hồi noãn từ nhóm này khoảng 70-90%.",
+        "Nang <14 mm: có thể bắt kịp nếu còn 2-3 ngày.",
+        "Nang >24 mm: tỷ lệ thu hồi GIẢM rõ.",
+        "Có thể thấy gò noãn (cumulus) ở nang gần trưởng thành: dấu hiệu tốt cho trigger."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "PCOS và sai số đếm",
+      "points": [
+        "PCOS có thể có 20-40+ nang nhỏ mỗi bên.",
+        "Nguy cơ: bỏ sót nang nhỏ (2-5 mm), đếm lặp do nhiều nang sát nhau.",
+        "Kỹ thuật: quét chậm, chia buồng trứng thành các vùng.",
+        "3D ultrasound giúp đếm tự động và tô màu theo kích thước, nhưng chi phí cao.",
+        "Sau ngày 5-6: tập trung vào nang đang phát triển thay vì đếm tất cả nang nhỏ."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "6",
+      "part_title": "Niêm mạc tử cung trong chu kỳ KTBT",
+      "part_subtitle": "Đo đúng, đọc hình thái, quyết định fresh/freeze"
+    },
+    {
+      "type": "content",
+      "title": "Kỹ thuật đo niêm mạc",
+      "points": [
+        "Mặt cắt dọc tử cung (sagittal).",
+        "Đo ở vị trí DÀY NHẤT.",
+        "Đặt caliper tại ranh giới niêm mạc – cơ tử cung.",
+        "Đo VUÔNG GÓC với đường niêm mạc.",
+        "Không tính dịch lòng tử cung (nếu có)."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Hình thái niêm mạc tử cung",
+      "points": [
+        "Dạng 1 — Ba lá (trilaminar): 3 đường tăng âm + 2 vùng giảm âm. THUẬN LỢI NHẤT cho làm tổ.",
+        "Dạng 2 — Tăng âm toàn bộ: tăng âm đồng nhất, không còn vùng giảm âm. Kém thuận lợi, có thể do P4 tăng sớm.",
+        "Dạng 3 — Trung gian: còn đường tăng âm nhưng phân lớp không rõ."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Khi nào niêm mạc ảnh hưởng quyết định?",
+      "points": [
+        "KHÔNG cần đo nội mạc mỗi lần siêu âm.",
+        "Đo có ý nghĩa nhất vào NGÀY TRIGGER hoặc 1-2 ngày trước trigger.",
+        "<7 mm thường được xem là mỏng.",
+        "Dạng 2 + progesterone tăng sớm → cân nhắc đông phôi toàn bộ.",
+        "ESHRE 2025: đo progesterone vào ngày trigger cho chuyển phôi tươi cycle (conditional).",
+        "Progesterone >1.5 ng/mL ngày trigger → giảm cơ hội làm tổ nếu chuyển phôi tươi."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "7",
+      "part_title": "Vai trò xét nghiệm nội tiết",
+      "part_subtitle": "Hormone chỉ hữu ích khi làm thay đổi quyết định"
+    },
+    {
+      "type": "content",
+      "title": "Nguyên tắc vàng",
+      "points": [
+        "Siêu âm là trục chính. Xét nghiệm nội tiết là công cụ BỔ SUNG.",
+        "Trước khi chỉ định xét nghiệm: Kết quả này có thể làm tôi THAY ĐỔI KẾ HOẠCH hôm nay không?",
+        "Nếu KHÔNG → không làm."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "E2 (Estradiol)",
+      "points": [
+        "Hữu ích: nghi high response/OHSS; PCOS cần đánh giá nguy cơ; đáp ứng siêu âm không tương xứng.",
+        "Không cần: bệnh nhân đáp ứng điển hình, nguy cơ thấp, siêu âm rõ ràng.",
+        "E2 đơn độc không thay thế được đếm nang."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "LH và Progesterone",
+      "points": [
+        "LH: hữu ích khi nghi LH surge (flexible antagonist quên dùng, tái khám trễ, nang lớn nhanh).",
+        "LH: không cần ở fixed antagonist hoặc long agonist.",
+        "Progesterone: hữu ích trước trigger ở chuyển phôi tươi cycle (ESHRE 2025 conditional).",
+        "Progesterone >1.5 ng/mL ngày trigger: cân nhắc đông phôi toàn bộ.",
+        "Progesterone: không có ý nghĩa trong đông phôi toàn bộ cycle."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "8",
+      "part_title": "Các điểm quyết định",
+      "part_subtitle": "Decision 1-4: liều, đối vận, trưởng thành noãn, loại trưởng thành noãn"
+    },
+    {
+      "type": "content",
+      "title": "Quyết định 1 — Giữ hay đổi liều FSH?",
+      "points": [
+        "Cohort đều, tốc độ 1-2 mm/ngày, ngày 5-6 có 5-12 nang: GIỮ NGUYÊN liều.",
+        "Cohort chậm, <3 nang >10 mm ngày 7, tốc độ <1 mm/ngày: xem xét TĂNG liều nhẹ (≤75 IU).",
+        "Cohort nhanh, >15 nang >10 mm ngày 6, tốc độ >2.5 mm/ngày: GIẢM liều, cảnh giác OHSS.",
+        "Lưu ý: ESHRE 2025 không khuyến cáo điều chỉnh liều giữa chu kỳ THƯỜNG QUY."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "algorithm",
+      "variant": "branching_yesno",
+      "title": "Quyết định 2 — Bắt đầu đối vận?",
+      "question": "Nang lớn nhất ≥14 mm hoặc đến ngày 7 KTBT?",
+      "yes_branch": [
+        "Bắt đầu antagonist theo tiêu chí trung tâm",
+        "Nếu nang 14 mm sớm: bắt ngay"
+      ],
+      "no_branch": [
+        "Theo dõi tiếp",
+        "Nếu đến ngày 7 vẫn <14 mm: vẫn bắt để an toàn"
+      ]
+    },
+    {
+      "type": "content",
+      "title": "Quyết định 3 — Khi nào trưởng thành noãn?",
+      "points": [
+        "Tiêu chuẩn thực hành: ≥3 nang ≥17 mm HOẶC ≥2 nang ≥18 mm. Tối thiểu 1/2 đoàn hệ ≥14 mm.",
+        "Trigger là quyết định dựa trên TOÀN BỘ COHORT.",
+        "Nếu nhiều nang 14-16 mm sắp bắt kịp: có thể đợi thêm 1 ngày.",
+        "Nếu nhiều nang >22-24 mm: không trì hoãn chỉ để chờ nang nhỏ.",
+        "Nguy cơ OHSS cao: trigger sớm hơn là muộn hơn.",
+        "Progesterone bắt đầu tăng: không trì hoãn để chờ chuyển phôi tươi.",
+        "Sau trigger 34-36 giờ: chọc hút noãn qua đường âm đạo."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "criteria",
+      "variant": "score_points",
+      "title": "Trigger checklist",
+      "items": [
+        {
+          "text": "Số nang theo nhóm kích thước đã đủ?",
+          "points": "✓"
+        },
+        {
+          "text": "Có bao nhiêu nang nguy cơ OHSS?",
+          "points": "✓"
+        },
+        {
+          "text": "Nội mạc và progesterone còn phù hợp chuyển phôi tươi?",
+          "points": "✓"
+        },
+        {
+          "text": "Chu kỳ antagonist có thể dùng agonist trigger?",
+          "points": "✓"
+        },
+        {
+          "text": "Giờ chọc hút 34-36h sau trigger đã lên lịch?",
+          "points": "✓"
+        },
+        {
+          "text": "Kế hoạch hỗ trợ hoàng thể đã rõ?",
+          "points": "✓"
+        }
+      ]
+    },
+    {
+      "type": "two_column",
+      "title": "Quyết định 4 — Chọn loại trưởng thành noãn nào?",
+      "left_title": "hCG trigger",
+      "left_points": [
+        "nguy cơ quá kích thấp",
+        "Cả antagonist và long agonist",
+        "Liều 5.000-10.000 IU",
+        "Fresh ET được"
+      ],
+      "right_title": "GnRH agonist trigger",
+      "right_points": [
+        "nguy cơ quá kích cao",
+        "CHỈ antagonist protocol",
+        "Luôn đi kèm đông phôi toàn bộ",
+        "Khoảng cách antagonist-trigger >10h",
+        "Nguy cơ thất bại trưởng thành noãn"
+      ],
+      "variant": "vs_compare",
+      "note": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "9",
+      "part_title": "PCOS / Đáp ứng cao",
+      "part_subtitle": "Chiến lược theo dõi và phòng OHSS"
+    },
+    {
+      "type": "content",
+      "title": "Đặc điểm siêu âm của PCOS / đáp ứng cao",
+      "points": [
+        "AFC cao (>20-24 mỗi bên).",
+        "Nhiều nang nhỏ 2-5 mm dạng chuỗi hạt ngoại vi.",
+        "Thể tích buồng trứng >10 mL mỗi bên.",
+        "Khi KTBT: nhiều nang nhỏ phát triển đồng loạt → nguy cơ OHSS cao."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Chiến lược theo dõi ở đáp ứng cao",
+      "points": [
+        "Chọn antagonist protocol (ưu tiên).",
+        "Liều FSH khởi đầu THẤP: 100-150 IU/ngày.",
+        "Theo dõi siêu âm SÁT: ngày 5-6, sau đó mỗi 1-2 ngày.",
+        "E2 có thể hữu ích nhưng không bắt buộc.",
+        "Đếm nang khó hơn: dễ bỏ sót hoặc đếm lặp. Cần quét có hệ thống."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Phòng OHSS ở đáp ứng cao",
+      "points": [
+        "Antagonist protocol (không dùng long agonist).",
+        "GnRH agonist trigger thay hCG → giảm OHSS gần như tuyệt đối.",
+        "Freeze-all (không chuyển phôi tươi).",
+        "Cabergoline 0.5 mg/ngày x 8 ngày từ ngày trigger (giảm VEGF).",
+        "Coasting: ngừng FSH 1-2 ngày trước trigger nếu E2 quá cao.",
+        "Giảm liều hCG (3.000-5.000 IU) nếu bắt buộc dùng hCG."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "10",
+      "part_title": "Đáp ứng thấp",
+      "part_subtitle": "Low responder — phân biệt và chiến lược"
+    },
+    {
+      "type": "content",
+      "title": "Phân biệt trên siêu âm",
+      "points": [
+        "AFC thấp ở trước kích thích.",
+        "Số nang phát triển ít (<4-5 nang), tốc độ có thể chậm.",
+        "Buồng trứng nhỏ, khó quan sát.",
+        "Cần phân biệt: dự trữ thấp thật sự (AFC <5, AMH thấp) hay hypo-response (AFC bình thường nhưng đáp ứng kém)."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Chiến lược theo dõi ở đáp ứng thấp",
+      "points": [
+        "Siêu âm trước kích thích kỹ: AFC, vị trí buồng trứng (có thể khó chọc hút).",
+        "Theo dõi không cần quá dày (mỗi 2-3 ngày).",
+        "Mục tiêu: không bỏ lỡ trigger (vài nang lớn có thể già trong khi chờ nang nhỏ).",
+        "Cân nhắc đông phôi toàn bộ và tích lũy phôi qua nhiều chu kỳ (oocyte/embryo accumulation)."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Tư vấn ở đáp ứng thấp",
+      "points": [
+        "AMH/AFC thấp dự báo ít noãn, nhưng KHÔNG dự báo trực tiếp live birth nếu tách khỏi tuổi.",
+        "Bệnh nhân trẻ với AFC thấp có tiên lượng TỐT HƠN bệnh nhân lớn tuổi với cùng AFC.",
+        "Số noãn mục tiêu không nhất thiết là 15 — 3-5 noãn chất lượng tốt vẫn có giá trị.",
+        "ESHRE 2025: KHÔNG khuyến cáo >300 IU/ngày cho đáp ứng thấp (strong)."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "11",
+      "part_title": "Nhận diện OHSS trên siêu âm",
+      "part_subtitle": "Dấu hiệu sớm → nặng, phân loại"
+    },
+    {
+      "type": "content",
+      "title": "Dấu hiệu sớm (trước trigger)",
+      "points": [
+        "Buồng trứng to nhanh (>8 cm mỗi bên).",
+        ">20 nang đang phát triển, nhiều nang kích thước trung bình (10-16 mm).",
+        "Dịch tự do túi cùng Douglas (ít, mức độ nhẹ)."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Dấu hiệu rõ (sau trigger 3-7 ngày)",
+      "points": [
+        "Buồng trứng rất to (>10-12 cm), nhiều nang hoàng thể hóa.",
+        "Dịch tự do ổ bụng lượng nhiều (ascites).",
+        "Có thể có dịch màng phổi (pleural effusion)."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Phân loại OHSS nhanh trên siêu âm",
+      "points": [
+        "Nhẹ: buồng trứng <8 cm, dịch tự do ít hoặc không có.",
+        "Trung bình: buồng trứng 8-12 cm, ascites vừa.",
+        "Nặng: buồng trứng >12 cm, ascites căng, có thể tràn dịch màng phổi.",
+        "(Xem bài OHSS Comprehensive để phân loại đầy đủ Golan, RCOG, ASRM 2024.)"
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "12",
+      "part_title": "Freeze-all dựa trên siêu âm",
+      "part_subtitle": "Khi nào đông phôi toàn bộ, khi nào chuyển phôi tươi?"
+    },
+    {
+      "type": "content",
+      "title": "Ra quyết định đông phôi toàn bộ dựa trên siêu âm",
+      "points": [
+        ">20 nang phát triển, buồng trứng >8 cm → Freeze-all (nguy cơ quá kích cao).",
+        "Niêm mạc <7 mm hoặc dạng 2 ngày trigger → Cân nhắc đông phôi toàn bộ.",
+        "Polyp, u xơ dưới niêm, dịch lòng TC mới → Freeze-all.",
+        "Đã dùng GnRH agonist trigger → Freeze-all (trừ khi có hỗ trợ hoàng thể đặc biệt).",
+        "PPOS / Random start → Freeze-all BẮT BUỘC.",
+        "P4 >1.5 ng/mL + nội mạc dạng 2 → Freeze-all.",
+        "Đáp ứng điển hình, nội mạc ba lá, không OHSS → Có thể chuyển phôi tươi."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Tư vấn bệnh nhân về đông phôi toàn bộ",
+      "points": [
+        "Freeze-all KHÔNG có nghĩa là chu kỳ thất bại.",
+        "Vitrification: tỷ lệ sống sau rã đông >95% ở hầu hết trung tâm tốt.",
+        "Chuyển phôi chu kỳ sau với nội mạc được chuẩn bị có thể cho tỷ lệ làm tổ tương đương hoặc tốt hơn chuyển phôi tươi."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "13",
+      "part_title": "Mẫu phiếu siêu âm & checklist",
+      "part_subtitle": "Công cụ thực hành hàng ngày"
+    },
+    {
+      "type": "criteria",
+      "variant": "score_points",
+      "title": "Checklist trước khi rời phòng siêu âm",
+      "items": [
+        {
+          "text": "Hôm nay là ngày thứ mấy dùng FSH?",
+          "points": "✓"
+        },
+        {
+          "text": "Tốc độ tăng trưởng nang có phù hợp không? (so với lần trước)",
+          "points": "✓"
+        },
+        {
+          "text": "Đã đến lúc bắt đầu antagonist chưa? (với flexible)",
+          "points": "✓"
+        },
+        {
+          "text": "Có dấu hiệu OHSS không?",
+          "points": "✓"
+        },
+        {
+          "text": "Có dấu hiệu LH surge không? (P4 tăng, nội mạc thay đổi sớm)",
+          "points": "✓"
+        },
+        {
+          "text": "Liều FSH có cần thay đổi không?",
+          "points": "✓"
+        },
+        {
+          "text": "Ngày hẹn tiếp theo là khi nào?",
+          "points": "✓"
+        },
+        {
+          "text": "Bệnh nhân có hiểu kế hoạch không?",
+          "points": "✓"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "14",
+      "part_title": "Atlas ca lâm sàng",
+      "part_subtitle": "8 ca điển hình từ thực hành"
+    },
+    {
+      "type": "content",
+      "title": "Ca 1 — AFC thấp, đáp ứng chậm",
+      "points": [
+        "Bệnh nhân 39 tuổi, AFC = 4, AMH = 0.6 ng/mL.",
+        "Ngày 7 FSH 300 IU: 2 nang 11-12 mm, 1 nang 9 mm.",
+        "→ Không tăng liều thêm. Tiếp tục 300 IU. Siêu âm lại sau 2 ngày.",
+        "Tư vấn: có thể chỉ thu 2-3 noãn. Bàn về oocyte accumulation hoặc noãn hiến."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Ca 2 — PCOS, đáp ứng mạnh",
+      "points": [
+        "Bệnh nhân 28 tuổi, PCOS, AFC >30 mỗi bên.",
+        "FSH 125 IU/ngày, antagonist fixed. Ngày 6: >20 nang 6-10 mm mỗi bên.",
+        "→ Tiếp tục liều thấp. Theo dõi SÁT mỗi 1-2 ngày.",
+        "Lên kế hoạch GnRH agonist trigger + đông phôi toàn bộ. An toàn là ưu tiên số một."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Ca 3 — Flexible antagonist, nang 14 mm",
+      "points": [
+        "Bệnh nhân 33 tuổi, antagonist flexible.",
+        "Ngày 6 FSH: nang lớn nhất 14.5 mm, có 5 nang 12-13 mm.",
+        "→ Bắt đầu antagonist NGAY hôm nay. Tiếp tục FSH liều hiện tại. SA lại sau 2 ngày."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Ca 4 — Nang lệch pha",
+      "points": [
+        "Bệnh nhân 35 tuổi. Ngày 9 FSH: 2 nang 22-23 mm, 5 nang 13-14 mm, 4 nang 10-11 mm.",
+        "Khó: nang lớn đã sẵn sàng nhưng hầu hết đoàn hệ còn nhỏ.",
+        "Nếu P4 còn thấp → có thể đợi 1 ngày cho nhóm 10-11 mm.",
+        "Nếu P4 đã tăng → trigger ngay. Nhóm lớn sẽ >24 mm nếu đợi."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Ca 5 — Progesterone tăng ngày trigger",
+      "points": [
+        "Bệnh nhân 31 tuổi, đáp ứng tốt.",
+        "Ngày trigger: 12 nang 16-20 mm, nội mạc 10 mm dạng 2, P4 = 2.1 ng/mL.",
+        "→ Đã có lệch pha nội mạc. Dù nang đẹp, chuyển phôi tươi khả năng thấp.",
+        "Tư vấn đông phôi toàn bộ. Trigger bình thường, chọc hút, đông phôi toàn bộ."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Ca 6 — Buồng trứng khó tiếp cận",
+      "points": [
+        "Bệnh nhân 34 tuổi, tiền sử mổ bóc endometrioma buồng trứng trái.",
+        "Siêu âm: buồng trứng trái nằm sau tử cung, cách đầu dò ~4 cm, có quai ruột xen giữa.",
+        "→ Ghi rõ vị trí, khoảng cách, vật cản. Báo trước ekip chọc hút.",
+        "Có thể cần ấn bụng/thay đổi tư thế. Không hủy chu kỳ vì access khó."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Ca 7 — Nang tồn dư trước kích thích",
+      "points": [
+        "Bệnh nhân 29 tuổi. Baseline: AFC = 12, có 1 nang đơn thuần 22 mm buồng trứng phải.",
+        "Nếu E2 và P4 thấp → nang không hoạt động. Có thể bắt đầu KTBT.",
+        "Nếu E2 tăng → nang hoạt động: chọc hút hoặc dùng COCP 7-10 ngày.",
+        "Nếu có chỉ định gấp (bảo tồn sinh sản): chọc hút nang rồi bắt đầu FSH."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Ca 8 — Nghi thất bại trưởng thành noãn sau GnRHa",
+      "points": [
+        "Bệnh nhân antagonist cycle, GnRHa trigger (triptorelin 0.2 mg).",
+        "Sau trigger 12h: LH <15 IU/L (nếu xét nghiệm).",
+        "→ Nghi thất bại trưởng thành noãn.",
+        "Đo LH sau trigger 8-12h. Nếu LH không tăng rõ: rescue bằng hCG 5.000-10.000 IU.",
+        "Chọc hút theo lịch hCG (34-36h sau mũi rescue)."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "15",
+      "part_title": "Bài học lâm sàng",
+      "part_subtitle": "10 điểm cốt lõi để thực hành tốt hơn"
+    },
+    {
+      "type": "content",
+      "title": "Pearl 1-5",
+      "points": [
+        "1. AFC không phải là cuộc thi đếm. Độ đồng đều và ghi nhận buồng trứng khó tiếp cận quan trọng không kém con số AFC.",
+        "2. Ngày 5-7 là MỐC QUAN TRỌNG NHẤT. Đánh giá đáp ứng ban đầu và quyết định antagonist.",
+        "3. Không trì hoãn trigger chỉ để chờ vài nang nhỏ. Mất 2 noãn non còn hơn hỏng cả chu kỳ.",
+        "4. PCOS: đoán trước OHSS, đừng đợi thấy dịch mới lo. Nếu >20 nang, lên kế hoạch GnRHa + đông phôi toàn bộ từ trước.",
+        "5. Nội mạc chỉ cần đo có ý nghĩa khi gần trigger. Đo mỗi lần gây lo lắng không cần thiết."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "content",
+      "title": "Pearl 6-10",
+      "points": [
+        "6. Fixed antagonist dễ vận hành hơn flexible. Trung tâm đông, bệnh nhân khó tái khám đúng hẹn → chọn fixed.",
+        "7. Buồng trứng khó chọc hút: ghi ngay từ trước kích thích, cập nhật mỗi lần siêu âm.",
+        "8. Progesterone là đèn vàng cho chuyển phôi tươi. P4 >1.5 ng/mL → đông phôi toàn bộ thường an toàn hơn.",
+        "9. Số noãn mục tiêu không phải càng nhiều càng tốt. ~15 noãn là tối ưu. Trên 20: OHSS tăng mà live birth không tăng (PMID 21558332).",
+        "10. Kết thúc mỗi lần siêu âm bằng một KẾ HOẠCH RÕ RÀNG. Bệnh nhân cần biết: liều, ngày hẹn, bước tiếp theo."
+      ],
+      "footnote": "US Monitoring Ovarian Stimulation 2026-07-04 — PMID 41732035; 32395637; 33280722; 21558332; 26597569"
+    },
+    {
+      "type": "references",
+      "variant": "numbered",
+      "title": "Tài liệu tham khảo đã verify",
+      "refs": [
+        "ESHRE guideline ovarian stimulation 2025 update. PMID: 41732035.",
+        "ESHRE guideline ovarian stimulation for IVF/ICSI. PMID: 32395637.",
+        "ASRM: testing and interpreting measures of ovarian reserve. PMID: 33280722.",
+        "Sunkara: number of eggs and live birth in IVF (400,135 cycles). PMID: 21558332.",
+        "OHSS prevention and detection consensus. PMID: 26597569.",
+        "ASRM 2024: prevention of moderate and severe OHSS. PMID: 38099867.",
+        "Humaidan 2011: GnRH agonist vs HCG for oocyte triggering. PMID: 21450755.",
+        "HERA Delphi consensus: AMH/AFC thresholds for hyperresponse risk. PMID: 39603489."
+      ]
+    }
+  ]
+}

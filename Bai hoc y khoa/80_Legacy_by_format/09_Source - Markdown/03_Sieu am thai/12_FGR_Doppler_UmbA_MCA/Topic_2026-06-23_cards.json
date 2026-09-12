@@ -1,0 +1,105 @@
+{
+  "deck_name": "FGR - Doppler UmbA & MCA",
+  "cards": [
+    {
+      "front": "FGR là gì và khác gì với SGA?",
+      "back": "FGR (fetal growth restriction) = thai không đạt tiềm năng tăng trưởng do bệnh lý (thường do suy nhau), đặc trưng bởi giảm tốc độ tăng trưởng và/hoặc Doppler bất thường.\n\nSGA (small-for-gestational age) = thai nhỏ, EFW/AC < P10. Có thể do bản thân thai nhỏ (constitutional) hoặc do FGR.\n\nFGR luôn là bệnh lý; SGA có thể là sinh lý. Theo ISUOG 2020, FGR cần EFW/AC < P3 HOẶC < P10 + Doppler bất thường. (PMID 32738107)"
+    },
+    {
+      "front": "Phân biệt early-onset FGR và late-onset FGR?",
+      "back": "Early-onset FGR: chẩn đoán < 32 tuần, thường có UAD bất thường sớm (PI tăng → AEDV → REDV), tiên lượng nặng, sinh 30–34 tuần.\n\nLate-onset FGR: chẩn đoán ≥ 32 tuần, thường có MCA-PI giảm (brain-sparing) trong khi UAD bình thường, tiên lượng nhẹ hơn, sinh 37–39 tuần.\n\n(PMID 35026129, Lees CC 2022)"
+    },
+    {
+      "front": "Định nghĩa FGR theo ISUOG 2020?",
+      "back": "EFW hoặc AC < P3, HOẶC\nEFW/AC < P10 KẾT HỢP một trong:\n• UAD PI > P95\n• MCA-PI < P5\n• UtA-PI > P95\n• Crossing centiles (giảm tốc độ tăng trưởng)\n\n(PMID 32738107)"
+    },
+    {
+      "front": "Định nghĩa FGR theo SMFM 2020?",
+      "back": "SMFM đơn giản hơn: EFW hoặc AC < P10 (không cần Doppler để chẩn đoán).\n\nGRADE 1B, dùng population-based fetal growth reference (Hadlock).\n\nSo sánh ISUOG vs SMFM: SMFM có độ nhạy cao hơn (54.7% vs 28.8% cho SGA sơ sinh), nhưng ISUOG có độ đặc hiệu cao hơn (98.4% vs 93.3%) và PPV cao hơn (72.7% vs 55.5%). (PMID 32407785, 33798274)"
+    },
+    {
+      "front": "Kỹ thuật đo Doppler động mạch rốn (UAD) đúng cách?",
+      "back": "• Lấy mẫu ở dây rốn tự do (free cord loop), không đo ở đoạn bám bụng thai hay bám nhau\n• Tính Pulsatility Index (PI) hoặc S/D ratio\n• So sánh với bách phân vị theo tuổi thai\n• PI > P95 = bất thường\n• Góc insonation < 30°\n\n(PMID 31169958, 32738107)"
+    },
+    {
+      "front": "AEDV và REDV nghĩa là gì? Ý nghĩa lâm sàng?",
+      "back": "AEDV (Absent End-Diastolic Velocity) = không có dòng cuối tâm trương ở UAD → suy nhau tiến triển.\n\nREDV (Reversed End-Diastolic Velocity) = dòng cuối tâm trương đảo ngược → suy nhau nặng, nguy cơ tử vong thai.\n\nTheo SMFM 2020:\n• AEDV: Doppler 2-3 lần/tuần, sinh 33-34 tuần\n• REDV: nhập viện, corticosteroids, CTG 1-2 lần/ngày, cân nhắc sinh 30-32 tuần\n(PMID 32407785)"
+    },
+    {
+      "front": "Kỹ thuật đo Doppler động mạch não giữa (MCA) đúng cách?",
+      "back": "• Mặt cắt axial ngang thai ở mức đồi thị (thalami) và xương cánh bướm (sphenoid)\n• MCA là nhánh lớn nhất của vòng Willis\n• Dùng Doppler màu (color Doppler) để xác định\n• Đặt cổng Doppler ngay giữa đoạn gần (proximal third) của MCA\n• Góc insonation < 30°\n• Tính PI và so sánh với bách phân vị\n\nMCA-PI < P5 = brain-sparing. (PMID 32738107)"
+    },
+    {
+      "front": "Cerebroplacental ratio (CPR) là gì? Ý nghĩa?",
+      "back": "CPR = MCA-PI / UA-PI\n\nKết hợp 2 thông tin: não có ưu tiên tưới máu không (MCA thấp) + nhau có suy không (UA cao).\n\nCPR < P5 hoặc CPR < 1.0 = bất thường.\n\nTheo meta-analysis 22 nghiên cứu / 4301 phụ nữ (Conde-Agudelo 2018): predictive accuracy cho tử vong chu sinh AUC = 0.83, sensitivity 93%, specificity 76%, LR+ 3.9, LR- 0.09. (PMID 29920817)"
+    },
+    {
+      "front": "Brain-sparing effect là gì? Cơ chế?",
+      "back": "Khi nhau suy → giảm oxy và dinh dưỡng đến thai → cơ chế bù trừ thần kinh-mạch máu:\n\n• MCA giãn → PI giảm → tăng tưới máu não\n• Động mạch ngoại vi (thận, ruột) co mạch → PI tăng\n\nHậu quả: MCA-PI giảm, UA-PI tăng → CPR giảm.\n\nLưu ý: brain-sparing có thể \"bình thường hóa\" ở thai rất nặng (terminal) do mất cơ chế tự điều hòa. (PMID 35026129)"
+    },
+    {
+      "front": "Diễn tiến Doppler trong early-onset FGR theo thứ tự thời gian?",
+      "back": "Theo Lees CC 2022 (PMID 35026129):\n\n1. UAD PI tăng > P95 (giảm dòng cuối tâm trương)\n2. UAD AEDV (Absent End-Diastolic Velocity)\n3. UAD REDV (Reversed End-Diastolic Velocity)\n4. Ductus venosus PI tăng / sóng a âm\n5. CTG bất thường (mất variability, decelerations)\n6. Thai chết\n\nLate-onset FGR thường chỉ biểu hiện ở giai đoạn muộn với MCA-PI giảm trong khi UAD vẫn bình thường."
+    },
+    {
+      "front": "Tần suất theo dõi UAD Doppler theo SMFM 2020?",
+      "back": "Theo SMFM 2020 (PMID 32407785):\n\n• UAD bình thường + EFW P3-P10: hàng tuần\n• UAD PI > P95: hàng tuần + theo dõi MCA, CTG\n• UAD AEDV: 2-3 lần/tuần, cân nhắc nhập viện + corticosteroids\n• UAD REDV: nhập viện, corticosteroids, CTG 1-2 lần/ngày, cân nhắc sinh\n\nSMFM không khuyến cáo dùng MCA, DV, UtA Doppler cho quản lý thường quy FGR (GRADE 2B)."
+    },
+    {
+      "front": "Quyết định thời điểm sinh trong FGR theo SMFM 2020?",
+      "back": "| Tình huống | Tuổi thai sinh | GRADE |\n|---|---|---|\n| FGR + UAD bình thường + EFW P3-P10 | 38-39 tuần | 2C |\n| FGR + UAD PI > P95 HOẶC EFW < P3 | 37 tuần | 1B |\n| FGR + UAD AEDV | 33-34 tuần | 1B |\n| FGR + UAD REDV | 30-32 tuần | 1B |\n\nCorticosteroids trước sinh (GRADE 1A): < 33 6/7 tuần, hoặc 34 0/7 - 36 6/7 tuần nếu nguy cơ sinh trong 7 ngày.\n\nMagnesium sulfate (GRADE 1A): bảo vệ thần kinh nếu < 32 tuần. (PMID 32407785)"
+    },
+    {
+      "front": "Các can thiệp KHÔNG khuyến cáo trong FGR (SMFM 2020)?",
+      "back": "Theo SMFM 2020, GRADE 1B, KHÔNG dùng:\n\n• Heparin trọng lượng phân tử thấp (LMWH) để phòng ngừa FGR tái phát\n• Sildenafil để điều trị FGR trong tử cung\n• Hạn chế hoạt động (bed rest) để điều trị FGR\n• Screening toxoplasmosis, rubella, herpes khi không có yếu tố nguy cơ khác\n\n(PMID 32407785)"
+    },
+    {
+      "front": "Khi nào chỉ định chromosomal microarray (CMA) ở thai FGR?",
+      "back": "Theo SMFM 2020:\n\n• FGR + dị tật thai HOẶC đa ối → CMA bất kể tuổi thai (GRADE 1B)\n• FGR cô lập không giải thích được, < 32 tuần → đề nghị CMA (GRADE 1C)\n• FGR không giải thích được + chọn chẩn đoán qua nước ối → PCR CMV (GRADE 1C)\n\n(PMID 32407785)"
+    },
+    {
+      "front": "Cơ chế bệnh sinh 2 giai đoạn của FGR?",
+      "back": "Giai đoạn 1 (sớm, thầm lặng): Sự xâm nhập của trophoblast vào spiral arteries bị hạn chế (shallow trophoblast invasion) → spiral arteries giữ cấu trúc cơ trơn → đáp ứng với vasoconstrictor → giảm tưới máu nhau ngay từ đầu thai kỳ.\n\nGiai đoạn 2 (lâm sàng): Nhau thiếu máu cục bộ → giải phóng yếu tố chống tạo mạch (sFlt-1 ↑) và giảm yếu tố tạo mạch (PlGF ↓) → endothelial dysfunction toàn thân → biểu hiện lâm sàng (tăng huyết áp, proteinuria ở mẹ; giảm tăng trưởng ở thai). (PMID 31111484, FIGO 2019)"
+    },
+    {
+      "front": "DRIGITAT trial 2024 kết luận gì?",
+      "back": "DRIGITAT (PMID 38498267, BJOG 2024): Multicentre cohort + nested RCT ở Hà Lan, 690 thai SGA 32-36+6 tuần.\n\nCan thiệp: sinh ngay từ 34 tuần vs theo dõi đến 37 tuần (ở thai có UCR bất thường 2 lần liên tiếp + EFW < P3/P10).\n\nKết quả: RCT bị dừng sớm vì tỷ lệ tham gia thấp (n=40). Nhóm sinh ngay có cân nặng thấp hơn và CAPO có xu hướng cao hơn.\n\nKết luận: Sinh sớm SGA có UCR bất thường 34-36 tuần CHỈ nên thực hiện trong thử nghiệm lâm sàng. Ngoài thử nghiệm, chưa có bằng chứng lợi ích."
+    },
+    {
+      "front": "Kết quả chính của nghiên cứu Lopian 2025 về siêu âm 35-37 tuần?",
+      "back": "Lopian et al. 2025 (PMID 40286315, UOG): Retrospective cohort 14,161 thai kỳ nguy cơ thấp, siêu âm 35+0 đến 37+6 tuần.\n\n• Tỷ lệ SGA: 3.1%; FGR: 1.5%\n• Independent predictors: EFW centile (aOR 0.91), AC centile, UA-PI MoM (aOR 4.60), MCA-PI MoM (aOR 0.37), CPR MoM (aOR 0.23), UtA-PI MoM (aOR 2.54)\n• EFW centile alone: AUC 0.917 cho SGA, 0.925 cho FGR\n• Kết hợp Doppler với EFW centile: AUC ~0.92-0.93 - KHÔNG cải thiện nhiều\n\nKết luận: EFW centile ở quý 3 muộn là yếu tố tiên đoán mạnh nhất; Doppler bổ trợ nhưng không tăng AUC thêm nhiều."
+    },
+    {
+      "front": "Hong 2025: CPR liên quan với bệnh lý nhau thế nào?",
+      "back": "Hong et al. 2025 (PMID 40329845, UOG): Prospective cohort 367 thai SGA/FGR.\n\nCPR < P5, UAD bất thường, và UtA-PI > P95 đều liên quan mạnh với placental maternal vascular malperfusion (MVM) - tổn thương nền tảng của preeclampsia/FGR:\n\n• CPR < P5: aOR 2.47 (95% CI 1.64-4.33)\n• UAD bất thường: aOR 3.13 (95% CI 1.91-5.12)\n• UtA-PI > P95: aOR 4.01 (95% CI 2.25-7.13)\n• PlGF < 100 ng/L: aOR 2.89\n• sFlt-1/PlGF ratio tăng: aOR 3.15"
+    },
+    {
+      "front": "Paules 2019: Lão hóa nhau sớm trong SGA/FGR?",
+      "back": "Paules et al. 2019 (PMID 30125412, UOG): Cả SGA (P3-P9, Doppler bình thường) VÀ FGR đều có dấu hiệu lão hóa nhau sớm so với thai bình thường:\n\n• Telomerase hoạt động giảm: 12.8% (control) vs 7.98% (SGA) vs 7.79% (FGR), P=0.008\n• Telomere ngắn: T/S ratio 1.20 vs 1.08 vs 0.66, P=0.047\n• Sirtuin-1 giảm: 1.55 vs 0.91 vs 0.63, P=0.001\n• p53 tăng\n\nKết luận: Thách thức quan niệm SGA constitutional hoàn toàn lành tính - cần theo dõi sát hơn trước đây."
+    },
+    {
+      "front": "ASPRE trial: Hiệu quả sàng lọc tiền sản giật?",
+      "back": "ASPRE trial (PMID 28741785, UOG 2017): Prospective first-trimester screening 25,797 singleton pregnancies bằng maternal factors + MAP + UtA-PI + PAPP-A + PlGF ở 11-13 tuần.\n\nKết quả:\n• DR cho preterm PE (<37 tuần): 76.7% với cut-off 1/100, FPR 9.2%\n• DR cho term PE: 43.1%\n• Aspirin 150 mg/đêm từ 11-14 tuần đến 36 tuần giảm 62% tỷ lệ preterm PE\n\n(PMID 31111484, FIGO 2019 khuyến cáo universal screening ở quý 1)"
+    },
+    {
+      "front": "Theo ISUOG 2020, theo dõi early-onset FGR thế nào?",
+      "back": "Theo ISUOG 2020 (PMID 32738107):\n\n• Doppler mỗi 1-2 tuần + CTG hàng tuần\n• Khi có AEDV/REDV: Doppler 2-3 lần/tuần\n• Kết hợp DV Doppler + computerized CTG (cCTG) - RCT cho thấy 95% trẻ sống có neurodevelopment bình thường 2 tuổi\n\nLate-onset FGR: UAD + MCA Doppler hàng tuần, CTG 1-2 lần/tuần."
+    },
+    {
+      "front": "CPR có vai trò gì trong quyết định thời điểm sinh không?",
+      "back": "Theo Lees CC 2022 (PMID 35026129):\n\n• MCA-PI thấp liên quan với kết cục chu sinh xấu trong late FGR\n• CHƯA có bằng chứng hỗ trợ việc dùng MCA để quyết định thời điểm sinh\n• MCA bất thường có giá trị tăng cường theo dõi thai nguy cơ\n\nTheo SMFM 2020 (PMID 32407785), GRADE 2B: KHÔNG dùng Doppler MCA, DV, hoặc UtA cho quản lý thường quy FGR."
+    },
+    {
+      "front": "Khi nào dùng corticosteroids trước sinh ở thai FGR?",
+      "back": "Theo SMFM 2020, GRADE 1A:\n\n• Cho mọi thai kỳ dự kiến sinh trước 33 6/7 tuần\n• Và 34 0/7 - 36 6/7 tuần nếu:\n  - Có nguy cơ sinh non trong 7 ngày\n  - Chưa dùng đợt trước\n  - Không có chống chỉ định\n\nMagnesium sulfate (GRADE 1A): bảo vệ thần kinh thai nhi nếu < 32 tuần. (PMID 32407785)"
+    },
+    {
+      "front": "Phân biệt 2 nhóm định nghĩa FGR theo hiệu năng lâm sàng?",
+      "back": "Theo Roeckner 2021 (PMID 33798274, UOG), so sánh ISUOG vs SMFM ở 1054 thai kỳ 26+0 - 36+6 tuần:\n\n• SMFM-FGR: 13.0% (137/1054)\n• ISUOG-FGR: 5.2% (55/1054)\n• Composite ANO: 13.2%\n• SGA sơ sinh: 13.2%\n\nTiên đoán SGA sơ sinh:\n• SMFM: sensitivity 54.7%, specificity 93.3%, PPV 55.5%, LR+ 8.2\n• ISUOG: sensitivity 28.8%, specificity 98.4%, PPV 72.7%, LR+ 18.0\n\nCả hai đều kém trong tiên đoán composite ANO (sensitivity 10-15%)."
+    },
+    {
+      "front": "Tại sao chỉ dựa vào UAD là chưa đủ cho late-onset FGR?",
+      "back": "Trong late-onset FGR (≥32 tuần), tổn thương nhau thường khu trú và nhẹ → UAD có thể vẫn bình thường vì phần lớn nhau còn hoạt động bù trừ.\n\nBiểu hiện sớm nhất là giảm MCA-PI (brain-sparing) → tăng tưới máu não bù trừ.\n\nVì vậy, cần đo CẢ UAD + MCA ở late-onset FGR, và tính CPR. Chỉ dựa vào UAD sẽ bỏ sót nhiều ca late-onset FGR. (PMID 35026129)"
+    }
+  ]
+}

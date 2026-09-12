@@ -1,0 +1,498 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-07-29T09:50:29.838212Z",
+  "providers": [
+    "europe_pmc_metadata",
+    "europe_pmc_oa_full_text",
+    "crossref_retraction_watch",
+    "openalex",
+    "official_source"
+  ],
+  "records": {
+    "pmid:27498055": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "27498055",
+        "pmcid": null,
+        "doi": "10.1016/j.jelectrocard.2016.07.002",
+        "openalex": "https://openalex.org/W2481254472"
+      },
+      "title": "Impact of the high-frequency cutoff of bandpass filtering on ECG quality and clinical interpretation: A comparison between 40Hz and 150Hz cutoff in a surgical preoperative adult outpatient population.",
+      "abstract": "<h4>Background</h4>In 1990 the American Heart Association (AHA) established a standard 0.05 to 150Hz bandwidth for the routine recording of 12-lead electrocardiograms (ECGs). However, subsequent studies have indicated a very high prevalence of deviations from the recommended cutoffs.<h4>Objective</h4>This prospective observational study investigates the impact of 40Hz compared to 150Hz high-frequency cutoffs on ECG quality and clinical interpretation in a single-center surgical outpatient population.<h4>Methods</h4>1582 consecutive adult patients underwent two standard 12-lead ECG tracings using different high-frequency cutoffs (40Hz and 150Hz). Two blinded cardiologists randomly reviewed and interpreted the recordings according to pre-defined parameters (PR and ST segment, Q and T wave abnormalities). An arbitrary score, ranging from 1 to 3, was established to evaluate the perceived quality of the recordings and the non-interpretable ECGs were noted. The tracings were then matched to compare interpretations between 40 and 150Hz filters.<h4>Results</h4>A 40Hz high-frequency cutoff resulted in an increased rate of optimal quality ECGs compared to the 150Hz cutoff (93.4% vs 54.6%; p<0.001) and a lower rate of non-interpretable traces (0.25% vs 4.80%; p<0.001). Analyzing the morphologic parameters, no significant differences between the filter settings were found, except for a higher incidence of the J-point elevation in the 40Hz high-frequency cutoff (p=0.007) and a higher incidence of left ventricular hypertrophy in the 150Hz high-frequency cutoff (7.4% vs 5.4%, p<0.001). The latter was noted only in ECGs with borderline QRS amplitudes (between 3.3 and 3.7mV; p<0.001).<h4>Conclusion</h4>Despite current recommendations, the large deviation from standard high-frequency cutoff in clinical practice does not seem to significantly affect ECG clinical interpretation and a 40Hz high-frequency cutoff of the band-pass filtering may be acceptable in a low risk population, allowing for a better quality of tracings.",
+      "journal": "Journal of electrocardiology",
+      "year": "2016",
+      "publication_types": [
+        "Journal Article",
+        "Observational Study"
+      ],
+      "topics": [
+        "Cutoff",
+        "Medicine",
+        "QRS complex",
+        "Cardiology",
+        "Cutoff frequency",
+        "Internal medicine",
+        "Population",
+        "Observational study",
+        "Incidence (geometry)",
+        "Left ventricular hypertrophy",
+        "Nuclear medicine",
+        "Mathematics",
+        "Physics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "5792255d349c00e02eed4aba2748195f10261e99fb7d3b79e7e0c9552bfb501b",
+        "770c6c7a182a86445a8cd9957330556488f32ee77c8ca355c4f196402a326c15",
+        "859e97d4ae8d7fea246fdeee78215aa81ee4152692f6f724edcb4a8a0a9989de"
+      ],
+      "metadata_checked_at": "2026-07-29T09:50:29.838212Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T09:50:29.838212Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:17317378": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "17317378",
+        "pmcid": null,
+        "doi": "10.1016/j.amjcard.2006.09.123",
+        "openalex": "https://openalex.org/W2120555250"
+      },
+      "title": "Prevalence and clinical implications of improper filter settings in routine electrocardiography.",
+      "abstract": "High- and low-filter bandwidth governs the fidelity of electrocardiographic waveforms, including the durations used in established criteria for infarction, the amplitudes used for the diagnosis of ventricular hypertrophy, and the accuracy of the magnitudes of ST-segment elevation and depression. Electrocardiographs allow users to reset high- and low-filter settings for special electrocardiographic applications, but these may be used inappropriately. To examine the prevalence of standard and nonstandard electrocardiographic filtering at 1 general medical community, 256 consecutive outpatient electrocardiograms (ECGs) submitted in advance of ambulatory or same-day admission surgery during a 3-week period were examined. ECGs were considered to meet standards for low-frequency cutoff when equal to 0.05 Hz and to meet standards for high-frequency cutoff when equal to 100 Hz, according to American Heart Association recommendations established in 1975. Only 25% of ECGs (65 of 256) conformed to recommended standards; 75% of ECGs (191 of 254) did not. The most prevalent deviation from standard was reduced high-frequency cutoff, which was present in 96% of tracings with nonstandard bandwidth (most commonly 40 Hz). Increased low-frequency cutoff was present in 62% of ECGs in which it was documented. In conclusion, improper electrocardiographic filtering, with potentially adverse clinical consequences, is highly prevalent at 1 large general medical community and is likely a generalized problem. This problem should be resolvable by targeted educational efforts to reinforce technical standards in electrocardiography.",
+      "journal": "The American journal of cardiology",
+      "year": "2007",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "Electrocardiography",
+        "Medicine",
+        "Cutoff",
+        "Cutoff frequency",
+        "Cardiology",
+        "Left axis deviation",
+        "Ambulatory",
+        "Myocardial infarction",
+        "Internal medicine",
+        "Electrical engineering",
+        "Physics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "4e3b6278a5eb42474970f031fdd7e739029ff3533879247fe7f869f69cfaa12a",
+        "592961cf8edd4b69eb88ed8c38eea713674a4cb6f91e05cc5583d368e5ddfc95",
+        "5d758f6ee1bd9a75a28a7e22a5f9726d449b910b7a0ba988ff6f1d909c314598"
+      ],
+      "metadata_checked_at": "2026-07-29T09:50:29.838212Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T09:50:29.838212Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:41103868": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "41103868",
+        "pmcid": "PMC12522010",
+        "doi": "10.7759/cureus.92345",
+        "openalex": "https://openalex.org/W4414183235"
+      },
+      "title": "A Study of the Frequency of Lead Reversal at a Tertiary Care Institution.",
+      "abstract": "<h4>Background</h4>Electrocardiography (ECG) remains an important point-of-care investigative modality in the screening and diagnosis of cardiac diseases due to rapidity, cost-efficiency, and a gentle learning curve for most emergent patterns. Mechanistical problems in recording ECGs can lead to distorted graphical representations of cardiac electrophysiology, which can lead to incorrect or obstructed care for the patient.<h4>Aim</h4>To identify the prevalence of ECG lead reversal in a tertiary care hospital over two months and to discuss the various patterns of ECG lead misplacement.<h4>Methods</h4>A total of 1,000 ECGs were screened over a period of two months. ECGs with features suspicious for lead misplacement were identified, the corresponding patients had a repeat ECG taken under supervision, and the presence or absence of lead misplacement was verified on the basis of chest lead progression, inverted limb complexes, and isolated flatlines. ECGs of paediatric patients (<18 years) and patients with cardiac axis abnormalities (e.g., dextrocardia) were excluded.<h4>Results</h4>Fifteen out of 1,000 ECGs were confirmed to have lead misplacement (1.5%). Eleven (1.1%) of these had limb lead reversal, of which eight were LA-LL reversal (0.8%) and three were RA-LA reversal (0.3%). Four ECGs had evidence of chest lead reversal (0.4%).<h4>Conclusion</h4>It is important for healthcare professionals to learn to recognize electrical patterns of lead reversal, as the ECG must be retaken promptly and carefully after repositioning the leads correctly, in order to avoid delays or disturbances in the care of patients.",
+      "journal": "Cureus",
+      "year": "2025",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "Tertiary care",
+        "Institution",
+        "Health professionals",
+        "Health care",
+        "Lead (geology)",
+        "Patient care"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "b8499f16a8e059df957f9f9f94abc84582c32d97cc561e6984e195283a53f10c",
+        "e711364aeb017a2272aac3173f2e2112f005e403721e6bb94ea0aa9014c362c8",
+        "a8bec5fed020d39d61e35a6ce19dcef5679fbc927c8b3aad79569311862393f2",
+        "1152a2fc483277f2c03d8aa26432ef4764d5591574e9a735cbf1a096e1e7d05b"
+      ],
+      "metadata_checked_at": "2026-07-29T09:50:29.838212Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "pmcid": "PMC12522010",
+        "sha256": "1152a2fc483277f2c03d8aa26432ef4764d5591574e9a735cbf1a096e1e7d05b"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T09:50:29.838212Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:25213624": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "25213624",
+        "pmcid": null,
+        "doi": "10.1016/j.jelectrocard.2014.08.015",
+        "openalex": "https://openalex.org/W2054745790"
+      },
+      "title": "The development and validation of an early warning system to prevent the acquisition of 12-lead resting ECGs with interchanged electrode positions.",
+      "abstract": "<h4>Background</h4>A fraction of routine resting ECG's are taken with electrode positions interchanged, leading to possible clinical misinterpretation.<h4>Objective</h4>Develop and test a method to detect and prevent electrode reversals at the electrocardiograph before the ECG is acquired.<h4>Method</h4>The algorithm is based on QRS axis and P amplitudes for limb electrode reversals, and P-Q-RS amplitude distances to detect chest electrode reversals. The evaluation method involved a large (>18,000) hospital database for which serial ECG's were available and was based on simulated juxtapositions.<h4>Results</h4>The 7 most common lead reversals could be detected with a specificity of 99.8% per type and an average sensitivity of 90%, excluding LA-LL reversal (22% sensitivity).<h4>Discussion</h4>Results are similar to retrospective studies that used smaller, more homogeneous datasets.<h4>Conclusion</h4>The early warning system reduces the ECG's recorded with reversal by 80%, at the price of a modest false alert rate of 1.4%.",
+      "journal": "Journal of electrocardiology",
+      "year": "2014",
+      "publication_types": [
+        "Validation Study",
+        "Evaluation Study",
+        "Journal Article"
+      ],
+      "topics": [
+        "QRS complex",
+        "Electrode",
+        "Lead (geology)",
+        "Sensitivity (control systems)",
+        "Homogeneous",
+        "Warning system",
+        "Amplitude",
+        "Cardiology",
+        "Medicine",
+        "Internal medicine",
+        "Computer science",
+        "Mathematics",
+        "Chemistry",
+        "Physics",
+        "Combinatorics",
+        "Telecommunications",
+        "Geology"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "4450b30da80c8434f5983046be35f9d2f83372a5b8534b3efdd8e7330949c63e",
+        "61fb20c3a52ac3ca4417e6c054c5c5c6336a7ce9296189f7ca3a0514dfac495f",
+        "70e2dbfa5ae0aee2495244e36bb69240eafa28c1564a54dfd37bf05d4cbb8977"
+      ],
+      "metadata_checked_at": "2026-07-29T09:50:29.838212Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T09:50:29.838212Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:11320465": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "11320465",
+        "pmcid": null,
+        "doi": "10.1054/jelc.2001.23927",
+        "openalex": "https://openalex.org/W2082959181"
+      },
+      "title": "Use of the sinus P wave in diagnosing electrocardiographic limb lead misplacement not involving the right leg (ground) lead.",
+      "abstract": "No general approach has been established for the diagnoses of the various types of electrocardiograms of limb lead misplacement not involving the right leg (ground) lead. We have developed a 3-step algorithm for such differential diagnosis that can be applied without having to rely on the comparison with a reference electrocardiogram. It is based on the observation that the frontal plane sinus P vector loop is almost invariably inscribed counterclockwise. The 5 types of electrocardiograms of limb lead misplacement can be differentiated according to the P wave axis, the location of the lead aVR in the electrocardiogram, and specifically any apparent reversal of the direction of inscription of the frontal plane P vector loop due to lead misplacement. Characteristic limb lead P wave patterns provide 6 signs capable of inferring from the electrocardiogram alone the direction of inscription about 94% of the time. P wave axis itself is diagnostic in an additional 4%.",
+      "journal": "Journal of electrocardiology",
+      "year": "2001",
+      "publication_types": [
+        "Comparative Study",
+        "Journal Article"
+      ],
+      "topics": [
+        "Lead (geology)",
+        "Vectorcardiography",
+        "Clockwise",
+        "Medicine",
+        "Sinus (botany)",
+        "P wave",
+        "Electrocardiography",
+        "Cardiology",
+        "Physics",
+        "Geology",
+        "Amplitude",
+        "Optics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "6471dacec1b1ffea0ac9ce8c98f25f7f6a991147331d5543ecbda819e5bddd4d",
+        "8a4787d8da8a9f8a6a5436d0959c8cbcfcc8035cc53dec1ed6c37b8568edeb03",
+        "788f9f0e4aa78edb76592f6cb90717b3d02845d83e9a4733fbea3c0b0baa15b0"
+      ],
+      "metadata_checked_at": "2026-07-29T09:50:29.838212Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T09:50:29.838212Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:22929906": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "22929906",
+        "pmcid": null,
+        "doi": "10.1016/j.jemermed.2012.02.024",
+        "openalex": "https://openalex.org/W2070262037"
+      },
+      "title": "Electrocardiographic electrode misplacement, misconnection, and artifact.",
+      "abstract": "<h4>Background</h4>Electrocardiograms (ECGs) are performed by humans, and thus are subject to human error. An underappreciated source of electrocardiographic abnormality is electrode misconnection, both limb and precordial, and improper placement, which is principally an issue with the precordial electrodes due to anatomic variation. Patterns of abnormality exist; recognition allows the emergency physician to avoid mistaking the resulting electrocardiographic findings for true pathology.<h4>Objectives</h4>The purpose of this clinical review is to describe the patterns of electrocardiographic electrode reversal, misplacement, and artifact and thus make them recognizable to the Emergency Physician.<h4>Discussion</h4>Common limb electrode reversals feature distinctive patterns manifesting as unexpected morphologic and frontal plane axis changes in the QRS complexes in the limb and augmented leads. Precordial electrode misplacement (improper positioning of the electrodes on the chest) is common and may mimic a pseudoinfarction pattern, or ST-segment/T-wave changes, which must be recognized as the result of the misplacement rather than true cardiac ischemia. Precordial electrode reversal should be suspected when the normal R/S wave amplitude transition is violated. Electrocardiographic artifact must be distinguished from dysrhythmia to avoid a potentially hazardous progression to unnecessary diagnostics and therapeutics.<h4>Conclusions</h4>The hallmarks of electrode misconnection, misplacement, and electrocardiographic artifact can be easily mastered by the Emergency Physician; recognition of these findings can positively impact patient care by avoiding unnecessary intervention secondary to misattribution of findings on the 12-lead ECG to cardiac pathology.",
+      "journal": "The Journal of emergency medicine",
+      "year": "2012",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "Precordial examination",
+        "Artifact (error)",
+        "QRS complex",
+        "Medicine",
+        "Abnormality",
+        "Electrocardiography",
+        "Cardiology",
+        "Internal medicine",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "b8b2b2a6538378fe747c5fb85896a9833c22a97e5803dc6674a8baf1c39f2082",
+        "2c7a56b7562cdf6718333494c02eafba73b9f2d8d328d58cd9fc0770e5721f41",
+        "12aec58b7c7f07fb52f38732151367c53d7b404153361aa313f7cbbe4819da93"
+      ],
+      "metadata_checked_at": "2026-07-29T09:50:29.838212Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T09:50:29.838212Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    }
+  },
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "5792255d349c00e02eed4aba2748195f10261e99fb7d3b79e7e0c9552bfb501b",
+      "path": "raw/europe_pmc_metadata/5792255d349c00e02eed4aba2748195f10261e99fb7d3b79e7e0c9552bfb501b.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "770c6c7a182a86445a8cd9957330556488f32ee77c8ca355c4f196402a326c15",
+      "path": "raw/openalex/770c6c7a182a86445a8cd9957330556488f32ee77c8ca355c4f196402a326c15.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "859e97d4ae8d7fea246fdeee78215aa81ee4152692f6f724edcb4a8a0a9989de",
+      "path": "raw/crossref_retraction_watch/859e97d4ae8d7fea246fdeee78215aa81ee4152692f6f724edcb4a8a0a9989de.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "4e3b6278a5eb42474970f031fdd7e739029ff3533879247fe7f869f69cfaa12a",
+      "path": "raw/europe_pmc_metadata/4e3b6278a5eb42474970f031fdd7e739029ff3533879247fe7f869f69cfaa12a.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "592961cf8edd4b69eb88ed8c38eea713674a4cb6f91e05cc5583d368e5ddfc95",
+      "path": "raw/openalex/592961cf8edd4b69eb88ed8c38eea713674a4cb6f91e05cc5583d368e5ddfc95.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "5d758f6ee1bd9a75a28a7e22a5f9726d449b910b7a0ba988ff6f1d909c314598",
+      "path": "raw/crossref_retraction_watch/5d758f6ee1bd9a75a28a7e22a5f9726d449b910b7a0ba988ff6f1d909c314598.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "b8499f16a8e059df957f9f9f94abc84582c32d97cc561e6984e195283a53f10c",
+      "path": "raw/europe_pmc_metadata/b8499f16a8e059df957f9f9f94abc84582c32d97cc561e6984e195283a53f10c.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "e711364aeb017a2272aac3173f2e2112f005e403721e6bb94ea0aa9014c362c8",
+      "path": "raw/openalex/e711364aeb017a2272aac3173f2e2112f005e403721e6bb94ea0aa9014c362c8.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "a8bec5fed020d39d61e35a6ce19dcef5679fbc927c8b3aad79569311862393f2",
+      "path": "raw/crossref_retraction_watch/a8bec5fed020d39d61e35a6ce19dcef5679fbc927c8b3aad79569311862393f2.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_oa_full_text",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "1152a2fc483277f2c03d8aa26432ef4764d5591574e9a735cbf1a096e1e7d05b",
+      "path": "raw/europe_pmc_oa_full_text/1152a2fc483277f2c03d8aa26432ef4764d5591574e9a735cbf1a096e1e7d05b.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "4450b30da80c8434f5983046be35f9d2f83372a5b8534b3efdd8e7330949c63e",
+      "path": "raw/europe_pmc_metadata/4450b30da80c8434f5983046be35f9d2f83372a5b8534b3efdd8e7330949c63e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "61fb20c3a52ac3ca4417e6c054c5c5c6336a7ce9296189f7ca3a0514dfac495f",
+      "path": "raw/openalex/61fb20c3a52ac3ca4417e6c054c5c5c6336a7ce9296189f7ca3a0514dfac495f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "70e2dbfa5ae0aee2495244e36bb69240eafa28c1564a54dfd37bf05d4cbb8977",
+      "path": "raw/crossref_retraction_watch/70e2dbfa5ae0aee2495244e36bb69240eafa28c1564a54dfd37bf05d4cbb8977.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "6471dacec1b1ffea0ac9ce8c98f25f7f6a991147331d5543ecbda819e5bddd4d",
+      "path": "raw/europe_pmc_metadata/6471dacec1b1ffea0ac9ce8c98f25f7f6a991147331d5543ecbda819e5bddd4d.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "8a4787d8da8a9f8a6a5436d0959c8cbcfcc8035cc53dec1ed6c37b8568edeb03",
+      "path": "raw/openalex/8a4787d8da8a9f8a6a5436d0959c8cbcfcc8035cc53dec1ed6c37b8568edeb03.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "788f9f0e4aa78edb76592f6cb90717b3d02845d83e9a4733fbea3c0b0baa15b0",
+      "path": "raw/crossref_retraction_watch/788f9f0e4aa78edb76592f6cb90717b3d02845d83e9a4733fbea3c0b0baa15b0.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "b8b2b2a6538378fe747c5fb85896a9833c22a97e5803dc6674a8baf1c39f2082",
+      "path": "raw/europe_pmc_metadata/b8b2b2a6538378fe747c5fb85896a9833c22a97e5803dc6674a8baf1c39f2082.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "2c7a56b7562cdf6718333494c02eafba73b9f2d8d328d58cd9fc0770e5721f41",
+      "path": "raw/openalex/2c7a56b7562cdf6718333494c02eafba73b9f2d8d328d58cd9fc0770e5721f41.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T09:50:29.838212Z",
+      "sha256": "12aec58b7c7f07fb52f38732151367c53d7b404153361aa313f7cbbe4819da93",
+      "path": "raw/crossref_retraction_watch/12aec58b7c7f07fb52f38732151367c53d7b404153361aa313f7cbbe4819da93.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-44_Nguyen_ly_ECG\\outputs\\evidence_cache",
+  "content_hash": "9794510e08e600222077ff145898e2a3c600c42c4e889ada3afd497e58a79ba4"
+}

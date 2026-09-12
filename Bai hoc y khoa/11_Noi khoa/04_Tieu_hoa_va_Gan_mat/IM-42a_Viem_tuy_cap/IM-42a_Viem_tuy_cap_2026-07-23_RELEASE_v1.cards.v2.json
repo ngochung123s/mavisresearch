@@ -1,0 +1,288 @@
+[
+  {
+    "type": "basic",
+    "front": "Viêm tụy cấp (Acute Pancreatitis) là gì?",
+    "back": "Tổn thương viêm cấp tính của mô tụy do sự kích hoạt bất thường của các enzyme tiêu hóa ngay bên trong lòng tuyến tụy, dẫn tới quá trình tự tiêu mô tụy (autodigestion) và có thể kích hoạt phản ứng viêm toàn thân (SIRS).",
+    "extra": "IM-42a · Tổng quan · Định nghĩa"
+  },
+  {
+    "type": "basic",
+    "front": "Tỷ lệ tiến triển thành Viêm tụy cấp thể nặng và tỷ lệ tử vong tương ứng là bao nhiêu?",
+    "back": "~20% tiến triển thành thể nặng/rất nặng (Severe AP); tỷ lệ tử vong ở nhóm severe AP lên tới 20–40% (PMID: 31210778).",
+    "extra": "IM-42a · Tiên lượng · Severe AP"
+  },
+  {
+    "type": "basic",
+    "front": "2 câu hỏi quyết định trong 10 phút đầu tiếp cận bệnh nhân nghi Viêm tụy cấp?",
+    "back": "1. Có thực sự bị Viêm tụy cấp hay là một cấp cứu bụng ngoại khoa/tim mạch khác? (Đủ 2/3 tiêu chuẩn Atlanta).\n2. Đang ở thể nhẹ hay có nguy cơ tiến triển thể nặng cần nhập ICU ngay để hồi sức dịch mục tiêu?",
+    "extra": "IM-42a · Tiếp cận ban đầu · 10 phút đầu"
+  },
+  {
+    "type": "cloze",
+    "question": "Ống Wirsung (ống tụy chính) hợp với Ống mật chủ tại {{c1::Bóng Vater}} và đổ vào đoạn {{c2::D2 tá tràng}} qua {{c3::Cơ vòng Oddi}}.",
+    "extra": "IM-42a · Nền tảng · Giải phẫu đường tụy - mật"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao sỏi mật rớt xuống cơ Oddi thường gây viêm cả đường mật lẫn đường tụy?",
+    "back": "Vì ống mật chủ và ống tụy chính hợp chung một đoạn ngắn (bóng Vater) trước khi đổ vào tá tràng; sỏi kẹt tại đây gây tắc nghẽn đồng thời đường xuất của mật và dịch tụy.",
+    "extra": "IM-42a · Nền tảng · Giải phẫu ứng dụng"
+  },
+  {
+    "type": "cloze",
+    "question": "Các enzyme tiêu đạm tuyến tụy được tổng hợp dưới dạng tiền chất bất hoạt gọi là {{c1::Zymogen}}, chỉ được kích hoạt bởi enzyme {{c2::Enterokinase}} tại niêm mạc tá tràng.",
+    "extra": "IM-42a · Nền tảng · Sinh lý Zymogen"
+  },
+  {
+    "type": "basic",
+    "front": "Chất chế ngự Trypsin do tuyến tụy tiết ra để dập tắt phân tử Trypsin vô tình hoạt hóa sớm trong tế bào nang tụy là gì?",
+    "back": "SPINK1 (Pancreatic Secretory Trypsin Inhibitor - PSTI).",
+    "extra": "IM-42a · Nền tảng · Cơ chế bảo vệ"
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chuẩn chẩn đoán Viêm tụy cấp theo Atlanta sửa đổi 2012 (Revised Atlanta 2012)?",
+    "back": "Đòi hỏi ít nhất 2 trong 3 tiêu chuẩn:\n1. Đau bụng thượng vị điển hình (đột ngột, dữ dội, lan sau lưng).\n2. Lipase hoặc Amylase máu > 3 lần giới hạn trên bình thường (> 3x ULN).\n3. Dấu hiệu viêm tụy trên hình ảnh học (CT/MRI/US).",
+    "extra": "IM-42a · Section 1 · Revised Atlanta 2012 (PMID: 23100216)"
+  },
+  {
+    "type": "basic",
+    "front": "Nêu 2 nguyên nhân hàng đầu gây Viêm tụy cấp và tỷ lệ phần trăm tương ứng?",
+    "back": "1. Sỏi mật / bùn mật (Gallstones): 40–50%.\n2. Rượu bia (Ethanol): 25–35%.",
+    "extra": "IM-42a · Section 1 · Nguyên nhân"
+  },
+  {
+    "type": "cloze",
+    "question": "Mnemonic {{c1::I GET SMASHED}} gồm các nguyên nhân: Idiopathic, Gallstones, Ethanol, Trauma, Steroids, Mumps, Autoimmune, Scorpion sting, Hypercalcemia/Hypertriglyceridemia, ERCP, Drugs.",
+    "extra": "IM-42a · Section 1 · Nguyên nhân VTC"
+  },
+  {
+    "type": "basic",
+    "front": "Enzyme nội bào nào trong Lysosome chịu trách nhiệm kích hoạt Trypsinogen thành Trypsin khi bị rối loạn vận chuyển?",
+    "back": "Cathepsin B.",
+    "extra": "IM-42a · Section 1 · Cơ chế tự tiêu"
+  },
+  {
+    "type": "basic",
+    "front": "Vai trò của Phospholipase A2 và Elastase khi bị Trypsin kích hoạt trong viêm tụy?",
+    "back": "- Phospholipase A2: Tiêu hủy màng đôi phospholipid tế bào gây hoại tử mỡ quanh tụy.\n- Elastase: Phá hủy thành mạch máu gây xuất huyết mô tụy.",
+    "extra": "IM-42a · Section 1 · Phản ứng enzyme"
+  },
+  {
+    "type": "cloze",
+    "question": "Viêm tụy cấp TRUNG BÌNH NẶNG (Moderate AP) được định nghĩa khi có suy tạng thoáng qua kéo dài {{c1::< 48 giờ}} HOẶC có biến chứng tại chỗ/toàn thân.",
+    "extra": "IM-42a · Section 1 · Phân độ Atlanta 2012"
+  },
+  {
+    "type": "cloze",
+    "question": "Viêm tụy cấp NẶNG (Severe AP) được định nghĩa khi có suy tạng kéo dài tồn tại {{c1::> 48 giờ}}.",
+    "extra": "IM-42a · Section 1 · Phân độ Atlanta 2012 (PMID: 31210778)"
+  },
+  {
+    "type": "basic",
+    "front": "Thang điểm Marshall sửa đổi dùng đánh giá suy tạng trong Viêm tụy cấp dựa trên 3 hệ thống cơ quan nào và ngưỡng tương ứng?",
+    "back": "1. Hô hấp: PaO2/FiO2 < 300 mmHg.\n2. Thận: Creatinine máu > 170 µmol/L (> 2.0 mg/dL).\n3. Tim mạch: Huyết áp tâm thu < 90 mmHg không đáp ứng với bù dịch.",
+    "extra": "IM-42a · Section 1 · Thang điểm Marshall"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao Lipase máu tăng rất cao (ví dụ > 5000 U/L) không đồng nghĩa với bệnh nặng?",
+    "back": "Vì nồng độ enzyme phóng thích chỉ phản ánh mức độ tổn thương tế bào nang tụy ban đầu, độ nặng của bệnh phụ thuộc vào sự có mặt của Suy đa tạng (> 48h) và biến chứng hoại tử nhiễm trùng.",
+    "extra": "IM-42a · Section 1 · Bẫy lâm sàng"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao bệnh nhân Viêm tụy cấp hoại tử mỡ diện rộng thường có tình trạng Hạ Calcium máu (< 2.0 mmol/L)?",
+    "back": "Do Lipase giải phóng phân hủy mỡ mạc treo thành các acid béo tự do. Acid béo tự do kết hợp với Calcium tự do trong máu tạo thành các phức hợp xà phòng không tan (Hiện tượng xà phòng hóa mỡ - Saponification).",
+    "extra": "IM-42a · Section 2 · Xà phòng hóa mỡ"
+  },
+  {
+    "type": "cloze",
+    "question": "Phân biệt ổ tụ dịch cấp (APFC) và Nang giả tụy (Pseudocyst): APFC xuất hiện trong {{c1::< 4 tuần}} đầu chưa có vỏ bao; Nang giả tụy xuất hiện sau {{c2::> 4 tuần}} có vỏ bao xơ mỏng không có nội mô.",
+    "extra": "IM-42a · Section 2 · Biến chứng tụ dịch"
+  },
+  {
+    "type": "basic",
+    "front": "Thời điểm điển hình xuất hiện biến chứng Hoại tử tụy nhiễm trùng (Infected Necrosis) là khi nào?",
+    "back": "Thường vào tuần 3 - 4 của đợt bệnh (do vi khuẩn đường ruột bốc lọt qua niêm mạc ruột vào ổ hoại tử).",
+    "extra": "IM-42a · Section 2 · Biến chứng nhiễm trùng"
+  },
+  {
+    "type": "cloze",
+    "question": "Chỉ số CRP > {{c1::150 mg/L}} đo ở thời điểm {{c2::48 giờ}} sau khởi phát là chỉ dấu vàng tiên lượng Viêm tụy cấp hoại tử nặng.",
+    "extra": "IM-42a · Section 2 · Chỉ dấu tiên lượng CRP"
+  },
+  {
+    "type": "basic",
+    "front": "Ý nghĩa tiên lượng của nồng độ BUN tăng > 1.8 mmol/L sau 24 giờ bù dịch?",
+    "back": "Phản ánh tình trạng giảm thể tích tuần hoàn chưa giải quyết được, tưới máu thận thất bại, báo hiệu nguy cơ tử vong cao.",
+    "extra": "IM-42a · Section 2 · Chỉ dấu BUN"
+  },
+  {
+    "type": "basic",
+    "front": "Các yếu tố cấu thành thang điểm tiên lượng BISAP bao gồm những gì?",
+    "back": "- B: BUN > 8.9 mmol/L.\n- I: Impaired mental status (rối loạn tri giác).\n- S: SIRS (+).\n- A: Age > 60 tuổi.\n- P: Pleural effusion (tràn dịch màng phổi).\n(BISAP ≥ 3 điểm dự báo nguy cơ tử vong cao).",
+    "extra": "IM-42a · Section 2 · Thang điểm BISAP"
+  },
+  {
+    "type": "basic",
+    "front": "Tư thế giảm đau điển hình của bệnh nhân Viêm tụy cấp là gì?",
+    "back": "Tư thế cựu gập người (cúi gập người về phía trước / tư thế cò súng) để giảm độ căng phúc mạc và áp lực mô sau phúc mạc.",
+    "extra": "IM-42a · Section 3 · Lâm sàng"
+  },
+  {
+    "type": "cloze",
+    "question": "Dấu bầm tím vùng quanh rốn gọi là dấu {{c1::Cullen}}; dấu bầm tím hai bên hông lưng gọi là dấu {{c2::Grey Turner}}, báo hiệu viêm tụy cấp hoại tử xuất huyết nặng.",
+    "extra": "IM-42a · Section 3 · Dấu hiệu thực thể"
+  },
+  {
+    "type": "basic",
+    "front": "So sánh thời gian tăng và độ đặc hiệu của Lipase máu và Amylase máu?",
+    "back": "- Lipase: Tăng sau 4-8h, đỉnh 24h, duy trì 8-14 ngày. Độ nhạy và độ đặc hiệu > 90% (ưu việt hơn).\n- Amylase: Tăng sớm (3-6h), đỉnh 24h, về bình thường nhanh (3-5 ngày). Ít đặc hiệu hơn do tăng trong viêm tuyến nước bọt, thủng tạng.",
+    "extra": "IM-42a · Section 3 · Enzyme tụy"
+  },
+  {
+    "type": "cloze",
+    "question": "Theo Cochrane 2017 (PMID: 28431198), khoảng {{c1::25%}} trường hợp Viêm tụy cấp có enzyme Lipase/Amylase bình thường do bệnh nhân đến muộn hoặc do {{c2::Tăng Triglyceride máu}}.",
+    "extra": "IM-42a · Section 3 · Âm tính giả enzyme"
+  },
+  {
+    "type": "basic",
+    "front": "Mục tiêu chính của Siêu âm bụng đầu tay ở bệnh nhân Viêm tụy cấp là gì?",
+    "back": "Tìm sỏi túi mật, bùn mật và giãn đường mật (xác định nguyên nhân sỏi mật), chứ không phải để quan sát toàn bộ tụy.",
+    "extra": "IM-42a · Section 3 · Siêu âm bụng"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao KHÔNG chỉ định chụp CT scanner bụng tiêm thuốc đối quang ngay trong 24-48 giờ đầu?",
+    "back": "Vì tổn thương hoại tử tụy cần 72-96h mới hiện rõ ranh giới trên CT, chụp quá sớm không đánh giá đúng độ nặng và thuốc tương quan có nguy cơ gây tổn thương thêm thận đang cô đặc máu.",
+    "extra": "IM-42a · Section 3 · Thời điểm chụp CT"
+  },
+  {
+    "type": "basic",
+    "front": "Điểm quan trọng nhất giúp phân biệt Thủng ổ loét dạ dày với Viêm tụy cấp?",
+    "back": "Bụng cứng như gỗ và X-quang bụng đứng thấy **Liềm hơi dưới cơ hoành** trong Thủng dạ dày; Amylase trong thủng dạ dày có thể tăng nhẹ nhưng thường < 3x ULN.",
+    "extra": "IM-42a · Section 3 · Phân biệt thủng tạng"
+  },
+  {
+    "type": "basic",
+    "front": "Khuyến cáo về loại dịch bù trong Viêm tụy cấp theo ACG 2024 (PMID: 38857482)?",
+    "back": "Ưu tiên bù dịch bằng **Ringer Lactate** thay vì Normal Saline 0.9%; khuyến cáo bù dịch vừa phải có kiểm soát theo mục tiêu (Moderate goal-directed hydration), không bù dồn dập quá mức.",
+    "extra": "IM-42a · Section 4 & 5 · ACG 2024 Fluid"
+  },
+  {
+    "type": "cloze",
+    "question": "Meta-analysis 2024 (PMID: 40085761) chứng minh Ringer Lactate làm giảm nguy cơ tiến triển Moderate-to-Severe AP so với Normal Saline với OR = {{c1::0.48 (95% CI 0.34 - 0.67)}}.",
+    "extra": "IM-42a · Section 4 · Bằng chứng Ringer Lactate"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao Normal Saline 0.9% gây bất lợi hơn Ringer Lactate trong hồi sức Viêm tụy cấp?",
+    "back": "Normal Saline 0.9% chứa nồng độ Chloride cao (154 mEq/L) gây toan chuyển hóa nhiễm chloride (Hyperchloremic metabolic acidosis), làm tăng tự hoạt hóa Trypsinogen và làm nặng phản ứng viêm tại tụy.",
+    "extra": "IM-42a · Section 4 & 5 · Cơ chế dịch truyền"
+  },
+  {
+    "type": "basic",
+    "front": "Bằng chứng về Kháng sinh dự phòng trong hoại tử tụy vô trùng theo Cochrane 2010 (PMID: 20464721)?",
+    "back": "Kháng sinh dự phòng (kể cả nhóm Carbapenem) KHÔNG làm giảm tỷ lệ tử vong và KHÔNG làm giảm tỷ lệ hoại tử nhiễm trùng, nhưng gia tăng nguy cơ nhiễm nấm xâm lấn và vi khuẩn kháng thuốc.",
+    "extra": "IM-42a · Section 4 · Kháng sinh dự phòng"
+  },
+  {
+    "type": "cloze",
+    "question": "Tốc độ bù dịch Ringer Lactate duy trì ở bệnh nhân Viêm tụy cấp không sốc là {{c1::5 – 10 mL/kg/giờ}} (khoảng 150 – 300 mL/giờ cho người 60kg).",
+    "extra": "IM-42a · Section 5 · Liều dịch bù"
+  },
+  {
+    "type": "basic",
+    "front": "4 mục tiêu lâm sàng và sinh hóa cần đạt trong 6-24h hồi sức dịch?",
+    "back": "1. Tần số tim < 100 lần/phút.\n2. Huyết áp trung bình (MAP) ≥ 65–70 mmHg.\n3. Thể tích nước tiểu ≥ 0.5–1.0 mL/kg/giờ.\n4. Hematocrit giảm về mức 35–40%, BUN giảm/ổn định.",
+    "extra": "IM-42a · Section 5 · Mục tiêu hồi sức"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao Opioids tiêm tĩnh mạch là lựa chọn ưu tiên để giảm đau trong VTC chứ không dùng NSAID?",
+    "back": "NSAID ức chế tổng hợp Prostaglandin tại thận, làm giảm tưới máu thận và trầm trọng thêm tình trạng Suy thận cấp (AKI) do giảm thể tích.",
+    "extra": "IM-42a · Section 5 · Cơ chế giảm đau"
+  },
+  {
+    "type": "basic",
+    "front": "Quan điểm hiện nay về việc Morphine gây co thắt cơ vòng Oddi?",
+    "back": "Các nghiên cứu lâm sàng hiện đại chứng minh Morphine không làm nặng thêm tiên lượng viêm tụy cấp so với các opioid khác, hoàn toàn có thể sử dụng an toàn.",
+    "extra": "IM-42a · Section 5 · Morphine & Oddi"
+  },
+  {
+    "type": "cloze",
+    "question": "Thời điểm cho ăn lại đường ruột ở bệnh nhân Viêm tụy cấp nhẹ là sớm trong vòng {{c1::24 - 48 giờ}} đầu ngay khi bệnh nhân giảm đau > 50% và bớt nôn.",
+    "extra": "IM-42a · Section 5 · Dinh dưỡng sớm"
+  },
+  {
+    "type": "basic",
+    "front": "Lợi ích của việc đặt Sonde nuôi ăn dạ dày sớm ở bệnh nhân Viêm tụy cấp nặng?",
+    "back": "Giúp duy trì vẹn toàn cấu trúc nhung mao ruột, duy trì hàng rào sinh học niêm mạc, ngăn chặn vi khuẩn đường ruột di chuyển vào máu và mô hoại tử.",
+    "extra": "IM-42a · Section 5 · Dinh dưỡng qua sonde"
+  },
+  {
+    "type": "basic",
+    "front": "Phác đồ kháng sinh ngấm mô tụy tốt nhất được chỉ định khi xác nhận Hoại tử tụy nhiễm trùng?",
+    "back": "Meropenem 1g IV mỗi 8 giờ (truyền kéo dài 3 giờ - Extended infusion).\n(Hoặc Ciprofloxacin 400mg IV q12h + Metronidazole 500mg IV q8h nếu dị ứng Beta-lactam).",
+    "extra": "IM-42a · Section 5 · Kháng sinh ngấm tụy"
+  },
+  {
+    "type": "basic",
+    "front": "5 sai lầm lâm sàng thường gặp trong quản lý Viêm tụy cấp?",
+    "back": "1. Bù dịch dồn dập quá mức (>4-5L/24h) gây phù phổi, hội chứng khoang bụng.\n2. Kê đơn kháng sinh dự phòng đại trà cho hoại tử vô trùng.\n3. Cho bệnh nhân nhịn ăn kéo dài 7-10 ngày chờ Lipase bình thường.\n4. Chụp CECT bụng quá sớm (< 48h).\n5. Không tìm nguyên nhân gây VTC (sỏi mật/mỡ máu) ở đợt đầu.",
+    "extra": "IM-42a · Section 7 · Sai lầm lâm sàng"
+  },
+  {
+    "type": "cloze",
+    "question": "Ngưỡng nồng độ Triglyceride máu nguy cơ cao gây Viêm tụy cấp là > {{c1::11.3 mmol/L}} (> 1000 mg/dL).",
+    "extra": "IM-42a · Section 8 · Triglyceride"
+  },
+  {
+    "type": "basic",
+    "front": "Liều dùng và lưu ý của thuốc bổ sung Enzyme tụy (Creon) trong điều trị suy tụy ngoại tiết?",
+    "back": "Liều 25.000 – 50.000 đơn vị Lipase uống cùng các bữa ăn chính; phải uống nguyên viên/hạt vi nang với nước, không được nhai.",
+    "extra": "IM-42a · Section 8 · Creon"
+  },
+  {
+    "type": "basic",
+    "front": "Ở tuyến huyện không có CT scanner, làm thế nào để chẩn đoán chính xác Viêm tụy cấp?",
+    "back": "Kết hợp Đau bụng thượng vị điển hình + Amylase máu > 3x ULN + Siêu âm bụng (tìm sỏi/bùn mật).",
+    "extra": "IM-42a · Section 9 · Thực hành tuyến huyện"
+  },
+  {
+    "type": "basic",
+    "front": "Cách theo dõi dịch bù đơn giản và hiệu quả tại tuyến huyện thiếu máy truyền dịch?",
+    "back": "Đếm giọt thủ công nghiêm ngặt (Ví dụ: 150 mL/h = ~50 giọt/phút) và đo thể tích nước tiểu bô đếm mỗi 2 giờ (Mục tiêu > 30 mL/giờ hay > 0.5 mL/kg/h).",
+    "extra": "IM-42a · Section 9 · Plan B bù dịch"
+  },
+  {
+    "type": "basic",
+    "front": "Xử trí hạ cấp bách Triglyceride máu trong Viêm tụy cấp do Tăng Triglyceride?",
+    "back": "Truyền tĩnh mạch Insulin liên tục 0.1 đơn vị/kg/h (kèm Glucose 5% duy trì đường máu 8-11 mmol/L) để kích hoạt Lipoprotein Lipase (LPL); hoặc lọc máu thay huyết tương (Plasmapheresis).",
+    "extra": "IM-42a · Section 10 · Case Triglyceride"
+  },
+  {
+    "type": "cloze",
+    "question": "Chiến lược {{c1::Step-up approach}} trong xử trí Hoại tử tụy nhiễm trùng gồm 4 bước: (1) Kháng sinh → (2) Dẫn lưu qua da (PCD) → (3) Mở cửa sổ gắp mô hoại tử qua siêu âm nội soi (EUS) → (4) Phẫu thuật mổ mở là bước cuối.",
+    "extra": "IM-42a · Section 10 · Step-up approach"
+  },
+  {
+    "type": "basic",
+    "front": "Mẫu máu rút ra có màu trắng đục như sữa (Milky serum) gợi ý nguyên nhân Viêm tụy cấp gì và lưu ý xét nghiệm?",
+    "back": "Gợi ý Viêm tụy cấp do Tăng Triglyceride máu nặng (> 11.3 mmol/L). Cần dặn phòng xét nghiệm pha loãng mẫu máu trước khi đo Lipase để tránh ức chế quang phổ gây âm tính giả.",
+    "extra": "IM-42a · Section 11 · Clinical Pearl"
+  },
+  {
+    "type": "basic",
+    "front": "Phức hợp miễn dịch nào bị kích hoạt bởi Acid Béo Tự Do (FFAs) hoại tử mỡ qua TLR4 trong tế bào đại thực bào tụy?",
+    "back": "Phức hợp **NLRP3 Inflammasome**, kích hoạt Caspase-1 chuyển Pro-IL-1β và Pro-IL-18 thành IL-1β và IL-18 dạng hoạt động phát động cơn bão cytokine.",
+    "extra": "IM-42a · Section 11b · NLRP3 Inflammasome"
+  },
+  {
+    "type": "basic",
+    "front": "Tiêu chí lâm sàng và xét nghiệm chứng tỏ bệnh nhân Viêm tụy cấp đáp ứng tốt với hồi sức?",
+    "back": "- Lâm sàng: Đau bụng giảm rõ (VAS < 3), hết nôn, tỉnh táo, sinh hiệu ổn định.\n- Cận lâm sàng: Hematocrit giảm về 36-40%, BUN giảm > 1.8 mmol/L sau 24h, CRP 48h < 150 mg/L, nước tiểu > 0.5-1.0 mL/kg/h.",
+    "extra": "IM-42a · Section 11e · Đáp ứng điều trị"
+  }
+]

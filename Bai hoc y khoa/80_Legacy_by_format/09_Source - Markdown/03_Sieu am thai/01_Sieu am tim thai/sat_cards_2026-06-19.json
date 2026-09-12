@@ -1,0 +1,735 @@
+{
+  "deck_name": "Sieu am tim thai - sieu chi tiet - 2026-06-19",
+  "cards": [
+    {
+      "type": "basic",
+      "front": "4 buồng tim trên 4CV — thứ tự đúng từ trên xuống dưới?",
+      "back": "Trên 4-chamber view chuẩn (apical):\n- Hai tâm nhĩ (RA, LA) ở trên\n- Hai tâm thất (RV, LV) ở dưới\n- Vách liên thất (IVS) + vách liên nhĩ (IAS) ở giữa\n- 2 van AV (TV bên phải, MV bên trái)\n- Crux cordis = giao điểm IVS + IAS + van AV\n\nTrong situs solitus: RA bên phải bệnh nhân, RV bên phải. Apex tim chếch trái 45° ± 20°.",
+      "extra": "PMID: 23460196 (ISUOG 2013)"
+    },
+    {
+      "type": "basic",
+      "front": "Đặc điểm phân biệt RV vs LV trên 4CV (5 tiêu chí chính)",
+      "back": "RV vs LV:\n1. Hình dạng: RV trapezoidal (apex không đến đỉnh), LV ellipsoid (apex đến đỉnh)\n2. Trabeculation: RV dày thô, LV mỏng mịn\n3. Moderator band: có ở RV (gần apex), KHÔNG có ở LV\n4. AV valve: TV (3 lá, septal leaflet thấp hơn MV ~3-4 mm = AV valve offset), MV (2 lá)\n5. Outflow: RV infundibulum muscular (giữa TV và PV), LV aortic-mitral continuity (fibrous, MV liên tục với AoV)",
+      "extra": "PMID: 23460196; Van Praagh segmental analysis"
+    },
+    {
+      "type": "basic",
+      "front": "AV valve offset là gì? Bình thường và bất thường?",
+      "back": "AV valve offset = vị trí chỗ bám của van nhĩ-thất vào vách liên thất khác nhau giữa 2 bên.\n\nBình thường: TV septal leaflet đính vào IVS ở vị trí THẤP HƠN MV anterior leaflet khoảng 3-4 mm. Đây là dấu hiệu crux cordis bình thường.\n\nBất thường: Mất offset = TV và MV đính ở CÙNG MỨC (hoặc MV cao hơn TV) → nghi ngờ AVSD. Đây là dấu hiệu quan trọng nhất của AVSD trên 4CV.",
+      "extra": "PMID: 29207077 (AVSD in Down)"
+    },
+    {
+      "type": "basic",
+      "front": "Moderator band là gì? Vai trò trên siêu âm thai?",
+      "back": "Moderator band = bó cơ chạy từ RV free wall tới vách liên thất, nằm gần RV apex.\n\nVai trò: là DẤU HIỆU NHẬN BIẾT RV quan trọng nhất trên siêu âm. LV không có moderator band (chỉ có trabeculations mịn).\n\nÝ nghĩa lâm sàng: nếu KHÔNG thấy moderator band ở thất phải → cân nhắc L-looped ventricle (RV morphology ở bên trái) → ventricular inversion → thường đi kèm ccTGA.",
+      "extra": "PMID: 23460196; Van Praagh"
+    },
+    {
+      "type": "basic",
+      "front": "RV infundibulum là gì? Tại sao quan trọng?",
+      "back": "RV infundibulum (conus) = đoạn cơ muscular dưới van động mạch phổi (PV), nằm giữa TV và PV.\n\nTầm quan trọng:\n1. Là đặc điểm của RV morphology: ventricle nào có infundibulum = RV morphology\n2. TV-PV KHÔNG có fibrous continuity (TV cách PV bởi infundibulum)\n3. Trong khi MV-AoV CÓ fibrous continuity (aortic-mitral continuity, không có infundibulum)\n4. Quy tắc phân biệt ventricle: có infundibulum = RV, có MV-Ao continuity = LV\n\nSiêu âm: thấy trên mặt cắt RVOT view.",
+      "extra": "PMID: 29415491 (Anderson 2018)"
+    },
+    {
+      "type": "basic",
+      "front": "Aortic-mitral continuity là gì? Ý nghĩa?",
+      "back": "Aortic-mitral continuity = chỗ nối FIBROUS giữa MV anterior leaflet và van động mạch chủ (AoV). Không có cơ infundibulum xen giữa.\n\nÝ nghĩa: đây là dấu hiệu đặc trưng của LV morphology. Ventricle nào có MV-Ao continuity = LV.\n\nQuy tắc Van Praagh: MV-Ao continuity → LV. TV-PV infundibulum → RV.\n\nSiêu âm: thấy trên LVOT view (5-chamber). Quan trọng để phân biệt TGA (có continuity bình thường) vs DORV (mất continuity, double conus).",
+      "extra": "PMID: 29415491; 29415491 (sequential analysis)"
+    },
+    {
+      "type": "basic",
+      "front": "4 van tim: số lá van và vị trí?",
+      "back": "MV (Mitral Valve): LA-LV, 2 lá (anterior + posterior)\nTV (Tricuspid Valve): RA-RV, 3 lá (anterior + septal + posterior)\nAoV (Aortic Valve): LV-Ao, 3 lá (RC + LC + NC = right/left/non-coronary)\nPV (Pulmonary Valve): RV-MPA, 3 lá (R + L + A = right/left/anterior)\n\nMV-Ao: fibrous continuity. TV-PV: cách nhau bởi infundibulum muscular.\n\nBicuspid AoV (BAV): phổ biến nhất CHD, 1-2% dân số, thường 2 trong 3 lá dính lại.",
+      "extra": "PMID: 23460196"
+    },
+    {
+      "type": "basic",
+      "front": "Eustachian valve và Thebesian valve là gì?",
+      "back": "Eustachian valve = van ở IVC ostium (đổ vào RA), hướng dòng máu qua FO sang LA trong thai kỳ. Lớn ở thai, nhỏ ở người lớn.\n\nThebesian valve = van ở coronary sinus (CS) ostium (đổ vào RA).\n\nCả hai là đặc điểm của RA morphology. Siêu âm: Eustachian valve thấy ở bicaval view, là dấu hiệu giúp xác định RA (vs LA).\n\nTriangle of Koch (chứa AV node): TV septal leaflet + tendon of Todaro + CS ostium. Cẩn thận khi phẫu thuật TV.",
+      "extra": "PMID: 23460196; Van Praagh"
+    },
+    {
+      "type": "basic",
+      "front": "Bốn pulmonary veins đổ vào đâu? Ý nghĩa trong TAPVR?",
+      "back": "4 pulmonary veins (2 trên: LSPV + RSPV; 2 dưới: LIPV + RIPV) đổ vào nhĩ trái (LA) ở 4 góc.\n\nSiêu âm 4CV: dùng color Doppler (PRF 15-25 cm/s) thấy 2 PVs (LIPV + RIPV) đổ vào LA sau.\n\nÝ nghĩa trong TAPVR: nếu KHÔNG thấy PVs đổ vào LA → nghi TAPVR. 4 type: Supracardiac (50%, SVC), Cardiac (20%, CS), Infracardiac (20%, IVC/portal), Mixed (10%).",
+      "extra": "PMID: 32664122 (TAPVR)"
+    },
+    {
+      "type": "basic",
+      "front": "DA (Ductus Arteriosus) — cấu tạo, vai trò, khi nào đóng?",
+      "back": "DA = ống động mạch nối LPA (gần bifurcation) với DAo (just distal to LSA origin). Dài ~5-8 mm ở thai 20 tuần.\n\nVai trò trong bào thai:\n- Đóng hầu hết tuần hoàn phổi (phổi chưa hoạt động)\n- 80-90% RV output → DA → DAo → xuống bụng → placenta\n- Right-to-left shunt (RV → Ao)\n\nSiêu âm: 'hockey stick' shape trên ductal arch view. Doppler PSV 0.5-0.8 m/s, PI 1.9-3.0, diastolic forward flow cao.\n\nĐóng sinh lý: 24-72 giờ sau sinh do tăng O2 + giảm prostaglandin. NSAIDs (indomethacin) ở mẹ gây đóng sớm → cấp cứu.",
+      "extra": "PMID: 32413023 (DÂT + SHF)"
+    },
+    {
+      "type": "basic",
+      "front": "Dây chằng động mạch (Ligamentum arteriosum) là gì? Ý nghĩa?",
+      "back": "Ligamentum arteriosum = di tích xơ của DA sau khi đóng (sau sinh).\n\nÝ nghĩa lâm sàng: trong vascular ring (vòng mạch), ligamentum arteriosum đóng vai trò cấu trúc tạo vòng (ví dụ double aortic arch + ligamentum arteriosum từ arch trái → LPA).\n\nDouble aortic arch + ligamentum gây chèn ép khí quản-thực quản → stridor, wheeze sau sinh. Siêu âm 3VT: thấy 'ring sign'.",
+      "extra": "PMID: 23466189 (3VT revisited)"
+    },
+    {
+      "type": "basic",
+      "front": "PLSVC (Persistent Left SVC) là gì? Tỷ lệ? Hậu quả?",
+      "back": "PLSVC = tĩnh mạch chủ trên trái tồn tại, đi xuống bên trái Ao, đổ vào coronary sinus (CS) → CS giãn.\n\nTỷ lệ: 0.3-0.5% dân số chung. Trong CHD: 3-10% (đặc biệt 22q11 deletion, TOF, VSD).\n\nSiêu âm 3V view: thấy 4 vessels thay vì 3 (thêm PLSVC bên trái SVC). 4CV: thấy CS giãn (>5 mm ở 20 tuần) ở AV groove phía sau, giữa LA và LV.\n\nHậu quả: thường VÔ HẠI. Cần report để tránh nhầm với bệnh lý. Tuy nhiên có thể kèm theo CHD nặng.",
+      "extra": "PMID: 23460196; 32719225 (22q11 in TOF)"
+    },
+    {
+      "type": "basic",
+      "front": "Interrupted IVC with azygos continuation là gì? Tại sao quan trọng?",
+      "back": "Interrupted IVC with azygos continuation = IVC bị gián đoạn dưới gan, máu từ thận/chân đi qua azygos vein (lên cạnh cột sống) → SVC → RA.\n\nSiêu âm mặt cắt bụng ngang: thấy azygos vein to (4 mm) cạnh Ao. IVC dưới gan không liên tục. IVC và Ao nằm cùng bên hoặc Ao trước IVC.\n\nTầm quan trọng: đây là DẤU HIỆU RẤT NHẠY của Left Atrial Isomerism (LAI / polysplenia), nhưng cũng có thể là isolated finding.",
+      "extra": "PMID: 29415491 (Isomerism)"
+    },
+    {
+      "type": "basic",
+      "front": "Coronary sinus (CS) — vị trí, khi nào giãn?",
+      "back": "CS = xoang tĩnh mạch vành, đổ vào RA giữa IVC ostium và TV annulus. Dẫn máu từ coronary veins (tim).\n\nBình thường: đường kính < 5 mm ở thai 20 tuần.\n\nDilated CS (>5 mm ở 20 tuần) nguyên nhân:\n1. PLSVC (phổ biến nhất, 90% các ca) — LSVC đổ vào CS\n2. Coronary AV fistula — dòng shunt trực tiếp từ coronary artery vào CS\n3. Anomalous pulmonary venous connection to CS (Type II TAPVC) — common PV đổ vào CS\n\nSiêu âm: thấy ở 4CV, AV groove phía sau, giữa LA và LV. Cần Color Doppler để phân biệt nguyên nhân.",
+      "extra": "PMID: 23460196; 32664122 (TAPVR type II)"
+    },
+    {
+      "type": "basic",
+      "front": "BAV (Bicuspid Aortic Valve) là gì? Tỷ lệ? Ý nghĩa?",
+      "back": "BAV = van động mạch chủ chỉ có 2 lá thay vì 3 lá. Là CHD phổ biến nhất, chiếm 1-2% dân số chung (nhiều hơn tất cả CHD khác cộng lại).\n\nSiêu âm: van ĐMC đóng hình 'fish-mouth' (oval) thay vì hình sao 3 cánh. Có thể kèm Ao stenosis/regurgitation.\n\nÝ nghĩa lâm sàng:\n- Hay kèm CoA (50-85% CoA có BAV)\n- Turner syndrome: 60% Turner có BAV\n- Di truyền trội, hay kèm dilatation gốc ĐMC\n- Cần theo dõi dài hạn (calcific AS, AR, aortic aneurysm/dissection)",
+      "extra": "PMID: 30242109 (BAV + NOS3)"
+    },
+    {
+      "type": "basic",
+      "front": "Situs solitus, inversus, ambiguus là gì?",
+      "back": "Situs = tính đối xứng trong cơ thể (laterality):\n\nSitus solitus: bình thường (1/1.000)\n- Stomach trái, liver phải, spleen trái\n- IVC phải Ao, apex tim trái\n- LA trái, RA phải, 4 PVs đổ vào LA\n- 2 lá phổi: phải 3 thùy, trái 2 thùy\n\nSitus inversus: đảo ngược hoàn toàn (1/10.000). Khoảng 3-5% kèm CHD. Situs inversus + Kartagener = PCD (primary ciliary dyskinesia).\n\nSitus ambiguus (heterotaxy): không rõ ràng (1/15.000). 2 phân nhóm: LAI (polysplenia) và RAI (asplenia). 50-100% kèm CHD.",
+      "extra": "PMID: 29415491"
+    },
+    {
+      "type": "basic",
+      "front": "LAI (Left Atrial Isomerism / Polysplenia) — đặc điểm chính",
+      "back": "LAI / Polysplenia = cả 2 tâm nhĩ đều có morphology LA (smooth-walled, nhận PVs).\n\nĐặc điểm:\n- Spleen: polysplenia (≥ 2 lá lách nhỏ)\n- Stomach: midline, left, hoặc right\n- IVC: interrupted with azygos continuation (60-90% LAI)\n- Liver: đối xứng (symmetric, lớn)\n\nCardiac anomalies (50-80%):\n- ASD/PAPVC (90%)\n- Bilateral bilobed lungs (70%)\n- AVSD (40%)\n- VSD (60%)\n- PS (20%)\n- TAPVC (0-15%)\n- Conduction: SA node dysfunction\n\nPrognosis: trung bình. Less severe hơn RAI.",
+      "extra": "PMID: 29415491; 32664122 (TAPVR)"
+    },
+    {
+      "type": "basic",
+      "front": "RAI (Right Atrial Isomerism / Asplenia) — đặc điểm chính",
+      "back": "RAI / Asplenia = cả 2 tâm nhĩ đều có morphology RA (có crista terminalis, nhận SVC + IVC).\n\nĐặc điểm:\n- Spleen: asplenia (không có lá lách)\n- Stomach: midline hoặc lệch\n- IVC: bình thường (cùng bên Ao)\n- Liver: đối xứng (lớn)\n\nCardiac anomalies (90-100%):\n- TAPVC (70-80%), đặc biệt infracardiac (hay obstruction)\n- Severe PS hoặc PA (50-70%)\n- AVSD (85-90%)\n- VSD lớn\n- TGA hoặc DORV (50%)\n- Bilateral trilobed lungs\n- Conduction: junctional rhythm, complete heart block\n\nPrognosis: WORST trong CHD, 30-40% sống 5 năm. Cần chủng ngừa + kháng sinh dự phòng asplenia.",
+      "extra": "PMID: 29415491; 32664122"
+    },
+    {
+      "type": "basic",
+      "front": "Stomach bubble bên phải trên siêu âm thai nghĩa là gì?",
+      "back": "Stomach bubble bên phải = dạ dày ở phía phải bụng thai.\n\nÝ nghĩa: dextrogastria. Có thể đi kèm:\n1. Situs inversus (toàn bộ đảo ngược) — thường vô hại nếu không kèm CHD\n2. Heterotaxy syndrome (LAI hoặc RAI) — thường kèm CHD nặng\n3. Isolated dextrogastria (không kèm CHD) — hiếm\n\nHành động: khảo sát toàn bộ situs (liver, Ao/IVC, azygos, cardiac position), 4CV, 3VT. Nếu nghi heterotaxy → fetal echo chuyên sâu + khảo sát lách sau sinh.",
+      "extra": "PMID: 23460196"
+    },
+    {
+      "type": "basic",
+      "front": "Cardiac axis 45° ± 20° — bất thường khi nào?",
+      "back": "Cardiac axis bình thường: 25-65° (45° ± 20°).\n\nBất thường:\n- Axis > 65° (lệch trái nhiều) → CoA, HLHS, hoặc khối lồng ngực (CCAM, CDH đẩy tim sang trái)\n- Axis < 25° (lệch phải) → TOF, DORV, TAPVR, hoặc dextrocardia\n- Bất thường axis + CDH → 30-40% có CHD (quan trọng screen)\n- Bất thường axis + omphalocele → 30% có CHD\n\nĐo: vẽ đường qua IVS từ mỏm tim đến gốc, đo góc với đường giữa (AP direction, từ spine midline).",
+      "extra": "PMID: 23460196"
+    },
+    {
+      "type": "basic",
+      "front": "CT ratio bình thường? Nguyên nhân cardiomegaly?",
+      "back": "CT ratio (cardiothoracic ratio) = diện tích tim / diện tích ngực trên 4CV thai (frame end-diastolic).\n\nBình thường: 0.25-0.33 (tim chiếm 25-33% diện tích ngực).\n\nBất thường: > 0.5 = cardiomegaly.\n\nNguyên nhân cardiomegaly:\n1. Ebstein anomaly (RA enlargement)\n2. TAPVR (LA + RA enlargement)\n3. Severe tricuspid regurgitation\n4. CCAM/CPAM (vùng ngực nhỏ → tỷ lệ cao giả)\n5. Fetal anemia + hydrops\n6. TTTS recipient (tim to)\n7. Diabetic cardiomyopathy\n8. Cardiomyopathy (DCM)",
+      "extra": "PMID: 23460196"
+    },
+    {
+      "type": "basic",
+      "front": "Crux cordis là gì? Vai trò?",
+      "back": "Crux cordis = giao điểm của vách liên thất (IVS) + vách liên nhĩ (IAS) + van nhĩ-thất (AV valves). Tạo thành hình chữ thập ở giữa tim.\n\nVai trò trong chẩn đoán:\n- Bình thường: 'cross sign' với offset van AV (TV thấp hơn MV)\n- AVSD: mất offset, 'T-sign' hoặc thay đổi hình dạng crux\n- VSD inlet: crux cordis bình thường nhưng có VSD dưới van AV\n- 4CV: là mốc giải phẫu quan trọng nhất để đánh giá AV valve offset",
+      "extra": "PMID: 23460196; 29207077 (AVSD)"
+    },
+    {
+      "type": "basic",
+      "front": "Linear heart tube có 5 vùng theo thứ tự nào (cranial → caudal)?",
+      "back": "Linear heart tube (ngày 19-22):\n1. Truncus arteriosus (outflow, sau này tách thành aorta + PA)\n2. Bulbus cordis (sau này thành RV outflow + LV outflow)\n3. Primitive ventricle (sau này thành LV chủ yếu)\n4. Primitive atrium (sau này thành 2 tâm nhĩ)\n5. Sinus venosus (inflow, 2 horn: R + L, tạo smooth part of RA, CS, oblique vein of LA)\n\nỐng tim thẳng dài ~2-3 mm vào ngày 21, đập 100-115 lần/phút. Nếu không loop đúng → dextrocardia, mesocardia (1/12000 trẻ sống).",
+      "extra": "PMID: 38884703; 39000221 (cardiac development reviews)"
+    },
+    {
+      "type": "basic",
+      "front": "FHF và SHF là gì? Phân biệt?",
+      "back": "First Heart Field (FHF) và Second Heart Field (SHF) là 2 population tế bào gốc tim mạch.\n\nFHF: ở cardiac crescent (cranial). Tạo LV, một phần RV, 2 tâm nhĩ, phần lớn IVS. Markers: NKX2-5, TBX5, MEF2C.\n\nSHF: ở phía sau cardiac crescent, kề pharyngeal mesoderm. Tạo RV (60% myocytes), toàn bộ outflow tract (aorta, PA, semilunar valves), một phần atria. Markers: ISL1, MEF2C, FGF10, TBX1, NKX2-5.\n\nÝ nghĩa: đột biến SHF gene (TBX1) → 22q11.2 deletion (DiGeorge) → conotruncal defects: TOF, TGA, truncus, IAA type B.",
+      "extra": "PMID: 19390062; 12612215 (TBX1)"
+    },
+    {
+      "type": "basic",
+      "front": "Cardiac looping (ngày 22-28) là gì? Phân biệt D-loop vs L-loop?",
+      "back": "Cardiac looping = ống tim bắt đầu bend để tạo hình dạng 4 buồng. Normal: D-loop (bend phải, dextro).\n\nD-loop (bình thường, 99.9%): ống bend sang phải → RV morphology bên phải, LV morphology bên trái.\n\nL-loop (< 0.1%, thường kèm TGA): ống bend sang trái → RV morphology bên trái, LV morphology bên phải (ventricular inversion). Gặp trong ccTGA (L-TGA).\n\nSiêu âm 4CV: D-loop = RV bên phải (có moderator band), LV bên trái. L-loop = RV bên trái (có moderator band), LV bên phải. Dấu hiệu phân biệt ventricular morphology.",
+      "extra": "PMID: 39000221; 29415491"
+    },
+    {
+      "type": "basic",
+      "front": "Atrial septation — các bước chính",
+      "back": "Atrial septation (ngày 28-37):\n\n1. Septum primum (ngày 27-28): mọc từ roof tâm nhĩ xuống endocardial cushion. Có ostium primum (dưới).\n2. Ostium primum đóng (ngày 30-32): khi septum primum hợp với endocardial cushion.\n3. Ostium secundum (ngày 30): apoptosis tạo lỗ ở phần trên septum primum.\n4. Septum secundum (ngày 33-35): mọc từ roof bên phải tâm nhĩ, KHÔNG đóng kín (chỉ che FO).\n5. Foramen ovale (FO): giữa septum primum (flap, bên trái) và septum secundum (rim, bên phải).\n\nKhi LA pressure > RA pressure sau sinh → flap đẩy vào rim → đóng FO. Thường dính vĩnh viễn trong 1 năm đầu.",
+      "extra": "PMID: 38884726; 38884703"
+    },
+    {
+      "type": "basic",
+      "front": "Foramen ovale đóng sớm trong bào thai → bệnh gì?",
+      "back": "Premature closure of FO trong bào thai → giảm lưu lượng máu qua tim trái → hypoplastic left heart syndrome (HLHS), hoặc mitral atresia, hoặc aortic atresia.\n\nCơ chế: Bình thường FO cho máu từ RA → LA bypass phổi (vì thai không thở). Nếu FO đóng sớm → máu không qua tim trái → LV, MV, AoV, cung ĐMC không phát triển → HLHS.\n\nĐây là một trong các cơ chế của 'flow hypothesis' (Rudolph) cho HLHS. Tương tự: AS nặng hoặc CoA cũng có thể dẫn đến HLHS evolution.",
+      "extra": "PMID: 32286218 (HLHS)"
+    },
+    {
+      "type": "basic",
+      "front": "Endocardial cushion là gì? Hợp nhất không hoàn toàn → bệnh?",
+      "back": "Endocardial cushion = gờ mũi đệm nội tâm mạc, mọc từ tâm nhĩ và tâm thất primitive, hợp nhất ngày 35-40.\n\nVai trò: chia AV canal thành trái (mitral) + phải (tricuspid), đóng ostium primum, tạo phần inlet IVS + membranous IVS.\n\nHợp nhất KHÔNG đầy đủ → complete AVSD (1 van AV chung + ASD primum + VSD inlet) — dấu hiệu đặc hiệu của Down syndrome (chiếm 40-50% CHDs của Trisomy 21).",
+      "extra": "PMID: 38884718; 29207077 (AVSD)"
+    },
+    {
+      "type": "basic",
+      "front": "AP septum (aorticopulmonary septum) — vai trò và bệnh nếu sai",
+      "back": "AP septum = vách giữa ĐMC và ĐMP, hình thành từ truncal cushions + bulbar cushions xoắn 180° (spiral).\n\nVai trò: chia truncus arteriosus thành:\n- Aorta (nối với LV, phía sau-trái)\n- Pulmonary artery (nối với RV, phía trước-phải)\n\nSpiral (xoắn) chứ không thẳng → 2 đại mạch 'quấn' nhau trong 1 vòng xoắn khi đi lên.\n\nBất thường → conotruncal defects: TOF, TGA, DORV, truncus arteriosus. Cần cardiac neural crest cells (CNCCs) cho AP septum.",
+      "extra": "PMID: 23838132 (CNCC); 38884738 (TOF/DORV genetics)"
+    },
+    {
+      "type": "basic",
+      "front": "Cardiac neural crest (CNCC) — vai trò và hậu quả nếu thiếu",
+      "back": "CNCCs di cư từ neural tube (vùng giữa otic vesicle và somite 3) → pharyngeal arches 3, 4, 6 → đổ vào OFT.\n\nVai trò:\n1. AP septum (aorticopulmonary septum) hình thành\n2. Conotruncal cushions (phần OFT gần van)\n3. Smooth muscle của aortic arch (branching PA + Ao arch)\n\nBất thường CNCCs → conotruncal defects: TOF, TGA, DORV, truncus arteriosus, IAA type B.\n\nMarker PAX3 điều khiển CNCCs di cư. Mutation = Waardenburg syndrome (mất thính lực, da tóc bạc, CHD 5%).",
+      "extra": "PMID: 23838132; 23838132 (SDF1-CXCR4)"
+    },
+    {
+      "type": "basic",
+      "front": "NKX2-5 mutation gây bệnh gì?",
+      "back": "NKX2-5 (5q35) là 'master regulator' của cardiogenesis: cần cho cardiomyocyte differentiation, septation, conduction system. Tương tác với TBX5, GATA4, MEF2C.\n\nBệnh khi đột biến: ASD, VSD, progressive AV block (autosomal dominant). Phổ biến nhất trong familial CHD với conduction block.\n\nĐặc biệt: NKX2-5 mutation gây progressive AV block (His-Purkinji system dần thoái hóa sau sinh). Cần siêu âm Doppler 4CV (PR interval) ở thai nhi có tiền sử gia đình để phát hiện sớm.",
+      "extra": "PMID: 22449847; 38884718"
+    },
+    {
+      "type": "basic",
+      "front": "22q11.2 deletion (DiGeorge) — biểu hiện tim mạch",
+      "back": "22q11.2 deletion (DiGeorge / velocardiofacial syndrome) — mất gene TBX1 trên chromosome 22q11.2 → SHF khiếm khuyết → conotruncal defects.\n\nBiểu hiện tim mạch:\n- TOF (10-15%)\n- TGA\n- Truncus arteriosus (30-40%)\n- IAA type B (giữa LCCA + LSA)\n- Interrupted aortic arch\n\nTần suất 1/4000 thai. Siêu âm thấy 'absent thymus' (NT dày + thymus nhỏ < p5) là dấu hiệu sớm.\n\nBệnh đi kèm: hypocalcemia (co giật sơ sinh), cleft palate, suy giảm miễn dịch (T-cell), chậm phát triển tâm thần.",
+      "extra": "PMID: 12612215; 30478416; 32719225"
+    },
+    {
+      "type": "basic",
+      "front": "Embryology 4CV — mốc nào trong thai kỳ?",
+      "back": "Vào tuần thứ 5 (ngày 28), phôi đã có 4 buồng đầu tiên trên siêu âm endovaginal (TVUS).\n\nĐây là cơ sở cho first-trimester cardiac scan (11-13+6 tuần):\n- 4CV: có thể thấy ở 11-12 tuần\n- 3VT: có thể thấy ở 12-13 tuần\n\nDetection rate ở first-trimester echo: ~50-60% CHD nặng (HLHS, AVSD, TGA), nhưng KHÔNG thay thế được siêu âm 20-22 tuần.",
+      "extra": "PMID: 37267096 (ISUOG 2023)"
+    },
+    {
+      "type": "basic",
+      "front": "Valve leaflets hình thành khi nào? Bệnh nếu sai?",
+      "back": "Valve leaflets hình thành vào ngày 50-60 (tuần 7-8) của thai kỳ.\n\nAV valves (MV, TV): từ endocardial cushion + trabecular myocardium remodel.\n- MV = 2 lá (anterior + posterior)\n- TV = 3 lá (anterior + septal + posterior)\n\nSemilunar valves (Ao, PV): từ truncal + bulbar cushions (mọc thành 3 lá đối xứng).\n\nBệnh nếu sai:\n- Bicuspid AoV (BAV): phổ biến nhất CHD, 1-2% dân số, 2 trong 3 lá dính lại\n- Polyvalvular disease: nhiều van cùng bất thường\n- Pulmonary atresia: PV không hình thành đúng (3 lá van dính lại)",
+      "extra": "PMID: 30242109; 38884703"
+    },
+    {
+      "type": "basic",
+      "front": "Van Praagh notation {S, D, S} nghĩa là gì?",
+      "back": "Van Praagh segmental notation: {Atrial situs, Ventricular loop, Great arteries relation}\n\n{S, D, S} = BÌNH THƯỜNG:\n- S (atrial situs solitus): RA phải, LA trái\n- D (D-loop): RV morphology bên phải, LV morphology bên trái\n- S (great arteries solitus): Ao posterior + phải, PA anterior + trái — bình thường\n\nDùng cho quick notation. Anderson & Ho đề xuất 'sequential segmental analysis' dựa trên morphology thuần túy (rule of 3). Hiện nay cả 2 cách dùng song song.",
+      "extra": "PMID: 29415491; Van Praagh 1972"
+    },
+    {
+      "type": "basic",
+      "front": "Rule of 3 (Anderson) cho ventricular morphology",
+      "back": "Rule of 3 của Anderson để xác định ventricular morphology trên siêu âm:\n\nMorphology RV = ventricle có 1 trong 3:\n1. Moderator band (gần apex)\n2. TV chordae bám IVS (septal leaflet bám vào vách)\n3. Infundibulum muscular (giữa TV và PV)\n\nMorphology LV = ventricle có 1 trong 3:\n1. 2 papillary muscles (anterolateral + posteromedial)\n2. MV chordae KHÔNG bám IVS (chỉ bám papillary muscles)\n3. Aortic-mitral continuity (fibrous, không có infundibulum)\n\nNếu ventricle có cả 2 → indeterminate ventricle (rất hiếm).",
+      "extra": "PMID: 29415491 (Anderson 2018)"
+    },
+    {
+      "type": "basic",
+      "front": "{S, D, D} Van Praagh — diagnosis gì?",
+      "back": "{S, D, D} trong Van Praagh notation:\n- S: atrial situs solitus (RA phải, LA trái)\n- D: D-loop (RV morphology bên phải)\n- D: Ao anterior + phải (Ao nằm trước-phải PA)\n\nDiagnosis: D-TGA (complete Transposition of Great Arteries). VA discordance: RV → Ao, LV → PA. AV concordant.\n\nCần lưu ý: 4CV BÌNH THƯỜNG ở D-TGA. 'Parallel great vessels' sign. Cần khảo sát LVOT/RVOT/3VT để phát hiện.",
+      "extra": "PMID: 31846538 (TGA)"
+    },
+    {
+      "type": "basic",
+      "front": "{S, L, L} Van Praagh — diagnosis gì?",
+      "back": "{S, L, L} = Solitus atria, L-loop ventricles, Solitus great arteries (hoặc L-transposition).\n\nDiagnosis: ccTGA (congenitally corrected TGA, L-TGA).\n\nĐặc điểm:\n- AV discordance: RA → LV morphology, LA → RV morphology\n- VA discordance: RV morphology → PA, LV morphology → Ao\n- Tuần hoàn vẫn đúng chiều (vì cả 2 đều đảo) — 'bình thường sinh lý'\n- Bản thân có thể không triệu chứng đến tuổi trưởng thành\n- Thường kèm TAPVR, VSD, PS, Ebstein-like TV, AV block\n- Thất phải morphology gánh hệ thống → suy thất phải khi trưởng thành",
+      "extra": "PMID: 33247677 (cc-TGA)"
+    },
+    {
+      "type": "basic",
+      "front": "AV concordant vs AV discordant?",
+      "back": "AV connection (atrioventricular):\n\nConcordant (bình thường): RA → RV morphology, LA → LV morphology\n\nDiscordant: RA → LV morphology, LA → RV morphology → gặp trong ccTGA (L-TGA)\n\nAmbiguous: cả 2 atrium cùng morphology → nối với 2 ventricle cùng morphology (heterotaxy)\n\nUniventricular: cả 2 atrium nối về 1 ventricle (mitral atresia, tricuspid atresia)\n\nDouble-inlet: cả 2 atrium nối về cùng 1 ventricle (single ventricle physiology)\n\nSiêu âm 4CV: TV (thấp) nối với atrium nhận IVC = RA → concordant. TV nối với atrium nhận PVs → AV discordance (ccTGA).",
+      "extra": "PMID: 29415491; 3195487"
+    },
+    {
+      "type": "basic",
+      "front": "VA concordant vs VA discordant?",
+      "back": "VA connection (ventriculoarterial):\n\nConcordant (bình thường): RV morphology → PA, LV morphology → Ao\n\nDiscordant: RV morphology → Ao, LV morphology → PA → gặp trong complete TGA (D-TGA)\n\nDouble-outlet: cả 2 great arteries xuất phát hoàn toàn/phần lớn từ cùng 1 ventricle (thường RV) → DORV\n\nSingle-outlet: chỉ 1 great artery xuất phát từ tim (truncus arteriosus) hoặc 1 great artery atresia\n\nSiêu âm LVOT view: LV → gì? RVOT view: RV → gì? 3V/3VT: Ao + PA relation.\n\nQuy tắc '100% rule': cả 2 van hoàn toàn từ RV → DORV. 1 phần >50% từ RV → còn lại là TGA hoặc override.",
+      "extra": "PMID: 32332596 (DORV)"
+    },
+    {
+      "type": "basic",
+      "front": "Step-by-step approach siêu âm segmental analysis",
+      "back": "8 bước segmental analysis (Van Praagh + Anderson):\n\n1. Xác định abdominal situs: stomach trái/phải, liver vị trí, Ao + IVC, azygos?\n2. Xác định atrial situs: atrium nhận IVC = RA, atrium nhận PVs = LA\n3. Cardiac position + axis: levocardia, dextrocardia, mesocardia; góc 45° ± 20°\n4. Ventricular loop: moderator band, AV valve offset → D-loop hoặc L-loop\n5. AV connection: TV nối atrium nào? MV nối atrium nào?\n6. VA connection: LV → gì? RV → gì?\n7. Đánh giá thêm: Z-score, VSD (vị trí), valve morphology + function, 3V + 3VT, Doppler (4 van, 3 mạch, 2 shunts FO + DA), pulmonary veins, systemic veins\n8. Tổng hợp: notation Van Praagh {S/I/A, D/L, S/I/A} + diagnosis cụ thể",
+      "extra": "PMID: 25072035; 29415491"
+    },
+    {
+      "type": "basic",
+      "front": "Các biến thể Van Praagh thường gặp",
+      "back": "Van Praagh variants phổ biến:\n\n- {S, D, S}: bình thường\n- {S, D, D} hoặc {S, D, A}: D-TGA (Ao anterior-right hoặc side-by-side)\n- {S, L, L}: ccTGA (L-TGA)\n- {S, D, A}: DORV (subaortic VSD - Fallot-type; subpulmonic VSD - Taussig-Bing)\n- {S, D, A}: Truncus arteriosus (1 van đại mạch chung)\n- {A, -, -}: Heterotaxy (LAI hoặc RAI)\n- {S, D, S} + malalignment: TOF (PA nhỏ, malalignment VSD)\n- {S, D, S} + Ao atresia: HLHS",
+      "extra": "PMID: 29415491; 31913940 (TOF); 32286218 (HLHS)"
+    },
+    {
+      "type": "basic",
+      "front": "5 mặt cắt bắt buộc trong sàng lọc tim thai theo ISUOG 2023",
+      "back": "5 mặt cắt bắt buộc cho sàng lọc tim thai (ISUOG 2023, ASE 2023, AIUM 2020):\n\n1. 4-chamber view (4CV) — cornerstone\n2. LVOT view (5-chamber, left ventricular outflow tract)\n3. RVOT view (right ventricular outflow tract)\n4. 3-vessel view (3V) — PA, Ao, SVC\n5. 3-vessel-trachea view (3VT) — MPA + DA + Ao arch + trachea\n\nFetal echo chuyên sâu thêm: aortic arch (long axis), ductal arch (long axis), bicaval view.\n\nDetection rate: 4CV alone ~40% CHD. 4CV + LVOT + RVOT + 3V + 3VT ~70-80% CHD.",
+      "extra": "PMID: 37267096; 23460196"
+    },
+    {
+      "type": "basic",
+      "front": "4-chamber view: vị trí probe và cấu trúc thấy được",
+      "back": "4CV: Probe transverse, ngang qua ngực thai ở mức trên 4 buồng. Hơi nghiêng đầu dò về phía fetal left shoulder → apical 4CV.\n\nCấu trúc thấy:\n- 4 buồng (RA, LA, RV, LV)\n- 2 van AV (MV cao hơn TV ~3-4 mm = AV valve offset)\n- IVS (interventricular septum, mỏng 1-2 mm)\n- IAS + flap of FO (chiếm 1/3 giữa IAS)\n- Crux cordis (giao IVS + IAS + van AV)\n- Cardiac axis 45° ± 20°\n- CT ratio 0.25-0.33\n- Pericardial effusion (nếu có)\n\nPhát hiện: VSD, AVSD, hypoplastic LV/RV, Ebstein, TAPVC, cardiomyopathy, tumors, ectopia cordis.",
+      "extra": "PMID: 23460196"
+    },
+    {
+      "type": "basic",
+      "front": "LVOT view (5-chamber): vị trí và cấu trúc",
+      "back": "LVOT view: Từ apical 4CV, nghiêng đầu dò về phía fetal right shoulder (xoay ~30° clockwise) HOẶC trượt lên trên ~5 mm.\n\nCấu trúc thấy:\n- LV (bên trái ảnh)\n- MV — 2 lá, anterior leaflet liên tục với AoV\n- Aortic-mitral continuity (fibrous) — đặc điểm LV\n- AoV — 3 van, 'central closure line' khi đóng\n- Ascending aorta\n- Coronary ostia (optional): RCA + LCA\n\nBất thường: AS, BAV, TGA (LV nối PA), DORV, HLHS, CoA (mild).\n\nĐo: AoV annulus (hinge-to-hinge, systole), LV length (MV annulus → apex).",
+      "extra": "PMID: 23460196"
+    },
+    {
+      "type": "basic",
+      "front": "RVOT view: vị trí và cấu trúc",
+      "back": "RVOT view: Từ 4CV, xoay đầu dò 90° sang sagittal → trượt lên trên thấy RV outflow. Hoặc từ LVOT view, xoay thêm 30° clockwise.\n\nCấu trúc thấy:\n- RV (bên phải ảnh)\n- TV (3 lá, ở inflow)\n- PV (3 van)\n- RV infundibulum (muscular, giữa TV và PV) — đặc điểm RV\n- MPA (từ PV đi lên)\n- RPA + LPA (bifurcation)\n- DA (ductus arteriosus)\n\nRVOT phải 'wraps around' AoV trong mặt cắt basal short axis.\n\nBất thường: PS, PA, TOF (PA nhỏ), TGA, DORV.\n\nĐo: PV annulus, MPA diameter, RV length.",
+      "extra": "PMID: 23460196"
+    },
+    {
+      "type": "basic",
+      "front": "3-vessel view (3V): vị trí và công thức",
+      "back": "3V view: Từ 4CV, trượt đầu dò lên trên ~5-10 mm + nghiêng nhẹ. Mặt cắt ngang qua upper mediastinum.\n\n3 mạch từ trái → phải:\n1. Pulmonary artery (MPA / DA) — trước-trái, LỚN NHẤT\n2. Ascending aorta — giữa-sau, trung bình\n3. SVC (superior vena cava) — sau-phải, NHỎ NHẤT\n\nCông thức: PA > Ao > SVC (kích thước giảm dần).\n\nBất thường:\n- 2 mạch: PA (pulmonary atresia)\n- 1 mạch: truncus arteriosus\n- 4 mạch: PLSVC (persistent left SVC)\n- Ao nhỏ: CoA nguy cơ\n- PA nhỏ: ToF, PA/IVS, PS\n- Ao > PA: TGA",
+      "extra": "PMID: 23460196; 31945242"
+    },
+    {
+      "type": "basic",
+      "front": "3-vessel-trachea view (3VT): V-shape là gì?",
+      "back": "3VT view: Từ 3V, trượt đầu dò lên trên thêm ~3-5 mm. Mặt cắt ngang qua upper mediastinum ở mức trachea + aortic arch + DA.\n\nCấu trúc: PA + DA, Ao arch (transverse), trachea (echo-dense), SVC (optional).\n\nV-shape: Ao arch + DA tạo hình chữ V hướng về phía trachea (như cánh tay ôm lấy trachea).\n\nSitus solitus: Ao arch ở TRÁI trachea (V-shape opens to the right).\nSitus inversus: Ao arch ở PHẢI trachea.\nD-TGA: Ao vẫn ở trái, parallel great vessels.\nRight aortic arch: Ao arch ở PHẢI trachea (V-shape opens to the left) — gặp trong 22q11.2 del, ToF.",
+      "extra": "PMID: 12383314; 23466189; 15057948"
+    },
+    {
+      "type": "basic",
+      "front": "3VT bất thường — bảng tổng hợp",
+      "back": "3VT view — bất thường thường gặp:\n\n1. Right aortic arch: Ao arch phải trachea, V-shape đảo chiều\n2. Double aortic arch: 2 Ao arch ôm trachea → 'ring sign'\n3. IAA (type A/B): Ao arch bị gián đoạn, không thấy V-shape hoàn chỉnh\n4. Aberrant R subclavian (ARSA): 1 mạch nhỏ đi từ trái qua phải sau trachea (soft marker T21)\n5. D-TGA: Ao + PA song song (parallel) thay vì V-shape\n6. TAPVR supracardiac: thêm vertical vein phía sau-trái (4 vessels — 'vascular traffic jam')\n7. CDH / lung mass: heart shifted",
+      "extra": "PMID: 12383314; 38102779; 16856821"
+    },
+    {
+      "type": "basic",
+      "front": "Aortic arch view vs Ductal arch view — phân biệt",
+      "back": "Aortic arch view (long axis):\n- Vị trí: sagittal, nghiêng trái ~30°\n- Hình dạng: 'candy cane' (cong thành đường cong)\n- Cấu trúc: root → ascending → arch (3 nhánh: innominate, LCCA, LSA) → descending\n- 3 NHÁNH arch (phân biệt với DA)\n\nDuctal arch view:\n- Vị trí: sagittal, nghiêng trái ~15-20° (ít hơn Ao arch)\n- Hình dạng: 'hockey stick' (cây gậy khúc côn cầu)\n- Cấu trúc: RV → PV → MPA → bifurcation (LPA + RPA) → DA → DAo\n- 1 NHÁNH (nối với LPA)\n\nCả hai đều cần để đánh giá CoA, IAA, DA constriction.",
+      "extra": "PMID: 28134395"
+    },
+    {
+      "type": "cloze",
+      "text": "Tối ưu siêu âm sàng lọc tim thai thường quy: {{c1::18+0 - 22+0 tuần}} (lý tưởng 20-22 tuần). PMID: 37267096",
+      "extra": "ISUOG 2023 Practice Guidelines"
+    },
+    {
+      "type": "cloze",
+      "text": "Công thức 3-vessel view: {{c1::PA > Ao > SVC}} (kích thước giảm dần, đường chéo từ trước-trái đến sau-phải). PMID: 23460196",
+      "extra": "ISUOG 2013"
+    },
+    {
+      "type": "cloze",
+      "text": "4-chamber view bình thường KHÔNG loại trừ {{c1::TGA, TOF, CoA, TAPVR}}. Luôn khảo sát đầy đủ 5 mặt cắt + Doppler. PMID: 31945242",
+      "extra": "Bak GS 2020 cost-effectiveness"
+    },
+    {
+      "type": "cloze",
+      "text": "Cardiac axis bình thường {{c1::45° ± 20°}} (tức 25-65°). Lệch trái > 60° → CoA/HLHS. Lệch phải < 30° → TOF/DORV/TAPVR. PMID: 23460196",
+      "extra": "ISUOG 2013"
+    },
+    {
+      "type": "cloze",
+      "text": "Doppler DA bình thường: PSV {{c1::0.5-0.8 m/s}}, PI {{c1::1.9-3.0}}. PSV > 1.4 m/s hoặc PI < 1.9 → DA constriction (NSAIDs mẹ). Dừng thuốc ngay. PMID: 32413023",
+      "extra": "Gittenberger-de Groot 2020"
+    },
+    {
+      "type": "cloze",
+      "text": "AoV annulus bình thường PSV {{c1::0.8-1.2 m/s}}. > 1.5 m/s = AS; > 2.5 m/s = critical AS. PV annulus PSV {{c1::0.6-0.9 m/s}}. PMID: 23460196",
+      "extra": "ISUOG 2013; 37227365 ASE 2023"
+    },
+    {
+      "type": "cloze",
+      "text": "MV E/A ratio đảo ngược > 30 tuần có thể là dấu hiệu của {{c1::LV dysfunction}}. MPI bình thường LV {{c1::0.35-0.45}}, RV {{c1::0.30-0.40}}; > 0.5 = dysfunction. PMID: 37227365",
+      "extra": "ASE 2023; Schneider 2005"
+    },
+    {
+      "type": "basic",
+      "front": "Z-score là gì? Công thức?",
+      "back": "Z-score = số standard deviation (SD) mà giá trị đo được lệch khỏi mean của population reference cho gestational age (GA) tương ứng.\n\nCông thức: Z = (x_observed − mean_GA) / SD_GA\n\nÝ nghĩa:\n- Z = 0: trung bình (50th percentile)\n- Z = ±2: percentile 2.3 hoặc 97.7 (giới hạn bình thường)\n- Z > +2.5: bất thường lớn\n- Z < -2.5: bất thường nhỏ\n\nZ-score QUAN TRỌNG HƠN absolute value vì tim tăng kích thước theo GA. Cùng 5 mm: GA 18 tuần Ao bình thường, GA 30 tuần Ao hypoplastic (Z = -3).",
+      "extra": "PMID: 16254878 (Schneider 2005)"
+    },
+    {
+      "type": "basic",
+      "front": "Schneider 2005 — đặc điểm nghiên cứu",
+      "back": "Schneider C, McCrindle BW, Carvalho JS, Hornberger LK, McCarthy KP, Daubeney PEF.\nDevelopment of Z-scores for fetal cardiac dimensions from echocardiography.\nUltrasound Obstet Gynecol 2005;26(6):599-605. DOI 10.1002/uog.2597\n\nNghiên cứu: 2,240 thai kỳ (15-40 tuần) với 5 model fitting:\n- Linear: y = a + b*GA\n- Log-linear: y = a + b*ln(GA)\n- Log-quadratic: y = a*GA^b*exp(c*GA) ← BEST FIT cho valve annuli\n- Square root: y = a + b*sqrt(GA)\n- Cubic: y = a + b*GA + c*GA^2 + d*GA^3\n\nCông thức: ln(value) = α + β*GA + γ*GA²\nZ-score = (ln(observed) − mean_ln(GA)) / SD_ln(GA)\n\nVẫn là reference chuẩn hiện nay (2026).",
+      "extra": "PMID: 16254878"
+    },
+    {
+      "type": "basic",
+      "front": "Krishnan 2020 systematic review về Z-score",
+      "back": "Krishnan 2020 (PMID: 31945242): Systematic review tổng hợp 56 studies (1985-2019), n > 50,000 thai kỳ.\n\nPhát hiện: WIDE VARIABILITY giữa các reference ranges (do khác biệt population, technique, machine).\n\nKhuyến cáo: Dùng Z-score calculator ONLINE thay vì tính tay. Các calculator phổ biến:\n- FetalHQ (https://fetalhq.com) — Schneider + Boston + Texas data\n- Children's Hospital Boston Z-score (parameters Colan 2005)\n- Cincinnati Fetal Heart Z-score (parametric vs non-parametric)\n- Z-score.org (parametric)\n\nTiêu chuẩn đo Z-score: valve annulus đo hinge-to-hinge tại maximal opening (mid-systole cho semilunar, mid-diastole cho AV).",
+      "extra": "PMID: 31945242 (Bak GS 2020)"
+    },
+    {
+      "type": "cloze",
+      "text": "Z-score bình thường {{c1::-2 đến +2}}. Z-score bất thường {{c1::< -2.5 hoặc > +2.5}}. Diễn giải: |Z| < 2 = bình thường; 2-3 = theo dõi; ≥ 3 = bất thường. PMID: 16254878",
+      "extra": "Schneider 2005"
+    },
+    {
+      "type": "cloze",
+      "text": "MV annulus ở 20 tuần: {{c1::4.2 mm}}; 28 tuần: {{c1::7.6 mm}}; 36 tuần: {{c1::11.5 mm}}. PMID: 16254878",
+      "extra": "Schneider 2005 reference table"
+    },
+    {
+      "type": "cloze",
+      "text": "TV annulus ở 20 tuần: {{c1::4.8 mm}}; 28 tuần: {{c1::8.7 mm}}; 36 tuần: {{c1::13.0 mm}}. PMID: 16254878",
+      "extra": "Schneider 2005"
+    },
+    {
+      "type": "cloze",
+      "text": "AoV annulus ở 20 tuần: {{c1::3.6 mm}}; 28 tuần: {{c1::6.3 mm}}; 36 tuần: {{c1::9.5 mm}}. PMID: 16254878",
+      "extra": "Schneider 2005"
+    },
+    {
+      "type": "cloze",
+      "text": "PV annulus ở 20 tuần: {{c1::4.5 mm}}; 28 tuần: {{c1::7.8 mm}}; 36 tuần: {{c1::11.6 mm}}. PMID: 16254878",
+      "extra": "Schneider 2005"
+    },
+    {
+      "type": "cloze",
+      "text": "Aortic isthmus ở 20 tuần: {{c1::2.6 mm}}; 28 tuần: {{c1::4.3 mm}}; 36 tuần: {{c1::6.4 mm}}. Z < -2.5 ở 3V/3VT view → cảnh báo CoA. PMID: 16254878",
+      "extra": "Schneider 2005"
+    },
+    {
+      "type": "cloze",
+      "text": "Ductal arch ở 20 tuần: {{c1::3.3 mm}}; 28 tuần: {{c1::5.6 mm}}; 36 tuần: {{c1::8.4 mm}}. PMID: 16254878",
+      "extra": "Schneider 2005"
+    },
+    {
+      "type": "basic",
+      "front": "Z-score cho từng cấu trúc: ngưỡng bất thường (theo dõi vs can thiệp)",
+      "back": "Bảng Z-score cảnh báo (theo Schneider 2005):\n\n| Cấu trúc | Bình thường | Cảnh báo (theo dõi) | Bất thường (can thiệp) |\n| MV annulus | -2 đến +2 | -2 đến -3 hoặc +2 đến +3 | < -3 hoặc > +3 |\n| TV annulus | -2 đến +2 | -2 đến -3 hoặc +2 đến +3 | < -3 hoặc > +3 |\n| AoV annulus | -2 đến +2 | -2 đến -3 | < -3 (HLHS evolution) |\n| PV annulus | -2 đến +2 | -2 đến -3 | < -3 (PA/PS nguy cơ) |\n| Aortic isthmus | -2 đến +2 | -2 đến -3 | < -3 (CoA) |\n| Ductal arch | -2 đến +2 | -2 đến -3 | < -3 (CoA) |\n| MPA | -2 đến +2 | -2 đến -3 | < -3 (PS/PA) |\n| LV length | -2 đến +2 | -2 đến -3 | < -3 (HLHS) |\n| RV length | -2 đến +2 | -2 đến -3 | < -3 (PA/IVS) |",
+      "extra": "PMID: 16254878"
+    },
+    {
+      "type": "basic",
+      "front": "VSD — phân loại 4 type theo vị trí giải phẫu",
+      "back": "VSD phân loại theo vị trí giải phẫu (4 type):\n\n1. Perimembranous (~70%): quanh vùng màng, ngay dưới Ao valve, gần tam giác Koch. Có thể lan vào inlet, outlet hoặc muscular. Trên siêu âm 4CV: thấy dropout ngay dưới van nhĩ-thất phải. Trên LVOT view: gap ngay dưới van động mạch chủ.\n\n2. Muscular (~20%): ở phần cơ của vách liên thất (mid-muscular, apical, anterior, posterior). Nhiều lỗ = 'Swiss cheese septum'. Lưu ý drop-out artifact do vách mỏng ở đoạn cơ thành tự do.\n\n3. Inlet (~5%, AV canal-type): phần sau dưới van nhĩ-thất hai bên, thường gặp trong AVSD.\n\n4. Outlet/supracristal/conal (~5%): ngay dưới van động mạch phổi, liên quan đến sự hấp thu bất thường của conal septum. QUAN TRỌNG Ở CHÂU Á (tần suất cao hơn người da trắng) — dễ kèm AR do prolapse van ĐMC vào lỗ VSD.",
+      "extra": "PMID: 24890896; 33247678"
+    },
+    {
+      "type": "basic",
+      "front": "VSD — differential diagnosis và counseling",
+      "back": "VSD differential diagnosis (DDx):\n- Drop-out artifact vách cơ (mặt phẳng 4CV không chuẩn — lệch thành trước ngực). Cách phân biệt: dùng Color Doppler (VSD thật có dòng chảy), hoặc xoay probe ra sagittal, hoặc tắt harmonic imaging.\n- AVSD (kiểm tra AV valve offset — nếu có → AVSD)\n- VSD là một phần của TOF, DORV, TGA — KHÔNG được dừng ở VSD đơn thuần khi chưa khảo sát LVOT, RVOT, 3VT\n- VSD cơ nhỏ vs aneurysm of muscular septum (tự lành)\n\nCounseling:\n- VSD nhỏ <3 mm muscular: 80-90% tự đóng trước 2 tuổi, tiên lượng rất tốt\n- Perimembranous lớn >6 mm: cần device closure hoặc phẫu thuật mở\n- Sinh ở bệnh viện có phẫu thuật tim mạch nhi (level III) nếu VSD lớn",
+      "extra": "PMID: 24890896; 33247678"
+    },
+    {
+      "type": "basic",
+      "front": "AVSD — dấu hiệu quan trọng nhất trên 4CV",
+      "back": "Dấu hiệu quan trọng nhất của AVSD trên 4CV: MẤT 'OFFSET' VAN NHĨ-THẤT.\n\nBình thường: TV septal leaflet đính vào IVS ở vị trí THẤP HƠN MV anterior leaflet 1-2 mm (AV valve offset).\n\nAVSD: TV và MV đính ở CÙNG MỨC ('aligned'), hoặc thậm chí MV đính cao hơn TV.\n\nDấu hiệu khác:\n- ASD primum ở phần thấp vách liên nhĩ (kề van)\n- VSD inlet ở phần sau dưới van nhĩ-thất\n- Common AV valve: 'dải' van dày bắc ngang qua hai thất\n- 'Cross' / '+' sign: 2 dòng echo (IVS + AV valve) tạo chữ thập ở giữa tim\n\n75% AVSD complete ở trẻ Down syndrome.",
+      "extra": "PMID: 29207077; 30395868"
+    },
+    {
+      "type": "basic",
+      "front": "AVSD — phân loại Rastelli",
+      "back": "Phân loại AVSD theo Rastelli:\n\n1. Complete AVSD (~60%): có cả ASD primum + VSD inlet + van nhĩ-thất chung (một lỗ van lớn). Tạo 'cross' / 'H' shape trên 4CV. Có thể cân bằng (balanced) hoặc mất cân bằng (unbalanced).\n\n2. Partial AVSD (primum ASD, ~30%): chỉ có ASD primum + cleft (khe) van MV trước, KHÔNG có VSD inlet. Van nhĩ-thất trái 'ba lá' (thay vì hai lá) do cleft.\n\n3. Transitional / intermediate AVSD (~10%): phối hợp hai dạng trên, có VSD inlet nhỏ + ASD primum + van nhĩ-thất có thể chung hoặc tách.\n\n4. Unbalanced AVSD: van AV chung 'lệch' về một bên, dẫn đến một thất nhỏ, một thất lớn. Thường cần phân loại theo hướng lệch (lệch trái = thất phải dominate → HLHS; lệch phải = thất trái dominate → gần DORV). Tiên lượng xấu hơn nhiều.",
+      "extra": "PMID: 29207077"
+    },
+    {
+      "type": "basic",
+      "front": "Tetralogy of Fallot (TOF) — 4 đặc điểm và tại sao 4CV thường bình thường?",
+      "back": "TOF — 4 đặc điểm (Fallot 1888):\n1. VSD lớn (perimembranous)\n2. Pulmonary stenosis (subvalvular, phễu RV)\n3. RV hypertrophy (sau sinh)\n4. Overriding aorta (ĐMC cưỡi lên VSD, >50% ĐMC nằm ở thất phải)\n\nTrước sinh, RV hypertrophy chưa rõ → chẩn đoán dựa vào 3 đặc điểm còn lại.\n\nTại sao 4CV thường bình thường? Vì 4CV chỉ thấy inflow (4 buồng + van AV), KHÔNG thấy outflow tract. Các đặc điểm chính của TOF (overriding aorta, PA nhỏ) nằm ở LVOT/RVOT/3VT. Đây là lý do cần LVOT/RVOT/3VT bắt buộc.\n\nSiêu âm LVOT: thấy overriding aorta. RVOT/3VT: thấy ĐMP nhỏ hẹp so với ĐMC, dòng chảy tăng vận tốc qua PV (v > 1.5 m/s).",
+      "extra": "PMID: 31913940"
+    },
+    {
+      "type": "basic",
+      "front": "TOF — 3 subtype chính",
+      "back": "TOF — 3 subtype chính:\n\n1. TOF with PS (pulmonary stenosis) — phổ biến nhất. RVOT hẹp, phổi được cấp máu qua PV hẹp + ductus. Counseling: phẫu thuật 3-6 tháng tuổi, sống 20 năm >90%.\n\n2. TOF with PA (pulmonary atresia, 'pseudotruncus', PA-VSD) — RVOT tận cùng, không có PV. Phổi cấp máu hoàn toàn qua MAPCAs (major aortopulmonary collateral arteries) hoặc ductus. TIÊN LƯỢNG XẤU HƠN NHIỀU. Counseling: phẫu thuật nhiều giai đoạn (BT shunt trước → unifocalization MAPCAs).\n\n3. TOF with absent PV (APV-TOF) — thiếu hoàn toàn van ĐMP, phình ĐMP và nhánh → có thể gây airway compression (bronchial tree), cần MRI postnatal đánh giá.\n\nAssociated: 22q11.2 del (DiGeorge) 10-15% TOF, đặc biệt TOF-PA và APV-TOF.",
+      "extra": "PMID: 31913940; 32719225"
+    },
+    {
+      "type": "basic",
+      "front": "D-TGA — tại sao cấp cứu sơ sinh? Xử trí",
+      "back": "D-TGA (dextro-TGA, complete TGA) — VA discordance: ĐMC từ RV, ĐMP từ LV. 2 vòng tuần hoàn song song thay vì nối tiếp — trẻ sống được chỉ nhờ dòng shunt (qua ASD, VSD, hoặc DA).\n\nKhi DA đóng sinh lý (24-72 giờ sau sinh) → mất shunt → tử vong.\n\nXử trí cấp cứu sơ sinh:\n1. PGE1 (prostaglandin E1) — giữ DÂT mở\n2. Balloon atrial septostomy (BAS / Rashkind) trong 24-48h đầu — tạo ASD đủ lớn để trộn máu\n3. Phẫu thuật arterial switch (Jatene) trong 2 tuần đầu — chuyển ĐMC về LV, ĐMP về RV, chuyển coronary arteries\n\nTỷ lệ sống 20 năm >90% ở trung tâm lớn. Sinh ở trung tâm tim mạch nhi.",
+      "extra": "PMID: 31846538"
+    },
+    {
+      "type": "basic",
+      "front": "D-TGA vs L-TGA (cc-TGA) — phân biệt",
+      "back": "D-TGA (dextro-TGA, ~85%):\n- VA discordance (ĐMC từ RV, ĐMP từ LV)\n- AV concordant\n- Cấp cứu sơ sinh\n- 4CV bình thường\n- 'Parallel great vessels' sign\n- Notation Van Praagh: {S, D, D}\n\nL-TGA (cc-TGA, congenitally corrected TGA, ~15%):\n- Vừa AV discordance (RA → LV morphology, LA → RV morphology) VÀ VA discordance (RV morphology → Ao, LV morphology → PA)\n- Tuần hoàn vẫn đúng chiều (vì cả 2 đều đảo) — 'bình thường sinh lý'\n- Có thể không triệu chứng đến tuổi trưởng thành\n- Thường kèm TAPVR, VSD, PS, tricuspid regurgitation, AV block\n- Notation Van Praagh: {S, L, L}\n- Thất phải morphology gánh hệ thống → suy thất phải khi trưởng thành",
+      "extra": "PMID: 31846538; 33247677"
+    },
+    {
+      "type": "basic",
+      "front": "DORV — phân loại 4 type theo vị trí VSD",
+      "back": "DORV (Double Outlet Right Ventricle) phân loại theo vị trí VSD tương đối với van lớn:\n\n1. Subaortic VSD (Fallot-type, ~50%): VSD ngay dưới van ĐMC. Bệnh cảnh giống TOF (RVOT obstruction, overriding aorta).\n\n2. Subpulmonary VSD (Taussig-Bing, ~30%): VSD ngay dưới van ĐMP. Bệnh cảnh giống TGA (parallel circulation + VSD).\n\n3. Doubly-committed VSD (~5%): VSD có cả hai van ĐMC và ĐMP đều ở phía trên.\n\n4. Non-committed (remote) VSD (~15%): VSD xa cả hai van (thường ở inlet hoặc muscular). Khó sửa chữa nhất.\n\nSiêu âm: '100% rule' — nếu cả hai van hoàn toàn từ RV → DORV. Nếu một phần >50% từ RV → còn lại là TGA hoặc override.\n\nAssociated: 22q11.2 del rất hay gặp (20-30% DORV).",
+      "extra": "PMID: 32332596; 30914993"
+    },
+    {
+      "type": "basic",
+      "front": "Truncus arteriosus — đặc điểm và phân loại Collett & Edwards",
+      "back": "Truncus arteriosus: KHÔNG có sự phân chia giữa ĐMC và ĐMP — conotruncal septum không phát triển. Một thân mạch chung (single arterial trunk) + một van chung (truncal valve) + nhánh ĐMC + nhánh ĐMP + động mạch vành. Luôn kèm VSD lớn (do conal septum thiếu).\n\nPhân loại Collett & Edwards:\n- Type I (~50%): ĐMP ngắn xuất phát từ thân chung, sau đó chia trái-phải. PHỔ BIẾN NHẤT.\n- Type II (~20%): ĐMP trái-phải xuất phát cùng vị trí ở mặt sau thân chung.\n- Type III (~10%): ĐMP xuất phát 2 bên (trái và phải) riêng biệt ở mặt bên thân chung.\n- Type IV (~20%): PA-VSD với MAPCAs (hiện nay được phân loại riêng, không phải truncus nữa). Đây là dạng nặng nhất.\n\nSiêu âm: chỉ thấy 1 vessel duy nhất, 1 van duy nhất, 'I' sign bình thường mất.\n\nAssociated: 22q11.2 del chiếm 30-40% truncus (tỷ lệ cao nhất trong conotruncal). BẮT BUỘC làm CMA/FISH.",
+      "extra": "PMID: 32641118; 30478416"
+    },
+    {
+      "type": "basic",
+      "front": "HLHS — dấu hiệu sớm nhất trên 4CV",
+      "back": "HLHS (Hypoplastic Left Heart Syndrome) — dấu hiệu sớm nhất trên 4CV:\n\n1. LV nhỏ (so với RV) — LV/RV ratio < 0.6 (Z-score < -2)\n2. MV nhỏ hoặc không có (van hai lá bất thường — parachute, doming, hoặc atresia)\n3. RV dominate (RV to lên, apex hình thành bởi RV)\n4. Echo mô LV dày, tăng âm (do endocardial fibroelastosis EFE)\n5. Có thể thấy shunt ngược qua DA (Color Doppler)\n\nLVOT view: van ĐMC hẹp hoặc atretic, ĐMC lên nhỏ (<3 mm ở thai 20 tuần).\n3VT view: ĐMP lớn bất thường so với ĐMC; cung ĐMC nhỏ, coarctation thường kèm theo.\n\nDoppler: dòng chảy ngược từ DA lên cung ĐMC (retrograde arch flow) — DẤU HIỆU GẦN NHƯ CHẨN ĐOÁN XÁC ĐỊNH.\n\nDDx: critical AS evolving to HLHS, unbalanced AVSD with left dominance, DCM, Shone complex.",
+      "extra": "PMID: 32286218; 31986452"
+    },
+    {
+      "type": "basic",
+      "front": "HLHS — 3 lựa chọn điều trị cho gia đình",
+      "back": "HLHS — 3 lựa chọn điều trị:\n\n1. Comfort care / palliative: chỉ chăm sóc giảm nhẹ, trẻ tử vong trong vài ngày đến vài tuần. Phù hợp khi CHD nặng kèm bất thường nhiễm sắc thể nặng, không thể sửa chữa, hoặc gia đình chọn. Vẫn cần hỗ trợ giảm đau, giảm nhẹ, KHÔNG bỏ rơi thai nhi.\n\n2. 3-stage surgical palliation (Norwood → Glenn → Fontan):\n- Norwood: phẫu thuật trong 2 tuần đầu (tỷ lệ tử vong 10-20% ở trung tâm lớn)\n- Glenn: lúc 4-6 tháng\n- Fontan: lúc 2-4 tuổi\n- Tỷ lệ sống 5 năm sau Fontan khoảng 70-80%\n- Biến chứng lâu dài: protein-losing enteropathy, plastic bronchitis, Fontan failure, suy thất đơn\n\n3. Heart transplant: rất hiếm, phụ thuộc nguồn cơ quan. Tỷ lệ sống 5 năm sau transplant ở trẻ em khoảng 70-80%.\n\nSinh bắt buộc ở trung tâm có phẫu thuật tim nhi + cath lab, vì cần PGE1 ngay sau sinh + có thể cần balloon atrial septostomy nếu FO restrictive.",
+      "extra": "PMID: 32286218; 41999457"
+    },
+    {
+      "type": "basic",
+      "front": "Coarctation of aorta (CoA) — tại sao hay bị bỏ sót?",
+      "back": "CoA (Coarctation of Aorta) — hẹp cung ĐMC, thường ở vị trí isthmus (ngay sau LSA, trước chỗ mở DÂT). Là một trong những CHD HAY BỊ BỎ SÓT NHẤT trên siêu âm thường quy vì:\n\n1. 4CV thường BÌNH THƯỜNG — không thấy bất thường ở 4 buồng\n2. 3VT: cung ĐMC nhỏ (Z < -2.5) so với ĐMP, nhưng không đặc hiệu ở thai (vì ĐMC nhỏ ở thai là bình thường)\n3. Cần 'sagittal aortic arch' view + Color Doppler kỹ mới thấy được\n\nDấu hiệu gián tiếp trên 3VT view:\n- Cung ĐMC < 95% ĐMP → nghi ngờ CoA\n- TV/MV ratio > 0.5 (RV > LV)\n- BAV (50-85% CoA có BAV)\n- PLSVC hay kèm\n\nSagittal aortic arch: chỗ hẹp rõ, indentation ở isthmus, diastolic runoff Doppler (saw-tooth pattern).",
+      "extra": "PMID: 31790228; 32303086"
+    },
+    {
+      "type": "basic",
+      "front": "CoA — phân loại và counseling",
+      "back": "CoA — phân loại:\n\nPreductal (infantile type): hẹp trước DÂT, thường kèm bất thường tim khác (VSD, BAV), nặng hơn, biểu hiện sớm.\n\nPostductal (adult type): hẹp sau DÂT, đơn độc, thường biểu hiện muộn (tuổi đi học / trưởng thành).\n\nCounseling:\n- CoA đơn độc postductal → phẫu thuật resection + end-to-end anastomosis hoặc balloon angioplasty qua da trong 2-4 tuần đầu. Tỷ lệ thành công >95%.\n- Tái phát 10-20%. Persistent hypertension 20-30% ở tuổi trưởng thành.\n- CoA nặng / kèm bất thường khác: có thể cần PGE1 + Norwood hoặc hybrid procedure.\n\nAssociated: Turner syndrome (5-15% CoA, BẮT BUỘC làm karyotype), 22q11 del (IAA-B), Shone complex, Williams.\n\nBắt buộc khám toàn thân tìm Turner (cổ ngắn, tóc mọc thấp, chiều cao thấp, bất thường thận) + siêu âm hệ tiết niệu.",
+      "extra": "PMID: 31790228; 32303086"
+    },
+    {
+      "type": "basic",
+      "front": "Critical AS / Evolving HLHS — dấu hiệu và can thiệp bào thai",
+      "back": "Critical AS / Evolving HLHS — dấu hiệu trên siêu âm:\n\n- Van ĐMC dày, doming, mở không hết. Annulus < Z -2.\n- Spectral Doppler: PSV > 2.5-3 m/s (gradient > 60-80 mmHg). Lưu ý: gradient có thể đánh giá thấp khi EF LV giảm (low output)\n- 4CV theo dõi: LV size giảm dần theo tuần\n- Endocardial fibroelastosis (EFE) — echo dày, tăng âm nội tâm mạc LV (dấu hiệu xấu)\n- MV regurg thứ phát\n- Retrograde flow ở transverse arch\n\nCan thiệp bào thai (fetal aortic valvuloplasty) ở một số trung tâm lớn:\n- Mục đích: ngăn HLHS evolution, cho phép LV phát triển\n- Kỹ thuật: xuyên kim qua thành bụng mẹ → thành ngực thai → mỏm tim → qua van ĐMC nong bóng\n- Kết quả: khoảng 30-50% LV phát triển đủ để biventricular repair sau sinh\n\nSinh ở trung tâm có cath lab (để làm balloon valvuloplasty ngay sau sinh) + ECMO nếu cần.",
+      "extra": "PMID: 32664120; 33247680"
+    },
+    {
+      "type": "basic",
+      "front": "Pulmonary atresia with intact IVS (PA-IVS) — đặc điểm",
+      "back": "PA-IVS (Pulmonary Atresia with Intact Ventricular Septum) — đặc điểm:\n\n- Van ĐMP đặc hoàn toàn (no opening), vách liên thất nguyên vẹn\n- RV kích thước thay đổi từ rất nhỏ (nặng) đến bình thường\n- RV-dependent coronary circulation (RVDCC): RV hypertensive → fistulas với hệ thống vành → vành phụ thuộc áp lực cao RV → không thể decompression RV sau khi mở van. CHỐNG CHỈ ĐỊNH tương đối của biventricular repair.\n\nSiêu âm:\n- Van ĐMP dày, dome-shaped, không mở\n- Color Doppler: KHÔNG có dòng forward qua van ĐMP\n- TV regurg (vận tốc phản ánh áp lực RV — càng cao càng ít khả năng biventricular)\n- DA flow: dòng chảy ngược từ ĐMC xuống ĐMP (retrograde ductal flow)\n- Coronary fistulas: Doppler ở thành RV\n\nTreatment: PGE1 sau sinh + balloon valvuloplasty (RV perforation + RF ablation + balloon) hoặc phẫu thuật mở RVOT. Tiên lượng phụ thuộc RV size + TV annulus + RVDCC.\n\nAssociated: Noonan syndrome (PS).",
+      "extra": "PMID: 31913941; 30865886"
+    },
+    {
+      "type": "basic",
+      "front": "Ebstein anomaly — dấu hiệu chính trên 4CV",
+      "back": "Ebstein anomaly — dấu hiệu chính trên 4CV:\n\n1. Vị trí TV septal leaflet DỊCH XUỐNG thành RV: > 4 mm/m² BSA (hoặc so với MV insertion > 8 mm/m²)\n2. 'Atrialized RV' — phần RV 'trở thành' nhĩ phải\n3. Functional RV nhỏ (ở mặt phẳng 4CV, thấy RV dưới TV nhỏ)\n4. Lá trước TV to, sail-like (echo dày, dài) — dấu hiệu đặc trưng\n5. Cardiomegaly: tim to do RA mở rộng (atrialized RV + RA lớn)\n6. Color Doppler: TR nặng (dòng phụt từ RV → RA, vận tốc tăng 4-5 m/s)\n7. Có thể kèm PS/atresia → RA + RV rất lớn\n\nDDx: Uhl anomaly (RV mỏng như giấy), arrhythmia-induced cardiomyopathy, PA + Ebstein.\n\nAssociated: WPW syndrome (~10-20% Ebstein) → nhịp nhanh thai sau sinh. Maternal exposure: lithium, benzodiazepine.",
+      "extra": "PMID: 32303088; 33252045"
+    },
+    {
+      "type": "basic",
+      "front": "TAPVR — 4 type theo vị trí đổ",
+      "back": "TAPVR (Total Anomalous Pulmonary Venous Return) — 4 type theo vị trí đổ:\n\n1. Type I — Supracardiac (~50%): đổ vào SVC (thường qua vertical vein → left innominate vein → SVC → RA). HAY GẶP NHẤT.\n\n2. Type II — Cardiac (~20%): đổ vào coronary sinus (CS) hoặc trực tiếp vào RA. Siêu âm thấy CS giãn.\n\n3. Type III — Infracardiac (~20%): đổ vào IVC / portal vein / ductus venosus (thường qua vertical vein đi xuyên cơ hoành). HAY BỊ OBSTRUCTION → nặng nhất, thường kèm phù phổi cấp.\n\n4. Type IV — Mixed (~10%): phối hợp nhiều type.\n\nPhân loại quan trọng nhất: CÓ HAY KHÔNG CÓ OBSTRUCTION?\n- Không obstruction: LA trống, máu trộn ở RA, ASD/PFO đủ lớn → phổi sung huyết → tăng áp phổi → suy tim sau vài tuần\n- Có obstruction (thường infracardiac): CẤP CỨU sơ sinh, mổ trong 24-48h\n\nAssociated: Heterotaxy (LAI/polysplenia) ~30% TAPVR.",
+      "extra": "PMID: 32664122; 33239117"
+    },
+    {
+      "type": "basic",
+      "front": "TAPVR — dấu hiệu siêu âm KHÓ (dễ bỏ sót)",
+      "back": "TAPVR dấu hiệu siêu âm (KHÓ, thường bị bỏ sót):\n\n4CV:\n- LA trống (hoặc nhỏ) — không có TMT phổi đổ vào LA\n- RA mở rộng\n- RV mở rộng (volume overload)\n- PFO/ASD thường có dòng shunt trái → phải\n- 'Smooth-walled LA' — LA không có đoạn nhận TMT phổi (bình thường có cặp echo lõm xuống từ phía sau trên của LA)\n\nVertical vein:\n- Supracardiac: thấy vertical vein đi từ phía sau LA lên trên và phải, đổ vào left innominate vein. Trên 3VT: thêm 1 vessel bên trái SVC (4 vessels — 'vascular traffic jam')\n- Infracardiac: vertical vein đi từ LA xuống dưới, xuyên cơ hoành, đổ vào IVC/portal vein. Trên bụng: portal vein giãn và dòng chảy hỗn loạn ở gan\n\nColor Doppler: dòng chảy vào vertical vein, tăng vận tốc nếu có obstruction.\n\nTAPVR có obstruction: phổi tăng âm, cardiomegaly nặng, reversed DA flow.",
+      "extra": "PMID: 32664122"
+    },
+    {
+      "type": "basic",
+      "front": "Fetal cardiomyopathy — 3 type và dấu hiệu",
+      "back": "Fetal cardiomyopathy — 3 type:\n\n1. DCM (Dilated Cardiomyopathy) — thất giãn, EF < 40%:\n- Nguyên nhân: virus (Coxsackie, CMV, Parvovirus B19), mẹ tiểu đường, T18/T13, Fabry/Pompe disease\n- 4CV: LV + RV to (Z-score > 2), EF giảm (FS < 25%), MV/TV regurg thứ phát, có thể kèm effusions\n- Counseling: 30-50% tử vong chu sinh hoặc cần transplant\n\n2. HCM (Hypertrophic Cardiomyopathy) — thành thất dày, buồng thất nhỏ:\n- Nguyên nhân: MẸ TIỂU ĐƯỜNG (đặc biệt, vách liên thất có thể > 5 mm), Noonan (PTPN11), di truyền trội (MYH7)\n- 4CV: vách liên thất dày (Z-score > 2), thành tự do thất cũng dày, buồng thất nhỏ (Z-score < -2), có thể có LVOT obstruction (SAM)\n- Counseling: HCM do mẹ tiểu đường THƯỜNG HỒI PHỤC sau sinh 6-12 tháng. HCM di truyền cần theo dõi + ECG + Holter suốt đời\n\n3. Restrictive / Non-compaction:\n- Tỉ lệ myocardium không compact / compact > 2:1 ở thì tâm trương\n- Trabeculations sâu ở mỏm",
+      "extra": "PMID: 31790230; 33239118"
+    },
+    {
+      "type": "basic",
+      "front": "Fetal SVT — chẩn đoán và xử trí",
+      "back": "Fetal SVT (Supraventricular Tachycardia) — chẩn đoán và xử trí:\n\nChẩn đoán:\n- Nhịp nhĩ > 180 bpm (thường 220-260 bpm), đều, 1:1 với nhịp thất\n- Hầu hết qua AV reentry (AVRT) — phổ thông nhất\n- Siêu âm: M-mode (xuyên qua cả nhĩ và thất) hoặc Spectral Doppler inflow-outflow (tính PR interval)\n\nNguy cơ: suy tim thai → hydrops nếu kéo dài > 12-24h.\n\nXử trí:\n- SVT kéo dài / có hydrops: FLECAINIDE (hiệu quả nhất cho AVRT), digoxin (nếu không hydrops), sotalol. Cấp cứu: adenosine qua tiêm thai (ít dùng) hoặc mẹ.\n- SVT không kéo dài, không hydrops: theo dõi sát, có thể tự hết.\n- Hydrops: cần điều trị tích cực, có thể cần thuốc chống loạn nhịp mạnh.\n- Sau sinh: nếu kéo dài → cần pacemaker hoặc ablation.\n\nSiêu âm theo dõi: nhịp tim, PR interval, dấu hiệu suy tim (cardiomegaly, effusions).",
+      "extra": "PMID: 32188432"
+    },
+    {
+      "type": "basic",
+      "front": "CHB (Complete Heart Block) ở thai — nguyên nhân và xử trí",
+      "back": "CHB (Complete Heart Block) ở thai — nguyên nhân và xử trí:\n\nNguyên nhân chính: MẸ CÓ KHÁNG THỂ ANTI-RO/SSA, ANTI-LA/SSB (SLE, Sjögren) — kháng thể qua nhau thai gây viêm cơ tim + AV node thai. Nguy cơ tái phát ở thai kỳ sau: 20%.\n\nỞ thai KHÔNG có mẹ SLE: có thể do L-TGA (cc-TGA), bất thường cấu trúc (AVSD), hoặc vô căn.\n\nChẩn đoán: Nhịp nhĩ bình thường (120-160), nhịp thất chậm (40-80 bpm), độc lập. Mechanical PR interval > 150 ms = block AV độ 1 (dấu hiệu sớm).\n\nXử trí:\n- CHB với nhịp thất < 55 bpm / có hydrops / có viêm cơ tim: DEXAMETHASONE 4-8 mg/ngày mẹ có thể phục hồi block độ 1 → 2, KHÔNG phục hồi CHB. Salbutamol / terbutaline tăng nhịp thất. Có thể cần pacing thai (thử nghiệm). Sinh + pacing vĩnh viễn sau 28-34 tuần.\n\nMọi CHB bào thai cần xét nghiệm anti-Ro/SSA + anti-La/SSB ở mẹ.",
+      "extra": "PMID: 30730887"
+    },
+    {
+      "type": "basic",
+      "front": "Cardiac rhabdomyoma — đặc điểm và ý nghĩa",
+      "back": "Rhabdomyoma (khoảng 60-80% u tim thai) — đặc điểm:\n\n- Lành tính, là DẤU HIỆU của Tuberous Sclerosis Complex (TSC) — gen TSC1 / TSC2\n- U thường NHIỀU, xuất hiện ở thành thất, có thể tự thoái triển sau sinh\n- Sonographic: echo đặc (hyperechoic), đồng nhất, nhiều khối, kích thước thay đổi, có thể ở RV hoặc LV. Có thể gây obstruction nếu ở LVOT / RVOT.\n\nCounseling:\n- Khoảng 50% trẻ có TSC (cần MRI não sau sinh để tìm tubers + xét nghiệm gen TSC1/2)\n- U tim thường tự thoái triển trong 2-3 năm đầu, theo dõi\n- Nếu obstruction: phẫu thuật\n\nPhân biệt:\n- Teratoma: hiếm, ở màng ngoài tim, echo hỗn hợp (mixed echogenicity), có thể thấy vôi hoá, kèm pericardial effusion lớn\n- Fibroma: đơn độc, vách liên thất, có thể gây arrhythmia / LVOT obstruction",
+      "extra": "PMID: 32664123; 33252046"
+    },
+    {
+      "type": "basic",
+      "front": "Shone complex là gì?",
+      "back": "Shone complex = tổ hợp nhiều bất thường tim trái:\n- Parachute mitral valve (chỉ 1 papillary muscle)\n- Supravalvular mitral ring (màng trên MV)\n- Subaortic stenosis (SAS, màng dưới AoV)\n- Coarctation of aorta (CoA)\n\nCó thể chỉ có 1-2 thành phần. Tiến triển thành HLHS-like nếu nặng.\n\nSiêu âm: \n- MV bất thường (single papillary muscle)\n- LVOT obstruction (gradient qua AoV hoặc subvalvular)\n- CoA kèm theo\n\nCounseling: tiên lượng tùy mức độ. Có thể cần phẫu thuật nhiều giai đoạn (giải phóng subvalvular obstruction + sửa MV + sửa CoA). Cần theo dõi sát vì có thể tiến triển thành HLHS.",
+      "extra": "PMID: 32286218 (HLHS differential)"
+    },
+    {
+      "type": "basic",
+      "front": "Tricuspid atresia — đặc điểm và xử trí",
+      "back": "Tricuspid atresia — không có TV (membranous hoặc muscular), RA + coronary sinus giãn, VSD lớn, RV nhỏ (kèm pulmonary atresia/stenosis).\n\nSiêu âm 4CV: KHÔNG thấy TV (chỉ thấy MV). RA enlarged. VSD lớn. RV nhỏ, hypoplastic.\n\nType:\n- Type I (most common): normally related great arteries (ventriculoarterial concordance)\n- Type II: D-TGA (ventriculoarterial discordance)\n- Type III: L-TGA / other variants\n\nXử trí: \n- Single ventricle pathway (Glenn → Fontan) — tương tự HLHS\n- Phẫu thuật ban đầu: PGE1 + BT shunt (nếu PS/PA) hoặc PA banding (nếu không PS)\n- Sống 5 năm sau Fontan khoảng 70-80%",
+      "extra": "PMID: 25072035 (univentricular heart)"
+    },
+    {
+      "type": "basic",
+      "front": "Double-inlet ventricle (DIV) — đặc điểm",
+      "back": "Double-inlet ventricle (DIV) = cả 2 atrium nối về cùng 1 ventricle (thường LV). Thường kèm 1 ventricle nhỏ (rudimentary chamber), 1 great artery hoặc 2 great arteries, có thể có transposition.\n\nSiêu âm 4CV: thấy cả 2 AV valve đổ vào cùng 1 ventricle. Có thể có straddling AV valve.\n\nXử trí: Single ventricle pathway (Glenn → Fontan). Tiên lượng tùy mức độ, thường kém hơn các CHD khác.\n\nDDx: tricuspid atresia, mitral atresia, AV canal defect với unbalanced, l-looped ventricle.",
+      "extra": "PMID: 25072035"
+    },
+    {
+      "type": "basic",
+      "front": "Interrupted aortic arch (IAA) — phân loại và ý nghĩa",
+      "back": "Interrupted aortic arch (IAA) — Ao arch bị gián đoạn:\n\n- Type A: gián đoạn sau LSA (rare, 1%)\n- Type B: gián đoạn giữa LCCA và LSA (70%, hay kèm 22q11.2 deletion — DiGeorge)\n- Type C: gián đoạn giữa innominate và LCCA (rất hiếm)\n\nSiêu âm 3VT view: thấy 'V-shape bị gãy', Ao arch không nối liên tục. Sagittal aortic arch: mất đoạn.\n\nCần DÂT mở để sống → PGE1 sau sinh. Phẫu thuật cấp cứu trong vài ngày đầu (nối lại Ao arch).\n\nAssociated: 22q11.2 deletion (đặc biệt Type B), BAV. Counseling tương tự CoA nặng + 22q11 del.",
+      "extra": "PMID: 38102779 (3VT for IAA)"
+    },
+    {
+      "type": "basic",
+      "front": "Vascular ring là gì? Double aortic arch",
+      "back": "Vascular ring = vòng mạch máu quanh khí quản-thực quản, gây chèn ép.\n\nDouble aortic arch: 2 Ao arch (trước + sau) ôm trachea → 'ring sign' trên 3VT view. Thường gây tracheal compression sau sinh (stridor, wheeze, dyspnea khi ăn).\n\nRight aortic arch + aberrant left subclavian artery (ALSA) + ligamentum arteriosum: vòng mạch hoàn chỉnh. Gặp trong 22q11.2 deletion.\n\nSonographic clues:\n- 3VT: Ao arch phải trachea (right arch) hoặc 'ring sign' (double arch)\n- Color Doppler: thấy 2 Ao arch cùng đi cùng chiều quanh trachea\n- Trachea bị chèn ép (ít thấy trực tiếp trên siêu âm thai)\n\nCounseling: phẫu thuật cắt 1 arch (double arch) hoặc chia ligamentum (right arch + ALSA). Cần MRI postnatal để đánh giá mức độ chèn ép khí quản.",
+      "extra": "PMID: 23466189; 28134395"
+    },
+    {
+      "type": "basic",
+      "front": "3 lựa chọn cho gia đình khi phát hiện CHD nặng",
+      "back": "3 lựa chọn chính khi phát hiện CHD nặng trước sinh (ví dụ HLHS):\n\n1. Comfort care / palliative: chỉ chăm sóc giảm nhẹ, trẻ tử vong trong vài ngày đến vài tuần. Phù hợp khi CHD nặng kèm bất thường nhiễm sắc thể nặng, không thể sửa chữa, hoặc gia đình chọn. VẪN CẦN hỗ trợ giảm đau, giảm nhẹ, KHÔNG bỏ rơi thai nhi.\n\n2. 3-stage surgical palliation (Norwood → Glenn → Fontan): phẫu thuật nhiều giai đoạn, dành cho CHD có thể palliation được (HLHS, tricuspid atresia, double-inlet ventricle, pulmonary atresia, unbalanced AVSD). Tỷ lệ sống 5 năm sau Fontan khoảng 70-80%.\n\n3. Heart transplant: rất hiếm, phụ thuộc nguồn cơ quan. Tỷ lệ sống 5 năm sau transplant ở trẻ em khoảng 70-80%.\n\nQuyết định thuộc về gia đình sau khi được tư vấn đầy đủ. Bác sĩ KHÔNG ép buộc.",
+      "extra": "PMID: 32286218; 41999457"
+    },
+    {
+      "type": "basic",
+      "front": "Khi nào sinh ở trung tâm tim mạch nhi (level III)?",
+      "back": "Sinh ở trung tâm tim mạch nhi (level III) khi:\n\n1. Duct-dependent CHD cần PGE1 ngay sau sinh:\n   - HLHS, severe CoA, IAA, critical AS, critical PS, TGA (cần Rashkind), PA-IVS, TOF-PA, severe Ebstein\n2. CHD nặng cần cath lab/ECMO sẵn sàng:\n   - HLHS, TGA (arterial switch), TAPVR có obstruction, truncus, severe Ebstein\n3. CHD + bất thường khác: \n   - Heterotaxy (LAI/RAI), 22q11 del, Turner syndrome (CoA)\n4. Suy tim thai (hydrops)\n\nCần chuẩn bị:\n- PGE1 sẵn (giữ DA mở)\n- Cath lab (balloon septostomy, valvuloplasty)\n- ECMO (nếu cần)\n- Phẫu thuật tim nhi (nếu cần)\n- Hội chẩn với neonatology trước",
+      "extra": "PMID: 41999457 (Lemley 2026)"
+    },
+    {
+      "type": "basic",
+      "front": "Recurrence risk của CHD — yếu tố nào ảnh hưởng?",
+      "back": "Recurrence risk của CHD:\n\n- Prior child with CHD: 2-5% (overall), 10% nếu cùng lesion\n- Parent with CHD: 3-7% (left-sided lesions cao hơn)\n- First-degree relative với syndrome kết hợp CHD: tùy syndrome\n  - Turner: 30% (CoA, BAV)\n  - 22q11.2 del: 50% (autosomal dominant)\n  - Down (T21): 50% CHD\n  - T18: 90% CHD\n  - T13: 80% CHD\n- Monochorionic twins: tăng nguy cơ (TTTS có thể gây CHD)\n- IVF (đặc biệt ICSI): tăng nhẹ\n- Mẹ T1DM: 4-5% (so với 1% chung)\n- Mẹ SLE/anti-Ro+: 1-5% CHB (recurrence 20% ở thai kỳ sau)\n- Mẹ teratogen exposure: tùy thuốc",
+      "extra": "PMID: 24763516; 30730887"
+    },
+    {
+      "type": "basic",
+      "front": "Khi nào làm karyotype/CMA cho thai có CHD?",
+      "back": "Chỉ định làm karyotype/CMA cho thai có CHD:\n\nLÀM KARYOTYPE/CMA cho MỌI CHD nặng (Class I khuyến cáo), đặc biệt:\n\n1. AVSD → khả năng cao T21 (Down). 75% AVSD complete kèm T21.\n2. CoA → khả năng cao Turner (45,X), 5-15%. Nên làm karyotype khi CoA, đặc biệt nữ.\n3. HLHS → khả năng Turner 10-15%.\n4. TOF, TGA, DORV, Truncus → khả năng 22q11.2 deletion (DiGeorge), 10-40% tùy type. Nên làm FISH hoặc CMA.\n5. PS nặng ở trẻ nam → khả năng Noonan (PTPN11). 5% PS kèm Noonan.\n6. Williams syndrome (supravalvular AS) → 7q11.23 deletion (elastin gene). FISH cho elastin.\n7. T18, T13: thường có CHD 80-90%.\n\nSiêu âm: nếu NT ≥ 3.5 mm, absent thymus, extracardiac anomalies → nghi ngờ cao, làm CMA ngay.",
+      "extra": "PMID: 24763516; 32719225"
+    },
+    {
+      "type": "basic",
+      "front": "Anti-Ro/SSA và thai kỳ — theo dõi và xử trí",
+      "back": "Anti-Ro/SSA và anti-La/SSB dương tính ở mẹ (SLE, Sjögren, hoặc không triệu chứng):\n\nNguy cơ CHB thai: 1-5% (nếu + anti-Ro/SSA), cao hơn nếu đã có thai kỳ trước bị CHB (recurrence 20%).\n\nTheo dõi:\n- Đo mechanical PR interval qua Doppler inflow-outflow hoặc M-mode từ 16-26 tuần\n- PR bình thường: 120-150 ms\n- PR > 150 ms = block AV độ 1 (dấu hiệu sớm)\n- Mỗi 1-2 tuần nếu có yếu tố nguy cơ\n\nXử trí:\n- PR > 150 ms hoặc block AV độ 2: DEXAMETHASONE 4-8 mg/ngày mẹ. Có thể ngăn CHB nếu điều trị sớm.\n- CHB: dexamethasone KHÔNG phục hồi được; salbutamol/terbutaline tăng nhịp thất. Sinh + pacing sau 28-34 tuần.\n\nHydroxychloroquine 400 mg/ngày: giảm nguy cơ CHB ở mẹ anti-Ro+ (có bằng chứng gần đây).",
+      "extra": "PMID: 30730887"
+    },
+    {
+      "type": "basic",
+      "front": "Fetal cardiac intervention (can thiệp tim thai) — chỉ định chính",
+      "back": "Fetal cardiac intervention (can thiệp tim thai) — chỉ định chính:\n\n1. Critical AS evolving to HLHS: fetal aortic valvuloplasty\n   - Mục đích: ngăn HLHS evolution, cho phép LV phát triển\n   - Kỹ thuật: xuyên kim qua thành bụng mẹ → thành ngực thai → mỏm tim → qua van ĐMC nong bóng\n   - Kết quả: 30-50% LV phát triển đủ để biventricular repair sau sinh\n   - Chỉ làm ở trung tâm lớn có kinh nghiệm\n\n2. PA-IVS với RV đủ lớn: fetal pulmonary valvuloplasty\n   - Mục đích: tăng RV size, tránh single ventricle pathway\n   - Ít phổ biến hơn critical AS intervention\n\n3. HLHS với restrictive FO: fetal atrial septostomy\n   - Mục đích: tránh phù phổi sau sinh\n   - Rất khó, ít trung tâm làm\n\nTất cả đều là thử nghiệm, cần thảo luận kỹ với gia đình về lợi ích/nguy cơ.",
+      "extra": "PMID: 32664120 (fetal aortic valvuloplasty)"
+    },
+    {
+      "type": "basic",
+      "front": "Khi nào cần MRI tim thai bổ sung?",
+      "back": "Khi nào cần MRI tim thai bổ sung (KHÔNG thay thế siêu âm):\n\n1. APV-TOF (absent pulmonary valve): MRI đánh giá airway compression (đường thở bị ĐMP phình chèn ép) → quyết định cần EXIT procedure hay phẫu thuật cấp cứu\n2. Vascular ring (vòng mạch): MRI 3D SSFP hiển thị đường đi của ĐMC, ĐMP, ligamentum arteriosum quanh khí quản-thực quản → phân loại double aortic arch, right arch + aberrant left subclavian\n3. TAPVR obstruction: MRI 3D cho thấy đường đi của vertical vein → phân loại và đánh giá mức obstruction\n4. Lymphatic anomalies (CCAML, chylothorax): MRI T2 hiển thị dịch lymph\n5. CNS abnormalities kèm CHD: MRI não ở 32+ tuần đánh giá não (migrational disorders, kernicterus, hemorrhage)\n\nThời điểm: thường 30+ tuần khi thai đủ lớn để MRI có resolution tốt.\n\nKHÔNG dùng contrast gadolinium ở thai (qua nhau thai → thai nhi).",
+      "extra": "PMID: 37227365 (ASE 2023)"
+    },
+    {
+      "type": "basic",
+      "front": "Lịch tái khám tim thai khi nghi ngờ CHD",
+      "back": "Lịch tái khám tim thai khi nghi ngờ CHD:\n\n- LVOT/RVOT obstruction evolving (AS, PS, CoA): mỗi 2-4 tuần\n- HLHS evolving từ AS: mỗi 1-2 tuần nếu LV size giảm nhanh, mỗi 4 tuần nếu stable\n- AVSD / VSD đơn thuần: mỗi 4 tuần\n- TAPVR: mỗi 2-4 tuần (đánh giá obstruction, vertical vein velocity)\n- Ebstein: mỗi 2-4 tuần (cardiomegaly, TR velocity, hydrops)\n- SVT / arrhythmia: mỗi 1-7 ngày tùy mức độ (mỗi ngày nếu có hydrops / nhịp > 220 / block AV độ 1 tiến triển)\n- Cardiomyopathy: mỗi 1-2 tuần (EF, MPI, hydrops)\n- TTTS: mỗi 1-2 tuần (mỗi vài ngày nếu Quintero III/IV)\n- Suy tim thai (hydrops): mỗi vài ngày + hội chẩn trung tâm tim mạch nhi về can thiệp",
+      "extra": "PMID: 37227365 (ASE 2023 follow-up)"
+    },
+    {
+      "type": "basic",
+      "front": "Detection rate của siêu âm tim thai thực tế tại Việt Nam?",
+      "back": "Detection rate tại Việt Nam (ước tính):\n\n- Siêu âm sàng lọc thường quy (chỉ 4CV): 30-50%\n- Siêu âm chi tiết (đầy đủ 5 mặt cắt + Doppler): 60-70% cho CHD nặng\n- Tại các trung tâm sản nhi lớn (BV Từ Dũ, BV Hùng Vương, BV Phụ sản TW): có thể đạt 50-70% cho CHD nặng\n\nSo sánh với thế giới:\n- Ribeiro 2025 (PMID 40892004): regional 43.6-56.2%, lesion-specific 13.1-77.1%\n- Lemley 2026 (PMID 41999457): khoảng 50% trẻ cần cardiac surgery trước 6 tháng tuổi ở Mỹ có prenatal diagnosis\n- Cody 2024 (PMID 38402176): multi-centre Irish 2019-2022, ~50% CCHD\n\nLý do Việt Nam còn thấp:\n- Thiếu sonographer được đào tạo outflow tract views\n- Máy móc cũ, quá tải bệnh viện\n- Thiếu fetal cardiology specialist\n- Nhiều ca không được chuyển tuyến",
+      "extra": "PMID: 40892004; 41999457; 38402176"
+    },
+    {
+      "type": "basic",
+      "front": "AI trong siêu âm tim thai (2026) — tình hình?",
+      "back": "AI (Artificial Intelligence) trong siêu âm tim thai — tình hình 2026:\n\nEvidence: Liastuti 2025 (PMID 40066351) systematic review + meta-analysis 9 studies:\n- Pooled sensitivity: 0.89 (0.81-0.94)\n- Pooled specificity: 0.91 (0.87-0.94)\n- AUC: 0.952\n- AI hỗ trợ tăng detection rate, đặc biệt ở low-resource settings\n\nỨng dụng cụ thể:\n- Truong VT 2022 (PMID 35192082): machine learning trong screening CHD\n- Liang B 2024 (PMID 38773456): automatic segmentation 4CV (15 critical anatomical labels)\n- Teraya N 2026 (PMID 41899834): AI-based automated assessment of 4CV in fetal cardiac ultrasound videos\n\nStatus trong guideline:\n- ISUOG 2023, ASE 2023, AIUM 2020: chưa có formal recommendation về AI\n- Coi là 'emerging technology' cần thêm validation\n- Grey zone lớn nhất 2024-2025\n\nKỳ vọng: AI sẽ trở thành công cụ hỗ trợ quan trọng trong tương lai, đặc biệt ở các nước đang phát triển.",
+      "extra": "PMID: 40066351; 35192082; 38773456; 41899834"
+    },
+    {
+      "type": "basic",
+      "front": "Klein 2024 + Lemley 2026 — Equity in prenatal CHD detection",
+      "back": "Klein & Donofrio 2024 (PMID 38786977) và Lemley 2026 (PMID 41999457) — Equity in prenatal CHD detection:\n\nPhát hiện: Prenatal detection rate CHÊNH LỆCH NHIỀU theo:\n- Race / ethnicity\n- Socioeconomic status (SES)\n- Insurance\n- Geographic location\n\nCụ thể: tại Mỹ, prenatal detection rate của CHD nặng chỉ ~50% trẻ cần cardiac surgery trước 6 tháng tuổi. Trẻ da đen, Hispanic, và từ gia đình thu nhập thấp có detection rate thấp hơn đáng kể so với trẻ da trắng và thu nhập cao.\n\nLemley 2026 framework 3 domains:\n1. Access to fetal cardiac care\n2. Accurate anatomic assessment\n3. Comprehensive counseling\n\nRecommendation: AI + tele-echocardiography + standardized guidelines + local policy để cải thiện equity. Hiện chưa có formal recommendation nào trong ISUOG/ASE/AHA về equity-targeting.\n\nTại Việt Nam: tương tự, chênh lệch giữa thành thị và nông thôn là rất lớn. Cần policy và infrastructure để cải thiện.",
+      "extra": "PMID: 38786977; 41999457"
+    },
+    {
+      "type": "basic",
+      "front": "ISUOG 2023 Practice Guidelines — điểm chính",
+      "back": "ISUOG 2023 (PMID 37267096) — Carvalho JS, Axt-Fliedner R, Chaoui R, et al. *ISUOG Practice Guidelines (updated): fetal cardiac screening.* Ultrasound Obstet Gynecol 2023;61(6):788-803. DOI 10.1002/uog.26224.\n\nĐiểm chính (update từ bản 2013 PMID 23460196):\n1. Cập nhật 10 năm sau bản 2013\n2. Bổ sung color/power Doppler ở mặt cắt 3-vessel-and-trachea (3VT)\n3. Khuyến cáo chính thức LVOT + RVOT (outflow tract views) — gần như bắt buộc\n4. Bổ sung 2 mặt cắt bắt buộc: RVOT, LVOT (ngoài 4CV, 3VV, 3VT)\n5. Section mới về first-trimester screening (11-14 tuần) cho thai nguy cơ cao\n6. Khuyến khích checklist + quality assurance\n\nPDF open access: https://www.isuog.org/static/a529f402-06f9-42b6-ae9abdc736c43bf2/UOG-2023-Carvalho-ISUOG-Practice-Guidelines-updated-fetal-cardiac-screening.pdf",
+      "extra": "PMID: 37267096; 23460196"
+    },
+    {
+      "type": "basic",
+      "front": "ASE 2023 Guidelines — điểm chính",
+      "back": "ASE 2023 (PMID 37227365) — Moon-Grady AJ, Donofrio MT, Gelehrter S, et al. *Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography.* J Am Soc Echocardiogr 2023;36(7):679-723. DOI 10.1016/j.echo.2023.04.014.\n\nTài liệu 44 trang, cập nhật bản ASE 2004 (Rychik et al.).\n\nĐiểm chính:\n1. Định nghĩa chi tiết: indications (chia theo risk levels — fetal / maternal / familial)\n2. Components của một fetal echocardiogram đầy đủ: anatomy, function, rhythm\n3. Nhấn mạnh: situs, systemic veins, 4CV, LVOT/RVOT, 3VV/3VT, aortic arch, ductal arch, spectral Doppler qua van và PDA\n4. Function: CVPS (Cardiovascular Profile Score), Tei index, shortening fraction, valve annulus Z-scores\n5. Rhythm: M-mode, simultaneous atrial/ventricular M-mode, Doppler\n6. Flowcharts phân loại nguy cơ + thời điểm thăm khám\n7. Advanced techniques: STIC, 3D, tissue Doppler, speckle tracking\n\nPDF: https://www.asecho.org/wp-content/uploads/2023/07/PIIS0894731723002067-1.pdf",
+      "extra": "PMID: 37227365"
+    },
+    {
+      "type": "basic",
+      "front": "AHA 2014 Scientific Statement — tại sao vẫn còn giá trị 2026?",
+      "back": "AHA 2014 (PMID 24763516) — Donofrio MT, Moon-Grady AJ, Hornberger LK, et al. *Diagnosis and treatment of fetal cardiac disease: a scientific statement from the American Heart Association.* Circulation 2014;129(21):2183-242. DOI 10.1161/01.cir.0000437597.44550.5d.\n\nTại sao vẫn còn giá trị 2026:\n1. Reference TOÀN DIỆN NHẤT về fetal cardiac medicine (129(21):2183-242)\n2. Đề cập: indications/timing for fetal echo, components, advanced techniques (3D/4D echo, fMRI, fMCG/fECG), medical therapy (anti-arrhythmic), catheter-based intervention, delivery planning, outcome\n3. Sử dụng ACC/AHA classification: Class I/IIa/IIb/III + level of evidence A/B/C\n4. CHƯA CÓ BẢN UPDATE CHÍNH THỨC 2020+ — vẫn còn hợp lệ\n5. Tác giả chính (Donofrio, Moon-Grady) là người đứng đầu ASE 2023 update → hai guideline BỔ SUNG cho nhau\n6. Vẫn là reference chính cho mọi chương trình đào tạo fetal cardiology trên thế giới",
+      "extra": "PMID: 24763516"
+    },
+    {
+      "type": "basic",
+      "front": "AIUM 2020 Practice Parameter — đặc điểm",
+      "back": "AIUM 2020 (PMID 31846540) — *AIUM Practice Parameter for the Performance of Fetal Echocardiography* (revision). J Ultrasound Med 2020;39(1):E5-E16. DOI 10.1002/jum.15188.\n\nĐặc điểm:\n- Cập nhật bản 2011 (PMID 21193716)\n- Mô tả: mục đích fetal echocardiography (broadly defined = detailed evaluation to identify + characterize heart anomalies trước sinh)\n- Indications (maternal / fetal / familial indications list)\n- Thời điểm khuyến cáo: 18-22 tuần\n- Equipment, documentation, quality control\n- Thường được dùng cho accreditation tại Mỹ\n\nAIUM 2020 stance về first-trimester echo: chủ yếu để xác định tuổi thai + sàng lọc trisomy; KHÔNG khuyến cáo first-trimester cardiac examination thường qui vì detection rate còn thấp. Khác với ISUOG 2023 và ASE 2023 (khuyến khích ở thai nguy cơ cao).",
+      "extra": "PMID: 31846540; 21193716"
+    },
+    {
+      "type": "basic",
+      "front": "Consensus points giữa các hội (ISUOG/ASE/AHA/AIUM)",
+      "back": "5 Consensus points giữa các hội lớn (ISUOG/ASE/AHA/AIUM):\n\n1. Thời điểm tối ưu: 18+0 - 22+0 tuần (lý tưởng 20-22 tuần) — Class I (AHA 2014); Good Practice Point (ISUOG 2023)\n\n2. 4CV là mặt cắt bắt buộc tối thiểu. ASE 2023 + ISUOG 2023 nhấn mạnh thêm 3VV/3VT.\n\n3. Để tăng detection rate, phải bổ sung LVOT và RVOT (outflow tract views). Những thai có CHD ảnh hưởng outflow tract (TGA, TOF, truncus, DORV) thường có 4CV bình thường — chỉ phát hiện khi thêm outflow tract views.\n\n4. Fetal echocardiography chuyên sâu phải bao gồm: situs, systemic veins, 4CV, LVOT, RVOT, 3VV, 3VT, aortic arch, ductal arch, spectral Doppler qua 4 van tim + ductus venosus + umbilical artery + MCA + ductus arteriosus, function (CVPS, Tei index, shortening fraction, valve annulus Z-scores), rhythm (M-mode, simultaneous atrial/ventricular M-mode, Doppler).\n\n5. First-trimester cardiac screening (11-14 tuần) chỉ cho thai nguy cơ cao.",
+      "extra": "PMID: 37267096; 37227365; 24763516"
+    },
+    {
+      "type": "basic",
+      "front": "Divergence / Grey zones giữa các hội",
+      "back": "4 divergence / grey zones giữa các hội:\n\n1. First-trimester routine screening cho tất cả thai phụ:\n   - ISUOG 2023 + ASE 2023: khuyến khích tích cực ở 11-14 tuần cho thai NGUY CƠ CAO; first-trimester KHÔNG thay thế mid-trimester scan\n   - AIUM 2020: first-trimester scan chủ yếu để xác định tuổi thai + sàng lọc trisomy; KHÔNG khuyến cáo first-trimester cardiac examination thường qui\n\n2. 3 mặt cắt outflow tract có nên bắt buộc ở scan thường qui?\n   - ISUOG 2023: khuyến khích mạnh, gần như bắt buộc (LVOT, RVOT, 3VV/3VT) — detection rate tăng rõ rệt\n   - AHA 2014 + AIUM 2020: ghi nhận tầm quan trọng, khuyến khích, để quyết định cho từng cơ sở\n\n3. Role of 3D/4D STIC: ISUOG 2023 + AHA 2014: hữu ích như adjunct, KHÔNG thay thế 2D + Doppler. AIUM 2020 + ASE 2023: advanced technique, cần operator training\n\n4. AI-assisted screening (2023-2025): Liastuti 2025 (PMID 40066351) sensitivity 89%, specificity 91% — chưa có formal recommendation trong ISUOG/ASE/AIUM. Coi là 'emerging technology'.",
+      "extra": "PMID: 40066351; 37267096; 37227365"
+    },
+    {
+      "type": "basic",
+      "front": "NICE NG201 + NHS FASP — guideline UK",
+      "back": "NICE NG201 — Antenatal care for uncomplicated pregnancies (UK, 19 August 2021):\n- Khuyến cáo scan 11+2 - 14+1 tuần (xác định tuổi thai, đa thai, sàng lọc trisomy nếu opt-in)\n- Khuyến cáo scan 18+0 - 20+6 tuần (sàng lọc dị tật bẩm sinh + vị trí nhau)\n- Tim thai được đề cập trong chương trình FASP\n- KHÔNG có PMID vì là national guideline, không phải journal article\n- URL: https://www.nice.org.uk/guidance/ng201/chapter/recommendations\n\nNHS FASP — 20-week screening scan (UK, updated 6 March 2026):\n- Scan 18+0 - 20+6 tuần\n- Tầm soát 11 physical conditions bao gồm heart\n- Updated 6 March 2026\n- KHÔNG có PMID vì là government public-facing guideline\n- URL: https://www.gov.uk/government/publications/fetal-anomaly-screening-20-week-scan/fetal-anomaly-screening-20-week-scan",
+      "extra": "NICE NG201 2021; NHS FASP 2026"
+    },
+    {
+      "type": "basic",
+      "front": "FMF London first-trimester echo — protocol",
+      "back": "FMF (Fetal Medicine Foundation) London — first-trimester cardiac assessment protocol:\n\n- Training/credentialing protocol từ Fetal Medicine Foundation London\n- KHÔNG phải formal guideline hay journal article\n- KHÔNG có PMID vì là training protocol, không phải peer-reviewed publication\n- URL: https://www.fetalmedicine.org\n\nMục đích: chuẩn hóa cách đánh giá tim thai ở 11-14 tuần cho các bác sĩ sản khoa được FMF chứng nhận.\n\nDetection rate ở 12-14 tuần: khoảng 50-60% CHD nặng (HLHS, AVSD, TGA), nhưng KHÔNG thay thế được siêu âm 20-22 tuần.\n\nKhác với ISUOG 2023 + ASE 2023 (formal guidelines với PMID), FMF protocol là training/credentialing protocol.",
+      "extra": "FMF London; 37267096 (ISUOG 2023)"
+    },
+    {
+      "type": "basic",
+      "front": "ESC 2018 / 2025 — guideline tim mạch thai kỳ",
+      "back": "ESC 2018 (PMID 30165544) — Regitz-Zagrosek V, et al. *2018 ESC Guidelines for the management of cardiovascular diseases during pregnancy.* Eur Heart J 2018;39(34):3165-3241. DOI 10.1093/eurheartj/ehy340.\n\nESC 2018 vẫn là ESC guideline chính cho bệnh tim mạch thai kỳ, có section về:\n- Tiền sản / sàng lọc tim thai cho thai phụ mắc bệnh tim\n- Quản lý bệnh tim mạc thai kỳ\n- Dẫn chiếu bởi AHA 2014 và ASE 2023\n- Endorsed by AEPC, ESG, DGesGM\n\nESC 2025 update: đã được công bố 2025 (URL: https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/cardiovascular-diseases-during-pregnancy-management-of/). PMID chưa verify tại thời điểm search (2026-06-19).\n\nTại Việt Nam: chưa có guideline riêng. Thực hành theo ISUOG 2023 (screening) + ASE 2023 (specialist echo) + AHA 2014 (điều trị). BYT Việt Nam chưa có tài liệu tương đương.",
+      "extra": "PMID: 30165544"
+    },
+    {
+      "type": "basic",
+      "front": "Probe selection cho siêu âm tim thai?",
+      "back": "Probe selection cho siêu âm tim thai:\n\n- Convex 2-8 MHz: siêu âm thai thường quy (3VT + 4CV + LVOT + RVOT)\n- Linear 4-9 MHz: thai nhỏ (≤16 tuần), phụ nữ thành bụng mỏng, hoặc cần độ phân giải cao cho chi tiết cấu trúc\n- Sector / phased array 1-5 MHz: thai lớn >30 tuần hoặc khi cần xuyên sâu (mẹ BMI cao, thai nằm sâu)\n\nTần số khởi đầu: 5 MHz cho thai 20-24 tuần, depth 12-15 cm, focus đặt ngang mức tim thai.\n\nProbe KHÔNG cần cao cấp nhất — quan trọng là biết cách dùng. Quy tắc: tần số cao nhất có thể mà vẫn thấy được cấu trúc.",
+      "extra": "PMID: 37227365 (ASE 2023)"
+    },
+    {
+      "type": "basic",
+      "front": "Preset tim thai — các thông số tối ưu",
+      "back": "Preset tim thai — các thông số tối ưu:\n\n- Dùng 'Cardiac / Fetal Echo' preset. Nếu không có: dùng preset Cardiac (adult) rồi chỉnh.\n- Frame rate: > 30 fps (tốt nhất > 50 fps) — giảm width, giảm depth\n- Harmonic imaging: TẮT (gây artifact ở thai nhỏ); bật chỉ khi thai > 30 tuần hoặc mẹ BMI cao\n- Dynamic range: trung bình (60-70 dB), không quá thấp (mất chi tiết) hoặc quá cao (ảnh thô)\n- Smoothing / persistence: thấp để thấy chuyển động van rõ\n- Color Doppler: PRF 4-6 kHz cho dòng chảy trong tim thai (30-80 cm/s)\n- Color box: NHỎ và ĐẶT VỪA VÙNG CẦN KHẢO SÁT (không rộng ra cả màn hình)\n- Steer angle: xoay color box sao cho dòng chảy càng vuông góc với transducer càng tốt",
+      "extra": "PMID: 37227365 (ASE 2023)"
+    },
+    {
+      "type": "basic",
+      "front": "Tư thế mẹ tối ưu cho siêu âm tim thai?",
+      "back": "Tư thệ mẹ tối ưu cho siêu âm tim thai:\n\n- Mặc định: mẹ NẰM NGỬA, gối đầu cao 15-30° (semi-Fowler) để tránh tụt huyết áp do tĩnh mạch chủ dưới bị chèn ép (supine hypotension syndrome), đặc biệt > 20 tuần\n- Nếu tim thai ở vị trí khó thấy: NGHIÊNG TRÁI 15-30° (left lateral decubitus) giúp giảm tụt huyết áp + đẩy thai sang trái\n- TRÁNH nằm sấp ở tam cá nguyệt 2-3\n- Khám > 30 phút: cho mẹ vận động nhẹ giữa các đợt\n- Bàng quang mẹ đầy vừa (uống nước 300-500 mL, đợi 20-30 phút): đẩy tử cung lên + ngôi đầu xuống nếu thai ở ngôi ngược. Bàng quang quá đầy cũng gây artifact (echo giảm).",
+      "extra": "PMID: 37227365"
+    },
+    {
+      "type": "basic",
+      "front": "Color Doppler — các vùng cần khảo sát (theo ISUOG 2023)",
+      "back": "Color Doppler — các vùng CẦN khảo sát (theo ISUOG 2023):\n\n1. MV / TV inflow — kiểm tra MR, TR (dấu hiệu quan trọng của Ebstein, HLHS, AS)\n2. LVOT / RVOT — kiểm tra AS, PS, VSD jets\n3. Vách liên thất — sweep toàn bộ (membranous → muscular → inlet → outlet) để tìm VSD\n4. AV valves offset — xác định 'offset' TV > MV (bình thường)\n5. Pulmonary veins — phải thấy 2 TMT phổi trái + 2 TMT phổi phải đổ vào LA. Nếu không thấy → nghi TAPVR\n6. DA arch — dòng chảy forward từ RV qua DA → descending aorta (bình thường). Nếu dòng chảy ngược (aorta → DA) → CoA, HLHS, AS nặng\n\nPRF 4-6 kHz. Gain bắt đầu cao, giảm dần. Color box nhỏ và đặt vừa vùng cần khảo sát. Steer angle vuông góc với transducer.",
+      "extra": "PMID: 37267096 (ISUOG 2023)"
+    },
+    {
+      "type": "basic",
+      "front": "Spectral Doppler — angle of insonation",
+      "back": "Spectral Doppler — angle of insonation:\n\n- Angle PHẢI < 20-30° để tính vận tốc chính xác\n- Sai số ±1° → ±0.5% sai số\n- Sai số ±30° → ±13% sai số\n- Cách chỉnh: dùng angle correction trên máy, đặt đường correction SONG SONG với dòng chảy quan tâm\n- Tránh đặt angle > 60° — kết quả không đáng tin\n- Nếu không thể chỉnh angle < 30° → ghi nhận 'vận tốc có thể thấp hơn thực tế' và đánh giá thêm bằng dấu hiệu khác\n\nLưu ý: gradient Doppler có thể đánh giá thấp khi EF giảm (low output) — vận tốc thấp nhưng stenosis thực sự nặng (gặp trong critical AS evolving HLHS).",
+      "extra": "PMID: 37227365 (ASE 2023)"
+    },
+    {
+      "type": "basic",
+      "front": "Pitfall #1: Drop-out artifact vách cơ",
+      "back": "Pitfall #1: Drop-out artifact vách cơ (pseudo-VSD)\n\n- Xảy ra ở mặt cắt KHÔNG CHUẨN 4CV (lệch thành trước ngực) → vách cơ mỏng echo dừng giữa chừng\n- Cách phân biệt với VSD thật:\n  1. Dùng Color Doppler (VSD thật có dòng chảy)\n  2. Xoay probe ra sagittal\n  3. Tắt harmonic imaging\n  4. Thay đổi góc probe\n- VSD thật: có dòng chảy shunt trên Color Doppler, thấy ở NHIỀU mặt cắt (không chỉ 1)\n- Drop-out: chỉ thấy ở 1 mặt cắt, không có shunt Doppler, biến mất khi xoay probe\n\nPitfall #2: Pseudo-coarctation — kinking nhẹ ở isthmus, không có gradient Doppler. Thường là biến thể bình thường, theo dõi.\n\nPitfall #3: Mirror artifact — dòng chảy phản chiếu ở thành tim đối diện, không phải shunt thật.",
+      "extra": "PMID: 37227365 (ASE 2023)"
+    },
+    {
+      "type": "basic",
+      "front": "Twin pregnancy — siêu âm tim thai khác gì singleton?",
+      "back": "Twin pregnancy — siêu âm tim thai:\n\n- Nguy cơ CHD ở song thai ~1.5-2× đơn thai\n- Mọi cặp song thai nên được khảo sát tim thai chi tiết ở 20-22 tuần\n- Đặc biệt:\n  - MCMA (mono-chorionic mono-amniotic): tim thai cả 2 thai nên được đánh dấu rõ ràng (Twin A = trái / Twin B = phải), khảo sát từng thai riêng biệt trong cùng 1 mặt cắt 3VT/4CV\n  - MCDA (mono-chorionic di-amniotic): TTTS có thể xảy ra 16-26 tuần\n  - DCDA (di-chorionic di-amniotic): nguy cơ thấp hơn\n\nLưu ý: cần xác định vị trí từng thai + insertion cord (chỗ bám dây rốn vào bánh nhau) trước khi ghi nhận 'bất thường ở thai X' — dễ nhầm thai A ↔ thai B.\n\nTTTS: recipient có nguy cơ cao RV dysfunction, PS, RVOT obstruction. MPI cả 2 thất, TR velocity.",
+      "extra": "PMID: 37227365 (ASE 2023)"
+    },
+    {
+      "type": "basic",
+      "front": "Sweep technique — kỹ thuật cốt lõi",
+      "back": "Sweep technique — kỹ thuật cốt lõi:\n\nĐặt probe ngang bụng mẹ ngang mức ngực thai → xoay 90° dần (transverse sweep) từ bụng trên lên đến ngực trên:\n\n1. Bụng trên: stomach bubble (echo-free), liver (homogeneous echo)\n2. Bụng ngang mức dạ dày: Ao + IVC vị trí tương đối\n3. Lên ngực: 4 buồng tim (4CV) — cornerstone\n4. Trượt/nhích lên trên: LVOT (5-chamber)\n5. Xoay 90° sang sagittal: RVOT\n6. Trượt tiếp lên: 3V view (PA + Ao + SVC)\n7. Thêm: 3VT view (MPA + DA + Ao arch + trachea)\n8. Sagittal aortic arch view (candy cane)\n9. Sagittal ductal arch view (hockey stick)\n\nMỗi mặt cắt cần 'lưu lại' 1-2 giây để xác nhận cấu trúc. ĐỪNG NHẢY giữa các mặt cắt — luôn quét liên tục để thấy sự liên tục.",
+      "extra": "PMID: 23460196 (ISUOG 2013)"
+    }
+  ]
+}

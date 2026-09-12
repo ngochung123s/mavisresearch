@@ -1,0 +1,34 @@
+{
+  "engine": "pptxgenjs",
+  "canvas": "canonical",
+  "qa": {
+    "checkCanvas": true,
+    "checkOverflow": true,
+    "checkPageBadge": true,
+    "checkPlaceholder": true,
+    "checkThinSlides": true,
+    "requireSpeakerNotes": false,
+    "warnRepeatedCitations": true,
+    "requireImageSources": false
+  },
+  "medicalTeaching": {
+    "enabled": true,
+    "requireWhat": true,
+    "requireWhy": true,
+    "requireRiskIfWrong": true
+  },
+  "render": {
+    "enabled": false,
+    "tryPowerPoint": true,
+    "tryLibreOffice": true,
+    "requireRenderPass": false
+  },
+  "citation": {
+    "preferClaimSpecificNotes": true,
+    "allowRepeatedPmidFooter": false
+  },
+  "output": {
+    "saveNextToSource": true,
+    "outputFolder": ""
+  }
+}

@@ -1,0 +1,13 @@
+[
+  {"gate": "brief_pmid_preflight", "status": "PASS"},
+  {"gate": "source_pmid_strict", "status": "PASS"},
+  {"gate": "source_claims_strict", "status": "PASS"},
+  {"gate": "citation_zero_block", "status": "PASS"},
+  {"gate": "profile_foundation", "status": "PASS"},
+  {"gate": "cards_schema", "status": "PASS"},
+  {"gate": "candidate_apkg_build", "status": "PASS"},
+  {"gate": "package_note_count", "status": "PASS"},
+  {"gate": "package_diacritics", "status": "PASS"},
+  {"gate": "source_diacritics", "status": "PASS"},
+  {"gate": "learner_smoke", "status": "PASS"}
+]

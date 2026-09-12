@@ -147,15 +147,19 @@ def build_apkg(cards_json_path, output_path=None):
     print(f"  Deck: {deck_full}")
     print(f"{'='*60}")
 
-    # DIACRITICS CHECK — run before build
+    # Normalize cards list and detect V1 vs V2
     if isinstance(raw_data, list):
-        # V2 format
-        vn_diac, vn_total, ratio = _check_json_diacritics(raw_data)
+        cards_list = raw_data
+        is_v2 = True
+    elif isinstance(raw_data, dict) and 'cards' in raw_data:
+        cards_list = raw_data['cards']
+        is_v2 = any(isinstance(c, dict) and 'type' in c for c in cards_list)
     else:
-        # V1 format — extract text from cards
-        cards = raw_data.get('cards', [])
-        vn_diac, vn_total, ratio = _check_json_diacritics(cards)
+        cards_list = []
+        is_v2 = False
 
+    # DIACRITICS CHECK — run before build
+    vn_diac, vn_total, ratio = _check_json_diacritics(cards_list)
     status = 'OK' if ratio >= 0.80 else 'WARN' if ratio >= 0.50 else 'FAIL'
     print(f"  {status}: Diacritics {ratio:.1%} ({vn_diac}/{vn_total} tu VN co dau)")
 
@@ -164,7 +168,7 @@ def build_apkg(cards_json_path, output_path=None):
         return 2
 
     # Build
-    if isinstance(raw_data, list):
+    if is_v2:
         # V2 format
         basic_model = build_pastel_model_and_deck(
             model_id=basic_model_id,
@@ -184,24 +188,34 @@ def build_apkg(cards_json_path, output_path=None):
 
         basic_count = 0
         cloze_count = 0
-        for card in raw_data:
+        for card in cards_list:
             card_type = card.get('type', 'basic')
+            raw_tags = card.get('tags', [])
+            if isinstance(raw_tags, list):
+                tag_list = [str(t).replace(' ', '_') for t in raw_tags if t]
+                tag_str = ' '.join(f'<span class="tag">{html_lib.escape(str(t))}</span>' for t in raw_tags if t)
+            elif isinstance(raw_tags, str) and raw_tags:
+                tag_list = [raw_tags.replace(' ', '_')]
+                tag_str = f'<span class="tag">{html_lib.escape(raw_tags)}</span>'
+            else:
+                tag_list = []
+                tag_str = ''
+
             if card_type == 'basic':
                 front = html_lib.escape(card.get('front', ''))
                 back = card.get('back', '')
                 extra = card.get('extra', '')
                 if extra:
                     back = back + ('<br><br>' + html_lib.escape(extra) if back else html_lib.escape(extra))
-                note = genanki.Note(model=basic_model, fields=[front, back, ''])
+                note = genanki.Note(model=basic_model, fields=[front, back, tag_str], tags=tag_list)
                 deck.add_note(note)
                 basic_count += 1
             elif card_type == 'cloze':
                 text = card.get('text', '')
                 extra = html_lib.escape(card.get('extra', ''))
-                note = genanki.Note(model=cloze_model, fields=[text, extra])
+                note = genanki.Note(model=cloze_model, fields=[text, extra], tags=tag_list)
                 deck.add_note(note)
                 cloze_count += 1
-
         write_apkg(deck, str(output_path))
         total = basic_count + cloze_count
         print(f"  [APKG] Built {total} cards ({basic_count} basic + {cloze_count} cloze)")
@@ -210,7 +224,7 @@ def build_apkg(cards_json_path, output_path=None):
 
     else:
         # V1 format (legacy)
-        deck_name = raw_data.get('deck_name', topic)
+        deck_name = raw_data.get('deck_name', topic) if isinstance(raw_data, dict) else topic
         model, deck = build_pastel_model_and_deck(
             model_id=basic_model_id,
             model_name=f'{stem}_Pastel',

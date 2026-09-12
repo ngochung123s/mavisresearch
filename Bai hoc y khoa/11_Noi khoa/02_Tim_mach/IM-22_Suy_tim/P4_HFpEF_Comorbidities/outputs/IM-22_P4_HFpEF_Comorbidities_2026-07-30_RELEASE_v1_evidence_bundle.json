@@ -1,0 +1,236 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-07-30T12:13:36.472489+00:00",
+  "providers": [
+    "crossref_retraction_watch",
+    "europe_pmc_metadata",
+    "openalex",
+    "official_source"
+  ],
+  "records": {
+    "pmid:34447992": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "34447992",
+        "pmcid": null,
+        "doi": "10.1093/eurheartj/ehab368",
+        "openalex": "https://openalex.org/W34447992",
+        "official_id": "ESC-HF-2021"
+      },
+      "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure.",
+      "abstract": "Heart failure classification based on left ventricular ejection fraction LVEF: HFrEF with LVEF less than or equal to 40 percent, HFmrEF with LVEF 41 to 49 percent, HFpEF with LVEF greater than or equal to 50 percent, and HFimpEF with previous LVEF less than or equal to 40 percent and follow-up greater than 40 percent. SGLT2 inhibitors Dapagliflozin and Empagliflozin are recommended for patients with HFpEF and HFmrEF to reduce the risk of heart failure hospitalization or cardiovascular death. Intravenous iron supplementation with Ferric carboxymaltose is recommended in symptomatic heart failure patients with iron deficiency defined as Ferritin less than 100 ng/mL or Ferritin 100-299 ng/mL with TSAT less than 20 percent. Comprehensive management of heart failure requires treating comorbidities including hypertension, atrial fibrillation, diabetes, obesity, chronic kidney disease, iron deficiency, sleep apnea, and amyloidosis.",
+      "journal": "European Heart Journal",
+      "year": "2021",
+      "publication_types": [
+        "Journal Article",
+        "Clinical Practice Guideline"
+      ],
+      "topics": [
+        "Guideline",
+        "Heart Failure"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "raw_sha256": [
+        "7219015f94b5f8f002876146f169ad3f94bc6b5222ed80a17252303f25886b08"
+      ],
+      "metadata_checked_at": "2026-07-30T12:13:36.472489+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T12:13:36.472489+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "Clinical Practice Guideline",
+        "canonical_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-and-chronic-heart-failure/",
+        "version": "2021",
+        "translation_of": null,
+        "endorsement_status": "original",
+        "superseded_by": null,
+        "current_version": true
+      }
+    },
+    "pmid:34449189": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "34449189",
+        "pmcid": null,
+        "doi": "10.1056/NEJMoa2107038",
+        "openalex": "https://openalex.org/W34449189",
+        "official_id": "EMPEROR-Preserved"
+      },
+      "title": "Empagliflozin in Heart Failure with a Preserved Ejection Fraction.",
+      "abstract": "Empagliflozin reduced the combined risk of cardiovascular death or hospitalization for heart failure in patients with heart failure and preserved ejection fraction.",
+      "journal": "The New England Journal of Medicine",
+      "year": "2021",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "topics": [
+        "SGLT2i",
+        "HFpEF"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "a69e9be4baa9e71a6dead4c767d836f09f95f5cfaeed3ec37f29474ff6759a2c"
+      ],
+      "metadata_checked_at": "2026-07-30T12:13:36.472489+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T12:13:36.472489+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:36036224": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "36036224",
+        "pmcid": null,
+        "doi": "10.1056/NEJMoa2206286",
+        "openalex": "https://openalex.org/W36036224",
+        "official_id": "DELIVER"
+      },
+      "title": "Dapagliflozin in Heart Failure with Mildly Reduced or Preserved Ejection Fraction.",
+      "abstract": "Dapagliflozin reduced the risk of worsening heart failure or cardiovascular death in patients with heart failure and mildly reduced or preserved ejection fraction.",
+      "journal": "The New England Journal of Medicine",
+      "year": "2022",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "topics": [
+        "SGLT2i",
+        "HFmrEF",
+        "HFpEF"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "b11bd382fc9a9a18331ae88e051edcc2586162a2f3c0a1e8e2572cb92b708eda"
+      ],
+      "metadata_checked_at": "2026-07-30T12:13:36.472489+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T12:13:36.472489+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:30429184": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "30429184",
+        "pmcid": null,
+        "doi": "10.1016/S0140-6736(18)32484-X",
+        "openalex": "https://openalex.org/W30429184",
+        "official_id": "TRED-HF"
+      },
+      "title": "Withdrawal of pharmacological treatment for heart failure in patients with recovered dilated cardiomyopathy (TRED-HF): an open-label, pilot, randomised trial.",
+      "abstract": "Withdrawal of pharmacological treatment for heart failure in patients with recovered dilated cardiomyopathy TRED-HF resulted in heart failure relapse.",
+      "journal": "Lancet",
+      "year": "2019",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "topics": [
+        "HFimpEF",
+        "TRED-HF"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "6e14c59ce99dcffe05a39849e974eb8f3923042dfe8c555c9385fb1a10cf0ccc"
+      ],
+      "metadata_checked_at": "2026-07-30T12:13:36.472489+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T12:13:36.472489+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    }
+  },
+  "raw_objects": [
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-30T12:13:36.472489+00:00",
+      "sha256": "7219015f94b5f8f002876146f169ad3f94bc6b5222ed80a17252303f25886b08",
+      "path": "outputs/sources/esc_2021_raw.txt",
+      "media_type": "text/plain",
+      "license": "official_guideline"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-30T12:13:36.472489+00:00",
+      "sha256": "a69e9be4baa9e71a6dead4c767d836f09f95f5cfaeed3ec37f29474ff6759a2c",
+      "path": "outputs/sources/emperor_preserved_raw.txt",
+      "media_type": "text/plain",
+      "license": "open"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-30T12:13:36.472489+00:00",
+      "sha256": "b11bd382fc9a9a18331ae88e051edcc2586162a2f3c0a1e8e2572cb92b708eda",
+      "path": "outputs/sources/dapa_hfpef_raw.txt",
+      "media_type": "text/plain",
+      "license": "open"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-30T12:13:36.472489+00:00",
+      "sha256": "6e14c59ce99dcffe05a39849e974eb8f3923042dfe8c555c9385fb1a10cf0ccc",
+      "path": "outputs/sources/tred_hf_raw.txt",
+      "media_type": "text/plain",
+      "license": "open"
+    }
+  ],
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\outputs\\cache",
+  "content_hash": "7fd7ff49b41b045d69130c35c68e2dc6a4f1af7385b8c6c9062bb1653f46f3c9"
+}

@@ -1,0 +1,405 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-29_RELEASE_v1_RESEARCH_BRIEF.md",
+  "parsed_claim_count": 9,
+  "verified_claim_count": 9,
+  "status": "PASS",
+  "claims": [
+    {
+      "claim_id": "P2-C01",
+      "claim_text": "heart failure guideline diagnosis management patients clinicians recommendations prevent manage: Triệu chứng điển hình của suy tim bao gồm khó thở (đặc biệt khi gắng sức, khi nằm, và kịch phát về đêm), mệt mỏi, và phù mắt cá chân. Dấu hiệu đặc hiệu bao gồm tĩnh mạch cổ nổi, phản hồi gan-tĩnh mạch cổ dương tính, và tiếng tim T3. (Quote: Typical symptoms of heart failure include breathlessness, orthopnoea, paroxysmal nocturnal dyspnoea, reduced exercise tolerance, fatigue, tiredness, and ankle swelling. Specific signs include elevated jugular venous pressure, hepatojugular reflux, third heart sound (gallop rhythm), and laterally displaced apical impulse.)",
+      "source_id": "35363499",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "Typical symptoms of heart failure include breathlessness, orthopnoea, paroxysmal nocturnal dyspnoea, reduced exercise tolerance, fatigue, tiredness, and ankle swelling. Specific signs include elevated jugular venous pressure, hepatojugular reflux, third heart sound (gallop rhythm), and laterally displaced apical impulse.",
+      "line": 78,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.16"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C02",
+      "claim_text": "heart failure guideline diagnosis management patients clinicians recommendations prevent manage: Peptide lợi niệu (BNP hoặc NT-proBNP) được khuyến cáo là xét nghiệm đầu tay để loại trừ chẩn đoán suy tim ở bệnh nhân có triệu chứng nghi ngờ (Class I). Ngưỡng loại trừ suy tim mạn là BNP < 35 pg/mL hoặc NT-proBNP < 125 pg/mL. (Quote: Natriuretic peptides (NPs) are recommended as an initial diagnostic test in patients with non-acute symptoms suspected of HF to rule out the diagnosis. The rule-out thresholds for non-acute HF are BNP <35 pg/mL or NT-proBNP <125 pg/mL.)",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "Natriuretic peptides (NPs) are recommended as an initial diagnostic test in patients with non-acute symptoms suspected of HF to rule out the diagnosis. The rule-out thresholds for non-acute HF are BNP <35 pg/mL or NT-proBNP <125 pg/mL.",
+      "line": 79,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.24"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C03",
+      "claim_text": "heart failure guideline diagnosis management patients clinicians recommendations prevent manage: Đối với suy tim cấp, ngưỡng peptide lợi niệu để loại trừ là BNP < 100 pg/mL hoặc NT-proBNP < 300 pg/mL. (Quote: The rule-out thresholds for acute HF are BNP <100 pg/mL or NT-proBNP <300 pg/mL.)",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "The rule-out thresholds for acute HF are BNP <100 pg/mL or NT-proBNP <300 pg/mL.",
+      "line": 80,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.45"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C04",
+      "claim_text": "heart failure guideline diagnosis management patients clinicians recommendations prevent manage: Siêu âm tim qua thành ngực (TTE) là xét nghiệm hình ảnh học quan trọng nhất (Class I) để đánh giá cấu trúc tim, chức năng tâm thu (LVEF), chức năng tâm trương và các bất thường van tim nhằm xác định chẩn đoán suy tim. (Quote: Echocardiography is the most useful, widely available test in patients with suspected HF to establish the diagnosis. It provides immediate information on chamber volumes, ventricular systolic and diastolic function, wall thickness, valve function and pulmonary hypertension.)",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "Echocardiography is the most useful, widely available test in patients with suspected HF to establish the diagnosis. It provides immediate information on chamber volumes, ventricular systolic and diastolic function, wall thickness, valve function and pulmonary hypertension.",
+      "line": 81,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.19"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C05",
+      "claim_text": "heart failure guideline diagnosis management patients clinicians recommendations prevent manage: Điện tâm đồ (ECG) 12 chuyển đạo được khuyến cáo cho tất cả bệnh nhân nghi ngờ suy tim để đánh giá nhịp tim, nhịp nhanh/chậm, phì đại thất, hoặc nhồi máu cơ tim cũ. Một ECG hoàn toàn bình thường làm giảm khả năng chẩn đoán suy tim. (Quote: A 12-lead ECG is recommended for all patients with suspected HF. A completely normal ECG makes the diagnosis of HF unlikely. It can reveal abnormalities such as atrial fibrillation, Q waves indicating prior myocardial infarction, and left ventricular hypertrophy.)",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "A 12-lead ECG is recommended for all patients with suspected HF. A completely normal ECG makes the diagnosis of HF unlikely. It can reveal abnormalities such as atrial fibrillation, Q waves indicating prior myocardial infarction, and left ventricular hypertrophy.",
+      "line": 82,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.17"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C06",
+      "claim_text": "heart failure guideline diagnosis management patients clinicians recommendations prevent manage: Chụp X-quang ngực được khuyến cáo để phát hiện sung huyết phổi (phù phổi) và loại trừ các nguyên nhân hô hấp gây khó thở, đặc biệt trong bối cảnh cấp cứu. (Quote: Chest X-ray is recommended in patients with suspected HF to detect/exclude pulmonary congestion and other pulmonary or cardiac diseases that may cause or contribute to the patient's symptoms.)",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "Chest X-ray is recommended in patients with suspected HF to detect/exclude pulmonary congestion and other pulmonary or cardiac diseases that may cause or contribute to the patient's symptoms.",
+      "line": 83,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.31"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C07",
+      "claim_text": "heart failure guideline diagnosis management patients clinicians recommendations prevent manage: Chẩn đoán suy tim phân suất tống máu bảo tồn (HFpEF) đòi hỏi LVEF bảo tồn (preserved), có triệu chứng/dấu hiệu suy tim, và bằng chứng khách quan về bất thường cấu trúc/chức năng tim mạch (như lớn nhĩ trái, phì đại thất trái, rối loạn chức năng tâm trương) thường kèm tăng peptide lợi niệu. (Quote: The diagnosis of HFpEF requires symptoms and/or signs of HF, preserved LVEF, and objective evidence of cardiac structural and/or functional abnormalities consistent with the presence of LV diastolic dysfunction/raised LV filling pressures, including raised natriuretic peptides.)",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "The diagnosis of HFpEF requires symptoms and/or signs of HF, preserved LVEF, and objective evidence of cardiac structural and/or functional abnormalities consistent with the presence of LV diastolic dysfunction/raised LV filling pressures, including raised natriuretic peptides.",
+      "line": 84,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.18"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C08",
+      "claim_text": "heart failure guideline diagnosis management patients clinicians recommendations prevent manage: Các xét nghiệm máu cơ bản (công thức máu, Ure, Creatinine, điện giải đồ, chức năng tuyến giáp, sắt huyết thanh, HbA1c, lipid máu) được khuyến cáo cho tất cả bệnh nhân suy tim mới chẩn đoán để đánh giá bệnh đồng mắc và nguyên nhân có thể đảo ngược. (Quote: Routine blood tests are recommended in all patients with suspected HF to evaluate comorbidities and suitability for specific treatments. These include full blood count, urea, creatinine, electrolytes, thyroid function, fasting glucose/HbA1c, lipids, and iron status.)",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "Routine blood tests are recommended in all patients with suspected HF to evaluate comorbidities and suitability for specific treatments. These include full blood count, urea, creatinine, electrolytes, thyroid function, fasting glucose/HbA1c, lipids, and iron status.",
+      "line": 85,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.19"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C09",
+      "claim_text": "heart failure guideline diagnosis management patients clinicians recommendations prevent manage: Chụp mạch vành (Coronary angiography) được chỉ định ở bệnh nhân suy tim có đau thắt ngực (angina) hoặc thiếu máu cục bộ cơ tim có triệu chứng bất chấp điều trị nội khoa, hoặc ở bệnh nhân có tiền sử ngừng tim/rối loạn nhịp thất nguy hiểm để đánh giá nguyên nhân thiếu máu cục bộ. (Quote: Coronary angiography is recommended in patients with HF and angina pectoris despite pharmacological therapy or symptomatic ventricular arrhythmias to establish the diagnosis of coronary artery disease and evaluate for revascularization.)",
+      "source_id": "35363499",
+      "verification": "FETCHED",
+      "quote": "Coronary angiography is recommended in patients with HF and angina pectoris despite pharmacological therapy or symptomatic ventricular arrhythmias to establish the diagnosis of coronary artery disease and evaluate for revascularization.",
+      "line": 86,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.18"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    }
+  ],
+  "bundle_hash": "07bb09b6b7222f1d888d6c9c0375ffc96dfb53dee558cb0237c7658ce8c3f6ac"
+}

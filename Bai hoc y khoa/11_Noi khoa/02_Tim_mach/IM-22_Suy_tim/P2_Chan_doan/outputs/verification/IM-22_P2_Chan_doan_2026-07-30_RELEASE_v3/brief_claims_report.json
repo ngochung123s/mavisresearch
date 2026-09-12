@@ -1,0 +1,97 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3_RESEARCH_BRIEF.md",
+  "parsed_claim_count": 2,
+  "verified_claim_count": 2,
+  "status": "PASS",
+  "claims": [
+    {
+      "claim_id": "P2-C01",
+      "claim_text": "Heart failure classification based on left ventricular ejection fraction (LVEF): HFrEF (LVEF ≤ 40%), HFmrEF (LVEF 41-49%), HFpEF (LVEF ≥ 50%), and HFimpEF (previous LVEF ≤ 40% with follow-up LVEF > 40%).",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "Heart failure (HF) encompasses a broad range of left ventricular (LV) function. The classification of HF is as follows: HFrEF (HF with reduced ejection fraction [EF]): LVEF <=40%; HFimpEF (HF with improved EF): Previous LVEF <=40% and follow-up measurement of LVEF >40%; HFmrEF (HF with mildly reduced EF): LVEF 41-49%; HFpEF (HF with preserved EF): LVEF >=50%.",
+      "line": 81,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=1.00"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C02",
+      "claim_text": "Diagnosis of heart failure with EF > 40% requires supporting evidence of increased filling pressures from noninvasive testing (diastolic function on imaging, natriuretic peptide levels) or invasive hemodynamic measurement.",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "Signs and symptoms of HF can be nonspecific. Therefore, supporting evidence of increased filling pressures, either invasive (hemodynamics) or noninvasive (diastolic function on imaging, natriuretic peptide) are required for confirmation of diagnosis when the EF is >40%.",
+      "line": 82,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.50"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    }
+  ],
+  "bundle_hash": "20e9751099e628e140e9c6dc2f9e04e163e1d00701e5ca777f661f6249b5ec0d"
+}

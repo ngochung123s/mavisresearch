@@ -1,0 +1,17 @@
+{
+  "release_id": "IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1",
+  "status": "RE_VERIFICATION_REQUIRED",
+  "reasons": [
+    "insufficient L3 depth",
+    "guideline full text unavailable/paywalled",
+    "exact quotes absent from local source",
+    "previous evidence manifest invalidated by verifier/contract changes"
+  ],
+  "references": [
+    "Bai hoc y khoa/11_Noi khoa/IM-44_Nguyen_ly_ECG/outputs/AHA_ECG_Part1_Research_Report.md"
+  ],
+  "historical_results": {
+    "gate_results_json": "Bai hoc y khoa/11_Noi khoa/IM-44_Nguyen_ly_ECG/outputs/verification/IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1/gate-results.json",
+    "status": "SUPERSEDED_INVALID"
+  }
+}

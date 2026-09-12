@@ -1,0 +1,382 @@
+{
+  "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1.md",
+  "summary": {
+    "total": 10,
+    "pass": 6,
+    "warn": 4,
+    "block": 0
+  },
+  "citations": [
+    {
+      "citation": "PMID: 34447992",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 37.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "34447992",
+          "status": "OK",
+          "year": "2021",
+          "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure.",
+          "author": "NA",
+          "journal": "European Heart Journal",
+          "article_type": "Journal Article, Clinical Practice Guideline",
+          "pubtypes": [
+            "Journal Article",
+            "Clinical Practice Guideline"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "European Heart Journal",
+        "quartile": "Q1",
+        "if": 37.0
+      }
+    },
+    {
+      "citation": "PMID: 30429184",
+      "type": "pmid",
+      "has_specific_claim": true,
+      "specific_patterns": [
+        "range",
+        "percent",
+        "gt-percent"
+      ],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 98.0)",
+      "verdict": "WARN (Q1/Q2 + specific claim, cần verify full text)",
+      "severity": "warn",
+      "details": {
+        "pmid_info": {
+          "pmid": "30429184",
+          "status": "OK",
+          "year": "2019",
+          "title": "Withdrawal of pharmacological treatment for heart failure in patients with recovered dilated cardiomyopathy (TRED-HF): an open-label, pilot, randomised trial.",
+          "author": "NA",
+          "journal": "Lancet",
+          "article_type": "Journal Article, Randomized Controlled Trial",
+          "pubtypes": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ]
+        },
+        "evidence": {
+          "study_design": "RCT",
+          "evidence_level": 2,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": true
+        },
+        "journal": "Lancet",
+        "quartile": "Q1",
+        "if": 98.0
+      }
+    },
+    {
+      "citation": "PMID: 34447992",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 37.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "34447992",
+          "status": "OK",
+          "year": "2021",
+          "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure.",
+          "author": "NA",
+          "journal": "European Heart Journal",
+          "article_type": "Journal Article, Clinical Practice Guideline",
+          "pubtypes": [
+            "Journal Article",
+            "Clinical Practice Guideline"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "European Heart Journal",
+        "quartile": "Q1",
+        "if": 37.0
+      }
+    },
+    {
+      "citation": "PMID: 34447992",
+      "type": "pmid",
+      "has_specific_claim": true,
+      "specific_patterns": [
+        "range",
+        "ng/mL"
+      ],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 37.0)",
+      "verdict": "WARN (Q1/Q2 + specific claim, cần verify full text)",
+      "severity": "warn",
+      "details": {
+        "pmid_info": {
+          "pmid": "34447992",
+          "status": "OK",
+          "year": "2021",
+          "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure.",
+          "author": "NA",
+          "journal": "European Heart Journal",
+          "article_type": "Journal Article, Clinical Practice Guideline",
+          "pubtypes": [
+            "Journal Article",
+            "Clinical Practice Guideline"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "European Heart Journal",
+        "quartile": "Q1",
+        "if": 37.0
+      }
+    },
+    {
+      "citation": "PMID: 34447992",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 37.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "34447992",
+          "status": "OK",
+          "year": "2021",
+          "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure.",
+          "author": "NA",
+          "journal": "European Heart Journal",
+          "article_type": "Journal Article, Clinical Practice Guideline",
+          "pubtypes": [
+            "Journal Article",
+            "Clinical Practice Guideline"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "European Heart Journal",
+        "quartile": "Q1",
+        "if": 37.0
+      }
+    },
+    {
+      "citation": "PMID: 34449189",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 96.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "34449189",
+          "status": "OK",
+          "year": "2021",
+          "title": "Empagliflozin in Heart Failure with a Preserved Ejection Fraction.",
+          "author": "NA",
+          "journal": "The New England Journal of Medicine",
+          "article_type": "Journal Article, Randomized Controlled Trial",
+          "pubtypes": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ]
+        },
+        "evidence": {
+          "study_design": "RCT",
+          "evidence_level": 2,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": true
+        },
+        "journal": "The New England Journal of Medicine",
+        "quartile": "Q1",
+        "if": 96.0
+      }
+    },
+    {
+      "citation": "PMID: 34447992",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 37.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "34447992",
+          "status": "OK",
+          "year": "2021",
+          "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure.",
+          "author": "NA",
+          "journal": "European Heart Journal",
+          "article_type": "Journal Article, Clinical Practice Guideline",
+          "pubtypes": [
+            "Journal Article",
+            "Clinical Practice Guideline"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "European Heart Journal",
+        "quartile": "Q1",
+        "if": 37.0
+      }
+    },
+    {
+      "citation": "PMID: 34449189",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 96.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "34449189",
+          "status": "OK",
+          "year": "2021",
+          "title": "Empagliflozin in Heart Failure with a Preserved Ejection Fraction.",
+          "author": "NA",
+          "journal": "The New England Journal of Medicine",
+          "article_type": "Journal Article, Randomized Controlled Trial",
+          "pubtypes": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ]
+        },
+        "evidence": {
+          "study_design": "RCT",
+          "evidence_level": 2,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": true
+        },
+        "journal": "The New England Journal of Medicine",
+        "quartile": "Q1",
+        "if": 96.0
+      }
+    },
+    {
+      "citation": "PMID: 36036224",
+      "type": "pmid",
+      "has_specific_claim": true,
+      "specific_patterns": [
+        "range"
+      ],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 96.0)",
+      "verdict": "WARN (Q1/Q2 + specific claim, cần verify full text)",
+      "severity": "warn",
+      "details": {
+        "pmid_info": {
+          "pmid": "36036224",
+          "status": "OK",
+          "year": "2022",
+          "title": "Dapagliflozin in Heart Failure with Mildly Reduced or Preserved Ejection Fraction.",
+          "author": "NA",
+          "journal": "The New England Journal of Medicine",
+          "article_type": "Journal Article, Randomized Controlled Trial",
+          "pubtypes": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ]
+        },
+        "evidence": {
+          "study_design": "RCT",
+          "evidence_level": 2,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": true
+        },
+        "journal": "The New England Journal of Medicine",
+        "quartile": "Q1",
+        "if": 96.0
+      }
+    },
+    {
+      "citation": "PMID: 30429184",
+      "type": "pmid",
+      "has_specific_claim": true,
+      "specific_patterns": [
+        "range"
+      ],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 98.0)",
+      "verdict": "WARN (Q1/Q2 + specific claim, cần verify full text)",
+      "severity": "warn",
+      "details": {
+        "pmid_info": {
+          "pmid": "30429184",
+          "status": "OK",
+          "year": "2019",
+          "title": "Withdrawal of pharmacological treatment for heart failure in patients with recovered dilated cardiomyopathy (TRED-HF): an open-label, pilot, randomised trial.",
+          "author": "NA",
+          "journal": "Lancet",
+          "article_type": "Journal Article, Randomized Controlled Trial",
+          "pubtypes": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ]
+        },
+        "evidence": {
+          "study_design": "RCT",
+          "evidence_level": 2,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": true
+        },
+        "journal": "Lancet",
+        "quartile": "Q1",
+        "if": 98.0
+      }
+    }
+  ]
+}

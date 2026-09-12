@@ -1,0 +1,76 @@
+{
+  "deck_name": "Nội khoa - Điện tâm đồ (ECG) Nhồi máu cơ tim cấp (ECG AMI Mastery)",
+  "description": "Bộ thẻ Flashcard Anki chuyên sâu làm chủ đọc Điện tâm đồ trong Nhồi máu cơ tim cấp, Tiêu chuẩn điểm J, Định khu 12 chuyển đạo, STEMI Equivalents (Wellens, de Winter, aVR, Aslanger), Smith-Modified Sgarbossa, Chẩn đoán phân biệt & Reperfusion ECG.",
+  "total_cards": 12,
+  "cards": [
+    {
+      "type": "basic",
+      "front": "Nêu tam chứng biến đổi điện tâm đồ tương ứng với 3 giai đoạn sinh lý tế bào (Thiếu máu - Tổn thương - Hoại tử)?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• 1. GIAI ĐOẠN THIẾU MÁU (Ischemia): Biến đổi SÓNG T (Thiếu máu dưới nội tâm mạc tạo sóng T cao nhọn đối xứng; Thiếu máu xuyên thành tạo sóng T âm sâu đối xứng).<br>• 2. GIAI ĐOẠN TỔN THƯƠNG (Injury): Biến đổi ĐOẠN ST (Tổn thương dưới nội mạc làm ST chênh xuống; Tổn thương xuyên thành làm ST CHÊNH LÊN).<br>• 3. GIAI ĐOẠN HOẠI TỬ (Infarction): Xuất hiện SÓNG Q HOẠI TỬ BỆNH LÝ (Thời gian ≥ 0.04s, biên độ ≥ 25% sóng R đi sau) hoặc dạng QS.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Thiếu máu và tổn thương là các giai đoạn còn khả năng hồi phục nếu được tái tưới máu kịp thời. Sóng Q hoại tử đại diện cho mô cơ tim đã chết và hóa xơ sẹo vĩnh viễn.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Tiêu chuẩn chẩn đoán đoạn ST chênh lên tại điểm J trong STEMI (ESC 2023)?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Ở tất cả các chuyển đạo (trừ V2, V3): ST chênh lên tại điểm J ≥ 1.0 mm (0.1 mV) ở ít nhất 2 chuyển đạo liên tiếp cùng vùng giải phẫu.<br>• Riêng ở chuyển đạo V2 và V3:<br>  - Nam giới < 40 tuổi: ST chênh lên tại điểm J ≥ 2.5 mm (0.25 mV).<br>  - Nam giới ≥ 40 tuổi: ST chênh lên tại điểm J ≥ 2.0 mm (0.20 mV).<br>  - Phụ nữ (mọi lứa tuổi): ST chênh lên tại điểm J ≥ 1.5 mm (0.15 mV).<br>• Chuyển đạo mở rộng V3R, V4R và V7, V8, V9: ST chênh lên ≥ 0.5 mm (nam < 30t ở V4R: ≥ 1.0 mm).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• V2 và V3 nằm sát vách liên thất và gần mỏm tim nhất, bình thường đã có điện thế hơi nâng cao. Sử dụng ngưỡng phân tầng giúp loại trừ hiện tượng tái cực sớm sinh lý ở người trẻ.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Lập bảng định khu 12 chuyển đạo tương ứng với vùng nhồi máu và nhánh động mạch vành thủ phạm?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• V1, V2, V3: Vùng TRƯỚC VÁCH → Tắc Động mạch liên thất trước (LAD).<br>• V3, V4: Vùng TRƯỚC MỎM → Tắc LAD đoạn giữa/xa.<br>• V1 đến V6, I, aVL: Vùng TRƯỚC RỘNG → Tắc LAD ĐOẠN GẦN (nguy cơ sốc tim cao nhất).<br>• I, aVL, V5, V6: Vùng THÀNH BÊN → Tắc Động mạch Mũ (LCx) hoặc nhánh chéo D1 LAD.<br>• II, III, aVF: Vùng THÀNH DƯỚI → Tắc Động mạch vành phải RCA (85-90%) hoặc LCx (10-15%).<br>• V3R, V4R: Vùng THẤT PHẢI → Tắc RCA ĐOẠN GẦN.<br>• V7, V8, V9: Vùng THÀNH SAU THỰC → Tắc nhánh LCx (OM) hoặc RCA (PDA).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Khi có ST chênh lên ở II, III, aVF: Nếu ST chênh lên D3 > D2 kèm ST chênh xuống ở aVL > D1 thì 90% thủ phạm là RCA. Ngược lại nếu D2 > D3 và ST aVL dương thì thủ phạm là LCx.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Nêu tiêu chuẩn chẩn đoán ECG, cơ chế và cảnh báo điều trị sống còn của Nhồi máu cơ tim thất phải?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Tiêu chuẩn ECG: Đoạn ST chênh lên ≥ 0.5 mm (hoặc ≥ 1.0 mm ở nam < 30t) tại CHUYỂN ĐẠO V4R (kèm ST chênh lên ở D2, D3, aVF). Gặp trong 30% đến 50% các ca NMCT thành dưới do tắc đoạn gần RCA.<br>• Tam chứng lâm sàng: Tụt huyết áp + Tĩnh mạch cổ nổi to + Trường phổi hoàn toàn trong sạch (không có ran ứ huyết).<br>• CẢNH BÁO ĐIỀU TRỊ SỐNG CÒN: CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI NITRATES, MORPHINE VÀ LỢI TIỂU (vì làm giảm đột ngột tiền tải thất phải gây tụt áp trụy mạch tử vong).<br>• Xử trí cốt lõi: BÙ DỊCH NHANH NaCl 0.9% để nâng áp lực đổ đầy thất phải.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Đoạn ST chênh lên ở V4R biến mất rất nhanh trong vòng 2 - 6 giờ đầu. Vì vậy bắt buộc phải đo V4R ngay lập tức khi phát hiện nhồi máu cơ tim thành dưới!",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Đặc điểm nhận diện trên ECG 12 chuyển đạo tiêu chuẩn của Nhồi máu cơ tim thành sau thực (True Posterior MI)?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Dấu hiệu gián tiếp (Hình ảnh soi gương) ở chuyển đạo V1, V2, V3:<br>  1. Đoạn ST CHÊNH XUỐNG NẰM NGANG HOẶC DỐC XUỐNG ở V1, V2, V3.<br>  2. Sóng R CAO, RỘNG (Tỷ lệ R/S > 1, thời gian sóng R > 0.04s) ở V1, V2.<br>  3. Sóng T DƯƠNG CAO, NHỌN, ĐỐI XỨNG ở V1, V2.<br>• Tiêu chuẩn khẳng định: Mắc chuyển đạo sau lưng V7, V8, V9 thấy đoạn ST chênh lên ≥ 0.5 mm → Kích hoạt can thiệp cấp cứu ngay như STEMI.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Đây là bẫy bỏ sót kinh điển nhất khiến bệnh nhân tắc hoàn toàn ĐMV bị phân loại nhầm thành NSTE-ACS nguy cơ thấp do không thấy ST chênh lên ở 12 chuyển đạo trước.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Nêu đặc điểm của các thể 'Tương đương STEMI' (STEMI Equivalents): Hội chứng de Winter, Hội chứng Wellens, ST chênh lên ở aVR và Dấu hiệu Aslanger?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• 1. Hội chứng de Winter: Tắc cấp tính đoạn gần LAD → ST chênh xuống dốc lên > 1.0 mm tại điểm J ở V1-V6 nối tiếp bởi sóng T CAO NHỌN ĐỐI XỨNG KHỔNG LỒ kèm ST chênh lên 0.5-1.0mm ở aVR.<br>• 2. Hội chứng Wellens: Hẹp rất nặng đoạn gần LAD (xuất hiện khi hết đau ngực) → Type A: Sóng T hai pha (+/-) ở V2, V3; Type B: Sóng T âm rất sâu đối xứng ở V2, V3. CẤM LÀM NGHIỆM PHÁP GẮNG SỨC!<br>• 3. ST chênh lên ở aVR: Tắc Thân chung vành trái (LMCA) hoặc 3 thân ĐMV → ST chênh lên ≥ 1.0 mm ở aVR (aVR > V1) kèm ST CHÊNH XUỐNG SÂU LAN TỎA ở ≥ 6 chuyển đạo ngoại biên và trước tim.<br>• 4. Dấu hiệu Aslanger: NMCT thành dưới kèm bệnh nhiều thân ĐMV → ST chênh lên duy nhất ở D3 kèm ST chênh xuống ở V4-V6 và ST V1 > V2.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Cả 4 thể trên đều không có ST chênh lên kinh điển nhưng có nguy cơ hoại tử cơ tim tối cấp và đột tử cực cao, bắt buộc kích hoạt can thiệp mạch vành qua da (Primary PCI) cấp cứu như STEMI.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "So sánh Tiêu chuẩn Sgarbossa kinh điển (1996) vs Tiêu chuẩn Smith-Modified Sgarbossa (2012) trong chẩn đoán STEMI trên nền LBBB?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Tiêu chuẩn Sgarbossa kinh điển (1996):<br>  - Tiêu chuẩn A: ST chênh lên ≥ 1mm cùng chiều QRS (5 điểm).<br>  - Tiêu chuẩn B: ST chênh xuống ≥ 1mm cùng chiều ở V1-V3 (3 điểm).<br>  - Tiêu chuẩn C: ST chênh lên ≥ 5mm ngược chiều QRS (2 điểm).<br>  - ĐẶC ĐIỂM: Độ đặc hiệu rất cao (~98%) nhưng ĐỘ NHẠY RẤT THẤP (~36%) → ÂM TÍNH KHÔNG LOẠI TRỪ ĐƯỢC MI.<br>• Tiêu chuẩn Smith-Modified Sgarbossa (2012):<br>  - Thay tiêu chuẩn C tuyệt đối 5mm bằng TỶ LỆ |ST / S| ≥ 0.25 (tức ≥ 25%) kèm ST chênh ≥ 1mm.<br>  - ĐẶC ĐIỂM: Nâng độ nhạy lên 91% - 93% trong khi vẫn giữ độ đặc hiệu cao ~90%.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Nếu bệnh nhân có LBBB mới hoặc không rõ cũ mới kèm triệu chứng đau ngực thiếu máu cục bộ nặng nề, dù Sgarbossa âm tính vẫn phải kích hoạt chụp mạch can thiệp cấp cứu!",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Nêu các dấu hiệu điện tâm đồ giúp phân biệt Viêm màng ngoài tim cấp (Acute Pericarditis) với STEMI?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• Viêm màng ngoài tim cấp:<br>  1. Đoạn ST chênh lên HÌNH LÕM LAN TỎA ở hầu hết các chuyển đạo (I, II, aVF, V2-V6).<br>  2. ĐOẠN PR CHÊNH XUỐNG ở D2, V5, V6 và PR chênh lên ở aVR.<br>  3. KHÔNG BAO GIỜ có hình ảnh soi gương (ngoại trừ ở aVR và V1).<br>  4. Không xuất hiện sóng Q hoại tử.<br>• STEMI cấp tính:<br>  1. Đoạn ST chênh lên HÌNH VÒM/LỒI có tính chất ĐỊNH KHU theo vùng cấp máu của ĐMV.<br>  2. CÓ HÌNH ẢNH SOI GƯƠNG rõ rệt ở các chuyển đạo đối diện.<br>  3. Đoạn PR bình thường, tiến triển xuất hiện sóng Q hoại tử.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Dấu hiệu Spodick (đoạn TP dốc xuống) cũng là một dấu hiệu gợi ý viêm màng ngoài tim cấp.",
+      "extra": ""
+    },
+    {
+      "type": "basic",
+      "front": "Các dấu hiệu điện tâm đồ chứng minh tái tưới máu thành công (Reperfusion ECG) sau PCI hoặc tiêu sợi huyết?",
+      "back": "<b>📖 Văn bản gốc:</b><br>• 1. Đoạn ST thuyên giảm (ST-Segment Resolution): Độ chênh ST giảm xuống ≥ 50% (hoặc ≥ 70%) so với trước can thiệp tại chuyển đạo có ST chênh cao nhất sau 60 - 90 phút.<br>• 2. Xuất hiện rối loạn nhịp tái tưới máu: Nhịp tự thất gia tốc (AIVR, tần số 40 - 110 l/p, lành tính, không dùng thuốc chống loạn nhịp), ngoại tâm thu thất thưa.<br>• 3. Đảo cực sóng T sớm: Sóng T chuyển từ dương sang âm nhanh chóng trong vòng 24 giờ đầu.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Nếu sau 90 phút dùng thuốc tiêu sợi huyết mà ST không giảm ≥ 50% và còn đau ngực dai dẳng → Xác định Tiêu sợi huyết thất bại → Phải chuyển làm Rescue PCI cấp cứu ngay lập tức.",
+      "extra": ""
+    },
+    {
+      "type": "cloze",
+      "text": "Trong Hội chứng de Winter, điện tâm đồ ghi nhận đoạn ST {{c1::chênh xuống dốc lên > 1.0 mm}} tại điểm J ở các chuyển đạo từ V1 đến V6, nối tiếp bởi sóng T {{c1::cao nhọn, đối xứng khổng lồ}} chỉ điểm tắc cấp tính đoạn gần nhánh {{c1::LAD}}.",
+      "extra": "<b>🔍 Góc nhìn bổ sung:</b> Chiếm khoảng 2% các ca tắc cấp nhánh LAD."
+    },
+    {
+      "type": "cloze",
+      "text": "Tiêu chuẩn Smith-Modified Sgarbossa chẩn đoán STEMI trên nền LBBB xác định khi tỷ lệ độ chênh ST ngược chiều so với sóng S đạt {{c1::|ST/S| ≥ 0.25}} (tức ≥ 25%) kèm độ chênh tối thiểu {{c1::≥ 1.0 mm}}.",
+      "extra": "<b>🔍 Góc nhìn bổ sung:</b> Nâng độ nhạy chẩn đoán từ 36% (Sgarbossa kinh điển) lên > 90%."
+    },
+    {
+      "type": "cloze",
+      "text": "Đoạn ST chênh lên hình vòm tồn tại kéo dài {{c1::trên 6 tuần}} sau nhồi máu cơ tim cấp kèm theo sóng Q hoại tử sâu rộng là dấu hiệu gợi ý hình thành {{c1::phình vách thất trái (Left Ventricular Aneurysm)}}.",
+      "extra": "<b>🔍 Góc nhìn bổ sung:</b> Cần phân biệt với tái nhồi máu cơ tim cấp tính."
+    }
+  ]
+}

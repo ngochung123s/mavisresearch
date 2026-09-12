@@ -1,0 +1,482 @@
+[
+  {
+    "type": "basic",
+    "front": "Glucose máu được báo bằng hai đơn vị nào?",
+    "back": "mg/dL và mmol/L.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Quy đổi gần đúng từ mmol/L sang mg/dL?",
+    "back": "Lấy mmol/L × 18.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Insulin có vai trò cấp cứu nào cần nhớ?",
+    "back": "Giúp đưa glucose vào mô và kìm tạo ketone; thiếu insulin góp phần vào DKA.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Glucagon làm gì trong nhánh hạ đường huyết?",
+    "back": "Huy động dự trữ glucose ở gan; dùng 1 mg IM khi chưa có IV theo nhánh JBDS.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao hạ đường huyết gây rối loạn ý thức?",
+    "back": "Não phụ thuộc glucose lưu hành; thiếu glucose có thể gây lú lẫn, co giật hoặc hôn mê.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "ABCDE: chữ A yêu cầu đánh giá gì?",
+    "back": "Đường thở: bảo vệ, đặt tư thế an toàn hoặc hút dịch khi cần.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "ABCDE: chữ D cần kiểm tra gì ở ca này?",
+    "back": "Tri giác, đồng tử, nhiệt độ và glucose mao mạch.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Glucose mao mạch có vai trò gì trong 15 phút đầu?",
+    "back": "Là bộ phân loại tức thời để mở nhánh hạ đường huyết, DKA/HHS hoặc tìm nguyên nhân khác.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào cần đo lại glucose/CGM bất ngờ?",
+    "back": "Khi trị số không phù hợp biểu hiện; đo lại bằng máy bệnh viện hiệu chuẩn hoặc xác nhận xét nghiệm song song.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Sai lầm khi glucose không giải thích bệnh cảnh?",
+    "back": "Không quy mọi rối loạn ý thức cho glucose; tiếp tục tìm thiếu oxy, sepsis, đột quỵ, ngộ độc và điện giải.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "ADA 2026: hạ đường huyết mức 1 là gì?",
+    "back": "Glucose <70 mg/dL (<3,9 mmol/L) và ≥54 mg/dL (≥3,0 mmol/L).",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "ADA 2026: hạ đường huyết mức 2 là gì?",
+    "back": "Glucose <54 mg/dL (<3,0 mmol/L).",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "ADA 2026: hạ đường huyết mức 3 là gì?",
+    "back": "Thay đổi trạng thái thể chất/tinh thần cần người khác hỗ trợ, bất kể glucose đo được.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "JBDS khởi điều trị hạ đường huyết ở ngưỡng nào?",
+    "back": "Glucose mao mạch <4,0 mmol/L ở người lớn dùng insulin hoặc thuốc hạ glucose.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Triệu chứng giao cảm sớm của hạ đường huyết?",
+    "back": "Đói, run, vã mồ hôi, hồi hộp hoặc lo âu.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Dấu thần kinh của hạ đường huyết nặng?",
+    "back": "Lú lẫn, hành vi bất thường, nói khó, co giật hoặc hôn mê.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Những thuốc nào cần hỏi khi truy nguyên hạ đường huyết?",
+    "back": "Insulin và sulfonylurea, cùng thuốc/đơn thuốc gần đây.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Ba yếu tố quyết định có dùng đường uống hay không?",
+    "back": "Tỉnh, định hướng và nuốt/bảo vệ đường thở an toàn.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Một trị số glucose không quá thấp có loại trừ hạ đường huyết mức 3?",
+    "back": "Không. Mức 3 được xác định bởi cần hỗ trợ do rối loạn thể chất/tinh thần.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao cần rà bữa ăn, rượu và vận động sau khi cứu hạ đường huyết?",
+    "back": "Chúng có thể là yếu tố gây tái phát và cần được sửa cùng thuốc/thiết bị.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Bước đầu khi hạ đường huyết ở người tỉnh và nuốt an toàn?",
+    "back": "Dừng truyền insulin đang chạy nếu có, rồi cho carbohydrate tác dụng nhanh.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Liều carbohydrate nhanh đường uống theo JBDS?",
+    "back": "15–20 g.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào đo lại glucose sau carbohydrate uống?",
+    "back": "Sau 10–15 phút.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Nếu glucose vẫn <4,0 mmol/L sau lần uống đầu?",
+    "back": "Lặp carbohydrate nhanh và đo lại theo chu kỳ.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Tối đa bao nhiêu chu kỳ carbohydrate uống trước escalation?",
+    "back": "Tối đa ba chu kỳ điều trị.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Mốc escalation nếu hạ đường huyết còn thấp dù cứu hộ uống?",
+    "back": "Nếu vẫn <4,0 mmol/L sau 30–45 phút, gọi bác sĩ/cấp cứu và dùng cứu hộ đường tiêm–truyền theo lệnh.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Mục tiêu glucose để rời nhánh cứu hộ uống?",
+    "back": "Glucose >4,0 mmol/L và người bệnh hồi phục.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Sau hồi phục, khi nào cho carbohydrate kéo dài?",
+    "back": "Khi bữa ăn không sắp tới.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao dừng insulin truyền khi hạ đường huyết?",
+    "back": "Để ngăn tiếp tục hạ glucose trong khi đang cứu hộ.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Người tỉnh nhưng nôn hoặc không bảo vệ đường thở có dùng carbohydrate uống không?",
+    "back": "Không; chuyển nhánh không dùng đường miệng.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Hành động theo dõi nào không được bỏ sau hạ đường huyết hồi phục?",
+    "back": "Rà nguyên nhân, insulin/thuốc, ăn uống và thiết bị để phòng tái phát.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Một người glucose 52 mg/dL, tỉnh và nuốt tốt: hành động kế?",
+    "back": "Cho 15–20 g carbohydrate nhanh, đo lại sau 10–15 phút và lặp/escalate nếu cần.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Bốn tình huống cấm đường uống trong hạ đường huyết?",
+    "back": "Bất tỉnh, co giật, không nuốt/bảo vệ đường thở, hoặc kích động nặng.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Ba việc đầu khi hạ đường huyết không nuốt an toàn?",
+    "back": "Gọi hỗ trợ khẩn, ABCDE, dừng truyền insulin; không cho uống.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Có IV: một lựa chọn glucose 20% theo JBDS?",
+    "back": "100 mL glucose 20% trong 15 phút.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Có IV: một lựa chọn glucose 10% theo JBDS?",
+    "back": "200 mL glucose 10% trong 15 phút.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Chưa có IV: liều glucagon theo JBDS?",
+    "back": "Glucagon 1 mg tiêm bắp trong khi tiếp tục thiết lập IV.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào đo lại glucose sau cứu hộ không đường uống?",
+    "back": "Sau 10 phút.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Nếu glucose vẫn <4,0 mmol/L sau 10 phút rescue không đường uống?",
+    "back": "Lặp cứu hộ đường tiêm–truyền thích hợp theo lệnh cấp cứu tại cơ sở.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao gel glucose uống nguy hiểm ở người bất tỉnh?",
+    "back": "Có nguy cơ sặc; không bảo vệ được đường thở.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào glucagon có thể kém hiệu quả với sulfonylurea?",
+    "back": "Khi phơi nhiễm sulfonylurea; vẫn cần thiết lập IV và theo protocol khẩn.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Ba bối cảnh làm glucagon kém hiệu quả?",
+    "back": "Suy dinh dưỡng/nhịn đói kéo dài, lạm dụng rượu và bệnh gan mạn.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Người 38 mg/dL bất tỉnh, có IV: làm gì?",
+    "back": "ABCDE/gọi giúp, không cho uống, dừng insulin; dùng 100 mL glucose 20% hoặc 200 mL glucose 10% trong 15 phút.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Người 38 mg/dL bất tỉnh, chưa có IV: làm gì?",
+    "back": "ABCDE/gọi giúp, không cho uống, glucagon 1 mg IM và tiếp tục thiết lập IV.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "DKA cần ba thành phần nào?",
+    "back": "Đái tháo đường/tăng glucose, ketonemia và toan chuyển hóa.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "HHS được nhận diện bằng bộ ba nào?",
+    "back": "Tăng glucose nặng, tăng thẩm thấu và mất nước, không có ketonemia/toan nặng.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "DKA và HHS có thể cùng xuất hiện không?",
+    "back": "Có; hai hội chứng có thể chồng lấp.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Ketone chính cần ưu tiên đo trong DKA?",
+    "back": "β-hydroxybutyrate máu.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao ketone niệu có thể đánh giá thấp DKA sớm?",
+    "back": "Nitroprusside không đo β-hydroxybutyrate, ketone chính trong DKA.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Plan B khi không có β-hydroxybutyrate máu?",
+    "back": "Dùng ketone niệu với giới hạn rõ ràng, đồng thời lấy VBG/điện giải và chuyển tuyến khi cần.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Các dấu hiệu gợi ý DKA/HHS cần activation?",
+    "back": "Khát/tiểu nhiều, mất nước, nhịp nhanh/hạ huyết áp, Kussmaul, nôn/đau bụng hoặc giảm tri giác.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Những yếu tố khởi phát DKA/HHS phải tìm ngay?",
+    "back": "Nhiễm trùng, thiếu máu cơ tim, bỏ insulin hoặc lỗi bơm/thiết bị.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao SGLT2 inhibitor là red flag trong DKA?",
+    "back": "Có thể liên quan DKA euglycemic với glucose bình thường hoặc chỉ tăng vừa.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Người dùng SGLT2, nôn, Kussmaul, glucose 180 mg/dL: suy nghĩ an toàn?",
+    "back": "Nghi DKA euglycemic; không trấn an bởi glucose và kích hoạt protocol.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Kussmaul trong bối cảnh tăng đường huyết gợi điều gì?",
+    "back": "Toan chuyển hóa cần escalation, đánh giá ketone/VBG và DKA/HHS protocol.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Bài IM-14 không dạy những phần nào của DKA/HHS?",
+    "back": "Không dạy liều truyền insulin, liều bù kali, bicarbonate/phosphate, tốc độ chỉnh thẩm thấu hoặc tiêu chí giải quyết; bàn giao IM-52/protocol ICU.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Bundle xét nghiệm đầu khi nghi DKA/HHS?",
+    "back": "Glucose tại giường; điện giải gồm kali; VBG; CBC; β-hydroxybutyrate máu.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao cần ECG/monitor trong DKA/HHS?",
+    "back": "Phát hiện thay đổi liên quan kali và thiếu máu cơ tim trong lúc hồi sức.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Người lớn không suy tim/suy thận nặng: dịch đầu theo consensus?",
+    "back": "Saline đẳng trương hoặc balanced crystalloid 500–1.000 mL/giờ trong lúc kích hoạt protocol.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Người già/suy tim/ESKD: nhánh dịch đầu?",
+    "back": "Bolus nhỏ 250 mL rồi đánh giá huyết động thường xuyên.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Kali <3,5 mmol/L trong DKA nghi ngờ: hành động?",
+    "back": "Trì hoãn insulin và kích hoạt protocol bù kali có giám sát.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao không tự đặt tốc độ insulin khi thiếu protocol đầy đủ?",
+    "back": "Điều trị insulin/kali cần protocol IM-52/ICU để tránh hạ kali, loạn nhịp và sai sót.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Plan A trong nghi DKA/HHS gồm nguồn lực gì?",
+    "back": "Máy glucose hiệu chuẩn, β-hydroxybutyrate, VBG, điện giải/kali, ECG, IV glucose/dịch và đội DKA/HHS/ICU.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Handoff IM-52/ICU cần bàn giao gì?",
+    "back": "Thời điểm, sinh hiệu, dịch đã dùng, glucose, ketone, VBG, điện giải/kali và yếu tố khởi phát.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Mini-case: glucose 52 mg/dL, tỉnh/nuốt tốt. Việc kế tiếp?",
+    "back": "15–20 g carbohydrate nhanh, đo lại 10–15 phút; lặp tối đa ba chu kỳ và escalation nếu vẫn thấp.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Mini-case: glucose 52 mg/dL, lơ mơ/nuốt không an toàn. Việc kế tiếp?",
+    "back": "Không cho uống; ABCDE/gọi hỗ trợ, dừng insulin; IV glucose nếu có hoặc glucagon 1 mg IM nếu chưa có IV.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Mini-case: glucose 38 mg/dL, co giật, có IV. Chọn rescue?",
+    "back": "100 mL glucose 20% hoặc 200 mL glucose 10% trong 15 phút; đo lại sau 10 phút.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Mini-case: glucose 38 mg/dL, bất tỉnh, chưa có IV. Chọn rescue?",
+    "back": "Glucagon 1 mg IM trong khi thiết lập IV; không dùng đường uống.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Mini-case: SGLT2, glucose 180 mg/dL, nôn/Kussmaul/ketone. Việc kế tiếp?",
+    "back": "Kích hoạt nghi DKA euglycemic: IV, kali/điện giải, VBG, β-hydroxybutyrate, ECG và IM-52/ICU.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Mini-case: nghi HHS ở người già suy tim. Dịch đầu?",
+    "back": "Bolus tinh thể 250 mL rồi đánh giá lại, không mặc định 500–1.000 mL/giờ.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Mini-case: nghi DKA, kali 3,2 mmol/L. Insulin ngay không?",
+    "back": "Không. Trì hoãn insulin và kích hoạt protocol bù kali/monitor.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Mini-case: ketone niệu âm tính nhẹ nhưng nôn/Kussmaul/mất nước. Việc kế tiếp?",
+    "back": "Không loại trừ DKA sớm; lấy β-hydroxybutyrate/VBG/điện giải khi có và kích hoạt escalation an toàn.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Hạ đường huyết có triệu chứng nhưng máy đo thấp bất ngờ: làm gì song song?",
+    "back": "Đo lại bằng máy bệnh viện hiệu chuẩn/xét nghiệm khi có thể, nhưng không trì hoãn cứu hộ phù hợp ABCDE.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Sau khi glucose >4,0 mmol/L và người bệnh hồi phục, bước an toàn tiếp?",
+    "back": "Cho carbohydrate kéo dài nếu chưa đến bữa và rà thuốc, insulin, ăn uống, rượu/vận động, thiết bị.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Nôn dai dẳng hoặc đau bụng ở người đái tháo đường có ý nghĩa gì?",
+    "back": "Là red flag; cùng mất nước/Kussmaul/ketone cần đánh giá DKA/HHS khẩn.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao glucose không loại trừ DKA ở người dùng SGLT2?",
+    "back": "DKA euglycemic có thể có glucose bình thường hoặc chỉ tăng vừa.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao cần tìm lỗi bơm insulin khi nghi DKA?",
+    "back": "Bỏ insulin hoặc lỗi thiết bị là yếu tố khởi phát cần sửa sau khi ổn định.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Trước khởi insulin trong DKA/HHS, kết quả nào là safety stop?",
+    "back": "Kali <3,5 mmol/L: trì hoãn insulin và dùng protocol bù kali có giám sát.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Không có ketone máu nhưng có ketone niệu: diễn giải thế nào?",
+    "back": "Đây là Plan B; kết quả có giới hạn, không loại trừ DKA sớm và cần VBG/điện giải/chuyển tuyến.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  },
+  {
+    "type": "basic",
+    "front": "Mục tiêu của IM-14 khi nghi DKA/HHS là gì?",
+    "back": "Nhận diện, ổn định, lấy bundle ban đầu và kích hoạt IM-52/local ICU protocol; không hoàn tất điều trị DKA/HHS.",
+    "extra": "IM-14 — Rối loạn đường huyết cấp trong 15 phút đầu."
+  }
+]

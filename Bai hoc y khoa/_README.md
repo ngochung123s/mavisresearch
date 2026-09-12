@@ -132,7 +132,7 @@ Chi tiết: xem `WORKFLOW.md` ở root.
 | 55 | Tiêu chảy cấp/mạn và viêm đại tràng (IM-38) — bù dịch, xét nghiệm, kháng sinh, C. difficile, IBD | 20/07 | ✅ strict PMID/claims, citation, structure, diacritics và APKG gates đạt |
 | 56 | Bệnh loét dạ dày–tá tràng, GERD và khó tiêu (IM-37) — H. pylori VNAGE, PTMB/PALB, GERD PPI trial, NSAID dự phòng | 20/07 | ✅ strict PMID/claims, citation, depth, diacritics và APKG gates đạt |
 | 59 | IM-43 — Đọc creatinine/eGFR và tiếp cận tổn thương thận cấp | 22/07 | ✅ strict PMID/claims, citation 0 BLOCK, disease depth, diacritics, APKG 80 notes/80 cards và learner smoke |
-| 20 | [IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1](11_Noi%20khoa/IM-44_Nguyen_ly_ECG/IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md) | Nội khoa | 2026-07-28 | foundation | PUBLISH READY |
+| 60 | [IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1](11_Noi%20khoa/IM-44_Nguyen_ly_ECG/IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.md) — Nội khoa, foundation | 28/07 | 📋 RE-VERIFICATION REQUIRED |
 
 ## Ghi chú
 
@@ -140,7 +140,7 @@ Chi tiết: xem `WORKFLOW.md` ở root.
 - Ưu tiên guideline **ESHRE/ACOG/ASRM/RCOG/ISUOG** cập nhật 2020-2025
 - Ngôn ngữ: **tiếng Việt CÓ DẤU** là chính, thuật ngữ y khoa giữ nguyên tiếng Anh/La-tinh
 - Format: **dài + chi tiết**, có cơ chế + guideline + PMID + bảng chuẩn
-- Output mỗi bài: Telegram text + `.md` + `.apkg`; không build DOCX hoặc HTML cho bài mới.
+- Output mỗi bài: tác giả soạn thảo Markdown + cards, các artifact DOCX/APKG/learner outputs do release runner tự động tạo khi chạy gate release.
 - Theme Anki: **Pastel** (preference user)
 - HTML visual: chỉ là deliverable legacy; không tạo cho bài mới.
 - Citation audit: BẮT BUỘC 0 BLOCK, guideline > Q1 > Q2 > Q3 > Q4_AVOID
@@ -150,3 +150,9 @@ Chi tiết: xem `WORKFLOW.md` ở root.
 - Bác sĩ: **Ngọc Hưng 🍅 🐈‍⬛** (Bác sĩ tự học sản phụ khoa, Việt Nam)
 - AI assistant: **tên model hiện tại** (trước đây MiniMax Mavis, hiện tại opencode deepseek-v4-pro)
 - Workspace gốc: `F:\DL\solieu thay H\Bai hoc y khoa\`
+
+### IM-44: Nguyên lý ECG và nguyên lý hiển thị hình ảnh sóng ECG (RELEASE_v2)
+- **Folder:** `11_Noi khoa/IM-44_Nguyen_ly_ECG/`
+- **Revision:** `IM-44_Nguyen_ly_ECG_2026-07-29_RELEASE_v2`
+- **Profile:** `foundation` | **Mode:** `L3_BEGINNER`
+- **Status:** ✅ PUBLISH READY (16/16 required gates PASS)

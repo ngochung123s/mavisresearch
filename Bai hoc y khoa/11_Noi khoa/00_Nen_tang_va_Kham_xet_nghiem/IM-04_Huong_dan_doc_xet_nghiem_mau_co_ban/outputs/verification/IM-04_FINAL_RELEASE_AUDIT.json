@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "release": "IM-04",
+  "audited_at": "2026-07-29",
+  "root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban",
+  "commands": [
+    {
+      "scope": "Part 1-3",
+      "command": "publish_gate.py <locked brief> --results <final manifest>",
+      "exit_codes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "Part 1-3",
+      "command": "citation_audit.py <lesson> --evidence-bundle <corresponding bundle> --json --quiet",
+      "exit_codes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "full verifier suite after catalog registry update",
+      "command": "python -m unittest discover -s \"Bai hoc y khoa/10_Script Python\" -p \"test_*.py\"",
+      "exit_code": 0,
+      "tests_run": 68,
+      "result": "OK"
+    }
+  ],
+  "parts": [
+    {
+      "part": 1,
+      "basename": "IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1",
+      "manifest": {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\gate-results.json",
+        "sha256": "416b867d99230d21d4d90fcef182ca6b3c26ca592ffd76e89eb1547fefae1f85",
+        "gate_count": 16,
+        "unique_gate_count": 16,
+        "required_gates_exact_set": true,
+        "all_status_pass": true,
+        "all_exit_code_zero": true,
+        "hashes_current": true,
+        "hash_errors": [],
+        "publish_gate": {
+          "command": "python publish_gate.py \"F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1_RESEARCH_BRIEF.md\" --results \"F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\gate-results.json\"",
+          "exit_code": 0,
+          "result": "PUBLISH READY: profile=foundation; 16 required gates have valid hashed evidence"
+        },
+        "hashed_entries_checked": 51,
+        "required_gate_names": [
+          "brief_claims_strict",
+          "brief_pmid_preflight",
+          "candidate_apkg_build",
+          "cards_schema",
+          "citation_zero_block",
+          "depth_foundation",
+          "docx_build",
+          "guideline_evidence",
+          "guideline_evidence_crosscheck",
+          "learner_smoke",
+          "package_diacritics",
+          "package_note_count",
+          "source_claims_strict",
+          "source_diacritics",
+          "source_pmid_strict",
+          "source_retraction"
+        ]
+      },
+      "citation_audit": {
+        "command": "python citation_audit.py \"F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md\" --evidence-bundle \"F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\evidence-bundle.json\" --json --quiet",
+        "exit_code": 0,
+        "summary": {
+          "total": 0,
+          "pass": 0,
+          "warn": 0,
+          "block": 0
+        },
+        "evidence_bundle_sha256": "ed26705292e2c254c3c0fc41a1e4609192487977e3db2c256c079a3b8ba07ed8"
+      },
+      "depth": 0,
+      "package_counts": {
+        "expected_notes": 24,
+        "actual_notes": 24,
+        "actual_cards": 24,
+        "status": "PASS"
+      },
+      "learner_smoke": {
+        "status": "not_graded",
+        "total_questions": 47,
+        "section_counts": {
+          "A. Closed-book recall": 17,
+          "B. Thresholds and numbers": 9,
+          "C. Cloze drill": 7,
+          "D. Clinical mini-cases": 4,
+          "E. Red-flag / common mistake check": 10
+        },
+        "five_section_keys": true,
+        "contract_pass": true,
+        "zero_count_sections_allowed": true
+      },
+      "exact_path_smoke": {
+        "markdown": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.md",
+          "exists": true,
+          "size_bytes": 52933,
+          "sha256": "7abcce4ef1f4b35195fe70d03338bfa8bb86fdf2976412271dddb7942527e816"
+        },
+        "cards": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.cards.v2.json",
+          "exists": true,
+          "size_bytes": 6340,
+          "sha256": "1d7b205c7bae381aab582656430c2b717924523d879021acab2184e1b083207b"
+        },
+        "docx": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.docx",
+          "exists": true,
+          "size_bytes": 54561,
+          "sha256": "654e6c174ab297962164ac786e585dc6dc44435599c90b6402026ca30ead0823"
+        },
+        "apkg": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.apkg",
+          "exists": true,
+          "size_bytes": 69850,
+          "sha256": "288d04a404018f9fbf36a844034eed4d4e1e41db71e9be1439548ba31b67e392"
+        },
+        "learner_check": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1_knowledge_check.md",
+          "exists": true,
+          "size_bytes": 7847,
+          "sha256": "ad2adf597ef6e31900da72768be3c330923ceae09f872741564eb4dba449fb72"
+        },
+        "answer_key": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1_knowledge_check_answer_key.md",
+          "exists": true,
+          "size_bytes": 5366,
+          "sha256": "8badd675d774992763c05f346a77ced27af919d70914571bb0eac299740a05bc"
+        },
+        "score": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1_knowledge_check_score.json",
+          "exists": true,
+          "size_bytes": 741,
+          "sha256": "441f4483faa3b1e6297b84d155c52964564ef760d256d282a2f9058fff7856aa"
+        },
+        "manifest": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1\\gate-results.json",
+          "exists": true,
+          "size_bytes": 28041,
+          "sha256": "416b867d99230d21d4d90fcef182ca6b3c26ca592ffd76e89eb1547fefae1f85"
+        }
+      },
+      "diacritics": {
+        "apkg_exit_code": 0,
+        "apkg_ratio_percent": 97.8,
+        "source_status": "PASS",
+        "source_ratio": 0.9699940582293524
+      }
+    },
+    {
+      "part": 2,
+      "basename": "IM-04_Part2_Huyet_hoc_va_dong_mau_2026-07-29_RELEASE_v1",
+      "manifest": {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part2_Huyet_hoc_va_dong_mau_2026-07-29_RELEASE_v1\\gate-results.json",
+        "sha256": "e6a35bf58a925b68e96e8720aca272d3df19d01077b9b049682eb2d48d82af2b",
+        "gate_count": 16,
+        "unique_gate_count": 16,
+        "required_gates_exact_set": true,
+        "all_status_pass": true,
+        "all_exit_code_zero": true,
+        "hashes_current": true,
+        "hash_errors": [],
+        "publish_gate": {
+          "command": "python publish_gate.py \"F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part2_Huyet_hoc_va_dong_mau_2026-07-29_RELEASE_v1_RESEARCH_BRIEF.md\" --results \"F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part2_Huyet_hoc_va_dong_mau_2026-07-29_RELEASE_v1\\gate-results.json\"",
+          "exit_code": 0,
+          "result": "PUBLISH READY: profile=foundation; 16 required gates have valid hashed evidence"
+        },
+        "hashed_entries_checked": 51,
+        "required_gate_names": [
+          "brief_claims_strict",
+          "brief_pmid_preflight",
+          "candidate_apkg_build",
+          "cards_schema",
+          "citation_zero_block",
+          "depth_foundation",
+          "docx_build",
+          "guideline_evidence",
+          "guideline_evidence_crosscheck",
+          "learner_smoke",
+          "package_diacritics",
+          "package_note_count",
+          "source_claims_strict",
+          "source_diacritics",
+          "source_pmid_strict",
+          "source_retraction"
+        ]
+      },
+      "citation_audit": {
+        "command": "python citation_audit.py \"F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part2_Huyet_hoc_va_dong_mau_2026-07-29_RELEASE_v1.md\" --evidence-bundle \"F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\evidence\\part2\\evidence_bundle.json\" --json --quiet",
+        "exit_code": 0,
+        "summary": {
+          "total": 0,
+          "pass": 0,
+          "warn": 0,
+          "block": 0
+        },
+        "evidence_bundle_sha256": "5c8735f184abe51a666041c2917be43150c24e78057e7f140624daf75c4f1537"
+      },
+      "depth": 0,
+      "package_counts": {
+        "expected_notes": 25,
+        "actual_notes": 25,
+        "actual_cards": 25,
+        "status": "PASS"
+      },
+      "learner_smoke": {
+        "status": "not_graded",
+        "total_questions": 54,
+        "section_counts": {
+          "A. Closed-book recall": 25,
+          "B. Thresholds and numbers": 2,
+          "C. Cloze drill": 0,
+          "D. Clinical mini-cases": 8,
+          "E. Red-flag / common mistake check": 19
+        },
+        "five_section_keys": true,
+        "contract_pass": true,
+        "zero_count_sections_allowed": true
+      },
+      "exact_path_smoke": {
+        "markdown": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part2_Huyet_hoc_va_dong_mau_2026-07-29_RELEASE_v1.md",
+          "exists": true,
+          "size_bytes": 71743,
+          "sha256": "8dfcb68fc9ad3f28350cf20592dc9a1c67a73228d1350edd07e145bae86ea302"
+        },
+        "cards": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part2_Huyet_hoc_va_dong_mau_2026-07-29_RELEASE_v1.cards.v2.json",
+          "exists": true,
+          "size_bytes": 6212,
+          "sha256": "dd11f4c422bc146224eaf4953a23da43ed4777a8f0a9eafd14f9c044326035ef"
+        },
+        "docx": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part2_Huyet_hoc_va_dong_mau_2026-07-29_RELEASE_v1.docx",
+          "exists": true,
+          "size_bytes": 57670,
+          "sha256": "3c31a98dacbbe8216cedf76c64aac5547fb1ec95f804debe0ceb3e884f08cea0"
+        },
+        "apkg": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part2_Huyet_hoc_va_dong_mau_2026-07-29_RELEASE_v1.apkg",
+          "exists": true,
+          "size_bytes": 65754,
+          "sha256": "bd5caf3fc0e5ed7b3aa05605b9a08104ce4934a722789838bb8844809f6c673f"
+        },
+        "learner_check": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part2_Huyet_hoc_va_dong_mau_2026-07-29_RELEASE_v1_knowledge_check.md",
+          "exists": true,
+          "size_bytes": 7426,
+          "sha256": "4a8e3ee045f3b966f467d8c872751b1d52c5265d9b97a10adbb05e175e7de36e"
+        },
+        "answer_key": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part2_Huyet_hoc_va_dong_mau_2026-07-29_RELEASE_v1_knowledge_check_answer_key.md",
+          "exists": true,
+          "size_bytes": 6552,
+          "sha256": "7d8d349a15765ddb58e0dafa49ace4bd7f121002e629b468eabacdf7ce8127f1"
+        },
+        "score": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part2_Huyet_hoc_va_dong_mau_2026-07-29_RELEASE_v1_knowledge_check_score.json",
+          "exists": true,
+          "size_bytes": 736,
+          "sha256": "6522990676dd97ed84f535d7bcc0e2995ed4d91ad7416f4e2a0cca1d4e052410"
+        },
+        "manifest": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part2_Huyet_hoc_va_dong_mau_2026-07-29_RELEASE_v1\\gate-results.json",
+          "exists": true,
+          "size_bytes": 27117,
+          "sha256": "e6a35bf58a925b68e96e8720aca272d3df19d01077b9b049682eb2d48d82af2b"
+        }
+      },
+      "diacritics": {
+        "apkg_exit_code": 0,
+        "apkg_ratio_percent": 97.5,
+        "source_status": "PASS",
+        "source_ratio": 0.9636425033768573
+      }
+    },
+    {
+      "part": 3,
+      "basename": "IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1",
+      "manifest": {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1\\gate-results.json",
+        "sha256": "7139b4dc02bcce8588811fe48fb251781e129eddaf5e234aea6f759537b9eb87",
+        "gate_count": 16,
+        "unique_gate_count": 16,
+        "required_gates_exact_set": true,
+        "all_status_pass": true,
+        "all_exit_code_zero": true,
+        "hashes_current": true,
+        "hash_errors": [],
+        "publish_gate": {
+          "command": "python publish_gate.py \"F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1_RESEARCH_BRIEF.md\" --results \"F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1\\gate-results.json\"",
+          "exit_code": 0,
+          "result": "PUBLISH READY: profile=foundation; 16 required gates have valid hashed evidence"
+        },
+        "hashed_entries_checked": 51,
+        "required_gate_names": [
+          "brief_claims_strict",
+          "brief_pmid_preflight",
+          "candidate_apkg_build",
+          "cards_schema",
+          "citation_zero_block",
+          "depth_foundation",
+          "docx_build",
+          "guideline_evidence",
+          "guideline_evidence_crosscheck",
+          "learner_smoke",
+          "package_diacritics",
+          "package_note_count",
+          "source_claims_strict",
+          "source_diacritics",
+          "source_pmid_strict",
+          "source_retraction"
+        ]
+      },
+      "citation_audit": {
+        "command": "python citation_audit.py \"F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1.md\" --evidence-bundle \"F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\evidence\\part3\\evidence_bundle.json\" --json --quiet",
+        "exit_code": 0,
+        "summary": {
+          "total": 0,
+          "pass": 0,
+          "warn": 0,
+          "block": 0
+        },
+        "evidence_bundle_sha256": "f60ccfe38a5f5fed8b2332231d59b31d2df3ea963c9ebbd8d34ea2ed1cb70e9e"
+      },
+      "depth": 0,
+      "package_counts": {
+        "expected_notes": 26,
+        "actual_notes": 26,
+        "actual_cards": 26,
+        "status": "PASS"
+      },
+      "learner_smoke": {
+        "status": "not_graded",
+        "total_questions": 53,
+        "section_counts": {
+          "A. Closed-book recall": 26,
+          "B. Thresholds and numbers": 1,
+          "C. Cloze drill": 0,
+          "D. Clinical mini-cases": 8,
+          "E. Red-flag / common mistake check": 18
+        },
+        "five_section_keys": true,
+        "contract_pass": true,
+        "zero_count_sections_allowed": true
+      },
+      "exact_path_smoke": {
+        "markdown": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1.md",
+          "exists": true,
+          "size_bytes": 61592,
+          "sha256": "d18761f1508c6b4a04c34c1c1d3cb5dcd810ad4422223cd74dad544c8442e69e"
+        },
+        "cards": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1.cards.v2.json",
+          "exists": true,
+          "size_bytes": 6283,
+          "sha256": "bb1048c6ee87fa63108d81bae328108e01884ea428cf1a4185eda7cda9e86873"
+        },
+        "docx": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1.docx",
+          "exists": true,
+          "size_bytes": 55761,
+          "sha256": "9f5adafa7d5ada71b6d1b0e6e7f426b3448d9060b1c8b6ace3aa8b2fb25ed56d"
+        },
+        "apkg": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1.apkg",
+          "exists": true,
+          "size_bytes": 65754,
+          "sha256": "d459d044c1d47de6432691e1288265db66f6b7a9748e091b7a147b779306eaf1"
+        },
+        "learner_check": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1_knowledge_check.md",
+          "exists": true,
+          "size_bytes": 7411,
+          "sha256": "fcdcfd42f4d6cc38b7e9163a7487036052107f7a6c0f516c682e87e82bf28212"
+        },
+        "answer_key": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1_knowledge_check_answer_key.md",
+          "exists": true,
+          "size_bytes": 6643,
+          "sha256": "5addc4e9f8c317a62ddfedecc4de62b36f57fb38d367c9371c82aaa2c992e741"
+        },
+        "score": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1_knowledge_check_score.json",
+          "exists": true,
+          "size_bytes": 734,
+          "sha256": "b471be4d558d787c1174bba789a108c9ef88807af4bf0d56f00fee4b67c9f76a"
+        },
+        "manifest": {
+          "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\verification\\IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1\\gate-results.json",
+          "exists": true,
+          "size_bytes": 27037,
+          "sha256": "7139b4dc02bcce8588811fe48fb251781e129eddaf5e234aea6f759537b9eb87"
+        }
+      },
+      "diacritics": {
+        "apkg_exit_code": 0,
+        "apkg_ratio_percent": 95.5,
+        "source_status": "PASS",
+        "source_ratio": 0.9464401504344443
+      }
+    }
+  ],
+  "content_reconciliation": {
+    "wrong_part2_basename_artifacts": false,
+    "vacuous_esc_audience_claim": false,
+    "eflm_romanian_translation_quarantined": true,
+    "bsh_educational_not_guideline": true,
+    "part3_substantive_bsg_claim": true
+  },
+  "registry": {
+    "catalog_path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\_CATALOG.md",
+    "catalog_sha256": "ca8c49ec4364d3670600dc385978c3341be025879bd3edccf6de10419d7be0ff",
+    "row_counts": {
+      "md": 3,
+      "docx": 3,
+      "apkg": 3,
+      "cards": 75,
+      "card_files": 3
+    },
+    "_README_changed": false,
+    "reason": "Catalog is the one-row-per-folder registry; _README already delegates folder lookup to _CATALOG and has no IM-04 entry to update.",
+    "exact_path_smoke": {
+      "folder_link_present": true,
+      "folder_exists": true,
+      "locked_release_paths_all_exist": true
+    }
+  },
+  "all_parts_publish_ready": true,
+  "residual_blockers": [],
+  "release_plan": {
+    "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\IM-04_RELEASE_PLAN.md",
+    "sha256": "ac88c6069fc831527e2bebd766818e6d95dde648804a3a24bbb468fc66e1cabb",
+    "completion_section_added": true,
+    "locked_contract_changed": false
+  }
+}

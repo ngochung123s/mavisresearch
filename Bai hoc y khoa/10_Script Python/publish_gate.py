@@ -23,6 +23,7 @@ COMMON_GATES = (
     "source_claims_strict",
     "source_retraction",
     "guideline_evidence",
+    "guideline_evidence_crosscheck",
     "citation_zero_block",
     "cards_schema",
     "candidate_apkg_build",
@@ -32,9 +33,9 @@ COMMON_GATES = (
     "docx_build",
     "learner_smoke",
 )
-DISEASE_GATES = COMMON_GATES[:4] + ("depth_disease",) + COMMON_GATES[4:]
-FOUNDATION_GATES = COMMON_GATES[:4] + ("profile_foundation",) + COMMON_GATES[4:]
-PHARMACOLOGY_GATES = COMMON_GATES[:4] + ("profile_pharmacology",) + COMMON_GATES[4:]
+DISEASE_GATES = COMMON_GATES[:6] + ("depth_disease",) + COMMON_GATES[6:]
+FOUNDATION_GATES = COMMON_GATES[:6] + ("depth_foundation",) + COMMON_GATES[6:]
+PHARMACOLOGY_GATES = COMMON_GATES[:6] + ("depth_pharmacology",) + COMMON_GATES[6:]
 
 # Every profile is executable only when its structural checker and test suite
 # are reviewed. Exemptions never waive a required gate.
@@ -44,6 +45,51 @@ PROFILE_GATES = {
     "pharmacology": PHARMACOLOGY_GATES,
 }
 KNOWN_GATES = frozenset(gate for gates in PROFILE_GATES.values() for gate in gates)
+
+DEFAULT_DEPTH_CONTRACTS = {
+    "foundation": {
+        "min_total_words": 5000,
+        "min_total_lines": 500,
+        "min_sections": 10,
+        "min_subsections": 12,
+        "min_mechanism_chains": 3,
+        "min_examples": 6,
+        "min_misconceptions": 6,
+        "min_checkpoints": 4,
+        "min_cases_with_solutions": 2,
+        "min_practical_tips": 10,
+        "max_placeholder_count": 0,
+        "no_padding": True,
+    },
+    "disease": {
+        "min_total_words": 6000,
+        "min_total_lines": 600,
+        "min_sections": 10,
+        "min_subsections": 14,
+        "min_mechanism_chains": 4,
+        "min_examples": 8,
+        "min_misconceptions": 8,
+        "min_checkpoints": 5,
+        "min_cases_with_solutions": 3,
+        "min_practical_tips": 12,
+        "max_placeholder_count": 0,
+        "no_padding": True,
+    },
+    "pharmacology": {
+        "min_total_words": 6000,
+        "min_total_lines": 600,
+        "min_sections": 8,
+        "min_subsections": 14,
+        "min_mechanism_chains": 5,
+        "min_examples": 8,
+        "min_misconceptions": 8,
+        "min_checkpoints": 5,
+        "min_cases_with_solutions": 3,
+        "min_practical_tips": 12,
+        "max_placeholder_count": 0,
+        "no_padding": True,
+    },
+}
 CONTRACT_HEADING = re.compile(
     r"^##\s+0\.\s+Lesson profile & release contract\s*$", re.IGNORECASE | re.MULTILINE
 )
@@ -94,9 +140,20 @@ def _require_string_list(value: Any, field: str) -> list[str]:
 
 def validate_contract(contract: dict[str, Any]) -> tuple[str, tuple[str, ...]]:
     """Validate profile policy. Exemptions never alter required gates."""
-    expected_keys = {"profile", "required_gates", "not_applicable", "approved_exemptions"}
+    expected_keys = {
+        "profile",
+        "mode",
+        "required_gates",
+        "lesson_depth_contract",
+        "not_applicable",
+        "approved_exemptions",
+    }
     if set(contract) != expected_keys:
-        raise ContractError("contract keys must be exactly: profile, required_gates, not_applicable, approved_exemptions")
+        raise ContractError(f"contract keys must be exactly: {sorted(expected_keys)}")
+
+    mode = contract.get("mode")
+    if mode != "L3_BEGINNER":
+        raise ContractError(f"invalid contract mode: {mode!r}; mode must be 'L3_BEGINNER'")
 
     profile = contract["profile"]
     if profile not in PROFILE_GATES:
@@ -112,6 +169,23 @@ def validate_contract(contract: dict[str, Any]) -> tuple[str, tuple[str, ...]]:
         unknown = sorted(set(required) - set(expected))
         raise ContractError(f"required_gates must exactly match profile {profile}; missing={missing}, extra={unknown}")
 
+    depth_contract = contract.get("lesson_depth_contract")
+    if not isinstance(depth_contract, dict):
+        raise ContractError("lesson_depth_contract must be a dict")
+
+    expected_depth = DEFAULT_DEPTH_CONTRACTS[profile]
+    diff_missing = set(expected_depth) - set(depth_contract)
+    diff_extra = set(depth_contract) - set(expected_depth)
+    if diff_missing or diff_extra:
+        raise ContractError(
+            f"lesson_depth_contract keys mismatch for profile '{profile}'; missing={sorted(diff_missing)}, extra={sorted(diff_extra)}"
+        )
+    for k, expected_val in expected_depth.items():
+        actual_val = depth_contract.get(k)
+        if actual_val != expected_val or type(actual_val) is not type(expected_val):
+            raise ContractError(
+                f"lesson_depth_contract.{k} must exactly match canonical default for profile '{profile}': {expected_val!r} (got {actual_val!r})"
+            )
     not_applicable = _require_string_list(contract["not_applicable"], "not_applicable")
     if len(not_applicable) != len(set(not_applicable)):
         raise ContractError("not_applicable contains duplicate gate")
@@ -136,7 +210,6 @@ def validate_contract(contract: dict[str, Any]) -> tuple[str, tuple[str, ...]]:
             raise ContractError(f"approved exemption cannot waive required gate: {exemption['gate']}")
 
     return profile, expected
-
 
 def load_results(results_path: Path) -> list[dict[str, Any]]:
     try:

@@ -1,0 +1,482 @@
+[
+  {
+    "type": "basic",
+    "front": "Sóng P trên ECG biểu thị gì?",
+    "back": "Khử cực nhĩ: tín hiệu điện làm hai nhĩ chuẩn bị co.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Khoảng PR nói lên điều gì?",
+    "back": "Thời gian dẫn truyền từ hoạt động nhĩ qua nút AV tới thất.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Phức bộ QRS biểu thị gì?",
+    "back": "Khử cực thất, tức hoạt hóa điện của hai thất.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Khoảng RR hữu ích nhất để trả lời câu hỏi nào?",
+    "back": "Đáp ứng thất đều hay không đều.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Nút AV có vai trò thực hành gì khi đọc AF?",
+    "back": "Là “cổng” từ nhĩ xuống thất; nó làm đáp ứng thất không phải mọi xung nhĩ đều xuống được.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Hai đặc điểm ECG cốt lõi gợi AF là gì?",
+    "back": "Khoảng RR không đều rõ và không có sóng P đều đặn theo một khuôn mẫu.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao AF có thể gây huyết khối?",
+    "back": "Mất co bóp nhĩ có tổ chức có thể gây ứ máu, đặc biệt ở tiểu nhĩ trái.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "SVT đều-QRS hẹp có hình ECG thực dụng nào?",
+    "back": "Nhịp nhanh đều, QRS hẹp; sóng P có thể khó thấy hoặc gần QRS.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "QRS rộng trên nhịp nhanh thay đổi hành động ban đầu thế nào?",
+    "back": "Coi là nhịp nguy hiểm/chưa rõ và không đi vào nhánh SVT thường quy.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "“Đều” có nghĩa là “ổn định huyết động” không?",
+    "back": "Không. Luôn kiểm huyết áp, tri giác, đau thiếu máu cơ tim và suy tim.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "AF là vấn đề nhịp nhanh đơn thuần không?",
+    "back": "Không; còn có quyết định nguyên nhân, an toàn chuyển nhịp và phòng đột quỵ.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Khi không thấy P rõ, dữ kiện nào vẫn đặc biệt hữu ích?",
+    "back": "Tính đều của RR, độ rộng QRS, triệu chứng và sinh hiệu.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp nhanh có mạch kèm tụt huyết áp: ưu tiên đầu tiên?",
+    "back": "Kích hoạt đường cấp cứu có monitor, hỗ trợ ABC và chuẩn bị sốc điện đồng bộ/escalation.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Tachyarrhythmia With a Pulse Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp nhanh kèm đau ngực thiếu máu cơ tim đang diễn tiến: có được chờ phân loại ngoại trú không?",
+    "back": "Không. Đây là BOX ĐỎ; cần xử trí cấp cứu có theo dõi.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Tachyarrhythmia With a Pulse Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp nhanh kèm phù phổi cấp: đích xử trí là gì?",
+    "back": "Hồi sức/đánh giá cấp cứu và escalatation; không chỉ kê thuốc hạ mạch.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Tachyarrhythmia With a Pulse Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp nhanh kèm thay đổi tri giác: hành động nào an toàn?",
+    "back": "Coi là không ổn định, gọi cấp cứu và chuẩn bị đường điện đồng bộ/chuyển khẩn.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Tachyarrhythmia With a Pulse Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Khi không chắc bệnh nhân nhịp nhanh có ổn định không, chọn nhánh nào?",
+    "back": "Nhánh cấp cứu: không chờ đủ chẩn đoán để làm bệnh nhân xấu đi.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Tachyarrhythmia With a Pulse Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Khi thiếu máy sốc điện ở bệnh nhân nhịp nhanh không ổn định, Plan B là gì?",
+    "back": "ABC, monitor/đường truyền, gọi hỗ trợ và chuyển khẩn; không để chờ ngoại trú.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Tachyarrhythmia With a Pulse Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp nhanh QRS rộng có phù hợp để thử adenosine thường quy không?",
+    "back": "Không. Cần coi là nhịp nguy hiểm cho tới khi được làm rõ.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Tachyarrhythmia With a Pulse Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp nhanh không đều chưa rõ có phù hợp để thử adenosine thường quy không?",
+    "back": "Không. Cần monitor và đánh giá chuyên gia/cấp cứu.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Tachyarrhythmia With a Pulse Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "ECG 12 chuyển đạo có được làm chậm hồi sức nhịp nhanh bất ổn không?",
+    "back": "Không. Ghi ECG khi không trì hoãn điều trị cấp cứu.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Tachyarrhythmia With a Pulse Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Sau một can thiệp nhịp nhanh, chỉ số nào phải đánh giá lại?",
+    "back": "Triệu chứng và tưới máu: huyết áp, tri giác, đau, suy tim, nhịp/ECG.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Tachyarrhythmia With a Pulse Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Một bệnh nhân AF QRS hẹp có thể vẫn nguy hiểm vì sao?",
+    "back": "QRS hẹp không loại trừ tụt huyết áp, phù phổi hoặc thiếu máu cơ tim.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Tachyarrhythmia With a Pulse Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Trong bàn giao nhịp nhanh, bốn dữ kiện tối thiểu?",
+    "back": "ECG/nhịp, sinh hiệu và triệu chứng, thời điểm khởi phát ước tính, thuốc/can thiệp đã dùng.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Tachyarrhythmia With a Pulse Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Khi nghi ngờ thiếu oxy là yếu tố khởi phát AF, ưu tiên nào?",
+    "back": "Đánh giá và điều trị thiếu oxy song hành với xử trí nhịp.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Tachyarrhythmia With a Pulse Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Khi nghi nhiễm trùng là yếu tố khởi phát AF, chỉ hạ mạch có đủ không?",
+    "back": "Không; phải xử lý nguyên nhân song hành.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Tachyarrhythmia With a Pulse Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Bốn quyết định tách biệt trong AF là gì?",
+    "back": "Xác nhận/nguyên nhân; ổn định và chọn tần số hay nhịp; an toàn chuyển nhịp; phòng đột quỵ.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Trong AF, vì sao phải tìm yếu tố khởi phát?",
+    "back": "Vì thiếu oxy, nhiễm trùng, đau, thiếu máu, điện giải, thuốc hay bệnh kèm có thể thay đổi xử trí.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Mục tiêu của kiểm soát tần số trong AF là gì?",
+    "back": "Giảm triệu chứng/cải thiện tưới máu phù hợp bối cảnh; không thay thế phòng đột quỵ.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Mục tiêu của kiểm soát nhịp trong AF là gì?",
+    "back": "Giảm triệu chứng bằng chiến lược khôi phục/duy trì nhịp khi an toàn và phù hợp.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "AF không ổn định đi vào chiến lược nào?",
+    "back": "Đường hồi sức có monitor và sốc điện đồng bộ/escalation theo protocol.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "AF ổn định có phải mọi người đều chuyển nhịp ngay không?",
+    "back": "Không; quyết định phụ thuộc triệu chứng, thời điểm khởi phát, chống đông/hình ảnh và bối cảnh.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "AF khởi phát không chắc: nút an toàn trước chuyển nhịp chọn lọc?",
+    "back": "Dừng và giải quyết đường chống đông/hình ảnh an toàn theo guideline trước.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao không dùng “không nhớ khởi phát” như một chi tiết nhỏ?",
+    "back": "Nó có thể thay đổi an toàn của chuyển nhịp chọn lọc.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Trong AF, huyết áp/suy tim ảnh hưởng chọn chiến lược thế nào?",
+    "back": "Chúng quyết định mức ổn định và tính phù hợp/an toàn của thuốc hay chuyển nhịp.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Cơ sở dùng framework nguy cơ khác guideline khác: cách ghi an toàn?",
+    "back": "Nêu rõ framework đang dùng và theo protocol/guideline địa phương; không trộn thành quy tắc mới.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "AF kèm chức năng thất chưa biết: bẫy dùng thuốc?",
+    "back": "Không chọn thuốc chỉ theo tên AF; cần đánh giá huyết động, suy tim và khả năng monitor.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "AF đã chậm mạch hơn sau can thiệp: việc nào còn cần?",
+    "back": "Đánh giá lại nguyên nhân, an toàn chuyển nhịp nếu liên quan, và kế hoạch phòng đột quỵ.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Mục “đánh giá lại động” trong AF-CARE nhắc điều gì?",
+    "back": "Kế hoạch AF không cố định; cần xem lại triệu chứng, nguy cơ, bệnh kèm và đáp ứng theo thời gian.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "AF-CARE: chữ C đầu nhắc điều gì?",
+    "back": "Đồng bệnh lý và yếu tố nguy cơ cần được nhận diện/xử lý.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "AF-CARE: chữ A nhắc điều gì?",
+    "back": "Tránh đột quỵ và thuyên tắc bằng đánh giá nguy cơ phù hợp.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "AF-CARE: chữ R nhắc điều gì?",
+    "back": "Giảm triệu chứng bằng kiểm soát tần số hoặc nhịp phù hợp.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "AF-CARE: chữ E nhắc điều gì?",
+    "back": "Đánh giá lại và điều chỉnh kế hoạch theo thời gian.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Khi AF ổn định nhưng có bệnh nền phức tạp, đích đến phù hợp?",
+    "back": "Lập kế hoạch theo dõi/hội chẩn tim mạch thay vì quyết định vội từ một ECG.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Phòng đột quỵ trong AF được quyết định riêng với kiểm soát mạch vì sao?",
+    "back": "Kiểm soát triệu chứng không tự loại nguy cơ huyết khối/thuyên tắc.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Điểm nguy cơ xuất huyết có phải tự động là lý do không chống đông?",
+    "back": "Không. Dùng để nhận diện/sửa yếu tố nguy cơ và theo dõi, cùng đánh giá chống chỉ định.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Ba nhóm cần rà khi cân nhắc phòng đột quỵ AF?",
+    "back": "Nguy cơ thuyên tắc theo framework, chống chỉ định tuyệt đối, yếu tố xuất huyết có thể sửa.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Té ngã hoặc đa thuốc ở bệnh nhân AF nên dẫn tới hành động nào?",
+    "back": "Rà thuốc tương tác, nguyên nhân té ngã và nguy cơ sửa được; không đóng quyết định bằng một nhãn.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Sau quyết định chống đông, vì sao vẫn cần tái đánh giá?",
+    "back": "Bệnh kèm, thuốc, thận/gan, chảy máu và nguy cơ thuyên tắc có thể thay đổi.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Khi thông tin về thuốc đang dùng không chắc, có nên chốt chống đông ngay?",
+    "back": "Không; đối chiếu thuốc, tương tác và thông tin an toàn trước.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "AF ổn định không triệu chứng có thể vẫn cần thảo luận gì?",
+    "back": "Nguy cơ đột quỵ/thuyên tắc và kế hoạch theo dõi.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Cách giải thích đúng về nguy cơ xuất huyết cho người bệnh AF?",
+    "back": "Nêu nguy cơ để cùng sửa các yếu tố có thể thay đổi và theo dõi, không dùng nó để bỏ qua phòng đột quỵ.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao không trộn các score từ guideline khác nhau?",
+    "back": "Các framework có định nghĩa/ngưỡng khác; trộn tạo quy tắc không được xác minh.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Trước thủ thuật/chuyển nhịp trong AF, thông tin chống đông nào phải bàn giao?",
+    "back": "Thuốc, mức tuân thủ, thời điểm dùng gần đây, thời điểm khởi phát AF và kế hoạch theo guideline.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Nguyên tắc bàn giao AF về phòng đột quỵ?",
+    "back": "Ghi framework áp dụng, nguy cơ/chống chỉ định đã xem, yếu tố sửa được và kế hoạch follow-up.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "AF-CARE tránh lỗi “hết hồi hộp là hết bệnh” bằng cách nào?",
+    "back": "Bắt buộc tách giảm triệu chứng khỏi tránh đột quỵ và đánh giá lại.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Nếu cần hình ảnh để quyết định chuyển nhịp nhưng cơ sở không có, Plan B?",
+    "back": "Ổn định, không suy diễn an toàn, liên hệ tuyến nhận/chuyển có monitor.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Điều gì không được dùng thay cho đánh giá nguy cơ thuyên tắc?",
+    "back": "Cảm giác bệnh nhân khỏe hơn hoặc nhịp đã chậm lại.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Khám lại bệnh nhân AF nên tìm yếu tố xuất huyết sửa được nào về nguyên tắc?",
+    "back": "Thuốc tương tác, kiểm soát bệnh kèm, nguy cơ té ngã và các yếu tố lâm sàng có thể can thiệp.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Bệnh nhân AF lo chảy máu: bước giao tiếp an toàn?",
+    "back": "Giải thích lợi ích–nguy cơ, kiểm chứng dữ kiện cá nhân và ra quyết định chung có kế hoạch theo dõi.",
+    "extra": "[GUIDELINE VERIFIED: ESC AF 2024, PMID 39210723; ACC/AHA/ACCP/HRS 2023, PMID 38033089]"
+  },
+  {
+    "type": "basic",
+    "front": "Điều kiện mở nhánh nghiệm pháp phế vị?",
+    "back": "SVT đều-QRS hẹp, bệnh nhân ổn định và có monitoring/đánh giá phù hợp.",
+    "extra": "[GUIDELINE VERIFIED: ESC SVT 2019, PMID 31504425]"
+  },
+  {
+    "type": "basic",
+    "front": "Mục tiêu nghiệm pháp phế vị trong SVT phù hợp?",
+    "back": "Tác động dẫn truyền nút AV để có thể làm chậm/cắt cơn, đồng thời quan sát an toàn.",
+    "extra": "[GUIDELINE VERIFIED: ESC SVT 2019, PMID 31504425]"
+  },
+  {
+    "type": "basic",
+    "front": "Chuẩn bị trước thuốc cắt SVT?",
+    "back": "Xác nhận nhịp đều-QRS hẹp, đánh giá chống chỉ định, monitor và khả năng xử trí xấu đi.",
+    "extra": "[GUIDELINE VERIFIED: ESC SVT 2019, PMID 31504425]"
+  },
+  {
+    "type": "basic",
+    "front": "SVT tái phát cần kế hoạch gì sau cắt cơn?",
+    "back": "Ghi ECG, đánh giá gánh triệu chứng và chuyển tim mạch–điện sinh lý để bàn điều trị lâu dài.",
+    "extra": "[GUIDELINE VERIFIED: ESC SVT 2019, PMID 31504425]"
+  },
+  {
+    "type": "basic",
+    "front": "Bài IM-23 có dạy kỹ thuật triệt đốt SVT không?",
+    "back": "Không; chỉ dạy khi nào chuyển để thảo luận triệt đốt.",
+    "extra": "[GUIDELINE VERIFIED: ESC SVT 2019, PMID 31504425]"
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp đều QRS rộng có dùng nhánh SVT đều-QRS hẹp không?",
+    "back": "Không. Rộng làm thay đổi nhánh thành VT/nhịp nguy hiểm tiềm tàng.",
+    "extra": "[GUIDELINE VERIFIED: ESC SVT 2019, PMID 31504425]"
+  },
+  {
+    "type": "basic",
+    "front": "Nếu SVT trở nên bất ổn trong theo dõi, làm gì?",
+    "back": "Rời nhánh thường quy và chuyển sang đường cấp cứu có monitor/escalation.",
+    "extra": "[GUIDELINE VERIFIED: ESC SVT 2019, PMID 31504425]"
+  },
+  {
+    "type": "basic",
+    "front": "Một ECG có vẻ SVT nhưng RR không đều: bước đúng?",
+    "back": "Dừng nhánh SVT đơn giản và đánh giá AF/nhịp nguy hiểm.",
+    "extra": "[GUIDELINE VERIFIED: ESC SVT 2019, PMID 31504425]"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao tái phát SVT không chỉ là “cắt cơn xong”?",
+    "back": "Người bệnh cần kế hoạch phòng tái phát, ghi nhận ECG và thảo luận chuyên khoa.",
+    "extra": "[GUIDELINE VERIFIED: ESC SVT 2019, PMID 31504425]"
+  },
+  {
+    "type": "basic",
+    "front": "Khi không đủ monitoring cho thuốc cắt SVT, Plan B?",
+    "back": "Không dùng thuốc thử; ổn định, liên hệ/chuyển nơi có năng lực theo dõi.",
+    "extra": "[GUIDELINE VERIFIED: ESC SVT 2019, PMID 31504425]"
+  },
+  {
+    "type": "basic",
+    "front": "Case: AF RR không đều kèm tụt huyết áp. Nhánh kết thúc?",
+    "back": "Hồi sức có monitor và sốc điện đồng bộ/escalation hoặc chuyển khẩn; không phải rate-control ngoại trú.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: AF ổn định, không biết thời điểm khởi phát, muốn sốc điện chọn lọc. Bước tiếp?",
+    "back": "Dừng trước chuyển nhịp; giải quyết đường chống đông/hình ảnh an toàn theo guideline.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: nhịp đều-QRS hẹp, tỉnh, huyết động ổn. Hành động đầu?",
+    "back": "Nghiệm pháp phế vị được hướng dẫn với monitor; thuốc chỉ sau kiểm tra an toàn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: nhịp nhanh rộng chưa rõ, ổn định. Hành động sai cần tránh?",
+    "back": "Adenosine hoặc AV-nodal blockade thử nghiệm; coi là nhịp nguy hiểm/VT tiềm tàng và gọi chuyên gia.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: AF kèm nguy cơ chảy máu sửa được. Sai lầm?",
+    "back": "Tự động bỏ phòng đột quỵ; cần sửa nguy cơ, đánh giá chống chỉ định và quyết định chung.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: không có máy sốc điện, AF kèm lơ mơ. Plan B?",
+    "back": "ABC, monitor/đường truyền, gọi tuyến nhận và chuyển khẩn; không chờ khám ngoại trú.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: sau cắt SVT, bệnh nhân có nhiều cơn. Đích follow-up?",
+    "back": "Tim mạch–điện sinh lý để thảo luận điều trị lâu dài, không tự dạy triệt đốt.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: AF hết hồi hộp sau kiểm soát cấp. Việc còn thiếu nếu cho về ngay?",
+    "back": "Đánh giá nguyên nhân, nguy cơ đột quỵ/xuất huyết và kế hoạch theo dõi.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: nhịp nhanh QRS hẹp nhưng phù phổi. Nhãn ECG thay đổi ưu tiên không?",
+    "back": "Không; phù phổi đưa bệnh nhân vào đường cấp cứu trước phân loại thường quy.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: nhịp không đều, QRS rộng, không có chuyên gia tại chỗ. Quyết định?",
+    "back": "Monitor, ổn định và chuyển khẩn; không thử nhánh SVT thường quy.",
+    "extra": ""
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "type": "basic",
+    "front": "Sóng P cho biết gì?",
+    "back": "Hoạt động điện của nhĩ.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "PR cho biết gì?",
+    "back": "Thời gian dẫn truyền nhĩ–thất.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "QRS cho biết gì?",
+    "back": "Hoạt hóa điện của thất.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "P không theo QRS gợi vấn đề nào?",
+    "back": "Rối loạn dẫn truyền nhĩ–thất, cần đọc trong toàn bộ P–QRS.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "QRS rộng trong nhịp chậm có thể gợi gì?",
+    "back": "Nguồn nhịp thoát thấp hơn hệ dẫn truyền bình thường hoặc bất thường dẫn truyền.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp xoang chậm có quan hệ P–QRS nào?",
+    "back": "P đi trước mỗi QRS theo quan hệ 1:1.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Block AV độ một có đặc điểm gì?",
+    "back": "Mọi P dẫn truyền nhưng PR kéo dài.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Mobitz I có đặc điểm PR nào?",
+    "back": "PR kéo dài dần trước một P không dẫn truyền.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Mobitz II có đặc điểm quan trọng nào?",
+    "back": "Một số P không dẫn truyền mà PR của nhịp dẫn truyền không kéo dài dần.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Block cao độ nghĩa là gì thực dụng?",
+    "back": "Nhiều P không dẫn truyền liên tiếp, cần đánh giá nguy cơ và khả năng pacing.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Block AV hoàn toàn nghĩa là gì?",
+    "back": "Nhĩ và thất hoạt động độc lập (AV dissociation).",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp thoát có làm block hoàn toàn tự động an toàn không?",
+    "back": "Không; cần đánh giá triệu chứng, tưới máu, QRS, nguyên nhân và nguy cơ tiến triển.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp chậm có triệu chứng: bước đầu theo AHA?",
+    "back": "Đánh giá ABC, hỗ trợ oxy khi cần, monitor, IV, ECG khi không trì hoãn và tìm nguyên nhân đảo ngược.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Liều atropine trong AHA Adult Bradycardia Algorithm 2025?",
+    "back": "1 mg IV bolus; lặp mỗi 3–5 phút; tổng tối đa 3 mg.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Bradycardia Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Atropine không hiệu quả: hai nhóm lựa chọn kế tiếp?",
+    "back": "Pacing qua da và/hoặc dopamine/epinephrine, cùng expert help và chuẩn bị pacing tĩnh mạch.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Bradycardia Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Liều dopamine sau atropine không hiệu quả theo AHA 2025?",
+    "back": "5–20 microgram/kg/phút với monitor và hỗ trợ chuyên gia.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Bradycardia Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Liều epinephrine sau atropine không hiệu quả theo AHA 2025?",
+    "back": "2–10 microgram/phút với monitor và hỗ trợ chuyên gia.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Bradycardia Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao ECG 12 chuyển đạo không được làm chậm điều trị nhịp chậm nặng?",
+    "back": "Vì giảm tưới máu cần được xử trí ngay; ECG được làm song song khi không trì hoãn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Ba dấu hiệu giảm tưới máu trong nhịp chậm cần tìm?",
+    "back": "Hạ huyết áp/sốc, thay đổi tri giác, đau thiếu máu cơ tim hoặc suy tim cấp.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "High-grade block kèm tụt huyết áp: đích xử trí?",
+    "back": "Pacing/hỗ trợ vận mạch theo AHA nếu không đáp ứng ban đầu, cùng urgent expert transfer.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Khi không có pacing qua da ở nhịp chậm giảm tưới máu, Plan B?",
+    "back": "Hồi sức/monitor, thuốc theo algorithm nếu an toàn, gọi tuyến nhận và chuyển khẩn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Pacing qua da là quyết định lâu dài cuối cùng không?",
+    "back": "Không; là cầu nối cấp cứu trong khi chuẩn bị đánh giá/pacing tĩnh mạch/chuyên khoa.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Sau atropine, đánh giá đáp ứng bằng gì?",
+    "back": "Tưới máu và triệu chứng cùng nhịp: huyết áp, tri giác, đau, suy tim, không chỉ số mạch.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp chậm không triệu chứng có luôn cần atropine không?",
+    "back": "Không. Đánh giá nguyên nhân, P–QRS và nguy cơ; algorithm cấp cho nhịp chậm có giảm tưới máu.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Thuốc đang dùng là dữ kiện quan trọng trong nhịp chậm vì sao?",
+    "back": "Thuốc có thể là nguyên nhân đảo ngược hoặc làm thay đổi an toàn điều trị.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Thiếu oxy/điện giải/thiếu máu cơ tim có vai trò gì?",
+    "back": "Là nguyên nhân đảo ngược cần tìm và sửa song hành, không trì hoãn ổn định.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Blocked atrial ectopy có thể là bẫy gì?",
+    "back": "Có thể giống P không dẫn truyền; cần đọc hình dạng/thời điểm P trong toàn bộ ECG, không gắn Mobitz chỉ từ một khoảng ngắt.",
+    "extra": "[GUIDELINE VERIFIED: ESC Pacing 2021, PMID 34455430]"
+  },
+  {
+    "type": "basic",
+    "front": "Mobitz II có thể nguy hiểm dù bệnh nhân tạm ổn vì sao?",
+    "back": "Có nguy cơ block tiến triển/nhịp thoát không tin cậy; cần ngưỡng monitor và chuyển chuyên khoa cao.",
+    "extra": "[GUIDELINE VERIFIED: ESC Pacing 2021, PMID 34455430]"
+  },
+  {
+    "type": "basic",
+    "front": "Block hoàn toàn với đau ngực mới: ưu tiên?",
+    "back": "Đường cấp cứu đánh giá thiếu máu cơ tim song hành và sẵn sàng pacing, không hẹn ngoại trú.",
+    "extra": "[GUIDELINE VERIFIED: ESC Pacing 2021, PMID 34455430]"
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp thoát chậm rộng có ý nghĩa bàn giao gì?",
+    "back": "Nêu khả năng nguồn thoát thấp, tưới máu, ECG, nguyên nhân nghi ngờ và chuẩn bị pacing.",
+    "extra": "[GUIDELINE VERIFIED: ESC Pacing 2021, PMID 34455430]"
+  },
+  {
+    "type": "basic",
+    "front": "Nguyên tắc an toàn cho nhịp QRS rộng chưa rõ?",
+    "back": "Coi là VT tiềm tàng cho tới khi được làm rõ.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp QRS rộng có mạch nhưng shock: đích hành động?",
+    "back": "Monitor và emergency synchronized electrical pathway/escalation theo protocol.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp QRS rộng đều, ổn định: thuốc AV-nodal blocker thử nghiệm có phù hợp?",
+    "back": "Không; cần coi VT tiềm tàng, monitor, chuyên gia và tìm nguyên nhân.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "VT monomorphic nghĩa là gì thực dụng?",
+    "back": "QRS rộng có hình dạng tương đối đồng nhất; vẫn phân tầng bằng mạch và ổn định.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Polymorphic VT gợi thêm bối cảnh nào?",
+    "back": "QT, điện giải, thuốc, thiếu máu cơ tim và nguy cơ xấu nhanh.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "VF/pulseless VT thuộc lesson pathway nào?",
+    "back": "IM-18/AHA cardiac-arrest algorithm, không trì hoãn bằng taxonomy trong bài này.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Có mạch trong VT có loại trừ cấp cứu không?",
+    "back": "Không; shock, đau thiếu máu cơ tim, suy tim hoặc thay đổi tri giác cần escalatation ngay.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao không dùng ECG cũ để trấn an hoàn toàn nhịp rộng mới?",
+    "back": "Bối cảnh lâm sàng và tưới máu hiện tại vẫn có thể nguy hiểm.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Mục tiêu tìm nguyên nhân trong VT là gì?",
+    "back": "Sửa ischemia, thiếu oxy, điện giải, thuốc/độc chất và bệnh cấu trúc song hành với ổn định.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Electrical storm cần được nhận diện thế nào ở mức bài này?",
+    "back": "Nhiều cơn loạn nhịp thất/điện trị liệu trong thời gian ngắn là tín hiệu cần emergency expert escalation.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Nếu VT xấu đi sang mất mạch, có tiếp tục chờ phân loại morphology không?",
+    "back": "Không; đi ngay cardiac-arrest pathway.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp rộng không đều/chưa rõ có nên coi là SVT “có aberrancy” trước không?",
+    "back": "Không; an toàn hơn là coi VT/nguy hiểm tiềm tàng và escalatation.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Vai trò monitor trong wide-complex tachycardia?",
+    "back": "Phát hiện xấu đi, đánh giá đáp ứng và chuẩn bị can thiệp điện khẩn.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Bệnh tim cấu trúc làm nhịp rộng ảnh hưởng đến nghĩ chẩn đoán thế nào?",
+    "back": "Tăng mức cảnh giác VT; không thay thế đánh giá mạch/ổn định.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Polymorphic VT kèm thuốc kéo dài QT: hành động đồng thời?",
+    "back": "Emergency escalation, rà thuốc/QT/điện giải và chuẩn bị pathway khử rung nếu mất mạch.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Stable monomorphic VT có phải ca ngoại trú thường quy không?",
+    "back": "Không; cần monitor, chuyên gia, đánh giá nguyên nhân và khả năng chuyển tuyến.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Khi thiếu chuyên gia xử trí VT, Plan B?",
+    "back": "Stabilise, monitor, gọi tuyến nhận và chuyển khẩn; không thử AV-nodal blockade.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp rộng với đau ngực đang diễn tiến: ưu tiên?",
+    "back": "Box Đỏ/cấp cứu: xử trí electrical pathway và đánh giá thiếu máu cơ tim song hành.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025; ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Năm nhóm nguyên nhân đảo ngược cần tìm trong nhịp chậm/VT?",
+    "back": "Thiếu oxy, thiếu máu cơ tim, điện giải, thuốc/độc chất và bệnh cấu trúc/bệnh kèm.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao không chờ có nguyên nhân mới ổn định bệnh nhân?",
+    "back": "Nguyên nhân cần sửa song hành; giảm tưới máu/loạn nhịp nguy hiểm không chờ chẩn đoán hoàn chỉnh.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Bốn dữ kiện bàn giao nhịp chậm nguy hiểm?",
+    "back": "ECG/P–QRS, sinh hiệu và tưới máu, thuốc/can thiệp đã dùng, nguyên nhân nghi ngờ và đáp ứng.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Đích chuyển tuyến nhịp chậm atropine không đáp ứng?",
+    "back": "Nơi có pacing, hỗ trợ vận mạch/monitor và chuyên gia.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Đích chuyển tuyến wide-complex tachycardia?",
+    "back": "Cấp cứu/tim mạch có monitor, khả năng electrical intervention và đánh giá nguyên nhân.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Thiếu thiết bị có làm giảm ngưỡng chuyển tuyến không?",
+    "back": "Không; nó làm ngưỡng chuyển tuyến thấp hơn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Không có oxygen giảm oxy có được cho oxygen thường quy không?",
+    "back": "Hỗ trợ oxy khi có chỉ định; mục tiêu là điều chỉnh thiếu oxy, không phải can thiệp máy móc.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Một electrolytes bất thường trong VT có được sửa sau khi xuất viện không?",
+    "back": "Không; đánh giá/sửa song hành với monitoring và escalatation phù hợp.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: high-grade AV block, tụt huyết áp, atropine không đáp ứng. Kết thúc nhánh?",
+    "back": "Pacing qua da và/hoặc dopamine/epinephrine theo AHA, expert help và urgent transfer; không quan sát.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Bradycardia Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Case: block hoàn toàn, nhịp thoát đều nhưng đau ngực. Sai lầm?",
+    "back": "Hẹn ngoại trú vì “vẫn có nhịp”; cần đường cấp cứu, monitor, đánh giá ischemia và sẵn sàng pacing.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: QRS rộng đều, ổn định. Hành động không được làm?",
+    "back": "Thử AV-nodal blockade để chẩn đoán; coi VT tiềm tàng, monitor và gọi chuyên gia.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: polymorphic VT rồi mất mạch. Handoff?",
+    "back": "IM-18/AHA cardiac-arrest algorithm ngay.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: nhịp chậm triệu chứng, cơ sở không pacing. Plan B?",
+    "back": "Monitor/ABC, atropine theo algorithm nếu sẵn và phù hợp, gọi tuyến nhận, chuyển khẩn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: nhịp chậm không triệu chứng nhưng Mobitz II mới. Hướng đi?",
+    "back": "Không tự cho xuất viện; monitor, rà nguyên nhân/thuốc và trao đổi/chuyển chuyên khoa theo nguy cơ.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: VT có mạch kèm phù phổi. Đích xử trí?",
+    "back": "Emergency synchronized electrical pathway/escalation; không chờ phân loại chi tiết.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: thuốc kéo dài QT và polymorphic VT. Dữ kiện cần rà?",
+    "back": "QT, thuốc, điện giải, thiếu máu cơ tim và nguy cơ mất mạch.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: atropine làm mạch nhanh hơn nhưng tri giác vẫn xấu. Có coi là đáp ứng đủ không?",
+    "back": "Không; đánh giá tưới máu, escalatation tới pacing/hỗ trợ vận mạch khi cần.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: wide-complex tachycardia không rõ, không có chuyên gia. Lỗi nguy hiểm?",
+    "back": "Dùng thuốc nút AV thử; Plan B là stabilise/monitor và chuyển khẩn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Nhịp chậm có mạch kèm lơ mơ: có được chờ chuyên gia đọc ECG không?",
+    "back": "Không; bắt đầu ABC/monitor/IV và treatment pathway, ECG song hành khi không trì hoãn.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Bradycardia Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Atropine chưa đáp ứng trong high-grade block: vì sao gọi chuyên gia sớm?",
+    "back": "Cần chuẩn bị pacing tĩnh mạch/đích điều trị chuyên khoa trong khi dùng cầu nối cấp cứu.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Bradycardia Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Khi nhịp chậm có đau thiếu máu cơ tim, chỉ tăng nhịp có đủ không?",
+    "back": "Không; xử trí/đánh giá nguyên nhân thiếu máu cơ tim song hành với ổn định.",
+    "extra": "[GUIDELINE VERIFIED: AHA Adult Bradycardia Algorithm 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Pulse check trong wide-complex tachycardia có ý nghĩa gì?",
+    "back": "Tách ngay cardiac-arrest pathway khi không mạch khỏi nhánh có mạch.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "VT có mạch nhưng thay đổi tri giác: nhánh nào?",
+    "back": "Không ổn định: emergency synchronized electrical pathway/escalation.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025]"
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao polymorphic VT cần rà QT?",
+    "back": "QT kéo dài có thể là bối cảnh nguyên nhân/thay đổi xử trí và nguy cơ tái diễn.",
+    "extra": "[GUIDELINE VERIFIED: ESC VA 2022, PMID 36017572]"
+  },
+  {
+    "type": "basic",
+    "front": "Một nhịp chậm sau khi dùng thuốc mới: câu hỏi an toàn?",
+    "back": "Thuốc có phải nguyên nhân đảo ngược hoặc làm nặng block không; rà toàn bộ thuốc và tương tác.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao cần ECG cũ ở block/VT?",
+    "back": "Giúp xác định tính mới/cũ nhưng không được làm chậm điều trị khi bệnh nhân bất ổn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Block AV hoàn toàn kèm ổn định tạm thời: nơi theo dõi?",
+    "back": "Monitor và đánh giá/chuyển tim mạch theo nguy cơ, không mặc định xuất viện.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Wide-complex tachycardia không rõ ở bệnh nhân không đau: có an toàn tuyệt đối không?",
+    "back": "Không; vẫn có thể là VT ổn định tạm thời, cần monitor và đánh giá nguyên nhân.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Plan B cho polymorphic VT khi thiếu máy khử rung?",
+    "back": "Gọi cấp cứu/tuyến nhận, stabilise và chuyển khẩn; chuẩn bị cardiac-arrest response nếu mất mạch.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tại sao không ghi năng lượng sốc cụ thể trong bài này?",
+    "back": "Chỉ dùng chi tiết khi protocol nguồn chính thức tại cơ sở được xác minh; bài ưu tiên quyết định an toàn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Case: Mobitz II không triệu chứng phát hiện mới. Lý do không bỏ qua?",
+    "back": "Có thể tiến triển; cần rà nguyên nhân, monitor và trao đổi/chuyển chuyên khoa theo nguy cơ.",
+    "extra": "[GUIDELINE VERIFIED: ESC Pacing 2021, PMID 34455430]"
+  },
+  {
+    "type": "basic",
+    "front": "Case: nhịp rộng có mạch trở nên tụt huyết áp trong lúc chờ. Thay đổi gì?",
+    "back": "Chuyển ngay từ nhánh ổn định sang emergency synchronized electrical pathway/escalation.",
+    "extra": "[GUIDELINE VERIFIED: AHA Algorithms 2025]"
+  }
+]

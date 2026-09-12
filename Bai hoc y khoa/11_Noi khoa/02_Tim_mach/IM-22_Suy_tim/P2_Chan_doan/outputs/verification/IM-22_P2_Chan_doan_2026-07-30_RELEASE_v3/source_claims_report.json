@@ -1,0 +1,97 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\IM-22_P2_Chan_doan_2026-07-30_RELEASE_v3.md",
+  "parsed_claim_count": 2,
+  "verified_claim_count": 2,
+  "status": "PASS",
+  "checks": [
+    {
+      "claim_id": "P2-C01",
+      "claim_text": "- LVEF ≥ 50%: Suy tim HFpEF {claim:P2-C01} (HF classification by LVEF measurement) [PMID: 34447992] [GUIDELINE VERIFIED]",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 280,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.80"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P2-C02",
+      "claim_text": "Chẩn đoán suy tim phân suất tống máu bảo tồn (HFpEF) đòi hỏi LVEF ≥ 50%, có triệu chứng/dấu hiệu suy tim, và bằng chứng khách quan về bất thường cấu trúc/chức năng tim mạch (như lớn nhĩ trái, phì đại thất trái, rối loạn chức năng tâm trương) thường kèm tăng peptide lợi niệu {claim:P2-C02} (HFpEF diagnosis NP echocardiography) [PMID: 34447992] [GUIDELINE VERIFIED] :",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 339,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.14"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    }
+  ],
+  "bundle_hash": "20e9751099e628e140e9c6dc2f9e04e163e1d00701e5ca777f661f6249b5ec0d"
+}

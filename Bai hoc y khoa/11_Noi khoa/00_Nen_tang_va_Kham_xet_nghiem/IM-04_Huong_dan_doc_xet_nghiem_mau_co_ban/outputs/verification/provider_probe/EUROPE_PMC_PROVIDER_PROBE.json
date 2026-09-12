@@ -1,0 +1,116 @@
+{
+  "probe": {
+    "name": "Europe PMC provider probe for IM-04 candidates",
+    "timestamp_utc": "2026-07-29T08:48:34Z",
+    "provider": "Europe PMC",
+    "endpoint_base": "https://www.ebi.ac.uk/europepmc/webservices/rest/",
+    "wrapper": "skill://literature-search-europepmc/scripts/europepmc_api.py",
+    "rate_limit": "1 request/second",
+    "result_type": "core",
+    "wrapper_constraint": "The skill wrapper automatically appends OPEN_ACCESS:y to every search query.",
+    "commands": [
+      "uv run skill://literature-search-europepmc/scripts/europepmc_api.py search \"EXT_ID:29910186 AND SRC:MED\" --max_results 10 --result_type core --output _tmp/europepmc_provider_probe/29910186.json",
+      "sleep 1",
+      "uv run skill://literature-search-europepmc/scripts/europepmc_api.py search \"EXT_ID:27235445 AND SRC:MED\" --max_results 10 --result_type core --output _tmp/europepmc_provider_probe/27235445.json"
+    ],
+    "effective_queries": [
+      "(EXT_ID:29910186 AND SRC:MED) AND OPEN_ACCESS:y",
+      "(EXT_ID:27235445 AND SRC:MED) AND OPEN_ACCESS:y"
+    ],
+    "ncbi_eutilities_called": false
+  },
+  "results": [
+    {
+      "requested_pmid": "29910186",
+      "hitCount": 1,
+      "fields": {
+        "title": "Structural Basis of Phosphatidic Acid Sensing by APH in Apicomplexan Parasites.",
+        "journal": "Structure (London, England : 1993)",
+        "year": "2018",
+        "abstractText": "Plasmodium falciparum and Toxoplasma gondii are obligate intracellular parasites that belong to the phylum of Apicomplexa and cause major human diseases. Their access to an intracellular lifestyle is reliant on the coordinated release of proteins from the specialized apical organelles called micronemes and rhoptries. A specific phosphatidic acid effector, the acylated pleckstrin homology domain-containing protein (APH) plays a central role in microneme exocytosis and thus is essential for motility, cell entry, and egress. TgAPH is acylated on the surface of the micronemes and recruited to phosphatidic acid (PA)-enriched membranes. Here, we dissect the atomic details of APH PA-sensing hub and its functional interaction with phospholipid membranes. We unravel the key determinant of PA recognition for the first time and show that APH inserts into and clusters multiple phosphate head-groups at the bilayer binding surface.",
+        "pmid": "29910186",
+        "pmcid": "PMC6084407",
+        "DOI": "10.1016/j.str.2018.05.001",
+        "authorString": "Darvill N, Dubois DJ, Rouse SL, Hammoudi PM, Blake T, Benjamin S, Liu B, Soldati-Favre D, Matthews S.",
+        "publicationTypes": {
+          "response_field": "pubTypeList.pubType",
+          "exact_requested_key_present": false,
+          "values": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "isOpenAccess": "Y",
+        "retractedIn": {
+          "present": false,
+          "value": null
+        },
+        "retractedBy": {
+          "present": false,
+          "value": null
+        },
+        "expressionOfConcern": {
+          "present": false,
+          "value": null
+        }
+      },
+      "paper_url": "https://europepmc.org/article/MED/29910186"
+    },
+    {
+      "requested_pmid": "27235445",
+      "hitCount": 0,
+      "fields": {
+        "title": null,
+        "journal": null,
+        "year": null,
+        "abstractText": null,
+        "pmid": null,
+        "pmcid": null,
+        "DOI": null,
+        "authorString": null,
+        "publicationTypes": null,
+        "isOpenAccess": null,
+        "retractedIn": null,
+        "retractedBy": null,
+        "expressionOfConcern": null
+      },
+      "interpretation": "No record matched the effective open-access-filtered query. This does not establish that PMID 27235445 does not exist.",
+      "paper_url": "https://europepmc.org/article/MED/27235445"
+    }
+  ],
+  "field_coverage": {
+    "title": "1/2",
+    "journal": "1/2",
+    "year": "1/2",
+    "abstractText": "1/2",
+    "pmid": "1/2",
+    "pmcid": "1/2",
+    "DOI": "1/2",
+    "authorString": "1/2",
+    "publicationTypes_semantic_data": "1/2 via pubTypeList.pubType; exact publicationTypes key 0/2",
+    "isOpenAccess": "1/2",
+    "retractedIn": "0/2 present",
+    "retractedBy": "0/2 present",
+    "expressionOfConcern": "0/2 present"
+  },
+  "provider_assessment": {
+    "pmid_existence": "Not sufficient as a general PMID-existence provider through this mandated wrapper. A hit proves existence for PMID 29910186, but the mandatory OPEN_ACCESS:y filter makes a zero-hit result for PMID 27235445 ambiguous between non-open-access and absent.",
+    "abstract_matching": "Conditionally sufficient: PMID 29910186 returned abstractText suitable for matching. It is not sufficient for PMID 27235445 because the filtered query returned no record and no abstract.",
+    "publication_types": "Partially covered. The hit returned values under pubTypeList.pubType, not an exact publicationTypes key; the values mix labels such as research-article with Journal Article and Research Support, so consumers would need an explicit mapping and must not assume NCBI-equivalent completeness.",
+    "retraction_and_expression_of_concern": "Insufficient from this probe. No retractedIn, retractedBy, or expression-of-concern field was present in the returned hit. Field absence is not evidence that the paper has no retraction or expression of concern.",
+    "missing_relative_to_an_unfiltered_ncbi_pubmed_lookup": [
+      "An unfiltered existence answer for PMID 27235445",
+      "All metadata and abstract data for PMID 27235445",
+      "An exact publicationTypes field; only pubTypeList.pubType was observed for the hit",
+      "Explicit retraction and expression-of-concern relationship/status data for the hit"
+    ],
+    "long_term_conclusion": "With the required open-access-only wrapper, Europe PMC can support PMID-plus-abstract matching when it returns a core record, but it cannot replace an unfiltered PMID-existence check and this probe does not establish adequate retraction/expression-of-concern coverage. Do not use zero hits as nonexistence and do not use absent retraction fields as a clean-status assertion."
+  },
+  "verification_label_assigned": false,
+  "verifier_modified": false,
+  "evidence_files": [
+    "EUROPE_PMC_RAW_29910186.json",
+    "EUROPE_PMC_RAW_27235445.json"
+  ]
+}

@@ -1,0 +1,807 @@
+[
+  {
+    "id": "IM43B-001",
+    "type": "basic",
+    "front": "Nephron là gì?",
+    "back": "Đơn vị cấu tạo và chức năng cơ bản của thận.",
+    "extra": "Gồm Cầu thận và hệ thống ống thận (Ống lượn gần, Quai Henle, Ống lượn xa, Ống góp)."
+  },
+  {
+    "id": "IM43B-002",
+    "type": "basic",
+    "front": "Quá trình lọc (Filtration) tại thận xảy ra ở đâu?",
+    "back": "Màng lọc cầu thận.",
+    "extra": "Nước và chất tan nhỏ lọt qua, hồng cầu và protein lớn bị giữ lại."
+  },
+  {
+    "id": "IM43B-003",
+    "type": "basic",
+    "front": "Tái hấp thu (Reabsorption) tại ống thận là gì?",
+    "back": "Quá trình tế bào ống thận 'vớt' lại các chất có ích (Na+, nước, glucose) từ dịch lọc đưa ngược vào máu.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-004",
+    "type": "basic",
+    "front": "Bài tiết (Secretion) tại ống thận là gì?",
+    "back": "Quá trình tế bào ống thận 'bơm' thêm các chất cặn bã hoặc dư thừa (K+, H+) từ máu vào dịch lọc để thải ra ngoài.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-005",
+    "type": "basic",
+    "front": "Cơ chế chung của hầu hết các thuốc lợi tiểu là gì?",
+    "back": "Ức chế quá trình tái hấp thu Natri tại ống thận.",
+    "extra": "Khi Natri bị giữ lại trong ống thận, nó sẽ kéo theo nước (thẩm thấu) làm tăng lượng nước tiểu thải ra."
+  },
+  {
+    "id": "IM43B-006",
+    "type": "basic",
+    "front": "Dòng chảy của dịch lọc đi qua 5 trạm nào của Nephron?",
+    "back": "1. Cầu thận<br>2. Ống lượn gần (PCT)<br>3. Quai Henle (TAL)<br>4. Ống lượn xa (DCT)<br>5. Ống góp (CD)",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-007",
+    "type": "basic",
+    "front": "Ống lượn gần (PCT) tái hấp thu bao nhiêu phần trăm lượng Na+ và nước?",
+    "back": "Khoảng 65%.",
+    "extra": "Đây là trạm làm việc vất vả nhất của Nephron."
+  },
+  {
+    "id": "IM43B-008",
+    "type": "basic",
+    "front": "Ống lượn gần (PCT) tái hấp thu bao nhiêu phần trăm glucose và acid amin?",
+    "back": "100%.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-009",
+    "type": "basic",
+    "front": "Enzyme chính giúp tái hấp thu HCO3- và bơm H+ ra ngoài lòng ống tại ống lượn gần là gì?",
+    "back": "Carbonic Anhydrase (CA).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-010",
+    "type": "basic",
+    "front": "Nhóm thuốc lợi tiểu nào tác động tại ống lượn gần (PCT)?",
+    "back": "Nhóm ức chế Carbonic Anhydrase (CA).",
+    "extra": "Ví dụ: Acetazolamide."
+  },
+  {
+    "id": "IM43B-011",
+    "type": "basic",
+    "front": "Cơ chế tác dụng của Acetazolamide là gì?",
+    "back": "Ức chế enzyme Carbonic Anhydrase (CA), ngăn chặn tái hấp thu HCO3- và Na+ tại ống lượn gần.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-012",
+    "type": "basic",
+    "front": "Hậu quả của Acetazolamide lên pH nước tiểu là gì?",
+    "back": "Làm nước tiểu bị kiềm hóa.",
+    "extra": "Do HCO3- bị thải ra nước tiểu ồ ạt."
+  },
+  {
+    "id": "IM43B-013",
+    "type": "basic",
+    "front": "Hậu quả của Acetazolamide lên thăng bằng kiềm toan của máu là gì?",
+    "back": "Gây toan chuyển hóa (Metabolic acidosis).",
+    "extra": "Do máu mất HCO3-."
+  },
+  {
+    "id": "IM43B-014",
+    "type": "basic",
+    "front": "Vì sao Acetazolamide rất yếu nếu dùng để lợi tiểu giảm phù?",
+    "back": "Vì lượng Na+ không được tái hấp thu ở ống lượn gần sẽ bị các đoạn sau của Nephron vớt lại.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-015",
+    "type": "basic",
+    "front": "Chỉ định lâm sàng chính của Acetazolamide là gì?",
+    "back": "1. Điều trị Glaucoma (giảm áp lực nhãn áp)<br>2. Điều trị say độ cao<br>3. Kiềm hóa nước tiểu để thải độc thuốc.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-016",
+    "type": "basic",
+    "front": "Tại sao Acetazolamide được dùng để điều trị say độ cao?",
+    "back": "Vì thuốc gây toan máu, từ đó kích thích trung tâm hô hấp hoạt động mạnh hơn.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-017",
+    "type": "basic",
+    "front": "Nhánh lên dày quai Henle (TAL) tái hấp thu bao nhiêu phần trăm lượng Na+?",
+    "back": "Khoảng 25%.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-018",
+    "type": "basic",
+    "front": "Đặc điểm 'kỳ lạ' về tính thấm nước của nhánh lên dày quai Henle (TAL) là gì?",
+    "back": "Hoàn toàn không thấm nước.",
+    "extra": "Nó chỉ bơm muối ra ngoài tủy thận, làm tủy thận trở nên cực kỳ mặn (ưu trương) để hút nước ở các đoạn khác."
+  },
+  {
+    "id": "IM43B-019",
+    "type": "basic",
+    "front": "Bơm ion chính hoạt động tại nhánh lên dày quai Henle (TAL) là gì?",
+    "back": "Bơm đồng vận chuyển NKCC2 (Na-K-2Cl Cotransporter).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-020",
+    "type": "basic",
+    "front": "Bơm NKCC2 vận chuyển các ion nào vào trong tế bào?",
+    "back": "1 Na+, 1 K+ và 2 Cl-.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-021",
+    "type": "basic",
+    "front": "Quá trình bơm ion của NKCC2 tạo ra điện thế gì trong lòng ống?",
+    "back": "Điện thế dương.",
+    "extra": "Điện thế dương này đẩy các ion dương khác như Ca2+ và Mg2+ lọt qua khe giữa các tế bào để vào máu."
+  },
+  {
+    "id": "IM43B-022",
+    "type": "basic",
+    "front": "Nhóm thuốc lợi tiểu nào tác động tại nhánh lên dày quai Henle (TAL)?",
+    "back": "Lợi tiểu quai (Loop Diuretics).",
+    "extra": "Ví dụ: Furosemide, Torsemide."
+  },
+  {
+    "id": "IM43B-023",
+    "type": "basic",
+    "front": "Cơ chế tác dụng của Furosemide là gì?",
+    "back": "Khóa chặt bơm NKCC2 tại nhánh lên dày quai Henle.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-024",
+    "type": "basic",
+    "front": "Tác dụng lợi tiểu của Furosemide mạnh hay yếu?",
+    "back": "Cực mạnh (Xả đập ồ ạt).",
+    "extra": "Do mất Na+ và nước ồ ạt."
+  },
+  {
+    "id": "IM43B-025",
+    "type": "basic",
+    "front": "Hậu quả của lợi tiểu quai lên nồng độ Kali máu là gì?",
+    "back": "Gây hạ Kali máu (Hypokalemia).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-026",
+    "type": "basic",
+    "front": "Hậu quả của lợi tiểu quai lên nồng độ Canxi và Magie máu là gì?",
+    "back": "Gây hạ Canxi máu và hạ Magie máu.",
+    "extra": "Do mất điện thế dương trong lòng ống, không đẩy được Ca2+ và Mg2+ vào máu."
+  },
+  {
+    "id": "IM43B-027",
+    "type": "basic",
+    "front": "Lợi tiểu quai có hiệu quả ở bệnh nhân suy thận (CKD) có GFR < 30 không?",
+    "back": "Có.",
+    "extra": "Đây là một trong những chỉ định lâm sàng quan trọng của lợi tiểu quai."
+  },
+  {
+    "id": "IM43B-028",
+    "type": "basic",
+    "front": "Thời gian tác dụng của Furosemide kéo dài bao lâu?",
+    "back": "Khoảng 6 tiếng.",
+    "extra": "Nên cần chia liều 2 lần/ngày để tránh hiện tượng tái hấp thu bù trừ."
+  },
+  {
+    "id": "IM43B-029",
+    "type": "basic",
+    "front": "Tại sao không nên kê lợi tiểu quai vào buổi tối (sau 4h chiều)?",
+    "back": "Vì bệnh nhân sẽ phải thức dậy đi tiểu liên tục, gây mất ngủ.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-030",
+    "type": "basic",
+    "front": "Tương tác giữa NSAIDs và lợi tiểu quai là gì?",
+    "back": "NSAIDs làm mất tác dụng của lợi tiểu quai.",
+    "extra": "Do NSAIDs ức chế tổng hợp Prostaglandin ở thận, làm co tiểu động mạch đến, giảm lượng máu tới thận."
+  },
+  {
+    "id": "IM43B-031",
+    "type": "basic",
+    "front": "Ống lượn xa (DCT) tái hấp thu bao nhiêu phần trăm lượng Na+?",
+    "back": "Khoảng 5%.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-032",
+    "type": "basic",
+    "front": "Bơm ion chính hoạt động tại ống lượn xa (DCT) là gì?",
+    "back": "Bơm đồng vận chuyển NCC (Na-Cl Cotransporter).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-033",
+    "type": "basic",
+    "front": "Nhóm thuốc lợi tiểu nào tác động tại ống lượn xa (DCT)?",
+    "back": "Nhóm Thiazide.",
+    "extra": "Ví dụ: Hydrochlorothiazide, Indapamide."
+  },
+  {
+    "id": "IM43B-034",
+    "type": "basic",
+    "front": "Cơ chế tác dụng của Thiazide là gì?",
+    "back": "Khóa chặt bơm NCC tại ống lượn xa.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-035",
+    "type": "basic",
+    "front": "Hậu quả của Thiazide lên nồng độ Kali máu là gì?",
+    "back": "Gây hạ Kali máu.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-036",
+    "type": "basic",
+    "front": "Điểm khác biệt quan trọng nhất về tác dụng phụ điện giải giữa Thiazide và lợi tiểu quai là gì?",
+    "back": "Thiazide làm TĂNG tái hấp thu Ca2+ vào máu (gây tăng Canxi máu), trong khi lợi tiểu quai làm HẠ Canxi máu.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-037",
+    "type": "basic",
+    "front": "Chỉ định lâm sàng đầu tay của Thiazide là gì?",
+    "back": "Điều trị tăng huyết áp vô căn.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-038",
+    "type": "basic",
+    "front": "Tại sao Thiazide có lợi cho bệnh nhân loãng xương đi kèm tăng huyết áp?",
+    "back": "Vì thuốc giúp giữ Canxi lại trong máu.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-039",
+    "type": "basic",
+    "front": "Thiazide có hiệu quả khi eGFR < 30 mL/phút không?",
+    "back": "Thường là KHÔNG (mất tác dụng hoàn toàn).",
+    "extra": "Ngoại trừ Metolazone vẫn có tác dụng khi GFR < 30."
+  },
+  {
+    "id": "IM43B-040",
+    "type": "basic",
+    "front": "Kể tên một thuốc Thiazide-like có tác dụng kéo dài và ít ảnh hưởng chuyển hóa đường/lipid?",
+    "back": "Indapamide.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-041",
+    "type": "basic",
+    "front": "Thuốc Thiazide nào có dạng tiêm tĩnh mạch duy nhất, dùng trong cấp cứu?",
+    "back": "Chlorothiazide.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-042",
+    "type": "basic",
+    "front": "Thuốc Thiazide-like nào vẫn có tác dụng lợi tiểu ngay cả khi GFR < 30 mL/phút?",
+    "back": "Metolazone.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-043",
+    "type": "basic",
+    "front": "Ống góp (CD) tái hấp thu bao nhiêu phần trăm lượng Na+?",
+    "back": "Tinh chỉnh 1-2% cuối cùng.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-044",
+    "type": "basic",
+    "front": "Hai hormone ('2 Sếp') nào quản lý hoạt động của ống góp?",
+    "back": "1. Aldosterone<br>2. ADH (Vasopressin)",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-045",
+    "type": "basic",
+    "front": "Aldosterone kích hoạt bơm nào tại ống góp?",
+    "back": "Bơm ENaC (Epithelial Sodium Channel).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-046",
+    "type": "basic",
+    "front": "Quy tắc hoạt động của bơm ENaC dưới tác dụng của Aldosterone là gì?",
+    "back": "Hút 1 Na+ vào máu thì phải vứt 1 K+ hoặc 1 H+ ra nước tiểu.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-047",
+    "type": "basic",
+    "front": "ADH (Vasopressin) có tác dụng gì tại ống góp?",
+    "back": "Mở kênh Aquaporin để hút nước lã (nước tự do) về máu.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-048",
+    "type": "basic",
+    "front": "Nhóm thuốc lợi tiểu nào tác động tại ống góp?",
+    "back": "Nhóm lợi tiểu tiết kiệm Kali (Potassium-Sparing Diuretics).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-049",
+    "type": "basic",
+    "front": "Hai phân nhóm của lợi tiểu tiết kiệm Kali là gì?",
+    "back": "1. Đối kháng Aldosterone (Spironolactone, Eplerenone)<br>2. Chẹn trực tiếp kênh ENaC (Amiloride, Triamterene)",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-050",
+    "type": "basic",
+    "front": "Cơ chế của Spironolactone là gì?",
+    "back": "Đối kháng thụ thể Aldosterone tại ống góp.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-051",
+    "type": "basic",
+    "front": "Cơ chế của Amiloride là gì?",
+    "back": "Chẹn trực tiếp kênh ENaC tại ống góp.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-052",
+    "type": "basic",
+    "front": "Hậu quả của lợi tiểu tiết kiệm Kali lên nồng độ Kali máu là gì?",
+    "back": "Gây TĂNG Kali máu (Hyperkalemia).",
+    "extra": "Do không hút được Na+ vào nên không vứt K+ ra được."
+  },
+  {
+    "id": "IM43B-053",
+    "type": "basic",
+    "front": "Hậu quả của lợi tiểu tiết kiệm Kali lên thăng bằng kiềm toan là gì?",
+    "back": "Gây toan máu.",
+    "extra": "Do giảm bài tiết H+."
+  },
+  {
+    "id": "IM43B-054",
+    "type": "basic",
+    "front": "Chỉ định lâm sàng quan trọng của Spironolactone trong suy tim là gì?",
+    "back": "Suy tim mạn tính.",
+    "extra": "Giúp giảm xơ hóa cơ tim, giảm tỷ lệ tử vong."
+  },
+  {
+    "id": "IM43B-055",
+    "type": "basic",
+    "front": "Tại sao Spironolactone được dùng nhiều trong xơ gan cổ trướng?",
+    "back": "Vì bệnh nhân xơ gan bị cường Aldosterone thứ phát rất mạnh.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-056",
+    "type": "basic",
+    "front": "Tác dụng phụ đặc trưng của Spironolactone ở nam giới là gì?",
+    "back": "Nữ hóa tuyến vú (Gynecomastia).",
+    "extra": "Do thuốc có cấu trúc giống hormone sinh dục."
+  },
+  {
+    "id": "IM43B-057",
+    "type": "basic",
+    "front": "Nếu bệnh nhân nam bị nữ hóa tuyến vú do Spironolactone, có thể đổi sang thuốc nào?",
+    "back": "Eplerenone.",
+    "extra": "Ít gây nữ hóa tuyến vú hơn."
+  },
+  {
+    "id": "IM43B-058",
+    "type": "basic",
+    "front": "Nguy cơ tử vong đột ngột khi phối hợp Spironolactone với ACEi/ARB là gì?",
+    "back": "Tăng Kali máu đột ngột gây rối loạn nhịp tim tử vong.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-059",
+    "type": "basic",
+    "front": "Cần làm gì khi phối hợp Spironolactone với ACEi/ARB?",
+    "back": "Theo dõi sát Kali máu sau 1 tuần phối hợp. Giảm liều nếu K+ > 5.0 mmol/L.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-060",
+    "type": "basic",
+    "front": "Hiện tượng kháng lợi tiểu quai (Diuretic Resistance) xảy ra do đâu?",
+    "back": "Do tế bào ống lượn xa (DCT) phì đại và tăng sinh số lượng bơm NCC để vớt lại lượng Na+ khổng lồ bị xổng từ quai Henle.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-061",
+    "type": "basic",
+    "front": "Chiến lược Khóa Nephron nối tiếp (Sequential Nephron Blockade - SNB) là gì?",
+    "back": "Kết hợp Lợi tiểu quai (đánh Trạm 3) + Thiazide (đánh Trạm 4) để phá vỡ sự kháng thuốc.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-062",
+    "type": "basic",
+    "front": "Các thuốc Thiazide thường dùng trong chiến lược SNB là gì?",
+    "back": "Metolazone hoặc Chlorothiazide tĩnh mạch.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-063",
+    "type": "basic",
+    "front": "Khi dùng chiến lược SNB, nên cho bệnh nhân uống thuốc theo thứ tự nào?",
+    "back": "Uống Thiazide trước 30 phút để khóa sẵn ống lượn xa, sau đó mới tiêm Furosemide.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-064",
+    "type": "basic",
+    "front": "Nguy cơ nguy hiểm nhất của chiến lược Khóa Nephron nối tiếp (SNB) là gì?",
+    "back": "Sốc giảm thể tích và Hạ Kali máu trầm trọng gây ngừng tim.",
+    "extra": "Do tác dụng hiệp đồng cực mạnh, bệnh nhân có thể tiểu 5-10 lít/ngày."
+  },
+  {
+    "id": "IM43B-065",
+    "type": "basic",
+    "front": "Bắt buộc phải làm gì khi áp dụng chiến lược SNB?",
+    "back": "Theo dõi sát điện giải đồ mỗi 12-24 giờ.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-066",
+    "type": "basic",
+    "front": "Chuyển sang truyền tĩnh mạch liên tục (Continuous Infusion) lợi tiểu quai có lợi ích gì so với tiêm bolus?",
+    "back": "Duy trì nồng độ thuốc ổn định tại quai Henle, tránh hiện tượng vớt lại Na+ (Post-diuretic sodium retention).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-067",
+    "type": "basic",
+    "front": "Thêm thuốc SGLT2i giúp khắc phục kháng lợi tiểu qua cơ chế nào?",
+    "back": "Ức chế tái hấp thu Glucose và Na+ tại ống lượn gần (PCT), tạo lợi tiểu thẩm thấu.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-068",
+    "type": "basic",
+    "front": "Sai lầm: Dùng Thiazide cho bệnh nhân suy thận nặng (eGFR < 30) dẫn đến hậu quả gì?",
+    "back": "Thiazide mất tác dụng hoàn toàn, không giảm được huyết áp/phù.",
+    "extra": "Cách phòng tránh: Chuyển sang dùng lợi tiểu quai."
+  },
+  {
+    "id": "IM43B-069",
+    "type": "basic",
+    "front": "Tại sao phải dặn bệnh nhân tạm ngưng lợi tiểu quai khi bị tiêu chảy cấp?",
+    "back": "Để tránh mất nước kép (qua phân + qua nước tiểu) dẫn đến sốc giảm thể tích và suy thận cấp trước thận.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-070",
+    "type": "basic",
+    "front": "Creatinine máu tăng nhanh ở bệnh nhân dùng lợi tiểu là dấu hiệu báo động (Red Flag) của tình trạng gì?",
+    "back": "Suy thận cấp trước thận do vắt kiệt thể tích lòng mạch.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-071",
+    "type": "basic",
+    "front": "Chuột rút, yếu cơ, vã mồ hôi ở bệnh nhân dùng lợi tiểu là dấu hiệu báo động (Red Flag) của tình trạng gì?",
+    "back": "Hạ Kali máu nặng (< 3.0 mmol/L).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-072",
+    "type": "basic",
+    "front": "Lú lẫn, ngủ gà ở bệnh nhân dùng lợi tiểu là dấu hiệu báo động (Red Flag) của tình trạng gì?",
+    "back": "Hạ Natri máu nặng hoặc Bệnh não gan (ở bệnh nhân xơ gan).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-073",
+    "type": "basic",
+    "front": "Vô niệu (Anuria) dù đã tiêm Furosemide liều cao là dấu hiệu báo động (Red Flag) của tình trạng gì?",
+    "back": "Tắc nghẽn đường tiểu hoặc hoại tử ống thận cấp.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-074",
+    "type": "basic",
+    "front": "Hạ Kali máu do lợi tiểu quai/Thiazide làm tăng độc tính của loại thuốc trợ tim nào?",
+    "back": "Digoxin (dễ gây rối loạn nhịp tử vong).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-075",
+    "type": "basic",
+    "front": "Dấu hiệu nào trên cân nặng mỗi sáng cho thấy bệnh nhân suy tim đang dùng lợi tiểu quá liều?",
+    "back": "Giảm > 1kg/ngày.",
+    "extra": "Nguy cơ suy thận cấp."
+  },
+  {
+    "id": "IM43B-076",
+    "type": "basic",
+    "front": "Lợi tiểu thẩm thấu (như Mannitol) hoạt động theo cơ chế nào?",
+    "back": "Không tác động vào receptor nào, chỉ hút nước vào lòng ống bằng áp lực thẩm thấu.",
+    "extra": "Thường dùng để chống phù não."
+  },
+  {
+    "id": "IM43B-077",
+    "type": "basic",
+    "front": "Tác dụng của ức chế CA (Acetazolamide) lên Na+, K+, Ca2+ và Acid-Base?",
+    "back": "Na+: Giảm<br>K+: Giảm<br>Ca2+: Không đổi<br>Acid-Base: Toan máu",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-078",
+    "type": "basic",
+    "front": "Tác dụng của lợi tiểu quai (Furosemide) lên Na+, K+, Ca2+ và Acid-Base?",
+    "back": "Na+: Giảm mạnh<br>K+: Giảm mạnh<br>Ca2+: Giảm<br>Acid-Base: Kiềm máu",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-079",
+    "type": "basic",
+    "front": "Tác dụng của Thiazide lên Na+, K+, Ca2+ và Acid-Base?",
+    "back": "Na+: Giảm<br>K+: Giảm<br>Ca2+: TĂNG<br>Acid-Base: Kiềm máu",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-080",
+    "type": "basic",
+    "front": "Tác dụng của lợi tiểu tiết kiệm Kali lên Na+, K+, Ca2+ và Acid-Base?",
+    "back": "Na+: Giảm nhẹ<br>K+: TĂNG<br>Ca2+: Không đổi<br>Acid-Base: Toan máu",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-081",
+    "type": "basic",
+    "front": "Bệnh nhân nữ 60 tuổi bị loãng xương và tăng huyết áp. Nhóm lợi tiểu nào là lựa chọn ưu tiên?",
+    "back": "Thiazide.",
+    "extra": "Vì nó giúp giữ Canxi lại trong máu, có lợi cho loãng xương."
+  },
+  {
+    "id": "IM43B-082",
+    "type": "basic",
+    "front": "Bệnh nhân suy tim đang dùng Furosemide, xét nghiệm thấy Kali máu 2.8 mmol/L. Nên thêm nhóm lợi tiểu nào?",
+    "back": "Lợi tiểu tiết kiệm Kali (như Spironolactone).",
+    "extra": "Vừa giúp giữ Kali, vừa giảm xơ hóa cơ tim."
+  },
+  {
+    "id": "IM43B-083",
+    "type": "basic",
+    "front": "Liều thông thường của Furosemide là bao nhiêu?",
+    "back": "20 - 40 mg/ngày.",
+    "extra": "Chia 2 lần/ngày, đường uống hoặc tiêm tĩnh mạch."
+  },
+  {
+    "id": "IM43B-084",
+    "type": "basic",
+    "front": "Liều thông thường của Hydrochlorothiazide là bao nhiêu?",
+    "back": "12.5 - 25 mg/ngày.",
+    "extra": "Dùng buổi sáng."
+  },
+  {
+    "id": "IM43B-085",
+    "type": "basic",
+    "front": "Liều thông thường của Spironolactone là bao nhiêu?",
+    "back": "25 - 50 mg/ngày.",
+    "extra": "Đường uống."
+  },
+  {
+    "id": "IM43B-086",
+    "type": "basic",
+    "front": "Liều thông thường của Acetazolamide là bao nhiêu?",
+    "back": "250 - 500 mg/ngày.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-087",
+    "type": "basic",
+    "front": "Tỷ lệ phối hợp Spironolactone và Furosemide được khuyến cáo cho xơ gan cổ trướng là bao nhiêu?",
+    "back": "Tỷ lệ 100:40.",
+    "extra": "Theo Guideline AASLD 2021."
+  },
+  {
+    "id": "IM43B-088",
+    "type": "basic",
+    "front": "Guideline ESC 2021 khuyến cáo thuốc lợi tiểu nào cho mọi bệnh nhân suy tim HFrEF có triệu chứng?",
+    "back": "Spironolactone (hoặc thuốc kháng Aldosterone khác).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-089",
+    "type": "basic",
+    "front": "Thuốc lợi tiểu nào là lựa chọn đầu tay cho tăng huyết áp theo Guideline AHA/ACC 2022?",
+    "back": "Thiazide.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-090",
+    "type": "basic",
+    "front": "Lợi tiểu quai đường tĩnh mạch (IV Furosemide) được sử dụng đơn độc trong khoảng bao nhiêu phần trăm các trường hợp suy tim cấp mất bù?",
+    "back": "Khoảng 78%.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-091",
+    "type": "basic",
+    "front": "Tần suất kháng lợi tiểu quai ở bệnh nhân suy tim mạn tính là khoảng bao nhiêu?",
+    "back": "20-30%.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-092",
+    "type": "basic",
+    "front": "Tỉ lệ mắc lỗi kê đơn lợi tiểu (quá liều/sai nhóm) chiếm khoảng bao nhiêu phần trăm các ca chấn thương thận cấp trước thận?",
+    "back": "Khoảng 15%.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-093",
+    "type": "basic",
+    "front": "Thuốc lợi tiểu thẩm thấu (Osmotic diuretics) có thuộc 5 nhóm thuốc lợi tiểu chính tác động lên các trạm của Nephron không?",
+    "back": "Có, thuộc 5 nhóm chính (cùng với ức chế CA, quai, thiazide, tiết kiệm Kali).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-094",
+    "type": "basic",
+    "front": "Bơm đồng vận chuyển NKCC2 đưa bao nhiêu ion Cl- vào trong tế bào?",
+    "back": "2 ion Cl- (cùng với 1 Na+ và 1 K+).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-095",
+    "type": "basic",
+    "front": "Tác dụng phụ lên thính giác của lợi tiểu quai (Furosemide) khi dùng liều cao là gì?",
+    "back": "Độc tai (Ototoxicity).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-096",
+    "type": "basic",
+    "front": "Tại sao bệnh nhân dùng lợi tiểu quai có thể bị kiềm máu?",
+    "back": "Do mất H+ và K+ qua nước tiểu, cộng với sự co rút thể tích (contraction alkalosis).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-097",
+    "type": "basic",
+    "front": "Tại sao bệnh nhân dùng Thiazide có thể bị kiềm máu?",
+    "back": "Tương tự lợi tiểu quai, do mất K+ và H+ cùng với co rút thể tích.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-098",
+    "type": "basic",
+    "front": "Thuốc lợi tiểu nào có thể gây sỏi thận do chẹn trực tiếp kênh ENaC?",
+    "back": "Triamterene.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-099",
+    "type": "basic",
+    "front": "Thuốc lợi tiểu nào được chỉ định cho suy tim sau nhồi máu cơ tim và ít gây nữ hóa tuyến vú?",
+    "back": "Eplerenone.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-100",
+    "type": "basic",
+    "front": "Khi dùng lợi tiểu quai, hiện tượng 'Post-diuretic sodium retention' là gì?",
+    "back": "Sự tái hấp thu bù trừ Na+ của thận khi nồng độ thuốc lợi tiểu trong máu giảm xuống.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-101",
+    "type": "basic",
+    "front": "Tại sao phải chia liều Furosemide 2 lần/ngày?",
+    "back": "Để tránh hiện tượng 'Post-diuretic sodium retention' do thời gian tác dụng của thuốc ngắn (6 tiếng).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-102",
+    "type": "basic",
+    "front": "Sự kết hợp lợi tiểu quai và Thiazide (SNB) có thể dẫn đến biến chứng đe dọa tính mạng nào nếu không theo dõi sát?",
+    "back": "Sốc giảm thể tích và Hạ Kali máu trầm trọng gây ngừng tim.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-103",
+    "type": "basic",
+    "front": "Thuốc lợi tiểu nào có thể gây nhiễm toan Ceton (DKA) khi dùng thêm để khắc phục kháng lợi tiểu?",
+    "back": "SGLT2i.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-104",
+    "type": "basic",
+    "front": "SGLT2i gây tác dụng phụ gì trên hệ tiết niệu sinh dục?",
+    "back": "Nhiễm trùng tiết niệu sinh dục.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-105",
+    "type": "basic",
+    "front": "Tăng liều Furosemide để khắc phục kháng lợi tiểu có nguy cơ gì?",
+    "back": "Suy thận cấp trước thận và Độc tai (Ototoxicity).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-106",
+    "type": "basic",
+    "front": "Bệnh nhân xơ gan dùng lợi tiểu quá liều dẫn đến hạ Natri máu nặng có thể biểu hiện biến chứng gì?",
+    "back": "Bệnh não gan (lú lẫn, ngủ gà).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-107",
+    "type": "basic",
+    "front": "Thuốc lợi tiểu nào làm giảm xơ hóa cơ tim?",
+    "back": "Spironolactone (và các thuốc kháng Aldosterone).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-108",
+    "type": "basic",
+    "front": "Bơm NCC ở ống lượn xa vận chuyển các ion nào?",
+    "back": "Na+ và Cl-.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-109",
+    "type": "basic",
+    "front": "Phần lớn lượng nước và muối được lọc qua cầu thận sẽ được tái hấp thu ở đoạn nào của Nephron?",
+    "back": "Ống lượn gần (PCT) - chiếm 65%.",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-110",
+    "type": "basic",
+    "front": "Đoạn nào của Nephron đóng vai trò tinh chỉnh 1-2% lượng Na+ cuối cùng?",
+    "back": "Ống góp (Collecting Duct).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-111",
+    "type": "basic",
+    "front": "Thuốc lợi tiểu nào tác động lên kênh Aquaporin?",
+    "back": "Không có thuốc lợi tiểu thông thường nào trong 5 nhóm trên tác động trực tiếp lên Aquaporin (ADH/Vasopressin quản lý kênh này).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-112",
+    "type": "basic",
+    "front": "Lợi tiểu quai ức chế tái hấp thu Na+ ở đoạn nào của Nephron?",
+    "back": "Nhánh lên dày quai Henle (TAL).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-113",
+    "type": "basic",
+    "front": "Thiazide ức chế tái hấp thu Na+ ở đoạn nào của Nephron?",
+    "back": "Ống lượn xa (DCT).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-114",
+    "type": "basic",
+    "front": "Acetazolamide ức chế tái hấp thu Na+ ở đoạn nào của Nephron?",
+    "back": "Ống lượn gần (PCT).",
+    "extra": ""
+  },
+  {
+    "id": "IM43B-115",
+    "type": "basic",
+    "front": "Spironolactone ức chế tái hấp thu Na+ ở đoạn nào của Nephron?",
+    "back": "Ống góp (CD).",
+    "extra": ""
+  }
+]

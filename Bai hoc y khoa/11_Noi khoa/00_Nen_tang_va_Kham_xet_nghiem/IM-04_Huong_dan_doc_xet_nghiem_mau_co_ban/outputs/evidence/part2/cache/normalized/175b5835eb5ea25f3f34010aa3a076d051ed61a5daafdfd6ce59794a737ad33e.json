@@ -1,0 +1,1036 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-07-29T10:23:22.195062Z",
+  "providers": [
+    "europe_pmc_metadata",
+    "europe_pmc_oa_full_text",
+    "crossref_retraction_watch",
+    "openalex",
+    "official_source"
+  ],
+  "records": {
+    "pmid:38530913": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "38530913",
+        "pmcid": null,
+        "doi": null,
+        "openalex": null
+      },
+      "title": "Guideline on haemoglobin cutoffs to define anaemia in individuals and populations",
+      "abstract": "Appropriate guidelines for measuring haemoglobin and defining anaemia are crucial for both clinical and public health medicine but require consideration of a range of complexities across different populations. The objective of this guideline is to provide updated, clear, evidence-informed normative statements on the use of haemoglobin concentrations to assess anaemia and on the best approaches in its measurement in individuals and populations. The purpose of the guideline is to improve the diagnosis of anaemia, grounded in gender, equity and human rights approaches, with the aim of leaving no one behind, thereby informing the development of nutrition and health policies. The normative statements in this guideline are intended for a wide audience, including policy-makers, their expert advisers, and technical and programme staff at ministries and organizations involved in the design, implementation, and scaling-up of actions for addressing anaemia. Other end-users of the guideline include nongovernmental and other organizations and professional societies involved in the planning and management of anaemia actions, as well as health professionals including clinicians, managers of nutrition and health programmes, national blood services, and public health policy-makers in all settings.",
+      "journal": "",
+      "year": "2024",
+      "publication_types": [
+        "Practice Guideline",
+        "Review"
+      ],
+      "topics": [],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex"
+      ],
+      "raw_sha256": [
+        "93dd2e3c303972152e1e7406ce976ea98b5d306a7c26d138d070ea271dbbd710",
+        "adbe349e3fbc8e77c46ddb3d88785ca4351c39220eab0be91c98e84917364412"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:37008163": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "37008163",
+        "pmcid": "PMC10065839",
+        "doi": "10.1097/hs9.0000000000000872",
+        "openalex": "https://openalex.org/W4361270484"
+      },
+      "title": "The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action.",
+      "abstract": "Neutropenia, as an isolated blood cell deficiency, is a feature of a wide spectrum of acquired or congenital, benign or premalignant disorders with a predisposition to develop myelodysplastic neoplasms/acute myeloid leukemia that may arise at any age. In recent years, advances in diagnostic methodologies, particularly in the field of genomics, have revealed novel genes and mechanisms responsible for etiology and disease evolution and opened new perspectives for tailored treatment. Despite the research and diagnostic advances in the field, real world evidence, arising from international neutropenia patient registries and scientific networks, has shown that the diagnosis and management of neutropenic patients is mostly based on the physicians' experience and local practices. Therefore, experts participating in the European Network for the Innovative Diagnosis and Treatment of Chronic Neutropenias have collaborated under the auspices of the European Hematology Association to produce recommendations for the diagnosis and management of patients across the whole spectrum of chronic neutropenias. In the present article, we describe evidence- and consensus-based guidelines for the definition and classification, diagnosis, and follow-up of patients with chronic neutropenias including special entities such as pregnancy and the neonatal period. We particularly emphasize the importance of combining the clinical findings with classical and novel laboratory testing, and advanced germline and/or somatic mutational analyses, for the characterization, risk stratification, and monitoring of the entire spectrum of neutropenia patients. We believe that the wide clinical use of these practical recommendations will be particularly beneficial for patients, families, and treating physicians.",
+      "journal": "HemaSphere",
+      "year": "2023",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "Medicine",
+        "Intensive care medicine",
+        "Neutropenia",
+        "Hematology",
+        "Disease",
+        "Etiology",
+        "Congenital Neutropenia",
+        "Pediatrics",
+        "Internal medicine",
+        "Chemotherapy"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "6e0663462fe2e5e22eb62d2af1b8728407dca85d7d62bebb28dff1e0d3e0dcd9",
+        "6c1cacc25ac5f427ce3ce360527e47be6e21c23020fb7a3e71ed572f3b5d95e8",
+        "462fceab0d9cf889e0c2e2ba6ed45cfd52c1ecff6d22687b511e29851c549858"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by-nc-nd",
+        "reuse_suitable": false,
+        "pmcid": "PMC10065839"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:37125258": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "37125258",
+        "pmcid": "PMC10146530",
+        "doi": "10.1097/hs9.0000000000000897",
+        "openalex": "https://openalex.org/W4367293699"
+      },
+      "title": "Correction Notice-The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action.",
+      "abstract": "[This corrects the article DOI: 10.1097/HS9.0000000000000872.].",
+      "journal": "HemaSphere",
+      "year": "2023",
+      "publication_types": [
+        "Published Erratum",
+        "correction"
+      ],
+      "topics": [
+        "Notice",
+        "Medicine",
+        "Hematology",
+        "Association (psychology)",
+        "Consensus conference",
+        "Action (physics)",
+        "Intensive care medicine",
+        "Internal medicine",
+        "Family medicine",
+        "Pediatrics",
+        "Political science",
+        "Law",
+        "Psychology",
+        "Psychotherapist"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "b74c359d84c4d63c92e4984e55c7410bcc6e76c6d277fd09d54648888f6f6418",
+        "8d0836e86d810220050aaf28e3f7c8e34eb4cccdc615c478a4b513acd8e1699d",
+        "e4c3eb1bf594a2cf065ea3171af83744b2779d2a9ea55da731b1cc8ea187d2f0"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by-nc-nd",
+        "reuse_suitable": false,
+        "pmcid": "PMC10146530"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:39435172": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "39435172",
+        "pmcid": "PMC11493459",
+        "doi": "10.11613/bm.2024.030504",
+        "openalex": "https://openalex.org/W4403310515"
+      },
+      "title": "National recommendations of the Croatian Chamber of Medical Biochemists and Working group for Laboratory hematology of the Croatian Society of Medical Biochemistry and Laboratory Medicine: Management of samples with suspected EDTA-induced pseudothrombocytopenia.",
+      "abstract": "Pseudothrombocytopenia (PTCP) is defined by the occurence of spouriously low platelet count as a consequence of <i>in vitro</i> platelet aggregation. It is a rare and benign artifact, not associated with any specific disorder or therapy, that becomes clinically relevant when it is not timely and reliably recognized. Thus, it may result in inappropriate clinical decisions (<i>i.e.</i> unnecessary further testing, misdiagnoses and potential patients' mismanagement) unavoidably compromising patient safety. The most common form of PTCP is caused by ethylenediaminetetraacetic acid (EDTA). Several approaches for the management of samples with EDTA-induced PTCP have been described in the literature. However, expert recommendations are scarce. The scope of these recommendations is to assist in achieving national harmonisation in laboratory management (<i>i.e.</i> detecting and reporting platelet counts) of samples with EDTA-induced PTCP. These minimal recommendations were prepared by the members of the joint working group of the Croatian Chamber of Medical Biochemists and Working group for Laboratory Hematology of the Croatian Society of Medical Biochemistry and Laboratory Medicine, and might be customized according to specific conditions (<i>i.e.</i> personnel and equipment) of each individual laboratory. These recommendations are primarily intended to all laboratory professionals involved in the management of samples with EDTA-induced PTCP, but also to other healthcare professionals involved in collecting samples and interpreting complete blood count results.",
+      "journal": "Biochemia medica",
+      "year": "2024",
+      "publication_types": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "Croatian",
+        "Hematology",
+        "Medical laboratory",
+        "Medicine",
+        "Internal medicine",
+        "Family medicine",
+        "Pathology"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "b9f15a52a14ce26dce5961f778f09ae329721a62107663600c84bf1f87d5826c",
+        "e66d82e76d70d17390306d99538a7989e15e75489833e812913143593846734b",
+        "e408bcff1667391a9df96ef14439711bc78e7b536fdd1db0260e5fcd5a453085",
+        "569068de4d7edbba5ca8977d1039322a385a45109f9f7fa2f72a990cd2d75478"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "pmcid": "PMC11493459",
+        "sha256": "569068de4d7edbba5ca8977d1039322a385a45109f9f7fa2f72a990cd2d75478"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:31223257": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "31223257",
+        "pmcid": "PMC6559624",
+        "doi": "10.11613/bm.2019.020503",
+        "openalex": "https://openalex.org/W2963907836"
+      },
+      "title": "Croatian Society of Medical Biochemistry and Laboratory Medicine: National recommendations for blood collection, processing, performance and reporting of results for coagulation screening assays prothrombin time, activated partial thromboplastin time, thrombin time, fibrinogen and D-dimer.",
+      "abstract": "A modern diagnostic laboratory offers wide spectrum of coagulation assays utilized in the diagnosis and management of patients with haemostatic disorders, preoperative screening and anticoagulation therapy monitoring. The recent survey conducted among Croatian medical biochemistry and transfusion laboratories showed the existence of different practice policies in particular phases of laboratory process during coagulation testing and highlighted areas that need improvement. Lack of assay standardization together with non-harmonized test results between different measurement methods, can potentially lead to incorrect decisions in patient's treatment. Consequently, patient safety could be compromised. Therefore, recommended procedures related to preanalytical, analytical and postanalytical phases of prothrombin time, activated partial thromboplastin time, thrombin time, fibrinogen and D-dimer testing are provided in this review, aiming to help laboratories to generate accurate and reliable test results.",
+      "journal": "Biochemia medica",
+      "year": "2019",
+      "publication_types": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "Partial thromboplastin time",
+        "Prothrombin time",
+        "Thrombin time",
+        "Coagulation testing",
+        "Medicine",
+        "Standardization",
+        "Turnaround time",
+        "Fibrinogen",
+        "Coagulation",
+        "Medical laboratory",
+        "Coagulation Disorder",
+        "Thromboplastin",
+        "Intensive care medicine",
+        "Surgery",
+        "Internal medicine",
+        "Pathology",
+        "Computer science",
+        "Operations management",
+        "Engineering"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "233cbabb483f18fce4d97888bcd6808d53782cadde0c24aaac002b40ff8e3ada",
+        "360000c92518f721f5ecff6fc9d0109ae90937d0b945b173730bef7d2416d030",
+        "e29b8743cb11f28711535bdcab7d99d24a4c5bd8e0839d4ca93443cbec1eb8e2",
+        "ea5bd4a27a1f1a0d2bd7b7b62371f136b1b0bd53032235dbbcbe60f7a742ab94"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "pmcid": "PMC6559624",
+        "sha256": "ea5bd4a27a1f1a0d2bd7b7b62371f136b1b0bd53032235dbbcbe60f7a742ab94"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:37984807": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "37984807",
+        "pmcid": null,
+        "doi": "10.1111/ijlh.14201",
+        "openalex": "https://openalex.org/W4388852002"
+      },
+      "title": "International council for standardisation in haematology recommendations on fibrinogen assays, thrombin clotting time and related tests in the investigation of bleeding disorders.",
+      "abstract": "This guidance was prepared on behalf of the International Council for Standardisation in Haematology (ICSH) by an international working group of clinicians and scientists. The document focuses on tests and assays used for the assessment of fibrinogen function, particularly in the scenario of bleeding disorders. Thrombin clotting time (TT) is used as a screening test in some laboratories and also has some utility when direct anticoagulants are in use. The Clauss fibrinogen assay remains the method of choice for the assessment of fibrinogen function, but there are some situations where the results may be misleading. Prothrombin time derived fibrinogen assays are frequently used, but should be interpreted with caution; the results are not interchangeable between different methods and fibrinogen can be overestimated in certain clinical scenarios. Viscoelastic point of care methods may be helpful in emergency situations, while Reptilase time (and similar tests) are useful combined with TT in distinguishing heparin contamination of samples (i.e., if an incorrect blood draw is suspected) and the presence of direct thrombin inhibitors. Fibrinogen antigen assays should be used in the investigation of functional fibrinogen abnormalities; fibrinogen antigen and genetic testing are recommended in the confirmation of congenital fibrinogen disorders. The following recommendations for fibrinogen function assessment are based on published literature and expert opinion and should supplement local regulations and standards.",
+      "journal": "International journal of laboratory hematology",
+      "year": "2024",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "Fibrinogen",
+        "Medicine",
+        "Thrombin time",
+        "Hematology",
+        "Prothrombin time",
+        "Intensive care medicine",
+        "Internal medicine",
+        "Platelet",
+        "Partial thromboplastin time"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "0075f98c6f0543cd40a1dfad06c85d6c39758b75893a57298ed10d69083d7cfa",
+        "0a696aa8a51fbc1b792a9e56211deab01f35ead7a4de5d71491143b5ca9f6704",
+        "327c49ee7bff7eaf0e60c182788655fcd13dbe351ff61f39dd5756cf10aa320d"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:37824153": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "37824153",
+        "pmcid": null,
+        "doi": "10.1001/jama.2023.12914",
+        "openalex": "https://openalex.org/W4387563884"
+      },
+      "title": "Red Blood Cell Transfusion: 2023 AABB International Guidelines.",
+      "abstract": "<h4>Importance</h4>Red blood cell transfusion is a common medical intervention with benefits and harms.<h4>Objective</h4>To provide recommendations for use of red blood cell transfusion in adults and children.<h4>Evidence review</h4>Standards for trustworthy guidelines were followed, including using Grading of Recommendations Assessment, Development and Evaluation methods, managing conflicts of interest, and making values and preferences explicit. Evidence from systematic reviews of randomized controlled trials was reviewed.<h4>Findings</h4>For adults, 45 randomized controlled trials with 20 599 participants compared restrictive hemoglobin-based transfusion thresholds, typically 7 to 8 g/dL, with liberal transfusion thresholds of 9 to 10 g/dL. For pediatric patients, 7 randomized controlled trials with 2730 participants compared a variety of restrictive and liberal transfusion thresholds. For most patient populations, results provided moderate quality evidence that restrictive transfusion thresholds did not adversely affect patient-important outcomes. Recommendation 1: for hospitalized adult patients who are hemodynamically stable, the international panel recommends a restrictive transfusion strategy considering transfusion when the hemoglobin concentration is less than 7 g/dL (strong recommendation, moderate certainty evidence). In accordance with the restrictive strategy threshold used in most trials, clinicians may choose a threshold of 7.5 g/dL for patients undergoing cardiac surgery and 8 g/dL for those undergoing orthopedic surgery or those with preexisting cardiovascular disease. Recommendation 2: for hospitalized adult patients with hematologic and oncologic disorders, the panel suggests a restrictive transfusion strategy considering transfusion when the hemoglobin concentration is less than 7 g/dL (conditional recommendations, low certainty evidence). Recommendation 3: for critically ill children and those at risk of critical illness who are hemodynamically stable and without a hemoglobinopathy, cyanotic cardiac condition, or severe hypoxemia, the international panel recommends a restrictive transfusion strategy considering transfusion when the hemoglobin concentration is less than 7 g/dL (strong recommendation, moderate certainty evidence). Recommendation 4: for hemodynamically stable children with congenital heart disease, the international panel suggests a transfusion threshold that is based on the cardiac abnormality and stage of surgical repair: 7 g/dL (biventricular repair), 9 g/dL (single-ventricle palliation), or 7 to 9 g/dL (uncorrected congenital heart disease) (conditional recommendation, low certainty evidence).<h4>Conclusions and relevance</h4>It is good practice to consider overall clinical context and alternative therapies to transfusion when making transfusion decisions about an individual patient.",
+      "journal": "JAMA",
+      "year": "2023",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Practice Guideline",
+        "Journal Article"
+      ],
+      "topics": [
+        "Medicine",
+        "Randomized controlled trial",
+        "Blood transfusion",
+        "Intensive care medicine",
+        "Red Blood Cell Transfusion",
+        "Quality of evidence",
+        "Grading (engineering)",
+        "Pediatrics",
+        "Surgery"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "981d45bf96e070c930bc6a87158fa3e839fb68d726d3a3f230c86bfe5df5d4cf",
+        "b6421c9d3512c6714d9e6dfdcf9e2530735741409d1c0e84830bd8830f71105c",
+        "5e6b265bb50584fe78d16a0ba7ecdbcef3dfc9a93c306ec7c99be8c45a7add38"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:39341492": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "39341492",
+        "pmcid": "PMC11867898",
+        "doi": "10.1016/j.chest.2024.09.016",
+        "openalex": "https://openalex.org/W4402898662"
+      },
+      "title": "Red Blood Cell Transfusion in Critically Ill Adults: An American College of Chest Physicians Clinical Practice Guideline.",
+      "abstract": "<h4>Background</h4>Blood products frequently are administered to critically ill patients. Considering recent trials and practice variability, a comprehensive review of current evidence was deemed essential to offer pertinent guidance to critical care practitioners. This American College of Chest Physicians (CHEST) guidelines panel examined the literature on RBC transfusions among critically ill patients overall and specific subgroups, including patients with gastrointestinal bleeding, acute coronary syndrome (ACS), cardiac surgery, isolated troponin elevation, and septic shock, to provide evidence-based recommendations.<h4>Study design and methods</h4>A panel of experts developed six Population, Intervention, Comparator, and Outcome questions addressing RBC transfusions in critically ill patients and performed a comprehensive evidence review. The panel applied the Grading of Recommendations, Assessment, Development, and Evaluations approach to assess the certainty of evidence and to formulate and grade recommendations. A modified Delphi technique was used to reach consensus on the recommendations.<h4>Results</h4>The initial search identified a total of 3,082 studies, and after the initial screening, 38 articles were reviewed. Among them, 23 studies met inclusion criteria, comprising 22 randomized controlled trials and one cohort study. Based on the analysis of these studies, the panel formulated two strong and four conditional recommendations. The overall quality of evidence for recommendations ranged from very low to moderate.<h4>Conclusions</h4>In most critically ill patients, a restrictive strategy was preferable to a permissive approach because it does not increase the risk of death or complications, but does decrease RBC use significantly. Data from critically ill subpopulations also supported a restrictive approach, except in patients with ACS, for whom favoring a restrictive approach could increase adverse outcomes.",
+      "journal": "Chest",
+      "year": "2025",
+      "publication_types": [
+        "other",
+        "Practice Guideline",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "Guideline",
+        "Critically ill",
+        "Medicine",
+        "Intensive care medicine",
+        "Clinical Practice",
+        "Blood transfusion",
+        "Red Blood Cell Transfusion",
+        "Critical illness",
+        "Emergency medicine",
+        "Family medicine",
+        "Internal medicine",
+        "Pathology"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "e2a71f0277ae73dd1fd9d3331dc6ee8bc17da46fcde37132577c59c31f6b0d9a",
+        "48665e3a62adca22ca9d442ad2d583d8f5702e4fed7beed6d8f23565faa46e90",
+        "163fd58fb576995630cdc169242d39fba7dc33a790a19f93bceacbcb863c8777"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by-nc-nd",
+        "reuse_suitable": false,
+        "pmcid": "PMC11867898"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:40440268": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "40440268",
+        "pmcid": null,
+        "doi": "10.1001/jama.2025.7529",
+        "openalex": "https://openalex.org/W4410852778"
+      },
+      "title": "Platelet Transfusion: 2025 AABB and ICTMG International Clinical Practice Guidelines.",
+      "abstract": "<h4>Importance</h4>Platelet transfusion is a frequent procedure with benefits and risks.<h4>Objective</h4>To provide recommendations in adult and pediatric populations in whom platelet transfusions are commonly performed.<h4>Evidence review</h4>Grading of Recommendations Assessment Development and Evaluation (GRADE) methodology was applied to findings from 21 randomized trials and 13 observational studies in contexts of limited randomized clinical trial data. Transfusion strategies using fewer (restrictive) vs greater (liberal) amounts of platelets were compared.<h4>Findings</h4>Evidence demonstrated that restrictive transfusion strategies probably did not cause increases in mortality or bleeding relative to liberal strategies across predefined clinical populations. Exceedingly low incidence of spinal hematoma was identified in patients with thrombocytopenia undergoing lumbar puncture. Because definitions of restrictive strategies varied across trials, recommendations reflect practical guidance. The following recommendations are strong recommendations with high/moderate-certainty evidence. For hypoproliferative thrombocytopenia in nonbleeding patients receiving chemotherapy or undergoing allogeneic stem cell transplant, platelet transfusion is recommended when platelet count is less than 10 × 103/μL. For consumptive thrombocytopenia in neonates without major bleeding, platelet transfusion is recommended when platelet count is less than 25 × 103/μL. In patients undergoing lumbar puncture, platelet transfusion is recommended when platelet count is less than 20 × 103/μL. In patients with consumptive thrombocytopenia due to Dengue without major bleeding, platelet transfusion is not recommended. The following recommendations are conditional recommendations with low/very low-certainty evidence. For hypoproliferative thrombocytopenia in nonbleeding adults undergoing autologous stem cell transplant or with aplastic anemia, prophylactic platelet transfusion is not recommended. In adults with consumptive thrombocytopenia without major bleeding, platelet transfusion is recommended when platelet count is less than 10 × 103/μL. In adults undergoing central venous catheter placement in compressible anatomic sites, platelet transfusion is recommended when platelet count is less than 10 × 103/μL. In adults undergoing interventional radiology, platelet transfusion is recommended when platelet count is less than 20 × 103/μL for low-risk procedures and less than 50 × 103/μL for high-risk procedures. For adults undergoing major nonneuraxial surgery, platelet transfusion is recommended when platelet count is less than 50 × 103/μL. For patients without thrombocytopenia undergoing cardiovascular surgery in the absence of major hemorrhage, including those receiving cardiopulmonary bypass, platelet transfusion is not recommended. For nonoperative intracranial hemorrhage in adults with platelet count greater than 100 × 103/μL, including those receiving antiplatelet agents, platelet transfusion is not recommended.<h4>Conclusions and relevance</h4>A consistent pattern of evidence supports the implementation of restrictive platelet transfusion strategies. Restrictive strategies reduce risk of adverse reactions, mitigate platelet shortages, and reduce costs. It is good practice to consider overall clinical context and alternative therapies in the decision to perform platelet transfusion.",
+      "journal": "JAMA",
+      "year": "2025",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Practice Guideline",
+        "Journal Article"
+      ],
+      "topics": [
+        "Medicine",
+        "Platelet transfusion",
+        "Platelet",
+        "Randomized controlled trial",
+        "Observational study",
+        "Lumbar puncture",
+        "Surgery",
+        "Internal medicine",
+        "Intensive care medicine",
+        "Cerebrospinal fluid"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "f51332ca433a7d577b70353a4d71851a349ad9dfe32e836f429c84d77f4f18e9",
+        "d610f27968135f1b262ebf5738e099b6d4acf8d3bb145a69d2c897f6ac11a51e",
+        "4ec6c06e3ef2fb18f972c90a4d4fbf9ac2a2f03a095d7afc44ac5f22bd1ac8bc"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "official:BSH-FBC-EDU-2022": {
+      "exists": true,
+      "identifiers": {
+        "official_id": "BSH-FBC-EDU-2022",
+        "pmid": null,
+        "doi": null
+      },
+      "title": "The Full Blood count",
+      "abstract": "Official BSH educational slide presentation for CBC orientation; explicitly not a formal guideline.",
+      "publication_types": [
+        "educational"
+      ],
+      "providers": [
+        "official_source"
+      ],
+      "raw_sha256": [
+        "3e247179ae29a4b627f9d6828434e27a30a30c3621c3391d5646ce5ee78906a4"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": true,
+        "license": "all-rights-reserved",
+        "reuse_suitable": false,
+        "sha256": "3e247179ae29a4b627f9d6828434e27a30a30c3621c3391d5646ce5ee78906a4"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "educational",
+        "canonical_url": "https://b-s-h.org.uk/media/20968/al-bsh-fbc-2022-without-images.pdf",
+        "version": "2022",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null,
+        "current_version": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "provider": "official_source"
+      },
+      "conflicts": []
+    },
+    "official:BSH-CLOTTING-EDU-2022": {
+      "exists": true,
+      "identifiers": {
+        "official_id": "BSH-CLOTTING-EDU-2022",
+        "pmid": null,
+        "doi": null
+      },
+      "title": "Interpreting the clotting screen",
+      "abstract": "Official BSH educational slide presentation for PT, aPTT and specimen orientation; explicitly not a formal guideline.",
+      "publication_types": [
+        "educational"
+      ],
+      "providers": [
+        "official_source"
+      ],
+      "raw_sha256": [
+        "09a53d8d07d4710609492b9ae8c927dd19304db65698ce3f32ba0d69f90b281e"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": true,
+        "license": "all-rights-reserved",
+        "reuse_suitable": false,
+        "sha256": "09a53d8d07d4710609492b9ae8c927dd19304db65698ce3f32ba0d69f90b281e"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "educational",
+        "canonical_url": "https://b-s-h.org.uk/media/20969/bsh-2022-making-sense-of-haematology-interpreting-the-clotting-screen.pdf",
+        "version": "2022",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null,
+        "current_version": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "provider": "official_source"
+      },
+      "conflicts": []
+    },
+    "official:EHA-EUNET-NEUTROPENIA-2023": {
+      "exists": true,
+      "identifiers": {
+        "official_id": "EHA-EUNET-NEUTROPENIA-2023",
+        "pmid": null,
+        "doi": null
+      },
+      "title": "The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children",
+      "abstract": "EHA and EuNet-INNOCHRON consensus defining ANC severity and diagnostic approach; correction PMID 37125258 must be adjudicated.",
+      "publication_types": [
+        "consensus statement"
+      ],
+      "providers": [
+        "official_source"
+      ],
+      "raw_sha256": [
+        "7dbd738129e1b315187dcbdd0af51a381a4e4a167fa1f531f435bd2d6d55c6c9"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by-nc-nd",
+        "reuse_suitable": false,
+        "sha256": "7dbd738129e1b315187dcbdd0af51a381a4e4a167fa1f531f435bd2d6d55c6c9"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "consensus statement",
+        "canonical_url": "https://europepmc.org/articles/PMC10065839",
+        "version": "2023",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null,
+        "current_version": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "provider": "official_source"
+      },
+      "conflicts": []
+    },
+    "official:CSMBLM-PTCP-2024": {
+      "exists": true,
+      "identifiers": {
+        "official_id": "CSMBLM-PTCP-2024",
+        "pmid": null,
+        "doi": null
+      },
+      "title": "Management of samples with suspected EDTA-induced pseudothrombocytopenia",
+      "abstract": "National laboratory recommendations from the Croatian professional chamber and society.",
+      "publication_types": [
+        "consensus statement"
+      ],
+      "providers": [
+        "official_source"
+      ],
+      "raw_sha256": [
+        "569068de4d7edbba5ca8977d1039322a385a45109f9f7fa2f72a990cd2d75478"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "sha256": "569068de4d7edbba5ca8977d1039322a385a45109f9f7fa2f72a990cd2d75478"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "consensus statement",
+        "canonical_url": "https://europepmc.org/articles/PMC11493459",
+        "version": "2024",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null,
+        "current_version": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "provider": "official_source"
+      },
+      "conflicts": []
+    },
+    "official:CSMBLM-COAG-PREANALYTICS-2019": {
+      "exists": true,
+      "identifiers": {
+        "official_id": "CSMBLM-COAG-PREANALYTICS-2019",
+        "pmid": null,
+        "doi": null
+      },
+      "title": "National recommendations for blood collection, processing, performance and reporting of results for coagulation screening assays",
+      "abstract": "Professional society national recommendations for PT, aPTT, TT, fibrinogen and D-dimer specimens and assays.",
+      "publication_types": [
+        "consensus statement"
+      ],
+      "providers": [
+        "official_source"
+      ],
+      "raw_sha256": [
+        "ea5bd4a27a1f1a0d2bd7b7b62371f136b1b0bd53032235dbbcbe60f7a742ab94"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true,
+        "sha256": "ea5bd4a27a1f1a0d2bd7b7b62371f136b1b0bd53032235dbbcbe60f7a742ab94"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "consensus statement",
+        "canonical_url": "https://europepmc.org/articles/PMC6559624",
+        "version": "2019",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null,
+        "current_version": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "provider": "official_source"
+      },
+      "conflicts": []
+    },
+    "official:CHEST-RBC-TRANSFUSION-2025": {
+      "exists": true,
+      "identifiers": {
+        "official_id": "CHEST-RBC-TRANSFUSION-2025",
+        "pmid": null,
+        "doi": null
+      },
+      "title": "Red Blood Cell Transfusion in Critically Ill Adults",
+      "abstract": "American College of Chest Physicians clinical practice guideline on restrictive versus permissive RBC transfusion strategies.",
+      "publication_types": [
+        "clinical practice guideline"
+      ],
+      "providers": [
+        "official_source"
+      ],
+      "raw_sha256": [
+        "3543360340a9fdd0ceeec64b46534e6ac9297866d9a28bcbc427be4d973993d5"
+      ],
+      "metadata_checked_at": "2026-07-29T10:23:22.195062Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by-nc-nd",
+        "reuse_suitable": false,
+        "sha256": "3543360340a9fdd0ceeec64b46534e6ac9297866d9a28bcbc427be4d973993d5"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "clinical practice guideline",
+        "canonical_url": "https://europepmc.org/articles/PMC11867898",
+        "version": "2025",
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null,
+        "current_version": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:23:22.195062Z",
+        "corrections": [],
+        "provider": "official_source"
+      },
+      "conflicts": []
+    }
+  },
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "93dd2e3c303972152e1e7406ce976ea98b5d306a7c26d138d070ea271dbbd710",
+      "path": "raw/europe_pmc_metadata/93dd2e3c303972152e1e7406ce976ea98b5d306a7c26d138d070ea271dbbd710.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "adbe349e3fbc8e77c46ddb3d88785ca4351c39220eab0be91c98e84917364412",
+      "path": "raw/openalex/adbe349e3fbc8e77c46ddb3d88785ca4351c39220eab0be91c98e84917364412.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "6e0663462fe2e5e22eb62d2af1b8728407dca85d7d62bebb28dff1e0d3e0dcd9",
+      "path": "raw/europe_pmc_metadata/6e0663462fe2e5e22eb62d2af1b8728407dca85d7d62bebb28dff1e0d3e0dcd9.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "6c1cacc25ac5f427ce3ce360527e47be6e21c23020fb7a3e71ed572f3b5d95e8",
+      "path": "raw/openalex/6c1cacc25ac5f427ce3ce360527e47be6e21c23020fb7a3e71ed572f3b5d95e8.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "462fceab0d9cf889e0c2e2ba6ed45cfd52c1ecff6d22687b511e29851c549858",
+      "path": "raw/crossref_retraction_watch/462fceab0d9cf889e0c2e2ba6ed45cfd52c1ecff6d22687b511e29851c549858.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "b74c359d84c4d63c92e4984e55c7410bcc6e76c6d277fd09d54648888f6f6418",
+      "path": "raw/europe_pmc_metadata/b74c359d84c4d63c92e4984e55c7410bcc6e76c6d277fd09d54648888f6f6418.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "8d0836e86d810220050aaf28e3f7c8e34eb4cccdc615c478a4b513acd8e1699d",
+      "path": "raw/openalex/8d0836e86d810220050aaf28e3f7c8e34eb4cccdc615c478a4b513acd8e1699d.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "e4c3eb1bf594a2cf065ea3171af83744b2779d2a9ea55da731b1cc8ea187d2f0",
+      "path": "raw/crossref_retraction_watch/e4c3eb1bf594a2cf065ea3171af83744b2779d2a9ea55da731b1cc8ea187d2f0.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "b9f15a52a14ce26dce5961f778f09ae329721a62107663600c84bf1f87d5826c",
+      "path": "raw/europe_pmc_metadata/b9f15a52a14ce26dce5961f778f09ae329721a62107663600c84bf1f87d5826c.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "e66d82e76d70d17390306d99538a7989e15e75489833e812913143593846734b",
+      "path": "raw/openalex/e66d82e76d70d17390306d99538a7989e15e75489833e812913143593846734b.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "e408bcff1667391a9df96ef14439711bc78e7b536fdd1db0260e5fcd5a453085",
+      "path": "raw/crossref_retraction_watch/e408bcff1667391a9df96ef14439711bc78e7b536fdd1db0260e5fcd5a453085.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_oa_full_text",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "569068de4d7edbba5ca8977d1039322a385a45109f9f7fa2f72a990cd2d75478",
+      "path": "raw/europe_pmc_oa_full_text/569068de4d7edbba5ca8977d1039322a385a45109f9f7fa2f72a990cd2d75478.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "233cbabb483f18fce4d97888bcd6808d53782cadde0c24aaac002b40ff8e3ada",
+      "path": "raw/europe_pmc_metadata/233cbabb483f18fce4d97888bcd6808d53782cadde0c24aaac002b40ff8e3ada.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "360000c92518f721f5ecff6fc9d0109ae90937d0b945b173730bef7d2416d030",
+      "path": "raw/openalex/360000c92518f721f5ecff6fc9d0109ae90937d0b945b173730bef7d2416d030.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "e29b8743cb11f28711535bdcab7d99d24a4c5bd8e0839d4ca93443cbec1eb8e2",
+      "path": "raw/crossref_retraction_watch/e29b8743cb11f28711535bdcab7d99d24a4c5bd8e0839d4ca93443cbec1eb8e2.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_oa_full_text",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "ea5bd4a27a1f1a0d2bd7b7b62371f136b1b0bd53032235dbbcbe60f7a742ab94",
+      "path": "raw/europe_pmc_oa_full_text/ea5bd4a27a1f1a0d2bd7b7b62371f136b1b0bd53032235dbbcbe60f7a742ab94.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "0075f98c6f0543cd40a1dfad06c85d6c39758b75893a57298ed10d69083d7cfa",
+      "path": "raw/europe_pmc_metadata/0075f98c6f0543cd40a1dfad06c85d6c39758b75893a57298ed10d69083d7cfa.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "0a696aa8a51fbc1b792a9e56211deab01f35ead7a4de5d71491143b5ca9f6704",
+      "path": "raw/openalex/0a696aa8a51fbc1b792a9e56211deab01f35ead7a4de5d71491143b5ca9f6704.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "327c49ee7bff7eaf0e60c182788655fcd13dbe351ff61f39dd5756cf10aa320d",
+      "path": "raw/crossref_retraction_watch/327c49ee7bff7eaf0e60c182788655fcd13dbe351ff61f39dd5756cf10aa320d.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "981d45bf96e070c930bc6a87158fa3e839fb68d726d3a3f230c86bfe5df5d4cf",
+      "path": "raw/europe_pmc_metadata/981d45bf96e070c930bc6a87158fa3e839fb68d726d3a3f230c86bfe5df5d4cf.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "b6421c9d3512c6714d9e6dfdcf9e2530735741409d1c0e84830bd8830f71105c",
+      "path": "raw/openalex/b6421c9d3512c6714d9e6dfdcf9e2530735741409d1c0e84830bd8830f71105c.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "5e6b265bb50584fe78d16a0ba7ecdbcef3dfc9a93c306ec7c99be8c45a7add38",
+      "path": "raw/crossref_retraction_watch/5e6b265bb50584fe78d16a0ba7ecdbcef3dfc9a93c306ec7c99be8c45a7add38.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "e2a71f0277ae73dd1fd9d3331dc6ee8bc17da46fcde37132577c59c31f6b0d9a",
+      "path": "raw/europe_pmc_metadata/e2a71f0277ae73dd1fd9d3331dc6ee8bc17da46fcde37132577c59c31f6b0d9a.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "48665e3a62adca22ca9d442ad2d583d8f5702e4fed7beed6d8f23565faa46e90",
+      "path": "raw/openalex/48665e3a62adca22ca9d442ad2d583d8f5702e4fed7beed6d8f23565faa46e90.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "163fd58fb576995630cdc169242d39fba7dc33a790a19f93bceacbcb863c8777",
+      "path": "raw/crossref_retraction_watch/163fd58fb576995630cdc169242d39fba7dc33a790a19f93bceacbcb863c8777.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "f51332ca433a7d577b70353a4d71851a349ad9dfe32e836f429c84d77f4f18e9",
+      "path": "raw/europe_pmc_metadata/f51332ca433a7d577b70353a4d71851a349ad9dfe32e836f429c84d77f4f18e9.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "d610f27968135f1b262ebf5738e099b6d4acf8d3bb145a69d2c897f6ac11a51e",
+      "path": "raw/openalex/d610f27968135f1b262ebf5738e099b6d4acf8d3bb145a69d2c897f6ac11a51e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "4ec6c06e3ef2fb18f972c90a4d4fbf9ac2a2f03a095d7afc44ac5f22bd1ac8bc",
+      "path": "raw/crossref_retraction_watch/4ec6c06e3ef2fb18f972c90a4d4fbf9ac2a2f03a095d7afc44ac5f22bd1ac8bc.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "3e247179ae29a4b627f9d6828434e27a30a30c3621c3391d5646ce5ee78906a4",
+      "path": "raw/official_source/3e247179ae29a4b627f9d6828434e27a30a30c3621c3391d5646ce5ee78906a4.pdf",
+      "media_type": "application/pdf",
+      "license": "all-rights-reserved"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "09a53d8d07d4710609492b9ae8c927dd19304db65698ce3f32ba0d69f90b281e",
+      "path": "raw/official_source/09a53d8d07d4710609492b9ae8c927dd19304db65698ce3f32ba0d69f90b281e.pdf",
+      "media_type": "application/pdf",
+      "license": "all-rights-reserved"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "7dbd738129e1b315187dcbdd0af51a381a4e4a167fa1f531f435bd2d6d55c6c9",
+      "path": "raw/official_source/7dbd738129e1b315187dcbdd0af51a381a4e4a167fa1f531f435bd2d6d55c6c9.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by-nc-nd"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "569068de4d7edbba5ca8977d1039322a385a45109f9f7fa2f72a990cd2d75478",
+      "path": "raw/official_source/569068de4d7edbba5ca8977d1039322a385a45109f9f7fa2f72a990cd2d75478.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "ea5bd4a27a1f1a0d2bd7b7b62371f136b1b0bd53032235dbbcbe60f7a742ab94",
+      "path": "raw/official_source/ea5bd4a27a1f1a0d2bd7b7b62371f136b1b0bd53032235dbbcbe60f7a742ab94.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-07-29T10:23:22.195062Z",
+      "sha256": "3543360340a9fdd0ceeec64b46534e6ac9297866d9a28bcbc427be4d973993d5",
+      "path": "raw/official_source/3543360340a9fdd0ceeec64b46534e6ac9297866d9a28bcbc427be4d973993d5.xsl",
+      "media_type": "application/xml",
+      "license": "cc-by-nc-nd"
+    }
+  ],
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs\\evidence\\part2\\cache",
+  "content_hash": "175b5835eb5ea25f3f34010aa3a076d051ed61a5daafdfd6ce59794a737ad33e"
+}

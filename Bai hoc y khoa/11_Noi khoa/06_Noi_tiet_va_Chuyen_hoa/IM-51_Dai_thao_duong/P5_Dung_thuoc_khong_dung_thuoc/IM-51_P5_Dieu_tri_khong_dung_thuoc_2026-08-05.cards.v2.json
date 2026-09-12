@@ -1,0 +1,89 @@
+[
+  {
+    "type": "basic",
+    "front": "Bằng chứng từ nghiên cứu DPP (PMID 11832527) về thay đổi lối sống?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Can thiệp lối sống tích cực giúp giảm 58% nguy cơ tiến triển T2D ở người prediabetes (hiệu quả gấp đôi so với Metformin đơn thuần giảm 31%).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Thay đổi lối sống là nền tảng hiệu quả nhất trong phòng ngừa và quản lý ĐTĐ.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Tỷ lệ phân bổ Carbohydrate, Protein và Fat trong liệu pháp MNT?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Carbohydrate: 45 – 55% tổng năng lượng (ưu tiên Carb phức tạp, chỉ số GI thấp).<br>• Protein: 15 – 20% (0.8g/kg/ngày ở người có DKD chưa lọc máu).<br>• Fat: 20 – 35% (chất béo bão hòa <7%).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Không kiêng hoàn toàn tinh bột mà chọn tinh bột hấp thu chậm.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Quy tắc đĩa thức ăn (Plate Method) tỷ lệ các phần thế nào?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• 1/2 đĩa: Rau củ không chứa tinh bột.<br>• 1/4 đĩa: Thức ăn giàu đạm (thịt, cá, trứng, đậu).<br>• 1/4 đĩa: Tinh bột (cơm lức, khoai lang).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Phương pháp trực quan giúp bệnh nhân dễ thực hiện tại nhà.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Khuyến cáo tập luyện Aerobic cho bệnh nhân ĐTĐ theo ADA 2026?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• ≥ 150 phút / tuần cường độ trung bình.<br>• Tập ≥ 3 ngày / tuần, không nghỉ quá 2 ngày liên tiếp.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Tập luyện làm tăng nhạy cảm insulin độc lập không cần insulin.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Xử trí an toàn khi đường huyết trước tập < 5.6 mmol/L (< 100 mg/dL)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Bệnh nhân dùng Insulin hoặc SU cần ăn nhẹ 15 – 30g Carb trước khi tập để tránh hạ đường huyết.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Vận động làm cơ bắp tiêu thụ glucose mạnh gây nguy cơ tụt đường huyết.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Khi nào cần hoãn tập luyện thể lực nặng?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Khi đường huyết > 13.9 mmol/L (> 250 mg/dL) KÈM Ketone (+).<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Tập nặng khi thiếu insulin làm tăng tiết hormone đối kháng gây toan ceton nặng hơn.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao uống rượu bia buổi tối gây nguy cơ hạ đường huyết đêm?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Rượu ức chế gluconeogenesis tại gan → gan không thể tân tạo glucose giải phóng vào máu lúc ngủ.<br><b>🔍 Góc nhìn bổ sung (AI):</b><br>Rất nguy hiểm ở người dùng Insulin hoặc Sulfonylurea.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Nghiên cứu DPP chứng minh thay đổi lối sống giảm {{c1::58%}} nguy cơ tiến triển T2D ở người prediabetes.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Mục tiêu giảm cân ở người thừa cân/béo phì là giảm {{c1::5 – 10%}} trọng lượng cơ thể.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Carbohydrate nên chiếm {{c1::45 – 55%}} tổng năng lượng, ưu tiên Carb có chỉ số GI {{c1::thấp}}.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Phương pháp đĩa thức ăn: {{c1::1/2 đĩa}} rau không tinh bột, {{c1::1/4 đĩa}} đạm, {{c1::1/4 đĩa}} tinh bột.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Tập Aerobic khuyến cáo ≥ {{c1::150 phút/tuần}}, không nghỉ quá {{c1::2 ngày liên tiếp}}.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Khuyến cáo tập kháng lực (Resistance): {{c1::2 – 3 buổi/tuần}}.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Đường huyết trước tập < {{c1::5.6 mmol/L}} (< 100 mg/dL) ở người dùng Insulin/SU cần ăn nhẹ {{c1::15 – 30g Carb}}.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Hoãn tập luyện nặng khi đường huyết > {{c1::13.9 mmol/L}} (> 250 mg/dL) KÈM {{c1::Ketone (+)}}.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Rượu ức chế {{c1::gluconeogenesis}} ở gan → nguy cơ hạ đường huyết muộn về đêm.",
+    "extra": ""
+  }
+]

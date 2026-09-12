@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siêu âm Tim Thai — Visual Summary Interactive 2026-06-19</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<style>
+  :root {
+    --primary: #0E4D92;
+    --accent: #14B8A6;
+    --warning: #BE185D;
+    --bg: #F9FAFB;
+    --card-bg: #ffffff;
+    --text: #1f2937;
+    --border: #e5e7eb;
+    --code-bg: #1e293b;
+  }
+  [data-theme="dark"] {
+    --primary: #60a5fa;
+    --accent: #2dd4bf;
+    --bg: #0f172a;
+    --card-bg: #1e293b;
+    --text: #e2e8f0;
+    --border: #334155;
+    --code-bg: #020617;
+  }
+  * { box-sizing: border-box; }
+  body { font-family: 'Inter', 'Segoe UI', Tahoma, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; transition: background 0.3s, color 0.3s; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+
+  /* Progress bar */
+  #progress { position: fixed; top: 0; left: 0; height: 3px; background: var(--accent); z-index: 1000; transition: width 0.1s; }
+
+  /* Top nav */
+  .topnav { position: sticky; top: 0; background: var(--card-bg); border-bottom: 1px solid var(--border); z-index: 100; padding: 8px 0; backdrop-filter: blur(8px); }
+  .topnav-inner { max-width: 1200px; margin: 0 auto; padding: 0 16px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .topnav .logo { font-weight: 800; color: var(--primary); font-size: 15px; }
+  .topnav .search { flex: 1; min-width: 200px; }
+  .topnav input { width: 100%; padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--card-bg); color: var(--text); font-size: 13px; }
+  .topnav .icon-btn { background: transparent; border: 1px solid var(--border); border-radius: 6px; padding: 5px 10px; cursor: pointer; color: var(--text); font-size: 13px; transition: all 0.2s; }
+  .topnav .icon-btn:hover { background: var(--primary); color: white; border-color: var(--primary); }
+
+  /* TOC sidebar (desktop) */
+  .toc { position: fixed; left: 16px; top: 70px; width: 220px; max-height: calc(100vh - 90px); overflow-y: auto; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 12px; font-size: 12px; z-index: 50; display: none; }
+  @media (min-width: 1400px) { .toc { display: block; } }
+  .toc h4 { font-weight: 700; color: var(--primary); margin: 0 0 8px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .toc a { display: block; padding: 4px 6px; color: var(--text); text-decoration: none; border-radius: 4px; transition: background 0.2s; }
+  .toc a:hover { background: var(--accent); color: white; }
+  .toc a.active { background: var(--primary); color: white; font-weight: 600; }
+
+  /* Floating action buttons */
+  .fab { position: fixed; right: 16px; bottom: 16px; display: flex; flex-direction: column; gap: 8px; z-index: 90; }
+  .fab button { width: 44px; height: 44px; border-radius: 50%; background: var(--primary); color: white; border: none; cursor: pointer; font-size: 18px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.2s; }
+  .fab button:hover { transform: scale(1.1); }
+
+  /* Cards */
+  .card { background: var(--card-bg); border-radius: 14px; box-shadow: 0 4px 14px rgba(0,0,0,0.06); padding: 24px; margin-bottom: 20px; border: 1px solid var(--border); transition: background 0.3s, border-color 0.3s; scroll-margin-top: 70px; }
+  .card h2 { color: var(--primary); margin-top: 0; }
+  .card h3 { color: var(--primary); }
+  .badge { display: inline-block; padding: 3px 9px; border-radius: 999px; font-size: 11px; font-weight: 600; margin-right: 4px; margin-bottom: 4px; }
+  .badge-red { background: #fee2e2; color: #991b1b; }
+  .badge-yellow { background: #fef3c7; color: #92400e; }
+  .badge-green { background: #d1fae5; color: #065f46; }
+  .badge-blue { background: #dbeafe; color: #1e40af; }
+  .badge-purple { background: #ede9fe; color: #5b21b6; }
+  .badge-pink { background: #fce7f3; color: #be185d; }
+  .badge-teal { background: #ccfbf1; color: #115e59; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 8px 0; }
+  th { background: var(--primary); color: white; padding: 8px 10px; text-align: left; font-weight: 600; }
+  td { padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:hover td { background: rgba(20, 184, 166, 0.05); }
+  [data-theme="dark"] tr:hover td { background: rgba(96, 165, 250, 0.08); }
+  .keypoint { background: #fffbeb; border-left: 4px solid #f59e0b; padding: 12px 16px; margin: 8px 0; border-radius: 6px; }
+  [data-theme="dark"] .keypoint { background: #422006; color: #fef3c7; }
+  .danger { background: #fee2e2; border-left: 4px solid #dc2626; padding: 12px 16px; margin: 8px 0; border-radius: 6px; }
+  [data-theme="dark"] .danger { background: #450a0a; color: #fecaca; }
+  .safe { background: #d1fae5; border-left: 4px solid #10b981; padding: 12px 16px; margin: 8px 0; border-radius: 6px; }
+  [data-theme="dark"] .safe { background: #052e16; color: #bbf7d0; }
+  .info { background: #dbeafe; border-left: 4px solid #1e40af; padding: 12px 16px; margin: 8px 0; border-radius: 6px; }
+  [data-theme="dark"] .info { background: #1e3a8a; color: #bfdbfe; }
+  .teal-info { background: #ccfbf1; border-left: 4px solid #14B8A6; padding: 12px 16px; margin: 8px 0; border-radius: 6px; }
+  [data-theme="dark"] .teal-info { background: #134e4a; color: #99f6e4; }
+  .mermaid { background: var(--card-bg); padding: 16px; border-radius: 10px; text-align: center; overflow-x: auto; border: 1px solid var(--border); }
+  .chart-box { max-width: 100%; height: 400px; }
+  .chart-box-sm { max-width: 100%; height: 320px; }
+  pre { background: var(--code-bg); color: #e2e8f0; padding: 16px; border-radius: 8px; overflow-x: auto; font-size: 13px; }
+
+  /* Lesion cards - interactive */
+  .lesion-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+  .lesion-card { background: var(--card-bg); border-radius: 10px; padding: 14px; border: 1px solid var(--border); border-left: 4px solid var(--primary); transition: all 0.2s; cursor: pointer; position: relative; }
+  .lesion-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(14, 77, 146, 0.15); }
+  .lesion-card.expanded { grid-column: 1 / -1; border-left-width: 6px; }
+  .lesion-card.hidden { display: none; }
+  .lesion-icon { font-size: 28px; line-height: 1; }
+  .lesion-card .lesion-name { font-weight: 700; color: var(--primary); font-size: 15px; margin: 4px 0; }
+  .lesion-card .lesion-freq { font-size: 11px; color: #6b7280; }
+  .lesion-card .lesion-quick { font-size: 13px; margin-top: 6px; line-height: 1.4; }
+  .lesion-card .lesion-detail { display: none; margin-top: 14px; padding-top: 14px; border-top: 2px dashed var(--border); }
+  .lesion-card.expanded .lesion-detail { display: block; }
+  .lesion-card .expand-hint { position: absolute; top: 14px; right: 14px; font-size: 11px; color: #6b7280; background: var(--bg); padding: 2px 8px; border-radius: 12px; }
+  .lesion-card.expanded .expand-hint { background: var(--primary); color: white; }
+  .lesion-card .detail-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; margin-top: 10px; }
+  .lesion-card .detail-block { background: var(--bg); border-radius: 8px; padding: 10px 12px; border-left: 3px solid var(--accent); }
+  .lesion-card .detail-block strong { color: var(--primary); display: block; margin-bottom: 4px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .lesion-card .detail-block p { margin: 0; font-size: 13px; line-height: 1.5; }
+
+  .stat-num { font-size: 32px; font-weight: 800; color: var(--primary); line-height: 1; }
+  .gradient-hero { background: linear-gradient(135deg, #0E4D92 0%, #14B8A6 100%); color: white; }
+  .gradient-hero .stat-num { color: white; }
+  .pmid-link { color: #2563eb; text-decoration: underline; font-size: 12px; }
+  .pmid-link:hover { color: #1e40af; }
+  [data-theme="dark"] .pmid-link { color: #93c5fd; }
+  .tip-item { background: var(--bg); padding: 10px 14px; border-radius: 8px; border-left: 3px solid var(--accent); margin-bottom: 8px; font-size: 13px; }
+  .tip-num { display: inline-block; background: var(--accent); color: white; width: 24px; height: 24px; border-radius: 50%; text-align: center; line-height: 24px; font-weight: 700; font-size: 12px; margin-right: 8px; }
+
+  /* Tabs */
+  .tabs { display: flex; gap: 4px; border-bottom: 2px solid var(--border); margin-bottom: 16px; flex-wrap: wrap; }
+  .tab { padding: 8px 14px; background: transparent; border: none; cursor: pointer; color: var(--text); font-weight: 600; font-size: 13px; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.2s; }
+  .tab:hover { color: var(--primary); }
+  .tab.active { color: var(--primary); border-bottom-color: var(--primary); }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* Highlight */
+  mark { background: #fef08a; padding: 0 2px; border-radius: 2px; color: #422006; }
+
+  /* Print */
+  @media print {
+    .topnav, .toc, .fab, .tabs { display: none !important; }
+    .card { box-shadow: none; border: 1px solid #ccc; page-break-inside: avoid; }
+    body { background: white; color: black; }
+    .tab-content { display: block !important; }
+    .lesion-detail { display: block !important; }
+  }
+
+  /* Mermaid theming */
+  [data-theme="dark"] .mermaid { background: var(--card-bg); }
+</style>
+</head>
+<body>
+
+<!-- Progress bar -->
+<div id="progress"></div>
+
+<!-- Top nav -->
+<nav class="topnav">
+  <div class="topnav-inner">
+    <div class="logo">🫀 Siêu âm Tim Thai</div>
+    <div class="search">
+      <input type="text" id="searchInput" placeholder="🔍 Tìm lesion, thuật ngữ, PMID..." />
+    </div>
+    <button class="icon-btn" id="themeToggle" title="Toggle dark mode">🌙</button>
+    <button class="icon-btn" id="printBtn" title="In / Xuất PDF">🖨️</button>
+    <button class="icon-btn" id="expandAllBtn" title="Mở rộng tất cả lesions">📖</button>
+    <button class="icon-btn" id="collapseAllBtn" title="Thu gọn tất cả">📕</button>
+  </div>
+</nav>
+
+<!-- TOC sidebar (desktop) -->
+<aside class="toc" id="toc">
+  <h4>📑 Mục lục</h4>
+  <a href="#cover">1. Tổng quan</a>
+  <a href="#indications">2. Chỉ định</a>
+  <a href="#anatomy">3. Giải phẫu + Segmental</a>
+  <a href="#views">4. 5+ Mặt cắt chuẩn</a>
+  <a href="#measurements">5. Đo đạc + Z-score</a>
+  <a href="#lesions">6. Gallery 14 tổn thương</a>
+  <a href="#counseling">7. Tư vấn bệnh nhân</a>
+  <a href="#checklist">8. Checklist thực hành</a>
+  <a href="#guidelines">9. Bảng guideline</a>
+  <a href="#references">10. References</a>
+</aside>
+
+<!-- FAB -->
+<div class="fab">
+  <button id="scrollTop" title="Lên đầu trang">⬆️</button>
+  <button id="themeFab" title="Dark mode">🌙</button>
+  <button id="printFab" title="In">🖨️</button>
+</div>
+
+<div class="container" style="padding-top: 16px; padding-bottom: 80px;">
+
+<!-- ============ 1. COVER / HERO ============ -->
+<div class="card gradient-hero text-center p-8 md:p-12 mb-6" id="cover" style="border-left: none;">
+  <div class="text-sm font-semibold opacity-90 uppercase tracking-wider mb-3">Bài học y khoa · Siêu âm thai chuyên sâu</div>
+  <h1 class="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">Siêu âm Tim Thai<br/>(Fetal Echocardiography)</h1>
+  <p class="text-lg md:text-xl opacity-95 mb-6">Từ chỉ định · Giải phẫu · Mặt cắt chuẩn · Đo đạc Z-score · 14 tổn thương · Tư vấn</p>
+  <div class="flex flex-wrap justify-center gap-2 mb-6">
+    <span class="badge bg-white text-blue-900">ISUOG 2023</span>
+    <span class="badge bg-white text-blue-900">ASE 2023</span>
+    <span class="badge bg-white text-blue-900">AHA 2014</span>
+    <span class="badge bg-white text-blue-900">AIUM 2020</span>
+    <span class="badge bg-white text-blue-900">PMID 37267096</span>
+    <span class="badge bg-white text-blue-900">PMID 37227365</span>
+  </div>
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 max-w-4xl mx-auto">
+    <div class="bg-white bg-opacity-15 backdrop-blur rounded-xl p-4">
+      <div class="stat-num text-white">8–10</div>
+      <div class="text-sm opacity-90 mt-2">/1000 livebirth<br/>CHD prevalence</div>
+    </div>
+    <div class="bg-white bg-opacity-15 backdrop-blur rounded-xl p-4">
+      <div class="stat-num text-white">~50%</div>
+      <div class="text-sm opacity-90 mt-2">prenatal detection<br/>(CCHD, 2024–2026)</div>
+    </div>
+    <div class="bg-white bg-opacity-15 backdrop-blur rounded-xl p-4">
+      <div class="stat-num text-white">18–22</div>
+      <div class="text-sm opacity-90 mt-2">tuần — GA tối ưu<br/>cho sàng lọc</div>
+    </div>
+    <div class="bg-white bg-opacity-15 backdrop-blur rounded-xl p-4">
+      <div class="stat-num text-white">5+2</div>
+      <div class="text-sm opacity-90 mt-2">mặt cắt chuẩn<br/>(4CV + LVOT + RVOT + 3V + 3VT)</div>
+    </div>
+  </div>
+  <div class="text-xs opacity-75 mt-6 italic">
+    Nguồn: PMID 24763516 (AHA 2014), PMID 38402176 (Cody 2024), PMID 41999457 (Lemley 2026), PMID 38565667 (Gupta 2024), PMID 40892004 (Ribeiro 2025).
+  </div>
+</div>
+
+<!-- ============ 2. INDICATIONS ============ -->
+<div class="card" id="indications">
+  <h2 class="text-2xl font-bold mb-3">1️⃣ Chỉ định Siêu âm Tim Thai chi tiết (Fetal Echocardiography)</h2>
+  <p>Theo <strong>ISUOG 2023 (PMID 37267096)</strong>, <strong>ASE 2023 (PMID 37227365)</strong>, <strong>AHA 2014 (PMID 24763516)</strong>, <strong>AIUM 2020 (PMID 31846540)</strong>:</p>
+  <div class="mermaid my-4">
+flowchart TD
+    A["Thai phụ cần<br/>siêu âm tim thai?"]:::question
+    A -->|Có chỉ định| B{Factor nào?}
+    A -->|Không| Z[Theo dõi thường quy]
+    B -->|Fetal| F[Fetal Factors]
+    B -->|Maternal| M[Maternal Factors]
+    B -->|Familial| Fam[Familial Factors]
+    F --> F1["NT ≥ 3.5 mm"]
+    F --> F2["Bất thường 4CV/3VT<br/>trên SA thường quy"]
+    F --> F3["Monochorionic twins<br/>+ TTTS / sIUGR"]
+    F --> F4["Polyhydramnios / oligohydramnios"]
+    F --> F5["Fetal arrhythmia / hydrops"]
+    M --> M1["T1DM / SLE / anti-Ro+"]
+    M --> M2["Teratogen exposure<br/>retinoic acid, AED"]
+    M --> M3["Mẹ bệnh tim / phenylketonuria"]
+    M --> M4["Mẹ > 35 tuổi (debatable)"]
+    M --> M5["ART / IVF"]
+    Fam --> Fa1["Con trước CHD"]
+    Fam --> Fa2["Cha/mẹ CHD<br/>(recurrence 3-7%)"]
+    Fam --> Fa3["CHD trong dòng họ<br/>(first-degree)"]
+    F1 --> Out["Fetal Echocardiography<br/>18-22 tuần, hoặc<br/>11-14 tuần nếu nguy cơ cao"]
+    F2 --> Out
+    F3 --> Out
+    F4 --> Out
+    F5 --> Out
+    M1 --> Out
+    M2 --> Out
+    M3 --> Out
+    M4 --> Out
+    M5 --> Out
+    Fa1 --> Out
+    Fa2 --> Out
+    Fa3 --> Out
+    style A fill:#fce7f3,stroke:#be185d
+    style B fill:#fef3c7,stroke:#92400e
+    style Z fill:#d1fae5,stroke:#065f46
+    style Out fill:#dbeafe,stroke:#1e40af
+  </div>
+  <p class="text-sm text-gray-600 italic mt-2">Hình 1: Chỉ định Fetal Echocardiography đồng thuận ASE 2023 + AHA 2014 + AIUM 2020 + ISUOG 2023.</p>
+</div>
+
+<!-- ============ 3. ANATOMY + SEGMENTAL ============ -->
+<div class="card" id="anatomy">
+  <h2 class="text-2xl font-bold mb-3">2️⃣ Giải phẫu & Phân tích Segmental (Van Praagh + Anderson)</h2>
+  <div class="mermaid my-4">
+flowchart LR
+    S1["1. Atrial situs<br/>(S/I/A)"]:::seg
+    S2["2. AV connection<br/>(concordant/<br/>discordant)"]:::seg
+    S3["3. VA connection<br/>(concordant/<br/>discordant)"]:::seg
+    S4["4. Associated<br/>anomalies"]:::seg
+    S5["5. Great vessels<br/>& arches"]:::seg
+    S1 --> S2 --> S3 --> S4 --> S5
+    S1 -.->|situs| O(("Notation:<br/>{S, D, S}<br/>= normal<br/>{S, L, L} = ccTGA")):::out
+    style S1 fill:#dbeafe
+    style S2 fill:#fef3c7
+    style S3 fill:#fce7f3
+    style S4 fill:#d1fae5
+    style S5 fill:#ccfbf1
+    style O fill:#ede9fe
+  </div>
+  <div class="grid md:grid-cols-2 gap-3 mt-4">
+    <div class="info">
+      <strong>Quy tắc "Rule of 3" (Anderson) - xác định morphology ventricle:</strong>
+      <ul class="list-disc list-inside mt-2 text-sm">
+        <li><strong>RV morphology</strong> = 1 trong 3: moderator band, TV chordae bám IVS, infundibulum muscular</li>
+        <li><strong>LV morphology</strong> = 1 trong 3: 2 papillary muscles, MV chordae không bám IVS, aortic-mitral continuity</li>
+        <li>Nếu ventricle có cả 2 → indeterminate (rất hiếm)</li>
+      </ul>
+    </div>
+    <div class="teal-info">
+      <strong>Bảng Van Praagh notation:</strong>
+      <table class="mt-2 text-sm">
+        <thead><tr><th>Code</th><th>Nghĩa</th><th>Ví dụ</th></tr></thead>
+        <tbody>
+          <tr><td>{S, D, S}</td><td>Solitus-D-Solitus</td><td>Bình thường</td></tr>
+          <tr><td>{S, D, D}</td><td>Ao anterior-right of PA</td><td>D-TGA</td></tr>
+          <tr><td>{S, L, L}</td><td>AV + VA discordance</td><td>ccTGA (L-TGA)</td></tr>
+          <tr><td>{A, -, -}</td><td>Isomerism</td><td>Heterotaxy LAI/RAI</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 4. STANDARD VIEWS ============ -->
+<div class="card" id="views">
+  <h2 class="text-2xl font-bold mb-3">3️⃣ 5+ Mặt cắt Chuẩn (Standard Views)</h2>
+  <p class="mb-3">Theo <strong>ISUOG 2023 (PMID 37267096)</strong> + <strong>ASE 2023 (PMID 37227365)</strong>: ít nhất 5 mặt cắt bắt buộc cho sàng lọc tim thai.</p>
+  <div class="overflow-x-auto">
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Mặt cắt</th>
+        <th>Cấu trúc thấy được</th>
+        <th>Phát hiện chính</th>
+        <th>Mức bắt buộc</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1</strong></td>
+        <td><strong>4-Chamber View (4CV)</strong></td>
+        <td>RA, LA, RV, LV; 2 AV valves (MV, TV); IVS, IAS; FO; cardiac axis 45°±20°; CT ratio 0.25-0.33</td>
+        <td>VSD, AVSD, hypoplastic ventricle, Ebstein, TAPVR, cardiac tumors</td>
+        <td><span class="badge badge-red">BẮT BUỘC</span></td>
+      </tr>
+      <tr>
+        <td><strong>2</strong></td>
+        <td><strong>LVOT view</strong> (Left Ventricular Outflow Tract)</td>
+        <td>LV → MV (anterior leaflet) → AoV → Ascending Ao; aortic-mitral continuity</td>
+        <td>AS, BAV, TGA, DORV, HLHS, overriding aorta (TOF)</td>
+        <td><span class="badge badge-red">BẮT BUỘC</span></td>
+      </tr>
+      <tr>
+        <td><strong>3</strong></td>
+        <td><strong>RVOT view</strong> (Right Ventricular Outflow Tract)</td>
+        <td>RV → TV → PV (infundibulum) → MPA → bifurcation (LPA + RPA) → DA</td>
+        <td>PS, PA, TOF, TGA, DORV, ductal constriction</td>
+        <td><span class="badge badge-red">BẮT BUỘC</span></td>
+      </tr>
+      <tr>
+        <td><strong>4</strong></td>
+        <td><strong>3-Vessel View (3V)</strong></td>
+        <td>PA (trước-trái, lớn nhất) + Ao asc (giữa-sau) + SVC (sau-phải, nhỏ nhất). Công thức: PA &gt; Ao &gt; SVC</td>
+        <td>D-TGA (parallel vessels), CoA (Ao nhỏ), right arch, vascular ring</td>
+        <td><span class="badge badge-red">BẮT BUỘC</span></td>
+      </tr>
+      <tr>
+        <td><strong>5</strong></td>
+        <td><strong>3-Vessel-Trachea View (3VT)</strong></td>
+        <td>Ao arch (trái trachea) + DA (right-anterior) + trachea; "V-shape" Ao + DAo</td>
+        <td>CoA, right arch, double aortic arch, aberrant RSA</td>
+        <td><span class="badge badge-red">BẮT BUỘC</span></td>
+      </tr>
+      <tr>
+        <td><strong>6</strong></td>
+        <td><strong>Sagittal Aortic Arch</strong> (long axis)</td>
+        <td>"Candy cane": Asc Ao → arch → DAo; 3 nhánh (innominate, LCCA, LSA)</td>
+        <td>CoA (shelf ở isthmus), IAA, arch hypoplasia</td>
+        <td><span class="badge badge-yellow">KHUYẾN CÁO</span></td>
+      </tr>
+      <tr>
+        <td><strong>7</strong></td>
+        <td><strong>Ductal Arch</strong> (long axis)</td>
+        <td>"Hockey stick": RV → PV → MPA → DA → DAo; 1 nhánh (nối LPA)</td>
+        <td>DA constriction (NSAIDs), DA aneurysm, ductal-dependent lesions</td>
+        <td><span class="badge badge-yellow">KHUYẾN CÁO</span></td>
+      </tr>
+      <tr>
+        <td><strong>8</strong></td>
+        <td><strong>Bicaval view</strong> (short/long)</td>
+        <td>SVC + IVC đổ vào RA; Eustachian valve ở IVC ostium</td>
+        <td>Persistent LSVC, interrupted IVC (LAI), situs anomalies</td>
+        <td><span class="badge badge-green">CHUYÊN SÂU</span></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="keypoint mt-4">
+    <strong>Phát hiện CHD theo mặt cắt (PMID 31945242, Bak 2020):</strong> 4CV alone phát hiện ~40% CHD. Thêm LVOT + RVOT + 3V + 3VT → phát hiện <strong>~70-80% CHD</strong>. <strong>Đây là lý do outflow tract views BẮT BUỘC</strong> (TOF, TGA, DORV thường có 4CV bình thường).
+  </div>
+</div>
+
+<!-- ============ 5. MEASUREMENTS ============ -->
+<div class="card" id="measurements">
+  <h2 class="text-2xl font-bold mb-3">4️⃣ Đo đạc theo Tuổi thai (GA-based Measurements) + Z-score</h2>
+  <p class="mb-3">Theo <strong>Schneider 2005 (PMID 16254878)</strong> + <strong>Krishnan 2020 systematic review</strong> — dùng khi đánh giá evolving lesions (HLHS, CoA, PS/PA).</p>
+  <div class="grid lg:grid-cols-2 gap-4">
+    <div>
+      <h3 class="text-lg font-bold mb-2">📈 Kích thước van + đại mạch theo GA</h3>
+      <div class="chart-box-sm">
+        <canvas id="measurementsChart"></canvas>
+      </div>
+    </div>
+    <div>
+      <h3 class="text-lg font-bold mb-2">💓 Nhịp tim thai (FHR) theo GA</h3>
+      <div class="chart-box-sm">
+        <canvas id="fhrChart"></canvas>
+      </div>
+    </div>
+  </div>
+  <div class="overflow-x-auto mt-4">
+  <table>
+    <thead>
+      <tr>
+        <th>Cấu trúc (mm)</th>
+        <th>16 tuần</th>
+        <th>20 tuần</th>
+        <th>24 tuần</th>
+        <th>28 tuần</th>
+        <th>32 tuần</th>
+        <th>36 tuần</th>
+        <th>Z-score bất thường</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>MV annulus</td><td>2.5</td><td>4.2</td><td>5.8</td><td>7.6</td><td>9.4</td><td>11.5</td><td>&lt; -3: MV atresia</td></tr>
+      <tr><td>TV annulus</td><td>3.0</td><td>4.8</td><td>6.7</td><td>8.7</td><td>10.6</td><td>13.0</td><td>&lt; -3: TV atresia</td></tr>
+      <tr><td>AoV annulus</td><td>2.2</td><td>3.6</td><td>5.0</td><td>6.3</td><td>7.8</td><td>9.5</td><td>&lt; -3: Ao atresia / HLHS</td></tr>
+      <tr><td>PV annulus</td><td>2.8</td><td>4.5</td><td>6.1</td><td>7.8</td><td>9.6</td><td>11.6</td><td>&lt; -3: PA / PS</td></tr>
+      <tr><td>MPA</td><td>2.4</td><td>3.9</td><td>5.3</td><td>6.7</td><td>8.3</td><td>10.0</td><td>&lt; -3: PS/PA</td></tr>
+      <tr><td>Aortic isthmus</td><td>1.6</td><td>2.6</td><td>3.5</td><td>4.3</td><td>5.2</td><td>6.4</td><td>&lt; -2.5: CoA nghi ngờ</td></tr>
+      <tr><td>LV length</td><td>7</td><td>11.5</td><td>16</td><td>19</td><td>22</td><td>28</td><td>&lt; -3: HLHS</td></tr>
+      <tr><td>RV length</td><td>7</td><td>11</td><td>15.5</td><td>18.5</td><td>21.5</td><td>27.5</td><td>&lt; -3: PA-IVS</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="info mt-3">
+    <strong>Z-score calculators online:</strong> FetalHQ (fetalhq.com), Children's Hospital Boston, Cincinnati Fetal Heart Z-score, Z-score.org. Dùng calculator online thay vì tính tay.
+  </div>
+</div>
+
+<!-- ============ 6. LESION GALLERY - INTERACTIVE ============ -->
+<div class="card" id="lesions">
+  <h2 class="text-2xl font-bold mb-3">5️⃣ Gallery 14 Tổn thương Tim thai (Click để mở rộng)</h2>
+  <p class="text-sm text-gray-600 mb-4">💡 <strong>Click vào bất kỳ card nào</strong> để xem chi tiết: giải phẫu, siêu âm, chẩn đoán phân biệt, bất thường kèm theo, tư vấn, PMID.</p>
+  <div class="lesion-grid" id="lesionGrid">
+
+      <div class="lesion-card" data-id="vsd">
+        <div class="lesion-icon">💔</div>
+        <div class="lesion-name">VSD</div>
+        <div class="lesion-freq">25-30% CHD đơn độc</div>
+        <div class="lesion-quick">
+          <div><strong>4CV:</strong> Echo gap vách liên thất</div>
+          <div><strong>LVOT/RVOT/3VT:</strong> Gap dưới AoV (perimembranous)</div>
+          <div style="color: #be185d; margin-top: 4px; font-size: 11px;"><strong>NST:</strong> T21, T18, 22q11</div>
+          <div style="color: #065f46; margin-top: 4px; font-size: 11px;"><strong>Tiên lượng:</strong> Nhỏ (<3mm): tự đóng >80%. Lớn: cần device/mổ.</div>
+        </div>
+        <div class="expand-hint">▼ Click để mở rộng</div>
+        <div class="lesion-detail">
+          <div class="detail-grid">
+            <div class="detail-block">
+              <strong>📐 Giải phẫu & Phôi thai học</strong>
+              <p>Vách liên thất cấu tạo từ 4 thành phần (membranous, muscular, inlet, outlet). Phân loại: Perimembranous (70%), Muscular (20%), Inlet (5%), Outlet/supracristal (5%).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔍 Dấu hiệu Siêu âm</strong>
+              <p>4CV: echo gap IVS. LVOT: gap dưới AoV. Color Doppler: shunt qua lỗ PRF 4-6 kHz. VSD rất nhỏ (<2mm) chỉ thấy khi xoay 90° sagittal hoặc harmonic imaging.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔄 Chẩn đoán phân biệt</strong>
+              <p>Drop-out artifact vách cơ (mặt cắt không chuẩn), AVSD, VSD là 1 phần TOF/DORV/TGA - KHÔNG dừng chẩn đoán VSD đơn thuần khi chưa khảo sát LVOT, RVOT, 3VT.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔗 Bất thường kèm theo</strong>
+              <p>Chromosomal T21, T18, T13, 22q11 del. Extracardiac: esophageal/duodenal atresia, CNS, omphalocele, renal. Syndromic: VACTERL, CHARGE, Holt-Oram TBX5.</p>
+            </div>
+            <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+              <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+              <p>VSD nhỏ đơn độc (<3mm, muscular): 80-90% tự đóng trước 2 tuổi, tiên lượng rất tốt, thường không cần can thiệp. VSD perimembranous lớn (>6mm): có thể cần đóng bằng device qua da hoặc phẫu thuật mở; nguy cơ suy tim sung huyết trong năm đầu. Sinh ở BV có phẫu thuật tim mạch nhi (level III) nếu VSD lớn.</p>
+            </div>
+          </div>
+          <div style="color: #6b7280; margin-top: 8px; font-size: 11px;"><strong>Citation:</strong> PMID 24890896 · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=VSD" target="_blank">Tìm thêm trên PubMed</a></div>
+        </div>
+      </div>
+      <div class="lesion-card" data-id="asd">
+        <div class="lesion-icon">🕳️</div>
+        <div class="lesion-name">ASD</div>
+        <div class="lesion-freq">7-10% CHD (khó chẩn đoán trước sinh)</div>
+        <div class="lesion-quick">
+          <div><strong>4CV:</strong> Echo gap vách liên nhĩ</div>
+          <div><strong>LVOT/RVOT/3VT:</strong> Sinus venosus trên 3VT</div>
+          <div style="color: #be185d; margin-top: 4px; font-size: 11px;"><strong>NST:</strong> T21, Holt-Oram (TBX5)</div>
+          <div style="color: #065f46; margin-top: 4px; font-size: 11px;"><strong>Tiên lượng:</strong> Tốt, đóng qua da >95%</div>
+        </div>
+        <div class="expand-hint">▼ Click để mở rộng</div>
+        <div class="lesion-detail">
+          <div class="detail-grid">
+            <div class="detail-block">
+              <strong>📐 Giải phẫu & Phôi thai học</strong>
+              <p>Vách liên nhĩ từ septum primum + septum secundum. Phân loại: Secundum ASD (70% - fossa ovalis), Primum ASD (15% - phần thấp, AVSD), Sinus venosus ASD (10% - gần SVC/IVC), Coronary sinus ASD (hiếm).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔍 Dấu hiệu Siêu âm</strong>
+              <p>4CV: echo gap giữa vách liên nhĩ (secundum); phần thấp kề van (primum); cao gần chỗ đổ SVC (sinus venosus). Lưu ý: FO flap mở ở thai - KHÔNG nhầm ASD. Sinus venosus ASD: cần 'sweep' lên trên tìm PAPVR.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔄 Chẩn đoán phân biệt</strong>
+              <p>PFO bình thường ở thai, 'echo drop-out' vách liên nhĩ ở fossa ovalis, primum ASD vs AVSD complete, thrombosis nhĩ (hiếm).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔗 Bất thường kèm theo</strong>
+              <p>Primum ASD thường là một phần của AVSD; gặp trong T21. Sinus venosus ASD: hay kèm PAPVR phổi phải (90% sinous venosus ASD type SVC).</p>
+            </div>
+            <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+              <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+              <p>Secundum ASD nhỏ (<5mm): thường đóng tự nhiên (80% trong 18 tháng). Secundum ASD lớn hoặc không đóng: đóng qua da bằng device (Amplatzer Septal Occluder), tỷ lệ thành công >95%. Sinus venosus ASD thường cần phẫu thuật mở vì kích thước lỗ lớn + PAPVR kèm theo. Tiên lượng lâu dài tốt nếu đóng kịp thời.</p>
+            </div>
+          </div>
+          <div style="color: #6b7280; margin-top: 8px; font-size: 11px;"><strong>Citation:</strong> PMID 28236122, 31652563 · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=ASD" target="_blank">Tìm thêm trên PubMed</a></div>
+        </div>
+      </div>
+      <div class="lesion-card" data-id="avsd">
+        <div class="lesion-icon">➕</div>
+        <div class="lesion-name">AVSD</div>
+        <div class="lesion-freq">5% CHD; 40% CHD ở Down syndrome</div>
+        <div class="lesion-quick">
+          <div><strong>4CV:</strong> Mất AV valve offset, common AV valve, '+' sign</div>
+          <div><strong>LVOT/RVOT/3VT:</strong> Cleft MV + VSD inlet</div>
+          <div style="color: #be185d; margin-top: 4px; font-size: 11px;"><strong>NST:</strong> T21 (75%)</div>
+          <div style="color: #065f46; margin-top: 4px; font-size: 11px;"><strong>Tiên lượng:</strong> Cân bằng: 85-90% sống 5 năm</div>
+        </div>
+        <div class="expand-hint">▼ Click để mở rộng</div>
+        <div class="lesion-detail">
+          <div class="detail-grid">
+            <div class="detail-block">
+              <strong>📐 Giải phẫu & Phôi thai học</strong>
+              <p>Sai sót hợp nhất endocardial cushions (ngày 35-40) → 1 van nhĩ-thất chung (common AV valve) bắc cầu qua 2 thất + ASD primum + VSD inlet. Phân loại Rastelli: Complete (60% - có cả ASD, VSD, common valve), Partial (30%), Transitional (10%), Unbalanced (tiên lượng xấu).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔍 Dấu hiệu Siêu âm</strong>
+              <p>4CV DẤU HIỆU QUAN TRỌNG NHẤT: mất 'offset' van nhĩ-thất - cả MV và TV đính ở cùng mức. Common AV valve: 'dải' van dày bắc ngang. 'Cross' / '+' sign: 2 dòng echo (IVS + van AV) tạo chữ thập giữa tim. LVOT: cleft MV + VSD inlet.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔄 Chẩn đoán phân biệt</strong>
+              <p>VSD inlet đơn thuần, primum ASD đơn thuần, unbalanced AVSD vs HLHS, DORV. Nên làm karyotype + CMA cho mọi AVSD.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔗 Bất thường kèm theo</strong>
+              <p>T21 (Down) 75% trường hợp AVSD complete. T18 cũng hay gặp. 22q11 deletion.</p>
+            </div>
+            <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+              <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+              <p>AVSD complete balanced ở trẻ không Down: phẫu thuật trong 3-6 tháng tuổi, sống 5 năm 85-90% ở trung tâm lớn. AVSD ở trẻ Down: tiên lượng tương tự, nhưng nguy cơ tăng áp phổi sau mổ cao hơn. Unbalanced AVSD: tiên lượng xấu, cần nhiều giai đoạn (Glenn → Fontan) hoặc transplant. Theo dõi thai mỗi 4 tuần.</p>
+            </div>
+          </div>
+          <div style="color: #6b7280; margin-top: 8px; font-size: 11px;"><strong>Citation:</strong> PMID 29207077, 30395868 · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=AVSD" target="_blank">Tìm thêm trên PubMed</a></div>
+        </div>
+      </div>
+      <div class="lesion-card" data-id="tof">
+        <div class="lesion-icon">🫀</div>
+        <div class="lesion-name">TOF (Tetralogy of Fallot)</div>
+        <div class="lesion-freq">5-7% CHD, CHD tím tái phổ biến nhất</div>
+        <div class="lesion-quick">
+          <div><strong>4CV:</strong> Bình thường (RVH không thấy trước sinh)</div>
+          <div><strong>LVOT/RVOT/3VT:</strong> Overriding aorta, PA nhỏ hẹp</div>
+          <div style="color: #be185d; margin-top: 4px; font-size: 11px;"><strong>NST:</strong> 22q11 (10-15%)</div>
+          <div style="color: #065f46; margin-top: 4px; font-size: 11px;"><strong>Tiên lượng:</strong> 90%+ sống 20 năm</div>
+        </div>
+        <div class="expand-hint">▼ Click để mở rộng</div>
+        <div class="lesion-detail">
+          <div class="detail-grid">
+            <div class="detail-block">
+              <strong>📐 Giải phẫu & Phôi thai học</strong>
+              <p>Do sai lệch trục của conal septum sang phải trước → phễu phải co ngắn và hẹp. 4 đặc điểm: (1) VSD lớn, (2) PS subvalvular, (3) RV hypertrophy (SAU SINH), (4) Overriding aorta >50% qua VSD. 3 phân loại: TOF-PS, TOF-PA (pseudotruncus), TOF-APV (absent PV).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔍 Dấu hiệu Siêu âm</strong>
+              <p>4CV thường BÌNH THƯỜNG - lý do cần LVOT/RVOT/3VT. LVOT (5-chamber): overriding aorta - ĐMC nằm trên cả 2 thất, >50% qua VSD. RVOT/3VT: ĐMP nhỏ hẹp so với ĐMC; thường mất 'I' shape. PW: v > 1.5 m/s qua PV.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔄 Chẩn đoán phân biệt</strong>
+              <p>DORV (DORV-subaortic + RVOT obstruction rất giống TOF; ranh giới phụ thuộc 'override %'), Truncus arteriosus, TOF-PA vs truncus, PA-IVS.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔗 Bất thường kèm theo</strong>
+              <p>22q11.2 deletion (DiGeorge) 10-15% TOF, đặc biệt TOF-PA và APV-TOF. T21, T18. Absent thymus (gợi ý DiGeorge), renal anomalies, VACTERL, CHARGE, Alagille (JAG1).</p>
+            </div>
+            <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+              <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+              <p>TOF-PS: phẫu thuật sửa chữa toàn bộ trong 3-6 tháng tuổi, sống 20 năm >90%. Sau mổ có thể có PR cần theo dõi dài hạn, có thể cần thay van ĐMP qua da (Melody valve) khi trưởng thành. TOF-PA/APV-TOF: tiên lượng xấu hơn, cần nhiều giai đoạn (BT shunt → sửa RVOT + unifocalization MAPCAs). Cần PGE1 nếu ĐMP rất nhỏ. BẮT BUỘC CMA/FISH.</p>
+            </div>
+          </div>
+          <div style="color: #6b7280; margin-top: 8px; font-size: 11px;"><strong>Citation:</strong> PMID 31913940, 32719225 · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=TOF (Tetralogy of Fallot)" target="_blank">Tìm thêm trên PubMed</a></div>
+        </div>
+      </div>
+      <div class="lesion-card" data-id="tga">
+        <div class="lesion-icon">🔄</div>
+        <div class="lesion-name">TGA (D-TGA / L-TGA)</div>
+        <div class="lesion-freq">5% CHD, nguyên nhân hàng đầu tử vong sơ sinh do CHD</div>
+        <div class="lesion-quick">
+          <div><strong>4CV:</strong> Bình thường ở D-TGA</div>
+          <div><strong>LVOT/RVOT/3VT:</strong> Parallel great vessels (ĐMC + ĐMP song song)</div>
+          <div style="color: #be185d; margin-top: 4px; font-size: 11px;"><strong>NST:</strong> Hiếm khi NST</div>
+          <div style="color: #065f46; margin-top: 4px; font-size: 11px;"><strong>Tiên lượng:</strong> 90%+ sống 20 năm sau Jatene</div>
+        </div>
+        <div class="expand-hint">▼ Click để mở rộng</div>
+        <div class="lesion-detail">
+          <div class="detail-grid">
+            <div class="detail-block">
+              <strong>📐 Giải phẫu & Phôi thai học</strong>
+              <p>Kết quả xoay trục bất thường của conotruncal septum (xoay thẳng thay vì xoắn xoáy 180°). Hậu quả: ventriculoarterial discordance. D-TGA (85%): ĐMC trước-phải ĐMP. L-TGA/ccTGA (15%): cả AV + VA discordance, tuần hoàn 'đúng chiều' dù thất đảo.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔍 Dấu hiệu Siêu âm</strong>
+              <p>4CV bình thường ở D-TGA - KHÔNG loại trừ TGA. LVOT: vessel từ LV → ĐMP (vì parallel circulation). RVOT: vessel từ RV → ĐMC. 3VT: chỉ thấy 2 vessel (ĐMC trước + ĐMP phía sau). 'Parallel great vessels' sign - ĐMC và ĐMP đi song song.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔄 Chẩn đoán phân biệt</strong>
+              <p>DORV (cả 2 vessel từ RV, van ĐMC và ĐMP vẫn ở vị trí tương đối bình thường), Truncus arteriosus, D-TGA vs L-TGA.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔗 Bất thường kèm theo</strong>
+              <p>TGA hiếm khi kèm bất thường NST (chỉ ~1% T21 có TGA), khuyến cáo vẫn làm CMA.</p>
+            </div>
+            <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+              <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+              <p>D-TGA: CẤP CỨU sơ sinh - PGE1 giữ DÂT mở, Rashkind BAS trong 24-48h tạo ASD, arterial switch (Jatene) trong 2 tuần đầu. Sống 20 năm >90% ở trung tâm lớn. L-TGA: nếu không kèm bất thường khác, có thể không cần can thiệp sơ sinh. Theo dõi suốt đời vì RV morphology gánh tuần hoàn hệ thống → suy RV khi trưởng thành. Có thể cần double switch. Sinh ở trung tâm tim mạch nhi.</p>
+            </div>
+          </div>
+          <div style="color: #6b7280; margin-top: 8px; font-size: 11px;"><strong>Citation:</strong> PMID 31846538, 33247677 · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=TGA (D-TGA / L-TGA)" target="_blank">Tìm thêm trên PubMed</a></div>
+        </div>
+      </div>
+      <div class="lesion-card" data-id="dorv">
+        <div class="lesion-icon">↗️</div>
+        <div class="lesion-name">DORV</div>
+        <div class="lesion-freq">1-1.5% CHD</div>
+        <div class="lesion-quick">
+          <div><strong>4CV:</strong> VSD lớn</div>
+          <div><strong>LVOT/RVOT/3VT:</strong> Cả 2 vessel từ RV (100% rule)</div>
+          <div style="color: #be185d; margin-top: 4px; font-size: 11px;"><strong>NST:</strong> 22q11 (20-30%)</div>
+          <div style="color: #065f46; margin-top: 4px; font-size: 11px;"><strong>Tiên lượng:</strong> Tuỳ type</div>
+        </div>
+        <div class="expand-hint">▼ Click để mở rộng</div>
+        <div class="lesion-detail">
+          <div class="detail-grid">
+            <div class="detail-block">
+              <strong>📐 Giải phẫu & Phôi thai học</strong>
+              <p>Cả ĐMC + ĐMP đều xuất phát >50% từ RV morphology. Thường kèm VSD lớn. 4 subtypes: Subaortic (Fallot type, 50%), Subpulmonary (Taussig-Bing, 30%), Doubly-committed (5%), Non-committed/remote (15%, khó sửa nhất).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔍 Dấu hiệu Siêu âm</strong>
+              <p>4CV: VSD lớn (thường inlet hoặc perimembranous). LVOT + RVOT: cả 2 vessel 'vắt' qua VSD từ phía RV. 3VT: bất thường tương tự TGA/TOF. '100% rule' - cả 2 van hoàn toàn từ RV → DORV. >50% từ RV + còn lại → TGA hoặc override.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔄 Chẩn đoán phân biệt</strong>
+              <p>TOF (DORV-subaortic + RVOT obstruction rất giống TOF; ranh giới phụ thuộc 'override %'), TGA (DORV-subpulmonary gần giống TGA), Truncus arteriosus, VSD lớn đơn thuần.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔗 Bất thường kèm theo</strong>
+              <p>22q11.2 deletion 20-30% DORV, đặc biệt DORV-subaortic + RVOT obstruction. T13, T18.</p>
+            </div>
+            <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+              <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+              <p>DORV-subaortic + RVOT obstruction: tương tự TOF. DORV-subpulmonary (Taussig-Bing): cần arterial switch + VSD closure trong vài tuần đầu. DORV-non-committed: phẫu thuật phức tạp nhất, có thể cần biventricular repair hoặc fallback thành single ventricle pathway. Comfort care nên được thảo luận nếu DORV kèm nhiều bất thường (heterotaxy, 22q11 del).</p>
+            </div>
+          </div>
+          <div style="color: #6b7280; margin-top: 8px; font-size: 11px;"><strong>Citation:</strong> PMID 32332596, 30914993 · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=DORV" target="_blank">Tìm thêm trên PubMed</a></div>
+        </div>
+      </div>
+      <div class="lesion-card" data-id="truncus">
+        <div class="lesion-icon">🩸</div>
+        <div class="lesion-name">Truncus Arteriosus</div>
+        <div class="lesion-freq">~1% CHD</div>
+        <div class="lesion-quick">
+          <div><strong>4CV:</strong> VSD lớn (outlet)</div>
+          <div><strong>LVOT/RVOT/3VT:</strong> 1 thân mạch chung, 1 van (truncal)</div>
+          <div style="color: #be185d; margin-top: 4px; font-size: 11px;"><strong>NST:</strong> 22q11 (30-40%)</div>
+          <div style="color: #065f46; margin-top: 4px; font-size: 11px;"><strong>Tiên lượng:</strong> 75-85% sống 5 năm</div>
+        </div>
+        <div class="expand-hint">▼ Click để mở rộng</div>
+        <div class="lesion-detail">
+          <div class="detail-grid">
+            <div class="detail-block">
+              <strong>📐 Giải phẫu & Phôi thai học</strong>
+              <p>Không có sự phân chia ĐMC + ĐMP - conotruncal septum không phát triển. 1 thân mạch chung + 1 van chung (truncal valve) + VSD lớn. Collett & Edwards: Type I (50%, phổ biến nhất), Type II (20%), Type III (10%), Type IV (PA-VSD, 20% - giờ phân loại riêng).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔍 Dấu hiệu Siêu âm</strong>
+              <p>4CV: VSD lớn (outlet, do conal septum thiếu). LVOT/3VT: chỉ thấy 1 vessel duy nhất ('single arterial trunk'), rồi chia arch + PA. 1 van (truncal) thay vì 2. 'I' sign bình thường mất. Color: dòng chảy hỗn loạn ở thân chung.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔄 Chẩn đoán phân biệt</strong>
+              <p>DORV, TOF-PA, APV-TOF.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔗 Bất thường kèm theo</strong>
+              <p>22q11.2 deletion (DiGeorge) 30-40% - tỷ lệ CAO NHẤT trong nhóm conotruncal. BẮT BUỘC CMA/FISH. T18.</p>
+            </div>
+            <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+              <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+              <p>Type I/II: phẫu thuật sửa chữa trong 3-6 tháng tuổi (đóng VSD + tách PA + RV-PA conduit). Sống 5 năm 75-85%. Cần thay RV-PA conduit nhiều lần theo tuổi. Type IV/PA-VSD: tiên lượng xấu, cần unifocalization + RV-PA reconstruction nhiều giai đoạn. Trẻ 22q11 del: tăng nguy cơ nhiễm trùng cơ hội, hypocalcemia (co giật sơ sinh), chậm phát triển tâm thần - theo dõi di truyền, miễn dịch, phát triển.</p>
+            </div>
+          </div>
+          <div style="color: #6b7280; margin-top: 8px; font-size: 11px;"><strong>Citation:</strong> PMID 32641118, 30478416 · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=Truncus Arteriosus" target="_blank">Tìm thêm trên PubMed</a></div>
+        </div>
+      </div>
+      <div class="lesion-card" data-id="hlhs">
+        <div class="lesion-icon">🫥</div>
+        <div class="lesion-name">HLHS</div>
+        <div class="lesion-freq">2-3% CHD; 25% tử vong sơ sinh do CHD</div>
+        <div class="lesion-quick">
+          <div><strong>4CV:</strong> LV nhỏ, RV dominate, EFE</div>
+          <div><strong>LVOT/RVOT/3VT:</strong> Ao nhỏ, retrograde arch flow</div>
+          <div style="color: #be185d; margin-top: 4px; font-size: 11px;"><strong>NST:</strong> Turner (10-15%)</div>
+          <div style="color: #065f46; margin-top: 4px; font-size: 11px;"><strong>Tiên lượng:</strong> 70-80% sống 5 năm sau Fontan</div>
+        </div>
+        <div class="expand-hint">▼ Click để mở rộng</div>
+        <div class="lesion-detail">
+          <div class="detail-grid">
+            <div class="detail-block">
+              <strong>📐 Giải phẫu & Phôi thai học</strong>
+              <p>Thiểu sản toàn bộ bên trái tim (LA, MV, LV, AoV, ascending Ao, cung Ao). Cơ chế: flow hypothesis (Rudolph) - AS nặng/CoA/FO hẹn chế → giảm tưới máu LV → LV ngừng phát triển. 2 phenotype: MA+AA (nặng nhất) hoặc MS+AS (nhẹ hơn).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔍 Dấu hiệu Siêu âm</strong>
+              <p>4CV DẤU HIỆU SỚM NHẤT: LV nhỏ (LV/RV ratio < 0.6, Z < -2). MV nhỏ hoặc không có. RV dominate, apex hình thành bởi RV. Echo mô LV dày, tăng âm (EFE). LVOT: van ĐMC hẹp hoặc atretic, ĐMC lên nhỏ. 3VT: ĐMP lớn so với ĐMC. Doppler: dòng chảy ngược từ DA lên cung ĐMC (retrograde arch flow) - gần như chẩn đoán xác định.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔄 Chẩn đoán phân biệt</strong>
+              <p>Critical AS evolving HLHS (theo dõi tiến triển), Unbalanced AVSD left dominance, DCM (LV lớn chứ không nhỏ), Shone complex (CoA + MS + parachute MV + SAS).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔗 Bất thường kèm theo</strong>
+              <p>Turner syndrome (45,X) 10-15% HLHS. T18, T13. CNS anomalies, renal, GI. Khảo sát não thai (cerebral blood flow) vì nguy cơ neurologic injury sau phẫu thuật.</p>
+            </div>
+            <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+              <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+              <p>3 lựa chọn: (1) Comfort care / palliative - tử vong trong vài ngày-túần. (2) 3-stage surgical palliation: Norwood (2 tuần đầu, tử vong 10-20%) → Glenn (4-6 tháng) → Fontan (2-4 tuổi). Sống 5 năm sau Fontan 70-80%. (3) Heart transplant - rất hiếm. Biến chứng lâu dài: protein-losing enteropathy, plastic bronchitis, Fontan failure. Sinh ở trung tâm tim mạch nhi + PGE1 + có thể cần BAS nếu FO restrictive. Theo dõi thai mỗi 4 tuần.</p>
+            </div>
+          </div>
+          <div style="color: #6b7280; margin-top: 8px; font-size: 11px;"><strong>Citation:</strong> PMID 32286218, 31986452 · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=HLHS" target="_blank">Tìm thêm trên PubMed</a></div>
+        </div>
+      </div>
+      <div class="lesion-card" data-id="coa">
+        <div class="lesion-icon">🩹</div>
+        <div class="lesion-name">CoA (Coarctation)</div>
+        <div class="lesion-freq">5-8% CHD (hay bị bỏ sót nhất)</div>
+        <div class="lesion-quick">
+          <div><strong>4CV:</strong> Thường BÌNH THƯỜNG</div>
+          <div><strong>LVOT/RVOT/3VT:</strong> Cung Ao nhỏ ở 3VT</div>
+          <div style="color: #be185d; margin-top: 4px; font-size: 11px;"><strong>NST:</strong> Turner (5-15%)</div>
+          <div style="color: #065f46; margin-top: 4px; font-size: 11px;"><strong>Tiên lượng:</strong> 95%+ thành công sửa chữa</div>
+        </div>
+        <div class="expand-hint">▼ Click để mở rộng</div>
+        <div class="lesion-detail">
+          <div class="detail-grid">
+            <div class="detail-block">
+              <strong>📐 Giải phẫu & Phôi thai học</strong>
+              <p>Hẹp cung ĐMC ở isthmus (sau chỗ xuất phát động mạch dưới đòn trái, trước DÂT). Ductal tissue theory: DÂT mở rộng vào phần eo ĐMC → khi DÂT đóng sau sinh → CoA. Flow theory: lưu lượng qua cung thấp → cung kém phát triển. Preductal (infantile, nặng) vs postductal (adult, nhẹ).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔍 Dấu hiệu Siêu âm</strong>
+              <p>4CV thường BÌNH THƯỜNG - hay bị bỏ sót! 3VT: cung ĐMC nhỏ hơn ĐMP, cung Ao < 95% ĐMP, ratio TV/MV > 0.5, BAV (50-85% CoA). Sagittal aortic arch: thấy rõ chỗ hẹp. Color + PW: gradient > 2 m/s, diastolic runoff (continuous forward flow ở thì tâm trương).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔄 Chẩn đoán phân biệt</strong>
+              <p>Pseudo-coarctation (kinking nhẹ, không tăng vận tốc Doppler) - thường biến thể bình thường. Interrupted aortic arch (IAA) - mất đoạn, nặng hơn. HLHS.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔗 Bất thường kèm theo</strong>
+              <p>Turner syndrome 5-15% CoA - BẮT BUỘC karyotype/CMA. 22q11 deletion (đặc biệt IAA-B). Turner: lymphedema, cystic hygroma, BAV (60% Turner), horseshoe kidney, short stature.</p>
+            </div>
+            <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+              <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+              <p>CoA đơn độc (postductal): phẫu thuật (resection + end-to-end anastomosis) hoặc balloon angioplasty qua da trong 2-4 tuần đầu. Tỷ lệ thành công >95%. Tái phát 10-20%, persistent hypertension 20-30% tuổi trưởng thành. CoA nặng / kèm bất thường khác: có thể cần PGE1 + Norwood hoặc hybrid procedure. Bắt buộc khám toàn thân tìm Turner + siêu âm hệ tiết niệu.</p>
+            </div>
+          </div>
+          <div style="color: #6b7280; margin-top: 8px; font-size: 11px;"><strong>Citation:</strong> PMID 31790228, 32303086 · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=CoA (Coarctation)" target="_blank">Tìm thêm trên PubMed</a></div>
+        </div>
+      </div>
+      <div class="lesion-card" data-id="as">
+        <div class="lesion-icon">🚧</div>
+        <div class="lesion-name">AS (Aortic Stenosis)</div>
+        <div class="lesion-freq">3-5% CHD</div>
+        <div class="lesion-quick">
+          <div><strong>4CV:</strong> LV to/EFE (nặng), LV nhỏ (evolving HLHS)</div>
+          <div><strong>LVOT/RVOT/3VT:</strong> Ao van dày, v tăng > 2.5 m/s</div>
+          <div style="color: #be185d; margin-top: 4px; font-size: 11px;"><strong>NST:</strong> Hiếm (Williams nếu supravalvular)</div>
+          <div style="color: #065f46; margin-top: 4px; font-size: 11px;"><strong>Tiên lượng:</strong> Tuỳ mức độ</div>
+        </div>
+        <div class="expand-hint">▼ Click để mở rộng</div>
+        <div class="lesion-detail">
+          <div class="detail-grid">
+            <div class="detail-block">
+              <strong>📐 Giải phẫu & Phôi thai học</strong>
+              <p>Van ĐMC 2 lá (BAV) bị dày và dysplastic. Tiến triển: nhẹ → nặng → critical AS → evolving HLHS (30%). Phân loại: Mild (gradient < 50 mmHg), Severe (> 64 mmHg), Critical (cyanotic sơ sinh), Evolving HLHS (LV nhỏ dần).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔍 Dấu hiệu Siêu âm</strong>
+              <p>LVOT/5-chamber: van ĐMC dày, doming, mở không hết. Ao annulus nhỏ (Z < -2). Color: dòng phụt, aliasing. PW (CW): v > 2.5-3 m/s (gradient > 60-80 mmHg). Lưu ý: gradient có thể đánh giá thấp khi EF giảm. 4CV theo dõi: LV size bình thường → nhỏ dần; EFE; MV regurg; FO flow; retrograde arch flow.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔄 Chẩn đoán phân biệt</strong>
+              <p>BAV đơn thuần (không hẹp nặng). Subvalvular AS (membrane dưới van). Supravalvular AS (Williams - hẹp phía trên van, kèm elastin arteriopathy).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔗 Bất thường kèm theo</strong>
+              <p>AS hiếm khi kèm bất thường NST. Williams syndrome (7q11.23 del, elastin gene): supravalvular AS, elfin facies, hypercalcemia, outgoing personality, developmental delay. Turner (BAV + CoA), DiGeorge (22q11), Williams.</p>
+            </div>
+            <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+              <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+              <p>AS nhẹ-trung bình: theo dõi mỗi 4 tuần, tiên lượng tốt, có thể balloon aortic valvuloplasty sau sinh. Critical AS hoặc evolving HLHS: có thể can thiệp bào thai (fetal aortic valvuloplasty - FAV) ở trung tâm lớn. Mục đích: ngăn HLHS evolution, cho phép LV phát triển. 30-50% LV phát triển đủ biventricular repair sau sinh. Sinh ở trung tâm có cath lab (balloon valvuloplasty ngay) + ECMO nếu cần.</p>
+            </div>
+          </div>
+          <div style="color: #6b7280; margin-top: 8px; font-size: 11px;"><strong>Citation:</strong> PMID 32664120, 33247680 · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=AS (Aortic Stenosis)" target="_blank">Tìm thêm trên PubMed</a></div>
+        </div>
+      </div>
+      <div class="lesion-card" data-id="ps">
+        <div class="lesion-icon">🚪</div>
+        <div class="lesion-name">PS / PA-IVS</div>
+        <div class="lesion-freq">PS 5-8% CHD; PA-IVS 1-3% CHD</div>
+        <div class="lesion-quick">
+          <div><strong>4CV:</strong> RA/RV mở rộng</div>
+          <div><strong>LVOT/RVOT/3VT:</strong> PV dày/atretic, retrograde DA flow</div>
+          <div style="color: #be185d; margin-top: 4px; font-size: 11px;"><strong>NST:</strong> Noonan (5% PS)</div>
+          <div style="color: #065f46; margin-top: 4px; font-size: 11px;"><strong>Tiên lượng:</strong> Tuỳ RV size + RVDCC</div>
+        </div>
+        <div class="expand-hint">▼ Click để mở rộng</div>
+        <div class="lesion-detail">
+          <div class="detail-grid">
+            <div class="detail-block">
+              <strong>📐 Giải phẫu & Phôi thai học</strong>
+              <p>PS: van ĐMP dày, dysplastic (doming), có thể kèm hẹp phễu hoặc phình ĐMP sau hẹp. PA-IVS: van ĐMP đặc hoàn toàn, IVS nguyên vẹn, RV kích thước thay đổi. Có thể kèm RV-dependent coronary circulation (RVDCC) - chống chỉ định tương đối của biventricular repair.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔍 Dấu hiệu Siêu âm</strong>
+              <p>PS - RVOT/3VT: van ĐMP dày, doming, mở không hết. PV annulus nhỏ (Z < -2). PW: v > 2 m/s. PA-IVS: van ĐMP dày, KHÔNG mở, KHÔNG có dòng forward. RV size nhỏ (nặng) hoặc bình thường. TV regurg velocity cao. DA: retrograde flow từ ĐMC xuống ĐMP.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔄 Chẩn đoán phân biệt</strong>
+              <p>TOF (TOF có VSD, PA-IVS không có VSD), Truncus arteriosus, Ebstein anomaly (TV dịch chuyển xuống).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔗 Bất thường kèm theo</strong>
+              <p>PS có thể gặp trong Noonan syndrome (PTPN11, RAF1, RIT1) - cổ ngắn, dái tai thấp, ngực rộng, pectus, chậm phát triển, bất thường bạch huyết. PS-Noonan chiếm ~5% PS.</p>
+            </div>
+            <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+              <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+              <p>PS nhẹ: theo dõi, có thể tự cải thiện hoặc cần balloon valvuloplasty sau sinh. PA-IVS / Critical PS: cần PGE1 sau sinh; can thiệp qua da (RV perforation + RF ablation + balloon) hoặc phẫu thuật mở RVOT. Tiên lượng phụ thuộc RV size + TV annulus + RVDCC. Theo dõi thai mỗi 4 tuần.</p>
+            </div>
+          </div>
+          <div style="color: #6b7280; margin-top: 8px; font-size: 11px;"><strong>Citation:</strong> PMID 31913941, 30865886 · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=PS / PA-IVS" target="_blank">Tìm thêm trên PubMed</a></div>
+        </div>
+      </div>
+      <div class="lesion-card" data-id="ebstein">
+        <div class="lesion-icon">📐</div>
+        <div class="lesion-name">Ebstein Anomaly</div>
+        <div class="lesion-freq">~1% CHD (TV dysplasia thường gặp hơn)</div>
+        <div class="lesion-quick">
+          <div><strong>4CV:</strong> TV dịch xuống, atrialized RV</div>
+          <div><strong>LVOT/RVOT/3VT:</strong> TR velocity cao, RV nhỏ</div>
+          <div style="color: #be185d; margin-top: 4px; font-size: 11px;"><strong>NST:</strong> Hiếm</div>
+          <div style="color: #065f46; margin-top: 4px; font-size: 11px;"><strong>Tiên lượng:</strong> Tuỳ RV functional size</div>
+        </div>
+        <div class="expand-hint">▼ Click để mở rộng</div>
+        <div class="lesion-detail">
+          <div class="detail-grid">
+            <div class="detail-block">
+              <strong>📐 Giải phẫu & Phôi thai học</strong>
+              <p>Vanh TV dịch chuyển xuống thành RV (toward apex), chia RV thành 'atrialized RV' + 'functional RV' (nhỏ hơn). Lá trước TV to bất thường (sail-like). 10-20% kèm WPW. Mẹ dùng lithium (chống trầm cảm) trong 3 tháng đầu tăng nguy cơ gấp 5-10 lần (tỷ lệ tuyệt đối thấp).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔍 Dấu hiệu Siêu âm</strong>
+              <p>4CV DẤU HIỆU CHÍNH: TV septal leaflet dịch xuống > 4 mm/m² BSA (hoặc so với MV insertion > 8 mm/m²). 'Atrialized RV'. Functional RV nhỏ. Lá trước TV to, sail-like. Cardiomegaly: tim to do RA mở rộng. Color: TR nặng (v 4-5 m/s).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔄 Chẩn đoán phân biệt</strong>
+              <p>Uhl anomaly (RV mỏng như giấy) - hiếm. Arrhythmia-induced cardiomyopathy (SVT thai kéo dài) - RA+RV to thứ phát. Pulmonary atresia / Ebstein (Ebstein + PS/PA thường gặp). DORV.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔗 Bất thường kèm theo</strong>
+              <p>Ebstein hiếm khi kèm bất thường NST. WPW syndrome 10-20% Ebstein → SVT sau sinh. Maternal: lithium, benzodiazepine.</p>
+            </div>
+            <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+              <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+              <p>Ebstein nhẹ + RV gần bình thường: tiên lượng tốt, có thể Cone repair (Da Silva procedure) trẻ nhỏ. Ebstein nặng + functional RV nhỏ + cyanosis: tiên lượng xấu, cần single ventricle pathway (Glenn → Fontan) hoặc Starnes procedure (đóng TV + BT shunt ở sơ sinh) → Fontan. Có thể suy tim thai (hydrops) - theo dõi sát. Tỷ lệ tử vong chu sinh ~20-30% ca nặng. Sinh ở trung tâm có phẫu thuật tim nhi + cath lab.</p>
+            </div>
+          </div>
+          <div style="color: #6b7280; margin-top: 8px; font-size: 11px;"><strong>Citation:</strong> PMID 32303088, 33252045 · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=Ebstein Anomaly" target="_blank">Tìm thêm trên PubMed</a></div>
+        </div>
+      </div>
+      <div class="lesion-card" data-id="tapvr">
+        <div class="lesion-icon">🔀</div>
+        <div class="lesion-name">TAPVR</div>
+        <div class="lesion-freq">1-2% CHD (cấp cứu sơ sinh tiềm ẩn)</div>
+        <div class="lesion-quick">
+          <div><strong>4CV:</strong> LA trống, RA+RV to (smooth-walled LA)</div>
+          <div><strong>LVOT/RVOT/3VT:</strong> Vertical vein (supra/infracardiac)</div>
+          <div style="color: #be185d; margin-top: 4px; font-size: 11px;"><strong>NST:</strong> Heterotaxy (~30%)</div>
+          <div style="color: #065f46; margin-top: 4px; font-size: 11px;"><strong>Tiên lượng:</strong> 90%+ nếu không obstruction</div>
+        </div>
+        <div class="expand-hint">▼ Click để mở rộng</div>
+        <div class="lesion-detail">
+          <div class="detail-grid">
+            <div class="detail-block">
+              <strong>📐 Giải phẫu & Phôi thai học</strong>
+              <p>4 TMT phổi KHÔNG đổ vào LA. 4 types: Supracardiac (50% - SVC qua vertical vein), Cardiac (20% - CS hoặc trực tiếp RA), Infracardiac (20% - IVC/portal/ductus venosus, hay obstruction NHẤT), Mixed (10%). Quan trọng nhất: có/không obstruction?</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔍 Dấu hiệu Siêu âm</strong>
+              <p>KHÓ - thường bị bỏ sót. 4CV: LA trống (không có TMT phổi đổ vào), RA mở rộng, RV mở rộng. 'Smooth-walled LA' - LA không có đoạn nhận TMT phổi. Vertical vein: Supracardiac - đi từ phía sau LA lên trên phải, đổ left innominate vein → SVC. 3VT: 4 vessels ('vascular traffic jam'). Infracardiac: vertical vein xuyên cơ hoành, đổ IVC/portal. Color: dòng chảy vào vertical vein; tăng vận tốc nếu obstruction.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔄 Chẩn đoán phân biệt</strong>
+              <p>PAPVR (partial) - chỉ một số TMT phổi đổ bất thường; ít nguy hiểm hơn. Cor triatriatum (LA có màng ngăn). Persistent left SVC. AVSD.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔗 Bất thường kèm theo</strong>
+              <p>Hay gặp trong Heterotaxy (left atrial isomerism/polysplenia) - TAPVR type cardiac + bilateral SVC + asplenia. ~30% TAPVR kèm heterotaxy.</p>
+            </div>
+            <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+              <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+              <p>TAPVR không obstruction: phẫu thuật (anastomose common pulmonary vein → LA) trong 4-6 tuần đầu. Sống 5 năm >90% ở trung tâm lớn. TAPVR có obstruction: CẤP CỨU sơ sinh, mổ trong 24-48h. Tỷ lệ tử vong cao nếu trì hoãn. Khảo sát abdominal situs (vị trí dạ dày, gan) loại trừ heterotaxy; siêu âm lách (asplenia/polysplenia - chủng ngừa + kháng sinh dự phòng). Sinh ở trung tâm tim mạch nhi; nghi obstruction → chuẩn bị ECMO sau sinh.</p>
+            </div>
+          </div>
+          <div style="color: #6b7280; margin-top: 8px; font-size: 11px;"><strong>Citation:</strong> PMID 32664122, 33239117 · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=TAPVR" target="_blank">Tìm thêm trên PubMed</a></div>
+        </div>
+      </div>
+      <div class="lesion-card" data-id="rhb">
+        <div class="lesion-icon">🟣</div>
+        <div class="lesion-name">Bonus: Rhabdomyoma (u tim thai - TSC)</div>
+        <div class="lesion-freq">60-80% u tim thai; 50% có TSC</div>
+        <div class="lesion-quick">
+          <div><strong>4CV:</strong> Echo dày ở thành thất (nhiều khối)</div>
+          <div><strong>LVOT/RVOT/3VT:</strong> Không đặc hiệu</div>
+          <div style="color: #be185d; margin-top: 4px; font-size: 11px;"><strong>NST:</strong> TSC1/2 (50% thai)</div>
+          <div style="color: #065f46; margin-top: 4px; font-size: 11px;"><strong>Tiên lượng:</strong> Tự thoái triển sau sinh</div>
+        </div>
+        <div class="expand-hint">▼ Click để mở rộng</div>
+        <div class="lesion-detail">
+          <div class="detail-grid">
+            <div class="detail-block">
+              <strong>📐 Giải phẫu & Phôi thai học</strong>
+              <p>Rhabdomyoma: lành tính, dấu hiệu của Tuberous Sclerosis Complex (TSC) - gen TSC1/TSC2. U thường nhiều, ở thành thất, có thể tự thoái triển sau sinh. Teratoma: hiếm, thường ở màng ngoài tim. Fibroma: đơn độc, vách liên thất.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔍 Dấu hiệu Siêu âm</strong>
+              <p>Rhabdomyoma: echo dày (hyperechoic), đồng nhất, nhiều khối, kích thước thay đổi, có thể ở RV hoặc LV. Có thể gây obstruction nếu ở LVOT/RVOT. Teratoma: echo hỗn hợp, có thể vôi hoá, thường ngoài tim, kèm pericardial effusion lớn.</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔄 Chẩn đoán phân biệt</strong>
+              <p>Fibroma, myxoma, teratoma. Cần phân biệt với thrombus (hiếm ở thai, thường kèm arrhythmia).</p>
+            </div>
+            <div class="detail-block">
+              <strong>🔗 Bất thường kèm theo</strong>
+              <p>Tuberous Sclerosis Complex (TSC1/TSC2). Sau sinh: MRI não tìm cortical tubers + SEGAs, genetic test.</p>
+            </div>
+            <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+              <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+              <p>Rhabdomyoma: ~50% trẻ có TSC (cần MRI não sau sinh). U tim thường tự thoái triển trong 2-3 năm đầu, theo dõi. Nếu obstruction: phẫu thuật. Teratoma: phẫu thuật cắt u sau sinh; có thể cần pericardiocentesis trước sinh nếu tamponade. Fibroma: phẫu thuật nếu nguy cơ arrhythmia.</p>
+            </div>
+          </div>
+          <div style="color: #6b7280; margin-top: 8px; font-size: 11px;"><strong>Citation:</strong> PMID 32664123, 33252046 · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=Bonus: Rhabdomyoma (u tim thai - TSC)" target="_blank">Tìm thêm trên PubMed</a></div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- ============ 7. COUNSELING ALGORITHM ============ -->
+<div class="card" id="counseling">
+  <h2 class="text-2xl font-bold mb-3">6️⃣ Algorithm Tư vấn khi phát hiện CHD</h2>
+  <div class="mermaid my-4">
+flowchart TD
+    A["Phát hiện bất thường<br/>trên SA tim thai"]:::q
+    A --> B{Có hydrops<br/>không?}
+    B -->|Có| C["CẤP CỨU<br/>Hội chẩn tim mạch nhi<br/>+ sản khoa"]:::danger
+    B -->|Không| D{Xếp loại<br/>theo nhóm?}
+    D -->|Conotruncal| E1["TOF, TGA, DORV,<br/>Truncus, IAA-B<br/>→ CMA/FISH"]:::blue
+    D -->|Left heart| E2["HLHS, CoA, AS, MS<br/>→ Turner, Noonan,<br/>Karyotype + CMA"]:::blue
+    D -->|AVSD| E3["AVSD complete<br/>→ Karyotype<br/>(Down 75%)"]:::blue
+    D -->|Right heart| E4["PS/PA, Ebstein, TAPVR<br/>→ Noonan, heterotaxy"]:::blue
+    D -->|Tumor| E5["Rhabdomyoma<br/>→ MRI não + TSC1/2"]:::blue
+    D -->|Arrhythmia| E6["SVT, CHB, AF<br/>→ PR interval,<br/>anti-Ro/SSA"]:::blue
+    E1 --> F["Hội chẩn đa chuyên khoa:<br/>Sản + Tim mạch nhi<br/>+ Di truyền + Phẫu thuật<br/>+ Tâm lý"]
+    E2 --> F
+    E3 --> F
+    E4 --> F
+    E5 --> F
+    E6 --> F
+    F --> G["Tư vấn gia đình:<br/>Chẩn đoán + Tiên lượng<br/>+ 3 lựa chọn<br/>+ Lịch tái khám<br/>+ Địa điểm sinh"]
+    G --> H{Lựa chọn<br/>gia đình?}
+    H -->|Comfort care| I1["Chăm sóc giảm nhẹ<br/>+ hỗ trợ tâm lý"]:::safe
+    H -->|Phẫu thuật| I2["3-stage palliation<br/>hoặc sửa chữa<br/>(Norwood, Jatene...)"]:::green
+    H -->|Transplant| I3["Heart transplant<br/>(rất hiếm)"]:::green
+    I1 --> J["Theo dõi + sinh tại<br/>trung tâm có hỗ trợ"]
+    I2 --> J
+    I3 --> J
+    style A fill:#fce7f3
+    style C fill:#fee2e2,stroke:#dc2626
+    style F fill:#fef3c7
+    style G fill:#dbeafe
+    style I1 fill:#fef3c7
+    style I2 fill:#d1fae5
+    style I3 fill:#d1fae5
+  </div>
+  <div class="grid md:grid-cols-3 gap-3 mt-4">
+    <div class="keypoint">
+      <strong>1. Comfort care / palliative</strong>
+      <p class="text-sm mt-1">Chỉ chăm sóc giảm nhẹ, trẻ tử vong trong vài ngày - vài tuần. Phù hợp khi: CHD rất nặng, kèm bất thường NST nặng, hoặc gia đình chọn. Vẫn cần hỗ trợ giảm đau, KHÔNG bỏ rơi.</p>
+    </div>
+    <div class="safe">
+      <strong>2. Phẫu thuật sửa chữa / palliation</strong>
+      <p class="text-sm mt-1">HLHS: Norwood → Glenn → Fontan (sống 5 năm 70-80%). TGA: Jatene (>90%). TOF: sửa toàn bộ (>90%). CoA: resection/balloon (>95%). Tuỳ lesion + trung tâm.</p>
+    </div>
+    <div class="info">
+      <strong>3. Heart transplant</strong>
+      <p class="text-sm mt-1">Rất hiếm, phụ thuộc nguồn cơ quan. Lựa chọn cuối. Sống 5 năm sau transplant 70-80% trẻ em. Tại Việt Nam: chưa có chương trình transplant tim nhi thường quy.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 8. CHECKLIST THỰC HÀNH ============ -->
+<div class="card" id="checklist">
+  <h2 class="text-2xl font-bold mb-3">7️⃣ Checklist Thực hành Hàng ngày (Practical Checklist)</h2>
+  <div class="grid md:grid-cols-2 gap-3">
+    <div class="tip-item"><span class="tip-num">1</span><strong>Timing:</strong> 18+0 đến 22+0 tuần (lý tưởng 20-22).</div>
+    <div class="tip-item"><span class="tip-num">2</span><strong>5 mặt cắt BẮT BUỘC:</strong> 4CV + LVOT + RVOT + 3V + 3VT.</div>
+    <div class="tip-item"><span class="tip-num">3</span><strong>2 mặt cắt KHUYẾN CÁO:</strong> Aortic arch + Ductal arch (sagittal).</div>
+    <div class="tip-item"><span class="tip-num">4</span><strong>3 cấu trúc phải đo:</strong> cardiac axis, CT ratio, AV valve offset.</div>
+    <div class="tip-item"><span class="tip-num">5</span><strong>4 Doppler thường quy:</strong> 4 van (MV/TV/AoV/PV velocities), DA flow, umbilical artery, MCA PSV (nếu nghi anemia).</div>
+    <div class="tip-item"><span class="tip-num">6</span><strong>Z-score khi:</strong> valve annulus, vessel diameter, ventricular length → Schneider 2005.</div>
+    <div class="tip-item"><span class="tip-num">7</span><strong>Look for:</strong> moderator band (RV), FO flap, foramen ovale restriction, pulmonary veins (4).</div>
+    <div class="tip-item"><span class="tip-num">8</span><strong>Dấu hiệu hay bỏ sót:</strong> CoA (4CV bình thường), TGA (4CV bình thường), TAPVR (LA trống), BAV.</div>
+    <div class="tip-item"><span class="tip-num">9</span><strong>CMA/FISH khi:</strong> AVSD (T21), CoA/HLHS nữ (Turner), TOF/TGA/DORV/truncus (22q11 del), PS (Noonan), supravalvular AS (Williams).</div>
+    <div class="tip-item"><span class="tip-num">10</span><strong>Anti-Ro/SSA+:</strong> đo PR interval mỗi 1-2 tuần từ 16-26 tuần. PR > 150 ms → dexamethasone 4-8 mg/ngày mẹ.</div>
+    <div class="tip-item"><span class="tip-num">11</span><strong>Sinh ở đâu:</strong> mọi duct-dependent CHD (HLHS, TGA, severe CoA, IAA, critical AS/PS, PA-IVS, TOF-PA) → trung tâm tim mạch nhi (level III).</div>
+    <div class="tip-item"><span class="tip-num">12</span><strong>Theo dõi:</strong> evolving lesions (AS, CoA, PS, TAPVR) mỗi 2-4 tuần. Suy tim thai (hydrops) mỗi vài ngày + hội chẩn.</div>
+  </div>
+  <div class="danger mt-4">
+    <strong>⚠️ Lưu ý quan trọng:</strong> 4CV BÌNH THƯỜNG không loại trừ CHD! Luôn khảo sát LVOT, RVOT, 3VT. Detection rate tăng từ ~40% (4CV alone) lên ~70-80% (5 mặt cắt). (PMID 31945242, Bak 2020)
+  </div>
+</div>
+
+<!-- ============ 9. GUIDELINES TABLE ============ -->
+<div class="card" id="guidelines">
+  <h2 class="text-2xl font-bold mb-3">8️⃣ Bảng Guideline Tổng hợp (2026)</h2>
+  <p class="mb-3">Verify PubMed ngày 2026-06-19. Mỗi citation có PMID rõ ràng.</p>
+  <div class="overflow-x-auto">
+  <table>
+    <thead>
+      <tr><th>#</th><th>Hội</th><th>Tài liệu</th><th>Năm</th><th>PMID</th><th>Tóm tắt</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>ISUOG</td><td>Practice Guidelines: fetal cardiac screening (update)</td><td>2023</td><td><a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/37267096/" target="_blank">37267096</a></td><td>Color Doppler 3VT; outflow tract gần như bắt buộc; QA</td></tr>
+      <tr><td>2</td><td>ISUOG</td><td>Sonographic screening of fetal heart (gốc)</td><td>2013</td><td><a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/23460196/" target="_blank">23460196</a></td><td>4CV bắt buộc; khuyến khích LVOT/RVOT/3VT. 18-22 tuần</td></tr>
+      <tr><td>3</td><td>ASE</td><td>Guidelines for Performance of the Fetal Echocardiogram (update)</td><td>2023</td><td><a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/37227365/" target="_blank">37227365</a></td><td>44 trang. 12 views, function, rhythm, advanced techniques</td></tr>
+      <tr><td>4</td><td>AHA</td><td>Diagnosis and treatment of fetal cardiac disease</td><td>2014</td><td><a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/24763516/" target="_blank">24763516</a></td><td>Reference toàn diện. Class I/IIa/IIb/III + level A/B/C</td></tr>
+      <tr><td>5</td><td>AIUM</td><td>Practice Parameter for Fetal Echocardiography</td><td>2020</td><td><a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/31846540/" target="_blank">31846540</a></td><td>Cập nhật 2011. Maternal/fetal/familial indications</td></tr>
+      <tr><td>6</td><td>Schneider</td><td>Z-scores for fetal cardiac dimensions</td><td>2005</td><td><a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/16254878/" target="_blank">16254878</a></td><td>Reference chuẩn cho Z-score. n=2,240</td></tr>
+      <tr><td>7</td><td>Cody</td><td>Critical CHD: contemporary prenatal screening</td><td>2024</td><td><a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/38402176/" target="_blank">38402176</a></td><td>Multi-centre; CCHD detection rate ~50%</td></tr>
+      <tr><td>8</td><td>Liastuti</td><td>AI diagnostic accuracy for CHD (meta-analysis)</td><td>2025</td><td><a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/40066351/" target="_blank">40066351</a></td><td>Pooled sensitivity 89%, specificity 91%</td></tr>
+      <tr><td>9</td><td>Ribeiro</td><td>Variation of Prenatal Detection of CHD</td><td>2025</td><td><a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/40892004/" target="_blank">40892004</a></td><td>Regional 43.6-56.2%; lesion-specific 13.1-77.1%</td></tr>
+      <tr><td>10</td><td>Lemley</td><td>Enhancing Fetal Cardiac Care</td><td>2026</td><td><a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/41999457/" target="_blank">41999457</a></td><td>3 domains: access, accuracy, comprehensive counseling</td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<!-- ============ 10. REFERENCES ============ -->
+<div class="card" id="references">
+  <h2 class="text-2xl font-bold mb-3">9️⃣ References (20+ PMID)</h2>
+  <div class="grid md:grid-cols-2 gap-2 text-sm">
+    <div><strong>1. ISUOG 2023</strong> — <em>Practice Guidelines: fetal cardiac screening.</em> Ultrasound Obstet Gynecol 2023. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/37267096/" target="_blank">PMID: 37267096</a></div>
+    <div><strong>2. ISUOG 2013</strong> — <em>Sonographic screening examination of the fetal heart.</em> UOG 2013. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/23460196/" target="_blank">PMID: 23460196</a></div>
+    <div><strong>3. ASE 2023</strong> — <em>Guidelines for Performance of the Fetal Echocardiogram (Update).</em> J Am Soc Echocardiogr 2023. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/37227365/" target="_blank">PMID: 37227365</a></div>
+    <div><strong>4. AHA 2014</strong> — Donofrio MT et al. <em>Diagnosis and treatment of fetal cardiac disease.</em> Circulation 2014. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/24763516/" target="_blank">PMID: 24763516</a></div>
+    <div><strong>5. AIUM 2020</strong> — AIUM Practice Parameter. <em>J Ultrasound Med</em> 2020. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/31846540/" target="_blank">PMID: 31846540</a></div>
+    <div><strong>6. AIUM 2011</strong> — Lee W et al. <em>AIUM practice guideline.</em> JUM 2011. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/21193716/" target="_blank">PMID: 21193716</a></div>
+    <div><strong>7. AEPC 2004</strong> — Allan L et al. <em>Recommendations for fetal cardiology in Europe.</em> Cardiol Young 2004. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/15237685/" target="_blank">PMID: 15237685</a></div>
+    <div><strong>8. ESPR/ESN 2016</strong> — de Boode WP et al. <em>Neonatologist performed echocardiography in Europe.</em> Pediatr Res 2016. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/27384404/" target="_blank">PMID: 27384404</a></div>
+    <div><strong>9. ESC 2018 pregnancy</strong> — Regitz-Zagrosek V et al. <em>2018 ESC Guidelines for CVD during pregnancy.</em> EHJ 2018. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/30165544/" target="_blank">PMID: 30165544</a></div>
+    <div><strong>10. Cody 2024</strong> — Cody F et al. <em>Critical CHD: contemporary prenatal screening.</em> BMC Pregnancy Childbirth 2024. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/38402176/" target="_blank">PMID: 38402176</a></div>
+    <div><strong>11. Gupta 2024</strong> — Gupta D et al. <em>Prenatal Detection Rate of CCHD Before/During COVID-19.</em> Pediatr Cardiol 2024. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/38565667/" target="_blank">PMID: 38565667</a></div>
+    <div><strong>12. Ribeiro 2025</strong> — Ribeiro ER et al. <em>Variation of Prenatal Detection of CHD.</em> Ann Thorac Surg 2025. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/40892004/" target="_blank">PMID: 40892004</a></div>
+    <div><strong>13. Liastuti 2025</strong> — Liastuti LD, Nursakina Y. <em>AI diagnostic accuracy for CHD in 2nd-trimester.</em> Front Cardiovasc Med 2025. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/40066351/" target="_blank">PMID: 40066351</a></div>
+    <div><strong>14. Schneider 2005</strong> — Schneider C et al. <em>Z-scores for fetal cardiac dimensions.</em> UOG 2005. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/16254878/" target="_blank">PMID: 16254878</a></div>
+    <div><strong>15. Hikspoors 2024</strong> — Hikspoors JPJM et al. <em>Development of the human heart.</em> Adv Exp Med Biol 2024. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/38884703/" target="_blank">PMID: 38884703</a></div>
+    <div><strong>16. Anderson 2018</strong> — Anderson RH et al. <em>Isomerism in heterotaxy.</em> J Cardiovasc Dev Dis 2018. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/29415491/" target="_blank">PMID: 29415491</a></div>
+    <div><strong>17. Lemley 2026</strong> — Lemley BA et al. <em>Enhancing Fetal Cardiac Care.</em> Curr Cardiol Rep 2026. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/41999457/" target="_blank">PMID: 41999457</a></div>
+    <div><strong>18. Sharland 2025</strong> — Sharland G. <em>Prenatal diagnosis and management of CHD.</em> Arch Dis Child 2025. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/41314777/" target="_blank">PMID: 41314777</a></div>
+    <div><strong>19. Bak 2020</strong> — Bak GS et al. <em>Cost-effectiveness of additional views in fetal cardiac screening.</em> UOG 2020. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/31945242/" target="_blank">PMID: 31945242</a></div>
+    <div><strong>20. Bruneau 2008</strong> — Bruneau BG. <em>The developmental genetics of congenital heart disease.</em> Nature 2008. <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/18387561/" target="_blank">PMID: 18387561</a></div>
+  </div>
+  <div class="mt-4 p-4 bg-blue-50 rounded-lg">
+    <h3 class="font-bold text-blue-900 mb-2">📚 Guidelines Việt Nam & Châu Á (không có PMID)</h3>
+    <ul class="text-sm list-disc list-inside">
+      <li><strong>BYT Việt Nam</strong>: chưa có guideline riêng cho fetal echo → áp dụng <strong>ISUOG 2023</strong> (low-risk screening) + <strong>ASE 2023</strong> (specialist echo) + <strong>AHA 2014</strong> (điều trị).</li>
+      <li><strong>FMF London</strong> (fetalmedicine.org) — first-trimester cardiac assessment protocol.</li>
+      <li><strong>NHS FASP</strong> (UK) — 20-week screening scan program, updated 6 March 2026.</li>
+      <li><strong>NICE NG201</strong> (UK, 2021) — Antenatal care for uncomplicated pregnancies.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="card text-center text-sm" style="background: var(--bg);">
+  <p class="font-bold mb-2" style="color: var(--primary);">Visual Summary - Siêu âm Tim thai (Fetal Echocardiography) - 19/06/2026</p>
+  <p>Phiên bản <strong>Interactive v2</strong>: dark mode, search, click-to-expand, TOC sidebar, print, progress bar, FAB.</p>
+  <p class="mt-2 text-xs">Tech stack: Tailwind CSS + Mermaid.js + Chart.js + Vanilla JS.</p>
+  <p class="mt-2 text-xs">Mọi quyết định lâm sàng cần được bác sĩ điều trị cân nhắc với bệnh nhân cụ thể. Tài liệu tham khảo, không thay thế guideline chính thức.</p>
+</div>
+
+</div>
+
+<script>
+// ============== LESION DATA ==============
+const LESION_DATA = [{"id": "vsd", "name": "VSD", "icon": "💔", "freq": "25-30% CHD đơn độc", "cv": "Echo gap vách liên thất", "lvot": "Gap dưới AoV (perimembranous)", "nst": "T21, T18, 22q11", "prognosis": "Nhỏ (<3mm): tự đóng >80%. Lớn: cần device/mổ.", "anatomy": "Vách liên thất cấu tạo từ 4 thành phần (membranous, muscular, inlet, outlet). Phân loại: Perimembranous (70%), Muscular (20%), Inlet (5%), Outlet/supracristal (5%).", "sono": "4CV: echo gap IVS. LVOT: gap dưới AoV. Color Doppler: shunt qua lỗ PRF 4-6 kHz. VSD rất nhỏ (<2mm) chỉ thấy khi xoay 90° sagittal hoặc harmonic imaging.", "ddx": "Drop-out artifact vách cơ (mặt cắt không chuẩn), AVSD, VSD là 1 phần TOF/DORV/TGA - KHÔNG dừng chẩn đoán VSD đơn thuần khi chưa khảo sát LVOT, RVOT, 3VT.", "assoc": "Chromosomal T21, T18, T13, 22q11 del. Extracardiac: esophageal/duodenal atresia, CNS, omphalocele, renal. Syndromic: VACTERL, CHARGE, Holt-Oram TBX5.", "counsel": "VSD nhỏ đơn độc (<3mm, muscular): 80-90% tự đóng trước 2 tuổi, tiên lượng rất tốt, thường không cần can thiệp. VSD perimembranous lớn (>6mm): có thể cần đóng bằng device qua da hoặc phẫu thuật mở; nguy cơ suy tim sung huyết trong năm đầu. Sinh ở BV có phẫu thuật tim mạch nhi (level III) nếu VSD lớn.", "pmid": "PMID 24890896"}, {"id": "asd", "name": "ASD", "icon": "🕳️", "freq": "7-10% CHD (khó chẩn đoán trước sinh)", "cv": "Echo gap vách liên nhĩ", "lvot": "Sinus venosus trên 3VT", "nst": "T21, Holt-Oram (TBX5)", "prognosis": "Tốt, đóng qua da >95%", "anatomy": "Vách liên nhĩ từ septum primum + septum secundum. Phân loại: Secundum ASD (70% - fossa ovalis), Primum ASD (15% - phần thấp, AVSD), Sinus venosus ASD (10% - gần SVC/IVC), Coronary sinus ASD (hiếm).", "sono": "4CV: echo gap giữa vách liên nhĩ (secundum); phần thấp kề van (primum); cao gần chỗ đổ SVC (sinus venosus). Lưu ý: FO flap mở ở thai - KHÔNG nhầm ASD. Sinus venosus ASD: cần 'sweep' lên trên tìm PAPVR.", "ddx": "PFO bình thường ở thai, 'echo drop-out' vách liên nhĩ ở fossa ovalis, primum ASD vs AVSD complete, thrombosis nhĩ (hiếm).", "assoc": "Primum ASD thường là một phần của AVSD; gặp trong T21. Sinus venosus ASD: hay kèm PAPVR phổi phải (90% sinous venosus ASD type SVC).", "counsel": "Secundum ASD nhỏ (<5mm): thường đóng tự nhiên (80% trong 18 tháng). Secundum ASD lớn hoặc không đóng: đóng qua da bằng device (Amplatzer Septal Occluder), tỷ lệ thành công >95%. Sinus venosus ASD thường cần phẫu thuật mở vì kích thước lỗ lớn + PAPVR kèm theo. Tiên lượng lâu dài tốt nếu đóng kịp thời.", "pmid": "PMID 28236122, 31652563"}, {"id": "avsd", "name": "AVSD", "icon": "➕", "freq": "5% CHD; 40% CHD ở Down syndrome", "cv": "Mất AV valve offset, common AV valve, '+' sign", "lvot": "Cleft MV + VSD inlet", "nst": "T21 (75%)", "prognosis": "Cân bằng: 85-90% sống 5 năm", "anatomy": "Sai sót hợp nhất endocardial cushions (ngày 35-40) → 1 van nhĩ-thất chung (common AV valve) bắc cầu qua 2 thất + ASD primum + VSD inlet. Phân loại Rastelli: Complete (60% - có cả ASD, VSD, common valve), Partial (30%), Transitional (10%), Unbalanced (tiên lượng xấu).", "sono": "4CV DẤU HIỆU QUAN TRỌNG NHẤT: mất 'offset' van nhĩ-thất - cả MV và TV đính ở cùng mức. Common AV valve: 'dải' van dày bắc ngang. 'Cross' / '+' sign: 2 dòng echo (IVS + van AV) tạo chữ thập giữa tim. LVOT: cleft MV + VSD inlet.", "ddx": "VSD inlet đơn thuần, primum ASD đơn thuần, unbalanced AVSD vs HLHS, DORV. Nên làm karyotype + CMA cho mọi AVSD.", "assoc": "T21 (Down) 75% trường hợp AVSD complete. T18 cũng hay gặp. 22q11 deletion.", "counsel": "AVSD complete balanced ở trẻ không Down: phẫu thuật trong 3-6 tháng tuổi, sống 5 năm 85-90% ở trung tâm lớn. AVSD ở trẻ Down: tiên lượng tương tự, nhưng nguy cơ tăng áp phổi sau mổ cao hơn. Unbalanced AVSD: tiên lượng xấu, cần nhiều giai đoạn (Glenn → Fontan) hoặc transplant. Theo dõi thai mỗi 4 tuần.", "pmid": "PMID 29207077, 30395868"}, {"id": "tof", "name": "TOF (Tetralogy of Fallot)", "icon": "🫀", "freq": "5-7% CHD, CHD tím tái phổ biến nhất", "cv": "Bình thường (RVH không thấy trước sinh)", "lvot": "Overriding aorta, PA nhỏ hẹp", "nst": "22q11 (10-15%)", "prognosis": "90%+ sống 20 năm", "anatomy": "Do sai lệch trục của conal septum sang phải trước → phễu phải co ngắn và hẹp. 4 đặc điểm: (1) VSD lớn, (2) PS subvalvular, (3) RV hypertrophy (SAU SINH), (4) Overriding aorta >50% qua VSD. 3 phân loại: TOF-PS, TOF-PA (pseudotruncus), TOF-APV (absent PV).", "sono": "4CV thường BÌNH THƯỜNG - lý do cần LVOT/RVOT/3VT. LVOT (5-chamber): overriding aorta - ĐMC nằm trên cả 2 thất, >50% qua VSD. RVOT/3VT: ĐMP nhỏ hẹp so với ĐMC; thường mất 'I' shape. PW: v > 1.5 m/s qua PV.", "ddx": "DORV (DORV-subaortic + RVOT obstruction rất giống TOF; ranh giới phụ thuộc 'override %'), Truncus arteriosus, TOF-PA vs truncus, PA-IVS.", "assoc": "22q11.2 deletion (DiGeorge) 10-15% TOF, đặc biệt TOF-PA và APV-TOF. T21, T18. Absent thymus (gợi ý DiGeorge), renal anomalies, VACTERL, CHARGE, Alagille (JAG1).", "counsel": "TOF-PS: phẫu thuật sửa chữa toàn bộ trong 3-6 tháng tuổi, sống 20 năm >90%. Sau mổ có thể có PR cần theo dõi dài hạn, có thể cần thay van ĐMP qua da (Melody valve) khi trưởng thành. TOF-PA/APV-TOF: tiên lượng xấu hơn, cần nhiều giai đoạn (BT shunt → sửa RVOT + unifocalization MAPCAs). Cần PGE1 nếu ĐMP rất nhỏ. BẮT BUỘC CMA/FISH.", "pmid": "PMID 31913940, 32719225"}, {"id": "tga", "name": "TGA (D-TGA / L-TGA)", "icon": "🔄", "freq": "5% CHD, nguyên nhân hàng đầu tử vong sơ sinh do CHD", "cv": "Bình thường ở D-TGA", "lvot": "Parallel great vessels (ĐMC + ĐMP song song)", "nst": "Hiếm khi NST", "prognosis": "90%+ sống 20 năm sau Jatene", "anatomy": "Kết quả xoay trục bất thường của conotruncal septum (xoay thẳng thay vì xoắn xoáy 180°). Hậu quả: ventriculoarterial discordance. D-TGA (85%): ĐMC trước-phải ĐMP. L-TGA/ccTGA (15%): cả AV + VA discordance, tuần hoàn 'đúng chiều' dù thất đảo.", "sono": "4CV bình thường ở D-TGA - KHÔNG loại trừ TGA. LVOT: vessel từ LV → ĐMP (vì parallel circulation). RVOT: vessel từ RV → ĐMC. 3VT: chỉ thấy 2 vessel (ĐMC trước + ĐMP phía sau). 'Parallel great vessels' sign - ĐMC và ĐMP đi song song.", "ddx": "DORV (cả 2 vessel từ RV, van ĐMC và ĐMP vẫn ở vị trí tương đối bình thường), Truncus arteriosus, D-TGA vs L-TGA.", "assoc": "TGA hiếm khi kèm bất thường NST (chỉ ~1% T21 có TGA), khuyến cáo vẫn làm CMA.", "counsel": "D-TGA: CẤP CỨU sơ sinh - PGE1 giữ DÂT mở, Rashkind BAS trong 24-48h tạo ASD, arterial switch (Jatene) trong 2 tuần đầu. Sống 20 năm >90% ở trung tâm lớn. L-TGA: nếu không kèm bất thường khác, có thể không cần can thiệp sơ sinh. Theo dõi suốt đời vì RV morphology gánh tuần hoàn hệ thống → suy RV khi trưởng thành. Có thể cần double switch. Sinh ở trung tâm tim mạch nhi.", "pmid": "PMID 31846538, 33247677"}, {"id": "dorv", "name": "DORV", "icon": "↗️", "freq": "1-1.5% CHD", "cv": "VSD lớn", "lvot": "Cả 2 vessel từ RV (100% rule)", "nst": "22q11 (20-30%)", "prognosis": "Tuỳ type", "anatomy": "Cả ĐMC + ĐMP đều xuất phát >50% từ RV morphology. Thường kèm VSD lớn. 4 subtypes: Subaortic (Fallot type, 50%), Subpulmonary (Taussig-Bing, 30%), Doubly-committed (5%), Non-committed/remote (15%, khó sửa nhất).", "sono": "4CV: VSD lớn (thường inlet hoặc perimembranous). LVOT + RVOT: cả 2 vessel 'vắt' qua VSD từ phía RV. 3VT: bất thường tương tự TGA/TOF. '100% rule' - cả 2 van hoàn toàn từ RV → DORV. >50% từ RV + còn lại → TGA hoặc override.", "ddx": "TOF (DORV-subaortic + RVOT obstruction rất giống TOF; ranh giới phụ thuộc 'override %'), TGA (DORV-subpulmonary gần giống TGA), Truncus arteriosus, VSD lớn đơn thuần.", "assoc": "22q11.2 deletion 20-30% DORV, đặc biệt DORV-subaortic + RVOT obstruction. T13, T18.", "counsel": "DORV-subaortic + RVOT obstruction: tương tự TOF. DORV-subpulmonary (Taussig-Bing): cần arterial switch + VSD closure trong vài tuần đầu. DORV-non-committed: phẫu thuật phức tạp nhất, có thể cần biventricular repair hoặc fallback thành single ventricle pathway. Comfort care nên được thảo luận nếu DORV kèm nhiều bất thường (heterotaxy, 22q11 del).", "pmid": "PMID 32332596, 30914993"}, {"id": "truncus", "name": "Truncus Arteriosus", "icon": "🩸", "freq": "~1% CHD", "cv": "VSD lớn (outlet)", "lvot": "1 thân mạch chung, 1 van (truncal)", "nst": "22q11 (30-40%)", "prognosis": "75-85% sống 5 năm", "anatomy": "Không có sự phân chia ĐMC + ĐMP - conotruncal septum không phát triển. 1 thân mạch chung + 1 van chung (truncal valve) + VSD lớn. Collett & Edwards: Type I (50%, phổ biến nhất), Type II (20%), Type III (10%), Type IV (PA-VSD, 20% - giờ phân loại riêng).", "sono": "4CV: VSD lớn (outlet, do conal septum thiếu). LVOT/3VT: chỉ thấy 1 vessel duy nhất ('single arterial trunk'), rồi chia arch + PA. 1 van (truncal) thay vì 2. 'I' sign bình thường mất. Color: dòng chảy hỗn loạn ở thân chung.", "ddx": "DORV, TOF-PA, APV-TOF.", "assoc": "22q11.2 deletion (DiGeorge) 30-40% - tỷ lệ CAO NHẤT trong nhóm conotruncal. BẮT BUỘC CMA/FISH. T18.", "counsel": "Type I/II: phẫu thuật sửa chữa trong 3-6 tháng tuổi (đóng VSD + tách PA + RV-PA conduit). Sống 5 năm 75-85%. Cần thay RV-PA conduit nhiều lần theo tuổi. Type IV/PA-VSD: tiên lượng xấu, cần unifocalization + RV-PA reconstruction nhiều giai đoạn. Trẻ 22q11 del: tăng nguy cơ nhiễm trùng cơ hội, hypocalcemia (co giật sơ sinh), chậm phát triển tâm thần - theo dõi di truyền, miễn dịch, phát triển.", "pmid": "PMID 32641118, 30478416"}, {"id": "hlhs", "name": "HLHS", "icon": "🫥", "freq": "2-3% CHD; 25% tử vong sơ sinh do CHD", "cv": "LV nhỏ, RV dominate, EFE", "lvot": "Ao nhỏ, retrograde arch flow", "nst": "Turner (10-15%)", "prognosis": "70-80% sống 5 năm sau Fontan", "anatomy": "Thiểu sản toàn bộ bên trái tim (LA, MV, LV, AoV, ascending Ao, cung Ao). Cơ chế: flow hypothesis (Rudolph) - AS nặng/CoA/FO hẹn chế → giảm tưới máu LV → LV ngừng phát triển. 2 phenotype: MA+AA (nặng nhất) hoặc MS+AS (nhẹ hơn).", "sono": "4CV DẤU HIỆU SỚM NHẤT: LV nhỏ (LV/RV ratio < 0.6, Z < -2). MV nhỏ hoặc không có. RV dominate, apex hình thành bởi RV. Echo mô LV dày, tăng âm (EFE). LVOT: van ĐMC hẹp hoặc atretic, ĐMC lên nhỏ. 3VT: ĐMP lớn so với ĐMC. Doppler: dòng chảy ngược từ DA lên cung ĐMC (retrograde arch flow) - gần như chẩn đoán xác định.", "ddx": "Critical AS evolving HLHS (theo dõi tiến triển), Unbalanced AVSD left dominance, DCM (LV lớn chứ không nhỏ), Shone complex (CoA + MS + parachute MV + SAS).", "assoc": "Turner syndrome (45,X) 10-15% HLHS. T18, T13. CNS anomalies, renal, GI. Khảo sát não thai (cerebral blood flow) vì nguy cơ neurologic injury sau phẫu thuật.", "counsel": "3 lựa chọn: (1) Comfort care / palliative - tử vong trong vài ngày-túần. (2) 3-stage surgical palliation: Norwood (2 tuần đầu, tử vong 10-20%) → Glenn (4-6 tháng) → Fontan (2-4 tuổi). Sống 5 năm sau Fontan 70-80%. (3) Heart transplant - rất hiếm. Biến chứng lâu dài: protein-losing enteropathy, plastic bronchitis, Fontan failure. Sinh ở trung tâm tim mạch nhi + PGE1 + có thể cần BAS nếu FO restrictive. Theo dõi thai mỗi 4 tuần.", "pmid": "PMID 32286218, 31986452"}, {"id": "coa", "name": "CoA (Coarctation)", "icon": "🩹", "freq": "5-8% CHD (hay bị bỏ sót nhất)", "cv": "Thường BÌNH THƯỜNG", "lvot": "Cung Ao nhỏ ở 3VT", "nst": "Turner (5-15%)", "prognosis": "95%+ thành công sửa chữa", "anatomy": "Hẹp cung ĐMC ở isthmus (sau chỗ xuất phát động mạch dưới đòn trái, trước DÂT). Ductal tissue theory: DÂT mở rộng vào phần eo ĐMC → khi DÂT đóng sau sinh → CoA. Flow theory: lưu lượng qua cung thấp → cung kém phát triển. Preductal (infantile, nặng) vs postductal (adult, nhẹ).", "sono": "4CV thường BÌNH THƯỜNG - hay bị bỏ sót! 3VT: cung ĐMC nhỏ hơn ĐMP, cung Ao < 95% ĐMP, ratio TV/MV > 0.5, BAV (50-85% CoA). Sagittal aortic arch: thấy rõ chỗ hẹp. Color + PW: gradient > 2 m/s, diastolic runoff (continuous forward flow ở thì tâm trương).", "ddx": "Pseudo-coarctation (kinking nhẹ, không tăng vận tốc Doppler) - thường biến thể bình thường. Interrupted aortic arch (IAA) - mất đoạn, nặng hơn. HLHS.", "assoc": "Turner syndrome 5-15% CoA - BẮT BUỘC karyotype/CMA. 22q11 deletion (đặc biệt IAA-B). Turner: lymphedema, cystic hygroma, BAV (60% Turner), horseshoe kidney, short stature.", "counsel": "CoA đơn độc (postductal): phẫu thuật (resection + end-to-end anastomosis) hoặc balloon angioplasty qua da trong 2-4 tuần đầu. Tỷ lệ thành công >95%. Tái phát 10-20%, persistent hypertension 20-30% tuổi trưởng thành. CoA nặng / kèm bất thường khác: có thể cần PGE1 + Norwood hoặc hybrid procedure. Bắt buộc khám toàn thân tìm Turner + siêu âm hệ tiết niệu.", "pmid": "PMID 31790228, 32303086"}, {"id": "as", "name": "AS (Aortic Stenosis)", "icon": "🚧", "freq": "3-5% CHD", "cv": "LV to/EFE (nặng), LV nhỏ (evolving HLHS)", "lvot": "Ao van dày, v tăng > 2.5 m/s", "nst": "Hiếm (Williams nếu supravalvular)", "prognosis": "Tuỳ mức độ", "anatomy": "Van ĐMC 2 lá (BAV) bị dày và dysplastic. Tiến triển: nhẹ → nặng → critical AS → evolving HLHS (30%). Phân loại: Mild (gradient < 50 mmHg), Severe (> 64 mmHg), Critical (cyanotic sơ sinh), Evolving HLHS (LV nhỏ dần).", "sono": "LVOT/5-chamber: van ĐMC dày, doming, mở không hết. Ao annulus nhỏ (Z < -2). Color: dòng phụt, aliasing. PW (CW): v > 2.5-3 m/s (gradient > 60-80 mmHg). Lưu ý: gradient có thể đánh giá thấp khi EF giảm. 4CV theo dõi: LV size bình thường → nhỏ dần; EFE; MV regurg; FO flow; retrograde arch flow.", "ddx": "BAV đơn thuần (không hẹp nặng). Subvalvular AS (membrane dưới van). Supravalvular AS (Williams - hẹp phía trên van, kèm elastin arteriopathy).", "assoc": "AS hiếm khi kèm bất thường NST. Williams syndrome (7q11.23 del, elastin gene): supravalvular AS, elfin facies, hypercalcemia, outgoing personality, developmental delay. Turner (BAV + CoA), DiGeorge (22q11), Williams.", "counsel": "AS nhẹ-trung bình: theo dõi mỗi 4 tuần, tiên lượng tốt, có thể balloon aortic valvuloplasty sau sinh. Critical AS hoặc evolving HLHS: có thể can thiệp bào thai (fetal aortic valvuloplasty - FAV) ở trung tâm lớn. Mục đích: ngăn HLHS evolution, cho phép LV phát triển. 30-50% LV phát triển đủ biventricular repair sau sinh. Sinh ở trung tâm có cath lab (balloon valvuloplasty ngay) + ECMO nếu cần.", "pmid": "PMID 32664120, 33247680"}, {"id": "ps", "name": "PS / PA-IVS", "icon": "🚪", "freq": "PS 5-8% CHD; PA-IVS 1-3% CHD", "cv": "RA/RV mở rộng", "lvot": "PV dày/atretic, retrograde DA flow", "nst": "Noonan (5% PS)", "prognosis": "Tuỳ RV size + RVDCC", "anatomy": "PS: van ĐMP dày, dysplastic (doming), có thể kèm hẹp phễu hoặc phình ĐMP sau hẹp. PA-IVS: van ĐMP đặc hoàn toàn, IVS nguyên vẹn, RV kích thước thay đổi. Có thể kèm RV-dependent coronary circulation (RVDCC) - chống chỉ định tương đối của biventricular repair.", "sono": "PS - RVOT/3VT: van ĐMP dày, doming, mở không hết. PV annulus nhỏ (Z < -2). PW: v > 2 m/s. PA-IVS: van ĐMP dày, KHÔNG mở, KHÔNG có dòng forward. RV size nhỏ (nặng) hoặc bình thường. TV regurg velocity cao. DA: retrograde flow từ ĐMC xuống ĐMP.", "ddx": "TOF (TOF có VSD, PA-IVS không có VSD), Truncus arteriosus, Ebstein anomaly (TV dịch chuyển xuống).", "assoc": "PS có thể gặp trong Noonan syndrome (PTPN11, RAF1, RIT1) - cổ ngắn, dái tai thấp, ngực rộng, pectus, chậm phát triển, bất thường bạch huyết. PS-Noonan chiếm ~5% PS.", "counsel": "PS nhẹ: theo dõi, có thể tự cải thiện hoặc cần balloon valvuloplasty sau sinh. PA-IVS / Critical PS: cần PGE1 sau sinh; can thiệp qua da (RV perforation + RF ablation + balloon) hoặc phẫu thuật mở RVOT. Tiên lượng phụ thuộc RV size + TV annulus + RVDCC. Theo dõi thai mỗi 4 tuần.", "pmid": "PMID 31913941, 30865886"}, {"id": "ebstein", "name": "Ebstein Anomaly", "icon": "📐", "freq": "~1% CHD (TV dysplasia thường gặp hơn)", "cv": "TV dịch xuống, atrialized RV", "lvot": "TR velocity cao, RV nhỏ", "nst": "Hiếm", "prognosis": "Tuỳ RV functional size", "anatomy": "Vanh TV dịch chuyển xuống thành RV (toward apex), chia RV thành 'atrialized RV' + 'functional RV' (nhỏ hơn). Lá trước TV to bất thường (sail-like). 10-20% kèm WPW. Mẹ dùng lithium (chống trầm cảm) trong 3 tháng đầu tăng nguy cơ gấp 5-10 lần (tỷ lệ tuyệt đối thấp).", "sono": "4CV DẤU HIỆU CHÍNH: TV septal leaflet dịch xuống > 4 mm/m² BSA (hoặc so với MV insertion > 8 mm/m²). 'Atrialized RV'. Functional RV nhỏ. Lá trước TV to, sail-like. Cardiomegaly: tim to do RA mở rộng. Color: TR nặng (v 4-5 m/s).", "ddx": "Uhl anomaly (RV mỏng như giấy) - hiếm. Arrhythmia-induced cardiomyopathy (SVT thai kéo dài) - RA+RV to thứ phát. Pulmonary atresia / Ebstein (Ebstein + PS/PA thường gặp). DORV.", "assoc": "Ebstein hiếm khi kèm bất thường NST. WPW syndrome 10-20% Ebstein → SVT sau sinh. Maternal: lithium, benzodiazepine.", "counsel": "Ebstein nhẹ + RV gần bình thường: tiên lượng tốt, có thể Cone repair (Da Silva procedure) trẻ nhỏ. Ebstein nặng + functional RV nhỏ + cyanosis: tiên lượng xấu, cần single ventricle pathway (Glenn → Fontan) hoặc Starnes procedure (đóng TV + BT shunt ở sơ sinh) → Fontan. Có thể suy tim thai (hydrops) - theo dõi sát. Tỷ lệ tử vong chu sinh ~20-30% ca nặng. Sinh ở trung tâm có phẫu thuật tim nhi + cath lab.", "pmid": "PMID 32303088, 33252045"}, {"id": "tapvr", "name": "TAPVR", "icon": "🔀", "freq": "1-2% CHD (cấp cứu sơ sinh tiềm ẩn)", "cv": "LA trống, RA+RV to (smooth-walled LA)", "lvot": "Vertical vein (supra/infracardiac)", "nst": "Heterotaxy (~30%)", "prognosis": "90%+ nếu không obstruction", "anatomy": "4 TMT phổi KHÔNG đổ vào LA. 4 types: Supracardiac (50% - SVC qua vertical vein), Cardiac (20% - CS hoặc trực tiếp RA), Infracardiac (20% - IVC/portal/ductus venosus, hay obstruction NHẤT), Mixed (10%). Quan trọng nhất: có/không obstruction?", "sono": "KHÓ - thường bị bỏ sót. 4CV: LA trống (không có TMT phổi đổ vào), RA mở rộng, RV mở rộng. 'Smooth-walled LA' - LA không có đoạn nhận TMT phổi. Vertical vein: Supracardiac - đi từ phía sau LA lên trên phải, đổ left innominate vein → SVC. 3VT: 4 vessels ('vascular traffic jam'). Infracardiac: vertical vein xuyên cơ hoành, đổ IVC/portal. Color: dòng chảy vào vertical vein; tăng vận tốc nếu obstruction.", "ddx": "PAPVR (partial) - chỉ một số TMT phổi đổ bất thường; ít nguy hiểm hơn. Cor triatriatum (LA có màng ngăn). Persistent left SVC. AVSD.", "assoc": "Hay gặp trong Heterotaxy (left atrial isomerism/polysplenia) - TAPVR type cardiac + bilateral SVC + asplenia. ~30% TAPVR kèm heterotaxy.", "counsel": "TAPVR không obstruction: phẫu thuật (anastomose common pulmonary vein → LA) trong 4-6 tuần đầu. Sống 5 năm >90% ở trung tâm lớn. TAPVR có obstruction: CẤP CỨU sơ sinh, mổ trong 24-48h. Tỷ lệ tử vong cao nếu trì hoãn. Khảo sát abdominal situs (vị trí dạ dày, gan) loại trừ heterotaxy; siêu âm lách (asplenia/polysplenia - chủng ngừa + kháng sinh dự phòng). Sinh ở trung tâm tim mạch nhi; nghi obstruction → chuẩn bị ECMO sau sinh.", "pmid": "PMID 32664122, 33239117"}, {"id": "rhb", "name": "Bonus: Rhabdomyoma (u tim thai - TSC)", "icon": "🟣", "freq": "60-80% u tim thai; 50% có TSC", "cv": "Echo dày ở thành thất (nhiều khối)", "lvot": "Không đặc hiệu", "nst": "TSC1/2 (50% thai)", "prognosis": "Tự thoái triển sau sinh", "anatomy": "Rhabdomyoma: lành tính, dấu hiệu của Tuberous Sclerosis Complex (TSC) - gen TSC1/TSC2. U thường nhiều, ở thành thất, có thể tự thoái triển sau sinh. Teratoma: hiếm, thường ở màng ngoài tim. Fibroma: đơn độc, vách liên thất.", "sono": "Rhabdomyoma: echo dày (hyperechoic), đồng nhất, nhiều khối, kích thước thay đổi, có thể ở RV hoặc LV. Có thể gây obstruction nếu ở LVOT/RVOT. Teratoma: echo hỗn hợp, có thể vôi hoá, thường ngoài tim, kèm pericardial effusion lớn.", "ddx": "Fibroma, myxoma, teratoma. Cần phân biệt với thrombus (hiếm ở thai, thường kèm arrhythmia).", "assoc": "Tuberous Sclerosis Complex (TSC1/TSC2). Sau sinh: MRI não tìm cortical tubers + SEGAs, genetic test.", "counsel": "Rhabdomyoma: ~50% trẻ có TSC (cần MRI não sau sinh). U tim thường tự thoái triển trong 2-3 năm đầu, theo dõi. Nếu obstruction: phẫu thuật. Teratoma: phẫu thuật cắt u sau sinh; có thể cần pericardiocentesis trước sinh nếu tamponade. Fibroma: phẫu thuật nếu nguy cơ arrhythmia.", "pmid": "PMID 32664123, 33252046"}];
+
+// ============== RENDER LESION CARDS ==============
+function renderLesionCards() {
+  const grid = document.getElementById('lesionGrid');
+  grid.innerHTML = LESION_DATA.map(l => `
+    <div class="lesion-card" data-id="${l.id}" data-name="${l.name.toLowerCase()}" data-nst="${l.nst.toLowerCase()}" data-search="${(l.name + ' ' + l.cv + ' ' + l.lvot + ' ' + l.nst + ' ' + l.anatomy + ' ' + l.sono + ' ' + l.ddx + ' ' + l.counsel).toLowerCase()}">
+      <div class="lesion-icon">${l.icon}</div>
+      <div class="lesion-name">${l.name}</div>
+      <div class="lesion-freq">${l.freq}</div>
+      <div class="lesion-quick">
+        <div><strong>4CV:</strong> ${l.cv}</div>
+        <div><strong>LVOT/RVOT/3VT:</strong> ${l.lvot}</div>
+        <div class="text-xs" style="color: #be185d; margin-top: 4px;"><strong>NST:</strong> ${l.nst}</div>
+        <div class="text-xs" style="color: #065f46; margin-top: 4px;"><strong>Tiên lượng:</strong> ${l.prognosis}</div>
+      </div>
+      <div class="expand-hint">▼ Click để mở rộng</div>
+      <div class="lesion-detail">
+        <div class="detail-grid">
+          <div class="detail-block">
+            <strong>📐 Giải phẫu & Phôi thai học</strong>
+            <p>${l.anatomy}</p>
+          </div>
+          <div class="detail-block">
+            <strong>🔍 Dấu hiệu Siêu âm</strong>
+            <p>${l.sono}</p>
+          </div>
+          <div class="detail-block">
+            <strong>🔄 Chẩn đoán phân biệt</strong>
+            <p>${l.ddx}</p>
+          </div>
+          <div class="detail-block">
+            <strong>🔗 Bất thường kèm theo</strong>
+            <p>${l.assoc}</p>
+          </div>
+          <div class="detail-block" style="grid-column: 1 / -1; border-left-color: #BE185D;">
+            <strong style="color: #BE185D;">💬 Tư vấn bệnh nhân (Counseling)</strong>
+            <p>${l.counsel}</p>
+          </div>
+        </div>
+        <div class="text-xs text-gray-500 mt-2"><strong>Citation:</strong> ${l.pmid} · <a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(l.name)}" target="_blank">Tìm thêm trên PubMed</a></div>
+      </div>
+    </div>
+  `).join('');
+
+  // Add click handlers
+  grid.querySelectorAll('.lesion-card').forEach(card => {
+    card.addEventListener('click', e => {
+      card.classList.toggle('expanded');
+      const hint = card.querySelector('.expand-hint');
+      hint.textContent = card.classList.contains('expanded') ? '▲ Thu gọn' : '▼ Click để mở rộng';
+    });
+  });
+}
+
+// ============== SEARCH ==============
+function setupSearch() {
+  const input = document.getElementById('searchInput');
+  input.addEventListener('input', e => {
+    const q = e.target.value.toLowerCase().trim();
+    document.querySelectorAll('.lesion-card').forEach(card => {
+      const matches = !q || card.dataset.search.includes(q);
+      card.classList.toggle('hidden', !matches);
+    });
+  });
+}
+
+// ============== DARK MODE ==============
+function setupTheme() {
+  const saved = localStorage.getItem('theme') || 'light';
+  if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+
+  const toggle = () => {
+    const cur = document.documentElement.getAttribute('data-theme');
+    const next = cur === 'dark' ? 'light' : 'dark';
+    if (next === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    else document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', next);
+    updateMermaidTheme();
+  };
+  document.getElementById('themeToggle').addEventListener('click', toggle);
+  document.getElementById('themeFab').addEventListener('click', toggle);
+}
+
+function updateMermaidTheme() {
+  // Re-init mermaid with current theme
+  if (window.mermaid) {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: isDark ? 'dark' : 'default',
+      securityLevel: 'loose',
+      flowchart: { useMaxWidth: true, htmlLabels: true, curve: 'basis' }
+    });
+  }
+}
+
+// ============== EXPAND/COLLAPSE ALL ==============
+function setupExpandAll() {
+  document.getElementById('expandAllBtn').addEventListener('click', () => {
+    document.querySelectorAll('.lesion-card').forEach(card => {
+      card.classList.add('expanded');
+      card.querySelector('.expand-hint').textContent = '▲ Thu gọn';
+    });
+  });
+  document.getElementById('collapseAllBtn').addEventListener('click', () => {
+    document.querySelectorAll('.lesion-card').forEach(card => {
+      card.classList.remove('expanded');
+      card.querySelector('.expand-hint').textContent = '▼ Click để mở rộng';
+    });
+  });
+}
+
+// ============== PRINT ==============
+function setupPrint() {
+  document.getElementById('printBtn').addEventListener('click', () => window.print());
+  document.getElementById('printFab').addEventListener('click', () => window.print());
+}
+
+// ============== SCROLL TO TOP ==============
+function setupScrollTop() {
+  document.getElementById('scrollTop').addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
+// ============== PROGRESS BAR ==============
+function setupProgress() {
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+    document.getElementById('progress').style.width = pct + '%';
+  });
+}
+
+// ============== TOC ACTIVE STATE ==============
+function setupTOC() {
+  const tocLinks = document.querySelectorAll('.toc a');
+  const sections = Array.from(tocLinks).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+  window.addEventListener('scroll', () => {
+    let active = 0;
+    for (let i = 0; i < sections.length; i++) {
+      if (sections[i].offsetTop - 100 <= window.scrollY) active = i;
+    }
+    tocLinks.forEach((a, i) => a.classList.toggle('active', i === active));
+  });
+}
+
+// ============== CHARTS ==============
+function renderCharts() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const textColor = isDark ? '#e2e8f0' : '#1f2937';
+  const gridColor = isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)';
+  Chart.defaults.color = textColor;
+  Chart.defaults.borderColor = gridColor;
+
+  const gaLabels = ['16', '20', '24', '28', '32', '36'];
+  new Chart(document.getElementById('measurementsChart').getContext('2d'), {
+    type: 'line',
+    data: {
+      labels: gaLabels,
+      datasets: [
+        { label: 'MV annulus', data: [2.5, 4.2, 5.8, 7.6, 9.4, 11.5], borderColor: '#0E4D92', backgroundColor: 'rgba(14, 77, 146, 0.1)', tension: 0.3, pointRadius: 4 },
+        { label: 'TV annulus', data: [3.0, 4.8, 6.7, 8.7, 10.6, 13.0], borderColor: '#BE185D', backgroundColor: 'rgba(190, 24, 93, 0.1)', tension: 0.3, pointRadius: 4 },
+        { label: 'AoV annulus', data: [2.2, 3.6, 5.0, 6.3, 7.8, 9.5], borderColor: '#DC2626', backgroundColor: 'rgba(220, 38, 38, 0.1)', tension: 0.3, pointRadius: 4 },
+        { label: 'PV annulus', data: [2.8, 4.5, 6.1, 7.8, 9.6, 11.6], borderColor: '#14B8A6', backgroundColor: 'rgba(20, 184, 166, 0.1)', tension: 0.3, pointRadius: 4 }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: { display: true, text: 'Valve Annulus (mm) theo Tuổi thai (Schneider 2005)', font: { size: 13, weight: 'bold' } },
+        legend: { position: 'bottom', labels: { font: { size: 11 } } }
+      },
+      scales: {
+        x: { title: { display: true, text: 'Tuổi thai (tuần)' } },
+        y: { title: { display: true, text: 'Đường kính (mm)' }, beginAtZero: true }
+      }
+    }
+  });
+
+  new Chart(document.getElementById('fhrChart').getContext('2d'), {
+    type: 'line',
+    data: {
+      labels: ['8', '10', '12', '16', '20', '24', '28', '32', '36', '40'],
+      datasets: [
+        { label: 'FHR trung bình (bpm)', data: [170, 165, 160, 155, 150, 145, 142, 140, 138, 135], borderColor: '#0E4D92', backgroundColor: 'rgba(14, 77, 146, 0.15)', fill: true, tension: 0.3, pointRadius: 4, borderWidth: 2 },
+        { label: 'Ngưỡng trên (>180 = tachycardia)', data: [180, 180, 180, 180, 180, 180, 180, 180, 180, 180], borderColor: '#DC2626', borderDash: [5, 5], fill: false, pointRadius: 0, borderWidth: 1.5 },
+        { label: 'Ngưỡng dưới (<110 = bradycardia)', data: [110, 110, 110, 110, 110, 110, 110, 110, 110, 110], borderColor: '#F59E0B', borderDash: [5, 5], fill: false, pointRadius: 0, borderWidth: 1.5 }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: { display: true, text: 'FHR bình thường theo Tuổi thai', font: { size: 13, weight: 'bold' } },
+        legend: { position: 'bottom', labels: { font: { size: 10 } } }
+      },
+      scales: {
+        x: { title: { display: true, text: 'Tuổi thai (tuần)' } },
+        y: { title: { display: true, text: 'FHR (bpm)' }, min: 100, max: 200 }
+      }
+    }
+  });
+}
+
+// ============== INIT ==============
+document.addEventListener('DOMContentLoaded', () => {
+  renderLesionCards();
+  setupSearch();
+  setupTheme();
+  setupExpandAll();
+  setupPrint();
+  setupScrollTop();
+  setupProgress();
+  setupTOC();
+  renderCharts();
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default',
+    securityLevel: 'loose',
+    flowchart: { useMaxWidth: true, htmlLabels: true, curve: 'basis' }
+  });
+});
+</script>
+
+</body>
+</html>

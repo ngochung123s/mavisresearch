@@ -1,0 +1,1013 @@
+# Bài Giảng: Hướng Dẫn Đọc Kết Quả Khí Máu Động Mạch (ABG) và Giải Thích Theo Sinh Lý
+
+**Phiên bản nâng cao — Bổ sung rối loạn hỗn hợp, khoảng trống anion và delta/delta ratio**
+
+---
+
+## Mục Tiêu Học Tập
+
+Sau khi hoàn thành bài giảng này, người học sẽ có khả năng:
+
+1. **Nhận diện** 6 thông số chuẩn của khí máu động mạch (ABG) và khoảng giá trị bình thường tương ứng
+2. **Áp dụng** quy trình 6 bước có hệ thống để diễn giải kết quả ABG
+3. **Phân biệt** rối loạn toan kiềm nguồn gốc hô hấp và chuyển hóa
+4. **Đánh giá** mức độ bù trừ (chưa bù, bù một phần, bù hoàn toàn) dựa trên mối tương quan giữa pH, PaCO₂ và HCO₃⁻
+5. **Nhận diện và phân tích** rối loạn hỗn hợp (mixed acid-base disorders) — bao gồm toan hô hấp + kiềm chuyển hóa
+6. **Tính toán và ứng dụng** khoảng trống anion (anion gap) và delta/delta ratio trong chẩn đoán phân biệt
+7. **Giải thích** cơ chế sinh lý bệnh đằng sau từng dạng rối loạn toan kiềm
+
+---
+
+## Phần 1: Đại Cương và Ý Nghĩa Lâm Sàng
+
+### 1.1 Khái niệm cơ bản
+
+Cân bằng toan kiềm (acid-base balance) phản ánh trạng thái **homeostasis của nồng độ ion hydro (H⁺)** trong dịch cơ thể, được biểu thị qua chỉ số pH [1]. Khoảng pH bình thường của máu động mạch là **7,35–7,45** [1][4].
+
+| Khái niệm | Định nghĩa | pH |
+|-----------|-----------|-----|
+| **Toan (Acidosis)** | Tăng nồng độ H⁺ (chất cho H⁺) | < 7,35 |
+| **Kiềm (Alkalosis)** | Giảm nồng độ H⁺ (chất nhận H⁺) | > 7,45 |
+
+> ⚠️ **Lưu ý quan trọng**: pH bình thường **không loại trừ** rối loạn toan kiềm tiềm ẩn. pH có thể trở về bình thường sau một thời gian nhờ cơ chế bù trừ, mặc dù bất thường sinh lý vẫn tồn tại [1][7].
+
+### 1.2 Vai trò của ABG trong thực hành lâm sàng
+
+Phân tích khí máu động mạch (Arterial Blood Gas - ABG) là xét nghiệm **bắt buộc** để chẩn đoán suy hô hấp và các rối loạn toan kiềm [5]. Các chỉ định chính bao gồm [4]:
+
+- Thiếu oxy nghiêm trọng hoặc không giải thích được (ví dụ: viêm phổi, thuyên tắc phổi)
+- Phân biệt suy hô hấp type 1 (PaO₂ giảm, PaCO₂ bình thường/thấp) và type 2 (PaCO₂ tăng)
+- Xác nhận ứ đọng CO₂/nhiễm CO₂ (ví dụ: COPD, giảm thông khí)
+- Hướng dẫn hỗ trợ hô hấp và cai máy thở
+- Đánh giá nhu cầu liệu pháp oxy dài hạn
+
+### 1.3 Chống chỉ định lấy mẫu ABG
+
+- **Không** lấy mẫu khi không có tuần hoàn bàng hệ (thực hiện test Allen cải biên) [4]
+- **Không bao giờ** lấy mẫu từ vị trí có dò động-tĩnh mạch (arteriovenous fistula) dùng cho chạy thận [4]
+
+### 1.4 Sáu thông số của ABG
+
+| Thông số | Khoảng bình thường | Ý nghĩa |
+|----------|-------------------|---------|
+| **pH** | 7,35–7,45 | Cân bằng toan kiềm tổng thể [1][4] |
+| **PaCO₂** | 35–45 mm Hg (4,5–6,5 kPa) | Thành phần hô hấp [1][4] |
+| **HCO₃⁻** | 22–26 mEq/L | Thành phần chuyển hóa [1] |
+| **Base excess (BE)** | −2 đến +2 mEq/L | Thành phần chuyển hóa (thay thế) [4][9] |
+| **PaO₂** | 80–100 mm Hg | Tình trạng oxy hóa máu [4] |
+| **SaO₂** | 95–100% | Độ bão hòa oxy hemoglobin [9] |
+
+> 💡 **Mẹo ghi nhớ**: pH và PaCO₂ phản ánh **hệ hô hấp**; HCO₃⁻ và BE phản ánh **hệ chuyển hóa** (thận).
+
+> 📌 **Lưu ý về BE**: Base excess (BE) là cách trình bày thay thế cho thành phần chuyển hóa của rối loạn toan kiềm. BE dương (+) biểu thị kiềm chuyển hóa, BE âm (−) biểu thị toan chuyển hóa [4][9].
+
+---
+
+## Phần 2: Quy Trình 6 Bước Diễn Giải ABG
+
+### 2.1 Sơ đồ tổng quan
+
+```mermaid
+flowchart TD
+    Start(("Bắt đầu<br>Đọc kết quả ABG")) --> Step1["Bước 1: Đánh giá từng<br>chỉ số riêng lẻ<br>(pH, PaCO₂, HCO₃⁻, PaO₂)"]
+    
+    subgraph Phase1["Giai đoạn 1: Đánh giá pH"]
+        direction TB
+        Step1 --> D1{"pH máu<br>7,35 – 7,45?"}
+        D1 -->|"pH < 7,35"| Acid["Toan máu<br>(Acidemia)"]
+        D1 -->|"pH > 7,45"| Alk["Kiềm máu<br>(Alkalemia)"]
+        D1 -->|"pH bình thường"| D2{"Có rối loạn<br>hỗn hợp?"}
+    end
+    
+    subgraph Phase2["Giai đoạn 2: Xác định rối loạn nguyên phát"]
+        direction TB
+        Acid --> D3{"PaCO₂<br>> 45 mm Hg?"}
+        D3 -->|"Có"| RespAcid["Toan hô hấp<br>(Respiratory Acidosis)"]
+        D3 -->|"Không"| D4{"HCO₃⁻<br>< 22 mEq/L?"}
+        D4 -->|"Có"| MetaAcid["Toan chuyển hóa<br>(Metabolic Acidosis)"]
+        D4 -->|"Không"| Mixed1["Rối loạn hỗn hợp<br>cần đánh giá thêm"]
+        
+        Alk --> D5{"PaCO₂<br>< 35 mm Hg?"}
+        D5 -->|"Có"| RespAlk["Kiềm hô hấp<br>(Respiratory Alkalosis)"]
+        D5 -->|"Không"| D6{"HCO₃⁻<br>> 26 mEq/L?"}
+        D6 -->|"Có"| MetaAlk["Kiềm chuyển hóa<br>(Metabolic Alkalosis)"]
+        D6 -->|"Không"| Mixed2["Rối loạn hỗn hợp<br>cần đánh giá thêm"]
+    end
+    
+    subgraph Phase3["Giai đoạn 3: Đánh giá bù trừ"]
+        direction TB
+        RespAcid --> D7{"HCO₃⁻ tăng<br>(bù trừ chuyển hóa)?"}
+        D7 -->|"Có"| Comp1["Bù trừ một phần<br>hoặc hoàn toàn"]
+        D7 -->|"Không"| NoComp1["Chưa có bù trừ<br>(cấp tính)"]
+        
+        MetaAcid --> D8{"PaCO₂ giảm<br>(bù trừ hô hấp)?"}
+        D8 -->|"Có"| Comp2["Bù trừ một phần<br>hoặc hoàn toàn"]
+        D8 -->|"Không"| NoComp2["Chưa có bù trừ<br>(cấp tính)"]
+        
+        RespAlk --> D9{"HCO₃⁻ giảm<br>(bù trừ chuyển hóa)?"}
+        D9 -->|"Có"| Comp3["Bù trừ một phần<br>hoặc hoàn toàn"]
+        D9 -->|"Không"| NoComp3["Chưa có bù trừ<br>(cấp tính)"]
+        
+        MetaAlk --> D10{"PaCO₂ tăng<br>(bù trừ hô hấp)?"}
+        D10 -->|"Có"| Comp4["Bù trừ một phần<br>hoặc hoàn toàn"]
+        D10 -->|"Không"| NoComp4["Chưa có bù trừ<br>(cấp tính)"]
+    end
+    
+    subgraph Phase4["Giai đoạn 4: Đánh giá oxy hóa máu"]
+        direction TB
+        Step1 --> D11{"PaO₂<br>80 – 100 mm Hg?"}
+        D11 -->|"PaO₂ < 60 mm Hg<br>hoặc SaO₂ < 90%"| Hypox["Thiếu oxy máu<br>(Hypoxemia)"]
+        D11 -->|"Bình thường"| NormOx["Oxy hóa máu<br>bình thường"]
+        Hypox --> D12{"Có tăng<br>thông khí?"}
+        D12 -->|"PaCO₂ thấp"| Type1["Suy hô hấp type I<br>(giảm oxy, bình thường/giảm CO₂)"]
+        D12 -->|"PaCO₂ cao"| Type2["Suy hô hấp type II<br>(tăng CO₂, giảm oxy)"]
+    end
+    
+    subgraph Phase5["Giai đoạn 5: Tổng hợp và giải thích sinh lý"]
+        direction TB
+        Comp1 --> Summary["Tổng hợp kết quả<br>theo cơ chế sinh lý"]
+        Comp2 --> Summary
+        Comp3 --> Summary
+        Comp4 --> Summary
+        NoComp1 --> Summary
+        NoComp2 --> Summary
+        NoComp3 --> Summary
+        NoComp4 --> Summary
+        Type1 --> Summary
+        Type2 --> Summary
+        NormOx --> Summary
+        
+        Summary --> D13{"Có rối loạn<br>hỗn hợp?"}
+        D13 -->|"Có"| MDT["Hội chẩn chuyên khoa<br>Hô hấp / Hồi sức"]
+        D13 -->|"Không"| D14{"Cần điều chỉnh<br>theo lâm sàng?"}
+        D14 -->|"Có"| Treat["Xử trí theo nguyên nhân<br>và mức độ rối loạn"]
+        D14 -->|"Không"| Monitor["Theo dõi và<br>đánh giá lại ABG"]
+    end
+    
+    Treat --> End(("Kết thúc<br>Ghi nhận kết quả"))
+    Monitor --> End
+    MDT --> End
+```
+
+### 2.2 Chi tiết từng bước
+
+#### Bước 1: Đánh giá pH — Toan hay Kiềm?
+
+- pH < 7,35 → **Toan máu (Acidemia)** [1]
+- pH > 7,45 → **Kiềm máu (Alkalemia)** [1]
+- pH 7,35–7,45 → Bình thường, **nhưng** cần xác định pH nằm ở phía toan hay kiềm của 7,40 (giá trị tuyệt đối bình thường) [7]
+
+> ⚠️ **Lưu ý**: Ngay cả khi pH nằm trong khoảng bình thường, việc xác định pH ở phía toan (< 7,40) hay kiềm (> 7,40) của giá trị 7,40 là rất quan trọng để phát hiện rối loạn đang được bù trừ [7].
+
+#### Bước 2: Đánh giá PaCO₂ — Thành phần hô hấp
+
+- PaCO₂ > 45 mm Hg → **Toan hô hấp** (tăng CO₂) [1][5]
+- PaCO₂ < 35 mm Hg → **Kiềm hô hấp** (giảm CO₂)
+- PaCO₂ 35–45 mm Hg → Bình thường
+
+#### Bước 3: Đánh giá HCO₃⁻ — Thành phần chuyển hóa
+
+- HCO₃⁻ < 22 mEq/L → **Toan chuyển hóa** (giảm bicarbonate) [1]
+- HCO₃⁻ > 26 mEq/L → **Kiềm chuyển hóa** (tăng bicarbonate) [1][5]
+- HCO₃⁻ 22–26 mEq/L → Bình thường
+
+#### Bước 4: Xác định rối loạn nguyên phát
+
+**Nguyên tắc**: Thông số (PaCO₂ hoặc HCO₃⁻) thay đổi **cùng hướng** với pH là thông số phản ánh rối loạn nguyên phát [1][7].
+
+| pH | PaCO₂ | HCO₃⁻ | Rối loạn nguyên phát |
+|----|-------|-------|----------------------|
+| ↓ Toan | ↑ Cao | Bình thường | Toan hô hấp |
+| ↓ Toan | Bình thường | ↓ Thấp | Toan chuyển hóa |
+| ↑ Kiềm | ↓ Thấp | Bình thường | Kiềm hô hấp |
+| ↑ Kiềm | Bình thường | ↑ Cao | Kiềm chuyển hóa |
+
+> 💡 **Phương pháp tiếp cận** [7]:
+> 1. Đặt câu hỏi: "Nếu rối loạn nguyên phát là hô hấp, PaCO₂ sẽ cao hay thấp?"
+> 2. Sử dụng nguyên tắc sinh lý: PaCO₂ được coi là acid → Toan hô hấp khi PaCO₂ cao (> 40 mm Hg), Kiềm hô hấp khi PaCO₂ thấp
+> 3. Xác nhận giá trị PaCO₂ thực tế từ ABG
+> 4. Lặp lại tương tự cho HCO₃⁻ (được coi là base): Toan chuyển hóa khi HCO₃⁻ thấp (< 24 mEq/L), Kiềm chuyển hóa khi HCO₃⁻ cao
+> 5. Nếu cả hai đều bất thường → **Rối loạn hỗn hợp** [7]
+
+#### Bước 5: Đánh giá bù trừ
+
+**Nguyên tắc sinh lý**: Hệ thống **đối lập** với rối loạn nguyên phát sẽ cố gắng bù trừ [1][7]:
+- Rối loạn hô hấp → **Thận** bù trừ (tăng/giảm tái hấp thu HCO₃⁻)
+- Rối loạn chuyển hóa → **Phổi** bù trừ (tăng/giảm thông khí để điều chỉnh CO₂)
+
+| Mức độ bù trừ | Đặc điểm |
+|--------------|----------|
+| **Chưa bù (Uncompensated)** | Thông số đối lập nằm trong khoảng bình thường [10] |
+| **Bù một phần (Partially compensated)** | Có bù trừ nhưng pH vẫn bất thường [10] |
+| **Bù hoàn toàn (Fully compensated)** | Có bù trừ và pH đã trở về bình thường [10] |
+
+> ⚠️ **Lưu ý quan trọng**: Cơ thể **không bao giờ bù trừ quá mức** (overcompensate) [10].
+
+**Công thức bù trừ dự kiến** [1-2][7]:
+
+| Rối loạn | Công thức bù trừ dự kiến |
+|----------|--------------------------|
+| **Toan chuyển hóa** | Giảm HCO₃⁻ 1 mEq/L → Giảm PaCO₂ 1,2 mm Hg [1] |
+| **Toan hô hấp cấp** | Tăng PaCO₂ 10 mm Hg → Tăng HCO₃⁻ 1 mEq/L (0,1 × ΔPaCO₂) [2] |
+| **Toan hô hấp mạn** | Tăng PaCO₂ 10 mm Hg → Tăng HCO₃⁻ 3,5 mEq/L (0,35 × ΔPaCO₂) [1-2] |
+| **Kiềm chuyển hóa** | Tăng HCO₃⁻ 1 mEq/L → Tăng PaCO₂ 0,7 mm Hg [1] |
+| **Kiềm hô hấp cấp** | Giảm PaCO₂ 10 mm Hg → Giảm HCO₃⁻ 2 mEq/L (0,2 × ΔPaCO₂) [2] |
+| **Kiềm hô hấp mạn** | Giảm PaCO₂ 10 mm Hg → Giảm HCO₃⁻ 5 mEq/L (0,5 × ΔPaCO₂) [1-2] |
+
+> ⚠️ **Lưu ý quan trọng**: Nếu mức độ thay đổi của thông số bù trừ **vượt quá** dự kiến → Gợi ý **rối loạn hỗn hợp** [1][7].
+
+#### Bước 6: Đánh giá oxy hóa máu
+
+- PaO₂ < 60 mm Hg hoặc SaO₂ < 90% → **Thiếu oxy máu (Hypoxemia)** — vấn đề đáng kể về mặt lâm sàng [7]
+- Luôn xem xét mức FiO₂ mà bệnh nhân đang nhận khi lấy mẫu ABG [4][7]
+
+---
+
+## Phần 3: Các Rối Loạn Toan Kiềm Đơn Thuần
+
+### 3.1 Toan hô hấp (Respiratory Acidosis)
+
+**Cơ chế sinh lý bệnh**: Giảm thông khí phế nang dẫn đến **ứ đọng CO₂** [1-2].
+
+| Thông số | Giá trị |
+|----------|---------|
+| pH | < 7,35 [1][5] |
+| PaCO₂ | > 45 mm Hg [1][5] |
+| HCO₃⁻ | Bình thường (chưa bù) hoặc > 26 mEq/L (đã bù) [5] |
+
+**Nguyên nhân thường gặp** [1][7]:
+
+| Nhóm nguyên nhân | Ví dụ |
+|------------------|-------|
+| **Mất trung tâm hô hấp** | Nhiễm trùng CNS, khối u, thuốc (opioid, an thần), rượu [1][7] |
+| **Yếu cơ hô hấp** | Rối loạn thần kinh cơ mạn tính, liệt cơ hô hấp cấp [1] |
+| **Bệnh lý phổi** | COPD, hen, viêm phổi, phù phổi, ARDS [7] |
+| **Tắc nghẽn đường thở** | Hen, COPD [7] |
+| **Bất thường tưới máu** | Thuyên tắc phổi, ngừng tim [7] |
+
+**Cơ chế bù trừ**: Thận tăng tái hấp thu HCO₃⁻ và tăng bài tiết H⁺ (dưới dạng NH₄⁺ và acid titratable) [1-2]. Bù trừ bắt đầu trong **6–12 giờ**, bù trừ hoàn toàn có thể mất **3–5 ngày** [1].
+
+**Tỷ lệ bù trừ dự kiến**:
+- Cấp tính: Tăng PaCO₂ 10 mm Hg → tăng HCO₃⁻ 1 mEq/L [2]
+- Mạn tính: Tăng PaCO₂ 10 mm Hg → tăng HCO₃⁻ 3,5 mEq/L [1-2]
+
+**Biểu hiện lâm sàng** [1]:
+- Dấu hiệu suy hô hấp do nguyên nhân nguyên phát
+- Dấu hiệu tăng CO₂ (CO₂ narcosis): đau đầu, nôn, rối loạn tri giác — do giãn mạch não và tăng áp lực nội sọ
+
+### 3.2 Kiềm hô hấp (Respiratory Alkalosis)
+
+**Cơ chế sinh lý bệnh**: Tăng thông khí phế nang dẫn đến **thải CO₂ quá mức** [1-2].
+
+| Thông số | Giá trị |
+|----------|---------|
+| pH | > 7,45 [1] |
+| PaCO₂ | < 35 mm Hg |
+| HCO₃⁻ | Bình thường (chưa bù) hoặc < 22 mEq/L (đã bù) |
+
+**Nguyên nhân thường gặp** [1][7]:
+
+| Nhóm nguyên nhân | Ví dụ |
+|------------------|-------|
+| **Kích thích CNS** | Lo âu, đau, sốt, nhiễm trùng huyết, mang thai, salicylate [7] |
+| **Thiếu oxy** | Viêm phổi, suy tim sung huyết, phù phổi, thuyên tắc phổi, độ cao [7] |
+| **Thông khí cơ học** | Thông khí quá mức [1] |
+| **Nguyên nhân tâm lý** | Hysteria, tăng thông khí do lo âu [1] |
+
+**Cơ chế bù trừ**: Thận giảm tái hấp thu HCO₃⁻ và tăng bài tiết HCO₃⁻ qua nước tiểu kèm cation (chủ yếu Na⁺) [2]. Bù trừ hoàn tất trong vài ngày [7].
+
+**Tỷ lệ bù trừ dự kiến**:
+- Cấp tính: Giảm PaCO₂ 10 mm Hg → giảm HCO₃⁻ 2 mEq/L [2]
+- Mạn tính: Giảm PaCO₂ 10 mm Hg → giảm HCO₃⁻ 5 mEq/L [1-2]
+
+**Biểu hiện lâm sàng** [1]:
+- Tăng thông khí do nguyên nhân nguyên phát
+- Dấu hiệu hạ canxi máu: kích thích thần kinh cơ, dị cảm quanh miệng, tetany do kiềm — vì kiềm máu thúc đẩy canxi gắn với albumin, dẫn đến hạ canxi ion hóa
+
+### 3.3 Toan chuyển hóa (Metabolic Acidosis)
+
+**Cơ chế sinh lý bệnh**: Giảm HCO₃⁻ do mất qua đường tiêu hóa/thận hoặc do sử dụng quá mức để trung hòa H⁺ trong quá trình đệm [1].
+
+| Thông số | Giá trị |
+|----------|---------|
+| pH | < 7,35 [1] |
+| HCO₃⁻ | < 22 mEq/L [1] |
+| PaCO₂ | Bình thường (chưa bù) hoặc < 35 mm Hg (đã bù) |
+
+**Phân loại theo khoảng trống anion (Anion Gap)** [1][4]:
+
+| Loại | Đặc điểm | Nguyên nhân |
+|------|----------|-------------|
+| **Anion gap bình thường** (Toan tăng clo máu) | Mất HCO₃⁻ qua thận/tiêu hóa | Tiêu chảy, RTA type I/IV, suy thận, thuốc lợi tiểu giữ kali, TPN, ngộ độc ammonium chloride [1] |
+| **Anion gap tăng** | Tích tụ acid nội/ngoại sinh | Nhiễm ceton (đái tháo đường), tăng acid lactic, suy thận, ngộ độc methanol/ethylene glycol/salicylate [4] |
+
+> 💡 **Mẹo ghi nhớ "KUSMALE"** cho toan chuyển hóa anion gap tăng [4]:
+> - **K**etoacidosis (nhiễm ceton)
+> - **U**rea (tăng urê máu/suy thận)
+> - **S**ugar (tăng đường huyết)
+> - **M**ethanol (ngộ độc methanol)
+> - **A**lcohol (ngộ độc rượu)
+> - **L**actic acidosis (tăng acid lactic — kém tưới máu, nhiễm trùng huyết, thiếu máu ruột)
+> - **E**thylene glycol (ngộ độc chống đông)
+
+**Cơ chế bù trừ**: Phổi tăng thông khí để thải CO₂ (thở nhanh sâu - Kussmaul) [1][9]. Bù trừ diễn ra **nhanh** (trong vài phút đến vài giờ) [4].
+
+**Tỷ lệ bù trừ dự kiến**: Giảm HCO₃⁻ 1 mEq/L → giảm PaCO₂ 1,2 mm Hg [1].
+
+### 3.4 Kiềm chuyển hóa (Metabolic Alkalosis)
+
+**Cơ chế sinh lý bệnh**: Tăng HCO₃⁻ do mất acid qua dạ dày hoặc thận [1][3].
+
+| Thông số | Giá trị |
+|----------|---------|
+| pH | > 7,45 [1] |
+| HCO₃⁻ | > 26 mEq/L [1] |
+| PaCO₂ | Bình thường (chưa bù) hoặc > 45 mm Hg (đã bù) |
+
+**Nguyên nhân thường gặp** [1][3][7]:
+- Nôn kéo dài, hút dịch dạ dày (mất H⁺ và Cl⁻) [3][7]
+- Dùng lợi tiểu (tăng bài tiết aldosterone và Cl⁻) [7]
+- Hạ kali máu, hạ clo máu nặng [3]
+- Hội chứng Cushing, thừa mineralocorticoid
+- Truyền bicarbonate, hội chứng sữa-kiềm (milk-alkali syndrome), truyền máu lượng lớn (máu citrate) [1]
+
+**Phân loại theo đáp ứng với chloride** [1][7]:
+
+| Loại | Cl⁻ nước tiểu | Nguyên nhân | Xử trí |
+|------|---------------|-------------|--------|
+| **Đáp ứng chloride (Chloride-responsive)** | < 10 mEq/L | Nôn, hút dịch dạ dày, lợi tiểu [1][7] | Bù dịch muối sinh lý + KCl [1] |
+| **Kháng chloride (Chloride-resistant)** | > 20 mEq/L | Thừa mineralocorticoid, hạ kali máu [1] | Acetazolamide, HCl IV, lọc máu [1] |
+
+**Cơ chế bù trừ**: Phổi giảm thông khí để giữ CO₂ — đây là cơ chế bù trừ **kém hoàn hảo nhất** trong 4 loại, vì giảm thông khí quá mức sẽ gây thiếu oxy [8].
+
+**Tỷ lệ bù trừ dự kiến**: Tăng HCO₃⁻ 1 mEq/L → tăng PaCO₂ 0,7 mm Hg [1].
+
+**Biểu hiện lâm sàng** [1]:
+- Thở nông do ức chế hô hấp bù trừ
+- Dấu hiệu hạ canxi máu: kích thích thần kinh cơ, dị cảm quanh miệng, tetany do kiềm
+
+---
+
+## Phần 4: Rối Loạn Hỗn Hợp (Mixed Acid-Base Disorders) — **NỘI DUNG BỔ SUNG**
+
+### 4.1 Khái niệm
+
+Rối loạn hỗn hợp xảy ra khi **hai hoặc nhiều rối loạn toan kiềm nguyên phát** đồng thời tồn tại [3][6-7]. Rối loạn hỗn hợp **rất phổ biến** trong thực hành lâm sàng [6].
+
+**Cách nhận diện** [7]:
+- Nếu rối loạn nguyên phát dường như **cả hô hấp và chuyển hóa** → Rối loạn hỗn hợp
+- Cả PaCO₂ và HCO₃⁻ đều bất thường **cùng hướng** với pH
+- Mức độ thay đổi của thông số bù trừ **vượt quá** tỷ lệ dự kiến
+
+### 4.2 Các dạng rối loạn hỗn hợp
+
+| Loại hỗn hợp | pH | PaCO₂ | HCO₃⁻ | BE | AG |
+|--------------|-----|-------|-------|-----|-----|
+| **Toan hô hấp + Kiềm chuyển hóa** | ↑ / ↓ / bình thường | ↑ | ↑ | (+) ↑ | - |
+| **Toan hô hấp + Toan chuyển hóa** | ↓↓ | ↑ / ↓ / bình thường | ↓ / bình thường / ↑ | (−) ↑ | ↑ |
+| **Kiềm hô hấp + Kiềm chuyển hóa** | ↑↑ | ↓ | ↑ | (+) ↑ | - |
+| **Kiềm hô hấp + Toan chuyển hóa** | ↑ / bình thường | ↓ | ↓ | (−) ↑ | ↑ |
+
+*Nguồn: [3]*
+
+### 4.3 Toan hô hấp + Kiềm chuyển hóa — **Phân tích chi tiết**
+
+**Cơ chế sinh lý bệnh** [3]:
+- Giảm thông khí phế nang và ứ đọng CO₂ → Toan hô hấp
+- HCO₃⁻ tăng không tương xứng với mức bù trừ dự kiến → Kiềm chuyển hóa đi kèm
+
+**Nguyên nhân thường gặp** [3]:
+- Bệnh nhân COPD (toan hô hấp mạn) dùng lợi tiểu → hạ kali máu, hạ clo máu → kiềm chuyển hóa
+- Bệnh phổi mạn tính + nôn kéo dài
+- Suy hô hấp mạn + hút dịch dạ dày
+
+**Đặc điểm ABG** [3]:
+- PaCO₂, HCO₃⁻ và CO₂-CP đều tăng rõ rệt
+- HCO₃⁻ có thể **vượt quá giới hạn bù trừ dự kiến**: HCO₃⁻ thực tế > 24 + (ΔPaCO₂ × 0,35) + 5,58
+- BE dương tăng lớn
+- pH có thể bình thường, tăng hoặc giảm — tùy thuộc rối loạn nào chiếm ưu thế
+
+**Ví dụ lâm sàng**:
+
+| Thông số | Giá trị | Đánh giá |
+|----------|---------|----------|
+| pH | 7,45 | Bình thường (phía kiềm) |
+| PaCO₂ | 52 mm Hg | ↑ Cao (toan hô hấp) |
+| HCO₃⁻ | 36,1 mmol/L | ↑ Cao (kiềm chuyển hóa) |
+| BE | +12,1 mmol/L | ↑ Cao (kiềm chuyển hóa) |
+
+**Phân tích**:
+1. pH = 7,45 → Bình thường, phía kiềm
+2. PaCO₂ = 52 mm Hg (> 45) → Toan hô hấp
+3. HCO₃⁻ = 36,1 mmol/L (> 26) → Kiềm chuyển hóa
+4. **Kiểm tra bù trừ cho toan hô hấp mạn**: HCO₃⁻ dự kiến = 24 + (0,35 × 12) = 28,2 mmol/L → HCO₃⁻ thực tế (36,1) **vượt quá** dự kiến → Có kiềm chuyển hóa đi kèm
+5. **Kiểm tra bù trừ cho kiềm chuyển hóa**: PaCO₂ dự kiến = 40 + (0,7 × 12) = 48,4 mm Hg → PaCO₂ thực tế (52) **vượt quá** dự kiến → Có toan hô hấp đi kèm
+6. **Kết luận**: Rối loạn hỗn hợp — Toan hô hấp + Kiềm chuyển hóa, kiềm chuyển hóa chiếm ưu thế (pH phía kiềm)
+
+
+
+### 4.4 Toan hô hấp + Toan chuyển hóa (Respiratory Acidosis + Metabolic Acidosis)
+
+**Cơ chế sinh lý bệnh** [2-3][5]:
+- Giảm thông khí phế nang (toan hô hấp) + tăng sản xuất acid không bay hơi hoặc giảm bài tiết acid cố định (toan chuyển hóa) [2]
+- **Nguy hiểm**: Rối loạn này tạo ra **độ lệch pH nguy hiểm** vì giảm thông khí (toan hô hấp) **không cho phép** tăng thông khí thích nghi cần thiết cho toan chuyển hóa [5]
+- HCO₃⁻ thấp do toan chuyển hóa **chặn** sự gia tăng HCO₃⁻ dự kiến trong toan hô hấp [5]
+
+**Nguyên nhân thường gặp** [3][9]:
+
+| Nhóm nguyên nhân | Ví dụ cụ thể |
+|------------------|-------------|
+| **Ngừng tim phổi** (Cardiopulmonary arrest) | Thiếu oxy mô → tăng acid lactic + ngừng thở [3][9] |
+| **Phù phổi nặng** | Suy hô hấp + giảm tưới máu → tăng acid lactic [9] |
+| **Ngộ độc** | Salicylate + thuốc an thần [9] |
+| **Bệnh phổi + suy thận/nhiễm trùng huyết** | COPD + suy thận cấp hoặc nhiễm trùng huyết [3][9] |
+| **Suy đa tạng** (Multi-organ failure) | Rối loạn chuyển hóa nặng + suy hô hấp [3] |
+
+**Đặc điểm ABG** [2-3]:
+
+| Thông số | Giá trị | Giải thích |
+|----------|---------|------------|
+| **pH** | ↓↓ Giảm rõ rệt | Cả hai rối loạn đều làm giảm pH [2-3] |
+| **PaCO₂** | ↑ / ↓ / bình thường | Thường ↑ (toan hô hấp) nhưng có thể thay đổi [2] |
+| **HCO₃⁻** | ↓ / bình thường / ↑ nhẹ | Thường ↓ (toan chuyển hóa) nhưng có thể thay đổi [2] |
+| **BE** | (−) ↑ Âm tăng | Toan chuyển hóa chiếm ưu thế [2] |
+| **AG** | ↑ Tăng | Toan chuyển hóa anion gap tăng [2] |
+
+> ⚠️ **Lưu ý quan trọng**: pH giảm **rõ rệt** (↓↓) là đặc điểm nổi bật nhất của rối loạn này [2-3]. Đây là tình trạng **đe dọa tính mạng** cần xử trí cấp cứu.
+
+**Ví dụ lâm sàng**:
+
+| Thông số | Giá trị | Đánh giá |
+|----------|---------|----------|
+| pH | 7,10 | ↓↓ Toan máu nặng |
+| PaCO₂ | 60 mm Hg | ↑ Cao (toan hô hấp) |
+| HCO₃⁻ | 18 mmol/L | ↓ Thấp (toan chuyển hóa) |
+| BE | −8 mmol/L | (−) Âm (toan chuyển hóa) |
+| AG | 18 mEq/L | ↑ Tăng (toan chuyển hóa AG tăng) |
+
+**Phân tích**:
+1. pH = 7,10 (< 7,35) → **Toan máu nặng**
+2. PaCO₂ = 60 mm Hg (> 45) → **Toan hô hấp**
+3. HCO₃⁻ = 18 mmol/L (< 22) → **Toan chuyển hóa**
+4. **Kiểm tra bù trừ cho toan hô hấp mạn**: HCO₃⁻ dự kiến = 24 + (0,35 × 20) = 31 mmol/L → HCO₃⁻ thực tế (18) **thấp hơn nhiều** so với dự kiến → Có toan chuyển hóa đi kèm
+5. **Kiểm tra bù trừ cho toan chuyển hóa**: PaCO₂ dự kiến = (1,5 × 18) + 8 ± 2 = 33–37 mm Hg → PaCO₂ thực tế (60) **cao hơn nhiều** so với dự kiến → Có toan hô hấp đi kèm
+6. **Kết luận**: Rối loạn hỗn hợp — **Toan hô hấp + Toan chuyển hóa**, pH giảm nặng
+
+**Xử trí cấp cứu** [7]:
+- **Cải thiện thông khí ngay lập tức**: Thông khí nhân tạo, đặt nội khí quản nếu cần [7]
+- **Điều trị nguyên nhân gốc**: Hồi sức tim phổi, điều trị sốc, giải độc
+- **Theo dõi sát pH**: Toan máu nặng (pH < 7,20) có thể cần can thiệp tích cực
+
+---
+
+### 4.5 Kiềm hô hấp + Kiềm chuyển hóa (Respiratory Alkalosis + Metabolic Alkalosis)
+
+**Cơ chế sinh lý bệnh** [2-3]:
+- Tăng thông khí (kiềm hô hấp) + tăng HCO₃⁻ (kiềm chuyển hóa) đồng thời [2]
+- pH tăng **rõ rệt** (↑↑) — thường gợi ý **tiên lượng xấu** [2]
+
+**Nguyên nhân thường gặp** [2-3][9]:
+
+| Nhóm nguyên nhân | Ví dụ cụ thể |
+|------------------|-------------|
+| **Xơ gan + lợi tiểu** | Tăng thông khí do bệnh gan + kiềm chuyển hóa do lợi tiểu [3][9] |
+| **Mang thai + nôn** | Tăng thông khí sinh lý + mất acid dạ dày [3][9] |
+| **Thông khí quá mức ở bệnh nhân COPD** | Thông khí cơ học hoặc thuốc kích thích hô hấp quá liều [2] |
+| **Bệnh gan mạn + lợi tiểu** | Tăng thông khí + kiềm chuyển hóa [9] |
+| **Ngừng tim phổi + truyền bicarbonate + thông khí cơ học** | Điều trị tích cực gây kiềm hỗn hợp [9] |
+
+**Đặc điểm ABG** [2-3]:
+
+| Thông số | Giá trị | Giải thích |
+|----------|---------|------------|
+| **pH** | ↑↑ Tăng rõ rệt | Cả hai rối loạn đều làm tăng pH [2-3] |
+| **PaCO₂** | ↓ Giảm | Kiềm hô hấp [2] |
+| **HCO₃⁻** | ↑ Tăng | Kiềm chuyển hóa [2] |
+| **BE** | (+) ↑ Dương tăng | Kiềm chuyển hóa [2] |
+
+> ⚠️ **Lưu ý quan trọng**: pH tăng **rõ rệt** (↑↑) là đặc điểm nổi bật. Tình trạng này **luôn gợi ý tiên lượng xấu** [2].
+
+**Ví dụ lâm sàng**:
+
+| Thông số | Giá trị | Đánh giá |
+|----------|---------|----------|
+| pH | 7,58 | ↑↑ Kiềm máu nặng |
+| PaCO₂ | 30 mm Hg | ↓ Thấp (kiềm hô hấp) |
+| HCO₃⁻ | 32 mmol/L | ↑ Cao (kiềm chuyển hóa) |
+| BE | +8 mmol/L | (+) Dương (kiềm chuyển hóa) |
+
+**Phân tích**:
+1. pH = 7,58 (> 7,45) → **Kiềm máu nặng**
+2. PaCO₂ = 30 mm Hg (< 35) → **Kiềm hô hấp**
+3. HCO₃⁻ = 32 mmol/L (> 26) → **Kiềm chuyển hóa**
+4. **Kiểm tra bù trừ cho kiềm hô hấp mạn**: HCO₃⁻ dự kiến = 24 − (0,5 × 10) = 19 mmol/L → HCO₃⁻ thực tế (32) **cao hơn nhiều** so với dự kiến → Có kiềm chuyển hóa đi kèm
+5. **Kiểm tra bù trừ cho kiềm chuyển hóa**: PaCO₂ dự kiến = 40 + (0,7 × 8) = 45,6 mm Hg → PaCO₂ thực tế (30) **thấp hơn nhiều** so với dự kiến → Có kiềm hô hấp đi kèm
+6. **Kết luận**: Rối loạn hỗn hợp — **Kiềm hô hấp + Kiềm chuyển hóa**, pH tăng nặng
+
+---
+
+### 4.6 Kiềm hô hấp + Toan chuyển hóa (Respiratory Alkalosis + Metabolic Acidosis)
+
+**Cơ chế sinh lý bệnh** [2-3]:
+- Tăng thông khí (kiềm hô hấp) + giảm HCO₃⁻ không tương xứng (toan chuyển hóa) [2]
+- Hai rối loạn **tác động ngược chiều** lên pH → pH có thể bình thường hoặc tăng nhẹ [2-3]
+
+**Nguyên nhân thường gặp** [2-3][9]:
+
+| Nhóm nguyên nhân | Ví dụ cụ thể |
+|------------------|-------------|
+| **Nhiễm trùng huyết (Sepsis)** | Tăng thông khí + tăng acid lactic [3][9] |
+| **Ngộ độc salicylate** | Kích thích trung tâm hô hấp + toan chuyển hóa [3][7][9] |
+| **Suy thận + suy tim sung huyết/viêm phổi** | Toan chuyển hóa + tăng thông khí do thiếu oxy [3] |
+| **Bệnh gan tiến triển** | Tăng thông khí + rối loạn chuyển hóa [3] |
+| **Suy gan + suy thận phối hợp** | Rối loạn chuyển hóa phức tạp [9] |
+
+**Đặc điểm ABG** [2-3]:
+
+| Thông số | Giá trị | Giải thích |
+|----------|---------|------------|
+| **pH** | ↑ / bình thường | Tăng nhẹ hoặc bình thường [2-3] |
+| **PaCO₂** | ↓ Giảm | Kiềm hô hấp [2] |
+| **HCO₃⁻** | ↓ Giảm | Toan chuyển hóa [2] |
+| **BE** | (−) ↑ Âm tăng | Toan chuyển hóa [2] |
+| **AG** | ↑ Tăng | Toan chuyển hóa anion gap tăng [2] |
+
+> 💡 **Lưu ý**: Đây là dạng rối loạn hỗn hợp **"lành tính"** (benign) vì hai rối loạn **bù trừ cho nhau** — kiềm hô hấp bù trừ cho toan chuyển hóa và ngược lại [5].
+
+**Ví dụ lâm sàng**:
+
+| Thông số | Giá trị | Đánh giá |
+|----------|---------|----------|
+| pH | 7,42 | Bình thường (phía kiềm) |
+| PaCO₂ | 28 mm Hg | ↓ Thấp (kiềm hô hấp) |
+| HCO₃⁻ | 18 mmol/L | ↓ Thấp (toan chuyển hóa) |
+| BE | −6 mmol/L | (−) Âm (toan chuyển hóa) |
+| AG | 16 mEq/L | ↑ Tăng (toan chuyển hóa AG tăng) |
+
+**Phân tích**:
+1. pH = 7,42 → Bình thường (phía kiềm)
+2. PaCO₂ = 28 mm Hg (< 35) → **Kiềm hô hấp**
+3. HCO₃⁻ = 18 mmol/L (< 22) → **Toan chuyển hóa**
+4. **Kiểm tra bù trừ cho toan chuyển hóa**: PaCO₂ dự kiến = (1,5 × 18) + 8 ± 2 = 33–37 mm Hg → PaCO₂ thực tế (28) **thấp hơn** dự kiến → Có kiềm hô hấp đi kèm
+5. **Kiểm tra bù trừ cho kiềm hô hấp mạn**: HCO₃⁻ dự kiến = 24 − (0,5 × 12) = 18 mmol/L → HCO₃⁻ thực tế (18) **nằm trong khoảng dự kiến** → Có thể chỉ là bù trừ đơn thuần
+6. **Kết luận**: Cần đối chiếu lâm sàng — nếu bệnh nhân có nhiễm trùng huyết hoặc ngộ độc salicylate → **Kiềm hô hấp + Toan chuyển hóa**
+
+---
+
+### 4.7 Toan chuyển hóa + Kiềm chuyển hóa (Metabolic Acidosis + Metabolic Alkalosis)
+
+**Cơ chế sinh lý bệnh** [3][9]:
+- Hai rối loạn chuyển hóa **đối nghịch** đồng thời tồn tại [3]
+- pH và HCO₃⁻ có thể **bình thường** — che giấu rối loạn [3][9]
+
+**Nguyên nhân thường gặp** [3][9]:
+
+| Nhóm nguyên nhân | Ví dụ cụ thể |
+|------------------|-------------|
+| **Nôn + suy thận** | Mất acid dạ dày (kiềm) + giảm bài tiết acid (toan) [3][9] |
+| **Nôn + nhiễm ceton đái tháo đường** | Mất acid dạ dày (kiềm) + tăng acid ceton (toan) [3][9] |
+| **Nôn + nhiễm ceton do rượu** | Mất acid dạ dày (kiềm) + tăng acid ceton (toan) [9] |
+| **Hút dịch dạ dày + lợi tiểu + suy thận** | Mất acid + rối loạn điện giải + giảm bài tiết acid [3] |
+
+**Đặc điểm ABG** [3]:
+
+| Thông số | Giá trị | Giải thích |
+|----------|---------|------------|
+| **pH** | Bình thường | Hai rối loạn bù trừ cho nhau [3] |
+| **HCO₃⁻** | Bình thường | Hai rối loạn bù trừ cho nhau [3] |
+| **AG** | ↑ Tăng | Toan chuyển hóa anion gap tăng [3] |
+
+> ⚠️ **Lưu ý quan trọng**: Đây là rối loạn **dễ bị bỏ sót nhất** vì pH và HCO₃⁻ đều bình thường [3][9]. **Chẩn đoán dựa chủ yếu vào lâm sàng** và khoảng trống anion [3].
+
+**Ví dụ lâm sàng**:
+
+| Thông số | Giá trị | Đánh giá |
+|----------|---------|----------|
+| pH | 7,40 | Bình thường |
+| PaCO₂ | 40 mm Hg | Bình thường |
+| HCO₃⁻ | 24 mmol/L | Bình thường |
+| AG | 18 mEq/L | ↑ Tăng (toan chuyển hóa AG tăng) |
+
+**Phân tích**:
+1. pH, PaCO₂, HCO₃⁻ đều bình thường → **Có thể bỏ sót rối loạn**
+2. AG = 18 mEq/L (> 12) → **Toan chuyển hóa anion gap tăng** đang tồn tại
+3. **Tính delta gap**: ΔAG = 18 − 12 = 6 mEq/L → Nếu toan chuyển hóa đơn thuần, HCO₃⁻ dự kiến = 24 − 6 = 18 mmol/L
+4. HCO₃⁻ thực tế (24) **cao hơn** dự kiến (18) → Có **kiềm chuyển hóa đi kèm**
+5. **Kết luận**: Rối loạn hỗn hợp — **Toan chuyển hóa + Kiềm chuyển hóa** (dựa trên lâm sàng: nôn + suy thận)
+
+---
+
+## Phần 5: Khoảng Trống Anion (Anion Gap) — **NỘI DUNG BỔ SUNG**
+
+### 5.1 Khái niệm
+
+Khoảng trống anion (Anion Gap - AG) là chênh lệch giữa **cation đo được** (Na⁺) và **anion đo được** (Cl⁻ + HCO₃⁻) trong huyết tương [1][7].
+
+**Công thức tính** [1][7]:
+
+$$\text{AG} = \text{Na}^+ - (\text{Cl}^- + \text{HCO}_3^-)$$
+
+**Giá trị bình thường**: 8–12 mEq/L [1][7]
+
+> 💡 **Giải thích sinh lý**: AG phản ánh sự hiện diện của các **anion không đo được** trong huyết tương, bao gồm: albumin, phosphate, sulfate, lactate và các acid hữu cơ khác [1][7].
+
+### 5.2 Phân loại toan chuyển hóa theo AG
+
+| Loại | AG | Đặc điểm | Nguyên nhân |
+|------|-----|----------|-------------|
+| **Toan chuyển hóa AG tăng** | > 12 mEq/L | Tích tụ acid nội/ngoại sinh | Nhiễm ceton, tăng acid lactic, suy thận, ngộ độc [1][4] |
+| **Toan chuyển hóa AG bình thường** | 8–12 mEq/L | Mất HCO₃⁻ qua thận/tiêu hóa | Tiêu chảy, RTA, TPN [1][8] |
+
+> 💡 **Mẹo ghi nhớ "KUSMALE"** cho toan chuyển hóa anion gap tăng [4]:
+> - **K**etoacidosis (nhiễm ceton)
+> - **U**rea (tăng urê máu/suy thận)
+> - **S**ugar (tăng đường huyết)
+> - **M**ethanol (ngộ độc methanol)
+> - **A**lcohol (ngộ độc rượu)
+> - **L**actic acidosis (tăng acid lactic — kém tưới máu, nhiễm trùng huyết, thiếu máu ruột)
+> - **E**thylene glycol (ngộ độc chống đông)
+
+### 5.3 Delta/Delta Ratio (Δ/Δ) — **NỘI DUNG BỔ SUNG**
+
+**Khái niệm**: Delta/Delta ratio so sánh mức tăng của AG với mức giảm của HCO₃⁻, giúp phát hiện rối loạn hỗn hợp trong toan chuyển hóa [7].
+
+**Công thức tính** [7]:
+
+$$\Delta/\Delta = \frac{\text{AG} - 12}{24 - \text{HCO}_3^-}$$
+
+**Diễn giải kết quả** [7]:
+
+| Δ/Δ | Ý nghĩa | Giải thích |
+|-----|---------|------------|
+| **1,0–2,0** | Toan chuyển hóa AG tăng đơn thuần | Mức tăng AG tương xứng với mức giảm HCO₃⁻ [7] |
+| **< 1,0** | Toan chuyển hóa AG tăng + Toan chuyển hóa AG bình thường | HCO₃⁻ giảm nhiều hơn dự kiến từ AG [7] |
+| **> 2,0** | Toan chuyển hóa AG tăng + Kiềm chuyển hóa | HCO₃⁻ giảm ít hơn dự kiến từ AG [7] |
+
+> ⚠️ **Lưu ý quan trọng** [7]: Các diễn giải này giả định mối quan hệ **1:1** giữa anion không đo được và mức giảm HCO₃⁻, điều này **không phải lúc nào cũng đúng** ở từng bệnh nhân hoặc khi rối loạn đang tiến triển. Ví dụ: bù dịch cho bệnh nhân DKA làm tăng lọc cầu thận và bài tiết ceton qua nước tiểu → AG giảm mà không có toan chuyển hóa AG bình thường đi kèm [7].
+
+**Ví dụ minh họa**:
+
+| Tình huống | Na⁺ | Cl⁻ | HCO₃⁻ | AG | Δ/Δ | Kết luận |
+|------------|-----|-----|-------|-----|-----|----------|
+| Toan chuyển hóa AG tăng đơn thuần | 140 | 104 | 14 | 22 | (22−12)/(24−14) = 1,0 | AG tăng tương xứng HCO₃⁻ giảm |
+| Toan AG tăng + Kiềm chuyển hóa | 140 | 100 | 20 | 20 | (20−12)/(24−20) = 2,0 | HCO₃⁻ giảm ít hơn dự kiến |
+| Toan AG tăng + Toan AG bình thường | 140 | 110 | 10 | 20 | (20−12)/(24−10) = 0,57 | HCO₃⁻ giảm nhiều hơn dự kiến |
+
+---
+
+## Phần 6: Ví Dụ Lâm Sàng Tổng Hợp — **NỘI DUNG BỔ SUNG**
+
+### 6.1 Case Study: Rối loạn hỗn hợp Toan hô hấp + Kiềm chuyển hóa
+
+**Bệnh cảnh lâm sàng**: Bệnh nhân nam 65 tuổi, COPD mạn tính, nhập viện vì khó thở tăng dần. Đang dùng thuốc lợi tiểu (furosemide) và corticosteroid dài hạn.
+
+**Kết quả ABG**:
+
+| Thông số | Giá trị | Khoảng bình thường | Đánh giá |
+|----------|---------|-------------------|----------|
+| pH | 7,45 | 7,35–7,45 | Bình thường (phía kiềm) |
+| PaCO₂ | 52 mm Hg | 35–45 | ↑ Cao (toan hô hấp) |
+| HCO₃⁻ | 36,1 mmol/L | 22–26 | ↑ Cao (kiềm chuyển hóa) |
+| BE | +12,1 mmol/L | −2 đến +2 | ↑ Cao (kiềm chuyển hóa) |
+| PaO₂ | 127 mm Hg | 80–100 | ↑ Cao (thở oxy bổ sung) |
+| Na⁺ | 136 mmol/L | 135–145 | Bình thường |
+| K⁺ | 3,7 mmol/L | 3,5–5,0 | Bình thường (giới hạn thấp) |
+| Cl⁻ | 90 mmol/L | 98–107 | ↓ Thấp (hạ clo máu) |
+| Glucose | 7,5 mmol/L | 3,9–6,1 | ↑ Cao nhẹ |
+
+**Quy trình phân tích 6 bước**:
+
+| Bước | Phân tích | Kết quả |
+|------|-----------|---------|
+| **1. pH** | 7,45 → Bình thường, phía kiềm | Cần đánh giá thêm |
+| **2. PaCO₂** | 52 mm Hg (> 45) | **Toan hô hấp** |
+| **3. HCO₃⁻** | 36,1 mmol/L (> 26) | **Kiềm chuyển hóa** |
+| **4. Rối loạn nguyên phát** | Cả PaCO₂ và HCO₃⁻ đều bất thường | **Rối loạn hỗn hợp** |
+| **5. Kiểm tra bù trừ** | HCO₃⁻ dự kiến cho toan hô hấp mạn = 24 + (0,35 × 12) = 28,2 → Thực tế 36,1 **vượt quá** | **Có kiềm chuyển hóa đi kèm** |
+| **6. Oxy hóa máu** | PaO₂ = 127 mm Hg → Tăng oxy máu | Đang thở oxy bổ sung |
+
+**Chẩn đoán cuối cùng**:
+
+> ## 🏥 **Rối loạn hỗn hợp: Toan hô hấp + Kiềm chuyển hóa**
+> - **Cơ chế**: COPD mạn tính (toan hô hấp) + lợi tiểu gây hạ clo máu, hạ kali máu (kiềm chuyển hóa) [2-3]
+> - **pH**: 7,45 — Kiềm chuyển hóa chiếm ưu thế
+> - **Kèm theo**: Hạ clo máu (90 mmol/L), thiếu máu nhẹ, tăng đường huyết nhẹ
+
+**Hướng xử trí** [1-2]:
+1. **Cải thiện thông khí**: Giãn phế quản, hỗ trợ hô hấp nếu cần
+2. **Điều chỉnh điện giải**: Bù kali, bù clo (kiềm chuyển hóa đáp ứng chloride) [1]
+3. **Xem xét lại thuốc lợi tiểu**: Cân nhắc giảm liều hoặc đổi thuốc
+4. **Theo dõi sát**: pH, điện giải đồ, chức năng thận
+
+---
+
+### 6.2 Case Study: Toan hô hấp + Toan chuyển hóa — Ngừng tim phổi
+
+**Bệnh cảnh lâm sàng**: Bệnh nhân nữ 58 tuổi, ngừng tim phổi do nhồi máu cơ tim cấp, đang được hồi sức tích cực.
+
+**Kết quả ABG**:
+
+| Thông số | Giá trị | Khoảng bình thường | Đánh giá |
+|----------|---------|-------------------|----------|
+| pH | 7,08 | 7,35–7,45 | ↓↓ Toan máu nặng |
+| PaCO₂ | 58 mm Hg | 35–45 | ↑ Cao (toan hô hấp) |
+| HCO₃⁻ | 17 mmol/L | 22–26 | ↓ Thấp (toan chuyển hóa) |
+| BE | −10 mmol/L | −2 đến +2 | (−) Âm (toan chuyển hóa) |
+| Lactate | 8,5 mmol/L | 0,5–2,2 | ↑↑ Tăng acid lactic nặng |
+
+**Phân tích**:
+
+| Bước | Phân tích | Kết quả |
+|------|-----------|---------|
+| **1. pH** | 7,08 (< 7,35) | **Toan máu nặng** |
+| **2. PaCO₂** | 58 mm Hg (> 45) | **Toan hô hấp** |
+| **3. HCO₃⁻** | 17 mmol/L (< 22) | **Toan chuyển hóa** |
+| **4. Rối loạn nguyên phát** | Cả PaCO₂ và HCO₃⁻ đều bất thường | **Rối loạn hỗn hợp** |
+| **5. Kiểm tra bù trừ** | PaCO₂ dự kiến cho toan chuyển hóa = (1,5 × 17) + 8 ± 2 = 31,5–35,5 → Thực tế 58 **cao hơn nhiều** | **Có toan hô hấp đi kèm** |
+| **6. AG** | AG = 136 − (100 + 17) = 19 mEq/L (> 12) | **Toan chuyển hóa AG tăng** (tăng acid lactic) |
+
+**Chẩn đoán cuối cùng**:
+
+> ## 🚨 **Rối loạn hỗn hợp: Toan hô hấp + Toan chuyển hóa (tăng acid lactic)**
+> - **Cơ chế**: Ngừng tim phổi → thiếu oxy mô → tăng acid lactic (toan chuyển hóa) + ngừng thở (toan hô hấp) [3][9]
+> - **pH**: 7,08 — Toan máu **đe dọa tính mạng**
+> - **Tiên lượng**: Xấu nếu không xử trí kịp thời
+
+**Hướng xử trí cấp cứu** [7]:
+1. **Hồi sức tim phổi tích cực**: Ép tim ngoài lồng ngực, sốc điện nếu có chỉ định
+2. **Đặt nội khí quản + thông khí nhân tạo**: Cải thiện thông khí ngay lập tức [7]
+3. **Điều trị nguyên nhân**: Tái tưới máu mạch vành (PCI), thuốc vận mạch
+4. **Theo dõi sát pH và lactate**: Đánh giá đáp ứng điều trị
+
+---
+
+## Phần 7: Tóm Tắt và Bảng Tra Cứu Nhanh
+
+### 7.1 Bảng tổng hợp các rối loạn toan kiềm
+
+| Rối loạn | pH | PaCO₂ | HCO₃⁻ | BE | AG | Nguyên nhân thường gặp |
+|----------|-----|-------|-------|-----|-----|------------------------|
+| **Toan hô hấp** | ↓ | ↑↑ | ↑ (bù trừ) | (+) | - | COPD, suy hô hấp, ức chế TTHH [1-2] |
+| **Kiềm hô hấp** | ↑ | ↓↓ | ↓ (bù trừ) | (−) | - | Tăng thông khí, lo âu, sốt [1-2] |
+| **Toan chuyển hóa** | ↓ | ↓ (bù trừ) | ↓↓ | (−) | ↑/- | Nhiễm ceton, tiêu chảy, suy thận [1-2] |
+| **Kiềm chuyển hóa** | ↑ | ↑ (bù trừ) | ↑↑ | (+) | - | Nôn, lợi tiểu, hạ clo máu [1-2] |
+| **Toan HH + Kiềm CH** | ↑/↓/- | ↑ | ↑ | (+) | - | COPD + lợi tiểu/nôn [2-3] |
+| **Toan HH + Toan CH** | ↓↓ | ↑/↓/- | ↓/-/↑ | (−) | ↑ | Ngừng tim, sốc, ngộ độc [2-3] |
+| **Kiềm HH + Kiềm CH** | ↑↑ | ↓ | ↑ | (+) | - | Xơ gan + lợi tiểu, thông khí quá mức [2-3] |
+| **Kiềm HH + Toan CH** | ↑/- | ↓ | ↓ | (−) | ↑ | Nhiễm trùng huyết, salicylate [2-3] |
+| **Toan CH + Kiềm CH** | - | - | - | - | ↑ | Nôn + suy thận, DKA + nôn [3][9] |
+
+*HH: Hô hấp; CH: Chuyển hóa; TTHH: Trung tâm hô hấp*
+
+
+
+### 7.2 Công thức bù trừ dự kiến — Bảng tra cứu nhanh
+
+| Rối loạn | Công thức bù trừ dự kiến |
+|----------|--------------------------|
+| **Toan chuyển hóa** | PaCO₂ dự kiến = (1,5 × HCO₃⁻) + 8 ± 2 (Công thức Winter) [3][5][8] |
+| **Toan chuyển hóa** (cách khác) | PaCO₂ giảm 1,0–1,4 mm Hg mỗi 1 mEq/L giảm HCO₃⁻ [1][4] |
+| **Toan hô hấp cấp** | HCO₃⁻ tăng 1 mEq/L mỗi 10 mm Hg tăng PaCO₂ [2][5] |
+| **Toan hô hấp mạn** | HCO₃⁻ tăng 3,5 mEq/L mỗi 10 mm Hg tăng PaCO₂ [1-2][5] |
+| **Kiềm chuyển hóa** | PaCO₂ tăng 0,25–1,0 mm Hg mỗi 1 mEq/L tăng HCO₃⁻ [1][4] |
+| **Kiềm hô hấp cấp** | HCO₃⁻ giảm 1–3 mEq/L mỗi 10 mm Hg giảm PaCO₂ (tối thiểu HCO₃⁻ 18 mmol/L) [4] |
+| **Kiềm hô hấp mạn** | HCO₃⁻ giảm 2–5 mEq/L mỗi 10 mm Hg giảm PaCO₂ (tối thiểu HCO₃⁻ 14 mmol/L) [1][4] |
+
+> 💡 **Lưu ý quan trọng**:
+> - **Công thức Winter**: PaCO₂ dự kiến = (1,5 × HCO₃⁻) + 8 ± 2 — dùng cho toan chuyển hóa [3][5][8]
+> - **Quy tắc +15**: Dùng để xác định bù trừ hô hấp dự kiến khi HCO₃⁻ từ 10–40 mmol/L [8]
+> - **Bù trừ hô hấp cho rối loạn chuyển hóa** diễn ra **nhanh** (trong vài phút) [4][10]
+> - **Bù trừ thận cho rối loạn hô hấp** diễn ra **chậm** (3–6 ngày) [10]
+
+---
+
+### 7.3 Bảng tổng hợp các rối loạn toan kiềm — Bảng tra cứu nhanh
+
+| Rối loạn | pH | PaCO₂ | HCO₃⁻ | BE | AG | Nguyên nhân thường gặp |
+|----------|-----|-------|-------|-----|-----|------------------------|
+| **Toan hô hấp chưa bù** | ↓↓ | ↑↑ | ↔ | ↔ | - | Suy hô hấp cấp, ức chế TTHH [2][10] |
+| **Toan hô hấp bù một phần** | ↓ | ↑↑ | ↑↑ | (+) | - | COPD mạn, suy hô hấp mạn [9-10] |
+| **Toan hô hấp bù hoàn toàn** | ↔ (phía toan) | ↑↑ | ↑↑ | (+) | - | COPD mạn tính [9] |
+| **Kiềm hô hấp chưa bù** | ↑↑ | ↓↓ | ↔ | ↔ | - | Tăng thông khí cấp, lo âu [2][10] |
+| **Kiềm hô hấp bù một phần** | ↑ | ↓↓ | ↓↓ | (−) | - | Tăng thông khí kéo dài [10] |
+| **Toan chuyển hóa chưa bù** | ↓↓ | ↔ | ↓↓ | (−) | ↑/- | Nhiễm ceton, tiêu chảy, suy thận [2][10] |
+| **Toan chuyển hóa bù một phần** | ↓ | ↓↓ | ↓↓ | (−) | ↑/- | DKA, tăng acid lactic [10] |
+| **Kiềm chuyển hóa chưa bù** | ↑↑ | ↔ | ↑↑ | (+) | - | Nôn, lợi tiểu [2][10] |
+| **Kiềm chuyển hóa bù một phần** | ↑ | ↑↑ | ↑↑ | (+) | - | Nôn kéo dài, hút dịch dạ dày [10] |
+| **Toan HH + Toan CH** | ↓↓ | ↑↑ | ↓ | (−) | ↑ | Ngừng tim, sốc, ngộ độc [10] |
+| **Kiềm HH + Kiềm CH** | ↑↑ | ↓↓ | ↑ | (+) | - | Xơ gan + lợi tiểu, thông khí quá mức [10] |
+
+*HH: Hô hấp; CH: Chuyển hóa; TTHH: Trung tâm hô hấp; ↔: Bình thường*
+
+> ⚠️ **Lưu ý quan trọng** [1][4]:
+> - **pH không bao giờ bình thường** trong rối loạn chuyển hóa được bù trừ thích hợp [1]
+> - **pH thường bình thường** trong rối loạn hô hấp được bù trừ hoàn toàn (có thể mất nhiều ngày) [1]
+> - **Bất kỳ HCO₃⁻ hoặc PaCO₂ bất thường nào đi kèm pH bình thường** → Tự động chỉ ra **hai rối loạn toan kiềm nguyên phát** [4]
+> - Cơ thể **không bao giờ bù trừ quá mức** (overcompensate) [9]
+
+---
+
+## Phần 8: Các Bẫy Thường Gặp và Lưu Ý Lâm Sàng — **NỘI DUNG BỔ SUNG**
+
+### 8.1 Bẫy 1: pH bình thường không loại trừ rối loạn toan kiềm
+
+| Tình huống | Giải thích |
+|------------|------------|
+| **Rối loạn hỗn hợp đối nghịch** | Toan + Kiềm đồng thời → pH có thể bình thường [4] |
+| **Bù trừ hoàn toàn** | Rối loạn hô hấp mạn được bù trừ → pH bình thường [1] |
+| **Toan CH + Kiềm CH** | Hai rối loạn chuyển hóa đối nghịch → pH và HCO₃⁻ bình thường [3] |
+
+> ⚠️ **Nguyên tắc vàng** [4]: "Bất kỳ HCO₃⁻ hoặc PaCO₂ bất thường nào đi kèm pH bình thường → Tự động chỉ ra **hai rối loạn toan kiềm nguyên phát**."
+
+### 8.2 Bẫy 2: Bù trừ không thích hợp = Rối loạn hỗn hợp
+
+**Nguyên tắc** [1]: Bù trừ không thích hợp, đang tiến triển hoặc không đầy đủ (bao gồm cả do thông khí cơ học) là một **rối loạn hỗn hợp** [1].
+
+| Tình huống | Ví dụ |
+|------------|-------|
+| Toan chuyển hóa + PaCO₂ cao hơn dự kiến | Toan chuyển hóa + Toan hô hấp (bệnh nhân không thể tăng thông khí) [1-2] |
+| Toan chuyển hóa + PaCO₂ thấp hơn dự kiến | Toan chuyển hóa + Kiềm hô hấp (tăng thông khí quá mức) |
+| Toan hô hấp + HCO₃⁻ cao hơn dự kiến | Toan hô hấp + Kiềm chuyển hóa (ví dụ: COPD + lợi tiểu) [2-3] |
+| Toan hô hấp + HCO₃⁻ thấp hơn dự kiến | Toan hô hấp + Toan chuyển hóa (ví dụ: suy hô hấp + tăng acid lactic) [2-3] |
+
+### 8.3 Bẫy 3: Quên hiệu chỉnh AG theo albumin
+
+**Nguyên tắc** [8]: Luôn **hiệu chỉnh AG theo albumin huyết thanh thấp** [8].
+
+**Công thức hiệu chỉnh**:
+
+$$\text{AG}_{\text{hiệu chỉnh}} = \text{AG}_{\text{đo được}} + 2,5 \times (4,5 - \text{Albumin})$$
+
+> 💡 **Giải thích**: Albumin là anion không đo được chính trong huyết tương. Khi albumin thấp (suy dinh dưỡng, bệnh gan, hội chứng thận hư), AG đo được sẽ **giảm giả tạo** — có thể che giấu toan chuyển hóa AG tăng [8].
+
+### 8.4 Bẫy 4: Nhầm lẫn giữa "bù trừ" và "rối loạn hỗn hợp"
+
+| Đặc điểm | Bù trừ đơn thuần | Rối loạn hỗn hợp |
+|----------|------------------|------------------|
+| **Thông số bù trừ** | Thay đổi **trong giới hạn dự kiến** | Thay đổi **vượt quá giới hạn dự kiến** [1] |
+| **pH** | Có thể bình thường (hô hấp) hoặc bất thường (chuyển hóa) [1] | Thay đổi tùy loại |
+| **Ví dụ** | Toan hô hấp mạn: PaCO₂ 50 → HCO₃⁻ dự kiến 27,5 | Toan hô hấp mạn: PaCO₂ 50 → HCO₃⁻ thực tế 32 → Có kiềm chuyển hóa đi kèm |
+
+### 8.5 Bẫy 5: Quên đánh giá oxy hóa máu
+
+- **Luôn đánh giá PaO₂ và SaO₂** cùng với pH, PaCO₂, HCO₃⁻ [9]
+- PaO₂ < 60 mm Hg hoặc SaO₂ < 90% → **Thiếu oxy máu đáng kể** [9]
+- Phân biệt suy hô hấp type I (giảm oxy, PaCO₂ bình thường/thấp) và type II (tăng CO₂, giảm oxy)
+
+---
+
+## Phần 9: Bài Tập Tự Lượng Giá (Self-Assessment) — **NỘI DUNG BỔ SUNG**
+
+### 9.1 Bài tập 1: Rối loạn đơn thuần
+
+**Kết quả ABG**: pH 7,25 | PaCO₂ 58 mm Hg | HCO₃⁻ 25 mEq/L
+
+| Bước | Phân tích | Kết quả |
+|------|-----------|---------|
+| 1. pH | 7,25 (< 7,35) | Toan máu |
+| 2. PaCO₂ | 58 mm Hg (> 45) | Toan hô hấp |
+| 3. HCO₃⁻ | 25 mEq/L (bình thường) | Chưa có bù trừ |
+| 4. Kết luận | **Toan hô hấp chưa bù** [2] | |
+
+### 9.2 Bài tập 2: Rối loạn có bù trừ
+
+**Kết quả ABG**: pH 7,48 | PaCO₂ 20 mm Hg | HCO₃⁻ 17 mEq/L
+
+| Bước | Phân tích | Kết quả |
+|------|-----------|---------|
+| 1. pH | 7,48 (> 7,45) | Kiềm máu |
+| 2. PaCO₂ | 20 mm Hg (< 35) | Kiềm hô hấp |
+| 3. HCO₃⁻ | 17 mEq/L (< 22) | Có bù trừ chuyển hóa |
+| 4. Kiểm tra bù trừ | HCO₃⁻ giảm 7 mEq/L; PaCO₂ giảm 20 mm Hg → Dự kiến HCO₃⁻ giảm 2–5 mEq/L mỗi 10 mm Hg → 4–10 mEq/L | Bù trừ phù hợp |
+| 5. Kết luận | **Kiềm hô hấp có bù trừ** [2] | |
+
+### 9.3 Bài tập 3: Rối loạn hỗn hợp
+
+**Kết quả ABG**: pH 7,20 | PaCO₂ 40 mm Hg | HCO₃⁻ 18 mEq/L
+
+| Bước | Phân tích | Kết quả |
+|------|-----------|---------|
+| 1. pH | 7,20 (< 7,35) | Toan máu |
+| 2. PaCO₂ | 40 mm Hg (bình thường) | Không phải rối loạn hô hấp nguyên phát |
+| 3. HCO₃⁻ | 18 mEq/L (< 22) | Toan chuyển hóa |
+| 4. Kiểm tra bù trừ | PaCO₂ dự kiến = (1,5 × 18) + 8 ± 2 = 33–37 mm Hg → Thực tế 40 **cao hơn** dự kiến | Bù trừ không đầy đủ |
+| 5. Kết luận | **Toan chuyển hóa chưa bù** (bệnh nhân không thể tăng thông khí) [2] | |
+
+### 9.4 Bài tập 4: Rối loạn hỗn hợp phức tạp
+
+**Kết quả ABG**: pH 7,50 | PaCO₂ 39 mm Hg | HCO₃⁻ 30 mEq/L
+
+| Bước | Phân tích | Kết quả |
+|------|-----------|---------|
+| 1. pH | 7,50 (> 7,45) | Kiềm máu |
+| 2. PaCO₂ | 39 mm Hg (bình thường) | Không phải rối loạn hô hấp nguyên phát |
+| 3. HCO₃⁻ | 30 mEq/L (> 26) | Kiềm chuyển hóa |
+| 4. Kiểm tra bù trừ | PaCO₂ dự kiến = 40 + (0,7 × 6) = 44,2 mm Hg → Thực tế 39 **thấp hơn** dự kiến | Có kiềm hô hấp đi kèm |
+| 5. Kết luận | **Kiềm chuyển hóa chưa bù** [2] | |
+
+---
+
+## Phần 10: Kết Luận
+
+### 10.1 Các điểm chính cần ghi nhớ
+
+1. **Quy trình 6 bước** là nền tảng để diễn giải ABG một cách có hệ thống [2][9]
+2. **pH bình thường không loại trừ** rối loạn toan kiềm — luôn kiểm tra HCO₃⁻ và PaCO₂ [1-2][4]
+3. **Bù trừ không bao giờ đưa pH về hoàn toàn bình thường** trong rối loạn chuyển hóa [1]
+4. **Bù trừ không thích hợp = Rối loạn hỗn hợp** [1]
+5. **Công thức Winter** giúp xác định bù trừ hô hấp dự kiến trong toan chuyển hóa [3][5][8]
+6. **Luôn hiệu chỉnh AG theo albumin** [8]
+7. **Đánh giá oxy hóa máu** (PaO₂, SaO₂) cùng với rối loạn toan kiềm [9]
+
+### 10.2 Lưu đồ quyết định cuối cùng
+
+```mermaid
+flowchart TD
+    Start(("Kết quả ABG")) --> Step1["Bước 1: pH<br>7,35 – 7,45?"]
+    
+    Step1 -->|"pH < 7,35"| Acid["TOAN MÁU"]
+    Step1 -->|"pH > 7,45"| Alk["KIỀM MÁU"]
+    Step1 -->|"pH bình thường"| Norm{"HCO₃⁻ hoặc PaCO₂<br>bất thường?"}
+    
+    Norm -->|"Có"| Mixed["RỐI LOẠN HỖN HỢP<br>(2 rối loạn nguyên phát)"]
+    Norm -->|"Không"| Normal["Không có rối loạn<br>toan kiềm"]
+    
+    Acid --> CheckCO2{"PaCO₂ > 45?"}
+    CheckCO2 -->|"Có"| RespAcid["Toan hô hấp"]
+    CheckCO2 -->|"Không"| CheckHCO3{"HCO₃⁻ < 22?"}
+    CheckHCO3 -->|"Có"| MetaAcid["Toan chuyển hóa"]
+    CheckHCO3 -->|"Không"| MixedAcid["Rối loạn hỗn hợp<br>cần đánh giá thêm"]
+    
+    Alk --> CheckCO2L{"PaCO₂ < 35?"}
+    CheckCO2L -->|"Có"| RespAlk["Kiềm hô hấp"]
+    CheckCO2L -->|"Không"| CheckHCO3H{"HCO₃⁻ > 26?"}
+    CheckHCO3H -->|"Có"| MetaAlk["Kiềm chuyển hóa"]
+    CheckHCO3H -->|"Không"| MixedAlk["Rối loạn hỗn hợp<br>cần đánh giá thêm"]
+    
+    RespAcid --> Comp1{"HCO₃⁻ tăng<br>đúng dự kiến?"}
+    Comp1 -->|"Đúng"| Adeq1["Bù trừ phù hợp"]
+    Comp1 -->|"Vượt quá"| Mixed1["+ Kiềm chuyển hóa"]
+    Comp1 -->|"Thấp hơn"| Mixed2["+ Toan chuyển hóa"]
+    
+    MetaAcid --> Comp2{"PaCO₂ giảm<br>đúng dự kiến?"}
+    Comp2 -->|"Đúng"| Adeq2["Bù trừ phù hợp"]
+    Comp2 -->|"Thấp hơn"| Mixed3["+ Kiềm hô hấp"]
+    Comp2 -->|"Cao hơn"| Mixed4["+ Toan hô hấp"]
+    
+    RespAlk --> Comp3{"HCO₃⁻ giảm<br>đúng dự kiến?"}
+    Comp3 -->|"Đúng"| Adeq3["Bù trừ phù hợp"]
+    Comp3 -->|"Vượt quá"| Mixed5["+ Kiềm chuyển hóa"]
+    Comp3 -->|"Thấp hơn"| Mixed6["+ Toan chuyển hóa"]
+    
+    MetaAlk --> Comp4{"PaCO₂ tăng<br>đúng dự kiến?"}
+    Comp4 -->|"Đúng"| Adeq4["Bù trừ phù hợp"]
+    Comp4 -->|"Vượt quá"| Mixed7["+ Toan hô hấp"]
+    Comp4 -->|"Thấp hơn"| Mixed8["+ Kiềm hô hấp"]
+    
+    Adeq1 --> Oxy["Đánh giá PaO₂ / SaO₂"]
+    Adeq2 --> Oxy
+    Adeq3 --> Oxy
+    Adeq4 --> Oxy
+    Mixed --> Oxy
+    Mixed1 --> Oxy
+    Mixed2 --> Oxy
+    Mixed3 --> Oxy
+    Mixed4 --> Oxy
+    Mixed5 --> Oxy
+    Mixed6 --> Oxy
+    Mixed7 --> Oxy
+    Mixed8 --> Oxy
+    
+    Oxy --> Final["TỔNG HỢP CHẨN ĐOÁN<br>+ Đối chiếu lâm sàng"]
+```
+
+---
+
+## Tài Liệu Tham Khảo
+
+1. Intensive Care Manual — "Is Compensation Appropriate?"
+2. Textbook of Pediatrics — "Evaluation of Acid-Base Status"
+3. Critical Care Nephrology and Acute Kidney Injury Series — "Metabolic Acidosis"
+4. Handbook of Critical Care Nephrology — "Acid-Base Management in the Intensive Care Unit"
+5. Neurocritical Care — "Normal Compensation in Metabolic Disorders"
+6. Basic Skills in Interpreting Laboratory Data — "Arterial Blood Gases and Acid-Base Balance"
+7. Medical Physiology (Boron & Boulpaep) — "Acid-Base Physiology"
+8. Mayo Clinic Internal Medicine Board Review — "Chronic Stable Angina — Key Facts"
+9. Introduction to Critical Care Nursing — "Arterial Blood Gas Interpretation"
+10. Medical Physiology — "Compensatory Mechanisms" & "Clinical Interpretation of Arterial Blood Gases"
+
+---
+
+> ⚠️ **Tuyên bố miễn trừ**: Nội dung bài giảng này được tạo ra dựa trên tổng hợp tài liệu y khoa và chỉ nhằm mục đích **giáo dục, tham khảo lâm sàng**. Người học cần **đối chiếu với nguồn tài liệu chính thống** và **áp dụng phán đoán lâm sàng** cho từng bệnh nhân cụ thể. Bài giảng **không thay thế** khuyến cáo từ các hội đồng chuyên môn hoặc quyết định lâm sàng của bác sĩ điều trị.
+
+References:
+[1] Intensive Care Manual[M]. Philadelphia: Elsevier; 2026.
+[2] Textbook of Pediatrics[M]. 3rd ed. 2025.
+[3] Critical Care Nephrology and Acute Kidney Injury Series[M]. London: Pearson; 2022.
+[4] Handbook of Critical Care Nephrology[M]. Philadelphia: Wolters Kluwer; 2021.
+[5] Torbey MT. Neurocritical Care[M]. 2nd ed. Cambridge: Cambridge University Press; 2019.
+[6] Basic Skills in INTERPRETING LABORATORY DATA[M]. 6th ed. 2017, American Society of Health-System Pharmacists, Inc. All rights reserved; 2017.
+[7] Walter F. Boron, Emile L. Boulpaep. Medical Physiology[M/OL]. 3rd ed.. Philadelphia: Elsevier; 2017.
+[8] Mayo Clinic Internal Medicine Board Review[M]. 11th ed. Oxford: Oxford University Press; 2016.
+[9] Introduction to Critical Care Nursing[M]. 6th ed. Philadelphia: Elsevier; 2013.
+[10] Medical Physiology[M]. New York: McGraw-Hill; 2011.

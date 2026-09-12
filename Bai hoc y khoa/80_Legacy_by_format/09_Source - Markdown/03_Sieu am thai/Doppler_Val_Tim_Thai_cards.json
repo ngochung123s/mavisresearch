@@ -1,0 +1,97 @@
+{
+  "deck_meta": {
+    "title": "Cơ chế Doppler qua van tim thai + Waveform Morphology",
+    "lesson_date": "2026-06-24",
+    "tags": ["Doppler", "ValTimThai", "SieuAmThai", "FMF", "Waveform"]
+  },
+  "cards": [
+    {
+      "front": "Liệt kê 4 van tim thai kèm loại van (AV hay semilunar) và cấu trúc hỗ trợ. Van nào có dây chằng + cơ nhú?",
+      "back": "<b>Van nhĩ-thất (AV):</b><br>• <b>Mitral</b> — 2 chồi (anterior A1/A2, posterior P1/P2/P3), 2 cơ nhú, có chordae tendineae.<br>• <b>Tricuspid</b> — 3 chồi (anterior, posterior, septal), 3 cơ nhú, có chordae tendineae.<br><br><b>Van bán nguyệt (semilunar):</b><br>• <b>Aortic</b> — 3 chồi (right coronary, left coronary, non-coronary), KHÔNG có dây chằng, KHÔNG có cơ nhú.<br>• <b>Pulmonary</b> — 3 chồi (anterior, right, left), KHÔNG có dây chằng, KHÔNG có cơ nhú.<br><br>Lưu ý: Van AV có dây chằng + cơ nhú ngăn chồi van đóng ngược vào nhĩ khi thất co → dễ bị ảnh hưởng trong bất thường nhiễm sắc thể."
+    },
+    {
+      "front": "Mô tả trình tự các sự kiện trong chu kỳ tim thai và tín hiệu Doppler quan sát được.",
+      "back": "1. <b>Diastole sớm</b>: Van AV mở → máu nhĩ xuống thất → <b>E-wave</b> (early passive filling).<br>2. <b>Diastole muộn</b>: Tâm nhĩ co → <b>A-wave</b> (atrial contraction). A thường > E ở thai vì compliance thất thấp.<br>3. <b>Isovolumic contraction</b>: Van AV đóng → Van SL chưa mở → \"im lặng\" Doppler.<br>4. <b>Systole</b>: Van SL mở → máu thất ra động mạch → <b>peak velocity ejection</b> (dagger-shape cho aortic/pulmonary).<br>5. <b>Isovolumic relaxation</b>: Van SL đóng → Van AV chưa mở → \"im lặng\" Doppler.<br>6. Chu kỳ mới: Van AV mở → E + A lặp lại."
+    },
+    {
+      "front": "E/A ratio thay đổi như thế nào qua các quý thai kỳ? Tại sao A > E ở thai quý I?",
+      "back": "<b>Quý I (11-13w):</b> compliance thất rất thấp → thất phụ thuộc atrial contraction → <b>A ≫ E</b> (E/A ~ 0.4, ví dụ E=20, A=50 cm/s).<br><b>Quý II (18-24w):</b> compliance tăng → E/A ~ 0.6-0.7 (E=30, A=45 cm/s).<br><b>Quý III (28-38w):</b> compliance tốt hơn → E/A ~ 0.8-1.0 (E=40, A=50 cm/s).<br><b>Sơ sinh:</b> E > A (E/A > 1) → adult pattern.<br><br>Cơ chế: ventricular compliance thấp → atrial contraction đẩy phần lớn máu vào thất → A cao hơn E. (Mula 2015 — PMID 24706444)."
+    },
+    {
+      "front": "Công thức Doppler shift frequency là gì? Tại sao cần giữ góc insonation < 30° cho tim thai?",
+      "back": "<b>Công thức:</b><br>f<sub>d</sub> = 2 × f<sub>0</sub> × v × cos(θ) / c<br>• f<sub>d</sub>: Doppler shift frequency (Hz)<br>• f<sub>0</sub>: transmitted frequency (MHz), vd 5 MHz<br>• v: velocity of blood (m/s)<br>• cos(θ): cosine góc giữa beam và dòng máu<br>• c: speed of sound (~1540 m/s)<br><br><b>Tại sao góc < 30°?</b><br>• cos(30°) = 0.866 → sai số ~13% (chấp nhận được).<br>• cos(60°) = 0.5 → sai số 50% (không chấp nhận).<br>• Tim thai nhỏ + di động → giữ góc < 30° khó → cần alignment tối đa.<br>• Góc > 30° → underestimate velocity → có thể miss TR (peak thật 80 cm/s nhưng đo 60 cm/s)."
+    },
+    {
+      "front": "Aliasing là gì? Khi nào xảy ra và 4 cách khắc phục?",
+      "back": "<b>Aliasing</b>: peak velocity bị \"cắt ngang\" khi vượt quá <b>Nyquist limit = PRF/2</b>.<br><br>Ví dụ: PRF = 5 kHz → Nyquist = 2.5 kHz → với f<sub>0</sub> = 5 MHz → max measurable velocity = ± 38.5 cm/s. Dòng máu > 38.5 cm/s → aliasing.<br><br><b>4 cách khắc phục:</b><br>1. <b>Tăng PRF</b> (scale) — thường là biện pháp đầu tiên.<br>2. <b>Hạ tần số đầu dò</b> (2.5-3.5 MHz) — tăng khả năng đo vận tốc cao.<br>3. <b>Shift baseline</b> lên hoặc xuống — tận dụng chiều ngược lại.<br>4. <b>Dùng CWD</b> (continuous-wave) — không bị aliasing, dùng khi nghi ngờ vận tốc rất cao.<br><br><b>Phân biệt aliasing vs TR thật:</b> aliasing = peak bị cắt nhưng vẫn forward; TR thật = dòng đi ngược baseline."
+    },
+    {
+      "front": "Vị trí sample volume (SV) tối ưu cho 4 van tim thai là gì? Sai số phổ biến khi đặt sai?",
+      "back": "<b>Vị trí SV tối ưu + kích thước:</b><br>• <b>Mitral:</b> ngay sau van (just distal, vào LV), 2-3 mm.<br>• <b>Tricuspid:</b> ngay sau van (just distal, vào RV), 2-3 mm.<br>• <b>Aortic:</b> ngay trên van (just distal, vào ascending aorta), 3-5 mm.<br>• <b>Pulmonary:</b> ngay trên van (just distal, vào pulmonary artery), 3-5 mm.<br><br><b>Sai số phổ biến:</b><br>• SV quá gần (trong nhĩ/trong ĐM): thấy tín hiệu inflow/outflow thuần, peak velocity thấp.<br>• SV quá xa: tín hiệu giảm do divergence beam + attenuation.<br>• SV vuông góc dòng máu: cos(θ) → 0 → mất signal."
+    },
+    {
+      "front": "Trình bày cơ chế tạo ra tricuspid regurgitation (TR) ở thai quý I — 4 nhóm nguyên nhân chính.",
+      "back": "TR xảy ra khi áp lực RV > áp lực RA trong systole VÀ van 3 lá không đóng kín hoàn toàn.<br><br><b>4 cơ chế gia tăng TR ở quý I:</b><br>1. <b>Volume overload</b>: CHD gây shunt trái→phải (VSD, AVSD). Trong AVSD: van AV chung → không valve separation → regurg lớn. T21 có 30-50% CHD, trong đó 40-50% là AVSD.<br>2. <b>Pressure overload</b>: bất thường outflow phải (pulmonic stenosis, pulmonary atresia); bệnh mạch máu phổi (diaphragmatic hernia, lung hypoplasia).<br>3. <b>Myocardial dysfunction</b>: T21 có early diastolic dysfunction (Zoppi 2006 PMID 16795127, Mula 2015 PMID 24706444) → thay đổi timing đóng van → TR nhẹ.<br>4. <b>Annular dilatation</b>: RV remodeling sau nhiều nguyên nhân → vòng van giãn → không khép kín."
+    },
+    {
+      "front": "Tại sao TR được xem là marker của Trisomy 21 ở quý I? Tóm tắt pathway từ extra copy chromosome 21 → TR.",
+      "back": "<b>Pathway:</b><br>Trisomy 21 → ↑gene dosage (extra copy chr 21) → 3 nhánh:<br>1. <b>Cardiac structural abnormalities</b>: 40-50% T21 có CHD, trong đó 40-50% là AVSD → ↓ coaptation.<br>2. <b>Myocardial dysfunction</b>: ↑ E/A ratio, ↓ compliance, ↓ relaxation (Zoppi 2006 PMID 16795127, Mula 2015 PMID 24706444).<br>3. <b>Vascular abnormalities</b>: ↑ placental resistance → ↑ afterload RV → RV hypertrophy → functional TR.<br><br>Cả 3 nhánh hội tụ → TR (tricuspid regurgitation) → ↑ peak velocity systole ≥ 60 cm/s (FMF threshold) → dấu hiệu Doppler 11-13w.<br><br>TR ở T21 quý I có thể do structural (AVSD/VSD, ~40-50%) hoặc functional (diastolic dysfunction thuần, phần lớn còn lại) — giải thích tại sao nhiều T21 có TR nhưng tim \"structure bình thường\" trên siêu âm."
+    },
+    {
+      "front": "Trình bày Pattern A và Pattern B của Zoppi 2006 (PMID 16795127) trên intracardiac Doppler quý I — pattern nào đặc hiệu cho T21?",
+      "back": "<b>Zoppi et al. 2006, UOG</b> (PMID 16795127) — Intracardiac Doppler quý I, n = 285 thai ↑ NT:<br><br><b>Pattern A</b> (E-wave velocity crosses A-wave trước baseline trong MỌI waveforms):<br>• 200/212 euploid (94.3%)<br>• 12/47 T21 (25.5%)<br><br><b>Pattern B</b> (E thấp nhất crosses baseline nhưng KHÔNG cross A-wave ở ≥ 1 waveform):<br>• 12/212 euploid (5.7%)<br>• <b>35/47 T21 (74.5%)</b> — p < 0.001<br><br>→ E/A ratio abnormal ở quý I là <b>early sign</b> của myocardial dysfunction ở T21. Pattern B rất đặc hiệu cho T21."
+    },
+    {
+      "front": "Mula 2015 (PMID 24706444) cho thấy điều gì về cardiac function ở T21 quý I? So sánh với euploid có cardiac defect / ↑ NT alone.",
+      "back": "<b>Mula et al. 2015, UOG</b> (PMID 24706444) — Diastolic dysfunction ở T21:<br><br>So sánh cardiac function ở:<br>• 28 T21<br>• 25 aneuploid khác<br>• 94 euploid abnormal (cardiac defect hoặc ↑ NT)<br>• 271 controls<br><br><b>Kết quả:</b><br>• T21 có ↑ <b>E/A ratio</b> ở cả mitral và tricuspid → diastolic dysfunction.<br>• T21 có ↑ <b>DV pulsatility index</b> → forward flow giảm.<br>• <b>Euploid thai có cardiac defect hay ↑ NT alone: KHÔNG có dấu hiệu diastolic dysfunction</b> → volume overload đặc hiệu cho T21.<br><br>→ Diastolic dysfunction ở T21 là do bản thân gene dosage chứ không chỉ do cardiac defect."
+    },
+    {
+      "front": "Tricuspid regurgitation waveform — cách đọc 4 yếu tố (hướng, thời gian, peak velocity, shape) và ngưỡng FMF.",
+      "back": "<b>4 yếu tố đọc TR waveform (FMF technique):</b><br>1. <b>Hướng:</b> dòng ngược baseline (RA → RV hướng ngược lại bình thường RV → pulmonary).<br>2. <b>Thời gian:</b> kéo dài bao lâu trong systole — nên ≥ 1/3 systole.<br>3. <b>Peak velocity:</b> max height của waveform.<br>4. <b>Shape:</b> parabolic vs triangular vs jagged (gợi ý pathology).<br><br><b>Ngưỡng FMF:</b> peak velocity ≥ <b>60 cm/s</b> + kéo dài ≥ 1/3 systole.<br><br><b>Phân biệt với Doppler bình thường:</b><br>• Diastole: mitral/tricuspid inflow (E + A waves dưới baseline).<br>• Systole bình thường: aortic/pulm outflow (dagger-shape).<br>• Systole + TR: dòng đi ngược baseline (lên trên) ≥ 1/3 systole, peak ≥ 60 cm/s."
+    },
+    {
+      "front": "Công thức Cardiac Output (CO) thai và các thành phần? CO combined bình thường ở thai?",
+      "back": "<b>CO = Stroke Volume × Heart Rate = (VTI × CSA) × HR</b><br>• <b>VTI</b> (velocity-time integral): diện tích dưới đường cong Doppler.<br>• <b>CSA</b> (cross-sectional area): diện tích vòng van.<br>• <b>HR thai</b>: 120-160 bpm (quý I) → 110-150 bpm (cuối thai kỳ).<br><br><b>CO combined</b> (RV + LV): <b>~ 400 mL/kg/min</b> ở thai, gấp 2-3 lần người lớn (theo trọng lượng)."
+    },
+    {
+      "front": "Normal mitral inflow (E + A waves) ở thai — đặc điểm và giải thích tại sao A > E.",
+      "back": "<b>Normal mitral inflow (4-chamber view, apical):</b><br>• <b>E-wave</b>: early passive filling (diastole sớm, van AV mở).<br>• <b>A-wave</b>: atrial contraction (diastole muộn, tâm nhĩ co).<br>• Tỷ lệ <b>E/A < 1 ở thai</b> (đặc biệt quý I).<br><br><b>Ví dụ số:</b><br>• Quý I: E = 20 cm/s, A = 50 cm/s → E/A = 0.4<br>• Quý II: E = 30 cm/s, A = 45 cm/s → E/A = 0.67<br>• Quý III: E = 40 cm/s, A = 50 cm/s → E/A = 0.8<br><br><b>Đặc điểm:</b> A > E ở thai vì <b>ventricular compliance thấp</b> → atrial contraction đẩy phần lớn máu vào thất. Đừng nhầm là diastolic dysfunction!"
+    },
+    {
+      "front": "Normal aortic outflow waveform ở thai — shape và peak velocity theo tuổi thai?",
+      "back": "<b>Normal aortic outflow (5-chamber view):</b><br>• Dạng <b>\"dagger-shape\"</b> (lưỡi dao) — peak đột ngột rồi giảm dần.<br>• Peak velocity <b>tăng theo tuổi thai</b>:<br>  - 18-20w: ~ 50-70 cm/s<br>  - 28-32w: ~ 70-90 cm/s<br>  - Term: 90-120 cm/s<br><br>Tăng peak velocity → nghi ngờ aortic stenosis. Giảm → low cardiac output (cardiomyopathy, TTTS donor). Reverse flow → severe aortic regurgitation."
+    },
+    {
+      "front": "Normal ductus venosus (DV) waveform — 3 sóng S, D, a và ý nghĩa a-wave reversed?",
+      "back": "<b>Normal DV (bổ sung vì FMF dùng cùng):</b><br>• <b>S-wave</b> (systole peak): sóng đầu, cao nhất.<br>• <b>D-wave</b> (diastole early): sóng giữa, tương đối cao.<br>• <b>a-wave</b> (atrial contraction): <b>phải dương (forward flow)</b> ở thai bình thường.<br><br><b>Dấu hiệu bất thường:</b> a-wave <b>absent hoặc reversed (âm)</b> → ↑ nguy cơ aneuploidy.<br><br>Mavrides 2002 (PMID 12269675): DV abnormal có sensitivity <b>58.7% riêng cho aneuploidy</b>."
+    },
+    {
+      "front": "Liệt kê 4 pattern Doppler bệnh lý ở inflow valves (mitral, tricuspid) và ý nghĩa lâm sàng.",
+      "back": "<b>1. E/A < 0.4</b> (A ≫ E): Restrictive filling, compliance rất thấp → Hydrops, severe diastolic dysfunction.<br><br><b>2. E/A > 0.8 ở quý I</b>: Early maturation, abnormal compliance → T21 diastolic dysfunction, myocarditis.<br><br><b>3. Mitral gap</b>: Khoảng trống giữa E và A waves → Artifact vs T21 (Maiz 2007).<br><br><b>4. Fusion E-A</b>: E và A dính nhau (HR rất cao) → Tachycardia, early diastolic dysfunction.<br><br>Trong T21 (Mula 2015 PMID 24706444): E/A ratio tăng bất thường ở quý I so với controls (giá trị tiệm cận quý II/III) → \"early maturation\" hoặc \"compliance thay đổi\" do myocardial dysfunction."
+    },
+    {
+      "front": "Liệt kê 3 pattern Doppler bệnh lý ở outflow valves (aortic, pulmonary) và ý nghĩa lâm sàng.",
+      "back": "<b>1. Peak velocity ↑</b>: Stenosis → Aortic/pulmonic stenosis.<br><br><b>2. Peak velocity ↓</b>: Low cardiac output → Cardiomyopathy, TTTS donor (twin-to-twin transfusion syndrome — thai cho).<br><br><b>3. Reverse flow</b>: Severe regurgitation → Severe AR (aortic regurgitation) / PR (pulmonic regurgitation)."
+    },
+    {
+      "front": "Giải phẫu vòng van tricuspid (annulus) — 3 chồi van, 3 cơ nhú, đặc điểm khác mitral.",
+      "back": "<b>Vòng van tricuspid</b> (annulus): hình oval, hơi saddle-shape.<br><br><b>3 chồi van:</b><br>• Anterior (lớn nhất)<br>• Posterior<br>• Septal (nhỏ nhất, gắn vào septum)<br><br><b>3 cơ nhú</b>: anterolateral, posterior, septal (hỗ trợ chordae) — khác với mitral chỉ có 2 cơ nhú (anterolateral, posteromedial).<br><br><b>Đặc điểm riêng ở thai:</b><br>• Vòng van tricuspid <b>lớn hơn tương đối</b> vòng van mitral → dễ bị coaptation failure → TR sinh lý dễ xảy ra.<br>• Vòng van tricuspid ở thường vị trí thấp hơn (hướng apex) so với mitral → hiện tượng \"offset\" bình thường trong 4-chamber view (marker quan trọng khi nghi ngờ AVSD)."
+    },
+    {
+      "front": "Tại sao công thức Doppler f_d = 2f₀v·cos(θ)/c luôn quan trọng khi siêu âm Doppler tim thai?",
+      "back": "<b>Công thức:</b> f<sub>d</sub> = 2 × f<sub>0</sub> × v × cos(θ) / c<br><br>Công thức này là nền tảng để hiểu:<br>1. <b>Tại sao cần góc < 30°</b>: v đo được = v<sub>thật</sub> × cos(θ); nếu θ = 60° → underestimate 50% → có thể miss TR.<br>2. <b>Tại sao aliasing xảy ra</b>: PRF giới hạn → Nyquist limit = PRF/2; dòng máu > Nyquist → peak bị \"cắt\".<br>3. <b>Tại sao hạ tần số đầu dò</b> (2.5-3.5 MHz) khi cần đo vận tốc cao: f<sub>0</sub> ↓ → max measurable velocity ↑.<br>4. <b>Tại sao cần alignment tối đa</b> với dòng máu: cos(θ) max khi θ = 0° → v đo được max."
+    },
+    {
+      "front": "Khi nào nên dùng continuous-wave Doppler (CWD) thay vì pulsed-wave Doppler (PWD) ở tim thai?",
+      "back": "<b>CWD (continuous-wave):</b><br>• Không bị aliasing (vì không có PRF cố định).<br>• Đo được vận tốc rất cao (không giới hạn Nyquist).<br>• <b>Không có range resolution</b> (không xác định được vị trí chính xác của dòng máu).<br><br><b>Khi nào dùng CWD ở tim thai:</b><br>• Nghi ngờ vận tốc rất cao (severe stenosis, severe regurgitation).<br>• Sau khi đã dùng PWD nhưng aliasing vẫn xảy ra (dù đã tăng PRF, hạ f<sub>0</sub>, shift baseline).<br>• Để đo peak velocity chính xác khi TR > 200 cm/s hoặc aortic/pulmonic stenosis nặng.<br><br>Lưu ý: PWD vẫn là lựa chọn đầu tay vì có range resolution — biết chính xác vị trí dòng máu. CWD chỉ dùng khi cần bypass aliasing."
+    },
+    {
+      "front": "Tại sao TR isolated ở quý I (không kèm marker khác) vẫn có giá trị sàng lọc? Bộ 3 marker FMF cho T21 là gì?",
+      "back": "<b>TR isolated ở quý I vẫn có giá trị</b> vì:<br>• Có thể là dấu hiệu sớm nhất của myocardial dysfunction ở T21 (functional TR), trước khi có CHD rõ trên siêu âm.<br>• T21 có thể có TR nhưng tim \"structure bình thường\" trên siêu âm — giải thích tại sao cần sàng lọc chủ động.<br>• Kết hợp với NT, NB, DV làm tăng độ nhạy + specificity cho T21.<br><br><b>Bộ 3 marker FMF cho T21 ở quý I:</b><br>1. <b>TR +</b> (peak velocity systole ≥ 60 cm/s, kéo dài ≥ 1/3 systole)<br>2. <b>↑ E/A ratio</b> ở mitral hoặc tricuspid (Zoppi 2006 PMID 16795127, Mula 2015 PMID 24706444)<br>3. <b>↑ DV pulsatility index</b> (PIV) hoặc a-wave reversed/absent (Mavrides 2002 PMID 12269675)"
+    },
+    {
+      "front": "Tần số đầu dò nào phù hợp cho siêu âm Doppler tim thai quý I và tại sao?",
+      "back": "<b>Tần số đầu dò cho tim thai quý I:</b><br>• <b>5-7 MHz</b> (curvilinear hoặc phased array) cho hình ảnh 2D + Doppler màu.<br>• <b>3.5-5 MHz</b> khi cần đo vận tốc cao (giảm aliasing).<br>• <b>2.5-3.5 MHz</b> cho vận tốc rất cao (CWD hoặc khi nghi ngở stenosis/regurgitation nặng).<br><br><b>Tại sao?</b> Theo công thức Doppler: f<sub>0</sub> ↓ → max measurable velocity ↑. Quý I thai nhỏ, cần đầu dò tần số cao để resolution tốt. Khi nghi ngờ vận tốc cao (TR > 200 cm/s, AS nặng) → hạ tần số để bypass aliasing.<br><br><b>Lưu ý ALARA</b> (As Low As Reasonably Achievable): Nemescu 2015 (PMID 25438839) về acoustic output an toàn trong siêu âm thai — không dùng Doppler thường quy nếu không có chỉ định lâm sàng."
+    }
+  ]
+}

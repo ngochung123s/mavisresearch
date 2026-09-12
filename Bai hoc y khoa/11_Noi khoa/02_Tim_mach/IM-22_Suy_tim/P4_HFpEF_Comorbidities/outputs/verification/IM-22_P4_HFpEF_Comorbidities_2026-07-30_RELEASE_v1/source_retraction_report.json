@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "checked": 4,
+  "results": {
+    "34447992": {
+      "status": "PASS",
+      "reason": "status=clean; fresh=True; unresolved_corrections=0",
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T12:13:36.472489+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      }
+    },
+    "30429184": {
+      "status": "PASS",
+      "reason": "status=clean; fresh=True; unresolved_corrections=0",
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T12:13:36.472489+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      }
+    },
+    "34449189": {
+      "status": "PASS",
+      "reason": "status=clean; fresh=True; unresolved_corrections=0",
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T12:13:36.472489+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      }
+    },
+    "36036224": {
+      "status": "PASS",
+      "reason": "status=clean; fresh=True; unresolved_corrections=0",
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-30T12:13:36.472489+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      }
+    }
+  },
+  "bundle_hash": "7fd7ff49b41b045d69130c35c68e2dc6a4f1af7385b8c6c9062bb1653f46f3c9"
+}

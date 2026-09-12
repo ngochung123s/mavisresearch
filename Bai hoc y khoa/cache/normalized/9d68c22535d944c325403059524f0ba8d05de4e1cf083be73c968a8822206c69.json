@@ -1,0 +1,326 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-07-29T15:23:52.438863Z",
+  "providers": [
+    "europe_pmc_metadata",
+    "europe_pmc_oa_full_text",
+    "crossref_retraction_watch",
+    "openalex",
+    "official_source"
+  ],
+  "records": {
+    "pmid:34447123": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "34447123",
+        "pmcid": "PMC8375902",
+        "doi": "10.4103/jpbs.jpbs_611_20",
+        "openalex": "https://openalex.org/W3166293739"
+      },
+      "title": "Assessment of Habits of Tobacco Use among Dental and Nondental Students of Indian Population: A Cross-sectional Study.",
+      "abstract": "<h4>Background</h4>Tobacco usage can be equated to an unending progressive pandemic which continues to spread globally at an alarming unhindered pace. Dental surgeons have a key role in initiating reduction and even cessation of tobacco habits. Hence, the present study was undertaken for analyzing the habits of tobacco use among dental and nondental students of Indian population.<h4>Materials and methods</h4>A total of 500 dental students and 500 nondental students were enrolled in the present study. Among dental students, only interns were enrolled across different dental colleges of India. A questionnaire was framed and was sent to all the students in the form of Google Forms. The questionnaire contained questions pertaining to the assessment of prevalence of tobacco use and type of tobacco use habit. All the results were recorded and analyzed.<h4>Results</h4>Five hundred dental students and 500 nondental students were enrolled. Among the dental group, tobacco use habits were present in 23.8% of the students, whereas in the nondental group, tobacco use habits were present in 43.6% of the students. While comparing the prevalence of tobacco use habits among the dental and nondental groups, significant results were obtained. In the dental group, smoking habit and chewing habit were present in 44.54% and 32.77% of the students, respectively. In the nondental group, smoking habit and chewing habit were present in 52.29% and 29.82% of the students, respectively. While comparing the pattern of tobacco use among students of the two study groups, nonsignificant results were obtained.<h4>Conclusion</h4>There is an urgent need of tobacco cessation programs in the community to decrease the morbidity and mortality associated with it.",
+      "journal": "Journal of pharmacy & bioallied sciences",
+      "year": "2021",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "Medicine",
+        "Habit",
+        "Chewing tobacco",
+        "Cross-sectional study",
+        "Population",
+        "Tobacco use",
+        "Family medicine",
+        "Dentistry",
+        "Environmental health",
+        "Psychology",
+        "Internal medicine"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "b62be26add23a8ec348aecb53344ce2ec85f068642bf91325b547eb0f1adf213",
+        "1c0c033a69f6d5591ec7e67f7de5efc95ca2f0e68b3803fd784fe60a15613141",
+        "94ccf77c2f07b0f96dd09e1862e6c2131e0312a0939fc5445e80c23e52c9cda3"
+      ],
+      "metadata_checked_at": "2026-07-29T15:23:52.438863Z",
+      "full_text": {
+        "available": true,
+        "license": "cc-by-nc-sa",
+        "reuse_suitable": false,
+        "pmcid": "PMC8375902"
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T15:23:52.438863Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:37622653": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "37622653",
+        "pmcid": null,
+        "doi": "10.1111/tid.14128",
+        "openalex": "https://openalex.org/W4386151809"
+      },
+      "title": "Correction to \"Treatment of asymptomatic bacteriuria in the first 2 months after kidney transplant: A controlled clinical trial\".",
+      "abstract": "Antonio MEE, Cassandra BGC, Emiliano RJD, et al. Treatment of asymptomatic bacteriuria in the first 2 months after kidney transplant: a controlled clinical trial. Transpl Infect Dis. 2022;24(6):e13934. doi:10.1111/tid.13934 We have noticed that two lines of data from Table 3 [number of patients with either a urinary tract infection (UTI) or pyelonephritis in both the intention to treat (ITT) and per-protocol (PP) analysis] were reversed. The corrected table is shown below; results and conclusions are unchanged. We regret this error.",
+      "journal": "Transplant infectious disease : an official journal of the Transplantation Society",
+      "year": "2023",
+      "publication_types": [
+        "Published Erratum"
+      ],
+      "topics": [
+        "Medicine",
+        "Asymptomatic bacteriuria",
+        "Kidney transplant",
+        "Asymptomatic",
+        "Intensive care medicine",
+        "Kidney transplantation",
+        "Bacteriuria",
+        "Clinical trial",
+        "Internal medicine",
+        "Randomized controlled trial",
+        "Kidney",
+        "Urine"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "266b1e81008098adeed2d7672a182d88f04d08481326caf8f38abe933f230045",
+        "2a18528a1b88f6d1b6aa1259da699ede47ae58bfa8b2ecee3d09e8bf8455f01d",
+        "557e8c820ef90d6b3520c8be0f2046ff09baeaac907ec1eb360835e4929a977f"
+      ],
+      "metadata_checked_at": "2026-07-29T15:23:52.438863Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T15:23:52.438863Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:35363499": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "35363499",
+        "pmcid": null,
+        "doi": "10.1161/cir.0000000000001063",
+        "openalex": "https://openalex.org/W4220946720"
+      },
+      "title": "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines.",
+      "abstract": "<h4>Aim</h4>The \"2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure\" replaces the \"2013 ACCF/AHA Guideline for the Management of Heart Failure\" and the \"2017 ACC/AHA/HFSA Focused Update of the 2013 ACCF/AHA Guideline for the Management of Heart Failure.\" The 2022 guideline is intended to provide patient-centric recommendations for clinicians to prevent, diagnose, and manage patients with heart failure.<h4>Methods</h4>A comprehensive literature search was conducted from May 2020 to December 2020, encompassing studies, reviews, and other evidence conducted on human subjects that were published in English from MEDLINE (PubMed), EMBASE, the Cochrane Collaboration, the Agency for Healthcare Research and Quality, and other relevant databases. Additional relevant clinical trials and research studies, published through September 2021, were also considered. This guideline was harmonized with other American Heart Association/American College of Cardiology guidelines published through December 2021. Structure: Heart failure remains a leading cause of morbidity and mortality globally. The 2022 heart failure guideline provides recommendations based on contemporary evidence for the treatment of these patients. The recommendations present an evidence-based approach to managing patients with heart failure, with the intent to improve quality of care and align with patients' interests. Many recommendations from the earlier heart failure guidelines have been updated with new evidence, and new recommendations have been created when supported by published data. Value statements are provided for certain treatments with high-quality published economic analyses.",
+      "journal": "Circulation",
+      "year": "2022",
+      "publication_types": [
+        "Practice Guideline",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "Guideline",
+        "MEDLINE",
+        "Heart failure",
+        "Clinical Practice",
+        "Clinical trial",
+        "Health care",
+        "Systematic review",
+        "Evidence-based medicine"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "e36c905a4769cba643d07d807dff6b031db3075a25ce00e810f805f71cd312d7",
+        "09115611eb935d3bc044644238ec27c7bb6d485ec2118e491408c3504f1cb522",
+        "b7d34b46b808aae003ef83f355e42d57e87bd71f4d6db929771ed61b827ae369"
+      ],
+      "metadata_checked_at": "2026-07-29T15:23:52.438863Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T15:23:52.438863Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:33611396": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "33611396",
+        "pmcid": null,
+        "doi": "10.1177/2047487320915346",
+        "openalex": "https://openalex.org/W3014220056"
+      },
+      "title": "Managing refractory angina - is exercise with co-administered heparin the solution?",
+      "abstract": "Refractory angina (RA) is part of the spectrum of stable angina, 1 defining those patients who were known to have epicardial coronary artery disease, underwent all possible methods of revascularisation and were on full contemporary anti-anginal medications and, despite this, they had intrusive angina and objective signs of ischaemia on functional tests. The prevalence of RA is estimated to be between 5-10% of the stable angina cohort. In Europe, the annual incidence of RA is estimated at 50,000.2,3 In the USA, it is estimated that between 600,000 and 1.8 m patients have RA, with approximately 75,000 new cases diagnosed each year.4,5 RA can be a disabling condition that impacts on patients' quality of life and its management is very challenging. In spite of this, the prognosis of RA is not dissimilar from that of the stable angina group. The treatment of RA focuses on the improvement of quality of life and exercise performance by reducing ischaemic burden. The cornerstone of treating RA is tight cardiovascular risk factor management such as smoking cessation, diabetes, hypertension, dyslipidaemia control, engaging in regular exercise and healthy living and weight management.1,6 Evidence-based therapies include: (a) heart-rate-reducing agents like betablockers, rate-controlling calcium-channel blockers, ivabradine; (b) coronary vasodilators (nitrates, nicorandil, molsidomine); (c) increasing coronary blood flow by percutaneous coronary intervention (PCI), chronic total occlusion -PCI, coronary artery bypass graft surgery. In addition, therapies addressing advanced RA management are: (a) late sodium current inhibition (ranolazine); (b) metabolic modulation with trimetazidine, perhexiline; (c) non-pharmacological interventions such as enhanced external counter-pulsation (EECP), spinal cord stimulation (SCS), transmyocardial laser revascularisation (TMLR); (d) self-management training. Emerging experimental options currently encompass extracorporeal shockwave myocardial revascularisation (ESMR), coronary sinus reduction intervention (CSR), angiogenesis promoter (gene therapy), heart transplantation and opiate analgesia. The mechanism of action of novel therapeutic interventions can be grouped as: (a) treatments addressing neural processing/neuromodulators; transcutaneous electrical nerve stimulation (TENS), subcutaneous electrical nerve stimulation, SCS, sympathetic blockade and (b) treatments to promote myocardial",
+      "journal": "European journal of preventive cardiology",
+      "year": "2021",
+      "publication_types": [
+        "Comment",
+        "Journal Article"
+      ],
+      "topics": [
+        "Medicine",
+        "Refractory (planetary science)",
+        "Heparin",
+        "Angina",
+        "Intensive care medicine",
+        "Cardiology",
+        "Internal medicine",
+        "Physical therapy",
+        "Myocardial infarction"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "a85314abf19d7535e71e791a201dcaa9a863f3e2857a9ae8e0444f00ba421701",
+        "18902d09cd13b8d0c75af4eea23e0d6d7cafba0ecc6fa45b016ef6495179f3ad",
+        "5b743b3268c353e8fe8dffa42b0020eaa5fd2afe90d85ff889930e88162f5817"
+      ],
+      "metadata_checked_at": "2026-07-29T15:23:52.438863Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T15:23:52.438863Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    }
+  },
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T15:23:52.438863Z",
+      "sha256": "b62be26add23a8ec348aecb53344ce2ec85f068642bf91325b547eb0f1adf213",
+      "path": "raw/europe_pmc_metadata/b62be26add23a8ec348aecb53344ce2ec85f068642bf91325b547eb0f1adf213.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T15:23:52.438863Z",
+      "sha256": "1c0c033a69f6d5591ec7e67f7de5efc95ca2f0e68b3803fd784fe60a15613141",
+      "path": "raw/openalex/1c0c033a69f6d5591ec7e67f7de5efc95ca2f0e68b3803fd784fe60a15613141.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T15:23:52.438863Z",
+      "sha256": "94ccf77c2f07b0f96dd09e1862e6c2131e0312a0939fc5445e80c23e52c9cda3",
+      "path": "raw/crossref_retraction_watch/94ccf77c2f07b0f96dd09e1862e6c2131e0312a0939fc5445e80c23e52c9cda3.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T15:23:52.438863Z",
+      "sha256": "266b1e81008098adeed2d7672a182d88f04d08481326caf8f38abe933f230045",
+      "path": "raw/europe_pmc_metadata/266b1e81008098adeed2d7672a182d88f04d08481326caf8f38abe933f230045.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T15:23:52.438863Z",
+      "sha256": "2a18528a1b88f6d1b6aa1259da699ede47ae58bfa8b2ecee3d09e8bf8455f01d",
+      "path": "raw/openalex/2a18528a1b88f6d1b6aa1259da699ede47ae58bfa8b2ecee3d09e8bf8455f01d.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T15:23:52.438863Z",
+      "sha256": "557e8c820ef90d6b3520c8be0f2046ff09baeaac907ec1eb360835e4929a977f",
+      "path": "raw/crossref_retraction_watch/557e8c820ef90d6b3520c8be0f2046ff09baeaac907ec1eb360835e4929a977f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T15:23:52.438863Z",
+      "sha256": "e36c905a4769cba643d07d807dff6b031db3075a25ce00e810f805f71cd312d7",
+      "path": "raw/europe_pmc_metadata/e36c905a4769cba643d07d807dff6b031db3075a25ce00e810f805f71cd312d7.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T15:23:52.438863Z",
+      "sha256": "09115611eb935d3bc044644238ec27c7bb6d485ec2118e491408c3504f1cb522",
+      "path": "raw/openalex/09115611eb935d3bc044644238ec27c7bb6d485ec2118e491408c3504f1cb522.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T15:23:52.438863Z",
+      "sha256": "b7d34b46b808aae003ef83f355e42d57e87bd71f4d6db929771ed61b827ae369",
+      "path": "raw/crossref_retraction_watch/b7d34b46b808aae003ef83f355e42d57e87bd71f4d6db929771ed61b827ae369.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T15:23:52.438863Z",
+      "sha256": "a85314abf19d7535e71e791a201dcaa9a863f3e2857a9ae8e0444f00ba421701",
+      "path": "raw/europe_pmc_metadata/a85314abf19d7535e71e791a201dcaa9a863f3e2857a9ae8e0444f00ba421701.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T15:23:52.438863Z",
+      "sha256": "18902d09cd13b8d0c75af4eea23e0d6d7cafba0ecc6fa45b016ef6495179f3ad",
+      "path": "raw/openalex/18902d09cd13b8d0c75af4eea23e0d6d7cafba0ecc6fa45b016ef6495179f3ad.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T15:23:52.438863Z",
+      "sha256": "5b743b3268c353e8fe8dffa42b0020eaa5fd2afe90d85ff889930e88162f5817",
+      "path": "raw/crossref_retraction_watch/5b743b3268c353e8fe8dffa42b0020eaa5fd2afe90d85ff889930e88162f5817.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\cache",
+  "content_hash": "9d68c22535d944c325403059524f0ba8d05de4e1cf083be73c968a8822206c69"
+}

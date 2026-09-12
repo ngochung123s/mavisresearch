@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Smoke test PPTX",
+    "author": "Bác sĩ Ngọc Hưng",
+    "subtitle": "Kiểm tra engine slider3636"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "variant": "split_dark",
+      "title": "Kiểm tra slide y khoa",
+      "subtitle": "Deck mẫu ngắn để xác nhận render và giao diện",
+      "author": "Bác sĩ Ngọc Hưng",
+      "specialty": "OB/GYN",
+      "date": "2026-07-03"
+    },
+    {
+      "type": "objectives",
+      "variant": "icon_check",
+      "title": "Mục tiêu kiểm tra",
+      "objectives": [
+        "Render được file PPTX bằng Medical Teal",
+        "Header, card và footer hiển thị gọn hơn",
+        "Validator cảnh báo khi nội dung slide quá dày"
+      ]
+    },
+    {
+      "type": "three_column",
+      "variant": "pillars",
+      "title": "Ba điểm cần giữ khi tạo slide",
+      "columns": [
+        {"title": "Nguồn", "kicker": "1", "points": ["Dùng bài MD đã verify làm nguồn chính"]},
+        {"title": "Nội dung", "kicker": "2", "points": ["Mỗi slide chỉ giữ một thông điệp"]},
+        {"title": "QA", "kicker": "3", "points": ["Validate JSON và mở lại PPTX sau render"]}
+      ]
+    },
+    {
+      "type": "summary",
+      "variant": "takeaways",
+      "title": "Kết luận",
+      "points": [
+        "PPTX là deliverable tùy chọn, chỉ tạo khi được yêu cầu",
+        "Deck JSON và file PPTX phải nằm trong folder bài học",
+        "Không tự bịa số liệu, PMID hoặc chi tiết protocol"
+      ]
+    },
+    {
+      "type": "references",
+      "variant": "numbered",
+      "title": "Tài liệu",
+      "refs": ["Internal smoke test deck, 2026-07-03"]
+    }
+  ]
+}

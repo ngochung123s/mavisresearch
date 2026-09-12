@@ -1,0 +1,435 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đẻ chỉ huy (Operative Vaginal Delivery)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+
+<header class="text-center py-12 mb-12 glass rounded-3xl shadow-lg">
+  <div class="inline-block px-4 py-1 mb-4 rounded-full bg-indigo-200 text-indigo-800 text-sm font-semibold">
+    Chuyên khoa: Sản phụ khoa
+  </div>
+  <h1 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800">Đẻ chỉ huy (Operative Vaginal Delivery)</h1>
+  <p class="text-stone-600 text-lg">Ngày 23/06/2026 | Cho bác sĩ sản phụ khoa</p>
+  <p class="text-sm text-stone-500 mt-2">Bác sĩ: <strong>Ngọc 🍅 🐈‍⬛</strong> | AI: <strong>MiniMax Mavis</strong></p>
+</header>
+<main class="max-w-6xl mx-auto space-y-8">
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-indigo-700 mb-6">🎯 TỔNG QUAN</h2>
+  <p class="text-stone-700 mb-4">
+    <strong>Operative Vaginal Delivery (OVD)</strong> = đẻ âm đạo có dụng cụ (vacuum / forceps). Là công cụ <strong>chính để giảm tỉ lệ mổ lấy thai</strong> trong giai đoạn II — Panelli 2021 cho thấy successful OVD giảm 45% severe maternal morbidity so với mổ cấp cứu ở giai đoạn II (PMID 33631384).
+  </p>
+
+  <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r">
+    <p class="text-amber-900"><strong>📌 Điểm quan trọng (ACOG PB #154, 2015):</strong></p>
+    <ul class="list-disc pl-6 mt-2 text-amber-900 space-y-1">
+      <li><strong>Phân loại theo station</strong>: Outlet / Low / Mid-cavity. <strong>High station</strong> = chống chỉ định tuyệt đối.</li>
+      <li><strong>SAFE</strong> mnemonic là điều kiện tiên quyết — thiếu 1 → đừng làm.</li>
+      <li><strong>Vacuum ưu tiên hơn forceps</strong> về mặt an toàn mẹ (giảm OASI).</li>
+      <li>Failed OVD rất nguy hiểm — combined vacuum + forceps đều thất bại trong Panelli 2021.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-indigo-700 mb-6">📏 PHÂN LOẠI THEO STATION (ACOG PB #154)</h2>
+
+  <div class="bg-white rounded-xl p-4 shadow-inner overflow-x-auto mb-4">
+    <pre class="mermaid">
+flowchart TD
+    A[Station đầu thai<br/>so với gai ngồi] --> B{Station -3 đến -1}
+    A --> C{Station -1 đến +1}
+    A --> D{Station +2 đến +3}
+    A --> E{Đầu ở đáy chậu}
+
+    B -->|HIGH| F[<b>CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI</b><br/>Phải mổ]
+    C -->|Mid-cavity| G[Cần bác sĩ kinh nghiệm<br/>Cân nhắc TOID]
+    D -->|Low| H[Vacuum ưu tiên<br/>Forceps nếu cần xoay]
+    E -->|Outlet| I[Vacuum hoặc forceps<br/>đều khả thi]
+
+    style F fill:#fca5a5,stroke:#dc2626,stroke-width:3px
+    style G fill:#fde68a,stroke:#f59e0b
+    style H fill:#bbf7d0,stroke:#10b981
+    style I fill:#d1fae5,stroke:#10b981
+    </pre>
+  </div>
+
+  <div class="overflow-x-auto">
+    <table class="w-full border-collapse bg-white rounded-xl overflow-hidden shadow">
+      <thead class="bg-indigo-100">
+        <tr>
+          <th class="border p-3 text-left">Loại</th>
+          <th class="border p-3 text-left">Station</th>
+          <th class="border p-3 text-left">Đặc điểm</th>
+          <th class="border p-3 text-left">Khuyến cáo</th>
+        </tr>
+      </thead>
+      <tbody class="text-stone-700">
+        <tr>
+          <td class="border p-3 font-bold">Outlet</td>
+          <td class="border p-3">+2 đến +3</td>
+          <td class="border p-3">Đầu đã đến đáy chậu, OA</td>
+          <td class="border p-3">Vacuum hoặc forceps đều OK</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Low</td>
+          <td class="border p-3">+2 hoặc thấp hơn</td>
+          <td class="border p-3">Chưa đến đáy chậu</td>
+          <td class="border p-3">Vacuum ưu tiên</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">Mid-cavity</td>
+          <td class="border p-3">-1 đến +1</td>
+          <td class="border p-3">Chưa qua eo giữa, có thể cần xoay</td>
+          <td class="border p-3">Cần bác sĩ kinh nghiệm, TOID</td>
+        </tr>
+        <tr class="bg-red-50">
+          <td class="border p-3 font-bold text-red-700">High</td>
+          <td class="border p-3 text-red-700">-3 đến -1</td>
+          <td class="border p-3 text-red-700">Chưa lọt</td>
+          <td class="border p-3 text-red-700"><strong>CHỐNG CHỈ ĐỊNH</strong> OVD</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-indigo-700 mb-6">✅ ĐIỀU KIỆN TIÊN QUYẾT — SAFE</h2>
+
+  <div class="grid md:grid-cols-2 gap-4 mb-4">
+    <div class="bg-indigo-50 rounded-xl p-5 border-2 border-indigo-300">
+      <h3 class="text-2xl font-bold text-indigo-700 mb-2">S — Safety</h3>
+      <p class="text-stone-700">An toàn mẹ & con đã đánh giá (không chống chỉ định).</p>
+    </div>
+    <div class="bg-indigo-50 rounded-xl p-5 border-2 border-indigo-300">
+      <h3 class="text-2xl font-bold text-indigo-700 mb-2">A — Anesthesia</h3>
+      <p class="text-stone-700">Gây tê đủ (epidural đang tác dụng hoặc pudendal block).</p>
+    </div>
+    <div class="bg-indigo-50 rounded-xl p-5 border-2 border-indigo-300">
+      <h3 class="text-2xl font-bold text-indigo-700 mb-2">F — Fully dilated</h3>
+      <p class="text-stone-700">Cổ tử cung mở hết 10 cm.</p>
+    </div>
+    <div class="bg-indigo-50 rounded-xl p-5 border-2 border-indigo-300">
+      <h3 class="text-2xl font-bold text-indigo-700 mb-2">E — Empty bladder</h3>
+      <p class="text-stone-700">Bàng quang rỗng (thông tiểu trước).</p>
+    </div>
+    <div class="bg-indigo-50 rounded-xl p-5 border-2 border-indigo-300">
+      <h3 class="text-2xl font-bold text-indigo-700 mb-2">E — Engaged head</h3>
+      <p class="text-stone-700">Đầu thai đã lọt qua eo trên (không phải high station).</p>
+    </div>
+    <div class="bg-indigo-50 rounded-xl p-5 border-2 border-indigo-300">
+      <h3 class="text-2xl font-bold text-indigo-700 mb-2">E — Experienced operator</h3>
+      <p class="text-stone-700">Bác sĩ đủ kinh nghiệm HOẶC có người giám sát.</p>
+    </div>
+  </div>
+
+  <div class="bg-emerald-50 border-l-4 border-emerald-500 p-4 rounded-r mt-4">
+    <p class="text-emerald-900"><strong>💡 Bổ sung:</strong> Màng ốc đã vỡ (hoặc bấm ối ngay), tử cung có cơn co đều, biết chính xác ngôi/thế/station.</p>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-indigo-700 mb-6">⚖️ VACUUM vs FORCEPS — SỐ LIỆU</h2>
+  <p class="text-stone-700 mb-4">
+    Theo <strong>Muraca 2022 (CMAJ, PMID 35012946)</strong> — cohort Canada 2013-2019, <strong>n = 1,326,191</strong>:
+  </p>
+
+  <h3 class="text-xl font-bold text-indigo-600 mt-6 mb-3">Biểu đồ: Trauma rate theo instrument</h3>
+  <div class="bg-white rounded-xl p-4 shadow-inner">
+    <div style="max-width:800px;margin:0 auto;"><canvas id="chartTrauma" height="350" style="width:100%!important;height:auto!important;"></canvas></div>
+  </div>
+
+  <h3 class="text-xl font-bold text-indigo-600 mt-6 mb-3">Bảng so sánh chi tiết</h3>
+  <div class="overflow-x-auto">
+    <table class="w-full border-collapse bg-white rounded-xl overflow-hidden shadow">
+      <thead class="bg-indigo-100">
+        <tr>
+          <th class="border p-3 text-left">Tiêu chí</th>
+          <th class="border p-3 text-left">Vacuum</th>
+          <th class="border p-3 text-left">Forceps</th>
+        </tr>
+      </thead>
+      <tbody class="text-stone-700">
+        <tr>
+          <td class="border p-3 font-bold">Maternal trauma (Muraca 2022)</td>
+          <td class="border p-3"><strong>13.2%</strong></td>
+          <td class="border p-3"><strong>25.3%</strong></td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">aRR maternal trauma</td>
+          <td class="border p-3">1.0 (ref)</td>
+          <td class="border p-3"><strong>1.70 (95% CI 1.65-1.75)</strong></td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">Neonatal trauma (/1000)</td>
+          <td class="border p-3">9.6</td>
+          <td class="border p-3">9.6</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">OASI mẹ</td>
+          <td class="border p-3">3-6%</td>
+          <td class="border p-3">8-15% (Kielland lên đến 15-20%)</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">Cephalohematoma con</td>
+          <td class="border p-3">6-10%</td>
+          <td class="border p-3">1-3%</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Subgaleal hemorrhage (SGH)</td>
+          <td class="border p-3"><strong>Đặc hiệu, nguy hiểm</strong></td>
+          <td class="border p-3">Rất hiếm</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">Erb palsy</td>
+          <td class="border p-3">Thấp</td>
+          <td class="border p-3">Cao hơn</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">Gãy xương sọ/đòn</td>
+          <td class="border p-3">Rất hiếm</td>
+          <td class="border p-3">Cao hơn</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 class="text-xl font-bold text-indigo-600 mt-6 mb-3">Panelli 2021 — OVD thành công vs thất bại</h3>
+  <div class="bg-white rounded-xl p-4 shadow-inner">
+    <div style="max-width:800px;margin:0 auto;"><canvas id="chartPanelli" height="350" style="width:100%!important;height:auto!important;"></canvas></div>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-indigo-700 mb-6">🔧 KỸ THUẬT OVD — 2 DỤNG CỤ CHÍNH</h2>
+
+  <h3 class="text-xl font-bold text-indigo-600 mb-3">Forceps — các bước đặt (Outlet/Low OA)</h3>
+  <div class="bg-white rounded-xl p-4 shadow-inner overflow-x-auto mb-6">
+    <pre class="mermaid">
+flowchart TD
+    A[Kiểm tra SAFE + thông tiểu] --> B[Gây tê đủ<br/>epidural/pudendal]
+    B --> C[Cành trái đặt trước<br/>tay phải bảo vệ mô mẹ]
+    C --> D[Cành phải đặt sau]
+    D --> E[Khóa 2 cành<br/>kiểm tra vị trí]
+    E --> F{Fontanelle sau<br/>ngay giữa 2 cành?}
+    F -->|Có| G[Kéo trong cơn co<br/>dọc trục đường đẻ]
+    F -->|Không| H[Tháo, đặt lại]
+    G --> I{Đầu descend?}
+    I -->|Có| J[Đỡ vai, sổ thai]
+    I -->|Không sau 2-3 cơn co| K[DỪNG → MỔ]
+
+    style A fill:#dbeafe,stroke:#3b82f6
+    style K fill:#fca5a5,stroke:#dc2626,stroke-width:3px
+    style J fill:#d1fae5,stroke:#10b981
+    </pre>
+  </div>
+
+  <h3 class="text-xl font-bold text-indigo-600 mb-3">Vacuum — "3 pulls, 3 pops, 3 minutes" (RCOG)</h3>
+  <div class="bg-white rounded-xl p-4 shadow-inner overflow-x-auto">
+    <pre class="mermaid">
+flowchart TD
+    A[SAFE + chọn cốc] --> B[Đặt cốc lên flexion point<br/>cách fontanelle sau ~ 3 cm]
+    B --> C[Tạo chân không<br/>tăng từ từ, max 0.8 kg/cm²]
+    C --> D[Traction test<br/>đảm bảo cốc bám]
+    D --> E[Kéo trong cơn co]
+    E --> F{Đầu descend?}
+    F -->|Có| G[Sổ thai, tắt chân không]
+    F -->|Không| H{Đã kéo 3 pulls?}
+    H -->|<3| E
+    H -->|≥3| I[DỪNG → MỔ]
+    E --> J{Cup dislodgment ≥ 3?}
+    J -->|Có| I
+    J -->|<3| E
+    E --> K{VAD duration ≥ 15 min?}
+    K -->|Có| I
+    K -->|<15| E
+
+    style A fill:#dbeafe,stroke:#3b82f6
+    style I fill:#fca5a5,stroke:#dc2626,stroke-width:3px
+    style G fill:#d1fae5,stroke:#10b981
+    </pre>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-indigo-700 mb-6">💪 SHOULDER DYSTOcia — HELPERR</h2>
+
+  <p class="text-stone-700 mb-4">
+    <strong>Shoulder dystocia</strong> = không thể sổ vai bằng thủ thuật kéo nhẹ sau khi đầu đã sổ.
+  </p>
+
+  <div class="bg-white rounded-xl p-4 shadow-inner overflow-x-auto mb-4">
+    <pre class="mermaid">
+flowchart TD
+    A[Đầu sổ nhưng vai kẹt] --> B[H - Help<br/>gọi thêm người]
+    B --> C[E - Evaluate episiotomy<br/>có cần cắt?]
+    C --> D[L - Legs McRoberts<br/>gập hông, đùi áp bụng]
+    D --> E[P - Pressure<br/>ấn suprapubic, đẩy vai về ngực]
+    E --> F[E - Enter maneuvers<br/>Rubin / Woods screw]
+    F --> G[R - Remove posterior arm<br/>luồn tay nắm cẳng tay sau]
+    G --> H[R - Roll patient<br/>all-fours Gaskin]
+    H --> I{Thành công?}
+    I -->|Có| J[Sổ thai, hồi sức]
+    I -->|Không| K[Cleidotomy hoặc Zavanelli<br/>+ mổ cấp cứu]
+
+    style A fill:#fee2e2,stroke:#dc2626
+    style J fill:#d1fae5,stroke:#10b981
+    style K fill:#fca5a5,stroke:#dc2626,stroke-width:2px
+    </pre>
+  </div>
+
+  <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r">
+    <p class="text-amber-900"><strong>⚠️ Lưu ý quan trọng:</strong></p>
+    <ul class="list-disc pl-6 mt-2 text-amber-900 space-y-1">
+      <li><strong>KHÔNG kéo đầu thai mạnh</strong> — nguy cơ Erb palsy rất cao.</li>
+      <li>Ghi nhận <strong>head-to-body interval (HBI)</strong> — HBI > 5 phút tăng nguy cơ tổn thương thần kinh và tử vong.</li>
+      <li>Yếu tố nguy cơ chính: thai to, đái tháo đường thai kỳ, OVD, gây tê ngoài màng cứng.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="glass rounded-2xl p-8 shadow-md mb-8">
+  <h2 class="text-3xl font-bold text-indigo-700 mb-6">📚 GUIDELINE & TÀI LIỆU THAM KHẢO</h2>
+
+  <div class="overflow-x-auto">
+    <table class="w-full border-collapse bg-white rounded-xl overflow-hidden shadow">
+      <thead class="bg-indigo-100">
+        <tr>
+          <th class="border p-3 text-left">Hội / Guideline</th>
+          <th class="border p-3 text-left">Năm</th>
+          <th class="border p-3 text-left">Điểm chính</th>
+        </tr>
+      </thead>
+      <tbody class="text-stone-700">
+        <tr>
+          <td class="border p-3 font-bold">ACOG Practice Bulletin #154</td>
+          <td class="border p-3">2015 (còn hiệu lực)</td>
+          <td class="border p-3">Phân loại station, SAFE, TOID, vacuum ưu tiên forceps</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">RCOG Green-top Guideline 26</td>
+          <td class="border p-3">2011 (đang cập nhật)</td>
+          <td class="border p-3">3 pulls / 3 pops / 3 minutes với vacuum</td>
+        </tr>
+        <tr>
+          <td class="border p-3 font-bold">NICE NG235</td>
+          <td class="border p-3">2023</td>
+          <td class="border p-3">OVD là lựa chọn trong giai đoạn II kéo dài nếu thai khỏe</td>
+        </tr>
+        <tr class="bg-stone-50">
+          <td class="border p-3 font-bold">SOGC</td>
+          <td class="border p-3">2018</td>
+          <td class="border p-3">Tương tự RCOG + ACOG</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 class="text-xl font-bold text-indigo-600 mt-6 mb-3">Bài báo Q1 quan trọng nhất</h3>
+  <ol class="list-decimal pl-8 text-stone-700 space-y-2">
+    <li><strong>Muraca 2022 (CMAJ, n=1.3M)</strong> — PMID 35012946. Maternal trauma 25.3% forceps vs 13.2% vacuum, aRR 1.70.</li>
+    <li><strong>Panelli 2021 (AJOG MFM)</strong> — PMID 33631384. Successful OVD aOR 0.55, failed OVD aOR 2.14. Combined vacuum-forceps 100% thất bại.</li>
+    <li><strong>Levin 2019 (Acta Obstet Gynecol Scand)</strong> — PMID 31220332. VAD ≥ 15 phút dự đoán SGH độ nhạy 96.7%.</li>
+    <li><strong>Babata 2025 (J Perinatol)</strong> — PMID 39284927. Review về SGH.</li>
+    <li><strong>Froeliger 2022 (Obstet Gynecol, n=2128)</strong> — PMID 35576342. Vacuum 5.4% vs forceps 10.5% severe maternal morbidity.</li>
+  </ol>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>Bài soạn theo workflow daily medical lesson. Citation: Muraca 2022 (CMAJ), Panelli 2021 (AJOG MFM), Levin 2019, Babata 2025, ACOG PB #154 (2015), RCOG GTG-26 (2011).</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+<script>
+  const ctx1 = document.getElementById('chartTrauma').getContext('2d');
+  new Chart(ctx1, {
+    type: 'bar',
+    data: {
+      labels: ['Maternal trauma (%)', 'OASI mẹ (%)', 'Neonatal trauma (/1000)', 'Cephalohematoma (%)'],
+      datasets: [{
+        label: 'Vacuum',
+        data: [13.2, 5, 9.6, 8],
+        backgroundColor: '#10b981',
+        borderRadius: 8
+      }, {
+        label: 'Forceps',
+        data: [25.3, 12, 9.6, 2],
+        backgroundColor: '#be185d',
+        borderRadius: 8
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: { display: true, text: 'Trauma rates theo dụng cụ (Muraca 2022 — CMAJ, n=1,326,191)', font: { size: 16 } },
+        legend: { position: 'bottom' }
+      },
+      scales: {
+        y: { title: { display: true, text: 'Tỉ lệ (%) hoặc (/1000)' }, beginAtZero: true }
+      }
+    }
+  });
+</script>
+
+<script>
+  const ctx2 = document.getElementById('chartPanelli').getContext('2d');
+  new Chart(ctx2, {
+    type: 'bar',
+    data: {
+      labels: ['Severe maternal morbidity', 'Severe neonatal morbidity'],
+      datasets: [{
+        label: 'Successful OVD (aOR)',
+        data: [0.55, 0.99],
+        backgroundColor: '#10b981',
+        borderRadius: 8
+      }, {
+        label: 'Failed OVD (aOR)',
+        data: [2.14, 1.78],
+        backgroundColor: '#dc2626',
+        borderRadius: 8
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: { display: true, text: 'aOR so với mổ cấp cứu giai đoạn II (Panelli 2021 — AJOG MFM)', font: { size: 16 } },
+        legend: { position: 'bottom' },
+        annotation: {}
+      },
+      scales: {
+        y: {
+          title: { display: true, text: 'Adjusted Odds Ratio (aOR)' },
+          beginAtZero: true,
+          suggestedMax: 2.5
+        }
+      }
+    }
+  });
+</script>
+
+</script>
+</body>
+</html>

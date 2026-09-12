@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bien chung trong ART - Visual Summary 2026-06-27</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(135deg, #fef9f3 0%, #f7e8e0 100%); }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); }
+  .pastel-pink { background: #f4c2c2; }
+  .pastel-blue { background: #c5d5e0; }
+  .pastel-mint { background: #c5e0c9; }
+  .pastel-peach { background: #f7d1ba; }
+  .pastel-lavender { background: #d4c5e2; }
+  .mermaid { background: white; border-radius: 12px; padding: 16px; }
+  /* Chart.js canvas: giới hạn max-width để không bị kéo dãn khi render
+     trên màn hình rộng. Kết hợp với height attr trên <canvas> để giữ tỉ lệ.
+     Lý do: Chart.js mặc định maintainAspectRatio=false + responsive=true
+     sẽ fill 100% container width -> bar/doughnut bị oval/méo khi container
+     rộng hơn canvas internal pixel ratio. */
+  canvas { display: block; max-width: 800px; margin: 0 auto; height: auto !important; }
+</style>
+</head>
+<body class="min-h-screen p-6">
+
+<header class="glass max-w-6xl mx-auto rounded-2xl p-8 mb-8 shadow-lg">
+  <h1 class="text-4xl font-bold text-stone-800 mb-2">Các biến chứng trong Hỗ trợ sinh sản (ART)</h1>
+  <p class="text-stone-600 text-lg">Bài học 2026-06-27 — 15 citations Tier 0/Q1-Q2 verified</p>
+  <div class="flex gap-3 mt-4 flex-wrap">
+    <span class="pastel-pink px-3 py-1 rounded-full text-sm">OHSS</span>
+    <span class="pastel-blue px-3 py-1 rounded-full text-sm">Đa thai</span>
+    <span class="pastel-mint px-3 py-1 rounded-full text-sm">Thai ngoài tử cung</span>
+    <span class="pastel-peach px-3 py-1 rounded-full text-sm">Biến chứng sản khoa</span>
+    <span class="pastel-lavender px-3 py-1 rounded-full text-sm">Ung thư dài hạn</span>
+  </div>
+</header>
+<main class="max-w-6xl mx-auto space-y-8">
+
+<!-- Section 1: Tong quan -->
+<section class="glass rounded-2xl p-6 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">1. Ba nhóm biến chứng chính của ART</h2>
+  <div class="grid md:grid-cols-3 gap-4">
+    <div class="pastel-pink p-4 rounded-xl">
+      <h3 class="font-bold text-stone-800 mb-2">Kích thích buồng trứng</h3>
+      <p class="text-stone-700">OHSS, xoắn buồng trứng, xuất huyết nang</p>
+    </div>
+    <div class="pastel-blue p-4 rounded-xl">
+      <h3 class="font-bold text-stone-800 mb-2">Thủ thuật</h3>
+      <p class="text-stone-700">Chảy máu, nhiễm trùng, thai ngoài tử cung, thai heterotopic</p>
+    </div>
+    <div class="pastel-mint p-4 rounded-xl">
+      <h3 class="font-bold text-stone-800 mb-2">Sản khoa & chu sinh</h3>
+      <p class="text-stone-700">Đa thai, sinh non, nhẹ cân, tiền sản giật, ung thư dài hạn</p>
+    </div>
+  </div>
+</section>
+
+<!-- Section 2: OHSS Pathway -->
+<section class="glass rounded-2xl p-6 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">2. Cơ chế bệnh sinh OHSS</h2>
+  <div class="mermaid">
+flowchart TD
+    A["hCG trigger / hCG nội sinh"] --> B["Buồng trứng tăng tiết VEGF<br/>+ cytokines"]
+    B --> C["Tăng tính thấm mao mạch"]
+    C --> D["Dịch thoát ra khoang thứ ba<br/>(cổ trướng, tràn dịch MP)"]
+    C --> E["Cô đặc máu (Hct > 45%)"]
+    E --> F["Huyết khối tĩnh mạch<br/>(đặc biệt chi dưới)"]
+    D --> G["Giảm thể tích tuần hoàn<br/>→ giữ nước, natri"]
+    G --> H["Suy thận cấp chức năng"]
+    style A fill:#f4c2c2
+    style B fill:#f7d1ba
+    style C fill:#c5e0c9
+    style D fill:#d4c5e2
+    style E fill:#d4c5e2
+    style F fill:#c5d5e0
+    style G fill:#c5d5e0
+    style H fill:#f4c2c2
+  </div>
+  <p class="text-stone-600 text-sm mt-3">Mermaid flowchart — Pathway VEGF sau trigger hCG. Nguồn: ASRM 2016 OHSS guideline (PMID 27678032).</p>
+</section>
+
+<!-- Section 3: Bar chart - so sanh ti le bien chung -->
+<section class="glass rounded-2xl p-6 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">3. Tỉ lệ các biến chứng ART</h2>
+  <div class="bg-white p-4 rounded-xl">
+    <canvas id="chartIncidence" width="800" height="400"></canvas>
+  </div>
+  <p class="text-stone-600 text-sm mt-3">Tỉ lệ ước tính dựa trên guideline ASRM 2016/2021/2022 + meta-analysis 2023-2025. Lưu ý: tỉ lệ dao động tùy quần thể và phác đồ.</p>
+</section>
+
+<!-- Section 4: Gioi han so phoi chuyen -->
+<section class="glass rounded-2xl p-6 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">4. Giới hạn số phôi chuyển (ASRM 2021)</h2>
+  <div class="overflow-x-auto">
+    <table class="w-full text-left border-collapse">
+      <thead>
+        <tr class="bg-blue-900 text-white">
+          <th class="p-3">Tuổi mẹ</th>
+          <th class="p-3">Blastocyst (ngày 5-6)</th>
+          <th class="p-3">Cleavage (ngày 3)</th>
+        </tr>
+      </thead>
+      <tbody class="bg-white">
+        <tr class="border-b"><td class="p-3 font-bold">&lt; 35</td><td class="p-3">1 (khuyến cáo eSET) - 2</td><td class="p-3">1-2</td></tr>
+        <tr class="border-b"><td class="p-3 font-bold">35-37</td><td class="p-3">2</td><td class="p-3">2</td></tr>
+        <tr class="border-b"><td class="p-3 font-bold">38-40</td><td class="p-3">3</td><td class="p-3">3</td></tr>
+        <tr class="border-b"><td class="p-3 font-bold">41-42</td><td class="p-3">4</td><td class="p-3">4</td></tr>
+        <tr><td class="p-3 font-bold">&gt; 42</td><td class="p-3">5</td><td class="p-3">5</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-stone-600 text-sm mt-3">Nguồn: ASRM 2021 Committee Opinion (PMID 34330423). eSET = elective Single Embryo Transfer; kết hợp PGT-A có thể chọn phôi bình thường → giảm đa thai mà không giảm tỉ lệ thai lâm sàng.</p>
+</section>
+
+<!-- Section 5: ART complications tree -->
+<section class="glass rounded-2xl p-6 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">5. Sơ đồ tổng hợp biến chứng ART</h2>
+  <div class="mermaid">
+flowchart TD
+    ART["ART cycle"] --> STIM["Kích thích buồng trứng"]
+    ART --> PROC["Thủ thuật chọc hút / chuyển phôi"]
+    ART --> PREG["Thai kỳ"]
+
+    STIM --> OHSS["OHSS<br/>(0.5-2% severe)"]
+    STIM --> TOR["Xoắn buồng trứng<br/>(0.1%)"]
+    STIM --> CYST["Xuất huyết nang"]
+
+    PROC --> BLEED["Chảy máu<br/>(< 0.1%)"]
+    PROC --> INFECT["Nhiễm trùng<br/>(< 0.5%)"]
+    PROC --> EP["Thai ngoài TC<br/>(1-2%)"]
+    PROC --> HET["Thai heterotopic<br/>(1/100-500)"]
+
+    PREG --> MULT["Đa thai<br/>(6-7% song)"]
+    PREG --> OB["Sản khoa: Tiền SG,<br/>sinh non, nhẹ cân"]
+    PREG --> PERI["Chu sinh: NICU,<br/>bại não, tử vong"]
+    PREG --> CANCER["Ung thư dài hạn<br/>(mẹ + con)"]
+
+    style OHSS fill:#f4c2c2
+    style MULT fill:#c5d5e0
+    style EP fill:#f7d1ba
+    style HET fill:#d4c5e2
+    style CANCER fill:#c5e0c9
+  </div>
+  <p class="text-stone-600 text-sm mt-3">Mindmap các biến chứng chính theo giai đoạn ART — kích thích, thủ thuật, thai kỳ.</p>
+</section>
+
+<!-- Section 6: Phong ngua OHSS -->
+<section class="glass rounded-2xl p-6 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">6. Chiến lược phòng ngừa OHSS</h2>
+  <div class="grid md:grid-cols-2 gap-4">
+    <div class="pastel-pink p-4 rounded-xl">
+      <h3 class="font-bold text-stone-800 mb-2">Trước cycle</h3>
+      <ul class="text-stone-700 list-disc ml-5 space-y-1">
+        <li>Chọn antagonist cho high responder</li>
+        <li>Đánh giá AMH/AFC</li>
+        <li>Step-down gonadotropin protocol</li>
+      </ul>
+    </div>
+    <div class="pastel-blue p-4 rounded-xl">
+      <h3 class="font-bold text-stone-800 mb-2">Trigger & phòng ngừa</h3>
+      <ul class="text-stone-700 list-disc ml-5 space-y-1">
+        <li>GnRH AGONIST trigger (high responder)</li>
+        <li>Cabergoline 0.5 mg x 8 ngày</li>
+        <li>Coasting nếu E2 > 4000-5000 pg/mL</li>
+        <li>hCG liều thấp 3,300-5,000 IU</li>
+        <li>Freeze-all phôi</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Section 7: Citation audit summary -->
+<section class="glass rounded-2xl p-6 shadow-md">
+  <h2 class="text-2xl font-bold text-stone-800 mb-4">7. Citation Audit</h2>
+  <div class="grid md:grid-cols-3 gap-4">
+    <div class="pastel-mint p-4 rounded-xl text-center">
+      <p class="text-3xl font-bold text-stone-800">15</p>
+      <p class="text-stone-600">Tổng citations</p>
+    </div>
+    <div class="pastel-peach p-4 rounded-xl text-center">
+      <p class="text-3xl font-bold text-stone-800">0</p>
+      <p class="text-stone-600">BLOCK</p>
+    </div>
+    <div class="pastel-lavender p-4 rounded-xl text-center">
+      <p class="text-3xl font-bold text-stone-800">7</p>
+      <p class="text-stone-600">PASS</p>
+    </div>
+  </div>
+  <p class="text-stone-600 text-sm mt-3">8 WARN (Tier 1-2 + specific claim) - đã verify abstract qua PubMed E-utilities. Tier 0 (guideline): 6/15; Tier 1 (Q1): 7/15; Tier 2 (Q2): 2/15.</p>
+</section>
+
+</main>
+
+<footer class="text-center text-stone-500 text-sm py-6">
+  <p>ART Complications Visual Summary - MiniMax Agent 2026-06-27 - 15 citations verified</p>
+</footer>
+
+<script>
+mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+new Chart(document.getElementById('chartIncidence'), {
+  type: 'bar',
+  data: {
+    labels: ['OHSS nhe', 'OHSS nang', 'Da thai (song)', 'Da thai (tam+)', 'Thai ngoai TC', 'Heterotopic', 'Xoan buong trung', 'Huyet khoi (OHSS)'],
+    datasets: [{
+      label: 'Ti le (%)',
+      data: [25, 1.5, 6.5, 0.5, 1.5, 0.5, 0.1, 0.2],
+      backgroundColor: ['#f4c2c2', '#f7d1ba', '#c5d5e0', '#d4c5e2', '#c5e0c9', '#f4c2c2', '#c5d5e0', '#f7d1ba'],
+      borderColor: '#2D5F8C',
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { display: false },
+      title: { display: true, text: 'Ti le cac bien chung ART (%)' }
+    },
+    scales: {
+      y: { beginAtZero: true, title: { display: true, text: 'Phan tram (%)' } }
+    }
+  }
+});
+
+</script>
+</body>
+</html>

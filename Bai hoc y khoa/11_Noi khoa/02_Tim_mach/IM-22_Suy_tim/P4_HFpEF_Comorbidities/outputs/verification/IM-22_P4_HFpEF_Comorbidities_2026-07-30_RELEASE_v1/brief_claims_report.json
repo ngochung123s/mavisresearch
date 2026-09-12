@@ -1,0 +1,229 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P4_HFpEF_Comorbidities\\IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1_RESEARCH_BRIEF.md",
+  "parsed_claim_count": 5,
+  "verified_claim_count": 5,
+  "status": "PASS",
+  "claims": [
+    {
+      "claim_id": "P4-C01",
+      "claim_text": "SGLT2 inhibitors Dapagliflozin and Empagliflozin are recommended for patients with HFpEF and HFmrEF to reduce the risk of heart failure hospitalization or cardiovascular death.",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "SGLT2 inhibitors Dapagliflozin and Empagliflozin are recommended for patients with HFpEF and HFmrEF to reduce the risk of heart failure hospitalization or cardiovascular death.",
+      "line": 85,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=1.00"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P4-C02",
+      "claim_text": "Intravenous iron supplementation with Ferric carboxymaltose is recommended in symptomatic heart failure patients with iron deficiency defined as Ferritin less than 100 ng/mL or Ferritin 100-299 ng/mL with TSAT less than 20 percent.",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "Intravenous iron supplementation with Ferric carboxymaltose is recommended in symptomatic heart failure patients with iron deficiency defined as Ferritin less than 100 ng/mL or Ferritin 100-299 ng/mL with TSAT less than 20 percent.",
+      "line": 86,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=1.00"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P4-C03",
+      "claim_text": "Comprehensive management of heart failure requires treating comorbidities including hypertension, atrial fibrillation, diabetes, obesity, chronic kidney disease, iron deficiency, sleep apnea, and amyloidosis.",
+      "source_id": "34447992",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "Comprehensive management of heart failure requires treating comorbidities including hypertension, atrial fibrillation, diabetes, obesity, chronic kidney disease, iron deficiency, sleep apnea, and amyloidosis.",
+      "line": 87,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=1.00"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P4-C04",
+      "claim_text": "Empagliflozin reduced the combined risk of cardiovascular death or hospitalization for heart failure in patients with heart failure and preserved ejection fraction.",
+      "source_id": "34449189",
+      "verification": "DATA VERIFIED",
+      "quote": "Empagliflozin reduced the combined risk of cardiovascular death or hospitalization for heart failure in patients with heart failure and preserved ejection fraction.",
+      "line": 88,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=1.00"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "P4-C05",
+      "claim_text": "Dapagliflozin reduced the risk of worsening heart failure or cardiovascular death in patients with heart failure and mildly reduced or preserved ejection fraction.",
+      "source_id": "36036224",
+      "verification": "DATA VERIFIED",
+      "quote": "Dapagliflozin reduced the risk of worsening heart failure or cardiovascular death in patients with heart failure and mildly reduced or preserved ejection fraction.",
+      "line": 89,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=1.00"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    }
+  ],
+  "bundle_hash": "7fd7ff49b41b045d69130c35c68e2dc6a4f1af7385b8c6c9062bb1653f46f3c9"
+}

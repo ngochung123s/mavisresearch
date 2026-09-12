@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checked": 1,
+  "results": {
+    "29122851": {
+      "status": "PASS",
+      "reason": "status=clean; fresh=True; unresolved_corrections=0",
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T10:31:11.747735Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      }
+    }
+  },
+  "bundle_hash": "1beb869140734f5767fb79d76e269ec1b00415125f8c19410a436d2b116cc3ee"
+}

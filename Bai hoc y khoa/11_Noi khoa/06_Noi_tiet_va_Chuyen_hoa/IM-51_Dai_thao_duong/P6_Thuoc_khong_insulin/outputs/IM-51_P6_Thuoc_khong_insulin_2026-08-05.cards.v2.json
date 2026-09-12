@@ -1,0 +1,257 @@
+[
+  {
+    "front": "Tư duy điều trị T2D theo ADA 2026 đã chuyển dịch lịch sử như thế nào so với trước đây?",
+    "back": "Chuyển từ <b>'chỉ tập trung hạ HbA1c'</b> sang <b>'phân tầng theo BỆNH ĐỒNG MẮC (Comorbidities) ĐẦU TIÊN'</b>. Nếu bệnh nhân có ASCVD, Suy tim (HF), hoặc Bệnh thận mạn (CKD) -> BẮT BUỘC dùng SGLT2i hoặc GLP-1 RA bất kể HbA1c ban đầu.",
+    "extra": "ADA Standards of Care 2026 Section 9"
+  },
+  {
+    "front": "Khi bệnh nhân T2D KHÔNG có ASCVD, Suy tim hoặc CKD, 4 ưu tiên phụ nào được dùng để chọn thuốc?",
+    "back": "1. <b>Ưu tiên giảm cân</b> (Weight management).<br>2. <b>Tránh tối đa hạ đường huyết</b> (Hypoglycemia risk).<br>3. <b>Hiệu quả hạ HbA1c</b>.<br>4. <b>Chi phí và khả năng tiếp cận</b> (Cost/Access).",
+    "extra": "ADA SOC 2026 — Secondary Priorities"
+  },
+  {
+    "front": "Phép so sánh hình tượng của nhóm Metformin (Biguanide) là gì?",
+    "back": "<b>'Khóa van nhà máy gan'</b> — ức chế tạo glucose mới tại gan (gluconeogenesis), khóa bớt van xả đường của gan vào máu.",
+    "extra": "IM-51 P6 — Mô hình hóa 7 nhóm thuốc"
+  },
+  {
+    "front": "Phép so sánh hình tượng của nhóm SGLT2i (Empagliflozin, Dapagliflozin) là gì?",
+    "back": "<b>'Mở van xả đường qua bồn cầu'</b> — ức chế SGLT2 tại ống lượn gần thận, bắt thận xả bỏ 60–80g đường ra nước tiểu mỗi ngày (~300 kcal).",
+    "extra": "IM-51 P6 — Mô hình hóa 7 nhóm thuốc"
+  },
+  {
+    "front": "Phép so sánh hình tượng của nhóm GLP-1 RA (Ozempic, Victoza, Mounjaro) là gì?",
+    "back": "<b>'Hormone báo no & phanh hãm dạ dày'</b> — kích thích tiết insulin phụ thuộc đường, báo trung khu thần kinh giảm thèm ăn, làm chậm rỗng dạ dày.",
+    "extra": "IM-51 P6 — Mô hình hóa 7 nhóm thuốc"
+  },
+  {
+    "front": "Phép so sánh hình tượng của nhóm DPP-4i (Januvia, Trajenta, Galvus) là gì?",
+    "back": "<b>'Vệ sĩ bảo vệ GLP-1 nội sinh'</b> — ức chế enzyme DPP-4 để GLP-1 tự nhiên không bị tiêu diệt nhanh (kéo dài tuổi thọ GLP-1 nội sinh).",
+    "extra": "IM-51 P6 — Mô hình hóa 7 nhóm thuốc"
+  },
+  {
+    "front": "Phép so sánh hình tượng của nhóm Sulfonylurea (Gliclazide, Glimepiride) là gì?",
+    "back": "<b>'Chiếc roi quất vào lưng tế bào β'</b> — ép tụy vắt kiệt insulin ra máu bất kể đường huyết cao hay thấp.",
+    "extra": "IM-51 P6 — Mô hình hóa 7 nhóm thuốc"
+  },
+  {
+    "front": "Phép so sánh hình tượng của nhóm TZD (Pioglitazone) là gì?",
+    "back": "<b>'Dầu bôi trơn ổ khóa đề kháng insulin'</b> — hoạt hóa PPAR-gamma giúp tăng nhạy cảm insulin rất mạnh tại mô mỡ và cơ.",
+    "extra": "IM-51 P6 — Mô hình hóa 7 nhóm thuốc"
+  },
+  {
+    "front": "Phép so sánh hình tượng của nhóm Alpha-Glucosidase Inhibitor (Acarbose) là gì?",
+    "back": "<b>'Kéo cắt chậm tinh bột'</b> — ức chế enzyme chặt nhỏ tinh bột ở niêm mạc ruột, làm tinh bột tiêu hóa chậm lại, tránh đỉnh đường sau ăn.",
+    "extra": "IM-51 P6 — Mô hình hóa 7 nhóm thuốc"
+  },
+  {
+    "front": "Thử nghiệm bản lề kinh điển nào chứng minh Metformin có lợi ích giảm biến cố tim mạch lâu dài?",
+    "back": "<b>Thử nghiệm UKPDS</b> (UK Prospective Diabetes Study) — chứng minh kiểm soát đường huyết tích cực bằng Metformin ở bệnh nhân T2D thừa cân giảm biến cố tim mạch kéo dài 10–20 năm.",
+    "extra": "UKPDS Trial — Metformin Evidence"
+  },
+  {
+    "front": "Thử nghiệm bản lề EMPA-REG OUTCOME mang lại bằng chứng đột phá nào cho thuốc Empagliflozin?",
+    "back": "Chứng minh <b>Empagliflozin giảm 38% tử vong do nguyên nhân tim mạch</b> và giảm nhập viện suy tim ở bệnh nhân T2D có bệnh tim mạch xơ vữa (PMID 26378978).",
+    "extra": "EMPA-REG OUTCOME Trial (PMID 26378978)"
+  },
+  {
+    "front": "Thử nghiệm LEADER mang lại bằng chứng tim mạch nào cho Liraglutide (Victoza)?",
+    "back": "Chứng minh <b>Liraglutide giảm 13% biến cố tim mạch chính (3-point MACE)</b> và giảm 22% tử vong do nguyên nhân tim mạch (PMID 27295427).",
+    "extra": "LEADER Trial (PMID 27295427)"
+  },
+  {
+    "front": "Thử nghiệm DAPA-HF và EMPEROR-Reduced chứng minh lợi ích gì của SGLT2i ở bệnh nhân suy tim?",
+    "back": "Chứng minh <b>SGLT2i giảm nhập viện vì suy tim và giảm tử vong tim mạch</b> ở bệnh nhân suy tim HFrEF, <b>độc lập với việc bệnh nhân có đái tháo đường hay không</b>.",
+    "extra": "DAPA-HF & EMPEROR Trials"
+  },
+  {
+    "front": "Thử nghiệm DAPA-CKD và CREDENCE chứng minh lợi ích gì của SGLT2i trên thận?",
+    "back": "Chứng minh <b>SGLT2i làm chậm tiến triển bệnh thận mạn (CKD)</b>, giảm nguy cơ suy thận giai đoạn cuối và giảm đạm niệu đại thể.",
+    "extra": "DAPA-CKD & CREDENCE Trials"
+  },
+  {
+    "front": "Cơ chế phân tử chi tiết của Metformin tại tế bào gan là gì?",
+    "back": "Ức chế chuỗi truyền electron phức hợp I tại ty thể gan -> Giảm tỷ lệ ATP/AMP -> Hoạt hóa <b>AMPK</b> -> Ức chế các enzyme chìa khóa tạo tân tạo glucose (gluconeogenesis).",
+    "extra": "Metformin Molecular Mechanism"
+  },
+  {
+    "front": "Cách khởi trị và tăng liều Metformin thực chiến để giảm tối đa tác dụng phụ tiêu hóa?",
+    "back": "• Khởi đầu: <b>500mg hoặc 850mg x 1 lần/ngày uống ngay trong hoặc sau bữa ăn tối</b>.<br>• Tăng liều: Sau 1–2 tuần nếu dung nạp tốt, tăng lên 500mg x 2 lần/ngày.<br>• Liều đích: <b>1000mg x 2 lần/ngày</b> (Max: 2550mg/ngày).",
+    "extra": "Metformin Practical Titration"
+  },
+  {
+    "front": "Ngưỡng eGFR điều chỉnh và chống chỉ định tuyệt đối của Metformin?",
+    "back": "• <b>eGFR >= 45 mL/min:</b> Dùng liều đầy đủ.<br>• <b>eGFR 30–44 mL/min:</b> Giảm 50% liều (Max 1000mg/ngày), không khởi trị mới.<br>• <b>eGFR < 30 mL/min:</b> <b>CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI</b> (Nguy cơ toan Lactic tử vong).",
+    "extra": "ADA SOC 2026 — Metformin Safety"
+  },
+  {
+    "front": "Tác dụng phụ mạn tính cần theo dõi ở bệnh nhân dùng Metformin kéo dài > 5 năm?",
+    "back": "<b>Giảm hấp thu Vitamin B12</b> do Metformin can thiệp vào quá trình hấp thu phức hợp B12-yếu tố nội tại ở ruột non. Cần thử B12 nếu BN có tê bì chân tay hoặc thiếu máu.",
+    "extra": "Metformin Side Effects"
+  },
+  {
+    "front": "Vị trí tác dụng và cơ chế của nhóm thuốc SGLT2i tại nephron thận?",
+    "back": "Ức chế kên đồng vận chuyển Sodium-Glucose Cotransporter 2 tại <b>đoạn S1 của ống lượn gần (PCT)</b> -> Ngăn tái hấp thu đường, thải glucose ra nước tiểu.",
+    "extra": "SGLT2i Mechanism"
+  },
+  {
+    "front": "Liều dùng chuẩn của Empagliflozin (Jardiance) và Dapagliflozin (Forxiga)?",
+    "back": "• <b>Empagliflozin (Jardiance):</b> 10mg x 1 lần/sáng (có thể tăng 25mg/ngày).<br>• <b>Dapagliflozin (Forxiga):</b> 10mg x 1 lần/sáng.",
+    "extra": "SGLT2i Dosing"
+  },
+  {
+    "front": "Ngưỡng eGFR khởi trị và ngưỡng eGFR duy trì của SGLT2i theo ADA/KDIGO 2026?",
+    "back": "• <b>Khởi trị hạ đường huyết:</b> eGFR >= 45 (Empa) hoặc >= 25 (Dapa).<br>• <b>Duy trì bảo vệ tim-thận:</b> Tiếp tục dùng cho đến khi <b>eGFR < 20 mL/min</b> hoặc khi bắt đầu chạy thận nhân tạo.",
+    "extra": "KDIGO 2026 / ADA 2026 Guidelines"
+  },
+  {
+    "front": "Vì sao SGLT2i gây tác dụng phụ nhiễm nấm sinh dục và cách dặn bệnh nhân?",
+    "back": "Do nước tiểu chứa lượng đường cao tạo môi trường thuận lợi cho nấm <i>Candida</i> phát triển. Hướng dẫn bệnh nhân <b>vệ sinh vùng kín kỹ sau khi đi tiểu và uống đủ 2 lít nước/ngày</b>.",
+    "extra": "SGLT2i Safety Instructions"
+  },
+  {
+    "front": "Biểu hiện đặc trưng của Euglycemic DKA do SGLT2i là gì?",
+    "back": "Bệnh nhân bị nhiễm toan ceton nặng (nôn, mệt mỏi, thở Kussmaul, ceton máu +) nhưng <b>nồng độ đường huyết KHÔNG CAO (< 250 mg/dL)</b>.",
+    "extra": "Euglycemic DKA Warning"
+  },
+  {
+    "front": "Quy tắc Sick-Day Rules đối với thuốc SGLT2i trước phẫu thuật hoặc khi bệnh cấp tính?",
+    "back": "<b>Tạm ngưng SGLT2i ít nhất 3 ngày trước phẫu thuật</b> hoặc khi nhiễm trùng nặng, nôn ói, tiêu chảy, nhịn ăn mất nước để tránh Euglycemic DKA.",
+    "extra": "Sick-Day Rules Guidelines"
+  },
+  {
+    "front": "4 tác dụng sinh lý chính của nhóm GLP-1 RA trên cơ thể?",
+    "back": "1. Tăng tiết insulin phụ thuộc glucose.<br>2. Ức chế tiết Glucagon.<br>3. Làm chậm rỗng dạ dày.<br>4. Tác động lên trung khu thần kinh não giảm cảm giác thèm ăn.",
+    "extra": "GLP-1 RA Physiological Actions"
+  },
+  {
+    "front": "Liều khởi đầu và chuẩn độ liều của Liraglutide (Victoza) và Semaglutide (Ozempic)?",
+    "back": "• <b>Liraglutide:</b> Tiêm dưới da 0.6mg/ngày x 1 tuần -> 1.2mg -> max 1.8mg/ngày.<br>• <b>Semaglutide:</b> Tiêm dưới da 0.25mg/tuần x 4 tuần -> 0.5mg -> max 1.0–2.0mg/tuần.",
+    "extra": "GLP-1 RA Titration Schedules"
+  },
+  {
+    "front": "Tirzepatide (Mounjaro) thuộc nhóm thuốc nào và có hiệu quả nổi bật gì (SURPASS-2)?",
+    "back": "Thuộc nhóm <b>Đồng chủ vận kép GIP/GLP-1 RA</b>. Giúp giảm HbA1c tới 2.4% và giảm cân cực mạnh (15% – 22% trọng lượng cơ thể). Liều 2.5mg/tuần tăng mỗi 5mg q4wks (max 15mg).",
+    "extra": "SURPASS-2 Trial (PMID 34170647)"
+  },
+  {
+    "front": "Chống chỉ định tuyệt đối duy nhất của nhóm GLP-1 RA là gì?",
+    "back": "Bệnh nhân có tiền sử bản thân hoặc gia đình mắc <b>Carcinoma tuyến giáp dạng tủy (MTC)</b> hoặc hội chứng <b>Đa u tuyến nội tiết týp 2 (MEN 2)</b>.",
+    "extra": "GLP-1 RA Black Box Warning"
+  },
+  {
+    "front": "Cơ chế tác dụng của nhóm DPP-4i là gì?",
+    "back": "Ức chế enzyme Dipeptidyl Peptidase-4 -> Ngăn giáng hóa hormone ruột GLP-1 và GIP nội sinh -> Tăng nồng độ GLP-1 tự nhiên gấp 2–3 lần.",
+    "extra": "DPP-4i Mechanism"
+  },
+  {
+    "front": "Liều dùng Sitagliptin (Januvia) và cách chỉnh liều theo chức năng thận?",
+    "back": "• <b>eGFR >= 45 mL/min:</b> 100mg x 1 lần/ngày.<br>• <b>eGFR 30–44 mL/min:</b> Giảm còn 50mg x 1 lần/ngày.<br>• <b>eGFR < 30 mL/min:</b> Giảm còn 25mg x 1 lần/ngày.",
+    "extra": "Sitagliptin Renal Dosing"
+  },
+  {
+    "front": "Ưu điểm vượt trội về dược động học của Linagliptin (Trajenta) ở bệnh nhân suy thận?",
+    "back": "<b>KHÔNG CẦN CHỈNH LIỀU Ở MỌI GIAI ĐOẠN SUY THẬN (Liều 5mg x 1 lần/ngày)</b> do 95% thuốc thải trừ qua đường mật và phân.",
+    "extra": "Linagliptin Unique Advantage"
+  },
+  {
+    "front": "Quy tắc phối hợp: Có được dùng DPP-4i chung với GLP-1 RA không?",
+    "back": "<b>CẤM PHỐI HỢP (RED BOX 1).</b> Vì cả hai cùng tác động lên hệ thống Incretin, dùng chung không tăng thêm hiệu quả nhưng làm tăng chi phí và tác dụng phụ.",
+    "extra": "Red Box 1 — Incretin Combination Rule"
+  },
+  {
+    "front": "Cơ chế phân tử kích thích tiết insulin của nhóm Sulfonylurea (SU)?",
+    "back": "Gắn vào thụ thể SUR1 trên tế bào beta đảo tụy -> Đóng kênh K(ATP) -> Khử cực màng tế bào -> Mở kênh Ca2+ -> Giải phóng viên nang Insulin ra máu bất kể nồng độ đường.",
+    "extra": "Sulfonylurea Molecular Mechanism"
+  },
+  {
+    "front": "Vì sao Gliclazide MR (Diamicron MR) được ưu tiên hơn các Sulfonylurea thế hệ cũ?",
+    "back": "Vì Gliclazide MR dạng phóng thích kéo dài gắn nhả linh hoạt với thụ thể SUR1, <b>có nguy cơ gây hạ đường huyết thấp nhất trong nhóm SU</b>.",
+    "extra": "Gliclazide MR Safety"
+  },
+  {
+    "front": "Hai tác dụng phụ chính cần cảnh báo khi kê đơn Sulfonylurea?",
+    "back": "1. <b>Nguy cơ hạ đường huyết nặng và kéo dài</b>.<br>2. <b>Tăng cân (1 – 3 kg)</b> do nồng độ insulin máu luôn ở mức cao.",
+    "extra": "SU Side Effects"
+  },
+  {
+    "front": "Xử trí nhóm Sulfonylurea khi bệnh nhân T2D bắt đầu phác đồ tiêm Insulin Basal-Bolus?",
+    "back": "<b>BẮT BUỘC NGỪNG SULFONYLUREA</b> để tránh nguy cơ chồng lấp hạ đường huyết nguy hiểm.",
+    "extra": "SU Discontinuation Rule"
+  },
+  {
+    "front": "Cơ chế tác dụng và liều dùng của Pioglitazone (Actos)?",
+    "back": "Hoạt hóa nhân PPAR-gamma -> Thay đổi phiên mã gen chuyển hóa mỡ/đường -> Tăng nhạy cảm insulin rất mạnh tại mô mỡ và cơ. Liều 15–30mg (Max 45mg) x 1 lần/ngày.",
+    "extra": "Pioglitazone Mechanism & Dosing"
+  },
+  {
+    "front": "Chống chỉ định tuyệt đối sống còn của Pioglitazone (TZD)?",
+    "back": "Bệnh nhân có <b>SUY TIM (NYHA I - IV) (RED BOX 2)</b> do TZD gây tăng giữ muối và nước tại ống thận, làm bùng phát đợt cấp suy tim; tiền sử ung thư bàng quang.",
+    "extra": "Red Box 2 — TZD Heart Failure Warning"
+  },
+  {
+    "front": "Cơ chế tác dụng và kỹ thuật uống thuốc Acarbose (Glucobay) đúng?",
+    "back": "Ức chế cạnh tranh alpha-glucosidase niêm mạc ruột -> Làm chậm tiêu hóa tinh bột. Kỹ thuật: <b>Uống ngay cùng miếng cơm/thức ăn đầu tiên</b> (50–100mg x 3 lần/ngày).",
+    "extra": "Acarbose Dosing Technique"
+  },
+  {
+    "front": "Bước 1 trong Thuật toán phân tầng kê đơn ADA 2026 là gì?",
+    "back": "Thay đổi lối sống lành mạnh (MNT + Tập luyện 150 phút/tuần) + <b>Metformin</b> (nếu eGFR >= 30 mL/min).",
+    "extra": "ADA 2026 Algorithm Step 1"
+  },
+  {
+    "front": "Bước 2 trong Thuật toán phân tầng kê đơn ADA 2026 yêu cầu sàng lọc 3 bệnh đồng mắc nào?",
+    "back": "1. <b>Bệnh tim mạch xơ vữa (ASCVD)</b> -> GLP-1 RA hoặc SGLT2i.<br>2. <b>Suy tim (HF)</b> -> SGLT2i là số 1.<br>3. <b>Bệnh thận mạn (CKD)</b> -> SGLT2i là số 1 (nếu không được -> GLP-1 RA).",
+    "extra": "ADA 2026 Algorithm Step 2"
+  },
+  {
+    "front": "Bước 3 trong Thuật toán kê đơn ADA 2026 lựa chọn thuốc theo các mục tiêu phụ như thế nào?",
+    "back": "• Ưu tiên giảm cân: Tirzepatide > Semaglutide > GLP-1 RA khác > SGLT2i.<br>• Tránh hạ đường huyết: SGLT2i, GLP-1 RA, DPP-4i, TZD.<br>• Chi phí thấp: Gliclazide MR hoặc Pioglitazone.",
+    "extra": "ADA 2026 Algorithm Step 3"
+  },
+  {
+    "front": "Tóm tắt ngưỡng eGFR của Metformin?",
+    "back": "• >= 45: Liều đầy đủ.<br>• 30–44: Giảm 50% liều (Max 1g/ngày), không khởi trị mới.<br>• < 30: Chống chỉ định tuyệt đối.",
+    "extra": "Metformin eGFR Summary"
+  },
+  {
+    "front": "Tóm tắt ngưỡng eGFR của SGLT2i (Empagliflozin / Dapagliflozin)?",
+    "back": "• Khởi trị: eGFR >= 45 (Empa) hoặc >= 25 (Dapa).<br>• Duy trì bảo vệ thận: Tiếp tục đến eGFR < 20 mL/min hoặc chạy thận.",
+    "extra": "SGLT2i eGFR Summary"
+  },
+  {
+    "front": "Tóm tắt ngưỡng eGFR của Linagliptin vs Sitagliptin?",
+    "back": "• <b>Linagliptin:</b> 5mg cố định cho mọi mức eGFR.<br>• <b>Sitagliptin:</b> >=45 (100mg), 30–44 (50mg), <30 (25mg).",
+    "extra": "DPP-4i eGFR Summary"
+  },
+  {
+    "front": "Ca lâm sàng 1: Nam 48t, mới chẩn đoán T2D, BMI 27.5, HbA1c 7.9%, eGFR 95, không bệnh đồng mắc. Kế hoạch điều trị?",
+    "back": "Thay đổi lối sống (MNT + tập đi bộ 30p/ngày) + <b>Metformin XR 500mg x 1 viên uống sau ăn tối</b>. Sau 2 tuần tăng 1000mg sau ăn tối. Đánh giá lại HbA1c sau 3 tháng.",
+    "extra": "Case 1 Decision"
+  },
+  {
+    "front": "Ca lâm sàng 2: Nữ 65t, tiền sử suy tim HFrEF (EF 35%), HbA1c 7.2% đang dùng Metformin 2g/ngày, eGFR 55. Quyết định điều trị?",
+    "back": "<b>BẮT BUỘC THÊM SGLT2i (Dapagliflozin 10mg hoặc Empagliflozin 10mg/ngày)</b>. Lý do: SGLT2i giảm nhập viện suy tim và tử vong tim mạch độc lập với HbA1c.",
+    "extra": "Case 2 Decision"
+  },
+  {
+    "front": "Ca lâm sàng 3: Nam 70t, T2D 15 năm, eGFR 24, UACR 320 mg/g, HbA1c 8.2% đang dùng Metformin 1g + Gliclazide MR 60mg. Xử trí?",
+    "back": "1. <b>NGỪNG Metformin</b> (eGFR < 30).<br>2. <b>NGỪNG Gliclazide MR</b> (nguy cơ hạ đường cao).<br>3. <b>Duy trì SGLT2i (Dapa 10mg)</b> để bảo vệ thận.<br>4. Thêm <b>Linagliptin 5mg/ngày</b> hoặc Insulin Basal liều thấp.",
+    "extra": "Case 3 Decision"
+  },
+  {
+    "front": "Ca lâm sàng 4: Cụ bà 78t ở quê, sống một mình, HbA1c 8.1%, eGFR 50, hoàn cảnh khó khăn. Chọn thuốc phối hợp với Metformin?",
+    "back": "Phối hợp <b>Gliclazide MR 30mg x 1 viên uống buổi sáng</b> (rẻ tiền, ít nguy cơ hạ đường hơn SU cũ). Hướng dẫn cụ luôn mang theo 3 viên kẹo ngọt trong túi.",
+    "extra": "Case 4 Decision"
+  },
+  {
+    "front": "Tự kiểm tra: BN T2D kèm Suy tim (EF 35%), HbA1c hiện tại 6.8%. Có nên thêm SGLT2i không?",
+    "back": "<b>CÓ BẮT BUỘC.</b> Khuyến cáo ADA 2026 quy định SGLT2i được chỉ định cho bệnh nhân suy tim bất kể HbA1c ban đầu hay HbA1c đã đạt mục tiêu hay chưa.",
+    "extra": "Checkpoint 1 Answer"
+  },
+  {
+    "front": "Tự kiểm tra: Tại sao Linagliptin được gọi là 'ngôi sao' DPP-4i ở bệnh nhân suy thận nặng?",
+    "back": "Vì Linagliptin <b>thải trừ chủ yếu qua đường mật và phân (95%)</b>, không phụ thuộc vào thận, nên dùng liều cố định 5mg/ngày cho mọi mức eGFR mà không cần chỉnh liều.",
+    "extra": "Checkpoint 2 Answer"
+  }
+]

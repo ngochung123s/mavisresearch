@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-07-29T16:24:36.164029Z",
+  "providers": [
+    "europe_pmc_metadata",
+    "europe_pmc_oa_full_text",
+    "crossref_retraction_watch",
+    "openalex",
+    "official_source"
+  ],
+  "records": {
+    "pmid:38169072": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "38169072",
+        "pmcid": null,
+        "doi": "10.1002/ejhf.3024",
+        "openalex": "https://openalex.org/W4390544691"
+      },
+      "title": "2023 Focused Update of the 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure: Developed by the task force for the diagnosis and treatment of acute and chronic heart failure of the European Society of Cardiology (ESC) With the special contribution of the Heart Failure Association (HFA) of the ESC.",
+      "abstract": "Document Reviewers: Rudolf A. de Boer (CPG Review Co-ordinator) (Netherlands), P. Christian Schulze (CPG Review Co-ordinator) (Germany), Elena Arbelo (Spain), Jozef Bartunek (Belgium), Johann Bauersachs (Germany), Michael A. Borger (Germany), Sergio Buccheri (Sweden), Elisabetta Cerbai (Italy), Erwan Donal (France), Frank Edelmann (Germany), Gloria Färber (Germany), Bettina Heidecker (Germany), Borja Ibanez (Spain), Stefan James (Sweden), Lars Køber (Denmark), Konstantinos C. Koskinas (Switzerland), Josep Masip (Spain), John William McEvoy (Ireland), Robert Mentz (United States of America), Borislava Mihaylova (United Kingdom), Jacob Eifer Møller (Denmark), Wilfried Mullens (Belgium), Lis Neubeck (United Kingdom), Jens Cosedis Nielsen (Denmark), Agnes A. Pasquet (Belgium), Piotr Ponikowski (Poland), Eva Prescott (Denmark), Amina Rakisheva (Kazakhstan), Bianca Rocca (Italy), Xavier Rossello (Spain), Leyla Elif Sade (United States of America/Türkiye), Hannah Schaubroeck (Belgium), Elena Tessitore (Switzerland), Mariya Tokmakova (Bulgaria), Peter van der Meer (Netherlands), Isabelle C. Van Gelder (Netherlands), Mattias Van Heetvelde (Belgium), Christiaan Vrints (Belgium), Matthias Wilhelm (Switzerland), Adam Witkowski (Poland), and Katja Zeppenfeld (Netherlands) All experts involved in the development of this Focused Update have submitted declarations of interest. These have been compiled in a report and simultaneously published in a supplementary document to the Focused Update. The report is also available on the ESC website www.escardio.org/guidelines See the European Heart Journal online for supplementary documents that include evidence tables.",
+      "journal": "European journal of heart failure",
+      "year": "2024",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "Polish",
+        "Art history",
+        "History",
+        "Humanities",
+        "Library science",
+        "Art",
+        "Philosophy"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "38609176774be50b3de5c0dacbba5b2993dcf737c8539cf712d7461e964b5e61",
+        "76d11c4d6c1d852944aa0f099bb6f4885beec6f5198010c4dedc373cc5b53277",
+        "17d8250373155620e6cbc16127fb5e98786cd08a94110985c852521c83576ce4"
+      ],
+      "metadata_checked_at": "2026-07-29T16:24:36.164029Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-07-29T16:24:36.164029Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    }
+  },
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-07-29T16:24:36.164029Z",
+      "sha256": "38609176774be50b3de5c0dacbba5b2993dcf737c8539cf712d7461e964b5e61",
+      "path": "raw/europe_pmc_metadata/38609176774be50b3de5c0dacbba5b2993dcf737c8539cf712d7461e964b5e61.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-07-29T16:24:36.164029Z",
+      "sha256": "76d11c4d6c1d852944aa0f099bb6f4885beec6f5198010c4dedc373cc5b53277",
+      "path": "raw/openalex/76d11c4d6c1d852944aa0f099bb6f4885beec6f5198010c4dedc373cc5b53277.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-07-29T16:24:36.164029Z",
+      "sha256": "17d8250373155620e6cbc16127fb5e98786cd08a94110985c852521c83576ce4",
+      "path": "raw/crossref_retraction_watch/17d8250373155620e6cbc16127fb5e98786cd08a94110985c852521c83576ce4.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\11_Noi khoa\\IM-22_Suy_tim\\P2_Chan_doan\\outputs\\cache",
+  "content_hash": "573182d8062fd79d2adc914c791287b80922186659be1a52738f03fbbd5dc15d"
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "type": "basic",
+    "front": "Định nghĩa AUB (abnormal uterine bleeding)?",
+    "back": "<b>AUB</b> là xuất huyết tử cung <b>khác với kinh nguyệt bình thường</b> về tần suất, độ dài, lượng máu hoặc thờii điểm xuất hiện — <b>không do thai kỳ</b>.<br><br>FIGO 2011 định nghĩa bình thường: tần suất 24-38 ngày, thờii gian kinh ≤8 ngày, lượng máu không gây thiếu máu."
+  },
+  {
+    "type": "cloze",
+    "text": "FIGO định nghĩa chu kỳ kinh bình thường: tần suất {{c1::24-38 ngày}}, thờii gian kinh ≤ {{c1::8 ngày}}, biến động chu kỳ < {{c1::7-9 ngày}}.",
+    "extra": "FIGO System 1 (Munro 2016)."
+  },
+  {
+    "type": "basic",
+    "front": "HMB (heavy menstrual bleeding) được định nghĩa như thế nào? PBAC score bao nhiêu = HMB?",
+    "back": "<b>HMB</b> = lượng kinh nhiều gây ảnh hưởng chất lượng sống hoặc thiếu máu.<br><br><b>PBAC (Pictorial Blood Loss Assessment Chart) score ≥100</b> = HMB.<br><br>Thuật ngữ cũ <b>menorrhagia</b> nên được thay bằng HMB theo FIGO."
+  },
+  {
+    "type": "cloze",
+    "text": "{{c1::HMB}} = lượng kinh nhiều; {{c1::IMB}} = chảy máu giữa chu kỳ; {{c1::DUB}} là thuật ngữ cũ không nên dùng.",
+    "extra": "IMB = intermenstrual bleeding; DUB = dysfunctional uterine bleeding."
+  },
+  {
+    "type": "basic",
+    "front": "PALM-COEIN classification — PALM gồm những nguyên nhân nào?",
+    "back": "<b>PALM = structural causes</b> (chẩn đoán bằng hình ảnh/histology):<br>• <b>P</b> = Polyp<br>• <b>A</b> = Adenomyosis<br>• <b>L</b> = Leiomyoma<br>• <b>M</b> = Malignancy/hyperplasia"
+  },
+  {
+    "type": "basic",
+    "front": "PALM-COEIN classification — COEIN gồm những nguyên nhân nào?",
+    "back": "<b>COEIN = non-structural causes</b> (chẩn đoán bằng lâm sàng/xét nghiệm):<br>• <b>C</b> = Coagulopathy<br>• <b>O</b> = Ovulatory dysfunction<br>• <b>E</b> = Endometrial (primary)<br>• <b>I</b> = Iatrogenic<br>• <b>N</b> = Not yet classified"
+  },
+  {
+    "type": "cloze",
+    "text": "PALM-COEIN: {{c1::PALM}} là structural causes, gồm {{c1::Polyp}}, {{c1::Adenomyosis}}, {{c1::Leiomyoma}}, {{c1::Malignancy/hyperplasia}}; {{c1::COEIN}} là non-structural causes.",
+    "extra": "FIGO 2011/2016. Munro MG."
+  },
+  {
+    "type": "basic",
+    "front": "4 cơ chế cầm máu nội mạc tử cung sau kinh nguyệt?",
+    "back": "<b>4 cơ chế:</b><br>1. <b>Vasoconstriction</b> — spiral arterioles co lại (PGF2α, endothelin-1)<br>2. <b>Thrombosis</b> — huyết khối tại chỗ, cân bằng fibrinolysis<br>3. <b>Re-epithelialization</b> — tế bào biểu mô từ basalis phủ bề mặt<br>4. <b>Local endometrial hemostasis</b> — yếu tố đông máu nội mạc"
+  },
+  {
+    "type": "cloze",
+    "text": "Cơ chế cầm máu nội mạc: {{c1::vasoconstriction}} động mạch xoắn, {{c1::thrombosis}} tại chỗ, {{c1::re-epithelialization}} biểu mô, và hemostasis nội mạc tại chỗ.",
+    "extra": "PGF2α, endothelin-1 là mediator vasoconstriction mạnh."
+  },
+  {
+    "type": "basic",
+    "front": "Vai trò của progesterone withdrawal trong kinh nguyệt? Anovulation gây AUB như thế nào?",
+    "back": "<b>Progesterone withdrawal</b> là tín hiệu khởi động kinh nguyệt — corpus luteum thoái hóa → progesterone giảm → nội mạc bong.<br><br><b>Anovulation</b>: estrogen kích thích nội mạc liên tục, không có progesterone đối kháng → nội mạc tăng sinh quá mức → bong tróc không đồng đều → AUB kéo dài."
+  },
+  {
+    "type": "cloze",
+    "text": "Khi không có phóng noãn, nội mạc bị {{c1::estrogen}} kích thích liên tục không có {{c1::progesterone}} đối kháng → tăng sinh quá mức → xuất huyết bất thường.",
+    "extra": "AUB-O = ovulatory dysfunction."
+  },
+  {
+    "type": "basic",
+    "front": "ACOG CO #734: Ngưỡng độ dày nội mạc (ET) trên TVUS ở phụ nữ mãn kinh chảy máu (PMB) mà có thể bỏ qua sinh thiết?",
+    "back": "<b>ET ≤4 mm</b> có <b>NPV >99%</b> cho ung thư nội mạc → có thể bỏ qua sinh thiết nếu lần đầu chảy máu và không có yếu tố nguy cơ.<br><br><b>ET >4 mm</b> → cần endometrial biopsy hoặc hysteroscopy."
+  },
+  {
+    "type": "cloze",
+    "text": "ACOG CO #734: Ở PMB, ET {{c1::≤4 mm}} có NPV >99% cho ung thư nội mạc; ET {{c1::>4 mm}} cần sinh thiết.",
+    "extra": "PMID 29683909."
+  },
+  {
+    "type": "basic",
+    "front": "Acute AUB protocol theo ACOG PB #557 — điều trị nội khoa đầu tay?",
+    "back": "<b>Bước 1:</b> Đánh giá huyết động, cầm máu.<br><b>Bước 2:</b> Y tế:<br>• <b>CEE IV 25mg</b> mỗi 4-6 giờ (tối đa 24h), hoặc<br>• <b>COC liều cao</b> 1 viên 3 lần/ngày x 7 ngày sau đó giảm dần, hoặc<br>• <b>Progestin</b> (MPA 20mg 3 lần/ngày)<br>• <b>TXA</b> 1-1.3g IV/PO 3-4 lần/ngày<br><br><b>Bước 3:</b> Truyền máu nếu Hb <7 g/dL hoặc shock."
+  },
+  {
+    "type": "cloze",
+    "text": "Acute AUB (ACOG PB #557): điều trị nội khoa gồm {{c1::CEE IV 25mg}} mỗi 4-6h, hoặc {{c1::COC liều cao}}, hoặc {{c1::progestin}}, kết hợp {{c1::TXA}}.",
+    "extra": "PMID 23635706. Phẫu thuật nếu thất bại y tế."
+  },
+  {
+    "type": "basic",
+    "front": "NICE NG88: First-line điều trị HMB là gì?",
+    "back": "<b>LNG-IUS (Mirena®)</b> là first-line cho HMB.<br><br>Nếu từ chối hoặc chống chỉ định LNG-IUS → lựa chọn second-line gồm:<br>• Combined oral contraceptives (COC)<br>• Tranexamic acid<br>• NSAIDs"
+  },
+  {
+    "type": "cloze",
+    "text": "NICE NG88 khuyến cáo {{c1::LNG-IUS}} là first-line cho HMB; second-line gồm {{c1::COC}}, {{c1::TXA}}, {{c1::NSAID}}.",
+    "extra": "NICE 2018 heavy menstrual bleeding guideline."
+  },
+  {
+    "type": "basic",
+    "front": "Vani Lanka 2026 (n=240): thuốc nào giảm PBAC mạnh nhất sau 6 tháng trong HMB?",
+    "back": "<b>LNG-IUS giảm PBAC 93%</b> sau 6 tháng — cao nhất trong nghiên cứu.<br><br>Các thuốc khác:<br>• DMPA giảm 78%<br>• TXA giảm đáng kể<br>• COC giảm ~70%<br><br>Tất cả các nhóm đều cải thiện Hb đáng kể."
+  },
+  {
+    "type": "cloze",
+    "text": "Vani Lanka 2026: {{c1::LNG-IUS}} giảm PBAC {{c1::93%}} sau 6 tháng ở phụ nữ HMB, cao hơn DMPA ({{c1::78%}}) và COC (~70%).",
+    "extra": "PMID 41664752, Cureus 2026."
+  },
+  {
+    "type": "basic",
+    "front": "Chỉ định sinh thiết nội mạc (endometrial biopsy) trong AUB?",
+    "back": "<b>Sinh thiết khi:</b><br>• Tuổi ≥45 với AUB mới hoặc thay đổi kinh nguyệt<br>• PMB bất kỳ (sau loại trừ ET ≤4mm lần đầu)<br>• <45 tuổi có yếu tố nguy cơ: obesity (BMI ≥30), PCOS, tamoxifen, gia đình Lynch/Cowden, ĐTĐ type 2<br>• Nội mạc dày >14-16mm tiền mãn kinh hoặc >4mm PMB<br>• Điều trị nội khoa thất bại"
+  },
+  {
+    "type": "cloze",
+    "text": "Sinh thiết nội mạc bắt buộc ở phụ nữ ≥{{c1::45}} tuổi với AUB, hoặc PMB có ET >{{c1::4 mm}}, hoặc <45 tuổi có yếu tố nguy cơ như {{c1::obesity/PCOS/tamoxifen/Lynch}}.",
+    "extra": "ACOG + NICE consensus."
+  },
+  {
+    "type": "basic",
+    "front": "AUB-P (Polyp) — triệu chứng điển hình và chẩn đoán tốt nhất?",
+    "back": "<b>Triệu chứng:</b> IMB, HMB, chảy máu sau giao hợp (postcoital bleeding).<br><br><b>Chẩn đoán:</b> TVUS + <b>SIS (saline infusion sonohysterography)</b> hoặc <b>hysteroscopy</b>.<br><br><b>Điều trị:</b> Hysteroscopic polypectomy là gold standard."
+  },
+  {
+    "type": "basic",
+    "front": "AUB-A (Adenomyosis) — đặc điểm siêu âm và điều trị first-line?",
+    "back": "<b>Siêu âm:</b> Junctional zone dày >12 mm, không đều, cyst nhỏ trong cơ tử cung.<br><br><b>MRI:</b> Junctional zone dày >12 mm là chuẩn vàng hình ảnh.<br><br><b>First-line:</b> <b>LNG-IUS</b>; nếu thất bại → GnRH antagonist ± add-back; hysterectomy khi đủ con."
+  },
+  {
+    "type": "cloze",
+    "text": "Adenomyosis: junctional zone dày > {{c1::12 mm}} trên siêu âm/MRI; điều trị first-line là {{c1::LNG-IUS}}.",
+    "extra": "AUB-A."
+  },
+  {
+    "type": "basic",
+    "front": "AUB-L (Leiomyoma) — loại u xơ nào gây AUB nhiều nhất? Điều trị?",
+    "back": "<b>U xơ dưới niêm (submucosal, FIGO type 0-2)</b> gây AUB nhiều nhất.<br><br><b>Điều trị:</b><br>• <b>Hysteroscopic myomectomy</b> cho submucosal<br>• Myomectomy mở bụng/nội soi cho intramural lớn<br>• UAE, GnRH agonist/antagonist thu nhỏ trước mổ<br>• Hysterectomy nếu đủ con, thất bại điều trị khác"
+  },
+  {
+    "type": "cloze",
+    "text": "U xơ {{c1::dưới niêm}} (FIGO type {{c1::0-2}}) gây AUB nhiều nhất; điều trị chọn lọc là {{c1::hysteroscopic myomectomy}}.",
+    "extra": "AUB-L."
+  },
+  {
+    "type": "basic",
+    "front": "AUB-C (Coagulopathy) — nguyên nhân phổ biến nhất ở vị thành niên HMB? Tầm soát khi nào?",
+    "back": "<b>vWD (von Willebrand disease)</b> là nguyên nhân phổ biến nhất — chiếm 13-20% HMB ở vị thành niên.<br><br><b>Tầm soát:</b> HMB nặng từ menarche, hoặc tiền sử chảy máu kéo dài sau nhổ răng/phẫu thuật, bầm tím dễ.<br><br><b>Xét nghiệm:</b> vWF antigen, vWF activity, Factor VIII, CBC."
+  },
+  {
+    "type": "cloze",
+    "text": "AUB-C ở vị thành niên: nguyên nhân phổ biến nhất là {{c1::vWD}}, chiếm {{c1::13-20%}} HMB. Tầm soát khi HMB từ {{c1::menarche}} hoặc chảy máu sau phẫu thuật kéo dài.",
+    "extra": "PMID 40924008."
+  },
+  {
+    "type": "basic",
+    "front": "AUB-O (Ovulatory dysfunction) — nguyên nhân phổ biến nhất ở tuổi nào? Nguyên nhân?",
+    "back": "<b>Phổ biến nhất:</b> Vị thành niên (HPO immaturity) và tiền mãn kinh (suy buồng trứng).<br><br><b>Nguyên nhân:</b> PCOS, thyroid disease, hyperprolactinemia, stress, thay đổi cân nặng, perimenopause.<br><br><b>Cơ chế:</b> Estrogen không có progesterone đối kháng → nội mạc tăng sinh → bong tróc không đồng đều."
+  },
+  {
+    "type": "basic",
+    "front": "AUB-E (Endometrial) là gì? Điều trị?",
+    "back": "<b>AUB-E</b> = rối loạn chức năng nội mạc nguyên phát, chẩn đoán loại trừ sau khi đã loại bỏ PALM, C, O, I.<br><br><b>Đặc điểm:</b> Tăng fibrinolysis cục bộ, tăng prostaglandin, rối loạn mạch máu nội mạc.<br><br><b>Điều trị:</b> LNG-IUS, TXA, COC, NSAID."
+  },
+  {
+    "type": "cloze",
+    "text": "AUB-E là chẩn đoán {{c1::loại trừ}} sau khi loại bỏ {{c1::PALM}}, {{c1::C}}, {{c1::O}}, {{c1::I}}; điều trị gồm LNG-IUS, TXA, COC.",
+    "extra": "Primary endometrial disorder."
+  },
+  {
+    "type": "basic",
+    "front": "Maheux-Lacroix 2016: SIS vs TVUS trong chẩn đoán polyp/u xơ dưới niêm?",
+    "back": "<b>SIS (saline infusion sonohysterography)</b> vượt trội hơn TVUS:<br>• SIS: Se 92%, Sp 89%<br>• TVUS: Se 64%, Sp 90%<br>• TVUS nhạy cảm đặc biệt thấp cho polyp (Se ~51%)<br><br>SIS hoàn thành thành công 95%, dung nạp tốt."
+  },
+  {
+    "type": "cloze",
+    "text": "SIS có độ nhạy {{c1::92%}} và độ đặc hiệu {{c1::89%}} trong chẩn đoán polyp/u xơ dưới niêm, cao hơn TVUS (Se {{c1::64%}}).",
+    "extra": "PMID 27824761."
+  },
+  {
+    "type": "basic",
+    "front": "Jiang 2026: Mifepristone liều thấp trong HMB kháng trị ở phụ nữ rối loạn đông máu — kết quả chính?",
+    "back": "Nghiên cứu 63 bệnh nhân HMB kháng trị + rối loạn đông máu:<br>• Median PBAC giảm từ <b>385 xuống 0</b> sau 1 tháng<br>• Hb tăng từ <b>51 lên 84 g/L</b><br>• <b>92.1% đạt amenorrhea</b> sau 1 tháng<br>• Không có biến cố huyết khối nghiêm trọng<br><br>Mifepristone có thể là bridge therapy cho nhóm này."
+  },
+  {
+    "type": "cloze",
+    "text": "Jiang 2026: Mifepristone liều thấp ở HMB kháng trị + rối loạn đông máu — PBAC giảm từ {{c1::385}} xuống {{c1::0}} sau 1 tháng; {{c1::92.1%}} đạt amenorrhea.",
+    "extra": "PMID 41832474."
+  },
+  {
+    "type": "basic",
+    "front": "PMB (postmenopausal bleeding) — nguyên tắc quan trọng nhất?",
+    "back": "<b>PMB = ung thư nội mạc tử cung cho đến khi chứng minh ngược lại.</b><br><br>Phải làm TVUS đo ET. Nếu ET >4 mm → sinh thiết/hysteroscopy.<br><br><b>Không được</b> kê hormone cầm máu trước khi loại trừ ung thư."
+  },
+  {
+    "type": "cloze",
+    "text": "PMB = {{c1::ung thư nội mạc tử cung}} cho đến khi chứng minh ngược lại; ET > {{c1::4 mm}} cần sinh thiết.",
+    "extra": "ACOG CO #734."
+  },
+  {
+    "type": "basic",
+    "front": "So sánh FIGO, ACOG, NICE về first-line HMB?",
+    "back": "<b>FIGO:</b> Không one-size-fits-all; điều trị theo PALM-COEIN.<br><b>ACOG:</b> LNG-IUS, COC, TXA, NSAID đều là first-line hợp lý.<br><b>NICE NG88:</b> <b>LNG-IUS là first-line</b> rõ ràng nhất; nếu từ chối/chống chỉ định → COC/TXA/NSAID."
+  },
+  {
+    "type": "cloze",
+    "text": "NICE NG88 chọn {{c1::LNG-IUS}} làm first-line HMB; ACOG xem {{c1::LNG-IUS/COC/TXA/NSAID}} đều hợp lý; FIGO nhấn mạnh điều trị theo {{c1::PALM-COEIN}}.",
+    "extra": "Tsakiridis 2022 review so sánh 5 guidelines."
+  },
+  {
+    "type": "basic",
+    "front": "Vai trò của TXA trong HMB/AUB? Liều và chống chỉ định?",
+    "back": "<b>Cơ chế:</b> Ức chế plasminogen → giảm fibrinolysis cục bộ → giảm chảy máu.<br><br><b>Liều:</b> 1-1.5g uống 3-4 lần/ngày, trong 3-5 ngày đầu kinh.<br><br><b>Chống chỉ định:</b> Tiền sử huyết khối tĩnh mạch/động mạch, hematuria do fibrinolysis."
+  },
+  {
+    "type": "cloze",
+    "text": "Tranexamic acid trong HMB: ức chế {{c1::plasminogen}} → giảm {{c1::fibrinolysis}}; liều {{c1::1-1.5g}} x 3-4 lần/ngày trong 3-5 ngày đầu kinh.",
+    "extra": "Chống chỉ định: tiền sử huyết khối."
+  },
+  {
+    "type": "basic",
+    "front": "Điều trị ngoại khoa AUB — khi nào chọn polypectomy, myomectomy, UAE, ablation, hysterectomy?",
+    "back": "<b>Polypectomy:</b> Polyp gây IMB/HMB<br><b>Myomectomy:</b> U xơ dưới niêm/type 0-2, bảo tồn tử cung<br><b>UAE:</b> U xơ lớn, không muốn phẫu thuật<br><b>Endometrial ablation:</b> HMB không rõ nguyên nhân, đủ con, không muốn hysterectomy<br><b>Hysterectomy:</b> Thất bại điều trị khác, ung thư/tiền ung thư, adenomyosis nặng"
+  }
+]

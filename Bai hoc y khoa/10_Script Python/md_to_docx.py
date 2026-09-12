@@ -1,6 +1,6 @@
 """Convert Markdown file (Vietnamese co dau) -> DOCX.
 
-Parser don gian:
+Parser:
 - # / ## / ### -> Heading 1/2/3
 - **text** -> bold
 - *text* -> italic
@@ -8,8 +8,9 @@ Parser don gian:
 - - item -> bullet
 - 1. item -> numbered
 - |col|col| -> table
-- ``` code block -> skip (preserve as monospace)
+- ``` code block -> dedicated callout/code box (Consolas, light gray background, subtle border)
 - paragraph -> normal text
+- LaTeX-style math tokens -> clean Unicode converter
 
 Note: giu nguyen tieng Viet co dau (UTF-8 doc duoc).
 """
@@ -18,7 +19,7 @@ from pathlib import Path
 
 from docx import Document
 from docx.shared import Pt, RGBColor, Cm
-from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
@@ -32,26 +33,99 @@ def set_cell_bg(cell, color_hex):
     tc_pr.append(shd)
 
 
-def set_cell_border(cell):
+def set_cell_border(cell, color_hex='000000', sz='4'):
     tc_pr = cell._tc.get_or_add_tcPr()
     tc_borders = OxmlElement('w:tcBorders')
     for border_name in ['top', 'left', 'bottom', 'right']:
         border = OxmlElement(f'w:{border_name}')
         border.set(qn('w:val'), 'single')
-        border.set(qn('w:sz'), '4')
-        border.set(qn('w:color'), '000000')
+        border.set(qn('w:sz'), sz)
+        border.set(qn('w:color'), color_hex)
         tc_borders.append(border)
     tc_pr.append(tc_borders)
 
+
+def set_cell_margins(cell, top=120, bottom=120, left=180, right=180):
+    tc_pr = cell._tc.get_or_add_tcPr()
+    tc_mar = OxmlElement('w:tcMar')
+    for m, val in [('top', top), ('bottom', bottom), ('left', left), ('right', right)]:
+        node = OxmlElement(f'w:{m}')
+        node.set(qn('w:w'), str(val))
+        node.set(qn('w:type'), 'dxa')
+        tc_mar.append(node)
+    tc_pr.append(tc_mar)
+
+
+def clean_math(text):
+    """Clean LaTeX math expressions and backslashes into clean Unicode/text."""
+    if not text:
+        return text
+
+    # Handle corrupted escaped tokens caused by python string parsing (\t -> tab, \n -> newline, etc.)
+    text = text.replace('\t', ' ').replace('\r', ' ')
+    text = re.sub(r'[\t\r]+', ' ', text)
+    text = text.replace(r'\nightarrow', r'\rightarrow')
+    text = text.replace(r'	ext{', r'\text{')
+    text = text.replace(r'	ext', '')
+    
+    # Fix corrupted Greek letters / biological terms
+    text = text.replace('TNF- pha', 'TNF-α').replace('TNF-pha', 'TNF-α').replace('TNF-lpha', 'TNF-α').replace('TNF-alpha', 'TNF-α')
+    text = text.replace('PPAR-lpha', 'PPAR-α').replace('PPAR-alpha', 'PPAR-α')
+    text = text.replace('ightarrow', '→')
+
+    # Unnest all \text{...} and ext{...}
+    for _ in range(5):
+        text = re.sub(r'\\text\{([^}]*)\}', r'\1', text)
+        text = re.sub(r'ext\{([^}]*)\}', r'\1', text)
+    
+    text = text.replace(r'\text{', '').replace('ext{', '')
+    text = text.replace(r'\text', '')
+
+    # Standard LaTeX math commands
+    text = re.sub(r'\\(ge|geq)\b', '≥', text)
+    text = re.sub(r'\\(le|leq)\b', '≤', text)
+    text = re.sub(r'\\(rightarrow|to)\b', '→', text)
+    text = re.sub(r'\\times\b', '×', text)
+    text = re.sub(r'\\pm\b', '±', text)
+    text = re.sub(r'\\sim\b', '~', text)
+    text = re.sub(r'\\approx\b', '≈', text)
+    text = re.sub(r'\\alpha\b', 'α', text)
+    text = re.sub(r'\\beta\b', 'β', text)
+    text = re.sub(r'\\gamma\b', 'γ', text)
+
+    # Subscripts/superscripts & ions
+    text = text.replace('Fe^2+', 'Fe²⁺').replace('Ca^2+', 'Ca²⁺')
+    text = text.replace('m^2', 'm²')
+    text = re.sub(r'_\{([^}]*)\}', r'_\1', text)
+    text = re.sub(r'\^\{([^}]*)\}', r'^\1', text)
+
+    # Common notations
+    text = text.replace(r'\%', '%')
+    text = text.replace(r'\\', '')
+
+    # Strip dollar signs $...$
+    def unwrap_dollar(m):
+        inner = m.group(1).strip()
+        for _ in range(3):
+            inner = re.sub(r'ext\{([^}]*)\}', r'\1', inner)
+            inner = re.sub(r'\\text\{([^}]*)\}', r'\1', inner)
+        return re.sub(r'\s+', ' ', inner)
+
+    text = re.sub(r'\$([^$]+)\$', unwrap_dollar, text)
+    text = text.replace('$', '')
+    text = text.replace('LDL -C', 'LDL-C').replace('Non -HDL', 'Non-HDL').replace('HDL -C', 'HDL-C')
+    text = re.sub(r' {2,}', ' ', text)
+    return text
 
 def style_header_cell(cell):
     for para in cell.paragraphs:
         for run in para.runs:
             run.font.bold = True
-            run.font.size = Pt(11)
+            run.font.size = Pt(10.5)
             run.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
     set_cell_bg(cell, '2D5F8C')
-    set_cell_border(cell)
+    set_cell_border(cell, '1E4060', '4')
+    set_cell_margins(cell, top=100, bottom=100, left=140, right=140)
 
 
 def style_first_col_cell(cell):
@@ -59,11 +133,14 @@ def style_first_col_cell(cell):
         for run in para.runs:
             run.font.bold = True
     set_cell_bg(cell, 'E8F0F7')
-    set_cell_border(cell)
+    set_cell_border(cell, 'D0D0D0', '4')
+    set_cell_margins(cell, top=80, bottom=80, left=120, right=120)
 
 
 def parse_inline(text):
-    """Parse **bold**, *italic*, `code` trong text. Tra ve list (text, bold, italic, code) tuples."""
+    """Parse **bold**, *italic*, `code` trong text sau khi da clean math."""
+    text = clean_math(text)
+    text = text.replace('<br>', '\n').replace('<br/>', '\n').replace('<br />', '\n')
     parts = []
     pattern = re.compile(r'(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`)')
     pos = 0
@@ -99,9 +176,36 @@ def add_inline_paragraph(doc, text, style=None, bold=False, italic=False):
     return p
 
 
-def add_simple_paragraph(doc, text):
-    """Add paragraph with no inline parsing (e.g., for code blocks)."""
-    return doc.add_paragraph(text)
+def add_code_block(doc, code_lines):
+    """Add dedicated callout/code box for code blocks and ASCII diagrams."""
+    if not code_lines:
+        return
+    table = doc.add_table(rows=1, cols=1)
+    table.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    table.autofit = False
+
+    cell = table.cell(0, 0)
+    set_cell_bg(cell, 'F4F4F4')
+    set_cell_border(cell, color_hex='CCCCCC', sz='4')
+    set_cell_margins(cell, top=120, bottom=120, left=180, right=180)
+
+    max_len = max(len(l) for l in code_lines) if code_lines else 0
+    if max_len > 120:
+        font_size = 7.5
+    elif max_len > 100:
+        font_size = 8.5
+    else:
+        font_size = 9.5
+
+    for idx, line in enumerate(code_lines):
+        p = cell.paragraphs[0] if idx == 0 else cell.add_paragraph()
+        p.paragraph_format.space_before = Pt(0)
+        p.paragraph_format.space_after = Pt(0)
+        p.paragraph_format.line_spacing_rule = WD_LINE_SPACING.SINGLE
+        run = p.add_run(line if line else ' ')
+        run.font.name = 'Consolas'
+        run.font.size = Pt(font_size)
+        run.font.color.rgb = RGBColor(0x22, 0x22, 0x22)
 
 
 def is_table_row(line):
@@ -119,49 +223,58 @@ def is_table_separator(line):
 def parse_table_row(line):
     """Parse a table row into cells."""
     stripped = line.strip()
-    # Remove leading/trailing |
     if stripped.startswith('|'):
         stripped = stripped[1:]
     if stripped.endswith('|'):
         stripped = stripped[:-1]
-    # Split by | (but not escaped \|)
     cells = re.split(r'(?<!\\)\|', stripped)
     return [c.strip() for c in cells]
 
 
 def add_table(doc, lines, start_idx):
     """Add a table starting at lines[start_idx]. Returns the next index after the table."""
-    # First row is header
     if start_idx >= len(lines) or not is_table_row(lines[start_idx]):
         return start_idx
     header = parse_table_row(lines[start_idx])
-    # Check next line is separator
     if start_idx + 1 >= len(lines) or not is_table_separator(lines[start_idx + 1]):
-        # Not a table, just a regular row
-        add_simple_paragraph(doc, lines[start_idx])
+        add_inline_paragraph(doc, lines[start_idx])
         return start_idx + 1
-    # Collect data rows
+
     rows = []
     idx = start_idx + 2
     while idx < len(lines) and is_table_row(lines[idx]):
         rows.append(parse_table_row(lines[idx]))
         idx += 1
-    # Create table
+
     if not header:
         return idx
+
     table = doc.add_table(rows=len(rows) + 1, cols=len(header))
     table.style = 'Light Grid Accent 1'
+
     # Header
     for c, h in enumerate(header):
         cell = table.rows[0].cells[c]
-        cell.text = h
-        style_header_cell(cell)
+        p = cell.paragraphs[0]
+        p.text = ''
+        for txt, b, i, m in parse_inline(h):
+            if not txt:
+                continue
+            run = p.add_run(txt)
+            run.bold = True
+            run.font.size = Pt(10.5)
+            run.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+            if m:
+                run.font.name = 'Consolas'
+        set_cell_bg(cell, '2D5F8C')
+        set_cell_border(cell, '1E4060', '4')
+        set_cell_margins(cell, top=100, bottom=100, left=140, right=140)
+
     # Data rows
     for r, row_data in enumerate(rows, start=1):
         for c, value in enumerate(row_data):
             if c < len(table.rows[r].cells):
                 cell = table.rows[r].cells[c]
-                # Parse inline formatting
                 p = cell.paragraphs[0]
                 p.text = ''
                 for txt, b, i, m in parse_inline(value):
@@ -172,7 +285,10 @@ def add_table(doc, lines, start_idx):
                         run.bold = True
                     if i:
                         run.italic = True
-                set_cell_border(cell)
+                    if m:
+                        run.font.name = 'Consolas'
+                set_cell_border(cell, 'D0D0D0', '4')
+                set_cell_margins(cell, top=80, bottom=80, left=120, right=120)
                 if c == 0:
                     style_first_col_cell(cell)
     return idx
@@ -187,19 +303,24 @@ def md_to_docx(md_path, docx_path, title=None):
     lines = text.split('\n')
 
     doc = Document()
+    for sec in doc.sections:
+        sec.top_margin = Cm(2)
+        sec.bottom_margin = Cm(2)
+        sec.left_margin = Cm(1.8)
+        sec.right_margin = Cm(1.8)
+
     style = doc.styles['Normal']
     style.font.name = 'Arial'
     style.font.size = Pt(11)
 
     # Title
     if title:
-        t = doc.add_heading(title, 0)
+        t = doc.add_heading(clean_math(title), 0)
         t.alignment = WD_ALIGN_PARAGRAPH.CENTER
     else:
-        # Extract from first # heading
         first_heading = next((l for l in lines if l.startswith('# ')), None)
         if first_heading:
-            t = doc.add_heading(first_heading[2:].strip(), 0)
+            t = doc.add_heading(clean_math(first_heading[2:].strip()), 0)
             t.alignment = WD_ALIGN_PARAGRAPH.CENTER
         doc.add_paragraph(f'Bai hoc y khoa - {md_path.stem}')
 
@@ -213,12 +334,7 @@ def md_to_docx(md_path, docx_path, title=None):
         # Code block
         if stripped.startswith('```'):
             if in_code_block:
-                # End of code block
-                if code_buffer:
-                    p = doc.add_paragraph()
-                    run = p.add_run('\n'.join(code_buffer))
-                    run.font.name = 'Consolas'
-                    run.font.size = Pt(9)
+                add_code_block(doc, code_buffer)
                 code_buffer = []
                 in_code_block = False
             else:
@@ -248,19 +364,19 @@ def md_to_docx(md_path, docx_path, title=None):
 
         # Headings
         if line.startswith('# '):
-            doc.add_heading(line[2:].strip(), 0)
+            doc.add_heading(clean_math(line[2:].strip()), 0)
             i += 1
             continue
         if line.startswith('## '):
-            doc.add_heading(line[3:].strip(), 1)
+            doc.add_heading(clean_math(line[3:].strip()), 1)
             i += 1
             continue
         if line.startswith('### '):
-            doc.add_heading(line[4:].strip(), 2)
+            doc.add_heading(clean_math(line[4:].strip()), 2)
             i += 1
             continue
         if line.startswith('#### '):
-            doc.add_heading(line[5:].strip(), 3)
+            doc.add_heading(clean_math(line[5:].strip()), 3)
             i += 1
             continue
 
@@ -315,7 +431,7 @@ def md_to_docx(md_path, docx_path, title=None):
             i += 1
             continue
 
-        # Regular paragraph (with inline formatting)
+        # Regular paragraph
         add_inline_paragraph(doc, line)
         i += 1
 

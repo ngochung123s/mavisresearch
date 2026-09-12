@@ -1,0 +1,766 @@
+{
+  "meta": {
+    "title": "U xơ cơ tử cung & ART",
+    "subtitle": "Bài học y khoa ngày 2026-07-12 — dựng từ MD",
+    "author": "",
+    "specialty": ""
+  },
+  "slides": [
+    {
+      "type": "title",
+      "variant": "split_dark",
+      "title": "U xơ cơ tử cung & ART",
+      "subtitle": "Từ bệnh sinh, giải phẫu bệnh đến điều trị và hỗ trợ sinh sản",
+      "author": "",
+      "specialty": "",
+      "date": "2026-07-14",
+      "note": "Làm gì? Đọc outline để nắm bố cục 7 phần.\nTại sao? Bài dài, cần định hướng trước khi vào chi tiết.\nNếu bỏ qua/làm sai? Dễ nhầm giữa khuyến cáo phụ khoa tổng quát và ART.\nNguồn MD: Trang 1–5, đại cương + outline."
+    },
+    {
+      "type": "outline",
+      "variant": "numbered",
+      "title": "Bản đồ bài học",
+      "chapters": [
+        "0. Đại cương & quan điểm ART",
+        "1. Định nghĩa + dịch tễ + phân loại FIGO",
+        "2. Bệnh sinh + giải phẫu bệnh + red flags",
+        "3. Chẩn đoán & hình ảnh học",
+        "4. Điều trị / xử trí theo FIGO",
+        "5. Theo dõi + tiên lượng + biến chứng + ART",
+        "6. Tổng kết, khuyến cáo & pearls"
+      ],
+      "note": "Làm gì? Đọc outline 7 phần theo bài.\nTại sao? Phân biệt rõ phần ART riêng với phần phụ khoa tổng quát.\nNếu bỏ qua/làm sai? Nhầm chỉ định điều trị.\nNguồn MD: Trang 11–23, mục lục gốc."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "0",
+      "part_title": "Đại cương & quan điểm ART",
+      "part_subtitle": "U xơ không bao giờ là phát hiện vô thưởng vô phạt",
+      "note": "Làm gì? Đặt bối cảnh trước khi học phân loại và điều trị.\nTại sao? Tư duy ART quyết định can thiệp khác phụ khoa tổng quát.\nNếu bỏ qua/làm sai? Dễ quyết định cực đoan theo hình ảnh.\nNguồn MD: Trang 25–44, mục 0."
+    },
+    {
+      "type": "content",
+      "title": "U xơ trong ART: 3 tầng tác động",
+      "points": [
+        "Câu hỏi đúng: không phải 'có u xơ thì có nên mổ?' mà là 'u ở đâu, có làm thay đổi khoang tử cung và môi trường tiếp nhận phôi không, mổ có giúp đạt mục tiêu sinh sản nhanh hơn không?'.",
+        "Tầng cơ học: u dưới niêm mạc / biến dạng khoang làm giảm phôi áp sát và bám vào nội mạc.",
+        "Tầng sinh học: u gần nội mạc có thể thay đổi tín hiệu tiếp nhận, viêm cục bộ, tưới máu, co bóp tử cung và tương tác phôi–nội mạc.",
+        "Tầng quyết định lâm sàng: mổ bóc có thể cải thiện khoang nhưng cũng gây dính, sẹo, trì hoãn IVF, tăng nguy cơ mổ lấy thai."
+      ],
+      "note": "Làm gì? Tách 3 tầng tác động khi bàn ca lâm sàng.\nTại sao? Mỗi tầng quyết định một nhóm can thiệp khác nhau.\nNếu bỏ qua/làm sai? Có thể mổ u không tác động cơ học và bỏ sót tầng sinh học.\nNguồn MD: Trang 27–35, mục 0."
+    },
+    {
+      "type": "content",
+      "title": "Thông điệp thực hành của Mocanu 2026",
+      "points": [
+        "U xơ dưới thanh mạc nhỏ thường ít ảnh hưởng sinh sản.",
+        "U xơ dưới niêm mạc làm giảm cơ hội có thai và tăng biến chứng thai kỳ.",
+        "U xơ trong cơ có thể ảnh hưởng cả khả năng có thai lẫn kết cục thai.",
+        "Phẫu thuật vẫn là chuẩn chính cho FIGO type 0, 1, 2 và 3 ở phụ nữ mong thai.",
+        "Thuyên tắc động mạch tử cung (UAE) không được khuyến cáo khi bệnh nhân đang theo đuổi thai kỳ."
+      ],
+      "note": "Làm gì? Nắm 5 thông điệp cốt lõi của Mocanu 2026.\nTại sao? Đây là nguồn then chốt đã được FULL VERIFIED (PMCID PMC13278667).\nNếu bỏ qua/làm sai? Tư vấn sai về vai trò của UAE và phẫu thuật.\nNguồn MD: Trang 33, đoạn FULL VERIFIED — PMCID PMC13278667."
+    },
+    {
+      "type": "content",
+      "title": "Ba tình huống mở đầu",
+      "points": [
+        "Ca 1 — FIGO type 1 trước IVF: 32 tuổi, vô sinh nguyên phát, SIS phát hiện u dưới niêm mạc type 1 lồi vào khoang. Nên xử trí tổn thương trong khoang trước chuyển phôi.",
+        "Ca 2 — FIGO type 3 sau thất bại chuyển phôi: 35 tuổi, đã 2 lần chuyển phôi tốt thất bại, siêu âm 3D thấy u trong cơ chạm nội mạc chưa lồi khoang. Vùng xám, cần đánh giá kích thước, số lượng, diện tiếp xúc, lạc nội mạc trong cơ đi kèm và chất lượng phôi.",
+        "Ca 3 — Lớn tuổi, giảm dự trữ buồng trứng: 39 tuổi, AMH thấp, u trong cơ không biến dạng khoang. Nếu vội mổ có thể mất cơ hội vì tuổi noãn. Chiến lược: kích thích buồng trứng và trữ phôi trước, rồi xử trí tử cung trước FET nếu cần."
+      ],
+      "note": "Làm gì? Đặt 3 ca mở đầu làm khung tư duy cho cả bài.\nTại sao? Mỗi ca đại diện một quyết định khác nhau trong ART.\nNếu bỏ qua/làm sai? Dễ áp dụng cùng một phác đồ cho cả 3 ca.\nNguồn MD: Trang 37–44, ba tình huống mở đầu."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "1",
+      "part_title": "Định nghĩa + dịch tễ + phân loại FIGO",
+      "part_subtitle": "Không thể ra quyết định ART nếu chỉ ghi 'có u xơ'",
+      "note": "Làm gì? Học định nghĩa, dịch tễ, FIGO type và bộ dữ liệu siêu âm tối thiểu.\nTại sao? Đây là nền cho mọi quyết định điều trị ở các phần sau.\nNếu bỏ qua/làm sai? Sẽ dùng chung phác đồ cho mọi FIGO type.\nNguồn MD: Trang 47–131, mục 1."
+    },
+    {
+      "type": "content",
+      "title": "Định nghĩa và mô tả tối thiểu trong vô sinh",
+      "points": [
+        "U xơ cơ tử cung (u xơ cơ tử cung/u xơ/u xơ) là khối u lành tính của cơ trơn tử cung, phụ thuộc hormone, thường đơn dòng.",
+        "Trong tiếng Việt ưu tiên 'u xơ cơ tử cung' vì khối xuất phát từ cơ tử cung, không chỉ là mô xơ.",
+        "Trong vô sinh cần mô tả tối thiểu 7 thông tin: số lượng, ba kích thước, FIGO type, khoảng cách đến nội mạc, có biến dạng khoang, liên quan lỗ vòi/cổ tử cung, có nghi ngờ lạc nội mạc trong cơ hoặc polyp đi kèm.",
+        "Thiếu các dữ liệu này thì không thể ra quyết định ART an toàn."
+      ],
+      "note": "Làm gì? Bắt buộc mô tả 7 thông tin cho mỗi u trong báo cáo siêu âm ART.\nTại sao? Quyết định can thiệp phụ thuộc đầy đủ thông tin.\nNếu bỏ qua/làm sai? Báo cáo thiếu dẫn đến quyết định sai.\nNguồn MD: Trang 49–53, 1.1 và 1.6."
+    },
+    {
+      "type": "content",
+      "title": "Dịch tễ và con số nền cần nhớ",
+      "points": [
+        "Baird 2003 (n = 1364, siêu âm phụ nữ 35–49 tuổi): 35% đã từng được chẩn đoán u xơ; trong nhóm chưa từng chẩn đoán, 51% vẫn có u xơ trên siêu âm. Tích lũy đến 50 tuổi: >80% ở phụ nữ Black và gần 70% ở White; OR Black/White = 2,9, 95% CI 2,5–3,4. PMID: 12548202.",
+        "Zimmermann 2012 (21.746 phụ nữ, 8 quốc gia): tự báo cáo u xơ 4,5–9,8% tổng mẫu; nhóm 40–49 tuổi 9,4–17,8%. PMID: 22448610; PMCID: PMC3342149.",
+        "Mocanu 2026: u xơ là nguyên nhân đơn độc ở khoảng 2–3% phụ nữ cố gắng có thai; tỷ lệ có u xơ trong quần thể vô sinh khoảng 5–10%. PMID: 42104843.",
+        "Phát hiện 'có u xơ' không đồng nghĩa cần điều trị, nhưng cũng không nên xem là chuyện hiếm."
+      ],
+      "note": "Làm gì? Ghi nhớ 4 con số nền để tư vấn bệnh nhân.\nTại sao? Tránh trích một tỷ lệ duy nhất cho mọi phòng khám.\nNếu bỏ qua/làm sai? Tư vấn sai về tần suất thật của u xơ.\nNguồn MD: Trang 57–82, 1.2 và bảng con số trang 766–773."
+    },
+    {
+      "type": "content",
+      "title": "Yếu tố nguy cơ cần hỏi",
+      "points": [
+        "Tuổi sinh sản/tiền mãn kinh: tỷ lệ tăng theo tuổi, rõ nhất ở thập niên 30–40; trì hoãn sinh con làm u xơ gặp nhiều hơn trong phòng khám vô sinh.",
+        "Chủng tộc: tích lũy đến 50 tuổi >80% ở Black vs ~70% ở White (OR 2,9). Systematic review 2017: nguy cơ ở Black cao hơn 2–3 lần.",
+        "Tiền sử gia đình: yếu tố nguy cơ nhất quán. Hỏi mẹ/chị/em gái từng mổ u xơ, cắt tử cung sớm, nhiều khối hoặc tái phát.",
+        "Dậy thì sớm, nulliparity/ít sinh; béo phì, tăng huyết áp; thiếu vitamin D; thai kỳ và mãn kinh.",
+        "Không dùng ancestry thay cho triệu chứng, FIGO type và mục tiêu sinh sản."
+      ],
+      "note": "Làm gì? Hỏi 5 nhóm yếu tố nguy cơ theo bảng trong bài.\nTại sao? Tăng cảnh giác nhưng không dùng yếu tố nguy cơ thay cho quyết định.\nNếu bỏ qua/làm sai? Bỏ sót tiền sử gia đình hoặc yếu tố chuyển hoá.\nNguồn MD: Trang 70–82, bảng yếu tố nguy cơ."
+    },
+    {
+      "type": "two_column",
+      "title": "FIGO type 0-8: vị trí và ý nghĩa",
+      "left_title": "Type 0-4: liên quan khoang nhiều",
+      "left_points": [
+        "Type 0: dưới niêm mạc có cuống, hoàn toàn trong khoang.",
+        "Type 1: dưới niêm mạc, phần lớn trong khoang.",
+        "Type 2: dưới niêm mạc, phần lớn trong cơ.",
+        "Type 3: trong cơ, chạm nội mạc, không lồi vào khoang.",
+        "Type 4: trong cơ hoàn toàn, không chạm nội mạc."
+      ],
+      "right_title": "Type 5-8: ít ảnh hưởng khoang",
+      "right_points": [
+        "Type 5: dưới thanh mạc, phần lớn trong cơ.",
+        "Type 6: dưới thanh mạc, phần lớn ngoài cơ.",
+        "Type 7: dưới thanh mạc có cuống (nghĩ xoắn nếu đau cấp).",
+        "Type 8: vị trí đặc biệt (cổ tử cung, dây chằng rộng, ký sinh).",
+        "Cần MRI và lập kế hoạch kỹ cho type 8."
+      ],
+      "variant": "vs_compare",
+      "note": "Làm gì? Phân biệt 5 type liên quan khoang (0–4) với 4 type ngoài khoang (5–8).\nTại sao? Quyết định can thiệp ART phụ thuộc hoàn toàn vào type.\nNếu bỏ qua/làm sai? Gộp type 3 với type 4 dẫn đến bỏ sót vùng xám quan trọng.\nNguồn MD: Trang 84–99, bảng FIGO type."
+    },
+    {
+      "type": "table",
+      "title": "Phân nhóm nguy cơ ART theo FIGO",
+      "variant": "comparison_highlight",
+      "headers": [
+        "Nhóm",
+        "Kiểu u xơ",
+        "Ý nghĩa thực hành"
+      ],
+      "rows": [
+        [
+          "Tác động cao",
+          "Type 0, 1, 2; bất kỳ u làm biến dạng khoang",
+          "Nên xử trí trước chuyển phôi nếu không có lý do đặc biệt để trì hoãn"
+        ],
+        [
+          "Tác động có thể cao",
+          "Type 3; type 4 lớn, nhiều khối, gần nội mạc",
+          "Cá thể hoá; đánh giá khoang bằng SIS/3D TVUS/hysteroscopy khi cần"
+        ],
+        [
+          "Tác động thấp",
+          "Type 5-7 nhỏ, không triệu chứng, không cản kỹ thuật",
+          "Thường không mổ chỉ vì chuẩn bị IVF"
+        ],
+        [
+          "Tác động kỹ thuật",
+          "U lớn che buồng trứng, cổ tử cung, dây chằng rộng",
+          "Có thể cần mổ vì khó chọc hút noãn hoặc khó chuyển phôi"
+        ]
+      ],
+      "note": "Làm gì? Phân bệnh nhân vào 4 nhóm nguy cơ ART theo FIGO.\nTại sao? Bảng này tóm tắt toàn bộ tư duy can thiệp.\nNếu bỏ qua/làm sai? Mổ u nhóm 'tác động thấp' vì tưởng an toàn.\nNguồn MD: Trang 109–117, 1.5."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "2",
+      "part_title": "Bệnh sinh + giải phẫu bệnh + red flags",
+      "part_subtitle": "U xơ không chỉ là khối xơ đơn giản",
+      "note": "Làm gì? Học 6 trục bệnh sinh chính và 5 red flags GPB/hình ảnh.\nTại sao? Hiểu sinh học giúp tránh xem u xơ là một khối 'xơ' đơn giản.\nNếu bỏ qua/làm sai? Bỏ sót sarcoma hoặc hội chứng di truyền hiếm.\nNguồn MD: Trang 133–224, mục 2 và 2A."
+    },
+    {
+      "type": "content",
+      "title": "Trục bệnh sinh chính cần nhớ",
+      "points": [
+        "estrogen (hormone buồng trứng) (hormone buồng trứng) (hormone buồng trứng) (hormone buồng trứng) (hormone buồng trứng)-progesterone (hormone hoàng thể) (hormone hoàng thể) (hormone hoàng thể) (hormone hoàng thể) (hormone hoàng thể): estrogen (hormone buồng trứng) (hormone buồng trứng) (hormone buồng trứng) (hormone buồng trứng) (hormone buồng trứng) hỗ trợ tăng trưởng mô u; progesterone (hormone hoàng thể) (hormone hoàng thể) (hormone hoàng thể) (hormone hoàng thể) (hormone hoàng thể) thúc đẩy tăng sinh tế bào và tích lũy ECM.",
+        "Tế bào gốc/tiền thân: một clone tế bào cơ trơn có thể mở rộng thành khối u, giải thích tính nhiều khối và tái phát.",
+        "Extracellular matrix: u xơ chứa nhiều collagen, fibronectin, proteoglycan → khối chắc, trắng, whorled.",
+        "TGF-beta/fibrosis, Wnt/beta-catenin, angiogenesis/hypoxia: giải thích thoái hoá và đau cấp khi thiếu máu cục bộ.",
+        "MED12-mutated subtype và HMGA2-overexpressing subtype: hai phân nhóm phân tử lớn — hiểu rằng cùng tên 'u xơ' nhưng sinh học khác nhau.",
+        "FH-deficient u xơ cơ tử cung/HLRCC: red flag, nghĩ đến hội chứng di truyền khi khởi phát sớm, nhiều u hoặc tiền sử gia đình ung thư thận/da."
+      ],
+      "note": "Làm gì? Nắm 6 trục bệnh sinh chính để hiểu u xơ là hệ sinh học phức tạp.\nTại sao? Không cần xét nghiệm phân tử cho mọi ca, nhưng phải biết red flags.\nNếu bỏ qua/làm sai? Bỏ sót u xơ FH-deficient hoặc HLRCC.\nNguồn MD: Trang 133–155, bảng trục bệnh sinh."
+    },
+    {
+      "type": "content",
+      "title": "Cơ chế u xơ ảnh hưởng ART",
+      "points": [
+        "Pathway sinh sản tổng quát: u gần khoang → thay đổi hình học khoang → giảm apposition phôi → thay đổi tín hiệu tiếp nhận, viêm, tưới máu, co bóp → giảm adhesion/invasion → giảm làm tổ và có thai lâm sàng, tăng sảy thai.",
+        "Cơ học: u type 0–2 chiếm chỗ trong khoang; type 3 chạm nội mạc nhưng không lồi rõ — vùng nội mạc ngay trên u có thể khác vùng bình thường.",
+        "Nội mạc tiếp nhận: u gần nội mạc liên quan thay đổi HOXA10/HOXA11, LIF, cytokine, decidualization và tưới máu.",
+        "Co bóp tử cung: u trong cơ có thể thay đổi lan truyền co bóp, tăng co bóp bất thường quanh thời điểm làm tổ.",
+        "Type 3 khác type 4 vì khoảng cách đến nội mạc quyết định mức ảnh hưởng lên microenvironment (PMID: 37183601)."
+      ],
+      "note": "Làm gì? Nắm pathway sinh sản tổng quát và 4 cơ chế cụ thể.\nTại sao? Giải thích vì sao myomectomy không phải lúc nào cũng tốt.\nNếu bỏ qua/làm sai? Đánh đồng type 3 với type 4.\nNguồn MD: Trang 156–187, mục 2.2–2.6."
+    },
+    {
+      "type": "content",
+      "title": "Giải phẫu bệnh: đại thể và mô học",
+      "points": [
+        "Đại thể điển hình: khối chắc, giới hạn rõ, trắng-ngà, mặt cắt xoáy cuộn (whorled).",
+        "Các biến đổi thường gặp: kính (kính (hyaline)), cystic, myxoid, red/đỏ (đỏ (carneous)) (hay trong thai kỳ), calcific, biến đổi mỡ/lipou xơ cơ tử cung.",
+        "Mô học usual u xơ cơ tử cung: bó cơ trơn đan chéo, bào tương ái toan, nhân cigar-shaped, ranh giới rõ, phân bào thấp, không có coagulative tumor cell necrosis.",
+        "Biến thể cần biết: cellular, dị dạng nhân (atypical), tăng phân bào, lipou xơ cơ tử cung, STUMP, leiomyosarcoma.",
+        "STUMP cần theo dõi chuyên biệt; leiomyosarcoma không được xử trí như u xơ thường — tránh cắt nhỏ u trong ổ bụng (cắt nhỏ u trong ổ bụng (cắt nhỏ u trong ổ bụng (morcellation))) khi nghi ngờ."
+      ],
+      "note": "Làm gì? Phân biệt 6 dạng đại thể và 6 biến thể mô học.\nTại sao? Tránh hoảng loạn khi đọc 'cellular' hoặc 'STUMP'.\nNếu bỏ qua/làm sai? Bỏ sót STUMP hoặc morcellation u nghi ngờ ác tính.\nNguồn MD: Trang 188–218, mục 2A."
+    },
+    {
+      "type": "content",
+      "title": "Red flags không được bỏ sót",
+      "points": [
+        "Không có dấu hiệu hình ảnh đơn độc nào loại trừ hoàn toàn sarcoma.",
+        "Cần thận trọng hơn khi: khối tăng nhanh sau mãn kinh, chảy máu bất thường sau mãn kinh, đau/triệu chứng toàn thân không tương xứng.",
+        "MRI có vùng hoại tử/xuất huyết/khuếch tán hạn chế đáng ngờ, bờ xâm lấn, hoặc tiền sử xạ trị/tamoxifen/hội chứng di truyền.",
+        "Khi nghi ngờ ác tính: KHÔNG dùng cắt nhỏ u trong ổ bụng (cắt nhỏ u trong ổ bụng (cắt nhỏ u trong ổ bụng (morcellation))) không bảo vệ; chuyển tuyến/hội chẩn ung bướu phụ khoa.",
+        "Cân bằng: đa số u xơ là lành tính — không làm bệnh nhân sợ sarcoma chỉ vì có u xơ, nhưng cũng không gọi mọi khối cơ tử cung là 'u xơ lành'."
+      ],
+      "note": "Làm gì? Đánh dấu 5 red flags để không bỏ sót.\nTại sao? Tỷ lệ sarcoma rất thấp nhưng hậu quả rất nặng.\nNếu bỏ qua/làm sai? Morcellation u nghi ngờ ác tính.\nNguồn MD: Trang 218–224, 2A.4."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "3",
+      "part_title": "Chẩn đoán & hình ảnh học",
+      "part_subtitle": "Triệu chứng + so sánh phương pháp + algorithm + chẩn đoán phân biệt",
+      "note": "Làm gì? Học triệu chứng Zimmermann 2012 và algorithm hình ảnh trước ART.\nTại sao? Chẩn đoán đúng quyết định hướng can thiệp.\nNếu bỏ qua/làm sai? Bỏ sót adenomyosis, polyp, sarcoma ngụy trang.\nNguồn MD: Trang 228–326, mục 3."
+    },
+    {
+      "type": "content",
+      "title": "Triệu chứng theo Zimmermann 2012",
+      "points": [
+        "Kinh nhiều 59,8% (có u xơ) vs 37,4% (không u xơ); kinh kéo dài 37,3% vs 15,6%; ra huyết giữa kỳ 33,3% vs 13,5%.",
+        "Đè bàng quang 32,6% vs 15,0%; đau vùng chậu mạn 14,5% vs 2,9%; đau khi giao hợp 23,5% vs 9,1%; đau sau hành kinh 16,7% vs 6,4%.",
+        "Gánh nặng chất lượng sống: 53,7% ảnh hưởng xấu cuộc sống 12 tháng; 42,9% ảnh hưởng đời sống tình dục; 27,7% ảnh hưởng hiệu suất công việc.",
+        "Mức độ triệu chứng không chỉ phụ thuộc kích thước mà còn phụ thuộc vị trí: u nhỏ dưới niêm mạc có thể gây rong kinh nhiều, trong khi u dưới thanh mạc lớn có thể chỉ căng tức.",
+        "Hỏi bệnh không chỉ hỏi 'có rong kinh không?' mà cần hỏi phải nghỉ làm, thiếu máu, tránh quan hệ, né hoạt động xã hội, trì hoãn IVF."
+      ],
+      "note": "Làm gì? Hỏi triệu chứng theo 5 nhóm của bài gốc.\nTại sao? Con số Zimmermann 2012 đã FULL VERIFIED, dùng được để tư vấn.\nNếu bỏ qua/làm sai? Đánh giá thiếu gánh nặng chất lượng sống.\nNguồn MD: Trang 232–271, bảng Zimmermann."
+    },
+    {
+      "type": "table",
+      "title": "So sánh phương pháp chẩn đoán",
+      "variant": "comparison_highlight",
+      "headers": [
+        "Phương pháp",
+        "Vai trò",
+        "Khi nên dùng trong ART"
+      ],
+      "rows": [
+        [
+          "TVUS 2D",
+          "Đầu tay, rẻ, đánh giá buồng trứng",
+          "Tất cả bệnh nhân"
+        ],
+        [
+          "TVUS 3D",
+          "Bản đồ u xơ và khoảng cách đến nội mạc",
+          "Khi nghi tổn thương sát nội mạc"
+        ],
+        [
+          "SIS/HyFoSy",
+          "Đánh giá khoang tử cung",
+          "Trước FET nếu nghi biến dạng khoang"
+        ],
+        [
+          "Hysteroscopy",
+          "Chẩn đoán và điều trị trong khoang",
+          "Khi nghi type 0–2 hoặc cần xử trí"
+        ],
+        [
+          "MRI",
+          "Lập bản đồ phức tạp, nghi adenomyosis/sarcoma",
+          "Trước mổ lớn hoặc ca khó"
+        ],
+        [
+          "HSG",
+          "Đánh giá vòi và bóng khoang gián tiếp",
+          "Không nên là công cụ duy nhất trước IVF"
+        ]
+      ],
+      "note": "Làm gì? Chọn phương pháp theo câu hỏi lâm sàng.\nTại sao? HSG không đủ để phân loại u xơ, SIS rẻ và hiệu quả cho khoang.\nNếu bỏ qua/làm sai? Chỉ dùng HSG hoặc TVUS mơ hồ trong ca thất bại chuyển phôi.\nNguồn MD: Trang 273–283, 3.2."
+    },
+    {
+      "type": "content",
+      "title": "Algorithm hình ảnh trước ART",
+      "points": [
+        "Bước 1: TVUS 2D — ghi số lượng + kích thước + FIGO type nghi ngờ.",
+        "Bước 2: Khoang rõ và không biến dạng + type 5-7 nhỏ → tiếp tục ART.",
+        "Bước 3: Khoang không rõ hoặc nghi type 0-3 → SIS/3D TVUS.",
+        "Bước 4: Có tổn thương trong khoang → hysteroscopy chẩn đoán/điều trị.",
+        "Bước 5: Đa u/lớn/nghi lạc nội mạc trong cơ/nghi sarcoma/cần mổ lớn → MRI trước mổ.",
+        "Mẫu báo cáo siêu âm cho ART phải có 8 mục: tử cung, nội mạc, u xơ (số + kích thước + type + khoảng cách nội mạc + biến dạng khoang), buồng trứng, dấu hiệu kèm theo, kết luận ART."
+      ],
+      "note": "Làm gì? Áp dụng algorithm 5 bước trước ART.\nTại sao? Tránh bỏ sót tổn thương khoang hoặc nghi ngờ sarcoma.\nNếu bỏ qua/làm sai? Bỏ qua MRI khi đa u hoặc nghi ác tính.\nNguồn MD: Trang 285–325, 3.3 và 3.5."
+    },
+    {
+      "type": "content",
+      "title": "Chẩn đoán phân biệt quan trọng",
+      "points": [
+        "lạc nội mạc trong cơ: tử cung to, đau, AUB, cơ dày lan tỏa, junctional zone bất thường trên MRI.",
+        "Polyp nội mạc: tổn thương mềm trong khoang, thấy rõ trên SIS/hysteroscopy.",
+        "Vách tử cung: hình dạng đáy tử cung và khoang khác, cần 3D TVUS/MRI.",
+        "Tăng sản/ung thư nội mạc: tuổi, yếu tố nguy cơ, sinh thiết nội mạc.",
+        "Sarcoma tử cung: tăng nhanh, hoại tử, tín hiệu MRI nghi ngờ; KHÔNG cắt nhỏ u trong ổ bụng (cắt nhỏ u trong ổ bụng (cắt nhỏ u trong ổ bụng (morcellation))) nếu nghi.",
+        "Khối buồng trứng/adnexal mass: xác định buồng trứng riêng biệt, Doppler, MRI khi không rõ nguồn gốc.",
+        "Co cơ tử cung khu trú: biến mất khi siêu âm lại sau vài phút hoặc lần khám khác."
+      ],
+      "note": "Làm gì? Nghĩ 7 chẩn đoán phân biệt khi gặp tử cung to hoặc khối bất thường.\nTại sao? Adenomyosis và sarcoma đặc biệt quan trọng trong ART.\nNếu bỏ qua/làm sai? Chỉ chẩn đoán u xơ và bỏ sót adenomyosis/sarcoma.\nNguồn MD: Trang 298–311, 3.4."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "4",
+      "part_title": "Điều trị / xử trí theo FIGO",
+      "part_subtitle": "Nguyên tắc chung + thuốc + can thiệp ít xâm lấn + phẫu thuật",
+      "note": "Làm gì? Học nguyên tắc chung, bảng quyết định theo FIGO, myomectomy, UAE/HIFU/RFA, embryo banking.\nTại sao? Phần dài nhất và quan trọng nhất của bài.\nNếu bỏ qua/làm sai? Mổ không đúng chỉ định hoặc trì hoãn ART không cần thiết.\nNguồn MD: Trang 329–593, mục 4."
+    },
+    {
+      "type": "content",
+      "title": "6 nguyên tắc chung của điều trị",
+      "points": [
+        "Điều trị bệnh nhân, không điều trị hình ảnh: u nhỏ trong khoang có thể quan trọng hơn u lớn dưới thanh mạc.",
+        "Mục tiêu điều trị phải rõ: giảm chảy máu, sửa thiếu máu, giảm đau/chèn ép, bảo tồn tử cung, tối ưu sinh sản, hay điều trị dứt điểm.",
+        "Khoang tử cung là trung tâm của quyết định chuyển phôi: bất kỳ tổn thương nào làm biến dạng khoang cần được xem xét nghiêm túc.",
+        "Không trì hoãn tạo phôi nếu tuổi/noãn là vấn đề chính: có thể cân nhắc trữ phôi trước trước rồi xử trí tử cung trước FET.",
+        "Không quy mọi thất bại ART cho u xơ: cần kiểm tra phôi, nội mạc, lạc nội mạc trong cơ, polyp, viêm nội mạc mạn, ứ dịch vòi trứng và yếu tố nam.",
+        "bóc u không phải thủ thuật vô hại: cần tư vấn về dính, sẹo, chờ lành, nguy cơ mổ lấy thai và tái phát."
+      ],
+      "note": "Làm gì? Áp dụng 6 nguyên tắc cho mọi ca.\nTại sao? Tránh cực đoan 'mổ hết' hoặc 'theo dõi hết'.\nNếu bỏ qua/làm sai? Mổ u không đáng hoặc bỏ sót tổn thương khoang.\nNguồn MD: Trang 331–340, 4.1."
+    },
+    {
+      "type": "table",
+      "title": "Bảng quyết định theo FIGO trong ART",
+      "variant": "comparison_highlight",
+      "headers": [
+        "FIGO type",
+        "Tác động ART",
+        "Hướng xử trí đề xuất",
+        "Mức chắc chắn"
+      ],
+      "rows": [
+        [
+          "0",
+          "Cao",
+          "Hysteroscopic myomectomy trước chuyển phôi",
+          "Cao"
+        ],
+        [
+          "1",
+          "Cao",
+          "Hysteroscopic myomectomy; cân nhắc độ khó",
+          "Cao"
+        ],
+        [
+          "2",
+          "Cao",
+          "Hysteroscopic/staged myomectomy nếu lớn hoặc ăn sâu",
+          "Trung bình–cao"
+        ],
+        [
+          "3",
+          "Có thể cao",
+          "Cá thể hoá theo kích thước, tiếp xúc nội mạc, RIF, tuổi, số phôi",
+          "Trung bình"
+        ],
+        [
+          "4 nhỏ, đơn độc",
+          "Thường thấp",
+          "Thường tiếp tục ART, theo dõi",
+          "Thấp–trung bình"
+        ],
+        [
+          "4 lớn/nhiều",
+          "Có thể ảnh hưởng",
+          "Cân nhắc myomectomy nếu triệu chứng hoặc khó chọc hút noãn",
+          "Trung bình"
+        ],
+        [
+          "5-6",
+          "Thường thấp",
+          "Không mổ chỉ để cải thiện ART nếu không triệu chứng",
+          "Thấp"
+        ],
+        [
+          "7",
+          "Thấp",
+          "Mổ nếu xoắn, đau, lớn, kỹ thuật khó",
+          "Thấp"
+        ],
+        [
+          "8",
+          "Tùy vị trí",
+          "Cá thể hoá, thường cần MRI/lập kế hoạch",
+          "Biến thiên"
+        ]
+      ],
+      "note": "Làm gì? Áp dụng bảng 9 hàng để chọn hướng xử trí.\nTại sao? Đây là bảng tóm tắt toàn bộ can thiệp theo FIGO trong ART.\nNếu bỏ qua/làm sai? Mổ type 5-7 nhỏ không triệu chứng.\nNguồn MD: Trang 379–392, 4.3."
+    },
+    {
+      "type": "content",
+      "title": "bóc u qua nội soi buồng tử cung — chuẩn cho type 0-2",
+      "points": [
+        "Lựa chọn chính cho u xơ type 0-2 vì mục tiêu là phục hồi khoang tử cung, giảm viêm/chảy máu cục bộ và tạo bề mặt nội mạc thuận lợi cho làm tổ.",
+        "Type 0 và type 1 nhỏ: thường xử trí một thì. Type 2 lớn, ăn sâu, thành tử cung mỏng hoặc nguy cơ dịch hấp thu cao → cân nhắc cắt nhiều thì.",
+        "Sau cắt u dưới niêm mạc: cần đánh giá lại khoang nếu thủ thuật khó, chảy máu nhiều, nghi còn u hoặc chuẩn bị chuyển phôi quý.",
+        "Không nên chuyển phôi ngay khi khoang chưa được xác nhận ổn định trong ca phức tạp.",
+        "Cần phẫu thuật viên nội soi buồng tử cung có kinh nghiệm; tránh đốt lan và bảo vệ lớp nội mạc đáy."
+      ],
+      "note": "Làm gì? Chọn hysteroscopic cho type 0-2 có biến dạng khoang.\nTại sao? Đường mổ có logic rõ nhất khi u làm biến dạng khoang.\nNếu bỏ qua/làm sai? Cắt quá sâu hoặc chuyển phôi ngay khi khoang chưa ổn định.\nNguồn MD: Trang 393–397, 4.4 và 4.10A."
+    },
+    {
+      "type": "content",
+      "title": "Type 3 — vùng xám cần tôn trọng",
+      "points": [
+        "FIGO type 3 chạm nội mạc, không lồi rõ vào khoang — vẫn ảnh hưởng microenvironment nội mạc.",
+        "Meta-analysis 2023 gồm 1020 bệnh nhân: nhóm không có u có sinh con sống, có thai lâm sàng và làm tổ tốt hơn nhóm type 3 chưa điều trị, OR lần lượt 2,16; 2,06; 1,77. PMID: 37183601.",
+        "Quyết định can thiệp dựa trên: kích thước, diện tiếp xúc nội mạc, số lượng u, thất bại chuyển phôi trước đó, chất lượng phôi, tuổi, AMH, triệu chứng và nguy cơ phẫu thuật.",
+        "Không có ngưỡng cứng áp dụng cho mọi bệnh nhân.",
+        "Có thể cân nhắc bóc u khi u >5 cm, nhiều u, diện tiếp xúc nội mạc lớn hoặc RIF với phôi tốt."
+      ],
+      "note": "Làm gì? Tách riêng type 3 khỏi type 4 trong tư duy ART.\nTại sao? Meta-analysis đã chứng minh type 3 làm giảm IVF outcome.\nNếu bỏ qua/làm sai? Gộp type 3 với type 4 và bỏ sót vùng xám.\nNguồn MD: Trang 405–410, 4.6."
+    },
+    {
+      "type": "content",
+      "title": "trong cơ không biến dạng khoang: đừng cực đoan",
+      "points": [
+        "U xơ trong cơ không biến dạng khoang là nhóm gây tranh luận lâu dài.",
+        "Meta-analysis 2024: u <3 cm giảm có thai lâm sàng OR 0,53 và thai kỳ diễn tiến (ongoing pregnancy)/sinh con sống OR 0,59; u 3–6 cm giảm có thai lâm sàng OR 0,43 và thai kỳ diễn tiến (ongoing pregnancy)/sinh con sống OR 0,38; nhiều u giảm có thai lâm sàng OR 0,62 và thai kỳ diễn tiến (ongoing pregnancy)/sinh con sống OR 0,57. PMID: 38935974.",
+        "Tuy nhiên lợi ích bóc u không nhất quán và câu hỏi lâm sàng vẫn là: 'mổ có cải thiện kết cục đủ để bù nguy cơ và thời gian không?'.",
+        "Nguyên tắc: u type 4 nhỏ, đơn độc, không triệu chứng, không chạm khoang, bệnh nhân cần IVF sớm → thường không nên mổ tự động.",
+        "Ngược lại: nhiều u, khối lớn, tử cung biến dạng, triệu chứng rõ hoặc khó chọc hút noãn → có thể can thiệp."
+      ],
+      "note": "Làm gì? Cân bằng giữa mổ và theo dõi cho type 4.\nTại sao? Meta-analysis có ý nghĩa thống kê nhưng không tự động chỉ định mổ.\nNếu bỏ qua/làm sai? Mổ tự động type 4 nhỏ ở bệnh nhân lớn tuổi/DOR.\nNguồn MD: Trang 411–416, 4.7."
+    },
+    {
+      "type": "table",
+      "title": "Thuốc trước mổ và kiểm soát triệu chứng",
+      "variant": "comparison_highlight",
+      "headers": [
+        "Nhóm điều trị",
+        "Hiệu quả mong đợi",
+        "Cạm bẫy"
+      ],
+      "rows": [
+        [
+          "Sắt uống/truyền",
+          "Tăng Hb/ferritin, giảm nguy cơ truyền máu",
+          "Nếu chỉ bù sắt mà không xử trí nguồn AUB, thiếu máu tái diễn"
+        ],
+        [
+          "Tranexamic acid/NSAID",
+          "Giảm máu kinh hoặc đau",
+          "Không làm nhỏ u, không sửa khoang"
+        ],
+        [
+          "GnRH agonist/antagonist",
+          "Giảm chảy máu, cải thiện thiếu máu, làm nhỏ u tạm thời",
+          "Hiệu quả hồi lại, không thay thế sửa type 0-2"
+        ],
+        [
+          "Linzagolix (GnRH antagonist uống)",
+          "Kiểm soát chảy máu kinh nhiều (PMID: 40543832)",
+          "Giảm triệu chứng không tự động đồng nghĩa cải thiện live birth"
+        ],
+        [
+          "SPRM (ulipristal)",
+          "Giảm đáng kể kích thước trong một số dữ liệu",
+          "Nguy cơ suy gan cấp — hiện hiếm dùng"
+        ]
+      ],
+      "note": "Làm gì? Dùng thuốc như cầu nối, không phải điều trị sinh sản trực tiếp.\nTại sao? Thuốc giảm triệu chứng nhưng không sửa khoang.\nNếu bỏ qua/làm sai? Hứa bệnh nhân 'thuốc làm nhỏ u sẽ tăng cơ hội có thai'.\nNguồn MD: Trang 417–473, 4.8 và 4.8A."
+    },
+    {
+      "type": "table",
+      "title": "Can thiệp ít xâm lấn trong ART",
+      "variant": "comparison_highlight",
+      "headers": [
+        "Phương pháp",
+        "Kết quả được báo cáo",
+        "Diễn giải trong ART"
+      ],
+      "rows": [
+        [
+          "UAE",
+          "Live birth 11,9%, miscarriage 27,4% (PMID: 42104843)",
+          "Không khuyến cáo thường quy khi còn mong thai"
+        ],
+        [
+          "HIFU/MRgFUS",
+          "Tỷ lệ thai 7–36%, không ảnh hưởng rõ dự trữ buồng trứng",
+          "Không thay thế myomectomy cho u biến dạng khoang rõ"
+        ],
+        [
+          "RFA/TRFA (transvaginal)",
+          "Giảm thể tích 49,4% (6 tháng), 69,8% (12 tháng); miscarriage 15,9%; chờ 6 tháng trước thai",
+          "Dữ liệu mới nổi, cần trung tâm kinh nghiệm"
+        ]
+      ],
+      "note": "Làm gì? Tách UAE/HIFU/RFA khỏi myomectomy thường quy trong ART.\nTại sao? Dữ liệu sinh sản còn khiêm tốn và UAE có live birth thấp.\nNếu bỏ qua/làm sai? Dùng UAE làm 'đường tắt' trước ART.\nNguồn MD: Trang 475–512, 4.9 và 4.9A."
+    },
+    {
+      "type": "content",
+      "title": "Phẫu thuật theo FIGO — đường mổ và kỳ vọng",
+      "points": [
+        "Type 0-1 <3 cm: bóc u qua nội soi buồng tử cung ngoại trú dưới tê tại chỗ ở trung tâm kinh nghiệm. Lớn hơn cần chất đồng vận GnRH và cắt điện dưới gây mê.",
+        "Type 2: u lớn thường cần chất đồng vận GnRH, có thể nhiều thì; nếu >3 cm hoặc nhiều type 2, cân nhắc đường bụng/nội soi ổ bụng.",
+        "Type 3/hybrid 2-5: cân nhắc bóc u khi u >5 cm, nhiều u, diện tiếp xúc nội mạc lớn hoặc RIF với phôi tốt.",
+        "Type 4 không biến dạng khoang: không vô hại tuyệt đối, nhưng cũng không mổ tự động; ở bệnh nhân lớn tuổi/DOR, cân nhắc trữ phôi trước trước.",
+        "U lớn cản access buồng trứng: bóc u có thể là chỉ định kỹ thuật bắt buộc, không chỉ vì làm tổ.",
+        "Không cố đào sâu lấy sạch bằng mọi giá — dừng đúng lúc có thể tốt hơn thủng tử cung/dính buồng tử cung."
+      ],
+      "note": "Làm gì? Chọn đường mổ theo FIGO type và chỉ định cụ thể.\nTại sao? Phẫu thuật không đồng nhất, mỗi đường có chỉ định riêng.\nNếu bỏ qua/làm sai? Chọn hysteroscopy cho type 4 hoặc ngược lại.\nNguồn MD: Trang 513–559, 4.10 và 4.10A."
+    },
+    {
+      "type": "content",
+      "title": "trữ phôi trước — khi nào tạo phôi trước mổ",
+      "points": [
+        "trữ phôi trước = kích thích buồng trứng, chọc hút noãn, thụ tinh và trữ phôi trước khi xử trí tử cung.",
+        "Lý do: noãn và tử cung không lão hoá giống nhau — sẹo tử cung có thể chờ vài tháng, nhưng số lượng và chất lượng noãn ở bệnh nhân lớn tuổi/DOR giảm theo thời gian.",
+        "Type 0-2 rõ, khoang méo, bệnh nhân trẻ/dự trữ tốt → sửa khoang trước FET.",
+        "Tuổi cao hoặc DOR, u chưa cản chọc hút noãn → tạo phôi/trữ phôi trước, rồi xử trí tử cung nếu cần trước FET.",
+        "Sau bóc u sâu → chờ theo độ sâu, cách khâu và có mở khoang hay không (khoảng 3 tháng với sẹo xuyên thành).",
+        "Với phôi quý, câu hỏi trước FET là: khoang đã rõ chưa, sẹo đã lành chưa, nội mạc có đủ điều kiện chưa, còn yếu tố khác như ứ dịch vòi trứng, lạc nội mạc trong cơ hoặc viêm nội mạc mạn không."
+      ],
+      "note": "Làm gì? Cân nhắc embryo banking cho bệnh nhân lớn tuổi/DOR.\nTại sao? Tuổi noãn mất theo thời gian là cái giá lớn hơn lợi ích lý thuyết của việc bóc u.\nNếu bỏ qua/làm sai? Trì hoãn tạo phôi ở bệnh nhân lớn tuổi chỉ vì u xơ type 4 nhỏ.\nNguồn MD: Trang 561–583, 4.11 và 4.11A."
+    },
+    {
+      "type": "content",
+      "title": "9 điều không nên làm",
+      "points": [
+        "Không mổ mọi u xơ trước IVF.",
+        "Không bỏ qua u xơ type 0-2 chỉ vì 'nhỏ'.",
+        "Không xem thuốc làm nhỏ u là bằng chứng khoang đã bình thường trước FET.",
+        "Không chuyển phôi lặp lại khi khoang tử cung chưa được đánh giá đầy đủ trong ca nghi ngờ.",
+        "Không dùng HSG đơn độc để kết luận không có tổn thương khoang.",
+        "Không khuyến cáo UAE thường quy khi bệnh nhân còn mong thai.",
+        "Không quảng bá HIFU/RFA như lựa chọn tương đương bóc u cho mọi ca ART.",
+        "Không trì hoãn tạo phôi ở bệnh nhân lớn tuổi/AMH thấp chỉ vì một u xơ type 4 nhỏ không biến dạng khoang.",
+        "Không quên lạc nội mạc trong cơ: u xơ và lạc nội mạc trong cơ đi kèm có thể làm giảm kết cục ART nhưng hướng xử trí khác nhau."
+      ],
+      "note": "Làm gì? Đánh dấu 9 điều không nên làm.\nTại sao? Đây là danh sách chốt lại toàn bộ tư duy can thiệp.\nNếu bỏ qua/làm sai? Mắc một trong 9 lỗi này.\nNguồn MD: Trang 583–593, 4.12."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "5",
+      "part_title": "Theo dõi + tiên lượng + biến chứng + ART",
+      "part_subtitle": "Sau mổ + tiên lượng ART theo FIGO + biến chứng + nguy cơ sản khoa",
+      "note": "Làm gì? Học theo dõi sau mổ, tiên lượng ART theo nhóm, biến chứng và nguy cơ sản khoa.\nTại sao? Cần biết sau can thiệp thì theo dõi và tư vấn thai kỳ thế nào.\nNếu bỏ qua/làm sai? Bỏ sót dính buồng tử cung hoặc tư vấn thiếu về nguy cơ thai.\nNguồn MD: Trang 597–634, mục 5."
+    },
+    {
+      "type": "content",
+      "title": "Theo dõi sau bóc u",
+      "points": [
+        "Sau bóc u qua nội soi buồng tử cung: 3 câu hỏi chính — khoang đã phục hồi chưa, còn u dưới niêm mạc không, có dính buồng tử cung không. Ca phức tạp cân nhắc SIS hoặc hysteroscopy kiểm tra.",
+        "Sau nội soi ổ bụng/bóc u qua mổ bụng mở: đánh giá lành sẹo cơ tử cung, triệu chứng, thiếu máu, tái phát và kế hoạch thai kỳ.",
+        "Nếu khoang tử cung bị mở trong mổ: cần tư vấn nguy cơ thai kỳ và thường lên kế hoạch sinh mổ. PMID: 42104843.",
+        "Thời gian chờ sau bóc u: trung bình 18 tháng đến khi mang thai; nguy cơ vỡ tử cung ~0,4%; thời gian ngắn nhất 4,6 tháng trong dữ liệu.",
+        "Với bóc u xuyên toàn bộ bề dày thành: cân nhắc chờ ~3 tháng để sẹo lành, nhưng cá thể hoá theo độ sâu, số lớp khâu, có mở khoang và đánh giá phẫu thuật viên."
+      ],
+      "note": "Làm gì? Theo dõi 3 câu hỏi sau hysteroscopic và lành sẹo sau abdominal.\nTại sao? Tránh chuyển phôi khi khoang chưa ổn định hoặc sẹo chưa lành.\nNếu bỏ qua/làm sai? Bỏ sót dính buồng tử cung hoặc tư vấn thiếu về sinh mổ.\nNguồn MD: Trang 599–607, 5.1 và 5.2."
+    },
+    {
+      "type": "table",
+      "title": "Tiên lượng ART theo nhóm",
+      "variant": "comparison_highlight",
+      "headers": [
+        "Nhóm",
+        "Tiên lượng sau xử trí",
+        "Lưu ý"
+      ],
+      "rows": [
+        [
+          "Type 0-1",
+          "Thường cải thiện nếu khoang phục hồi",
+          "Kiểm tra dính nếu ca khó"
+        ],
+        [
+          "Type 2",
+          "Cải thiện nhưng nguy cơ còn sót/dính cao hơn",
+          "Có thể cần nhiều thì"
+        ],
+        [
+          "Type 3",
+          "Cá thể hoá",
+          "Cần xem diện tiếp xúc nội mạc và tiền sử ART"
+        ],
+        [
+          "Type 4 nhỏ",
+          "Thường tiếp tục ART",
+          "Theo dõi nếu tăng kích thước hoặc thất bại lặp lại"
+        ],
+        [
+          "Type 4 lớn/nhiều",
+          "Có thể cân nhắc mổ",
+          "Cân bằng với tuổi/noãn"
+        ],
+        [
+          "Type 5-7",
+          "Ít ảnh hưởng implantation",
+          "Mổ vì triệu chứng hoặc kỹ thuật"
+        ]
+      ],
+      "note": "Làm gì? Tư vấn bệnh nhân theo nhóm FIGO sau xử trí.\nTại sao? Tiên lượng giúp đặt kỳ vọng thực tế.\nNếu bỏ qua/làm sai? Hứa quá cao cho type 3 hoặc type 4 lớn/nhiều.\nNguồn MD: Trang 609–618, 5.3."
+    },
+    {
+      "type": "content",
+      "title": "Biến chứng và nguy cơ sản khoa",
+      "points": [
+        "Biến chứng: dính buồng tử cung (sau cắt u dưới niêm mạc sâu), dính vùng chậu (sau mổ ổ bụng), chảy máu/truyền máu, sẹo cơ tử cung, vỡ tử cung (hiếm ~0,4%), tái phát.",
+        "Cách giảm nguy cơ: kỹ thuật nhẹ nhàng, phẫu thuật viên kinh nghiệm, tối ưu Hb trước mổ, khâu phục hồi tốt, tư vấn thai kỳ.",
+        "nguy cơ sản khoa: sảy thai, sinh non, ngôi bất thường, nhau bất thường, mổ lấy thai, băng huyết sau sinh tuỳ vị trí/kích thước.",
+        "Không nói mọi u xơ đều làm thai kỳ xấu — newer data challenge nhiều dogma cũ. PMID: 39326048.",
+        "Nếu khoang tử cung bị mở trong bóc u: cần tư vấn kế hoạch sinh mổ. PMID: 42104843."
+      ],
+      "note": "Làm gì? Tư vấn biến chứng và obstetric risks theo ca cụ thể.\nTại sao? Bệnh nhân cần hiểu trước khi đồng ý can thiệp.\nNếu bỏ qua/làm sai? Tư vấn thiếu dẫn đến kỳ vọng sai.\nNguồn MD: Trang 619–634, 5.4 và 5.5."
+    },
+    {
+      "type": "section",
+      "variant": "number_block",
+      "part_number": "6",
+      "part_title": "Tổng kết, khuyến cáo & pearls",
+      "part_subtitle": "Algorithm + 14 khuyến cáo + 14 điểm cốt lõi thực hành + bảng số liệu",
+      "note": "Làm gì? Tổng hợp algorithm, khuyến cáo cốt lõi và clinical pearls.\nTại sao? Đây là phần cần nhớ nhanh nhất trước khi đóng bài.\nNếu bỏ qua/làm sai? Quên guideline/consensus quan trọng.\nNguồn MD: Trang 636–773, mục 6–8."
+    },
+    {
+      "type": "content",
+      "title": "Algorithm tổng hợp",
+      "points": [
+        "Phát hiện u xơ trong workup vô sinh/ART.",
+        "Mô tả đầy đủ: số lượng + kích thước + FIGO type + liên quan khoang.",
+        "Có biến dạng khoang hoặc FIGO type 0-2? → Ưu tiên bóc u qua nội soi buồng tử cung trước chuyển phôi. Không → phân tầng tiếp.",
+        "FIGO type 3? → Cá thể hoá theo kích thước, tiếp xúc nội mạc, thất bại chuyển phôi, tuổi, số phôi.",
+        "Type 4 lớn/nhiều/triệu chứng/khó chọc hút noãn? → Cân nhắc bóc u; nếu lớn tuổi/DOR, cân nhắc tạo phôi trước.",
+        "Type 5-7 nhỏ, không triệu chứng? → Thường không can thiệp chỉ để tăng ART."
+      ],
+      "note": "Làm gì? Theo algorithm 5 bước cho mọi ca.\nTại sao? Đây là tóm tắt quyết định theo FIGO.\nNếu bỏ qua/làm sai? Mổ type 5-7 nhỏ hoặc bỏ sót type 0-2.\nNguồn MD: Trang 639–660, 6.1."
+    },
+    {
+      "type": "content",
+      "title": "14 khuyến cáo cốt lõi",
+      "points": [
+        "Không điều trị u xơ chỉ vì thấy trên siêu âm — điều trị khi có triệu chứng, thiếu máu, chèn ép, biến dạng khoang hoặc mục tiêu sinh sản bị ảnh hưởng.",
+        "Luôn phân loại FIGO trước khi bàn mổ.",
+        "Type 0-2 nên xử trí trước chuyển phôi nếu bệnh nhân có kế hoạch mang thai.",
+        "Type 3 cần được xem là nhóm riêng, không gộp đơn giản với type 4.",
+        "dưới thanh mạc nhỏ thường không phải lý do mổ trước IVF.",
+        "Không mổ type 4 nhỏ, không triệu chứng, không biến dạng khoang một cách tự động.",
+        "Ở bệnh nhân lớn tuổi hoặc DOR, cân nhắc tạo phôi/trữ phôi trước khi mổ nếu u chưa cản trở chuyển phôi.",
+        "Đánh giá khoang bằng SIS/3D TVUS/hysteroscopy khi kết quả sẽ thay đổi quyết định chuyển phôi.",
+        "UAE không phải lựa chọn thường quy cho bệnh nhân đang tích cực mong thai (sinh con sống 11,9%, miscarriage 27,4%).",
+        "HIFU/MRgFUS: dữ liệu thai 7–36%, không thay thế bóc u cho u biến dạng khoang rõ.",
+        "RFA/TRFA: dữ liệu mới nổi, nên chờ 6 tháng trước khi có thai.",
+        "chất đồng vận GnRH/antagonist là cầu nối, không thay thế xử trí khoang tử cung khi có type 0-2.",
+        "Nếu khoang tử cung bị mở trong bóc u, cần tư vấn kế hoạch sinh mổ; sau bóc u xuyên thành có thể chờ ~3 tháng.",
+        "Trước khi quy thất bại ART cho u xơ, phải loại trừ phôi bất thường, lạc nội mạc trong cơ, polyp, viêm nội mạc mạn, ứ dịch vòi trứng và yếu tố nam."
+      ],
+      "note": "Làm gì? Đọc 14 khuyến cáo cốt lõi trước khi đóng bài.\nTại sao? Đây là điểm chốt của toàn bộ bài.\nNếu bỏ qua/làm sai? Quên guideline quan trọng.\nNguồn MD: Trang 663–676, 6.2."
+    },
+    {
+      "type": "content",
+      "title": "14 điểm cốt lõi thực hành",
+      "points": [
+        "Không điều trị siêu âm, điều trị bệnh nhân.",
+        "Rong kinh + thiếu máu là chỉ định điều trị thật sự.",
+        "Đại thể whorled + mô học bland smooth muscle là u xơ điển hình; hoại tử tế bào u, atypia nặng, phân bào cao là red flag GPB.",
+        "Đau cấp trong thai kỳ nghĩ thoái hoá đỏ; đau cấp ở u có cuống nghĩ xoắn.",
+        "MRI không phải xét nghiệm thường quy, nhưng rất đáng giá khi đa u, u lớn, nghi lạc nội mạc trong cơ hoặc nghi ác tính.",
+        "Type 3 cần được tách khỏi type 4 trong tư duy ART.",
+        "SIS rẻ hơn một lần chuyển phôi thất bại — nếu nghi tổn thương khoang, đánh giá khoang trước FET.",
+        "Đừng mổ vì kích thước đơn độc; hãy mổ vì khoang, triệu chứng, số lượng, tuổi, dự trữ và kế hoạch ART.",
+        "Đừng bỏ qua type 0-2 chỉ vì u nhỏ.",
+        "Ở bệnh nhân lớn tuổi, noãn là tài sản mất theo thời gian — cân nhắc trữ phôi trước trước phẫu thuật nếu hợp lý.",
+        "U xơ dưới thanh mạc nhìn lớn nhưng thường không đáng lo bằng u xơ nhỏ nằm trong khoang.",
+        "Nếu đã có phôi quý, đừng chuyển khi khoang tử cung chưa rõ.",
+        "lạc nội mạc trong cơ là 'kẻ đồng phạm' hay bị bỏ sót.",
+        "Thuốc làm nhỏ u không đồng nghĩa sửa được khoang."
+      ],
+      "note": "Làm gì? Đọc 14 pearls như checklist hành động hàng ngày.\nTại sao? Đây là phần cô đọng nhất cho lâm sàng.\nNếu bỏ qua/làm sai? Quên chi tiết thực hành quan trọng.\nNguồn MD: Trang 712–733, mục 7."
+    },
+    {
+      "type": "table",
+      "title": "Bảng con số nghiên cứu cần nhớ",
+      "variant": "comparison_highlight",
+      "headers": [
+        "Chủ đề",
+        "Con số cụ thể",
+        "Ý nghĩa"
+      ],
+      "rows": [
+        [
+          "Dịch tễ siêu âm chủ động",
+          "Baird 2003: 35% đã chẩn đoán; 51% còn lại có u; >80% Black vs ~70% White ở 50 tuổi",
+          "U xơ thường bị phát hiện tình cờ"
+        ],
+        [
+          "Tỷ lệ trong vô sinh",
+          "Mocanu 2026: u xơ đơn độc 2-3% cố gắng có thai; 5-10% trong vô sinh",
+          "Đừng quy hết vô sinh cho u xơ"
+        ],
+        [
+          "Triệu chứng chảy máu",
+          "Zimmermann 2012: kinh nhiều 59,8% vs 37,4%; kéo dài 37,3% vs 15,6%",
+          "AUB-L là biểu hiện có số liệu mạnh"
+        ],
+        [
+          "Ảnh hưởng chất lượng sống",
+          "Zimmermann 2012: 53,7% ảnh hưởng cuộc sống; 42,9% tình dục; 27,7% công việc",
+          "Chỉ định điều trị dựa cả gánh nặng đời sống"
+        ],
+        [
+          "Intramural và IVF",
+          "<3 cm: CP OR 0,53; OP/LB OR 0,59. 3-6 cm: CP OR 0,43; OP/LB OR 0,38",
+          "Intramural không vô hại nhưng mổ có lợi không nhất quán"
+        ],
+        [
+          "FIGO type 3 trong IVF",
+          "Meta 2023 (1020 BN): không u vs type 3 chưa điều trị — LB OR 2,16; CP OR 2,06; imp OR 1,77",
+          "Type 3 cần tách riêng khỏi type 4"
+        ],
+        [
+          "UAE sau sinh sản",
+          "Live birth 11,9%; miscarriage 27,4%",
+          "UAE không nên thường quy khi còn mong thai"
+        ],
+        [
+          "RFA qua âm đạo",
+          "Giảm thể tích 49,4% (6 tháng), 69,8% (12 tháng); miscarriage 15,9%",
+          "Hứa hẹn nhưng dữ liệu mới nổi"
+        ]
+      ],
+      "note": "Làm gì? Nhớ 8 con số chốt theo chủ đề.\nTại sao? Dùng để tư vấn bệnh nhân có số liệu rõ ràng.\nNếu bỏ qua/làm sai? Trích sai tỷ lệ hoặc không ghi nguồn.\nNguồn MD: Trang 763–773, 8.7."
+    },
+    {
+      "type": "references",
+      "variant": "numbered",
+      "title": "Tài liệu tham khảo then chốt",
+      "refs": [
+        "Mocanu E et al. u xơ and infertility. Int J Gynaecol Obstet. 2026. PMID: 42104843; PMCID: PMC13278667. [FULL VERIFIED — PMCID]",
+        "Munro MG et al. FIGO classification 2018. PMID: 30198563.",
+        "ASRM guideline removal of u xơs in asymptomatic patients. PMID: 28865538.",
+        "ACOG Practice Bulletin No. 228. PMID: 34011888.",
+        "Stewart EA et al. Uterine u xơ. Nat Rev Dis Primers. 2016. PMID: 27335259.",
+        "Baird DD et al. Ultrasound evidence. Am J Obstet Gynecol. 2003. PMID: 12548202.",
+        "Zimmermann A et al. International internet-based survey. BMC Womens Health. 2012. PMID: 22448610; PMCID: PMC3342149. [FULL VERIFIED]",
+        "Stewart EA et al. Epidemiology systematic review. BJOG. 2017. PMID: 28296146.",
+        "trong cơ u xơ cơ tử cungs and Fertility Meta-Analysis. Obstet Gynecol. 2024. PMID: 38935974.",
+        "FIGO type 3 IVF Meta-Analysis. Int J Gynaecol Obstet. 2023. PMID: 37183601.",
+        "FEMME RCT UAE vs bóc u. Health Technol Assess. 2022. PMID: 35435818.",
+        "Linzagolix PRIMROSE 1 & 2. Fertil Steril. 2025. PMID: 40543832.",
+        "Uterine u xơ cơ tử cungs and Reproduction. Obstet Gynecol. 2025. PMID: 39326048.",
+        "bóc u before IVF/ICSI: a conundrum. Int J Gynaecol Obstet. 2026. PMID: 41408877."
+      ],
+      "note": "Làm gì? Dùng nguồn này khi cần đối chiếu lại trong bài giảng.\nTại sao? Bài đã đối chiếu rõ PMID/PMCID, dễ truy ngược.\nNếu bỏ qua/làm sai? Không đối chiếu sẽ khó phân biệt khuyến cáo vs kinh nghiệm.\nNguồn MD: Trang 779–813, mục 9."
+    }
+  ]
+}
