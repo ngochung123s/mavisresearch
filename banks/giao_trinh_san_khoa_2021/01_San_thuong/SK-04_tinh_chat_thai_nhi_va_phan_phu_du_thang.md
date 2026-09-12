@@ -1,0 +1,253 @@
+# TÍNH CHẤT THAI NHI VÀ PHẦN PHỤ ĐỦ THÁNG
+
+**Mã bài:** `SK-04` | **Chương:** Chương 1. Sản thường | **Giảng viên:** Ths. Trần Thị Len
+**Nguồn tài liệu:** Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021)
+
+---
+
+TÍNH CHẤT THAI NHI VÀ PHẦN PHỤ ĐỦ THÁNG
+
+Ths. Trần Thị Len
+
+
+## Mục tiêu học tập
+
+
+### 1. Mô tả được cấu tạo giải phẫu và chức năng sinh lý của thai nhi đủ tháng.
+
+
+### 2. Trình bày được cấu tạo các phần phụ của thai nhi đủ tháng
+
+
+### 3. Giải thích được chức năng các phần phụ thai nhi đủ tháng.
+
+
+### 1. THAI NHI ĐỦ THÁNG
+
+Thai nhi đủ tháng có cấu tạo giải phẫu gần giống người lớn. Thai nhi đủ tháng có trọng lượng trung bình nặng khoảng 3000g, dài 50cm. Tuy vậy khi còn sống trong tử cung hoạt động của bộ máy hô hấp và tuần hoàn của thai nhi khác với trẻ sơ sinh.
+
+
+### 1.1. Giải phẫu
+
+
+### 1.1.1. Đầu: Có hai phần: sọ và mặt. Sọ có 2 vùng là đỉnh sọ và đáy sọ.
+
+- Đáy sọ: là một phần của các xương trán, xương thái dương, xương chẩm và các xương bướm, xương sàng. Đáy sọ không thể thu hẹp khi đi qua tiểu khung.
+- Đỉnh sọ: gồm hai xương trán, hai xương đỉnh, và một xương chẩm. Giữa các xương là khớp màng mỏng giúp cho xương sọ có thể dịch chuyển và chồng lên nhau. Điều này giúp đỉnh sọ có thể thu hẹp được nhiều khi đầu thai nhi đi qua tiểu khung trong quá trình đẻ, có thể thấy các xương chồng lên nhau ở khớp nối trong và sau khi đẻ.
+- Các đường khớp:
+- Đường khớp dọc giữa: đi từ thóp trước tới thóp sau giữa 2 xương thái dương và kết thúc tại xương chẩm.
+- Các đường khớp ngang: Trước là đường khớp nằm giữa các xương trán và xương thái dương. Sau là khớp Lambda nằm giữa các xương thái dương và xương chẩm.
+- Thóp là nơi giao nhau của các đường khớp dọc và đường khớp ngang. Có hai thóp chính:
+- Thóp trước gọi là thóp lớn (Bregma) được tạo bởi đường khớp dọc giữa với đường khớp trán - đỉnh. Thóp trước có hình tứ giác và kích thước từ 2 x 3 cm tới 4 x 6 cm.
+- Thóp sau gọi là thóp nhỏ (Lambda) được tạo bởi 3 đường khớp: 2 đường đỉnh - chẩm và phần cuối của đường khớp dọc giữa. Thóp sau có hình tam giác và nhỏ hơn.
+Hình 1. Thóp trước và thóp sau
+
+Bình thường các thóp mềm. Trong trường hợp não úng thủy thì các thóp căng phồng, đường khớp giãn rộng hơn 1 cm.
+
+Cần nắm vững đặc điểm của thóp trước, thóp sau, vị trí của các khớp nối để xác định ngôi, thế và kiểu thế, và để phát hiện các bất thường của ngôi và thai.
+
+- Các đường kính của đầu: đầu có 3 đường kính trước - sau quan trọng như sau:
+- Hạ chẩm - thóp trước: 9,5cm đi từ hạ chẩm đến thóp trước. Đây là đường kính lọt của ngôi chỏm đầu cúi tốt (đường kính nhỏ nhất).
+- Chẩm - trán: 11, 5 cm, đi từ phần trên xương chẩm đến xương trán, đây là đường kính trong trường hợp ngôi chỏm đầu không cúi, không ngửa.
+- Chẩm - cằm: 13 cm nằm giữa phần trên xương chẩm và xương cằm, gặp trong ngôi thóp trước.
+- Đường kính trên dưới: có 1 đường kính.
+- Đường kính hạ cằm - thóp trước 9,5cm, đi từ hạ cằm đến thóp trước, gặp trong ngôi mặt.
+- Các đường kính ngang: có 2 đường kính.
+- Lưỡng đỉnh 9, 5 cm.
+- Lưỡng thái dương 8cm.
+- Vòng đầu: có 2 vòng.
+- Vòng đầu to đi qua đường kính thượng chẩm - cằm, có chu vi 38cm.
+- Vòng đầu nhỏ đi qua đường kính hạ chẩm - thóp trước, có chu vi 33cm.
+Hình 2. Các đường kính của đầu.
+
+
+### 1.1.2. Cổ và thân
+
+- Cổ giúp cho đầu quay 1800, thực hiện các động tác khác dễ dàng. Nó chịu được một lực kéo dưới 50kg.
+- Thân thai nhi có một số đường kính:
+- Đường kính lưỡng mỏm vai: 12 cm, có thể thu hẹp còn 9 cm.
+- Đường kính lưỡng ụ đùi: 9 cm.
+- Đường kính cùng chày: 11 cm, có thể thu lại 9 cm.
+
+### 1.2. Sinh lý
+
+Khi còn trong tử cung thai sống nhờ mẹ qua hệ tuần hoàn tử cung - rau.
+
+
+### 1.2.1. Hệ tuần hoàn
+
+- Tim của thai nhi có 4 buồng: 2 tâm thất và 2 nhĩ. 2 tâm nhĩ thông nhau qua lỗ Botal.
+- Động mạch chủ và động mạch phổi thông nhau qua ống động mạch.
+- Từ động mạch hạ vị của thai có 2 động mạch rốn đưa máu trở lại bánh rau.
+Hình 3. Tuần hoàn thai nhi
+
+Sự lưu thông của máu thai nhi diễn ra như sau:
+
+- Máu sau khi trao đổi chất và ôxy từ bánh rau đến thai bằng tĩnh mạch rốn, đến tĩnh mạch chủ dưới nó sẽ pha với máu từ phần dưới cơ thể của thai nhi để đổ vào tĩnh mạch chủ. Máu đến tâm nhĩ phải một phần xuống thất phải để vào động mạch phổi, một phần qua lỗ Botal vào nhĩ trái. Theo cách này, máu giàu ô xy từ bánh rau có thể tới thẳng não của thai nhi. Phổi chưa làm việc nên hầu hết máu từ động mạch phổi sang động mạch chủ nhờ ống động mạch. Động mạch chủ đồng thời nhận máu từ thất trái đi nuôi cơ thể, một phần qua hai động mạch rốn trở về rau thai. Như vậy máu thai nhi là máu pha trộn. Sau khi trẻ ra đời thì các mạch máu rốn co lại. Hiện tượng thở tạo áp lực âm trong lồng ngực, như vậy sẽ hút thêm máu từ động mạch phổi vào phổi. Với các mao mạch phổi phát triển sẽ làm giảm áp lực mạch ở phổi, do đó máu ngừng đi qua ống động mạch, ống này bít lại trong 12-24 giờ sau đẻ và trở thành một dây chằng. Đôi khi ống này vẫn ở trạng thái mở trong một khoảng thời gian, đặc biệt ở những trẻ đẻ non, do đó sẽ nghe thấy tiếng thổi tim trong trường hợp này. Lỗ Botal là một lỗ van để cho máu đi từ tim phải sang tim trái. Sau khi sinh, áp lực tâm nhĩ trái tăng lên làm cho van bị bít lại. Áp lực này bít van và sau đó trong thời gian 1 tới 3 tháng sẽ hình thành một màng có tác dụng bít van vĩnh viễn. Lúc này trẻ sơ sinh  bắt đầu sống với hệ tuần hoàn vĩnh viễn như người lớn.
+
+### 1.2.2. Hệ hô hấp
+
+Khi còn trong tử cung oxy được cung cấp cho thai qua bánh rau. Khí CO2 từ thai nhi đến gai rau thải vào hố huyết trở về máu mẹ. Máu từ tĩnh mạch rốn đến thai chứa nhiều khí O2. Sự trao đổi khí O2, CO2 giữa máu mẹ và máu con là một quá trình khuếch tán đơn giản, do sự chênh lệch nồng độ khuếch tán của các chất đó.
+
+- Độ bão hòa O2 trong máu đến từ bánh rau tới thai nhi là 80-85%. Khi máu từ tim lên não, độ bão hòa là 60%. Hemoglobin ở thai nhi hoàn toàn có đủ khả năng mang ôxy. Thai nhi cũng có nhiều ôxy nhờ có hematocrit cao.
+- Nếu có tình trạng thiếu khí O2 sẽ xảy ra tình trạng toan hô hấp do thừa CO2 và toan chuyển hóa do thừa acid lactic. Tình trạng trung tâm hóa tuần hoàn thai nhi xảy ra để tập trung máu cho các cơ quan quan trọng như não, tim. Do thiếu oxy nhu động ruột tăng nên sẽ tống phân su vào nước ối. Đây có thể là một dấu hiệu của suy thai.
+
+### 1.2.3. Tiêu hóa
+
+Thai nhận chất dinh dưỡng từ mẹ qua bánh rau. Thai nhi bắt đầu nuốt nước ối vào tuần 8-11. Nước ối chứa các tế bào thượng bì, lông, dịch từ phổi thai nhi. Thai nhi tiêu hóa những thành phần này và tạo ra phân su. Phân su là một chất dịch sánh đặc, màu xanh đen với thành phần là chất nhầy, tế bào bong niêm mạc đường tiêu hóa, men ruột, mật và ít nước ối. Ruột thai nhi không có vi khuẩn cho tới khi sinh.
+
+
+### 1.2.4. Bài tiết
+
+- Da bài tiết các chất nhờn và bã vào tháng thứ  5. Quá trình này tạo chất gây nhằm bảo vệ da.
+- Thận bắt đầu tiết nước tiểu khi thai mới được 11 tuần tuổi: người ta thấy trong nước ối có một phần nước tiểu thai nhi, trẻ mới sinh ra đã có nước tiểu trong bàng quang. Một vài trường hợp bệnh lý về thận của thai nhi khiến lượng nước tiểu giảm có thể làm giảm lượng nước ối. Đó là một trong những nguyên nhân gây thiểu ối (oligohydramnios).
+
+### 1.2.5. Hệ thống nội tiết
+
+Tinh hoàn bắt đầu sản xuất testosterone từ tuần thứ 7 của quá trình thai nghén. Tuyến thượng thận và tụy - từ tuần thứ 12, tuyến giáp và tuyến yên - từ tuần 20. Buồng trứng không tiết estrogene hoặc progesterone cho tới thời điểm dậy thì.
+
+Phần lớn hệ thống nội tiết của thai nhi hoạt động từ rất sớm và hình thành đơn vị nội tiết  rau - thai.
+
+
+### 2. CÁC PHẦN PHỤ ĐỦ THÁNG
+
+Các phần phụ đủ tháng của thai bao gồm các màng thai, bánh rau, dây rốn và nước ối.
+
+
+### 2.1. Màng thai
+
+
+### 2.1.1. Màng rụng (ngoại sản mạc)
+
+Màng rụng là màng chức năng của nội mạc tử cung ở phụ nữ có thai, còn được gọi là ngoại sản mạc. Màng rụng có 3 lớp:
+
+- Màng rụng nền (Decidua basalis): nằm dưới phôi bào,còn được gọi là ngoại sản mạc tử cung rau.
+- Màng rụng trứng (Decidua capsularis): bao phủ phôi bào, còn được gọi là ngoại sản mạc trứng
+- Màng rụng thành tử cung (Decidua parietalis) bao phủ phần còn lại của buồng tử cung, còn được gọi là ngoại sản mạc tử cung.
+- Khi thai đủ tháng, màng rụng trứng và màng rụng tử cung teo mỏng, dính sát vào nhau.
+
+### 2.1.2. Màng đệm (trung sản mạc)
+
+Màng đệm còn gọi là trung sản mạc, phát triển không đều. Phần bám vào màng rụng nền phát triển mạnh tạo thành các gai rau, phần còn lại của màng đệm sẽ trở thành một màng mỏng ít thấm nước.
+
+
+### 2.1.3. Màng ối (nội sản mạc)
+
+Màng ối, còn gọi là nội sản mạc, là một màng mỏng lót mặt trong buồng ối; che phủ mặt trong bánh rau, dây rốn. Màng ối dai và dễ thấm nước. Màng này có nhiệm vụ sản xuất, tiêu thụ nước ối, ngăn cản vi khuẩn để bảo vệ cho thai.
+
+Màng ối nằm trong sát với thai nhi và màng đệm nằm ngoài. Trong trường hợp sinh đôi 2 noãn luôn có 2 màng ối và 2 màng đệm. Trong trường hợp sinh đôi 1 noãn sẽ có thể có 2 màng ối và 2 màng đệm nếu sự phân chia xuất hiện sớm. Nếu việc này xảy ra muộn có thể có 1 màng đệm và 2 màng ối, đây là trường hợp phổ biến nhất. Hiếm hơn, khi sự phân chia xảy ra muộn chỉ tạo ra một màng đệm và một màng ối, trường hợp này sẽ nguy hiểm hơn cho cặp song sinh.
+
+Bề dày của màng rau thai lúc 12 tuần là 0,052mm, khi đủ tháng là 0,002mm.
+
+
+### 2.2. Bánh rau
+
+
+### 2.2.1. Cấu tạo
+
+Bánh rau hình tròn, đường kính khoảng 15 cm, nặng 1/6 trọng lượng thai nhi (khoảng 400 - 500 gram), dày 2,5 - 3 cm, mỏng hơn ở ngoại vi. Mỗi bánh rau gồm 15 - 20 múi, giữa các múi là các rãnh nhỏ. Bánh rau thường bám vào đáy tử cung. Bánh rau hình thành do sự phát triển của màng rụng nền và màng đệm.
+
+Màng rụng ở vùng bánh rau có 3 lớp: lớp đáy, lớp xốp và lớp đặc. Lớp xốp là đường bong của rau sau khi sinh. Trong lớp đặc có sản bào và hồ huyết. Đại đa phần màng này rụng rau sinh và có chảy máu kèm theo.
+
+Hình 4. Bánh rau
+
+
+### 2.2.2. Chức năng: Bánh rau có 2 chức năng chính:
+
+Chức năng thứ 1: đảm bảo cho thai sống và phát triển. Sự trao đổi chất thực hiện qua lớp hội bào của gai rau.
+
+- 	Hô hấp: Sự trao đổi O2 và CO2 giữa máu mẹ và thai là một quá trình khuếch tán đơn giản do các đặc điểm sau:
+- Áp lực máu mẹ ở hồ huyết của bánh rau thấp hơn máu thai và tốc độ chảy chậm.
+- Nồng độ CO2 thấp hơn và nồng độ O2 trong máu mẹ cao hơn máu thai.
+- Hemoglobine của thai có khả năng gắn O2 cao.
+- Diện tích trao đổi mẹ - thai tăng do cấu trúc dạng nhú của gai rau.
+Máu trong hồ huyết phải luôn luôn được đổi mới. Trong các trường hợp mẹ bị cao huyết áp trong thai kỳ hoặc cơn go cường tính máu ở hồ huyết chậm đổi mới sẽ gây suy thai.
+
+- Dinh dưỡng: Nguyên liệu tạo hình và năng lượng cần cho thai đều đưa từ mẹ vào qua gai rau.
+- Các protein phải chuyển thành axit amin và đi qua gai rau, sau đó thai mới sử dụng để tổng hợp lại thành protein đặc hiệu của thai.
+- Các Lipid rất ít đi qua rau thai nên thai thường thiếu các vitamin tan trong dầu như A, D, E, K. Do vậy trẻ sơ sinh hay bị chảy máu do giảm prothrombin và thiếu Vitamin K. Vitamin K sẽ được tổng hợp đầy đủ ở 1 tuần tuổi bởi các vi khuẩn trong ruột của trẻ sơ sinh.
+- Glucose qua rau thai nhờ hiện tượng khuếch tán, gai rau còn tham gia chuyển glucose thành glycogen và dự trữ ở gai rau.
+- Vitamin: Vitamin B, C qua rau thai dễ dàng.
+Ngoài ra, gai rau còn có thể tổng hợp một số phospholipid, nhất là các steroid rau thai.
+
+- Bảo vệ:
+- Một số kháng nguyên kháng thể có nguồn gốc protein có thể đi qua  rau thai. Nhờ đó thai có khả năng miễn dịch thụ động, nhưng cũng có khi nguy hiểm cho thai nếu có sự bất đồng Rh hoặc bất đồng nhóm ABO.
+- Mầm bệnh: Các vi khuẩn không qua được rau thai. Tuy nhiên vào các tháng cuối có một số loại vi khuẩn đi qua, ví dụ trực khuẩn lao khó qua, xoắn trùng giang mai qua rau thai sau tháng thứ 5. Virus qua được rau thai nên thường gây dị dạng cho thai, ví dụ virus cúm, sốt bại liệt, Rubella (bệnh sởi Đức), thủy đậu và virus cự bào (Cytomegalovirus).
+- Thuốc và hoá chất không có quy luật. Nói chung các chất có trọng lượng phân tử dưới 600 đều qua rau dễ dàng. Ngược lại các chất có trọng lượng phân tử trên 1000 sẽ khó qua rau. Các thuốc qua rau trong 3 tháng đầu thai kỳ có thể gây dị dạng cho thai (chẳng hạn các thuốc chống động kinh, Tetracycline, rượu,... Cho nên khi phụ nữ có thai cần tham khảo kỹ hướng dẫn sử dụng thuốc). Các thuốc qua rau được trong những tháng cuối có thể gây ảnh hưởng độc hại trên bào thai.
+Chức năng thứ 2: giữ vai trò nội tiết để cơ thể mẹ phù hợp với thai nghén.
+
+- Kích thích tố loại peptid:
+- hCG (kích dục tố rau thai - human chorionic gonadotropin): Sự chế tiết hCG  bắt đầu khi có hiện tượng làm tổ, tăng nhanh đạt mức tối đa lúc tuổi thai khoảng hai tháng rưỡi. Nó có tác dụng duy trì hoàng thể và kích thích tiết ra các steroid sinh dục. Người ta sử dụng đặc điểm này để xét nghiệm chẩn đoán thai nghén.
+- HPL (human placental lactogen): được tiết bởi tế bào nuôi, có tác dụng sinh sữa, biến dưỡng glucid, lipid và protid. Lượng kích thích tố tăng dần theo tuổi thai, tối đa vào tuần 36, sau đó hơi giảm.
+- Các steroide rau thai: Chủ yếu là estrogen và progesteron do bánh rau sản xuất từ tháng thứ 3, tăng cho đến gần ngày đẻ. Ở người mẹ chúng duy trì sự phát triển của tử cung, kiểm soát hoạt động của tử cung trong thai kỳ, kích thích sự phát triển của tuyến vú, duy trì thai nghén và sự phát triển của thai nhi. Người ta đo hàm lượng các chất này để đánh giá chức năng bánh rau.
+- Các steroid khác như 17 ketosteroid, glucocorticoid cũng tăng lên trong thai kỳ.
+
+### 3. DÂY RỐN
+
+- Dây rốn là 1 dây tròn, dài 40-60cm, đường kính 15 - 20mm, mềm trơn, màu trắng.
+- Một đầu dây rốn bám vào bánh rau, thường bám ở trung tâm bánh rau, đôi khi bám mép bánh rau, một số ít trường hợp bám màng rau. Đầu kia bám vào da bụng thai nhi. Lớp thượng bì của da bụng bao quanh chân dây rốn 1cm, chỗ tiếp giáp giữa thượng bì và dây rốn là chỗ rốn sẽ rụng.
+- Từ ngoài vào trong dây rốn là: nội sản mạc, thạch Wharton, tĩnh mạch rốn và 2 động mạch rốn xoắn quanh tĩnh mạch.
+- Dây rốn không có mạch máu nuôi dưỡng riêng. Sự dinh dưỡng thực hiện nhờ quá trình thẩm thấu.
+- Giữa 2 động mạch có nhánh nối để cân bằng áp lực và lưu lượng cho 2 nửa bánh rau.
+Hình 5. Cấu trúc dây rốn và các mạch máu rốn.
+
+- Các bất thường dây rốn có thể gặp: dây rốn quá dài, dây rốn quá ngắn, rốn quấn cổ, dây rốn thắt nút, xoắn... gây nên một sự chèn ép tuần hoàn đưa đến suy thai. Nếu thai nhi chỉ có 1 động mạch rốn thường kèm theo các dị tật khác của thai nhi.
+- Người ta có thể lấy máu ở dây rốn để xét nghiệm khi có chỉ định.
+
+### 4. NƯỚC ỐI
+
+
+### 4.1. Tính chất
+
+Nước ối của thai nhi đủ tháng lờ lờ trắng, pH 7,1-7,3. Nước ối cũng chứa các tế bào thượng bì, lông, các chất bã, nước tiểu và dịch từ phổi thai nhi..
+
+Thành phần 97% là nước, còn lại là các loại khoáng chất và các chất hữu cơ. Các điện giải chính là Na+, K+, Cl-, ngoài ra còn có P3+, Ca2+, Mg2+. Các chất hữu cơ gồm protein, các hợp chất chứa Nitơ không phải protein, glucide, lipide, các hormon và các sắc tố.
+
+Khối lượng 500 -1000 ml. Thể tích nước ối tăng cho tới tuần thứ 38, sau đó giảm dần.
+
+
+### 4.2. Tái tạo
+
+Nước ối luôn đổi mới 3 giờ / 1 lần.
+
+Nguồn gốc
+
+- Do thai bài tiết: từ da thai nhi, từ khí - phế quản, đặc biệt nguồn nước ối quan trọng nhất từ thai nhi là đường tiết niệu. Vì vậy trong trường hợp thiểu ối phải khảo sát xem có bất thường, dị dạng hệ tiết niệu thai nhi không.
+- Từ máu mẹ.
+- Từ nội sản mạc.
+- Hấp thu
+- Chủ yếu do thai nhi uống nước ối. Trong trường hợp có bất thường đường tiêu hóa, có thể biểu hiện đa ối trên lâm sàng.
+- Nước ối còn được tái hấp thu qua da, dây rốn và màng ối.
+
+### 4.3. Tác dụng
+
+Nước ối có tác dụng
+
+- Chống sang chấn cho thai.
+- Giúp bình chỉnh ngôi thai.
+- Cân bằng nội môi cho thai (thai uống và bài tiết qua đường tiểu).
+- Chống lại sự chèn ép của cơ thể thai nhi vào rau và cuống rốn, đặc biệt trong giai đoạn chuyển dạ.
+
+### 4.4. Bệnh lý nước ối
+
+- Đa ối, quá nhiều nước ối có thể gây đẻ non
+- Thiểu ối, quá ít nước ối. Thường do việc suy giảm chức năng bánh rau, các vấn đề về phổi và thận ở thai nhi. Có nguy cơ giảm ôxy huyết trong quá trình chuyển dạ do dây rốn bị chèn ép.
+- Nhiễm khuẩn ối.
+- Vào tuần lễ thứ 15 - 18 của thai kỳ, người ta có thể chọc hút nước ối để làm một các xét nghiệm thăm dò trong sản khoa khi cần thiết.
+
+## Câu hỏi:
+
+
+### 1. Trình bày cấu tạo giải phẫu của đầu và các đường kính của đầu, thân thai nhi đủ tháng?
+
+
+### 2. Trình bày đặc điểm sinh lý hệ tuần hoàn và hô hấp của thai nhi đủ tháng?
+
+
+### 3. Trình bày cấu tạo giải phẫu và chức năng bánh rau?
+
+
+### 4.  Trình bày cấu tạo giải phẫu và chức năng của dây rốn? đặc điểm giải phẫu và sinh lý của màng nội sản mạc và trung sản mạc?
+
+
+### 5.  Mô tả tính chất và tác dụng sinh lý của nước ối?

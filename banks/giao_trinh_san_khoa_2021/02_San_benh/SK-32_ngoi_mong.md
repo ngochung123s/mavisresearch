@@ -1,0 +1,179 @@
+# NGÔI MÔNG
+
+**Mã bài:** `SK-32` | **Chương:** Chương 2. Sản bệnh | **Giảng viên:** Ths. Bs CK II. Hoàng Tiến Nam
+**Nguồn tài liệu:** Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021)
+
+---
+
+NGÔI MÔNG
+
+Ths. Bs CK II. Hoàng Tiến Nam
+
+
+## Mục tiêu học tập
+
+Chẩn đoán được ngôi mông trong chuyển dạ.
+
+Mô tả được cách xử trí đỡ đẻ ngôi mông
+
+Kể ra được những chỉ định mổ lấy thai trong ngôi mông.
+
+
+### 1. ĐỊNH NGHĨA
+
+Ngôi mông hay ngôi ngược là một ngôi dọc; đầu ở trên, mông hay chân ở dưới.
+
+
+### 2. PHÂN LOẠI
+
+Có 2 loại ngôi mông
+
+Ngôi mông hoàn toàn (mông và 2 chi dưới gập lại).
+
+Hình 1. Ngôi mông hoàn toàn
+
+Ngôi mông không hoàn toàn gồm:
+
+- Ngôi mông không hoàn toàn kiểu mông (mông và 2 chân vắt ngược lên đầu).
+- Ngôi mông không hoàn toàn kiểu chân (2 chân duỗi thẳng)
+- Ngôi mông không hoàn toàn  kiểu đầu gối (thai quỳ gối trong tử cung).
+A.                                                 B.
+
+Hình 2. A. Ngôi mông kiểu chân   B. Ngôi mông kiểu mông
+
+
+### 3. NGUYÊN NHÂN
+
+Hai yếu tố hình thành ngôi mông:
+
+- Sinh non (thai chưa kịp bình chỉnh thành ngôi thuận)
+- Các yếu tố cản trở bình chỉnh của thai.
+Các nguyên nhân:
+
+- Phía mẹ: Tử cung kém phát triển, tử cung đôi, tử cung hai sừng, tử cung có vách ngăn, u xơ tử cung, khối u tiền đạo, con rạ sinh nhiều lần.
+- Phía thai nhi: Đa thai, thai dị dạng (đặc biệt gặp trong não úng thủy)
+- Phía phần phụ của thai: thiểu ối, đa ối, rau tiền đạo...
+
+### 4. THẾ VÀ KIỂU THẾ
+
+- Điểm mốc: đỉnh xương cùng.
+- Lưng bên nào thì thế bên đó.
+- Đường kính lọt: đường kính lưỡng ụ đùi = 9,5 cm.
+- 4 kiểu thế lọt:
+- Cùng chậu trái trước
+- Cùng chậu trái sau
+- Cùng chậu phải trước
+- Cùng chậu phải sau
+- 2 kiểu sổ:
+- Cùng chậu trái ngang
+- Cùng chậu phải ngang
+
+### 5. CHẨN ĐOÁN
+
+- Hỏi: sản phụ cảm giác tức một bên hạ sườn.
+- Nhìn: tử cung hình trứng, trục dọc.
+- Nghe tim thai: ngang rốn hay cao hơn rốn.
+- Khám 4 thủ thuật (các thủ thuật Léopold).
+- Cực trên (đáy tử cung) là đầu.
+- Cực dưới (vùng đoạn dưới) là mông.
+- Khám âm đạo:
+- Nhất là lúc đã chuyển dạ sẽ thấy xương cùng, mông và 2 chân thai nhi  (mông đủ) nếu ối chưa vỡ.
+- Hoặc có thể sờ được xương cùng, mông, hậu môn và cơ quan sinh dục,
+bàn chân (cần phân biệt với bàn tay : chân ngón ngắn, gót, 2 mắt cá, gót chân là một góc vuông tạo giữa bàn chân và cẳng chân).
+
+- Siêu âm: sử dụng thường quy trong ngôi mông để xác định trọng lượng thai, các bất thường của thai
+- X quang: giúp chẩn đoán phân biệt với các ngôi khác, chẩn đoán đầu ngửa.
+
+### 6. THÁI ĐỘ XỬ TRÍ TRONG NGÔI MÔNG
+
+
+### 6.1. Nguyên tắc
+
+Phải khám xét cẩn thận, tiên lượng kỹ càng để có thái độ xử trí chính xác. Việc xử trí một ngôi mông không được phép để trở thành một cấp cứu, phải có chỉ định cụ thể trước khi chuyển dạ bắt đầu.
+
+Có hai hướng xử trí là sinh đường âm đạo hay mổ lấy thai.
+
+
+### 6.2. Xử trí
+
+
+### 6.2.1. Đẻ đường âm đạo
+
+- Chuẩn bị đỡ đẻ: tốt nhất ngôi mông nên đẻ ở trung tâm có khả năng phẫu thuật.
+- Cho sản phụ:
+- Hướng dẫn cách cách rặn đẻ.
+- Sản phụ nằm theo tư thế sản khoa.
+- Thông tiểu, thụt tháo
+- Về nhân viên Y tế:
+- Phải có đủ người (2 đến 3 người).
+- Các phương tiện hồi sức sơ sinh, oxytocin, dịch truyền.
+
+### 6.2.2. Kỹ thuật đỡ đẻ ngôi mông
+
+- Đặt sẵn một đường truyền tính mạch khi cổ tử cung mở gần hết.
+- Nếu có thể nên gây tê thần kinh thẹn.
+- Nên để cuộc chuyển dạ xảy ra một cách tự nhiên : chờ đợi - chờ đợi-chờ đợi.
+- Lưu ý tình trạng cổ tử cung phải mở hết, không kéo chân thai nhi.
+- Để sinh tự nhiên:
+Phương pháp Vermelin:
+
+Chỉ định: trường hợp con rạ, thai nhỏ, tầng sinh môn giãn tốt, để cuộc đẻ xảy ra một cách tự nhiên, không có bất kỳ một sự trợ giúp nào, không có một sự can thiệp thủ thuật nào trên thai nhi.
+
+Phương pháp Xôvianốp:
+
+Mục đích của phương pháp đó là làm cho ngôi lọt và xuống trong tiểu khung một cánh từ từ, không nhanh quá, lợi dụng ngôi làm cho cổ tử cung, âm đạo, tầng sinh môn giãn tốt. Muốn thế, người hộ sinh phải giữ cho ngôi không sổ ra ngoài trong một thời gian nhất định.
+
+- Đối với ngôi mông không hoàn toàn kiểu mông,mục đích của phương pháp là lợi dụng khối ngực và chân của thai nhi khá to để làm cho cổ tử cung, âm đạo, tầng sinh môn giãn tốt.
+Đến thì sổ đầu sử dụng thuốc để giúp cơn co mạnh lên, hướng dẫn thai phụ rặn mạnh, kết hợp với ấn đầu thai nhi ở phía trên khớp mu.
+
+Cho thai phụ nằm theo kiểu nửa nằm nửa ngồi. Hồi sức thai có hệ thống mặc dù thai không suy bằng glucose và oxy,vì theo Xôvianôp trong ngôi mông thai dễ suy.
+
+- Đối với ngôi mông hoàn toàn: khi ngôi đã thập thò ở âm hộ người hộ sinh dùng một miếng gạc lớn ấn vào âm hộ mỗi khi có cơn co, thời gian ấn vào âm hộ để giữ mông không sổ sớm có thể từ 15- 25 phút, nhưng phải theo dõi tim thai, nếu thai suy phải dừng giữ mông để mông sổ. Nếu thai không suy, trong cơn rặn, mông thai nhi muốn đẩy bật tay người hộ sinh ra ngoài, lúc đó buông tay ra để mông sổ.
+- Đối với ngôi mông không hoàn toàn kiểu mông: khi mông sổ ra ngoài hai tay người hộ sinh ôm vào đùi thai nhi, ngón cái về phía sau đùi,các ngón khác về phía xương cùng, hướng thai nhi lên trên, chuyển dần tay về phía thân thai nhi,giữ cho chân thai nhi luôn luôn áp vào bụng và ngực giúp giãn nở các phần mềm tốt.
+- Sinh ngôi mông có can thiệp từng phần:
+- Để sinh tự nhiên đến rốn, chỉ hỗ trợ trong thì sinh vai, tay và đầu hậu.
+- Khi mông đã sổ, nếu thấy dây rốn căng phải kéo nhẹ dây rốn ra để đỡ căng (không đụng đến bụng và thân thai nhi).
+- Hỗ trợ sinh vai: lúc vai đã lọt và sắp sổ, nhấc nhẹ thân thai nhi về phía xương vệ người mẹ để vai sau và tay sổ ra ngoài rồi hạ thân thai nhi xuống để vai trước sổ. Sau khi đã sổ 2 vai và tay, xoay nhẹ thân thai nhi ở vị trí nằm sấp (không để thai nằm ngửa). Nếu tay thai nhi giơ cao hay vòng sau gáy phải dùng các thủ thuật hạ tay.
+Trường hợp vai sau đã đi qua bờ của tiểu khung trong khi vai trước hãy còn cao (nằm trên vai sau) phải dùng thủ thuật Lovset (nắm hai đùi thai nhi với các ngón tay ở phía trước, ngón cái ở phía sau đùi, quay thân của thai nhi sao cho vai sau được đưa ra phía trước, thường quay theo chiều kim đồng hồ, trong quá trình đó cánh tay sẽ bị đẩy xuống phía dưới đến bờ dưới cung xương vệ và sổ ra ngoài. Tránh ôm vào bụng thai nhi gây phản xạ thở của trẻ.
+
+Trường hợp các cánh tay kẹt sau gáy, có thể xử trí tình huống này bằng thủ thuật tương tự, trong đó đứa trẻ được quay đủ 1800 như vậy trong quá trình quay cánh tay trước được đẩy ra phía trước qua mặt đứa trẻ và cuối cùng xuống phía dưới để có thể sổ ra bên dưới cung vệ. Cùng một quá trình ấy được thực hiện cho cánh tay kia.
+
+- Hỗ trợ sinh đầu hậu :
+Hai tay người đỡ đẻ ôm vào khung chậu của thai nhi kéo nhẹ thai theo hướng xuống dưới và ra sau cùng lúc người phụ đẩy trên đáy tử cung để đầu cúi tốt cho đến khi hạ chẩm số đến bờ dưới khớp vệ, nâng thai ngược lên về phía bụng mẹ để đầu thai ngửa dần, cằm, mặt và các phần còn lại của đầu sẽ lần lượt sổ ra khỏi âm hộ.
+
+Sổ đầu hậu:
+
+- Thủ thuật Bracht (áp dụng trong những trường hợp con nhỏ, con rạ, tầng sinh môn mềm giãn tốt): mông đã sổ đến rốn cả khối thân thai nhi, 2 chân duỗi thẳng (người đỡ đẻ cầm 2 chân) giữ cho lưng thai nhi luôn luôn sát vào xương vệ của mẹ cộng với sức đẩy cơn co tử cung và sức ấn trên xương vệ, phần còn lại của thai nhi sẽ sổ ra tự nhiên.
+Hình 3. Thủ thuật Bracht
+
+- Thủ thuật Mauriceau (áp dụng cho con so, tầng sinh môn chắc) sau khi vai đã sổ ra ngoài để thai nhi nằm vắt trên mặt trong của cẳng tay người đỡ. Ngón trỏ và ngón giữa của bàn tay này đè vào hàm dưới trên lưỡi tới đáy lưỡi của thai (cẩn thận tránh làm rách hãm lưỡi của thai). Mục đích giúp đầu hậu cúi tốt, dùng ngón trỏ và ngón giữa của bàn tay còn lại đè lên vai gáy thai nhi tạo một lực kéo theo phương hướng ra sau và xuống dưới; Phải kéo đều tay, liên tục với cơn co tử cung thật tốt đến khi hạ chẩm sổ ra đến bờ dưới khớp vệ, lúc đó cho đầu ngửa dần bằng cách nâng thai lên dần về phía bụng mẹ để sổ mặt và các phần còn lại của đầu.
+- Ngoài ra còn có thể lấy đầu hậu bằng Forceps Piper
+- Đại thủ thuật kéo thai ngôi mông: là thủ thuật can thiệp trên toàn bộ cuộc sinh ngôi mông, phải  gây mê và chuẩn bị như một cuộc mổ.
+Hình 4. Thủ thuật Mauriceau
+
+Ngày nay người ta đã chỉ định mổ lấy thai thay cho chỉ định đại kéo thai.
+
+Chỉ định đại kéo thai:
+
+- Điều trị tiếp sau nội xoay thai.
+- Ngôi mông có dấu hiệu suy thai và đủ điều kiện để sinh đường âm đạo tức thì.
+- Áp dụng cho ngôi mông thiếu kiểu chân và ngôi mông đủ.
+
+### 6.2.2. Chỉ định mổ lấy thai ngôi mông
+
+- Con so, ngôi mông ước lượng trọng lượng thai trên 3000 gram
+- Con rạ, ngôi mông ước lượng trọng lượng thai khá to so với lần sinh trước.
+- Tiền sử sinh khó ở những lần sinh trước.
+- Con so, ngôi mông, mẹ lớn tuổi.
+- Ngôi mông con quý
+- Ngôi mông sa dây rốn
+- Ngôi mông suy thai trong chuyển dạ
+- Ngôi mông chuyển dạ kéo dài, chuyển dạ khó khăn....
+
+## Câu hỏi:
+
+
+### 1. Trình bày định nghĩa, chẩn đoán ngôi mông.
+
+
+### 2. Trình bày cách đỡ đẻ ngôi mông

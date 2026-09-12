@@ -1,0 +1,155 @@
+# CHẨN ĐOÁN THAI NGHÉN
+
+**Mã bài:** `SK-06` | **Chương:** Chương 1. Sản thường | **Giảng viên:** Ths. Nguyễn Văn Hiền
+**Nguồn tài liệu:** Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021)
+
+---
+
+chẩn đoán thai nghén
+
+Ths. Nguyễn Văn Hiền
+
+
+## I.  mục tiêu :
+
+Sau khi học xong bài này học viên có khả năng :
+
+Trình bày được triệu chứng lâm sàng, cận lâm sàng của thai nghén 4,5 tháng đầu của thai kỳ.
+
+Trình bày được những bệnh lý phụ khoa và thai bệnh lý khác dễ nhầm với thai thường 4,5 tháng đầu của thai kỳ.
+
+Trình bày triệu chứng cơ năng, thực thể thai nghén 4,5 tháng sau của thai kỳ.
+
+Trình bày nội dung tuyên truyền cho cộng đồng những dấu hiệu có thai, nhằm đăng ký quản lý thai nghén, đề phòng và phát hiện thai nghén nguy cơ cao.
+
+
+## II.  néi dung
+
+Đại cương
+
+Khi có thai người phụ nữ có những thay đổi về giải phẫu và sinh lý rất lớn. Dựa vào đó mà chẩn đoán có thai hay không có thai, thai thường hay thai bệnh lý.
+
+Lâm sàng chia làm 2 thời kỳ:
+
+Giai đoạn 4,5 tháng đầu.
+
+Giai đoạn 4,5 tháng sau.
+
+Chẩn đoán thai nghén trong thời kỳ 4,5 tháng đầu:
+
+Chẩn đoán xác định:
+
+
+### 2.1.1 Triệu chứng cơ năng:
+
+- Triệu chứng tắt kinh trên một người phụ nữ khỏe mạnh, có kinh nguyệt đều và có quan hệ tình dục. Đây là dấu hiệu đáng tin cậy hay gần như chắc chắn để chẩn đoán.
+- Triệu chứng thai nghén: Tùy theo từng thai phụ, đó là sự thay đổi của người phụ nữ do tình trạng có thai gây nên.
+Tiết nước bọt, buồn nôn, lơm giọng hoặc nôn vào buổi sáng.
+
+Thay đổi vị giác: Ngán ăn hoặc thích ăn những thức ăn lạ mà từ trước tới nay thích hoặc không thích.
+
+Thay đổi khứu giác: VD: Sợ mùi thơm, sợ mùi thuốc lá...mà bình thường không sợ.
+
+Thay đổi về tinh thần: Tính tình thay đổi, đễ cáu gắt, buồn ngủ, mệt mỏi hoặc ngược lại.
+
+
+### 2.1.2 Triệu chứng thực thể:
+
+* Da mặt và da bong: Xuất hiện các vết nâu sạm, ở mặt thường xuất hiện ở 2 gò má, ở đường trắng giữa bong và các vết rạn đối với con so. Còn con rạ có thể thấy các vết rạn màu trắng.
+
+* Vú phát triển nhanh theo tuổi thai, quầng vú them màu, hạt Montgomery nổi rõ hơn, có thể thấy xuất hiện sũa non.
+
+* Âm hộ và niêm mạc âm đạo bị tím lại.
+
+* Tử cung:
+
+- Cổ tử cung mềm, tím.
+- Thân tử cung to và có cơn co tử cung: Là dấu hiệu quyết định.
+Dấu hiệu Noble (+): Chứng tỏ tử cung to.
+
+Dấu hiệu Hegar (+): Chứng tỏ tử cung mềm (không nên làm với người giữ thai vì dễ sẩy).
+
+
+### 2.1.3 Triệu chứng cận lâm sàng:
+
+- Tìm HCG trong nước tiểu hoạc trong máu bằng các xét nghiệm:
+Phản ứng miễn dịch: Làm các test HCG có kết quả nhanh: HCG vitest
+
+Quickstick
+
+Định lượng β HCG.
+
+- Siêu âm: Là xét nghiệm hết sức đơn giản, nhanh và cho kết quả chính xác. Siêu âm những tháng đầu có tác dụng chẩn đoán thai sớm, chẩn đoán thai thường hay thai bệnh lý, chẩn đoán tuổi thai chính xác nhất.
+Với siêu âm ta có thể thấy:
+
+Tói èi khi 5 tuÇn tuæi (chËm kinh 1 tuÇn).
+
+Cấu trúc phôi từ tuần lễ thứ 6 ư 7.
+
+Tim thai tõ tuÇn lÔ thø 7- 8
+
+Hoạt động của thai từ tuần lễ thứ 9.
+
+Trước tuần lễ thứ 12 thì siêu âm có giá trị chẩn đoán tuổi thai chính xác nhất theo công thức:
+
+Tuæi thai dưới 6 : Dựa vào kích thước túi thai
+
+Tuæi thai trên 6 tuần : Dựa vào chiều dài phôi
+
+Sau tuần lễ thứ 12, đường kính lưỡng đỉnh của thai nhi là chỉ số chính xác nhất để tính tuổi thai.
+
+Chẩn đoán phân biệt
+
+Chẩn đoán thai nghén nói chung không khó nhưng trong những ngày đầu thai nghén cũng cần chẩn đoán phân biệt với những trường hợp sau:
+
+- Tắt kinh: Phân biệt với những trường hợp mất kinh nhưng không phải có thai, gặp ở một số bệnh: Tâm thàn, rối loạn nội tiết, bệnh nội khoa nặng.
+- Nghén: Phân biệt với nghén giả: Gặp ở những người mong hoặc sợ có con quá làm cho người phụ nữ có tình trạng nghén thực sự.
+- Tử cung to cần chẩn đoán phân biệt với: U xơ tử cung, u nang buồng trứng.
+- Ngoài ra cần chẩn đoán phân biệt với những trường hợp thai nghén bệnh lý thường gặp trong những tháng đầu của thời kỳ thai nghén như:
+Thai chÕt l­u
+
+Chửa ngoài tử cung
+
+Chửa trứng.
+
+Chẩn đoán thai nghén 4,5 tháng sau:
+
+Chẩn đoán thai nghén thời kỳ này thường dễ nhưng tiên lượng cuộc đẻ mới là khó.
+
+Triệu chứng lâm sàng:
+
+- Tắt kinh kéo dài, tử cung ngày càng to lên rõ rệt so với tuổi thai.
+- Sờ nắn được các cực của thai nhi.
+- Nghe được tiếng tim thai.
+- Các cử động của thai nhi còn gọi là thai máy hay thai đạp.
+
+### 3.2. Triệu chứng cận lâm sàng:
+
+Thường làm siêu âm để:
+
+Chẩn đoán tuổi thai.
+
+Đánh giá sự phát triển của thai.
+
+Phát hiện sớm các dị tật bẩm sinh.
+
+Điều cơ bản nhất là chẩn đoán được ngôi, thế, kiểu thế để phần nào tiên lượng sớm được cuộc đẻ.
+
+Mặt khác còn phải khám tìm các dấu hiệu thay đổi bất thường để chẩn đoán thai nghén nguy cơ cao nhằm điều trị sớm tránh tai biến và biến chứng nguy hiểm cho mẹ và con như: Rau tiền đạo, tiền sản giật…
+
+Công tác tư vấn
+
+Tuyên truyền cho cộng đồng những dấu hiệu bình thường khi có thai như: Chậm kinh, nghén, vú to và đau, bụng ngày càng to và thấy thai đạp.
+
+Những dấu hiệu bất thường khi có thai như: Đau bụng, ra máu âm đạo, nghén quá mức, thai không đạp  để đến cơ sở y tế khám ngay nhằm phát hiện thai nghén bất thường, những yếu tố nguy cơ cao ảnh hưởng đến tình trạng mẹ và con để phòng và điều trị sớm nhằm giảm tỷ lệ tử vong mẹ và con.
+
+Khi có thai phải được đăng ký quản lý thai nghén, phải đi khám thai định kỳ và mỗi khi có những dấu hiệu bất thường.
+
+
+## Câu hỏi:
+
+
+### 1. Trình bày triệu chứng lâm sàng, cận lâm sàng để chẩn đoán xác định  thai nghén 3 tháng đầu?
+
+
+### 2. Trình bày triệu chứng lâm sàng, cận lâm sàng để chẩn đoán xác định  thai nghén 3 tháng giữa?

@@ -1,0 +1,192 @@
+# ĐA ỐI
+
+**Mã bài:** `SK-22` | **Chương:** Chương 2. Sản bệnh | **Giảng viên:** Ths. BSCK II. Hoàng Tiến Nam
+**Nguồn tài liệu:** Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021)
+
+---
+
+ĐA ỐI
+
+Ths. BSCK II. Hoàng Tiến Nam
+
+
+## Mục tiêu học tập
+
+
+### 1. Liệt kê các nguyên nhân gây đa ối.
+
+
+### 2. Trình bày được các triệu chứng của đa ối cấp và đa ối mãn.
+
+
+### 3. Nói được chẩn đoán phân biệt được đa ối và một số  bệnh lý khác.
+
+
+### 4. Trình bày được hướng xử  trí của đa ối.
+
+
+### 1. CHỨC NĂNG SINH LÝ CỦA NƯỚC ỐI
+
+Túi ối được tạo ra khoảng ngày thứ 12 sau khi trứng thụ tinh. Trong quí đầu của thời kỳ thai nghén, nước ối có tính đẳng trương và tương tự như huyết tương của người mẹ. Trong quý hai và nửa sau của thời kỳ thai nghén dịch ối trở nên nhược trương.
+
+Thể tích nước ối tăng dần cho đến đầu của 3 tháng cuối thai kỳ và từ đó hằng định cho đến khi thai đủ tháng. Trong giai đoạn tuần thứ 37 đến tuần thứ 41, thể tích nước ối giảm đi 10%. Từ tuần thứ 42 trở đi, thể tích nước ối giảm đi rất nhanh, khoảng 33% trong một tuần.
+
+Nước ối có vai trò:
+
+Bảo vệ thai khỏi các sang chấn trực tiếp lên tử cung.
+
+Điều hoà thân nhiệt cho thai nhi.
+
+Cho phép thai cử động tự do trong tử cung.
+
+Trao đổi nước, điện giải giữa thai nhi và mẹ.
+
+Giúp cho sự bình chỉnh của thai nhi.
+
+Trong chuyển dạ, đầu ối giúp cho sự xoá mở cổ tử cung.
+
+Dịch ối thay đổi tuỳ thuộc chủ yếu vào sự bài tiết của màng ối, sự thẩm thấu của thành mạch và nước tiểu của thai nhi. Trong vòng một giờ có khoảng 350 - 375 ml nước ối được thay thế.
+
+
+### 2. NGUYÊN NHÂN
+
+Nói chung đa ối là do sự sản xuất quá mức nước ối hoặc do rối loạn tái hấp thu của nước ối. Có những nguyên nhân về phía mẹ, thai nhi và rau thai.
+
+
+### 2.1. Nguyên nhân về phía mẹ
+
+Tiểu đường trước hoặc trong khi mang thai là nguyên nhân thường gặp.
+
+Kháng thể kháng Rh và các bệnh tán huyết thứ phát do kháng thể bất thường có thể gây tình trạng thiếu máu thai nhi trầm trọng hoặc phù thai nhi có liên quan đến tình trạng đa ối.
+
+Loạn dưỡng tăng trương lực cơ (ít gặp).
+
+
+### 2.2. Nguyên nhân rau thai
+
+U mạch máu màng đệm có thể gây suy tim thai nhi và dẫn đến tình trạng đa ối.
+
+Các bệnh lý viêm nội mạc tử cung hoặc gây thương tổn bánh rau (giang mai)
+
+
+### 2.3. Nguyên nhân do thai
+
+Bất thường hệ thống thần kinh trung ương thai nhi (vô sọ, khuyết tật ống nơron thần kinh).
+
+Khuyết tật cấu trúc hệ thống tiêu hoá (tắc ống thực quản hoặc ống tiêu hoá).
+
+Bất thường nhiễm sắc thể thai nhi.
+
+Phù thai không do yếu tố miễn dịch: có tiên lượng rất xấu và thường liên quan đến đa ối. Trường hợp điển hình có tình trạng phù rau thai.
+
+Hội chứng truyền máu song thai: là một rối loạn có tiên lượng xấu, xuất hiện với tỷ lệ 15% trong thai nghén song thai một màng đệm, hai túi ối, là biến chứng do đa ối ở thai nhận máu.
+
+
+### 3. TRIỆU CHỨNG VÀ CHẨN ĐOÁN
+
+Hình 1.  Đa ối.
+
+Bình thường lượng nước ối khoảng 300 - 800ml, từ 800 -1500ml gọi là dư ối. Đa ối khi lượng nước ối vượt quá trên 2000ml (con số này ít có ý nghĩa vì trên thực tế lâm sàng không thể ước lượng chính xác được lượng nước ối. Chẩn đoán được thực hiện bằng siêu âm và cho kết quả ước lượng gián tiếp về thể tích nước ối).
+
+Tỷ lệ đa ối khoảng 0,2 - 1,6 %.
+
+Người ta thường dùng chỉ số nước ối (A.F.I: amniotic fluid index) qua siêu âm để xác định đa ối. Gọi là đa ối khi chỉ số nước ối (A.F.I) vượt trên 25 cm (đo theo kỹ thuật của Phelan) phương pháp này nên được ưu tiên sử dụng trong trường hợp song thai.
+
+
+### 3.1. Các hình thái lâm sàng
+
+Trên lâm sàng ta có thể gặp 2 hình thái, đó là đa ối cấp và đa ối mãn, đa ối cấp ít gặp hơn.
+
+
+### 3.1.1. Đa ối cấp
+
+Đa ối cấp thường xảy ra vào tuần thứ 16-20 của thai kỳ, thường gây chuyển dạ trước tuần thứ 28 hoặc do các triệu chứng quá trầm trọng nên phải đình chỉ thai nghén.
+
+Những triệu chứng chủ yếu gây ra do nước ối phát triển nhanh làm tử cung to nhanh chèn ép vào cơ hoành gây khó thở. Hình ảnh lâm sàng phụ thuộc vào mức độ của đa ối và mức độ nhanh chóng của giai đoạn khởi bệnh:
+
+- Bụng lớn nhanh và căng cứng
+- Tử cung căng cứng và ấn đau
+- Không sờ được các phần thai nhi, khám kỹ có thể có dấu hiệu cục đá nổi.
+- Tim thai khó nghe hoặc nghe xa xăm.
+- Thăm âm đạo thấy đoạn dưới căng phồng, cổ tử cung hé mở, đầu ối căng
+- Phù và giãn tĩnh mạch đặc biệt là chi dưới do tĩnh mạch chủ dưới bị chèn ép.
+- Tình trạng khó thở ở bà mẹ và tiếp theo có thể xảy ra suy hô hấp.
+Dị dạng cấu trúc thai nhi cần được loại trừ bằng siêu âm trong tình huống này vì đa ối cấp tính có thể kèm theo dị dạng thai nhi như tắc nghẽn thực quản hoặc đoạn cao của ống tiêu hoá, quái thai vô sọ, tật nứt cột sống (spina bifida)....
+
+
+### 3.1.2. Đa ối mãn
+
+Đa ối mãn chiếm 95% các trường hợp đa ối và thường xảy ra vào những tháng cuối của thai kỳ. Bệnh tiến triển chậm nên bệnh nhân dễ thích nghi với các triệu chứng hơn. Bệnh nhân không đau nhiều và không khó thở nhiều như trong đa ối cấp.
+
+Sản phụ đến khám trong ba tháng cuối vì cảm thấy nặng bụng, bụng căng, khó thở, tim đập nhanh. Các triệu chứng thường phát triển từ từ. Nước ối tăng dần đến một lượng lớn làm tử cung căng to gây khó thở, mệt mỏi.
+
+Khám thực thể:
+
+- Tử cung lớn hơn so với tuổi thai.
+- Có dấu hiệu sóng vỗ.
+- Sờ nắn khó thấy các cực của thai nhi và có dấu hiệu cục đá nổi.
+- Thăm âm đạo thấy đoạn dưới căng phồng.
+
+### 3.2. Cận lâm sàng
+
+- Siêu âm: Siêu âm không những có vai trò giúp chẩn đoán xác định mà còn giúp phát hiện sớm những bất thường của thai nhi và phần phụ.
+- Xét nghiệm nước ối: định lượng(( Feto - protein, Acetylcholinestease, làm nhiễm sắt thể phát hiện các khuyết tật ống thần kinh.
+- Các xét nghiệm tổng quát khác để tìm các bệnh có thể có của mẹ như giang mai, đái đường, nhiễm Toxoplasma, nhóm máu và sàng lọc kháng thể...
+
+### 3.3. Chẩn đoán phân biệt
+
+- Chửa trứng: gặp trong thời kỳ đầu của thai kỳ, bụng thường lớn nhanh hơn so với tuổi thai, có ra máu âm đạo tự nhiên, ít một. Định lượng thấy (hCG huyết thanh rất cao, siêu âm thấy hình ảnh tuyết rơi hay chùm nho, ruột bánh mỳ.
+- Song thai: bụng to nhanh đều trong thai kỳ, có nghén nhiều, thai máy nhiều chỗ, khám thấy nhiều cực, nhiều chi… Chẩn đoán loại trừ chính xác qua siêu âm.
+- Bụng báng: không có dấu hiệu thai nghén, có dấu sóng vỗ, gõ đục vùng thấp, bụng bè ngang, có tuần hoàn bàng hệ. Chẩn đoán phân biệt nhờ siêu âm.
+- Khối u buồng trứng: bệnh nhân thường không có biểu hiện của có thai và các triệu chứng nghén, bụng thường lớn dần, đôi khi có cảm giác tức nặng hay đau nhiều trong trường hợp có biến chứng.Khám lâm sàng và siêu âm giúp chẩn đoán phân biệt.
+- Bí tiểu cấp: bệnh nhân có cảm giác căng tức và xuất hiện bụng lớn nhanh mà trước đó không có. Khi nghi ngờ nên thông tiểu
+
+### 4. ĐIỀU TRỊ
+
+Việc nghỉ ngơi, dùng thuốc lợi tiểu, hạn chế uống nước, và muối là những biện pháp ít có hiệu quả và không nên khuyến khích sử dụng các biện pháp này.
+
+
+### 4.1. Đa ối cấp
+
+- Chọc ối: làm giảm các triệu chứng về hô hấp cho mẹ. Đây chỉ là liệu pháp có tính chất tạm thời.
+- Đình chỉ thai nghén bằng cách gây chuyển dạ: Nếu thai nhi có dị dạng cấu trúc hoặc bất thường nhiễm sắc thể, nhân viên y tế cần phải tư vấn cho cặp vợ chồng về tiên lượng và một số giải pháp để lựa chọn, bao gồm cả việc chấm dứt thai nghén.
+
+### 4.2. Đa ối mãn
+
+Trong trường hợp bệnh nhẹ thì không cần can thiệp mà chỉ chờ đợi cho thai nhi đủ tháng nếu không có các chỉ định sản khoa khác.
+
+Nếu bệnh nhân xuất hiện khó thở, đau bụng hoặc đi lại khó khăn thì cho bệnh nhân nhập viện.
+
+- Điều trị nội khoa: Gần đây người ta dùng Indomethacine để điều trị đa ối. Thuốc này có tác dụng làm giảm lượng dịch ối tiết ra hoặc làm tăng sự tái hấp thu nước ối, làm giảm lượng nước tiểu thai nhi thải ra và làm tăng sự trao đổi dịch qua màng thai. Tuy nhiên, Indomethacine gây tình trạng đóng sớm ống động mạch nếu sử dụng kéo dài trên 48 -72 giờ hoặc sử dụng sau khi thai được 32 tuần. Có một số biến chứng khác của thai nhi và trẻ sơ sinh đã được biết có liên quan đến việc sử dụng Indomethacine. Bao gồm: tăng tỷ lệ viêm ruột hoại tử ở trẻ sơ sinh, tăng huyết áp mạch phổi, thiểu năng thận ở trẻ sơ sinh. Chính vì những lý do nêu trên, Indomethacin ít được sử dụng trong điều trị đa ối và phải hết sức cẩn thận khi dùng.
+Liều dùng 1,5 - 3 mg/kg/ngày.
+
+- Gây chuyển dạ: khi thai 38-39 tuần hoặc thai phụ khó thở, đi lại khó khăn.
+- Bấm ối khi sinh: Bấm ối chủ động làm giảm căng tử cung và giúp chuyển dạ được tiến triển thuận lợi, đồng thời hạn chế rau bong non và sa dây rốn. Do có một lượng dịch lớn nên khi lượng dịch này bị rút đi đột ngột làm giảm nhanh áp lực và diện tiếp xúc giữa rau thai và buồng tử cung, điều này có thể làm rau bong non và sa dây rốn. Do đó, cần phải thực hiện thủ thuật bấm ối một cách thận trọng, sử dụng kim để dịch ối chảy ra từ từ. Cần phải chuẩn bị sẵn sàng cho cuộc mổ lấy thai đề phòng có tai biến xảy ra khi bấm ối.
+Trong chuyển dạ thường cơn co tử cung yếu do tử cung bị căng quá mức do đó có thể bấm ối sớm để làm giảm áp lực của buồng ối giúp chuyển dạ tiến triển nhanh hơn.
+
+Khi tia ối chú ý cố định ngôi thai để đề phòng sa dây rốn.
+
+Nếu cần, có thể hỗ trợ cơn co tử cung bằng truyền oxytocin.
+
+Do tử cung quá căng, nguy cơ chảy máu sau sinh do đờ tử cung vì vậy phải cho thuốc co bóp tử cung ngay sau sinh.
+
+
+### 5. TIÊN LƯỢNG
+
+Nói chung tỷ lệ tử vong chu sinh tăng cao theo độ trầm trong của đa ối.
+
+Tiên lượng con xấu dù trên siêu âm không phát hiện các dị dạng thai.
+
+Tỷ lệ tử vong trẻ cao do thai thường đẻ non kèm với thai bất thường (39%), sa dây rốn, rau bong non do buồng tử cung bị căng quá mức...
+
+Biến chứng mẹ hay gặp là chảy máu do đờ tử cung, rau bong non, ngôi thai bất thường làm tăng chỉ định các thủ thuật can thiệp. Các biểu hiện về rối loạn hô hấp của mẹ có thể xuất hiện, từ mức khó thở cho đến tình trạng suy hô hấp nặng. Tình trạng này có thể thấy rõ trong các trường hợp đa ối cấp.
+
+
+## Câu hỏi:
+
+1: Anh (Chị) trỡnh bày triệu chứng lâm sàng, cận lâm sàng để chẩn đoán xác định, chẩn đoán phân biệt đa ối cấp?
+
+2: Anh (Chị) trỡnh bày triệu chứng lâm sàng, cận lâm sàng để chẩn đoán xác định, chẩn đoán phân biệt đa ối món?
+
+
+### 3. Anh (Chị) trỡnh bày nguyờn tắc và cỏc phương phỏp điều trị đa ối cấp và đa ối món?

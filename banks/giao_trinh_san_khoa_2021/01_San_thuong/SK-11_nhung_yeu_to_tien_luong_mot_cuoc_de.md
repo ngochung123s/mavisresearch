@@ -1,0 +1,264 @@
+# NHỮNG YẾU TỐ TIÊN LƯỢNG MỘT CUỘC ĐẺ
+
+**Mã bài:** `SK-11` | **Chương:** Chương 1. Sản thường | **Giảng viên:** Ts. Bùi Minh Tiến
+**Nguồn tài liệu:** Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021)
+
+---
+
+NHỮNG YẾU TỐ TIÊN LƯỢNG MỘT CUỘC ĐẺ
+
+
+## Mục tiêu học tập
+
+
+### 1. Nêu được khái niệm các yếu tố tiên lượng cuộc đẻ
+
+
+### 2. Nêu được các yếu tố tiên lượng cuộc đẻ có sẵn từ trước
+
+
+### 3. Nêu được các yếu tố tiên lượng cuộc đẻ phát sinh trong chuyển dạu đư Nêu được các yếu tố tiên lượng cuộc đẻ phát sinh trong chuyển dạ
+
+
+### 1. KHÁI NIỆM CHUNG
+
+
+### 1.1. Tiên lượng cuộc đẻ là gì?
+
+Tiên lượng cuộc đẻ là sự đánh giá của người thầy thuốc sau khi đã thăm khám một sản phụ để dự đoán cuộc đẻ sắp tới sẽ diễn ra bình thường hay khó khăn, có phải can thiệp không và can thiệp bằng cách nào là tối ưu để đảm bảo an toàn cho mẹ và con, phòng ngừa những tai biến có thể xảy ra trước, trong và sau khi đẻ.
+
+Tiên lượng cuộc đẻ không phải là dễ, đòi hỏi người thầy thuốc phải có kiến thức, có kinh nghiệm và quan trọng hơn cả là có thái độ nghiêm túc trong thăm khám và theo dõi sản phụ mới có thể tiên lượng được tốt và không để xảy ra tai biến.
+
+
+### 1.2. Quan niệm về một cuộc đẻ bình thường
+
+Quan niệm về một cuộc đẻ bình thường bao gồm nhiều yếu tố:
+
+Sản phụ đẻ tự nhiên theo đường dưới sau một cuộc cuộc chuyển dạ xảy ra bình thường.
+
+Trong chuyển dạ cũng như khi đẻ không phải can thiệp bất cứ thuốc men gì hoặc thủ thuật, phẫu thuật nào.
+
+Không có biến cố nào xảy ra cho mẹ và con khi chuyển dạ, khi đẻ và sau đẻ (trong suốt thời kỳ hậu sản)
+
+Một số chỉ tiêu cụ thể đã được nêu ra để đánh giá một cuộc đẻ bình thường:
+
+Mẹ khỏe mạnh: không có bệnh (cấp, mạn tính), không có dị tật và di chứng bệnh (toàn thân, sinh dục) không có tiền sử đẻ khó, băng huyết...
+
+Không có biến cố trong khi có thai lần này.
+
+Tuổi thai: 37 - 41 tuần.
+
+Thai một - ngôi chỏm.
+
+Chuyển dạ tự nhiên.
+
+Cơn co tử cung bình thường theo sự tiến triển của cuộc chuyển dạ.
+
+Nhịp tim thai ổn định trong suốt thời kỳ chuyển dạ.
+
+Tình trạng ối bình thường (không đa ối, không thiểu ối, nước ối không có phân xu, không có ối vỡ non và ối vỡ sớm).
+
+Thời gian chuyển dạ bình thường trung bình 16 - 18 giờ.
+
+Thời gian rặn đẻ bình thường (dưới 60 phút).
+
+Thai sổ tự nhiên không cần can thiệp (trừ cắt tầng sinh môn).
+
+Không phải dùng bất cứ thuốc gì, kể cả việc cho thở oxy.
+
+Thai đẻ ra cân nặng trên 2500 g, Apgar sau 1 phút đầu phải từ 8 điểm trở lên.
+
+Không có tai biến gì xảy ra cho mẹ và con trong suốt thời kỳ hậu sản.
+
+
+### 1.3. Thế nào là yếu tố tiên lượng
+
+Yếu tố tiên lượng là các dữ kiện được phát hiện khi hỏi sản phụ, khi thăm khám và trong quá trình theo dõi giúp cho người thầy thuốc đánh giá, dự đoán về diễn biến của cuộc chuyển dạ và quá trình đẻ. Các dữ kiện đó nếu trong phạm vi bình thường thì đó là các yếu tố tiên lượng tốt.
+
+Ngược lại, nếu trong các dữ kiện thu thập được, có những dấu hiệu, những chỉ số không bình thường thì cuộc đẻ có thể gặp khó khăn, tai biến có thể xảy ra. Trong trường hợp đó tiên lượng cuộc đẻ là dè dặt, là xấu và các yếu tố tiên lượng lúc đó là các yếu tố gây nguy cơ cho sức khỏe và tính mạng của cả mẹ và thai nhi. Ví dụ mẹ lùn, thấp (thường có khung chậu hẹp) thai to, u tiền đạo, đẻ nhiều lần, ngôi bất thường, sẹo mổ ở tử cung, nạo thai nhiều lần, rối loạn cơn co tử cung, chuyển dạ lâu...
+
+
+### 2. CÁC YẾU TỐ TIÊN LƯỢNG MỘT CUỘC ĐẺ
+
+
+### 2.1. Yếu tố tiên lượng có sẵn từ trước
+
+Là những dấu hiệu đã có sẵn ở người thai phụ. Đó là những yếu tố tiên lượng không thể thay đổi được, hầu như đó là những yếu tố nguy cơ cao trong thai nghén.
+
+
+### 2.1.1. Yếu tố tiên lượng xấu từ người mẹ
+
+a. Tình trạng bệnh lý của mẹ có từ trước lúc có thai: các bệnh tim, bệnh phổi, bệnh gan, bệnh thận, bệnh cao huyết áp, thiếu máu, sốt rét, suy dinh dưỡng, bệnh ngoại khoa (sẹo mổ viêm phúc mạc, thủng tạng rỗng, vỡ tạng đặc...) và cả các bệnh phụ khoa: u xơ tử cung, u nang bồng trứng, sa sinh dục, rò tiết niệu - sinh dục.
+
+b. Các bệnh cấp tính hoặc mạn tính mắc phải trong lúc đang có thai lần này và các bệnh do thai nghén mà có: nhiễm độc thai nghén, sốt, viêm ruột thừa và thai nghén, xoắn ruột...
+
+c. Các dị tật hoặc di chứng bệnh từ khi còn bé: các dị dạng sinh dục (tử cung nhi tính, vách ngăn âm đạo, tử cung đôi, tử cung co vách ngăn...). khung xương chậu hẹp, khung xương chậu lệch do còi xương, lao, chấn thương (gẫy xương, trật khớp), di chứng bại liệt...
+
+d. Tuổi mẹ quá trẻ (dưới 18 tuổi), lớn tuổi (trên 35 tuổi).
+
+e. Mẹ đẻ nhiều lần (4 lần trở lên), mẹ có tiền sử năng nề về thai nghén và sinh đẻ: điều trị vô sinh, sẩy thai liên tiếp, đẻ non, thai chết lưu, con chết ngạt, đã phải đẻ can thiệp (giác hút, forcept, mổ đẻ...) đã có lần bị băng huyết khi đẻ.
+
+Có yếu tố di truyền từ người mẹ hay người bố. Hoàn cảnh gia đình nghèo khó, thất học, lạc hậu về nhận thức...
+
+
+### 2.1.2. Yếu tố tiên lượng xấu từ phía thai
+
+a. Đa thai: sinh đôi, sinh ba.
+
+b. Ngôi thai bất thường: ngôi mặt cằm sau, ngôi trán, ngôi vai, ngôi mông.
+
+c. Thai to: Thai to bình thường (> 3500 g), thai to bệnh lý, thai dị dạng.
+
+d. Thai non tháng, thai suy dinh dưỡng, suy thai mạn tính, thai già tháng.
+
+e. Các bệnh lý bẩm sinh khác của thai khi còn trong bụng mẹ.
+
+
+### 2.1.3. Yếu tố tiên lượng xấu từ phần phụ của thai
+
+a. Bánh rau: rau bám thấp, rau tiền đạo, rau bong non, suy rau, bánh rau phụ...
+
+b. Về dây rốn: Sa dây rau trong bọc ối, sa bên ngôi, hoặc sa hẳn ra ngoài. Dây rau thắt nút, dây rau cuốn cổ, quấn thân...
+
+
+### 2.2. Yếu tố tiên lượng phát sinh trong chuyển dạ
+
+Đó là những dấu hiệu, những triệu chứng chưa có hoặc chưa phát hiện được lúc ban đầu của thời kỳ chuyển dạ mà chỉ mới xuất hiện trong quá trình diễn biến của chuyển dạ.
+
+
+### 2.2.1. Toàn thân của mẹ
+
+- Các cơn đau do co bóp tử cung khiến bà mẹ lo lắng, sợ hãi, kêu la gây ảnh hưởng xấu đến quá trình chuyển dạ.
+- Cuộc chuyển dạ kéo dài làm sản phụ mệt mỏi, đói lả, kiệt sức vì không ăn được.
+- Những thay đổi về mạch, huyết áp, nhiệt độ do nguyên nhân tâm lý sợ hãi hay do bội nhiễm.
+
+### 2.2.2. Diễn biến của cơn co tử cung
+
+a. Cơn co tử cung là động lực của cuộc chuyển dạ. Bình thường cơn co tử cung xuất phát từ một điểm hay gặp là từ sừng phải tử cung, lan xuống dưới cổ tử cung theo quy luật 3 giáng:
+
+- Từ trên xuống dưới.
+- Cường độ giảm dần.
+- Thời gian co giảm dần.
+Về mặt lâm sàng: các cơn co ban đầu: yếu, ngắn, thưa. Càng về sau càng mạnh, dài, mau.
+
+b. Các rối loạn cơn co tử cung có thể gặp trong chuyển dạ:
+
+- Rối loạn tăng co bóp:
+- Tăng cường độ (cơn co mạnh)
+- Tăng tấn số (cơn co mau)
+- Tăng cả hai (cơn co mạnh và mau)
+- Tăng trương lực cơ bản:
+- Do co thắt (trong rau bong non)
+- Do dãn căng (trong đa ối, sinh đôi)
+- Do co bóp tăng kéo dài (do lạm dụng oxytoxin)
+- Rối loạn giảm co bóp:
+- Giảm cường độ (cơn co yếu)
+- Giảm tần số (cơn co thưa)
+- Giảm cơn co toàn bộ (cơn co yếu và thưa).
+Tình trạng rối loạn cơn co trong chuyển dạ thường có nguyên nhân thực thể, thường là do tình trạng thai bị cản trở (ngừng trệ chuyển dạ), không tiến triển thuận lợi (lọt, xuống, quay, sổ, thai to, ngôi cúi không tốt, khung chậu hẹp)...mà khi thăm khám trước đó chưa phát hiện được. Đó là những đẻ khó ”cơ học” cần khám xét kỹ để tìm nguyên nhân. Nếu không thấy nguyên nhân nào thực thể thì tạm thời coi như rối loạn ”cơ năng” gây đẻ khó do động lực và có thể dùng thuốc giảm co bóp để điều trị. Nếu không có kết quả vẫn phải mổ lấy thai.
+
+
+### 2.2.3. Xóa mở cổ tử cung
+
+a. Bình thường trong quá trình chuyển dạ cổ tử cung sẽ xóa mở dần từ 1 cm đến 10 cm. Các yếu tố thuận lợi về tiên lượng có thể là:
+
+- Về vị trí: Cổ tử cung phải ở chính giữa tiểu khung.
+- Về mật độ: cổ tử cung phải mềm, xóa hết thì mỏng và ôm lấy đầu ối hoặc ngôi thai (nếu ối đã vỡ, không cứng rắn, không phù nề).
+- Về tốc độ mở:
+- Ở người con so:từ 1 cm đến 3 cm trung bình 8 giờ
+- Từ 3 cm đến 10 cm thời gian trung bình 7 giờ
+b. Các yếu tố không tốt có thể gặp:
+
+- Khi thăm khám cổ tử cung dày, cứng, phù nề, lỗ trong co thắt. Đặc biệt ở những thai phụ có tiền sử điều trị đốt nhiệt, đốt điện, đốt hóa chất, khoét chóp, cắt đoạn cổ tử cung.... thì tiên lượng xóa mở rất xấu.
+- Khi theo dõi tiến triển cổ tử cung mở chậm hoặc không mở thêm sau mỗi lần thăm khám.
+
+### 2.2.4. Đầu ối
+
+a. Tiên lượng tốt khi đầu ối dẹt, màng ối không quá dày, ối vỡ đúng lúc (khi cổ tử cung mở hết) không có tình trạng đa ối hay thiểu ối, nước ối bình thường không có lẫn phân xu.
+
+b. Tiên lượng không tốt khi đầu ối phồng hay hình quả lê, màng ối dày, ối vỡ non, ối vỡ sớm sẽ kéo theo nhiều nguy cơ khác: sa dây rau, sa chi, nhiễm khuẩn...Nước ối có phân xu biểu hiện sự suy thai. Nước ối có máu trong rau bong non, chảy máu ở các mạch máu bánh rau.
+
+
+### 2.2.5. Tim thai
+
+Trong chuyển dạ tùy theo tình trạng thai nhi mà cho phép chúng ta tiếp tục theo dõi cuộc chuyển dạ hoặc ngừng cuộc chuyển dạ. Suy thai là hậu quả của nhiều nguyên nhân:
+
+Hình 1: Các nguyên nhân gây suy thai
+
+Tình trạng thai nhi trong tử cung sẽ quyết định cách xử trí. Thai sống tốt là dấu hiệu tốt. Thai đã suy phải xử trí ngay. Thai chết thì không đặt vấn đề cấp cứu nữa. Vì vậy tim thai phải được theo dõi sát sao liên tục là rất quan trọng.
+
+
+### 2.2.6. Độ lọt của ngôi thai
+
+a. Khi ngôi thai tiến triển thuận lợi cùng với sự tiến triển của quá trình chuyển dạ, tiên lượng sẽ tốt khi ngôi thai cứ di chuyển dần từ cao xuống thấp. Cổ điển cho rằng ở người con so khi bước vào chuyển dạ ngôi thai đã phải lọt từ trước rồi (hiện tượng sụt bụng vào những tuần lễ cuối của thai nghén). Còn ở người con rạ chỉ trong khi chuyển dạ ngôi thai mới lọt. Thực ra trên thực tế ít khi gặp ngôi thai đã lọt khi mới bắt đầu chuyển dạ ở người con so. Trên biểu đồ chuyển dạ mức độ tiến triển của ngôi ta sẽ thấy hướng của đường biểu diễn sự tiến triển của ngôi đi ngược với hướng của đường biểu diễn độ mở cổ tử cung (Hình 2)
+
+Hình 2: Đường biểu diễn độ mở cổ tử cung và tiến triển của ngôi
+
+b. Tiên lượng không tốt trong tiến triển của ngôi thai:
+
+- Đầu luôn chờm vệ (Dấu hiệu Vastin ở hình 3)
+Hình 3: Đầu chờm vệ (dấu hiệu Vastin)
+
+- Ngôi thai không tiến triển hoặc tiến triển ở mức độ nào đó thì dừng lại ngừng tiến triển (đầu không lọt) mặc dù cơn co tử cung tốt, thậm chí còn tăng co bóp. Thăm trong thường thấy các xương sọ của thai chồng khớp nhiều hay ít. Khi đánh giá mức độ tiến triển của ngôi thai cần hết sức lưu ý đến những trường hợp lọt giả (hình 4 và 5), nếu nhầm lẫn sẽ gây hậu quả nghiêm trọng khi quyết định xử trí.
+Hình 4: Lọt giả do bướu huyết thanh
+
+Hình 5: Lọt giả do xương so không chồng khớp nặng
+
+- Độ lọt bị ngừng trệ nếu:
+- Cơn co tử cung chưa đủ mạnh, không đều
+- Ối vỡ sớm làm ngôi bình chỉnh không tốt.
+- Cổ tử cung không mở
+- Ngôi thế không thuận lợi do đầu cúi không tốt.
+- Các yếu tố kín đáo như dây rau ngắn, dây rau cuốn cổ, rau bám thấp.
+
+### 2.2.7 Các tai biến khi chuyển dạ
+
+a. Rau tiền đạo
+
+Việc tiên lượng trước hết là phải đánh giá được khối lượng máu chảy từ trước khi vào bệnh viện. Nếu chảy máu đã nhiều có hiện tượng suy thai và đe dọa tính mạng của người mẹ thì phải xử trí ngay. Tiên lượng còn phụ thuộc vào yếu tố phân loại rau tiền đạo:
+
+- Rau tiền đạo trung tâm hoàn toàn phải mổ dù con sống hay chết.
+- Rau tiền đạo bán trung tâm hầu hết là phải mổ trừ trường hợp thai quá nhỏ và chảy máu ít.
+- Rau bám mép, bám bên phải bấm ối cầm máu. Tiên lượng đẻ đường dưới nếu sau bấm ối cầm máu được nhưng vẫn phải kiểm tra những yếu tố đẻ khó khác.
+b. Rau bong non
+
+Nếu chẩn đoán là rau bong non thì mổ lấy thai ngay để cứu con và phòng biến chứng nặng hơn cho mẹ
+
+Khi đã co dấu hiệu choáng, trương lực cơ tử cung bắt đầu tăng, tử cung có xu hướng cứng liên tục thì vấn đề xử trí để cứu mẹ là chính. Hồi sức, chống choáng, chống chảy máu do rối loạn đông máu, mổ cắt tử cung, nếu bảo tồn được tử cung thì rất cần thiết và có điều kiện.
+
+c. Dọa vỡ tử cung
+
+- Loại trừ nguyên nhân do dùng oxytocin quá liều, phải cho thuốc giảm co
+Chỉ định mổ hoặc forceps khi đủ điều kiện.
+
+d. Vỡ tử cung
+
+Mổ, hồi sức, chống nhiễm khuẩn và rối loạn đông máu. Bảo tồn tử cung khi thật cần thiết và có điều kiện.
+
+e. Sa dây rau
+
+Sa dây rau là tối cấp cứu đối với thai nhi. Nếu thai còn sống, dây rau còn đập thì phải mổ lấy thai cấp cứu. Nếu thai đã chết thì không đặt vấn đề cấp cứu nữa.
+
+g. Sa chi: Thử đẩy chi lên, nếu có thêm một yếu tố đẻ khó khác cần mổ lấy thai.
+
+
+### 3. KẾT LUẬN
+
+Tiên lượng cuộc đẻ cho chính xác là điều khó nhưng lại là điều bắt buộc người thầy thuôc sản khoa nào cũng phải thực hiện để tránh các tai biến có thể xảy ra đối với cả hai sinh mạng của mẹ và con.
+
+Công việc tuyên truyền giáo dục sức khỏe trong nhân dân, nhất là với phụ nữ, việc xây dựng màng lưới y tế cộng đồng làm tốt công tác chăm sóc sức khỏe sinh sản, thực hiện tốt công tác đăng ký quản lý thai, khám thai định kỳ để phát hiện những nguy cơ, lựa chon nơi đẻ an toàn nhất cho sản phụ là những công việc thiết thực góp phần hạ thấp tỷ lệ tai biến khi thai nghén và sinh đẻ. Đó cũng là giúp cho các thầy thuốc ở cơ sở điều trị làm tốt công việc tiên lượng cho một cuộc đẻ.
+
+
+## Câu hỏi:
+
+
+### 1. Anh (Chị) trỡnh bày các yếu tố tiên lượng cuộc đẻ cú sẵn từ trước về phía mẹ?
+
+
+### 2. Anh (Chị) trỡnh bày các yếu tố tiên lượng cuộc đẻ cú sẵn từ trước về phía thai và phần phụ của thai?
+
+
+### 4. Anh (Chị) trỡnh bày các yếu tố tiên lượng cuộc đẻ phỏt sinh trong chuyển dạ ?
+
+
+### 5. Anh (Chị) trỡnh bày các tai biến cuộc đẻ phỏt sinh trong chuyển dạ về phía con?

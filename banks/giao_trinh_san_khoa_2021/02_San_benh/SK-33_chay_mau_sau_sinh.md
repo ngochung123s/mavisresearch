@@ -1,0 +1,300 @@
+# CHẢY MÁU SAU SINH
+
+**Mã bài:** `SK-33` | **Chương:** Chương 2. Sản bệnh | **Giảng viên:** Ths. Bùi Thị Thanh Tuyền
+**Nguồn tài liệu:** Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021)
+
+---
+
+CHẢY MÁU SAU SINH
+
+Ths. Bùi Thị Thanh Tuyền
+
+
+## Mục tiêu học tập
+
+
+### 1.  Phân loại các nguyên nhân chảy máu sau đẻ
+
+
+### 2. Lựa chọn các xử trí ban đầu chảy máu sau đẻ
+
+
+### 3. Lựa chọn các biện pháp phòng chống cho từng trường hợp
+
+
+### 1. ĐẠI CƯƠNG
+
+Chảy máu sau sinh là một biến chứng trầm trọng, một trong 5 tai biến chính của sản khoa. Ngày nay, nhờ các tiến bộ của hồi sức cấp cứu đã làm giảm sự trầm trọng của biến chứng này. Chảy máu sau đẻ vẫn là nguyên nhân gây tử vong chính trong sản khoa, đặc biệt khi có biểu hiện rối loạn đông máu. Biến chứng này thường xảy ra bất ngờ do vậy cần phải có biện pháp dự phòng và điều trị tích cực.
+
+Chảy máu sau đẻ là khi lượng máu mất trên 500ml hoặc choáng do mất máu xảy ra sau đẻ và thường xảy ra trong 24 giờ đầu. Tuy nhiên, một số trường hợp chỉ mất lượng máu ít hơn nhưng đã ảnh hưởng đến tổng trạng chung của sản phụ, tuỳ theo thể trạng và bệnh lý trước đó.
+
+Tần suất: trong y văn đối với đẻ đường dưới tần suất chảy máu trên 300ml là 18 - 26%, chảy máu nặng trên 1000 ml từ 3 - 4,5% sau đẻ hoặc 6% sau mổ lấy thai.
+
+Chảy máu xảy ra ngay sau đẻ có thể do 3 nguyên nhân:
+
+- Bệnh lý trong thời kỳ sổ rau: do sót rau, đờ tử cung.
+- Tổn thương đường sinh dục: vỡ tử cung, rách cổ tử cung, rách âm đạo, rách tầng sinh môn.
+- Bệnh lý rối loạn đông máu (rất hiếm gặp).
+
+### 2. BỆNH LÝ THỜI KỲ SỔ RAU
+
+
+### 2.1. Sót rau
+
+Rau sót nhiều hoặc ít trong tử cung đều gây chảy máu.
+
+
+### 2.1.1. Rối loạn về co bóp tử cung
+
+Đờ tử cung là nguyên nhân gây chảy máu sau đẻ thường gặp nhất. Ngược với đờ tử cung là tăng trương lực tử cung dưới dạng co thắt tử cung, tạo vòng thắt ở lỗ trong cổ tử cung hoặc ở sừng tử cung làm rau bị cầm tù trên vòng thắt.
+
+
+### 2.1. 2. Bám bất thường của bánh rau
+
+Rau cài răng lược (rau bám chặt, rau bám vào cơ tử cung, rau xuyên cơ tử cung) loại này hiếm gặp, tỷ lệ 1/10.000 cuộc đẻ, chỉ xảy ra trong trường hợp bất thường của niêm mạc tử cung: sẹo cũ, dính, u xơ, giảm sản nội mạc, viêm nội mạc, dị dạng tử cung.
+
+
+### 2.1.3. Bất thường về vị trí bánh rau
+
+Rau bám đoạn dưới, trên vách tử cung dị dạng, trên vùng tử cung mỏng. Hoạt động tử cung ở vùng này ít hiệu quả để bong rau. Nguy cơ rau cài răng lược ở trên các chỗ bám này cũng cao hơn.
+
+Điều trị: chỉ định kiểm soát buồng tử cung trong trường hợp chảy máu do sót rau. Đối với trường hợp sau sổ thai một giờ rau không bong, nghiệm pháp bong rau âm tính, hoặc chảy máu nhiều phải bóc rau nhân tạo, nếu không kết quả thì mổ cắt tử cung bán phần.
+
+
+### 2.1.4. Dự phòng
+
+Lý tưởng nhất là phải dự phòng các trường hợp chảy máu sau đẻ:
+
+- Tôn trọng các nguyên tắc trong thời kỳ sổ rau.
+- Nếu xử trí tích cực giai đoạn 3 cần phải thực hiện đúng kỹ thuật
+- Kiểm tra kỹ bánh rau, trong trường hợp sót rau phải kiểm tra lòng tử cung.
+
+### 2.2. Đờ tử cung
+
+
+### 2.2.1. Nguyên nhân: đờ tử cung có thể xaỷ ra ở những trường hợp sau
+
+- Sản phụ suy nhược, thiếu máu, tăng huyết áp, tiền sản giật...
+- Nhược cơ tử cung do chuyển dạ kéo dài.
+- Tử cung giãn quá mức do song thai, đa ối, thai to.
+- Tử cung mất trương lực sau khi đẻ quá nhanh.
+- Sót rau, màng rau trong buồng tử cung
+- Bất thường tử cung: u xơ, tử cung dị dạng.
+- Đờ tử cung do sử dụng thuốc: sau gây mê bằng các thuốc mê họ Halothane(fluothane) sử dụng Betamimetic, dùng oxytocin không liên tục sau khi sổ thai.
+Trên lâm sàng có hai mức độ đờ tử cung:
+
+- Đờ tử cung còn phục hồi: là tình trạng cơ tử cung bị giảm trương lực nên tử cung co hồi kém, đặc biệt ở vùng rau bám; nhưng cơ tử cung còn đáp ứng với các kích thích cơ học và thuốc.
+- Đờ tử cung không hồi phục: cơ tử cung không còn đáp ứng với các kích thích trên.
+
+### 2.2.2. Triệu chứng và chẩn đoán
+
+- Chảy máu: chảy máu ngay sau sổ rau là triệu chứng phổ biến nhất. Máu có thể chảy liên tục hoặc khi ấn vào đáy tử cung máu sẽ chảy ồ ạt ra ngoài.
+- Tử cung nhão, mềm do co hồi kém hoặc không co hồi, không có khối an toàn mặc dầu rau đã sổ.
+
+### 2.2.3. Xử trí
+
+Phải xử trí khẩn trương, tiến hành song song cầm máu và hồi sức.
+
+- Dùng mọi biện pháp cơ học để cầm máu: xoa tử cung qua thành bụng, chẹn động mạch chủ bụng, ép tử cung bằng hai tay.
+- Thông tiểu để làm rỗng bàng quang.
+- Làm sạch lòng tử cung: lấy hết rau sót, lấy hết máu cục.
+- Tiêm 5 - 10 đơn vị oxytocin tiêm bắp hoặc tiêm vào cơ tử cung, nếu tử cung vẫn không co thì tiêm bắp ergometrine 0,2 mg (cũng có thể truyền tĩnh mạch để có tác dụng nhanh hơn).
+- Truyền nhỏ giọt tĩnh mạch oxytocin  5 - 10 đơn vị trong 500 ml dung dịch glucoza 5%.
+- Truyền dịch chống choáng.
+- Trong 2 giờ đầu mỗi 15 phút xoa đáy tử cung một lần, kéo dài trong 2 phút cho đến khi có cảm giác tử cung co cứng thành khối dưới tay.
+Tuy nhiên nếu sau khi xoa bóp tử cung, tiêm oxytocin hoặc ergometrin nhưng máu tiếp tục chảy và mỗi khi ngừng xoa tử cung lại nhão, phải nghĩ đến đờ tử cung không hồi phục, lập tức chỉ định can thiệp phẫu thuật (thắt hai động mạch tử cung, thực hiện mũi khâu B_Lynch, thắt động mạch hạ vị trước khi cắt tử cung bán phần).
+
+- Tuyến xã: nếu không cầm máu được thì mời tuyến trên hỗ trợ hoặc chuyển tuyến trên có hộ tống.
+- Tuyến huyện: xử trí như trên, nếu không cầm máu được thì mổ cắt tử cung bán phần.
+
+### 2.2.4. Dự phòng
+
+Trong trường hợp chuyển dạ kéo dài hoặc tử cung bị giãn quá mức do thai to, đa ối, các trường hợp con rạ đẻ nhiều lần nên:
+
+- Theo dõi cuộc đẻ bằng biểu đồ chuyển dạ.
+- Tiêm bắp 10 đơn vị oxytocin khi vai trước sổ hoặc ngay sau sổ thai nhưng phải chắc chắn rằng không còn thai thứ 2.
+- Xử trí tích cực giai đoạn III bao gồm: tiêm oxytocin, kéo nhẹ dây rốn có kiểm soát và xoa tử cung.
+ư Misoprostol 200 àg x 2 viờn đặt trực tràng sau sổ rau.
+
+Hình 1. Ðờ tử cung và xử trí ép tử cung bằng 2 tay
+
+
+### 2.3. Lộn lòng tử cung
+
+Là biến chứng hiếm gặp, do các nguyên nhân: kéo dây rốn, đẩy đáy tử cung khi sổ rau. Triệu chứng thường gặp là đau dữ dội, chảy máu nhiều, choáng, mót rặn. Mót rặn chỉ gặp trong hai trường hợp sau đẻ, đó là khối máu tụ âm đạo, tiểu khung hoặc lộn lòng tử cung.
+
+Khám bụng: tuỳ theo mức độ có thể thấy lõm ở đáy tử cung, hoặc không sờ thấy tử cung trên vệ. Khám âm đạo thấy khối tử cung trong âm đạo, mềm, đau, có thể co bóp, có vòng thắt tử cung trên khối đó.
+
+Xử trí: nếu chẩn đoán sớm có thể đẩy tử cung trở lại, sau đó tiêm oxytocin và phải giữ tay trong lòng tử cung để kiểm soát sự co bóp của tử cung, nếu thất bại phải mổ thắt động mạch tử cung, thực hiện mũi khâu B-Lynch cải tiến (khâu 2 đai cạnh tử cung) nếu không cầm máu được thì cắt tử cung.
+
+Hình 2. Ðẩy tử cung trở lại trong lộn lòng tử cung
+
+
+### 2.4. Rau cài răng lược
+
+Ở người có tiền sử đẻ nhiều lần, nạo thai nhiều lần, viêm niêm mạc tử cung; chất lượng niêm mạc tử cung không còn tốt nên các gai rau bám trực tiếp vào cơ tử cung (không có lớp xốp của ngoại sản mạc), có khi gai rau xuyên sâu vào chiều dày lớp cơ tử cung. Có thể chỉ một phần bánh rau bám vào lớp cơ hay toàn bộ bánh rau bám vào lớp cơ, người ta phân  rau cài răng lược thành các loại sau:
+
+Rau cài răng lược toàn phần: toàn bộ bánh rau bám vào lớp cơ tử cung do đó không bong ra được và không chảy máu.
+
+Rau cài răng lược bán phần: chỉ một phần bánh rau bám sâu vào cơ tử cung do đó bánh rau có thể bong một phần, gây chảy máu. Lượng máu chảy tùy thuộc vào vào tình trạng co của lớp cơ tử cung và mức độ bong rau.
+
+Có 3 mức độ cài của gai rau:
+
+- Rau bám chặt.
+- Rau bám xuyên cơ tử cung.
+- Rau xuyên thủng cơ tử cung, có thể bám vào các tạng lân cận.
+
+### 2.4.1. Triệu chứng lâm sàng
+
+- Nếu rau cài răng lược toàn phần thì sau sổ thai một giờ rau vẫn không bong, tuy không chảy máu.
+- Nếu rau cài răng lược bán phần thì sau khi thai sổ, rau vẫn không bong hết nên không sổ được, chảy máu nhiều hay ít tùy theo diện rau đã bong rộng hay hẹp.
+- Chỉ có thể chẩn đoán chắc chắn dựa vào thử bóc rau không kết quả hay chỉ bóc được một phần và máu chảy nhiều.
+- Cần chú ý phân biệt với rau mắc kẹt (rau bị cầm tù):
+Trường hợp này bánh rau đã bong nhưng không sổ tự nhiên được vì bị mắc kẹt trong tử cung do vòng thắt của lớp cơ đan. Đặc biệt bánh rau dễ bị mắc kẹt trong trường hợp tử cung hai sừng, khi ấy chỉ cần cho tay vào buồng tử cung sẽ lấy được rau ra vì bánh rau đã bong hoàn toàn.
+
+
+### 2.4.2. Xử trí
+
+Nếu máu chảy trong thời kỳ sổ rau hoặc trên một giờ rau không bong thì bóc rau nhân tạo, kiểm soát tử cung.
+
+Hình 3. Bóc rau bằng tay
+
+Nếu bóc rau không được do rau bám xuyên vào cơ tử cung, phải mổ cắt tử cung bán phần, hồi sức, truyền dịch, truyền máu trong và sau mổ.
+
+Trường hợp rau tiền đạo cài răng lược phải cắt tử cung bán phần thấp hoặc cắt tử cung hoàn toàn để cầm máu.
+
+Tuyến xã: nếu chảy máu khi rau chưa bong thì bóc rau nhân tạo, kiểm soát tử cung và dùng oxytocin. Nếu rau không bong và không chảy máu thì chuyển tuyến trên.
+
+Tuyến huyện: bóc rau nhân tạo, kiểm soát tử cung, nếu bóc không được thì cắt tử cung bán phần.
+
+
+### 3. CHẤN THƯƠNG ĐƯỜNG SINH DỤC
+
+
+### 3.1. Vỡ tử cung
+
+Xem bài "Vỡ tử cung"
+
+
+### 3.2. Rách âm hộ, âm đạo, tầng sinh môn
+
+
+### 3.2.1 Nguyên nhân
+
+- Về phía mẹ: tầng sinh môn rắn ở người sinh con so lớn tuổi, nhiễm khuẩn, phù nề và có sẹo cũ ở tầng sinh môn.
+- Về phía thai: thai to, thai sổ kiểu chẩm cùng, sổ đầu hậu trong ngôi mông
+- Do thủ thuật: đẻ hỗ trợ bằng forceps, giác hút..
+
+### 3.2.2.Chẩn đoán:
+
+Sau khi sổ thai thấy máu vẫn chảy ra, có thể nhìn thấy ngay máu chảy từ vết rách hay vết cắt tầng sinh môn, cần kiểm tra kỹ chỗ rách để xác định mức độ rách tầng sinh môn:
+
+- Độ I: rách da và niêm mạc âm đạo.
+- Độ II: rách da, niêm mạc âm đạo và một phần cơ tầng sinh môn (thường là cơ hành hang).
+_ Độ III: rách cơ tầng sinh môn tới tận nút thớ trung tâm.
+
+- Độ IV: rách qua nút thớ trung tâm tới tận phên trực tràng âm đạo, làm âm đạo thông với trực tràng.
+
+### 3.2.2 Xử trí
+
+- Gây tê tại chỗ hoặc sử dụng các thuốc giảm đau.
+- Khâu phục hồi sau khi sổ rau và biết chắc là tử cung không còn sót rau.
+- Khâu từ trong ra ngoài, từ lớp sâu đến nông, khâu mũi rời, các mũi cách rau 0,5 cm. Mũi khâu đầu tiên của lớp niêm mạc phải trên đỉnh vết rách 0,5 - 1 cm.
+- Khâu 3 lớp: lớp niêm mạc và lớp cơ ở trong bằng catgut, lớp da ở ngoài bằng chỉ không tiêu; Không để khoảng trống giữa 2 lớp, không để lệch hoặc chồng mép. Riêng đối với rách tầng sinh môn độ IV, vì phẫu thuật phức tạp, vết rách khó liền do sản dịch và nước tiểu gây nhiễm khuẩn tại chỗ, chỉ nên khâu phục hồi sau khi hết thời kỳ hậu sản.
+Hình 4. Rách âm đạo - tầng sinh môn và kỹ thuật khâu
+
+
+### 3.2.3. Chăm sóc
+
+- Giữ vết khâu luôn sạch: phải rửa âm hộ ngày 2 - 3 lần nhất là sau đại tiện, tiểu tiện.
+- Giữ vết khâu khô: sau khi rửa phải thấm khô.
+- Chế độ ăn: ăn nhẹ, tránh táo bón.
+- Nếu vết khâu phù nề cần cắt chỉ sớm.
+- Cắt chỉ sau 5 ngày.
+
+### 3.2.4. Dự phòng :
+
+- Hướng dẫn cho sản phụ cách rặn đẻ.
+- Giữ tầng sinh môn đúng phương pháp khi sổ thai.
+- Đỡ đẻ đúng kỹ thuật.
+- Cắt tầng sinh môn khi có chỉ định.
+
+### 3.3. Rách cổ tử cung
+
+
+### 3.3.1. Nguyên nhân
+
+Tất cả các trường hợp chảy máu ngay sau đẻ, phải kiểm tra cổ tử cung. Tần suất có thể gặp 11% ở con so, 4% ở con rạ. Rách thường ở hai vị trí 3 - 9 giờ, có thể kéo lên đến vòm âm đạo, đôi khi rách cổ tử cung lên đến đoạn dưới. Rách cổ tử cung có thể gặp khi sổ thai mà cổ tử cung chưa mở hết, sinh thủ thuật, đẻ nhanh, cổ tử cung xơ chai.
+
+
+### 3.3.2. Chẩn đoán
+
+Sau khi sổ thai hoặc rau máu ra nhiều màu đỏ tươi, kiểm tra cổ tử cung thấy có chỗ rách nham nhở hoặc không liên tục, đang chảy máu (lưu ý vị trí 3 giờ và 9 giờ).
+
+Rách nông: đỉnh vết rách ở dưới chỗ bám âm đạo - cổ tử cung.
+
+Rách sâu: Đỉnh vết rách ở trên chỗ bám âm đạo -cổ tử cung, phải kiểm tra kỹ xem có vỡ tử cung, rách bàng quang hoặc tổn thương trực tràng.
+
+
+### 3.3.2. Xử trí
+
+Đánh giá cẩn thận tổn thương, phải thấy rõ đỉnh vết rách, khâu phục hồi vết rách bằng các mũi rời. Trường hợp rách trên âm đạo, nếu ngoài phúc mạc có thể khâu đường dưới, nếu trong phúc mạc đôi khi phải phẫu thuật.
+
+Hình 5. Khâu vết rách cổ tử cung
+
+
+### 4. BỆNH LÝ RỐI LOẠN ĐÔNG CHẢY  MÁU
+
+
+### 4.1. Nguyên nhân
+
+Chảy máu do bệnh lý rối loạn đông máu thường nặng, có thể gặp trong các bệnh lý sản khoa như rau bong non, thai chết trong tử cung, nhiễm trùng tử cung, tắc mạch nước ối, hoặc một số bệnh lý nội khoa khác như viêm gan siêu vi cấp, xuất huyết giảm tiểu cầu,…
+
+
+### 4.2. Các yếu tố chẩn đoán sinh học
+
+- Tăng thời gian Quick
+- Tăng thời gian hoạt hoá cephaline
+- Giảm số lượng tiểu cầu
+- Giảm fibrinogen.
+- Giảm tỷ lệ của các yếu tố II, V, giảm Antithrombin III, tăng các sản phẩm thoái hoá fibrin (PDF).
+
+### 4.3. Điều trị
+
+- Điều trị: bổ sung các yếu tố thiếu: truyền máu tươi, plasma tươi, cung cấp các yếu tố đông máu. Fibrinogen cô đặc được chỉ định trong trường hợp giảm fibrinogen nặng.
+- Heparin ít sử dụng trong chảy máu sản khoa.
+- Sau khi điều chỉnh các yếu tố đông máu và ngừng chảy máu, nên dự phòng tắc mạch do huyết khối  bằng calciparin trong 21 ngày.
+- Phẫu thuật cắt tử cung bán phần kèm buộc động mạch hạ vị trong một số trường hợp có chỉ định.
+
+### 5. ĐỀ PHÒNG CHẢY MÁU SAU SINH
+
+- Sử dụng biểu đồ chuyển dạ để phát hiện chuyển dạ bất thường và phải xử trí thích hợp
+- Sử dụng thuốc tăng và giảm co đúng chỉ đinh, liều lượng
+- Đỡ đẻ đúng kỹ thuật
+- Kiểm tra rau và màng rau tránh để sót rau, sót màng
+- Sau sinh phải kiểm tra ống đẻ để phát hiện các tổn thương
+- Tư vấn và vận động thực hiện sinh đẻ có kế hoạch
+
+## Câu hỏi:
+
+Câu 1: Trình bày nguyên nhân, triệu chứng lâm sàng của đờ tử cung sau đẻ
+
+Câu 2: Trình bày các triệu chứng lâm sàng của rau cài răng lược?
+
+Câu 3: Trình bày nguyên nhân, triệu chứng lâm sàng của sót rau sau đẻ?
+
+Câu 4:  Trình bày nguyên nhân của rách tầng sinh môn?
+
+Câu 5: Trình bày nguyên nhân, triệu chứng lâm sàng và hướng xử trí của rách âm đạo?
+
+Câu 6: Trình bày nguyên nhân, triệu chứng lâm sàng và hướng xử trí rách cổ tử cung sau đẻ?
+
+Câu 7:Trình bày  nguyên nhân, triệu chứng lâm sàng và hướng xử trí của rối loạn đông máu sau đẻ băng huyết?
+
+Câu 8:Trình bày hướng xử trí  ban đầu của đở tử cung sau đẻ ở tuyến cơ sở?
+
+Câu 9: Trình bày hướng xử trí  ban đầu của rau cài răng lược ở tuyến cơ sở?
+
+Câu 10: Trình bày hướng xử trí  ban đầu của sót rau ở tuyến cơ sở?
+
+Câu 11:Trình bày  triệu chứng lâm sàng và hướng xử trí của rách tầng sinh môn?

@@ -1,0 +1,336 @@
+# HỒI SỨC SƠ SINH NGẠT
+
+**Mã bài:** `SK-49` | **Chương:** Chương 4. Sơ sinh | **Giảng viên:** Ths. Đinh Văn Hoành
+**Nguồn tài liệu:** Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021)
+
+---
+
+HỒI SỨC SƠ SINH NGẠT
+
+Ths. Đinh Văn Hoành
+
+
+## Mục tiêu học tập.
+
+
+### 1. Giải thích ảnh hưởng của tình trạng ngạt lên hệ tuần hoàn, chuyển hóa của thai nhi.
+
+
+### 2. Đánh giá mức độ trầm trọng của trẻ sau sinh dựa vào chỉ số  APGAR.
+
+
+### 3. Thực hiện kỹ thuật hồi sức trẻ sơ sinh bị ngạt
+
+
+### 1. ĐẠI CƯƠNG
+
+Ngạt ở trẻ sơ sinh là tình trạng đứa bé thất bại trong việc khởi động và duy trì hô hấp lúc mới sinh dẫn đến hậu quả là thiếu oxy máu, thừa CO2 dẫn đến toan chuyển hoá. Ngạt có thể gây tử  vong sơ sinh hoặc để lại nhiều di chứng.
+
+Theo WHO có khoảng 3% trong tổng số 120 triệu trẻ sơ sinh mỗi năm ở các nước đang phát triển bị ngạt khi sinh cần được hồi sức. Mỗi năm có khoảng 900.000 trẻ tử vong do ngạt.
+
+
+### 2. SINH LÝ BỆNH HỌC TRẺ SƠ SINH NGẠT
+
+Trường hợp trẻ bị ngạt sau khi sinh, do phổi của trẻ chưa hoạt động nên trao đổi khí không thể xảy ra ở phổi dẫn đến tình trạng thiếu oxy kéo dài. Trong khi đó, dây rốn đã bị cắt, sơ sinh không còn liên hệ với tuần hoàn mẹ. Do thiếu oxy mạch máu phổi càng co lại, máu về tim trái ít nên lỗ Botal không đóng lại được. Chỉ cần đứa trẻ ngạt trong vài phút sẽ dẫn đến nguy cơ:
+
+- PaO2 giảm dần đến 0 mmHg
+- PaCO2 tăng dần đến 100 mmHg
+- pH máu giảm < 7,20
+Nếu không được hồi sức hữu hiệu, tình trạng ngạt sơ sinh kéo dài sẽ đưa đến toan hô hấp rồi toan chuyển hoá.
+
+Trẻ bị ngạt thiếu oxy nên chuyển hoá Glucose phải đi theo con đường yếm khí, giải phóng nhiều acid lactic làm pH máu ngày càng giảm. Do đó, mục đích của phương pháp hồi sức sơ sinh là đưa không khí vào tận phế nang làm cho phổi hoạt động, cải thiện tình trạng thiếu oxy máu và toan chuyển hoá.
+
+
+### 3. PHƯƠNG PHÁP ĐÁNH GIÁ TRẺ SƠ SINH NGAY SAU ĐẺ
+
+Chỉ số APGAR: Là phương tiện hữu ích trong việc đánh giá trẻ sau sinh ở thời điểm 1 phút và lặp lại ở 5 phút sau sinh.
+
+Bảng điểm APGAR
+
+Dấu hiệu
+
+0 điểm
+
+1 điểm
+
+2 điểm
+
+Màu da
+
+Xanh, tím toàn thân
+
+Thân hồng, tay chân tím
+
+Toàn thân hồng
+
+Nhịp tim
+
+Không có
+
+< 100 lần/phút
+
+> 100 lần/phút
+
+Phản xạ
+
+Không đáp ứng
+
+Nhăn mặt
+
+Khóc to
+
+Trương lực cơ
+
+Mềm nhũn
+
+Có vài sự co cơ các chi
+
+Vận động tốt
+
+Hô hấp
+
+Không có
+
+Chậm, không đều
+
+Tốt, khóc
+
+Theo nhiều tác giả, chúng ta nên đánh giá chỉ số APGAR ở những thời điểm 1 phút, 5phút, 10 phút sau sinh.
+
+Trẻ tốt đạt 10 điểm là tối đa.
+
+Đánh giá điểm số APGAR sau 1 phút để xác định xem có cần hồi sức hay không?
+
+- APGAR 8 - 10/1 phút: Tình trạng trẻ tốt, chỉ cần hút sạch dịch ở mũi - hầu
+- APGAR 4 - 7/1 phút: Trẻ ngạt từ nhẹ đến trung bình. Trẻ có hô hấp yếu, trương lực cơ nhão, màu sắc da xanh đến tím nhưng nhịp tim và kích thích phản xạ tốt. Cần phải hồi sức cho đứa bé.
+- APGAR 0 - 3/1phút: Trẻ ngạt nặng, không khóc, không thở, mạch rốn không đập hoặc đập dưới 80 lần/phút. Nhịp tim chậm hoặc không nghe được. Đáp ứng phản xạ yếu hay không có, phải hồi sức tích cực.
+Hình 1. Đánh giá chỉ số Apgar
+
+Năm 1952 Bs. Virgina Apgar phát minh ra hệ thống điểm đánh giá sơ sinh ngay sau đẻ với 5 chỉ số và cho điểm 0,1,2. Tuy nhiên chỉ số Apgar có 1 số hạn chế sau:
+
+Mẹ dùng thuốc an thần, gây mê
+
+Sơ sinh bất thường bẩm sinh
+
+Tuổi thai: trẻ non tháng có thể có chỉ số Apgar thấp nhưng không bị ngạt.
+
+Chấn thương
+
+
+### 4. CHỈ ĐỊNH HỒI SỨC
+
+
+### 4.1. Điểm số APGAR 8 - 10/1phút
+
+Chỉ cần hút sạch nhớt ở mũi - hầu
+
+
+### 4.2. Điểm số APGAR 4 - 7/1phút
+
+Trẻ ngạt từ nhẹ đến trung bình còn gọi là ngạt tím
+
+- Nếu trẻ chỉ tím tái nhưng nhịp tim > 100 lần/ phút thì làm theo các bước sau:
+- Làm thông đường hô hấp bằng cách hút dịch ở miệng, mũi - hầu.
+- Giúp thở bằng mặt nạ.
+- Nếu sau đó trẻ thở tốt không cần tiêm thuốc.
+- Nếu sau hồi sức 5-10 phút mà tình trạng trẻ không cải thiện, thì:
+- Tiêm Bicarbonat natri 4,2% (5ml/kg) và dung dịch Glucose 10% (3-4ml/kg) vào tĩnh mạch rốn.
+- Theo dõi nhịp tim trẻ nếu chậm < 100 lần/phút thì thực hiện theo phác đồ (sơ đồ 2).	+ Khám kỹ để phát hiện dị tật hẹp lỗ mũi sau hay thoát vị cơ hoành...
+
+### 4.3. Điểm số APGAR 0 - 3/1'
+
+Trẻ ngạt nặng hay còn gọi là ngạt trắng. Phải hồi sức tích cực, trong vài phút đầu tiên cần thực hiện ngay những động tác sau:
+
+- Hút sạch hầu họng.
+- Thông khí hỗ trợ và đặt nội khí quản.
+- Giữ ấm cho trẻ.
+- Cùng một lúc: Vừa hỗ trợ hô hấp, vừa bóp tim ngoài lồng ngực.
+- Nếu nhịp tim < 60l/ phút, cho Adrenalin qua ống nội khí quản hay tiêm tĩnh mạch rốn.
+- Tiếp tục bóp bóng oxy 100% qua ống nội khí quản.
+- Đánh giá chỉ số APGAR lúc 5 phút và 10 phút.
+Nếu kết quả tốt sau khi hồi sức, trẻ bắt đầu thở nấc rồi hồng hào dần. Khi đó vẫn tiếp tục xoa bóp kích thích tim, tiếp tục cho thở oxy 10 -15 phút, cho đến khi trẻ thở tốt, khóc to, có phản xạ tay chân tốt. Đánh giá lại chỉ số APGAR nếu trên 7 có thể rút ống nội khí quản.
+
+Kết quả xấu, nếu sau 5 phút hồi sức trẻ vẫn không tự thở được, tiêm Adrenalin 1/10.000 vào tĩnh mạch rốn hoặc bơm vào ống nội khí quản. Nếu sau khi bơm thuốc và 15 phút hồi sức tích cực mà tình trạng trẻ vẫn không tốt hơn, thì ngưng hồi sức.
+
+
+### 5. PHƯƠNG PHÁP HỒI SỨC
+
+
+### 5.1. Dụng cụ và phương tiện
+
+- Quả bóp cao su (Poire)
+- Ống hút nhớt
+- Máy hút điện
+- Mặt nạ sơ sinh nhiều cỡ
+- Bóng ambu sơ sinh
+Đèn soi thanh quản (để đặt ống NKQ).
+
+Ống nội khí quản sơ sinh - kềm Magill
+
+Máy thở áp lực dương cho trẻ em (nếu có)
+
+- Thuốc:
+- Dung dịch Glucose 10%, 5%
+- Dung dịch Natri Bicarbonate 4,2%
+- Calcium gluconate 10%
+- Albumin 5%
+- Adrenaline 1/1.000
+- Lò sưởi điện hoặc túi nước nóng, bóng đèn sưởi.
+- Giường ấm hoặc lồng kính để theo dõi sau khi hồi sức.
+
+### 5.2. Kỹ thuật
+
+Các nguyên tắc hồi sức sơ sinh:
+
+A - (Airway)		: Thông đường hô hấp
+
+B - (Breathing)	: Hỗ trợ hô hấp
+
+C - (Circulation)	: Bảo đảm tuần hoàn tối thiểu có hiệu quả
+
+
+### 5.2.1 Làm sạch đường hô hấp
+
+Đặt trẻ nằm đầu hơi thấp, nghiêng trái, hút nhớt ở hầu  và mũi. Nếu trẻ có hít phân su đặc, phải đặt nội khí quản để  hút  sạch phân su với ống hút cỡ lớn và cho thông khí áp lực dương sau khi đã làm sạch đường hô hấp. Khi đường hô hấp được làm sạch và tình trạng trẻ tốt hơn, đặt sonde dạ dày để hút hết những phân su còn đọng lại trong dạ dày.
+
+
+### 5.2.2 Giữ ấm
+
+Đặt trẻ nơi khô ráo, có đèn sưởi bức xạ bên trên, lau khô ngay lập tức. Sự giảm nhiệt độ là một kích thích góp phần làm suy yếu trẻ. Nếu cần hồi sức, trẻ phải được sưởi ấm cho đến khi chuyển trẻ về phòng sơ sinh.
+
+
+### 5.2.3 Hỗ trợ hô hấp
+
+Nếu trẻ không thở, kích thích trẻ bằng cách búng vào gan bàn chân hay xoa má, ngực, bụng, lưng đồng thời cho thở oxy 100% qua mặt nạ là đủ kích thích trẻ thở. Nếu hô hấp của trẻ không bắt đầu sau đẻ 30 giây, thì cho thở oxy qua mặt nạ, đủ để tạo sự di động của lồng ngực. Áp lực bóp bóng cho động tác thở đầu tiên là 30 - 35cmH2O. Đối với trẻ thiếu tháng, lúc đầu sử dụng áp lực cao hơn sau đó giảm dần để có được sự di động nhẹ nhàng của lồng ngực. Sự thông khí hỗ trợ cũng nên thực hiện khi nhịp tim của trẻ < 100 nhịp/phút. Sử dụng biện pháp thông khí với áp lực dương:
+
+- Thông khí bằng bóng ambu và mặt nạ (mask): dễ thực hiện và thường có hiệu quả.
+- Để đầu trẻ hơi ngửa ra sau, mặt nạ được giữ bởi ngón cái và 2 ngón trỏ và giữa của bàn tay trái, đặt mặt nạ phủ kín lên miệng, mũi của bé; Hai ngón tay còn lại dùng để nâng cằm. Bóp bóng bằng bàn tay phải, cung cấp khí giàu oxy với tần số 40 lần/phút. Người thực hiện tốt nhất là đứng về phía đầu của bé.
+- Hiệu quả của thông khí được đánh giá bằng cách quan sát cử động lồng ngực của trẻ và sự tăng nhịp tim.
+- Thông khí qua ống nội khí quản
+- Chỉ định:
+*  Sau khi thông khí bằng bóng và mặt nạ thất bại.
+
+* Tắc nghẽn đường thở nghi ngờ do bướu giáp hoặc tật hàm nhỏ.
+
+*  Thông khí cho trẻ hít phải phân su sau khi đã hút sạch trong khí quản, thoát vị cơ hoành.
+
+* Phối hợp với bóp tim ngoài lồng ngực.
+
+Hình 1. Đặt nội khí quản sơ sinh
+
+
+### 5.2.4 Bóp tim ngoài lồng ngực
+
+Thực hiện khi vừa mới nghe được tim thai trước khi sinh nhưng không nghe được tiếng tim hoặc tim ngừng đập sau khi sinh, hoặc trong khoảng 30 giây từ khi bắt đầu thông khí mà nhịp tim không đạt trên 100 nhịp/phút.
+
+Kỹ thuật: Dùng 2 ngón tay đặt trên thành ngực trước, tại vị trí 1/3 dưới đường giữa xương ức. Tần số bóp tim 100 - 120 lần/ phút, cứ 3 lần bóp tim xen kẽ một lần bóp bóng. Nếu trong vòng 30 giây thực hiện xoa bóp tim ngoài lồng ngực kết hợp với bóp bóng mà trẻ không đáp ứng tốt nên cho thuốc.
+
+Hình 2.  Hai kỹ thuật ép tim ngoài lồng ngực
+
+A. Dùng 2 ngón tay cái      B. Dùng ngón trỏ và ngón giữa
+
+
+### 6. CÁC THUỐC SỬ DỤNG VÀ DỊCH TRUYỀN DÙNG CHO HỒI SỨC SƠ SINH
+
+
+### 6.1. Đường sử dụng
+
+- Đường tĩnh mạch ngoại biên: Không có sẵn từ phút đầu.
+- Đường tĩnh mạch rốn: Chích thuốc trực tiếp, nhanh nhưng có thể có tai biến thiếu máu cục bộ hay huyết khối tại động mạch hạ vị.
+- Đường nội khí quản: Một vài loại thuốc có thể qua đường nội khí quản nhanh chóng và có hiệu quả tương đương đường tĩnh mạch.
+
+### 6.2. Các loại thuốc thông thường
+
+
+### 6.2.1 Adrenalin
+
+- Chỉ định: Khi nhịp tim < 60 lần/ phút sau 30 giây thông khí và xoa bóp tim ngoài lồng ngực.
+- Liều 0,1ml 10/00 pha loãng với 0,9 ml NaCl 9 0/00 tiêm tĩnh mạch rốn hay đường nội khí quản.
+
+### 6.2.2 Bicarbonate Natri 4,2%
+
+- Liều 2 - 8 ml/kg tiêm tĩnh mạch  có thể lặp lại sau 10 phút.
+- Chỉ dùng trong trường hợp bị toan chuyển hóa, không có lợi trong trường hợp chỉ có toan hô hấp đơn thuần.
+- Chỉ định:
+- Ngưng tim kéo dài
+- Rối loạn hô hấp kéo dài > 10 phút
+- Chú ý: Tiêm bicarbonat chậm vào tĩnh mạch thời gian tối thiểu là trên 2 phút.
+
+### 6.2.3 Glucose 10%
+
+- Liều 3-5ml/kg, không nên cho quá nhiều Glucose, vì trong điều kiện thiếu oxy Gluose sẽ chuyển hóa theo con đường yếm khí tạo ra rất ít năng lượng mà giải phóng nhiều acid lactic gây toan chuyển hóa.
+
+### 6.2.4. Naloxone
+
+- Chỉ định khi trẻ bị ức chế hô hấp do các thuốc thuộc nhóm morphine. Liều 0,1mg/kg, # 0,3mg cho một lần tiêm.
+- Cách pha: lấy 0,5 ml (1/2ống = 0,2mg) pha với 1,5 ml NaCl 9 0/00.
+- Dùng liều 0,1ml dung dịch pha/kg tĩnh mạch, tiêm bắp hay đường nội khí quản.
+- Có thể cho nhiều lần vì thời gian tác dụng của thuốc ngắn hơn so với các thuốc nhóm Morphin.
+
+### 6.2.5 Albumine 5%
+
+- Chỉ định khi giảm thể tích tuần hoàn.
+- Liều 10 - 20 ml/kg tiêm tĩnh mạch trên 15 phút.
+
+### 6.2.6. Isuprel
+
+- Nếu tim chậm kéo dài.
+- Liều 5 - 20 (g/kg/liều tiêm tĩnh mạch với tốc độ 0,1 - 1 (g/kg/phút.
+
+### 7. TIÊU CHUẨN ĐÁNH GIÁ HỒI SỨC
+
+- Lâm sàng:
+- Trẻ hết tím tái, hồng hào, khóc được
+- Trẻ thở đều, thở sâu, tự thở
+- Nhịp tim > 100 lần phút, đều rõ.
+- Phản xạ tốt, trương lực cơ bình thường
+- Sinh hóa:  Ổn định được tình trạng toan hóa trong máu.
+- pH > 7.3
+- PaCO2 < 40mmHg
+- PaO2 = 60 - 70mmHg
+
+### 8. CHĂM SÓC TRẺ SAU HỒI SỨC
+
+Những trẻ được hồi sức có hiệu quả cần phải quan sát và theo dõi thêm sau đó. Các rối loạn bao gồm:
+
+
+### 8.1. Rối loạn chuyển hoá:
+
+- Tình trạng nhiễm toan.
+- Hạ đường huyết.
+- Hạ Calci huyết.
+- Hạ thân nhiệt.
+Sơ đồ 1: Ảnh hưởng của hạ thân nhiệt đến hô hấp.
+
+
+### 8.2. Di chứng ở hệ thần kinh trung ương
+
+- Phù não dẫn đến hôn mê hay co giật.
+- Xuất huyết não trước hết là xuất huyết trong não thất, có thể xảy ra ở trẻ thiếu tháng, tiên lượng xấu.
+
+### 8.3. Di chứng ở thận
+
+- Suy thận cấp: Hầu hết là do hoại tử ống thận cấp.
+- Hoại tử vỏ thận, huyết khối tĩnh mạch thận sẽ là nguyên nhân của suy thận sau ngạt.
+
+### 8.4. Di chứng ở tim
+
+Ở trẻ ngạt, tim là cơ quan bị ảnh hưởng nhiều nhất và có thể gây tổn thương nặng gây tử vong trẻ.
+
+
+### 8.5. Di chứng ở phổi
+
+Co thắt mạch ở phổi nên duy trì shunt phải - trái, máu qua ống động mạch hay lỗ bầu dục làm tồn tại tuần hoàn bào thai đưa đến tình trạng xanh tím nặng.
+
+PHÁC ĐỒ XỬ TRÍ HỒI SỨC SƠ SINH
+
+TRẺ SƠ SINH
+
+Sơ đồ 2. Phác đồ xử trí trẻ ngạt ngay sau sinh
+
+Cõu hỏi: 1.  Trình bầy các phương phỏp phải thực hiện để hồi sức sơ sịnh?
+
+
+### 2. Trình bầy các thuốc và dịch truyền để hồi sức sơ sịnh?
+
+CHƯƠNG 5. KẾ HOẠCH HÓA GIA ĐÌNH

@@ -1,0 +1,195 @@
+# RỐI LOẠN KINH NGUYỆT
+
+**Mã bài:** `SK-44` | **Chương:** Chương 3. Phụ khoa | **Giảng viên:** Ths. Phạm Thị Quỳnh Như
+**Nguồn tài liệu:** Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021)
+
+---
+
+RỐI LOẠN KINH NGUYỆT
+
+ngMục tiêu học tập
+
+Trình bày được tiêu chuẩn bình thường của kinh nguyệt
+
+Liệt kê được các hình thái của rối loạn kinh nguyệt
+
+Nêu được các nguyên nhân gây vô kinh
+
+Trình bày được chẩn đoán và xử trí một số tình huống rong kinh rong huyết
+
+
+### 1. ĐẠI CƯƠNG
+
+Bình thường người phụ nữ bắt đầu hành kinh vào tuổi 13 đến 16 và mãn kinh vào tuổi 45-50. Chu kỳ kinh trung bình là 28 ngày, thời gian hành kinh từ 3-4 ngày. Lượng máu kinh mất khoảng 50-100 gram. Vòng kinh bình thường có phóng noãn và chia làm hai giai đoạn, giai đoạn estrogen và giai đoạn estrogen kết hợp progesteron. Rối loạn kinh nguyệt là một từ chung để biểu thị những bất thường của kinh nguyệt về tuổi bắt đầu có kinh, tuổi mãn kinh, chu kỳ kinh, thời gian hành kinh, lượng máu kinh cũng như những bất thường kèm theo hiện tượng kinh nguyệt. Nhưng cũng có khi không có biểu hiện bất thường về lâm sàng (có kinh đều đặn, lượng kinh vừa, cũng không có biểu hiện lâm sàng bất thường,…) vẫn gọi là rối loạn kinh nguyệt. Đó là những chu kỳ kinh không phóng noãn, những vòng kinh bất thường về sinh lý, những vòng kinh không có chức năng sinh sản.
+
+Như vậy rối loạn kinh nguyệt bao gồm: vòng kinh không phóng noãn, kinh thưa, kinh mau, cường kinh, thiểu kinh, vô kinh, thống kinh, có kinh sớm, có kinh muộn. Đây chỉ là những triệu chứng chứ không phải là bệnh, tuy nhiên trên thực tế lâm sàng vẫn ghi vào phần chẩn đoán bệnh các danh từ trên do việc tìm nguyên nhân của rối loạn kinh nguyệt rất khó khăn. Đòi hỏi nhiều thời gian, kinh nghiệm, các xét nghiệm đầy đủ và chính xác, ngoài ra phải kết hợp điều trị thử mới chẩn đoán được nguyên nhân gây rối loạn kinh nguyệt.
+
+
+### 2. VÒNG KINH KHÔNG PHÓNG NOÃN
+
+Trên lâm sàng, rất khó phân biệt giữa vòng kinh có phóng noãn và không phóng noãn.  Cơ chế ra máu kinh không cần có sự hiện diện của progesteron mà chỉ cần sự thay đổi đột ngột về nồng độ estrogen là đủ.
+
+Những vòng kinh không phóng noãn thường gặp ở những kỳ kinh đầu của tuổi dậy thì và trong thời kỳ tiền mãn kinh. Phát hiện những vòng kinh không phóng noãn cần dựa vào xét nghiệm, đặc biệt hình ảnh giải phẫu bệnh lý qua nạo sinh thiết nội mạc tử cung. Trên thực tế có đến 1/10 các vòng kinh là không có phóng noãn.
+
+Đối với những bệnh nhân vô sinh cần lưu ý phát hiện những vòng kinh không phóng noãn. Điều trị vòng kinh không phóng noãn bằng các phác đồ kích thích phóng noãn ( xem bài “THĂM DÒ PHÓNG NOÃN VÀ KÍCH THÍCH PHÓNG NOÃN”).
+
+
+### 3. VÔ KINH
+
+Vô kinh là hiện tượng không hành kinh trong tuổi hoạt động sinh dục. Chia làm hai loại, nguyên phát và thứ phát. Vô kinh nguyên phát nhằm chỉ trường hợp đã quá tuổi dậy thì thông thường (18-18 tuổi) mà vẫn chưa có hành kinh, có tác giả gọi là kinh muộn. Vô kinh thứ phát là mất kinh liên tiếp từ 3 tháng trở lên ở một người phụ nữ tiền sử đã có hành kinh.
+
+Người ta còn phân biệt vô kinh sinh lý, vô kinh giả và vô kinh bệnh lý.
+
+Vô kinh sinh lý là những trường hợp vô kinh ở phụ nữ có thai, đang cho con bú hoặc những phụ nữ mãn kinh.
+
+Vô kinh giả gặp trong trường hợp niêm mạc tử cung vẫn hoạt động, thay đổi theo chu kỳ, vẫn bong ra hàng tháng những không chảy ra ngoài được vì những nguyên nhân như: cổ tử cung bị bít, không có âm đạo, màng trinh không thủng. Vô kinh giả gây ứ huyết trong tử cung hoặc ứ huyết trong tử cung- âm đạo. Cần được can thiệp bằng thủ thuật tùy vào nguyên nhân như nong cổ tử cung hoặc rạch màng trinh,…
+
+Vô kinh bệnh lý: do nhiều nguyên nhân. Nguyên nhân toàn thân thường hay gặp hơn và gồm những nguyên nhân thuộc về thần kinh, nội tiết và dinh dưỡng. Tại chỗ thường là các nguyên nhân thực thể.
+
+
+### 3.1. Vô kinh do nguyên nhân tử cung
+
+Dị dạng sinh dục như không có tử cung, không có tử cung và âm đạo.
+
+Dính buồng tử cung, nội mạc tử cung không đáp ứng với nội tiết của buồng trứng.
+
+Lao nội mạc tử cung, thường thứ phát sau lao phổi.
+
+
+### 3.2. Vô kinh do nguyên nhân buồng trứng
+
+Do đã cắt bỏ 2 buồng trứng, buồng trứng không phát triển (hội chứng turner), hội chứng Stein – Leventhal, buồng trứng tinh hoàn ( tuyến sinh dục vừa có tổ chức tinh hoàn vừa có tổ chức buồng trứng), khối u nam tính của buồng trứng, các u thoái hóa của buồng trứng, suy buồng trứng sớm.
+
+
+### 3.3. Vô kinh do nguyên nhân tuyến yên
+
+Bệnh suy toàn bộ tuyến yên ( bệnh Simmonds), u tuyến yên, hội chúng sheehan (thiểu năng tuyến yên do hoại tử tuyến yên, có thể xảy ra sau đẻ khi mất một lượng máu quá lớn), thiếu hoormon hướng sinh dục tuyến yên đơn thuần nguyên phát.
+
+
+### 3.4. Vô kinh do nguyên nhân tuyến giáp
+
+Cường giáp và thiểu năng tuyến giáp đều có thể gây vô kinh. Nội tiết tố tuyến giáp có tính chất gây mẫn cảm niêm mạc tử cung đối với estrogen. Nhưng cơ chế gây vô kinh thế nào hiện chưa được rõ.
+
+
+### 3.5. Vô kinh do nguyên nhân vỏ thượng thận
+
+Cường vỏ thượng thận gây vô kinh do tăng tiết androgen, ức chế phát triển các nang noãn ở buồng trứng.
+
+Bệnh Addison, vô kinh có thể xảy ra do cơ thể suy nhược, suy sụp các chuyển hóa đạm, mỡ, đường và nước.
+
+
+### 3.6. Vô kinh do nguyên nhân thần kinh, dinh dưỡng, chuyển hóa và bệnh toàn thân
+
+Những khối u ở não, vùng não giữa đều có thể gây vô kinh. Ngoài ra những sang chấn về tinh thần, những rối loạn thần kinh thực vật cũng gây vô kinh. Thay đổi hoàn cảnh sinh hoạt, khí hậu cũng là nguyên nhân gây rối loạn kinh nguyệt trong đó có vô kinh.
+
+Những nguyên nhân toàn thân gây vô kinh bao giờ cũng cần được lưu ý, vì chiếm một tỷ lệ khá cao. Có thể kể đến như suy nhược cơ thể do nhiễm khuẩn, thiếu dinh dưỡng, thiếu vitamin, thiếu máu, bệnh lý gan thận, suy nhược thần kinh, tâm thần phân liệt, làm việc quá căng thẳng.
+
+Tùy thuộc vào từng nguyên nhân cụ thể mà phải điều trị nội tiết hoặc phẫu thuật. Tuy nhiên cũng có khi chỉ thay đổi hoàn cảnh sinh hoạt, điều kiện sống, giảm cân hợp lý, chế độ ăn uống kết hợp vật lý trị liệu cũng có thể có kết quả tốt.
+
+
+### 4. THỐNG KINH
+
+Thống kinh là hiện tượng đau bụng khi hành kinh. Đau bụng dưới lan lên ức, đau lan xuống dưới đùi, có khi đau khắp bụng. Có thể ở cơ quan khác cũng có hiện tượng bất thường như đau đầu, tâm thàn bất an, cương vú…
+
+Trước đây, người ta cho rằng thống kinh là do tử cung kém phát triển nên không chịu đựng được nội mạc tử cung bị cương to, phù nề; hoặc cho rằng lỗ trong cổ tử cung bị co thắt nên máu kinh không chảy ẩ được kích thích tử cung tăng co bóp gây đau. Ngày nay, người ta cho rằng các tổ chức hoại tử khi hành kinh sẽ tạo ra menotoxine gây co thắt tử cung, đặc biệt là xung quanh lỗ trong cổ tử cung. Các mạch máu bị co thắt làm cho các tổ chức bị thiếu oxy, gây đau. Ngoài ra, nghiên cứu thấy nồng độ prostaglandine tại lớp nội mạc tử cung và máu kinh của những phụ nữ thống kinh cũng cao hơn so với những phụ nữ không có triệu chứng thống kinh.
+
+Trong kỳ hành kinh đầu tiên, nếu tinh thần của người phụ nữ bị căng thẳng cũng là nguyên nhân gây thống kinh. Đứng trước một tình trạng thống kinh, cần tìm những nguyên nhân thực thể như chít hẹp lỗ cổ tử cung, tư thế quá gập trước hoặc ngả sau của tử cung, viêm tử cung, u xơ tử cung, lạc nội mạc tử cung… Điều trị tùy theo nguyên nhân, nếu tạm thời chưa tìm ra nguyên nhân có thể dùng thuốc giảm đau thông thường.
+
+RONG KINH VÀ RONG HUYẾT
+
+Rong kinh là hiện tượng có kinh đúng chu kỳ, ra kéo dài trên 7 ngày. Nếu lượng máu kinh ra nhiều hơn bình thường thì gọi là cường kinh, nguyên nhân thường là do cường estrogen. Trên thực tế, rất khó để xác định cụ thể lượng máu hành kinh. Thường chỉ đánh giá gián tiếp dựa vào ảnh hưởng đến toàn trạng do thiếu máu ở bệnh nhân cường kinh. Trong chẩn đoán rong kinh, cần phân biệt với các trường hợp rong huyết. Rong huyết là hiện tượng ra huyết không có chu kéo dài trên 7 ngày, nhiều khi có thể lầm với kinh nguyệt không đều. Rong huyết thường do nguyên nhân thực thể nên việc đầu tiên cần là tìm các nguyên nhân thực thể, nhất là những nguyên nhân ác tính. Những nguyên nhân thực thể hay gây rong huyết là sẩy thai, sót rau, chửa ngoài tử cung, u xơ tử cung, ung thư thân và cổ tử cung, polyp cổ tử cung, polyp buồng tử cung, viêm loét, trợt tử cung và âm đaoh, lao sinh dục… Ngoài ra lưu ý những trường hợp nguyên nhân khác như rối loạn đông máu, sang chấn tinh thần, u lách, suy gan, các u phân tiết ở buồng trứng như u tế bào hạt…
+
+Rong kinh, rong huyết tuổi trẻ
+
+Thường quen gọi là rong kinh dậy thì vì thông thường hay gặp ở tuổi dậy
+
+thì. Nguyên nhân: Trước kia người ta cho rằng cường estrogen (tồn tại nang noãn) làm cho niêm mạc tử cung quá sản tuyến nang. Ngày nay, người ta thấy estrogen có thể thấp, bình thường hoặc cao. Cơ bản là do FSH và LH không đầy đủ để kích thích buồng trứng, nguyên do từ rối loạn hoạt động của vùng dưới đồi. Thường là giai đoạn hoàng thể kém, không phóng noãn, không có giai đoạn hoàng thể.
+
+Triệu chứng: Kinh nguyệt kéo dài, thường là huyết tươi xảy ra sau một vòng kinh dài. Toàn trạng thiếu máu. Khám thực thể nhiều khi tử cung to mềm, cổ tử cung hé mở (phân biệt sẩy thai)
+
+Điều trị: Bước đầu tiên là loại trừ những nguyên nhân ác tính, các bệnh về máu nhất là ở những người con gái trong lần thấy kinh đầu tiên đã bị rong kinh, sau đó mới đặt vấn đề điều trị cầm máu.
+
+Nạo bằng hormon: tiêm progesteron hoặc uống progestagen 20mg/ ngày. Thông thường 4 - 5 ngày cầm máu. Ngừng thuốc 2 - 3 ngày ra huyết trở lại làm bong triệt để niêm mạc tử cung. Thời gian và lượng máu khi ra huyết trở lại tương tự như huyết kinh của người bình thường. Đề phòng rong kinh trong vòng kinh sau cho tiếp vòng kinh nhân tạo, có thể cho progestagen đơn thuần vào nửa sau dự kiến của vòng kinh, có thể cho kết hợp estrogen với progestagen như kiểu viên thuốc tránh thai. Có thể cho thuốc kích thích phóng noãn như clomifen. Kết hợp với các thuốc cầm máu, thuốc co hồi tử cung (oxytocin, ergotamin).
+
+Trong những trường hợp rất hạn hữu, điều trị bằng mọi biện pháp không kết quả mới phải nạo buồng tử cung bằng dụng cụ. Để cầm máu nhanh có thể dùng loại estrogen phức hợp sulfat tan trong nước premarin 25mg, tiêm tĩnh mạch, có thể cầm máu trong vòng nửa giờ.
+
+Rong kinh, rong huyết tiền mãn kinh
+
+Trong tất cả những trường hợp rối loạn kinh nguyệt tiền mãn kinh đều phải
+
+nghi ngờ có nguyên nhân ác tính. Rong kinh tiền mãn kinh, sinh thiết niêm mạc tử cung phần lớn có hình ảnh phát triển. Trong giai đoạn sau mãn kinh hay gặp hình ảnh niêm mạc tử cung teo, niêm mạc tử cung không hoạt động.
+
+- Điều trị triệu chứng tốt nhất là nạo niêm mạc tử cung, có 3 lợi ích;
+- Cầm máu nhanh (đỡ mất máu).
+- Giải phẫu bệnh lý (loại trừ ác tính).
+- Xác định rõ ràng tình trạng quá sản niêm mạc tử cung (điều trị hormon tiếp theo).
+Ngày nạo được tính là ngày đầu tiên của kỳ kinh tới. Thông thường cho
+
+progestagen từ ngày thứ 16, mỗi ngày 10mg, uống trong 10 ngày, uống trong 3
+
+vòng kinh liền.
+
+Rong kinh, rong huyết tuổi sinh đẻ (18 - 45 tuổi)
+
+- Cường kinh (kinh nhiều): So với hành kinh bình thường, lượng huyết ra nhiều. Thường kèm với rong kinh.
+- Nguyên nhân: Phần lớn do tổn thương thực thể ở tử cung, u xơ tử cung, polype tử cung, lạc nội mạc tử cung tại cơ tử cung làm tử cung không co bóp được, niêm mạc tử cung khó tái tạo nên khó cầm máu. Cũng có thể do tử cung kém phát triển. Cường kinh cơ năng ít gặp hơn.
+- Điều trị:
+Trẻ tuổi: Tử cung co bóp kém: Thuốc co tử cung. Tử cung kém phát triển: vòng kinh nhân tạo hoặc cho viên thuốc tránh thai nữa sau chu kỳ kinh.
+
+Lớn tuổi: Nếu có tổn thương thực thể nhỏ chưa có chỉ định phẩu thuật có
+
+thể chỉ định progestagen vài ngày trước khi hành kinh. Cũng có thể cho progestagen liều cao (mất kinh 3 - 4 tháng liền. Trên 40 tuổi điều trị thuốc không hiệu quả nên mổ cắt tử cung.
+
+- Rong kinh do chảy máu trước kinh
+- Nguyên nhân: Có thể do tổn thương thực thể như viêm niêm mạc tử cung, polype buồng tử cung. Nhưng có thể do giai đoạn hoàng thể ngắn vì hoàng thể teo sớm estrogen và progesteron giảm nhanh.
+- Điều trị
+Trên 35 tuổi: nạo niêm mạc tử cung.
+
+Thuốc: progestagen hoặc viên thuốc tránh thai nữa sau vòng kinh.
+
+- Rong kinh do chảy máu sau kinh
+- Nguyên nhân: Thực thể: không hiếm (viêm niêm mạc tử cung, u xơ tử cung, polype buồng tử cung, u ác tính trong buồng tử cung). Cơ năng: Có thể do niêm mạc tử cung có những vùng bong chậm hoặc có những vùng tái tạo chậm.
+- Điều trị: Trước hết phải loại trừ nguyên nhân thực thể. Nếu do hoàng thể kéo dài thì cho progestagen hoặc estrogen kết hợp với progestagen vào các ngày 20 - 25 của vòng kinh. Sau khi ngưng thuốc vài ngày, niêm mạc tử cung sẽ bong gọn và không rong kinh. Nếu do niêm mạc tử cung tái tạo chậm có thể cho Ethinyl - estradiol 0,05mg mỗi ngày 1 - 2 viên trong các ngày 3 - 8 của vòng kinh.
+Rong kinh do quá sản tuyến nang niêm mạc tử cung.
+
+- Biểu hiện kinh chậm, ra nhiều huyết và kéo dài. Niêm mạc tử cung dày, có những nhú nhỏ dài hoặc phình dạng polype trông mượt như nhung.
+- Nguyên nhân Estrogen tác dụng kéo dài gây nên hình ảnh hang lỗ chỗ của niêm mạc tử cung.
+- Điều trị:
+Nạo niêm mạc buồng tử cung (50% khỏi trong một thời gian dài)
+
+Thuốc: Progestagen 10mg/ngày trong 10 ngày, kể từ ngày thứ 16 của vòng kinh trong 3 tháng.
+
+CÁC RỐI LOẠN KINH NGUYỆT KHÁC
+
+Kinh ít
+
+Lượng máu kinh của mỗi kỳ kinh rất ít. Nguyên nhân do nội mac tử cung kém phát triển, hoặc do hoạt động nội tiết của buồng trứng kém, hoặc do dính buồng tử cung. Nếu nguyên nhân kinh ít do các bệnh lý thực thể, cần được xác định rõ nguyên nhân để diều trị vì ảnh hưởng đến khả năng sinh sản.
+
+Kinh thưa
+
+Chu kỳ kinh kéo dài trên 35 ngày, thường do kéo dài giai đoạn phát triển của nang noãn. Đa số trường hợp không cần điều trị.
+
+Kinh mau (Đa kinh)
+
+Chu kỳ kinh ngắn hớn 21 ngày, thường do nang noãn sớm trưởng thành nên giai đoạn phát triển ngắn lại. Nhưng cũng có thể dp hoàng thể chóng suy nên hành kinh sớm. Điều trị thường dùng estrogen đầu chu kỳ, dùng thêm progesteron ở nữa sau pha hoàng thể.
+
+Hội chứng tiền kinh
+
+Trước khi hành kinh vài ngày, người phụ nữ bị căng thẳng thần kinh, cương vú, nhức đầu, phù…đến khi ra kinh thì hiện tượng này giảm đi. Nguyên nhân có thể do mất cân bằng giữa estradiol và progesteron. Ngoài ra, hiện nay người ta còn quan tâm đến vai trò của prostaglandin. Lượng PGF2 VÀ PGE2 tăng cao trong giai đoạn hoàng thể ở những phụ nữ có hội chứng tiền kinh.
+
+Điều trị: có thể dùng các thuốc an thần liều thấp hoặc progesteron như duphaston từ ngày 16 đến ngày 25 của chu kỳ.
+
+
+## Câu hỏi:
+
+Trình bày tiêu chuẩn bình thường của kinh nguyệt?
+
+Liệt kê các hình thái của rối loạn kinh nguyệt?
+
+Nêu các nguyên nhân gây vô kinh?
+
+Trình bày nguyên nhân, triệu chứng lâm sàng và hướng xử trí rong kinh, rong huyết tuổi dậy thì?
+
+Trình bày nguyên nhân, triệu chứng lâm sàng và hướng xử trí rong kinh, rong huyết tuổi tiền mạn kinh?
+
+Trình bày nguyên nhân, triệu chứng lâm sàng và hướng xử trí rong kinh, rong huyết tuổi sinh đẻ?

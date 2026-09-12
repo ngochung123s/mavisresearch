@@ -1,0 +1,469 @@
+# TIỀN SẢN GIẬT - SẢN GIẬT
+
+**Mã bài:** `SK-35` | **Chương:** Chương 2. Sản bệnh | **Giảng viên:** Ths. Đinh Văn Hoành
+**Nguồn tài liệu:** Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021)
+
+---
+
+TIỀN SẢN GIẬT - SẢN GIẬT
+
+Ths. Đinh Văn Hoành
+
+
+## Mục tiêu học tập
+
+Phân loại tăng huyết áp trong thai nghén.
+
+Mô tả các triệu chứng lâm sàng và cận lâm sàng của tiền sản giật- sản giật.
+
+Lựa chọn cách điều trị theo từng thể lâm sàng.
+
+Kể ra được các biện phá dự phòng tăng huyết áp trong thai nghén.
+
+
+### 1. ĐẠI  CƯƠNG
+
+Tăng huyết áp là một triệu chứng có thể có sẵn trước khi mang thai, hoặc xuất hiện lúc mang thai, hay nặng lên do thai nghén. Như vậy, tăng huyết áp khi có thai có thể có nguyên nhân độc lập với tình trạng mang thai hoặc nguyên nhân do thai và là dấu hiệu báo động, biểu hiện của một thai kỳ nguy cơ cao, có thể gây tử vong cho mẹ và thai nhi.
+
+Trong sản khoa, tăng huyết áp đi kèm với protein niệu và phù tạo nên một bệnh cảnh đặc biệt mà trước đây người ta đây người ta thường gọi là nhiễm độc thai nghén, nay được gọi là tiền sản giật - sản giật.
+
+Phân loại các rối loạn tăng huyết áp do thai :
+
+- Tiền sản giật, Sản giật
+- Tăng huyết áp mạn tính do bất kể nguyên nhân gì
+- Tăng huyết áp mạn tính trước khi có thai nặng lên trong khi có thai
+- Tăng huyết áp thai nghén.
+2.TIỀN SẢN GIẬT
+
+
+### 2.1. Định nghĩa
+
+Tiền sản giật là bệnh lý do thai nghén hoặc ảnh hưởng của một thai nghén rất gần gây nên với sự xuất hiện tăng huyết áp với protein niệu, có hoặc không kèm theo phù. Tiền sản giật - sản giật thường xảy ra sau tuần lễ thứ 20 của thai kỳ và chấm dứt sau 6 tuần sau đẻ. Tuy nhiên, với sự hiện diện của bệnh lá nuôi, tiền sản giật nặng có thể xuất hiện trước thời điểm đó.
+
+Trước đây người ta thường gọi tiền sản giật là nhiễm độc thai nghén hay hội chứng protein niệu, nhưng ngày nay người ta nhận thấy chính huyết áp tăng là triệu chứng thường gặp nhất và gây nên các biến chứng trầm trọng cho mẹ và thai.
+
+Hình 1. Tăng huyết áp, phù và protein niệu trong tiền sản giật
+
+
+### 2.2.Tỷ lệ
+
+Tiền sản giật xảy ra khoảng 5-10 % và sản giật chiếm khoảng 0,2- 0,5% trong tổng số thai nghén.
+
+
+### 2.3. Bệnh nguyên và các yếu tố ảnh hưởng
+
+
+### 2.3.1. Bệnh nguyên
+
+Cho đến nay người ta vẫn chưa hiểu rõ nguyên nhân sinh bệnh của tiền sản giật. Một số yếu tố sau đây có thể góp phần trong sự xuất hiện tiền sản giật - sản giật.
+
+- Hiện tượng miễn dịch
+- Di truyền.
+- Các yếu tố dinh dưỡng.
+- Phản ứng, stress.
+- Phản xạ do căng tử cung trong đa thai, thai to.
+- Thiếu máu cục bộ tử cung - rau.
+- Mất cân bằng giữa Prostacyclin và Thromboxan:
+- Tăng sản xuất thromboxan A2 (chất gây co mạch và dễ hình thành cục máu đông.)
+- Giảm sản xuất prostacyclin (chất gây giãn mạch).
+Điều này làm giảm tỷ lệ prostacyclin/thromboxan A2, gây co mạch và dẫn đến tăng huyết áp.
+
+
+### 2.3.2. Các yếu tố nguy cơ
+
+- Con so
+- Thai phụ lớn tuổi (trên 35 tuổi).
+- Đa thai, đa ối.
+- Chửa trứng, biểu hiện tiền sản giật  thường xảy ra sớm.
+- Thai nghén kèm đái tháo đường, bệnh thận mạn tính, tăng huyết áp mạn tính.
+- Tiền sử có tiền sản giật - sản giật.
+
+### 2.4. Triệu chứng
+
+
+### 2.4.1. Tăng huyết áp
+
+Tăng huyết áp là triệu chứng cơ bản để chẩn đoán xác định tiền sản giật. Tăng huyết áp được xác định khi tuổi thai từ 20 tuần trở lên với các giá trị sau :
+
+Huyết áp tối đa ≥ 140mmHg hoặc
+
+Huyết áp tối thiểu ≥ 90mmHg.
+
+Những trường hợp có huyết áp tối đa tăng hơn 30mmHg hoặc huyết áp tối thiểu tăng hơn 15mmHg so với trị số huyết áp khi chưa có thai cần được quan tâm đặc biệt, vì có thể xuất hiện tiền sản giật - sản giật.
+
+Lưu ý: Phải đo huyết áp 2 lần cách nhau ít nhất sau 4 giờ, sau khi nghỉ.
+
+
+### 2.4.2.Phù:
+
+Đặc điểm của phù:
+
+- Phù toàn thân, không giảm khi nghỉ ngơi.
+- Phù trắng, mềm, có dấu ấn lõm.
+- Tăng cân nhanh, quá 0,5kg/tuần.
+Có thể phù nhiều, phù toàn thân, các chi to lên, ngón tay tròn trĩnh, mặt nặng, mí mắt húp lại, âm hộ sưng to. Bụng căng lên, nổi hằn dây thắt lưng hay sau khi nghe tim thai còn hằn dấu vết của ống nghe. Có khi phù cả phủ tạng, phù phúc mạc nên có nước trong ổ bụng, màng phổi, não. Võng mạc có thể bị phù nên bệnh nhân bị nhức đầu, mờ mắt. Trong một số trường hợp, phù có thể nhẹ, kín đáo, chỉ khi ấn lên mắt cá chân mới phát hiện được hoặc buổi sáng hơi nặng mặt.
+
+
+### 2.4.3. Protein niệu: Protein niệu thường là dấu hiệu sau cùng của bộ ba triệu chứng. Mức độ protein niệu có thể thay đổi nhiều trong 24 giờ, do đó xét để nghiệm protein niệu chính xác nước tiểu  phải được lấy mẫu trong 24 giờ.
+
+Protein niệu dương tính khi lượng protein lớn hơn 0,3g/l/24 giờ hoặc trên 0,5g/l/ mẫu nước tiểu ngẫu nhiên.
+
+Mức độ protein niệu trong 24 giờ
+
+Vết	# 0,1 g/l
+
+- 	# 0,3 g/l
+- 	# 1,0 g/l
+- 	# 3 g/l
+
+### 2.4.4. Các xét nghiệm : Bệnh nhân tiền sản giật cần được làm các xét nghiệm sau
+
+Công thức máu, hematocrit, hemoglobin, tiểu cầu
+
+Chức năng thận: Ure, creatinin, axit uric, protein niệu. Ngoài ra tuỳ thuộc vào mức độ tổn thương thận trong nước tiểu có thể có hồng cầu, bạch cầu, trụ niệu
+
+Chức năng gan: SGOT, SGPT.
+
+- Điện giải đồ và dự trữ kiềm
+- Chức năng đông chảy máu toàn bộ.
+- CRP, Protid máu.
+- Soi đáy mắt
+- Đánh giá tình trạng thai qua siêu âm và monitoring.
+
+### 3.5. Chẩn đoán tiền sản giật
+
+Dựa vào ba triệu chứng chính là tăng huyết áp, phù và protein niệu.
+
+
+### 3.5.1.  Tiền sản giật nhẹ
+
+- Huyết áp tâm thu 140 - <160 mmHg
+- Huyết áp tâm trương 90 - <110 mmHg
+- Protein niệu từ (+) đến (++)
+
+### 3.5.2. Tiền sản giật nặng: khi có ít nhất một trong những dấu hiệu sau:
+
+Huyết áp tối đa ≥ 160 mmHg và/hoặc tối thiểu  ≥110mmHg,
+
+Protein niệu ≥ 5g/24h.(+++)
+
+Rối loạn thị giác và tri giác.
+
+Đau đầu nhưng không đáp ứng với các thuốc giảm đau thông thường.
+
+Đau vùng thượng vị hoặc phần tư trên của hạ sườn phải.
+
+Phù phổi hoặc xanh tím.
+
+Thiểu niệu: lượng nước tiểu < 500ml/24 giờ.
+
+Giảm tiểu cầu: số lượng tiểu cầu <100.000/mm3.
+
+Tăng men gan.
+
+Thai chậm phát triển
+
+
+### 3.6. Chẩn đoán phân biệt
+
+- Tăng huyết áp mạn tính: tiền sử đã có tăng huyết áp, hoặc tăng huyết áp xuất hiện trước tuần thứ 20 của thai kỳ.
+- Các bệnh lý về thận: viêm thận cấp, viêm thận mãn, viêm mủ bể thận, hội chứng thận hư.
+- Phù do tim, phù do suy dinh dưỡng.
+
+### 3.7. Biến chứng của tiền sản giật
+
+
+### 3.7.1.. Biến chứng cho mẹ
+
+- Hệ thần kinh trung ương:  phù não, xuất huyết não- màng não.
+Mắt: Phù võng mạc, mù mắt,
+
+Thận:  Suy thận cấp.
+
+Gan: Chảy máu dưới bao gan, vỡ gan.
+
+Tim, phổi: suy tim cấp, phù phổi cấp (gặp trong tiền sản giật nặng hoặc sản giật).
+
+Huyết học: Rối loạn đông - chảy máu, giảm tiểu cầu, đông máu rải rác trong lòng mạch.
+
+
+### 3.7.2. Biến chứng cho thai
+
+Thai chậm phát triển trong tử cung (56%).
+
+Đẻ non (40%), do tiền sản giật nặng hoặc sản giật phải cho đẻ sớm.
+
+- Tử vong chu sinh (10%): Tỷ lệ tử vong chu sinh tăng tăng nếu đẻ non hoặc biến chứng rau bong non.
+Tiền sản giật nặng, sản giật có thể tiến triển thành hội chứng HELLP (Hemolysis- Elevated Liver enzyme- Low plateletes: tan huyết, tăng các men gan và giảm tiểu cầu). Hội chứng này có thể đe doạ tính mạng cho mẹ và con.
+
+
+### 3.8. Xử trí
+
+
+### 3.8.1. Dự phòng: Vì nguyên nhân chưa rõ nên dự phòng bệnh lý này không có biện pháp đặc hiệu, cần làm tốt những việc sau:
+
+Đăng ký quản lý thai nghén là khâu cơ bản nhất trong dự phòng tiền sản giật - sản giật.  Đảm bảo chế độ ăn đầy đủ chất dinh dưỡng, bổ sung Canxi. Chế độ ăn ít muối (muối ăn) không ngăn ngừa được tiền sản giật
+
+Thai phụ cần được giữ ấm.
+
+Phát hiện sớm, điều trị kịp thời những sản phụ có nguy cơ cao để ngăn ngừa xảy ra sản giật.
+
+Chăm sóc liên tục trong thời kỳ hậu sản.
+
+
+### 3.8.2. Điều trị
+
+Nguyên tắc điều trị: Bảo vệ mẹ là chính, có chiếu cố đến con.
+
+- Tiền sản giật nhẹ: chủ yếu điều trị ngoại trú
+- Nghỉ ngơi và nằm nghiêng trái.
+- Có thể cho uống thuốc an thần Seduxen (Diazepam) 5mg.
+- Theo dõi hằng tuần, nếu nặng lên phải nhập viện và điều trị tích cực.
+- Nếu thai đã đủ tháng nên chấm dứt thai kỳ ở tuyến chuyên khoa.
+- Tiền sản giật nặng
+Phải nhập viện và theo dõi tại tuyến tỉnh và được điều trị tích cực. Theo dõi huyết áp 4 lần/ngày, cân nặng và protein niệu hàng ngày, xét nghiệm đếm tiểu cầu, Hct, đánh giá các chức năng gan, thận, rối loạn đông chảy máu, hội chứng HELLP, siêu âm và theo dõi tim thai liên tục. Chế độ điều trị cụ thể như sau:
+
+- Điều trị nội khoa
+Nghỉ ngơi và nằm nghiêng trái
+
+Thuốc an thần: Diazepam tiêm hoặc uống.
+
+Sử dụng Magnesium Sulfate
+
+Liều tấn công
+
+Dung dịch Magnesium Sulfate 4 gam, pha loãng trong 20ml dung dịch Glucoza 5% tiêm tĩnh mạch chậm trên 5 phút.
+
+Ngay sau đó dùng 10g Magnesium sulfate 50% (10ml) tiêm bắp sâu, mỗi bên 5g hoà với 1ml Lidocain 2%.
+
+Liều duy trì
+
+Truyền tĩnh mạch Magnesium sulfate 15%, liều lượng 1g trong một giờ hoặc tiêm bắp 4g mỗi 5 giờ.
+
+Trong khi dùng cần bảo đảm
+
+Có phản xạ xương bánh chè.
+
+Tần số thở ít nhất là 16 lần/ phút.
+
+Lượng nước tiểu tối thiểu trên 30ml/ giờ  hoặc 100ml/4 giờ
+
+Có sẵn thuốc đối kháng là Gluconat calci hoặc Clorua calci.
+
+Khi có ngộ độc, bệnh nhân có thể bị ngừng thở phải thông khí hỗ trợ bằng mặt nạ hoặc đặt nội khí quản cho đến khi hô hấp trở lại, phải cho ngay Calcium Gluconate 1g (10ml dung dịch 10%) hoặc calci chlorua tiêm tĩnh mạch chậm để trung hoà tác dụng của Magnesium Sulfate.
+
+Nồng độ tác dụng và ngộ độc của Magnesium Sulfat :
+
+Tác dụng và ngộ độc
+
+Nồng độ (mg/dl)
+
+Chống co giật
+
+4,8-8,4
+
+Giảm phản xạ xương bánh chè
+
+10-12
+
+Ngừng hô hấp
+
+15-17
+
+Ngừng tim
+
+30- 35
+
+* Lưu ý:- Không được dùng quá 24g/24giờ
+
+- Theo dõi nồng độ ion Magnesium mỗi 4-6giờ /lần, để điều chỉnh liều dùng.
+Thuốc hạ huyết áp:  sử dụng thuốc hạ huyết áp khi có huyết áp tăng (160/110mmHg):
+
+Hydralazin hoặc Dihydralazin là thuốc được lựa chọn đầu tiên.
+
+Thuốc có tác dụng làm giãn các tiểu động mạch, tăng lưu lượng máu đến tim và thận ngoài ra thuốc còn làm tăng lượng máu đến bánh rau.
+
+Thời gian bán huỷ của thuốc: 1 giờ, thuốc được thải trừ qua gan.
+
+Liều dùng: Dihydralazin 5 - 10 mg tiêm tĩnh mạch chậm, có thể lập lại liều 5mg, sau 10-20 phút nếu cần. Tổng liều là 100mg/24giờ, có thể truyền tĩnh mạch chậm 10mg trong 100ml Dextrose 5%.
+
+Một số thuốc hạ huyết áp có thể dùng thay thế như:
+
+Labetalol: thuốc hạ huyết áp chẹn α và (, liều 10-20mg tiêm tĩnh mạch chậm.
+
+Nifedipin (thuốc ức chế kênh calci): Biệt dược là Adalat 10mg, ngậm dưới lưỡi hoặc giọt 3 giọt dưới lưỡi. Thuốc có tác dụng tốt trong trường hợp tăng huyết áp đột ngột.
+
+Alpha methyl dopa (Dopegyt 250mg; Methyldopa 250mg): Tác dụng: Methyldopa ở nơron giao cảm đã chuyển thành alfa-methylnor-adrenalin, chất này kích thích alfa2-adrenergic ở trung ương gây tác dụng làm hạ huyết áp.Thuốc còn làm tăng trương lực phế vị, tăng hoạt tính renin huyết tương.
+
+Liều lượng - cách dùng:
+
+Người lớn 250mg, 2-3 lần/ngày, duy trì: 500mg-2g, chia làm 2 liều, tối đa: 3g/ngày.
+
+Thuốc lợi tiểu: chỉ sử dụng khi có đe doạ phù phổi cấp và thiểu niệu.
+
+- Điều trị sản khoa và ngoại khoa:
+Nếu tiền sản giật nặng không đáp ứng với với điều trị hoặc xảy ra sản giật thì chấm dứt thai kỳ với mọi tuổi thai. Trước khi chủ động chấm dứt thai kỳ, cần ổn định tình trạng bệnh nhân trong vòng 24- 48 giờ giống như trong sản giật.
+
+Nên sinh thủ thuật nếu đủ điều kiện, hoặc mổ lấy thai khi có chỉ định sản khoa hoặc cần nhanh chóng chấm dứt thai kỳ.
+
+
+### 4. SẢN GIẬT
+
+
+### 4.1. Định nghĩa
+
+Sản giật được xác định là khi xuất hiện những cơn co giật hoặc hôn mê, xảy ra trên một bệnh nhân có hội chứng tiền sản giật nặng. Đây là một biến chứng cấp tính của tiền sản giật nặng nếu không được theo dõi và điều trị đúng mức.
+
+Sản giật có thể xảy ra ở các thời điểm khác nhau: trước đẻ (50%), trong đẻ (25%) và sau đẻ (25%).
+
+
+### 4.2. Triệu chứng và chẩn đoán
+
+
+### 4.2.1. Lâm sàng
+
+Cơn giật điển hình thường  trải qua 4 giai đoạn.
+
+- Giai đoạn xâm nhiễm: kéo dài từ 30 giây đến 1 phút, với những cơn kích thích ở vùng mặt, miệng, mí mắt nhấp nháy, nét mặt nhăn nhúm, sau đó cơn giật lan xuống hai tay.
+- Giai đoạn giật cứng: xảy ra khoảng 30 giây, biểu hiện bằng những cơn giật cứng lan toả khắp người. Toàn thân co cứng, các cơ thanh quản và hô hấp bị co thắt làm cho bệnh nhân ngạt thở vì thiếu oxy.
+- Giai đoạn giật gián cách: Sau cơn giật, các cơ toàn thân giãn ra trong chốc lát rồi tiếp tục những cơn co giật toàn thân, lưỡi thè ra thụt vào nên rất dễ cắn phải lưỡi, mặt tím do ngưng thở, miệng sùi bọt mép. Giai đoạn giật gián cách kéo dài khoảng 1 phút.
+- Giai đoạn hôn mê: Các cử động co giật nhẹ và thưa dần rồi chấm dứt. Bệnh nhân đi vào tình trạng hôn mê. Bệnh nhân có thể hôn mê nhẹ hoặc hôn mê sâu tùy thuộc mức độ nặng hay nhẹ của bệnh. Nếu nhẹ thì sau 5-7 phút bệnh nhân sẽ tỉnh lại, nếu nặng thì bệnh nhân hôn mê sâu. Hôn mê có thể kéo dài từ vài giờ đến vài ngày. Bệnh nhân mất tri giác, đồng tử dãn rộng, rối loạn cơ vòng nên đại tiểu tiện không tự chủ. Trường hợp nặng bệnh nhân có thể tử vong.
+
+### 4.2.2. Chẩn đoán
+
+- Chẩn đoán xác định: dựa và triệu chứng lâm sàng của cơn giật điển hình trên một bệnh nhân có hội chứng tiền sản giật nặng.
+- Chẩn đoán phân biệt
+- Động kinh: có tiền sử động kinh trước khi có thai.
+- Cơn Tetanie: có thể có hay không có tiền sử. Các ngón tay duỗi thẳng và co dúm lại như bàn tay người đỡ đẻ.
+- Cơn Hysteria: sự biểu hiện các cơn giật không giống nhau, tuy không tỉnh nhưng người xung quanh nói vẫn biết; Mất tri giác nhưng không mất phản xạ.
+- Các tai biến mạch máu não: xuất huyết não, thuyên tắc mạch não do huyết khối. Tổn thương não (u não, áp- xe não).
+- Các bệnh nhiễm trùng: viêm màng não, viêm não.
+- Các bệnh chuyển hoá: hạ calci máu, hạ glucoza máu, hôn mê do urê máu cao, hôn mê gan, hôn mê do đái tháo đường...
+
+### 4.3. Biến chứng
+
+
+### 4.3.1. Về phía mẹ
+
+- Cắn phải lưỡi khi lên cơn giật
+- Ngạt thở, suy hô hấp
+- Suy tim cấp, phù phổi cấp
+- Xuất huyết não - màng não
+- Chảy máu dưới bao gan, vỡ gan
+- Suy gan cấp, suy thận cấp
+- Mù mắt, thong manh, ngớ ngẩn
+- Có thể để lại di chứng tăng huyết áp mãn, suy gan, suy thận mãn.
+- Tử vong
+
+### 4.3.2. Về phía con
+
+- Thai kém phát triển trong tử cung.
+- Đẻ non.
+- Thai chết trong tử cung.
+
+### 4.4. Điều trị sản giật
+
+
+### 4.4.1. Chế độ chăm sóc
+
+- Giữ bệnh nhân tại nơi yên tĩnh, tránh mọi kích thích, không cho ăn.
+- Ngáng miệng bằng thanh ngáng có quấn vải để đề phòng cắn phải lưỡi. Đây là một việc làm bắt buộc vì khi bệnh nhân lên cơn giật rất dễ cắn lưỡi.
+- Nằm giường có thanh chắn, cố định bệnh nhân.
+- Hút đờm dãi đề phòng tắc đường hô hấp.
+- Thở oxy qua mặt nạ hoặc ống thông mũi.
+- Theo dõi cơn giật, huyết áp, lượng nước tiểu, mạch, nhiệt độ. Tất cả được ghi vào bảng theo dõi để phục vụ điều trị.
+
+### 4.4.2. Xử trí tại tuyến y tế cơ sở:
+
+- Nguyên tắc: bệnh nhân phải được sơ cứu trước khi chuyển tuyến, phải có nhân viên y tế hộ tống khi chuyển lên tuyến trên.
+- Cần thực hiện đầy đủ chế độ chăm sóc: Hút đờm dãi, ngáng miệng, tiêm thuốc an thần, lập một đường truyền tĩnh mạch trước và trong khi chuyển tuyến.
+
+### 4.4.3. Điều trị nội khoa
+
+* Thuốc chống co giật và đề phòng cơn giật:
+
+- Để chống co giật có hiệu quả yếu tố then chốt trong điều trị là sử dụng thuốc chống co giật đủ liều lượng. Co giật ở sản phụ đang  điều trị hầu hết do sử dụng không đủ liều lượng thuốc chống co giật. Magnesium sulfate là thuốc được chọn lựa để phòng và chống co giật.
+- Lưu ý thuốc này phải dùng tại bệnh viện, phải theo dõi sát, đề phòng ngộ độc.
+- Nếu không có Magnesium sulfate, có thể thay bằng Diazepam; nhưng có nhiều nguy cơ  ức chế hô hấp cho thai hơn vì Diazepam đi qua hàng rào rau thai một cách tự do.
+- Liều lượng, cách dùng Magnesium Sulfate giống  như điều trị tiền sản giật nặng.
+- Nếu cơn giật tái diễn sau 15 phút, dùng thêm 2g Magnesium sulfate 20%  tiêm chậm vào tĩnh mạch (thận trọng khi tiêm Magnesium sulfate vào tĩnh mạch vì thuốc có thể gây ngưng thở đột ngột do ức chế hô hấp).
+- Dung dịch Magnesium sulfate 50% 10ml (5g) + 1ml Lidocain 2% tiêm bắp mỗi 4 giờ, luân phiên mỗi mông.
+- Liệu trình Magnesium sulfate tiếp tục được sử dụng đến 24 giờ sau sinh hoặc cơn giật cuối cùng.
+* Sử dụng Diazepam(Seduxen) trong tiền sản giật nặng và sản giật
+
+- Liều tấn công :
+Diazepam 10mg tiêm tĩnh mạch chậm trên 2 phút.
+
+Nếu cơn giật tái diễn: lập lại liều tấn công.
+
+- Liều duy trì:
+- Diazepam 40mg, pha trong 500ml dung dịch chuyền tĩnh mạch (Glucoza 5% hoặc Ringers lactat) đủ để giữ cho bệnh nhân ngủ nhưng có thể đánh thức.
+- Bệnh nhân có thể bị ức chế hô hấp  khi dùng quá 30mg/ 1 giờ.
+Không dùng quá 100mg Diazepam trong 24 giờ. Hô hấp hỗ trợ khi có suy hô hấp (mặt nạ oxy, bóp bóng ambu, đặt nội khí quản)
+
+- Dùng thuốc đường trực tràng:
+- Dùng thuốc đường trực tràng nếu đường tĩnh mạch không thực hiện được. Liều tấn công 20mg hút vào một bơm tiêm 10ml, tháo bỏ kim, bôi trơn đầu ống và đưa bơm tiêm vào trực tràng đến nửa ống. Bơm thuốc và giữ bơm tiêm tại chỗ, khép mông lại trong 10 phút để thuốc không trào ra. Có thể sử dụng Catheter để đưa thuốc vào hậu môn.
+- Nếu sau 10 phút không cắt được cơn giật, có thể sử dụng thêm 10mg mỗi giờ hoặc nhiều hơn tuỳ theo trọng lượng và đáp ứng lâm sàng của bệnh nhân.
+* Thuốc hạ huyết áp:(xem  phần điều trị  tiền sản giật nặng).
+
+Nếu như huyết áp tâm trương trên 110mmHg sẽ có nguy cơ xuất huyết não, để đề phòng tai biến này phải điều chỉnh để huyết áp tâm trương ở giữa khoảng 90-100mmHg
+
+Hydralazin hoặc Dihydralazine là thuốc được lựa chọn.
+
+Liều dùng: Dihydralazine 5-10mg tiêm tĩnh mạch chậm, nếu cần có thể lập lại liều 5mg cứ 10-20 phút cho đến khi huyết áp giảm, hoặc liều Dihydralazine 12,5mg tiêm bắp cách 2 giờ. Tổng liều Dihydralazine là 100mg trong 24giờ.
+
+Nếu Dihydralazine không có sẵn, có thể dùng:
+
+Labetalol 10mg tiêm tĩnh mạch. Nếu đáp ứng chưa tốt (huyết áp tâm trương trên 110mmHg) sau 10 phút cho thêm 20mg tiêm tĩnh mạch và có thể tăng liều này lên tới 40- 80mg để đạt kết quả điều trị.
+
+Alpha methyl dopa (Dopegyt 250mg; Methyldopa 250mg): Tác dụng: Methydopa ở nơron giao cảm đã chuyển thành alfa-methylnor-adrenalin, chất này kích thích alfa2-adrenergic ở trung ương gây tác dụng làm hạ huyết áp.
+
+Thuốc còn làm tăng trương lực phế vị, tăng hoạt tính renin huyết tương.
+
+	Liều lượng - cách dùng:
+
+Người lớn 250mg, 2-3 lần/ngày, duy trì: 500mg-2g, chia làm 2 liều, tối đa: 3g/ngày.
+
+Nifedipine  viên nang 10mg ngậm dưới lưỡi.
+
+Lưu ý: Nifedipine có khả năng tương tác với Magnesium sulfate dẫn đến hạ huyết áp mạnh.
+
+- Lợi tiểu và vấn đề truyền dịch:
+Thuốc lợi tiểu chỉ dùng khi có thiểu niệu, đe doạ phù phổi, phù não. Lượng dịch cần bù phụ thuộc vào sự bài tiết nước tiểu. Trong trường hợp bệnh nặng cần đo áp lực tĩnh mạch trung tâm (CVP). Lượng dịch truyền vào bằng lượng nước tiểu trong ngày cộng với 700ml dịch.
+
+- Sử dụng kháng sinh để dự phòng bội nhiễm.
+
+### 4.4.4. Điều trị sản khoa và ngoại khoa
+
+Nếu thai nhi còn sống sau cơn giật thì cuộc đẻ cần phải được tiến hành ngay khi bệnh nhân ổn định.
+
+Khởi phát chuyển dạ, nếu tiến triển thuận lợi thì bấm ối. Không nên để sản phụ phải dùng sức rặn, cần hỗ trợ thủ thuật khi đẻ (forceps). Có thể mổ lấy thai khi có chỉ định.
+
+*Lưu ý:
+
+- Không được dùng Ergometrin sau đẻ cho bệnh nhân tiền sản giật- sản giật vì tăng nguy cơ co giật và tai biến mạch máu não.
+- Trong trường hợp tiền sản giật nặng cần chấm dứt thai kỳ trong vòng 24 giờ kể từ  khi bắt đầu có triệu chứng. Nếu sản giật cần khởi phát chuyển dạ trong vòng 12 giờ từ khi bắt đầu có cơn giật.
+
+### 4.4.5.Theo dõi và  điều trị trong thời gian hậu sản
+
+- Tiếp tục theo dõi, điều trị chống co giật trong 24 giờ sau đẻ hoặc cơn giật cuối cùng.
+- Tiếp tục điều trị tăng huyết áp nếu có.
+- Tiếp tục theo dõi lượng nước tiểu.
+- Tư vấn các biện pháp tránh thai.
+
+## Câu hỏi:
+
+
+### 1. Hãy mô tả các triệu chứng lâm sàng chính (3 triệu chứng cổ điển) của của rối loạn tăng huyết áp trong thai nghén?
+
+
+### 2. Hãy phân loại các thể lâm sàng của rối loạn tăng huyết áp theo mức độ nặng nhẹ?
+
+
+### 3. Trình bày các yếu tố tiên lượng bệnh về phía mẹ và về phía con trong rối loạn tăng huyết áp ư thai nghén?
+
+
+### 4. Trình bày các nhóm thuốc hạ huyết áp: Thuốc đại diện, liều dùng, đường dùng được sử dụng trong điều trị bệnh tăng huyết áp trong thai nghén?
+
+
+### 5. Mô tả các giai đoạn của một cơn sản giật?
