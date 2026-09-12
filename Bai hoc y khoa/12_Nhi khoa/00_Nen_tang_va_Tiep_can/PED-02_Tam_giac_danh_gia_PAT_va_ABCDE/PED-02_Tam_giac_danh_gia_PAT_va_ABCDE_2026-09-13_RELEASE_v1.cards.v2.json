@@ -1,0 +1,290 @@
+[
+  {
+    "id": "PED02-V2-001",
+    "type": "basic",
+    "front": "Tam giác Đánh giá Nhi khoa (PAT) gồm những cạnh nào và được thực hiện trong bao lâu?",
+    "back": "<b>📖 Cấu trúc tam giác PAT:</b><br>Gồm 3 cạnh: Vẻ ngoài (Appearance), Công thở (Work of Breathing) và Tuần hoàn da (Circulation to Skin).<br><br><b>🔍 Nguyên tắc thực hiện:</b><br>Đứng ở cuối giường bệnh quan sát trong trọn vẹn 60 giây đầu tiên, mắt nhìn tai nghe, hoàn toàn KHÔNG chạm vào người trẻ."
+  },
+  {
+    "id": "PED02-V2-002",
+    "type": "basic",
+    "front": "Tại sao nguyên tắc 'Mắt trước – Tay sau' là bắt buộc trong tiếp cận ban đầu bệnh nhi?",
+    "back": "<b>📖 Bản chất tâm sinh lý:</b><br>Trẻ nhỏ rất nhạy cảm với người lạ; chạm vào trẻ hoặc dùng ống nghe lạnh sẽ làm trẻ hoảng sợ khóc to, làm nhịp thở và nhịp tim tăng vọt giả tạo, co kéo ngực do khóc.<br><br><b>🔍 Nguy cơ lâm sàng:</b><br>Làm mất toàn bộ dữ liệu sinh lý trung thực ban đầu và có thể kích hoạt co thắt thanh quản ngừng thở ở trẻ nghi viêm nắp thanh quản cấp."
+  },
+  {
+    "id": "PED02-V2-003",
+    "type": "cloze",
+    "text": "Bộ công cụ lượng giá cạnh Vẻ ngoài (Appearance) trong tam giác PAT gồm 5 yếu tố theo từ viết tắt {{c1::TICLS}} (Tone, Interactiveness, Consolability, Look/Gaze, Speech/Cry).",
+    "extra": "Cạnh Appearance phản ánh tình trạng oxy hóa, tưới máu và chuyển hóa của não bộ."
+  },
+  {
+    "id": "PED02-V2-004",
+    "type": "basic",
+    "front": "Tại sao cạnh Vẻ ngoài (Appearance) là cạnh quan trọng và nhạy nhất trong tam giác PAT?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Não trẻ nhỏ tiêu thụ tới 25% tổng nhu cầu oxy toàn cơ thể nhưng hoàn toàn không có nguồn dự trữ oxy và glucose. Não là cơ quan được ưu tiên tưới máu cuối cùng khi cơ thể co mạch bù trừ.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Appearance bất thường luôn là dấu hiệu chỉ điểm của tình trạng bệnh lý nặng đe dọa tính mạng (não đã bị thiếu oxy hoặc giảm tưới máu), bất kể huyết áp hay SpO2 đo được còn tốt."
+  },
+  {
+    "id": "PED02-V2-005",
+    "type": "basic",
+    "front": "Ý nghĩa sinh lý của cạnh Công thở (Work of Breathing) trong tam giác PAT là gì?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Phản ánh mức độ nỗ lực tiêu hao năng lượng của các cơ hô hấp nhằm bù trừ cho tình trạng thiếu oxy mô hoặc tăng sức cản khí đạo.<br><br><b>🔍 Dấu hiệu quan sát:</b><br>Âm thanh bất thường nghe từ xa (thở rít stridor, khò khè, thở rên), co kéo các tầng lồng ngực, phập phồng cánh mũi và tư thế chống khó thở (ngồi cúi người tripod, ngửa cổ)."
+  },
+  {
+    "id": "PED02-V2-006",
+    "type": "basic",
+    "front": "Ý nghĩa sinh lý của cạnh Tuần hoàn da (Circulation to Skin) trong tam giác PAT là gì?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Phản ánh cung lượng tim và mức độ tưới máu cơ quan. Khi cung lượng tim giảm, cơ thể tiết Catecholamine co thắt mạch máu dưới da để dồn máu nuôi tim và não; da là cơ quan bị hy sinh đầu tiên.<br><br><b>🔍 Dấu hiệu quan sát:</b><br>Da tái nhợt, da vằn bông tím (mottling), tím tái trung tâm và thời gian đổ đầy mao mạch (CRT) kéo dài > 2 giây."
+  },
+  {
+    "id": "PED02-V2-007",
+    "type": "cloze",
+    "text": "Kỹ thuật đo thời gian đổ đầy mao mạch (CRT) chuẩn hóa là dùng ngón tay cái ấn mạnh vào xương ức hoặc trán trong đúng {{c1::5 giây}}, buông tay ra và đếm thời gian da hồng trở lại dưới {{c1::2 giây}} ở phòng ấm ≥ 24°C.",
+    "extra": "CRT 2-3 giây là bất thường; CRT > 3 giây là dấu hiệu chỉ điểm tình trạng sốc giảm tưới máu."
+  },
+  {
+    "id": "PED02-V2-008",
+    "type": "basic",
+    "front": "Mẫu hình PAT 'Suy hô hấp còn bù' (Compensated Respiratory Distress) có đặc điểm gì?",
+    "back": "<b>📖 Đặc điểm 3 cạnh PAT:</b><br>- Appearance (A): Bình thường (trẻ tỉnh, khóc to, tương tác tốt).<br>- Work of Breathing (W): <b>BẤT THƯỜNG</b> (thở nhanh, co kéo lồng ngực, thở rít/khò khè).<br>- Circulation (C): Bình thường (da hồng ấm, CRT < 2s).<br><br><b>🔍 Xử trí ưu tiên:</b><br>Cung cấp oxy, làm thông thoáng đường thở, dùng thuốc khí dung, theo dõi sát phòng kiệt cơ hoành."
+  },
+  {
+    "id": "PED02-V2-009",
+    "type": "basic",
+    "front": "Mẫu hình PAT 'Sốc còn bù' (Compensated Shock) có đặc điểm gì?",
+    "back": "<b>📖 Đặc điểm 3 cạnh PAT:</b><br>- Appearance (A): Bình thường (trẻ tỉnh táo, tiếp xúc tốt).<br>- Work of Breathing (W): Bình thường (không có co kéo hô hấp).<br>- Circulation (C): <b>BẤT THƯỜNG</b> (da tái lạnh, bông tím, CRT > 2s, mạch nhanh nhỏ).<br><br><b>🔍 Xử trí ưu tiên:</b><br>Thiết lập đường truyền tĩnh mạch lớn, bolus dịch tinh thể Ringer Lactat 20 ml/kg trong 15-20 phút."
+  },
+  {
+    "id": "PED02-V2-010",
+    "type": "basic",
+    "front": "Mẫu hình PAT 'Suy chức năng não nguyên phát' (Primary CNS Dysfunction) có đặc điểm gì?",
+    "back": "<b>📖 Đặc điểm 3 cạnh PAT:</b><br>- Appearance (A): <b>BẤT THƯỜNG</b> (li bì, lơ mơ, mềm nhão, ánh mắt vô thần).<br>- Work of Breathing (W): Bình thường.<br>- Circulation (C): Bình thường.<br><br><b>🔍 Hành động khẩn cấp số 1:</b><br><b>Bấm đường huyết mao mạch ngay tại giường</b> để loại trừ hạ đường huyết; tầm soát viêm màng não, ngộ độc thuốc, chấn thương sọ não."
+  },
+  {
+    "id": "PED02-V2-011",
+    "type": "basic",
+    "front": "Mẫu hình PAT 'Kiệt sức cơ hô hấp' (Respiratory Failure) có đặc điểm gì?",
+    "back": "<b>📖 Đặc điểm 3 cạnh PAT:</b><br>- Appearance (A): <b>BẤT THƯỜNG</b> (li bì, lơ mơ do thiếu oxy não và ngộ độc CO2).<br>- Work of Breathing (W): <b>BẤT THƯỜNG</b> (thở chậm dần, thở nông, ngừng thở hoặc phổi câm).<br>- Circulation (C): Có thể bình thường hoặc tím tái.<br><br><b>🔍 Xử trí tối khẩn:</b><br>Bóp bóng qua mask 100% Oxy và chuẩn bị đặt nội khí quản thở máy ngay lập tức."
+  },
+  {
+    "id": "PED02-V2-012",
+    "type": "basic",
+    "front": "Mẫu hình PAT 'Sốc mất bù' (Decompensated Shock) có đặc điểm gì?",
+    "back": "<b>📖 Đặc điểm 3 cạnh PAT:</b><br>- Appearance (A): <b>BẤT THƯỜNG</b> (li bì, hôn mê do giảm tưới máu não).<br>- Work of Breathing (W): Bình thường hoặc thở nhanh sâu bù toan.<br>- Circulation (C): <b>BẤT THƯỜNG</b> (da lạnh ngắt, bông tím, huyết áp tâm thu tụt dưới ngưỡng P5 theo tuổi).<br><br><b>🔍 Xử trí tối khẩn:</b><br>Đặt kim trong xương (IO) sau 90s, bolus dịch nhanh 20 ml/kg, chuẩn bị thuốc vận mạch Adrenaline."
+  },
+  {
+    "id": "PED02-V2-013",
+    "type": "basic",
+    "front": "Mẫu hình PAT 'Nguy kịch dọa ngừng tuần hoàn' có đặc điểm gì?",
+    "back": "<b>📖 Đặc điểm 3 cạnh PAT:</b><br>Cả 3 cạnh A, W, C đều <b>BẤT THƯỜNG NGHIÊM TRỌNG</b> (hôn mê mềm nhão + thở ngáp/ngừng thở + da vằn tím, mạch mất).<br><br><b>🔍 Xử trí tối khẩn:</b><br>Kích hoạt quy trình PALS ngay lập tức: bóp bóng oxy 100%, bắt đầu ép tim ngoài lồng ngực nếu nhịp tim < 60 bpm kèm tưới máu kém, tiêm Adrenaline cấp cứu."
+  },
+  {
+    "id": "PED02-V2-014",
+    "type": "basic",
+    "front": "Tại sao 'Co kéo lồng ngực giảm dần kèm nhịp thở chậm lại' ở trẻ suy hô hấp có thể là bẫy chết người?",
+    "back": "<b>📖 Cơ chế 'Cải thiện giả':</b><br>Cơ hoành trẻ nhỏ chứa nhiều sợi cơ type II nhanh mỏi. Sau giai đoạn gắng sức kéo dài, cơ hoành cạn kiệt Glycogen không còn sức co kéo lồng ngực. Trẻ thở chậm lại do kiệt cơ và ngộ độc CO2 ức chế hành não.<br><br><b>🔍 Đối chiếu lâm sàng:</b><br>Nếu co kéo giảm nhưng tri giác xấu đi (li bì) và nhịp tim chậm lại ➔ Bệnh nhân sắp ngừng thở, phải đặt nội khí quản cấp cứu ngay!"
+  },
+  {
+    "id": "PED02-V2-015",
+    "type": "basic",
+    "front": "Tại sao tiếng rít khò khè (Wheezing) biến mất ở bệnh nhi hen phế quản nặng là dấu hiệu tối nguy kịch?",
+    "back": "<b>📖 Hiện tượng Phổi câm (Silent chest):</b><br>Tiếng wheezing cần một luồng khí có vận tốc đủ lớn đi qua phế quản co thắt mới tạo ra âm thanh. Khi cơ hô hấp kiệt sức hoặc phế quản tắc nghẽn gần hoàn toàn, luồng khí thông khí quá yếu không đủ tạo âm ➔ Nghe phổi im lặng hoàn toàn.<br><br><b>🔍 Xử trí:</b><br>Báo động ngừng thở! Bóp bóng mask oxy 100% và tiêm bắp Adrenaline cấp cứu."
+  },
+  {
+    "id": "PED02-V2-016",
+    "type": "basic",
+    "front": "Tại sao tụt huyết áp là dấu hiệu MUỘN của sốc ở trẻ em?",
+    "back": "<b>📖 Cơ chế bù trừ tuần hoàn:</b><br>Hệ thần kinh giao cảm của trẻ tăng tiết Catecholamine gây co mạch ngoại vi dữ dội để giữ huyết áp tâm thu nuôi tim và não. Trẻ có thể duy trì huyết áp bình thường khi đã mất tới 25% đến 30% thể tích tuần hoàn.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Huyết áp chỉ tụt khi cơ chế bù trừ đã sụp đổ hoàn toàn. Chờ huyết áp tụt mới chẩn đoán sốc là chờ ngừng tim."
+  },
+  {
+    "id": "PED02-V2-017",
+    "type": "cloze",
+    "text": "Theo PALS 2020, ngưỡng tụt huyết áp tâm thu (bách phân vị thứ 5) ở trẻ từ 1 đến 10 tuổi được tính bằng công thức: Huyết áp tâm thu tối thiểu = {{c1::70 + (2 × tuổi)}} mmHg.",
+    "extra": "Dưới ngưỡng này được xác định là Sốc mất bù: Sơ sinh < 60 mmHg; Nhũ nhi < 70 mmHg; Trên 10 tuổi < 90 mmHg."
+  },
+  {
+    "id": "PED02-V2-018",
+    "type": "basic",
+    "front": "Bộ ba dấu hiệu lâm sàng sớm giúp phát hiện Sốc còn bù tại giường khi huyết áp còn bình thường là gì?",
+    "back": "<b>📖 Bộ ba dấu hiệu tưới máu:</b><br>1. Nhịp tim nhanh không giải thích được (dấu hiệu sớm và nhạy nhất).<br>2. CRT kéo dài > 2 giây kèm da đầu chi lạnh mát, mạch ngoại vi bắt yếu.<br>3. Tri giác bứt rứt, kích thích hoặc li bì nhẹ do giảm tưới máu vỏ não.<br><br><b>🔍 Hành động:</b><br>Bolus Ringer Lactat 20 ml/kg ngay, không chờ huyết áp tụt."
+  },
+  {
+    "id": "PED02-V2-019",
+    "type": "basic",
+    "front": "Phân biệt lâm sàng giữa Sốc lạnh (Cold shock) và Sốc ấm (Warm shock) trong sốc nhiễm khuẩn nhi?",
+    "back": "<b>📖 Phân biệt lâm sàng:</b><br>- Sốc lạnh: Da lạnh, nổi vân bông tím, mạch ngoại vi bắt yếu, CRT > 2 giây, huyết áp tụt sớm (thường gặp nhất ở trẻ em).<br>- Sốc ấm: Da ấm đỏ bừng, mạch nảy mạnh, CRT < 1 giây (hồi lưu nhanh), huyết áp tâm trương tụt làm hiệu áp rộng (giai đoạn giãn mạch sớm, dễ bị bỏ sót)."
+  },
+  {
+    "id": "PED02-V2-020",
+    "type": "basic",
+    "front": "Nguyên nhân hàng đầu gây nhịp tim chậm ở trẻ nhỏ là gì và tại sao cấm dùng Atropine đầu tay?",
+    "back": "<b>📖 Căn nguyên bệnh sinh:</b><br>Hơn 90% nhịp chậm ở trẻ em là do <b>thiếu oxy mô kéo dài</b> gây ức chế tế bào nút xoang (không phải do bệnh tim nguyên phát).<br><br><b>🔍 Xử trí đúng chuẩn PALS:</b><br>Cung cấp 100% Oxy và bóp bóng thông khí hiệu quả là biện pháp điều trị căn nguyên; dùng Atropine không giải quyết được thiếu oxy mà còn làm tăng nhu cầu oxy cơ tim."
+  },
+  {
+    "id": "PED02-V2-021",
+    "type": "cloze",
+    "text": "Chỉ định ép tim ngoài lồng ngực ở trẻ nhũ nhi và trẻ nhỏ theo PALS 2020 là khi nhịp tim {{c1::< 60 lần/phút}} kèm theo dấu hiệu tưới máu mô kém sau khi đã hỗ trợ thông khí oxy hóa hiệu quả trong 30 giây.",
+    "extra": "Tỷ lệ ép tim/thổi ngạt: 15:2 khi có 2 nhân viên y tế cấp cứu."
+  },
+  {
+    "id": "PED02-V2-022",
+    "type": "basic",
+    "front": "Tại sao phải kê gối mỏng 2-3 cm dưới vai khi mở đường thở ở trẻ nhũ nhi?",
+    "back": "<b>📖 Đặc điểm giải phẫu:</b><br>Trẻ nhũ nhi có xương chẩm rất to nhô ra phía sau. Khi đặt nằm ngửa trên mặt phẳng cứng, đầu trẻ sẽ bị đẩy gập ra trước làm gập khí quản và tụt lưỡi gây tắc đường thở.<br><br><b>🔍 Kỹ thuật chuẩn:</b><br>Kê gối hoặc khăn gấp dày 2 - 3 cm dưới hai vai để nâng ngực lên, đưa đầu cổ về tư thế ngửi (Sniffing position) thẳng trục trung gian."
+  },
+  {
+    "id": "PED02-V2-023",
+    "type": "basic",
+    "front": "Tại sao tuyệt đối cấm dùng đè lưỡi khám họng ở trẻ nghi ngờ Viêm nắp thanh quản cấp (Epiglottitis)?",
+    "back": "<b>📖 Nguy cơ lâm sàng:</b><br>Nắp thanh môn đang bị viêm phù nề dạng quả anh đào đỏ mọng. Dùng que đè lưỡi thăm khám sẽ kích hoạt phản xạ co thắt thanh quản tối cấp qua dây thần kinh X, làm nắp thanh môn bít kín hoàn toàn thanh môn gây ngừng thở đột ngột không thể thông khí.<br><br><b>🔍 Thái độ xử trí:</b><br>Giữ trẻ ngồi yên trong lòng mẹ, thở oxy nhẹ nhàng và gọi bác sĩ tai mũi họng / gây mê hồi sức đến chuẩn bị đặt ống tại phòng mổ."
+  },
+  {
+    "id": "PED02-V2-024",
+    "type": "cloze",
+    "text": "Áp lực hút đờm máy hút an toàn ở trẻ nhỏ không được vượt quá {{c1::80 đến 100 mmHg}} và thời gian mỗi lần đưa ống hút vào không quá {{c1::10 giây}} để tránh xẹp phổi và kích thích phó giao cảm gây chậm nhịp tim.",
+    "extra": "Chọn ống hút đờm mềm kích cỡ bằng 2 lần cỡ ống nội khí quản."
+  },
+  {
+    "id": "PED02-V2-025",
+    "type": "basic",
+    "front": "Mục tiêu SpO2 chuẩn trong hỗ trợ hô hấp ở bệnh nhi là bao nhiêu và tại sao SpO2 bình thường không loại trừ suy hô hấp?",
+    "back": "<b>📖 Chỉ số mục tiêu:</b><br>Mục tiêu SpO2 duy trì ≥ 94% khí phòng.<br><br><b>🔍 Bản chất quang học:</b><br>SpO2 chỉ phản ánh độ bão hòa oxy của Hemoglobin (quá trình oxy hóa), không phản ánh được mức độ ứ đọng CO2 (quá trình thông khí) và công thở của cơ hoành. Trẻ đang thở co kéo 60 lần/phút vẫn có thể có SpO2 96% trước khi kiệt sức đột ngột."
+  },
+  {
+    "id": "PED02-V2-026",
+    "type": "basic",
+    "front": "Tại sao cảm biến SpO2 kẹp ở trẻ sơ sinh vừa chào đời bắt buộc phải đặt ở bàn tay phải?",
+    "back": "<b>📖 Cơ sở giải phẫu tuần hoàn:</b><br>Động mạch dưới đòn phải xuất phát từ thân cánh tay đầu (trước vị trí đổ vào của ống động mạch). Máu ở tay phải là máu trước ống động mạch (Preductal oxygenation), phản ánh chính xác độ bão hòa oxy của dòng máu nuôi dưỡng não và võng mạc."
+  },
+  {
+    "id": "PED02-V2-027",
+    "type": "cloze",
+    "text": "Khi bóp bóng qua mask có oxy cho trẻ em, áp lực đỉnh (PIP) vừa đủ để thấy lồng ngực nâng lên nhẹ nhàng là khoảng {{c1::20 đến 25 cmH2O}} với tần số bóp từ {{c1::12 đến 20 lần/phút}}.",
+    "extra": "Tránh bóp bóng quá nhanh hoặc áp lực quá mạnh gây tràn khí màng phổi và cản trở máu về tim."
+  },
+  {
+    "id": "PED02-V2-028",
+    "type": "basic",
+    "front": "Quy tắc vàng 90 giây trong thiết lập đường truyền ở bệnh nhi cấp cứu sốc hoặc ngừng tuần hoàn là gì?",
+    "back": "<b>📖 Khuyến cáo PALS 2020:</b><br>Nếu sau 2 lần chọc tĩnh mạch thất bại hoặc mất quá 90 giây mà chưa thiết lập được đường truyền ở bệnh nhi nguy kịch, lập tức chuyển sang **đặt kim truyền trong xương (Intraosseous line - IO)**.<br><br><b>🔍 Ưu điểm của đường IO:</b><br>Khoang tủy xương không bao giờ xẹp trong sốc, thông trực tiếp với tĩnh mạch trung tâm, truyền được dịch, máu và mọi thuốc cấp cứu."
+  },
+  {
+    "id": "PED02-V2-029",
+    "type": "cloze",
+    "text": "Vị trí giải phẫu chuẩn để đặt kim truyền trong xương (IO) ở trẻ nhỏ là mặt trước trong đầu trên xương chày, nằm dưới lồi củ chày {{c1::1 đến 2 cm}} tại vùng xương phẳng.",
+    "extra": "Tránh hướng mũi kim vào đĩa sụn tiếp hợp của xương."
+  },
+  {
+    "id": "PED02-V2-030",
+    "type": "basic",
+    "front": "Liều lượng và thời gian bolus dịch tinh thể đẳng trương chống sốc chuẩn ở bệnh nhi là gì?",
+    "back": "<b>📖 Phác đồ bolus dịch:</b><br>- Dung dịch: Ringer Lactat hoặc Natri Clorid 0.9%.<br>- Liều: 20 ml/kg truyền tĩnh mạch xả nhanh trong vòng 15 đến 20 phút.<br><br><b>🔍 Đánh giá lại:</b><br>Đánh giá lại nhịp tim, CRT, huyết áp và dấu hiệu quá tải dịch (gan to, ran ẩm phổi) sau mỗi lần bolus dịch."
+  },
+  {
+    "id": "PED02-V2-031",
+    "type": "basic",
+    "front": "Thang điểm AVPU đánh giá nhanh tri giác tại giường gồm những mức độ nào và mức độ nào cần đặt ống nội khí quản?",
+    "back": "<b>📖 Các mức điểm AVPU:</b><br>- A (Alert): Tỉnh táo hoàn toàn.<br>- V (Voice): Đáp ứng khi gọi to/lời nói.<br>- P (Pain): Chỉ đáp ứng khi kích thích đau.<br>- U (Unresponsive): Không đáp ứng hoàn toàn.<br><br><b>🔍 Chỉ định đặt NKQ:</b><br>Mức P và U (tương đương GCS ≤ 8 điểm) đã mất khả năng bảo vệ đường thở, có chỉ định đặt nội khí quản cấp cứu."
+  },
+  {
+    "id": "PED02-V2-032",
+    "type": "basic",
+    "front": "Thang điểm GCS Nhi khoa hiệu chỉnh tiêu chí Lời nói (Verbal) ở trẻ dưới 1 tuổi (chưa biết nói) như thế nào?",
+    "back": "<b>📖 Thang điểm V ở nhũ nhi:</b><br>- 5 điểm: Bập bẹ, ê a thích hợp với hoàn cảnh.<br>- 4 điểm: Khóc quấy, dỗ nín được một phần.<br>- 3 điểm: Khóc dai dẳng không dỗ được.<br>- 2 điểm: Rên rỉ khi bị kích thích đau.<br>- 1 điểm: Hoàn toàn không phát âm thanh."
+  },
+  {
+    "id": "PED02-V2-033",
+    "type": "cloze",
+    "text": "Hạ đường huyết ở trẻ em được xác định khi nồng độ Glucose máu dưới {{c1::2.6 mmol/L}} (< 45 mg/dL) và được xử trí cấp cứu bằng tiêm tĩnh mạch chậm dung dịch Glucose 10% liều {{c1::2 ml/kg}} trong 3 đến 5 phút.",
+    "extra": "Sau đó duy trì truyền Glucose với tốc độ GIR = 4 đến 6 mg/kg/phút."
+  },
+  {
+    "id": "PED02-V2-034",
+    "type": "basic",
+    "front": "Tam chứng Cushing trong tăng áp lực nội sọ cấp gồm những triệu chứng nào và ý nghĩa sinh lý là gì?",
+    "back": "<b>📖 Tam chứng Cushing:</b><br>1. Huyết áp tâm thu tăng vọt (hiệu áp rộng).<br>2. Nhịp tim chậm bất thường.<br>3. Rối loạn nhịp thở (thở Cheyne-Stokes hoặc thở không đều).<br><br><b>🔍 Ý nghĩa:</b><br>Phản xạ hành não đối phó với thiếu máu não do áp lực nội sọ tăng cao; báo hiệu tụt não qua lỗ chẩm sắp xảy ra trong tích tắc."
+  },
+  {
+    "id": "PED02-V2-035",
+    "type": "basic",
+    "front": "Tại sao trong bước E (Exposure) khám toàn thân bắt buộc phải giữ ấm chủ động cho trẻ?",
+    "back": "<b>📖 Nguy cơ hạ thân nhiệt:</b><br>Tỉ lệ diện tích da/cân nặng lớn khiến trẻ mất nhiệt cực nhanh khi cởi bỏ quần áo. Hạ thân nhiệt kích hoạt vòng xoắn co mạch phổi, toan chuyển hóa, hạ đường huyết và ngừng thở.<br><br><b>🔍 Hành động:</b><br>Bật đèn sưởi ấm, đắp chăn ấm, làm ấm dịch truyền và duy trì nhiệt độ phòng ≥ 25°C."
+  },
+  {
+    "id": "PED02-V2-036",
+    "type": "basic",
+    "front": "Phát hiện ban tử ban (Purpura) hoặc chấm xuất huyết không mất màu khi căng da ở trẻ sốt gợi ý bệnh lý tối khẩn nào?",
+    "back": "<b>📖 Chẩn đoán ưu tiên hàng đầu:</b><br>Nhiễm khuẩn huyết và Viêm màng não do Não mô cầu (Meningococcemia) gây viêm mạch hoại tử tối cấp.<br><br><b>🔍 Hành động cấp bách:</b><br>Tiêm tĩnh mạch ngay liều kháng sinh Ceftriaxone (100 mg/kg) hoặc Cefotaxim trong vòng 30 phút, không được trì hoãn để chờ chụp CT hay chọc dịch não tủy."
+  },
+  {
+    "id": "PED02-V2-037",
+    "type": "basic",
+    "front": "Cạm bẫy dùng bao đo huyết áp (Cuff) sai kích cỡ ở trẻ em dẫn đến hậu quả gì?",
+    "back": "<b>📖 Hậu quả sai số:</b><br>- Bao quá rộng: Áp lực khí nén phân tán trên diện rộng ép xẹp động mạch sớm ➔ Đo được huyết áp **thấp hơn thực tế 10-20 mmHg** (báo động giả).<br>- Bao quá hẹp: Cần bơm áp lực cực cao mới ép xẹp động mạch ➔ Đo được huyết áp **cao hơn thực tế 10-20 mmHg** (bỏ sót sốc mất bù).<br><br><b>🔍 Tiêu chuẩn:</b><br>Bề rộng túi hơi bằng 40% chu vi cánh tay; chiều dài ôm trọn 80-100% vòng cánh tay."
+  },
+  {
+    "id": "PED02-V2-038",
+    "type": "basic",
+    "front": "Tại sao trẻ thiếu máu nặng hoặc sốc nặng có thể chết vì thiếu oxy mà không bao giờ xuất hiện dấu hiệu tím tái?",
+    "back": "<b>📖 Cơ chế sinh hóa:</b><br>Dấu hiệu tím tái trung tâm đòi hỏi nồng độ Hemoglobin khử (Deoxyhemoglobin không gắn oxy) trong máu mao mạch phải đạt tối thiểu ≥ 5{ g/dL}.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Ở trẻ thiếu máu nặng (Hb chỉ còn 5-6 g/dL), dù toàn bộ lượng Hb này không gắn oxy thì nồng độ cũng khó vượt qua ngưỡng 5 g/dL để biểu hiện tím trên da niêm mạc."
+  },
+  {
+    "id": "PED02-V2-039",
+    "type": "basic",
+    "front": "Tại sao không được tin cậy hoàn toàn vào chỉ số SpO2 trên monitor ở bệnh nhi sốc hoặc hạ thân nhiệt?",
+    "back": "<b>📖 Nguyên lý quang học:</b><br>Cảm biến SpO2 cần phát hiện được dạng sóng mạch nảy của dòng máu động mạch. Khi co mạch ngoại biên dữ dội hoặc hạ thân nhiệt, lượng máu ra đầu ngón tay sụt giảm làm cảm biến bắt sai dạng sóng ➔ Chỉ số hiển thị giả tạo.<br><br><b>🔍 Quy tắc:</b><br>Chỉ tin cậy SpO2 khi dạng sóng plethysmograph đều đặn và tần số mạch trên máy khớp với nhịp tim nghe qua ống nghe."
+  },
+  {
+    "id": "PED02-V2-040",
+    "type": "basic",
+    "front": "Tại sao một trẻ 'nằm im, ngủ ngoan' tại buồng khám có thể là bẫy nguy hiểm đánh lừa bác sĩ?",
+    "back": "<b>📖 Dấu hiệu li bì bệnh lý:</b><br>Trẻ nhũ nhi bị sốc nặng, viêm màng não hoặc hạ đường huyết có thể nằm im lìm không khóc quấy do thiếu máu não và giảm trương lực cơ.<br><br><b>🔍 Cách phân biệt:</b><br>Luôn hỏi cha mẹ: 'Bình thường cháu có nằm im như thế này không?' và thực hiện đánh giá kích thích thức tỉnh có hệ thống theo thang TICLS."
+  },
+  {
+    "id": "PED02-V2-041",
+    "type": "cloze",
+    "text": "Nghiệm pháp Heimlich (ấn bụng từ trước ra sau và từ dưới lên trên 5 lần) chỉ được áp dụng cho trẻ bị hóc dị vật đường thở từ {{c1::≥ 1 tuổi}} trở lên và {{c1::còn tỉnh táo}}.",
+    "extra": "Ở trẻ nhũ nhi dưới 1 tuổi, phải dùng nghiệm pháp 5 lần vỗ lưng kết hợp 5 lần ấn ngực."
+  },
+  {
+    "id": "PED02-V2-042",
+    "type": "basic",
+    "front": "Tại sao tuyệt đối cấm dùng ngón tay móc họng mù (Blind finger sweep) khi trẻ bị hóc dị vật đường thở?",
+    "back": "<b>📖 Cơ chế gây họa:</b><br>Dùng ngón tay móc mò khi không nhìn thấy dị vật sẽ đẩy các dị vật hình tròn trơn lọt sâu hơn từ vùng hầu họng xuống hạ thanh môn, gây bít tắc khí quản hoàn toàn dẫn đến ngừng thở và ngừng tim tức khắc.<br><br><b>🔍 Quy tắc vàng:</b><br>Chỉ được dùng ngón tay lấy dị vật khi nhìn thấy rõ ràng dị vật nằm trong khoang miệng."
+  },
+  {
+    "id": "PED02-V2-043",
+    "type": "basic",
+    "front": "Liều lượng, nồng độ và đường dùng Adrenaline cấp cứu sống còn số 1 trong sốc phản vệ ở trẻ em là gì?",
+    "back": "<b>📖 Phác đồ Adrenaline phản vệ:</b><br>- Nồng độ: Dung dịch Adrenaline 1/1.000 (1 mg/ml).<br>- Liều lượng: 0.01 mg/kg = 0.01 ml/kg.<br>- Đường dùng: **Tiêm bắp sâu ở mặt trước ngoài đùi** ngay lập tức.<br>- Liều tối đa: 0.3 mg ở trẻ nhỏ, 0.5 mg ở trẻ lớn.<br><br><b>🔍 Lưu ý:</b><br>Lặp lại liều tiêm bắp mỗi 5 đến 10 phút nếu triệu chứng khó thở thanh quản và tụt huyết áp chưa thuyên giảm."
+  },
+  {
+    "id": "PED02-V2-044",
+    "type": "basic",
+    "front": "Tại sao tiêm bắp Adrenaline mặt trước ngoài đùi lại vượt trội hơn tiêm bắp vùng cơ delta hoặc tiêm dưới da trong phản vệ?",
+    "back": "<b>📖 Dược động học:</b><br>Cơ tứ đầu đùi (mặt trước ngoài đùi) có mạng lưới mạch máu phong phú hơn nhiều so với cơ delta, cho phép Adrenaline hấp thu nhanh vào máu đạt nồng độ đỉnh trị liệu chỉ sau 8 phút (so với hơn 30 phút khi tiêm cơ delta hoặc tiêm dưới da trong tình trạng sốc co mạch)."
+  },
+  {
+    "id": "PED02-V2-045",
+    "type": "basic",
+    "front": "Chu kỳ tái đánh giá (Reassessment) bằng tam giác PAT trên lâm sàng được khuyến cáo như thế nào?",
+    "back": "<b>📖 Chu kỳ tái đánh giá PAT:</b><br>- Bệnh nhi nguy kịch / Sau can thiệp hồi sức (bolus dịch, tiêm adrenaline, đặt ống): Đánh giá lại PAT mỗi 5 đến 15 phút.<br>- Bệnh nhi suy hô hấp đang thở oxy hoặc khí dung thuốc: Đánh giá lại PAT mỗi 15 đến 30 phút.<br>- Bệnh nhi ổn định tại buồng bệnh thường: Đánh giá lại PAT mỗi 2 đến 4 giờ."
+  },
+  {
+    "id": "PED02-V2-046",
+    "type": "basic",
+    "front": "Khi nào thì một bệnh nhi được coi là có chỉ định chuyển vào khoa Hồi sức tích cực Nhi (PICU)?",
+    "back": "<b>📖 Tiêu chuẩn chuyển PICU:</b><br>1. Kiệt sức cơ hô hấp dọa ngừng thở hoặc cần hỗ trợ thông khí xâm nhập.<br>2. Sốc kháng dịch (đã bolus 40-60 ml/kg dịch truyền) cần duy trì thuốc vận mạch.<br>3. Hôn mê với điểm GCS ≤ 8 hoặc tụt tri giác cấp tính ≥ 2 điểm.<br>4. Cả 3 cạnh PAT đều bất thường hoặc toan chuyển hóa nặng trơ với điều trị ban đầu."
+  },
+  {
+    "id": "PED02-V2-047",
+    "type": "basic",
+    "front": "Mẹo sờ mu bàn chân giúp ích gì trong việc phát hiện sớm sốc giảm thể tích ở trẻ em?",
+    "back": "<b>📖 Quy luật bàn chân ấm:</b><br>Dùng mu bàn tay sờ từ ngón chân lên cẳng chân. Hiện tượng co mạch ngoại vi bù trừ làm da lạnh ngắt từ đầu ngón chân lan dần lên đầu gối và đùi.<br><br><b>🔍 Giá trị thực hành:</b><br>Bàn chân lạnh kèm mạch quay nảy yếu là bằng chứng giảm thể tích tuần hoàn xuất hiện trước khi huyết áp tâm thu tụt từ 30 đến 60 phút."
+  },
+  {
+    "id": "PED02-V2-048",
+    "type": "basic",
+    "front": "Tóm tắt 3 câu hỏi cốt lõi bác sĩ trực phải tự trả lời khi hoàn thành quy trình PAT và ABCDE?",
+    "back": "<b>📖 Ba câu hỏi quyết định:</b><br>1. Bệnh nhi này có cần can thiệp cấp cứu tối khẩn để bảo vệ tính mạng ngay bây giờ không? (Dựa vào PAT).<br>2. Đường thở, thông khí và tuần hoàn đã được bảo đảm an toàn chưa? (Dựa vào ABCDE).<br>3. Sau các can thiệp ban đầu, bệnh nhi đang cải thiện thật sự hay đang rơi vào bẫy kiệt sức mất bù? (Dựa vào Tái đánh giá liên tục)."
+  }
+]

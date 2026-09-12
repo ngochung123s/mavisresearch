@@ -9,7 +9,10 @@
   "required_gates": [
     "depth_foundation",
     "citation_zero_block",
-    "source_diacritics"
+    "cards_schema",
+    "package_diacritics",
+    "source_diacritics",
+    "candidate_apkg_build"
   ],
   "lesson_depth_contract": {
     "min_total_words": 5000,
@@ -25,11 +28,7 @@
     "max_placeholder_count": 0,
     "no_padding": true
   },
-  "not_applicable": [
-    "candidate_apkg_build",
-    "cards_schema",
-    "package_diacritics"
-  ],
+  "not_applicable": [],
   "approved_exemptions": []
 }
 ```
