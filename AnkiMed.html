@@ -1,14 +1,14 @@
 <!--
 ================================================================================
-ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý CỦA QWEN
+ANKIMED V2.4 (RELEASE CANDIDATE) — BẢN HOÀN CHỈNH CAO NHẤT ĐÃ VÁ TOÀN BỘ CỦA QWEN
 ================================================================================
-1. [P0] Weekly Reset: Đã implement hàm getWeekKey() tính tuần từ Thứ Hai & checkWeeklyReset().
-2. [P0] Demo Mode Isolation: Chặn hoàn toàn nút test ảo khi ở Chế độ THẬT (không farm gạch/thẻ).
-3. [P0] Safe Backup Import: Object.assign({}, DEFAULT_STATE, state, imported) chống mất field mới.
-4. [P0] Polling Scale: Mở rộng quét tới 300 thẻ gần nhất (cards.slice(-300)) chống sót review.
-5. [P1] Streak & Shield Header: Hiển thị 🔥 X ngày | 🛡️ Y khiên trực gác trên header.
-6. [P1] Dynamic Quest Text: Text nhiệm vụ ngày tự động bám theo state.daily.target.
-7. [P1] Glacier Burndown & Milestones: Pháo hoa và chúc mừng khi đạt các mốc 100, 500, 1000...
+1. [Chế độ THẬT]: demoMode mặc định là FALSE. Tuyệt đối không farm ảo.
+2. [Tự động ẩn Test]: Khi AnkiConnect kết nối thành công, tự động ẩn cụm nút test ảo.
+3. [Gom Review theo Card]: latestByCard[cid] & clamp theo delta, chống đếm lặp khi lật nhanh.
+4. [Bảo vệ Rương]: Chặn nhận ca trực mới nếu còn rương chưa mở (mở modal rương ngay).
+5. [Streak Thật]: Gắn liền với lastStudyDate khi có review thật từ AnkiConnect.
+6. [Weekly Text Động]: Cập nhật nhãn và phần thưởng (+10 💡 +1 🛡️) tự động theo target.
+7. [Nút Đóng Gacha]: Bổ sung nút [✕] để thoát modal rút bùa nếu bấm nhầm.
 ================================================================================
 -->
 <!DOCTYPE html>
@@ -16,7 +16,7 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AnkiMed — The ER Shift & Campus Citadel V2.3.1</title>
+  <title>AnkiMed — The ER Shift & Campus Citadel V2.4</title>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -166,7 +166,7 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
       <div>
         <h1 class="text-xs sm:text-sm font-bold tracking-wide flex items-center gap-1.5 text-white">
           <span>ANKIMED</span>
-          <span class="text-[9px] uppercase font-mono px-1 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800/60 font-semibold">V2.3.1</span>
+          <span class="text-[9px] uppercase font-mono px-1 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800/60 font-semibold">V2.4 RC</span>
         </h1>
         <p class="text-[10px] text-slate-400 font-mono flex items-center gap-1">
           <span id="ankiStatusDot" class="inline-block w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
@@ -300,16 +300,16 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
           </div>
         </div>
         <div class="flex items-center gap-2">
-          <!-- Daily Quest -->
+          <!-- Daily Quest Dynamic -->
           <div id="dailyQuestBanner" class="flex items-center gap-1.5 px-2 py-0.5 rounded bg-slate-800/80 border border-slate-700 text-slate-300">
             <span class="text-amber-400">🎯</span>
             <span id="dailyQuestText">Nhiệm vụ ngày (20 thẻ)</span>
             <span id="dailyQuestStatus" class="text-[9px] font-bold text-amber-400">(0/20)</span>
           </div>
-          <!-- Weekly Target -->
+          <!-- Weekly Target Dynamic -->
           <div class="hidden md:flex items-center gap-1.5 px-2 py-0.5 rounded bg-slate-800/80 border border-slate-700 text-slate-300">
             <span class="text-cyan-400">📅</span>
-            <span>Tuần (150 thẻ):</span>
+            <span id="weeklyQuestText">Tuần (150 thẻ):</span>
             <span id="weeklyQuestStatus" class="text-[9px] font-bold text-cyan-400">0/150</span>
           </div>
         </div>
@@ -462,12 +462,12 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
           <!-- Populated by JS -->
         </div>
 
-        <!-- Simulation Buttons (With Demo Mode Toggle) -->
-        <div class="bg-slate-950/70 border border-slate-800/80 rounded-xl p-2 flex items-center justify-between text-xs">
+        <!-- Simulation Buttons (Auto-hidden when Anki is connected) -->
+        <div id="simPanel" class="bg-slate-950/70 border border-slate-800/80 rounded-xl p-2 flex items-center justify-between text-xs">
           <div class="flex items-center gap-1.5">
             <span class="text-slate-400 font-mono text-[10px]">Nút ảo:</span>
             <button id="btnToggleDemo" class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700" title="Bấm để bật/tắt chế độ test">
-              Chế độ: TEST
+              Chế độ: THẬT
             </button>
           </div>
           <div class="flex space-x-1">
@@ -502,13 +502,14 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
 
   <!-- GACHA 3D CARD FLIP OVERLAY MODAL -->
   <div id="gachaModal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-md z-50 flex items-center justify-center p-4">
-    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-lg w-full p-5 space-y-4 shadow-2xl text-center">
-      <div>
-        <h3 class="text-base font-bold text-white flex items-center justify-center gap-2">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-lg w-full p-5 space-y-4 shadow-2xl text-center relative">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+        <h3 class="text-base font-bold text-white flex items-center gap-2">
           <span>🎲 RÚT BÙA VẬN MỆNH CA TRỰC</span>
         </h3>
-        <p class="text-xs text-slate-400 mt-1">Chạm vào từng lá bài để lật mở vận mệnh của ca trực!</p>
+        <button id="btnCloseGachaModal" class="text-slate-400 hover:text-white text-base font-bold px-2 py-1 rounded transition" title="Đóng quay lại">✕</button>
       </div>
+      <p class="text-xs text-slate-400">Chạm vào từng lá bài để lật mở vận mệnh của ca trực!</p>
 
       <!-- 3D Flippable Cards Container -->
       <div id="gachaCardsContainer" class="grid grid-cols-1 sm:grid-cols-2 gap-3 py-2">
@@ -611,7 +612,7 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
         </label>
       </div>
       <div class="pt-2 border-t border-slate-800 flex justify-between items-center text-[10px] text-slate-500 font-mono">
-        <span>AnkiMed V2.3.1 (Battle Tested)</span>
+        <span>AnkiMed V2.4 (Release Candidate)</span>
         <button id="btnPromptReset" class="text-rose-400 hover:underline">Đặt lại từ đầu</button>
       </div>
     </div>
@@ -871,9 +872,9 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
     ];
 
     /* ====================================================================
-       5. STATE MANAGEMENT (V2.3.1 - RESILIENT, SAFE MERGE & WEEKLY RESET)
+       5. STATE MANAGEMENT (V2.4 - RELEASE CANDIDATE, ROBUST PERSISTENCE)
        ==================================================================== */
-    const STORAGE_KEY = 'ANKIMED_STATE_V2_3_1';
+    const STORAGE_KEY = 'ANKIMED_STATE_V2_4';
 
     function getWeekKey() {
       const d = new Date();
@@ -893,6 +894,7 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
       shields: 1,
       streakDays: 1,
       lastActiveDate: new Date().toDateString(),
+      lastStudyDate: null,
       daily: {
         date: new Date().toDateString(),
         target: 20,
@@ -909,7 +911,7 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
       pendingChest: false,
       soundEnabled: true,
       nightShift: false,
-      demoMode: true,
+      demoMode: false, // Default to FALSE: Chế độ THẬT an toàn tuyệt đối
       currentShift: null,
       history: []
     };
@@ -943,8 +945,9 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
       let changed = false;
 
       if (!state.daily || state.daily.date !== today) {
-        if (state.lastActiveDate) {
-          const diffDays = Math.floor((new Date(today) - new Date(state.lastActiveDate)) / (1000 * 60 * 60 * 24));
+        // Streak is calculated based on real study dates
+        if (state.lastStudyDate) {
+          const diffDays = Math.floor((new Date(today) - new Date(state.lastStudyDate)) / (1000 * 60 * 60 * 24));
           if (diffDays === 1) {
             state.streakDays = (state.streakDays || 1) + 1;
             if (state.streakDays % 3 === 0) {
@@ -995,7 +998,7 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
     }
 
     /* ====================================================================
-       6. ROBUST ANKICONNECT CLIENT (SLICED-300 REVIEW ID TRACKING)
+       6. ROBUST ANKICONNECT CLIENT (GROUPED REVIEWS BY CARD ID)
        ==================================================================== */
     const Anki = {
       url: 'http://127.0.0.1:8765',
@@ -1018,6 +1021,10 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
           document.getElementById('ankiStatusDot').className = 'inline-block w-1.5 h-1.5 rounded-full bg-emerald-400';
           document.getElementById('ankiStatusText').textContent = 'AnkiConnect: Sẵn sàng (v' + ver + ')';
 
+          // Auto-hide simulation panel when AnkiConnect is connected!
+          const simPanel = document.getElementById('simPanel');
+          if (simPanel && !state.demoMode) simPanel.classList.add('hidden');
+
           // Query due cards
           try {
             const due = await this.call('findCards', { query: 'is:due' });
@@ -1036,25 +1043,34 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
           const todayCount = await this.call('getNumCardsReviewedToday');
           document.getElementById('todayReviewedBadge').textContent = `Hôm nay: ${todayCount} thẻ`;
 
-          // Track reviews via Review IDs querying up to 300 cards
+          // Track reviews by grouping latest review per card & clamping to delta
           if (this.lastReviewedCount >= 0 && todayCount > this.lastReviewedCount) {
             try {
               const cards = await this.call('findCards', { query: 'rated:1' });
               if (cards && cards.length > 0) {
                 const queryCards = cards.length > 300 ? cards.slice(-300) : cards;
                 const revMap = await this.call('getReviewsOfCards', { cards: queryCards });
-                const newRevs = [];
+
+                // Group latest review for each card
+                const latestByCard = {};
                 for (const cid in revMap) {
                   const arr = revMap[cid];
                   if (Array.isArray(arr)) {
                     for (const r of arr) {
                       if (state.lastReviewId === 0 || r.id > state.lastReviewId) {
-                        newRevs.push(r);
+                        if (!latestByCard[cid] || r.id > latestByCard[cid].id) {
+                          latestByCard[cid] = r;
+                        }
                       }
                     }
                   }
                 }
-                newRevs.sort((a, b) => a.id - b.id);
+
+                let newRevs = Object.values(latestByCard).sort((a, b) => a.id - b.id);
+                const delta = todayCount - this.lastReviewedCount;
+                if (newRevs.length > delta) {
+                  newRevs = newRevs.slice(-delta);
+                }
 
                 if (newRevs.length > 0) {
                   for (const r of newRevs) {
@@ -1063,7 +1079,6 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
                   state.lastReviewId = newRevs[newRevs.length - 1].id;
                   saveState();
                 } else {
-                  const delta = todayCount - this.lastReviewedCount;
                   for (let i = 0; i < delta; i++) handleCardReview(3, 'AnkiConnect');
                 }
               }
@@ -1098,6 +1113,10 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
           this.connected = false;
           document.getElementById('ankiStatusDot').className = 'inline-block w-1.5 h-1.5 rounded-full bg-rose-500';
           document.getElementById('ankiStatusText').textContent = 'Chưa mở Anki (Đợi kết nối...)';
+
+          // Show simulation panel when AnkiConnect is disconnected
+          const simPanel = document.getElementById('simPanel');
+          if (simPanel) simPanel.classList.remove('hidden');
         }
       }
     };
@@ -1183,7 +1202,7 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
 
         container.appendChild(card);
 
-        // Auto flip after 1800ms so user can enjoy the click suspense
+        // Auto flip after 1800ms
         setTimeout(() => {
           if (!card.classList.contains('flipped')) {
             card.classList.add('flipped');
@@ -1194,6 +1213,13 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
     }
 
     function openGachaModal() {
+      // Prevent starting a new shift if pending chest remains unopened
+      if (state.pendingChest) {
+        showToast('🎁 Bạn còn 1 rương thưởng chưa mở! Hãy mở rương trước khi nhận ca mới.', 'info');
+        document.getElementById('completionModal').classList.remove('hidden');
+        return;
+      }
+
       rerollsLeft = 1;
       if (state.built['build_3']) rerollsLeft += 1;
       if (state.built['build_5']) rerollsLeft += 1;
@@ -1250,6 +1276,11 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
       if (source === 'Thử Nghiệm' && !state.demoMode) {
         showToast('🧪 Chế độ THẬT đang bật: Nút test không cộng tiến trình thật.', 'info');
         return;
+      }
+
+      // Record real study date for streak accuracy
+      if (source === 'AnkiConnect') {
+        state.lastStudyDate = new Date().toDateString();
       }
 
       state.totalCardsReviewed++;
@@ -1710,14 +1741,15 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
         chestBanner.classList.add('hidden');
       }
 
-      // Daily Quest
+      // Daily Quest Dynamic
       document.getElementById('dailyQuestText').textContent = `Nhiệm vụ ngày (${state.daily.target} thẻ)`;
       document.getElementById('dailyQuestStatus').textContent = state.daily.claimed ? '✓ XONG (+3 💡)' : `(${state.daily.progress}/${state.daily.target})`;
       document.getElementById('dailyQuestStatus').className = state.daily.claimed ? 'text-[9px] font-bold text-emerald-400' : 'text-[9px] font-bold text-amber-400';
 
-      // Weekly Quest
+      // Weekly Quest Dynamic
       if (state.weekly) {
-        document.getElementById('weeklyQuestStatus').textContent = state.weekly.claimed ? '✓ XONG' : `${state.weekly.progress}/${state.weekly.target}`;
+        document.getElementById('weeklyQuestText').textContent = `Tuần (${state.weekly.target} thẻ):`;
+        document.getElementById('weeklyQuestStatus').textContent = state.weekly.claimed ? '✓ XONG (+10 💡 +1 🛡️)' : `${state.weekly.progress}/${state.weekly.target}`;
       }
 
       // Render Visual City Scene
@@ -1935,6 +1967,9 @@ ANKIMED V2.3.1 (BATTLE TESTED EDITION) — BẢN VÁ HOÀN CHỈNH THEO GÓP Ý 
 
       // Open Gacha Reveal Modal
       document.getElementById('btnOpenGachaModal').addEventListener('click', openGachaModal);
+      document.getElementById('btnCloseGachaModal').addEventListener('click', () => {
+        document.getElementById('gachaModal').classList.add('hidden');
+      });
       document.getElementById('btnConfirmStartShift').addEventListener('click', startShiftFromGacha);
 
       // Reroll Gacha
