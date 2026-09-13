@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>PedViewer Mobile · Sách & Bài Học Nhi Khoa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Be Vietnam Pro"', 'system-ui', '-apple-system', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace']
+          },
+          colors: {
+            brand: {
+              400: '#22d3ee',
+              500: '#06b6d4',
+              600: '#0891b2',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Marked.js -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    :root {
+      --bg-base: #000000;
+      --bg-card: #0d1424;
+      --bg-header: rgba(13, 20, 36, 0.85);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --viewer-size: 15.5px;
+    }
+    html.sepia {
+      --bg-base: #f7ede2;
+      --bg-card: #ebd9c8;
+      --bg-header: rgba(247, 237, 226, 0.9);
+      --border-color: rgba(120, 80, 30, 0.15);
+      --text-main: #332211;
+      --text-muted: #7d5f42;
+    }
+    html.light {
+      --bg-base: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-header: rgba(255, 255, 255, 0.9);
+      --border-color: rgba(0, 0, 0, 0.08);
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+    }
+
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-main);
+      font-family: 'Be Vietnam Pro', sans-serif;
+      -webkit-tap-highlight-color: transparent;
+      padding-top: env(safe-area-inset-top);
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+
+    /* Mobile Prose Customization */
+    .prose-mobile {
+      font-size: var(--viewer-size);
+      line-height: 1.75;
+      color: var(--text-main);
+    }
+    .prose-mobile h1 {
+      font-size: 1.35em;
+      font-weight: 800;
+      color: #38bdf8;
+      margin: 1.2em 0 0.6em 0;
+      line-height: 1.3;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 6px;
+    }
+    .prose-mobile h2 {
+      font-size: 1.2em;
+      font-weight: 700;
+      color: #2dd4bf;
+      margin: 1.3em 0 0.5em 0;
+      line-height: 1.35;
+      scroll-margin-top: 110px;
+    }
+    .prose-mobile h3 {
+      font-size: 1.05em;
+      font-weight: 700;
+      color: #fbbf24;
+      margin: 1.1em 0 0.4em 0;
+      scroll-margin-top: 110px;
+    }
+    .prose-mobile h4 {
+      font-size: 0.95em;
+      font-weight: 600;
+      color: #c084fc;
+      margin: 0.9em 0 0.3em 0;
+    }
+    .prose-mobile p {
+      margin-bottom: 0.85em;
+    }
+    .prose-mobile ul, .prose-mobile ol {
+      padding-left: 1.25em;
+      margin-bottom: 0.85em;
+    }
+    .prose-mobile li {
+      margin-bottom: 0.35em;
+    }
+    .prose-mobile strong {
+      font-weight: 700;
+      color: #38bdf8;
+    }
+    html.light .prose-mobile strong { color: #0284c7; }
+    html.sepia .prose-mobile strong { color: #854d0e; }
+
+    /* Tables on mobile */
+    .prose-mobile table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1em 0;
+      font-size: 0.82em;
+      line-height: 1.5;
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      border-radius: 8px;
+    }
+    .prose-mobile th, .prose-mobile td {
+      border: 1px solid var(--border-color);
+      padding: 6px 10px;
+      min-width: 120px;
+    }
+    .prose-mobile th {
+      background: rgba(56, 189, 248, 0.12);
+      color: #38bdf8;
+      font-weight: 700;
+    }
+    .prose-mobile blockquote {
+      border-left: 3px solid #06b6d4;
+      padding: 6px 12px;
+      margin: 0.8em 0;
+      font-style: italic;
+      background: rgba(6, 182, 212, 0.05);
+      border-radius: 0 8px 8px 0;
+      font-size: 0.9em;
+      color: var(--text-muted);
+    }
+    .prose-mobile pre {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 10px;
+      border-radius: 10px;
+      overflow-x: auto;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8em;
+      margin: 0.8em 0;
+      border: 1px solid var(--border-color);
+    }
+
+    /* Page banner in PEDYTB */
+    .page-marker-banner {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 24px 0 14px 0;
+      padding: 5px 12px;
+      border-radius: 8px;
+      background: rgba(168, 85, 247, 0.12);
+      border: 1px dashed rgba(168, 85, 247, 0.4);
+      font-size: 11px;
+      font-weight: 700;
+      color: #c084fc;
+      letter-spacing: 0.03em;
+    }
+
+    /* Flashcard 3D flip effect */
+    .perspective-1000 {
+      perspective: 1000px;
+    }
+    .transform-style-3d {
+      transform-style: preserve-3d;
+    }
+    .backface-hidden {
+      backface-visibility: hidden;
+    }
+    .rotate-y-180 {
+      transform: rotateY(180deg);
+    }
+
+    /* Hide scrollbars for clean UI */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
+</head>
+<body class="h-screen w-screen flex flex-col overflow-hidden select-none">
+
+  <!-- ================= STICKY TOP HEADER ================= -->
+  <header class="shrink-0 bg-[#0c1322]/95 backdrop-blur border-b border-white/10 z-30">
+    <div class="h-12 px-3 flex items-center justify-between">
+      <!-- Left: Lesson Picker Trigger -->
+      <button onclick="openDrawer()" class="flex items-center gap-2 max-w-[65%] text-left active:opacity-70 transition">
+        <span class="text-base shrink-0">🩺</span>
+        <div class="truncate">
+          <div class="flex items-center gap-1.5">
+            <span id="headerLessonID" class="font-mono text-[11px] font-black px-1.5 py-0.2 rounded bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">PED-46</span>
+            <span id="headerLessonTitle" class="text-xs font-bold text-slate-100 truncate">Tiếp cận gan to ở trẻ em</span>
+          </div>
+        </div>
+        <svg class="w-3.5 h-3.5 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+
+      <!-- Right: Action buttons (A-, A+, Theme) -->
+      <div class="flex items-center gap-1.5 shrink-0">
+        <button onclick="changeFontSize(-1)" class="w-7 h-7 rounded-lg bg-white/5 border border-white/10 text-xs font-mono text-slate-300 flex items-center justify-center active:bg-white/20">A-</button>
+        <button onclick="changeFontSize(1)" class="w-7 h-7 rounded-lg bg-white/5 border border-white/10 text-xs font-mono text-slate-300 flex items-center justify-center active:bg-white/20">A+</button>
+        <button onclick="cycleTheme()" id="themeBtn" class="w-7 h-7 rounded-lg bg-white/5 border border-white/10 text-xs flex items-center justify-center active:bg-white/20">🌙</button>
+      </div>
+    </div>
+
+    <!-- Quick Navigation Sub-bar (Section Jumper Chips) -->
+    <div id="sectionPillsBar" class="h-9 px-2.5 flex items-center gap-1.5 overflow-x-auto no-scrollbar border-t border-white/5 text-[11px]">
+      <!-- Dynamically filled with section anchor chips -->
+    </div>
+  </header>
+
+  <!-- ================= MAIN CONTENT SWIPER / TABS ================= -->
+  <main class="flex-1 overflow-hidden relative">
+
+    <!-- VIEW 1: PED CHUẨN (Why-based EBM Lesson) -->
+    <div id="view-ped" class="h-full w-full overflow-y-auto px-4 py-5 select-text">
+      <div id="pedContainer" class="prose-mobile max-w-xl mx-auto pb-24">
+        <!-- Markdown injected -->
+      </div>
+    </div>
+
+    <!-- VIEW 2: SÁCH YTB (Original Textbook OCR) -->
+    <div id="view-pedytb" class="hidden h-full w-full overflow-y-auto px-4 py-5 select-text bg-[#090b14]">
+      <div id="pedytbContainer" class="prose-mobile max-w-xl mx-auto pb-24">
+        <!-- Markdown injected -->
+      </div>
+    </div>
+
+    <!-- VIEW 3: THẺ ANKI (Interactive Mobile Flashcard Player) -->
+    <div id="view-anki" class="hidden h-full w-full overflow-y-auto px-4 py-4 flex flex-col justify-between max-w-md mx-auto pb-20">
+      <!-- Filter and stats header -->
+      <div class="shrink-0 space-y-2 mb-3">
+        <div class="flex items-center justify-between text-xs">
+          <div class="flex items-center gap-1.5">
+            <span class="font-mono text-rose-400 font-bold" id="cardProgressText">Thẻ 1 / 28</span>
+            <span id="currentCardTrackBadge" class="text-[9px] font-mono px-2 py-0.5 rounded font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40">🏛️ BAREM GỐC</span>
+          </div>
+          <!-- Filter buttons -->
+          <div class="flex items-center bg-white/5 rounded-lg p-0.5 text-[10px]">
+            <button onclick="setAnkiFilter('all')" id="btn-flt-all" class="px-2 py-0.5 rounded font-bold bg-rose-500 text-white">Tất cả</button>
+            <button onclick="setAnkiFilter('barem_goc')" id="btn-flt-barem" class="px-2 py-0.5 rounded text-slate-400">Gốc</button>
+            <button onclick="setAnkiFilter('ebm_hien_dai')" id="btn-flt-ebm" class="px-2 py-0.5 rounded text-slate-400">EBM</button>
+          </div>
+        </div>
+        <!-- Progress Bar -->
+        <div class="w-full bg-white/10 h-1.5 rounded-full overflow-hidden">
+          <div id="cardProgressBar" class="bg-gradient-to-r from-rose-500 to-cyan-400 h-full w-0 transition-all duration-200"></div>
+        </div>
+      </div>
+
+      <!-- Card Box (Tap to Reveal / Flip) -->
+      <div onclick="toggleCardFlip()" id="flashcardBox" class="flex-1 min-h-[300px] bg-white/[0.04] border border-white/10 rounded-2xl p-5 flex flex-col justify-between shadow-2xl relative cursor-pointer active:scale-[0.99] transition">
+        <div>
+          <div class="flex items-center justify-between text-[10px] text-slate-500 font-mono mb-2">
+            <span id="cardIDBadge" class="text-rose-400 font-bold">#PED46-001</span>
+            <span class="text-slate-500">Chạm để lật đáp án 👆</span>
+          </div>
+          <div id="cardQuestionText" class="text-sm font-medium leading-relaxed text-slate-100 select-text">
+            Đang tải câu hỏi thẻ...
+          </div>
+        </div>
+
+        <!-- Answer / Extra reveal area -->
+        <div id="cardAnswerArea" class="hidden mt-4 pt-3 border-t border-white/10">
+          <div class="text-[11px] leading-relaxed select-text" id="cardExtraText">
+            <!-- Injected extra text -->
+          </div>
+        </div>
+
+        <div class="pt-2 text-center text-[10px] text-slate-500">
+          <span id="flipPrompt">Bấm vào thẻ để hiện đáp án</span>
+        </div>
+      </div>
+
+      <!-- Bottom Player Controls -->
+      <div class="shrink-0 flex items-center justify-between gap-3 mt-4">
+        <button onclick="prevCard()" class="flex-1 py-2.5 rounded-xl bg-white/5 active:bg-white/10 border border-white/10 text-xs font-bold text-slate-300 flex items-center justify-center gap-1.5">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+          <span>Trước</span>
+        </button>
+        <button onclick="toggleCardFlip()" class="flex-1 py-2.5 rounded-xl bg-cyan-500/20 active:bg-cyan-500/30 border border-cyan-500/40 text-xs font-bold text-cyan-300 flex items-center justify-center gap-1.5">
+          <span id="btnFlipText">Lật thẻ</span>
+        </button>
+        <button onclick="nextCard()" class="flex-1 py-2.5 rounded-xl bg-white/5 active:bg-white/10 border border-white/10 text-xs font-bold text-slate-300 flex items-center justify-center gap-1.5">
+          <span>Sau</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ================= BOTTOM NAVIGATION DOCK (4 TABS) ================= -->
+  <nav class="h-14 bg-[#0a0f1d]/95 backdrop-blur border-t border-white/10 flex items-center justify-around shrink-0 z-30 px-2">
+    <!-- Tab 1: Bài học PED -->
+    <button onclick="switchTab('ped')" id="tab-ped" class="flex-1 flex flex-col items-center justify-center py-1 text-cyan-400 font-bold">
+      <span class="text-base">📘</span>
+      <span class="text-[10px] mt-0.5">Bài PED</span>
+    </button>
+    <!-- Tab 2: Sách YTB -->
+    <button onclick="switchTab('pedytb')" id="tab-pedytb" class="flex-1 flex flex-col items-center justify-center py-1 text-slate-400 hover:text-slate-200">
+      <span class="text-base">📕</span>
+      <span class="text-[10px] mt-0.5">Sách YTB</span>
+    </button>
+    <!-- Tab 3: Thẻ Anki -->
+    <button onclick="switchTab('anki')" id="tab-anki" class="flex-1 flex flex-col items-center justify-center py-1 text-slate-400 hover:text-slate-200">
+      <span class="text-base">🗂️</span>
+      <span class="text-[10px] mt-0.5">Lật thẻ</span>
+    </button>
+    <!-- Tab 4: Menu bài -->
+    <button onclick="openDrawer()" id="tab-menu" class="flex-1 flex flex-col items-center justify-center py-1 text-slate-400 hover:text-slate-200">
+      <span class="text-base">📑</span>
+      <span class="text-[10px] mt-0.5">Mục lục</span>
+    </button>
+  </nav>
+
+  <!-- ================= LESSON SELECTOR DRAWER (OFF-CANVAS) ================= -->
+  <div id="drawerOverlay" onclick="closeDrawer()" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-40 hidden opacity-0 transition-opacity duration-200"></div>
+
+  <div id="drawerPanel" class="fixed inset-y-0 left-0 w-[85%] max-w-sm bg-[#0a101d] border-r border-white/10 z-50 transform -translate-x-full transition-transform duration-200 flex flex-col shadow-2xl">
+    <div class="h-14 px-4 border-b border-white/10 flex items-center justify-between shrink-0">
+      <div class="flex items-center gap-2">
+        <span class="text-lg">🩺</span>
+        <span class="font-extrabold text-sm text-cyan-400 tracking-tight">Danh Mục Bài Học</span>
+      </div>
+      <button onclick="closeDrawer()" class="p-1 rounded-lg text-slate-400 hover:text-white">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+
+    <!-- Search box -->
+    <div class="p-3 border-b border-white/10">
+      <input type="text" id="mobileSearchInput" oninput="filterDrawerLessons()" placeholder="Tìm kiếm mã bài, triệu chứng..." class="w-full bg-white/5 border border-white/10 rounded-xl px-3 py-2 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-cyan-500">
+    </div>
+
+    <!-- Drawer Lessons List -->
+    <div id="drawerList" class="flex-1 overflow-y-auto p-2 space-y-1">
+      <!-- Injected -->
+    </div>
+
+    <div class="p-3 border-t border-white/10 bg-black/30 text-[10px] text-center text-slate-500">
+      PedViewer Mobile V1.0 · Tự học Nhi khoa YTB
+    </div>
+  </div>
+
+  <!-- LOAD DATA SCRIPT -->
+  <script src="data.js"></script>
+
+  <!-- SCRIPT LOGIC -->
+  <script>
+    let currentLesson = null;
+    let activeTab = 'ped'; // ped | pedytb | anki
+    let currentTheme = 'dark';
+    let currentFontSize = 15.5;
+
+    // Anki card state
+    let allCards = [];
+    let filteredCards = [];
+    let currentCardIdx = 0;
+    let isFlipped = false;
+    let ankiFilter = 'all';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initApp();
+    });
+
+    function initApp() {
+      if (!window.PED_LIBRARY_DATA) {
+        alert("Chưa nạp được data.js. Hãy đảm bảo file data.js nằm cùng thư mục.");
+        return;
+      }
+
+      renderDrawer(window.PED_LIBRARY_DATA.lessons);
+
+      // Default lesson: PED-46 or first
+      const def = window.PED_LIBRARY_DATA.lessons.find(l => l.id === 'PED-46') || window.PED_LIBRARY_DATA.lessons[0];
+      if (def) {
+        selectLesson(def.id);
+      }
+    }
+
+    function renderDrawer(lessons) {
+      const container = document.getElementById('drawerList');
+      container.innerHTML = '';
+
+      let lastBlock = '';
+      lessons.forEach(l => {
+        if (l.block && l.block !== lastBlock) {
+          lastBlock = l.block;
+          const header = document.createElement('div');
+          header.className = 'text-[9px] font-mono font-bold uppercase text-slate-500 px-2 pt-3 pb-1 tracking-wider';
+          header.textContent = l.block;
+          container.appendChild(header);
+        }
+
+        const btn = document.createElement('button');
+        btn.onclick = () => {
+          selectLesson(l.id);
+          closeDrawer();
+        };
+
+        const isCurrent = currentLesson && currentLesson.id === l.id;
+        btn.className = `w-full text-left p-2.5 rounded-xl flex items-center justify-between text-xs transition ${
+          isCurrent ? 'bg-cyan-500/20 text-cyan-300 font-bold border border-cyan-500/30' : 'text-slate-300 hover:bg-white/5'
+        }`;
+
+        let tags = '';
+        if (l.has_ped) tags += `<span class="text-[9px] font-mono px-1 py-0.2 rounded bg-cyan-500/20 text-cyan-300">PED</span> `;
+        if (l.has_pedytb) tags += `<span class="text-[9px] font-mono px-1 py-0.2 rounded bg-purple-500/20 text-purple-300">YTB</span> `;
+        if (l.has_cards) tags += `<span class="text-[9px] font-mono px-1 py-0.2 rounded bg-rose-500/20 text-rose-300">${l.cards_count}🗂️</span>`;
+
+        btn.innerHTML = `
+          <div class="truncate mr-2">
+            <span class="font-mono font-black text-cyan-400">${l.id}</span>
+            <span class="ml-1">${l.title}</span>
+          </div>
+          <div class="shrink-0 flex items-center gap-1">${tags}</div>
+        `;
+        container.appendChild(btn);
+      });
+    }
+
+    function filterDrawerLessons() {
+      const q = document.getElementById('mobileSearchInput').value.toLowerCase();
+      if (!window.PED_LIBRARY_DATA) return;
+      const filtered = window.PED_LIBRARY_DATA.lessons.filter(l => {
+        return l.id.toLowerCase().includes(q) || l.title.toLowerCase().includes(q);
+      });
+      renderDrawer(filtered);
+    }
+
+    function selectLesson(id) {
+      if (!window.PED_LIBRARY_DATA) return;
+      const lesson = window.PED_LIBRARY_DATA.lessons.find(l => l.id === id);
+      if (!lesson) return;
+
+      currentLesson = lesson;
+
+      // Header update
+      document.getElementById('headerLessonID').textContent = lesson.id;
+      document.getElementById('headerLessonTitle').textContent = lesson.title;
+
+      // Render Markdown
+      renderMarkdown('ped', lesson.ped_content || `# [${lesson.id}] ${lesson.title}\n\n> 📋 Chưa có bài chuẩn Why-based.`);
+      renderMarkdown('pedytb', lesson.pedytb_content || `# [${lesson.id}] ${lesson.title}\n\n> 📖 Chưa có bản chụp giáo trình YTB.`);
+
+      // Generate section pills
+      generateSectionPills();
+
+      // Init Anki cards
+      initAnkiCards(lesson.cards_data || []);
+
+      // Auto switch to available tab
+      if (!lesson.has_ped && lesson.has_pedytb && activeTab === 'ped') {
+        switchTab('pedytb');
+      }
+    }
+
+    function renderMarkdown(type, content) {
+      const container = document.getElementById(`${type}Container`);
+      let processed = content.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
+        return `<div class="page-marker-banner"><span>📖 Trang ${p}</span> <span class="text-purple-300/40">•</span> <span>Giáo trình Nhi khoa Y Thái Bình</span></div>`;
+      });
+
+      if (window.marked) {
+        container.innerHTML = marked.parse(processed);
+      } else {
+        container.innerText = processed;
+      }
+    }
+
+    // Generate section quick-jumper pills from H2 headers
+    function generateSectionPills() {
+      const pillsContainer = document.getElementById('sectionPillsBar');
+      pillsContainer.innerHTML = '';
+
+      const activeView = activeTab === 'pedytb' ? 'view-pedytb' : 'view-ped';
+      const headings = document.getElementById(activeView).querySelectorAll('h2');
+
+      if (headings.length === 0) {
+        pillsContainer.innerHTML = '<span class="text-[10px] text-slate-500 italic">Không có đề mục nhanh</span>';
+        return;
+      }
+
+      headings.forEach((h, i) => {
+        const id = `heading-${activeTab}-${i}`;
+        h.id = id;
+
+        const pill = document.createElement('button');
+        pill.className = 'px-2.5 py-0.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-[10px] text-slate-300 font-medium shrink-0 active:bg-cyan-500/20 active:text-cyan-300 transition truncate max-w-[150px]';
+        // Short clean title
+        pill.textContent = h.textContent.replace(/^(Phần\s+[I|V|X]+|Bước\s+\d+)\s*[:—\-]\s*/i, '').trim();
+        pill.onclick = () => {
+          h.scrollIntoView({ behavior: 'smooth' });
+        };
+        pillsContainer.appendChild(pill);
+      });
+    }
+
+    // Bottom Navigation Tabs
+    function switchTab(tab) {
+      activeTab = tab;
+
+      ['ped', 'pedytb', 'anki'].forEach(t => {
+        const btn = document.getElementById(`tab-${t}`);
+        const view = document.getElementById(`view-${t}`);
+
+        if (t === tab) {
+          view.classList.remove('hidden');
+          btn.className = 'flex-1 flex flex-col items-center justify-center py-1 text-cyan-400 font-bold';
+        } else {
+          view.classList.add('hidden');
+          btn.className = 'flex-1 flex flex-col items-center justify-center py-1 text-slate-400 hover:text-slate-200';
+        }
+      });
+
+      generateSectionPills();
+    }
+
+    // Anki Flashcard Engine
+    function initAnkiCards(cards) {
+      allCards = cards;
+      setAnkiFilter('all');
+    }
+
+    function setAnkiFilter(flt) {
+      ankiFilter = flt;
+      ['all', 'barem', 'ebm'].forEach(f => {
+        const btn = document.getElementById(`btn-flt-${f}`);
+        const active = (flt === 'all' && f === 'all') ||
+                       (flt === 'barem_goc' && f === 'barem') ||
+                       (flt === 'ebm_hien_dai' && f === 'ebm');
+        if (active) {
+          btn.className = 'px-2 py-0.5 rounded font-bold bg-rose-500 text-white';
+        } else {
+          btn.className = 'px-2 py-0.5 rounded text-slate-400 hover:text-slate-200';
+        }
+      });
+
+      if (flt === 'all') {
+        filteredCards = allCards;
+      } else {
+        filteredCards = allCards.filter(c => c.track === flt);
+      }
+
+      currentCardIdx = 0;
+      isFlipped = false;
+      renderCurrentCard();
+    }
+
+    function renderCurrentCard() {
+      if (!filteredCards || filteredCards.length === 0) {
+        document.getElementById('cardProgressText').textContent = '0 / 0';
+        document.getElementById('cardIDBadge').textContent = '#TRỐNG';
+        document.getElementById('cardQuestionText').innerHTML = 'Chưa có thẻ flashcard phù hợp.';
+        document.getElementById('cardAnswerArea').classList.add('hidden');
+        document.getElementById('cardProgressBar').style.width = '0%';
+        return;
+      }
+
+      const c = filteredCards[currentCardIdx];
+      isFlipped = false;
+
+      // Progress
+      document.getElementById('cardProgressText').textContent = `Thẻ ${currentCardIdx + 1} / ${filteredCards.length}`;
+      const pct = ((currentCardIdx + 1) / filteredCards.length) * 100;
+      document.getElementById('cardProgressBar').style.width = `${pct}%`;
+
+      // Track badge
+      const trackBadge = document.getElementById('currentCardTrackBadge');
+      if (c.track === 'barem_goc') {
+        trackBadge.textContent = '🏛️ BAREM GỐC YTB';
+        trackBadge.className = 'text-[9px] font-mono px-2 py-0.5 rounded font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40';
+      } else {
+        trackBadge.textContent = '🔬 EBM & LÂM SÀNG';
+        trackBadge.className = 'text-[9px] font-mono px-2 py-0.5 rounded font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40';
+      }
+
+      document.getElementById('cardIDBadge').textContent = `#${c.id || (currentCardIdx + 1)}`;
+
+      // Question (Cloze hidden)
+      const qText = c.text ? c.text.replace(/{{c\d+::(.*?)(?:::(.*?))?}}/g, '<span class="bg-rose-500/20 text-rose-300 border-b-2 border-dashed border-rose-500 px-1.5 py-0.5 rounded font-bold">[ ... ]</span>') : '';
+      document.getElementById('cardQuestionText').innerHTML = qText;
+
+      // Extra
+      const answerArea = document.getElementById('cardAnswerArea');
+      answerArea.classList.add('hidden');
+
+      const isBarem = c.track === 'barem_goc';
+      document.getElementById('cardExtraText').innerHTML = `
+        <div class="p-3 rounded-xl ${isBarem ? 'bg-amber-950/20 border border-amber-500/30' : 'bg-cyan-950/20 border border-cyan-500/30'}">
+          <b class="${isBarem ? 'text-amber-400' : 'text-cyan-400'} block mb-1">💡 ${isBarem ? 'Barem giáo trình gốc YTB' : 'Lập luận lâm sàng & EBM'}:</b>
+          <span class="text-slate-200">${c.extra || 'Không có ghi chú thêm.'}</span>
+        </div>
+      `;
+
+      document.getElementById('btnFlipText').textContent = 'Lật thẻ';
+      document.getElementById('flipPrompt').textContent = 'Chạm vào thẻ để hiện đáp án';
+    }
+
+    function toggleCardFlip() {
+      if (!filteredCards || filteredCards.length === 0) return;
+      isFlipped = !isFlipped;
+
+      const c = filteredCards[currentCardIdx];
+      const answerArea = document.getElementById('cardAnswerArea');
+
+      if (isFlipped) {
+        // Show cloze answer highlighted
+        const aText = c.text ? c.text.replace(/{{c\d+::(.*?)(?:::(.*?))?}}/g, '<span class="bg-emerald-500/20 text-emerald-300 border-b-2 border-emerald-500 px-1.5 py-0.5 rounded font-bold">$1</span>') : '';
+        document.getElementById('cardQuestionText').innerHTML = aText;
+        answerArea.classList.remove('hidden');
+        document.getElementById('btnFlipText').textContent = 'Ẩn đáp án';
+        document.getElementById('flipPrompt').textContent = 'Chạm để ẩn đáp án';
+      } else {
+        renderCurrentCard();
+      }
+    }
+
+    function nextCard() {
+      if (!filteredCards || filteredCards.length === 0) return;
+      currentCardIdx = (currentCardIdx + 1) % filteredCards.length;
+      renderCurrentCard();
+    }
+
+    function prevCard() {
+      if (!filteredCards || filteredCards.length === 0) return;
+      currentCardIdx = (currentCardIdx - 1 + filteredCards.length) % filteredCards.length;
+      renderCurrentCard();
+    }
+
+    // Drawer Controls
+    function openDrawer() {
+      document.getElementById('drawerOverlay').classList.remove('hidden');
+      setTimeout(() => {
+        document.getElementById('drawerOverlay').classList.remove('opacity-0');
+        document.getElementById('drawerPanel').classList.remove('-translate-x-full');
+      }, 10);
+    }
+
+    function closeDrawer() {
+      document.getElementById('drawerOverlay').classList.add('opacity-0');
+      document.getElementById('drawerPanel').classList.add('-translate-x-full');
+      setTimeout(() => {
+        document.getElementById('drawerOverlay').classList.add('hidden');
+      }, 200);
+    }
+
+    // Font size
+    function changeFontSize(delta) {
+      currentFontSize = Math.min(22, Math.max(13, currentFontSize + delta));
+      document.documentElement.style.setProperty('--viewer-size', `${currentFontSize}px`);
+    }
+
+    // Theme Switch
+    function cycleTheme() {
+      const themes = ['dark', 'sepia', 'light'];
+      const nextIdx = (themes.indexOf(currentTheme) + 1) % themes.length;
+      currentTheme = themes[nextIdx];
+
+      document.documentElement.classList.remove('dark', 'sepia', 'light');
+      document.documentElement.classList.add(currentTheme);
+
+      const icons = { dark: '🌙', sepia: '📜', light: '☀️' };
+      document.getElementById('themeBtn').textContent = icons[currentTheme];
+    }
+  </script>
+</body>
+</html>
