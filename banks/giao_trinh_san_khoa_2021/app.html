@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MedSpelling · Luyện Thuộc Lòng & Chép Chính Tả Sản Khoa BSNT</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/600.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/700.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.1.0/500.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.1.0/700.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['"Be Vietnam Pro"', 'system-ui', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'monospace']
+      },
+      colors: {
+        bgDark: '#070d18',
+        panelDark: '#0d1829',
+        cardDark: 'rgba(255, 255, 255, 0.035)',
+        borderDark: 'rgba(255, 255, 255, 0.08)',
+        tealAcc: '#2dd4bf',
+        skyAcc: '#38bdf8',
+        roseAcc: '#fb7185',
+        amberAcc: '#fbbf24'
+      }
+    }
+  }
+}
+</script>
+<style>
+  :root {
+    --teal: #2dd4bf;
+    --sky: #38bdf8;
+    --rose: #fb7185;
+    --amber: #fbbf24;
+  }
+  body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+  }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+
+  /* Scrollbars */
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: rgba(0,0,0,0.1); }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.25); }
+
+  /* Fading effects */
+  .token-faded {
+    color: transparent !important;
+    text-shadow: 0 0 8px rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.06);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .token-faded:hover {
+    color: #2dd4bf !important;
+    text-shadow: none;
+    background: rgba(45, 212, 191, 0.15);
+  }
+  .token-masked {
+    background: rgba(45, 212, 191, 0.12);
+    border-bottom: 2px dashed #2dd4bf;
+    color: transparent;
+    border-radius: 3px;
+    padding: 0 4px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s;
+  }
+  .token-masked:hover {
+    background: rgba(45, 212, 191, 0.25);
+  }
+  .token-revealed {
+    color: #2dd4bf !important;
+    font-weight: 600;
+    border-bottom: 2px solid #2dd4bf;
+  }
+
+  /* Range Slider */
+  input[type=range] {
+    -webkit-appearance: none;
+    height: 6px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.15);
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #2dd4bf;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(45, 212, 191, 0.5);
+  }
+
+  /* Typing caret animation */
+  @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+  .caret { display: inline-block; width: 2px; height: 1.2em; background: #2dd4bf; vertical-align: middle; animation: blink 1s infinite; }
+
+  /* Tooltip */
+  .cue-word {
+    display: inline-block;
+    cursor: pointer;
+    border-bottom: 1px dotted rgba(255,255,255,0.3);
+    transition: all 0.15s;
+  }
+  .cue-word:hover {
+    color: #2dd4bf;
+    border-bottom-color: #2dd4bf;
+  }
+</style>
+</head>
+<body class="bg-[#070d18] text-[#e6edf7] h-screen flex flex-col overflow-hidden selection:bg-teal-500/30 selection:text-teal-200">
+
+  <!-- ================= TOP HEADER ================= -->
+  <header class="h-14 border-b border-white/10 bg-[#0b1524]/90 backdrop-blur px-4 flex items-center justify-between flex-none z-30">
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-teal-400 to-sky-500 flex items-center justify-center font-black text-black text-lg shadow-lg shadow-teal-500/20">
+        M
+      </div>
+      <div>
+        <div class="flex items-center gap-2">
+          <span class="font-extrabold text-sm sm:text-base tracking-tight text-white">MedSpelling</span>
+          <span class="text-[10px] px-1.5 py-0.5 rounded bg-teal-500/20 text-teal-300 font-mono font-bold border border-teal-500/30">BSNT SẢN</span>
+        </div>
+        <div class="text-[10.5px] text-slate-400 hidden sm:block">Giáo trình Bài giảng Đại học — ĐHYD Thái Bình (2021)</div>
+      </div>
+    </div>
+
+    <!-- Mode Selector Tabs -->
+    <div class="flex items-center bg-white/5 border border-white/10 rounded-xl p-1 max-w-xl mx-2">
+      <button onclick="setMode(1)" id="tab-1" class="mode-tab px-3 py-1.5 rounded-lg text-xs font-bold transition flex items-center gap-1.5 bg-teal-500/20 text-teal-300 border border-teal-500/40">
+        <span>1. Fading</span>
+      </button>
+      <button onclick="setMode(2)" id="tab-2" class="mode-tab px-3 py-1.5 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition flex items-center gap-1.5">
+        <span>2. Cue Recall</span>
+      </button>
+      <button onclick="setMode(3)" id="tab-3" class="mode-tab px-3 py-1.5 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition flex items-center gap-1.5">
+        <span>3. Typing</span>
+      </button>
+      <button onclick="setMode(4)" id="tab-4" class="mode-tab px-3 py-1.5 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition flex items-center gap-1.5">
+        <span>4. Bareme Matcher</span>
+      </button>
+    </div>
+
+    <!-- Right utilities -->
+    <div class="flex items-center gap-2">
+      <button onclick="toggleSidebar()" class="p-2 rounded-lg bg-white/5 hover:bg-white/10 text-slate-300 text-sm md:hidden" title="Mở danh mục bài">
+        ☰
+      </button>
+      <div id="studyStatsBadge" class="hidden md:flex items-center gap-1 text-[11px] font-mono text-slate-400 bg-white/5 px-2.5 py-1 rounded-lg border border-white/8">
+        <span>Đã học:</span> <b class="text-teal-300 font-bold" id="statsMasteredCount">0/54</b>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= MAIN LAYOUT ================= -->
+  <div class="flex-1 flex overflow-hidden relative">
+
+    <!-- ================= SIDEBAR: LESSON NAVIGATOR ================= -->
+    <aside id="sidebar" class="w-80 border-r border-white/10 bg-[#09111e] flex flex-col flex-none z-20 absolute md:relative inset-y-0 left-0 transform -translate-x-full md:translate-x-0 transition-transform duration-200 ease-in-out">
+      <!-- Search Box -->
+      <div class="p-3 border-b border-white/10 space-y-2">
+        <div class="relative">
+          <input type="text" id="lessonSearch" oninput="filterLessons()" placeholder="Tìm bài học, thuốc, triệu chứng... (Ctrl+K)"
+                 class="w-full bg-white/5 border border-white/10 rounded-xl px-3 py-2 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-teal-400/50">
+          <span class="absolute right-2.5 top-2 text-slate-500 text-xs">🔍</span>
+        </div>
+        <div class="flex gap-1">
+          <button onclick="setFilterPriority('all')" id="filter-all" class="filter-btn flex-1 py-1 text-[10.5px] rounded-lg font-bold transition bg-teal-500/20 text-teal-300 border border-teal-500/30">Tất cả (54)</button>
+          <button onclick="setFilterPriority('high')" id="filter-high" class="filter-btn flex-1 py-1 text-[10.5px] rounded-lg font-bold text-slate-400 hover:text-white transition">🔥 BSNT (25)</button>
+          <button onclick="setFilterPriority('saved')" id="filter-saved" class="filter-btn flex-1 py-1 text-[10.5px] rounded-lg font-bold text-slate-400 hover:text-white transition">⭐ Đã lưu</button>
+        </div>
+      </div>
+
+      <!-- Lesson List Grouped by Chapters -->
+      <div id="lessonList" class="flex-1 overflow-y-auto divide-y divide-white/5 p-2 space-y-1">
+        <!-- Injected via JS -->
+      </div>
+    </aside>
+
+    <!-- ================= CONTENT VIEWPORT ================= -->
+    <main class="flex-1 flex flex-col overflow-hidden bg-[#070d18] relative">
+
+      <!-- Lesson Info Bar -->
+      <div class="border-b border-white/10 bg-[#0a1424]/80 px-4 py-2.5 flex flex-wrap items-center justify-between gap-2 flex-none">
+        <div class="flex items-center gap-3">
+          <span id="curLessonId" class="mono text-xs font-bold px-2 py-0.5 rounded bg-teal-500/20 text-teal-300 border border-teal-500/30">SK-35</span>
+          <div>
+            <h1 id="curLessonTitle" class="text-sm sm:text-base font-extrabold text-white leading-tight">TIỀN SẢN GIẬT - SẢN GIẬT</h1>
+            <div class="text-[11px] text-slate-400 flex items-center gap-2">
+              <span id="curLessonAuthor">Ths. Đinh Văn Hoành</span> •
+              <span id="curLessonWords" class="mono">4.103 từ</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section Chooser -->
+        <div class="flex items-center gap-2">
+          <label class="text-[11px] text-slate-400 font-bold hidden sm:block">Mục luyện tập:</label>
+          <select id="sectionSelect" onchange="onSectionChange()" class="bg-white/5 border border-white/10 text-xs text-teal-300 font-semibold rounded-xl px-3 py-1.5 focus:outline-none focus:border-teal-400/50 max-w-[200px] sm:max-w-xs truncate">
+            <!-- Injected via JS -->
+          </select>
+          <button onclick="toggleBookmark()" id="btnBookmark" class="p-1.5 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 text-xs" title="Đánh dấu bài quan trọng">
+            ⭐
+          </button>
+        </div>
+      </div>
+
+      <!-- Key Clinical Anchors Chips (Số liệu & Thuốc) -->
+      <div id="keyAnchorsBar" class="px-4 py-1.5 border-b border-white/5 bg-black/20 flex items-center gap-2 overflow-x-auto text-[11px] flex-none">
+        <span class="text-slate-500 font-bold uppercase tracking-wider text-[9.5px] whitespace-nowrap">Mốc số liệu:</span>
+        <div id="keyNumbersList" class="flex items-center gap-1.5 whitespace-nowrap">
+          <!-- Injected via JS -->
+        </div>
+        <span class="text-slate-500 font-bold uppercase tracking-wider text-[9.5px] ml-3 whitespace-nowrap">Thuốc:</span>
+        <div id="keyDrugsList" class="flex items-center gap-1.5 whitespace-nowrap">
+          <!-- Injected via JS -->
+        </div>
+      </div>
+
+      <!-- WORKSPACE AREA: 4 MODES -->
+      <div class="flex-1 overflow-y-auto p-4 sm:p-6" id="workspaceContainer">
+
+        <!-- ================= MODE 1: GUIDED FADING ================= -->
+        <div id="mode-1-container" class="space-y-6 max-w-4xl mx-auto">
+          <!-- Fading Controller Bar -->
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-wrap items-center justify-between gap-4">
+            <div class="flex-1 min-w-[240px]">
+              <div class="flex justify-between items-center mb-1">
+                <span class="text-xs font-bold text-slate-300">Cấp độ phai mờ (Guided Fading):</span>
+                <span id="fadeLevelLabel" class="text-xs font-mono font-bold text-teal-300">Mức 0: Toàn văn SGK</span>
+              </div>
+              <input type="range" id="fadeSlider" min="0" max="4" value="0" step="1" oninput="onFadeSliderChange()" class="w-full">
+              <div class="flex justify-between text-[10px] font-mono text-slate-500 mt-1">
+                <span>0. Toàn văn</span>
+                <span>1. Che từ phụ</span>
+                <span>2. Che từ khóa</span>
+                <span>3. Dàn ý</span>
+                <span>4. Trắng tinh</span>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 flex-none">
+              <button onclick="revealAllFaded()" class="px-3 py-1.5 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-xs text-slate-300 font-semibold transition">
+                👁️ Hiện tất cả
+              </button>
+              <button onclick="hideAllFaded()" class="px-3 py-1.5 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-xs text-slate-300 font-semibold transition">
+                🙈 Ẩn tất cả
+              </button>
+            </div>
+          </div>
+
+          <!-- Fading Text Content Display -->
+          <div id="fadingContent" class="bg-white/[0.02] border border-white/8 rounded-2xl p-6 text-slate-200 leading-relaxed space-y-4 text-sm sm:text-base selection:bg-teal-500/20">
+            <!-- Injected via JS -->
+          </div>
+        </div>
+
+        <!-- ================= MODE 2: CUE RECALL ================= -->
+        <div id="mode-2-container" class="hidden space-y-6 max-w-4xl mx-auto">
+          <!-- Cue Sub-modes -->
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-bold text-slate-300">Kiểu mồi gợi nhớ:</span>
+              <button onclick="setCueStyle('first_letter')" id="cueBtn-fl" class="px-3 py-1 text-xs font-bold rounded-lg bg-teal-500/20 text-teal-300 border border-teal-500/30">
+                Chữ cái đầu
+              </button>
+              <button onclick="setCueStyle('cloze_letter')" id="cueBtn-cl" class="px-3 py-1 text-xs font-bold rounded-lg text-slate-400 hover:text-white">
+                Điền khuyết (t____)
+              </button>
+              <button onclick="setCueStyle('bullet_acronym')" id="cueBtn-ba" class="px-3 py-1 text-xs font-bold rounded-lg text-slate-400 hover:text-white">
+                Gạch đầu dòng (4T)
+              </button>
+            </div>
+            <div class="text-[11px] text-slate-400">
+              💡 Rê chuột hoặc bấm vào chữ để xem gợi ý 2 giây
+            </div>
+          </div>
+
+          <!-- Cue Content Display -->
+          <div id="cueContent" class="bg-white/[0.02] border border-white/8 rounded-2xl p-6 text-slate-200 leading-loose space-y-4 text-sm sm:text-base font-mono">
+            <!-- Injected via JS -->
+          </div>
+        </div>
+
+        <!-- ================= MODE 3: DICTATION TYPING ================= -->
+        <div id="mode-3-container" class="hidden space-y-6 max-w-4xl mx-auto">
+          <!-- Typing Controls & Metrics -->
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-wrap items-center justify-between gap-4">
+            <div class="flex items-center gap-4">
+              <div class="text-center">
+                <div class="text-[10px] font-mono uppercase text-slate-400">Tốc độ WPM</div>
+                <div id="typeWpm" class="text-2xl font-bold font-mono text-teal-300">0</div>
+              </div>
+              <div class="text-center">
+                <div class="text-[10px] font-mono uppercase text-slate-400">Độ chính xác</div>
+                <div id="typeAccuracy" class="text-2xl font-bold font-mono text-sky-300">100%</div>
+              </div>
+              <div class="text-center">
+                <div class="text-[10px] font-mono uppercase text-slate-400">Lỗi sai</div>
+                <div id="typeErrors" class="text-2xl font-bold font-mono text-rose-400">0</div>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <label class="flex items-center gap-1.5 cursor-pointer text-xs text-slate-300">
+                <input type="checkbox" id="typeStrictMode" class="rounded accent-teal-400">
+                <span>Strict mode (Gõ đúng mới đi tiếp)</span>
+              </label>
+              <button onclick="resetTyping()" class="px-3 py-1.5 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-xs font-semibold text-slate-300">
+                ↺ Gõ lại
+              </button>
+            </div>
+          </div>
+
+          <!-- Interactive Typing Board -->
+          <div class="bg-white/[0.02] border border-white/8 rounded-2xl p-6 relative">
+            <div id="typingPromptDisplay" class="text-base sm:text-lg leading-relaxed font-sans text-slate-500 whitespace-pre-wrap select-none min-h-[140px]">
+              <!-- Injected via JS -->
+            </div>
+            <textarea id="typingInput" oninput="onTypingInput()" placeholder="Nhấp vào đây và bắt đầu gõ chính tả bài học..."
+                      class="w-full mt-4 h-32 bg-black/30 border border-white/10 rounded-xl p-3 text-sm sm:text-base font-sans text-white focus:outline-none focus:border-teal-400/50 resize-y"></textarea>
+          </div>
+        </div>
+
+        <!-- ================= MODE 4: BAREME MATCHER ================= -->
+        <div id="mode-4-container" class="hidden space-y-6 max-w-5xl mx-auto">
+          <!-- Instructions & Prompt Generator -->
+          <div class="bg-gradient-to-r from-teal-500/10 via-sky-500/10 to-transparent border border-teal-500/20 rounded-2xl p-4 flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <div class="text-xs font-bold text-teal-300 uppercase tracking-wider">Mô phỏng Chấm thi Tự luận Bác sĩ Nội trú</div>
+              <div class="text-xs text-slate-300 mt-0.5">Tự viết lại nội dung từ trí nhớ hoặc dán bài viết nháp vào khung bên dưới để hệ thống so khớp bareme.</div>
+            </div>
+            <div class="flex items-center gap-2">
+              <button onclick="generateMockPrompt()" class="px-3 py-1.5 rounded-xl bg-white/5 border border-white/10 text-xs font-semibold text-teal-300 hover:bg-white/10">
+                🎲 Lấy đề thi gợi ý
+              </button>
+              <button onclick="runBaremeEvaluation()" class="px-4 py-2 rounded-xl bg-gradient-to-r from-teal-400 to-sky-500 text-black font-extrabold text-xs shadow-lg shadow-teal-500/20 hover:brightness-110 transition flex items-center gap-1.5">
+                ⚡ CHẤM ĐIỂM THEO BAREM
+              </button>
+            </div>
+          </div>
+
+          <!-- Prompt Question Display -->
+          <div id="baremeQuestionBox" class="hidden bg-white/5 border border-white/10 rounded-xl p-3.5 text-xs text-amber-200">
+            <!-- Question text -->
+          </div>
+
+          <!-- Side-by-side Editor & Diff Result -->
+          <div class="grid lg:grid-cols-2 gap-5">
+            <!-- User Input Area -->
+            <div class="space-y-2">
+              <div class="flex justify-between items-center text-xs font-bold text-slate-400">
+                <span>BÀI LÀM CỦA BẠN (Gõ hoặc dán vào đây):</span>
+                <span id="userWordCount" class="font-mono text-teal-300">0 từ</span>
+              </div>
+              <textarea id="baremeUserText" oninput="updateUserWordCount()" placeholder="Nhập câu trả lời tự luận của bạn ở đây... Hãy viết thành các gạch đầu dòng rõ ràng, nêu bật các số liệu, tiêu chuẩn, tên thuốc và các bước xử trí theo đúng sách giáo khoa."
+                        class="w-full h-[400px] bg-black/30 border border-white/10 rounded-2xl p-4 text-xs sm:text-sm leading-relaxed text-white focus:outline-none focus:border-teal-400/50 resize-y"></textarea>
+            </div>
+
+            <!-- Evaluation & Diff Results -->
+            <div class="space-y-2 flex flex-col">
+              <div class="flex justify-between items-center text-xs font-bold text-slate-400">
+                <span>KẾT QUẢ SO KHỚP & ĐỐI CHIẾU SGK:</span>
+                <span id="baremeScoreBadge" class="font-mono text-xs px-2 py-0.5 rounded bg-white/10 text-slate-400">Chưa chấm</span>
+              </div>
+              <div id="baremeResultBox" class="flex-1 bg-black/20 border border-white/10 rounded-2xl p-4 overflow-y-auto min-h-[400px] text-xs leading-relaxed space-y-4">
+                <div class="h-full flex flex-col items-center justify-center text-center text-slate-500 p-6">
+                  <span class="text-4xl mb-2">📋</span>
+                  <p class="font-bold text-sm text-slate-400">Chưa có bài chấm</p>
+                  <p class="text-xs max-w-xs mt-1">Viết bài làm của bạn ở cột bên trái và bấm <b class="text-teal-300">"CHẤM ĐIỂM THEO BAREM"</b> để nhận phân tích chi tiết.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- Data Script Injection -->
+  <script src="data.js"></script>
+
+  <!-- Application Engine Script -->
+  <script>
+    // ==========================================
+    // SYNONYM & MEDICAL EQUIVALENCES DICTIONARY
+    // ==========================================
+    const MEDICAL_SYNONYMS = [
+      ['sót rau', 'sót nhau'],
+      ['đẻ thường', 'đẻ đường âm đạo', 'sinh thường', 'đẻ đường dưới'],
+      ['tổn thương đường sinh dục', 'chấn thương đường sinh dục', 'rách đường sinh dục'],
+      ['thai ngoài tử cung', 'chửa ngoài tử cung', 'chửa ngoài dạ con'],
+      ['huyết áp cao', 'tăng huyết áp'],
+      ['đình chỉ thai nghén', 'chấm dứt thai kỳ'],
+      ['đẻ non', 'sinh non'],
+      ['đa thai', 'song thai', 'sinh đôi'],
+      ['chảy máu sau sinh', 'băng huyết sau sinh'],
+      ['nhiễm độc thai nghén', 'tiền sản giật'],
+      ['rối loạn nhịp tim', 'loạn nhịp tim'],
+      ['thiểu ối', 'ít nước ối'],
+      ['đa ối', 'nhiều nước ối', 'dư ối'],
+      ['mổ đẻ', 'mổ lấy thai', 'phẫu thuật lấy thai']
+    ];
+
+    // State Variables
+    let allLessons = [];
+    let currentLesson = null;
+    let currentSectionIdx = 0;
+    let currentMode = 1;
+    let currentFadeLevel = 0;
+    let currentCueStyle = 'first_letter';
+    let currentFilterPriority = 'all';
+
+    // Typing State
+    let typingTargetText = '';
+    let typingStartTime = null;
+    let typingErrors = 0;
+
+    // Load and Initialize Data
+    window.addEventListener('DOMContentLoaded', () => {
+      if (window.SAN_KHOA_DATA && Array.isArray(window.SAN_KHOA_DATA)) {
+        allLessons = window.SAN_KHOA_DATA;
+      } else {
+        alert("Không tìm thấy tệp data.js! Hãy đảm bảo data.js nằm cùng thư mục với app.html.");
+        return;
+      }
+
+      // Restore last lesson or default to SK-35 (Tiền sản giật)
+      const lastId = localStorage.getItem('med_cur_lesson') || 'SK-35';
+      const found = allLessons.find(l => l.id === lastId) || allLessons[0];
+
+      renderLessonList();
+      selectLesson(found.id);
+      updateOverallStats();
+
+      // Setup Keyboard Shortcuts
+      window.addEventListener('keydown', (e) => {
+        if (e.ctrlKey && e.key.toLowerCase() === 'k') {
+          e.preventDefault();
+          document.getElementById('lessonSearch').focus();
+        } else if (e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
+          if (['1','2','3','4'].includes(e.key)) {
+            setMode(parseInt(e.key));
+          }
+        }
+      });
+    });
+
+    // Render Sidebar Lesson List
+    function renderLessonList() {
+      const listEl = document.getElementById('lessonList');
+      const searchKey = document.getElementById('lessonSearch').value.toLowerCase().trim();
+      const bookmarks = JSON.parse(localStorage.getItem('med_bookmarks') || '[]');
+
+      // Group lessons by Chapter
+      const chapters = {};
+      allLessons.forEach(l => {
+        // Apply filter
+        const matchSearch = l.title.toLowerCase().includes(searchKey) ||
+                            l.id.toLowerCase().includes(searchKey) ||
+                            l.author.toLowerCase().includes(searchKey) ||
+                            (l.key_drugs && l.key_drugs.some(d => d.toLowerCase().includes(searchKey)));
+
+        const matchPriority = (currentFilterPriority === 'all') ||
+                              (currentFilterPriority === 'high' && l.priority.includes('Cao')) ||
+                              (currentFilterPriority === 'saved' && bookmarks.includes(l.id));
+
+        if (matchSearch && matchPriority) {
+          if (!chapters[l.chapter]) chapters[l.chapter] = [];
+          chapters[l.chapter].push(l);
+        }
+      });
+
+      let html = '';
+      for (const [chap, lessons] of Object.entries(chapters)) {
+        html += `
+          <div class="pt-2 pb-1 px-2">
+            <div class="text-[10.5px] font-bold text-slate-500 uppercase tracking-wider mb-1">${chap}</div>
+            <div class="space-y-1">
+        `;
+        lessons.forEach(l => {
+          const isCurrent = currentLesson && currentLesson.id === l.id;
+          const isBookmarked = bookmarks.includes(l.id);
+          const isHigh = l.priority.includes('Cao');
+          html += `
+            <div onclick="selectLesson('${l.id}')" class="p-2 rounded-xl cursor-pointer transition flex items-center justify-between gap-2 text-xs ${isCurrent ? 'bg-teal-500/20 text-teal-300 border border-teal-500/30' : 'hover:bg-white/5 text-slate-300'}">
+              <div class="flex items-center gap-2 truncate">
+                <span class="font-mono text-[10px] font-bold opacity-60">${l.id}</span>
+                <span class="truncate font-semibold">${l.title}</span>
+              </div>
+              <div class="flex items-center gap-1 flex-none">
+                ${isHigh ? '<span class="text-[9px] px-1 rounded bg-amber-500/20 text-amber-300 font-bold">BSNT</span>' : ''}
+                ${isBookmarked ? '<span>⭐</span>' : ''}
+              </div>
+            </div>
+          `;
+        });
+        html += `</div></div>`;
+      }
+
+      if (!html) {
+        html = `<div class="p-6 text-center text-xs text-slate-500">Không tìm thấy bài học nào phù hợp.</div>`;
+      }
+      listEl.innerHTML = html;
+    }
+
+    // Select a Lesson
+    function selectLesson(id) {
+      currentLesson = allLessons.find(l => l.id === id);
+      if (!currentLesson) return;
+
+      localStorage.setItem('med_cur_lesson', id);
+
+      // Update header
+      document.getElementById('curLessonId').textContent = currentLesson.id;
+      document.getElementById('curLessonTitle').textContent = currentLesson.title;
+      document.getElementById('curLessonAuthor').textContent = currentLesson.author;
+      document.getElementById('curLessonWords').textContent = currentLesson.word_count.toLocaleString() + ' từ';
+
+      // Update bookmark button
+      const bookmarks = JSON.parse(localStorage.getItem('med_bookmarks') || '[]');
+      document.getElementById('btnBookmark').textContent = bookmarks.includes(id) ? '⭐ Đã lưu' : '☆ Lưu bài';
+
+      // Update Key numbers & Drugs
+      renderKeyAnchors();
+
+      // Update Section Selector
+      const secSelect = document.getElementById('sectionSelect');
+      secSelect.innerHTML = `<option value="-1">Toàn bộ bài học (${currentLesson.sections.length} mục)</option>` +
+        currentLesson.sections.map((sec, idx) => `<option value="${idx}">${idx + 1}. ${sec.heading}</option>`).join('');
+      currentSectionIdx = -1;
+
+      // Re-render sidebar highlights
+      renderLessonList();
+
+      // Render Current Mode
+      renderCurrentModeView();
+    }
+
+    function renderKeyAnchors() {
+      const numContainer = document.getElementById('keyNumbersList');
+      const drugContainer = document.getElementById('keyDrugsList');
+
+      numContainer.innerHTML = (currentLesson.key_numbers || []).slice(0, 8).map(n =>
+        `<span class="px-1.5 py-0.5 rounded bg-sky-500/10 text-sky-300 font-mono border border-sky-500/20">${n}</span>`
+      ).join('') || '<span class="text-slate-600">Không có</span>';
+
+      drugContainer.innerHTML = (currentLesson.key_drugs || []).slice(0, 6).map(d =>
+        `<span class="px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-300 font-mono capitalize border border-amber-500/20">${d}</span>`
+      ).join('') || '<span class="text-slate-600">Không có</span>';
+    }
+
+    function onSectionChange() {
+      currentSectionIdx = parseInt(document.getElementById('sectionSelect').value);
+      renderCurrentModeView();
+    }
+
+    function getActiveLessonText() {
+      if (!currentLesson) return '';
+      if (currentSectionIdx === -1) {
+        return currentLesson.raw_text;
+      }
+      const sec = currentLesson.sections[currentSectionIdx];
+      if (!sec) return '';
+      let out = `${sec.heading}\n\n`;
+      if (sec.paragraphs && sec.paragraphs.length) out += sec.paragraphs.join('\n\n') + '\n\n';
+      if (sec.bullets && sec.bullets.length) out += sec.bullets.join('\n');
+      return out;
+    }
+
+    function setMode(m) {
+      currentMode = m;
+      for (let i = 1; i <= 4; i++) {
+        const tab = document.getElementById(`tab-${i}`);
+        const c = document.getElementById(`mode-${i}-container`);
+        if (i === m) {
+          tab.className = "mode-tab px-3 py-1.5 rounded-lg text-xs font-bold transition flex items-center gap-1.5 bg-teal-500/20 text-teal-300 border border-teal-500/40 shadow-sm";
+          c.classList.remove('hidden');
+        } else {
+          tab.className = "mode-tab px-3 py-1.5 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition flex items-center gap-1.5";
+          c.classList.add('hidden');
+        }
+      }
+      renderCurrentModeView();
+    }
+
+    function renderCurrentModeView() {
+      if (currentMode === 1) renderFadingMode();
+      else if (currentMode === 2) renderCueMode();
+      else if (currentMode === 3) initTypingMode();
+      else if (currentMode === 4) initBaremeMode();
+    }
+
+    // =========================================================
+    // MODE 1: GUIDED FADING ENGINE
+    // =========================================================
+    function onFadeSliderChange() {
+      currentFadeLevel = parseInt(document.getElementById('fadeSlider').value);
+      const labels = [
+        "Mức 0: Toàn văn SGK nguyên bản",
+        "Mức 1: Làm mờ 30% từ nối phụ",
+        "Mức 2: Che toàn bộ Từ khóa, Số liệu & Thuốc",
+        "Mức 3: Dàn ý & Skeleton các gạch đầu dòng",
+        "Mức 4: Trắng tinh (Tự recall & chép ra giấy)"
+      ];
+      document.getElementById('fadeLevelLabel').textContent = labels[currentFadeLevel];
+      renderFadingMode();
+    }
+
+    function renderFadingMode() {
+      const container = document.getElementById('fadingContent');
+      const text = getActiveLessonText();
+      if (!text) { container.innerHTML = ''; return; }
+
+      if (currentFadeLevel === 4) {
+        container.innerHTML = `
+          <div class="py-12 text-center text-slate-500 space-y-3">
+            <span class="text-4xl block">📝</span>
+            <p class="font-bold text-slate-300 text-sm">Chế độ Blank Recall 100%</p>
+            <p class="text-xs max-w-sm mx-auto">Văn bản đã được ẩn hoàn toàn. Hãy lấy một tờ giấy trắng, bấm giờ và tự viết lại bài học này từ trí nhớ!</p>
+            <button onclick="revealAllFaded()" class="px-4 py-2 rounded-xl bg-teal-500/20 text-teal-300 font-bold text-xs border border-teal-500/40 hover:bg-teal-500/30 transition">
+              👁️ Mở lại để đối chiếu
+            </button>
+          </div>
+        `;
+        return;
+      }
+
+      // Keywords and numbers regex
+      const keySet = new Set((currentLesson.key_numbers || []).concat(currentLesson.key_drugs || []).map(k => k.toLowerCase()));
+      const paragraphs = text.split('\n\n');
+
+      let html = '';
+      paragraphs.forEach(p => {
+        if (!p.trim()) return;
+        const lines = p.split('\n');
+        lines.forEach(l => {
+          if (l.startsWith('#') || l.match(/^[I|V|X\d]+\./)) {
+            html += `<div class="font-bold text-teal-300 text-base mt-3 mb-1">${l}</div>`;
+            return;
+          }
+          if (currentFadeLevel === 3) {
+            // Skeleton mode: only keep bullet marker and first 3 words
+            const words = l.trim().split(/\s+/);
+            const cue = words.slice(0, 3).join(' ');
+            html += `<div class="font-mono text-xs text-slate-400 py-0.5">• ${cue} <span class="text-slate-600 font-normal">[ . . . ]</span></div>`;
+            return;
+          }
+
+          // Word-by-word fading
+          const words = l.split(/\s+/);
+          let pOut = '<p class="leading-relaxed">';
+          words.forEach((w, idx) => {
+            const clean = w.toLowerCase().replace(/[^a-z0-9àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]/g, '');
+            const isKey = keySet.has(clean) || w.match(/\d+/) || clean.length > 7;
+
+            if (currentFadeLevel === 0) {
+              pOut += `<span class="inline-block mr-1">${w}</span>`;
+            } else if (currentFadeLevel === 1) {
+              if (idx % 3 === 0 && !isKey) {
+                pOut += `<span class="token-faded inline-block mr-1" onclick="this.classList.remove('token-faded')">${w}</span>`;
+              } else {
+                pOut += `<span class="inline-block mr-1">${w}</span>`;
+              }
+            } else if (currentFadeLevel === 2) {
+              if (isKey) {
+                pOut += `<span class="token-masked inline-block mr-1" onclick="this.className='token-revealed inline-block mr-1'">${w}</span>`;
+              } else {
+                pOut += `<span class="inline-block mr-1">${w}</span>`;
+              }
+            }
+          });
+          pOut += '</p>';
+          html += pOut;
+        });
+      });
+
+      container.innerHTML = html;
+    }
+
+    function revealAllFaded() {
+      document.querySelectorAll('.token-faded').forEach(el => el.classList.remove('token-faded'));
+      document.querySelectorAll('.token-masked').forEach(el => el.className = 'token-revealed inline-block mr-1');
+      if (currentFadeLevel === 4) {
+        document.getElementById('fadeSlider').value = 0;
+        onFadeSliderChange();
+      }
+    }
+
+    function hideAllFaded() {
+      document.getElementById('fadeSlider').value = 2;
+      onFadeSliderChange();
+    }
+
+    // =========================================================
+    // MODE 2: CUE RECALL ENGINE
+    // =========================================================
+    function setCueStyle(style) {
+      currentCueStyle = style;
+      ['fl', 'cl', 'ba'].forEach(id => {
+        const btn = document.getElementById(`cueBtn-${id}`);
+        btn.className = (style === (id === 'fl' ? 'first_letter' : id === 'cl' ? 'cloze_letter' : 'bullet_acronym'))
+          ? "px-3 py-1 text-xs font-bold rounded-lg bg-teal-500/20 text-teal-300 border border-teal-500/30"
+          : "px-3 py-1 text-xs font-bold rounded-lg text-slate-400 hover:text-white";
+      });
+      renderCueMode();
+    }
+
+    function renderCueMode() {
+      const container = document.getElementById('cueContent');
+      const text = getActiveLessonText();
+      if (!text) { container.innerHTML = ''; return; }
+
+      const lines = text.split('\n');
+      let html = '';
+
+      lines.forEach(l => {
+        const trimmed = l.trim();
+        if (!trimmed) return;
+        if (trimmed.startsWith('#') || trimmed.match(/^[I|V|X\d]+\./)) {
+          html += `<div class="font-sans font-bold text-teal-300 text-sm mt-3 mb-1">${trimmed}</div>`;
+          return;
+        }
+
+        const words = trimmed.split(/\s+/);
+        if (currentCueStyle === 'first_letter') {
+          html += '<div class="tracking-widest py-0.5 text-slate-300">';
+          words.forEach(w => {
+            const first = w.charAt(0);
+            html += `<span class="cue-word mr-2" title="${w}" onclick="alert('${w}')">${first}</span>`;
+          });
+          html += '</div>';
+        } else if (currentCueStyle === 'cloze_letter') {
+          html += '<div class="py-0.5 text-slate-300 leading-relaxed font-sans text-xs sm:text-sm">';
+          words.forEach(w => {
+            if (w.length <= 2 || w.match(/^\d+$/)) {
+              html += `<span class="mr-1 font-bold text-slate-400">${w}</span>`;
+            } else {
+              const cue = w.charAt(0) + '_'.repeat(Math.min(w.length - 1, 4));
+              html += `<span class="cue-word font-mono text-teal-200/90 mr-1.5" title="${w}" onclick="alert('${w}')">${cue}</span>`;
+            }
+          });
+          html += '</div>';
+        } else if (currentCueStyle === 'bullet_acronym') {
+          const acronym = words.map(w => w.charAt(0).toUpperCase()).join(' - ');
+          html += `
+            <div class="p-2.5 rounded-xl bg-white/5 border border-white/5 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs font-sans">
+              <span class="font-mono font-bold text-teal-300 tracking-wider">[ ${acronym} ]</span>
+              <span class="text-slate-400 text-[11px] cursor-pointer hover:text-white" onclick="this.textContent = '${trimmed}'">👁️ Nhấp xem đáp án</span>
+            </div>
+          `;
+        }
+      });
+
+      container.innerHTML = html;
+    }
+
+    // =========================================================
+    // MODE 3: DICTATION TYPING ENGINE
+    // =========================================================
+    function initTypingMode() {
+      typingTargetText = getActiveLessonText().trim();
+      document.getElementById('typingInput').value = '';
+      typingStartTime = null;
+      typingErrors = 0;
+      updateTypingMetrics();
+      renderTypingPrompt();
+    }
+
+    function renderTypingPrompt() {
+      const container = document.getElementById('typingPromptDisplay');
+      const inputVal = document.getElementById('typingInput').value;
+
+      let html = '';
+      for (let i = 0; i < typingTargetText.length; i++) {
+        const targetChar = typingTargetText[i];
+        if (i < inputVal.length) {
+          const inputChar = inputVal[i];
+          if (inputChar === targetChar) {
+            html += `<span class="text-teal-400 font-bold">${targetChar}</span>`;
+          } else {
+            html += `<span class="text-rose-400 bg-rose-500/20 underline font-bold">${targetChar}</span>`;
+          }
+        } else if (i === inputVal.length) {
+          html += `<span class="caret"></span><span class="text-slate-500">${targetChar}</span>`;
+        } else {
+          html += `<span class="text-slate-600">${targetChar}</span>`;
+        }
+      }
+      container.innerHTML = html;
+    }
+
+    function onTypingInput() {
+      const inputVal = document.getElementById('typingInput').value;
+      const strict = document.getElementById('typeStrictMode').checked;
+
+      if (!typingStartTime && inputVal.length > 0) {
+        typingStartTime = new Date();
+      }
+
+      // Check strict constraint
+      if (strict && inputVal.length > 0) {
+        const lastIdx = inputVal.length - 1;
+        if (inputVal[lastIdx] !== typingTargetText[lastIdx]) {
+          typingErrors++;
+          // Beep audio feedback
+          playAudioFeedback(false);
+          // Rollback last typed char
+          document.getElementById('typingInput').value = inputVal.slice(0, -1);
+          return;
+        } else {
+          playAudioFeedback(true);
+        }
+      }
+
+      renderTypingPrompt();
+      updateTypingMetrics();
+    }
+
+    function updateTypingMetrics() {
+      const inputVal = document.getElementById('typingInput').value;
+      if (!typingStartTime || inputVal.length === 0) {
+        document.getElementById('typeWpm').textContent = '0';
+        document.getElementById('typeAccuracy').textContent = '100%';
+        document.getElementById('typeErrors').textContent = '0';
+        return;
+      }
+
+      const elapsedMinutes = (new Date() - typingStartTime) / 60000;
+      const wordsTyped = inputVal.trim().split(/\s+/).length;
+      const wpm = Math.round(wordsTyped / (elapsedMinutes || 0.01));
+
+      let correctChars = 0;
+      for (let i = 0; i < inputVal.length; i++) {
+        if (inputVal[i] === typingTargetText[i]) correctChars++;
+      }
+      const accuracy = Math.round((correctChars / (inputVal.length || 1)) * 100);
+
+      document.getElementById('typeWpm').textContent = wpm;
+      document.getElementById('typeAccuracy').textContent = accuracy + '%';
+      document.getElementById('typeErrors').textContent = (inputVal.length - correctChars) + typingErrors;
+    }
+
+    function resetTyping() {
+      initTypingMode();
+      document.getElementById('typingInput').focus();
+    }
+
+    function playAudioFeedback(success) {
+      try {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.type = 'sine';
+        osc.frequency.value = success ? 600 : 200;
+        gain.gain.value = 0.03;
+        osc.start();
+        osc.stop(ctx.currentTime + 0.05);
+      } catch (e) {}
+    }
+
+    // =========================================================
+    // MODE 4: BAREME MATCHER ENGINE
+    // =========================================================
+    function initBaremeMode() {
+      document.getElementById('baremeQuestionBox').classList.add('hidden');
+      updateUserWordCount();
+    }
+
+    function updateUserWordCount() {
+      const text = document.getElementById('baremeUserText').value.trim();
+      const count = text ? text.split(/\s+/).length : 0;
+      document.getElementById('userWordCount').textContent = count + ' từ';
+    }
+
+    function generateMockPrompt() {
+      const box = document.getElementById('baremeQuestionBox');
+      box.classList.remove('hidden');
+
+      // Generate prompt based on lesson title
+      const title = currentLesson.title;
+      box.innerHTML = `
+        <div class="flex items-start justify-between gap-3">
+          <div>
+            <b class="text-amber-300 font-mono text-xs">CÂU HỎI THI TỰ LUẬN ĐỀ NGHỊ:</b>
+            <p class="text-slate-200 mt-1 text-sm font-semibold">"Anh/Chị hãy trình bày định nghĩa, các tiêu chuẩn chẩn đoán, nguyên tắc xử trí và các lưu ý lâm sàng của bài <u>${title}</u> theo đúng Giáo trình Bộ môn?"</p>
+          </div>
+          <button onclick="document.getElementById('baremeQuestionBox').classList.add('hidden')" class="text-slate-500 hover:text-white">✕</button>
+        </div>
+      `;
+    }
+
+    function runBaremeEvaluation() {
+      const userText = document.getElementById('baremeUserText').value.trim();
+      if (!userText) {
+        alert("Vui lòng nhập hoặc dán nội dung bài làm của bạn vào khung bên trái trước khi bấm chấm điểm!");
+        return;
+      }
+
+      const targetText = getActiveLessonText().trim();
+      const resultBox = document.getElementById('baremeResultBox');
+      const badge = document.getElementById('baremeScoreBadge');
+
+      // 1. Evaluate Keywords
+      const allTokens = currentLesson.key_drugs.concat(currentLesson.key_numbers);
+      // Add frequent clinical phrases from sections
+      currentLesson.sections.forEach(sec => {
+        if (sec.heading.length > 5) allTokens.push(sec.heading.replace(/^[\d\.\s]+/, '').trim());
+      });
+
+      let matchedKeywords = [];
+      let missingKeywords = [];
+
+      const userLower = userText.toLowerCase();
+
+      // Check synonyms
+      function textContainsTerm(doc, term) {
+        const t = term.toLowerCase();
+        if (doc.includes(t)) return true;
+        // Check synonym map
+        for (const group of MEDICAL_SYNONYMS) {
+          if (group.includes(t)) {
+            if (group.some(syn => doc.includes(syn))) return true;
+          }
+        }
+        return false;
+      }
+
+      allTokens.forEach(k => {
+        if (k.length < 3) return;
+        if (textContainsTerm(userLower, k)) {
+          matchedKeywords.push(k);
+        } else {
+          missingKeywords.push(k);
+        }
+      });
+
+      // 2. Evaluate Clinical Numbers
+      const targetNumbers = currentLesson.key_numbers || [];
+      let matchedNumbers = [];
+      let missingNumbers = [];
+      targetNumbers.forEach(n => {
+        if (userText.includes(n)) matchedNumbers.push(n);
+        else missingNumbers.push(n);
+      });
+
+      // 3. Evaluate Key Drugs
+      const targetDrugs = currentLesson.key_drugs || [];
+      let matchedDrugs = [];
+      let missingDrugs = [];
+      targetDrugs.forEach(d => {
+        if (userLower.includes(d.toLowerCase())) matchedDrugs.push(d);
+        else missingDrugs.push(d);
+      });
+
+      // 4. Calculate Weighted Score / 10
+      const kwRatio = matchedKeywords.length / (allTokens.length || 1);
+      const numRatio = targetNumbers.length ? (matchedNumbers.length / targetNumbers.length) : 1;
+      const drugRatio = targetDrugs.length ? (matchedDrugs.length / targetDrugs.length) : 1;
+      const lenRatio = Math.min(userText.split(/\s+/).length / (targetText.split(/\s+/).length * 0.5), 1);
+
+      let totalScore = (kwRatio * 4.0 + numRatio * 3.0 + drugRatio * 2.0 + lenRatio * 1.0) * 1.0;
+      totalScore = Math.min(Math.max(totalScore, 1.0), 10.0).toFixed(1);
+
+      // Score Badge color
+      badge.textContent = `Điểm: ${totalScore} / 10`;
+      badge.className = `font-mono text-xs px-2.5 py-0.5 rounded font-bold ${
+        totalScore >= 8.5 ? 'bg-teal-500/20 text-teal-300 border border-teal-500/30' :
+        totalScore >= 7.0 ? 'bg-sky-500/20 text-sky-300 border border-sky-500/30' :
+        'bg-rose-500/20 text-rose-300 border border-rose-500/30'
+      }`;
+
+      // Render Detailed Scorecard
+      let outHtml = `
+        <div class="bg-white/5 border border-white/10 rounded-xl p-4 space-y-3">
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="text-[10.5px] uppercase font-bold text-slate-400">ĐÁNH GIÁ KẾT QUẢ BAREME</div>
+              <div class="text-2xl font-black font-mono ${totalScore >= 8 ? 'text-teal-300' : totalScore >= 7 ? 'text-sky-300' : 'text-rose-400'}">${totalScore} <span class="text-xs text-slate-400 font-normal">/ 10 điểm</span></div>
+            </div>
+            <div class="text-right text-xs">
+              <span class="px-2 py-1 rounded bg-white/5 border border-white/8 font-bold ${totalScore >= 8 ? 'text-teal-300' : 'text-amber-300'}">
+                ${totalScore >= 8.5 ? '🏆 Đạt chuẩn Đậu BSNT' : totalScore >= 7.0 ? '👍 Khá - Cần bổ sung số liệu' : '⚠️ Cần ôn lại ngay'}
+              </span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-3 gap-2 text-center text-[11px] pt-1">
+            <div class="card p-2 bg-black/30 rounded-lg">
+              <div class="text-slate-400">Từ khóa & Ý</div>
+              <div class="font-bold text-teal-300 font-mono mt-0.5">${Math.round(kwRatio * 100)}%</div>
+            </div>
+            <div class="card p-2 bg-black/30 rounded-lg">
+              <div class="text-slate-400">Số liệu mốc thai</div>
+              <div class="font-bold text-sky-300 font-mono mt-0.5">${Math.round(numRatio * 100)}%</div>
+            </div>
+            <div class="card p-2 bg-black/30 rounded-lg">
+              <div class="text-slate-400">Tên thuốc & Liều</div>
+              <div class="font-bold text-amber-300 font-mono mt-0.5">${Math.round(drugRatio * 100)}%</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Missing Items Warning -->
+        <div class="space-y-3">
+          ${missingNumbers.length ? `
+            <div class="p-3.5 rounded-xl bg-rose-500/10 border border-rose-500/20 text-[11.5px] space-y-1">
+              <b class="text-rose-300 font-bold block">🚨 CÁC MỐC SỐ LIỆU BẠN BỎ SÓT HOẶC VIẾT SAI:</b>
+              <div class="flex flex-wrap gap-1.5 pt-1">
+                ${missingNumbers.slice(0, 10).map(n => `<span class="px-2 py-0.5 rounded bg-rose-500/20 text-rose-200 font-mono">${n}</span>`).join('')}
+              </div>
+            </div>
+          ` : ''}
+
+          ${missingDrugs.length ? `
+            <div class="p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/20 text-[11.5px] space-y-1">
+              <b class="text-amber-300 font-bold block">💊 TÊN THUỐC SẢN KHOA CHƯA ĐƯA VÀO BÀI:</b>
+              <div class="flex flex-wrap gap-1.5 pt-1">
+                ${missingDrugs.slice(0, 8).map(d => `<span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-200 font-mono capitalize">${d}</span>`).join('')}
+              </div>
+            </div>
+          ` : ''}
+
+          ${missingKeywords.length ? `
+            <div class="p-3.5 rounded-xl bg-white/5 border border-white/10 text-[11.5px] space-y-1">
+              <b class="text-slate-300 font-bold block">📌 CÁC THUẬT NGỮ / TIÊU CHUẨN CẦN BỔ SUNG:</b>
+              <div class="flex flex-wrap gap-1.5 pt-1">
+                ${missingKeywords.slice(0, 10).map(k => `<span class="px-2 py-0.5 rounded bg-white/5 text-slate-300">${k}</span>`).join('')}
+              </div>
+            </div>
+          ` : ''}
+        </div>
+      `;
+
+      resultBox.innerHTML = outHtml;
+    }
+
+    // Bookmarks and Overall Stats
+    function toggleBookmark() {
+      if (!currentLesson) return;
+      let bookmarks = JSON.parse(localStorage.getItem('med_bookmarks') || '[]');
+      if (bookmarks.includes(currentLesson.id)) {
+        bookmarks = bookmarks.filter(id => id !== currentLesson.id);
+      } else {
+        bookmarks.push(currentLesson.id);
+      }
+      localStorage.setItem('med_bookmarks', JSON.stringify(bookmarks));
+      selectLesson(currentLesson.id);
+    }
+
+    function setFilterPriority(p) {
+      currentFilterPriority = p;
+      ['all', 'high', 'saved'].forEach(id => {
+        const btn = document.getElementById(`filter-${id}`);
+        btn.className = (p === id)
+          ? "filter-btn flex-1 py-1 text-[10.5px] rounded-lg font-bold transition bg-teal-500/20 text-teal-300 border border-teal-500/30"
+          : "filter-btn flex-1 py-1 text-[10.5px] rounded-lg font-bold text-slate-400 hover:text-white transition";
+      });
+      renderLessonList();
+    }
+
+    function filterLessons() {
+      renderLessonList();
+    }
+
+    function toggleSidebar() {
+      const sb = document.getElementById('sidebar');
+      sb.classList.toggle('-translate-x-full');
+    }
+
+    function updateOverallStats() {
+      const bookmarks = JSON.parse(localStorage.getItem('med_bookmarks') || '[]');
+      document.getElementById('statsMasteredCount').textContent = `${bookmarks.length}/${allLessons.length}`;
+    }
+  </script>
+</body>
+</html>
