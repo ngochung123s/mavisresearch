@@ -300,6 +300,10 @@ Bản vá toàn diện theo đánh giá của Qwen:
               <div id="playerComboText" class="text-xs font-bold text-amber-400">0 🔥</div>
             </div>
           </div>
+          <!-- Ultimate Ability Button (3 Mana) -->
+          <button id="btnCastUltimate" onclick="castUltimate()" class="hidden w-full py-1.5 rounded-lg bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600 text-white font-mono font-bold text-xs tracking-wider border border-cyan-400 animate-pulse shadow-lg shadow-cyan-500/50 hover:brightness-110 transition">
+            ⚡ ĐẠI CHIÊU PHẪU THUẬT SẴN SÀNG! (GÂY 35 DMG & HỒI 10 HP)
+          </button>
         </div>
 
         <!-- Consumable Item Belt (Túi Trang Bị Khẩn Cấp - 3 Slots) -->
@@ -357,6 +361,11 @@ Bản vá toàn diện theo đánh giá của Qwen:
     </section>
 
   </main>
+
+  <!-- CLINICAL HONESTY REMINDER FOOTER -->
+  <footer class="max-w-4xl w-full mx-auto px-4 text-center text-[10px] font-mono text-slate-500 py-1">
+    💡 <span class="text-slate-400 font-bold">Lời nhắc lâm sàng:</span> Hãy chọn ease trung thực với mức độ nhớ thật của bạn — Quái vật có thể hồi sinh, nhưng lỗ hổng kiến thức thì không!
+  </footer>
 
   <!-- VICTORY & LOOT ROOM MODAL (SELECT 1 OF 3 REWARDS) -->
   <div id="lootModal" class="hidden fixed inset-0 bg-black/85 backdrop-blur-md z-50 flex items-center justify-center p-4">
@@ -907,9 +916,12 @@ Bản vá toàn diện theo đánh giá của Qwen:
         isElite: (monsterTemplate.tier === 'elite'),
         isBoss: (monsterTemplate.tier === 'boss'),
         isStunned: false,
+        bossPhase2: false,
         turnCount: 0
       };
 
+      state.run.phase = 'combat';
+      state.run.poisonTurns = 0; // Reset poison across rooms
       state.run.tempAtkBuff = 0;
       state.run.shields = 0;
       if (relicFlag('blockFirstHit')) state.run.shields += 1;
@@ -1087,6 +1099,36 @@ Bản vá toàn diện theo đánh giá của Qwen:
         logBattle(`🔥 [${b.monster.name}] CUỒNG NỘ: Bão Cytokine thiêu đốt!`);
       }
 
+      // ACTIVE MONSTER TRAIT: Phong ấn tạng (Multiorgan Reaper Boss)
+      if (b.monster.trait === 'Phong ấn tạng') {
+        state.run.organSealStacks = (state.run.organSealStacks || 0) + 1;
+        dmg = Math.round(dmg * (1 + state.run.organSealStacks * 0.25));
+        logBattle(`💀 Tử Thần phong ấn tạng (Stack ${state.run.organSealStacks}): Sát thương nhận vào tăng mạnh!`);
+      }
+
+      // ACTIVE MONSTER TRAIT: Nhiệt độ bùng phát (Elite)
+      if (b.monster.trait === 'Nhiệt độ bùng phát') {
+        dmg += 4;
+      }
+
+      // ACTIVE MONSTER TRAIT: Ám ảnh (Hồn ma trực gác)
+      if (b.monster.trait === 'Ám ảnh') {
+        state.run.hp = Math.max(1, state.run.hp - 3);
+        spawnDamageFloat('-3 HP ÁM ẢNH 👻', 'text-purple-400');
+      }
+
+      // ACTIVE MONSTER TRAIT: Đốt cháy mana
+      if (b.monster.trait === 'Đốt cháy mana' && state.run.mana > 0) {
+        state.run.mana--;
+        spawnDamageFloat('-1 MANA 🪲', 'text-cyan-400');
+      }
+
+      // Cursed relic penalty (bypasses shields directly)
+      if (relicSum('againExtraHpLoss') > 0) {
+        state.run.hp = Math.max(1, state.run.hp - relicSum('againExtraHpLoss'));
+        spawnDamageFloat(`-${relicSum('againExtraHpLoss')} HP LỜI NGUYỀN 🩸`, 'text-rose-500');
+      }
+
       // Check Shields
       if (state.run.shields > 0) {
         state.run.shields--;
@@ -1103,16 +1145,13 @@ Bản vá toàn diện theo đánh giá của Qwen:
         state.run.tempDmgReduceTurns--;
       }
 
-      // Cursed relic penalty
-      if (relicSum('againExtraHpLoss') > 0) dmg += relicSum('againExtraHpLoss');
-
       dmg = Math.max(1, Math.round(dmg));
       state.run.hp = Math.max(0, state.run.hp - dmg);
       logBattle(`🩸 [${b.monster.name}] cắn trúng bạn: Bạn mất -${dmg} HP! (Còn: ${state.run.hp}/${state.run.maxHp})`);
 
-      // ACTIVE MONSTER TRAIT: Nhầy độc inflicts poison
-      if (b.monster.trait === 'Nhầy độc') {
-        state.run.poisonTurns = 3;
+      // ACTIVE MONSTER TRAIT: Nhầy độc / Đao độc huyết khối inflicts poison
+      if (b.monster.trait === 'Nhầy độc' || b.monster.trait === 'Đao độc huyết khối') {
+        state.run.poisonTurns = (b.monster.trait === 'Đao độc huyết khối') ? 4 : 3;
         showToast('☠️ Bạn bị nhiễm độc nhầy (mất 2 HP/hiệp)!', 'error');
       }
 
@@ -1154,7 +1193,10 @@ Bản vá toàn diện theo đánh giá của Qwen:
       if (b.isBoss) goldEarned += 75;
 
       if (relicSum('goldPercent') > 0) goldEarned = Math.round(goldEarned * (1 + relicSum('goldPercent') / 100));
-      if (relicFlag('doubleGoldChance') && Math.random() < 0.2) goldEarned *= 2;
+      if (relicSum('doubleGoldChance') > 0 && Math.random() * 100 < relicSum('doubleGoldChance')) {
+        goldEarned *= 2;
+        spawnDamageFloat('🪙 GẤP ĐÔI VÀNG!', 'text-amber-400');
+      }
       state.run.gold += goldEarned;
 
       // Relic heal after room
@@ -1165,11 +1207,12 @@ Bản vá toàn diện theo đánh giá của Qwen:
       if (b.isBoss) {
         if (state.run.floor < 3) {
           state.run.floor++;
-          state.run.roomIndex = 1;
+          state.run.pendingNewFloor = true; // Mark new floor to prevent room skipping!
           showToast(`🎉 CHIẾN THẮNG TRÙM! Mở khóa Tầng ${state.run.floor}!`, 'success');
         } else {
           // Beat final boss on Floor 3!
           state.run.victory = true;
+          state.run.phase = 'victory';
           state.meta.insight += 25;
           document.getElementById('vicGoldText').textContent = `${state.run.gold} 🪙`;
           document.getElementById('vicRelicText').textContent = `${state.run.relics.length} món`;
@@ -1179,6 +1222,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
         }
       }
 
+      state.run.phase = 'loot';
       openLootRoom();
       saveState();
     }
@@ -1199,6 +1243,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
       }
 
       // P0 FIX: ELEGANT GOTHIC PERMADEATH MODAL
+      state.run.phase = 'dead';
       document.getElementById('deathFloorText').textContent = `Tầng ${state.run.floor} - Phòng ${state.run.roomIndex}`;
       document.getElementById('deathInsightText').textContent = `${state.meta.insight} 💡`;
       document.getElementById('gameOverModal').classList.remove('hidden');
@@ -1211,6 +1256,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
        9. SPECIAL ROOMS: REST SITE ⛺ / MERCHANT SHOP 🏪 / SHRINE ⚖️
        ==================================================================== */
     function openSpecialRoom() {
+      state.run.phase = 'special';
       const modal = document.getElementById('specialEventModal');
       const container = document.getElementById('eventChoicesContainer');
       container.innerHTML = '';
@@ -1237,11 +1283,16 @@ Bản vá toàn diện theo đánh giá của Qwen:
           </div>
           <span class="text-xs font-mono font-bold text-emerald-400">HỒI MÁU ➔</span>
         `;
-        btnHeal.onclick = () => {
-          healPlayer(Math.round(state.run.maxHp * 0.35));
-          modal.classList.add('hidden');
-          advanceRoomIndex();
-        };
+        if (relicFlag('restNoHeal')) {
+          btnHeal.classList.add('opacity-40', 'cursor-not-allowed');
+          btnHeal.onclick = () => showToast('🌑 Lời Nguyền Mất Ngủ: Suối thánh không thể hồi máu!', 'error');
+        } else {
+          btnHeal.onclick = () => {
+            healPlayer(Math.round(state.run.maxHp * 0.35));
+            modal.classList.add('hidden');
+            advanceRoomIndex();
+          };
+        }
 
         // Choice 2: Forge Weapon (+3 ATK)
         const btnForge = document.createElement('button');
@@ -1496,10 +1547,17 @@ Bản vá toàn diện theo đánh giá của Qwen:
 
     function closeLootAndAdvance() {
       document.getElementById('lootModal').classList.add('hidden');
-      state.run.roomIndex++;
-      if (state.run.roomIndex > state.run.totalRooms) {
+      state.run.phase = 'combat';
+
+      if (state.run.pendingNewFloor) {
+        state.run.pendingNewFloor = false;
         state.run.roomIndex = 1;
-        state.run.floor = Math.min(3, state.run.floor + 1);
+      } else {
+        state.run.roomIndex++;
+        if (state.run.roomIndex > state.run.totalRooms) {
+          state.run.roomIndex = 1;
+          state.run.floor = Math.min(3, state.run.floor + 1);
+        }
       }
       spawnRoom();
       saveState();
@@ -1543,6 +1601,35 @@ Bản vá toàn diện theo đánh giá của Qwen:
         healPlayer(item.val);
         state.run.tempAtkBuff += item.atkVal;
         showToast(`🍜 ${item.name}: Hồi +${item.val} HP và +${item.atkVal} ATK!`, 'success');
+      } else if (item.action === 'pierce_dmg') {
+        state.battle.currentHp = Math.max(0, state.battle.currentHp - item.val);
+        triggerMonsterStagger();
+        showToast(`🎯 ${item.name}: Xuyên giáp gây ${item.val} DMG!`, 'success');
+        if (state.battle.currentHp <= 0) handleMonsterDefeated();
+      } else if (item.action === 'self_sacrifice_dmg') {
+        state.battle.currentHp = Math.max(0, state.battle.currentHp - item.val);
+        state.run.hp = Math.max(1, state.run.hp - (item.penalty || 10));
+        triggerMonsterStagger();
+        showToast(`☠️ ${item.name}: Gây ${item.val} DMG hủy diệt! (Bạn mất 10 HP)`, 'error');
+        if (state.battle.currentHp <= 0) handleMonsterDefeated();
+      } else if (item.action === 'percent_dmg') {
+        const pDmg = Math.max(5, Math.round(state.battle.currentHp * (item.val / 100)));
+        state.battle.currentHp = Math.max(0, state.battle.currentHp - pDmg);
+        triggerMonsterStagger();
+        showToast(`⭐ ${item.name}: Gây ${pDmg} DMG theo % máu quái!`, 'success');
+        if (state.battle.currentHp <= 0) handleMonsterDefeated();
+      } else if (item.action === 'skip_room') {
+        showToast('🌀 Cuộn Giấy Dịch Chuyển: Đã bỏ qua phòng hiện tại an toàn!', 'info');
+        state.run.inventory.splice(slotIdx, 1);
+        saveState();
+        advanceRoomIndex();
+        return;
+      } else if (item.action === 'buff_atk_temp') {
+        state.run.tempAtkBuff += Math.round(getPlayerTotalAtk() * 0.5);
+        showToast(`⚡ ${item.name}: Đòn đánh tăng vọt +50% ATK!`, 'success');
+      } else if (item.action === 'revive') {
+        showToast('🔄 Cuộn Giấy Hồi Sinh: Sẽ tự động cứu bạn sống lại khi HP về 0!', 'info');
+        return; // Do not consume
       } else if (item.action === 'open_chest') {
         const unowned = RELICS_MASTER_DB.filter(r => !state.run.relics.includes(r.id) && r.rarity !== 'cursed');
         if (unowned.length > 0) {
@@ -1568,6 +1655,22 @@ Bản vá toàn diện theo đánh giá của Qwen:
       }
 
       state.run.inventory.splice(slotIdx, 1);
+      saveState();
+    }
+
+    function castUltimate() {
+      if (state.run.mana < 3) return;
+      state.run.mana = 0;
+      const dmg = 35 + getPlayerTotalAtk();
+      state.battle.currentHp = Math.max(0, state.battle.currentHp - dmg);
+      healPlayer(10);
+      DungeonSound.crit();
+      shakeScreen();
+      triggerSlashAnimation();
+      spawnDamageFloat(`ĐẠI CHIÊU! ⚡ ${dmg} DMG`, 'text-cyan-300');
+      showToast('⚡ ĐẠI CHIÊU LÂM SÀNG: Gây ' + dmg + ' DMG & Hồi 10 HP!', 'success');
+      logBattle(`⚡ Bạn kích hoạt Đại Chiêu Lâm Sàng! Gây ${dmg} DMG và hồi 10 HP!`);
+      if (state.battle.currentHp <= 0) handleMonsterDefeated();
       saveState();
     }
 
@@ -1670,6 +1773,9 @@ Bản vá toàn diện theo đánh giá của Qwen:
       row.className = 'border-l-2 border-red-700/60 pl-2 py-0.5 text-slate-300';
       row.innerHTML = `<span class="text-slate-500 font-mono text-[10px]">${time}</span> ${msg}`;
       container.insertBefore(row, container.firstChild);
+      while (container.children.length > 60) {
+        container.removeChild(container.lastChild);
+      }
     }
 
     /* ====================================================================
@@ -1678,6 +1784,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
     const Anki = {
       url: 'http://127.0.0.1:8765',
       connected: false,
+      isPolling: false,
       lastReviewedCount: -1,
       async call(action, params = {}) {
         const res = await fetch(this.url, {
@@ -1690,6 +1797,8 @@ Bản vá toàn diện theo đánh giá của Qwen:
         return data.result;
       },
       async checkConnection() {
+        if (this.isPolling) return; // Prevent race conditions
+        this.isPolling = true;
         try {
           const ver = await this.call('version');
           this.connected = true;
@@ -1702,7 +1811,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
             try {
               const cards = await this.call('findCards', { query: 'rated:1' });
               if (cards && cards.length > 0) {
-                const queryCards = cards.length > 150 ? cards.slice(-150) : cards;
+                const queryCards = cards.length > 300 ? cards.slice(-300) : cards;
                 const revMap = await this.call('getReviewsOfCards', { cards: queryCards });
 
                 const latestByCard = {};
@@ -1755,6 +1864,8 @@ Bản vá toàn diện theo đánh giá của Qwen:
           this.connected = false;
           document.getElementById('ankiStatusDot').className = 'inline-block w-1.5 h-1.5 rounded-full bg-rose-500';
           document.getElementById('ankiStatusText').textContent = 'Chưa mở Anki (Dùng nút ảo để chơi)';
+        } finally {
+          this.isPolling = false;
         }
       }
     };
@@ -1866,6 +1977,27 @@ Bản vá toàn diện theo đánh giá của Qwen:
         });
       } else {
         rBelt.innerHTML = '<span class="text-[11px] text-slate-600 italic">Chưa có cổ vật nào...</span>';
+      }
+
+      // Ultimate Mana Button Visibility
+      const ultBtn = document.getElementById('btnCastUltimate');
+      if (ultBtn) {
+        if (state.run.mana >= 3 && state.battle.currentHp > 0) {
+          ultBtn.classList.remove('hidden');
+        } else {
+          ultBtn.classList.add('hidden');
+        }
+      }
+
+      // Restore Modals on Page Reload based on Saved Phase
+      if (state.run.phase === 'loot') {
+        document.getElementById('lootModal')?.classList.remove('hidden');
+      } else if (state.run.phase === 'special') {
+        document.getElementById('specialEventModal')?.classList.remove('hidden');
+      } else if (state.run.phase === 'victory') {
+        document.getElementById('dungeonVictoryModal')?.classList.remove('hidden');
+      } else if (state.run.phase === 'dead') {
+        document.getElementById('gameOverModal')?.classList.remove('hidden');
       }
     }
 
