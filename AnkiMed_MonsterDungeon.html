@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnkiMed: Monster Dungeon — Hầm Ngục Quái Vật Y Khoa</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            gothic: {
+              950: '#030712',
+              900: '#0b0f19',
+              850: '#111827',
+              800: '#1f293d',
+              700: '#374151'
+            },
+            crimson: {
+              400: '#f87171',
+              500: '#ef4444',
+              600: '#dc2626',
+              700: '#b91c1c',
+              900: '#7f1d1d'
+            },
+            mana: {
+              400: '#38bdf8',
+              500: '#0ea5e9',
+              600: '#0284c7'
+            }
+          },
+          fontFamily: {
+            mono: ['JetBrains Mono', 'Consolas', 'Courier New', 'monospace'],
+            sans: ['Segoe UI', 'Roboto', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: rgba(0,0,0,0.4); }
+    ::-webkit-scrollbar-thumb { background: rgba(185, 28, 28, 0.4); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(220, 38, 38, 0.8); }
+
+    /* Damage Float Animation */
+    @keyframes floatDamage {
+      0% { transform: translate(-50%, 0) scale(0.6); opacity: 0; }
+      15% { transform: translate(-50%, -15px) scale(1.3); opacity: 1; }
+      75% { transform: translate(-50%, -45px) scale(1); opacity: 0.9; }
+      100% { transform: translate(-50%, -70px) scale(0.8); opacity: 0; }
+    }
+    .damage-float {
+      position: fixed;
+      pointer-events: none;
+      z-index: 9999;
+      font-family: monospace;
+      font-weight: 900;
+      animation: floatDamage 900ms cubic-bezier(0.18, 0.89, 0.32, 1.28) forwards;
+      text-shadow: 0 0 10px rgba(0,0,0,0.9), 0 0 20px rgba(239, 68, 68, 0.6);
+    }
+
+    /* Screen Shake on Hit */
+    @keyframes shakeScreen {
+      0%, 100% { transform: translateX(0); }
+      15% { transform: translateX(-6px) translateY(2px); }
+      30% { transform: translateX(6px) translateY(-2px); }
+      50% { transform: translateX(-4px); }
+      70% { transform: translateX(4px); }
+    }
+    .screen-shake {
+      animation: shakeScreen 260ms ease-in-out 1;
+    }
+
+    /* Monster Idle Breathing */
+    @keyframes monsterBreath {
+      0%, 100% { transform: scale(1) translateY(0); }
+      50% { transform: scale(1.04) translateY(-3px); }
+    }
+    .monster-idle {
+      animation: monsterBreath 3.2s ease-in-out infinite;
+    }
+
+    /* Monster Stagger Hit */
+    @keyframes monsterHit {
+      0% { transform: scale(1); filter: brightness(1); }
+      20% { transform: scale(0.92) translateX(8px); filter: brightness(2) saturate(2); }
+      40% { transform: scale(0.95) translateX(-6px); }
+      100% { transform: scale(1); filter: brightness(1); }
+    }
+    .monster-stagger {
+      animation: monsterHit 300ms ease-out 1;
+    }
+
+    /* Slash FX Across Screen */
+    @keyframes slashFX {
+      0% { width: 0; opacity: 1; transform: rotate(-35deg) scaleY(1); }
+      50% { width: 140%; opacity: 1; transform: rotate(-35deg) scaleY(1.8); }
+      100% { width: 160%; opacity: 0; transform: rotate(-35deg) scaleY(0.1); }
+    }
+    .slash-line {
+      position: absolute;
+      top: 50%;
+      left: -30%;
+      height: 4px;
+      background: linear-gradient(90deg, transparent, #ef4444, #ffffff, #facc15, transparent);
+      box-shadow: 0 0 15px #ef4444, 0 0 30px #facc15;
+      animation: slashFX 280ms ease-out forwards;
+      pointer-events: none;
+      z-index: 50;
+    }
+
+    /* Rarity Glows */
+    .glow-common { border-color: #94a3b8; box-shadow: 0 0 8px rgba(148, 163, 184, 0.2); }
+    .glow-rare { border-color: #38bdf8; box-shadow: 0 0 12px rgba(56, 189, 248, 0.4); }
+    .glow-epic { border-color: #c084fc; box-shadow: 0 0 14px rgba(192, 132, 252, 0.5); }
+    .glow-legendary { border-color: #facc15; box-shadow: 0 0 18px rgba(250, 204, 21, 0.6); }
+    .glow-mythic { border-color: #f43f5e; box-shadow: 0 0 22px rgba(244, 63, 94, 0.8); }
+    .glow-cursed { border-color: #64748b; box-shadow: 0 0 15px rgba(0, 0, 0, 0.9); }
+  </style>
+</head>
+<body class="bg-gothic-950 text-slate-100 font-sans min-h-screen flex flex-col selection:bg-rose-700 selection:text-white pb-8 overflow-x-hidden">
+
+  <!-- FLOATING DAMAGE & PARTICLES LAYER -->
+  <div id="fxLayer" class="fixed inset-0 pointer-events-none z-[999]"></div>
+
+  <!-- TOAST NOTIFICATIONS -->
+  <div id="toastLayer" class="fixed bottom-4 right-4 z-[1000] space-y-2 pointer-events-none"></div>
+
+  <!-- TOP HEADER / STATUS BAR -->
+  <header class="bg-gothic-900/95 backdrop-blur border-b border-red-950/80 sticky top-0 z-50 px-3 sm:px-5 py-2 flex items-center justify-between shadow-2xl">
+    <div class="flex items-center space-x-2.5">
+      <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-rose-950 to-red-600 border border-red-500/60 flex items-center justify-center text-lg shadow-lg shadow-red-900/50">
+        ⚔️
+      </div>
+      <div>
+        <h1 class="text-xs sm:text-sm font-bold tracking-wider flex items-center gap-1.5 text-red-100 font-mono">
+          <span>ANKIMED: DUNGEON</span>
+          <span class="text-[9px] uppercase px-1 py-0.2 rounded bg-red-950 text-red-400 border border-red-800/80 font-bold">ROGUELIKE</span>
+        </h1>
+        <p class="text-[10px] text-slate-400 font-mono flex items-center gap-1">
+          <span id="ankiStatusDot" class="inline-block w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
+          <span id="ankiStatusText">Đang tìm AnkiConnect (8765)...</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- WALLET & PERMANENT INSIGHT -->
+    <div class="flex items-center space-x-2 sm:space-x-3">
+      <!-- Dungeon Run Gold -->
+      <div class="bg-gothic-850/90 border border-amber-900/60 rounded-lg px-2.5 py-1 flex items-center space-x-1.5 shadow-md" title="Vàng Hầm Ngục (kiếm được trong lượt đi này)">
+        <span class="text-sm">🪙</span>
+        <div>
+          <div class="text-[9px] text-amber-500/90 font-mono leading-none">VÀNG</div>
+          <div id="runGold" class="text-xs sm:text-sm font-bold font-mono text-amber-300">0</div>
+        </div>
+      </div>
+
+      <!-- Permanent Soul Insight -->
+      <div class="bg-gothic-850/90 border border-cyan-900/60 rounded-lg px-2.5 py-1 flex items-center space-x-1.5 shadow-md" title="Mảnh Linh Hồn / Insight: Giữ vĩnh viễn dù tử trận để nâng cấp Cây Kỹ Năng">
+        <span class="text-sm">💡</span>
+        <div>
+          <div class="text-[9px] text-cyan-500/90 font-mono leading-none">INSIGHT</div>
+          <div id="metaInsight" class="text-xs sm:text-sm font-bold font-mono text-cyan-300">0</div>
+        </div>
+      </div>
+
+      <!-- Floor Level -->
+      <div class="hidden sm:flex bg-gothic-850/90 border border-red-950 rounded-lg px-2 py-1 items-center space-x-1.5">
+        <span class="text-sm">🏰</span>
+        <div>
+          <div class="text-[9px] text-slate-400 font-mono leading-none">TẦNG HẦM</div>
+          <div id="topFloorBadge" class="text-xs font-bold font-mono text-red-400">1 / 3</div>
+        </div>
+      </div>
+
+      <!-- Sound Toggle -->
+      <button id="btnSoundToggle" class="p-1.5 rounded-lg bg-gothic-850 border border-slate-800 hover:bg-gothic-800 text-slate-300 text-xs transition" title="Bật/Tắt âm thanh">
+        🔊
+      </button>
+
+      <!-- Sanctuary Hub / Skill Tree Modal Trigger -->
+      <button id="btnOpenSanctuary" class="px-2.5 py-1 rounded-lg bg-gradient-to-r from-red-900 to-rose-700 hover:from-red-800 hover:to-rose-600 text-white font-mono text-xs font-bold transition shadow-md shadow-red-900/40 flex items-center gap-1">
+        <span>🏛️ THÁNH ĐỊA</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="flex-1 max-w-4xl w-full mx-auto p-3 sm:p-4 space-y-3.5">
+
+    <!-- 1. SLAY THE SPIRE STYLE DUNGEON NODE MAP -->
+    <section class="bg-gothic-900 border border-red-950/80 rounded-2xl p-3 shadow-2xl relative overflow-hidden">
+      <div class="flex items-center justify-between text-xs font-mono pb-2 border-b border-red-950/60">
+        <div class="flex items-center gap-2">
+          <span class="text-red-500">🗺️ BẢN ĐỒ HẦM NGỤC:</span>
+          <span id="currentFloorName" class="font-bold text-slate-200">Tầng 1: Khu Hầm Ngầm Nhiễm Khuẩn</span>
+        </div>
+        <div class="text-slate-400 text-[11px]">
+          Phòng: <span id="currentRoomIndexText" class="font-bold text-amber-400">1 / 5</span>
+        </div>
+      </div>
+
+      <!-- Path Nodes Container -->
+      <div id="dungeonMapContainer" class="flex items-center justify-between py-2 px-3 overflow-x-auto relative min-h-[52px]">
+        <!-- Rendered dynamically via JS -->
+      </div>
+    </section>
+
+    <!-- 2. THE BATTLE ARENA (ĐẤU TRƯỜNG CHIẾN ĐẤU THỜI GIAN THỰC) -->
+    <section id="battleArenaSection" class="bg-gradient-to-b from-gothic-900 via-gothic-850 to-gothic-900 border-2 border-red-950/90 rounded-2xl p-4 shadow-2xl relative overflow-hidden">
+      <!-- Ambient Blood Fog Glow -->
+      <div class="absolute -top-16 -left-16 w-56 h-56 bg-red-600/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -bottom-16 -right-16 w-56 h-56 bg-rose-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <!-- Slash Animation Canvas Container -->
+      <div id="slashContainer" class="absolute inset-0 pointer-events-none overflow-hidden z-20"></div>
+
+      <!-- A. MONSTER SHOWCASE ROW -->
+      <div class="relative z-10 flex flex-col items-center justify-center text-center py-2">
+        <div id="monsterAvatar" class="text-6xl sm:text-7xl monster-idle transition-transform select-none cursor-pointer filter drop-shadow-[0_0_15px_rgba(239,68,68,0.4)]">
+          🦠
+        </div>
+        <div class="mt-2 flex items-center gap-2">
+          <h2 id="monsterName" class="text-base sm:text-lg font-bold text-red-200 font-mono tracking-wide">
+            Slime Cảm Cúm
+          </h2>
+          <span id="monsterTraitBadge" class="text-[9px] font-mono font-bold px-1.5 py-0.2 rounded bg-red-950 text-red-400 border border-red-800/80">
+            Phân Thân
+          </span>
+        </div>
+        <div id="monsterIntent" class="text-[11px] text-amber-400 font-mono mt-0.5 flex items-center gap-1">
+          <span>⚔️ Ý định: Tấn công gây 8 DMG</span>
+        </div>
+
+        <!-- Monster HP Bar -->
+        <div class="w-full max-w-md mt-2.5 space-y-1">
+          <div class="flex justify-between text-[11px] font-mono px-1">
+            <span class="text-slate-400">Sinh lực Quái vật:</span>
+            <span id="monsterHpText" class="font-bold text-red-400">45 / 45 HP</span>
+          </div>
+          <div class="w-full h-3.5 bg-gothic-950 rounded-full p-0.5 border border-red-900/60 overflow-hidden shadow-inner">
+            <div id="monsterHpBar" class="h-full bg-gradient-to-r from-red-700 to-rose-500 rounded-full transition-all duration-300 w-full"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- B. PLAYER STATUS & BATTLE HUD ROW -->
+      <div class="relative z-10 mt-4 pt-3 border-t border-red-950/80 grid grid-cols-1 md:grid-cols-2 gap-3 items-center">
+        <!-- Player HP & Mana Gauge -->
+        <div class="space-y-2">
+          <div class="flex items-center justify-between text-xs font-mono">
+            <div class="flex items-center gap-2">
+              <span class="text-lg">🧑‍⚕️</span>
+              <span class="font-bold text-slate-200">Chiến Binh Y Thuật</span>
+            </div>
+            <span id="playerHpText" class="font-bold text-emerald-400">100 / 100 HP</span>
+          </div>
+          <!-- Player HP Bar -->
+          <div class="w-full h-3 bg-gothic-950 rounded-full p-0.5 border border-emerald-900/60 overflow-hidden shadow-inner">
+            <div id="playerHpBar" class="h-full bg-gradient-to-r from-emerald-600 to-teal-400 rounded-full transition-all duration-300 w-full"></div>
+          </div>
+
+          <!-- Combat Stats: ATK, Shields, Mana, Combo -->
+          <div class="grid grid-cols-4 gap-1.5 text-center font-mono text-[10px]">
+            <div class="bg-gothic-800/80 p-1 rounded border border-slate-700">
+              <div class="text-slate-400">SÁT THƯƠNG</div>
+              <div id="playerAtkText" class="text-xs font-bold text-red-400">10 ATK</div>
+            </div>
+            <div class="bg-gothic-800/80 p-1 rounded border border-slate-700">
+              <div class="text-slate-400">KHIÊN CHẶN</div>
+              <div id="playerShieldText" class="text-xs font-bold text-mana-400">0 🛡️</div>
+            </div>
+            <div class="bg-gothic-800/80 p-1 rounded border border-slate-700">
+              <div class="text-slate-400">NỘI LỰC</div>
+              <div id="playerManaText" class="text-xs font-bold text-cyan-300">0 / 3 ⚡</div>
+            </div>
+            <div class="bg-gothic-800/80 p-1 rounded border border-slate-700">
+              <div class="text-slate-400">COMBO</div>
+              <div id="playerComboText" class="text-xs font-bold text-amber-400">0 🔥</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Consumable Item Belt (Túi Trang Bị Khẩn Cấp - 3 Slots) -->
+        <div class="bg-gothic-800/50 p-2.5 rounded-xl border border-red-950/60 space-y-1.5">
+          <div class="flex items-center justify-between text-[11px] font-mono">
+            <span class="text-slate-400">TÚI TIÊU HAO (Bấm dùng ngay):</span>
+            <span class="text-slate-500 text-[10px]">3 Slots</span>
+          </div>
+          <div id="itemBeltSlots" class="grid grid-cols-3 gap-1.5">
+            <!-- 3 item buttons injected via JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- C. ACTIVE RELICS DISPLAY (72 RELIC ENGINE) -->
+      <div class="mt-3 pt-2 border-t border-red-950/60">
+        <div class="flex items-center justify-between text-[10px] font-mono text-slate-400 mb-1">
+          <span>CỔ VẬT ĐANG SỞ HỮU (RELICS):</span>
+          <span id="relicCountBadge" class="text-amber-400 font-bold">0 món</span>
+        </div>
+        <div id="relicsBeltContainer" class="flex flex-wrap gap-1.5 min-h-[32px] items-center">
+          <span class="text-[11px] text-slate-600 italic">Chưa có cổ vật nào...</span>
+        </div>
+      </div>
+
+      <!-- D. COMBAT ACTION BAR (KEY MAPPING & SIMULATION) -->
+      <div class="mt-3 pt-2.5 border-t border-red-950/80 flex flex-wrap items-center justify-between gap-2 text-xs">
+        <div class="flex items-center gap-1 font-mono text-[10px] text-slate-400">
+          <span>Điều khiển Anki:</span>
+          <span class="px-1.5 py-0.5 rounded bg-gothic-800 text-emerald-300 border border-slate-700">[3: Good] Chém</span>
+          <span class="px-1.5 py-0.5 rounded bg-gothic-800 text-cyan-300 border border-slate-700">[4: Easy] Trọng kích</span>
+          <span class="px-1.5 py-0.5 rounded bg-gothic-800 text-amber-300 border border-slate-700">[2: Hard] Đỡ đòn</span>
+          <span class="px-1.5 py-0.5 rounded bg-gothic-800 text-rose-400 border border-slate-700">[1: Again] Sơ hở</span>
+        </div>
+
+        <!-- Simulation fallback buttons -->
+        <div class="flex items-center space-x-1">
+          <button class="sim-attack-btn px-2 py-1 rounded bg-rose-950/80 hover:bg-rose-900 border border-rose-800 text-rose-300 font-mono text-[10px]" data-ease="1">Again (1)</button>
+          <button class="sim-attack-btn px-2 py-1 rounded bg-gothic-800 hover:bg-gothic-700 border border-slate-700 text-slate-300 font-mono text-[10px]" data-ease="2">Hard (2)</button>
+          <button class="sim-attack-btn px-2 py-1 rounded bg-emerald-950/80 hover:bg-emerald-900 border border-emerald-800 text-emerald-300 font-mono text-[10px]" data-ease="3">Good (3)</button>
+          <button class="sim-attack-btn px-2 py-1 rounded bg-cyan-950/80 hover:bg-cyan-900 border border-cyan-800 text-cyan-300 font-mono text-[10px]" data-ease="4">Easy (4)</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. REAL-TIME BATTLE LOG (NHẬT KÝ CHIẾN ĐẤU GOTHIC) -->
+    <section class="bg-gothic-900 border border-red-950/80 rounded-2xl p-3 text-xs space-y-1.5 shadow-xl">
+      <div class="flex items-center justify-between text-slate-400 font-mono text-[10px] border-b border-red-950/60 pb-1">
+        <span>📜 NHẬT KÝ CHIẾN TÍCH HẦM NGỤC</span>
+        <button id="btnClearBattleLog" class="hover:text-slate-200">Xóa log</button>
+      </div>
+      <div id="battleLogContainer" class="h-24 overflow-y-auto space-y-1 font-mono text-[11px] text-slate-300 pr-1">
+        <div class="text-slate-500 italic">Vào hầm ngục... Lật thẻ trên Anki để xuất chiêu chém quái!</div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- VICTORY & LOOT ROOM MODAL -->
+  <div id="lootModal" class="hidden fixed inset-0 bg-black/85 backdrop-blur-md z-50 flex items-center justify-center p-4">
+    <div class="bg-gothic-900 border-2 border-amber-600/80 rounded-3xl max-w-md w-full p-5 space-y-4 shadow-2xl text-center relative overflow-hidden">
+      <div class="absolute -top-12 -left-12 w-40 h-40 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="space-y-1">
+        <div class="text-4xl animate-bounce">⚔️</div>
+        <h3 class="text-base sm:text-lg font-bold text-amber-200 font-mono tracking-wider">QUÁI VẬT BỊ TIÊU DIỆT!</h3>
+        <p class="text-xs text-slate-300" id="lootModalSubtitle">Bạn đã quét sạch phòng bệnh, hãy chọn phần thưởng:</p>
+      </div>
+
+      <!-- Loot Choices (Select 1 of 3) -->
+      <div id="lootChoicesContainer" class="space-y-2 py-1">
+        <!-- 3 choices injected via JS -->
+      </div>
+
+      <button id="btnAdvanceToNextRoom" class="w-full py-2.5 rounded-xl bg-gradient-to-r from-amber-600 to-red-600 hover:from-amber-500 hover:to-red-500 text-slate-950 font-bold font-mono text-xs tracking-wider transition shadow-lg shadow-amber-600/30">
+        TIẾN VÀO PHÒNG TIẾP THEO ➔
+      </button>
+    </div>
+  </div>
+
+  <!-- SANCTUARY / META-PROGRESSION SKILL TREE MODAL -->
+  <div id="sanctuaryModal" class="hidden fixed inset-0 bg-black/85 backdrop-blur-md z-50 flex items-center justify-center p-4">
+    <div class="bg-gothic-900 border-2 border-cyan-700/80 rounded-3xl max-w-lg w-full p-5 space-y-4 shadow-2xl relative">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">🏛️</span>
+          <div>
+            <h3 class="text-sm font-bold text-white font-mono">THÁNH ĐỊA BÁC SĨ (SANCTUARY)</h3>
+            <p class="text-[10px] text-slate-400">Nâng cấp kỹ năng vĩnh viễn bằng Insight tích lũy</p>
+          </div>
+        </div>
+        <button id="btnCloseSanctuary" class="text-slate-400 hover:text-white text-base">✕</button>
+      </div>
+
+      <!-- Insight Balance -->
+      <div class="bg-gothic-800/80 p-2.5 rounded-xl border border-cyan-900/60 flex items-center justify-between text-xs font-mono">
+        <span class="text-slate-300">Số Insight vĩnh viễn hiện có:</span>
+        <span id="sanctuaryInsightText" class="text-sm font-bold text-cyan-400">0 💡</span>
+      </div>
+
+      <!-- Skill Tree Nodes Grid -->
+      <div id="skillTreeContainer" class="space-y-2 max-h-72 overflow-y-auto pr-1 text-xs">
+        <!-- Upgrades injected via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT GAME ENGINE -->
+  <script>
+    /* ====================================================================
+       1. COMPLETE 72 RELICS DATABASE (DECLARED EFFECT HOOKS)
+       ==================================================================== */
+    const RELICS_MASTER_DB = [
+      // 1. WEAPONS (ATK) - 12
+      { id: 'r1', name: 'Dao mổ Titanium', icon: '🔪', rarity: 'common', desc: '+2 ATK cơ bản', fx: { atkFlat: 2 } },
+      { id: 'r2', name: 'Dao mổ Plasma', icon: '⚡', rarity: 'rare', desc: '+4 ATK, +10% tỉ lệ chí mạng', fx: { atkFlat: 4, critChance: 10 } },
+      { id: 'r3', name: 'Kiếm Giải Phẫu', icon: '⚔️', rarity: 'rare', desc: '+3 ATK, mỗi 5 combo +1 damage', fx: { atkFlat: 3, comboBonusPer5: 1 } },
+      { id: 'r4', name: 'Búa Phẫu Thuật', icon: '🔨', rarity: 'epic', desc: '+6 ATK, nhưng quái vật gây thêm +5% sát thương', fx: { atkFlat: 6, monsterAtkPercent: 5 } },
+      { id: 'r5', name: 'Lưỡi Hái Tử Thần Y Khoa', icon: '💀', rarity: 'legendary', desc: '+8 ATK, +20% crit, đòn crit nhân 3 damage', fx: { atkFlat: 8, critChance: 20, critMult: 3.0 } },
+      { id: 'r6', name: 'Mũi Tiêm Độc Tố', icon: '💉', rarity: 'epic', desc: 'Đòn Good gây Trúng Độc (4 DMG/thẻ trong 3 thẻ)', fx: { poisonOnGood: 4 } },
+      { id: 'r7', name: 'Súng Gây Mê', icon: '🔫', rarity: 'rare', desc: '15% tỉ lệ làm quái vật bị choáng (bỏ qua 1 lượt)', fx: { stunChance: 15 } },
+      { id: 'r8', name: 'Cung Tên Kháng Sinh', icon: '🏹', rarity: 'epic', desc: '+3 ATK, tăng +50% sát thương lên quái Tinh Anh (Elite)', fx: { atkFlat: 3, eliteBonus: 50 } },
+      { id: 'r9', name: 'Roi Thần Kinh', icon: '⛓️', rarity: 'rare', desc: '+2 ATK, giữ combo nhận thêm sát thương', fx: { atkFlat: 2, comboDmg: 1 } },
+      { id: 'r10', name: 'Kéo Phẫu Thuật', icon: '✂️', rarity: 'common', desc: '+1 ATK, +5% chí mạng', fx: { atkFlat: 1, critChance: 5 } },
+      { id: 'r11', name: 'Lưỡi Dao Gamma', icon: '☢️', rarity: 'legendary', desc: '+5 ATK, mỗi đòn thứ 3 nhân đôi sát thương', fx: { atkFlat: 5, thirdHitX2: true } },
+      { id: 'r12', name: 'Búa Tạ Sốc Điện', icon: '🔌', rarity: 'epic', desc: '+4 ATK, 20% tỉ lệ làm choáng quái vật 1 lượt', fx: { atkFlat: 4, stunChance: 20 } },
+
+      // 2. DEFENSE (HP/SHIELD) - 10
+      { id: 'r13', name: 'Áo Blouse Cứng', icon: '🥼', rarity: 'common', desc: '+10 Máu tối đa (Max HP)', fx: { hpFlat: 10 } },
+      { id: 'r14', name: 'Giáp Lưới Hippocrates', icon: '🛡️', rarity: 'rare', desc: '+20 Max HP, miễn phí 1 lần bấm Again đầu mỗi phòng', fx: { hpFlat: 20, freeAgainPerRoom: 1 } },
+      { id: 'r15', name: 'Khiên Kháng Thể', icon: '🧬', rarity: 'rare', desc: 'Giảm 10% sát thương nhận vào từ quái vật', fx: { dmgReduce: 10 } },
+      { id: 'r16', name: 'Mũ Bảo Hộ Thần Kinh', icon: '🪖', rarity: 'epic', desc: 'Giảm 20% sát thương nhận vào', fx: { dmgReduce: 20 } },
+      { id: 'r17', name: 'Tim Nhân Tạo LVAD', icon: '🫀', rarity: 'legendary', desc: '+30 Max HP, hồi 1 HP sau mỗi 3 thẻ Good', fx: { hpFlat: 30, healPer3Good: 1 } },
+      { id: 'r18', name: 'Huyết Thanh Miễn Dịch', icon: '💉', rarity: 'epic', desc: 'Chặn hoàn toàn đòn đánh đầu tiên của quái ở mỗi phòng', fx: { blockFirstHit: true } },
+      { id: 'r19', name: 'Vắc-xin Phổ Rộng', icon: '💊', rarity: 'rare', desc: '+15 Max HP, +10% sát thương lên mọi quái vật', fx: { hpFlat: 15, dmgAllPercent: 10 } },
+      { id: 'r20', name: 'Bộ Giáp Phẫu Thuật', icon: '🦺', rarity: 'epic', desc: '+25 Max HP, phản 3 sát thương gai nhọn khi bị quái cắn', fx: { hpFlat: 25, thorns: 3 } },
+      { id: 'r21', name: 'Khiên Tế Bào Gốc', icon: '🧫', rarity: 'legendary', desc: '+20 Max HP, tự động hồi 5 HP sau mỗi phòng vượt qua', fx: { hpFlat: 20, healAfterRoom: 5 } },
+      { id: 'r22', name: 'Lớp Giáp Chitin', icon: '🪲', rarity: 'common', desc: '+8 Max HP, giảm 5% sát thương', fx: { hpFlat: 8, dmgReduce: 5 } },
+
+      // 3. SUSTAIN / HEAL - 8
+      { id: 'r23', name: 'Bình Oxy Mini', icon: '🫁', rarity: 'common', desc: 'Hồi 2 HP mỗi khi bấm thẻ Easy', fx: { healOnEasy: 2 } },
+      { id: 'r24', name: 'Túi Truyền Dịch Ringer', icon: '💧', rarity: 'rare', desc: 'Hồi 1 HP mỗi khi bấm thẻ Good', fx: { healOnGood: 1 } },
+      { id: 'r25', name: 'Bộ Sơ Cứu Cầm Tay', icon: '🩹', rarity: 'common', desc: 'Hồi 15 HP ngay sau khi kết thúc một phòng', fx: { healAfterRoom: 15 } },
+      { id: 'r26', name: 'Máy Tạo Nhịp Tim', icon: '💓', rarity: 'epic', desc: 'Hồi 3 HP sau mỗi 5 thẻ bất kỳ', fx: { healPer5Cards: 3 } },
+      { id: 'r27', name: 'Túi Máu Toàn Phần O-', icon: '🩸', rarity: 'legendary', desc: 'Khi HP < 30%, tự động hồi 25 HP khẩn cấp (1 lần/run)', fx: { emergencyHeal: 25 } },
+      { id: 'r28', name: 'Tế Bào Gốc Tái Tạo', icon: '🧬', rarity: 'epic', desc: 'Hồi 10 HP sau mỗi trận thắng quái', fx: { healAfterRoom: 10 } },
+      { id: 'r29', name: 'Lọ Thuốc Bổ Não', icon: '🧠', rarity: 'rare', desc: 'Hồi 5 HP + 1 Insight sau mỗi phòng dọn sạch', fx: { healAfterRoom: 5, insightAfterRoom: 1 } },
+      { id: 'r30', name: 'Hệ Thống ECMO Mini', icon: '🔄', rarity: 'mythic', desc: 'Hồi 2 HP MỖI KHI bấm Good hoặc Easy', fx: { healOnGood: 2, healOnEasy: 2 } },
+
+      // 4. COMBO & MOMENTUM - 8
+      { id: 'r31', name: 'Găng Tay Phẫu Thuật', icon: '🧤', rarity: 'common', desc: 'Mỗi 5 combo: +1 sát thương', fx: { comboBonusPer5: 1 } },
+      { id: 'r32', name: 'Adrenaline Injector', icon: '💉', rarity: 'rare', desc: 'Combo ≥ 10: tăng +50% toàn bộ sát thương', fx: { combo10Bonus: 50 } },
+      { id: 'r33', name: 'Máy Đếm Nhịp Sinh Học', icon: '⏱️', rarity: 'rare', desc: 'Sát thương theo chuỗi tăng thêm 20%', fx: { comboPercent: 20 } },
+      { id: 'r34', name: 'Caffeine Đậm Đặc', icon: '☕', rarity: 'epic', desc: 'Thẻ Hard không làm mất chuỗi Combo', fx: { hardNoResetCombo: true } },
+      { id: 'r35', name: 'Flow State Chip', icon: '🧠', rarity: 'legendary', desc: 'Combo ≥ 20: nhân đôi toàn bộ sát thương gây ra!', fx: { combo20DoubleDmg: true } },
+      { id: 'r36', name: 'Metronome Y Khoa', icon: '🎵', rarity: 'rare', desc: 'Mỗi đòn đánh thứ 7 tự động kích hoạt chí mạng', fx: { seventhHitCrit: true } },
+      { id: 'r37', name: 'Bơm Tăng Áp', icon: '🔧', rarity: 'epic', desc: 'Khi Combo ≥ 15: +4 ATK cơ bản', fx: { combo15Atk: 4 } },
+      { id: 'r38', name: 'Tâm Thế Thiền Định', icon: '🧘', rarity: 'rare', desc: 'Chuỗi Combo không bị xóa khi chuyển sang phòng mới', fx: { keepComboAcrossRooms: true } },
+
+      // 5. EASE MANIPULATION - 8
+      { id: 'r39', name: 'Kính Hiển Vi Soi Thẻ', icon: '🔬', rarity: 'rare', desc: 'Thẻ Hard được tính trọn vẹn 100% sát thương như Good', fx: { hardAsGood: true } },
+      { id: 'r40', name: 'Thuốc Tăng Phản Xạ', icon: '⚗️', rarity: 'epic', desc: 'Thẻ Good có 25% cơ hội tự động biến thành Easy (chí mạng)', fx: { goodAsEasyChance: 25 } },
+      { id: 'r41', name: 'Máy Soi Đáp Án', icon: '📱', rarity: 'legendary', desc: 'Thẻ Easy luôn luôn kích hoạt đòn chí mạng x2 sát thương', fx: { easyAlwaysCrit: true } },
+      { id: 'r42', name: 'Bùa Tha Thứ', icon: '🕊️', rarity: 'rare', desc: 'Lần bấm Again đầu tiên mỗi phòng không làm reset combo', fx: { firstAgainKeepCombo: true } },
+      { id: 'r43', name: 'Đồng Hồ Cát Ngược', icon: '⏳', rarity: 'epic', desc: 'Bấm Again vẫn gây 4 sát thương phản đòn lên quái vật', fx: { againDmg: 4 } },
+      { id: 'r44', name: 'Bộ Lọc Sai Sót', icon: '🔍', rarity: 'rare', desc: 'Thẻ Hard hồi 2 HP thay vì 1', fx: { hardHeal: 2 } },
+      { id: 'r45', name: 'Thuật Toán Dự Đoán', icon: '🤖', rarity: 'epic', desc: 'Thẻ Easy cộng thêm 15% tổng ATK làm sát thương xuyên giáp', fx: { easyPierceDmg: 15 } },
+      { id: 'r46', name: 'Bản Năng Sinh Tồn', icon: '🐺', rarity: 'legendary', desc: 'Khi HP < 25%, mọi thẻ Good đều tự động tính là Easy', fx: { lowHpGoodAsEasy: true } },
+
+      // 6. ECONOMY (GOLD) - 6
+      { id: 'r47', name: 'Ví Tiền Cấp Cứu', icon: '👛', rarity: 'common', desc: '+15% Vàng nhặt được sau mỗi trận đấu', fx: { goldPercent: 15 } },
+      { id: 'r48', name: 'Thẻ Tín Dụng Y Tế', icon: '💳', rarity: 'rare', desc: '+30% Vàng nhặt được từ mọi nguồn', fx: { goldPercent: 30 } },
+      { id: 'r49', name: 'Máy In Tiền Chợ Đen', icon: '🖨️', rarity: 'epic', desc: '+60% Vàng, nhưng giảm 10 Max HP', fx: { goldPercent: 60, hpFlat: -10 } },
+      { id: 'r50', name: 'Nam Châm Vàng', icon: '🧲', rarity: 'rare', desc: '20% cơ hội nhân đôi số vàng rơi từ quái vật', fx: { doubleGoldChance: 20 } },
+      { id: 'r51', name: 'Bảo Hiểm Toàn Diện', icon: '📋', rarity: 'legendary', desc: '+35% Vàng, tự hồi 5 HP sau mỗi phòng', fx: { goldPercent: 35, healAfterRoom: 5 } },
+      { id: 'r52', name: 'Cổ Phần Bệnh Viện', icon: '📈', rarity: 'epic', desc: '+50% Vàng rơi ra khi tiêu diệt quái Tinh Anh và Boss', fx: { bossGoldPercent: 50 } },
+
+      // 7. INSIGHT & META - 6
+      { id: 'r53', name: 'Sách Bệnh Học Ngoại Khoa', icon: '📕', rarity: 'common', desc: '+15% Insight tích lũy vĩnh viễn', fx: { insightPercent: 15 } },
+      { id: 'r54', name: 'Bộ Não Einstein', icon: '🧠', rarity: 'rare', desc: '+30% Insight tích lũy vĩnh viễn', fx: { insightPercent: 30 } },
+      { id: 'r55', name: 'Thư Viện PubMed Q1', icon: '📚', rarity: 'epic', desc: '+60% Insight tích lũy vĩnh viễn', fx: { insightPercent: 60 } },
+      { id: 'r56', name: 'Chip Trí Nhớ Vô Tận', icon: '💾', rarity: 'legendary', desc: 'Bấm Again nhận ngay +2 Insight thay vì +1', fx: { againInsightBonus: 1 } },
+      { id: 'r57', name: 'Kính Lúp Lâm Sàng', icon: '🔎', rarity: 'rare', desc: 'Mọi nguồn rơi Insight đều được cộng thêm +1', fx: { flatInsightBonus: 1 } },
+      { id: 'r58', name: 'Học Bổng Giáo Sư', icon: '🎓', rarity: 'mythic', desc: 'Nhân đôi Insight tích lũy (x2), nhưng giảm 20% vàng', fx: { insightDouble: true, goldPercent: -20 } },
+
+      // 8. UTILITY & NAVIGATION - 6
+      { id: 'r59', name: 'Bản Đồ Hầm Ngục Cổ', icon: '🗺️', rarity: 'common', desc: 'Nhìn thấy trước loại phòng của bước tiếp theo', fx: { mapScout1: true } },
+      { id: 'r60', name: 'La Bàn Y Khoa', icon: '🧭', rarity: 'rare', desc: 'Nhìn thấy trước 2 bước tiếp theo trên bản đồ', fx: { mapScout2: true } },
+      { id: 'r61', name: 'Chìa Khóa Vạn Năng', icon: '🔑', rarity: 'epic', desc: 'Thêm 1 lựa chọn tại mọi phòng sự kiện', fx: { extraChoiceEvent: 1 } },
+      { id: 'r62', name: 'Đồng Hồ Cát Cứu Sinh', icon: '⌛', rarity: 'rare', desc: 'Thêm thời gian suy nghĩ trong các sự kiện có đếm ngược', fx: { timeBonus: 5 } },
+      { id: 'r63', name: 'Túi Đồ Nghề Bác Sĩ', icon: '🎒', rarity: 'common', desc: 'Thêm 1 vị trí chứa đồ tiêu hao (Consumable Slot)', fx: { extraItemSlot: 1 } },
+      { id: 'r64', name: 'Đèn Pin Trực Đêm', icon: '🔦', rarity: 'rare', desc: 'Quái vật Tinh Anh không thể tấn công bất ngờ ở hiệp đầu', fx: { antiAmbush: true } },
+
+      // 9. CURSED RELICS (HIGH RISK / HIGH REWARD) - 8
+      { id: 'r65', name: 'Trái Tim Vỡ', icon: '💔', rarity: 'cursed', desc: 'Nhân đôi toàn bộ sát thương (x2 ATK), nhưng Max HP bị khóa ở 30', fx: { doubleAtk: true, lockMaxHp: 30 } },
+      { id: 'r66', name: 'Xiềng Xích Đêm Trực', icon: '⛓️', rarity: 'cursed', desc: '+100% Vàng nhặt được, nhưng Max HP bị khóa ở 50', fx: { goldPercent: 100, lockMaxHp: 50 } },
+      { id: 'r67', name: 'Vết Thương Hở', icon: '🩸', rarity: 'cursed', desc: 'Bấm Again mất thêm 5 HP, nhưng hạ Boss chắc chắn rơi 2 Cổ vật', fx: { againExtraHpLoss: 5, doubleBossRelic: true } },
+      { id: 'r68', name: 'Giao Kèo Ác Quỷ', icon: '😈', rarity: 'cursed', desc: '+100% ATK, nhưng mọi bình máu hồi phục bị vô hiệu hóa!', fx: { doubleAtk: true, disableHeal: true } },
+      { id: 'r69', name: 'Lời Nguyền Mất Ngủ', icon: '🌑', rarity: 'cursed', desc: '+8 ATK, nhưng Suối Thánh nghỉ ngơi không thể hồi máu', fx: { atkFlat: 8, restNoHeal: true } },
+      { id: 'r70', name: 'Mắt Đánh Đổi', icon: '👁️', rarity: 'cursed', desc: 'Thấy toàn bộ bản đồ hầm ngục, nhưng bị trừ 20 Max HP', fx: { fullMap: true, hpFlat: -20 } },
+      { id: 'r71', name: 'Lời Thề Độc Dược', icon: '☠️', rarity: 'cursed', desc: '+75% ATK, nhưng mỗi lần bấm Again mất 10 HP!', fx: { atkPercent: 75, againExtraHpLoss: 6 } },
+      { id: 'r72', name: 'Bùa May Mắn Giả', icon: '🍀', rarity: 'cursed', desc: '+35% Chí Mạng, nhưng 10% cơ hội đòn đánh tự trượt (0 DMG)', fx: { critChance: 35, missChance: 10 } }
+    ];
+
+    /* ====================================================================
+       2. CONSUMABLE ITEMS (22 ITEMS: POTIONS, BOMBS, SCROLLS & FOOD)
+       ==================================================================== */
+    const CONSUMABLES_DB = [
+      // Potions
+      { id: 'item_1', name: 'Bình Máu Nhỏ', icon: '❤️', type: 'potion', desc: 'Hồi ngay 25 HP', action: 'heal', val: 25 },
+      { id: 'item_2', name: 'Bình Máu Lớn', icon: '💖', type: 'potion', desc: 'Hồi ngay 50 HP', action: 'heal', val: 50 },
+      { id: 'item_3', name: 'Thuốc Giải Độc', icon: '🟢', type: 'potion', desc: 'Hóa giải mọi trạng thái độc và debuff', action: 'cure' },
+      { id: 'item_4', name: 'Ống Tiêm Adrenaline', icon: '⚡', type: 'potion', desc: '3 đòn đánh kế tiếp tăng +50% sát thương', action: 'buff_atk_temp', val: 50, turns: 3 },
+      { id: 'item_5', name: 'Thuốc Tăng Lực', icon: '💪', type: 'potion', desc: '+4 ATK trong toàn bộ trận đấu hiện tại', action: 'buff_atk_battle', val: 4 },
+      { id: 'item_6', name: 'Huyết Thanh Kháng Sinh', icon: '🛡️', type: 'potion', desc: 'Tạo một lớp khiên đỡ hoàn toàn 2 đòn đánh kế', action: 'shield', val: 2 },
+      { id: 'item_7', name: 'Morphine Giảm Đau', icon: '💊', type: 'potion', desc: 'Giảm 50% sát thương nhận vào trong 5 thẻ', action: 'dmg_reduce_temp', val: 50, turns: 5 },
+
+      // Bombs
+      { id: 'item_8', name: 'Bom Vi Trùng', icon: '🦠', type: 'bomb', desc: 'Gây 20 sát thương tức thì lên quái', action: 'damage', val: 20 },
+      { id: 'item_9', name: 'Bom Lửa Cytokine', icon: '🔥', type: 'bomb', desc: 'Gây 35 sát thương thiêu đốt', action: 'damage', val: 35 },
+      { id: 'item_10', name: 'Bom Xung Điện Sốc Tim', icon: '⚡', type: 'bomb', desc: 'Gây 15 sát thương và làm choáng quái 1 lượt', action: 'damage_stun', val: 15 },
+      { id: 'item_11', name: 'Bom Xuyên Giáp', icon: '🎯', type: 'bomb', desc: 'Gây 25 sát thương bỏ qua toàn bộ giáp quái', action: 'pierce_dmg', val: 25 },
+      { id: 'item_12', name: 'Bom Diệt Khuẩn Hàng Loạt', icon: '☠️', type: 'bomb', desc: 'Gây 55 sát thương cực lớn, nhưng bạn mất 10 HP', action: 'self_sacrifice_dmg', val: 55, penalty: 10 },
+
+      // Scrolls
+      { id: 'item_13', name: 'Cuộn Giấy Hồi Sinh', icon: '🔄', type: 'scroll', desc: 'Nếu tử trận, tự động hồi sinh với 50% HP', action: 'revive' },
+      { id: 'item_14', name: 'Cuộn Giấy Dịch Chuyển', icon: '🌀', type: 'scroll', desc: 'Bỏ qua phòng hiện tại an toàn (không nhận thưởng)', action: 'skip_room' },
+      { id: 'item_15', name: 'Cuộn Giấy Triệu Hồi', icon: '⭐', type: 'scroll', desc: 'Gây sát thương bằng 30% lượng máu hiện tại của quái', action: 'percent_dmg', val: 30 },
+      { id: 'item_16', name: 'Cuộn Giấy Đảo Ngược Thời Gian', icon: '⏪', type: 'scroll', desc: 'Hồi phục lại toàn bộ máu bị mất trong trận này', action: 'battle_reset_heal' },
+      { id: 'item_17', name: 'Cuộn Giấy Sao Chép', icon: '📋', type: 'scroll', desc: 'Nhân bản 1 cổ vật bạn đang sở hữu', action: 'clone_relic' },
+
+      // Food & Special
+      { id: 'item_18', name: 'Cà Phê Đen Đặc', icon: '☕', type: 'food', desc: 'Thêm 1 lượt đổi bùa may mắn (Reroll)', action: 'add_reroll' },
+      { id: 'item_19', name: 'Bánh Mì Trực Đêm', icon: '🍞', type: 'food', desc: 'Hồi ngay 12 HP ấm bụng', action: 'heal', val: 12 },
+      { id: 'item_20', name: 'Tô Phở Bò Bệnh Viện', icon: '🍜', type: 'food', desc: 'Hồi 22 HP và tăng +2 ATK cho trận này', action: 'heal_and_buff', val: 22, atkVal: 2 },
+      { id: 'item_21', name: 'Chìa Khóa Vàng Rương', icon: '🔑', type: 'special', desc: 'Mở rương kho báu bí mật trong hầm ngục', action: 'open_chest' },
+      { id: 'item_22', name: 'Thẻ Giảm Giá VIP Chợ Đen', icon: '🎫', type: 'special', desc: 'Giảm 30% giá toàn bộ vật phẩm trong chợ', action: 'shop_discount', val: 30 }
+    ];
+
+    /* ====================================================================
+       3. MONSTER BESTIARY (DARK FANTASY MEDICAL THEMED)
+       ==================================================================== */
+    const MONSTER_CATALOG = [
+      // Floor 1
+      { id: 'm1', name: 'Slime Cảm Cúm', icon: '🦠', hp: 45, atk: 7, tier: 1, trait: 'Nhầy độc', desc: 'Dưới 50% HP phân tách thành 2 phân tử nhỏ.' },
+      { id: 'm2', name: 'Dơi Mất Ngủ', icon: '🦇', hp: 36, atk: 9, tier: 1, trait: 'Hút sinh lực', desc: 'Nếu bạn ngâm thẻ quá lâu sẽ cắn trộm 4 HP.' },
+      { id: 'm3', name: 'Bọ Rối Loạn Điện Giải', icon: '🪲', hp: 50, atk: 8, tier: 1, trait: 'Đốt cháy mana', desc: 'Làm giảm 30% hiệu quả của đòn thủ Hard.' },
+
+      // Floor 2
+      { id: 'm4', name: 'Golem Tăng Huyết Áp', icon: '🗿', hp: 75, atk: 10, tier: 2, trait: 'Giáp dung nham', desc: 'Mạch máu đỏ rực, phản 2 sát thương gai nhọn.' },
+      { id: 'm5', name: 'Phù Thủy Đái Tháo Đường', icon: '🧙', hp: 65, atk: 12, tier: 2, trait: 'Khói toan ceton', desc: 'Tỏa khói làm giảm 20% sát thương của người chơi.' },
+      { id: 'm6', name: 'Hồn Ma Trực Gác', icon: '👻', hp: 60, atk: 11, tier: 2, trait: 'Ám ảnh', desc: 'Đòn Again làm bạn mất thêm 3 HP.' },
+
+      // Elite Monsters
+      { id: 'm_elite_1', name: 'Kỵ Sĩ Nhiễm Trùng Huyết', icon: '🤺', hp: 110, atk: 14, tier: 'elite', trait: 'Đao độc huyết khối', desc: 'Mỗi đòn đánh gây tích tụ độc tố.' },
+      { id: 'm_elite_2', name: 'Ảo Ảnh Cơn Bão Giáp', icon: '🔥', hp: 100, atk: 16, tier: 'elite', trait: 'Nhiệt độ bùng phát', desc: 'Sát thương cực cao, tấn công liên tục.' },
+
+      // Floor 3 Bosses
+      { id: 'm_boss_1', name: 'Rồng Sốc Nhiễm Khuẩn (Sepsis Dragon)', icon: '🐉', hp: 180, atk: 18, tier: 'boss', trait: 'Bão Cytokine', desc: 'Sau 6 lượt tung Bão Cytokine thiêu đốt toàn bộ màn hình!' },
+      { id: 'm_boss_2', name: 'Tử Thần Suy Đa Tạng (Multiorgan Reaper)', icon: '💀', hp: 170, atk: 20, tier: 'boss', trait: 'Phong ấn tạng', desc: 'Mỗi lần bạn bấm Again, sát thương nhận vào tăng 50%!' }
+    ];
+
+    /* ====================================================================
+       4. SYNTHESIZED COMBAT AUDIO ENGINE (WEB AUDIO API)
+       ==================================================================== */
+    const DungeonSound = {
+      enabled: true,
+      ctx: null,
+      init() {
+        if (!this.ctx) {
+          try { this.ctx = new (window.AudioContext || window.webkitAudioContext)(); } catch(e) {}
+        }
+        if (this.ctx && this.ctx.state === 'suspended') {
+          this.ctx.resume();
+        }
+      },
+      tone(freq, type, duration, gainVal = 0.08) {
+        if (!this.enabled) return;
+        this.init();
+        if (!this.ctx) return;
+        try {
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = type;
+          osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
+          gain.gain.setValueAtTime(gainVal, this.ctx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + duration);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start();
+          osc.stop(this.ctx.currentTime + duration);
+        } catch(e) {}
+      },
+      slash() {
+        // Sword slash whoosh
+        this.tone(350, 'sawtooth', 0.12, 0.09);
+        setTimeout(() => this.tone(700, 'sine', 0.1, 0.07), 40);
+      },
+      crit() {
+        // Heavy thunder hit
+        this.tone(200, 'square', 0.25, 0.12);
+        setTimeout(() => this.tone(900, 'triangle', 0.2, 0.1), 60);
+      },
+      parry() {
+        // Shield clang
+        this.tone(800, 'triangle', 0.08, 0.08);
+        setTimeout(() => this.tone(1200, 'sine', 0.15, 0.06), 40);
+      },
+      monsterBite() {
+        // Ominous bite sound
+        this.tone(130, 'sawtooth', 0.28, 0.11);
+      },
+      potion() {
+        // Gulp / magical chime
+        this.tone(523.25, 'sine', 0.1, 0.06);
+        setTimeout(() => this.tone(783.99, 'sine', 0.15, 0.08), 80);
+      },
+      victory() {
+        [440, 554.37, 659.25, 880, 1108.73].forEach((f, i) => {
+          setTimeout(() => this.tone(f, 'triangle', 0.35, 0.1), i * 90);
+        });
+      }
+    };
+
+    /* ====================================================================
+       5. GAME STATE & PERMANENT METAPROGRESSION
+       ==================================================================== */
+    const STORAGE_KEY = 'ANKIMED_DUNGEON_V1';
+
+    let state = {
+      // Permanent Meta-Progression (Sanctuary)
+      meta: {
+        insight: 0,
+        totalKills: 0,
+        totalRuns: 0,
+        highestFloor: 1,
+        upgrades: {
+          hpBoost: 0,     // Level * 10 max HP
+          atkBoost: 0,    // Level * 2 ATK
+          freePotion: 0,  // Start run with potion
+          insightBoost: 0 // +15% insight
+        }
+      },
+      // Current Run State
+      run: {
+        active: false,
+        floor: 1,
+        roomIndex: 1,
+        totalRooms: 5,
+        gold: 0,
+        hp: 100,
+        maxHp: 100,
+        baseAtk: 10,
+        shields: 0,
+        mana: 0,
+        maxMana: 3,
+        combo: 0,
+        relics: [],        // array of relic IDs
+        inventory: [],     // array of consumable items
+        tempAtkBuff: 0
+      },
+      // Current Battle Room
+      battle: {
+        monster: null,
+        currentHp: 0,
+        maxHp: 0,
+        isElite: false,
+        isBoss: false,
+        turnCount: 0
+      },
+      lastReviewId: 0
+    };
+
+    function loadState() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          state = Object.assign(state, parsed);
+        }
+      } catch(e) {}
+    }
+
+    function saveState() {
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e) {}
+      renderUI();
+    }
+
+    /* ====================================================================
+       6. DUNGEON RUN LIFECYCLE (MAP, SPAWN, COMBAT)
+       ==================================================================== */
+    function startNewRun() {
+      const u = state.meta.upgrades;
+      const startMaxHp = 100 + (u.hpBoost * 10);
+      const startAtk = 10 + (u.atkBoost * 2);
+
+      state.run = {
+        active: true,
+        floor: 1,
+        roomIndex: 1,
+        totalRooms: 5,
+        gold: 0,
+        hp: startMaxHp,
+        maxHp: startMaxHp,
+        baseAtk: startAtk,
+        shields: 0,
+        mana: 0,
+        maxMana: 3,
+        combo: 0,
+        relics: [],
+        inventory: [],
+        tempAtkBuff: 0
+      };
+
+      // Starting starter items
+      state.run.inventory.push(CONSUMABLES_DB[0]); // Potion 1
+      if (u.freePotion > 0) state.run.inventory.push(CONSUMABLES_DB[1]); // Potion 2
+
+      state.meta.totalRuns++;
+      spawnRoom();
+      saveState();
+      showToast('⚔️ BƯỚC VÀO HẦM NGỤC: Tầng 1!', 'info');
+    }
+
+    function spawnRoom() {
+      const rIdx = state.run.roomIndex;
+      let monsterTemplate;
+
+      if (rIdx === state.run.totalRooms) {
+        // Boss Room
+        const bosses = MONSTER_CATALOG.filter(m => m.tier === 'boss');
+        monsterTemplate = bosses[Math.floor(Math.random() * bosses.length)];
+      } else if (rIdx === 3) {
+        // Elite Room
+        const elites = MONSTER_CATALOG.filter(m => m.tier === 'elite');
+        monsterTemplate = elites[Math.floor(Math.random() * elites.length)];
+      } else {
+        // Regular Monster Room
+        const regulars = MONSTER_CATALOG.filter(m => m.tier === state.run.floor);
+        monsterTemplate = regulars[Math.floor(Math.random() * regulars.length)] || MONSTER_CATALOG[0];
+      }
+
+      state.battle = {
+        monster: monsterTemplate,
+        currentHp: monsterTemplate.hp,
+        maxHp: monsterTemplate.hp,
+        isElite: (monsterTemplate.tier === 'elite'),
+        isBoss: (monsterTemplate.tier === 'boss'),
+        turnCount: 0
+      };
+
+      // Relic hook: Anti-ambush or block first hit
+      state.run.tempAtkBuff = 0;
+      state.run.shields = 0;
+      if (hasRelic('r18')) state.run.shields += 1;
+
+      renderUI();
+      logBattle(`🚪 Bước vào Phòng #${rIdx}: Đối mặt với [${monsterTemplate.name}]!`);
+    }
+
+    /* ====================================================================
+       7. DAMAGE & STAT CALCULATION PIPELINE (RELIC HOOKS)
+       ==================================================================== */
+    function hasRelic(id) {
+      return state.run.relics.includes(id);
+    }
+
+    function getPlayerTotalAtk() {
+      let atk = state.run.baseAtk + state.run.tempAtkBuff;
+
+      // Apply Relic ATK Flats
+      state.run.relics.forEach(rid => {
+        const r = RELICS_MASTER_DB.find(x => x.id === rid);
+        if (r && r.fx && r.fx.atkFlat) atk += r.fx.atkFlat;
+      });
+
+      // Apply Double ATK Curses
+      if (hasRelic('r65') || hasRelic('r68')) atk *= 2;
+      if (hasRelic('r71')) atk *= 1.75;
+
+      return Math.round(atk);
+    }
+
+    function handleCardReview(ease, source = 'Anki') {
+      if (!state.run.active) return;
+      const b = state.battle;
+      if (!b.monster || b.currentHp <= 0) return;
+
+      b.turnCount++;
+      const baseAtk = getPlayerTotalAtk();
+      let damageDealt = 0;
+      let isCrit = false;
+
+      // 1. EVALUATE CARD ACTION
+      if (ease === 1) {
+        // AGAIN: Monster strikes player!
+        handleMonsterAttack();
+        state.run.combo = 0;
+        state.meta.insight += 1; // +1 Insight on failure
+        if (hasRelic('r56')) state.meta.insight += 1;
+
+        // Relic r43: Again damages monster back!
+        if (hasRelic('r43')) {
+          b.currentHp = Math.max(0, b.currentHp - 4);
+          logBattle(`⏳ Đồng hồ cát phản đòn: Gây 4 DMG lên quái!`);
+        }
+
+        spawnDamageFloat('MISS / LỖI SƠ HỞ! 🩸', 'text-rose-500');
+        DungeonSound.monsterBite();
+        shakeScreen();
+
+      } else if (ease === 2) {
+        // HARD: Defensive Parry
+        damageDealt = Math.round(baseAtk * (hasRelic('r39') ? 1.0 : 0.6));
+        state.run.shields += 1;
+        state.run.mana = Math.min(state.run.maxMana, state.run.mana + 1);
+        if (hasRelic('r44')) healPlayer(2);
+
+        DungeonSound.parry();
+        spawnDamageFloat(`BLOCK 🛡️ ${damageDealt} DMG`, 'text-slate-300');
+
+      } else if (ease === 3) {
+        // GOOD: Standard Clinical Slash
+        damageDealt = baseAtk;
+        state.run.combo++;
+        if (hasRelic('r24')) healPlayer(1);
+        if (hasRelic('r30')) healPlayer(2);
+
+        // Check Crit
+        let critChance = 10;
+        if (hasRelic('r2')) critChance += 10;
+        if (hasRelic('r5')) critChance += 20;
+        if (hasRelic('r72')) critChance += 35;
+        if (Math.random() * 100 < critChance) {
+          isCrit = true;
+          const mult = hasRelic('r5') ? 3.0 : 1.5;
+          damageDealt = Math.round(damageDealt * mult);
+        }
+
+        DungeonSound.slash();
+        triggerSlashAnimation();
+        spawnDamageFloat(`${isCrit ? 'CRIT! 💥 ' : ''}${damageDealt} DMG`, isCrit ? 'text-amber-300' : 'text-emerald-400');
+
+      } else if (ease === 4) {
+        // EASY: Critical Execution
+        damageDealt = Math.round(baseAtk * 1.3);
+        isCrit = true;
+        state.run.combo++;
+        healPlayer(2);
+        if (hasRelic('r23')) healPlayer(2);
+        if (hasRelic('r30')) healPlayer(2);
+        if (hasRelic('r41')) damageDealt = Math.round(damageDealt * 1.5);
+
+        DungeonSound.crit();
+        triggerSlashAnimation();
+        spawnDamageFloat(`TRỌNG KÍCH! ⚡ ${damageDealt} DMG`, 'text-cyan-300');
+        shakeScreen();
+      }
+
+      // Combo bonus damage
+      if (damageDealt > 0 && state.run.combo >= 5) {
+        damageDealt += Math.floor(state.run.combo / 5) * 2;
+      }
+      if (hasRelic('r32') && state.run.combo >= 10) damageDealt = Math.round(damageDealt * 1.5);
+      if (hasRelic('r35') && state.run.combo >= 20) damageDealt *= 2;
+
+      // Apply damage to monster
+      if (damageDealt > 0) {
+        b.currentHp = Math.max(0, b.currentHp - damageDealt);
+        triggerMonsterStagger();
+        logBattle(`⚔️ [${source}] Đòn đánh gây ${damageDealt} DMG lên [${b.monster.name}]! (HP còn: ${b.currentHp}/${b.maxHp})`);
+      }
+
+      // Check Monster Defeated
+      if (b.currentHp <= 0) {
+        handleMonsterDefeated();
+      } else {
+        saveState();
+      }
+    }
+
+    function handleMonsterAttack() {
+      const b = state.battle;
+      let dmg = b.monster.atk;
+
+      // Check Shields
+      if (state.run.shields > 0) {
+        state.run.shields--;
+        logBattle(`🛡️ Khiên thủ đã cản phá đòn tấn công của [${b.monster.name}]!`);
+        return;
+      }
+
+      // Relic damage reduction
+      if (hasRelic('r15')) dmg *= 0.9;
+      if (hasRelic('r16')) dmg *= 0.8;
+      if (hasRelic('r71')) dmg += 6;
+
+      dmg = Math.max(1, Math.round(dmg));
+      state.run.hp = Math.max(0, state.run.hp - dmg);
+      logBattle(`🩸 [${b.monster.name}] cắn trúng bạn: Bạn mất -${dmg} HP! (Còn: ${state.run.hp}/${state.run.maxHp})`);
+
+      // Relic thorns
+      if (hasRelic('r20')) {
+        b.currentHp = Math.max(0, b.currentHp - 3);
+        logBattle(`🦺 Giáp gai phản đòn: Gây 3 DMG lên quái!`);
+      }
+
+      // Check Player Death
+      if (state.run.hp <= 0) {
+        handlePlayerDeath();
+      }
+    }
+
+    function healPlayer(amount) {
+      if (hasRelic('r68')) return; // Cursed: disable heal
+      const before = state.run.hp;
+      state.run.hp = Math.min(state.run.maxHp, state.run.hp + amount);
+      const healed = state.run.hp - before;
+      if (healed > 0) spawnDamageFloat(`+${healed} HP 💚`, 'text-emerald-400');
+    }
+
+    function handleMonsterDefeated() {
+      const b = state.battle;
+      state.meta.totalKills++;
+      DungeonSound.victory();
+      logBattle(`🏆 QUÁI VẬT [${b.monster.name}] ĐÃ BỊ TIÊU DIỆT HOÀN TOÀN!`);
+
+      // Earn Gold
+      let goldEarned = Math.floor(Math.random() * 12) + 10;
+      if (b.isElite) goldEarned += 25;
+      if (b.isBoss) goldEarned += 60;
+      if (hasRelic('r47')) goldEarned = Math.round(goldEarned * 1.15);
+      if (hasRelic('r48')) goldEarned = Math.round(goldEarned * 1.30);
+      if (hasRelic('r66')) goldEarned *= 2;
+      state.run.gold += goldEarned;
+
+      // Relic heal after room
+      if (hasRelic('r21')) healPlayer(5);
+      if (hasRelic('r25')) healPlayer(15);
+      if (hasRelic('r28')) healPlayer(10);
+      if (hasRelic('r29')) { healPlayer(5); state.meta.insight += 1; }
+
+      // Check Floor Win
+      if (b.isBoss) {
+        if (state.run.floor < 3) {
+          state.run.floor++;
+          state.run.roomIndex = 1;
+          showToast(`🎉 CHIẾN THẮNG TRÙM! Mở khóa Tầng ${state.run.floor}!`, 'success');
+        } else {
+          showToast('👑 HOÀN TẤT TOÀN BỘ HẦM NGỤC! BẠN LÀ ĐẠI PHÁP SƯ Y THUẬT!', 'success');
+          state.meta.insight += 15;
+        }
+      }
+
+      openLootRoom();
+      saveState();
+    }
+
+    function handlePlayerDeath() {
+      DungeonSound.monsterBite();
+      shakeScreen();
+
+      // Check Revive Scroll or Relic r27
+      const reviveIdx = state.run.inventory.findIndex(x => x.action === 'revive');
+      if (reviveIdx >= 0) {
+        state.run.inventory.splice(reviveIdx, 1);
+        state.run.hp = Math.round(state.run.maxHp * 0.5);
+        showToast('🔄 Cuộn Giấy Hồi Sinh đã cứu mạng bạn!', 'success');
+        logBattle('🔄 Cuộn Giấy Hồi Sinh phát sáng: Bạn hồi sinh với 50% HP!');
+        saveState();
+        return;
+      }
+
+      alert(`💀 BẠN ĐÃ TỬ TRẬN TRONG HẦM NGỤC!\n\n` +
+            `• Tầng dừng bước: Tầng ${state.run.floor} - Phòng ${state.run.roomIndex}\n` +
+            `• Vàng bị rơi mất: ${state.run.gold} 🪙\n` +
+            `• Mảnh Insight vĩnh viễn đã bảo lưu an toàn: ${state.meta.insight} 💡\n\n` +
+            `Hãy về Thánh Địa dùng Insight nâng cấp kỹ năng để quay lại phục hận!`);
+
+      state.run.active = false;
+      saveState();
+    }
+
+    /* ====================================================================
+       8. LOOT SELECTION ROOM (3 CHOICES OF RELIC / ITEM / GOLD)
+       ==================================================================== */
+    function openLootRoom() {
+      const container = document.getElementById('lootChoicesContainer');
+      container.innerHTML = '';
+
+      // Generate 3 unique rewards
+      const unownedRelics = RELICS_MASTER_DB.filter(r => !state.run.relics.includes(r.id) && r.rarity !== 'cursed');
+      const choices = [];
+
+      // Choice 1: Relic
+      if (unownedRelics.length > 0) {
+        const r = unownedRelics[Math.floor(Math.random() * unownedRelics.length)];
+        choices.push({ type: 'relic', data: r });
+      }
+
+      // Choice 2: Consumable Item
+      const randomItem = CONSUMABLES_DB[Math.floor(Math.random() * CONSUMABLES_DB.length)];
+      choices.push({ type: 'item', data: randomItem });
+
+      // Choice 3: Big Gold or Insight
+      choices.push({ type: 'gold', val: 35, title: 'Hòm Vàng Lớn', icon: '💰', desc: '+35 Vàng bỏ túi' });
+
+      choices.forEach((c, idx) => {
+        const btn = document.createElement('div');
+        btn.className = 'p-3 rounded-2xl border border-amber-900/60 bg-gothic-850 hover:border-amber-500 transition cursor-pointer flex items-center justify-between text-left';
+
+        if (c.type === 'relic') {
+          btn.innerHTML = `
+            <div class="flex items-center gap-2.5">
+              <span class="text-2xl">${c.data.icon}</span>
+              <div>
+                <div class="font-bold text-amber-300 font-mono text-xs flex items-center gap-1.5">
+                  <span>${c.data.name}</span>
+                  <span class="text-[9px] uppercase px-1 py-0.2 rounded bg-gothic-950 text-slate-400 font-normal">${c.data.rarity}</span>
+                </div>
+                <div class="text-[10px] text-slate-400 mt-0.5">${c.data.desc}</div>
+              </div>
+            </div>
+            <span class="text-xs font-mono font-bold text-amber-400">CHỌN ➔</span>
+          `;
+          btn.onclick = () => {
+            state.run.relics.push(c.data.id);
+            showToast(`🏺 Đã trang bị cổ vật: ${c.data.name}`, 'success');
+            closeLootAndAdvance();
+          };
+        } else if (c.type === 'item') {
+          btn.innerHTML = `
+            <div class="flex items-center gap-2.5">
+              <span class="text-2xl">${c.data.icon}</span>
+              <div>
+                <div class="font-bold text-cyan-300 font-mono text-xs">${c.data.name}</div>
+                <div class="text-[10px] text-slate-400 mt-0.5">${c.data.desc}</div>
+              </div>
+            </div>
+            <span class="text-xs font-mono font-bold text-cyan-400">CHỌN ➔</span>
+          `;
+          btn.onclick = () => {
+            if (state.run.inventory.length >= 3) {
+              showToast('Túi đồ đã đầy (3/3)! Đã thay thế món đồ đầu tiên.', 'info');
+              state.run.inventory.shift();
+            }
+            state.run.inventory.push(c.data);
+            showToast(`🎒 Đã nhặt vật phẩm: ${c.data.name}`, 'success');
+            closeLootAndAdvance();
+          };
+        } else {
+          btn.innerHTML = `
+            <div class="flex items-center gap-2.5">
+              <span class="text-2xl">${c.icon}</span>
+              <div>
+                <div class="font-bold text-amber-300 font-mono text-xs">${c.title}</div>
+                <div class="text-[10px] text-slate-400 mt-0.5">${c.desc}</div>
+              </div>
+            </div>
+            <span class="text-xs font-mono font-bold text-amber-400">CHỌN ➔</span>
+          `;
+          btn.onclick = () => {
+            state.run.gold += c.val;
+            showToast(`🪙 Nhận thêm +${c.val} Vàng!`, 'success');
+            closeLootAndAdvance();
+          };
+        }
+
+        container.appendChild(btn);
+      });
+
+      document.getElementById('lootModal').classList.remove('hidden');
+    }
+
+    function closeLootAndAdvance() {
+      document.getElementById('lootModal').classList.add('hidden');
+      state.run.roomIndex++;
+      if (state.run.roomIndex > state.run.totalRooms) {
+        state.run.roomIndex = 1;
+        state.run.floor = Math.min(3, state.run.floor + 1);
+      }
+      spawnRoom();
+      saveState();
+    }
+
+    /* ====================================================================
+       9. CONSUMABLE ITEM USAGE IN BATTLE
+       ==================================================================== */
+    function useItem(slotIdx) {
+      const item = state.run.inventory[slotIdx];
+      if (!item) return;
+
+      DungeonSound.potion();
+      if (item.action === 'heal') {
+        healPlayer(item.val);
+        showToast(`❤️ Đã uống ${item.name}: Hồi +${item.val} HP!`, 'success');
+      } else if (item.action === 'damage') {
+        state.battle.currentHp = Math.max(0, state.battle.currentHp - item.val);
+        triggerMonsterStagger();
+        showToast(`💣 Đã ném ${item.name}: Gây ${item.val} DMG!`, 'success');
+        if (state.battle.currentHp <= 0) handleMonsterDefeated();
+      } else if (item.action === 'damage_stun') {
+        state.battle.currentHp = Math.max(0, state.battle.currentHp - item.val);
+        triggerMonsterStagger();
+        showToast(`⚡ ${item.name}: Gây ${item.val} DMG & Choáng quái vật!`, 'success');
+        if (state.battle.currentHp <= 0) handleMonsterDefeated();
+      } else if (item.action === 'buff_atk_battle') {
+        state.run.tempAtkBuff += item.val;
+        showToast(`💪 ${item.name}: Tăng +${item.val} ATK trong trận này!`, 'success');
+      } else if (item.action === 'shield') {
+        state.run.shields += item.val;
+        showToast(`🛡️ ${item.name}: Nhận ${item.val} khiên cản đòn!`, 'success');
+      }
+
+      state.run.inventory.splice(slotIdx, 1);
+      saveState();
+    }
+
+    /* ====================================================================
+       10. SANCTUARY UPGRADES (META-PROGRESSION)
+       ==================================================================== */
+    const SKILL_TREE_DB = [
+      { id: 'hpBoost', name: 'Thể Lực Thép (Stamina)', icon: '❤️', cost: 5, desc: '+10 Max HP khởi đầu mỗi run', max: 5 },
+      { id: 'atkBoost', name: 'Kiếm Thuật Lâm Sàng', icon: '⚔️', cost: 8, desc: '+2 Sát thương (ATK) cơ bản', max: 5 },
+      { id: 'freePotion', name: 'Túi Thuốc Khởi Đầu', icon: '🧪', cost: 10, desc: 'Bắt đầu hầm ngục với thêm 1 Bình Máu', max: 2 },
+      { id: 'insightBoost', name: 'Trực Giác Bác Sĩ', icon: '💡', cost: 12, desc: '+20% Insight tích lũy vĩnh viễn', max: 3 }
+    ];
+
+    function renderSanctuary() {
+      document.getElementById('sanctuaryInsightText').textContent = `${state.meta.insight} 💡`;
+      const container = document.getElementById('skillTreeContainer');
+      container.innerHTML = '';
+
+      SKILL_TREE_DB.forEach(sk => {
+        const curLvl = state.meta.upgrades[sk.id] || 0;
+        const isMax = curLvl >= sk.max;
+        const canAfford = state.meta.insight >= sk.cost && !isMax;
+
+        const row = document.createElement('div');
+        row.className = 'p-3 rounded-xl border border-slate-800 bg-gothic-850 flex items-center justify-between';
+        row.innerHTML = `
+          <div class="flex items-center gap-2.5">
+            <span class="text-2xl">${sk.icon}</span>
+            <div>
+              <div class="font-bold text-white flex items-center gap-2">
+                <span>${sk.name}</span>
+                <span class="text-[9px] font-mono px-1.5 py-0.2 rounded bg-gothic-950 text-cyan-300 border border-slate-700">Cấp ${curLvl}/${sk.max}</span>
+              </div>
+              <div class="text-[10px] text-slate-400 mt-0.5">${sk.desc}</div>
+            </div>
+          </div>
+          <button onclick="upgradeSkill('${sk.id}')" class="px-3 py-1.5 rounded-lg text-xs font-bold font-mono transition ${
+            canAfford ? 'bg-cyan-600 hover:bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-500 cursor-not-allowed'
+          }">
+            ${isMax ? 'TỐI ĐA' : `NÂNG CẤP (${sk.cost} 💡)`}
+          </button>
+        `;
+        container.appendChild(row);
+      });
+    }
+
+    function upgradeSkill(id) {
+      const sk = SKILL_TREE_DB.find(x => x.id === id);
+      if (!sk) return;
+      const curLvl = state.meta.upgrades[id] || 0;
+      if (curLvl >= sk.max || state.meta.insight < sk.cost) return;
+
+      state.meta.insight -= sk.cost;
+      state.meta.upgrades[id] = curLvl + 1;
+      DungeonSound.victory();
+      showToast(`🏛️ Đã nâng cấp kỹ năng: ${sk.name} (Cấp ${curLvl + 1})`, 'success');
+      renderSanctuary();
+      saveState();
+    }
+
+    /* ====================================================================
+       11. VISUAL FX, SLASH, SHAKE & LOG
+       ==================================================================== */
+    function spawnDamageFloat(text, colorClass = 'text-red-400') {
+      const layer = document.getElementById('fxLayer');
+      const el = document.createElement('div');
+      el.className = `damage-float text-lg sm:text-2xl ${colorClass}`;
+      el.textContent = text;
+      el.style.left = `${50 + (Math.random() * 8 - 4)}%`;
+      el.style.top = `${38 + (Math.random() * 8 - 4)}%`;
+      layer.appendChild(el);
+      setTimeout(() => el.remove(), 950);
+    }
+
+    function shakeScreen() {
+      document.body.classList.remove('screen-shake');
+      void document.body.offsetWidth;
+      document.body.classList.add('screen-shake');
+    }
+
+    function triggerMonsterStagger() {
+      const m = document.getElementById('monsterAvatar');
+      m.classList.remove('monster-stagger');
+      void m.offsetWidth;
+      m.classList.add('monster-stagger');
+    }
+
+    function triggerSlashAnimation() {
+      const container = document.getElementById('slashContainer');
+      const slash = document.createElement('div');
+      slash.className = 'slash-line';
+      container.appendChild(slash);
+      setTimeout(() => slash.remove(), 320);
+    }
+
+    function logBattle(msg) {
+      const time = new Date().toLocaleTimeString('vi-VN');
+      const container = document.getElementById('battleLogContainer');
+      const row = document.createElement('div');
+      row.className = 'border-l-2 border-red-700/60 pl-2 py-0.5 text-slate-300';
+      row.innerHTML = `<span class="text-slate-500 font-mono text-[10px]">${time}</span> ${msg}`;
+      container.insertBefore(row, container.firstChild);
+    }
+
+    /* ====================================================================
+       12. ROBUST ANKICONNECT CLIENT (READ-ONLY COMBAT DRIVER)
+       ==================================================================== */
+    const Anki = {
+      url: 'http://127.0.0.1:8765',
+      connected: false,
+      lastReviewedCount: -1,
+      async call(action, params = {}) {
+        const res = await fetch(this.url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ action, version: 6, params })
+        });
+        const data = await res.json();
+        if (data.error) throw new Error(data.error);
+        return data.result;
+      },
+      async checkConnection() {
+        try {
+          const ver = await this.call('version');
+          this.connected = true;
+          document.getElementById('ankiStatusDot').className = 'inline-block w-1.5 h-1.5 rounded-full bg-emerald-400';
+          document.getElementById('ankiStatusText').textContent = 'AnkiConnect: Kết nối tốt (v' + ver + ')';
+
+          const todayCount = await this.call('getNumCardsReviewedToday');
+
+          if (this.lastReviewedCount >= 0 && todayCount > this.lastReviewedCount) {
+            try {
+              const cards = await this.call('findCards', { query: 'rated:1' });
+              if (cards && cards.length > 0) {
+                const queryCards = cards.length > 100 ? cards.slice(-100) : cards;
+                const revMap = await this.call('getReviewsOfCards', { cards: queryCards });
+
+                const latestByCard = {};
+                for (const cid in revMap) {
+                  const arr = revMap[cid];
+                  if (Array.isArray(arr)) {
+                    for (const r of arr) {
+                      if (state.lastReviewId === 0 || r.id > state.lastReviewId) {
+                        if (!latestByCard[cid] || r.id > latestByCard[cid].id) {
+                          latestByCard[cid] = r;
+                        }
+                      }
+                    }
+                  }
+                }
+
+                let newRevs = Object.values(latestByCard).sort((a, b) => a.id - b.id);
+                const delta = todayCount - this.lastReviewedCount;
+                if (newRevs.length > delta) newRevs = newRevs.slice(-delta);
+
+                if (newRevs.length > 0) {
+                  for (const r of newRevs) {
+                    handleCardReview(r.ease, 'AnkiConnect');
+                  }
+                  state.lastReviewId = newRevs[newRevs.length - 1].id;
+                  saveState();
+                }
+              }
+            } catch(e) {}
+          } else if (this.lastReviewedCount === -1 && todayCount > 0) {
+            // First time load: init lastReviewId
+            try {
+              const cards = await this.call('findCards', { query: 'rated:1' });
+              if (cards && cards.length > 0) {
+                const revMap = await this.call('getReviewsOfCards', { cards: cards.slice(-50) });
+                let maxId = state.lastReviewId || 0;
+                for (const cid in revMap) {
+                  const arr = revMap[cid];
+                  if (Array.isArray(arr)) {
+                    for (const r of arr) if (r.id > maxId) maxId = r.id;
+                  }
+                }
+                state.lastReviewId = maxId;
+                saveState();
+              }
+            } catch(e) {}
+          }
+          this.lastReviewedCount = todayCount;
+
+        } catch(e) {
+          this.connected = false;
+          document.getElementById('ankiStatusDot').className = 'inline-block w-1.5 h-1.5 rounded-full bg-rose-500';
+          document.getElementById('ankiStatusText').textContent = 'Chưa mở Anki (Dùng nút ảo để chơi)';
+        }
+      }
+    };
+
+    /* ====================================================================
+       13. UI RENDERER
+       ==================================================================== */
+    function renderUI() {
+      // Wallet
+      document.getElementById('runGold').textContent = state.run.gold;
+      document.getElementById('metaInsight').textContent = state.meta.insight;
+      document.getElementById('topFloorBadge').textContent = `${state.run.floor} / 3`;
+
+      // Map Info
+      document.getElementById('currentFloorName').textContent = `Tầng ${state.run.floor}: ${
+        state.run.floor === 1 ? 'Khu Hầm Ngầm Nhiễm Khuẩn' :
+        state.run.floor === 2 ? 'Vực Sâu Chuyển Hóa & Nội Tiết' : 'Điện Thờ Hồi Sức Nguy Kịch (ICU)'
+      }`;
+      document.getElementById('currentRoomIndexText').textContent = `${state.run.roomIndex} / ${state.run.totalRooms}`;
+
+      // Render Map Nodes
+      const mapBox = document.getElementById('dungeonMapContainer');
+      mapBox.innerHTML = '';
+      for (let i = 1; i <= state.run.totalRooms; i++) {
+        const isCurrent = (i === state.run.roomIndex);
+        const isPassed = (i < state.run.roomIndex);
+        const node = document.createElement('div');
+        node.className = `flex items-center gap-1.5 px-3 py-1 rounded-xl font-mono text-xs font-bold border transition ${
+          isCurrent ? 'bg-red-950 text-red-300 border-red-600 shadow-md shadow-red-900/50 scale-105 ring-2 ring-red-500/40' :
+          isPassed ? 'bg-gothic-800 text-slate-500 border-slate-700 opacity-60' :
+          'bg-gothic-850 text-slate-400 border-slate-800'
+        }`;
+
+        let icon = '⚔️';
+        let label = `P${i}`;
+        if (i === state.run.totalRooms) { icon = '👑'; label = 'BOSS'; }
+        else if (i === 3) { icon = '💀'; label = 'ELITE'; }
+
+        node.innerHTML = `<span>${icon}</span> <span>${label}</span>`;
+        mapBox.appendChild(node);
+      }
+
+      // Battle HUD
+      const b = state.battle;
+      if (b.monster) {
+        document.getElementById('monsterAvatar').textContent = b.monster.icon;
+        document.getElementById('monsterName').textContent = b.monster.name;
+        document.getElementById('monsterTraitBadge').textContent = b.monster.trait;
+        document.getElementById('monsterHpText').textContent = `${b.currentHp} / ${b.maxHp} HP`;
+        const mPct = Math.max(0, Math.min(100, Math.round((b.currentHp / b.maxHp) * 100)));
+        document.getElementById('monsterHpBar').style.width = `${mPct}%`;
+      }
+
+      // Player Stats
+      document.getElementById('playerHpText').textContent = `${state.run.hp} / ${state.run.maxHp} HP`;
+      const pPct = Math.max(0, Math.min(100, Math.round((state.run.hp / state.run.maxHp) * 100)));
+      document.getElementById('playerHpBar').style.width = `${pPct}%`;
+
+      document.getElementById('playerAtkText').textContent = `${getPlayerTotalAtk()} ATK`;
+      document.getElementById('playerShieldText').textContent = `${state.run.shields} 🛡️`;
+      document.getElementById('playerManaText').textContent = `${state.run.mana}/${state.run.maxMana} ⚡`;
+      document.getElementById('playerComboText').textContent = `${state.run.combo} 🔥`;
+
+      // Render Item Belt
+      const belt = document.getElementById('itemBeltSlots');
+      belt.innerHTML = '';
+      for (let s = 0; s < 3; s++) {
+        const item = state.run.inventory[s];
+        const slot = document.createElement('button');
+        if (item) {
+          slot.className = 'p-1.5 rounded-lg bg-gothic-900 border border-slate-700 hover:border-amber-400 text-left transition flex items-center gap-1.5';
+          slot.title = `${item.name}: ${item.desc} (Bấm dùng ngay)`;
+          slot.innerHTML = `
+            <span class="text-base">${item.icon}</span>
+            <div class="leading-none overflow-hidden">
+              <div class="text-[10px] font-bold text-slate-200 truncate">${item.name}</div>
+              <div class="text-[8px] text-amber-400 font-mono">DÙNG</div>
+            </div>
+          `;
+          slot.onclick = () => useItem(s);
+        } else {
+          slot.className = 'p-1.5 rounded-lg bg-gothic-950 border border-dashed border-slate-800 text-center text-slate-600 text-[10px] font-mono cursor-not-allowed';
+          slot.textContent = `[Trống]`;
+        }
+        belt.appendChild(slot);
+      }
+
+      // Render Relics Belt
+      const rBelt = document.getElementById('relicsBeltContainer');
+      rBelt.innerHTML = '';
+      document.getElementById('relicCountBadge').textContent = `${state.run.relics.length} món`;
+
+      if (state.run.relics.length > 0) {
+        state.run.relics.forEach(rid => {
+          const r = RELICS_MASTER_DB.find(x => x.id === rid);
+          if (r) {
+            const badge = document.createElement('div');
+            badge.className = `p-1.5 rounded-lg bg-gothic-900 border text-base cursor-help transition transform hover:scale-110 glow-${r.rarity}`;
+            badge.textContent = r.icon;
+            badge.title = `${r.name} (${r.rarity.toUpperCase()}): ${r.desc}`;
+            rBelt.appendChild(badge);
+          }
+        });
+      } else {
+        rBelt.innerHTML = '<span class="text-[11px] text-slate-600 italic">Chưa có cổ vật nào...</span>';
+      }
+    }
+
+    /* ====================================================================
+       14. EVENT LISTENERS
+       ==================================================================== */
+    document.addEventListener('DOMContentLoaded', () => {
+      loadState();
+      if (!state.run.active) startNewRun();
+      renderUI();
+
+      // Sound unlock on first click
+      document.addEventListener('click', () => { DungeonSound.init(); }, { once: true });
+
+      // Simulation combat buttons
+      document.querySelectorAll('.sim-attack-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          handleCardReview(parseInt(btn.dataset.ease), 'Thử Nghiệm');
+        });
+      });
+
+      // Sound toggle
+      document.getElementById('btnSoundToggle').addEventListener('click', () => {
+        DungeonSound.enabled = !DungeonSound.enabled;
+        document.getElementById('btnSoundToggle').textContent = DungeonSound.enabled ? '🔊' : '🔇';
+      });
+
+      // Sanctuary Modal
+      document.getElementById('btnOpenSanctuary').addEventListener('click', () => {
+        renderSanctuary();
+        document.getElementById('sanctuaryModal').classList.remove('hidden');
+      });
+      document.getElementById('btnCloseSanctuary').addEventListener('click', () => {
+        document.getElementById('sanctuaryModal').classList.add('hidden');
+      });
+
+      // Advance Room Button
+      document.getElementById('btnAdvanceToNextRoom').addEventListener('click', closeLootAndAdvance);
+
+      // Clear Battle Log
+      document.getElementById('btnClearBattleLog').addEventListener('click', () => {
+        document.getElementById('battleLogContainer').innerHTML = '<div class="text-slate-500 italic">Đã xóa nhật ký.</div>';
+      });
+
+      // Start Polling AnkiConnect
+      Anki.checkConnection();
+      setInterval(() => { Anki.checkConnection(); }, 1200);
+    });
+  </script>
+</body>
+</html>
