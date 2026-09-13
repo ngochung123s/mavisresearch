@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AnkiMed — The ER Shift & Campus Citadel V2.3</title>
+  <title>AnkiMed — The ER Shift & Campus Citadel V2.3.1</title>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -153,7 +153,7 @@
       <div>
         <h1 class="text-xs sm:text-sm font-bold tracking-wide flex items-center gap-1.5 text-white">
           <span>ANKIMED</span>
-          <span class="text-[9px] uppercase font-mono px-1 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800/60 font-semibold">V2.3 Flawless</span>
+          <span class="text-[9px] uppercase font-mono px-1 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800/60 font-semibold">V2.3.1</span>
         </h1>
         <p class="text-[10px] text-slate-400 font-mono flex items-center gap-1">
           <span id="ankiStatusDot" class="inline-block w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
@@ -182,12 +182,11 @@
         </div>
       </div>
 
-      <!-- On-Call Shields Counter -->
-      <div class="bg-slate-800/90 border border-indigo-800/60 rounded-lg px-2 py-1 flex items-center space-x-1" title="Khiên Trực Gác: Tự động bảo vệ chuỗi ngày học khi đi trực 24h">
-        <span class="text-sm">🛡️</span>
-        <div>
-          <div class="text-[9px] text-indigo-300 font-mono leading-none">KHIÊN</div>
-          <div id="walletShields" class="text-xs font-bold font-mono text-indigo-300">1</div>
+      <!-- Streak & On-Call Shields Counter -->
+      <div class="bg-slate-800/90 border border-indigo-800/60 rounded-lg px-2 py-1 flex items-center space-x-1" title="Chuỗi ngày học & Khiên trực gác (Cứ 3 ngày học nhận thêm 1 Khiên)">
+        <div class="text-right font-mono leading-tight">
+          <div class="text-[9px] text-amber-400">🔥 <span id="headerStreakDays">1</span> ngày</div>
+          <div class="text-[10px] text-indigo-300 font-bold">🛡️ <span id="headerShields">1</span> khiên</div>
         </div>
       </div>
 
@@ -246,7 +245,6 @@
           <div class="absolute top-8 left-32 text-slate-400 text-[7px]">✦</div>
           <div class="absolute top-5 right-28 text-slate-400 text-[8px]">✦</div>
           <div class="absolute top-10 right-48 text-slate-400 text-[6px]">✦</div>
-          <!-- Horizon Glacier Wall -->
           <div class="absolute bottom-12 inset-x-0 h-16 bg-gradient-to-t from-cyan-950/20 to-transparent pointer-events-none border-b border-cyan-900/10"></div>
         </div>
 
@@ -258,7 +256,6 @@
         <!-- Street Level & Animated Ambulance -->
         <div class="relative z-10 h-7 bg-slate-800/90 border-t border-slate-700/80 rounded-lg flex items-center px-2 overflow-hidden">
           <div class="w-full border-b border-dashed border-amber-400/40 absolute top-1/2"></div>
-          <!-- Ambulance appears when station is built -->
           <div id="sceneAmbulance" class="hidden absolute text-base animate-ambulance" title="Xe cấp cứu 115 tuần tra">
             🚑
           </div>
@@ -269,7 +266,7 @@
         </div>
       </div>
 
-      <!-- Pending Chest Quick Banner (If user left shift without opening) -->
+      <!-- Pending Chest Quick Banner -->
       <div id="pendingChestBanner" class="hidden mt-2 p-2 rounded-xl bg-gradient-to-r from-amber-950/80 to-slate-900 border border-amber-500/70 text-amber-200 text-xs flex items-center justify-between cursor-pointer hover:border-amber-400 transition animate-subtle">
         <div class="flex items-center gap-2">
           <span class="text-xl animate-chest">🎁</span>
@@ -455,8 +452,8 @@
         <!-- Simulation Buttons (With Demo Mode Toggle) -->
         <div class="bg-slate-950/70 border border-slate-800/80 rounded-xl p-2 flex items-center justify-between text-xs">
           <div class="flex items-center gap-1.5">
-            <span class="text-slate-400 font-mono text-[10px]">Test ảo:</span>
-            <button id="btnToggleDemo" class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700" title="Chế độ Thử nghiệm: Thẻ test không làm sai lệch số liệu Anki thật">
+            <span class="text-slate-400 font-mono text-[10px]">Nút ảo:</span>
+            <button id="btnToggleDemo" class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700" title="Bấm để bật/tắt chế độ test">
               Chế độ: TEST
             </button>
           </div>
@@ -601,7 +598,7 @@
         </label>
       </div>
       <div class="pt-2 border-t border-slate-800 flex justify-between items-center text-[10px] text-slate-500 font-mono">
-        <span>AnkiMed V2.3 (Flawless)</span>
+        <span>AnkiMed V2.3.1 (Battle Tested)</span>
         <button id="btnPromptReset" class="text-rose-400 hover:underline">Đặt lại từ đầu</button>
       </div>
     </div>
@@ -634,7 +631,6 @@
           const gain = this.ctx.createGain();
           osc.type = type;
           osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
-          // Slightly lower volume in night mode
           const finalGain = document.body.classList.contains('night-mode') ? gainVal * 0.6 : gainVal;
           gain.gain.setValueAtTime(finalGain, this.ctx.currentTime);
           gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + duration);
@@ -845,7 +841,7 @@
       { id: 'r1', name: 'Ống nghe Littmann Master Vàng', icon: '🩺', desc: '+5% Gạch vĩnh viễn toàn viện' },
       { id: 'r2', name: 'Đèn soi đáy mắt Titan', icon: '🔦', desc: '+10% Insight vĩnh viễn' },
       { id: 'r3', name: 'Bệnh án Điện tử Thông minh', icon: '📱', desc: 'Checkpoint nhận thêm +1 Gạch' },
-      { id: 'r4', name: 'Khiên Trực Đêm Kiên Cường', icon: '🌙', desc: 'Giảm 30% tác động của bùa hại, nới lỏng thời gian' }
+      { id: 'r4', name: 'Khiên Trực Đêm Kiên Cường', icon: '🌙', desc: 'Giảm 30% tác động của bùa hại, nới lỏng thời gian lên 60s' }
     ];
 
     const BUILDINGS_DB = [
@@ -862,11 +858,19 @@
     ];
 
     /* ====================================================================
-       5. STATE MANAGEMENT (V2.3 - FULLY PERSISTED & FLAWLESS)
+       5. STATE MANAGEMENT (V2.3.1 - RESILIENT, SAFE MERGE & WEEKLY RESET)
        ==================================================================== */
-    const STORAGE_KEY = 'ANKIMED_STATE_V2_3';
+    const STORAGE_KEY = 'ANKIMED_STATE_V2_3_1';
 
-    let state = {
+    function getWeekKey() {
+      const d = new Date();
+      const day = (d.getDay() + 6) % 7; // Monday = 0
+      const monday = new Date(d);
+      monday.setDate(d.getDate() - day);
+      return monday.toDateString();
+    }
+
+    const DEFAULT_STATE = {
       bricks: 0.0,
       insight: 0,
       totalCardsReviewed: 0,
@@ -883,6 +887,7 @@
         claimed: false
       },
       weekly: {
+        week: getWeekKey(),
         target: 150,
         progress: 0,
         claimed: false
@@ -896,18 +901,23 @@
       history: []
     };
 
+    let state = Object.assign({}, DEFAULT_STATE);
+
     function loadState() {
       try {
         const raw = localStorage.getItem(STORAGE_KEY);
-        if (raw) state = Object.assign(state, JSON.parse(raw));
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          state = Object.assign({}, DEFAULT_STATE, parsed);
+        }
       } catch(e) {}
 
-      // Apply saved Sound & Night Mode state
       Sound.enabled = state.soundEnabled !== false;
       document.getElementById('btnSoundToggle').textContent = Sound.enabled ? '🔊' : '🔇';
       if (state.nightShift) document.body.classList.add('night-mode');
 
       checkDailyReset();
+      checkWeeklyReset();
     }
 
     function saveState() {
@@ -915,7 +925,6 @@
       renderUI();
     }
 
-    // Immediately saves changes to streak and shields
     function checkDailyReset() {
       const today = new Date().toDateString();
       let changed = false;
@@ -953,8 +962,27 @@
       }
     }
 
+    function checkWeeklyReset() {
+      const wKey = getWeekKey();
+      let changed = false;
+
+      if (!state.weekly || state.weekly.week !== wKey) {
+        state.weekly = {
+          week: wKey,
+          target: 150,
+          progress: 0,
+          claimed: false
+        };
+        changed = true;
+      }
+
+      if (changed) {
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e) {}
+      }
+    }
+
     /* ====================================================================
-       6. ROBUST ANKICONNECT CLIENT (WITH GLOBAL REVIEW ID TRACKING)
+       6. ROBUST ANKICONNECT CLIENT (SLICED-300 REVIEW ID TRACKING)
        ==================================================================== */
     const Anki = {
       url: 'http://127.0.0.1:8765',
@@ -995,13 +1023,13 @@
           const todayCount = await this.call('getNumCardsReviewedToday');
           document.getElementById('todayReviewedBadge').textContent = `Hôm nay: ${todayCount} thẻ`;
 
-          // Track individual reviews via Review IDs across full rated:1 collection
+          // Track reviews via Review IDs querying up to 300 cards
           if (this.lastReviewedCount >= 0 && todayCount > this.lastReviewedCount) {
             try {
               const cards = await this.call('findCards', { query: 'rated:1' });
               if (cards && cards.length > 0) {
-                // Query up to 100 cards for exact precision
-                const revMap = await this.call('getReviewsOfCards', { cards: cards.slice(-100) });
+                const queryCards = cards.length > 300 ? cards.slice(-300) : cards;
+                const revMap = await this.call('getReviewsOfCards', { cards: queryCards });
                 const newRevs = [];
                 for (const cid in revMap) {
                   const arr = revMap[cid];
@@ -1031,11 +1059,12 @@
               for (let i = 0; i < delta; i++) handleCardReview(3, 'AnkiConnect');
             }
           } else if (this.lastReviewedCount === -1 && todayCount > 0) {
-            // Full initialization of max lastReviewId on first load
+            // First load initialization
             try {
               const cards = await this.call('findCards', { query: 'rated:1' });
               if (cards && cards.length > 0) {
-                const revMap = await this.call('getReviewsOfCards', { cards: cards.slice(-100) });
+                const queryCards = cards.length > 300 ? cards.slice(-300) : cards;
+                const revMap = await this.call('getReviewsOfCards', { cards: queryCards });
                 let maxId = state.lastReviewId || 0;
                 for (const cid in revMap) {
                   const arr = revMap[cid];
@@ -1141,7 +1170,7 @@
 
         container.appendChild(card);
 
-        // Auto flip after longer delay (1800ms) to preserve suspense
+        // Auto flip after 1800ms so user can enjoy the click suspense
         setTimeout(() => {
           if (!card.classList.contains('flipped')) {
             card.classList.add('flipped');
@@ -1204,37 +1233,42 @@
     }
 
     function handleCardReview(ease, source = 'Manual') {
-      const isTestMode = (source === 'Thử Nghiệm');
+      // Isolate demo mode strictly!
+      if (source === 'Thử Nghiệm' && !state.demoMode) {
+        showToast('🧪 Chế độ THẬT đang bật: Nút test không cộng tiến trình thật.', 'info');
+        return;
+      }
 
-      // Update Daily Quest Progress (Real reviews or test mode if allowed)
-      if (!isTestMode || state.demoMode) {
-        state.totalCardsReviewed++;
-        if (state.daily && !state.daily.claimed) {
-          state.daily.progress++;
-          if (state.daily.progress >= state.daily.target) {
-            state.daily.claimed = true;
-            state.insight += 3;
-            showToast(`🎯 Hoàn thành nhiệm vụ ngày (${state.daily.target} thẻ)! Nhận +3 Insight`, 'success');
-            FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎯', '✨', '💡'], 20);
-          }
-        }
-        if (state.weekly && !state.weekly.claimed) {
-          state.weekly.progress++;
-          if (state.weekly.progress >= state.weekly.target) {
-            state.weekly.claimed = true;
-            state.insight += 10;
-            state.shields += 1;
-            showToast('🏆 Hoàn thành mục tiêu tuần 150 thẻ! Nhận +10 Insight & +1 Khiên!', 'success');
-          }
-        }
+      state.totalCardsReviewed++;
 
-        // Milestone burndown celebrations
-        const milestones = [100, 500, 1000, 2500, 5000, 10000];
-        if (milestones.includes(state.totalCardsReviewed)) {
-          showToast(`🏆 CỘT MỐC ĐẠT ĐƯỢC: ${state.totalCardsReviewed} THẺ ĐÃ GIẢI CỨU!`, 'success');
-          Sound.fanfare();
-          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎆', '🎇', '✨', '🏆'], 40);
+      // Daily Quest Progress
+      if (state.daily && !state.daily.claimed) {
+        state.daily.progress++;
+        if (state.daily.progress >= state.daily.target) {
+          state.daily.claimed = true;
+          state.insight += 3;
+          showToast(`🎯 Hoàn thành nhiệm vụ ngày (${state.daily.target} thẻ)! Nhận +3 Insight`, 'success');
+          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎯', '✨', '💡'], 20);
         }
+      }
+
+      // Weekly Quest Progress
+      if (state.weekly && !state.weekly.claimed) {
+        state.weekly.progress++;
+        if (state.weekly.progress >= state.weekly.target) {
+          state.weekly.claimed = true;
+          state.insight += 10;
+          state.shields += 1;
+          showToast('🏆 Hoàn thành mục tiêu tuần 150 thẻ! Nhận +10 Insight & +1 Khiên!', 'success');
+        }
+      }
+
+      // Milestone burndown celebrations
+      const milestones = [100, 500, 1000, 2500, 5000, 10000];
+      if (milestones.includes(state.totalCardsReviewed)) {
+        showToast(`🏆 CỘT MỐC ĐẠT ĐƯỢC: ${state.totalCardsReviewed} THẺ ĐÃ GIẢI CỨU!`, 'success');
+        Sound.fanfare();
+        FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎆', '🎇', '✨', '🏆'], 40);
       }
 
       // Baseline rewards if no active shift
@@ -1445,7 +1479,6 @@
       if (state.built['build_8']) finishBonus += 2.0; // Heli pad perk
 
       let insightBonus = 3;
-      // Debuff d2 Reward: +3 Insight bonus properly added!
       if (s.debuffs.some(d => d.id === 'd2')) {
         insightBonus += 3;
         showToast('📑 Hồ sơ bệnh án dày: Nhận thêm +3 Insight!', 'info');
@@ -1608,11 +1641,21 @@
       }
     }
 
+    function updateDemoButton() {
+      const btn = document.getElementById('btnToggleDemo');
+      if (!btn) return;
+      btn.textContent = state.demoMode ? 'Chế độ: TEST' : 'Chế độ: THẬT';
+      btn.className = state.demoMode ?
+        'text-[9px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700' :
+        'text-[9px] font-mono px-1.5 py-0.5 rounded bg-emerald-950 text-emerald-300 border border-emerald-700 font-bold';
+    }
+
     function renderUI() {
       // Wallet
       document.getElementById('walletBricks').textContent = state.bricks.toFixed(1);
       document.getElementById('walletInsight').textContent = state.insight;
-      document.getElementById('walletShields').textContent = state.shields || 0;
+      document.getElementById('headerShields').textContent = state.shields || 0;
+      document.getElementById('headerStreakDays').textContent = state.streakDays || 1;
 
       // Hospital Level
       const builtCount = Object.keys(state.built).length;
@@ -1655,6 +1698,7 @@
       }
 
       // Daily Quest
+      document.getElementById('dailyQuestText').textContent = `Nhiệm vụ ngày (${state.daily.target} thẻ)`;
       document.getElementById('dailyQuestStatus').textContent = state.daily.claimed ? '✓ XONG (+3 💡)' : `(${state.daily.progress}/${state.daily.target})`;
       document.getElementById('dailyQuestStatus').className = state.daily.claimed ? 'text-[9px] font-bold text-emerald-400' : 'text-[9px] font-bold text-amber-400';
 
@@ -1749,6 +1793,7 @@
 
       // Render Store Grid
       renderBuildingsGrid();
+      updateDemoButton();
     }
 
     function renderCityScene() {
@@ -1839,6 +1884,7 @@
     document.addEventListener('DOMContentLoaded', () => {
       loadState();
       renderUI();
+      updateDemoButton();
 
       // AudioContext Unlock on First User Gesture
       document.addEventListener('click', () => {
@@ -1909,11 +1955,8 @@
       // Demo Mode Toggle
       document.getElementById('btnToggleDemo').addEventListener('click', () => {
         state.demoMode = !state.demoMode;
-        document.getElementById('btnToggleDemo').textContent = state.demoMode ? 'Chế độ: TEST' : 'Chế độ: THẬT';
-        document.getElementById('btnToggleDemo').className = state.demoMode ?
-          'text-[9px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700' :
-          'text-[9px] font-mono px-1.5 py-0.5 rounded bg-emerald-950 text-emerald-300 border border-emerald-700 font-bold';
-        showToast(`Đã chuyển sang ${state.demoMode ? 'Chế độ Test (mô phỏng)' : 'Chế độ Học Thật'}`, 'info');
+        updateDemoButton();
+        showToast(`Đã chuyển sang ${state.demoMode ? 'Chế độ Test (mô phỏng)' : 'Chế độ Học Thật (chống farm ảo)'}`, 'info');
         saveState();
       });
 
@@ -1959,7 +2002,7 @@
         a.remove();
       });
 
-      // Import JSON
+      // Safe Import JSON with Default State Merge
       document.getElementById('importFileInput').addEventListener('change', (e) => {
         const file = e.target.files[0];
         if (!file) return;
@@ -1967,10 +2010,12 @@
         reader.onload = (event) => {
           try {
             const imported = JSON.parse(event.target.result);
-            if (imported.bricks !== undefined) {
-              state = imported;
+            if (imported && imported.bricks !== undefined) {
+              state = Object.assign({}, DEFAULT_STATE, state, imported);
+              checkDailyReset();
+              checkWeeklyReset();
               saveState();
-              showToast('Khôi phục dữ liệu thành công!', 'success');
+              showToast('Khôi phục dữ liệu an toàn thành công!', 'success');
               modal.classList.add('hidden');
             }
           } catch(err) { showToast('File JSON không hợp lệ!', 'error'); }
