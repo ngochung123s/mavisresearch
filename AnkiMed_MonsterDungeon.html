@@ -476,6 +476,13 @@ Bản vá toàn diện theo đánh giá của Qwen:
       <div id="skillTreeContainer" class="space-y-2 max-h-72 overflow-y-auto pr-1 text-xs">
         <!-- Upgrades injected via JS -->
       </div>
+
+      <!-- Action Button to Start New Run explicitly -->
+      <div class="pt-2 border-t border-slate-800">
+        <button id="btnStartRunFromSanctuary" onclick="startRunFromSanctuary()" class="w-full py-2.5 rounded-xl bg-gradient-to-r from-red-700 to-rose-600 hover:from-red-600 hover:to-rose-500 text-white font-mono font-bold text-xs tracking-wider transition shadow-lg shadow-red-900/50 flex items-center justify-center gap-2">
+          <span>⚔️ BẮT ĐẦU CA TRỰC HẦM NGỤC MỚI</span>
+        </button>
+      </div>
     </div>
   </div>
 
@@ -719,9 +726,9 @@ Bản vá toàn diện theo đánh giá của Qwen:
     /* ====================================================================
        5. GAME STATE & PERMANENT METAPROGRESSION
        ==================================================================== */
-    const STORAGE_KEY = 'ANKIMED_DUNGEON_V1_1';
+    const STORAGE_KEY = 'ANKIMED_DUNGEON_V1_2';
 
-    let state = {
+    const DEFAULT_STATE = {
       meta: {
         insight: 0,
         totalKills: 0,
@@ -737,6 +744,8 @@ Bản vá toàn diện theo đánh giá của Qwen:
       run: {
         active: false,
         victory: false,
+        phase: 'combat', // 'combat' | 'loot' | 'special' | 'victory' | 'dead'
+        pendingNewFloor: false,
         floor: 1,
         roomIndex: 1,
         totalRooms: 5,
@@ -744,15 +753,24 @@ Bản vá toàn diện theo đánh giá của Qwen:
         hp: 100,
         maxHp: 100,
         baseAtk: 10,
+        bonusAtk: 0,
         shields: 0,
         mana: 0,
         maxMana: 3,
         combo: 0,
         poisonTurns: 0,
+        againUsedThisRoom: false,
+        organSealStacks: 0,
         relics: [],
         inventory: [],
         tempAtkBuff: 0,
-        tempDmgReduceTurns: 0
+        tempAtkBuffTurns: 0,
+        tempDmgReduceTurns: 0,
+        pendingLootChoices: null,
+        pendingSpecial: null,
+        victoryStats: null,
+        reviewBuffer: 0,
+        shopDiscount: 0
       },
       battle: {
         monster: null,
@@ -760,20 +778,34 @@ Bản vá toàn diện theo đánh giá của Qwen:
         maxHp: 0,
         isElite: false,
         isBoss: false,
+        bossPhase2: false,
         isStunned: false,
         turnCount: 0
       },
       lastReviewId: 0
     };
 
+    let state = Object.assign({}, DEFAULT_STATE);
+
     function loadState() {
       try {
         const raw = localStorage.getItem(STORAGE_KEY);
         if (raw) {
           const parsed = JSON.parse(raw);
-          state = Object.assign(state, parsed);
+          state = Object.assign({}, DEFAULT_STATE, parsed);
+          state.meta = Object.assign({}, DEFAULT_STATE.meta, parsed.meta || {});
+          state.meta.upgrades = Object.assign({}, DEFAULT_STATE.meta.upgrades, (parsed.meta && parsed.meta.upgrades) || {});
+          state.run = Object.assign({}, DEFAULT_STATE.run, parsed.run || {});
+          state.battle = Object.assign({}, DEFAULT_STATE.battle, parsed.battle || {});
         }
       } catch(e) {}
+    }
+
+    function addInsight(baseAmt) {
+      const mult = 1 + (state.meta.upgrades.insightBoost || 0) * 0.20;
+      const finalAdd = Math.max(1, Math.round(baseAmt * mult));
+      state.meta.insight += finalAdd;
+      return finalAdd;
     }
 
     function saveState() {
@@ -876,6 +908,23 @@ Bản vá toàn diện theo đánh giá của Qwen:
     function spawnRoom() {
       const rIdx = state.run.roomIndex;
 
+      // Update highest floor
+      if (state.run.floor > state.meta.highestFloor) {
+        state.meta.highestFloor = state.run.floor;
+      }
+
+      state.run.phase = 'combat';
+      state.run.poisonTurns = 0; // Reset poison across rooms
+      state.run.organSealStacks = 0; // Reset boss organ seals
+      state.run.againUsedThisRoom = false; // Reset r42 bùa tha thứ
+      state.run.pendingLootChoices = null;
+      state.run.pendingSpecial = null;
+
+      // Combo reset across rooms UNLESS r38 (Tâm Thế Thiền Định) is owned!
+      if (!relicFlag('keepComboAcrossRooms')) {
+        state.run.combo = 0;
+      }
+
       // Special Room at Room 4: Rest Site ⛺ / Merchant Shop 🏪 / Shrine ⚖️
       if (rIdx === 4) {
         openSpecialRoom();
@@ -920,11 +969,18 @@ Bản vá toàn diện theo đánh giá của Qwen:
         turnCount: 0
       };
 
-      state.run.phase = 'combat';
-      state.run.poisonTurns = 0; // Reset poison across rooms
       state.run.tempAtkBuff = 0;
       state.run.shields = 0;
       if (relicFlag('blockFirstHit')) state.run.shields += 1;
+
+      // Apply buffered pre-emptive strike if any
+      if (state.run.reviewBuffer > 0) {
+        const bonusDmg = state.run.reviewBuffer * 8;
+        state.battle.currentHp = Math.max(1, state.battle.currentHp - bonusDmg);
+        logBattle(`⚡ Đòn phủ đầu (tích lũy từ ${state.run.reviewBuffer} thẻ ôn trước): Gây ${bonusDmg} DMG!`);
+        showToast(`⚡ Đòn phủ đầu: Gây ${bonusDmg} DMG từ ${state.run.reviewBuffer} thẻ ôn tập!`, 'success');
+        state.run.reviewBuffer = 0;
+      }
 
       renderUI();
       logBattle(`🚪 Bước vào Phòng #${rIdx}: Đối mặt với [${monsterTemplate.name}] (${monsterTemplate.trait})!`);
@@ -935,6 +991,18 @@ Bản vá toàn diện theo đánh giá của Qwen:
        ==================================================================== */
     function handleCardReview(ease, source = 'Anki') {
       if (!state.run.active) return;
+
+      // If user reviews cards while in Loot/Special room or Victory/Death:
+      if (state.run.phase !== 'combat') {
+        state.run.reviewBuffer = (state.run.reviewBuffer || 0) + 1;
+        const extraGold = (ease === 4 ? 3 : ease === 3 ? 2 : 1);
+        state.run.gold += extraGold;
+        spawnDamageFloat(`+${extraGold} 🪙 Tích Lũy!`, 'text-amber-400');
+        showToast(`📜 Ôn tập ngoài trận: Tích lũy đòn phủ đầu & +${extraGold} Vàng!`, 'info');
+        saveState();
+        return;
+      }
+
       const b = state.battle;
       if (!b.monster || b.currentHp <= 0) return;
 
@@ -955,13 +1023,16 @@ Bản vá toàn diện theo đánh giá của Qwen:
         // AGAIN: Monster strikes player!
         handleMonsterAttack();
 
-        // Relic r42: first again keeps combo
-        if (!relicFlag('firstAgainKeepCombo')) {
+        // Relic r42: first again each room keeps combo!
+        if (relicFlag('firstAgainKeepCombo') && !state.run.againUsedThisRoom) {
+          state.run.againUsedThisRoom = true;
+          showToast('🕊️ Bùa Tha Thứ: Lần Again đầu tiên giữ vững combo!', 'info');
+        } else {
           state.run.combo = 0;
         }
 
         let insightAdd = 1 + relicSum('againInsightBonus');
-        state.meta.insight += insightAdd;
+        addInsight(insightAdd);
 
         // Relic r43: Again damages monster back
         if (relicSum('againDmg') > 0) {
@@ -1261,10 +1332,24 @@ Bản vá toàn diện theo đánh giá của Qwen:
       const container = document.getElementById('eventChoicesContainer');
       container.innerHTML = '';
 
-      // Randomize between Rest Site (50%), Merchant (30%), Shrine (20%)
-      const roll = Math.random();
+      if (!state.run.pendingSpecial) {
+        const roll = Math.random();
+        const eventType = roll < 0.5 ? 'rest' : (roll < 0.8 ? 'shop' : 'shrine');
+        const unowned = RELICS_MASTER_DB.filter(r => !state.run.relics.includes(r.id) && r.rarity !== 'cursed');
+        const curses = RELICS_MASTER_DB.filter(r => r.rarity === 'cursed');
 
-      if (roll < 0.5) {
+        state.run.pendingSpecial = {
+          type: eventType,
+          shopRelicId: (unowned[Math.floor(Math.random() * unowned.length)] || RELICS_MASTER_DB[0]).id,
+          curseRelicId: (curses[Math.floor(Math.random() * curses.length)] || RELICS_MASTER_DB[64]).id
+        };
+        saveState();
+      }
+
+      const sp = state.run.pendingSpecial;
+      const discountMult = (state.run.shopDiscount > 0) ? (1 - state.run.shopDiscount / 100) : 1.0;
+
+      if (sp.type === 'rest') {
         // ⛺ REST SITE
         document.getElementById('eventIcon').textContent = '⛺';
         document.getElementById('eventTitle').textContent = 'Suối Thánh Hồi Sức (Rest Site)';
@@ -1317,13 +1402,18 @@ Bản vá toàn diện theo đánh giá của Qwen:
         container.appendChild(btnHeal);
         container.appendChild(btnForge);
 
-      } else if (roll < 0.8) {
+      } else if (sp.type === 'shop') {
         // 🏪 MERCHANT SHOP
         document.getElementById('eventIcon').textContent = '🏪';
         document.getElementById('eventTitle').textContent = 'Chợ Đen Y Tế (Merchant Shop)';
-        document.getElementById('eventDescription').textContent = `Thương nhân hắc ám xuất hiện! Bạn có: ${state.run.gold} 🪙`;
+        const discountText = state.run.shopDiscount > 0 ? ` (Đang giảm ${state.run.shopDiscount}%)` : '';
+        document.getElementById('eventDescription').textContent = `Thương nhân hắc ám xuất hiện!${discountText} Bạn có: ${state.run.gold} 🪙`;
 
-        // Item 1: Potion (25 Gold)
+        const potionCost = Math.round(25 * discountMult);
+        const relicCost = Math.round(55 * discountMult);
+        const shopRelic = getRelic(sp.shopRelicId);
+
+        // Item 1: Potion
         const btnItem = document.createElement('button');
         btnItem.className = 'w-full p-2.5 rounded-2xl bg-gothic-850 hover:border-cyan-500 border border-slate-700 text-left transition flex items-center justify-between';
         btnItem.innerHTML = `
@@ -1331,14 +1421,14 @@ Bản vá toàn diện theo đánh giá của Qwen:
             <span class="text-xl">💖</span>
             <div>
               <div class="font-bold text-cyan-300 text-xs">Bình Máu Lớn (50 HP)</div>
-              <div class="text-[9px] text-slate-400">Giá: 25 Vàng</div>
+              <div class="text-[9px] text-slate-400">Giá: ${potionCost} Vàng</div>
             </div>
           </div>
-          <span class="text-xs font-mono font-bold text-cyan-400">25 🪙</span>
+          <span class="text-xs font-mono font-bold text-cyan-400">${potionCost} 🪙</span>
         `;
         btnItem.onclick = () => {
-          if (state.run.gold >= 25) {
-            state.run.gold -= 25;
+          if (state.run.gold >= potionCost) {
+            state.run.gold -= potionCost;
             state.run.inventory.push(CONSUMABLES_DB[1]);
             showToast('Đã mua Bình Máu Lớn!', 'success');
             modal.classList.add('hidden');
@@ -1348,25 +1438,22 @@ Bản vá toàn diện theo đánh giá của Qwen:
           }
         };
 
-        // Item 2: Random Relic (55 Gold)
-        const unowned = RELICS_MASTER_DB.filter(r => !state.run.relics.includes(r.id) && r.rarity !== 'cursed');
-        const shopRelic = unowned[Math.floor(Math.random() * unowned.length)];
-
+        // Item 2: Random Relic
         const btnRelic = document.createElement('button');
         btnRelic.className = 'w-full p-2.5 rounded-2xl bg-gothic-850 hover:border-amber-500 border border-slate-700 text-left transition flex items-center justify-between';
         btnRelic.innerHTML = `
           <div class="flex items-center gap-2">
             <span class="text-xl">${shopRelic ? shopRelic.icon : '🏺'}</span>
             <div>
-              <div class="font-bold text-amber-300 text-xs">${shopRelic ? shopRelic.name : 'Cổ vật ngẫu nhiên'}</div>
-              <div class="text-[9px] text-slate-400">${shopRelic ? shopRelic.desc : ''}</div>
+              <div class="font-bold text-amber-300 text-xs">${shopRelic ? shopRelic.name : 'Cổ vật hắc ám'}</div>
+              <div class="text-[9px] text-slate-400">${shopRelic ? shopRelic.desc : ''} (Giá: ${relicCost} 🪙)</div>
             </div>
           </div>
-          <span class="text-xs font-mono font-bold text-amber-400">55 🪙</span>
+          <span class="text-xs font-mono font-bold text-amber-400">${relicCost} 🪙</span>
         `;
         btnRelic.onclick = () => {
-          if (state.run.gold >= 55 && shopRelic) {
-            state.run.gold -= 55;
+          if (state.run.gold >= relicCost && shopRelic) {
+            state.run.gold -= relicCost;
             state.run.relics.push(shopRelic.id);
             recalcMaxHp();
             showToast(`Đã mua cổ vật: ${shopRelic.name}!`, 'success');
@@ -1377,7 +1464,6 @@ Bản vá toàn diện theo đánh giá của Qwen:
           }
         };
 
-        // Leave Shop
         const btnLeave = document.createElement('button');
         btnLeave.className = 'w-full py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 text-xs font-mono transition';
         btnLeave.textContent = 'Rời khỏi chợ đen ➔';
@@ -1396,10 +1482,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
         document.getElementById('eventTitle').textContent = 'Tế Đàn Lời Nguyền (Cursed Shrine)';
         document.getElementById('eventDescription').textContent = 'Một tảng đá cổ khắc máu. Bạn có dám đánh đổi tính mạng để lấy sức mạnh tối thượng?';
 
-        // Choice: Pick 1 random Cursed Relic
-        const curses = RELICS_MASTER_DB.filter(r => r.rarity === 'cursed');
-        const c = curses[Math.floor(Math.random() * curses.length)];
-
+        const c = getRelic(sp.curseRelicId) || RELICS_MASTER_DB[64];
         const btnCurse = document.createElement('button');
         btnCurse.className = 'w-full p-3 rounded-2xl bg-gothic-850 hover:bg-red-950 border border-red-800 text-left transition flex items-center justify-between';
         btnCurse.innerHTML = `
@@ -1436,6 +1519,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
     }
 
     function advanceRoomIndex() {
+      state.run.pendingSpecial = null;
       state.run.roomIndex++;
       spawnRoom();
       saveState();
@@ -1445,24 +1529,37 @@ Bản vá toàn diện theo đánh giá của Qwen:
        10. LOOT SELECTION ROOM (3 CHOICES)
        ==================================================================== */
     function openLootRoom() {
-      const container = document.getElementById('lootChoicesContainer');
-      container.innerHTML = '';
+      state.run.phase = 'loot';
 
-      const unownedRelics = RELICS_MASTER_DB.filter(r => !state.run.relics.includes(r.id) && r.rarity !== 'cursed');
-      const choices = [];
+      if (!state.run.pendingLootChoices) {
+        const unownedRelics = RELICS_MASTER_DB.filter(r => !state.run.relics.includes(r.id) && r.rarity !== 'cursed');
+        const choices = [];
 
-      // Choice 1: Relic
-      if (unownedRelics.length > 0) {
-        const r = unownedRelics[Math.floor(Math.random() * unownedRelics.length)];
-        choices.push({ type: 'relic', data: r });
+        // Choice 1: Relic
+        if (unownedRelics.length > 0) {
+          const r = unownedRelics[Math.floor(Math.random() * unownedRelics.length)];
+          choices.push({ type: 'relic', data: r });
+        }
+
+        // Choice 2: Consumable Item
+        const randomItem = CONSUMABLES_DB[Math.floor(Math.random() * CONSUMABLES_DB.length)];
+        choices.push({ type: 'item', data: randomItem });
+
+        // Choice 3: Big Gold
+        choices.push({ type: 'gold', val: 35, title: 'Hòm Vàng Hầm Ngục', icon: '💰', desc: '+35 Vàng bỏ túi' });
+
+        state.run.pendingLootChoices = choices;
+        saveState();
       }
 
-      // Choice 2: Consumable Item
-      const randomItem = CONSUMABLES_DB[Math.floor(Math.random() * CONSUMABLES_DB.length)];
-      choices.push({ type: 'item', data: randomItem });
+      renderLootChoices(state.run.pendingLootChoices);
+      document.getElementById('lootModal').classList.remove('hidden');
+    }
 
-      // Choice 3: Big Gold
-      choices.push({ type: 'gold', val: 35, title: 'Hòm Vàng Hầm Ngục', icon: '💰', desc: '+35 Vàng bỏ túi' });
+    function renderLootChoices(choices) {
+      const container = document.getElementById('lootChoicesContainer');
+      container.innerHTML = '';
+      if (!choices || !choices.length) return;
 
       choices.forEach((c) => {
         const btn = document.createElement('div');
@@ -1499,6 +1596,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
               showToast('💡 SYNERGY: Bộ Lưỡi dao Chí mạng tử thần kích hoạt!', 'success');
             }
 
+            state.run.pendingLootChoices = null;
             closeLootAndAdvance();
           };
         } else if (c.type === 'item') {
@@ -1519,6 +1617,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
             }
             state.run.inventory.push(c.data);
             showToast(`🎒 Đã nhặt vật phẩm: ${c.data.name}`, 'success');
+            state.run.pendingLootChoices = null;
             closeLootAndAdvance();
           };
         } else {
@@ -1535,19 +1634,19 @@ Bản vá toàn diện theo đánh giá của Qwen:
           btn.onclick = () => {
             state.run.gold += c.val;
             showToast(`🪙 Nhận thêm +${c.val} Vàng!`, 'success');
+            state.run.pendingLootChoices = null;
             closeLootAndAdvance();
           };
         }
 
         container.appendChild(btn);
       });
-
-      document.getElementById('lootModal').classList.remove('hidden');
     }
 
     function closeLootAndAdvance() {
       document.getElementById('lootModal').classList.add('hidden');
       state.run.phase = 'combat';
+      state.run.pendingLootChoices = null;
 
       if (state.run.pendingNewFloor) {
         state.run.pendingNewFloor = false;
@@ -1630,14 +1729,24 @@ Bản vá toàn diện theo đánh giá của Qwen:
       } else if (item.action === 'revive') {
         showToast('🔄 Cuộn Giấy Hồi Sinh: Sẽ tự động cứu bạn sống lại khi HP về 0!', 'info');
         return; // Do not consume
+      } else if (item.action === 'shop_discount') {
+        if (state.run.phase !== 'special' || !state.run.pendingSpecial || state.run.pendingSpecial.type !== 'shop') {
+          showToast('⚠️ Thẻ VIP chỉ kích hoạt được khi đang ở Chợ Đen Y Tế!', 'info');
+          return; // Do not consume
+        }
+        state.run.shopDiscount = 30;
+        showToast('🎫 Đã kích hoạt Thẻ VIP: Giảm 30% giá toàn bộ Chợ Đen!', 'success');
+        openSpecialRoom();
       } else if (item.action === 'open_chest') {
         const unowned = RELICS_MASTER_DB.filter(r => !state.run.relics.includes(r.id) && r.rarity !== 'cursed');
-        if (unowned.length > 0) {
-          const r = unowned[Math.floor(Math.random() * unowned.length)];
-          state.run.relics.push(r.id);
-          recalcMaxHp();
-          showToast(`🔑 Mở rương thành công: Nhận cổ vật ${r.name}!`, 'success');
+        if (unowned.length === 0) {
+          showToast('Bạn đã sở hữu toàn bộ cổ vật trong hầm ngục!', 'info');
+          return; // Do not consume
         }
+        const r = unowned[Math.floor(Math.random() * unowned.length)];
+        state.run.relics.push(r.id);
+        recalcMaxHp();
+        showToast(`🔑 Mở rương thành công: Nhận cổ vật ${r.name}!`, 'success');
       } else if (item.action === 'battle_reset_heal') {
         state.run.hp = state.run.maxHp;
         state.battle.currentHp = state.battle.maxHp;
@@ -1646,12 +1755,14 @@ Bản vá toàn diện theo đánh giá của Qwen:
         logBattle('⏪ Cuộn Giấy Thời Gian phát sáng: Trận đấu bắt đầu lại từ đầu!');
       } else if (item.action === 'clone_relic') {
         const clonable = state.run.relics.filter(rid => !getRelic(rid)?.fx?.lockMaxHp);
-        if (clonable.length > 0) {
-          const randomRelic = clonable[Math.floor(Math.random() * clonable.length)];
-          state.run.relics.push(randomRelic);
-          recalcMaxHp();
-          showToast(`📋 Đã nhân bản cổ vật: ${getRelic(randomRelic)?.name}!`, 'success');
+        if (clonable.length === 0) {
+          showToast('Không có cổ vật nào phù hợp để nhân bản!', 'info');
+          return; // Do not consume
         }
+        const randomRelic = clonable[Math.floor(Math.random() * clonable.length)];
+        state.run.relics.push(randomRelic);
+        recalcMaxHp();
+        showToast(`📋 Đã nhân bản cổ vật: ${getRelic(randomRelic)?.name}!`, 'success');
       }
 
       state.run.inventory.splice(slotIdx, 1);
@@ -1991,14 +2102,26 @@ Bản vá toàn diện theo đánh giá của Qwen:
 
       // Restore Modals on Page Reload based on Saved Phase
       if (state.run.phase === 'loot') {
+        if (state.run.pendingLootChoices) renderLootChoices(state.run.pendingLootChoices);
         document.getElementById('lootModal')?.classList.remove('hidden');
       } else if (state.run.phase === 'special') {
-        document.getElementById('specialEventModal')?.classList.remove('hidden');
+        openSpecialRoom();
       } else if (state.run.phase === 'victory') {
+        if (state.run.victoryStats) {
+          document.getElementById('vicGoldText').textContent = `${state.run.victoryStats.gold} 🪙`;
+          document.getElementById('vicRelicText').textContent = `${state.run.victoryStats.relics} món`;
+        }
         document.getElementById('dungeonVictoryModal')?.classList.remove('hidden');
       } else if (state.run.phase === 'dead') {
+        document.getElementById('deathFloorText').textContent = `Tầng ${state.run.floor} - Phòng ${state.run.roomIndex}`;
+        document.getElementById('deathInsightText').textContent = `${state.meta.insight} 💡`;
         document.getElementById('gameOverModal')?.classList.remove('hidden');
       }
+    }
+
+    function startRunFromSanctuary() {
+      document.getElementById('sanctuaryModal').classList.add('hidden');
+      startNewRun();
     }
 
     /* ====================================================================
@@ -2006,7 +2129,10 @@ Bản vá toàn diện theo đánh giá của Qwen:
        ==================================================================== */
     document.addEventListener('DOMContentLoaded', () => {
       loadState();
-      if (!state.run.active) startNewRun();
+      // Only start a run if none is active and not resting in dead/victory screen
+      if (!state.run.active && state.run.phase !== 'dead' && state.run.phase !== 'victory') {
+        startNewRun();
+      }
       renderUI();
 
       // Sound unlock on first click
@@ -2037,12 +2163,11 @@ Bản vá toàn diện theo đánh giá của Qwen:
       // Advance Room Button
       document.getElementById('btnAdvanceToNextRoom').addEventListener('click', closeLootAndAdvance);
 
-      // Return from Dungeon Victory to Sanctuary
+      // Return from Dungeon Victory to Sanctuary (Explicit user control!)
       document.getElementById('btnReturnToSanctuaryFromVic').addEventListener('click', () => {
         document.getElementById('dungeonVictoryModal').classList.add('hidden');
         renderSanctuary();
         document.getElementById('sanctuaryModal').classList.remove('hidden');
-        startNewRun();
       });
 
       // Game Over Modal Buttons
@@ -2054,7 +2179,6 @@ Bản vá toàn diện theo đánh giá của Qwen:
         document.getElementById('gameOverModal').classList.add('hidden');
         renderSanctuary();
         document.getElementById('sanctuaryModal').classList.remove('hidden');
-        startNewRun();
       });
 
       // Clear Battle Log
