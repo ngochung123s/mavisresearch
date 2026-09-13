@@ -813,7 +813,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
     }
 
     function getPlayerTotalAtk() {
-      let atk = state.run.baseAtk + state.run.tempAtkBuff + relicSum('atkFlat');
+      let atk = state.run.baseAtk + (state.run.bonusAtk || 0) + state.run.tempAtkBuff + relicSum('atkFlat');
 
       // Double ATK Curses
       if (relicFlag('doubleAtk')) atk *= 2;
@@ -839,6 +839,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
         hp: 100,
         maxHp: 100,
         baseAtk: startAtk,
+        bonusAtk: 0,
         shields: 0,
         mana: 0,
         maxMana: 3,
@@ -878,9 +879,21 @@ Bản vá toàn diện theo đánh giá của Qwen:
         const bosses = MONSTER_CATALOG.filter(m => m.tier === 'boss');
         monsterTemplate = bosses[Math.floor(Math.random() * bosses.length)];
       } else if (rIdx === 3) {
-        // Elite Room
+        // Elite Room with dynamic prefixes
         const elites = MONSTER_CATALOG.filter(m => m.tier === 'elite');
-        monsterTemplate = elites[Math.floor(Math.random() * elites.length)];
+        const baseM = elites[Math.floor(Math.random() * elites.length)];
+        const prefixes = [
+          { name: 'Hung Bạo', atkBonus: 4, hpBonus: 15 },
+          { name: 'Cứng Cáp', atkBonus: 1, hpBonus: 35 },
+          { name: 'Hút Máu', atkBonus: 2, hpBonus: 20, trait: 'Hút sinh lực' }
+        ];
+        const p = prefixes[Math.floor(Math.random() * prefixes.length)];
+        monsterTemplate = Object.assign({}, baseM, {
+          name: `${baseM.name} [${p.name}]`,
+          hp: baseM.hp + p.hpBonus,
+          atk: baseM.atk + p.atkBonus,
+          trait: p.trait || baseM.trait
+        });
       } else {
         // Regular Monster Room
         const regulars = MONSTER_CATALOG.filter(m => m.tier === state.run.floor);
@@ -1036,6 +1049,15 @@ Bản vá toàn diện theo đánh giá của Qwen:
         b.currentHp = Math.max(0, b.currentHp - damageDealt);
         triggerMonsterStagger();
         logBattle(`⚔️ [${source}] Đòn đánh gây ${damageDealt} DMG lên [${b.monster.name}]! (HP còn: ${b.currentHp}/${b.maxHp})`);
+
+        // Boss Phase 2 Enrage Transition
+        if (b.isBoss && b.currentHp > 0 && b.currentHp <= b.maxHp * 0.5 && !b.bossPhase2) {
+          b.bossPhase2 = true;
+          b.monster.atk += 5;
+          showToast('⚠️ TRÙM PHÁT CUỒNG (PHASE 2): Sát thương tăng vọt!', 'error');
+          shakeScreen();
+          logBattle(`🔥 [${b.monster.name}] BƯỚC VÀO GIAI ĐOẠN 2: Cuồng nộ bốc cháy!`);
+        }
       }
 
       // Check Monster Defeated
@@ -1235,7 +1257,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
           <span class="text-xs font-mono font-bold text-amber-400">RÈN VŨ KHÍ ➔</span>
         `;
         btnForge.onclick = () => {
-          state.run.baseAtk += 3;
+          state.run.bonusAtk = (state.run.bonusAtk || 0) + 3;
           showToast('⚔️ Dao mổ đã được mài sắc: +3 ATK!', 'success');
           modal.classList.add('hidden');
           advanceRoomIndex();
@@ -1413,6 +1435,19 @@ Bản vá toàn diện theo đánh giá của Qwen:
             state.run.relics.push(c.data.id);
             recalcMaxHp();
             showToast(`🏺 Đã trang bị cổ vật: ${c.data.name}`, 'success');
+
+            // Relic Synergy Detection
+            const curR = state.run.relics;
+            if (['r31', 'r32', 'r35'].includes(c.data.id) && curR.filter(id => ['r31', 'r32', 'r35'].includes(id)).length >= 2) {
+              showToast('💡 SYNERGY: Bộ Combo thần tốc đã kích hoạt sức mạnh cộng hưởng!', 'success');
+            }
+            if (['r6', 'r8', 'r12'].includes(c.data.id) && curR.filter(id => ['r6', 'r8', 'r12'].includes(id)).length >= 2) {
+              showToast('💡 SYNERGY: Bộ Khí tài Diệt khuẩn độc tố kích hoạt!', 'success');
+            }
+            if (['r2', 'r5', 'r11'].includes(c.data.id) && curR.filter(id => ['r2', 'r5', 'r11'].includes(id)).length >= 2) {
+              showToast('💡 SYNERGY: Bộ Lưỡi dao Chí mạng tử thần kích hoạt!', 'success');
+            }
+
             closeLootAndAdvance();
           };
         } else if (c.type === 'item') {
@@ -1515,6 +1550,20 @@ Bản vá toàn diện theo đánh giá của Qwen:
           state.run.relics.push(r.id);
           recalcMaxHp();
           showToast(`🔑 Mở rương thành công: Nhận cổ vật ${r.name}!`, 'success');
+        }
+      } else if (item.action === 'battle_reset_heal') {
+        state.run.hp = state.run.maxHp;
+        state.battle.currentHp = state.battle.maxHp;
+        state.battle.turnCount = 0;
+        showToast('⏪ Cuộn Giấy Thời Gian: Quay ngược đồng hồ, trận đấu reset từ đầu!', 'info');
+        logBattle('⏪ Cuộn Giấy Thời Gian phát sáng: Trận đấu bắt đầu lại từ đầu!');
+      } else if (item.action === 'clone_relic') {
+        const clonable = state.run.relics.filter(rid => !getRelic(rid)?.fx?.lockMaxHp);
+        if (clonable.length > 0) {
+          const randomRelic = clonable[Math.floor(Math.random() * clonable.length)];
+          state.run.relics.push(randomRelic);
+          recalcMaxHp();
+          showToast(`📋 Đã nhân bản cổ vật: ${getRelic(randomRelic)?.name}!`, 'success');
         }
       }
 
