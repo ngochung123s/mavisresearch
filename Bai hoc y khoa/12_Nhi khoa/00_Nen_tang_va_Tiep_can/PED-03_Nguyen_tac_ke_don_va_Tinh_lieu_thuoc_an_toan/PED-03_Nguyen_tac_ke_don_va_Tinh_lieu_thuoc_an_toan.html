@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PED-03 · Nguyên tắc kê đơn & Tính liều thuốc an toàn ở trẻ em</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/500.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/600.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/700.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/800.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.1.0/400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.1.0/700.css">
+<script>
+tailwind.config={theme:{extend:{fontFamily:{sans:['"Be Vietnam Pro"','system-ui','sans-serif'],mono:['"JetBrains Mono"','monospace']}}}}
+</script>
+<style>
+:root{--bg:#050a12;--line:rgba(255,255,255,.09);--txt:#e6edf7;--mut:#8ba0bb;
+--teal:#2dd4bf;--sky:#38bdf8;--amber:#fbbf24;--rose:#fb7185;--crim:#ef4444;--violet:#a78bfa}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:
+ radial-gradient(1100px 620px at 6% -12%,rgba(45,212,191,.16),transparent 60%),
+ radial-gradient(900px 520px at 96% -4%,rgba(56,189,248,.13),transparent 60%),
+ radial-gradient(760px 520px at 50% 112%,rgba(167,139,250,.10),transparent 60%),var(--bg);
+ color:var(--txt);font-family:'Be Vietnam Pro',sans-serif;-webkit-font-smoothing:antialiased}
+.mono{font-family:'JetBrains Mono',monospace}
+#prog{position:fixed;top:0;left:0;height:3px;width:0;z-index:90;background:linear-gradient(90deg,#2dd4bf,#38bdf8,#a78bfa);box-shadow:0 0 14px rgba(45,212,191,.7)}
+.card{background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:18px;backdrop-filter:blur(9px);transition:border-color .25s,transform .25s}
+.card:hover{border-color:rgba(45,212,191,.25)}
+.cardFlat{background:rgba(255,255,255,.028);border:1px solid var(--line);border-radius:14px}
+.chip{display:inline-flex;align-items:center;gap:.4rem;padding:.26rem .68rem;border-radius:999px;font-size:.72rem;font-weight:600;border:1px solid var(--line);background:rgba(255,255,255,.04);white-space:nowrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.62rem 1.05rem;border-radius:12px;font-weight:600;font-size:.86rem;border:1px solid var(--line);cursor:pointer;transition:.2s;background:rgba(255,255,255,.04);color:var(--txt)}
+.btn:hover{background:rgba(255,255,255,.09);transform:translateY(-1px)}
+.btn-teal{background:linear-gradient(135deg,#14b8a6,#0ea5e9);border:none;color:#04121a;font-weight:700}
+.btn-teal:hover{filter:brightness(1.1);box-shadow:0 8px 26px rgba(20,184,166,.35)}
+.navlink{display:flex;align-items:center;gap:.55rem;padding:.48rem .7rem;border-radius:10px;font-size:.82rem;color:var(--mut);cursor:pointer;transition:.18s;border-left:2px solid transparent;text-decoration:none}
+.navlink:hover{background:rgba(255,255,255,.05);color:#cfe4ff}
+.navlink.active{background:linear-gradient(90deg,rgba(45,212,191,.16),transparent);color:#7ff5e6;border-left-color:var(--teal)}
+.sec-num{font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.18em;color:var(--teal);font-weight:700}
+h2.sec{font-size:clamp(1.4rem,3vw,2.05rem);font-weight:800;letter-spacing:-.02em;line-height:1.15;margin:.35rem 0 .6rem}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .6s cubic-bezier(.2,.7,.3,1),transform .6s cubic-bezier(.2,.7,.3,1)}
+.reveal.in{opacity:1;transform:none}
+.why{border-left:3px solid var(--violet);background:linear-gradient(90deg,rgba(167,139,250,.10),transparent 70%);border-radius:0 12px 12px 0;padding:.85rem 1rem}
+.trap{border-left:3px solid var(--rose);background:linear-gradient(90deg,rgba(251,113,133,.10),transparent 70%);border-radius:0 12px 12px 0;padding:.85rem 1rem}
+.act{border-left:3px solid var(--teal);background:linear-gradient(90deg,rgba(45,212,191,.10),transparent 70%);border-radius:0 12px 12px 0;padding:.85rem 1rem}
+table.tb{width:100%;border-collapse:separate;border-spacing:0;font-size:.82rem}
+table.tb th{position:sticky;top:0;background:#0d1a2c;color:#9fe8dc;font-weight:700;text-align:left;padding:.66rem .7rem;border-bottom:1px solid var(--line);z-index:2;font-size:.72rem;letter-spacing:.04em;text-transform:uppercase}
+table.tb td{padding:.6rem .7rem;border-bottom:1px solid rgba(255,255,255,.055);vertical-align:top;color:#cddcf0}
+table.tb tr:hover td{background:rgba(45,212,191,.05)}
+.badge-n{background:rgba(45,212,191,.14);color:#7ff5e6;border:1px solid rgba(45,212,191,.32)}
+.badge-w{background:rgba(251,191,36,.14);color:#fcd34d;border:1px solid rgba(251,191,36,.32)}
+.badge-d{background:rgba(239,68,68,.16);color:#fca5a5;border:1px solid rgba(239,68,68,.36)}
+.pulseD{animation:pulseD 1.4s infinite}
+@keyframes pulseD{0%,100%{box-shadow:0 0 0 0 rgba(239,68,68,.5)}50%{box-shadow:0 0 0 12px rgba(239,68,68,0)}}
+.tick{display:flex;gap:.6rem;align-items:flex-start;padding:.45rem .55rem;border-radius:10px;cursor:pointer;border:1px solid transparent;transition:.15s}
+.tick:hover{background:rgba(255,255,255,.045);border-color:var(--line)}
+.tick .box{flex:0 0 auto;width:18px;height:18px;border-radius:6px;border:1.5px solid rgba(255,255,255,.28);display:grid;place-items:center;margin-top:2px;font-size:11px;color:transparent;transition:.15s}
+.tick.on .box{background:var(--crim);border-color:var(--crim);color:#fff}
+.tick.on{background:rgba(239,68,68,.08);border-color:rgba(239,68,68,.26)}
+.flip{perspective:1400px;height:238px;cursor:pointer}
+.flip-in{position:relative;width:100%;height:100%;transition:transform .55s cubic-bezier(.3,.8,.3,1);transform-style:preserve-3d}
+.flip.open .flip-in{transform:rotateY(180deg)}
+.fc-face{position:absolute;inset:0;backface-visibility:hidden;border-radius:16px;padding:1.05rem;display:flex;flex-direction:column;border:1px solid var(--line);overflow-y:auto}
+.fc-back{transform:rotateY(180deg);background:linear-gradient(160deg,rgba(45,212,191,.13),rgba(56,189,248,.06))}
+.drug{width:100%;text-align:left;padding:.55rem .75rem;border-radius:11px;border:1px solid transparent;cursor:pointer;transition:.15s;background:rgba(255,255,255,.03);font-size:.84rem;color:#cfe0f3}
+.drug:hover{background:rgba(45,212,191,.09);border-color:rgba(45,212,191,.3)}
+.drug.sel{background:linear-gradient(90deg,rgba(45,212,191,.2),rgba(56,189,248,.06));border-color:rgba(45,212,191,.5);color:#a7fff0;font-weight:600}
+.opt{display:block;width:100%;text-align:left;padding:.72rem .9rem;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.035);cursor:pointer;transition:.18s;color:#dbe7f7;font-size:.86rem}
+.opt:hover{border-color:rgba(45,212,191,.4);background:rgba(45,212,191,.08);transform:translateX(3px)}
+.opt.correct{border-color:#22c55e;background:rgba(34,197,94,.14);color:#bbf7d0}
+.opt.wrong{border-color:#ef4444;background:rgba(239,68,68,.13);color:#fecaca}
+input[type=range]{-webkit-appearance:none;height:6px;border-radius:99px;background:rgba(255,255,255,.14);outline:none}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:21px;height:21px;border-radius:50%;background:linear-gradient(135deg,#2dd4bf,#38bdf8);cursor:pointer;box-shadow:0 0 0 5px rgba(45,212,191,.16)}
+select,input[type=number],input[type=text]{background:#0d1a2c;border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:.5rem .65rem;font-size:.87rem;outline:none}
+select:focus,input:focus{border-color:var(--teal)}
+.stepdot{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;font-weight:800;font-family:'JetBrains Mono',monospace;font-size:.85rem;flex:0 0 auto}
+::-webkit-scrollbar{width:9px;height:9px}::-webkit-scrollbar-track{background:#070d18}
+::-webkit-scrollbar-thumb{background:#1d3049;border-radius:9px}::-webkit-scrollbar-thumb:hover{background:#2b4a6b}
+.ecg{stroke-dasharray:1500;stroke-dashoffset:1500;animation:draw 3.6s linear infinite}
+@keyframes draw{to{stroke-dashoffset:-1500}}
+.big{font-size:1.5rem;font-weight:800;font-family:'JetBrains Mono',monospace;line-height:1}
+@media print{aside,#prog,.noprint{display:none!important}body{background:#fff;color:#111}.card,.cardFlat{background:#fff;border-color:#ccc;color:#111}h2.sec{color:#000}}
+</style>
+</head>
+<body>
+<div id="prog"></div>
+
+<!-- SIDEBAR -->
+<aside class="noprint fixed left-0 top-0 h-screen w-[268px] border-r border-white/10 bg-[#060c16]/92 backdrop-blur-xl z-40 hidden lg:flex flex-col">
+  <div class="p-5 border-b border-white/10">
+    <div class="flex items-center gap-2.5">
+      <svg width="34" height="34" viewBox="0 0 40 40" fill="none">
+        <rect x="17" y="5" width="6" height="30" rx="2" fill="#2dd4bf"/><rect x="5" y="17" width="30" height="6" rx="2" fill="#2dd4bf"/>
+        <circle cx="20" cy="20" r="4.4" fill="#060c16"/><circle cx="20" cy="20" r="2.2" fill="#38bdf8"/>
+      </svg>
+      <div><div class="text-[.68rem] mono tracking-[.2em] text-teal-300/80">CORE 45 · BLOCK 0</div>
+      <div class="font-extrabold text-[.95rem] leading-tight">Nhi khoa thực hành</div></div>
+    </div>
+    <div class="mt-3 flex flex-wrap gap-1.5">
+      <span class="chip text-teal-300 border-teal-400/30 bg-teal-400/10">✅ RELEASE v1</span><span class="chip text-rose-300">P0</span><span class="chip mono text-sky-300">PED-03</span>
+    </div>
+  </div>
+  <nav id="nav" class="flex-1 overflow-y-auto p-3 space-y-[2px]"></nav>
+  <div class="p-4 border-t border-white/10 text-[.72rem] text-slate-400 space-y-1.5">
+    <div class="flex justify-between"><span>Nền tảng trước</span><span class="mono text-teal-300">PED-01 · 02</span></div>
+    <div class="flex justify-between"><span>Mở khoá</span><span class="mono text-teal-300">19 / 45 bài</span></div>
+    <button onclick="window.print()" class="btn w-full text-[.78rem] py-2 mt-1">🖨️ In cheat sheet</button>
+  </div>
+</aside>
+
+<main class="lg:ml-[268px]">
+  <div class="lg:hidden sticky top-0 z-30 border-b border-white/10 bg-[#060c16]/95 backdrop-blur px-4 py-3 flex items-center justify-between">
+    <div class="font-extrabold text-sm">PED-03 · Kê đơn &amp; tính liều nhi</div>
+    <select id="mnav" onchange="location.hash=this.value" class="text-xs py-1.5"></select>
+  </div>
+
+  <!-- HERO -->
+  <header class="relative overflow-hidden border-b border-white/10">
+    <div class="absolute inset-0 opacity-[.13] pointer-events-none">
+      <svg width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 1200 400">
+        <path class="ecg" d="M0 210 H120 l18 -8 l14 22 l16 -60 l18 96 l16 -50 l14 12 H340 l20 -8 l14 22 l18 -62 l16 100 l16 -52 l12 12 H600 l22 -8 l14 22 l18 -60 l16 96 l16 -50 l14 12 H860 l20 -8 l14 22 l18 -62 l16 100 l16 -52 l12 12 H1200" stroke="#2dd4bf" stroke-width="2.4" fill="none"/>
+      </svg>
+    </div>
+    <div class="relative max-w-6xl mx-auto px-5 md:px-8 pt-14 pb-12">
+      <div class="flex flex-wrap items-center gap-2 mb-5">
+        <span class="chip mono text-teal-300 border-teal-400/30 bg-teal-400/10">PED-03</span>
+        <span class="chip text-rose-300 border-rose-400/30 bg-rose-400/10">P0 · Trọng tâm cốt lõi</span>
+        <span class="chip text-slate-300">Block 0 — Nền tảng tư duy</span>
+        <span class="chip text-teal-300 border-teal-400/30 bg-teal-400/10">✅ RELEASE v1</span>
+      </div>
+      <h1 class="text-[clamp(1.9rem,5.2vw,3.35rem)] font-extrabold leading-[1.05] tracking-[-.03em]">
+        Nguyên tắc kê đơn &amp;<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-sky-400">Tính liều thuốc an toàn ở trẻ em</span>
+      </h1>
+      <p class="mt-5 text-slate-300/90 max-w-3xl leading-relaxed">
+        Ở người lớn, sai liều hiếm khi giết bệnh nhân. Ở trẻ em, <b class="text-rose-300">một dấu thập phân đặt sai chỗ là một ca tử vong</b>.
+        Bài này xây cho bạn một <b class="text-teal-300">quy trình tính liều không thể sai</b>, một máy tính mg/kg dùng được ngay tại giường,
+        và danh sách những thuốc <b class="text-amber-300">không bao giờ được kê cho trẻ nhỏ</b>.
+      </p>
+      <div class="mt-7 flex flex-wrap gap-2.5">
+        <a href="#calc" class="btn btn-teal">🧮 Mở máy tính liều mg/kg</a>
+        <a href="#drill" class="btn">🎯 12 bài tập tính liều</a>
+        <a href="#ccđ" class="btn">⛔ Bảng chống chỉ định</a>
+        <a href="#quiz" class="btn">📝 Trắc nghiệm 10 câu</a>
+      </div>
+      <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-3">
+        <div class="cardFlat p-4"><div class="mono text-2xl font-bold text-teal-300">52</div><div class="text-[.76rem] text-slate-400 mt-1">thuốc trong sổ tay liều, kèm dạng bào chế thực tế</div></div>
+        <div class="cardFlat p-4"><div class="mono text-2xl font-bold text-rose-300">18</div><div class="text-[.76rem] text-slate-400 mt-1">thuốc chống chỉ định / cần thận trọng theo tuổi</div></div>
+        <div class="cardFlat p-4"><div class="mono text-2xl font-bold text-amber-300">15</div><div class="text-[.76rem] text-slate-400 mt-1">bẫy kê đơn kinh điển (kèm ví dụ đơn sai)</div></div>
+        <div class="cardFlat p-4"><div class="mono text-2xl font-bold text-sky-300">19/45</div><div class="text-[.76rem] text-slate-400 mt-1">bài trong Core 45 phụ thuộc trực tiếp vào PED-03</div></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="max-w-6xl mx-auto px-5 md:px-8 py-12 space-y-20">
+
+    <!-- 01 MỤC TIÊU -->
+    <section id="muc-tieu" class="scroll-mt-6 reveal">
+      <div class="sec-num">01 / MỤC TIÊU</div>
+      <h2 class="sec">Sau bài này, bạn phải kê được đơn an toàn cho mọi cân nặng</h2>
+      <div class="grid md:grid-cols-2 gap-3.5">
+        <div class="card p-5 flex gap-4"><div class="stepdot bg-teal-400/15 border border-teal-400/30 text-teal-300">1</div><div><div class="font-bold">Tính liều theo mg/kg thành thạo</div><p class="text-sm text-slate-400 mt-1">Từ cân nặng thực → liều mỗi lần → tổng liều 24 giờ → thể tích ml / số viên của dạng bào chế có sẵn.</p></div></div>
+        <div class="card p-5 flex gap-4"><div class="stepdot bg-rose-400/15 border border-rose-400/30 text-rose-300">2</div><div><div class="font-bold">Luôn kiểm tra bẫy trần liều người lớn</div><p class="text-sm text-slate-400 mt-1">Biết trẻ từ bao nhiêu kg thì công thức mg/kg vượt trần — và phải "chạm trần" thay vì nhân tiếp.</p></div></div>
+        <div class="card p-5 flex gap-4"><div class="stepdot bg-sky-400/15 border border-sky-400/30 text-sky-300">3</div><div><div class="font-bold">Chọn đúng dạng bào chế thực tế</div><p class="text-sm text-slate-400 mt-1">Siro – gói cốm – viên đạn – ống tiêm: ưu nhược điểm, bẫy nồng độ, và cách viết đơn để điều dưỡng &amp; phụ huynh không hiểu sai.</p></div></div>
+        <div class="card p-5 flex gap-4"><div class="stepdot bg-violet-400/15 border border-violet-400/30 text-violet-300">4</div><div><div class="font-bold">Tính tốc độ truyền &amp; dịch duy trì</div><p class="text-sm text-slate-400 mt-1">Holliday-Segar 4-2-1, quy đổi ml/h → giọt/phút (dây 20 và 60), GIR ở sơ sinh, giới hạn nồng độ &amp; tốc độ Kali.</p></div></div>
+        <div class="card p-5 flex gap-4"><div class="stepdot bg-amber-400/15 border border-amber-400/30 text-amber-300">5</div><div><div class="font-bold">Thuộc lòng danh sách chống chỉ định theo tuổi</div><p class="text-sm text-slate-400 mt-1">Aspirin, Codein, Ceftriaxon sơ sinh, Loperamid, Promethazin, Dextrose 50%, KCl bolus… và thuốc thay thế an toàn.</p></div></div>
+        <div class="card p-5 flex gap-4"><div class="stepdot bg-teal-400/15 border border-teal-400/30 text-teal-300">6</div><div><div class="font-bold">Viết đơn theo "10 đúng" + double-check</div><p class="text-sm text-slate-400 mt-1">Ghi cân nặng vào đơn, viết cả mg và ml, tránh dấu thập phân nguy hiểm, kiểm tra độc lập với thuốc nguy cơ cao.</p></div></div>
+      </div>
+      <div class="card mt-5 p-5">
+        <div class="text-xs mono tracking-[.18em] text-slate-400 mb-3">VỊ TRÍ TRONG CHUỖI PHỤ THUỘC · PED-03 LÀ "NÚT THẮT CỔ CHAI" CỦA TOÀN BỘ CORE 45</div>
+        <div class="flex flex-wrap gap-1.5 text-[.78rem]">
+          <span class="chip !bg-teal-400/15 !border-teal-400/40 text-teal-200 font-bold">PED-03 Liều thuốc mg/kg</span><span class="text-teal-300 self-center">→</span>
+          <span class="chip text-slate-300">04 PALS</span><span class="chip text-slate-300">05 Sốc</span><span class="chip text-slate-300">06 Phản vệ</span><span class="chip text-slate-300">07 Co giật</span><span class="chip text-slate-300">08 Hen</span><span class="chip text-slate-300">10 Ngộ độc Paracetamol</span><span class="chip text-slate-300">16 Nhiễm khuẩn sơ sinh</span><span class="chip text-slate-300">17 Hạ đường huyết</span><span class="chip text-slate-300">21 CAP</span><span class="chip text-slate-300">27 Tiêu chảy</span><span class="chip text-slate-300">31 SDD nặng</span><span class="chip text-slate-300">32 Sốt</span><span class="chip text-slate-300">33–34 Dengue</span><span class="chip text-slate-300">35 TCM</span><span class="chip text-slate-300">37 Viêm màng não</span><span class="chip text-slate-300">40 Thận hư</span><span class="chip text-slate-300">41 APSGN</span><span class="chip text-slate-300">42 NK tiết niệu</span><span class="chip text-slate-300">44 Kawasaki</span><span class="chip text-slate-300">45 DKA</span>
+        </div>
+        <p class="text-[.82rem] text-slate-400 mt-3">Không nắm được PED-03, bạn không thể thực hành an toàn bất kỳ bài cấp cứu hay điều trị nào phía sau. Đây là bài <b class="text-teal-300">bắt buộc đạt GATES</b> trước khi vào trực.</p>
+      </div>
+    </section>
+
+    <!-- 02 ADME -->
+    <section id="adme" class="scroll-mt-6 reveal">
+      <div class="sec-num">02 / VÌ SAO</div>
+      <h2 class="sec">Dược động học nhi: 4 lý do trẻ KHÔNG phải người lớn thu nhỏ</h2>
+      <p class="text-slate-400 max-w-3xl -mt-1 mb-6">Và quan trọng hơn: <b class="text-slate-200">trẻ em không đồng nhất với nhau</b>. Sơ sinh non tháng ≠ sơ sinh đủ tháng ≠ nhũ nhi ≠ trẻ 2–9 tuổi ≠ vị thành niên. Cùng một mg/kg cho ra nồng độ thuốc hoàn toàn khác nhau.</p>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="card p-5">
+          <div class="flex items-center gap-2.5 mb-2"><span class="w-9 h-9 rounded-xl grid place-items-center bg-teal-400/15 border border-teal-400/30 font-bold text-teal-300 mono">A</span><div><div class="font-extrabold">Hấp thu (Absorption)</div><div class="text-[.7rem] mono tracking-wider text-teal-300/70">đường uống · tiêm bắp · da · trực tràng</div></div></div>
+          <ul class="space-y-1.5 text-[.84rem] text-slate-300">
+            <li>› pH dạ dày sơ sinh <b>cao hơn</b> (giảm toan) → hấp thu thuốc acid yếu giảm, thuốc kiềm yếu tăng; nhu động thất thường → hấp thu khó đoán.</li>
+            <li>› Khối cơ nhỏ + tưới máu cơ thấp → <b>tiêm bắp hấp thu thất thường</b> (ngoại lệ: mặt ngoài đùi tưới máu tốt vẫn là đường chuẩn của adrenaline phản vệ).</li>
+            <li>› Da mỏng, sừng mỏng, diện tích da/cân nặng lớn gấp 2–3 lần → <b>hấp thu qua da rất cao</b>: ngộ độc cồn khi lau mát, corticoid bôi gây ức chế trục HPA, salicylate.</li>
+            <li>› Trực tràng: hấp thu thất thường, sinh khả dụng dao động → không dùng để thay thế đường uống khi trẻ còn uống được.</li>
+          </ul>
+        </div>
+        <div class="card p-5">
+          <div class="flex items-center gap-2.5 mb-2"><span class="w-9 h-9 rounded-xl grid place-items-center bg-sky-400/15 border border-sky-400/30 font-bold text-sky-300 mono">D</span><div><div class="font-extrabold">Phân bố (Distribution)</div><div class="text-[.7rem] mono tracking-wider text-sky-300/70">thể tích phân bố · gắn protein · hàng rào máu não</div></div></div>
+          <ul class="space-y-1.5 text-[.84rem] text-slate-300">
+            <li>› Nước toàn cơ thể: non tháng <b>85 %</b>, đủ tháng <b>78 %</b>, 1 tuổi <b>65 %</b>, người lớn <b>60 %</b> → thuốc tan trong nước (aminoglycosid, theophyllin) cần <b>mg/kg cao hơn</b> ở sơ sinh.</li>
+            <li>› Mỡ thấp → thuốc tan trong mỡ (thiopental, diazepam) phân bố lại nhanh, tác dụng ngắn nhưng dễ tích lũy khi lặp liều.</li>
+            <li>› Albumin &amp; α1-acid glycoprotein thấp → <b>tỷ lệ thuốc tự do cao hơn</b> (phenytoin, morphin). Cạnh tranh với bilirubin → sulfonamid, ceftriaxon gây vàng da nhân não.</li>
+            <li>› Hàng rào máu não chưa hoàn chỉnh → opioid, thuốc an thần vào CNS dễ hơn → nhạy cảm hơn, nguy cơ ngưng thở.</li>
+          </ul>
+        </div>
+        <div class="card p-5">
+          <div class="flex items-center gap-2.5 mb-2"><span class="w-9 h-9 rounded-xl grid place-items-center bg-violet-400/15 border border-violet-400/30 font-bold text-violet-300 mono">M</span><div><div class="font-extrabold">Chuyển hoá (Metabolism)</div><div class="text-[.7rem] mono tracking-wider text-violet-300/70">CYP450 · pha II liên hợp</div></div></div>
+          <ul class="space-y-1.5 text-[.84rem] text-slate-300">
+            <li>› Sơ sinh: CYP3A4 và đặc biệt <b>glucuronid hoá (UGT)</b> chưa trưởng thành → <b>hội chứng "grey baby"</b> với chloramphenicol, thải trừ morphin chậm.</li>
+            <li>› Trẻ <b>1–9 tuổi chuyển hoá NHIỀU thuốc nhanh hơn cả người lớn</b> (tỷ lệ gan/cân nặng lớn) → phenytoin, carbamazepin, valproat cần mg/kg <b>cao hơn</b> và khoảng cách liều ngắn hơn.</li>
+            <li>› Dậy thì: tốc độ chuyển hoá giảm dần về mức người lớn → phải chỉnh lại liều.</li>
+            <li>› Đa hình gen: codein/tramadol qua CYP2D6 — nhóm siêu chuyển hoá tạo morphin ồ ạt → <b>ngưng thở, tử vong</b>.</li>
+          </ul>
+        </div>
+        <div class="card p-5">
+          <div class="flex items-center gap-2.5 mb-2"><span class="w-9 h-9 rounded-xl grid place-items-center bg-rose-400/15 border border-rose-400/30 font-bold text-rose-300 mono">E</span><div><div class="font-extrabold">Thải trừ (Elimination)</div><div class="text-[.7rem] mono tracking-wider text-rose-300/70">GFR · ống thận · khoảng cách liều</div></div></div>
+          <ul class="space-y-1.5 text-[.84rem] text-slate-300">
+            <li>› GFR lúc sinh chỉ 20–40 ml/phút/1,73 m², đạt mức người lớn lúc <b>1–2 tuổi</b>. Ống thận chưa trưởng thành → giảm bài tiết chủ động (aminoglycosid, penicillin).</li>
+            <li>› Hệ quả thực hành: <b>sơ sinh phải KÉO DÀI khoảng cách liều</b> — Gentamicin q24–36 h (non tháng q48 h) thay vì q8 h.</li>
+            <li>› Trẻ 2–10 tuổi: thanh thải tính theo kg lại <b>cao hơn</b> người lớn → một số thuốc cần liều mg/kg cao hơn hoặc chia nhiều lần hơn.</li>
+            <li>› Ước tính chức năng thận: <span class="mono text-teal-300">eGFR (Schwartz) = 0,413 × chiều cao (cm) / creatinin (mg/dl)</span>.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card mt-5 p-5">
+        <div class="text-xs mono tracking-[.16em] text-slate-400 mb-3">ĐƯỜNG CONG TRƯỞNG THÀNH CHỨC NĂNG THEO TUỔI (% so với người lớn)</div>
+        <div class="h-[260px]"><canvas id="admeChart"></canvas></div>
+        <p class="text-[.8rem] text-slate-400 mt-3 leading-relaxed">Nhìn điểm giao nhau: ở <b>1–2 tháng tuổi</b>, thanh thải thận và chuyển hoá gan đều còn thấp → giảm liều hoặc kéo dài khoảng cách. Ở <b>2–9 tuổi</b>, chuyển hoá gan vượt cả người lớn → cần mg/kg cao hơn. Đó là lý do cùng một thuốc có <b>3 cách dùng khác nhau</b> tuỳ nhóm tuổi.</p>
+      </div>
+    </section>
+
+    <!-- 03 QUY TRÌNH 5 BƯỚC -->
+    <section id="quytrinh" class="scroll-mt-6 reveal">
+      <div class="sec-num">03 / QUY TRÌNH</div>
+      <h2 class="sec">5 bước tính liều — làm theo đúng thứ tự, không bước nào được bỏ</h2>
+      <div class="grid lg:grid-cols-[minmax(0,1fr)_400px] gap-6 items-start">
+        <div class="space-y-3">
+          <div class="card p-5 flex gap-4"><div class="stepdot bg-teal-400/15 border border-teal-400/40 text-teal-300">1</div><div><div class="font-extrabold">CÂN trẻ — không bao giờ dùng tuổi để ước lượng</div><p class="text-[.85rem] text-slate-400 mt-1 leading-relaxed">Cân thật, không mặc quần áo/tã. Trẻ nguy kịch không cân được → <b>thước băng Broselow theo chiều cao</b> hoặc cân nặng chuẩn WHO theo chiều cao (PED-01). Sai số cân nặng ±20 % = sai liều ±20 %. <b>Ghi cân nặng vào đầu tờ đơn.</b></p></div></div>
+          <div class="card p-5 flex gap-4"><div class="stepdot bg-sky-400/15 border border-sky-400/40 text-sky-300">2</div><div><div class="font-extrabold">Xác định liều khuyến cáo: mg/kg / lần hay / ngày? chia mấy lần? đường nào?</div><p class="text-[.85rem] text-slate-400 mt-1 leading-relaxed">Đây là nguồn sai sót số 1. Ví dụ Amoxicillin <b>25–90 mg/kg/NGÀY chia 2–3 lần</b>, không phải 90 mg/kg mỗi lần. Gentamicin <b>5–7,5 mg/kg/NGÀY 1 lần</b>. Ceftriaxon <b>50–100 mg/kg/NGÀY 1 lần</b>. Ghi rõ nguồn khuyến cáo bạn dùng (phác đồ Bộ Y tế, WHO, Nelson, BNFc).</p></div></div>
+          <div class="card p-5 flex gap-4"><div class="stepdot bg-violet-400/15 border border-violet-400/40 text-violet-300">3</div><div><div class="font-extrabold">Nhân với cân nặng → ra liều lý thuyết</div><p class="text-[.85rem] text-slate-400 mt-1 leading-relaxed mono">liều (mg) = liều khuyến cáo (mg/kg) × cân nặng (kg)</p><p class="text-[.85rem] text-slate-400 mt-1 leading-relaxed">Nếu là liều theo ngày → chia số lần trong ngày để ra liều mỗi lần. Tính luôn <b>tổng liều 24 giờ</b> để kiểm tra ở bước 4.</p></div></div>
+          <div class="card p-5 flex gap-4 border-rose-400/25"><div class="stepdot bg-rose-400/15 border border-rose-400/40 text-rose-300">4</div><div><div class="font-extrabold text-rose-100">SO VỚI TRẦN LIỀU NGƯỜI LỚN — lấy giá trị NHỎ HƠN</div><p class="text-[.85rem] text-slate-400 mt-1 leading-relaxed">Bước bị bỏ qua nhiều nhất và nguy hiểm nhất. Trẻ ≥ 40–50 kg thường đã vượt trần của nhiều thuốc: <b>Ceftriaxon 100 mg/kg × 30 kg = 3 g &gt; trần 2 g</b>; <b>Prednisolon 2 mg/kg × 45 kg = 90 mg &gt; trần 40–60 mg</b>; <b>Paracetamol 15 mg/kg × 80 kg = 1200 mg &gt; trần 1 g</b>. Khi chạm trần → dùng trần, và ghi rõ vào đơn.</p></div></div>
+          <div class="card p-5 flex gap-4"><div class="stepdot bg-amber-400/15 border border-amber-400/40 text-amber-300">5</div><div><div class="font-extrabold">Quy đổi ra dạng bào chế CÓ SẴN + viết đơn chống nhầm lẫn</div><p class="text-[.85rem] text-slate-400 mt-1 leading-relaxed">Viết cả <b>mg VÀ ml</b>: "Paracetamol siro 120 mg/5 ml — uống <b>5 ml (= 120 mg)</b> mỗi 6 giờ". Làm tròn về đơn vị <b>đo được</b> bằng dụng cụ sẵn có (bơm tiêm 1 ml chia 0,01; 3 ml; 5 ml; ống đong 5 ml). Kiểm tra độc lập với điều dưỡng cho thuốc nguy cơ cao.</p></div></div>
+        </div>
+        <div class="space-y-4">
+          <div class="card p-5">
+            <div class="text-xs mono tracking-[.16em] text-teal-300 mb-3">VÍ DỤ MẪU — đi hết 5 bước</div>
+            <div class="space-y-3 text-[.85rem]">
+              <div class="cardFlat p-3"><div class="text-[.7rem] mono text-slate-400">TÌNH HUỐNG</div>Bé 5 tuổi, <b>18 kg</b>, viêm phổi cộng đồng, uống được. Kê Amoxicillin liều cao.</div>
+              <div class="cardFlat p-3"><div class="text-[.7rem] mono text-teal-300">B1 · CÂN</div>18 kg (cân thật, ghi vào đơn)</div>
+              <div class="cardFlat p-3"><div class="text-[.7rem] mono text-teal-300">B2 · LIỀU KHUYẾN CÁO</div>80–90 mg/kg/<b>ngày</b>, chia 2 lần (CAP liều cao — phủ phế cầu kháng)</div>
+              <div class="cardFlat p-3"><div class="text-[.7rem] mono text-teal-300">B3 · NHÂN</div>90 × 18 = <b>1620 mg/ngày</b> → 1620 ÷ 2 = <b>810 mg/lần</b></div>
+              <div class="cardFlat p-3"><div class="text-[.7rem] mono text-rose-300">B4 · TRẦN LIỀU</div>Trần người lớn 3000 mg/ngày → 1620 mg <b>chưa chạm trần</b>. An toàn.</div>
+              <div class="cardFlat p-3"><div class="text-[.7rem] mono text-teal-300">B5 · QUY ĐỔI</div>Siro 250 mg/5 ml → 810 ÷ 250 × 5 = <b>16,2 ml/lần</b> → làm tròn <b>16 ml</b>, đo bằng ống đong/cốc có vạch, ngày 2 lần × 5–7 ngày.</div>
+              <div class="act"><b>Viết đơn:</b> "Amoxicillin siro 250 mg/5 ml — uống 16 ml (= 800 mg) mỗi 12 giờ × 7 ngày. Cân nặng 18 kg."</div>
+            </div>
+          </div>
+          <div class="trap"><div class="text-[.7rem] mono tracking-[.14em] text-rose-300 mb-1">NẾU BỎ BƯỚC 4</div><p class="text-[.82rem] text-slate-300 leading-relaxed">Cùng công thức với trẻ <b>40 kg</b>: 90 × 40 = 3600 mg/ngày → <b>vượt trần 3000 mg</b>. Bạn vừa kê quá liều 20 % cho một trẻ béo phì mà không nhận ra. Trẻ ≥ 40 kg phải <b>tính như người lớn</b>.</p></div>
+          <div class="why"><div class="text-[.7rem] mono tracking-[.14em] text-violet-300 mb-1">VÌ SAO TRẺ 2–9 TUỔI "DỄ" HƠN?</div><p class="text-[.82rem] text-slate-300 leading-relaxed">Tỷ lệ khối gan trên cân nặng lớn + thanh thải thận đã trưởng thành → nhóm này cần <b>mg/kg cao hơn</b> người lớn với nhiều thuốc (phenytoin, carbamazepin, một số kháng sinh). Ngược lại sơ sinh cần <b>khoảng cách liều dài hơn</b>. Đừng áp một công thức cho mọi tuổi.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 CALC -->
+    <section id="calc" class="scroll-mt-6 reveal">
+      <div class="sec-num">04 / CÔNG CỤ TRUNG TÂM</div>
+      <h2 class="sec">Máy tính liều mg/kg — 52 thuốc, kèm dạng bào chế &amp; trần liều</h2>
+      <p class="text-slate-400 max-w-3xl -mt-1 mb-5">Chọn thuốc → nhập cân nặng → kéo thanh liều trong khoảng khuyến cáo. Máy tự quy đổi ra <b>ml / viên / gói</b> cho từng dạng bào chế và <b>tự động chạm trần</b> khi vượt liều tối đa người lớn.</p>
+
+      <div class="grid lg:grid-cols-[300px_minmax(0,1fr)] gap-5 items-start">
+        <!-- drug list -->
+        <div class="card p-4 lg:sticky lg:top-4">
+          <input id="dSearch" type="text" placeholder="🔍 Tìm thuốc…" class="w-full mb-3">
+          <div class="flex flex-wrap gap-1.5 mb-3" id="dGroups"></div>
+          <div id="dList" class="space-y-1 max-h-[62vh] overflow-y-auto pr-1"></div>
+        </div>
+        <!-- calc panel -->
+        <div class="space-y-4">
+          <div class="card p-5">
+            <div id="drugHead"></div>
+            <div class="grid md:grid-cols-3 gap-3 mt-4 items-end">
+              <div class="md:col-span-2">
+                <label class="text-[.7rem] mono tracking-wider text-slate-400">CÂN NẶNG (kg)</label>
+                <div class="flex items-center gap-3 mt-1">
+                  <input id="wRange" type="range" min="1" max="80" step="0.5" value="15" class="flex-1">
+                  <input id="wInput" type="number" min="0.3" max="120" step="0.1" value="15" class="w-24 mono text-center">
+                </div>
+                <div class="flex flex-wrap gap-1.5 mt-2" id="wPresets"></div>
+              </div>
+              <div>
+                <label class="text-[.7rem] mono tracking-wider text-slate-400">ĐƯỜNG DÙNG</label>
+                <div id="drugRoute" class="mt-1 text-[.85rem] text-slate-300 cardFlat p-2.5">—</div>
+              </div>
+            </div>
+            <div id="doseSliderWrap" class="mt-4">
+              <div class="flex items-center justify-between text-[.75rem] mono text-slate-400"><span>LIỀU CHỌN</span><span id="doseNow">—</span></div>
+              <input id="doseRange" type="range" class="w-full mt-1.5">
+              <div class="flex justify-between text-[.7rem] text-slate-500 mono mt-1"><span id="doseLo">—</span><span id="doseHi">—</span></div>
+            </div>
+          </div>
+          <div id="calcOut"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 TRẦN LIỀU -->
+    <section id="tranlieu" class="scroll-mt-6 reveal">
+      <div class="sec-num">05 / BẪY LỚN NHẤT</div>
+      <h2 class="sec">Bẫy trần liều người lớn — điểm giao nhau bạn phải thuộc</h2>
+      <div class="grid lg:grid-cols-[minmax(0,1fr)_340px] gap-5 items-start">
+        <div class="card p-5">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+            <div class="text-xs mono tracking-[.16em] text-slate-400">LIỀU THEO mg/kg (đường xanh) vs TRẦN NGƯỜI LỚN (đường đỏ)</div>
+            <select id="capDrug" class="text-[.82rem]"></select>
+          </div>
+          <div class="h-[300px]"><canvas id="capChart"></canvas></div>
+        </div>
+        <div class="space-y-4">
+          <div class="card p-5">
+            <div class="text-xs mono tracking-[.16em] text-teal-300 mb-2">ĐIỂM "CHẠM TRẦN"</div>
+            <div id="capOut" class="rounded-xl p-4 badge-w">
+              <div class="font-extrabold text-lg" id="capKg">—</div>
+              <p class="text-[.84rem] opacity-92 mt-1 leading-relaxed" id="capTxt">Chọn thuốc để xem từ cân nặng nào công thức mg/kg bắt đầu vượt trần liều người lớn.</p>
+            </div>
+          </div>
+          <div class="card p-5">
+            <div class="font-extrabold mb-2.5">🚩 8 thuốc "chạm trần" sớm nhất — phải thuộc</div>
+            <div class="space-y-1.5 text-[.82rem]" id="capList"></div>
+          </div>
+          <div class="why"><p class="text-[.82rem] text-slate-300 leading-relaxed"><b>Quy tắc nhớ:</b> khi trẻ đạt <b>≥ 40 kg</b> (thường ≥ 10–12 tuổi), hãy <b>ngừng nhân mg/kg</b> và kê liều người lớn, trừ khi phác đồ nhi quy định khác. Trẻ béo phì: dùng <b>cân nặng hiệu chỉnh</b> cho thuốc tan trong mỡ (PED-34).</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 BÀO CHẾ -->
+    <section id="baoche" class="scroll-mt-6 reveal">
+      <div class="sec-num">06 / DẠNG BÀO CHẾ</div>
+      <h2 class="sec">Siro – gói cốm – viên đạn – ống tiêm: chọn cái nào, bẫy ở đâu</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="card p-5">
+          <div class="text-2xl mb-2">🥄</div><div class="font-extrabold">Siro / hỗn dịch uống</div>
+          <ul class="text-[.82rem] text-slate-400 mt-2 space-y-1.5">
+            <li>✅ Đường ưu tiên ở trẻ còn uống được</li>
+            <li>⚠️ <b>Lắc đều</b> hỗn dịch (thuốc lắng đáy)</li>
+            <li>⚠️ Cùng một thuốc có <b>2–4 nồng độ</b> khác nhau trên thị trường</li>
+            <li>⚠️ Nhiều siro chứa đường → sâu răng khi dùng kéo dài; một số chứa ethanol</li>
+            <li>🚫 Không đo bằng thìa gia đình (sai số ±40 %)</li>
+          </ul>
+        </div>
+        <div class="card p-5">
+          <div class="text-2xl mb-2">📦</div><div class="font-extrabold">Gói bột / cốm pha</div>
+          <ul class="text-[.82rem] text-slate-400 mt-2 space-y-1.5">
+            <li>✅ Liều cố định sẵn, dễ mang, dễ chia (Paracetamol 80/150/250 mg; Amoxicillin 250 mg; ORS; Smecta; Racecadotril 10/30 mg)</li>
+            <li>⚠️ <b>Không chia nhỏ gói</b> khi liều không khớp — sai số lớn</li>
+            <li>⚠️ ORS: pha đúng thể tích nước ghi trên gói (pha đặc gây tăng Na, pha loãng kém hiệu quả)</li>
+            <li>⚠️ Kháng sinh dạng gói phải pha ngay trước uống</li>
+          </ul>
+        </div>
+        <div class="card p-5 border-amber-400/25">
+          <div class="text-2xl mb-2">💊</div><div class="font-extrabold">Viên đạn trực tràng</div>
+          <ul class="text-[.82rem] text-slate-400 mt-2 space-y-1.5">
+            <li>✅ Chỉ khi <b>không uống được</b>: nôn nhiều, co giật, sau mổ</li>
+            <li>⚠️ Sinh khả dụng <b>thất thường &amp; thấp hơn</b> đường uống (60–70 %)</li>
+            <li>🚨 <b>Bẫy tử thần:</b> viên đạn + siro cùng lúc → phụ huynh tưởng là 2 thuốc khác nhau → <b>quá liều Paracetamol</b></li>
+            <li>⚠️ Liều viên đạn thường phải <b>cao hơn</b> mg/kg đường uống, nhưng vẫn phải tính vào tổng 24 giờ</li>
+            <li>🚫 Tránh khi tiêu chảy, giảm bạch cầu trung tính, chảy máu trực tràng</li>
+          </ul>
+        </div>
+        <div class="card p-5 border-rose-400/25">
+          <div class="text-2xl mb-2">💉</div><div class="font-extrabold">Ống tiêm / bột pha tiêm</div>
+          <ul class="text-[.82rem] text-slate-400 mt-2 space-y-1.5">
+            <li>✅ Cấp cứu, trẻ không uống được, cần nồng độ đỉnh cao</li>
+            <li>🚨 <b>Nồng độ sau pha loãng</b> mới là thứ bạn tiêm: Adrenalin 1 mg/1 ml (IM) vs 1 mg/10 ml (TM ngừng tim)</li>
+            <li>🚨 KCl 10 % 10 ml = 1 g = <b>13,4 mmol</b> — không phải 10 mmol</li>
+            <li>⚠️ Tốc độ truyền quyết định an toàn: Vancomycin ≥ 60 ph, Adenosine &lt; 5 giây, Kali ≤ 0,5 mmol/kg/h</li>
+            <li>⚠️ Tương kỵ khi pha chung (Ceftriaxon × dịch canxi)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card mt-5 p-5">
+        <div class="font-extrabold mb-1">🔬 Bẫy nồng độ siro — cùng 5 ml, liều khác nhau gấp 3 lần</div>
+        <p class="text-[.82rem] text-slate-400 mb-4">Nhập cân nặng và chọn thuốc để thấy vì sao bắt buộc phải ghi <b>cả mg và ml</b> trên đơn.</p>
+        <div class="grid md:grid-cols-[220px_80px_minmax(0,1fr)] gap-3 items-end mb-4">
+          <div><label class="text-[.7rem] mono tracking-wider text-slate-400">THUỐC</label>
+            <select id="syrDrug" class="w-full mt-1"></select></div>
+          <div><label class="text-[.7rem] mono tracking-wider text-slate-400">KG</label>
+            <input id="syrW" type="number" value="12" min="1" max="80" step="0.5" class="w-full mt-1"></div>
+          <div><button onclick="calcSyrup()" class="btn btn-teal w-full">So sánh các nồng độ</button></div>
+        </div>
+        <div class="overflow-x-auto"><table class="tb"><thead><tr><th>Dạng bào chế</th><th>Nồng độ</th><th>Thể tích cần cho 1 liều</th><th>Nếu phụ huynh đong nhầm 5 ml thì liều thực là</th></tr></thead><tbody id="syrBody"></tbody></table></div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-4 mt-5">
+        <div class="card p-5">
+          <div class="font-extrabold mb-3">✍️ Cách viết đơn chống nhầm lẫn</div>
+          <div class="space-y-2 text-[.84rem]">
+            <div class="cardFlat p-3"><span class="text-rose-300 font-bold">✕ SAI:</span> "Paracetamol 5 ml uống khi sốt" <span class="text-slate-400">→ không biết hàm lượng nào</span></div>
+            <div class="cardFlat p-3"><span class="text-teal-300 font-bold">✓ ĐÚNG:</span> "Paracetamol siro <b>120 mg/5 ml</b> — uống <b>6 ml (= 144 mg ≈ 12 mg/kg)</b> mỗi 6 giờ khi ≥ 38,5 °C. Tối đa 4 lần/24 giờ. Cân 12 kg."</div>
+            <div class="cardFlat p-3"><span class="text-rose-300 font-bold">✕ SAI:</span> "Midazolam .5 mg TM" <span class="text-slate-400">→ đọc thành 5 mg (gấp 10 lần)</span></div>
+            <div class="cardFlat p-3"><span class="text-teal-300 font-bold">✓ ĐÚNG:</span> "Midazolam <b>0,5 mg</b> TM chậm" <span class="text-slate-400">→ luôn có số 0 trước dấu thập phân</span></div>
+            <div class="cardFlat p-3"><span class="text-rose-300 font-bold">✕ SAI:</span> "Furosemid 20.0 mg" <span class="text-slate-400">→ đọc thành 200 mg</span></div>
+            <div class="cardFlat p-3"><span class="text-teal-300 font-bold">✓ ĐÚNG:</span> "Furosemid <b>20 mg</b>" <span class="text-slate-400">→ không bao giờ dùng số 0 thừa</span></div>
+            <div class="cardFlat p-3"><span class="text-rose-300 font-bold">✕ SAI:</span> "Insulin 10 U" <span class="text-slate-400">→ đọc thành 100 hoặc 70</span></div>
+            <div class="cardFlat p-3"><span class="text-teal-300 font-bold">✓ ĐÚNG:</span> "Insulin <b>10 đơn vị</b>" + chỉ dùng bút/bơm tiêm insulin</div>
+          </div>
+        </div>
+        <div class="card p-5">
+          <div class="font-extrabold mb-3">📏 Làm tròn thể tích &amp; dụng cụ đo</div>
+          <div class="space-y-2 text-[.84rem]">
+            <div class="cardFlat p-3 flex justify-between gap-3"><span class="text-slate-300">&lt; 0,1 ml</span><span class="text-teal-200 font-semibold">bơm tiêm 1 ml (chia 0,01) — pha loãng trước khi tiêm</span></div>
+            <div class="cardFlat p-3 flex justify-between gap-3"><span class="text-slate-300">0,1 – 1 ml</span><span class="text-teal-200 font-semibold">bơm tiêm 1 ml</span></div>
+            <div class="cardFlat p-3 flex justify-between gap-3"><span class="text-slate-300">1 – 3 ml</span><span class="text-teal-200 font-semibold">bơm tiêm 3 ml — làm tròn 0,1 ml</span></div>
+            <div class="cardFlat p-3 flex justify-between gap-3"><span class="text-slate-300">3 – 10 ml</span><span class="text-teal-200 font-semibold">bơm tiêm 5–10 ml / ống đong — làm tròn 0,5 ml</span></div>
+            <div class="cardFlat p-3 flex justify-between gap-3"><span class="text-slate-300">&gt; 10 ml</span><span class="text-teal-200 font-semibold">cốc/ống đong có vạch — làm tròn 1 ml</span></div>
+            <div class="cardFlat p-3 flex justify-between gap-3"><span class="text-rose-200">Số viên không nguyên</span><span class="text-slate-300">&lt; 0,25 viên → đổi dạng lỏng; ≥ 0,5 viên → dùng dạng lỏng hoặc chia viên có vạch</span></div>
+          </div>
+          <div class="trap mt-3"><p class="text-[.82rem] text-slate-300 leading-relaxed"><b>Tuyệt đối không</b> bẻ viên nang, nghiền viên bao tan trong ruột / viên phóng thích chậm (Depakine Chrono, Adalat LA…). Nếu bắt buộc → chọn dạng lỏng hoặc dạng khác.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 DỊCH TRUYỀN -->
+    <section id="dich" class="scroll-mt-6 reveal">
+      <div class="sec-num">07 / DỊCH TRUYỀN</div>
+      <h2 class="sec">Tốc độ truyền, dịch duy trì &amp; những giới hạn không được vượt</h2>
+      <div class="grid lg:grid-cols-2 gap-5">
+        <div class="card p-5">
+          <div class="font-extrabold mb-1">💧 Máy tính dịch duy trì (Holliday-Segar 4-2-1)</div>
+          <p class="text-[.82rem] text-slate-400 mb-4">100 ml/kg cho 10 kg đầu · +50 ml/kg cho 10 kg tiếp · +20 ml/kg cho mỗi kg trên 20 kg. Quy đổi ra ml/giờ, giọt/phút và GIR.</p>
+          <div class="grid grid-cols-2 gap-3">
+            <div><label class="text-[.7rem] mono tracking-wider text-slate-400">CÂN NẶNG (kg)</label><input id="flW" type="number" value="14" min="0.5" max="100" step="0.1" class="w-full mt-1"></div>
+            <div><label class="text-[.7rem] mono tracking-wider text-slate-400">HỆ SỐ GIỌT (giọt/ml)</label><select id="flDrop" class="w-full mt-1"><option value="60">60 — dây nhỏ giọt (nhi khoa)</option><option value="20" selected>20 — dây tiêu chuẩn</option><option value="15">15</option></select></div>
+            <div><label class="text-[.7rem] mono tracking-wider text-slate-400">% NƯỚC CÓ DEXTROSE</label><select id="flD" class="w-full mt-1"><option value="0">Không dextrose</option><option value="5" selected>Dextrose 5 %</option><option value="10">Dextrose 10 %</option></select></div>
+            <div><label class="text-[.7rem] mono tracking-wider text-slate-400">TỶ LỆ DUY TRÌ (%)</label><select id="flPct" class="w-full mt-1"><option value="100" selected>100 %</option><option value="75">75 % (hạn chế)</option><option value="50">50 %</option><option value="150">150 % (bù thêm)</option></select></div>
+          </div>
+          <button onclick="calcFluid()" class="btn btn-teal w-full mt-3">Tính dịch duy trì</button>
+          <div id="flOut" class="mt-4 space-y-2.5"></div>
+        </div>
+
+        <div class="space-y-4">
+          <div class="card p-5">
+            <div class="font-extrabold mb-3">⚡ Máy tính thuốc truyền liên tục (mcg/kg/phút → ml/giờ)</div>
+            <div class="grid grid-cols-2 gap-3">
+              <div><label class="text-[.7rem] mono tracking-wider text-slate-400">THUỐC</label><select id="inDrug" class="w-full mt-1"></select></div>
+              <div><label class="text-[.7rem] mono tracking-wider text-slate-400">CÂN NẶNG (kg)</label><input id="inW" type="number" value="12" min="0.5" max="100" step="0.1" class="w-full mt-1"></div>
+              <div><label class="text-[.7rem] mono tracking-wider text-slate-400">LIỀU (đơn vị/kg/phút)</label><input id="inDose" type="number" value="0.1" step="0.01" class="w-full mt-1 mono"></div>
+              <div><label class="text-[.7rem] mono tracking-wider text-slate-400">NỒNG ĐỘ ĐANG PHA</label><div id="inConc" class="cardFlat p-2.5 text-[.8rem] text-slate-300 mt-1">—</div></div>
+            </div>
+            <div class="mt-3 grid grid-cols-2 gap-3">
+              <div><label class="text-[.7rem] mono tracking-wider text-slate-400">TỔNG ml TRONG BƠM</label><input id="inVol" type="number" value="50" min="1" step="1" class="w-full mt-1"></div>
+              <div><label class="text-[.7rem] mono tracking-wider text-slate-400">ĐƠN VỊ LIỀU</label><select id="inUnit" class="w-full mt-1"><option value="mcg" selected>mcg/kg/phút</option><option value="mg">mg/kg/phút</option><option value="mIU">mUI/kg/phút</option></select></div>
+            </div>
+            <button onclick="calcInf()" class="btn btn-teal w-full mt-3">Tính ml/giờ</button>
+            <div id="inOut" class="mt-4 space-y-2.5"></div>
+          </div>
+          <div class="card p-5">
+            <div class="font-extrabold mb-3">🚫 Giới hạn truyền bắt buộc thuộc</div>
+            <div class="space-y-2 text-[.83rem]">
+              <div class="cardFlat p-3"><b class="text-rose-300">Kali clorua TM:</b> tốc độ ≤ <b>0,5 mmol/kg/giờ</b>; nồng độ ngoại vi ≤ <b>40 mmol/l</b> (0,3 %), tĩnh mạch trung tâm ≤ 60–80 mmol/l; <b>không bao giờ bolus</b>; luôn có monitor + máy truyền; 1 g KCl = 13,4 mmol.</div>
+              <div class="cardFlat p-3"><b class="text-rose-300">Bolus chống sốc:</b> NaCl 0,9 % hoặc Ringer Lactat <b>20 ml/kg</b> trong 5–20 phút; <b>10 ml/kg</b> nếu nghi sốc tim, suy tim nặng, sơ sinh non tháng. Đánh giá lại sau mỗi bolus (PED-05).</div>
+              <div class="cardFlat p-3"><b class="text-amber-300">Máu &amp; chế phẩm:</b> hồng cầu lắng <b>10–15 ml/kg</b> trong 3–4 giờ (tăng Hb ~2–3 g/dl); tiểu cầu <b>10–15 ml/kg</b>; huyết tương tươi <b>10–15 ml/kg</b>; albumin 5 % <b>10–20 ml/kg</b>. Không truyền chung dây với thuốc.</div>
+              <div class="cardFlat p-3"><b class="text-amber-300">Vancomycin:</b> ≥ 60 phút hoặc ≤ 10 mg/kg/giờ — tránh "red-man syndrome". <b>Adenosine:</b> bolus &lt; 5 giây ngay sát tĩnh mạch + flush 5 ml NaCl. <b>Phenytoin:</b> ≤ 1 mg/kg/phút với monitor (tụt HA, loạn nhịp).</div>
+              <div class="cardFlat p-3"><b class="text-sky-300">Sơ sinh — GIR:</b> <span class="mono">GIR = (% dextrose × ml/giờ) ÷ (6 × kg)</span>; mục tiêu <b>4–8 mg/kg/phút</b>. Dùng <b>Dextrose 10 %</b>, không bao giờ D30/D50 %. Hạn chế tổng dịch ở trẻ viêm phổi nặng / tim bẩm sinh.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 CCĐ -->
+    <section id="ccđ" class="scroll-mt-6 reveal">
+      <div class="sec-num">08 / AN TOÀN</div>
+      <h2 class="sec">Thuốc chống chỉ định &amp; cần thận trọng ở trẻ em</h2>
+      <p class="text-slate-400 max-w-3xl -mt-1 mb-5">Bảng này đáng giá hơn mọi danh sách liều. Học thuộc cột "lý do cơ chế" để bạn có thể <b>biện luận</b> chứ không phải học vẹt.</p>
+      <div class="flex flex-wrap gap-2 mb-4" id="cciFilter"></div>
+      <div class="card overflow-hidden">
+        <div class="overflow-x-auto max-h-[640px] overflow-y-auto">
+          <table class="tb"><thead><tr><th style="min-width:150px">Thuốc</th><th style="min-width:170px">Hạn chế theo tuổi / hoàn cảnh</th><th style="min-width:290px">Lý do (cơ chế)</th><th style="min-width:190px">Thay thế an toàn</th></tr></thead><tbody id="cciBody"></tbody></table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 09 HIGH ALERT -->
+    <section id="highalert" class="scroll-mt-6 reveal">
+      <div class="sec-num">09 / HỆ THỐNG</div>
+      <h2 class="sec">10 đúng · thuốc nguy cơ cao · double-check</h2>
+      <div class="grid lg:grid-cols-3 gap-4">
+        <div class="card p-5">
+          <div class="font-extrabold mb-3 text-teal-200">✅ 10 ĐÚNG khi dùng thuốc</div>
+          <ol class="space-y-1.5 text-[.84rem] text-slate-300 list-decimal list-inside" id="tenRights"></ol>
+        </div>
+        <div class="card p-5 border-rose-400/25">
+          <div class="font-extrabold mb-3 text-rose-200">🚨 Thuốc nguy cơ cao (high-alert) — bắt buộc 2 người kiểm tra</div>
+          <div class="space-y-1.5 text-[.84rem] text-slate-300" id="haList"></div>
+        </div>
+        <div class="card p-5">
+          <div class="font-extrabold mb-3">👯 Thuốc dễ nhầm (LASA — look-alike / sound-alike)</div>
+          <div class="space-y-2 text-[.84rem]" id="lasaList"></div>
+          <div class="act mt-4"><p class="text-[.82rem] text-slate-300 leading-relaxed"><b>Vincristin:</b> chỉ được tiêm TĨNH MẠCH. Bơm tuỷ sống gây tử vong gần như 100 %. Bắt buộc: pha loãng trong túi dịch, dán nhãn "CHỈ TIÊM TĨNH MẠCH — GÂY TỬ VONG NẾU BƠM TUỶ SỐNG", 2 người kiểm tra độc lập.</p></div>
+        </div>
+      </div>
+
+      <div class="card mt-5 overflow-hidden">
+        <div class="px-5 py-4 border-b border-white/10"><div class="font-extrabold">🧨 15 bẫy kê đơn kinh điển — đơn sai vs đơn đúng</div><div class="text-[.78rem] text-slate-400 mt-0.5">Mỗi bẫy đều là một ca tai biến có thật trong y văn về an toàn thuốc nhi</div></div>
+        <div class="overflow-x-auto max-h-[560px] overflow-y-auto"><table class="tb"><thead><tr><th style="min-width:180px">Bẫy</th><th style="min-width:260px">❌ Đơn sai / hành động sai</th><th style="min-width:280px">✅ Đúng</th><th style="min-width:250px">Hậu quả nếu sai</th></tr></thead><tbody id="trapBody"></tbody></table></div>
+      </div>
+    </section>
+
+    <!-- 10 DRILL -->
+    <section id="drill" class="scroll-mt-6 reveal">
+      <div class="sec-num">10 / LUYỆN TẬP</div>
+      <h2 class="sec">Bài tập tính liều — sinh ngẫu nhiên, chấm ngay, giải từng bước</h2>
+      <div class="flex flex-wrap items-center gap-2.5 mb-5">
+        <button onclick="newDrill()" class="btn btn-teal">🎲 Bài mới</button>
+        <span class="chip text-slate-300">Đúng: <b id="dlOk" class="ml-1 text-teal-300">0</b></span>
+        <span class="chip text-slate-300">Sai: <b id="dlNo" class="ml-1 text-rose-300">0</b></span>
+        <span class="chip mono text-slate-300" id="dlType">—</span>
+      </div>
+      <div class="grid lg:grid-cols-[minmax(0,1fr)_360px] gap-5 items-start">
+        <div class="card p-5">
+          <div id="dlQ" class="text-[.95rem] leading-relaxed text-slate-200"></div>
+          <div class="mt-4 flex flex-wrap gap-2 items-end">
+            <div class="flex-1 min-w-[200px]"><label class="text-[.7rem] mono tracking-wider text-slate-400">ĐÁP SỐ CỦA BẠN</label><input id="dlAns" type="text" class="w-full mt-1 mono text-lg" placeholder="nhập số, dùng dấu phẩy hoặc chấm thập phân" onkeydown="if(event.key==='Enter')checkDrill()"></div>
+            <div><label class="text-[.7rem] mono tracking-wider text-slate-400">ĐƠN VỊ</label><div id="dlUnit" class="cardFlat p-2.5 mt-1 mono text-teal-300 text-center min-w-[90px]">—</div></div>
+            <button onclick="checkDrill()" class="btn btn-teal">Kiểm tra</button>
+            <button onclick="showSol()" class="btn">Xem lời giải</button>
+          </div>
+          <div id="dlFb" class="mt-4 hidden"></div>
+        </div>
+        <div class="space-y-4">
+          <div class="card p-5">
+            <div class="text-xs mono tracking-[.16em] text-slate-400 mb-2">CÔNG THỨC CẦN NHỚ</div>
+            <div class="space-y-2 text-[.83rem] mono">
+              <div class="cardFlat p-2.5 text-teal-200">liều (mg) = mg/kg × kg</div>
+              <div class="cardFlat p-2.5 text-sky-200">ml = mg cần ÷ mg có × thể tích ống/siro</div>
+              <div class="cardFlat p-2.5 text-violet-200">ml/24h = 100×10 + 50×(kg−10) + 20×(kg−20)</div>
+              <div class="cardFlat p-2.5 text-amber-200">giọt/phút = (ml/giờ × hệ số giọt) ÷ 60</div>
+              <div class="cardFlat p-2.5 text-rose-200">ml/giờ = (mcg/kg/phút × kg × 60) ÷ (mg/ml × 1000)</div>
+              <div class="cardFlat p-2.5 text-teal-200">GIR = (% dextrose × ml/giờ) ÷ (6 × kg)</div>
+              <div class="cardFlat p-2.5 text-sky-200">BSA Mosteller = √(cm × kg ÷ 3600)</div>
+            </div>
+          </div>
+          <div class="card p-5">
+            <div class="text-xs mono tracking-[.16em] text-teal-300 mb-2">TIẾN ĐỘ</div>
+            <div class="h-2.5 rounded-full bg-white/8 overflow-hidden"><div id="dlBar" class="h-full rounded-full bg-gradient-to-r from-teal-400 to-sky-400 transition-all" style="width:0%"></div></div>
+            <p class="text-[.8rem] text-slate-400 mt-2.5 leading-relaxed">Mục tiêu trước khi vào trực: <b class="text-teal-300">20 bài liên tiếp đúng</b>, mỗi bài tự giải được trong &lt; 45 giây mà không cần máy tính.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11 FLASH -->
+    <section id="flash" class="scroll-mt-6 reveal">
+      <div class="sec-num">11 / GHI NHỚ</div>
+      <h2 class="sec">Flashcards Why-based — 22 thẻ</h2>
+      <div class="flex flex-wrap gap-2.5 mb-5">
+        <button onclick="shuffleCards()" class="btn">🔀 Xáo trộn</button>
+        <button onclick="flipAll()" class="btn">↻ Lật tất cả</button>
+        <span class="chip mono text-slate-300 self-center" id="cardIdx">22 thẻ</span>
+        <button onclick="exportAnki()" class="btn btn-teal ml-auto">⬇️ Xuất thẻ Anki (.txt)</button>
+      </div>
+      <div class="grid md:grid-cols-3 gap-4" id="cardGrid"></div>
+    </section>
+
+    <!-- 12 QUIZ -->
+    <section id="quiz" class="scroll-mt-6 reveal">
+      <div class="sec-num">12 / TỰ ĐÁNH GIÁ</div>
+      <h2 class="sec">Trắc nghiệm 10 câu — có giải thích cơ chế</h2>
+      <div class="flex flex-wrap items-center gap-3 mb-5">
+        <div id="qScore" class="chip badge-n mono">0 / 10</div>
+        <div class="flex-1 h-2 rounded-full bg-white/8 overflow-hidden min-w-[120px]"><div id="qBar" class="h-full rounded-full bg-gradient-to-r from-teal-400 to-sky-400 transition-all" style="width:0%"></div></div>
+        <button onclick="resetQuiz()" class="btn text-sm py-2">↺ Làm lại</button>
+      </div>
+      <div class="space-y-4" id="quizList"></div>
+    </section>
+
+    <!-- 13 CHEAT SHEET -->
+    <section id="cheat" class="scroll-mt-6 reveal">
+      <div class="sec-num">13 / TỔNG KẾT</div>
+      <h2 class="sec">Cheat sheet dán ở bàn trực</h2>
+      <div class="grid lg:grid-cols-3 gap-4">
+        <div class="card p-5">
+          <div class="font-extrabold mb-3 text-teal-200">🧮 Công thức bỏ túi</div>
+          <div class="space-y-2 text-[.83rem]">
+            <div class="cardFlat p-2.5"><b>Liều</b>: mg/kg × cân nặng, <span class="text-rose-300">đối chiếu trần người lớn</span></div>
+            <div class="cardFlat p-2.5"><b>Dịch duy trì</b>: 100/50/20 ml/kg (4-2-1)</div>
+            <div class="cardFlat p-2.5"><b>Giọt/phút</b>: ml/giờ × hệ số giọt ÷ 60</div>
+            <div class="cardFlat p-2.5"><b>GIR</b>: %D × ml/giờ ÷ (6 × kg) → 4–8 mg/kg/phút</div>
+            <div class="cardFlat p-2.5"><b>Bolus sốc</b>: 20 ml/kg (10 ml/kg nếu sốc tim/non tháng)</div>
+            <div class="cardFlat p-2.5"><b>Kali TM</b>: ≤ 0,5 mmol/kg/giờ; ≤ 40 mmol/l ngoại vi</div>
+            <div class="cardFlat p-2.5"><b>HCT lắng</b>: 10–15 ml/kg / 3–4 giờ</div>
+            <div class="cardFlat p-2.5"><b>BSA</b>: √(cm × kg ÷ 3600)</div>
+            <div class="cardFlat p-2.5"><b>eGFR Schwartz</b>: 0,413 × cm ÷ creatinin(mg/dl)</div>
+          </div>
+        </div>
+        <div class="card p-5 border-rose-400/25">
+          <div class="font-extrabold mb-3 text-rose-200">⛔ Không bao giờ</div>
+          <ul class="space-y-1.5 text-[.83rem] text-slate-300 list-disc list-inside">
+            <li>Ước lượng cân nặng bằng mắt để kê liều</li>
+            <li>Viết <span class="mono">.5</span> hoặc <span class="mono">5.0</span> hoặc <span class="mono">10 U</span></li>
+            <li>Kê mg/kg vượt quá trần người lớn</li>
+            <li>Bolus Kali clorua tĩnh mạch</li>
+            <li>Dùng Dextrose 30–50 % ở sơ sinh</li>
+            <li>Adrenalin 1:1000 tiêm TM không pha loãng</li>
+            <li>Aspirin hạ sốt cho trẻ &lt; 16 tuổi</li>
+            <li>Codein / Tramadol cho trẻ &lt; 12 tuổi</li>
+            <li>Ibuprofen trong sốt xuất huyết Dengue</li>
+            <li>Ceftriaxon cho sơ sinh &lt; 28 ngày</li>
+            <li>Loperamid / Promethazin cho trẻ nhỏ</li>
+            <li>Đo siro bằng thìa cà phê gia đình</li>
+            <li>Truyền Vancomycin &lt; 60 phút</li>
+            <li>Kê đơn mà không ghi cân nặng</li>
+          </ul>
+        </div>
+        <div class="space-y-4">
+          <div class="card p-5">
+            <div class="font-extrabold mb-2.5">✅ Checklist trước khi ký đơn</div>
+            <div id="ckList" class="space-y-1"></div>
+            <div class="mt-3 flex items-center justify-between"><span class="chip badge-w mono" id="ckCount">0 / 10</span><button onclick="clearCk()" class="btn text-sm py-2">Xoá</button></div>
+          </div>
+          <div class="card p-5">
+            <div class="font-extrabold mb-2">🔗 Chuỗi bài phụ thuộc</div>
+            <div class="space-y-1.5 text-[.84rem]">
+              <div class="cardFlat p-2.5 flex justify-between"><span><b class="text-teal-300 mono">PED-01</b> Sinh hiệu &amp; cân nặng theo tuổi</span><span class="chip">nền</span></div>
+              <div class="cardFlat p-2.5 flex justify-between"><span><b class="text-teal-300 mono">PED-02</b> PAT &amp; ABCDE</span><span class="chip">nền</span></div>
+              <div class="cardFlat p-2.5 flex justify-between"><span><b class="text-teal-300 mono">PED-03</b> Liều thuốc mg/kg</span><span class="chip !bg-teal-400/15 !border-teal-400/40 text-teal-200">bài này</span></div>
+              <div class="cardFlat p-2.5 flex justify-between"><span><b class="text-teal-300 mono">PED-04</b> PALS &amp; ngừng tuần hoàn</span><span class="chip">tiếp theo</span></div>
+              <div class="cardFlat p-2.5 flex justify-between"><span><b class="text-teal-300 mono">PED-05</b> Sốc giờ đầu</span><span class="chip">tiếp theo</span></div>
+              <div class="cardFlat p-2.5 flex justify-between"><span><b class="text-teal-300 mono">PED-06</b> Phản vệ</span><span class="chip">tiếp theo</span></div>
+            </div>
+          </div>
+          <div class="cardFlat p-4 why">
+            <div class="text-[.7rem] mono tracking-[.16em] text-violet-300 mb-1">TRẠNG THÁI BIÊN SOẠN</div>
+            <p class="text-[.82rem] text-slate-300 leading-relaxed"><b>PED-03 · ✅ GATES ĐẠT (RELEASE v1)</b> — Toàn bộ hiện vật đã hoàn tất (MD canonical + APKG 48 thẻ Pastel + Web App). Liều trong bài là liều tham chiếu thường dùng; <b>luôn đối chiếu phác đồ hiện hành của bệnh viện bạn</b> và tờ hướng dẫn sử dụng trước khi kê.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <footer class="border-t border-white/10 mt-10 py-8 px-5 text-center text-[.78rem] text-slate-500">
+    Curriculum Nhi khoa · Core 45 · Block 0 — <span class="mono text-teal-300/80">PED-03: Nguyên tắc kê đơn &amp; tính liều an toàn</span> · Why-based learning<br>
+    Nội dung đào tạo cho bác sĩ thực hành. Không thay thế phác đồ của đơn vị và tờ hướng dẫn sử dụng thuốc.
+  </footer>
+</main>
+
+<script>
+/* ============ UTIL ============ */
+const $=s=>document.querySelector(s), $$=s=>Array.from(document.querySelectorAll(s));
+const nf=(n,d=1)=>{ if(!isFinite(n))return '—'; let s=n.toFixed(d); if(d>0){ s=s.replace(/0+$/,'').replace(/[.,]$/,''); } return s.replace('.',','); };
+const rnd=(a,b,step=1)=>{const n=Math.round((a+Math.random()*(b-a))/step)*step; return +n.toFixed(2);};
+const pick=a=>a[Math.floor(Math.random()*a.length)];
+const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
+
+const NAV=[['muc-tieu','Mục tiêu & bản đồ'],['adme','Dược động học nhi'],['quytrinh','Quy trình 5 bước'],
+['calc','Máy tính liều mg/kg'],['tranlieu','Bẫy trần liều'],['baoche','Dạng bào chế'],
+['dich','Dịch truyền & tốc độ'],['ccđ','Chống chỉ định theo tuổi'],['highalert','10 đúng & thuốc nguy cơ cao'],
+['drill','Bài tập tính liều'],['flash','Flashcards'],['quiz','Trắc nghiệm'],['cheat','Cheat sheet']];
+
+/* ============ FORMULARY ============ */
+const GROUPS={sot:'Hạ sốt – Giảm đau',ks:'Kháng sinh – Kháng virus',hh:'Hô hấp – Hen',cc:'Cấp cứu – Hồi sức',tk:'Thần kinh – Co giật',th:'Tiêu hoá – Dinh dưỡng',dg:'Dịch – Điện giải – Máu'};
+/* f = [nhãn, hàm lượng, thể tích(ml) hoặc 1 nếu là đơn vị viên/gói/ống] ; per: 'dose'|'day' ; u: đơn vị */
+const DRUGS=[
+{n:'Paracetamol (Acetaminophen)',g:'sot',d:'10–15 mg/kg/lần, mỗi 4–6 giờ',dmin:10,dmax:15,per:'dose',times:4,u:'mg',
+ ms:1000,md:4000,mdkg:60,r:'Uống · TM · trực tràng',
+ f:[['Gói bột 80 mg',80,1],['Gói bột 150 mg',150,1],['Gói bột 250 mg',250,1],['Siro 120 mg/5 ml',120,5],['Siro 250 mg/5 ml',250,5],['Hỗn dịch nhỏ giọt 100 mg/ml',100,1],['Viên 325 mg',325,1],['Viên 500 mg',500,1],['Viên đạn 80 mg',80,1],['Viên đạn 150 mg',150,1],['Viên đạn 300 mg',300,1],['Ống TM 10 mg/ml (1 g/100 ml)',10,1]],
+ w:'Ngưỡng độc cấp > 150 mg/kg (PED-10). Cộng dồn TẤT CẢ chế phẩm chứa paracetamol (kể cả thuốc ho-cảm phối hợp). Viên đạn phải trừ vào tổng liều 24 giờ.',
+ y:'Trần 60 mg/kg/ngày ở trẻ em và 4 g/ngày ở người lớn vì gan bão hoà đường sulfat hoá/glucuronid hoá → dồn sang CYP2E1 tạo NAPQI. Trẻ em dung nạp mg/kg cao hơn người lớn nhờ dự trữ glutathion tốt hơn, nhưng vẫn chạm trần 4 g.'},
+{n:'Ibuprofen',g:'sot',d:'5–10 mg/kg/lần, mỗi 6–8 giờ',dmin:5,dmax:10,per:'dose',times:4,u:'mg',
+ ms:400,md:1600,mdkg:40,r:'Uống',
+ f:[['Siro 100 mg/5 ml',100,5],['Siro 200 mg/5 ml',200,5],['Hỗn dịch nhỏ giọt 50 mg/1,25 ml',50,1.25],['Viên 200 mg',200,1],['Viên 400 mg',400,1]],
+ w:'CCĐ: < 6 tháng, mất nước (tiêu chảy/nôn), sốt xuất huyết Dengue & mọi tình trạng giảm tiểu cầu/xuất huyết, loét dạ dày, suy thận, hen nặng, sau mổ cắt amydale.',
+ y:'NSAID ức chế kết tập tiểu cầu và giảm tưới máu thận (ức chế prostaglandin) → tăng xuất huyết và nguy cơ suy thận cấp, đặc biệt khi thể tích tuần hoàn giảm.'},
+{n:'Amoxicillin',g:'ks',d:'25–90 mg/kg/NGÀY, chia 2–3 lần',dmin:25,dmax:90,per:'day',times:2,u:'mg',
+ ms:1000,md:3000,mdkg:90,r:'Uống',
+ f:[['Gói 250 mg',250,1],['Siro 125 mg/5 ml',125,5],['Siro 250 mg/5 ml',250,5],['Siro 400 mg/5 ml',400,5],['Viên 500 mg',500,1],['Viên 875 mg',875,1]],
+ w:'Liều cao 80–90 mg/kg/ngày cho viêm phổi cộng đồng, viêm tai giữa, viêm xoang (phủ phế cầu kháng penicillin). Kiểm tra dị ứng penicillin.',
+ y:'Liều cao vượt được MIC của phế cầu kháng (PBP2x thay đổi) — đó là lý do WHO/Bộ Y tế chuyển sang liều cao thay vì tăng phổ kháng sinh.'},
+{n:'Amoxicillin / Clavulanat',g:'ks',d:'25–45 mg/kg/NGÀY (tính theo amoxicillin), chia 2–3 lần',dmin:25,dmax:45,per:'day',times:2,u:'mg',
+ ms:1000,md:3000,mdkg:90,r:'Uống',
+ f:[['Siro 250/31,25 mg per 5 ml',250,5],['Siro 500/62,5 mg per 5 ml',500,5],['Gói 250/31,25 mg',250,1],['Viên 500/125 mg',500,1],['Viên 875/125 mg',875,1]],
+ w:'Tỷ lệ amoxicillin/clavulanat khác nhau giữa các chế phẩm — KHÔNG được hoán đổi 1:1. Tăng tiêu chảy so với amoxicillin đơn độc.',
+ y:'Clavulanat ức chế beta-lactamase nhưng chính nó gây tiêu chảy và viêm gan ứ mật (đặc biệt người lớn); tỷ lệ 14:1 (875/125) ít tiêu chảy hơn 4:1.'},
+{n:'Ampicillin',g:'ks',d:'100–200 mg/kg/NGÀY, chia 4 lần TM',dmin:100,dmax:200,per:'day',times:4,u:'mg',
+ ms:2000,md:12000,mdkg:200,r:'TM / TB',
+ f:[['Lọ bột 500 mg',500,1],['Lọ bột 1 g',1000,1]],
+ w:'Thuốc nền trong nhiễm khuẩn sơ sinh (phối hợp Gentamicin) và viêm màng não nghi Listeria/Enterococcus (PED-16, 37).',
+ y:'Phổ hẹp hơn nhưng an toàn ở sơ sinh; phối hợp hiệp đồng với aminoglycosid với Listeria và Enterococcus.'},
+{n:'Cefotaxim',g:'ks',d:'100–200 mg/kg/NGÀY, chia 3–4 lần TM',dmin:100,dmax:200,per:'day',times:3,u:'mg',
+ ms:2000,md:12000,mdkg:200,r:'TM',
+ f:[['Lọ bột 1 g',1000,1],['Lọ bột 500 mg',500,1]],
+ w:'Lựa chọn ưu tiên thay Ceftriaxon ở sơ sinh. Viêm màng não: 200 mg/kg/ngày chia 4.',
+ y:'Không đẩy bilirubin khỏi albumin và không kết tủa với canxi như ceftriaxon → an toàn cho sơ sinh.'},
+{n:'Ceftriaxon',g:'ks',d:'50–100 mg/kg/NGÀY, 1 lần TM',dmin:50,dmax:100,per:'day',times:1,u:'mg',
+ ms:2000,md:2000,mdkg:100,r:'TM / TB sâu',
+ f:[['Lọ bột 1 g',1000,1],['Lọ bột 500 mg',500,1]],
+ w:'TRẦN 2 g/ngày — chạm trần từ 20 kg với liều 100 mg/kg. CCĐ sơ sinh < 28 ngày, trẻ vàng da, đang truyền dịch chứa canxi (Ringer). Không pha chung đường truyền với canxi.',
+ y:'Gắn mạnh vào albumin đẩy bilirubin tự do → vàng da nhân não; tạo kết tủa ceftriaxon-canxi lắng ở phổi và thận gây tử vong ở sơ sinh. Thời gian bán huỷ dài (8 h) cho phép dùng 1 lần/ngày.'},
+{n:'Cefazolin',g:'ks',d:'50–100 mg/kg/NGÀY, chia 3 lần TM',dmin:50,dmax:100,per:'day',times:3,u:'mg',
+ ms:2000,md:6000,mdkg:100,r:'TM',
+ f:[['Lọ bột 1 g',1000,1],['Lọ bột 500 mg',500,1]],
+ w:'Dự phòng phẫu thuật và nhiễm khuẩn da-mô mềm do tụ cầu nhạy methicillin. Dễ nhầm với Cefotaxim (LASA).',
+ y:'Thế hệ 1: phổ cầu khuẩn gram dương tốt, ít qua hàng rào máu não → không dùng cho viêm màng não.'},
+{n:'Cloxacillin',g:'ks',d:'50–100 mg/kg/NGÀY, chia 4 lần',dmin:50,dmax:100,per:'day',times:4,u:'mg',
+ ms:2000,md:8000,mdkg:100,r:'Uống · TM',
+ f:[['Viên nang 500 mg',500,1],['Lọ bột tiêm 500 mg',500,1],['Siro 125 mg/5 ml',125,5]],
+ w:'Uống lúc đói (trước ăn 1 giờ). Điều trị nhiễm tụ cầu nhạy methicillin (chốc lở, viêm mô tế bào, viêm xương).',
+ y:'Nhóm isoxazolyl penicillin kháng được penicillinase của tụ cầu; không có tác dụng với MRSA.'},
+{n:'Gentamicin',g:'ks',d:'5–7,5 mg/kg/NGÀY, 1 lần TM/TB',dmin:5,dmax:7.5,per:'day',times:1,u:'mg',
+ ms:500,md:500,mdkg:7.5,r:'TM chậm 30–60 phút / TB',
+ f:[['Ống 80 mg/2 ml',80,2],['Ống 40 mg/1 ml',40,1]],
+ w:'Sơ sinh/non tháng: khoảng cách liều KÉO DÀI (q24–48 h). Theo dõi nồng độ đáy và chức năng thận. Độc ốc tai-tiền đình không hồi phục. Không dùng quá 7–10 ngày.',
+ y:'Diệt khuẩn phụ thuộc nồng độ đỉnh → liều 1 lần/ngày cho đỉnh cao hơn và độc thận THẤP hơn chia 3 lần (hiệu ứng hậu kháng sinh dài).'},
+{n:'Amikacin',g:'ks',d:'15–20 mg/kg/NGÀY, 1 lần TM',dmin:15,dmax:20,per:'day',times:1,u:'mg',
+ ms:1500,md:1500,mdkg:20,r:'TM 30–60 phút',
+ f:[['Ống 500 mg/2 ml',500,2],['Lọ bột 500 mg',500,1]],
+ w:'Giống gentamicin: độc thận + độc tai. Ưu tiên khi nghi gram âm kháng gentamicin (nhiễm khuẩn bệnh viện).',
+ y:'Ít bị ảnh hưởng bởi enzyme bất hoạt aminoglycosid hơn gentamicin → còn tác dụng với nhiều chủng kháng.'},
+{n:'Azithromycin',g:'ks',d:'10 mg/kg ngày 1, sau đó 5 mg/kg ngày 2–5 (hoặc 10 mg/kg/ngày × 3)',dmin:5,dmax:10,per:'day',times:1,u:'mg',
+ ms:500,md:500,mdkg:10,r:'Uống · TM',
+ f:[['Gói bột 200 mg',200,1],['Hỗn dịch 200 mg/5 ml',200,5],['Viên 250 mg',250,1],['Viên 500 mg',500,1],['Lọ TM 500 mg',500,1]],
+ w:'Kéo dài khoảng QT — thận trọng khi phối hợp thuốc kéo dài QT. Uống cách bữa ăn 1 giờ.',
+ y:'Tích lũy trong bạch cầu và mô → thời gian bán huỷ mô tới 68 giờ, cho phép liệu trình 3–5 ngày mà hiệu ứng kéo dài 10 ngày.'},
+{n:'Clarithromycin',g:'ks',d:'15 mg/kg/NGÀY, chia 2 lần',dmin:15,dmax:15,per:'day',times:2,u:'mg',
+ ms:500,md:1000,mdkg:15,r:'Uống',
+ f:[['Hỗn dịch 125 mg/5 ml',125,5],['Hỗn dịch 250 mg/5 ml',250,5],['Viên 250 mg',250,1],['Viên 500 mg',500,1]],
+ w:'Ức chế CYP3A4 mạnh → tương tác với carbamazepin, theophyllin, warfarin. Kéo dài QT.',
+ y:'Lựa chọn cho viêm phổi không điển hình (Mycoplasma, Chlamydia) và phối hợp diệt H. pylori.'},
+{n:'Vancomycin',g:'ks',d:'40–60 mg/kg/NGÀY, chia 3–4 lần TM',dmin:40,dmax:60,per:'day',times:4,u:'mg',
+ ms:1500,md:2000,mdkg:60,r:'TM — TRUYỀN ≥ 60 phút',
+ f:[['Lọ bột 500 mg',500,1],['Lọ bột 1 g',1000,1]],
+ w:'Truyền nhanh → "red-man syndrome" (phóng histamin ồ ạt: đỏ bừng mặt-cổ-ngực, tụt HA). Theo dõi nồng độ đáy (mục tiêu 10–20 mg/l) và chức năng thận. Sơ sinh: 15 mg/kg q12–24 h.',
+ y:'Không hấp thu qua đường uống (chỉ dùng uống cho viêm đại tràng do C. difficile). Thải qua thận gần như nguyên vẹn → tích luỹ khi suy thận.'},
+{n:'Meropenem',g:'ks',d:'30–120 mg/kg/NGÀY, chia 3 lần TM',dmin:30,dmax:120,per:'day',times:3,u:'mg',
+ ms:2000,md:6000,mdkg:120,r:'TM 15–30 phút',
+ f:[['Lọ bột 500 mg',500,1],['Lọ bột 1 g',1000,1]],
+ w:'Chỉ dùng khi có chỉ định rõ (nhiễm khuẩn nặng/đa kháng). Viêm màng não: 120 mg/kg/ngày. Giảm ngưỡng co giật (ít hơn imipenem).',
+ y:'Carbapenem phổ rộng nhất gồm cả Pseudomonas và ESBL; bền với beta-lactamase phổ rộng.'},
+{n:'Metronidazol',g:'ks',d:'30 mg/kg/NGÀY, chia 3 lần (7,5 mg/kg/lần)',dmin:20,dmax:30,per:'day',times:3,u:'mg',
+ ms:750,md:2000,mdkg:30,r:'Uống · TM',
+ f:[['Viên 250 mg',250,1],['Viên 500 mg',500,1],['Lọ TM 500 mg/100 ml',5,100]],
+ w:'Vị kim loại, buồn nôn. Tránh rượu. Bệnh thần kinh ngoại biên khi dùng kéo dài.',
+ y:'Hoạt hoá trong môi trường yếm khí → chỉ tác dụng trên kỵ khí và đơn bào (Amip, Giardia).'},
+{n:'Co-trimoxazol (TMP–SMX)',g:'ks',d:'Tính theo TMP 6–8 mg/kg/NGÀY, chia 2 lần',dmin:6,dmax:8,per:'day',times:2,u:'mg',
+ ms:160,md:960,mdkg:8,r:'Uống · TM',
+ f:[['Viên 480 mg (TMP 80 + SMX 400)',80,1],['Viên 960 mg (TMP 160 + SMX 800)',160,1],['Hỗn dịch 240 mg/5 ml (TMP 40)',40,5]],
+ w:'CCĐ < 2 tháng tuổi (đẩy bilirubin → vàng da nhân não), suy gan/thận nặng, thiếu folat. Uống nhiều nước.',
+ y:'Sulfamethoxazol cạnh tranh vị trí gắn bilirubin trên albumin; đồng thời ức chế folate → thiếu máu hồng cầu khổng lồ.'},
+{n:'Aciclovir TM',g:'ks',d:'20 mg/kg/lần, mỗi 8 giờ (1500 mg/m²/ngày) — truyền 1 giờ',dmin:15,dmax:20,per:'dose',times:3,u:'mg',
+ ms:1500,md:4500,mdkg:60,r:'TM truyền 1 giờ',
+ f:[['Lọ bột 250 mg',250,1],['Lọ bột 500 mg',500,1]],
+ w:'Truyền chậm ≥ 1 giờ + bù đủ dịch để tránh tinh thể aciclovir lắng ở ống thận gây suy thận cấp. Chỉnh liều theo chức năng thận.',
+ y:'Viêm não HSV và HSV sơ sinh là chỉ định sống còn: phải bắt đầu NGAY khi nghi ngờ, không chờ PCR/kết quả dịch não tuỷ (PED-37).'},
+{n:'Oseltamivir',g:'ks',d:'Theo cân nặng (liều cố định theo nhóm)',dmin:0,dmax:0,per:'dose',times:2,u:'mg',ms:75,md:150,
+ r:'Uống × 2 lần/ngày × 5 ngày',bands:[['≤ 15 kg','30 mg × 2 lần/ngày'],['> 15–23 kg','45 mg × 2 lần/ngày'],['> 23–40 kg','60 mg × 2 lần/ngày'],['> 40 kg','75 mg × 2 lần/ngày'],['< 1 tuổi','3 mg/kg × 2 lần/ngày']],
+ f:[['Viên nang 30 mg',30,1],['Viên nang 45 mg',45,1],['Viên nang 75 mg',75,1],['Bột pha hỗn dịch 6 mg/ml',6,1]],
+ w:'Hiệu quả nhất trong 48 giờ đầu. Buồn nôn/nôn — uống cùng thức ăn giảm tác dụng phụ.',
+ y:'Ức chế neuraminidase ngăn virus giải phóng khỏi tế bào; không có tác dụng với virus đã nhân lên xong.'},
+{n:'Nystatin (rơ miệng)',g:'ks',d:'100.000 UI/lần × 4 lần/ngày (rơ miệng)',dmin:0,dmax:0,per:'dose',times:4,u:'UI',ms:200000,md:800000,
+ r:'Tại chỗ — rơ miệng, nuốt',bands:[['Mọi lứa tuổi','100.000 UI/lần, ngày 4 lần, rơ sau ăn'],['Dự phòng khi dùng corticoid hít','Súc/rơ miệng sau mỗi lần xịt ICS']],
+ f:[['Gói bột 100.000 UI',100000,1],['Hỗn dịch 100.000 UI/ml',100000,1]],
+ w:'Không hấp thu qua đường tiêu hoá → an toàn, nhưng chỉ có tác dụng tại chỗ. Tiếp tục 48 giờ sau khi hết tổn thương.',
+ y:'Gắn vào ergosterol của màng nấm tạo lỗ rò — không tác dụng trên vi khuẩn vì màng tế bào vi khuẩn không có sterol.'},
+{n:'Salbutamol khí dung',g:'hh',d:'< 25 kg: 2,5 mg/lần · ≥ 25 kg: 5 mg/lần',dmin:0,dmax:0,per:'dose',times:4,u:'mg',ms:5,md:20,
+ r:'Khí dung · MDI qua buồng đệm',bands:[['< 25 kg','2,5 mg/lần (1 ống 2,5 mg/2,5 ml)'],['≥ 25 kg','5 mg/lần (2 ống hoặc 1 ống 5 mg/2,5 ml)'],['Cơn nặng','Khí dung liên tục hoặc mỗi 20 phút × 3 lần đầu'],['MDI + buồng đệm','100 µg/nhát: 4–6 nhát (≤ 5 tuổi), 4–8 nhát (> 5 tuổi), mỗi 20 phút']],
+ f:[['Ống khí dung 2,5 mg/2,5 ml',2.5,2.5],['Ống khí dung 5 mg/2,5 ml',5,2.5],['MDI 100 µg/nhát (200 nhát)',0.1,1],['Ống TM 0,5 mg/ml (pha loãng)',0.5,1]],
+ w:'MDI + buồng đệm hiệu quả tương đương khí dung trong cơn hen nhẹ-trung bình và ít tác dụng phụ hơn (PED-08). Khí dung bằng oxy nếu SpO₂ thấp. Theo dõi kali (gây hạ kali) và nhịp tim.',
+ y:'Chủ vận beta-2 chọn lọc → giãn cơ trơn phế quản. Khí dung liên tục cho nồng độ tại chỗ cao hơn và ít tác dụng phụ toàn thân hơn TM.'},
+{n:'Ipratropium bromid khí dung',g:'hh',d:'< 6 tuổi: 0,25 mg · ≥ 6 tuổi: 0,5 mg — chỉ 3 liều đầu',dmin:0,dmax:0,per:'dose',times:3,u:'mg',ms:0.5,md:2,
+ r:'Khí dung (phối hợp salbutamol)',bands:[['< 6 tuổi','0,25 mg/lần'],['≥ 6 tuổi','0,5 mg/lần'],['Số lần','Chỉ dùng trong 3 lần khí dung đầu của cơn nặng, sau đó ngừng nếu đáp ứng']],
+ f:[['Ống 0,25 mg/ml × 2 ml (0,5 mg)',0.5,2],['Ống 0,25 mg/2 ml',0.25,2]],
+ w:'Không có vai trò trong điều trị duy trì hen. Che mắt khi khí dung (giãn đồng tử).',
+ y:'Kháng muscarinic → giảm trương lực phó giao cảm phế quản. Hiệp đồng với salbutamol qua 2 cơ chế khác nhau trong cơn nặng.'},
+{n:'Adrenalin khí dung (croup)',g:'hh',d:'0,5 ml/kg dung dịch 1 mg/ml (tối đa 5 ml)',dmin:0.3,dmax:0.5,per:'dose',times:3,u:'ml',ms:5,md:15,
+ r:'Khí dung L-adrenalin 1:1000',
+ f:[['Ống 1 mg/1 ml (L-adrenalin 1:1000)',1,1]],
+ w:'Chỉ dùng cho croup trung bình-nặng có stridor khi nằm yên. Tác dụng trong 30 phút → PHẢI đánh giá lại và dùng kèm Dexamethason (PED-24). Theo dõi nhịp tim, HA, hiệu ứng bật lại (rebound).',
+ y:'Co mạch qua thụ thể alpha ở niêm mạc hạ thanh môn → giảm phù nề nhanh trong 10–30 phút, "mua thời gian" cho corticoid phát huy tác dụng (4–6 giờ).'},
+{n:'Dexamethason',g:'hh',d:'0,15–0,6 mg/kg — LIỀU DUY NHẤT (croup, hen)',dmin:0.15,dmax:0.6,per:'dose',times:1,u:'mg',
+ ms:12,md:16,mdkg:0.6,r:'Uống · TM · TB',
+ f:[['Viên 0,5 mg',0.5,1],['Viên 4 mg',4,1],['Ống 4 mg/ml',4,1],['Ống 8 mg/2 ml',8,2]],
+ w:'TRẦN 10–12 mg cho croup — chạm trần từ ~17–20 kg với liều 0,6 mg/kg. Một liều duy nhất đủ cho 48–72 giờ.',
+ y:'Thời gian bán huỷ sinh học 36–72 giờ → một liều duy nhất bao trọn thời gian nguy cơ của croup, tránh phải dùng nhiều ngày.'},
+{n:'Methylprednisolon',g:'hh',d:'1–2 mg/kg/ngày (cơn hen: liều đầu 1–2 mg/kg)',dmin:1,dmax:2,per:'day',times:2,u:'mg',
+ ms:60,md:120,mdkg:2,r:'TM · TB · Uống',
+ f:[['Ống 40 mg',40,1],['Ống 125 mg',125,1],['Viên 4 mg',4,1],['Viên 16 mg',16,1]],
+ w:'TRẦN 40–60 mg/ngày cho cơn hen — chạm trần từ ~30 kg. Dùng buổi sáng để ít ức chế trục HPA.',
+ y:'Khởi phát tác dụng chống viêm sau 4–6 giờ → phải cho SỚM trong cơn hen, không chờ đáp ứng salbutamol.'},
+{n:'Prednisolon (uống)',g:'hh',d:'1–2 mg/kg/NGÀY, 1 lần buổi sáng',dmin:1,dmax:2,per:'day',times:1,u:'mg',
+ ms:60,md:60,mdkg:2,r:'Uống',
+ f:[['Siro 15 mg/5 ml',15,5],['Viên 5 mg',5,1],['Viên 20 mg',20,1]],
+ w:'Giảm dần khi dùng > 10–14 ngày. Thận trọng ở trẻ đang nhiễm khuẩn chưa kiểm soát, lao, thuỷ đậu (nguy cơ lan toả).',
+ y:'Prednisolon là dạng hoạt động (prednison phải qua gan chuyển hoá) → ưu tiên ở trẻ suy gan. Ức chế viêm qua gen → cần 4–6 giờ để có tác dụng.'},
+{n:'Hydrocortison',g:'cc',d:'4–8 mg/kg/lần mỗi 6 giờ (phản vệ: 4 mg/kg)',dmin:4,dmax:8,per:'dose',times:4,u:'mg',
+ ms:500,md:2000,mdkg:32,r:'TM',
+ f:[['Lọ bột 100 mg',100,1],['Lọ bột 500 mg',500,1]],
+ w:'Là thuốc PHỤ TRỢ trong phản vệ — KHÔNG thay thế adrenalin. Tác dụng chậm sau 4–6 giờ, nhằm giảm phản vệ pha 2 (PED-06).',
+ y:'Có cả tác dụng mineralocorticoid → giữ Na/nước, hữu ích trong sốc nhưng bất lợi khi dùng kéo dài.'},
+{n:'Adrenalin tiêm bắp (PHẢN VỆ)',g:'cc',d:'0,01 mg/kg = 0,01 ml/kg dung dịch 1 mg/ml',dmin:0.005,dmax:0.01,per:'dose',times:4,u:'mg',
+ ms:0.5,md:2,mdkg:0.04,r:'TB mặt ngoài đùi (vasto lateralis)',
+ f:[['Ống 1 mg/1 ml (1:1000)',1,1],['Bút tự tiêm 0,15 mg',0.15,1],['Bút tự tiêm 0,3 mg',0.3,1]],
+ w:'TRẦN: 0,3 mg cho trẻ < 30 kg · 0,5 mg cho trẻ ≥ 30 kg. Lặp lại mỗi 5–15 phút nếu chưa đáp ứng. KHÔNG tiêm dưới da (hấp thu chậm khi sốc). Tiêm TM chỉ khi ngừng tim/sốc trơ và phải pha loãng + monitor.',
+ y:'Tiêm bắp mặt ngoài đùi cho nồng độ huyết tương cao hơn và nhanh hơn tiêm dưới da delta. Alpha-1 co mạch (chống tụt HA, giảm phù), beta-2 giãn phế quản, beta-1 tăng cung lượng tim — đảo ngược đồng thời 3 cơ chế của phản vệ.'},
+{n:'Adrenalin TM ngừng tim',g:'cc',d:'0,01 mg/kg = 0,1 ml/kg dung dịch 1:10.000, mỗi 3–5 phút',dmin:0.01,dmax:0.01,per:'dose',times:12,u:'mg',
+ ms:1,md:12,mdkg:0.12,r:'TM/IO — PHA LOÃNG 1:10.000',
+ f:[['Pha 1 mg/10 ml (1:10.000) — từ ống 1 mg/1 ml + 9 ml NaCl',0.1,1]],
+ w:'BẮT BUỘC pha loãng thành 1 mg/10 ml. Tiêm dung dịch 1:1000 không pha loãng vào tĩnh mạch gây tăng HA kịch phát, xuất huyết não, loạn nhịp chết người. Ở trẻ còn mạch: chỉ dùng khi nhịp chậm không đáp ứng oxy hoá-thông khí.',
+ y:'Trong ngừng tim, adrenalin co mạch ngoại vi (alpha) để dồn áp lực tưới máu cho vành và não — quan trọng hơn tác dụng tăng co bóp.'},
+{n:'Amiodaron',g:'cc',d:'5 mg/kg TM/IO trong 20–60 phút (VF/pVT trơ)',dmin:5,dmax:5,per:'dose',times:3,u:'mg',
+ ms:300,md:900,mdkg:15,r:'TM qua bơm tiêm điện',
+ f:[['Ống 150 mg/3 ml',150,3]],
+ w:'Trần 300 mg/liều. Chỉ dùng cho nhịp sốc được TRƠ với sốc điện + adrenalin (PED-04). Theo dõi HA (gây tụt HA do tá dược), khoảng QT. Tránh dung dịch glucose nếu có thể.',
+ y:'Kéo dài giai đoạn trơ của tất cả các mô tim (I, II, III, IV) → hiệu quả với cả nhịp nhanh trên thất và thất.'},
+{n:'Adenosin',g:'cc',d:'0,1 mg/kg TM NHANH (tối đa 6 mg); lặp lại 0,2 mg/kg (tối đa 12 mg)',dmin:0.1,dmax:0.2,per:'dose',times:2,u:'mg',
+ ms:12,md:24,mdkg:0.4,r:'TM bolus < 5 giây + flush 5 ml NaCl',
+ f:[['Ống 6 mg/2 ml',6,2]],
+ w:'Phải tiêm qua đường TM gần tim nhất có thể, bolus thật nhanh rồi flush ngay — nếu không thuốc bị bất hoạt trước khi tới tim (bán huỷ < 10 giây). CCĐ hen nặng, bloc nhĩ thất. Cảnh báo bệnh nhân về cảm giác "ngừng tim" thoáng qua.',
+ y:'Chẩn đoán và điều trị SVT: làm nghẽn dẫn truyền nút nhĩ-thất, cắt vòng vào lại. Không có tác dụng với cuồng nhĩ/nhanh nhĩ (chỉ làm chậm thất để chẩn đoán).'},
+{n:'Atropin',g:'cc',d:'0,02 mg/kg (tối thiểu 0,1 mg — tối đa 0,5 mg/liều)',dmin:0.02,dmax:0.02,per:'dose',times:2,u:'mg',
+ ms:1,md:2,mdkg:0.04,r:'TM',
+ f:[['Ống 0,25 mg/1 ml',0.25,1],['Ống 1 mg/1 ml',1,1]],
+ w:'Liều tối thiểu 0,1 mg vì liều thấp hơn gây nhịp chậm nghịch thường (kích thích trước synap). PALS hiện không dùng thường quy trong ngừng tim — chỉ khi nhịp chậm do tăng trương lực phế vị hoặc bloc nhĩ thất.',
+ y:'Kháng muscarinic → bỏ phanh phó giao cảm trên nút xoang và nút nhĩ thất. Ở trẻ em nhịp chậm chủ yếu do thiếu oxy nên oxy hoá-thông khí mới là điều trị gốc.'},
+{n:'Natri bicarbonat 4,2%',g:'cc',d:'1–2 mmol/kg TM chậm (0,5 ml = 0,25 mmol... xem nhãn)',dmin:1,dmax:2,per:'dose',times:2,u:'mmol',
+ ms:100,md:200,mdkg:4,r:'TM chậm',
+ f:[['Ống 4,2% × 10 ml (1 ml = 0,5 mmol)',0.5,1],['Ống 8,4% × 10 ml (1 ml = 1 mmol) — KHÔNG dùng sơ sinh',1,1]],
+ w:'Không dùng thường quy trong ngừng tim. Chỉ khi toan chuyển hoá nặng đã thông khí hiệu quả, tăng kali máu, hoặc ngộ độc thuốc chống trầm cảm 3 vòng. Sơ sinh: chỉ dùng loại 4,2 % và pha loãng.',
+ y:'HCO₃⁻ + H⁺ → H₂CO₃ → CO₂ + H₂O. CO₂ khuếch tán vào tế bào nhanh hơn HCO₃⁻ → làm nặng thêm toan NỘI bào và não nếu thông khí không hiệu quả.'},
+{n:'Calci gluconat 10%',g:'cc',d:'0,5 ml/kg = 50 mg/kg TM chậm (tối đa 20 ml)',dmin:0.2,dmax:0.5,per:'dose',times:1,u:'ml',
+ ms:20,md:20,mdkg:0.5,r:'TM chậm với monitor',
+ f:[['Ống 10% × 10 ml (1 g = 90 mg Ca nguyên tố)',10,10]],
+ w:'Thoát mạch gây hoại tử mô nặng. Không pha chung đường truyền với bicarbonat (kết tủa), ceftriaxon. Calci clorua 10 % mạnh gấp 3 lần — chỉ qua TM trung tâm.',
+ y:'Chỉ định: tăng kali máu (ổn định màng tế bào cơ tim — không hạ kali!), hạ calci có co giật, quá liều calci kênh, ngộ độc magnesi.'},
+{n:'Magnesi sulfat',g:'cc',d:'25–50 mg/kg TM chậm 10–20 phút (tối đa 2 g)',dmin:25,dmax:50,per:'dose',times:1,u:'mg',
+ ms:2000,md:4000,mdkg:100,r:'TM chậm 10–20 phút',
+ f:[['Ống 15% × 10 ml (150 mg/ml)',150,10],['Ống 25% × 2 ml (500 mg)',500,2],['Ống 50% × 5 ml',2500,5]],
+ w:'Truyền nhanh → tụt HA, ngưng thở, ngừng tim (ức chế dẫn truyền thần kinh-cơ). Theo dõi phản xạ gân xương, nhịp thở, HA. Giải độc bằng calci gluconat.',
+ y:'Hen nặng kháng trị: giãn cơ trơn phế quản qua ức chế calci nội bào. Cũng dùng cho xoắn đỉnh và sản giật.'},
+{n:'Naloxon',g:'cc',d:'0,1 mg/kg TM/TB (tối đa 2 mg) — sơ sinh 0,01 mg/kg',dmin:0.01,dmax:0.1,per:'dose',times:4,u:'mg',
+ ms:2,md:8,mdkg:0.4,r:'TM · TB · nội khí quản',
+ f:[['Ống 0,4 mg/1 ml',0.4,1],['Ống 0,02 mg/ml (sơ sinh)',0.02,1]],
+ w:'Thận trọng ở trẻ của mẹ nghiện opioid (gây hội chứng cai cấp co giật) và ở bệnh nhân phụ thuộc opioid. Bán huỷ ngắn hơn morphin → có thể tái ức chế hô hấp, cần theo dõi ≥ 4–6 giờ.',
+ y:'Đối kháng cạnh tranh tại thụ thể mu-opioid, đảo ngược ức chế hô hấp trong 1–2 phút.'},
+{n:'Furosemid',g:'cc',d:'1 mg/kg/lần TM (tối đa 20–40 mg/lần)',dmin:0.5,dmax:2,per:'dose',times:2,u:'mg',
+ ms:40,md:80,mdkg:4,r:'TM chậm · uống',
+ f:[['Ống 20 mg/2 ml',20,2],['Viên 40 mg',40,1],['Siro 10 mg/ml (20 mg/2 ml)',10,1]],
+ w:'Gây hạ kali, hạ Na, hạ calci, điếc (đặc biệt khi phối hợp aminoglycosid hoặc tiêm TM nhanh). KHÔNG dùng để "ép tiểu" trong sốc giảm thể tích — làm nặng thêm.',
+ y:'Ức chế đồng vận chuyển Na-K-2Cl ở nhánh lên quai Henle → mất cả kali và calci; giãn tĩnh mạch tức thì (giảm tiền tải) trước cả tác dụng lợi tiểu.'},
+{n:'Mannitol 20%',g:'cc',d:'0,5–1 g/kg = 2,5–5 ml/kg TM 20–30 phút',dmin:2.5,dmax:5,per:'dose',times:4,u:'ml',
+ ms:500,md:2000,mdkg:4,r:'TM qua bầu lọc',
+ f:[['Chai 20% × 100 ml (200 mg/ml)',200,1000],['Chai 20% × 250 ml',200,1000]],
+ w:'Phải có đủ thể tích tuần hoàn (gây lợi tiểu thẩm thấu → tụt HA nếu chưa bù dịch). Tinh thể hoá ở nhiệt độ thấp → làm ấm và dùng bầu lọc. Theo dõi áp lực thẩm thấu (< 320 mOsm/l) và chức năng thận.',
+ y:'Tăng áp lực thẩm thấu máu → kéo nước từ nhu mô não qua hàng rào máu não còn nguyên vẹn. Không hiệu quả nếu hàng rào máu não đã vỡ hoàn toàn.'},
+{n:'NaCl 3% (tăng trương)',g:'cc',d:'2–5 ml/kg TM trong 20–30 phút (hạ Na có triệu chứng: 3 ml/kg)',dmin:2,dmax:5,per:'dose',times:2,u:'ml',
+ ms:150,md:300,mdkg:5,r:'TM chậm — bơm tiêm điện',
+ f:[['Ống/chai NaCl 3% × 100 ml (0,513 mmol/ml)',0.513,1000],['Ống 10% × 10 ml (1,71 mmol/ml)',1.71,10]],
+ w:'Tăng Na quá nhanh (> 10–12 mmol/l/24 h) gây mất myelin cầu não. Chỉ dùng khi có triệu chứng thần kinh (co giật, hôn mê). Theo dõi Na mỗi 2–4 giờ.',
+ y:'Ưu tiên đưa Na lên 4–6 mmol/l trong vài giờ đầu để hết phù não, sau đó làm chậm lại — khác với mục tiêu "về bình thường".'},
+{n:'Glucose 10% (hạ đường huyết)',g:'cc',d:'2 ml/kg = 0,2 g/kg TM chậm',dmin:2,dmax:5,per:'dose',times:2,u:'ml',
+ ms:100,md:200,mdkg:5,r:'TM chậm 2–5 phút, sau đó truyền duy trì',
+ f:[['Ống Glucose 10% × 10 ml',1,10],['Chai Glucose 10% × 250 ml',1,250]],
+ w:'Sơ sinh CHỈ dùng Dextrose 10 %. Sau bolus bắt buộc truyền duy trì (GIR 4–8 mg/kg/phút) vì hạ đường huyết tái phát nhanh. Tìm nguyên nhân (PED-17).',
+ y:'Dextrose 30–50 % ở trẻ nhỏ gây tăng áp lực thẩm thấu đột ngột, hoại tử nếu thoát mạch, và hạ đường huyết phản ứng do phóng insulin ồ ạt.'},
+{n:'Bolus dịch chống sốc (NaCl 0,9% / Ringer Lactat)',g:'dg',d:'20 ml/kg mỗi bolus (10 ml/kg nếu sốc tim/non tháng)',dmin:10,dmax:20,per:'dose',times:4,u:'ml',
+ ms:2000,md:8000,mdkg:60,r:'TM/IO — 5–20 phút',
+ f:[['Túi 100 ml',1,100],['Túi 250 ml',1,250],['Túi 500 ml',1,500],['Túi 1000 ml',1,1000]],
+ w:'Đánh giá lại SAU MỖI bolus (nhịp tim, CRT, HA, gan, phổi). Giới hạn tổng dịch: ngừng/tạm dừng khi gan to nhanh, ran ẩm, tĩnh mạch cổ nổi → chuyển vận mạch sớm (PED-05).',
+ y:'Dịch tinh thể chỉ ~25 % ở lại trong lòng mạch sau 1 giờ → cần thể tích lớn, nhưng chính vì thế dễ gây quá tải và phù phổi nếu không đánh giá lại.'},
+{n:'Dịch duy trì (Holliday-Segar)',g:'dg',d:'100 ml/kg (10 kg đầu) + 50 ml/kg (10 kg tiếp) + 20 ml/kg (mỗi kg > 20)',dmin:0,dmax:0,per:'day',times:1,u:'ml',ms:3000,md:3000,
+ r:'TM 24 giờ',special:'fluid',
+ f:[['Chai NaCl 0,45% + Dextrose 5%',1,500],['Chai Dextrose 5% + NaCl 0,9%',1,500]],
+ w:'Không dùng dịch nhược trương đơn thuần (Dextrose 5 % không điện giải) để duy trì → nguy cơ hạ Na do ADH tăng trong bệnh cấp. Hạn chế 50–75 % ở viêm màng não, viêm phổi nặng, tim bẩm sinh, hội chứng thận hư.',
+ y:'Quy tắc 4-2-1 mô phỏng nhu cầu calo: 100 kcal/kg cho 10 kg đầu, 50 kcal/kg cho 10 kg tiếp, 20 kcal/kg sau đó; 1 ml dịch cho mỗi 1 kcal.'},
+{n:'Albumin 5%',g:'dg',d:'10–20 ml/kg TM',dmin:10,dmax:20,per:'dose',times:1,u:'ml',ms:500,md:1000,mdkg:20,
+ r:'TM chậm',f:[['Chai 5% × 100 ml',1,100],['Chai 5% × 250 ml',1,250],['Chai 20% × 50 ml (pha loãng trước dùng)',1,50]],
+ w:'Không phải dịch hồi sức đầu tay (đắt, không ưu việt hơn tinh thể trong sốc). Chỉ định: sốc giảm thể tích kèm albumin thấp nặng, hội chứng thận hư giảm thể tích, sau chọc tháo dịch lượng lớn, thay máu sơ sinh (5%).',
+ y:'Giữ áp lực keo; ở hội chứng thận hư có giảm thể tích thật sự, albumin + furosemid hiệu quả hơn lợi tiểu đơn độc.'},
+{n:'Hồng cầu lắng (khối hồng cầu)',g:'dg',d:'10–15 ml/kg truyền trong 3–4 giờ',dmin:10,dmax:15,per:'dose',times:1,u:'ml',ms:600,md:600,mdkg:15,
+ r:'TM qua bộ dây truyền máu',f:[['Đơn vị 150–250 ml (người lớn)',200,1],['Đơn vị nhi chia nhỏ theo ml/kg',1,1]],
+ w:'Tăng Hb ~2–3 g/dl với 10–15 ml/kg. Truyền chậm ở trẻ suy tim/thiếu máu mạn (nguy cơ quá tải) — có thể chia nhỏ và dùng kèm furosemid. Không truyền quá 4 giờ/đơn vị. Không pha thuốc chung dây.',
+ y:'Ở thiếu máu mạn, cơ thể đã thích nghi với thể tích bình thường → truyền nhanh gây quá tải và suy tim cấp.'},
+{n:'Kali clorua (bù TM)',g:'dg',d:'0,5–1 mmol/kg/ngày (TM); tối đa tốc độ 0,5 mmol/kg/giờ',dmin:0.3,dmax:1,per:'day',times:1,u:'mmol',
+ ms:60,md:120,mdkg:2,r:'TM — BƠM TIÊM ĐIỆN, KHÔNG BAO GIỜ BOLUS',
+ f:[['Ống KCl 10% × 10 ml (1 g = 13,4 mmol)',13.4,10],['Ống KCl 10% × 5 ml (0,5 g = 6,7 mmol)',6.7,5],['Viên/gói KCl uống 600 mg (8 mmol)',8,1]],
+ w:'KHÔNG BAO GIỜ bolus TM (gây ngừng tim tức thì). Nồng độ ngoại vi ≤ 40 mmol/l (0,3 %), trung tâm ≤ 60–80 mmol/l. Tốc độ ≤ 0,5 mmol/kg/giờ. Luôn có monitor + kiểm tra Kali mỗi 2–4 giờ + bảo đảm có nước tiểu. 1 g KCl = 13,4 mmol (không phải 10 mmol).',
+ y:'Bolus kali làm điện thế màng tế bào cơ tim mất phân cực hoàn toàn → vô tâm thu. Truyền chậm cho phép Na-K-ATPase đưa kali vào trong tế bào.'},
+{n:'Ondansetron',g:'th',d:'0,15 mg/kg/lần (tối đa 4 mg/lần ở trẻ nhỏ, 8 mg ở trẻ lớn)',dmin:0.1,dmax:0.15,per:'dose',times:3,u:'mg',
+ ms:8,md:24,mdkg:0.45,r:'Uống (ODT) · TM',
+ f:[['Viên tan nhanh 4 mg',4,1],['Viên tan nhanh 8 mg',8,1],['Ống 4 mg/2 ml',4,2]],
+ w:'Băng liều theo cân nặng: 8–15 kg → 2 mg; > 15–30 kg → 4 mg; > 30 kg → 8 mg. Kéo dài khoảng QT. Không dùng để trì hoãn việc bù dịch trong tiêu chảy mất nước.',
+ y:'Đối kháng 5-HT3 chọn lọc, ít tác dụng ngoại tháp hơn metoclopramid — đó là lý do thay thế metoclopramid ở trẻ em.'},
+{n:'Omeprazol',g:'th',d:'0,5–1 mg/kg/NGÀY, 1 lần trước ăn 30 phút',dmin:0.5,dmax:1,per:'day',times:1,u:'mg',
+ ms:40,md:40,mdkg:1,r:'Uống · TM',
+ f:[['Viên nang 10 mg',10,1],['Viên nang 20 mg',20,1],['Viên 40 mg',40,1],['Lọ bột TM 40 mg',40,1]],
+ w:'Không mở/nghiền hạt vi nang trong viên nang. Dùng kéo dài: giảm hấp thu calci/sắt/B12, tăng nguy cơ viêm phổi và nhiễm C. difficile ở trẻ em.',
+ y:'Ức chế không hồi phục bơm H⁺/K⁺-ATPase → tác dụng kéo dài dù bán huỷ ngắn; cần 3–5 ngày mới đạt ức chế toan tối đa.'},
+{n:'ORS — bù dịch tiêu chảy',g:'th',d:'Phác đồ B: 75 ml/kg trong 4 giờ · sau mỗi lần tiêu: 10 ml/kg',dmin:0,dmax:0,per:'dose',times:1,u:'ml',ms:3000,md:3000,
+ r:'Uống từng thìa nhỏ',bands:[['Phác đồ A (không mất nước)','< 2 tuổi: 50–100 ml sau mỗi lần tiêu · ≥ 2 tuổi: 100–200 ml · cho uống bất cứ lúc nào'],['Phác đồ B (mất nước nhẹ-vừa)','75 ml/kg trong 4 giờ, uống chậm; đánh giá lại sau 4 giờ'],['Phác đồ C (mất nước nặng)','Truyền TM Ringer Lactat 30 ml/kg rồi 70 ml/kg (PED-27)'],['Bổ sung sau mỗi lần tiêu','< 2 tuổi 50–100 ml · ≥ 2 tuổi 100–200 ml']],
+ f:[['Gói ORS pha 200 ml',1,200],['Gói ORS pha 500 ml',1,500],['Gói ORS pha 1000 ml',1,1000]],
+ w:'Pha đúng thể tích nước ghi trên gói — pha đặc gây tăng Na máu, pha loãng không hiệu quả. Nôn: chờ 10 phút rồi uống lại chậm hơn. Không thay bằng nước ngọt/nước trái cây (áp lực thẩm thấu cao làm nặng tiêu chảy thẩm thấu).',
+ y:'Glucose và Na được đồng vận chuyển qua SGLT1 ở ruột non — cơ chế vẫn hoạt động trong tiêu chảy do độc tố, đó là lý do ORS cứu sống hàng triệu trẻ mà không cần truyền dịch.'},
+{n:'Kẽm (tiêu chảy cấp)',g:'th',d:'< 6 tháng: 10 mg/ngày · ≥ 6 tháng: 20 mg/ngày × 10–14 ngày',dmin:0,dmax:0,per:'dose',times:1,u:'mg',ms:20,md:20,
+ r:'Uống',bands:[['< 6 tháng','10 mg/ngày × 10–14 ngày'],['≥ 6 tháng','20 mg/ngày × 10–14 ngày'],['Dạng','Viên nén phân tán 20 mg — hoà trong nước/sữa mẹ']],
+ f:[['Viên phân tán 20 mg',20,1],['Viên 10 mg',10,1],['Siro 10 mg/5 ml',10,5]],
+ w:'Cho đủ 10–14 ngày kể cả khi đã hết tiêu chảy. Uống giữa bữa ăn để giảm buồn nôn.',
+ y:'Kẽm tái tạo nhung mao ruột, tăng hấp thu nước-điện giải, tăng miễn dịch tại chỗ và là co-factor của hơn 300 enzyme → giảm thời gian tiêu chảy ~25 % và giảm tỷ lệ mắc lại trong 2–3 tháng.'},
+{n:'Vitamin A (sởi)',g:'th',d:'Liều duy nhất theo tuổi, lặp lại sau 24 giờ và sau 2–4 tuần',dmin:0,dmax:0,per:'dose',times:1,u:'UI',ms:200000,md:200000,
+ r:'Uống',bands:[['< 6 tháng','50.000 UI × 1 liều'],['6–11 tháng','100.000 UI × 1 liều'],['≥ 12 tháng','200.000 UI × 1 liều'],['Lặp lại','Liều 2 sau 24 giờ; liều 3 sau 2–4 tuần nếu có dấu hiệu thiếu vitamin A (PED-36)']],
+ f:[['Viên nang 200.000 UI',200000,1],['Viên nang 100.000 UI',100000,1],['Dung dịch 100.000 UI/ml',100000,1]],
+ w:'Liều cao gây tăng áp lực nội sọ thoáng qua (thóp phồng ở nhũ nhi) — tự hết. Không dùng liều cao lặp lại kéo dài (ngộ độc mạn).',
+ y:'Vitamin A phục hồi biểu mô đường hô hấp-tiêu hoá và điều hoà miễn dịch → giảm 50 % tử vong do sởi. Đây là can thiệp được WHO khuyến cáo cho MỌI ca sởi.'},
+{n:'Sắt nguyên tố (thiếu máu)',g:'th',d:'3–6 mg/kg/NGÀY sắt nguyên tố, chia 2–3 lần',dmin:3,dmax:6,per:'day',times:2,u:'mg',
+ ms:200,md:300,mdkg:6,r:'Uống giữa các bữa ăn + vitamin C',
+ f:[['Siro sắt II sulfat 25 mg/5 ml (sắt nguyên tố)',25,5],['Gói sắt fumarat 30 mg',30,1],['Viên sắt II sulfat 200 mg (65 mg sắt nguyên tố)',65,1]],
+ w:'TÍNH THEO SẮT NGUYÊN TỐ, không theo khối lượng muối (sắt II sulfat 200 mg = 65 mg sắt nguyên tố). Ngộ độc sắt cấp > 20 mg/kg sắt nguyên tố là cấp cứu. Làm đen răng (dạng lỏng) — pha loãng, uống bằng ống hút. Phân đen là bình thường.',
+ y:'Hấp thu sắt tăng khi đói và có vitamin C (khử Fe³⁺ → Fe²⁺), giảm khi dùng cùng sữa/trà/calcium. Liều 1 lần/ngày có thể hấp thu tốt hơn chia nhiều lần do hepcidin.'},
+{n:'Midazolam',g:'tk',d:'0,1–0,2 mg/kg TM (tối đa 4 mg); niêm mạc má 0,2–0,3 mg/kg (tối đa 10 mg)',dmin:0.1,dmax:0.3,per:'dose',times:2,u:'mg',
+ ms:10,md:20,mdkg:0.6,r:'TM chậm · TB · niêm mạc má · mũi',
+ f:[['Ống 5 mg/ml × 1 ml',5,1],['Ống 15 mg/3 ml',15,3],['Ống 5 mg/5 ml (1 mg/ml)',1,5]],
+ w:'TRẦN 4 mg TM / 10 mg niêm mạc. Ức chế hô hấp — luôn có sẵn bóng bóp và flumazenil. Tiêm TM chậm ≥ 2 phút. Đường niêm mạc má hiệu quả hơn diazepam hậu môn khi không có đường TM (PED-07).',
+ y:'Tan trong mỡ ở pH sinh lý → hấp thu qua niêm mạc má nhanh; bán huỷ ngắn hơn diazepam nên ít an thần kéo dài.'},
+{n:'Diazepam TM',g:'tk',d:'0,2–0,3 mg/kg TM chậm (tối đa 10 mg), tốc độ ≤ 2 mg/phút',dmin:0.2,dmax:0.3,per:'dose',times:2,u:'mg',
+ ms:10,md:30,mdkg:0.6,r:'TM chậm',
+ f:[['Ống 10 mg/2 ml',10,2],['Ống 5 mg/1 ml',5,1]],
+ w:'Tốc độ ≤ 2 mg/phút (nguy cơ ngưng thở, tụt HA do tá dược propylen glycol). Luôn có bóng bóp + máy hút sẵn sàng. Không pha chung dung dịch khác (kết tủa). Lặp liều → tích luỹ, an thần kéo dài.',
+ y:'Tăng tần suất mở kênh clorua qua thụ thể GABA-A. Lorazepam (0,1 mg/kg, tối đa 4 mg) có thời gian tác dụng chống co giật DÀI hơn trong CNS (24 h) dù bán huỷ huyết tương ngắn hơn.'},
+{n:'Diazepam bơm hậu môn',g:'tk',d:'0,5 mg/kg (hoặc 5 mg nếu < 3 tuổi, 10 mg nếu ≥ 3 tuổi)',dmin:0.3,dmax:0.5,per:'dose',times:2,u:'mg',
+ ms:10,md:20,mdkg:0.5,r:'Bơm hậu môn',
+ f:[['Ống 5 mg/2 ml',5,2],['Ống 10 mg/2 ml',10,2],['Ống 2 mg/ml (tính theo ml/kg)',2,1]],
+ w:'Dùng tại nhà/trạm y tế khi co giật > 5 phút và không có đường TM. Có thể lặp lại 1 lần sau 5–10 phút. Sau đó phải chuyển viện vì nguy cơ tái phát và an thần kéo dài (PED-07).',
+ y:'Hấp thu qua trực tràng nhanh (đỉnh 5–15 phút) nhờ đám rối tĩnh mạch trĩ dưới đổ thẳng vào tuần hoàn chủ, tránh qua gan lần đầu.'},
+{n:'Lorazepam',g:'tk',d:'0,1 mg/kg TM (tối đa 4 mg)',dmin:0.05,dmax:0.1,per:'dose',times:2,u:'mg',
+ ms:4,md:8,mdkg:0.2,r:'TM chậm',
+ f:[['Ống 4 mg/1 ml',4,1],['Ống 2 mg/1 ml',2,1]],
+ w:'Ưu tiên hơn diazepam trong trạng thái động kinh vì tác dụng chống co giật trong CNS kéo dài 12–24 giờ. Bảo quản lạnh.',
+ y:'Ít tan trong mỡ hơn diazepam → ít tái phân bố ra mô mỡ → nồng độ trong não duy trì lâu hơn (diazepam tái phân bố nhanh, co giật có thể tái phát sau 20–30 phút).'},
+{n:'Phenobarbital',g:'tk',d:'15–20 mg/kg TM chậm (tối đa 1000 mg); sơ sinh 20 mg/kg',dmin:15,dmax:20,per:'dose',times:1,u:'mg',
+ ms:1000,md:1000,mdkg:20,r:'TM chậm ≤ 60 mg/phút với monitor',
+ f:[['Ống 200 mg/2 ml',200,2],['Viên 100 mg',100,1]],
+ w:'Tiêm chậm, theo dõi HA và nhịp thở (tụt HA, ngưng thở). Không dùng chung dung dịch với nhiều thuốc (kết tủa). An thần kéo dài nhiều ngày ở sơ sinh.',
+ y:'Lựa chọn hàng đầu cho co giật sơ sinh (khác với trẻ lớn) vì hiệu quả vượt trội ở não chưa trưởng thành.'},
+{n:'Levetiracetam',g:'tk',d:'Trạng thái động kinh: 40 mg/kg TM (tối đa 4,5 g). Duy trì: 20–60 mg/kg/ngày chia 2',dmin:20,dmax:60,per:'day',times:2,u:'mg',
+ ms:3000,md:4500,mdkg:60,r:'TM 5–10 phút · uống',
+ f:[['Ống 500 mg/5 ml (100 mg/ml)',100,1],['Siro 100 mg/ml',100,1],['Viên 250 mg',250,1],['Viên 500 mg',500,1],['Viên 750 mg',750,1]],
+ w:'Ít tương tác thuốc (không qua CYP450) — ưu điểm lớn ở trẻ đang dùng nhiều thuốc. Tác dụng phụ: kích thích, thay đổi hành vi.',
+ y:'Gắn protein SV2A ở túi synap → điều hoà giải phóng chất dẫn truyền. Phổ rộng, không cần theo dõi nồng độ thường quy.'},
+{n:'N-acetylcystein (NAC) TM',g:'cc',d:'Tải 150 mg/kg/1 giờ → 50 mg/kg/4 giờ → 100 mg/kg/16 giờ',dmin:0,dmax:0,per:'dose',times:1,u:'mg',ms:30000,md:30000,
+ r:'TM — 3 giai đoạn (21 giờ)',bands:[['Giai đoạn 1 (tải)','150 mg/kg pha Dextrose 5 % truyền trong 60 phút'],['Giai đoạn 2','50 mg/kg truyền trong 4 giờ'],['Giai đoạn 3','100 mg/kg truyền trong 16 giờ'],['Tổng','300 mg/kg trong 21 giờ']],
+ f:[['Ống 200 mg/ml × 10 ml (2 g)',200,10],['Ống 300 mg/ml × 10 ml',300,10]],
+ w:'Chỉ định khi liều uống > 150 mg/kg hoặc theo đường biểu đồ Rumack-Matthew (> 4 giờ sau uống) (PED-10). Phản ứng kiểu phản vệ (đỏ bừng, mày đay, co thắt phế quản) hay gặp ở giai đoạn tải → làm chậm/ngừng truyền, kháng histamin, adrenalin nếu nặng. Không dùng dung dịch NaCl để pha (kết tủa).',
+ y:'Bổ sung cystein để tái tổng hợp glutathion → giải độc NAPQI, chất chuyển hoá độc của paracetamol. Hiệu quả gần 100 % nếu dùng trong 8 giờ đầu.'}
+];
+const INFUSIONS=[
+ {n:'Adrenalin',d:0.1,lo:0.05,hi:1,u:'mcg',conc:'3 mg trong 50 ml (60 mcg/ml) — chuẩn nhi',amt:3,vol:50},
+ {n:'Noradrenalin',d:0.1,lo:0.05,hi:1,u:'mcg',conc:'4 mg trong 50 ml (80 mcg/ml)',amt:4,vol:50},
+ {n:'Dopamin',d:5,lo:2,hi:20,u:'mcg',conc:'200 mg trong 50 ml (4000 mcg/ml)',amt:200,vol:50},
+ {n:'Dobutamin',d:5,lo:2,hi:20,u:'mcg',conc:'250 mg trong 50 ml (5000 mcg/ml)',amt:250,vol:50},
+ {n:'Milrinon',d:0.5,lo:0.25,hi:0.75,u:'mcg',conc:'10 mg trong 50 ml (200 mcg/ml)',amt:10,vol:50},
+ {n:'Insulin (DKA)',d:0.05,lo:0.05,hi:0.1,u:'IU',conc:'1 UI/ml: 25 UI + NaCl 0,9% vừa đủ 25 ml — tráng dây trước',amt:25,vol:25},
+ {n:'Heparin (điều trị)',d:20,lo:10,hi:28,u:'IU',conc:'25 UI/ml: 1250 UI + NaCl 0,9% vừa đủ 50 ml',amt:1250,vol:50},
+ {n:'Midazolam (an thần)',d:1,lo:0.5,hi:5,u:'mcg',conc:'1 mg/ml: 25 mg trong 25 ml',amt:25,vol:25},
+ {n:'Fentanyl',d:1,lo:0.5,hi:3,u:'mcg',conc:'10 mcg/ml: 500 mcg trong 50 ml',amt:500,vol:50},
+ {n:'Salbutamol TM',d:0.1,lo:0.05,hi:0.3,u:'mcg',conc:'10 mcg/ml: 500 mcg trong 50 ml',amt:500,vol:50}
+];
+
+/* ============ CCĐ TABLE ============ */
+const CCI=[
+ {d:'Aspirin',cat:'Chống chỉ định tuyệt đối',age:'< 16 tuổi',why:'Hội chứng Reye: bệnh não - thoái hoá mỡ gan cấp sau nhiễm virus (cúm, thuỷ đậu), tỷ lệ tử vong cao',alt:'Paracetamol hoặc Ibuprofen (trừ chỉ định đặc biệt: Kawasaki giai đoạn liều thấp, bệnh thấp tim)'},
+ {d:'Codein, Tramadol',cat:'Chống chỉ định tuyệt đối',age:'< 12 tuổi (mọi tuổi sau cắt amydale/nạo VA)',why:'CYP2D6 siêu chuyển hoá tạo morphin ồ ạt → ức chế hô hấp, tử vong; đã có báo cáo tử vong ở trẻ sau phẫu thuật tai-mũi-họng',alt:'Paracetamol ± Ibuprofen; đau nặng → morphin TM có kiểm soát liều mg/kg'},
+ {d:'Ceftriaxon',cat:'Chống chỉ định',age:'Sơ sinh < 28 ngày; trẻ vàng da; đang truyền dịch chứa canxi',why:'Đẩy bilirubin khỏi albumin → vàng da nhân não; tạo kết tủa ceftriaxon-canxi ở phổi và thận gây tử vong',alt:'Cefotaxim; sơ sinh: Ampicillin + Gentamicin'},
+ {d:'Promethazin',cat:'Chống chỉ định',age:'< 2 tuổi',why:'Ngưng thở, ức chế TKTW quá mức, hội chứng ngoại tháp, hội chứng an thần kinh ác tính',alt:'Chlorpheniramin (≥ 1 tuổi, đúng liều), Cetirizin theo tuổi'},
+ {d:'Loperamid',cat:'Chống chỉ định',age:'< 2 tuổi (không khuyến cáo < 6 tuổi)',why:'Liệt ruột, chướng bụng, ứ dịch trong lòng ruột che giấu mất nước, ức chế TKTW',alt:'ORS + Kẽm + tiếp tục bú/ăn (PED-27, 28)'},
+ {d:'Thuốc ho-cảm OTC phối hợp',cat:'Không khuyến cáo',age:'< 6 tuổi',why:'Không chứng minh hiệu quả; nguy cơ quá liều paracetamol/antihistamin, loạn nhịp, co giật; chứa codein/dextromethorphan',alt:'Mật ong (≥ 1 tuổi), vệ sinh-hút mũi, bù dịch; Salbutamol nếu có co thắt phế quản'},
+ {d:'Tetracyclin',cat:'Tránh',age:'< 8 tuổi',why:'Gắn vào canxi ở răng và xương đang phát triển → đổi màu men răng vĩnh viễn, giảm sản men, ức chế tăng trưởng xương',alt:'Amoxicillin, Azithromycin. (Doxycyclin vẫn chấp nhận liệu trình ngắn cho Rickettsia/sốt mò ám vì lợi ích vượt trội)'},
+ {d:'Fluoroquinolon (Ciprofloxacin, Levofloxacin)',cat:'Tránh thường quy',age:'< 18 tuổi',why:'Bệnh lý sụn khớp ở động vật non, viêm gân-đứt gân Achilles, bệnh lý thần kinh ngoại biên',alt:'Theo kháng sinh đồ. Chấp nhận khi không có lựa chọn: Pseudomonas, xơ nang, thương hàn đa kháng, lao'},
+ {d:'Chloramphenicol',cat:'Chống chỉ định',age:'Sơ sinh, đặc biệt non tháng',why:'Hội chứng "grey baby": gan chưa glucuronid hoá được → tích luỹ gây nôn, tím tái, trụy mạch, tử vong; suy tuỷ không hồi phục',alt:'Ampicillin + Gentamicin; Cefotaxim'},
+ {d:'Co-trimoxazol (sulfonamid)',cat:'Chống chỉ định',age:'< 2 tháng tuổi',why:'Đẩy bilirubin khỏi albumin → vàng da nhân não; nguy cơ kernicterus',alt:'Ampicillin + Gentamicin'},
+ {d:'Nitrofurantoin',cat:'Chống chỉ định',age:'< 1 tháng tuổi',why:'Thiếu men G6PD sinh lý → tan máu; chức năng thận chưa trưởng thành',alt:'Ampicillin, Cefotaxim, Amoxicillin'},
+ {d:'Metoclopramid',cat:'Hạn chế / CCĐ < 1 tuổi',age:'Trẻ nhỏ',why:'Phản ứng ngoại tháp cấp: cơn mắt quay ngược, vẹo cổ, loạn trương lực cơ — dễ nhầm co giật/viêm màng não',alt:'Ondansetron 0,15 mg/kg'},
+ {d:'Naphazolin / Xylometazolin nhỏ mũi',cat:'Tránh / CCĐ',age:'Naphazolin < 6 tuổi; xylometazolin < 6–12 tháng',why:'Hấp thu toàn thân qua niêm mạc mũi mỏng → hạ thân nhiệt, li bì, ngưng thở, co giật, hôn mê',alt:'NaCl 0,9 % nhỏ mũi + hút mũi; oxy ẩm'},
+ {d:'Dextrose 30–50 %',cat:'Chống chỉ định',age:'Sơ sinh và trẻ nhỏ',why:'Ưu trương nặng → hoại tử mô nếu thoát mạch, tăng áp lực thẩm thấu, xuất huyết não thất, hạ đường huyết phản ứng do phóng insulin ồ ạt',alt:'Glucose 10 % 2 ml/kg TM chậm, sau đó truyền duy trì GIR 4–8 mg/kg/phút'},
+ {d:'Kali clorua bolus TM',cat:'Chống chỉ định tuyệt đối',age:'Mọi lứa tuổi',why:'Mất phân cực hoàn toàn màng tế bào cơ tim → vô tâm thu tức thì',alt:'Truyền TM: nồng độ ngoại vi ≤ 40 mmol/l, tốc độ ≤ 0,5 mmol/kg/giờ, luôn có monitor'},
+ {d:'Natri bicarbonat',cat:'Không dùng thường quy',age:'Ngừng tim; sơ sinh non tháng',why:'Tăng CO₂ nội bào và nội sọ, tăng áp lực thẩm thấu → xuất huyết não thất; làm lệch đường cong phân ly oxy → giảm giải phóng oxy ở mô',alt:'Thông khí hiệu quả + adrenalin; chỉ dùng khi toan chuyển hoá nặng xác định, tăng kali máu, ngộ độc thuốc chống trầm cảm 3 vòng'},
+ {d:'Propofol truyền kéo dài',cat:'Tránh',age:'Trẻ em hồi sức',why:'Hội chứng truyền propofol: toan chuyển hoá, tiêu cơ vân, tăng triglycerid, suy tim kháng trị, tử vong',alt:'Midazolam ± Fentanyl truyền; propofol chỉ cho khởi mê liều đơn'},
+ {d:'Ibuprofen / NSAID',cat:'Chống chỉ định theo hoàn cảnh',age:'< 6 tháng; sốt xuất huyết Dengue; giảm tiểu cầu; mất nước; suy thận',why:'Ức chế kết tập tiểu cầu → tăng xuất huyết; ức chế prostaglandin → giảm tưới máu thận, suy thận cấp khi thể tích giảm',alt:'Paracetamol là thuốc hạ sốt DUY NHẤT được phép trong Dengue'},
+ {d:'Aminoglycosid kéo dài',cat:'Thận trọng',age:'Non tháng, suy thận, dùng > 7–10 ngày',why:'Độc thận (hoại tử ống thận) và độc ốc tai-tiền đình KHÔNG hồi phục (điếc vĩnh viễn)',alt:'Liều 1 lần/ngày, theo dõi nồng độ đáy + creatinin, giới hạn thời gian, tránh phối hợp furosemid'},
+ {d:'Vincristin bơm tuỷ sống',cat:'Chống chỉ định tuyệt đối',age:'Mọi lứa tuổi',why:'Bệnh lý thần kinh tuỷ tiến triển — tử vong gần như 100 %',alt:'Chỉ tiêm TM. Bắt buộc: pha trong túi dịch, nhãn "CHỈ TIÊM TĨNH MẠCH — TỬ VONG NẾU BƠM TUỶ SỐNG", 2 người kiểm tra độc lập'},
+ {d:'Valproat',cat:'Tránh',age:'< 2 tuổi; bệnh chuyển hoá/gan; nghi ngờ rối loạn chu trình urê',why:'Suy gan tối cấp không hồi phục, tăng amoniac máu, viêm tuỵ',alt:'Levetiracetam, Phenobarbital (sơ sinh), theo chỉ định chuyên khoa'},
+ {d:'Corticoid kéo dài không bảo vệ',cat:'Thận trọng',age:'Mọi lứa tuổi',why:'Ức chế trục HPA → suy thượng thận cấp khi ngừng đột ngột hoặc khi stress; chậm lớn; loãng xương; tăng nhãn áp/đục thuỷ tinh thể; bùng phát nhiễm khuẩn tiềm ẩn (lao, thuỷ đậu)',alt:'Liệu trình ngắn, dùng 1 liều buổi sáng, giảm dần khi > 10–14 ngày, thẻ cảnh báo suy thượng thận'},
+ {d:'Kháng histamin thế hệ 1 liều cao',cat:'Thận trọng',age:'Trẻ nhỏ',why:'An thần quá mức hoặc KÍCH THÍCH NGHỊCH THƯỜNG (vật vã, co giật); khô niêm mạc, bí tiểu',alt:'Cetirizin, Loratadin, Desloratadin theo nhóm tuổi'},
+ {d:'Digoxin',cat:'Thận trọng cao',age:'Mọi lứa tuổi',why:'Cửa sổ điều trị rất hẹp; hạ kali máu (do lợi tiểu) làm tăng độc tính ngay cả khi nồng độ trong giới hạn',alt:'Tính liều bão hoà cẩn thận, theo dõi ECG + điện giải, đo nồng độ thuốc'},
+ {d:'Nước cất / Dextrose 5 % bolus chống sốc',cat:'Chống chỉ định',age:'Mọi lứa tuổi',why:'Phân bố ngay ra khoang kẽ, không giữ thể tích lòng mạch; gây hạ Na máu và phù não',alt:'NaCl 0,9 % hoặc Ringer Lactat 20 ml/kg'},
+ {d:'Siro/chế phẩm chứa ethanol, cồn',cat:'Tránh',age:'Trẻ nhỏ',why:'Hạ đường huyết, ngộ độc ethanol, toan chuyển hoá; liều rất nhỏ cũng đủ gây hại ở trẻ dưới 2 tuổi',alt:'Chọn dạng bào chế không cồn'},
+ {d:'Insulin — nhầm đơn vị',cat:'Quy trình bắt buộc',age:'Mọi lứa tuổi',why:'Viết tắt "U" bị đọc thành "0" hoặc "4" → sai 10 lần; dùng bơm tiêm thường thay bơm tiêm insulin → sai thể tích',alt:'Viết chữ "đơn vị" đầy đủ; chỉ dùng bút/bơm tiêm insulin; 2 người kiểm tra độc lập'}
+];
+
+/* ============ TRAPS ============ */
+const TRAPS=[
+ ['Thiếu số 0 trước dấu thập phân','Midazolam <span class="mono">.5 mg</span> TM','Midazolam <span class="mono">0,5 mg</span> TM chậm','Đọc thành 5 mg → gấp 10 lần → ngưng thở'],
+ ['Số 0 thừa sau dấu thập phân','Furosemid <span class="mono">20.0 mg</span>','Furosemid <span class="mono">20 mg</span>','Đọc thành 200 mg → tụt HA, hạ kali nặng'],
+ ['Chỉ ghi thể tích, không ghi hàm lượng','Paracetamol <span class="mono">5 ml</span> uống q6h','Paracetamol siro <b>120 mg/5 ml</b> — uống <b>5 ml (= 120 mg)</b> q6h','Phụ huynh mua lọ 250 mg/5 ml → liều gấp đôi'],
+ ['Kê viên đạn + siro đồng thời','Viên đạn 150 mg q8h VÀ siro 120 mg q6h','Một đường duy nhất; nếu dùng viên đạn thì <b>tính vào tổng liều 24 giờ</b> (≤ 60 mg/kg, ≤ 4 g)','Ngộ độc paracetamol do phụ huynh tưởng là 2 thuốc khác nhau'],
+ ['Quên trần liều người lớn','Trẻ 45 kg: Ceftriaxon 100 mg/kg = <b>4,5 g</b>/ngày','Ceftriaxon <b>2 g</b>/ngày (trần)','Quá liều 125 % → độc tính, chi phí, kháng thuốc'],
+ ['Trẻ ≥ 40 kg vẫn nhân mg/kg','Trẻ 50 kg: Prednisolon 2 mg/kg = 100 mg','Chạm trần <b>40–60 mg</b>/ngày','Corticoid quá liều → tăng HA, tăng đường huyết, loạn thần'],
+ ['Nhầm nồng độ adrenalin','Adrenalin <b>1 mg/1 ml</b> tiêm TM trực tiếp cho trẻ 8 kg đang còn mạch','Pha <b>1:10.000</b> (1 mg + 9 ml NaCl) → 0,08 ml TM; phản vệ thì tiêm <b>BẮP</b>','Cơn tăng HA kịch phát, xuất huyết não, rung thất'],
+ ['Bolus Kali','KCl 10 % 5 ml TM trực tiếp','Pha loãng ≤ 40 mmol/l, truyền ≤ 0,5 mmol/kg/giờ, monitor','Vô tâm thu tức thì — tử vong tại giường'],
+ ['Dextrose đậm đặc cho sơ sinh','Sơ sinh 3 kg: Dextrose 50 % 2 ml','Glucose <b>10 %</b> 2 ml/kg = 6 ml TM chậm','Hoại tử thoát mạch, tăng áp lực thẩm thấu, hạ đường huyết phản ứng'],
+ ['Ước lượng cân nặng bằng mắt','"Trông chắc khoảng 15 kg" cho trẻ 12 kg','Cân thật / thước Broselow / cân nặng theo chiều cao','Quá liều 25 % mọi thuốc, kể cả thuốc có cửa sổ hẹp'],
+ ['Truyền kháng sinh quá nhanh','Vancomycin 500 mg truyền 15 phút','Truyền ≥ <b>60 phút</b> (hoặc ≤ 10 mg/kg/giờ)','Red-man syndrome: đỏ bừng, tụt HA, dễ nhầm phản vệ'],
+ ['Đo bằng thìa gia đình','"Mỗi lần một thìa cà phê"','Bơm tiêm/ống đong có vạch; thìa cà phê gia đình sai số ±40 %','Liều thực tế dao động 3–7 ml cho cùng một "thìa"'],
+ ['Ibuprofen trong sốt xuất huyết','Bé sốt ngày 3, tiểu cầu 60.000: Ibuprofen 10 mg/kg','Chỉ <b>Paracetamol</b> ≤ 60 mg/kg/ngày','Xuất huyết tiêu hoá nặng, suy thận cấp'],
+ ['Ceftriaxon cho sơ sinh','Sơ sinh 5 ngày vàng da: Ceftriaxon 50 mg/kg','<b>Cefotaxim</b> 50 mg/kg/lần','Vàng da nhân não; kết tủa canxi-ceftriaxon'],
+ ['Không ghi cân nặng vào đơn','Đơn chỉ có tên thuốc + liều ml','Ghi <b>cân nặng ở đầu đơn</b>, cân lại khi cân nặng thay đổi','Điều dưỡng không thể kiểm tra chéo liều; sai sót không bị chặn'],
+ ['Nghiền viên phóng thích chậm','Nghiền Depakine Chrono/Adalat LA chia liều','Chọn dạng lỏng hoặc thuốc tương đương phóng thích tức thì','Mất cơ chế phóng thích chậm → nồng độ đỉnh độc, hết tác dụng sớm']
+];
+
+/* ============ QUIZ ============ */
+const QUIZ=[
+ {q:'Trẻ 22 kg, viêm phổi cộng đồng, kê Ceftriaxon 100 mg/kg/ngày. Liều đúng là bao nhiêu?',
+  o:['2200 mg/ngày','2000 mg/ngày','1000 mg/ngày','2200 mg chia 2 lần'],c:1,
+  e:'22 × 100 = 2200 mg nhưng <b>trần liều người lớn của Ceftriaxon là 2 g/ngày</b> → dùng 2000 mg (2 g) 1 lần/ngày. Bước 4 của quy trình: luôn đối chiếu trần và lấy giá trị nhỏ hơn.'},
+ {q:'Trẻ 12 kg, sốt 39 °C. Có sẵn siro Paracetamol 120 mg/5 ml. Thể tích mỗi liều (15 mg/kg) là bao nhiêu?',
+  o:['5 ml','7,5 ml','6 ml','10 ml'],c:1,
+  e:'12 × 15 = 180 mg. Siro 120 mg/5 ml → 180 ÷ 120 × 5 = <b>7,5 ml</b>. Tối đa 4 lần/24 giờ; tổng 720 mg = 60 mg/kg/ngày (đúng trần).'},
+ {q:'Trẻ 8 kg bị phản vệ. Liều Adrenalin tiêm bắp đúng là?',
+  o:['0,8 ml dung dịch 1 mg/1 ml tiêm bắp đùi','0,08 ml dung dịch 1 mg/1 ml tiêm bắp mặt ngoài đùi','0,08 mg tiêm tĩnh mạch trực tiếp','1 ml dung dịch 1:10.000 tiêm bắp'],c:1,
+  e:'0,01 mg/kg = 0,08 mg. Dung dịch 1 mg/ml → <b>0,08 ml</b> tiêm bắp mặt ngoài đùi (vasto lateralis). Trần 0,3 mg cho trẻ < 30 kg. Không tiêm TM dung dịch 1:1000 khi còn mạch.'},
+ {q:'Trẻ 14 kg cần dịch duy trì. Thể tích 24 giờ và tốc độ ml/giờ là bao nhiêu?',
+  o:['1400 ml/24 h — 58 ml/giờ','1200 ml/24 h — 50 ml/giờ','1500 ml/24 h — 62 ml/giờ','980 ml/24 h — 41 ml/giờ'],c:1,
+  e:'Holliday-Segar: (100 × 10) + (50 × 4) = 1000 + 200 = <b>1200 ml/24 h</b> → 1200 ÷ 24 = <b>50 ml/giờ</b>. Quy tắc 4-2-1: (4×10)+(2×4) = 48 ≈ 50 ml/giờ.'},
+ {q:'Dịch 1200 ml/24 giờ (50 ml/giờ) truyền bằng dây 20 giọt/ml. Tốc độ giọt/phút là?',
+  o:['≈ 17 giọt/phút','≈ 25 giọt/phút','≈ 10 giọt/phút','≈ 50 giọt/phút'],c:0,
+  e:'Giọt/phút = (ml/giờ × hệ số giọt) ÷ 60 = (50 × 20) ÷ 60 = <b>16,7 ≈ 17 giọt/phút</b>. Với dây 60 giọt/ml (nhi khoa) thì 1 ml/giờ = 1 giọt/phút → 50 giọt/phút.'},
+ {q:'Thuốc nào sau đây CHỐNG CHỈ ĐỊNH ở sơ sinh 5 ngày tuổi bị vàng da?',
+  o:['Cefotaxim','Ampicillin','Ceftriaxon','Gentamicin'],c:2,
+  e:'Ceftriaxon gắn mạnh vào albumin, <b>đẩy bilirubin tự do</b> ra → nguy cơ vàng da nhân não; ngoài ra kết tủa với dịch chứa canxi. Thay bằng Cefotaxim.'},
+ {q:'Trẻ 3 tuổi 15 kg đang co giật > 10 phút, chưa có đường TM. Xử trí thuốc đầu tay tại nhà/trạm là?',
+  o:['Diazepam TM 0,3 mg/kg','Midazolam 0,3 mg/kg qua niêm mạc má (4,5 mg) hoặc Diazepam bơm hậu môn 0,5 mg/kg','Phenobarbital TM 20 mg/kg','Uống viên Diazepam 5 mg'],c:1,
+  e:'Không có đường TM → <b>Midazolam niêm mạc má 0,2–0,3 mg/kg (tối đa 10 mg)</b> hoặc <b>Diazepam bơm hậu môn 0,5 mg/kg</b> (5 mg nếu < 3 tuổi, 10 mg nếu ≥ 3 tuổi). Đường uống không phù hợp khi đang co giật (nguy cơ sặc).'},
+ {q:'Giới hạn an toàn khi bù Kali qua tĩnh mạch NGOẠI vi ở trẻ em là gì?',
+  o:['Nồng độ ≤ 40 mmol/l và tốc độ ≤ 0,5 mmol/kg/giờ','Nồng độ ≤ 80 mmol/l và tốc độ ≤ 1 mmol/kg/giờ','Bolus chậm 10 mmol trong 5 phút','Nồng độ ≤ 20 mmol/l và tốc độ ≤ 2 mmol/kg/giờ'],c:0,
+  e:'Ngoại vi ≤ 40 mmol/l (0,3 %) để tránh viêm tĩnh mạch-hoại tử; tốc độ ≤ 0,5 mmol/kg/giờ; luôn có monitor và bảo đảm có nước tiểu. <b>Không bao giờ bolus</b>. Tĩnh mạch trung tâm cho phép 60–80 mmol/l.'},
+ {q:'Trẻ 30 kg lên cơn hen nặng, kê Prednisolon 2 mg/kg. Kết luận nào đúng?',
+  o:['60 mg — đúng bằng trần, dùng 60 mg/ngày','60 mg nhưng phải chia 4 lần','30 mg vì trần là 1 mg/kg','90 mg vì trẻ em chuyển hoá nhanh'],c:0,
+  e:'30 × 2 = 60 mg, đúng bằng <b>trần liều người lớn 40–60 mg/ngày</b> cho cơn hen. Dùng 1 lần buổi sáng. Nếu trẻ 45 kg → 90 mg vẫn phải chạm trần 60 mg.'},
+ {q:'Vì sao sơ sinh non tháng cần KÉO DÀI khoảng cách liều Gentamicin (q36–48 h) trong khi trẻ 3 tuổi lại dùng q8 h hoặc 1 lần/ngày?',
+  o:['Vì sơ sinh có nhiều mỡ dưới da hơn','Vì GFR và bài tiết ống thận chưa trưởng thành (GFR sơ sinh 20–40 ml/phút/1,73 m²), đạt mức người lớn lúc 1–2 tuổi','Vì sơ sinh có tỷ lệ thuốc gắn protein cao hơn','Vì aminoglycosid tan trong mỡ nên phân bố rộng ở sơ sinh'],c:1,
+  e:'Thải trừ là yếu tố quyết định khoảng cách liều. GFR sơ sinh chỉ bằng ~30 % người lớn và bài tiết ống thận chưa trưởng thành → bán huỷ kéo dài. Ngược lại trẻ 2–9 tuổi có thanh thải theo kg CAO hơn người lớn → khoảng cách liều ngắn hơn. Aminoglycosid là thuốc tan trong nước, và sơ sinh có nước toàn cơ thể cao hơn (78–85 %) nên cần mg/kg CAO hơn nhưng khoảng cách DÀI hơn.'}
+];
+
+/* ============ CARDS ============ */
+const CARDS=[
+ ['Quy trình 5 bước tính liều thuốc nhi là gì?','<b>1. Cân</b> trẻ (cân thật/Broselow — không dùng tuổi). <b>2. Xác định</b> liều khuyến cáo: mg/kg <i>mỗi lần</i> hay <i>mỗi ngày</i>, chia mấy lần, đường nào. <b>3. Nhân</b> với cân nặng. <b>4. Đối chiếu trần liều người lớn</b> — lấy giá trị nhỏ hơn. <b>5. Quy đổi</b> ra dạng bào chế có sẵn, viết cả mg và ml.'],
+ ['Vì sao phải cân trẻ thay vì ước lượng theo tuổi?','Vì mọi liều nhi khoa là mg/kg. Ước lượng bằng mắt sai ±20–30 %, đặc biệt ở trẻ béo phì và suy dinh dưỡng — sai số này áp lên CẢ 45 bài. Trẻ nguy kịch không cân được → dùng thước băng Broselow theo chiều cao. Luôn ghi cân nặng vào đầu tờ đơn.'],
+ ['Bẫy trần liều người lớn là gì? Cho 3 ví dụ.','Công thức mg/kg cho ra liều VƯỢT liều tối đa của người lớn ở trẻ cân nặng lớn → phải "chạm trần". Ví dụ: Ceftriaxon 100 mg/kg chạm trần 2 g từ <b>20 kg</b>; Dexamethason 0,6 mg/kg chạm trần 10–12 mg từ <b>~17 kg</b>; Prednisolon 2 mg/kg chạm trần 40–60 mg từ <b>~30 kg</b>; Paracetamol 15 mg/kg chạm trần 1 g từ <b>67 kg</b>.'],
+ ['Quy tắc thực hành với trẻ ≥ 40 kg?','Ngừng nhân mg/kg và <b>kê liều người lớn</b>, trừ khi phác đồ nhi quy định khác. Trẻ béo phì: dùng cân nặng hiệu chỉnh hoặc cân nặng lý tưởng cho thuốc tan trong mỡ (PED-34).'],
+ ['Công thức dịch duy trì Holliday-Segar (4-2-1)?','<b>100 ml/kg</b> cho 10 kg đầu + <b>50 ml/kg</b> cho 10 kg tiếp theo + <b>20 ml/kg</b> cho mỗi kg trên 20 kg. Dạng ml/giờ: <b>4-2-1</b> (4 ml/kg/h cho 10 kg đầu, 2 cho 10 kg tiếp, 1 cho phần còn lại). Ví dụ 14 kg → 1200 ml/24 h = 50 ml/giờ.'],
+ ['Quy đổi ml/giờ ra giọt/phút?','<b>Giọt/phút = (ml/giờ × hệ số giọt) ÷ 60</b>. Dây 20 giọt/ml: 50 ml/giờ → 17 giọt/phút. Dây nhi khoa 60 giọt/ml: 1 ml/giờ = 1 giọt/phút. Bơm tiêm điện chính xác hơn và là chuẩn cho thuốc có cửa sổ hẹp.'],
+ ['Giới hạn truyền Kali clorua tĩnh mạch?','Tốc độ ≤ <b>0,5 mmol/kg/giờ</b>; nồng độ ngoại vi ≤ <b>40 mmol/l (0,3 %)</b>, trung tâm ≤ 60–80 mmol/l; <b>không bao giờ bolus</b>; luôn có monitor, máy truyền, bảo đảm có nước tiểu; kiểm tra Kali mỗi 2–4 giờ. <b>1 g KCl = 13,4 mmol</b> (không phải 10 mmol).'],
+ ['Adrenalin 1:1000 khác 1:10.000 thế nào?','<b>1:1000 = 1 mg/1 ml</b> (ống nguyên) → dùng <b>TIÊM BẮP</b> trong phản vệ. <b>1:10.000 = 1 mg/10 ml</b> (pha 1 mg + 9 ml NaCl 0,9 %) → dùng <b>TĨNH MẠCH</b> trong ngừng tim hoặc nhịp chậm kháng trị. Tiêm TM dung dịch 1:1000 khi còn mạch gây tăng HA kịch phát, xuất huyết não, loạn nhịp chết người.'],
+ ['Liều Adrenalin tiêm bắp trong phản vệ ở trẻ em?','<b>0,01 mg/kg = 0,01 ml/kg</b> dung dịch 1 mg/ml, tiêm mặt ngoài đùi (vasto lateralis). Trần: <b>0,3 mg</b> trẻ < 30 kg, <b>0,5 mg</b> trẻ ≥ 30 kg/người lớn. Lặp lại mỗi <b>5–15 phút</b> nếu chưa đáp ứng. Đây là thuốc duy nhất cứu sống — corticoid và kháng histamin chỉ là phụ trợ (PED-06).'],
+ ['Vì sao sơ sinh chỉ được dùng Dextrose 10 %?','Dextrose 30–50 % rất ưu trương (1500–2500 mOsm/l) → hoại tử mô nếu thoát mạch, tăng áp lực thẩm thấu đột ngột, xuất huyết não thất, và hạ đường huyết PHẢN ỨNG do phóng insulin ồ ạt. Liều hạ đường huyết: <b>Glucose 10 % 2 ml/kg</b> TM chậm, sau đó truyền duy trì theo GIR 4–8 mg/kg/phút (PED-17).'],
+ ['Công thức GIR và mục tiêu ở sơ sinh?','<b>GIR (mg/kg/phút) = (% dextrose × ml/giờ) ÷ (6 × cân nặng)</b>. Mục tiêu <b>4–8 mg/kg/phút</b> (non tháng có thể cần cao hơn). Dùng để điều chỉnh nồng độ dextrose khi phải hạn chế thể tích dịch.'],
+ ['Quy tắc viết số thập phân an toàn?','<b>LUÔN có số 0 trước dấu thập phân</b>: viết 0,5 — không viết .5 (đọc thành 5). <b>KHÔNG BAO GIỜ dùng số 0 thừa sau thập phân</b>: viết 5 — không viết 5.0 (đọc thành 50). Không viết tắt đơn vị: "đơn vị" thay vì "U"/"IU"; "microgam" thay vì "mcg" khi viết tay dễ nhầm mg.'],
+ ['Vì sao phải viết cả mg VÀ ml trên đơn?','Vì cùng một thuốc có nhiều nồng độ siro (Paracetamol: 80 mg/5 ml, 120 mg/5 ml, 250 mg/5 ml, 100 mg/ml). Nếu chỉ ghi "5 ml", phụ huynh mua nhầm lọ nồng độ cao → quá liều gấp 2–3 lần. Cách viết đúng: "Paracetamol siro 120 mg/5 ml — uống 5 ml (= 120 mg) mỗi 6 giờ".'],
+ ['Bẫy của viên đạn Paracetamol?','1) Sinh khả dụng thất thường và thấp hơn đường uống (60–70 %). 2) <b>Nguy hiểm nhất: phụ huynh dùng viên đạn + siro cùng lúc</b> vì tưởng là hai thuốc khác nhau → quá liều, ngộ độc gan. Viên đạn phải được tính vào tổng liều 24 giờ (≤ 60 mg/kg, ≤ 4 g). Chỉ dùng khi trẻ không uống được.'],
+ ['Vì sao Aspirin chống chỉ định ở trẻ em?','Gây <b>hội chứng Reye</b>: bệnh não cấp kèm thoái hoá mỡ gan, tăng amoniac, tử vong cao — xảy ra khi dùng salicylat trong lúc nhiễm virus (cúm, thuỷ đậu). Ngoại lệ có chỉ định chuyên khoa: bệnh Kawasaki (giai đoạn liều chống viêm rồi liều thấp chống kết tập tiểu cầu) và dự phòng thấp tim.'],
+ ['Vì sao Codein và Tramadol chống chỉ định dưới 12 tuổi?','Cả hai là tiền thuốc phải qua <b>CYP2D6</b> để chuyển thành morphin. Nhóm <b>siêu chuyển hoá</b> (polymorphic) tạo morphin ồ ạt → ức chế hô hấp, tử vong; đã có báo cáo tử vong ở trẻ sau cắt amydale. Thêm vào đó nhóm chuyển hoá kém thì không giảm đau. Không thể dự đoán kiểu gen → chống chỉ định.'],
+ ['Vì sao Ceftriaxon nguy hiểm ở sơ sinh?','1) Gắn vào albumin mạnh hơn bilirubin → <b>đẩy bilirubin tự do</b> ra máu, qua hàng rào máu não chưa trưởng thành → vàng da nhân não. 2) Tạo <b>kết tủa ceftriaxon–canxi</b> ở phổi và thận khi dùng cùng dịch chứa canxi (Ringer) → tử vong. Thay bằng Cefotaxim.'],
+ ['Tốc độ truyền của những thuốc "truyền chậm" bắt buộc?','<b>Vancomycin ≥ 60 phút</b> (red-man syndrome) · <b>Phenytoin ≤ 1 mg/kg/phút</b> với monitor (tụt HA, loạn nhịp) · <b>Phenobarbital ≤ 60 mg/phút</b> · <b>Adenosin bolus &lt; 5 giây</b> + flush · <b>Kali ≤ 0,5 mmol/kg/giờ</b> · <b>Magnesi 10–20 phút</b> · <b>Calci chậm với monitor</b> · <b>Furosemid TM chậm</b> (điếc khi phối hợp aminoglycosid).'],
+ ['Vì sao Ibuprofen chống chỉ định trong sốt xuất huyết Dengue?','NSAID ức chế không hồi phục COX-1 → ức chế kết tập tiểu cầu suốt đời sống tiểu cầu (7–10 ngày), trong khi Dengue đã có giảm tiểu cầu và rối loạn đông máu → <b>xuất huyết tiêu hoá nặng</b>. Ngoài ra giảm prostaglandin → giảm tưới máu thận trong bối cảnh thoát huyết tương → <b>suy thận cấp</b>. Chỉ dùng Paracetamol ≤ 60 mg/kg/ngày.'],
+ ['Vì sao Gentamicin dùng 1 LẦN/ngày thay vì chia 3 lần?','Aminoglycosid diệt khuẩn <b>phụ thuộc nồng độ đỉnh</b> và có <b>hiệu ứng hậu kháng sinh</b> kéo dài. Một liều lớn/ngày cho đỉnh cao hơn (diệt khuẩn tốt hơn) và có khoảng nghỉ dài để ống thận phục hồi → <b>ít độc thận hơn</b> chia nhiều lần. Sơ sinh/non tháng phải KÉO DÀI khoảng cách (q24–48 h) vì GFR thấp.'],
+ ['eGFR theo Schwartz và BSA Mosteller?','<b>eGFR (ml/phút/1,73 m²) = 0,413 × chiều cao (cm) ÷ creatinin (mg/dl)</b> — dùng để chỉnh liều thuốc thải qua thận. <b>BSA (m²) = √(chiều cao cm × cân nặng kg ÷ 3600)</b> — dùng cho thuốc tính theo diện tích da (hoá trị, aciclovir 500 mg/m², một số thuốc tim mạch).'],
+ ['Vì sao trẻ 1–9 tuổi cần mg/kg CAO HƠN người lớn với nhiều thuốc?','Vì <b>tỷ lệ khối gan trên cân nặng lớn hơn</b> và thanh thải thận (tính theo kg) đã trưởng thành vượt mức người lớn → chuyển hoá và thải trừ nhanh hơn. Ví dụ phenytoin, carbamazepin, và nhiều kháng sinh cần mg/kg cao hơn và khoảng cách liều ngắn hơn. Đến tuổi dậy thì, tốc độ chuyển hoá giảm dần về mức người lớn → phải chỉnh lại liều.']
+];
+
+/* ============ NAV & OBSERVERS ============ */
+(function(){const nav=$('#nav'),mn=$('#mnav');
+ NAV.forEach(([id,label],i)=>{
+  const a=document.createElement('a');a.className='navlink';a.href='#'+id;
+  a.innerHTML='<span class="mono text-[.68rem] opacity-50 w-5 shrink-0">'+String(i+1).padStart(2,'0')+'</span>'+label;nav.appendChild(a);
+  const o=document.createElement('option');o.value='#'+id;o.textContent=label;mn.appendChild(o);});})();
+window.addEventListener('scroll',()=>{const h=document.documentElement;$('#prog').style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';},{passive:true});
+new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.05}).observe;
+const ioR=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.05});
+$$('.reveal').forEach(e=>ioR.observe(e));
+const ioN=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const id=e.target.id;$$('.navlink').forEach((a,i)=>a.classList.toggle('active',NAV[i]&&NAV[i][0]===id));}}),{rootMargin:'-15% 0px -70% 0px'});
+NAV.forEach(([id])=>{const el=document.getElementById(id);if(el)ioN.observe(el);});
+
+/* ============ ADME CHART ============ */
+new Chart($('#admeChart'),{type:'line',
+ data:{labels:['Sơ sinh','1 tuần','1 tháng','3 tháng','6 tháng','12 tháng','2 tuổi','5 tuổi','9 tuổi','15 tuổi','Người lớn'],
+  datasets:[
+   {label:'Thanh thải thận (GFR chuẩn hoá)',data:[30,45,60,78,90,100,115,120,118,110,100],borderColor:'#fb7185',backgroundColor:'rgba(251,113,133,.10)',fill:true,tension:.35,borderWidth:2.4,pointRadius:3},
+   {label:'Chuyển hoá gan (CYP450)',data:[30,40,55,72,85,95,110,125,120,110,100],borderColor:'#a78bfa',backgroundColor:'rgba(167,139,250,.10)',fill:true,tension:.35,borderWidth:2.4,pointRadius:3},
+   {label:'Glucuronid hoá (UGT — pha II)',data:[10,15,25,38,55,68,82,92,98,100,100],borderColor:'#2dd4bf',backgroundColor:'rgba(45,212,191,.10)',fill:true,tension:.35,borderWidth:2.4,pointRadius:3},
+   {label:'Nước toàn cơ thể (% cân nặng)',data:[78,77,72,68,65,62,60,58,58,59,60],borderColor:'#fbbf24',borderDash:[6,5],fill:false,tension:.35,borderWidth:2,pointRadius:2}
+  ]},
+ options:{responsive:true,maintainAspectRatio:false,
+  plugins:{legend:{labels:{color:'#9fb4cd',font:{size:11,family:'Be Vietnam Pro'},boxWidth:14}},
+   tooltip:{backgroundColor:'#0b1524',borderColor:'rgba(255,255,255,.15)',borderWidth:1,titleColor:'#e6edf7',bodyColor:'#c9d8ee'}},
+  scales:{x:{grid:{color:'rgba(255,255,255,.05)'},ticks:{color:'#7e93ad',font:{size:10}}},
+   y:{min:0,max:135,grid:{color:'rgba(255,255,255,.05)'},ticks:{color:'#7e93ad',font:{size:10},callback:v=>v+'%'}}}}});
+
+/* ============ CALCULATOR ============ */
+let curGroup='all', curDrug=DRUGS[0];
+(function(){
+ const box=$('#dGroups');
+ const mk=(k,l)=>{const b=document.createElement('button');b.className='chip cursor-pointer '+(curGroup===k?'badge-n':'');b.textContent=l;
+   b.onclick=()=>{curGroup=k;$$('#dGroups .chip').forEach(x=>x.className='chip cursor-pointer');b.className='chip cursor-pointer badge-n';renderDrugList();};box.appendChild(b);};
+ mk('all','Tất cả');Object.keys(GROUPS).forEach(k=>mk(k,GROUPS[k]));
+})();
+function renderDrugList(){
+ const q=($('#dSearch').value||'').toLowerCase().trim();
+ const box=$('#dList');box.innerHTML='';
+ DRUGS.filter(d=>(curGroup==='all'||d.g===curGroup)&&(!q||d.n.toLowerCase().includes(q))).forEach(d=>{
+  const b=document.createElement('button');b.className='drug'+(d===curDrug?' sel':'');
+  b.innerHTML='<div class="flex items-center justify-between gap-2"><span>'+d.n+'</span><span class="mono text-[.62rem] text-teal-300/60">'+d.u+'</span></div>';
+  b.onclick=()=>{curDrug=d;renderDrugList();renderCalc();};box.appendChild(b);});
+ if(!box.children.length) box.innerHTML='<div class="text-[.8rem] text-slate-500 p-3">Không tìm thấy thuốc.</div>';
+}
+$('#dSearch').addEventListener('input',renderDrugList);
+(function(){const box=$('#wPresets');[[3,'Sơ sinh'],[7,'6 tháng'],[10,'1 tuổi'],[13,'2 tuổi'],[18,'5 tuổi'],[25,'8 tuổi'],[40,'11 tuổi'],[60,'15 tuổi']]
+ .forEach(([w,l])=>{const b=document.createElement('button');b.className='btn text-[.72rem] py-1 px-2.5';b.textContent=l+' · '+w+' kg';
+  b.onclick=()=>{$('#wInput').value=w;$('#wRange').value=Math.min(80,w);renderCalc();};box.appendChild(b);});})();
+$('#wInput').addEventListener('input',e=>{const v=parseFloat(e.target.value);if(v>=1&&v<=80)$('#wRange').value=v;renderCalc();});
+$('#wRange').addEventListener('input',e=>{$('#wInput').value=e.target.value;renderCalc();});
+
+function computeDose(d,kg,dosePerKg){
+ // trả về {perDose, perDay, capped, capNote}
+ if(d.per==='day'){let day=dosePerKg*kg, cNote=null;
+   if(d.md&&day>d.md){day=d.md;cNote='Tổng liều 24 h đã chạm trần người lớn '+d.md+' '+d.u+' (tính theo mg/kg sẽ là '+nf(dosePerKg*kg)+' '+d.u+').';}
+   const per=day/(d.times||1);
+   let ms=d.ms? Math.min(d.ms, per) : per;
+   if(d.ms&&per>d.ms&&!cNote)cNote='Liều mỗi lần đã chạm trần '+d.ms+' '+d.u+'.';
+   return {perDose:ms,perDay:ms*(d.times||1),cap:cNote};}
+ else {let per=dosePerKg*kg,cNote=null;
+   if(d.ms&&per>d.ms){per=d.ms;cNote='Liều mỗi lần đã chạm trần người lớn '+d.ms+' '+d.u+' (theo mg/kg sẽ là '+nf(dosePerKg*kg)+' '+d.u+').';}
+   const day=per*(d.times||1);
+   if(d.md&&day>d.md){per=d.md/(d.times||1);cNote='Tổng liều 24 h chạm trần '+d.md+' '+d.u+' → giảm còn '+nf(per)+' '+d.u+'/lần.';}
+   return {perDose:per,perDay:day,cap:cNote};}
+}
+function formRows(d,amount){
+ if(!d.f||!d.f.length) return '';
+ return d.f.map(f=>{
+  const [label,amt,vol]=f;
+  let val,unit,note='';
+  if(vol===1){ val=amount/amt; unit= label.startsWith('Ống')||label.startsWith('Lọ')||label.startsWith('Chai')?'ống/lọ':'viên/gói';
+    note = val<0.25?'⚠️ dưới 1/4 đơn vị — nên đổi dạng lỏng hoặc chế phẩm khác': val%1!==0?'làm tròn theo vạch chia của đơn vị':'nguyên đơn vị';
+  } else { val=amount/amt*vol; unit='ml';
+    note = val<1?'dùng bơm tiêm 1 ml (chia 0,01 ml)': val<3?'bơm tiêm 3 ml — làm tròn 0,1 ml': val<10?'bơm tiêm/ống đong — làm tròn 0,5 ml':'ống đong/cốc có vạch — làm tròn 1 ml';
+  }
+  const dec = val<1?2:val<10?2:1;
+  return `<div class="cardFlat p-3 flex flex-wrap items-center gap-3 justify-between">
+    <div class="min-w-[180px] flex-1"><div class="text-[.84rem] font-semibold text-slate-200">${label}</div>
+      <div class="text-[.72rem] text-slate-500 mt-0.5">${note}</div></div>
+    <div class="text-right"><div class="big text-teal-300">${nf(val,dec)} <span class="text-[.8rem] font-semibold text-slate-400">${unit}</span></div>
+      <div class="text-[.7rem] text-slate-500 mono">/ liều</div></div></div>`;
+ }).join('');
+}
+function renderCalc(){
+ const d=curDrug, kg=Math.max(0.3,parseFloat($('#wInput').value)||15);
+ $('#drugHead').innerHTML=`<div class="flex flex-wrap items-start gap-3 justify-between">
+   <div><div class="font-extrabold text-xl leading-tight">${d.n}</div>
+   <div class="flex flex-wrap gap-1.5 mt-2"><span class="chip text-teal-200">${GROUPS[d.g]}</span>
+   <span class="chip text-slate-300 mono">${d.d}</span><span class="chip text-amber-200">trần ${d.ms?d.ms+' '+d.u+'/lần':'—'} · ${d.md?d.md+' '+d.u+'/24h':'—'}</span></div></div></div>`;
+ $('#drugRoute').textContent=d.r;
+ // dose slider
+ const wrap=$('#doseSliderWrap');
+ if(d.bands||d.special){ wrap.style.display='none'; }
+ else{ wrap.style.display='';
+   const dr=$('#doseRange'); dr.min=d.dmin; dr.max=d.dmax; dr.step=(d.dmax-d.dmin)>=5?0.5:0.01;
+   if(parseFloat(dr.value)<d.dmin||parseFloat(dr.value)>d.dmax) dr.value=d.dmax;
+   $('#doseLo').textContent=nf(d.dmin,2)+' '+d.u+'/kg'+(d.per==='day'?'/ngày':'/lần');
+   $('#doseHi').textContent=nf(d.dmax,2)+' '+d.u+'/kg'+(d.per==='day'?'/ngày':'/lần');
+   $('#doseNow').textContent=nf(parseFloat(dr.value),2)+' '+d.u+'/kg'+(d.per==='day'?'/ngày':'/lần');
+ }
+ const dpk = d.bands||d.special ? d.dmax : parseFloat($('#doseRange').value);
+ let html='';
+ if(d.special==='fluid'){
+   const ml24 = kg<=10? kg*100 : kg<=20? 1000+(kg-10)*50 : 1500+(kg-20)*20;
+   const rate=ml24/24, dpf=20;
+   html=`<div class="card p-5"><div class="text-xs mono tracking-[.16em] text-teal-300 mb-3">DỊCH DUY TRÌ CHO ${nf(kg,1)} KG</div>
+    <div class="grid sm:grid-cols-4 gap-3">
+     <div class="cardFlat p-3 text-center"><div class="big text-teal-300">${Math.round(ml24)}</div><div class="text-[.7rem] text-slate-400 mt-1">ml / 24 giờ</div></div>
+     <div class="cardFlat p-3 text-center"><div class="big text-sky-300">${nf(rate,1)}</div><div class="text-[.7rem] text-slate-400 mt-1">ml / giờ (bơm tiêm điện)</div></div>
+     <div class="cardFlat p-3 text-center"><div class="big text-amber-300">${nf(rate*20/60,1)}</div><div class="text-[.7rem] text-slate-400 mt-1">giọt/phút (dây 20)</div></div>
+     <div class="cardFlat p-3 text-center"><div class="big text-violet-300">${nf(rate*60/60,0)}</div><div class="text-[.7rem] text-slate-400 mt-1">giọt/phút (dây 60 — nhi)</div></div>
+    </div>
+    <div class="mt-3 text-[.82rem] text-slate-400 mono">= 100 × ${nf(Math.min(kg,10))} + 50 × ${nf(Math.max(0,Math.min(10,kg-10)))} + 20 × ${nf(Math.max(0,kg-20))}</div>
+    <div class="trap mt-3"><p class="text-[.82rem] text-slate-300">${d.w}</p></div></div>`;
+ }
+ else if(d.bands){
+   html=`<div class="card p-5"><div class="text-xs mono tracking-[.16em] text-teal-300 mb-3">LIỀU THEO NHÓM (không tính mg/kg đơn thuần) — cân nặng ${nf(kg,1)} kg</div>
+    <div class="space-y-2">${d.bands.map(b=>`<div class="cardFlat p-3 flex flex-wrap gap-3 justify-between"><span class="font-bold text-slate-200">${b[0]}</span><span class="text-[.85rem] text-teal-100">${b[1]}</span></div>`).join('')}</div>
+    ${d.f&&d.f.length?`<div class="text-xs mono tracking-[.16em] text-slate-400 mt-4 mb-2">DẠNG BÀO CHẾ CÓ SẴN</div><div class="space-y-2">${d.f.map(f=>`<div class="cardFlat p-2.5 text-[.83rem] text-slate-300">${f[0]} <span class="mono text-slate-500">· ${f[1]} ${d.u}${f[2]!==1?' / '+f[2]+' ml':''}</span></div>`).join('')}</div>`:''}
+    </div>`;
+ }
+ else{
+  const r=computeDose(d,kg,dpk);
+  const lo=computeDose(d,kg,d.dmin), hi=computeDose(d,kg,d.dmax);
+  const dec = r.perDose<1?2:r.perDose<10?1:0;
+  html+=`<div class="card p-5">
+   <div class="grid sm:grid-cols-3 gap-3">
+    <div class="cardFlat p-4 text-center border-teal-400/25"><div class="text-[.7rem] mono text-slate-400">LIỀU MỖI LẦN (${nf(dpk,2)} ${d.u}/kg)</div><div class="big text-3xl text-teal-300 mt-1">${nf(r.perDose,dec)}<span class="text-sm text-slate-400 ml-1">${d.u}</span></div><div class="text-[.7rem] text-slate-500 mt-1">khoảng: ${nf(lo.perDose,dec)} – ${nf(hi.perDose,dec)} ${d.u}</div></div>
+    <div class="cardFlat p-4 text-center"><div class="text-[.7rem] mono text-slate-400">TỔNG LIỀU 24 GIỜ</div><div class="big text-2xl text-sky-300 mt-1">${nf(r.perDay,r.perDay<10?1:0)}<span class="text-sm text-slate-400 ml-1">${d.u}</span></div><div class="text-[.7rem] text-slate-500 mt-1">${d.times||1} lần/ngày · ${nf(r.perDay/kg,1)} ${d.u}/kg/ngày</div></div>
+    <div class="cardFlat p-4 text-center"><div class="text-[.7rem] mono text-slate-400">TRẦN CHO PHÉP</div><div class="big text-2xl ${r.cap?'text-rose-300':'text-slate-200'} mt-1">${d.ms?d.ms:'—'} / ${d.md?d.md:'—'}</div><div class="text-[.7rem] text-slate-500 mt-1">${d.u} mỗi lần / 24 giờ</div></div>
+   </div>
+   ${r.cap?`<div class="mt-3 rounded-xl p-3.5 badge-d"><b>🚩 ĐÃ CHẠM TRẦN LIỀU:</b> ${r.cap}</div>`:`<div class="mt-3 rounded-xl p-3.5 badge-n"><b>✓ Chưa chạm trần:</b> liều tính theo mg/kg còn dưới mức tối đa của người lớn.</div>`}
+  </div>`;
+  html+=`<div class="card p-5 mt-4"><div class="text-xs mono tracking-[.16em] text-teal-300 mb-3">QUY ĐỔI RA DẠNG BÀO CHẾ — ${nf(r.perDose,dec)} ${d.u} MỖI LIỀU</div><div class="space-y-2">${formRows(d,r.perDose)}</div></div>`;
+ }
+ html+=`<div class="grid md:grid-cols-2 gap-4 mt-4">
+   <div class="trap"><div class="text-[.7rem] mono tracking-[.14em] text-rose-300 mb-1">⚠️ THẬN TRỌNG</div><p class="text-[.83rem] text-slate-300 leading-relaxed">${d.w}</p></div>
+   <div class="why"><div class="text-[.7rem] mono tracking-[.14em] text-violet-300 mb-1">VÌ SAO</div><p class="text-[.83rem] text-slate-300 leading-relaxed">${d.y}</p></div></div>`;
+ $('#calcOut').innerHTML=html;
+}
+$('#doseRange').addEventListener('input',e=>{$('#doseNow').textContent=nf(parseFloat(e.target.value),2)+' '+curDrug.u+'/kg'+(curDrug.per==='day'?'/ngày':'/lần');renderCalc();});
+renderDrugList(); renderCalc();
+
+/* ============ CAP CHART ============ */
+const capCandidates=DRUGS.filter(d=>d.ms&&!d.bands&&!d.special&&d.dmax>0);
+(function(){const s=$('#capDrug');capCandidates.forEach((d,i)=>{const o=document.createElement('option');o.value=i;o.textContent=d.n+' ('+d.dmax+' '+d.u+'/kg · trần '+d.ms+' '+d.u+')';s.appendChild(o);});
+ s.value=Math.max(0,capCandidates.findIndex(d=>d.n.startsWith('Ceftriaxon')));
+ s.onchange=renderCap;})();
+let capChart=null;
+function renderCap(){
+ const d=capCandidates[+$('#capDrug').value]; if(!d)return;
+ const ws=[];for(let w=3;w<=80;w+=1)ws.push(w);
+ const kgLine=ws.map(w=>+(w*d.dmax).toFixed(2));
+ const capLine=ws.map(()=>d.ms);
+ const cross=d.ms/d.dmax;
+ if(capChart)capChart.destroy();
+ capChart=new Chart($('#capChart'),{type:'line',
+  data:{labels:ws,datasets:[
+   {label:d.dmax+' '+d.u+'/kg × cân nặng',data:kgLine,borderColor:'#38bdf8',backgroundColor:'rgba(56,189,248,.12)',fill:true,tension:0,pointRadius:0,borderWidth:2.4},
+   {label:'Trần liều người lớn: '+d.ms+' '+d.u,data:capLine,borderColor:'#fb7185',borderDash:[7,5],fill:false,pointRadius:0,borderWidth:2.4}]},
+  options:{responsive:true,maintainAspectRatio:false,
+   plugins:{legend:{labels:{color:'#9fb4cd',font:{size:11,family:'Be Vietnam Pro'},boxWidth:14}},
+    tooltip:{callbacks:{title:i=>'Cân nặng '+i[0].label+' kg',label:c=>c.dataset.label+': '+nf(c.parsed.y,1)+' '+d.u},backgroundColor:'#0b1524',borderColor:'rgba(255,255,255,.15)',borderWidth:1}},
+   scales:{x:{title:{display:true,text:'Cân nặng (kg)',color:'#7e93ad'},grid:{color:'rgba(255,255,255,.05)'},ticks:{color:'#7e93ad',maxTicksLimit:12,font:{size:10}}},
+    y:{title:{display:true,text:d.u,color:'#7e93ad'},grid:{color:'rgba(255,255,255,.05)'},ticks:{color:'#7e93ad',font:{size:10}}}}}});
+ const safe=cross>=80;
+ $('#capKg').textContent=safe?'Không chạm trần trong phạm vi nhi':('Chạm trần từ '+nf(cross,1)+' kg');
+ $('#capTxt').innerHTML=`<b>${d.n}</b> — ${d.dmax} ${d.u}/kg${d.per==='day'?'/ngày':'/lần'}, trần <b>${d.ms} ${d.u}</b>.<br>${safe?'Liều mg/kg luôn nằm dưới trần trong toàn bộ dải cân nặng nhi khoa.':'Trẻ nặng <b>từ '+nf(cross,1)+' kg trở lên</b> phải dùng đúng trần '+d.ms+' '+d.u+', KHÔNG nhân tiếp mg/kg.'}`;
+ $('#capOut').className='mt-0 rounded-xl p-4 '+(safe?'badge-n':cross<25?'badge-d':'badge-w');
+}
+(function(){
+ const box=$('#capList');
+ capCandidates.map(d=>({d,c:d.ms/d.dmax})).filter(x=>x.c<80).sort((a,b)=>a.c-b.c).slice(0,8).forEach(({d,c})=>{
+  box.insertAdjacentHTML('beforeend',`<div class="cardFlat p-2.5 flex items-center justify-between gap-2">
+   <span class="text-slate-300">${d.n}</span>
+   <span class="mono font-bold ${c<20?'text-rose-300':c<35?'text-amber-300':'text-sky-300'}">${nf(c,1)} kg</span></div>`);});
+})();
+renderCap();
+
+/* ============ SYRUP TRAP ============ */
+(function(){const s=$('#syrDrug');DRUGS.filter(d=>d.f&&d.f.some(f=>f[2]!==1)&&!d.bands&&!d.special).forEach((d,i)=>{const o=document.createElement('option');o.value=d.n;o.textContent=d.n;s.appendChild(o);});})();
+function calcSyrup(){
+ const name=$('#syrDrug').value, d=DRUGS.find(x=>x.n===name), kg=Math.max(1,parseFloat($('#syrW').value)||12);
+ const dpk=d.dmax|| (d.bands?0:d.dmax);
+ const r=computeDose(d,kg,dpk);
+ const liqs=(d.f||[]).filter(f=>f[2]!==1);
+ const tb=$('#syrBody');tb.innerHTML='';
+ liqs.forEach(f=>{
+  const [label,amt,vol]=f;
+  const ml=r.perDose/amt*vol;
+  const wrong=5/ vol*amt; // nếu phụ huynh đong 5 ml của dạng này
+  tb.insertAdjacentHTML('beforeend',`<tr>
+   <td class="font-semibold text-slate-200">${label}</td>
+   <td class="mono text-teal-300">${nf(amt/vol,2)} ${d.u}/ml</td>
+   <td class="mono text-lg font-bold text-sky-300">${nf(ml,2)} ml</td>
+   <td class="mono ${Math.abs(wrong-r.perDose)/r.perDose>0.25?'text-rose-300 font-bold':'text-slate-300'}">${nf(wrong,1)} ${d.u} ${Math.abs(wrong-r.perDose)/r.perDose>0.25?'← lệch '+nf(wrong/r.perDose,1)+'×':''}</td></tr>`);
+ });
+ if(!liqs.length) tb.innerHTML='<tr><td colspan="4" class="text-slate-400">Thuốc này không có dạng lỏng trong danh mục.</td></tr>';
+}
+calcSyrup();
+$('#syrDrug').onchange=calcSyrup; $('#syrW').oninput=calcSyrup;
+
+/* ============ FLUID CALC ============ */
+function calcFluid(){
+ const kg=Math.max(0.5,parseFloat($('#flW').value)||14), dpf=+$('#flDrop').value, D=+$('#flD').value, pct=+$('#flPct').value/100;
+ let ml24=(kg<=10?kg*100:kg<=20?1000+(kg-10)*50:1500+(kg-20)*20)*pct;
+ const rate=ml24/24, gtt=rate*dpf/60;
+ const gir= D? (D*rate)/(6*kg) : 0;
+ const na= kg<=10? 3*kg : kg<=20? 30+2*(kg-10) : 50+1*(kg-20);
+ const k= kg<=10? 2*kg : kg<=20? 20+1.5*(kg-10) : 35+1*(kg-20);
+ $('#flOut').innerHTML=`
+  <div class="grid grid-cols-2 gap-2.5">
+   <div class="cardFlat p-3 text-center"><div class="big text-teal-300">${Math.round(ml24)}</div><div class="text-[.7rem] text-slate-400 mt-1">ml / 24 giờ</div></div>
+   <div class="cardFlat p-3 text-center"><div class="big text-sky-300">${nf(rate,1)}</div><div class="text-[.7rem] text-slate-400 mt-1">ml / giờ</div></div>
+   <div class="cardFlat p-3 text-center"><div class="big text-amber-300">${nf(gtt,1)}</div><div class="text-[.7rem] text-slate-400 mt-1">giọt / phút (dây ${dpf})</div></div>
+   <div class="cardFlat p-3 text-center"><div class="big ${gir&&gir<4?'text-rose-300':gir&&gir>8?'text-rose-300':'text-violet-300'}">${gir?nf(gir,2):'—'}</div><div class="text-[.7rem] text-slate-400 mt-1">GIR mg/kg/phút (4–8)</div></div>
+  </div>
+  <div class="cardFlat p-3 mt-2.5 text-[.82rem] text-slate-300">
+   <div class="mono text-slate-400 text-[.72rem] mb-1">CÔNG THỨC</div>
+   100 × ${nf(Math.min(kg,10),1)} ${kg>10?'+ 50 × '+nf(Math.min(10,kg-10),1):''} ${kg>20?'+ 20 × '+nf(kg-20,1):''} = <b>${Math.round(ml24/pct)} ml</b> × ${Math.round(pct*100)} % = <b>${Math.round(ml24)} ml/24 h</b><br>
+   Giọt/phút = (${nf(rate,1)} × ${dpf}) ÷ 60 = <b>${nf(gtt,1)}</b>
+   ${gir?`<br>GIR = (${D} × ${nf(rate,1)}) ÷ (6 × ${nf(kg,1)}) = <b>${nf(gir,2)} mg/kg/phút</b>`:''}
+  </div>
+  <div class="cardFlat p-3 mt-2.5 text-[.82rem] text-slate-300">
+   <div class="mono text-slate-400 text-[.72rem] mb-1">ĐIỆN GIẢI GỢI Ý THÊM VÀO DỊCH DUY TRÌ (khi trẻ ăn uống kém)</div>
+   Na⁺ ≈ <b>${nf(na*pct,0)} mmol/24 h</b> (${nf(na*pct/(ml24/1000),0)} mmol/l) · K⁺ ≈ <b>${nf(k*pct,0)} mmol/24 h</b> (${nf(k*pct/(ml24/1000),0)} mmol/l — chỉ thêm khi đã có nước tiểu)
+  </div>
+  <div class="trap mt-2.5"><p class="text-[.82rem] text-slate-300">Không dùng Dextrose 5 % đơn thuần (không điện giải) làm dịch duy trì → hạ Na máu do ADH tăng trong bệnh cấp. Hạn chế 50–75 % ở viêm màng não, viêm phổi nặng, tim bẩm sinh, hội chứng thận hư.</p></div>`;
+}
+calcFluid(); ['flW','flDrop','flD','flPct'].forEach(id=>$('#'+id).addEventListener('input',calcFluid));
+
+/* ============ INFUSION CALC ============ */
+(function(){const s=$('#inDrug');INFUSIONS.forEach((x,i)=>{const o=document.createElement('option');o.value=i;o.textContent=x.n;s.appendChild(o);});
+ s.onchange=()=>{const x=INFUSIONS[+s.value];$('#inDose').value=x.d;$('#inVol').value=x.vol;$('#inConc').textContent=x.conc;$('#inUnit').value=x.u==='IU'?'mIU':(x.u==='mcg'?'mcg':'mg');calcInf();};
+ s.value=0;$('#inConc').textContent=INFUSIONS[0].conc;})();
+function calcInf(){
+ const x=INFUSIONS[+$('#inDrug').value];
+ const kg=Math.max(0.5,parseFloat($('#inW').value)||12);
+ const dose=parseFloat($('#inDose').value)||0;
+ const vol=Math.max(1,parseFloat($('#inVol').value)||50);
+ const amt=x.amt; // amount in x.u
+ const unit=$('#inUnit').value;
+ // chuẩn hoá về x.u mỗi phút
+ let dosePerMin;
+ if(unit==='mcg') dosePerMin = x.u==='mcg'? dose*dose : null;
+ // tính trực tiếp theo đơn vị của thuốc
+ let mgPerMin;
+ if(x.u==='mcg'){ mgPerMin = (unit==='mg'? dose : unit==='mcg'? dose/1000 : dose/1000) * kg; }
+ else if(x.u==='IU'){ mgPerMin = (unit==='mIU'? dose/1000 : unit==='mg'? dose : dose) * kg; }
+ else { mgPerMin = (unit==='mcg'? dose/1000 : dose) * kg; }
+ const concAmt = amt/vol; // x.u per ml
+ const concMg = x.u==='mcg'? concAmt/1000 : x.u==='IU'? concAmt : concAmt;
+ const perHr = mgPerMin*60;
+ const mlH = perHr/concMg;
+ const totalU = concAmt*vol;
+ $('#inOut').innerHTML=`
+  <div class="grid grid-cols-2 gap-2.5">
+   <div class="cardFlat p-3 text-center"><div class="big text-teal-300">${mlH<1?nf(mlH,2):nf(mlH,1)}</div><div class="text-[.7rem] text-slate-400 mt-1">ml / giờ</div></div>
+   <div class="cardFlat p-3 text-center"><div class="big text-sky-300">${nf(perHr,2)}</div><div class="text-[.7rem] text-slate-400 mt-1">${x.u==='IU'?'đơn vị':x.u} / giờ</div></div>
+  </div>
+  <div class="cardFlat p-3 mt-2.5 text-[.82rem] text-slate-300">
+   <div class="mono text-slate-400 text-[.72rem] mb-1">CÁCH PHA &amp; CÔNG THỨC</div>
+   ${x.conc} → nồng độ <b>${nf(concAmt,2)} ${x.u}/ml</b><br>
+   ml/giờ = (liều × cân nặng × 60) ÷ nồng độ = (${nf(dose,3)} × ${nf(kg,1)} × 60) ÷ ${nf(concAmt,2)}${x.u==='mcg'?' ÷ 1000':''} = <b>${mlH<1?nf(mlH,2):nf(mlH,1)} ml/giờ</b><br>
+   Tổng lượng thuốc trong bơm: <b>${nf(totalU,1)} ${x.u}</b> → chạy được <b>${nf(vol/Math.max(mlH,0.001),1)} giờ</b>
+  </div>
+  <div class="act mt-2.5"><p class="text-[.82rem] text-slate-300">Khoảng liều thường dùng: <b>${x.lo}–${x.hi} ${x.u}/kg/phút</b>. ${x.n==='Insulin (DKA)'?'Trong DKA nhi: 0,05–0,1 UI/kg/giờ, KHÔNG bolus, bắt đầu sau 1–2 giờ truyền dịch, theo dõi đường huyết mỗi 30–60 phút và bù kali chủ động (PED-45).':''} Luôn dùng bơm tiêm điện, dán nhãn rõ nồng độ, và kiểm tra độc lập với điều dưỡng.</p></div>`;
+}
+calcInf(); ['inW','inDose','inVol','inUnit'].forEach(id=>$('#'+id).addEventListener('input',calcInf));
+
+/* ============ CCI TABLE ============ */
+const CCI_CATS=['Tất cả','Chống chỉ định tuyệt đối','Chống chỉ định','Tránh','Thận trọng','Hạn chế','Không khuyến cáo','Quy trình bắt buộc','Tránh thường quy','Không dùng thường quy','Thận trọng cao','Chống chỉ định theo hoàn cảnh'];
+(function(){
+ const f=$('#cciFilter');
+ ['Tất cả',...new Set(CCI.map(c=>c.cat))].forEach((c,i)=>{
+   const b=document.createElement('button');b.className='chip cursor-pointer '+(i===0?'badge-n':'');b.textContent=c;
+   b.onclick=()=>{$$('#cciFilter .chip').forEach(x=>x.className='chip cursor-pointer');b.className='chip cursor-pointer badge-n';renderCCI(c);};f.appendChild(b);});
+})();
+function renderCCI(cat='Tất cả'){
+ const tb=$('#cciBody');tb.innerHTML='';
+ CCI.filter(c=>cat==='Tất cả'||c.cat===cat).forEach(c=>{
+  const cls=c.cat.includes('tuyệt đối')?'badge-d':c.cat.includes('Tránh')||c.cat.includes('Chống')?'badge-d':'badge-w';
+  tb.insertAdjacentHTML('beforeend',`<tr>
+   <td><div class="font-bold text-slate-100">${c.d}</div><span class="chip ${cls} text-[.64rem] mt-1">${c.cat}</span></td>
+   <td class="text-amber-200">${c.age}</td><td class="text-slate-400">${c.why}</td><td class="text-teal-100/90">${c.alt}</td></tr>`);});
+}
+renderCCI();
+
+/* ============ 10 RIGHTS / HIGH ALERT / LASA ============ */
+(function(){
+ const R=['Đúng bệnh nhân (họ tên + ngày sinh + vòng tay)','Đúng thuốc (tên gốc + nồng độ)','Đúng liều (mg/kg + cân nặng hiện tại)','Đúng đường dùng','Đúng thời điểm','Đúng tốc độ truyền','Đúng dạng bào chế','Đúng hạn dùng &amp; chất lượng thuốc','Đúng ghi chép hồ sơ (kể cả cân nặng)','Đúng theo dõi đáp ứng &amp; tác dụng phụ'];
+ $('#tenRights').innerHTML=R.map(x=>'<li>'+x+'</li>').join('');
+ const HA=['Insulin (mọi đường)','Kali clorua nồng độ cao — túi pha sẵn','Heparin &amp; thuốc chống đông','Adrenalin TM / noradrenaline / vận mạch','Hoá chất điều trị (Vincristin, Methotrexat)','Thuốc an thần – opioid (Midazolam, Fentanyl, Morphine)','Magnesi sulfat tiêm','Natri bicarbonat &amp; NaCl ưu trương 3 %','Digoxin','Vancomycin &amp; Aminoglycosid (theo dõi nồng độ)','Thuốc mê – giãn cơ (Propofol, Rocuronium)','Dung dịch nuôi dưỡng tĩnh mạch hoàn chỉnh'];
+ $('#haList').innerHTML=HA.map(x=>'<div class="cardFlat p-2.5 flex gap-2"><span class="text-rose-300">⚠</span><span>'+x+'</span></div>').join('');
+ const LASA=[['Cefotaxim','Cefazolin'],['Hydrocortison','Hydralazin'],['Vincristin','Vinblastin'],['Dopamin','Dobutamin'],['Adrenalin','Atropin'],['Cephalexin','Cefaclor'],['Prednisolon','Prednison'],['Salbutamol','Salmeterol'],['Clorpromazin','Clorpheniramin'],['Kali clorid 10%','Natri clorid 10% (ống giống nhau)'],['Morphin 10 mg/ml','Morphin 30 mg/ml'],['Dextrose 10%','NaCl 0,9% (chai trong suốt)']];
+ $('#lasaList').innerHTML=LASA.map(([a,b])=>`<div class="cardFlat p-2.5 flex items-center gap-2 text-[.83rem]"><span class="text-slate-200">${a}</span><span class="text-rose-300 mono">≈</span><span class="text-slate-200">${b}</span></div>`).join('');
+})();
+(function(){const tb=$('#trapBody');TRAPS.forEach(t=>{tb.insertAdjacentHTML('beforeend',
+ `<tr><td class="font-bold text-rose-100">${t[0]}</td><td class="text-rose-200/90">${t[1]}</td><td class="text-teal-100">${t[2]}</td><td class="text-slate-400">${t[3]}</td></tr>`);});})();
+
+/* ============ DRILL ============ */
+const SOLVABLE=DRUGS.filter(d=>!d.bands&&!d.special&&d.f&&d.f.length&&d.dmax>0);
+let dl=null,dlOk=0,dlNo=0,dlTotal=0;
+function newDrill(){
+ const kg=Math.round(rnd(3,45,0.5)*10)/10;
+ const t=Math.floor(Math.random()*9);
+ let q='',unit='',ans=0,sol=[],hint='';
+ if(t===0){ // thể tích siro
+   const d=SOLVABLE.filter(x=>x.f.some(f=>f[2]!==1)&&x.u==='mg')[0+Math.floor(Math.random()*0)]; // ensure liquid
+   const cand=SOLVABLE.filter(x=>x.u==='mg'&&x.f.some(f=>f[2]!==1));
+   const dd=pick(cand); const liq=pick(dd.f.filter(f=>f[2]!==1));
+   const dpk=+(rnd(dd.dmin,dd.dmax,dd.dmax-dd.dmin>=5?0.5:0.05).toFixed(2));
+   const r=computeDose(dd,kg,dpk); const ml=r.perDose/liq[1]*liq[2];
+   q=`Bé <b>${nf(kg,1)} kg</b>. Kê <b>${dd.n}</b> liều <b>${nf(dpk,2)} mg/kg/lần</b>. Có sẵn <b>${liq[0]}</b>. Hỏi bao nhiêu <b>ml mỗi liều</b>?`;
+   unit='ml';ans=ml;
+   sol=[`Bước 3 — Nhân cân nặng: ${nf(dpk,2)} × ${nf(kg,1)} = <b>${nf(r.perDose,1)} mg</b>/lần${r.cap?` (đã chạm trần: ${r.cap})`:''}`,
+        `Bước 5 — Quy đổi: ${nf(r.perDose,1)} mg ÷ ${liq[1]} mg × ${liq[2]} ml = <b>${nf(ml,2)} ml</b>`,
+        ml<1?'Dùng bơm tiêm 1 ml để đong.':ml<3?'Dùng bơm tiêm 3 ml, làm tròn 0,1 ml.':'Dùng ống đong/cốc có vạch, làm tròn 0,5 ml.'];
+   hint='ml = mg cần ÷ mg có × thể tích của dạng bào chế';
+ } else if(t===1){ // mg mỗi lần từ mg/kg/ngày
+   const cand=SOLVABLE.filter(x=>x.u==='mg'&&x.per==='day');
+   const dd=pick(cand); const dpk=+(rnd(dd.dmin,dd.dmax,0.5).toFixed(1));
+   const r=computeDose(dd,kg,dpk);
+   q=`Bé <b>${nf(kg,1)} kg</b>. <b>${dd.n}</b> liều <b>${nf(dpk,1)} mg/kg/NGÀY chia ${dd.times} lần</b>. Hỏi <b>mg mỗi liều</b>?`;
+   unit='mg';ans=r.perDose;
+   sol=[`Tổng liều 24 h: ${nf(dpk,1)} × ${nf(kg,1)} = <b>${nf(r.perDay,0)} mg/ngày</b>${r.cap?` → <b>chạm trần</b>: ${r.cap}`:''}`,
+        `Chia ${dd.times} lần: ${nf(r.perDay,0)} ÷ ${dd.times} = <b>${nf(r.perDose,1)} mg/lần</b>`];
+   hint='Liều theo NGÀY phải chia số lần trước khi quy đổi';
+ } else if(t===2){ // trần liều
+   const cand=DRUGS.filter(x=>x.ms&&x.dmax>0&&!x.bands&&!x.special);
+   const kg2=Math.round(rnd(25,70,1));
+   const dd=pick(cand); const r=computeDose(dd,kg2,dd.dmax);
+   const raw=dd.per==='day'? dd.dmax*kg2/(dd.times||1) : dd.dmax*kg2;
+   q=`Trẻ <b>${kg2} kg</b>. <b>${dd.n}</b> liều tối đa <b>${dd.dmax} ${dd.u}/kg${dd.per==='day'?'/ngày':'/lần'}</b>, trần liều <b>${dd.ms?dd.ms+' '+dd.u+'/lần':'—'}</b>. Hỏi <b>liều mỗi lần</b> sau khi kiểm tra trần?`;
+   unit=dd.u;ans=r.perDose;
+   sol=[`Tính theo mg/kg: ${nf(dd.dmax,2)} × ${kg2} = <b>${nf(raw,1)} ${dd.u}</b>${dd.per==='day'?' /ngày':''}${dd.per==='day'?` → mỗi lần: ${nf(raw/(dd.times||1),1)} ${dd.u}`:''}`,
+        raw>dd.ms?`<b class="text-rose-300">VƯỢT TRẦN</b> ${dd.ms} ${dd.u} → dùng đúng <b>${nf(r.perDose,1)} ${dd.u}/lần</b>`:`Chưa vượt trần ${dd.ms} ${dd.u} → dùng <b>${nf(r.perDose,1)} ${dd.u}/lần</b>`];
+   hint='Luôn lấy giá trị NHỎ HƠN giữa liều mg/kg và trần liều người lớn';
+ } else if(t===3){ // dịch duy trì
+   let ml24=kg<=10?kg*100:kg<=20?1000+(kg-10)*50:1500+(kg-20)*20;
+   q=`Bé <b>${nf(kg,1)} kg</b>. Tính <b>dịch duy trì 24 giờ</b> theo Holliday-Segar (ml)?`;
+   unit='ml/24h';ans=ml24;
+   sol=[`100 × ${nf(Math.min(kg,10),1)} = ${nf(Math.min(kg,10)*100,0)} ml`,
+        kg>10?`50 × ${nf(Math.min(10,kg-10),1)} = ${nf(Math.min(10,kg-10)*50,0)} ml`:'',
+        kg>20?`20 × ${nf(kg-20,1)} = ${nf((kg-20)*20,0)} ml`:'',
+        `Tổng = <b>${Math.round(ml24)} ml/24 h</b> → ${nf(ml24/24,1)} ml/giờ`].filter(x=>x);
+   hint='100 ml/kg cho 10 kg đầu, +50 cho 10 kg tiếp, +20 cho mỗi kg > 20';
+ } else if(t===4){ // giọt/phút
+   const vol=Math.round(rnd(20,120,5)*100)/100*24;
+   const hours=Math.round(rnd(6,24,1));
+   const total=Math.round(rnd(400,1800,50));
+   const dpf=pick([20,60]);
+   const rate=total/hours, gtt=rate*dpf/60;
+   q=`Truyền <b>${total} ml</b> trong <b>${hours} giờ</b> bằng dây <b>${dpf} giọt/ml</b>. Hỏi <b>giọt/phút</b>?`;
+   unit='giọt/phút';ans=gtt;
+   sol=[`ml/giờ = ${total} ÷ ${hours} = <b>${nf(rate,1)} ml/giờ</b>`,
+        `Giọt/phút = (${nf(rate,1)} × ${dpf}) ÷ 60 = <b>${nf(gtt,1)} giọt/phút</b>`,
+        dpf===60?'Với dây nhi khoa 60 giọt/ml: số giọt/phút = số ml/giờ.':'Làm tròn đến giọt gần nhất và kiểm tra lại sau 30 phút.'];
+   hint='giọt/phút = ml/giờ × hệ số giọt ÷ 60';
+ } else if(t===5){ // adrenalin IM
+   const kg3=Math.round(rnd(4,45,0.5)*10)/10;
+   const mg=0.01*kg3, capped=Math.min(mg,kg3<30?0.3:0.5), ml=capped;
+   q=`Trẻ <b>${nf(kg3,1)} kg</b> bị phản vệ. Adrenalin <b>0,01 mg/kg</b> tiêm bắp, có sẵn ống <b>1 mg/1 ml</b>. Hỏi <b>ml</b> cần tiêm (đã xét trần liều)?`;
+   unit='ml';ans=ml;
+   sol=[`0,01 × ${nf(kg3,1)} = <b>${nf(mg,3)} mg</b>`,
+        `Trần: ${kg3<30?'0,3 mg (trẻ < 30 kg)':'0,5 mg (trẻ ≥ 30 kg)'} → ${mg>capped?'<b class="text-rose-300">đã chạm trần</b>, dùng '+nf(capped,2)+' mg':'chưa chạm trần'}`,
+        `Dung dịch 1 mg/ml → <b>${nf(ml,3)} ml</b> tiêm bắp mặt ngoài đùi`];
+   hint='0,01 mg/kg = 0,01 ml/kg của dung dịch 1 mg/ml; trần 0,3 mg (<30 kg) / 0,5 mg (≥30 kg)';
+ } else if(t===6){ // bolus dịch
+   const kg4=Math.round(rnd(5,40,0.5)*10)/10;
+   const mlb=20*kg4;
+   q=`Trẻ <b>${nf(kg4,1)} kg</b> sốc giảm thể tích. Bolus dịch <b>20 ml/kg</b> trong 15 phút. Hỏi <b>tổng ml</b> và <b>tốc độ ml/giờ</b> (nhập ml)?`;
+   unit='ml';ans=mlb;
+   sol=[`20 × ${nf(kg4,1)} = <b>${nf(mlb,0)} ml</b>`,
+        `Truyền trong 15 phút → tốc độ ${nf(mlb*4,0)} ml/giờ`,
+        `Nếu nghi sốc tim / sơ sinh non tháng: dùng <b>10 ml/kg</b> = ${nf(10*kg4,0)} ml. Đánh giá lại sau MỖI bolus (PED-05).`];
+   hint='Bolus chống sốc chuẩn ở trẻ em: 20 ml/kg dịch đẳng trương';
+ } else if(t===7){ // vận mạch
+   const x=pick(INFUSIONS.filter(i=>i.u==='mcg'));
+   const kg5=Math.round(rnd(6,30,0.5)*10)/10;
+   const dose=x.lo;
+   const concAmt=x.amt/x.vol;
+   const mlh=(dose/1000*kg5*60)/(concAmt/1000);
+   q=`Bé <b>${nf(kg5,1)} kg</b>. Truyền <b>${x.n}</b> liều <b>${dose} mcg/kg/phút</b>, pha <b>${x.amt} mg trong ${x.vol} ml</b>. Hỏi <b>ml/giờ</b>?`;
+   unit='ml/giờ';ans=mlh;
+   sol=[`Nồng độ = ${x.amt} ÷ ${x.vol} = <b>${nf(concAmt,2)} mg/ml</b> = ${nf(concAmt*1000,0)} mcg/ml`,
+        `Lượng cần = ${dose} × ${nf(kg5,1)} = <b>${nf(dose*kg5,1)} mcg/phút</b> → ${nf(dose*kg5*60,0)} mcg/giờ`,
+        `ml/giờ = ${nf(dose*kg5*60,0)} ÷ ${nf(concAmt*1000,0)} = <b>${nf(mlh,2)} ml/giờ</b>`];
+   hint='ml/giờ = (mcg/kg/phút × kg × 60) ÷ (mcg/ml)';
+ } else { // glucose 10%
+   const kg6=Math.round(rnd(1.5,20,0.5)*10)/10;
+   const mlg=2*kg6;
+   q=`Sơ sinh/trẻ <b>${nf(kg6,1)} kg</b> hạ đường huyết (1,6 mmol/l) có co giật. Bolus <b>Glucose 10 % liều 2 ml/kg</b>. Hỏi <b>ml</b>?`;
+   unit='ml';ans=mlg;
+   sol=[`2 × ${nf(kg6,1)} = <b>${nf(mlg,1)} ml</b> Glucose 10 % TM chậm 2–5 phút`,
+        `Sau bolus BẮT BUỘC truyền duy trì theo GIR 4–8 mg/kg/phút vì hạ đường huyết tái phát nhanh`,
+        kg6<4?'Sơ sinh: tuyệt đối không dùng Dextrose 30–50 % (hoại tử, tăng áp lực thẩm thấu, hạ đường huyết phản ứng).':'Tìm nguyên nhân hạ đường huyết và điều trị song song (PED-17).'];
+   hint='Glucose 10 % 2 ml/kg = 0,2 g/kg';
+ }
+ dl={ans,sol,q};
+ $('#dlQ').innerHTML=q; $('#dlUnit').textContent=unit; $('#dlAns').value=''; $('#dlFb').className='mt-4 hidden';
+ $('#dlType').textContent=['thể tích siro','mg/kg/ngày → mg/lần','trần liều người lớn','dịch duy trì','giọt/phút','adrenalin phản vệ','bolus dịch','thuốc vận mạch','glucose 10 %'][t];
+ $('#dlAns').focus();
+}
+function checkDrill(){
+ if(!dl)return;
+ const raw=($('#dlAns').value||'').trim().replace(',','.').replace(/[^\d.\-]/g,'');
+ const v=parseFloat(raw);
+ if(isNaN(v)){$('#dlFb').className='mt-4 rounded-xl p-4 badge-w';$('#dlFb').innerHTML='<b>Nhập một số</b> (dùng dấu chấm hoặc dấu phẩy thập phân đều được).';return;}
+ const ok=Math.abs(v-dl.ans)<=Math.max(Math.abs(dl.ans)*0.03,0.05);
+ ok?dlOk++:dlNo++; dlTotal++;
+ $('#dlOk').textContent=dlOk;$('#dlNo').textContent=dlNo;
+ $('#dlBar').style.width=Math.min(100,dlTotal/20*100)+'%';
+ $('#dlFb').className='mt-4 rounded-xl p-4 '+(ok?'badge-n':'badge-d');
+ $('#dlFb').innerHTML=`<div class="font-bold text-base">${ok?'✅ Chính xác':'❌ Chưa đúng'} — đáp án: <span class="mono">${nf(dl.ans,dl.ans<1?3:dl.ans<10?2:1)} ${$('#dlUnit').textContent}</span> <span class="text-[.8rem] opacity-80">(bạn: ${nf(v,2)})</span></div>
+  <ol class="mt-2 space-y-1.5 text-[.85rem] list-decimal list-inside opacity-95">${dl.sol.map(s=>'<li>'+s+'</li>').join('')}</ol>
+  <div class="mt-2 text-[.78rem] opacity-75 mono">💡 ${dl.sol.length?'':''} ${''}</div>`;
+}
+function showSol(){
+ if(!dl)return;
+ $('#dlFb').className='mt-4 rounded-xl p-4 badge-w';
+ $('#dlFb').innerHTML=`<div class="font-bold">Lời giải — đáp án: <span class="mono">${nf(dl.ans,dl.ans<1?3:dl.ans<10?2:1)} ${$('#dlUnit').textContent}</span></div>
+  <ol class="mt-2 space-y-1.5 text-[.85rem] list-decimal list-inside">${dl.sol.map(s=>'<li>'+s+'</li>').join('')}</ol>`;
+}
+newDrill();
+
+/* ============ FLASHCARDS ============ */
+let cardList=CARDS.slice();
+function renderCards(){
+ const g=$('#cardGrid');g.innerHTML='';
+ cardList.forEach((c,i)=>{const d=document.createElement('div');d.className='flip';
+  d.innerHTML=`<div class="flip-in">
+   <div class="fc-face" style="background:linear-gradient(160deg,rgba(255,255,255,.05),rgba(255,255,255,.02))">
+    <div class="text-[.66rem] mono tracking-[.16em] text-teal-300/70 mb-2">THẺ ${String(i+1).padStart(2,'0')} · CÂU HỎI</div>
+    <div class="font-bold text-[.93rem] leading-snug">${c[0]}</div>
+    <div class="text-[.7rem] text-slate-500 mt-auto pt-3">nhấn để lật ↻</div></div>
+   <div class="fc-face fc-back">
+    <div class="text-[.66rem] mono tracking-[.16em] text-teal-200/80 mb-2">TRẢ LỜI</div>
+    <div class="text-[.83rem] leading-relaxed text-slate-100">${c[1]}</div></div></div>`;
+  d.onclick=()=>d.classList.toggle('open');g.appendChild(d);});
+ $('#cardIdx').textContent=cardList.length+' thẻ · Why-based';
+}
+function shuffleCards(){shuffle(cardList);renderCards();}
+function flipAll(){const o=$$('#cardGrid .flip');const any=o.some(x=>!x.classList.contains('open'));o.forEach(x=>x.classList.toggle('open',any));}
+function exportAnki(){
+ let out='#separator:tab\n#html:true\n#tags column:3\n#columns:Front\tBack\tTags\n';
+ CARDS.forEach(c=>{const cl=s=>s.replace(/<[^>]+>/g,'').replace(/\t/g,' ').replace(/\s+/g,' ').trim();
+  out+=cl(c[0])+'\t'+cl(c[1])+'\tPED-03 Lieu_thuoc_nhi\n';});
+ const b=new Blob([out],{type:'text/plain;charset=utf-8'});const a=document.createElement('a');
+ a.href=URL.createObjectURL(b);a.download='PED-03_tinh_lieu_nh khoa_cards.txt'.replace(' ','_');a.click();URL.revokeObjectURL(a.href);
+}
+renderCards();
+
+/* ============ QUIZ ============ */
+let qDone=0,qRight=0;
+(function(){const box=$('#quizList');
+ QUIZ.forEach((q,i)=>{const d=document.createElement('div');d.className='card p-5';
+  d.innerHTML=`<div class="flex gap-3 mb-3"><span class="mono font-bold text-teal-300 shrink-0">Q${String(i+1).padStart(2,'0')}</span><span class="font-bold text-[.98rem] leading-snug">${q.q}</span></div>
+   <div class="space-y-2 md:pl-9" id="qo${i}"></div><div id="qf${i}" class="mt-3 hidden md:ml-9"></div>`;
+  box.appendChild(d);const ob=$('#qo'+i);
+  q.o.forEach((o,j)=>{const b=document.createElement('button');b.className='opt';b.textContent=String.fromCharCode(65+j)+'. '+o;b.onclick=()=>answerQ(i,j,b,q);ob.appendChild(b);});});})();
+function answerQ(i,j,btn,q){const box=$('#qo'+i);if(box.dataset.done)return;box.dataset.done='1';
+ qDone++;if(j===q.c){qRight++;btn.classList.add('correct');}else{btn.classList.add('wrong');box.children[q.c].classList.add('correct');}
+ Array.from(box.children).forEach(b=>b.disabled=true);
+ const f=$('#qf'+i);f.className='mt-3 md:ml-9 rounded-xl p-4 '+(j===q.c?'badge-n':'badge-d');
+ f.innerHTML=`<div class="font-bold text-[.9rem]">${j===q.c?'✅ Đúng':'❌ Sai'} — Giải thích</div><p class="text-[.84rem] mt-1 leading-relaxed opacity-95">${q.e}</p>`;
+ $('#qScore').textContent=qRight+' / '+QUIZ.length;$('#qScore').className='chip mono '+(qRight>=8?'badge-n':qRight>=5?'badge-w':'badge-d');
+ $('#qBar').style.width=(qDone/QUIZ.length*100)+'%';}
+function resetQuiz(){qDone=0;qRight=0;$('#qScore').textContent='0 / 10';$('#qScore').className='chip badge-n mono';$('#qBar').style.width='0%';
+ QUIZ.forEach((q,i)=>{const box=$('#qo'+i);delete box.dataset.done;box.innerHTML='';
+  q.o.forEach((o,j)=>{const b=document.createElement('button');b.className='opt';b.textContent=String.fromCharCode(65+j)+'. '+o;b.onclick=()=>answerQ(i,j,b,q);box.appendChild(b);});
+  const f=$('#qf'+i);f.className='mt-3 hidden md:ml-9';f.innerHTML='';});}
+
+/* ============ CHECKLIST ============ */
+const CK=['Đã CÂN trẻ (hoặc dùng Broselow) và ghi cân nặng vào đơn',
+ 'Đã xác định liều là mg/kg/LẦN hay mg/kg/NGÀY',
+ 'Đã đối chiếu TRẦN liều người lớn và tổng liều 24 giờ',
+ 'Đã kiểm tra chống chỉ định theo tuổi/cân nặng (Aspirin, Codein, Ceftriaxon sơ sinh…)',
+ 'Đã kiểm tra chức năng thận/gan để chỉnh khoảng cách liều',
+ 'Đã quy đổi ra dạng bào chế CÓ SẴN trong khoa/dược',
+ 'Đã viết cả mg VÀ ml trên đơn, có số 0 trước dấu thập phân',
+ 'Đã ghi rõ tốc độ truyền / thời gian truyền cho thuốc TM',
+ 'Đã yêu cầu kiểm tra độc lập (double-check) với thuốc nguy cơ cao',
+ 'Đã dặn dò phụ huynh dụng cụ đo (không dùng thìa gia đình) và dấu hiệu cần tái khám'];
+(function(){const box=$('#ckList');CK.forEach((s,i)=>{const d=document.createElement('div');d.className='tick';
+ d.innerHTML=`<span class="box">✓</span><span class="lbl text-[.82rem] text-slate-300 leading-snug">${s}</span>`;
+ d.onclick=()=>{d.classList.toggle('on');const n=$$('#ckList .tick.on').length;const b=$('#ckCount');
+  b.textContent=n+' / '+CK.length;b.className='chip mono '+(n===CK.length?'badge-n':'badge-w');};box.appendChild(d);});})();
+function clearCk(){$$('#ckList .tick').forEach(t=>t.classList.remove('on'));$('#ckCount').textContent='0 / 10';$('#ckCount').className='chip badge-w mono';}
+</script>
+</body>
+</html>

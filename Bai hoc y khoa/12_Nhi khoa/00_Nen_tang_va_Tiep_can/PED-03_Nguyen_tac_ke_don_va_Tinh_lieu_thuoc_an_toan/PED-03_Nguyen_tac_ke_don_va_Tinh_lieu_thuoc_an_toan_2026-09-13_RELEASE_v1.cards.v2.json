@@ -1,0 +1,290 @@
+[
+  {
+    "id": "PED03-V2-001",
+    "type": "basic",
+    "front": "Tại sao thể tích phân bố của các thuốc tan trong nước (như Aminoglycosid) ở trẻ sơ sinh lại lớn hơn đáng kể so với người lớn?",
+    "back": "<b>📖 Cơ chế dược động học:</b><br>Tỷ lệ nước toàn cơ thể ở trẻ sơ sinh chiếm từ 78% đến 85% trọng lượng (ở người lớn chỉ chiếm 60%), và khoang dịch ngoại bào chiếm tới 40% đến 50% trọng lượng cơ thể.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Các thuốc ưa nước (Gentamicin, Amikacin, Vancomycin) bị pha loãng mạnh trong khoang dịch ngoại bào lớn này. Do đó, để đạt nồng độ đỉnh trị liệu trong máu (Cmax), trẻ sơ sinh đòi hỏi liều khởi đầu tính theo mg/kg cao hơn người lớn."
+  },
+  {
+    "id": "PED03-V2-002",
+    "type": "cloze",
+    "text": "Tỷ lệ nước toàn bộ cơ thể ở trẻ sơ sinh non tháng đạt {{c1::85%}}, ở sơ sinh đủ tháng là 78%, giảm dần xuống 65% lúc 1 tuổi và đạt mức 60% ở người trưởng thành.",
+    "extra": "Sự chênh lệch thể tích nước ngoại bào này giải thích vì sao cùng một liều mg/kg, nồng độ đỉnh của thuốc ưa nước ở sơ sinh thấp hơn người lớn nếu không tăng liều nạp."
+  },
+  {
+    "id": "PED03-V2-003",
+    "type": "basic",
+    "front": "Tại sao trẻ nhỏ từ 1 đến 9 tuổi lại cần liều tính theo mg/kg cao hơn và khoảng cách đưa liều ngắn hơn so với người lớn đối với nhiều thuốc chuyển hóa qua gan?",
+    "back": "<b>📖 Cơ chế dược động học:</b><br>Trẻ từ 1 đến 9 tuổi có tỷ lệ khối lượng gan trên trọng lượng cơ thể lớn hơn người lớn gần 2 lần, lưu lượng máu qua gan tính theo kg cao hơn và hoạt tính nhiều enzyme Cytochrome P450 trưởng thành vượt bậc.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Nhóm tuổi này chuyển hóa các thuốc như Phenytoin, Carbamazepine, Valproate nhanh hơn người lớn. Nếu dùng khoảng cách liều thưa như người lớn, nồng độ đáy của thuốc sẽ bị sụt giảm dưới ngưỡng điều trị."
+  },
+  {
+    "id": "PED03-V2-004",
+    "type": "basic",
+    "front": "Tình trạng độ lọc cầu thận (GFR) chưa trưởng thành ở trẻ sơ sinh ảnh hưởng như thế nào đến chế độ liều của Aminoglycosid và Vancomycin?",
+    "back": "<b>📖 Cơ chế sinh lý thận:</b><br>Độ lọc cầu thận (GFR) ở trẻ sơ sinh đủ tháng chỉ đạt 20 đến 40 ml/phút/1.73m² (khoảng 30% người lớn), bài tiết ống thận kém, và chỉ hoàn thiện đạt mức người lớn lúc 1 đến 2 tuổi.<br><br><b>🔍 Điều chỉnh lâm sàng:</b><br>Thời gian bán thải sinh học (T1/2) của thuốc kéo dài gấp 2 đến 4 lần. Bắt buộc phải giãn khoảng cách đưa liều thành mỗi 24 giờ (ở sơ sinh đủ tháng) hoặc mỗi 36 đến 48 giờ (ở sơ sinh non tháng) để tránh tích lũy độc tính hủy hoại thận và ốc tai."
+  },
+  {
+    "id": "PED03-V2-005",
+    "type": "cloze",
+    "text": "Độ lọc cầu thận (GFR) ở trẻ sơ sinh đủ tháng lúc mới chào đời chỉ đạt {{c1::20 đến 40 ml/phút/1.73m²}} và cần khoảng thời gian từ 1 đến 2 năm để hoàn thiện đạt mức của người lớn.",
+    "extra": "Khả năng đào thải qua thận thấp là nguyên nhân hàng đầu gây ngộ độc tích lũy ở trẻ sơ sinh nếu bác sĩ không nới rộng khoảng cách đưa liều kháng sinh."
+  },
+  {
+    "id": "PED03-V2-006",
+    "type": "basic",
+    "front": "Tại sao việc bôi thuốc ngoài da (như Corticoid, cồn sát trùng, Salicylate) ở trẻ nhũ nhi lại có nguy cơ ngộ độc toàn thân cao hơn rất nhiều so với người lớn?",
+    "back": "<b>📖 Cơ chế sinh lý da:</b><br>Lớp sừng biểu bì của trẻ rất mỏng, hàng rào lipid bảo vệ chưa hoàn thiện, mạng mao mạch dưới da phong phú, và đặc biệt tỷ lệ diện tích bề mặt cơ thể trên cân nặng (BSA/Weight) lớn gấp gần 3 lần người lớn.<br><br><b>🔍 Hậu quả lâm sàng:</b><br>Thuốc bôi ngoài da hấp thu ồ ạt vào tuần hoàn hệ thống, gây biến chứng ức chế trục hạ đồi - tuyến yên - thượng thận (HPA) do Corticoid, ngộ độc cồn qua da khi lau mát hạ sốt, hoặc toan chuyển hóa do Salicylate."
+  },
+  {
+    "id": "PED03-V2-007",
+    "type": "basic",
+    "front": "Nêu thứ tự 5 bước của quy trình tính liều thuốc bắt buộc phải thực hiện trước khi đặt bút ký đơn thuốc nhi khoa?",
+    "back": "<b>📖 Quy trình 5 bước chuẩn mực:</b><br>1. Cân bệnh nhi thật chính xác (cân trần trừ tã áo; cấp cứu dùng thước Broselow).<br>2. Tra cứu liều khuyến cáo (xác định rõ mg/kg/LẦN hay /NGÀY, chia mấy lần, đường dùng).<br>3. Nhân với cân nặng ra liều lý thuyết (tính cả liều mỗi lần và tổng liều 24 giờ).<br>4. Đối chiếu trần liều người lớn (so sánh và lấy giá trị NHỎ HƠN trong hai số).<br>5. Quy đổi ra dạng bào chế có sẵn và viết đơn song song cả hàm lượng (mg) và thể tích (ml)."
+  },
+  {
+    "id": "PED03-V2-008",
+    "type": "basic",
+    "front": "Tại sao tuyệt đối không bao giờ được ước lượng cân nặng của bệnh nhi bằng mắt để kê đơn thuốc?",
+    "back": "<b>📖 Nguyên nhân sai số:</b><br>Ước lượng cảm tính bằng mắt thường có sai số trung bình từ ±20% đến ±35%, đặc biệt sai lệch rất lớn ở trẻ suy dinh dưỡng hoặc thừa cân béo phì.<br><br><b>🔍 Hậu quả lâm sàng:</b><br>Sai số cân nặng sẽ nhân lên trực tiếp vào liều của mọi loại thuốc được kê. Điều này biến một liều điều trị an toàn thành liều độc tử vong đối với các thuốc có khoảng trị liệu hẹp như Aminoglycosid, Digoxin, Theophyllin."
+  },
+  {
+    "id": "PED03-V2-009",
+    "type": "cloze",
+    "text": "Trong tình huống cấp cứu hồi sức ngừng tuần hoàn khi không thể cân bệnh nhi, công cụ chuẩn hóa được PALS khuyến cáo để ước tính cân nặng và liều cấp cứu là {{c1::thước băng Broselow}} dựa trên chiều dài cơ thể.",
+    "extra": "Thước Broselow chia các vùng màu tương ứng với cân nặng, liều thuốc cấp cứu và cỡ ống nội khí quản đã được tính toán sẵn tại giường."
+  },
+  {
+    "id": "PED03-V2-010",
+    "type": "basic",
+    "front": "Khi viết đơn thuốc dạng lỏng (siro, hỗn dịch, dung dịch giọt), bác sĩ bắt buộc phải ghi liều như thế nào để tránh nhầm lẫn cho điều dưỡng và người nhà?",
+    "back": "<b>📖 Quy tắc ghi đơn song song:</b><br>Bắt buộc phải ghi đồng thời cả hàm lượng hoạt chất (mg) và thể tích quy đổi (ml), kèm theo nồng độ chế phẩm sẵn có.<br><br><b>🔍 Ví dụ chuẩn:</b><br>'Paracetamol siro 120 mg/5 ml: uống 5 ml (= 120 mg, tương đương 12 mg/kg) mỗi 6 giờ khi sốt ≥ 38.5°C'. Cách viết này ngăn ngừa phụ huynh mua phải chai siro 250 mg/5 ml nhưng vẫn đong 5 ml gây quá liều gấp đôi."
+  },
+  {
+    "id": "PED03-V2-011",
+    "type": "basic",
+    "front": "Bẫy trần liều người lớn (Adult Ceiling Dose Trap) trong kê đơn nhi khoa là gì? Cho ví dụ điển hình với Ceftriaxone?",
+    "back": "<b>📖 Bản chất lâm sàng:</b><br>Khi bệnh nhi có cân nặng lớn, công thức nhân liều mg/kg thông thường sẽ cho ra một con số tính toán vượt quá liều tối đa hàng ngày được phép dùng ở người trưởng thành.<br><br><b>🔍 Ví dụ Ceftriaxone:</b><br>Ceftriaxone liều 100 mg/kg/ngày ở trẻ 25 kg sẽ ra 2500 mg/ngày, nhưng trần liều người lớn chỉ là 2000 mg/ngày (2 g/ngày). Bác sĩ bắt buộc phải chạm trần ở mức 2000 mg/ngày thay vì nhân tiếp."
+  },
+  {
+    "id": "PED03-V2-012",
+    "type": "cloze",
+    "text": "Khi tính liều Ceftriaxone 100 mg/kg/ngày trong nhiễm khuẩn nặng, ngưỡng cân nặng mà bệnh nhi bắt đầu chạm trần liều tối đa hàng ngày của người lớn (2 g/ngày) là {{c1::20 kg}}.",
+    "extra": "Trẻ từ 20 kg trở lên nếu tiếp tục nhân 100 mg/kg sẽ bị quá liều, gây lãng phí thuốc và tăng nguy cơ tạo sỏi mật bùn do kết tủa muối ceftriaxone-canxi."
+  },
+  {
+    "id": "PED03-V2-013",
+    "type": "basic",
+    "front": "Trong điều trị viêm thanh khí phế quản cấp (Croup), liều Dexamethasone 0.6 mg/kg chạm trần liều tối đa là bao nhiêu và ở mốc cân nặng nào?",
+    "back": "<b>📖 Quy định trần liều:</b><br>Trần liều tối đa của Dexamethasone trong Croup là 10 đến 12 mg (uống hoặc tiêm 1 liều duy nhất). Điểm chạm trần xảy ra ở mốc cân nặng khoảng 17 đến 20 kg.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Một liều đơn duy nhất 10–12 mg có thời gian bán hủy sinh học kéo dài 36–72 giờ, đủ bao phủ toàn bộ giai đoạn nguy kịch của croup mà không cần tăng thêm liều."
+  },
+  {
+    "id": "PED03-V2-014",
+    "type": "basic",
+    "front": "Trong cắt cơn hen phế quản cấp nặng, liều Corticoid toàn thân Prednisolone 2 mg/kg/ngày chạm trần liều tối đa là bao nhiêu và ở mốc cân nặng nào?",
+    "back": "<b>📖 Quy định trần liều:</b><br>Trần liều tối đa của Prednisolone trong cơn hen cấp là 40 đến 60 mg/ngày. Điểm chạm trần xảy ra ở mốc cân nặng từ 20 đến 30 kg.<br><br><b>🔍 Hậu quả nếu vượt trần:</b><br>Trẻ 45 kg nếu nhân 2 mg/kg sẽ ra 90 mg/ngày (vượt trần 50%), gây tăng huyết áp, kích thích thần kinh, loét dạ dày; bắt buộc phải giới hạn ở mức trần 60 mg/ngày."
+  },
+  {
+    "id": "PED03-V2-015",
+    "type": "cloze",
+    "text": "Quy tắc thực hành an toàn cho thấy khi bệnh nhi đạt mốc cân nặng từ {{c1::≥ 40 kg}} trở lên, bác sĩ cần ngừng nhân liều theo mg/kg thông thường và chuyển sang áp dụng liều chuẩn của người lớn.",
+    "extra": "Quy tắc này giúp ngăn chặn việc vượt trần liều độc hại ở thanh thiếu niên và trẻ em thừa cân béo phì."
+  },
+  {
+    "id": "PED03-V2-016",
+    "type": "basic",
+    "front": "Đối với trẻ em béo phì, nguyên tắc lựa chọn cân nặng để tính liều thuốc tan trong nước (như Aminoglycosid) khác gì so với thuốc tan trong mỡ?",
+    "back": "<b>📖 Cơ chế thể tích phân bố:</b><br>Mô mỡ thừa chứa rất ít nước (chỉ 10–20%), do đó thể tích phân bố của thuốc tan trong nước không tăng tương xứng với cân nặng thực tế; ngược lại thuốc tan trong mỡ phân bố mạnh vào mô mỡ.<br><br><b>🔍 Nguyên tắc kê đơn:</b><br>- Thuốc tan trong nước (Gentamicin, Amikacin, Vancomycin): Tính theo cân nặng lý tưởng (IBW) hoặc cân nặng hiệu chỉnh (ABW = IBW + 0.4 x [TBW - IBW]) để tránh ngộ độc thận.<br>- Thuốc tan trong mỡ (Diazepam, Midazolam): Có thể tính theo cân nặng thực tế (TBW) nhưng phải theo dõi đào thải chậm."
+  },
+  {
+    "id": "PED03-V2-017",
+    "type": "basic",
+    "front": "Bẫy nguy hiểm chết người thường gặp nhất khi phụ huynh sử dụng đồng thời thuốc hạ sốt Paracetamol dạng siro uống và viên đạn đặt hậu môn là gì?",
+    "back": "<b>📖 Căn nguyên bẫy lâm sàng:</b><br>Phụ huynh nhầm tưởng siro uống và viên đạn đặt hậu môn là hai loại thuốc khác nhau nên cho trẻ uống siro, sau đó thấy chưa hạ sốt liền nhét thêm viên đạn.<br><br><b>🔍 Hậu quả & Phòng tránh:</b><br>Tổng liều tích lũy vượt quá 100–150 mg/kg/ngày làm cạn kiệt Glutathione tế bào gan dẫn đến suy gan cấp tính. Bác sĩ phải giải thích rõ viên đạn cũng là Paracetamol và chỉ dùng 1 đường duy nhất khi trẻ nôn ói liên tục."
+  },
+  {
+    "id": "PED03-V2-018",
+    "type": "cloze",
+    "text": "Dụng cụ đo thể tích thuốc dạng lỏng cho trẻ nhỏ tại gia đình tuyệt đối không được dùng {{c1::thìa cà phê gia đình}} do sai số thể tích lên tới ±30% đến ±40%, mà bắt buộc phải dùng xilanh hoặc cốc đong có vạch chia ml.",
+    "extra": "Thể tích thực tế của thìa gia đình dao động từ 2.5 ml đến 7 ml, là nguyên nhân phổ biến gây sai liều nghiêm trọng ở ngoại trú."
+  },
+  {
+    "id": "PED03-V2-019",
+    "type": "basic",
+    "front": "Vì sao tuyệt đối không được nghiền hoặc bẻ các dạng thuốc viên phóng thích kéo dài (Depakine Chrono, viên bao tan trong ruột) để chia nhỏ liều cho trẻ em?",
+    "back": "<b>📖 Cơ chế bào chế:</b><br>Nghiền viên sẽ phá hủy lớp màng bao vi hạt hoặc khung nền polymer trơ, giải phóng toàn bộ lượng dược chất của 12–24 giờ trong vòng vài phút (hiện tượng phóng thích liều ồ ạt - dose dumping).<br><br><b>🔍 Hậu quả lâm sàng:</b><br>Nồng độ đỉnh trong máu tăng vọt gây ngộ độc cấp tính, sau đó nồng độ sụt giảm nhanh khiến bệnh nhân mất kiểm soát cơn co giật. Phải thay bằng dạng siro hoặc dung dịch uống chuyên dụng."
+  },
+  {
+    "id": "PED03-V2-020",
+    "type": "cloze",
+    "text": "Sinh khả dụng qua đường đặt trực tràng của Paracetamol chỉ đạt khoảng {{c1::60% đến 70%}} và tốc độ hấp thu thất thường, chậm hơn so với đường uống.",
+    "extra": "Đường uống luôn là lựa chọn ưu tiên hàng đầu nếu bệnh nhi còn tỉnh táo và không có chống chỉ định đường tiêu hóa."
+  },
+  {
+    "id": "PED03-V2-021",
+    "type": "basic",
+    "front": "Khi kê đơn kháng sinh Amoxicillin/Acid Clavulanic dạng gói hoặc siro, vì sao bác sĩ không được tự ý hoán đổi giữa các tỷ lệ phối hợp (ví dụ tỷ lệ 4:1, 7:1 và 14:1)?",
+    "back": "<b>📖 Cơ chế tác dụng phụ:</b><br>Liều kháng sinh luôn được tính theo thành phần Amoxicillin; trong khi Acid Clavulanic là chất kích thích nhu động đường tiêu hóa gây tiêu chảy phụ thuộc liều.<br><br><b>🔍 Lựa chọn lâm sàng:</b><br>Nếu dùng chế phẩm tỷ lệ 4:1 để đẩy liều Amoxicillin lên 80–90 mg/kg/ngày sẽ làm liều Clavulanat tăng vọt gây tiêu chảy dữ dội. Trường hợp này bắt buộc phải chọn chế phẩm có tỷ lệ cao 7:1 hoặc 14:1 (như viên 875/125 mg hoặc siro 600/42.9 mg per 5 ml)."
+  },
+  {
+    "id": "PED03-V2-022",
+    "type": "basic",
+    "front": "Nêu công thức kinh điển tính tổng thể tích dịch duy trì trong 24 giờ theo phương pháp Holliday-Segar ở trẻ em?",
+    "back": "<b>📖 Công thức Holliday-Segar 100/50/20:</b><br>- 10 kg đầu tiên: 100 ml/kg/ngày.<br>- Từ 11 đến 20 kg: Cộng thêm 50 ml/kg/ngày cho mỗi kg vượt trên 10 kg.<br>- Trên 20 kg: Cộng thêm 20 ml/kg/ngày cho mỗi kg vượt trên 20 kg.<br><br><b>🔍 Giới hạn tối đa:</b><br>Tổng thể tích không vượt quá 2400 đến 2500 ml/ngày (mức dịch duy trì của người trưởng thành)."
+  },
+  {
+    "id": "PED03-V2-023",
+    "type": "cloze",
+    "text": "Quy tắc 4-2-1 để tính tốc độ dịch duy trì theo ml/giờ quy định: {{c1::4 ml/kg/giờ}} cho 10 kg đầu, 2 ml/kg/giờ cho mỗi kg từ 11 đến 20 kg, và 1 ml/kg/giờ cho mỗi kg trên 20 kg.",
+    "extra": "Tốc độ tính theo quy tắc 4-2-1 tương đương chính xác với tổng thể tích 24 giờ của công thức Holliday-Segar chia cho 24."
+  },
+  {
+    "id": "PED03-V2-024",
+    "type": "basic",
+    "front": "Tính thể tích dịch duy trì trong 24 giờ và tốc độ ml/giờ cho một bệnh nhi nặng 14 kg theo công thức Holliday-Segar?",
+    "back": "<b>📖 Phép tính cụ thể:</b><br>- Thể tích 24 giờ = (10 x 100) + (4 x 50) = 1000 + 200 = 1200 ml/24 giờ.<br>- Tốc độ truyền ml/giờ = 1200 ÷ 24 = 50 ml/giờ.<br><br><b>🔍 Kiểm tra nhanh bằng quy tắc 4-2-1:</b><br>Tốc độ = (10 x 4) + (4 x 2) = 40 + 8 = 48 ml/giờ (làm tròn thực hành lâm sàng là 50 ml/giờ)."
+  },
+  {
+    "id": "PED03-V2-025",
+    "type": "basic",
+    "front": "Nêu công thức chuyển đổi từ tốc độ truyền ml/giờ sang số giọt/phút đối với dây truyền người lớn (20 giọt/ml) và dây truyền nhi khoa (60 giọt/ml)?",
+    "back": "<b>📖 Công thức chuyển đổi:</b><br>Số giọt/phút = (Tốc độ ml/giờ x Hệ số giọt) ÷ 60.<br><br><b>🔍 Quy tắc nhớ nhanh:</b><br>- Dây truyền người lớn (20 giọt/ml): Số giọt/phút = Tốc độ (ml/giờ) ÷ 3.<br>- Dây truyền nhi khoa (60 giọt/ml): Số giọt/phút = Tốc độ (ml/giờ). Số giọt đếm được bằng đúng chỉ số ml/giờ cài đặt."
+  },
+  {
+    "id": "PED03-V2-026",
+    "type": "cloze",
+    "text": "Khi truyền dịch duy trì tốc độ 60 ml/giờ bằng bộ dây truyền tiêu chuẩn 20 giọt/ml, tốc độ đếm giọt trên bầu đếm là {{c1::20 giọt/phút}}, còn nếu dùng dây truyền nhi 60 giọt/ml thì tốc độ là 60 giọt/phút.",
+    "extra": "Nhầm lẫn giữa hai loại dây truyền có thể dẫn đến tốc độ truyền thực tế gấp 3 lần dự kiến gây quá tải tuần hoàn cấp."
+  },
+  {
+    "id": "PED03-V2-027",
+    "type": "basic",
+    "front": "Vì sao các hướng dẫn nhi khoa hiện đại cấm sử dụng dung dịch nhược trương đơn thuần (như Glucose 5% không pha điện giải) để truyền dịch duy trì?",
+    "back": "<b>📖 Cơ chế nội tiết sinh lý:</b><br>Khi trẻ sốt, đau, stress hoặc viêm phổi, hormone chống bài niệu ADH tăng tiết sinh lý không thích hợp, làm thận giữ lại nước tự do.<br><br><b>🔍 Hậu quả nguy kịch:</b><br>Truyền dung dịch nhược trương không có Natri sẽ làm sụt giảm Natri máu cấp tính. Nước tự do tràn vào tế bào não gây ngộ độc nước, phù não cấp tính, co giật và tử vong do tụt kẹt não. Dịch duy trì bắt buộc phải là dịch đẳng trương có chứa Natri."
+  },
+  {
+    "id": "PED03-V2-028",
+    "type": "basic",
+    "front": "Nêu 3 giới hạn an toàn tuyệt đối bắt buộc phải tuân thủ khi bù Kali clorua qua đường truyền tĩnh mạch ngoại vi ở trẻ em?",
+    "back": "<b>📖 Ba giới hạn an toàn bất biến:</b><br>1. Nồng độ Kali trong dịch truyền ngoại vi không vượt quá 40 mmol/L (tương đương 0.3% KCl).<br>2. Tốc độ truyền tối đa không vượt quá 0.5 mmol/kg/giờ.<br>3. Tuyệt đối cấm tiêm bolus tĩnh mạch trực tiếp dưới mọi hình thức.<br><br><b>🔍 Lưu ý:</b><br>Nồng độ cao gây viêm tắc hoại tử mạch; tốc độ nhanh làm tăng vọt kali ngoại bào gây rung thất và vô tâm thu ngừng tim tức thì."
+  },
+  {
+    "id": "PED03-V2-029",
+    "type": "cloze",
+    "text": "Trong thực hành pha dịch truyền điện giải, 1 gam Kali clorua (KCl) cung cấp tương đương {{c1::13.4 mmol}} ion Kali (chứ không phải 10 mmol như nhiều người nhầm lẫn).",
+    "extra": "Khối lượng phân tử của KCl là 74.55 g/mol, do đó 1000 mg ÷ 74.55 ≈ 13.4 mmol K⁺."
+  },
+  {
+    "id": "PED03-V2-030",
+    "type": "basic",
+    "front": "Vì sao trong cấp cứu hạ đường huyết ở trẻ sơ sinh, phác đồ chuẩn bắt buộc sử dụng dung dịch Glucose 10% mà cấm dùng Glucose 30% hay 50%?",
+    "back": "<b>📖 Cơ chế bệnh sinh:</b><br>Glucose 30–50% có áp lực thẩm thấu cực kỳ cao (1500–2500 mOsm/L), gây viêm hoại tử mô nặng nếu thoát mạch, tăng đột ngột áp lực thẩm thấu máu làm vỡ mao mạch não gây xuất huyết não thất sơ sinh, và kích thích tụy phóng thích insulin ồ ạt gây hạ đường huyết dội ngược.<br><br><b>🔍 Phác đồ chuẩn:</b><br>Chỉ dùng Glucose 10% mini-bolus 2 ml/kg tiêm tĩnh mạch chậm trong 2–5 phút, sau đó truyền duy trì ngay theo tốc độ GIR."
+  },
+  {
+    "id": "PED03-V2-031",
+    "type": "cloze",
+    "text": "Tốc độ truyền Glucose tĩnh mạch (Glucose Infusion Rate - GIR) được tính theo công thức: GIR (mg/kg/phút) = {{c1::(% nồng độ Dextrose × Tốc độ ml/giờ) ÷ (6 × Cân nặng kg)}} với mục tiêu duy trì sinh lý ở sơ sinh là 4 đến 8 mg/kg/phút.",
+    "extra": "Ở trẻ non tháng hoặc hạ đường huyết dai dẳng do tăng insulin, tốc độ GIR có thể cần nâng lên 10 đến 12 mg/kg/phút."
+  },
+  {
+    "id": "PED03-V2-032",
+    "type": "basic",
+    "front": "Khi một bệnh nhi bị sốc giảm thể tích đang vô niệu hoặc thiểu niệu nặng, vì sao bác sĩ không được pha Kali clorua vào chai dịch tinh thể hồi sức ban đầu?",
+    "back": "<b>📖 Cơ chế bài tiết thận:</b><br>Khi thận chưa được tái tưới máu đầy đủ và chưa có dòng nước tiểu lưu thông, cơ thể hoàn toàn không thể bài tiết lượng kali đưa vào, dẫn đến tích lũy nhanh chóng gây tăng kali máu cấp tính.<br><br><b>🔍 Nguyên tắc an toàn:</b><br>Chỉ bắt đầu thêm Kali vào dịch truyền khi huyết động đã ổn định và đã xác nhận bệnh nhi có nước tiểu trở lại (lưu lượng nước tiểu > 1 ml/kg/giờ)."
+  },
+  {
+    "id": "PED03-V2-033",
+    "type": "basic",
+    "front": "Liều lượng, nồng độ, đường dùng và vị trí tiêm bắp chuẩn của Adrenaline trong xử trí cấp cứu sốc phản vệ ở trẻ em theo phác đồ là gì?",
+    "back": "<b>📖 Phác đồ Adrenaline phản vệ:</b><br>- Dung dịch: Dùng ống nguyên vẹn nồng độ 1:1000 (1 mg/1 ml).<br>- Liều: 0.01 mg/kg = 0.01 ml/kg.<br>- Vị trí: Tiêm bắp sâu tại mặt trước-ngoài đùi (cơ rộng ngoài - vastus lateralis).<br>- Trần liều: Tối đa 0.3 mg (trẻ < 30 kg) và 0.5 mg (trẻ ≥ 30 kg).<br><br><b>🔍 Ưu điểm cơ rộng ngoài:</b><br>Tưới máu dồi dào, hấp thu nhanh và cho nồng độ đỉnh trong huyết tương cao hơn nhiều so với tiêm cơ delta."
+  },
+  {
+    "id": "PED03-V2-034",
+    "type": "cloze",
+    "text": "Dung dịch Adrenaline 1:10.000 dùng trong cấp cứu ngừng tuần hoàn (PALS) được pha bằng cách lấy 1 ml Adrenaline 1:1000 pha với {{c1::9 ml dung dịch NaCl 0.9%}}, liều tiêm tĩnh mạch hoặc trong xương là 0.1 ml/kg (tương đương 0.01 mg/kg).",
+    "extra": "Tuyệt đối cấm tiêm tĩnh mạch trực tiếp dung dịch đậm đặc 1:1000 khi bệnh nhân còn mạch đập vì sẽ gây cơn tăng huyết áp kịch phát, xuất huyết não và rung thất."
+  },
+  {
+    "id": "PED03-V2-035",
+    "type": "basic",
+    "front": "Trong xử trí cắt cơn co giật kéo dài ở trẻ em tại tuyến cơ sở khi chưa thiết lập được đường truyền tĩnh mạch, hai lựa chọn thuốc đầu tay là gì và liều lượng ra sao?",
+    "back": "<b>📖 Hai lựa chọn ngoài đường tĩnh mạch:</b><br>1. Midazolam nhỏ niêm mạc má (buccal) hoặc xịt mũi: Liều 0.2 đến 0.3 mg/kg (tối đa 10 mg).<br>2. Diazepam bơm trực tràng: Liều 0.5 mg/kg (ống 5 mg cho trẻ < 3 tuổi, ống 10 mg cho trẻ ≥ 3 tuổi).<br><br><b>🔍 Ưu điểm dược lý:</b><br>Niêm mạc má và tĩnh mạch trực tràng dưới hấp thu nhanh đổ thẳng vào hệ tuần hoàn không qua gan lần đầu, giúp cắt cơn trong vòng 2–5 phút mà không mất thời gian lấy ven."
+  },
+  {
+    "id": "PED03-V2-036",
+    "type": "cloze",
+    "text": "Liều bolus dịch tinh thể đẳng trương (NaCl 0.9% hoặc Ringer Lactate) ban đầu trong xử trí sốc giảm thể tích hoặc sốc nhiễm khuẩn ở trẻ em theo PALS là {{c1::20 ml/kg}} truyền nhanh trong 10 đến 20 phút, nhưng nếu nghi ngờ sốc tim thì liều giảm xuống là 10 ml/kg.",
+    "extra": "Bắt buộc phải đánh giá lại sinh hiệu, dấu hiệu tưới máu, gan to và ran ẩm ở phổi sau mỗi lần truyền bolus dịch để phát hiện sớm quá tải thể tích."
+  },
+  {
+    "id": "PED03-V2-037",
+    "type": "basic",
+    "front": "Tại sao khi sử dụng Adenosin để cắt cơn nhịp nhanh kịch phát trên thất (SVT) ở trẻ em, bắt buộc phải tiêm tĩnh mạch cực nhanh (dưới 5 giây) và bơm đuổi ngay dịch muối?",
+    "back": "<b>📖 Động học thoái giáng:</b><br>Adenosin có thời gian bán thải sinh học trong máu cực ngắn (dưới 10 giây) do bị giáng hóa tức thì bởi enzyme adenosine deaminase trên bề mặt hồng cầu và tế bào nội mô mạch máu.<br><br><b>🔍 Kỹ thuật tiêm chạc 3:</b><br>Phải tiêm qua đường truyền tĩnh mạch lớn gần tim nhất có thể, đẩy thuốc cực nhanh trong < 5 giây rồi lập tức flush ngay 5 đến 10 ml NaCl 0.9% để khối thuốc tiếp cận nút nhĩ thất trước khi bị bất hoạt hoàn toàn."
+  },
+  {
+    "id": "PED03-V2-038",
+    "type": "basic",
+    "front": "Nêu công thức tính tốc độ bơm tiêm điện (ml/giờ) khi truyền thuốc vận mạch (như Adrenaline, Noradrenaline, Dopamine) tính theo đơn vị mcg/kg/phút?",
+    "back": "<b>📖 Công thức bơm tiêm điện:</b><br>Tốc độ truyền (ml/giờ) = [Liều chỉ định (mcg/kg/phút) x Cân nặng (kg) x 60 phút] ÷ Nồng độ thuốc sau pha (mcg/ml).<br><br><b>🔍 Ý nghĩa an toàn:</b><br>Kiểm soát chính xác liều thuốc đi vào tuần hoàn theo từng phút, tránh hiện tượng bolus nhầm một lượng lớn thuốc vận mạch khi thay đổi tốc độ máy truyền."
+  },
+  {
+    "id": "PED03-V2-039",
+    "type": "basic",
+    "front": "Vì sao Aspirin bị chống chỉ định tuyệt đối để hạ sốt ở trẻ em dưới 16 tuổi mắc các bệnh nhiễm virus như cúm hoặc thủy đậu?",
+    "back": "<b>📖 Bệnh sinh Hội chứng Reye:</b><br>Aspirin làm tổn thương cấu trúc và chức năng ty thể của tế bào gan ở trẻ bị nhiễm virus, dẫn đến thoái hóa mỡ gan cấp tính, suy tế bào gan tối cấp, tích tụ amoniac và phù não nhiễm độc nặng (tỷ lệ tử vong 30–50%).<br><br><b>🔍 Ngoại lệ chuyên khoa:</b><br>Chỉ dùng Aspirin khi có chỉ định chuyên khoa chặt chẽ trong bệnh Kawasaki (liều kháng viêm giai đoạn cấp, sau đó dùng liều thấp chống ngưng tập tiểu cầu) hoặc phòng ngừa bệnh tim do thấp."
+  },
+  {
+    "id": "PED03-V2-040",
+    "type": "cloze",
+    "text": "Codein và Tramadol bị chống chỉ định tuyệt đối cho trẻ em dưới {{c1::12 tuổi}} và chống chỉ định ở mọi lứa tuổi sau phẫu thuật cắt amydale hoặc nạo VA do nguy cơ ức chế hô hấp dẫn đến tử vong.",
+    "extra": "Đa hình di truyền enzyme CYP2D6 thể siêu chuyển hóa biến Codein thành Morphin ồ ạt trong thời gian ngắn gây ngừng thở trong giấc ngủ."
+  },
+  {
+    "id": "PED03-V2-041",
+    "type": "basic",
+    "front": "Nêu 2 lý do vì sao kháng sinh Ceftriaxone bị chống chỉ định tuyệt đối ở trẻ sơ sinh dưới 28 ngày tuổi?",
+    "back": "<b>📖 Hai cơ chế tai biến nghiêm trọng:</b><br>1. Đẩy Bilirubin: Ceftriaxone gắn mạnh vào Albumin, đẩy Bilirubin gián tiếp tự do vượt qua hàng rào máu não gây Vàng da nhân não (Kernicterus).<br>2. Kết tủa Canxi: Ceftriaxone tương tác với ion Canxi trong máu hoặc trong dịch truyền (Ringer Lactat) tạo phức kết tủa Ceftriaxone - Canxi không tan lắng đọng tại mao mạch phổi và cầu thận gây suy đa tạng tử vong.<br><br><b>🔍 Kháng sinh thay thế:</b><br>Cefotaxim là lựa chọn thay thế an toàn hàng đầu ở trẻ sơ sinh."
+  },
+  {
+    "id": "PED03-V2-042",
+    "type": "cloze",
+    "text": "Thuốc chống nôn Metoclopramid bị hạn chế tối đa hoặc chống chỉ định ở trẻ nhỏ do nguy cơ cao gây {{c1::hội chứng ngoại tháp cấp}} (cơn quay mắt, vẹo cổ, co cứng cơ), thuốc chống nôn thay thế an toàn là Ondansetron liều 0.15 mg/kg.",
+    "extra": "Cơn rối loạn trương lực cơ do Metoclopramid rất dễ bị chẩn đoán nhầm thành co giật hoặc viêm màng não cấp."
+  },
+  {
+    "id": "PED03-V2-043",
+    "type": "basic",
+    "front": "Vì sao thuốc chống tiêu chảy Loperamid bị chống chỉ định tuyệt đối ở trẻ em dưới 2 tuổi và không khuyến cáo cho trẻ dưới 6 tuổi?",
+    "back": "<b>📖 Cơ chế liệt ruột:</b><br>Loperamid là chất chủ vận thụ thể mu-opioid tại cơ trơn thành ruột, làm bất hoạt nhu động ruột, dẫn đến chướng bụng dữ dội, liệt ruột cơ năng, ứ đọng dịch và vi khuẩn trong lòng ruột làm nặng thêm nhiễm trùng huyết và che giấu dấu hiệu mất nước.<br><br><b>🔍 Phác đồ chuẩn của WHO:</b><br>Điều trị tiêu chảy cấp ở trẻ nhỏ chỉ tập trung vào: Bù dịch ORS + Bổ sung Kẽm (10–20 mg/ngày trong 10–14 ngày) + Duy trì chế độ dinh dưỡng bình thường."
+  },
+  {
+    "id": "PED03-V2-044",
+    "type": "basic",
+    "front": "Vì sao kháng sinh Tetracyclin bị chống chỉ định ở trẻ dưới 8 tuổi và Fluoroquinolon bị hạn chế thường quy ở trẻ dưới 18 tuổi?",
+    "back": "<b>📖 Độc tính mô xương khớp:</b><br>- Tetracyclin: Chelat hóa không hồi phục với Canxi photphat tại các mô đang calci hóa, làm biến màu men răng vĩnh viễn (răng xỉn màu vàng nâu xám) và ức chế sự phát triển của xương dài.<br>- Fluoroquinolon: Gây thoái hóa và tổn thương sụn tiếp hợp ở động vật non đang lớn và nguy cơ viêm đứt gân Achilles.<br><br><b>🔍 Ngoại lệ:</b><br>Doxycyclin chỉ dùng ngắn ngày trong các bệnh nguy hiểm tính mạng như sốt mò Rickettsia hoặc dịch tả nặng."
+  },
+  {
+    "id": "PED03-V2-045",
+    "type": "basic",
+    "front": "Trình bày quy tắc an toàn khi viết số thập phân trong kê đơn thuốc nhi khoa để tránh lỗi sai liều gấp 10 lần (Leading Zero và Trailing Zero)?",
+    "back": "<b>📖 Quy tắc chuẩn của ISMP và Joint Commission:</b><br>1. Luôn viết số 0 dẫn đầu đối với số thập phân nhỏ hơn 1 (viết '0,5 mg', KHÔNG BAO GIỜ viết '.5 mg' vì dấu chấm mờ sẽ biến đơn thành 5 mg).<br>2. Tuyệt đối không viết số 0 thừa sau dấu phẩy đối với số nguyên (viết '5 mg', KHÔNG ĐƯỢC viết '5.0 mg' vì dấu chấm mờ sẽ biến đơn thành 50 mg).<br><br><b>🔍 Tầm quan trọng:</b><br>Ngăn ngừa thảm họa quá liều gấp 10 lần các thuốc cực độc như Morphin, Digoxin, Furosemid."
+  },
+  {
+    "id": "PED03-V2-046",
+    "type": "cloze",
+    "text": "Để phòng ngừa biến chứng hội chứng người đỏ (Red-man syndrome) do giải phóng histamin ồ ạt gây tụt huyết áp và đỏ bừng nửa người trên, kháng sinh Vancomycin tiêm tĩnh mạch bắt buộc phải truyền chậm trong thời gian tối thiểu là {{c1::≥ 60 phút}} (hoặc tốc độ không quá 10 mg/phút).",
+    "extra": "Phản ứng này không phải là dị ứng qua trung gian IgE; nếu xảy ra, cần dừng truyền, cho kháng histamin và truyền lại với tốc độ chậm hơn một nửa."
+  },
+  {
+    "id": "PED03-V2-047",
+    "type": "basic",
+    "front": "Phân tích cơ chế nguy hiểm của việc dùng thuốc co mạch nhỏ mũi (như Naphazolin, Xylometazolin) ở trẻ sơ sinh và trẻ nhũ nhi?",
+    "back": "<b>📖 Cơ chế ngấm toàn thân:</b><br>Niêm mạc mũi trẻ rất mỏng và tưới máu dồi dào, thuốc chủ vận alpha-adrenergic bị hấp thu ồ ạt vào máu qua niêm mạc mũi và vượt qua hàng rào máu não chưa trưởng thành.<br><br><b>🔍 Biến chứng đe dọa tính mạng:</b><br>Gây co thắt mạch toàn thân dữ dội, tụt thân nhiệt nặng, nhịp tim chậm, li bì, ức chế hô hấp dẫn đến ngừng thở đột ngột và hôn mê sâu. Rửa mũi bằng nước muối sinh lý NaCl 0.9% là biện pháp duy nhất an toàn."
+  },
+  {
+    "id": "PED03-V2-048",
+    "type": "basic",
+    "front": "Nêu quy trình kiểm tra độc lập bắt buộc (Independent Double-Check) đối với nhóm thuốc có nguy cơ cao (High-Alert Medications) trong điều trị nội trú nhi khoa?",
+    "back": "<b>📖 Quy trình kiểm tra độc lập:</b><br>Hai nhân viên y tế (bác sĩ - điều dưỡng hoặc hai điều dưỡng) tính toán và kiểm tra độc lập tách rời nhau mà không nhìn trước kết quả của người kia.<br><br><b>🔍 Bảy điểm đối chiếu cốt lõi:</b><br>Đúng bệnh nhân, đúng cân nặng, đúng chỉ định, đúng tên thuốc, đúng nồng độ hàm lượng, đúng phép tính toán liều và đúng tốc độ cài đặt trên máy truyền dịch. Bắt buộc áp dụng cho: Insulin, Kali clorua truyền tĩnh mạch, thuốc vận mạch, opioid, thuốc giãn cơ và heparin."
+  }
+]

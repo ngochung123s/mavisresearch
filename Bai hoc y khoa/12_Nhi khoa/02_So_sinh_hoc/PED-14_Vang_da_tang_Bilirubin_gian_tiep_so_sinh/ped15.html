@@ -1,0 +1,2789 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vàng da sơ sinh — Tăng bilirubin gián tiếp & Vàng da ứ mật | Bài giảng Nhi khoa</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/index.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/600.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/700.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fontsource/be-vietnam-pro@5.1.0/800.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fontsource/space-grotesk@5.1.0/700.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.1.0/500.css" rel="stylesheet">
+<style>
+:root{
+  --bg:#eef1f7; --surface:#ffffff; --surface2:#f7f9fc; --surface3:#eef2f7;
+  --ink:#0d1524; --ink2:#2c3a50; --muted:#64748b;
+  --line:#e3e9f1; --line2:#cdd8e6;
+  --amber:#b45309; --amber2:#f59e0b; --amber-soft:#fff6e2; --amber-line:#fcd9a0;
+  --teal:#0f766e; --teal2:#14b8a6; --teal-soft:#e6fbf7; --teal-line:#a8ece2;
+  --red:#be123c; --red-soft:#fee9ee; --red-line:#f9c2d0;
+  --blue:#1d4ed8; --blue-soft:#e9f0ff; --blue-line:#bfd3ff;
+  --green:#15803d; --green-soft:#e8f8ee; --green-line:#b6e7c7;
+  --purple:#6d28d9; --purple-soft:#f2ebff; --purple-line:#d8c8fb;
+  --shadow:0 1px 2px rgba(13,21,36,.05), 0 12px 32px -18px rgba(13,21,36,.28);
+  --shadow-lg:0 2px 6px rgba(13,21,36,.06), 0 24px 60px -24px rgba(13,21,36,.35);
+  --r:14px; --rs:10px;
+}
+html[data-theme="dark"]{
+  --bg:#070c15; --surface:#0f1725; --surface2:#131d2e; --surface3:#18243a;
+  --ink:#e8eef8; --ink2:#c2cee0; --muted:#8fa1ba;
+  --line:#1e2b40; --line2:#2b3b55;
+  --amber:#fbbf24; --amber2:#f59e0b; --amber-soft:#2a1f08; --amber-line:#5c430f;
+  --teal:#2dd4bf; --teal2:#14b8a6; --teal-soft:#072521; --teal-line:#11514a;
+  --red:#fb7185; --red-soft:#2a0d15; --red-line:#6b1d2e;
+  --blue:#7aa2ff; --blue-soft:#0d1830; --blue-line:#25376b;
+  --green:#4ade80; --green-soft:#0a2415; --green-line:#1a5230;
+  --purple:#c4b5fd; --purple-soft:#1a1233; --purple-line:#3d2a72;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 32px -18px rgba(0,0,0,.8);
+  --shadow-lg:0 2px 6px rgba(0,0,0,.5), 0 24px 60px -24px rgba(0,0,0,.9);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:16px; line-height:1.72; -webkit-font-smoothing:antialiased;
+  transition:background .35s ease,color .35s ease;
+}
+h1,h2,h3,h4{line-height:1.28; font-weight:800; letter-spacing:-.015em; margin:0}
+p{margin:0 0 .85em}
+a{color:var(--blue)}
+::selection{background:var(--amber2);color:#111}
+.mono{font-family:"JetBrains Mono",ui-monospace,monospace}
+.disp{font-family:"Space Grotesk","Be Vietnam Pro",sans-serif}
+
+/* ===== TOP BAR ===== */
+.topbar{
+  position:sticky; top:0; z-index:80; height:60px;
+  display:flex; align-items:center; gap:14px; padding:0 18px;
+  background:color-mix(in srgb,var(--surface) 88%, transparent);
+  backdrop-filter:blur(14px) saturate(1.4);
+  border-bottom:1px solid var(--line);
+}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;font-size:15px;white-space:nowrap}
+.brand .mark{
+  width:32px;height:32px;border-radius:9px;flex:none;
+  background:linear-gradient(140deg,var(--amber2),#f97316 55%,var(--teal2));
+  display:grid;place-items:center;color:#fff;font-size:16px;
+  box-shadow:0 4px 14px -4px rgba(245,158,11,.7);
+}
+.brand small{display:block;font-weight:500;font-size:11px;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
+.progress-track{flex:1;height:5px;border-radius:99px;background:var(--surface3);overflow:hidden;min-width:40px}
+.progress-bar{height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--amber2),var(--teal2));transition:width .12s linear}
+.tb-actions{display:flex;gap:8px;align-items:center}
+.icon-btn{
+  width:36px;height:36px;border-radius:10px;border:1px solid var(--line);
+  background:var(--surface);color:var(--ink2);cursor:pointer;display:grid;place-items:center;
+  font-size:15px;transition:.2s
+}
+.icon-btn:hover{border-color:var(--amber2);color:var(--amber);transform:translateY(-1px)}
+.readout{font-size:12px;color:var(--muted);font-weight:600;white-space:nowrap}
+
+/* ===== LAYOUT ===== */
+.shell{display:grid;grid-template-columns:272px minmax(0,1fr);gap:0;max-width:1520px;margin:0 auto}
+aside{
+  position:sticky;top:60px;height:calc(100vh - 60px);overflow-y:auto;
+  padding:22px 14px 40px 20px;border-right:1px solid var(--line);
+  scrollbar-width:thin;
+}
+aside::-webkit-scrollbar{width:7px}
+aside::-webkit-scrollbar-thumb{background:var(--line2);border-radius:9px}
+.nav-label{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:18px 8px 8px}
+.nav-label:first-child{margin-top:0}
+aside a{
+  display:flex;align-items:center;gap:9px;padding:7px 10px;border-radius:9px;
+  text-decoration:none;color:var(--ink2);font-size:13.5px;font-weight:500;
+  border-left:2px solid transparent;transition:.18s;line-height:1.4
+}
+aside a .ni{font-size:11px;width:18px;text-align:center;color:var(--muted);font-family:"JetBrains Mono",monospace}
+aside a:hover{background:var(--surface2);color:var(--ink)}
+aside a.active{background:var(--amber-soft);color:var(--amber);border-left-color:var(--amber2);font-weight:700}
+aside a.active .ni{color:var(--amber2)}
+
+main{padding:0 clamp(16px,3.4vw,52px) 90px;min-width:0}
+
+/* ===== HERO ===== */
+.hero{padding:44px 0 30px;position:relative}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-size:11.5px;font-weight:700;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--teal);
+  background:var(--teal-soft);border:1px solid var(--teal-line);
+  padding:5px 12px;border-radius:99px;margin-bottom:18px
+}
+.hero h1{font-size:clamp(30px,4.6vw,52px);letter-spacing:-.03em;margin-bottom:14px}
+.hero h1 .hl{
+  background:linear-gradient(100deg,var(--amber2),#f97316);
+  -webkit-background-clip:text;background-clip:text;color:transparent
+}
+.hero h1 .hl2{
+  background:linear-gradient(100deg,var(--teal2),#0ea5e9);
+  -webkit-background-clip:text;background-clip:text;color:transparent
+}
+.hero-sub{font-size:clamp(15px,1.6vw,18px);color:var(--ink2);max-width:78ch}
+.hero-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.pill{
+  font-size:12px;font-weight:600;padding:5px 12px;border-radius:99px;
+  background:var(--surface);border:1px solid var(--line);color:var(--ink2)
+}
+.pill b{color:var(--ink)}
+.hero-art{margin-top:28px;border-radius:20px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow-lg);background:var(--surface)}
+.hero-art svg{display:block;width:100%;height:auto}
+
+/* ===== SECTIONS ===== */
+section{padding-top:46px;scroll-margin-top:74px}
+.sec-head{display:flex;align-items:flex-start;gap:14px;margin-bottom:20px}
+.sec-num{
+  flex:none;width:42px;height:42px;border-radius:12px;display:grid;place-items:center;
+  font-family:"JetBrains Mono",monospace;font-weight:700;font-size:15px;
+  background:var(--surface);border:1px solid var(--line);color:var(--amber);box-shadow:var(--shadow)
+}
+.sec-head.t .sec-num{color:var(--teal)}
+.sec-head.t .sec-eyebrow{color:var(--teal)}
+.sec-eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--amber)}
+.sec-head h2{font-size:clamp(22px,2.7vw,31px);letter-spacing:-.025em;margin-top:2px}
+
+.card{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+  padding:22px;box-shadow:var(--shadow);margin-bottom:16px
+}
+.card.flat{box-shadow:none}
+.card h3{font-size:18px;margin-bottom:12px;letter-spacing:-.02em}
+.card h4{font-size:15px;margin:16px 0 8px;color:var(--ink)}
+.lead{font-size:16.5px;color:var(--ink2)}
+
+.grid{display:grid;gap:14px}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:1000px){.g3,.g4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.g2,.g3,.g4{grid-template-columns:1fr}}
+
+.tag{display:inline-block;font-size:11px;font-weight:700;padding:2px 9px;border-radius:99px;letter-spacing:.03em}
+.t-amber{background:var(--amber-soft);color:var(--amber);border:1px solid var(--amber-line)}
+.t-teal{background:var(--teal-soft);color:var(--teal);border:1px solid var(--teal-line)}
+.t-red{background:var(--red-soft);color:var(--red);border:1px solid var(--red-line)}
+.t-blue{background:var(--blue-soft);color:var(--blue);border:1px solid var(--blue-line)}
+.t-green{background:var(--green-soft);color:var(--green);border:1px solid var(--green-line)}
+.t-purple{background:var(--purple-soft);color:var(--purple);border:1px solid var(--purple-line)}
+
+.callout{border-radius:var(--rs);padding:14px 16px;margin:14px 0;border:1px solid;font-size:14.5px}
+.callout .ct{font-weight:800;display:flex;align-items:center;gap:8px;margin-bottom:5px;font-size:13.5px;letter-spacing:.01em}
+.co-amber{background:var(--amber-soft);border-color:var(--amber-line);color:var(--amber)}
+.co-teal{background:var(--teal-soft);border-color:var(--teal-line);color:var(--teal)}
+.co-red{background:var(--red-soft);border-color:var(--red-line);color:var(--red)}
+.co-blue{background:var(--blue-soft);border-color:var(--blue-line);color:var(--blue)}
+.co-green{background:var(--green-soft);border-color:var(--green-line);color:var(--green)}
+.callout p,.callout li{color:var(--ink2)}
+.callout ul{margin:6px 0 0;padding-left:18px}
+
+ul.clean{list-style:none;padding:0;margin:0}
+ul.clean li{position:relative;padding-left:22px;margin-bottom:7px;color:var(--ink2);font-size:14.8px}
+ul.clean li::before{content:"";position:absolute;left:4px;top:10px;width:6px;height:6px;border-radius:2px;background:var(--amber2)}
+ul.clean.teal li::before{background:var(--teal2)}
+ul.clean.red li::before{background:var(--red)}
+ul.clean li b{color:var(--ink);font-weight:700}
+
+/* ===== TABLE ===== */
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:var(--rs);margin:12px 0;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}
+th,td{padding:10px 13px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--surface2);font-weight:700;font-size:12.5px;letter-spacing:.03em;color:var(--ink);position:sticky;top:0;text-transform:uppercase}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--surface2)}
+td b{color:var(--ink)}
+.tbl-a th{background:var(--amber-soft);color:var(--amber)}
+.tbl-t th{background:var(--teal-soft);color:var(--teal)}
+
+/* ===== TABS ===== */
+.tabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--line);margin-bottom:18px}
+.tab-btn{
+  border:none;background:transparent;padding:10px 15px;font-size:13.8px;font-weight:600;
+  color:var(--muted);cursor:pointer;border-bottom:2.5px solid transparent;margin-bottom:-1px;
+  font-family:inherit;transition:.18s;border-radius:8px 8px 0 0
+}
+.tab-btn:hover{color:var(--ink);background:var(--surface2)}
+.tab-btn.active{color:var(--amber);border-bottom-color:var(--amber2);background:var(--amber-soft)}
+.tab-panel{display:none;animation:fade .3s ease}
+.tab-panel.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+/* ===== ACCORDION ===== */
+.acc{border:1px solid var(--line);border-radius:var(--rs);overflow:hidden;margin-bottom:10px;background:var(--surface)}
+.acc-h{
+  width:100%;display:flex;align-items:center;gap:12px;padding:14px 16px;background:transparent;
+  border:none;cursor:pointer;text-align:left;font-family:inherit;font-size:15px;font-weight:700;color:var(--ink)
+}
+.acc-h:hover{background:var(--surface2)}
+.acc-h .chev{margin-left:auto;transition:transform .28s;font-size:12px;color:var(--muted)}
+.acc.open .acc-h .chev{transform:rotate(90deg)}
+.acc-b{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.acc-b-inner{padding:0 16px 16px;font-size:14.5px;color:var(--ink2)}
+
+/* ===== FORM CONTROLS ===== */
+.ctrl{display:flex;flex-direction:column;gap:6px}
+.ctrl label{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.ctrl input[type=number],.ctrl select{
+  width:100%;padding:10px 12px;border:1px solid var(--line2);border-radius:9px;
+  background:var(--surface2);color:var(--ink);font-family:"JetBrains Mono",monospace;font-size:15px;font-weight:500;
+  transition:.18s
+}
+.ctrl input:focus,.ctrl select:focus{outline:none;border-color:var(--amber2);box-shadow:0 0 0 3px var(--amber-soft)}
+input[type=range]{width:100%;accent-color:var(--amber2);height:26px;cursor:pointer}
+.seg{display:inline-flex;background:var(--surface3);border-radius:10px;padding:3px;gap:3px;border:1px solid var(--line)}
+.seg button{
+  border:none;background:transparent;padding:7px 14px;border-radius:8px;font-family:inherit;
+  font-size:13px;font-weight:600;color:var(--muted);cursor:pointer;transition:.18s;white-space:nowrap
+}
+.seg button.active{background:var(--surface);color:var(--amber);box-shadow:var(--shadow)}
+.seg.teal button.active{color:var(--teal)}
+.btn{
+  border:none;border-radius:10px;padding:10px 18px;font-family:inherit;font-size:14px;font-weight:700;
+  cursor:pointer;transition:.2s;display:inline-flex;align-items:center;gap:8px
+}
+.btn-a{background:linear-gradient(135deg,var(--amber2),#f97316);color:#1a1200}
+.btn-t{background:linear-gradient(135deg,var(--teal2),#0891b2);color:#00211e}
+.btn-g{background:var(--surface2);color:var(--ink2);border:1px solid var(--line2)}
+.btn:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+
+/* ===== RESULT BOX ===== */
+.result{border-radius:var(--rs);padding:18px;border:1px solid var(--line);background:var(--surface2);margin-top:14px}
+.result .rh{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.result .rv{font-family:"JetBrains Mono",monospace;font-size:clamp(26px,4vw,38px);font-weight:500;letter-spacing:-.02em;line-height:1.1}
+.risk-strip{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.risk-chip{flex:1;min-width:110px;border-radius:9px;padding:9px 11px;border:1px solid var(--line);background:var(--surface);font-size:12.5px}
+.risk-chip b{display:block;font-family:"JetBrains Mono",monospace;font-size:19px;margin-bottom:1px}
+.rc-green{border-color:var(--green-line);background:var(--green-soft)}
+.rc-amber{border-color:var(--amber-line);background:var(--amber-soft)}
+.rc-red{border-color:var(--red-line);background:var(--red-soft)}
+.rc-blue{border-color:var(--blue-line);background:var(--blue-soft)}
+
+/* ===== METABOLISM FLOW ===== */
+.flow{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch}
+.fnode{
+  flex:1 1 148px;min-width:148px;border:1.5px solid var(--line);border-radius:12px;
+  padding:12px;background:var(--surface);cursor:pointer;transition:.2s;position:relative;text-align:left
+}
+.fnode:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.fnode .fi{font-size:20px;display:block;margin-bottom:6px}
+.fnode .ft{font-size:13.5px;font-weight:700;color:var(--ink);line-height:1.3}
+.fnode .fs{font-size:11.5px;color:var(--muted);margin-top:3px;line-height:1.4}
+.fnode.active{border-color:var(--amber2);background:var(--amber-soft);box-shadow:0 0 0 3px color-mix(in srgb,var(--amber2) 22%,transparent)}
+.fnode.teal.active{border-color:var(--teal2);background:var(--teal-soft);box-shadow:0 0 0 3px color-mix(in srgb,var(--teal2) 22%,transparent)}
+.farrow{align-self:center;color:var(--line2);font-size:18px;flex:none}
+.fdetail{margin-top:14px;border-radius:var(--rs);padding:16px 18px;background:var(--surface2);border:1px solid var(--line);font-size:14.5px;color:var(--ink2);min-height:96px}
+.fdetail h4{margin-top:0;color:var(--ink);font-size:15.5px}
+
+/* ===== KRAMER ===== */
+.kramer-wrap{display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:20px;align-items:start}
+@media(max-width:720px){.kramer-wrap{grid-template-columns:1fr}}
+.baby-svg{width:100%;height:auto;max-width:230px;display:block;margin:0 auto}
+.kz{cursor:pointer;transition:.25s;stroke:var(--line2);stroke-width:1}
+.kz:hover{filter:brightness(1.06)}
+.zone-list{display:flex;flex-direction:column;gap:8px}
+.zrow{
+  display:grid;grid-template-columns:30px 1fr auto;gap:12px;align-items:center;
+  padding:11px 13px;border-radius:10px;border:1px solid var(--line);background:var(--surface);
+  cursor:pointer;transition:.2s;font-size:14px
+}
+.zrow:hover{border-color:var(--line2);transform:translateX(3px)}
+.zrow.active{border-color:var(--amber2);background:var(--amber-soft);box-shadow:var(--shadow)}
+.zrow .zn{width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font-weight:800;font-size:12.5px;color:#1a1200;font-family:"JetBrains Mono",monospace}
+.zrow .zt{font-weight:600;color:var(--ink)}
+.zrow .zs{font-size:12px;color:var(--muted);display:block}
+.zrow .zv{font-family:"JetBrains Mono",monospace;font-weight:500;font-size:13px;color:var(--amber);text-align:right;white-space:nowrap}
+
+/* ===== STOOL CARD ===== */
+.stool-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(112px,1fr));gap:10px}
+.stool{border:1.5px solid var(--line);border-radius:12px;overflow:hidden;cursor:pointer;background:var(--surface);transition:.2s;text-align:left;padding:0;font-family:inherit}
+.stool:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.stool.active{border-color:var(--teal2);box-shadow:0 0 0 3px var(--teal-soft)}
+.stool .sw{height:70px;position:relative;display:grid;place-items:center}
+.stool .sw::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 40%,rgba(255,255,255,.25),transparent 62%)}
+.stool .sl{padding:9px 10px;border-top:1px solid var(--line)}
+.stool .sn{font-weight:700;font-size:12.5px;color:var(--ink);line-height:1.3}
+.stool .sm{font-size:11px;color:var(--muted)}
+
+/* ===== TIMELINE ===== */
+.tl{position:relative;padding-left:26px;margin-top:8px}
+.tl::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:linear-gradient(180deg,var(--red),var(--amber2),var(--teal2))}
+.tl-item{position:relative;margin-bottom:16px;padding:14px 16px;background:var(--surface2);border:1px solid var(--line);border-radius:var(--rs)}
+.tl-item::before{content:"";position:absolute;left:-24px;top:20px;width:12px;height:12px;border-radius:50%;background:var(--surface);border:2.5px solid var(--amber2)}
+.tl-item h4{margin:0 0 5px;font-size:15px}
+.tl-item .phase-t{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--red);display:block;margin-bottom:4px}
+
+/* ===== QUIZ ===== */
+.q{border:1px solid var(--line);border-radius:var(--rs);padding:18px;background:var(--surface);margin-bottom:14px}
+.q .qn{font-size:11.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.q .qt{font-size:15.5px;font-weight:600;color:var(--ink);margin-bottom:13px;line-height:1.55}
+.opt{
+  display:flex;gap:11px;align-items:flex-start;width:100%;text-align:left;padding:11px 13px;
+  border:1.5px solid var(--line);border-radius:9px;background:var(--surface2);cursor:pointer;
+  font-family:inherit;font-size:14.2px;color:var(--ink2);margin-bottom:7px;transition:.18s
+}
+.opt:hover:not(:disabled){border-color:var(--line2);transform:translateX(2px)}
+.opt .ok{flex:none;width:22px;height:22px;border-radius:6px;background:var(--surface);border:1px solid var(--line2);display:grid;place-items:center;font-size:11.5px;font-weight:700;color:var(--muted)}
+.opt.correct{border-color:var(--green);background:var(--green-soft);color:var(--ink)}
+.opt.correct .ok{background:var(--green);color:#fff;border-color:var(--green)}
+.opt.wrong{border-color:var(--red);background:var(--red-soft)}
+.opt.wrong .ok{background:var(--red);color:#fff;border-color:var(--red)}
+.opt:disabled{cursor:default}
+.exp{display:none;margin-top:10px;padding:12px 14px;border-radius:9px;background:var(--blue-soft);border:1px solid var(--blue-line);font-size:14px;color:var(--ink2)}
+.exp.show{display:block;animation:fade .3s}
+.exp b{color:var(--blue)}
+.score-bar{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:16px 18px;border-radius:var(--rs);background:var(--surface2);border:1px solid var(--line)}
+.score-ring{width:74px;height:74px;flex:none;position:relative}
+.score-ring svg{transform:rotate(-90deg)}
+.score-ring .sv{position:absolute;inset:0;display:grid;place-items:center;font-family:"JetBrains Mono",monospace;font-weight:500;font-size:17px}
+
+/* ===== COMPARE ===== */
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:var(--rs);overflow:hidden}
+@media(max-width:760px){.cmp{grid-template-columns:1fr}}
+.cmp-col{padding:0}
+.cmp-h{padding:16px 18px;font-weight:800;font-size:16px;display:flex;align-items:center;gap:9px}
+.cmp-h.a{background:var(--amber-soft);color:var(--amber);border-bottom:1px solid var(--amber-line)}
+.cmp-h.b{background:var(--teal-soft);color:var(--teal);border-bottom:1px solid var(--teal-line)}
+.cmp-col:first-child{border-right:1px solid var(--line)}
+@media(max-width:760px){.cmp-col:first-child{border-right:none;border-bottom:1px solid var(--line)}}
+.cmp-row{padding:12px 18px;border-bottom:1px solid var(--line);font-size:14.2px}
+.cmp-row:last-child{border-bottom:none}
+.cmp-row .cr-l{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--muted);display:block;margin-bottom:3px}
+.cmp-row p{margin:0;color:var(--ink2)}
+
+/* ===== CASE ===== */
+.case{border:1px solid var(--line);border-radius:var(--rs);overflow:hidden;background:var(--surface);margin-bottom:14px}
+.case-h{padding:15px 18px;background:var(--surface2);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.case-h .cn{width:30px;height:30px;border-radius:9px;background:var(--blue);color:#fff;display:grid;place-items:center;font-weight:800;font-size:13px;flex:none}
+.case-h b{font-size:15.5px}
+.case-b{padding:18px}
+.step{border-left:3px solid var(--line2);padding:2px 0 2px 16px;margin-bottom:16px}
+.step .st-l{font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+.step .st-c{font-size:14.6px;color:var(--ink2)}
+.step .st-c b{color:var(--ink)}
+
+/* ===== CHART ===== */
+.chart-box{border:1px solid var(--line);border-radius:var(--rs);background:var(--surface);padding:10px;overflow:hidden}
+.chart-box svg{display:block;width:100%;height:auto}
+.legend{display:flex;gap:16px;flex-wrap:wrap;padding:10px 6px 4px;font-size:12.5px;color:var(--ink2)}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:22px;height:3.5px;border-radius:2px;display:inline-block}
+
+/* ===== FLOWCHART ===== */
+.fc{display:flex;flex-direction:column;align-items:center;gap:0}
+.fc-node{
+  border-radius:11px;padding:12px 16px;font-size:14px;font-weight:600;text-align:center;
+  border:1.5px solid var(--line);background:var(--surface);color:var(--ink);max-width:520px;width:100%;cursor:pointer;transition:.2s
+}
+.fc-node:hover{border-color:var(--teal2);transform:translateY(-2px);box-shadow:var(--shadow)}
+.fc-node.start{background:var(--teal-soft);border-color:var(--teal-line);color:var(--teal);font-weight:800}
+.fc-node.dec{background:var(--amber-soft);border-color:var(--amber-line);color:var(--amber)}
+.fc-node.urgent{background:var(--red-soft);border-color:var(--red-line);color:var(--red)}
+.fc-arrow{width:2px;height:22px;background:var(--line2);position:relative}
+.fc-arrow::after{content:"";position:absolute;bottom:-1px;left:50%;transform:translateX(-50%);border:5px solid transparent;border-top-color:var(--line2)}
+.fc-split{display:grid;grid-template-columns:1fr 1fr;gap:14px;width:100%;max-width:520px}
+@media(max-width:640px){.fc-split{grid-template-columns:1fr}}
+.fc-note{font-size:11.5px;color:var(--muted);text-align:center;margin-top:4px}
+
+/* ===== KBD / MISC ===== */
+.kbd{font-family:"JetBrains Mono",monospace;background:var(--surface3);border:1px solid var(--line2);border-bottom-width:2px;border-radius:5px;padding:1px 6px;font-size:12.5px;color:var(--ink)}
+.hl-y{background:linear-gradient(180deg,transparent 55%,color-mix(in srgb,var(--amber2) 45%,transparent) 55%);font-weight:700;color:var(--ink)}
+.hl-t{background:linear-gradient(180deg,transparent 55%,color-mix(in srgb,var(--teal2) 45%,transparent) 55%);font-weight:700;color:var(--ink)}
+hr.sep{border:none;border-top:1px solid var(--line);margin:26px 0}
+.small{font-size:13px;color:var(--muted)}
+.foot{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+.ref{font-size:13.5px;color:var(--ink2);padding-left:26px;text-indent:-26px;margin-bottom:9px}
+.ref b{font-family:"JetBrains Mono",monospace;color:var(--teal)}
+
+.stat{border-radius:var(--rs);padding:16px;background:var(--surface2);border:1px solid var(--line)}
+.stat .sv2{font-family:"JetBrains Mono",monospace;font-size:27px;font-weight:500;letter-spacing:-.02em;line-height:1.1}
+.stat .sl2{font-size:12.5px;color:var(--muted);margin-top:4px;line-height:1.4}
+
+@media(max-width:1080px){
+  .shell{grid-template-columns:1fr}
+  aside{position:static;height:auto;border-right:none;border-bottom:1px solid var(--line);padding:12px 14px;
+    display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+  aside::-webkit-scrollbar{display:none}
+  .nav-label{display:none}
+  aside a{flex:none;border-left:none;border-bottom:2px solid transparent;border-radius:8px}
+  aside a.active{border-left:none;border-bottom-color:var(--amber2)}
+  aside a .ni{display:none}
+}
+@media print{
+  .topbar,aside,.hero-art,.btn,#quiz-panel .opt{break-inside:avoid}
+  body{background:#fff;color:#000}
+  .card{box-shadow:none;break-inside:avoid}
+  aside{display:none}
+  .shell{grid-template-columns:1fr}
+  section{page-break-inside:avoid}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand">
+    <div class="mark">☀</div>
+    <div>
+      Vàng da sơ sinh
+      <small>Bài giảng Nhi khoa</small>
+    </div>
+  </div>
+  <div class="progress-track"><div class="progress-bar" id="pbar"></div></div>
+  <div class="tb-actions">
+    <span class="readout" id="readPct">0%</span>
+    <button class="icon-btn" id="themeBtn" title="Chuyển chế độ sáng/tối" aria-label="Đổi giao diện">🌙</button>
+    <button class="icon-btn" id="printBtn" title="In bài" aria-label="In bài">🖨</button>
+  </div>
+</div>
+
+<div class="shell">
+<aside id="sidenav">
+  <div class="nav-label">Tổng quan</div>
+  <a href="#muc-tieu"><span class="ni">00</span>Mục tiêu bài học</a>
+  <a href="#chuyen-hoa"><span class="ni">01</span>Chuyển hóa bilirubin</a>
+  <a href="#tiep-can"><span class="ni">02</span>Tiếp cận vàng da sơ sinh</a>
+  <div class="nav-label">Tăng bilirubin gián tiếp</div>
+  <a href="#nguyen-nhan-gt"><span class="ni">03</span>Nguyên nhân</a>
+  <a href="#lam-sang"><span class="ni">04</span>Lâm sàng &amp; quy tắc Kramer</a>
+  <a href="#cls"><span class="ni">05</span>Cận lâm sàng</a>
+  <a href="#nguong"><span class="ni">06</span>Ngưỡng &amp; công cụ tính</a>
+  <a href="#dieu-tri-gt"><span class="ni">07</span>Điều trị</a>
+  <a href="#kernicterus"><span class="ni">08</span>Kernicterus</a>
+  <div class="nav-label">Vàng da ứ mật</div>
+  <a href="#nguyen-nhan-tt"><span class="ni">09</span>Nguyên nhân ứ mật</a>
+  <a href="#chan-doan-tt"><span class="ni">10</span>Tiếp cận chẩn đoán</a>
+  <a href="#teo-duong-mat"><span class="ni">11</span>Teo đường mật &amp; Kasai</a>
+  <a href="#dieu-tri-tt"><span class="ni">12</span>Điều trị ứ mật</a>
+  <div class="nav-label">Tổng hợp</div>
+  <a href="#so-sanh"><span class="ni">13</span>So sánh hai nhóm</a>
+  <a href="#ca-lam-sang"><span class="ni">14</span>Ca lâm sàng</a>
+  <a href="#tom-tat"><span class="ni">15</span>Bảng tóm tắt</a>
+  <a href="#quiz"><span class="ni">16</span>Lượng giá</a>
+  <a href="#tham-khao"><span class="ni">17</span>Tài liệu tham khảo</a>
+</aside>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <span class="eyebrow">◈ Nhi khoa · Sơ sinh · Tiêu hóa – Gan mật</span>
+  <h1>Vàng da sơ sinh:<br><span class="hl">Tăng bilirubin gián tiếp</span> &amp; <span class="hl2">Vàng da ứ mật</span></h1>
+  <p class="hero-sub">
+    Bài giảng tương tác giúp bạn <b>phân biệt được hai cơ chế vàng da hoàn toàn khác nhau</b> ở trẻ sơ sinh —
+    một bên là tăng bilirubin tự do (không liên hợp) với nguy cơ nhiễm độc thần kinh, một bên là tăng bilirubin liên hợp
+    (ứ mật) với nguy cơ xơ gan tiến triển. Cả hai đều là cấp cứu theo <b>thời gian</b>, nhưng xử trí hoàn toàn trái ngược.
+  </p>
+  <div class="hero-meta">
+    <span class="pill">⏱ Thời lượng <b>~45 phút</b></span>
+    <span class="pill">🎯 Đối tượng <b>Y4–Y6 · BSNT Nhi</b></span>
+    <span class="pill">🧩 <b>6 công cụ tương tác</b></span>
+    <span class="pill">📝 <b>10 câu lượng giá</b></span>
+    <span class="pill">📚 Theo <b>AAP 2022 · NASPGHAN 2017</b></span>
+  </div>
+
+  <div class="hero-art">
+    <svg viewBox="0 0 1200 340" role="img" aria-label="Minh họa hai con đường vàng da sơ sinh">
+      <defs>
+        <linearGradient id="hg1" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#fb923c"/>
+        </linearGradient>
+        <linearGradient id="hg2" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#38bdf8"/>
+        </linearGradient>
+        <linearGradient id="hgbg" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#fff7e0"/><stop offset=".5" stop-color="#f4fbfa"/><stop offset="1" stop-color="#e8f7ff"/>
+        </linearGradient>
+      </defs>
+      <rect width="1200" height="340" fill="url(#hgbg)"/>
+      <!-- incubator / bassinet -->
+      <g transform="translate(470,52)">
+        <!-- phototherapy lamp -->
+        <rect x="70" y="-40" width="120" height="22" rx="10" fill="#1e293b"/>
+        <rect x="80" y="-18" width="100" height="8" rx="4" fill="#38bdf8" opacity=".9"/>
+        <g opacity=".5">
+          <path d="M88 -10 L60 96" stroke="#38bdf8" stroke-width="3"/>
+          <path d="M112 -10 L96 96" stroke="#38bdf8" stroke-width="3"/>
+          <path d="M140 -10 L134 96" stroke="#38bdf8" stroke-width="3"/>
+          <path d="M166 -10 L172 96" stroke="#38bdf8" stroke-width="3"/>
+        </g>
+        <animate attributeName="opacity" values="1;1" dur="1s"/>
+        <!-- bassinet -->
+        <rect x="10" y="150" width="240" height="16" rx="8" fill="#94a3b8"/>
+        <rect x="0" y="96" width="260" height="60" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+        <!-- baby -->
+        <ellipse cx="66" cy="112" rx="26" ry="22" fill="#fde0b8" stroke="#f0b978" stroke-width="1.5"/>
+        <path d="M88 118 Q150 106 196 122 Q200 136 190 142 Q140 150 92 142 Z" fill="#fde0b8" stroke="#f0b978" stroke-width="1.5"/>
+        <path d="M52 100 q6 -10 20 -8 q10 2 12 10" fill="none" stroke="#e0a468" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="58" cy="114" r="2.6" fill="#7c5b34"/>
+        <circle cx="76" cy="113" r="2.6" fill="#7c5b34"/>
+        <path d="M62 126 q6 5 12 0" fill="none" stroke="#c98a4b" stroke-width="2" stroke-linecap="round"/>
+        <rect x="46" y="104" width="48" height="9" rx="4.5" fill="#1e293b" opacity=".82"/>
+        <!-- legs -->
+        <path d="M190 132 q26 4 30 18" fill="none" stroke="#f0b978" stroke-width="10" stroke-linecap="round"/>
+      </g>
+
+      <!-- left node -->
+      <g transform="translate(40,86)">
+        <rect width="330" height="168" rx="18" fill="#fff" stroke="#fcd9a0" stroke-width="2"/>
+        <rect width="330" height="46" rx="18" fill="url(#hg1)"/>
+        <rect y="28" width="330" height="18" fill="url(#hg1)"/>
+        <text x="20" y="31" font-family="Be Vietnam Pro,sans-serif" font-size="18" font-weight="800" fill="#2a1c00">TĂNG BILIRUBIN GIÁN TIẾP</text>
+        <text x="20" y="74" font-family="Be Vietnam Pro,sans-serif" font-size="13.5" fill="#6b5220">Bilirubin <tspan font-weight="700">TỰ DO</tspan> — không tan trong nước</text>
+        <text x="20" y="98" font-family="Be Vietnam Pro,sans-serif" font-size="13.5" fill="#6b5220">Da vàng <tspan font-weight="700">tươi / nghệ</tspan> · Phân vàng · Tiểu bình thường</text>
+        <text x="20" y="122" font-family="Be Vietnam Pro,sans-serif" font-size="13.5" fill="#6b5220">Nguy cơ: <tspan font-weight="700">Kernicterus</tspan></text>
+        <text x="20" y="146" font-family="Be Vietnam Pro,sans-serif" font-size="13.5" fill="#6b5220">Điều trị: <tspan font-weight="700">Chiếu đèn · Thay máu</tspan></text>
+      </g>
+
+      <!-- right node -->
+      <g transform="translate(830,86)">
+        <rect width="330" height="168" rx="18" fill="#fff" stroke="#a8ece2" stroke-width="2"/>
+        <rect width="330" height="46" rx="18" fill="url(#hg2)"/>
+        <rect y="28" width="330" height="18" fill="url(#hg2)"/>
+        <text x="20" y="31" font-family="Be Vietnam Pro,sans-serif" font-size="18" font-weight="800" fill="#00211e">VÀNG DA Ứ MẬT</text>
+        <text x="20" y="74" font-family="Be Vietnam Pro,sans-serif" font-size="13.5" fill="#0d5c55">Bilirubin <tspan font-weight="700">LIÊN HỢP</tspan> — tan trong nước</text>
+        <text x="20" y="98" font-family="Be Vietnam Pro,sans-serif" font-size="13.5" fill="#0d5c55">Da vàng <tspan font-weight="700">xanh xám / chanh</tspan> · <tspan font-weight="700">Phân bạc màu</tspan> · Tiểu sẫm</text>
+        <text x="20" y="122" font-family="Be Vietnam Pro,sans-serif" font-size="13.5" fill="#0d5c55">Nguy cơ: <tspan font-weight="700">Xơ gan mật · Suy gan</tspan></text>
+        <text x="20" y="146" font-family="Be Vietnam Pro,sans-serif" font-size="13.5" fill="#0d5c55">Điều trị: <tspan font-weight="700">Kasai · UDCA · Ghép gan</tspan></text>
+      </g>
+
+      <path d="M372 170 H466" stroke="#f59e0b" stroke-width="3" stroke-dasharray="7 6" fill="none"/>
+      <path d="M828 170 H734" stroke="#14b8a6" stroke-width="3" stroke-dasharray="7 6" fill="none"/>
+      <text x="600" y="308" text-anchor="middle" font-family="Be Vietnam Pro,sans-serif" font-size="14" fill="#5b6b82">
+        Chìa khóa: <tspan font-weight="800" fill="#0d1524">ĐO BILIRUBIN TOÀN PHẦN + TRỰC TIẾP</tspan> ở mọi trẻ vàng da kéo dài &gt; 24 giờ
+      </text>
+    </svg>
+  </div>
+</header>
+
+<!-- ============ 00 MỤC TIÊU ============ -->
+<section id="muc-tieu">
+  <div class="sec-head">
+    <div class="sec-num">00</div>
+    <div><div class="sec-eyebrow">Learning objectives</div><h2>Mục tiêu bài học</h2></div>
+  </div>
+
+  <div class="grid g2">
+    <div class="card">
+      <h3>🎯 Sau bài học, bạn có thể</h3>
+      <ul class="clean">
+        <li><b>Mô tả</b> được con đường chuyển hóa bilirubin và giải thích vì sao trẻ sơ sinh dễ vàng da.</li>
+        <li><b>Phân biệt</b> tăng bilirubin gián tiếp và tăng bilirubin trực tiếp dựa vào định nghĩa sinh hóa, lâm sàng, cận lâm sàng.</li>
+        <li><b>Kể</b> được các nhóm nguyên nhân chính của mỗi loại và nhận diện nguyên nhân cần can thiệp khẩn.</li>
+        <li><b>Áp dụng</b> quy tắc Kramer, nomogram Bhutani và ngưỡng AAP 2022 để quyết định chiếu đèn / thay máu.</li>
+        <li><b>Nhận biết</b> sớm bệnh não bilirubin (kernicterus) và các di chứng.</li>
+        <li><b>Triển khai</b> tiếp cận chẩn đoán vàng da ứ mật, không bỏ sót <b>teo đường mật</b> trước 60 ngày tuổi.</li>
+        <li><b>Lập kế hoạch</b> điều trị: chiếu đèn tích cực, thay máu, UDCA, dinh dưỡng, vitamin tan trong dầu, Kasai, ghép gan.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="card">
+        <h3>⚠️ Ba thông điệp sống còn</h3>
+        <div class="callout co-amber">
+          <div class="ct">① Vàng da &lt; 24 giờ tuổi = LUÔN bệnh lý</div>
+          <p>Không có vàng da sinh lý nào xuất hiện trong ngày đầu. Hãy nghĩ ngay đến <b>tan máu</b> (bất đồng ABO/Rh, G6PD) hoặc <b>nhiễm trùng</b>.</p>
+        </div>
+        <div class="callout co-teal">
+          <div class="ct">② Vàng da &gt; 2 tuần (đủ tháng) = phải đo bilirubin TRỰC TIẾP</div>
+          <p>Đừng bao giờ "chờ hết vàng" mà không phân đoạn bilirubin. <b>Phân bạc màu</b> dù chỉ thoáng qua cũng là dấu hiệu đỏ.</p>
+        </div>
+        <div class="callout co-red">
+          <div class="ct">③ Teo đường mật: cửa sổ Kasai đóng dần</div>
+          <p>Phẫu thuật nối mật – ruột (Kasai) tốt nhất <b>trước 45–60 ngày tuổi</b>. Sau 90 ngày, tỉ lệ dẫn lưu mật thành công giảm mạnh.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid g4" style="margin-top:2px">
+    <div class="stat"><div class="sv2" style="color:var(--amber)">~60%</div><div class="sl2">trẻ đủ tháng có vàng da nhìn thấy được trong tuần đầu</div></div>
+    <div class="stat"><div class="sv2" style="color:var(--amber)">80%</div><div class="sl2">trẻ non tháng bị vàng da sơ sinh</div></div>
+    <div class="stat"><div class="sv2" style="color:var(--teal)">1/10.000<br>–1/15.000</div><div class="sl2">tần suất teo đường mật — nguyên nhân ngoại khoa hàng đầu của ứ mật</div></div>
+    <div class="stat"><div class="sv2" style="color:var(--red)">1 mg/dL</div><div class="sl2">ngưỡng bilirubin trực tiếp bất thường ở mọi lứa tuổi sơ sinh</div></div>
+  </div>
+</section>
+
+<!-- ============ 01 CHUYỂN HÓA ============ -->
+<section id="chuyen-hoa">
+  <div class="sec-head">
+    <div class="sec-num">01</div>
+    <div><div class="sec-eyebrow">Pathophysiology</div><h2>Chuyển hóa bilirubin — nền tảng để hiểu cả hai bệnh</h2></div>
+  </div>
+
+  <div class="card">
+    <p class="lead">Nhấp vào từng mắt xích để xem chi tiết. Mắt xích <span class="tag t-amber">vàng</span> thuộc về tăng bilirubin gián tiếp, mắt xích <span class="tag t-teal">xanh</span> thuộc về ứ mật.</p>
+    <div class="flow" id="flow"></div>
+    <div class="fdetail" id="fdetail">
+      <h4>👆 Chọn một bước trong sơ đồ</h4>
+      <p>Bilirubin là sản phẩm thoái hóa của <b>heme</b>. Khoảng <b>75–80%</b> đến từ hemoglobin của hồng cầu già bị hủy ở hệ lưới nội mô (lách, gan, tủy xương); phần còn lại từ myoglobin, cytochrome, catalase và quá trình tạo hồng cầu không hiệu quả.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>🧬 Vì sao trẻ sơ sinh "được thiết kế" để vàng da?</h3>
+    <div class="grid g3">
+      <div>
+        <h4 style="color:var(--amber)">↑ Sản xuất</h4>
+        <ul class="clean">
+          <li>Hồng cầu nhiều hơn (Hb 16–18 g/dL), <b>đời sống HC ngắn 70–90 ngày</b> (người lớn: 120 ngày).</li>
+          <li>Phần lớn là <b>HbF</b> — thoái hóa nhanh.</li>
+          <li>Tạo hồng cầu không hiệu quả chiếm tỉ trọng lớn hơn.</li>
+          <li>⇒ tải bilirubin ≈ <b>8–10 mg/kg/ngày</b> so với 3–4 mg/kg/ngày ở người lớn.</li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="color:var(--amber)">↓ Liên hợp</h4>
+        <ul class="clean">
+          <li>Hoạt tính <b>UGT1A1</b> lúc sinh chỉ ≈ <b>0,1–1%</b> mức người lớn; đạt ~1% sau 1–2 tuần.</li>
+          <li>Giảm protein vận chuyển bào tương (ligandin / GST).</li>
+          <li>Giảm bắt giữ bilirubin vào tế bào gan qua <b>OATP1B1/1B3</b>.</li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="color:var(--amber)">↑ Chu trình gan–ruột</h4>
+        <ul class="clean">
+          <li>β-glucuronidase trong sữa mẹ và niêm mạc ruột <b>thủy phân</b> bilirubin glucuronide thành bilirubin tự do.</li>
+          <li>Vi khuẩn ruột chưa đủ để chuyển thành urobilinogen ⇒ bilirubin <b>tái hấp thu</b> về gan.</li>
+          <li>Phân su chứa ~100 mg bilirubin — thải muộn làm tăng tái hấp thu.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="callout co-blue">
+      <div class="ct">💡 Vàng da sinh lý — tiêu chuẩn cổ điển</div>
+      <p>Xuất hiện <b>sau 24 giờ</b>, đỉnh ngày <b>3–5</b> (TSB ≤ 12–13 mg/dL ở trẻ đủ tháng), giảm dần và hết trong <b>7 ngày</b> (≤14 ngày), trẻ <b>khỏe, bú tốt, tăng cân</b>, chỉ tăng bilirubin <b>gián tiếp</b>, không thiếu máu, không gan lách to.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 TIẾP CẬN ============ -->
+<section id="tiep-can">
+  <div class="sec-head">
+    <div class="sec-num">02</div>
+    <div><div class="sec-eyebrow">Approach</div><h2>Tiếp cận một trẻ sơ sinh vàng da</h2></div>
+  </div>
+
+  <div class="card">
+    <h3>🔬 Bước 1 — Phân đoạn bilirubin (bắt buộc)</h3>
+    <p>Nhập kết quả xét nghiệm để phân loại tự động. Đổi đơn vị: <span class="mono">1 mg/dL = 17,1 µmol/L</span>.</p>
+    <div class="grid g3" style="margin:12px 0">
+      <div class="ctrl"><label for="inTSB">Bilirubin toàn phần (mg/dL)</label><input type="number" id="inTSB" value="14.2" step="0.1" min="0"></div>
+      <div class="ctrl"><label for="inDB">Bilirubin trực tiếp / liên hợp (mg/dL)</label><input type="number" id="inDB" value="0.6" step="0.1" min="0"></div>
+      <div class="ctrl"><label>&nbsp;</label><button class="btn btn-a" id="btnClassify" style="justify-content:center">Phân loại →</button></div>
+    </div>
+    <div class="result" id="classifyOut"></div>
+  </div>
+
+  <div class="card">
+    <h3>🚩 Bước 2 — Dấu hiệu đỏ cần hành động ngay</h3>
+    <div class="grid g2">
+      <div>
+        <h4 style="color:var(--amber)">Đỏ cho tăng bilirubin gián tiếp</h4>
+        <ul class="clean red">
+          <li>Vàng da <b>xuất hiện trước 24 giờ tuổi</b>.</li>
+          <li>Tốc độ tăng <b>&gt; 0,2 mg/dL/giờ</b> (≈ &gt; 5 mg/dL/24 giờ) → gợi ý tan máu cấp.</li>
+          <li>Vàng đến <b>lòng bàn tay, bàn chân</b> (Kramer vùng 5).</li>
+          <li>TSB vượt ngưỡng chiếu đèn / thay máu theo tuổi giờ.</li>
+          <li><b>Bú kém, li bì, khóc thét, giảm/↑ trương lực, co giật, thở ngừng</b> → bệnh não bilirubin.</li>
+          <li>Thiếu máu, gan lách to, tiền sử anh/chị em vàng da nặng, mẹ O / con A hoặc B, dân tộc nguy cơ G6PD.</li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="color:var(--teal)">Đỏ cho vàng da ứ mật</h4>
+        <ul class="clean red">
+          <li><b>Phân bạc màu / trắng đất sét</b> (acholic) — dù chỉ từng đợt.</li>
+          <li><b>Nước tiểu sẫm màu</b>, nhuộm vàng tã (bilirubin niệu).</li>
+          <li>Vàng da <b>kéo dài &gt; 2 tuần</b> ở trẻ đủ tháng, <b>&gt; 3 tuần</b> ở non tháng.</li>
+          <li>Da vàng <b>xanh xám, xỉn</b>, không tươi; ngứa, cào xước.</li>
+          <li><b>Gan to, chắc, bờ sắc</b>; lách to; tuần hoàn bàng hệ.</li>
+          <li>Sút cân / không tăng cân, nôn ra mật, bụng chướng.</li>
+          <li>Xuất huyết (thiếu vitamin K) → INR kéo dài không đáp ứng vitamin K → gợi ý suy gan.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>🧭 Bước 3 — Sơ đồ tư duy nhanh</h3>
+    <div class="fc">
+      <div class="fc-node start">Trẻ sơ sinh vàng da → khám toàn thân + hỏi bệnh sử chu sinh</div>
+      <div class="fc-arrow"></div>
+      <div class="fc-node dec">Đo TSB + DB (máu), hoặc TcB rồi xác nhận bằng TSB</div>
+      <div class="fc-arrow"></div>
+      <div class="fc-split">
+        <div>
+          <div class="fc-node" style="border-color:var(--amber-line);background:var(--amber-soft);color:var(--amber)">
+            DB &lt; 1 mg/dL<br>và DB/TSB &lt; 20%
+          </div>
+          <div class="fc-arrow"></div>
+          <div class="fc-node">⇒ <b>Tăng bilirubin GIÁN TIẾP</b><br><span class="fc-note">Đối chiếu ngưỡng theo tuổi giờ + yếu tố nguy cơ</span></div>
+        </div>
+        <div>
+          <div class="fc-node" style="border-color:var(--teal-line);background:var(--teal-soft);color:var(--teal)">
+            DB ≥ 1 mg/dL<br>hoặc DB/TSB ≥ 20%
+          </div>
+          <div class="fc-arrow"></div>
+          <div class="fc-node urgent">⇒ <b>Ứ MẬT SƠ SINH</b> — cấp cứu theo thời gian<br><span class="fc-note">Loại trừ teo đường mật, bệnh chuyển hóa, nhiễm trùng</span></div>
+        </div>
+      </div>
+      <div class="fc-arrow"></div>
+      <div class="fc-node start">Cả hai nhánh đều cần: theo dõi sát + tư vấn nuôi dưỡng + hẹn tái khám cụ thể</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 03 NGUYÊN NHÂN GIÁN TIẾP ============ -->
+<section id="nguyen-nhan-gt">
+  <div class="sec-head">
+    <div class="sec-num">03</div>
+    <div><div class="sec-eyebrow">Unconjugated hyperbilirubinemia</div><h2>Tăng bilirubin gián tiếp — phân loại nguyên nhân</h2></div>
+  </div>
+
+  <p class="lead">Cách nhớ theo cơ chế: <b>(1)</b> sản xuất quá nhiều, <b>(2)</b> liên hợp kém, <b>(3)</b> thải trừ / tái hấp thu tăng. Phần lớn trường hợp nặng là <span class="hl-y">phối hợp</span>.</p>
+
+  <div id="causesTabs">
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="c1">Sinh lý &amp; sữa mẹ</button>
+      <button class="tab-btn" data-tab="c2">Tan máu</button>
+      <button class="tab-btn" data-tab="c3">Giảm liên hợp</button>
+      <button class="tab-btn" data-tab="c4">Tăng chu trình gan–ruột</button>
+      <button class="tab-btn" data-tab="c5">Khác</button>
+    </div>
+
+    <div class="tab-panel active" id="c1">
+      <div class="grid g2">
+        <div class="card flat">
+          <span class="tag t-green">Lành tính</span>
+          <h3 style="margin-top:10px">Vàng da sinh lý</h3>
+          <ul class="clean">
+            <li>Xuất hiện ngày <b>2–3</b>, đỉnh ngày <b>3–5</b>, hết trong <b>7 ngày</b>.</li>
+            <li>TSB đỉnh <b>5–6 mg/dL</b> (có thể tới 12 mg/dL ở trẻ đủ tháng khỏe).</li>
+            <li>Cơ chế: ↑ sản xuất + ↓ UGT1A1 + ↑ chu trình gan–ruột.</li>
+            <li><b>Chẩn đoán loại trừ</b> — chỉ chẩn đoán khi đã loại trừ bệnh lý.</li>
+          </ul>
+        </div>
+        <div class="card flat">
+          <span class="tag t-amber">Liên quan nuôi dưỡng</span>
+          <h3 style="margin-top:10px">Vàng da do bú mẹ kém <span class="small">(breastfeeding jaundice)</span></h3>
+          <ul class="clean">
+            <li><b>Ngày 2–5</b>. Do <b>thiếu sữa</b>: bú không hiệu quả, chậm xuống sữa, mất nước, giảm thải phân su.</li>
+            <li>Dấu hiệu: sút cân <b>&gt; 8–10%</b> cân sinh, tiểu ít (&lt;6 tã/ngày sau ngày 4), môi khô, thóp lõm, ↑ natri.</li>
+            <li>Xử trí: <b>tăng tần suất bú 8–12 lần/ngày</b>, hỗ trợ khớp ngậm, vắt sữa; bổ sung sữa công thức chỉ khi có chỉ định y khoa (mất nước nặng, sụt cân &gt;10%, ↑TSB).</li>
+            <li><span class="hl-y">KHÔNG ngưng sữa mẹ thường quy, KHÔNG cho nước/đường.</span></li>
+          </ul>
+        </div>
+        <div class="card flat">
+          <span class="tag t-amber">Liên quan sữa mẹ</span>
+          <h3 style="margin-top:10px">Vàng da do sữa mẹ <span class="small">(breast milk jaundice)</span></h3>
+          <ul class="clean">
+            <li>Khởi phát <b>sau ngày 4–7</b>, đỉnh <b>tuần 2–3</b>, có thể kéo dài <b>3–12 tuần</b>.</li>
+            <li>Trẻ <b>khỏe, bú tốt, tăng cân tốt</b>, chỉ ↑ bilirubin gián tiếp.</li>
+            <li>Cơ chế giả định: yếu tố trong sữa mẹ ↑ β-glucuronidase, ↑ tái hấp thu; một số trường hợp thực chất là bệnh lý chưa phát hiện (suy giáp, G6PD, bệnh gan).</li>
+            <li>Chẩn đoán xác định: loại trừ mọi nguyên nhân khác. Có thể ngưng sữa mẹ <b>24–48 giờ</b> (vắt bỏ, duy trì tiết sữa) để chẩn đoán — TSB giảm &gt;2 mg/dL; sau đó cho bú mẹ trở lại.</li>
+          </ul>
+        </div>
+        <div class="card flat">
+          <span class="tag t-blue">Ghi nhớ</span>
+          <h3 style="margin-top:10px">Phân biệt nhanh 3 "vàng da sữa"</h3>
+          <div class="tw"><table class="tbl-a">
+            <thead><tr><th></th><th>Sinh lý</th><th>Do bú mẹ kém</th><th>Do sữa mẹ</th></tr></thead>
+            <tbody>
+              <tr><td><b>Khởi phát</b></td><td>Ngày 2–3</td><td>Ngày 2–5</td><td>Sau ngày 4–7</td></tr>
+              <tr><td><b>Đỉnh</b></td><td>Ngày 3–5</td><td>Ngày 3–5</td><td>Tuần 2–3</td></tr>
+              <tr><td><b>Kéo dài</b></td><td>&lt; 7 ngày</td><td>&lt; 7 ngày</td><td>3–12 tuần</td></tr>
+              <tr><td><b>Cân nặng</b></td><td>Bình thường</td><td>Sút &gt;10%</td><td>Tăng cân tốt</td></tr>
+              <tr><td><b>Bản chất</b></td><td>Chưa trưởng thành enzym</td><td>Thiếu calo/mất nước</td><td>Yếu tố trong sữa mẹ</td></tr>
+              <tr><td><b>Xử trí</b></td><td>Theo dõi</td><td>Tối ưu bú + bù dịch</td><td>Theo dõi, loại trừ bệnh</td></tr>
+            </tbody>
+          </table></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="c2">
+      <div class="card">
+        <h3>🩸 Nhóm tan máu — nguyên nhân quan trọng nhất của vàng da nặng</h3>
+        <p class="small">Đặc điểm chung: vàng da <b>sớm (thường &lt; 24–48 giờ)</b>, tốc độ tăng bilirubin <b>nhanh</b>, <b>thiếu máu</b>, <b>hồng cầu lưới tăng</b>, lách to, có thể phù thai nhi.</p>
+        <div class="tw"><table class="tbl-a">
+          <thead><tr><th style="width:26%">Nguyên nhân</th><th style="width:22%">Cơ chế</th><th>Chẩn đoán xác định</th><th style="width:20%">Điểm nhấn</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><b>Bất đồng nhóm máu ABO</b></td>
+              <td>Mẹ nhóm O, con nhóm A hoặc B; IgG anti-A/anti-B qua nhau</td>
+              <td>Mẹ O + con A/B; <b>test Coombs trực tiếp (DAT) dương tính</b> (có thể âm tính nhẹ); phết máu thấy <b>hồng cầu hình cầu</b></td>
+              <td>Nguyên nhân tan máu miễn dịch <b>thường gặp nhất</b>; thường nhẹ–vừa</td>
+            </tr>
+            <tr>
+              <td><b>Bất đồng Rh (D)</b></td>
+              <td>Mẹ Rh(−) đã mẫn cảm, IgG anti-D qua nhau</td>
+              <td>Mẹ Rh(−), con Rh(+), <b>DAT dương tính mạnh</b>; anti-D huyết thanh mẹ</td>
+              <td>Nặng, có thể <b>phù thai nhi</b>; phòng ngừa bằng anti-D immunoglobulin</td>
+            </tr>
+            <tr>
+              <td><b>Bất đồng nhóm máu phụ</b></td>
+              <td>Anti-Kell, anti-c, anti-E, anti-C…</td>
+              <td>DAT (+), sàng lọc kháng thể huyết thanh mẹ</td>
+              <td><b>Anti-Kell</b> gây thiếu máu nặng nhưng DAT có thể chỉ (+) nhẹ</td>
+            </tr>
+            <tr>
+              <td><b>Thiếu G6PD</b></td>
+              <td>Stress oxy hóa → tan máu cấp + giảm liên hợp</td>
+              <td><b>Định lượng G6PD hồng cầu</b> (lưu ý: có thể giả bình thường khi đang tan máu mạnh / hồng cầu lưới cao → làm lại sau 3 tháng)</td>
+              <td><b>Rất phổ biến ở Việt Nam.</b> Yếu tố nguy cơ độc thần kinh theo AAP 2022. Tránh thuốc/chất oxy hóa (sulfamid, primaquin, long não, henna, đậu fava)</td>
+            </tr>
+            <tr>
+              <td><b>Bệnh hồng cầu hình cầu di truyền</b></td>
+              <td>Khiếm khuyết màng HC (spectrin/ankyrin)</td>
+              <td>Phết máu: <b>hồng cầu hình cầu</b>, MCHC ↑; EMA-binding test; tiền sử gia đình, lách to</td>
+              <td>DAT <b>âm tính</b> — phân biệt với ABO</td>
+            </tr>
+            <tr>
+              <td><b>Thiếu pyruvate kinase, bệnh màng HC khác</b></td>
+              <td>Rối loạn enzym / màng</td>
+              <td>Định lượng enzym; xét nghiệm gen</td>
+              <td>Vàng da kéo dài, có thể cần cắt lách muộn</td>
+            </tr>
+            <tr>
+              <td><b>Alpha-thalassemia (Hb Bart's)</b></td>
+              <td>Chuỗi α bất thường → tan máu</td>
+              <td>Điện di Hb; MCV nhỏ, công thức máu bất thường; gen</td>
+              <td>Phổ biến ở Đông Nam Á</td>
+            </tr>
+            <tr>
+              <td><b>Đa hồng cầu</b></td>
+              <td>Hct &gt; 65% → tăng khối lượng HC bị hủy</td>
+              <td>Hct tĩnh mạch; con mẹ đái tháo đường, truyền máu nhau–thai, kẹp dây rốn muộn, song thai truyền máu</td>
+              <td>Kèm hạ đường huyết, tím, ↑độ quánh máu</td>
+            </tr>
+            <tr>
+              <td><b>Xuất huyết kín</b></td>
+              <td>Hấp thu heme từ khối máu tụ</td>
+              <td><b>Bướu huyết thanh</b>, tụ máu dưới da đầu, xuất huyết phổi, xuất huyết tiêu hóa (nuốt máu mẹ — test Apt), u máu gan/khổng lồ</td>
+              <td>Vàng da kéo dài + thiếu máu; Hb giảm muộn</td>
+            </tr>
+          </tbody>
+        </table></div>
+        <div class="callout co-red">
+          <div class="ct">🚨 Test Apt / phân biệt máu mẹ vs máu con</div>
+          <p>Nôn hoặc đi ngoài ra máu ở sơ sinh: nhỏ <b>NaOH 1%</b> vào mẫu. Máu mẹ (HbA) chuyển <b>vàng nâu</b>; máu con (HbF) giữ <b>màu hồng</b>.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="c3">
+      <div class="card">
+        <h3>🧪 Nhóm giảm liên hợp tại gan</h3>
+        <div class="tw"><table class="tbl-a">
+          <thead><tr><th style="width:28%">Bệnh</th><th style="width:20%">Gen / enzym</th><th style="width:22%">Mức bilirubin</th><th>Đặc điểm &amp; điều trị</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><b>Crigler–Najjar type I</b></td>
+              <td>UGT1A1 — <b>mất hoàn toàn</b> hoạt tính (đột biến vô nghĩa)</td>
+              <td>TSB <b>20–50 mg/dL</b>, không đáp ứng phenobarbital</td>
+              <td>Vàng da từ ngày 1–3, <b>nguy cơ kernicterus rất cao</b>. Điều trị: chiếu đèn 10–12 giờ/ngày suốt đời, thay máu cấp cứu, <b>ghép gan</b> là điều trị triệt để</td>
+            </tr>
+            <tr>
+              <td><b>Crigler–Najjar type II (Arias)</b></td>
+              <td>UGT1A1 — giảm nặng (&lt;10%)</td>
+              <td>TSB <b>6–22 mg/dL</b>, <b>giảm &gt;25% với phenobarbital</b></td>
+              <td>Test đáp ứng phenobarbital 5–10 mg/kg/ngày trong 3–7 ngày. Tiên lượng tốt hơn</td>
+            </tr>
+            <tr>
+              <td><b>Hội chứng Gilbert</b></td>
+              <td>UGT1A1 — giảm nhẹ (promoter TA-repeat)</td>
+              <td>TSB thường <b>&lt; 3 mg/dL</b></td>
+              <td>Lành tính, vàng da khi stress/nhịn ăn. Có thể <b>làm nặng thêm</b> vàng da khi kết hợp bệnh tan máu (vd G6PD)</td>
+            </tr>
+            <tr>
+              <td><b>Suy giáp bẩm sinh</b></td>
+              <td>Thiếu hormon giáp → chậm trưởng thành UGT1A1</td>
+              <td>TSB tăng, <b>vàng da kéo dài</b></td>
+              <td><b>Sàng lọc sơ sinh TSH</b>. Kèm bú kém, ngủ nhiều, táo bón, lưỡi to, thóp sau rộng, da lạnh khô. Điều trị levothyroxine sớm</td>
+            </tr>
+            <tr>
+              <td><b>Con mẹ đái tháo đường</b></td>
+              <td>Đa hồng cầu + chậm trưởng thành enzym</td>
+              <td>Tăng sớm và cao</td>
+              <td>Kèm hạ đường huyết, hạ canxi, bệnh cơ tim phì đại, tật bẩm sinh</td>
+            </tr>
+            <tr>
+              <td><b>Hội chứng Lucey–Driscoll</b></td>
+              <td>Chất ức chế UGT1A1 trong huyết thanh mẹ (tạm thời)</td>
+              <td>Rất cao</td>
+              <td>Vàng da nặng tái diễn ở các con trong cùng gia đình; tự giới hạn</td>
+            </tr>
+            <tr>
+              <td><b>Thuốc</b></td>
+              <td>Cạnh tranh liên hợp / displacement khỏi albumin</td>
+              <td>Thay đổi</td>
+              <td>Chú ý <b>ceftriaxone</b>, sulfonamid, vitamin K liều cao (dạng tan trong nước an toàn hơn)</td>
+            </tr>
+          </tbody>
+        </table></div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="c4">
+      <div class="card">
+        <h3>♻️ Tăng chu trình gan–ruột &amp; chậm thải phân su</h3>
+        <p>Mọi tình trạng làm ruột chậm lưu thông đều khiến bilirubin liên hợp bị <b>β-glucuronidase</b> thủy phân và tái hấp thu.</p>
+        <div class="grid g2">
+          <ul class="clean">
+            <li><b>Tắc ruột sơ sinh</b>: teo ruột non/đại tràng, tắc phân su, hội chứng nút phân su.</li>
+            <li><b>Hẹp môn vị phì đại</b> — vàng da gián tiếp kéo dài + nôn vọt không mật (cơ chế: đói + giảm UGT1A1).</li>
+            <li><b>Bệnh Hirschsprung</b> — chậm thải phân su &gt;48 giờ, bụng chướng.</li>
+            <li><b>Liệt ruột</b> ở trẻ bệnh nặng, nhiễm trùng, sau phẫu thuật.</li>
+          </ul>
+          <ul class="clean">
+            <li><b>Nuôi ăn tĩnh mạch kéo dài</b>, nhịn ăn — không có dòng chảy mật vào ruột.</li>
+            <li><b>Chậm cho bú sớm</b> sau sinh (bú muộn &gt;24 giờ).</li>
+            <li><b>Mẹ dùng thuốc</b> (magnesi sulfat, diazepam, oxytocin) — bằng chứng còn tranh cãi.</li>
+            <li><b>Túi thừa / nang ống mật chủ</b> gây ứ trệ từng đợt.</li>
+          </ul>
+        </div>
+        <div class="callout co-amber">
+          <div class="ct">🍼 Can thiệp rẻ tiền mà hiệu quả nhất</div>
+          <p><b>Cho bú sớm trong giờ đầu sau sinh, bú 8–12 lần/ngày</b> → tăng nhu động ruột → thải phân su sớm → giảm tái hấp thu bilirubin. Đây là nền tảng của mọi khuyến cáo phòng ngừa vàng da sơ sinh.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="c5">
+      <div class="card">
+        <h3>🦠 Nhiễm trùng &amp; các nguyên nhân khác</h3>
+        <div class="grid g2">
+          <div>
+            <h4>Nhiễm trùng</h4>
+            <ul class="clean red">
+              <li><b>Nhiễm trùng huyết sơ sinh</b> — vàng da có thể là dấu hiệu sớm nhất; thường phối hợp ↑ trực tiếp.</li>
+              <li><b>Nhiễm trùng tiểu</b> (E. coli) — vàng da kéo dài, bú kém, chậm lớn.</li>
+              <li><b>Nhiễm TORCH</b>: CMV, rubella, toxoplasma, HSV, giang mai, parvovirus B19 — thường gây <b>ứ mật</b> + vi vôi hóa nội sọ + ban "blueberry muffin".</li>
+              <li>Viêm gan sơ sinh.</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Khác</h4>
+            <ul class="clean">
+              <li><b>Non tháng</b> (35–37 6/7 tuần) — ngưỡng độc thấp hơn, UGT1A1 chưa trưởng thành.</li>
+              <li><b>Ngạt chu sinh, toan chuyển hóa, hạ thân nhiệt, hạ đường huyết</b> → tăng tính thấm hàng rào máu não với bilirubin.</li>
+              <li><b>Giảm albumin máu</b> (&lt;3 g/dL) → tăng bilirubin tự do không gắn.</li>
+              <li><b>Bất thường di truyền</b>: hội chứng Down, rối loạn chuyển hóa bẩm sinh.</li>
+              <li><b>Dân tộc</b>: Đông Á, Địa Trung Hải — nguy cơ cao hơn.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 04 LÂM SÀNG ============ -->
+<section id="lam-sang">
+  <div class="sec-head">
+    <div class="sec-num">04</div>
+    <div><div class="sec-eyebrow">Clinical assessment</div><h2>Đánh giá lâm sàng &amp; quy tắc Kramer</h2></div>
+  </div>
+
+  <div class="card">
+    <h3>👶 Khám vàng da đúng kỹ thuật</h3>
+    <div class="grid g2">
+      <ul class="clean">
+        <li>Khám trong <b>ánh sáng tự nhiên</b> (ánh sáng đèn vàng làm sai lệch).</li>
+        <li><b>Ấn ngón tay</b> lên da 3–5 giây ở trán, mũi, xương ức, cẳng chân — quan sát màu nền sau khi nhả tay (da trắng bệch).</li>
+        <li>Vàng da lan <b>đầu → chân</b> (quy luật tuần tự do bilirubin gắn vào mô giàu elastin).</li>
+        <li>Củng mạc mắt, <b>dưới lưỡi</b>, vòm miệng — vàng sớm.</li>
+      </ul>
+      <ul class="clean red">
+        <li>Đánh giá bằng mắt <b>KHÔNG đáng tin</b>, đặc biệt ở trẻ da sẫm màu, non tháng, thiếu sáng.</li>
+        <li>Không tương quan chặt giữa mức độ vàng da và nồng độ bilirubin máu.</li>
+        <li>⇒ <b>Luôn xác nhận bằng TcB hoặc TSB</b> khi có nghi ngờ.</li>
+        <li>Đo <b>TcB</b>: trán/ngực; <b>không dùng</b> trong vòng 24 giờ sau ngưng chiếu đèn (kết quả thấp giả).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>🗺️ Quy tắc Kramer — tương tác</h3>
+    <p class="small">Nhấp vào từng vùng trên hình em bé (hoặc danh sách bên phải) để xem ước tính nồng độ bilirubin huyết thanh tương ứng.</p>
+    <div class="kramer-wrap">
+      <div>
+        <svg class="baby-svg" viewBox="0 0 210 360" aria-label="Sơ đồ vùng vàng da Kramer">
+          <defs>
+            <linearGradient id="z1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#fcd34d"/></linearGradient>
+            <linearGradient id="z2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fcd34d"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+            <linearGradient id="z3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+            <linearGradient id="z4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#ea580c"/></linearGradient>
+            <linearGradient id="z5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ea580c"/><stop offset="1" stop-color="#c2410c"/></linearGradient>
+          </defs>
+          <!-- ZONE 1 : head + neck -->
+          <g class="kz" data-zone="1">
+            <ellipse cx="105" cy="44" rx="32" ry="36" fill="url(#z1)"/>
+            <rect x="90" y="76" width="30" height="14" rx="6" fill="url(#z1)"/>
+          </g>
+          <!-- ZONE 2 : chest, upper abdomen, upper arms -->
+          <g class="kz" data-zone="2">
+            <path d="M70 90 Q105 82 140 90 L143 148 L67 148 Z" fill="url(#z2)"/>
+            <path d="M70 96 Q52 106 46 142 L60 148 Q66 116 78 106 Z" fill="url(#z2)"/>
+            <path d="M140 96 Q158 106 164 142 L150 148 Q144 116 132 106 Z" fill="url(#z2)"/>
+          </g>
+          <!-- ZONE 3 : lower abdomen + thighs -->
+          <g class="kz" data-zone="3">
+            <path d="M67 148 L143 148 L140 196 L70 196 Z" fill="url(#z3)"/>
+            <rect x="72" y="196" width="28" height="66" rx="13" fill="url(#z3)"/>
+            <rect x="110" y="196" width="28" height="66" rx="13" fill="url(#z3)"/>
+          </g>
+          <!-- ZONE 4 : forearms + lower legs -->
+          <g class="kz" data-zone="4">
+            <path d="M46 142 L60 148 L54 200 L40 198 Z" fill="url(#z4)"/>
+            <path d="M164 142 L150 148 L156 200 L170 198 Z" fill="url(#z4)"/>
+            <rect x="74" y="262" width="24" height="58" rx="11" fill="url(#z4)"/>
+            <rect x="112" y="262" width="24" height="58" rx="11" fill="url(#z4)"/>
+          </g>
+          <!-- ZONE 5 : hands + feet -->
+          <g class="kz" data-zone="5">
+            <ellipse cx="47" cy="208" rx="12" ry="13" fill="url(#z5)"/>
+            <ellipse cx="163" cy="208" rx="12" ry="13" fill="url(#z5)"/>
+            <ellipse cx="84" cy="326" rx="17" ry="11" fill="url(#z5)"/>
+            <ellipse cx="126" cy="326" rx="17" ry="11" fill="url(#z5)"/>
+          </g>
+          <!-- face -->
+          <circle cx="94" cy="42" r="3" fill="#7c5b34"/><circle cx="116" cy="42" r="3" fill="#7c5b34"/>
+          <path d="M98 58 q7 6 14 0" fill="none" stroke="#b4762c" stroke-width="2.4" stroke-linecap="round"/>
+          <path d="M88 28 q6 -6 14 -2 M112 26 q8 -4 14 2" fill="none" stroke="#b4762c" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <p class="small" style="text-align:center;margin-top:10px">Vùng vàng da càng lan xa về phía chân ⇒ bilirubin càng cao</p>
+      </div>
+      <div>
+        <div class="zone-list" id="zoneList"></div>
+        <div class="callout co-amber" style="margin-top:14px">
+          <div class="ct">⚠️ Giới hạn của Kramer</div>
+          <p>Chỉ <b>ước tính</b>, không thay thế xét nghiệm. Sai lệch lớn ở trẻ da sẫm màu, thiếu máu nặng, non tháng, và ở vùng chiếu sáng kém. Nếu vàng da đã tới <b>vùng 4–5</b> hoặc trẻ &lt;35 tuần có vàng da <b>vùng 3 trở lên</b> → đo bilirubin <b>ngay</b>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 CẬN LÂM SÀNG ============ -->
+<section id="cls">
+  <div class="sec-head">
+    <div class="sec-num">05</div>
+    <div><div class="sec-eyebrow">Investigations</div><h2>Cận lâm sàng — chọn đúng, không chọn nhiều</h2></div>
+  </div>
+
+  <div class="card">
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="l1">Tăng bilirubin gián tiếp</button>
+      <button class="tab-btn" data-tab="l2">Vàng da ứ mật</button>
+      <button class="tab-btn" data-tab="l3">Chuyển đổi đơn vị</button>
+    </div>
+
+    <div class="tab-panel active" id="l1">
+      <div class="tw"><table class="tbl-a">
+        <thead><tr><th style="width:26%">Xét nghiệm</th><th style="width:24%">Chỉ định</th><th>Ý nghĩa / diễn giải</th></tr></thead>
+        <tbody>
+          <tr><td><b>TSB (bilirubin toàn phần)</b></td><td>Mọi trẻ vàng da nghi ngờ</td><td>Chuẩn vàng để quyết định điều trị. Lấy máu <b>tránh ánh sáng</b> (bọc giấy bạc ống nghiệm).</td></tr>
+          <tr><td><b>Bilirubin trực tiếp / gián tiếp</b></td><td>Vàng da &gt;24 giờ, kéo dài, hoặc nghi ứ mật</td><td>Phân biệt hai nhóm bệnh. <b>DB ≥ 1 mg/dL là bất thường.</b></td></tr>
+          <tr><td><b>TcB (bilirubin qua da)</b></td><td>Sàng lọc, tránh lấy máu</td><td>Xác nhận bằng TSB nếu TcB <b>≥ 15 mg/dL</b>, hoặc nằm trong <b>3 mg/dL</b> dưới ngưỡng chiếu đèn, hoặc sau 24 giờ ngưng chiếu đèn.</td></tr>
+          <tr><td><b>Nhóm máu mẹ + con, Rh</b></td><td>Vàng da sớm (&lt;24–48 giờ)</td><td>Bất đồng ABO: mẹ O / con A hoặc B. Bất đồng Rh: mẹ Rh(−) / con Rh(+).</td></tr>
+          <tr><td><b>Test Coombs trực tiếp (DAT)</b></td><td>Nghi tan máu miễn dịch</td><td>Dương tính → bệnh tan máu miễn dịch. Có thể âm tính nhẹ trong ABO.</td></tr>
+          <tr><td><b>CTM + hồng cầu lưới + phết máu</b></td><td>Mọi trường hợp nghi tan máu</td><td>Hb ↓, <b>lưới ↑ &gt;6%</b> → tan máu. Hình cầu (ABO, hồng cầu hình cầu), mảnh vỡ (DIC), thể Heinz (G6PD).</td></tr>
+          <tr><td><b>G6PD hồng cầu</b></td><td>Trẻ trai/gái có vàng da nặng, dân tộc nguy cơ, hoặc mọi trẻ vàng da bệnh lý (khuyến cáo VN)</td><td>Lưu ý <b>âm tính giả</b> trong cơn tan máu cấp. Làm lại sau 2–3 tháng nếu nghi ngờ.</td></tr>
+          <tr><td><b>Albumin + tỉ lệ B/A</b></td><td>TSB gần ngưỡng thay máu</td><td>Albumin &lt;3 g/dL là <b>yếu tố nguy cơ độc thần kinh</b>. Tỉ lệ bilirubin/albumin (mg/g) cao → nguy cơ tăng.</td></tr>
+          <tr><td><b>Khí máu, CRP, cấy máu</b></td><td>Nghi nhiễm trùng, trẻ bệnh</td><td>Toan chuyển hóa làm ↑ bilirubin tự do qua hàng rào máu não.</td></tr>
+          <tr><td><b>TSH, free T4</b></td><td>Vàng da kéo dài, trẻ li bì/táo bón</td><td>Suy giáp bẩm sinh. Ưu tiên dùng kết quả sàng lọc sơ sinh.</td></tr>
+          <tr><td><b>Đường huyết, điện giải, Hct</b></td><td>Bú kém, đa hồng cầu</td><td>Phát hiện hạ đường huyết, mất nước, Hct &gt;65%.</td></tr>
+          <tr><td><b>MRI não / ABR–ASSR</b></td><td>Nghi bệnh não bilirubin</td><td>MRI: ↑T2 ở <b>globus pallidus</b>, nhân dưới đồi. ABR: ↑ ngưỡng, mất sóng — sớm và có thể phục hồi.</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="tab-panel" id="l2">
+      <div class="tw"><table class="tbl-t">
+        <thead><tr><th style="width:26%">Xét nghiệm</th><th style="width:24%">Mục đích</th><th>Diễn giải</th></tr></thead>
+        <tbody>
+          <tr><td><b>Bilirubin toàn phần + trực tiếp</b> (lặp lại)</td><td>Xác định ứ mật</td><td>DB ≥ 1 mg/dL hoặc DB/TSB ≥ 20%.</td></tr>
+          <tr><td><b>AST, ALT, GGT, ALP, albumin</b></td><td>Đánh giá tổn thương gan &amp; định hướng</td><td><b>GGT ↑↑ (&gt;200–300 U/L)</b>: teo đường mật, Alagille, PFIC3, nang OMC, α1AT.<br><b>GGT bình thường/thấp</b>: PFIC1, PFIC2, rối loạn tổng hợp acid mật.</td></tr>
+          <tr><td><b>PT/INR + aPTT</b> (trước &amp; sau vitamin K 1 mg/kg TM)</td><td>Đánh giá chức năng tổng hợp</td><td>Không cải thiện sau vitamin K → <b>suy gan thật sự</b>, tiên lượng xấu.</td></tr>
+          <tr><td><b>Đường huyết, amoniac, khí máu, lactat</b></td><td>Sàng lọc bệnh chuyển hóa</td><td>Hạ đường huyết + amoniac ↑ → suy gan / rối loạn chu trình urea. Toan chuyển hóa + ketone niệu → acid hữu cơ.</td></tr>
+          <tr><td><b>α1-antitrypsin + kiểu hình (Pi)</b></td><td>Nguyên nhân di truyền hay gặp</td><td>PiZZ / PiSZ → bệnh gan ứ mật + khí phế thủng về sau.</td></tr>
+          <tr><td><b>Sàng lọc sơ sinh mở rộng</b> (MS/MS)</td><td>Galactosemia, tyrosinemia type 1, rối loạn oxy hóa acid béo</td><td><b>Galactosemia</b>: chất khử niệu (+), nôn, gan to, đục thủy tinh thể, E. coli sepsis.<br><b>Tyrosinemia</b>: succinylacetone niệu ↑ → điều trị <b>nitisinone</b>.</td></tr>
+          <tr><td><b>Cấy máu, cấy nước tiểu, CMV PCR (nước tiểu/nước bọt)</b></td><td>Nhiễm trùng</td><td>CMV PCR có giá trị nếu lấy <b>trong 3 tuần đầu</b> (phân biệt bẩm sinh vs mắc phải). CMV là nhiễm trùng bẩm sinh hay gặp nhất gây viêm gan sơ sinh.</td></tr>
+          <tr><td><b>TORCH, giang mai (VDRL/TPHA mẹ+con), HSV</b></td><td>Nghi nhiễm bẩm sinh</td><td>Kèm vi vôi hóa nội sọ, ban xuất huyết, gan lách to, viêm màng mạch võng mạc.</td></tr>
+          <tr><td><b>TSH, free T4, cortisol, GH</b></td><td>Nội tiết</td><td>Suy giáp, <b>suy tuyến yên bẩm sinh</b> (ứ mật + hạ đường huyết + dương vật nhỏ + bất thường giữa).</td></tr>
+          <tr><td><b>Siêu âm bụng lúc đói ≥ 4 giờ</b></td><td>Hình ảnh đầu tay</td><td><b>Nang ống mật chủ</b>; túi mật nhỏ &lt;1,5 cm hoặc không co bóp; dấu <b>"triangular cord" (TC sign)</b> — lớp xơ trước ngã ba tĩnh mạch cửa &gt; 4 mm → gợi ý teo đường mật; gan to, tăng âm, lách to, tăng áp cửa.</td></tr>
+          <tr><td><b>Xạ hình gan mật (HIDA / 99mTc-mebrofenin)</b></td><td>Đánh giá thông thương đường mật</td><td>Thuốc gan tốt nhưng <b>không xuống ruột sau 24 giờ</b> → gợi ý teo đường mật (độ nhạy cao, độ đặc hiệu thấp). Tiền trị phenobarbital 5 mg/kg/ngày × 3–5 ngày để tăng thải mật.</td></tr>
+          <tr><td><b>MRCP / ERCP</b></td><td>Hình ảnh cây đường mật</td><td>MRCP khó ở trẻ nhỏ. <b>Chụp đường mật trong mổ</b> là tiêu chuẩn vàng xác định teo đường mật.</td></tr>
+          <tr><td><b>Sinh thiết gan (qua da)</b></td><td>Khi chẩn đoán chưa rõ</td><td>Độ chính xác 90–95% cho teo đường mật: <b>tăng sinh ống mật, nút mật trong lòng ống, cầu xơ khoảng cửa</b>, thâm nhiễm viêm nhẹ. Chống chỉ định khi INR kéo dài không điều chỉnh được.</td></tr>
+          <tr><td><b>Chọc hút tá tràng (TCBD)</b></td><td>Trung tâm chuyên khoa</td><td>Không có mật trong dịch tá tràng → gợi ý tắc nghẽn. Độ chính xác cao.</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="tab-panel" id="l3">
+      <div class="card flat" style="max-width:520px;margin:0">
+        <h3>Bilirubin — chuyển đổi nhanh</h3>
+        <p class="small">1 mg/dL = 17,1 µmol/L &nbsp;·&nbsp; 1 µmol/L = 0,0585 mg/dL</p>
+        <div class="ctrl" style="margin:12px 0">
+          <label for="convIn">Nhập giá trị</label>
+          <input type="number" id="convIn" value="15" step="0.1" min="0">
+        </div>
+        <div class="seg" id="convSeg" style="margin-bottom:14px">
+          <button class="active" data-u="mg">mg/dL → µmol/L</button>
+          <button data-u="um">µmol/L → mg/dL</button>
+        </div>
+        <div class="result" style="margin-top:0">
+          <div class="rh">Kết quả</div>
+          <div class="rv" id="convOut">256,5 µmol/L</div>
+        </div>
+        <div class="tw" style="margin-top:14px"><table>
+          <thead><tr><th>mg/dL</th><th>µmol/L</th><th>Mốc lâm sàng</th></tr></thead>
+          <tbody>
+            <tr><td class="mono">1,0</td><td class="mono">17,1</td><td>Ngưỡng <b>DB bất thường</b> → ứ mật</td></tr>
+            <tr><td class="mono">5,0</td><td class="mono">85,5</td><td>Vàng da bắt đầu thấy được (~5 mg/dL)</td></tr>
+            <tr><td class="mono">12,9</td><td class="mono">220</td><td>Đỉnh vàng da sinh lý (trẻ đủ tháng)</td></tr>
+            <tr><td class="mono">15,0</td><td class="mono">257</td><td>Mốc thường phải xác nhận TcB bằng TSB</td></tr>
+            <tr><td class="mono">20,0</td><td class="mono">342</td><td>Nguy cơ nhiễm độc thần kinh tăng rõ</td></tr>
+            <tr><td class="mono">25,0</td><td class="mono">428</td><td>Kernicterus cấp — cấp cứu</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 06 NGƯỠNG ============ -->
+<section id="nguong">
+  <div class="sec-head">
+    <div class="sec-num">06</div>
+    <div><div class="sec-eyebrow">Decision support</div><h2>Đánh giá nguy cơ &amp; ngưỡng điều trị</h2></div>
+  </div>
+
+  <div class="card">
+    <h3>📋 Hai loại "yếu tố nguy cơ" — đừng nhầm lẫn (AAP 2022)</h3>
+    <div class="cmp">
+      <div class="cmp-col">
+        <div class="cmp-h a">① Yếu tố nguy cơ TĂNG BILIRUBIN</div>
+        <div class="cmp-row"><span class="cr-l">Ý nghĩa</span><p>Dự đoán trẻ <b>sẽ</b> bị tăng bilirubin nặng → quyết định <b>tần suất theo dõi</b> và thời điểm tái khám sau xuất viện.</p></div>
+        <div class="cmp-row"><span class="cr-l">Danh sách</span>
+          <ul class="clean" style="margin-top:4px">
+            <li>TSB/TcB ở <b>vùng nguy cơ cao</b> trên nomogram theo giờ tuổi</li>
+            <li>Tuổi thai <b>35–37 6/7 tuần</b></li>
+            <li>Đã chiếu đèn trước xuất viện</li>
+            <li>Anh/chị/em ruột từng phải chiếu đèn</li>
+            <li><b>Bướu huyết thanh</b> hoặc bầm tím rộng</li>
+            <li><b>Bú mẹ hoàn toàn</b>, đặc biệt bú kém / sụt cân nhiều</li>
+            <li>Mẹ tuổi ≥ 25 · giới nam · chủng tộc Đông Á/Địa Trung Hải</li>
+            <li>Chậm thải phân su, bệnh lý nội tiết/chuyển hóa</li>
+          </ul>
+        </div>
+      </div>
+      <div class="cmp-col">
+        <div class="cmp-h b">② Yếu tố nguy cơ ĐỘC THẦN KINH</div>
+        <div class="cmp-row"><span class="cr-l">Ý nghĩa</span><p>Làm <b>hạ thấp ngưỡng</b> chiếu đèn và thay máu vì não dễ bị tổn thương hơn ở cùng một nồng độ bilirubin.</p></div>
+        <div class="cmp-row"><span class="cr-l">Danh sách (AAP 2022)</span>
+          <ul class="clean teal" style="margin-top:4px">
+            <li><b>Albumin huyết thanh &lt; 3,0 g/dL</b></li>
+            <li><b>Bệnh tan máu miễn dịch</b> (đồng miễn dịch — DAT dương tính)</li>
+            <li><b>Thiếu G6PD</b></li>
+            <li><b>Các bệnh tan máu khác</b> (hồng cầu hình cầu, thiếu pyruvate kinase, thalassemia…)</li>
+            <li><b>Nhiễm trùng huyết</b></li>
+            <li><b>Bệnh cảnh lâm sàng không ổn định</b> trong 24 giờ trước (ngạt, toan, hạ thân nhiệt, tụt huyết áp, thở máy…)</li>
+          </ul>
+          <p class="small" style="margin-top:8px">Non tháng được tính bằng <b>đường cong ngưỡng riêng theo tuổi thai</b>, không cộng vào danh sách này.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>🧮 Công cụ tính ngưỡng — AAP 2022 &amp; nomogram Bhutani</h3>
+    <p class="small">Áp dụng cho trẻ <b>≥ 35 tuần</b>. Trẻ &lt;35 tuần cần ngưỡng cá thể hóa tại NICU.</p>
+    <div class="grid g4" style="margin:14px 0">
+      <div class="ctrl"><label for="inGA">Tuổi thai (tuần)</label><input type="number" id="inGA" value="39" min="35" max="42" step="0.5"></div>
+      <div class="ctrl"><label for="inAge">Tuổi sau sinh (giờ)</label><input type="number" id="inAge" value="48" min="6" max="336" step="1"></div>
+      <div class="ctrl"><label for="inBili">TSB (mg/dL)</label><input type="number" id="inBili" value="16.5" min="0" max="40" step="0.1"></div>
+      <div class="ctrl"><label for="inRisk">Yếu tố nguy cơ độc thần kinh</label>
+        <select id="inRisk">
+          <option value="none">Không có</option>
+          <option value="any">Có ≥ 1 yếu tố</option>
+        </select>
+      </div>
+    </div>
+    <div class="ctrl" style="margin-bottom:16px">
+      <label>Tuổi sau sinh (kéo thanh — <span id="ageLbl" class="mono">48 giờ</span>)</label>
+      <input type="range" id="ageRange" min="6" max="336" step="1" value="48">
+    </div>
+
+    <div class="tabs" style="margin-bottom:12px">
+      <button class="tab-btn active" data-chart="aap">Biểu đồ ngưỡng AAP 2022</button>
+      <button class="tab-btn" data-chart="bhutani">Nomogram Bhutani (phân tầng nguy cơ)</button>
+    </div>
+
+    <div class="chart-box"><div id="chartHost"></div></div>
+    <div class="legend" id="chartLegend"></div>
+
+    <div id="threshOut"></div>
+
+    <div class="callout co-blue" style="margin-top:14px">
+      <div class="ct">📌 Nguồn &amp; giới hạn</div>
+      <p>Giá trị ngưỡng nội suy từ các bảng/đồ thị của <b>AAP 2022</b> (Pediatrics 2022;150(3):e2022058859) và nomogram <b>Bhutani</b> theo giờ tuổi. Đây là <b>công cụ học tập</b>, không thay thế biểu đồ chính thức và phán đoán lâm sàng. <b>Ngưỡng leo thang chăm sóc = ngưỡng thay máu − 2 mg/dL.</b></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 07 ĐIỀU TRỊ GIÁN TIẾP ============ -->
+<section id="dieu-tri-gt">
+  <div class="sec-head">
+    <div class="sec-num">07</div>
+    <div><div class="sec-eyebrow">Management</div><h2>Điều trị tăng bilirubin gián tiếp</h2></div>
+  </div>
+
+  <div class="card">
+    <h3>💡 Liệu pháp chiếu đèn (phototherapy)</h3>
+    <div class="grid g2">
+      <div>
+        <h4>Cơ chế</h4>
+        <ul class="clean">
+          <li>Ánh sáng <b>xanh dương 430–490 nm</b> xuyên da, hấp thu bởi bilirubin ở lớp hạ bì.</li>
+          <li><b>Quang đồng phân hóa cấu hình</b> (photoisomerization): bilirubin 4Z,15Z → 4Z,15E và 4E,15Z — tan trong nước, đào thải qua mật không cần liên hợp.</li>
+          <li><b>Quang oxy hóa</b>: tạo sản phẩm phân cực nhỏ.</li>
+          <li>Quan trọng nhất: tạo <b>LUMIRUBIN</b> (đồng phân cấu trúc) — đào thải nhanh qua mật và nước tiểu, <b>không đảo ngược</b>.</li>
+        </ul>
+        <h4>Kỹ thuật chiếu đèn TÍCH CỰC</h4>
+        <ul class="clean">
+          <li>Cường độ <b>≥ 30 µW/cm²/nm</b> tại bước sóng 430–490 nm.</li>
+          <li>Diện tích da tiếp xúc <b>tối đa</b>: chỉ mặc tã, có thể đặt thêm tấm chiếu đèn dưới lưng.</li>
+          <li>Khoảng cách nguồn–da <b>10–30 cm</b> (đèn LED/halogen) theo hướng dẫn nhà sản xuất.</li>
+          <li><b>Che mắt</b> bằng kính chuyên dụng, đảm bảo không che mũi gây ngạt.</li>
+          <li>Không bôi kem/dầu lên da; thay tã thường xuyên.</li>
+          <li>Đo <b>độ rọi thực tế</b> bằng radiometer định kỳ.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Theo dõi</h4>
+        <ul class="clean">
+          <li>TSB <b>4–6 giờ</b> sau bắt đầu chiếu đèn tích cực; sau đó mỗi 12–24 giờ nếu ổn định.</li>
+          <li>Đánh giá tốc độ giảm: kỳ vọng <b>0,5–1 mg/dL/giờ</b> trong 4–8 giờ đầu; nếu giảm &lt; 0,5 mg/dL/giờ → xem lại kỹ thuật, nghĩ đến tan máu nặng hoặc bệnh lý khác.</li>
+          <li>Cân nặng, lượng dịch vào–ra: tăng mất nước không cảm nhận <b>10–20%</b> → bù dịch.</li>
+          <li>Thân nhiệt (nguy cơ quá nhiệt với đèn halogen), nhịp tim, oxy hóa.</li>
+          <li><b>Tắt đèn khi đo TSB</b>; không dùng TcB trong và 24 giờ sau chiếu đèn.</li>
+        </ul>
+        <h4>Tác dụng phụ</h4>
+        <ul class="clean red">
+          <li>Mất nước, tăng natri máu, giảm cân.</li>
+          <li>Tiêu chảy, phân xanh lỏng.</li>
+          <li>Quá nhiệt / hạ thân nhiệt.</li>
+          <li>Ban da, "bronze baby syndrome" (khi có ứ mật kèm theo).</li>
+          <li>Giảm canxi máu (tranh cãi), ức chế tinh hoàn (chuột — chưa rõ ở người).</li>
+          <li>Tách mẹ–con, giảm bú mẹ → khuyến khích <b>bú mẹ trong lúc chiếu đèn</b> khi có thể.</li>
+        </ul>
+        <div class="callout co-green" style="margin-top:10px">
+          <div class="ct">✅ Ngưng chiếu đèn</div>
+          <p>Khi TSB giảm <b>≥ 2–3 mg/dL dưới ngưỡng</b> theo tuổi giờ (một số khuyến cáo: &gt;30 µmol/L dưới ngưỡng với trẻ ≥38 tuần, &gt;60 µmol/L với trẻ 35–37 6/7 tuần). <b>Đo lại TSB 12–24 giờ</b> sau ngưng nếu trẻ có nguy cơ tái tăng (tan máu, non tháng, đã thay máu).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>🩸 Thay máu (exchange transfusion)</h3>
+    <div class="grid g2">
+      <div>
+        <h4>Chỉ định (AAP 2022)</h4>
+        <ul class="clean red">
+          <li>TSB <b>≥ ngưỡng thay máu</b> theo tuổi giờ và tuổi thai.</li>
+          <li>TSB tăng nhanh <b>dù đã chiếu đèn tích cực</b> và đã vượt ngưỡng leo thang chăm sóc.</li>
+          <li>Có <b>dấu hiệu bệnh não bilirubin cấp</b> (ưỡn cong, khóc thét, li bì, giảm trương lực, sốt) — thay máu <b>không chờ</b> kết quả xét nghiệm.</li>
+        </ul>
+        <h4>Kỹ thuật</h4>
+        <ul class="clean">
+          <li><b>Thay máu kép</b> (double-volume): <b>2 × 80 mL/kg = 160 mL/kg</b>, thực hiện trong <b>1–2 giờ</b> qua catheter tĩnh mạch rốn.</li>
+          <li>Loại bỏ ≈ <b>85–90%</b> bilirubin trong tuần hoàn, ≈ 2 lần thể tích hồng cầu, và loại kháng thể tự do.</li>
+          <li>Máu: <b>nhóm O, Rh âm</b> (hoặc tương hợp với mẹ và con), <b>&lt; 7 ngày</b> lưu trữ, <b>chiếu xạ</b>, CMV âm/đã lọc bạch cầu, Hct 50–60%, sưởi ấm, kháng đông citrat–phosphat–dextrose.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Chuẩn bị &amp; theo dõi</h4>
+        <ul class="clean">
+          <li>Ngưng nuôi ăn 4 giờ trước; đặt thông dạ dày decompress.</li>
+          <li>Monitor liên tục: nhịp tim, SpO₂, huyết áp, thân nhiệt.</li>
+          <li>Canxi gluconat 10% <b>0,5 mL/kg</b> sau mỗi 100 mL máu trao đổi (ngừa hạ canxi do citrat).</li>
+          <li>Theo dõi đường huyết, kali, khí máu, tiểu cầu, INR trước–trong–sau.</li>
+          <li>Duy trì <b>chiếu đèn tích cực trong và sau</b> thay máu (bilirubin tái phân bố từ mô).</li>
+          <li>Đo TSB mỗi 4–6 giờ sau thay máu để phát hiện <b>hiện tượng hồi phục (rebound)</b>.</li>
+        </ul>
+        <h4>Biến chứng</h4>
+        <ul class="clean red">
+          <li>Nhiễm trùng huyết, viêm ruột hoại tử (NEC).</li>
+          <li>Rối loạn nhịp, ngừng tim (do tăng kali, hạ canxi, quá lạnh, thuyên khí).</li>
+          <li>Giảm tiểu cầu, rối loạn đông máu, quá tải thể tích.</li>
+          <li>Hạ đường huyết, tăng đường huyết, rối loạn điện giải.</li>
+          <li>Huyết khối tĩnh mạch cửa, thủng ruột.</li>
+          <li>Tử vong ≈ <b>0,4–1%</b>; bệnh nặng ≈ 5%.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>💧 Điều trị hỗ trợ &amp; dược lý khác</h3>
+    <div class="grid g3">
+      <div>
+        <h4>Bù dịch &amp; dinh dưỡng</h4>
+        <ul class="clean">
+          <li>Tăng lượng bú <b>8–12 lần/ngày</b>; ưu tiên sữa mẹ.</li>
+          <li>Bù dịch tĩnh mạch (NaCl 0,9% hoặc Dextrose 5% + điện giải) khi mất nước, sút cân &gt;10%, hoặc TSB tăng nhanh.</li>
+          <li>Tránh <b>nước lọc, nước đường</b> — không làm giảm bilirubin, gây hạ natri.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>IVIG (immunoglobulin tĩnh mạch)</h4>
+        <ul class="clean">
+          <li><b>0,5–1 g/kg</b> truyền 2 giờ, có thể lặp lại sau 12 giờ.</li>
+          <li>Chỉ dành cho <b>bệnh tan máu đồng miễn dịch</b> (ABO/Rh) khi TSB vượt ngưỡng leo thang chăm sóc và vẫn tăng dù chiếu đèn tích cực.</li>
+          <li>AAP 2022: lợi ích chưa rõ ràng, <b>liên quan NEC</b> → cân nhắc kỹ, không dùng thường quy.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Khác</h4>
+        <ul class="clean">
+          <li><b>Phenobarbital</b> 5–10 mg/kg/ngày: cảm ứng UGT1A1 — dùng trong Crigler–Najjar type II, chẩn đoán phân biệt; khởi phát chậm (2–3 ngày).</li>
+          <li><b>Tin-mesoporphyrin</b> (SnMP): ức chế heme oxygenase — còn nghiên cứu.</li>
+          <li>Điều trị nguyên nhân: kháng sinh (nhiễm trùng), levothyroxine (suy giáp), ngoại khoa (hẹp môn vị, tắc ruột).</li>
+          <li>Clofibrate, men vi sinh — bằng chứng hạn chế.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 08 KERNICTERUS ============ -->
+<section id="kernicterus">
+  <div class="sec-head">
+    <div class="sec-num">08</div>
+    <div><div class="sec-eyebrow">Complication</div><h2>Bệnh não bilirubin &amp; Kernicterus</h2></div>
+  </div>
+
+  <div class="grid g2">
+    <div class="card">
+      <h3>🧠 Cơ chế tổn thương</h3>
+      <ul class="clean red">
+        <li>Chỉ <b>bilirubin TỰ DO không gắn albumin</b> (unbound) mới qua được hàng rào máu não.</li>
+        <li>Yếu tố tăng nguy cơ: TSB cao, <b>albumin thấp</b>, toan máu, ngạt, nhiễm trùng, tăng thẩm thấu hàng rào máu não, thuốc cạnh tranh gắn albumin (sulfamid, ceftriaxone).</li>
+        <li>Bilirubin ức chế <b>chuỗi hô hấp ty thể</b>, phosphoril hóa oxy hóa, dẫn truyền synap (glutamate), và gây apoptosis tế bào thần kinh.</li>
+        <li>Vùng nhạy cảm: <b>globus pallidus</b>, nhân dưới đồi (subthalamic nucleus), hồi hải mã, nhân răng tiểu não, nhân dây III–VIII, nhân vận nhãn.</li>
+        <li><b>Kernicterus</b> = thuật ngữ giải phẫu bệnh (nhuộm vàng nhân xám đáy); <b>BIND</b> (bilirubin-induced neurological dysfunction) = phổ lâm sàng.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>🎬 Bệnh não bilirubin CẤP — 3 giai đoạn</h3>
+      <div class="tl">
+        <div class="tl-item">
+          <span class="phase-t">Giai đoạn 1 · Ngày 1–2 (sớm)</span>
+          <h4>Li bì · Giảm trương lực · Bú kém</h4>
+          <p>Khóc thét (high-pitched cry), ngủ gà, bú yếu hoặc bỏ bú, giảm phản xạ Moro, <b>tăng trương lực thoáng qua</b>. Khó phân biệt với nhiễm trùng huyết hoặc bệnh não do ngạt.</p>
+        </div>
+        <div class="tl-item">
+          <span class="phase-t">Giai đoạn 2 · Giữa tuần 1</span>
+          <h4>Sốt · Tăng trương lực · Co giật</h4>
+          <p><b>Co cứng duỗi</b>, <b>ưỡn cổ (retrocollis)</b> và <b>ưỡn cong thân (opisthotonos)</b>, li bì sâu hoặc kích thích, khóc thét liên tục, bỏ bú hoàn toàn, có thể tử vong. Giai đoạn <b>nguy kịch — thay máu ngay</b>.</p>
+        </div>
+        <div class="tl-item">
+          <span class="phase-t">Giai đoạn 3 · Sau tuần 1</span>
+          <h4>Giảm trương lực trở lại</h4>
+          <p>Trẻ "có vẻ khá hơn": giảm co cứng, bú lại được. <b>Dễ nhầm là hồi phục</b> — thực chất tổn thương đã thiết lập.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>🩻 Kernicterus MẠN — bộ tứ kinh điển</h3>
+    <div class="grid g4">
+      <div class="stat"><div class="sv2" style="font-size:20px;color:var(--red)">Bại não<br>thể múa vờn</div><div class="sl2">Rối loạn vận động ngoại tháp: múa vờn (athetoid), loạn trương lực, co cứng. Chậm mốc vận động nặng nhưng trí tuệ có thể tương đối bảo tồn.</div></div>
+      <div class="stat"><div class="sv2" style="font-size:20px;color:var(--red)">Mất thính lực</div><div class="sl2">Bệnh lý thần kinh thính giác / điếc tiếp nhận tần số cao, hai bên. Có thể cần ốc tai điện tử. ABR bất thường sớm.</div></div>
+      <div class="stat"><div class="sv2" style="font-size:20px;color:var(--red)">Liệt<br>nhìn lên</div><div class="sl2">Rối loạn vận nhãn, đặc biệt <b>liệt nhìn lên</b> (upward gaze palsy), dấu "setting sun".</div></div>
+      <div class="stat"><div class="sv2" style="font-size:20px;color:var(--red)">Thiểu sản<br>men răng</div><div class="sl2">Răng sữa bị <b>nhuộm vàng–xanh</b>, thiểu sản men răng ở răng cửa sữa.</div></div>
+    </div>
+    <div class="callout co-red" style="margin-top:14px">
+      <div class="ct">🔍 Hình ảnh học</div>
+      <p><b>MRI</b>: tăng tín hiệu đối xứng trên T2/FLAIR ở <b>globus pallidus</b> và <b>nhân dưới đồi</b> (giai đoạn cấp có thể thấy trên DWI/T1). <b>ABR/ASSR</b>: tăng ngưỡng, kéo dài thời gian tiềm các sóng III–V, hoặc mất sóng — bất thường <b>sớm nhất</b> và có thể phục hồi một phần nếu can thiệp kịp.</p>
+    </div>
+    <div class="callout co-amber">
+      <div class="ct">💎 Kernicterus là biến chứng CÓ THỂ PHÒNG NGỪA</div>
+      <p>Hầu hết các ca kernicterus hiện đại xảy ra do: <b>xuất viện quá sớm</b> (&lt;48 giờ) mà không đo bilirubin trước xuất viện, <b>không theo dõi lại</b> trong 1–2 ngày sau xuất viện, <b>đánh giá vàng da bằng mắt</b>, bỏ sót yếu tố nguy cơ (G6PD, bất đồng nhóm máu), và <b>chậm trễ</b> trong chẩn đoán. Đây là một trong những "sentinel events" của an toàn người bệnh.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 09 NGUYÊN NHÂN Ứ MẬT ============ -->
+<section id="nguyen-nhan-tt">
+  <div class="sec-head t">
+    <div class="sec-num">09</div>
+    <div><div class="sec-eyebrow">Neonatal cholestasis</div><h2>Vàng da ứ mật — nguyên nhân</h2></div>
+  </div>
+
+  <div class="card">
+    <h3>📖 Định nghĩa</h3>
+    <p><b>Ứ mật sơ sinh (neonatal cholestasis)</b> = tăng <b>bilirubin liên hợp (trực tiếp)</b> do giảm hình thành mật hoặc tắc nghẽn dòng mật, xuất hiện trong <b>28 ngày đầu đời</b> (có thể mở rộng tới 90 ngày ở trẻ non tháng).</p>
+    <div class="grid g2" style="margin-top:12px">
+      <div class="callout co-teal">
+        <div class="ct">Tiêu chuẩn (NASPGHAN)</div>
+        <p><b>DB ≥ 1,0 mg/dL (17,1 µmol/L)</b> ở bất kỳ thời điểm nào — <b>luôn bất thường</b>.<br>
+        Nếu <b>TSB &gt; 5 mg/dL</b>: <b>DB/TSB &gt; 20%</b> cũng xác định ứ mật.<br>
+        <span class="small">Trước đây dùng ngưỡng DB &gt;2 mg/dL hoặc &gt;20% — nay đã hạ thấp để không bỏ sót teo đường mật.</span></p>
+      </div>
+      <div class="callout co-red">
+        <div class="ct">Không bao giờ "chờ xem"</div>
+        <p>Ứ mật <b>không</b> phải là vàng da sinh lý kéo dài. Mọi trẻ vàng da &gt; 2 tuần (đủ tháng) phải được <b>đo bilirubin trực tiếp</b>. Chậm chẩn đoán teo đường mật là lỗi không thể sửa.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>🗂️ Phân loại nguyên nhân</h3>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="ch1">Ngoài gan (tắc nghẽn)</button>
+      <button class="tab-btn" data-tab="ch2">Trong gan — nhiễm trùng</button>
+      <button class="tab-btn" data-tab="ch3">Trong gan — chuyển hóa / di truyền</button>
+      <button class="tab-btn" data-tab="ch4">Trong gan — vận chuyển mật &amp; khác</button>
+    </div>
+
+    <div class="tab-panel active" id="ch1">
+      <div class="tw"><table class="tbl-t">
+        <thead><tr><th style="width:26%">Nguyên nhân</th><th style="width:14%">Tỉ lệ</th><th>Đặc điểm nhận diện</th></tr></thead>
+        <tbody>
+          <tr><td><b>Teo đường mật (Biliary atresia)</b></td><td><b>35–40%</b><br><span class="tag t-red">CẤP CỨU</span></td><td>Viêm xơ hóa tiến triển, xơ cứng và <b>thoái hóa toàn bộ cây đường mật ngoài gan</b>. Vàng da ứ mật + <b>phân bạc màu</b> + <b>GGT ↑↑</b> + gan chắc. Xem mục 11.</td></tr>
+          <tr><td><b>Nang ống mật chủ</b> (choledochal cyst)</td><td>5–10%</td><td>Siêu âm thấy nang giãn ở rốn gan; có thể sờ thấy khối. Đau bụng từng cơn, vàng da dao động. Điều trị: cắt nang + nối mật–ruột (Roux-en-Y). Nguy cơ ung thư đường mật về sau nếu không cắt.</td></tr>
+          <tr><td><b>Hội chứng mật đặc (inspissated bile)</b></td><td>&lt;5%</td><td>Sau tan máu nặng, sau nuôi ăn tĩnh mạch, sau tắc ruột. Thường tự cải thiện; UDCA, rửa đường mật.</td></tr>
+          <tr><td><b>Thủng ống mật chủ tự phát</b></td><td>Hiếm</td><td>Tràn dịch mật ổ bụng, bụng chướng tiến triển, vàng da. Siêu âm: dịch tự do; chọc dò: dịch mật. Phẫu thuật dẫn lưu.</td></tr>
+          <tr><td><b>Sỏi mật / bùn mật</b></td><td>Hiếm</td><td>Liên quan nuôi ăn tĩnh mạch kéo dài, ceftriaxone, bệnh tan máu mạn, hội chứng ruột ngắn.</td></tr>
+          <tr><td><b>Chèn ép ngoài đường mật</b></td><td>Rất hiếm</td><td>U (neuroblastoma, teratoma), nang tá tràng, tụy nhẫn, hạch to.</td></tr>
+          <tr><td><b>Dị tật đường mật khác</b></td><td>Hiếm</td><td>Thiểu sản đường mật, nang OMC type V (bệnh Caroli), bất thường hợp lưu mật–tụy.</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="tab-panel" id="ch2">
+      <div class="tw"><table class="tbl-t">
+        <thead><tr><th style="width:24%">Tác nhân</th><th style="width:28%">Chẩn đoán</th><th>Đặc điểm gợi ý</th></tr></thead>
+        <tbody>
+          <tr><td><b>CMV bẩm sinh</b><br><span class="tag t-red">Hay gặp nhất</span></td><td><b>PCR CMV nước tiểu hoặc nước bọt</b> trong <b>3 tuần đầu đời</b> (sau đó không phân biệt được bẩm sinh vs mắc phải)</td><td>Viêm gan sơ sinh, <b>vi vôi hóa quanh não thất</b>, đầu nhỏ, giảm tiểu cầu, ban "blueberry muffin", điếc tiếp nhận tiến triển. Điều trị: <b>valganciclovir</b> (cân nhắc khi có bệnh gan/thần kinh).</td></tr>
+          <tr><td><b>Nhiễm trùng huyết / nhiễm trùng tiểu</b></td><td>Cấy máu, cấy nước tiểu (chọc hút trên xương mu hoặc thông tiểu)</td><td>Vàng da có thể là dấu hiệu đầu tiên; thường phối hợp ↑ cả hai loại bilirubin. E. coli UTI ở sơ sinh hay gây ứ mật.</td></tr>
+          <tr><td><b>Toxoplasma</b></td><td>IgM/IgA, PCR dịch não tủy</td><td><b>Vi vôi hóa nội sọ lan tỏa</b>, viêm màng mạch–võng mạc, não úng thủy.</td></tr>
+          <tr><td><b>Rubella bẩm sinh</b></td><td>IgM, PCR họng/nước tiểu</td><td>Đục thủy tinh thể, <b>bệnh tim (còn ống động mạch, hẹp ĐMP)</b>, điếc, đầu nhỏ, ban xanh.</td></tr>
+          <tr><td><b>HSV</b></td><td>PCR máu/CSF/tổn thương</td><td>Sốt, co giật, sốc, AST/ALT ↑↑ (viêm gan tối cấp), tổn thương da dạng bóng nước. <b>Acyclovir ngay</b> khi nghi ngờ.</td></tr>
+          <tr><td><b>Giang mai bẩm sinh</b></td><td>VDRL/RPR mẹ &amp; con, FTA-ABS, X-quang xương dài</td><td>Viêm gan, ban lòng bàn tay–bàn chân, viêm màng xương, snuffles, thiếu máu, giảm tiểu cầu. Penicillin G 10 ngày.</td></tr>
+          <tr><td><b>Parvovirus B19</b></td><td>PCR, IgM</td><td>Phù thai nhi, thiếu máu nặng không tan máu (bất sản hồng cầu).</td></tr>
+          <tr><td><b>Lao bẩm sinh, virus khác</b> (echo, coxsackie, adenovirus, VZV, HBV/HCV)</td><td>Theo bệnh cảnh</td><td>Hiếm.</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="tab-panel" id="ch3">
+      <div class="tw"><table class="tbl-t">
+        <thead><tr><th style="width:24%">Bệnh</th><th style="width:24%">Xét nghiệm xác định</th><th>Gợi ý lâm sàng &amp; điều trị</th></tr></thead>
+        <tbody>
+          <tr><td><b>Thiếu α1-antitrypsin</b><br><span class="tag t-teal">Hay gặp</span></td><td>Nồng độ α1AT + <b>kiểu hình (phenotyping) Pi</b> — lưu ý α1AT là protein pha cấp, có thể giả bình thường khi viêm</td><td>Ứ mật + <b>GGT ↑</b>. Có thể tự cải thiện nhưng tiến triển xơ gan ở một số trẻ. Tránh khói thuốc; ghép gan khi xơ gan mất bù.</td></tr>
+          <tr><td><b>Galactosemia</b><br><span class="tag t-red">CẤP CỨU</span></td><td>Hoạt tính <b>GALT</b> hồng cầu; <b>chất khử niệu (+)</b> (Clinitest) với glucose niệu âm tính</td><td>Sau khi uống sữa: <b>nôn, bú kém, vàng da ứ mật, gan to, đông máu rối loạn, hạ đường huyết, đục thủy tinh thể</b>, <b>nhiễm trùng huyết E. coli</b>. <b>NGƯNG sữa mẹ/sữa bò ngay</b> → sữa đậu nành/không lactose. Tử vong nếu chậm trễ.</td></tr>
+          <tr><td><b>Tyrosinemia type 1</b></td><td><b>Succinylacetone</b> niệu/máu ↑; tyrosin ↑</td><td>Suy gan cấp, <b>đông máu rối loạn nặng không tương xứng</b>, hạ đường huyết, bệnh thận ống (hội chứng Fanconi), cơn rối loạn chuyển hóa giống porphyria. Điều trị: <b>nitisinone</b> + chế độ ăn hạn chế tyrosin/phenylalanin. Ghép gan nếu không đáp ứng.</td></tr>
+          <tr><td><b>Rối loạn tổng hợp acid mật</b></td><td>Phân tích acid mật niệu (FAB-MS), gen</td><td><b>GGT bình thường/thấp</b> dù ứ mật nặng. Điều trị đặc hiệu bằng <b>acid cholic / chenodeoxycholic</b> — đáp ứng rất tốt.</td></tr>
+          <tr><td><b>Rối loạn oxy hóa acid béo, bệnh ty thể</b></td><td>Acylcarnitin profile, lactat, gen</td><td>Hạ đường huyết giảm ketone, bệnh cơ tim, yếu cơ, gan to.</td></tr>
+          <tr><td><b>Bệnh tích trữ glycogen type IV</b>, <b>Niemann–Pick C</b>, <b>Gaucher</b>, <b>Wolman</b></td><td>Enzym, gen, sinh thiết</td><td>Gan lách to, ứ mật, suy dinh dưỡng, biểu hiện thần kinh tiến triển.</td></tr>
+          <tr><td><b>Rối loạn glycosyl hóa bẩm sinh (CDG)</b></td><td>Isoelectric focusing transferrin</td><td>Đa cơ quan: gan, thần kinh, mỡ dưới da bất thường, núm vú đảo ngược.</td></tr>
+          <tr><td><b>Rối loạn peroxisome</b>: Zellweger, loạn dưỡng thượng thận–chất trắng sơ sinh</td><td>Acid béo chuỗi rất dài (VLCFA), phytanic acid, gen</td><td>Giảm trương lực nặng, co giật, <b>mặt đặc trưng</b>, thóp trước rộng, stippled epiphyses, nang thận.</td></tr>
+          <tr><td><b>Hội chứng Smith–Lemli–Opitz</b></td><td>7-dehydrocholesterol ↑</td><td>Dị tật đa cơ quan, dính ngón 2–3 bàn chân, bộ mặt đặc trưng.</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="tab-panel" id="ch4">
+      <div class="tw"><table class="tbl-t">
+        <thead><tr><th style="width:24%">Bệnh</th><th style="width:18%">Gen</th><th style="width:16%">GGT</th><th>Đặc điểm</th></tr></thead>
+        <tbody>
+          <tr><td><b>Hội chứng Alagille</b></td><td><i>JAG1</i> (~94%)<br><i>NOTCH2</i></td><td><b>↑↑ Cao</b></td><td><b>Thiểu sản đường mật trong gan</b>. Tiêu chuẩn: ≥3/5 tiêu chí — ① bất thường gan (ứ mật), ② <b>tim</b> (hẹp động mạch phổi ngoại biên, tứ chứng Fallot), ③ <b>cột sống</b> (đốt sống hình cánh bướm), ④ <b>mắt</b> (bất thường Axenfeld–Rieger, embryotoxon sau), ⑤ <b>bộ mặt đặc trưng</b> (trán dô, mắt sâu, cằm nhọn, mũi thẳng — "tam giác ngược"). Ngứa nặng, chậm lớn. Điều trị: <b>maralixibat</b> (ức chế IBAT) giảm ngứa.</td></tr>
+          <tr><td><b>PFIC1 (Byler)</b></td><td><i>ATP8B1</i></td><td><b>Bình thường / thấp</b></td><td>Ứ mật nặng, <b>ngứa dữ dội</b>, tiêu chảy, viêm tụy, điếc, gan nhiễm mỡ. Nồng độ acid mật huyết thanh cao nhưng GGT thấp — nghịch lý kinh điển.</td></tr>
+          <tr><td><b>PFIC2</b></td><td><i>ABCB11</i> (BSEP)</td><td><b>Bình thường / thấp</b></td><td>Nặng hơn PFIC1, tiến triển xơ gan sớm, <b>nguy cơ cao ung thư tế bào gan và u nguyên bào gan</b> — cần theo dõi AFP + siêu âm mỗi 3–6 tháng.</td></tr>
+          <tr><td><b>PFIC3</b></td><td><i>ABCB4</i> (MDR3)</td><td><b>↑ Cao</b></td><td>Khởi phát muộn hơn (vài tháng–vài tuổi), xơ gan mật. Có thể đáp ứng <b>UDCA</b>.</td></tr>
+          <tr><td><b>PFIC4, 5, 6</b></td><td><i>TJP2, NR1H4, MYO5B</i></td><td>Thấp/bình thường</td><td>Mới được mô tả gần đây; MYO5B gây bệnh vi nhung mao.</td></tr>
+          <tr><td><b>BRIC</b> (ứ mật tái phát lành tính)</td><td><i>ATP8B1, ABCB11</i></td><td>Bình thường/thấp</td><td>Cùng gen với PFIC nhưng thể nhẹ, từng đợt, không tiến triển xơ gan.</td></tr>
+          <tr><td><b>Suy giáp / Suy tuyến yên bẩm sinh</b></td><td>—</td><td>Thay đổi</td><td>Suy tuyến yên: <b>ứ mật + hạ đường huyết + dương vật nhỏ + bất thường đường giữa</b> (vắng vách trong suốt). MRI tuyến yên. Thay thế hormon.</td></tr>
+          <tr><td><b>Ứ mật do nuôi ăn tĩnh mạch (PNAC / IFALD)</b></td><td>—</td><td>↑</td><td>Sau &gt;2 tuần TPN, trẻ non tháng, <b>hội chứng ruột ngắn</b>, không có nuôi ăn đường ruột. Phòng: nuôi ăn tối thiểu qua đường tiêu hóa sớm, giảm lipid đậu nành, dùng <b>SMOFlipid</b>, chu kỳ TPN, phòng nhiễm trùng.</td></tr>
+          <tr><td><b>Viêm gan sơ sinh vô căn</b></td><td>—</td><td>Thay đổi</td><td>Chẩn đoán loại trừ; ~20% trường hợp ứ mật. Có thể kèm xơ hóa cầu nhẹ.</td></tr>
+          <tr><td><b>Thuốc / độc chất</b></td><td>—</td><td>Thay đổi</td><td>Rất hiếm ở sơ sinh.</td></tr>
+        </tbody>
+      </table></div>
+      <div class="callout co-teal">
+        <div class="ct">🔑 Chìa khóa: GGT giúp phân nhóm nhanh</div>
+        <p><b>GGT cao</b> → teo đường mật, nang OMC, Alagille, PFIC3, α1AT, ứ mật do TPN.<br>
+        <b>GGT bình thường/thấp</b> → PFIC1, PFIC2, BRIC, rối loạn tổng hợp acid mật, suy giáp/suy tuyến yên.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10 CHẨN ĐOÁN Ứ MẬT ============ -->
+<section id="chan-doan-tt">
+  <div class="sec-head t">
+    <div class="sec-num">10</div>
+    <div><div class="sec-eyebrow">Diagnostic pathway</div><h2>Tiếp cận chẩn đoán trẻ ứ mật</h2></div>
+  </div>
+
+  <div class="card">
+    <h3>🚻 Bảng màu phân — công cụ sàng lọc quan trọng nhất tại giường</h3>
+    <p class="small">Nhấp vào từng ô màu để đọc ý nghĩa. Khuyến cáo in bảng màu phân và dán trong phòng khám sơ sinh + hướng dẫn cha mẹ chụp ảnh phân mỗi lần thay tã.</p>
+    <div class="stool-grid" id="stoolGrid"></div>
+    <div class="result" id="stoolOut" style="margin-top:14px">
+      <div class="rh">Chọn một ô màu ở trên</div>
+      <div style="font-size:15px;color:var(--ink2)">Phân bạc màu / trắng đất sét là dấu hiệu <b>đặc hiệu nhất</b> của tắc nghẽn đường mật ngoài gan. Tuy nhiên phân có thể <b>vàng từng đợt</b> trong teo đường mật giai đoạn sớm — vì vậy cần quan sát <b>liên tục nhiều ngày</b>, không chỉ một lần.</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>🧭 Quy trình chẩn đoán — nhấp để mở rộng từng bước</h3>
+    <div id="cholestasisFlow">
+      <div class="acc">
+        <button class="acc-h"><span class="tag t-teal">B1</span> Xác định ứ mật<span class="chev">▶</span></button>
+        <div class="acc-b"><div class="acc-b-inner">
+          <p>Đo <b>bilirubin toàn phần + trực tiếp</b> (không chỉ đoán bằng mắt). Chẩn đoán khi <b>DB ≥ 1 mg/dL</b> hoặc <b>DB/TSB ≥ 20%</b>. Lặp lại sau 1–2 tuần nếu nghi ngờ vì DB có thể tăng dần.</p>
+          <p><b>Lưu ý quan trọng:</b> phương pháp diazo đo "bilirubin trực tiếp" thực ra đo cả bilirubin liên hợp <i>và</i> một phần bilirubin tự do → ở trẻ tăng bilirubin gián tiếp rất cao, DB có thể "cao giả" tới 10% TSB. Ngược lại không có tình trạng âm tính giả đáng kể.</p>
+        </div></div>
+      </div>
+      <div class="acc">
+        <button class="acc-h"><span class="tag t-teal">B2</span> Bệnh sử &amp; khám lâm sàng định hướng<span class="chev">▶</span></button>
+        <div class="acc-b"><div class="acc-b-inner">
+          <div class="grid g2">
+            <div>
+              <h4>Hỏi bệnh</h4>
+              <ul class="clean teal">
+                <li>Màu <b>phân</b> và <b>nước tiểu</b> từ khi sinh (có ảnh không?).</li>
+                <li>Tuổi thai, cân nặng sinh, tiền sử nuôi ăn tĩnh mạch.</li>
+                <li>Nhiễm trùng thai kỳ, TORCH, giang mai, HIV mẹ.</li>
+                <li>Tiền sử gia đình: bệnh gan, tử vong sơ sinh, vàng da kéo dài, hôn phối cận huyết.</li>
+                <li>Kết quả <b>sàng lọc sơ sinh</b> (TSH, G6PD, MS/MS).</li>
+                <li>Chế độ ăn: sữa mẹ / công thức — có liên quan <b>galactosemia</b>.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Khám — tìm dấu hiệu đặc trưng</h4>
+              <ul class="clean teal">
+                <li><b>Gan</b>: kích thước, mật độ (chắc = xơ hóa → teo đường mật), bờ, lách to.</li>
+                <li><b>Tim</b>: thổi tâm thu (hẹp ĐMP → Alagille), tứ chứng Fallot.</li>
+                <li><b>Mặt</b>: trán dô, cằm nhọn, mắt sâu (Alagille); dị tật giữa (suy tuyến yên).</li>
+                <li><b>Mắt</b>: đục thủy tinh thể (galactosemia, rubella), viêm màng mạch–võng mạc, embryotoxon sau.</li>
+                <li><b>Da</b>: vết cào do ngứa, ban xuất huyết.</li>
+                <li><b>Bụng</b>: khối (nang OMC), chướng, tuần hoàn bàng hệ, vị trí gan bất thường (situs inversus).</li>
+                <li><b>Thần kinh</b>: trương lực, phản xạ, thóp.</li>
+                <li><b>Bộ phận sinh dục</b>: dương vật nhỏ, tinh hoàn ẩn (suy tuyến yên).</li>
+              </ul>
+            </div>
+          </div>
+        </div></div>
+      </div>
+      <div class="acc">
+        <button class="acc-h"><span class="tag t-teal">B3</span> Xét nghiệm cơ bản đợt đầu (làm đồng thời, không chờ)<span class="chev">▶</span></button>
+        <div class="acc-b"><div class="acc-b-inner">
+          <div class="grid g3">
+            <div>
+              <h4>Chức năng gan</h4>
+              <ul class="clean teal">
+                <li>AST, ALT</li>
+                <li><b>GGT</b>, ALP</li>
+                <li>Albumin</li>
+                <li><b>PT/INR, aPTT</b> (trước &amp; sau vitamin K)</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Chuyển hóa &amp; nhiễm trùng</h4>
+              <ul class="clean teal">
+                <li>Đường huyết, <b>amoniac</b>, lactat, khí máu</li>
+                <li><b>α1-antitrypsin + kiểu hình Pi</b></li>
+                <li>Sàng lọc sơ sinh mở rộng</li>
+                <li>Chất khử niệu, <b>succinylacetone</b></li>
+                <li>Cấy máu, cấy nước tiểu</li>
+                <li><b>CMV PCR</b> nước tiểu/nước bọt (&lt;3 tuần tuổi)</li>
+                <li>TORCH, VDRL/TPHA, HSV PCR nếu chỉ định</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Khác</h4>
+              <ul class="clean teal">
+                <li>TSH, free T4, cortisol (nếu hạ đường huyết)</li>
+                <li>CTM, tiểu cầu, phết máu</li>
+                <li>Vitamin A/D/E, 25-OH-D</li>
+                <li>X-quang xương (còi xương), cột sống (cánh bướm)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="callout co-red">
+            <div class="ct">⚡ Không bao giờ trì hoãn</div>
+            <p>Không cần chờ đủ kết quả mới làm siêu âm. <b>Đồng hồ Kasai đang chạy.</b> Mục tiêu: chẩn đoán teo đường mật <b>trước 45 ngày tuổi</b>.</p>
+          </div>
+        </div></div>
+      </div>
+      <div class="acc">
+        <button class="acc-h"><span class="tag t-teal">B4</span> Siêu âm bụng lúc đói ≥ 4 giờ — hình ảnh đầu tay<span class="chev">▶</span></button>
+        <div class="acc-b"><div class="acc-b-inner">
+          <div class="grid g2">
+            <div>
+              <h4>Dấu hiệu gợi ý TEO ĐƯỜNG MẬT</h4>
+              <ul class="clean red">
+                <li><b>Túi mật nhỏ hoặc không thấy</b>: chiều dài &lt; 1,5–1,9 cm khi đói, thành không đều, <b>không co bóp</b> sau bú.</li>
+                <li><b>Dấu "triangular cord" (TC sign)</b>: dải echo dày dạng tam giác trước ngã ba tĩnh mạch cửa, độ dày <b>&gt; 4 mm</b> — độ đặc hiệu cao (~95%).</li>
+                <li>Nang ở rốn gan (teo đường mật dạng nang).</li>
+                <li>Gan to, tăng echo, bờ không đều; lách to; giãn tĩnh mạch cửa.</li>
+                <li><b>Động mạch gan giãn</b>, đường kính &gt; 1,5 mm.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Dấu hiệu gợi ý NGUYÊN NHÂN KHÁC</h4>
+              <ul class="clean teal">
+                <li><b>Nang ống mật chủ</b>: cấu trúc nang thông với đường mật, thành mỏng.</li>
+                <li>Đường mật trong gan giãn (tắc nghẽn cơ học ở trẻ lớn hơn).</li>
+                <li>Vi vôi hóa nội sọ (TORCH) — làm thêm siêu âm thóp.</li>
+                <li>Bệnh thận nang (Zellweger, ARPKD).</li>
+                <li>Tim: hẹp ĐMP, thông liên thất (Alagille).</li>
+              </ul>
+              <div class="callout co-amber">
+                <div class="ct">⚠️ Siêu âm bình thường KHÔNG loại trừ teo đường mật</div>
+                <p>Độ nhạy của siêu âm chỉ khoảng 60–80% và phụ thuộc nhiều vào kinh nghiệm người làm. Kết quả bình thường vẫn cần tiếp tục đánh giá nếu lâm sàng và sinh hóa nghi ngờ.</p>
+              </div>
+            </div>
+          </div>
+        </div></div>
+      </div>
+      <div class="acc">
+        <button class="acc-h"><span class="tag t-teal">B5</span> Các xét nghiệm hình ảnh &amp; xâm lấn chuyên sâu<span class="chev">▶</span></button>
+        <div class="acc-b"><div class="acc-b-inner">
+          <div class="tw"><table class="tbl-t">
+            <thead><tr><th style="width:26%">Kỹ thuật</th><th style="width:20%">Ưu điểm</th><th>Hạn chế &amp; diễn giải</th></tr></thead>
+            <tbody>
+              <tr><td><b>Xạ hình gan mật (HIDA, 99mTc-mebrofenin)</b></td><td>Đánh giá dòng mật xuống ruột</td><td><b>Độ nhạy cao (~95–100%)</b>, <b>độ đặc hiệu thấp (~70%)</b>. Không thấy phóng xạ xuống ruột sau 24 giờ → gợi ý teo đường mật; nhưng viêm gan nặng cũng có thể không thải. Tiền trị <b>phenobarbital 5 mg/kg/ngày × 3–5 ngày</b> giúp tăng độ đặc hiệu. Bức xạ + chi phí.</td></tr>
+              <tr><td><b>MRCP</b></td><td>Không xâm lấn, thấy cây đường mật</td><td>Khó ở trẻ nhỏ (ống mật &lt;1 mm), thường cần gây mê; độ chính xác thay đổi; không thay thế được chụp đường mật trong mổ.</td></tr>
+              <tr><td><b>Chọc hút tá tràng (TCBD)</b></td><td>Độ chính xác cao nếu lấy đủ dịch</td><td>Cần trung tâm kinh nghiệm; không có mật trong 3 mẫu liên tiếp → gợi ý tắc nghẽn.</td></tr>
+              <tr><td><b>Sinh thiết gan qua da</b></td><td><b>Độ chính xác 90–95%</b> cho teo đường mật</td><td>Teo đường mật: <b>tăng sinh ống mật, nút mật trong lòng ống, cầu xơ khoảng cửa</b>, thâm nhiễm viêm nhẹ. Viêm gan sơ sinh: tế bào khổng lồ, hoại tử từng đám, ít tăng sinh ống mật. Nguy cơ chảy máu — phải纠正 INR trước. Lấy mẫu đủ lớn (≥ 6 khoảng cửa).</td></tr>
+              <tr><td><b>Chụp đường mật trong mổ (IOC)</b><br><span class="tag t-red">TIÊU CHUẨN VÀNG</span></td><td>Xác định chẩn đoán và đánh giá giải phẫu</td><td>Thực hiện khi thám sát ngoại khoa: không thấy thuốc xuống tá tràng + cây đường mật xơ teo → chẩn đoán xác định, tiến hành Kasai ngay trong cùng cuộc mổ.</td></tr>
+            </tbody>
+          </table></div>
+        </div></div>
+      </div>
+      <div class="acc">
+        <button class="acc-h"><span class="tag t-teal">B6</span> Quyết định &amp; chuyển tuyến<span class="chev">▶</span></button>
+        <div class="acc-b"><div class="acc-b-inner">
+          <div class="fc">
+            <div class="fc-node dec">Ứ mật đã xác định + chưa rõ nguyên nhân</div>
+            <div class="fc-arrow"></div>
+            <div class="fc-split">
+              <div>
+                <div class="fc-node urgent">Nghi ngờ TEo đường mật<br><span class="fc-note">Phân bạc màu · GGT ↑↑ · gan chắc · siêu âm gợi ý</span></div>
+                <div class="fc-arrow"></div>
+                <div class="fc-node">Chuyển <b>ngay</b> trung tâm ngoại nhi / gan mật<br><span class="fc-note">Sinh thiết gan ± IOC trong vòng vài ngày</span></div>
+              </div>
+              <div>
+                <div class="fc-node">Có nguyên nhân nội khoa rõ<br><span class="fc-note">CMV, galactosemia, suy giáp, α1AT, PFIC…</span></div>
+                <div class="fc-arrow"></div>
+                <div class="fc-node">Điều trị đặc hiệu + dinh dưỡng + vitamin<br><span class="fc-note">Theo dõi DB, INR, tăng trưởng mỗi 1–2 tuần</span></div>
+              </div>
+            </div>
+            <div class="fc-arrow"></div>
+            <div class="fc-node start">Mọi trẻ ứ mật: bắt đầu UDCA + vitamin A/D/E/K + chế độ ăn MCT + đăng ký ghép gan sớm nếu tiên lượng xấu</div>
+          </div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 11 TEO ĐƯỜNG MẬT ============ -->
+<section id="teo-duong-mat">
+  <div class="sec-head t">
+    <div class="sec-num">11</div>
+    <div><div class="sec-eyebrow">Biliary atresia</div><h2>Teo đường mật &amp; phẫu thuật Kasai</h2></div>
+  </div>
+
+  <div class="grid g2">
+    <div class="card">
+      <h3>🔬 Bệnh học</h3>
+      <svg viewBox="0 0 420 250" style="width:100%;height:auto;display:block;margin-bottom:10px" aria-label="Minh họa giải phẫu teo đường mật">
+        <defs>
+          <linearGradient id="liverG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f9a8a8"/><stop offset="1" stop-color="#c9554f"/></linearGradient>
+        </defs>
+        <rect width="420" height="250" rx="14" fill="var(--surface2)"/>
+        <!-- liver -->
+        <path d="M60 60 Q60 30 100 30 L250 30 Q300 30 300 66 L300 120 Q300 150 260 152 L120 152 Q70 152 62 120 Z" fill="url(#liverG)" opacity=".92"/>
+        <text x="120" y="80" font-family="Be Vietnam Pro,sans-serif" font-size="13" font-weight="700" fill="#fff">GAN (xơ hóa tiến triển)</text>
+        <!-- porta hepatis fibrous plate -->
+        <rect x="150" y="146" width="86" height="16" rx="7" fill="#7f1d1d"/>
+        <text x="248" y="158" font-family="Be Vietnam Pro,sans-serif" font-size="11" font-weight="700" fill="#7f1d1d">← đĩa xơ rốn gan</text>
+        <!-- atretic ducts -->
+        <path d="M170 162 q-6 26 4 44" stroke="#64748b" stroke-width="3.5" fill="none" stroke-dasharray="5 4"/>
+        <path d="M200 162 q4 28 -4 46" stroke="#64748b" stroke-width="3.5" fill="none" stroke-dasharray="5 4"/>
+        <path d="M228 162 q8 24 2 42" stroke="#64748b" stroke-width="3.5" fill="none" stroke-dasharray="5 4"/>
+        <text x="118" y="222" font-family="Be Vietnam Pro,sans-serif" font-size="11.5" font-weight="700" fill="#64748b">Đường mật ngoài gan XƠ TEO / mất lòng</text>
+        <!-- roux limb -->
+        <path d="M320 60 Q372 100 366 170 Q360 210 300 214 L250 214" stroke="#14b8a6" stroke-width="12" fill="none" stroke-linecap="round" opacity=".85"/>
+        <text x="330" y="48" font-family="Be Vietnam Pro,sans-serif" font-size="11.5" font-weight="700" fill="#0f766e">Quai Roux-en-Y</text>
+        <text x="330" y="62" font-family="Be Vietnam Pro,sans-serif" font-size="10" fill="#0f766e">(sau Kasai)</text>
+        <!-- gallbladder absent -->
+        <circle cx="96" cy="176" r="6" fill="#e11d48"/>
+        <text x="110" y="181" font-family="Be Vietnam Pro,sans-serif" font-size="11" fill="#be123c" font-weight="600">Túi mật nhỏ / vắng mặt</text>
+      </svg>
+      <ul class="clean teal">
+        <li><b>Bệnh lý viêm xơ hóa tiến triển, không rõ nguyên nhân</b>, gây xơ cứng và <b>hủy lòng (obliteration)</b> toàn bộ hoặc một phần cây đường mật ngoài gan, dẫn tới tắc nghẽn mật hoàn toàn.</li>
+        <li>Không phải dị tật bẩm sinh đơn thuần: ở phần lớn trẻ, đường mật <b>từng bình thường trong bào thai</b> rồi bị phá hủy sau sinh → giả thuyết <b>tự miễn / virus (rotavirus, CMV, reovirus)</b> gây viêm đường mật.</li>
+        <li><b>2 thể:</b>
+          <ul class="clean teal" style="margin-top:6px">
+            <li><b>Thể chu sinh (~80–90%)</b>: không kèm dị tật, biểu hiện sau sinh.</li>
+            <li><b>Thể phôi thai / có dị tật (~10–20%, "BA-SM")</b>: kèm <b>bất thường laterality</b> (situs inversus, đa lách / không lách), gan nằm ngang (không phân thùy), xoay ruột bất thường, dị tật tim — thường tiên lượng kém hơn.</li>
+          </ul>
+        </li>
+        <li>Nếu không điều trị: <b>xơ gan mật</b> trong 3–6 tháng, tử vong do suy gan trong 2 năm đầu.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🏥 Lâm sàng &amp; điều trị</h3>
+      <h4>Bệnh cảnh điển hình</h4>
+      <ul class="clean">
+        <li>Trẻ <b>đủ tháng</b>, sinh thường, cân nặng bình thường, vàng da <b>không hết sau 2 tuần</b> (thường được chẩn đoán nhầm là "vàng da sữa mẹ").</li>
+        <li><b>Phân bạc màu / trắng đất sét</b> (có thể chỉ xuất hiện sau vài tuần), <b>tiểu sẫm màu</b>.</li>
+        <li>Da vàng <b>xanh xám, xỉn</b>; có thể có vết cào do ngứa.</li>
+        <li><b>Gan to, chắc, bờ sắc</b>; lách to khi đã có tăng áp cửa; tuần hoàn bàng hệ, cổ trướng ở giai đoạn muộn.</li>
+        <li>Chậm tăng cân, suy dinh dưỡng, còi xương do kém hấp thu vitamin D.</li>
+        <li>Xuất huyết (chảy máu rốn, tụ máu) do <b>thiếu vitamin K</b>.</li>
+      </ul>
+
+      <h4 style="margin-top:16px">Phẫu thuật Kasai (nối mật – ruột kiểu Roux-en-Y)</h4>
+      <ul class="clean teal">
+        <li><b>Nguyên lý:</b> cắt bỏ toàn bộ mô xơ ở đĩa xơ rốn gan, đưa một quai hỗng tràng (Roux-en-Y) lên nối trực tiếp với đĩa xơ để dẫn lưu mật từ các ống mật nhỏ còn thông thương.</li>
+        <li><b>Thời điểm quyết định thành công:</b>
+          <div class="tw" style="margin-top:8px"><table class="tbl-t">
+            <thead><tr><th>Tuổi khi mổ</th><th>Tỉ lệ dẫn lưu mật thành công (hết vàng da)</th></tr></thead>
+            <tbody>
+              <tr><td><b>&lt; 45 ngày</b></td><td><b>70–90%</b></td></tr>
+              <tr><td>45–60 ngày</td><td>~60–70%</td></tr>
+              <tr><td>61–90 ngày</td><td>~30–50%</td></tr>
+              <tr><td><b>&gt; 90–120 ngày</b></td><td><b>&lt; 20%</b> — nhiều trung tâm chuyển thẳng tới ghép gan</td></tr>
+            </tbody>
+          </table></div>
+        </li>
+        <li><b>Sau Kasai:</b> kháng sinh dự phòng, UDCA, dinh dưỡng tăng cường, vitamin tan trong dầu; theo dõi DB, INR, tăng trưởng, siêu âm.</li>
+        <li><b>Viêm đường mật tái diễn</b> (15–50%): sốt, DB tăng trở lại, phân bạc màu → kháng sinh phổ rộng (ampicillin + gentamicin / cefotaxim) ± steroid liều ngắn.</li>
+        <li><b>Ghép gan:</b> chỉ định khi Kasai thất bại hoặc xơ gan mất bù. Teo đường mật là <b>chỉ định ghép gan phổ biến nhất ở trẻ em</b>. Khoảng 50% cần ghép trong 2 năm đầu; nhiều trẻ vẫn sống với gan tự thân tới tuổi trưởng thành.</li>
+      </ul>
+      <div class="callout co-red">
+        <div class="ct">⏳ "Thời gian là mô gan"</div>
+        <p>Mỗi tuần chậm trễ đều làm giảm cơ hội. Nếu một trẻ <b>&gt; 3 tuần tuổi</b> còn vàng da mà chưa đo bilirubin trực tiếp, đó là một lỗi hệ thống cần sửa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 12 ĐIỀU TRỊ Ứ MẬT ============ -->
+<section id="dieu-tri-tt">
+  <div class="sec-head t">
+    <div class="sec-num">12</div>
+    <div><div class="sec-eyebrow">Management</div><h2>Điều trị nội khoa vàng da ứ mật</h2></div>
+  </div>
+
+  <div class="grid g2">
+    <div class="card">
+      <h3>💊 Thuốc lợi mật</h3>
+      <div class="acc open">
+        <button class="acc-h"><b>Acid ursodeoxycholic (UDCA)</b> — nền tảng<span class="chev">▶</span></button>
+        <div class="acc-b"><div class="acc-b-inner">
+          <ul class="clean teal">
+            <li>Liều <b>10–20 mg/kg/ngày</b>, chia 2–3 lần, uống cùng bữa ăn.</li>
+            <li>Cơ chế: thay thế acid mật độc hại bằng acid mật ưa nước, kích thích dòng mật, bảo vệ tế bào gan và tế bào biểu mô đường mật, giảm viêm.</li>
+            <li>Theo dõi: DB, AST/ALT, GGT, tăng trưởng, ngứa.</li>
+            <li>Hiệu quả rõ rệt trong <b>PFIC3</b>; hỗ trợ trong hầu hết các thể ứ mật khác.</li>
+          </ul>
+        </div></div>
+      </div>
+      <div class="acc">
+        <button class="acc-h"><b>Ức chế IBAT</b> (maralixibat, odevixibat)<span class="chev">▶</span></button>
+        <div class="acc-b"><div class="acc-b-inner">
+          <p>Ức chế tái hấp thu acid mật ở hồi tràng → giảm acid mật huyết thanh và <b>giảm ngứa</b>. Được phê duyệt cho hội chứng <b>Alagille</b> (maralixibat) và <b>PFIC</b> (odevixibat). Tác dụng phụ chính: tiêu chảy.</p>
+        </div></div>
+      </div>
+      <div class="acc">
+        <button class="acc-h"><b>Điều trị ngứa</b><span class="chev">▶</span></button>
+        <div class="acc-b"><div class="acc-b-inner">
+          <ul class="clean teal">
+            <li><b>Rifampicin</b> 10–20 mg/kg/ngày — hiệu quả nhất, theo dõi chức năng gan.</li>
+            <li><b>Cholestyramin</b> 1 g/kg/ngày (uống cách xa thuốc khác ≥4 giờ vì gắn thuốc).</li>
+            <li><b>Naltrexone</b> 0,5–3 mg/kg/ngày.</li>
+            <li>Chăm sóc da: giữ ẩm, cắt móng tay, mặc cotton mỏng, phòng mát.</li>
+            <li>Nặng, kháng trị: dẫn lưu mật ngoài gan, lọc albumin (MARS), ghép gan.</li>
+          </ul>
+        </div></div>
+      </div>
+      <div class="acc">
+        <button class="acc-h"><b>Điều trị nguyên nhân đặc hiệu</b><span class="chev">▶</span></button>
+        <div class="acc-b"><div class="acc-b-inner">
+          <div class="tw"><table class="tbl-t">
+            <thead><tr><th>Bệnh</th><th>Điều trị</th></tr></thead>
+            <tbody>
+              <tr><td>Galactosemia</td><td><b>Ngưng sữa mẹ/sữa bò ngay</b> → sữa không lactose (gốc đậu nành); suốt đời</td></tr>
+              <tr><td>Tyrosinemia type 1</td><td><b>Nitisinone</b> 1–2 mg/kg/ngày + chế độ ăn hạn chế tyrosin &amp; phenylalanin</td></tr>
+              <tr><td>CMV bẩm sinh</td><td><b>Valganciclovir</b> uống (hoặc ganciclovir TM) 6 tháng — cân nhắc lợi ích/nguy cơ (giảm bạch cầu trung tính)</td></tr>
+              <tr><td>Suy giáp bẩm sinh</td><td><b>Levothyroxin</b> 10–15 µg/kg/ngày, càng sớm càng tốt</td></tr>
+              <tr><td>Suy tuyến yên</td><td>Hydrocortison (trước levothyroxin!), GH, thay thế hormon</td></tr>
+              <tr><td>Rối loạn tổng hợp acid mật</td><td><b>Acid cholic</b> / chenodeoxycholic — đáp ứng ngoạn mục</td></tr>
+              <tr><td>PFIC1/2</td><td>UDCA, dẫn lưu mật một phần ngoài gan, ghép gan</td></tr>
+              <tr><td>Nang OMC</td><td>Cắt nang + nối mật–ruột Roux-en-Y</td></tr>
+            </tbody>
+          </table></div>
+        </div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>🍼 Dinh dưỡng &amp; vitamin — yếu tố quyết định sống còn</h3>
+      <p>Ứ mật → <b>giảm acid mật vào ruột</b> → kém hấp thu mỡ và vitamin tan trong dầu → suy dinh dưỡng protein–năng lượng, còi xương, thiếu máu, xuất huyết, bệnh thần kinh do thiếu vitamin E.</p>
+      <div class="grid g2" style="gap:10px">
+        <div>
+          <h4>Năng lượng &amp; đạm</h4>
+          <ul class="clean teal">
+            <li>Năng lượng: <b>120–150%</b> nhu cầu theo tuổi (≈ 120–150 kcal/kg/ngày).</li>
+            <li>Protein: <b>3–4 g/kg/ngày</b>.</li>
+            <li>Cho bú/ăn <b>liên tục cả đêm</b> (dạ dày–hỗng tràng nếu cần).</li>
+            <li>Theo dõi cân nặng, chiều dài, vòng đầu mỗi 1–2 tuần.</li>
+          </ul>
+          <h4>Chất béo</h4>
+          <ul class="clean teal">
+            <li>Sữa công thức <b>giàu MCT</b> (triglycerid chuỗi trung bình — hấp thu không cần acid mật): 50–80% tổng lipid.</li>
+            <li>Vẫn cần <b>acid béo thiết yếu</b> (LCT) — không loại bỏ hoàn toàn mỡ.</li>
+            <li>Bổ sung dầu MCT vào thức ăn dặm.</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Vitamin tan trong dầu (liều cao hơn bình thường)</h4>
+          <div class="tw" style="margin-top:4px"><table class="tbl-t">
+            <thead><tr><th>Vitamin</th><th>Liều gợi ý</th><th>Theo dõi</th></tr></thead>
+            <tbody>
+              <tr><td><b>A</b></td><td>5.000–25.000 UI/ngày</td><td>Retinol, RBP</td></tr>
+              <tr><td><b>D</b></td><td>400–2.000 UI/ngày (hoặc 25-OH-D 3–5 µg/kg)</td><td>25-OH-D, canxi, phospho, ALP, X-quang xương</td></tr>
+              <tr><td><b>E</b></td><td>25–200 UI/ngày (dạng TPGS hấp thu tốt)</td><td>Nồng độ E, tỉ lệ E/lipid; khám thần kinh</td></tr>
+              <tr><td><b>K</b></td><td>2,5–5 mg/ngày uống, hoặc 1–2 mg/tuần TM</td><td><b>INR/PT</b>, PIVKA-II</td></tr>
+            </tbody>
+          </table></div>
+          <div class="callout co-red" style="margin-top:8px">
+            <div class="ct">🩸 Xuất huyết do thiếu vitamin K</div>
+            <p>Có thể gây <b>xuất huyết nội sọ</b> — biến chứng tử vong/tàn phế. Tiêm <b>vitamin K1 1 mg TM</b> trước mọi thủ thuật và khi INR kéo dài. INR <b>không cải thiện sau vitamin K</b> = suy chức năng tổng hợp gan (tiên lượng nặng hơn nhiều).</p>
+          </div>
+        </div>
+      </div>
+      <h4>Canxi &amp; khoáng</h4>
+      <ul class="clean teal">
+        <li>Canxi nguyên tố <b>50–100 mg/kg/ngày</b> nếu thiếu; phospho bổ sung.</li>
+        <li>Kẽm, sắt, magne — theo dõi khi suy dinh dưỡng.</li>
+        <li>Khám <b>mắt</b> (đục thủy tinh thể, bệnh võng mạc do thiếu vitamin A/E) và <b>thính lực</b> định kỳ.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>🫀 Ghép gan</h3>
+    <ul class="clean teal">
+      <li><b>Chỉ định:</b> Kasai thất bại hoặc xơ gan mất bù (cổ trướng kháng trị, DB tăng trở lại, INR kéo dài không đáp ứng vitamin K, suy dinh dưỡng nặng không cải thiện, ngứa kháng trị, biến chứng tăng áp cửa, bệnh phổi gan, ung thư gan); bilirubin toàn phần &gt; 6 mg/dL sau 3 tháng tuổi là yếu tố tiên lượng xấu.</li>
+      <li><b>Teo đường mật</b> là chỉ định ghép gan trẻ em phổ biến nhất trên toàn thế giới.</li>
+      <li>Tỉ lệ sống sau ghép: <b>&gt;90% sau 1 năm</b>, ~80–85% sau 5 năm ở các trung tâm lớn.</li>
+      <li>Đăng ký ghép sớm, tối ưu dinh dưỡng và tiêm chủng trước ghép.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 13 SO SÁNH ============ -->
+<section id="so-sanh">
+  <div class="sec-head">
+    <div class="sec-num">13</div>
+    <div><div class="sec-eyebrow">Side by side</div><h2>So sánh tăng bilirubin gián tiếp &amp; vàng da ứ mật</h2></div>
+  </div>
+
+  <div class="card">
+    <div class="cmp">
+      <div class="cmp-col">
+        <div class="cmp-h a">🟡 Tăng bilirubin GIÁN TIẾP</div>
+        <div class="cmp-row"><span class="cr-l">Bản chất</span><p>Bilirubin <b>tự do (không liên hợp)</b>, kỵ nước, gắn albumin</p></div>
+        <div class="cmp-row"><span class="cr-l">Tiêu chuẩn</span><p>DB &lt; 1 mg/dL và DB/TSB &lt; 20%</p></div>
+        <div class="cmp-row"><span class="cr-l">Màu da</span><p>Vàng <b>tươi, sáng, màu nghệ</b></p></div>
+        <div class="cmp-row"><span class="cr-l">Nước tiểu</span><p>Không màu vàng sẫm (<b>không có bilirubin niệu</b> — bilirubin tự do không qua cầu thận)</p></div>
+        <div class="cmp-row"><span class="cr-l">Phân</span><p>Vàng / nâu bình thường</p></div>
+        <div class="cmp-row"><span class="cr-l">Gan lách</span><p>Thường bình thường (trừ bệnh tan máu nặng, nhiễm trùng)</p></div>
+        <div class="cmp-row"><span class="cr-l">Thời điểm</span><p>Thường <b>sớm</b> — ngày 1–7 (trừ vàng da sữa mẹ)</p></div>
+        <div class="cmp-row"><span class="cr-l">Xét nghiệm then chốt</span><p>TSB, DAT, CTM + lưới, G6PD, nhóm máu mẹ–con</p></div>
+        <div class="cmp-row"><span class="cr-l">Biến chứng chính</span><p><b>Kernicterus</b> — tổn thương thần kinh <b>vĩnh viễn, không hồi phục</b></p></div>
+        <div class="cmp-row"><span class="cr-l">Điều trị</span><p>Chiếu đèn · thay máu · bù dịch · IVIG · điều trị nguyên nhân</p></div>
+        <div class="cmp-row"><span class="cr-l">Tiên lượng</span><p>Rất tốt nếu phát hiện và điều trị kịp; <b>tệ nếu để xảy ra kernicterus</b></p></div>
+      </div>
+      <div class="cmp-col">
+        <div class="cmp-h b">🟢 Vàng da Ứ MẬT (trực tiếp)</div>
+        <div class="cmp-row"><span class="cr-l">Bản chất</span><p>Bilirubin <b>liên hợp (glucuronide)</b>, ưa nước</p></div>
+        <div class="cmp-row"><span class="cr-l">Tiêu chuẩn</span><p>DB ≥ 1 mg/dL <b>hoặc</b> DB/TSB ≥ 20% (khi TSB &gt; 5)</p></div>
+        <div class="cmp-row"><span class="cr-l">Màu da</span><p>Vàng <b>xanh xám, xỉn, màu chanh</b>; có thể tối sẫm dần</p></div>
+        <div class="cmp-row"><span class="cr-l">Nước tiểu</span><p><b>Sẫm màu</b>, nhuộm vàng tã (<b>có bilirubin niệu</b>)</p></div>
+        <div class="cmp-row"><span class="cr-l">Phân</span><p><b>Bạc màu / trắng đất sét</b> nếu tắc hoàn toàn; nhạt màu nếu tắc một phần</p></div>
+        <div class="cmp-row"><span class="cr-l">Gan lách</span><p><b>Gan to, chắc</b>; lách to khi tăng áp cửa</p></div>
+        <div class="cmp-row"><span class="cr-l">Thời điểm</span><p>Thường <b>kéo dài</b> — vàng da không hết sau 2 tuần</p></div>
+        <div class="cmp-row"><span class="cr-l">Xét nghiệm then chốt</span><p>DB, GGT, INR, α1AT, SLSS, CMV PCR, siêu âm đói, sinh thiết gan</p></div>
+        <div class="cmp-row"><span class="cr-l">Biến chứng chính</span><p><b>Xơ gan mật</b>, suy gan, tăng áp cửa, suy dinh dưỡng, thiếu vitamin, <b>tử vong</b></p></div>
+        <div class="cmp-row"><span class="cr-l">Điều trị</span><p>Giải quyết nguyên nhân (Kasai, nitisinone, ngưng lactose…) · UDCA · dinh dưỡng + vitamin · ghép gan</p></div>
+        <div class="cmp-row"><span class="cr-l">Tiên lượng</span><p>Phụ thuộc nguyên nhân và <b>thời điểm chẩn đoán</b>; teo đường mật = chạy đua với thời gian</p></div>
+      </div>
+    </div>
+    <div class="callout co-blue" style="margin-top:16px">
+      <div class="ct">🧩 Cả hai có thể cùng tồn tại</div>
+      <p>Một trẻ có thể <b>vừa</b> tăng bilirubin gián tiếp (sinh lý, tan máu) <b>vừa</b> ứ mật (CMV, teo đường mật). Đừng để mức TSB cao làm bạn quên đo DB. Ngược lại, chiếu đèn ở trẻ có ứ mật kèm theo có thể gây <b>"bronze baby syndrome"</b> — da xám nâu, thường lành tính và hết sau ngưng đèn.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 14 CA LÂM SÀNG ============ -->
+<section id="ca-lam-sang">
+  <div class="sec-head">
+    <div class="sec-num">14</div>
+    <div><div class="sec-eyebrow">Case-based learning</div><h2>Ca lâm sàng</h2></div>
+  </div>
+
+  <div class="case">
+    <div class="case-h"><span class="cn">1</span><b>Vàng da sớm ở trẻ đủ tháng</b><span class="tag t-amber">Bilirubin gián tiếp</span></div>
+    <div class="case-b">
+      <div class="step">
+        <div class="st-l">Bệnh sử</div>
+        <div class="st-c">Bé trai 30 giờ tuổi, sinh thường <b>39 tuần</b>, cân 3.100 g. Mẹ <b>nhóm máu O, Rh(+)</b>, con <b>nhóm A, Rh(+)</b>. Mẹ khỏe, không tiền sử đặc biệt. Bé bú kém, ngủ nhiều. Khám: da vàng tới vùng đùi (Kramer vùng 3), gan 2 cm dưới bờ sườn, lách không to, tim phổi bình thường.</div>
+      </div>
+      <div class="step">
+        <div class="st-l">Xét nghiệm</div>
+        <div class="st-c">TSB <b>15,8 mg/dL</b> (270 µmol/L), DB 0,6 mg/dL. Hb <b>13,2 g/dL</b> (giảm so với tuổi), <b>hồng cầu lưới 11%</b>, phết máu thấy <b>hồng cầu hình cầu</b>, <b>DAT dương tính</b>. G6PD bình thường. CTM mẹ bình thường.</div>
+      </div>
+      <div class="step">
+        <div class="st-l">Phân tích</div>
+        <div class="st-c">
+          <b>Vàng da &lt; 24–48 giờ + tăng bilirubin gián tiếp + thiếu máu + lưới ↑ + DAT (+)</b> ⇒ <span class="hl-y">Bệnh tan máu do bất đồng nhóm máu ABO</span>.<br>
+          Có <b>yếu tố nguy cơ độc thần kinh</b> (bệnh tan máu đồng miễn dịch) → dùng ngưỡng <b>thấp hơn</b>.<br>
+          Với trẻ 39 tuần, 30 giờ tuổi, có yếu tố nguy cơ: ngưỡng chiếu đèn ≈ <b>11 mg/dL</b>, ngưỡng thay máu ≈ <b>18 mg/dL</b>. TSB 15,8 mg/dL <b>vượt ngưỡng chiếu đèn</b> và <b>vượt ngưỡng leo thang chăm sóc</b> (ET − 2 ≈ 16).
+        </div>
+      </div>
+      <div class="step">
+        <div class="st-l">Xử trí</div>
+        <div class="st-c">
+          ① Nhập NICU ngay, <b>chiếu đèn tích cực</b> (≥30 µW/cm²/nm, tối đa diện tích da, che mắt).<br>
+          ② Bù dịch TM, tăng cữ bú.<br>
+          ③ Đo lại TSB sau <b>4–6 giờ</b>; kỳ vọng giảm 0,5–1 mg/dL/giờ.<br>
+          ④ Xem xét <b>IVIG 0,5–1 g/kg</b> nếu TSB tiếp tục tăng hoặc vượt ngưỡng thay máu.<br>
+          ⑤ <b>Chuẩn bị sẵn sàng thay máu</b>: gửi mẫu máu làm hòa hợp, báo trước ngân hàng máu.<br>
+          ⑥ Theo dõi dấu hiệu bệnh não bilirubin mỗi 2–4 giờ; làm <b>ABR</b> trước xuất viện.<br>
+          ⑦ Sau ngưng đèn: đo lại TSB 12–24 giờ (nguy cơ rebound cao do tan máu đang tiếp diễn).
+        </div>
+      </div>
+      <div class="step" style="margin-bottom:0">
+        <div class="st-l">Bài học</div>
+        <div class="st-c">Vàng da xuất hiện trong <b>24 giờ đầu</b> không bao giờ là sinh lý. Ở trẻ đủ tháng khỏe mạnh, TSB 15,8 mg/dL lúc 30 giờ có thể chỉ cần theo dõi; nhưng khi có <b>tan máu miễn dịch</b>, cùng một con số trở thành <b>cấp cứu</b>. Yếu tố nguy cơ độc thần kinh thay đổi hoàn toàn quyết định điều trị.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="case">
+    <div class="case-h"><span class="cn">2</span><b>Vàng da kéo dài ở trẻ 5 tuần tuổi</b><span class="tag t-teal">Ứ mật</span></div>
+    <div class="case-b">
+      <div class="step">
+        <div class="st-l">Bệnh sử</div>
+        <div class="st-c">Bé gái <b>35 ngày tuổi</b>, sinh thường 38 tuần, cân sinh 2.900 g, hiện 3.100 g (<b>tăng rất ít</b>). Mẹ kể bé vàng da từ ngày thứ 4, được chiếu đèn 2 ngày ở bệnh viện huyện rồi về, nhưng <b>vàng không hết</b>. Bác sĩ tuyến trước chẩn đoán "vàng da sữa mẹ" và khuyên tiếp tục theo dõi. Hai ngày nay mẹ thấy <b>phân nhạt màu, gần như trắng xám</b>, nước tiểu <b>vàng sẫm dính tã</b>. Bé bú được nhưng hay nôn trớ.</div>
+      </div>
+      <div class="step">
+        <div class="st-l">Khám</div>
+        <div class="st-c">Tỉnh, da vàng <b>xanh xám xỉn</b> toàn thân, củng mạc vàng đậm. Có vài <b>vết cào</b> ở mặt. <b>Gan to 3,5 cm dưới bờ sườn phải, mật độ chắc, bờ sắc</b>. Lách chưa to. Bụng mềm, không khối. Tim phổi bình thường, không thổi. Không dị tật mặt/cột sống rõ. Thóp bình thường, trương lực bình thường.</div>
+      </div>
+      <div class="step">
+        <div class="st-l">Xét nghiệm</div>
+        <div class="st-c">TSB <b>9,8 mg/dL</b>, <b>DB 6,4 mg/dL (65%)</b>. AST 118, ALT 96, <b>GGT 486 U/L</b>, ALP 612, albumin 3,1 g/dL, <b>INR 1,6</b> (không cải thiện sau vitamin K 1 mg/kg TM). Đường huyết 3,4 mmol/L, amoniac bình thường. α1AT bình thường, kiểu hình PiMM. Sàng lọc sơ sinh mở rộng bình thường. CMV PCR nước tiểu <b>âm tính</b>. Cấy máu/nước tiểu âm tính. Siêu âm bụng lúc đói 5 giờ: <b>túi mật nhỏ 1,1 cm, không co bóp</b>, có dải echo dày trước ngã ba tĩnh mạch cửa <b>dày 5 mm</b> (TC sign +), gan to tăng echo nhẹ, đường mật trong gan không giãn.</div>
+      </div>
+      <div class="step">
+        <div class="st-l">Phân tích</div>
+        <div class="st-c">
+          ① <b>Ứ mật sơ sinh</b> xác định: DB 6,4 mg/dL &gt; 1 mg/dL, chiếm 65% TSB.<br>
+          ② Gợi ý <b>tắc nghẽn ngoài gan</b>: phân bạc màu, tiểu sẫm, <b>GGT ↑↑</b>, gan chắc.<br>
+          ③ Siêu âm có <b>dấu hiệu đặc hiệu của teo đường mật</b> (TC sign &gt;4 mm, túi mật nhỏ không co bóp).<br>
+          ④ INR không đáp ứng vitamin K → <b>suy chức năng tổng hợp gan</b>, tiên lượng nặng.<br>
+          ⑤ Đã loại trừ CMV, α1AT, galactosemia, tyrosinemia.<br>
+          ⇒ Chẩn đoán làm việc: <span class="hl-t">TEO ĐƯỜNG MẬT</span> — trẻ đã <b>35 ngày tuổi</b>, cửa sổ Kasai đang thu hẹp.
+        </div>
+      </div>
+      <div class="step">
+        <div class="st-l">Xử trí</div>
+        <div class="st-c">
+          ① <b>Chuyển ngay</b> trung tâm ngoại nhi / gan mật nhi trong <b>24–48 giờ</b>.<br>
+          ② Vitamin K1 <b>1 mg/kg TM</b> mỗi ngày; truyền huyết tương tươi đông lạnh nếu INR vẫn cao trước thủ thuật.<br>
+          ③ Bắt đầu <b>UDCA 15–20 mg/kg/ngày</b>, vitamin A/D/E liều cao, sữa công thức <b>giàu MCT</b>, năng lượng 130–150%.<br>
+          ④ Tại tuyến chuyên khoa: <b>sinh thiết gan</b> (sau khi chỉnh INR) ± <b>chụp đường mật trong mổ</b>. Nếu xác định → <b>Kasai portoenterostomy ngay</b>.<br>
+          ⑤ Sau Kasai: kháng sinh dự phòng viêm đường mật, UDCA, dinh dưỡng tích cực, đăng ký <b>ghép gan</b> nếu thất bại.<br>
+          ⑥ Tiêm chủng đầy đủ (đặc biệt viêm gan A/B, phế cầu, rota nếu còn trong độ tuổi).
+        </div>
+      </div>
+      <div class="step" style="margin-bottom:0">
+        <div class="st-l">Bài học</div>
+        <div class="st-c">
+          Chẩn đoán "vàng da sữa mẹ" chỉ được đặt ra khi <b>đã loại trừ ứ mật bằng bilirubin trực tiếp</b> và trẻ <b>tăng cân tốt</b>. Ở ca này, trẻ được chiếu đèn 2 ngày lúc sơ sinh — chiếu đèn chỉ điều trị tăng bilirubin <b>gián tiếp</b>, hoàn toàn vô tác dụng với ứ mật. <b>Hỏi về màu phân</b> là bước đơn giản nhất và hay bị bỏ qua nhất. Mỗi ngày trôi qua sau 45 ngày tuổi làm giảm đáng kể cơ hội dẫn lưu mật thành công.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 15 TÓM TẮT ============ -->
+<section id="tom-tat">
+  <div class="sec-head">
+    <div class="sec-num">15</div>
+    <div><div class="sec-eyebrow">Cheat sheet</div><h2>Bảng tóm tắt bỏ túi</h2></div>
+  </div>
+
+  <div class="card">
+    <div class="grid g2">
+      <div>
+        <h3 style="color:var(--amber)">🟡 Tăng bilirubin gián tiếp</h3>
+        <div class="tw"><table class="tbl-a">
+          <thead><tr><th>Mốc</th><th>Giá trị / hành động</th></tr></thead>
+          <tbody>
+            <tr><td>Vàng da <b>&lt; 24 giờ</b></td><td><b>Luôn bệnh lý</b> → tìm tan máu, nhiễm trùng</td></tr>
+            <tr><td>Tốc độ tăng</td><td>&gt; <b>0,2 mg/dL/giờ</b> hoặc &gt; <b>5 mg/dL/24 giờ</b> = nguy hiểm</td></tr>
+            <tr><td>Vàng da kéo dài</td><td>&gt; <b>2 tuần</b> (đủ tháng), &gt; <b>3 tuần</b> (non tháng) → đo DB</td></tr>
+            <tr><td>TcB cần xác nhận TSB</td><td>TcB ≥ <b>15 mg/dL</b> hoặc trong vòng <b>3 mg/dL</b> dưới ngưỡng chiếu đèn</td></tr>
+            <tr><td>Bước sóng chiếu đèn</td><td><b>430–490 nm</b>, cường độ <b>≥ 30 µW/cm²/nm</b></td></tr>
+            <tr><td>Đo TSB sau bắt đầu đèn</td><td><b>4–6 giờ</b></td></tr>
+            <tr><td>Tốc độ giảm kỳ vọng</td><td><b>0,5–1 mg/dL/giờ</b> trong 4–8 giờ đầu</td></tr>
+            <tr><td>Thay máu kép</td><td><b>160 mL/kg</b> (2 × 80 mL/kg) trong 1–2 giờ</td></tr>
+            <tr><td>Ngưỡng leo thang chăm sóc</td><td>Ngưỡng thay máu <b>− 2 mg/dL</b></td></tr>
+            <tr><td>IVIG</td><td><b>0,5–1 g/kg</b> — chỉ cho tan máu đồng miễn dịch kháng trị</td></tr>
+            <tr><td>Tái khám sau xuất viện</td><td>Theo tuổi giờ; trẻ xuất viện &lt;48 giờ → khám lại trong <b>48 giờ</b></td></tr>
+          </tbody>
+        </table></div>
+      </div>
+      <div>
+        <h3 style="color:var(--teal)">🟢 Vàng da ứ mật</h3>
+        <div class="tw"><table class="tbl-t">
+          <thead><tr><th>Mốc</th><th>Giá trị / hành động</th></tr></thead>
+          <tbody>
+            <tr><td>Định nghĩa</td><td>DB ≥ <b>1 mg/dL</b> (17,1 µmol/L) hoặc DB/TSB ≥ <b>20%</b> khi TSB &gt; 5</td></tr>
+            <tr><td>Dấu hiệu đặc hiệu nhất</td><td><b>Phân bạc màu</b> + tiểu sẫm màu</td></tr>
+            <tr><td>Nguyên nhân ngoại khoa số 1</td><td><b>Teo đường mật</b> (35–40%)</td></tr>
+            <tr><td>CMV PCR có giá trị</td><td>Trong <b>3 tuần đầu đời</b> (nước tiểu / nước bọt)</td></tr>
+            <tr><td>GGT cao</td><td>Teo đường mật, Alagille, PFIC3, α1AT, nang OMC</td></tr>
+            <tr><td>GGT bình thường/thấp</td><td>PFIC1, PFIC2, rối loạn tổng hợp acid mật</td></tr>
+            <tr><td>TC sign trên siêu âm</td><td>&gt; <b>4 mm</b> trước ngã ba TM cửa → gợi ý teo đường mật</td></tr>
+            <tr><td>Túi mật nghi ngờ</td><td>&lt; <b>1,5 cm</b> khi đói, không co bóp sau bú</td></tr>
+            <tr><td>Tiêu chuẩn vàng chẩn đoán</td><td><b>Chụp đường mật trong mổ</b></td></tr>
+            <tr><td>Kasai tối ưu</td><td><b>&lt; 45–60 ngày tuổi</b></td></tr>
+            <tr><td>UDCA</td><td><b>10–20 mg/kg/ngày</b> chia 2–3 lần</td></tr>
+            <tr><td>Năng lượng</td><td><b>120–150%</b> nhu cầu, sữa giàu <b>MCT</b></td></tr>
+            <tr><td>Suy gan</td><td>INR không cải thiện sau vitamin K</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+    </div>
+    <div class="callout co-blue" style="margin-top:14px">
+      <div class="ct">🧠 Ghi nhớ bằng một câu</div>
+      <p style="font-size:16px"><b>"Vàng sớm nghĩ TAN MÁU — vàng muộn nghĩ Ứ MẬT — phân trắng nghĩ TEO ĐƯỜNG MẬT — và mọi trường hợp đều cần BILIRUBIN TRỰC TIẾP."</b></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 16 QUIZ ============ -->
+<section id="quiz">
+  <div class="sec-head">
+    <div class="sec-num">16</div>
+    <div><div class="sec-eyebrow">Assessment</div><h2>Lượng giá cuối bài</h2></div>
+  </div>
+
+  <div class="card">
+    <div class="score-bar" id="scoreBar" style="display:none">
+      <div class="score-ring">
+        <svg width="74" height="74" viewBox="0 0 74 74">
+          <circle cx="37" cy="37" r="31" fill="none" stroke="var(--surface3)" stroke-width="7"/>
+          <circle id="ringFill" cx="37" cy="37" r="31" fill="none" stroke="var(--teal2)" stroke-width="7" stroke-linecap="round" stroke-dasharray="194.8" stroke-dashoffset="194.8" style="transition:stroke-dashoffset .7s ease"/>
+        </svg>
+        <div class="sv" id="ringTxt">0</div>
+      </div>
+      <div style="flex:1;min-width:200px">
+        <div style="font-weight:800;font-size:17px" id="scoreTitle">Kết quả của bạn</div>
+        <div class="small" id="scoreMsg"></div>
+      </div>
+      <button class="btn btn-g" id="retryBtn">↻ Làm lại</button>
+    </div>
+    <p class="small" id="quizIntro">Trả lời 10 câu hỏi. Giải thích sẽ hiện ra ngay sau khi bạn chọn đáp án.</p>
+    <div id="quizHost" style="margin-top:14px"></div>
+  </div>
+</section>
+
+<!-- ============ 17 THAM KHẢO ============ -->
+<section id="tham-khao">
+  <div class="sec-head">
+    <div class="sec-num">17</div>
+    <div><div class="sec-eyebrow">References</div><h2>Tài liệu tham khảo</h2></div>
+  </div>
+  <div class="card">
+    <p class="ref"><b>[1]</b> Kemper AR, Newman TB, Keckler A, et al. <i>Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation.</i> <b>Pediatrics</b> 2022;150(3):e2022058859.</p>
+    <p class="ref"><b>[2]</b> American Academy of Pediatrics. <i>Technical Report accompanying the 2022 Clinical Practice Guideline Revision.</i> Pediatrics 2022;150(3):e2022058860.</p>
+    <p class="ref"><b>[3]</b> Bhutani VK, Johnson L, Sivieri EM. <i>Predictive ability of a predischarge hour-specific serum bilirubin for subsequent significant hyperbilirubinemia in healthy term and near-term newborns.</i> Pediatrics 1999;103:6–14.</p>
+    <p class="ref"><b>[4]</b> Harpavat S, Finegold MJ, Karpen SJ. <i>Biliary atresia as a toxic bile duct injury: a multifactorial hypothesis.</i> Hepatology 2011;53:2052–7.</p>
+    <p class="ref"><b>[5]</b> Moyer V, Seibert D, Suchy F, et al. <i>NASPGHAN Practice Guidelines: Evaluation of the Child and Older Child with Cholestasis / Guideline for the Evaluation of Cholestatic Jaundice in Infants.</i> J Pediatr Gastroenterol Nutr 2017;64(1):154–168.</p>
+    <p class="ref"><b>[6]</b> Harpavat S, Narkewicz MR, Karpen SJ. <i>Biliary atresia: pathogenesis, diagnosis and management.</i> Nat Rev Gastroenterol Hepatol 2022.</p>
+    <p class="ref"><b>[7]</b> American Academy of Pediatrics. <i>Guidance for the Primary Care Provider in Identifying Biliary Atresia.</i> Pediatrics 2025;155(3):e2024070077.</p>
+    <p class="ref"><b>[8]</b> Fawaz R, Ulrich D, Fenton N, et al. <i>Guideline for the Evaluation of Neonatal Jaundice (AAP / NASPGHAN joint).</i> J Pediatr Gastroenterol Nutr 2011;52(2):193–203.</p>
+    <p class="ref"><b>[9]</b> Kliegman RM, et al. <i>Nelson Textbook of Pediatrics</i>, 21st ed. Elsevier — Chương "Jaundice and Hyperbilirubinemia in the Newborn" &amp; "Neonatal Cholestasis".</p>
+    <p class="ref"><b>[10]</b> Bộ môn Nhi – Đại học Y Dược TP.HCM / Đại học Y Hà Nội. <i>Nhi khoa — Bài giảng Vàng da sơ sinh</i>.</p>
+    <p class="ref"><b>[11]</b> Canadian Paediatric Society. <i>Guidelines for detection and management of hyperbilirubinemia in newborn infants 35 weeks' gestation and older.</i> Paediatr Child Health.</p>
+    <p class="ref"><b>[12]</b> PediTools — <i>AAP 2022 Hyperbilirubinemia Management Guidelines calculator</i>. peditools.org/bili2022.</p>
+
+    <div class="callout co-red" style="margin-top:20px">
+      <div class="ct">⚕️ Tuyên bố miễn trừ trách nhiệm</div>
+      <p>Tài liệu này được xây dựng cho <b>mục đích đào tạo y khoa</b>. Các giá trị ngưỡng, liều thuốc và quy trình chỉ mang tính tham khảo, được nội suy/lược trích từ các hướng dẫn đã công bố. <b>Không sử dụng để ra quyết định lâm sàng độc lập.</b> Luôn đối chiếu với biểu đồ chính thức, phác đồ của cơ sở và phán đoán lâm sàng của bác sĩ điều trị. Kiểm tra lại liều thuốc theo cân nặng thực tế và tình trạng bệnh nhân.</p>
+    </div>
+
+    <div class="foot">
+      <b>Bài giảng Nhi khoa · Vàng da sơ sinh</b> — Tăng bilirubin gián tiếp &amp; Vàng da ứ mật.<br>
+      Thiết kế cho học tập tương tác · Chế độ sáng/tối · Hỗ trợ in ra PDF (<span class="kbd">Ctrl</span> + <span class="kbd">P</span>).
+    </div>
+  </div>
+</section>
+
+</main>
+</div>
+
+<script>
+/* ===================================================================
+   0. UTILITIES
+=================================================================== */
+const $  = (s, r=document) => r.querySelector(s);
+const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
+const clamp = (v,a,b) => Math.min(b, Math.max(a, v));
+const nf = (v, d=1) => Number(v).toFixed(d).replace('.', ',');
+
+function interpPairs(pairs, x){
+  if(x <= pairs[0][0]){
+    if(pairs.length > 1){
+      const [x0,y0]=pairs[0],[x1,y1]=pairs[1];
+      return y0 + (y1-y0)*(x-x0)/(x1-x0);
+    }
+    return pairs[0][1];
+  }
+  for(let i=1;i<pairs.length;i++){
+    if(x <= pairs[i][0]){
+      const [x0,y0]=pairs[i-1],[x1,y1]=pairs[i];
+      return y0 + (y1-y0)*(x-x0)/(x1-x0);
+    }
+  }
+  return pairs[pairs.length-1][1];
+}
+
+/* ===================================================================
+   1. THEME + PROGRESS + NAV
+=================================================================== */
+(function(){
+  const saved = localStorage.getItem('vd-theme');
+  if(saved){ document.documentElement.setAttribute('data-theme', saved); }
+  updateThemeBtn();
+
+  $('#themeBtn').addEventListener('click', ()=>{
+    const cur = document.documentElement.getAttribute('data-theme');
+    const nx = cur === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', nx);
+    localStorage.setItem('vd-theme', nx);
+    updateThemeBtn();
+    if(window.__redrawChart) window.__redrawChart();
+  });
+
+  function updateThemeBtn(){
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    $('#themeBtn').textContent = isDark ? '☀️' : '🌙';
+  }
+
+  $('#printBtn').addEventListener('click', ()=> window.print());
+
+  const pbar = $('#pbar'), readPct = $('#readPct');
+  function onScroll(){
+    const h = document.documentElement;
+    const max = h.scrollHeight - h.clientHeight;
+    const p = max > 0 ? (h.scrollTop / max) * 100 : 0;
+    pbar.style.width = p.toFixed(1) + '%';
+    readPct.textContent = Math.round(p) + '%';
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  // active nav
+  const links = $$('#sidenav a');
+  const map = new Map();
+  links.forEach(a => { const id = a.getAttribute('href').slice(1); const el = document.getElementById(id); if(el) map.set(el, a); });
+  const obs = new IntersectionObserver(entries=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        links.forEach(l=>l.classList.remove('active'));
+        const a = map.get(e.target);
+        if(a){ a.classList.add('active');
+          if(window.innerWidth <= 1080){ a.scrollIntoView({inline:'center', block:'nearest'}); }
+        }
+      }
+    });
+  }, {rootMargin:'-15% 0px -70% 0px', threshold:0});
+  map.forEach((a, el)=> obs.observe(el));
+
+  links.forEach(a=> a.addEventListener('click', ev=>{
+    if(window.innerWidth <= 1080){ /* allow native scroll */ }
+  }));
+})();
+
+/* ===================================================================
+   2. GENERIC TABS + ACCORDIONS
+=================================================================== */
+$$('.tabs').forEach(group=>{
+  const container = group.parentElement;
+  $$('.tab-btn', group).forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const key = btn.dataset.tab || btn.dataset.chart;
+      $$('.tab-btn', group).forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      if(btn.dataset.chart){ setChartMode(btn.dataset.chart); return; }
+      $$('.tab-panel', container).forEach(p=>{
+        p.classList.toggle('active', p.id === key);
+      });
+    });
+  });
+});
+
+function bindAccordions(scope){
+  $$('.acc', scope || document).forEach(acc=>{
+    const h = $('.acc-h', acc), b = $('.acc-b', acc);
+    const setH = ()=>{ b.style.maxHeight = acc.classList.contains('open') ? (b.scrollHeight + 40) + 'px' : '0px'; };
+    h.addEventListener('click', ()=>{
+      const willOpen = !acc.classList.contains('open');
+      acc.classList.toggle('open', willOpen);
+      setH();
+    });
+    setH();
+    window.addEventListener('resize', setH);
+  });
+}
+bindAccordions();
+
+/* ===================================================================
+   3. BILIRUBIN METABOLISM FLOW
+=================================================================== */
+(function(){
+  const steps = [
+    {i:'🩸', t:'Hồng cầu già', s:'Hemoglobin (chủ yếu HbF)', k:'a',
+     d:'<b>Hồng cầu già</b> bị thực bào bởi đại thực bào ở <b>lách, gan, tủy xương</b>. Hemoglobin được phân giải thành globin (tái sử dụng acid amin), sắt (gắn transferrin, dự trữ) và <b>heme</b>. Khoảng <b>75–80%</b> bilirubin cơ thể có nguồn gốc từ đây; phần còn lại từ myoglobin, cytochrom, catalase, tryptophan pyrrolase và quá trình tạo hồng cầu không hiệu quả. Ở trẻ sơ sinh, khối lượng hồng cầu cao (Hb 16–18 g/dL) và đời sống hồng cầu chỉ <b>70–90 ngày</b> nên tải lượng heme lớn hơn nhiều.'},
+    {i:'⚙️', t:'Heme oxygenase', s:'Heme → Biliverdin', k:'a',
+     d:'<b>Heme oxygenase (HO-1)</b> mở vòng porphyrin của heme, giải phóng <b>CO</b> (carbon monoxid nội sinh — có vai trò tín hiệu sinh học) và sắt, tạo thành <b>biliverdin IXα</b> — sắc tố <b>màu xanh lục</b>. Đây là bước giới hạn tốc độ của cả con đường, cần NADPH và O₂. Ứ máu / khối máu tụ lớn (bướu huyết thanh) cung cấp lượng heme khổng lồ → tăng bilirubin.'},
+    {i:'🟢', t:'Biliverdin', s:'Sắc tố xanh lục', k:'a',
+     d:'<b>Biliverdin</b> là sản phẩm trung gian, có màu xanh lục. Đây chính là lý do các khối máu tụ (bầm tím) chuyển từ <b>tím → xanh → vàng</b> theo thời gian. Ở trẻ sơ sinh, nồng độ biliverdin trong máu rất thấp vì bước kế tiếp diễn ra cực nhanh.'},
+    {i:'🔁', t:'Biliverdin reductase', s:'Biliverdin → Bilirubin', k:'a',
+     d:'<b>Biliverdin reductase</b> khử cầu nối methenyl thành methylen, tạo <b>bilirubin IXα (4Z,15Z)</b> — sắc tố <b>vàng cam</b>. Phản ứng gần như hoàn toàn, vì vậy biliverdin không tích tụ. Lưu ý thú vị: cấu hình <b>4Z,15Z</b> tạo liên kết hydro nội phân tử, làm bilirubin trở nên <b>kỵ nước hoàn toàn</b> dù có các nhóm carboxyl — đây chính là lý do nó không tan trong nước và cần gắn albumin.'},
+    {i:'🟡', t:'Bilirubin tự do<br>(GIÁN TIẾP)', s:'Không tan nước · Gắn albumin', k:'a',
+     d:'<b>Bilirubin tự do / không liên hợp / bilirubin "gián tiếp"</b> (phản ứng gián tiếp với thuốc thử diazo).<br><br>• <b>Không tan trong nước</b> → không qua cầu thận, <b>không có trong nước tiểu</b>.<br>• Vận chuyển trong máu gắn với <b>albumin</b> (1 phân tử albumin mang 2 phân tử bilirubin; vị trí gắn chính có ái lực cao).<br>• Chỉ <b>bilirubin TỰ DO không gắn albumin</b> mới qua được hàng rào máu não → đây là dạng gây <b>độc thần kinh</b>.<br>• Các chất cạnh tranh gắn albumin (sulfonamid, <b>ceftriaxone</b>, aspirin, acid béo tự do, toan máu) làm tăng phân số tự do.<br>• Ở da, bilirubin gắn vào mô giàu <b>elastin</b> → gây màu vàng, lan theo thứ tự đầu–chân (cơ sở của quy tắc Kramer).'},
+    {i:'🫀', t:'Tuần hoàn', s:'Máu → Gan', k:'a',
+     d:'Phức hợp <b>bilirubin–albumin</b> theo máu tĩnh mạch cửa tới gan. Thời gian bán thải của bilirubin tự do ở trẻ sơ sinh khoảng <b>2–3 giờ</b>, ở người lớn khoảng <b>20 phút</b> — phản ánh sự chưa trưởng thành của toàn bộ hệ thống xử lý tại gan.'},
+    {i:'🧽', t:'Bắt giữ &amp; vận chuyển', s:'OATP → Ligandin', k:'a',
+     d:'Tại xoang gan, bilirubin tách khỏi albumin và được <b>OATP1B1/OATP1B3</b> vận chuyển vào bào tương tế bào gan. Trong bào tương, nó gắn với <b>ligandin (glutathione-S-transferase B)</b> để giữ lại và ngăn khuếch tán ngược. Ở trẻ sơ sinh, nồng độ ligandin thấp và chỉ tăng lên khi có các chất cảm ứng (phenobarbital có thể làm tăng).'},
+    {i:'🧪', t:'UGT1A1 — Liên hợp', s:'+ Acid glucuronic', k:'a',
+     d:'<b>UDP-glucuronosyltransferase 1A1 (UGT1A1)</b> gắn 1 rồi 2 phân tử acid glucuronic vào bilirubin, tạo <b>bilirubin monoglucuronide</b> và <b>diglucuronide</b> — tức <b>bilirubin LIÊN HỢP / TRỰC TIẾP</b>.<br><br>Đây là <b>nút thắt cổ chai</b> của trẻ sơ sinh:<br>• Hoạt tính UGT1A1 lúc sinh chỉ ≈ <b>0,1–1%</b> so với người lớn.<br>• Đạt khoảng <b>1%</b> sau 1–2 tuần.<br>• Thiếu hoàn toàn → <b>Crigler–Najjar type I</b>; giảm nặng → type II; giảm nhẹ → <b>Gilbert</b>.<br>• Đây là lý do vàng da <b>sinh lý</b> xảy ra ở đa số trẻ sơ sinh.'},
+    {i:'🚪', t:'Bài tiết qua mật', s:'MRP2 → Ống mật', k:'t',
+     d:'Bilirubin liên hợp (nay <b>tan trong nước</b>) được bơm chủ động vào ống mật bởi <b>MRP2</b> (multidrug resistance-associated protein 2).<br><br><b>Đây là bước bị suy giảm trong Ứ MẬT</b>: khiếm khuyết MRP2 (hội chứng Dubin–Johnson), khiếm khuyết bơm muối mật BSEP (PFIC2), giảm tổng hợp/vận chuyển acid mật, hoặc tắc nghẽn cơ học phía hạ lưu đều làm bilirubin liên hợp <b>trào ngược vào máu</b>.<br><br>Đặc điểm then chốt: bilirubin liên hợp tan trong nước → <b>qua cầu thận → nước tiểu sẫm màu</b>.'},
+    {i:'🟤', t:'Ruột', s:'Khử liên hợp · Vi khuẩn', k:'t',
+     d:'Tới ruột non, bilirubin liên hợp được thải qua phân. Ở ruột, <b>β-glucuronidase</b> (có nhiều trong <b>sữa mẹ</b> và niêm mạc ruột) thủy phân bilirubin glucuronide trở lại bilirubin tự do; vi khuẩn ruột khử tiếp thành <b>urobilinogen</b>.<br><br>Ở trẻ sơ sinh, hệ vi khuẩn ruột chưa phát triển nên phần lớn bilirubin liên hợp <b>không</b> được chuyển thành urobilinogen mà bị thủy phân ngược và <b>tái hấp thu</b> về gan qua tĩnh mạch cửa — gọi là <b>chu trình gan–ruột (enterohepatic circulation)</b>. Đây là cơ chế của vàng da do bú mẹ kém, tắc ruột, chậm thải phân su.'},
+    {i:'🟫', t:'Stercobilin', s:'→ Phân vàng / nâu', k:'t',
+     d:'<b>Urobilinogen</b> phần lớn bị oxy hóa thành <b>stercobilin</b> — sắc tố tạo màu <b>vàng / nâu</b> của phân bình thường.<br><br>⇒ <b>Khi đường mật bị tắc hoàn toàn</b> (teo đường mật, nang OMC gây tắc), không có mật xuống ruột → không có stercobilin → <b>PHÂN BẠC MÀU / TRẮNG ĐẤT SÉT (acholic stool)</b>. Đây là dấu hiệu lâm sàng <b>đặc hiệu nhất</b> của tắc mật ngoài gan.'},
+    {i:'💧', t:'Urobilin niệu', s:'→ Nước tiểu', k:'t',
+     d:'Khoảng <b>10–20%</b> urobilinogen được tái hấp thu, về gan, một phần ra lại mật, phần còn lại qua thận thành <b>urobilin</b> — làm nước tiểu có màu vàng nhạt.<br><br><b>Phân biệt quan trọng:</b><br>• <b>Tăng bilirubin GIÁN TIẾP</b>: bilirubin tự do không tan nước → <b>không có bilirubin niệu</b> → nước tiểu màu bình thường.<br>• <b>Tăng bilirubin TRỰC TIẾP (ứ mật)</b>: bilirubin liên hợp tan nước → qua cầu thận → <b>nước tiểu sẫm màu, nhuộm vàng tã</b> dù phân vẫn bạc màu. Sự kết hợp "tiểu sẫm + phân trắng" gần như xác định tắc mật.'}
+  ];
+
+  const host = $('#flow');
+  steps.forEach((st, idx)=>{
+    if(idx>0){
+      const ar = document.createElement('div');
+      ar.className='farrow'; ar.textContent='→'; host.appendChild(ar);
+    }
+    const b = document.createElement('button');
+    b.className = 'fnode' + (st.k==='t' ? ' teal':'');
+    b.type='button';
+    b.innerHTML = `<span class="fi">${st.i}</span><span class="ft">${st.t}</span><span class="fs">${st.s}</span>`;
+    b.addEventListener('click', ()=>{
+      $$('.fnode', host).forEach(n=>n.classList.remove('active'));
+      b.classList.add('active');
+      $('#fdetail').innerHTML = `<h4>${st.i} ${st.t.replace(/<br>/g,' — ')} <span class="tag ${st.k==='t'?'t-teal':'t-amber'}">${st.k==='t'?'Ứ mật / bài tiết':'Gián tiếp / chuyển hóa'}</span></h4>${st.d}`;
+    });
+    host.appendChild(b);
+  });
+})();
+
+/* ===================================================================
+   4. BILIRUBIN FRACTION CLASSIFIER
+=================================================================== */
+(function(){
+  const out = $('#classifyOut');
+  function run(){
+    const tsb = parseFloat($('#inTSB').value) || 0;
+    const db  = parseFloat($('#inDB').value)  || 0;
+    if(db > tsb + 0.001){
+      out.innerHTML = `<div class="rh">Lỗi dữ liệu</div><div style="color:var(--red);font-weight:600">Bilirubin trực tiếp không thể lớn hơn bilirubin toàn phần. Hãy kiểm tra lại kết quả xét nghiệm.</div>`;
+      return;
+    }
+    const ib = tsb - db;
+    const ratio = tsb > 0 ? (db/tsb)*100 : 0;
+    const umol = v => Math.round(v*17.1);
+
+    let verdict, cls, note, next;
+    if(tsb <= 0){
+      verdict='Nhập giá trị hợp lệ'; cls='rc-blue'; note=''; next='';
+    } else if(db >= 1.0 || (tsb > 5 && ratio >= 20)){
+      verdict='VÀNG DA Ứ MẬT (tăng bilirubin trực tiếp / liên hợp)';
+      cls='rc-red';
+      note=`Bilirubin trực tiếp <b>${nf(db)} mg/dL (${umol(db)} µmol/L)</b> = <b>${nf(ratio,1)}%</b> TSB. ${db>=1.0 ? 'DB ≥ 1,0 mg/dL là <b>luôn bất thường</b> ở trẻ sơ sinh.' : ''} ${tsb>5 && ratio>=20 ? 'Đồng thời DB/TSB ≥ 20% với TSB > 5 mg/dL.' : ''}`;
+      next=`<b>Hành động ngay:</b> hỏi màu phân &amp; nước tiểu · khám gan lách · làm AST/ALT/<b>GGT</b>/INR + vitamin K · α1-antitrypsin &amp; kiểu hình Pi · sàng lọc sơ sinh mở rộng (galactosemia, tyrosinemia) · <b>CMV PCR</b> nước tiểu/nước bọt (nếu &lt;3 tuần tuổi) · cấy máu/nước tiểu · TSH/FT4 · <b>siêu âm bụng lúc đói ≥4 giờ</b>. Nếu nghi <b>teo đường mật</b> → chuyển trung tâm ngoại nhi trong 24–48 giờ. Trẻ đã &gt;30 ngày tuổi cần được đánh giá <b>NGAY</b> vì cửa sổ Kasai đang đóng.`;
+    } else {
+      verdict='TĂNG BILIRUBIN GIÁN TIẾP (không liên hợp)';
+      cls='rc-amber';
+      note=`Bilirubin gián tiếp <b>${nf(ib)} mg/dL (${umol(ib)} µmol/L)</b>, trực tiếp chỉ <b>${nf(db)} mg/dL (${nf(ratio,1)}%)</b> — dưới ngưỡng ứ mật.`;
+      next=`<b>Hành động:</b> đối chiếu TSB với <b>ngưỡng AAP 2022</b> theo tuổi giờ + tuổi thai + yếu tố nguy cơ độc thần kinh (mục 06). Nếu vàng da &lt;24 giờ hoặc TSB tăng nhanh → tìm <b>tan máu</b>: nhóm máu mẹ–con, <b>DAT (Coombs)</b>, CTM + hồng cầu lưới + phết máu, <b>G6PD</b>. Nếu vàng da kéo dài &gt;2 tuần → vẫn phải loại trừ ứ mật (đo lại DB sau 1–2 tuần), suy giáp, G6PD, và theo dõi kỹ màu phân.`;
+    }
+
+    out.innerHTML = `
+      <div class="rh">Kết quả phân loại</div>
+      <div class="risk-strip">
+        <div class="risk-chip ${cls}"><b>${nf(tsb)}</b>TSB (mg/dL) · ${umol(tsb)} µmol/L</div>
+        <div class="risk-chip ${db>=1.0||(tsb>5&&ratio>=20)?'rc-red':'rc-green'}"><b>${nf(db)}</b>DB (mg/dL) · ${umol(db)} µmol/L</div>
+        <div class="risk-chip rc-amber"><b>${nf(ib)}</b>Gián tiếp (mg/dL)</div>
+        <div class="risk-chip rc-blue"><b>${nf(ratio,1)}%</b>DB / TSB</div>
+      </div>
+      <div style="margin-top:14px;font-weight:800;font-size:17px;color:${db>=1.0||(tsb>5&&ratio>=20)?'var(--red)':'var(--amber)'}">${verdict}</div>
+      ${note?`<p style="margin:8px 0 0;font-size:14.5px;color:var(--ink2)">${note}</p>`:''}
+      ${next?`<div class="callout ${db>=1.0||(tsb>5&&ratio>=20)?'co-red':'co-amber'}" style="margin:12px 0 0"><div class="ct">Bước tiếp theo</div><p style="margin:0">${next}</p></div>`:''}
+    `;
+  }
+  $('#btnClassify').addEventListener('click', run);
+  ['#inTSB','#inDB'].forEach(s=> $(s).addEventListener('input', run));
+  run();
+})();
+
+/* ===================================================================
+   5. KRAMER ZONES
+=================================================================== */
+(function(){
+  const zones = [
+    {n:1, t:'Vùng 1 — Đầu, mặt, cổ', s:'Vàng da nhẹ, thường sau 24–36 giờ', mg:'≈ 100 µmol/L', mgd:'~6 mg/dL', c:'#fde68a'},
+    {n:2, t:'Vùng 2 — Ngực, lưng, bụng trên rốn, cánh tay trên', s:'Vàng da lan xuống thân mình', mg:'≈ 150 µmol/L', mgd:'~9 mg/dL', c:'#fcd34d'},
+    {n:3, t:'Vùng 3 — Bụng dưới rốn, đùi', s:'Cần đo bilirubin để quyết định', mg:'≈ 200 µmol/L', mgd:'~12 mg/dL', c:'#fbbf24'},
+    {n:4, t:'Vùng 4 — Cẳng tay, cẳng chân', s:'Vàng da nặng — nguy cơ cao', mg:'≈ 250 µmol/L', mgd:'~15 mg/dL', c:'#f59e0b'},
+    {n:5, t:'Vùng 5 — Lòng bàn tay, bàn chân', s:'CẤP CỨU — nguy cơ kernicterus', mg:'&gt; 250 µmol/L', mgd:'&gt;15 mg/dL', c:'#ea580c'}
+  ];
+  const list = $('#zoneList');
+  zones.forEach(z=>{
+    const row = document.createElement('div');
+    row.className='zrow'; row.dataset.zone=z.n;
+    row.innerHTML = `<span class="zn" style="background:${z.c}">${z.n}</span>
+      <span><span class="zt">${z.t}</span><span class="zs">${z.s}</span></span>
+      <span class="zv">${z.mgd}<br><span style="color:var(--muted);font-size:11.5px">${z.mg}</span></span>`;
+    row.addEventListener('click', ()=> select(z.n));
+    row.addEventListener('mouseenter', ()=> highlight(z.n));
+    list.appendChild(row);
+  });
+  $$('.kz').forEach(g=>{
+    g.addEventListener('click', ()=> select(+g.dataset.zone));
+    g.addEventListener('mouseenter', ()=> highlight(+g.dataset.zone));
+  });
+  function highlight(n){
+    $$('.kz').forEach(g=>{
+      const on = +g.dataset.zone <= n;
+      g.style.opacity = on ? '1' : '.22';
+    });
+    $$('.zrow').forEach(r=> r.classList.toggle('active', +r.dataset.zone === n));
+  }
+  function select(n){
+    highlight(n);
+    const z = zones[n-1];
+    const sev = n<=2 ? 'co-green' : n===3 ? 'co-amber' : n===4 ? 'co-red' : 'co-red';
+    const msg = n<=2 ? 'Vàng da nhẹ. Trẻ khỏe, bú tốt: theo dõi, tăng cữ bú, đánh giá lại bằng TcB/TSB nếu có yếu tố nguy cơ.'
+      : n===3 ? 'Vàng da mức trung bình. Cần <b>đo bilirubin ngay</b> và đối chiếu ngưỡng theo tuổi giờ. Nếu vàng da &lt;48 giờ tuổi ở mức này → nhiều khả năng là bệnh lý.'
+      : n===4 ? 'Vàng da nặng. <b>Đo TSB khẩn</b>, đánh giá dấu hiệu thần kinh, tìm nguyên nhân tan máu. Khả năng cao cần chiếu đèn.'
+      : '🚨 <b>Vàng da rất nặng — nguy cơ kernicterus.</b> Nhập viện ngay, đo TSB, chiếu đèn tích cực, chuẩn bị thay máu nếu vượt ngưỡng hoặc có dấu hiệu bệnh não bilirubin.';
+    $('#fdetailKramer').innerHTML = `<div class="callout ${sev}" style="margin:0"><div class="ct">${z.t}</div><p style="margin:0">${msg}<br><span class="small">Ước tính TSB ≈ ${z.mgd} (${z.mg})</span></p></div>`;
+  }
+  const holder = document.createElement('div');
+  holder.id='fdetailKramer'; holder.style.marginTop='14px';
+  list.parentElement.appendChild(holder);
+  select(1);
+})();
+
+/* ===================================================================
+   6. THRESHOLD CALCULATOR + CHARTS
+=================================================================== */
+const CURVES = {
+  ptNorf: [[6,7.9],[12,10.1],[24,12.3],[36,14.2],[48,16.0],[60,17.5],[72,18.8],[96,20.7],[120,20.9],[168,21.1],[240,21.1],[336,21.1]],
+  etNorf: [[6,18.0],[12,19.7],[24,21.4],[36,22.8],[48,24.0],[60,25.1],[72,25.9],[96,27.0],[120,27.0],[168,27.0],[240,27.0],[336,27.0]],
+  ptRf:   [[6,6.5],[12,8.5],[24,10.5],[36,12.3],[48,14.0],[60,15.4],[72,16.6],[96,18.2],[120,18.2],[168,18.2],[240,18.2],[336,18.2]],
+  etRf:   [[6,13.5],[12,15.5],[24,17.7],[36,18.9],[48,20.1],[60,21.1],[72,22.1],[96,23.5],[120,23.5],[168,23.5],[240,23.5],[336,23.5]]
+};
+const BHUTANI = {
+  p40:[[12,3.2],[24,4.3],[36,5.2],[48,6.1],[60,6.7],[72,7.4],[96,8.2],[120,8.7],[144,9.0],[168,9.2]],
+  p75:[[12,4.2],[24,5.6],[36,6.9],[48,8.3],[60,9.3],[72,10.4],[96,12.0],[120,12.9],[144,13.4],[168,13.8]],
+  p95:[[12,6.0],[24,8.0],[36,10.1],[48,12.3],[60,13.7],[72,15.1],[96,17.1],[120,18.2],[144,18.9],[168,19.4]]
+};
+
+function thresholds(ga, age, risk){
+  const g = clamp(ga, 35, 42);
+  let pt, et;
+  if(risk === 'any'){
+    pt = interpPairs(CURVES.ptRf, age) + (g < 38 ? 0.6*(g-38) : 0);
+    et = interpPairs(CURVES.etRf, age) + (g < 38 ? 0.5*(g-38) : 0);
+  } else {
+    pt = interpPairs(CURVES.ptNorf, age) + 0.55*(g-38);
+    et = interpPairs(CURVES.etNorf, age) + (g < 38 ? 1.1*(g-38) : 0);
+  }
+  pt = Math.round(pt*10)/10;
+  et = Math.round(et*10)/10;
+  return {pt, et, esc: Math.round((et-2)*10)/10};
+}
+
+let chartMode = 'aap';
+function setChartMode(m){ chartMode = m; render(); }
+window.__redrawChart = ()=> render();
+
+const CW=860, CH=430, PL=56, PR=22, PT_=22, PB=48;
+function sx(h, maxX){ return PL + (h/maxX)*(CW-PL-PR); }
+function sy(v, maxY){ return CH-PB - (v/maxY)*(CH-PT_-PB); }
+function curvePath(pairs, maxX, maxY, step){
+  let d='';
+  for(let h=0; h<=maxX; h+=step){
+    const x = h<6 ? sx(6,maxX) : sx(h,maxX);
+    const y = sy(interpPairs(pairs,h), maxY);
+    d += (d? ' L':'M') + x.toFixed(1) + ' ' + y.toFixed(1);
+  }
+  return d;
+}
+function cssVar(name){ return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+
+function render(){
+  const ga   = clamp(parseFloat($('#inGA').value)||39, 35, 42);
+  let   age  = clamp(parseFloat($('#inAge').value)||48, 6, 336);
+  const bili = parseFloat($('#inBili').value);
+  const risk = $('#inRisk').value;
+
+  const maxX = chartMode === 'aap' ? 336 : 168;
+  const maxY = chartMode === 'aap' ? 30 : 22;
+  const step = maxX > 200 ? 4 : 2;
+
+  // curve arrays for chosen GA/risk
+  const ptPairs = [], etPairs = [];
+  for(let h=0;h<=maxX;h+=step){
+    const t = thresholds(ga, Math.max(6,h), risk);
+    ptPairs.push([h, t.pt]); etPairs.push([h, t.et]);
+  }
+
+  let grid='', xlab='', ylab='';
+  const yStep = maxY > 25 ? 5 : 2;
+  for(let v=0; v<=maxY; v+=yStep){
+    const y=sy(v,maxY);
+    grid += `<line x1="${PL}" y1="${y.toFixed(1)}" x2="${CW-PR}" y2="${y.toFixed(1)}" stroke="${cssVar('--line')}" stroke-width="1"/>`;
+    ylab += `<text x="${PL-9}" y="${(y+4).toFixed(1)}" text-anchor="end" font-family="JetBrains Mono,monospace" font-size="11" fill="${cssVar('--muted')}">${v}</text>`;
+  }
+  const xStep = maxX > 200 ? 48 : 24;
+  for(let h=0; h<=maxX; h+=xStep){
+    const x=sx(h,maxX);
+    grid += `<line x1="${x.toFixed(1)}" y1="${PT_}" x2="${x.toFixed(1)}" y2="${CH-PB}" stroke="${cssVar('--line')}" stroke-width="1" stroke-dasharray="2 4"/>`;
+    const lbl = h%48===0 ? `${h}h` : `${h}`;
+    xlab += `<text x="${x.toFixed(1)}" y="${CH-PB+18}" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="10.5" fill="${cssVar('--muted')}">${lbl}</text>`;
+    if(h%96===0) xlab += `<text x="${x.toFixed(1)}" y="${CH-PB+32}" text-anchor="middle" font-family="Be Vietnam Pro,sans-serif" font-size="10.5" fill="${cssVar('--muted')}">(${Math.round(h/24)} ngày)</text>`;
+  }
+
+  let extra='';
+  if(chartMode === 'bhutani'){
+    extra = `
+      <path d="${curvePath(BHUTANI.p95,maxX,maxY,2)}" fill="none" stroke="${cssVar('--red')}" stroke-width="3"/>
+      <path d="${curvePath(BHUTANI.p75,maxX,maxY,2)}" fill="none" stroke="${cssVar('--amber2')}" stroke-width="3"/>
+      <path d="${curvePath(BHUTANI.p40,maxX,maxY,2)}" fill="none" stroke="${cssVar('--green')}" stroke-width="3"/>
+      <path d="${curvePath(BHUTANI.p95,maxX,maxY,2)} L ${sx(maxX,maxX).toFixed(1)} ${sy(0,maxY).toFixed(1)} L ${sx(6,maxX).toFixed(1)} ${sy(0,maxY).toFixed(1)} Z" fill="${cssVar('--red')}" opacity=".07"/>
+      <path d="${curvePath(BHUTANI.p75,maxX,maxY,2)} L ${sx(maxX,maxX).toFixed(1)} ${sy(interpPairs(BHUTANI.p95,maxX),maxY).toFixed(1)} ${''}" fill="none"/>
+      <text x="${(sx(112,maxX)).toFixed(0)}" y="${(sy(20.4,maxY)).toFixed(0)}" font-family="Be Vietnam Pro,sans-serif" font-size="11" font-weight="700" fill="${cssVar('--red')}">Vùng nguy cơ CAO (≥P95)</text>
+      <text x="${(sx(112,maxX)).toFixed(0)}" y="${(sy(17.0,maxY)).toFixed(0)}" font-family="Be Vietnam Pro,sans-serif" font-size="11" font-weight="700" fill="${cssVar('--amber')}">Trung bình–cao (P75–P95)</text>
+      <text x="${(sx(118,maxX)).toFixed(0)}" y="${(sy(12.6,maxY)).toFixed(0)}" font-family="Be Vietnam Pro,sans-serif" font-size="11" font-weight="700" fill="${cssVar('--green')}">Trung bình–thấp (P40–P75)</text>
+      <text x="${(sx(124,maxX)).toFixed(0)}" y="${(sy(6.6,maxY)).toFixed(0)}" font-family="Be Vietnam Pro,sans-serif" font-size="11" font-weight="700" fill="${cssVar('--muted')}">Nguy cơ THẤP (&lt;P40)</text>
+    `;
+  } else {
+    const escPairs = etPairs.map(p=>[p[0], p[1]-2]);
+    extra = `
+      <path d="${curvePath(etPairs,maxX,maxY,step)}" fill="none" stroke="${cssVar('--red')}" stroke-width="3" stroke-dasharray="1 0"/>
+      <path d="${curvePath(escPairs,maxX,maxY,step)}" fill="none" stroke="${cssVar('--amber2')}" stroke-width="2.4" stroke-dasharray="6 4"/>
+      <path d="${curvePath(ptPairs,maxX,maxY,step)}" fill="none" stroke="${cssVar('--teal2')}" stroke-width="3.4"/>
+    `;
+  }
+
+  // patient point
+  const cAge = clamp(age, 6, maxX);
+  let marker='';
+  if(!isNaN(bili) && bili>=0 && bili<=maxY+6){
+    const px=sx(cAge,maxX), py=sy(clamp(bili,0,maxY),maxY);
+    marker = `
+      <line x1="${px.toFixed(1)}" y1="${PT_}" x2="${px.toFixed(1)}" y2="${CH-PB}" stroke="${cssVar('--ink')}" stroke-width="1.2" stroke-dasharray="4 4" opacity=".45"/>
+      <line x1="${PL}" y1="${py.toFixed(1)}" x2="${CW-PR}" y2="${py.toFixed(1)}" stroke="${cssVar('--ink')}" stroke-width="1.2" stroke-dasharray="4 4" opacity=".3"/>
+      <circle cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="10" fill="${cssVar('--ink')}" opacity=".14"/>
+      <circle cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="5.5" fill="${cssVar('--ink')}" stroke="#fff" stroke-width="2"/>
+      <text x="${(px+13).toFixed(1)}" y="${(py-8).toFixed(1)}" font-family="JetBrains Mono,monospace" font-size="12.5" font-weight="700" fill="${cssVar('--ink')}">${nf(bili)}</text>
+    `;
+  }
+
+  const svg = `<svg viewBox="0 0 ${CW} ${CH}" role="img" aria-label="Biểu đồ ngưỡng bilirubin">
+    ${grid}
+    ${extra}
+    <line x1="${PL}" y1="${CH-PB}" x2="${CW-PR}" y2="${CH-PB}" stroke="${cssVar('--line2')}" stroke-width="1.4"/>
+    <line x1="${PL}" y1="${PT_}" x2="${PL}" y2="${CH-PB}" stroke="${cssVar('--line2')}" stroke-width="1.4"/>
+    ${ylab}${xlab}
+    <text x="16" y="${PT_+4}" font-family="Be Vietnam Pro,sans-serif" font-size="11.5" font-weight="700" fill="${cssVar('--muted')}">mg/dL</text>
+    <text x="${(CW-PR)}" y="${CH-6}" text-anchor="end" font-family="Be Vietnam Pro,sans-serif" font-size="11.5" font-weight="700" fill="${cssVar('--muted')}">Tuổi sau sinh (giờ) · 24h = 1 ngày</text>
+    ${marker}
+  </svg>`;
+  $('#chartHost').innerHTML = svg;
+
+  // legend
+  $('#chartLegend').innerHTML = chartMode==='aap'
+    ? `<span><i style="background:var(--teal2)"></i>Ngưỡng <b>chiếu đèn</b> (GA ${nf(ga,1)} tuần · ${risk==='any'?'CÓ':'KHÔNG'} YTNC độc thần kinh)</span>
+       <span><i style="background:var(--amber2);background-image:repeating-linear-gradient(90deg,transparent 0 4px,#fff 4px 7px)"></i>Ngưỡng <b>leo thang chăm sóc</b> (ET−2)</span>
+       <span><i style="background:var(--red)"></i>Ngưỡng <b>thay máu</b></span>
+       <span><i style="background:var(--ink);border-radius:50%;width:11px;height:11px"></i>Vị trí bệnh nhi</span>`
+    : `<span><i style="background:var(--red)"></i>Đường bách phân vị thứ <b>95</b></span>
+       <span><i style="background:var(--amber2)"></i>Đường bách phân vị thứ <b>75</b></span>
+       <span><i style="background:var(--green)"></i>Đường bách phân vị thứ <b>40</b></span>
+       <span><i style="background:var(--ink);border-radius:50%;width:11px;height:11px"></i>Vị trí bệnh nhi</span>`;
+
+  // ---- interpretation ----
+  const t = thresholds(ga, age, risk);
+  let zone, zc, act;
+  if(isNaN(bili) || bili<0){ zone='Chưa nhập TSB'; zc='rc-blue'; act='Nhập nồng độ bilirubin toàn phần để nhận khuyến cáo.'; }
+  else if(bili >= t.et){
+    zone='🚨 VƯỢT NGƯỠNG THAY MÁU'; zc='rc-red';
+    act='<b>CẤP CỨU.</b> Nhập NICU ngay · chiếu đèn <b>tích cực</b> tối đa · bù dịch TM · lấy máu làm hòa hợp và <b>chuẩn bị thay máu kép 160 mL/kg</b> · hội chẩn chuyên khoa sơ sinh · theo dõi dấu hiệu bệnh não bilirubin mỗi giờ · nếu đã có dấu hiệu thần kinh (ưỡn cong, khóc thét, li bì) → thay máu <b>không chờ</b> kết quả.';
+  } else if(bili >= t.esc){
+    zone='⚠️ NGƯỠNG LEO THANG CHĂM SÓC'; zc='rc-red';
+    act='TSB trong vòng <b>2 mg/dL dưới ngưỡng thay máu</b> → chuyển <b>NICU</b>, chiếu đèn tích cực + bù dịch TM, đo lại TSB sau <b>4–6 giờ</b>, gửi mẫu máu dự phòng thay máu, cân nhắc <b>IVIG</b> nếu có bệnh tan máu đồng miễn dịch và TSB vẫn tăng.';
+  } else if(bili >= t.pt){
+    zone='💡 CHỈ ĐỊNH CHIẾU ĐÈN'; zc='rc-amber';
+    act='Bắt đầu <b>chiếu đèn tích cực</b> (≥30 µW/cm²/nm, 430–490 nm, tối đa diện tích da, che mắt) · tối ưu nuôi dưỡng và bù dịch · đo lại TSB sau <b>4–6 giờ</b> · tìm nguyên nhân (DAT, G6PD, hồng cầu lưới nếu chưa làm) · theo dõi dấu hiệu thần kinh.';
+  } else if(bili >= t.pt - 3){
+    zone='👀 GẦN NGƯỠNG — THEO DÕI SÁT'; zc='rc-amber';
+    act='TSB nằm trong <b>3 mg/dL dưới ngưỡng chiếu đèn</b> → <b>đo lại TSB trong 6–12 giờ</b> (sớm hơn nếu có YTNC độc thần kinh hoặc tăng nhanh), tăng cữ bú, đảm bảo đủ dịch, không cho xuất viện sớm, hẹn tái khám cụ thể.';
+  } else {
+    zone='✅ DƯỚI NGƯỠNG'; zc='rc-green';
+    act='Chưa có chỉ định chiếu đèn theo AAP 2022. Tiếp tục <b>nuôi dưỡng tốt (8–12 cữ bú/ngày)</b>, đánh giá lại nguy cơ và <b>đo lại bilirubin</b> theo lịch theo dõi sau xuất viện. Vẫn phải tìm và xử trí nguyên nhân nếu vàng da &lt;24 giờ, tăng nhanh hoặc kéo dài &gt;2 tuần.';
+  }
+
+  let bhZone='', bhNote='';
+  if(!isNaN(bili) && age<=168){
+    const p40=interpPairs(BHUTANI.p40,age), p75=interpPairs(BHUTANI.p75,age), p95=interpPairs(BHUTANI.p95,age);
+    if(bili>=p95){ bhZone='VÙNG NGUY CƠ CAO (≥ P95)'; bhNote='Nguy cơ cao bị tăng bilirubin nặng — theo dõi rất sát, cân nhắc chiếu đèn theo ngưỡng.'; }
+    else if(bili>=p75){ bhZone='VÙNG TRUNG BÌNH–CAO (P75–P95)'; bhNote='Nguy cơ trung bình–cao; cần đo lại sớm và đánh giá lại yếu tố nguy cơ.'; }
+    else if(bili>=p40){ bhZone='VÙNG TRUNG BÌNH–THẤP (P40–P75)'; bhNote='Nguy cơ trung bình–thấp; theo dõi định kỳ theo lịch sau xuất viện.'; }
+    else { bhZone='VÙNG NGUY CƠ THẤP (&lt; P40)'; bhNote='Nguy cơ thấp; có thể theo dõi thường quy. Lưu ý: nomogram Bhutani <b>không áp dụng</b> cho trẻ &lt;35 tuần, đang chiếu đèn, hoặc đã truyền máu.'; }
+  }
+
+  $('#threshOut').innerHTML = `
+    <div class="result" style="margin-top:14px">
+      <div class="rh">Ngưỡng AAP 2022 cho bệnh nhi này · GA ${nf(ga,1)} tuần · ${Math.round(age)} giờ tuổi · ${risk==='any'?'<b style="color:var(--red)">CÓ yếu tố nguy cơ độc thần kinh</b>':'không có YTNC độc thần kinh'}</div>
+      <div class="risk-strip">
+        <div class="risk-chip rc-blue"><b>${nf(t.pt)}</b>mg/dL · Ngưỡng <b>CHIẾU ĐÈN</b><br><span class="small">${Math.round(t.pt*17.1)} µmol/L</span></div>
+        <div class="risk-chip rc-amber"><b>${nf(t.esc)}</b>mg/dL · Ngưỡng <b>LEO THANG</b> (ET−2)<br><span class="small">${Math.round(t.esc*17.1)} µmol/L</span></div>
+        <div class="risk-chip rc-red"><b>${nf(t.et)}</b>mg/dL · Ngưỡng <b>THAY MÁU</b><br><span class="small">${Math.round(t.et*17.1)} µmol/L</span></div>
+      </div>
+      <div style="margin-top:16px" class="risk-chip ${zc}" style="display:block">
+        <div style="font-weight:800;font-size:17px;margin-bottom:6px">${zone}</div>
+        <div style="font-size:14.4px;color:var(--ink2)">${act}</div>
+      </div>
+      ${bhZone?`<div style="margin-top:12px;padding:11px 13px;border-radius:9px;background:var(--surface);border:1px solid var(--line);font-size:13.6px;color:var(--ink2)"><b style="color:var(--ink)">Nomogram Bhutani:</b> ${bhZone} — ${bhNote}</div>`:''}
+      <div class="small" style="margin-top:10px">Giá trị <b>nội suy</b> từ đồ thị AAP 2022 (Pediatrics 2022;150(3):e2022058859). Chỉ dùng cho <b>mục đích giảng dạy</b> — luôn đối chiếu biểu đồ chính thức và phán đoán lâm sàng.</div>
+    </div>`;
+}
+
+(function(){
+  const range = $('#ageRange'), inp = $('#inAge'), lbl = $('#ageLbl');
+  function syncAge(v){
+    v = clamp(Math.round(+v||0), 6, 336);
+    inp.value = v; range.value = v;
+    const d = Math.floor(v/24), h = v%24;
+    lbl.textContent = d>0 ? `${v} giờ (ngày ${d}${h?` + ${h} giờ`:''})` : `${v} giờ`;
+    render();
+  }
+  range.addEventListener('input', e=> syncAge(e.target.value));
+  inp.addEventListener('input', e=> syncAge(e.target.value));
+  ['#inGA','#inBili','#inRisk'].forEach(s=> $(s).addEventListener('input', render));
+  $('#inRisk').addEventListener('change', render);
+  syncAge(48);
+})();
+
+/* ===================================================================
+   7. UNIT CONVERTER
+=================================================================== */
+(function(){
+  let unit='mg';
+  const inp=$('#convIn'), out=$('#convOut');
+  $$('#convSeg button').forEach(b=> b.addEventListener('click',()=>{
+    $$('#convSeg button').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active'); unit=b.dataset.u; run();
+  }));
+  inp.addEventListener('input', run);
+  function run(){
+    const v=parseFloat(inp.value);
+    if(isNaN(v)){ out.textContent='—'; return; }
+    out.textContent = unit==='mg' ? nf(v*17.1,1)+' µmol/L' : nf(v/17.1,2)+' mg/dL';
+  }
+  run();
+})();
+
+/* ===================================================================
+   8. STOOL COLOR CARD
+=================================================================== */
+(function(){
+  const items=[
+    {n:'Phân su', hex:'#1f2a24', hex2:'#0d1410', ok:false, tag:'Bình thường (ngày 1–2)',
+     d:'Phân su màu <b>xanh đen, quánh dính như hắc ín</b>, vô khuẩn, chứa bilirubin, tế bào ruột bong, dịch mật, nước ối. Phải được thải trong <b>24–48 giờ đầu</b>. Chậm thải phân su gợi ý <b>tắc ruột</b>, <b>bệnh Hirschsprung</b>, xơ nang, hội chứng nút phân su — và làm tăng chu trình gan–ruột.'},
+    {n:'Chuyển tiếp', hex:'#4a5c34', hex2:'#3a4a28', ok:false, tag:'Bình thường (ngày 2–4)',
+     d:'Phân <b>xanh lục – nâu vàng</b>, loãng hơn, xuất hiện khi trẻ bắt đầu bú. Đây là dấu hiệu tốt cho thấy ruột đang lưu thông và mật đã xuống ruột.'},
+    {n:'Phân sữa mẹ', hex:'#e3b02b', hex2:'#c8901a', ok:true, tag:'BÌNH THƯỜNG — mong muốn',
+     d:'<b>Vàng mù tạt, hạt lổn nhổn</b> ("seedy"), mùi hơi chua, không tanh, loãng. Cho thấy <b>đường mật thông thương tốt</b>. Đây là màu phân lý tưởng ở trẻ bú mẹ.'},
+    {n:'Phân sữa công thức', hex:'#c9962e', hex2:'#a87a20', ok:true, tag:'BÌNH THƯỜNG',
+     d:'<b>Vàng nâu, đặc hơn</b> như bơ đậu phộng, mùi nặng hơn phân sữa mẹ. Vẫn là phân có mật bình thường.'},
+    {n:'Nhạt màu', hex:'#d8c48a', hex2:'#c2ac6c', ok:false, tag:'ĐÁNG LO — theo dõi sát',
+     d:'Phân <b>vàng rất nhạt, beige</b> — lượng stercobilin giảm. Chưa phải bạc màu hoàn toàn nhưng <b>không bình thường</b>. Cần hỏi lại nhiều ngày, đo <b>bilirubin trực tiếp</b> và siêu âm nếu kéo dài. Có thể gặp trong tắc mật một phần, viêm gan sơ sinh, nuôi ăn tĩnh mạch.'},
+    {n:'BẠC MÀU', hex:'#efe9dc', hex2:'#ddd6c6', ok:false, tag:'🚨 BẤT THƯỜNG — TẮC MẬT',
+     d:'<b>Phân trắng / xám đất sét / trắng như phấn.</b> Đây là dấu hiệu <b>đặc hiệu nhất của tắc nghẽn đường mật hoàn toàn</b> — không có mật xuống ruột nên không tạo stercobilin. Nguyên nhân hàng đầu cần loại trừ khẩn: <b>TEO ĐƯỜNG MẬT</b>, nang ống mật chủ gây tắc. <b>Hành động ngay:</b> đo bilirubin trực tiếp, GGT, INR, siêu âm bụng lúc đói và chuyển trung tâm gan mật nhi / ngoại nhi trong 24–48 giờ. Lưu ý: trong teo đường mật giai đoạn sớm, phân có thể <b>vàng từng đợt</b> rồi mới bạc màu hẳn — vì vậy phải theo dõi liên tục.'}
+  ];
+  const host=$('#stoolGrid'), out=$('#stoolOut');
+  items.forEach((it,i)=>{
+    const b=document.createElement('button');
+    b.className='stool'; b.type='button';
+    b.innerHTML=`<span class="sw" style="background:radial-gradient(circle at 38% 34%, ${it.hex}, ${it.hex2})"></span>
+      <span class="sl"><span class="sn">${it.n}</span><span class="sm">${it.tag}</span></span>`;
+    b.addEventListener('click',()=>{
+      $$('.stool',host).forEach(x=>x.classList.remove('active'));
+      b.classList.add('active');
+      out.innerHTML=`<div class="rh">${it.n} — ${it.tag}</div><div style="font-size:14.6px;color:var(--ink2);margin-top:4px">${it.d}</div>`;
+      out.style.borderColor = it.ok ? 'var(--green-line)' : 'var(--line)';
+    });
+    host.appendChild(b);
+  });
+})();
+
+/* ===================================================================
+   9. QUIZ
+=================================================================== */
+(function(){
+  const QS=[
+    {q:'Tiêu chuẩn sinh hóa xác định <b>ứ mật sơ sinh</b> (tăng bilirubin liên hợp) theo NASPGHAN là:',
+     o:['Bilirubin toàn phần > 15 mg/dL','Bilirubin trực tiếp ≥ 1,0 mg/dL (17,1 µmol/L), hoặc DB/TSB ≥ 20% khi TSB > 5 mg/dL','Bilirubin trực tiếp > 2 mg/dL kèm vàng da > 7 ngày','Tỉ lệ DB/TSB > 50% ở mọi lứa tuổi'],
+     a:1,
+     e:'Ngưỡng cũ là DB > 2 mg/dL hoặc > 20% TSB. NASPGHAN đã <b>hạ xuống DB ≥ 1,0 mg/dL</b> để tránh bỏ sót teo đường mật giai đoạn sớm. Khi TSB > 5 mg/dL, tỉ lệ <b>DB/TSB ≥ 20%</b> cũng đủ xác định ứ mật.'},
+    {q:'Đặc điểm nào sau đây <b>LUÔN</b> gợi ý vàng da bệnh lý chứ không phải vàng da sinh lý?',
+     o:['Vàng da xuất hiện vào ngày thứ 3','Vàng da xuất hiện <b>trước 24 giờ tuổi</b>','Đỉnh vàng da ở ngày thứ 4 với TSB 11 mg/dL','Vàng da hết trong 6 ngày ở trẻ đủ tháng khỏe'],
+     a:1,
+     e:'<b>Không có vàng da sinh lý nào xuất hiện trong 24 giờ đầu.</b> Vàng da < 24 giờ → nghĩ ngay đến <b>tan máu</b> (bất đồng ABO/Rh, G6PD) hoặc <b>nhiễm trùng huyết</b>. Vàng da sinh lý bắt đầu ngày 2–3, đỉnh ngày 3–5, hết trong 7 ngày.'},
+    {q:'Nguyên nhân ngoại khoa thường gặp <b>nhất</b> của vàng da ứ mật ở trẻ sơ sinh là:',
+     o:['Nang ống mật chủ','Hội chứng Alagille','<b>Teo đường mật</b>','Thiếu α1-antitrypsin'],
+     a:2,
+     e:'<b>Teo đường mật</b> chiếm khoảng <b>35–40%</b> mọi trường hợp ứ mật sơ sinh và là nguyên nhân ngoại khoa hàng đầu, đồng thời là chỉ định ghép gan trẻ em phổ biến nhất. Alagille và α1AT là nguyên nhân <i>nội khoa</i>.'},
+    {q:'Bộ ba lâm sàng kinh điển gợi ý teo đường mật ở trẻ 5 tuần tuổi:',
+     o:['Vàng da tươi + phân vàng + tiểu trong','Vàng da xanh xám kéo dài + <b>phân bạc màu</b> + tiểu sẫm màu + gan to chắc','Vàng da + co giật + bú kém + khóc thét','Vàng da + lách to + thiếu máu + hồng cầu lưới tăng'],
+     a:1,
+     e:'Vàng da <b>ứ mật kéo dài</b> (da xanh xám, xỉn) + <b>phân bạc màu</b> (không có mật xuống ruột) + <b>tiểu sẫm</b> (bilirubin liên hợp qua thận) + <b>gan to, mật độ chắc</b> do xơ hóa sớm. GGT thường tăng rất cao.'},
+    {q:'Thời điểm tối ưu để thực hiện phẫu thuật Kasai (nối mật – ruột) trong teo đường mật:',
+     o:['Trước 45–60 ngày tuổi','Trong 3 tháng đầu, bất kỳ lúc nào cũng như nhau','Sau 90 ngày tuổi để gan trưởng thành hơn','Chỉ sau khi đã thử UDCA 3 tháng không đáp ứng'],
+     a:0,
+     e:'Tỉ lệ dẫn lưu mật thành công đạt <b>70–90%</b> nếu mổ <b>trước 45 ngày tuổi</b>, giảm còn ~60–70% ở 45–60 ngày, 30–50% ở 61–90 ngày và <b>&lt;20% sau 90–120 ngày</b>. Đây là lý do không được "chờ xem" ở trẻ vàng da kéo dài.'},
+    {q:'Cơ chế tác dụng chính của liệu pháp chiếu đèn là:',
+     o:['Tăng hoạt tính UGT1A1 để liên hợp bilirubin','Ức chế heme oxygenase, giảm sản xuất bilirubin','<b>Quang đồng phân hóa</b> bilirubin thành lumirubin và các đồng phân tan trong nước, đào thải qua mật/nước tiểu không cần liên hợp','Gắn bilirubin với albumin mạnh hơn để giảm phân số tự do'],
+     a:2,
+     e:'Ánh sáng <b>430–490 nm</b> xuyên da, hấp thu bởi bilirubin, tạo các đồng phân cấu hình (4Z,15E) và quan trọng nhất là <b>LUMIRUBIN</b> (đồng phân cấu trúc, không đảo ngược) — tan trong nước, thải qua mật và nước tiểu mà <b>không cần liên hợp với acid glucuronic</b>. Ức chế heme oxygenase là cơ chế của tin-mesoporphyrin.'},
+    {q:'Bộ tứ di chứng kinh điển của kernicterus mạn gồm:',
+     o:['Bại não thể co cứng + điếc dẫn truyền + lác mắt + sâu răng','<b>Bại não thể múa vờn/rối loạn vận động ngoại tháp + mất thính lực + liệt nhìn lên + thiểu sản men răng</b>','Động kinh + chậm phát triển tâm thần + mù vỏ não + co rút khớp','Giảm trương lực + điếc + đục thủy tinh thể + bệnh tim'],
+     a:1,
+     e:'Tổn thương chủ yếu ở <b>globus pallidus</b> và <b>nhân dưới đồi</b> (MRI: tăng tín hiệu T2 đối xứng) cùng nhân dây thần kinh sọ. Biểu hiện: <b>bại não thể múa vờn</b> (athetoid), <b>mất thính lực/bệnh lý thần kinh thính giác</b>, <b>liệt nhìn lên</b>, và <b>thiểu sản men răng sữa</b>. Trí tuệ có thể tương đối bảo tồn.'},
+    {q:'Theo AAP 2022, yếu tố nào sau đây <b>KHÔNG</b> thuộc nhóm "yếu tố nguy cơ độc thần kinh" (hyperbilirubinemia neurotoxicity risk factor)?',
+     o:['Albumin huyết thanh < 3,0 g/dL','Thiếu G6PD','<b>Anh/chị/em ruột từng phải chiếu đèn</b>','Nhiễm trùng huyết'],
+     a:2,
+     e:'"Anh/chị/em ruột từng chiếu đèn" là <b>yếu tố nguy cơ TĂNG bilirubin</b> (dùng để dự đoán và quyết định tần suất theo dõi), <b>không</b> phải yếu tố nguy cơ độc thần kinh. Nhóm nguy cơ độc thần kinh (làm <b>hạ thấp ngưỡng</b>) gồm: albumin < 3,0 g/dL, bệnh tan máu đồng miễn dịch, <b>G6PD</b>, các bệnh tan máu khác, nhiễm trùng huyết, bệnh cảnh lâm sàng không ổn định trong 24 giờ trước.'},
+    {q:'Trẻ sơ sinh ứ mật có <b>GGT bình thường hoặc thấp</b>. Nhóm nguyên nhân nào sau đây phù hợp nhất?',
+     o:['Teo đường mật, nang ống mật chủ','Hội chứng Alagille, PFIC3','<b>PFIC1, PFIC2, rối loạn tổng hợp acid mật</b>','Thiếu α1-antitrypsin, ứ mật do nuôi ăn tĩnh mạch'],
+     a:2,
+     e:'Nghịch lý kinh điển: ứ mật nặng nhưng <b>GGT không tăng</b> → nghĩ tới <b>PFIC1 (ATP8B1)</b>, <b>PFIC2 (ABCB11/BSEP)</b>, <b>BRIC</b>, và <b>rối loạn tổng hợp acid mật</b> (điều trị đặc hiệu bằng acid cholic — đáp ứng rất tốt). Ngược lại GGT cao gợi ý teo đường mật, Alagille, PFIC3, α1AT, nang OMC, PNAC.'},
+    {q:'Về kỹ thuật thay máu kép (double-volume exchange transfusion) ở trẻ sơ sinh đủ tháng, phát biểu nào ĐÚNG?',
+     o:['Thể tích trao đổi = 80 mL/kg, thực hiện trong 30 phút','<b>Thể tích trao đổi = 160 mL/kg (2 × 80 mL/kg), thực hiện trong 1–2 giờ</b>','Thể tích trao đổi = 200 mL/kg, dùng máu toàn phần tươi chưa chiếu xạ','Chỉ cần ngưng chiếu đèn trong lúc thay máu'],
+     a:1,
+     e:'Thay máu <b>kép = 2 × thể tích máu (80 mL/kg) = 160 mL/kg</b>, thực hiện trong <b>1–2 giờ</b>, loại bỏ ~85–90% bilirubin trong tuần hoàn. Máu dùng phải là <b>nhóm O, Rh âm, &lt;7 ngày lưu trữ, ĐÃ CHIẾU XẠ, CMV âm/đã lọc bạch cầu</b>. Phải <b>DUY TRÌ chiếu đèn tích cực trong và sau</b> thay máu vì bilirubin tái phân bố từ mô.'}
+  ];
+
+  const host=$('#quizHost');
+  let answered=0, correct=0;
+
+  function build(){
+    host.innerHTML=''; answered=0; correct=0;
+    $('#scoreBar').style.display='none';
+    $('#quizIntro').style.display='block';
+    QS.forEach((item,qi)=>{
+      const d=document.createElement('div'); d.className='q'; d.dataset.q=qi;
+      d.innerHTML=`<div class="qn">Câu ${qi+1} / ${QS.length}</div><div class="qt">${item.q}</div>`;
+      const letters=['A','B','C','D'];
+      item.o.forEach((opt,oi)=>{
+        const b=document.createElement('button'); b.className='opt'; b.type='button';
+        b.innerHTML=`<span class="ok">${letters[oi]}</span><span>${opt}</span>`;
+        b.addEventListener('click',()=>{
+          if(d.dataset.done) return;
+          d.dataset.done='1'; answered++;
+          $$('.opt',d).forEach(x=>x.disabled=true);
+          const btns=$$('.opt',d);
+          btns[item.a].classList.add('correct');
+          if(oi!==item.a) b.classList.add('wrong'); else correct++;
+          const exp=document.createElement('div'); exp.className='exp show';
+          exp.innerHTML=`<b>${oi===item.a?'✔ Chính xác':'✘ Chưa đúng'}.</b> ${item.e}`;
+          d.appendChild(exp);
+          if(answered===QS.length) finish();
+        });
+        d.appendChild(b);
+      });
+      host.appendChild(d);
+    });
+  }
+
+  function finish(){
+    $('#quizIntro').style.display='none';
+    const bar=$('#scoreBar'); bar.style.display='flex';
+    const pct=Math.round(correct/QS.length*100);
+    $('#ringTxt').textContent=correct+'/'+QS.length;
+    const circ=2*Math.PI*31;
+    const ring=$('#ringFill');
+    ring.style.strokeDasharray=circ.toFixed(1);
+    ring.style.strokeDashoffset=(circ*(1-correct/QS.length)).toFixed(1);
+    ring.style.stroke = pct>=80?'var(--green)':pct>=60?'var(--amber2)':'var(--red)';
+    let title, msg;
+    if(pct>=90){ title='🏆 Xuất sắc!'; msg='Bạn đã nắm vững cả hai nhánh bệnh lý vàng da sơ sinh. Hãy ôn lại phần ngưỡng điều trị và Kasai để hoàn thiện.'; }
+    else if(pct>=70){ title='👍 Tốt!'; msg='Kiến thức nền vững. Xem lại những câu sai, đặc biệt về yếu tố nguy cơ độc thần kinh và phân biệt GGT cao/thấp.'; }
+    else if(pct>=50){ title='📖 Cần ôn lại'; msg='Đọc lại mục 03 (nguyên nhân gián tiếp), mục 09–10 (ứ mật) và mục 13 (bảng so sánh) rồi làm lại bài.'; }
+    else { title='🔁 Hãy học lại từ đầu'; msg='Bắt đầu từ mục 01 (chuyển hóa bilirubin) và mục 02 (tiếp cận), sau đó quay lại làm bài lượng giá.'; }
+    $('#scoreTitle').textContent=title+' — '+pct+'%';
+    $('#scoreMsg').textContent=msg;
+    bar.scrollIntoView({behavior:'smooth', block:'center'});
+  }
+
+  $('#retryBtn').addEventListener('click', ()=>{ build(); $('#quiz').scrollIntoView({behavior:'smooth'}); });
+  build();
+})();
+
+/* ===================================================================
+   10. SMOOTH ANCHOR (offset) + initial layout
+=================================================================== */
+window.addEventListener('load', ()=>{
+  $$('.acc.open .acc-b').forEach(b=> b.style.maxHeight = (b.scrollHeight+40)+'px');
+  if(window.__redrawChart) window.__redrawChart();
+});
+window.addEventListener('resize', ()=>{
+  $$('.acc.open .acc-b').forEach(b=> b.style.maxHeight = (b.scrollHeight+40)+'px');
+  if(window.__redrawChart) window.__redrawChart();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,584 @@
+{
+  "topic": "PED-46: Tiếp cận Gan to ở Trẻ em",
+  "version": "v2",
+  "date": "2026-09-13",
+  "total_cards": 48,
+  "cards": [
+    {
+      "id": "PED46-001",
+      "card_type": "cloze",
+      "text": "Tiêu chuẩn chẩn đoán Suy gan cấp ở trẻ em (PALF) bao gồm bằng chứng tổn thương gan cấp tính, không có tiền sử bệnh gan mạn tính và rối loạn đông máu với ngưỡng INR {{c1::> 1.5}} khi có bệnh não gan.",
+      "extra": "Nếu trẻ chưa có biểu hiện bệnh não gan, ngưỡng chẩn đoán PALF được nâng lên thành INR > 2.0 không hồi phục sau tiêm tĩnh mạch Vitamin K.",
+      "tags": [
+        "PED-46",
+        "PALF",
+        "Co-do-cap-cuu",
+        "INR"
+      ]
+    },
+    {
+      "id": "PED46-002",
+      "card_type": "cloze",
+      "text": "Ở trẻ em nghi ngờ suy gan cấp (PALF) chưa có biểu hiện bệnh não gan, tiêu chuẩn rối loạn đông máu bắt buộc để xác định PALF là ngưỡng INR {{c1::> 2.0}} sau khi đã bù Vitamin K.",
+      "extra": "Cơ chế: Yếu tố VII do gan sản xuất có thời gian bán hủy ngắn nhất (~6 giờ), phản ánh suy giảm chức năng tổng hợp của gan nhạy bén hơn nhiều so với men gan AST/ALT.",
+      "tags": [
+        "PED-46",
+        "PALF",
+        "Co-do-cap-cuu",
+        "INR"
+      ]
+    },
+    {
+      "id": "PED46-003",
+      "card_type": "cloze",
+      "text": "Trong xử trí cấp cứu nghi ngờ Suy gan cấp trẻ em (PALF), thủ thuật cận lâm sàng xâm lấn bị {{c1::chống chỉ định tuyệt đối}} là sinh thiết gan qua da.",
+      "extra": "Nguy cơ: Tình trạng rối loạn đông máu nặng (INR kéo dài, giảm tiểu cầu) khiến chọc kim sinh thiết vào nhu mô gan gây xuất huyết nội ổ bụng ồ ạt, đe dọa tính mạng tử vong.",
+      "tags": [
+        "PED-46",
+        "PALF",
+        "Chong-chi-dinh",
+        "Sinh-thiet-gan"
+      ]
+    },
+    {
+      "id": "PED46-004",
+      "card_type": "cloze",
+      "text": "Hiện tượng men gan AST và ALT giảm nhanh đột ngột trong khi Bilirubin máu tiếp tục tăng vọt ở bệnh nhân viêm gan cấp tối cấp được gọi là hiện tượng {{c1::phân ly men gan - bilirubin}}.",
+      "extra": "Cơ chế: Đây là dấu hiệu cảnh báo hoại tử tế bào gan ồ ạt đến mức không còn tế bào gan sống để giải phóng enzyme vào máu, báo hiệu nguy cơ tử vong rất cao chứ không phải bệnh thuyên giảm.",
+      "tags": [
+        "PED-46",
+        "PALF",
+        "Cam-bay",
+        "Men-gan"
+      ]
+    },
+    {
+      "id": "PED46-005",
+      "card_type": "cloze",
+      "text": "Trên lâm sàng, bờ trên của gan bình thường được xác định bằng phương pháp gõ đục nằm tại vị trí {{c1::khoang liên sườn 5}} trên đường giữa xương đòn phải.",
+      "extra": "Nếu diện đục bờ trên bị đẩy xuống KLS 6 - 7 nhưng khoảng cách bờ trên - bờ dưới không tăng, đó là hiện tượng gan sa do ứ khí phổi hoặc tràn khí màng phổi.",
+      "tags": [
+        "PED-46",
+        "Kham-gan",
+        "Bo-tren",
+        "KLS5"
+      ]
+    },
+    {
+      "id": "PED46-006",
+      "card_type": "cloze",
+      "text": "Bờ dưới của gan bình thường khi sờ nắn trên đường giữa đòn phải ở trẻ nhỏ dưới 2 tuổi có thể sờ thấy dưới bờ sườn phải không quá {{c1::2 cm}}.",
+      "extra": "Ở trẻ lớn hơn và thiếu niên, bờ dưới gan bình thường sờ thấy dưới bờ sườn phải không quá 1 cm hoặc không sờ chạm.",
+      "tags": [
+        "PED-46",
+        "Kham-gan",
+        "Bo-duoi",
+        "Tre-nho"
+      ]
+    },
+    {
+      "id": "PED46-007",
+      "card_type": "cloze",
+      "text": "Kích thước chiều cao gan trung bình đo trên lâm sàng ở trẻ 1 tuần tuổi là {{c1::4,5 – 5 cm}}.",
+      "extra": "Kích thước này tăng dần theo lứa tuổi: Trẻ nhỏ đạt 6 - 7 cm; trẻ 12 tuổi đạt 7 - 8 cm (theo barem Giáo trình Nhi khoa YTB).",
+      "tags": [
+        "PED-46",
+        "Kich-thuoc-gan",
+        "So-sinh",
+        "1-tuan"
+      ]
+    },
+    {
+      "id": "PED46-008",
+      "card_type": "cloze",
+      "text": "Kích thước chiều cao gan trung bình đo trên lâm sàng ở trẻ nhỏ là {{c1::6 – 7 cm}} và ở trẻ 12 tuổi là {{c1::7 – 8 cm}}.",
+      "extra": "Ở trẻ trên 12 tuổi, giáo trình Nelson 1996 đưa ra công thức hồi quy dựa trên cân nặng W (pound) và chiều cao H (inch).",
+      "tags": [
+        "PED-46",
+        "Kich-thuoc-gan",
+        "Tre-nho",
+        "12-tuoi"
+      ]
+    },
+    {
+      "id": "PED46-009",
+      "card_type": "cloze",
+      "text": "Theo Nelson 1996, công thức ước tính kích thước gan ở trẻ trai > 12 tuổi là: Kích thước gan (cm) = {{c1::0,032 × W (pound) + 0,18 × H (inch) - 7,86}}.",
+      "extra": "Công thức tương ứng ở trẻ gái là: 0,027 × W (pound) + 0,22 × H (inch) - 10,75. Lưu ý: 1 pound ≈ 0,453 kg; 1 inch ≈ 2,54 cm.",
+      "tags": [
+        "PED-46",
+        "Cong-thuc-Nelson",
+        "Tre-trai",
+        "12-tuoi"
+      ]
+    },
+    {
+      "id": "PED46-010",
+      "card_type": "cloze",
+      "text": "Theo Nelson 1996, công thức ước tính kích thước gan ở trẻ gái > 12 tuổi là: Kích thước gan (cm) = {{c1::0,027 × W (pound) + 0,22 × H (inch) - 10,75}}.",
+      "extra": "Hệ số cân nặng ở trẻ gái (0,027) thấp hơn trẻ trai (0,032), hệ số chiều cao ở trẻ gái (0,22) cao hơn trẻ trai (0,18).",
+      "tags": [
+        "PED-46",
+        "Cong-thuc-Nelson",
+        "Tre-gai",
+        "12-tuoi"
+      ]
+    },
+    {
+      "id": "PED46-011",
+      "card_type": "cloze",
+      "text": "Trong các vị trí giải phẫu đặc biệt, khi thân gan ngửa ra phía sau thì diện đục gõ gan sẽ {{c1::nhỏ hơn bình thường}} làm dễ bỏ sót gan to trên lâm sàng.",
+      "extra": "Ngược lại, khi gan đổ trước, diện đục gõ rộng hơn và bờ dưới sa thấp làm dễ lầm là gan to (theo bài giảng ThS. Trương Thị Phương Mai).",
+      "tags": [
+        "PED-46",
+        "Vi-tri-gan",
+        "Gan-do-sau",
+        "Kham-gan"
+      ]
+    },
+    {
+      "id": "PED46-012",
+      "card_type": "cloze",
+      "text": "Biến thể giải phẫu bẩm sinh lành tính của gan có một dải nhu mô thùy phải kéo dài xuống vùng hố chậu phải dễ lầm với u hoặc gan to được gọi là {{c1::thùy Riedel}}.",
+      "extra": "Đặc điểm: Trẻ hoàn toàn khỏe mạnh, men gan bình thường, siêu âm thấy cấu trúc nhu mô đồng nhất liên tục với thùy phải gan không có u hạt.",
+      "tags": [
+        "PED-46",
+        "Thuy-Riedel",
+        "Gia-gan-to",
+        "Giai-phau"
+      ]
+    },
+    {
+      "id": "PED46-013",
+      "card_type": "cloze",
+      "text": "Nghiệm pháp lâm sàng dùng để phân biệt khối u thuộc thành bụng (cơ thẳng bụng) với khối u nằm trong ổ bụng (như gan to) là {{c1::dấu hiệu Carnett}}.",
+      "extra": "Cách khám: Cho bệnh nhân gồng cơ bụng bằng cách nâng đầu hoặc hai chân lên. Khối u thành bụng sẽ sờ rõ và đau tăng lên; khối u trong ổ bụng (gan) sẽ bị chìm lấp đi.",
+      "tags": [
+        "PED-46",
+        "Carnett",
+        "Thanh-bung",
+        "Phan-biet"
+      ]
+    },
+    {
+      "id": "PED46-014",
+      "card_type": "cloze",
+      "text": "Để phân biệt thận phải to với gan to trên lâm sàng, khám hệ tiết niệu sẽ tìm thấy 2 dấu hiệu kinh điển là {{c1::chạm thắt lưng (+) và bập bềnh thận (+)}}.",
+      "extra": "Ngoài ra, khi gõ trên bề mặt khối thận to thường có dải đại tràng góc gan đè phía trước tạo tiếng gõ trong (dấu hiệu dải vang đại tràng).",
+      "tags": [
+        "PED-46",
+        "Than-to",
+        "Cham-that-lung",
+        "Bap-benh-than"
+      ]
+    },
+    {
+      "id": "PED46-015",
+      "card_type": "cloze",
+      "text": "Tiêu chuẩn vàng (Gold Standard) hiện đại theo Y học chứng cứ (EBM) để xác định chính xác gan to ở trẻ em là {{c1::siêu âm bụng đo chiều dọc gan đường trung đòn}} đối chiếu với bách phân vị theo tuổi và BSA.",
+      "extra": "Khám sờ nắn lâm sàng có độ nhạy thấp ở trẻ quấy khóc, trẻ chướng bụng và trẻ béo phì (MASLD), do đó siêu âm là công cụ khách quan bắt buộc.",
+      "tags": [
+        "PED-46",
+        "EBM",
+        "Sieu-am",
+        "Gold-standard"
+      ]
+    },
+    {
+      "id": "PED46-016",
+      "card_type": "cloze",
+      "text": "Trong phân loại 6 cơ chế gây gan to ở trẻ em, nguyên nhân hàng đầu gây gan to và tăng men gan mạn tính do ứ đọng lipid ở trẻ thừa cân béo phì hiện nay là {{c1::MASLD}} (Bệnh gan nhiễm mỡ liên quan chuyển hóa).",
+      "extra": "Thuật ngữ MASLD (Metabolic Dysfunction-Associated Steatotic Liver Disease) chính thức thay thế thuật ngữ NAFLD theo đồng thuận quốc tế năm 2023.",
+      "tags": [
+        "PED-46",
+        "MASLD",
+        "U-chat",
+        "Beo-phi"
+      ]
+    },
+    {
+      "id": "PED46-017",
+      "card_type": "cloze",
+      "text": "Khối u ác tính nguyên phát của gan thường gặp nhất ở trẻ nhỏ dưới 3 tuổi với đặc điểm nồng độ Alpha-fetoprotein (AFP) tăng cực kỳ cao là {{c1::U nguyên bào gan (Hepatoblastoma)}}.",
+      "extra": "Ngược lại, Ung thư biểu mô tế bào gan (Carcinoma tế bào gan - HCC) thường gặp ở trẻ lớn hơn (> 10 tuổi) trên nền bệnh gan mạn tính như viêm gan B mạn hoặc rối loạn chuyển hóa.",
+      "tags": [
+        "PED-46",
+        "Hepatoblastoma",
+        "AFP",
+        "Tham-nhiem"
+      ]
+    },
+    {
+      "id": "PED46-018",
+      "card_type": "cloze",
+      "text": "Hội chứng tắc nghẽn dòng máu tĩnh mạch gan hoặc tĩnh mạch chủ dưới dẫn đến gan to đau cấp tính, cổ trướng kháng trị và suy gan được gọi là {{c1::hội chứng Budd-Chiari}}.",
+      "extra": "Thuộc cơ chế tăng kích thước khoang mạch / ứ máu sau gan. Ở trẻ em, Budd-Chiari có thể do huyết khối tĩnh mạch gan trên nền hội chứng tăng đông di truyền.",
+      "tags": [
+        "PED-46",
+        "Budd-Chiari",
+        "U-mau",
+        "Khoang-mach"
+      ]
+    },
+    {
+      "id": "PED46-019",
+      "card_type": "cloze",
+      "text": "Bệnh lý giãn dạng nang bẩm sinh các nhánh đường mật lớn trong gan, thuộc nhóm cơ chế ứ mật gây gan to và nhiễm trùng đường mật tái diễn là {{c1::bệnh Caroli}}.",
+      "extra": "Hội chứng Caroli (Caroli syndrome) là thể bệnh kết hợp giữa giãn đường mật trong gan với xơ hóa gan bẩm sinh (Congenital hepatic fibrosis).",
+      "tags": [
+        "PED-46",
+        "Caroli",
+        "U-mat",
+        "Duong-mat"
+      ]
+    },
+    {
+      "id": "PED46-020",
+      "card_type": "cloze",
+      "text": "Bệnh di truyền lặn trên nhiễm sắc thể thường gây rối loạn đào thải kim loại Đồng dẫn đến ứ đọng Đồng tại gan và não bộ sau 5 tuổi là {{c1::bệnh Wilson}}.",
+      "extra": "Dấu hiệu chẩn đoán: Ceruloplasmin máu giảm (< 20 mg/dL), Đồng niệu 24h tăng cao, vòng Kayser-Fleischer ở rìa giác mạc và tán huyết cấp Coombs âm tính.",
+      "tags": [
+        "PED-46",
+        "Wilson",
+        "U-chat",
+        "Dong"
+      ]
+    },
+    {
+      "id": "PED46-021",
+      "card_type": "cloze",
+      "text": "Bệnh lý ứ chất di truyền do thiếu men Lysosomal Acid Lipase (LAL) gây gan lách to, suy kiệt và vôi hóa tuyến thượng thận hai bên điển hình trên X-quang ở trẻ nhũ nhi là {{c1::bệnh Wolman}}.",
+      "extra": "Trong bản gốc giáo trình kinh điển ghi nhầm tên bệnh này thành 'hội chứng Woman'. Cần chú thích đúng bản chất bệnh học trong bài thi.",
+      "tags": [
+        "PED-46",
+        "Wolman",
+        "U-chat",
+        "Voi-hoa-thuong-than"
+      ]
+    },
+    {
+      "id": "PED46-022",
+      "card_type": "cloze",
+      "text": "Hội chứng nguy hiểm gây thoái hóa mỡ gan và phù não cấp tính ở trẻ em sau khi dùng Aspirin trong đợt nhiễm cúm hoặc thủy đậu là {{c1::hội chứng Reye}}.",
+      "extra": "Cơ chế: Tổn thương ty thể cấp tính dẫn đến hạ đường huyết nặng, tăng amoniac máu kịch phát và suy gan cấp. Do đó Aspirin bị chống chỉ định hạ sốt thường quy ở trẻ em.",
+      "tags": [
+        "PED-46",
+        "Reye",
+        "Aspirin",
+        "U-chat"
+      ]
+    },
+    {
+      "id": "PED46-023",
+      "card_type": "cloze",
+      "text": "Nghiệm pháp lâm sàng khám bằng cách đặt lòng bàn tay trái lên vùng gan và dùng bờ trụ bàn tay phải chặt nhẹ tạo dao động kích thích ổ mủ gây đau chói là {{c1::nghiệm pháp Rung gan}}.",
+      "extra": "Ý nghĩa: Thường dương tính (+) trong bệnh Áp xe gan do amip hoặc vi khuẩn. Chống chỉ định chặt quá mạnh vì nguy cơ dọa vỡ ổ áp xe.",
+      "tags": [
+        "PED-46",
+        "Rung-gan",
+        "Ap-xe-gan",
+        "Nghiem-phap"
+      ]
+    },
+    {
+      "id": "PED46-024",
+      "card_type": "cloze",
+      "text": "Nghiệm pháp lâm sàng khám bằng cách dùng đầu ngón tay ấn vào các khoang liên sườn 6, 7, 8 vùng trước gan, nếu có điểm đau chói là dương tính gặp trong {{c1::áp xe gan}}.",
+      "extra": "Tên gọi: Nghiệm pháp Ấn kẽ sườn. Cơ chế do ổ áp xe nằm nông sát màng bao gan Glisson gây phản ứng viêm màng phổi đáy và kích thích thần kinh liên sườn.",
+      "tags": [
+        "PED-46",
+        "An-ke-suon",
+        "Ap-xe-gan",
+        "Nghiem-phap"
+      ]
+    },
+    {
+      "id": "PED46-025",
+      "card_type": "cloze",
+      "text": "Nghiệm pháp Phản hồi gan - tĩnh mạch cổ (HJR) dương tính (+) khi ép vào vùng gan làm cột tĩnh mạch cảnh nổi cao thêm ≥ 3 cm và duy trì liên tục, gặp trong bệnh {{c1::suy tim phải}}.",
+      "extra": "Cơ chế: Thất phải suy không tống được lượng máu hồi lưu tăng thêm từ gan dồn về nhĩ phải, làm tăng áp lực dội ngược lên tĩnh mạch cảnh ngoài.",
+      "tags": [
+        "PED-46",
+        "HJR",
+        "Phan-hoi-gan-TMC",
+        "Suy-tim-phai"
+      ]
+    },
+    {
+      "id": "PED46-026",
+      "card_type": "cloze",
+      "text": "Nghiệm pháp Phản hồi gan - tĩnh mạch cổ (HJR) sẽ cho kết quả {{c1::âm tính (-) giả tạo}} khi bệnh nhân đã chuyển sang giai đoạn xơ gan nặng.",
+      "extra": "Cơ chế: Khi gan đã xơ hóa cứng nhắc, mô gan không còn ứ máu dồi dào nên thao tác ấn vùng gan không thể dồn một thể tích máu lớn về tĩnh mạch cảnh được nữa.",
+      "tags": [
+        "PED-46",
+        "HJR",
+        "Xo-gan",
+        "Am-tinh"
+      ]
+    },
+    {
+      "id": "PED46-027",
+      "card_type": "cloze",
+      "text": "Dấu hiệu Murphy dương tính (+) khi người bệnh đang hít vào sâu thì đột ngột {{c1::ngừng thở vào vì đau chói}} khi đáy túi mật chạm vào đầu ngón tay thầy thuốc.",
+      "extra": "Ý nghĩa: Gặp trong Viêm túi mật cấp hoặc viêm túi mật xơ teo do kích thích phúc mạc tạng quanh túi mật bị viêm.",
+      "tags": [
+        "PED-46",
+        "Murphy",
+        "Viem-tui-mat",
+        "Dau-hieu"
+      ]
+    },
+    {
+      "id": "PED46-028",
+      "card_type": "cloze",
+      "text": "Điều cấm kỵ tuyệt đối khi tiến hành khám dấu hiệu Murphy là KHÔNG ĐƯỢC làm khi nhìn hoặc sờ thấy {{c1::túi mật to căng}}.",
+      "extra": "Nguy cơ: Ấn sâu vào một túi mật đang căng to tắc nghẽn có thể làm vỡ túi mật, tràn dịch mật nhiễm trùng vào ổ bụng gây viêm phúc mạc mật toàn thể đe dọa tính mạng!",
+      "tags": [
+        "PED-46",
+        "Murphy",
+        "Chong-chi-dinh",
+        "Vo-tui-mat"
+      ]
+    },
+    {
+      "id": "PED46-029",
+      "card_type": "cloze",
+      "text": "Trẻ có gan to đều, mật độ mềm nhẵn, ấn tức, phản hồi gan TMC (+), kèm dấu hiệu gan thu nhỏ lại khi dùng thuốc lợi tiểu được gọi là dấu hiệu {{c1::gan đàn xếp}}.",
+      "extra": "Bản chất: Gặp trong Gan ứ máu do suy tim sung huyết (suy tim phải hoặc suy tim toàn bộ). Kích thước gan dao động trực tiếp theo mức độ ứ trệ tuần hoàn ngoại vi.",
+      "tags": [
+        "PED-46",
+        "Gan-dan-xep",
+        "Suy-tim",
+        "Hoi-chung-1"
+      ]
+    },
+    {
+      "id": "PED46-030",
+      "card_type": "cloze",
+      "text": "Hội chứng tắc mật ngoài gan do u đầu tụy hoặc u bóng Vater biểu hiện trên lâm sàng bằng tam chứng: Vàng da tắc mật tăng dần + Gan to đều mềm + {{c1::Túi mật to căng}} (Định luật Courvoisier).",
+      "extra": "Khác với sỏi mật thường có túi mật xơ teo không sờ thấy, khối u chèn ép đường mật ngoài gan từ dưới thấp gây ứ mật ngược dòng làm giãn căng toàn bộ đường mật và túi mật.",
+      "tags": [
+        "PED-46",
+        "Courvoisier",
+        "U-dau-tuy",
+        "Bong-Vater"
+      ]
+    },
+    {
+      "id": "PED46-031",
+      "card_type": "cloze",
+      "text": "Trẻ có gan to kèm vàng da nhẹ, đau tức hạ sườn phải, tiền sử ăn rau thủy sinh hoặc gỏi cá, xét nghiệm máu thấy chỉ số {{c1::Bạch cầu ái toan (Eosinophil)}} tăng vọt gợi ý nhiễm sán lá gan.",
+      "extra": "Tác nhân thường gặp: Sán lá gan lớn (Fasciola hepatica/gigantica). Chẩn đoán xác định bằng xét nghiệm ELISA huyết thanh sán lá gan và hình thái tổn thương đường hầm trên CT.",
+      "tags": [
+        "PED-46",
+        "San-la-gan",
+        "Eosinophil",
+        "Goi-ca"
+      ]
+    },
+    {
+      "id": "PED46-032",
+      "card_type": "cloze",
+      "text": "Trong giáo trình kinh điển, 'Hội chứng Banti' được mô tả gồm bộ ba: Gan to chắc, Lách to cường lách và {{c1::tăng áp lực tĩnh mạch cửa}}.",
+      "extra": "Cập nhật EBM: Y văn hiện đại không còn coi Banti là một bệnh riêng mà xếp vào nhóm Tăng áp lực tĩnh mạch cửa không do xơ gan (NCPF), chủ yếu do huyết khối tạo hang tĩnh mạch cửa sau đặt catheter rốn.",
+      "tags": [
+        "PED-46",
+        "Banti",
+        "Tang-ap-TMC",
+        "Exam-bridge"
+      ]
+    },
+    {
+      "id": "PED46-033",
+      "card_type": "cloze",
+      "text": "Thuật ngữ cổ 'Bệnh Hanot' trong giáo trình cũ dùng để chỉ tình trạng xơ gan mật, tuy nhiên bệnh lý này hầu như {{c1::không bao giờ gặp ở trẻ em}}.",
+      "extra": "Bệnh Hanot là tên cổ của Xơ gan mật nguyên phát (PBC) - bệnh tự miễn của phụ nữ trung niên. Ở trẻ em gan lách to kèm ứ mật mạn, chẩn đoán chính là Viêm đường mật xơ hóa (PSC), Viêm gan tự miễn (AIH) hoặc PFIC.",
+      "tags": [
+        "PED-46",
+        "Hanot",
+        "PBC",
+        "Exam-bridge"
+      ]
+    },
+    {
+      "id": "PED46-034",
+      "card_type": "cloze",
+      "text": "Trẻ có hội chứng Gan to + Lách to + Hạch to toàn thân kèm theo thiếu máu, sốt tái diễn và xuất huyết dưới da gợi ý hàng đầu bệnh lý ác tính {{c1::Bạch cầu cấp (Leukemia)}}.",
+      "extra": "Thể thường gặp nhất ở trẻ em là Bạch cầu cấp dòng lympho (ALL). Chẩn đoán xác định bằng Huyết tủy đồ và dấu ấn miễn dịch tế bào dòng tủy.",
+      "tags": [
+        "PED-46",
+        "Leukemia",
+        "ALL",
+        "Gan-lach-hach-to"
+      ]
+    },
+    {
+      "id": "PED46-035",
+      "card_type": "cloze",
+      "text": "Ở trẻ sơ sinh có gan to, lách to kèm tổn thương thần kinh, thủ thuật lâm sàng quan trọng cần thực hiện ngay tại giường để phát hiện nhiễm trùng bẩm sinh TORCH là {{c1::soi đáy mắt}}.",
+      "extra": "Mục đích: Phát hiện tổn thương Viêm màng mạch - võng mạc (Chorioretinitis) đặc trưng do Cytomegalovirus (CMV) hoặc Toxoplasma gondii bẩm sinh.",
+      "tags": [
+        "PED-46",
+        "Soi-day-mat",
+        "TORCH",
+        "So-sinh"
+      ]
+    },
+    {
+      "id": "PED46-036",
+      "card_type": "cloze",
+      "text": "Bệnh lý ngoại khoa đường mật gây gan to và vàng da ứ mật tiến triển ở trẻ sơ sinh cần bắt buộc chỉ định phẫu thuật Kasai trước thời điểm {{c1::60 ngày tuổi}} là Teo đường mật bẩm sinh.",
+      "extra": "Nếu mổ sau 60 ngày, tỷ lệ thành công lưu thông đường mật giảm sút nghiêm trọng; mổ sau 90 ngày tuổi gan đã xơ hóa không hồi phục và hầu hết bắt buộc phải ghép gan.",
+      "tags": [
+        "PED-46",
+        "Kasai",
+        "Teo-duong-mat",
+        "60-ngay-tuoi"
+      ]
+    },
+    {
+      "id": "PED46-037",
+      "card_type": "cloze",
+      "text": "Ở trẻ từ 1 – 10 tuổi có gan to hoặc tăng men gan kéo dài không rõ nguyên nhân, xét nghiệm sàng lọc đầu tay để tầm soát bệnh Wilson là định lượng nồng độ {{c1::Ceruloplasmin máu}}.",
+      "extra": "Nồng độ Ceruloplasmin máu < 20 mg/dL kết hợp với tăng bài tiết Đồng trong nước tiểu 24h (> 40 µg/ngày) và tìm thấy vòng Kayser-Fleischer ở rìa giác mạc giúp khẳng định chẩn đoán.",
+      "tags": [
+        "PED-46",
+        "Wilson",
+        "Ceruloplasmin",
+        "1-10-tuoi"
+      ]
+    },
+    {
+      "id": "PED46-038",
+      "card_type": "cloze",
+      "text": "Dấu hiệu tổn thương mắt đặc trưng do lắng đọng Đồng tại màng Descemet của giác mạc trong bệnh Wilson là {{c1::vòng Kayser-Fleischer}}.",
+      "extra": "Khám bằng đèn khe (Slit-lamp examination) bởi bác sĩ nhãn khoa. Thường xuất hiện ở trẻ lớn (> 5 - 10 tuổi), đặc biệt khi trẻ bắt đầu có biểu hiện thần kinh ngoại tháp.",
+      "tags": [
+        "PED-46",
+        "Kayser-Fleischer",
+        "Wilson",
+        "Giac-mac"
+      ]
+    },
+    {
+      "id": "PED46-039",
+      "card_type": "cloze",
+      "text": "Ở trẻ vị thành niên (> 10 tuổi) có gan to kèm viêm loét đại tràng mạn tính (IBD), bệnh lý gan mật tự miễn cần nghĩ tới hàng đầu là {{c1::Viêm đường mật xơ hóa nguyên phát (PSC)}}.",
+      "extra": "PSC ở trẻ em có liên quan chặt chẽ với bệnh viêm loét đại tràng chảy máu (UC). Chẩn đoán hình ảnh xác định bằng chụp cộng hưởng từ gan mật (MRCP) thấy hình ảnh cây đường mật chuỗi hạt (beaded appearance).",
+      "tags": [
+        "PED-46",
+        "PSC",
+        "IBD",
+        "Vi-thanh-nien"
+      ]
+    },
+    {
+      "id": "PED46-040",
+      "card_type": "cloze",
+      "text": "Bộ xét nghiệm sàng lọc bước đầu (Tier 1) để đánh giá toàn diện một trẻ gan to bao gồm: Công thức máu, AST/ALT, GGT, Phosphatase kiềm (ALP), Bilirubin (TT & TP), Albumin, {{c1::PT/INR}} và Siêu âm bụng Doppler.",
+      "extra": "PT/INR và Albumin đánh giá chức năng tổng hợp; AST/ALT đánh giá hoại tử tế bào gan; GGT/ALP/Bilirubin TT đánh giá ứ mật; Siêu âm đánh giá cấu trúc giải phẫu và hệ mạch máu.",
+      "tags": [
+        "PED-46",
+        "Tier-1",
+        "Can-lam-sang",
+        "INR"
+      ]
+    },
+    {
+      "id": "PED46-041",
+      "card_type": "cloze",
+      "text": "Trong các xét nghiệm đánh giá ứ mật, chỉ số enzyme đặc hiệu có nguồn gốc từ màng tế bào biểu mô đường mật giúp phân biệt tăng phosphatase kiềm sinh lý từ xương ở trẻ em là {{c1::GGT}} (Gamma-glutamyl transferase).",
+      "extra": "Ở trẻ em đang lớn, Phosphatase kiềm (ALP) từ xương tăng rất cao do hoạt động tạo xương. Nếu ALP tăng mà GGT bình thường → nguồn gốc từ xương; nếu cả ALP và GGT cùng tăng → nguồn gốc ứ mật.",
+      "tags": [
+        "PED-46",
+        "GGT",
+        "ALP",
+        "U-mat"
+      ]
+    },
+    {
+      "id": "PED46-042",
+      "card_type": "cloze",
+      "text": "Hai dấu ấn sinh học khối u (Tumor Markers) kinh điển trong huyết thanh được chỉ định khi nghi ngờ gan to do nguyên nhân ác tính là {{c1::AFP và CEA}}.",
+      "extra": "Alpha-fetoprotein (AFP) tăng rất cao trong U nguyên bào gan (Hepatoblastoma) và Carcinom tế bào gan (HCC). Carcinoembryonic antigen (CEA) tăng trong ung thư đường tiêu hóa.",
+      "tags": [
+        "PED-46",
+        "Tumor-markers",
+        "AFP",
+        "CEA"
+      ]
+    },
+    {
+      "id": "PED46-043",
+      "card_type": "cloze",
+      "text": "Bộ kháng thể tự miễn cơ bản trong xét nghiệm Tier 2 để chẩn đoán Viêm gan tự miễn (AIH) ở trẻ em bao gồm: {{c1::ANA, ASMA, Anti-LKM1}} kết hợp với định lượng nồng độ IgG huyết thanh.",
+      "extra": "AIH Type 1 đặc trưng bởi ANA và ASMA (+); AIH Type 2 đặc trưng bởi Anti-LKM1 (+). Nồng độ IgG huyết thanh tăng cao trên 1,2 - 1,5 lần giá trị bình thường.",
+      "tags": [
+        "PED-46",
+        "AIH",
+        "Tu-mien",
+        "Tier-2"
+      ]
+    },
+    {
+      "id": "PED46-044",
+      "card_type": "cloze",
+      "text": "Điều kiện an toàn về chức năng đông máu trước khi chỉ định thủ thuật sinh thiết gan qua da ở trẻ em là số lượng tiểu cầu phải > 60.000/µL và chỉ số INR phải {{c1::< 1.4}}.",
+      "extra": "Nếu trẻ có rối loạn đông máu nặng không thể điều chỉnh được bằng huyết tương tươi đông lạnh mà bắt buộc phải sinh thiết, phương pháp lựa chọn thay thế là sinh thiết gan qua đường tĩnh mạch cảnh (Transjugular liver biopsy).",
+      "tags": [
+        "PED-46",
+        "Sinh-thiet-gan",
+        "Dong-mau",
+        "Tieu-chuan"
+      ]
+    },
+    {
+      "id": "PED46-045",
+      "card_type": "cloze",
+      "text": "Mọi trẻ sơ sinh đủ tháng có vàng da kéo dài quá {{c1::14 ngày tuổi}} (hoặc quá 21 ngày ở trẻ non tháng) bắt buộc phải được xét nghiệm định lượng Bilirubin trực tiếp để tầm soát teo đường mật bẩm sinh.",
+      "extra": "Định nghĩa ứ mật sơ sinh: Khi Bilirubin trực tiếp > 1,0 mg/dL (17,1 µmol/L) nếu toàn phần < 5 mg/dL, hoặc chiếm > 20% toàn phần nếu toàn phần > 5 mg/dL.",
+      "tags": [
+        "PED-46",
+        "Vang-da-keo-dai",
+        "14-ngay",
+        "So-sinh"
+      ]
+    },
+    {
+      "id": "PED46-046",
+      "card_type": "cloze",
+      "text": "Nguyên nhân gây vàng da, gan to đau kèm lách to và thiếu máu tan máu cấp tính Coombs âm tính ở trẻ lớn có bệnh lý tích tụ Đồng là {{c1::bệnh Wilson thể bùng phát}}.",
+      "extra": "Đồng tự do tràn ồ ạt từ các tế bào gan bị vỡ vào máu gây độc màng hồng cầu, gây tan máu ồ ạt. Đây là một dạng cấp cứu gan mật có tỷ lệ tử vong rất cao nếu không ghép gan kịp thời.",
+      "tags": [
+        "PED-46",
+        "Wilson",
+        "Tan-mau",
+        "Coombs-am-tinh"
+      ]
+    },
+    {
+      "id": "PED46-047",
+      "card_type": "cloze",
+      "text": "Bệnh lý di truyền lặn gây xơ hóa gan bẩm sinh (Congenital Hepatic Fibrosis) thường có mối liên quan chặt chẽ với bệnh lý thận di truyền là {{c1::thận đa nang lặn (ARPKD)}}.",
+      "extra": "Cả hai bệnh lý này đều do đột biến gen PKHD1 điều hòa tổng hợp fibrocystin tại màng biểu mô đường mật và ống lượn thận, dẫn đến dãn nở dạng nang và xơ hóa mô kẽ.",
+      "tags": [
+        "PED-46",
+        "ARPKD",
+        "Xo-hoa-gan-bam-sinh",
+        "Than-da-nang"
+      ]
+    },
+    {
+      "id": "PED46-048",
+      "card_type": "cloze",
+      "text": "Trong phòng thi viết tự luận, khi nhắc tới 'Hội chứng Banti' trong giáo trình cũ, cách viết đạt điểm tối đa theo EBM là chú thích bản chất thuộc nhóm {{c1::Tăng áp lực tĩnh mạch cửa không do xơ gan (NCPF)}}.",
+      "extra": "Cách viết cầu nối 'Banti (NCPF / Cavernoma TM cửa)' giúp thỏa mãn cả barem chấm thi từ khóa kinh điển lẫn tiêu chuẩn danh pháp y văn hiện đại của hội đồng chấm thi.",
+      "tags": [
+        "PED-46",
+        "Banti",
+        "NCPF",
+        "Exam-strategy"
+      ]
+    }
+  ]
+}

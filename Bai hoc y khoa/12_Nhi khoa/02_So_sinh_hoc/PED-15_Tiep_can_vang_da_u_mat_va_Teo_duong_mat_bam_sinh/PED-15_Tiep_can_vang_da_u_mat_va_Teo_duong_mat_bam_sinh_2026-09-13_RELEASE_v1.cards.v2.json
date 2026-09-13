@@ -1,0 +1,506 @@
+[
+  {
+    "id": "PED15-V2-001",
+    "type": "basic",
+    "front": "Tại sao Bilirubin trực tiếp (liên hợp) lại không có khả năng gây ra biến chứng vàng da nhân não (Kernicterus)?",
+    "back": "<b>📖 Cơ chế hóa sinh:</b><br>Bilirubin trực tiếp đã được gắn hai gốc acid glucuronic biến thành phân tử phân cực mạnh tan hoàn toàn trong nước, do đó không thể khuếch tán qua lớp màng kép phospholipid của hàng rào máu não.<br><br><b>🔍 Nguy cơ thực sự:</b><br>Dù không độc cho não, ứ mật làm tích tụ acid mật kỵ nước nội bào phá hủy màng ty thể tế bào gan, gây hoại tử tế bào gan, xơ gan mật và tử vong nếu không can thiệp."
+  },
+  {
+    "id": "PED15-V2-002",
+    "type": "cloze",
+    "text": "Theo hướng dẫn đồng thuận NASPGHAN/ESPGHAN 2017, trẻ sơ sinh được chẩn đoán xác định vàng da ứ mật khi nồng độ Bilirubin trực tiếp vượt quá {{c1::1.0 mg/dL}} (tương đương 17.1 µmol/L) trong trường hợp Bilirubin toàn phần dưới 5.0 mg/dL.",
+    "extra": "Nếu Bilirubin toàn phần từ 5.0 mg/dL trở lên, tiêu chuẩn ứ mật là khi Bilirubin trực tiếp chiếm trên 20% tổng số."
+  },
+  {
+    "id": "PED15-V2-003",
+    "type": "basic",
+    "front": "Tại sao tiêu chuẩn chẩn đoán ứ mật cũ (Bilirubin trực tiếp > 2.0 mg/dL) bị bãi bỏ trong các hướng dẫn quốc tế hiện đại?",
+    "back": "<b>📖 Cơ sở dịch tễ học:</b><br>Ngưỡng cũ trên 2.0 mg/dL làm chậm trễ việc phát hiện bệnh Teo đường mật bẩm sinh ở giai đoạn sớm khi nồng độ Bilirubin trực tiếp mới chỉ dao động từ 1.0 đến 1.9 mg/dL.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Hạ ngưỡng xuống 1.0 mg/dL giúp tầm soát sớm và đưa trẻ vào phẫu thuật Kasai trước mốc 60 ngày tuổi, cứu vãn cơ hội sống sót của lá gan tự nhiên."
+  },
+  {
+    "id": "PED15-V2-004",
+    "type": "cloze",
+    "text": "Mọi trẻ sơ sinh còn vàng da kéo dài sau {{c1::14 ngày tuổi}} ở trẻ bú sữa công thức, hoặc sau 21 ngày tuổi ở trẻ bú mẹ hoàn toàn, bắt buộc phải được xét nghiệm định lượng Bilirubin toàn phần và trực tiếp.",
+    "extra": "Quy tắc này nhằm triệt tiêu cạm bẫy quy kết nhầm bệnh lý teo đường mật sang vàng da do sữa mẹ lành tính."
+  },
+  {
+    "id": "PED15-V2-005",
+    "type": "basic",
+    "front": "Cơ chế nào giải thích hiện tượng nước tiểu sẫm màu như nước chè đặc trong vàng da ứ mật sơ sinh?",
+    "back": "<b>📖 Cơ chế bài tiết thận:</b><br>Tắc nghẽn đường mật làm tăng áp lực vi quản mật, Bilirubin trực tiếp thấm ngược vào xoang mạch gan đi vào tuần hoàn máu.<br><br><b>🔍 Đặc tính phân tử:</b><br>Bilirubin trực tiếp có kích thước nhỏ và tan trong nước nên được lọc tự do qua màng lọc cầu thận vào nước tiểu, làm nước tiểu có màu vàng sậm đậm đặc và làm ố vàng tã vải."
+  },
+  {
+    "id": "PED15-V2-006",
+    "type": "basic",
+    "front": "Tại sao sự ứ đọng acid mật kỵ nước nội bào lại dẫn đến xơ gan mật tiến triển ở trẻ teo đường mật bẩm sinh?",
+    "back": "<b>📖 Cơ chế độc tế bào gan:</b><br>Các acid mật kỵ nước tích tụ (chenodeoxycholic acid) có tác dụng tẩy rửa bề mặt, làm thủng màng ty thể tế bào gan và kích hoạt enzyme caspase gây hoại tử tế bào gan hàng loạt.<br><br><b>🔍 Tiến triển xơ hóa:</b><br>Phản ứng viêm kích thích tế bào hình sao khoảng Disse tăng sinh collagen ngoại bào, gây tăng sinh tiểu quản mật và xơ hóa khoảng cửa tiến triển thành xơ gan mật trước 6 tháng tuổi."
+  },
+  {
+    "id": "PED15-V2-007",
+    "type": "cloze",
+    "text": "Theo tiêu chuẩn NASPGHAN 2017, khi nồng độ Bilirubin toàn phần của trẻ sơ sinh từ 5.0 mg/dL trở lên, tình trạng ứ mật được khẳng định khi Bilirubin trực tiếp chiếm trên {{c1::20%}} tổng nồng độ Bilirubin toàn phần.",
+    "extra": "Ví dụ: Nếu Bilirubin toàn phần là 8.0 mg/dL và trực tiếp là 2.0 mg/dL (chiếm 25%), trẻ được chẩn đoán xác định là vàng da ứ mật."
+  },
+  {
+    "id": "PED15-V2-008",
+    "type": "basic",
+    "front": "Tại sao chiếu đèn quang trị liệu bị chống chỉ định và hoàn toàn vô ích trong điều trị vàng da ứ mật?",
+    "back": "<b>📖 Cơ sở quang học:</b><br>Chiếu đèn chỉ có tác dụng chuyển hóa Bilirubin gián tiếp thành Lumirubin. Bilirubin trực tiếp vốn đã tan trong nước nên chiếu đèn không làm tăng thêm đào thải.<br><br><b>🔍 Nguy cơ tai biến:</b><br>Chiếu đèn khi có ứ mật làm các phức chất porphyrin đồng quang phân hủy không đào thải được qua mật, tích tụ dưới da gây Hội chứng em bé da đồng (Bronze baby syndrome) làm da chuyển màu nâu xám."
+  },
+  {
+    "id": "PED15-V2-009",
+    "type": "basic",
+    "front": "Phân biệt cơ chế gây vàng da ứ mật tắc mật tại gan và tắc mật ngoài gan?",
+    "back": "<b>📖 Phân biệt bản chất:</b><br>- Tắc mật ngoài gan (Ngoại khoa): Do bít tắc cơ học hoàn toàn hệ thống đường mật lớn ngoài gan (Teo đường mật, Nang ống mật chủ), phân bạc màu liên tục, GGT tăng rất cao.<br>- Ứ mật tại gan (Nội khoa): Do tổn thương chức năng bài tiết tế bào gan hoặc vi quản mật tiểu thùy (Viêm gan sơ sinh do CMV/TORCH, bệnh PFIC, Alpha-1 antitrypsin), phân vàng nhạt ngắt quãng."
+  },
+  {
+    "id": "PED15-V2-010",
+    "type": "cloze",
+    "text": "Khác biệt bản chất giữa Bilirubin gián tiếp và Bilirubin trực tiếp là Bilirubin trực tiếp tan hoàn toàn trong nước nên {{c1::không gây độc cho não bộ và không gây vàng da nhân não}}, nhưng là chỉ điểm của tắc mật bệnh lý.",
+    "extra": "Mối nguy hiểm của vàng da ứ mật không nằm ở độc tính thần kinh mà nằm ở nguy cơ xơ gan mật và xuất huyết do thiếu vitamin K."
+  },
+  {
+    "id": "PED15-V2-011",
+    "type": "basic",
+    "front": "Bản chất bệnh sinh của bệnh Teo đường mật bẩm sinh (Biliary Atresia) là gì?",
+    "back": "<b>📖 Bệnh sinh Biliary Atresia:</b><br>Là một quá trình viêm xơ hóa phá hủy tiến triển toàn bộ hoặc một phần cây đường mật ngoài gan và trong gan.<br><br><b>🔍 Căn nguyên:</b><br>Được cho là hậu quả của phản ứng miễn dịch dị ứng tự miễn sau sinh hoặc nhiễm virus chu sinh (Reovirus, Rotavirus nhóm C, CMV) kích hoạt tế bào T phá hủy biểu mô đường mật ở những cơ thể mang cơ địa di truyền mẫn cảm."
+  },
+  {
+    "id": "PED15-V2-012",
+    "type": "cloze",
+    "text": "Bệnh lý ngoại khoa gây vàng da ứ mật phổ biến nhất ở trẻ sơ sinh, chiếm từ {{c1::35% đến 40%}} các trường hợp ứ mật chu sinh là bệnh Teo đường mật bẩm sinh (Biliary Atresia).",
+    "extra": "Nếu không được phẫu thuật Kasai kịp thời, hầu hết bệnh nhi sẽ tử vong trước 2 tuổi do xơ gan mất bù."
+  },
+  {
+    "id": "PED15-V2-013",
+    "type": "basic",
+    "front": "Tại sao nang ống mật chủ bẩm sinh (Choledochal cyst) có thể gây vàng da ứ mật ở trẻ sơ sinh?",
+    "back": "<b>📖 Dị tật nang ống mật chủ:</b><br>Là tình trạng giãn bẩm sinh dạng nang hoặc hình thoi của cây đường mật ngoài gan.<br><br><b>🔍 Cơ chế tắc mật:</b><br>Do phối hợp bất thường chỗ nối ống mật - ống tụy làm dịch tụy trào ngược vào đường mật gây viêm mạn tính và chèn ép cơ học lưu thông mật, biểu hiện vàng da, đau bụng và khối u hạ sườn phải."
+  },
+  {
+    "id": "PED15-V2-014",
+    "type": "cloze",
+    "text": "Nhiễm trùng bào thai bẩm sinh do virus {{c1::Cytomegalovirus (CMV)}} là nguyên nhân nhiễm trùng hàng đầu gây hội chứng viêm gan sơ sinh ứ mật, kèm theo các dấu hiệu nhẹ cân, đầu nhỏ và vôi hóa nội sọ.",
+    "extra": "Xét nghiệm PCR CMV trong nước tiểu hoặc máu trong 2 đến 3 tuần đầu giúp khẳng định nhiễm trùng bẩm sinh."
+  },
+  {
+    "id": "PED15-V2-015",
+    "type": "basic",
+    "front": "Cơ chế gây vàng da ứ mật trong bệnh rối loạn chuyển hóa Galactosemia bẩm sinh là gì?",
+    "back": "<b>📖 Cơ chế rối loạn chuyển hóa:</b><br>Thiếu hụt bẩm sinh enzyme Galactose-1-phosphate Uridyltransferase (GALT) làm tích tụ chất độc Galactose-1-phosphate trong tế bào gan.<br><br><b>🔍 Biểu hiện & Xử trí:</b><br>Gây hoại tử tế bào gan, ứ mật, đục thủy tinh thể và nhiễm khuẩn huyết E. coli sau khi trẻ bú sữa mẹ hoặc sữa công thức chứa lactose. Cần cắt bỏ lactose ngay lập tức."
+  },
+  {
+    "id": "PED15-V2-016",
+    "type": "cloze",
+    "text": "Hội chứng {{c1::Alagille}} là một rối loạn di truyền trội trên nhiễm sắc thể thường gây thiểu sản các tiểu quản mật trong gan kèm theo dị tật tim bẩm sinh (hẹp động mạch phổi), đốt sống cánh bướm và khuôn mặt tam giác đặc trưng.",
+    "extra": "Đột biến gen JAG1 hoặc NOTCH2 là nguyên nhân gây ra hội chứng Alagille."
+  },
+  {
+    "id": "PED15-V2-017",
+    "type": "basic",
+    "front": "Đặc điểm phân biệt bệnh lý ứ mật tiến triển trong gan có tính gia đình (PFIC) với teo đường mật bẩm sinh là gì?",
+    "back": "<b>📖 Đặc điểm bệnh PFIC:</b><br>PFIC là nhóm bệnh di truyền lặn do khiếm khuyết các kênh vận chuyển muối mật tại màng tiểu quản mật tế bào gan (kênh FIC1, BSEP, MDR3).<br><br><b>🔍 Điểm khác biệt mấu chốt:</b><br>Trong PFIC typ 1 và typ 2, men GGT hoàn toàn bình thường hoặc thấp, trẻ có triệu chứng ngứa dữ dội không tương xứng với mức độ vàng da, và đường mật ngoài gan hoàn toàn thông suốt trên siêu âm."
+  },
+  {
+    "id": "PED15-V2-018",
+    "type": "cloze",
+    "text": "Hội chứng ứ mật do nuôi dưỡng tĩnh mạch kéo dài (PNAC) thường xảy ra ở trẻ sinh non được nuôi dưỡng qua đường tĩnh mạch trên {{c1::14 ngày}} do thiếu sự kích thích bài tiết mật qua đường ruột và độc tính của nhũ dịch lipid gốc dầu đậu nành.",
+    "extra": "Cho trẻ ăn đường ruột tối thiểu sớm (trophic feeding) là biện pháp phòng ngừa và điều trị PNAC hiệu quả nhất."
+  },
+  {
+    "id": "PED15-V2-019",
+    "type": "basic",
+    "front": "Kể tên và mô tả đặc điểm của 'Tam chứng vàng' kinh điển trong tiếp cận vàng da ứ mật sơ sinh?",
+    "back": "<b>📖 Tam chứng lâm sàng kinh điển:</b><br>1. Phân bạc màu (Acholic stool): Phân trắng đục như đất sét, trắng ngà hoặc xám tro do mất sắc tố mật Stercobilin.<br>2. Nước tiểu sẫm màu: Nước tiểu màu vàng đậm như nước chè đặc làm ố vàng tã do Bilirubin trực tiếp đào thải qua thận.<br>3. Gan to chắc: Gan to từ 2 đến 4 cm dưới sườn phải, mật độ chắc cứng, bờ sắc rõ rệt."
+  },
+  {
+    "id": "PED15-V2-020",
+    "type": "cloze",
+    "text": "Triệu chứng lâm sàng có giá trị cảnh báo cao nhất chỉ điểm tắc nghẽn cơ học đường mật ngoài gan trong teo đường mật bẩm sinh là {{c1::phân bạc màu (acholic stool)}}.",
+    "extra": "Bác sĩ bắt buộc phải trực tiếp quan sát mẫu phân trong tã lót của bệnh nhi chứ không chỉ dựa vào lời kể của người nhà."
+  },
+  {
+    "id": "PED15-V2-021",
+    "type": "basic",
+    "front": "Tại sao trong giai đoạn đầu của bệnh Teo đường mật bẩm sinh, phân của trẻ có thể có màu vàng nhạt ngắt quãng mà không trắng hoàn toàn?",
+    "back": "<b>📖 Cơ chế lâm sàng đánh lừa:</b><br>1. Sự xơ hóa tắc nghẽn đường mật là quá trình viêm tiến triển dần dần, chưa bít tắc 100% trong những tuần đầu.<br>2. Dịch nhầy ruột và các tế bào biểu mô ruột bong tróc tự nhiên có thể nhuộm một lớp màu vàng nhạt mỏng bên ngoài bề mặt cục phân.<br><br><b>🔍 Khám đúng:</b><br>Phải bẻ đôi cục phân để quan sát màu sắc lõi bên trong và theo dõi màu phân qua nhiều ngày liên tiếp."
+  },
+  {
+    "id": "PED15-V2-022",
+    "type": "cloze",
+    "text": "Theo Thẻ so màu phân chuẩn (Infant Stool Color Card), các mức màu phân số 1, 2 và 3 là {{c1::màu phân bất thường (bạc màu, tắc mật)}}, bắt buộc phải đưa trẻ đi khám chuyên khoa gan mật ngay.",
+    "extra": "Các mức màu phân số 4, 5, 6 và 7 là màu phân bình thường (vàng hoa cải, vàng sậm, xanh rêu)."
+  },
+  {
+    "id": "PED15-V2-023",
+    "type": "basic",
+    "front": "Nêu cách hướng dẫn cha mẹ trẻ sử dụng Bảng so màu phân (Stool Color Card) tại nhà để phát hiện sớm teo đường mật?",
+    "back": "<b>📖 Hướng dẫn cha mẹ sử dụng thẻ so màu:</b><br>1. Quan sát tã phân của trẻ dưới ánh sáng ban ngày tự nhiên (tránh ánh sáng đèn vàng).<br>2. Đặt tã phân ngay cạnh bảng màu và so sánh trực tiếp.<br>3. Nếu phân có màu trắng tinh (số 1), trắng đất sét (số 2) hoặc vàng rơm rất nhạt (số 3): Mang ngay trẻ và tã phân đến bệnh viện chuyên khoa Nhi khám khẩn cấp."
+  },
+  {
+    "id": "PED15-V2-024",
+    "type": "cloze",
+    "text": "Khi thăm khám bụng một trẻ sơ sinh mắc teo đường mật bẩm sinh, bờ dưới của gan thường có đặc điểm sờ thấy {{c1::to chắc, mật độ chắc cứng và bờ sắc}} dưới hạ sườn phải.",
+    "extra": "Ngược lại, trong viêm gan sơ sinh, gan thường mềm mại hoặc chỉ chắc nhẹ."
+  },
+  {
+    "id": "PED15-V2-025",
+    "type": "basic",
+    "front": "Dấu hiệu nước tiểu sẫm màu trong vàng da ứ mật khác với nước tiểu vàng cô đặc do thiếu dịch như thế nào?",
+    "back": "<b>📖 Phân biệt tại giường:</b><br>- Nước tiểu cô đặc do thiếu nước: Sẽ nhanh chóng trong trở lại sau khi trẻ được cho bú mẹ đủ cữ hoặc bù đủ dịch.<br>- Nước tiểu trong vàng da ứ mật: Luôn có màu vàng đậm như nước chè đặc liên tục cả ngày lẫn đêm, làm ố vàng tã vải và không thay đổi màu sắc dù trẻ đã được bù đủ nước."
+  },
+  {
+    "id": "PED15-V2-026",
+    "type": "basic",
+    "front": "Tại sao trẻ teo đường mật bẩm sinh trong tháng đầu đời thường vẫn bú mẹ tốt và tăng cân khá?",
+    "back": "<b>📖 Cơ chế đánh lừa lâm sàng:</b><br>Trong những tuần đầu, chức năng tổng hợp của tế bào gan chưa bị suy sụp và trẻ vẫn hấp thu được đường lactose và protein trong sữa mẹ.<br><br><b>🔍 Bài học cảnh giác:</b><br>Trẻ tăng cân không đồng nghĩa với lá gan khỏe mạnh. Không bao giờ lấy lý do 'trẻ vẫn lên cân tốt' để trì hoãn xét nghiệm Bilirubin khi trẻ còn vàng da quá 2 đến 3 tuần tuổi."
+  },
+  {
+    "id": "PED15-V2-027",
+    "type": "basic",
+    "front": "Màu phân bất thường mức độ 1 trên Infant Stool Color Card có đặc điểm trực quan như thế nào?",
+    "back": "<b>📖 Mô tả màu số 1:</b><br>Phân có màu trắng tinh hoàn toàn như phấn viết bảng, vôi quét tường hoặc màu thạch cao, chứng tỏ sắc tố Stercobilin bị cắt đứt 100% không thể xuống ruột.<br><br><b>🔍 Chỉ định:</b><br>Cấp cứu ngoại nhi khẩn cấp."
+  },
+  {
+    "id": "PED15-V2-028",
+    "type": "cloze",
+    "text": "Khi trẻ teo đường mật bẩm sinh tiến triển sang tháng thứ 2 và thứ 3, khám bụng sẽ phát hiện thêm dấu hiệu lách to và {{c1::tuần hoàn bàng hệ nổi rõ trên thành bụng}} do biến chứng tăng áp lực tĩnh mạch cửa.",
+    "extra": "Sự xuất hiện của lách to và tuần hoàn bàng hệ báo hiệu gan đã chuyển sang giai đoạn xơ gan mật."
+  },
+  {
+    "id": "PED15-V2-029",
+    "type": "basic",
+    "front": "Tại sao việc sờ nắn khám lách lại có ý nghĩa tiên lượng cực kỳ quan trọng trong vàng da ứ mật sơ sinh?",
+    "back": "<b>📖 Ý nghĩa khám lách:</b><br>Lách to trong vàng da ứ mật là dấu hiệu trực tiếp của tăng áp lực tĩnh mạch cửa do mô xơ chèn ép các xoang mạch gan.<br><br><b>🔍 Tiên lượng:</b><br>Nếu lách đã to độ II đến độ III khi chẩn đoán, khả năng gan đã bị xơ hóa nặng nề, tỷ lệ thành công của phẫu thuật Kasai sẽ giảm sút đáng kể."
+  },
+  {
+    "id": "PED15-V2-030",
+    "type": "cloze",
+    "text": "Dấu hiệu tã lót của trẻ sơ sinh bị {{c1::ố vàng sậm màu không giặt sạch được}} do nồng độ cao Bilirubin trực tiếp tan trong nước bài tiết qua nước tiểu là một gợi ý thực tế giúp phát hiện sớm vàng da ứ mật.",
+    "extra": "Nước tiểu bình thường của trẻ sơ sinh có màu vàng rất nhạt và không làm ố vàng tã."
+  },
+  {
+    "id": "PED15-V2-031",
+    "type": "basic",
+    "front": "Phân biệt lâm sàng giữa vàng da ứ mật và vàng da gián tiếp qua màu sắc da của bệnh nhi?",
+    "back": "<b>📖 Quan sát sắc tố da:</b><br>- Vàng da gián tiếp (PED-14): Da có màu vàng tươi, vàng sáng như màu quả chanh hoặc màu cánh kiến tươi sáng.<br>- Vàng da ứ mật (PED-15): Da có màu vàng sậm, vàng ánh xanh rêu hoặc vàng xỉn tối màu (do sự phối hợp của Bilirubin trực tiếp và biliverdin tích tụ lâu ngày trong mô)."
+  },
+  {
+    "id": "PED15-V2-032",
+    "type": "basic",
+    "front": "Triệu chứng ngứa dữ dội (Pruritus) ở trẻ ứ mật thường biểu hiện qua hành vi như thế nào?",
+    "back": "<b>📖 Dấu hiệu trẻ ngứa do ứ mật:</b><br>Trẻ sơ sinh và nhũ nhi chưa biết nói sẽ biểu hiện bằng quấy khóc liên tục, bứt rứt không ngủ được, cọ xát đầu mặt vào ga gối, dùng tay cào cấu vùng mặt, bẹn, lưng tạo ra các vết cào xước rớm máu và sẩn ngứa nhiễm trùng da."
+  },
+  {
+    "id": "PED15-V2-033",
+    "type": "cloze",
+    "text": "Theo dữ liệu sàng lọc tại Đài Loan, việc triển khai Thẻ so màu phân cho toàn bộ bà mẹ sơ sinh đã giúp giảm độ tuổi phẫu thuật Kasai trung bình từ 66 ngày xuống dưới {{c1::45 ngày tuổi}}.",
+    "extra": "Nhờ đó, tỷ lệ trẻ sống sót với lá gan tự nhiên sau 5 năm tăng vọt lên trên 65%."
+  },
+  {
+    "id": "PED15-V2-034",
+    "type": "basic",
+    "front": "Tại sao không được kết luận phân bình thường nếu người nhà chỉ chụp ảnh tã phân dưới ánh đèn vàng trong phòng?",
+    "back": "<b>📖 Cạm bẫy ánh sáng nhân tạo:</b><br>Ánh sáng đèn tròn sợi đốt hoặc đèn vàng trong buồng ngủ làm phản xạ màu vàng lên bề mặt phân, biến một cục phân màu trắng đất sét thành màu vàng nhạt giả tạo.<br><br><b>🔍 Quy tắc chuẩn:</b><br>Luôn quan sát mẫu phân thật dưới ánh sáng ban ngày tự nhiên bên cạnh cửa sổ."
+  },
+  {
+    "id": "PED15-V2-035",
+    "type": "basic",
+    "front": "Dấu hiệu dải xơ hình tam giác (Triangular Cord Sign - TC sign) trên siêu âm gan mật là gì và có giá trị như thế nào?",
+    "back": "<b>📖 Hình ảnh siêu âm chuyên khoa:</b><br>Là một dải mô hồi âm dày hình tam giác hoặc hình dải nằm ngay phía trước chạc chia của tĩnh mạch cửa tại rốn gan.<br><br><b>🔍 Tiêu chuẩn & Giá trị:</b><br>Độ dày của dải mô xơ từ 4 mm trở lên trên mặt cắt dọc có độ nhạy trên 85% và độ đặc hiệu trên 95% để khẳng định chẩn đoán Teo đường mật bẩm sinh."
+  },
+  {
+    "id": "PED15-V2-036",
+    "type": "cloze",
+    "text": "Dấu hiệu Triangular cord sign trên siêu âm gan mật biểu hiện bằng dải hồi âm dày có kích thước từ {{c1::4 mm trở lên}} nằm ngay phía trước chỗ chia nhánh của tĩnh mạch cửa tại rốn gan.",
+    "extra": "Dấu hiệu này phản ánh khối mô xơ hóa hình nón tại cửa gan trong bệnh teo đường mật bẩm sinh."
+  },
+  {
+    "id": "PED15-V2-037",
+    "type": "basic",
+    "front": "Các đặc điểm bất thường của túi mật trên siêu âm gợi ý bệnh lý Teo đường mật bẩm sinh gồm những gì?",
+    "back": "<b>📖 Dấu hiệu túi mật bất thường:</b><br>1. Túi mật teo nhỏ, chiều dài dưới 1.5 cm hoặc hoàn toàn không tìm thấy lòng túi mật.<br>2. Thành túi mật dày, bờ niêm mạc không đều gồ ghề.<br>3. Nghiệm pháp co bóp túi mật sau ăn âm tính: thể tích túi mật không thay đổi sau khi cho trẻ ăn sữa (chứng tỏ không có dòng mật chảy vào túi mật)."
+  },
+  {
+    "id": "PED15-V2-038",
+    "type": "basic",
+    "front": "Tại sao trước khi làm siêu âm gan mật ở trẻ sơ sinh nghi ngờ ứ mật, bắt buộc phải cho trẻ nhịn ăn tối thiểu 4 giờ?",
+    "back": "<b>📖 Nguyên tắc chuẩn bị siêu âm:</b><br>1. Nếu trẻ vừa ăn sữa, dạ dày căng đầy dịch sữa và hơi sẽ tạo bóng cản âm che khuất hoàn toàn ngã ba rốn gan.<br>2. Sau ăn túi mật co bóp sinh lý làm bác sĩ siêu âm chẩn đoán nhầm thành túi mật teo nhỏ bệnh lý. Nhịn ăn 4 giờ giúp túi mật căng đầy sinh lý để đánh giá chính xác kích thước."
+  },
+  {
+    "id": "PED15-V2-039",
+    "type": "cloze",
+    "text": "Xét nghiệm men gan {{c1::GGT (Gamma-Glutamyl Transferase)}} tăng rất cao trên 300 đến 600 UI/L củng cố mạnh mẽ chẩn đoán Teo đường mật, trong khi GGT bình thường lại chỉ điểm bệnh lý PFIC typ 1 và 2.",
+    "extra": "GGT là enzyme gắn trên màng tế bào biểu mô đường mật, phản ánh tình trạng tắc nghẽn hoặc viêm phá hủy các tiểu quản mật."
+  },
+  {
+    "id": "PED15-V2-040",
+    "type": "basic",
+    "front": "Tứ chứng mô bệnh học đặc trưng nhất trên tiêu bản sinh thiết gan qua da của Teo đường mật bẩm sinh là gì?",
+    "back": "<b>📖 Tứ chứng mô bệnh học:</b><br>1. Tăng sinh mạnh mẽ các tiểu quản mật phản ứng tại khoảng cửa (Bile ductular proliferation).<br>2. Xuất hiện các nút mật đậm đặc bít tắc trong lòng tiểu quản mật (Bile plugs).<br>3. Phù nề và thâm nhiễm tế bào viêm quanh khoảng cửa.<br>4. Xơ hóa tiến triển tạo các cầu xơ nối khoảng cửa - khoảng cửa (Bridging fibrosis)."
+  },
+  {
+    "id": "PED15-V2-041",
+    "type": "cloze",
+    "text": "Tiêu chuẩn vàng tuyệt đối để chẩn đoán xác định bệnh Teo đường mật bẩm sinh là {{c1::chụp đường mật trong mổ (Intraoperative Cholangiography - IOC)}}.",
+    "extra": "Thủ thuật được thực hiện bằng cách luồn catheter vào đáy túi mật bơm thuốc cản quang dưới màn hình tăng sáng X-quang trong phòng mổ."
+  },
+  {
+    "id": "PED15-V2-042",
+    "type": "basic",
+    "front": "Hình ảnh tiêu chuẩn vàng trên phim Chụp đường mật trong mổ (IOC) khẳng định teo đường mật bẩm sinh biểu hiện như thế nào?",
+    "back": "<b>📖 Hình ảnh IOC khẳng định teo đường mật:</b><br>Thuốc cản quang bơm vào túi mật không thể lưu thông xuống tá tràng và hoàn toàn không quan sát thấy hình ảnh cây đường mật trong gan (đường mật bị bít tắc xơ hóa toàn bộ).<br><br><b>🔍 Hành động tiếp theo:</b><br>Phẫu thuật viên lập tức chuyển sang thực hiện phẫu thuật Kasai nối mật - ruột trong cùng một cuộc mổ."
+  },
+  {
+    "id": "PED15-V2-043",
+    "type": "basic",
+    "front": "Vai trò của xét nghiệm đông máu (PT/INR) và việc tiêm dự phòng Vitamin K1 trước các thủ thuật xâm lấn ở trẻ ứ mật là gì?",
+    "back": "<b>📖 An toàn thủ thuật xâm lấn:</b><br>Ứ mật làm mất muối mật dẫn đến không hấp thu được Vitamin K, gây sụt giảm nghiêm trọng các yếu tố đông máu II, VII, IX, X.<br><br><b>🔍 Quy tắc an toàn:</b><br>Bắt buộc kiểm tra PT/INR và tiêm tĩnh mạch hoặc tiêm bắp Vitamin K1 liều 2 đến 5 mg trước khi chọc dò hoặc sinh thiết gan để phòng ngừa xuất huyết ồ ạt nguy hiểm tính mạng."
+  },
+  {
+    "id": "PED15-V2-044",
+    "type": "basic",
+    "front": "Tại sao chụp xạ hình đường mật (HIDA scan) có thể cho kết quả âm tính giả trong viêm gan sơ sinh nặng?",
+    "back": "<b>📖 Hạn chế của HIDA scan:</b><br>HIDA scan dựa vào khả năng hấp thu chất phóng xạ của tế bào gan rồi bài tiết vào mật. Khi trẻ bị viêm gan sơ sinh rất nặng, tế bào gan bị suy sụp chức năng bài tiết nên chất phóng xạ cũng không xuống được ruột.<br><br><b>🔍 Kết quả:</b><br>Hình ảnh không thấy phóng xạ ở ruột sau 24 giờ giống hệt như teo đường mật cơ học (dương tính giả), do đó không thể dùng HIDA scan đơn độc để chẩn đoán."
+  },
+  {
+    "id": "PED15-V2-045",
+    "type": "cloze",
+    "text": "Trước khi thực hiện sinh thiết gan qua da ở trẻ ứ mật, bắt buộc phải đảm bảo chỉ số đông máu {{c1::INR dưới 1.5}} và số lượng tiểu cầu trên 50.000/µL để tránh biến chứng chảy máu bao gan.",
+    "extra": "Cần tiêm Vitamin K1 tĩnh mạch trước thủ thuật ít nhất 4 đến 6 giờ."
+  },
+  {
+    "id": "PED15-V2-046",
+    "type": "basic",
+    "front": "Hình ảnh giải phẫu bệnh sinh thiết gan phân biệt Viêm gan sơ sinh với Teo đường mật bẩm sinh như thế nào?",
+    "back": "<b>📖 So sánh mô bệnh học:</b><br>- Viêm gan sơ sinh: Đặc trưng bởi hiện tượng biến đổi tế bào gan khổng lồ đa nhân lan tỏa (Giant cell transformation) và hoại tử tế bào gan, không có tăng sinh tiểu quản mật rầm rộ.<br>- Teo đường mật: Đặc trưng bởi tăng sinh tiểu quản mật phản ứng dày đặc tại khoảng cửa kèm theo các nút mật đậm đặc (Bile plugs)."
+  },
+  {
+    "id": "PED15-V2-047",
+    "type": "cloze",
+    "text": "Xét nghiệm sàng lọc nhiễm trùng bào thai bẩm sinh ở trẻ vàng da ứ mật bao gồm tìm virus {{c1::CMV (Cytomegalovirus)}} qua kỹ thuật PCR trong nước tiểu hoặc máu trong 3 tuần đầu sau sinh.",
+    "extra": "CMV là căn nguyên nhiễm trùng phổ biến nhất gây viêm gan sơ sinh ứ mật."
+  },
+  {
+    "id": "PED15-V2-048",
+    "type": "basic",
+    "front": "Vai trò của xét nghiệm định lượng nồng độ Alpha-1 Antitrypsin và kiểu hình Pi (Protease inhibitor) ở trẻ ứ mật?",
+    "back": "<b>📖 Sàng lọc thiếu hụt Alpha-1:</b><br>Thiếu hụt Alpha-1 Antitrypsin (thường kiểu hình PiZZ) làm protein đột biến bị ứ đọng lại trong lưới nội chất tế bào gan, nhuộm PAS dương tính kháng diastase.<br><br><b>🔍 Ý nghĩa:</b><br>Là nguyên nhân di truyền hàng đầu gây xơ gan và chỉ định ghép gan ở trẻ em phương Tây."
+  },
+  {
+    "id": "PED15-V2-049",
+    "type": "cloze",
+    "text": "Nghiệm pháp co bóp túi mật sau ăn trên siêu âm được coi là âm tính gợi ý Teo đường mật khi thể tích túi mật {{c1::không co nhỏ lại sau khi cho trẻ ăn sữa}}.",
+    "extra": "Ở trẻ bình thường, túi mật sẽ co bóp tống mật làm giảm ít nhất 50% thể tích sau bữa ăn."
+  },
+  {
+    "id": "PED15-V2-050",
+    "type": "basic",
+    "front": "Khi nào cần chỉ định xét nghiệm TSH và FT4 ở trẻ vàng da ứ mật sơ sinh?",
+    "back": "<b>📖 Loại trừ suy giáp bẩm sinh:</b><br>Suy giáp bẩm sinh có thể biểu hiện bằng vàng da kéo dài phối hợp cả tăng Bilirubin gián tiếp và trực tiếp do suy giảm bài tiết mật.<br><br><b>🔍 Tầm soát thường quy:</b><br>Bắt buộc thực hiện ở mọi trẻ ứ mật vì đây là bệnh lý nội tiết điều trị được hoàn toàn bằng hormone thay thế nếu phát hiện sớm."
+  },
+  {
+    "id": "PED15-V2-051",
+    "type": "basic",
+    "front": "'Quy tắc 60 ngày vàng' (The Rule of 60 days) trong điều trị Teo đường mật bẩm sinh là gì và cơ sở sinh học của nó?",
+    "back": "<b>📖 Quy tắc 60 ngày vàng:</b><br>Phẫu thuật nối mật - ruột Kasai đạt hiệu quả lưu thông mật cao nhất (70% đến 80%) khi được thực hiện trước 60 ngày tuổi (lý tưởng nhất là trước 45 ngày).<br><br><b>🔍 Cơ sở sinh học:</b><br>Sau 60 ngày tuổi, tình trạng ứ acid mật kỵ nước đã phá hủy phần lớn các vi quản mật rốn gan và gây xơ gan lan tỏa không hồi phục, khiến diện cắt rốn gan mất khả năng dẫn lưu mật."
+  },
+  {
+    "id": "PED15-V2-052",
+    "type": "cloze",
+    "text": "Phẫu thuật nối mật - ruột Kasai đạt tỷ lệ lưu thông dòng mật thành công cao nhất từ 70% đến 80% khi được thực hiện trước {{c1::60 ngày tuổi}} (lý tưởng nhất là trước 45 ngày tuổi).",
+    "extra": "Nếu phẫu thuật muộn sau 90 ngày tuổi, tỷ lệ thành công sụt giảm xuống dưới 20% đến 25%."
+  },
+  {
+    "id": "PED15-V2-053",
+    "type": "basic",
+    "front": "Bản chất giải phẫu và kỹ thuật của phẫu thuật Kasai (Hepatoportoenterostomy) là gì?",
+    "back": "<b>📖 Bản chất kỹ thuật Kasai:</b><br>Phẫu thuật viên phẫu tích cắt bỏ toàn bộ dải xơ của đường mật ngoài gan đến tận bao Glisson tại diện rốn gan.<br><br><b>🔍 Nối Roux-en-Y:</b><br>Đưa một quai hỗng tràng dài khoảng 40 cm lên nối trực tiếp vào diện rốn gan theo kiểu Roux-en-Y để các vi quản mật siêu nhỏ còn thông rỉ trực tiếp dịch mật vào lòng ruột non."
+  },
+  {
+    "id": "PED15-V2-054",
+    "type": "cloze",
+    "text": "Phương pháp phẫu thuật ngoại khoa kinh điển hàng đầu để điều trị bệnh Teo đường mật bẩm sinh là phẫu thuật nối mật - ruột kiểu Roux-en-Y theo phương pháp {{c1::Kasai (Hepatoportoenterostomy)}}.",
+    "extra": "Phẫu thuật này được sáng tạo bởi Giáo sư Morio Kasai người Nhật Bản vào năm 1959."
+  },
+  {
+    "id": "PED15-V2-055",
+    "type": "basic",
+    "front": "Tam chứng nhận diện biến chứng Viêm đường mật ngược dòng (Ascending Cholangitis) sau mổ Kasai là gì?",
+    "back": "<b>📖 Tam chứng viêm đường mật sau mổ:</b><br>1. Sốt cao đột ngột (thường trên 38.5 độ C).<br>2. Màu sắc phân thay đổi: Phân đang vàng bỗng chuyển sang nhạt màu dần hoặc bạc màu trở lại.<br>3. Nồng độ Bilirubin máu tăng vọt trở lại kèm men gan tăng cao.<br><br><b>🔍 Xử trí khẩn:</b><br>Bắt buộc nhập viện dùng kháng sinh tĩnh mạch phổ rộng liều cao ngay lập tức để bảo vệ vi quản mật rốn gan."
+  },
+  {
+    "id": "PED15-V2-056",
+    "type": "cloze",
+    "text": "Biến chứng nhiễm trùng muộn thường gặp nhất sau phẫu thuật Kasai xảy ra ở 50% đến 70% bệnh nhân là biến chứng {{c1::viêm đường mật ngược dòng (ascending cholangitis)}}.",
+    "extra": "Cần điều trị kháng sinh dự phòng đường uống kéo dài sau mổ từ 6 tháng đến 1 năm để phòng ngừa biến chứng này."
+  },
+  {
+    "id": "PED15-V2-057",
+    "type": "basic",
+    "front": "Tiên lượng dài hạn sau phẫu thuật Kasai được chia thành 3 nhóm kịch bản lâm sàng như thế nào?",
+    "back": "<b>📖 Ba kịch bản sau mổ Kasai:</b><br>- Nhóm 1 (1/3 số ca): Lưu thông mật hoàn toàn tốt, trẻ lớn lên khỏe mạnh bình thường và sống với lá gan tự nhiên lâu dài.<br>- Nhóm 2 (1/3 số ca): Lưu thông mật một phần, xơ gan tiến triển dần, cần ghép gan trong độ tuổi học đường.<br>- Nhóm 3 (1/3 số ca): Phẫu thuật Kasai thất bại, ứ mật không cải thiện, cần ghép gan sớm trước 2 tuổi."
+  },
+  {
+    "id": "PED15-V2-058",
+    "type": "cloze",
+    "text": "Nếu phẫu thuật Kasai thực hiện muộn sau 90 ngày tuổi, tỷ lệ lưu thông dòng mật thành công giảm xuống dưới {{c1::20% đến 25%}} do mô gan đã bị xơ hóa không thể hồi phục.",
+    "extra": "Ở nhóm trẻ này, phẫu thuật Kasai chỉ đóng vai trò cầu nối tạm thời trong khi chờ đợi ghép gan."
+  },
+  {
+    "id": "PED15-V2-059",
+    "type": "basic",
+    "front": "Tại sao việc dùng Corticoid đường uống ngắn ngày sau phẫu thuật Kasai lại được nhiều trung tâm gan mật áp dụng?",
+    "back": "<b>📖 Cơ chế chống viêm rốn gan:</b><br>Prednisolone đường uống liều 2 mg/kg/ngày giảm dần trong 4 đến 6 tuần sau mổ giúp ức chế phản ứng viêm xơ hóa tái phát tại diện cắt rốn gan.<br><br><b>🔍 Lợi ích:</b><br>Giúp các miệng vi quản mật không bị bít tắc bởi mô sẹo xơ và kích thích bài tiết dòng mật sớm trong giai đoạn hậu phẫu."
+  },
+  {
+    "id": "PED15-V2-060",
+    "type": "basic",
+    "front": "Chỉ định phẫu thuật Ghép gan (Liver Transplantation) ở bệnh nhi teo đường mật bẩm sinh được đặt ra trong các hoàn cảnh nào?",
+    "back": "<b>📖 Chỉ định ghép gan:</b><br>1. Phẫu thuật Kasai thất bại (Bilirubin không giảm sau mổ 3 tháng).<br>2. Xơ gan mất bù với biến chứng tăng áp lực tĩnh mạch cửa nặng (xuất huyết vỡ giãn tĩnh mạch thực quản tái phát, cổ trướng kháng trị).<br>3. Suy giảm chức năng gan nặng (Albumin máu giảm sâu, đông máu rối loạn nặng).<br>4. Suy dinh dưỡng nặng không đáp ứng điều trị nội khoa hoặc có hội chứng gan phổi (HPS)."
+  },
+  {
+    "id": "PED15-V2-061",
+    "type": "cloze",
+    "text": "Phác đồ kháng sinh dự phòng viêm đường mật ngược dòng sau mổ Kasai thường sử dụng thuốc {{c1::Co-trimoxazole liều thấp}} uống 1 lần mỗi tối kéo dài liên tục từ 6 tháng đến 1 năm.",
+    "extra": "Kháng sinh giúp ức chế vi khuẩn đường ruột di chuyển ngược từ quai hỗng tràng Roux-en-Y lên gan."
+  },
+  {
+    "id": "PED15-V2-062",
+    "type": "basic",
+    "front": "Tại sao quai ruột Roux-en-Y nối rốn gan trong phẫu thuật Kasai phải có chiều dài tối thiểu khoảng 40 cm?",
+    "back": "<b>📖 Cơ sở chống trào ngược:</b><br>Chiều dài quai hỗng tràng 40 cm tạo ra một đoạn đường ruột nhu động xuôi chiều đủ dài để ngăn cản dịch tiêu hóa và vi khuẩn từ lòng ruột trào ngược lên diện rốn gan.<br><br><b>🔍 Nếu quai ruột quá ngắn:</b><br>Tỷ lệ viêm đường mật ngược dòng sau mổ sẽ tăng vọt và phá hủy diện thông mật."
+  },
+  {
+    "id": "PED15-V2-063",
+    "type": "cloze",
+    "text": "Biến chứng xuất huyết tiêu hóa do vỡ giãn tĩnh mạch thực quản ở trẻ xơ gan sau mổ Kasai được xử trí can thiệp cầm máu hàng đầu bằng kỹ thuật {{c1::thắt búi giãn qua nội soi (Endoscopic Variceal Ligation - EVL)}}.",
+    "extra": "Phối hợp dùng thuốc giảm áp lực tĩnh mạch cửa Propranolol để dự phòng tái phát."
+  },
+  {
+    "id": "PED15-V2-064",
+    "type": "basic",
+    "front": "Hội chứng gan phổi (Hepatopulmonary Syndrome - HPS) ở trẻ xơ gan mật tiến triển biểu hiện như thế nào?",
+    "back": "<b>📖 Tam chứng gan phổi:</b><br>1. Bệnh lý gan tiến triển hoặc tăng áp lực tĩnh mạch cửa.<br>2. Giãn các mạch máu vi tuần hoàn trong phổi (intrapulmonary vascular dilatations).<br>3. Thiếu oxy máu động mạch biểu hiện khó thở khi ngồi thẳng (Platypnea) và SpO2 tụt.<br><br><b>🔍 Điều trị:</b><br>HPS là chỉ định ưu tiên cho phẫu thuật ghép gan."
+  },
+  {
+    "id": "PED15-V2-065",
+    "type": "basic",
+    "front": "Tại sao trẻ teo đường mật bẩm sinh cần được duy trì dùng thuốc Ursodiol liên tục sau mổ Kasai?",
+    "back": "<b>📖 Lợi ích duy trì Ursodiol:</b><br>Ursodeoxycholic acid làm loãng dịch mật, tăng lưu lượng bài tiết của các vi quản mật rốn gan, ngăn ngừa tạo bùn mật bít tắc diện nối và chống lại độc tính tế bào của acid mật kỵ nước còn sót lại."
+  },
+  {
+    "id": "PED15-V2-066",
+    "type": "cloze",
+    "text": "Sau phẫu thuật Kasai, nếu nồng độ Bilirubin toàn phần giảm xuống dưới {{c1::2.0 mg/dL}} trong vòng 3 tháng đầu sau mổ là dấu hiệu dự báo tiên lượng lưu thông mật thành công và duy trì lá gan tự nhiên lâu dài.",
+    "extra": "Nếu sau 3 tháng Bilirubin vẫn duy trì trên 6.0 mg/dL, phẫu thuật Kasai được coi là thất bại."
+  },
+  {
+    "id": "PED15-V2-067",
+    "type": "basic",
+    "front": "Bệnh nhân sau mổ Kasai xuất hiện sốt và phân bạc màu trở lại cần được xử trí kháng sinh theo phác đồ nào?",
+    "back": "<b>📖 Phác đồ viêm đường mật cấp:</b><br>Nhập viện ngay, cấy máu và chỉ định kháng sinh tĩnh mạch phổ rộng bao phủ vi khuẩn gram âm đường ruột và kỵ khí: Cefotaxim (hoặc Piperacillin/Tazobactam) phối hợp Ampicillin và Metronidazol (hoặc Aminoglycosid) điều trị liên tục trong 10 đến 14 ngày."
+  },
+  {
+    "id": "PED15-V2-068",
+    "type": "basic",
+    "front": "Tỷ lệ sống thêm 5 năm và 10 năm sau phẫu thuật Ghép gan ở trẻ teo đường mật bẩm sinh hiện nay đạt mức bao nhiêu?",
+    "back": "<b>📖 Tiên lượng ghép gan nhi:</b><br>Tại các trung tâm ghép tạng nhi khoa hiện đại, tỷ lệ sống sau 5 năm đạt từ 85% đến 90% và sau 10 năm đạt trên 80%. Ghép gan mang lại cơ hội sống bình thường hoàn toàn cho những trẻ mà phẫu thuật Kasai thất bại."
+  },
+  {
+    "id": "PED15-V2-069",
+    "type": "basic",
+    "front": "Tại sao trẻ vàng da ứ mật bắt buộc phải được nuôi dưỡng bằng dòng sữa giàu chất béo chuỗi trung bình (MCT)?",
+    "back": "<b>📖 Cơ chế hấp thu của MCT:</b><br>Chất béo chuỗi trung bình (MCT) có đặc tính hòa tan được trong nước, được hấp thu trực tiếp qua biểu mô ruột vào tĩnh mạch cửa mà hoàn toàn không cần muối mật nhũ tương hóa hay enzyme lipase tụy.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Cung cấp nguồn calo dồi dào, giải quyết tình trạng tiêu chảy phân mỡ và chống suy dinh dưỡng thể gầy còm ở trẻ ứ mật."
+  },
+  {
+    "id": "PED15-V2-070",
+    "type": "cloze",
+    "text": "Chất béo chuỗi trung bình (MCT) có ưu điểm vượt trội ở trẻ ứ mật vì được hấp thu trực tiếp vào {{c1::hệ tĩnh mạch cửa}} mà hoàn toàn không cần sự có mặt của muối mật để nhũ tương hóa.",
+    "extra": "Tỷ lệ chất béo chuỗi trung bình MCT nên chiếm từ 30% đến 50% tổng lượng chất béo trong khẩu phần ăn của trẻ ứ mật."
+  },
+  {
+    "id": "PED15-V2-071",
+    "type": "basic",
+    "front": "Nhu cầu năng lượng hàng ngày ở trẻ vàng da ứ mật sơ sinh cần đạt mức bao nhiêu so với trẻ bình thường và vì sao?",
+    "back": "<b>📖 Nhu cầu năng lượng cao:</b><br>Trẻ ứ mật cần nhu cầu năng lượng từ 130% đến 150% nhu cầu khuyến nghị (RDA), tương đương từ 130 đến 150 kcal/kg/ngày.<br><br><b>🔍 Cơ sở chuyển hóa:</b><br>Do tình trạng kém hấp thu mỡ làm thất thoát calo qua phân, kết hợp với trạng thái tăng chuyển hóa cơ bản do phản ứng viêm mạn tính và xơ gan."
+  },
+  {
+    "id": "PED15-V2-072",
+    "type": "basic",
+    "front": "Cơ chế xuất huyết não màng não do thiếu hụt Vitamin K ở trẻ vàng da ứ mật là gì và phác đồ dự phòng?",
+    "back": "<b>📖 Bệnh sinh xuất huyết não:</b><br>Kém hấp thu lipid làm thiếu Vitamin K trầm trọng -> Gan không tổng hợp được các yếu tố đông máu II, VII, IX, X -> INR kéo dài gây xuất huyết nội sọ tử vong.<br><br><b>🔍 Phác đồ dự phòng:</b><br>Uống Vitamin K1 liều 1 đến 2 mg/ngày hoặc tiêm bắp/tĩnh mạch Vitamin K1 liều 2 đến 5 mg định kỳ mỗi 1 đến 2 tuần."
+  },
+  {
+    "id": "PED15-V2-073",
+    "type": "cloze",
+    "text": "Liều điều trị chuẩn của thuốc lợi mật và bảo vệ tế bào gan Ursodeoxycholic acid (Ursodiol) ở trẻ vàng da ứ mật là {{c1::15 đến 20 mg/kg/ngày}} chia làm 2 đến 3 lần uống cùng bữa ăn.",
+    "extra": "Ursodiol giúp thay thế các acid mật kỵ nước gây độc bằng acid mật ưa nước lành tính và kích thích bài tiết dòng mật."
+  },
+  {
+    "id": "PED15-V2-074",
+    "type": "basic",
+    "front": "Cơ chế tác dụng dược lý của Acid Ursodeoxycholic (Ursodiol / UDCA) trong điều trị ứ mật là gì?",
+    "back": "<b>📖 Ba cơ chế dược lý của Ursodiol:</b><br>1. Cạnh tranh và thay thế các acid mật kỵ nước nội sinh gây độc (chenodeoxycholic acid) trên màng tế bào gan.<br>2. Kích thích bơm bài tiết mật BSEP bài tiết dòng dịch mật giàu bicarbonate.<br>3. Ổn định màng tế bào và ức chế con đường chết theo chương trình của tế bào gan."
+  },
+  {
+    "id": "PED15-V2-075",
+    "type": "cloze",
+    "text": "Thiếu hụt vitamin tan trong dầu nguy hiểm nhất có thể cướp đi tính mạng của trẻ vàng da ứ mật một cách đột ngột là thiếu hụt {{c1::Vitamin K}}, dẫn đến biến chứng xuất huyết nội sọ tối cấp.",
+    "extra": "Mọi trẻ vàng da ứ mật đều phải được tiêm dự phòng Vitamin K1 ngay khi tiếp nhận."
+  },
+  {
+    "id": "PED15-V2-076",
+    "type": "basic",
+    "front": "Phác đồ bổ sung Vitamin D3 và Vitamin A ở trẻ sơ sinh và nhũ nhi bị vàng da ứ mật như thế nào?",
+    "back": "<b>📖 Liều lượng bổ sung Vitamin D và A:</b><br>- Vitamin D3: Bổ sung liều 1.200 đến 2.000 UI/ngày đường uống (hoặc dùng Calcitriol dạng hoạt tính 0.05-0.2 µg/kg/ngày nếu ứ mật rất nặng) để phòng còi xương.<br>- Vitamin A: Bổ sung liều 5.000 đến 10.000 UI/ngày dung dịch lỏng để bảo vệ giác mạc và biểu mô."
+  },
+  {
+    "id": "PED15-V2-077",
+    "type": "basic",
+    "front": "Tại sao chế phẩm Vitamin E sử dụng cho trẻ vàng da ứ mật bắt buộc phải là dạng TPGS tan trong nước?",
+    "back": "<b>📖 Dạng bào chế đặc biệt của Vitamin E:</b><br>Vitamin E thông thường (alpha-tocopherol) là chất tan hoàn toàn trong dầu, trẻ ứ mật không có muối mật nên không thể hấp thu được.<br><br><b>🔍 Dạng TPGS:</b><br>D-alpha-tocopheryl polyethylene glycol 1000 succinate (TPGS) là dạng bào chế tan trong nước, hấp thu trực tiếp không cần muối mật, liều dùng 15 đến 25 UI/kg/ngày để phòng thoái hóa thần kinh cơ."
+  },
+  {
+    "id": "PED15-V2-078",
+    "type": "basic",
+    "front": "Nêu các bước bậc thang điều trị nội khoa triệu chứng ngứa dữ dội (Pruritus) do ứ mật ở trẻ nhỏ?",
+    "back": "<b>📖 Bốn bậc kiểm soát ngứa do ứ mật:</b><br>- Bậc 1: Tối ưu hóa liều Ursodeoxycholic acid (Ursodiol) 15-20 mg/kg/ngày.<br>- Bậc 2: Thuốc cảm ứng men gan Rifampicin 5-10 mg/kg/ngày (kích thích chuyển hóa bài tiết acid mật).<br>- Bậc 3: Nhựa gắn acid mật Cholestyramine 0.25-0.5 g/kg/ngày (uống cách xa thuốc khác 2h).<br>- Bậc 4: Thuốc đối kháng thụ thể opioid Naltrexone hoặc thuốc chẹn kênh tái hấp thu acid mật IBAT."
+  },
+  {
+    "id": "PED15-V2-079",
+    "type": "cloze",
+    "text": "Thuốc cảm ứng men gan {{c1::Rifampicin}} liều 5 đến 10 mg/kg/ngày là thuốc bậc hai hiệu quả để điều trị triệu chứng ngứa dữ dội do ứ mật thông qua cơ chế kích hoạt thụ thể PXR tăng chuyển hóa acid mật.",
+    "extra": "Cần theo dõi chức năng gan khi dùng Rifampicin vì thuốc có thể gây tăng men gan thoáng qua."
+  },
+  {
+    "id": "PED15-V2-080",
+    "type": "basic",
+    "front": "Tại sao nhựa gắn acid mật Cholestyramine bắt buộc phải uống cách xa các thuốc khác ít nhất 2 giờ?",
+    "back": "<b>📖 Tương tác gắn kết thuốc:</b><br>Cholestyramine là một polymer trao đổi anion không hấp thu. Nó gắn kết không chọn lọc với acid mật và gắn kết luôn với các loại thuốc khác (như Ursodiol, Vitamin ADEK, Thyroxine, Kháng sinh), làm triệt tiêu hoàn toàn sự hấp thu của các thuốc này vào máu."
+  },
+  {
+    "id": "PED15-V2-081",
+    "type": "cloze",
+    "text": "Nhựa trao đổi anion {{c1::Cholestyramine}} được dùng để gắn acid mật trong lòng ruột điều trị ngứa nhưng bắt buộc phải uống cách xa các thuốc khác và vitamin ít nhất 2 giờ.",
+    "extra": "Liều dùng thường từ 0.25 đến 0.5 g/kg/ngày chia làm 2 lần trước các cữ ăn."
+  },
+  {
+    "id": "PED15-V2-082",
+    "type": "basic",
+    "front": "Cơ chế nào dẫn đến còi xương ứ mật và gãy xương bệnh lý tự nhiên ở trẻ bị teo đường mật?",
+    "back": "<b>📖 Rối loạn chuyển hóa xương:</b><br>Kém hấp thu Vitamin D3 tan trong dầu dẫn đến giảm hấp thu Canxi tại ruột. Đồng thời tế bào gan ứ mật bị suy giảm quá trình 25-hydroxyl hóa Vitamin D3.<br><br><b>🔍 Hậu quả:</b><br>Gây cường cận giáp thứ phát rút Canxi từ xương ra máu, làm xương mềm yếu xốp, gây biến dạng lồng ngực chuỗi hạt sườn và gãy xương tự nhiên dù không chấn thương."
+  },
+  {
+    "id": "PED15-V2-083",
+    "type": "basic",
+    "front": "Tại sao không được trì hoãn phẫu thuật Kasai ở một trẻ teo đường mật với lý do 'chờ trẻ tăng cân tốt hơn'?",
+    "back": "<b>📖 Thời gian là lá gan:</b><br>Trẻ teo đường mật không thể tăng cân tốt nếu tình trạng tắc mật chưa được giải quyết (do kém hấp thu mỡ trầm trọng). Chờ đợi tăng cân sẽ đẩy trẻ qua mốc 60-90 ngày tuổi, lúc này gan xơ hóa không hồi phục và phẫu thuật Kasai sẽ hoàn toàn mất tác dụng."
+  },
+  {
+    "id": "PED15-V2-084",
+    "type": "cloze",
+    "text": "Dạng chế phẩm Vitamin E hòa tan được trong nước đặc hiệu dành cho trẻ sơ sinh bị vàng da ứ mật là dạng {{c1::D-alpha-tocopheryl polyethylene glycol 1000 succinate (TPGS)}}.",
+    "extra": "Dạng TPGS tự tạo cấu trúc vi nhũ tương và hấp thu trực tiếp qua niêm mạc ruột mà không cần muối mật."
+  }
+]

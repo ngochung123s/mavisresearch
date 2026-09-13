@@ -1,0 +1,506 @@
+[
+  {
+    "id": "PED14-V2-001",
+    "type": "basic",
+    "front": "Tại sao tốc độ sản xuất Bilirubin ở trẻ sơ sinh lại cao gấp 2 đến 3 lần so với người lớn?",
+    "back": "<b>📖 Cơ chế sinh lý:</b><br>Trẻ sơ sinh có thể tích khối hồng cầu rất cao (Hematocrit từ 55% đến 65%) và đời sống hồng cầu ngắn hơn nhiều (chỉ 70 đến 90 ngày so với 120 ngày ở người lớn).<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Tốc độ thoái giáng Hemoglobin diễn ra rất mạnh, sản sinh từ 8 đến 10 mg Bilirubin/kg/ngày (ở người lớn chỉ 3 đến 4 mg/kg/ngày), dễ gây quá tải năng lực đào thải của gan."
+  },
+  {
+    "id": "PED14-V2-002",
+    "type": "cloze",
+    "text": "Đời sống trung bình của hồng cầu ở trẻ sơ sinh đủ tháng chỉ kéo dài khoảng {{c1::70 đến 90 ngày}} (so với 120 ngày ở người trưởng thành), làm tăng gấp đôi tốc độ thoái giáng giải phóng sắc tố mật.",
+    "extra": "Ở trẻ sinh non, đời sống hồng cầu thậm chí chỉ kéo dài từ 50 đến 70 ngày."
+  },
+  {
+    "id": "PED14-V2-003",
+    "type": "basic",
+    "front": "Tại sao khả năng liên hợp Bilirubin tại gan của trẻ sơ sinh trong tuần đầu đời bị suy giảm nghiêm trọng?",
+    "back": "<b>📖 Cơ chế enzyme gan:</b><br>Hoạt tính của enzyme Uridine Diphosphate Glucuronosyltransferase 1A1 (UGT1A1) tại tế bào gan lúc chào đời chỉ đạt khoảng 1% so với mức của người trưởng thành.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Khả năng gắn acid glucuronic để chuyển Bilirubin gián tiếp thành trực tiếp bị đình trệ. Cần khoảng thời gian từ 6 đến 14 tuần sau sinh để men UGT1A1 trưởng thành đạt mức bình thường."
+  },
+  {
+    "id": "PED14-V2-004",
+    "type": "cloze",
+    "text": "Hoạt tính của enzyme liên hợp men gan UGT1A1 ở trẻ sơ sinh lúc mới chào đời chỉ đạt khoảng {{c1::1%}} so với mức của người lớn và cần từ 6 đến 14 tuần để hoàn thiện hoàn toàn.",
+    "extra": "Sự thiếu hụt sinh lý tạm thời của men UGT1A1 là nguyên nhân trung tâm dẫn đến vàng da sinh lý ở đại đa số trẻ sơ sinh."
+  },
+  {
+    "id": "PED14-V2-005",
+    "type": "basic",
+    "front": "Cơ chế nào làm gia tăng chu trình gan - ruột (Enterohepatic Circulation) của Bilirubin ở trẻ sơ sinh?",
+    "back": "<b>📖 Cơ chế tái hấp thu:</b><br>Ruột trẻ sơ sinh những ngày đầu còn vô khuẩn (thiếu vi khuẩn khử Bilirubin thành Stercobilin), đồng thời niêm mạc ruột và sữa mẹ chứa lượng lớn enzyme beta-glucuronidase.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Enzyme beta-glucuronidase thủy phân Bilirubin trực tiếp thành gián tiếp tan trong mỡ, tái hấp thu qua tĩnh mạch cửa về gan. Trẻ chậm ỉa phân su sẽ bị tái hấp thu Bilirubin nặng nề hơn."
+  },
+  {
+    "id": "PED14-V2-006",
+    "type": "basic",
+    "front": "Tại sao Bilirubin gián tiếp tự do (Bf) lại có khả năng gây tổn thương và hoại tử tế bào thần kinh não bộ?",
+    "back": "<b>📖 Cơ chế độc tế bào thần kinh:</b><br>Bilirubin gián tiếp có tính chất tan mạnh trong lipid. Khi vượt quá khả năng gắn kết của Albumin, phân tử tự do (Bf) dễ dàng khuếch tán qua hàng rào máu não.<br><br><b>🔍 Vị trí tổn thương:</b><br>Bilirubin lắng đọng chọn lọc tại màng ty thể tế bào thần kinh vùng nhân cầu nhạt và nhân ốc tai, ức chế chuỗi hô hấp tế bào, gây rối loạn cân bằng canxi nội bào và kích hoạt chết tế bào thần kinh."
+  },
+  {
+    "id": "PED14-V2-007",
+    "type": "cloze",
+    "text": "Trong liệu pháp quang trị liệu, photon ánh sáng xanh bước sóng 460 đến 490 nm kích hoạt phản ứng quang đồng phân hóa cấu trúc biến đổi Bilirubin thành {{c1::Lumirubin}} tan trong nước đào thải thẳng qua mật và nước tiểu.",
+    "extra": "Lumirubin là một đồng phân bền vững, có tính phân cực cao và không cần qua quá trình liên hợp men gan UGT1A1."
+  },
+  {
+    "id": "PED14-V2-008",
+    "type": "basic",
+    "front": "Vai trò của Albumin huyết thanh trong việc bảo vệ hệ thần kinh của trẻ sơ sinh khỏi độc tính Bilirubin là gì?",
+    "back": "<b>📖 Cơ chế đệm bảo vệ:</b><br>Albumin đóng vai trò là chất đệm vận chuyển nội mạch: mỗi phân tử Albumin có một vị trí liên kết ái lực cao với một phân tử Bilirubin gián tiếp.<br><br><b>🔍 Nguy cơ khi giảm Albumin:</b><br>Khi Albumin máu dưới 3.0 g/dL (hoặc khi có thuốc cạnh tranh gắn kết như Ceftriaxone), lượng Bilirubin tự do (Bf) tăng vọt, làm tăng nguy cơ vàng da nhân não ngay cả khi Bilirubin toàn phần chưa quá cao."
+  },
+  {
+    "id": "PED14-V2-009",
+    "type": "basic",
+    "front": "Nêu các vị trí giải phẫu não bộ bị tổn thương đặc hiệu nhất trong hội chứng vàng da nhân não (Kernicterus)?",
+    "back": "<b>📖 Định khu giải phẫu thần kinh:</b><br>Bilirubin gián tiếp tự do lắng đọng đối xứng tại các cấu trúc giàu lipid dưới vỏ: nhân cầu nhạt (Globus pallidus), nhân dưới đồi (Subthalamic nucleus), đồi thị, nhân vận nhãn (thần kinh sọ III, IV, VI) và nhân thần kinh ốc tai ở thân não.<br><br><b>🔍 Biểu hiện lâm sàng:</b><br>Dẫn đến tứ chứng kinh điển: múa vờn ngoại tháp, điếc thần kinh giác quan, liệt nhìn ngước và thiểu sản men răng."
+  },
+  {
+    "id": "PED14-V2-010",
+    "type": "cloze",
+    "text": "Tốc độ sản xuất Bilirubin bình thường ở trẻ sơ sinh đạt từ {{c1::8 đến 10 mg/kg/ngày}}, cao gấp 2 đến 3 lần so với tốc độ sản xuất ở người trưởng thành.",
+    "extra": "Ở người lớn khỏe mạnh, tốc độ sản xuất bilirubin hàng ngày chỉ khoảng 3 đến 4 mg/kg/ngày."
+  },
+  {
+    "id": "PED14-V2-011",
+    "type": "basic",
+    "front": "Phân biệt hai loại phản ứng quang đồng phân hóa (Photoisomerization) diễn ra dưới tác dụng của chiếu đèn?",
+    "back": "<b>📖 Hai cơ chế quang hóa:</b><br>1. Đồng phân hóa cấu hình (Configurational isomerization): Biến 4Z,15Z-Bilirubin thành 4Z,15E-Bilirubin tan trong nước (diễn ra rất nhanh nhưng có tính thuận nghịch, dễ đảo ngược về dạng độc trong mật).<br>2. Đồng phân hóa cấu trúc (Structural isomerization): Biến Bilirubin thành Lumirubin (không thuận nghịch, đào thải nhanh qua nước tiểu và mật, quyết định hiệu quả hạ Bilirubin thực tế)."
+  },
+  {
+    "id": "PED14-V2-012",
+    "type": "cloze",
+    "text": "Chất chuyển hóa trung gian đóng vai trò quyết định nhất giúp hạ nồng độ Bilirubin máu bền vững trong liệu pháp chiếu đèn là {{c1::Lumirubin}}, được tạo ra qua phản ứng quang đồng phân hóa cấu trúc không thuận nghịch.",
+    "extra": "Lumirubin chiếm phần lớn lượng sắc tố mật được đào thải ra phân và nước tiểu trong quá trình quang trị liệu."
+  },
+  {
+    "id": "PED14-V2-013",
+    "type": "basic",
+    "front": "Hội chứng Crigler-Najjar type I và type II khác nhau như thế nào về mức độ thiếu hụt men UGT1A1 và đáp ứng với Phenobarbital?",
+    "back": "<b>📖 Phân biệt di truyền UGT1A1:</b><br>- Type I: Đột biến gen đồng hợp tử gây mất hoàn toàn hoạt tính men UGT1A1 (0%), TSB tăng từ 20 đến 45 mg/dL, nguy cơ Kernicterus cực cao, KHÔNG đáp ứng với Phenobarbital, bắt buộc chiếu đèn 12-16h/ngày và ghép gan.<br>- Type II (Hội chứng Arias): Hoạt tính UGT1A1 còn dưới 10%, TSB từ 10 đến 20 mg/dL, ĐÁP ỨNG hạ Bilirubin khi dùng Phenobarbital cảm ứng men gan."
+  },
+  {
+    "id": "PED14-V2-014",
+    "type": "cloze",
+    "text": "Trong hội chứng {{c1::Crigler-Najjar type I}}, hoạt tính enzyme men gan UGT1A1 bị mất hoàn toàn (0%) và bệnh nhi hoàn toàn không đáp ứng với thuốc cảm ứng men Phenobarbital.",
+    "extra": "Ghép gan là biện pháp điều trị triệt để duy nhất cho bệnh nhân mắc hội chứng Crigler-Najjar type I."
+  },
+  {
+    "id": "PED14-V2-015",
+    "type": "basic",
+    "front": "Đặc điểm di truyền và biểu hiện lâm sàng của Hội chứng Gilbert ở trẻ sơ sinh và trẻ lớn là gì?",
+    "back": "<b>📖 Đột biến gen Gilbert:</b><br>Đột biến vùng promoter của gen UGT1A1 (thường do lặp đoạn TATAA, kiểu gen UGT1A1*28) làm giảm khoảng 70% hoạt tính men gan (chỉ còn ~30% mức bình thường).<br><br><b>🔍 Lâm sàng:</b><br>Ở sơ sinh làm tăng mức độ vàng da sinh lý; ở trẻ lớn và người lớn biểu hiện vàng da gián tiếp nhẹ từng đợt khi sốt, đói, gắng sức hoặc mệt mỏi, tiên lượng hoàn toàn lành tính."
+  },
+  {
+    "id": "PED14-V2-016",
+    "type": "cloze",
+    "text": "Các yếu tố như toan máu chuyển hóa, hạ thân nhiệt, nhiễm trùng huyết và việc dùng thuốc {{c1::Ceftriaxone}} làm suy giảm khả năng liên kết của Albumin với Bilirubin, làm tăng vọt nồng độ Bilirubin tự do (Bf) ngấm vào não.",
+    "extra": "Ceftriaxone bị chống chỉ định tuyệt đối ở trẻ sơ sinh dưới 28 ngày tuổi một phần do cơ chế cạnh tranh gắn Albumin này."
+  },
+  {
+    "id": "PED14-V2-017",
+    "type": "basic",
+    "front": "Nêu 4 tiêu chuẩn bắt buộc của một trường hợp vàng da sinh lý ở trẻ sơ sinh đủ tháng?",
+    "back": "<b>📖 Bốn tiêu chuẩn vàng da sinh lý:</b><br>1. Xuất hiện sau 24 giờ đầu sau sinh (thường ngày thứ 2 hoặc 3).<br>2. Đạt đỉnh nồng độ vào ngày thứ 3 đến ngày thứ 5 (nồng độ TSB dưới 12 đến 13 mg/dL).<br>3. Tự thoái lui và biến mất hoàn toàn sau 7 đến 10 ngày sau sinh.<br>4. Thể trạng trẻ hoàn toàn khỏe mạnh, bú tốt, lên cân tốt, phân vàng và nước tiểu trong."
+  },
+  {
+    "id": "PED14-V2-018",
+    "type": "cloze",
+    "text": "Vàng da xuất hiện trong vòng {{c1::24 giờ đầu sau sinh}} bất kể mức độ nào luôn luôn là dấu hiệu của vàng da bệnh lý, bắt buộc phải lấy máu đo TSB và tầm soát tan máu khẩn cấp.",
+    "extra": "Nguyên nhân hàng đầu của vàng da xuất hiện trước 24 giờ tuổi là bất đồng nhóm máu mẹ con hệ ABO hoặc Rh."
+  },
+  {
+    "id": "PED14-V2-019",
+    "type": "basic",
+    "front": "Tốc độ gia tăng nồng độ Bilirubin toàn phần (TSB) bao nhiêu được coi là dấu hiệu chỉ điểm của vàng da bệnh lý do tan máu tiến triển?",
+    "back": "<b>📖 Ngưỡng động học báo động:</b><br>Tốc độ tăng TSB trên 0.2 mg/dL/giờ (tương đương trên 5 mg/dL trong 24 giờ).<br><br><b>🔍 Hành động lâm sàng:</b><br>Tốc độ này chứng tỏ quá trình phá hủy hồng cầu đang diễn ra dữ dội vượt xa khả năng liên hợp của gan, cần kích hoạt chiếu đèn tích cực và tìm căn nguyên tan máu ngay."
+  },
+  {
+    "id": "PED14-V2-020",
+    "type": "cloze",
+    "text": "Tốc độ tăng Bilirubin huyết thanh toàn phần (TSB) vượt quá {{c1::0.2 mg/dL/giờ}} (hoặc trên 5 mg/dL trong 24 giờ) là bằng chứng xác định tan máu bệnh lý tiến triển nhanh.",
+    "extra": "Trong các trường hợp tan máu rầm rộ, TSB có thể tăng tới 0.5 đến 1.0 mg/dL mỗi giờ."
+  },
+  {
+    "id": "PED14-V2-021",
+    "type": "basic",
+    "front": "Phân biệt Vàng da do thiếu sữa mẹ (Breastfeeding Jaundice) và Vàng da do sữa mẹ (Breast Milk Jaundice) về thời điểm khởi phát và cơ chế bệnh sinh?",
+    "back": "<b>📖 Phân biệt bản chất:</b><br>- Vàng da do thiếu sữa mẹ: Xuất hiện sớm ở tuần đầu (ngày 2-5) do trẻ bú không đủ, đói, sụt cân > 10%, chậm ỉa phân su làm tăng chu trình gan ruột.<br>- Vàng da do sữa mẹ: Xuất hiện muộn ở cuối tuần 1, đạt đỉnh tuần 2-3 ở trẻ bú mẹ rất tốt, tăng cân vượt chuẩn do các hoạt chất tự nhiên trong sữa mẹ ức chế men UGT1A1."
+  },
+  {
+    "id": "PED14-V2-022",
+    "type": "cloze",
+    "text": "Vàng da do thiếu sữa mẹ (Breastfeeding Jaundice) thường xuất hiện vào {{c1::ngày thứ 2 đến ngày thứ 5}} sau sinh và đi kèm dấu hiệu sụt cân trên 10% trọng lượng lúc sinh do thiếu dịch.",
+    "extra": "Xử trí cốt lõi là hỗ trợ tăng cữ bú mẹ lên 8 đến 12 lần/ngày, tuyệt đối không được khuyên mẹ ngừng cho con bú."
+  },
+  {
+    "id": "PED14-V2-023",
+    "type": "basic",
+    "front": "Tại sao trong vàng da do sữa mẹ (Breast Milk Jaundice), bác sĩ tuyệt đối không được khuyên bà mẹ ngừng cho con bú?",
+    "back": "<b>📖 Cơ chế và tính an toàn:</b><br>Vàng da do sữa mẹ là tình trạng sinh lý hoàn toàn lành tính. Hàng rào máu não ở tuần thứ 2 đến tuần thứ 3 đã tương đối vững chắc, nguy cơ độc thần kinh rất thấp.<br><br><b>🔍 Thái độ đúng:</b><br>Ngừng bú mẹ làm mất đi nguồn dinh dưỡng và kháng thể tối ưu. Bác sĩ cần trấn an gia đình tiếp tục cho bú mẹ hoàn toàn, theo dõi màu phân và chỉ chiếu đèn nếu TSB chạm ngưỡng can thiệp."
+  },
+  {
+    "id": "PED14-V2-024",
+    "type": "cloze",
+    "text": "Vàng da do sữa mẹ (Breast Milk Jaundice) thường đạt đỉnh nồng độ vào {{c1::tuần thứ 2 đến tuần thứ 3}} sau sinh và có thể kéo dài lành tính từ 3 đến 12 tuần mà không gây tổn thương não.",
+    "extra": "Trẻ vàng da do sữa mẹ luôn có đặc điểm lâm sàng là tăng cân rất tốt và thể trạng hoàn toàn khỏe mạnh."
+  },
+  {
+    "id": "PED14-V2-025",
+    "type": "basic",
+    "front": "Tại sao phương pháp phơi nắng sáng qua cửa kính không được chấp nhận làm biện pháp điều trị vàng da sơ sinh trong y học chứng cứ?",
+    "back": "<b>📖 Cơ sở khoa học:</b><br>1. Kính cửa sổ hấp thụ phần lớn các tia sáng có ích và cường độ quang phổ xanh của ánh nắng mặt trời qua kính rất yếu (dưới 5 µW/cm²/nm, không đủ mức 30 µW/cm²/nm để tạo Lumirubin).<br>2. Tiềm ẩn nguy cơ bỏng nhiệt, phơi nhiễm tia tử ngoại có hại và làm chậm trễ thời gian vàng chiếu đèn tích cực tại bệnh viện."
+  },
+  {
+    "id": "PED14-V2-026",
+    "type": "basic",
+    "front": "Tiêu chuẩn thời gian để xác định vàng da kéo dài (Prolonged Jaundice) ở trẻ sơ sinh đủ tháng và trẻ non tháng là bao lâu?",
+    "back": "<b>📖 Mốc thời gian vàng da kéo dài:</b><br>- Trẻ sinh đủ tháng (từ 37 tuần trở lên): Vàng da kéo dài trên 14 ngày sau sinh.<br>- Trẻ sinh non tháng (dưới 37 tuần): Vàng da kéo dài trên 21 ngày sau sinh.<br><br><b>🔍 Bắt buộc tầm soát:</b><br>Mọi trẻ có vàng da kéo dài bắt buộc phải xét nghiệm định lượng Bilirubin trực tiếp để loại trừ bệnh lý ứ mật hoặc teo đường mật bẩm sinh."
+  },
+  {
+    "id": "PED14-V2-027",
+    "type": "cloze",
+    "text": "Tiêu chuẩn xác định vàng da kéo dài ở trẻ sơ sinh sinh đủ tháng là khi tình trạng vàng da tồn tại trên {{c1::14 ngày tuổi}}, còn ở trẻ sinh non tháng là trên 21 ngày tuổi.",
+    "extra": "Khi gặp trẻ vàng da kéo dài, phản xạ đầu tiên của bác sĩ là xét nghiệm Bilirubin trực tiếp để loại trừ ứ mật."
+  },
+  {
+    "id": "PED14-V2-028",
+    "type": "basic",
+    "front": "Tại sao cho trẻ sơ sinh vàng da uống thêm nước lọc hoặc nước đường lại là một sai lầm nguy hại?",
+    "back": "<b>📖 Cơ sở dược lý & sinh lý:</b><br>Bilirubin gián tiếp không tan trong nước nên không thể bài tiết qua đường thận bằng việc uống nước lọc.<br><br><b>🔍 Tác hại lâm sàng:</b><br>Uống nước lọc làm căng dạ dày, làm trẻ giảm lượng bú sữa mẹ (giảm năng lượng và mỡ cần để kích thích tiết mật), làm giảm nhu động ruột thải phân su và có nguy cơ gây hạ Natri máu co giật do ngộ độc nước."
+  },
+  {
+    "id": "PED14-V2-029",
+    "type": "basic",
+    "front": "Cơ chế nào giải thích tình trạng vàng da nặng ở trẻ có bướu máu dưới màng xương sọ (Cephalohematoma)?",
+    "back": "<b>📖 Thoái giáng máu tụ ngoài mạch:</b><br>Khối máu tụ bị giam hãm dưới màng xương chứa lượng lớn hồng cầu. Sau 48 đến 72 giờ, các đại thực bào tại chỗ tiêu hủy khối hồng cầu này, giải phóng lượng lớn Heme thoái giáng thành Bilirubin gián tiếp tràn vào tuần hoàn, gây vàng da tăng muộn và kéo dài."
+  },
+  {
+    "id": "PED14-V2-030",
+    "type": "cloze",
+    "text": "Bướu máu dưới màng xương (Cephalohematoma) hoặc bướu huyết thanh lớn gây vàng da do hiện tượng thoái giáng {{c1::hồng cầu bị giam hãm ngoài lòng mạch}} giải phóng lượng lớn sắc tố mật vào máu sau 48 đến 72 giờ.",
+    "extra": "Cần theo dõi sát nồng độ TSB ở trẻ có tiền sử đẻ giác hút hoặc forceps có bướu máu đầu."
+  },
+  {
+    "id": "PED14-V2-031",
+    "type": "basic",
+    "front": "Tại sao trẻ đa hồng cầu (Polycythemia - Hct máu tĩnh mạch > 65%) lại có nguy cơ cao bị vàng da tăng Bilirubin nặng?",
+    "back": "<b>📖 Gánh nặng chuyển hóa Heme:</b><br>Khối lượng hồng cầu toàn cơ thể tăng vọt đồng nghĩa với số lượng hồng cầu bị già cỗi và tiêu hủy mỗi ngày tăng lên gấp 2-3 lần mức bình thường.<br><br><b>🔍 Nguy cơ:</b><br>Lượng Bilirubin giải phóng vượt quá khả năng liên hợp của men gan UGT1A1 sơ sinh, dẫn đến vàng da tăng nhanh và nặng nề."
+  },
+  {
+    "id": "PED14-V2-032",
+    "type": "basic",
+    "front": "Cơ chế gây vàng da kéo dài ở trẻ mắc bệnh suy giáp bẩm sinh (Congenital Hypothyroidism) là gì?",
+    "back": "<b>📖 Cơ chế nội tiết:</b><br>Hormone tuyến giáp (T4/T3) là yếu tố cần thiết cho sự trưởng thành và biểu hiện của enzyme UGT1A1 tại gan cũng như điều hòa nhu động ruột.<br><br><b>🔍 Hậu quả:</b><br>Thiếu hormone giáp làm men UGT1A1 hoạt động rất kém, kết hợp với táo bón nặng làm tăng chu trình gan ruột, biểu hiện bằng vàng da kéo dài kèm thóp sau rộng, ngủ nhiều, bú chậm và lưỡi to."
+  },
+  {
+    "id": "PED14-V2-033",
+    "type": "cloze",
+    "text": "Trẻ sơ sinh có biểu hiện vàng da kéo dài trên 3 tuần tuổi kèm theo táo bón, ngủ nhiều, thóp sau rộng trên 1 cm và lưỡi dày cần được xét nghiệm sàng lọc bệnh lý {{c1::suy giáp bẩm sinh (Congenital Hypothyroidism)}}.",
+    "extra": "Xét nghiệm TSH và FT4 giúp chẩn đoán xác định và điều trị sớm bằng Levothyroxine ngăn ngừa chậm phát triển trí tuệ."
+  },
+  {
+    "id": "PED14-V2-034",
+    "type": "basic",
+    "front": "Các dấu hiệu lâm sàng nào chứng tỏ trẻ bú mẹ không đủ lượng sữa trong tuần đầu sau sinh?",
+    "back": "<b>📖 Dấu hiệu thiếu sữa mẹ:</b><br>1. Sụt cân trên 10% trọng lượng lúc sinh.<br>2. Số lượng tã ướt dưới 4-6 chiếc trong 24 giờ sau ngày thứ 4.<br>3. Tã dính cặn urat màu hồng cam (dấu hiệu cô đặc nước tiểu).<br>4. Phân vẫn còn màu xanh đen của phân su sau ngày thứ 4 (chậm chuyển sang phân vàng).<br>5. Trẻ ngậm vú không đúng khớp ngậm, mút ngắt quãng, quấy khóc liên tục sau khi bú."
+  },
+  {
+    "id": "PED14-V2-035",
+    "type": "basic",
+    "front": "Nêu 5 vùng đánh giá mức độ vàng da theo quy tắc Kramer và giải thích tại sao không được dùng Kramer để ra quyết định điều trị?",
+    "back": "<b>📖 Thang điểm Kramer:</b><br>Vùng 1 (Đầu cổ: ~4-6 mg/dL); Vùng 2 (Ngực lưng: ~6-8 mg/dL); Vùng 3 (Bụng đùi: ~8-12 mg/dL); Vùng 4 (Cẳng tay cẳng chân: ~12-15 mg/dL); Vùng 5 (Bàn tay bàn chân: >15 mg/dL).<br><br><b>🔍 Cạm bẫy lâm sàng:</b><br>Màu da hồng đỏ và mạch máu dưới da của trẻ sơ sinh làm mắt thường đánh giá sai lệch rất lớn (sai số ±30% đến 40%). AAP 2022 khuyến cáo bắt buộc phải đo TcB hoặc TSB."
+  },
+  {
+    "id": "PED14-V2-036",
+    "type": "cloze",
+    "text": "Theo quy chuẩn quốc tế, công thức chuyển đổi nồng độ Bilirubin giữa hai hệ đơn vị là: nồng độ Bilirubin tính bằng mg/dL nhân với hệ số {{c1::17.1}} sẽ ra đơn vị µmol/L.",
+    "extra": "Ví dụ: 15 mg/dL tương đương 15 x 17.1 = 256.5 µmol/L; 20 mg/dL tương đương khoảng 342 µmol/L."
+  },
+  {
+    "id": "PED14-V2-037",
+    "type": "basic",
+    "front": "Theo hướng dẫn AAP 2022, nêu 3 tình huống bắt buộc phải lấy máu tĩnh mạch đo TSB để xác nhận kết quả đo Bilirubin qua da (TcB)?",
+    "back": "<b>📖 Ba điều kiện bắt buộc xác nhận TSB:</b><br>1. Khi chỉ số đo TcB đạt từ 15 mg/dL (257 µmol/L) trở lên (ở nồng độ này máy TcB mất độ chính xác tuyến tính).<br>2. Khi chỉ số TcB nằm cách ngưỡng chiếu đèn theo giờ tuổi dưới 3 mg/dL (50 µmol/L).<br>3. Khi chỉ số TcB đạt từ 70% ngưỡng chiếu đèn trở lên."
+  },
+  {
+    "id": "PED14-V2-038",
+    "type": "cloze",
+    "text": "Theo khuyến cáo AAP 2022, khi đo Bilirubin qua da (TcB) đạt giá trị từ {{c1::≥ 15 mg/dL}} trở lên, bác sĩ bắt buộc phải lấy máu tĩnh mạch làm TSB để xác nhận trước khi can thiệp.",
+    "extra": "Ở nồng độ cao trên 15 mg/dL, độ dày và sắc tố da làm giảm tính chính xác của cảm biến quang học TcB."
+  },
+  {
+    "id": "PED14-V2-039",
+    "type": "basic",
+    "front": "Kể tên 7 Yếu tố nguy cơ tổn thương thần kinh (Neurotoxicity Risk Factors) làm hạ thấp ngưỡng chiếu đèn và thay máu theo AAP 2022?",
+    "back": "<b>📖 Bảy yếu tố nguy cơ thần kinh AAP 2022:</b><br>1. Tuổi thai non tháng dưới 38 tuần.<br>2. Albumin huyết thanh dưới 3.0 g/dL.<br>3. Bệnh tan máu đồng miễn dịch (bất đồng ABO/Rh có DAT dương tính).<br>4. Thiếu hụt men G6PD.<br>5. Nhiễm khuẩn huyết sơ sinh.<br>6. Tình trạng toan máu chuyển hóa.<br>7. Lâm sàng không ổn định trong 24 giờ trước (ngạt, hạ thân nhiệt nặng)."
+  },
+  {
+    "id": "PED14-V2-040",
+    "type": "cloze",
+    "text": "Theo phân tầng nguy cơ của AAP 2022, tuổi thai sinh non dưới {{c1::38 tuần tuổi thai}} được xếp vào nhóm có yếu tố nguy cơ độc tính thần kinh cần áp dụng đường cong ngưỡng chiếu đèn thấp hơn.",
+    "extra": "Tuổi thai càng non thì tính thấm của hàng rào máu não càng cao và nồng độ Albumin huyết tương càng thấp."
+  },
+  {
+    "id": "PED14-V2-041",
+    "type": "basic",
+    "front": "Tại sao xét nghiệm Test Coombs trực tiếp (DAT) lại có vai trò quyết định trong việc phân tầng nguy cơ vàng da sơ sinh?",
+    "back": "<b>📖 Ý nghĩa xét nghiệm DAT:</b><br>Test DAT (Direct Antiglobulin Test) dương tính xác nhận sự hiện diện của kháng thể IgG từ mẹ đang bám trên bề mặt hồng cầu của con.<br><br><b>🔍 Ý nghĩa lâm sàng:</b><br>Khẳng định tình trạng tan máu miễn dịch đang diễn ra liên tục, dự báo nồng độ Bilirubin sẽ tăng rất nhanh và báo hiệu chỉ định dùng thuốc ức chế miễn dịch IVIG."
+  },
+  {
+    "id": "PED14-V2-042",
+    "type": "basic",
+    "front": "Tại sao bất đồng nhóm máu hệ ABO phổ biến nhất khi mẹ nhóm máu O sinh con nhóm máu A hoặc B?",
+    "back": "<b>📖 Cơ sở miễn dịch học:</b><br>Người mẹ nhóm máu O có kháng thể tự nhiên kháng A và kháng B thuộc lớp miễn dịch IgG (có khả năng vận chuyển tích cực qua hàng rào nhau thai sang con).<br><br><b>🔍 So sánh với mẹ nhóm A hoặc B:</b><br>Người mẹ nhóm A hoặc B chủ yếu sản sinh kháng thể kháng hồng cầu thuộc lớp IgM (kích thước phân tử lớn không qua được nhau thai)."
+  },
+  {
+    "id": "PED14-V2-043",
+    "type": "cloze",
+    "text": "Theo hướng dẫn AAP 2022, nếu chỉ số đo TcB nằm cách ngưỡng chỉ định chiếu đèn dưới {{c1::3 mg/dL}} (tương đương 50 µmol/L), bác sĩ bắt buộc phải chỉ định lấy máu xét nghiệm TSB.",
+    "extra": "Khoảng cách dưới 3 mg/dL nằm trong biên độ sai số của thiết bị đo qua da, có thể làm bỏ sót chỉ định chiếu đèn."
+  },
+  {
+    "id": "PED14-V2-044",
+    "type": "basic",
+    "front": "Tại sao đo TcB trên vùng da đang hoặc vừa mới chiếu đèn lại dẫn đến sai lầm nguy kịch?",
+    "back": "<b>📖 Nguyên nhân sai số:</b><br>Ánh sáng xanh tác động trực tiếp vào mao mạch nông và mô mỡ bề mặt, tẩy trắng Bilirubin tại vùng da đó chỉ sau 1 đến 2 giờ.<br><br><b>🔍 Hậu quả:</b><br>Chỉ số TcB đo được sẽ thấp giả tạo (ví dụ 6 mg/dL) trong khi nồng độ Bilirubin trong máu và não vẫn đang ở mức nguy kịch (18 mg/dL). Bắt buộc phải lấy máu đo TSB khi trẻ đang chiếu đèn."
+  },
+  {
+    "id": "PED14-V2-045",
+    "type": "basic",
+    "front": "Tỷ lệ hồng cầu lưới (Reticulocyte count) trong máu ngoại vi có ý nghĩa gì trong chẩn đoán vàng da sơ sinh?",
+    "back": "<b>📖 Ý nghĩa hồng cầu lưới:</b><br>Bình thường ở sơ sinh hồng cầu lưới từ 2% đến 5% và giảm nhanh sau vài ngày.<br><br><b>🔍 Đánh giá tan máu:</b><br>Nếu hồng cầu lưới tăng cao > 5-7% chứng tỏ tủy xương đang tăng sinh mạnh mẽ để bù trừ cho lượng hồng cầu bị phá hủy ngoài mạch, củng cố chắc chắn chẩn đoán tan máu cấp tính."
+  },
+  {
+    "id": "PED14-V2-046",
+    "type": "cloze",
+    "text": "Hình ảnh phết máu ngoại biên quan sát thấy nhiều mảnh vỡ hồng cầu (Schistocytes) và hồng cầu nhỏ hình cầu (Spherocytes) là bằng chứng xác thực của bệnh lý {{c1::tan máu đồng miễn dịch ABO hoặc bệnh màng hồng cầu di truyền}}.",
+    "extra": "Hồng cầu hình cầu bị mất một phần màng tế bào khi đi qua lách do đại thực bào thực bào phức hợp kháng nguyên - kháng thể."
+  },
+  {
+    "id": "PED14-V2-047",
+    "type": "basic",
+    "front": "Tại sao định lượng hoạt độ men G6PD có thể cho kết quả bình thường giả tạo trong giai đoạn tan máu cấp tính?",
+    "back": "<b>📖 Cơ chế âm tính giả của G6PD:</b><br>Các hồng cầu già cỗi chứa ít men G6PD nhất đã bị vỡ hết trong cơn tan máu. Tủy xương phóng thích ồ ạt các hồng cầu lưới non chứa nồng độ enzyme G6PD rất cao vào máu.<br><br><b>🔍 Xử trí đúng:</b><br>Nếu nghi ngờ lâm sàng cao, cần xét nghiệm lại hoạt độ men G6PD sau 2 đến 3 tháng khi đợt tan máu đã ổn định hoàn toàn."
+  },
+  {
+    "id": "PED14-V2-048",
+    "type": "basic",
+    "front": "Tỷ lệ Bilirubin / Albumin (B/A ratio) được sử dụng khi nào và có ý nghĩa lâm sàng gì theo AAP 2022?",
+    "back": "<b>📖 Tỷ lệ B/A bổ trợ:</b><br>Được sử dụng như một tiêu chí phối hợp cùng TSB để cân nhắc chỉ định thay máu khẩn cấp khi TSB đang tiến sát ngưỡng thay máu.<br><br><b>🔍 Ngưỡng can thiệp:</b><br>Tỷ lệ B/A (mg/g) từ 8.0 trở lên ở trẻ đủ tháng khỏe mạnh, hoặc từ 6.8 trở lên ở trẻ có yếu tố nguy cơ thần kinh là chỉ điểm nồng độ Bilirubin tự do nguy hiểm đe dọa tổn thương não."
+  },
+  {
+    "id": "PED14-V2-049",
+    "type": "cloze",
+    "text": "Ngưỡng chỉ định chiếu đèn theo AAP 2022 ở trẻ sơ sinh đủ tháng 38 tuần khỏe mạnh tại thời điểm 48 giờ tuổi là {{c1::15.2 mg/dL}} (tương đương 260 µmol/L).",
+    "extra": "Nếu trẻ có yếu tố nguy cơ tổn thương thần kinh, ngưỡng chiếu đèn ở mốc 48h tuổi bị hạ thấp xuống còn 12.2 mg/dL."
+  },
+  {
+    "id": "PED14-V2-050",
+    "type": "cloze",
+    "text": "Ngưỡng chỉ định thay máu theo AAP 2022 ở trẻ sơ sinh đủ tháng 38 tuần khỏe mạnh tại thời điểm 48 giờ tuổi là {{c1::22.2 mg/dL}} (tương đương 380 µmol/L).",
+    "extra": "Nếu có dấu hiệu thần kinh của ABE, chỉ định thay máu được kích hoạt ngay lập tức mà không cần chờ TSB chạm ngưỡng số học."
+  },
+  {
+    "id": "PED14-V2-051",
+    "type": "basic",
+    "front": "Mục đích của việc đo TcB hoặc TSB trước khi xuất viện ở mọi trẻ sơ sinh theo AAP 2022 là gì?",
+    "back": "<b>📖 Chiến lược trước xuất viện:</b><br>1. Xác định vị trí nồng độ Bilirubin của trẻ trên biểu đồ nguy cơ Bhutani (Vùng nguy cơ cao, trung bình cao, trung bình thấp, hoặc thấp).<br>2. Lên kế hoạch chính xác thời điểm hẹn tái khám (trong 24h, 48h hoặc 72h) để phát hiện sớm đỉnh vàng da tại nhà, loại trừ hoàn toàn nguy cơ trẻ bị Kernicterus sau xuất viện."
+  },
+  {
+    "id": "PED14-V2-052",
+    "type": "basic",
+    "front": "Trẻ sơ sinh có TSB trước xuất viện nằm ở 'Vùng nguy cơ cao' (cách ngưỡng chiếu dưới 1.5 mg/dL) cần được quản lý như thế nào?",
+    "back": "<b>📖 Xử trí vùng nguy cơ cao:</b><br>AAP 2022 khuyến cáo: Trì hoãn xuất viện để tiếp tục theo dõi và cân nhắc chiếu đèn dự phòng, HOẶC nếu xuất viện bắt buộc phải hẹn tái khám kiểm tra lại nồng độ TSB trong vòng 12 đến 24 giờ tiếp theo."
+  },
+  {
+    "id": "PED14-V2-053",
+    "type": "basic",
+    "front": "Nêu các thông số kỹ thuật tiêu chuẩn của một dàn đèn chiếu tích cực (Intensive Phototherapy)?",
+    "back": "<b>📖 Thông số kỹ thuật dàn đèn chuẩn:</b><br>- Nguồn sáng: Đèn LED chuyên dụng phát bước sóng ánh sáng xanh trong dải 460 đến 490 nm.<br>- Cường độ quang phổ (Spectral Irradiance): Bắt buộc đạt từ 30 µW/cm²/nm trở lên.<br>- Diện tích tiếp xúc: Chiếu đèn hai mặt (dàn đèn trên kết hợp đệm chiếu dưới lưng), bộc lộ da tối đa.<br>- Khoảng cách: Đặt dàn đèn LED cách bề mặt da trẻ từ 25 đến 30 cm."
+  },
+  {
+    "id": "PED14-V2-054",
+    "type": "cloze",
+    "text": "Cường độ quang phổ của dàn đèn chiếu tích cực trong điều trị vàng da sơ sinh bắt buộc phải đạt tối thiểu từ {{c1::30 µW/cm²/nm}} trở lên trong dải bước sóng 460 đến 490 nm.",
+    "extra": "Nếu cường độ đèn dưới 30 µW/cm²/nm, quá trình quang đồng phân hóa tạo Lumirubin sẽ diễn ra không hoàn toàn."
+  },
+  {
+    "id": "PED14-V2-055",
+    "type": "basic",
+    "front": "Hội chứng em bé da đồng (Bronze Baby Syndrome) là gì, xảy ra trong hoàn cảnh nào và có nguy hiểm không?",
+    "back": "<b>📖 Bản chất hội chứng da đồng:</b><br>Xuất hiện khi chiếu đèn ở những trẻ sơ sinh có tình trạng ứ mật phối hợp (tăng nồng độ Bilirubin trực tiếp).<br><br><b>🔍 Cơ chế và tiên lượng:</b><br>Do sự tích tụ của các phức hợp porphyrin đồng quang phân hủy không đào thải được qua đường mật. Da và nước tiểu chuyển màu nâu đồng xám. Đây là tình trạng lành tính và sẽ tự hết sau khi ngừng chiếu đèn."
+  },
+  {
+    "id": "PED14-V2-056",
+    "type": "basic",
+    "front": "Tiêu chuẩn ngừng chiếu đèn an toàn theo khuyến cáo AAP 2022 là gì?",
+    "back": "<b>📖 Tiêu chuẩn ngừng quang trị liệu:</b><br>Ngừng chiếu đèn khi nồng độ TSB đã hạ xuống thấp hơn ngưỡng chỉ định chiếu đèn ban đầu ít nhất 2 mg/dL (tương đương 34 µmol/L).<br><br><b>🔍 Lưu ý:</b><br>Không cần thiết phải chiếu đèn kéo dài cho đến khi Bilirubin giảm về mức bình thường hoàn toàn nhằm tránh kéo dài thời gian nằm viện không cần thiết."
+  },
+  {
+    "id": "PED14-V2-057",
+    "type": "cloze",
+    "text": "Tiêu chuẩn ngừng chiếu đèn an toàn theo AAP 2022 là khi nồng độ TSB đã giảm xuống dưới ngưỡng chiếu đèn ban đầu ít nhất {{c1::2 mg/dL}} (tương đương 34 µmol/L).",
+    "extra": "Cần hẹn kiểm tra lại nồng độ TSB sau khi ngừng chiếu đèn 12 đến 24 giờ ở trẻ có nguy cơ tăng dội ngược cao."
+  },
+  {
+    "id": "PED14-V2-058",
+    "type": "basic",
+    "front": "Chỉ định, liều dùng và cơ chế tác dụng của Immunoglobulin tĩnh mạch (IVIG) trong điều trị vàng da sơ sinh?",
+    "back": "<b>📖 Phác đồ IVIG:</b><br>- Chỉ định: Vàng da tan máu đồng miễn dịch (bất đồng ABO/Rh kèm DAT dương tính) khi TSB tiếp tục tăng dù đã chiếu đèn tích cực hoặc TSB cách ngưỡng thay máu dưới 2 đến 3 mg/dL.<br>- Liều dùng: 0.5 đến 1.0 g/kg truyền tĩnh mạch chậm trong 2 giờ.<br>- Cơ chế: Kháng thể IgG cạnh tranh phong bế thụ thể Fc trên đại thực bào lách, làm ngừng quá trình thực bào hồng cầu."
+  },
+  {
+    "id": "PED14-V2-059",
+    "type": "cloze",
+    "text": "Liều lượng truyền tĩnh mạch của Immunoglobulin (IVIG) trong điều trị vàng da tan máu đồng miễn dịch ở trẻ sơ sinh là {{c1::0.5 đến 1.0 g/kg}} truyền trong thời gian 2 giờ.",
+    "extra": "Có thể nhắc lại liều IVIG thứ hai sau 12 giờ nếu tốc độ tăng Bilirubin vẫn chưa được khống chế."
+  },
+  {
+    "id": "PED14-V2-060",
+    "type": "basic",
+    "front": "Nêu hai lưu ý quan trọng nhất đối với điều dưỡng khi thực hiện kỹ thuật chiếu đèn cho trẻ sơ sinh?",
+    "back": "<b>📖 Hai lưu ý điều dưỡng bắt buộc:</b><br>1. Che mắt cẩn thận bằng băng che mắt chuyên dụng cản quang hoàn toàn, kiểm tra mi mắt và vệ sinh dử mắt mỗi 4 đến 6 giờ để tránh tổn thương võng mạc.<br>2. Che kín bộ phận sinh dục bằng tã lót nhỏ, đồng thời theo dõi thân nhiệt da liên tục để tránh hạ thân nhiệt hoặc quá nhiệt."
+  },
+  {
+    "id": "PED14-V2-061",
+    "type": "basic",
+    "front": "Hiện tượng 'Bilirubin tăng dội ngược' (Rebound Hyperbilirubinemia) sau khi ngừng chiếu đèn thường xảy ra ở nhóm trẻ nào?",
+    "back": "<b>📖 Nhóm nguy cơ Rebound:</b><br>1. Trẻ có bệnh lý tan máu đồng miễn dịch (DAT dương tính) do kháng thể mẹ vẫn tiếp tục lưu hành phá hủy hồng cầu mới.<br>2. Trẻ sinh non dưới 38 tuần tuổi thai.<br>3. Trẻ được bắt đầu chiếu đèn sớm trước 48 giờ tuổi.<br><br><b>🔍 Hành động:</b><br>Bắt buộc kiểm tra lại TSB sau khi tắt đèn chiếu từ 12 đến 24 giờ."
+  },
+  {
+    "id": "PED14-V2-062",
+    "type": "cloze",
+    "text": "Hiện tượng Bilirubin tăng dội ngược (Rebound) sau khi ngừng chiếu đèn phổ biến nhất ở trẻ có {{c1::test DAT dương tính (tan máu đồng miễn dịch)}} hoặc trẻ sinh non dưới 38 tuần.",
+    "extra": "Không nên cho trẻ xuất viện ngay lập tức sau khi tắt đèn mà cần theo dõi thêm 12 đến 24 giờ."
+  },
+  {
+    "id": "PED14-V2-063",
+    "type": "basic",
+    "front": "Các tiêu chuẩn để lựa chọn bệnh nhi an toàn cho liệu pháp Quang trị liệu tại nhà (Home Phototherapy) theo AAP 2022?",
+    "back": "<b>📖 Tiêu chuẩn chiếu đèn tại nhà:</b><br>1. Trẻ sinh đủ tháng từ 38 tuần trở lên, tuổi sau sinh từ 48 giờ trở lên.<br>2. Lâm sàng hoàn toàn ổn định, bú mẹ tốt.<br>3. Không có bất kỳ yếu tố nguy cơ độc thần kinh nào (DAT âm tính, Albumin bình thường).<br>4. TSB chỉ vượt ngưỡng chiếu đèn dưới 1 mg/dL và cách xa ngưỡng thay máu ít nhất 3 mg/dL.<br>5. Có nhân viên y tế theo dõi lấy máu TSB tại nhà mỗi ngày."
+  },
+  {
+    "id": "PED14-V2-064",
+    "type": "cloze",
+    "text": "Theo AAP 2022, điều kiện để trẻ được chiếu đèn tại nhà là nồng độ TSB chỉ được vượt ngưỡng chiếu đèn dưới {{c1::1.0 mg/dL}} và phải cách xa ngưỡng thay máu ít nhất 3 mg/dL.",
+    "extra": "Nếu TSB tiếp tục tăng sau 24 giờ chiếu tại nhà, bắt buộc phải nhập viện ngay lập tức."
+  },
+  {
+    "id": "PED14-V2-065",
+    "type": "basic",
+    "front": "Tại sao việc bổ sung dịch truyền tĩnh mạch thường quy trong quá trình chiếu đèn không còn được khuyến cáo ở trẻ bú tốt?",
+    "back": "<b>📖 Khuyến cáo dịch truyền AAP 2022:</b><br>Dàn đèn LED hiện đại phát nhiệt rất thấp, không gây mất nước vô cảm nhiều như dàn đèn huỳnh quang cũ.<br><br><b>🔍 Lợi ích bú mẹ:</b><br>Nếu trẻ vẫn bú mẹ tốt, việc truyền dịch tĩnh mạch làm giảm thời gian gắn kết mẹ con và làm giảm lượng bú mẹ. Chỉ truyền dịch khi trẻ có dấu hiệu mất nước thực sự hoặc TSB tiến sát ngưỡng thay máu."
+  },
+  {
+    "id": "PED14-V2-066",
+    "type": "basic",
+    "front": "Tác dụng phụ thường gặp nhất của chiếu đèn là gì và xử trí như thế nào?",
+    "back": "<b>📖 Tác dụng phụ thường gặp:</b><br>1. Phân lỏng màu xanh lục (do tăng bài tiết sắc tố mật và Lumirubin vào lòng ruột kích thích nhu động ruột) -> Tiếp tục cho bú mẹ bù dịch, không dùng thuốc cầm tiêu chảy.<br>2. Ban đỏ dạng sởi thoáng qua -> Tự hết sau khi tắt đèn.<br>3. Rối loạn thân nhiệt (sốt nhẹ hoặc nhiễm lạnh) -> Điều chỉnh nhiệt độ phòng/lồng ấp."
+  },
+  {
+    "id": "PED14-V2-067",
+    "type": "cloze",
+    "text": "Khoảng cách an toàn và tối ưu nhất để đặt dàn đèn chiếu LED chuyên dụng cách bề mặt da của trẻ sơ sinh là từ {{c1::25 đến 30 cm}}.",
+    "extra": "Cường độ quang phổ tỉ lệ nghịch với bình phương khoảng cách, do đó nâng dàn đèn lên quá cao sẽ làm mất hiệu quả điều trị."
+  },
+  {
+    "id": "PED14-V2-068",
+    "type": "basic",
+    "front": "Tại sao bọc giấy bạc hoặc vải trắng xung quanh lồng ấp có thể làm tăng hiệu quả của chiếu đèn?",
+    "back": "<b>📖 Tối ưu hóa phản xạ quang học:</b><br>Lớp vải trắng hoặc giấy bạc phản xạ lại các tia sáng xanh bị phân tán ra ngoài môi trường, hướng ngược trở lại bề mặt da trẻ, làm tăng diện tích tiếp xúc và tăng mật độ năng lượng photon tác động lên da."
+  },
+  {
+    "id": "PED14-V2-069",
+    "type": "basic",
+    "front": "Kể tên các triệu chứng lâm sàng kinh điển của Bệnh não do Bilirubin cấp tính (ABE) trong giai đoạn tiến triển?",
+    "back": "<b>📖 Triệu chứng giai đoạn tiến triển (Trung bình):</b><br>- Tri giác: Lơ mơ sâu xen kẽ các cơn kích thích vật vã dữ dội.<br>- Trương lực cơ: Tăng trương lực cơ duỗi, xuất hiện cơn ưỡn cổ ra sau (Retrocollis) và ưỡn cong người hình cánh cung (Opisthotonos).<br>- Tiếng khóc: Tiếng khóc the thé cao vút chói tai (High-pitched cry).<br>- Bỏ bú hoàn toàn, sốt do tổn thương vùng dưới đồi."
+  },
+  {
+    "id": "PED14-V2-070",
+    "type": "cloze",
+    "text": "Triệu chứng tăng trương lực cơ duỗi đặc trưng nhất của bệnh não do Bilirubin cấp tính giai đoạn tiến triển là cơn {{c1::ưỡn cổ ngửa thân (retrocollis và opisthotonos)}}.",
+    "extra": "Khi xuất hiện triệu chứng này, tổn thương thần kinh bắt đầu bước vào giai đoạn không thể hồi phục hoàn toàn."
+  },
+  {
+    "id": "PED14-V2-071",
+    "type": "basic",
+    "front": "Kể tên 4 di chứng thần kinh vĩnh viễn kinh điển của Hội chứng di chứng vàng da nhân não (Kernicterus Spectrum Disorder - KSD)?",
+    "back": "<b>📖 Tứ chứng di chứng Kernicterus:</b><br>1. Bại não thể múa vờn múa giật (Choreoathetoid / Dystonic Cerebral Palsy).<br>2. Rối loạn phổ thần kinh thính giác (ANSD - Auditory Neuropathy Spectrum Disorder) gây điếc thần kinh giác quan.<br>3. Liệt nhìn ngước thẳng đứng (Paralysis of upward gaze).<br>4. Thiểu sản men răng vĩnh viễn (Enamel hypoplasia)."
+  },
+  {
+    "id": "PED14-V2-072",
+    "type": "cloze",
+    "text": "Thể tích máu cần thay trong kỹ thuật thay máu thể tích kép (Double Volume Exchange Transfusion) ở trẻ sơ sinh là {{c1::160 đến 180 ml/kg}} (gấp đôi thể tích tuần hoàn).",
+    "extra": "Thay thể tích kép giúp loại bỏ được khoảng 85% đến 90% lượng hồng cầu dễ vỡ và giảm 50% nồng độ Bilirubin máu ngay sau thủ thuật."
+  },
+  {
+    "id": "PED14-V2-073",
+    "type": "basic",
+    "front": "Nguyên tắc lựa chọn nhóm máu người cho trong kỹ thuật thay máu do bất đồng nhóm máu hệ ABO và hệ Rh?",
+    "back": "<b>📖 Quy chuẩn chọn nhóm máu:</b><br>- Bất đồng hệ ABO: Dùng hồng cầu lắng nhóm O phối hợp với huyết tương tươi đông lạnh nhóm AB (để không chứa kháng thể kháng A hoặc B).<br>- Bất đồng hệ Rh: Dùng máu toàn phần nhóm Rh âm tính phù hợp hệ ABO với trẻ (để không bị phá hủy bởi kháng thể kháng Rh từ mẹ)."
+  },
+  {
+    "id": "PED14-V2-074",
+    "type": "basic",
+    "front": "Tại sao trong quá trình thay máu thể tích kép, bác sĩ bắt buộc phải tiêm Calci gluconat định kỳ?",
+    "back": "<b>📖 Cơ chế chống hạ Canxi máu:</b><br>Túi máu bảo quản từ ngân hàng máu chứa lượng lớn chất chống đông Citrate. Citrate liên kết mạnh với Canxi ion hóa tự do trong máu trẻ, làm sụt giảm Canxi cấp tính.<br><br><b>🔍 Xử trí:</b><br>Cứ sau mỗi 100 ml máu thay, tiêm tĩnh mạch chậm 1 ml Calci gluconat 10% dưới monitor theo dõi nhịp tim để phòng ngừng tim do hạ Canxi."
+  },
+  {
+    "id": "PED14-V2-075",
+    "type": "cloze",
+    "text": "Phương pháp thăm dò chức năng thính giác bắt buộc phải sử dụng để sàng lọc phát hiện sớm tổn thương thính lực do Bilirubin trước xuất viện là {{c1::điện thính giác thân não tự động (AABR)}}.",
+    "extra": "Phương pháp đo âm ốc tai (OAE) đơn thuần sẽ cho kết quả bình thường giả tạo vì tổn thương do Bilirubin nằm tại nhân ốc tai và thần kinh số VIII."
+  },
+  {
+    "id": "PED14-V2-076",
+    "type": "basic",
+    "front": "Hình ảnh đặc trưng trên phim cộng hưởng từ sọ não (Brain MRI) ở trẻ mắc bệnh não do Bilirubin cấp tính (ABE) là gì?",
+    "back": "<b>📖 Dấu hiệu MRI sọ não:</b><br>Tăng tín hiệu đối xứng hai bên trên chuỗi xung T1W (T1 hyperintensity) tại cấu trúc nhân cầu nhạt (Globus pallidus) và nhân dưới đồi (Subthalamic nuclei) trong giai đoạn sơ sinh cấp tính.<br><br><b>🔍 Giai đoạn mạn tính:</b><br>Hình ảnh chuyển thành tăng tín hiệu trên chuỗi xung T2W phản ánh xơ hóa thần kinh đệm vĩnh viễn."
+  },
+  {
+    "id": "PED14-V2-077",
+    "type": "basic",
+    "front": "Nêu các xét nghiệm cận lâm sàng bắt buộc phải kiểm tra lại ngay sau khi kết thúc cuộc thay máu thể tích kép?",
+    "back": "<b>📖 Xét nghiệm sau thay máu:</b><br>1. Bilirubin toàn phần (TSB) để đánh giá mức độ giảm sau thủ thuật.<br>2. Công thức máu toàn phần và số lượng tiểu cầu (phát hiện giảm tiểu cầu do thủ thuật).<br>3. Điện giải đồ (đặc biệt theo dõi Natri, Kali và Canxi ion hóa).<br>4. Nồng độ đường huyết mao mạch (phát hiện hạ đường huyết thứ phát).<br>5. Khí máu động mạch hoặc tĩnh mạch."
+  },
+  {
+    "id": "PED14-V2-078",
+    "type": "basic",
+    "front": "Thái độ xử trí cấp cứu tức thì khi tiếp nhận một trẻ sơ sinh vàng da nặng có dấu hiệu khóc the thé và ưỡn cong người là gì?",
+    "back": "<b>📖 Quy trình cấp cứu tối khẩn:</b><br>1. Đưa trẻ ngay vào phòng cấp cứu sơ sinh, bật dàn đèn chiếu tích cực hai mặt cường độ tối đa tại giường.<br>2. Báo động ngân hàng máu chuẩn bị khẩn cấp máu tươi phù hợp để thay máu thể tích kép.<br>3. Đặt đường truyền tĩnh mạch lớn hoặc catheter tĩnh mạch rốn, lấy máu làm TSB, nhóm máu, DAT và khí máu.<br>4. Không được trì hoãn thay máu để chờ kết quả xét nghiệm lặp lại."
+  },
+  {
+    "id": "PED14-V2-079",
+    "type": "cloze",
+    "text": "Trong quá trình thay máu thể tích kép, cứ sau mỗi 100 ml máu thay ra - vào, bác sĩ cần tiêm tĩnh mạch chậm {{c1::1 ml dung dịch Calci gluconat 10%}} để trung hòa chất chống đông citrate.",
+    "extra": "Cần theo dõi sát điện tim (ECG), ngừng tiêm ngay nếu nhịp tim trẻ chậm dưới 100 lần/phút."
+  },
+  {
+    "id": "PED14-V2-080",
+    "type": "basic",
+    "front": "Tại sao đường đo âm ốc tai (OAE) không đủ độ tin cậy để sàng lọc tổn thương thính lực do vàng da nhân não?",
+    "back": "<b>📖 Vị trí tổn thương thần kinh:</b><br>Bilirubin không làm tổn thương tế bào lông ngoài của ốc tai (vốn là cấu trúc tạo ra sóng OAE), mà làm tổn thương chọn lọc tại nhân tiền đình ốc tai ở thân não và các sợi thần kinh thính giác số VIII.<br><br><b>🔍 Hậu quả:</b><br>Trẻ vẫn có OAE bình thường nhưng hoàn toàn không dẫn truyền được xung động thính giác lên vỏ não (Rối loạn phổ thần kinh thính giác - ANSD), bắt buộc phải đo AABR."
+  },
+  {
+    "id": "PED14-V2-081",
+    "type": "cloze",
+    "text": "Trên phim cộng hưởng từ sọ não (MRI) giai đoạn cấp tính của bệnh não do Bilirubin (ABE), dấu hiệu đặc trưng là hình ảnh tăng tín hiệu đối xứng hai bên trên chuỗi xung {{c1::T1W (T1 hyperintensity)}} tại nhân cầu nhạt.",
+    "extra": "Về sau khi chuyển sang giai đoạn mạn tính Kernicterus, hình ảnh tổn thương sẽ chuyển sang tăng tín hiệu trên chuỗi xung T2W."
+  },
+  {
+    "id": "PED14-V2-082",
+    "type": "basic",
+    "front": "Các nguy cơ tai biến đe dọa tính mạng trong và sau cuộc thay máu sơ sinh gồm những gì?",
+    "back": "<b>📖 Các tai biến của thay máu:</b><br>1. Rối loạn nhịp tim và ngừng tim (do hạ canxi máu, tăng kali máu từ máu lưu trữ lâu ngày, hoặc catheter chạm thành nhĩ).<br>2. Tụt huyết áp hoặc sốc thể tích (do rút máu quá nhanh).<br>3. Thuyên tắc khí qua catheter tĩnh mạch rốn.<br>4. Giảm tiểu cầu và rối loạn đông máu tiêu thụ.<br>5. Hạ thân nhiệt, hạ đường huyết.<br>6. Nhiễm trùng huyết hoặc viêm ruột hoại tử (NEC) sau thay máu."
+  },
+  {
+    "id": "PED14-V2-083",
+    "type": "basic",
+    "front": "Tại sao máu người cho sử dụng trong thay máu sơ sinh bắt buộc phải là máu mới lấy dưới 5 ngày?",
+    "back": "<b>📖 Yêu cầu chất lượng máu thay:</b><br>1. Máu lưu trữ lâu ngày có nồng độ Kali huyết tương tăng rất cao do hồng cầu ly giải, nguy cơ gây ngừng tim do tăng Kali khi truyền thể tích kép.<br>2. Nồng độ 2,3-DPG trong hồng cầu cũ bị suy giảm làm giảm khả năng nhả oxy cho mô của trẻ.<br>3. Hồng cầu tươi có sức bền tốt hơn và tồn tại lâu hơn trong tuần hoàn của trẻ."
+  },
+  {
+    "id": "PED14-V2-084",
+    "type": "cloze",
+    "text": "Máu chỉ định cho kỹ thuật thay máu sơ sinh bắt buộc phải là máu tươi được bảo quản dưới {{c1::5 ngày}} để tránh nguy cơ tăng Kali máu gây ngừng tim và đảm bảo nồng độ 2,3-DPG vận chuyển oxy.",
+    "extra": "Máu cần được làm ấm đến 37 độ C trước khi bơm vào cơ thể trẻ để phòng ngừa hạ thân nhiệt cấp."
+  }
+]

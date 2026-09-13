@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PedViewer · Trình Đọc Sách & Bài Học Nhi Khoa (PED & PEDYTB)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Be Vietnam Pro"', 'system-ui', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace']
+          },
+          colors: {
+            brand: {
+              50: '#ecfeff',
+              500: '#06b6d4',
+              600: '#0891b2',
+              700: '#0e7490'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Marked.js for fast Markdown parsing -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    :root {
+      --bg-base: #090e17;
+      --bg-panel: #0f172a;
+      --bg-card: rgba(255, 255, 255, 0.035);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --text-main: #e2e8f0;
+      --text-muted: #94a3b8;
+    }
+    html.sepia {
+      --bg-base: #fbf0d9;
+      --bg-panel: #f4e3c1;
+      --bg-card: rgba(0, 0, 0, 0.03);
+      --border-color: rgba(120, 80, 20, 0.15);
+      --text-main: #382818;
+      --text-muted: #785a3a;
+    }
+    html.light {
+      --bg-base: #f8fafc;
+      --bg-panel: #ffffff;
+      --bg-card: rgba(0, 0, 0, 0.02);
+      --border-color: rgba(0, 0, 0, 0.08);
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+    }
+
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-main);
+      font-family: 'Be Vietnam Pro', sans-serif;
+    }
+
+    /* Scrollbars */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(148, 163, 184, 0.2); border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(148, 163, 184, 0.4); }
+
+    /* Markdown prose styles */
+    .prose-custom {
+      font-size: var(--viewer-font-size, 15px);
+      line-height: 1.75;
+      color: var(--text-main);
+    }
+    .prose-custom h1 {
+      font-size: 1.6em;
+      font-weight: 800;
+      margin-top: 1em;
+      margin-bottom: 0.5em;
+      color: #38bdf8;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 0.3em;
+    }
+    .prose-custom h2 {
+      font-size: 1.3em;
+      font-weight: 700;
+      margin-top: 1.2em;
+      margin-bottom: 0.4em;
+      color: #2dd4bf;
+    }
+    .prose-custom h3 {
+      font-size: 1.15em;
+      font-weight: 600;
+      margin-top: 1em;
+      margin-bottom: 0.3em;
+      color: #fbbf24;
+    }
+    .prose-custom h4 {
+      font-size: 1.05em;
+      font-weight: 600;
+      margin-top: 0.8em;
+      margin-bottom: 0.2em;
+      color: #a78bfa;
+    }
+    .prose-custom p {
+      margin-bottom: 0.8em;
+    }
+    .prose-custom ul {
+      list-style-type: disc;
+      padding-left: 1.4em;
+      margin-bottom: 0.8em;
+    }
+    .prose-custom ol {
+      list-style-type: decimal;
+      padding-left: 1.4em;
+      margin-bottom: 0.8em;
+    }
+    .prose-custom li {
+      margin-bottom: 0.25em;
+    }
+    .prose-custom strong {
+      font-weight: 700;
+      color: #f1f5f9;
+    }
+    html.light .prose-custom strong { color: #0f172a; }
+    html.sepia .prose-custom strong { color: #231608; }
+
+    .prose-custom table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1em 0;
+      font-size: 0.9em;
+      overflow-x: auto;
+      display: block;
+    }
+    .prose-custom th, .prose-custom td {
+      border: 1px solid var(--border-color);
+      padding: 8px 12px;
+      text-align: left;
+    }
+    .prose-custom th {
+      background: rgba(56, 189, 248, 0.1);
+      font-weight: 700;
+      color: #38bdf8;
+    }
+    .prose-custom tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .prose-custom blockquote {
+      border-left: 4px solid #38bdf8;
+      padding-left: 12px;
+      font-style: italic;
+      color: var(--text-muted);
+      margin: 0.8em 0;
+    }
+
+    /* Page banner in PEDYTB */
+    .page-marker-banner {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 28px 0 16px 0;
+      padding: 6px 14px;
+      border-radius: 8px;
+      background: rgba(168, 85, 247, 0.12);
+      border: 1px dashed rgba(168, 85, 247, 0.35);
+      font-size: 12px;
+      font-weight: 700;
+      color: #c084fc;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* Badge indicators */
+    .badge-ped {
+      background: rgba(6, 182, 212, 0.15);
+      border: 1px solid rgba(6, 182, 212, 0.35);
+      color: #22d3ee;
+    }
+    .badge-pedytb {
+      background: rgba(168, 85, 247, 0.15);
+      border: 1px solid rgba(168, 85, 247, 0.35);
+      color: #c084fc;
+    }
+    .badge-anki {
+      background: rgba(244, 63, 94, 0.15);
+      border: 1px solid rgba(244, 63, 94, 0.35);
+      color: #fb7185;
+    }
+
+    /* Drop animation */
+    .drag-over {
+      border-color: #38bdf8 !important;
+      background: rgba(56, 189, 248, 0.08) !important;
+    }
+  </style>
+</head>
+<body class="h-screen flex flex-col overflow-hidden select-text">
+
+  <!-- ================= TOP NAVBAR ================= -->
+  <header class="h-14 border-b border-white/10 bg-[#0c1322] px-4 flex items-center justify-between shrink-0 z-30">
+    <div class="flex items-center gap-3">
+      <button id="toggleSidebarBtn" class="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-slate-300 transition" title="Ẩn/Hiện Mục lục">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"/></svg>
+      </button>
+      <div class="flex items-center gap-2">
+        <span class="text-xl">🩺</span>
+        <span class="font-extrabold text-sm sm:text-base tracking-tight bg-gradient-to-r from-cyan-400 to-teal-300 bg-clip-text text-transparent">PedViewer</span>
+        <span class="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded font-mono bg-cyan-950 text-cyan-400 border border-cyan-800">Nhi Khoa YTB</span>
+      </div>
+      <div class="h-4 w-[1px] bg-white/10 mx-1 hidden sm:block"></div>
+      <div id="currentLessonHeader" class="text-xs sm:text-sm font-semibold text-slate-200 truncate max-w-xs sm:max-w-md hidden md:block">
+        Đang tải bài học...
+      </div>
+    </div>
+
+    <!-- VIEW MODES SELECTOR -->
+    <div class="flex items-center bg-white/5 border border-white/10 rounded-xl p-0.5 gap-0.5">
+      <button onclick="setViewMode('split')" id="btn-view-split" class="px-2.5 py-1 rounded-lg text-xs font-bold transition flex items-center gap-1.5 bg-cyan-500/20 text-cyan-300 border border-cyan-500/40" title="Xem song song PED + Sách YTB">
+        <span>🌗</span> <span class="hidden sm:inline">Song song</span>
+      </button>
+      <button onclick="setViewMode('ped')" id="btn-view-ped" class="px-2.5 py-1 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition flex items-center gap-1.5" title="Chỉ xem bài học chuẩn PED">
+        <span>📘</span> <span class="hidden sm:inline">PED Chuẩn</span>
+      </button>
+      <button onclick="setViewMode('pedytb')" id="btn-view-pedytb" class="px-2.5 py-1 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition flex items-center gap-1.5" title="Chỉ xem giáo trình mở rộng PEDYTB">
+        <span>📕</span> <span class="hidden sm:inline">Sách YTB</span>
+      </button>
+      <button onclick="setViewMode('anki')" id="btn-view-anki" class="px-2.5 py-1 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition flex items-center gap-1.5" title="Xem thẻ Anki">
+        <span>🗂️</span> <span class="hidden sm:inline">Thẻ Anki</span>
+      </button>
+    </div>
+
+    <!-- CONTROLS: SYNC SCROLL, FONT, THEME -->
+    <div class="flex items-center gap-2">
+      <!-- Sync Scroll Toggle -->
+      <button onclick="toggleSyncScroll()" id="syncScrollBtn" class="px-2 py-1 rounded-lg text-xs font-mono bg-white/5 hover:bg-white/10 text-cyan-400 border border-cyan-500/30 transition flex items-center gap-1" title="Đồng bộ cuộn trang hai cột">
+        <span id="syncIcon">🔗</span> <span class="hidden xl:inline">Sync Scroll</span>
+      </button>
+
+      <!-- Font Size -->
+      <div class="flex items-center bg-white/5 rounded-lg border border-white/10 px-1 py-0.5">
+        <button onclick="changeFontSize(-1)" class="px-1.5 py-0.5 text-xs text-slate-400 hover:text-white font-mono" title="Giảm cỡ chữ">A-</button>
+        <span id="fontSizeDisplay" class="text-[11px] font-mono px-1 text-slate-300">15</span>
+        <button onclick="changeFontSize(1)" class="px-1.5 py-0.5 text-xs text-slate-400 hover:text-white font-mono" title="Tăng cỡ chữ">A+</button>
+      </div>
+
+      <!-- Theme Switcher -->
+      <button onclick="cycleTheme()" id="themeBtn" class="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-slate-300 transition text-xs" title="Chuyển nền: Dark / Sepia / Light">
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= MAIN WORKSPACE ================= -->
+  <div class="flex-1 flex overflow-hidden relative">
+
+    <!-- SIDEBAR: CURRICULUM & SEARCH -->
+    <aside id="sidebar" class="w-80 border-r border-white/10 bg-[#0a101d] flex flex-col shrink-0 transition-all duration-200 z-20">
+      <!-- Search & Filters -->
+      <div class="p-3 border-b border-white/10 space-y-2">
+        <div class="relative">
+          <input type="text" id="searchInput" oninput="filterLessons()" placeholder="Tìm kiếm bài học, ID, triệu chứng..." class="w-full bg-white/5 border border-white/10 rounded-xl px-3 py-1.5 pl-8 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-cyan-500/50">
+          <svg class="w-4 h-4 text-slate-400 absolute left-2.5 top-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        </div>
+
+        <!-- Quick filter badges -->
+        <div class="flex items-center gap-1.5 overflow-x-auto pb-1 text-[11px]">
+          <button onclick="setFilter('all')" id="flt-all" class="px-2 py-0.5 rounded-md bg-white/10 text-white font-medium shrink-0">Tất cả (46)</button>
+          <button onclick="setFilter('ped')" id="flt-ped" class="px-2 py-0.5 rounded-md bg-white/5 text-cyan-400 hover:bg-white/10 shrink-0">Có PED</button>
+          <button onclick="setFilter('pedytb')" id="flt-pedytb" class="px-2 py-0.5 rounded-md bg-white/5 text-purple-400 hover:bg-white/10 shrink-0">Có PEDYTB</button>
+          <button onclick="setFilter('anki')" id="flt-anki" class="px-2 py-0.5 rounded-md bg-white/5 text-rose-400 hover:bg-white/10 shrink-0">Có Anki</button>
+        </div>
+      </div>
+
+      <!-- Lessons List -->
+      <div id="lessonsList" class="flex-1 overflow-y-auto p-2 space-y-1">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <!-- Drag & Drop Dropzone for external markdown files -->
+      <div id="dropzone" class="p-3 border-t border-white/10 bg-black/20 text-center">
+        <label class="cursor-pointer block border border-dashed border-white/20 rounded-xl p-2.5 hover:border-cyan-500/50 transition">
+          <input type="file" id="filePicker" accept=".md,.txt,.json" class="hidden" onchange="handleFileSelect(event)">
+          <div class="text-[11px] font-semibold text-slate-300 flex items-center justify-center gap-1.5">
+            <span>📥</span> <span>Kéo thả hoặc Nạp file .md</span>
+          </div>
+          <p class="text-[9px] text-slate-500 mt-0.5">Hỗ trợ đọc ngay lập tức file PED hoặc PEDYTB mới</p>
+        </label>
+      </div>
+    </aside>
+
+    <!-- CONTENT DISPLAY AREA -->
+    <main class="flex-1 flex flex-col overflow-hidden bg-[#070b13]">
+
+      <!-- Active Article Subbar -->
+      <div class="h-10 border-b border-white/5 bg-white/[0.015] px-4 flex items-center justify-between shrink-0 text-xs">
+        <div class="flex items-center gap-2">
+          <span id="activeBadgeID" class="px-2 py-0.5 rounded font-mono font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40">PED-46</span>
+          <span id="activeLessonTitle" class="font-bold text-slate-200">Tiếp cận gan to ở trẻ em</span>
+        </div>
+        <div class="flex items-center gap-3 text-slate-400 text-[11px]">
+          <span id="statPedInfo">📘 PED: <b class="text-slate-300">Chưa có</b></span>
+          <span id="statPedytbInfo">📕 Sách YTB: <b class="text-purple-300">Sẵn sàng (Tr. 37-44)</b></span>
+          <span id="statCardsInfo">🗂️ Anki: <b class="text-rose-300">0 thẻ</b></span>
+        </div>
+      </div>
+
+      <!-- Split Screen / Document Viewer Container -->
+      <div id="documentContainer" class="flex-1 flex overflow-hidden">
+
+        <!-- COLUMN 1: PED LESSON (Chuẩn hóa Why-based) -->
+        <div id="colPed" class="flex-1 flex flex-col border-r border-white/10 overflow-hidden bg-[#090e17]/80">
+          <div class="px-4 py-2 border-b border-white/5 bg-cyan-950/20 flex items-center justify-between shrink-0">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-bold text-cyan-400 flex items-center gap-1">
+                <span>📘</span> BÀI HỌC CHUẨN (PED CLINICAL WHY-BASED)
+              </span>
+              <span id="pedFilenameBadge" class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-white/5 text-slate-400">PED-XX.md</span>
+            </div>
+            <button onclick="copyContent('ped')" class="text-[11px] text-slate-400 hover:text-white px-2 py-0.5 rounded bg-white/5 transition" title="Sao chép nội dung bài">
+              📋 Copy
+            </button>
+          </div>
+          <div id="pedContentScroll" onscroll="handleScroll(event, 'ped')" class="flex-1 overflow-y-auto p-6 sm:p-8">
+            <div id="pedArticleBody" class="prose-custom max-w-3xl mx-auto">
+              <!-- Rendered via Markdown -->
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUMN 2: PEDYTB (Giáo trình mở rộng OCR) -->
+        <div id="colPedytb" class="flex-1 flex flex-col overflow-hidden bg-[#0d0f1b]/90">
+          <div class="px-4 py-2 border-b border-white/5 bg-purple-950/20 flex items-center justify-between shrink-0">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-bold text-purple-400 flex items-center gap-1">
+                <span>📕</span> GIÁO TRÌNH MỞ RỘNG (PEDYTB - BẢN GỐC SÁCH Y THÁI BÌNH)
+              </span>
+              <span id="pedytbFilenameBadge" class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-white/5 text-slate-400">PEDYTB.md</span>
+            </div>
+            <button onclick="copyContent('pedytb')" class="text-[11px] text-slate-400 hover:text-white px-2 py-0.5 rounded bg-white/5 transition" title="Sao chép văn bản sách">
+              📋 Copy
+            </button>
+          </div>
+          <div id="pedytbContentScroll" onscroll="handleScroll(event, 'pedytb')" class="flex-1 overflow-y-auto p-6 sm:p-8">
+            <div id="pedytbArticleBody" class="prose-custom max-w-3xl mx-auto">
+              <!-- Rendered via Markdown -->
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUMN 3: ANKI CARDS VIEWER (Optional panel) -->
+        <div id="colAnki" class="hidden flex-1 flex flex-col overflow-hidden bg-[#0d131f]">
+          <div class="px-4 py-2 border-b border-white/5 bg-rose-950/20 flex items-center justify-between shrink-0">
+            <span class="text-xs font-bold text-rose-400 flex items-center gap-1">
+              <span>🗂️</span> BỘ THẺ FLASHCARD ANKI V2 (CORE & WHY-BASED)
+            </span>
+            <span id="ankiCountBadge" class="text-xs font-mono font-bold text-rose-300">0 THẺ</span>
+          </div>
+          <div class="flex-1 overflow-y-auto p-6">
+            <div id="ankiCardsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-5xl mx-auto">
+              <!-- Injected Anki cards -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  <!-- LOAD DATA SCRIPT -->
+  <script src="data.js"></script>
+
+  <!-- APPLICATION LOGIC SCRIPT -->
+  <script>
+    let currentLesson = null;
+    let currentViewMode = 'split'; // split | ped | pedytb | anki
+    let currentTheme = 'dark'; // dark | sepia | light
+    let currentFontSize = 15;
+    let syncScrollEnabled = true;
+    let currentFilter = 'all';
+
+    // Initialize application
+    document.addEventListener('DOMContentLoaded', () => {
+      loadLibraryData();
+      setupDragAndDrop();
+    });
+
+    function loadLibraryData() {
+      if (!window.PED_LIBRARY_DATA) {
+        console.warn("Chưa tìm thấy data.js. Đang dùng chế độ nạp thủ công.");
+        return;
+      }
+      document.getElementById('flt-all').textContent = `Tất cả (${window.PED_LIBRARY_DATA.lessons.length})`;
+      renderSidebar(window.PED_LIBRARY_DATA.lessons);
+
+      // Auto-select PED-46 or first lesson with data
+      const defaultLesson = window.PED_LIBRARY_DATA.lessons.find(l => l.id === 'PED-46') ||
+                            window.PED_LIBRARY_DATA.lessons.find(l => l.has_ped || l.has_pedytb) ||
+                            window.PED_LIBRARY_DATA.lessons[0];
+      if (defaultLesson) {
+        selectLesson(defaultLesson.id);
+      }
+    }
+
+    // Render Sidebar List
+    function renderSidebar(lessons) {
+      const listEl = document.getElementById('lessonsList');
+      listEl.innerHTML = '';
+
+      let lastBlock = '';
+
+      lessons.forEach(l => {
+        // Block header
+        if (l.block && l.block !== lastBlock) {
+          lastBlock = l.block;
+          const blockHeader = document.createElement('div');
+          blockHeader.className = 'text-[10px] uppercase font-mono font-extrabold text-slate-500 pt-3 pb-1 px-2 tracking-wider';
+          blockHeader.textContent = l.block;
+          listEl.appendChild(blockHeader);
+        }
+
+        const itemBtn = document.createElement('button');
+        itemBtn.id = `item-${l.id}`;
+        itemBtn.onclick = () => selectLesson(l.id);
+
+        const isCurrent = currentLesson && currentLesson.id === l.id;
+        itemBtn.className = `w-full text-left p-2 rounded-xl transition flex items-start justify-between gap-2 text-xs group ${
+          isCurrent ? 'bg-cyan-500/20 border border-cyan-500/40 text-white' : 'hover:bg-white/5 text-slate-300'
+        }`;
+
+        let badges = '';
+        if (l.has_ped) {
+          badges += `<span class="badge-ped text-[9px] font-mono px-1 py-0.2 rounded font-bold">PED</span> `;
+        }
+        if (l.has_pedytb) {
+          badges += `<span class="badge-pedytb text-[9px] font-mono px-1 py-0.2 rounded font-bold">YTB</span> `;
+        }
+        if (l.has_cards) {
+          badges += `<span class="badge-anki text-[9px] font-mono px-1 py-0.2 rounded font-bold">${l.cards_count}🃏</span>`;
+        }
+
+        itemBtn.innerHTML = `
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center gap-1.5 mb-0.5">
+              <span class="font-mono font-extrabold text-cyan-400 text-[11px]">${l.id}</span>
+              <span class="font-semibold truncate">${l.title}</span>
+            </div>
+            <p class="text-[10px] text-slate-500 truncate">${l.scope || ''}</p>
+          </div>
+          <div class="shrink-0 flex items-center gap-1 pt-0.5">
+            ${badges}
+          </div>
+        `;
+        listEl.appendChild(itemBtn);
+      });
+    }
+
+    // Filter lessons in sidebar
+    function filterLessons() {
+      const q = document.getElementById('searchInput').value.toLowerCase();
+      if (!window.PED_LIBRARY_DATA) return;
+
+      const filtered = window.PED_LIBRARY_DATA.lessons.filter(l => {
+        const matchesQuery = l.id.toLowerCase().includes(q) ||
+                             l.title.toLowerCase().includes(q) ||
+                             (l.scope && l.scope.toLowerCase().includes(q));
+
+        if (!matchesQuery) return false;
+
+        if (currentFilter === 'ped') return l.has_ped;
+        if (currentFilter === 'pedytb') return l.has_pedytb;
+        if (currentFilter === 'anki') return l.has_cards;
+        return true;
+      });
+
+      renderSidebar(filtered);
+    }
+
+    function setFilter(flt) {
+      currentFilter = flt;
+      ['all', 'ped', 'pedytb', 'anki'].forEach(f => {
+        const btn = document.getElementById(`flt-${f}`);
+        if (f === flt) {
+          btn.className = 'px-2 py-0.5 rounded-md bg-cyan-500 text-slate-900 font-bold shrink-0';
+        } else {
+          btn.className = 'px-2 py-0.5 rounded-md bg-white/5 text-slate-400 hover:bg-white/10 shrink-0';
+        }
+      });
+      filterLessons();
+    }
+
+    // Select Lesson
+    function selectLesson(id) {
+      if (!window.PED_LIBRARY_DATA) return;
+      const lesson = window.PED_LIBRARY_DATA.lessons.find(l => l.id === id);
+      if (!lesson) return;
+
+      currentLesson = lesson;
+
+      // Update sidebar active class
+      document.querySelectorAll('#lessonsList button').forEach(b => {
+        b.classList.remove('bg-cyan-500/20', 'border', 'border-cyan-500/40', 'text-white');
+      });
+      const activeBtn = document.getElementById(`item-${id}`);
+      if (activeBtn) {
+        activeBtn.classList.add('bg-cyan-500/20', 'border', 'border-cyan-500/40', 'text-white');
+      }
+
+      // Update Header info
+      document.getElementById('currentLessonHeader').textContent = `[${lesson.id}] ${lesson.title}`;
+      document.getElementById('activeBadgeID').textContent = lesson.id;
+      document.getElementById('activeLessonTitle').textContent = lesson.title;
+
+      document.getElementById('statPedInfo').innerHTML = `📘 PED: <b class="${lesson.has_ped ? 'text-cyan-300' : 'text-slate-500'}">${lesson.has_ped ? 'Sẵn sàng' : 'Chưa có'}</b>`;
+      document.getElementById('statPedytbInfo').innerHTML = `📕 Sách YTB: <b class="${lesson.has_pedytb ? 'text-purple-300' : 'text-slate-500'}">${lesson.has_pedytb ? 'Sẵn sàng' : 'Chưa có'}</b>`;
+      document.getElementById('statCardsInfo').innerHTML = `🗂️ Anki: <b class="${lesson.has_cards ? 'text-rose-300' : 'text-slate-500'}">${lesson.cards_count} thẻ</b>`;
+
+      document.getElementById('pedFilenameBadge').textContent = lesson.ped_file || 'Chưa biên soạn';
+      document.getElementById('pedytbFilenameBadge').textContent = lesson.pedytb_file || 'Chưa OCR';
+
+      // Render Markdown Content
+      renderMarkdownColumn('ped', lesson.ped_content || getEmptyPedPlaceholder(lesson));
+      renderMarkdownColumn('pedytb', lesson.pedytb_content || getEmptyPedytbPlaceholder(lesson));
+      renderAnkiCards(lesson.cards_data || []);
+
+      // Auto-switch view if only one type exists
+      if (!lesson.has_ped && lesson.has_pedytb && currentViewMode === 'ped') {
+        setViewMode('pedytb');
+      } else if (lesson.has_ped && !lesson.has_pedytb && currentViewMode === 'pedytb') {
+        setViewMode('ped');
+      }
+    }
+
+    // Render markdown with custom tags (e.g. <!-- Page XX -->)
+    function renderMarkdownColumn(type, content) {
+      const container = document.getElementById(`${type}ArticleBody`);
+
+      // Convert page comment to visual banner
+      let processed = content.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
+        return `<div class="page-marker-banner"><span>📖 Trang ${p}</span> <span class="text-purple-300/40">•</span> <span>Giáo trình Nhi khoa Y Thái Bình</span></div>`;
+      });
+
+      if (window.marked) {
+        container.innerHTML = marked.parse(processed);
+      } else {
+        container.innerText = processed;
+      }
+    }
+
+    // Render Anki Cards
+    function renderAnkiCards(cards) {
+      const grid = document.getElementById('ankiCardsGrid');
+      const badge = document.getElementById('ankiCountBadge');
+      badge.textContent = `${cards.length} THẺ`;
+      grid.innerHTML = '';
+
+      if (cards.length === 0) {
+        grid.innerHTML = `
+          <div class="col-span-full py-16 text-center text-slate-500">
+            <span class="text-4xl block mb-2">📭</span>
+            Chưa có bộ thẻ Anki cards.v2.json cho chuyên đề này.
+          </div>
+        `;
+        return;
+      }
+
+      cards.forEach((c, idx) => {
+        const cardEl = document.createElement('div');
+        cardEl.className = 'bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col justify-between hover:border-rose-500/40 transition group';
+
+        // Track badge
+        let trackBadge = '';
+        if (c.track === 'barem_goc') {
+          trackBadge = `<span class="px-2 py-0.5 rounded font-bold font-mono text-[9px] bg-amber-500/20 text-amber-300 border border-amber-500/40">🏛️ BAREM GỐC YTB</span>`;
+        } else if (c.track === 'ebm_hien_dai') {
+          trackBadge = `<span class="px-2 py-0.5 rounded font-bold font-mono text-[9px] bg-cyan-500/20 text-cyan-300 border border-cyan-500/40">🔬 EBM & LÂM SÀNG</span>`;
+        }
+
+        // Cloze clean preview
+        let cleanText = c.text ? c.text.replace(/{{c\d+::(.*?)(?:::(.*?))?}}/g, '<span class="bg-rose-500/20 text-rose-300 border-b-2 border-rose-500 px-1 py-0.5 rounded font-bold">$1</span>') : '';
+
+        cardEl.innerHTML = `
+          <div>
+            <div class="flex items-center justify-between text-[10px] font-mono text-slate-500 mb-2">
+              <div class="flex items-center gap-1.5">
+                <span class="px-1.5 py-0.5 rounded bg-white/5 font-bold text-rose-400">#${idx + 1}</span>
+                ${trackBadge}
+              </div>
+              <span>${c.card_type || 'Cloze'}</span>
+            </div>
+            <div class="text-xs text-slate-200 leading-relaxed mb-3">
+              ${cleanText}
+            </div>
+          </div>
+          ${c.extra ? `
+            <div class="pt-2 border-t border-white/5 text-[11px] text-slate-400 italic">
+              <b class="${c.track === 'barem_goc' ? 'text-amber-400' : 'text-cyan-400'} not-italic">💡 ${c.track === 'barem_goc' ? 'Barem giáo trình gốc' : 'Lập luận lâm sàng & EBM'}:</b> ${c.extra}
+            </div>
+          ` : ''}
+        `;
+        grid.appendChild(cardEl);
+      });
+    }
+
+    // View Modes
+    function setViewMode(mode) {
+      currentViewMode = mode;
+      const colPed = document.getElementById('colPed');
+      const colPedytb = document.getElementById('colPedytb');
+      const colAnki = document.getElementById('colAnki');
+
+      ['split', 'ped', 'pedytb', 'anki'].forEach(m => {
+        const btn = document.getElementById(`btn-view-${m}`);
+        if (m === mode) {
+          btn.className = 'px-2.5 py-1 rounded-lg text-xs font-bold transition flex items-center gap-1.5 bg-cyan-500/20 text-cyan-300 border border-cyan-500/40';
+        } else {
+          btn.className = 'px-2.5 py-1 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition flex items-center gap-1.5';
+        }
+      });
+
+      if (mode === 'split') {
+        colPed.classList.remove('hidden');
+        colPedytb.classList.remove('hidden');
+        colAnki.classList.add('hidden');
+      } else if (mode === 'ped') {
+        colPed.classList.remove('hidden');
+        colPedytb.classList.add('hidden');
+        colAnki.classList.add('hidden');
+      } else if (mode === 'pedytb') {
+        colPed.classList.add('hidden');
+        colPedytb.classList.remove('hidden');
+        colAnki.classList.add('hidden');
+      } else if (mode === 'anki') {
+        colPed.classList.add('hidden');
+        colPedytb.classList.add('hidden');
+        colAnki.classList.remove('hidden');
+      }
+    }
+
+    // Synchronized scroll
+    let isSyncing = false;
+    function handleScroll(e, source) {
+      if (!syncScrollEnabled || currentViewMode !== 'split' || isSyncing) return;
+      isSyncing = true;
+
+      const pedScroll = document.getElementById('pedContentScroll');
+      const pedytbScroll = document.getElementById('pedytbContentScroll');
+
+      if (source === 'ped') {
+        const pct = pedScroll.scrollTop / (pedScroll.scrollHeight - pedScroll.clientHeight || 1);
+        pedytbScroll.scrollTop = pct * (pedytbScroll.scrollHeight - pedytbScroll.clientHeight);
+      } else {
+        const pct = pedytbScroll.scrollTop / (pedytbScroll.scrollHeight - pedytbScroll.clientHeight || 1);
+        pedScroll.scrollTop = pct * (pedScroll.scrollHeight - pedScroll.clientHeight);
+      }
+
+      setTimeout(() => { isSyncing = false; }, 30);
+    }
+
+    function toggleSyncScroll() {
+      syncScrollEnabled = !syncScrollEnabled;
+      const btn = document.getElementById('syncScrollBtn');
+      if (syncScrollEnabled) {
+        btn.className = 'px-2 py-1 rounded-lg text-xs font-mono bg-white/5 hover:bg-white/10 text-cyan-400 border border-cyan-500/30 transition flex items-center gap-1';
+        document.getElementById('syncIcon').textContent = '🔗';
+      } else {
+        btn.className = 'px-2 py-1 rounded-lg text-xs font-mono bg-white/5 hover:bg-white/10 text-slate-500 border border-white/10 transition flex items-center gap-1';
+        document.getElementById('syncIcon').textContent = '🔓';
+      }
+    }
+
+    // Font size controls
+    function changeFontSize(delta) {
+      currentFontSize = Math.min(24, Math.max(12, currentFontSize + delta));
+      document.documentElement.style.setProperty('--viewer-font-size', `${currentFontSize}px`);
+      document.getElementById('fontSizeDisplay').textContent = currentFontSize;
+    }
+
+    // Theme switching
+    function cycleTheme() {
+      const themes = ['dark', 'sepia', 'light'];
+      const nextIdx = (themes.indexOf(currentTheme) + 1) % themes.length;
+      currentTheme = themes[nextIdx];
+
+      document.documentElement.classList.remove('dark', 'sepia', 'light');
+      document.documentElement.classList.add(currentTheme);
+
+      const icons = { dark: '🌙', sepia: '📜', light: '☀️' };
+      document.getElementById('themeBtn').textContent = icons[currentTheme];
+    }
+
+    // Copy Content
+    function copyContent(type) {
+      if (!currentLesson) return;
+      const content = type === 'ped' ? currentLesson.ped_content : currentLesson.pedytb_content;
+      navigator.clipboard.writeText(content).then(() => {
+        alert(`Đã sao chép nội dung ${type.toUpperCase()} vào bộ nhớ tạm!`);
+      });
+    }
+
+    // Drag and drop & File Picker
+    function setupDragAndDrop() {
+      const dropzone = document.getElementById('dropzone');
+      window.addEventListener('dragover', (e) => { e.preventDefault(); dropzone.classList.add('drag-over'); });
+      window.addEventListener('dragleave', () => { dropzone.classList.remove('drag-over'); });
+      window.addEventListener('drop', (e) => {
+        e.preventDefault();
+        dropzone.classList.remove('drag-over');
+        if (e.dataTransfer.files.length > 0) {
+          loadFile(e.dataTransfer.files[0]);
+        }
+      });
+    }
+
+    function handleFileSelect(event) {
+      if (event.target.files.length > 0) {
+        loadFile(event.target.files[0]);
+      }
+    }
+
+    function loadFile(file) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const text = e.target.result;
+        const fname = file.name;
+
+        if (fname.toUpperCase().includes('PEDYTB')) {
+          renderMarkdownColumn('pedytb', text);
+          setViewMode('pedytb');
+          document.getElementById('pedytbFilenameBadge').textContent = fname + ' (File nạp)';
+        } else {
+          renderMarkdownColumn('ped', text);
+          setViewMode('ped');
+          document.getElementById('pedFilenameBadge').textContent = fname + ' (File nạp)';
+        }
+      };
+      reader.readAsText(file, 'utf-8');
+    }
+
+    // Toggle Sidebar
+    document.getElementById('toggleSidebarBtn').onclick = () => {
+      const sidebar = document.getElementById('sidebar');
+      sidebar.classList.toggle('hidden');
+    };
+
+    // Placeholders
+    function getEmptyPedPlaceholder(lesson) {
+      return `# [${lesson.id}] ${lesson.title}\n\n> **Trạng thái:** 📋 Đang chờ biên soạn bài học lâm sàng Why-based chuẩn hóa.\n\n* **Mục tiêu:** ${lesson.scope || 'Đang cập nhật'}\n* **Phụ thuộc:** ${lesson.dependency || 'Không'}\n* **Tài liệu tham khảo mở rộng:** Hãy chuyển sang tab **📕 Sách YTB** để đọc nguyên văn giáo trình OCR!`;
+    }
+
+    function getEmptyPedytbPlaceholder(lesson) {
+      return `# [${lesson.id}] ${lesson.title}\n\n> **Trạng thái:** 📖 Chưa có bản chụp OCR Giáo trình Y Thái Bình cho chuyên đề này.\n\nBạn có thể dán ảnh chụp vào khung chat Claude hoặc nạp trực tiếp file \`*_PEDYTB.md\` vào thanh bên để hiển thị ngay lập tức!`;
+    }
+  </script>
+</body>
+</html>

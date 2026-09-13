@@ -20,7 +20,7 @@
 |---|:---:|---|---|---|:---:|
 | **PED-01** | P0 | Đặc điểm sinh lý & Bảng sinh hiệu bình thường theo tuổi | Mạch, HA, nhịp thở (ngưỡng thở nhanh WHO: <2th, 2-12th, 1-5t), nhiệt độ; công thức ước tính cân nặng; các mốc phát triển tâm vận chính. | — | ✅ GATES ĐẠT (MD + APKG 48 thẻ + App HTML) |
 | **PED-02** | P0 | Tam giác đánh giá nhi khoa (PAT) & Tiếp cận ABCDE | Đánh giá nhanh trong 60 giây đầu: Vẻ ngoài (Appearance) - Hô hấp (Breathing) - Tuần hoàn da (Circulation); phân biệt suy hô hấp vs kiệt sức hô hấp, sốc bù vs mất bù. | — | ✅ GATES ĐẠT (MD + APKG 48 thẻ + App HTML) |
-| **PED-03** | P0 | Nguyên tắc kê đơn & Tính liều thuốc an toàn ở trẻ em | Tính liều theo mg/kg; **bẫy trần liều người lớn**; dạng bào chế thực tế (siro, cốm, viên đạn); tốc độ truyền dịch và các thuốc chống chỉ định ở trẻ nhỏ. | — | ❌ CHƯA CÓ |
+| **PED-03** | P0 | Nguyên tắc kê đơn & Tính liều thuốc an toàn ở trẻ em | Tính liều theo mg/kg; **bẫy trần liều người lớn**; dạng bào chế thực tế (siro, cốm, viên đạn); tốc độ truyền dịch và các thuốc chống chỉ định ở trẻ nhỏ. | — | ✅ GATES ĐẠT (MD + APKG 48 thẻ + App HTML) |
 
 ---
 
@@ -43,8 +43,8 @@
 |---|:---:|---|---|---|:---:|
 | **PED-12** | P0 | Hồi sức sơ sinh tại phòng sinh (NRP) | Sơ đồ A-B-C-D; chăm sóc thiết yếu ban đầu (lau khô, ủ ấm, kích thích); chỉ định thông khí áp lực dương (PPV), ép tim và đặt nội khí quản; đánh giá chỉ số Apgar. | PED-01 | ❌ CHƯA CÓ |
 | **PED-13** | P0 | Suy hô hấp sơ sinh & Chỉ định Surfactant | Tiếp cận thở nhanh/thở rên/co kéo/tím; phân biệt bệnh màng trong (RDS), thở nhanh thoáng qua (TTN), hít phân su (MAS); kỹ thuật dùng Surfactant (InSurE / LISA). | PED-01, 12 | ❌ CHƯA CÓ |
-| **PED-14** | P0 | Vàng da tăng Bilirubin gián tiếp sơ sinh | Vàng da sinh lý vs bệnh lý; biểu đồ ngưỡng chiếu đèn và thay máu theo giờ tuổi (AAP); kỹ thuật chiếu đèn; nhận diện và dự phòng vàng da nhân não (Kernicterus). | PED-01 | ❌ CHƯA CÓ |
-| **PED-15** | P0 | Tiếp cận vàng da ứ mật (Bilirubin trực tiếp) | Tiêu chuẩn chẩn đoán ứ mật; tam chứng phân bạc màu - nước tiểu sẫm - gan to; chẩn đoán phân biệt teo đường mật bẩm sinh (Kasai trước 60 ngày tuổi) vs viêm gan sơ sinh. | PED-14 | ❌ CHƯA CÓ |
+| **PED-14** | P0 | Vàng da tăng Bilirubin gián tiếp sơ sinh | Vàng da sinh lý vs bệnh lý; biểu đồ ngưỡng chiếu đèn và thay máu theo giờ tuổi (AAP); kỹ thuật chiếu đèn; nhận diện và dự phòng vàng da nhân não (Kernicterus). | PED-01 | ✅ GATES ĐẠT (MD + APKG 84 thẻ + App HTML) |
+| **PED-15** | P0 | Tiếp cận vàng da ứ mật (Bilirubin trực tiếp) | Tiêu chuẩn chẩn đoán ứ mật; tam chứng phân bạc màu - nước tiểu sẫm - gan to; chẩn đoán phân biệt teo đường mật bẩm sinh (Kasai trước 60 ngày tuổi) vs viêm gan sơ sinh. | PED-14 | ✅ GATES ĐẠT (MD + APKG 84 thẻ + App HTML) |
 | **PED-16** | P0 | Nhiễm khuẩn sơ sinh sớm và muộn | Yếu tố nguy cơ mẹ (viêm màng ối, GBS, rỉ ối); triệu chứng lâm sàng tinh tế (bỏ bú, hạ thân nhiệt, thở không đều); kháng sinh kinh nghiệm: Ampicillin + Gentamicin / Cefotaxim. | PED-03 | ❌ CHƯA CÓ |
 | **PED-17** | P0 | Hạ đường huyết & Hạ thân nhiệt ở trẻ sơ sinh | Ngưỡng đường huyết can thiệp theo giờ tuổi; phác đồ cấp cứu Glucose 10% mini-bolus (2 ml/kg) và truyền duy trì tốc độ truyền đường (GIR); chăm sóc ủ ấm. | PED-03 | ❌ CHƯA CÓ |
 | **PED-18** | P0 | Chăm sóc & Nuôi dưỡng trẻ non tháng - nhẹ cân | Phân loại cân nặng/tuổi thai; phương pháp Kangaroo (KMC); dinh dưỡng đường ruột tối thiểu (trophic feeding); chỉ định sữa mẹ tăng cường chất dinh dưỡng (HMF fortifier). | PED-01 | ❌ CHƯA CÓ |
@@ -64,7 +64,7 @@
 
 ---
 
-### Block 4 — Tiêu hóa & Dinh dưỡng Nhi khoa (06 bài)
+### Block 4 — Tiêu hóa & Dinh dưỡng Nhi khoa (07 bài)
 | ID | Ưu tiên | Bài học | Phạm vi cốt lõi (Làm gì + Tại sao) | Phụ thuộc | Trạng thái |
 |---|:---:|---|---|---|:---:|
 | **PED-26** | P0 | Tiếp cận trẻ Nôn và Đau bụng cấp | Phân tầng nôn dịch trong/dịch vị vs nôn dịch mật (cấp cứu ngoại khoa); sơ đồ chẩn đoán đau bụng cấp theo lứa tuổi; dấu hiệu cảnh báo ngoại khoa cần hội chẩn ngay. | PED-01 | ❌ CHƯA CÓ |
@@ -73,6 +73,7 @@
 | **PED-29** | P0 | Lồng ruột cấp ở trẻ nhũ nhi | Tam chứng kinh điển (khóc thét từng cơn, nôn ói, đi ngoài phân nhầy máu/nước mận chín); dấu hiệu bánh lồng / hình bia trên siêu âm; chỉ định tháo lồng bằng hơi và theo dõi tái lồng. | PED-26 | ❌ CHƯA CÓ |
 | **PED-30** | P0 | Đánh giá dinh dưỡng trẻ em theo chuẩn WHO | Đọc biểu đồ tăng trưởng và Z-score (Weight-for-Age, Height-for-Age, Weight-for-Height, BMI-for-Age); phân loại thể nhẹ cân, thấp còi, gầy còm; sàng lọc béo phì. | PED-01 | ❌ CHƯA CÓ |
 | **PED-31** | P0 | Suy dinh dưỡng nặng: Phác đồ 10 bước của WHO | Phân biệt Marasmus vs Kwashiorkor; nguyên tắc điều trị cấp (hạ đường huyết, hạ thân nhiệt, mất nước); cách pha và cho ăn F-75, F-100, RUTF; dự phòng hội chứng nuôi ăn lại (Refeeding). | PED-30 | ❌ CHƯA CÓ |
+| **PED-46** | P0 | Tiếp cận gan to ở trẻ em (Hepatomegaly) | Định nghĩa kích thước gan theo tuổi & công thức Nelson; kỹ thuật khám (gõ bờ trên, sờ bờ dưới, các nghiệm pháp Murphy, rung gan, ấn kẽ sườn, phản hồi gan TMC); phân loại nguyên nhân 6 cơ chế và hội chứng lâm sàng (gan to đơn thuần, gan to vàng da, gan to lách to, gan lách hạch to); chỉ định CLS định hướng. | PED-01, 15 | ✅ GATES ĐẠT (MD + PEDYTB + Cards 48 thẻ) |
 
 ---
 
@@ -90,7 +91,7 @@
 
 ---
 
-### Block 6 — Thận, Tim mạch, Huyết học & Nội tiết Nhi (07 bài)
+### Block 6 — Thận, Tim mạch, Huyết học & Nội tiết Nhi (08 bài)
 | ID | Ưu tiên | Bài học | Phạm vi cốt lõi (Làm gì + Tại sao) | Phụ thuộc | Trạng thái |
 |---|:---:|---|---|---|:---:|
 | **PED-40** | P0 | Hội chứng thận hư nguyên phát ở trẻ em | Tiêu chuẩn chẩn đoán (phù to, tiểu ít, protein niệu 24h ngưỡng thận hư, albumin máu giảm); thể nhạy cảm Steroid; phác đồ tấn công Prednisolone ban đầu; nhận diện và xử trí biến chứng giảm thể tích tuần hoàn và nhiễm trùng. | PED-01, 03 | ❌ CHƯA CÓ |
@@ -99,3 +100,4 @@
 | **PED-43** | P0 | Bệnh tim bẩm sinh thường gặp & Cơn tím Fallot | Phân loại Shunt Trái - Phải (VSD, ASD, PDA - không tím, tăng tuần hoàn phổi) vs Shunt Phải - Trái (Tứ chứng Fallot - tím sớm); cơ chế và **xử trí cấp cứu cơn tím Fallot tại giường (tư thế ngực gối, oxy, morphin, bù dịch)**. | PED-01, 02 | ❌ CHƯA CÓ |
 | **PED-44** | P0 | Bệnh Kawasaki ở trẻ em | Tiêu chuẩn chẩn đoán kinh điển: sốt liên tục ≥ 5 ngày kèm 4/5 tiêu chuẩn phụ (kết mạc mắt đỏ, môi đỏ lưỡi dâu tây, ban đa dạng, sưng mu bàn tay/chân, hạch cổ); tiêu chuẩn Kawasaki không điển hình; phác đồ IVIG liều cao + Aspirin dự phòng phình giãn động mạch vành. | PED-01, 03 | ❌ CHƯA CÓ |
 | **PED-45** | P0 | Nhiễm toan Ceton do Đái tháo đường (DKA) ở trẻ em | Tam chứng toan chuyển hóa, tăng đường huyết, ceton máu/niệu; nguyên tắc bù dịch chậm (tránh biến chứng phù não gây tử vong); phác đồ truyền Insulin liều thấp (0.05 - 0.1 UI/kg/h); theo dõi và bù Kali máu chủ động. | PED-03, 11 | ❌ CHƯA CÓ |
+| **PED-47** | P0 | Tiếp cận đái máu ở trẻ em (Hematuria) | Định nghĩa đại thể vs vi thể; phân biệt đái máu thật vs giả (Hb niệu, Myoglobin niệu, thức ăn/thuốc); tiêu chuẩn phân biệt cầu thận vs ngoài cầu thận (hình thái hồng cầu, Acanthocyte > 5%, trụ hồng cầu, protein niệu, màu sắc); 7 chỉ định sinh thiết thận kinh điển; thuật toán 5 bước tiếp cận. | PED-01, 41 | ✅ GATES ĐẠT (MD + PEDYTB + Cards 32 thẻ) |
