@@ -35,10 +35,10 @@
     ::-webkit-scrollbar-thumb { background: rgba(100,116,139,0.5); border-radius: 3px; }
     ::-webkit-scrollbar-thumb:hover { background: rgba(100,116,139,0.8); }
 
-    /* Float Numbers Animation */
+    /* Floating Text Animation */
     @keyframes floatUp {
       0% { transform: translate(-50%, 0) scale(0.7); opacity: 0; }
-      20% { transform: translate(-50%, -10px) scale(1.15); opacity: 1; }
+      18% { transform: translate(-50%, -10px) scale(1.15); opacity: 1; }
       80% { transform: translate(-50%, -35px) scale(1); opacity: 0.9; }
       100% { transform: translate(-50%, -55px) scale(0.9); opacity: 0; }
     }
@@ -52,11 +52,44 @@
       text-shadow: 0 2px 10px rgba(0,0,0,0.8);
     }
 
-    /* Card Flip 3D Animation */
-    .perspective-1000 { perspective: 1000px; }
-    .transform-style-3d { transform-style: preserve-3d; }
-    .backface-hidden { backface-visibility: hidden; }
-    .rotate-y-180 { transform: rotateY(180deg); }
+    /* Screen Shake Animation (Subtle, not nauseating) */
+    @keyframes screenShake {
+      0%, 100% { transform: translateX(0); }
+      20% { transform: translateX(-4px); }
+      40% { transform: translateX(4px); }
+      60% { transform: translateX(-2px); }
+      80% { transform: translateX(2px); }
+    }
+    .screen-shake {
+      animation: screenShake 240ms ease-in-out 1;
+    }
+
+    /* 3D Gacha Card Flip */
+    .gacha-card {
+      min-height: 155px;
+      perspective: 1000px;
+      cursor: pointer;
+    }
+    .gacha-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      transition: transform 0.6s cubic-bezier(0.2, 0.7, 0.3, 1.1);
+    }
+    .gacha-card.flipped .gacha-inner {
+      transform: rotateY(180deg);
+    }
+    .gacha-face {
+      position: absolute;
+      inset: 0;
+      backface-visibility: hidden;
+      border-radius: 1rem;
+      overflow: hidden;
+    }
+    .gacha-front {
+      transform: rotateY(180deg);
+    }
 
     /* City Scene Animations */
     @keyframes driveAmbulance {
@@ -79,28 +112,31 @@
       animation: helicopterHover 1.8s ease-in-out infinite;
     }
 
-    /* EKG Line Animation */
+    /* Dynamic EKG Line Animation */
     @keyframes ekgMove {
       0% { stroke-dashoffset: 200; }
       100% { stroke-dashoffset: 0; }
     }
     .ekg-line {
       stroke-dasharray: 200;
-      animation: ekgMove 2.5s linear infinite;
+      animation: ekgMove 2.2s linear infinite;
     }
 
-    /* Chest Open Pop */
+    /* Chest Bounce Pop */
     @keyframes chestBounce {
       0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.12); }
+      50% { transform: scale(1.1); }
     }
     .animate-chest { animation: chestBounce 1.2s infinite ease-in-out; }
   </style>
 </head>
 <body class="bg-slate-950 text-slate-100 font-sans min-h-screen flex flex-col selection:bg-emerald-500 selection:text-white pb-8 overflow-x-hidden">
 
-  <!-- FLOATING FX LAYER -->
+  <!-- FLOATING FX & PARTICLES LAYER -->
   <div id="fxLayer" class="fixed inset-0 pointer-events-none z-[999]"></div>
+
+  <!-- TOAST NOTIFICATION LAYER -->
+  <div id="toastLayer" class="fixed bottom-4 right-4 z-[1000] space-y-2 pointer-events-none"></div>
 
   <!-- TOP HEADER -->
   <header class="bg-slate-900/95 backdrop-blur border-b border-slate-800/90 sticky top-0 z-50 px-3 sm:px-5 py-2 flex items-center justify-between shadow-xl">
@@ -111,7 +147,7 @@
       <div>
         <h1 class="text-xs sm:text-sm font-bold tracking-wide flex items-center gap-1.5 text-white">
           <span>ANKIMED</span>
-          <span class="text-[9px] uppercase font-mono px-1 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800/60 font-semibold">The ER Shift</span>
+          <span class="text-[9px] uppercase font-mono px-1 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800/60 font-semibold">V2.1 Juice</span>
         </h1>
         <p class="text-[10px] text-slate-400 font-mono flex items-center gap-1">
           <span id="ankiStatusDot" class="inline-block w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
@@ -122,8 +158,8 @@
 
     <!-- WALLET & RESOURCES -->
     <div class="flex items-center space-x-2 sm:space-x-2.5">
-      <!-- Bricks with visual icon -->
-      <div id="walletBricksBox" class="bg-slate-800/90 border border-slate-700 rounded-lg px-2.5 py-1 flex items-center space-x-1.5 transition-transform" title="Gạch Y Tế: Kiếm từ thẻ lật để xây công trình">
+      <!-- Bricks with visual bounce -->
+      <div id="walletBricksBox" class="bg-slate-800/90 border border-slate-700 rounded-lg px-2.5 py-1 flex items-center space-x-1.5 transition-transform duration-200" title="Gạch Y Tế: Kiếm từ thẻ lật để xây công trình">
         <span class="text-sm">🧱</span>
         <div>
           <div class="text-[9px] text-slate-400 font-mono leading-none">GẠCH</div>
@@ -132,7 +168,7 @@
       </div>
 
       <!-- Insight Points -->
-      <div id="walletInsightBox" class="bg-slate-800/90 border border-slate-700 rounded-lg px-2.5 py-1 flex items-center space-x-1.5 transition-transform" title="Điểm Ngộ Đạo: Kiếm từ việc học thẻ Again và thẻ khó">
+      <div id="walletInsightBox" class="bg-slate-800/90 border border-slate-700 rounded-lg px-2.5 py-1 flex items-center space-x-1.5 transition-transform duration-200" title="Điểm Ngộ Đạo: Kiếm từ việc học thẻ Again và thẻ khó">
         <span class="text-sm">💡</span>
         <div>
           <div class="text-[9px] text-slate-400 font-mono leading-none">INSIGHT</div>
@@ -159,17 +195,17 @@
     </div>
   </header>
 
-  <!-- MAIN CONTAINER (OPTIMIZED FOR ~800px SPLIT-SCREEN) -->
+  <!-- MAIN CONTAINER (SPLIT-SCREEN OPTIMIZED) -->
   <main class="flex-1 max-w-4xl w-full mx-auto p-3 sm:p-4 space-y-3.5">
 
-    <!-- 1. VISUAL HOSPITAL CAMPUS & GLACIER SCENE (THÀNH PHỐ TRỰC QUAN) -->
+    <!-- 1. VISUAL HOSPITAL CAMPUS & GLACIER SCENE -->
     <section class="bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 border border-slate-800 rounded-2xl p-3 relative overflow-hidden shadow-2xl">
-      <!-- Sky & Glacier Horizon -->
+      <!-- Sky & Glacier Header -->
       <div class="flex items-center justify-between text-[11px] font-mono pb-2 border-b border-slate-800/80">
         <div class="flex items-center gap-1.5">
           <span class="text-xs">🏛️</span>
           <span id="hospitalLevelName" class="font-bold text-slate-200">Bệnh viện: Trạm Cấp Cứu</span>
-          <span id="hospitalLevelTier" class="text-[9px] px-1.5 py-0.2 rounded bg-emerald-950 text-emerald-400 border border-emerald-800">CẤP 1</span>
+          <span id="hospitalLevelTier" class="text-[9px] px-1.5 py-0.2 rounded bg-emerald-950 text-emerald-400 border border-emerald-800 font-bold">CẤP 1</span>
         </div>
         <!-- Glacier Burndown Bar -->
         <div class="flex items-center gap-2 text-cyan-300">
@@ -190,35 +226,47 @@
           <div class="absolute top-8 left-32 text-slate-400 text-[7px]">✦</div>
           <div class="absolute top-5 right-28 text-slate-400 text-[8px]">✦</div>
           <div class="absolute top-10 right-48 text-slate-400 text-[6px]">✦</div>
-          <!-- Glacier in background -->
+          <!-- Horizon Glacier Wall -->
           <div class="absolute bottom-12 inset-x-0 h-16 bg-gradient-to-t from-cyan-950/20 to-transparent pointer-events-none border-b border-cyan-900/10"></div>
         </div>
 
-        <!-- Buildings Skyline Row (Dynamically populated) -->
+        <!-- Buildings Skyline Row -->
         <div id="campusSkylineRow" class="relative z-10 flex items-end justify-around h-full pb-4 px-2">
-          <!-- Building slots injected by JS -->
+          <!-- Building slots populated by JS -->
         </div>
 
-        <!-- Ground / Street Level -->
+        <!-- Street Level & Animated Ambulance -->
         <div class="relative z-10 h-7 bg-slate-800/90 border-t border-slate-700/80 rounded-lg flex items-center px-2 overflow-hidden">
-          <!-- Road stripes -->
           <div class="w-full border-b border-dashed border-amber-400/40 absolute top-1/2"></div>
-          <!-- Animated Ambulance (Appears when Ambulance station built) -->
-          <div id="sceneAmbulance" class="hidden absolute text-base animate-ambulance" title="Xe cấp cứu 115 đang tuần tra">
+          <!-- Ambulance appears when station is built -->
+          <div id="sceneAmbulance" class="hidden absolute text-base animate-ambulance" title="Xe cấp cứu 115 tuần tra">
             🚑
           </div>
-          <!-- Campus trees & citizens -->
           <div class="absolute left-4 bottom-1 text-xs">🌳</div>
           <div class="absolute left-1/4 bottom-1 text-xs">🚶</div>
           <div class="absolute right-1/4 bottom-1 text-xs">🌳</div>
           <div class="absolute right-8 bottom-1 text-xs">🌿</div>
         </div>
       </div>
+
+      <!-- Relics Bar & Daily Quest Banner -->
+      <div class="mt-2.5 pt-2 border-t border-slate-800/80 flex flex-wrap items-center justify-between gap-2 text-[11px] font-mono">
+        <div class="flex items-center gap-1.5">
+          <span class="text-slate-400">🏺 Cổ vật:</span>
+          <div id="relicsContainer" class="flex gap-1">
+            <span class="text-slate-600 text-[10px] italic">Chưa có cổ vật</span>
+          </div>
+        </div>
+        <div id="dailyQuestBanner" class="flex items-center gap-1.5 px-2 py-0.5 rounded bg-slate-800/80 border border-slate-700 text-slate-300">
+          <span class="text-amber-400">🎯</span>
+          <span id="dailyQuestText">Nhiệm vụ: Hoàn thành 1 ca trực 20 thẻ</span>
+          <span id="dailyQuestStatus" class="text-[9px] font-bold text-amber-400">(0/1)</span>
+        </div>
+      </div>
     </section>
 
     <!-- 2. THE ER SHIFT / PATIENT MONITOR (CA TRỰC & VITAL SIGNS) -->
     <section class="bg-slate-900 border border-slate-800 rounded-2xl p-3.5 sm:p-4 shadow-xl relative overflow-hidden">
-      <!-- Ambient Glow -->
       <div class="absolute -right-10 -top-10 w-36 h-36 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none"></div>
 
       <!-- A. SETUP VIEW (WHEN SHIFT NOT STARTED) -->
@@ -228,7 +276,7 @@
             <h2 class="text-sm font-bold text-white flex items-center gap-1.5">
               <span>🩺 BẮT ĐẦU CA TRỰC MỚI</span>
             </h2>
-            <p class="text-[11px] text-slate-400">Chọn thời lượng và hợp đồng ca trực phù hợp với thể trạng</p>
+            <p class="text-[11px] text-slate-400">Chọn thời lượng và hợp đồng ca trực phù hợp</p>
           </div>
           <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700" id="todayReviewedBadge">
             Hôm nay: 0 thẻ
@@ -287,13 +335,13 @@
         </div>
 
         <button id="btnOpenGachaModal" class="w-full py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 font-bold text-xs sm:text-sm tracking-wide transition shadow-lg shadow-emerald-500/20 active:scale-98 flex items-center justify-center gap-2">
-          <span>🎲 RÚT BÙA & NHẬN CA TRỰC</span>
+          <span>🎲 RÚT BÙA VẬN MỆNH (GACHA FLIP)</span>
         </button>
       </div>
 
-      <!-- B. ACTIVE SHIFT VIEW (PATIENT VITAL SIGNS & MONITOR) -->
+      <!-- B. ACTIVE SHIFT VIEW (VITAL SIGNS MONITOR & ACTIVE MODIFIERS) -->
       <div id="shiftActiveView" class="hidden space-y-3">
-        <!-- Patient Clinical Case Header & EKG -->
+        <!-- Patient Clinical Case Header & Dynamic EKG -->
         <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-2.5 flex items-center justify-between gap-2">
           <div class="flex items-center gap-2">
             <span class="text-2xl" id="patientAvatar">🧑‍⚕️</span>
@@ -302,7 +350,7 @@
                 <span id="patientCaseTitle">Bệnh nhân Nam 54 tuổi — Đau ngực cấp</span>
                 <span id="activeContractBadge" class="text-[9px] font-mono px-1.5 py-0.2 rounded bg-emerald-950 text-emerald-400 border border-emerald-800 font-bold">YÊN TĨNH</span>
               </div>
-              <div id="patientNarrativeStatus" class="text-[10px] text-emerald-400 font-mono">
+              <div id="patientNarrativeStatus" class="text-[10px] text-emerald-400 font-mono transition-colors">
                 Monitor: Nhịp xoang đều, SpO2 96%
               </div>
             </div>
@@ -310,8 +358,8 @@
 
           <!-- Dynamic EKG SVG Display -->
           <div class="hidden sm:flex items-center gap-1">
-            <svg class="w-24 h-6 text-emerald-400" viewBox="0 0 100 25" fill="none" stroke="currentColor" stroke-width="2">
-              <path id="ekgPath" class="ekg-line" d="M0,12 L20,12 L25,4 L30,22 L35,8 L40,15 L45,12 L100,12" />
+            <svg class="w-24 h-6 text-emerald-400 transition-colors" viewBox="0 0 100 25" fill="none" stroke="currentColor" stroke-width="2">
+              <path id="ekgPath" class="ekg-line text-emerald-400" d="M0,12 L20,12 L25,4 L30,22 L35,8 L40,15 L45,12 L100,12" />
             </svg>
             <button id="btnAbandonShift" class="text-[10px] text-slate-500 hover:text-rose-400 font-mono transition ml-2">
               Rút lui ✕
@@ -346,7 +394,7 @@
           </div>
         </div>
 
-        <!-- Combo Tier & Rewards Counters -->
+        <!-- Combo Tier & Reward Counters -->
         <div class="flex items-center justify-between text-xs px-1">
           <div id="comboBadge" class="font-bold font-mono text-slate-400 flex items-center gap-1">
             <span>🔥 Combo:</span> <span id="comboNumber" class="text-amber-400">0</span>
@@ -363,7 +411,7 @@
           <!-- Populated by JS -->
         </div>
 
-        <!-- Simulation Buttons (For testing without Anki) -->
+        <!-- Simulation Buttons (For test without Anki open) -->
         <div class="bg-slate-950/70 border border-slate-800/80 rounded-xl p-2 flex items-center justify-between text-xs">
           <span class="text-slate-400 font-mono text-[10px]">Test ảo:</span>
           <div class="flex space-x-1">
@@ -393,19 +441,19 @@
 
   </main>
 
-  <!-- GACHA CARD FLIP REVEAL OVERLAY MODAL -->
+  <!-- GACHA 3D CARD FLIP OVERLAY MODAL -->
   <div id="gachaModal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-md z-50 flex items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-lg w-full p-5 space-y-4 shadow-2xl text-center">
       <div>
         <h3 class="text-base font-bold text-white flex items-center justify-center gap-2">
           <span>🎲 RÚT BÙA VẬN MỆNH CA TRỰC</span>
         </h3>
-        <p class="text-xs text-slate-400 mt-1">Các yếu tố biến đổi ngẫu nhiên tác động vào ca trực của bạn</p>
+        <p class="text-xs text-slate-400 mt-1">Chạm vào từng lá bài để lật mở vận mệnh của ca trực!</p>
       </div>
 
-      <!-- Cards Reveal Container -->
+      <!-- 3D Flippable Cards Container -->
       <div id="gachaCardsContainer" class="grid grid-cols-1 sm:grid-cols-2 gap-3 py-2">
-        <!-- Injected dynamically with 3D flip -->
+        <!-- Injected dynamically with 3D Flip faces -->
       </div>
 
       <div class="flex items-center justify-between pt-2 border-t border-slate-800">
@@ -419,10 +467,9 @@
     </div>
   </div>
 
-  <!-- VICTORY / COMPLETION SCREEN MODAL (NO MORE ALERT!) -->
+  <!-- VICTORY / COMPLETION SCREEN MODAL -->
   <div id="completionModal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-md z-50 flex items-center justify-center p-4">
     <div class="bg-slate-900 border border-emerald-600/70 rounded-3xl max-w-md w-full p-6 space-y-5 shadow-2xl text-center relative overflow-hidden">
-      <!-- Glow -->
       <div class="absolute -top-12 -left-12 w-40 h-40 bg-emerald-500/20 rounded-full blur-3xl pointer-events-none"></div>
 
       <div class="space-y-1">
@@ -458,8 +505,8 @@
       <!-- Clinical Report Footer -->
       <div class="bg-slate-950/60 p-2.5 rounded-xl text-[11px] text-slate-300 font-mono text-left border border-slate-800 space-y-1">
         <div class="text-slate-500 font-bold">📋 BÁO CÁO GIAO BAN:</div>
-        <div id="modalReportLine1">• Max Combo: 18 🔥</div>
-        <div id="modalReportLine2">• Tiên lượng ca tiếp theo: Ổn định, sẵn sàng bứt phá!</div>
+        <div id="modalReportLine1">• Max Combo: 18 🔥 — Trạng thái ca: Xuất sắc</div>
+        <div id="modalReportLine2">• Thành phố nhận thêm gạch xây dựng & kinh nghiệm nghiên cứu!</div>
       </div>
 
       <button id="btnCloseCompletionModal" class="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-slate-950 font-bold text-xs tracking-wide transition shadow-lg shadow-emerald-500/30">
@@ -476,7 +523,7 @@
         <button id="btnCloseBackup" class="text-slate-400 hover:text-white">✕</button>
       </div>
       <p class="text-xs text-slate-300 leading-relaxed">
-        Dữ liệu Gạch, Insight và Bệnh viện của bạn được lưu trữ an toàn trong máy này. Bạn có thể xuất ra file JSON để chuyển sang máy khác.
+        Dữ liệu Gạch, Insight, Cổ vật và Bệnh viện của bạn được lưu trữ an toàn trong máy này.
       </p>
       <div class="flex gap-2">
         <button id="btnExportData" class="flex-1 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs transition">
@@ -488,7 +535,7 @@
         </label>
       </div>
       <div class="pt-2 border-t border-slate-800 flex justify-between items-center text-[10px] text-slate-500 font-mono">
-        <span>AnkiMed V2 (Juice Edition)</span>
+        <span>AnkiMed V2.1 (Full Juice)</span>
         <button id="btnHardReset" class="text-rose-400 hover:underline">Đặt lại từ đầu</button>
       </div>
     </div>
@@ -497,14 +544,19 @@
   <!-- JAVASCRIPT LOGIC ENGINE -->
   <script>
     /* ====================================================================
-       1. SYNTHESIZED SOUND ENGINE (WEB AUDIO API)
+       1. SYNTHESIZED SOUND ENGINE (WITH RESUME ON USER GESTURE)
        ==================================================================== */
     const Sound = {
       enabled: true,
       ctx: null,
       init() {
         if (!this.ctx) {
-          try { this.ctx = new (window.AudioContext || window.webkitAudioContext)(); } catch(e) {}
+          try {
+            this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+          } catch(e) {}
+        }
+        if (this.ctx && this.ctx.state === 'suspended') {
+          this.ctx.resume();
         }
       },
       tone(freq, type, duration, gainVal = 0.08) {
@@ -558,7 +610,7 @@
     };
 
     /* ====================================================================
-       2. VISUAL FX ENGINE (FLOATING TEXT, PARTICLES, FLYING BRICKS)
+       2. VISUAL FX ENGINE (FLOATS, PARTICLES, BURSTS, SHAKE & TOASTS)
        ==================================================================== */
     const FX = {
       spawnFloat(text, colorClass = 'text-emerald-300', targetElem = null) {
@@ -578,6 +630,37 @@
 
         layer.appendChild(el);
         setTimeout(() => el.remove(), 1050);
+      },
+      burst(x, y, emojis = ['✨'], count = 12, spread = 70) {
+        for (let i = 0; i < count; i++) {
+          const p = document.createElement('div');
+          p.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+          p.style.position = 'fixed';
+          p.style.left = x + 'px';
+          p.style.top = y + 'px';
+          p.style.zIndex = '9999';
+          p.style.pointerEvents = 'none';
+          p.style.fontSize = `${12 + Math.random() * 14}px`;
+          document.body.appendChild(p);
+
+          const angle = Math.random() * Math.PI * 2;
+          const dist = 30 + Math.random() * spread;
+          const dx = Math.cos(angle) * dist;
+          const dy = Math.sin(angle) * dist - 30;
+
+          p.animate([
+            { transform: 'translate(-50%, -50%) scale(1)', opacity: 1 },
+            { transform: `translate(calc(-50% + ${dx}px), calc(-50% + ${dy}px)) scale(${0.4 + Math.random() * 0.7})`, opacity: 0 }
+          ], {
+            duration: 600 + Math.random() * 400,
+            easing: 'cubic-bezier(0.2, 0.7, 0.3, 1)'
+          }).onfinish = () => p.remove();
+        }
+      },
+      shake() {
+        document.body.classList.remove('screen-shake');
+        void document.body.offsetWidth;
+        document.body.classList.add('screen-shake');
       },
       flyBrickToWallet(startElem = null) {
         const brick = document.createElement('div');
@@ -608,13 +691,33 @@
           easing: 'cubic-bezier(0.2, 0.7, 0.3, 1)'
         }).onfinish = () => {
           brick.remove();
-          // Bounce wallet box slightly
           const box = document.getElementById('walletBricksBox');
           box.style.transform = 'scale(1.15)';
           setTimeout(() => box.style.transform = 'scale(1)', 150);
         };
       }
     };
+
+    function showToast(message, tone = 'info') {
+      const layer = document.getElementById('toastLayer');
+      const toast = document.createElement('div');
+
+      const toneClass =
+        tone === 'error' ? 'border-rose-600 bg-rose-950/90 text-rose-100' :
+        tone === 'success' ? 'border-emerald-600 bg-emerald-950/90 text-emerald-100' :
+        'border-slate-600 bg-slate-900/90 text-slate-100';
+
+      toast.className = `px-4 py-2 rounded-xl border text-xs font-mono shadow-xl backdrop-blur transition-all duration-300 opacity-0 translate-y-2 pointer-events-auto ${toneClass}`;
+      toast.textContent = message;
+
+      layer.appendChild(toast);
+      requestAnimationFrame(() => toast.classList.remove('opacity-0', 'translate-y-2'));
+
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-2');
+        setTimeout(() => toast.remove(), 300);
+      }, 2800);
+    }
 
     /* ====================================================================
        3. CLINICAL CASES & NARRATIVE LIBRARY
@@ -623,7 +726,7 @@
       {
         title: 'Bệnh nhân Nam 54 tuổi — Đau ngực cấp & Vã mồ hôi',
         initialNarrative: 'Khoa Cấp cứu: Monitor nhịp 118 bpm, huyết áp 90/60, nghi HC Vành Cấp!',
-        successQuote: 'Bệnh nhân đã cắt cơn đau ngực, ST chênh giảm rõ, chuyển Tim mạch can thiệp an toàn!',
+        successQuote: 'Bệnh nhân đã cắt cơn đau ngực, ST chênh giảm rõ, chuyển Can thiệp Tim mạch an toàn!',
         avatar: '👨‍💼',
         initialBP: '90/60', initialHR: 118, initialSpO2: 92
       },
@@ -651,22 +754,30 @@
     ];
 
     /* ====================================================================
-       4. BUFFS, DEBUFFS & BUILDINGS DATABASE
+       4. BUFFS, DEBUFFS, RELICS & BUILDINGS DATABASE
        ==================================================================== */
     const BUFFS_DB = [
-      { id: 'b1', name: 'Cà phê trực đêm', icon: '☕', desc: '+25% Gạch tích lũy trong toàn bộ ca trực', type: 'buff', rarity: 'rare' },
+      { id: 'b1', name: 'Cà phê trực đêm', icon: '☕', desc: '+25% Gạch tích lũy trong ca trực', type: 'buff', rarity: 'rare' },
       { id: 'b2', name: 'Hội chẩn Trưởng khoa', icon: '👨‍⚕️', desc: 'Thẻ Hard được tính trọn vẹn điểm như Good (+1.0 Gạch)', type: 'buff', rarity: 'rare' },
       { id: 'b3', name: 'Khiên Hippocrates', icon: '🛡️', desc: 'Bảo vệ chuỗi Combo khỏi lần bấm Again đầu tiên', type: 'buff', rarity: 'epic' },
-      { id: 'b4', name: 'Phản xạ lâm sàng', icon: '⚡', desc: 'Bấm thẻ nhanh được thưởng thêm +0.5 Gạch', type: 'buff', rarity: 'common' },
+      { id: 'b4', name: 'Phản xạ lâm sàng', icon: '⚡', desc: 'Khi Combo ≥ 8: mỗi thẻ Good/Easy nhận thêm +0.5 Gạch', type: 'buff', rarity: 'common' },
       { id: 'b5', name: 'Sách Phác đồ Bỏ túi', icon: '📖', desc: 'Nhận gấp đôi điểm Insight (+2) khi gặp thẻ Again', type: 'buff', rarity: 'rare' },
-      { id: 'b6', name: 'Điều dưỡng tháo vát', icon: '🤝', desc: 'Tự động cộng thêm +2 Gạch tại mỗi Checkpoint 10 thẻ', type: 'buff', rarity: 'common' }
+      { id: 'b6', name: 'Điều dưỡng tháo vát', icon: '🤝', desc: 'Tự động cộng thêm +2 Gạch tại mỗi Checkpoint 10 thẻ', type: 'buff', rarity: 'common' },
+      { id: 'b8', name: 'Ống nghe Littmann Vàng', icon: '🩺', desc: 'Mọi thẻ Good/Easy nhận thêm +0.2 Gạch thụ động', type: 'buff', rarity: 'epic' }
     ];
 
     const DEBUFFS_DB = [
       { id: 'd1', name: 'Giao ban đột xuất', icon: '📋', desc: 'Thưởng +30% Gạch, nhưng ngắt quãng giữa 2 thẻ > 45s sẽ reset combo', type: 'debuff', rarity: 'rare' },
       { id: 'd2', name: 'Hồ sơ bệnh án dày', icon: '📑', desc: 'Thẻ Easy chỉ cho 1.0 Gạch, bù lại cuối ca tặng thêm +3 Insight', type: 'debuff', rarity: 'common' },
-      { id: 'd3', name: 'Khoa phòng quá tải', icon: '🚨', desc: 'Bấm Again làm giảm 5% Gạch thưởng ca trực (không phạt âm)', type: 'debuff', rarity: 'rare' },
-      { id: 'd4', name: 'Đêm trực mỏi mệt', icon: '🌙', desc: 'Giảm 10% Gạch thường, nhưng tăng gấp đôi Insight học tập', type: 'debuff', rarity: 'common' }
+      { id: 'd3', name: 'Khoa phòng quá tải', icon: '🚨', desc: 'Bấm Again làm giảm 5% Gạch thưởng ca trực (tối đa giảm 30%)', type: 'debuff', rarity: 'rare' },
+      { id: 'd4', name: 'Đêm trực mỏi mệt', icon: '🌙', desc: 'Giảm 10% Gạch thường, nhưng tăng gấp đôi Insight học tập (+100%)', type: 'debuff', rarity: 'common' }
+    ];
+
+    const RELICS_DB = [
+      { id: 'r1', name: 'Ống nghe Littmann Master Vàng', icon: '🩺', desc: '+5% Gạch vĩnh viễn toàn viện' },
+      { id: 'r2', name: 'Đèn soi đáy mắt Titan', icon: '🔦', desc: '+10% Insight vĩnh viễn' },
+      { id: 'r3', name: 'Bệnh án Điện tử Thông minh', icon: '📱', desc: 'Checkpoint nhận thêm +1 Gạch' },
+      { id: 'r4', name: 'Khiên Trực Đêm Kiên Cường', icon: '🌙', desc: 'Giảm 10% tác động của bùa hại' }
     ];
 
     const BUILDINGS_DB = [
@@ -685,7 +796,7 @@
     /* ====================================================================
        5. STATE MANAGEMENT
        ==================================================================== */
-    const STORAGE_KEY = 'ANKIMED_STATE_V2';
+    const STORAGE_KEY = 'ANKIMED_STATE_V2_1';
 
     let state = {
       bricks: 0.0,
@@ -693,6 +804,13 @@
       totalCardsReviewed: 0,
       dueCardsBaseline: 11291,
       built: {},
+      relics: [],
+      daily: {
+        date: new Date().toDateString(),
+        questId: 'shift20',
+        progress: 0,
+        claimed: false
+      },
       currentShift: null,
       history: []
     };
@@ -702,6 +820,7 @@
         const raw = localStorage.getItem(STORAGE_KEY);
         if (raw) state = Object.assign(state, JSON.parse(raw));
       } catch(e) {}
+      ensureDailyQuest();
     }
 
     function saveState() {
@@ -709,9 +828,23 @@
       renderUI();
     }
 
+    function ensureDailyQuest() {
+      const today = new Date().toDateString();
+      if (!state.daily || state.daily.date !== today) {
+        state.daily = {
+          date: today,
+          questId: 'shift20',
+          progress: 0,
+          claimed: false
+        };
+      }
+    }
+
     /* ====================================================================
-       6. ANKICONNECT CLIENT & REAL-TIME POLLING
+       6. ROBUST ANKICONNECT CLIENT (WITH REVIEW ID TRACKING)
        ==================================================================== */
+    let lastReviewId = 0;
+
     const Anki = {
       url: 'http://127.0.0.1:8765',
       connected: false,
@@ -739,7 +872,6 @@
             if (Array.isArray(due)) {
               const count = due.length;
               document.getElementById('topDueCount').textContent = count.toLocaleString('vi-VN');
-              // Update glacier burndown
               const totalEst = Math.max(count, state.dueCardsBaseline);
               const cleared = Math.max(0, totalEst - count);
               const pct = Math.min(100, Math.round((cleared / totalEst) * 100));
@@ -752,29 +884,55 @@
           const todayCount = await this.call('getNumCardsReviewedToday');
           document.getElementById('todayReviewedBadge').textContent = `Hôm nay: ${todayCount} thẻ`;
 
-          // Detect review events
+          // Track individual reviews via Review IDs to avoid missed cards
           if (this.lastReviewedCount >= 0 && todayCount > this.lastReviewedCount) {
-            const delta = todayCount - this.lastReviewedCount;
-            let detectedEase = 3;
             try {
               const cards = await this.call('findCards', { query: 'rated:1' });
               if (cards && cards.length > 0) {
-                const revData = await this.call('getReviewsOfCards', { cards: cards.slice(-3) });
-                let latest = null;
-                for (const cid in revData) {
-                  const arr = revData[cid];
-                  if (Array.isArray(arr) && arr.length > 0) {
-                    const r = arr[arr.length - 1];
-                    if (!latest || r.id > latest.id) latest = r;
+                const revMap = await this.call('getReviewsOfCards', { cards: cards.slice(-5) });
+                const newRevs = [];
+                for (const cid in revMap) {
+                  const arr = revMap[cid];
+                  if (Array.isArray(arr)) {
+                    for (const r of arr) {
+                      if (lastReviewId === 0 || r.id > lastReviewId) {
+                        newRevs.push(r);
+                      }
+                    }
                   }
                 }
-                if (latest && latest.ease) detectedEase = latest.ease;
+                newRevs.sort((a, b) => a.id - b.id);
+
+                if (newRevs.length > 0) {
+                  for (const r of newRevs) {
+                    handleCardReview(r.ease, 'Anki');
+                  }
+                  lastReviewId = newRevs[newRevs.length - 1].id;
+                } else {
+                  // Fallback by delta
+                  const delta = todayCount - this.lastReviewedCount;
+                  for (let i = 0; i < delta; i++) handleCardReview(3, 'Anki');
+                }
+              }
+            } catch(e) {
+              const delta = todayCount - this.lastReviewedCount;
+              for (let i = 0; i < delta; i++) handleCardReview(3, 'Anki');
+            }
+          } else if (this.lastReviewedCount === -1 && todayCount > 0) {
+            // Initialize lastReviewId on first load
+            try {
+              const cards = await this.call('findCards', { query: 'rated:1' });
+              if (cards && cards.length > 0) {
+                const revMap = await this.call('getReviewsOfCards', { cards: cards.slice(-2) });
+                for (const cid in revMap) {
+                  const arr = revMap[cid];
+                  if (Array.isArray(arr) && arr.length > 0) {
+                    const r = arr[arr.length - 1];
+                    if (r.id > lastReviewId) lastReviewId = r.id;
+                  }
+                }
               }
             } catch(e) {}
-
-            for (let i = 0; i < delta; i++) {
-              handleCardReview(detectedEase, 'Anki');
-            }
           }
           this.lastReviewedCount = todayCount;
 
@@ -787,7 +945,7 @@
     };
 
     /* ====================================================================
-       7. GACHA CARDS REVEAL OVERLAY LOGIC
+       7. GACHA 3D CARD FLIP OVERLAY
        ==================================================================== */
     let selectedLen = 10;
     let selectedContract = 'quiet';
@@ -821,27 +979,57 @@
       [...gachaDrawn.buffs, ...gachaDrawn.debuffs].forEach((item, idx) => {
         const isBuff = item.type === 'buff';
         const card = document.createElement('div');
-        card.className = `p-3.5 rounded-2xl border flex flex-col justify-between text-left transition transform hover:scale-102 ${
-          isBuff
-            ? 'bg-gradient-to-br from-emerald-950/70 to-slate-900 border-emerald-500/70 shadow-lg shadow-emerald-500/10'
-            : 'bg-gradient-to-br from-rose-950/70 to-slate-900 border-rose-500/70 shadow-lg shadow-rose-500/10'
-        }`;
+        card.className = 'gacha-card';
+
         card.innerHTML = `
-          <div>
-            <div class="flex items-center justify-between">
-              <span class="text-2xl">${item.icon}</span>
-              <span class="text-[9px] font-mono px-1.5 py-0.5 rounded uppercase font-bold ${
-                isBuff ? 'bg-emerald-900/80 text-emerald-300' : 'bg-rose-900/80 text-rose-300'
-              }">
-                ${isBuff ? 'BÙA LỢI' : 'THÁCH THỨC'}
-              </span>
+          <div class="gacha-inner">
+            <!-- BACK FACE: TAP TO FLIP -->
+            <div class="gacha-face bg-gradient-to-br from-slate-800 to-slate-900 border-2 border-slate-700 flex flex-col items-center justify-center shadow-xl">
+              <div class="text-3xl animate-pulse">🎴</div>
+              <div class="text-[11px] text-emerald-400 font-mono font-bold mt-2">Chạm để lật lá bài #${idx+1}</div>
+              <div class="text-[9px] text-slate-500 font-mono">Bùa Vận Mệnh</div>
             </div>
-            <h4 class="text-xs font-bold text-white mt-2">${item.name}</h4>
-            <p class="text-[11px] text-slate-300 mt-1 leading-snug">${item.desc}</p>
+
+            <!-- FRONT FACE: REVEALED MODIFIER -->
+            <div class="gacha-face gacha-front p-3.5 flex flex-col justify-between text-left shadow-xl ${
+              isBuff
+                ? 'bg-gradient-to-br from-emerald-950/90 to-slate-900 border-2 border-emerald-500/80'
+                : 'bg-gradient-to-br from-rose-950/90 to-slate-900 border-2 border-rose-500/80'
+            }">
+              <div>
+                <div class="flex items-center justify-between">
+                  <span class="text-2xl">${item.icon}</span>
+                  <span class="text-[9px] font-mono px-1.5 py-0.5 rounded uppercase font-bold ${
+                    isBuff ? 'bg-emerald-900/80 text-emerald-300' : 'bg-rose-900/80 text-rose-300'
+                  }">
+                    ${isBuff ? 'BÙA LỢI' : 'THÁCH THỨC'}
+                  </span>
+                </div>
+                <h4 class="text-xs font-bold text-white mt-2">${item.name}</h4>
+                <p class="text-[11px] text-slate-300 mt-1 leading-snug">${item.desc}</p>
+              </div>
+              <div class="text-[9px] font-mono text-slate-400">Kích hoạt trong suốt ca trực</div>
+            </div>
           </div>
-          <div class="text-[9px] font-mono mt-2 text-slate-500">Kích hoạt trong suốt ca trực</div>
         `;
+
+        card.addEventListener('click', () => {
+          if (!card.classList.contains('flipped')) {
+            card.classList.add('flipped');
+            Sound.loot();
+            FX.burst(window.innerWidth / 2, window.innerHeight / 2, [isBuff ? '✨' : '🔥', '💠'], 10);
+          }
+        });
+
         container.appendChild(card);
+
+        // Auto flip staggered if user doesn't click
+        setTimeout(() => {
+          if (!card.classList.contains('flipped')) {
+            card.classList.add('flipped');
+            Sound.loot();
+          }
+        }, 800 + idx * 550);
       });
     }
 
@@ -851,7 +1039,6 @@
       document.getElementById('btnRerollGacha').classList.remove('opacity-50', 'cursor-not-allowed');
       rollGacha();
       document.getElementById('gachaModal').classList.remove('hidden');
-      Sound.loot();
     }
 
     function startShiftFromGacha() {
@@ -872,16 +1059,19 @@
         currentHR: clinicalCase.initialHR,
         currentBP: clinicalCase.initialBP,
         currentSpO2: clinicalCase.initialSpO2,
+        lastReviewAt: Date.now(),
+        overloadPenalty: 0,
         startTime: Date.now()
       };
 
       Sound.checkpoint();
       FX.spawnFloat('🚨 VÀO CA TRỰC!', 'text-emerald-400');
+      showToast(`🚨 Đã tiếp nhận: ${clinicalCase.title}`, 'info');
       saveState();
     }
 
     /* ====================================================================
-       8. CARD REVIEW PROCESSING & JUICE FEEDBACK
+       8. CARD REVIEW PROCESSING & FULL JUICE MECHANICS
        ==================================================================== */
     function handleCardReview(ease, source = 'Manual') {
       state.totalCardsReviewed++;
@@ -890,18 +1080,51 @@
       if (!state.currentShift) {
         let b = (ease === 4) ? 1.25 : (ease === 3) ? 1.0 : (ease === 2) ? 0.75 : 0;
         let ins = (ease === 1) ? 1 : (ease === 2) ? 0.5 : 0;
+
+        // Apply permanent relics
+        if (state.relics.includes('r1') && b > 0) b *= 1.05;
+        if (state.relics.includes('r2') && ins > 0) ins *= 1.10;
+
         state.bricks += b;
         state.insight += ins;
-        if (ease === 1) { Sound.again(); FX.spawnFloat('Again: +1 💡 Insight', 'text-amber-400'); }
-        else if (ease === 4) { Sound.easy(); FX.spawnFloat(`+${b} 🧱 Swift!`, 'text-cyan-300'); FX.flyBrickToWallet(); }
-        else if (ease === 3) { Sound.good(); FX.spawnFloat(`+${b} 🧱`, 'text-emerald-300'); FX.flyBrickToWallet(); }
-        else { Sound.hard(); FX.spawnFloat(`+${b} 🧱`, 'text-slate-300'); FX.flyBrickToWallet(); }
+
+        if (ease === 1) {
+          Sound.again();
+          FX.shake();
+          FX.spawnFloat('Again: +1 💡 Insight', 'text-amber-400');
+        } else if (ease === 4) {
+          Sound.easy();
+          FX.spawnFloat(`+${b.toFixed(2)} 🧱 Swift!`, 'text-cyan-300');
+          FX.flyBrickToWallet();
+          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['⚡', '💠', '🧱'], 8);
+        } else if (ease === 3) {
+          Sound.good();
+          FX.spawnFloat(`+${b.toFixed(2)} 🧱`, 'text-emerald-300');
+          FX.flyBrickToWallet();
+          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['✨', '💚', '🧱'], 6);
+        } else {
+          Sound.hard();
+          FX.spawnFloat(`+${b.toFixed(2)} 🧱`, 'text-slate-300');
+          FX.flyBrickToWallet();
+        }
         saveState();
         return;
       }
 
       const s = state.currentShift;
       s.completed++;
+
+      // Check debuff d1 (Giao ban đột xuất: gap > 45s resets combo)
+      const now = Date.now();
+      if (s.debuffs.some(d => d.id === 'd1') && s.lastReviewAt) {
+        const gap = now - s.lastReviewAt;
+        if (gap > 45000 && s.combo > 0) {
+          s.combo = 0;
+          FX.spawnFloat('📋 Giao ban ngắt quãng: Reset Combo!', 'text-rose-400');
+          FX.shake();
+        }
+      }
+      s.lastReviewAt = now;
 
       const contractMult = (s.contract === 'redcode') ? 2.5 : (s.contract === 'standard') ? 1.25 : 1.0;
       let brickGain = 0;
@@ -910,25 +1133,34 @@
       if (ease === 1) {
         // Again: 0 Bricks, +1 Insight
         insightGain = 1;
+        // b5 buff: Sách Phác đồ Bỏ túi (+2 Insight)
         if (s.buffs.some(b => b.id === 'b5')) insightGain = 2;
 
-        // Shield check (b3 buff)
+        // d3 debuff: Khoa phòng quá tải (+5% penalty, max 30%)
+        if (s.debuffs.some(d => d.id === 'd3')) {
+          s.overloadPenalty = Math.min(0.30, (s.overloadPenalty || 0) + 0.05);
+          showToast(`🚨 Khoa quá tải: Thưởng ca trực -${Math.round(s.overloadPenalty * 100)}%`, 'error');
+        }
+
+        // b3 buff: Khiên Hippocrates protects combo
         const shieldIdx = s.buffs.findIndex(b => b.id === 'b3');
         if (shieldIdx >= 0) {
           s.buffs.splice(shieldIdx, 1);
           Sound.hard();
           FX.spawnFloat('🛡️ Khiên bảo vệ Combo!', 'text-cyan-300');
+          showToast('🛡️ Khiên Hippocrates đã ngăn đứt combo!', 'info');
         } else {
           s.combo = 0;
           Sound.again();
+          FX.shake();
           FX.spawnFloat('Again: +1 💡', 'text-amber-400');
-          // Slightly perturb vitals
+          // Perturb vitals
           s.currentHR = Math.min(130, s.currentHR + 4);
-          s.currentSpO2 = Math.max(90, s.currentSpO2 - 1);
+          s.currentSpO2 = Math.max(88, s.currentSpO2 - 1);
         }
 
       } else if (ease === 2) {
-        // Hard
+        // Hard: b2 buff (Hard acts as Good)
         brickGain = (s.buffs.some(b => b.id === 'b2')) ? 1.0 * contractMult : 0.75 * contractMult;
         insightGain = 0.5;
         s.combo++;
@@ -943,23 +1175,49 @@
         Sound.good();
         FX.spawnFloat(`+${brickGain.toFixed(2)} 🧱`, 'text-emerald-400');
         FX.flyBrickToWallet();
+        FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['✨', '💚', '🧱'], 8);
+
         // Improve vitals
         s.currentSpO2 = Math.min(99, s.currentSpO2 + 1);
-        s.currentHR = Math.max(72, s.currentHR - 2);
+        s.currentHR = Math.max(74, s.currentHR - 2);
 
       } else if (ease === 4) {
-        // Easy
+        // Easy: d2 debuff (Easy only gives 1.0)
         brickGain = (s.debuffs.some(d => d.id === 'd2')) ? 1.0 * contractMult : 1.25 * contractMult;
         s.combo++;
         Sound.easy();
         FX.spawnFloat(`+${brickGain.toFixed(2)} 🧱 Swift! 🔥`, 'text-cyan-300');
         FX.flyBrickToWallet();
+        FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['⚡', '💠', '🧱'], 12);
         s.currentSpO2 = Math.min(99, s.currentSpO2 + 1);
       }
 
-      // Passive buffs
+      // b4 buff: Phản xạ lâm sàng (If combo >= 8, +0.5 Bricks)
+      if (s.buffs.some(b => b.id === 'b4') && s.combo >= 8 && brickGain > 0) {
+        brickGain += 0.5;
+        FX.spawnFloat('+0.5 ⚡ Phản xạ!', 'text-amber-300');
+      }
+
+      // b1 buff: +25% Bricks
       if (s.buffs.some(b => b.id === 'b1')) brickGain *= 1.25;
+
+      // b8 buff: +0.2 Bricks
       if (s.buffs.some(b => b.id === 'b8')) brickGain += 0.2;
+
+      // d4 debuff: Đêm trực mỏi mệt (-10% Bricks, +100% Insight)
+      if (s.debuffs.some(d => d.id === 'd4')) {
+        brickGain *= 0.90;
+        insightGain *= 2;
+      }
+
+      // d3 overload penalty reduction
+      if (s.debuffs.some(d => d.id === 'd3') && s.overloadPenalty > 0 && brickGain > 0) {
+        brickGain *= (1 - s.overloadPenalty);
+      }
+
+      // Relic permanent buffs
+      if (state.relics.includes('r1') && brickGain > 0) brickGain *= 1.05;
+      if (state.relics.includes('r2') && insightGain > 0) insightGain *= 1.10;
 
       brickGain = Math.round(brickGain * 100) / 100;
       insightGain = Math.round(insightGain * 100) / 100;
@@ -970,14 +1228,28 @@
       state.insight += insightGain;
       if (s.combo > s.maxCombo) s.maxCombo = s.combo;
 
+      // Update Daily Quest Progress
+      if (state.daily && !state.daily.claimed) {
+        if (state.daily.questId === 'shift20' && s.completed >= 20) {
+          state.daily.progress = 1;
+          showToast('🎯 Hoàn thành nhiệm vụ ngày! Nhận +3 Insight', 'success');
+          state.insight += 3;
+          state.daily.claimed = true;
+        }
+      }
+
       // Checkpoint every 10 cards
       if (s.completed % 10 === 0 && s.completed < s.target) {
         let cpBonus = 2.0;
         if (s.buffs.some(b => b.id === 'b6')) cpBonus += 2.0;
+        if (state.relics.includes('r3')) cpBonus += 1.0;
+
         state.bricks += cpBonus;
         s.earnedBricks += cpBonus;
         Sound.checkpoint();
         FX.spawnFloat(`🎉 CHECKPOINT +${cpBonus} 🧱!`, 'text-amber-300');
+        FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎉', '✨', '🧱'], 16);
+        showToast(`🎉 Checkpoint ${s.completed}/${s.target}: Bệnh nhân sinh hiệu ổn định, thưởng +${cpBonus} Gạch!`, 'success');
       }
 
       // Check shift completion
@@ -989,25 +1261,25 @@
     }
 
     /* ====================================================================
-       9. SHIFT COMPLETION (NO MORE ALERT! ELEGANT MODAL)
+       9. SHIFT COMPLETION & INTERACTIVE CHEST LOOT
        ==================================================================== */
     function finishShift() {
       const s = state.currentShift;
       Sound.fanfare();
+      FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎉', '🎊', '✨', '🧱', '🎁'], 35);
 
       const finishBonus = (s.contract === 'redcode') ? 5.0 : 2.0;
       state.bricks += finishBonus;
       state.insight += 3;
 
-      // Populate Completion Modal
       document.getElementById('completionPatientQuote').textContent = s.clinicalCase.successQuote;
       document.getElementById('modalStatCards').textContent = `${s.completed} Thẻ`;
       document.getElementById('modalStatBricks').textContent = `+${(s.earnedBricks + finishBonus).toFixed(1)} 🧱`;
       document.getElementById('modalStatInsight').textContent = `+${s.earnedInsight + 3} 💡`;
       document.getElementById('modalReportLine1').textContent = `• Max Combo: ${s.maxCombo} 🔥 — Trạng thái ca: Xuất sắc`;
-      document.getElementById('modalReportLine2').textContent = `• Thành phố nhận thêm gạch xây dựng & kinh nghiệm nghiên cứu!`;
+      document.getElementById('modalReportLine2').textContent = `• Đã ổn định ca bệnh thành công, thành phố nhận thêm gạch & kinh nghiệm!`;
 
-      // Reset chest
+      // Reset chest box
       const chest = document.getElementById('chestBox');
       chest.classList.remove('opacity-60', 'pointer-events-none');
       document.getElementById('chestLabel').textContent = 'CHẠM VÀO ĐÂY ĐỂ MỞ RƯƠNG THƯỞNG!';
@@ -1030,6 +1302,7 @@
     function abandonShift() {
       if (confirm('Bạn có chắc muốn kết thúc ca trực hiện tại không? Số gạch đã nhận vẫn được bảo lưu.')) {
         state.currentShift = null;
+        showToast('Đã rút lui ca trực.', 'info');
         saveState();
       }
     }
@@ -1039,11 +1312,11 @@
       if (!b || state.built[id]) return;
 
       if (state.bricks < b.costBricks) {
-        alert(`Bạn còn thiếu ${(b.costBricks - state.bricks).toFixed(1)} Gạch!`);
+        showToast(`Bạn còn thiếu ${(b.costBricks - state.bricks).toFixed(1)} Gạch!`, 'error');
         return;
       }
       if (state.insight < b.costInsight) {
-        alert(`Bạn còn thiếu ${(b.costInsight - state.insight)} Insight!`);
+        showToast(`Bạn còn thiếu ${(b.costInsight - state.insight)} Insight!`, 'error');
         return;
       }
 
@@ -1053,12 +1326,31 @@
 
       Sound.checkpoint();
       FX.spawnFloat(`🏛️ XÂY THÀNH CÔNG: ${b.name}!`, 'text-emerald-400');
+      FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🏛️', '✨', '🧱'], 15);
+      showToast(`🏛️ Xây thành công: ${b.name} (${b.perk})`, 'success');
       saveState();
     }
 
     /* ====================================================================
-       10. UI RENDERER (CITY SCENE, VITAL SIGNS, PROGRESS)
+       10. UI RENDERER (DYNAMIC EKG, VITALS, CITY & RELICS)
        ==================================================================== */
+    function updateEKG(s) {
+      const path = document.getElementById('ekgPath');
+      if (!path || !s) return;
+
+      const duration = Math.max(1.0, 3.2 - (s.currentHR / 60));
+      path.style.animationDuration = `${duration}s`;
+
+      path.classList.remove('text-emerald-400', 'text-amber-400', 'text-rose-400');
+      if (s.currentHR > 115 || s.currentSpO2 < 90) {
+        path.classList.add('text-rose-400');
+      } else if (s.currentHR > 98 || s.currentSpO2 < 94) {
+        path.classList.add('text-amber-400');
+      } else {
+        path.classList.add('text-emerald-400');
+      }
+    }
+
     function renderUI() {
       // Wallet
       document.getElementById('walletBricks').textContent = state.bricks.toFixed(1);
@@ -1078,6 +1370,28 @@
       document.getElementById('hospitalLevelName').textContent = `Bệnh viện: ${lvlName}`;
       document.getElementById('hospitalLevelTier').textContent = lvlTier;
 
+      // Render Relics
+      const rContainer = document.getElementById('relicsContainer');
+      rContainer.innerHTML = '';
+      if (state.relics && state.relics.length > 0) {
+        state.relics.forEach(rid => {
+          const r = RELICS_DB.find(x => x.id === rid);
+          if (r) {
+            const badge = document.createElement('span');
+            badge.className = 'text-xs p-1 rounded bg-slate-800 border border-slate-700 cursor-help';
+            badge.textContent = r.icon;
+            badge.title = `${r.name}: ${r.desc}`;
+            rContainer.appendChild(badge);
+          }
+        });
+      } else {
+        rContainer.innerHTML = '<span class="text-slate-600 text-[10px] italic">Chưa có cổ vật</span>';
+      }
+
+      // Daily Quest
+      document.getElementById('dailyQuestStatus').textContent = state.daily.claimed ? '✓ XONG' : `(${state.daily.progress}/1)`;
+      document.getElementById('dailyQuestStatus').className = state.daily.claimed ? 'text-[9px] font-bold text-emerald-400' : 'text-[9px] font-bold text-amber-400';
+
       // Render Visual City Scene
       renderCityScene();
 
@@ -1093,10 +1407,14 @@
         activeView.classList.remove('hidden');
 
         const s = state.currentShift;
-        // Clinical Case info
         document.getElementById('patientAvatar').textContent = s.clinicalCase.avatar;
         document.getElementById('patientCaseTitle').textContent = s.clinicalCase.title;
-        document.getElementById('patientNarrativeStatus').textContent = s.clinicalCase.initialNarrative;
+
+        // Dynamic Narrative Status
+        let narrative = 'Monitor: Nhịp xoang đều, sinh hiệu ổn định!';
+        if (s.currentSpO2 < 90) narrative = '🚨 CẢNH BÁO: SpO2 tụt, cần xử trí thông khí ngay!';
+        else if (s.currentSpO2 < 94) narrative = '⚠️ Bệnh nhân đang khó thở nhẹ, tiếp tục theo dõi sát!';
+        document.getElementById('patientNarrativeStatus').textContent = narrative;
 
         // Vitals
         document.getElementById('vitalHR').textContent = `${s.currentHR} bpm`;
@@ -1136,6 +1454,9 @@
         document.getElementById('shiftEarnedBricks').textContent = `+${s.earnedBricks.toFixed(1)}`;
         document.getElementById('shiftEarnedInsight').textContent = `+${s.earnedInsight}`;
 
+        // Update EKG animation
+        updateEKG(s);
+
         // Active modifiers cards
         const modBox = document.getElementById('activeModifiersContainer');
         modBox.innerHTML = '';
@@ -1164,7 +1485,6 @@
       const row = document.getElementById('campusSkylineRow');
       row.innerHTML = '';
 
-      // Check if Ambulance station is built to show moving ambulance
       const hasAmbulance = !!state.built['build_3'];
       document.getElementById('sceneAmbulance').className = hasAmbulance ? 'absolute text-base animate-ambulance' : 'hidden';
 
@@ -1250,6 +1570,11 @@
       loadState();
       renderUI();
 
+      // AudioContext Unlock on First User Gesture
+      document.addEventListener('click', () => {
+        Sound.init();
+      }, { once: true });
+
       // Shift Length Buttons
       document.querySelectorAll('.shift-len-btn').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -1291,22 +1616,36 @@
           document.getElementById('btnRerollGacha').disabled = true;
           document.getElementById('btnRerollGacha').classList.add('opacity-50', 'cursor-not-allowed');
           Sound.checkpoint();
+          showToast('🔄 Đã reroll bùa vận mệnh mới!', 'info');
         }
       });
 
       // Abandon Shift
       document.getElementById('btnAbandonShift').addEventListener('click', abandonShift);
 
-      // Chest Click in Completion Modal
+      // Chest Click in Completion Modal (Can drop Bricks OR Rare Relics!)
       document.getElementById('chestBox').addEventListener('click', () => {
         Sound.loot();
-        const bonusLoot = Math.floor(Math.random() * 6) + 3;
-        state.bricks += bonusLoot;
+        const unownedRelics = RELICS_DB.filter(r => !state.relics.includes(r.id));
+        const chest = document.getElementById('chestBox');
+        chest.classList.add('opacity-60', 'pointer-events-none');
+
+        // 25% chance of relic drop if unowned relics exist
+        if (Math.random() < 0.35 && unownedRelics.length > 0) {
+          const relic = unownedRelics[Math.floor(Math.random() * unownedRelics.length)];
+          state.relics.push(relic.id);
+          document.getElementById('chestLabel').textContent = `🎉 CỔ VẬT RƠI RA: ${relic.name}!`;
+          showToast(`🏺 Đã nhận cổ vật: ${relic.name} (${relic.desc})`, 'success');
+          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🏺', '✨', '💛'], 20);
+        } else {
+          const bonusLoot = Math.floor(Math.random() * 6) + 3;
+          state.bricks += bonusLoot;
+          document.getElementById('chestLabel').textContent = `🎉 ĐÃ MỞ: BẠN NHẬN THÊM +${bonusLoot} GẠCH!`;
+          FX.spawnFloat(`+${bonusLoot} 🧱 Rương báu!`, 'text-amber-300');
+          FX.flyBrickToWallet();
+          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎁', '✨', '🧱'], 15);
+        }
         saveState();
-        document.getElementById('chestLabel').textContent = `🎉 ĐÃ MỞ: BẠN NHẬN THÊM +${bonusLoot} GẠCH!`;
-        document.getElementById('chestBox').classList.add('opacity-60', 'pointer-events-none');
-        FX.spawnFloat(`+${bonusLoot} 🧱 Rương báu!`, 'text-amber-300');
-        FX.flyBrickToWallet();
       });
 
       document.getElementById('btnCloseCompletionModal').addEventListener('click', () => {
@@ -1353,10 +1692,10 @@
             if (imported.bricks !== undefined) {
               state = imported;
               saveState();
-              alert('Khôi phục dữ liệu thành công!');
+              showToast('Khôi phục dữ liệu thành công!', 'success');
               modal.classList.add('hidden');
             }
-          } catch(err) { alert('File JSON không hợp lệ!'); }
+          } catch(err) { showToast('File JSON không hợp lệ!', 'error'); }
         };
         reader.readAsText(file);
       });
