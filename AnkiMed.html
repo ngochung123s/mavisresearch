@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AnkiMed — The ER Shift & Campus Citadel V2.2</title>
+  <title>AnkiMed — The ER Shift & Campus Citadel V2.3</title>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -128,6 +128,12 @@
       50% { transform: scale(1.1); }
     }
     .animate-chest { animation: chestBounce 1.2s infinite ease-in-out; }
+
+    /* Night Shift Theme Mode */
+    body.night-mode {
+      background-color: #020617;
+      filter: contrast(0.95) brightness(0.92);
+    }
   </style>
 </head>
 <body class="bg-slate-950 text-slate-100 font-sans min-h-screen flex flex-col selection:bg-emerald-500 selection:text-white pb-8 overflow-x-hidden">
@@ -147,7 +153,7 @@
       <div>
         <h1 class="text-xs sm:text-sm font-bold tracking-wide flex items-center gap-1.5 text-white">
           <span>ANKIMED</span>
-          <span class="text-[9px] uppercase font-mono px-1 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800/60 font-semibold">V2.2 Active</span>
+          <span class="text-[9px] uppercase font-mono px-1 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800/60 font-semibold">V2.3 Flawless</span>
         </h1>
         <p class="text-[10px] text-slate-400 font-mono flex items-center gap-1">
           <span id="ankiStatusDot" class="inline-block w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
@@ -193,6 +199,11 @@
           <div id="topDueCount" class="text-xs font-bold font-mono text-cyan-300">...</div>
         </div>
       </div>
+
+      <!-- Night Shift Mode Toggle -->
+      <button id="btnNightToggle" class="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs transition" title="Chế độ Trực Đêm / Dịu mắt">
+        🌙
+      </button>
 
       <!-- Sound & Settings -->
       <button id="btnSoundToggle" class="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs transition" title="Bật/Tắt âm thanh">
@@ -258,7 +269,19 @@
         </div>
       </div>
 
-      <!-- Relics Bar & Daily Quest Banner -->
+      <!-- Pending Chest Quick Banner (If user left shift without opening) -->
+      <div id="pendingChestBanner" class="hidden mt-2 p-2 rounded-xl bg-gradient-to-r from-amber-950/80 to-slate-900 border border-amber-500/70 text-amber-200 text-xs flex items-center justify-between cursor-pointer hover:border-amber-400 transition animate-subtle">
+        <div class="flex items-center gap-2">
+          <span class="text-xl animate-chest">🎁</span>
+          <div>
+            <div class="font-bold text-amber-300">BẠN CÓ 1 RƯƠNG THƯỞNG CHƯA MỞ!</div>
+            <div class="text-[10px] text-slate-300">Chạm vào đây để mở rương nhận gạch hoặc cổ vật hiếm</div>
+          </div>
+        </div>
+        <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-amber-600 text-slate-950">MỞ NGAY ➔</span>
+      </div>
+
+      <!-- Relics Bar & Daily/Weekly Quests -->
       <div class="mt-2.5 pt-2 border-t border-slate-800/80 flex flex-wrap items-center justify-between gap-2 text-[11px] font-mono">
         <div class="flex items-center gap-1.5">
           <span class="text-slate-400">🏺 Cổ vật:</span>
@@ -266,10 +289,19 @@
             <span class="text-slate-600 text-[10px] italic">Chưa có cổ vật</span>
           </div>
         </div>
-        <div id="dailyQuestBanner" class="flex items-center gap-1.5 px-2 py-0.5 rounded bg-slate-800/80 border border-slate-700 text-slate-300">
-          <span class="text-amber-400">🎯</span>
-          <span id="dailyQuestText">Nhiệm vụ ngày: Xử trí 20 thẻ hôm nay</span>
-          <span id="dailyQuestStatus" class="text-[9px] font-bold text-amber-400">(0/20)</span>
+        <div class="flex items-center gap-2">
+          <!-- Daily Quest -->
+          <div id="dailyQuestBanner" class="flex items-center gap-1.5 px-2 py-0.5 rounded bg-slate-800/80 border border-slate-700 text-slate-300">
+            <span class="text-amber-400">🎯</span>
+            <span id="dailyQuestText">Nhiệm vụ ngày (20 thẻ)</span>
+            <span id="dailyQuestStatus" class="text-[9px] font-bold text-amber-400">(0/20)</span>
+          </div>
+          <!-- Weekly Target -->
+          <div class="hidden md:flex items-center gap-1.5 px-2 py-0.5 rounded bg-slate-800/80 border border-slate-700 text-slate-300">
+            <span class="text-cyan-400">📅</span>
+            <span>Tuần (150 thẻ):</span>
+            <span id="weeklyQuestStatus" class="text-[9px] font-bold text-cyan-400">0/150</span>
+          </div>
         </div>
       </div>
     </section>
@@ -420,9 +452,14 @@
           <!-- Populated by JS -->
         </div>
 
-        <!-- Simulation Buttons (For test without Anki open) -->
+        <!-- Simulation Buttons (With Demo Mode Toggle) -->
         <div class="bg-slate-950/70 border border-slate-800/80 rounded-xl p-2 flex items-center justify-between text-xs">
-          <span class="text-slate-400 font-mono text-[10px]">Test ảo:</span>
+          <div class="flex items-center gap-1.5">
+            <span class="text-slate-400 font-mono text-[10px]">Test ảo:</span>
+            <button id="btnToggleDemo" class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700" title="Chế độ Thử nghiệm: Thẻ test không làm sai lệch số liệu Anki thật">
+              Chế độ: TEST
+            </button>
+          </div>
           <div class="flex space-x-1">
             <button class="sim-btn px-2 py-0.5 rounded bg-rose-950/80 text-rose-300 border border-rose-800 text-[11px]" data-ease="1">1: Again</button>
             <button class="sim-btn px-2 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700 text-[11px]" data-ease="2">2: Hard</button>
@@ -527,7 +564,7 @@
     </div>
   </div>
 
-  <!-- CUSTOM DIALOG MODAL (CONFIRM MODAL - NO NATIVE BROWSER CONFIRM) -->
+  <!-- CUSTOM DIALOG MODAL (CONFIRM MODAL - ZERO BROWSER CONFIRM) -->
   <div id="dialogModal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-sm w-full p-5 space-y-4 shadow-2xl text-center">
       <div class="text-2xl" id="dialogIcon">⚠️</div>
@@ -564,7 +601,7 @@
         </label>
       </div>
       <div class="pt-2 border-t border-slate-800 flex justify-between items-center text-[10px] text-slate-500 font-mono">
-        <span>AnkiMed V2.2 (Grand Master)</span>
+        <span>AnkiMed V2.3 (Flawless)</span>
         <button id="btnPromptReset" class="text-rose-400 hover:underline">Đặt lại từ đầu</button>
       </div>
     </div>
@@ -573,7 +610,7 @@
   <!-- JAVASCRIPT LOGIC ENGINE -->
   <script>
     /* ====================================================================
-       1. SYNTHESIZED SOUND ENGINE (WITH RESUME ON USER GESTURE)
+       1. SYNTHESIZED SOUND ENGINE (WITH VOLUME & STATE PERSISTENCE)
        ==================================================================== */
     const Sound = {
       enabled: true,
@@ -597,7 +634,9 @@
           const gain = this.ctx.createGain();
           osc.type = type;
           osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
-          gain.gain.setValueAtTime(gainVal, this.ctx.currentTime);
+          // Slightly lower volume in night mode
+          const finalGain = document.body.classList.contains('night-mode') ? gainVal * 0.6 : gainVal;
+          gain.gain.setValueAtTime(finalGain, this.ctx.currentTime);
           gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + duration);
           osc.connect(gain);
           gain.connect(this.ctx.destination);
@@ -809,7 +848,6 @@
       { id: 'r4', name: 'Khiên Trực Đêm Kiên Cường', icon: '🌙', desc: 'Giảm 30% tác động của bùa hại, nới lỏng thời gian' }
     ];
 
-    // ALL 10 BUILDINGS HAVE ACTIVE ENGINE PERKS!
     const BUILDINGS_DB = [
       { id: 'build_1', name: 'Cửa hàng Tiện lợi 24/7', icon: '🏪', costBricks: 30, costInsight: 0, perk: '+5% Gạch toàn bộ mọi thẻ', desc: 'Cung cấp cà phê và đồ ăn nhẹ cho bác sĩ trực đêm.' },
       { id: 'build_2', name: 'Vườn Thảo Dược Cây Xanh', icon: '🌿', costBricks: 60, costInsight: 5, perk: '50% cơ hội cứu giữ Combo khi Again', desc: 'Không gian thư giãn xua tan mệt mỏi.' },
@@ -824,9 +862,9 @@
     ];
 
     /* ====================================================================
-       5. STATE MANAGEMENT (V2.2 - ROBUST & PERSISTENT)
+       5. STATE MANAGEMENT (V2.3 - FULLY PERSISTED & FLAWLESS)
        ==================================================================== */
-    const STORAGE_KEY = 'ANKIMED_STATE_V2_2';
+    const STORAGE_KEY = 'ANKIMED_STATE_V2_3';
 
     let state = {
       bricks: 0.0,
@@ -835,7 +873,7 @@
       dueCardsBaseline: 11291,
       built: {},
       relics: [],
-      shields: 1, // On-call shields
+      shields: 1,
       streakDays: 1,
       lastActiveDate: new Date().toDateString(),
       daily: {
@@ -844,7 +882,16 @@
         progress: 0,
         claimed: false
       },
+      weekly: {
+        target: 150,
+        progress: 0,
+        claimed: false
+      },
       lastReviewId: 0,
+      pendingChest: false,
+      soundEnabled: true,
+      nightShift: false,
+      demoMode: true,
       currentShift: null,
       history: []
     };
@@ -854,6 +901,12 @@
         const raw = localStorage.getItem(STORAGE_KEY);
         if (raw) state = Object.assign(state, JSON.parse(raw));
       } catch(e) {}
+
+      // Apply saved Sound & Night Mode state
+      Sound.enabled = state.soundEnabled !== false;
+      document.getElementById('btnSoundToggle').textContent = Sound.enabled ? '🔊' : '🔇';
+      if (state.nightShift) document.body.classList.add('night-mode');
+
       checkDailyReset();
     }
 
@@ -862,15 +915,16 @@
       renderUI();
     }
 
+    // Immediately saves changes to streak and shields
     function checkDailyReset() {
       const today = new Date().toDateString();
+      let changed = false;
+
       if (!state.daily || state.daily.date !== today) {
-        // Calculate streak & on-call shield
         if (state.lastActiveDate) {
           const diffDays = Math.floor((new Date(today) - new Date(state.lastActiveDate)) / (1000 * 60 * 60 * 24));
           if (diffDays === 1) {
             state.streakDays = (state.streakDays || 1) + 1;
-            // Every 3 days grants an on-call shield!
             if (state.streakDays % 3 === 0) {
               state.shields = (state.shields || 0) + 1;
               showToast(`🛡️ Chuỗi ${state.streakDays} ngày! Nhận thêm 1 Khiên Trực Gác!`, 'success');
@@ -891,11 +945,16 @@
           progress: 0,
           claimed: false
         };
+        changed = true;
+      }
+
+      if (changed) {
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e) {}
       }
     }
 
     /* ====================================================================
-       6. ROBUST ANKICONNECT CLIENT (WITH REVIEW ID TRACKING)
+       6. ROBUST ANKICONNECT CLIENT (WITH GLOBAL REVIEW ID TRACKING)
        ==================================================================== */
     const Anki = {
       url: 'http://127.0.0.1:8765',
@@ -936,12 +995,13 @@
           const todayCount = await this.call('getNumCardsReviewedToday');
           document.getElementById('todayReviewedBadge').textContent = `Hôm nay: ${todayCount} thẻ`;
 
-          // Track individual reviews via Review IDs to avoid missed cards
+          // Track individual reviews via Review IDs across full rated:1 collection
           if (this.lastReviewedCount >= 0 && todayCount > this.lastReviewedCount) {
             try {
               const cards = await this.call('findCards', { query: 'rated:1' });
               if (cards && cards.length > 0) {
-                const revMap = await this.call('getReviewsOfCards', { cards: cards.slice(-15) });
+                // Query up to 100 cards for exact precision
+                const revMap = await this.call('getReviewsOfCards', { cards: cards.slice(-100) });
                 const newRevs = [];
                 for (const cid in revMap) {
                   const arr = revMap[cid];
@@ -957,25 +1017,25 @@
 
                 if (newRevs.length > 0) {
                   for (const r of newRevs) {
-                    handleCardReview(r.ease, 'Anki');
+                    handleCardReview(r.ease, 'AnkiConnect');
                   }
                   state.lastReviewId = newRevs[newRevs.length - 1].id;
                   saveState();
                 } else {
                   const delta = todayCount - this.lastReviewedCount;
-                  for (let i = 0; i < delta; i++) handleCardReview(3, 'Anki');
+                  for (let i = 0; i < delta; i++) handleCardReview(3, 'AnkiConnect');
                 }
               }
             } catch(e) {
               const delta = todayCount - this.lastReviewedCount;
-              for (let i = 0; i < delta; i++) handleCardReview(3, 'Anki');
+              for (let i = 0; i < delta; i++) handleCardReview(3, 'AnkiConnect');
             }
           } else if (this.lastReviewedCount === -1 && todayCount > 0) {
-            // First time initialization
+            // Full initialization of max lastReviewId on first load
             try {
               const cards = await this.call('findCards', { query: 'rated:1' });
               if (cards && cards.length > 0) {
-                const revMap = await this.call('getReviewsOfCards', { cards: cards.slice(-5) });
+                const revMap = await this.call('getReviewsOfCards', { cards: cards.slice(-100) });
                 let maxId = state.lastReviewId || 0;
                 for (const cid in revMap) {
                   const arr = revMap[cid];
@@ -1024,7 +1084,6 @@
         debuffs.push(shD[0], shD[1]);
       }
 
-      // If NICU built, guarantee an extra neonatal buff
       if (state.built['build_7'] && !buffs.some(b => b.id === 'b4')) {
         buffs.push(BUFFS_DB.find(b => b.id === 'b4'));
       }
@@ -1082,20 +1141,20 @@
 
         container.appendChild(card);
 
+        // Auto flip after longer delay (1800ms) to preserve suspense
         setTimeout(() => {
           if (!card.classList.contains('flipped')) {
             card.classList.add('flipped');
             Sound.loot();
           }
-        }, 800 + idx * 550);
+        }, 1800 + idx * 600);
       });
     }
 
     function openGachaModal() {
-      // Perks from CT scanner & Ambulance station: Extra rerolls!
       rerollsLeft = 1;
-      if (state.built['build_3']) rerollsLeft += 1; // +1 from Ambulance station
-      if (state.built['build_5']) rerollsLeft += 1; // +1 from CT scanner
+      if (state.built['build_3']) rerollsLeft += 1;
+      if (state.built['build_5']) rerollsLeft += 1;
       document.getElementById('rerollCountLabel').textContent = rerollsLeft;
 
       const btnR = document.getElementById('btnRerollGacha');
@@ -1138,26 +1197,44 @@
     /* ====================================================================
        8. CARD REVIEW PROCESSING & FULL JUICE MECHANICS
        ==================================================================== */
+    function updateBP(s) {
+      if (s.currentHR > 115 || s.currentSpO2 < 90) s.currentBP = '140/90';
+      else if (s.currentHR > 98) s.currentBP = '130/85';
+      else s.currentBP = '120/80';
+    }
+
     function handleCardReview(ease, source = 'Manual') {
-      state.totalCardsReviewed++;
+      const isTestMode = (source === 'Thử Nghiệm');
 
-      // Update Daily Quest Progress
-      if (state.daily && !state.daily.claimed) {
-        state.daily.progress++;
-        if (state.daily.progress >= state.daily.target) {
-          state.daily.claimed = true;
-          state.insight += 3;
-          showToast(`🎯 Hoàn thành nhiệm vụ ngày (${state.daily.target} thẻ)! Nhận +3 Insight`, 'success');
-          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎯', '✨', '💡'], 20);
+      // Update Daily Quest Progress (Real reviews or test mode if allowed)
+      if (!isTestMode || state.demoMode) {
+        state.totalCardsReviewed++;
+        if (state.daily && !state.daily.claimed) {
+          state.daily.progress++;
+          if (state.daily.progress >= state.daily.target) {
+            state.daily.claimed = true;
+            state.insight += 3;
+            showToast(`🎯 Hoàn thành nhiệm vụ ngày (${state.daily.target} thẻ)! Nhận +3 Insight`, 'success');
+            FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎯', '✨', '💡'], 20);
+          }
         }
-      }
+        if (state.weekly && !state.weekly.claimed) {
+          state.weekly.progress++;
+          if (state.weekly.progress >= state.weekly.target) {
+            state.weekly.claimed = true;
+            state.insight += 10;
+            state.shields += 1;
+            showToast('🏆 Hoàn thành mục tiêu tuần 150 thẻ! Nhận +10 Insight & +1 Khiên!', 'success');
+          }
+        }
 
-      // Check Milestones (100, 500, 1000, 2500, 5000)
-      const milestones = [100, 500, 1000, 2500, 5000, 10000];
-      if (milestones.includes(state.totalCardsReviewed)) {
-        showToast(`🏆 CỘT MỐC ĐẠT ĐƯỢC: ${state.totalCardsReviewed} THẺ ĐÃ GIẢI CỨU!`, 'success');
-        Sound.fanfare();
-        FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎆', '🎇', '✨', '🏆'], 40);
+        // Milestone burndown celebrations
+        const milestones = [100, 500, 1000, 2500, 5000, 10000];
+        if (milestones.includes(state.totalCardsReviewed)) {
+          showToast(`🏆 CỘT MỐC ĐẠT ĐƯỢC: ${state.totalCardsReviewed} THẺ ĐÃ GIẢI CỨU!`, 'success');
+          Sound.fanfare();
+          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎆', '🎇', '✨', '🏆'], 40);
+        }
       }
 
       // Baseline rewards if no active shift
@@ -1165,7 +1242,7 @@
         let b = (ease === 4) ? 1.25 : (ease === 3) ? 1.0 : (ease === 2) ? 0.75 : 0;
         let ins = (ease === 1) ? 1 : (ease === 2) ? 0.5 : 0;
 
-        // Building Perks
+        // Active Building Perks
         if (state.built['build_1'] && b > 0) b *= 1.05; // 24/7 Store: +5%
         if (state.built['build_10'] && b > 0) b *= 1.25; // Tuệ Tĩnh Monument: +25%
         if (state.built['build_4'] && ins > 0) ins *= 1.15; // Lab: +15% Insight
@@ -1204,7 +1281,7 @@
       const s = state.currentShift;
       s.completed++;
 
-      // Check debuff d1 (Giao ban: gap reset). Relic r4 relaxes timeout from 45s to 60s!
+      // Check debuff d1 (Giao ban: gap reset). Relic r4 relaxes timeout to 60s
       const gapThreshold = state.relics.includes('r4') ? 60000 : 45000;
       const now = Date.now();
       if (s.debuffs.some(d => d.id === 'd1') && s.lastReviewAt) {
@@ -1226,7 +1303,7 @@
         insightGain = 1;
         if (s.buffs.some(b => b.id === 'b5')) insightGain = 2;
 
-        // d3 Overload penalty. Relic r4 reduces penalty rate!
+        // d3 Overload penalty (Relic r4 reduces penalty)
         if (s.debuffs.some(d => d.id === 'd3')) {
           const penRate = state.relics.includes('r4') ? 0.035 : 0.05;
           s.overloadPenalty = Math.min(0.30, (s.overloadPenalty || 0) + penRate);
@@ -1253,10 +1330,11 @@
           FX.spawnFloat('Again: +1 💡', 'text-amber-400');
           s.currentHR = Math.min(130, s.currentHR + 4);
           s.currentSpO2 = Math.max(88, s.currentSpO2 - 1);
+          updateBP(s);
         }
 
       } else if (ease === 2) {
-        // Hard
+        // Hard: b2 buff (Hard acts as Good)
         brickGain = (s.buffs.some(b => b.id === 'b2')) ? 1.0 * contractMult : 0.75 * contractMult;
         insightGain = 0.5;
         s.combo++;
@@ -1275,9 +1353,10 @@
 
         s.currentSpO2 = Math.min(99, s.currentSpO2 + 1);
         s.currentHR = Math.max(74, s.currentHR - 2);
+        updateBP(s);
 
       } else if (ease === 4) {
-        // Easy
+        // Easy: d2 debuff (Easy gives 1.0)
         brickGain = (s.debuffs.some(d => d.id === 'd2')) ? 1.0 * contractMult : 1.25 * contractMult;
         s.combo++;
         Sound.easy();
@@ -1285,6 +1364,7 @@
         FX.flyBrickToWallet();
         FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['⚡', '💠', '🧱'], 12);
         s.currentSpO2 = Math.min(99, s.currentSpO2 + 1);
+        updateBP(s);
       }
 
       // b4 buff: Phản xạ lâm sàng (combo >= 8) OR Building 7 NICU
@@ -1301,12 +1381,19 @@
       if (state.built['build_4'] && insightGain > 0) insightGain *= 1.15; // Lab: +15%
       if (state.built['build_9'] && insightGain > 0) insightGain *= 1.50; // Institute: x1.5
 
-      // Debuffs
+      // Debuff d1 Bonus: +30% Gạch rewarded properly!
+      if (s.debuffs.some(d => d.id === 'd1') && brickGain > 0) {
+        brickGain *= 1.30;
+      }
+
+      // Debuff d4: Đêm trực mỏi mệt
       if (s.debuffs.some(d => d.id === 'd4')) {
         const drop = state.relics.includes('r4') ? 0.93 : 0.90;
         brickGain *= drop;
         insightGain *= 2;
       }
+
+      // Debuff d3 overload penalty
       if (s.debuffs.some(d => d.id === 'd3') && s.overloadPenalty > 0 && brickGain > 0) {
         brickGain *= (1 - s.overloadPenalty);
       }
@@ -1355,16 +1442,25 @@
       FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎉', '🎊', '✨', '🧱', '🎁'], 35);
 
       let finishBonus = (s.contract === 'redcode') ? 5.0 : 2.0;
-      // Helicopter pad perk: +2 Bricks bonus on shift finish!
-      if (state.built['build_8']) finishBonus += 2.0;
+      if (state.built['build_8']) finishBonus += 2.0; // Heli pad perk
+
+      let insightBonus = 3;
+      // Debuff d2 Reward: +3 Insight bonus properly added!
+      if (s.debuffs.some(d => d.id === 'd2')) {
+        insightBonus += 3;
+        showToast('📑 Hồ sơ bệnh án dày: Nhận thêm +3 Insight!', 'info');
+      }
 
       state.bricks += finishBonus;
-      state.insight += 3;
+      state.insight += insightBonus;
+
+      // Mark pending chest so loot is never lost
+      state.pendingChest = true;
 
       document.getElementById('completionPatientQuote').textContent = s.clinicalCase.successQuote;
       document.getElementById('modalStatCards').textContent = `${s.completed} Thẻ`;
       document.getElementById('modalStatBricks').textContent = `+${(s.earnedBricks + finishBonus).toFixed(1)} 🧱`;
-      document.getElementById('modalStatInsight').textContent = `+${s.earnedInsight + 3} 💡`;
+      document.getElementById('modalStatInsight').textContent = `+${s.earnedInsight + insightBonus} 💡`;
       document.getElementById('modalReportLine1').textContent = `• Max Combo: ${s.maxCombo} 🔥 — Trạng thái ca: Xuất sắc`;
       document.getElementById('modalReportLine2').textContent = `• Đã ổn định ca bệnh thành công, thành phố nhận thêm gạch & kinh nghiệm!`;
 
@@ -1380,11 +1476,39 @@
         target: s.target,
         contract: s.contract,
         bricks: s.earnedBricks + finishBonus,
-        insight: s.earnedInsight + 3
+        insight: s.earnedInsight + insightBonus
       });
       if (state.history.length > 20) state.history.pop();
 
       state.currentShift = null;
+      saveState();
+    }
+
+    function openChest() {
+      if (!state.pendingChest) return;
+      state.pendingChest = false;
+
+      Sound.loot();
+      const unownedRelics = RELICS_DB.filter(r => !state.relics.includes(r.id));
+      const chest = document.getElementById('chestBox');
+      chest.classList.add('opacity-60', 'pointer-events-none');
+
+      let extraLoot = state.built['build_6'] ? 3 : 0; // Tower perk
+
+      if (Math.random() < 0.35 && unownedRelics.length > 0) {
+        const relic = unownedRelics[Math.floor(Math.random() * unownedRelics.length)];
+        state.relics.push(relic.id);
+        document.getElementById('chestLabel').textContent = `🎉 CỔ VẬT RƠI RA: ${relic.name}!`;
+        showToast(`🏺 Đã nhận cổ vật: ${relic.name} (${relic.desc})`, 'success');
+        FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🏺', '✨', '💛'], 22);
+      } else {
+        const bonusLoot = Math.floor(Math.random() * 6) + 3 + extraLoot;
+        state.bricks += bonusLoot;
+        document.getElementById('chestLabel').textContent = `🎉 ĐÃ MỞ: BẠN NHẬN THÊM +${bonusLoot} GẠCH!`;
+        FX.spawnFloat(`+${bonusLoot} 🧱 Rương báu!`, 'text-amber-300');
+        FX.flyBrickToWallet();
+        FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎁', '✨', '🧱'], 16);
+      }
       saveState();
     }
 
@@ -1522,9 +1646,22 @@
         rContainer.innerHTML = '<span class="text-slate-600 text-[10px] italic">Chưa có cổ vật</span>';
       }
 
+      // Pending Chest Banner
+      const chestBanner = document.getElementById('pendingChestBanner');
+      if (state.pendingChest && !state.currentShift) {
+        chestBanner.classList.remove('hidden');
+      } else {
+        chestBanner.classList.add('hidden');
+      }
+
       // Daily Quest
       document.getElementById('dailyQuestStatus').textContent = state.daily.claimed ? '✓ XONG (+3 💡)' : `(${state.daily.progress}/${state.daily.target})`;
       document.getElementById('dailyQuestStatus').className = state.daily.claimed ? 'text-[9px] font-bold text-emerald-400' : 'text-[9px] font-bold text-amber-400';
+
+      // Weekly Quest
+      if (state.weekly) {
+        document.getElementById('weeklyQuestStatus').textContent = state.weekly.claimed ? '✓ XONG' : `${state.weekly.progress}/${state.weekly.target}`;
+      }
 
       // Render Visual City Scene
       renderCityScene();
@@ -1588,7 +1725,6 @@
         document.getElementById('shiftEarnedBricks').textContent = `+${s.earnedBricks.toFixed(1)}`;
         document.getElementById('shiftEarnedInsight').textContent = `+${s.earnedInsight}`;
 
-        // Update EKG animation
         updateEKG(s);
 
         // Active modifiers cards
@@ -1757,38 +1893,28 @@
         }
       });
 
-      // Abandon Shift
+      // Abandon Shift via Custom Modal
       document.getElementById('btnPromptAbandon').addEventListener('click', promptAbandonShift);
 
-      // Chest Click in Completion Modal (35% drop rare relics!)
-      document.getElementById('chestBox').addEventListener('click', () => {
-        Sound.loot();
-        const unownedRelics = RELICS_DB.filter(r => !state.relics.includes(r.id));
-        const chest = document.getElementById('chestBox');
-        chest.classList.add('opacity-60', 'pointer-events-none');
-
-        // Perk from Tower 10 Storey: bonus loot!
-        let extraLoot = state.built['build_6'] ? 3 : 0;
-
-        if (Math.random() < 0.35 && unownedRelics.length > 0) {
-          const relic = unownedRelics[Math.floor(Math.random() * unownedRelics.length)];
-          state.relics.push(relic.id);
-          document.getElementById('chestLabel').textContent = `🎉 CỔ VẬT RƠI RA: ${relic.name}!`;
-          showToast(`🏺 Đã nhận cổ vật: ${relic.name} (${relic.desc})`, 'success');
-          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🏺', '✨', '💛'], 22);
-        } else {
-          const bonusLoot = Math.floor(Math.random() * 6) + 3 + extraLoot;
-          state.bricks += bonusLoot;
-          document.getElementById('chestLabel').textContent = `🎉 ĐÃ MỞ: BẠN NHẬN THÊM +${bonusLoot} GẠCH!`;
-          FX.spawnFloat(`+${bonusLoot} 🧱 Rương báu!`, 'text-amber-300');
-          FX.flyBrickToWallet();
-          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎁', '✨', '🧱'], 16);
-        }
-        saveState();
+      // Chest Click in Completion Modal
+      document.getElementById('chestBox').addEventListener('click', openChest);
+      document.getElementById('pendingChestBanner').addEventListener('click', () => {
+        document.getElementById('completionModal').classList.remove('hidden');
       });
 
       document.getElementById('btnCloseCompletionModal').addEventListener('click', () => {
         document.getElementById('completionModal').classList.add('hidden');
+      });
+
+      // Demo Mode Toggle
+      document.getElementById('btnToggleDemo').addEventListener('click', () => {
+        state.demoMode = !state.demoMode;
+        document.getElementById('btnToggleDemo').textContent = state.demoMode ? 'Chế độ: TEST' : 'Chế độ: THẬT';
+        document.getElementById('btnToggleDemo').className = state.demoMode ?
+          'text-[9px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700' :
+          'text-[9px] font-mono px-1.5 py-0.5 rounded bg-emerald-950 text-emerald-300 border border-emerald-700 font-bold';
+        showToast(`Đã chuyển sang ${state.demoMode ? 'Chế độ Test (mô phỏng)' : 'Chế độ Học Thật'}`, 'info');
+        saveState();
       });
 
       // Simulation Buttons
@@ -1798,10 +1924,20 @@
         });
       });
 
-      // Sound Toggle
+      // Night Shift Mode Toggle
+      document.getElementById('btnNightToggle').addEventListener('click', () => {
+        state.nightShift = !state.nightShift;
+        document.body.classList.toggle('night-mode', state.nightShift);
+        showToast(state.nightShift ? '🌙 Đã bật chế độ Trực Đêm dịu mắt' : '☀️ Đã trở về giao diện Chuẩn', 'info');
+        saveState();
+      });
+
+      // Sound Toggle (With State Persistence)
       document.getElementById('btnSoundToggle').addEventListener('click', () => {
         Sound.enabled = !Sound.enabled;
+        state.soundEnabled = Sound.enabled;
         document.getElementById('btnSoundToggle').textContent = Sound.enabled ? '🔊' : '🔇';
+        saveState();
       });
 
       // Backup Modal
