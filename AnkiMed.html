@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AnkiMed — The ER Shift & Campus Citadel</title>
+  <title>AnkiMed — The ER Shift & Campus Citadel V2.2</title>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -52,7 +52,7 @@
       text-shadow: 0 2px 10px rgba(0,0,0,0.8);
     }
 
-    /* Screen Shake Animation (Subtle, not nauseating) */
+    /* Screen Shake Animation */
     @keyframes screenShake {
       0%, 100% { transform: translateX(0); }
       20% { transform: translateX(-4px); }
@@ -147,7 +147,7 @@
       <div>
         <h1 class="text-xs sm:text-sm font-bold tracking-wide flex items-center gap-1.5 text-white">
           <span>ANKIMED</span>
-          <span class="text-[9px] uppercase font-mono px-1 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800/60 font-semibold">V2.1 Juice</span>
+          <span class="text-[9px] uppercase font-mono px-1 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800/60 font-semibold">V2.2 Active</span>
         </h1>
         <p class="text-[10px] text-slate-400 font-mono flex items-center gap-1">
           <span id="ankiStatusDot" class="inline-block w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
@@ -173,6 +173,15 @@
         <div>
           <div class="text-[9px] text-slate-400 font-mono leading-none">INSIGHT</div>
           <div id="walletInsight" class="text-xs sm:text-sm font-bold font-mono text-amber-400">0</div>
+        </div>
+      </div>
+
+      <!-- On-Call Shields Counter -->
+      <div class="bg-slate-800/90 border border-indigo-800/60 rounded-lg px-2 py-1 flex items-center space-x-1" title="Khiên Trực Gác: Tự động bảo vệ chuỗi ngày học khi đi trực 24h">
+        <span class="text-sm">🛡️</span>
+        <div>
+          <div class="text-[9px] text-indigo-300 font-mono leading-none">KHIÊN</div>
+          <div id="walletShields" class="text-xs font-bold font-mono text-indigo-300">1</div>
         </div>
       </div>
 
@@ -259,8 +268,8 @@
         </div>
         <div id="dailyQuestBanner" class="flex items-center gap-1.5 px-2 py-0.5 rounded bg-slate-800/80 border border-slate-700 text-slate-300">
           <span class="text-amber-400">🎯</span>
-          <span id="dailyQuestText">Nhiệm vụ: Hoàn thành 1 ca trực 20 thẻ</span>
-          <span id="dailyQuestStatus" class="text-[9px] font-bold text-amber-400">(0/1)</span>
+          <span id="dailyQuestText">Nhiệm vụ ngày: Xử trí 20 thẻ hôm nay</span>
+          <span id="dailyQuestStatus" class="text-[9px] font-bold text-amber-400">(0/20)</span>
         </div>
       </div>
     </section>
@@ -361,7 +370,7 @@
             <svg class="w-24 h-6 text-emerald-400 transition-colors" viewBox="0 0 100 25" fill="none" stroke="currentColor" stroke-width="2">
               <path id="ekgPath" class="ekg-line text-emerald-400" d="M0,12 L20,12 L25,4 L30,22 L35,8 L40,15 L45,12 L100,12" />
             </svg>
-            <button id="btnAbandonShift" class="text-[10px] text-slate-500 hover:text-rose-400 font-mono transition ml-2">
+            <button id="btnPromptAbandon" class="text-[10px] text-slate-500 hover:text-rose-400 font-mono transition ml-2">
               Rút lui ✕
             </button>
           </div>
@@ -424,12 +433,15 @@
       </div>
     </section>
 
-    <!-- 3. BUILDINGS STORE (DANH SÁCH CÔNG TRÌNH QUY HOẠCH) -->
+    <!-- 3. BUILDINGS STORE (DANH SÁCH CÔNG TRÌNH QUY HOẠCH CÓ PERK HOẠT ĐỘNG THẬT) -->
     <section class="bg-slate-900 border border-slate-800 rounded-2xl p-3.5 sm:p-4 shadow-xl space-y-3">
       <div class="flex items-center justify-between border-b border-slate-800 pb-2">
-        <h2 class="text-xs sm:text-sm font-bold text-white flex items-center gap-1.5">
-          <span>🏗️ QUY HOẠCH CÔNG TRÌNH Y TẾ</span>
-        </h2>
+        <div>
+          <h2 class="text-xs sm:text-sm font-bold text-white flex items-center gap-1.5">
+            <span>🏗️ QUY HOẠCH CÔNG TRÌNH Y TẾ</span>
+          </h2>
+          <p class="text-[10px] text-slate-400">Mỗi công trình sở hữu nội tại (Perk) tác động trực tiếp vào ca trực</p>
+        </div>
         <div class="text-[11px] text-slate-400 font-mono">
           Đã xây: <span id="builtCountText" class="font-bold text-emerald-400">0 / 10</span>
         </div>
@@ -458,7 +470,7 @@
 
       <div class="flex items-center justify-between pt-2 border-t border-slate-800">
         <button id="btnRerollGacha" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-mono text-xs transition border border-slate-700 flex items-center gap-1">
-          <span>🔄 Reroll Đổi bùa (1 lần)</span>
+          <span>🔄 Reroll Đổi bùa (<span id="rerollCountLabel">1</span> lần)</span>
         </button>
         <button id="btnConfirmStartShift" class="px-5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-slate-950 font-bold text-xs tracking-wide transition shadow-lg shadow-emerald-500/30">
           VÀO CA TRỰC NGAY ➔
@@ -506,12 +518,29 @@
       <div class="bg-slate-950/60 p-2.5 rounded-xl text-[11px] text-slate-300 font-mono text-left border border-slate-800 space-y-1">
         <div class="text-slate-500 font-bold">📋 BÁO CÁO GIAO BAN:</div>
         <div id="modalReportLine1">• Max Combo: 18 🔥 — Trạng thái ca: Xuất sắc</div>
-        <div id="modalReportLine2">• Thành phố nhận thêm gạch xây dựng & kinh nghiệm nghiên cứu!</div>
+        <div id="modalReportLine2">• Đã ổn định ca bệnh thành công, thành phố nhận thêm gạch & kinh nghiệm!</div>
       </div>
 
       <button id="btnCloseCompletionModal" class="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-slate-950 font-bold text-xs tracking-wide transition shadow-lg shadow-emerald-500/30">
         VỀ KHUÔN VIÊN BỆNH VIỆN ➔
       </button>
+    </div>
+  </div>
+
+  <!-- CUSTOM DIALOG MODAL (CONFIRM MODAL - NO NATIVE BROWSER CONFIRM) -->
+  <div id="dialogModal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-sm w-full p-5 space-y-4 shadow-2xl text-center">
+      <div class="text-2xl" id="dialogIcon">⚠️</div>
+      <h3 class="text-sm font-bold text-white" id="dialogTitle">Xác nhận hành động</h3>
+      <p class="text-xs text-slate-300 leading-relaxed" id="dialogMessage">Nội dung xác nhận</p>
+      <div class="flex gap-2 pt-2 border-t border-slate-800">
+        <button id="dialogBtnCancel" class="flex-1 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-mono text-xs transition">
+          Hủy bỏ
+        </button>
+        <button id="dialogBtnConfirm" class="flex-1 py-2 rounded-xl bg-rose-600 hover:bg-rose-500 text-white font-bold font-mono text-xs transition">
+          Đồng ý
+        </button>
+      </div>
     </div>
   </div>
 
@@ -523,7 +552,7 @@
         <button id="btnCloseBackup" class="text-slate-400 hover:text-white">✕</button>
       </div>
       <p class="text-xs text-slate-300 leading-relaxed">
-        Dữ liệu Gạch, Insight, Cổ vật và Bệnh viện của bạn được lưu trữ an toàn trong máy này.
+        Dữ liệu Gạch, Insight, Cổ vật, Khiên trực và Bệnh viện của bạn được lưu trữ an toàn trong máy này.
       </p>
       <div class="flex gap-2">
         <button id="btnExportData" class="flex-1 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs transition">
@@ -535,8 +564,8 @@
         </label>
       </div>
       <div class="pt-2 border-t border-slate-800 flex justify-between items-center text-[10px] text-slate-500 font-mono">
-        <span>AnkiMed V2.1 (Full Juice)</span>
-        <button id="btnHardReset" class="text-rose-400 hover:underline">Đặt lại từ đầu</button>
+        <span>AnkiMed V2.2 (Grand Master)</span>
+        <button id="btnPromptReset" class="text-rose-400 hover:underline">Đặt lại từ đầu</button>
       </div>
     </div>
   </div>
@@ -777,26 +806,27 @@
       { id: 'r1', name: 'Ống nghe Littmann Master Vàng', icon: '🩺', desc: '+5% Gạch vĩnh viễn toàn viện' },
       { id: 'r2', name: 'Đèn soi đáy mắt Titan', icon: '🔦', desc: '+10% Insight vĩnh viễn' },
       { id: 'r3', name: 'Bệnh án Điện tử Thông minh', icon: '📱', desc: 'Checkpoint nhận thêm +1 Gạch' },
-      { id: 'r4', name: 'Khiên Trực Đêm Kiên Cường', icon: '🌙', desc: 'Giảm 10% tác động của bùa hại' }
+      { id: 'r4', name: 'Khiên Trực Đêm Kiên Cường', icon: '🌙', desc: 'Giảm 30% tác động của bùa hại, nới lỏng thời gian' }
     ];
 
+    // ALL 10 BUILDINGS HAVE ACTIVE ENGINE PERKS!
     const BUILDINGS_DB = [
-      { id: 'build_1', name: 'Cửa hàng Tiện lợi 24/7', icon: '🏪', costBricks: 30, costInsight: 0, perk: '+5% Gạch mỗi ca trực', desc: 'Cung cấp cà phê và đồ ăn nhẹ cho bác sĩ trực đêm.' },
-      { id: 'build_2', name: 'Vườn Thảo Dược Cây Xanh', icon: '🌿', costBricks: 60, costInsight: 5, perk: 'Giảm căng thẳng, bảo vệ combo', desc: 'Không gian thư giãn giữa những giờ căng thẳng.' },
-      { id: 'build_3', name: 'Trạm Cấp Cứu 115 Đô Thị', icon: '🚑', costBricks: 120, costInsight: 10, perk: 'Xe cấp cứu túc trực, tăng cơ hội bùa lợi', desc: 'Hệ thống tiếp nhận bệnh nhân ngoại viện thần tốc.' },
-      { id: 'build_4', name: 'Phòng Xét Nghiệm Hóa Sinh', icon: '🧪', costBricks: 220, costInsight: 20, perk: '+15% Insight từ thẻ khó', desc: 'Phân tích khí máu và điện giải trong 5 phút.' },
-      { id: 'build_5', name: 'Khoa CĐHA & CT 128 Lát', icon: '🩻', costBricks: 380, costInsight: 35, perk: 'Thêm 1 lượt đổi bùa may mắn', desc: 'Máy chụp CT 128 lát cắt tầm soát tổn thương.' },
-      { id: 'build_6', name: 'Tòa Tháp Nội Trú 10 Tầng', icon: '🏥', costBricks: 600, costInsight: 50, perk: 'Cửa sổ sáng đèn đêm, tăng quy mô', desc: 'Nơi điều trị cho hàng trăm bệnh nhân nội trú.' },
-      { id: 'build_7', name: 'Đơn Nguyên Sơ Sinh NICU', icon: '👶', costBricks: 900, costInsight: 70, perk: 'Bổ sung bùa lợi chuyên khoa Nhi', desc: 'Lồng ấp và máy thở cao tần cho trẻ non tháng.' },
-      { id: 'build_8', name: 'Sân Đỗ Trực Thăng Cấp Cứu', icon: '🚁', costBricks: 1400, costInsight: 100, perk: 'Trực thăng cất cánh, mở ca VIP', desc: 'Hạ cánh trực thăng trên nóc tòa nhà trung tâm.' },
-      { id: 'build_9', name: 'Viện Nghiên Cứu Lâm Sàng', icon: '🔬', costBricks: 2000, costInsight: 150, perk: 'X2 tốc độ tích lũy Insight', desc: 'Nơi xuất bản các công trình y văn quốc tế Q1/Q2.' },
-      { id: 'build_10', name: 'Tượng Đài Danh Y Tuệ Tĩnh', icon: '🏛️', costBricks: 3000, costInsight: 250, perk: 'Huy hoàng vĩnh cửu: +25% toàn viện', desc: 'Tôn vinh cội nguồn: Nam dược trị Nam nhân.' }
+      { id: 'build_1', name: 'Cửa hàng Tiện lợi 24/7', icon: '🏪', costBricks: 30, costInsight: 0, perk: '+5% Gạch toàn bộ mọi thẻ', desc: 'Cung cấp cà phê và đồ ăn nhẹ cho bác sĩ trực đêm.' },
+      { id: 'build_2', name: 'Vườn Thảo Dược Cây Xanh', icon: '🌿', costBricks: 60, costInsight: 5, perk: '50% cơ hội cứu giữ Combo khi Again', desc: 'Không gian thư giãn xua tan mệt mỏi.' },
+      { id: 'build_3', name: 'Trạm Cấp Cứu 115 Đô Thị', icon: '🚑', costBricks: 120, costInsight: 10, perk: 'Xe cấp cứu tuần tra & +1 lượt Reroll bùa', desc: 'Hệ thống tiếp nhận bệnh nhân ngoại viện thần tốc.' },
+      { id: 'build_4', name: 'Phòng Xét Nghiệm Hóa Sinh', icon: '🧪', costBricks: 220, costInsight: 20, perk: '+15% Insight từ thẻ khó/Again', desc: 'Phân tích khí máu và điện giải trong 5 phút.' },
+      { id: 'build_5', name: 'Khoa CĐHA & CT 128 Lát', icon: '🩻', costBricks: 380, costInsight: 35, perk: 'Thêm 1 lượt đổi bùa may mắn mỗi ca', desc: 'Máy chụp CT 128 lát cắt tầm soát tổn thương.' },
+      { id: 'build_6', name: 'Tòa Tháp Nội Trú 10 Tầng', icon: '🏥', costBricks: 600, costInsight: 50, perk: 'Rương cuối ca thưởng thêm +3 Gạch', desc: 'Cửa sổ sáng đèn đêm, tăng quy mô bệnh viện.' },
+      { id: 'build_7', name: 'Đơn Nguyên Sơ Sinh NICU', icon: '👶', costBricks: 900, costInsight: 70, perk: 'Tự động kích hoạt bùa Phản xạ lâm sàng', desc: 'Lồng ấp và máy thở cao tần cho trẻ non tháng.' },
+      { id: 'build_8', name: 'Sân Đỗ Trực Thăng Cấp Cứu', icon: '🚁', costBricks: 1400, costInsight: 100, perk: 'Trực thăng hạ cánh & Thưởng ca trực +2 Gạch', desc: 'Hạ cánh trực thăng trên nóc tòa nhà trung tâm.' },
+      { id: 'build_9', name: 'Viện Nghiên Cứu Lâm Sàng', icon: '🔬', costBricks: 2000, costInsight: 150, perk: 'X1.5 toàn bộ điểm Insight nghiên cứu', desc: 'Nơi xuất bản các công trình y văn quốc tế Q1/Q2.' },
+      { id: 'build_10', name: 'Tượng Đài Danh Y Tuệ Tĩnh', icon: '🏛️', costBricks: 3000, costInsight: 250, perk: 'Huy hoàng vĩnh cửu: +25% Gạch toàn viện', desc: 'Tôn vinh cội nguồn: Nam dược trị Nam nhân.' }
     ];
 
     /* ====================================================================
-       5. STATE MANAGEMENT
+       5. STATE MANAGEMENT (V2.2 - ROBUST & PERSISTENT)
        ==================================================================== */
-    const STORAGE_KEY = 'ANKIMED_STATE_V2_1';
+    const STORAGE_KEY = 'ANKIMED_STATE_V2_2';
 
     let state = {
       bricks: 0.0,
@@ -805,12 +835,16 @@
       dueCardsBaseline: 11291,
       built: {},
       relics: [],
+      shields: 1, // On-call shields
+      streakDays: 1,
+      lastActiveDate: new Date().toDateString(),
       daily: {
         date: new Date().toDateString(),
-        questId: 'shift20',
+        target: 20,
         progress: 0,
         claimed: false
       },
+      lastReviewId: 0,
       currentShift: null,
       history: []
     };
@@ -820,7 +854,7 @@
         const raw = localStorage.getItem(STORAGE_KEY);
         if (raw) state = Object.assign(state, JSON.parse(raw));
       } catch(e) {}
-      ensureDailyQuest();
+      checkDailyReset();
     }
 
     function saveState() {
@@ -828,12 +862,32 @@
       renderUI();
     }
 
-    function ensureDailyQuest() {
+    function checkDailyReset() {
       const today = new Date().toDateString();
       if (!state.daily || state.daily.date !== today) {
+        // Calculate streak & on-call shield
+        if (state.lastActiveDate) {
+          const diffDays = Math.floor((new Date(today) - new Date(state.lastActiveDate)) / (1000 * 60 * 60 * 24));
+          if (diffDays === 1) {
+            state.streakDays = (state.streakDays || 1) + 1;
+            // Every 3 days grants an on-call shield!
+            if (state.streakDays % 3 === 0) {
+              state.shields = (state.shields || 0) + 1;
+              showToast(`🛡️ Chuỗi ${state.streakDays} ngày! Nhận thêm 1 Khiên Trực Gác!`, 'success');
+            }
+          } else if (diffDays > 1) {
+            if (state.shields > 0) {
+              state.shields--;
+              showToast('🛡️ Khiên Trực Gác đã bảo vệ chuỗi ngày học của bạn!', 'info');
+            } else {
+              state.streakDays = 1;
+            }
+          }
+        }
+        state.lastActiveDate = today;
         state.daily = {
           date: today,
-          questId: 'shift20',
+          target: 20,
           progress: 0,
           claimed: false
         };
@@ -843,8 +897,6 @@
     /* ====================================================================
        6. ROBUST ANKICONNECT CLIENT (WITH REVIEW ID TRACKING)
        ==================================================================== */
-    let lastReviewId = 0;
-
     const Anki = {
       url: 'http://127.0.0.1:8765',
       connected: false,
@@ -889,13 +941,13 @@
             try {
               const cards = await this.call('findCards', { query: 'rated:1' });
               if (cards && cards.length > 0) {
-                const revMap = await this.call('getReviewsOfCards', { cards: cards.slice(-5) });
+                const revMap = await this.call('getReviewsOfCards', { cards: cards.slice(-15) });
                 const newRevs = [];
                 for (const cid in revMap) {
                   const arr = revMap[cid];
                   if (Array.isArray(arr)) {
                     for (const r of arr) {
-                      if (lastReviewId === 0 || r.id > lastReviewId) {
+                      if (state.lastReviewId === 0 || r.id > state.lastReviewId) {
                         newRevs.push(r);
                       }
                     }
@@ -907,9 +959,9 @@
                   for (const r of newRevs) {
                     handleCardReview(r.ease, 'Anki');
                   }
-                  lastReviewId = newRevs[newRevs.length - 1].id;
+                  state.lastReviewId = newRevs[newRevs.length - 1].id;
+                  saveState();
                 } else {
-                  // Fallback by delta
                   const delta = todayCount - this.lastReviewedCount;
                   for (let i = 0; i < delta; i++) handleCardReview(3, 'Anki');
                 }
@@ -919,18 +971,22 @@
               for (let i = 0; i < delta; i++) handleCardReview(3, 'Anki');
             }
           } else if (this.lastReviewedCount === -1 && todayCount > 0) {
-            // Initialize lastReviewId on first load
+            // First time initialization
             try {
               const cards = await this.call('findCards', { query: 'rated:1' });
               if (cards && cards.length > 0) {
-                const revMap = await this.call('getReviewsOfCards', { cards: cards.slice(-2) });
+                const revMap = await this.call('getReviewsOfCards', { cards: cards.slice(-5) });
+                let maxId = state.lastReviewId || 0;
                 for (const cid in revMap) {
                   const arr = revMap[cid];
-                  if (Array.isArray(arr) && arr.length > 0) {
-                    const r = arr[arr.length - 1];
-                    if (r.id > lastReviewId) lastReviewId = r.id;
+                  if (Array.isArray(arr)) {
+                    for (const r of arr) {
+                      if (r.id > maxId) maxId = r.id;
+                    }
                   }
                 }
+                state.lastReviewId = maxId;
+                saveState();
               }
             } catch(e) {}
           }
@@ -950,7 +1006,7 @@
     let selectedLen = 10;
     let selectedContract = 'quiet';
     let gachaDrawn = { buffs: [], debuffs: [] };
-    let hasRerolled = false;
+    let rerollsLeft = 1;
 
     function rollGacha() {
       let buffs = [];
@@ -968,6 +1024,11 @@
         debuffs.push(shD[0], shD[1]);
       }
 
+      // If NICU built, guarantee an extra neonatal buff
+      if (state.built['build_7'] && !buffs.some(b => b.id === 'b4')) {
+        buffs.push(BUFFS_DB.find(b => b.id === 'b4'));
+      }
+
       gachaDrawn = { buffs, debuffs };
       renderGachaModalCards();
     }
@@ -983,14 +1044,12 @@
 
         card.innerHTML = `
           <div class="gacha-inner">
-            <!-- BACK FACE: TAP TO FLIP -->
             <div class="gacha-face bg-gradient-to-br from-slate-800 to-slate-900 border-2 border-slate-700 flex flex-col items-center justify-center shadow-xl">
               <div class="text-3xl animate-pulse">🎴</div>
               <div class="text-[11px] text-emerald-400 font-mono font-bold mt-2">Chạm để lật lá bài #${idx+1}</div>
               <div class="text-[9px] text-slate-500 font-mono">Bùa Vận Mệnh</div>
             </div>
 
-            <!-- FRONT FACE: REVEALED MODIFIER -->
             <div class="gacha-face gacha-front p-3.5 flex flex-col justify-between text-left shadow-xl ${
               isBuff
                 ? 'bg-gradient-to-br from-emerald-950/90 to-slate-900 border-2 border-emerald-500/80'
@@ -1023,7 +1082,6 @@
 
         container.appendChild(card);
 
-        // Auto flip staggered if user doesn't click
         setTimeout(() => {
           if (!card.classList.contains('flipped')) {
             card.classList.add('flipped');
@@ -1034,9 +1092,16 @@
     }
 
     function openGachaModal() {
-      hasRerolled = false;
-      document.getElementById('btnRerollGacha').disabled = false;
-      document.getElementById('btnRerollGacha').classList.remove('opacity-50', 'cursor-not-allowed');
+      // Perks from CT scanner & Ambulance station: Extra rerolls!
+      rerollsLeft = 1;
+      if (state.built['build_3']) rerollsLeft += 1; // +1 from Ambulance station
+      if (state.built['build_5']) rerollsLeft += 1; // +1 from CT scanner
+      document.getElementById('rerollCountLabel').textContent = rerollsLeft;
+
+      const btnR = document.getElementById('btnRerollGacha');
+      btnR.disabled = false;
+      btnR.classList.remove('opacity-50', 'cursor-not-allowed');
+
       rollGacha();
       document.getElementById('gachaModal').classList.remove('hidden');
     }
@@ -1076,12 +1141,37 @@
     function handleCardReview(ease, source = 'Manual') {
       state.totalCardsReviewed++;
 
+      // Update Daily Quest Progress
+      if (state.daily && !state.daily.claimed) {
+        state.daily.progress++;
+        if (state.daily.progress >= state.daily.target) {
+          state.daily.claimed = true;
+          state.insight += 3;
+          showToast(`🎯 Hoàn thành nhiệm vụ ngày (${state.daily.target} thẻ)! Nhận +3 Insight`, 'success');
+          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎯', '✨', '💡'], 20);
+        }
+      }
+
+      // Check Milestones (100, 500, 1000, 2500, 5000)
+      const milestones = [100, 500, 1000, 2500, 5000, 10000];
+      if (milestones.includes(state.totalCardsReviewed)) {
+        showToast(`🏆 CỘT MỐC ĐẠT ĐƯỢC: ${state.totalCardsReviewed} THẺ ĐÃ GIẢI CỨU!`, 'success');
+        Sound.fanfare();
+        FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎆', '🎇', '✨', '🏆'], 40);
+      }
+
       // Baseline rewards if no active shift
       if (!state.currentShift) {
         let b = (ease === 4) ? 1.25 : (ease === 3) ? 1.0 : (ease === 2) ? 0.75 : 0;
         let ins = (ease === 1) ? 1 : (ease === 2) ? 0.5 : 0;
 
-        // Apply permanent relics
+        // Building Perks
+        if (state.built['build_1'] && b > 0) b *= 1.05; // 24/7 Store: +5%
+        if (state.built['build_10'] && b > 0) b *= 1.25; // Tuệ Tĩnh Monument: +25%
+        if (state.built['build_4'] && ins > 0) ins *= 1.15; // Lab: +15% Insight
+        if (state.built['build_9'] && ins > 0) ins *= 1.50; // Institute: x1.5 Insight
+
+        // Relics
         if (state.relics.includes('r1') && b > 0) b *= 1.05;
         if (state.relics.includes('r2') && ins > 0) ins *= 1.10;
 
@@ -1114,11 +1204,12 @@
       const s = state.currentShift;
       s.completed++;
 
-      // Check debuff d1 (Giao ban đột xuất: gap > 45s resets combo)
+      // Check debuff d1 (Giao ban: gap reset). Relic r4 relaxes timeout from 45s to 60s!
+      const gapThreshold = state.relics.includes('r4') ? 60000 : 45000;
       const now = Date.now();
       if (s.debuffs.some(d => d.id === 'd1') && s.lastReviewAt) {
         const gap = now - s.lastReviewAt;
-        if (gap > 45000 && s.combo > 0) {
+        if (gap > gapThreshold && s.combo > 0) {
           s.combo = 0;
           FX.spawnFloat('📋 Giao ban ngắt quãng: Reset Combo!', 'text-rose-400');
           FX.shake();
@@ -1131,36 +1222,41 @@
       let insightGain = 0;
 
       if (ease === 1) {
-        // Again: 0 Bricks, +1 Insight
+        // Again
         insightGain = 1;
-        // b5 buff: Sách Phác đồ Bỏ túi (+2 Insight)
         if (s.buffs.some(b => b.id === 'b5')) insightGain = 2;
 
-        // d3 debuff: Khoa phòng quá tải (+5% penalty, max 30%)
+        // d3 Overload penalty. Relic r4 reduces penalty rate!
         if (s.debuffs.some(d => d.id === 'd3')) {
-          s.overloadPenalty = Math.min(0.30, (s.overloadPenalty || 0) + 0.05);
+          const penRate = state.relics.includes('r4') ? 0.035 : 0.05;
+          s.overloadPenalty = Math.min(0.30, (s.overloadPenalty || 0) + penRate);
           showToast(`🚨 Khoa quá tải: Thưởng ca trực -${Math.round(s.overloadPenalty * 100)}%`, 'error');
         }
 
-        // b3 buff: Khiên Hippocrates protects combo
+        // b3 Shield OR Building 2 (Vườn thảo dược 50% combo save)
         const shieldIdx = s.buffs.findIndex(b => b.id === 'b3');
+        const herbalSave = state.built['build_2'] && Math.random() < 0.5;
+
         if (shieldIdx >= 0) {
           s.buffs.splice(shieldIdx, 1);
           Sound.hard();
           FX.spawnFloat('🛡️ Khiên bảo vệ Combo!', 'text-cyan-300');
           showToast('🛡️ Khiên Hippocrates đã ngăn đứt combo!', 'info');
+        } else if (herbalSave) {
+          Sound.hard();
+          FX.spawnFloat('🌿 Vườn thảo dược: Giữ vững Combo!', 'text-emerald-300');
+          showToast('🌿 Vườn thảo dược giúp bác sĩ giữ vững tinh thần!', 'info');
         } else {
           s.combo = 0;
           Sound.again();
           FX.shake();
           FX.spawnFloat('Again: +1 💡', 'text-amber-400');
-          // Perturb vitals
           s.currentHR = Math.min(130, s.currentHR + 4);
           s.currentSpO2 = Math.max(88, s.currentSpO2 - 1);
         }
 
       } else if (ease === 2) {
-        // Hard: b2 buff (Hard acts as Good)
+        // Hard
         brickGain = (s.buffs.some(b => b.id === 'b2')) ? 1.0 * contractMult : 0.75 * contractMult;
         insightGain = 0.5;
         s.combo++;
@@ -1177,12 +1273,11 @@
         FX.flyBrickToWallet();
         FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['✨', '💚', '🧱'], 8);
 
-        // Improve vitals
         s.currentSpO2 = Math.min(99, s.currentSpO2 + 1);
         s.currentHR = Math.max(74, s.currentHR - 2);
 
       } else if (ease === 4) {
-        // Easy: d2 debuff (Easy only gives 1.0)
+        // Easy
         brickGain = (s.debuffs.some(d => d.id === 'd2')) ? 1.0 * contractMult : 1.25 * contractMult;
         s.combo++;
         Sound.easy();
@@ -1192,25 +1287,26 @@
         s.currentSpO2 = Math.min(99, s.currentSpO2 + 1);
       }
 
-      // b4 buff: Phản xạ lâm sàng (If combo >= 8, +0.5 Bricks)
-      if (s.buffs.some(b => b.id === 'b4') && s.combo >= 8 && brickGain > 0) {
+      // b4 buff: Phản xạ lâm sàng (combo >= 8) OR Building 7 NICU
+      if ((s.buffs.some(b => b.id === 'b4') || state.built['build_7']) && s.combo >= 8 && brickGain > 0) {
         brickGain += 0.5;
         FX.spawnFloat('+0.5 ⚡ Phản xạ!', 'text-amber-300');
       }
 
-      // b1 buff: +25% Bricks
-      if (s.buffs.some(b => b.id === 'b1')) brickGain *= 1.25;
+      // Buffs & Active Buildings
+      if (s.buffs.some(b => b.id === 'b1')) brickGain *= 1.25; // Coffee
+      if (s.buffs.some(b => b.id === 'b8')) brickGain += 0.2;  // Gold Stethoscope
+      if (state.built['build_1']) brickGain *= 1.05;           // Store 24/7: +5%
+      if (state.built['build_10']) brickGain *= 1.25;          // Tuệ Tĩnh: +25%
+      if (state.built['build_4'] && insightGain > 0) insightGain *= 1.15; // Lab: +15%
+      if (state.built['build_9'] && insightGain > 0) insightGain *= 1.50; // Institute: x1.5
 
-      // b8 buff: +0.2 Bricks
-      if (s.buffs.some(b => b.id === 'b8')) brickGain += 0.2;
-
-      // d4 debuff: Đêm trực mỏi mệt (-10% Bricks, +100% Insight)
+      // Debuffs
       if (s.debuffs.some(d => d.id === 'd4')) {
-        brickGain *= 0.90;
+        const drop = state.relics.includes('r4') ? 0.93 : 0.90;
+        brickGain *= drop;
         insightGain *= 2;
       }
-
-      // d3 overload penalty reduction
       if (s.debuffs.some(d => d.id === 'd3') && s.overloadPenalty > 0 && brickGain > 0) {
         brickGain *= (1 - s.overloadPenalty);
       }
@@ -1228,16 +1324,6 @@
       state.insight += insightGain;
       if (s.combo > s.maxCombo) s.maxCombo = s.combo;
 
-      // Update Daily Quest Progress
-      if (state.daily && !state.daily.claimed) {
-        if (state.daily.questId === 'shift20' && s.completed >= 20) {
-          state.daily.progress = 1;
-          showToast('🎯 Hoàn thành nhiệm vụ ngày! Nhận +3 Insight', 'success');
-          state.insight += 3;
-          state.daily.claimed = true;
-        }
-      }
-
       // Checkpoint every 10 cards
       if (s.completed % 10 === 0 && s.completed < s.target) {
         let cpBonus = 2.0;
@@ -1249,7 +1335,7 @@
         Sound.checkpoint();
         FX.spawnFloat(`🎉 CHECKPOINT +${cpBonus} 🧱!`, 'text-amber-300');
         FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎉', '✨', '🧱'], 16);
-        showToast(`🎉 Checkpoint ${s.completed}/${s.target}: Bệnh nhân sinh hiệu ổn định, thưởng +${cpBonus} Gạch!`, 'success');
+        showToast(`🎉 Checkpoint ${s.completed}/${s.target}: Sinh hiệu ổn định, thưởng +${cpBonus} Gạch!`, 'success');
       }
 
       // Check shift completion
@@ -1268,7 +1354,10 @@
       Sound.fanfare();
       FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎉', '🎊', '✨', '🧱', '🎁'], 35);
 
-      const finishBonus = (s.contract === 'redcode') ? 5.0 : 2.0;
+      let finishBonus = (s.contract === 'redcode') ? 5.0 : 2.0;
+      // Helicopter pad perk: +2 Bricks bonus on shift finish!
+      if (state.built['build_8']) finishBonus += 2.0;
+
       state.bricks += finishBonus;
       state.insight += 3;
 
@@ -1299,12 +1388,56 @@
       saveState();
     }
 
-    function abandonShift() {
-      if (confirm('Bạn có chắc muốn kết thúc ca trực hiện tại không? Số gạch đã nhận vẫn được bảo lưu.')) {
-        state.currentShift = null;
-        showToast('Đã rút lui ca trực.', 'info');
-        saveState();
-      }
+    function promptAbandonShift() {
+      showCustomDialog({
+        icon: '🚪',
+        title: 'Rút lui khỏi ca trực?',
+        message: 'Bạn có chắc chắn muốn kết thúc ca trực sớm không? Toàn bộ số gạch và insight đã nhận vẫn được bảo lưu an toàn.',
+        confirmText: 'Rút lui',
+        onConfirm: () => {
+          state.currentShift = null;
+          showToast('Đã rút lui ca trực an toàn.', 'info');
+          saveState();
+        }
+      });
+    }
+
+    function promptResetAll() {
+      showCustomDialog({
+        icon: '⚠️',
+        title: 'Xóa sạch tiến trình?',
+        message: 'Hành động này sẽ đặt lại toàn bộ Gạch, Insight, Cổ vật và Bệnh viện về 0. Bạn có chắc chắn không?',
+        confirmText: 'Xóa hết',
+        onConfirm: () => {
+          localStorage.removeItem(STORAGE_KEY);
+          location.reload();
+        }
+      });
+    }
+
+    function showCustomDialog({ icon, title, message, confirmText, onConfirm }) {
+      document.getElementById('dialogIcon').textContent = icon;
+      document.getElementById('dialogTitle').textContent = title;
+      document.getElementById('dialogMessage').textContent = message;
+      document.getElementById('dialogBtnConfirm').textContent = confirmText;
+
+      const modal = document.getElementById('dialogModal');
+      modal.classList.remove('hidden');
+
+      const btnC = document.getElementById('dialogBtnCancel');
+      const btnO = document.getElementById('dialogBtnConfirm');
+
+      const cleanup = () => {
+        modal.classList.add('hidden');
+        btnC.onclick = null;
+        btnO.onclick = null;
+      };
+
+      btnC.onclick = cleanup;
+      btnO.onclick = () => {
+        cleanup();
+        onConfirm();
+      };
     }
 
     function buyBuilding(id) {
@@ -1326,7 +1459,7 @@
 
       Sound.checkpoint();
       FX.spawnFloat(`🏛️ XÂY THÀNH CÔNG: ${b.name}!`, 'text-emerald-400');
-      FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🏛️', '✨', '🧱'], 15);
+      FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🏛️', '✨', '🧱'], 18);
       showToast(`🏛️ Xây thành công: ${b.name} (${b.perk})`, 'success');
       saveState();
     }
@@ -1355,6 +1488,7 @@
       // Wallet
       document.getElementById('walletBricks').textContent = state.bricks.toFixed(1);
       document.getElementById('walletInsight').textContent = state.insight;
+      document.getElementById('walletShields').textContent = state.shields || 0;
 
       // Hospital Level
       const builtCount = Object.keys(state.built).length;
@@ -1389,7 +1523,7 @@
       }
 
       // Daily Quest
-      document.getElementById('dailyQuestStatus').textContent = state.daily.claimed ? '✓ XONG' : `(${state.daily.progress}/1)`;
+      document.getElementById('dailyQuestStatus').textContent = state.daily.claimed ? '✓ XONG (+3 💡)' : `(${state.daily.progress}/${state.daily.target})`;
       document.getElementById('dailyQuestStatus').className = state.daily.claimed ? 'text-[9px] font-bold text-emerald-400' : 'text-[9px] font-bold text-amber-400';
 
       // Render Visual City Scene
@@ -1610,40 +1744,45 @@
 
       // Reroll Gacha
       document.getElementById('btnRerollGacha').addEventListener('click', () => {
-        if (!hasRerolled) {
-          hasRerolled = true;
+        if (rerollsLeft > 0) {
+          rerollsLeft--;
+          document.getElementById('rerollCountLabel').textContent = rerollsLeft;
           rollGacha();
-          document.getElementById('btnRerollGacha').disabled = true;
-          document.getElementById('btnRerollGacha').classList.add('opacity-50', 'cursor-not-allowed');
           Sound.checkpoint();
-          showToast('🔄 Đã reroll bùa vận mệnh mới!', 'info');
+          showToast(`🔄 Đã đổi bùa mới! Còn lại ${rerollsLeft} lần reroll`, 'info');
+          if (rerollsLeft === 0) {
+            document.getElementById('btnRerollGacha').disabled = true;
+            document.getElementById('btnRerollGacha').classList.add('opacity-50', 'cursor-not-allowed');
+          }
         }
       });
 
       // Abandon Shift
-      document.getElementById('btnAbandonShift').addEventListener('click', abandonShift);
+      document.getElementById('btnPromptAbandon').addEventListener('click', promptAbandonShift);
 
-      // Chest Click in Completion Modal (Can drop Bricks OR Rare Relics!)
+      // Chest Click in Completion Modal (35% drop rare relics!)
       document.getElementById('chestBox').addEventListener('click', () => {
         Sound.loot();
         const unownedRelics = RELICS_DB.filter(r => !state.relics.includes(r.id));
         const chest = document.getElementById('chestBox');
         chest.classList.add('opacity-60', 'pointer-events-none');
 
-        // 25% chance of relic drop if unowned relics exist
+        // Perk from Tower 10 Storey: bonus loot!
+        let extraLoot = state.built['build_6'] ? 3 : 0;
+
         if (Math.random() < 0.35 && unownedRelics.length > 0) {
           const relic = unownedRelics[Math.floor(Math.random() * unownedRelics.length)];
           state.relics.push(relic.id);
           document.getElementById('chestLabel').textContent = `🎉 CỔ VẬT RƠI RA: ${relic.name}!`;
           showToast(`🏺 Đã nhận cổ vật: ${relic.name} (${relic.desc})`, 'success');
-          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🏺', '✨', '💛'], 20);
+          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🏺', '✨', '💛'], 22);
         } else {
-          const bonusLoot = Math.floor(Math.random() * 6) + 3;
+          const bonusLoot = Math.floor(Math.random() * 6) + 3 + extraLoot;
           state.bricks += bonusLoot;
           document.getElementById('chestLabel').textContent = `🎉 ĐÃ MỞ: BẠN NHẬN THÊM +${bonusLoot} GẠCH!`;
           FX.spawnFloat(`+${bonusLoot} 🧱 Rương báu!`, 'text-amber-300');
           FX.flyBrickToWallet();
-          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎁', '✨', '🧱'], 15);
+          FX.burst(window.innerWidth / 2, window.innerHeight / 2, ['🎁', '✨', '🧱'], 16);
         }
         saveState();
       });
@@ -1669,6 +1808,9 @@
       const modal = document.getElementById('backupModal');
       document.getElementById('btnBackup').addEventListener('click', () => modal.classList.remove('hidden'));
       document.getElementById('btnCloseBackup').addEventListener('click', () => modal.classList.add('hidden'));
+
+      // Prompt Reset
+      document.getElementById('btnPromptReset').addEventListener('click', promptResetAll);
 
       // Export JSON
       document.getElementById('btnExportData').addEventListener('click', () => {
@@ -1698,14 +1840,6 @@
           } catch(err) { showToast('File JSON không hợp lệ!', 'error'); }
         };
         reader.readAsText(file);
-      });
-
-      // Reset
-      document.getElementById('btnHardReset').addEventListener('click', () => {
-        if (confirm('BẠN CÓ CHẮC CHẮN MUỐN XÓA TOÀN BỘ TIẾN TRÌNH?')) {
-          localStorage.removeItem(STORAGE_KEY);
-          location.reload();
-        }
       });
 
       // Polling AnkiConnect
