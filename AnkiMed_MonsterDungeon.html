@@ -193,6 +193,21 @@ Bản vá toàn diện theo đánh giá của Qwen:
         </div>
       </div>
 
+      <!-- Torment Hardcore Tier Badge -->
+      <div class="bg-red-950/80 border border-red-700/80 rounded-lg px-2 py-1 flex items-center space-x-1" title="Cấp độ Hắc Ám (Torment): Độ khó tăng tiến không bị reset về mức dễ!">
+        <span class="text-sm">🔥</span>
+        <div class="font-mono text-left leading-tight">
+          <div class="text-[8px] text-red-400">HẮC ÁM</div>
+          <div id="topTormentBadge" class="text-xs font-bold text-red-200">T-1</div>
+        </div>
+      </div>
+
+      <!-- Auto-Pilot Toggle Button (Zero Touch Hands-Free) -->
+      <button id="btnAutoPilotToggle" class="px-2 py-1 rounded-lg bg-gothic-850 border border-emerald-600/80 hover:bg-emerald-950 text-emerald-300 font-mono text-[10px] font-bold transition flex items-center gap-1" title="Bật/Tắt chế độ Rảnh Tay 100%: Tự động chọn relic, tự động qua phòng, tự động hồi máu/rèn đao khi đang tập trung học Anki mà không cần bấm chuột!">
+        <span id="autoPilotDot" class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span id="autoPilotText">RẢNH TAY: BẬT</span>
+      </button>
+
       <!-- Sound Toggle -->
       <button id="btnSoundToggle" class="p-1.5 rounded-lg bg-gothic-850 border border-slate-800 hover:bg-gothic-800 text-slate-300 text-xs transition" title="Bật/Tắt âm thanh">
         🔊
@@ -726,7 +741,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
     /* ====================================================================
        5. GAME STATE & PERMANENT METAPROGRESSION
        ==================================================================== */
-    const STORAGE_KEY = 'ANKIMED_DUNGEON_V1_2';
+    const STORAGE_KEY = 'ANKIMED_DUNGEON_V2_0';
 
     const DEFAULT_STATE = {
       meta: {
@@ -734,6 +749,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
         totalKills: 0,
         totalRuns: 0,
         highestFloor: 1,
+        highestTorment: 1, // Permanent highest unlocked Torment level
         upgrades: {
           hpBoost: 0,
           atkBoost: 0,
@@ -744,7 +760,9 @@ Bản vá toàn diện theo đánh giá của Qwen:
       run: {
         active: false,
         victory: false,
-        phase: 'combat', // 'combat' | 'loot' | 'special' | 'victory' | 'dead'
+        autoPilot: true, // Hands-Free Zero Touch by default!
+        tormentLevel: 1,
+        phase: 'combat', // 'combat' | 'loot' | 'special' | 'victory' | 'dead' | 'idle'
         pendingNewFloor: false,
         floor: 1,
         roomIndex: 1,
@@ -866,13 +884,18 @@ Bản vá toàn diện theo đánh giá của Qwen:
     /* ====================================================================
        7. DUNGEON RUN LIFECYCLE (MAP, ROOM SPAWN, SPECIAL ROOMS)
        ==================================================================== */
-    function startNewRun() {
+    function startNewRun(preserveTorment = true) {
       const u = state.meta.upgrades;
       const startAtk = 10 + (u.atkBoost * 2);
+      const chosenTorment = preserveTorment ? Math.max(state.meta.highestTorment || 1, state.run.tormentLevel || 1) : 1;
+      const currentAutoPilot = (state.run.autoPilot !== undefined) ? state.run.autoPilot : true;
 
-      state.run = {
+      state.run = Object.assign({}, DEFAULT_STATE.run, {
         active: true,
         victory: false,
+        autoPilot: currentAutoPilot,
+        tormentLevel: chosenTorment,
+        phase: 'combat',
         floor: 1,
         roomIndex: 1,
         totalRooms: 5,
@@ -889,20 +912,20 @@ Bản vá toàn diện theo đánh giá của Qwen:
         relics: [],
         inventory: [],
         tempAtkBuff: 0,
+        tempAtkBuffTurns: 0,
         tempDmgReduceTurns: 0
-      };
+      });
 
       recalcMaxHp();
       state.run.hp = state.run.maxHp;
 
-      // Starting starter items
       state.run.inventory.push(CONSUMABLES_DB[0]); // Potion 1
       if (u.freePotion > 0) state.run.inventory.push(CONSUMABLES_DB[1]); // Potion 2
 
       state.meta.totalRuns++;
       spawnRoom();
       saveState();
-      showToast('⚔️ BƯỚC VÀO HẦM NGỤC: Tầng 1!', 'info');
+      showToast(`⚔️ BƯỚC VÀO HẦM NGỤC: Tầng 1 (Hắc Ám Cấp ${chosenTorment})!`, 'info');
     }
 
     function spawnRoom() {
@@ -958,10 +981,17 @@ Bản vá toàn diện theo đánh giá của Qwen:
         monsterTemplate = regulars[Math.floor(Math.random() * regulars.length)] || MONSTER_CATALOG[0];
       }
 
+      // Apply Torment Hardcore scaling! (+35% HP, +25% ATK per level)
+      const t = state.run.tormentLevel || 1;
+      const hpMult = 1 + (t - 1) * 0.35;
+      const atkMult = 1 + (t - 1) * 0.25;
+      const scaledHp = Math.round(monsterTemplate.hp * hpMult);
+      const scaledAtk = Math.round(monsterTemplate.atk * atkMult);
+
       state.battle = {
-        monster: monsterTemplate,
-        currentHp: monsterTemplate.hp,
-        maxHp: monsterTemplate.hp,
+        monster: Object.assign({}, monsterTemplate, { hp: scaledHp, atk: scaledAtk }),
+        currentHp: scaledHp,
+        maxHp: scaledHp,
         isElite: (monsterTemplate.tier === 'elite'),
         isBoss: (monsterTemplate.tier === 'boss'),
         isStunned: false,
@@ -973,17 +1003,17 @@ Bản vá toàn diện theo đánh giá của Qwen:
       state.run.shields = 0;
       if (relicFlag('blockFirstHit')) state.run.shields += 1;
 
-      // Apply buffered pre-emptive strike if any
+      // Apply buffered pre-emptive strike if any (capped at 30 DMG)
       if (state.run.reviewBuffer > 0) {
-        const bonusDmg = state.run.reviewBuffer * 8;
+        const bonusDmg = Math.min(30, state.run.reviewBuffer * 6);
         state.battle.currentHp = Math.max(1, state.battle.currentHp - bonusDmg);
-        logBattle(`⚡ Đòn phủ đầu (tích lũy từ ${state.run.reviewBuffer} thẻ ôn trước): Gây ${bonusDmg} DMG!`);
+        logBattle(`⚡ Đòn phủ đầu (từ ${state.run.reviewBuffer} thẻ ôn trước): Gây ${bonusDmg} DMG!`);
         showToast(`⚡ Đòn phủ đầu: Gây ${bonusDmg} DMG từ ${state.run.reviewBuffer} thẻ ôn tập!`, 'success');
         state.run.reviewBuffer = 0;
       }
 
       renderUI();
-      logBattle(`🚪 Bước vào Phòng #${rIdx}: Đối mặt với [${monsterTemplate.name}] (${monsterTemplate.trait})!`);
+      logBattle(`🚪 Phòng #${rIdx} [Hắc Ám ${t}]: Đối mặt với [${state.battle.monster.name}] (${state.battle.monster.trait})!`);
     }
 
     /* ====================================================================
@@ -1272,7 +1302,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
 
       // Relic heal after room
       if (relicSum('healAfterRoom') > 0) healPlayer(relicSum('healAfterRoom'));
-      if (relicSum('insightAfterRoom') > 0) state.meta.insight += relicSum('insightAfterRoom');
+      if (relicSum('insightAfterRoom') > 0) addInsight(relicSum('insightAfterRoom'));
 
       // P0 FIX: CHECK FINAL DUNGEON VICTORY
       if (b.isBoss) {
@@ -1284,10 +1314,29 @@ Bản vá toàn diện theo đánh giá của Qwen:
           // Beat final boss on Floor 3!
           state.run.victory = true;
           state.run.phase = 'victory';
-          state.meta.insight += 25;
-          document.getElementById('vicGoldText').textContent = `${state.run.gold} 🪙`;
-          document.getElementById('vicRelicText').textContent = `${state.run.relics.length} món`;
+          const earnedInsight = addInsight(25);
+
+          state.run.victoryStats = {
+            gold: state.run.gold,
+            relics: state.run.relics.length,
+            insight: earnedInsight,
+            kills: state.meta.totalKills,
+            torment: state.run.tormentLevel || 1
+          };
+
+          renderVictoryStats(state.run.victoryStats);
           document.getElementById('dungeonVictoryModal').classList.remove('hidden');
+
+          // Hands-Free Auto-Pilot: Advance to next Torment level after 2.5s without stopping!
+          if (state.run.autoPilot) {
+            setTimeout(() => {
+              document.getElementById('dungeonVictoryModal').classList.add('hidden');
+              const nextT = (state.run.tormentLevel || 1) + 1;
+              state.meta.highestTorment = Math.max(state.meta.highestTorment || 1, nextT);
+              showToast(`🔥 TIẾN LÊN HẮC ÁM CẤP ${nextT}! Quái vật tăng thêm +35% Máu & +25% Sát thương!`, 'success');
+              startNewRun(true);
+            }, 2500);
+          }
           saveState();
           return;
         }
@@ -1296,6 +1345,12 @@ Bản vá toàn diện theo đánh giá của Qwen:
       state.run.phase = 'loot';
       openLootRoom();
       saveState();
+    }
+
+    function renderVictoryStats(stats) {
+      if (!stats) return;
+      document.getElementById('vicGoldText').textContent = `${stats.gold} 🪙`;
+      document.getElementById('vicRelicText').textContent = `${stats.relics} món`;
     }
 
     function handlePlayerDeath() {
@@ -1315,12 +1370,21 @@ Bản vá toàn diện theo đánh giá của Qwen:
 
       // P0 FIX: ELEGANT GOTHIC PERMADEATH MODAL
       state.run.phase = 'dead';
-      document.getElementById('deathFloorText').textContent = `Tầng ${state.run.floor} - Phòng ${state.run.roomIndex}`;
+      document.getElementById('deathFloorText').textContent = `Tầng ${state.run.floor} - Phòng ${state.run.roomIndex} (Hắc Ám Cấp ${state.run.tormentLevel || 1})`;
       document.getElementById('deathInsightText').textContent = `${state.meta.insight} 💡`;
       document.getElementById('gameOverModal').classList.remove('hidden');
 
       state.run.active = false;
       saveState();
+
+      // Hands-Free Auto-Pilot: Restart directly at current Torment level after 2.5s!
+      if (state.run.autoPilot) {
+        setTimeout(() => {
+          document.getElementById('gameOverModal').classList.add('hidden');
+          showToast(`⚔️ Tự động tái xuất tại Hắc Ám Cấp ${state.run.tormentLevel || 1}!`, 'info');
+          startNewRun(true);
+        }, 2500);
+      }
     }
 
     /* ====================================================================
@@ -1516,6 +1580,35 @@ Bản vá toàn diện theo đánh giá của Qwen:
       }
 
       modal.classList.remove('hidden');
+
+      // Hands-Free Auto-Pilot Progression (Zero Touch)
+      if (state.run.autoPilot) {
+        setTimeout(() => {
+          if (state.run.phase !== 'special') return;
+          if (sp.type === 'rest') {
+            if (state.run.hp < state.run.maxHp * 0.7 && !relicFlag('restNoHeal')) {
+              healPlayer(Math.round(state.run.maxHp * 0.35));
+              showToast('🤖 Rảnh tay: Tự động hồi 35% HP tại Suối Thánh!', 'success');
+            } else {
+              state.run.bonusAtk = (state.run.bonusAtk || 0) + 3;
+              showToast('🤖 Rảnh tay: Tự động mài sắc dao mổ (+3 ATK)!', 'success');
+            }
+          } else if (sp.type === 'shop') {
+            const pCost = Math.round(25 * discountMult);
+            if (state.run.gold >= pCost && state.run.inventory.length < (3 + relicSum('extraItemSlot'))) {
+              state.run.gold -= pCost;
+              state.run.inventory.push(CONSUMABLES_DB[1]);
+              showToast('🤖 Rảnh tay: Tự động mua Bình Máu Lớn!', 'success');
+            } else {
+              showToast('🤖 Rảnh tay: Tự động rời Chợ Đen!', 'info');
+            }
+          } else {
+            showToast('🤖 Rảnh tay: An toàn lướt qua Tế Đàn Lời Nguyền!', 'info');
+          }
+          modal.classList.add('hidden');
+          advanceRoomIndex();
+        }, 1200);
+      }
     }
 
     function advanceRoomIndex() {
@@ -1530,6 +1623,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
        ==================================================================== */
     function openLootRoom() {
       state.run.phase = 'loot';
+      const container = document.getElementById('lootChoicesContainer');
 
       if (!state.run.pendingLootChoices) {
         const unownedRelics = RELICS_MASTER_DB.filter(r => !state.run.relics.includes(r.id) && r.rarity !== 'cursed');
@@ -1554,6 +1648,20 @@ Bản vá toàn diện theo đánh giá của Qwen:
 
       renderLootChoices(state.run.pendingLootChoices);
       document.getElementById('lootModal').classList.remove('hidden');
+
+      // Hands-Free Auto-Pilot Progression (Zero Touch)
+      if (state.run.autoPilot) {
+        setTimeout(() => {
+          if (state.run.phase !== 'loot') return;
+          const firstChoice = container.querySelector('div');
+          if (firstChoice) {
+            showToast('🤖 Rảnh tay: Tự động trang bị phần thưởng tốt nhất!', 'success');
+            firstChoice.click();
+          } else {
+            closeLootAndAdvance();
+          }
+        }, 1200);
+      }
     }
 
     function renderLootChoices(choices) {
@@ -1989,12 +2097,15 @@ Bản vá toàn diện theo đánh giá của Qwen:
       document.getElementById('runGold').textContent = state.run.gold;
       document.getElementById('metaInsight').textContent = state.meta.insight;
       document.getElementById('topFloorBadge').textContent = `${state.run.floor} / 3`;
+      document.getElementById('topTormentBadge').textContent = 'T-' + (state.run.tormentLevel || 1);
+      document.getElementById('autoPilotText').textContent = state.run.autoPilot ? 'RẢNH TAY: BẬT' : 'RẢNH TAY: TẮT';
+      document.getElementById('autoPilotDot').className = state.run.autoPilot ? 'inline-block w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse' : 'inline-block w-1.5 h-1.5 rounded-full bg-slate-500';
 
       // Map Info
       document.getElementById('currentFloorName').textContent = `Tầng ${state.run.floor}: ${
         state.run.floor === 1 ? 'Khu Hầm Ngầm Nhiễm Khuẩn' :
         state.run.floor === 2 ? 'Vực Sâu Chuyển Hóa & Nội Tiết' : 'Điện Thờ Hồi Sức Nguy Kịch (ICU)'
-      }`;
+      } [Hắc Ám Cấp ${state.run.tormentLevel || 1}]`;
       document.getElementById('currentRoomIndexText').textContent = `${state.run.roomIndex} / ${state.run.totalRooms}`;
 
       // Render Map Nodes
@@ -2046,10 +2157,11 @@ Bản vá toàn diện theo đánh giá của Qwen:
       if (state.run.poisonTurns > 0) poisonBadge.classList.remove('hidden');
       else poisonBadge.classList.add('hidden');
 
-      // Render Item Belt
+      // Render Item Belt (Dynamic Max Slots)
+      const maxSlots = 3 + relicSum('extraItemSlot');
       const belt = document.getElementById('itemBeltSlots');
       belt.innerHTML = '';
-      for (let s = 0; s < 3; s++) {
+      for (let s = 0; s < maxSlots; s++) {
         const item = state.run.inventory[s];
         const slot = document.createElement('button');
         if (item) {
@@ -2113,7 +2225,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
         }
         document.getElementById('dungeonVictoryModal')?.classList.remove('hidden');
       } else if (state.run.phase === 'dead') {
-        document.getElementById('deathFloorText').textContent = `Tầng ${state.run.floor} - Phòng ${state.run.roomIndex}`;
+        document.getElementById('deathFloorText').textContent = `Tầng ${state.run.floor} - Phòng ${state.run.roomIndex} (Hắc Ám Cấp ${state.run.tormentLevel || 1})`;
         document.getElementById('deathInsightText').textContent = `${state.meta.insight} 💡`;
         document.getElementById('gameOverModal')?.classList.remove('hidden');
       }
@@ -2121,7 +2233,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
 
     function startRunFromSanctuary() {
       document.getElementById('sanctuaryModal').classList.add('hidden');
-      startNewRun();
+      startNewRun(true);
     }
 
     /* ====================================================================
@@ -2130,13 +2242,20 @@ Bản vá toàn diện theo đánh giá của Qwen:
     document.addEventListener('DOMContentLoaded', () => {
       loadState();
       // Only start a run if none is active and not resting in dead/victory screen
-      if (!state.run.active && state.run.phase !== 'dead' && state.run.phase !== 'victory') {
-        startNewRun();
+      if (!state.run.active && state.run.phase !== 'dead' && state.run.phase !== 'victory' && state.run.phase !== 'idle') {
+        startNewRun(true);
       }
       renderUI();
 
       // Sound unlock on first click
       document.addEventListener('click', () => { DungeonSound.init(); }, { once: true });
+
+      // Auto-Pilot Toggle Button (Zero Touch)
+      document.getElementById('btnAutoPilotToggle').addEventListener('click', () => {
+        state.run.autoPilot = !state.run.autoPilot;
+        showToast(state.run.autoPilot ? '🤖 Đã BẬT chế độ Rảnh Tay 100% (tự động loot & qua phòng)' : '✋ Đã TẮT chế độ Rảnh Tay (tự bấm chuột)', 'info');
+        saveState();
+      });
 
       // Simulation combat buttons
       document.querySelectorAll('.sim-attack-btn').forEach(btn => {
@@ -2149,6 +2268,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
       document.getElementById('btnSoundToggle').addEventListener('click', () => {
         DungeonSound.enabled = !DungeonSound.enabled;
         document.getElementById('btnSoundToggle').textContent = DungeonSound.enabled ? '🔊' : '🔇';
+        saveState();
       });
 
       // Sanctuary Modal
@@ -2166,6 +2286,8 @@ Bản vá toàn diện theo đánh giá của Qwen:
       // Return from Dungeon Victory to Sanctuary (Explicit user control!)
       document.getElementById('btnReturnToSanctuaryFromVic').addEventListener('click', () => {
         document.getElementById('dungeonVictoryModal').classList.add('hidden');
+        state.run.phase = 'idle';
+        saveState();
         renderSanctuary();
         document.getElementById('sanctuaryModal').classList.remove('hidden');
       });
@@ -2173,10 +2295,12 @@ Bản vá toàn diện theo đánh giá của Qwen:
       // Game Over Modal Buttons
       document.getElementById('btnRestartDungeon').addEventListener('click', () => {
         document.getElementById('gameOverModal').classList.add('hidden');
-        startNewRun();
+        startNewRun(true);
       });
       document.getElementById('btnGoSanctuaryOnDeath').addEventListener('click', () => {
         document.getElementById('gameOverModal').classList.add('hidden');
+        state.run.phase = 'idle';
+        saveState();
         renderSanctuary();
         document.getElementById('sanctuaryModal').classList.remove('hidden');
       });
