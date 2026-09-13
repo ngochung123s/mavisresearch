@@ -160,3 +160,5 @@ For guideline searches, always use `sort=date`, never `sort=relevance`.
   - Output files: Đưa tất cả sản phẩm phụ xuất bản (.docx, .apkg, .json, brief) vào subfolder `outputs/` thuộc bài học.
   - Mandatory Verification Report: Mọi output xuất bản phải công bố kết quả kiểm tra qua các script verify trong chat (`md_to_docx.py`, `citation_audit.py`, `verify_diacritics.py`).
   - Clinical Case Answers: Always write detailed clinical case solutions directly at the end of the corresponding `.md` Part file and update the `.docx` in `outputs/`.
+7. **Medical Flashcard Governance**: Khi thiết kế thẻ Anki, bắt buộc tuân thủ bộ quy tắc trong skill `medical-flashcard-governance`: không lộ tên thuốc/liều đầu tay ở câu dẫn, tất cả cloze dùng `{{c1::...}}`, trường extra không làm lộ đáp án của bậc tiếp theo, và 100% dùng ký tự Unicode chuẩn (`→`, `≥`, `≤`, `×`, `µg`, `β`), tuyệt đối không viết mã LaTeX trong thẻ.
+8. **Visual Chat Box Layout**: Định dạng câu trả lời bằng khung viền mở đầu `╭─ 🤖 CLAUDE ──────────────────────────────────────────────` và kết thúc `╰──────────────────────────────────────────────────────────` để phân cách rõ ràng với dòng prompt của người dùng.
