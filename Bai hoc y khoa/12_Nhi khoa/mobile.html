@@ -357,8 +357,70 @@
       <!-- Injected -->
     </div>
 
-    <div class="p-3 border-t border-white/10 bg-black/30 text-[10px] text-center text-slate-500">
-      PedViewer Mobile V1.0 · Tự học Nhi khoa YTB
+    <div class="p-3 border-t border-white/10 bg-black/30 text-[11px] space-y-2">
+      <div class="flex items-center justify-between">
+        <button onclick="openDataModal()" class="text-cyan-400 hover:text-cyan-300 flex items-center gap-1 font-semibold">
+          <span>🔄</span> Nạp / Đổi dữ liệu
+        </button>
+        <a href="checklist.html" class="text-amber-400 hover:text-amber-300 flex items-center gap-1 font-semibold">
+          <span>📋</span> Sổ tay Checklist
+        </a>
+      </div>
+      <div class="text-center text-[10px] text-slate-500">
+        PedViewer Mobile V1.0 · Tự học Nhi khoa YTB
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= NO DATA / DATA SETUP MODAL ================= -->
+  <div id="dataModal" class="fixed inset-0 bg-black/85 backdrop-blur-md z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-[#0f172a] border border-white/15 rounded-2xl max-w-sm w-full p-5 space-y-4 text-slate-200 shadow-2xl">
+      <div class="text-center space-y-1">
+        <div class="w-12 h-12 mx-auto rounded-2xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-2xl shadow-lg shadow-cyan-500/20">
+          🩺
+        </div>
+        <h2 class="text-base font-bold text-white pt-1">PedViewer Mobile · Dữ Liệu</h2>
+        <p class="text-xs text-slate-400" id="dataModalSubtitle">Chưa phát hiện file <code>data.js</code> (do mở file riêng lẻ hoặc bảo mật trình duyệt chặn nạp cục bộ).</p>
+      </div>
+
+      <div class="space-y-2.5 pt-1">
+        <!-- Option 1: Cloud sync from GitHub -->
+        <button onclick="syncDataFromCloud()" id="btnSyncCloud" class="w-full py-2.5 px-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-xs font-bold flex items-center justify-center gap-2 shadow-lg shadow-cyan-500/25 transition active:scale-[0.98]">
+          <span class="text-base">🌐</span>
+          <span>Tải tự động từ GitHub Cloud</span>
+        </button>
+
+        <!-- Option 2: File picker for data.js or CATALOG_PED_VIEWER.json -->
+        <button onclick="document.getElementById('dataFilePicker').click()" class="w-full py-2.5 px-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-slate-200 text-xs font-semibold flex items-center justify-center gap-2 transition active:scale-[0.98]">
+          <span class="text-base">📁</span>
+          <span>Chọn file data.js hoặc JSON từ máy</span>
+        </button>
+        <input type="file" id="dataFilePicker" class="hidden" accept=".js,.json" onchange="handleDataFileSelected(event)">
+
+        <!-- Option 3: Direct Markdown file reader -->
+        <button onclick="document.getElementById('mdFilePicker').click()" class="w-full py-2.5 px-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-slate-200 text-xs font-semibold flex items-center justify-center gap-2 transition active:scale-[0.98]">
+          <span class="text-base">📄</span>
+          <span>Mở nhanh 1 file bài học (.md)</span>
+        </button>
+        <input type="file" id="mdFilePicker" class="hidden" accept=".md" onchange="handleMdFileSelected(event)">
+
+        <!-- Option 4: Link to checklist -->
+        <a href="checklist.html" class="w-full py-2.5 px-3 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-white/10 text-slate-300 text-xs font-semibold flex items-center justify-center gap-2 transition">
+          <span>📋</span>
+          <span>Mở Sổ tay Checklist Ôn tập (47 bài)</span>
+        </a>
+      </div>
+
+      <div id="syncStatusBox" class="hidden p-2.5 rounded-xl bg-cyan-950/60 border border-cyan-500/30 text-center text-xs text-cyan-300 font-mono">
+        <span id="syncStatusText" class="animate-pulse">⏳ Đang xử lý...</span>
+      </div>
+
+      <div class="flex items-center justify-between text-[11px] text-slate-400 pt-1">
+        <button onclick="closeDataModal()" id="btnCloseDataModal" class="text-slate-400 hover:text-white underline">
+          Đóng cửa sổ
+        </button>
+        <span class="text-[10px] text-slate-500">Tự động lưu offline</span>
+      </div>
     </div>
   </div>
 
@@ -379,19 +441,199 @@
     let isFlipped = false;
     let ankiFilter = 'all';
 
+    const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/ngochung123s/mavisresearch/main/Bai%20hoc%20y%20khoa/12_Nhi%20khoa/CATALOG_PED_VIEWER.json';
+    const CACHE_KEY = 'ped_mobile_library_cache_v1';
+
     document.addEventListener('DOMContentLoaded', () => {
       initApp();
     });
 
-    function initApp() {
-      if (!window.PED_LIBRARY_DATA) {
-        alert("Chưa nạp được data.js. Hãy đảm bảo file data.js nằm cùng thư mục.");
+    function saveDataCache(data) {
+      try {
+        localStorage.setItem(CACHE_KEY, JSON.stringify(data));
+      } catch (e) {
+        console.warn('Cannot save to localStorage cache (quota or disabled):', e);
+      }
+    }
+
+    function loadDataCache() {
+      try {
+        const str = localStorage.getItem(CACHE_KEY);
+        return str ? JSON.parse(str) : null;
+      } catch (e) {
+        console.warn('Cannot read from localStorage cache:', e);
+        return null;
+      }
+    }
+
+    function openDataModal(subtitle) {
+      const modal = document.getElementById('dataModal');
+      if (subtitle) {
+        document.getElementById('dataModalSubtitle').textContent = subtitle;
+      }
+      modal.classList.remove('hidden');
+    }
+
+    function closeDataModal() {
+      const modal = document.getElementById('dataModal');
+      modal.classList.add('hidden');
+    }
+
+    function showSyncStatus(msg) {
+      const box = document.getElementById('syncStatusBox');
+      const txt = document.getElementById('syncStatusText');
+      box.classList.remove('hidden');
+      txt.textContent = msg;
+    }
+
+    function hideSyncStatus() {
+      const box = document.getElementById('syncStatusBox');
+      box.classList.add('hidden');
+    }
+
+    async function syncDataFromCloud() {
+      const btn = document.getElementById('btnSyncCloud');
+      const origHtml = btn.innerHTML;
+      btn.disabled = true;
+      showSyncStatus("⏳ Đang tải dữ liệu từ GitHub Cloud...");
+
+      try {
+        const resp = await fetch(GITHUB_RAW_URL, { cache: 'no-cache' });
+        if (!resp.ok) throw new Error("HTTP " + resp.status);
+        const data = await resp.json();
+        if (data && data.lessons && data.lessons.length > 0) {
+          window.PED_LIBRARY_DATA = data;
+          saveDataCache(data);
+          showSyncStatus(`✅ Đã tải ${data.lessons.length} bài học thành công!`);
+          setTimeout(() => {
+            closeDataModal();
+            setupAppUI();
+          }, 600);
+        } else {
+          throw new Error("Dữ liệu trống");
+        }
+      } catch (err) {
+        showSyncStatus("❌ Lỗi tải: " + err.message + ". Vui lòng thử lại hoặc chọn file từ máy.");
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = origHtml;
+      }
+    }
+
+    function handleDataFileSelected(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        try {
+          const text = e.target.result;
+          let data = null;
+          if (file.name.endsWith('.js') || text.includes('PED_LIBRARY_DATA')) {
+            const jsonText = text.replace(/^\s*\/\*[\s\S]*?\*\/\s*window\.PED_LIBRARY_DATA\s*=\s*/, '').replace(/;\s*$/, '');
+            data = JSON.parse(jsonText);
+          } else {
+            data = JSON.parse(text);
+          }
+          if (data && (data.lessons || Array.isArray(data))) {
+            const normalized = data.lessons ? data : { lessons: data, metadata: {} };
+            window.PED_LIBRARY_DATA = normalized;
+            saveDataCache(normalized);
+            alert(`Đã nạp thành công ${normalized.lessons.length} bài học!`);
+            closeDataModal();
+            setupAppUI();
+          } else {
+            alert("Cấu trúc file không đúng định dạng dữ liệu PedViewer.");
+          }
+        } catch (err) {
+          alert("Lỗi đọc file: " + err.message);
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    function handleMdFileSelected(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const text = e.target.result;
+        const fname = file.name.replace(/\.[^/.]+$/, "");
+        const singleLesson = {
+          id: "FILE_DOC",
+          title: fname,
+          block: "Bài đọc nạp từ máy",
+          has_ped: true,
+          has_pedytb: false,
+          has_cards: false,
+          ped_content: text,
+          cards_data: []
+        };
+        window.PED_LIBRARY_DATA = {
+          lessons: [singleLesson],
+          metadata: { total_ped: 1 }
+        };
+        closeDataModal();
+        setupAppUI();
+        selectLesson("FILE_DOC");
+      };
+      reader.readAsText(file);
+    }
+
+    async function initApp() {
+      // Tier 1: Check in-memory window.PED_LIBRARY_DATA
+      if (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.lessons && window.PED_LIBRARY_DATA.lessons.length > 0) {
+        saveDataCache(window.PED_LIBRARY_DATA);
+        setupAppUI();
         return;
       }
 
+      // Tier 2: Check LocalStorage cache
+      const cached = loadDataCache();
+      if (cached && cached.lessons && cached.lessons.length > 0) {
+        window.PED_LIBRARY_DATA = cached;
+        setupAppUI();
+        return;
+      }
+
+      // Tier 3: Try local AJAX fetch for CATALOG_PED_VIEWER.json
+      try {
+        const resp = await fetch('CATALOG_PED_VIEWER.json');
+        if (resp.ok) {
+          const data = await resp.json();
+          if (data && data.lessons && data.lessons.length > 0) {
+            window.PED_LIBRARY_DATA = data;
+            saveDataCache(data);
+            setupAppUI();
+            return;
+          }
+        }
+      } catch (e) {}
+
+      // Tier 4: Try silent cloud fetch from GitHub if online
+      if (navigator.onLine) {
+        try {
+          const cResp = await fetch(GITHUB_RAW_URL, { cache: 'no-cache' });
+          if (cResp.ok) {
+            const data = await cResp.json();
+            if (data && data.lessons && data.lessons.length > 0) {
+              window.PED_LIBRARY_DATA = data;
+              saveDataCache(data);
+              setupAppUI();
+              return;
+            }
+          }
+        } catch (e) {}
+      }
+
+      // Tier 5: Fallback to interactive Setup Modal
+      openDataModal();
+    }
+
+    function setupAppUI() {
+      if (!window.PED_LIBRARY_DATA || !window.PED_LIBRARY_DATA.lessons) return;
       renderDrawer(window.PED_LIBRARY_DATA.lessons);
 
-      // Default lesson: PED-46 or first
+      // Default lesson: PED-46 or first available
       const def = window.PED_LIBRARY_DATA.lessons.find(l => l.id === 'PED-46') || window.PED_LIBRARY_DATA.lessons[0];
       if (def) {
         selectLesson(def.id);
@@ -481,7 +723,7 @@
       let cleanContent = (content || '').trimStart().replace(/^---\s*[\r\n]+[\s\S]*?[\r\n]+---\s*[\r\n]*/, '');
 
       let processed = cleanContent.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
-        return `<div class="page-marker-banner"><span>📖 Trang ${p}</span> <span class="text-purple-300/40">•</span> <span>Giáo trình Nhi khoa Y Thái Bình</span></div>`;
+        return `\n\n<div class="page-marker-banner"><span>📖 Trang ${p}</span> <span class="text-purple-300/40">•</span> <span>Giáo trình Nhi khoa Y Thái Bình</span></div>\n\n`;
       });
 
       if (window.marked) {

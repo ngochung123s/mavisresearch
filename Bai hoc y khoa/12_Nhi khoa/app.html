@@ -247,11 +247,15 @@
         <button onclick="changeFontSize(1)" class="px-1.5 py-0.5 text-xs text-slate-400 hover:text-white font-mono" title="Tăng cỡ chữ">A+</button>
       </div>
 
+      <!-- Cloud Sync Button -->
+      <button onclick="forceSyncCloud()" id="cloudSyncBtn" class="px-2.5 py-1 rounded-lg text-xs font-semibold bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10 transition flex items-center gap-1" title="Đồng bộ lại toàn bộ dữ liệu mới nhất từ GitHub Cloud">
+        <span>🔄</span> <span class="hidden lg:inline">Cập nhật Cloud</span>
+      </button>
+
       <!-- Checklist Link -->
       <a href="checklist.html" class="px-2.5 py-1 rounded-lg text-xs font-semibold bg-cyan-600/20 hover:bg-cyan-600/40 text-cyan-300 border border-cyan-500/30 transition flex items-center gap-1" title="Mở Sổ Tay Ôn Tập & Checklist Thông Minh">
         <span>📋</span> <span class="hidden md:inline">Checklist Ôn</span>
       </a>
-
       <!-- Theme Switcher -->
       <button onclick="cycleTheme()" id="themeBtn" class="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-slate-300 transition text-xs" title="Chuyển nền: Dark / Sepia / Light">
         🌙
@@ -389,17 +393,83 @@
     let syncScrollEnabled = true;
     let currentFilter = 'all';
 
+    const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/ngochung123s/mavisresearch/main/Bai%20hoc%20y%20khoa/12_Nhi%20khoa/CATALOG_PED_VIEWER.json';
+    const CACHE_KEY = 'ped_library_cache_v1';
+
     // Initialize application
     document.addEventListener('DOMContentLoaded', () => {
-      loadLibraryData();
+      bootstrapLibrary();
       setupDragAndDrop();
     });
 
-    function loadLibraryData() {
-      if (!window.PED_LIBRARY_DATA) {
-        console.warn("Chưa tìm thấy data.js. Đang dùng chế độ nạp thủ công.");
+    function saveDataCache(data) {
+      try {
+        localStorage.setItem(CACHE_KEY, JSON.stringify(data));
+      } catch (e) {
+        console.warn('Cannot save to localStorage:', e);
+      }
+    }
+
+    function loadDataCache() {
+      try {
+        const str = localStorage.getItem(CACHE_KEY);
+        return str ? JSON.parse(str) : null;
+      } catch (e) {
+        return null;
+      }
+    }
+
+    async function bootstrapLibrary() {
+      // Tier 1: in-memory data
+      if (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.lessons) {
+        saveDataCache(window.PED_LIBRARY_DATA);
+        initLibraryUI();
         return;
       }
+
+      // Tier 2: localStorage cache
+      const cached = loadDataCache();
+      if (cached && cached.lessons && cached.lessons.length > 0) {
+        window.PED_LIBRARY_DATA = cached;
+        initLibraryUI();
+        return;
+      }
+
+      // Tier 3: Local AJAX fetch
+      try {
+        const resp = await fetch('CATALOG_PED_VIEWER.json');
+        if (resp.ok) {
+          const data = await resp.json();
+          if (data && data.lessons) {
+            window.PED_LIBRARY_DATA = data;
+            saveDataCache(data);
+            initLibraryUI();
+            return;
+          }
+        }
+      } catch (e) {}
+
+      // Tier 4: Cloud fetch from GitHub if online
+      if (navigator.onLine) {
+        try {
+          const resp = await fetch(GITHUB_RAW_URL, { cache: 'no-cache' });
+          if (resp.ok) {
+            const data = await resp.json();
+            if (data && data.lessons) {
+              window.PED_LIBRARY_DATA = data;
+              saveDataCache(data);
+              initLibraryUI();
+              return;
+            }
+          }
+        } catch (e) {}
+      }
+
+      console.warn("Chưa tìm thấy data.js hoặc nguồn dữ liệu nào. Hãy dùng nút Kéo thả để nạp file.");
+    }
+
+    function initLibraryUI() {
+      if (!window.PED_LIBRARY_DATA || !window.PED_LIBRARY_DATA.lessons) return;
       document.getElementById('flt-all').textContent = `Tất cả (${window.PED_LIBRARY_DATA.lessons.length})`;
       renderSidebar(window.PED_LIBRARY_DATA.lessons);
 
@@ -409,6 +479,28 @@
                             window.PED_LIBRARY_DATA.lessons[0];
       if (defaultLesson) {
         selectLesson(defaultLesson.id);
+      }
+    }
+    async function forceSyncCloud() {
+      const btn = document.getElementById('cloudSyncBtn');
+      const origText = btn.innerHTML;
+      btn.disabled = true;
+      btn.innerHTML = '<span>⏳</span> <span class="hidden lg:inline">Đang tải...</span>';
+      try {
+        const resp = await fetch(GITHUB_RAW_URL, { cache: 'no-cache' });
+        if (!resp.ok) throw new Error("HTTP " + resp.status);
+        const data = await resp.json();
+        if (data && data.lessons && data.lessons.length > 0) {
+          window.PED_LIBRARY_DATA = data;
+          saveDataCache(data);
+          initLibraryUI();
+          alert(`Đã đồng bộ thành công ${data.lessons.length} bài học từ GitHub Cloud!`);
+        }
+      } catch (err) {
+        alert("Lỗi đồng bộ Cloud: " + err.message + ". Hãy đảm bảo có kết nối Internet.");
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = origText;
       }
     }
 
@@ -550,7 +642,7 @@
 
       // Convert page comment to visual banner
       let processed = cleanContent.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
-        return `<div class="page-marker-banner"><span>📖 Trang ${p}</span> <span class="text-purple-300/40">•</span> <span>Giáo trình Nhi khoa Y Thái Bình</span></div>`;
+        return `\n\n<div class="page-marker-banner"><span>📖 Trang ${p}</span> <span class="text-purple-300/40">•</span> <span>Giáo trình Nhi khoa Y Thái Bình</span></div>\n\n`;
       });
 
       if (window.marked) {
