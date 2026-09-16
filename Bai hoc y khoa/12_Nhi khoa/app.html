@@ -541,12 +541,15 @@
       }
     }
 
-    // Render markdown with custom tags (e.g. <!-- Page XX -->)
+    // Render markdown with custom tags (e.g. <!-- Page XX -->) and strip YAML frontmatter
     function renderMarkdownColumn(type, content) {
       const container = document.getElementById(`${type}ArticleBody`);
 
+      // Strip leading YAML frontmatter if present (between --- and ---)
+      let cleanContent = (content || '').trimStart().replace(/^---\s*[\r\n]+[\s\S]*?[\r\n]+---\s*[\r\n]*/, '');
+
       // Convert page comment to visual banner
-      let processed = content.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
+      let processed = cleanContent.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
         return `<div class="page-marker-banner"><span>📖 Trang ${p}</span> <span class="text-purple-300/40">•</span> <span>Giáo trình Nhi khoa Y Thái Bình</span></div>`;
       });
 

@@ -477,7 +477,10 @@
 
     function renderMarkdown(type, content) {
       const container = document.getElementById(`${type}Container`);
-      let processed = content.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
+      // Strip leading YAML frontmatter if present
+      let cleanContent = (content || '').trimStart().replace(/^---\s*[\r\n]+[\s\S]*?[\r\n]+---\s*[\r\n]*/, '');
+
+      let processed = cleanContent.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
         return `<div class="page-marker-banner"><span>📖 Trang ${p}</span> <span class="text-purple-300/40">•</span> <span>Giáo trình Nhi khoa Y Thái Bình</span></div>`;
       });
 

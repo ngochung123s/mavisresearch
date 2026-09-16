@@ -21,6 +21,12 @@ CURRICULUM_PATH = BASE_DIR.parent / "_CURRICULUM_NHI_KHOA.md"
 DATA_JS_PATH = BASE_DIR / "data.js"
 CATALOG_JSON_PATH = BASE_DIR / "CATALOG_PED_VIEWER.json"
 
+def strip_frontmatter(text: str) -> str:
+    cleaned = (text or "").lstrip()
+    if cleaned.startswith("---"):
+        return re.sub(r"^---\s*[\r\n]+[\s\S]*?[\r\n]+---\s*[\r\n]*", "", cleaned)
+    return text
+
 def parse_curriculum() -> list[dict]:
     if not CURRICULUM_PATH.exists():
         print(f"Warning: Curriculum file not found at {CURRICULUM_PATH}")
@@ -96,11 +102,11 @@ def scan_files_in_nhi_khoa() -> dict[str, dict]:
             if file.endswith(".md"):
                 if "PEDYTB" in file.upper():
                     discovered[ped_id]["pedytb_file"] = file
-                    discovered[ped_id]["pedytb_content"] = fpath.read_text(encoding="utf-8")
+                    discovered[ped_id]["pedytb_content"] = strip_frontmatter(fpath.read_text(encoding="utf-8"))
                 elif ("RELEASE" in file.upper() or (file.startswith("PED-") and "BRIEF" not in file.upper())) and "KNOWLEDGE_CHECK" not in file.upper():
                     # Main lesson release file
                     discovered[ped_id]["ped_file"] = file
-                    discovered[ped_id]["ped_content"] = fpath.read_text(encoding="utf-8")
+                    discovered[ped_id]["ped_content"] = strip_frontmatter(fpath.read_text(encoding="utf-8"))
             elif file.endswith(".cards.v2.json"):
                 # Ưu tiên nạp bộ Master Combo nếu có
                 if "MASTER" in file.upper() or not discovered[ped_id]["cards_file"]:
