@@ -1,0 +1,1123 @@
+[
+  {
+    "id": "PED21-CARD-001",
+    "type": "cloze",
+    "text": "Khái niệm Viêm phổi mắc phải ở cộng đồng (CAP) ở trẻ em được định nghĩa là tình trạng nhiễm trùng cấp tính của nhu mô phổi xảy ra ở trẻ {{c1::không nằm viện trong vòng 14 ngày trước đó}}.",
+    "extra": "Nếu nhiễm trùng xuất hiện sau khi nhập viện ≥ 48 giờ hoặc trong vòng 14 ngày sau xuất viện thì được xếp vào Viêm phổi bệnh viện (HAP).",
+    "tags": [
+      "PED-21",
+      "Dinh-nghia",
+      "CAP"
+    ]
+  },
+  {
+    "id": "PED21-CARD-002",
+    "type": "cloze",
+    "text": "Theo WHO, dấu hiệu lâm sàng khách quan và có độ nhạy cao nhất để sàng lọc viêm phổi tại tuyến ban đầu là {{c1::Thở nhanh theo lứa tuổi}}.",
+    "extra": "Thở nhanh xuất hiện sớm hơn ran ẩm nghe bằng ống nghe và là phản xạ bù trừ đầu tiên khi độ giãn nở của phổi giảm.",
+    "tags": [
+      "PED-21",
+      "Tho-nhanh",
+      "WHO",
+      "Sang-loc"
+    ]
+  },
+  {
+    "id": "PED21-CARD-003",
+    "type": "cloze",
+    "text": "Ngưỡng thở nhanh của WHO đối với trẻ dưới 2 tháng tuổi là {{c1::≥ 60 lần/phút}} khi đếm trọn 60 giây lúc trẻ nằm yên.",
+    "extra": "Trẻ < 2 tháng thở nhanh luôn coi là bệnh rất nặng, nguy cơ nhiễm khuẩn huyết cao, cần chuyển viện cấp cứu ngay.",
+    "tags": [
+      "PED-21",
+      "Nguong-tho-nhanh",
+      "So-sinh"
+    ]
+  },
+  {
+    "id": "PED21-CARD-004",
+    "type": "cloze",
+    "text": "Ngưỡng thở nhanh của WHO đối với trẻ từ 2 đến 11 tháng tuổi là {{c1::≥ 50 lần/phút}} khi đếm trọn 60 giây lúc trẻ nằm yên.",
+    "extra": "Đây là nhóm tuổi có tỷ lệ mắc viêm phổi cao nhất; đếm đủ 60 giây bằng đồng hồ có kim giây để tránh sai số.",
+    "tags": [
+      "PED-21",
+      "Nguong-tho-nhanh",
+      "Nhu-nhi"
+    ]
+  },
+  {
+    "id": "PED21-CARD-005",
+    "type": "cloze",
+    "text": "Ngưỡng thở nhanh của WHO đối với trẻ từ 12 đến 59 tháng tuổi (1–5 tuổi) là {{c1::≥ 40 lần/phút}} khi đếm trọn 60 giây lúc trẻ nằm yên.",
+    "extra": "Trẻ sốt cao cần hạ sốt trước khi đếm nhịp thở để tránh tăng nhịp thở sinh lý do sốt.",
+    "tags": [
+      "PED-21",
+      "Nguong-tho-nhanh",
+      "Tre-nho"
+    ]
+  },
+  {
+    "id": "PED21-CARD-006",
+    "type": "cloze",
+    "text": "Ngưỡng thở nhanh ở trẻ từ 5 tuổi trở lên theo các hướng dẫn lâm sàng Nhi khoa là {{c1::≥ 30 lần/phút}} khi nằm yên.",
+    "extra": "Ở trẻ lớn, thở nhanh kết hợp với đau ngực kiểu màng phổi hoặc ran ẩm khu trú có giá trị chẩn đoán viêm phổi rất cao.",
+    "tags": [
+      "PED-21",
+      "Nguong-tho-nhanh",
+      "Tre-lon"
+    ]
+  },
+  {
+    "id": "PED21-CARD-007",
+    "type": "cloze",
+    "text": "Quy trình đếm nhịp thở chuẩn ở trẻ em bắt buộc phải đếm trọn vẹn trong {{c1::60 giây}}, tuyệt đối không được đếm 15 giây nhân 4.",
+    "extra": "Trẻ nhỏ có chu kỳ thở không đều sinh lý (Periodic Breathing); nhân nhẩm sẽ khuếch đại sai số lên gấp 4 lần.",
+    "tags": [
+      "PED-21",
+      "Ky-thuat-dem-tho",
+      "Quy-trinh"
+    ]
+  },
+  {
+    "id": "PED21-CARD-008",
+    "type": "cloze",
+    "text": "Dấu hiệu Rút lõm lồng ngực được xác định chính xác khi phần dưới lồng ngực (bờ sườn và mũi ức) bị kéo lõm vào trong ở thì {{c1::hít vào}}.",
+    "extra": "Phản ánh áp lực âm cực đại trong màng phổi do phổi giảm độ giãn nở, kéo thụt khung sườn sụn mềm của trẻ vào trong.",
+    "tags": [
+      "PED-21",
+      "Rut-lom-long-nguc",
+      "Thi-hit-vao"
+    ]
+  },
+  {
+    "id": "PED21-CARD-009",
+    "type": "cloze",
+    "text": "Tiếng thở rên (Grunting) ở thì thở ra là phản xạ sinh tồn của trẻ nhằm tạo {{c1::PEEP sinh lý (áp lực dương cuối thì thở ra)}} để chống xẹp phế nang.",
+    "extra": "Thanh môn khép một phần trong thì thở ra giữ lại áp lực dương. Thở rên là dấu hiệu suy hô hấp nặng cần thở oxy ngay.",
+    "tags": [
+      "PED-21",
+      "Tho-ren",
+      "Grunting",
+      "PEEP-sinh-ly"
+    ]
+  },
+  {
+    "id": "PED21-CARD-010",
+    "type": "cloze",
+    "text": "Hiện tượng Shunt trong phổi (Intrapulmonary Shunt) trong viêm phổi xảy ra khi máu mao mạch phổi chảy qua các phế nang bị đông đặc có tỷ lệ {{c1::VA/Q = 0}}.",
+    "extra": "Máu tĩnh mạch không nhận được oxy hòa thẳng vào máu động mạch tim trái, gây hạ oxy máu nặng trơ với canula oxy thông thường.",
+    "tags": [
+      "PED-21",
+      "Shunt-phoi",
+      "VA-Q"
+    ]
+  },
+  {
+    "id": "PED21-CARD-011",
+    "type": "cloze",
+    "text": "Nguyên tắc Dược lực học (PK/PD) đối với kháng sinh Beta-lactam như Amoxicillin là hiệu quả diệt khuẩn phụ thuộc vào {{c1::thời gian nồng độ thuốc tự do trong máu vượt trên MIC (T > MIC)}}.",
+    "extra": "Mục tiêu tối thiểu là T > MIC ≥ 40–50% khoảng cách giữa các liều để đạt hiệu quả tiệt căn vi khuẩn.",
+    "tags": [
+      "PED-21",
+      "PK-PD",
+      "T-tren-MIC",
+      "Beta-lactam"
+    ]
+  },
+  {
+    "id": "PED21-CARD-012",
+    "type": "cloze",
+    "text": "Khái niệm 'Trần liều người lớn' (Adult Ceiling Dose) có nghĩa là liều tối đa tính theo miligam/ngày {{c1::không được phép vượt quá liều khuyến cáo tối đa của người lớn}} ngay cả khi tính theo mg/kg ở trẻ béo phì.",
+    "extra": "Ví dụ: Ceftriaxone tối đa 2 g/ngày; Amoxicillin tối đa 2–3 g/ngày. Vượt trần liều gây độc tính gan thận và kết tủa sỏi.",
+    "tags": [
+      "PED-21",
+      "Tran-lieu-nguoi-lon",
+      "An-toan-duoc"
+    ]
+  },
+  {
+    "id": "PED21-CARD-013",
+    "type": "cloze",
+    "text": "Dấu hiệu cờ đỏ nguy hiểm toàn thân hàng đầu ở trẻ nhũ nhi nghi ngờ viêm phổi đòi hỏi cấp cứu ngay lập tức là {{c1::bỏ bú hoàn toàn hoặc không thể uống được}}.",
+    "extra": "Phản ánh tình trạng kiệt sức hô hấp nặng hoặc nhiễm khuẩn huyết đe dọa ngừng tuần hoàn.",
+    "tags": [
+      "PED-21",
+      "Co-do-cap-cuu",
+      "Bo-bu"
+    ]
+  },
+  {
+    "id": "PED21-CARD-014",
+    "type": "cloze",
+    "text": "Khi trẻ có dấu hiệu nôn tất cả mọi thứ sau khi ăn uống, trẻ được xếp ngay vào nhóm {{c1::Viêm phổi nặng}} bắt buộc phải nhập viện dùng kháng sinh đường tiêm.",
+    "extra": "Trẻ không thể dung nạp kháng sinh đường uống và có nguy cơ mất nước, rối loạn điện giải và hít sặc.",
+    "tags": [
+      "PED-21",
+      "Non-tat-ca",
+      "Viem-phoi-nang"
+    ]
+  },
+  {
+    "id": "PED21-CARD-015",
+    "type": "cloze",
+    "text": "Dấu hiệu tri giác cảnh báo viêm phổi chuyển độ nguy kịch đe dọa tính mạng là trẻ {{c1::li bì, lơ mơ hoặc hôn mê khó đánh thức}}.",
+    "extra": "Li bì phản ánh thiếu oxy não nặng hoặc toan chuyển hóa/toan hô hấp mất bù do ứ khí carbonic (CO2).",
+    "tags": [
+      "PED-21",
+      "Li-bi",
+      "Suy-ho-hap-nang"
+    ]
+  },
+  {
+    "id": "PED21-CARD-016",
+    "type": "cloze",
+    "text": "Tím tái trung ương ở trẻ viêm phổi được quan sát rõ nhất tại vị trí {{c1::môi, lưỡi và niêm mạc khoang miệng}}.",
+    "extra": "Tím đầu chi có thể do lạnh hoặc co mạch ngoại vi, nhưng tím môi lưỡi luôn chỉ điểm nồng độ Deoxyhemoglobin trong máu động mạch > 3–5 g/dL.",
+    "tags": [
+      "PED-21",
+      "Tim-tai-trung-uong",
+      "Moi-luoi"
+    ]
+  },
+  {
+    "id": "PED21-CARD-017",
+    "type": "cloze",
+    "text": "Ngưỡng SpO2 khí phòng báo động đỏ cần cho thở oxy khẩn cấp và chuyển phòng hồi sức theo WHO là {{c1::< 90%}} (hoặc < 92% theo BTS).",
+    "extra": "SpO2 < 90% tương ứng với PaO2 động mạch < 60 mmHg, đường cong phân ly oxy-hemoglobin bước vào đoạn dốc đứng nguy hiểm.",
+    "tags": [
+      "PED-21",
+      "Nguong-SpO2-cap-cuu",
+      "WHO-BTS"
+    ]
+  },
+  {
+    "id": "PED21-CARD-018",
+    "type": "cloze",
+    "text": "Theo phân loại cập nhật của WHO (2014), trẻ có ho hoặc khó thở kèm thở nhanh và/hoặc rút lõm lồng ngực nhưng KHÔNG có dấu hiệu nguy hiểm được xếp vào phân loại {{c1::Viêm phổi (Pneumonia) — điều trị ngoại trú}}.",
+    "extra": "WHO đã đưa dấu hiệu rút lõm lồng ngực đơn thuần vào nhóm điều trị ngoại trú nếu trẻ không có dấu hiệu nguy hiểm toàn thân.",
+    "tags": [
+      "PED-21",
+      "Phan-loai-WHO-2014",
+      "Ngoai-tru"
+    ]
+  },
+  {
+    "id": "PED21-CARD-019",
+    "type": "cloze",
+    "text": "Theo WHO (2014), trẻ có ho hoặc khó thở kèm theo BẤT KỲ MỘT dấu hiệu nguy hiểm toàn thân hoặc thở rên hoặc tím tái được xếp vào phân loại {{c1::Viêm phổi nặng (Severe Pneumonia) — bắt buộc nhập viện}}.",
+    "extra": "WHO đã gộp nhóm 'Viêm phổi rất nặng' trước đây vào nhóm 'Viêm phổi nặng' để thống nhất chỉ định nhập viện tiêm kháng sinh.",
+    "tags": [
+      "PED-21",
+      "Phan-loai-WHO-2014",
+      "Nhap-vien"
+    ]
+  },
+  {
+    "id": "PED21-CARD-020",
+    "type": "cloze",
+    "text": "Nếu trẻ có ho hoặc khó thở nhưng KHÔNG có thở nhanh và KHÔNG có rút lõm lồng ngực, phân loại IMCI chuẩn là {{c1::Không phải viêm phổi (Nhiễm khuẩn hô hấp trên)}}.",
+    "extra": "Tuyệt đối không dùng kháng sinh cho nhóm này; hướng dẫn bà mẹ chăm sóc tại nhà, hạ sốt và nhận diện dấu hiệu tái khám.",
+    "tags": [
+      "PED-21",
+      "Khong-viem-phoi",
+      "IMCI"
+    ]
+  },
+  {
+    "id": "PED21-CARD-021",
+    "type": "cloze",
+    "text": "Tác nhân vi sinh gây viêm phổi thường gặp nhất ở trẻ sơ sinh dưới 1 tháng tuổi là {{c1::Liên cầu nhóm B (Streptococcus agalactiae) và E. coli}}.",
+    "extra": "Lây truyền từ đường sinh dục mẹ trong chuyển dạ. Triệu chứng ở sơ sinh rất mơ hồ: hạ thân nhiệt, bỏ bú, thở rên, cơn ngừng thở.",
+    "tags": [
+      "PED-21",
+      "Vi-sinh",
+      "So-sinh",
+      "GBS"
+    ]
+  },
+  {
+    "id": "PED21-CARD-022",
+    "type": "cloze",
+    "text": "Ở trẻ từ 1 đến 3 tháng tuổi, viêm phổi bán cấp do Chlamydia trachomatis đặc trưng bởi bệnh cảnh {{c1::ho dồn dập từng cơn nhưng KHÔNG CÓ SỐT}}.",
+    "extra": "Thường có tiền sử viêm kết mạc sơ sinh có mủ trong tháng đầu, xét nghiệm máu thấy tăng bạch cầu ái toan (Eosinophil).",
+    "tags": [
+      "PED-21",
+      "Chlamydia-trachomatis",
+      "Khong-sot"
+    ]
+  },
+  {
+    "id": "PED21-CARD-023",
+    "type": "cloze",
+    "text": "Ở trẻ nhỏ từ 3 tháng đến 5 tuổi, virus đường hô hấp (RSV, Adenovirus, Cúm, Á cúm) chiếm tới {{c1::60–80%}} tổng số các ca viêm phổi.",
+    "extra": "Tuy nhiên, khó phân biệt hoàn toàn giữa virus và vi khuẩn trên lâm sàng nên trẻ có thở nhanh vẫn được dùng kháng sinh Amoxicillin.",
+    "tags": [
+      "PED-21",
+      "Ty-le-virus",
+      "Dich-te"
+    ]
+  },
+  {
+    "id": "PED21-CARD-024",
+    "type": "cloze",
+    "text": "Tác nhân vi khuẩn hàng đầu gây viêm phổi thùy điển hình ở mọi lứa tuổi trẻ em sau giai đoạn sơ sinh là {{c1::Streptococcus pneumoniae (Phế cầu khuẩn)}}.",
+    "extra": "Lâm sàng khởi phát sốt cao đột ngột, rét run, thở nhanh, đau ngực, nghe phổi có ran ẩm khu trú hoặc tiếng thổi ống.",
+    "tags": [
+      "PED-21",
+      "Phe-cau",
+      "Streptococcus-pneumoniae"
+    ]
+  },
+  {
+    "id": "PED21-CARD-025",
+    "type": "cloze",
+    "text": "Tác nhân vi khuẩn hàng đầu gây viêm phổi không điển hình ở trẻ em trên 5 tuổi là {{c1::Mycoplasma pneumoniae}}.",
+    "extra": "Khởi phát từ từ, sốt vừa, đau đầu, ho khan dữ dội dai dẳng, nghe phổi tiếng ran nhiều rải rác nhưng tổng trạng trẻ tương đối ổn.",
+    "tags": [
+      "PED-21",
+      "Mycoplasma-pneumoniae",
+      "Tre-tren-5-tuoi"
+    ]
+  },
+  {
+    "id": "PED21-CARD-026",
+    "type": "cloze",
+    "text": "Độc tố Pneumolysin của Phế cầu kích hoạt đại thực bào tiết các cytokin tiền viêm dẫn đến sự di chuyển ồ ạt của {{c1::Bạch cầu đa nhân trung tính (Neutrophils)}} vào lòng phế nang.",
+    "extra": "Bạch cầu trung tính thoái hóa giải phóng men protease và gốc oxy hóa tự do, tạo thành dịch rỉ viêm đặc giàu fibrin và protein.",
+    "tags": [
+      "PED-21",
+      "Pneumolysin",
+      "Bach-cau-trung-tinh",
+      "Co-che"
+    ]
+  },
+  {
+    "id": "PED21-CARD-027",
+    "type": "cloze",
+    "text": "Dịch rỉ viêm trong phế nang làm giảm độ giãn nở của phổi (Lung Compliance) chủ yếu thông qua cơ chế {{c1::làm bất hoạt chất hoạt tính bề mặt Surfactant}}.",
+    "extra": "Mất surfactant làm sức căng bề mặt phế nang tăng vọt, phế nang có xu hướng xẹp dính lại, đòi hỏi áp lực âm hít vào cực lớn.",
+    "tags": [
+      "PED-21",
+      "Surfactant",
+      "Do-gian-no-phoi",
+      "Co-che"
+    ]
+  },
+  {
+    "id": "PED21-CARD-028",
+    "type": "cloze",
+    "text": "Khung lồng ngực của trẻ nhũ nhi cấu tạo chủ yếu bằng sụn mềm và xương sườn nằm ngang, giải thích vì sao áp lực âm thì hít vào gây ra {{c1::Rút lõm lồng ngực}} thay vì làm nở phổi.",
+    "extra": "Ở người lớn khung ngực vững chắc nên không có rút lõm bờ sườn; dấu hiệu này đặc thù cho trẻ nhỏ có độ giãn nở lồng ngực quá cao.",
+    "tags": [
+      "PED-21",
+      "Giai-phau-long-nguc",
+      "Rut-lom-co-che"
+    ]
+  },
+  {
+    "id": "PED21-CARD-029",
+    "type": "cloze",
+    "text": "Cơ chế bù trừ sinh lý tức thời để duy trì thể tích thông khí phút (VE = RR x VT) khi thể tích lưu thông (VT) bị giảm do phế nang đông đặc là {{c1::tăng tần số thở (Thở nhanh)}}.",
+    "extra": "Tăng nhịp thở là phản xạ bù trừ ít tốn oxy nhất của cơ thể trong giai đoạn đầu trước khi cơ hô hấp phụ phải vào cuộc.",
+    "tags": [
+      "PED-21",
+      "Thong-khi-phut",
+      "Bu-tru-sinh-ly"
+    ]
+  },
+  {
+    "id": "PED21-CARD-030",
+    "type": "cloze",
+    "text": "Phản xạ co mạch phổi do thiếu oxy (Hypoxic Pulmonary Vasoconstriction - HPV) có vai trò {{c1::tái phân phối lưu lượng máu từ vùng phổi tổn thương sang vùng phổi lành}}.",
+    "extra": "Khi diện tích đông đặc phế nang quá rộng, phản xạ HPV bị quá tải dẫn đến shunt phổi lớn và tăng áp lực động mạch phổi.",
+    "tags": [
+      "PED-21",
+      "Phan-xa-HPV",
+      "Co-mach-phoi"
+    ]
+  },
+  {
+    "id": "PED21-CARD-031",
+    "type": "cloze",
+    "text": "Giai đoạn 2 của Tràn mủ màng phổi (Empyema) được gọi là Giai đoạn mủ sợi huyết (Fibrinopurulent stage), đặc trưng bởi sự lắng đọng sợi Fibrin tạo thành {{c1::các vách ngăn (Loculations) trong khoang màng phổi}}.",
+    "extra": "Các vách ngăn chia dịch mủ thành nhiều ổ nhỏ, khiến chọc hút bằng kim đơn thuần thất bại và đòi hỏi phải đặt dẫn lưu kèm bơm tiêu sợi huyết.",
+    "tags": [
+      "PED-21",
+      "Empyema",
+      "Vach-ngan-fibrin",
+      "Loculations"
+    ]
+  },
+  {
+    "id": "PED21-CARD-032",
+    "type": "cloze",
+    "text": "Nếu không được dẫn lưu mủ kịp thời, tràn mủ màng phổi sẽ bước vào Giai đoạn 3 (Organization stage) tạo nên lớp vỏ xơ dày bao bọc phổi gây biến chứng {{c1::phổi bị giam cầm (Trapped lung)}}.",
+    "extra": "Lớp vỏ xơ khiến nhu mô phổi không thể giãn nở trở lại, lồng ngực bị co kéo biến dạng vĩnh viễn và bắt buộc phải mổ mở bóc vỏ màng phổi.",
+    "tags": [
+      "PED-21",
+      "Trapped-lung",
+      "Boc-vo-mang-phoi"
+    ]
+  },
+  {
+    "id": "PED21-CARD-033",
+    "type": "cloze",
+    "text": "Phế cầu khuẩn đề kháng kháng sinh Beta-lactam bằng cách đột biến các gen mã hóa Protein gắn Penicillin gồm {{c1::PBP1a, PBP2b và PBP2x}}.",
+    "extra": "Cấu trúc không gian của PBP bị biến đổi làm giảm ái lực liên kết với vòng Beta-lactam, đẩy MIC tăng cao gấp nhiều lần.",
+    "tags": [
+      "PED-21",
+      "PBP",
+      "Dot-bien-gen",
+      "Phan-tu"
+    ]
+  },
+  {
+    "id": "PED21-CARD-034",
+    "type": "cloze",
+    "text": "Liều Amoxicillin thông thường 40–50 mg/kg/ngày chỉ tạo nồng độ đỉnh trong máu khoảng 4–5 mcg/mL, không đủ để duy trì {{c1::T > MIC ≥ 40–50%}} đối với các chủng phế cầu kháng trung gian.",
+    "extra": "Nồng độ thuốc tụt dưới ngưỡng MIC chỉ sau 2–3 giờ, khiến vi khuẩn tiếp tục nhân lên và gây thất bại điều trị lâm sàng.",
+    "tags": [
+      "PED-21",
+      "Lieu-thong-thuong-that-bai",
+      "MIC"
+    ]
+  },
+  {
+    "id": "PED21-CARD-035",
+    "type": "cloze",
+    "text": "Khi nâng liều Amoxicillin lên 80–90 mg/kg/ngày, nồng độ đỉnh trong huyết thanh đạt tới {{c1::8–10 mcg/mL}}, đảm bảo vượt trên ngưỡng MIC của phế cầu kháng trung gian trong hơn 50% khoảng cách liều.",
+    "extra": "Đây là cơ sở khoa học của Y học chứng cứ giải thích vì sao Amoxicillin liều cao vẫn là kháng sinh đầu tay diệt phế cầu hiệu quả nhất.",
+    "tags": [
+      "PED-21",
+      "Amoxicillin-lieu-cao",
+      "Nong-do-dinh"
+    ]
+  },
+  {
+    "id": "PED21-CARD-036",
+    "type": "cloze",
+    "text": "Trước khi đếm nhịp thở ở trẻ đang sốt cao ≥ 38.5 °C, bước bắt buộc phải thực hiện là {{c1::hạ sốt bằng Paracetamol (10–15 mg/kg) và đợi 30–45 phút}} cho trẻ hạ nhiệt độ.",
+    "extra": "Thân nhiệt tăng kích thích trung tâm hô hấp làm nhịp thở tăng trung bình 7–10 nhịp/phút cho mỗi 1 °C sốt, dễ gây chẩn đoán nhầm.",
+    "tags": [
+      "PED-21",
+      "Ha-sot-truoc-dem-tho",
+      "Quy-trinh"
+    ]
+  },
+  {
+    "id": "PED21-CARD-037",
+    "type": "cloze",
+    "text": "Khi đếm nhịp thở ở trẻ nhỏ, bác sĩ quan sát sự di động của {{c1::thành bụng}} là dễ thấy và chuẩn xác nhất vì trẻ nhỏ thở bụng bằng cơ hoành.",
+    "extra": "Vén áo trẻ lên tận ngực để quan sát đồng thời cả thành bụng và lồng ngực xem có rút lõm bờ sườn hay không.",
+    "tags": [
+      "PED-21",
+      "Tho-bung",
+      "Co-hoanh",
+      "Ky-thuat"
+    ]
+  },
+  {
+    "id": "PED21-CARD-038",
+    "type": "cloze",
+    "text": "Ran ẩm nhỏ hạt (Fine crackles) nghe được ở phổi trong viêm phổi phát sinh do cơ chế {{c1::các phế nang chứa dịch rỉ dính mở bung ra đột ngột ở cuối thì hít vào}}.",
+    "extra": "Khác với ran ẩm to hạt do dịch đọng ở phế quản lớn nghe thấy ở cả hai thì và có thể thay đổi sau khi ho khạc.",
+    "tags": [
+      "PED-21",
+      "Ran-am-nho-hat",
+      "Nghe-phoi"
+    ]
+  },
+  {
+    "id": "PED21-CARD-039",
+    "type": "cloze",
+    "text": "Tiếng thổi ống (Bronchial breath sounds) nghe được trên vùng phổi tổn thương phản ánh tình trạng {{c1::nhu mô phổi bị đông đặc truyền âm thanh khí quản ra thành ngực tốt hơn}}.",
+    "extra": "Âm thanh thô ráp nghe rõ cả thì hít vào và thở ra với khoảng ngừng ngắn ở giữa, thường đi kèm với tiếng dê kêu (Egophony).",
+    "tags": [
+      "PED-21",
+      "Tieng-thoi-ong",
+      "Dong-dac-nhu-mo"
+    ]
+  },
+  {
+    "id": "PED21-CARD-040",
+    "type": "cloze",
+    "text": "Lý do quan trọng nhất khiến các hướng dẫn quốc tế chống chỉ định chụp X-quang phổi thường quy cho viêm phổi nhẹ ngoại trú là vì X-quang {{c1::không giúp phân biệt chính xác căn nguyên virus vs vi khuẩn}}.",
+    "extra": "Hình ảnh thâm nhiễm kẽ do virus rất dễ bị đọc nhầm thành viêm phổi vi khuẩn, dẫn đến việc kê đơn kháng sinh không cần thiết.",
+    "tags": [
+      "PED-21",
+      "X-quang",
+      "Khong-phan-biet-virus-vi-khuan"
+    ]
+  },
+  {
+    "id": "PED21-CARD-041",
+    "type": "cloze",
+    "text": "Nguyên lý an toàn bức xạ y khoa yêu cầu hạn chế tối đa việc chụp X-quang không cần thiết cho trẻ em được viết tắt là {{c1::ALARA (As Low As Reasonably Achievable)}}.",
+    "extra": "Mô và tế bào trẻ nhỏ đang phân chia nhanh, có độ nhạy cảm phóng xạ cao gấp nhiều lần người lớn.",
+    "tags": [
+      "PED-21",
+      "ALARA",
+      "An-toan-buc-xa"
+    ]
+  },
+  {
+    "id": "PED21-CARD-042",
+    "type": "cloze",
+    "text": "Xét nghiệm Cấy máu (Blood culture) được chỉ định bắt buộc trong viêm phổi trẻ em đối với trường hợp {{c1::Viêm phổi nặng cần nhập viện điều trị bằng kháng sinh đường tiêm}}.",
+    "extra": "Không chỉ định cấy máu thường quy cho trẻ viêm phổi nhẹ điều trị ngoại trú vì tỷ lệ dương tính cực kỳ thấp (< 1–2%).",
+    "tags": [
+      "PED-21",
+      "Cay-mau",
+      "Chi-dinh"
+    ]
+  },
+  {
+    "id": "PED21-CARD-043",
+    "type": "cloze",
+    "text": "Hiện tượng một đứa trẻ viêm phổi nặng thở nhanh 65 lần/phút đột ngột giảm xuống 35 lần/phút kèm li bì lơ mơ được gọi là cạm bẫy {{c1::Cải thiện giả (Pseudo-improvement) do kiệt sức cơ hoành}}.",
+    "extra": "Trẻ không hề đỡ bệnh; cơ hoành đã tê liệt hoàn toàn, khí CO2 ứ đọng gây hôn mê toan hô hấp; cần đặt nội khí quản bóp bóng ngay.",
+    "tags": [
+      "PED-21",
+      "Cai-thien-gia",
+      "Kiet-suc-co-ho-hap"
+    ]
+  },
+  {
+    "id": "PED21-CARD-044",
+    "type": "cloze",
+    "text": "Dấu hiệu đầu gật gù theo nhịp thở (Head Bobbing) ở trẻ nhũ nhi chỉ điểm sự tham gia tối đa của {{c1::cơ ức đòn chũm}} khi cơ hoành đã cận kề kiệt sức.",
+    "extra": "Đầu ngửa ra khi hít vào và gục xuống khi thở ra. Trẻ có dấu hiệu này bắt buộc phải chuyển phòng cấp cứu PICU ngay lập tức.",
+    "tags": [
+      "PED-21",
+      "Head-bobbing",
+      "Co-uc-don-chum"
+    ]
+  },
+  {
+    "id": "PED21-CARD-045",
+    "type": "cloze",
+    "text": "Tam chứng kinh điển của Hội chứng ba giảm gợi ý tràn dịch màng phổi trên khám thực thể gồm: {{c1::Gõ đục, Rung thanh giảm, Rì rào phế nang giảm hoặc mất}}.",
+    "extra": "Dịch mủ màng phổi ngăn cách nhu mô phổi với thành ngực, cản trở sự truyền âm thanh và rung động.",
+    "tags": [
+      "PED-21",
+      "Hoi-chung-ba-giam",
+      "Tran-dich-mang-phoi"
+    ]
+  },
+  {
+    "id": "PED21-CARD-046",
+    "type": "cloze",
+    "text": "Viêm phổi do Tụ cầu vàng tiết độc tố PVL (CA-MRSA) có đặc điểm lâm sàng tiến triển tối cấp với hình ảnh X-quang phổi xuất hiện các {{c1::Bóng khí nhu mô phổi (Pneumatocele)}} trong vòng 24–48 giờ.",
+    "extra": "Bóng khí mỏng manh có thể vỡ gây tràn khí màng phổi áp lực; đòi hỏi dùng Vancomycin phối hợp Clindamycin ngay.",
+    "tags": [
+      "PED-21",
+      "CA-MRSA",
+      "Pneumatocele",
+      "Tu-cau"
+    ]
+  },
+  {
+    "id": "PED21-CARD-047",
+    "type": "cloze",
+    "text": "Trong chẩn đoán hội chứng suy hô hấp cấp tiến triển ở trẻ em (pARDS), tiêu chuẩn chỉ số oxy hóa Oxygenation Index (OI) được tính bằng công thức: {{c1::OI = (Mean Airway Pressure x FiO2 x 100) / PaO2}}.",
+    "extra": "pARDS nhẹ khi OI từ 4 đến 8; trung bình khi OI từ 8 đến 16; nặng khi OI ≥ 16.",
+    "tags": [
+      "PED-21",
+      "pARDS",
+      "Oxygenation-Index",
+      "Cong-thuc"
+    ]
+  },
+  {
+    "id": "PED21-CARD-048",
+    "type": "cloze",
+    "text": "Liều Amoxicillin đường uống khuyến cáo cho viêm phổi ngoại trú ở trẻ từ 2 tháng đến 5 tuổi là {{c1::80–90 mg/kg/ngày}} chia làm 2 hoặc 3 lần.",
+    "extra": "Uống sau ăn để giảm kích ứng dạ dày. Chia 2 lần (mỗi 12 giờ) giúp gia đình dễ tuân thủ điều trị hơn chia 3 lần.",
+    "tags": [
+      "PED-21",
+      "Amoxicillin",
+      "Lieu-uong",
+      "80-90mg"
+    ]
+  },
+  {
+    "id": "PED21-CARD-049",
+    "type": "cloze",
+    "text": "Thời gian điều trị kháng sinh Amoxicillin ngoại trú tối ưu cho viêm phổi không biến chứng đáp ứng tốt là {{c1::5 ngày}}.",
+    "extra": "Bằng chứng từ các thử nghiệm lâm sàng ngẫu nhiên mù đôi CAP-IT (2021) và SAFER (2021) chứng minh 5 ngày tương đương 10 ngày.",
+    "tags": [
+      "PED-21",
+      "Thoi-gian-dieu-tri",
+      "5-ngay"
+    ]
+  },
+  {
+    "id": "PED21-CARD-050",
+    "type": "cloze",
+    "text": "Trần liều tối đa hàng ngày của Amoxicillin đường uống ở trẻ em có cân nặng lớn là {{c1::2000–3000 mg/ngày}}.",
+    "extra": "Không vượt quá 3 g/ngày ngay cả khi tính theo cân nặng ở trẻ vị thành niên hoặc trẻ béo phì.",
+    "tags": [
+      "PED-21",
+      "Amoxicillin",
+      "Tran-lieu"
+    ]
+  },
+  {
+    "id": "PED21-CARD-051",
+    "type": "cloze",
+    "text": "Khi chọn thuốc Co-amoxiclav liều cao (Amoxicillin 90 mg/kg/ngày), bắt buộc phải chọn dạng bào chế có tỷ lệ Amoxicillin:Clavulanate là {{c1::7:1 hoặc 8:1}}.",
+    "extra": "Nếu dùng dạng 4:1, lượng acid clavulanic vượt ngưỡng dung nạp sẽ gây tiêu chảy thẩm thấu mất nước nghiêm trọng.",
+    "tags": [
+      "PED-21",
+      "Co-amoxiclav",
+      "Ty-le-7-1",
+      "Tieu-chay"
+    ]
+  },
+  {
+    "id": "PED21-CARD-052",
+    "type": "cloze",
+    "text": "Phác đồ liều Azithromycin đường uống điều trị viêm phổi do Mycoplasma pneumoniae ở trẻ ≥ 5 tuổi là: Ngày 1 uống {{c1::10 mg/kg (tối đa 500 mg)}}, từ Ngày 2 đến Ngày 5 uống 5 mg/kg/ngày (tối đa 250 mg).",
+    "extra": "Azithromycin có thời gian bán thải trong mô rất dài (lên tới 68 giờ), do đó chỉ cần uống 1 lần duy nhất trong ngày trong 5 ngày.",
+    "tags": [
+      "PED-21",
+      "Azithromycin",
+      "Phac-do-lieu"
+    ]
+  },
+  {
+    "id": "PED21-CARD-053",
+    "type": "cloze",
+    "text": "Kháng sinh tiêm tĩnh mạch đầu tay cho trẻ viêm phổi nặng nhập viện đã tiêm phòng Phế cầu đầy đủ là {{c1::Ampicillin 150–200 mg/kg/ngày chia mỗi 6 giờ}}.",
+    "extra": "Ampicillin bảo tồn phổ kháng khuẩn hẹp, giảm áp lực chọn lọc đề kháng Cephalosporin thế hệ 3.",
+    "tags": [
+      "PED-21",
+      "Ampicillin",
+      "Khang-sinh-TM-dau-tay"
+    ]
+  },
+  {
+    "id": "PED21-CARD-054",
+    "type": "cloze",
+    "text": "Liều Ceftriaxone tiêm tĩnh mạch trong điều trị viêm phổi nặng ở trẻ em là {{c1::50–80 mg/kg/ngày}} tiêm hoặc truyền TM 1 lần duy nhất trong ngày.",
+    "extra": "Trần liều tối đa tuyệt đối là 2 g/ngày (2000 mg/ngày). Chống chỉ định cho trẻ sơ sinh < 28 ngày tuổi.",
+    "tags": [
+      "PED-21",
+      "Ceftriaxone",
+      "Lieu-TM"
+    ]
+  },
+  {
+    "id": "PED21-CARD-055",
+    "type": "cloze",
+    "text": "Trần liều tối đa tuyệt đối của Ceftriaxone tiêm tĩnh mạch ở trẻ em là {{c1::2 g/ngày (2000 mg/ngày)}}.",
+    "extra": "Ví dụ: Trẻ nặng 35 kg tính liều 80 mg/kg = 2800 mg ➔ Bắt buộc phải kéo về trần 2000 mg/ngày để tránh biến chứng bùn mật và suy thận.",
+    "tags": [
+      "PED-21",
+      "Ceftriaxone",
+      "Tran-lieu-2g"
+    ]
+  },
+  {
+    "id": "PED21-CARD-056",
+    "type": "cloze",
+    "text": "Ceftriaxone bị chống chỉ định tuyệt đối ở trẻ sơ sinh dưới 28 ngày tuổi vì nguy cơ {{c1::cạnh tranh gắn Albumin đẩy Bilirubin tự do gây vàng da nhân não}}.",
+    "extra": "Đồng thời kết tủa không tan với dung dịch truyền chứa Calci gây lắng đọng tinh thể tại mao mạch phổi và thận dẫn đến tử vong.",
+    "tags": [
+      "PED-21",
+      "Ceftriaxone",
+      "Chong-chi-dinh-so-sinh"
+    ]
+  },
+  {
+    "id": "PED21-CARD-057",
+    "type": "cloze",
+    "text": "Kháng sinh Cephalosporin thế hệ 3 tĩnh mạch an toàn thay thế Ceftriaxone cho trẻ sơ sinh là {{c1::Cefotaxime 100–150 mg/kg/ngày chia mỗi 8 giờ}}.",
+    "extra": "Cefotaxime không cạnh tranh gắn Albumin và không gây kết tủa Calci nguy hiểm như Ceftriaxone.",
+    "tags": [
+      "PED-21",
+      "Cefotaxime",
+      "An-toan-so-sinh"
+    ]
+  },
+  {
+    "id": "PED21-CARD-058",
+    "type": "cloze",
+    "text": "Khi nghi ngờ viêm phổi hoại tử do Tụ cầu vàng kháng Methicillin (CA-MRSA), kháng sinh diệt khuẩn được phối hợp ngay là {{c1::Vancomycin 40–60 mg/kg/ngày chia 4 lần truyền chậm}}.",
+    "extra": "Mỗi liều Vancomycin phải truyền chậm tối thiểu 60 phút để tránh hội chứng Red Man do phóng thích Histamin.",
+    "tags": [
+      "PED-21",
+      "Vancomycin",
+      "CA-MRSA",
+      "Lieu-dung"
+    ]
+  },
+  {
+    "id": "PED21-CARD-059",
+    "type": "cloze",
+    "text": "Nồng độ đáy (Trough level) của Vancomycin cần đạt trong điều trị viêm phổi tụ cầu nặng là {{c1::15–20 mcg/mL}}.",
+    "extra": "Đo nồng độ đáy ngay trước cữ tiêm thứ 4 để đảm bảo hiệu quả thâm nhập nhu mô phổi và phòng ngừa độc tính trên thận.",
+    "tags": [
+      "PED-21",
+      "Vancomycin",
+      "Trough-level",
+      "15-20mcg"
+    ]
+  },
+  {
+    "id": "PED21-CARD-060",
+    "type": "cloze",
+    "text": "Kháng sinh Clindamycin được phối hợp với Vancomycin trong viêm phổi tụ cầu nặng nhằm mục đích {{c1::ức chế ribosome 50S, ngăn chặn tổng hợp độc tố Panton-Valentine Leukocidin (PVL)}}.",
+    "extra": "Độc tố PVL gây hoại tử mô phổi dữ dội; Vancomycin diệt khuẩn nhưng không ức chế tiết độc tố nhanh như Clindamycin.",
+    "tags": [
+      "PED-21",
+      "Clindamycin",
+      "PVL",
+      "Uc-che-doc-to"
+    ]
+  },
+  {
+    "id": "PED21-CARD-061",
+    "type": "cloze",
+    "text": "Trong viêm phổi nặng, thể tích dịch truyền tĩnh mạch duy trì nên được hạn chế ở mức {{c1::75–80% nhu cầu duy trì cơ bản}}.",
+    "extra": "Do tình trạng tăng tiết hormone chống bài niệu (SIADH) thứ phát gây giữ nước; truyền thừa dịch gây phù phổi kẽ và hạ Natri máu.",
+    "tags": [
+      "PED-21",
+      "Dich-truyen",
+      "SIADH",
+      "Han-che-dich"
+    ]
+  },
+  {
+    "id": "PED21-CARD-062",
+    "type": "cloze",
+    "text": "Dung dịch truyền tĩnh mạch duy trì bắt buộc ở trẻ viêm phổi nặng là dung dịch đẳng trương như {{c1::Glucose 5% trong NaCl 0.9%}}.",
+    "extra": "Tuyệt đối không dùng dung dịch nhược trương (như Glucose 5% đơn thuần) vì nguy cơ gây tụt Natri máu cấp dẫn đến phù não và co giật.",
+    "tags": [
+      "PED-21",
+      "Dich-truyen-dang-truong",
+      "NaCl-0.9%"
+    ]
+  },
+  {
+    "id": "PED21-CARD-063",
+    "type": "cloze",
+    "text": "Thời gian tối thiểu để đánh giá đáp ứng lâm sàng của phác đồ kháng sinh trong viêm phổi trẻ em là {{c1::48 đến 72 giờ}}.",
+    "extra": "Vi khuẩn cần 48–72h để bị tiêu diệt và phản ứng viêm hạ nhiệt; không đổi kháng sinh vội vàng trong 24h nếu trẻ không xấu đi cấp tính.",
+    "tags": [
+      "PED-21",
+      "Danh-gia-dap-ung",
+      "48-72h"
+    ]
+  },
+  {
+    "id": "PED21-CARD-064",
+    "type": "cloze",
+    "text": "Tại trạm y tế cơ sở thiếu thốn trang thiết bị (Plan B), phương tiện chẩn đoán viêm phổi chủ yếu dựa vào {{c1::giác quan lâm sàng: đếm nhịp thở bằng mắt 60 giây và quan sát rút lõm lồng ngực}}.",
+    "extra": "Không cần ống nghe hay X-quang, phân loại WHO dựa vào nhịp thở và rút lõm đã cứu sống hàng triệu trẻ em trên toàn cầu.",
+    "tags": [
+      "PED-21",
+      "Plan-B",
+      "Tram-y-te",
+      "Lam-sang"
+    ]
+  },
+  {
+    "id": "PED21-CARD-065",
+    "type": "cloze",
+    "text": "Khi một trẻ viêm phổi ngoại trú tái khám sau 48 giờ mà nhịp thở tăng lên, rút lõm lồng ngực sâu hơn hoặc sốt cao hơn, xử trí chuẩn là {{c1::chuyển viện nhập viện ngay để tiêm kháng sinh và chụp X-quang}}.",
+    "extra": "Dấu hiệu thất bại điều trị ngoại trú; nguy cơ phế cầu kháng thuốc cao hoặc đã xuất hiện biến chứng tràn dịch màng phổi.",
+    "tags": [
+      "PED-21",
+      "That-bai-ngoai-tru",
+      "Chuyen-vien"
+    ]
+  },
+  {
+    "id": "PED21-CARD-066",
+    "type": "cloze",
+    "text": "Thử nghiệm lâm sàng ngẫu nhiên mù đôi CAP-IT (JAMA 2021) thực hiện trên 814 trẻ em chứng minh rằng liệu trình Amoxicillin {{c1::3 ngày}} không thua kém liệu trình 7 ngày về tỷ lệ phải điều trị lại.",
+    "extra": "Mở đường cho xu hướng rút ngắn thời gian dùng kháng sinh ở trẻ viêm phổi ngoại trú xuống còn 3–5 ngày.",
+    "tags": [
+      "PED-21",
+      "CAP-IT",
+      "JAMA-2021",
+      "EBM"
+    ]
+  },
+  {
+    "id": "PED21-CARD-067",
+    "type": "cloze",
+    "text": "Thử nghiệm SAFER (JAMA Pediatr 2021) so sánh Amoxicillin 5 ngày vs 10 ngày ở trẻ viêm phổi ngoại trú, khẳng định tỷ lệ khỏi bệnh lâm sàng là {{c1::hoàn toàn tương đương (88.6% vs 88.5%)}}.",
+    "extra": "Liệu trình 5 ngày giảm phơi nhiễm kháng sinh, ít tác dụng phụ tiêu hóa và giảm áp lực vi khuẩn đề kháng.",
+    "tags": [
+      "PED-21",
+      "SAFER-trial",
+      "5-ngay-vs-10-ngay"
+    ]
+  },
+  {
+    "id": "PED21-CARD-068",
+    "type": "cloze",
+    "text": "Nghiên cứu dịch tễ học quy mô lớn EPIC của CDC Hoa Kỳ (NEJM 2015) chứng minh Mycoplasma pneumoniae {{c1::rất hiếm khi là tác nhân gây viêm phổi nặng ở trẻ dưới 5 tuổi}}.",
+    "extra": "Do đó, không khuyến cáo kê đơn Macrolide (Azithromycin) thường quy cho trẻ dưới 5 tuổi.",
+    "tags": [
+      "PED-21",
+      "EPIC-study",
+      "Mycoplasma",
+      "Tre-duoi-5-tuoi"
+    ]
+  },
+  {
+    "id": "PED21-CARD-069",
+    "type": "cloze",
+    "text": "Đếm nhịp thở khi trẻ đang khóc hoặc đang sốt cao 39.5 °C sẽ dẫn đến cạm bẫy lâm sàng {{c1::chẩn đoán nhầm viêm phổi và lạm dụng kháng sinh}} do nhịp thở tăng sinh lý.",
+    "extra": "Luôn hạ sốt và dỗ trẻ nín khóc, nằm yên tĩnh hoặc ngủ rồi mới tiến hành đếm trọn 60 giây.",
+    "tags": [
+      "PED-21",
+      "Bay-dem-tho",
+      "Sot-cao",
+      "Tre-khoc"
+    ]
+  },
+  {
+    "id": "PED21-CARD-070",
+    "type": "cloze",
+    "text": "Kê đơn Amoxicillin liều thấp 40–50 mg/kg/ngày cho viêm phổi phế cầu sẽ dẫn đến {{c1::thất bại điều trị do không vượt qua được nồng độ MIC của phế cầu kháng trung gian}}.",
+    "extra": "Bắt buộc phải dùng liều cao 80–90 mg/kg/ngày để đẩy nồng độ đỉnh huyết thanh lên 8–10 mcg/mL.",
+    "tags": [
+      "PED-21",
+      "Amox-lieu-thap",
+      "That-bai-dieu-tri"
+    ]
+  },
+  {
+    "id": "PED21-CARD-071",
+    "type": "cloze",
+    "text": "Vội vã đổi kháng sinh trong vòng 24 giờ đầu chỉ vì trẻ còn sốt là sai lầm vì sốt do nhiễm khuẩn phổi thường cần {{c1::48 đến 72 giờ}} để thuyên giảm hoàn toàn.",
+    "extra": "Nếu tổng trạng trẻ ổn định, nhịp thở không tăng, SpO2 duy trì tốt thì cần kiên trì phác đồ đủ 48–72 giờ mới đánh giá đáp ứng.",
+    "tags": [
+      "PED-21",
+      "Doi-khang-sinh-som",
+      "Bay-lam-sang"
+    ]
+  },
+  {
+    "id": "PED21-CARD-072",
+    "type": "cloze",
+    "text": "Cefixime đường uống không được khuyến cáo là thuốc đầu tay cho viêm phổi trẻ em vì {{c1::nồng độ trong dịch mô phổi thấp và ái lực với PBP của phế cầu kém hơn Amoxicillin}}.",
+    "extra": "Dù là Cephalosporin thế hệ 3, Cefixime có tỷ lệ thất bại lâm sàng cao hơn Amoxicillin liều cao trong diệt phế cầu.",
+    "tags": [
+      "PED-21",
+      "Cefixime",
+      "Khong-khuyen-cao"
+    ]
+  },
+  {
+    "id": "PED21-CARD-073",
+    "type": "cloze",
+    "text": "Các thuốc giảm ho ức chế thần kinh trung ương (Codein, Dextromethorphan) bị chống chỉ định tuyệt đối vì {{c1::ức chế phản xạ tống xuất đờm, gây ứ đọng dịch mủ tắc nghẽn phế nang}}.",
+    "extra": "Làm nặng thêm tình trạng suy hô hấp và xẹp phổi. Trẻ cần ho để làm sạch đường thở tự nhiên.",
+    "tags": [
+      "PED-21",
+      "Thuoc-giam-ho",
+      "Chong-chi-dinh"
+    ]
+  },
+  {
+    "id": "PED21-CARD-074",
+    "type": "cloze",
+    "text": "Thuốc tan đờm đường uống (Ambroxol, Acetylcysteine) không khuyến cáo cho trẻ < 2 tuổi vì {{c1::làm tăng thể tích đờm loãng nhưng trẻ không đủ lực ho khạc, gây ngập lụt đường thở}}.",
+    "extra": "Đặc biệt nguy hiểm ở trẻ nhũ nhi cơ hoành non yếu; chỉ nên làm ẩm đường thở và hút rửa mũi nông.",
+    "tags": [
+      "PED-21",
+      "Thuoc-tan-dom",
+      "Nguy-co-ngap-lut"
+    ]
+  },
+  {
+    "id": "PED21-CARD-075",
+    "type": "cloze",
+    "text": "Trẻ viêm phổi thùy dưới có thể biểu hiện bằng triệu chứng đau bụng cấp dữ dội do {{c1::kích thích các dây thần kinh gian sườn dưới chi phối thành bụng}}.",
+    "extra": "Rất dễ bị chẩn đoán nhầm thành Viêm ruột thừa cấp. Luôn nghe phổi và đếm nhịp thở ở mọi trẻ đau bụng sốt.",
+    "tags": [
+      "PED-21",
+      "Dau-bung-cap",
+      "Viem-ruot-thua-nham"
+    ]
+  },
+  {
+    "id": "PED21-CARD-076",
+    "type": "cloze",
+    "text": "Ở trẻ 10 tháng tuổi sốt 39.2 °C có nhịp thở ban đầu 56 lần/phút, nếu sau khi hạ sốt nhịp thở giảm xuống 46 lần/phút thì kết luận là: {{c1::Không thở nhanh (ngưỡng tuổi 2–11 tháng là ≥ 50 lần/phút)}}.",
+    "extra": "Trẻ không bị viêm phổi; nhịp thở tăng ban đầu hoàn toàn là do đáp ứng sinh lý với cơn sốt cao.",
+    "tags": [
+      "PED-21",
+      "Checkpoint-1",
+      "Dap-ung-ha-sot"
+    ]
+  },
+  {
+    "id": "PED21-CARD-077",
+    "type": "cloze",
+    "text": "Một trẻ 3 tuổi nặng 14 kg bị viêm phổi không nặng ngoại trú, liều Amoxicillin 90 mg/kg/ngày được tính là {{c1::1260 mg/ngày (chia 2 lần, mỗi lần khoảng 600–650 mg)}}.",
+    "extra": "Uống trong đúng 5 ngày. Dặn người nhà nhận diện các dấu hiệu cờ đỏ tái khám ngay lập tức.",
+    "tags": [
+      "PED-21",
+      "Checkpoint-2",
+      "Tinh-lieu-Amoxicillin"
+    ]
+  },
+  {
+    "id": "PED21-CARD-078",
+    "type": "cloze",
+    "text": "Một trẻ 9 tuổi nặng 40 kg nhập viện vì viêm phổi nặng, nếu tính liều Ceftriaxone 80 mg/kg/ngày sẽ ra 3200 mg, bác sĩ bắt buộc phải kê đơn ở mức {{c1::2 g/ngày (2000 mg/ngày) do trần liều người lớn}}.",
+    "extra": "Kê 3.2 g/ngày làm tăng vọt nguy cơ lắng đọng tinh thể muối Calci-Ceftriaxone gây suy thận cấp và bùn mật.",
+    "tags": [
+      "PED-21",
+      "Checkpoint-3",
+      "Tran-lieu-Ceftriaxone"
+    ]
+  },
+  {
+    "id": "PED21-CARD-079",
+    "type": "cloze",
+    "text": "Phương tiện chẩn đoán hình ảnh tại giường được ưu tiên số 1 để đánh giá tràn dịch màng phổi có vách ngăn ở trẻ viêm phổi sốt dai dẳng là {{c1::Siêu âm màng phổi}}.",
+    "extra": "Siêu âm nhạy hơn X-quang thường quy, không gây nhiễm xạ như CT scan, và định vị vị trí chọc dẫn lưu an toàn.",
+    "tags": [
+      "PED-21",
+      "Checkpoint-4",
+      "Sieu-am-mang-phoi"
+    ]
+  },
+  {
+    "id": "PED21-CARD-080",
+    "type": "cloze",
+    "text": "Ở trẻ 14 tháng tuổi nặng 10 kg viêm phổi ngoại trú có nhịp thở 48 lần/phút, liều Amoxicillin chuẩn xác là {{c1::900 mg/ngày (mỗi lần 450 mg x 2 lần/ngày trong 5 ngày)}}.",
+    "extra": "Trẻ tỉnh táo, SpO2 96%, bú tốt; không chỉ định chụp X-quang phổi thẳng thường quy.",
+    "tags": [
+      "PED-21",
+      "Ca-lam-sang-1",
+      "Lieu-Amox-10kg"
+    ]
+  },
+  {
+    "id": "PED21-CARD-081",
+    "type": "cloze",
+    "text": "Ở trẻ 3 tuổi nặng 14 kg viêm phổi nặng có biến chứng tràn mủ màng phổi, bên cạnh Ceftriaxone, kháng sinh phối hợp để bao phủ CA-MRSA là {{c1::Vancomycin (60 mg/kg/ngày chia 4 lần truyền chậm)}}.",
+    "extra": "Liều: 840 mg/ngày (210 mg mỗi 6 giờ), truyền chậm trong 60 phút và theo dõi nồng độ đáy mục tiêu 15–20 mcg/mL.",
+    "tags": [
+      "PED-21",
+      "Ca-lam-sang-2",
+      "Vancomycin-lieu"
+    ]
+  },
+  {
+    "id": "PED21-CARD-082",
+    "type": "cloze",
+    "text": "Chỉ định đặt ống dẫn lưu khoang màng phổi kín (Chest tube) ở trẻ tràn dịch màng phổi do viêm phổi khi xét nghiệm dịch màng phổi có {{c1::mủ đại thể hoặc pH dịch màng phổi < 7.20}}.",
+    "extra": "Dẫn lưu sớm giúp giải phóng nhu mô phổi bị chèn ép, hạ sốt nhanh và phòng ngừa hình thành vỏ bọc xơ giam cầm phổi.",
+    "tags": [
+      "PED-21",
+      "Dan-luu-mang-phoi",
+      "Tieu-chuan-pH"
+    ]
+  },
+  {
+    "id": "PED21-CARD-083",
+    "type": "cloze",
+    "text": "Trước khi đặt mặt ống nghe lạnh lên ngực trẻ nhỏ, bác sĩ luôn phải {{c1::xoa ấm hai bàn tay và mặt ống nghe}}.",
+    "extra": "Mặt kim loại lạnh làm trẻ giật mình khóc thét, làm mất hoàn toàn cơ hội đếm nhịp thở và nghe ran phế nang chính xác.",
+    "tags": [
+      "PED-21",
+      "Clinical-pearl",
+      "Xoa-am-ong-nghe"
+    ]
+  },
+  {
+    "id": "PED21-CARD-084",
+    "type": "cloze",
+    "text": "Để phát hiện tiếng thở rên tinh tế ở giai đoạn sớm, bác sĩ nên {{c1::ghé sát tai trần vào mũi miệng trẻ hoặc đặt màng ống nghe ngay trước miệng}}.",
+    "extra": "Tiếng 'hừ' ngắn ở thì thở ra sẽ nghe thấy rõ ràng ngay cả khi đứng xa giường bệnh chưa nhận thấy.",
+    "tags": [
+      "PED-21",
+      "Clinical-pearl",
+      "Phat-hien-tho-ren"
+    ]
+  },
+  {
+    "id": "PED21-CARD-085",
+    "type": "cloze",
+    "text": "Để hạn chế nôn ói khi trẻ nhỏ uống Amoxicillin liều cao hỗn dịch, dặn người nhà cho trẻ uống {{c1::từng thìa nhỏ sau bữa ăn nhẹ 15–30 phút}}.",
+    "extra": "Tránh ép trẻ uống nguyên cả cốc một lần gây phản xạ nôn trớ hầu họng và làm mất liều thuốc.",
+    "tags": [
+      "PED-21",
+      "Clinical-pearl",
+      "Chong-non-thuoc"
+    ]
+  },
+  {
+    "id": "PED21-CARD-086",
+    "type": "cloze",
+    "text": "Chỉ số SpO2 trên máy monitor chỉ đáng tin cậy khi đường cong sóng xung mạch {{c1::(Plethysmogram) đập đều đặn và tần số mạch trùng với nhịp tim nghe được}}.",
+    "extra": "Không ra quyết định điều trị dựa trên con số SpO2 nhảy loạn xạ khi trẻ quấy khóc hoặc đầu chi lạnh co mạch.",
+    "tags": [
+      "PED-21",
+      "Clinical-pearl",
+      "Song-Plethysmogram"
+    ]
+  },
+  {
+    "id": "PED21-CARD-087",
+    "type": "cloze",
+    "text": "Nghi ngờ viêm phổi do sặc dị vật đường thở bỏ quên khi trẻ có tiền sử ho sặc sụa đột ngột và {{c1::viêm phổi tái đi tái lại tại đúng một vị trí thùy phổi}}.",
+    "extra": "Dị vật phế quản gây tắc nghẽn cục bộ dẫn đến ứ đọng dịch xuất tiết và nhiễm khuẩn tái diễn; cần chỉ định nội soi phế quản gắp dị vật.",
+    "tags": [
+      "PED-21",
+      "Clinical-pearl",
+      "Di-vat-bo-quen"
+    ]
+  },
+  {
+    "id": "PED21-CARD-088",
+    "type": "cloze",
+    "text": "Phân biệt tiếng thở rít (Stridor) và khò khè (Wheezing): Thở rít nghe rõ ở thì {{c1::hít vào}} (hẹp đường thở trên), còn khò khè nghe rõ ở thì {{c1::thở ra}} (hẹp đường thở dưới).",
+    "extra": "Nhầm lẫn hai tiếng thở này sẽ dẫn đến chẩn đoán sai giữa Croup (viêm thanh khí phế quản) và Viêm phổi/Hen/Viêm tiểu phế quản.",
+    "tags": [
+      "PED-21",
+      "Clinical-pearl",
+      "Stridor-vs-Wheezing"
+    ]
+  },
+  {
+    "id": "PED21-CARD-089",
+    "type": "cloze",
+    "text": "Khi đi buồng trực, ba mốc ngưỡng thở nhanh WHO bắt buộc phải thuộc lòng là: < 2 tháng (≥ 60 l/p), 2–11 tháng (≥ 50 l/p), và 1–5 tuổi {{c1::(≥ 40 lần/phút)}}.",
+    "extra": "Luôn đếm trọn 60 giây khi trẻ nằm yên tĩnh và đã được hạ sốt an toàn.",
+    "tags": [
+      "PED-21",
+      "10-dieu-ca-truc",
+      "Moc-tho-nhanh"
+    ]
+  },
+  {
+    "id": "PED21-CARD-090",
+    "type": "cloze",
+    "text": "Kháng sinh Amoxicillin điều trị ngoại trú viêm phổi trẻ em bắt buộc phải dùng liều cao {{c1::80–90 mg/kg/ngày}} trong đúng 5 ngày.",
+    "extra": "Tuyệt đối không dùng liều thấp 40–50 mg/kg/ngày vì nguy cơ thất bại điều trị do phế cầu kháng thuốc.",
+    "tags": [
+      "PED-21",
+      "10-dieu-ca-truc",
+      "Amox-80-90mg"
+    ]
+  },
+  {
+    "id": "PED21-CARD-091",
+    "type": "cloze",
+    "text": "Trần liều tối đa của Ceftriaxone tiêm tĩnh mạch trong viêm phổi trẻ em là {{c1::2 g/ngày (2000 mg/ngày)}}.",
+    "extra": "Không vượt quá 2 g/ngày ngay cả khi tính theo cân nặng ở trẻ lớn trên 25–35 kg.",
+    "tags": [
+      "PED-21",
+      "10-dieu-ca-truc",
+      "Tran-lieu-Ceftriaxone"
+    ]
+  },
+  {
+    "id": "PED21-CARD-092",
+    "type": "cloze",
+    "text": "Ceftriaxone bị chống chỉ định tuyệt đối ở trẻ sơ sinh dưới 28 ngày tuổi, kháng sinh thay thế an toàn là {{c1::Cefotaxime}}.",
+    "extra": "Cefotaxime không cạnh tranh gắn Albumin và không gây kết tủa Calci nguy hiểm như Ceftriaxone.",
+    "tags": [
+      "PED-21",
+      "10-dieu-ca-truc",
+      "Cefotaxime-so-sinh"
+    ]
+  },
+  {
+    "id": "PED21-CARD-093",
+    "type": "cloze",
+    "text": "Trẻ viêm phổi nhẹ điều trị ngoại trú {{c1::KHÔNG CẦN chụp X-quang phổi thẳng thường quy}}.",
+    "extra": "Tuân thủ EBM: X-quang không làm thay đổi tiên lượng điều trị mà gây nhiễm xạ và lạm dụng kháng sinh.",
+    "tags": [
+      "PED-21",
+      "10-dieu-ca-truc",
+      "Khong-chup-X-quang"
+    ]
+  },
+  {
+    "id": "PED21-CARD-094",
+    "type": "cloze",
+    "text": "Khi trẻ viêm phổi nặng thở chậm lại kèm tri giác li bì, đây là cạm bẫy cải thiện giả do {{c1::kiệt sức cơ hoành và ứ đọng CO2}}.",
+    "extra": "Cần bóp bóng oxy 100% qua mặt nạ và chuẩn bị đặt nội khí quản thở máy cấp cứu ngay.",
+    "tags": [
+      "PED-21",
+      "10-dieu-ca-truc",
+      "Kiet-suc-co-hoanh"
+    ]
+  },
+  {
+    "id": "PED21-CARD-095",
+    "type": "cloze",
+    "text": "Thời gian tối thiểu để đánh giá đáp ứng lâm sàng của kháng sinh trong viêm phổi là {{c1::48 đến 72 giờ}}.",
+    "extra": "Không vội vàng đổi kháng sinh trong 24 giờ đầu nếu tổng trạng trẻ vẫn ổn định và không suy sụp.",
+    "tags": [
+      "PED-21",
+      "10-dieu-ca-truc",
+      "Danh-gia-48-72h"
+    ]
+  },
+  {
+    "id": "PED21-CARD-096",
+    "type": "cloze",
+    "text": "Nghi ngờ biến chứng Tràn mủ màng phổi khi trẻ sốt cao liên tục sau 48–72 giờ dùng kháng sinh kèm hội chứng {{c1::ba giảm (gõ đục, rung thanh giảm, âm phế bào mất)}}.",
+    "extra": "Chỉ định ngay Siêu âm màng phổi tại giường để phát hiện dịch và định vị dẫn lưu mủ sớm.",
+    "tags": [
+      "PED-21",
+      "10-dieu-ca-truc",
+      "Nghi-ngo-empyema"
+    ]
+  },
+  {
+    "id": "PED21-CARD-097",
+    "type": "cloze",
+    "text": "Thuốc giảm ho ức chế trung ương (Codein, Dextromethorphan) bị {{c1::chống chỉ định tuyệt đối}} ở trẻ em bị viêm phổi.",
+    "extra": "Ức chế phản xạ ho gây ứ đọng dịch mủ phế nang, làm nặng thêm xẹp phổi và suy hô hấp.",
+    "tags": [
+      "PED-21",
+      "10-dieu-ca-truc",
+      "Chong-chi-dinh-thuoc-ho"
+    ]
+  },
+  {
+    "id": "PED21-CARD-098",
+    "type": "cloze",
+    "text": "Trong viêm phổi nặng có truyền dịch tĩnh mạch, thể tích dịch phải được hạn chế ở mức {{c1::75–80% nhu cầu bình thường}} để phòng ngừa hội chứng SIADH.",
+    "extra": "Truyền thừa dịch thể gây phù phổi kẽ và hạ Natri máu cấp co giật.",
+    "tags": [
+      "PED-21",
+      "10-dieu-ca-truc",
+      "Han-che-dich-SIADH"
+    ]
+  },
+  {
+    "id": "PED21-CARD-099",
+    "type": "cloze",
+    "text": "Tỷ lệ kháng sinh diệt phế cầu tối ưu đòi hỏi nồng độ Amoxicillin tự do trong dịch lót phế nang vượt MIC ít nhất {{c1::40–50% khoảng cách giữa các liều}}.",
+    "extra": "Đặc tính diệt khuẩn phụ thuộc thời gian (Time-dependent killing) của nhóm Beta-lactam.",
+    "tags": [
+      "PED-21",
+      "PK-PD",
+      "T-tren-MIC-phe-cau"
+    ]
+  },
+  {
+    "id": "PED21-CARD-100",
+    "type": "cloze",
+    "text": "Ở trẻ lớn trên 5 tuổi bị viêm phổi nghi ngờ không điển hình (ho khan dai dẳng, thâm nhiễm kẽ), kháng sinh lựa chọn đầu tay là {{c1::Azithromycin (hoặc Clarithromycin)}}.",
+    "extra": "Macrolide tác động lên ribosome 50S ức chế vi khuẩn không có vách tế bào như Mycoplasma pneumoniae.",
+    "tags": [
+      "PED-21",
+      "Tre-tren-5-tuoi",
+      "Macrolide-dau-tay"
+    ]
+  }
+]

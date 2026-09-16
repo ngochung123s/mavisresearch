@@ -1,0 +1,1119 @@
+[
+  {
+    "id": "PED16-CARD-001",
+    "type": "cloze",
+    "text": "Nhiễm khuẩn sơ sinh khởi phát sớm (EOS - Early-Onset Sepsis) được định nghĩa là tình trạng nhiễm khuẩn huyết xuất hiện trong vòng {{c1::< 72 giờ đầu đời}}.",
+    "extra": "Cơ chế chủ yếu là lây truyền dọc (Vertical transmission) từ mẹ sang con trước hoặc trong quá trình chuyển dạ.",
+    "tags": [
+      "PED-16",
+      "Dinh-nghia",
+      "EOS",
+      "Ranh-gioi-72h"
+    ]
+  },
+  {
+    "id": "PED16-CARD-002",
+    "type": "cloze",
+    "text": "Nhiễm khuẩn sơ sinh khởi phát muộn (LOS - Late-Onset Sepsis) được định nghĩa là tình trạng nhiễm khuẩn huyết xuất hiện từ {{c1::≥ 72 giờ tuổi trở lên}}.",
+    "extra": "Cơ chế chủ yếu là lây truyền ngang (Horizontal transmission) từ môi trường bệnh viện, bàn tay nhân viên y tế hoặc catheter xâm lấn.",
+    "tags": [
+      "PED-16",
+      "Dinh-nghia",
+      "LOS",
+      "Ranh-gioi-72h"
+    ]
+  },
+  {
+    "id": "PED16-CARD-003",
+    "type": "cloze",
+    "text": "Kháng sinh dự phòng trong chuyển dạ (IAP - Intrapartum Antibiotic Prophylaxis) được chỉ định truyền tĩnh mạch cho sản phụ nhằm mục đích chính là {{c1::ngăn ngừa lây truyền dọc vi khuẩn Liên cầu nhóm B (GBS) sang thai nhi}}.",
+    "extra": "IAP giúp giảm hơn 80% tỷ lệ mắc nhiễm khuẩn sơ sinh sớm do GBS ở các nước phát triển.",
+    "tags": [
+      "PED-16",
+      "IAP",
+      "Du-phong-GBS"
+    ]
+  },
+  {
+    "id": "PED16-CARD-004",
+    "type": "cloze",
+    "text": "Công cụ Kaiser Permanente Sepsis Calculator kết hợp các yếu tố nguy cơ tiền sản với {{c1::tình trạng lâm sàng thực tế của trẻ sau sinh}} để cá thể hóa quyết định dùng kháng sinh.",
+    "extra": "Giúp giảm 40–50% tỷ lệ dùng kháng sinh không cần thiết và giảm 70–80% số lần chọc máu xét nghiệm ở trẻ ≥ 34 tuần.",
+    "tags": [
+      "PED-16",
+      "Kaiser-Sepsis-Calculator",
+      "EBM"
+    ]
+  },
+  {
+    "id": "PED16-CARD-005",
+    "type": "cloze",
+    "text": "Tỷ lệ tế bào hạt non trên tổng số bạch cầu hạt trung tính (Tỷ lệ I/T) đạt ngưỡng {{c1::≥ 0.20}} là dấu hiệu gợi ý tủy xương đang bị kích thích mạnh giải phóng tế bào non do nhiễm trùng.",
+    "extra": "I/T = (Bạch cầu đũa + Tiền tủy bào + Tủy bào) / Tổng bạch cầu hạt trung tính.",
+    "tags": [
+      "PED-16",
+      "Ty-le-IT",
+      "Cong-thuc-mau"
+    ]
+  },
+  {
+    "id": "PED16-CARD-006",
+    "type": "cloze",
+    "text": "Chiến lược 'Rule-Out Sepsis' cho phép bác sĩ ngừng kháng sinh an toàn ở thời điểm {{c1::36 đến 48 giờ sau sinh}} nếu cấy máu âm tính và trẻ hoàn toàn khỏe mạnh.",
+    "extra": "Hơn 95% mầm bệnh huyết thực sự sẽ mọc trong 36–48h đầu; ngừng thuốc sớm giúp bảo tồn hệ vi sinh đường ruột sơ sinh.",
+    "tags": [
+      "PED-16",
+      "Rule-Out-Sepsis",
+      "Quan-ly-khang-sinh"
+    ]
+  },
+  {
+    "id": "PED16-CARD-007",
+    "type": "cloze",
+    "text": "Dấu hiệu thân nhiệt báo động đỏ cảnh báo nhiễm khuẩn huyết tối nguy hiểm ở trẻ sơ sinh là {{c1::Hạ thân nhiệt (< 36.0 °C)}} không đáp ứng với ủ ấm.",
+    "extra": "Trẻ sơ sinh điều nhiệt kém và mô mỡ nâu bị ức chế bởi độc tố vi khuẩn; hạ thân nhiệt nguy hiểm hơn nhiều so với sốt cao.",
+    "tags": [
+      "PED-16",
+      "Ha-than-nhiet",
+      "Co-do-cap-cuu"
+    ]
+  },
+  {
+    "id": "PED16-CARD-008",
+    "type": "cloze",
+    "text": "Cơn ngừng thở (Apnea) bệnh lý ở trẻ sơ sinh nghi ngờ nhiễm khuẩn huyết được định nghĩa khi thời gian ngừng thở kéo dài {{c1::> 15–20 giây}}, hoặc bất kỳ thời lượng nào có kèm theo tím tái hoặc nhịp tim chậm.",
+    "extra": "Khác với thở ngắt quãng sinh lý (Periodic breathing) chỉ kéo dài < 10 giây và không có biến đổi nhịp tim hay SpO2.",
+    "tags": [
+      "PED-16",
+      "Con-ngung-tho",
+      "Apnea",
+      "Tieu-chuan"
+    ]
+  },
+  {
+    "id": "PED16-CARD-009",
+    "type": "cloze",
+    "text": "Thời gian đổ đầy mao mạch (CRT) ở xương ức hoặc mu bàn chân kéo dài {{c1::> 3 giây}} là chỉ số lâm sàng chỉ điểm rối loạn tưới máu mô và sốc sơ sinh.",
+    "extra": "Bấm ngón tay giữ 5 giây rồi buông ra và đếm nhịp bằng đồng hồ; CRT > 3 giây đòi hỏi can thiệp bù dịch và thuốc vận mạch.",
+    "tags": [
+      "PED-16",
+      "CRT",
+      "Tuoi-mau-mo",
+      "Soc-so-sinh"
+    ]
+  },
+  {
+    "id": "PED16-CARD-010",
+    "type": "cloze",
+    "text": "Dấu hiệu thần kinh báo động đỏ cảnh báo nhiễm khuẩn sơ sinh có biến chứng Viêm màng não mủ là {{c1::thóp phồng căng hoặc co giật sơ sinh}}.",
+    "extra": "Kèm theo li bì, mất phản xạ bú và trương lực cơ mềm nhão như búp bê vải.",
+    "tags": [
+      "PED-16",
+      "Thop-phong",
+      "Viem-mang-nao-mu"
+    ]
+  },
+  {
+    "id": "PED16-CARD-011",
+    "type": "cloze",
+    "text": "Hơn {{c1::85%}} các ca Nhiễm khuẩn sơ sinh khởi phát sớm (EOS) xuất hiện triệu chứng lâm sàng ngay trong vòng 24 giờ đầu sau sinh.",
+    "extra": "Do thai nhi đã hít phải dịch ối nhiễm khuẩn hoặc nuốt phải vi khuẩn trong tử cung từ trước khi chào đời.",
+    "tags": [
+      "PED-16",
+      "EOS",
+      "24h-dau-doi"
+    ]
+  },
+  {
+    "id": "PED16-CARD-012",
+    "type": "cloze",
+    "text": "Hai tác nhân vi khuẩn hàng đầu gây Nhiễm khuẩn sơ sinh khởi phát sớm (EOS) là {{c1::Liên cầu nhóm B (GBS ~40%) và Escherichia coli (~30%)}}.",
+    "extra": "Kế tiếp là Listeria monocytogenes, Enterococcus faecalis và các trực khuẩn Gram âm đường ruột khác.",
+    "tags": [
+      "PED-16",
+      "Vi-sinh-EOS",
+      "GBS",
+      "E-coli"
+    ]
+  },
+  {
+    "id": "PED16-CARD-013",
+    "type": "cloze",
+    "text": "Tác nhân vi khuẩn hàng đầu gây Nhiễm khuẩn sơ sinh khởi phát muộn (LOS) tại các khoa Hồi sức Sơ sinh (NICU) là {{c1::Tụ cầu âm tính Coagulase (CoNS, chủ yếu là Staphylococcus epidermidis)}} chiếm tới ~50% trường hợp.",
+    "extra": "Vi khuẩn thường trú trên da người bám vào các ống thông catheter tĩnh mạch trung tâm và tạo màng Biofilm bảo vệ.",
+    "tags": [
+      "PED-16",
+      "Vi-sinh-LOS",
+      "CoNS",
+      "NICU"
+    ]
+  },
+  {
+    "id": "PED16-CARD-014",
+    "type": "cloze",
+    "text": "Đường lây truyền vi khuẩn Listeria monocytogenes từ mẹ sang thai nhi trong EOS là đường {{c1::qua máu qua bánh nhau (Transplacental hematogenous transmission)}}.",
+    "extra": "Mẹ thường sốt nhẹ, đau bụng tiêu chảy sau khi ăn phô mai chưa tiệt trùng hoặc thịt nguội; thai nhi bị u hạt rải rác (Granulomatosis infantiseptica).",
+    "tags": [
+      "PED-16",
+      "Listeria",
+      "Qua-nhau-thai"
+    ]
+  },
+  {
+    "id": "PED16-CARD-015",
+    "type": "cloze",
+    "text": "Theo Hướng dẫn Quốc gia NICE NG195, khi trẻ sơ sinh có BẤT KỲ MỘT dấu hiệu 'Cờ đỏ' (Red Flag), bác sĩ bắt buộc phải {{c1::lấy máu cấy và tiêm kháng sinh tĩnh mạch trong vòng 60 phút (Golden Hour)}}.",
+    "extra": "Bất kể tiền sử sản khoa của mẹ như thế nào; sự chậm trễ tiêm kháng sinh làm tăng tỷ lệ tử vong theo từng giờ.",
+    "tags": [
+      "PED-16",
+      "NICE-NG195",
+      "Red-Flag",
+      "60-phut"
+    ]
+  },
+  {
+    "id": "PED16-CARD-016",
+    "type": "cloze",
+    "text": "Theo NICE NG195, nếu trẻ sơ sinh chỉ có các yếu tố nguy cơ không phải cờ đỏ (Non-Red Flags), chỉ định dùng kháng sinh tĩnh mạch được đưa ra khi trẻ có {{c1::từ 2 yếu tố nguy cơ trở lên, hoặc 1 yếu tố kèm triệu chứng lâm sàng}}.",
+    "extra": "Nếu chỉ có 1 yếu tố nguy cơ đơn độc và trẻ hoàn toàn khỏe mạnh: chỉ theo dõi sinh hiệu tại buồng bệnh, không dùng thuốc.",
+    "tags": [
+      "PED-16",
+      "NICE-NG195",
+      "Non-Red-Flags"
+    ]
+  },
+  {
+    "id": "PED16-CARD-017",
+    "type": "cloze",
+    "text": "Nồng độ các thành phần Bổ thể (C3, C4, C5b-9) trong huyết thanh của trẻ sơ sinh chỉ bằng khoảng {{c1::50%}} so với nồng độ ở người trưởng thành.",
+    "extra": "Khiến cho khả năng opsonin hóa và ly giải màng tế bào của các vi khuẩn có vỏ bọc polysaccharide bị suy giảm nghiêm trọng.",
+    "tags": [
+      "PED-16",
+      "Mien-dich-so-sinh",
+      "Bo-the-50%"
+    ]
+  },
+  {
+    "id": "PED16-CARD-018",
+    "type": "cloze",
+    "text": "Kho dự trữ bạch cầu trung tính tại tủy xương (Neutrophil Storage Pool) của trẻ sơ sinh chỉ bằng {{c1::20–30%}} người lớn, giải thích vì sao trẻ dễ bị giảm bạch cầu hạt (ANC < 1000/mm³) khi nhiễm trùng nặng.",
+    "extra": "Khi vi khuẩn xâm nhập ồ ạt, tủy xương giải phóng sạch tế bào dự trữ trong vài giờ và cạn kiệt, dẫn đến suy tủy chức năng tạm thời.",
+    "tags": [
+      "PED-16",
+      "Kho-du-tru-tuy",
+      "Neutrophil-storage-pool"
+    ]
+  },
+  {
+    "id": "PED16-CARD-019",
+    "type": "cloze",
+    "text": "Kháng thể IgG bảo vệ trẻ sơ sinh trong những tháng đầu đời phụ thuộc hoàn toàn vào quá trình vận chuyển tích cực qua nhau thai diễn ra chủ yếu vào {{c1::3 tháng cuối thai kỳ (quý 3)}}.",
+    "extra": "Do đó, trẻ sinh cực non (< 28–32 tuần) có nồng độ IgG huyết thanh cực kỳ thấp, hầu như không có kháng thể mẹ bảo vệ.",
+    "tags": [
+      "PED-16",
+      "IgG-me-truyen",
+      "Quy-3-thai-ky"
+    ]
+  },
+  {
+    "id": "PED16-CARD-020",
+    "type": "cloze",
+    "text": "Độc tố Hemolysin/Cytolysin của GBS gắn vào màng tế bào biểu mô phế nang typ II làm phá hủy tế bào và gây {{c1::ngừng sản xuất Surfactant nội sinh}}.",
+    "extra": "Kết hợp với protein huyết tương rỉ viêm làm bất hoạt Surfactant, gây xẹp phổi lan tỏa giống hệt Bệnh màng trong.",
+    "tags": [
+      "PED-16",
+      "GBS",
+      "Pha-huy-Surfactant",
+      "Co-che"
+    ]
+  },
+  {
+    "id": "PED16-CARD-021",
+    "type": "cloze",
+    "text": "Tình trạng xẹp phế nang và toan hóa máu do nhiễm GBS kích thích giải phóng Endothelin-1 gây co thắt tiểu động mạch phổi, dẫn đến biến chứng {{c1::Tăng áp động mạch phổi tồn tại ở trẻ sơ sinh (PPHN)}}.",
+    "extra": "Áp lực thất phải vượt thất trái tạo shunt Phải - Trái qua PDA và PFO, gây thiếu oxy máu trơ với oxy thông thường.",
+    "tags": [
+      "PED-16",
+      "PPHN",
+      "GBS",
+      "Tang-ap-phoi"
+    ]
+  },
+  {
+    "id": "PED16-CARD-022",
+    "type": "cloze",
+    "text": "Kháng nguyên vỏ K1 của vi khuẩn E. coli có cấu trúc hóa học là {{c1::acid polysialic giống hệt phân tử kết dính thần kinh NCAM của người}}.",
+    "extra": "Hiện tượng ngụy trang phân tử này giúp vi khuẩn không bị hệ miễn dịch nhận diện và opsonin hóa, duy trì du khuẩn huyết nồng độ cao.",
+    "tags": [
+      "PED-16",
+      "E-coli-K1",
+      "Acid-polysialic",
+      "Nguy-trang-phan-tu"
+    ]
+  },
+  {
+    "id": "PED16-CARD-023",
+    "type": "cloze",
+    "text": "Protein màng ngoài OmpA của E. coli K1 gắn đặc hiệu vào thụ thể gp96 trên tế bào nội mô mao mạch não, kích hoạt quá trình {{c1::nhập bào vượt qua hàng rào máu não (BBB)}} vào khoang dưới nhện.",
+    "extra": "Vi khuẩn nhân lên nhanh chóng trong dịch não tủy gây viêm màng não mủ và viêm não thất.",
+    "tags": [
+      "PED-16",
+      "OmpA",
+      "Hang-rao-mau-nao",
+      "BBB"
+    ]
+  },
+  {
+    "id": "PED16-CARD-024",
+    "type": "cloze",
+    "text": "Vi khuẩn Tụ cầu âm tính Coagulase (CoNS) bám vào bề mặt catheter nhựa nhân tạo và tiết ra lớp chất nền ngoại bào dạng nhầy giàu polysaccharide được gọi là {{c1::Màng sinh học (Biofilm)}}.",
+    "extra": "Màng Biofilm ngăn cản kháng sinh khuếch tán vào trong và vô hiệu hóa khả năng thực bào của bạch cầu trung tính.",
+    "tags": [
+      "PED-16",
+      "Biofilm",
+      "CoNS",
+      "Catheter"
+    ]
+  },
+  {
+    "id": "PED16-CARD-025",
+    "type": "cloze",
+    "text": "Lipid A của nội độc tố Lipopolysaccharide (LPS) vi khuẩn Gram âm liên kết với phức hợp thụ thể {{c1::TLR4 / MD-2 / CD14}} trên đại thực bào để kích hoạt bão cytokin.",
+    "extra": "Kích hoạt con đường tín hiệu NF-kappa B giải phóng ồ ạt TNF-alpha, IL-1beta, IL-6 gây sốc nhiễm trùng.",
+    "tags": [
+      "PED-16",
+      "LPS",
+      "TLR4",
+      "Bao-cytokine"
+    ]
+  },
+  {
+    "id": "PED21-CARD-026",
+    "type": "cloze",
+    "text": "Enzym iNOS (Inducible Nitric Oxide Synthase) được kích hoạt bởi cytokin viêm trong sốc nhiễm trùng sơ sinh sản sinh quá mức {{c1::Nitric Oxide (NO)}} gây giãn mạch mất trương lực toàn thân.",
+    "extra": "Làm sụp đổ sức cản mạch máu hệ thống (SVR) và gây tụt huyết áp trơ với dịch truyền.",
+    "tags": [
+      "PED-16",
+      "iNOS",
+      "Nitric-Oxide",
+      "Gian-mach"
+    ]
+  },
+  {
+    "id": "PED16-CARD-027",
+    "type": "cloze",
+    "text": "Nguồn sinh nhiệt chính của trẻ sơ sinh để chống lạnh là mô mỡ nâu (Brown Adipose Tissue) thông qua hoạt động của protein không bắt cặp mang tên {{c1::UCP-1 (Thermogenin)}}.",
+    "extra": "Độc tố vi khuẩn và cytokin viêm ức chế chuyển hóa mỡ nâu kết hợp cạn kiệt glycogen khiến trẻ sơ sinh không sốt được mà bị hạ thân nhiệt.",
+    "tags": [
+      "PED-16",
+      "Mo-mo-nau",
+      "UCP-1",
+      "Ha-than-nhiet-co-che"
+    ]
+  },
+  {
+    "id": "PED16-CARD-028",
+    "type": "cloze",
+    "text": "Năm biến số tiền sản bắt buộc phải nhập vào Kaiser Permanente Sepsis Calculator gồm: {{c1::Tuổi thai, Thân nhiệt cao nhất của mẹ, Thời gian vỡ ối, Tình trạng GBS mẹ, và Kháng sinh IAP}}.",
+    "extra": "Từ 5 biến số này, phần mềm tính toán ra nguy cơ nhiễm khuẩn huyết nền trước sinh của trẻ trên 1000 trẻ sống.",
+    "tags": [
+      "PED-16",
+      "Kaiser-Calculator",
+      "5-bien-so-tien-san"
+    ]
+  },
+  {
+    "id": "PED16-CARD-029",
+    "type": "cloze",
+    "text": "Trong Kaiser Sepsis Calculator, sau khi có nguy cơ nền trước sinh, bước tiếp theo là xếp loại tình trạng lâm sàng của trẻ thành 3 nhóm: {{c1::Khỏe mạnh (Well-appearing), Nghi ngờ (Equivocal), và Bệnh lý (Clinically Ill)}}.",
+    "extra": "Sự kết hợp giữa nguy cơ tiền sản và lâm sàng thực tế giúp đưa ra khuyến cáo xử trí chính xác nhất.",
+    "tags": [
+      "PED-16",
+      "Kaiser-Calculator",
+      "3-nhom-lam-sang"
+    ]
+  },
+  {
+    "id": "PED16-CARD-030",
+    "type": "cloze",
+    "text": "Ở trẻ sơ sinh nhiễm khuẩn huyết, hiện tượng ruột giảm nhu động thường biểu hiện sớm qua việc {{c1::ứ đọng dịch sữa cũ trong dạ dày > 30% thể tích cữ bú trước}}.",
+    "extra": "Hoặc dịch dạ dày đổi sang màu xanh rêu/vàng đậm; đây là dấu hiệu sớm cảnh báo ruột bị thiếu máu nuôi do co mạch sốc.",
+    "tags": [
+      "PED-16",
+      "U-dong-da-day",
+      "Giam-nhu-dong-ruot"
+    ]
+  },
+  {
+    "id": "PED16-CARD-031",
+    "type": "cloze",
+    "text": "Tình trạng tăng đường huyết (> 10–12 mmol/L) đột ngột xuất hiện ở trẻ sơ sinh đang truyền dịch ổn định là dấu hiệu của {{c1::đề kháng Insulin cấp tính do phóng thích cytokin viêm trong nhiễm khuẩn huyết}}.",
+    "extra": "Cytokin kích hoạt giải phóng cortisol và catecholamine làm tăng tân tạo glucose và ức chế thụ thể insulin ngoại vi.",
+    "tags": [
+      "PED-16",
+      "Tang-duong-huyet",
+      "De-khang-Insulin"
+    ]
+  },
+  {
+    "id": "PED16-CARD-032",
+    "type": "cloze",
+    "text": "Theo nghiên cứu của Schelonka RL et al., thể tích máu cấy tối thiểu bắt buộc phải lấy ở trẻ sơ sinh để tránh âm tính giả là {{c1::1.0 mL máu toàn phần}}.",
+    "extra": "Lấy 0.5 mL bỏ sót tới 40–50% các trường hợp du khuẩn huyết nồng độ thấp (≤ 4 CFU/mL).",
+    "tags": [
+      "PED-16",
+      "The-tich-cay-mau",
+      "1ml-toi-thieu"
+    ]
+  },
+  {
+    "id": "PED16-CARD-033",
+    "type": "cloze",
+    "text": "Nồng độ C-Reactive Protein (CRP) trong huyết thanh bắt đầu tăng sau 6–8 giờ kể từ khi nhiễm trùng và đạt đỉnh cao nhất sau {{c1::24 đến 48 giờ}}.",
+    "extra": "Do gan cần thời gian nhận tín hiệu IL-6 để kích hoạt phiên mã và tổng hợp protein này.",
+    "tags": [
+      "PED-16",
+      "CRP-kinetics",
+      "Dinh-24-48h"
+    ]
+  },
+  {
+    "id": "PED16-CARD-034",
+    "type": "cloze",
+    "text": "Xét nghiệm CRP lấy từ máu cuống rốn hoặc đo tại thời điểm 0–2 giờ tuổi có độ nhạy {{c1::< 30%}}, hoàn toàn không có giá trị để loại trừ nhiễm khuẩn sơ sinh.",
+    "extra": "Trẻ nhiễm trùng huyết nặng do GBS lúc mới sinh vẫn có nồng độ CRP máu cuống rốn bình thường.",
+    "tags": [
+      "PED-16",
+      "CRP-cuong-ron",
+      "Vo-gia-tri"
+    ]
+  },
+  {
+    "id": "PED16-CARD-035",
+    "type": "cloze",
+    "text": "Giá trị lâm sàng lớn nhất của CRP trong nhiễm khuẩn sơ sinh nằm ở Giá trị tiên đoán âm (NPV > 99%) khi thực hiện {{c1::hai lần xét nghiệm liên tiếp cách nhau 24 giờ đều âm tính (< 10 mg/L)}}.",
+    "extra": "Cho phép bác sĩ tự tin khẳng định trẻ không bị nhiễm khuẩn và an toàn dừng kháng sinh ở thời điểm 48h tuổi.",
+    "tags": [
+      "PED-16",
+      "CRP-NPV-99%",
+      "Rule-out"
+    ]
+  },
+  {
+    "id": "PED16-CARD-036",
+    "type": "cloze",
+    "text": "Ở trẻ sơ sinh khỏe mạnh bình thường, Procalcitonin (PCT) có một đỉnh tăng vọt sinh lý đạt nồng độ {{c1::2 đến 10 ng/mL trong vòng 24–36 giờ đầu đời}}.",
+    "extra": "Đây là phản ứng thích nghi bình thường sau chuyển dạ; cấm áp dụng ngưỡng cắt người lớn 0.5 ng/mL trong 48h đầu.",
+    "tags": [
+      "PED-16",
+      "PCT-dinh-sinh-ly",
+      "2-10ng-ml"
+    ]
+  },
+  {
+    "id": "PED16-CARD-037",
+    "type": "cloze",
+    "text": "Chỉ số số lượng bạch cầu hạt trung tính tuyệt đối (ANC) giảm xuống mức {{c1::< 1000 / mm³}} ở trẻ sơ sinh là dấu hiệu tiên lượng rất xấu, cảnh báo nguy cơ tử vong cao.",
+    "extra": "Phản ánh kho dự trữ bạch cầu tủy xương đã cạn kiệt hoàn toàn, cơ thể mất khả năng thực bào vi khuẩn.",
+    "tags": [
+      "PED-16",
+      "ANC-duoi-1000",
+      "Giam-bach-cau-hat"
+    ]
+  },
+  {
+    "id": "PED16-CARD-038",
+    "type": "cloze",
+    "text": "Số lượng bạch cầu trong Dịch não tủy (DNT) ở trẻ sơ sinh đủ tháng khỏe mạnh bình thường có thể lên tới {{c1::≤ 20–30 tế bào / mm³}} (chủ yếu là tế bào đơn nhân).",
+    "extra": "Ở trẻ sinh non có thể lên tới 30–40 tế bào/mm³; không được áp dụng ngưỡng bình thường của người lớn (< 5 tế bào/mm³).",
+    "tags": [
+      "PED-16",
+      "DNT-so-sinh",
+      "Bach-cau-binh-thuong"
+    ]
+  },
+  {
+    "id": "PED16-CARD-039",
+    "type": "cloze",
+    "text": "Nồng độ Protein trong Dịch não tủy của trẻ sơ sinh bình thường rất cao, dao động từ {{c1::0.8 đến 1.5 g/L}} do tính thấm hàng rào máu não sơ sinh còn lỏng lẻo.",
+    "extra": "Protein DNT > 1.5–2.0 g/L kèm giảm glucose mới gợi ý viêm màng não mủ.",
+    "tags": [
+      "PED-16",
+      "DNT-protein",
+      "0.8-1.5g-L"
+    ]
+  },
+  {
+    "id": "PED16-CARD-040",
+    "type": "cloze",
+    "text": "Chọc dịch não tủy (LP) là chỉ định bắt buộc tuyệt đối ở trẻ sơ sinh khi {{c1::kết quả cấy máu dương tính với vi khuẩn}} hoặc trẻ có dấu hiệu thần kinh nghi ngờ.",
+    "extra": "Khoảng 10–15% trẻ nhiễm khuẩn huyết có viêm màng não mủ đi kèm; bắt buộc làm LP để quyết định liều và thời gian dùng thuốc.",
+    "tags": [
+      "PED-16",
+      "Chi-dinh-LP",
+      "Cay-mau-duong-tinh"
+    ]
+  },
+  {
+    "id": "PED16-CARD-041",
+    "type": "cloze",
+    "text": "Phác đồ kháng sinh kinh nghiệm đầu tay chuẩn mực quốc tế cho Nhiễm khuẩn sơ sinh khởi phát sớm (EOS) là phối hợp hiệp đồng giữa {{c1::Ampicillin và Gentamicin}}.",
+    "extra": "Ampicillin bao phủ GBS và Listeria; Gentamicin diệt E. coli và trực khuẩn Gram âm qua cơ chế ức chế ribosome 30S.",
+    "tags": [
+      "PED-16",
+      "Khang-sinh-EOS",
+      "Ampicillin-Gentamicin"
+    ]
+  },
+  {
+    "id": "PED16-CARD-042",
+    "type": "cloze",
+    "text": "Liều Gentamicin sơ sinh theo phác đồ mở rộng khoảng cách (Extended-interval) là {{c1::4.0 đến 5.0 mg/kg tiêm truyền tĩnh mạch chậm trong 30 phút}}.",
+    "extra": "Phương pháp dùng 1 liều nồng độ cao tối ưu hóa hiệu quả diệt khuẩn phụ thuộc nồng độ và giảm nguy cơ tích lũy độc tính.",
+    "tags": [
+      "PED-16",
+      "Gentamicin-lieu",
+      "4-5mg-kg"
+    ]
+  },
+  {
+    "id": "PED16-CARD-043",
+    "type": "cloze",
+    "text": "Khoảng cách giữa các liều Gentamicin ở trẻ sơ sinh đủ tháng (≥ 37 tuần tuổi thai) là {{c1::mỗi 24 giờ}} một lần.",
+    "extra": "Ở trẻ 30–36 tuần dùng mỗi 36 giờ; ở trẻ cực non < 30 tuần dùng mỗi 48 giờ do mức lọc cầu thận rất thấp.",
+    "tags": [
+      "PED-16",
+      "Gentamicin-khoang-cach",
+      "24h-du-thang"
+    ]
+  },
+  {
+    "id": "PED16-CARD-044",
+    "type": "cloze",
+    "text": "Nồng độ đáy (Trough level) của Gentamicin cần giám sát ngay trước cữ tiêm thứ hai phải đạt mục tiêu {{c1::< 1.0 đến 2.0 µg/mL}} để đảm bảo an toàn cho thận và thính giác.",
+    "extra": "Nếu nồng độ đáy > 2 µg/mL, bắt buộc phải kéo dài khoảng cách giữa các liều (ví dụ từ 24h lên 36h) chứ không giảm liều mg/kg.",
+    "tags": [
+      "PED-16",
+      "Gentamicin-trough",
+      "Duoi-2mcg-ml"
+    ]
+  },
+  {
+    "id": "PED16-CARD-045",
+    "type": "cloze",
+    "text": "Ceftriaxone bị CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI ở trẻ sơ sinh dưới 28 ngày tuổi vì cạnh tranh gắn Albumin đẩy Bilirubin tự do gây biến chứng {{c1::Vàng da nhân não (Kernicterus)}}.",
+    "extra": "Đồng thời tạo kết tủa muối không tan với dung dịch chứa Canxi gây suy thận cấp và tắc nghẽn mao mạch phổi tử vong.",
+    "tags": [
+      "PED-16",
+      "Ceftriaxone-chong-chi-dinh",
+      "Vang-da-nhan"
+    ]
+  },
+  {
+    "id": "PED16-CARD-046",
+    "type": "cloze",
+    "text": "Nghiên cứu của Clark RH et al. (Pediatrics 2006) chứng minh dùng Ampicillin phối hợp Cefotaxime làm tăng nguy cơ {{c1::tử vong sơ sinh cao gấp 1.5 lần}} so với phối hợp Ampicillin + Gentamicin.",
+    "extra": "Đồng thời làm bùng phát các chủng vi khuẩn đa kháng thuốc ESBL và tăng tỷ lệ nhiễm nấm Candida xâm lấn.",
+    "tags": [
+      "PED-16",
+      "Clark-study-2006",
+      "Cefotaxime-tang-tu-vong"
+    ]
+  },
+  {
+    "id": "PED16-CARD-047",
+    "type": "cloze",
+    "text": "Khi chẩn đoán xác định trẻ sơ sinh bị Viêm màng não mủ, liều Ampicillin tiêm tĩnh mạch bắt buộc phải nâng lên mức {{c1::200 đến 300 mg/kg/ngày}} chia mỗi 6–8 giờ.",
+    "extra": "Liều cao giúp đẩy nồng độ thuốc vượt qua hàng rào máu não đạt nồng độ diệt khuẩn trong dịch não tủy.",
+    "tags": [
+      "PED-16",
+      "Ampicillin-lieu-mang-nao",
+      "200-300mg"
+    ]
+  },
+  {
+    "id": "PED16-CARD-048",
+    "type": "cloze",
+    "text": "Kháng sinh diệt tụ cầu Gram dương hàng đầu được lựa chọn cho Nhiễm khuẩn sơ sinh khởi phát muộn (LOS) nghi ngờ nhiễm trùng catheter do CoNS là {{c1::Vancomycin (10–15 mg/kg mỗi 8–12–18h)}}.",
+    "extra": "Phối hợp với Aminoglycoside (Amikacin) hoặc Carbapenem để bao phủ trực khuẩn Gram âm bệnh viện.",
+    "tags": [
+      "PED-16",
+      "Vancomycin",
+      "LOS-CoNS"
+    ]
+  },
+  {
+    "id": "PED16-CARD-049",
+    "type": "cloze",
+    "text": "Thời gian điều trị kháng sinh chuẩn cho một ca Nhiễm khuẩn huyết sơ sinh có cấy máu dương tính nhưng KHÔNG có viêm màng não là {{c1::7 đến 10 ngày}}.",
+    "extra": "Nếu có viêm màng não mủ do vi khuẩn Gram âm (*E. coli*), thời gian điều trị bắt buộc phải kéo dài tối thiểu 21 ngày.",
+    "tags": [
+      "PED-16",
+      "Thoi-gian-dieu-tri",
+      "7-10-ngay"
+    ]
+  },
+  {
+    "id": "PED16-CARD-050",
+    "type": "cloze",
+    "text": "Thời gian điều trị kháng sinh tối thiểu cho một ca Viêm màng não mủ sơ sinh do trực khuẩn Gram âm (E. coli K1, Klebsiella) là {{c1::21 ngày (hoặc ít nhất 14 ngày sau khi cấy DNT âm tính)}}.",
+    "extra": "Trực khuẩn Gram âm gây tổn thương mô não rất nặng, tạo màng mủ não thất dễ tái phát nếu dừng thuốc sớm.",
+    "tags": [
+      "PED-16",
+      "Vien-mang-nao-E-coli",
+      "21-ngay"
+    ]
+  },
+  {
+    "id": "PED16-CARD-051",
+    "type": "cloze",
+    "text": "Trong gói hồi sức sốc nhiễm trùng sơ sinh Giờ Vàng (Bundle 1h), thể tích dịch tinh thể đẳng trương (NaCl 0.9%) bolus ban đầu được khuyến cáo là {{c1::10 đến 20 mL/kg truyền tĩnh mạch trong 20–30 phút}}.",
+    "extra": "Tránh bolus quá nhanh hoặc quá nhiều (> 40–60 mL/kg) vì cơ tim sơ sinh rất dễ bị suy tim sung huyết và phù phổi.",
+    "tags": [
+      "PED-16",
+      "Bolus-dich",
+      "Soc-so-sinh",
+      "10-20ml-kg"
+    ]
+  },
+  {
+    "id": "PED16-CARD-052",
+    "type": "cloze",
+    "text": "Nếu sau khi bolus 10–20 mL/kg dịch đẳng trương mà huyết áp vẫn tụt và CRT > 3 giây, thuốc vận mạch được khuyến cáo bắt đầu sớm là {{c1::Adrenaline (0.05–0.1 mcg/kg/phút) hoặc Dopamine}}.",
+    "extra": "Sốc sơ sinh thường có tình trạng giảm co bóp cơ tim kết hợp giãn mạch; Adrenaline liều thấp vừa tăng co bóp vừa phục hồi trương lực mạch.",
+    "tags": [
+      "PED-16",
+      "Van-mach-so-sinh",
+      "Adrenaline-Dopamine"
+    ]
+  },
+  {
+    "id": "PED16-CARD-053",
+    "type": "cloze",
+    "text": "Thời điểm tầm soát vi khuẩn Liên cầu nhóm B (GBS) qua ngoáy dịch âm đạo - trực tràng ở tất cả các thai phụ theo ACOG/CDC là ở tuổi thai {{c1::36 tuần 0/7 ngày đến 37 tuần 6/7 ngày}}.",
+    "extra": "Mẫu cấy có giá trị trong vòng 5 tuần; nếu sinh sau tuần 42 cần cấy lại.",
+    "tags": [
+      "PED-16",
+      "Tam-soat-GBS",
+      "Tuan-36-37"
+    ]
+  },
+  {
+    "id": "PED16-CARD-054",
+    "type": "cloze",
+    "text": "Kháng sinh dự phòng trong chuyển dạ (IAP) được coi là ĐẦY ĐỦ VÀ CÓ HIỆU LỰC khi sản phụ được tiêm ít nhất 1 liều kháng sinh chuẩn trước khi sinh từ {{c1::≥ 4 giờ trở lên}}.",
+    "extra": "Cần tối thiểu 4 giờ để nồng độ Penicillin G khuếch tán qua nhau thai đạt nồng độ diệt khuẩn trong nước ối.",
+    "tags": [
+      "PED-16",
+      "IAP-day-du",
+      "Tren-4-gio"
+    ]
+  },
+  {
+    "id": "PED16-CARD-055",
+    "type": "cloze",
+    "text": "Kháng sinh LỰA CHỌN ĐẦU TAY trong phác đồ IAP cho sản phụ mang GBS chuyển dạ là {{c1::Penicillin G tiêm tĩnh mạch (5 triệu đơn vị liều đầu, sau đó 2.5–3 triệu đơn vị mỗi 4 giờ)}}.",
+    "extra": "Lựa chọn thay thế là Ampicillin 2 g TM liều đầu, sau đó 1 g TM mỗi 4 giờ cho đến khi sinh.",
+    "tags": [
+      "PED-16",
+      "Penicillin-G",
+      "IAP-dau-tay"
+    ]
+  },
+  {
+    "id": "PED16-CARD-056",
+    "type": "cloze",
+    "text": "Biến chứng tắc nghẽn dịch não tủy sau Viêm màng não mủ sơ sinh dẫn đến tình trạng {{c1::Não úng thủy tắc nghẽn (Post-meningitic Hydrocephalus)}} đòi hỏi phải phẫu thuật đặt ống dẫn lưu não thất - ổ bụng (VP Shunt).",
+    "extra": "Fibrin và mủ viêm làm xơ dính cống Sylvius hoặc các lỗ lưu thông DNT nền sọ.",
+    "tags": [
+      "PED-16",
+      "Nao-ung-thuy",
+      "Bien-chung-than-kinh"
+    ]
+  },
+  {
+    "id": "PED16-CARD-057",
+    "type": "cloze",
+    "text": "Tổn thương chất trắng quanh não thất do bão cytokin và thiếu máu trong sốc nhiễm trùng sơ sinh được gọi là {{c1::Nhuyễn hóa chất trắng quanh não thất (PVL - Periventricular Leukomalacia)}}.",
+    "extra": "Nguyên nhân hàng đầu để lại di chứng Bại não thể co cứng hai chi dưới (Spastic Diplegia) ở trẻ đẻ non.",
+    "tags": [
+      "PED-16",
+      "PVL",
+      "Bai-nao",
+      "Di-chung-than-kinh"
+    ]
+  },
+  {
+    "id": "PED16-CARD-058",
+    "type": "cloze",
+    "text": "Đợi trẻ sơ sinh sốt cao mới nghĩ đến nhiễm trùng huyết là sai lầm chết người vì trẻ sơ sinh thường biểu hiện bằng cờ đỏ {{c1::Hạ thân nhiệt (< 36.5 °C)}} do cạn kiệt năng lượng mỡ nâu.",
+    "extra": "Hạ thân nhiệt ở sơ sinh có độ đặc hiệu cho nhiễm trùng huyết nặng cao hơn triệu chứng sốt.",
+    "tags": [
+      "PED-16",
+      "Bay-lam-sang",
+      "Ha-than-nhiet-vs-sot"
+    ]
+  },
+  {
+    "id": "PED16-CARD-059",
+    "type": "cloze",
+    "text": "Lấy máu cuống rốn làm xét nghiệm CRP để quyết định không dùng kháng sinh là sai lầm vì {{c1::gan trẻ chưa kịp sản xuất CRP lúc sinh, kết quả âm tính giả lên tới > 70%}}.",
+    "extra": "CRP cần 24–48 giờ mới đạt đỉnh nồng độ trong máu; không bao giờ dùng CRP cuống rốn để loại trừ nhiễm khuẩn.",
+    "tags": [
+      "PED-16",
+      "Bay-lam-sang",
+      "CRP-cuong-ron-am-tinh-gia"
+    ]
+  },
+  {
+    "id": "PED16-CARD-060",
+    "type": "cloze",
+    "text": "Áp dụng ngưỡng cắt Procalcitonin của người lớn (0.5 ng/mL) cho trẻ sơ sinh 24 giờ tuổi sẽ dẫn đến sai lầm {{c1::chẩn đoán nhầm nhiễm trùng và lạm dụng kháng sinh do đỉnh tăng vọt sinh lý của PCT}}.",
+    "extra": "PCT ở trẻ khỏe mạnh 24h tuổi có thể đạt 2–10 ng/mL do thích nghi sinh lý chuyển dạ.",
+    "tags": [
+      "PED-16",
+      "Bay-lam-sang",
+      "PCT-nguong-nguoi-lon"
+    ]
+  },
+  {
+    "id": "PED16-CARD-061",
+    "type": "cloze",
+    "text": "Lấy thể tích máu cấy < 0.5 mL ở trẻ sơ sinh sẽ dẫn đến cạm bẫy lâm sàng {{c1::kết quả cấy máu âm tính giả lên tới 40–50%}} do du khuẩn huyết nồng độ thấp.",
+    "extra": "Khiến bác sĩ lầm tưởng trẻ không có vi khuẩn huyết và ngừng điều trị sớm ở trẻ thực sự nhiễm trùng.",
+    "tags": [
+      "PED-16",
+      "Bay-lam-sang",
+      "Cay-mau-thieu-the-tich"
+    ]
+  },
+  {
+    "id": "PED16-CARD-062",
+    "type": "cloze",
+    "text": "Kê đơn Ceftriaxone cho trẻ sơ sinh có vàng da sẽ trực tiếp gây biến chứng {{c1::Vàng da nhân não (Kernicterus) do đẩy Bilirubin tự do ra khỏi Albumin}}.",
+    "extra": "Ceftriaxone có ái lực cực mạnh với Albumin; chống chỉ định tuyệt đối cho trẻ sơ sinh < 28 ngày tuổi.",
+    "tags": [
+      "PED-16",
+      "Bay-lam-sang",
+      "Ceftriaxone-vang-da-nhan"
+    ]
+  },
+  {
+    "id": "PED16-CARD-063",
+    "type": "cloze",
+    "text": "Dùng Cefotaxime thay thế Gentamicin trong phác đồ đầu tay vì 'sợ độc thận' thực chất làm tăng {{c1::nguy cơ tử vong sơ sinh gấp 1.5 lần}} và kích hoạt vi khuẩn kháng ESBL.",
+    "extra": "Nghiên cứu của Clark RH khẳng định Gentamicin liều mở rộng khoảng cách an toàn hơn Cefotaxime.",
+    "tags": [
+      "PED-16",
+      "Bay-lam-sang",
+      "Cefotaxime-doc-tinh"
+    ]
+  },
+  {
+    "id": "PED16-CARD-064",
+    "type": "cloze",
+    "text": "Tiếp tục tiêm kháng sinh bao vây đủ 7–10 ngày khi cấy máu 48h âm tính và trẻ khỏe mạnh làm tăng nguy cơ mắc {{c1::Viêm ruột hoại tử (NEC), nấm xâm lấn và kháng thuốc}}.",
+    "extra": "Phải tuân thủ quy tắc Rule-out sepsis: ngừng kháng sinh ở 36–48 giờ khi các tiêu chuẩn an toàn thỏa mãn.",
+    "tags": [
+      "PED-16",
+      "Bay-lam-sang",
+      "Dung-khang-sinh-keo-dai"
+    ]
+  },
+  {
+    "id": "PED16-CARD-065",
+    "type": "cloze",
+    "text": "Ngộ nhận rằng mẹ đã được dự phòng IAP khi kháng sinh chỉ mới truyền 1–2 giờ trước sinh là sai lầm vì IAP cần tối thiểu {{c1::≥ 4 giờ}} mới đạt nồng độ diệt khuẩn trong nước ối.",
+    "extra": "IAP < 4 giờ được coi là không đầy đủ; trẻ vẫn phải được theo dõi sát nguy cơ nhiễm khuẩn tại buồng bệnh.",
+    "tags": [
+      "PED-16",
+      "Bay-lam-sang",
+      "IAP-duoi-4h"
+    ]
+  },
+  {
+    "id": "PED16-CARD-066",
+    "type": "cloze",
+    "text": "Ở trẻ 5 ngày tuổi tại NICU lưu catheter PICC bị sốc nhiễm khuẩn muộn (LOS), kháng sinh đầu tay diệt khuẩn Gram dương bắt buộc phải là {{c1::Vancomycin (không dùng Ampicillin)}}.",
+    "extra": "Tác nhân hàng đầu là CoNS (~50%) mang gen mecA kháng toàn bộ nhóm Penicillin và Ampicillin.",
+    "tags": [
+      "PED-16",
+      "Checkpoint-1",
+      "LOS-Vancomycin"
+    ]
+  },
+  {
+    "id": "PED16-CARD-067",
+    "type": "cloze",
+    "text": "Ở sản phụ sốt chuyển dạ 38.6 °C có ối vỡ 22h hôi, dù CRP máu cuống rốn của trẻ lúc sinh là 1.2 mg/L (bình thường), xử trí chuẩn xác là {{c1::cấy máu ≥ 1.0 mL và tiêm Ampicillin + Gentamicin ngay}}.",
+    "extra": "Mẹ có viêm màng ối lâm sàng rõ rệt; CRP lúc sinh chưa kịp tăng nên âm tính giả; chậm trễ tiêm thuốc sẽ gây tử vong tối cấp.",
+    "tags": [
+      "PED-16",
+      "Checkpoint-2",
+      "Vi-pham-CRP-cuong-ron"
+    ]
+  },
+  {
+    "id": "PED16-CARD-068",
+    "type": "cloze",
+    "text": "Kháng sinh Cephalosporin thế hệ 3 tiêm tĩnh mạch an toàn được lựa chọn thay thế cho Ceftriaxone ở trẻ sơ sinh là {{c1::Cefotaxime (100–150 mg/kg/ngày chia 2–3 lần)}}.",
+    "extra": "Cefotaxime không cạnh tranh gắn Albumin với Bilirubin và không kết tủa với Canxi.",
+    "tags": [
+      "PED-16",
+      "Checkpoint-3",
+      "Cefotaxime-thay-the"
+    ]
+  },
+  {
+    "id": "PED16-CARD-069",
+    "type": "cloze",
+    "text": "Bộ ba tiêu chuẩn vàng để ra quyết định Rule-out Sepsis dừng kháng sinh ở thời điểm 36–48 giờ gồm: {{c1::Cấy máu âm tính sau 48h, Lâm sàng trẻ hoàn toàn khỏe mạnh, và CRP 2 lần bình thường}}.",
+    "extra": "Ngừng kháng sinh ngay; không tiêm bao vây thêm ngày nào.",
+    "tags": [
+      "PED-16",
+      "Checkpoint-4",
+      "Bo-ba-tieu-chuan-Rule-out"
+    ]
+  },
+  {
+    "id": "PED16-CARD-070",
+    "type": "cloze",
+    "text": "Ở trẻ sơ sinh 3.3 kg đủ tháng bị EOS có hạ thân nhiệt 35.8 °C và thở rên, liều Ampicillin khởi đầu chuẩn xác là {{c1::165 mg tiêm tĩnh mạch chậm mỗi 12 giờ (50 mg/kg/liều)}}.",
+    "extra": "Phối hợp với Gentamicin 16.5 mg (5 mg/kg) truyền tĩnh mạch 1 lần duy nhất trong ngày.",
+    "tags": [
+      "PED-16",
+      "Ca-lam-sang-1",
+      "Lieu-Ampicillin-so-sinh"
+    ]
+  },
+  {
+    "id": "PED16-CARD-071",
+    "type": "cloze",
+    "text": "Ở trẻ cực non 27 tuần nặng 1050g bị sốc nhiễm trùng muộn (LOS) do lưu PICC, liều Vancomycin khởi đầu chuẩn là {{c1::15 mg truyền tĩnh mạch chậm trong 60 phút mỗi 12 giờ}}.",
+    "extra": "1050g x 15 mg/kg = 15 mg; truyền chậm để tránh hội chứng Red Man và kiểm tra nồng độ đáy mục tiêu 10–15 µg/mL.",
+    "tags": [
+      "PED-16",
+      "Ca-lam-sang-2",
+      "Lieu-Vancomycin-non-thang"
+    ]
+  },
+  {
+    "id": "PED16-CARD-072",
+    "type": "cloze",
+    "text": "Khi chẩn đoán xác định nhiễm khuẩn huyết liên quan đường truyền trung tâm (CLABSI) do CoNS tạo màng Biofilm, can thiệp ngoại khoa bắt buộc phải làm là {{c1::rút bỏ ngay ống catheter tĩnh mạch trung tâm nhiễm khuẩn}}.",
+    "extra": "Kháng sinh không thể tiệt căn vi khuẩn trong màng Biofilm; giữ lại catheter sẽ dẫn đến nhiễm trùng tái phát và tử vong.",
+    "tags": [
+      "PED-16",
+      "Ca-lam-sang-2",
+      "Rut-bo-catheter-PICC"
+    ]
+  },
+  {
+    "id": "PED16-CARD-073",
+    "type": "cloze",
+    "text": "Khi thăm khám trẻ sơ sinh nghi ngờ nhiễm khuẩn, bắt buộc phải khám dưới {{c1::ánh sáng tự nhiên hoặc đèn trắng}} để không bỏ sót da tái nổi vân tím hoặc ban xuất huyết.",
+    "extra": "Ánh sáng vàng của đèn sưởi lồng ấp có thể che giấu hoàn toàn tình trạng tái xám và vàng da sớm.",
+    "tags": [
+      "PED-16",
+      "Clinical-pearl",
+      "Anh-sang-trang"
+    ]
+  },
+  {
+    "id": "PED16-CARD-074",
+    "type": "cloze",
+    "text": "Vật trung gian hàng đầu truyền vi khuẩn CoNS và Klebsiella gây nhiễm khuẩn huyết muộn (LOS) tại NICU là {{c1::bàn tay nhân viên y tế và màng ống nghe chưa sát khuẩn}}.",
+    "extra": "Luôn sát khuẩn tay bằng cồn và lau màng ống nghe trước và sau khi chạm vào từng lồng ấp.",
+    "tags": [
+      "PED-16",
+      "Clinical-pearl",
+      "Sat-khuan-tay-ong-nghe"
+    ]
+  },
+  {
+    "id": "PED16-CARD-075",
+    "type": "cloze",
+    "text": "Kỹ thuật lấy máu cấy ở trẻ đẻ non để tránh vỡ tĩnh mạch là dùng kim bướm 23–25G chọc mu bàn tay và {{c1::để máu tự chảy từng giọt vào xi-lanh vô khuẩn}}.",
+    "extra": "Không kéo pít-tông quá mạnh làm xẹp và vỡ thành tĩnh mạch mỏng manh của trẻ.",
+    "tags": [
+      "PED-16",
+      "Clinical-pearl",
+      "Ky-thuat-lay-mau-cay"
+    ]
+  },
+  {
+    "id": "PED16-CARD-076",
+    "type": "cloze",
+    "text": "Ở trẻ đẻ non đang ổn định bỗng dưng xuất hiện tăng tần số cơn ngừng thở trên monitor, chẩn đoán đầu tiên phải nghĩ đến là {{c1::Nhiễm khuẩn huyết khởi phát muộn (LOS)}}.",
+    "extra": "Nhiễm khuẩn kích hoạt phóng thích cytokin ức chế trung tâm hô hấp trước khi có biểu hiện sốt hay sốc.",
+    "tags": [
+      "PED-16",
+      "Clinical-pearl",
+      "Apnea-dau-hieu-som-LOS"
+    ]
+  },
+  {
+    "id": "PED16-CARD-077",
+    "type": "cloze",
+    "text": "Trước mỗi cữ ăn ở trẻ sơ sinh nuôi qua sonde dạ dày, điều dưỡng luôn phải hút kiểm tra {{c1::lượng dịch dạ dày ứ đọng và màu sắc dịch}}.",
+    "extra": "Nếu ứ đọng > 30% cữ bú trước hoặc dịch có màu xanh rêu, phải ngừng ăn ngay vì nguy cơ nhiễm khuẩn huyết hoặc viêm ruột hoại tử (NEC).",
+    "tags": [
+      "PED-16",
+      "Clinical-pearl",
+      "Dich-da-day-u-dong"
+    ]
+  },
+  {
+    "id": "PED16-CARD-078",
+    "type": "cloze",
+    "text": "Khi đo thời gian CRT ở trẻ sơ sinh, bác sĩ phải dùng ngón tay ấn lên xương ức đủ {{c1::5 giây}}, sau đó buông ra và đếm nhịp bằng đồng hồ có kim giây.",
+    "extra": "Đếm nhẩm bằng miệng thường có xu hướng đếm quá nhanh và đánh giá thấp thời gian CRT thực tế.",
+    "tags": [
+      "PED-16",
+      "Clinical-pearl",
+      "Ky-thuat-do-CRT"
+    ]
+  },
+  {
+    "id": "PED16-CARD-079",
+    "type": "cloze",
+    "text": "Ranh giới 72 giờ phân định bản chất nhiễm khuẩn sơ sinh: EOS (< 72h) do lây truyền dọc từ mẹ (GBS, E. coli); LOS (≥ 72h) do {{c1::lây truyền ngang tại NICU (CoNS, trực khuẩn Gram âm)}}.",
+    "extra": "Quyết định hoàn toàn việc lựa chọn phác đồ kháng sinh kinh nghiệm ban đầu.",
+    "tags": [
+      "PED-16",
+      "10-dieu-ca-truc",
+      "Ranh-gioi-72h"
+    ]
+  },
+  {
+    "id": "PED16-CARD-080",
+    "type": "cloze",
+    "text": "Cờ đỏ lâm sàng số 1 của nhiễm khuẩn huyết ở trẻ sơ sinh là {{c1::Hạ thân nhiệt (< 36.5 °C)}} chứ không phải sốt cao.",
+    "extra": "Luôn đo thân nhiệt hậu môn và cảnh giác cao độ khi trẻ bị lạnh không hồi phục.",
+    "tags": [
+      "PED-16",
+      "10-dieu-ca-truc",
+      "Ha-than-nhiet-co-do-1"
+    ]
+  },
+  {
+    "id": "PED16-CARD-081",
+    "type": "cloze",
+    "text": "Thể tích máu cấy tối thiểu bắt buộc phải lấy ở trẻ sơ sinh là {{c1::1.0 mL máu toàn phần}} vào chai cấy nhi khoa.",
+    "extra": "Cấy thiếu máu gây âm tính giả 40–50% khiến bỏ sót nhiễm trùng huyết.",
+    "tags": [
+      "PED-16",
+      "10-dieu-ca-truc",
+      "The-tich-cay-mau-1ml"
+    ]
+  },
+  {
+    "id": "PED16-CARD-082",
+    "type": "cloze",
+    "text": "Xét nghiệm CRP cần thời gian từ 24 đến 48 giờ mới đạt đỉnh; tuyệt đối {{c1::cấm dùng CRP cuống rốn}} để loại trừ nhiễm khuẩn sơ sinh.",
+    "extra": "Giá trị của CRP nằm ở NPV > 99% khi làm 2 lần cách nhau 24 giờ đều âm tính.",
+    "tags": [
+      "PED-16",
+      "10-dieu-ca-truc",
+      "Cam-dung-CRP-cuong-ron"
+    ]
+  },
+  {
+    "id": "PED16-CARD-083",
+    "type": "cloze",
+    "text": "Cấm áp dụng ngưỡng Procalcitonin của người lớn (0.5 ng/mL) trong 48 giờ đầu đời vì trẻ sơ sinh khỏe mạnh có {{c1::đỉnh tăng vọt sinh lý của PCT (2–10 ng/mL)}}.",
+    "extra": "Phải đối chiếu biểu đồ bách phân vị theo giờ tuổi của Chiesa.",
+    "tags": [
+      "PED-16",
+      "10-dieu-ca-truc",
+      "Cam-ap-nguong-PCT-nguoi-lon"
+    ]
+  },
+  {
+    "id": "PED16-CARD-084",
+    "type": "cloze",
+    "text": "Phác đồ kháng sinh kinh nghiệm đầu tay bắt buộc cho Nhiễm khuẩn sơ sinh sớm (EOS) là phối hợp {{c1::Ampicillin + Gentamicin}}.",
+    "extra": "Hiệp đồng diệt khuẩn thành tế bào và ribosome 30S bao phủ GBS, Listeria và E. coli.",
+    "tags": [
+      "PED-16",
+      "10-dieu-ca-truc",
+      "Ampicillin-Gentamicin-dau-tay"
+    ]
+  },
+  {
+    "id": "PED16-CARD-085",
+    "type": "cloze",
+    "text": "Ceftriaxone bị {{c1::CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI}} ở trẻ sơ sinh < 28 ngày tuổi vì nguy cơ vàng da nhân não và kết tủa Calci gây tử vong.",
+    "extra": "Kháng sinh thay thế an toàn nếu cần dùng Cephalosporin thế hệ 3 là Cefotaxime.",
+    "tags": [
+      "PED-16",
+      "10-dieu-ca-truc",
+      "Chong-chi-dinh-Ceftriaxone"
+    ]
+  },
+  {
+    "id": "PED16-CARD-086",
+    "type": "cloze",
+    "text": "Gentamicin ở trẻ sơ sinh phải dùng theo phác đồ mở rộng khoảng cách liều: {{c1::4–5 mg/kg mỗi 24h (đủ tháng), mỗi 36h (30–36w), mỗi 48h (< 30w)}}.",
+    "extra": "Giữ nồng độ đáy < 1–2 µg/mL để bảo vệ chức năng thận và thính giác.",
+    "tags": [
+      "PED-16",
+      "10-dieu-ca-truc",
+      "Gentamicin-khoang-cach-lieu"
+    ]
+  },
+  {
+    "id": "PED16-CARD-087",
+    "type": "cloze",
+    "text": "Quy tắc 'Rule-Out Sepsis': Nếu cấy máu âm tính sau 36–48 giờ, lâm sàng trẻ khỏe và CRP bình thường ➔ {{c1::NGỪNG KHÁNG SINH NGAY LẬP TỨC}}.",
+    "extra": "Không tiêm bao vây kéo dài; bảo vệ hệ vi sinh ruột và giảm tỷ lệ viêm ruột hoại tử.",
+    "tags": [
+      "PED-16",
+      "10-dieu-ca-truc",
+      "Ngung-khang-sinh-48h"
+    ]
+  },
+  {
+    "id": "PED16-CARD-088",
+    "type": "cloze",
+    "text": "Kháng sinh dự phòng trong chuyển dạ (IAP) có hiệu lực khi sản phụ được tiêm Penicillin G hoặc Ampicillin tĩnh mạch trước khi sinh từ {{c1::≥ 4 giờ trở lên}}.",
+    "extra": "Nếu tiêm < 4 giờ được coi là không đầy đủ và trẻ vẫn phải được theo dõi sát tại khoa.",
+    "tags": [
+      "PED-16",
+      "10-dieu-ca-truc",
+      "IAP-tren-4-gio"
+    ]
+  },
+  {
+    "id": "PED16-CARD-089",
+    "type": "cloze",
+    "text": "Kháng nguyên vỏ của vi khuẩn Liên cầu nhóm B (GBS) có thành phần chính là {{c1::Polysaccharide mang acid sialic}} giúp ức chế con đường hoạt hóa bổ thể.",
+    "extra": "GBS typ III và Ia là hai serotype có độc lực cao nhất gây viêm màng não mủ ở trẻ sơ sinh.",
+    "tags": [
+      "PED-16",
+      "GBS-serotype",
+      "Acid-sialic"
+    ]
+  },
+  {
+    "id": "PED16-CARD-090",
+    "type": "cloze",
+    "text": "Vi khuẩn Listeria monocytogenes có đặc tính sinh học đặc biệt là {{c1::kháng tự nhiên với tất cả các kháng sinh nhóm Cephalosporin}}.",
+    "extra": "Do đó nếu nghi ngờ Listeria ở trẻ sơ sinh, bắt buộc phải dùng Ampicillin (hoặc Penicillin) chứ Cephalosporin hoàn toàn vô dụng.",
+    "tags": [
+      "PED-16",
+      "Listeria",
+      "Khang-Cephalosporin"
+    ]
+  },
+  {
+    "id": "PED16-CARD-091",
+    "type": "cloze",
+    "text": "Khi sản phụ có chỉ định IAP nhưng bị DỊ ỨNG PENICILLIN mức độ nhẹ (không có phản vệ), kháng sinh thay thế được lựa chọn là {{c1::Cefazolin (2 g TM liều đầu, sau đó 1 g TM mỗi 8h)}}.",
+    "extra": "Nếu dị ứng nặng có nguy cơ sốc phản vệ: phải thử kháng sinh đồ của GBS với Clindamycin hoặc dùng Vancomycin.",
+    "tags": [
+      "PED-16",
+      "Di-ung-Penicillin",
+      "Cefazolin-IAP"
+    ]
+  },
+  {
+    "id": "PED16-CARD-092",
+    "type": "cloze",
+    "text": "Chỉ số tỷ lệ bạch cầu đũa trên tổng số bạch cầu hạt trung tính còn được gọi là chỉ số {{c1::chuyển trái (Left Shift)}} của công thức máu.",
+    "extra": "Tỷ lệ I/T ≥ 0.20 có độ nhạy cao trong 24 giờ đầu đời khi tủy xương phản ứng với nhiễm khuẩn.",
+    "tags": [
+      "PED-16",
+      "Chuyen-trai",
+      "Left-shift"
+    ]
+  },
+  {
+    "id": "PED16-CARD-093",
+    "type": "cloze",
+    "text": "Phương pháp cấy máu định lượng thời gian mọc khuẩn (DTP - Differential Time to Positivity) giúp chẩn đoán nhiễm khuẩn liên quan catheter khi mẫu máu qua catheter mọc khuẩn trước mẫu ngoại vi từ {{c1::≥ 2 giờ trở lên}}.",
+    "extra": "Khẳng định vi khuẩn bắt nguồn từ màng Biofilm bên trong lòng catheter.",
+    "tags": [
+      "PED-16",
+      "DTP",
+      "CLABSI-chan-doan"
+    ]
+  },
+  {
+    "id": "PED16-CARD-094",
+    "type": "cloze",
+    "text": "Ở trẻ sơ sinh cực non (< 1000g) dùng kháng sinh phổ rộng kéo dài kèm giảm tiểu cầu dai dẳng, căn nguyên nhiễm khuẩn huyết muộn cần nghĩ tới là {{c1::nấm xâm lấn (Candida albicans / Candida parapsilosis)}}.",
+    "extra": "Chỉ định điều trị bằng Fluconazole hoặc Amphotericin B deoxycholate (0.5–1.0 mg/kg/ngày).",
+    "tags": [
+      "PED-16",
+      "Nhiem-nam-Candida",
+      "Tre-cuc-non"
+    ]
+  },
+  {
+    "id": "PED16-CARD-095",
+    "type": "cloze",
+    "text": "Cơ chế Gentamicin diệt khuẩn tối ưu phụ thuộc vào nồng độ đỉnh (Peak concentration), mục tiêu $C_{max} / \text{MIC}$ cần đạt trong huyết thanh là {{c1::≥ 8 đến 10 lần}}.",
+    "extra": "Do đó dùng 1 liều cao duy nhất 4–5 mg/kg tạo nồng độ đỉnh cao vượt trội so với chia nhỏ liều 2.5 mg/kg mỗi 12h.",
+    "tags": [
+      "PED-16",
+      "Gentamicin-Cmax-MIC",
+      "PK-PD"
+    ]
+  },
+  {
+    "id": "PED16-CARD-096",
+    "type": "cloze",
+    "text": "Nghiên cứu SCOUT (Lancet Infect Dis 2017) chứng minh rằng việc áp dụng chính sách ngừng kháng sinh ở 48h khi cấy máu âm tính giúp giảm {{c1::hơn 20% tổng lượng ngày sử dụng kháng sinh (Days of Therapy)}} tại NICU mà không làm tăng tỷ lệ tái phát.",
+    "extra": "Bằng chứng vững chắc cho chiến lược Quản lý kháng sinh an toàn trong Sơ sinh học.",
+    "tags": [
+      "PED-16",
+      "SCOUT-study",
+      "Giam-20%-khang-sinh"
+    ]
+  },
+  {
+    "id": "PED16-CARD-097",
+    "type": "cloze",
+    "text": "Hiện tượng 'Ban xuất huyết hoại tử' (Purpura fulminans) trên da trẻ sơ sinh nhiễm khuẩn huyết chỉ điểm biến chứng {{c1::Đông máu nội mạch rải rác (DIC)}} do bão cytokin kích hoạt đông máu tiêu thụ.",
+    "extra": "Cần xét nghiệm đông máu khẩn (PT, aPTT, Fibrinogen, D-dimer) và truyền huyết tương tươi đông lạnh, tiểu cầu.",
+    "tags": [
+      "PED-16",
+      "DIC",
+      "Purpura-fulminans"
+    ]
+  },
+  {
+    "id": "PED16-CARD-098",
+    "type": "cloze",
+    "text": "Ở trẻ sinh non bị nhiễm khuẩn huyết muộn, biến chứng tổn thương mắt cần khám tầm soát chuyên khoa mắt định kỳ là {{c1::Bệnh võng mạc ở trẻ đẻ non (ROP - Retinopathy of Prematurity)}}.",
+    "extra": "Tình trạng viêm hệ thống và dao động oxy máu trong nhiễm khuẩn làm rối loạn tăng sinh mạch máu võng mạc.",
+    "tags": [
+      "PED-16",
+      "ROP",
+      "Bien-chung-tre-non"
+    ]
+  },
+  {
+    "id": "PED16-CARD-099",
+    "type": "cloze",
+    "text": "Màng Biofilm của tụ cầu CoNS được cấu tạo chủ yếu bởi chất nền cao phân tử mang tên {{c1::Polysaccharide Intercellular Adhesin (PIA)}}.",
+    "extra": "Gen icaADBC mã hóa tổng hợp PIA; khi có màng này, nồng độ kháng sinh cần thiết để diệt khuẩn tăng gấp 100–1000 lần so với vi khuẩn tự do.",
+    "tags": [
+      "PED-16",
+      "PIA",
+      "Biofilm-cau-truc"
+    ]
+  },
+  {
+    "id": "PED16-CARD-100",
+    "type": "cloze",
+    "text": "Nguyên tắc điều trị nhiễm khuẩn sơ sinh cốt lõi nhất được đúc kết là: {{c1::Hành động khẩn trương trong Giờ Vàng, lấy mẫu chuẩn thể tích ≥ 1.0 mL, và DỪNG thuốc dứt khoát ở 48 giờ khi an toàn}}.",
+    "extra": "Cân bằng hoàn hảo giữa cứu sống tính mạng của trẻ và bảo vệ trẻ khỏi tác hại của lạm dụng kháng sinh.",
+    "tags": [
+      "PED-16",
+      "Cot-loi-dieu-tri",
+      "Tom-tat-toan-bai"
+    ]
+  }
+]
