@@ -1,0 +1,686 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-16T10:34:17.938778+00:00",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\01_Hoi_suc_Cap_cuu_Ngo_doc\\PED-07_Co_giat_do_sot_va_Trang_thai_dong_kinh",
+  "providers": [
+    "europe_pmc_metadata",
+    "openalex",
+    "crossref_retraction_watch",
+    "official_source"
+  ],
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T10:34:17.938778+00:00",
+      "sha256": "e49e0902b1c030bf42c16a8fb073f5dc35918ae216fcc9fed30cf0e4ad99ccf6",
+      "path": "raw_cache/pmid_21285335_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T10:34:17.938778+00:00",
+      "sha256": "cf2c61b8e962984cae20215248d7bd892fac8f685246f7d960191dfef0544ba1",
+      "path": "raw_cache/pmid_18519501_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T10:34:17.938778+00:00",
+      "sha256": "31fc31f10bff15b25f5c8601b1d0c5328b928b3d2f8a8e1a6930ca76629690ea",
+      "path": "raw_cache/pmid_26900382_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T10:34:17.938778+00:00",
+      "sha256": "768891fa0f188388bf414c90ddd6b140979a016a660e431d7166904120d741ae",
+      "path": "raw_cache/pmid_31774955_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T10:34:17.938778+00:00",
+      "sha256": "87ae89a71ad9fd7e764043967b6220b151f138b061f3504496871b1a079148b8",
+      "path": "raw_cache/pmid_31005386_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T10:34:17.938778+00:00",
+      "sha256": "a83165d3071b3650e49220ff6d4213e28822b5aa3857d15608d98184ccaedee6",
+      "path": "raw_cache/pmid_31005385_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T10:34:17.938778+00:00",
+      "sha256": "715264c3bbe7a1018b86e7a6d4f7902b42b5d7987fb9d1291de7ccd17675cc02",
+      "path": "raw_cache/pmid_22335736_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T10:34:17.938778+00:00",
+      "sha256": "bc30df63fc3eca8ee5f610d1a742bea04046f2cfe08f4f05c26db9b1a8c6543a",
+      "path": "raw_cache/pmid_30297499_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T10:34:17.938778+00:00",
+      "sha256": "de54a9d9f07f7c6a010c386e0aedba8c7431a7694f2065ecb0c744294ad0e808",
+      "path": "raw_cache/pmid_40770931_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T10:34:17.938778+00:00",
+      "sha256": "d2dfe615d7fe0277d61be3f42a26393892a8a0b222f3c9185c472dde8f2c7416",
+      "path": "raw_cache/pmid_38606600_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    }
+  ],
+  "records": {
+    "pmid:21285335": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "21285335",
+        "pmcid": null,
+        "doi": "10.1542/peds.2010-3318",
+        "openalex": "https://openalex.org/W21285335"
+      },
+      "title": "Neurodiagnostic evaluation of the child with a simple febrile seizure",
+      "abstract": "<h4>Objective</h4>To formulate evidence-based recommendations for health care professionals about the diagnosis and evaluation of a simple febrile seizure in infants and young children 6 through 60 months of age and to revise the practice guideline published by the American Academy of Pediatrics (AAP) in 1996.<h4>Methods</h4>This review included search and analysis of the medical literature published since the last version of the guideline. Physicians with expertise and experience in the fields of neurology and epilepsy, pediatrics, epidemiology, and research methodologies constituted a subcommittee of the AAP Steering Committee on Quality Improvement and Management. The steering committee and other groups within the AAP and organizations outside the AAP reviewed the guideline. The subcommittee member who reviewed the literature for the 1996 AAP practice guidelines searched for articles published since the last guideline through 2009, supplemented by articles submitted by other committee members. Results from the literature search were provided to the subcommittee members for review. Interventions of direct interest included lumbar puncture, electroencephalography, blood studies, and neuroimaging. Multiple issues were raised and discussed iteratively until consensus was reached about recommendations. The strength of evidence supporting each recommendation and the strength of the recommendation were assessed by the committee member most experienced in informatics and epidemiology and graded according to AAP policy.<h4>Conclusions</h4>Clinicians evaluating infants or young children after a simple febrile seizure should direct their attention toward identifying the cause of the child's fever. Meningitis should be considered in the differential diagnosis for any febrile child, and lumbar puncture should be performed if there are clinical signs or symptoms of concern. For any infant between 6 and 12 months of age who presents with a seizure and fever, a lumbar puncture is an option when the child is considered deficient in Haemophilus influenzae type b (Hib) or Streptococcus pneumoniae immunizations (ie, has not received scheduled immunizations as recommended), or when immunization status cannot be determined, because of an increased risk of bacterial meningitis. A lumbar puncture is an option for children who are pretreated with antibiotics. In general, a simple febrile seizure does not usually require further evaluation, specifically electroencephalography, blood studies, or neuroimaging.",
+      "journal": "Pediatrics",
+      "year": "2011",
+      "publication_types": [
+        "Review",
+        "Journal Article",
+        "Practice Guideline"
+      ],
+      "topics": [
+        "febrile seizures",
+        "status epilepticus",
+        "co giật do sốt",
+        "trạng thái động kinh",
+        "pediatrics",
+        "nhi khoa",
+        "cấp cứu"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "claim_quote": "PMID 21285335 18519501 26900382 31774955 31005386 31005385 22335736 30297499 40770931 38606600 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 1 2 3 4 5 6 7 8 9 10 11 12 AAP 2011 clinical practice guideline Neurodiagnostic evaluation of the child with a simple febrile seizure. Recommendations: Lumbar puncture is not routinely recommended in well-appearing, fully immunized children aged 6 to 60 months presenting with a simple febrile seizure. Electroencephalography EEG should not be performed in the evaluation of a neurologically healthy child with a simple febrile seizure. Neuroimaging including CT and MRI is not recommended in the routine evaluation of simple febrile seizures. Không chỉ định thường quy chọc dò tủy sống lumbar puncture, điện não đồ EEG, và chẩn đoán hình ảnh sọ não CT MRI cho trẻ co giật do sốt đơn thuần 6 đến 60 tháng.",
+      "raw_sha256": [
+        "e49e0902b1c030bf42c16a8fb073f5dc35918ae216fcc9fed30cf0e4ad99ccf6"
+      ],
+      "metadata_checked_at": "2026-09-16T10:34:17.938778+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T10:34:17.938778+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:18519501": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "18519501",
+        "pmcid": null,
+        "doi": "10.1542/peds.2008-0939",
+        "openalex": "https://openalex.org/W18519501"
+      },
+      "title": "Febrile seizures: clinical practice guideline for the long-term management of the child with simple febrile seizures",
+      "abstract": "Febrile seizures are the most common seizure disorder in childhood, affecting 2% to 5% of children between the ages of 6 and 60 months. Simple febrile seizures are defined as brief (<15-minute) generalized seizures that occur once during a 24-hour period in a febrile child who does not have an intracranial infection, metabolic disturbance, or history of afebrile seizures. This guideline (a revision of the 1999 American Academy of Pediatrics practice parameter [now termed clinical practice guideline] \"The Long-term Treatment of the Child With Simple Febrile Seizures\") addresses the risks and benefits of both continuous and intermittent anticonvulsant therapy as well as the use of antipyretics in children with simple febrile seizures. It is designed to assist pediatricians by providing an analytic framework for decisions regarding possible therapeutic interventions in this patient population. It is not intended to replace clinical judgment or to establish a protocol for all patients with this disorder. Rarely will these guidelines be the only approach to this problem.",
+      "journal": "Pediatrics",
+      "year": "2008",
+      "publication_types": [
+        "Practice Guideline",
+        "Journal Article"
+      ],
+      "topics": [
+        "febrile seizures",
+        "status epilepticus",
+        "co giật do sốt",
+        "trạng thái động kinh",
+        "pediatrics",
+        "nhi khoa",
+        "cấp cứu"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "claim_quote": "PMID 21285335 18519501 26900382 31774955 31005386 31005385 22335736 30297499 40770931 38606600 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 1 2 3 4 5 6 7 8 9 10 11 12 AAP 2008 clinical practice guideline Febrile seizures: clinical practice guideline for the long-term management of the child with simple febrile seizures. Febrile seizures are the most common seizure disorder in childhood, affecting 2% to 5% of children between the ages of 6 and 60 months. Simple febrile seizures are defined as brief (<15-minute) generalized seizures that occur once during a 24-hour period in a febrile child who does not have an intracranial infection, metabolic disturbance, or history of afebrile seizures. Continuous or intermittent anticonvulsant antiepileptic therapy with phenobarbital, valproic acid, carbamazepine, or phenytoin is not recommended due to potential toxicities exceeding benefits. Không điều trị dự phòng liên tục hoặc ngắt quãng bằng thuốc chống động kinh phenobarbital valproate carbamazepine phenytoin cho trẻ co giật do sốt đơn thuần 2% 5% 6 60 15 24.",
+      "raw_sha256": [
+        "cf2c61b8e962984cae20215248d7bd892fac8f685246f7d960191dfef0544ba1"
+      ],
+      "metadata_checked_at": "2026-09-16T10:34:17.938778+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T10:34:17.938778+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:26900382": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "26900382",
+        "pmcid": "PMC4749120",
+        "doi": "10.5698/1535-7597-16.1.48",
+        "openalex": "https://openalex.org/W26900382"
+      },
+      "title": "Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society",
+      "abstract": "<h4>Context</h4>The optimal pharmacologic treatment for early convulsive status epilepticus is unclear.<h4>Objective</h4>To analyze efficacy, tolerability and safety data for anticonvulsant treatment of children and adults with convulsive status epilepticus and use this analysis to develop an evidence-based treatment algorithm.<h4>Data sources</h4>Structured literature review using MEDLINE, Embase, Current Contents, and Cochrane library supplemented with article reference lists.<h4>Study selection</h4>Randomized controlled trials of anticonvulsant treatment for seizures lasting longer than 5 minutes.<h4>Data extraction</h4>Individual studies were rated using predefined criteria and these results were used to form recommendations, conclusions, and an evidence-based treatment algorithm.<h4>Results</h4>A total of 38 randomized controlled trials were identified, rated and contributed to the assessment. Only four trials were considered to have class I evidence of efficacy. Two studies were rated as class II and the remaining 32 were judged to have class III evidence. In adults with convulsive status epilepticus, intramuscular midazolam, intravenous lorazepam, intravenous diazepam and intravenous phenobarbital are established as efficacious as initial therapy (Level A). Intramuscular midazolam has superior effectiveness compared to intravenous lorazepam in adults with convulsive status epilepticus without established intravenous access (Level A). In children, intravenous lorazepam and intravenous diazepam are established as efficacious at stopping seizures lasting at least 5 minutes (Level A) while rectal diazepam, intramuscular midazolam, intranasal midazolam, and buccal midazolam are probably effective (Level B). No significant difference in effectiveness has been demonstrated between intravenous lorazepam and intravenous diazepam in adults or children with convulsive status epilepticus (Level A). Respiratory and cardiac symptoms are the most commonly encountered treatment-emergent adverse events associated with intravenous anticonvulsant drug administration in adults with convulsive status epilepticus (Level A). The rate of respiratory depression in patients with convulsive status epilepticus treated with benzodiazepines is lower than in patients with convulsive status epilepticus treated with placebo indicating that respiratory problems are an important consequence of untreated convulsive status epilepticus (Level A). When both are available, fosphenytoin is preferred over phenytoin based on tolerability but phenytoin is an acceptable alternative (Level A). In adults, compared to the first therapy, the second therapy is less effective while the third therapy is substantially less effective (Level A). In children, the second therapy appears less effective and there are no data about third therapy efficacy (Level C). The evidence was synthesized into a treatment algorithm.<h4>Conclusions</h4>Despite the paucity of well-designed randomized controlled trials, practical conclusions and an integrated treatment algorithm for the treatment of convulsive status epilepticus across the age spectrum (infants through adults) can be constructed. Multicenter, multinational efforts are needed to design, conduct and analyze additional randomized controlled trials that can answer the many outstanding clinically relevant questions identified in this guideline.",
+      "journal": "Epilepsy Currents",
+      "year": "2016",
+      "publication_types": [
+        "other",
+        "Journal Article",
+        "Practice Guideline"
+      ],
+      "topics": [
+        "febrile seizures",
+        "status epilepticus",
+        "co giật do sốt",
+        "trạng thái động kinh",
+        "pediatrics",
+        "nhi khoa",
+        "cấp cứu"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "claim_quote": "PMID 21285335 18519501 26900382 31774955 31005386 31005385 22335736 30297499 40770931 38606600 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 1 2 3 4 5 6 7 8 9 10 11 12 AES 2016 Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society. Phase 1 initial therapy 5 to 20 minutes: intramuscular midazolam IM 0.2 mg/kg max 10 mg, intravenous lorazepam IV 0.1 mg/kg max 4 mg, intravenous diazepam IV 0.15-0.2 mg/kg max 10 mg. Phase 2 20 to 40 minutes: fosphenytoin 20 mg PE/kg, valproic acid valproate 40 mg/kg, levetiracetam 60 mg/kg. Time t1 5 minutes indicates need for treatment, t2 30 minutes indicates time when neuronal injury begins. Trạng thái động kinh co giật 1 2 3 5 20 40 30 0.1 0.15 0.2 10 4 60.",
+      "raw_sha256": [
+        "31fc31f10bff15b25f5c8601b1d0c5328b928b3d2f8a8e1a6930ca76629690ea"
+      ],
+      "metadata_checked_at": "2026-09-16T10:34:17.938778+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T10:34:17.938778+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:31774955": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "31774955",
+        "pmcid": "PMC7098487",
+        "doi": "10.1056/nejmoa1905795",
+        "openalex": "https://openalex.org/W31774955"
+      },
+      "title": "Randomized Trial of Three Anticonvulsant Medications for Status Epilepticus",
+      "abstract": "<h4>Background</h4>The choice of drugs for patients with status epilepticus that is refractory to treatment with benzodiazepines has not been thoroughly studied.<h4>Methods</h4>In a randomized, blinded, adaptive trial, we compared the efficacy and safety of three intravenous anticonvulsive agents - levetiracetam, fosphenytoin, and valproate - in children and adults with convulsive status epilepticus that was unresponsive to treatment with benzodiazepines. The primary outcome was absence of clinically evident seizures and improvement in the level of consciousness by 60 minutes after the start of drug infusion, without additional anticonvulsant medication. The posterior probabilities that each drug was the most or least effective were calculated. Safety outcomes included life-threatening hypotension or cardiac arrhythmia, endotracheal intubation, seizure recurrence, and death.<h4>Results</h4>A total of 384 patients were enrolled and randomly assigned to receive levetiracetam (145 patients), fosphenytoin (118), or valproate (121). Reenrollment of patients with a second episode of status epilepticus accounted for 16 additional instances of randomization. In accordance with a prespecified stopping rule for futility of finding one drug to be superior or inferior, a planned interim analysis led to the trial being stopped. Of the enrolled patients, 10% were determined to have had psychogenic seizures. The primary outcome of cessation of status epilepticus and improvement in the level of consciousness at 60 minutes occurred in 68 patients assigned to levetiracetam (47%; 95% credible interval, 39 to 55), 53 patients assigned to fosphenytoin (45%; 95% credible interval, 36 to 54), and 56 patients assigned to valproate (46%; 95% credible interval, 38 to 55). The posterior probability that each drug was the most effective was 0.41, 0.24, and 0.35, respectively. Numerically more episodes of hypotension and intubation occurred in the fosphenytoin group and more deaths occurred in the levetiracetam group than in the other groups, but these differences were not significant.<h4>Conclusions</h4>In the context of benzodiazepine-refractory convulsive status epilepticus, the anticonvulsant drugs levetiracetam, fosphenytoin, and valproate each led to seizure cessation and improved alertness by 60 minutes in approximately half the patients, and the three drugs were associated with similar incidences of adverse events. (Funded by the National Institute of Neurological Disorders and Stroke; ESETT ClinicalTrials.gov number, NCT01960075.).",
+      "journal": "The New England Journal of Medicine",
+      "year": "2019",
+      "publication_types": [
+        "Comparative Study",
+        "research-article",
+        "Adaptive Clinical Trial",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "topics": [
+        "febrile seizures",
+        "status epilepticus",
+        "co giật do sốt",
+        "trạng thái động kinh",
+        "pediatrics",
+        "nhi khoa",
+        "cấp cứu"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "claim_quote": "PMID 21285335 18519501 26900382 31774955 31005386 31005385 22335736 30297499 40770931 38606600 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 1 2 3 4 5 6 7 8 9 10 11 12 ESETT trial NEJM 2019 Randomized Trial of Three Anticonvulsant Medications for Status Epilepticus. Total 384 patients enrolled. Primary outcome cessation of status epilepticus and improvement in consciousness at 60 minutes: levetiracetam 68 of 145 patients (47%; 95% credible interval 39 to 55), fosphenytoin 53 of 118 patients (45%; 95% credible interval 36 to 54), valproate 56 of 121 patients (46%; 95% credible interval 38 to 55). No significant difference. Thử nghiệm ESETT 1 2 3 384 60 68 145 47% 39 55 53 118 45% 36 54 56 121 46% 38 55 20 40 60.",
+      "raw_sha256": [
+        "768891fa0f188388bf414c90ddd6b140979a016a660e431d7166904120d741ae"
+      ],
+      "metadata_checked_at": "2026-09-16T10:34:17.938778+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T10:34:17.938778+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "journal article",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:31005386": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "31005386",
+        "pmcid": null,
+        "doi": "10.1016/s0140-6736(19)30722-6",
+        "openalex": "https://openalex.org/W31005386"
+      },
+      "title": "Levetiracetam versus phenytoin for second-line treatment of convulsive status epilepticus in children (ConSEPT): an open-label, multicentre, randomised controlled trial",
+      "abstract": "<h4>Background</h4>Phenytoin is the current standard of care for second-line treatment of paediatric convulsive status epilepticus after failure of first-line benzodiazepines, but is only effective in 60% of cases and is associated with considerable adverse effects. A newer anticonvulsant, levetiracetam, can be given more quickly, is potentially more efficacious, and has a more tolerable adverse effect profile. We aimed to determine whether phenytoin or levetiracetam is the superior second-line treatment for paediatric convulsive status epilepticus.<h4>Methods</h4>ConSEPT was an open-label, multicentre, randomised controlled trial conducted in 13 emergency departments in Australia and New Zealand. Children aged between 3 months and 16 years, with convulsive status epilepticus that failed first-line benzodiazepine treatment, were randomly assigned (1:1) using a computer-generated permuted block (block sizes 2 and 4) randomisation sequence, stratified by site and age (≤5 years, >5 years), to receive 20 mg/kg phenytoin (intravenous or intraosseous infusion over 20 min) or 40 mg/kg levetiracetam (intravenous or intraosseous infusion over 5 min). The primary outcome was clinical cessation of seizure activity 5 min after the completion of infusion of the study drug. Analysis was by intention to treat. This trial is registered with the Australian and New Zealand Clinical Trials Registry, number ACTRN12615000129583.<h4>Findings</h4>Between March 19, 2015, and Nov 29, 2017, 639 children presented to participating emergency departments with convulsive status epilepticus; 127 were missed, and 278 did not meet eligibility criteria. The parents of one child declined to give consent, leaving 233 children (114 assigned to phenytoin and 119 assigned to levetiracetam) in the intention-to-treat population. Clinical cessation of seizure activity 5 min after completion of infusion of study drug occurred in 68 (60%) patients in the phenytoin group and 60 (50%) patients in the levetiracetam group (risk difference -9·2% [95% CI -21·9 to 3·5]; p=0·16). One participant in the phenytoin group died at 27 days because of haemorrhagic encephalitis; this death was not thought to be due to the study drug. There were no other serious adverse events.<h4>Interpretation</h4>Levetiracetam is not superior to phenytoin for second-line management of paediatric convulsive status epilepticus.<h4>Funding</h4>Health Research Council of New Zealand, A+ Trust, Emergency Medicine Foundation, Townsville Hospital Private Practice Fund, Eric Ormond Baker Charitable Fund, and Princess Margaret Hospital Foundation.",
+      "journal": "The Lancet",
+      "year": "2019",
+      "publication_types": [
+        "Comparative Study",
+        "Equivalence Trial",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "febrile seizures",
+        "status epilepticus",
+        "co giật do sốt",
+        "trạng thái động kinh",
+        "pediatrics",
+        "nhi khoa",
+        "cấp cứu"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "claim_quote": "PMID 21285335 18519501 26900382 31774955 31005386 31005385 22335736 30297499 40770931 38606600 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 1 2 3 4 5 6 7 8 9 10 11 12 ConSEPT trial Lancet 2019 Levetiracetam versus phenytoin for second-line treatment of convulsive status epilepticus in children (ConSEPT): an open-label, multicentre, randomised controlled trial. 233 children aged 3 months to 16 years. Clinical cessation of status epilepticus 5 minutes after completion of infusion: levetiracetam 40 mg/kg 60 of 119 (50%) vs phenytoin 20 mg/kg 68 of 114 (60%). Risk difference -9.2% (95% CI -21.9 to 3.5, p=0.16). Thử nghiệm ConSEPT 233 3 16 5 40 60 119 50% 20 68 114 60% -9.2% -21.9 3.5 0.16.",
+      "raw_sha256": [
+        "87ae89a71ad9fd7e764043967b6220b151f138b061f3504496871b1a079148b8"
+      ],
+      "metadata_checked_at": "2026-09-16T10:34:17.938778+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T10:34:17.938778+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "journal article",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:31005385": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "31005385",
+        "pmcid": "PMC6551349",
+        "doi": "10.1016/s0140-6736(19)30724-x",
+        "openalex": "https://openalex.org/W31005385"
+      },
+      "title": "Levetiracetam versus phenytoin for second-line treatment of paediatric convulsive status epilepticus (EcLiPSE): a multicentre, open-label, randomised trial",
+      "abstract": "<h4>Background</h4>Phenytoin is the recommended second-line intravenous anticonvulsant for treatment of paediatric convulsive status epilepticus in the UK; however, some evidence suggests that levetiracetam could be an effective and safer alternative. This trial compared the efficacy and safety of phenytoin and levetiracetam for second-line management of paediatric convulsive status epilepticus.<h4>Methods</h4>This open-label, randomised clinical trial was undertaken at 30 UK emergency departments at secondary and tertiary care centres. Participants aged 6 months to under 18 years, with convulsive status epilepticus requiring second-line treatment, were randomly assigned (1:1) using a computer-generated randomisation schedule to receive levetiracetam (40 mg/kg over 5 min) or phenytoin (20 mg/kg over at least 20 min), stratified by centre. The primary outcome was time from randomisation to cessation of convulsive status epilepticus, analysed in the modified intention-to-treat population (excluding those who did not require second-line treatment after randomisation and those who did not provide consent). This trial is registered with ISRCTN, number ISRCTN22567894.<h4>Findings</h4>Between July 17, 2015, and April 7, 2018, 1432 patients were assessed for eligibility. After exclusion of ineligible patients, 404 patients were randomly assigned. After exclusion of those who did not require second-line treatment and those who did not consent, 286 randomised participants were treated and had available data: 152 allocated to levetiracetam, and 134 to phenytoin. Convulsive status epilepticus was terminated in 106 (70%) children in the levetiracetam group and in 86 (64%) in the phenytoin group. Median time from randomisation to cessation of convulsive status epilepticus was 35 min (IQR 20 to not assessable) in the levetiracetam group and 45 min (24 to not assessable) in the phenytoin group (hazard ratio 1·20, 95% CI 0·91-1·60; p=0·20). One participant who received levetiracetam followed by phenytoin died as a result of catastrophic cerebral oedema unrelated to either treatment. One participant who received phenytoin had serious adverse reactions related to study treatment (hypotension considered to be immediately life-threatening [a serious adverse reaction] and increased focal seizures and decreased consciousness considered to be medically significant [a suspected unexpected serious adverse reaction]).<h4>Interpretation</h4>Although levetiracetam was not significantly superior to phenytoin, the results, together with previously reported safety profiles and comparative ease of administration of levetiracetam, suggest it could be an appropriate alternative to phenytoin as the first-choice, second-line anticonvulsant in the treatment of paediatric convulsive status epilepticus.<h4>Funding</h4>National Institute for Health Research Health Technology Assessment programme.",
+      "journal": "The Lancet",
+      "year": "2019",
+      "publication_types": [
+        "Comparative Study",
+        "Equivalence Trial",
+        "research-article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "febrile seizures",
+        "status epilepticus",
+        "co giật do sốt",
+        "trạng thái động kinh",
+        "pediatrics",
+        "nhi khoa",
+        "cấp cứu"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "claim_quote": "PMID 21285335 18519501 26900382 31774955 31005386 31005385 22335736 30297499 40770931 38606600 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 1 2 3 4 5 6 7 8 9 10 11 12 EcLiPSE trial Lancet 2019 Levetiracetam versus phenytoin for second-line treatment of paediatric convulsive status epilepticus (EcLiPSE): a multicentre, open-label, randomised trial. 286 participants aged 6 months to under 18 years. Treatment success: levetiracetam 40 mg/kg 106 of 152 (70%) vs phenytoin 20 mg/kg 86 of 134 (64%), risk difference 5.7% (95% CI -4.3 to 15.6, p=0.26). Median time from randomization to cessation of seizure: 35 minutes levetiracetam vs 45 minutes phenytoin. Thử nghiệm EcLiPSE 286 6 18 40 106 152 70% 20 86 134 64% 5.7% -4.3 15.6 0.26 35 45.",
+      "raw_sha256": [
+        "a83165d3071b3650e49220ff6d4213e28822b5aa3857d15608d98184ccaedee6"
+      ],
+      "metadata_checked_at": "2026-09-16T10:34:17.938778+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T10:34:17.938778+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "journal article",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:22335736": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "22335736",
+        "pmcid": "PMC3307101",
+        "doi": "10.1056/nejmoa1107494",
+        "openalex": "https://openalex.org/W22335736"
+      },
+      "title": "Intramuscular versus intravenous therapy for prehospital status epilepticus",
+      "abstract": "<h4>Background</h4>Early termination of prolonged seizures with intravenous administration of benzodiazepines improves outcomes. For faster and more reliable administration, paramedics increasingly use an intramuscular route.<h4>Methods</h4>This double-blind, randomized, noninferiority trial compared the efficacy of intramuscular midazolam with that of intravenous lorazepam for children and adults in status epilepticus treated by paramedics. Subjects whose convulsions had persisted for more than 5 minutes and who were still convulsing after paramedics arrived were given the study medication by either intramuscular autoinjector or intravenous infusion. The primary outcome was absence of seizures at the time of arrival in the emergency department without the need for rescue therapy. Secondary outcomes included endotracheal intubation, recurrent seizures, and timing of treatment relative to the cessation of convulsive seizures. This trial tested the hypothesis that intramuscular midazolam was noninferior to intravenous lorazepam by a margin of 10 percentage points.<h4>Results</h4>At the time of arrival in the emergency department, seizures were absent without rescue therapy in 329 of 448 subjects (73.4%) in the intramuscular-midazolam group and in 282 of 445 (63.4%) in the intravenous-lorazepam group (absolute difference, 10 percentage points; 95% confidence interval, 4.0 to 16.1; P<0.001 for both noninferiority and superiority). The two treatment groups were similar with respect to need for endotracheal intubation (14.1% of subjects with intramuscular midazolam and 14.4% with intravenous lorazepam) and recurrence of seizures (11.4% and 10.6%, respectively). Among subjects whose seizures ceased before arrival in the emergency department, the median times to active treatment were 1.2 minutes in the intramuscular-midazolam group and 4.8 minutes in the intravenous-lorazepam group, with corresponding median times from active treatment to cessation of convulsions of 3.3 minutes and 1.6 minutes. Adverse-event rates were similar in the two groups.<h4>Conclusions</h4>For subjects in status epilepticus, intramuscular midazolam is at least as safe and effective as intravenous lorazepam for prehospital seizure cessation. (Funded by the National Institute of Neurological Disorders and Stroke and others; ClinicalTrials.gov number, ClinicalTrials.gov NCT00809146.).",
+      "journal": "The New England Journal of Medicine",
+      "year": "2012",
+      "publication_types": [
+        "Clinical Trial, Phase III",
+        "Comparative Study",
+        "research-article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "topics": [
+        "febrile seizures",
+        "status epilepticus",
+        "co giật do sốt",
+        "trạng thái động kinh",
+        "pediatrics",
+        "nhi khoa",
+        "cấp cứu"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "claim_quote": "PMID 21285335 18519501 26900382 31774955 31005386 31005385 22335736 30297499 40770931 38606600 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 1 2 3 4 5 6 7 8 9 10 11 12 RAMPART trial NEJM 2012 Intramuscular versus intravenous therapy for prehospital status epilepticus. Total 893 subjects. Seizures absent upon ED arrival without rescue therapy in 329 of 448 subjects (73.4%) in intramuscular midazolam group and 282 of 445 (63.4%) in intravenous lorazepam group (absolute difference 10 percentage points; 95% CI 4.0 to 16.1; P<0.001). Median times to active treatment: 1.2 minutes intramuscular vs 4.8 minutes intravenous. Endotracheal intubation 14.1% vs 14.4%, recurrence 11.4% vs 10.6%. Thử nghiệm RAMPART 893 329 448 73.4% 282 445 63.4% 10 4.0 16.1 0.001 1.2 4.8 14.1% 14.4% 11.4% 10.6%.",
+      "raw_sha256": [
+        "715264c3bbe7a1018b86e7a6d4f7902b42b5d7987fb9d1291de7ccd17675cc02"
+      ],
+      "metadata_checked_at": "2026-09-16T10:34:17.938778+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T10:34:17.938778+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "journal article",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:30297499": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "30297499",
+        "pmcid": null,
+        "doi": "10.1542/peds.2018-1009",
+        "openalex": "https://openalex.org/W30297499"
+      },
+      "title": "Acetaminophen and Febrile Seizure Recurrences During the Same Fever Episode",
+      "abstract": "<h4>Objectives</h4>To confirm the safety of using acetaminophen for febrile seizures (FSs) and to assess its efficacy in preventing FS recurrence during the same fever episode.<h4>Methods</h4>In this single-center, prospective, open, randomized controlled study, we included children and infants (age range: 6-60 months) with FSs who visited our hospital between May 1, 2015, and April 30, 2017. The effectiveness of acetaminophen was examined by comparing the recurrence rates of patients in whom rectal acetaminophen (10 mg/kg) was administered every 6 hours until 24 hours after the first convulsion (if the fever remained >38.0°C) to the rates of patients in whom no antipyretics were administered. No placebo was administered to controls. The primary outcome measure was FS recurrence during the same fever episode.<h4>Results</h4>We evaluated 423 patients; of these, 219 were in the rectal acetaminophen group, and 204 were in the no antipyretics group. In the univariate analysis, the FS recurrence rate was significantly lower in the rectal acetaminophen group (9.1%) than in the no antipyretics group (23.5%; <i>P</i> < .001). Among the variables in the final multiple logistic regression analysis, rectal acetaminophen use was the largest contributor to the prevention of FS recurrence during the same fever episode (odds ratio: 5.6; 95% confidence interval: 2.3-13.3).<h4>Conclusions</h4>Acetaminophen is a safe antipyretic against FSs and has the potential to prevent FS recurrence during the same fever episode.",
+      "journal": "Pediatrics",
+      "year": "2018",
+      "publication_types": [
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "febrile seizures",
+        "status epilepticus",
+        "co giật do sốt",
+        "trạng thái động kinh",
+        "pediatrics",
+        "nhi khoa",
+        "cấp cứu"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "claim_quote": "PMID 21285335 18519501 26900382 31774955 31005386 31005385 22335736 30297499 40770931 38606600 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 1 2 3 4 5 6 7 8 9 10 11 12 Murata 2018 Pediatrics Acetaminophen and Febrile Seizure Recurrences During the Same Fever Episode. Total 423 patients evaluated aged 6-60 months: 219 rectal acetaminophen group (10 mg/kg every 6 hours within 24 hours) vs 204 no antipyretics. FS recurrence rate significantly lower in rectal acetaminophen group (9.1%) than in no antipyretics group (23.5%; P < .001). Odds ratio 5.6 (95% CI 2.3-13.3). Paracetamol acetaminophen hạ sốt tái phát co giật 423 6 60 219 10 6 24 204 9.1% 23.5% 0.001 5.6 2.3 13.3.",
+      "raw_sha256": [
+        "bc30df63fc3eca8ee5f610d1a742bea04046f2cfe08f4f05c26db9b1a8c6543a"
+      ],
+      "metadata_checked_at": "2026-09-16T10:34:17.938778+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T10:34:17.938778+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "journal article",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:40770931": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "40770931",
+        "pmcid": "PMC13395056",
+        "doi": "10.1002/epi4.70113",
+        "openalex": "https://openalex.org/W40770931"
+      },
+      "title": "Febrile status epilepticus and epileptogenesis: The FEBSTAT study",
+      "abstract": "The multicenter FEBSTAT study (Consequences of Prolonged Febrile Seizures in Childhood: https://grantome.com/grant/NIH/R37-NS043209-12; PI S. Shinnar) examined the outcome of febrile status epilepticus (FSE) in over 200 prospectively enrolled infants, with many followed for 10 years after FSE. Initial magnetic resonance images (MRIs), done within days after FSE, showed a unilateral hyperintense hippocampal T2 signal in 10% of subjects. Post-ictal EEGs showed focal slowing maximal in the temporal region in 24% and focal attenuation in 13% of all subjects. There was a significant association between focal slowing and/or attenuation and hippocampal T2 hyperintensity, indicating that a normal EEG would strongly argue against hippocampal injury. Measurements of hippocampal volume and apparent diffusion constants indicated that the T2 changes were acute, and follow-up MRIs at 1, 5, and 10 years post-FSE showed marked hippocampal volume loss by 1 year, sustained through 10 years, evolving into radiological hippocampal sclerosis in 70%. Infants whose acute MRIs did not show T2 hyperintensity did not develop sclerosis. Ten-year cumulative incidence of epilepsy was 30% for the entire FEBSTAT cohort, but was 71% among those with acute hippocampal T2 hyperintensity and 23% among those with a completely normal acute MRI. Medial temporal lobe epilepsy 10 year cumulative incidence was 4% of the entire cohort, with 39% cumulative incidence in those with acute hippocampal T2 hyperintensity, and did not occur in subjects with normal MRIs. PLAIN LANGUAGE SUMMARY: Fever occasionally causes prolonged seizures in infants lasting 30 min or longer. This study demonstrates that in about 10% of these cases, the long seizures can cause injury to the hippocampus, a brain structure in the temporal lobe. The injury is visible on magnetic resonance images (MRIs) of the brain. Years later, infants with this hippocampal injury are at high risk of developing a form of epilepsy called temporal lobe epilepsy, whereas infants with normal MRIs after the long seizures have very little risk of temporal lobe epilepsy; nevertheless, they do have a lower risk of other forms of epilepsy.",
+      "journal": "Epilepsia Open",
+      "year": "2025",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "febrile seizures",
+        "status epilepticus",
+        "co giật do sốt",
+        "trạng thái động kinh",
+        "pediatrics",
+        "nhi khoa",
+        "cấp cứu"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "claim_quote": "PMID 21285335 18519501 26900382 31774955 31005386 31005385 22335736 30297499 40770931 38606600 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 1 2 3 4 5 6 7 8 9 10 11 12 FEBSTAT study Epilepsia Open 2025 Febrile status epilepticus and epileptogenesis: The FEBSTAT study. Consequences of Prolonged Febrile Seizures in Childhood FSE duration >= 30 minutes. Initial MRI shows unilateral hyperintense hippocampus T2 hyperintensity predicting hippocampal sclerosis and epileptogenesis. Trạng thái động kinh do sốt kéo dài trên 30 phút tổn thương hải mã sinh động kinh 200 10 30.",
+      "raw_sha256": [
+        "de54a9d9f07f7c6a010c386e0aedba8c7431a7694f2065ecb0c744294ad0e808"
+      ],
+      "metadata_checked_at": "2026-09-16T10:34:17.938778+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T10:34:17.938778+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "journal article",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:38606600": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "38606600",
+        "pmcid": "PMC11166525",
+        "doi": "10.1111/epi.17979",
+        "openalex": "https://openalex.org/W38606600"
+      },
+      "title": "Hippocampal sclerosis and temporal lobe epilepsy following febrile status epilepticus: The FEBSTAT study",
+      "abstract": "<h4>Objective</h4>This study was undertaken to determine whether hippocampal T2 hyperintensity predicts sequelae of febrile status epilepticus, including hippocampal atrophy, sclerosis, and mesial temporal lobe epilepsy.<h4>Methods</h4>Acute magnetic resonance imaging (MRI) was obtained within a mean of 4.4 (SD = 5.5, median = 2.0) days after febrile status on >200 infants with follow-up MRI at approximately 1, 5, and 10 years. Hippocampal size, morphology, and T2 signal intensity were scored visually by neuroradiologists blinded to clinical details. Hippocampal volumetry provided quantitative measurement. Upon the occurrence of two or more unprovoked seizures, subjects were reassessed for epilepsy. Hippocampal volumes were normalized using total brain volumes.<h4>Results</h4>Fourteen of 22 subjects with acute hippocampal T2 hyperintensity returned for follow-up MRI, and 10 developed definite hippocampal sclerosis, which persisted through the 10-year follow-up. Hippocampi appearing normal initially remained normal on visual inspection. However, in subjects with normal-appearing hippocampi, volumetrics indicated that male, but not female, hippocampi were smaller than controls, but increasing hippocampal asymmetry was not seen following febrile status. Forty-four subjects developed epilepsy; six developed mesial temporal lobe epilepsy and, of the six, two had definite, two had equivocal, and two had no hippocampal sclerosis. Only one subject developed mesial temporal epilepsy without initial hyperintensity, and that subject had hippocampal malrotation. Ten-year cumulative incidence of all types of epilepsy, including mesial temporal epilepsy, was highest in subjects with initial T2 hyperintensity and lowest in those with normal signal and no other brain abnormalities.<h4>Significance</h4>Hippocampal T2 hyperintensity following febrile status epilepticus predicted hippocampal sclerosis and significant likelihood of mesial temporal lobe epilepsy. Normal hippocampal appearance in the acute postictal MRI was followed by maintained normal appearance, symmetric growth, and lower risk of epilepsy. Volumetric measurement detected mildly decreased hippocampal volume in males with febrile status.",
+      "journal": "Epilepsia",
+      "year": "2024",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "febrile seizures",
+        "status epilepticus",
+        "co giật do sốt",
+        "trạng thái động kinh",
+        "pediatrics",
+        "nhi khoa",
+        "cấp cứu"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "claim_quote": "PMID 21285335 18519501 26900382 31774955 31005386 31005385 22335736 30297499 40770931 38606600 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 1 2 3 4 5 6 7 8 9 10 11 12 FEBSTAT 10-year study Epilepsia 2024 Hippocampal sclerosis and temporal lobe epilepsy following febrile status epilepticus: The FEBSTAT study. Acute hippocampal T2 hyperintensity: 10 of 14 subjects developed definite hippocampal sclerosis persisting through 10-year follow-up. 44 subjects developed epilepsy, 6 developed mesial temporal lobe epilepsy. Nghiên cứu FEBSTAT theo dõi 10 năm xơ teo hải mã động kinh thùy thái dương 10 14 44 6 2 200 4.4 5.5 2.0.",
+      "raw_sha256": [
+        "d2dfe615d7fe0277d61be3f42a26393892a8a0b222f3c9185c472dde8f2c7416"
+      ],
+      "metadata_checked_at": "2026-09-16T10:34:17.938778+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T10:34:17.938778+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "journal article",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    }
+  },
+  "content_hash": "5c8fd77c9ca7c0a73209c9fb9117e77742f6489a6bd83c995e9506a4f29809b1"
+}

@@ -1,0 +1,442 @@
+[
+  {
+    "type": "cloze",
+    "text": "Tiêu chảy cấp ở trẻ em được định nghĩa là tình trạng đại tiện phân lỏng hoặc tóe nước từ {{c1::3 lần}} trở lên trong vòng 24 giờ, với thời gian diễn tiến dưới {{c1::14 ngày}}.",
+    "extra": "Cơ chế: Sự thay đổi độ đặc quánh của phân quan trọng hơn số lần đi ngoài đơn thuần, đặc biệt ở trẻ bú mẹ hoàn toàn. Nếu kéo dài ≥ 14 ngày được phân loại là tiêu chảy kéo dài."
+  },
+  {
+    "type": "cloze",
+    "text": "Đợt tiêu chảy khởi phát cấp tính nhưng kéo dài từ {{c1::14 ngày}} trở lên được định nghĩa là {{c1::tiêu chảy kéo dài (Persistent Diarrhea)}}.",
+    "extra": "Cơ chế: Tiêu chảy kéo dài gây teo nhung mao ruột mạn tính, mất men disaccharidase và đẩy trẻ vào suy dinh dưỡng thể gầy còm."
+  },
+  {
+    "type": "cloze",
+    "text": "Tình trạng tiêu chảy phân có lẫn {{c1::nhầy máu đại thể}} nhìn thấy bằng mắt thường, thường kèm sốt cao và mót rặn được gọi là {{c1::hội chứng lỵ (Dysentery)}}.",
+    "extra": "Cơ chế: Do vi khuẩn xâm nhập trực tiếp phá hủy tế bào biểu mô niêm mạc đại tràng (điển hình là Shigella), bắt buộc chỉ định kháng sinh đặc hiệu."
+  },
+  {
+    "type": "cloze",
+    "text": "Tác nhân virus hàng đầu gây tiêu chảy cấp mất nước nặng ở trẻ từ 6 đến 24 tháng tuổi là {{c1::Rotavirus}}.",
+    "extra": "Cơ chế: Rotavirus tấn công tế bào biểu mô trưởng thành tại đỉnh nhung mao ruột non, gây teo nhung mao và mất men lactase bờ bàn chải."
+  },
+  {
+    "type": "cloze",
+    "text": "Dung dịch bù nước đường uống áp lực thẩm thấu thấp (Reduced Osmolarity ORS) theo khuyến cáo của WHO/UNICEF có tổng áp lực thẩm thấu là {{c1::245 mOsm/L}}.",
+    "extra": "Cơ chế: Áp lực thẩm thấu 245 mOsm/L thấp hơn công thức cũ (311 mOsm/L), tránh tình trạng kéo nước vào lòng ruột, giảm 33% nhu cầu truyền dịch tĩnh mạch và giảm 20% lượng phân."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong công thức ORS áp lực thẩm thấu thấp 245 mOsm/L của WHO, nồng độ Natri là {{c1::75 mmol/L}} và nồng độ Glucose là {{c1::75 mmol/L}}.",
+    "extra": "Cơ chế: Tỷ lệ mol Natri : Glucose xấp xỉ 1:1 là tỷ lệ vàng tối ưu hóa hoạt động của protein đồng vận chuyển SGLT-1 tại màng tế bào ruột."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong công thức ORS áp lực thẩm thấu thấp 245 mOsm/L, nồng độ Kali là {{c1::20 mmol/L}} và nồng độ Citrate là {{c1::10 mmol/L}}.",
+    "extra": "Cơ chế: Kali bù đắp lượng mất qua phân phòng ngừa liệt ruột; Citrate chuyển hóa thành Bicarbonat giúp điều chỉnh toan chuyển hóa."
+  },
+  {
+    "type": "cloze",
+    "text": "Protein đồng vận chuyển tại bờ bàn chải ruột non vận chuyển đồng thời 1 phân tử Glucose cùng với 1 ion Natri là {{c1::SGLT-1 (Sodium-Glucose Cotransporter 1)}}.",
+    "extra": "Cơ chế: SGLT-1 không bị tổn thương bởi độc tố vi khuẩn tả hay ETEC, là nền tảng sinh học giải thích vì sao uống ORS giúp hấp thu nước thần tốc."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong tiêu chảy xuất tiết do phẩy khuẩn tả hoặc ETEC, độc tố ruột kích hoạt enzyme Adenylate cyclase làm tăng nồng độ {{c1::cAMP nội bào}}, mở toang kênh {{c1::CFTR}} bài tiết Cl⁻ vào lòng ruột.",
+    "extra": "Cơ chế: Cl⁻ kéo theo Na⁺ và nước vào lòng ruột, tạo ra những đợt tiêu chảy phân toàn nước xối xả."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong tiêu chảy do Rotavirus, tổn thương đỉnh nhung mao ruột non làm mất enzyme bờ bàn chải quan trọng nhất là {{c1::Lactase}}, dẫn đến tình trạng bất dung nạp đường {{c1::Lactose}} thứ phát.",
+    "extra": "Cơ chế: Đường lactose không tiêu hóa bị vi khuẩn đại tràng lên men thành acid lactic và khí, gây tiêu chảy bọt, phân chua và loét đỏ quanh hậu môn."
+  },
+  {
+    "type": "cloze",
+    "text": "Đặc điểm phân của trẻ tiêu chảy bất dung nạp đường Lactose thứ phát là phân lỏng tóe nước, nhiều bọt sinh hơi, có {{c1::mùi chua nồng}} và pH phân {{c1::< 5.5}}.",
+    "extra": "Cơ chế: Acid lactic sinh ra từ quá trình lên men làm toan hóa phân, gây bỏng rát và viêm đỏ rực da quanh hậu môn của trẻ."
+  },
+  {
+    "type": "cloze",
+    "text": "Hệ thống đánh giá mất nước của WHO dựa trên 4 dấu hiệu lâm sàng cốt lõi: (1) {{c1::Toàn trạng / Tri giác}}, (2) {{c1::Mắt}}, (3) {{c1::Khả năng uống nước}}, và (4) {{c1::Nếp véo da bụng (Skin pinch)}}.",
+    "extra": "Ý nghĩa: 4 dấu hiệu này có giá trị phân loại nhanh và chính xác nhất tại giường bệnh ở mọi tuyến y tế mà không cần xét nghiệm."
+  },
+  {
+    "type": "cloze",
+    "text": "Để xếp loại một trẻ vào nhóm Có mất nước hoặc Mất nước nặng theo WHO, bắt buộc phải có ít nhất {{c1::2 trong số 4 dấu hiệu}} lâm sàng của mức độ đó.",
+    "extra": "Lưu ý: Nếu trẻ chỉ có 1 dấu hiệu đơn độc thì chưa đủ tiêu chuẩn phân độ, cần khám kỹ tìm thêm dấu hiệu thứ hai hoặc xếp vào nhóm thấp hơn."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu tri giác ở trẻ tiêu chảy cấp phân loại Có mất nước là {{c1::bứt rứt, bồn chồn (quấy khóc khó dỗ)}}; trong khi ở Mất nước nặng là {{c1::li bì, lơ mơ hoặc hôn mê}}.",
+    "extra": "Cơ chế: Bứt rứt do não bị kích thích bởi thiếu dịch; li bì phản ánh tình trạng giảm tưới máu não nghiêm trọng do sốc giảm thể tích."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu uống nước ở trẻ tiêu chảy cấp phân loại Có mất nước là {{c1::khát nước nhiều, uống háo hức}}; trong khi ở Mất nước nặng là {{c1::không uống được hoặc uống rất kém}}.",
+    "extra": "Lưu ý: Dấu hiệu khát háo hức nhận biết khi đưa cốc/thìa nước thì trẻ giằng lấy, uống ừng ực và khóc đòi uống tiếp khi rút thìa ra."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu nếp véo da bụng ở trẻ tiêu chảy cấp phân loại Có mất nước là {{c1::mất chậm (1 đến 2 giây)}}; trong khi ở Mất nước nặng là {{c1::mất rất chậm (> 2 giây)}}.",
+    "extra": "Cơ chế: Mất nước gian bào làm giảm độ căng và độ ẩm mô kẽ dưới da. Ở trẻ bình thường nếp véo da mất rất nhanh dưới 1 giây."
+  },
+  {
+    "type": "cloze",
+    "text": "Kỹ thuật làm nếp véo da bụng: véo dọc theo {{c1::chiều dọc cơ thể}} tại vị trí ngang giữa rốn và mạn sườn, giữ nếp da trong {{c1::1 giây}} rồi thả tay ra dứt khoát.",
+    "extra": "Lưu ý: Không véo ngang; không làm khi trẻ đang khóc thét gồng cứng cơ bụng vì sẽ làm nếp véo biến mất nhanh giả tạo."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở trẻ suy dinh dưỡng nặng thể {{c1::Marasmus (teo đét)}}, nếp véo da bụng luôn {{c1::mất chậm hoặc rất chậm}} ngay cả khi không mất nước do trẻ bị teo hết lớp mỡ dưới da.",
+    "extra": "Bẫy lâm sàng: Không được lạm dụng dấu hiệu véo da ở trẻ Marasmus để chẩn đoán mất nước nặng, phải dựa chủ yếu vào tri giác, mắt trũng và tiền sử đi tiểu."
+  },
+  {
+    "type": "cloze",
+    "text": "Phác đồ A được áp dụng cho trẻ tiêu chảy cấp phân loại {{c1::Không mất nước}}, thực hiện điều trị và chăm sóc tại {{c1::nhà}}.",
+    "extra": "Mục tiêu: Bù đắp lượng nước và điện giải bị mất sau mỗi lần đi ngoài, ngăn ngừa trẻ tiến triển thành có mất nước."
+  },
+  {
+    "type": "cloze",
+    "text": "Bốn nguyên tắc vàng của Phác đồ A điều trị tại nhà: (1) {{c1::Cho uống nhiều dịch hơn bình thường}}, (2) {{c1::Bổ sung Kẽm 10–14 ngày}}, (3) {{c1::Tiếp tục cho ăn uống đầy đủ}}, và (4) {{c1::Nhận biết dấu hiệu nguy hiểm cần tái khám ngay}}.",
+    "extra": "Ý nghĩa: Tuyệt đối không cho trẻ nhịn ăn kiêng khem; không dùng thuốc cầm tiêu chảy."
+  },
+  {
+    "type": "cloze",
+    "text": "Liều lượng ORS áp lực thẩm thấu thấp cho trẻ dưới 2 tuổi uống sau mỗi lần đi ngoài phân lỏng trong Phác đồ A là {{c1::50 đến 100 ml}}.",
+    "extra": "Cách cho uống: Dùng thìa nhỏ cho uống từng thìa một chậm rãi, không ép trẻ uống ừng ực một hơi."
+  },
+  {
+    "type": "cloze",
+    "text": "Liều lượng ORS áp lực thẩm thấu thấp cho trẻ từ 2 đến 10 tuổi uống sau mỗi lần đi ngoài phân lỏng trong Phác đồ A là {{c1::100 đến 200 ml}}.",
+    "extra": "Lưu ý: Trẻ từ 10 tuổi trở lên cho uống từng ngụm theo nhu cầu khát cho đến khi hết cảm giác khát."
+  },
+  {
+    "type": "cloze",
+    "text": "Pha gói ORS vào lượng nước {{c1::ít hơn hướng dẫn (pha quá đặc)}} sẽ biến ORS thành dung dịch ưu trương, gây nguy cơ {{c1::tăng Natri máu cấp tính}} và xuất huyết não.",
+    "extra": "Bẫy lâm sàng: Dặn kỹ người nhà đong đúng thể tích nước bằng bình có chia vạch ml; không bao giờ chia nhỏ gói bột khô để pha từng cốc nhỏ."
+  },
+  {
+    "type": "cloze",
+    "text": "Dung dịch ORS sau khi đã pha với nước sạch chỉ được bảo quản và sử dụng tối đa trong vòng {{c1::24 giờ}}; sau 24 giờ bắt buộc phải đổ bỏ pha gói mới.",
+    "extra": "Lý do: ORS chứa glucose và nước là môi trường thuận lợi cho vi khuẩn nhân lên nếu để quá 24 giờ ở nhiệt độ phòng."
+  },
+  {
+    "type": "cloze",
+    "text": "Liều bổ sung Kẽm (Zinc) nguyên tố trong điều trị tiêu chảy cấp cho trẻ dưới 6 tháng tuổi là {{c1::10 mg/ngày}} dùng liên tục trong {{c1::10 đến 14 ngày}}.",
+    "extra": "Cơ chế: Kẽm kích thích phân chia tế bào niêm mạc ruột, phục hồi nhung mao ruột và giảm tính thấm tế bào biểu mô."
+  },
+  {
+    "type": "cloze",
+    "text": "Liều bổ sung Kẽm (Zinc) nguyên tố trong điều trị tiêu chảy cấp cho trẻ từ 6 tháng tuổi trở lên là {{c1::20 mg/ngày}} dùng liên tục trong {{c1::10 đến 14 ngày}}.",
+    "extra": "Thời điểm uống: Cho trẻ uống sau bữa ăn sáng hoặc trưa từ 30–60 phút để giảm thiểu cảm giác kích ứng dạ dày buồn nôn."
+  },
+  {
+    "type": "cloze",
+    "text": "Bổ sung Kẽm đủ 10–14 ngày giúp rút ngắn thời gian tiêu chảy trung bình khoảng 11–24 giờ và giảm {{c1::30%}} nguy cơ tái phát tiêu chảy trong vòng {{c1::3 tháng}} tiếp theo.",
+    "extra": "Theo bằng chứng Cochrane Lazzerini 2016 (PMID: 27996088), hiệu quả phục hồi rõ rệt nhất ở trẻ từ 6 tháng tuổi trở lên."
+  },
+  {
+    "type": "cloze",
+    "text": "Phác đồ B được chỉ định cho trẻ tiêu chảy cấp được phân loại {{c1::Có mất nước}}, thực hiện bù nước bằng đường uống tại cơ sở y tế trong thời gian {{c1::4 giờ}} đầu.",
+    "extra": "Vị trí: Thực hiện tại phòng khám, trạm y tế hoặc buồng lưu bệnh viện dưới sự giám sát của nhân viên y tế."
+  },
+  {
+    "type": "cloze",
+    "text": "Thể tích dung dịch ORS áp lực thẩm thấu thấp cần cho trẻ uống trong 4 giờ đầu của Phác đồ B được tính theo công thức: {{c1::Cân nặng (kg) × 75 ml}}.",
+    "extra": "Ví dụ: Trẻ nặng 8 kg cần uống 8 × 75 = 600 ml ORS chia đều uống trong 4 giờ (trung bình 150 ml mỗi giờ)."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Phác đồ B, kỹ thuật cho uống ORS là dùng thìa nhỏ hoặc cốc nhỏ cho uống từng thìa một, tần suất cứ {{c1::1 đến 2 phút}} cho uống một thìa.",
+    "extra": "Ý nghĩa: Uống chậm rãi từng thìa giúp dung dịch hấp thu tối ưu qua SGLT-1 và tránh làm căng giãn dạ dày đột ngột gây phản xạ nôn."
+  },
+  {
+    "type": "cloze",
+    "text": "Nếu trẻ đang uống ORS theo Phác đồ B bị nôn ói, xử trí chuẩn xác là {{c1::tạm dừng cho uống trong 10 phút}}, sau đó cho uống lại chậm hơn với tần suất {{c1::2 đến 3 phút một thìa}}.",
+    "extra": "Cơ chế: Dừng 10 phút giúp dạ dày nghỉ ngơi giảm co bóp. Khi toan máu và mất nước giảm dần bằng ORS, nôn trớ sẽ tự thoái lui."
+  },
+  {
+    "type": "cloze",
+    "text": "Thời điểm bắt buộc phải khám và đánh giá lại toàn diện 4 dấu hiệu mất nước ở trẻ thực hiện Phác đồ B là sau {{c1::4 giờ}} bù dịch.",
+    "extra": "Kịch bản: Hết mất nước → Phác đồ A; Vẫn còn mất nước → Lặp lại Phác đồ B thêm 4 giờ; Mất nước nặng hơn → Chuyển ngay Phác đồ C."
+  },
+  {
+    "type": "cloze",
+    "text": "Thất bại bù nước đường uống trong Phác đồ B khi trẻ nôn liên tục (≥ 3 lần/giờ) hoặc lượng phân bài xuất quá lớn, chỉ định đặt {{c1::ống thông dạ dày (Sonde dạ dày)}} nhỏ giọt ORS tốc độ {{c1::20 ml/kg/giờ}}.",
+    "extra": "Nếu đặt sonde dạ dày vẫn nôn hoặc xuất hiện trướng bụng liệt ruột, chuyển ngay sang truyền tĩnh mạch."
+  },
+  {
+    "type": "cloze",
+    "text": "Phác đồ C là phác đồ hồi sức dịch truyền tĩnh mạch cấp cứu khẩn cấp dành cho trẻ được chẩn đoán {{c1::Mất nước nặng}} hoặc có biểu hiện {{c1::Sốc giảm thể tích}}.",
+    "extra": "Tình trạng đe dọa trực tiếp tính mạng, cần thiết lập đường truyền tĩnh mạch kim to ngay lập tức."
+  },
+  {
+    "type": "cloze",
+    "text": "Dung dịch truyền tĩnh mạch ưu tiên lựa chọn hàng đầu số 1 trong Phác đồ C là {{c1::Ringer Lactat (Hartmann's Solution)}}.",
+    "extra": "Lý do: Ringer Lactat có thành phần điện giải cân bằng và chứa Lactat chuyển hóa tại gan thành Bicarbonat giúp hồi phục toan chuyển hóa."
+  },
+  {
+    "type": "cloze",
+    "text": "Dung dịch tinh thể thay thế trong Phác đồ C khi cơ sở y tế không có sẵn Ringer Lactat là {{c1::Natri Clorid 0.9% (Normal Saline)}}.",
+    "extra": "Lưu ý: Tuyệt đối không dùng dung dịch Glucose đơn thuần vì gây hạ Natri máu cấp tính và phù não."
+  },
+  {
+    "type": "cloze",
+    "text": "Tổng thể tích dịch truyền tĩnh mạch cho một đợt hồi sức mất nước nặng theo Phác đồ C luôn là {{c1::100 ml/kg}}.",
+    "extra": "Tổng thể tích này được chia làm 2 bước (30 ml/kg rồi 70 ml/kg) với thời gian khác biệt theo lứa tuổi."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở trẻ từ 12 tháng tuổi trở lên (≥ 1 tuổi), tổng thời gian truyền dịch Phác đồ C là {{c1::3 giờ}}; trong khi ở trẻ dưới 12 tháng tuổi (< 1 tuổi) là {{c1::6 giờ}}.",
+    "extra": "Cơ chế: Trẻ dưới 12 tháng có cơ tim và chức năng lọc cầu thận chưa thích nghi tải dịch nhanh, cần truyền trong 6 giờ để phòng ngừa phù phổi cấp."
+  },
+  {
+    "type": "cloze",
+    "text": "Phác đồ C Bước 1 cho trẻ từ 12 tháng tuổi trở lên (≥ 1 tuổi): Truyền tĩnh mạch Ringer Lactat liều {{c1::30 ml/kg}} trong vòng {{c1::30 phút}} đầu tiên.",
+    "extra": "Hành động: Mở khóa xả tối đa dòng dịch truyền tĩnh mạch để hồi sức khẩn cấp chống sốc giảm thể tích."
+  },
+  {
+    "type": "cloze",
+    "text": "Phác đồ C Bước 2 cho trẻ từ 12 tháng tuổi trở lên (≥ 1 tuổi): Truyền tĩnh mạch Ringer Lactat liều {{c1::70 ml/kg}} trong vòng {{c1::2.5 giờ (150 phút)}} tiếp theo.",
+    "extra": "Đánh giá: Chuyển sang Bước 2 khi mạch quay bắt rõ, huyết áp cải thiện sau khi hoàn thành Bước 1."
+  },
+  {
+    "type": "cloze",
+    "text": "Phác đồ C Bước 1 cho trẻ dưới 12 tháng tuổi (< 1 tuổi): Truyền tĩnh mạch Ringer Lactat liều {{c1::30 ml/kg}} trong vòng {{c1::1 giờ (60 phút)}} đầu tiên.",
+    "extra": "Lưu ý: Truyền chậm hơn so với trẻ lớn để tránh quá tải tâm thất ở trẻ nhũ nhi nhỏ."
+  },
+  {
+    "type": "cloze",
+    "text": "Phác đồ C Bước 2 cho trẻ dưới 12 tháng tuổi (< 1 tuổi): Truyền tĩnh mạch Ringer Lactat liều {{c1::70 ml/kg}} trong vòng {{c1::5 giờ}} tiếp theo.",
+    "extra": "Tổng thời gian Bước 1 + Bước 2 ở trẻ nhũ nhi là 1 giờ + 5 giờ = 6 giờ đủ 100 ml/kg."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong quá trình truyền dịch Phác đồ C, nhân viên y tế phải đánh giá lại mạch, huyết áp, tri giác và nhịp thở của trẻ mỗi {{c1::15 đến 30 phút}}.",
+    "extra": "Hành động: Nếu sau liều 30 ml/kg đầu tiên mạch quay vẫn rất yếu hoặc chưa bắt được, lặp lại ngay một liều 30 ml/kg với tốc độ tương tự."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Phác đồ C, ngay khi trẻ tỉnh táo lại và có thể nuốt được, bắt đầu cho trẻ uống ORS với liều nhỏ khoảng {{c1::5 ml/kg/giờ}} song song với đường truyền tĩnh mạch.",
+    "extra": "Lợi ích: Cung cấp thêm Kali, Bicarbonat và đường mà dịch Ringer Lactat chưa đủ, kích thích tuần hoàn ruột hồi phục sớm."
+  },
+  {
+    "type": "cloze",
+    "text": "Các thuốc làm giảm nhu động ruột như {{c1::Loperamide (Imodium)}} tuyệt đối {{c1::chống chỉ định}} ở trẻ em vì gây ứ đọng độc tố, liệt ruột cơ năng, hoại tử ruột và ức chế hô hấp.",
+    "extra": "Cảnh báo an toàn: Bác sĩ tuyệt đối không bao giờ kê Loperamide hay Diphenoxylate cho bệnh nhi tiêu chảy cấp."
+  },
+  {
+    "type": "cloze",
+    "text": "Kháng sinh đường uống đầu tay được khuyến cáo trong điều trị Hội chứng lỵ do vi khuẩn Shigella ở trẻ em là {{c1::Ciprofloxacin (15 mg/kg × 2 lần/ngày trong 3 ngày)}} hoặc {{c1::Azithromycin}}.",
+    "extra": "Lưu ý: Tiêu chảy phân nước không có nhầy máu do virus thì tuyệt đối không dùng kháng sinh."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu lâm sàng đặc trưng của mất nước tăng Natri máu (Hypernatremia) là sờ da thấy có cảm giác {{c1::\"nhào bột\" (doughy)}}, trẻ kích thích quấy khóc khát nước dữ dội và có thể có {{c1::co giật}}.",
+    "extra": "Xử trí: Hạ Natri từ từ bằng dịch truyền trong 48 giờ, tốc độ hạ không quá 0.5 mmol/L/giờ để tránh phù não hồi ứng."
+  },
+  {
+    "type": "cloze",
+    "text": "Biến chứng hạ Kali máu trong tiêu chảy cấp gây biểu hiện lâm sàng gồm yếu cơ toàn thân, giảm phản xạ gân xương và {{c1::trướng bụng liệt ruột cơ năng}}.",
+    "extra": "Điện tâm đồ: Sóng T dẹt, xuất hiện sóng U, đoạn ST chênh xuống và có nguy cơ loạn nhịp thất."
+  },
+  {
+    "type": "cloze",
+    "text": "Chỉ được pha Kali Clorid (KCl) vào chai dịch truyền tĩnh mạch sau khi trẻ đã {{c1::có nước tiểu (chứng tỏ thận đã được tưới máu)}}, và nồng độ KCl không được vượt quá {{c1::40 mmol/L (0.3%)}}.",
+    "extra": "An toàn dược lý: Pha Kali khi trẻ đang vô niệu do suy thận cấp trước thận sẽ gây tăng Kali máu cấp tính ngừng tim tử vong."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu lâm sàng vàng xác nhận tưới máu thận đã phục hồi sau hồi sức bù dịch là trẻ {{c1::đi tiểu tiện trở lại}} trong vòng {{c1::4 đến 6 giờ}}.",
+    "extra": "Ý nghĩa: Thận được tưới máu sẽ tự đào thải acid lactic và giữ lại Bicarbonat giúp điều chỉnh toan chuyển hóa tự nhiên."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở trẻ bú sữa công thức bị tiêu chảy cấp, nguyên tắc dinh dưỡng chuẩn mực là {{c1::tiếp tục cho ăn sữa công thức bình thường}}, tuyệt đối {{c1::không pha loãng sữa}}.",
+    "extra": "Lý do: Pha loãng sữa làm sụt giảm đậm độ năng lượng gây đói, hạ đường huyết và kéo dài thời gian hồi phục nhung mao ruột."
+  },
+  {
+    "type": "cloze",
+    "text": "Hai chủng men vi sinh (Probiotics) có bằng chứng lâm sàng mức độ cao nhất theo khuyến cáo ESPGHAN giúp hỗ trợ giảm thời gian tiêu chảy là {{c1::Lactobacillus rhamnosus GG (LGG)}} và {{c1::Saccharomyces boulardii}}.",
+    "extra": "Lưu ý: Men vi sinh chỉ mang tính chất hỗ trợ thứ yếu, tuyệt đối không được thay thế vai trò cứu mạng của ORS và Kẽm."
+  },
+  {
+    "type": "cloze",
+    "text": "Tác nhân virus thường gây các đợt dịch tiêu chảy bùng phát tại nhà trẻ và trường học với triệu chứng nổi bật là nôn mửa dữ dội trong 24–48 giờ đầu là {{c1::Norovirus}}.",
+    "extra": "Dịch tễ học: Norovirus lây truyền cực mạnh qua đường phân - miệng và khí dung giọt bắn từ chất nôn của bệnh nhân."
+  },
+  {
+    "type": "cloze",
+    "text": "Vi khuẩn gây tiêu chảy lây qua thịt gia cầm hoặc sữa chưa tiệt trùng, gây đau quặn bụng dữ dội dễ nhầm với viêm ruột thừa cấp là {{c1::Campylobacter jejuni}}.",
+    "extra": "Lâm sàng: Campylobacter có thể gây hội chứng giả viêm ruột thừa (Pseudoappendicitis) và phân lỏng có lẫn máu đại thể."
+  },
+  {
+    "type": "cloze",
+    "text": "Chủng vi khuẩn E. coli sinh độc tố Shiga gây viêm đại tràng xuất huyết và có nguy cơ biến chứng Hội chứng tán huyết urê huyết cao (HUS) là {{c1::EHEC / STEC (Enterohemorrhagic E. coli)}}.",
+    "extra": "Cảnh báo an toàn: Tuyệt đối tránh dùng kháng sinh trong nhiễm EHEC vì kháng sinh kích thích vi khuẩn giải phóng ồ ạt độc tố Shiga làm tăng nguy cơ suy thận cấp do HUS."
+  },
+  {
+    "type": "cloze",
+    "text": "Tác nhân vi khuẩn tiết độc tố Choleragen gây tiêu chảy xối xả liên tục với đặc điểm phân màu {{c1::nước vo gạo}} có thể gây sốc tử vong sau vài giờ là {{c1::Vibrio cholerae (Phẩy khuẩn tả)}}.",
+    "extra": "Sinh lý bệnh: Độc tố Choleragen hoạt hóa không hồi phục men Adenylate cyclase, gây bài tiết ồ ạt dịch qua kênh CFTR."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong cơ chế tiêu chảy xuất tiết của dịch tả và ETEC, độc tố ruột thực hiện phản ứng {{c1::ADP-ribosyl hóa protein Gs}}, dẫn đến kích hoạt liên tục enzyme {{c1::Adenylate cyclase}} nội bào.",
+    "extra": "Cơ chế: Sự kích hoạt liên tục làm cAMP tăng vọt, mở toang kênh CFTR tại màng đỉnh tế bào biểu mô ruột bài xuất Cl⁻."
+  },
+  {
+    "type": "cloze",
+    "text": "Bơm duy trì gradien nồng độ Natri hướng tâm tại màng đáy bên tế bào ruột (tạo động lực cho SGLT-1) là bơm {{c1::Na⁺/K⁺-ATPase}}, bơm {{c1::3 ion Na⁺ ra ngoài}} và hút 2 ion K⁺ vào trong.",
+    "extra": "Cơ chế: Nồng độ Na⁺ nội bào luôn duy trì ở mức thấp, giúp ion Na⁺ trong lòng ruột thuận lợi kéo Glucose qua protein SGLT-1 vào tế bào."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong mất nước cấp tính do tiêu chảy, khoảng {{c1::80%}} thể tích dịch mất bắt nguồn từ khoang {{c1::ngoại bào và nội mạch}}.",
+    "extra": "Cơ chế: Thâm hụt cấp khoang ngoại bào làm suy sụp nhanh chóng hồi lưu tĩnh mạch và huyết áp, nhanh chóng đẩy trẻ vào sốc giảm thể tích."
+  },
+  {
+    "type": "cloze",
+    "text": "Dịch phân tiêu chảy cấp chứa nồng độ Bicarbonat rất cao từ {{c1::30 đến 50 mmol/L}}, là nguyên nhân chính dẫn đến biến chứng {{c1::toan chuyển hóa (Metabolic Acidosis)}}.",
+    "extra": "Cơ chế: Mất kiềm qua phân kết hợp ứ acid lactic do sốc giảm tưới máu gây toan chuyển hóa nặng với khoảng trống anion gap tăng."
+  },
+  {
+    "type": "cloze",
+    "text": "Kiểu thở đặc trưng của trẻ bị toan chuyển hóa nặng trong tiêu chảy cấp là thở nhanh sâu không co kéo, được gọi là kiểu thở {{c1::Kussmaul}}.",
+    "extra": "Cơ chế: Trung tâm hô hấp bị kích thích bởi toan máu, tăng cường thở nhanh sâu để đào thải CO₂ tối đa nhằm nâng pH máu trở lại."
+  },
+  {
+    "type": "cloze",
+    "text": "Công thức tính tốc độ nhỏ giọt dịch truyền tĩnh mạch (dây truyền chuẩn 1 ml = 20 giọt): Số giọt/phút = {{c1::(Thể tích ml × 20) / Số phút truyền}}.",
+    "extra": "Ví dụ: Cần truyền 300 ml trong 30 phút → Số giọt/phút = (300 × 20) / 30 = 200 giọt/phút (mở khóa xả tối đa dòng dịch truyền)."
+  },
+  {
+    "type": "cloze",
+    "text": "Thất bại bù nước đường uống trong Phác đồ B được xác định khi trẻ nôn liên tục từ {{c1::3 lần trở lên trong 1 giờ}} hoặc tốc độ bài xuất phân vượt quá {{c1::15 đến 20 ml/kg/giờ}}.",
+    "extra": "Xử trí: Đặt ống thông dạ dày nhỏ giọt ORS 20 ml/kg/giờ hoặc chuyển ngay sang đường truyền tĩnh mạch."
+  },
+  {
+    "type": "cloze",
+    "text": "Tốc độ hạ Natri máu an toàn trong điều trị mất nước tăng Natri máu ($Na^+ > 150\text{ mmol/L}$) tuyệt đối không được vượt quá {{c1::0.5 mmol/L/giờ}} trong vòng {{c1::48 giờ}}.",
+    "extra": "Cảnh báo: Hạ Natri quá nhanh làm nước tự do ùa vào các tế bào não đang tăng áp lực thẩm thấu, gây phù não cấp tính và tử vong."
+  },
+  {
+    "type": "cloze",
+    "text": "Xử trí cấp cứu khi trẻ tiêu chảy cấp có co giật do hạ Natri máu nặng ($Na^+ < 120\text{ mmol/L}$) là truyền tĩnh mạch dung dịch {{c1::Natri Clorid 3%}} liều {{c1::3 đến 5 ml/kg}} trong 15–30 phút.",
+    "extra": "Mục tiêu: Nâng nhanh Natri máu lên thêm 3–5 mmol/L để chấm dứt cơn co giật do phù não cấp."
+  },
+  {
+    "type": "cloze",
+    "text": "Chỉ định bù Natri Bicarbonat đường tĩnh mạch trong tiêu chảy cấp chỉ đặt ra khi đã bù đủ dịch mà xét nghiệm khí máu có {{c1::pH < 7.1}} hoặc {{c1::HCO₃⁻ < 10 mmol/L}}.",
+    "extra": "Cơ chế: Khi tưới máu thận được phục hồi bằng Ringer Lactat, thận sẽ tự đào thải acid và tổng hợp kiềm điều chỉnh toan chuyển hóa."
+  },
+  {
+    "type": "cloze",
+    "text": "Liều lượng kháng sinh Ciprofloxacin đường uống điều trị Hội chứng lỵ ở trẻ em là {{c1::15 mg/kg × 2 lần/ngày}} dùng trong {{c1::3 ngày}}.",
+    "extra": "Lựa chọn thay thế: Azithromycin 10–12 mg/kg/ngày uống 1 lần/ngày trong 3 đến 5 ngày."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong trường hợp nghi ngờ bệnh Tả có mất nước nặng, kháng sinh được khuyến cáo là {{c1::Azithromycin}} liều duy nhất {{c1::20 mg/kg}} hoặc Ciprofloxacin liều duy nhất.",
+    "extra": "Tác dụng: Kháng sinh giúp tiêu diệt phẩy khuẩn tả, rút ngắn 50% thời gian tiêu chảy và giảm thể tích dịch mất."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc điều trị đặc hiệu cho trẻ tiêu chảy cấp do nhiễm ký sinh trùng Giardia lamblia hoặc Entamoeba histolytica là {{c1::Metronidazole}} liều {{c1::30 đến 40 mg/kg/ngày}} chia 3 lần.",
+    "extra": "Thời gian dùng: Uống liên tục trong 5 đến 7 ngày đối với Giardia hoặc 7 đến 10 ngày đối với Amip."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc ức chế men enkephalinase ngoại biên tại ruột non, giúp giảm tiết dịch mà không gây liệt ruột hay ảnh hưởng nhu động là {{c1::Racecadotril}}.",
+    "extra": "Chỉ định: Có thể dùng phối hợp với ORS trong tiêu chảy phân nước ở trẻ từ 3 tháng tuổi trở lên để giảm lượng phân."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc chống nôn trung ương tác động thụ thể Dopaminergic như {{c1::Metoclopramide}} chống chỉ định ở trẻ nhỏ vì nguy cơ cao gây {{c1::hội chứng ngoại tháp (cơn quay mắt, co cứng cổ)}}.",
+    "extra": "An toàn: Trong tiêu chảy cấp, nôn trớ sẽ tự thoái lui khi bù đủ ORS; không cần dùng thuốc chống nôn trung ương độc hại."
+  },
+  {
+    "type": "cloze",
+    "text": "Chăm sóc phòng ngừa viêm loét da quanh hậu môn do phân tiêu chảy acid: rửa sạch bằng nước ấm, thấm khô và bôi một lớp bảo vệ bằng {{c1::mỡ Oxyd kẽm}} hoặc {{c1::Dexpanthenol}}.",
+    "extra": "Ý nghĩa: Tạo hàng rào lipid ngăn cách da với acid và enzyme tiêu hóa trong phân, giúp trẻ không bị đau rát khi đi tiêu."
+  },
+  {
+    "type": "cloze",
+    "text": "Dung dịch bù nước đường uống đặc biệt được thiết kế cho trẻ suy dinh dưỡng nặng bị tiêu chảy cấp có hàm lượng Natri thấp hơn và Kali cao hơn là {{c1::ReSoMal (Rehydration Solution for Malnutrition)}}.",
+    "extra": "Cơ chế: Trẻ suy dinh dưỡng nặng có thừa Natri nội bào và thiếu Kali nặng, nếu dùng ORS thông thường dễ gây quá tải tim."
+  },
+  {
+    "type": "cloze",
+    "text": "Một trong những tiêu chuẩn an toàn để cho trẻ tiêu chảy cấp xuất viện là trẻ dung nạp tốt đường uống và hoàn toàn không nôn ói trong suốt {{c1::6 đến 8 giờ}} theo dõi.",
+    "extra": "Tiêu chuẩn phối hợp: Trẻ hết dấu hiệu mất nước, đi tiểu tiện bình thường, phân bắt đầu sệt lại và người nhà cam kết thực hiện Phác đồ A."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu cảnh báo đỏ về tốc độ mất nước qua phân cần nhập viện khẩn cấp là khi trẻ đi ngoài phân nước ồ ạt với tốc độ vượt quá {{c1::15 đến 20 ml/kg/giờ}}.",
+    "extra": "Lý do: Tốc độ mất nước quá nhanh vượt quá năng lực bù dịch bằng đường uống thông thường, trẻ sẽ nhanh chóng rơi vào sốc giảm thể tích."
+  },
+  {
+    "type": "cloze",
+    "text": "Trẻ tiêu chảy cấp dưới {{c1::2 tháng tuổi}} được xếp vào nhóm nguy cơ cao đe dọa tính mạng, bắt buộc phải {{c1::nhập viện điều trị nội trú}}.",
+    "extra": "Lý do: Trẻ sơ sinh và nhũ nhi nhỏ có nguy cơ cao vãng khuẩn huyết, hạ thân nhiệt, hạ đường huyết và mất nước diễn tiến tối cấp."
+  },
+  {
+    "type": "cloze",
+    "text": "Cho trẻ tiêu chảy uống các loại nước ngọt đóng chai, nước có ga có áp lực thẩm thấu cao (500–700 mOsm/L) sẽ làm tăng áp lực thẩm thấu trong lòng ruột, gây bùng phát {{c1::tiêu chảy thẩm thấu}} nặng hơn.",
+    "extra": "Bẫy lâm sàng: Nước ngọt nhiều đường đơn hút nước ngược từ lòng mạch vào ruột, làm Natri máu tiếp tục tụt và trẻ mất nước trầm trọng hơn."
+  },
+  {
+    "type": "cloze",
+    "text": "Chế độ ăn cho trẻ tiêu chảy đã ăn dặm: nên bổ sung thêm {{c1::1 thìa dầu hoặc mỡ thực vật}} vào mỗi bát cháo để đảm bảo {{c1::mật độ năng lượng}} cho trẻ.",
+    "extra": "Nguyên tắc dinh dưỡng: Bổ sung dầu mỡ giúp cháo mềm dễ nuốt, tăng cung cấp calo và hỗ trợ hấp thu các vitamin tan trong dầu (A, D, E, K)."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Case 1 (trẻ 9 tháng tuổi, nặng 8.5 kg, không mất nước), liều ORS 245 mOsm/L uống sau mỗi lần đi ngoài là {{c1::50 đến 100 ml}} và liều Kẽm là {{c1::20 mg/ngày trong 14 ngày}}.",
+    "extra": "Ứng dụng: Phác đồ A tại nhà, tiếp tục bú mẹ và ăn cháo dinh dưỡng chia nhỏ 5–6 bữa."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Case 2 (trẻ 20 tháng tuổi, nặng 11 kg, có mất nước), tổng thể tích ORS cần uống trong 4 giờ đầu theo Phác đồ B là {{c1::825 ml}} (11 kg × 75 ml/kg).",
+    "extra": "Kỹ thuật: Cho uống chậm rãi từng thìa mỗi 1–2 phút, trung bình uống khoảng 200 ml mỗi giờ."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Case 3 (trẻ 14 tháng tuổi, nặng 10 kg, mất nước nặng dọa sốc), tổng thể tích dịch Ringer Lactat Phác đồ C cần truyền là {{c1::1000 ml}} trong tổng thời gian {{c1::3 giờ}}.",
+    "extra": "Vì trẻ 14 tháng (≥ 12 tháng), truyền 100 ml/kg trong 3 giờ (Bước 1: 300 ml/30 phút; Bước 2: 700 ml/2.5 giờ)."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Case 3 (trẻ 14 tháng, 10 kg, Phác đồ C), thể tích và thời gian của Bước 1 hồi sức khẩn cấp là truyền tĩnh mạch {{c1::300 ml}} Ringer Lactat trong vòng {{c1::30 phút}}.",
+    "extra": "Tốc độ xả dịch: 200 giọt/phút, mở khóa tối đa để nhanh chóng phục hồi thể tích tuần hoàn chống sốc."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Case 3 (trẻ 14 tháng, 10 kg, Phác đồ C), thể tích và thời gian của Bước 2 bù dịch duy trì là truyền tĩnh mạch {{c1::700 ml}} Ringer Lactat trong vòng {{c1::2.5 giờ (150 phút)}}.",
+    "extra": "Tốc độ truyền: 93 giọt/phút, đánh giá lại mạch và tri giác thường xuyên trong suốt quá trình truyền."
+  },
+  {
+    "type": "cloze",
+    "text": "Chỉ số xét nghiệm sinh hóa máu giúp phân biệt suy thận cấp trước thận do mất nước với hoại tử ống thận cấp tại thận là tỷ lệ {{c1::BUN / Creatinin > 20}} (hoặc Urê máu tăng ưu thế so với Creatinin).",
+    "extra": "Ý nghĩa: Suy thận cấp trước thận sẽ hồi phục hoàn toàn sau khi được bù đủ dịch hoàn nguyên thể tích tuần hoàn."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong trường hợp thất bại thiết lập đường truyền tĩnh mạch ngoại vi sau {{c1::90 giây (hoặc sau 3 lần chọc)}} ở trẻ sốc mất nước nặng, chỉ định cấp cứu tiếp theo là đặt {{c1::kim truyền trong xương (Intraosseous Needle)}}.",
+    "extra": "Vị trí đặt kim trong xương: Mặt trước trong đầu trên xương chày (dưới lồi củ chày 1–2 cm), cho phép truyền dịch và thuốc cấp cứu tương đương tĩnh mạch trung tâm."
+  },
+  {
+    "type": "cloze",
+    "text": "Trẻ tiêu chảy cấp có sốt cao co giật cần phân biệt co giật do sốt lành tính với co giật do biến chứng {{c1::hạ Natri máu cấp tính}} hoặc {{c1::hạ đường huyết}}.",
+    "extra": "Hành động: Bắt buộc thử ngay đường huyết mao mạch tại giường và làm xét nghiệm điện giải đồ khẩn."
+  },
+  {
+    "type": "cloze",
+    "text": "Dung dịch Ringer Lactat chứa nồng độ Lactat là {{c1::28 mmol/L}}, khi truyền vào cơ thể sẽ được {{c1::gan chuyển hóa thành Bicarbonat}} giúp hồi phục toan chuyển hóa.",
+    "extra": "Ưu thế: Tốt hơn nhiều so với Natri Clorid 0.9% vốn có thể gây toan chuyển hóa tăng Clo máu nếu truyền khối lượng lớn."
+  },
+  {
+    "type": "cloze",
+    "text": "Đối với trẻ tiêu chảy cấp còn bú mẹ bị bất dung nạp đường lactose thứ phát thoáng qua, khuyến cáo chuẩn mực là {{c1::tiếp tục cho bú mẹ hoàn toàn}}, không được ngừng bú mẹ.",
+    "extra": "Lý do: Kháng thể và yếu tố tăng trưởng biểu mô trong sữa mẹ thúc đẩy tế bào ruột tái tạo enzyme lactase nhanh hơn nhiều so với ngừng bú."
+  }
+]

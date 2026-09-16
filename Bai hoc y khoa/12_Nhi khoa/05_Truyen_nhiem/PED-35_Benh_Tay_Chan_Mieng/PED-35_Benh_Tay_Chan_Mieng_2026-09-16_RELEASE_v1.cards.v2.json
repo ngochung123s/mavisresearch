@@ -1,0 +1,842 @@
+[
+  {
+    "id": "PED35-C001",
+    "type": "cloze",
+    "text": "Trong bệnh Tay - Chân - Miệng ở trẻ em, tác nhân virus nguy hiểm nhất có ái tính hướng thần kinh mạnh gây biến chứng viêm thân não và tử vong là {{c1::Enterovirus 71 (EV71)}}.",
+    "extra": "Coxsackievirus A16 thường chỉ gây thể nhẹ lành tính, trong khi EV71 có thể gây bão catecholamine và phù phổi thần kinh tối cấp.",
+    "tags": [
+      "PED-35",
+      "Virus_hoc"
+    ]
+  },
+  {
+    "id": "PED35-C002",
+    "type": "cloze",
+    "text": "Chủng virus enterovirus thường gặp nhất gây bệnh tay chân miệng thể nhẹ, tự giới hạn trong 7–10 ngày và rất hiếm khi có biến chứng thần kinh là {{c1::Coxsackievirus A16 (CVA16)}}.",
+    "extra": "CVA16 là nguyên nhân phổ biến nhất của các ca bệnh ngoại trú tự hồi phục hoàn toàn.",
+    "tags": [
+      "PED-35",
+      "Virus_hoc"
+    ]
+  },
+  {
+    "id": "PED35-C003",
+    "type": "cloze",
+    "text": "Chủng enterovirus mới nổi thường gây ban bóng nước không điển hình lan tỏa toàn thân và có hiện tượng rụng móng (onychomadesis) sau khi khỏi bệnh là {{c1::Coxsackievirus A6 (CVA6)}}.",
+    "extra": "CVA6 gây tổn thương da rộng hơn CVA16 kinh điển, có thể xuất hiện bóng nước ở cả thân mình và cẳng tay cẳng chân.",
+    "tags": [
+      "PED-35",
+      "Virus_hoc"
+    ]
+  },
+  {
+    "id": "PED35-C004",
+    "type": "cloze",
+    "text": "Hai con đường lây truyền chính của virus gây bệnh tay chân miệng ở trẻ nhỏ là đường {{c1::tiêu hóa (phân - miệng)}} và đường {{c1::giọt bắn hô hấp}}.",
+    "extra": "Virus bài xuất qua phân kéo dài nhiều tuần và qua dịch tiết hầu họng trong 1–2 tuần đầu.",
+    "tags": [
+      "PED-35",
+      "Dich_te"
+    ]
+  },
+  {
+    "id": "PED35-C005",
+    "type": "cloze",
+    "text": "Lứa tuổi chiếm tỷ lệ mắc bệnh tay chân miệng cao nhất và có nguy cơ chuyển độ nặng nhiều nhất là trẻ {{c1::dưới 3 tuổi}} (đặc biệt dưới 5 tuổi).",
+    "extra": "Hệ miễn dịch chưa hoàn thiện và kháng thể thụ động từ mẹ truyền đã giảm là yếu tố nguy cơ chính.",
+    "tags": [
+      "PED-35",
+      "Dich_te"
+    ]
+  },
+  {
+    "id": "PED35-C006",
+    "type": "cloze",
+    "text": "Hai thụ thể màng tế bào chính giúp virus EV71 gắn kết và xâm nhập vào tế bào người là {{c1::SCARB2}} và PSGL-1.",
+    "extra": "SCARB2 đóng vai trò thiết yếu cho sự gắn kết và cởi vỏ capsid của virus trong tế bào ký chủ.",
+    "tags": [
+      "PED-35",
+      "Vi_sinh"
+    ]
+  },
+  {
+    "id": "PED35-C007",
+    "type": "cloze",
+    "text": "Khả năng tồn tại của virus gây bệnh tay chân miệng ở môi trường ngoài bị bất hoạt hiệu quả bởi các chất khử khuẩn chứa {{c1::Clo hoạt tính (như Cloramin B 2%)}} hoặc nhiệt độ cao.",
+    "extra": "Các dung dịch cồn sát khuẩn tay thông thường (ethanol) ít có hiệu quả diệt enterovirus vì đây là virus không có vỏ lipid bao bọc.",
+    "tags": [
+      "PED-35",
+      "Kiem_soat_nhiem_khuan"
+    ]
+  },
+  {
+    "id": "PED35-C008",
+    "type": "cloze",
+    "text": "Thời gian cách ly tối thiểu được khuyến cáo cho trẻ mắc bệnh tay chân miệng để phòng lây nhiễm chéo tại nhà và trường học là ít nhất {{c1::10 ngày}} kể từ ngày khởi phát bệnh.",
+    "extra": "Trẻ chỉ được quay trở lại lớp học khi đã hết sốt hoàn toàn ít nhất 48 giờ và các nốt bóng nước đã lành lặn.",
+    "tags": [
+      "PED-35",
+      "Phong_ngua"
+    ]
+  },
+  {
+    "id": "PED35-C009",
+    "type": "cloze",
+    "text": "Trẻ mắc bệnh tay chân miệng chỉ có tổn thương loét niêm mạc miệng và/hoặc ban bóng nước ngoài da, không có triệu chứng toàn thân nặng được xếp vào {{c1::Độ 1}}.",
+    "extra": "Độ 1 có chỉ định điều trị ngoại trú an toàn và hẹn tái khám theo dõi mỗi 1–2 ngày.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C010",
+    "type": "cloze",
+    "text": "Tiêu chuẩn sốt để xếp trẻ tay chân miệng vào phân độ Độ 2a là sốt kéo dài trên {{c1::2 ngày}} hoặc sốt cao trên {{c1::39°C}} khó hạ.",
+    "extra": "Sốt cao liên tục không đáp ứng thuốc hạ sốt là dấu hiệu cảnh báo sớm nguy cơ biến chứng thần kinh.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C011",
+    "type": "cloze",
+    "text": "Trẻ tay chân miệng có bệnh sử giật mình dưới 2 lần trong 30 phút và không ghi nhận lúc bác sĩ khám được xếp vào phân độ {{c1::Độ 2a}}.",
+    "extra": "Độ 2a là mốc bắt buộc phải nhập viện điều trị nội trú tại khoa Nhi.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C012",
+    "type": "cloze",
+    "text": "Ba dấu hiệu toàn thân thuộc tiêu chuẩn phân độ Độ 2a bên cạnh sốt cao là {{c1::nôn nhiều, lừ đừ, và khó ngủ / quấy khóc vô cớ}}.",
+    "extra": "Bất kỳ một trong ba dấu hiệu này xuất hiện đều đủ tiêu chuẩn để chỉ định nhập viện theo dõi nội trú.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C013",
+    "type": "cloze",
+    "text": "Khi bác sĩ trực tiếp khám bệnh và ghi nhận được cơn giật mình chới với thực thể của trẻ, bệnh nhi được xếp ngay vào phân độ {{c1::Độ 2b Nhóm 1}}.",
+    "extra": "Tận mắt chứng kiến cơn giật mình tại buồng khám là tiêu chuẩn nâng bậc lên Độ 2b Nhóm 1.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C014",
+    "type": "cloze",
+    "text": "Trẻ tay chân miệng có bệnh sử giật mình từ {{c1::2 lần trở lên}} trong vòng 30 phút được xếp vào phân độ Độ 2b Nhóm 1.",
+    "extra": "Tần suất giật mình dày đặc phản ánh sự quá kích thích tăng dần của hệ lưới thân não.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C015",
+    "type": "cloze",
+    "text": "Ngưỡng nhịp tim khi nằm yên không sốt ở trẻ tay chân miệng có giật mình để xếp vào phân độ Độ 2b Nhóm 1 là trên {{c1::130 lần/phút}}.",
+    "extra": "Mạch nhanh không tương xứng với thân nhiệt là biểu hiện sớm của cường giao cảm.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C016",
+    "type": "cloze",
+    "text": "Trẻ tay chân miệng có bệnh sử giật mình kèm biểu hiện ngủ gà hoặc sốt cao trên 39°C không hạ bằng thuốc hạ sốt được xếp vào phân độ {{c1::Độ 2b Nhóm 1}}.",
+    "extra": "Độ 2b Nhóm 1 cần được theo dõi tại buồng cấp cứu hoặc đơn vị hồi xuất nhi.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C017",
+    "type": "cloze",
+    "text": "Trẻ tay chân miệng có biểu hiện run chi, ngồi không vững, hoặc đi loạng choạng được xếp vào phân độ {{c1::Độ 2b Nhóm 2}}.",
+    "extra": "Dấu hiệu thất điều tiểu não chỉ điểm tổn thương thực thể hệ thần kinh trung ương.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C018",
+    "type": "cloze",
+    "text": "Biểu hiện mắt chỉ điểm tổn thương thần kinh thuộc tiêu chuẩn Độ 2b Nhóm 2 là {{c1::rung giật nhãn cầu (nystagmus) hoặc lác mắt}}.",
+    "extra": "Tổn thương nhân dây thần kinh vận nhãn và thân não gây bất thường vận nhãn.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C019",
+    "type": "cloze",
+    "text": "Biểu hiện vận động chi chỉ điểm tổn thương sừng trước tủy sống thuộc tiêu chuẩn Độ 2b Nhóm 2 là {{c1::yếu chi hoặc liệt mềm cấp tính}}.",
+    "extra": "Tổn thương nơ-ron vận động dưới sừng trước tủy tương tự bệnh cảnh bại liệt (polio-like syndrome).",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C020",
+    "type": "cloze",
+    "text": "Hai biểu hiện tổn thương thần kinh sọ hầu họng thuộc tiêu chuẩn Độ 2b Nhóm 2 là {{c1::nuốt sặc và thay đổi giọng nói}}.",
+    "extra": "Liệt các dây thần kinh sọ số IX, X gây mất phản xạ nuốt và đọng đờm dãi hầu họng.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C021",
+    "type": "cloze",
+    "text": "Dấu hiệu tim mạch then chốt để phân loại trẻ tay chân miệng vào Độ 3 là mạch rất nhanh trên {{c1::150 lần/phút}} ở trẻ nhỏ (hoặc trên 130 lần/phút ở trẻ lớn) khi nằm yên không sốt.",
+    "extra": "Độ 3 là giai đoạn bão catecholamine toàn thân với nguy cơ phù phổi thần kinh kịch phát.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C022",
+    "type": "cloze",
+    "text": "Biểu hiện huyết áp đặc trưng trong bệnh tay chân miệng phân loại vào Độ 3 là {{c1::tăng huyết áp kịch phát}} theo tuổi.",
+    "extra": "Co mạch toàn thân do bão catecholamine làm huyết áp tăng vọt ở giai đoạn đầu.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C023",
+    "type": "cloze",
+    "text": "Dấu hiệu thần kinh tự chủ kèm theo ở trẻ tay chân miệng Độ 3 là {{c1::vã mồ hôi, da nổi vân tím và lạnh đầu chi (hoặc lạnh toàn thân)}}.",
+    "extra": "Mạch ngoại vi co thắt tối đa khiến da lạnh ngắt dù thân nhiệt trung tâm có thể đang sốt cao.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C024",
+    "type": "cloze",
+    "text": "Dấu hiệu hô hấp bất thường ở trẻ tay chân miệng Độ 3 bao gồm {{c1::thở nhanh, thở nông, thở bụng, thở rên, hoặc thở không đều}}.",
+    "extra": "Tổn thương trung tâm hô hấp tại hành não và phù mô kẽ phổi gây rối loạn nhịp thở.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C025",
+    "type": "cloze",
+    "text": "Mức điểm hôn mê Glasgow chỉ điểm biến chứng thần kinh nặng thuộc tiêu chuẩn phân loại Độ 3 là Glasgow {{c1::< 10 điểm}}.",
+    "extra": "Trẻ li bì, lơ mơ hoặc hôn mê phản ánh tổn thương lan tỏa hệ thần kinh trung ương.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C026",
+    "type": "cloze",
+    "text": "Biểu hiện lâm sàng của bệnh tay chân miệng phân loại vào Độ 4 bao gồm tình trạng {{c1::sốc}} (mạch bằng 0, huyết áp tụt), {{c1::phù phổi cấp}} và tím tái ngưng thở.",
+    "extra": "Độ 4 là tình trạng suy sụp tuần hoàn và hô hấp tối khẩn cấp đòi hỏi hồi sức tích cực tại PICU.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C027",
+    "type": "cloze",
+    "text": "Dấu hiệu lâm sàng kinh điển của phù phổi cấp thần kinh trong bệnh tay chân miệng Độ 4 là {{c1::sùi bọt hồng qua miệng hoặc nội khí quản}} kèm ran ẩm lan tỏa hai phổi.",
+    "extra": "Dịch phù giàu protein và hồng cầu tràn ngập các phế nang do áp lực mao mạch phổi bít tăng vọt.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C028",
+    "type": "cloze",
+    "text": "Ngưỡng thời gian phục hồi màu da (CRT) chỉ điểm tình trạng sốc giảm tưới máu ngoại biên trong tay chân miệng Độ 4 là CRT {{c1::≥ 3 giây}}.",
+    "extra": "Mạch ngoại vi bắt không được hoặc bắt rất nhẹ, đầu chi lạnh ngắt và nhớp dính mồ hôi.",
+    "tags": [
+      "PED-35",
+      "Phan_do"
+    ]
+  },
+  {
+    "id": "PED35-C029",
+    "type": "cloze",
+    "text": "Thời điểm xuất hiện điển hình nhất của triệu chứng giật mình chới với (myoclonic jerks) do viêm thân não EV71 là lúc trẻ {{c1::bắt đầu thiu thiu ngủ}}.",
+    "extra": "Trẻ nẩy giật người, hai tay giơ lên hốt hoảng như ai dọa rồi giật mình mở mắt khóc thét.",
+    "tags": [
+      "PED-35",
+      "Trieu_chung"
+    ]
+  },
+  {
+    "id": "PED35-C030",
+    "type": "cloze",
+    "text": "Đặc điểm hình thái vết loét miệng điển hình trong bệnh tay chân miệng là vết loét nông đường kính {{c1::2–3 mm}} ở vòm khẩu cái, niêm mạc má, lợi và lưỡi.",
+    "extra": "Loét miệng gây đau đớn dữ dội khiến trẻ chảy nhiều nước dãi và từ chối bú mẹ.",
+    "tags": [
+      "PED-35",
+      "Trieu_chung"
+    ]
+  },
+  {
+    "id": "PED35-C031",
+    "type": "cloze",
+    "text": "Vị trí phân bố chọn lọc điển hình của ban bóng nước trong bệnh tay chân miệng là ở {{c1::lòng bàn tay, lòng bàn chân, mông và hai đầu gối}}.",
+    "extra": "Bóng nước thường có hình bầu dục, màu xám đục, chạy dọc theo các đường lằn chỉ tay chỉ chân.",
+    "tags": [
+      "PED-35",
+      "Trieu_chung"
+    ]
+  },
+  {
+    "id": "PED35-C032",
+    "type": "cloze",
+    "text": "Đặc điểm cảm giác của ban bóng nước tay chân miệng là thường {{c1::không đau và không ngứa}} khi ấn (khác với thủy đậu hay côn trùng cắn).",
+    "extra": "Khi bóng nước thoái lui thường tự khô xẹp và không để lại sẹo hay vết thâm da.",
+    "tags": [
+      "PED-35",
+      "Trieu_chung"
+    ]
+  },
+  {
+    "id": "PED35-C033",
+    "type": "cloze",
+    "text": "Thời gian diễn tiến từ cơn giật mình thoáng qua đến suy hô hấp, sốc và tử vong ở thể viêm thân não tối cấp do EV71 có thể xảy ra nhanh chóng chỉ trong vòng {{c1::12 giờ}} sau nhập viện.",
+    "extra": "Nghiên cứu của Huang CC (NEJM 1999) ghi nhận 5/7 trẻ thể nặng tử vong trong vòng 12 giờ.",
+    "tags": [
+      "PED-35",
+      "Tien_luong"
+    ]
+  },
+  {
+    "id": "PED35-C034",
+    "type": "cloze",
+    "text": "Bốn dấu hiệu cảnh báo thần kinh sớm bắt buộc thuộc lòng bao gồm: {{c1::giật mình chới với, sốt cao ≥ 39°C > 48h, mạch nhanh không tương xứng, và nôn ói nhiều lần}}.",
+    "extra": "Sự xuất hiện của bất kỳ dấu hiệu nào đều chỉ điểm viêm thân não đang âm thầm tiến triển.",
+    "tags": [
+      "PED-35",
+      "Canh_bao"
+    ]
+  },
+  {
+    "id": "PED35-C035",
+    "type": "cloze",
+    "text": "Bẫy lâm sàng thường gặp khiến phụ huynh và bác sĩ trẻ bỏ sót bệnh tay chân miệng ở trẻ nhũ nhi sốt bỏ bú là chẩn đoán nhầm thành {{c1::nhiệt miệng hoặc mọc răng}}.",
+    "extra": "Luôn luôn cởi tã khám vùng mông và vạch lòng bàn chân ở mọi trẻ sốt bỏ bú chảy nước dãi.",
+    "tags": [
+      "PED-35",
+      "Bay_lam_sang"
+    ]
+  },
+  {
+    "id": "PED35-C036",
+    "type": "cloze",
+    "text": "Cách phân biệt giật mình do EV71 với giật mình sinh lý là giật mình EV71 xuất hiện {{c1::lúc thiu thiu ngủ, trẻ nẩy người giơ hai tay lên rồi mở mắt khóc}}.",
+    "extra": "Giật mình sinh lý thường chỉ giật nhẹ một chi khi có tiếng động lớn kích thích bất ngờ.",
+    "tags": [
+      "PED-35",
+      "Trieu_chung"
+    ]
+  },
+  {
+    "id": "PED35-C037",
+    "type": "cloze",
+    "text": "Đường xâm nhập chính của virus EV71 vào hệ thần kinh trung ương là di chuyển {{c1::ngược dòng sợi trục thần kinh (retrograde axonal transport)}} từ ngoại vi vào thân não.",
+    "extra": "Virus di chuyển dọc theo dây thần kinh vận động và cảm giác để tiến thẳng vào thân não và tủy sống.",
+    "tags": [
+      "PED-35",
+      "Co_che"
+    ]
+  },
+  {
+    "id": "PED35-C038",
+    "type": "cloze",
+    "text": "Tổn thương thần kinh trung ương nguyên phát do virus EV71 gây ra là bệnh cảnh {{c1::viêm thân não (rhombencephalitis)}}.",
+    "extra": "Vùng hành não, cầu não và các nhân vận mạch bị phá hủy tế bào thần kinh và viêm hoại tử.",
+    "tags": [
+      "PED-35",
+      "Co_che"
+    ]
+  },
+  {
+    "id": "PED35-C039",
+    "type": "cloze",
+    "text": "Hình ảnh tổn thương viêm đặc trưng trên MRI sọ não ở bệnh nhân EV71 thể thần kinh xuất hiện rõ rệt tại {{c1::sừng trước tủy sống, lưng cầu não và hành não}}.",
+    "extra": "Ghi nhận tăng tín hiệu trên chuỗi xung T2 tại các vị trí giải phẫu đặc hiệu này (Ooi MH 2010).",
+    "tags": [
+      "PED-35",
+      "MRI"
+    ]
+  },
+  {
+    "id": "PED35-C040",
+    "type": "cloze",
+    "text": "Cơ chế kích hoạt cơn bão Catecholamine là sự phá hủy các trung tâm vận mạch tại {{c1::hành não (medulla oblongata)}} làm mất cơ chế ức chế giao cảm.",
+    "extra": "Tuyến thượng thận và tận cùng thần kinh giao cảm phóng thích lượng ồ ạt Adrenaline và Noradrenaline.",
+    "tags": [
+      "PED-35",
+      "Co_che"
+    ]
+  },
+  {
+    "id": "PED35-C041",
+    "type": "cloze",
+    "text": "Hậu quả tức thời của cơn bão catecholamine lên hệ tuần hoàn là gây {{c1::co thắt mạch máu toàn thân kịch phát}} làm tăng vọt huyết áp và tăng hậu gánh thất trái.",
+    "extra": "Nồng độ catecholamine tăng cao gấp hàng chục lần mức bình thường kích thích mạnh thụ thể alpha-1.",
+    "tags": [
+      "PED-35",
+      "Co_che"
+    ]
+  },
+  {
+    "id": "PED35-C042",
+    "type": "cloze",
+    "text": "Hiện tượng suy sụp chức năng co bóp cơ tim cấp do tác động độc hại trực tiếp của nồng độ catecholamine tăng cao kéo dài được gọi là {{c1::choáng váng cơ tim (myocardial stunning)}}.",
+    "extra": "Tế bào cơ tim bị kiệt quệ năng lượng và quá tải canxi nội bào dẫn đến giảm phân suất tống máu.",
+    "tags": [
+      "PED-35",
+      "Co_che"
+    ]
+  },
+  {
+    "id": "PED35-C043",
+    "type": "cloze",
+    "text": "Cơ chế bệnh sinh chính dẫn đến phù phổi thần kinh do EV71 là sự kết hợp giữa {{c1::tăng áp lực mao mạch phổi bít kịch phát}} và tổn thương suy bơm thất trái cấp.",
+    "extra": "Co mạch tạng dồn thể tích máu về phổi, kết hợp hậu gánh tăng vọt làm tràn dịch phế nang.",
+    "tags": [
+      "PED-35",
+      "Co_che"
+    ]
+  },
+  {
+    "id": "PED35-C044",
+    "type": "cloze",
+    "text": "Các cytokine tiền viêm tăng vọt trong máu tạo nên cơn bão cytokine ở trẻ viêm thân não EV71 nặng bao gồm {{c1::Interleukin-6 (IL-6)}}, IL-8, IL-10 và TNF-alpha.",
+    "extra": "Bão cytokine làm tăng tính thấm thành mạch và thúc đẩy suy đa cơ quan.",
+    "tags": [
+      "PED-35",
+      "Mien_dich"
+    ]
+  },
+  {
+    "id": "PED35-C045",
+    "type": "cloze",
+    "text": "Theo Hướng dẫn ENPEN/ESCV 2018 (PMID: 29414181), hai mẫu bệnh phẩm bắt buộc phải lấy cùng với dịch não tủy để xét nghiệm RT-PCR enterovirus là {{c1::mẫu phân và dịch phết họng}}.",
+    "extra": "Virus enterovirus có thể âm tính sớm ở dịch não tủy nhưng vẫn bài xuất kéo dài nhiều tuần trong phân.",
+    "tags": [
+      "PED-35",
+      "Xet_nghiem"
+    ]
+  },
+  {
+    "id": "PED35-C046",
+    "type": "cloze",
+    "text": "Vùng gen mục tiêu được khuyến cáo giải trình tự để định type chính xác virus Enterovirus (EV typing) là gen mã hóa protein vỏ capsid {{c1::VP1}}.",
+    "extra": "Vùng 5-NCR có độ nhạy cao để phát hiện enterovirus nhưng không dùng để định type do hiện tượng tái tổ hợp.",
+    "tags": [
+      "PED-35",
+      "Vi_sinh"
+    ]
+  },
+  {
+    "id": "PED35-C047",
+    "type": "cloze",
+    "text": "Xét nghiệm đường huyết mao mạch tại giường tăng phản ứng trên ngưỡng {{c1::8.9 mmol/L}} (> 160 mg/dL) là chỉ dấu gián tiếp của cơn bão catecholamine trong EV71.",
+    "extra": "Nồng độ adrenaline tăng vọt kích thích phân giải glycogen gan và ức chế tiết insulin.",
+    "tags": [
+      "PED-35",
+      "Xet_nghiem"
+    ]
+  },
+  {
+    "id": "PED35-C048",
+    "type": "cloze",
+    "text": "Số lượng bạch cầu máu ngoại vi tăng cao trên ngưỡng {{c1::16.0 × 10⁹/L}} là một yếu tố nguy cơ độc lập chỉ điểm bệnh tay chân miệng chuyển độ nặng.",
+    "extra": "Bạch cầu tăng cao phản ánh đáp ứng viêm hệ thống dữ dội do giải phóng ồ ạt cytokine.",
+    "tags": [
+      "PED-35",
+      "Xet_nghiem"
+    ]
+  },
+  {
+    "id": "PED35-C049",
+    "type": "cloze",
+    "text": "Hai xét nghiệm men tim cần chỉ định để đánh giá tổn thương cơ tim ở trẻ tay chân miệng Độ 3 và Độ 4 là {{c1::Troponin I và CK-MB}}.",
+    "extra": "Men tim tăng cao chỉ điểm viêm cơ tim hoặc hoại tử cơ tim do độc tính catecholamine.",
+    "tags": [
+      "PED-35",
+      "Xet_nghiem"
+    ]
+  },
+  {
+    "id": "PED35-C050",
+    "type": "cloze",
+    "text": "Hình ảnh tổn thương điển hình trên X-quang phổi ở bệnh nhi phù phổi thần kinh do EV71 là {{c1::mờ phế nang lan tỏa hình cánh bướm}} hai bên phế trường.",
+    "extra": "Tổn thương phổi tiến triển rất nhanh chỉ trong vài giờ từ khi xuất hiện thở bất thường.",
+    "tags": [
+      "PED-35",
+      "X_quang"
+    ]
+  },
+  {
+    "id": "PED35-C051",
+    "type": "cloze",
+    "text": "Biến đổi khí máu động mạch thường gặp ở bệnh nhi tay chân miệng giai đoạn sốc và phù phổi là tình trạng {{c1::toan chuyển hóa và tăng nồng độ lactate máu}}.",
+    "extra": "Thiếu oxy tổ chức và co mạch ngoại biên nặng nề dẫn đến chuyển hóa yếm khí sinh acid lactic.",
+    "tags": [
+      "PED-35",
+      "Khi_mau"
+    ]
+  },
+  {
+    "id": "PED35-C052",
+    "type": "cloze",
+    "text": "Thuốc an thần được ưu tiên lựa chọn đường uống cho trẻ tay chân miệng Độ 2b với liều 5–7 mg/kg/ngày là {{c1::Phenobarbital}}.",
+    "extra": "Phenobarbital ức chế chọn lọc sự quá kích thích của hệ lưới thân não, giảm giật mình và dịu giao cảm.",
+    "tags": [
+      "PED-35",
+      "Duoc_ly"
+    ]
+  },
+  {
+    "id": "PED35-C053",
+    "type": "cloze",
+    "text": "Khi trẻ mắc bệnh tay chân miệng có cơn co giật thực thể, chỉ định tiêm tĩnh mạch chậm thuốc chống co giật {{c1::Phenobarbital}} với liều 10–20 mg/kg pha loãng tiêm trong 15–30 phút.",
+    "extra": "Luôn chuẩn bị sẵn bóng bóp mask và dụng cụ hút đờm vì thuốc có thể gây ức chế hô hấp.",
+    "tags": [
+      "PED-35",
+      "Duoc_ly"
+    ]
+  },
+  {
+    "id": "PED35-C054",
+    "type": "cloze",
+    "text": "Cơ chế tác dụng dược lý nổi bật của Phenobarbital trong bệnh tay chân miệng thể thần kinh là {{c1::ức chế chọn lọc hệ lưới thân não}} và tăng cường dẫn truyền ức chế qua thụ thể GABA-A.",
+    "extra": "Khác với Benzodiazepine đơn thuần, Phenobarbital kiểm soát cơn bão giao cảm trung ương hiệu quả hơn.",
+    "tags": [
+      "PED-35",
+      "Duoc_ly"
+    ]
+  },
+  {
+    "id": "PED35-C055",
+    "type": "cloze",
+    "text": "Liều lượng Immune Globulin (IVIG) chuẩn theo phác đồ điều trị trẻ tay chân miệng Độ 2b Nhóm 2 và Độ 3 là {{c1::1 g/kg/ngày x 2 ngày}} liên tiếp hoặc liều duy nhất 2 g/kg truyền trong 12–24 giờ.",
+    "extra": "IVIG giúp cung cấp kháng thể trung hòa virus EV71 và điều hòa miễn dịch làm giảm bão cytokine.",
+    "tags": [
+      "PED-35",
+      "Duoc_ly"
+    ]
+  },
+  {
+    "id": "PED35-C056",
+    "type": "cloze",
+    "text": "Chỉ định dùng IVIG ở phân độ Độ 2b Nhóm 1 là khi trẻ có {{c1::sốt cao liên tục không hạ kèm mạch nhanh > 150 lần/phút}}.",
+    "extra": "Can thiệp IVIG sớm ở nhóm nguy cơ cao giúp ngăn chặn diễn tiến chuyển thành Độ 3.",
+    "tags": [
+      "PED-35",
+      "Duoc_ly"
+    ]
+  },
+  {
+    "id": "PED35-C057",
+    "type": "cloze",
+    "text": "Thuốc ức chế men phosphodiesterase-3 (PDE-3) được chỉ định truyền tĩnh mạch liên tục ở trẻ tay chân miệng Độ 3 là {{c1::Milrinone}}.",
+    "extra": "Milrinone làm tăng cAMP nội bào, vừa tăng co bóp cơ tim vừa giãn mạch ngoại biên và mạch phổi.",
+    "tags": [
+      "PED-35",
+      "Duoc_ly"
+    ]
+  },
+  {
+    "id": "PED35-C058",
+    "type": "cloze",
+    "text": "Liều truyền tĩnh mạch duy trì chuẩn của Milrinone trong điều trị bệnh tay chân miệng Độ 3 là {{c1::0.25–0.75 µg/kg/phút}} (thường khởi đầu 0.5 µg/kg/phút).",
+    "extra": "Không tiêm bolus liều nạp nếu trẻ có nguy cơ tụt huyết áp hoặc huyết động không ổn định.",
+    "tags": [
+      "PED-35",
+      "Duoc_ly"
+    ]
+  },
+  {
+    "id": "PED35-C059",
+    "type": "cloze",
+    "text": "Hai tác dụng kép của Milrinone giúp cứu sống bệnh nhi tay chân miệng Độ 3 là {{c1::tăng co bóp cơ tim (inotropic) và giãn mạch hạ hậu gánh (vasodilation)}}.",
+    "extra": "Hạ hậu gánh thất trái làm giảm tức thì áp lực mao mạch phổi bít, cắt đứt cơ chế phù phổi cấp.",
+    "tags": [
+      "PED-35",
+      "Duoc_ly"
+    ]
+  },
+  {
+    "id": "PED35-C060",
+    "type": "cloze",
+    "text": "Thử nghiệm lâm sàng ngẫu nhiên đối chứng (RCT) của Chi CY & Khanh TH (2013) tại TP. Hồ Chí Minh chứng minh Milrinone làm giảm đáng kể {{c1::tỷ lệ tử vong 1 tuần}} và kéo dài số ngày không thở máy.",
+    "extra": "Thử nghiệm chứng minh tỷ lệ tử vong giảm từ 57.9% xuống 18.2% với RR = 0.314 (p = 0.01).",
+    "tags": [
+      "PED-35",
+      "RCT"
+    ]
+  },
+  {
+    "id": "PED35-C061",
+    "type": "cloze",
+    "text": "Thuốc vận mạch tăng co bóp cơ tim đầu tay được phối hợp khi trẻ tay chân miệng Độ 4 có huyết áp tụt trơ với Milrinone là {{c1::Dobutamine}} (liều 5–15 µg/kg/phút).",
+    "extra": "Dobutamine kích thích chọn lọc thụ thể beta-1 adrenergic tăng sức co bóp cơ tim.",
+    "tags": [
+      "PED-35",
+      "Hoi_suc"
+    ]
+  },
+  {
+    "id": "PED35-C062",
+    "type": "cloze",
+    "text": "Khi trẻ tay chân miệng Độ 4 rơi vào sốc kháng dobutamine và huyết áp tụt sâu, thuốc co mạch nâng huyết áp ưu tiên phối hợp là {{c1::Noradrenaline}} (liều 0.1–1.0 µg/kg/phút).",
+    "extra": "Noradrenaline kích thích thụ thể alpha-1 nâng kháng lực mạch máu hệ thống duy trì tưới máu mạch vành và não.",
+    "tags": [
+      "PED-35",
+      "Hoi_suc"
+    ]
+  },
+  {
+    "id": "PED35-C063",
+    "type": "cloze",
+    "text": "Điều tuyệt đối cấm kỵ khi xử trí suy tuần hoàn / sốc do EV71 là không được {{c1::truyền dịch bolus nhanh 20 ml/kg}} như trong sốc giảm thể tích.",
+    "extra": "Cơ chế sốc là suy bơm tim cấp và co mạch phổi; bolus dịch nhanh sẽ gây phù phổi cấp bọt hồng tử vong ngay.",
+    "tags": [
+      "PED-35",
+      "Chong_chi_dinh"
+    ]
+  },
+  {
+    "id": "PED35-C064",
+    "type": "cloze",
+    "text": "Thuốc kháng viêm tuyệt đối KHÔNG được sử dụng thường quy trong bệnh tay chân miệng vì làm tăng nhân lên của virus và ức chế miễn dịch là {{c1::Corticosteroid (Dexamethasone/Methylprednisolone)}}.",
+    "extra": "Nhiều nghiên cứu đối chứng cho thấy Corticoid không cải thiện phù não mà làm tăng tỷ lệ tử vong ở trẻ EV71.",
+    "tags": [
+      "PED-35",
+      "Chong_chi_dinh"
+    ]
+  },
+  {
+    "id": "PED35-C065",
+    "type": "cloze",
+    "text": "Thuốc hạ sốt tuyệt đối chống chỉ định ở trẻ em mắc bệnh tay chân miệng do nguy cơ gây hội chứng Reye hoại tử gan não là {{c1::Aspirin}}.",
+    "extra": "Thuốc hạ sốt an toàn được lựa chọn hàng đầu là Paracetamol liều 10–15 mg/kg mỗi 4–6 giờ.",
+    "tags": [
+      "PED-35",
+      "Chong_chi_dinh"
+    ]
+  },
+  {
+    "id": "PED35-C066",
+    "type": "cloze",
+    "text": "Thủ thuật xâm lấn cần tránh làm vội vã lúc trẻ đang có bão catecholamine tăng huyết áp kịch phát vì có thể kích hoạt phù phổi cấp là {{c1::chọc dò tủy sống}}.",
+    "extra": "Kích thích đau đớn dữ dội làm bùng phát thêm giải phóng catecholamine gây co mạch phổi tức thì.",
+    "tags": [
+      "PED-35",
+      "Canh_bao"
+    ]
+  },
+  {
+    "id": "PED35-C067",
+    "type": "cloze",
+    "text": "Hành động sai lầm của phụ huynh tuyệt đối phải tránh khi chăm sóc bóng nước tay chân miệng là {{c1::chọc vỡ các nốt bóng nước trên da}}.",
+    "extra": "Chọc vỡ bóng nước phá hủy hàng rào bảo vệ tự nhiên, tạo ngõ vào cho tụ cầu gây nhiễm trùng huyết.",
+    "tags": [
+      "PED-35",
+      "Cham_soc"
+    ]
+  },
+  {
+    "id": "PED35-C068",
+    "type": "cloze",
+    "text": "Tư thế nằm đầu cao chuẩn được khuyến cáo cho bệnh nhi tay chân miệng từ phân độ 2b trở lên là nằm đầu cao {{c1::30 độ}}.",
+    "extra": "Tư thế này giúp tăng cường dẫn lưu tĩnh mạch não, giảm phù não và hỗ trợ cơ học thông khí.",
+    "tags": [
+      "PED-35",
+      "Cham_soc"
+    ]
+  },
+  {
+    "id": "PED35-C069",
+    "type": "cloze",
+    "text": "Mức áp lực dương cuối kỳ thở ra (PEEP) cao được cài đặt khi thở máy ở bệnh nhi phù phổi thần kinh do EV71 là từ {{c1::8–12 cmH2O}}.",
+    "extra": "PEEP cao giúp mở các phế nang bị xẹp và chống lại áp lực thủy tĩnh ngăn dịch tràn vào lòng phế nang.",
+    "tags": [
+      "PED-35",
+      "Tho_may"
+    ]
+  },
+  {
+    "id": "PED35-C070",
+    "type": "cloze",
+    "text": "Bệnh lý nhiễm virus cần chẩn đoán phân biệt với loét miệng tay chân miệng có đặc điểm mụn nước mọc thành chùm quanh mép môi và viêm lợi chảy máu là {{c1::Herpes simplex virus (HSV)}}.",
+    "extra": "HSV thường gây viêm lợi miệng cấp tính với nướu răng sưng đỏ, đau rát và tổn thương quanh môi.",
+    "tags": [
+      "PED-35",
+      "Chan_doan_phan_biet"
+    ]
+  },
+  {
+    "id": "PED35-C071",
+    "type": "cloze",
+    "text": "Đặc điểm phân bố tổn thương giúp phân biệt Thủy đậu với Tay chân miệng là bóng nước thủy đậu phân bố chủ yếu ở {{c1::thân mình, mặt và da đầu}} với nhiều lứa tuổi khác nhau.",
+    "extra": "Bóng nước tay chân miệng chọn lọc ở lòng bàn tay, bàn chân, mông và không ngứa.",
+    "tags": [
+      "PED-35",
+      "Chan_doan_phan_biet"
+    ]
+  },
+  {
+    "id": "PED35-C072",
+    "type": "cloze",
+    "text": "Bệnh lý ngoài da nhiễm trùng cần phân biệt với ban tay chân miệng có bóng nước dễ vỡ đóng vảy tiết màu vàng mật ong là {{c1::chốc lây (impetigo)}}.",
+    "extra": "Chốc lây do tụ cầu hoặc liên cầu khuẩn, đáp ứng với kháng sinh bôi hoặc uống.",
+    "tags": [
+      "PED-35",
+      "Chan_doan_phan_biet"
+    ]
+  },
+  {
+    "id": "PED35-C073",
+    "type": "cloze",
+    "text": "Tổn thương loét miệng lành tính hay tái phát ở niêm mạc má lưỡi nhưng hoàn toàn không kèm theo ban da hay biến chứng toàn thân là {{c1::viêm loét miệng Aphthe (Aphthous stomatitis)}}.",
+    "extra": "Aphthe thường đơn độc hoặc vài nốt, bờ rõ, đáy vàng nhạt, không lây nhiễm.",
+    "tags": [
+      "PED-35",
+      "Chan_doan_phan_biet"
+    ]
+  },
+  {
+    "id": "PED35-C074",
+    "type": "cloze",
+    "text": "Hiệu lực bảo vệ của vắc xin bất hoạt Enterovirus 71 (EV71) đối với bệnh tay chân miệng thể nặng và nhập viện trong thử nghiệm pha 3 đạt trên {{c1::90%}}.",
+    "extra": "Vắc xin EV71 tạo kháng thể trung hòa bảo vệ bền vững ở trẻ nhỏ từ 6 đến 35 tháng tuổi (Li R 2014).",
+    "tags": [
+      "PED-35",
+      "Vac_xin"
+    ]
+  },
+  {
+    "id": "PED35-C075",
+    "type": "cloze",
+    "text": "Hạn chế của vắc xin bất hoạt EV71 hiện nay là {{c1::không có khả năng bảo vệ chéo}} đối với các chủng enterovirus khác như Coxsackievirus A16 hay A6.",
+    "extra": "Trẻ đã tiêm vắc xin EV71 vẫn có thể mắc bệnh tay chân miệng do CVA16 hoặc CVA6 nhưng nguy cơ thể nặng giảm.",
+    "tags": [
+      "PED-35",
+      "Vac_xin"
+    ]
+  },
+  {
+    "id": "PED35-C076",
+    "type": "cloze",
+    "text": "Nghiên cứu theo dõi dài hạn của Chang LY (NEJM 2007) cho thấy trẻ từng bị viêm thân não do EV71 nặng có nguy cơ gặp di chứng lâu dài về {{c1::phát triển thần kinh và suy giảm nhận thức}}.",
+    "extra": "Trẻ cần được theo dõi đánh giá tâm vận và can thiệp phục hồi chức năng định kỳ sau xuất viện.",
+    "tags": [
+      "PED-35",
+      "Di_chung"
+    ]
+  },
+  {
+    "id": "PED35-C077",
+    "type": "cloze",
+    "text": "Tỷ lệ di chứng thần kinh kéo dài ở trẻ từng trải qua viêm thân não EV71 có biến chứng phù phổi cao hơn rõ rệt so với nhóm {{c1::chỉ có viêm thân não đơn thuần}}.",
+    "extra": "Thiếu oxy não và tụt huyết áp trong giai đoạn sốc góp phần làm trầm trọng thêm tổn thương nơ-ron.",
+    "tags": [
+      "PED-35",
+      "Di_chung"
+    ]
+  },
+  {
+    "id": "PED35-C078",
+    "type": "cloze",
+    "text": "Dấu hiệu báo động đỏ quan trọng nhất cần hướng dẫn phụ huynh phát hiện khi theo dõi trẻ tay chân miệng Độ 1 tại nhà là {{c1::giật mình chới với lúc thiu thiu ngủ}}.",
+    "extra": "Xuất hiện giật mình chỉ điểm bệnh đã chuyển từ Độ 1 sang Độ 2 cần đưa trẻ đi cấp cứu ngay.",
+    "tags": [
+      "PED-35",
+      "Giao_duc_phu_huynh"
+    ]
+  },
+  {
+    "id": "PED35-C079",
+    "type": "cloze",
+    "text": "Chế độ ăn được khuyến cáo cho trẻ có vết loét miệng gây đau trong bệnh tay chân miệng là thức ăn {{c1::lỏng, mềm, nguội và chia nhỏ bữa}}.",
+    "extra": "Tránh thức ăn chua, cay, mặn hoặc quá nóng vì gây kích ứng đau đớn các vết loét miệng.",
+    "tags": [
+      "PED-35",
+      "Cham_soc"
+    ]
+  },
+  {
+    "id": "PED35-C080",
+    "type": "cloze",
+    "text": "Biện pháp vệ sinh khoang miệng an toàn cho trẻ mắc bệnh tay chân miệng là rơ miệng nhẹ nhàng bằng {{c1::nước muối sinh lý 0.9%}} hoặc dung dịch sát khuẩn miệng chuyên dụng.",
+    "extra": "Tránh chà xát mạnh làm trầy xước niêm mạc gây chảy máu và đau đớn thêm cho trẻ.",
+    "tags": [
+      "PED-35",
+      "Cham_soc"
+    ]
+  },
+  {
+    "id": "PED35-C081",
+    "type": "cloze",
+    "text": "Khoảng thời gian tái khám định kỳ được khuyến cáo cho trẻ tay chân miệng Độ 1 điều trị ngoại trú là mỗi {{c1::1–2 ngày}} một lần cho đến khi hết sốt ít nhất 48 giờ.",
+    "extra": "Tái khám định kỳ giúp bác sĩ đánh giá lại phân độ và phát hiện sớm các ca bệnh chuyển độ ngấm ngầm.",
+    "tags": [
+      "PED-35",
+      "Theo_doi"
+    ]
+  },
+  {
+    "id": "PED35-C082",
+    "type": "cloze",
+    "text": "Các vật dụng sinh hoạt và đồ chơi của trẻ tay chân miệng cần được ngâm rửa khử khuẩn bằng {{c1::dung dịch Cloramin B 2%}} hoặc chất tẩy rửa gia dụng có Clo trong ít nhất 30 phút.",
+    "extra": "Khử trùng bề mặt sàn nhà và đồ chơi giúp ngăn ngừa lây lan thành ổ dịch trong gia đình và trường mẫu giáo.",
+    "tags": [
+      "PED-35",
+      "Phong_ngua"
+    ]
+  },
+  {
+    "id": "PED35-C083",
+    "type": "cloze",
+    "text": "Thuốc giảm đau hạ sốt an toàn tuyệt đối được lựa chọn cho trẻ mắc bệnh tay chân miệng là {{c1::Paracetamol (liều 10–15 mg/kg mỗi 4–6 giờ)}}.",
+    "extra": "Tổng liều Paracetamol không vượt quá 60 mg/kg/ngày để tránh nguy cơ ngộ độc hoại tử tế bào gan.",
+    "tags": [
+      "PED-35",
+      "Duoc_ly"
+    ]
+  },
+  {
+    "id": "PED35-C084",
+    "type": "cloze",
+    "text": "Biện pháp theo dõi tri giác tại nhà đơn giản nhất hướng dẫn cho bố mẹ là quan sát {{c1::mức độ tương tác của trẻ khi hết sốt}} (trẻ có chơi ngoan, mắt sáng hay lừ đừ nhìn vô hồn).",
+    "extra": "Trẻ lừ đừ, quấy khóc vô cớ ngay cả khi đã hạ sốt là dấu hiệu báo động tổn thương thần kinh.",
+    "tags": [
+      "PED-35",
+      "Theo_doi"
+    ]
+  }
+]

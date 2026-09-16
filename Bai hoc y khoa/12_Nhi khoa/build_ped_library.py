@@ -62,6 +62,7 @@ def scan_files_in_nhi_khoa() -> dict[str, dict]:
     discovered: dict[str, dict] = {}
 
     for root, dirs, files in os.walk(BASE_DIR):
+        dirs[:] = [d for d in dirs if d not in {"outputs", "raw_cache", ".git"}]
         root_path = Path(root)
 
         # Check folder or files matching PED-XX
@@ -96,8 +97,8 @@ def scan_files_in_nhi_khoa() -> dict[str, dict]:
                 if "PEDYTB" in file.upper():
                     discovered[ped_id]["pedytb_file"] = file
                     discovered[ped_id]["pedytb_content"] = fpath.read_text(encoding="utf-8")
-                elif "RELEASE" in file.upper() or (file.startswith("PED-") and "BRIEF" not in file.upper()):
-                    # Avoid research brief
+                elif ("RELEASE" in file.upper() or (file.startswith("PED-") and "BRIEF" not in file.upper())) and "KNOWLEDGE_CHECK" not in file.upper():
+                    # Main lesson release file
                     discovered[ped_id]["ped_file"] = file
                     discovered[ped_id]["ped_content"] = fpath.read_text(encoding="utf-8")
             elif file.endswith(".cards.v2.json"):
@@ -184,7 +185,7 @@ def main():
         "metadata": {
             "title": "PedViewer — Thư viện Sách & Bài học Nhi khoa",
             "version": "1.0",
-            "generated_at": "2026-09-13",
+            "generated_at": "2026-09-16",
             "total_curriculum": len(curriculum),
             "total_ped": ped_count,
             "total_pedytb": pedytb_count,

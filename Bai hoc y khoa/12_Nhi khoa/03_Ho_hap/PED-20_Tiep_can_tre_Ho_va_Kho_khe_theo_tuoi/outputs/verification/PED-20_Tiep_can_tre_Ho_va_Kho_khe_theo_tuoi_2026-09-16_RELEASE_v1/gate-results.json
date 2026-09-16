@@ -1,0 +1,484 @@
+[
+  {
+    "gate": "brief_pmid_preflight",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\preflight_check_pmids.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_RESEARCH_BRIEF.md",
+      "--strict",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_RESEARCH_BRIEF.md",
+        "sha256": "97a61d3b65c35360d6b066849b1c65bd5c96fe222d420531977e0e7398660535"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\evidence_bundle.json",
+        "sha256": "a3df2e1795f360857cf130d8b52035c44055ca3ebdb3068437b5daa62bd8e8d6"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\brief_pmid_preflight.json",
+        "sha256": "9152d7fac347dd3c1390a322c58578e9f5ee5907ddaed85362f8a5dfe8479535"
+      }
+    ]
+  },
+  {
+    "gate": "brief_claims_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_claim_vs_abstract.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_RESEARCH_BRIEF.md",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\brief_claims_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_RESEARCH_BRIEF.md",
+        "sha256": "97a61d3b65c35360d6b066849b1c65bd5c96fe222d420531977e0e7398660535"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\evidence_bundle.json",
+        "sha256": "a3df2e1795f360857cf130d8b52035c44055ca3ebdb3068437b5daa62bd8e8d6"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\brief_claims_command.json",
+        "sha256": "146d218a561a77aeaaf5efd24f1d314e7a5fe0507c3611f62f8111cb3ba17f37"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\brief_claims_report.json",
+        "sha256": "6ee9d7ed758f4c5d34f276b136fc9adf6b6d2fa96898a84a4a9aba965d49c28c"
+      }
+    ]
+  },
+  {
+    "gate": "source_pmid_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_all_pmids.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+      "--strict",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+        "sha256": "8b3b5e76af0534a588589c88c9453725ecd94a69b71129710ea8fefcac0c76f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\evidence_bundle.json",
+        "sha256": "a3df2e1795f360857cf130d8b52035c44055ca3ebdb3068437b5daa62bd8e8d6"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\source_pmid_strict.json",
+        "sha256": "146d218a561a77aeaaf5efd24f1d314e7a5fe0507c3611f62f8111cb3ba17f37"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_guidelines.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\guideline_evidence.json",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\guideline_report.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\guideline_evidence.json",
+        "sha256": "d1fa3a4497a4122e3fc9777c9751f77c6be1e339fc53cae430d078c79c7b7042"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\guideline_command.json",
+        "sha256": "6154c35616b258394f75a3837bed1c1bd57adee8893b4141c564956e89f87bfe"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\guideline_report.json",
+        "sha256": "3e1e5f419898359d26931c065cf527994bdaa04b1f3c217462e562ac61882799"
+      }
+    ]
+  },
+  {
+    "gate": "source_claims_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_claims.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+      "--strict",
+      "--guideline-report",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\guideline_report.json",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\source_claims_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+        "sha256": "8b3b5e76af0534a588589c88c9453725ecd94a69b71129710ea8fefcac0c76f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\guideline_evidence.json",
+        "sha256": "d1fa3a4497a4122e3fc9777c9751f77c6be1e339fc53cae430d078c79c7b7042"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\evidence_bundle.json",
+        "sha256": "a3df2e1795f360857cf130d8b52035c44055ca3ebdb3068437b5daa62bd8e8d6"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\source_claims_command.json",
+        "sha256": "146d218a561a77aeaaf5efd24f1d314e7a5fe0507c3611f62f8111cb3ba17f37"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\source_claims_report.json",
+        "sha256": "ff444f8a1f2e13c0afdd90f6f369f4b8a893b90706cb577197a70629536a2a1a"
+      }
+    ]
+  },
+  {
+    "gate": "source_retraction",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\retraction_check.py",
+      "--md",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+      "--strict",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\source_retraction_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+        "sha256": "8b3b5e76af0534a588589c88c9453725ecd94a69b71129710ea8fefcac0c76f3"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\evidence_bundle.json",
+        "sha256": "a3df2e1795f360857cf130d8b52035c44055ca3ebdb3068437b5daa62bd8e8d6"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\source_retraction_command.json",
+        "sha256": "7b82e8e826df7403465a1ee40441f73fbf7e116d640898205503b618bebb1a7e"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\source_retraction_report.json",
+        "sha256": "e134e4e00e3b4d5aa76e0ecfc3bb32837e1c7918c79205425003805d26f231a2"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence_crosscheck",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "crosscheck_guidelines"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\guideline_evidence.json",
+        "sha256": "d1fa3a4497a4122e3fc9777c9751f77c6be1e339fc53cae430d078c79c7b7042"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_RESEARCH_BRIEF.md",
+        "sha256": "97a61d3b65c35360d6b066849b1c65bd5c96fe222d420531977e0e7398660535"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+        "sha256": "8b3b5e76af0534a588589c88c9453725ecd94a69b71129710ea8fefcac0c76f3"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\guideline_crosscheck_report.json",
+        "sha256": "61de2812738ecd4385aedcd2a2c82292882cc06fcb65934de688a3bbb7503891"
+      }
+    ]
+  },
+  {
+    "gate": "citation_zero_block",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\citation_audit.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+        "sha256": "8b3b5e76af0534a588589c88c9453725ecd94a69b71129710ea8fefcac0c76f3"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\citation_audit.json",
+        "sha256": "c0e312d9735a8004f7a0e56bdb722737de37cc0403a7c7458ef617002c521ae3"
+      }
+    ]
+  },
+  {
+    "gate": "depth_foundation",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\depth_check.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+      "--profile",
+      "foundation"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+        "sha256": "8b3b5e76af0534a588589c88c9453725ecd94a69b71129710ea8fefcac0c76f3"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\depth_foundation.json",
+        "sha256": "6e25db6b06b8e4d3c64530fcaee42531ac31c7ca1fcc74eb09f6fc9d3d366cc6"
+      }
+    ]
+  },
+  {
+    "gate": "cards_schema",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "--internal",
+      "cards_schema"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.cards.v2.json",
+        "sha256": "7dbff073a30955b1cad597d9f5b57e6834598555351f22dab6cfb2f3db4eef29"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\cards_schema.json",
+        "sha256": "2a1ed4a4cce7243b59a40e6ec52343f3452488af836b74d78b779754c642b53c"
+      }
+    ]
+  },
+  {
+    "gate": "candidate_apkg_build",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_apkg.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.cards.v2.json",
+      "--output",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.apkg",
+      "--verify"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.cards.v2.json",
+        "sha256": "7dbff073a30955b1cad597d9f5b57e6834598555351f22dab6cfb2f3db4eef29"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\candidate_apkg_build.json",
+        "sha256": "146d218a561a77aeaaf5efd24f1d314e7a5fe0507c3611f62f8111cb3ba17f37"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.apkg",
+        "sha256": "ec3cb17a18c700e94f32e158b511813325560cdf9861ebf8d35563505f0d8a87"
+      }
+    ]
+  },
+  {
+    "gate": "package_note_count",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "internal:package_note_count"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.cards.v2.json",
+        "sha256": "7dbff073a30955b1cad597d9f5b57e6834598555351f22dab6cfb2f3db4eef29"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.apkg",
+        "sha256": "ec3cb17a18c700e94f32e158b511813325560cdf9861ebf8d35563505f0d8a87"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\package_counts.json",
+        "sha256": "b3dcccdf24228e33702337ed292b94d62acdb5aab5e7a5b7390d6ca2a6da96ca"
+      }
+    ]
+  },
+  {
+    "gate": "package_diacritics",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_apkg_diacritics.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.apkg"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.apkg",
+        "sha256": "ec3cb17a18c700e94f32e158b511813325560cdf9861ebf8d35563505f0d8a87"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\package_diacritics.json",
+        "sha256": "534c7517f27082ef31e4b0d794de0f17fcee83623402d135a54d93d62259b9f4"
+      }
+    ]
+  },
+  {
+    "gate": "source_diacritics",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "internal:source_diacritics"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+        "sha256": "8b3b5e76af0534a588589c88c9453725ecd94a69b71129710ea8fefcac0c76f3"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\source_diacritics.json",
+        "sha256": "0797e68cde5983e171a0bf0cc9040e8fed5d2cbfbb982d2195e01b00ba775110"
+      }
+    ]
+  },
+  {
+    "gate": "docx_build",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\md_to_docx.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.docx"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+        "sha256": "8b3b5e76af0534a588589c88c9453725ecd94a69b71129710ea8fefcac0c76f3"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\docx_build.json",
+        "sha256": "a746d2735a136b331fcbde5595d0b7267daac98745e676e45d22f54fd8fb1aef"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.docx",
+        "sha256": "78d13f9eb7dadf2c484b74bb7e569748d413995bfe3bb02d08c791c9d90a9761"
+      }
+    ]
+  },
+  {
+    "gate": "learner_smoke",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\make_knowledge_check.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.cards.v2.json",
+      "--output-dir",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.cards.v2.json",
+        "sha256": "7dbff073a30955b1cad597d9f5b57e6834598555351f22dab6cfb2f3db4eef29"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\evidence_bundle.json",
+        "sha256": "a3df2e1795f360857cf130d8b52035c44055ca3ebdb3068437b5daa62bd8e8d6"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\verification\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1\\learner_smoke.json",
+        "sha256": "d4d9418e86d18fae8a11845a0ef901b445e5d6246e829ef91e73b8c1cff771ea"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1_knowledge_check.md",
+        "sha256": "2d8bc0e91805a1e846aa6364dae7c48d16ef93f987eb4f1371e3039189e24229"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1_knowledge_check_answer_key.md",
+        "sha256": "3c534e7d962d8c67184f4bf33e868cc06220e4183af79232be203b947be34e0a"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\outputs\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1_knowledge_check_score.json",
+        "sha256": "66355d08ef61be8c4e9cfaaaa50f1f3a020f565ab61ea7b19d0bba4abc3b5c71"
+      }
+    ]
+  }
+]

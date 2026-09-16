@@ -1,0 +1,567 @@
+{
+  "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+  "summary": {
+    "total": 15,
+    "pass": 15,
+    "warn": 0,
+    "block": 0
+  },
+  "citations": [
+    {
+      "citation": "PMID: 32179109",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 9.6)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "32179109",
+          "status": "OK",
+          "year": "2020",
+          "title": "Managing Chronic Cough as a Symptom in Children and Management Algorithms: CHEST Guideline and Expert Panel Report",
+          "author": "NA",
+          "journal": "Chest",
+          "article_type": "Practice Guideline, Journal Article",
+          "pubtypes": [
+            "Practice Guideline",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Chest",
+        "quartile": "Q1",
+        "if": 9.6
+      }
+    },
+    {
+      "citation": "PMID: 32888932",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 9.6)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "32888932",
+          "status": "OK",
+          "year": "2021",
+          "title": "Global Physiology and Pathophysiology of Cough: Part 1: Cough Phenomenology - CHEST Guideline and Expert Panel Report",
+          "author": "NA",
+          "journal": "Chest",
+          "article_type": "Practice Guideline, review-article",
+          "pubtypes": [
+            "Practice Guideline",
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Chest",
+        "quartile": "Q1",
+        "if": 9.6
+      }
+    },
+    {
+      "citation": "PMID: 31320455",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 16.6)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "31320455",
+          "status": "OK",
+          "year": "2019",
+          "title": "ERS statement on tracheomalacia and bronchomalacia in children",
+          "author": "NA",
+          "journal": "The European respiratory journal",
+          "article_type": "Research Support, Non-U.S. Gov't, Journal Article",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The European respiratory journal",
+        "quartile": "Q1",
+        "if": 16.6
+      }
+    },
+    {
+      "citation": "PMID: 33961755",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 19.3)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "33961755",
+          "status": "OK",
+          "year": "2021",
+          "title": "Recurrent Severe Preschool Wheeze: From Prespecified Diagnostic Labels to Underlying Endotypes",
+          "author": "NA",
+          "journal": "American journal of respiratory and critical care medicine",
+          "article_type": "Comparative Study, Research Support, Non-U.S. Gov't",
+          "pubtypes": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Other",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "American journal of respiratory and critical care medicine",
+        "quartile": "Q1",
+        "if": 19.3
+      }
+    },
+    {
+      "citation": "PMID: 24525447",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 16.6)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "24525447",
+          "status": "OK",
+          "year": "2014",
+          "title": "Classification and pharmacological treatment of preschool wheezing: changes since 2008",
+          "author": "NA",
+          "journal": "The European respiratory journal",
+          "article_type": "Research Support, Non-U.S. Gov't, Journal Article",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article",
+            "Practice Guideline"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The European respiratory journal",
+        "quartile": "Q1",
+        "if": 16.6
+      }
+    },
+    {
+      "citation": "PMID: 32179109",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 9.6)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "32179109",
+          "status": "OK",
+          "year": "2020",
+          "title": "Managing Chronic Cough as a Symptom in Children and Management Algorithms: CHEST Guideline and Expert Panel Report",
+          "author": "NA",
+          "journal": "Chest",
+          "article_type": "Practice Guideline, Journal Article",
+          "pubtypes": [
+            "Practice Guideline",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Chest",
+        "quartile": "Q1",
+        "if": 9.6
+      }
+    },
+    {
+      "citation": "PMID: 34048716",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 28.7)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "34048716",
+          "status": "OK",
+          "year": "2021",
+          "title": "Duration of amoxicillin-clavulanate for protracted bacterial bronchitis in children (DACS): a multi-centre, double blind, randomised controlled trial",
+          "author": "NA",
+          "journal": "The Lancet. Respiratory medicine",
+          "article_type": "Research Support, Non-U.S. Gov't, Multicenter Study",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Other",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The Lancet. Respiratory medicine",
+        "quartile": "Q1",
+        "if": 28.7
+      }
+    },
+    {
+      "citation": "PMID: 31002783",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 9.6)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "31002783",
+          "status": "OK",
+          "year": "2019",
+          "title": "Chronic Cough and Gastroesophageal Reflux in Children: CHEST Guideline and Expert Panel Report",
+          "author": "NA",
+          "journal": "Chest",
+          "article_type": "other, Practice Guideline",
+          "pubtypes": [
+            "other",
+            "Practice Guideline",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Chest",
+        "quartile": "Q1",
+        "if": 9.6
+      }
+    },
+    {
+      "citation": "PMID: 32179109",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 9.6)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "32179109",
+          "status": "OK",
+          "year": "2020",
+          "title": "Managing Chronic Cough as a Symptom in Children and Management Algorithms: CHEST Guideline and Expert Panel Report",
+          "author": "NA",
+          "journal": "Chest",
+          "article_type": "Practice Guideline, Journal Article",
+          "pubtypes": [
+            "Practice Guideline",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Chest",
+        "quartile": "Q1",
+        "if": 9.6
+      }
+    },
+    {
+      "citation": "PMID: 24525447",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 16.6)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "24525447",
+          "status": "OK",
+          "year": "2014",
+          "title": "Classification and pharmacological treatment of preschool wheezing: changes since 2008",
+          "author": "NA",
+          "journal": "The European respiratory journal",
+          "article_type": "Research Support, Non-U.S. Gov't, Journal Article",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article",
+            "Practice Guideline"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The European respiratory journal",
+        "quartile": "Q1",
+        "if": 16.6
+      }
+    },
+    {
+      "citation": "PMID: 34048716",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 28.7)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "34048716",
+          "status": "OK",
+          "year": "2021",
+          "title": "Duration of amoxicillin-clavulanate for protracted bacterial bronchitis in children (DACS): a multi-centre, double blind, randomised controlled trial",
+          "author": "NA",
+          "journal": "The Lancet. Respiratory medicine",
+          "article_type": "Research Support, Non-U.S. Gov't, Multicenter Study",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Other",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The Lancet. Respiratory medicine",
+        "quartile": "Q1",
+        "if": 28.7
+      }
+    },
+    {
+      "citation": "PMID: 31320455",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 16.6)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "31320455",
+          "status": "OK",
+          "year": "2019",
+          "title": "ERS statement on tracheomalacia and bronchomalacia in children",
+          "author": "NA",
+          "journal": "The European respiratory journal",
+          "article_type": "Research Support, Non-U.S. Gov't, Journal Article",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The European respiratory journal",
+        "quartile": "Q1",
+        "if": 16.6
+      }
+    },
+    {
+      "citation": "PMID: 32888932",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 9.6)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "32888932",
+          "status": "OK",
+          "year": "2021",
+          "title": "Global Physiology and Pathophysiology of Cough: Part 1: Cough Phenomenology - CHEST Guideline and Expert Panel Report",
+          "author": "NA",
+          "journal": "Chest",
+          "article_type": "Practice Guideline, review-article",
+          "pubtypes": [
+            "Practice Guideline",
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Chest",
+        "quartile": "Q1",
+        "if": 9.6
+      }
+    },
+    {
+      "citation": "PMID: 33961755",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 19.3)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "33961755",
+          "status": "OK",
+          "year": "2021",
+          "title": "Recurrent Severe Preschool Wheeze: From Prespecified Diagnostic Labels to Underlying Endotypes",
+          "author": "NA",
+          "journal": "American journal of respiratory and critical care medicine",
+          "article_type": "Comparative Study, Research Support, Non-U.S. Gov't",
+          "pubtypes": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Other",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "American journal of respiratory and critical care medicine",
+        "quartile": "Q1",
+        "if": 19.3
+      }
+    },
+    {
+      "citation": "PMID: 31002783",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 9.6)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "31002783",
+          "status": "OK",
+          "year": "2019",
+          "title": "Chronic Cough and Gastroesophageal Reflux in Children: CHEST Guideline and Expert Panel Report",
+          "author": "NA",
+          "journal": "Chest",
+          "article_type": "other, Practice Guideline",
+          "pubtypes": [
+            "other",
+            "Practice Guideline",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Chest",
+        "quartile": "Q1",
+        "if": 9.6
+      }
+    }
+  ]
+}

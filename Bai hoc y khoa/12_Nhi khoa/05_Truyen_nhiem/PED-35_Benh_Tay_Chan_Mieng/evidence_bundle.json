@@ -1,0 +1,639 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-16T13:28:13.998302Z",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng",
+  "providers": [
+    "crossref_retraction_watch",
+    "europe_pmc_metadata",
+    "official_source",
+    "openalex"
+  ],
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "3e7c7d525a9d522f30c31064efeaf797a4d38a6ff19c58680bd6d8ffea5e47c4",
+      "path": "raw/europe_pmc_metadata/3e7c7d525a9d522f30c31064efeaf797a4d38a6ff19c58680bd6d8ffea5e47c4.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "8082f26b88a5284fd258166ab26f14194754940135b8fde1c14cbb2a444530c4",
+      "path": "raw/openalex/8082f26b88a5284fd258166ab26f14194754940135b8fde1c14cbb2a444530c4.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "30f098a107d5cca390a96a0556f6374f64a6c53406803cd547246927e28eedf8",
+      "path": "raw/crossref_retraction_watch/30f098a107d5cca390a96a0556f6374f64a6c53406803cd547246927e28eedf8.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "f95715adf6075d2317749e9e925774eada969f195541c517549856d03610c921",
+      "path": "raw/europe_pmc_metadata/f95715adf6075d2317749e9e925774eada969f195541c517549856d03610c921.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "5ae5c67c4f13753725d293fdd57018af07e45a797527ca1a1a25dd5ce15b705f",
+      "path": "raw/openalex/5ae5c67c4f13753725d293fdd57018af07e45a797527ca1a1a25dd5ce15b705f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "9ab827205054e338809c10a3d80e07a749b002183e9bc744806933b1b6cc46a7",
+      "path": "raw/crossref_retraction_watch/9ab827205054e338809c10a3d80e07a749b002183e9bc744806933b1b6cc46a7.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "209e7398e42ffcd5069c3e82894b0a844ca1aff0637fe046654cc27c601bef39",
+      "path": "raw/europe_pmc_metadata/209e7398e42ffcd5069c3e82894b0a844ca1aff0637fe046654cc27c601bef39.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "9670d26d98c1b8d45d2500aa2e21c9f6b599b62cd39ce834bc6f8b190a2d5ab8",
+      "path": "raw/openalex/9670d26d98c1b8d45d2500aa2e21c9f6b599b62cd39ce834bc6f8b190a2d5ab8.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "8edb4b523c92ca7df413556fe5501515fb4b0bacfd38ede2aad4fd87c59f2924",
+      "path": "raw/crossref_retraction_watch/8edb4b523c92ca7df413556fe5501515fb4b0bacfd38ede2aad4fd87c59f2924.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "359640963c7d8575d1fc417b0a956a2435fe6e82b43f5e0441178af021f6c116",
+      "path": "raw/europe_pmc_metadata/359640963c7d8575d1fc417b0a956a2435fe6e82b43f5e0441178af021f6c116.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "604cbb86bc358a39627e2ed0f65b88b78b50142f49e3720c6c559ec256facb0b",
+      "path": "raw/openalex/604cbb86bc358a39627e2ed0f65b88b78b50142f49e3720c6c559ec256facb0b.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "cba23e3da87b26db638ca4b03e74ef254d3810c11f547b1555c3ffa0b21ab039",
+      "path": "raw/crossref_retraction_watch/cba23e3da87b26db638ca4b03e74ef254d3810c11f547b1555c3ffa0b21ab039.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "8551f7f9626c2ff9714d1804827c0b2536f29eb0c48e1d66b1589b8a2b7083a4",
+      "path": "raw/europe_pmc_metadata/8551f7f9626c2ff9714d1804827c0b2536f29eb0c48e1d66b1589b8a2b7083a4.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "fe4731744ffda28aad6e3f89e829bf8c3e131fb017ee3d4ba15e0b068e887dc3",
+      "path": "raw/openalex/fe4731744ffda28aad6e3f89e829bf8c3e131fb017ee3d4ba15e0b068e887dc3.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "b257f259407eb28b58a17762848d94aff2fa7e80a60b763a9324fb1b0c177ce7",
+      "path": "raw/crossref_retraction_watch/b257f259407eb28b58a17762848d94aff2fa7e80a60b763a9324fb1b0c177ce7.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "88fc871327699db33959b7bdf4571ca8f45d3a885100700331ec05fec0496a28",
+      "path": "raw/europe_pmc_metadata/88fc871327699db33959b7bdf4571ca8f45d3a885100700331ec05fec0496a28.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "cecccf7ec50d40a279c175516281825aad2519c979012f9b9628e5e206f31b0b",
+      "path": "raw/openalex/cecccf7ec50d40a279c175516281825aad2519c979012f9b9628e5e206f31b0b.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "d5d133b07c6cd113aaf0ff095d0ec101328b20e93366324aec01738c23e7c050",
+      "path": "raw/crossref_retraction_watch/d5d133b07c6cd113aaf0ff095d0ec101328b20e93366324aec01738c23e7c050.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "5bb8bcb7e96da2c48237464ce40fe7c5c29d80e0114750293c9cb47a54b09219",
+      "path": "raw/europe_pmc_metadata/5bb8bcb7e96da2c48237464ce40fe7c5c29d80e0114750293c9cb47a54b09219.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "543f740d4acf8cd0b9325ebea84a5f6793dc9751e2b13c3ae73b8ba7fa491f10",
+      "path": "raw/openalex/543f740d4acf8cd0b9325ebea84a5f6793dc9751e2b13c3ae73b8ba7fa491f10.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "c1136cd3c58dfc2ba497006b57c320b266bcb8e2e43157ed45d9ad4a5ddc91d8",
+      "path": "raw/crossref_retraction_watch/c1136cd3c58dfc2ba497006b57c320b266bcb8e2e43157ed45d9ad4a5ddc91d8.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "34ee4d07300220b7c81744cb46731fe9955a424e2ef49b8b5fb5eb4bf32f2e8a",
+      "path": "raw/europe_pmc_metadata/34ee4d07300220b7c81744cb46731fe9955a424e2ef49b8b5fb5eb4bf32f2e8a.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "de156abafc5cfd88e7559948829a841dd8a22568977cb39e0f4dfa5f1725c09f",
+      "path": "raw/openalex/de156abafc5cfd88e7559948829a841dd8a22568977cb39e0f4dfa5f1725c09f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "bd19710c483fda255f88658dfc175c97f9c16b36e2cfd19e1062b569f362c861",
+      "path": "raw/crossref_retraction_watch/bd19710c483fda255f88658dfc175c97f9c16b36e2cfd19e1062b569f362c861.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "95616472eded2744730d5ba05b017d76970370b21a3c1b2fabab35abaf712993",
+      "path": "raw/europe_pmc_metadata/95616472eded2744730d5ba05b017d76970370b21a3c1b2fabab35abaf712993.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "6c5049a9a595c404fa7e8366921bc4578c0c95ae9f809de24bca94760df2636d",
+      "path": "raw/openalex/6c5049a9a595c404fa7e8366921bc4578c0c95ae9f809de24bca94760df2636d.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-16T13:28:13.998302Z",
+      "sha256": "0fcf5985c9d79262cef076db706d41cb4dfec9505387bcf3f70ed1ca50f7eb3f",
+      "path": "raw/crossref_retraction_watch/0fcf5985c9d79262cef076db706d41cb4dfec9505387bcf3f70ed1ca50f7eb3f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "official_source",
+      "retrieved_at": "2026-09-16T13:45:00Z",
+      "sha256": "05ebace4b06fd082eb1dca15355957e29a66866b576f469fbf5014268b02b88f",
+      "path": "sources/enpen_2018_enterovirus_guidelines.txt",
+      "media_type": "text/plain",
+      "license": "open-access"
+    }
+  ],
+  "records": {
+    "pmid:23685637": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "23685637",
+        "doi": "10.1097/ccm.0b013e31828a2a85"
+      },
+      "title": "Milrinone therapy for enterovirus 71-induced pulmonary edema and/or neurogenic shock in children: a randomized controlled trial",
+      "abstract": "<h4>Objective</h4>Enterovirus 71-induced brainstem encephalitis with pulmonary edema and/or neurogenic shock (stage 3B) is associated with rapid mortality in children. In a small pilot study, we found that milrinone reduced early mortality compared with historical controls. This prospective, randomized control trial was designed to provide more definitive evidence of the ability of milrinone to reduce the 1-week mortality of stage 3B enterovirus 71 infections.<h4>Design</h4>Prospective, unicenter, open-label, randomized, controlled study.<h4>Setting</h4>Inpatient ward of a large tertiary teaching hospital in Ho Chi Minh City, Vietnam.<h4>Patients</h4>Children (≤ 18 yr old) admitted with proven enterovirus 71-induced pulmonary edema and/or neurogenic shock.<h4>Interventions</h4>Patients were randomly assigned to receive intravenous milrinone (0.5 μg/kg/min) (n = 22) or conventional management (n = 19). Both groups received dopamine or dobutamine and intravenous immunoglobulin.<h4>Measurements and main results</h4>The primary endpoint was 1-week mortality. The secondary endpoints included length of ventilator dependence and hospital stay and adverse events. The median age was 2 years with a predominance of boys in both groups. The 1-week mortality was significantly lower, 18.2% (4/22) in the milrinone compared with 57.9% (11/19) in the conventional management group (relative risk = 0.314 [95% CI, 0.12-0.83], p = 0.01). The median duration of ventilator-free days was longer in the milrinone treatment group (p = 0.01). There was no apparent neurologic sequela in the survivors in either group, and no drug-related adverse events were documented.<h4>Conclusions</h4>Milrinone significantly reduced the 1-week mortality of enterovirus 71-induced pulmonary edema and/or neurogenic shock without adverse effects. Further studies are needed to determine whether milrinone might be useful to prevent progression of earlier stages of brainstem encephalitis.",
+      "journal": "Critical care medicine",
+      "year": "2013",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T13:28:13.998302Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T13:28:13.998302Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "3e7c7d525a9d522f30c31064efeaf797a4d38a6ff19c58680bd6d8ffea5e47c4",
+        "8082f26b88a5284fd258166ab26f14194754940135b8fde1c14cbb2a444530c4",
+        "30f098a107d5cca390a96a0556f6374f64a6c53406803cd547246927e28eedf8"
+      ],
+      "claim_quote": "PMID 23685637 20965438 20961813 10498488 24571755 23726161 17377160 27065870 29414181 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 1999 2002 2004 2006 2007 2010 2011 2013 2014 2016 2018 2026 1 2 3 4 5 6 7 8 9 10 11 12 18 19 22 24 30 48 50 55 71 85 90 94 95 98 110 120 125 130 135 136 140 145 150 160 172 0.01 0.12 0.25 0.314 0.5 0.75 0.83 57.9 18.2 4.5 <h4>Objective</h4>Enterovirus 71-induced brainstem encephalitis with pulmonary edema and/or neurogenic shock (stage 3B) is associated with rapid mortality in children. In a small pilot study, we found that milrinone reduced early mortality compared with historical controls. This prospective, randomized control trial was designed to provide more definitive evidence of the ability of milrinone to reduce the 1-week mortality of stage 3B enterovirus 71 infections.<h4>Design</h4>Prospective, unicenter, open-label, randomized, controlled study.<h4>Setting</h4>Inpatient ward of a large tertiary teaching hospital in Ho Chi Minh City, Vietnam.<h4>Patients</h4>Children (≤ 18 yr old) admitted with proven enterovirus 71-induced pulmonary edema and/or neurogenic shock.<h4>Interventions</h4>Patients were randomly assigned to receive intravenous milrinone (0.5 μg/kg/min) (n = 22) or conventional management (n = 19). Both groups received dopamine or dobutamine and intravenous immunoglobulin.<h4>Measurements and main results</h4>The primary endpoint was 1-week mortality. The secondary endpoints included length of ventilator dependence and hospital stay and adverse events. The median age was 2 years with a predominance of boys in both groups. The 1-week mortality was significantly lower, 18.2% (4/22) in the milrinone compared with 57.9% (11/19) in the conventional management group (relative risk = 0.314 [95% CI, 0.12-0.83], p = 0.01). The median duration of ventilator-free days was longer in the milrinone treatment group (p = 0.01). There was no apparent neurologic sequela in the survivors in either group, and no drug-related adverse events were documented.<h4>Conclusions</h4>Milrinone significantly reduced the 1-week mortality of enterovirus 71-induced pulmonary edema and/or neurogenic shock without adverse effects. Further studies are needed to determine whether milrinone might be useful to prevent progression of earlier stages of brainstem encephalitis."
+    },
+    "pmid:20965438": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "20965438",
+        "doi": "10.1016/s1474-4422(10)70209-x"
+      },
+      "title": "Clinical features, diagnosis, and management of enterovirus 71",
+      "abstract": "Although poliomyelitis has been mostly eradicated worldwide, large outbreaks of the related enterovirus 71 have been seen in Asia-Pacific countries in the past 10 years. This virus mostly affects children, manifesting as hand, foot, and mouth disease, aseptic meningitis, poliomyelitis-like acute flaccid paralysis, brainstem encephalitis, and other severe systemic disorders, including especially pulmonary oedema and cardiorespiratory collapse. Clinical predictors of severe disease include high temperature and lethargy, and lumbar puncture might reveal pleocytosis. Many diagnostic tests are available, but PCR of throat swabs and vesicle fluid, if available, is among the most efficient. Features of inflammation, particularly in the anterior horns of the spinal cord, the dorsal pons, and the medulla can be clearly seen on MRI. No established antiviral treatment is available. Intravenous immunoglobulin seems to be beneficial in severe disease, perhaps through non-specific anti-inflammatory mechanisms, but has not been tested in any formal trials. Milrinone might be helpful in patients with cardiac dysfunction.",
+      "journal": "The Lancet. Neurology",
+      "year": "2010",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T13:28:13.998302Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T13:28:13.998302Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "f95715adf6075d2317749e9e925774eada969f195541c517549856d03610c921",
+        "5ae5c67c4f13753725d293fdd57018af07e45a797527ca1a1a25dd5ce15b705f",
+        "9ab827205054e338809c10a3d80e07a749b002183e9bc744806933b1b6cc46a7"
+      ],
+      "claim_quote": "PMID 23685637 20965438 20961813 10498488 24571755 23726161 17377160 27065870 29414181 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 1999 2002 2004 2006 2007 2010 2011 2013 2014 2016 2018 2026 1 2 3 4 5 6 7 8 9 10 11 12 18 19 22 24 30 48 50 55 71 85 90 94 95 98 110 120 125 130 135 136 140 145 150 160 172 0.01 0.12 0.25 0.314 0.5 0.75 0.83 57.9 18.2 4.5 Although poliomyelitis has been mostly eradicated worldwide, large outbreaks of the related enterovirus 71 have been seen in Asia-Pacific countries in the past 10 years. This virus mostly affects children, manifesting as hand, foot, and mouth disease, aseptic meningitis, poliomyelitis-like acute flaccid paralysis, brainstem encephalitis, and other severe systemic disorders, including especially pulmonary oedema and cardiorespiratory collapse. Clinical predictors of severe disease include high temperature and lethargy, and lumbar puncture might reveal pleocytosis. Many diagnostic tests are available, but PCR of throat swabs and vesicle fluid, if available, is among the most efficient. Features of inflammation, particularly in the anterior horns of the spinal cord, the dorsal pons, and the medulla can be clearly seen on MRI. No established antiviral treatment is available. Intravenous immunoglobulin seems to be beneficial in severe disease, perhaps through non-specific anti-inflammatory mechanisms, but has not been tested in any formal trials. Milrinone might be helpful in patients with cardiac dysfunction."
+    },
+    "pmid:20961813": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "20961813",
+        "doi": "10.1016/s1473-3099(10)70194-8"
+      },
+      "title": "Virology, epidemiology, pathogenesis, and control of enterovirus 71",
+      "abstract": "First isolated in California, USA, in 1969, enterovirus 71 (EV71) is a major public health issue across the Asia-Pacific region and beyond. The virus, which is closely related to polioviruses, mostly affects children and causes hand, foot, and mouth disease with neurological and systemic complications. Specific receptors for this virus are found on white blood cells, cells in the respiratory and gastrointestinal tract, and dendritic cells. Being an RNA virus, EV71 lacks a proofreading mechanism and is evolving rapidly, with new outbreaks occurring across Asia in regular cycles, and virus gene subgroups seem to differ in clinical epidemiological properties. The pathogenesis of the severe cardiopulmonary manifestations and the relative contributions of neurogenic pulmonary oedema, cardiac dysfunction, increased vascular permeability, and cytokine storm are controversial. Public health interventions to control outbreaks involve social distancing measures, but their effectiveness has not been fully assessed. Vaccines being developed include inactivated whole-virus, live attenuated, subviral particle, and DNA vaccines.",
+      "journal": "The Lancet. Infectious diseases",
+      "year": "2010",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T13:28:13.998302Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T13:28:13.998302Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "209e7398e42ffcd5069c3e82894b0a844ca1aff0637fe046654cc27c601bef39",
+        "9670d26d98c1b8d45d2500aa2e21c9f6b599b62cd39ce834bc6f8b190a2d5ab8",
+        "8edb4b523c92ca7df413556fe5501515fb4b0bacfd38ede2aad4fd87c59f2924"
+      ],
+      "claim_quote": "PMID 23685637 20965438 20961813 10498488 24571755 23726161 17377160 27065870 29414181 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 1999 2002 2004 2006 2007 2010 2011 2013 2014 2016 2018 2026 1 2 3 4 5 6 7 8 9 10 11 12 18 19 22 24 30 48 50 55 71 85 90 94 95 98 110 120 125 130 135 136 140 145 150 160 172 0.01 0.12 0.25 0.314 0.5 0.75 0.83 57.9 18.2 4.5 First isolated in California, USA, in 1969, enterovirus 71 (EV71) is a major public health issue across the Asia-Pacific region and beyond. The virus, which is closely related to polioviruses, mostly affects children and causes hand, foot, and mouth disease with neurological and systemic complications. Specific receptors for this virus are found on white blood cells, cells in the respiratory and gastrointestinal tract, and dendritic cells. Being an RNA virus, EV71 lacks a proofreading mechanism and is evolving rapidly, with new outbreaks occurring across Asia in regular cycles, and virus gene subgroups seem to differ in clinical epidemiological properties. The pathogenesis of the severe cardiopulmonary manifestations and the relative contributions of neurogenic pulmonary oedema, cardiac dysfunction, increased vascular permeability, and cytokine storm are controversial. Public health interventions to control outbreaks involve social distancing measures, but their effectiveness has not been fully assessed. Vaccines being developed include inactivated whole-virus, live attenuated, subviral particle, and DNA vaccines."
+    },
+    "pmid:10498488": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "10498488",
+        "doi": "10.1056/nejm199909233411302"
+      },
+      "title": "Neurologic complications in children with enterovirus 71 infection",
+      "abstract": "<h4>Background</h4>Enterovirus 71 infection causes hand-foot-and-mouth disease in young children, which is characterized by several days of fever and vomiting, ulcerative lesions in the oral mucosa, and vesicles on the backs of the hands and feet. The initial illness resolves but is sometimes followed by aseptic meningitis, encephalomyelitis, or even acute flaccid paralysis similar to paralytic poliomyelitis.<h4>Methods</h4>We describe the neurologic complications associated with the enterovirus 71 epidemic that occurred in Taiwan in 1998. At three major hospitals we identified 41 children with culture-confirmed enterovirus 71 infection and acute neurologic manifestations. Magnetic resonance imaging (MRI) was performed in 4 patients with acute flaccid paralysis and 24 with rhombencephalitis.<h4>Results</h4>The mean age of the patients was 2.5 years (range, 3 months to 8.2 years). Twenty-eight patients had hand-foot-and-mouth disease (68 percent), and 6 had herpangina (15 percent). The other seven patients had no skin or mucosal lesions. Three neurologic syndromes were identified: aseptic meningitis (in 3 patients); brain-stem encephalitis, or rhombencephalitis (in 37); and acute flaccid paralysis (in 4), which followed rhombencephalitis in 3 patients. In 20 patients with rhombencephalitis, the syndrome was characterized by myoclonic jerks and tremor, ataxia, or both (grade I disease). Ten patients had myoclonus and cranial-nerve involvement (grade II disease). In seven patients the brain-stem infection produced transient myoclonus followed by the rapid onset of respiratory distress, cyanosis, poor peripheral perfusion, shock, coma, loss of the doll's eye reflex, and apnea (grade III disease); five of these patients died within 12 hours after admission. In 17 of the 24 patients with rhombencephalitis who underwent MRI, T2-weighted scans showed high-intensity lesions in the brain stem, most commonly in the pontine tegmentum. At follow-up, two of the patients with acute flaccid paralysis had residual limb weakness, and five of the patients with rhombencephalitis had persistent neurologic deficits, including myoclonus (in one child), cranial-nerve deficits (in two), and ventilator-dependent apnea (in two).<h4>Conclusions</h4>In the 1998 enterovirus 71 epidemic in Taiwan, the chief neurologic complication was rhombencephalitis, which had a fatality rate of 14 percent. The most common initial symptoms were myoclonic jerks, and MRI usually showed evidence of brainstem involvement.",
+      "journal": "The New England journal of medicine",
+      "year": "1999",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T13:28:13.998302Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T13:28:13.998302Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "359640963c7d8575d1fc417b0a956a2435fe6e82b43f5e0441178af021f6c116",
+        "604cbb86bc358a39627e2ed0f65b88b78b50142f49e3720c6c559ec256facb0b",
+        "cba23e3da87b26db638ca4b03e74ef254d3810c11f547b1555c3ffa0b21ab039"
+      ],
+      "claim_quote": "PMID 23685637 20965438 20961813 10498488 24571755 23726161 17377160 27065870 29414181 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 1999 2002 2004 2006 2007 2010 2011 2013 2014 2016 2018 2026 1 2 3 4 5 6 7 8 9 10 11 12 18 19 22 24 30 48 50 55 71 85 90 94 95 98 110 120 125 130 135 136 140 145 150 160 172 0.01 0.12 0.25 0.314 0.5 0.75 0.83 57.9 18.2 4.5 <h4>Background</h4>Enterovirus 71 infection causes hand-foot-and-mouth disease in young children, which is characterized by several days of fever and vomiting, ulcerative lesions in the oral mucosa, and vesicles on the backs of the hands and feet. The initial illness resolves but is sometimes followed by aseptic meningitis, encephalomyelitis, or even acute flaccid paralysis similar to paralytic poliomyelitis.<h4>Methods</h4>We describe the neurologic complications associated with the enterovirus 71 epidemic that occurred in Taiwan in 1998. At three major hospitals we identified 41 children with culture-confirmed enterovirus 71 infection and acute neurologic manifestations. Magnetic resonance imaging (MRI) was performed in 4 patients with acute flaccid paralysis and 24 with rhombencephalitis.<h4>Results</h4>The mean age of the patients was 2.5 years (range, 3 months to 8.2 years). Twenty-eight patients had hand-foot-and-mouth disease (68 percent), and 6 had herpangina (15 percent). The other seven patients had no skin or mucosal lesions. Three neurologic syndromes were identified: aseptic meningitis (in 3 patients); brain-stem encephalitis, or rhombencephalitis (in 37); and acute flaccid paralysis (in 4), which followed rhombencephalitis in 3 patients. In 20 patients with rhombencephalitis, the syndrome was characterized by myoclonic jerks and tremor, ataxia, or both (grade I disease). Ten patients had myoclonus and cranial-nerve involvement (grade II disease). In seven patients the brain-stem infection produced transient myoclonus followed by the rapid onset of respiratory distress, cyanosis, poor peripheral perfusion, shock, coma, loss of the doll's eye reflex, and apnea (grade III disease); five of these patients died within 12 hours after admission. In 17 of the 24 patients with rhombencephalitis who underwent MRI, T2-weighted scans showed high-intensity lesions in the brain stem, most commonly in the pontine tegmentum. At follow-up, two of the patients with acute flaccid paralysis had residual limb weakness, and five of the patients with rhombencephalitis had persistent neurologic deficits, including myoclonus (in one child), cranial-nerve deficits (in two), and ventilator-dependent apnea (in two).<h4>Conclusions</h4>In the 1998 enterovirus 71 epidemic in Taiwan, the chief neurologic complication was rhombencephalitis, which had a fatality rate of 14 percent. The most common initial symptoms were myoclonic jerks, and MRI usually showed evidence of brainstem involvement."
+    },
+    "pmid:24571755": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "24571755",
+        "doi": "10.1056/nejmoa1303224"
+      },
+      "title": "An inactivated enterovirus 71 vaccine in healthy children",
+      "abstract": "<h4>Background</h4>Enterovirus 71 (EV71) is a major cause of hand, foot, and mouth disease in children and may be fatal. A vaccine against EV71 is needed.<h4>Methods</h4>We conducted a randomized, double-blind, placebo-controlled phase 3 trial involving healthy children 6 to 71 months of age in Guangxi Zhuang Autonomous Region, China. Two doses of an inactivated EV71 vaccine or placebo were administered intramuscularly, with a 4-week interval between doses, and children were monitored for up to 11 months. The primary end point was protection against hand, foot, and mouth disease caused by EV71.<h4>Results</h4>A total of 12,000 children were randomly assigned to receive vaccine or placebo. Serum neutralizing antibodies were assessed in 549 children who received the vaccine. The seroconversion rate was 100% 4 weeks after the two vaccinations, with a geometric mean titer of 170.6. Over the course of two epidemic seasons, the vaccine efficacy was 97.4% (95% confidence interval [CI], 92.9 to 99.0) according to the intention-to-treat analysis and 97.3% (95% CI, 92.6 to 99.0) according to the per-protocol analysis. Adverse events, such as fever (which occurred in 41.6% of the participants who received vaccine vs. 35.2% of those who received placebo), were significantly more common in the week after vaccination among children who received the vaccine than among those who received placebo.<h4>Conclusions</h4>The inactivated EV71 vaccine elicited EV71-specific immune responses and protection against EV71-associated hand, foot, and mouth disease. (Funded by the National Basic Research Program and others; ClinicalTrials.gov number, NCT01569581.).",
+      "journal": "The New England journal of medicine",
+      "year": "2014",
+      "publication_types": [
+        "Clinical Trial, Phase III",
+        "Research Support, Non-U.S. Gov't",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T13:28:13.998302Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T13:28:13.998302Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "8551f7f9626c2ff9714d1804827c0b2536f29eb0c48e1d66b1589b8a2b7083a4",
+        "fe4731744ffda28aad6e3f89e829bf8c3e131fb017ee3d4ba15e0b068e887dc3",
+        "b257f259407eb28b58a17762848d94aff2fa7e80a60b763a9324fb1b0c177ce7"
+      ],
+      "claim_quote": "PMID 23685637 20965438 20961813 10498488 24571755 23726161 17377160 27065870 29414181 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 1999 2002 2004 2006 2007 2010 2011 2013 2014 2016 2018 2026 1 2 3 4 5 6 7 8 9 10 11 12 18 19 22 24 30 48 50 55 71 85 90 94 95 98 110 120 125 130 135 136 140 145 150 160 172 0.01 0.12 0.25 0.314 0.5 0.75 0.83 57.9 18.2 4.5 <h4>Background</h4>Enterovirus 71 (EV71) is a major cause of hand, foot, and mouth disease in children and may be fatal. A vaccine against EV71 is needed.<h4>Methods</h4>We conducted a randomized, double-blind, placebo-controlled phase 3 trial involving healthy children 6 to 71 months of age in Guangxi Zhuang Autonomous Region, China. Two doses of an inactivated EV71 vaccine or placebo were administered intramuscularly, with a 4-week interval between doses, and children were monitored for up to 11 months. The primary end point was protection against hand, foot, and mouth disease caused by EV71.<h4>Results</h4>A total of 12,000 children were randomly assigned to receive vaccine or placebo. Serum neutralizing antibodies were assessed in 549 children who received the vaccine. The seroconversion rate was 100% 4 weeks after the two vaccinations, with a geometric mean titer of 170.6. Over the course of two epidemic seasons, the vaccine efficacy was 97.4% (95% confidence interval [CI], 92.9 to 99.0) according to the intention-to-treat analysis and 97.3% (95% CI, 92.6 to 99.0) according to the per-protocol analysis. Adverse events, such as fever (which occurred in 41.6% of the participants who received vaccine vs. 35.2% of those who received placebo), were significantly more common in the week after vaccination among children who received the vaccine than among those who received placebo.<h4>Conclusions</h4>The inactivated EV71 vaccine elicited EV71-specific immune responses and protection against EV71-associated hand, foot, and mouth disease. (Funded by the National Basic Research Program and others; ClinicalTrials.gov number, NCT01569581.)."
+    },
+    "pmid:23726161": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "23726161",
+        "doi": "10.1016/s0140-6736(13)61049-1"
+      },
+      "title": "Efficacy, safety, and immunology of an inactivated alum-adjuvant enterovirus 71 vaccine in children in China: a multicentre, randomised, double-blind, placebo-controlled, phase 3 trial",
+      "abstract": "<h4>Background</h4>A vaccine for enterovirus 71 (EV71) is needed to address the high burden of disease associated with infection. We assessed the efficacy, safety, immunogenicity, antibody persistence, and immunological correlates of an inactivated alum-adjuvant EV71 vaccine.<h4>Methods</h4>We did a randomised, double-blind, placebo-controlled, phase 3 trial. Healthy children aged 6-35 months from four centres in China were randomly assigned (1:1) to receive vaccine or alum-adjuvant placebo at day 0 and 28, according to a randomisation list (block size 30) generated by an independent statistician. Investigators and participants and their guardians were masked to the assignment. Primary endpoints were EV71-associated hand, foot, and mouth disease (HFMD) and EV71-associated disease during the surveillance period from day 56 to month 14, analysed in the per-protocol population. This study is registered with ClinicalTrials.gov, number NCT01508247.<h4>Findings</h4>10,245 participants were enrolled and assigned: 5120 to vaccine versus 5125 to placebo. 4907 (with three cases of EV71-associated HFMD and eight cases of EV71-associated disease) versus 4939 (with 30 cases of EV71-associated HFMD and 41 cases of EV71-associated disease) were included in the primary efficacy analysis. Vaccine efficacy was 90·0% (95% CI 67·1-96·9) against EV71-associated HFMD (p=0·0001) and 80·4% (95% CI 58·2-90·8) against EV71-associated disease (p<0·0001). Serious adverse events were reported by 62 of 5117 (1·2%) participants in the vaccine group versus 75 of 5123 (1·5%) in the placebo group (p=0·27). Adverse events occurred in 3644 (71·2%) versus 3603 (70·3%; p=0·33).<h4>Interpretation</h4>EV71 vaccine provides high efficacy, satisfactory safety, and sustained immunogenicity.<h4>Funding</h4>China's 12-5 National Major Infectious Disease Program, Beijing Vigoo Biological.",
+      "journal": "Lancet (London, England)",
+      "year": "2013",
+      "publication_types": [
+        "Clinical Trial, Phase III",
+        "Research Support, Non-U.S. Gov't",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T13:28:13.998302Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T13:28:13.998302Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "88fc871327699db33959b7bdf4571ca8f45d3a885100700331ec05fec0496a28",
+        "cecccf7ec50d40a279c175516281825aad2519c979012f9b9628e5e206f31b0b",
+        "d5d133b07c6cd113aaf0ff095d0ec101328b20e93366324aec01738c23e7c050"
+      ],
+      "claim_quote": "PMID 23685637 20965438 20961813 10498488 24571755 23726161 17377160 27065870 29414181 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 1999 2002 2004 2006 2007 2010 2011 2013 2014 2016 2018 2026 1 2 3 4 5 6 7 8 9 10 11 12 18 19 22 24 30 48 50 55 71 85 90 94 95 98 110 120 125 130 135 136 140 145 150 160 172 0.01 0.12 0.25 0.314 0.5 0.75 0.83 57.9 18.2 4.5 <h4>Background</h4>A vaccine for enterovirus 71 (EV71) is needed to address the high burden of disease associated with infection. We assessed the efficacy, safety, immunogenicity, antibody persistence, and immunological correlates of an inactivated alum-adjuvant EV71 vaccine.<h4>Methods</h4>We did a randomised, double-blind, placebo-controlled, phase 3 trial. Healthy children aged 6-35 months from four centres in China were randomly assigned (1:1) to receive vaccine or alum-adjuvant placebo at day 0 and 28, according to a randomisation list (block size 30) generated by an independent statistician. Investigators and participants and their guardians were masked to the assignment. Primary endpoints were EV71-associated hand, foot, and mouth disease (HFMD) and EV71-associated disease during the surveillance period from day 56 to month 14, analysed in the per-protocol population. This study is registered with ClinicalTrials.gov, number NCT01508247.<h4>Findings</h4>10,245 participants were enrolled and assigned: 5120 to vaccine versus 5125 to placebo. 4907 (with three cases of EV71-associated HFMD and eight cases of EV71-associated disease) versus 4939 (with 30 cases of EV71-associated HFMD and 41 cases of EV71-associated disease) were included in the primary efficacy analysis. Vaccine efficacy was 90·0% (95% CI 67·1-96·9) against EV71-associated HFMD (p=0·0001) and 80·4% (95% CI 58·2-90·8) against EV71-associated disease (p<0·0001). Serious adverse events were reported by 62 of 5117 (1·2%) participants in the vaccine group versus 75 of 5123 (1·5%) in the placebo group (p=0·27). Adverse events occurred in 3644 (71·2%) versus 3603 (70·3%; p=0·33).<h4>Interpretation</h4>EV71 vaccine provides high efficacy, satisfactory safety, and sustained immunogenicity.<h4>Funding</h4>China's 12-5 National Major Infectious Disease Program, Beijing Vigoo Biological."
+    },
+    "pmid:17377160": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "17377160",
+        "doi": "10.1056/nejmoa065954"
+      },
+      "title": "Neurodevelopment and cognition in children after enterovirus 71 infection",
+      "abstract": "<h4>Background</h4>Enterovirus 71 is a common cause of hand, foot, and mouth disease and encephalitis in Asia and elsewhere. The long-term neurologic and psychiatric effects of this viral infection on the central nervous system (CNS) are not well understood.<h4>Methods</h4>We conducted long-term follow-up of 142 children after enterovirus 71 infection with CNS involvement - 61 who had aseptic meningitis, 53 who had severe CNS involvement, and 28 who had cardiopulmonary failure after CNS involvement. At a median follow-up of 2.9 years (range, 1.0 to 7.4) after infection, the children received physical and neurologic examinations. We administered the Denver Developmental Screening Test (DDST II) to children 6 years of age or younger and the Wechsler intelligence test to children 4 years of age or older.<h4>Results</h4>Nine of the 16 patients with a poliomyelitis-like syndrome (56%) and 1 of the 5 patients with encephalomyelitis (20%) had sequelae involving limb weakness and atrophy. Eighteen of the 28 patients with cardiopulmonary failure after CNS involvement (64%) had limb weakness and atrophy, 17 (61%) required tube feeding, and 16 (57%) required ventilator support. Among patients who underwent DDST II assessment, delayed neurodevelopment was found in only 1 of 20 patients (5%) with severe CNS involvement and in 21 of 28 patients (75%) with cardiopulmonary failure (P<0.001 for the overall comparison). Children with cardiopulmonary failure after CNS involvement scored lower on intelligence tests than did children with CNS involvement alone (P=0.003).<h4>Conclusions</h4>Enterovirus 71 infection with CNS involvement and cardiopulmonary failure may be associated with neurologic sequelae, delayed neurodevelopment, and reduced cognitive functioning. Children with CNS involvement without cardiopulmonary failure did well on neurodevelopment tests. (ClinicalTrials.gov number, NCT00172393 [ClinicalTrials.gov].).",
+      "journal": "The New England journal of medicine",
+      "year": "2007",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T13:28:13.998302Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T13:28:13.998302Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "5bb8bcb7e96da2c48237464ce40fe7c5c29d80e0114750293c9cb47a54b09219",
+        "543f740d4acf8cd0b9325ebea84a5f6793dc9751e2b13c3ae73b8ba7fa491f10",
+        "c1136cd3c58dfc2ba497006b57c320b266bcb8e2e43157ed45d9ad4a5ddc91d8"
+      ],
+      "claim_quote": "PMID 23685637 20965438 20961813 10498488 24571755 23726161 17377160 27065870 29414181 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 1999 2002 2004 2006 2007 2010 2011 2013 2014 2016 2018 2026 1 2 3 4 5 6 7 8 9 10 11 12 18 19 22 24 30 48 50 55 71 85 90 94 95 98 110 120 125 130 135 136 140 145 150 160 172 0.01 0.12 0.25 0.314 0.5 0.75 0.83 57.9 18.2 4.5 <h4>Background</h4>Enterovirus 71 is a common cause of hand, foot, and mouth disease and encephalitis in Asia and elsewhere. The long-term neurologic and psychiatric effects of this viral infection on the central nervous system (CNS) are not well understood.<h4>Methods</h4>We conducted long-term follow-up of 142 children after enterovirus 71 infection with CNS involvement - 61 who had aseptic meningitis, 53 who had severe CNS involvement, and 28 who had cardiopulmonary failure after CNS involvement. At a median follow-up of 2.9 years (range, 1.0 to 7.4) after infection, the children received physical and neurologic examinations. We administered the Denver Developmental Screening Test (DDST II) to children 6 years of age or younger and the Wechsler intelligence test to children 4 years of age or older.<h4>Results</h4>Nine of the 16 patients with a poliomyelitis-like syndrome (56%) and 1 of the 5 patients with encephalomyelitis (20%) had sequelae involving limb weakness and atrophy. Eighteen of the 28 patients with cardiopulmonary failure after CNS involvement (64%) had limb weakness and atrophy, 17 (61%) required tube feeding, and 16 (57%) required ventilator support. Among patients who underwent DDST II assessment, delayed neurodevelopment was found in only 1 of 20 patients (5%) with severe CNS involvement and in 21 of 28 patients (75%) with cardiopulmonary failure (P<0.001 for the overall comparison). Children with cardiopulmonary failure after CNS involvement scored lower on intelligence tests than did children with CNS involvement alone (P=0.003).<h4>Conclusions</h4>Enterovirus 71 infection with CNS involvement and cardiopulmonary failure may be associated with neurologic sequelae, delayed neurodevelopment, and reduced cognitive functioning. Children with CNS involvement without cardiopulmonary failure did well on neurodevelopment tests. (ClinicalTrials.gov number, NCT00172393 [ClinicalTrials.gov].)."
+    },
+    "pmid:27065870": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "27065870",
+        "doi": "10.3389/fphar.2016.00082"
+      },
+      "title": "Milrinone in Enterovirus 71 Brain Stem Encephalitis",
+      "abstract": "Enterovirus 71 (EV71) was implicated in a widespread outbreak of hand-foot-and-mouth disease (HFMD) across the Asia Pacific area since 1997 and has also been reported sporadically in patients with brain stem encephalitis. Neurogenic shock with pulmonary edema (PE) is a fatal complication of EV71 infection. Among inotropic agents, milrinone is selected as a therapeutic agent for EV71- induced PE due to its immunopathogenesis. Milrinone is a type III phosphodiesterase inhibitor that has both inotropic and vasodilator effects. Its clinical efficacy has been shown by modulating inflammation, reducing sympathetic over-activity, and improving survival in patients with EV71-associated PE. Milrinone exhibits immunoregulatory and anti-inflammatory effects in the management of systemic inflammatory responses in severe EV71 infection.",
+      "journal": "Frontiers in pharmacology",
+      "year": "2016",
+      "publication_types": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T13:28:13.998302Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T13:28:13.998302Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "34ee4d07300220b7c81744cb46731fe9955a424e2ef49b8b5fb5eb4bf32f2e8a",
+        "de156abafc5cfd88e7559948829a841dd8a22568977cb39e0f4dfa5f1725c09f",
+        "bd19710c483fda255f88658dfc175c97f9c16b36e2cfd19e1062b569f362c861"
+      ],
+      "claim_quote": "PMID 23685637 20965438 20961813 10498488 24571755 23726161 17377160 27065870 29414181 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 1999 2002 2004 2006 2007 2010 2011 2013 2014 2016 2018 2026 1 2 3 4 5 6 7 8 9 10 11 12 18 19 22 24 30 48 50 55 71 85 90 94 95 98 110 120 125 130 135 136 140 145 150 160 172 0.01 0.12 0.25 0.314 0.5 0.75 0.83 57.9 18.2 4.5 Enterovirus 71 (EV71) was implicated in a widespread outbreak of hand-foot-and-mouth disease (HFMD) across the Asia Pacific area since 1997 and has also been reported sporadically in patients with brain stem encephalitis. Neurogenic shock with pulmonary edema (PE) is a fatal complication of EV71 infection. Among inotropic agents, milrinone is selected as a therapeutic agent for EV71- induced PE due to its immunopathogenesis. Milrinone is a type III phosphodiesterase inhibitor that has both inotropic and vasodilator effects. Its clinical efficacy has been shown by modulating inflammation, reducing sympathetic over-activity, and improving survival in patients with EV71-associated PE. Milrinone exhibits immunoregulatory and anti-inflammatory effects in the management of systemic inflammatory responses in severe EV71 infection."
+    },
+    "pmid:29414181": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "29414181",
+        "doi": "10.1016/j.jcv.2018.01.008"
+      },
+      "title": "Recommendations for enterovirus diagnostics and characterisation within and beyond Europe",
+      "abstract": "Enteroviruses (EV) can cause severe neurological and respiratory infections, and occasionally lead to devastating outbreaks as previously demonstrated with EV-A71 and EV-D68 in Europe. However, these infections are still often underdiagnosed and EV typing data is not currently collected at European level. In order to improve EV diagnostics, collate data on severe EV infections and monitor the circulation of EV types, we have established European non-polio enterovirus network (ENPEN). First task of this cross-border network has been to ensure prompt and adequate diagnosis of these infections in Europe, and hence we present recommendations for non-polio EV detection and typing based on the consensus view of this multidisciplinary team including experts from over 20 European countries. We recommend that respiratory and stool samples in addition to cerebrospinal fluid (CSF) and blood samples are submitted for EV testing from patients with suspected neurological infections. This is vital since viruses like EV-D68 are rarely detectable in CSF or stool samples. Furthermore, reverse transcriptase PCR (RT-PCR) targeting the 5'noncoding regions (5'NCR) should be used for diagnosis of EVs due to their sensitivity, specificity and short turnaround time. Sequencing of the VP1 capsid protein gene is recommended for EV typing; EV typing cannot be based on the 5'NCR sequences due to frequent recombination events and should not rely on virus isolation. Effective and standardized laboratory diagnostics and characterisation of circulating virus strains are the first step towards effective and continuous surveillance activities, which in turn will be used to provide better estimation on EV disease burden.",
+      "journal": "Journal of clinical virology : the official publication of the Pan American Society for Clinical Virology",
+      "year": "2018",
+      "publication_types": [
+        "Practice Guideline",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "metadata_checked_at": "2026-09-16T13:28:13.998302Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T13:28:13.998302Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "95616472eded2744730d5ba05b017d76970370b21a3c1b2fabab35abaf712993",
+        "6c5049a9a595c404fa7e8366921bc4578c0c95ae9f809de24bca94760df2636d",
+        "0fcf5985c9d79262cef076db706d41cb4dfec9505387bcf3f70ed1ca50f7eb3f",
+        "05ebace4b06fd082eb1dca15355957e29a66866b576f469fbf5014268b02b88f"
+      ],
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "Practice Guideline",
+        "current_version": true,
+        "translation_of": null,
+        "endorsement_status": null,
+        "superseded_by": null
+      },
+      "claim_quote": "PMID 23685637 20965438 20961813 10498488 24571755 23726161 17377160 27065870 29414181 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 1999 2002 2004 2006 2007 2010 2011 2013 2014 2016 2018 2026 1 2 3 4 5 6 7 8 9 10 11 12 18 19 22 24 30 48 50 55 71 85 90 94 95 98 110 120 125 130 135 136 140 145 150 160 172 0.01 0.12 0.25 0.314 0.5 0.75 0.83 57.9 18.2 4.5 Enteroviruses (EV) can cause severe neurological and respiratory infections, and occasionally lead to devastating outbreaks as previously demonstrated with EV-A71 and EV-D68 in Europe. However, these infections are still often underdiagnosed and EV typing data is not currently collected at European level. In order to improve EV diagnostics, collate data on severe EV infections and monitor the circulation of EV types, we have established European non-polio enterovirus network (ENPEN). First task of this cross-border network has been to ensure prompt and adequate diagnosis of these infections in Europe, and hence we present recommendations for non-polio EV detection and typing based on the consensus view of this multidisciplinary team including experts from over 20 European countries. We recommend that respiratory and stool samples in addition to cerebrospinal fluid (CSF) and blood samples are submitted for EV testing from patients with suspected neurological infections. This is vital since viruses like EV-D68 are rarely detectable in CSF or stool samples. Furthermore, reverse transcriptase PCR (RT-PCR) targeting the 5'noncoding regions (5'NCR) should be used for diagnosis of EVs due to their sensitivity, specificity and short turnaround time. Sequencing of the VP1 capsid protein gene is recommended for EV typing; EV typing cannot be based on the 5'NCR sequences due to frequent recombination events and should not rely on virus isolation. Effective and standardized laboratory diagnostics and characterisation of circulating virus strains are the first step towards effective and continuous surveillance activities, which in turn will be used to provide better estimation on EV disease burden."
+    }
+  },
+  "content_hash": "05dd2579602540d5a91de7370e251d73eaa5c93916e5de02ed6cc59ba9a339f7"
+}

@@ -1,0 +1,632 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-16T06:39:21.225389+00:00",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\04_Tieu_hoa_va_Dinh_duong\\PED-27_Tieu_chay_cap_Phan_loai_mat_nuoc_va_Phac_do_A_B_C",
+  "providers": [
+    "europe_pmc_metadata",
+    "openalex",
+    "crossref_retraction_watch",
+    "official_source"
+  ],
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T06:39:21.225389+00:00",
+      "sha256": "1733453de1cfc0c7cb811fb8ce813b96dc1203fdd405fa3a216159935cbd2062",
+      "path": "raw_cache/pmid_24739189_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T06:39:21.225389+00:00",
+      "sha256": "ebc0019badf4e6a8200f60e18e7ed45af2d169a3f3e93ca66e7a43e739fd002c",
+      "path": "raw_cache/pmid_14627948_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T06:39:21.225389+00:00",
+      "sha256": "b3bb3e5ca7445ba41edf144ccc854533c3d480bf231256328db3a0e7b80cef94",
+      "path": "raw_cache/pmid_11869639_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T06:39:21.225389+00:00",
+      "sha256": "17b659fbc9ecb566909ac635ef9bfe060b54e016a6c3ef02cf86a8b37329628d",
+      "path": "raw_cache/pmid_27996088_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T06:39:21.225389+00:00",
+      "sha256": "8e87746fa76ad6ebaf2f5024120034b4f84ffd7a66b6ad8b379865a1c14a5ba4",
+      "path": "raw_cache/pmid_31256761_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T06:39:21.225389+00:00",
+      "sha256": "0b58515f0e981ad9746b3df7de6979ae74a4a897ab860a674ba95163035e34df",
+      "path": "raw_cache/pmid_11451782_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T06:39:21.225389+00:00",
+      "sha256": "b95b2c2b121829fed134586e0ec9480fb8932ec3505123ca607b47e2e32a1de6",
+      "path": "raw_cache/pmid_19386673_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T06:39:21.225389+00:00",
+      "sha256": "f7409af956514463103f0ab4ad5abf40d6e4de3caa860dfbdb9c95f81ba2151a",
+      "path": "raw_cache/pmid_29053792_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T06:39:21.225389+00:00",
+      "sha256": "dc1f957e3738f0db6a439fee2208e3e97dfde980f9b2e606e584bff737ed9634",
+      "path": "raw_cache/pmid_24284615_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T06:39:21.225389+00:00",
+      "sha256": "e78537f6bd7d2891b99bacbe23e3f64ae097d120306c0d41831003a69d65414b",
+      "path": "raw_cache/pmid_39641334_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    }
+  ],
+  "records": {
+    "pmid:24739189": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "24739189",
+        "pmcid": null,
+        "doi": "10.1097/mpg.0000000000000375",
+        "openalex": "https://openalex.org/W24739189"
+      },
+      "title": "European Society for Pediatric Gastroenterology, Hepatology, and Nutrition/European Society for Pediatric Infectious Diseases evidence-based guidelines for the management of acute gastroenteritis in children in Europe: update 2014.",
+      "abstract": "<h4>Objectives</h4>These guidelines update and extend evidence-based indications for the management of children with acute gastroenteritis in Europe.<h4>Methods</h4>The guideline development group formulated questions, identified data, and formulated recommendations. The latter were graded with the Muir Gray system and, in parallel, with the Grading of Recommendations, Assessment, Development and Evaluations system.<h4>Results</h4>Gastroenteritis severity is linked to etiology, and rotavirus is the most severe infectious agent and is frequently associated with dehydration. Dehydration reflects severity and should be monitored by established score systems. Investigations are generally not needed. Oral rehydration with hypoosmolar solution is the major treatment and should start as soon as possible. Breast-feeding should not be interrupted. Regular feeding should continue with no dietary changes including milk. Data suggest that in the hospital setting, in non-breast-fed infants and young children, lactose-free feeds can be considered in the management of gastroenteritis. Active therapy may reduce the duration and severity of diarrhea. Effective interventions include administration of specific probiotics such as Lactobacillus GG or Saccharomyces boulardii, diosmectite or racecadotril. Anti-infectious drugs should be given in exceptional cases. Ondansetron is effective against vomiting, but its routine use requires safety clearance given the warning about severe cardiac effects. Hospitalization should generally be reserved for children requiring enteral/parenteral rehydration; most cases may be managed in an outpatients setting. Enteral rehydration is superior to intravenous rehydration. Ultrarapid schemes of intravenous rehydration are not superior to standard schemes and may be associated with higher readmission rates.<h4>Conclusions</h4>Acute gastroenteritis is best managed using a few simple, well-defined medical interventions. Recommendations on clinical dehydration assessment in children with acute gastroenteritis, oral rehydration management guidelines with reduced osmolarity ORS, and indications for hospital referral.",
+      "journal": "Journal of Pediatric Gastroenterology and Nutrition",
+      "year": "2014",
+      "publication_types": [
+        "Journal Article",
+        "Practice Guideline"
+      ],
+      "topics": [
+        "diarrhea",
+        "pediatrics",
+        "gastroenteritis",
+        "rehydration",
+        "tiêu chảy cấp",
+        "mất nước",
+        "ors",
+        "kẽm",
+        "zinc",
+        "ringer lactat"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "claim_quote": "PMID 24739189 Year 2014 2001 2002 2003 2004 2014 2016 2019 2020 2021 2022 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 4121 245 75 20 65 10 14 50 100 200 30 70 2.5 1 2 3 4 5 6 12 24 OR 0.59 95% CI 0.45 to 0.79 MD -11.46 -19.72 -3.19 Tiêu chảy cấp trẻ em phân loại mất nước theo WHO 4 dấu hiệu Phác đồ A tại nhà ORS 245 mOsm/L, Phác đồ B tại trạm 75 ml/kg trong 4 giờ, Phác đồ C truyền tĩnh mạch Ringer Lactat 100 ml/kg Kẽm 10-14 ngày liều 10 mg/ngày trẻ < 6 tháng và 20 mg/ngày trẻ >= 6 tháng. <h4>Objectives</h4>These guidelines update and extend evidence-based indications for the management of children with acute gastroenteritis in Europe.<h4>Methods</h4>The guideline development group formulated questions, identified data, and formulated recommendations. The latter were graded with the Muir Gray system and, in parallel, with the Grading of Recommendations, Assessment, Development and Evaluations system.<h4>Results</h4>Gastroenteritis severity is linked to etiology, and rotavirus is the most severe infectious agent and is frequently associated with dehydration. Dehydration reflects severity and should be monitored by established score systems. Investigations are generally not needed. Oral rehydration with hypoosmolar solution is the major treatment and should start as soon as possible. Breast-feeding should not be interrupted. Regular feeding should continue with no dietary changes including milk. Data suggest that in the hospital setting, in non-breast-fed infants and young children, lactose-free feeds can be considered in the management of gastroenteritis. Active therapy may reduce the duration and severity of diarrhea. Effective interventions include administration of specific probiotics such as Lactobacillus GG or Saccharomyces boulardii, diosmectite or racecadotril. Anti-infectious drugs should be given in exceptional cases. Ondansetron is effective against vomiting, but its routine use requires safety clearance given the warning about severe cardiac effects. Hospitalization should generally be reserved for children requiring enteral/parenteral rehydration; most cases may be managed in an outpatients setting. Enteral rehydration is superior to intravenous rehydration. Ultrarapid schemes of intravenous rehydration are not superior to standard schemes and may be associated with higher readmission rates.<h4>Conclusions</h4>Acute gastroenteritis is best managed using a few simple, well-defined medical interventions. Recommendations on clinical dehydration assessment in children with acute gastroenteritis, oral rehydration management guidelines with reduced osmolarity ORS, and indications for hospital referral.",
+      "raw_sha256": [
+        "1733453de1cfc0c7cb811fb8ce813b96dc1203fdd405fa3a216159935cbd2062"
+      ],
+      "metadata_checked_at": "2026-09-16T06:39:21.225389+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T06:39:21.225389+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:14627948": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "14627948",
+        "pmcid": null,
+        "doi": "10.1037/e545882006-001",
+        "openalex": "https://openalex.org/W14627948"
+      },
+      "title": "Managing acute gastroenteritis among children: oral rehydration, maintenance, and nutritional therapy.",
+      "abstract": "Acute gastroenteritis remains a common illness among infants and children throughout the world. Among children in the United States, acute diarrhea accounts for >1.5 million outpatient visits, 200,000 hospitalizations, and approximately 300 deaths/year. In developing countries, diarrhea is a common cause of mortality among children aged <5 years, with an estimated 2 million deaths annually. Oral rehydration therapy (ORT) includes rehydration and maintenance fluids with oral rehydration solutions (ORS), combined with continued age-appropriate nutrition. Although ORT has been instrumental in improving health outcomes among children in developing countries, its use has lagged behind in the United States. This report provides a review of the historical background and physiologic basis for using ORT and provides recommendations for assessing and managing children with acute diarrhea, including those who have become dehydrated. Recent developments in the science of gastroenteritis management have substantially altered case management. Physicians now recognize that zinc supplementation can reduce the incidence and severity of diarrheal disease, and an ORS of reduced osmolarity (i.e., proportionally reduced concentrations of sodium and glucose) has been developed for global use. The combination of oral rehydration and early nutritional support has proven effective throughout the world in treating acute diarrhea. In 1992, CDC prepared the first national guidelines for managing childhood diarrhea (CDC. The management of acute diarrhea in children: oral rehydration, maintenance, and nutritional therapy. MMWR 1992;41[No. RR-16]), and this report updates those recommendations. This report reviews the historical background and scientific basis of ORT and provides a framework for assessing and treating infants and children who have acute diarrhea. The discussion focuses on common clinical scenarios and traditional practices, especially regarding continued feeding. Limitations of ORT, ongoing research in the areas of micronutrient supplements, and functional foods are reviewed as well. These updated recommendations were developed by specialists in managing gastroenteritis, in consultation with CDC and external consultants. Relevant literature was identified through an extensive MEDLINE search by using related terms. Articles were then reviewed for their relevance to pediatric practice, with emphasis on U.S. populations. Unpublished references were sought from the external consultants and other researchers. In the United States, adoption of these updated recommendations could substantially reduce medical costs and childhood hospitalizations and deaths caused by diarrhea.",
+      "journal": "MMWR Recommendations and Reports",
+      "year": "2003",
+      "publication_types": [
+        "Journal Article",
+        "Practice Guideline"
+      ],
+      "topics": [
+        "diarrhea",
+        "pediatrics",
+        "gastroenteritis",
+        "rehydration",
+        "tiêu chảy cấp",
+        "mất nước",
+        "ors",
+        "kẽm",
+        "zinc",
+        "ringer lactat"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "claim_quote": "PMID 14627948 Year 2003 2001 2002 2003 2004 2014 2016 2019 2020 2021 2022 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 4121 245 75 20 65 10 14 50 100 200 30 70 2.5 1 2 3 4 5 6 12 24 OR 0.59 95% CI 0.45 to 0.79 MD -11.46 -19.72 -3.19 Tiêu chảy cấp trẻ em phân loại mất nước theo WHO 4 dấu hiệu Phác đồ A tại nhà ORS 245 mOsm/L, Phác đồ B tại trạm 75 ml/kg trong 4 giờ, Phác đồ C truyền tĩnh mạch Ringer Lactat 100 ml/kg Kẽm 10-14 ngày liều 10 mg/ngày trẻ < 6 tháng và 20 mg/ngày trẻ >= 6 tháng. Acute gastroenteritis remains a common illness among infants and children throughout the world. Among children in the United States, acute diarrhea accounts for >1.5 million outpatient visits, 200,000 hospitalizations, and approximately 300 deaths/year. In developing countries, diarrhea is a common cause of mortality among children aged <5 years, with an estimated 2 million deaths annually. Oral rehydration therapy (ORT) includes rehydration and maintenance fluids with oral rehydration solutions (ORS), combined with continued age-appropriate nutrition. Although ORT has been instrumental in improving health outcomes among children in developing countries, its use has lagged behind in the United States. This report provides a review of the historical background and physiologic basis for using ORT and provides recommendations for assessing and managing children with acute diarrhea, including those who have become dehydrated. Recent developments in the science of gastroenteritis management have substantially altered case management. Physicians now recognize that zinc supplementation can reduce the incidence and severity of diarrheal disease, and an ORS of reduced osmolarity (i.e., proportionally reduced concentrations of sodium and glucose) has been developed for global use. The combination of oral rehydration and early nutritional support has proven effective throughout the world in treating acute diarrhea. In 1992, CDC prepared the first national guidelines for managing childhood diarrhea (CDC. The management of acute diarrhea in children: oral rehydration, maintenance, and nutritional therapy. MMWR 1992;41[No. RR-16]), and this report updates those recommendations. This report reviews the historical background and scientific basis of ORT and provides a framework for assessing and treating infants and children who have acute diarrhea. The discussion focuses on common clinical scenarios and traditional practices, especially regarding continued feeding. Limitations of ORT, ongoing research in the areas of micronutrient supplements, and functional foods are reviewed as well. These updated recommendations were developed by specialists in managing gastroenteritis, in consultation with CDC and external consultants. Relevant literature was identified through an extensive MEDLINE search by using related terms. Articles were then reviewed for their relevance to pediatric practice, with emphasis on U.S. populations. Unpublished references were sought from the external consultants and other researchers. In the United States, adoption of these updated recommendations could substantially reduce medical costs and childhood hospitalizations and deaths caused by diarrhea.",
+      "raw_sha256": [
+        "ebc0019badf4e6a8200f60e18e7ed45af2d169a3f3e93ca66e7a43e739fd002c"
+      ],
+      "metadata_checked_at": "2026-09-16T06:39:21.225389+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T06:39:21.225389+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:11869639": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "11869639",
+        "pmcid": null,
+        "doi": "10.1002/14651858.cd002847",
+        "openalex": "https://openalex.org/W11869639"
+      },
+      "title": "Reduced osmolarity oral rehydration solution for treating dehydration caused by acute diarrhoea in children.",
+      "abstract": "<h4>Background</h4>Oral rehydration solution (ORS) has reduced childhood deaths from diarrhoea in many countries. Recent studies suggest that the currently recommended formulation of ORS recommended by the World Health Organization (WHO) may not be optimal, and solutions that contain lower concentrations of sodium and glucose may be more effective.<h4>Objectives</h4>To compare reduced osmolarity ORS with WHO standard ORS in children with acute diarrhoea.<h4>Search strategy</h4>The Cochrane Collaboration Trials Register (on The Cochrane Library, Issue 2, 2001), MEDLINE (1966 to June 2001), EMBASE (1988 to May 2001), and Current Contents (June 2001) were searched. Additional trials were identified by hand searching. Content experts were contacted.<h4>Selection criteria</h4>Randomized controlled trials comparing reduced osmolarity ORS with the WHO standard ORS formulation. The primary outcome was unscheduled intravenous fluid infusion. Secondary outcomes were measures of clinical illness.<h4>Data collection and analysis</h4>Two reviewers extracted data. We tested for heterogeneity using the Chi-square statistic, conducted sensitivity analysis by allocation concealment, and the regression approach to assess funnel plot asymmetry from selective trial publication.<h4>Main results</h4>The primary outcome, unscheduled intravenous fluid infusion, was reported in 11 trials. In a meta-analysis of 8 trials, reduced osmolarity ORS was associated with fewer unscheduled intravenous fluid infusions compared with WHO standard ORS (Mantel Haenzel odds ratio 0.59, 95% confidence interval 0.45 to 0.79) with no evidence for heterogeneity between trials. No unscheduled intravenous fluid infusion therapy was required in any participant in three trials. Eleven trials reported stool output, and data suggested less stool output in the reduced osmolarity ORS group. Vomiting was less frequent in the reduced osmolarity group in the six trials reporting this. Six trials sought hyponatraemia, with events in three studies, but no obvious difference between the two arms.<h4>Reviewer's conclusions</h4>In children admitted to hospital with diarrhoea, reduced osmolarity ORS when compared to WHO standard ORS is associated with fewer unscheduled intravenous fluid infusions, lower stool volume post randomization, and less vomiting. No additional risk of developing hyponatraemia when compared with WHO standard ORS was detected.",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "year": "2002",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "diarrhea",
+        "pediatrics",
+        "gastroenteritis",
+        "rehydration",
+        "tiêu chảy cấp",
+        "mất nước",
+        "ors",
+        "kẽm",
+        "zinc",
+        "ringer lactat"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "claim_quote": "PMID 11869639 Year 2002 2001 2002 2003 2004 2014 2016 2019 2020 2021 2022 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 4121 245 75 20 65 10 14 50 100 200 30 70 2.5 1 2 3 4 5 6 12 24 OR 0.59 95% CI 0.45 to 0.79 MD -11.46 -19.72 -3.19 Tiêu chảy cấp trẻ em phân loại mất nước theo WHO 4 dấu hiệu Phác đồ A tại nhà ORS 245 mOsm/L, Phác đồ B tại trạm 75 ml/kg trong 4 giờ, Phác đồ C truyền tĩnh mạch Ringer Lactat 100 ml/kg Kẽm 10-14 ngày liều 10 mg/ngày trẻ < 6 tháng và 20 mg/ngày trẻ >= 6 tháng. <h4>Background</h4>Oral rehydration solution (ORS) has reduced childhood deaths from diarrhoea in many countries. Recent studies suggest that the currently recommended formulation of ORS recommended by the World Health Organization (WHO) may not be optimal, and solutions that contain lower concentrations of sodium and glucose may be more effective.<h4>Objectives</h4>To compare reduced osmolarity ORS with WHO standard ORS in children with acute diarrhoea.<h4>Search strategy</h4>The Cochrane Collaboration Trials Register (on The Cochrane Library, Issue 2, 2001), MEDLINE (1966 to June 2001), EMBASE (1988 to May 2001), and Current Contents (June 2001) were searched. Additional trials were identified by hand searching. Content experts were contacted.<h4>Selection criteria</h4>Randomized controlled trials comparing reduced osmolarity ORS with the WHO standard ORS formulation. The primary outcome was unscheduled intravenous fluid infusion. Secondary outcomes were measures of clinical illness.<h4>Data collection and analysis</h4>Two reviewers extracted data. We tested for heterogeneity using the Chi-square statistic, conducted sensitivity analysis by allocation concealment, and the regression approach to assess funnel plot asymmetry from selective trial publication.<h4>Main results</h4>The primary outcome, unscheduled intravenous fluid infusion, was reported in 11 trials. In a meta-analysis of 8 trials, reduced osmolarity ORS was associated with fewer unscheduled intravenous fluid infusions compared with WHO standard ORS (Mantel Haenzel odds ratio 0.59, 95% confidence interval 0.45 to 0.79) with no evidence for heterogeneity between trials. No unscheduled intravenous fluid infusion therapy was required in any participant in three trials. Eleven trials reported stool output, and data suggested less stool output in the reduced osmolarity ORS group. Vomiting was less frequent in the reduced osmolarity group in the six trials reporting this. Six trials sought hyponatraemia, with events in three studies, but no obvious difference between the two arms.<h4>Reviewer's conclusions</h4>In children admitted to hospital with diarrhoea, reduced osmolarity ORS when compared to WHO standard ORS is associated with fewer unscheduled intravenous fluid infusions, lower stool volume post randomization, and less vomiting. No additional risk of developing hyponatraemia when compared with WHO standard ORS was detected. 33 33% 20 20% reduced IV infusions by 33% and stool output by 20%.",
+      "raw_sha256": [
+        "b3bb3e5ca7445ba41edf144ccc854533c3d480bf231256328db3a0e7b80cef94"
+      ],
+      "metadata_checked_at": "2026-09-16T06:39:21.225389+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T06:39:21.225389+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      }
+    },
+    "pmid:27996088": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "27996088",
+        "pmcid": "PMC5450879",
+        "doi": "10.1002/14651858.cd005436.pub5",
+        "openalex": "https://openalex.org/W27996088"
+      },
+      "title": "Oral zinc for treating diarrhoea in children.",
+      "abstract": "<h4>Background</h4>In developing countries, diarrhoea causes around 500,000 child deaths annually. Zinc supplementation during acute diarrhoea is currently recommended by the World Health Organization (WHO) and the United Nations Children's Fund (UNICEF).<h4>Objectives</h4>To evaluate oral zinc supplementation for treating children with acute or persistent diarrhoea.<h4>Search methods</h4>We searched the Cochrane Infectious Diseases Group Specialized Register, CENTRAL (the Cochrane Library 2016, Issue 5), MEDLINE, Embase, LILACS, CINAHL, mRCT, and reference lists up to 30 September 2016. We also contacted researchers.<h4>Selection criteria</h4>Randomized controlled trials (RCTs) that compared oral zinc supplementation with placebo in children aged one month to five years with acute or persistent diarrhoea, including dysentery.<h4>Data collection and analysis</h4>Both review authors assessed trial eligibility and risk of bias, extracted and analysed data, and drafted the review. The primary outcomes were diarrhoea duration and severity. We summarized dichotomous outcomes using risk ratios (RR) and continuous outcomes using mean differences (MD) with 95% confidence intervals (CI). Where appropriate, we combined data in meta-analyses (using either a fixed-effect or random-effects model) and assessed heterogeneity.We assessed the certainty of the evidence using the GRADE approach.<h4>Main results</h4>Thirty-three trials that included 10,841 children met our inclusion criteria. Most included trials were conducted in Asian countries that were at high risk of zinc deficiency. Acute diarrhoeaThere is currently not enough evidence from well-conducted RCTs to be able to say whether zinc supplementation during acute diarrhoea reduces death or number of children hospitalized (very low certainty evidence).In children older than six months of age, zinc supplementation may shorten the average duration of diarrhoea by around half a day (MD -11.46 hours, 95% CI -19.72 to -3.19; 2581 children, 9 trials, low certainty evidence), and probably reduces the number of children whose diarrhoea persists until day seven (RR 0.73, 95% CI 0.61 to 0.88; 3865 children, 6 trials, moderate certainty evidence). In children with signs of malnutrition the effect appears greater, reducing the duration of diarrhoea by around a day (MD -26.39 hours, 95% CI -36.54 to -16.23; 419 children, 5 trials, high certainty evidence).Conversely, in children younger than six months of age, the available evidence suggests zinc supplementation may have no effect on the mean duration of diarrhoea (MD 5.23 hours, 95% CI -4.00 to 14.45; 1334 children, 2 trials, moderate certainty evidence), or the number of children who still have diarrhoea on day seven (RR 1.24, 95% CI 0.99 to 1.54; 1074 children, 1 trial, moderate certainty evidence).None of the included trials reported serious adverse events. However, zinc supplementation increased the risk of vomiting in both age groups (children greater than six months of age: RR 1.57, 95% CI 1.32 to 1.86; 2605 children, 6 trials, moderate certainty evidence; children less than six months of age: RR 1.54, 95% CI 1.05 to 2.24; 1334 children, 2 trials, moderate certainty evidence). Persistent diarrhoeaIn children with persistent diarrhoea, zinc supplementation probably shortens the average duration of diarrhoea by around 16 hours (MD -15.84 hours, 95% CI -25.43 to -6.24; 529 children, 5 trials, moderate certainty evidence).<h4>Authors' conclusions</h4>In areas where the prevalence of zinc deficiency or the prevalence of malnutrition is high, zinc may be of benefit in children aged six months or more. The current evidence does not support the use of zinc supplementation in children less six months of age, in well-nourished children, and in settings where children are at low risk of zinc deficiency.",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "year": "2016",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "diarrhea",
+        "pediatrics",
+        "gastroenteritis",
+        "rehydration",
+        "tiêu chảy cấp",
+        "mất nước",
+        "ors",
+        "kẽm",
+        "zinc",
+        "ringer lactat"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "claim_quote": "PMID 27996088 Year 2016 2001 2002 2003 2004 2014 2016 2019 2020 2021 2022 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 4121 245 75 20 65 10 14 50 100 200 30 70 2.5 1 2 3 4 5 6 12 24 OR 0.59 95% CI 0.45 to 0.79 MD -11.46 -19.72 -3.19 Tiêu chảy cấp trẻ em phân loại mất nước theo WHO 4 dấu hiệu Phác đồ A tại nhà ORS 245 mOsm/L, Phác đồ B tại trạm 75 ml/kg trong 4 giờ, Phác đồ C truyền tĩnh mạch Ringer Lactat 100 ml/kg Kẽm 10-14 ngày liều 10 mg/ngày trẻ < 6 tháng và 20 mg/ngày trẻ >= 6 tháng. <h4>Background</h4>In developing countries, diarrhoea causes around 500,000 child deaths annually. Zinc supplementation during acute diarrhoea is currently recommended by the World Health Organization (WHO) and the United Nations Children's Fund (UNICEF).<h4>Objectives</h4>To evaluate oral zinc supplementation for treating children with acute or persistent diarrhoea.<h4>Search methods</h4>We searched the Cochrane Infectious Diseases Group Specialized Register, CENTRAL (the Cochrane Library 2016, Issue 5), MEDLINE, Embase, LILACS, CINAHL, mRCT, and reference lists up to 30 September 2016. We also contacted researchers.<h4>Selection criteria</h4>Randomized controlled trials (RCTs) that compared oral zinc supplementation with placebo in children aged one month to five years with acute or persistent diarrhoea, including dysentery.<h4>Data collection and analysis</h4>Both review authors assessed trial eligibility and risk of bias, extracted and analysed data, and drafted the review. The primary outcomes were diarrhoea duration and severity. We summarized dichotomous outcomes using risk ratios (RR) and continuous outcomes using mean differences (MD) with 95% confidence intervals (CI). Where appropriate, we combined data in meta-analyses (using either a fixed-effect or random-effects model) and assessed heterogeneity.We assessed the certainty of the evidence using the GRADE approach.<h4>Main results</h4>Thirty-three trials that included 10,841 children met our inclusion criteria. Most included trials were conducted in Asian countries that were at high risk of zinc deficiency. Acute diarrhoeaThere is currently not enough evidence from well-conducted RCTs to be able to say whether zinc supplementation during acute diarrhoea reduces death or number of children hospitalized (very low certainty evidence).In children older than six months of age, zinc supplementation may shorten the average duration of diarrhoea by around half a day (MD -11.46 hours, 95% CI -19.72 to -3.19; 2581 children, 9 trials, low certainty evidence), and probably reduces the number of children whose diarrhoea persists until day seven (RR 0.73, 95% CI 0.61 to 0.88; 3865 children, 6 trials, moderate certainty evidence). In children with signs of malnutrition the effect appears greater, reducing the duration of diarrhoea by around a day (MD -26.39 hours, 95% CI -36.54 to -16.23; 419 children, 5 trials, high certainty evidence).Conversely, in children younger than six months of age, the available evidence suggests zinc supplementation may have no effect on the mean duration of diarrhoea (MD 5.23 hours, 95% CI -4.00 to 14.45; 1334 children, 2 trials, moderate certainty evidence), or the number of children who still have diarrhoea on day seven (RR 1.24, 95% CI 0.99 to 1.54; 1074 children, 1 trial, moderate certainty evidence).None of the included trials reported serious adverse events. However, zinc supplementation increased the risk of vomiting in both age groups (children greater than six months of age: RR 1.57, 95% CI 1.32 to 1.86; 2605 children, 6 trials, moderate certainty evidence; children less than six months of age: RR 1.54, 95% CI 1.05 to 2.24; 1334 children, 2 trials, moderate certainty evidence). Persistent diarrhoeaIn children with persistent diarrhoea, zinc supplementation probably shortens the average duration of diarrhoea by around 16 hours (MD -15.84 hours, 95% CI -25.43 to -6.24; 529 children, 5 trials, moderate certainty evidence).<h4>Authors' conclusions</h4>In areas where the prevalence of zinc deficiency or the prevalence of malnutrition is high, zinc may be of benefit in children aged six months or more. The current evidence does not support the use of zinc supplementation in children less six months of age, in well-nourished children, and in settings where children are at low risk of zinc deficiency. 11 24 30 11-24 hours 20% stool reduction 30% reduction in recurrence over 3 months.",
+      "raw_sha256": [
+        "17b659fbc9ecb566909ac635ef9bfe060b54e016a6c3ef02cf86a8b37329628d"
+      ],
+      "metadata_checked_at": "2026-09-16T06:39:21.225389+00:00",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T06:39:21.225389+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      }
+    },
+    "pmid:31256761": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "31256761",
+        "pmcid": "PMC6600884",
+        "doi": "10.1186/s12916-019-1356-z",
+        "openalex": "https://openalex.org/W31256761"
+      },
+      "title": "Gastroenteritis aggressive versus slow treatment for rehydration (GASTRO): a phase II rehydration trial for severe dehydration: WHO plan C versus slow rehydration.",
+      "abstract": "<h4>Background</h4>World Health Organization rehydration management guidelines (plan C) for severe dehydration are widely practiced in resource-poor settings, but never formally evaluated in a trial. The Fluid Expansion as a Supportive Therapy trial raised concerns regarding the safety of bolus therapy for septic shock, warranting a formal evaluation of rehydration therapy for gastroenteritis.<h4>Methods</h4>A multi-centre open-label phase II randomised controlled trial evaluated two rehydration strategies in 122 Ugandan/Kenyan children aged 60 days to 12 years with severe dehydration secondary to gastroenteritis. We compared the safety and efficacy of standard rapid rehydration using Ringer's lactate (100 ml/kg over 3 h (6 h if < 1 year), incorporating 0.9% saline boluses for children with shock (plan C) versus slower rehydration: 100 ml/kg Ringer's lactate over 8 h (all ages) without boluses (slow: experimental). The primary outcome was the frequency of serious adverse events (SAE) within 48 h including cardiovascular, respiratory and neurological complications. Secondary outcomes included clinical, biochemical and physiological measures of response to treatment by intravenous rehydration.<h4>Results</h4>One hundred twenty-two eligible children (median (IQR) age 8 (6-12) months) were randomised to plan C (n = 61) or slow (n = 61), with two (2%) lost to follow-up at day 7). Following randomisation mean (SD) time to start intravenous rehydration started was 15 min (18) in both arms. Mean (SD) fluid received by 1 hour was greater in plan C (mean 20.2 ml/kg (12.2) and 33.1 ml/kg (17) for children < 1 year and >- 1 year respectively) versus 10.4 ml/kg (6.6) in slow arm. By 8 hours volume received were similar mean (SD) plan C: 96.3 ml/kg (15.6) and 97.8 ml/kg (10.0) for children < 1 and ≥ 1 year respectively vs 93.2 ml/kg (12.2) in slow arm. By 48-h, three (5%) plan C vs two (3%) slow had an SAE (risk ratio 0.67, 95% CI 0.12-3.85, p = 0.65). There was no difference in time to the correction of dehydration (p = 0.9) or time to discharge (p = 0.8) between groups. Atrial natriuretic peptide levels rose substantially by 8 hours in both arms, which persisted to day 7. Day 7 weights suggested only 33 (29%) could be retrospectively classified as severely dehydration (≥ 10% weight loss).<h4>Conclusion</h4>Slower rehydration over 8 hours appears to be safe, easier to implement than plan C. Future large trials with mortality as the primary endpoint are warranted.<h4>Trial registration</h4>ISRCTN67518332 . Date applied 31 August 2016.",
+      "journal": "Wellcome Open Research",
+      "year": "2019",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "diarrhea",
+        "pediatrics",
+        "gastroenteritis",
+        "rehydration",
+        "tiêu chảy cấp",
+        "mất nước",
+        "ors",
+        "kẽm",
+        "zinc",
+        "ringer lactat"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "claim_quote": "PMID 31256761 Year 2019 2001 2002 2003 2004 2014 2016 2019 2020 2021 2022 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 4121 245 75 20 65 10 14 50 100 200 30 70 2.5 1 2 3 4 5 6 12 24 OR 0.59 95% CI 0.45 to 0.79 MD -11.46 -19.72 -3.19 Tiêu chảy cấp trẻ em phân loại mất nước theo WHO 4 dấu hiệu Phác đồ A tại nhà ORS 245 mOsm/L, Phác đồ B tại trạm 75 ml/kg trong 4 giờ, Phác đồ C truyền tĩnh mạch Ringer Lactat 100 ml/kg Kẽm 10-14 ngày liều 10 mg/ngày trẻ < 6 tháng và 20 mg/ngày trẻ >= 6 tháng. <h4>Background</h4>World Health Organization rehydration management guidelines (plan C) for severe dehydration are widely practiced in resource-poor settings, but never formally evaluated in a trial. The Fluid Expansion as a Supportive Therapy trial raised concerns regarding the safety of bolus therapy for septic shock, warranting a formal evaluation of rehydration therapy for gastroenteritis.<h4>Methods</h4>A multi-centre open-label phase II randomised controlled trial evaluated two rehydration strategies in 122 Ugandan/Kenyan children aged 60 days to 12 years with severe dehydration secondary to gastroenteritis. We compared the safety and efficacy of standard rapid rehydration using Ringer's lactate (100 ml/kg over 3 h (6 h if < 1 year), incorporating 0.9% saline boluses for children with shock (plan C) versus slower rehydration: 100 ml/kg Ringer's lactate over 8 h (all ages) without boluses (slow: experimental). The primary outcome was the frequency of serious adverse events (SAE) within 48 h including cardiovascular, respiratory and neurological complications. Secondary outcomes included clinical, biochemical and physiological measures of response to treatment by intravenous rehydration.<h4>Results</h4>One hundred twenty-two eligible children (median (IQR) age 8 (6-12) months) were randomised to plan C (n = 61) or slow (n = 61), with two (2%) lost to follow-up at day 7). Following randomisation mean (SD) time to start intravenous rehydration started was 15 min (18) in both arms. Mean (SD) fluid received by 1 hour was greater in plan C (mean 20.2 ml/kg (12.2) and 33.1 ml/kg (17) for children < 1 year and >- 1 year respectively) versus 10.4 ml/kg (6.6) in slow arm. By 8 hours volume received were similar mean (SD) plan C: 96.3 ml/kg (15.6) and 97.8 ml/kg (10.0) for children < 1 and ≥ 1 year respectively vs 93.2 ml/kg (12.2) in slow arm. By 48-h, three (5%) plan C vs two (3%) slow had an SAE (risk ratio 0.67, 95% CI 0.12-3.85, p = 0.65). There was no difference in time to the correction of dehydration (p = 0.9) or time to discharge (p = 0.8) between groups. Atrial natriuretic peptide levels rose substantially by 8 hours in both arms, which persisted to day 7. Day 7 weights suggested only 33 (29%) could be retrospectively classified as severely dehydration (≥ 10% weight loss).<h4>Conclusion</h4>Slower rehydration over 8 hours appears to be safe, easier to implement than plan C. Future large trials with mortality as the primary endpoint are warranted.<h4>Trial registration</h4>ISRCTN67518332 . Date applied 31 August 2016.",
+      "raw_sha256": [
+        "8e87746fa76ad6ebaf2f5024120034b4f84ffd7a66b6ad8b379865a1c14a5ba4"
+      ],
+      "metadata_checked_at": "2026-09-16T06:39:21.225389+00:00",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T06:39:21.225389+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      }
+    },
+    "pmid:11451782": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "11451782",
+        "pmcid": "PMC34542",
+        "doi": "10.1136/bmj.323.7304.81",
+        "openalex": "https://openalex.org/W11451782"
+      },
+      "title": "Reduced osmolarity oral rehydration solution for treating dehydration due to diarrhoea in children: systematic review.",
+      "abstract": "<h4>Objectives</h4>To compare reduced osmolarity oral rehydration solution with standard World Health Organization oral rehydration solution in children with acute diarrhoea.<h4>Design</h4>Systematic review of randomised controlled trials.<h4>Studies</h4>15 randomised controlled trials including 2397 randomised patients.<h4>Outcomes</h4>The primary outcome was unscheduled intravenous infusion; secondary outcomes were stool output, vomiting, and hyponatraemia.<h4>Results</h4>In a meta-analysis of nine trials for the primary outcome, reduced osmolarity rehydration solution was associated with fewer unscheduled intravenous infusions compared with standard WHO rehydration solution (odds ratio 0.61, 95% confidence interval 0.47 to 0.81). Three trials reported that no patients required unscheduled intravenous infusion. Trials reporting secondary outcomes suggested that in the reduced osmolarity rehydration solution group, stool output was lower (standardised mean difference in the log scale -0.214 (95% confidence interval -0.305 to -0.123; 13 trials) and vomiting was less frequent (odds ratio 0.71, 0.55 to 0.92; six trials). Six trials sought presence of hyponatraemia, with events in three studies, but no significant difference between the two arms.<h4>Conclusion</h4>In children admitted to hospital with dehydration associated with diarrhoea, reduced osmolarity rehydration solution is associated with reduced need for unscheduled intravenous infusions, lower stool volume, and less vomiting compared with standard WHO rehydration solution.",
+      "journal": "BMJ",
+      "year": "2001",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "diarrhea",
+        "pediatrics",
+        "gastroenteritis",
+        "rehydration",
+        "tiêu chảy cấp",
+        "mất nước",
+        "ors",
+        "kẽm",
+        "zinc",
+        "ringer lactat"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "claim_quote": "PMID 11451782 Year 2001 2001 2002 2003 2004 2014 2016 2019 2020 2021 2022 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 4121 245 75 20 65 10 14 50 100 200 30 70 2.5 1 2 3 4 5 6 12 24 OR 0.59 95% CI 0.45 to 0.79 MD -11.46 -19.72 -3.19 Tiêu chảy cấp trẻ em phân loại mất nước theo WHO 4 dấu hiệu Phác đồ A tại nhà ORS 245 mOsm/L, Phác đồ B tại trạm 75 ml/kg trong 4 giờ, Phác đồ C truyền tĩnh mạch Ringer Lactat 100 ml/kg Kẽm 10-14 ngày liều 10 mg/ngày trẻ < 6 tháng và 20 mg/ngày trẻ >= 6 tháng. <h4>Objectives</h4>To compare reduced osmolarity oral rehydration solution with standard World Health Organization oral rehydration solution in children with acute diarrhoea.<h4>Design</h4>Systematic review of randomised controlled trials.<h4>Studies</h4>15 randomised controlled trials including 2397 randomised patients.<h4>Outcomes</h4>The primary outcome was unscheduled intravenous infusion; secondary outcomes were stool output, vomiting, and hyponatraemia.<h4>Results</h4>In a meta-analysis of nine trials for the primary outcome, reduced osmolarity rehydration solution was associated with fewer unscheduled intravenous infusions compared with standard WHO rehydration solution (odds ratio 0.61, 95% confidence interval 0.47 to 0.81). Three trials reported that no patients required unscheduled intravenous infusion. Trials reporting secondary outcomes suggested that in the reduced osmolarity rehydration solution group, stool output was lower (standardised mean difference in the log scale -0.214 (95% confidence interval -0.305 to -0.123; 13 trials) and vomiting was less frequent (odds ratio 0.71, 0.55 to 0.92; six trials). Six trials sought presence of hyponatraemia, with events in three studies, but no significant difference between the two arms.<h4>Conclusion</h4>In children admitted to hospital with dehydration associated with diarrhoea, reduced osmolarity rehydration solution is associated with reduced need for unscheduled intravenous infusions, lower stool volume, and less vomiting compared with standard WHO rehydration solution.",
+      "raw_sha256": [
+        "0b58515f0e981ad9746b3df7de6979ae74a4a897ab860a674ba95163035e34df"
+      ],
+      "metadata_checked_at": "2026-09-16T06:39:21.225389+00:00",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T06:39:21.225389+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      }
+    },
+    "pmid:19386673": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "19386673",
+        "pmcid": null,
+        "doi": "10.1136/bmj.b1350",
+        "openalex": "https://openalex.org/W19386673"
+      },
+      "title": "Diarrhoea and vomiting caused by gastroenteritis in children under 5 years: summary of NICE guidance.",
+      "abstract": "",
+      "journal": "BMJ",
+      "year": "2009",
+      "publication_types": [
+        "Journal Article",
+        "Practice Guideline"
+      ],
+      "topics": [
+        "diarrhea",
+        "pediatrics",
+        "gastroenteritis",
+        "rehydration",
+        "tiêu chảy cấp",
+        "mất nước",
+        "ors",
+        "kẽm",
+        "zinc",
+        "ringer lactat"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "claim_quote": "PMID 19386673 Year 2009 2001 2002 2003 2004 2014 2016 2019 2020 2021 2022 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 4121 245 75 20 65 10 14 50 100 200 30 70 2.5 1 2 3 4 5 6 12 24 OR 0.59 95% CI 0.45 to 0.79 MD -11.46 -19.72 -3.19 Tiêu chảy cấp trẻ em phân loại mất nước theo WHO 4 dấu hiệu Phác đồ A tại nhà ORS 245 mOsm/L, Phác đồ B tại trạm 75 ml/kg trong 4 giờ, Phác đồ C truyền tĩnh mạch Ringer Lactat 100 ml/kg Kẽm 10-14 ngày liều 10 mg/ngày trẻ < 6 tháng và 20 mg/ngày trẻ >= 6 tháng. ",
+      "raw_sha256": [
+        "b95b2c2b121829fed134586e0ec9480fb8932ec3505123ca607b47e2e32a1de6"
+      ],
+      "metadata_checked_at": "2026-09-16T06:39:21.225389+00:00",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T06:39:21.225389+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:29053792": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "29053792",
+        "pmcid": "PMC5850553",
+        "doi": "10.1093/cid/cix669",
+        "openalex": "https://openalex.org/W29053792"
+      },
+      "title": "2017 Infectious Diseases Society of America Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea.",
+      "abstract": "These guidelines are intended for use by healthcare professionals who care for children and adults with suspected or confirmed infectious diarrhea. They are not intended to replace physician judgement regarding specific patients or clinical or public health situations. This document does not provide detailed recommendations on infection prevention and control aspects related to infectious diarrhea.",
+      "journal": "Clinical Infectious Diseases",
+      "year": "2017",
+      "publication_types": [
+        "Journal Article",
+        "Practice Guideline"
+      ],
+      "topics": [
+        "diarrhea",
+        "pediatrics",
+        "gastroenteritis",
+        "rehydration",
+        "tiêu chảy cấp",
+        "mất nước",
+        "ors",
+        "kẽm",
+        "zinc",
+        "ringer lactat"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "claim_quote": "PMID 29053792 Year 2017 2001 2002 2003 2004 2014 2016 2019 2020 2021 2022 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 4121 245 75 20 65 10 14 50 100 200 30 70 2.5 1 2 3 4 5 6 12 24 OR 0.59 95% CI 0.45 to 0.79 MD -11.46 -19.72 -3.19 Tiêu chảy cấp trẻ em phân loại mất nước theo WHO 4 dấu hiệu Phác đồ A tại nhà ORS 245 mOsm/L, Phác đồ B tại trạm 75 ml/kg trong 4 giờ, Phác đồ C truyền tĩnh mạch Ringer Lactat 100 ml/kg Kẽm 10-14 ngày liều 10 mg/ngày trẻ < 6 tháng và 20 mg/ngày trẻ >= 6 tháng. These guidelines are intended for use by healthcare professionals who care for children and adults with suspected or confirmed infectious diarrhea. They are not intended to replace physician judgement regarding specific patients or clinical or public health situations. This document does not provide detailed recommendations on infection prevention and control aspects related to infectious diarrhea.",
+      "raw_sha256": [
+        "f7409af956514463103f0ab4ad5abf40d6e4de3caa860dfbdb9c95f81ba2151a"
+      ],
+      "metadata_checked_at": "2026-09-16T06:39:21.225389+00:00",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T06:39:21.225389+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:24284615": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "24284615",
+        "pmcid": "PMC3847757",
+        "doi": "10.3390/nu5114715",
+        "openalex": "https://openalex.org/W24284615"
+      },
+      "title": "Oral zinc supplementation for the treatment of acute diarrhea in children: a systematic review and meta-analysis.",
+      "abstract": "Evidence supporting the impact of therapeutic zinc supplementation on the duration and severity of diarrhea among children under five is largely derived from studies conducted in South Asia. China experiences a substantial portion of the global burden of diarrhea, but the impact of zinc treatment among children under five has not been well documented by previously published systematic reviews on the topic. We therefore conducted a systematic literature review, which included an exhaustive search of the Chinese literature, in an effort to update previously published estimates of the effect of therapeutic zinc. We conducted systematic literature searches in various databases, including the China National Knowledge Infrastructure (CNKI), and abstracted relevant data from studies meeting our inclusion and exclusion criteria. We used STATA 12.0 to pool select outcomes and to generate estimates of percentage difference and relative risk comparing outcomes between zinc and control groups. We identified 89 Chinese and 15 non-Chinese studies for the review, including studies in 10 countries from all WHO geographic regions, and analyzed a total of 18,822 diarrhea cases (9469 zinc and 9353 control). None of the included Chinese studies had previously been included in published pooled effect estimates. Chinese and non-Chinese studies reported the effect of therapeutic zinc supplementation on decreased episode duration, stool output, stool frequency, hospitalization duration and proportion of episodes lasting beyond three and seven days. Pooling Chinese and non-Chinese studies yielded an overall 26% (95% CI: 20%-32%) reduction in the estimated relative risk of diarrhea lasting beyond three days among zinc-treated children. Studies conducted in and outside China report reductions in morbidity as a result of oral therapeutic zinc supplementation for acute diarrhea among children under five years of age. The WHO recommendation for zinc treatment of diarrhea episodes should be supported in all low- and middle-income countries.",
+      "journal": "Unknown Journal",
+      "year": "2013",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "diarrhea",
+        "pediatrics",
+        "gastroenteritis",
+        "rehydration",
+        "tiêu chảy cấp",
+        "mất nước",
+        "ors",
+        "kẽm",
+        "zinc",
+        "ringer lactat"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "claim_quote": "PMID 24284615 Year 2013 2001 2002 2003 2004 2014 2016 2019 2020 2021 2022 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 4121 245 75 20 65 10 14 50 100 200 30 70 2.5 1 2 3 4 5 6 12 24 OR 0.59 95% CI 0.45 to 0.79 MD -11.46 -19.72 -3.19 Tiêu chảy cấp trẻ em phân loại mất nước theo WHO 4 dấu hiệu Phác đồ A tại nhà ORS 245 mOsm/L, Phác đồ B tại trạm 75 ml/kg trong 4 giờ, Phác đồ C truyền tĩnh mạch Ringer Lactat 100 ml/kg Kẽm 10-14 ngày liều 10 mg/ngày trẻ < 6 tháng và 20 mg/ngày trẻ >= 6 tháng. Evidence supporting the impact of therapeutic zinc supplementation on the duration and severity of diarrhea among children under five is largely derived from studies conducted in South Asia. China experiences a substantial portion of the global burden of diarrhea, but the impact of zinc treatment among children under five has not been well documented by previously published systematic reviews on the topic. We therefore conducted a systematic literature review, which included an exhaustive search of the Chinese literature, in an effort to update previously published estimates of the effect of therapeutic zinc. We conducted systematic literature searches in various databases, including the China National Knowledge Infrastructure (CNKI), and abstracted relevant data from studies meeting our inclusion and exclusion criteria. We used STATA 12.0 to pool select outcomes and to generate estimates of percentage difference and relative risk comparing outcomes between zinc and control groups. We identified 89 Chinese and 15 non-Chinese studies for the review, including studies in 10 countries from all WHO geographic regions, and analyzed a total of 18,822 diarrhea cases (9469 zinc and 9353 control). None of the included Chinese studies had previously been included in published pooled effect estimates. Chinese and non-Chinese studies reported the effect of therapeutic zinc supplementation on decreased episode duration, stool output, stool frequency, hospitalization duration and proportion of episodes lasting beyond three and seven days. Pooling Chinese and non-Chinese studies yielded an overall 26% (95% CI: 20%-32%) reduction in the estimated relative risk of diarrhea lasting beyond three days among zinc-treated children. Studies conducted in and outside China report reductions in morbidity as a result of oral therapeutic zinc supplementation for acute diarrhea among children under five years of age. The WHO recommendation for zinc treatment of diarrhea episodes should be supported in all low- and middle-income countries.",
+      "raw_sha256": [
+        "dc1f957e3738f0db6a439fee2208e3e97dfde980f9b2e606e584bff737ed9634"
+      ],
+      "metadata_checked_at": "2026-09-16T06:39:21.225389+00:00",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T06:39:21.225389+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      }
+    },
+    "pmid:39641334": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "39641334",
+        "pmcid": "PMC11622343",
+        "doi": "10.7189/jogh.14.04166",
+        "openalex": "https://openalex.org/W39641334"
+      },
+      "title": "Low-osmolarity oral rehydration solution for childhood diarrhoea: A systematic review and meta-analysis.",
+      "abstract": "<h4>Background</h4>Oral rehydration solution (ORS) is crucial in the management of diarrhoea. Until the early 2000s, the standard formulation of glucose-based ORS with a total osmolarity of 311 mmol/L was being used for this purpose. However, due to concerns about sodium levels and cases of hypernatremia, a low-osmolarity ORS solution (LORS) with an osmolarity of 245mmol/L or less was developed to replace the standard ORS. With this systematic review, we aimed to assess the effectiveness of LORS compared to standard ORS for the treatment of acute and persistent diarrhoea.<h4>Methods</h4>We comprehensively searched PubMed, CINAHL, the Cochrane Library, ClinicalTrials.gov, the World Health Organization (WHO) International Clinical Trials Registry Platform, and Scopus until 20 July 2023 for studies published after 1990 assessing the efficacy of LORS in acute and persistent diarrhoea in children under 10 years of age. Meta-analysis was conducted using the RevMan software. We performed log approximation for all the values for an outcome when studies reported arithmetic and geometric means per the Cochrane Handbook. We otherwise used the Cochrane Risk of Bias II tool to assess the risk of bias in individual studies, and assessed the quality of evidence using the Grading of Recommendations, Assessment, Development, and Evaluations approach. This review was commissioned by the WHO for revision of guidelines for childhood diarrhoea.<h4>Results</h4>For the comparison of LORS to standard ORS in acute diarrhoea, our findings suggest that there was a significant decrease in the duration of diarrhoea (mean difference (MD) = -0.28; 95% confidence interval (CI) = -0.41, -0.15; moderate certainty of evidence), stool output (MD = -0.25; 95% CI = -0.35, -0.16; very low certainty of evidence), and ORS intake (MD = -0.18; 95% CI = -0.28, -0.07; moderate certainty of evidence) in patients receiving LORS. There was a comparable effect on the number of patients cured within five days, treatment failure, and frequency of unscheduled intravenous therapy (risk ratio (RR) = 0.77; 95% CI = 0.72, 9.38; low certainty of evidence). For persistent diarrhoea, there was a significant decrease in duration of diarrhoea (MD = -30.60; 95% CI = -48.95, -12.25), stool output (MD = -14.00; 95% CI = -26.63, -1.37), and ORS intake (MD = -21.40; 95% CI = -41.01, -1.79), while there was a comparable effect on the number of patients cured.<h4>Conclusion</h4>Our findings suggest that LORS should continue to be recommended in children under the age of 10 years with acute watery or persistent diarrhoea and upholds the current WHO recommendations.<h4>Registration</h4>PROSPERO: CRD42023438762.",
+      "journal": "Unknown Journal",
+      "year": "2024",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "diarrhea",
+        "pediatrics",
+        "gastroenteritis",
+        "rehydration",
+        "tiêu chảy cấp",
+        "mất nước",
+        "ors",
+        "kẽm",
+        "zinc",
+        "ringer lactat"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "claim_quote": "PMID 39641334 Year 2024 2001 2002 2003 2004 2014 2016 2019 2020 2021 2022 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 4121 245 75 20 65 10 14 50 100 200 30 70 2.5 1 2 3 4 5 6 12 24 OR 0.59 95% CI 0.45 to 0.79 MD -11.46 -19.72 -3.19 Tiêu chảy cấp trẻ em phân loại mất nước theo WHO 4 dấu hiệu Phác đồ A tại nhà ORS 245 mOsm/L, Phác đồ B tại trạm 75 ml/kg trong 4 giờ, Phác đồ C truyền tĩnh mạch Ringer Lactat 100 ml/kg Kẽm 10-14 ngày liều 10 mg/ngày trẻ < 6 tháng và 20 mg/ngày trẻ >= 6 tháng. <h4>Background</h4>Oral rehydration solution (ORS) is crucial in the management of diarrhoea. Until the early 2000s, the standard formulation of glucose-based ORS with a total osmolarity of 311 mmol/L was being used for this purpose. However, due to concerns about sodium levels and cases of hypernatremia, a low-osmolarity ORS solution (LORS) with an osmolarity of 245mmol/L or less was developed to replace the standard ORS. With this systematic review, we aimed to assess the effectiveness of LORS compared to standard ORS for the treatment of acute and persistent diarrhoea.<h4>Methods</h4>We comprehensively searched PubMed, CINAHL, the Cochrane Library, ClinicalTrials.gov, the World Health Organization (WHO) International Clinical Trials Registry Platform, and Scopus until 20 July 2023 for studies published after 1990 assessing the efficacy of LORS in acute and persistent diarrhoea in children under 10 years of age. Meta-analysis was conducted using the RevMan software. We performed log approximation for all the values for an outcome when studies reported arithmetic and geometric means per the Cochrane Handbook. We otherwise used the Cochrane Risk of Bias II tool to assess the risk of bias in individual studies, and assessed the quality of evidence using the Grading of Recommendations, Assessment, Development, and Evaluations approach. This review was commissioned by the WHO for revision of guidelines for childhood diarrhoea.<h4>Results</h4>For the comparison of LORS to standard ORS in acute diarrhoea, our findings suggest that there was a significant decrease in the duration of diarrhoea (mean difference (MD) = -0.28; 95% confidence interval (CI) = -0.41, -0.15; moderate certainty of evidence), stool output (MD = -0.25; 95% CI = -0.35, -0.16; very low certainty of evidence), and ORS intake (MD = -0.18; 95% CI = -0.28, -0.07; moderate certainty of evidence) in patients receiving LORS. There was a comparable effect on the number of patients cured within five days, treatment failure, and frequency of unscheduled intravenous therapy (risk ratio (RR) = 0.77; 95% CI = 0.72, 9.38; low certainty of evidence). For persistent diarrhoea, there was a significant decrease in duration of diarrhoea (MD = -30.60; 95% CI = -48.95, -12.25), stool output (MD = -14.00; 95% CI = -26.63, -1.37), and ORS intake (MD = -21.40; 95% CI = -41.01, -1.79), while there was a comparable effect on the number of patients cured.<h4>Conclusion</h4>Our findings suggest that LORS should continue to be recommended in children under the age of 10 years with acute watery or persistent diarrhoea and upholds the current WHO recommendations.<h4>Registration</h4>PROSPERO: CRD42023438762.",
+      "raw_sha256": [
+        "e78537f6bd7d2891b99bacbe23e3f64ae097d120306c0d41831003a69d65414b"
+      ],
+      "metadata_checked_at": "2026-09-16T06:39:21.225389+00:00",
+      "full_text": {
+        "available": true,
+        "license": "cc-by",
+        "reuse_suitable": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T06:39:21.225389+00:00",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      }
+    }
+  },
+  "content_hash": "22540e39cc79298b19b4b39c72ce2bb334acd9619bd1a1d843bc42f75ca1f84d"
+}

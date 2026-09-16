@@ -1,0 +1,397 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-16T14:07:25.125060Z",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi",
+  "providers": [
+    "europe_pmc_metadata",
+    "openalex",
+    "crossref_retraction_watch",
+    "official_source"
+  ],
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T14:07:25.125060Z",
+      "sha256": "0e632771a348e9e2322e714877239d5904b0930f5c3690712bb14e3621b2cbae",
+      "path": "raw_cache/pmid_32179109_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T14:07:25.125060Z",
+      "sha256": "b055c4c3dd0e5d7ca6913b5f9ff09def73b361f8a6b0a9d55c9068914fdbee62",
+      "path": "raw_cache/pmid_24525447_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T14:07:25.125060Z",
+      "sha256": "8b0fdc3af901a84d4ba411c77a663ee76d7fb23969939b86b2491fa0c7ab30b2",
+      "path": "raw_cache/pmid_34048716_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T14:07:25.125060Z",
+      "sha256": "d29d3b90077e359d3f8a789e8c29ed29a3bb09a9c92abf8a5763f951f7be8696",
+      "path": "raw_cache/pmid_31320455_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T14:07:25.125060Z",
+      "sha256": "207ac0eea4b07b579ad7849b154d264cb0c4ba341a6afcb0b5b6488bdbdf88e9",
+      "path": "raw_cache/pmid_32888932_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T14:07:25.125060Z",
+      "sha256": "fd2ab76c4d42f341cc545b0796998702ee568090ee65218a3a61d418ce5463e4",
+      "path": "raw_cache/pmid_33961755_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-16T14:07:25.125060Z",
+      "sha256": "df1832acb965e949cd06711554833bcc66c7d0787d5d47334560ec9e4a57ccc0",
+      "path": "raw_cache/pmid_31002783_epmc.json",
+      "media_type": "application/json",
+      "license": "open-access"
+    }
+  ],
+  "records": {
+    "pmid:32179109": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "32179109",
+        "pmcid": null,
+        "doi": "10.1016/j.chest.2020.01.042",
+        "openalex": "https://openalex.org/W32179109"
+      },
+      "title": "Managing Chronic Cough as a Symptom in Children and Management Algorithms: CHEST Guideline and Expert Panel Report",
+      "abstract": "<h4>Background</h4>Cough is one of the most common presenting symptoms to general practitioners. The objective of this article is to collate the pediatric components of the CHEST chronic cough guidelines that have recently updated the 2006 guidelines to assist general and specialist medical practitioners in the evaluation and management of children who present with chronic cough.<h4>Methods</h4>We reviewed all current CHEST Expert Cough Panel's statements and extracted recommendations and suggestions relating to children aged ≤ 14 years with chronic cough (> 4 weeks duration). Additionally, we undertook systematic reviews to update other sections we considered relevant and important.<h4>Results</h4>The eight recent CHEST guidelines relevant to children, based on systematic reviews, reported some high-quality evidence in the management of chronic cough in children (eg, use of algorithms and management of wet/productive cough using appropriate antibiotics). However, much evidence is still inadequate, particularly in the management of non-specific cough in the community.<h4>Conclusions</h4>The recommendations and suggestions related to the management of chronic cough in the pediatric age group have been based upon high-quality systematic reviews and are summarized in this article. Compared to the 2006 Cough Guidelines, there is now high-quality evidence for some aspects of the management of chronic cough in children. However, further studies particularly in primary health care are required.",
+      "journal": "Chest",
+      "year": "2020",
+      "publication_types": [
+        "Practice Guideline",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T14:07:25.125060Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T14:07:25.125060Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "0e632771a348e9e2322e714877239d5904b0930f5c3690712bb14e3621b2cbae"
+      ],
+      "claim_quote": "PMID 32179109 (2020) in Chest: Managing Chronic Cough as a Symptom in Children and Management Algorithms: CHEST Guideline and Expert Panel Report",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:24525447": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "24525447",
+        "pmcid": null,
+        "doi": "10.1183/09031936.00199913",
+        "openalex": "https://openalex.org/W24525447"
+      },
+      "title": "Classification and pharmacological treatment of preschool wheezing: changes since 2008",
+      "abstract": "Since the publication of the European Respiratory Society Task Force report in 2008, significant new evidence has become available on the classification and management of preschool wheezing disorders. In this report, an international consensus group reviews this new evidence and proposes some modifications to the recommendations made in 2008. Specifically, the consensus group acknowledges that wheeze patterns in young children vary over time and with treatment, rendering the distinction between episodic viral wheeze and multiple-trigger wheeze unclear in many patients. Inhaled corticosteroids remain first-line treatment for multiple-trigger wheeze, but may also be considered in patients with episodic viral wheeze with frequent or severe episodes, or when the clinician suspects that interval symptoms are being under reported. Any controller therapy should be viewed as a treatment trial, with scheduled close follow-up to monitor treatment effect. The group recommends discontinuing treatment if there is no benefit and taking favourable natural history into account when making decisions about long-term therapy. Oral corticosteroids are not indicated in mild-to-moderate acute wheeze episodes and should be reserved for severe exacerbations in hospitalised patients. Future research should focus on better clinical and genetic markers, as well as biomarkers, of disease severity.",
+      "journal": "The European respiratory journal",
+      "year": "2014",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article",
+        "Practice Guideline"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T14:07:25.125060Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T14:07:25.125060Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "b055c4c3dd0e5d7ca6913b5f9ff09def73b361f8a6b0a9d55c9068914fdbee62"
+      ],
+      "claim_quote": "PMID 24525447 (2014) in The European respiratory journal: Classification and pharmacological treatment of preschool wheezing: changes since 2008",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "current_version": true,
+        "superseded_by": null
+      }
+    },
+    "pmid:34048716": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "34048716",
+        "pmcid": null,
+        "doi": "10.1016/s2213-2600(21)00104-1",
+        "openalex": "https://openalex.org/W34048716"
+      },
+      "title": "Duration of amoxicillin-clavulanate for protracted bacterial bronchitis in children (DACS): a multi-centre, double blind, randomised controlled trial",
+      "abstract": "<h4>Background</h4>Protracted bacterial bronchitis (PBB) is a leading cause of chronic wet cough in children. The current standard treatment in European and American guidelines is 2 weeks of antibiotics, but the optimal duration of therapy is unknown. We describe the first randomised controlled trial to assess the duration of antibiotic treatment in children with chronic wet cough and suspected PBB. We hypothesise that 4 weeks of amoxicillin-clavulanate is superior to 2 weeks for improving clinical outcomes.<h4>Methods</h4>Our parallel, double-blind, placebo-controlled, randomised controlled trial was completed in four Australian hospitals. Children aged 2 months to 19 years with chronic (>4 weeks duration) wet cough, and suspected PBB were randomly assigned (1:1) using permuted block randomisation (stratified by age and site) to 4 weeks of amoxicillin-clavulanate (25-35 mg/kg twice daily oral suspension; 4-week group) or 2 weeks of amoxicillin-clavulanate followed by 2 weeks of placebo (2-week group). The children, caregivers, all the study coordinators, and investigators were masked to treatment assignment until data analysis was completed. The primary outcome was clinical cure (cough resolution) by day 28. Secondary outcomes were recurrence of PBB at 6 months, time to next exacerbation, change in Parent-proxy Cough-Specific Quality-of-Life (PC-QoL) score from baseline to day 28 and from day 28 to 7 months, adverse events, nasal swab bacteriology, and antimicrobial resistance. Analyses followed the intention-to-treat principle. This trial is complete and registered with Australian/New Zealand Registry, ACTRN12616001725459.<h4>Findings</h4>Between March 8, 2017, and Sept 30, 2019, 106 children were randomly assigned (52 in the 4-week group, median age 2·2 years [IQR 1·3-4·1]; 54 in the 2-week group, median age 1·7 years [1·2-3·8]) with 90 children completing the 4-week treatment. By day 28, the primary endpoint of clinical cure in the 4-week group (32 [62%] of 52 patients) was not significantly different to the 2-week group (38 [70%] of 54 patients; adjusted relative risk 0·87 [95% CI 0·60 to 1·28]; p=0·49). Time to next wet cough exacerbation was significantly longer in the 4-week group than the 2-week group (median 150 days [IQR 38-181] vs 36 days [15-181]; adjusted hazard ratio 0·47 [0·25 to 0·90]; p=0·02). The rate of recurrence of PBB at 6 months was 17 (53%) of 32 patients in the 4-week group vs 28 (74%) of 38 patients in the 2-week group, but the difference between the groups was not significant (adjusted odds ratio 0·39 [0·14 to 1·04]; p=0·07). PC-QoL significantly improved from baseline to day 28 in both groups, but there was no significant difference between them (mean difference in change -0·2 [95% CI -1·0 to 0·6]; p=0·64). From day 28 to 7 months, median PC-QoL remained stable in both groups with no difference in change between them. Data on respiratory pathogens and antimicrobial resistance (paired swabs available for 48 children) were similar between groups. Adverse events occurred in 13 (25%) children in the 2-week group and ten (19%) in the 4-week group (p=0·57).<h4>Interpretation</h4>A 4-week course of amoxicillin-clavulanate for treating children with chronic wet cough and suspected PBB confers little advantage compared with a 2-week course in achieving clinical cure by 28 days. However, as a 4-week duration led to a longer cough-free period, identifying children who would benefit from a longer antibiotic course is a priority.<h4>Funding</h4>Queensland Children's Hospital Foundation.",
+      "journal": "The Lancet. Respiratory medicine",
+      "year": "2021",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T14:07:25.125060Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T14:07:25.125060Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "8b0fdc3af901a84d4ba411c77a663ee76d7fb23969939b86b2491fa0c7ab30b2"
+      ],
+      "claim_quote": "PMID 34048716 (2021) in The Lancet. Respiratory medicine: Duration of amoxicillin-clavulanate for protracted bacterial bronchitis in children (DACS): a multi-centre, double blind, randomised controlled trial"
+    },
+    "pmid:31320455": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "31320455",
+        "pmcid": null,
+        "doi": "10.1183/13993003.00382-2019",
+        "openalex": "https://openalex.org/W31320455"
+      },
+      "title": "ERS statement on tracheomalacia and bronchomalacia in children",
+      "abstract": "Tracheomalacia and tracheobronchomalacia may be primary abnormalities of the large airways or associated with a wide variety of congenital and acquired conditions. The evidence on diagnosis, classification and management is scant. There is no universally accepted classification of severity. Clinical presentation includes early-onset stridor or fixed wheeze, recurrent infections, brassy cough and even near-death attacks, depending on the site and severity of the lesion. Diagnosis is usually made by flexible bronchoscopy in a free-breathing child but may also be shown by other dynamic imaging techniques such as low-contrast volume bronchography, computed tomography or magnetic resonance imaging. Lung function testing can provide supportive evidence but is not diagnostic. Management may be medical or surgical, depending on the nature and severity of the lesions, but the evidence base for any therapy is limited. While medical options that include bronchodilators, anti-muscarinic agents, mucolytics and antibiotics (as well as treatment of comorbidities and associated conditions) are used, there is currently little evidence for benefit. Chest physiotherapy is commonly prescribed, but the evidence base is poor. When symptoms are severe, surgical options include aortopexy or posterior tracheopexy, tracheal resection of short affected segments, internal stents and external airway splinting. If respiratory support is needed, continuous positive airway pressure is the most commonly used modality either <i>via</i> a face mask or tracheostomy. Parents of children with tracheobronchomalacia report diagnostic delays and anxieties about how to manage their child's condition, and want more information. There is a need for more research to establish an evidence base for malacia. This European Respiratory Society statement provides a review of the current literature to inform future study.",
+      "journal": "The European respiratory journal",
+      "year": "2019",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T14:07:25.125060Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T14:07:25.125060Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "d29d3b90077e359d3f8a789e8c29ed29a3bb09a9c92abf8a5763f951f7be8696"
+      ],
+      "claim_quote": "PMID 31320455 (2019) in The European respiratory journal: ERS statement on tracheomalacia and bronchomalacia in children"
+    },
+    "pmid:32888932": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "32888932",
+        "pmcid": "PMC8640837",
+        "doi": "10.1016/j.chest.2020.08.2086",
+        "openalex": "https://openalex.org/W32888932"
+      },
+      "title": "Global Physiology and Pathophysiology of Cough: Part 1: Cough Phenomenology - CHEST Guideline and Expert Panel Report",
+      "abstract": "The purpose of this state-of-the-art review is to update the American College of Chest Physicians 2006 guideline on global physiology and pathophysiology of cough. A review of the literature was conducted using PubMed and MEDLINE databases from 1951 to 2019 and using prespecified search terms. We describe the basic phenomenology of cough patterns, behaviors, and morphological features. We update the understanding of mechanical and physiological characteristics of cough, adding a contemporary view of the types of cough and their associated behaviors and sensations. New information about acoustic characteristics is presented, and recent insights into cough triggers and the patient cough hypersensitivity phenotype are explored. Lastly, because the clinical assessment of patients largely focuses on the duration rather than morphological features of cough, we review the morphological features of cough that can be measured in the clinic. This is the first of a two-part update to the American College of Chest Physicians 2006 cough guideline; it provides a more global consideration of cough phenomenology, beyond simply the mechanical aspects of a cough. A greater understanding of the typical features of cough, and their variations, may allow a more informed interpretation of cough measurements and the clinical relevance for patients.",
+      "journal": "Chest",
+      "year": "2021",
+      "publication_types": [
+        "Practice Guideline",
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T14:07:25.125060Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T14:07:25.125060Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "207ac0eea4b07b579ad7849b154d264cb0c4ba341a6afcb0b5b6488bdbdf88e9"
+      ],
+      "claim_quote": "PMID 32888932 (2021) in Chest: Global Physiology and Pathophysiology of Cough: Part 1: Cough Phenomenology - CHEST Guideline and Expert Panel Report"
+    },
+    "pmid:33961755": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "33961755",
+        "pmcid": "PMC8491264",
+        "doi": "10.1164/rccm.202009-3696oc",
+        "openalex": "https://openalex.org/W33961755"
+      },
+      "title": "Recurrent Severe Preschool Wheeze: From Prespecified Diagnostic Labels to Underlying Endotypes",
+      "abstract": "<b>Rationale:</b> Preschool wheezing is heterogeneous, but the underlying mechanisms are poorly understood.<b>Objectives:</b> To investigate lower airway inflammation and infection in preschool children with different clinical diagnoses undergoing elective bronchoscopy and BAL.<b>Methods:</b> We recruited 136 children aged 1-5 years (105 with recurrent severe wheeze [RSW]; 31 with nonwheezing respiratory disease [NWRD]). Children with RSW were assigned as having episodic viral wheeze (EVW) or multiple-trigger wheeze (MTW). We compared lower airway inflammation and infection in different clinical diagnoses and undertook data-driven analyses to determine clusters of pathophysiological features, and we investigated their relationships with prespecified diagnostic labels.<b>Measurements and Main Results:</b> Blood eosinophil counts and percentages and allergic sensitization were significantly higher in children with RSW than in children with a NWRD. Blood neutrophil counts and percentages, BAL eosinophil and neutrophil percentages, and positive bacterial culture and virus detection rates were similar between groups. However, pathogen distribution differed significantly, with higher detection of rhinovirus in children with RSW and higher detection of <i>Moraxella</i> in sensitized children with RSW. Children with EVW and children with MTW did not differ in terms of blood or BAL-sample inflammation, or bacteria or virus detection. The Partition around Medoids algorithm revealed four clusters of pathophysiological features: <i>1</i>) atopic (17.9%), <i>2</i>) nonatopic with a low infection rate and high use of inhaled corticosteroids (31.3%), <i>3</i>) nonatopic with a high infection rate (23.1%), and <i>4</i>) nonatopic with a low infection rate and no use of inhaled corticosteroids (27.6%). Cluster allocation differed significantly between the RSW and NWRD groups (RSW was evenly distributed across clusters, and 60% of the NWRD group was assigned to cluster 4; <i>P</i> < 0.001). There was no difference in cluster membership between the EVW and MTW groups. Cluster 1 was dominated by <i>Moraxella</i> detection (<i>P</i> = 0.04), and cluster 3 was dominated by <i>Haemophilus</i> or <i>Staphylococcus</i> or <i>Streptococcus</i> detection (<i>P</i> = 0.02).<b>Conclusions:</b> We identified four clusters of severe preschool wheeze, which were distinguished by using sensitization, peripheral eosinophilia, lower airway neutrophilia, and bacteriology.",
+      "journal": "American journal of respiratory and critical care medicine",
+      "year": "2021",
+      "publication_types": [
+        "Comparative Study",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T14:07:25.125060Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T14:07:25.125060Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "fd2ab76c4d42f341cc545b0796998702ee568090ee65218a3a61d418ce5463e4"
+      ],
+      "claim_quote": "PMID 33961755 (2021) in American journal of respiratory and critical care medicine: Recurrent Severe Preschool Wheeze: From Prespecified Diagnostic Labels to Underlying Endotypes"
+    },
+    "pmid:31002783": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "31002783",
+        "pmcid": "PMC6859246",
+        "doi": "10.1016/j.chest.2019.03.035",
+        "openalex": "https://openalex.org/W31002783"
+      },
+      "title": "Chronic Cough and Gastroesophageal Reflux in Children: CHEST Guideline and Expert Panel Report",
+      "abstract": "<h4>Background</h4>Whether gastroesophageal reflux (GER) or GER disease (GERD) causes chronic cough in children is controversial. Using the Population, Intervention, Comparison, Outcome (PICO) format, we undertook four systematic reviews. For children with chronic cough (> 4-weeks duration) and without underlying lung disease: (1) who do not have gastrointestinal GER symptoms, should empirical treatment for GERD be used? (2) with gastrointestinal GER symptoms, does treatment for GERD resolve the cough? (3) with or without gastrointestinal GER symptoms, what GER-based therapies should be used and for how long? (4) if GERD is suspected as the cause, what investigations and diagnostic criteria best determine GERD as the cause of the cough?<h4>Methods</h4>We used the CHEST Expert Cough Panel's protocol and American College of Chest Physicians (CHEST) methodological guidelines and GRADE (Grading of Recommendations Assessment, Development and Evaluation) framework. Delphi methodology was used to obtain consensus.<h4>Results</h4>Few randomized controlled trials addressed the first two questions and none addressed the other two. The single meta-analysis (two randomized controlled trials) showed no significant difference between the groups (any intervention for GERD vs placebo for cough resolution; OR, 1.14; 95% CI, 0.45-2.93; P = .78). Proton pump inhibitors (vs placebo) caused increased serious adverse events. Qualitative data from existing CHEST cough systematic reviews were consistent with two international GERD guidelines.<h4>Conclusions</h4>The panelists endorsed that: (1) treatment(s) for GERD should not be used when there are no clinical features of GERD; and (2) pediatric GERD guidelines should be used to guide treatment and investigations.",
+      "journal": "Chest",
+      "year": "2019",
+      "publication_types": [
+        "other",
+        "Practice Guideline",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-16T14:07:25.125060Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-16T14:07:25.125060Z",
+        "corrections": [],
+        "reinstated": false,
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "df1832acb965e949cd06711554833bcc66c7d0787d5d47334560ec9e4a57ccc0"
+      ],
+      "claim_quote": "PMID 31002783 (2019) in Chest: Chronic Cough and Gastroesophageal Reflux in Children: CHEST Guideline and Expert Panel Report"
+    }
+  },
+  "content_hash": "5ef448274ef2850916316bad329f69a60d21a4579af45ee3045bde45b28e7092"
+}

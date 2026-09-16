@@ -22,7 +22,8 @@
       "2026-06-29 v17: Add 4 journal for Sieu am o bung tong quat lesson - Radiology (Q1 IF 5.5 RSNA flagship), Ultrasound in Medicine & Biology (Q1 IF 2.5 WFUMB official), Ultraschall in der Medizin (Q1 IF 3.0 EFSUMB official), J Am Coll Radiol (Q2 IF 4.0 ACR official)",
       "2026-06-29 v18: Add 5 journal for Sieu am tuyen giap + Sieu am tuyen vu lessons - European Radiology (Q1 IF 5.7), Radiographics (Q1 IF 5.0 RSNA), Thyroid (Q1 IF 5.0 ATA), Can Assoc Radiol J (Q2 IF 1.8 CAR), Cancers (Q1 IF 4.5 MDPI)",
       "2026-07-02 v19: Add Reproductive Biology and Endocrinology (Q1 IF 4.0) for Poor Ovarian Response lesson",
-      "2026-07-02 v20: Add Journal of Ultrasound in Medicine (Q2, AIUM official) for TVS basic lesson"
+      "2026-07-02 v20: Add Journal of Ultrasound in Medicine (Q2, AIUM official) for TVS basic lesson",
+      "2026-09-16 v21: Add Chest, European Respiratory Journal, Lancet Respiratory Medicine, AJRCCM for Pediatric Pulmonology (PED-20)"
     ],
     "data_source": "JCR 2023/2024 categories (CARDIAC, OB/GYN, PEDIATRICS, ENDOCRINOLOGY), cross-checked với SJR 2024. Một số IF là ước lượng.",
     "tier_definitions": {
@@ -355,6 +356,50 @@
       "if": 16.0,
       "quartile": "Q1",
       "category": "Cardiac & Cardiovascular Systems"
+    },
+    "The Lancet Infectious Diseases": {
+      "if": 25.4,
+      "field": "Infectious Diseases",
+      "abbr": "Lancet Infect Dis"
+    },
+    "The Lancet Neurology": {
+      "if": 30.0,
+      "field": "Neurology",
+      "abbr": "Lancet Neurol"
+    },
+    "Critical Care Medicine": {
+      "if": 7.5,
+      "field": "Critical Care",
+      "abbr": "Crit Care Med"
+    },
+    "Frontiers in Pharmacology": {
+      "if": 5.6,
+      "field": "Pharmacology",
+      "abbr": "Front Pharmacol"
+    },
+    "Chest": {
+      "if": 9.6,
+      "field": "Pulmonary Medicine",
+      "abbr": "Chest",
+      "notes": "American College of Chest Physicians (CHEST) official journal. Pediatric cough guidelines (Chang 2020, 2021), GERD cough (2019)."
+    },
+    "The European Respiratory Journal": {
+      "if": 16.6,
+      "field": "Respiratory Medicine",
+      "abbr": "Eur Respir J",
+      "notes": "European Respiratory Society (ERS) official journal. Preschool wheezing task force (Brand 2014), tracheobronchomalacia statement (Bush 2019)."
+    },
+    "The Lancet Respiratory Medicine": {
+      "if": 28.7,
+      "field": "Critical Care & Respiratory",
+      "abbr": "Lancet Respir Med",
+      "notes": "Top respiratory journal. DACS trial (Ruffles & Chang 2021) protracted bacterial bronchitis (PBB)."
+    },
+    "American Journal of Respiratory and Critical Care Medicine": {
+      "if": 19.3,
+      "field": "Critical Care & Pulmonology",
+      "abbr": "Am J Respir Crit Care Med",
+      "notes": "American Thoracic Society (ATS) flagship journal. Preschool wheeze endotypes (Bush 2021)."
     }
   },
   "Q2": {
@@ -525,6 +570,11 @@
       "field": "OB/GYN - Contraception",
       "abbr": "Eur J Contracept Reprod Health Care",
       "notes": "Taylor & Francis. Tsakiridis 2022 AUB guidelines comparison review."
+    },
+    "Journal of Clinical Virology": {
+      "if": 3.2,
+      "field": "Virology",
+      "abbr": "J Clin Virol"
     }
   },
   "Q3": {
@@ -698,7 +748,7 @@
     "AJOG": "American Journal of Obstetrics and Gynecology",
     "J Electrocardiol": "Journal of Electrocardiology",
     "J. Electrocardiol.": "Journal of Electrocardiology",
-    "Am J Cardiol": "The American Journal of Cardiology",
+    "Am J Cardiol": "American Journal of Cardiology",
     "Am. J. Cardiol.": "The American Journal of Cardiology",
     "The Journal of Emergency Medicine": "The Journal of Emergency Medicine",
     "J Emerg Med": "The Journal of Emergency Medicine",
@@ -749,7 +799,6 @@
     "JAMA Intern Med": "JAMA Internal Medicine",
     "JAMA Pediatr": "JAMA Pediatrics",
     "Ann Intern Med": "Annals of Internal Medicine",
-    "Lancet": "Lancet",
     "Lancet": "The Lancet",
     "The Lancet": "Lancet",
     "Pediatrics": "Pediatrics",
@@ -855,7 +904,6 @@
     "Mol Genet Genomic Med": "Molecular Genetics & Genomic Medicine",
     "J Clin Lab Anal": "Journal of Clinical Laboratory Analysis",
     "Am Heart J": "American Heart Journal",
-    "Am J Cardiol": "American Journal of Cardiology",
     "Congenit Heart Dis": "Congenital Heart Disease",
     "Niger J Clin Pract": "Nigerian Journal of Clinical Practice",
     "Heart Lung Circ": "Heart, Lung and Circulation",
@@ -938,7 +986,22 @@
     "jacc heart failure": "JACC Heart Failure",
     "esc heart failure": "ESC Heart Failure",
     "bmc cardiovascular disorders": "BMC Cardiovascular Disorders",
-    "european journal of heart failure": "European Journal of Heart Failure"
+    "european journal of heart failure": "European Journal of Heart Failure",
+    "The New England journal of medicine": "New England Journal of Medicine",
+    "Lancet (London, England)": "The Lancet",
+    "lancet (london, england)": "The Lancet",
+    "The Lancet. Infectious diseases": "The Lancet Infectious Diseases",
+    "the lancet. infectious diseases": "The Lancet Infectious Diseases",
+    "The Lancet. Neurology": "The Lancet Neurology",
+    "the lancet. neurology": "The Lancet Neurology",
+    "Critical care medicine": "Critical Care Medicine",
+    "critical care medicine": "Critical Care Medicine",
+    "Frontiers in pharmacology": "Frontiers in Pharmacology",
+    "frontiers in pharmacology": "Frontiers in Pharmacology",
+    "Journal of clinical virology : the official publication of the Pan American Society for Clinical Virology": "Journal of Clinical Virology",
+    "The European respiratory journal": "The European Respiratory Journal",
+    "The Lancet. Respiratory medicine": "The Lancet Respiratory Medicine",
+    "American journal of respiratory and critical care medicine": "American Journal of Respiratory and Critical Care Medicine"
   },
   "aliases": {
     "Obstet Gynecol": "Obstetrics and Gynecology",
@@ -960,6 +1023,18 @@
     "J Med Life": "Journal of Medicine and Life",
     "Pediatr Ann": "Pediatric Annals",
     "Diagnostics (Basel)": "Diagnostics",
-    "Clin Perinatol": "Clinics in Perinatology"
+    "Clin Perinatol": "Clinics in Perinatology",
+    "The New England journal of medicine": "New England Journal of Medicine",
+    "the new england journal of medicine": "New England Journal of Medicine",
+    "Lancet (London, England)": "The Lancet",
+    "lancet (london, england)": "The Lancet",
+    "The Lancet. Infectious diseases": "The Lancet Infectious Diseases",
+    "the lancet. infectious diseases": "The Lancet Infectious Diseases",
+    "The Lancet. Neurology": "The Lancet Neurology",
+    "the lancet. neurology": "The Lancet Neurology",
+    "Critical care medicine": "Critical Care Medicine",
+    "critical care medicine": "Critical Care Medicine",
+    "Frontiers in pharmacology": "Frontiers in Pharmacology",
+    "frontiers in pharmacology": "Frontiers in Pharmacology"
   }
 }

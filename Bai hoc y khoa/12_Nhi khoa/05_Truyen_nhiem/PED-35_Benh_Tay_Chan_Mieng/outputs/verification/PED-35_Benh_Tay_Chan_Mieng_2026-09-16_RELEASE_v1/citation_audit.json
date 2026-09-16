@@ -1,0 +1,829 @@
+{
+  "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+  "summary": {
+    "total": 22,
+    "pass": 22,
+    "warn": 0,
+    "block": 0
+  },
+  "citations": [
+    {
+      "citation": "PMID: 20965438",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 30.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "20965438",
+          "status": "OK",
+          "year": "2010",
+          "title": "Clinical features, diagnosis, and management of enterovirus 71",
+          "author": "NA",
+          "journal": "The Lancet. Neurology",
+          "article_type": "Research Support, Non-U.S. Gov't, Review",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The Lancet. Neurology",
+        "quartile": "Q1",
+        "if": 30.0
+      }
+    },
+    {
+      "citation": "PMID: 10498488",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 96.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "10498488",
+          "status": "OK",
+          "year": "1999",
+          "title": "Neurologic complications in children with enterovirus 71 infection",
+          "author": "NA",
+          "journal": "The New England journal of medicine",
+          "article_type": "Research Support, Non-U.S. Gov't, Journal Article",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The New England journal of medicine",
+        "quartile": "Q1",
+        "if": 96.0
+      }
+    },
+    {
+      "citation": "PMID: 20965438",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 30.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "20965438",
+          "status": "OK",
+          "year": "2010",
+          "title": "Clinical features, diagnosis, and management of enterovirus 71",
+          "author": "NA",
+          "journal": "The Lancet. Neurology",
+          "article_type": "Research Support, Non-U.S. Gov't, Review",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The Lancet. Neurology",
+        "quartile": "Q1",
+        "if": 30.0
+      }
+    },
+    {
+      "citation": "PMID: 20961813",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 25.4)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "20961813",
+          "status": "OK",
+          "year": "2010",
+          "title": "Virology, epidemiology, pathogenesis, and control of enterovirus 71",
+          "author": "NA",
+          "journal": "The Lancet. Infectious diseases",
+          "article_type": "Research Support, Non-U.S. Gov't, Review",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The Lancet. Infectious diseases",
+        "quartile": "Q1",
+        "if": 25.4
+      }
+    },
+    {
+      "citation": "PMID: 10498488",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 96.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "10498488",
+          "status": "OK",
+          "year": "1999",
+          "title": "Neurologic complications in children with enterovirus 71 infection",
+          "author": "NA",
+          "journal": "The New England journal of medicine",
+          "article_type": "Research Support, Non-U.S. Gov't, Journal Article",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The New England journal of medicine",
+        "quartile": "Q1",
+        "if": 96.0
+      }
+    },
+    {
+      "citation": "PMID: 29414181",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 2,
+      "tier_reason": "Q2 (IF 3.2)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "29414181",
+          "status": "OK",
+          "year": "2018",
+          "title": "Recommendations for enterovirus diagnostics and characterisation within and beyond Europe",
+          "author": "NA",
+          "journal": "Journal of clinical virology : the official publication of the Pan American Society for Clinical Virology",
+          "article_type": "Practice Guideline, Review",
+          "pubtypes": [
+            "Practice Guideline",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Journal of clinical virology : the official publication of the Pan American Society for Clinical Virology",
+        "quartile": "Q2",
+        "if": 3.2
+      }
+    },
+    {
+      "citation": "PMID: 27065870",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 5.6)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "27065870",
+          "status": "OK",
+          "year": "2016",
+          "title": "Milrinone in Enterovirus 71 Brain Stem Encephalitis",
+          "author": "NA",
+          "journal": "Frontiers in pharmacology",
+          "article_type": "review-article, Review",
+          "pubtypes": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Frontiers in pharmacology",
+        "quartile": "Q1",
+        "if": 5.6
+      }
+    },
+    {
+      "citation": "PMID: 23685637",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 7.5)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "23685637",
+          "status": "OK",
+          "year": "2013",
+          "title": "Milrinone therapy for enterovirus 71-induced pulmonary edema and/or neurogenic shock in children: a randomized controlled trial",
+          "author": "NA",
+          "journal": "Critical care medicine",
+          "article_type": "Research Support, Non-U.S. Gov't, Randomized Controlled Trial",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "RCT",
+          "evidence_level": 2,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": true
+        },
+        "journal": "Critical care medicine",
+        "quartile": "Q1",
+        "if": 7.5
+      }
+    },
+    {
+      "citation": "PMID: 23685637",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 7.5)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "23685637",
+          "status": "OK",
+          "year": "2013",
+          "title": "Milrinone therapy for enterovirus 71-induced pulmonary edema and/or neurogenic shock in children: a randomized controlled trial",
+          "author": "NA",
+          "journal": "Critical care medicine",
+          "article_type": "Research Support, Non-U.S. Gov't, Randomized Controlled Trial",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "RCT",
+          "evidence_level": 2,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": true
+        },
+        "journal": "Critical care medicine",
+        "quartile": "Q1",
+        "if": 7.5
+      }
+    },
+    {
+      "citation": "PMID: 24571755",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 96.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "24571755",
+          "status": "OK",
+          "year": "2014",
+          "title": "An inactivated enterovirus 71 vaccine in healthy children",
+          "author": "NA",
+          "journal": "The New England journal of medicine",
+          "article_type": "Clinical Trial, Phase III, Research Support, Non-U.S. Gov't",
+          "pubtypes": [
+            "Clinical Trial, Phase III",
+            "Research Support, Non-U.S. Gov't",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Clinical Trial",
+          "evidence_level": 2,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The New England journal of medicine",
+        "quartile": "Q1",
+        "if": 96.0
+      }
+    },
+    {
+      "citation": "PMID: 23726161",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 98.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "23726161",
+          "status": "OK",
+          "year": "2013",
+          "title": "Efficacy, safety, and immunology of an inactivated alum-adjuvant enterovirus 71 vaccine in children in China: a multicentre, randomised, double-blind, placebo-controlled, phase 3 trial",
+          "author": "NA",
+          "journal": "Lancet (London, England)",
+          "article_type": "Clinical Trial, Phase III, Research Support, Non-U.S. Gov't",
+          "pubtypes": [
+            "Clinical Trial, Phase III",
+            "Research Support, Non-U.S. Gov't",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Clinical Trial",
+          "evidence_level": 2,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Lancet (London, England)",
+        "quartile": "Q1",
+        "if": 98.0
+      }
+    },
+    {
+      "citation": "PMID: 23685637",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 7.5)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "23685637",
+          "status": "OK",
+          "year": "2013",
+          "title": "Milrinone therapy for enterovirus 71-induced pulmonary edema and/or neurogenic shock in children: a randomized controlled trial",
+          "author": "NA",
+          "journal": "Critical care medicine",
+          "article_type": "Research Support, Non-U.S. Gov't, Randomized Controlled Trial",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "RCT",
+          "evidence_level": 2,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": true
+        },
+        "journal": "Critical care medicine",
+        "quartile": "Q1",
+        "if": 7.5
+      }
+    },
+    {
+      "citation": "PMID: 23685637",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 7.5)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "23685637",
+          "status": "OK",
+          "year": "2013",
+          "title": "Milrinone therapy for enterovirus 71-induced pulmonary edema and/or neurogenic shock in children: a randomized controlled trial",
+          "author": "NA",
+          "journal": "Critical care medicine",
+          "article_type": "Research Support, Non-U.S. Gov't, Randomized Controlled Trial",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "RCT",
+          "evidence_level": 2,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": true
+        },
+        "journal": "Critical care medicine",
+        "quartile": "Q1",
+        "if": 7.5
+      }
+    },
+    {
+      "citation": "PMID: 20965438",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 30.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "20965438",
+          "status": "OK",
+          "year": "2010",
+          "title": "Clinical features, diagnosis, and management of enterovirus 71",
+          "author": "NA",
+          "journal": "The Lancet. Neurology",
+          "article_type": "Research Support, Non-U.S. Gov't, Review",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The Lancet. Neurology",
+        "quartile": "Q1",
+        "if": 30.0
+      }
+    },
+    {
+      "citation": "PMID: 20965438",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 30.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "20965438",
+          "status": "OK",
+          "year": "2010",
+          "title": "Clinical features, diagnosis, and management of enterovirus 71",
+          "author": "NA",
+          "journal": "The Lancet. Neurology",
+          "article_type": "Research Support, Non-U.S. Gov't, Review",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The Lancet. Neurology",
+        "quartile": "Q1",
+        "if": 30.0
+      }
+    },
+    {
+      "citation": "PMID: 20961813",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 25.4)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "20961813",
+          "status": "OK",
+          "year": "2010",
+          "title": "Virology, epidemiology, pathogenesis, and control of enterovirus 71",
+          "author": "NA",
+          "journal": "The Lancet. Infectious diseases",
+          "article_type": "Research Support, Non-U.S. Gov't, Review",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The Lancet. Infectious diseases",
+        "quartile": "Q1",
+        "if": 25.4
+      }
+    },
+    {
+      "citation": "PMID: 10498488",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 96.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "10498488",
+          "status": "OK",
+          "year": "1999",
+          "title": "Neurologic complications in children with enterovirus 71 infection",
+          "author": "NA",
+          "journal": "The New England journal of medicine",
+          "article_type": "Research Support, Non-U.S. Gov't, Journal Article",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The New England journal of medicine",
+        "quartile": "Q1",
+        "if": 96.0
+      }
+    },
+    {
+      "citation": "PMID: 10498488",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 96.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "10498488",
+          "status": "OK",
+          "year": "1999",
+          "title": "Neurologic complications in children with enterovirus 71 infection",
+          "author": "NA",
+          "journal": "The New England journal of medicine",
+          "article_type": "Research Support, Non-U.S. Gov't, Journal Article",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The New England journal of medicine",
+        "quartile": "Q1",
+        "if": 96.0
+      }
+    },
+    {
+      "citation": "PMID: 24571755",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 96.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "24571755",
+          "status": "OK",
+          "year": "2014",
+          "title": "An inactivated enterovirus 71 vaccine in healthy children",
+          "author": "NA",
+          "journal": "The New England journal of medicine",
+          "article_type": "Clinical Trial, Phase III, Research Support, Non-U.S. Gov't",
+          "pubtypes": [
+            "Clinical Trial, Phase III",
+            "Research Support, Non-U.S. Gov't",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Clinical Trial",
+          "evidence_level": 2,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The New England journal of medicine",
+        "quartile": "Q1",
+        "if": 96.0
+      }
+    },
+    {
+      "citation": "PMID: 23726161",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 98.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "23726161",
+          "status": "OK",
+          "year": "2013",
+          "title": "Efficacy, safety, and immunology of an inactivated alum-adjuvant enterovirus 71 vaccine in children in China: a multicentre, randomised, double-blind, placebo-controlled, phase 3 trial",
+          "author": "NA",
+          "journal": "Lancet (London, England)",
+          "article_type": "Clinical Trial, Phase III, Research Support, Non-U.S. Gov't",
+          "pubtypes": [
+            "Clinical Trial, Phase III",
+            "Research Support, Non-U.S. Gov't",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Clinical Trial",
+          "evidence_level": 2,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Lancet (London, England)",
+        "quartile": "Q1",
+        "if": 98.0
+      }
+    },
+    {
+      "citation": "PMID: 27065870",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 5.6)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "27065870",
+          "status": "OK",
+          "year": "2016",
+          "title": "Milrinone in Enterovirus 71 Brain Stem Encephalitis",
+          "author": "NA",
+          "journal": "Frontiers in pharmacology",
+          "article_type": "review-article, Review",
+          "pubtypes": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Frontiers in pharmacology",
+        "quartile": "Q1",
+        "if": 5.6
+      }
+    },
+    {
+      "citation": "PMID: 29414181",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 2,
+      "tier_reason": "Q2 (IF 3.2)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "29414181",
+          "status": "OK",
+          "year": "2018",
+          "title": "Recommendations for enterovirus diagnostics and characterisation within and beyond Europe",
+          "author": "NA",
+          "journal": "Journal of clinical virology : the official publication of the Pan American Society for Clinical Virology",
+          "article_type": "Practice Guideline, Review",
+          "pubtypes": [
+            "Practice Guideline",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Journal of clinical virology : the official publication of the Pan American Society for Clinical Virology",
+        "quartile": "Q2",
+        "if": 3.2
+      }
+    }
+  ]
+}

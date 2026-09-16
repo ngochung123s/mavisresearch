@@ -1,0 +1,484 @@
+[
+  {
+    "gate": "brief_pmid_preflight",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\preflight_check_pmids.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_RESEARCH_BRIEF.md",
+      "--strict",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_RESEARCH_BRIEF.md",
+        "sha256": "e9af819dd0c9341b7d78123b312eb8afaa230d8a3478fa8493d17c1223a0f44a"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\evidence_bundle.json",
+        "sha256": "4ab8d0f281262e5b97a072b525414c7481fb458e5f9f0f3c1dedace4e0da9247"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\brief_pmid_preflight.json",
+        "sha256": "2b3495ff0e357d4f8bbd6011f16771b525b2e404c2b7d16d137ef105baf85710"
+      }
+    ]
+  },
+  {
+    "gate": "brief_claims_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_claim_vs_abstract.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_RESEARCH_BRIEF.md",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\brief_claims_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_RESEARCH_BRIEF.md",
+        "sha256": "e9af819dd0c9341b7d78123b312eb8afaa230d8a3478fa8493d17c1223a0f44a"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\evidence_bundle.json",
+        "sha256": "4ab8d0f281262e5b97a072b525414c7481fb458e5f9f0f3c1dedace4e0da9247"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\brief_claims_command.json",
+        "sha256": "faabd9e4ea26f608172f7c00b8056d74117dfc02eefc30cfc652d526e4c0d2ab"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\brief_claims_report.json",
+        "sha256": "9ca42f050ce2ceff56c2281ff451e11fec109d1bd525642b7fabaa4a64bb8866"
+      }
+    ]
+  },
+  {
+    "gate": "source_pmid_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_all_pmids.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+      "--strict",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+        "sha256": "7eeecee9147df3309d79033a9b287587023c57404c22615fa9ca5089f7d35192"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\evidence_bundle.json",
+        "sha256": "4ab8d0f281262e5b97a072b525414c7481fb458e5f9f0f3c1dedace4e0da9247"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\source_pmid_strict.json",
+        "sha256": "627c7c2b9047905d7ad0ce46c3cd8f8be110b08136085dbd91a47070b9b1da6d"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_guidelines.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\guideline_evidence.json",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\guideline_report.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\guideline_evidence.json",
+        "sha256": "67b650be9de4594b719052aaa8f7974ffd173c1629c6c37907663de396403efe"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\guideline_command.json",
+        "sha256": "14edc688e5619c4beaf35d6163516d896ee2e1437f437091096bf81cfb349a40"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\guideline_report.json",
+        "sha256": "0d0615ca188dc1367a74af16e77c063649c513c78ef62e171b9aef370c75eced"
+      }
+    ]
+  },
+  {
+    "gate": "source_claims_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_claims.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+      "--strict",
+      "--guideline-report",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\guideline_report.json",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\source_claims_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+        "sha256": "7eeecee9147df3309d79033a9b287587023c57404c22615fa9ca5089f7d35192"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\guideline_evidence.json",
+        "sha256": "67b650be9de4594b719052aaa8f7974ffd173c1629c6c37907663de396403efe"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\evidence_bundle.json",
+        "sha256": "4ab8d0f281262e5b97a072b525414c7481fb458e5f9f0f3c1dedace4e0da9247"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\source_claims_command.json",
+        "sha256": "3493ff0ee5883467325e83f95eac958b5e0621dd0b52ab34d7bd1300b1a818d2"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\source_claims_report.json",
+        "sha256": "126eeb340e0caf76f4e6616bf0c82d80a7ac197d3eb157403f230c17188d1a1b"
+      }
+    ]
+  },
+  {
+    "gate": "source_retraction",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\retraction_check.py",
+      "--md",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+      "--strict",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\source_retraction_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+        "sha256": "7eeecee9147df3309d79033a9b287587023c57404c22615fa9ca5089f7d35192"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\evidence_bundle.json",
+        "sha256": "4ab8d0f281262e5b97a072b525414c7481fb458e5f9f0f3c1dedace4e0da9247"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\source_retraction_command.json",
+        "sha256": "ec0d7d9ac172c666a8a7d0bb11ac89ee7887ebe13632753488f6d56eb47fd4ae"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\source_retraction_report.json",
+        "sha256": "c9679b3f96adb0754d54aa6b727be85f2fbdd61be177f74f38d0ec45cd2e7cac"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence_crosscheck",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "crosscheck_guidelines"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\guideline_evidence.json",
+        "sha256": "67b650be9de4594b719052aaa8f7974ffd173c1629c6c37907663de396403efe"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_RESEARCH_BRIEF.md",
+        "sha256": "e9af819dd0c9341b7d78123b312eb8afaa230d8a3478fa8493d17c1223a0f44a"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+        "sha256": "7eeecee9147df3309d79033a9b287587023c57404c22615fa9ca5089f7d35192"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\guideline_crosscheck_report.json",
+        "sha256": "61de2812738ecd4385aedcd2a2c82292882cc06fcb65934de688a3bbb7503891"
+      }
+    ]
+  },
+  {
+    "gate": "citation_zero_block",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\citation_audit.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+        "sha256": "7eeecee9147df3309d79033a9b287587023c57404c22615fa9ca5089f7d35192"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\citation_audit.json",
+        "sha256": "6c0da02b8d88b885a7dc02ebad228e832c6e3396cbfbfb2ba5c23b986e245b29"
+      }
+    ]
+  },
+  {
+    "gate": "depth_foundation",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\depth_check.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+      "--profile",
+      "foundation"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+        "sha256": "7eeecee9147df3309d79033a9b287587023c57404c22615fa9ca5089f7d35192"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\depth_foundation.json",
+        "sha256": "7b21de81ae747d2ba41210bc8c208b27ec8a2555140bf9cbf1f35fac8ed36549"
+      }
+    ]
+  },
+  {
+    "gate": "cards_schema",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "--internal",
+      "cards_schema"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.cards.v2.json",
+        "sha256": "2dcbfe68b4d35c7a84e626dadea0404fa3aafa6481e4d89493b5fc13002fe092"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\cards_schema.json",
+        "sha256": "7112d9c3d70b81c0376071eec6049bbf0ef3078e5506a860b6b620f580119422"
+      }
+    ]
+  },
+  {
+    "gate": "candidate_apkg_build",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_apkg.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.cards.v2.json",
+      "--output",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.apkg",
+      "--verify"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.cards.v2.json",
+        "sha256": "2dcbfe68b4d35c7a84e626dadea0404fa3aafa6481e4d89493b5fc13002fe092"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\candidate_apkg_build.json",
+        "sha256": "7777bd875ff0f73ff0fc7a1c68448b72938c7a43882019c03a29b9ff25156846"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.apkg",
+        "sha256": "9273f15c7031f4c69acac19791a45968c45c0d6b3dd8e379aef76efd839a475b"
+      }
+    ]
+  },
+  {
+    "gate": "package_note_count",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "internal:package_note_count"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.cards.v2.json",
+        "sha256": "2dcbfe68b4d35c7a84e626dadea0404fa3aafa6481e4d89493b5fc13002fe092"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.apkg",
+        "sha256": "9273f15c7031f4c69acac19791a45968c45c0d6b3dd8e379aef76efd839a475b"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\package_counts.json",
+        "sha256": "dd81053169cc9496caf6902a726b4bbfabe90f9b2973b4fc036b794e5165a688"
+      }
+    ]
+  },
+  {
+    "gate": "package_diacritics",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_apkg_diacritics.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.apkg"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.apkg",
+        "sha256": "9273f15c7031f4c69acac19791a45968c45c0d6b3dd8e379aef76efd839a475b"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\package_diacritics.json",
+        "sha256": "5e4bb67986df11ab20d84eb11595ea0c735a377a3739dea4f514bbeca1c1f7af"
+      }
+    ]
+  },
+  {
+    "gate": "source_diacritics",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "internal:source_diacritics"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+        "sha256": "7eeecee9147df3309d79033a9b287587023c57404c22615fa9ca5089f7d35192"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\source_diacritics.json",
+        "sha256": "aaa2f6db59d84df756b3f91f5bb42d112e9b132a74824a876ec3334394c3afba"
+      }
+    ]
+  },
+  {
+    "gate": "docx_build",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\md_to_docx.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.docx"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+        "sha256": "7eeecee9147df3309d79033a9b287587023c57404c22615fa9ca5089f7d35192"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\docx_build.json",
+        "sha256": "d31340701bee4be427684ea3bc85662b029925396add80481fc33f7de25454b9"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.docx",
+        "sha256": "232b1391e51e8954a7cf6c49e9a322642481c77fadf5cb418c833f1506e2aa4d"
+      }
+    ]
+  },
+  {
+    "gate": "learner_smoke",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\make_knowledge_check.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.cards.v2.json",
+      "--output-dir",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.cards.v2.json",
+        "sha256": "2dcbfe68b4d35c7a84e626dadea0404fa3aafa6481e4d89493b5fc13002fe092"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\evidence_bundle.json",
+        "sha256": "4ab8d0f281262e5b97a072b525414c7481fb458e5f9f0f3c1dedace4e0da9247"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\verification\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1\\learner_smoke.json",
+        "sha256": "3978d1382d8f1b2f213ac12140557d5b9838152561f812e1b78b09512d6f38c0"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1_knowledge_check.md",
+        "sha256": "76df267166f97d57479b4b56dcde67204a37ca50322acdd2700f3c05003b7889"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1_knowledge_check_answer_key.md",
+        "sha256": "12cc03aa6b37bad9f0e453115e10f2b5cb20a1b4010d2e50dc1b319aff756e73"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-35_Benh_Tay_Chan_Mieng\\outputs\\PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1_knowledge_check_score.json",
+        "sha256": "6e8fbbf965c46175ab5526071aacd9520a8d35085c1b585a1c0c04f1a90e84e4"
+      }
+    ]
+  }
+]

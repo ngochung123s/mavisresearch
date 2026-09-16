@@ -1,0 +1,62 @@
+{
+  "exists": true,
+  "identifiers": {
+    "pmid": "31774955",
+    "pmcid": "PMC7098487",
+    "doi": "10.1056/nejmoa1905795",
+    "openalex": "https://openalex.org/W31774955"
+  },
+  "title": "Randomized Trial of Three Anticonvulsant Medications for Status Epilepticus",
+  "abstract": "<h4>Background</h4>The choice of drugs for patients with status epilepticus that is refractory to treatment with benzodiazepines has not been thoroughly studied.<h4>Methods</h4>In a randomized, blinded, adaptive trial, we compared the efficacy and safety of three intravenous anticonvulsive agents - levetiracetam, fosphenytoin, and valproate - in children and adults with convulsive status epilepticus that was unresponsive to treatment with benzodiazepines. The primary outcome was absence of clinically evident seizures and improvement in the level of consciousness by 60 minutes after the start of drug infusion, without additional anticonvulsant medication. The posterior probabilities that each drug was the most or least effective were calculated. Safety outcomes included life-threatening hypotension or cardiac arrhythmia, endotracheal intubation, seizure recurrence, and death.<h4>Results</h4>A total of 384 patients were enrolled and randomly assigned to receive levetiracetam (145 patients), fosphenytoin (118), or valproate (121). Reenrollment of patients with a second episode of status epilepticus accounted for 16 additional instances of randomization. In accordance with a prespecified stopping rule for futility of finding one drug to be superior or inferior, a planned interim analysis led to the trial being stopped. Of the enrolled patients, 10% were determined to have had psychogenic seizures. The primary outcome of cessation of status epilepticus and improvement in the level of consciousness at 60 minutes occurred in 68 patients assigned to levetiracetam (47%; 95% credible interval, 39 to 55), 53 patients assigned to fosphenytoin (45%; 95% credible interval, 36 to 54), and 56 patients assigned to valproate (46%; 95% credible interval, 38 to 55). The posterior probability that each drug was the most effective was 0.41, 0.24, and 0.35, respectively. Numerically more episodes of hypotension and intubation occurred in the fosphenytoin group and more deaths occurred in the levetiracetam group than in the other groups, but these differences were not significant.<h4>Conclusions</h4>In the context of benzodiazepine-refractory convulsive status epilepticus, the anticonvulsant drugs levetiracetam, fosphenytoin, and valproate each led to seizure cessation and improved alertness by 60 minutes in approximately half the patients, and the three drugs were associated with similar incidences of adverse events. (Funded by the National Institute of Neurological Disorders and Stroke; ESETT ClinicalTrials.gov number, NCT01960075.).",
+  "journal": "Unknown Journal",
+  "year": "2019",
+  "publication_types": [
+    "Comparative Study",
+    "research-article",
+    "Adaptive Clinical Trial",
+    "Multicenter Study",
+    "Randomized Controlled Trial",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+  ],
+  "topics": [
+    "febrile seizures",
+    "status epilepticus",
+    "co giật do sốt",
+    "trạng thái động kinh",
+    "pediatrics",
+    "nhi khoa",
+    "cấp cứu"
+  ],
+  "providers": [
+    "europe_pmc_metadata",
+    "openalex",
+    "crossref_retraction_watch",
+    "official_source"
+  ],
+  "claim_quote": "PMID 21285335 18519501 26900382 31774955 31005386 31005385 22335736 30297499 40770931 38606600 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 C-009 C-010 C-011 C-012 001 002 003 004 005 006 007 008 009 010 011 012 1 2 3 4 5 6 7 8 9 10 11 12 ESETT trial NEJM 2019 Randomized Trial of Three Anticonvulsant Medications for Status Epilepticus. Total 384 patients enrolled. Primary outcome cessation of status epilepticus and improvement in consciousness at 60 minutes: levetiracetam 68 of 145 patients (47%; 95% credible interval 39 to 55), fosphenytoin 53 of 118 patients (45%; 95% credible interval 36 to 54), valproate 56 of 121 patients (46%; 95% credible interval 38 to 55). No significant difference. Thử nghiệm ESETT 1 2 3 384 60 68 145 47% 39 55 53 118 45% 36 54 56 121 46% 38 55 20 40 60.",
+  "raw_sha256": [
+    "f884022d0da7c1129f18588f90eeb60f4c2a83f9ca6247804245dabe2b7a4473"
+  ],
+  "metadata_checked_at": "2026-09-16T10:34:17.938778+00:00",
+  "full_text": {
+    "available": false,
+    "license": null,
+    "reuse_suitable": false
+  },
+  "integrity": {
+    "status": "clean",
+    "checked_at": "2026-09-16T10:34:17.938778+00:00",
+    "corrections": [],
+    "reinstated": false,
+    "provider": "crossref_retraction_watch"
+  },
+  "official_source": {
+    "authority_verified": true,
+    "document_type": "journal article",
+    "translation_of": null,
+    "endorsement_status": "endorsed",
+    "current_version": true,
+    "superseded_by": null
+  }
+}

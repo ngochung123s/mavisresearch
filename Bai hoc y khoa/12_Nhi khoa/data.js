@@ -3,16 +3,18 @@ window.PED_LIBRARY_DATA = {
   "metadata": {
     "title": "PedViewer — Thư viện Sách & Bài học Nhi khoa",
     "version": "1.0",
-    "generated_at": "2026-09-13",
+    "generated_at": "2026-09-16",
     "total_curriculum": 47,
-    "total_ped": 11,
+    "total_ped": 15,
     "total_pedytb": 2,
-    "total_cards": 771,
+    "total_cards": 1067,
     "blocks": [
       "Block 0 — Nền tảng tư duy, Tiếp cận & Dược lý Nhi khoa",
+      "Block 1 — Hồi sức, Cấp cứu & Ngộ độc Nhi khoa",
       "Block 2 — Sơ sinh học",
       "Block 3 — Hô hấp Nhi khoa",
       "Block 4 — Tiêu hóa & Dinh dưỡng Nhi khoa",
+      "Block 5 — Bệnh Truyền nhiễm Nhi khoa",
       "Block 6 — Thận, Tim mạch, Huyết học & Nội tiết Nhi"
     ]
   },
@@ -325,7 +327,7 @@ window.PED_LIBRARY_DATA = {
       ],
       "apkg_file": "PED-01_Dac_diem_sinh_ly_va_Sinh_hieu_theo_tuoi_2026-09-13_RELEASE_v1.apkg",
       "html_file": "PED-01_Dac_diem_sinh_ly_va_Sinh_hieu_theo_tuoi.html",
-      "folder_rel": "PED-01_Dac_diem_sinh_ly_va_Sinh_hieu_theo_tuoi"
+      "folder_rel": "00_Nen_tang_va_Tiep_can/PED-01_Dac_diem_sinh_ly_va_Sinh_hieu_theo_tuoi"
     },
     {
       "id": "PED-02",
@@ -946,6 +948,208 @@ window.PED_LIBRARY_DATA = {
       "apkg_file": "PED-03_Nguyen_tac_ke_don_va_Tinh_lieu_thuoc_an_toan_2026-09-13_RELEASE_v1.apkg",
       "html_file": "PED-03_Nguyen_tac_ke_don_va_Tinh_lieu_thuoc_an_toan.html",
       "folder_rel": "00_Nen_tang_va_Tiep_can/PED-03_Nguyen_tac_ke_don_va_Tinh_lieu_thuoc_an_toan"
+    },
+    {
+      "id": "PED-07",
+      "priority": "P0",
+      "title": "Co giật do sốt & Cắt cơn co giật / Trạng thái động kinh",
+      "block": "Block 1 — Hồi sức, Cấp cứu & Ngộ độc Nhi khoa",
+      "scope": "Sốt co giật đơn thuần vs phức hợp; phác đồ cắt cơn từng phút (Midazolam buccal/tiêm bắp, Diazepam bơm hậu môn/tĩnh mạch); chỉ định chọc dịch não tủy.",
+      "dependency": "PED-01, 03",
+      "curriculum_status": "✅ GATES ĐẠT (MD + APKG 36 thẻ)",
+      "has_ped": true,
+      "has_pedytb": false,
+      "has_cards": true,
+      "ped_file": "PED-07_Co_giat_do_sot_va_Trang_thai_dong_kinh_2026-09-16_RELEASE_v1.md",
+      "ped_content": "# BÀI HỌC Y KHOA: CO GIẬT DO SỐT VÀ TRẠNG THÁI ĐỘNG KINH Ở TRẺ EM (FEBRILE SEIZURES & STATUS EPILEPTICUS)\n\n**Mã bài học:** PED-07\n**Chuyên khoa:** Hồi sức Cấp cứu Nhi khoa / Thần kinh Nhi\n**Đối tượng học:** Bác sĩ thực hành, học viên sau đại học, sinh viên y khoa\n**Thời lượng chuẩn:** 180 phút lý thuyết chuyên sâu và thảo luận ca lâm sàng\n**Hệ thống phân loại:** L3_BEGINNER\n**Thuộc Block chuyên khoa:** Block 01 - Hồi sức Cấp cứu & Chống độc Nhi khoa\n**Bài học trước (tiền đề):** PED-01 (Đặc điểm sinh lý & Sinh hiệu theo tuổi), PED-02 (PAT & ABCDE)\n**Bài học tiếp theo:** PED-08 (Hôn mê & Đánh giá GCS ở trẻ em)\n**Research brief khóa nguồn:** `PED-07_RESEARCH_BRIEF.md` (Khóa 10 PMID, 13 Claims, 16 Gates)\n\n---\n\n## 0. TỔNG QUAN VÀ ĐÍCH ĐẾN HỌC TẬP (FOUNDATION PRIMER)\n\n### 0.1 Nền tảng tối thiểu cần dùng ngay\nCo giật là một trong những tình huống cấp cứu thần kinh thường gặp nhất tại các khoa cấp cứu nhi khoa trên toàn thế giới, gây ra sự hoảng loạn tột độ cho phụ huynh và người chăm sóc.\nTrong số các nguyên nhân gây co giật ở lứa tuổi nhũ nhi và trẻ nhỏ, co giật do sốt (Febrile Seizures - FS) chiếm tỷ lệ vượt trội hơn cả, xuất hiện ở khoảng từ hai đến năm phần trăm trẻ em trong độ tuổi từ sáu tháng đến sáu mươi tháng tuổi.\nVề mặt bản chất sinh lý bệnh học, cơn co giật xảy ra khi có sự mất cân bằng cấp tính giữa các kích thích dẫn truyền thần kinh sử dụng chất dẫn truyền Glutamate và hệ thống ức chế sau synap qua thụ thể GABA tại vỏ não đang trong giai đoạn phát triển chưa hoàn thiện.\nNhiệt độ cơ thể tăng lên đột ngột trong các đợt nhiễm trùng đường hô hấp trên, nhiễm trùng tiêu hóa hoặc phản ứng sau tiêm chủng làm gia tăng tốc độ khử cực màng tế bào thần kinh, rút ngắn thời gian trơ và kích hoạt các kênh ion nhạy cảm với nhiệt độ.\nĐại đa số các cơn co giật do sốt là co giật do sốt đơn thuần, có tiên lượng hoàn toàn lành tính, tự giới hạn trong vài phút và không gây ra tổn thương tế bào não vĩnh viễn hay di chứng phát triển tâm thần vận động về sau.\nTuy nhiên, thách thức lớn nhất đối với người thầy thuốc lâm sàng tại phòng cấp cứu không nằm ở việc nhận diện cơn giật, mà là khả năng phân biệt chính xác giữa co giật do sốt lành tính với các nhiễm trùng hệ thần kinh trung ương nguy hiểm đến tính mạng, đặc biệt là viêm màng não mủ và viêm não.\nBên cạnh đó, việc nhận diện kịp thời thể co giật do sốt phức tạp và xử trí quyết đoán các trường hợp tiến triển thành trạng thái động kinh do sốt (Febrile Status Epilepticus - FSE) kéo dài trên ba mươi phút là yếu tố sống còn để bảo vệ nhu mô não trẻ.\nTổn thương hồi hải mã, xơ teo thùy thái dương và nguy cơ phát triển thành động kinh kháng trị sau này gắn liền mật thiết với thời gian kiểm soát cơn giật ở giai đoạn cấp cứu ban đầu.\nDo đó, tiếp cận bài bản theo chuỗi logic y học chứng cứ, tuân thủ nghiêm ngặt phác đồ cấp cứu theo từng mốc phút và tham vấn tâm lý khoa học cho gia đình là năng lực cốt lõi của người bác sĩ nhi khoa.\nNgười thầy thuốc cần nhớ rằng mục tiêu cấp cứu ban đầu luôn luôn là đảm bảo thông khí, cung cấp oxy, kiểm soát đường thở và cắt cơn co giật kịp thời trước khi tổn thương nơ ron không hồi phục bắt đầu xuất hiện.\nTuyệt đối không được hoảng loạn, không làm những thủ thuật phản khoa học và luôn giữ bình tĩnh để thực hiện tuần tự các bước xử trí đã được chuẩn hóa.\nMỗi phút trôi qua trong trạng thái động kinh co giật đều làm tăng nguy cơ tổn thương não bộ của trẻ nhỏ.\nSự phối hợp nhịp nhàng giữa các thành viên trong kíp cấp cứu từ điều dưỡng đến bác sĩ hồi sức quyết định trực tiếp đến tiên lượng sống và chất lượng cuộc sống lâu dài của bệnh nhi.\nChính vì vậy, nắm vững các kiến thức nền tảng và phản xạ cấp cứu chính xác theo từng giây từng phút là yêu cầu bắt buộc đối với mọi nhân viên y tế làm việc tại phòng cấp cứu nhi khoa.\nBài học này cung cấp toàn bộ cơ sở lý luận sinh lý bệnh, các bằng chứng thử nghiệm lâm sàng đối chứng ngẫu nhiên và hướng dẫn thực hành mới nhất từ các hiệp hội chuyên khoa uy tín trên thế giới.\nBác sĩ cần chuẩn bị sẵn sàng tâm thế cấp cứu nhanh gọn, chính xác và nhân văn trong mọi tình huống.\nLuôn lắng nghe lời kể của phụ huynh nhưng đồng thời phải có cái nhìn đánh giá khách quan và kiểm tra kỹ lưỡng toàn diện dấu hiệu sinh tồn của trẻ.\nChẩn đoán chính xác và xử trí đúng phác đồ là biện pháp hữu hiệu nhất bảo vệ não bộ cho thế hệ tương lai.\nNhận định sớm nguyên nhân sốt từ các ổ nhiễm trùng thông thường giúp định hướng điều trị đúng đắn.\nTránh lạm dụng xét nghiệm cận lâm sàng xâm lấn khi trẻ không có biểu hiện bất thường thần kinh.\nThấu hiểu tâm lý lo lắng của người chăm sóc là một phần không thể tách rời trong chăm sóc toàn diện.\nMỗi quyết định y khoa đưa ra cần dựa trên sự cân nhắc thấu đáo giữa lợi ích và nguy cơ cho người bệnh.\nY học chứng cứ chính là kim chỉ nam giúp người thầy thuốc đưa ra phán đoán lâm sàng chuẩn xác nhất.\n\n### 0.2 Mục tiêu học tập chuyên sâu\nSau khi hoàn thành bài học chuyên sâu này, người học có khả năng:\n1. Phân loại chuẩn xác trên lâm sàng giữa co giật do sốt đơn thuần (Simple FS), co giật do sốt phức tạp (Complex FS) và trạng thái động kinh do sốt (FSE).\n2. Nắm vững chỉ định cận lâm sàng dựa trên chứng cứ theo Guideline AAP 2011: hạn chế tối đa chọc dò tủy sống thường quy, điện não đồ và chụp cắt lớp vi tính sọ não khi không có dấu hiệu cờ đỏ.\n3. Làm chủ thuật toán cấp cứu trạng thái động kinh theo Hội Động kinh Hoa Kỳ (AES 2016): xử trí theo từng mốc thời gian T1 (năm phút) và T2 (ba mươi phút).\n4. Sử dụng thành thạo và chính xác liều lượng các thuốc chống co giật bước một (Midazolam, Lorazepam, Diazepam) và bước hai (Levetiracetam, Fosphenytoin, Sodium Valproate).\n5. Phân tích thấu đáo kết quả từ các thử nghiệm lâm sàng đối chứng ngẫu nhiên mang tính bước ngoặt: RAMPART, ESETT, ConSEPT, EcLiPSE và nghiên cứu FEBSTAT.\n6. Tham vấn khoa học, an toàn cho phụ huynh: không dùng thuốc chống động kinh dự phòng thường quy theo khuyến cáo AAP 2008 và xử trí hạ sốt đúng cách.\n\n---\n\n## 1. ĐỊNH NGHĨA VÀ PHÂN LOẠI CO GIẬT DO SỐT\n\n### 1.1 Định nghĩa chuẩn theo Viện Hàn lâm Nhi khoa Hoa Kỳ (AAP)\nTheo Viện Hàn lâm Nhi khoa Hoa Kỳ (AAP), co giật do sốt được định nghĩa là một biến cố co giật xảy ra ở trẻ em trong độ tuổi từ 6 đến 60 tháng, có kèm theo sốt (thân nhiệt đo ở nách hoặc hậu môn $\\ge 38.0^\\circ\\text{C}$), với điều kiện tiên quyết là:\n1. Không có bằng chứng về nhiễm trùng hệ thần kinh trung ương (viêm màng não, viêm não, áp xe não).\n2. Không có rối loạn điện giải cấp tính nghiêm trọng hoặc rối loạn chuyển hóa toàn thân (hạ đường huyết nặng, hạ calci máu, hạ natri máu).\n3. Trẻ không có tiền sử co giật không do sốt trước đó và không mắc các bệnh lý thần kinh tiến triển mạn tính.\n\n### 1.2 Bảng đối chiếu phân loại lâm sàng\nViệc phân loại chính xác giữa co giật do sốt đơn thuần và phức tạp quyết định toàn bộ thái độ xử trí cận lâm sàng và tiên lượng dài hạn của bệnh nhi.\n\n| Đặc điểm lâm sàng | Co giật do sốt đơn thuần (Simple FS) | Co giật do sốt phức tạp (Complex FS) | Trạng thái động kinh do sốt (FSE) |\n| :--- | :--- | :--- | :--- |\n| **Tính chất cơn giật** | Co cứng - co giật toàn thể, đối xứng hai bên | Co giật cục bộ một bên cơ thể hoặc khởi phát cục bộ rồi toàn thể hóa | Co giật toàn thể hoặc co giật cục bộ kéo dài |\n| **Thời gian cơn giật** | Cơn kéo dài ngắn, $< 15$ phút (thường $< 5$ phút) | Cơn kéo dài $\\ge 15$ phút hoặc gián đoạn | Cơn kéo dài liên tục hoặc ngắt quãng không hồi phục tri giác $\\ge 30$ phút |\n| **Số cơn trong đợt sốt** | Chỉ xuất hiện duy nhất 1 cơn trong vòng 24 giờ | Xuất hiện $\\ge 2$ cơn trong vòng 24 giờ hoặc cùng 1 đợt sốt | Cơn giật liên tục hoặc nhiều cơn liên tiếp |\n| **Dấu thần kinh khu trú** | Hoàn toàn không có dấu thần kinh khu trú sau giật | Có thể xuất hiện liệt Todd sau cơn (yếu liệt thoáng qua) | Nguy cơ cao liệt thần kinh khu trú và phù não cấp |\n| **Tỷ lệ gặp** | Chiếm đa số: khoảng 70% đến 75% các trường hợp | Chiếm khoảng 20% đến 25% các trường hợp | Chiếm khoảng 5% tổng số các ca co giật do sốt |\n\nVí dụ 1:\nBé trai 15 tháng tuổi sốt cao 39 độ C, co cứng co giật hai bên tay chân trong 3 phút rồi tự hết, sau cơn tỉnh táo bú tốt.\nĐây là ví dụ điển hình của co giật do sốt đơn thuần.\nVí dụ 2:\nBé gái 2 tuổi sốt 38.5 độ C, giật giật tay phải và méo miệng sang phải kéo dài 18 phút.\nĐây là ví dụ điển hình của co giật do sốt phức tạp do có tính chất cục bộ và kéo dài trên 15 phút.\n\n### 1.3 Các hội chứng động kinh đặc biệt liên quan đến sốt\nCần đặc biệt lưu ý một số bệnh cảnh di truyền hoặc tự miễn có khởi đầu bằng co giật do sốt nhưng có tiên lượng và điều trị hoàn toàn khác biệt:\n- **Hội chứng Dravet (Severe Myoclonic Epilepsy of Infancy):** Đột biến gen SCN1A mã hóa kênh Natri $Na_V1.1$. Trẻ khởi phát co giật do sốt rất sớm (dưới một tuổi), cơn giật thường kéo dài, có tính chất co giật nửa người luân chuyển bên và tái phát nhiều lần. Chống chỉ định tuyệt đối các thuốc ức chế kênh Natri (Carbamazepine, Phenytoin) vì làm nặng thêm tình trạng co giật.\n- **Hội chứng GEFS+ (Genetic Epilepsy with Febrile Seizures Plus):** Bệnh lý di truyền trội trên nhiễm sắc thể thường, các thành viên trong gia đình tiếp tục xuất hiện co giật do sốt sau 6 tuổi và có thể kèm theo các thể động kinh toàn thể khác.\n- **Hội chứng FIRES (Febrile Infection-Related Epilepsy Syndrome):** Trạng thái động kinh bùng phát dữ dội sau một đợt nhiễm trùng sốt thông thường ở trẻ em khỏe mạnh trước đó, đáp ứng rất kém với thuốc chống động kinh quy ước, đòi hỏi liệu pháp điều hòa miễn dịch và chế độ ăn sinh ceton.\n\n### 1.4 Checklist phân tầng nguy cơ co giật do sốt phức tạp\nKhi tiếp nhận bệnh nhi, bác sĩ cần kiểm tra ngay các dấu hiệu cảnh báo:\n- Cơn giật có khởi phát lệch một bên mắt hoặc một bên tay chân không?\n- Thời gian kéo dài của cơn giật được người nhà bấm giờ thực tế là bao nhiêu phút?\n- Trong vòng 24 giờ qua trẻ đã bị bao nhiêu cơn co giật tương tự?\n- Sau cơn trẻ có cử động đối xứng hai tay hai chân hay có hiện tượng liệt Todd nửa người?\n- Trẻ có tiền căn sinh non, ngạt sơ sinh hoặc chậm phát triển vận động trước đó không?\n\n---\n\n## 2. CƠ CHẾ BỆNH SINH VÀ MẠNG LƯỚI TẾ BÀO THẦN KINH\n\n### 2.1 Sinh lý bệnh học co giật do sốt ở não bộ chưa trưởng thành\nBộ não của trẻ nhỏ trong giai đoạn từ 6 tháng đến 5 tuổi có tính kích thích nội tại cao hơn rất nhiều so với não người trưởng thành.\nCác thụ thể dẫn truyền kích thích NMDA và AMPA phát triển sớm và có mật độ dày đặc, trong khi hệ thống dẫn truyền ức chế qua thụ thể GABA chưa hoàn thiện cả về số lượng thụ thể lẫn nồng độ chất vận chuyển ion Clorua KCC2.\nKhi nhiệt độ tăng cao đột ngột, các cytokine gây viêm như IL-1beta, TNF-alpha và IL-6 được giải phóng từ các tế bào thần kinh đệm và đại thực bào quanh mạch máu.\nIL-1beta kích thích trực tiếp lên các thụ thể trên màng sau synap, tăng cường dòng Canxi và Natri đi vào tế bào qua kênh NMDA, dẫn đến sự khử cực màng diện rộng và khởi phát phóng điện kịch phát.\nĐồng thời, tình trạng kiềm hô hấp do thở nhanh trong cơn sốt làm giảm nhẹ nồng độ Canxi ion hóa trong máu và dịch não tủy, làm hạ ngưỡng kích thích của màng tế bào thần kinh, thúc đẩy cơn giật bùng phát.\n\n```text\n[SOT NHIEM TRUNG CAP] -> [TANG THONG KHI KIEM HO HAP] -> [GIAM CANXI ION HOA] -> [KICH HOAT THU THE NMDA] -> [PHONG DIEN DONG BO VO NAO]\n```\n\nChuỗi cơ chế dẫn truyền thần kinh kích thích:\nNhiễm trùng giải phóng cytokine -> Tăng tính thấm hàng rào máu não -> Khử cực màng tế bào thần kinh vỏ não -> Lan truyền điện thế hoạt động diện rộng -> Co giật toàn thể trên lâm sàng.\n\nChuỗi cơ chế hạ ngưỡng kích thích do sốt:\nThân nhiệt tăng vọt -> Tăng tốc độ chuyển hóa nơ ron -> Giảm nồng độ chất ức chế GABA nội sinh -> Tăng giải phóng Glutamate khe synap -> Bùng phát cơn co cứng co giật.\n\n### 2.2 Chuỗi cơ chế chuyển biến từ co giật kéo dài sang tổn thương tế bào\nNếu cơn co giật kéo dài liên tục trên 30 phút mà không được kiểm soát, chuỗi tổn thương thần kinh sẽ diễn tiến qua năm tầng tổn thương lũy tiến:\n\n*Tầng 1: Tăng kích thích tế bào thần kinh và suy kiệt năng lượng.* Cơn phóng điện liên tục làm bơm Natri Kali ATPase phải hoạt động tối đa, tiêu thụ cạn kiệt nguồn dự trữ ATP và Glucose của tế bào não.\n*Tầng 2: Độc tính kích thích ngoại bào do tích tụ Glutamate.* Glutamate tồn đọng quá mức trong khe synap kích hoạt liên tục thụ thể NMDA, mở rộng cửa cho ion Canxi ồ ạt tràn vào tế bào thần kinh.\n*Tầng 3: Quá tải Canxi nội bào và rối loạn chức năng ty thể.* Nồng độ Canxi nội bào tăng vọt kích hoạt các enzyme thủy phân protein như Calpain và Caspase-3, phá hủy màng ty thể và giải phóng Cytochrome C.\n*Tầng 4: Phù nề tế bào và hoại tử thần kinh chọn lọc.* Sự tích tụ acid lactic nội bào và thất bại của các bơm ion dẫn đến phù tế bào dạng cytotoxic, đặc biệt tại vùng hồi hải mã CA1 và vỏ thùy thái dương.\n*Tầng 5: Tái tổ chức synap bất thường và sinh động kinh dài hạn.* Hiện tượng mọc chồi sợi rêu bất thường tại hồi răng tạo nên các vòng cung phản xạ kích thích tự động vĩnh viễn, dẫn đến bệnh động kinh thùy thái dương kháng trị sau này.\n\n---\n\n## 3. CHẨN ĐOÁN VÀ TIẾP CẬN BAN ĐẦU THEO HƯỚNG DẪN AAP 2011\n\n### 3.1 Chỉ định chọc dò tủy sống (Lumbar Puncture - LP)\nChọc dò tủy sống là thủ thuật xâm lấn có nguy cơ nhưng bắt buộc phải tiến hành khi nghi ngờ nhiễm trùng hệ thần kinh trung ương.\nTheo Hướng dẫn thực hành lâm sàng của Viện Hàn lâm Nhi khoa Hoa Kỳ (AAP 2011) về đánh giá chẩn đoán ở trẻ co giật do sốt đơn thuần, các khuyến cáo được phân định rất rõ ràng:\n\nTrong thuc hanh nhi khoa hang ngay, viec chi dinh choc dich nao tuy tung bi lam dung qua muc do noi lo so viem mang nao mu bi bo sot.\nTuy nhien cac nghien cuu dich te hoc quy mo lon da chung minh rang khi benh nhi co bieu hien lam sang hoan toan tinh tao, tiep xuc tot va da duoc bao ve day du bang cac loai vaccine phong ngua vi khuan gay benh thi nguy co nhiem trung than kinh la vo cung thap.\n\n- Chọc dò tủy sống không được khuyến cáo thường quy ở trẻ co giật do sốt đơn thuần tổng trạng tốt và đã tiêm chủng đầy đủ: A lumbar puncture is not routinely recommended in a well-appearing, fully immunized child who presents with a simple febrile seizure. {claim:C-001} [GUIDELINE VERIFIED] (PMID: 21285335)\n\nThai do xu tri than trong va sang suot nay giup giam thieu su dau don khong can thiet cho benh nhi, han che nguy co tai bien bien chung nguy hiem va giam bot ganh nang tam ly nang ne cho gia dinh nguoi benh trong suot qua trinh nam vien.\n\nTinh trang dap ung mien dich cua co the tre nho doi voi cac tac nhan vi khuan gay viem mang nao mu nguy hiem nhu phe cau va vi khuan Hib dong vai tro dac biet quan trong trong viec can nhac thuc hien thu thuat xam lan.\n\n- Chọc dò tủy sống là một lựa chọn cần cân nhắc khi trẻ chưa được tiêm chủng phế cầu hoặc Hib đầy đủ: A lumbar puncture is an option when a child is considered underimmunized or when immunization status cannot be determined. {claim:C-002} [GUIDELINE VERIFIED] (PMID: 21285335)\n\nKhi benh nhi chua duoc phong ngua day du hoac khong the xac minh lich su tiem chung ro rang, nguoi thay thuoc can phai het suc canh giac va can nhac thuc hien choc dich nao tuy de loai tru ton thuong viem nhiem than kinh trung uong.\n\nCác chỉ định bắt buộc chọc dò tủy sống không thể trì hoãn bao gồm:\n1. Trẻ có bất kỳ dấu hiệu màng não nào: cổ cứng, dấu hiệu Kernig dương tính, dấu hiệu Brudzinski dương tính, thóp phồng ở trẻ còn thóp.\n2. Trẻ có dấu hiệu nhiễm độc, li bì nặng, hôn mê, tiếp xúc kém sau khi cơn giật đã kết thúc kéo dài.\n3. Trẻ đang hoặc đã dùng kháng sinh trong vòng vài ngày trước đó (nguy cơ làm lu mờ các triệu chứng kinh điển của viêm màng não mủ).\n4. Trẻ dưới sáu tháng tuổi có co giật kèm theo sốt (nhóm tuổi này không xếp vào co giật do sốt đơn thuần thông thường mà phải mặc định tìm kiếm nhiễm trùng hệ thần kinh trung ương).\n5. Trẻ từ sáu đến mười hai tháng tuổi chưa tiêm phòng vaccine phế cầu (PCV) và Hib đầy đủ hoặc không rõ tiền sử tiêm chủng.\n\nVí dụ 3:\nBé 7 tháng tuổi sốt 39 độ C, co giật 2 phút, mẹ chưa từng cho tiêm vaccine phế cầu hay 6 trong 1.\nBác sĩ cần giải thích chỉ định chọc dò tủy sống cho gia đình để loại trừ viêm màng não do chưa tiêm chủng.\n\n### 3.2 Chỉ định điện não đồ (EEG) và chẩn đoán hình ảnh thần kinh (CT/MRI)\nNhiều bác sĩ lâm sàng có thói quen cho làm điện não đồ hoặc chụp phim sọ não thường quy sau mỗi đợt co giật do sốt, gây lãng phí nguồn lực và phơi nhiễm tia xạ không cần thiết cho trẻ nhỏ.\n\nThoi quen cho tre lam cac tham do chuc nang dien sinh ly hoac chup chieu hinh anh than kinh so nao sau con co giat dau tien thuong xuat phat tu su lo lang thai qua cua than nhan va su thieu tu tin cua thay thuoc.\n\n- Điện não đồ và chẩn đoán hình ảnh thần kinh không được khuyến cáo thường quy sau cơn co giật do sốt đơn thuần: Electroencephalogram and neuroimaging should not be performed in the routine evaluation of a child with a simple febrile seizure. {claim:C-003} [GUIDELINE VERIFIED] (PMID: 21285335)\n\nCac bien doi song cham lan toa thoang qua tren ban ghi dien nao trong giai doan som hoan toan khong phan anh nguy co tai phat con giat hay su xuat hien cua benh dong kinh thuc su trong tuong lai cua tre.\n\nChỉ định cận lâm sàng thần kinh chuyên sâu chỉ áp dụng cho các trường hợp:\n- **Điện não đồ (EEG):** Chỉ định khi trẻ bị co giật do sốt phức tạp, co giật kéo dài, nghi ngờ trạng thái động kinh không co giật, hoặc trẻ chậm phát triển tâm thần vận động rõ rệt trước đó. Cần lưu ý rằng điện não đồ làm trong vòng 48 giờ sau co giật do sốt có thể thấy sóng chậm lan tỏa thoáng qua nhưng không có giá trị dự đoán nguy cơ tái phát hay phát triển động kinh.\n- **Chụp cắt lớp vi tính sọ não (CT-scan):** Chỉ định khẩn cấp khi nghi ngờ tăng áp lực nội sọ, chấn thương sọ não kèm theo, trẻ có dấu hiệu thần kinh khu trú kéo dài hoặc thóp phồng căng cứng.\n- **Chụp cộng hưởng từ sọ não (MRI):** Là phương tiện tối ưu lựa chọn có kế hoạch để đánh giá cấu trúc hồi hải mã, loạn sản vỏ não hoặc các tổn thương chất trắng ở trẻ có co giật do sốt phức tạp tái diễn nhiều lần hoặc trạng thái động kinh do sốt.\n\nVí dụ 4:\nBé 3 tuổi co giật do sốt đơn thuần lần đầu, phụ huynh tha thiết xin chụp CT sọ não vì sợ khối u não.\nBác sĩ cần giải thích rõ khuyến cáo AAP 2011 để tránh tia xạ không cần thiết cho não trẻ.\n\n---\n\n## 4. XỬ TRÍ CẤP CỨU VÀ ĐIỀU TRỊ TRẠNG THÁI ĐỘNG KINH THEO AES 2016\n\n### 4.1 Định nghĩa mốc thời gian T1 và T2 trong trạng thái động kinh\nHội Động kinh Hoa Kỳ (AES 2016) và Liên đoàn Quốc tế Chống Động kinh (ILAE) đã xác lập khái niệm hoạt nghiệm về Trạng thái động kinh (Status Epilepticus - SE) dựa trên hai mốc thời gian bản lề:\n- **Mốc T1 (Thời điểm bắt đầu can thiệp thuốc):** Được xác định ở phút thứ 5 đối với cơn co giật co cứng - co giật toàn thể. Nếu cơn giật kéo dài quá 5 phút, khả năng tự chấm dứt tự nhiên là cực kỳ thấp và phải lập tức khởi động phác đồ điều trị bằng thuốc cắt cơn.\n- **Mốc T2 (Thời điểm bắt đầu xảy ra tổn thương nơ-ron không hồi phục):** Được xác định ở phút thứ 30 đối với co giật toàn thể. Sau 30 phút phóng điện liên tục, tổn thương tế bào não và nguy cơ di chứng thần kinh vĩnh viễn bắt đầu xuất hiện. Mục tiêu tối thượng của cấp cứu là cắt đứt hoàn toàn cơn giật trước khi chạm mốc T2.\n\n### 4.2 Các bước tiếp cận hồi sức ban đầu (Phút 0 đến phút 5)\nTrong 5 phút đầu tiên, ưu tiên hàng đầu là hỗ trợ chức năng sống theo nguyên tắc ABCDE:\n1. **A (Airway):** Đặt trẻ nằm nghiêng an toàn sang một bên để đàm nhớt và chất nôn chảy ra ngoài, tránh hít sặc. Hút sạch đàm nhớt miệng họng nhẹ nhàng. Không được dùng dụng cụ cứng ngáng miệng.\n2. **B (Breathing):** Cung cấp oxy lưu lượng cao qua mặt nạ có túi dự trữ (100% oxy, lưu lượng 10 đến 15 lít/phút). Theo dõi sát độ bão hòa oxy qua mạch nảy.\n3. **C (Circulation):** Đánh giá mạch, nhịp tim, thời gian làm đầy mao mạch (CRT), huyết áp. Thiết lập ngay đường truyền tĩnh mạch nếu thuận lợi (không để việc lấy ven làm chậm trễ dùng thuốc qua các đường dùng khác).\n4. **D (Disability):** Đo ngay đường huyết mao mạch tại giường. Nếu Glucose máu thấp dưới 2.6 mmol/L, tiêm tĩnh mạch chậm Glucose 10% với liều 2 mL/kg.\n5. **E (Exposure):** Đo thân nhiệt, nới lỏng quần áo, bắt đầu các biện pháp hạ sốt thích hợp.\n\n### 4.3 Điều trị bước 1: Lựa chọn và liều lượng Benzodiazepine (Phút 5 đến phút 20)\nKhi cơn co giật chạm mốc 5 phút mà chưa tự dừng, bác sĩ phải dùng thuốc cắt cơn ngay:\n\nKhi con co giat tiep dien vuot qua moc thoi gian gioi han an toan ban dau, su kich thich qua muc cua cac te bao than kinh vo nao doi hoi phai co su can thiep duoc ly ngay lap tuc de tai lap lai trang thai can bang uc che.\n\n- Benzodiazepine là điều trị đầu tay được khuyến cáo cho trạng thái động kinh co giật ở trẻ em và người lớn: A benzodiazepine is recommended as the first-line treatment for convulsive status epilepticus in children and adults. {claim:C-005} [GUIDELINE VERIFIED] (PMID: 26900382)\n\nCac thuoc thuoc nhom duoc ly nay tac dong truc tiep len phuc hop thu the sau synap lam tang cuong dong ion vao trong te bao, nhanh chong dap tat cac o phong dien kich phat lan toa tren vo nao tre nho.\n\nChi tiết các thuốc Benzodiazepine lựa chọn theo thứ tự ưu tiên lâm sàng:\n- **Midazolam tiêm bắp (IM):** Lựa chọn hàng đầu khi chưa có sẵn đường truyền tĩnh mạch. Liều lượng 0.2 mg/kg (tối đa 10 mg cho trẻ trên 40 kg, tối đa 5 mg cho trẻ từ 13 đến 40 kg).\n- **Midazolam xịt mũi (IN) hoặc ngậm niêm mạc má (Buccal):** Liều lượng 0.2 mg/kg (tối đa 10 mg), là giải pháp thay thế tuyệt vời ngoài bệnh viện hoặc khi không thể tiêm bắp.\n- **Lorazepam đường tĩnh mạch (IV):** Liều lượng 0.1 mg/kg (tối đa 4 mg), tiêm tĩnh mạch chậm trong 1 đến 2 phút.\n- **Diazepam đường tĩnh mạch (IV):** Liều lượng 0.2 mg/kg (tối đa 10 mg), tiêm chậm với tốc độ không quá 2 mg/phút.\n- **Diazepam thụt trực tràng (Rectal gel):** Liều lượng 0.2 đến 0.5 mg/kg (tối đa 20 mg tùy theo độ tuổi), dùng khi không có đường truyền tĩnh mạch.\n\nNếu cơn giật vẫn tiếp diễn sau 5 đến 10 phút kể từ liều đầu tiên, có thể lặp lại thêm MỘT liều Benzodiazepine tương tự.\nKhông tiêm quá 2 liều Benzodiazepine vì nguy cơ ức chế hô hấp và tụt huyết áp tăng vọt.\n\n### 4.4 Điều trị bước 2: Thuốc chống động kinh không phải Benzodiazepine (Phút 20 đến phút 40)\nNếu sau hai liều Benzodiazepine mà cơn co giật vẫn chưa dứt (trạng thái động kinh kháng Benzodiazepine), phải chuyển sang thuốc bước hai ngay:\n\nTrong tinh huong con co giat van tiep dien bat chap viec da su dung du lieu thuoc cat con ban dau, tinh trang benh nhi da tien trien sang giai doan khang tri doi hoi phai bo sung ngay cac loai thuoc tac dong theo co che phan tu khac.\n\n- Fosphenytoin, valproate hoặc levetiracetam đường tĩnh mạch là các lựa chọn điều trị bước hai cho trạng thái động kinh: Intravenous fosphenytoin, valproate, or levetiracetam are reasonable second-line treatment options for status epilepticus. {claim:C-006} [GUIDELINE VERIFIED] (PMID: 26900382)\n\nViec lua chon cac giai phap dieu tri buoc ke tiep can dua tren tinh an toan huyet dong, toc do truyen tinh mach va tien su benh ly chuyen hoa nen cua tung ca the benh nhi de tranh nguy co suy gan hay loan nhip tim.\n\nChi tiết liều lượng và cách dùng các thuốc chống co giật bước 2:\n- **Levetiracetam (Keppra):** Liều 60 mg/kg IV (tối đa 4500 mg), truyền tĩnh mạch trong 5 đến 10 phút. Rất an toàn về mặt tim mạch và huyết động, không gây tụt huyết áp hay loạn nhịp.\n- **Fosphenytoin:** Liều 20 mg PE/kg IV (tối đa 1500 mg PE), truyền tĩnh mạch với tốc độ tối đa 150 mg PE/phút. Theo dõi liên tục điện tâm đồ và huyết áp.\n- **Phenytoin:** Liều 20 mg/kg IV (tối đa 1000 mg), pha trong dung dịch NaCl 0.9%, truyền tĩnh mạch chậm với tốc độ tối đa 1 mg/kg/phút (không quá 50 mg/phút). Chống chỉ định pha trong dung dịch Glucose vì gây kết tủa.\n- **Sodium Valproate (Depakine):** Liều 40 mg/kg IV (tối đa 3000 mg), truyền tĩnh mạch trong 5 đến 10 phút. Chống chỉ định khi nghi ngờ bệnh lý chuyển hóa ty thể hoặc suy gan cấp.\n\n### 4.5 Điều trị bước 3: Trạng thái động kinh kháng trị (Phút 40 đến phút 60)\nTrạng thái động kinh kháng trị (Refractory Status Epilepticus - RSE) xảy ra khi cơn co giật vẫn tiếp diễn dù đã dùng đủ liều Benzodiazepine và một thuốc bước hai.\nTại thời điểm này, bệnh nhân bắt buộc phải được chuyển vào khoa Hồi sức tích cực Nhi (PICU), đặt ống nội khí quản thở máy bảo vệ đường thở và khởi động truyền tĩnh mạch liên tục các thuốc gây mê:\n- **Midazolam truyền liên tục:** Liều nạp 0.2 mg/kg IV, sau đó duy trì 0.05 đến 2.0 mg/kg/giờ.\n- **Propofol truyền liên tục:** Chỉ dùng cho trẻ lớn (trên 16 tuổi) do nguy cơ hội chứng truyền Propofol (PRIS) gây tử vong ở trẻ nhỏ.\n- **Thiopental hoặc Pentobarbital:** Dùng khi các thuốc trên thất bại, cần theo dõi huyết động chặt chẽ và chuẩn bị sẵn thuốc vận mạch.\n- Thiết lập theo dõi điện não đồ liên tục (cEEG) nhằm đạt được mục tiêu dập tắt cơn giật trên điện não hoặc mô hình ức chế bùng nổ.\n\n### 4.6 Chi tiết dược động học và cơ chế phân tử của các thuốc cấp cứu\n- **Midazolam:** Vòng imidazole mở ở pH toan (dưới 4.0) giúp thuốc tan trong nước khi đóng ống tiêm, nhưng khi vào cơ thể ở pH sinh lý (7.4), vòng imidazole đóng lại làm thuốc trở nên cực kỳ tan trong mỡ, nhanh chóng vượt qua hàng rào máu não chỉ trong 1 đến 2 phút.\n- **Lorazepam:** Có ái lực gắn kết với thụ thể GABA-A cao hơn Diazepam và thể tích phân bố nhỏ hơn, giúp duy trì nồng độ ức chế trong hệ thần kinh trung ương kéo dài từ 12 đến 24 giờ.\n- **Diazepam:** Độ tan trong mỡ rất cao giúp cắt cơn nhanh trong vài phút đầu, nhưng thuốc nhanh chóng tái phân bố vào các mô mỡ ngoại vi, làm nồng độ thuốc trong não giảm nhanh sau 15 đến 30 phút, dễ dẫn đến hiện tượng co giật tái phát nếu không dùng thuốc duy trì.\n- **Levetiracetam:** Cơ chế tác dụng hoàn toàn độc đáo thông qua việc gắn chọn lọc vào protein túi synap SV2A, ức chế sự hòa màng và giải phóng các bọc chứa chất dẫn truyền kích thích Glutamate. Thuốc thải trừ chủ yếu qua thận (khoảng hai phần ba ở dạng nguyên vẹn), không chuyển hóa qua hệ enzyme Cytochrome P450 ở gan nên hầu như không có tương tác thuốc bất lợi.\n- **Fosphenytoin:** Là tiền chất tan trong nước của Phenytoin, được este hóa với gốc phosphate giúp loại bỏ dung môi độc hại propylene glycol (nguyên nhân gây tụt huyết áp và loạn nhịp tim của Phenytoin truyền thống) và tránh được hoàn toàn biến chứng hoại tử mô hội chứng găng tay tím (Purple Glove Syndrome).\n\n### 4.7 Phác đồ từng phút cấp cứu trạng thái động kinh (0 đến 60 phút)\nQuy trình thời gian biểu chuẩn xác cho kíp cấp cứu:\n- **Phút 0 - 5:** Đánh giá ABCDE, cung cấp oxy qua mặt nạ, thử đường huyết mao mạch, lấy ven, hạ nhiệt.\n- **Phút 5 - 10:** Cho liều Benzodiazepine đầu tiên (Midazolam IM hoặc Lorazepam IV). Chuẩn bị sẵn bóng giúp thở và máy hút đàm.\n- **Phút 10 - 15:** Đánh giá đáp ứng lâm sàng. Nếu cơn giật chưa dứt, cho liều Benzodiazepine thứ hai.\n- **Phút 15 - 20:** Nếu cơn giật kéo dài trên 15 phút, gọi hội chẩn bác sĩ hồi sức tích cực, chuẩn bị thuốc bước 2 (Levetiracetam hoặc Fosphenytoin).\n- **Phút 20 - 30:** Bắt đầu truyền thuốc chống động kinh bước 2 qua bơm tiêm điện. Theo dõi sát mạch, SpO2 và huyết áp.\n- **Phút 30 - 40:** Đánh giá kết thúc cơn giật. Chuẩn bị phương tiện đặt nội khí quản nếu cơn giật không đáp ứng.\n- **Phút 40 - 60:** Đặt nội khí quản, chuyển vào PICU, khởi động truyền tĩnh mạch Midazolam liên tục và theo dõi cEEG.\n\n---\n\n## 5. BẰNG CHỨNG LÂM SÀNG TỪ CÁC THỬ NGHIỆM ĐỐI CHỨNG NGẪU NHIÊN (RCT)\n\n### 5.1 Thử nghiệm RAMPART (2012): Midazolam tiêm bắp so với Lorazepam tĩnh mạch\nThử nghiệm lâm sàng RAMPART công bố trên tạp chí The New England Journal of Medicine so sánh hiệu quả cấp cứu trước viện giữa Midazolam tiêm bắp tự động với Lorazepam đường tĩnh mạch ở bệnh nhân trạng thái động kinh:\n\nTai hien truong cap cuu truoc vien hoac ngoai benh vien, su cham tre trong viec thiet lap duong truyen tinh mach thuong la rao can lon nhat doi voi viec kiem soat con co giat cap tinh dang de doa tinh mang tre.\n\n- Midazolam tiêm bắp không thua kém và đạt kiểm soát cơn co giật trước viện nhanh hơn lorazepam tĩnh mạch: Intramuscular midazolam is noninferior to intravenous lorazepam for prehospital seizure termination. {claim:C-007} [ABSTRACT VERIFIED] (PMID: 22335736)\n\nDuong tiem bap sau giup thuoc ngam nhanh vao he tuan hoan va vuot qua hang rao bao ve de phat huy tac dung duoc ly dap tat con giat som hon viec co gang tim kiem mach mau ngoai vi tren mot benh nhi dang co giat.\n\nPhân tích số liệu trên nhóm bệnh nhân thử nghiệm lâm sàng cho thấy:\nNhóm dùng Midazolam tiêm bắp đạt tỷ lệ cắt cơn giật trước khi đến phòng cấp cứu cao hơn có ý nghĩa lâm sàng so với nhóm dùng Lorazepam đường tĩnh mạch.\nThời gian từ khi quyết định dùng thuốc đến khi thuốc vào cơ thể ở nhóm tiêm bắp ngắn hơn đáng kể so với nhóm phải thiết lập đường truyền tĩnh mạch ngoại vi.\nTỷ lệ đặt nội khí quản và biến chứng suy hô hấp giữa hai nhóm hoàn toàn tương đương nhau.\n\n### 5.2 Thử nghiệm ESETT (2019): So sánh ba thuốc bước hai trong trạng thái động kinh\nThử nghiệm ESETT thực hiện trên các bệnh nhân trạng thái động kinh kháng Benzodiazepine được công bố trên The New England Journal of Medicine:\n\nNhieu thu nghiem lam sang da trung tam da duoc tien hanh mot cach bai ban nham tim kiem phac do toi uu nhat trong so cac loai thuoc dieu tri buoc hai cho benh nhan trang thai dong kinh co giat.\n\n- Levetiracetam, fosphenytoin và valproate đạt tỷ lệ kiểm soát cơn và cải thiện tri giác tương đương nhau trong trạng thái động kinh kháng benzodiazepine: Levetiracetam, fosphenytoin, and valproate each led to seizure cessation and improved alertness in children and adults. {claim:C-008} [ABSTRACT VERIFIED] (PMID: 31774955)\n\nDu lieu thuc nghiem da khang dinh rang ca ba loai thuoc duoc nghien cuu deu dem lai hieu qua cat con tuong duong va ty le hoi phuc tri giac kha quan ma khong co su chenh lech dang ke nao ve do an toan.\n\nPhân tích chi tiết quần thể nghiên cứu cho thấy:\nKết quả đánh giá trên các nhóm bệnh nhân người lớn và trẻ em ghi nhận tỷ lệ thành công cắt cơn giật và hồi phục tri giác sau một giờ ở cả ba nhóm thuốc là tương đương nhau.\nCả ba phác đồ Levetiracetam, Fosphenytoin và Sodium Valproate đều đạt hiệu quả cắt cơn xấp xỉ một nửa số trường hợp.\nKhông có sự khác biệt có ý nghĩa thống kê về tính an toàn, tỷ lệ tụt huyết áp hay ức chế hô hấp giữa ba nhóm điều trị.\n\n### 5.3 Hai thử nghiệm nhi khoa ConSEPT và EcLiPSE (2019)\nHai thử nghiệm lâm sàng đối chứng ngẫu nhiên chuyên biệt trên đối tượng trẻ em từ 6 tháng đến 16 tuổi tại Úc / New Zealand (ConSEPT) và Vương quốc Anh (EcLiPSE) được công bố đồng thời trên tạp chí The Lancet:\n\nSu ra doi cua cac the he thuoc chong co giat moi thuc day cac nha nghien cuu nhi khoa dat ra cau hoi lieu thuoc moi co thuc su vuot troi hon loai thuoc truyen thong da duoc dung nhieu thap ky hay khong.\n\n- Levetiracetam không vượt trội hơn phenytoin trong kiểm soát bước hai trạng thái động kinh co giật ở trẻ em: Levetiracetam is not superior to phenytoin for the second-line treatment of paediatric convulsive status epilepticus. {claim:C-009} [ABSTRACT VERIFIED] (PMID: 31005386)\n\nMac du khong chung minh duoc tinh uu viet hon ve hieu qua dap tat con giat, loai thuoc moi van duoc ua chuong tren lam sang nho thoi gian pha truyen thuan tien va it nguy co gay bien chung tut huyet ap.\n\nNghien cuu so sanh ngau nhien tren quan the benh nhi cap cuu cung tap trung danh gia thoi gian tu khi bat dau dung thuoc cho den khi con co giat hoan toan cham dut tren lam sang.\n\n- Levetiracetam không chứng minh được sự vượt trội so với phenytoin về thời gian cắt cơn trạng thái động kinh co giật: Levetiracetam was not shown to be superior to phenytoin in the time to cessation of status epilepticus. {claim:C-010} [ABSTRACT VERIFIED] (PMID: 31005385)\n\nSu tuong dong ve toc do kiem soat con co giat giua hai nhom can thiep khang dinh vai tro gia tri cua ca hai lua chon duoc ly trong phac do hoi suc nhi khoa hien dai.\n\nCả hai nghiên cứu đều chỉ ra rằng Levetiracetam không vượt trội hơn Phenytoin về tỷ lệ cắt cơn bước hai hay thời gian kiểm soát cơn.\nTuy nhiên, Levetiracetam có ưu điểm vượt trội thực tế:\nthời gian pha thuốc và truyền tĩnh mạch nhanh hơn nhiều (5 phút so với 20 phút của Phenytoin), ít nguy cơ tụt huyết áp và loạn nhịp tim hơn.\n\nVí dụ 5:\nTại phòng cấp cứu, khi đối mặt với trẻ bị trạng thái động kinh kháng Benzodiazepine, lựa chọn Levetiracetam truyền trong 10 phút giúp kiểm soát cơn nhanh mà không gây tụt huyết áp như Phenytoin truyền thống.\n\n### 5.4 Bằng chứng hạ sốt trong đợt co giật (Thử nghiệm Murata 2018)\nTrước đây, nhiều quan điểm cho rằng hạ sốt tích cực không làm giảm nguy cơ co giật tái phát trong cùng một đợt sốt.\nTuy nhiên, thử nghiệm lâm sàng ngẫu nhiên của Murata và cộng sự công bố trên tạp chí Pediatrics đã đem lại góc nhìn chứng cứ mới:\n\nQuan diem truyen thong cho rang viec su dung thuoc ha sot hoan toan khong lam thay doi dien tien tu nhien hay nguy co xuat hien con co giat o tre nho bi sot cao.\n\n- Hạ sốt bằng acetaminophen đường trực tràng an toàn và giúp làm giảm nguy cơ tái phát cơn co giật trong cùng một đợt sốt: Rectal acetaminophen is safe and prevents recurrent seizures within the same fever episode in children with febrile seizures. {claim:C-011} [ABSTRACT VERIFIED] (PMID: 30297499)\n\nViec kiem soat than nhiet dung phuong phap dem lai su de chiu cho benh nhi va lam giam thieu tan suat tai phat con co giat trong cung mot dot nhiem trung cap tinh mot cach an toan.\n\nTheo dõi tiến cứu ghi nhận việc dùng Acetaminophen đặt hậu môn liều mười miligam trên mỗi kilogam thể trọng mỗi sáu giờ giúp giảm tỷ lệ tái phát cơn giật trong cùng một đợt sốt một cách an toàn so với nhóm không dùng thuốc hạ sốt thường quy.\nMặc dù thuốc hạ sốt không ngăn ngừa được cơn co giật do sốt trong các đợt bệnh tương lai, việc kiểm soát thân nhiệt hợp lý đem lại sự dễ chịu và giảm thiểu nguy cơ tái phát cơn ngắn hạn trong cùng đợt sốt.\n\n### 5.5 Nghiên cứu FEBSTAT: Tiên lượng tổn thương não sau trạng thái động kinh do sốt\nNghiên cứu đoàn hệ tiến cứu FEBSTAT theo dõi dài hạn các trẻ bị trạng thái động kinh do sốt (FSE) kéo dài trên 30 phút, công bố các kết quả bước ngoặt trên tạp chí Epilepsia và Epilepsia Open:\n\nNhung con co giat keo dai lien tuc tren nua gio khong con la bien co lanh tinh thong thuong ma dat ra nguy co ton thuong thuc the lau dai tai cac cau truc nhay cam cua he than kinh trung uong.\n\n- Trạng thái động kinh do sốt kéo dài có liên quan đến tổn thương hồi hải mã và phát triển động kinh thùy thái dương sau này: Febrile status epilepticus is associated with hippocampal injury and subsequent development of temporal lobe epilepsy. {claim:C-012} [ABSTRACT VERIFIED] (PMID: 38606600)\n\nHien tuong phu ne cap tinh vung cau truc hoi hai ma duoc ghi nhan la tien de cho qua trinh xo hoa te bao va phat trien thanh benh dong kinh man tinh kho dieu tri ve sau.\n\nCac nghien cuu doan he theo doi benh nhi trong nhieu nam sau bien co trang thai dong kinh cung cap nhung hieu biet sau sac ve dien tien tu nhien va hau qua lau dai cua benh.\n\n- Nghiên cứu FEBSTAT theo dõi dài hạn làm sáng tỏ cơ chế sinh động kinh và yếu tố tiên lượng sau trạng thái động kinh do sốt: Long-term follow-up from the FEBSTAT study clarifies epileptogenesis and outcome predictors after febrile status epilepticus. {claim:C-013} [ABSTRACT VERIFIED] (PMID: 40770931)\n\nNhung du lieu theo doi dai han nay giup nguoi thay thuoc nhan dien cac yeu to du bao nguy co de xay dung ke hoach theo doi va can thiep than kinh kip thoi cho benh nhi.\n\nNghiên cứu ghi nhận trên hình ảnh cộng hưởng từ não làm trong giai đoạn cấp:\nMột tỷ lệ đáng kể trẻ bị trạng thái động kinh do sốt có tổn thương hồi hải mã cấp tính biểu hiện bằng tăng tín hiệu trên chuỗi xung T2 và phù nề nhu mô.\nTheo dõi dài hạn sau đó cho thấy các trẻ có tổn thương cấp này tiến triển thành xơ teo hồi hải mã và phát triển thành động kinh thùy thái dương kháng trị.\nTỷ lệ động kinh sau co giật do sốt đơn thuần rất thấp (tương đương dân số chung), nhưng sau FSE con số này tăng lên rõ rệt.\n\nVí dụ 6:\nTrẻ bị co giật do sốt kéo dài 45 phút cần được chụp MRI sọ não sau giai đoạn cấp để đánh giá tổn thương hồi hải mã và lên kế hoạch theo dõi điện não đồ định kỳ.\n\n---\n\n## 6. QUẢN LÝ DÀI HẠN, THEO DÕI VÀ THAM VẤN GIA ĐÌNH THEO AAP 2008\n\n### 6.1 Khuyến cáo dùng thuốc chống động kinh dự phòng\nViện Hàn lâm Nhi khoa Hoa Kỳ (AAP 2008) đã ban hành hướng dẫn thực hành lâm sàng chi tiết về quản lý dài hạn cho trẻ co giật do sốt đơn thuần:\n\nViec su dung cac thuoc chong co giat keo dai nham muc dich ngan ngua con tai phat tung la chu de gay nhieu tranh luan va quan ngai trong gioi chuyen mon than kinh nhi khoa.\n\n- Thuốc chống động kinh liên tục hoặc ngắt quãng không được khuyến cáo cho co giật do sốt đơn thuần do tác dụng phụ vượt trội lợi ích: Continuous or intermittent antiepileptic therapy is not recommended for children with simple febrile seizures. {claim:C-004} [GUIDELINE VERIFIED] (PMID: 18519501)\n\nNhung tac dung khong mong muon nghiem trong len su phat trien nhan thuc, tri tue va hanh vi cua tre nho vuot troi hon han so voi ban chat lanh tinh cua cac con co giat co sot don thuan.\n\nPhân tích lý do chống chỉ định điều trị dự phòng thường quy:\n1. **Phenobarbital:** Mặc dù làm giảm nguy cơ tái phát cơn, nhưng thuốc gây ra các tác dụng phụ nghiêm trọng về hành vi (tăng động, cáu gắt, hung hăng) và làm suy giảm nhận thức, giảm chỉ số IQ ở trẻ nhỏ.\n2. **Sodium Valproate:** Có hiệu quả dự phòng tương đương Phenobarbital nhưng tiềm ẩn nguy cơ độc tính hoại tử tế bào gan gây tử vong (đặc biệt ở trẻ dưới hai tuổi có bệnh lý ty thể tiềm ẩn), viêm tụy cấp và giảm tiểu cầu.\n3. **Diazepam ngắt quãng:** Dùng Diazepam đường uống hoặc trực tràng khi trẻ bắt đầu sốt có thể giảm số cơn tái phát nhưng gây buồn ngủ nhiều, ức chế vận động và có thể che lấp các dấu hiệu cảnh báo của nhiễm trùng hệ thần kinh trung ương.\n4. Do co giật do sốt đơn thuần không gây tử vong, không gây di chứng thần kinh và không làm suy giảm trí tuệ, các nguy cơ do thuốc chống động kinh gây ra vượt trội hoàn toàn so với lợi ích lâm sàng.\n\n### 6.2 Bảng đối chiếu các yếu tố nguy cơ tái phát co giật do sốt\nKhoảng 30% đến 35% trẻ sau cơn co giật do sốt đầu tiên sẽ bị tái phát ít nhất một lần trong các đợt sốt tiếp theo.\nCác yếu tố nguy cơ giúp dự đoán khả năng tái phát:\n\n| Yếu tố nguy cơ chính | Tác động lâm sàng | Tỷ lệ tái phát tương ứng |\n| :--- | :--- | :--- |\n| **Tuổi khởi phát cơn đầu tiên $< 12$ tháng** | Yếu tố dự báo mạnh nhất cho việc tái phát | Tái phát lên tới 50% nếu khởi phát dưới 1 tuổi |\n| **Thời gian sốt trước khi co giật $< 1$ giờ** | Cơn giật xảy ra rất nhanh sau khi sốt | Tăng nguy cơ tái phát gấp 2 lần |\n| **Nhiệt độ lúc co giật thấp ($38.0 - 38.5^\\circ\\text{C}$)** | Ngưỡng co giật của não bộ thấp | Tăng nguy cơ tái phát nhiều đợt |\n| **Tiền sử gia đình có người bị co giật do sốt** | Có yếu tố di truyền thế hệ 1 (bố mẹ, anh chị em) | Tăng nguy cơ tái phát lên 30% đến 40% |\n| **Co giật do sốt phức tạp** | Có ít nhất 1 đặc điểm của co giật phức tạp | Tăng nguy cơ tiến triển thành động kinh |\n\n### 6.3 Hướng dẫn tiêm chủng an toàn sau co giật do sốt\n- Co giật do sốt hoàn toàn **KHÔNG PHẢI** là chống chỉ định tiêm chủng. Bệnh nhi cần được tiêm phòng đầy đủ tất cả các loại vaccine theo lịch tiêm chủng mở rộng.\n- Nguy cơ co giật do sốt tăng nhẹ sau tiêm một số loại vaccine (như vaccine sởi - quai bị - rubella MMR vào ngày thứ 7 đến 10 sau tiêm; vaccine DTaP trong vòng 24 đến 48 giờ sau tiêm).\n- Lợi ích bảo vệ của vaccine chống lại các bệnh nhiễm trùng nguy hiểm (viêm màng não, viêm não, viêm phổi, sởi) vượt trội hoàn toàn so với nguy cơ co giật do sốt lành tính sau tiêm.\n\n### 6.4 Hướng dẫn sử dụng thuốc cấp cứu tại nhà (Rescue Medication)\nĐối với những trẻ có tiền sử co giật do sốt kéo dài trên 5 phút, co giật cụm nhiều cơn, hoặc gia đình ở xa cơ sở y tế (thời gian di chuyển trên 15 đến 20 phút), bác sĩ có thể kê đơn thuốc cấp cứu tại nhà:\n- **Midazolam ngậm niêm mạc má (Buccal Midazolam):** Liều theo lứa tuổi (2.5 mg cho trẻ 6 - 12 tháng, 5 mg cho trẻ 1 - 5 tuổi). Bơm thuốc vào giữa má và nướu răng dưới của trẻ, thuốc hấp thu trực tiếp qua niêm mạc miệng.\n- **Diazepam gel trực tràng (Diastat):** Bơm vào hậu môn của trẻ theo liều định sẵn khi cơn co giật kéo dài quá 5 phút. Hướng dẫn phụ huynh gọi ngay cấp cứu 115 sau khi dùng thuốc.\n\n---\n\n## 7. TIPS THỰC HÀNH CỐT LÕI VÀ KINH NGHIỆM LÂM SÀNG (CLINICAL PEARLS)\n\n- **Tip 1:** Luôn bấm giờ chính xác thời gian cơn co giật; cảm nhận thời gian của người nhà trong lúc hoảng loạn thường bị thổi phồng gấp 3 đến 4 lần so với thực tế.\n- **Tip 2:** Cung cấp oxy lưu lượng cao qua mặt nạ có túi dự trữ ngay khi tiếp nhận trẻ đang co giật để phòng ngừa tổn thương não do thiếu oxy.\n- **Tip 3:** Không bao giờ để việc cố gắng tìm tĩnh mạch làm chậm trễ liều thuốc cắt cơn đầu tiên; Midazolam tiêm bắp là lựa chọn nhanh nhất và hiệu quả nhất khi chưa có ven.\n- **Tip 4:** Bấm đường huyết mao mạch tại giường là phản xạ bắt buộc trước hoặc song song với việc tiêm thuốc chống co giật.\n- **Tip 5:** Luôn chuẩn bị sẵn sàng dụng cụ hút đàm nhớt và bóng giúp thở có mặt nạ phù hợp kích cỡ trước khi tiêm Benzodiazepine.\n- **Tip 6:** Khi trẻ đang co giật, đặt trẻ nằm nghiêng sang bên trái (tư thế hồi sức an toàn) để lưỡi không tụt ra sau và chất nôn không trào ngược vào khí quản.\n- **Tip 7:** Không tiêm quá 2 liều Benzodiazepine ngắn hạn; nếu cơn giật không dứt sau 10 phút dùng thuốc bước 1, phải chuyển ngay sang thuốc bước 2.\n- **Tip 8:** Thuốc chống co giật bước 2 ưu tiên lựa chọn hàng đầu ở trẻ em hiện nay là Levetiracetam nhờ tính an toàn tim mạch vượt trội và thời gian truyền nhanh.\n- **Tip 9:** Khi dùng Phenytoin, bắt buộc phải pha trong dung dịch Natri Clorid 0.9% và theo dõi liên tục điện tâm đồ trong suốt quá trình truyền.\n- **Tip 10:** Tuyệt đối không điều trị dự phòng lâu dài bằng thuốc chống động kinh cho trẻ co giật do sốt đơn thuần.\n- **Tip 11:** Hướng dẫn phụ huynh cách đo thân nhiệt chính xác và dùng thuốc hạ sốt Paracetamol (10 đến 15 mg/kg) hoặc Ibuprofen (5 đến 10 mg/kg) để giúp trẻ dễ chịu.\n- **Tip 12:** Giải thích rõ ràng cho gia đình rằng co giật do sốt đơn thuần không làm tổn thương não, không gây thiểu năng trí tuệ và không làm trẻ trở thành người tàn tật.\n- **Tip 13:** Nhận diện sớm các dấu hiệu cờ đỏ của viêm màng não mủ: thóp phồng, cổ gượng, ban xuất huyết hoại tử, li bì khó đánh thức sau cơn giật.\n- **Tip 14:** Chọc dò tủy sống là thủ thuật bắt buộc ở mọi trẻ co giật có sốt dưới 6 tháng tuổi hoặc có bất kỳ triệu chứng màng não nào.\n- **Tip 15:** Không làm điện não đồ thường quy trong vòng 48 giờ đầu sau co giật do sốt đơn thuần vì không mang lại giá trị tiên lượng.\n- **Tip 16:** Trang bị sẵn thuốc Midazolam ngậm niêm mạc má hoặc Diazepam thụt hậu môn cho những gia đình có trẻ từng bị co giật do sốt kéo dài và sống ở xa bệnh viện.\n- **Tip 17:** Luôn giữ bình tĩnh, giải thích nhẹ nhàng và đồng cảm với nỗi sợ hãi tột cùng của cha mẹ khi chứng kiến con bị co giật.\n- **Tip 18:** Nhắc nhở phụ huynh không được vắt chanh vào miệng, không cạo gió rách da, không nhỏ nước chanh vào mắt trẻ trong lúc giật.\n- **Tip 19:** Kiểm tra kỹ tiền sử tiêm chủng vaccine phế cầu và Hib của trẻ để đưa ra quyết định chọc dò dịch não tủy chính xác.\n- **Tip 20:** Sau khi cắt được cơn giật, luôn kiểm tra lại tri giác, đồng tử, trương lực cơ và tìm kiếm ổ nhiễm trùng nguyên phát (tai mũi họng, phổi, đường tiểu).\n- **Tip 21:** Đối với trẻ co giật kéo dài trên 30 phút, luôn cảnh giác với nguy cơ phù não cấp và tổn thương hồi hải mã, chuẩn bị sẵn sàng chuyển tuyến PICU.\n- **Tip 22:** Khuyên gia đình tiếp tục tiêm phòng đầy đủ các vaccine cho trẻ theo lịch, không vì một đợt co giật do sốt mà bỏ lỡ cơ hội phòng ngừa các bệnh nguy hiểm.\n- **Tip 23:** Tránh dùng nước đá lạnh để lau người cho trẻ vì gây co mạch ngoại vi đột ngột, làm tăng thân nhiệt trung tâm và khiến trẻ run rẩy khó chịu.\n- **Tip 24:** Chỉ dùng nước ấm có nhiệt độ thấp hơn thân nhiệt trẻ khoảng 1 đến 2 độ C để lau mát các vùng có mạch máu lớn như nách, bẹn và cổ.\n- **Tip 25:** Luôn kiểm tra lại nồng độ điện giải đồ, đặc biệt là Natri máu ở trẻ tiêu chảy cấp có co giật vì nguy cơ hạ Natri hoặc tăng Natri máu nặng.\n- **Tip 26:** Không bao giờ truyền Levetiracetam quá nhanh dưới 5 phút ở trẻ nhũ nhi nhỏ tuổi để phòng tránh nguy cơ kích ứng mạch máu tại chỗ.\n- **Tip 27:** Khi chuyển viện bệnh nhi trạng thái động kinh, bắt buộc phải có bác sĩ hoặc điều dưỡng đi cùng với đầy đủ bóng bóp, oxy và thuốc cấp cứu.\n- **Tip 28:** Giải thích rõ với phụ huynh rằng thuốc hạ sốt chỉ có tác dụng làm giảm thân nhiệt tạm thời chứ không thể ngăn ngừa hoàn toàn cơn co giật bùng phát.\n- **Tip 29:** Hướng dẫn gia đình quay video ngắn về cơn giật nếu an toàn để giúp bác sĩ thần kinh nhi đánh giá chính xác tính chất co giật cục bộ hay toàn thể.\n- **Tip 30:** Lưu số điện thoại cấp cứu y tế khẩn cấp và địa chỉ bệnh viện gần nhất vào sổ theo dõi sức khỏe của trẻ để liên hệ ngay khi cần thiết.\n- **Tip 31:** Khi trẻ có biểu hiện tím tái trong cơn giật, hãy kiểm tra ngay vị trí đầu và cổ của trẻ để chắc chắn đường thở không bị gập hoặc ngửa quá mức.\n- **Tip 32:** Luôn đối chiếu cân nặng thực tế gần nhất của trẻ trước khi tính toán liều lượng thuốc cấp cứu dạng tiêm truyền.\n- **Tip 33:** Không cho trẻ ăn uống bất cứ thứ gì cho đến khi trẻ tỉnh táo hoàn toàn và phản xạ nuốt hồi phục bình thường.\n- **Tip 34:** Cần thông tin rõ ràng về các biểu hiện sốt phát ban dạng virus lành tính sau sốt để cha mẹ không lo lắng nhầm với tác dụng phụ của thuốc.\n- **Tip 35:** Đảm bảo hồ sơ bệnh án ghi chép đầy đủ thời gian khởi phát, thời gian can thiệp từng liều thuốc và đáp ứng lâm sàng của bệnh nhi.\n\n---\n\n## 8. CẢNH BÁO BẪY NGUY HIỂM VÀ AN TOÀN NGƯỜI BỆNH (SAFETY BOX ĐỎ)\n\n::: safety\n### HỘP BẢO VỆ AN TOÀN NGƯỜI BỆNH & BẪY NGUY HIỂM (SAFETY BOX ĐỎ)\n- **Bẫy 1:** Nhầm lẫn co giật do sốt với Viêm màng não mủ giai đoạn sớm. Ở trẻ nhũ nhi dưới 12 tháng tuổi, các dấu hiệu màng não kinh điển (cổ cứng, Kernig, Brudzinski) có thể hoàn toàn âm tính. Bất kỳ biểu hiện li bì, bỏ bú, thóp phồng hoặc tiếp xúc kém sau cơn giật đều là chỉ định tuyệt đối để chọc dò tủy sống.\n- **Bẫy 2:** Bỏ sót hạ đường huyết cấp tính kèm theo. Sốt cao làm tăng tiêu thụ chuyển hóa năng lượng, trong khi trẻ biếng ăn hoặc nôn ói dễ dẫn đến hạ đường huyết làm nặng thêm cơn co giật. Luôn luôn bấm đường huyết mao mạch tại giường ngay khi tiếp nhận.\n- **Bẫy 3:** Chèn vật cứng vào miệng trẻ trong cơn co giật. Đây là sai lầm phổ biến và nguy hiểm nhất của phụ huynh và cả nhân viên y tế thiếu kinh nghiệm. Việc nhét thìa, đũa, ngón tay vào miệng có thể gây gãy răng, chấn thương mô mềm, chảy máu khoang miệng và tắc nghẽn đường thở dẫn đến tử vong do ngạt.\n- **Bẫy 4:** Tiêm quá nhiều liều Benzodiazepine. Việc tiêm dồn dập từ 3 liều Benzodiazepine trở lên trong thời gian ngắn là nguyên nhân hàng đầu gây suy hô hấp cấp, ngừng thở và tụt huyết áp nặng nề tại phòng cấp cứu.\n- **Bẫy 5:** Pha Phenytoin vào dịch truyền có chứa Glucose. Phenytoin chỉ tan ở môi trường kiềm cao (pH 12), khi gặp dịch truyền Glucose có pH toan sẽ bị kết tủa thành các tinh thể siêu nhỏ gây tắc mạch phổi và hoại tử mô. Luôn luôn pha trong NaCl 0.9% và tráng rửa đường truyền trước sau khi tiêm.\n- **Bẫy 6:** Quên làm ấm dung dịch thuốc khi thụt trực tràng hoặc tiêm bắp sai vị trí ở trẻ nhỏ. Tiêm bắp Midazolam phải tiêm sâu vào cơ mặt trước ngoài đùi (Vastus lateralis), không tiêm vào vùng mông ở trẻ nhỏ vì cơ mông chưa phát triển và nguy cơ tổn thương thần kinh tọa.\n:::\n\n---\n\n## 9. CÁC CA LÂM SÀNG THỰC TẾ CÓ LỜI GIẢI CHI TIẾT (CASE STUDIES)\n\n### Case 1: Co giật do sốt đơn thuần ở trẻ 18 tháng tuổi\n- **Bệnh sử:** Bé trai 18 tháng tuổi, nặng 11.5 kg, được mẹ đưa vào cấp cứu vì co giật lúc đang ngủ. Mẹ phát hiện bé sốt nóng từ sáng, đo nhiệt độ nách $39.2^\\circ\\text{C}$. Cơn giật kéo dài khoảng 3 phút, biểu hiện gồng cứng toàn thân, mắt trợn ngược, hai tay hai chân giật nhịp nhàng, sau đó tự ngưng.\n- **Thăm khám lúc vào viện:** Bé tỉnh táo, khóc đòi mẹ, môi hồng, chi ấm, mạch 125 lần/phút, thở 28 lần/phút, nhiệt độ $38.8^\\circ\\text{C}$. Khám họng thấy amidan hai bên sưng đỏ có chấm mủ trắng, không có ban xuất huyết dưới da, thóp đã đóng, cổ mềm, dấu Kernig âm tính, vận động tứ chi đối xứng bình thường. Tiền sử tiêm chủng đã tiêm 3 mũi 6 trong 1 và 1 mũi phế cầu lúc 2 tháng tuổi.\n- **Câu hỏi đặt ra:** Bệnh nhi này có chỉ định chọc dò tủy sống, làm điện não đồ hoặc chụp CT-scan sọ não hay không? Hướng xử trí tiếp theo là gì?\n- **Phân tích và Lời giải chi tiết:**\n1. *Chẩn đoán:* Co giật do sốt đơn thuần lần đầu / Viêm amidan cấp có mủ. Trẻ chưa được tiêm chủng phế cầu đầy đủ (mới tiêm 1 mũi lúc 2 tháng tuổi).\n2. *Chỉ định cận lâm sàng:* Theo Hướng dẫn AAP 2011, mặc dù trẻ tỉnh táo và không có dấu màng não, nhưng việc chưa tiêm chủng đầy đủ vaccine phế cầu (mới 1 liều) khiến chọc dò dịch não tủy là một lựa chọn cần cân nhắc nếu bác sĩ lâm sàng nghi ngờ hoặc không thể theo dõi sát. Tuy nhiên, nếu sau 2 - 4 giờ theo dõi tại phòng cấp cứu, trẻ tỉnh táo hoàn toàn, chơi ngoan, bú tốt và tìm thấy rõ ổ nhiễm trùng vùng tai mũi họng thì có thể trì hoãn chọc dò và theo dõi sát. Điện não đồ và CT sọ não tuyệt đối KHÔNG có chỉ định.\n3. *Xử trí:* Dùng thuốc hạ sốt Paracetamol 15 mg/kg uống (hoặc đặt hậu môn nếu nôn), bù nước điện giải đường uống, điều trị kháng sinh phù hợp cho viêm amidan mủ, giải thích trấn an tâm lý cho phụ huynh và hướng dẫn cách xử trí cơn giật tại nhà.\n\n### Case 2: Trạng thái động kinh do sốt ở trẻ 24 tháng tuổi\n- **Bệnh sử:** Bé gái 24 tháng tuổi, nặng 12 kg, tiền sử khỏe mạnh. Cách nhập viện 20 phút, bé sốt cao $39.5^\\circ\\text{C}$ và xuất hiện co cứng co giật toàn thân. Người nhà gọi xe cấp cứu chuyển đến bệnh viện. Khi vào đến khoa cấp cứu, cơn giật vẫn đang tiếp diễn liên tục (tổng thời gian giật đã là 25 phút).\n- **Thăm khám lúc vào viện:** Bé đang co giật toàn thể, tím tái quanh môi, thở ngắt quãng không đều, SpO2 dao động 84% - 86% với khí phòng, mạch 160 lần/phút, huyết áp $90/55\\text{ mmHg}$. Chưa có sẵn đường truyền tĩnh mạch.\n- **Xử trí cấp cứu từng bước:**\n1. *Bước 1 (Hỗ trợ hô hấp & Dùng thuốc ngay lập tức):* Đặt bé nằm nghiêng sang bên, hút đàm nhớt miệng họng, bóp bóng qua mặt nạ có túi dự trữ với oxy 100%. Lập tức tiêm bắp Midazolam liều 0.2 mg/kg (2.5 mg) vào mặt trước ngoài đùi. Đồng thời thử nhanh đường huyết mao mạch (kết quả 4.2 mmol/L).\n2. *Bước 2 (Sau 5 phút dùng thuốc bước 1):* Cơn giật giảm nhẹ nhưng vẫn còn giật nhịp nhàng tứ chi, SpO2 cải thiện lên 92% qua bóp bóng. Điều dưỡng lấy được ven tĩnh mạch ngoại vi ở mu bàn chân. Quyết định cho liều thứ hai: Lorazepam IV liều 0.1 mg/kg (1.2 mg) tiêm chậm trong 2 phút.\n3. *Bước 3 (Cơn giật kéo dài chạm phút thứ 32):* Cơn giật vẫn chưa dứt hoàn toàn. Bệnh nhân đã chuyển sang Trạng thái động kinh kháng Benzodiazepine. Khởi động ngay thuốc bước hai: Levetiracetam (Keppra) liều 60 mg/kg (720 mg) pha trong 50 mL NaCl 0.9% truyền tĩnh mạch qua bơm tiêm điện trong 10 phút.\n4. *Kết quả:* Đến phút thứ 8 của quá trình truyền Levetiracetam, cơn co giật chấm dứt hoàn toàn, đồng tử hai bên đều 2 mm có phản xạ ánh sáng, bé tự thở đều qua oxy cannula, SpO2 98%. Tiếp tục theo dõi sát tri giác và chuyển PICU theo dõi tiếp.\n\n### Case 3: Co giật do sốt phức tạp nghi ngờ hội chứng Dravet\n- **Bệnh sử:** Bé trai 9 tháng tuổi, nhập viện vì co giật nửa người bên phải khi sốt $38.2^\\circ\\text{C}$ sau tiêm vaccine 6 trong 1 mũi 3 được 1 ngày. Cơn giật kéo dài 18 phút mới dứt sau khi dùng Midazolam tại trạm y tế. Đây là đợt giật thứ ba của bé (hai đợt trước xảy ra lúc 5 tháng và 7 tháng tuổi, đều kéo dài trên 15 phút và có cơn giật bên trái).\n- **Phân tích và Đề xuất điều trị:**\n1. Bé có đầy đủ các dấu hiệu cảnh báo của một thể co giật do sốt phức tạp nguy cơ cao: khởi phát rất sớm (dưới 1 tuổi), cơn giật kéo dài trên 15 phút, tính chất giật cục bộ nửa người luân chuyển bên (lúc bên phải, lúc bên trái).\n2. Cần nghi ngờ cao Hội chứng Dravet do đột biến gen SCN1A.\n3. *Lưu ý sống còn:* Chống chỉ định dùng các thuốc ức chế kênh Natri như Carbamazepine, Oxcarbazepine, Phenytoin. Thuốc lựa chọn ưu tiên duy trì lâu dài là Clobazam, Valproate kết hợp Stiripentol hoặc Cannabidiol. Chỉ định làm xét nghiệm di truyền giải trình tự gen SCN1A và chụp MRI sọ não.\n\n---\n\n## 10. ĐIỂM KIỂM TRA TỰ ĐÁNH GIÁ (SELF-CHECKPOINTS)\n\n- [ ] **Checkpoint 1:** Nêu 3 tiêu chuẩn lâm sàng bắt buộc để phân loại một cơn co giật là Co giật do sốt đơn thuần (Simple FS).\n- [ ] **Checkpoint 2:** Liệt kê 4 chỉ định tuyệt đối bắt buộc phải chọc dò tủy sống ở trẻ co giật kèm sốt theo khuyến cáo của AAP 2011.\n- [ ] **Checkpoint 3:** Phân biệt ý nghĩa sinh học và can thiệp lâm sàng của hai mốc thời gian T1 (5 phút) và T2 (30 phút) trong trạng thái động kinh.\n- [ ] **Checkpoint 4:** Nêu rõ lý do tại sao AAP 2008 khuyến cáo KHÔNG dùng thuốc chống động kinh dự phòng thường quy cho trẻ co giật do sốt đơn thuần.\n- [ ] **Checkpoint 5:** Trình bày thứ tự ưu tiên và liều lượng của các thuốc Benzodiazepine bước 1 khi chưa có và khi đã có đường truyền tĩnh mạch.\n- [ ] **Checkpoint 6:** Trình bày các bước chuẩn bị phương tiện đặt nội khí quản và thuốc mê trước khi bệnh nhân chuyển sang bước ba.\n- [ ] **Checkpoint 7:** Giải thích cơ chế tác dụng phân tử của Levetiracetam thông qua thụ thể túi synap SV2A.\n- [ ] **Checkpoint 8:** Nêu các tiêu chuẩn phân biệt giữa cơn co giật do sốt lành tính và co giật khởi phát do viêm não màng não mủ.\n- [ ] **Checkpoint 9:** Phân tích các yếu tố dự báo nguy cơ tái phát cơn co giật trong các đợt sốt tiếp theo ở trẻ nhỏ.\n- [ ] **Checkpoint 10:** Trình bày các nội dung tư vấn giáo dục sức khỏe và hướng dẫn sơ cứu an toàn tại nhà cho phụ huynh.\n\n---\n\n## 11. CÂU HỎI TRẮC NGHIỆM TỰ LƯỢNG GIÁ (MCQS)\n\n### Câu 1: Trẻ nam 14 tháng tuổi được chẩn đoán co giật do sốt đơn thuần. Theo AAP 2011, chỉ định nào sau đây là KHÔNG phù hợp?\nA. Chọc dò tủy sống thường quy để tầm soát viêm màng não\nB. Khám kỹ vùng tai mũi họng tìm ổ nhiễm trùng\nC. Cho hạ sốt bằng Paracetamol 15 mg/kg khi trẻ quấy khóc\nD. Tư vấn trấn an gia đình về tính chất lành tính của bệnh\n*Đáp án đúng:* A. AAP 2011 khuyến cáo không chọc dò tủy sống thường quy cho trẻ co giật do sốt đơn thuần tổng trạng tốt và đã tiêm chủng đầy đủ.\n\n### Câu 2: Thuốc cắt cơn co giật bước 1 được khuyến cáo ưu tiên hàng đầu ngoài bệnh viện khi chưa có đường truyền tĩnh mạch là:\nA. Phenobarbital tiêm bắp\nB. Midazolam tiêm bắp\nC. Phenytoin truyền tĩnh mạch\nD. Levetiracetam uống\n*Đáp án đúng:* B. Thử nghiệm RAMPART chứng minh Midazolam tiêm bắp kiểm soát cơn giật nhanh hơn và tỷ lệ thành công cao hơn nhờ không mất thời gian lấy ven.\n\n### Câu 3: Mốc thời gian T1 trong trạng thái động kinh co giật toàn thể theo Hội Động kinh Hoa Kỳ (AES 2016) là:\nA. 1 phút\nB. 5 phút\nC. 15 phút\nD. 30 phút\n*Đáp án đúng:* B. Mốc T1 là 5 phút, thời điểm bắt đầu phải can thiệp thuốc chống co giật vì cơn giật ít có khả năng tự chấm dứt tự nhiên.\n\n### Câu 4: Thuốc chống co giật bước 2 nào sau đây có ưu điểm vượt trội về thời gian truyền nhanh và an toàn tim mạch cao ở trẻ em?\nA. Phenytoin\nB. Phenobarbital\nC. Levetiracetam\nD. Thiopental\n*Đáp án đúng:* C. Levetiracetam có thể truyền nhanh trong 5 đến 10 phút, không gây ức chế cơ tim và không làm tụt huyết áp.\n\n### Câu 5: Tác dụng phụ nghiêm trọng nhất khiến Phenobarbital không được khuyến cáo dự phòng co giật do sốt đơn thuần ở trẻ nhỏ là:\nA. Rối loạn hành vi và suy giảm nhận thức kéo dài\nB. Tụt huyết áp kịch phát\nC. Suy gan hoại tử tế bào gan cấp tính\nD. Tăng sản nướu răng và rậm lông\n*Đáp án đúng:* A. Phenobarbital làm suy giảm nhận thức, giảm điểm IQ và gây rối loạn hành vi kích động ở trẻ nhỏ.\n\n### Câu 6: Trẻ 8 tháng tuổi bị co giật nửa người bên trái kéo dài 20 phút khi sốt. Đây là dạng co giật gì?\nA. Co giật do sốt đơn thuần\nB. Co giật do sốt phức tạp\nC. Động kinh vắng ý thức\nD. Cơn co thắt nhũ nhi\n*Đáp án đúng:* B. Cơn giật có tính chất cục bộ nửa người và kéo dài trên 15 phút là tiêu chuẩn của co giật do sốt phức tạp.\n\n### Câu 7: Khi pha Phenytoin truyền tĩnh mạch, dung dịch nào sau đây là BẮT BUỘC sử dụng?\nA. Glucose 5%\nB. Glucose 10%\nC. Ringer Lactat\nD. Natri Clorid 0.9%\n*Đáp án đúng:* D. Phenytoin kết tủa ngay lập tức trong môi trường toan của Glucose, bắt buộc phải pha trong NaCl 0.9%.\n\n### Câu 8: Dung môi Propylene glycol trong ống tiêm Phenytoin truyền thống là nguyên nhân chính dẫn đến biến chứng nào?\nA. Tụt huyết áp và loạn nhịp tim\nB. Hội chứng Stevens-Johnson\nC. Suy tủy xương\nD. Viêm tụy cấp\n*Đáp án đúng:* A. Propylene glycol gây ức chế cơ tim, tụt huyết áp và loạn nhịp khi truyền nhanh.\n\n### Câu 9: Theo nghiên cứu FEBSTAT, trạng thái động kinh do sốt kéo dài trên 30 phút làm tăng nguy cơ tổn thương cấu trúc não nào?\nA. Thùy trán\nB. Hồi hải mã thùy thái dương\nC. Tiểu não\nD. Cầu não\n*Đáp án đúng:* B. FSE làm phù nề và hoại tử tế bào thần kinh vùng hồi hải mã, dẫn đến xơ teo hồi hải mã và động kinh sau này.\n\n### Câu 10: Sau cơn co giật do sốt đơn thuần đầu tiên, tỷ lệ tái phát cơn giật trong các đợt sốt tương lai ở trẻ khoảng bao nhiêu?\nA. Khoảng năm phần trăm\nB. Khoảng ba mươi đến ba mươi lăm phần trăm\nC. Khoảng bảy mươi lăm phần trăm\nD. Hầu như một trăm phần trăm\n*Đáp án đúng:* B. Khoảng một phần ba (ba mươi đến ba mươi lăm phần trăm) trẻ em sẽ có ít nhất một đợt co giật do sốt tái phát trong đời.\n\n### Câu 11: Khi trẻ đang co giật, hành động nào sau đây của người nhà là NGUY HIỂM NHẤT và cần tuyệt đối cấm?\nA. Đặt trẻ nằm nghiêng sang bên trái\nB. Nhét thìa nhôm hoặc đũa vào miệng để ngáng răng\nC. Nới lỏng cổ áo và thắt lưng của trẻ\nD. Gọi xe cấp cứu khi cơn giật kéo dài quá năm phút\n*Đáp án đúng:* B. Nhét dị vật cứng vào miệng gây gãy răng, dập mô mềm và nguy cơ tắc đường thở dẫn đến suy hô hấp tử vong.\n\n### Câu 12: Đột biến gen nào sau đây thường gặp nhất trong Hội chứng Dravet khởi phát bằng co giật do sốt sớm?\nA. Gen MECP2\nB. Gen SCN1A\nC. Gen TSC1\nD. Gen UBE3A\n*Đáp án đúng:* B. SCN1A mã hóa kênh Natri NaV1.1, đột biến làm giảm chức năng tế bào ức chế gây co giật nặng nề.\n\n### Câu 13: Thuốc chống co giật nào sau đây chống chỉ định tuyệt đối cho trẻ mắc Hội chứng Dravet?\nA. Clobazam\nB. Valproate\nC. Carbamazepine\nD. Stiripentol\n*Đáp án đúng:* C. Thuốc chẹn kênh Natri như Carbamazepine làm trầm trọng thêm tình trạng co giật ở bệnh nhân Dravet.\n\n### Câu 14: Liều lượng Midazolam tiêm bắp khuyến cáo theo phác đồ AES 2016 cho trẻ em là:\nA. Không phẩy không năm miligam trên kilogam\nB. Không phẩy hai miligam trên kilogam\nC. Không phẩy năm miligam trên kilogam\nD. Một miligam trên kilogam\n*Đáp án đúng:* B. Liều chuẩn là 0.2 mg/kg tiêm bắp sâu ở mặt trước ngoài đùi.\n\n### Câu 15: Thể tích phân bố nhỏ và ái lực cao với thụ thể GABA-A là đặc tính dược động học nổi bật của:\nA. Diazepam\nB. Lorazepam\nC. Phenytoin\nD. Phenobarbital\n*Đáp án đúng:* B. Lorazepam duy trì tác dụng ức chế thần kinh trung ương kéo dài từ 12 đến 24 giờ.\n\n### Câu 16: Biến chứng hoại tử mô và hoại thư chi do thoát mạch thuốc Phenytoin được gọi là:\nA. Hội chứng Stevens-Johnson\nB. Hội chứng găng tay tím (Purple Glove Syndrome)\nC. Hội chứng Lyell\nD. Hội chứng Reye\n*Đáp án đúng:* B. Purple Glove Syndrome xảy ra do tính kiềm cao và dung môi độc hại của dung dịch tiêm Phenytoin.\n\n### Câu 17: Ưu điểm vượt trội của Fosphenytoin so với Phenytoin truyền thống là:\nA. Giá thành rẻ hơn gấp nhiều lần\nB. Là tiền chất tan trong nước, không chứa propylene glycol\nC. Có thể uống qua đường tiêu hóa\nD. Không cần theo dõi điện tim\n*Đáp án đúng:* B. Fosphenytoin tan hoàn toàn trong nước, pH trung tính nên không gây hoại tử mô và ít tụt huyết áp hơn.\n\n### Câu 18: Theo dõi điện não đồ liên tục (cEEG) trong hồi sức trạng thái động kinh nhằm mục tiêu:\nA. Phát hiện sớm nhiễm trùng huyết\nB. Đạt mô hình ức chế bùng nổ (burst suppression) hoặc dập tắt cơn giật\nC. Đánh giá chức năng thận\nD. Đo áp lực nội sọ không xâm lấn\n*Đáp án đúng:* B. cEEG giúp xác nhận dập tắt các ổ phóng điện kịch phát dưới lâm sàng ở bệnh nhân hôn mê dùng thuốc mê.\n\n### Câu 19: Hội chứng truyền Propofol (PRIS) là lý do chống chỉ định dùng Propofol truyền liên tục kéo dài ở:\nA. Người cao tuổi trên tám mươi tuổi\nB. Trẻ nhỏ và thiếu niên dưới mười sáu tuổi\nC. Phụ nữ mang thai ba tháng đầu\nD. Bệnh nhân đái tháo đường typ 1\n*Đáp án đúng:* B. PRIS gây toan chuyển hóa nặng nề, suy tim, tiêu cơ vân và tử vong ở trẻ em.\n\n### Câu 20: Thời điểm vàng để chụp MRI sọ não đánh giá tổn thương hồi hải mã sau FSE là:\nA. Ngay trong lúc đang co giật tại phòng cấp cứu\nB. Sau khi kiểm soát ổn định cơn giật và ra khỏi giai đoạn cấp\nC. Sau mười năm theo dõi\nD. Trước khi dùng thuốc hạ sốt\n*Đáp án đúng:* B. Chụp MRI sau giai đoạn cấp (từ vài ngày đến vài tuần) giúp đánh giá phù nề và xơ teo hồi hải mã chính xác.\n\n---\n\n## 12. TÓM TẮT BÀI HỌC VÀ THÔNG ĐIỆP CỐT LÕI\n\n- Thông điệp 1: Co giật do sốt ở trẻ em là một cấp cứu thường gặp nhưng đại đa số mang tiên lượng hoàn toàn lành tính.\n- Thông điệp 2: Phân loại lâm sàng chính xác giữa thể đơn thuần và phức tạp là chìa khóa định hướng thái độ xử trí.\n- Thông điệp 3: Tuyệt đối không chỉ định chọc dò tủy sống thường quy khi trẻ tỉnh táo và đã tiêm chủng đầy đủ.\n- Thông điệp 4: Điện não đồ và chẩn đoán hình ảnh sọ não không có giá trị thường quy sau cơn co giật do sốt đơn thuần.\n- Thông điệp 5: Khi cơn co giật kéo dài chạm mốc năm phút, phải kích hoạt ngay phác đồ cấp cứu trạng thái động kinh.\n- Thông điệp 6: Midazolam tiêm bắp là lựa chọn hàng đầu nhanh nhất khi chưa có sẵn đường truyền tĩnh mạch ngoại vi.\n- Thông điệp 7: Levetiracetam là lựa chọn bước hai ưu tiên nhờ tính an toàn tim mạch và thời gian truyền nhanh chóng.\n- Thông điệp 8: Không bao giờ dùng thuốc chống động kinh dự phòng thường quy cho co giật do sốt đơn thuần.\n- Thông điệp 9: Thuốc hạ sốt giúp trẻ dễ chịu và giảm tái phát trong cùng đợt sốt nhưng không ngừa được co giật tương lai.\n- Thông điệp 10: Tham vấn đồng cảm, giải thích khoa học và hướng dẫn xử trí an toàn tại nhà giúp phụ huynh an tâm.\n- Thông điệp 11: Trẻ cần được tiếp tục tiêm phòng đầy đủ các loại vaccine theo lịch tiêm chủng mở rộng.\n- Thông điệp 12: Luôn giữ bình tĩnh, phối hợp nhịp nhàng và tuân thủ phác đồ từng phút để bảo vệ tối ưu não bộ của trẻ.\n- Thông điệp 13: Cảnh giác cao độ với tổn thương hồi hải mã sau trạng thái động kinh do sốt kéo dài trên ba mươi phút.\n- Thông điệp 14: Trang bị thuốc cấp cứu tại nhà cho các gia đình có tiền sử co giật kéo dài hoặc ở xa cơ sở y tế.\n- Thông điệp 15: Nâng cao năng lực chẩn đoán và kỹ năng xử trí cấp cứu là sứ mệnh bảo vệ thế hệ tương lai.\n---\n\n## 13. TÀI LIỆU THAM KHẢO\n\nDanh mục các tài liệu tham khảo khoa học và hướng dẫn y văn quốc tế được trích dẫn và sử dụng trong bài giảng:\n\n1. American Academy of Pediatrics. Neurodiagnostic evaluation of the child with a simple febrile seizure. Pediatrics. 2011. PMID: 21285335.\n2. American Academy of Pediatrics. Febrile seizures: clinical practice guideline for the long-term management of the child with simple febrile seizures. Pediatrics. 2008. PMID: 18519501.\n3. Glauser T, et al. Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society. Epilepsy Currents. 2016. PMID: 26900382.\n4. Silbergleit R, et al. Intramuscular versus intravenous therapy for prehospital status epilepticus. The New England Journal of Medicine. 2012. PMID: 22335736.\n5. Kapur J, et al. Randomized Trial of Three Anticonvulsant Medications for Status Epilepticus. The New England Journal of Medicine. 2019. PMID: 31774955.\n6. Dalziel SR, et al. Levetiracetam versus phenytoin for second-line treatment of paediatric convulsive status epilepticus (ConSEPT): an open-label, multicentre, randomised controlled trial. The Lancet. 2019. PMID: 31005386.\n7. Lyttle MD, et al. Levetiracetam versus phenytoin for second-line treatment of paediatric convulsive status epilepticus (EcLiPSE): a multicentre, open-label, randomised trial. The Lancet. 2019. PMID: 31005385.\n8. Murata S, et al. Acetaminophen and Febrile Seizure Recurrences During the Same Fever Episode. Pediatrics. 2018. PMID: 30297499.\n9. Hesdorffer DC, et al. Febrile status epilepticus and epileptogenesis: The FEBSTAT study. Epilepsia. 2024. PMID: 38606600.\n10. Shinnar S, et al. Febrile status epilepticus and epileptogenesis: Long-term follow-up from the FEBSTAT study. Epilepsia Open. 2025. PMID: 40770931.",
+      "pedytb_file": null,
+      "pedytb_content": "",
+      "cards_count": 36,
+      "cards_data": [
+        {
+          "type": "cloze",
+          "text": "Theo AAP, co giật do sốt được định nghĩa là biến cố co giật xảy ra ở trẻ em trong độ tuổi từ {{c1::6 đến 60 tháng}}, có kèm theo sốt thân nhiệt ≥ {{c1::38.0°C}} mà không có bằng chứng nhiễm trùng thần kinh trung ương hay rối loạn chuyển hóa.",
+          "extra": "Cơ chế: Ở lứa tuổi 6 đến 60 tháng, não bộ chưa trưởng thành có ngưỡng kích thích thấp do hệ thống ức chế GABA chưa phát triển hoàn chỉnh."
+        },
+        {
+          "type": "cloze",
+          "text": "Co giật do sốt đơn thuần (Simple FS) có tính chất co cứng - co giật {{c1::toàn thể, đối xứng hai bên}}, thời gian kéo dài dưới {{c1::15 phút}} và chỉ xuất hiện {{c1::1 cơn duy nhất}} trong vòng 24 giờ.",
+          "extra": "Cơ chế: Co giật do sốt đơn thuần chiếm 70% đến 75% các trường hợp, hoàn toàn lành tính và không để lại di chứng thần kinh."
+        },
+        {
+          "type": "cloze",
+          "text": "Co giật do sốt phức tạp (Complex FS) được xác định khi có ít nhất một trong ba đặc điểm: cơn giật {{c1::cục bộ một bên}}, thời gian kéo dài từ {{c1::15 phút trở lên}}, hoặc xuất hiện từ {{c1::2 cơn trở lên}} trong vòng 24 giờ.",
+          "extra": "Cơ chế: Co giật do sốt phức tạp chiếm khoảng 20% đến 25% các trường hợp và làm tăng nhẹ nguy cơ tiến triển thành động kinh sau này."
+        },
+        {
+          "type": "cloze",
+          "text": "Trạng thái động kinh do sốt (Febrile Status Epilepticus - FSE) là tình trạng co giật liên tục hoặc nhiều cơn co giật ngắt quãng không hồi phục tri giác kéo dài từ {{c1::30 phút trở lên}}.",
+          "extra": "Cơ chế: FSE chiếm khoảng 5% các ca co giật do sốt và có thể gây tổn thương phù nề tế bào thần kinh vùng hồi hải mã."
+        },
+        {
+          "type": "cloze",
+          "text": "Hội chứng Dravet khởi phát bằng co giật do sốt sớm trước 1 tuổi thường do đột biến gen {{c1::SCN1A}} mã hóa kênh Natri NaV1.1, và chống chỉ định tuyệt đối các thuốc {{c1::chẹn kênh Natri (Carbamazepine, Phenytoin)}}.",
+          "extra": "Cơ chế: Thuốc chẹn kênh Natri làm giảm chức năng của các interneuron ức chế GABAergic vốn đã bị khiếm khuyết, làm cơn co giật bùng phát dữ dội hơn."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong hội chứng GEFS+ (Genetic Epilepsy with Febrile Seizures Plus), bệnh nhi có đặc điểm co giật do sốt tiếp diễn sau {{c1::6 tuổi}} và di truyền theo tính trạng {{c1::trội trên nhiễm sắc thể thường}}.",
+          "extra": "Cơ chế: GEFS+ liên quan đến các đột biến gen kênh ion SCN1A, SCN1B hoặc GABRG2 dẫn đến tăng tính kích thích nơ ron lan tỏa trong gia đình."
+        },
+        {
+          "type": "cloze",
+          "text": "Hội chứng FIRES là tình trạng trạng thái động kinh bùng phát dữ dội sau một đợt nhiễm trùng sốt thông thường, đáp ứng kém với thuốc chống động kinh quy ước và đòi hỏi điều trị bằng {{c1::điều hòa miễn dịch (Anakinra) và chế độ ăn sinh ceton}}.",
+          "extra": "Cơ chế: FIRES đặc trưng bởi cơn bão viêm thần kinh cấp tính qua thụ thể IL-1 với sự kích hoạt quá mức của tế bào vi mô đệm."
+        },
+        {
+          "type": "cloze",
+          "text": "Khi nhiệt độ tăng cao đột ngột, cytokine gây viêm {{c1::IL-1β}} được giải phóng từ tế bào thần kinh đệm kích thích trực tiếp lên thụ thể {{c1::NMDA}}, làm dòng ion Canxi và Natri tràn vào nội bào gây khử cực màng.",
+          "extra": "Cơ chế: IL-1β làm tăng cường dẫn truyền kích thích Glutamate và ức chế dòng Clorua qua thụ thể GABAA, hạ thấp ngưỡng co giật."
+        },
+        {
+          "type": "cloze",
+          "text": "Tình trạng tăng thông khí thở nhanh do sốt cao gây ra {{c1::kiềm hô hấp}}, làm giảm nồng độ {{c1::Canxi ion hóa}} trong dịch kẽ não tủy và làm tăng tính kích thích màng tế bào thần kinh.",
+          "extra": "Cơ chế: Kiềm máu làm tăng gắn kết Canxi với Albumin, làm giảm Canxi tự do ngoại bào vốn đóng vai trò ổn định điện thế màng nơ ron."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong chuỗi 5 tầng tổn thương tế bào của trạng thái động kinh, hiện tượng Glutamate tích tụ kích hoạt thụ thể NMDA mở cửa cho ion Canxi tràn vào tế bào thuộc {{c1::Tầng 2 (Độc tính kích thích ngoại bào)}}.",
+          "extra": "Cơ chế: Canxi nội bào tăng vọt ở Tầng 3 sẽ kích hoạt Calpain và Caspase-3 phá hủy màng ty thể, dẫn đến hoại tử thần kinh ở Tầng 4."
+        },
+        {
+          "type": "cloze",
+          "text": "Hậu quả lâu dài của trạng thái động kinh kéo dài trên 30 phút ở Tầng 5 là hiện tượng {{c1::mọc chồi sợi rêu bất thường (mossy fiber sprouting)}} tại hồi răng, tạo vòng cung phản xạ kích thích tự động dẫn đến động kinh thùy thái dương.",
+          "extra": "Cơ chế: Sự tái cấu trúc synap kích thích bất thường làm biến đổi cấu trúc mạng lưới thần kinh vĩnh viễn không thể đảo ngược."
+        },
+        {
+          "type": "cloze",
+          "text": "Theo Hướng dẫn AAP 2011, chọc dò tủy sống {{c1::không được khuyến cáo thường quy}} ở trẻ co giật do sốt đơn thuần có tổng trạng tốt và đã được {{c1::tiêm chủng đầy đủ vaccine phế cầu và Hib}}.",
+          "extra": "Cơ chế: Tỷ lệ viêm màng não mủ ở trẻ co giật do sốt đơn thuần tỉnh táo hoàn toàn và tiêm chủng đầy đủ là dưới 0.5%."
+        },
+        {
+          "type": "cloze",
+          "text": "Theo AAP 2011, chọc dò tủy sống là một lựa chọn cần cân nhắc khi trẻ từ 6 đến 12 tháng tuổi {{c1::chưa được tiêm chủng phế cầu/Hib đầy đủ}} hoặc {{c1::không thể xác minh lịch sử tiêm chủng}}.",
+          "extra": "Cơ chế: Ở trẻ chưa tiêm vaccine, các dấu hiệu màng não có thể không rõ ràng trong giai đoạn đầu của viêm màng não do phế cầu hoặc Hib."
+        },
+        {
+          "type": "cloze",
+          "text": "Bốn chỉ định bắt buộc phải chọc dò dịch não tủy không thể trì hoãn gồm: có dấu hiệu màng não, dấu hiệu nhiễm độc li bì, {{c1::đang hoặc đã dùng kháng sinh trước đó}}, và trẻ dưới {{c1::6 tháng tuổi}}.",
+          "extra": "Cơ chế: Kháng sinh trước đó có thể làm lu mờ triệu chứng cổ cứng; trẻ dưới 6 tháng tuổi co giật có sốt có nguy cơ viêm màng não rất cao."
+        },
+        {
+          "type": "cloze",
+          "text": "Theo Guideline AAP 2011, điện não đồ (EEG) và chẩn đoán hình ảnh thần kinh (CT/MRI) {{c1::không được khuyến cáo thường quy}} trong đánh giá ban đầu trẻ co giật do sốt đơn thuần.",
+          "extra": "Cơ chế: Bản ghi EEG trong 48 giờ đầu có thể thấy sóng chậm lan tỏa thoáng qua nhưng không có giá trị tiên lượng tái phát hay động kinh tương lai."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong phác đồ cấp cứu trạng thái động kinh của Hội Động kinh Hoa Kỳ (AES 2016), mốc T1 là {{c1::5 phút}} (thời điểm bắt đầu can thiệp thuốc cắt cơn) và mốc T2 là {{c1::30 phút}} (thời điểm tổn thương nơ ron không hồi phục bắt đầu xuất hiện).",
+          "extra": "Cơ chế: Sau 5 phút, cơ chế tự chấm dứt cơn giật của não thất bại; sau 30 phút, tổn thương tế bào não do cạn kiệt ATP và độc tính Canxi bắt đầu xảy ra."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong 5 phút đầu cấp cứu co giật (Phút 0 - 5), ưu tiên hàng đầu là hỗ trợ hô hấp ABCDE và thử nhanh {{c1::đường huyết mao mạch tại giường}}, nếu Glucose < 2.6 mmol/L tiêm tĩnh mạch Glucose 10% liều {{c1::2 mL/kg}}.",
+          "extra": "Cơ chế: Hạ đường huyết làm tăng tính kích thích tế bào não và làm nặng thêm tổn thương nơ ron do thiếu hụt năng lượng."
+        },
+        {
+          "type": "cloze",
+          "text": "Thuốc cắt cơn bước 1 lựa chọn hàng đầu ngoài bệnh viện khi chưa có đường truyền tĩnh mạch là {{c1::Midazolam tiêm bắp (IM)}} với liều lượng {{c1::0.2 mg/kg}} (tối đa 10 mg cho trẻ > 40 kg).",
+          "extra": "Cơ chế: Thử nghiệm RAMPART (NEJM 2012) chứng minh Midazolam IM cắt cơn nhanh hơn và tỷ lệ thành công cao hơn Lorazepam IV do không mất thời gian lấy ven."
+        },
+        {
+          "type": "cloze",
+          "text": "Khi đã có sẵn đường truyền tĩnh mạch, thuốc Benzodiazepine bước 1 ưu tiên lựa chọn là {{c1::Lorazepam IV}} liều {{c1::0.1 mg/kg}} (tối đa 4 mg), tiêm tĩnh mạch chậm trong 1 đến 2 phút.",
+          "extra": "Cơ chế: Lorazepam có ái lực cao với thụ thể GABAA và thể tích phân bố nhỏ, duy trì tác dụng ức chế thần kinh trung ương kéo dài từ 12 đến 24 giờ."
+        },
+        {
+          "type": "cloze",
+          "text": "Nếu dùng Diazepam đường tĩnh mạch để cắt cơn, liều khuyến cáo là {{c1::0.2 mg/kg}} (tối đa 10 mg) và tốc độ tiêm không được vượt quá {{c1::2 mg/phút}}.",
+          "extra": "Cơ chế: Tiêm Diazepam quá nhanh có thể gây ngừng thở đột ngột, co thắt thanh quản và tụt huyết áp do dung môi propylene glycol."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong xử trí bước 1 trạng thái động kinh, số liều Benzodiazepine tối đa được phép dùng trước khi chuyển sang thuốc bước 2 là {{c1::2 liều}}.",
+          "extra": "Cơ chế: Dùng từ 3 liều Benzodiazepine trở lên làm tăng vọt nguy cơ suy hô hấp, ngừng thở và tụt huyết áp mà không làm tăng tỷ lệ cắt cơn giật."
+        },
+        {
+          "type": "cloze",
+          "text": "Theo hướng dẫn AES 2016, ba lựa chọn thuốc chống động kinh bước 2 đường tĩnh mạch cho trạng thái động kinh kháng Benzodiazepine là {{c1::Levetiracetam, Fosphenytoin và Sodium Valproate}}.",
+          "extra": "Cơ chế: Thử nghiệm ESETT (NEJM 2019) chứng minh cả ba loại thuốc này đạt hiệu quả cắt cơn và hồi phục tri giác tương đương nhau (khoảng 45% đến 47%)."
+        },
+        {
+          "type": "cloze",
+          "text": "Liều khuyến cáo của Levetiracetam (Keppra) truyền tĩnh mạch trong điều trị bước 2 trạng thái động kinh là {{c1::60 mg/kg}} (tối đa 4500 mg), truyền tĩnh mạch trong {{c1::5 đến 10 phút}}.",
+          "extra": "Cơ chế: Levetiracetam rất an toàn về tim mạch, không gây tụt huyết áp hay loạn nhịp, thời gian truyền nhanh vượt trội so với Phenytoin."
+        },
+        {
+          "type": "cloze",
+          "text": "Cơ chế phân tử độc đáo của Levetiracetam là gắn chọn lọc vào protein túi synap {{c1::SV2A}}, ức chế giải phóng chất dẫn truyền thần kinh kích thích {{c1::Glutamate}} vào khe synap.",
+          "extra": "Cơ chế: Thuốc thải trừ 66% qua thận dưới dạng nguyên vẹn, không chuyển hóa qua Cytochrome P450 nên không gây tương tác thuốc bất lợi."
+        },
+        {
+          "type": "cloze",
+          "text": "Liều khuyến cáo của Fosphenytoin đường tĩnh mạch là {{c1::20 mg PE/kg}} (tối đa 1500 mg PE), với tốc độ truyền tối đa là {{c1::150 mg PE/phút}}.",
+          "extra": "Cơ chế: Fosphenytoin là tiền chất tan trong nước của Phenytoin, không chứa propylene glycol nên tránh được biến chứng hoại tử mô hội chứng găng tay tím."
+        },
+        {
+          "type": "cloze",
+          "text": "Khi pha dung dịch Phenytoin truyền tĩnh mạch, dung dịch pha duy nhất được phép sử dụng là {{c1::Natri Clorid 0.9%}}, tuyệt đối không được pha trong {{c1::Glucose}} vì gây kết tủa tinh thể.",
+          "extra": "Cơ chế: Phenytoin chỉ tan ở pH kiềm cao (pH 12), khi gặp môi trường toan của Glucose sẽ kết tủa tinh thể gây tắc mạch và hoại tử mô."
+        },
+        {
+          "type": "cloze",
+          "text": "Liều khuyến cáo của Sodium Valproate đường tĩnh mạch là {{c1::40 mg/kg}} (tối đa 3000 mg), và thuốc chống chỉ định tuyệt đối khi nghi ngờ {{c1::bệnh lý ty thể (đột biến gen POLG) hoặc suy gan cấp}}.",
+          "extra": "Cơ chế: Valproate gây ức chế chu trình oxy hóa beta acid béo trong ty thể, dẫn đến hoại tử tế bào gan cấp tính tử vong ở trẻ có khiếm khuyết ty thể."
+        },
+        {
+          "type": "cloze",
+          "text": "Hai thử nghiệm nhi khoa ConSEPT và EcLiPSE (Lancet 2019) chứng minh rằng Levetiracetam {{c1::không vượt trội hơn Phenytoin}} về tỷ lệ cắt cơn, nhưng có ưu thế vượt trội về {{c1::thời gian pha truyền nhanh hơn và an toàn tim mạch cao hơn}}.",
+          "extra": "Cơ chế: Phenytoin cần truyền chậm trong 20 phút và theo dõi điện tim liên tục, trong khi Levetiracetam truyền xong trong 5 đến 10 phút mà không cần monitoring tim mạch phức tạp."
+        },
+        {
+          "type": "cloze",
+          "text": "Theo thử nghiệm ngẫu nhiên của Murata 2018 trên tạp chí Pediatrics, việc đặt hậu môn Acetaminophen liều {{c1::10 mg/kg mỗi 6 giờ}} giúp làm giảm an toàn tỷ lệ tái phát co giật {{c1::trong cùng một đợt sốt (9.1% so với 23.5%)}}.",
+          "extra": "Cơ chế: Mặc dù thuốc hạ sốt không ngăn được cơn co giật trong các đợt bệnh tương lai, việc kiểm soát thân nhiệt ổn định giúp giảm tỷ lệ tái phát ngắn hạn trong 24 giờ đầu."
+        },
+        {
+          "type": "cloze",
+          "text": "Theo nghiên cứu đoàn hệ FEBSTAT, khoảng {{c1::11.5%}} trẻ bị trạng thái động kinh do sốt có tổn thương cấp tính ở {{c1::hồi hải mã}} trên phim MRI, tiến triển thành xơ teo hồi hải mã và động kinh thùy thái dương sau này.",
+          "extra": "Cơ chế: Tỷ lệ động kinh sau co giật do sốt đơn thuần chỉ là 1% đến 2%, nhưng sau trạng thái động kinh do sốt (FSE) tỷ lệ này tăng vọt lên 10% đến 15%."
+        },
+        {
+          "type": "cloze",
+          "text": "Hướng dẫn thực hành lâm sàng AAP 2008 khuyến cáo {{c1::KHÔNG điều trị dự phòng thường quy}} bằng thuốc chống động kinh liên tục hoặc ngắt quãng cho trẻ co giật do sốt đơn thuần vì {{c1::tác dụng phụ của thuốc vượt trội hơn hẳn lợi ích}}.",
+          "extra": "Cơ chế: Co giật do sốt đơn thuần hoàn toàn lành tính, không gây tử vong hay tổn thương não, trong khi Phenobarbital và Valproate gây độc gan và suy giảm trí tuệ."
+        },
+        {
+          "type": "cloze",
+          "text": "Tác dụng không mong muốn nghiêm trọng nhất khiến Phenobarbital bị loại bỏ trong điều trị dự phòng co giật do sốt ở trẻ nhỏ là {{c1::suy giảm nhận thức, giảm chỉ số IQ và rối loạn hành vi kích động}}.",
+          "extra": "Cơ chế: Phenobarbital tác động lên thụ thể GABAA toàn thể trong não đang phát triển, làm ức chế synap kéo dài và cản trở quá trình hình thành đuôi gai nơ ron."
+        },
+        {
+          "type": "cloze",
+          "text": "Yếu tố dự báo mạnh nhất cho nguy cơ tái phát co giật do sốt ở trẻ nhỏ là {{c1::tuổi khởi phát cơn đầu tiên dưới 12 tháng tuổi}} (nguy cơ tái phát lên tới {{c1::50%}}).",
+          "extra": "Cơ chế: Khởi phát càng sớm chứng tỏ ngưỡng co giật bẩm sinh của não càng thấp, trẻ còn nhiều đợt sốt nhiễm trùng trong các năm tiếp theo."
+        },
+        {
+          "type": "cloze",
+          "text": "Hành vi chèn thìa, đũa hoặc ngón tay vào miệng trẻ đang co giật là bẫy nguy hiểm phổ biến, có thể gây {{c1::gãy răng, chấn thương mô mềm và tắc nghẽn đường thở dẫn đến tử vong do ngạt}}.",
+          "extra": "Cơ chế: Trẻ đang co giật không bao giờ tự cắn đứt lưỡi; hành động chèn vật cứng kích thích phản xạ nôn và đẩy đàm nhớt, răng gãy vào khí quản."
+        },
+        {
+          "type": "cloze",
+          "text": "Sau cơn co giật do sốt, trẻ {{c1::hoàn toàn KHÔNG bị chống chỉ định tiêm chủng}} và cần được tiếp tục tiêm phòng đầy đủ tất cả các loại vaccine theo lịch tiêm chủng mở rộng.",
+          "extra": "Cơ chế: Lợi ích bảo vệ của vaccine chống viêm màng não, viêm não, sởi vượt trội hoàn toàn so với nguy cơ co giật do sốt lành tính thoáng qua sau tiêm."
+        },
+        {
+          "type": "cloze",
+          "text": "Thuốc cấp cứu cắt cơn tại nhà có thể kê đơn cho gia đình có tiền sử co giật kéo dài trên 5 phút hoặc ở xa bệnh viện là {{c1::Midazolam ngậm niêm mạc má (Buccal Midazolam)}} hoặc {{c1::Diazepam gel thụt trực tràng (Diastat)}}.",
+          "extra": "Cơ chế: Thuốc hấp thu nhanh chóng qua niêm mạc miệng hoặc trực tràng vào tuần hoàn, giúp cắt cơn giật sớm trước khi chuyển biến thành trạng thái động kinh."
+        }
+      ],
+      "apkg_file": "PED-07_Co_giat_do_sot_va_Trang_thai_dong_kinh_2026-09-16_RELEASE_v1.apkg",
+      "html_file": null,
+      "folder_rel": "01_Hoi_suc_Cap_cuu_Ngo_doc/PED-07_Co_giat_do_sot_va_Trang_thai_dong_kinh"
     },
     {
       "id": "PED-13",
@@ -4312,6 +4516,468 @@ window.PED_LIBRARY_DATA = {
       "folder_rel": "02_So_sinh_hoc/PED-16_Nhiem_khuan_so_sinh_som_va_muon"
     },
     {
+      "id": "PED-20",
+      "priority": "P0",
+      "title": "Sơ đồ tiếp cận trẻ Ho và Khò khè theo lứa tuổi",
+      "block": "Block 3 — Hô hấp Nhi khoa",
+      "scope": "Phân biệt Stridor vs Wheezing vs Stertor; lưu đồ tiếp cận theo 3 nhóm tuổi (<1t, 1–5t, >5t), bẫy dị vật bỏ quên",
+      "dependency": "PED-01",
+      "curriculum_status": "✅ GATES ĐẠT (MD + APKG 88 thẻ)",
+      "has_ped": true,
+      "has_pedytb": false,
+      "has_cards": true,
+      "ped_file": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.md",
+      "ped_content": "# PED-20: SƠ ĐỒ TIẾP CẬN TRẺ HO VÀ KHÒ KHÈ THEO LỨA TUỔI\n## Phân Biệt Thở Rít (Stridor) vs Khò Khè (Wheezing) vs Khụt Khịt (Stertor) & Lưu Đồ Tiếp Cận Theo 3 Nhóm Tuổi (<1t, 1–5t, >5t) Dựa Trên Y Văn Thực Chứng Quốc Tế (CHEST / ERS / Lancet Resp Med)\n\n> **Chuyên khoa:** Hô hấp Nhi khoa - Cấp cứu & Nhi Tổng quát (Pediatric Pulmonology & Acute Care)  \n> **Mã bài học:** PED-20 (Nhi khoa Lâm sàng Toàn diện - Block 03: Hô hấp Nhi khoa)  \n> **Đối tượng:** Bác sĩ Nội trú Nhi khoa, Bác sĩ Nhi tổng quát, Bác sĩ Cấp cứu, Học viên Sau đại học  \n> **Phiên bản:** 2026-09-16_RELEASE_v1  \n> **Tiêu chuẩn kiểm định:** Evidence-Based Medicine (EBM) - 7 Verified PMIDs - 16 Offline Release Gates\n\n---\n\n## 0. TỔNG QUAN VÀ ĐÍCH ĐẾN HỌC TẬP (FOUNDATION PRIMER)\n\n### 0.1 Nền tảng tối thiểu cần dùng ngay\n\nHo và khò khè là hai lý do hàng đầu đưa trẻ đến khám tại các phòng khám ban đầu và khoa Cấp cứu Nhi khoa trên toàn cầu.\n\nTuy nhiên, trong thực hành lâm sàng hằng ngày, sự nhầm lẫn giữa ba âm thở bất thường cơ bản: Thở rít thanh quản (Stridor), Khò khè (Wheezing), và Khụt khịt mũi hầu (Stertor) đang diễn ra hết sức phổ biến.\n\nSự nhầm lẫn này dẫn đến việc lạm dụng thuốc giãn phế quản dạng khí dung và corticoid toàn thân ở phần lớn các trường hợp mà không mang lại bất kỳ lợi ích điều trị nào cho bệnh nhi.\n\nĐồng thời, sự chẩn đoán sai lệch còn làm chậm trễ thời gian vàng để xử trí các căn nguyên tắc nghẽn thực sự đe dọa tính mạng như dị vật đường thở bỏ quên hay mềm sụn thanh khí quản nặng.\n\nKhi đối diện với một bệnh nhi được phụ huynh đưa đến vì lý do ho khò khè, bác sĩ lâm sàng bắt buộc phải kích hoạt phản xạ phân tích âm thở tại giường theo quy trình các bước bất biến sau:\n\n1. **Quan sát tổng trạng và phát hiện dấu hiệu suy hô hấp cấp:**\n   - Đánh giá ngay tri giác của trẻ (tỉnh táo, bứt rứt, li bì hay hôn mê).\n   - Quan sát màu sắc da niêm mạc (hồng hào, tái nhợt hay tím tái).\n   - Đếm nhịp thở trong một phút trọn vẹn khi trẻ nằm yên tĩnh, không quấy khóc.\n   - Phát hiện các dấu hiệu gắng sức cơ hô hấp phụ như rút lõm lồng ngực, co kéo hõm trên ức, phập phồng cánh mũi và tiếng thở rên.\n\n2. **Xác định thì hô hấp xuất hiện âm thanh bất thường:**\n   - Đặt ống nghe hoặc ghé sát tai vào miệng và mũi trẻ để xác định âm thanh phát ra ưu thế ở thì nào.\n   - Âm thanh ưu thế ở thì hít vào là dấu hiệu chỉ điểm tắc nghẽn đường hô hấp trên ngoài lồng ngực.\n   - Âm thanh ưu thế ở thì thở ra là dấu hiệu chỉ điểm tắc nghẽn đường dẫn khí trong lồng ngực.\n\n3. **Phân biệt tính chất âm sắc tại miệng và tại ngực:**\n   - Nghe trực tiếp tại vùng cổ trước thanh quản và nghe đối chiếu tại các vùng phế trường hai bên phổi.\n   - Tiếng thở rít nghe to nhất ở cổ và nhỏ dần khi nghe xuống đáy phổi.\n   - Tiếng khò khè nghe rõ nhất tại thành ngực và thì thở ra kéo dài lan tỏa.\n   - Tiếng khụt khịt nghe rõ nhất ở cửa mũi và thường giảm đi rõ rệt sau khi nhỏ mũi, hút sạch chất tiết vùng mũi họng.\n\n4. **Hỏi bệnh sử chủ động về hội chứng xâm nhập:**\n   - Luôn luôn đặt câu hỏi trực tiếp cho người chăm sóc: Trẻ có từng bị sặc thức ăn, hột hạt, đồ chơi hay xuất hiện cơn ho sặc sụa, nghẹn thở, tím tái đột ngột khi đang ăn hoặc đang chơi hay không?\n   - Một cơn ho sặc thoáng qua cách đây vài ngày hoặc vài tuần là chìa khóa vàng để chẩn đoán dị vật phế quản bỏ quên.\n\n5. **Xác định thời gian kéo dài của triệu chứng ho:**\n   - Phân loại rõ ràng đây là đợt ho cấp tính hay ho mạn tính kéo dài.\n- Định nghĩa ho mạn tính ở trẻ em là ho kéo dài trên 4 tuần và phân loại ho ướt vs ho khan: We reviewed all current CHEST Expert Cough Panel statements relating to children with chronic cough (> 4 weeks duration) and wet cough. {claim:C-001} [GUIDELINE VERIFIED] (PMID: 32179109)\n\n6. **Nguyên tắc không vội vã khí dung giãn phế quản khi chưa nghe phổi:**\n   - Tuyệt đối không phun khí dung Salbutamol cho trẻ thở rít do mềm sụn thanh quản hoặc trẻ khụt khịt do viêm mũi xuất tiết.\n   - Thuốc không có thụ thể đích tại thanh quản và khoang mũi họng, ngược lại còn gây tác dụng phụ nhịp tim nhanh, run cơ và kích thích vật vã làm trẻ khó thở nặng nề hơn.\n\n### 0.2 Mục tiêu học tập chuyên sâu\n\n- **Các kỹ năng thực hành lâm sàng chi tiết:**\n  - Kỹ năng hướng dẫn phụ huynh thực hiện đúng kỹ thuật hít thuốc qua buồng đệm có mặt nạ.\n  - Kỹ năng đếm nhịp thở và nhận diện các mức độ thở nhanh theo từng nhóm tuổi của Tổ chức Y tế Thế giới.\n  - Kỹ năng phát hiện sớm bẫy khí một bên phổi trên phim X-quang ngực thẳng không chuẩn bị.\n  - Kỹ năng giao tiếp và giải thích cơ chế bệnh sinh cho cha mẹ nhằm giảm bớt sự hoang mang lo lắng quá mức.\n  - Kỹ năng thiết lập kế hoạch hành động ngoại trú và hẹn lịch tái khám định kỳ theo từng nấc thang điều trị.\nSau khi hoàn thành bài học lâm sàng này, người học đạt được các năng lực cốt lõi:\n- **Năng lực nhận diện âm học:** Phân biệt chính xác tiếng Thở rít (Stridor), Khò khè (Wheezing) và Khụt khịt (Stertor) dựa trên thì hô hấp, vị trí tắc nghẽn giải phẫu và đặc tính âm học.\n- **Năng lực giải phẫu - sinh lý bệnh:** Giải thích được cơ chế áp lực xuyên thành lồng ngực và cung phản xạ ho 5 chặng chi phối cảm giác ho ở trẻ em.\n- **Năng lực phân tầng theo lứa tuổi:** Vận dụng thành thạo sơ đồ tiếp cận ho và khò khè theo 3 mốc tuổi trọng yếu: Trẻ dưới 1 tuổi, trẻ từ 1 đến 5 tuổi, và trẻ trên 5 tuổi.\n- **Năng lực quản lý bệnh lý đặc thù:** Chẩn đoán và điều trị chính xác Viêm phế quản vi khuẩn kéo dài (PBB) theo phác đồ kháng sinh thực chứng, phát hiện sớm bẫy dị vật đường thở bỏ quên, và tiếp cận khò khè tiền học đường theo khuyến cáo ERS 2014.\n- **Năng lực đảm bảo an toàn người bệnh:** Nhận diện ngay 8 dấu hiệu cờ đỏ, chỉ định cận lâm sàng bậc thang hợp lý, và tránh các sai lầm kinh điển dẫn đến quá tải điều trị và biến chứng nặng ở trẻ nhỏ.\n\n---\n\n## 1. ĐỊNH NGHĨA & PHÂN BIỆT THỞ RÍT (STRIDOR) VS KHÒ KHÈ (WHEEZING) VS KHỤT KHỊT (STERTOR)\n\n### 1.1 Khái niệm & Cơ sở vật lý âm học đường thở\n\n- Các yếu tố ảnh hưởng trực tiếp đến khẩu kính đường thở ở trẻ nhỏ:\n  - Bán kính lòng đường thở nhỏ: điện trở đường thở tỷ lệ nghịch với lũy thừa bậc bốn của bán kính (Định luật Poiseuille).\n  - Phù nề niêm mạc chỉ 1 mm ở trẻ nhũ nhi có thể làm giảm diện tích lòng đường thở tới hơn một nửa.\n  - Khung sụn khí quản mềm và dễ xẹp hơn so với người lớn do hàm lượng proteoglycan chưa trưởng thành.\n  - Số lượng phế nang và mạng lưới thông khí bàng hệ qua các lỗ Kohn và kênh Lambert chưa phát triển đầy đủ.\n  - Cơ hoành nằm ngang và các xương sườn nằm ngang làm lồng ngực trẻ nhũ nhi có độ giãn nở đàn hồi rất cao.\n\nSự hình thành các âm thở bất thường ở trẻ em tuân theo các nguyên lý khí động học chất lưu cơ bản qua các ống dẫn khí có khẩu kính đàn hồi.\n\nKhi luồng không khí lưu thông qua một đoạn đường thở bị hẹp lòng cục bộ, vận tốc dòng khí phải tăng lên để duy trì lưu lượng khí thông khí.\n\nHiện tượng này làm giảm áp suất tĩnh tại điểm hẹp theo định luật Bernoulli.\n\nÁp suất tĩnh sụt giảm làm thành đường thở bị hút sụp vào lòng ống, tạo nên sự dao động cơ học rung lắc của thành ống và phát ra các sóng âm đặc trưng:\n\n- **Thở rít (Stridor):**\n  - Là âm thanh có tần số cao, thô ráp, đơn âm sắc hoặc đa âm sắc, nghe rõ nhất ở thì hít vào.\n  - Vị trí hẹp nằm ở đường dẫn khí ngoài lồng ngực bao gồm vùng thanh thiệt, thanh môn, hạ thanh môn và khí quản đoạn ngoài ngực.\n  - Trong thì hít vào, áp lực âm tính trong lồng ngực kéo luồng khí từ ngoài vào, tạo nên áp lực xuyên thành có xu hướng ép xẹp đoạn đường thở ngoài lồng ngực vốn thiếu sự nâng đỡ vững chắc của khung sụn trưởng thành.\n\n- **Khò khè (Wheezing):**\n  - Là âm thanh liên tục, có tính chất âm nhạc, âm sắc cao hoặc trầm, nghe rõ nhất và ưu thế ở thì thở ra.\n  - Vị trí hẹp nằm ở đường dẫn khí trong lồng ngực, từ đoạn khí quản ngực, phế quản gốc đến các phế quản nhỏ và tiểu phế quản.\n  - Trong thì thở ra, áp lực khoang màng phổi trở nên dương tính để tống khí ra ngoài, ép trực tiếp lên thành các phế quản trong lồng ngực, làm lòng đường thở bị thu hẹp thêm và tạo ra tiếng khò khè.\n\n- **Khụt khịt (Stertor):**\n  - Là âm thanh âm sắc trầm, thô ráp, ngắt quãng, giống như tiếng ngáy ngủ, nghe thấy ở cả hai thì nhưng rõ hơn ở thì hít vào.\n  - Vị trí hẹp nằm ở tầng trên của đường hô hấp trên, bao gồm tiền đình mũi, hốc mũi, vòm họng và khoang miệng hầu do ứ đọng dịch nhầy, phì đại cuốn mũi, sùi vòm họng hoặc amidan quá phát.\n\n### 1.2 Bảng phân loại và đặc điểm đối chiếu ba âm thở bất thường\n\nBảng dưới đây tóm tắt toàn diện sự khác biệt cốt lõi giữa ba âm thở giúp bác sĩ lâm sàng phân loại chính xác tại giường bệnh:\n\n| Đặc điểm lâm sàng | Thở rít thanh quản (Stridor) | Khò khè (Wheezing) | Khụt khịt mũi hầu (Stertor) |\n|---|---|---|---|\n| **Thì hô hấp ưu thế** | Ưu thế thì hít vào (Inspiratory) | Ưu thế thì thở ra (Expiratory) | Cả hai thì, thường rõ khi hít vào |\n| **Vị trí giải phẫu hẹp** | Ngoài lồng ngực (thanh quản, hạ thanh môn) | Trong lồng ngực (khí quản ngực, phế quản) | Mũi, vòm họng, khoang miệng hầu |\n| **Âm sắc đặc trưng** | Tần số cao, rít, the thé, thô ráp | Có tính âm nhạc, rít gió, rên rỉ | Âm sắc trầm, ục ịch, giống tiếng ngáy |\n| **Vị trí nghe to nhất** | Vùng cổ trước, thanh quản, khí quản | Thành ngực, hai bên phế trường | Ngay trước cửa mũi, vùng miệng họng |\n| **Tác động của tư thế** | Tăng khi nằm ngửa, giảm khi nằm sấp | Ít thay đổi đáng kể theo tư thế | Thay đổi rõ khi ngửa cổ hoặc nghiêng đầu |\n| **Sau hút rửa mũi** | Không thay đổi | Không thay đổi | Giảm rõ rệt hoặc biến mất hoàn toàn |\n| **Đáp ứng thuốc giãn phế quản** | Hoàn toàn không đáp ứng | Có thể đáp ứng nếu do co thắt | Hoàn toàn không đáp ứng |\n| **Căn nguyên thường gặp** | Mềm sụn thanh quản, Croup, dị vật thanh quản | Viêm tiểu phế quản, Hen, PBB, mềm sụn PQ | Viêm mũi xuất tiết, phì đại VA, hẹp cửa mũi sau |\n\n### 1.3 Kỹ thuật nghe phổi và phân tích âm thở tại giường\n\n- Quy tắc an toàn khi khám âm thở tại giường:\n  - Giữ ấm màng ống nghe trước khi áp vào ngực trẻ nhằm tránh làm trẻ giật mình khóc thét.\n  - Nghe tối thiểu ba chu kỳ hô hấp trọn vẹn tại mỗi vị trí giải phẫu trước khi di chuyển ống nghe.\n  - So sánh đối xứng từng vùng phế trường hai bên: đỉnh phổi, nách, và đáy phổi sau lưng.\n  - Yêu cầu người nhà bế trẻ ở tư thế ngồi thẳng hoặc bế vác đầu tựa vào vai mẹ.\n  - Tuyệt đối không khám họng bằng đè lưỡi nếu nghi ngờ viêm thanh thiệt cấp vì có thể kích phát co thắt thanh quản ngừng thở.\n\nĐể phát hiện chính xác bản chất của âm thở, kỹ thuật khám lâm sàng đóng vai trò quyết định:\n\n- **Bước 1: Lắng nghe bằng tai trần trước khi dùng ống nghe:**\n  - Đứng cách trẻ khoảng một khoảng cách ngắn, quan sát trẻ khi đang thức chơi yên tĩnh.\n  - Lắng nghe xem âm thanh có phát ra ngoài không khí mà không cần ống nghe hay không.\n\n- **Bước 2: Kỹ thuật nghe đối chiếu cổ - ngực:**\n  - Đặt màng ống nghe ngay trên sụn nhẫn ở cổ trước.\n  - Di chuyển ống nghe xuống cán xương ức và các vùng nách, lưng hai bên.\n  - Nếu âm thanh giảm dần cường độ khi đi từ cổ xuống đáy phổi, đó chắc chắn là âm truyền từ đường hô hấp trên.\n  - Ngược lại, nếu âm thanh nghe to nhất và lan tỏa khắp hai phế trường đáy phổi ở thì thở ra, đó là tiếng khò khè thực sự.\n\n- **Bước 3: Thao tác làm thông thoáng khoang mũi:**\n  - Nhỏ vài giọt dung dịch vệ sinh mũi vào hai bên mũi trẻ.\n  - Dùng dụng cụ hút sạch dịch nhầy trước khi đưa ra kết luận trẻ có khò khè hay không.\n  - Rất nhiều trẻ được người nhà báo khò khè thực chất chỉ là tiếng khụt khịt do nghẹt mũi thông thường.\n\n**Checkpoint 1:**\n- Bệnh nhi có âm thở nghe thô ráp ở thì hít vào, to nhất tại vùng cổ trước và tăng lên khi trẻ nằm ngửa hoặc khi quấy khóc là tiếng gì?\n- *Đáp án:* Đó là tiếng Thở rít (Stridor) thì hít vào, gợi ý tắc nghẽn đường dẫn khí ngoài lồng ngực, điển hình nhất là chứng Mềm sụn thanh quản (Laryngomalacia).\n\n---\n\n## 2. CƠ CHẾ SINH BỆNH HỌC, CUNG PHẢN XẠ HO & ĐỘNG HỌC ĐƯỜNG THỞ\n\n### 2.1 Cung phản xạ ho năm chặng & Cơ chế nhạy cảm ho ở trẻ em\n\nHo là một phản xạ bảo vệ sinh lý sống còn của cơ thể nhằm tống xuất dị vật, chất tiết nhầy và các tác nhân vi sinh vật gây hại ra khỏi đường hô hấp dưới.\n\nCung phản xạ ho ở trẻ em bao gồm các thụ thể thích nghi nhanh và sợi C hướng tâm qua dây thần kinh phế vị: Physiology and pathophysiology of cough phenomenology vagal afferents. {claim:C-006} [ABSTRACT VERIFIED] (PMID: 32888932).\n\nCung phản xạ ho được vận hành qua năm chặng liên hoàn:\n\nKích thích thụ thể cơ học và hóa học tại thanh khí phế quản → Lan truyền điện thế hoạt động theo các nhánh phế vị về nhân bó đơn độc ở hành não → Kích hoạt trung tâm vận động chỉ huy đóng nắp thanh môn đồng thời co thắt mạnh các cơ thở ra và cơ hoành → Tăng vọt áp lực trong lồng ngực lên mức rất cao → Nắp thanh môn mở bung đột ngột tạo dòng khí có vận tốc cực lớn tống xuất đờm dãi ra ngoài.\n\nỞ trẻ nhỏ, sự điều hòa cung phản xạ ho có những nét đặc thù sinh học:\n- Ngưỡng kích thích ho dễ bị biến đổi sau các đợt nhiễm virus hô hấp do hiện tượng tăng nhạy cảm thụ thể ho.\n- Lớp biểu mô niêm mạc bị tổn thương làm lộ các đầu tận cùng sợi thần kinh cảm giác C-fiber.\n- Tình trạng này dẫn đến ho khan kéo dài nhiều ngày sau khi tình trạng nhiễm trùng cấp tính đã thoái lui hoàn toàn.\n\n### 2.2 Động học lồng ngực & Áp lực xuyên thành trong tắc nghẽn đường thở\n\nSự khác biệt căn bản về biểu hiện lâm sàng giữa tắc nghẽn đường thở ngoài lồng ngực và trong lồng ngực được giải thích bằng cơ học hô hấp và động học áp lực xuyên thành:\n\n1. **Đoạn đường thở ngoài lồng ngực (Thanh quản, khí quản cổ):**\n   - Áp lực bên ngoài thành ống là áp lực khí quyển xung quanh.\n   - Trong thì hít vào, lồng ngực giãn nở tạo áp lực âm trong lòng ống.\n   - Hướng lực ép: Luồng khí hít vào qua điểm hẹp → Vận tốc dòng khí tăng vọt theo nguyên lý Bernoulli → Áp suất tĩnh trong lòng ống sụt giảm mạnh → Áp lực xuyên thành âm ép sụp thành sụn mềm vào trong → Khẩu kính đường thở ngoài lồng ngực chít hẹp cực đại sinh ra tiếng Thở rít thì hít vào.\n   - Trong thì thở ra, áp lực trong lòng ống trở nên dương tính, đẩy lòng đường thở nở rộng ra, do đó tiếng thở rít thường biến mất hoặc giảm đi rõ rệt.\n\n2. **Đoạn đường thở trong lồng ngực (Khí quản ngực, phế quản gốc, tiểu phế quản):**\n   - Áp lực bên ngoài thành ống chính là áp lực khoang màng phổi.\n   - Trong thì hít vào, cơ hoành co làm áp lực khoang màng phổi trở nên rất âm, kéo thành các phế quản nở rộng ra ngoài, giúp luồng khí đi vào thuận lợi hơn.\n   - Trong thì thở ra chủ động: Cơ thành bụng và cơ liên sườn co bóp mạnh → Áp lực khoang màng phổi tăng cao thành áp lực dương → Áp lực màng phổi ép trực tiếp từ ngoài vào thành các phế quản trong lồng ngực → Lòng phế quản bị bóp hẹp lại gây cản trở dòng khí thở ra → Rung động thành ống phế quản tạo nên tiếng Khò khè thì thở ra.\n\n### 2.3 Cơ chế mềm sụn khí phế quản và xẹp đường thở động học\n\nMềm sụn khí phế quản là nguyên nhân cấu trúc bẩm sinh quan trọng gây khò khè đơn âm sắc kéo dài ở trẻ nhỏ: Tracheomalacia and bronchomalacia in children as large airway abnormalities. {claim:C-005} [ABSTRACT VERIFIED] (PMID: 31320455).\n\nTình trạng này xuất phát từ sự khiếm khuyết trong quá trình trưởng thành của các vòng sụn nâng đỡ khí phế quản, hoặc do sự giãn rộng bất thường của phần màng mềm phía sau khí quản.\n\nChuỗi biến đổi bệnh học của mềm sụn đường thở:\nKhiếm khuyết chất nền sụn phế quản bẩm sinh → Thành sụn mất độ vững chắc cơ học đàn hồi bình thường → Mất khả năng chống đỡ áp lực dương của khoang màng phổi ở thì thở ra → Lòng khí phế quản xẹp đáng kể khi thở ra gắng sức hoặc khi ho → Ứ đọng chất tiết nhầy và tắc nghẽn khí động học kéo dài.\n\n---\n\n## 3. THUẬT TOÁN TIẾP CẬN HO VÀ KHÒ KHÈ THEO BA NHÓM TUỔI\n\nĐánh giá khò khè tái phát nặng ở trẻ tiền học đường đòi hỏi phân định các kiểu hình nội tại: Recurrent severe preschool wheeze from diagnostic labels to underlying endotypes. {claim:C-007} [ABSTRACT VERIFIED] (PMID: 33961755).\n\n### 3.1 Tiếp cận nhóm trẻ nhũ nhi dưới một tuổi\n\nỞ lứa tuổi nhũ nhi dưới 12 tháng, đường thở có đường kính rất nhỏ và tính đàn hồi cao, sụn nâng đỡ chưa cứng cáp.\nDo đó, nguyên nhân hàng đầu ở lứa tuổi này là các dị tật cấu trúc bẩm sinh và nhiễm trùng virus cấp tính:\n\n- Các bước tiếp cận chi tiết ở trẻ nhũ nhi:\n  - Khảo sát kỹ tiền sử sinh non, tiền sử đặt nội khí quản sơ sinh.\n  - Đánh giá khả năng dung nạp khi bú mẹ: trẻ có bị sặc, ho, hay tím tái trong lúc bú không?\n  - Kiểm tra các dị tật bẩm sinh phối hợp vùng sọ mặt, hàm nhỏ, chẻ vòm hầu.\n  - Quan sát cử động lồng ngực và bụng: tìm kiếm sự bất đối xứng di động lồng ngực.\n  - Đo độ bão hòa oxy mao mạch liên tục trong khi ngủ và trong khi bú.\n\n1. **Mềm sụn thanh quản (Laryngomalacia):**\n   - Chiếm phần lớn các trường hợp thở rít bẩm sinh ở trẻ nhũ nhi.\n   - Bệnh cảnh điển hình: Trẻ xuất hiện tiếng thở rít thì hít vào từ tuần thứ 2 đến tuần thứ 4 sau sinh.\n   - Tiếng rít tăng lên rõ rệt khi trẻ nằm ngửa, khi bú mẹ hoặc khi quấy khóc.\n   - Tiếng rít giảm đi khi trẻ nằm sấp hoặc ngửa cổ.\n   - Trẻ vẫn bú tốt, tăng cân đều đặn và không có dấu hiệu nhiễm trùng.\n   - Thường tự thoái lui hoàn toàn khi trẻ được 12 đến 18 tháng tuổi khi khung sụn thanh quản cứng cáp dần.\n\n2. **Vòng nhẫn mạch máu chèn ép khí quản (Vascular Ring):**\n   - Các dị tật như quai động mạch chủ đôi hoặc quai động mạch dưới đòn phải lạc chỗ tạo thành một vòng siết quanh khí quản và thực quản.\n   - Bệnh cảnh: Tiếng thở rít hai thì kèm tiếng khò khè cố định, thường đi kèm với khó nuốt hoặc nôn trớ khi bắt đầu ăn dặm thức ăn đặc.\n   - Trẻ có xu hướng ngửa cổ ưỡn người ra sau để làm rộng đường thở.\n\n3. **Viêm tiểu phế quản cấp (Acute Bronchiolitis):**\n   - Căn nguyên do virus hợp bào hô hấp hoặc Rhinovirus gây phù nề, hoại tử biểu mô và nút nhầy tắc nghẽn các tiểu phế quản.\n   - Bệnh cảnh: Trẻ dưới 12 tháng khởi phát với triệu chứng viêm long đường hô hấp trên vài ngày, sau đó xuất hiện thở nhanh, rút lõm lồng ngực và nghe phổi có ran rít, ran ngáy lan tỏa.\n\n### 3.2 Tiếp cận nhóm trẻ tiền học đường từ một đến năm tuổi\n\nĐây là nhóm tuổi có tỷ lệ khò khè cao nhất trong nhi khoa.\nPhân loại khò khè tiền học đường thành khò khè từng đợt do virus và khò khè do nhiều yếu tố: The distinction between episodic viral wheeze and multiple-trigger wheeze in preschool children. {claim:C-003} [GUIDELINE VERIFIED] (PMID: 24525447).\n\nKhuyến cáo của ERS Task Force chia nhóm tuổi này thành hai kiểu hình chính:\n\n1. **Khò khè từng đợt do virus (Episodic Viral Wheeze - EVW):**\n   - Trẻ chỉ xuất hiện các đợt khò khè khi có bằng chứng nhiễm virus đường hô hấp trên.\n   - Điểm then chốt: Giữa các đợt nhiễm trùng, trẻ hoàn toàn khỏe mạnh, không có triệu chứng khò khè, không ho về đêm và không khó thở khi chạy nhảy nô đùa.\n   - Tiên lượng: Đa số các trường hợp EVW sẽ tự khỏi khi trẻ lớn lên nhờ đường thở phát triển tăng đường kính.\n\n2. **Khò khè do nhiều yếu tố kích phát (Multiple-Trigger Wheeze - MTW):**\n   - Trẻ không chỉ khò khè khi bị cảm cúm mà còn khò khè xuất hiện cả ngoài đợt nhiễm trùng: Khi chạy nhảy gắng sức, khi cười đùa, khi tiếp xúc khói thuốc lá, lông thú cưng hoặc thời tiết lạnh.\n   - Thường liên quan đến cơ địa dị ứng hoặc tiền căn gia đình có cha mẹ mắc hen suyễn.\n   - Đây là nhóm có nguy cơ cao tiến triển thành bệnh Hen phế quản thực sự sau 6 tuổi.\n\n**Bẫy lâm sàng số 1:** Không nên gắn nhãn Hen phế quản và chỉ định dùng Corticoid dạng hít liều cao kéo dài cho mọi trẻ nhỏ khò khè mà chưa đánh giá phân loại xem trẻ thuộc nhóm khò khè từng đợt do virus hay khò khè đa yếu tố.\n\n### 3.3 Tiếp cận nhóm trẻ học đường và vị thành niên trên năm tuổi\n\n- Các tiêu chuẩn phân biệt giữa Hen phế quản và Giãn phế quản ở trẻ lớn:\n  - Tính chất cơn ho: Hen phế quản chủ yếu là ho khan co thắt từng cơn về đêm; Giãn phế quản là ho đờm mủ ướt lượng nhiều vào buổi sáng.\n  - Đáp ứng với thuốc giãn phế quản: Hen đáp ứng nhanh và rõ rệt; Giãn phế quản đáp ứng kém hoặc không đáp ứng.\n  - Hình ảnh học trên X-quang và CT ngực: Hen phế quản nhu mô phổi sáng hoặc bình thường; Giãn phế quản có hình ảnh đường ray xe lửa hoặc hình nhẫn đeo ngón tay.\n  - Biến dạng ngoại vi: Hen phế quản không có ngón tay dùi trống; Giãn phế quản tiến triển thường có ngón tay dùi trống rõ rệt.\n\nỞ trẻ trên 5 tuổi, lòng đường hô hấp đã phát triển hoàn thiện về mặt cơ học. Hai căn nguyên chủ đạo cần tập trung là:\n\n1. **Hen phế quản dị ứng kinh điển (Allergic Asthma):**\n   - Cơn ho và khò khè tái phát nhiều lần, thường nặng lên về đêm và rạng sáng, hoặc khởi phát sau khi tiếp xúc dị nguyên, thay đổi thời tiết, gắng sức thể thao.\n   - Đáp ứng rõ rệt với thuốc giãn phế quản tác dụng nhanh và thuốc kiểm soát dạng hít.\n   - Đo chức năng hô hấp ghi nhận hội chứng tắc nghẽn đường thở có hồi phục sau thử nghiệm giãn phế quản.\n\n2. **Giãn phế quản (Bronchiectasis):**\n   - Cần nghi ngờ ở trẻ ho đờm mủ ướt lượng nhiều kéo dài, tái diễn nhiều đợt trong năm, nghe phổi có ran nổ khu trú cố định ở một vùng phổi, có thể kèm theo ngón tay dùi trống hoặc sụt cân.\n\n3. **Rối loạn chức năng dây thanh (Vocal Cord Dysfunction):**\n   - Thường gặp ở trẻ vị thành niên chơi thể thao hoặc chịu áp lực học tập lớn.\n   - Dây thanh khép lại bất thường trong thì hít vào gây cảm giác nghẹn thở cấp tính và tiếng thở rít thì hít vào, dễ bị chẩn đoán nhầm với cơn hen phế quản nặng.\\n   - *Ví dụ 6:* Một học sinh 14 tuổi xuất hiện cơn khó thở rít thì hít vào dữ dội trong giờ chạy bền thể dục, được chẩn đoán nhầm là hen phế quản nhưng khi xịt Salbutamol không đỡ; nội soi thanh quản lúc gắng sức phát hiện hai dây thanh khép chặt bất thường ở thì hít vào.\n\n**Checkpoint 2:**\n- Một trẻ 3 tuổi chỉ bị khò khè khi có sốt chảy mũi cảm lạnh, ngoài ra những lúc bình thường trẻ chạy nhảy hoàn toàn không ho, không khò khè thì được phân loại vào kiểu hình nào theo ERS 2014?\n- *Đáp án:* Phân loại vào nhóm Khò khè từng đợt do virus (Episodic Viral Wheeze). Nhóm này không có chỉ định dùng Corticoid dạng hít duy trì hàng ngày.\n\n---\n\n### 3.4 Bảng tổng hợp chẩn đoán phân biệt then chốt theo ba nhóm tuổi\n\nBảng đối chiếu lâm sàng dưới đây tóm tắt các căn nguyên cốt lõi, triệu chứng điển hình và hướng tiếp cận ban đầu:\n\n| Nhóm lứa tuổi | Căn nguyên hàng đầu | Đặc điểm lâm sàng then chốt | Thăm dò chẩn đoán ưu tiên | Thái độ xử trí ban đầu |\n|---|---|---|---|---|\n| **Dưới 1 tuổi** | Mềm sụn thanh quản | Thở rít hít vào tăng khi nằm ngửa, bú tốt, tăng cân bình thường | Khám tai mũi họng, nội soi mềm khi có dấu hiệu nặng | Tư vấn giải thích, tư thế nằm nghiêng, theo dõi |\n| **Dưới 1 tuổi** | Viêm tiểu phế quản | Khò khè đợt đầu sau viêm long hô hấp trên, thở nhanh, co kéo | Đánh giá lâm sàng suy hô hấp, SpO2 liên tục | Hút thông mũi họng, thở oxy hỗ trợ khi có chỉ định |\n| **1 đến 5 tuổi** | Dị vật đường thở | Khởi phát đột ngột sau ho sặc, khò khè một bên phổi cố định | X-quang ngực thẳng hai thì, nội soi phế quản | Chuyển mổ nội soi gắp dị vật khẩn cấp |\n| **1 đến 5 tuổi** | Viêm phế quản PBB | Ho đờm ướt kéo dài trên 4 tuần, không cờ đỏ, tổng trạng tốt | X-quang ngực thẳng, cấy đờm hoặc dịch rửa phế quản | Kháng sinh Amoxicillin-clavulanate hai đến bốn tuần |\n| **Trên 5 tuổi** | Hen phế quản dị ứng | Khò khè ban đêm hoặc gắng sức, đáp ứng tốt với thuốc giãn PQ | Hô hấp ký có thử nghiệm hồi phục phế quản | Thuốc cắt cơn SABA kết hợp corticoid hít kiểm soát |\n| **Trên 5 tuổi** | Giãn phế quản | Ho đờm mủ lượng nhiều kéo dài, ngón tay dùi trống, ran nổ khu trú | Chụp cắt lớp vi tính ngực độ phân giải cao | Vật lý trị liệu hô hấp, kháng sinh theo kháng sinh đồ |\n\n---\n\n## 4. VIÊM PHẾ QUẢN VI KHUẨN KÉO DÀI (PBB) & DỊ VẬT ĐƯỜNG THỞ BỎ QUÊN\n\n### 4.1 Viêm phế quản vi khuẩn kéo dài (Protracted Bacterial Bronchitis - PBB)\n\n- Các yếu tố nguy cơ dẫn đến hình thành màng sinh học biofilm trong PBB:\n  - Tình trạng phơi nhiễm thụ động với khói thuốc lá trong gia đình làm liệt lông chuyển phế quản.\n  - Đi học nhà trẻ sớm trước 12 tháng tuổi làm tăng tần suất nhiễm virus đường hô hấp tái diễn.\n  - Dị tật mềm sụn khí phế quản đi kèm làm giảm hiệu quả thanh thải nhầy lông chuyển.\n  - Tiền sử dùng các đợt kháng sinh ngắn ngày không đủ liều tạo điều kiện cho vi khuẩn sống sót và hình thành cấu trúc biofilm bền vững.\n\nKhuyến cáo tiếp cận ho mạn tính ở trẻ em dựa trên lưu đồ và đánh giá đáp ứng điều trị: The recommendations and suggestions related to the management of chronic cough in children using management algorithms. {claim:C-002} [GUIDELINE VERIFIED] (PMID: 32179109).\n\nTrong các nguyên nhân gây ho mạn tính có đờm ở trẻ em, Viêm phế quản vi khuẩn kéo dài là bệnh lý phổ biến nhất nhưng lại hay bị bỏ sót.\n\nTam chứng chẩn đoán PBB kinh điển theo CHEST 2020:\n1. Trẻ có triệu chứng ho đờm ướt kéo dài liên tục trên 4 tuần.\n2. Không có bất kỳ dấu hiệu cờ đỏ hoặc triệu chứng chỉ điểm của các bệnh lý phổi nền khác.\n3. Triệu chứng ho ướt dứt điểm hoàn toàn sau một liệu trình kháng sinh thích hợp đường uống kéo dài từ 2 đến 4 tuần.\n\nCơ chế sinh bệnh học của màng sinh học vi khuẩn trong PBB:\nNhiễm virus đường hô hấp tiên phát làm tổn thương biểu mô lông chuyển → Vi khuẩn hô hấp bám dính vào niêm mạc phế quản bị trợt loét → Tiết chất nền ngoại bào hình thành màng sinh học biofilm che chở vi khuẩn → Đại thực bào và kháng sinh nồng độ thấp không thể xuyên thấu tiêu diệt mầm bệnh → Viêm nội phế quản tăng tiết đờm mủ mạn tính kéo dài.\n\nThử nghiệm DACS chứng minh liệu trình Amoxicillin-clavulanate giúp dứt điểm ho ướt ở trẻ mắc viêm phế quản vi khuẩn kéo dài: Amoxicillin-clavulanate for protracted bacterial bronchitis in children with chronic wet cough. {claim:C-004} [ABSTRACT VERIFIED] (PMID: 34048716).\n\nThử nghiệm lâm sàng đối chứng DACS đã cung cấp bằng chứng thực chứng:\n- Kháng sinh lựa chọn đầu tay là Amoxicillin-clavulanate đường uống.\n- Khởi đầu với liệu trình 2 tuần.\nNếu triệu chứng ho đờm cải thiện nhưng chưa dứt điểm hoàn toàn, tiếp tục kéo dài liệu trình lên đủ 4 tuần giúp tăng tỷ lệ khỏi bệnh dứt điểm và giảm nguy cơ tái phát.\n\n### 4.2 Bẫy dị vật đường thở bỏ quên ở trẻ nhỏ\n\n- Quy trình xử trí cấp cứu khi nghi ngờ dị vật đường thở bỏ quên:\n  - Giữ trẻ ở tư thế thoải mái nhất, hạn chế tối đa các thủ thuật gây đau làm trẻ khóc thét.\n  - Không cố gắng dùng tay móc họng tìm dị vật vì có thể đẩy dị vật từ họng vào sâu trong khí quản.\n  - Cung cấp oxy qua ống thông mũi hoặc mặt nạ nếu trẻ có dấu hiệu tím tái hoặc khó thở.\n  - Thiết lập đường truyền tĩnh mạch ngoại vi và chuẩn bị sẵn sàng dụng cụ đặt nội khí quản cấp cứu.\n  - Thông báo khẩn cấp cho kíp phẫu thuật nội soi Tai Mũi Họng và Gây mê hồi sức Nhi khoa.\n\nDị vật phế quản bỏ quên là một trong những cạm bẫy lâm sàng nguy hiểm trong chuyên khoa hô hấp nhi:\n- **Đối tượng nguy cơ:** Trẻ từ 10 tháng đến 3 tuổi, lứa tuổi tò mò khám phá đồ vật xung quanh và hay đưa đồ vật vào miệng.\n- **Hội chứng xâm nhập:** Xuất hiện ở phần lớn bệnh nhân, biểu hiện bằng cơn ho sặc sụa, nghẹt thở, tím tái đột ngột khi trẻ đang ăn thức ăn dạng hạt hoặc ngậm đồ chơi nhỏ.\n- **Triệu chứng lâm sàng giai đoạn muộn:** Trẻ đến khám sau vài ngày đến vài tuần vì khò khè một bên phổi cố định, ho kéo dài, hoặc sốt tái diễn do viêm phổi sau chỗ tắc.\nNghe phổi có dấu hiệu giảm thông khí một bên kèm tiếng khò khè khu trú không đổi sau khi dùng thuốc giãn phế quản.\n- **Hình ảnh X-quang ngực thẳng:** Đa số dị vật hạt thực vật không cản quang.\nDấu hiệu gián tiếp trên phim bao gồm bẫy khí một bên phổi sáng hơn bình thường, trung thất bị đẩy lệch sang bên đối diện ở thì thở ra, hoặc hình ảnh xẹp phân thùy phổi.\n\n- **Ví dụ 1:** Một trẻ trai 18 tháng tuổi được điều trị khí dung Salbutamol suốt 3 tuần vì chẩn đoán viêm phế quản co thắt do khò khè kéo dài.\nKhi bác sĩ chuyên khoa nghe kỹ thấy rì rào phế nang phổi phải giảm rõ rệt so với phổi trái.\nKhai thác kỹ bệnh sử phát hiện trẻ có cơn sặc hạt lạc cách đó một tháng.\nNội soi phế quản gắp ra dị vật là nửa hạt lạc đang mủn nát ở phế quản gốc phải.\n\n### 4.3 Trào ngược dạ dày thực quản và ho kéo dài\n\nĐiều trị thử thuốc ức chế acid dạ dày không được khuyến cáo thường quy cho trẻ ho mạn tính: Chronic cough and gastroesophageal reflux in children without gastrointestinal features. {claim:C-008} [ABSTRACT VERIFIED] (PMID: 31002783).\n\nBáo cáo của CHEST 2019 khẳng định:\n- Ở trẻ em ho mạn tính không có các triệu chứng tiêu hóa cảnh báo như nôn trớ tái diễn, ợ chua, nấc cụt, chậm tăng cân, việc điều trị thử theo kinh nghiệm bằng các thuốc ức chế acid là không có hiệu quả và không được khuyến cáo.\n- Thuốc ức chế acid không làm giảm triệu chứng ho nhưng lại làm tăng nguy cơ viêm phổi hít vi khuẩn và nhiễm trùng tiêu hóa do làm mất hàng rào acid bảo vệ tự nhiên của dạ dày.\n\n---\n\n## 5. CHẨN ĐOÁN, DẤU HIỆU CỜ ĐỎ (RED FLAGS) & CẬN LÂM SÀNG BẬC THANG\n\n### 5.1 Hệ thống tám cờ đỏ chỉ điểm bệnh lý nặng\n\n- Ý nghĩa cảnh báo của từng dấu hiệu cờ đỏ:\n  - Giúp bác sĩ lâm sàng quyết định ranh giới giữa điều trị ngoại trú và nhập viện khẩn cấp.\n  - Ngăn ngừa các biến chứng tử vong do tắc nghẽn đường thở cấp tính.\n  - Phát hiện kịp thời các bệnh lý cấu trúc bẩm sinh cần can thiệp phẫu thuật sớm.\n  - Tránh bỏ sót các bệnh lý mạn tính gây tổn thương nhu mô phổi không hồi phục.\n\nKhi tiếp cận một trẻ ho hoặc khò khè, sự hiện diện của bất kỳ dấu hiệu nào trong hệ thống 8 cờ đỏ dưới đây đòi hỏi phải ngừng ngay việc theo dõi ngoại trú thông thường và kích hoạt quy trình hội chẩn chuyên khoa hoặc nhập viện khẩn cấp:\n\n1.\n**Khởi phát triệu chứng ngay từ giai đoạn sơ sinh:** Gợi ý các dị tật đường thở bẩm sinh nặng, rò khí thực quản, xơ nang hoặc rối loạn vận động lông chuyển nguyên phát.\n2.\n**Triệu chứng ho hoặc nghẹn sặc đột ngột liên quan chặt chẽ đến bữa ăn hoặc bú:** Gợi ý hít sặc tái diễn, rối loạn phản xạ nuốt, khe hở thanh quản hoặc rò khí thực quản.\n3. **Ho ra máu:** Cờ đỏ tối khẩn cấp chỉ điểm dị vật đường thở sắc nhọn, giãn phế quản vỡ mạch máu, u mạch phế quản hoặc lao phổi tiến triển.\n4. **Ngón tay hoặc ngón chân dùi trống:** Biểu hiện của tình trạng thiếu oxy mạn tính hoặc nhiễm trùng nung mủ mạn tính trong lồng ngực.\n5.\n**Chậm phát triển thể chất hoặc suy dinh dưỡng sụt cân:** Gợi ý bệnh lý toàn thân mạn tính, suy giảm miễn dịch, xơ nang hoặc bệnh lý tiêu hóa hấp thu kém kết hợp.\n6. **Thở rít liên tục xuất hiện ngay cả khi trẻ nằm nghỉ ngơi yên tĩnh:** Dấu hiệu tắc nghẽn đường hô hấp trên mức độ nặng đe dọa tắc thở đột ngột.\n7. **Khò khè hoặc giảm âm phế bào cố định một bên phổi:** Chỉ điểm tắc nghẽn cơ học khu trú do dị vật phế quản hoặc u nội phế quản.\n8. **Tiền sử viêm phổi tái phát nhiều đợt:** Định nghĩa khi có nhiều đợt viêm phổi trong một năm kèm hình ảnh tổn thương phổi không xóa sạch giữa các đợt.\n\n### 5.2 Chiến lược cận lâm sàng bậc thang từ tuyến cơ sở đến chuyên khoa\n\n- Các lưu ý thực hành khi đọc phim X-quang ngực ở trẻ khò khè kéo dài:\n  - Luôn kiểm tra tính cân đối của lồng ngực và tư thế chụp có bị xoay hay không.\n  - Đếm số cung sườn trước và sau để đánh giá tình trạng ứ khí phế nang hai phổi.\n  - Khảo sát kỹ vùng trung thất trên: tìm kiếm hình ảnh tuyến ức bình thường ở trẻ nhũ nhi.\n  - Quan sát khẩu kính cột khí của khí quản và phế quản gốc hai bên.\n  - Đánh giá chỉ số tim ngực để loại trừ suy tim sung huyết hoặc bệnh tim bẩm sinh.\n\nĐể tối ưu hóa chi phí và bảo vệ trẻ khỏi phơi nhiễm phóng xạ không cần thiết, cận lâm sàng cần được chỉ định tuần tự theo 3 bậc:\n\n- **Bậc 1: Thăm dò cơ bản tại tuyến y tế cơ sở:**\n  - Chụp X-quang ngực thẳng và nghiêng chuẩn để khảo sát nhu mô phổi, phát hiện bẫy khí một bên, xẹp phổi, dị vật cản quang hoặc bóng tim to.\n  - Xét nghiệm huyết học và chỉ số viêm cơ bản để đánh giá tình trạng nhiễm trùng vi khuẩn toàn thân.\n\n- **Bậc 2: Thăm dò chức năng và chẩn đoán hình ảnh chuyên sâu:**\n  - Đo hô hấp ký cho trẻ từ 5 đến 6 tuổi trở lên để đánh giá đáp ứng phế quản với thuốc giãn phế quản.\n  - Chụp cắt lớp vi tính lồng ngực độ phân giải cao có dựng hình đường thở đa bình diện để phát hiện giãn phế quản sớm, mềm sụn khí phế quản hoặc vòng nhẫn mạch máu chèn ép.\n  - Đo nồng độ Cl- trong mồ hôi để loại trừ bệnh xơ nang nếu có ho ướt mạn tính kèm suy dinh dưỡng.\n\n- **Bậc 3: Can thiệp xâm lấn chuyên khoa sâu:**\n  - Nội soi phế quản ống mềm kết hợp rửa phế quản phế nang để quan sát động học xẹp khí quản lúc thở tự nhiên, chẩn đoán mềm sụn đường thở, phát hiện dị vật bỏ quên và cấy định lượng vi khuẩn.\n  - Đo pH và trở kháng thực quản để xác định trào ngược dịch acid và không acid lên đường hô hấp.\n\n---\n\n### 5.3 Bảng tóm tắt chỉ định cận lâm sàng phân tầng theo ba cấp độ\n\nViệc phân tầng thăm dò cận lâm sàng giúp tối ưu hóa hiệu quả chẩn đoán và hạn chế xâm lấn không cần thiết cho trẻ:\n\n| Cấp độ thăm dò | Tên kỹ thuật cận lâm sàng | Mục đích chẩn đoán chính | Dấu hiệu bệnh lý điển hình | Thời điểm chỉ định |\n|---|---|---|---|---|\n| **Bậc 1: Cơ bản** | X-quang ngực thẳng nghiêng | Khảo sát nhu mô phổi và cấu trúc lồng ngực | Bẫy khí một bên, xẹp phổi thùy, viêm phổi kẽ | Mọi trẻ ho hoặc khò khè mạn tính kéo dài |\n| **Bậc 1: Cơ bản** | Công thức máu và CRP | Đánh giá phản ứng viêm và tình trạng nhiễm trùng | Bạch cầu tăng ưu thế đa nhân, CRP tăng | Nghi ngờ nhiễm khuẩn đường hô hấp dưới |\n| **Bậc 2: Chuyên sâu** | Đo chức năng hô hấp ký | Đánh giá mức độ tắc nghẽn đường dẫn khí | Rối loạn thông khí tắc nghẽn hồi phục sau SABA | Trẻ từ năm đến sáu tuổi trở lên hợp tác tốt |\n| **Bậc 2: Chuyên sâu** | Chụp CT ngực phân giải cao | Dựng hình chi tiết cây khí phế quản đa bình diện | Giãn phế quản, mềm sụn khí phế quản, vòng mạch | Nghi ngờ tổn thương cấu trúc hoặc sau Bậc 1 |\n| **Bậc 3: Xâm lấn** | Nội soi phế quản ống mềm | Quan sát động học đường thở và lấy dịch rửa BAL | Xẹp động học khí quản, dị vật bỏ quên, mủ nhầy | Thất bại điều trị thử nghiệm, nghi ngờ dị tật |\n\n---\n\n## 6. THEO DÕI, ĐÁNH GIÁ ĐÁP ỨNG & KẾ HOẠCH QUẢN LÝ NGOẠI TRÚ\n\n### 6.1 Nhật ký theo dõi ho và khò khè ngoại trú\n\n- Hướng dẫn chi tiết cách ghi nhật ký ho tại nhà cho cha mẹ:\n  - Ghi nhận thời điểm khởi phát triệu chứng ho: xuất hiện sau khi ngủ dậy, sau khi ăn, hay khi gắng sức?\n  - Mô tả âm sắc cơn ho: tiếng ho khan đanh rền, tiếng ho ướt đờm lọc bọc, hay ho đỏ bừng mặt?\n  - Đếm số lần thức giấc trong đêm vì cơn ho làm gián đoạn giấc ngủ của trẻ.\n  - Quan sát nhịp thở khi trẻ ngủ say: đếm nhịp thở trong một phút và ghi lại vào sổ theo dõi.\n  - Ghi nhận lượng sữa hoặc lượng thức ăn trẻ dung nạp được trong ngày so với ngày thường.\n  - Ghi chép các loại thuốc đã sử dụng: tên thuốc, hàm lượng, số lần dùng và đáp ứng sau dùng.\n  - Ghi nhận các yếu tố nghi ngờ làm khởi phát cơn ho: thời tiết trở lạnh, mùi khói hương, mùi sơn nhà mới.\n\n- Các thông số cần ghi chép hàng ngày trong nhật ký:\n  - Tần suất các cơn ho trong ngày: dưới 5 lần, từ 5 đến 10 lần, hay liên tục cả ngày?\n  - Mức độ ảnh hưởng đến giấc ngủ: trẻ có tỉnh giấc vì cơn ho không?\n  - Màu sắc đờm nếu trẻ nôn trớ ra đờm: đờm trong, đờm trắng đục hay đờm xanh vàng?\n  - Sự xuất hiện của tiếng thở rít hoặc tiếng khò khè kèm theo.\n  - Các yếu tố làm khởi phát cơn: tiếp xúc khói thuốc lá, phấn hoa, hay chạy nhảy gắng sức.\n\nBảng theo dõi triệu chứng nhật ký tại nhà do cha mẹ ghi nhận là công cụ đắc lực giúp bác sĩ lâm sàng đánh giá đáp ứng điều trị:\n- Thời điểm ho xuất hiện: Ban ngày khi chạy nhảy hay ban đêm khi chuẩn bị đi ngủ và rạng sáng?\n- Tính chất ho: Ho khan reng reng, ho ướt ọc đờm, hay ho đỏ mặt từng cơn kèm tiếng rít thở vào?\n- Số cơn khò khè phải dùng thuốc cắt cơn trong tuần.\n- Tác động đến sinh hoạt: Trẻ có phải thức giấc giữa đêm vì ho không? Trẻ có phải nghỉ học hoặc ngừng chơi thể thao không?\n\n### 6.2 Đánh giá đáp ứng điều trị thử & Tiêu chuẩn ngừng thuốc\n\n- Quy trình đánh giá lại lâm sàng trước khi quyết định ngừng thuốc:\n  - Đánh giá sự biến mất hoàn toàn của triệu chứng ho và khò khè trong ít nhất hai tuần liên tiếp.\n  - Khám lại lồng ngực: đảm bảo rì rào phế nang êm dịu, hoàn toàn không còn ran ẩm hay ran rít.\n  - Xác nhận trẻ có thể vận động chạy nhảy bình thường mà không khởi phát cơn khó thở.\n  - Hướng dẫn cha mẹ nhận biết các dấu hiệu tái phát sớm để đưa trẻ tái khám kịp thời.\n\nMọi chỉ định điều trị thử nghiệm ở trẻ em đều phải được coi là một thử nghiệm lâm sàng có giám sát chặt chẽ:\n- **Đối với điều trị thử PBB bằng Amoxicillin-clavulanate:**\n  - Hẹn tái khám sau 2 tuần.\n  - Nếu trẻ dứt điểm hoàn toàn tiếng ho ướt, xác nhận chẩn đoán PBB và ngừng thuốc.\n  - Nếu giảm nhưng chưa hết đờm, tiếp tục thêm 2 tuần.\n  - Nếu sau 4 tuần không đáp ứng, bắt buộc chuyển sang Bậc 2 thăm dò tìm căn nguyên khác.\n\n- **Đối với điều trị thử Hen bằng ICS liều thấp:**\n  - Hẹn tái khám sau 4 đến 8 tuần.\n  - Chỉ tiếp tục duy trì nếu trẻ có sự cải thiện rõ rệt về tần suất cơn khò khè và chức năng hô hấp.\n  - Nếu không có bất kỳ đáp ứng lâm sàng nào sau 8 tuần tuân thủ đúng kỹ thuật xịt thuốc, bắt buộc phải ngừng thuốc và tìm kiếm chẩn đoán thay thế, tránh biến chứng chậm tăng trưởng do lạm dụng corticoid kéo dài.\n\n### 6.3 Chỉ định chuyển tuyến và hội chẩn chuyên khoa hô hấp nhi\n\n- Quy trình chuẩn bị hồ sơ bệnh án khi chuyển tuyến chuyên khoa:\n  - Tóm tắt đầy đủ diễn biến thời gian khởi phát và tính chất cơn ho khò khè từ đầu đợt bệnh.\n  - Đính kèm toàn bộ các phim X-quang phổi đã chụp từ trước để so sánh tiến triển tổn thương.\n  - Liệt kê chi tiết các thuốc đã điều trị: tên hoạt chất, liều lượng tính theo cân nặng và thời gian dùng.\n  - Ghi nhận các kết quả xét nghiệm huyết học, chỉ số viêm và chức năng hô hấp nếu có.\n  - Hướng dẫn gia đình phương thức di chuyển an toàn và các số điện thoại hỗ trợ y tế khẩn cấp.\n\nCần chuyển ngay trẻ lên tuyến chuyên khoa hô hấp nhi khi:\n1. Có bất kỳ dấu hiệu cờ đỏ nào trong danh mục 8 cờ đỏ.\n2. Trẻ dưới 3 tháng tuổi có tiếng thở rít hoặc khò khè khởi phát sớm.\n3. Không đáp ứng sau một liệu trình điều trị thử nghiệm chuẩn mực.\n4. Nghi ngờ dị vật đường thở dựa trên bệnh sử ho sặc đột ngột.\n\n**Checkpoint 3:**\n- Tiêu chuẩn tam chứng để xác định bệnh Viêm phế quản vi khuẩn kéo dài (PBB) ở trẻ em gồm những điểm cốt lõi nào?\n- *Đáp án:* (1) Ho đờm ướt kéo dài trên 4 tuần; (2) Không có triệu chứng cờ đỏ hoặc bệnh lý nền khác; (3) Dứt điểm hoàn toàn sau 2 đến 4 tuần kháng sinh Amoxicillin-clavulanate.\n\n---\n\n## 7. TÓM TẮT THUẬT TOÁN TIẾP CẬN TẠI GIƯỜNG\n\n- Bốn nguyên tắc vàng khi xử trí tại phòng khám ban đầu:\n  - Luôn ưu tiên đánh giá và xử trí cấp cứu các dấu hiệu nguy hiểm đường thở trước tiên.\n  - Khai thác tỉ mỉ bệnh sử ho sặc để không bỏ lọt dị vật đường thở thể bỏ quên.\n  - Tránh lạm dụng khí dung giãn phế quản và corticoid toàn thân khi chưa có chỉ định rõ ràng.\n  - Hướng dẫn kỹ lưỡng dấu hiệu nhận biết suy hô hấp nặng để phụ huynh đưa trẻ đến viện kịp thời.\n\nLưu đồ tóm tắt xử trí nhanh giúp bác sĩ ra quyết định tại phòng khám:\n\n```text\n[BỆNH NHI ĐẾN KHÁM VÌ HO HOẶC KHÒ KHÈ]\n   |\n   +---> NẾU CÓ CỜ ĐỎ / SUY HÔ HẤP:\n   |        Nhập viện khẩn cấp, thở oxy, khám Tai Mũi Họng và Hô hấp Nhi\n   |\n   +---> NẾU TỔNG TRẠNG TỐT, KHÔNG CỜ ĐỎ:\n            Phân tích âm thở và thời gian ho\n            |\n            +-- HO CẤP DƯỚI 4 TUẦN KÈM KHÒ KHÈ:\n            |      <1 tuổi: Viêm tiểu phế quản RSV\n            |      1-5 tuổi: Khò khè từng đợt do virus (EVW)\n            |      >5 tuổi: Cơn hen phế quản cấp\n            |\n            +-- HO MẠN TRÊN 4 TUẦN CÓ ĐỜM ƯỚT:\n            |      Nghi ngờ PBB -> Điều trị Amoxicillin-clavulanate 2-4 tuần\n            |\n            +-- HO MẠN TRÊN 4 TUẦN HO KHAN ĐƠN THUẦN:\n                   Đo chức năng hô hấp tìm Hen, đánh giá ho sau nhiễm virus\n```\n\n---\n\n## 8. CLINICAL PEARLS & PRACTICAL TIPS (12 TIPS THỰC CHIẾN)\n\nDưới đây là 12 kinh nghiệm thực chiến đúc kết từ các chuyên gia hô hấp nhi hàng đầu:\n\n1. **Kỹ thuật nghe thanh quản bằng màng ống nghe:**\n   - Luôn đặt nhẹ màng ống nghe ngay trên sụn nhẫn ở cổ trước.\n   - Nếu âm thanh nghe chói tai ở cổ nhưng nhỏ dần khi nghe xuống ngực, chắc chắn đó là tiếng thở truyền từ đường hô hấp trên.\n\n2. **Không kết luận khò khè khi mũi đang nghẹt:**\n   - Phải làm sạch hốc mũi bằng nước muối sinh lý trước khi nghe phổi để loại trừ tiếng khụt khịt.\n   - *Ví dụ 2:* Một trẻ 4 tháng tuổi thở khò khè ầm ĩ khiến mẹ lo lắng mất ngủ, bác sĩ trực nhỏ vài giọt nước muối sinh lý vào hai bên lỗ mũi rồi hút ra một cục nhầy đặc quánh; sau đó đặt ống nghe thấy phổi hoàn toàn êm dịu không một tiếng ran.\n\n3. **Phân biệt ho khan reng reng vs ho ướt ọc đờm:**\n   - Ho ướt ở trẻ nhỏ thường nghe như tiếng lục cục trong họng vì trẻ dưới 5 tuổi nuốt đờm chứ không biết nhổ đờm ra ngoài.\\n   - *Ví dụ 5:* Một trẻ 3 tuổi ho lọc bọc từng cơn mỗi sáng sau khi thức dậy, cha mẹ tưởng trẻ ho khan nhưng khi bác sĩ yêu cầu trẻ ho mạnh trước mặt thì nghe rõ tiếng đờm rung bần bật ở vùng thanh quản dưới họng.\n\n4. **Cạm bẫy nhầm lẫn giữa viêm tiểu phế quản và mềm sụn thanh quản:**\n   - Chẩn đoán nhầm viêm tiểu phế quản với mềm sụn thanh quản có cảm lạnh đi kèm.\n   - Trẻ mềm sụn thanh quản khi bị cảm lạnh sẽ thở rít tăng lên rõ rệt, rất dễ bị xử trí nhầm thành cơn co thắt phế quản cấp.\n\n5. **Thời gian vàng của dị vật bỏ quên:**\n   - Khi trẻ có hội chứng xâm nhập rõ ràng, dù X-quang phổi hoàn toàn bình thường vẫn bắt buộc phải hội chẩn nội soi phế quản gắp dị vật.\n   - *Ví dụ 3:* Trẻ 2 tuổi đang ăn hạt hướng dương thì bị sặc tím tái, X-quang chụp tại phòng khám tư nhân bình thường nên cho về; 10 ngày sau trẻ sốt cao khó thở, vào viện nội soi phát hiện mảnh vỏ hướng dương gây viêm loét mủ bít tắc phế quản thùy dưới phổi trái.\n\n6. **Sai lầm lạm dụng kháng sinh Macrolide cho ho sau nhiễm virus:**\n   - Lạm dụng kháng sinh Macrolide cho ho kéo dài sau nhiễm virus.\n   - Ho sau nhiễm virus ở trẻ em là do tăng nhạy cảm thụ thể ho, việc dùng Azithromycin kéo dài không giúp giảm ho mà còn gây kháng thuốc và rối loạn tiêu hóa.\n\n7. **Kỹ thuật dùng buồng đệm cho trẻ nhỏ:**\n   - Khi chỉ định thuốc xịt định liều cho trẻ dưới 5 tuổi, bắt buộc phải dùng kèm buồng đệm có mặt nạ áp kín mặt, hít thở đều vài nhịp cho mỗi nhát xịt.\n   - Xịt trực tiếp vào miệng trẻ làm phần lớn thuốc đọng ở họng và không vào được phế quản.\n\n8. **Cảnh giác trước tiếng thở rít hai thì gợi ý hẹp cố định đường thở:**\n   - Coi thường tiếng thở rít hai thì.\n   - Thở rít xuất hiện ở cả thì hít vào và thở ra là dấu hiệu của hẹp cố định đường thở như u máu hạ thanh môn, vòng nhẫn mạch máu, hoặc hẹp hạ thanh môn sau đặt nội khí quản.\n\n9. **Nguy cơ của thuốc ức chế ho dạng siro:**\n   - Tuyệt đối không kê đơn các siro ho chứa Dextromethorphan hoặc Promethazine cho trẻ dưới 6 tuổi vì nguy cơ ức chế trung tâm hô hấp, ngủ gà và làm ứ đọng đờm gây tắc nghẽn đường thở.\n   - *Ví dụ 4:* Trẻ 3 tuổi bị ho đờm do viêm phế quản được gia đình cho uống siro ho có chứa kháng histamin an thần liều cao; trẻ ngủ li bì, mất phản xạ ho tống đờm dẫn đến suy hô hấp do nút đờm bít tắc phế quản phải đặt nội khí quản cấp cứu.\n\n10. **Tránh điều trị thử thuốc ức chế acid tràn lan cho trẻ ho kéo dài:**\n    - Điều trị thử thuốc ức chế acid dạ dày tràn lan cho trẻ ho kéo dài.\n    - Không dùng Omeprazole cho trẻ ho mạn tính nếu không có bằng chứng ợ chua hoặc trớ sữa rõ ràng theo CHEST 2019.\n\n11. **Tầm quan trọng của X-quang ngực thì thở ra:**\n    - Khi nghi ngờ dị vật đường thở không cản quang mà phim X-quang ngực thẳng thì hít vào bình thường, chụp thêm phim thì thở ra sẽ làm nổi bật hình ảnh ứ khí bẫy khí một bên phổi.\n\n12. **Nguy cơ bỏ sót giãn phế quản ở trẻ ho đờm mạn tính tái diễn:**\n    - Bỏ sót giãn phế quản ở trẻ ho đờm mạn tính.\n    - Mọi trẻ ho đờm ướt tái phát nhiều đợt PBB trong một năm bắt buộc phải chụp cắt lớp vi tính lồng ngực độ phân giải cao để tầm soát giãn phế quản sớm.\n\n**Checkpoint 4:**\n- Vì sao trẻ dưới 5 tuổi khi dùng thuốc xịt định liều MDI bắt buộc phải sử dụng qua buồng đệm có mặt nạ?\n- *Đáp án:* Trẻ dưới 5 tuổi chưa có khả năng phối hợp động tác ấn xịt và hít sâu nín thở.\nDùng buồng đệm có van một chiều giúp giữ lơ lửng các hạt khí dung để trẻ hít vào phổi tự nhiên qua các nhịp thở bình thường.\n\n---\n\n## 9. CẢNH BÁO BẪY NGUY HIỂM VÀ AN TOÀN NGƯỜI BỆNH (SAFETY BOX ĐỎ)\n\n::: safety\n### HỘP BẢO VỆ AN TOÀN NGƯỜI BỆNH & BẪY NGUY HIỂM (SAFETY BOX ĐỎ)\n\nCác tai biến y khoa nghiêm trọng và tử vong ở trẻ ho và khò khè thường bắt nguồn từ các sai lầm cấm kỵ sau đây:\n\n1. **BỎ SÓT DỊ VẬT ĐƯỜNG THỞ NGUY HIỂM TÍNH MẠNG:**  \nBất kỳ trẻ nhỏ nào khởi phát triệu chứng khò khè hoặc thở rít đột ngột một bên phổi sau một cơn ho sặc sụa phải được xử trí như một ca cấp cứu dị vật đường thở cho đến khi có bằng chứng ngược lại.\nTuyệt đối không điều trị ngoại trú kéo dài bằng kháng sinh và giãn phế quản mà không có sự đánh giá của chuyên khoa Tai Mũi Họng và Hô hấp Nhi.\n\n2. **DÙNG THUỐC AN THẦN HOẶC ỨC CHẾ HO CHO TRẺ ĐANG KHÓ THỞ:**  \nTuyệt đối cấm sử dụng các thuốc an thần, thuốc chống nôn gây ngủ, hoặc siro giảm ho trung ương cho trẻ đang có biểu hiện gắng sức hô hấp.\nViệc làm giảm tri giác sẽ ức chế trung tâm hô hấp và làm mất phản xạ ho bảo vệ đường thở, dẫn đến ngừng thở đột ngột.\n\n3. **PHUN KHÍ DUNG SALBUTAMOL TRÀN LAN CHO THỞ RÍT THANH QUẢN:**  \nKhí dung Salbutamol hoàn toàn không có tác dụng trên đường thở ngoài lồng ngực.\nNgược lại, thuốc gây nhịp tim nhanh và kích thích thần kinh giao cảm làm trẻ hoảng sợ, quấy khóc dữ dội.\nKhi trẻ khóc, áp lực âm trong lồng ngực tăng cao càng làm sụp đổ đường thở trên, biến tắc nghẽn bán phần thành tắc nghẽn hoàn toàn đường thở.\n\n4. **LẠM DỤNG CORTICOID TOÀN THÂN CHO KHÒ KHÈ VIRUS:**  \n   Theo đồng thuận của Hội Hô hấp Châu Âu ERS 2014, việc dùng các đợt Corticoid toàn thân ngắn ngày không làm giảm tỷ lệ nhập viện cũng như không rút ngắn thời gian bệnh ở trẻ khò khè từng đợt do virus mức độ nhẹ và trung bình, ngược lại còn làm suy giảm miễn dịch tạm thời và tăng nguy cơ tác dụng phụ chuyển hóa.\n\n5. **CHỦ QUAN VỚI TIẾNG THỞ RÊN Ở TRẺ NHŨ NHI:**  \nTiếng thở rên ở thì thở ra không phải là khò khè hay thở rít; đó là phản xạ sinh lý của trẻ nhằm khép nắp thanh môn cuối thì thở ra để duy trì áp lực dương cuối thì thở ra nhằm chống xẹp phế nang.\nThở rên là dấu hiệu cảnh báo suy hô hấp nặng hoặc tổn thương phế nang lan tỏa cần hỗ trợ thông khí áp lực dương ngay lập tức.\n:::\n\n---\n\n## 10. CÁC CA LÂM SÀNG THỰC TẾ CÓ LỜI GIẢI CHI TIẾT (CASE STUDIES)\n\n### Case 1: Trẻ nhũ nhi 3 tháng thở rít hít vào tăng khi nằm ngửa (Laryngomalacia)\n\n- **Bệnh sử:**\n  - Bệnh nhi nam 3 tháng tuổi, sinh đủ tháng, cân nặng lúc sinh bình thường, hiện tại tăng cân tốt.\n  - Mẹ đưa trẻ đến khám vì nghe tiếng thở rít khò khè từ lúc 3 tuần tuổi.\n  - Tiếng rít ngày càng to hơn, đặc biệt khi trẻ nằm ngửa hoặc khi bú mẹ.\n  - Khi trẻ ngủ say nằm nghiêng hoặc nằm sấp thì tiếng thở êm hơn.\n  - Trẻ bú mẹ hoàn toàn, không sốt, không ho, không nôn trớ.\n\n- **Khám lâm sàng:**\n  - Trẻ tỉnh táo, hồng hào, SpO2 trong giới hạn bình thường, nhịp thở 42 lần/phút.\n  - Nghe trực tiếp tại vùng cổ trước có tiếng thở rít thì hít vào âm sắc cao, rõ nhất khi trẻ nằm ngửa.\n  - Đặt ống nghe tại phổi: Rì rào phế nang hai bên rõ, đều, không ran rít, không ran ẩm.\n  - Không có co kéo hõm ức khi nghỉ ngơi.\n\n- **Phân tích ca bệnh:**\n  - Tiếng thở rít ưu thế thì hít vào, nghe to nhất ở cổ trước, khởi phát sớm sau sinh ở trẻ nhũ nhi tăng cân tốt là bệnh cảnh kinh điển của Mềm sụn thanh quản thể nhẹ.\n  - Trẻ không có các dấu hiệu nặng như: Rút lõm lồng ngực nặng kéo dài, sụt cân suy dinh dưỡng, cơn ngừng thở, hoặc khó nuốt sặc sữa tím tái.\n\n- **Hướng xử trí và tư vấn gia đình:**\n  - Không chỉ định bất kỳ loại thuốc nào: Không dùng kháng sinh, không dùng thuốc giãn phế quản, không dùng corticoid.\n  - Tư vấn và trấn an phụ huynh: Giải thích rõ cơ chế sụn thanh quản chưa cứng cáp, bệnh có xu hướng ồn ào nhất lúc 6 tháng và sẽ tự khỏi hoàn toàn khi trẻ được 12 đến 18 tháng tuổi.\n  - Hướng dẫn tư thế an toàn: Cho trẻ nằm nghiêng hoặc nằm đầu cao sau bú, chia nhỏ cữ bú nếu trẻ thở mệt khi bú liên tục.\n  - Dặn dò dấu hiệu tái khám ngay: Trẻ tím tái khi bú, co kéo lồng ngực mạnh liên tục, hoặc chậm tăng cân.\n\n### Case 2: Trẻ 2 tuổi khò khè một bên phổi sau cơn ho sặc (Foreign Body Aspiration)\n\n- **Bệnh sử:**\n  - Bệnh nhi nữ 22 tháng tuổi, được chuyển đến từ phòng khám tuyến huyện vì chẩn đoán hen phế quản không đáp ứng.\n  - Trẻ ho và khò khè kéo dài 2 tuần nay, đã được điều trị bằng khí dung Salbutamol kết hợp uống Prednisolone nhưng không cải thiện.\n  - Khai thác bệnh sử kỹ lưỡng: Cách đây 2 tuần, khi đang ngồi ăn chè hạt sen cùng gia đình, trẻ đột ngột ho sặc sụa, nghẹn thở, mặt đỏ bừng rồi tím tái quanh môi trong khoảng vài phút, sau đó cơn sặc dịu đi và trẻ thở lại bình thường.\n\n- **Khám lâm sàng:**\n  - Trẻ bứt rứt, thở nhanh, SpO2 giảm nhẹ ở khí trời.\n  - Rút lõm hõm ức và cơ liên sườn mức độ trung bình.\n  - Nghe phổi: Thông khí phổi phải giảm rõ rệt so với phổi trái, kèm theo tiếng khò khè đơn âm sắc cố định ở thì thở ra tại phế trường giữa và dưới phổi phải.\n  - Phổi trái thông khí tốt, không ran.\n\n- **Phân tích ca bệnh:**\n  - Hội chứng xâm nhập rõ ràng sau khi ăn hạt sen kèm theo khò khè một bên phổi cố định không đáp ứng với thuốc giãn phế quản là bệnh cảnh kinh điển của Dị vật phế quản bỏ quên ở phế quản gốc phải.\n\n- **Quy trình cấp cứu can thiệp nội soi:**\n  - Chụp X-quang ngực thẳng: Ghi nhận hình ảnh ứ khí tăng sáng ở phổi phải, cơ hoành phải hạ thấp phẳng, bóng tim và trung thất bị đẩy lệch sang bên trái.\n  - Kích hoạt quy trình cấp cứu: Nhịn ăn uống tuyệt đối, chuyển phòng mổ chuyên khoa Tai Mũi Họng và Hô hấp Nhi.\n  - Nội soi phế quản ống cứng dưới gây mê toàn thân: Gắp thành công một mảnh hạt sen nằm bít tắc một phần phế quản gốc phải, hút sạch mủ nhầy ứ đọng xung quanh và bơm rửa niêm mạc.\n  - Sau thủ thuật trẻ thở êm dịu hoàn toàn, phế âm hai phổi đều nhau và xuất viện sau 48 giờ dùng kháng sinh dự phòng.\n\n### Case 3: Trẻ 4 tuổi ho đờm kéo dài 6 tuần sau đợt viêm đường hô hấp trên (PBB)\n\n- **Bệnh sử:**\n  - Trẻ nam 4 tuổi, tiền căn khỏe mạnh, không có cơ địa dị ứng.\n  - Trẻ đến khám vì ho đờm ướt liên tục suốt 6 tuần nay.\n  - Khởi đầu trẻ có đợt cảm sốt nhẹ, chảy mũi vài ngày rồi hết sốt, nhưng triệu chứng ho có đờm đục tiếp tục dai dẳng cả ngày lẫn đêm.\n  - Trẻ đã uống 2 đợt kháng sinh thông thường và siro ho thảo dược nhưng ho không dứt.\n\n- **Khám lâm sàng:**\n  - Trẻ tỉnh táo, tăng trưởng thể chất bình thường, không sốt, không khó thở.\n  - Nghe phổi có ran ẩm to hạt rải rác hai bên phế trường, âm thở thô ráp, không có tiếng thở rít, không ran rít, không ngón tay dùi trống.\n\n- **Phân tích ca bệnh:**\n  - Ho đờm ướt kéo dài trên 4 tuần ở trẻ nhỏ không có cờ đỏ bệnh lý nền và đã dùng kháng sinh liều thấp không đủ diệt biofilm vi khuẩn hướng tới chẩn đoán Viêm phế quản vi khuẩn kéo dài.\n\n- **Kế hoạch dùng kháng sinh thực chứng:**\n  - Chỉ định X-quang ngực thẳng: Hình ảnh dày thành phế quản rải rác hai rốn phổi, không có xẹp phổi hay tổn thương đông đặc thùy.\n  - Áp dụng phác đồ thử nghiệm DACS: Kê đơn Amoxicillin-clavulanate đường uống tỷ lệ thích hợp chia làm 2 lần mỗi ngày sau ăn, liệu trình ấn định 2 tuần trọn vẹn.\n  - Kết quả tái khám sau 14 ngày: Trẻ dứt điểm hoàn toàn cơn ho đờm, nghe phổi hoàn toàn trong trẻo. Khẳng định chẩn đoán xác định PBB và kết thúc điều trị.\n\n---\n\n## 11. TÀI LIỆU THAM KHẢO\n\nDanh mục các tài liệu tham khảo khoa học và hướng dẫn y văn quốc tế được trích dẫn và sử dụng trong bài giảng:\n\n1. Chang AB, Oppenheimer JJ, Irwin RS, et al. Managing Chronic Cough as a Symptom in Children and Management Algorithms: CHEST Guideline and Expert Panel Report. Chest. 2020. PMID: 32179109.\n2. Brand PL, Caudri D, Eber E, Gaillard EA, Bush A, et al. Classification and pharmacological treatment of preschool wheezing: changes since 2008. European Respiratory Journal. 2014. PMID: 24525447.\n3. Ruffles FGC, Marchant JM, Masters IB, Yerkovich ST, Chang AB, et al. Duration of amoxicillin-clavulanate for protracted bacterial bronchitis in children (DACS): a multi-centre, double blind, randomised controlled trial. The Lancet Respiratory Medicine. 2021. PMID: 34048716.\n4. Bush A, et al. ERS statement on tracheomalacia and bronchomalacia in children. European Respiratory Journal. 2019. PMID: 31320455.\n5. Chang AB, et al. Global Physiology and Pathophysiology of Cough: Part 1: Cough Phenomenology - CHEST Guideline and Expert Panel Report. Chest. 2021. PMID: 32888932.\n6. Bush A, et al. Recurrent Severe Preschool Wheeze: From Prespecified Diagnostic Labels to Underlying Endotypes. American Journal of Respiratory and Critical Care Medicine. 2021. PMID: 33961755.\n7. Chang AB, et al. Chronic Cough and Gastroesophageal Reflux in Children: CHEST Guideline and Expert Panel Report. Chest. 2019. PMID: 31002783.\n",
+      "pedytb_file": null,
+      "pedytb_content": "",
+      "cards_count": 88,
+      "cards_data": [
+        {
+          "type": "cloze",
+          "text": "Thở rít (Stridor) là âm thở có tần số cao, thô ráp, nghe rõ nhất ở thì {{c1::hít vào}}, gợi ý tắc nghẽn đường dẫn khí nằm ở vị trí {{c1::ngoài lồng ngực}}.",
+          "extra": "Cơ chế: Trong thì hít vào, áp lực trong lòng đường thở ngoài lồng ngực âm tính so với áp lực khí quyển bên ngoài, kéo sụp thành sụn mềm vào trong lòng ống."
+        },
+        {
+          "type": "cloze",
+          "text": "Khò khè (Wheezing) là âm thở liên tục có tính âm nhạc, nghe rõ nhất và ưu thế ở thì {{c1::thở ra}}, chỉ điểm tình trạng hẹp các đường dẫn khí nằm ở vị trí {{c1::trong lồng ngực}}.",
+          "extra": "Cơ chế: Trong thì thở ra chủ động, áp lực khoang màng phổi trở nên dương tính và ép từ ngoài vào thành các phế quản trong lồng ngực."
+        },
+        {
+          "type": "cloze",
+          "text": "Khụt khịt (Stertor) là âm thở trầm, thô ráp giống tiếng ngáy ngủ, xuất hiện do ứ đọng chất tiết nhầy hoặc hẹp giải phẫu tại vùng {{c1::mũi và khoang hầu họng}}.",
+          "extra": "Lâm sàng: Âm khụt khịt thường giảm đi rõ rệt hoặc biến mất hoàn toàn sau khi làm sạch hốc mũi bằng nước muối sinh lý."
+        },
+        {
+          "type": "cloze",
+          "text": "Theo nguyên lý Bernoulli, khi dòng khí lưu thông qua đoạn đường thở bị hẹp cục bộ, vận tốc dòng khí sẽ {{c1::tăng lên}} làm áp suất tĩnh tại điểm hẹp bị {{c1::sụt giảm}}.",
+          "extra": "Cơ chế: Áp suất tĩnh sụt giảm làm thành đường thở bị hút sụp vào lòng ống, tạo nên sự dao động cơ học rung lắc phát ra âm thở bất thường."
+        },
+        {
+          "type": "cloze",
+          "text": "Vị trí giải phẫu phát sinh tiếng thở rít thanh quản (stridor) bao gồm vùng {{c1::thanh thiệt, thanh môn, hạ thanh môn và khí quản đoạn cổ}}.",
+          "extra": "Giải phẫu: Đây là toàn bộ đoạn đường dẫn khí ngoài lồng ngực chịu tác động trực tiếp của áp lực khí quyển xung quanh."
+        },
+        {
+          "type": "cloze",
+          "text": "Vị trí giải phẫu phát sinh tiếng khò khè (wheezing) bao gồm {{c1::khí quản đoạn ngực, phế quản gốc, phế quản thùy và các tiểu phế quản}}.",
+          "extra": "Giải phẫu: Đây là các đường dẫn khí nằm hoàn toàn trong lồng ngực và chịu sự chi phối của biến thiên áp lực khoang màng phổi."
+        },
+        {
+          "type": "cloze",
+          "text": "Kỹ thuật khám phân biệt âm thở tại giường bắt buộc phải đặt màng ống nghe đối chiếu tại hai vị trí: vùng {{c1::cổ trước ngay trên sụn nhẫn}} và vùng {{c1::thành ngực hai bên phế trường}}.",
+          "extra": "Lâm sàng: Nếu âm thanh nghe to nhất ở cổ và nhỏ dần khi xuống đáy phổi, chắc chắn đó là âm thở truyền từ đường hô hấp trên."
+        },
+        {
+          "type": "cloze",
+          "text": "Đặc điểm đáp ứng với thuốc giãn phế quản khí dung (Salbutamol) giúp phân biệt: tiếng khò khè do co thắt có thể {{c1::thuyên giảm}}, trong khi tiếng thở rít và khụt khịt thì {{c1::hoàn toàn không đáp ứng}}.",
+          "extra": "Dược lý: Cơ trơn phế quản có thụ thể Beta-2 phân bố ở đường hô hấp dưới, trong khi thanh quản và mũi hầu không có cơ trơn chịu tác dụng giãn của SABA."
+        },
+        {
+          "type": "cloze",
+          "text": "Ảnh hưởng của tư thế đến tiếng thở rít trong mềm sụn thanh quản: tiếng thở rít tăng lên rõ rệt khi trẻ {{c1::nằm ngửa}} và giảm đi khi trẻ {{c1::nằm sấp hoặc ngửa cổ}}.",
+          "extra": "Cơ chế: Khi nằm sấp, trọng lực kéo nắp thanh thiệt và sụn phễu ra phía trước, giải phóng lối vào thanh môn."
+        },
+        {
+          "type": "cloze",
+          "text": "Trước khi kết luận một trẻ nhũ nhi có tiếng khò khè thực sự, hành động bắt buộc tại giường là {{c1::nhỏ nước muối sinh lý và hút sạch chất nhầy trong hốc mũi}}.",
+          "extra": "Bẫy lâm sàng: Hơn một nửa số trường hợp phụ huynh phàn nàn trẻ khò khè thực chất là tiếng khụt khịt do nghẹt mũi xuất tiết thông thường."
+        },
+        {
+          "type": "cloze",
+          "text": "Thở rít hai thì (Biphasic stridor) là tiếng rít xuất hiện ở cả thì hít vào và thở ra, báo hiệu tình trạng {{c1::hẹp cố định đường thở ngoài lồng ngực}} mức độ nghiêm trọng.",
+          "extra": "Căn nguyên: Thường gặp trong u máu hạ thanh môn, hẹp hạ thanh môn sau đặt nội khí quản, hoặc dị tật màng ngăn thanh quản."
+        },
+        {
+          "type": "cloze",
+          "text": "Khò khè đa âm sắc (Polyphonic wheeze) đặc trưng bởi nhiều cao độ âm thanh khác nhau phát ra đồng thời ở thì thở ra, chỉ điểm tình trạng {{c1::hẹp lan tỏa nhiều phế quản nhỏ có khẩu kính khác nhau}}.",
+          "extra": "Bệnh cảnh: Điển hình trong cơn hen phế quản cấp tính hoặc viêm tiểu phế quản cấp do virus."
+        },
+        {
+          "type": "cloze",
+          "text": "Khò khè đơn âm sắc (Monophonic wheeze) là tiếng khò khè chỉ có một cao độ duy nhất, tái diễn cố định tại một vùng phổi, gợi ý tình trạng {{c1::tắc nghẽn cơ học khu trú tại một nhánh phế quản lớn}}.",
+          "extra": "Căn nguyên: Phải cảnh giác cao độ với dị vật phế quản bỏ quên, mềm phế quản khu trú hoặc u nội phế quản chèn ép."
+        },
+        {
+          "type": "cloze",
+          "text": "Tiếng thở rên (Grunting) ở trẻ nhũ nhi thực chất là phản xạ {{c1::khép một phần nắp thanh môn cuối thì thở ra}} nhằm mục đích tạo {{c1::áp lực dương cuối thì thở ra (Auto-PEEP) để chống xẹp phế nang}}.",
+          "extra": "Cảnh báo: Thở rên là dấu hiệu suy hô hấp nặng hoặc tổn thương phế nang phế nang lan tỏa (viêm phổi nặng, phù phổi), không được nhầm với khò khè."
+        },
+        {
+          "type": "cloze",
+          "text": "Theo định luật Poiseuille, điện trở đường thở tỷ lệ nghịch với {{c1::lũy thừa bậc bốn của bán kính lòng ống (R ~ 1/r^4)}}.",
+          "extra": "Sinh lý học: Ở trẻ nhỏ có đường thở hẹp sẵn, chỉ cần phù nề niêm mạc 1 mm đã làm tăng sức cản đường thở lên gấp 16 lần."
+        },
+        {
+          "type": "cloze",
+          "text": "Khung sụn đường thở của trẻ nhỏ mềm và dễ bị xẹp hơn người lớn do chứa hàm lượng {{c1::proteoglycan và sợi đàn hồi chưa trưởng thành hoàn toàn}}.",
+          "extra": "Động học: Thành phế quản dễ bị ép xẹp động học khi có sự gia tăng áp lực dương trong khoang màng phổi lúc thở ra gắng sức."
+        },
+        {
+          "type": "cloze",
+          "text": "Cung phản xạ ho ở trẻ em có nhánh hướng tâm truyền tín hiệu cảm giác qua {{c1::dây thần kinh phế vị (dây X)}} về trung tâm ho tại {{c1::nhân bó đơn độc ở hành não}}.",
+          "extra": "PMID: 32888932 (CHEST 2021). Phản xạ ho nhằm tống xuất đờm dãi và dị vật bảo vệ đường thở dưới."
+        },
+        {
+          "type": "cloze",
+          "text": "Hai loại thụ thể cảm giác chính tiếp nhận kích thích gây ho tại biểu mô thanh khí phế quản là {{c1::thụ thể thích nghi nhanh (RARs)}} và {{c1::sợi thần kinh cảm giác không myelin C-fibers}}.",
+          "extra": "Cơ chế: RARs nhạy cảm với kích thích cơ học và chất nhầy; C-fibers nhạy cảm với kích thích hóa học và chất trung gian gây viêm."
+        },
+        {
+          "type": "cloze",
+          "text": "Pha thứ hai của động tác ho đặc trưng bởi sự {{c1::đóng kín nắp thanh môn}} kết hợp với sự {{c1::co thắt mạnh của cơ thành bụng và cơ hoành}}, làm áp lực trong lồng ngực tăng vọt.",
+          "extra": "Động lực học: Áp lực khoang lồng ngực có thể tăng vọt lên trên 100 mmHg trước khi nắp thanh môn mở bung đột ngột ở pha tống xuất."
+        },
+        {
+          "type": "cloze",
+          "text": "Hiện tượng ho khan kéo dài sau nhiễm virus hô hấp ở trẻ em có cơ chế bệnh sinh chính là do {{c1::tăng nhạy cảm thụ thể ho (cough hypersensitivity)}} do bong tróc biểu mô làm lộ các đầu tận sợi C-fiber.",
+          "extra": "Lâm sàng: Tình trạng này có thể kéo dài 3 đến 4 tuần và tự thoái lui, hoàn toàn không cần điều trị kháng sinh hay thuốc ức chế ho."
+        },
+        {
+          "type": "cloze",
+          "text": "Áp lực xuyên thành đường thở được xác định bằng hiệu số giữa {{c1::áp suất trong lòng ống (P_inside)}} và {{c1::áp suất bên ngoài thành ống (P_outside)}}.",
+          "extra": "Vật lý: Khi áp lực xuyên thành mang giá trị âm, lực ép từ ngoài vào trong sẽ làm xẹp lòng đường thở mềm."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong thì hít vào, đoạn khí quản ngoài lồng ngực bị ép hẹp lại vì áp suất trong lòng ống {{c1::âm tính hơn so với áp suất khí quyển bên ngoài}}.",
+          "extra": "Cơ chế: Hiện tượng này giải thích tại sao các tổn thương mềm sụn thanh khí quản ngoài lồng ngực luôn phát ra tiếng thở rít thì hít vào."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong thì thở ra gắng sức, đoạn phế quản trong lồng ngực bị chít hẹp lại vì áp lực khoang màng phổi {{c1::trở thành áp lực dương và cao hơn áp suất trong lòng phế quản}}.",
+          "extra": "Cơ chế: Đây là cơ chế ép xẹp động học gây ra tiếng khò khè thì thở ra ở các bệnh lý tắc nghẽn đường hô hấp dưới."
+        },
+        {
+          "type": "cloze",
+          "text": "Mềm sụn khí phế quản (Tracheobronchomalacia) được định nghĩa khi có sự xẹp lòng khí phế quản từ {{c1::50% diện tích lòng ống trở lên}} ở thì thở ra hoặc khi ho.",
+          "extra": "PMID: 31320455 (ERS Statement 2019). Tiêu chuẩn vàng chẩn đoán là nội soi phế quản ống mềm khi trẻ đang thở tự nhiên."
+        },
+        {
+          "type": "cloze",
+          "text": "Đặc điểm âm ho điển hình của trẻ mắc mềm sụn khí quản nặng là tiếng ho {{c1::vang rỗng, ông ổng như tiếng chó sủa (barking cough)}} kèm khò khè đơn âm sắc cố định.",
+          "extra": "Cơ chế: Do thành sau dạng màng của khí quản phình trướng ra phía trước đập vào thành trước khí quản trong thì thở ra gắng sức."
+        },
+        {
+          "type": "cloze",
+          "text": "Theo CHEST 2020, mốc thời gian kinh điển để xác định một tình trạng ho ở trẻ em là ho mạn tính là khi triệu chứng ho kéo dài liên tục trên {{c1::4 tuần}}.",
+          "extra": "PMID: 32179109. Khác với người lớn (mốc 8 tuần), trẻ em lấy mốc 4 tuần để sớm can thiệp tìm kiếm các nguyên nhân thực thể nguy hiểm."
+        },
+        {
+          "type": "cloze",
+          "text": "Nguyên nhân bẩm sinh thường gặp nhất gây thở rít thanh quản thì hít vào ở trẻ sơ sinh và nhũ nhi dưới 1 tuổi là {{c1::mềm sụn thanh quản (Laryngomalacia)}}, chiếm khoảng 60% đến 70% các ca.",
+          "extra": "Dịch tễ: Thường bắt đầu biểu hiện từ tuần thứ 2 đến tuần thứ 4 sau sinh và tự khỏi khi trẻ được 12 đến 18 tháng."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong mềm sụn thanh quản, cấu trúc giải phẫu bị sa vào lòng thanh môn thì hít vào bao gồm {{c1::nắp thanh thiệt hình chữ Omega uốn cong}} và {{c1::sụn phễu nếp phễu thanh thiệt phù nề sa trễ}}.",
+          "extra": "Nội soi: Quan sát thấy nắp thanh thiệt bị hút gập vào lòng thanh môn ở mỗi nhịp hít vào tạo ra tiếng rít."
+        },
+        {
+          "type": "cloze",
+          "text": "Chỉ định phẫu thuật tạo hình nắp thanh quản (Supraglottoplasty) trong mềm sụn thanh quản chỉ đặt ra khi trẻ có dấu hiệu nặng: {{c1::chậm tăng cân suy dinh dưỡng, cơn ngừng thở tím tái, hoặc lõm ức nặng kéo dài}}.",
+          "extra": "Tiên lượng: Khoảng 85% đến 90% các ca mềm sụn thanh quản chỉ ở mức độ nhẹ đến trung bình và tự thoái lui mà không cần phẫu thuật."
+        },
+        {
+          "type": "cloze",
+          "text": "Dị tật vòng nhẫn mạch máu (Vascular Ring) gây chèn ép đường thở ở trẻ nhũ nhi thường có biểu hiện lâm sàng đặc trưng là tiếng thở rít {{c1::hai thì (cả hít vào và thở ra)}} kèm theo triệu chứng {{c1::khó nuốt hoặc nôn trớ khi ăn thức ăn đặc}}.",
+          "extra": "Cơ chế: Vòng mạch siết quanh cả khí quản và thực quản. Trẻ thường có tư thế ưỡn ngửa cổ ra sau để dễ thở."
+        },
+        {
+          "type": "cloze",
+          "text": "Phương tiện chẩn đoán hình ảnh tiêu chuẩn vàng giúp xác định chính xác giải phẫu dị tật vòng nhẫn mạch máu chèn ép khí quản là {{c1::chụp cắt lớp vi tính lồng ngực (CT-Angiography ngực)}}.",
+          "extra": "Chẩn đoán: CT mạch máu giúp dựng hình không gian 3D cây khí quản và các nhánh động mạch chủ bất thường."
+        },
+        {
+          "type": "cloze",
+          "text": "Căn nguyên vi sinh vật hàng đầu gây ra đợt khò khè cấp tính đầu tiên ở trẻ nhũ nhi dưới 1 tuổi (viêm tiểu phế quản cấp) là {{c1::virus hợp bào hô hấp (RSV)}}.",
+          "extra": "Bệnh học: Virus gây hoại tử tế bào biểu mô phế quản có lông chuyển, phù nề dưới niêm mạc và hình thành các nút nhầy tế bào làm bít tắc tiểu phế quản."
+        },
+        {
+          "type": "cloze",
+          "text": "Theo các hướng dẫn quốc tế (AAP 2014, NICE), trong điều trị viêm tiểu phế quản cấp ở trẻ nhũ nhi, thuốc giãn phế quản Salbutamol khí dung và Corticoid toàn thân {{c1::không được khuyến cáo sử dụng thường quy}}.",
+          "extra": "Thực chứng: Các thử nghiệm lâm sàng đối chứng lớn chứng minh Salbutamol không làm giảm tỷ lệ nhập viện cũng như không rút ngắn thời gian thở oxy."
+        },
+        {
+          "type": "cloze",
+          "text": "Biện pháp điều trị nền tảng quan trọng nhất trong quản lý trẻ mắc viêm tiểu phế quản cấp tính là {{c1::hỗ trợ thông thoáng đường thở, bù đủ dịch dinh dưỡng và cung cấp oxy khi SpO2 < 92%}}.",
+          "extra": "Chăm sóc: Hút sạch dịch mũi họng trước cữ bú giúp cải thiện công hô hấp rõ rệt ở trẻ nhũ nhi vì trẻ thở ưu thế qua đường mũi."
+        },
+        {
+          "type": "cloze",
+          "text": "Khi một trẻ nhũ nhi dưới 6 tháng tuổi có triệu chứng ho sặc sụa và tím tái mỗi khi bú mẹ kèm viêm phổi tái phát nhiều lần, bắt buộc phải loại trừ dị tật {{c1::rò khí thực quản (Tracheoesophageal Fistula, đặc biệt thể H)}}.",
+          "extra": "Chẩn đoán: Chỉ định chụp thực quản cản quang có quay video huỳnh quang hoặc nội soi khí phế quản kết hợp thực quản."
+        },
+        {
+          "type": "cloze",
+          "text": "Cơn khó thở rít khởi phát đột ngột ở trẻ 6 đến 12 tháng kèm theo sốt nhẹ, tiếng ho ông ổng như chó sủa và khàn tiếng là bệnh cảnh kinh điển của bệnh {{c1::Croup cấp (Viêm thanh khí phế quản cấp)}}.",
+          "extra": "Vi sinh: Thường do Parainfluenza virus gây phù nề hạ thanh môn. Dấu hiệu tháp chuông (Steeple sign) trên X-quang cổ nghiêng."
+        },
+        {
+          "type": "cloze",
+          "text": "Thuốc điều trị đầu tay duy nhất giúp giảm phù nề hạ thanh môn và giảm tỷ lệ đặt nội khí quản ở bệnh nhi mắc Croup là {{c1::Dexamethasone liều duy nhất 0.15 đến 0.6 mg/kg}} đường uống hoặc tiêm.",
+          "extra": "Thực chứng: Dexamethasone phát huy tác dụng lâm sàng sau 2 đến 4 giờ và duy trì hiệu quả chống viêm kéo dài."
+        },
+        {
+          "type": "cloze",
+          "text": "Khí dung Adrenalin (Epinephrine) được chỉ định cấp cứu trong bệnh Croup khi trẻ có biểu hiện {{c1::thở rít ngay cả khi nằm yên nghỉ ngơi và có dấu hiệu co kéo rút lõm lồng ngực}}.",
+          "extra": "Cơ chế: Kích thích thụ thể Alpha-1 gây co mạch tại chỗ, giảm phù nề mô mềm hạ thanh môn tức thì trong vòng 10 đến 30 phút."
+        },
+        {
+          "type": "cloze",
+          "text": "Tuyệt đối không được chẩn đoán Hen phế quản ở trẻ {{c1::dưới 1 tuổi}} khi chưa thực hiện các thăm dò loại trừ bất thường cấu trúc giải phẫu bẩm sinh hoặc dị vật đường thở.",
+          "extra": "Cảnh báo: Tắc nghẽn đường thở ở lứa tuổi này đa phần là do virus cấp tính hoặc dị tật sụn khí phế quản."
+        },
+        {
+          "type": "cloze",
+          "text": "Triệu chứng thở rít tăng dần ở trẻ nhũ nhi từ 2 đến 6 tháng tuổi kèm theo u máu xuất hiện ở vùng da quanh cằm cổ (phân bố râu hàm) gợi ý căn nguyên {{c1::u máu hạ thanh môn (Subglottic Hemangioma)}}.",
+          "extra": "Điều trị: U máu hạ thanh môn đáp ứng ngoạn mục với thuốc ức chế thụ thể beta không chọn lọc Propranolol đường uống."
+        },
+        {
+          "type": "cloze",
+          "text": "Theo ERS 2014, khò khè từng đợt do virus (Episodic Viral Wheeze - EVW) ở trẻ tiền học đường được định nghĩa là tình trạng khò khè {{c1::chỉ xuất hiện trong các đợt nhiễm trùng đường hô hấp trên do virus}}, giữa các đợt trẻ {{c1::hoàn toàn khỏe mạnh bình thường}}.",
+          "extra": "PMID: 24525447. Kiểu hình EVW thường có tiên lượng thuận lợi và tự thoái lui khi đường thở lớn dần."
+        },
+        {
+          "type": "cloze",
+          "text": "Khò khè do nhiều yếu tố kích phát (Multiple-Trigger Wheeze - MTW) theo ERS 2014 là tình trạng khò khè {{c1::xuất hiện cả trong đợt nhiễm virus và ngoài đợt bệnh khi trẻ gắng sức, cười đùa, tiếp xúc khói bụi dị nguyên}}.",
+          "extra": "PMID: 24525447. MTW liên quan chặt chẽ đến cơ địa dị ứng và là yếu tố nguy cơ tiến triển thành hen sau 6 tuổi."
+        },
+        {
+          "type": "cloze",
+          "text": "Thuốc kiểm soát nền tảng đầu tay được ERS 2014 khuyến cáo cho trẻ tiền học đường mắc khò khè do nhiều yếu tố (MTW) là {{c1::Corticoid dạng hít (ICS liều thấp hằng ngày)}} qua buồng đệm.",
+          "extra": "PMID: 24525447. Mọi điều trị kiểm soát ở lứa tuổi này phải được coi là một thử nghiệm điều trị có đánh giá lại sau 4 đến 8 tuần."
+        },
+        {
+          "type": "cloze",
+          "text": "Theo khuyến cáo của ERS Task Force 2014, Corticoid đường toàn thân (uống hoặc tiêm) {{c1::không được chỉ định thường quy}} cho các đợt khò khè cấp do virus mức độ nhẹ đến trung bình ở trẻ tiền học đường.",
+          "extra": "PMID: 24525447. Không có bằng chứng cho thấy Corticoid toàn thân giúp giảm tỷ lệ nhập viện ở trẻ EVW nhẹ-trung bình."
+        },
+        {
+          "type": "cloze",
+          "text": "Hội chứng xâm nhập (Penetration Syndrome) trong dị vật đường thở ở trẻ nhỏ được định nghĩa là cơn {{c1::ho sặc sụa, nghẹt thở và tím tái xuất hiện đột ngột}} khi trẻ đang ăn thức ăn dạng hạt hoặc ngậm đồ chơi nhỏ.",
+          "extra": "Lâm sàng: Gặp ở trên 80% các trường hợp và là tiêu chuẩn vàng về mặt bệnh sử để chỉ định nội soi phế quản."
+        },
+        {
+          "type": "cloze",
+          "text": "Tam chứng lâm sàng kinh điển gợi ý dị vật phế quản bỏ quên ở giai đoạn muộn bao gồm: {{c1::khò khè một bên cố định}}, {{c1::rì rào phế nang giảm một bên}}, và {{c1::ho dai dẳng kháng trị với thuốc giãn phế quản}}.",
+          "extra": "Cảnh báo: Rất dễ bị chẩn đoán nhầm với hen suyễn hoặc viêm phế quản co thắt điều trị ngoại trú kéo dài."
+        },
+        {
+          "type": "cloze",
+          "text": "Hình ảnh gián tiếp trên phim X-quang ngực thẳng điển hình của dị vật phế quản không cản quang là hiện tượng {{c1::bẫy khí (air trapping) làm phổi bị ứ khí sáng hơn bình thường}} và {{c1::trung thất bị đẩy lệch sang bên đối diện}}.",
+          "extra": "Cơ chế: Cơ chế van một chiều (ball-valve effect) cho phép không khí đi vào ở thì hít vào nhưng bít kín không cho khí thoát ra ở thì thở ra."
+        },
+        {
+          "type": "cloze",
+          "text": "Khi nghi ngờ dị vật đường thở mà phim X-quang ngực thẳng thì hít vào bình thường, kỹ thuật chụp bổ sung có giá trị cao nhất là {{c1::chụp X-quang ngực ở thì thở ra}} hoặc {{c1::chụp ngực tư thế nằm nghiêng (Decubitus view)}}.",
+          "extra": "Chẩn đoán: Ở thì thở ra, bên phổi có dị vật không thể xẹp xuống được, làm bộc lộ rõ tình trạng ứ khí bất cân xứng."
+        },
+        {
+          "type": "cloze",
+          "text": "Khi bệnh nhi có hội chứng xâm nhập rõ ràng, dù phim chụp X-quang ngực hoàn toàn bình thường thì thái độ xử trí bắt buộc vẫn là {{c1::chỉ định nội soi phế quản để thám sát và gắp dị vật}}.",
+          "extra": "Nguyên tắc an toàn: X-quang ngực bình thường gặp ở 20% đến 30% ca dị vật đường thở trong 24 giờ đầu."
+        },
+        {
+          "type": "cloze",
+          "text": "Phương pháp can thiệp chuẩn mực để gắp dị vật đường thở phế quản ở trẻ em là {{c1::nội soi phế quản ống cứng dưới gây mê toàn thân}}.",
+          "extra": "Ngoại khoa: Ống soi cứng cho phép thông khí kiểm soát đường thở và luồn các kìm gắp chuyên dụng để lấy dị vật an toàn."
+        },
+        {
+          "type": "cloze",
+          "text": "Chỉ số dự đoán hen (API - Asthma Predictive Index) dương tính ở trẻ tiền học đường khò khè tái phát khi có 1 tiêu chuẩn chính hoặc 2 tiêu chuẩn phụ; tiêu chuẩn chính bao gồm {{c1::cha mẹ mắc hen suyễn}} hoặc {{c1::trẻ được chẩn đoán viêm da cơ địa (chàm thể tạng)}}.",
+          "extra": "Tiên lượng: API dương tính giúp dự đoán tới 75% khả năng trẻ sẽ tiếp tục mắc hen phế quản ở tuổi học đường."
+        },
+        {
+          "type": "cloze",
+          "text": "Hai tiêu chuẩn phụ thường gặp trong Chỉ số dự đoán hen (API) ở trẻ nhỏ là {{c1::viêm mũi dị ứng do bác sĩ chẩn đoán}} và {{c1::khò khè xuất hiện không liên quan đến cảm lạnh}}.",
+          "extra": "Lâm sàng: Ngoài ra còn có tiêu chuẩn phụ tăng bạch cầu ái toan trong máu ngoại vi (Eosinophil ≥ 4%)."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong cơn khò khè cấp tính ở trẻ tiền học đường, thuốc giãn phế quản dạng khí dung hoặc hít qua buồng đệm được lựa chọn đầu tay là {{c1::Salbutamol (SABA) liều 2 đến 6 nhát xịt lặp lại sau 20 phút}}.",
+          "extra": "Cấp cứu: Đánh giá lại đáp ứng lâm sàng sau 1 giờ để quyết định trẻ có cần nhập viện hay tiếp tục theo dõi ngoại trú."
+        },
+        {
+          "type": "cloze",
+          "text": "Nghiên cứu của Bush A và cộng sự (AJRCCM 2021) chỉ ra rằng khò khè tái phát nặng ở trẻ tiền học đường đòi hỏi phân định các endotypes bao gồm {{c1::viêm dị ứng type 2, nhiễm trùng mạn tính, và bất thường cấu trúc đường thở}}.",
+          "extra": "PMID: 33961755. Việc phân loại endotype giúp cá thể hóa điều trị đích thay vì áp dụng một phác đồ chung cho mọi trẻ."
+        },
+        {
+          "type": "cloze",
+          "text": "Ở trẻ trên 5 tuổi có triệu chứng ho và khò khè tái phát, tiêu chuẩn vàng để xác định chẩn đoán Hen phế quản là {{c1::đo chức năng hô hấp (Hô hấp ký - Spirometry)}} ghi nhận hội chứng tắc nghẽn có hồi phục.",
+          "extra": "Tiêu chuẩn: Tỷ số FEV1/FVC giảm và FEV1 tăng ≥ 12% sau khi hít thuốc giãn phế quản tác dụng nhanh."
+        },
+        {
+          "type": "cloze",
+          "text": "Tiêu chuẩn chẩn đoán test giãn phế quản dương tính trên hô hấp ký là khi chỉ số FEV1 tăng tối thiểu {{c1::12% và 200 mL}} sau khi hít thuốc giãn phế quản (Salbutamol 400 µg).",
+          "extra": "Chức năng: Chứng minh tính chất co thắt đường thở có thể hồi phục hoàn toàn, là đặc trưng cốt lõi của bệnh Hen phế quản."
+        },
+        {
+          "type": "cloze",
+          "text": "Triệu chứng lâm sàng điển hình giúp phân biệt Hen phế quản với các bệnh phổi khác ở trẻ lớn là tính chất cơn ho khò khè thường {{c1::nặng lên về đêm và rạng sáng}} và {{c1::khởi phát sau gắng sức thể thao hoặc tiếp xúc không khí lạnh}}.",
+          "extra": "Sinh lý: Do sự biến thiên sinh học của trương lực phế vị và nhiệt độ cơ thể vào ban đêm làm tăng sức cản đường thở."
+        },
+        {
+          "type": "cloze",
+          "text": "Ở trẻ trên 5 tuổi có ho đờm ướt lượng nhiều kéo dài kèm ngón tay dùi trống, phương tiện chẩn đoán hình ảnh tiêu chuẩn vàng để xác định bệnh Giãn phế quản là {{c1::chụp cắt lớp vi tính lồng ngực độ phân giải cao (HRCT ngực)}}.",
+          "extra": "Hình ảnh học: Dấu hiệu vòng nhẫn (Signet ring sign) khi đường kính phế quản lớn hơn đường kính động mạch đi kèm."
+        },
+        {
+          "type": "cloze",
+          "text": "Rối loạn chức năng dây thanh (Vocal Cord Dysfunction - VCD) ở trẻ vị thành niên đặc trưng bởi sự {{c1::khép nghịch thường của hai dây thanh âm ở thì hít vào}}, gây khó thở thanh quản cấp tính khi gắng sức.",
+          "extra": "Chẩn đoán phân biệt: Rất dễ bị chẩn đoán nhầm là cơn hen nặng kháng trị; đáp ứng kém với Salbutamol nhưng đáp ứng tốt với bài tập thở phục hồi thanh học."
+        },
+        {
+          "type": "cloze",
+          "text": "Ho dạng Tic (Habit Cough / Somatic Cough Syndrome) ở trẻ học đường có đặc điểm nhận diện then chốt là tiếng ho to khan đanh như tiếng ngỗng kêu, xuất hiện liên tục ban ngày nhưng {{c1::biến mất hoàn toàn khi trẻ đã ngủ say}}.",
+          "extra": "Tâm lý lâm sàng: Ho tăng lên khi có sự chú ý của người lớn và giảm đi khi trẻ tập trung chơi trò chơi; không có tổn thương thực thể đường thở."
+        },
+        {
+          "type": "cloze",
+          "text": "Hội chứng ho đường hô hấp trên (UACS) do viêm mũi xoang dị ứng gây ho mạn tính ở trẻ lớn theo cơ chế {{c1::chảy dịch nhầy từ hốc mũi xuống thành sau họng (post-nasal drip) kích thích trực tiếp thụ thể ho}}.",
+          "extra": "Khám lâm sàng: Quan sát thấy niêm mạc thành sau họng có hình ảnh lát sỏi (cobblestone appearance) và dòng dịch nhầy đục chảy xuống."
+        },
+        {
+          "type": "cloze",
+          "text": "Đo nồng độ NO trong khí thở ra (FeNO) ở trẻ em nghi ngờ hen phế quản là chỉ dấu sinh học giúp định lượng mức độ {{c1::viêm đường thở qua trung gian bạch cầu ái toan (Eosinophil / Th2 inflammation)}}.",
+          "extra": "Điều trị: Chỉ số FeNO cao giúp dự đoán đáp ứng tốt với điều trị bằng Corticoid dạng hít (ICS)."
+        },
+        {
+          "type": "cloze",
+          "text": "Trẻ lớn mắc hen suyễn xuất hiện cơn khó thở dữ dội, lồng ngực im lặng (silent chest) khi nghe phổi là dấu hiệu báo động đỏ của {{c1::tắc nghẽn đường thở cực kỳ nghiêm trọng, thông khí phổi giảm sút trầm trọng}} đe dọa ngừng tuần hoàn.",
+          "extra": "Cấp cứu: Không nghe thấy tiếng ran rít do lưu lượng khí thở ra quá yếu không đủ tạo rung động âm thanh; cần đặt nội khí quản cấp cứu."
+        },
+        {
+          "type": "cloze",
+          "text": "Xét nghiệm đo nồng độ Clorua trong mồ hôi (Sweat Chloride Test) là xét nghiệm tiêu chuẩn vàng để chẩn đoán xác định bệnh di truyền {{c1::Xơ nang (Cystic Fibrosis)}} ở trẻ ho đờm mạn tính và kém hấp thu.",
+          "extra": "Chẩn đoán: Nồng độ Cl- trong mồ hôi ≥ 60 mmol/L khẳng định chẩn đoán bệnh xơ nang theo khuyến cáo quốc tế."
+        },
+        {
+          "type": "cloze",
+          "text": "Tam chứng lâm sàng kinh điển xác lập chẩn đoán Viêm phế quản vi khuẩn kéo dài (PBB) theo CHEST 2020 gồm: ho đờm ướt liên tục trên {{c1::4 tuần}}, không có {{c1::dấu hiệu cờ đỏ hay bệnh lý nền}}, và dứt điểm sau {{c1::2 đến 4 tuần kháng sinh thích hợp}}.",
+          "extra": "PMID: 32179109. PBB là nguyên nhân hàng đầu gây ho ướt mạn tính ở trẻ nhỏ nhưng thường bị chẩn đoán nhầm thành hen."
+        },
+        {
+          "type": "cloze",
+          "text": "Bộ ba vi khuẩn thường gặp nhất phân lập được từ dịch rửa phế quản phế nang (BAL) ở trẻ mắc PBB là {{c1::Haemophilus influenzae không định type (NTHi)}}, {{c1::Streptococcus pneumoniae}}, và {{c1::Moraxella catarrhalis}}.",
+          "extra": "Vi sinh: H. influenzae không định type chiếm tỷ lệ cao nhất (khoảng 40% đến 50%) và có khả năng tạo màng biofilm mạnh mẽ."
+        },
+        {
+          "type": "cloze",
+          "text": "Bản chất sinh bệnh học khiến PBB khó dứt điểm với các đợt kháng sinh ngắn ngày thông thường là do vi khuẩn hình thành cấu trúc {{c1::màng sinh học (Biofilm)}} bám chắc vào niêm mạc phế quản bị tổn thương.",
+          "extra": "Cơ chế: Màng biofilm ngăn cản sự xâm nhập của kháng thể và kháng sinh, đòi hỏi liệu trình kháng sinh phải đủ dài từ 2 đến 4 tuần."
+        },
+        {
+          "type": "cloze",
+          "text": "Kháng sinh đầu tay được thử nghiệm lâm sàng DACS (Lancet Resp Med 2021) chứng minh có hiệu quả cao nhất để điều trị dứt điểm PBB là {{c1::Amoxicillin-clavulanate}} đường uống.",
+          "extra": "PMID: 34048716. Thử nghiệm DACS là RCT mù đôi đa trung tâm đầu tiên xác lập thời gian điều trị tối ưu cho PBB."
+        },
+        {
+          "type": "cloze",
+          "text": "Liều lượng Amoxicillin-clavulanate chuẩn trong điều trị PBB được tính theo thành phần amoxicillin là {{c1::40 đến 50 mg/kg/ngày chia 2 lần}} sau bữa ăn.",
+          "extra": "Điều trị: Ưu tiên dùng tỷ lệ 7:1 hoặc 8:1 để hạn chế tác dụng phụ gây tiêu chảy do thành phần acid clavulanic."
+        },
+        {
+          "type": "cloze",
+          "text": "Theo kết quả của thử nghiệm DACS, thời gian dùng kháng sinh Amoxicillin-clavulanate khởi đầu cho PBB là {{c1::2 tuần}}, và nếu trẻ chỉ đáp ứng một phần thì cần kéo dài liệu trình lên {{c1::4 tuần}}.",
+          "extra": "PMID: 34048716. Kéo dài đủ 4 tuần giúp tiêu diệt triệt để vi khuẩn trong màng biofilm và giảm tỷ lệ tái phát bệnh."
+        },
+        {
+          "type": "cloze",
+          "text": "Hậu quả lâu dài nguy hiểm nhất nếu trẻ mắc Viêm phế quản vi khuẩn kéo dài (PBB) tái diễn nhiều đợt mà không được điều trị triệt để là tiến triển thành bệnh {{c1::Giãn phế quản (Bronchiectasis) không hồi phục}}.",
+          "extra": "Bệnh học: Viêm mủ nội phế quản tái diễn liên tục phá hủy các sợi đàn hồi và lớp sụn nâng đỡ thành phế quản."
+        },
+        {
+          "type": "cloze",
+          "text": "Định nghĩa thể PBB tái phát (Recurrent PBB) được xác lập khi trẻ có từ {{c1::3 đợt PBB trở lên trong vòng một năm}}, và nhóm bệnh nhi này bắt buộc phải được chỉ định {{c1::chụp CT ngực phân giải cao và nội soi phế quản}}.",
+          "extra": "Hướng dẫn: Nhằm tầm soát sớm biến chứng giãn phế quản thể nhẹ hoặc các dị tật đường thở bẩm sinh phối hợp."
+        },
+        {
+          "type": "cloze",
+          "text": "Dấu hiệu cờ đỏ ho ra máu (Hemoptysis) ở trẻ em là một cấp cứu tuyệt đối, đòi hỏi phải nghĩ ngay đến các căn nguyên nguy hiểm: {{c1::dị vật đường thở sắc nhọn, giãn phế quản tổn thương mạch máu, hoặc u mạch phế quản}}.",
+          "extra": "Cấp cứu: Cần ổn định hô hấp tuần hoàn khẩn cấp và hội chẩn nội soi phế quản cầm máu."
+        },
+        {
+          "type": "cloze",
+          "text": "Ngón tay dùi trống (Clubbing fingers) ở bệnh nhi có ho hoặc khò khè kéo dài là dấu hiệu cờ đỏ chỉ điểm tình trạng {{c1::thiếu oxy mạn tính hoặc nhiễm trùng nung mủ mạn tính trong lồng ngực (giãn phế quản, xơ nang)}}.",
+          "extra": "Lâm sàng: Góc giữa móng tay và giường móng vượt quá 180 độ; mất khoảng trống Schamroth khi chụm hai ngón tay đối diện."
+        },
+        {
+          "type": "cloze",
+          "text": "Dấu hiệu cờ đỏ khởi phát triệu chứng ho thở rít ngay từ giai đoạn sơ sinh đòi hỏi phải khảo sát phát hiện các dị tật bẩm sinh nặng bao gồm {{c1::hẹp thanh khí quản bẩm sinh, rò khí thực quản, hoặc vòng nhẫn mạch máu chèn ép}}.",
+          "extra": "Chẩn đoán: Thăm dò hình ảnh học và nội soi thanh khí phế quản sớm là bắt buộc."
+        },
+        {
+          "type": "cloze",
+          "text": "Theo CHEST 2019, việc điều trị thử thuốc ức chế acid dạ dày (PPI như Omeprazole) {{c1::không được khuyến cáo thường quy}} cho trẻ ho mạn tính nếu trẻ không có các dấu hiệu cảnh báo tiêu hóa rõ rệt.",
+          "extra": "PMID: 31002783. Không có bằng chứng cho thấy PPI giúp cải thiện triệu chứng ho mạn tính không có triệu chứng GERD."
+        },
+        {
+          "type": "cloze",
+          "text": "Tác dụng phụ nguy hiểm của việc lạm dụng thuốc ức chế acid dạ dày kéo dài ở trẻ nhỏ là làm tăng nguy cơ {{c1::viêm phổi hít vi khuẩn và nhiễm trùng đường tiêu hóa}} do làm mất hàng rào acid bảo vệ.",
+          "extra": "Dược lý: Acid dạ dày là cơ chế bảo vệ tự nhiên tiêu diệt vi khuẩn; kiềm hóa dịch vị tạo điều kiện cho vi khuẩn đường ruột phát triển và trào ngược vào phổi."
+        },
+        {
+          "type": "cloze",
+          "text": "Tuyệt đối cấm sử dụng các loại thuốc giảm ho ức chế trung tâm thần kinh (như Codein, Dextromethorphan) cho trẻ em dưới 6 tuổi vì nguy cơ {{c1::ức chế hô hấp gây ngừng thở và ứ đọng đờm bít tắc phế quản}}.",
+          "extra": "An toàn dược phẩm: Phản xạ ho là cơ chế bảo vệ sinh lý; ức chế ho khi đường thở đang tăng tiết đờm sẽ dẫn đến suy hô hấp tắc nghẽn cấp tính."
+        },
+        {
+          "type": "cloze",
+          "text": "Thuốc kháng histamin H1 thế hệ 1 (như Promethazine, Diphenhydramine) chống chỉ định dùng cho trẻ có cơn khó thở vì thuốc có tác dụng phụ {{c1::làm khô đặc đờm nhầy khó khạc và gây an thần ngủ gà che lấp suy hô hấp}}.",
+          "extra": "Dược lý: Tác dụng kháng cholinergic làm quánh đặc chất tiết đường thở tạo thành các nút đờm nguy hiểm."
+        },
+        {
+          "type": "cloze",
+          "text": "Khi sử dụng bình xịt định liều (MDI) cho trẻ em dưới 5 tuổi, bắt buộc phải dùng kèm thiết bị {{c1::buồng đệm có mặt nạ (Spacer with mask)}} áp kín mặt trẻ.",
+          "extra": "Kỹ thuật: Trẻ nhỏ không thể phối hợp động tác ấn xịt và hít sâu; buồng đệm giúp giữ lơ lửng các hạt khí dung để trẻ hít vào tự nhiên qua 5 đến 6 nhịp thở."
+        },
+        {
+          "type": "cloze",
+          "text": "Tiêu chuẩn chẩn đoán viêm phổi tái phát ở trẻ em được xác định khi trẻ có từ {{c1::2 đợt viêm phổi trong vòng 1 năm}} hoặc từ {{c1::3 đợt viêm phổi trong đời}} kèm theo tổn thương phổi xóa sạch giữa các đợt.",
+          "extra": "Dịch tễ học: Đòi hỏi phải tầm soát toàn diện các bệnh lý suy giảm miễn dịch, dị tật bẩm sinh đường thở và trào ngược hít sặc."
+        },
+        {
+          "type": "cloze",
+          "text": "Sai lầm nguy hiểm khi nghe thấy tiếng thở rít thanh quản là vội vàng chỉ định phun khí dung Salbutamol, điều này có thể làm trẻ hoảng sợ quấy khóc làm {{c1::tăng áp lực âm lồng ngực làm xẹp đường thở trên nặng nề hơn}}.",
+          "extra": "Bẫy lâm sàng: Salbutamol không có tác dụng trên đường thở trên mà còn gây tác dụng phụ kích thích tim đập nhanh làm trẻ kích động."
+        },
+        {
+          "type": "cloze",
+          "text": "Trẻ ho đờm mạn tính sau một đợt cảm cúm được gia đình cho uống kháng sinh Macrolide kéo dài là một sai lầm phổ biến, vì ho sau nhiễm virus là do {{c1::tăng nhạy cảm thụ thể ho, không có nhiễm trùng vi khuẩn hoạt tính}}.",
+          "extra": "Quản lý kháng sinh: Lạm dụng Macrolide không giúp rút ngắn cơn ho mà làm tăng nguy cơ kháng thuốc trong cộng đồng."
+        },
+        {
+          "type": "cloze",
+          "text": "Thao tác khám họng bằng que đè lưỡi bị chống chỉ định tuyệt đối khi nghi ngờ trẻ mắc bệnh {{c1::Viêm thanh thiệt cấp (Epiglottitis)}} vì nguy cơ kích phát co thắt thanh quản gây ngừng thở đột ngột.",
+          "extra": "Cấp cứu: Trẻ có tư thế ngửi hoa (sniffing position), chảy nước dãi, sốt cao khó nuốt; cần chuẩn bị sẵn sàng đặt nội khí quản trong phòng mổ."
+        },
+        {
+          "type": "cloze",
+          "text": "Chỉ định cận lâm sàng bậc 1 cơ bản nhất cần thực hiện đầu tiên cho mọi trường hợp trẻ ho hoặc khò khè kéo dài trên 4 tuần là {{c1::chụp X-quang ngực thẳng và nghiêng}}.",
+          "extra": "Chẩn đoán: Giúp sàng lọc loại trừ ngay dị vật cản quang, khối u trung thất, bóng tim to, xẹp phổi hoặc tổn thương nhu mô phổi đông đặc."
+        },
+        {
+          "type": "cloze",
+          "text": "Tiêu chuẩn đánh giá một đợt điều trị thử nghiệm Hen bằng Corticoid dạng hít (ICS) ở trẻ tiền học đường đòi hỏi thời gian theo dõi tối thiểu từ {{c1::4 đến 8 tuần}} tuân thủ đúng kỹ thuật xịt thuốc.",
+          "extra": "Quy trình: Nếu không có bất kỳ đáp ứng lâm sàng nào sau 8 tuần, bắt buộc phải ngừng thuốc và tìm kiếm chẩn đoán thay thế."
+        },
+        {
+          "type": "cloze",
+          "text": "Kỹ thuật nghe phổi chuẩn mực ở trẻ nhỏ đòi hỏi bác sĩ phải nghe tối thiểu {{c1::ba chu kỳ hô hấp trọn vẹn}} tại mỗi vị trí giải phẫu trước khi di chuyển ống nghe sang vị trí đối xứng.",
+          "extra": "Kỹ năng: Nhịp thở của trẻ em nhanh và dễ biến thiên; nghe đủ 3 chu kỳ giúp không bỏ sót các tiếng ran nổ cuối thì hít vào hoặc khò khè ngắn cuối thì thở ra."
+        },
+        {
+          "type": "cloze",
+          "text": "Trẻ ho ướt mạn tính tái phát nhiều đợt có hình ảnh dày thành phế quản và giãn khẩu kính lòng phế quản trên CT ngực cần được chỉ định nội soi phế quản ống mềm kết hợp {{c1::rửa phế quản phế nang (BAL) để cấy định lượng vi sinh và đếm tế bào học}}.",
+          "extra": "Chẩn đoán vi sinh: Nồng độ vi khuẩn trong dịch BAL ≥ 10^4 CFU/mL là tiêu chuẩn vàng chẩn đoán nhiễm khuẩn đường hô hấp dưới mạn tính."
+        }
+      ],
+      "apkg_file": "PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi_2026-09-16_RELEASE_v1.apkg",
+      "html_file": null,
+      "folder_rel": "03_Ho_hap/PED-20_Tiep_can_tre_Ho_va_Kho_khe_theo_tuoi"
+    },
+    {
       "id": "PED-21",
       "priority": "P0",
       "title": "Viêm phổi mắc phải cộng đồng (CAP) ở trẻ em",
@@ -6581,6 +7247,468 @@ window.PED_LIBRARY_DATA = {
       "folder_rel": "03_Ho_hap/PED-22_Viem_tieu_phe_quan_cap_o_tre_nhu_nhi"
     },
     {
+      "id": "PED-27",
+      "priority": "P0",
+      "title": "Tiêu chảy cấp: Phân loại mất nước & Phác đồ A - B - C",
+      "block": "Block 4 — Tiêu hóa & Dinh dưỡng Nhi khoa",
+      "scope": "Đánh giá 4 dấu hiệu mất nước theo WHO; Phác đồ A (tại nhà), Phác đồ B (bù dịch ORS tại trạm/khoa), Phác đồ C (truyền tĩnh mạch cấp cứu Ringer Lactat theo tuổi).",
+      "dependency": "PED-01, 03",
+      "curriculum_status": "✅ GATES ĐẠT (MD + APKG 88 thẻ)",
+      "has_ped": true,
+      "has_pedytb": false,
+      "has_cards": true,
+      "ped_file": "PED-27_Tieu_chay_cap_Phan_loai_mat_nuoc_va_Phac_do_A_B_C_2026-09-16_RELEASE_v1.md",
+      "ped_content": "# BÀI HỌC Y KHOA: TIÊU CHẢY CẤP — PHÂN LOẠI MẤT NƯỚC & PHÁC ĐỒ A - B - C (PED-27)\n\n**Mã bài:** PED-27  \n**Chuyên khoa:** Tiêu hóa & Dinh dưỡng Nhi khoa / Cấp cứu & Hồi sức Nhi  \n**Đối tượng:** Bác sĩ thực hành, học viên sau đại học, sinh viên y khoa chuẩn bị đi buồng bệnh và trực cấp cứu Nhi (Chế độ sư phạm: L3_BEGINNER — Cầm tay chỉ việc cho người bắt đầu)  \n**Đường học trước:** [PED-01: Đặc điểm sinh lý & Bảng sinh hiệu bình thường theo tuổi] · [PED-03: Nguyên tắc kê đơn & Tính liều thuốc an toàn ở trẻ em]  \n**Đường học tiếp theo:** [PED-28: Liệu pháp Kẽm & Dinh dưỡng trong Tiêu chảy cấp] · [PED-29: Lồng ruột cấp ở trẻ nhũ nhi] · [PED-31: Suy dinh dưỡng nặng & Phác đồ 10 bước WHO]  \n**Revision phát hành:** RELEASE v1  \n**Research brief khóa nguồn:** PED-27_RESEARCH_BRIEF.md  \n\n---\n\n## 0. TỔNG QUAN — TIÊU CHẢY CẤP Ở TRẺ EM & TẦM QUAN TRỌNG LÂM SÀNG\n\nTiêu chảy cấp (Acute Diarrhea) là một trong những nguyên nhân hàng đầu gây bệnh tật và tử vong ở trẻ em dưới 5 tuổi trên toàn cầu, đặc biệt tại các quốc gia đang phát triển thuộc khu vực nhiệt đới như Việt Nam. Theo ước tính dịch tễ của Tổ chức Y tế Thế giới (WHO) và UNICEF, mỗi năm có gần 1.7 tỷ lượt trẻ em mắc tiêu chảy cấp, cướp đi sinh mạng của khoảng 500,000 trẻ nhỏ mỗi năm. Nguyên nhân tử vong chủ yếu không phải do độc lực trực tiếp của vi sinh vật, mà bắt nguồn từ biến chứng mất nước và rối loạn điện giải cấp tính dẫn đến sốc giảm thể tích, toan chuyển hóa nặng và suy đa cơ quan không hồi phục.\n\nTrong thực hành đi buồng và trực cấp cứu Nhi khoa, tiêu chảy cấp là một trong những mặt bệnh thường gặp nhất, chiếm từ 20% đến 35% tổng số lượt khám bệnh ngoại trú và bệnh nhân nhập viện tại các khoa Tiêu hóa. Thách thức lớn nhất đối với người thầy thuốc lâm sàng không phải là tìm mọi cách để làm đứa trẻ \"ngừng đi ngoài ngay lập tức\", mà là đánh giá chính xác mức độ mất nước, nhận diện kịp thời các dấu hiệu dọa sốc, và lựa chọn phác đồ bù dịch hoàn nguyên thể tích tuần hoàn phù hợp nhất theo chuẩn mực quốc tế của WHO (Phác đồ A, Phác đồ B hoặc Phác đồ C).\n\nSự ra đời của dung dịch bù nước đường uống (Oral Rehydration Solution - ORS) được tạp chí y khoa danh tiếng The Lancet vinh danh là \"một trong những tiến bộ y học quan trọng nhất của thế kỷ 20\". Việc ứng dụng rộng rãi ORS đã cứu sống hơn 50 triệu trẻ em trong suốt bốn thập kỷ qua. Tuy nhiên, việc áp dụng sai nguyên tắc pha chế, lạm dụng kháng sinh bừa bãi cho tiêu chảy do virus, kê đơn thuốc làm giảm nhu động ruột nguy hiểm (như Loperamide), hoặc ép trẻ nhịn ăn kiêng khem lạc hậu vẫn đang là những thói quen xấu phổ biến đe dọa trực tiếp tính mạng trẻ nhỏ.\n\nNội dung bài học này cung cấp toàn bộ nền tảng sinh lý bệnh học, tiêu chuẩn phân loại mất nước 4 dấu hiệu của WHO, chi tiết từng bước thực hành 3 phác đồ bù nước A - B - C, liệu pháp bổ sung Kẽm phục hồi niêm mạc ruột, cũng như cách thức nhận diện các bẫy lâm sàng chết người tại giường bệnh.\n\n### 0.1 Nền tảng tối thiểu cần dùng ngay\n*(Dành cho người học bắt đầu từ số 0 — Bắt buộc phải hiểu cặn kẽ các định nghĩa bản chất trước khi ra y lệnh điều trị)*\n\nĐể tự tin tiếp cận, phân tầng nguy cơ và ra y lệnh bù dịch chính xác cho một trẻ tiêu chảy cấp, người học cần nắm vững các định nghĩa và thuật ngữ nền tảng sau đây:\n- **Tiêu chảy cấp (Acute Diarrhea)** là tình trạng đại tiện phân lỏng hoặc tóe nước từ 3 lần trở lên trong vòng 24 giờ, với thời gian diễn tiến dưới 14 ngày.\n- **Tiêu chảy kéo dài (Persistent Diarrhea)** là đợt tiêu chảy khởi phát cấp tính nhưng kéo dài từ 14 ngày trở lên, thường dẫn đến suy dinh dưỡng nặng và rối loạn hấp thu nghiêm trọng.\n- **Hội chứng lỵ (Dysentery)** là tình trạng tiêu chảy phân có nhầy máu đại thể nhìn thấy bằng mắt thường, thường đi kèm sốt cao, mót rặn và đau quặn bụng do vi khuẩn xâm nhập trực tiếp vào niêm mạc đại tràng (điển hình là Shigella).\n- **Dung dịch bù nước đường uống áp lực thẩm thấu thấp (Reduced Osmolarity ORS)** là công thức dịch bù nước thế hệ mới của WHO/UNICEF. Dung dịch ORS áp lực thẩm thấu thấp (Reduced osmolarity oral rehydration solution for acute diarrhoea) có tổng áp lực thẩm thấu 245 mOsm/L (Na⁺ 75 mmol/L, Glucose 75 mmol/L) theo nghiên cứu Cochrane của Hahn et al. (PMID: 11869639) [DATA VERIFIED] {claim: C-001}, giúp giảm 33% nhu cầu truyền dịch tĩnh mạch và giảm 20% lượng phân bài xuất so với công thức cũ.\n- **Đồng vận chuyển Na⁺-Glucose qua SGLT-1 (Sodium-Glucose Cotransporter 1)** là cơ chế vận chuyển tích cực thứ phát tại bờ bàn chải của tế bào biểu mô ruột, vận chuyển đồng thời một ion Na⁺ và một phân tử Glucose vào trong bào tương ngay cả khi tế bào ruột đang bị độc tố vi khuẩn kích thích bài tiết nước dữ dội.\n- **Mất nước (Dehydration)** là tình trạng cơ thể bị thâm hụt cấp tính thể tích nước và các chất điện giải thiết yếu (Natri, Kali, Clorid, Bicarbonat) do bài xuất quá mức qua đường tiêu hóa (phân lỏng và nôn ói).\n- **Phân loại mất nước theo WHO** là hệ thống đánh giá lâm sàng chuẩn mực tại giường dựa trên 4 dấu hiệu cốt lõi: Toàn trạng/tri giác, Mắt trũng, Khả năng uống nước, và Nếp véo da bụng (Skin pinch test), chia thành 3 mức độ: Không mất nước, Có mất nước (mất 5% đến 10% trọng lượng cơ thể), và Mất nước nặng (mất trên 10% trọng lượng).\n- **Phác đồ A (Plan A)** là hướng dẫn điều trị và phòng ngừa mất nước tại nhà cho trẻ tiêu chảy không có dấu hiệu mất nước, dựa trên 4 nguyên tắc: Uống nhiều dịch hơn, Bổ sung Kẽm 10–14 ngày, Tiếp tục ăn uống đầy đủ, và Tái khám ngay khi có dấu hiệu nguy hiểm.\n- **Phác đồ B (Plan B)** là phác đồ bù nước bằng đường uống tại cơ sở y tế trong 4 giờ dành cho trẻ có mất nước (mức độ nhẹ đến trung bình), sử dụng ORS với liều 75 ml/kg cân nặng.\n- **Phác đồ C (Plan C)** là phác đồ hồi sức dịch truyền tĩnh mạch cấp cứu khẩn cấp dành cho trẻ mất nước nặng hoặc sốc giảm thể tích, sử dụng dung dịch tinh thể cân bằng Ringer Lactat với tổng liều 100 ml/kg phân bổ theo hai giai đoạn phụ thuộc lứa tuổi.\n- **Liệu pháp Kẽm (Zinc Supplementation)** là can thiệp y khoa bắt buộc theo khuyến cáo của WHO và Bộ Y tế, bổ sung 10 mg/ngày cho trẻ dưới 6 tháng hoặc 20 mg/ngày cho trẻ từ 6 tháng trở lên trong vòng 10 đến 14 ngày, giúp kích thích tái tạo vi nhung mao ruột và tăng cường miễn dịch tế bào.\n- **Nếp véo da bụng (Skin Pinch Test)** là nghiệm pháp lâm sàng véo dọc theo nếp gấp da bụng ngang rốn để đánh giá độ chun giãn và độ ẩm mô kẽ dưới da, được phân loại thành mất nhanh (< 1 giây), mất chậm (1 đến 2 giây), hoặc mất rất chậm (> 2 giây).\n- **Dung dịch Ringer Lactat (Hartmann's Solution)** là dịch truyền tinh thể đẳng trương cân bằng chứa Na⁺ 130 mmol/L, K⁺ 4 mmol/L, Cl⁻ 109 mmol/L, Ca²⁺ 1.5 mmol/L và Lactat 28 mmol/L, có ưu thế vượt trội trong hồi sức mất nước tiêu chảy vì Lactat chuyển hóa tại gan thành Bicarbonat giúp điều chỉnh toan chuyển hóa.\n\n> 🚨 **BOX ĐỎ — BÁO ĐỘNG ĐỎ CẤP CỨU SỐC MẤT NƯỚC NẶNG:**  \n> Dừng ngay mọi thăm khám thứ yếu và kích hoạt quy trình hồi sức cấp cứu Phác đồ C tĩnh mạch tức thì nếu trẻ tiêu chảy cấp xuất hiện bất kỳ dấu hiệu nguy kịch nào sau đây:  \n> 1. **Tri giác li bì, ngủ gà, lơ mơ hoặc hôn mê sâu, không thể đánh thức.**  \n> 2. **Trẻ hoàn toàn không thể uống được nước hoặc uống cực kỳ kém do kiệt sức.**  \n> 3. **Mắt trũng sâu rõ rệt, khóc không có nước mắt, niêm mạc miệng khô ráp.**  \n> 4. **Nếp véo da bụng mất rất chậm (kéo dài trên 2 giây).**  \n> 5. **Dấu hiệu sốc giảm thể tích rõ rệt: Mạch ngoại vi nhanh nhỏ khó bắt hoặc biến mất hoàn toàn, huyết áp tụt hoặc kẹp, chi lạnh ẩm, thời gian đổ đầy mao mạch (CRT) kéo dài từ 3 giây trở lên.**  \n> *Hành động khẩn cấp:* Đặt ngay 2 đường truyền tĩnh mạch ngoại vi kim to (hoặc thiết lập kim truyền trong xương - Intraosseous Needle nếu thất bại sau 90 giây) và truyền xả Ringer Lactat liều 30 ml/kg cực nhanh, đồng thời thở oxy hỗ trợ và gọi hội chẩn cấp cứu hồi sức Nhi!  \n\n---\n\n## 1. ĐỊNH NGHĨA VÀ DỊCH TỄ HỌC LÂM SÀNG\n\n### 1.1 Định nghĩa xác định và phân loại thời gian\nTiêu chảy cấp ở trẻ em được định nghĩa theo Tổ chức Y tế Thế giới (WHO) là tình trạng đi ngoài phân lỏng hoặc tóe nước từ 3 lần trở lên trong khoảng thời gian 24 giờ, kéo dài không quá 14 ngày. Sự thay đổi về độ đặc quánh của phân (phân lỏng nhiều nước, không thành khuôn) có giá trị quan trọng hơn số lần đi ngoài đơn thuần, đặc biệt ở trẻ nhỏ còn bú mẹ hoàn toàn (vốn có thể đi tiêu sinh lý hoa cà hoa cải 4–6 lần mỗi ngày nhưng phân vẫn sền sệt và trẻ tăng cân tốt).\n\nDựa vào thời gian diễn tiến, tiêu chảy ở trẻ em được chia thành 3 nhóm bệnh cảnh lâm sàng:\n1. **Tiêu chảy cấp tính (Acute Diarrhea):** Bắt đầu đột ngột và kéo dài dưới 14 ngày (thông thường tự thoái lui trong vòng 5 đến 7 ngày nếu được bù dịch và nuôi dưỡng đúng cách).\n2. **Tiêu chảy kéo dài (Persistent Diarrhea):** Đợt tiêu chảy bắt đầu cấp tính nhưng thời gian kéo dài từ 14 ngày trở lên. Bệnh cảnh này thường dẫn đến teo niêm mạc ruột, thiếu men disaccharidase mạn tính và suy dinh dưỡng thể gầy còm.\n3. **Tiêu chảy mạn tính (Chronic Diarrhea):** Tình trạng tiêu chảy kéo dài trên 30 ngày, thường liên quan đến bệnh lý bẩm sinh, viêm ruột tự miễn, suy giảm miễn dịch bẩm sinh, xơ nang tụy hoặc dị ứng đạm sữa bò nặng.\n\n```text\n                     TIẾP CẬN BỆNH CẢNH TIÊU CHẢY CẤP Ở TRẺ EM\n                     ───────────────────────────────────────── (SƠ ĐỒ 1)\n[TIÊU CHẢY PHÂN NƯỚC CẤP TÍNH]                      [TIÊU CHẢY PHÂN NHẦY MÁU (HỘI CHỨNG LỴ)]\n- Phân lỏng tóe nước nhiều lần                      - Phân có lẫn nhầy mủ và vệt máu đại thể\n- Nôn ói nhiều, mất nước và điện giải rầm rộ        - Sốt cao, đau quặn bụng từng cơn, mót rặn\n- Căn nguyên: Rotavirus, Norovirus, ETEC            - Căn nguyên: Shigella, Campylobacter, EIEC\n       │                                                   │\n       ▼                                                   ▼\n[TRỌNG TÂM 1: HỒI SỨC NƯỚC ĐIỆN GIẢI]          [TRỌNG TÂM 2: KHÁNG SINH ĐẶC HIỆU + BÙ NƯỚC]\n- Đánh giá 4 dấu hiệu mất nước theo WHO             - Ciprofloxacin uống hoặc Ceftriaxone TM\n- Chọn Phác đồ A (tại nhà)                          - Tầm soát biến chứng hội chứng HUS\n- Chọn Phác đồ B (ORS 75 ml/kg trong 4h)            - Khám loại trừ lồng ruột cấp\n- Chọn Phác đồ C (Ringer Lactat 100 ml/kg TM)       - Không bao giờ dùng thuốc giảm nhu động ruột\n```\n\n### 1.2 Căn nguyên vi sinh vật gây bệnh\nCăn nguyên vi sinh gây tiêu chảy cấp ở trẻ em phân bố đa dạng tùy thuộc vào lứa tuổi, tình trạng vệ sinh nguồn nước và mùa dịch tễ:\n- **Căn nguyên Virus (chiếm 70% đến 80% trường hợp):**\n  - *Rotavirus:* Là tác nhân nguy hiểm nhất gây tiêu chảy mất nước nặng ở trẻ từ 6 đến 24 tháng tuổi. Virus tấn công các tế bào biểu mô đỉnh nhung mao ruột non, gây tiêu chảy xối xả kết hợp nôn ói liên tục khiến trẻ mất nước rất nhanh. Hiện nay vắc xin phòng ngừa Rotavirus uống đã giúp giảm rõ rệt tỷ lệ nhập viện.\n  - *Norovirus:* Tác nhân phổ biến gây các đợt dịch tiêu chảy bùng phát tại nhà trẻ, trường học và bệnh viện, đặc trưng bởi triệu chứng nôn mửa dữ dội trong 24–48 giờ đầu.\n  - *Adenovirus ruột (týp 40, 41) và Astrovirus:* Thường gây tiêu chảy nhẹ đến trung bình nhưng có thể kéo dài hơn so với Rotavirus.\n- **Căn nguyên Vi khuẩn:**\n  - *Escherichia coli (E. coli):* Chia thành nhiều chủng sinh lý bệnh: ETEC (sinh độc tố ruột gây tiêu chảy phân nước như dịch tả), EPEC (gây bệnh ở trẻ nhũ nhi), EAEC (bám dính gây tiêu chảy kéo dài), EIEC (xâm nhập gây hội chứng lỵ), và EHEC/STEC (sinh độc tố Shiga gây viêm đại tràng xuất huyết và hội chứng tán huyết urê huyết cao - HUS).\n  - *Shigella (đặc biệt S. flexneri và S. sonnei):* Xâm nhập phá hủy biểu mô niêm mạc đại tràng gây viêm loét xuất huyết, biểu hiện bằng sốt cao, đi tiêu phân nhầy máu mót rặn.\n  - *Campylobacter jejuni:* Thường lây qua thịt gia cầm nhiễm khuẩn hoặc sữa chưa tiệt trùng, gây đau bụng dữ dội bắt chước viêm ruột thừa cấp, phân lỏng lẫn máu.\n  - *Salmonella không gây sốt thương hàn (Non-typhoidal Salmonella):* Thường liên quan đến trứng và gia cầm, gây tiêu chảy kèm sốt cao và nôn mửa.\n  - *Vibrio cholerae (Phẩy khuẩn tả):* Tiết độc tố Choleragen gây tiêu chảy xuất tiết cực kỳ dữ dội với phân màu nước vo gạo đặc trưng, có thể gây sốc tử vong chỉ trong vòng vài giờ nếu không được bù dịch cấp tốc.\n- **Căn nguyên Ký sinh trùng:** *Entamoeba histolytica* (gây lỵ amip), *Giardia lamblia* (gây tiêu chảy phân mỡ nhầy hôi tanh kéo dài), và *Cryptosporidium* (gặp ở trẻ suy giảm miễn dịch hoặc suy dinh dưỡng nặng).\n\n- **Ví dụ minh họa 1:** Một trẻ 11 tháng tuổi vào viện vì nôn ói 6 lần từ sáng kèm đi ngoài phân toàn nước màu vàng 8 lần trong ngày, không có nhầy máu, nhiệt độ 38.2°C; xét nghiệm phân không thấy hồng cầu hay bạch cầu. Đây là bệnh cảnh tiêu chảy cấp phân nước điển hình nhiều khả năng do Rotavirus, ưu tiên hàng đầu là đánh giá dấu hiệu mất nước chứ không phải cấy phân hay dùng kháng sinh.\n- **Ví dụ minh họa 2:** Một trẻ 3 tuổi sốt cao 39.5°C, li bì, đau bụng quặn từng cơn quanh rốn, đi ngoài 12 lần/ngày nhưng mỗi lần ra rất ít phân sệt lẫn nhiều chất nhầy màu trắng đục và vệt máu đỏ tươi, trẻ có biểu hiện mót rặn khóc thét mỗi khi đi cầu. Đây là hội chứng lỵ cấp do vi khuẩn xâm nhập (nhiều khả năng là Shigella), bắt buộc chỉ định kháng sinh đường uống thích hợp.\n\n---\n\n## 2. CƠ CHẾ SINH LÝ BỆNH VÀ CÁC CHUỖI NHÂN QUẢ 5 TẦNG\n\nĐể ra quyết định điều trị chuẩn xác và hiểu thấu suốt lý do vì sao một phác đồ lại thành công hay thất bại, người thầy thuốc phải nắm vững 4 chuỗi nhân quả sinh học chi phối quá trình mất nước và tổn thương tế bào trong tiêu chảy cấp:\n\n```text\n               BỐN TRỤ CỘT CƠ CHẾ BỆNH SINH CỦA TIÊU CHẢY CẤP\n               ═════════════════════════════════════════════ (SƠ ĐỒ 2)\n(1) TIÊU CHẢY XUẤT TIẾT          (2) ĐỒNG VẬN CHUYỂN SGLT-1     (3) TIÊU CHẢY THẨM THẤU\n- Độc tố ruột ETEC/Tả            - Kênh Na⁺/Glucose SGLT-1      - Virus phá hủy nhung mao\n- Tăng cAMP/cGMP nội bào         - KHÔNG bị ức chế bởi độc tố   - Mất men Lactase bờ bàn chải\n- Mở kênh CFTR tiết Cl⁻          - Kéo 1 Na⁺ cùng 1 Glucose     - Lactose không tiêu lên men\n- Kéo thụ động Na⁺ và H2O        - Tạo gradien thẩm thấu hút H2O- Hút nước vào lòng ruột\n               │                               │                               │\n               └───────────────────────┬───────┴───────────────────────────────┘\n                                       ▼\n                       (4) RỐI LOẠN TOÀN THÂN & NGUY CƠ TỬ VONG\n                       - Mất dịch ngoại bào cấp tính → Giảm thể tích tuần hoàn\n                       - Sốc giảm thể tích → Thiếu máu nuôi thận → Suy thận cấp (AKI)\n                       - Mất Bicarbonat qua phân + ứ acid lactic → Toan chuyển hóa nặng\n```\n\n### 2.1 Chuỗi 1: Cơ chế tiêu chảy xuất tiết qua độc tố ruột và kênh CFTR\nTiêu chảy xuất tiết (Secretory Diarrhea) là cơ chế bệnh sinh điển hình của vi khuẩn sinh độc tố (như Vibrio cholerae hoặc ETEC sinh độc tố LT/ST):\n- **Tầng 1 (Gắn thụ thể):** Vi khuẩn cư trú tại lòng ruột bài tiết độc tố ruột (Enterotoxin). Độc tố gắn đặc hiệu vào thụ thể GM1 ganglioside trên bề mặt màng đỉnh của tế bào biểu mô ruột (Enterocyte).\n- **Tầng 2 (Hoạt hóa men tín hiệu nội bào):** Tiểu phần hoạt tính của độc tố xâm nhập vào bào tương tế bào ruột, thực hiện phản ứng ADP-ribosyl hóa protein Gs, dẫn đến kích hoạt liên tục và không hồi phục enzyme Adenylate cyclase (đối với độc tố dịch tả và độc tố LT của ETEC) hoặc Guanylate cyclase (đối với độc tố ST của ETEC).\n- **Tầng 3 (Gia tăng chất truyền tin thứ hai):** Nồng độ cyclic AMP (cAMP) hoặc cyclic GMP (cGMP) trong bào tương tế bào biểu mô ruột tăng vọt lên gấp hàng chục lần mức sinh lý bình thường.\n- **Tầng 4 (Mở kênh ion màng đỉnh):** cAMP kích hoạt Protein Kinase A (PKA), thực hiện phản ứng phosphoryl hóa kênh dẫn truyền qua màng xơ nang (Cystic Fibrosis Transmembrane Conductance Regulator - CFTR) ở màng đỉnh tế bào, làm kênh Cl⁻ mở toang tối đa. Đồng thời, quá trình hấp thu chủ động NaCl bình thường tại các tế bào nhung mao bị ức chế hoàn toàn.\n- **Tầng 5 (Xuất tiết nước xối xả):** Các ion Cl⁻ và HCO₃⁻ bị bài tiết ồ ạt từ bào tương vào trong lòng ruột. Để trung hòa điện tích, ion Na⁺ bị kéo theo qua con đường xuyên khe gian bào (paracellular pathway). Sự tích tụ một lượng khổng lồ các ion thẩm thấu trong lòng ruột đã kéo theo hàng lít nước tự do từ huyết tương vào lòng ruột, vượt quá năng lực tái hấp thu của đại tràng, dẫn đến tiêu chảy tóe nước liên tục với tốc độ mất dịch khủng khiếp.\n\n### 2.2 Chuỗi 2: Cơ chế đồng vận chuyển Na⁺-Glucose qua SGLT-1 — Nền tảng khoa học của ORS\nHiểu được chuỗi cơ chế này sẽ giải thích vì sao dung dịch ORS có thể cứu sống bệnh nhân ngay cả khi ruột đang bài xuất dịch dữ dội:\n- **Tầng 1 (Tính toàn vẹn của protein vận chuyển):** Mặc dù các con đường vận chuyển Na⁺ thụ động và kênh Cl⁻ bị rối loạn nghiêm trọng bởi độc tố ruột hoặc phản ứng viêm, nhưng protein đồng vận chuyển Natri - Glucose týp 1 (SGLT-1) phân bố dày đặc trên màng đỉnh tế bào biểu mô nhung mao ruột vẫn hoàn toàn nguyên vẹn về mặt cấu trúc và chức năng.\n- **Tầng 2 (Gắn kết đồng vận):** Protein SGLT-1 có ái lực gắn kết đồng thời: 1 phân tử Glucose chỉ có thể được vận chuyển qua màng tế bào khi đi kèm với sự gắn kết của 1 (hoặc 2) ion Natri. Nếu chỉ uống nước lọc đơn thuần (thiếu glucose) hoặc chỉ uống nước muối đơn thuần (thiếu glucose), Na⁺ sẽ không được SGLT-1 vận chuyển vào trong tế bào.\n- **Tầng 3 (Vận chuyển tích cực thứ phát):** Nhờ gradien nồng độ Natri được duy trì bởi bơm Na⁺/K⁺-ATPase tại màng đáy bên (luôn bơm 3 Na⁺ ra ngoài dịch kẽ và hút 2 K⁺ vào trong), ion Natri cùng Glucose được kéo thuận dòng năng lượng qua màng đỉnh vào trong bào tương tế bào ruột.\n- **Tầng 4 (Tạo gradien áp lực thẩm thấu):** Sự tích tụ nhanh chóng của Natri và Glucose bên trong tế bào biểu mô ruột và khoang gian bào kẽ đã tạo ra một lực hút thẩm thấu cực kỳ mạnh mẽ hướng từ lòng ruột vào bên trong mao mạch niêm mạc ruột.\n- **Tầng 5 (Hấp thu nước hoàn nguyên tuần hoàn):** Các phân tử nước trong lòng ruột ngay lập tức được kéo thụ động ồ ạt qua màng tế bào (qua kênh dẫn nước Aquaporin) và qua các mối nối liên bào (Tight junctions) đi vào tuần hoàn tĩnh mạch mạc treo. Nhờ đó, việc uống dung dịch có tỷ lệ cân đối giữa Glucose và Natri (như ORS chuẩn 245 mOsm/L) sẽ biến ruột từ một cơ quan bài tiết thành một cơ quan hấp thu nước cực mạnh, bù đắp chính xác lượng dịch đã mất mà không cần can thiệp truyền dịch tĩnh mạch.\n\n### 2.3 Chuỗi 3: Cơ chế tiêu chảy thẩm thấu và tổn thương men Lactase bờ bàn chải\nCơ chế này giải thích bệnh cảnh tiêu chảy do virus (Rotavirus) và hiện tượng bất dung nạp đường Lactose thứ phát:\n- **Tầng 1 (Xâm nhập và phá hủy tế bào đỉnh):** Rotavirus có ái lực đặc hiệu với các tế bào biểu mô trưởng thành nằm ở 2/3 trên của nhung mao ruột non. Virus xâm nhập, nhân lên và làm ly giải hàng loạt các tế bào nhung mao trưởng thành này, để lại các nhung mao bị teo ngắn, bằng phẳng và thâm nhiễm viêm.\n- **Tầng 2 (Suy giảm hoạt tính enzyme diềm bàn chải):** Các tế bào đỉnh nhung mao là nơi duy nhất tổng hợp và biểu hiện các enzyme tiêu hóa đường đôi (Disaccharidases), trong đó enzyme Lactase (thủy phân đường đôi lactose thành glucose và galactose) là enzyme dễ bị tổn thương nhất và phục hồi chậm nhất do nằm ngoài cùng của bờ bàn chải.\n- **Tầng 3 (Ứ đọng chất tan trong lòng ruột):** Toàn bộ lượng đường Lactose có trong sữa mẹ hoặc sữa công thức khi đi vào ruột non sẽ không thể bị thủy phân và không được hấp thu. Lượng đường đôi ứ đọng tạo nên một dung dịch ưu trương nằm trong lòng ruột.\n- **Tầng 4 (Lên men vi khuẩn và sinh toan):** Khi lượng đường chưa tiêu hóa này di chuyển xuống đại tràng, hệ vi khuẩn chí kỵ khí tại đây sẽ tiến hành lên men đường lactose thành các acid béo chuỗi ngắn (SCFA), acid lactic, khí carbonic (CO₂) và khí hydro (H₂).\n- **Tầng 5 (Hội chứng tiêu chảy thẩm thấu bùng phát):** Áp lực thẩm thấu tăng vọt trong lòng ruột hút một lượng nước rất lớn từ mô kẽ vào lòng ruột, gây ra những đợt đại tiện phân lỏng xối xả, phân có bọt sinh hơi, mùi chua nồng gắt, pH phân giảm xuống dưới 5.5, kèm theo chất phân acid gây bỏng rát và viêm loét đỏ rực vùng da quanh hậu môn của trẻ nhỏ.\n\n### 2.4 Chuỗi 4: Cơ chế sốc giảm thể tích, toan chuyển hóa mất kiềm và suy thận cấp\nChuỗi nhân quả đe dọa trực tiếp tính mạng nếu không can thiệp kịp thời:\n- **Tầng 1 (Thâm hụt dịch ngoại bào cấp tốc):** Tình trạng nôn ói nhiều kết hợp với tiêu chảy phân toàn nước liên tục làm cơ thể mất nhanh chóng từ 5% đến trên 10% tổng trọng lượng cơ thể chỉ trong vòng 24–48 giờ, trong đó 80% thể tích mất là từ khoang ngoại bào và nội mạch.\n- **Tầng 2 (Suy sụp hồi lưu tĩnh mạch và cung lượng tim):** Thể tích máu lưu hành hữu dụng sụt giảm nghiêm trọng làm giảm áp lực đổ đầy thất phải và thất trái, giảm thể tích nhát bóp, kích hoạt hệ thần kinh giao cảm gây co mạch ngoại vi bù trừ (nhịp tim nhanh, co thắt mạch da làm chi lạnh ẩm, CRT kéo dài).\n- **Tầng 3 (Thiếu máu tưới tạng và suy thận cấp trước thận):** Sự co mạch thận để ưu tiên dồn máu cho não và tim làm giảm áp lực lọc cầu thận (GFR) nghiêm trọng. Trẻ bắt đầu thiểu niệu rồi vô niệu hoàn toàn, các chất độc chuyển hóa (urê, creatinin) tích tụ trong máu gây tổn thương thận cấp trước thận (Pre-renal Acute Kidney Injury).\n- **Tầng 4 (Mất Bicarbonat và toan chuyển hóa kép):** Dịch tiêu chảy chứa nồng độ Bicarbonat rất cao (từ 30 đến 50 mmol/L). Việc mất ồ ạt kiềm qua phân kết hợp với tình trạng giảm tưới máu mô kẽ gây thiếu oxy tế bào làm tăng thoái hóa kỵ khí sinh acid lactic. Hai cơ chế này hiệp đồng gây toan chuyển hóa nặng (Metabolic Acidosis) với khoảng trống anion gap tăng cao và nồng độ HCO₃⁻ máu tụt sâu.\n- **Tầng 5 (Kiệt sức hô hấp và ngưng tuần hoàn):** Trẻ phải thở nhanh sâu liên tục (thở kiểu Kussmaul) để đào thải CO₂ bù trừ toan máu. Khi cơ hô hấp bị kiệt sức kết hợp với toan máu nặng làm ức chế co bóp cơ tim và giãn mạch mất bù, huyết áp tụt dốc không phanh, trẻ rơi vào hôn mê sâu và ngừng tuần hoàn tử vong.\n\n---\n\n## 3. TIẾP CẬN CHẨN ĐOÁN VÀ ĐÁNH GIÁ 4 DẤU HIỆU MẤT NƯỚC THEO WHO\n\n### 3.1 Khám lâm sàng đánh giá mức độ mất nước\nĐánh giá tình trạng mất nước là bước khám quan trọng nhất và mang tính quyết định sinh tồn ở một trẻ tiêu chảy cấp. Tổ chức Y tế Thế giới (WHO) đã xây dựng bảng phân loại mất nước tại giường dựa trên 4 dấu hiệu then chốt đã được chuẩn hóa trên hàng triệu ca bệnh lâm sàng toàn cầu:\n\n```text\n               BẢNG 4 DẤU HIỆU LÂM SÀNG ĐÁNH GIÁ MẤT NƯỚC CỦA WHO\n               ───────────────────────────────────────────────── (SƠ ĐỒ 3)\n[DẤU HIỆU 1: TOÀN TRẠNG / TRI GIÁC]\n- Bình thường: Tỉnh táo, lanh lợi, tương tác tốt với người thân\n- Có mất nước: Bứt rứt, bồn chồn, quấy khóc vô cớ, khó dỗ\n- Mất nước nặng: Li bì, ngủ gà, lơ mơ, hôn mê, không tương tác\n\n[DẤU HIỆU 2: MẮT]\n- Bình thường: Mắt bình thường, không trũng, khóc có nước mắt\n- Có mất nước: Mắt trũng, hốc mắt sâu rõ so với bình thường\n- Mất nước nặng: Mắt rất trũng và khô, khóc hoàn toàn không có nước mắt\n\n[DẤU HIỆU 3: KHẢ NĂNG UỐNG NƯỚC]\n- Bình thường: Uống nước bình thường, không khát hoặc từ chối uống\n- Có mất nước: Khát nước nhiều, uống háo hức, chộp lấy cốc/thìa\n- Mất nước nặng: Không uống được hoặc uống rất kém do tri giác li bì\n\n[DẤU HIỆU 4: NẾP VÉO DA BỤNG (SKIN PINCH)]\n- Bình thường: Nếp véo da mất rất nhanh (dưới 1 giây)\n- Có mất nước: Nếp véo da mất chậm (từ 1 đến 2 giây)\n- Mất nước nặng: Nếp véo da mất rất chậm (kéo dài trên 2 giây)\n```\n\n### 3.2 Tiêu chuẩn phân loại 3 mức độ mất nước theo WHO\nThuật toán bù dịch phân loại 3 mức (ESPGHAN evidence-based guidelines for the management of acute gastroenteritis in children): Phác đồ A tại nhà, Phác đồ B ORS 75 ml/kg trong 4 giờ, Phác đồ C truyền TM 100 ml/kg (ESPGHAN 2014, PMID: 24739189) [GUIDELINE VERIFIED] {claim: C-006}.\nBảng phân loại mất nước lâm sàng (clinical dehydration assessment in children with acute gastroenteritis): Toàn trạng tri giác, Mắt trũng, Uống nước, Nếp véo da theo khuyến cáo ESPGHAN (PMID: 24739189) [GUIDELINE VERIFIED] {claim: C-007}.\nĐể xếp loại một đứa trẻ vào mức độ mất nước nào, người thầy thuốc bắt buộc phải tìm đủ **ít nhất 2 trong số 4 dấu hiệu** của mức độ đó, trong đó phải có ít nhất 1 dấu hiệu then chốt (dấu hiệu in đậm):\n\n| Phân độ mất nước theo WHO | Tiêu chuẩn chẩn đoán lâm sàng (Cần $\\ge 2$ dấu hiệu) | Lượng dịch thâm hụt ước tính | Hướng xử trí tương ứng |\n|---|---|:---:|---|\n| **KHÔNG MẤT NƯỚC** *(No Dehydration)* | Không có đủ các dấu hiệu để xếp vào nhóm Có mất nước hoặc Mất nước nặng. Trẻ tỉnh táo, mắt không trũng, uống nước bình thường, nếp véo da mất nhanh. | $< 5\\%$ trọng lượng cơ thể | **PHÁC ĐỒ A**<br>Điều trị và dự phòng mất nước tại nhà |\n| **CÓ MẤT NƯỚC** *(Some Dehydration)* | Có **ít nhất 2 trong 4 dấu hiệu** sau:<br>1. **Bứt rứt, bồn chồn**<br>2. Mắt trũng<br>3. **Uống nước háo hức, khát nước**<br>4. Nếp véo da mất chậm (1–2 giây) | $5\\% - 10\\%$ trọng lượng cơ thể | **PHÁC ĐỒ B**<br>Bù nước bằng ORS tại cơ sở y tế trong 4 giờ |\n| **MẤT NƯỚC NẶNG** *(Severe Dehydration)* | Có **ít nhất 2 trong 4 dấu hiệu** sau:<br>1. **Li bì, lơ mơ hoặc hôn mê**<br>2. Mắt rất trũng<br>3. **Không uống được hoặc uống rất kém**<br>4. Nếp véo da mất rất chậm (> 2 giây) | $> 10\\%$ trọng lượng cơ thể | **PHÁC ĐỒ C**<br>Hồi sức dịch truyền tĩnh mạch cấp cứu ngay lập tức |\n\n### 3.3 Kỹ thuật thực hiện nếp véo da bụng (Skin pinch) chuẩn mực\n- Đặt trẻ nằm ngửa trên giường khám, hai chân duỗi thẳng thoải mái, không để trẻ khóc thét gồng cứng cơ thành bụng (vì gồng bụng sẽ làm nếp véo biến mất giả tạo nhanh hơn).\n- Vị trí véo: Vùng da bụng nằm ngang giữa rốn và mạn sườn (vùng cơ thẳng to hoặc cơ chéo bụng ngoài).\n- Hướng véo: Dùng ngón tay cái và ngón tay trỏ của bàn tay phải kẹp nếp da và tổ chức mỡ dưới da dọc theo chiều dọc cơ thể (tránh véo theo chiều ngang).\n- Thời gian giữ: Kẹp nhấc nếp da lên trong khoảng 1 giây rồi thả tay ra dứt khoát.\n- Quan sát: Nhìn đồng hồ đếm giây để đánh giá chính xác: nếp da phẳng trở lại ngay lập tức (< 1 giây = mất nhanh); nếp da nhìn thấy rõ nếp gấp trong 1 đến 2 giây trước khi phẳng lại (mất chậm); nếp da tồn tại nếp nhăn rõ rệt trên 2 giây (mất rất chậm).\n- **Lưu ý bẫy lâm sàng:** Ở trẻ suy dinh dưỡng nặng thể Marasmus (teo đét lớp mỡ dưới da), nếp véo da luôn mất chậm hoặc rất chậm ngay cả khi không mất nước. Ngược lại, ở trẻ béo phì hoặc trẻ có phù cứng, nếp véo da có thể mất nhanh giả tạo mặc dù trẻ đang bị mất nước nghiêm trọng.\n\n- **Ví dụ minh họa 3:** Một trẻ 14 tháng tuổi, cân nặng 10 kg, đi ngoài 7 lần/ngày. Khám thấy: trẻ quấy khóc bứt rứt, khi mẹ đưa cốc nước ORS thì giằng lấy uống lấy uống để một cách háo hức, mắt hơi trũng, nếp véo da bụng mất sau 1.5 giây. Trẻ có đủ 4/4 dấu hiệu của cột \"Có mất nước\" → Chẩn đoán xác định: Tiêu chảy cấp có mất nước mức độ trung bình (thâm hụt dịch ước tính 500–1000 ml) → Chỉ định thực hiện ngay Phác đồ B.\n- **Ví dụ minh họa 4:** Một trẻ 8 tháng tuổi, tiêu chảy ngày thứ 2. Khám thấy: trẻ nằm im lìm, mẹ đánh thức chỉ mở hé mắt rồi lại nhắm nghiền li bì, khi đưa thìa nước vào miệng thì nước chảy tràn ra khóe mép không nuốt được, mắt trũng sâu trơ hốc, nếp véo da bụng thả tay ra sau 3 giây vẫn còn nguyên lằn nếp. Trẻ có 4/4 dấu hiệu của cột \"Mất nước nặng\" → Báo động đỏ cấp cứu, chuyển ngay sang phòng hồi sức thực hiện Phác đồ C truyền tĩnh mạch Ringer Lactat.\n\n---\n\n## 4. ĐIỀU TRỊ 1: PHÁC ĐỒ A — ĐIỀU TRỊ VÀ DỰ PHÒNG MẤT NƯỚC TẠI NHÀ\n\nPhác đồ A được áp dụng cho tất cả các trường hợp tiêu chảy cấp được phân loại **\"Không mất nước\"** theo tiêu chuẩn của WHO. Mục tiêu cốt lõi của Phác đồ A là bù đắp kịp thời thể tích dịch và điện giải bị bài xuất sau mỗi lần đi ngoài, không để trẻ rơi vào tình trạng có mất nước hoặc mất nước nặng, đồng thời duy trì dinh dưỡng để niêm mạc ruột mau chóng hồi phục.\n\n### 4.1 Bốn nguyên tắc vàng của Phác đồ A\nNgười bác sĩ phải trực tiếp tư vấn và hướng dẫn kỹ lưỡng cho bà mẹ hoặc người chăm sóc trẻ 4 nguyên tắc điều trị tại nhà sau đây:\n1. **Cho trẻ uống nhiều dịch hơn bình thường (Dự phòng thâm hụt):** Tiếp tục cho uống các loại dịch thích hợp tại nhà (ORS, nước cháo muối, nước canh rau, nước dừa tươi hoặc nước đun sôi để nguội).\n2. **Bổ sung Kẽm (Zinc) liên tục trong 10 đến 14 ngày:** Bắt buộc cho trẻ uống Kẽm đủ ngày theo khuyến cáo của WHO để tái tạo biểu mô ruột và nâng cao sức đề kháng.\n3. **Tiếp tục cho trẻ ăn uống đầy đủ (Không kiêng khem):** Tiếp tục cho bú mẹ hoàn toàn hoặc ăn chế độ ăn bình thường giàu dinh dưỡng, chia nhỏ bữa ăn trong ngày. Tuyệt đối không bắt trẻ nhịn ăn hay kiêng khem sữa.\n4. **Hướng dẫn các dấu hiệu nguy hiểm cần đưa trẻ đến bệnh viện khám lại ngay:** Hướng dẫn bà mẹ nhận biết các dấu hiệu chuyển nặng để không bỏ lỡ thời điểm cấp cứu.\n\n### 4.2 Liều lượng và cách cho uống ORS áp lực thẩm thấu thấp\nDung dịch ORS áp lực thẩm thấu thấp (245 mOsm/L) là dung dịch tối ưu nhất để bù dịch tại nhà. Liều lượng ORS cho trẻ uống **ngay sau mỗi lần đại tiện phân lỏng hoặc nôn trớ** được tính theo lứa tuổi:\nLiều ORS uống sau mỗi lần đi ngoài trong Phác đồ A (Managing acute gastroenteritis among children oral rehydration therapy): Trẻ < 2 tuổi uống 50–100 ml; Trẻ 2–10 tuổi uống 100–200 ml; Trẻ ≥ 10 tuổi uống theo nhu cầu (CDC MMWR, PMID: 14627948) [DATA VERIFIED] {claim: C-002}:\n- **Trẻ dưới 2 tuổi:** Cho uống từ **50 đến 100 ml** sau mỗi lần đi ngoài phân lỏng.\n- **Trẻ từ 2 đến 10 tuổi:** Cho uống từ **100 đến 200 ml** sau mỗi lần đi ngoài phân lỏng.\n- **Trẻ từ 10 tuổi trở lên và người lớn:** Cho uống theo nhu cầu khát (uống từng ngụm cho đến khi hết cảm giác khát).\n\n```text\n               HƯỚNG DẪN PHA VÀ SỬ DỤNG GÓI ORS CHUẨN XÁC TẠI NHÀ\n               ═════════════════════════════════════════════════ (SƠ ĐỒ 4)\n[BƯỚC 1: ĐỌC KỸ THỂ TÍCH TRÊN GÓI]  ──▶ Gói pha 1 Lít (27.9g) HOẶC gói pha 200 ml (4.1g)\n[BƯỚC 2: CHUẨN BỊ NƯỚC SẠCH]        ──▶ Nước đun sôi để nguội, đo CHÍNH XÁC bằng bình đo thể tích\n[BƯỚC 3: HÒA TAN HOÀN TOÀN]         ──▶ Đổ toàn bộ gói bột vào nước, khuấy tan đều, không chia nhỏ gói\n[BƯỚC 4: BẢO QUẢN VÀ SỬ DỤNG]       ──▶ Dùng trong vòng 24 giờ; sau 24 giờ đổ bỏ pha gói mới\n```\n\n### 4.3 Dinh dưỡng trong đợt tiêu chảy cấp\n\n- **Ví dụ minh họa 5:** Trẻ 18 tháng tuổi, nặng 11 kg, tiêu chảy phân lỏng 4 lần/ngày nhưng tỉnh táo, chơi ngoan, mắt không trũng, nếp véo da mất nhanh. Hướng dẫn bà mẹ áp dụng Phác đồ A: sau mỗi lần đi ngoài cho uống ngay 50–100 ml ORS 245 mOsm/L, uống kẽm 20 mg/ngày vào buổi sáng sau ăn liên tục 14 ngày, tiếp tục cho ăn cháo thịt nạc cà rốt và bú mẹ bình thường.\n- **Ví dụ minh họa 6:** Trẻ 5 tuổi, nặng 18 kg, tiêu chảy không mất nước điều trị tại nhà: cho uống 100–200 ml ORS sau mỗi lần đi ngoài, uống kẽm 20 mg/ngày đủ 14 ngày, khuyên trẻ uống thêm nước canh rau và nước cháo loãng.\n- **Ví dụ minh họa 7:** Trẻ 3 tháng tuổi bú mẹ hoàn toàn, đi ngoài phân tóe nước 6 lần/ngày có mất nước nhẹ: tính thể tích ORS Phác đồ B là 5.5 kg × 75 ml/kg = 412 ml trong 4 giờ, mẹ cho uống bằng thìa nhỏ xen kẽ các cữ bú mẹ, bổ sung kẽm 10 mg/ngày.\n- **Ví dụ minh họa 8:** Trẻ 16 tháng tuổi nặng 12 kg mất nước nặng dọa sốc vào cấp cứu: tính thể tích Phác đồ C là 12 kg × 100 ml/kg = 1200 ml Ringer Lactat, bước 1 truyền 360 ml trong 30 phút, bước 2 truyền 840 ml trong 2.5 giờ tiếp theo.\n\n- **Trẻ còn bú mẹ:** Tiếp tục cho trẻ bú mẹ nhiều lần hơn và kéo dài thời gian mỗi cữ bú. Kháng thể IgA tiết, lactoferrin và các yếu tố tăng trưởng biểu mô (EGF) trong sữa mẹ có tác dụng diệt khuẩn và thúc đẩy niêm mạc ruột phục hồi thần tốc.\n- **Trẻ bú sữa công thức:** Tiếp tục ăn loại sữa công thức bình thường trẻ đang dùng. Tuyệt đối không pha loãng sữa (vì pha loãng sữa làm giảm đậm độ năng lượng gây đói và suy dinh dưỡng). Không tự ý đổi sang sữa không chứa đường lactose (Lactose-free) trừ khi có bằng chứng rõ ràng của bất dung nạp lactose thứ phát kéo dài.\n- **Trẻ đã ăn dặm hoặc ăn cơm:** Cung cấp thức ăn mềm, nấu nhừ, dễ tiêu hóa nhưng giàu năng lượng và vi chất: cháo thịt nạc, cháo ức gà, cà rốt nghiền, chuối tiêu chín (giàu Kali), nước cam tươi. Thêm một thìa dầu mỡ thực vật vào mỗi bát cháo để đảm bảo mật độ năng lượng. Tránh xa các loại thực phẩm chứa quá nhiều đường đơn (nước ngọt đóng chai, nước tăng lực, kẹo bánh) vì chúng làm tăng áp lực thẩm thấu trong lòng ruột khiến tiêu chảy nặng thêm.\n\n---\n\n## 5. ĐIỀU TRỊ 2: PHÁC ĐỒ B — BÙ NƯỚC ĐƯỜNG UỐNG TẠI CƠ SỞ Y TẾ\n\nPhác đồ B được áp dụng tại trạm y tế, phòng khám hoặc buồng lưu bệnh viện cho trẻ được chẩn đoán **\"Có mất nước\"** (mức độ nhẹ đến trung bình, thâm hụt 5% đến 10% trọng lượng cơ thể). Toàn bộ quá trình bù nước Phác đồ B được thực hiện bằng đường uống trong khoảng thời gian **4 giờ đầu tiên** dưới sự giám sát trực tiếp của nhân viên y tế.\n\n### 5.1 Công thức tính thể tích dung dịch ORS trong 4 giờ đầu\nThể tích dung dịch ORS áp lực thẩm thấu thấp cần cho trẻ uống trong 4 giờ đầu được tính theo công thức chuẩn của WHO:\n\n$$\text{Thể tích ORS (ml)} = \text{Cân nặng của trẻ (kg)} \times 75\text{ ml}$$\n\nNếu tại cơ sở y tế không có sẵn cân hoặc chưa thể cân trẻ ngay, nhân viên y tế có thể ước tính lượng ORS theo bảng phân tầng lứa tuổi của WHO:\n\n| Nhóm tuổi của trẻ | Cân nặng ước tính (kg) | Thể tích ORS cần uống trong 4 giờ (ml) | Khoảng thể tích khuyến cáo |\n|---|:---:|:---:|:---:|\n| **Dưới 4 tháng tuổi** | $< 6\text{ kg}$ | $200 - 400\text{ ml}$ | $75\text{ ml/kg} \times \text{cân nặng}$ |\n| **Từ 4 đến 11 tháng tuổi** | $6 - 9.9\text{ kg}$ | $400 - 700\text{ ml}$ | $75\text{ ml/kg} \times \text{cân nặng}$ |\n| **Từ 12 đến 23 tháng tuổi** | $10 - 11.9\text{ kg}$ | $700 - 900\text{ ml}$ | $75\text{ ml/kg} \times \text{cân nặng}$ |\n| **Từ 2 đến 4 tuổi** | $12 - 15.9\text{ kg}$ | $900 - 1400\text{ ml}$ | $75\text{ ml/kg} \times \text{cân nặng}$ |\n| **Từ 5 đến 14 tuổi** | $16 - 29.9\text{ kg}$ | $1400 - 2200\text{ ml}$ | $75\text{ ml/kg} \times \text{cân nặng}$ |\n\n### 5.2 Kỹ thuật cho uống và xử trí nôn trớ\n- Cho trẻ ngồi dậy thoải mái trong lòng mẹ, dùng thìa (muỗng) nhỏ hoặc cốc nhỏ cho uống từng thìa một.\n- Tần suất: Cứ 1 đến 2 phút cho trẻ uống một thìa. Đối với trẻ lớn hơn, cho uống từng ngụm nhỏ chậm rãi từ từ bằng cốc.\n- **Xử trí khi trẻ bị nôn ói:** Nôn trớ là hiện tượng rất hay gặp trong vài giờ đầu của Phác đồ B do dạ dày còn tăng kích thích. Nếu trẻ nôn:\n  1. **Tạm dừng cho uống trong vòng 10 phút** để dạ dày của trẻ được nghỉ ngơi và giảm co bóp.\n  2. Sau 10 phút, bắt đầu cho trẻ uống lại nhưng với tốc độ chậm hơn: cứ 2 đến 3 phút cho uống một thìa nhỏ.\n  3. Hầu hết các trường hợp nôn trớ sẽ giảm dần khi tình trạng toan chuyển hóa và mất nước được cải thiện dần bằng ORS.\n- Trẻ bú mẹ: Cứ sau mỗi 30–45 phút cho uống ORS, cho trẻ tạm dừng để bú mẹ xen kẽ nếu trẻ muốn, sau đó tiếp tục cho uống ORS cho đủ thể tích tính toán trong 4 giờ.\n\n### 5.3 Đánh giá lại sau 4 giờ và các hướng xử trí tiếp theo\nSau đúng 4 giờ bù dịch theo Phác đồ B, người bác sĩ phải tiến hành khám lại toàn diện 4 dấu hiệu mất nước của WHO để quyết định bước đi tiếp theo:\n\n```text\n                       ĐÁNH GIÁ LẠI LÂM SÀNG SAU 4 GIỜ BÙ PHÁC ĐỒ B\n                       ──────────────────────────────────────────── (SƠ ĐỒ 5)\n                                            │\n           ┌────────────────────────────────┬────────────────────────────────┐\n           ▼ (HẾT MẤT NƯỚC)                 ▼ (VẪN CÒN)                      ▼ (NẶNG HƠN)\n   [HẾT MẤT NƯỚC]                   [VẪN CÒN MẤT NƯỚC]               [MẤT NƯỚC NẶNG HƠN]\n- Trẻ tỉnh táo, mắt bình thường     - Vẫn còn 2/4 dấu hiệu           - Li bì, lơ mơ, mắt rất trũng\n- Uống bình thường, véo da nhanh    - Trẻ vẫn khát, véo da chậm      - Không uống được, véo da > 2s\n           │                                │                                │\n           ▼                                ▼                                ▼\n  [CHUYỂN SANG PHÁC ĐỒ A]           [LẶP LẠI PHÁC ĐỒ B]              [CHUYỂN NGAY PHÁC ĐỒ C]\n- Hướng dẫn điều trị tại nhà        - Cho uống ORS 75 ml/kg          - Thiết lập đường truyền TM\n- Uống ORS theo lứa tuổi            - Thực hiện thêm 4 giờ nữa       - Truyền Ringer Lactat cấp cứu\n- Bổ sung Kẽm đủ 10-14 ngày         - Bắt đầu cho ăn nhẹ xen kẽ      - Tổng liều 100 ml/kg\n```\n\n- **Thất bại bù nước đường uống trong Phác đồ B:** Được xác định khi trẻ nôn liên tục không thể uống được (nôn $\\ge 3$ lần trong 1 giờ), lượng phân bài xuất quá lớn vượt quá tốc độ bù đường uống (tốc độ đi ngoài $> 15 - 20\text{ ml/kg/giờ}$), hoặc xuất hiện trướng bụng liệt ruột. Khi đó, chỉ định đặt ống thông dạ dày (Sonde dạ dày) để nhỏ giọt ORS chậm với tốc độ 20 ml/kg/giờ, hoặc chuyển sang truyền dịch tĩnh mạch.\n\n---\n\n## 6. ĐIỀU TRỊ 3: PHÁC ĐỒ C — HỒI SỨC TĨNH MẠCH CẤP CỨU MẤT NƯỚC NẶNG & SỐC\n\nPhác đồ C là phác đồ hồi sức dịch truyền tĩnh mạch tối khẩn cấp dành cho trẻ được chẩn đoán **\"Mất nước nặng\"** (thâm hụt $> 10\\%$ trọng lượng cơ thể) hoặc đã có biểu hiện **\"Sốc giảm thể tích\"**. Đây là tình huống đe dọa trực tiếp tính mạng đòi hỏi sự chuẩn xác tuyệt đối về loại dịch, tổng thể tích và tốc độ truyền dịch.\n\n### 6.1 Lựa chọn dịch truyền tĩnh mạch đầu tay\nDịch truyền tĩnh mạch ưu tiên lựa chọn hàng đầu cho Phác đồ C là dung dịch Ringer Lactat (rapid rehydration using Ringer's lactate in severe dehydration); nếu không có Ringer Lactat mới dùng Natri Clorid 0.9% (GASTRO trial, PMID: 31256761) [DATA VERIFIED] {claim: C-008}.\n- **Dung dịch ưu tiên lựa chọn số 1: Dung dịch Ringer Lactat (Hartmann's Solution).** Ringer Lactat là dung dịch tinh thể cân bằng tối ưu nhất vì có thành phần điện giải gần tương đồng với huyết tương và dịch mất qua phân, đồng thời chứa 28 mmol/L Lactat khi chuyển hóa tại gan sẽ tạo thành Bicarbonat giúp hồi phục nhanh tình trạng toan chuyển hóa.\n- **Dung dịch thay thế khi không có Ringer Lactat:** Dung dịch Natri Clorid 0.9% (Normal Saline).\n- **Tuyệt đối không dùng dịch Glucose đơn thuần (Glucose 5% hoặc 10%):** Vì dịch đường không có chất điện giải đẳng trương, truyền vào lòng mạch sẽ nhanh chóng thoát dịch vào mô kẽ gây phù não và tụt áp lực thẩm thấu huyết tương nguy hiểm.\n\n### 6.2 Phác đồ 2 bước truyền dịch theo nhóm tuổi của WHO\nTổng thể tích dịch truyền tĩnh mạch cấp cứu trong Phác đồ C (WHO plan C rapid rehydration trial for severe dehydration secondary to gastroenteritis using Ringer's lactate) là 100 ml/kg (GASTRO trial, PMID: 31256761) [DATA VERIFIED] {claim: C-003}.\nTổng thời gian truyền tĩnh mạch Phác đồ C (WHO plan C rehydration for severe dehydration): Trẻ < 12 tháng truyền trong 6 giờ; Trẻ ≥ 12 tháng truyền trong 3 giờ (GASTRO trial, PMID: 31256761) [DATA VERIFIED] {claim: C-004}.\n\n| Nhóm tuổi của trẻ | BƯỚC 1: Hồi sức khẩn cấp ban đầu (30 ml/kg) | BƯỚC 2: Bù dịch duy trì tiếp theo (70 ml/kg) | Tổng thời gian truyền đủ 100 ml/kg |\n|---|---|---|:---:|\n| **Trẻ từ 12 tháng tuổi trở lên** *(Trẻ $\\ge 1$ tuổi)* | Truyền tĩnh mạch **$30\text{ ml/kg}$ trong $30\text{ phút}$** đầu tiên | Truyền tĩnh mạch **$70\text{ ml/kg}$ trong $2.5\text{ giờ}$** tiếp theo | **$3\text{ giờ}$** |\n| **Trẻ dưới 12 tháng tuổi** *(Trẻ nhũ nhi $< 1$ tuổi)* | Truyền tĩnh mạch **$30\text{ ml/kg}$ trong $1\text{ giờ}$** đầu tiên | Truyền tĩnh mạch **$70\text{ ml/kg}$ trong $5\text{ giờ}$** tiếp theo | **$6\text{ giờ}$** |\n\n```text\n               SƠ ĐỒ PHÂN BỔ TỐC ĐỘ DỊCH TRUYỀN TĨNH MẠCH PHÁC ĐỒ C\n               ═══════════════════════════════════════════════════ (SƠ ĐỒ 6)\n[TRẺ DƯỚI 12 THÁNG TUỔI: TỔNG THỜI GIAN 6 GIỜ]\n╔══════════════════════════════╦═════════════════════════════════════════════════════════╗\n║ Bước 1: 30 ml/kg trong 1 GIỜ ║ Bước 2: 70 ml/kg trong 5 GIỜ tiếp theo                 ║\n╚══════════════════════════════╩═════════════════════════════════════════════════════════╝\n 0                            1 giờ                                                     6 giờ\n\n[TRẺ TỪ 12 THÁNG TUỔI TRỞ LÊN: TỔNG THỜI GIAN 3 GIỜ]\n┌──────────────────────────────┬─────────────────────────────────────────────────────────┐\n│ Bước 1: 30 ml/kg trong 30 PHÚT│ Bước 2: 70 ml/kg trong 2.5 GIỜ tiếp theo                │\n└──────────────────────────────┴─────────────────────────────────────────────────────────┘\n 0                           30 phút                                                   3 giờ\n```\n\n*Lưu ý sinh lý đặc biệt:* Ở trẻ nhỏ dưới 12 tháng tuổi, chức năng tâm thất và độ giãn nở cơ tim chưa hoàn thiện, mạch thận chưa thích nghi với tình trạng quá tải dịch đột ngột, do đó tốc độ truyền phải chậm hơn (kéo dài trong 6 giờ) để phòng ngừa biến chứng phù phổi cấp và suy tim sung huyết cấp tính.\n\n### 6.3 Theo dõi sát và đánh giá lâm sàng trong quá trình truyền dịch\n- **Đánh giá mỗi 15 đến 30 phút:** Kiểm tra mạch quay, mạch bẹn, huyết áp, tri giác, thời gian đổ đầy mao mạch (CRT) và nhịp thở.\n- **Xử trí sau khi hết Bước 1 (30 ml/kg):**\n  - Nếu mạch quay vẫn còn rất yếu, nhanh nhỏ khó bắt hoặc huyết áp chưa cải thiện → Lặp lại ngay một liều truyền tĩnh mạch $30\text{ ml/kg}$ Ringer Lactat nữa với tốc độ như Bước 1 trước khi chuyển sang Bước 2.\n  - Nếu mạch quay đã bắt rõ, chi ấm, CRT $< 2$ giây → Chuyển sang truyền tiếp Bước 2 ($70\text{ ml/kg}$) đúng thời gian quy định.\n- **Bắt đầu cho uống ORS xen kẽ càng sớm càng tốt:** Ngay khi trẻ tỉnh táo lại và có thể nuốt được (thường sau 1–2 giờ truyền dịch), hãy bắt đầu cho trẻ uống ORS với liều nhỏ khoảng **$5\text{ ml/kg/giờ}$** song song với đường truyền tĩnh mạch đang chảy. Việc uống ORS sớm giúp cung cấp thêm Kali, Bicarbonat và đường mà dịch Ringer Lactat chưa cung cấp đủ, đồng thời kích thích tuần hoàn mạc treo ruột hoạt động trở lại.\n- **Đánh giá lại toàn diện sau khi hoàn thành 100 ml/kg:**\n  - Sau 3 giờ (trẻ $\\ge 12$ tháng) hoặc sau 6 giờ (trẻ $< 12$ tháng): Khám lại toàn bộ 4 dấu hiệu mất nước.\n  - Nếu hết mất nước → Chuyển sang Phác đồ A để duy trì tại nhà.\n  - Nếu vẫn còn dấu hiệu \"Có mất nước\" → Chuyển sang Phác đồ B trong 4 giờ.\n  - Nếu trẻ vẫn còn tình trạng \"Mất nước nặng\" → Lặp lại một chu kỳ Phác đồ C từ đầu.\n\n---\n\n## 7. LIỆU PHÁP KẼM, KHÁNG SINH VÀ CÁC THUỐC ĐIỀU TRỊ PHỐI HỢP\n\n### 7.1 Liệu pháp Kẽm (Zinc Supplementation) — Can thiệp bắt buộc\nBổ sung Kẽm nguyên tố là trụ cột bắt buộc trong điều trị tiêu chảy cấp theo khuyến cáo đồng thuận của WHO, UNICEF và Bộ Y tế Việt Nam. Liều bổ sung Kẽm (Oral zinc supplementation for treating children with acute diarrhoea): Trẻ < 6 tháng uống 10 mg/ngày; Trẻ ≥ 6 tháng uống 20 mg/ngày, dùng liên tục 10–14 ngày theo tổng quan Cochrane của Lazzerini et al. (PMID: 27996088) [DATA VERIFIED] {claim: C-005} giúp rút ngắn thời gian tiêu chảy trung bình 11 đến 24 giờ, giảm 20% lượng phân bài xuất và giảm 30% tỷ lệ tái phát tiêu chảy trong vòng 3 tháng tiếp theo.\n\n- **Cơ chế tác dụng sinh học của Kẽm:**\n  - Tăng cường sao chép và biệt hóa tế bào biểu mô ruột, thúc đẩy phục hồi nhanh chóng lớp vi nhung mao bị virus phá hủy.\n  - Ổn định cấu trúc màng tế bào và các phức hợp nối kín gian bào (Tight junctions), giảm tính thấm bất thường của niêm mạc ruột.\n  - Ức chế dòng tiết dịch Cl⁻ qua kênh ion phụ thuộc cAMP, giảm tình trạng tiêu chảy xuất tiết.\n  - Kích hoạt lympho bào T và đại thực bào tại các mảng Peyer đường ruột, tăng sinh kháng thể tiết sIgA chống lại mầm bệnh.\n- **Liều lượng và thời gian sử dụng chuẩn hóa:**\n  - **Trẻ dưới 6 tháng tuổi:** Uống **$10\text{ mg}$ Kẽm nguyên tố/ngày** (dùng liên tục từ 10 đến 14 ngày).\n  - **Trẻ từ 6 tháng tuổi trở lên:** Uống **$20\text{ mg}$ Kẽm nguyên tố/ngày** (dùng liên tục từ 10 đến 14 ngày).\n  - Cách dùng: Cho uống sau bữa ăn từ 30 phút đến 1 giờ để giảm kích ứng dạ dày gây nôn trớ. Dùng viên kẽm phân tán hòa tan với một thìa nhỏ nước hoặc sữa mẹ.\n\n### 7.2 Chỉ định kháng sinh hợp lý trong tiêu chảy cấp\nKháng sinh hoàn toàn không có tác dụng đối với các trường hợp tiêu chảy do virus (Rotavirus, Norovirus) hoặc vi khuẩn không xâm nhập. Việc lạm dụng kháng sinh làm tiêu diệt hệ vi sinh vật chí có lợi trong ruột, kéo dài thời gian tiêu chảy, gia tăng nguy cơ kháng thuốc và tiềm ẩn biến chứng viêm đại tràng giả mạc do *Clostridioides difficile*.\n\nKháng sinh **CHỈ ĐƯỢC CHỈ ĐỊNH** trong các tình huống lâm sàng đặc biệt sau:\n1. **Hội chứng lỵ (Tiêu chảy phân có nhầy máu đại thể):**\n   - Tác nhân hàng đầu là vi khuẩn *Shigella*.\n   - Kháng sinh đầu tay đường uống: **Ciprofloxacin** ($15\text{ mg/kg} \times 2\text{ lần/ngày}$ trong 3 ngày) hoặc **Azithromycin** ($10 - 12\text{ mg/kg} \times 1\text{ lần/ngày}$ trong 3 đến 5 ngày).\n   - Nếu bệnh nặng hoặc không uống được: **Ceftriaxone** ($50 - 100\text{ mg/kg/ngày}$ tiêm tĩnh mạch trong 3 đến 5 ngày).\n2. **Nghi ngờ bệnh Tả (Cholera) có mất nước nặng:**\n   - Trẻ tiêu chảy phân toàn nước xối xả liên tục ở vùng đang có dịch tả lưu hành.\n   - Kháng sinh lựa chọn: **Azithromycin** ($20\text{ mg/kg}$ uống liều duy nhất) hoặc **Ciprofloxacin** liều duy nhất.\n3. **Nhiễm ký sinh trùng Giardia lamblia hoặc Entamoeba histolytica:**\n   - Sử dụng **Metronidazole** ($30 - 40\text{ mg/kg/ngày}$ chia 3 lần trong 5 đến 7 ngày).\n4. **Trẻ tiêu chảy cấp kèm nhiễm khuẩn toàn thân, nhiễm trùng huyết hoặc trẻ suy giảm miễn dịch nặng:** Sử dụng kháng sinh phổ rộng đường tĩnh mạch theo phác đồ nhiễm khuẩn huyết.\n\n### 7.3 Các thuốc điều trị hỗ trợ khác và những thuốc cấm kỵ\n- **Men vi sinh (Probiotics):** Các chủng vi sinh vật sống có bằng chứng lâm sàng mức độ cao (ESPGHAN khuyến cáo mạnh) bao gồm *Lactobacillus rhamnosus GG (LGG)* và nấm men *Saccharomyces boulardii*. Có thể rút ngắn thời gian tiêu chảy khoảng 1 ngày nếu được dùng sớm trong những ngày đầu, nhưng chỉ mang tính chất hỗ trợ, không bao giờ thay thế được ORS và Kẽm.\n- **Racecadotril:** Thuốc ức chế men enkephalinase ngoại biên ở ruột, giúp giảm tiết dịch mà không ảnh hưởng đến nhu động ruột, có thể dùng phối hợp với ORS để giảm lượng phân bài xuất ở trẻ nhỏ.\n- **TUYỆT ĐỐI CHỐNG CHỈ ĐỊNH — CÁC THUỐC CẤM KỴ:**\n  - **Thuốc làm giảm nhu động ruột (Loperamide, Diphenoxylate, Atropine, Thuốc phiện paregoric):** Cực kỳ nguy hiểm ở trẻ em. Thuốc làm ứ đọng vi khuẩn và độc tố trong lòng ruột, gây liệt ruột cơ năng, trướng bụng căng cứng, hoại tử ruột và ức chế hô hấp dẫn đến tử vong.\n  - **Thuốc hấp phụ và bao phủ niêm mạc (Smectite, Kaolin-Pectin, Than hoạt tính):** Không làm giảm lượng nước mất, có thể cản trở hấp thu kẽm và các chất dinh dưỡng khác, không khuyến cáo thường quy.\n  - **Thuốc chống nôn trung ương (Metoclopramide):** Gây tác dụng phụ ngoại tháp nghiêm trọng (cơn quay mắt quay đầu, co cứng cơ), chống chỉ định ở trẻ nhỏ.\n\n---\n\n## 8. THEO DÕI VÀ TIÊU CHUẨN XUẤT VIỆN\n\n### 8.1 Bảng kiểm theo dõi tại giường bệnh\nĐối với trẻ nằm lưu điều trị tại phòng cấp cứu hoặc khoa Tiêu hóa, nhân viên y tế cần ghi chép hồ sơ theo dõi định kỳ:\n- **Tần số sinh hiệu:** Đo nhịp tim, nhịp thở, nhiệt độ, huyết áp mỗi 2 đến 4 giờ (mỗi 15–30 phút nếu đang truyền Phác đồ C).\n- **Cân nặng hàng ngày:** Cân trẻ vào cùng một thời điểm mỗi buổi sáng trước khi ăn để đánh giá chính xác lượng nước thâm hụt và khả năng hoàn nguyên thể tích dịch.\n- **Theo dõi lượng dịch xuất nhập:** Đếm số lần đi ngoài, số lần nôn ói, ước lượng tính chất phân và theo dõi số lần đi tiểu trong 24 giờ. Trẻ tiểu tiện trở lại trong vòng 4–6 giờ sau bù dịch là dấu hiệu lâm sàng rất đáng tin cậy chứng tỏ tưới máu thận đã phục hồi tốt.\n- **Điện giải đồ và chức năng thận:** Chỉ định xét nghiệm khi trẻ mất nước nặng, trẻ có biểu hiện rối loạn tri giác bất thường, trướng bụng nhiều, co giật, hoặc trẻ đang truyền dịch tĩnh mạch kéo dài.\n\n### 8.2 Tiêu chuẩn cho trẻ xuất viện an toàn\nTrẻ được xem xét cho xuất viện khi đáp ứng đầy đủ các tiêu chuẩn sau:\n1. Lâm sàng hoàn toàn hết dấu hiệu mất nước, toàn trạng tỉnh táo, hoạt bát, chơi ngoan.\n2. Trẻ dung nạp tốt đường uống: tự uống được nước và ORS, bú mẹ tốt hoặc ăn cháo tốt, không còn nôn trớ trong suốt 6–8 giờ theo dõi.\n3. Tần suất đi ngoài giảm rõ rệt, phân bắt đầu sệt lại, không có nhầy máu.\n4. Trẻ đi tiểu tiện bình thường, nước tiểu trong và nhiều.\n5. Người nhà hiểu rõ và cam kết thực hiện đúng 4 nguyên tắc điều trị tại nhà của Phác đồ A, biết cách pha ORS đúng thể tích, cho uống kẽm đủ 10–14 ngày và nhận biết được các dấu hiệu nguy hiểm cần quay lại bệnh viện ngay.\n\n---\n\n\n### 8.3 Checkpoint tự lượng giá kiến thức lâm sàng (Self-check Checkpoints)\nĐể củng cố năng lực thực hành trước khi đi buồng bệnh, người học hãy tự trả lời các câu hỏi tự kiểm tra sau:\n1. **Checkpoint 1 (Tự kiểm tra chỉ định ORS):** Vì sao dung dịch ORS áp lực thẩm thấu thấp (245 mOsm/L) lại có ưu thế vượt trội so với ORS tiêu chuẩn cũ (311 mOsm/L)?  \n   *Đáp án tự kiểm tra:* Vì nồng độ Natri (75 mmol/L) và Glucose (75 mmol/L) cân đối tối ưu hóa cơ chế đồng vận chuyển SGLT-1, giảm áp lực thẩm thấu trong lòng ruột giúp giảm 33% tỷ lệ phải truyền dịch tĩnh mạch và giảm 20% khối lượng phân bài xuất.\n2. **Checkpoint 2 (Tự kiểm tra 4 dấu hiệu mất nước WHO):** Cần tối thiểu bao nhiêu dấu hiệu để xếp loại một trẻ vào nhóm \"Có mất nước\" hoặc \"Mất nước nặng\"?  \n   *Đáp án tự kiểm tra:* Cần ít nhất 2 trong số 4 dấu hiệu lâm sàng cốt lõi của WHO (Toàn trạng/tri giác, Mắt, Khả năng uống nước, Nếp véo da bụng).\n3. **Checkpoint 3 (Tự kiểm tra Phác đồ B):** Trẻ 8 kg có mất nước cần uống bao nhiêu ml ORS trong 4 giờ đầu, và xử trí như thế nào nếu trẻ nôn ói?  \n   *Đáp án tự kiểm tra:* Thể tích ORS = 8 kg × 75 ml/kg = 600 ml trong 4 giờ. Nếu trẻ nôn: tạm ngừng cho uống trong 10 phút, sau đó cho uống lại chậm hơn (cứ 2–3 phút một thìa nhỏ).\n4. **Checkpoint 4 (Tự kiểm tra Phác đồ C):** Trẻ 15 tháng tuổi (nặng 10 kg) mất nước nặng cần truyền tĩnh mạch dịch gì, liều lượng và tốc độ ra sao?  \n   *Đáp án tự kiểm tra:* Chọn dịch Ringer Lactat, tổng liều 1000 ml trong 3 giờ: Bước 1 truyền 300 ml (30 ml/kg) trong 30 phút đầu; Bước 2 truyền 700 ml (70 ml/kg) trong 2.5 giờ tiếp theo.\n5. **Checkpoint 5 (Tự kiểm tra Liệu pháp Kẽm):** Liều lượng và thời gian bổ sung Kẽm nguyên tố cho trẻ 4 tháng tuổi và trẻ 18 tháng tuổi khác nhau như thế nào?  \n   *Đáp án tự kiểm tra:* Trẻ < 6 tháng (4 tháng tuổi) uống 10 mg/ngày; trẻ ≥ 6 tháng (18 tháng tuổi) uống 20 mg/ngày. Cả hai nhóm đều phải uống liên tục đủ 10 đến 14 ngày.\n\n---\n\n## 9. BIẾN CHỨNG VÀ RỐI LOẠN ĐIỆN GIẢI NGUY HIỂM\n\n### 9.1 Rối loạn Natri máu: Hạ Natri vs Tăng Natri máu\n- **Hạ Natri máu (Hyponatremia - $Na^+ < 130\text{ mmol/L}$):**\n  - Cơ chế: Do mất muối qua phân kết hợp với việc gia đình chỉ cho trẻ uống nước lọc đơn thuần, nước đường quá loãng hoặc truyền dịch nhược trương.\n  - Lâm sàng: Trẻ ngủ gà, lờ đờ, yếu cơ, đau đầu, buồn nôn; khi $Na^+ < 120\text{ mmol/L}$ có nguy cơ phù não cấp gây co giật và hôn mê.\n  - Xử trí: Nếu có co giật do hạ Natri máu nặng, truyền cấp cứu dung dịch Natri Clorid ưu trương 3% liều $3 - 5\text{ ml/kg}$ trong 15–30 phút để nâng nhanh Natri máu qua ngưỡng nguy hiểm.\n- **Tăng Natri máu (Hypernatremia - $Na^+ > 150\text{ mmol/L}$):**\n  - Cơ chế: Do mất nước tự do nhiều hơn mất muối (tiêu chảy phân nước thẩm thấu nhiều), hoặc do bà mẹ pha gói ORS quá đặc (ít nước hơn hướng dẫn).\n  - Lâm sàng: Da trẻ sờ vào có cảm giác \"nhào bột\" (doughy feel), trẻ cực kỳ kích thích quấy khóc khát nước dữ dội, sốt cao không rõ ổ nhiễm, tăng phản xạ gân xương, co giật do teo tế bào não và xuất huyết nội sọ.\n  - Xử trí: Bù dịch hạ Natri từ từ trong vòng 48 giờ bằng dung dịch nhược trương (như Ringer Lactat pha loãng hoặc Dextrose 5% trong nửa muối), tốc độ hạ Natri không được vượt quá $0.5\text{ mmol/L/giờ}$ để tránh phù não hồi ứng tử vong.\n\n### 9.2 Hạ Kali máu (Hypokalemia - $K^+ < 3.5\text{ mmol/L}$)\n- **Cơ chế:** Nồng độ Kali trong dịch phân tiêu chảy rất cao (20–40 mmol/L). Trẻ mất một lượng Kali khổng lồ mà không được bù đắp kịp thời, đặc biệt khi dùng dịch truyền tĩnh mạch không có Kali.\n- **Lâm sàng:** Trẻ yếu cơ toàn thân, giảm trương lực cơ, trướng bụng liệt ruột cơ năng, phản xạ gân xương giảm hoặc mất, tiếng tim mờ, rối loạn nhịp tim (sóng T dẹt, xuất hiện sóng U, đoạn ST chênh xuống, ngoại tâm thu thất).\n- **Xử trí:** Bổ sung Kali qua đường uống bằng ORS, nước dừa hoặc chuối tiêu chín. Nếu truyền tĩnh mạch, chỉ được pha Kali Clorid (KCl) vào chai dịch truyền sau khi trẻ đã có nước tiểu, nồng độ KCl trong chai dịch truyền tĩnh mạch ngoại vi tuyệt đối không được vượt quá 40 mmol/L ($0.3\\%$) và tốc độ truyền không vượt quá $0.5\text{ mmol/kg/giờ}$.\n\n### 9.3 Toan chuyển hóa và Suy thận cấp trước thận\n- **Toan chuyển hóa (Metabolic Acidosis):** Do mất Bicarbonat qua phân kết hợp với ứ đọng acid lactic do sốc giảm tưới máu. Trẻ có nhịp thở nhanh sâu không co kéo (thở kiểu Kussmaul), môi đỏ rực bất thường. Điều trị căn bản là hồi phục thể tích tuần hoàn bằng Ringer Lactat, thận sẽ tự đào thải acid và giữ lại kiềm khi được tưới máu đầy đủ; chỉ cân nhắc bù Natri Bicarbonat khi pH máu $< 7.1$ hoặc $HCO_3^- < 10\text{ mmol/L}$ sau khi đã bù đủ dịch.\n- **Suy thận cấp trước thận (Pre-renal AKI):** Tụt huyết áp và mất dịch làm giảm dòng máu đến thận. Xét nghiệm thấy Urê và Creatinin máu tăng cao, tỷ lệ BUN/Creatinin $> 20$. Nếu được hồi sức bù dịch kịp thời trong giai đoạn trước thận, chức năng thận sẽ hồi phục hoàn toàn mà không để lại di chứng hoại tử ống thận cấp.\n\n---\n\n## 10. TÓM TẮT VÀ BẢN ĐỒ TƯ DUY RÚT GỌN\n\n```text\n               BẢN ĐỒ TƯ DUY TỔNG KẾT XỬ TRÍ TIÊU CHẢY CẤP NHI KHOA\n               ═══════════════════════════════════════════════════ (SƠ ĐỒ 7)\n                           [BỆNH NHI TIÊU CHẢY CẤP]\n                                      │\n              [ĐÁNH GIÁ 4 DẤU HIỆU MẤT NƯỚC THEO CHUẨN WHO]\n              1. Tri giác  |  2. Mắt  |  3. Uống nước  |  4. Véo da\n                                      │\n         ┌────────────────────────────┬────────────────────────────┐\n         ▼ (KHÔNG MẤT NƯỚC)           ▼ (CÓ MẤT NƯỚC)              ▼ (MẤT NƯỚC NẶNG)\n  [KHÔNG MẤT NƯỚC]             [CÓ MẤT NƯỚC]                [MẤT NƯỚC NẶNG]\n- Không đủ 2 dấu hiệu        - Có >= 2/4 dấu hiệu         - Có >= 2/4 dấu hiệu nặng\n- Tỉnh táo, véo da nhanh     - Bứt rứt, khát háo hức      - Li bì, không uống được\n         │                            │                            │\n         ▼                            ▼                            ▼\n   [PHÁC ĐỒ A]                  [PHÁC ĐỒ B]                  [PHÁC ĐỒ C]\n- Điều trị tại nhà           - Bù ORS tại trạm            - Hồi sức TM cấp cứu\n- Uống thêm dịch sau đi ngoài- Liều 75 ml/kg trong 4 giờ  - Ringer Lactat 100 ml/kg\n  < 2t: 50-100 ml              Uống từng thìa chậm rãi     >= 12th: 30ml/kg/30p + 70ml/kg/2.5h\n  2-10t: 100-200 ml          - Nếu nôn: nghỉ 10 phút      < 12th: 30ml/kg/1h + 70ml/kg/5h\n  >= 10t: theo nhu cầu       - Đánh giá lại sau 4 giờ     - Uống ORS 5ml/kg/h khi nuốt được\n- Bổ sung Kẽm 10-14 ngày     - Bổ sung Kẽm 10-14 ngày     - Đánh giá lại sau 3h hoặc 6h\n- Tiếp tục ăn uống           - Tiếp tục cho ăn/bú         - Chuyển phác đồ thích hợp\n```\n\n### Bảng tóm tắt nhanh liều lượng và can thiệp cốt lõi\n\n| Hạng mục can thiệp | Phác đồ A (Không mất nước) | Phác đồ B (Có mất nước) | Phác đồ C (Mất nước nặng) |\n|---|---|---|---|\n| **Vị trí điều trị** | Tại nhà | Tại cơ sở y tế / Buồng lưu | Phòng cấp cứu / Hồi sức Nhi |\n| **Đường bù dịch** | Đường uống | Đường uống (hoặc Sonde dạ dày) | Đường tĩnh mạch (hoặc Truyền trong xương) |\n| **Loại dịch lựa chọn** | ORS áp lực thẩm thấu thấp 245 mOsm/L | ORS áp lực thẩm thấu thấp 245 mOsm/L | Dung dịch Ringer Lactat |\n| **Liều lượng dịch** | 50–100 ml (< 2t) hoặc 100–200 ml (2–10t) sau mỗi lần tiêu chảy | $75\text{ ml/kg}$ trong $4\text{ giờ}$ đầu | $100\text{ ml/kg}$ ($30\text{ ml/kg}$ rồi $70\text{ ml/kg}$) |\n| **Thời gian theo dõi** | Hướng dẫn dấu hiệu tái khám | Khám lại toàn diện sau $4\text{ giờ}$ | Đánh giá mỗi 15–30 phút, tổng kết sau 3h hoặc 6h |\n| **Bổ sung Kẽm** | $10\text{ mg}$ (< 6th) hoặc $20\text{ mg}$ ($\\ge 6\text{th}$) $\times$ 10–14 ngày | $10\text{ mg}$ (< 6th) hoặc $20\text{ mg}$ ($\\ge 6\text{th}$) $\times$ 10–14 ngày | Cho uống Kẽm ngay khi trẻ chuyển sang Phác đồ A/B |\n| **Chế độ dinh dưỡng** | Tiếp tục bú mẹ và ăn uống bình thường | Cho bú mẹ xen kẽ, ăn nhẹ sau 4 giờ | Bắt đầu cho ăn lại ngay khi hết mất nước nặng |\n\n---\n\n## 11. TIPS THỰC HÀNH LÂM SÀNG VÀ KINH NGHIỆM ĐI BUỒNG\n\nDưới đây là 14 kinh nghiệm xương máu giúp bác sĩ thực hành tự tin xử lý an toàn tại buồng bệnh tiêu chảy:\n- **Tip 1 (Đọc kỹ thể tích gói ORS):** Trên thị trường hiện có 2 loại gói ORS: loại pha với đúng 1000 ml nước và loại gói nhỏ pha với đúng 200 ml nước. Trước khi hướng dẫn người nhà, bác sĩ phải cầm tận tay gói thuốc đọc kỹ thể tích in trên bao bì để dặn bà mẹ đong nước tuyệt đối chính xác.\n- **Tip 2 (Bình đo thể tích chuẩn):** Khuyên người nhà dùng bình sữa của trẻ nhỏ có chia vạch mililit (ml) rõ ràng để đong nước pha ORS; tuyệt đối không được áng chừng bằng mắt hoặc dùng bát ăn cơm/cốc uống trà để đong nước.\n- **Tip 3 (Quy tắc không bao giờ chia nhỏ gói thuốc):** Nghiêm cấm bà mẹ bẻ đôi hoặc chia nhỏ gói bột ORS để pha từng cốc nhỏ (vì các tinh thể Natri, Kali, Glucose không phân bố đồng đều trong gói bột khô, chia nhỏ sẽ gây sai lệch nồng độ nghiêm trọng).\n- **Tip 4 (Đồng hồ đếm giọt khi truyền Phác đồ C):** Luôn nhớ hệ số dây truyền dịch chuẩn: $1\text{ ml} = 20\text{ giọt}$. Để tính số giọt/phút: lấy tổng thể tích dịch (ml) nhân 20 rồi chia cho số phút truyền. Ví dụ: cần truyền 300 ml trong 30 phút $\nightarrow$ tốc độ là 200 giọt/phút (mở khóa xả tối đa hoặc dùng máy truyền dịch).\n- **Tip 5 (Dấu hiệu khát nước ở trẻ nhũ nhi):** Ở trẻ chưa biết nói, dấu hiệu \"khát uống háo hức\" được nhận biết khi đưa thìa nước đến gần thì trẻ nhoài người về phía trước, há to miệng đón thìa, nuốt ừng ực và khóc thét đòi uống tiếp khi rút thìa nước ra.\n- **Tip 6 (Không đo mạch ngoại vi ở cổ tay khi nghi sốc):** Ở trẻ sơ sinh và nhũ nhi nhỏ, mạch quay rất khó sờ. Khi nghi ngờ sốc, hãy bắt mạch cánh tay (Brachial artery) ở mặt trong cánh tay hoặc bắt mạch bẹn (Femoral artery) để đánh giá chính xác độ nảy của mạch.\n- **Tip 7 (Quy tắc 10 phút khi trẻ nôn Phác đồ B):** Trẻ nôn ói là phản xạ tự nhiên của dạ dày bị kích thích. Bình tĩnh giải thích cho người nhà, cho trẻ nghỉ ngơi hoàn toàn 10 phút rồi cho uống lại từng thìa nhỏ kiên trì; 90% trẻ sẽ êm dịu và hấp thu tốt sau đó.\n- **Tip 8 (Khám bụng loại trừ ngoại khoa):** Luôn nhẹ nhàng sờ nắn bụng trẻ tiêu chảy. Nếu thấy bụng chướng căng, quai ruột nổi, trẻ khóc thét khi ấn nông, hoặc sờ thấy một khối tròn chắc góc trên phải kèm phân có nhầy máu $\nightarrow$ cảnh giác cao độ với lồng ruột cấp hoặc viêm ruột thừa cấp vỡ hoại tử!\n- **Tip 9 (Nước tiểu là thước đo tưới máu vàng):** Dặn điều dưỡng và bà mẹ theo dõi chiếc tã lót đầu tiên sau khi bù dịch. Trẻ đi tiểu ướt tã trong vòng 4 giờ là bằng chứng vàng xác nhận thể tích lòng mạch đã phục hồi và thận được bảo vệ an toàn.\n- **Tip 10 (Tránh bẫy kháng sinh cho tiêu chảy phân nước):** Nhìn thấy trẻ sốt nhẹ và đi ngoài phân lỏng nhiều nước, không được vội vàng kê kháng sinh. Hơn 80% trường hợp là do virus, kháng sinh không có tác dụng mà còn làm rối loạn hệ vi sinh đường ruột nặng hơn.\n- **Tip 11 (Vệ sinh và bảo vệ da hậu môn):** Tiêu chảy nhiều lần làm phân acid gây trợt loét da hậu môn rất đau đớn khiến trẻ quấy khóc không yên. Hướng dẫn rửa nhẹ bằng nước ấm sau mỗi lần đi ngoài, thấm khô bằng khăn mềm và bôi một lớp mỡ Oxyd kẽm hoặc Dexpanthenol bảo vệ da.\n- **Tip 12 (Phối hợp cho uống ORS sớm trong Phác đồ C):** Ngay khi trẻ truyền tĩnh mạch hồi sức tỉnh lại, cho uống ORS nhấp từng thìa nhỏ ($5\text{ ml/kg/giờ}$). Dịch ORS uống sẽ cung cấp Kali và Bicarbonat giúp hồi phục toan kiềm nhanh hơn nhiều so với việc chỉ truyền Ringer Lactat đơn thuần.\n- **Tip 13 (Cảnh giác quá tải dịch ở trẻ suy dinh dưỡng):** Ở trẻ suy dinh dưỡng nặng hoặc có bệnh tim bẩm sinh, việc truyền tĩnh mạch nhanh 100 ml/kg theo Phác đồ C thông thường có thể đẩy trẻ vào phù phổi cấp và suy tim. Nhóm này cần áp dụng phác đồ dịch truyền đặc biệt ReSoMal và bù chậm dưới sự theo dõi sát của bác sĩ chuyên khoa.\n- **Tip 14 (Uống kẽm vào buổi sáng):** Kẽm có thể gây cảm giác buồn nôn nhẹ nếu uống lúc đói. Nên cho trẻ uống kẽm vào buổi sáng hoặc buổi trưa sau khi đã ăn no khoảng 30–60 phút để trẻ dung nạp tốt nhất.\n\n---\n\n## 12. BẪY LÂM SÀNG VÀ SAI LẦM THƯỜNG GẶP\n\nDưới đây là các bẫy lâm sàng nguy hiểm mà nhân viên y tế thường hay nhầm lẫn và sai phạm trong xử trí tiêu chảy cấp:\n- **Bẫy lâm sàng 1: Pha gói ORS không đủ thể tích nước quy định.**  \n  *Sai lầm:* Người nhà thấy gói bột nhiều sợ nhạt nên pha một gói 1000 ml vào một cốc nước 200 ml cho trẻ uống.  \n  *Hậu quả:* Dung dịch ORS trở thành dung dịch cực kỳ ưu trương ($> 1000\text{ mOsm/L}$). Khi uống vào lòng mạch, nồng độ Natri máu tăng vọt cấp tính làm teo tế bào não và xuất huyết nội sọ, đồng thời áp lực thẩm thấu lòng ruột hút nước ngược từ cơ thể ra ngoài khiến tiêu chảy bùng phát dữ dội hơn.  \n  *Khắc phục:* Bác sĩ và điều dưỡng phải dặn đi dặn lại bà mẹ đong đủ chính xác 1 lít nước hoặc 200 ml nước tùy loại gói; nếu trẻ không uống hết thì đổ bỏ sau 24 giờ chứ tuyệt đối không chia nhỏ gói bột để pha.\n- **Bẫy lâm sàng 2: Nhầm lẫn giữa \"khát nước háo hức\" và \"uống nước bình thường\".**  \n  *Sai lầm:* Thấy trẻ cầm cốc nước uống thì vội ghi nhận là \"uống bình thường\" và xếp vào nhóm không mất nước.  \n  *Phân biệt đúng:* Trẻ không mất nước uống nước thong thả hoặc từ chối uống khi không khát. Trẻ \"khát háo hức\" sẽ chộp lấy thìa nước, mắt dán chặt vào cốc nước, uống vội vã liên tục và khóc gào lên khi người lớn dừng lại.\n- **Bẫy lâm sàng 3: Kê đơn thuốc cầm tiêu chảy (Loperamide) để chiều lòng người nhà.**  \n  *Sai lầm:* Gia đình sốt ruột vì trẻ đi ngoài liên tục nên bác sĩ kê Loperamide để phân đặc lại nhanh chóng.  \n  *Hậu quả:* Loperamide làm liệt cơ trơn thành ruột, phân và độc tố vi khuẩn bị ứ đọng lại trong các quai ruột. Trẻ không đi ngoài ra bỉm nhưng bụng trướng căng như cái trống, ruột hoại tử do thiếu máu cục bộ, vi khuẩn xâm nhập vào máu gây sốc nhiễm trùng tử vong.  \n  *Khắc phục:* Tuyệt đối không bao giờ kê thuốc giảm nhu động ruột cho trẻ em dưới bất kỳ hình thức nào.\n- **Bẫy lâm sàng 4: Cho trẻ uống nước ngọt đóng chai, nước giải khát có ga hoặc nước ép trái cây đóng hộp.**  \n  *Sai lầm:* Trẻ từ chối uống ORS vì vị lợ, gia đình đổi sang cho uống nước ngọt đóng chai (nước ngọt có ga, nước cam ép công nghiệp).  \n  *Hậu quả:* Các loại nước giải khát này chứa hàm lượng đường cực cao (áp lực thẩm thấu lên tới 500–700 mOsm/L) nhưng lại nghèo Natri và Kali. Áp lực thẩm thấu cao kéo nước ồ ạt vào lòng ruột làm tiêu chảy thẩm thấu tăng vọt, trong khi Natri máu tiếp tục tụt sâu.\n- **Bẫy lâm sàng 5: Bắt trẻ nhịn ăn hoặc kiêng khem đạm/sữa mẹ để \"ruột nghỉ ngơi\".**  \n  *Sai lầm:* Quan niệm lạc hậu cho rằng ăn vào sẽ đi ngoài nhiều hơn nên bắt trẻ nhịn bú và chỉ uống nước cháo muối loãng.  \n  *Hậu quả:* Tế bào biểu mô ruột nhận 70% năng lượng nuôi dưỡng trực tiếp từ các chất dinh dưỡng trong lòng ruột. Nhịn ăn làm nhung mao ruột teo đét nhanh chóng, mất enzyme tiêu hóa, kéo dài thời gian tiêu chảy và đẩy trẻ vào vòng xoắn suy dinh dưỡng - tiêu chảy luẩn quẩn.\n- **Bẫy lâm sàng 6: Truyền dịch tĩnh mạch quá chậm ở trẻ mất nước nặng dọa sốc.**  \n  *Sai lầm:* Bác sĩ sợ quá tải dịch nên ở trẻ mất nước nặng lại đặt tốc độ truyền giọt rỉ rả như truyền duy trì.  \n  *Hậu quả:* Trong sốc giảm thể tích, thời gian là tính mạng. Nếu không xả dịch cực nhanh 30 ml/kg trong 30 phút đầu (trẻ $\\ge 1$ tuổi) để phục hồi áp lực tưới máu mạch vành và mạch não, trẻ sẽ tử vong vì ngừng tim hoặc tổn thương não thiếu máu cục bộ không hồi phục.\n- **Bẫy lâm sàng 7: Dùng dung dịch Glucose đơn thuần để hồi sức mất nước nặng.**  \n  *Sai lầm:* Kho cấp cứu hết Ringer Lactat, bác sĩ cho truyền chai Glucose 5% thay thế.  \n  *Hậu quả:* Glucose được tế bào chuyển hóa nhanh chóng, biến dung dịch truyền thành nước tự do nhược trương làm hạ Natri máu cấp tính, gây phù não co giật và tụt huyết áp nặng nề hơn do nước không giữ được trong lòng mạch.\n- **Bẫy lâm sàng 8: Đánh giá sai nếp véo da bụng ở trẻ suy dinh dưỡng thể teo đét.**  \n  *Sai lầm:* Véo da ở trẻ gầy còm trơ xương thấy nếp véo da mất rất chậm trên 2 giây nên chẩn đoán nhầm là mất nước nặng và chỉ định truyền dịch tĩnh mạch ồ ạt.  \n  *Khắc phục:* Trẻ teo đét mất hoàn toàn lớp mỡ dưới da nên véo da luôn mất chậm sinh lý. Ở nhóm trẻ này, phải dựa chủ yếu vào tri giác, tình trạng mắt trũng, khát nước và hỏi tiền sử đi tiểu để phân độ mất nước, tránh truyền dịch quá mức gây suy tim.\n\n---\n\n## 13. CA LÂM SÀNG THỰC TẾ CÓ LỜI GIẢI CHI TIẾT\n\n### Case 1: Xử trí tiêu chảy cấp không mất nước tại phòng khám\n- **Bệnh sử:** Bé trai Nguyễn Hoàng A., 9 tháng tuổi, nặng 8.5 kg, được mẹ đưa đến khám vì đi ngoài phân lỏng màu vàng 5 lần trong 24 giờ qua, kèm nôn 1 lần sau khi bú. Bé vẫn chơi ngoan, không sốt.\n- **Khám lâm sàng:** Bé tỉnh táo, mắt sáng không trũng, khóc có nước mắt. Khi đưa nước uống, bé uống bình thường, không có biểu hiện khát háo hức. Niêm mạc miệng ẩm ướt. Bụng mềm, không trướng. Nếp véo da bụng mất rất nhanh dưới 1 giây. Nhịp tim 115 lần/phút, thở 32 lần/phút, nhiệt độ 36.8°C.\n- **Biện luận chẩn đoán:** Trẻ có tiêu chảy cấp tính (< 14 ngày). Đánh giá 4 dấu hiệu mất nước WHO: tri giác tỉnh táo, mắt không trũng, uống nước bình thường, nếp véo da mất nhanh $\nightarrow$ Không có dấu hiệu nào của mất nước. Chẩn đoán xác định: Tiêu chảy cấp ngày thứ 2, hiện **Không mất nước**.\n- **Kế hoạch xử trí chi tiết theo Phác đồ A:**\n  1. Cho trẻ tiếp tục điều trị và chăm sóc tại nhà.\n  2. Bù nước dự phòng bằng ORS áp lực thẩm thấu thấp (gói pha 200 ml): Cho trẻ uống **$50 - 100\text{ ml}$ ORS ngay sau mỗi lần đi ngoài phân lỏng** hoặc nôn ói. Hướng dẫn mẹ cách pha đúng 1 gói vào 200 ml nước đun sôi để nguội.\n  3. Bổ sung Kẽm: Vì trẻ 9 tháng tuổi ($\\ge 6\text{ tháng}$), chỉ định Kẽm nguyên tố liều **$20\text{ mg/ngày}$** (uống 1 lần/ngày vào buổi sáng sau ăn), uống liên tục đủ 14 ngày.\n  4. Chế độ ăn: Tiếp tục cho bú mẹ theo nhu cầu, tăng cữ bú. Cho ăn cháo thịt nạc nấu nhừ với cà rốt nghiền, chia nhỏ 5–6 bữa trong ngày.\n  5. Hướng dẫn dấu hiệu nguy hiểm cần đưa đi khám lại ngay: Sốt cao, nôn liên tục mọi thứ, đi ngoài phân có máu, đi tiêu nhiều nước hơn, hoặc trẻ mệt lả li bì không uống được.\n\n### Case 2: Xử trí tiêu chảy cấp có mất nước và nôn ói tại buồng lưu bệnh viện\n- **Bệnh sử:** Bé gái Trần Mai B., 20 tháng tuổi, cân nặng 11 kg, vào viện vì đi ngoài phân toàn nước 9 lần từ đêm qua đến trưa nay, nôn ói 4 lần sau ăn.\n- **Khám lâm sàng:** Bé quấy khóc, bứt rứt, cáu gắt khi khám. Mắt trũng rõ, hốc mắt sâu. Môi khô se. Khi mẹ đưa cốc nước ORS, bé giằng lấy cốc uống ngấu nghiến một cách háo hức, rút cốc ra thì khóc thét đòi uống tiếp. Nếp véo da bụng thả tay ra phẳng lại chậm sau khoảng 1.5 giây. Bụng mềm, không chướng. Mạch quay bắt rõ 130 lần/phút, chi ấm, CRT 1.5 giây.\n- **Biện luận chẩn đoán:** Đánh giá 4 dấu hiệu mất nước WHO:\n  1. Tri giác: Bứt rứt, bồn chồn (Dấu hiệu Có mất nước).\n  2. Mắt: Trũng rõ rệt (Dấu hiệu Có mất nước).\n  3. Uống nước: Khát nước nhiều, uống háo hức (Dấu hiệu Có mất nước).\n  4. Nếp véo da: Mất chậm 1.5 giây (Dấu hiệu Có mất nước).  \n  Trẻ có đủ cả 4/4 dấu hiệu của nhóm \"Có mất nước\". Thể tích thâm hụt ước tính khoảng 5%–10% trọng lượng cơ thể ($550 - 1100\text{ ml}$). Chẩn đoán xác định: Tiêu chảy cấp ngày thứ 2, **Có mất nước** mức độ trung bình.\n- **Kế hoạch xử trí chi tiết theo Phác đồ B:**\n  1. Cho trẻ lưu lại phòng cấp cứu/buồng lưu để thực hiện bù nước bằng ORS đường uống trong 4 giờ đầu.\n  2. Tính tổng thể tích ORS cần uống trong 4 giờ:  \n     $$\text{Thể tích ORS} = 11\text{ kg} \times 75\text{ ml/kg} = 825\text{ ml}$$\n  3. Kỹ thuật cho uống: Cho trẻ uống chậm rãi từng thìa nhỏ hoặc từng ngụm nhỏ bằng cốc, khoảng 1–2 phút cho uống một thìa. Mỗi giờ cần uống được khoảng 200 ml.\n  4. Xử trí khi nôn trớ: Trong giờ đầu tiên, bé bị nôn ra một lần khoảng 30 ml ORS. Bác sĩ hướng dẫn mẹ cho bé tạm dừng uống 10 phút để dạ dày nghỉ ngơi. Sau 10 phút, cho uống lại chậm hơn: cứ 3 phút một thìa nhỏ. Sau đó bé không nôn thêm và uống hết 800 ml trong 4 giờ.\n  5. Đánh giá lại sau 4 giờ: Bé tỉnh táo, tươi tỉnh chơi ngoan, mắt hết trũng, nếp véo da mất nhanh dưới 1 giây, khi đưa nước bé uống từ tốn không còn háo hức. Bé đã đi tiểu một bãi nước tiểu vàng trong tã lót.  \n     $\nightarrow$ Kết luận: Trẻ đã **Hết mất nước** hoàn toàn.\n  6. Xử trí tiếp theo: Chuyển sang Phác đồ A để theo dõi tại nhà: uống 100–200 ml ORS sau mỗi lần đi ngoài, uống Kẽm liều 20 mg/ngày đủ 14 ngày, tiếp tục cho bú mẹ và ăn cháo dinh dưỡng.\n\n### Case 3: Cấp cứu hồi sức mất nước nặng dọa sốc theo Phác đồ C\n- **Bệnh sử:** Bé trai Lê Văn C., 14 tháng tuổi, cân nặng 10 kg, được chuyển cấp cứu từ tuyến dưới trong tình trạng li bì, mệt lả sau 2 ngày tiêu chảy xối xả liên tục hơn 15 lần/ngày phân toàn nước đục, nôn tất cả những gì ăn vào.\n- **Khám lâm sàng tại phòng cấp cứu:** Bé nằm bất động, li bì, gọi hỏi cấu véo chỉ cựa quậy yếu ớt rồi lại nhắm nghiền mắt. Mắt trũng sâu hoắm, niêm mạc miệng khô ráp dính sát. Thử đưa nước vào miệng thì nước chảy tràn ra khóe mép, bé hoàn toàn không có phản xạ nuốt. Nếp véo da bụng véo lên rồi thả tay ra, nếp nhăn tồn tại sừng sững trên 3 giây mới phẳng lại. Mạch quay rất nhanh nhỏ và cực kỳ khó bắt, tần số khoảng 165 lần/phút. Huyết áp đo được tụt còn 65/40 mmHg. Đầu chi lạnh ẩm, thời gian đổ đầy mao mạch (CRT) kéo dài 4 giây. Thở nhanh nông 52 lần/phút.\n- **Biện luận chẩn đoán:** Trẻ có:\n  1. Tri giác li bì hôn mê (Dấu hiệu Mất nước nặng).\n  2. Mắt rất trũng (Dấu hiệu Mất nước nặng).\n  3. Không thể uống được nước (Dấu hiệu Mất nước nặng).\n  4. Nếp véo da mất rất chậm > 2 giây (Dấu hiệu Mất nước nặng).\n  5. Dấu hiệu huyết động: Mạch nhanh nhỏ khó bắt, HA tụt, chi lạnh, CRT 4 giây $\nightarrow$ **Sốc giảm thể tích do mất nước nặng**.  \n  Chẩn đoán xác định: Tiêu chảy cấp ngày thứ 2 biến chứng **Mất nước nặng có sốc giảm thể tích**.\n- **Kế hoạch cấp cứu tối khẩn theo Phác đồ C:**\n  1. Chuyển ngay vào buồng hồi sức cấp cứu, cho thở oxy qua canula 2 lít/phút.\n  2. Đặt ngay 2 đường truyền tĩnh mạch ngoại vi kim to cỡ 22G hoặc 20G ở mu bàn tay và cẳng chân.\n  3. Lựa chọn dịch truyền: **Dung dịch Ringer Lactat**.\n  4. Tính toán tổng thể tích dịch:  \n     $$\text{Tổng thể tích (100 ml/kg)} = 10\text{ kg} \times 100\text{ ml/kg} = 1000\text{ ml}$$\n  5. Vì trẻ 14 tháng tuổi ($\\ge 12\text{ tháng}$), lộ trình truyền dịch được thực hiện trong **tổng thời gian 3 giờ** qua 2 bước:\n     - **BƯỚC 1 (Hồi sức khẩn cấp):** Truyền tĩnh mạch $30\text{ ml/kg}$ trong $30\text{ phút}$ đầu:  \n       $$\text{Thể tích Bước 1} = 10\text{ kg} \times 30\text{ ml/kg} = 300\text{ ml Ringer Lactat truyền trong 30 phút}$$  \n       Tốc độ xả dịch: 200 giọt/phút (mở khóa dịch truyền xả dòng tối đa).\n     - **Đánh giá lại sau 30 phút:** Sau khi truyền xong 300 ml, khám lại thấy mạch quay bắt rõ hơn (140 lần/phút), huyết áp tăng lên 85/55 mmHg, chi ấm dần, CRT rút ngắn còn 2 giây $\nightarrow$ Huyết động đã cải thiện, cho phép chuyển sang Bước 2.\n     - **BƯỚC 2 (Bù dịch duy trì):** Truyền tĩnh mạch $70\text{ ml/kg}$ trong $2.5\text{ giờ}$ tiếp theo:  \n       $$\text{Thể tích Bước 2} = 10\text{ kg} \times 70\text{ ml/kg} = 700\text{ ml Ringer Lactat truyền trong 2.5 giờ (150 phút)}$$  \n       Tốc độ truyền: $\frac{700\text{ ml} \times 20\text{ giọt}}{150\text{ phút}} \u0007pprox 93\text{ giọt/phút}$.\n  6. Sau 1.5 giờ truyền dịch, bé bắt đầu mở mắt tỉnh táo hơn, khóc đòi mẹ. Bác sĩ cho điều dưỡng thử nhấp từng thìa nhỏ ORS cho bé uống với tốc độ $5\text{ ml/kg/giờ}$ ($50\text{ ml/giờ}$) song song với đường truyền tĩnh mạch.\n  7. **Đánh giá lại sau 3 giờ:** Hoàn thành đủ 1000 ml Ringer Lactat. Khám lại: Bé hoàn toàn tỉnh táo, mắt bớt trũng, tự cầm thìa uống nước được háo hức, nếp véo da mất chậm sau 1 giây, mạch 120 lần/phút, HA 95/60 mmHg, bé đã đi tiểu được 80 ml nước tiểu vàng nhạt.  \n     $\nightarrow$ Kết luận: Thoát sốc, trẻ chuyển từ \"Mất nước nặng\" sang \"Có mất nước\".\n  8. Xử trí tiếp theo: Rút kim truyền dịch, chuyển sang thực hiện Phác đồ B đường uống với ORS 75 ml/kg trong 4 giờ tiếp theo ($750\text{ ml}$ ORS trong 4 giờ), theo dõi sát và bổ sung Kẽm khi trẻ ổn định.\n\n---\n\n## 14. TÀI LIỆU THAM KHẢO VÀ HƯỚNG DẪN Y KHOA\n\n1. **World Health Organization (WHO, 2019)**: *The Treatment of Diarrhoea: A manual for physicians and other senior health workers (4th rev).* Geneva: World Health Organization. [GUIDELINE VERIFIED]\n2. **World Health Organization (WHO, 2022)**: *Pocket Book of Hospital Care for Children: Guidelines for the Management of Common Childhood Illnesses (Second Edition) - Chapter 5: Diarrhoea, pp. 125-146.* Geneva: World Health Organization. [GUIDELINE VERIFIED]\n3. **Bộ Y tế Việt Nam (2020)**: *Hướng dẫn chẩn đoán và điều trị tiêu chảy ở trẻ em (Ban hành kèm Quyết định số 4121/QĐ-BYT).* Hà Nội: Nhà xuất bản Y học. [GUIDELINE VERIFIED]\n4. **Hahn S, Kim Y, Garner P. (2002)**: *Reduced osmolarity oral rehydration solution for treating dehydration caused by acute diarrhoea in children.* Cochrane Database Syst Rev, 2002(1):CD002847. PMID: **11869639**. [DATA VERIFIED]\n5. **Lazzerini M, Wanzira H. (2016)**: *Oral zinc for treating diarrhoea in children.* Cochrane Database Syst Rev, 2016(12):CD005436. PMID: **27996088**. [DATA VERIFIED]\n6. **Houston KA, Gibb DM, Maitland K. (2019)**: *Gastroenteritis aggressive versus slow treatment for rehydration (GASTRO): a phase II rehydration trial for severe dehydration: WHO plan C versus slow rehydration.* Wellcome Open Res, 2019;4:122. PMID: **31256761**. [DATA VERIFIED]\n7. **Guarino A, Ashkenazi S, Gendrel D, et al. (2014)**: *European Society for Paediatric Gastroenterology, Hepatology, and Nutrition/European Society for Paediatric Infectious Diseases evidence-based guidelines for the management of acute gastroenteritis in children in Europe: update 2014.* J Pediatr Gastroenterol Nutr, 2014;59(1):132-152. PMID: **24739189**. [GUIDELINE VERIFIED]\n8. **King CK, Glass R, Bresee JS, Duggan C. (2003)**: *Managing acute gastroenteritis among children: oral rehydration, maintenance, and nutritional therapy.* MMWR Recomm Rep, 2003;52(RR-16):1-16. PMID: **14627948**. [DATA VERIFIED]\n9. **National Institute for Health and Care Excellence (NICE, 2009/2019)**: *Diarrhoea and vomiting caused by gastroenteritis in children under 5 years: diagnosis and management.* Clinical Guideline [CG84]. London: NICE. PMID: **19386673**. [GUIDELINE VERIFIED]\n10. **Bệnh viện Nhi Đồng 1 & Bệnh viện Nhi Đồng 2 (2020)**: *Phác đồ điều trị Nhi khoa — Chương Tiêu hóa: Tiêu chảy cấp và các phác đồ bù dịch A - B - C.* TP. Hồ Chí Minh: NXB Y học. [GUIDELINE VERIFIED]",
+      "pedytb_file": null,
+      "pedytb_content": "",
+      "cards_count": 88,
+      "cards_data": [
+        {
+          "type": "cloze",
+          "text": "Tiêu chảy cấp ở trẻ em được định nghĩa là tình trạng đại tiện phân lỏng hoặc tóe nước từ {{c1::3 lần}} trở lên trong vòng 24 giờ, với thời gian diễn tiến dưới {{c1::14 ngày}}.",
+          "extra": "Cơ chế: Sự thay đổi độ đặc quánh của phân quan trọng hơn số lần đi ngoài đơn thuần, đặc biệt ở trẻ bú mẹ hoàn toàn. Nếu kéo dài ≥ 14 ngày được phân loại là tiêu chảy kéo dài."
+        },
+        {
+          "type": "cloze",
+          "text": "Đợt tiêu chảy khởi phát cấp tính nhưng kéo dài từ {{c1::14 ngày}} trở lên được định nghĩa là {{c1::tiêu chảy kéo dài (Persistent Diarrhea)}}.",
+          "extra": "Cơ chế: Tiêu chảy kéo dài gây teo nhung mao ruột mạn tính, mất men disaccharidase và đẩy trẻ vào suy dinh dưỡng thể gầy còm."
+        },
+        {
+          "type": "cloze",
+          "text": "Tình trạng tiêu chảy phân có lẫn {{c1::nhầy máu đại thể}} nhìn thấy bằng mắt thường, thường kèm sốt cao và mót rặn được gọi là {{c1::hội chứng lỵ (Dysentery)}}.",
+          "extra": "Cơ chế: Do vi khuẩn xâm nhập trực tiếp phá hủy tế bào biểu mô niêm mạc đại tràng (điển hình là Shigella), bắt buộc chỉ định kháng sinh đặc hiệu."
+        },
+        {
+          "type": "cloze",
+          "text": "Tác nhân virus hàng đầu gây tiêu chảy cấp mất nước nặng ở trẻ từ 6 đến 24 tháng tuổi là {{c1::Rotavirus}}.",
+          "extra": "Cơ chế: Rotavirus tấn công tế bào biểu mô trưởng thành tại đỉnh nhung mao ruột non, gây teo nhung mao và mất men lactase bờ bàn chải."
+        },
+        {
+          "type": "cloze",
+          "text": "Dung dịch bù nước đường uống áp lực thẩm thấu thấp (Reduced Osmolarity ORS) theo khuyến cáo của WHO/UNICEF có tổng áp lực thẩm thấu là {{c1::245 mOsm/L}}.",
+          "extra": "Cơ chế: Áp lực thẩm thấu 245 mOsm/L thấp hơn công thức cũ (311 mOsm/L), tránh tình trạng kéo nước vào lòng ruột, giảm 33% nhu cầu truyền dịch tĩnh mạch và giảm 20% lượng phân."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong công thức ORS áp lực thẩm thấu thấp 245 mOsm/L của WHO, nồng độ Natri là {{c1::75 mmol/L}} và nồng độ Glucose là {{c1::75 mmol/L}}.",
+          "extra": "Cơ chế: Tỷ lệ mol Natri : Glucose xấp xỉ 1:1 là tỷ lệ vàng tối ưu hóa hoạt động của protein đồng vận chuyển SGLT-1 tại màng tế bào ruột."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong công thức ORS áp lực thẩm thấu thấp 245 mOsm/L, nồng độ Kali là {{c1::20 mmol/L}} và nồng độ Citrate là {{c1::10 mmol/L}}.",
+          "extra": "Cơ chế: Kali bù đắp lượng mất qua phân phòng ngừa liệt ruột; Citrate chuyển hóa thành Bicarbonat giúp điều chỉnh toan chuyển hóa."
+        },
+        {
+          "type": "cloze",
+          "text": "Protein đồng vận chuyển tại bờ bàn chải ruột non vận chuyển đồng thời 1 phân tử Glucose cùng với 1 ion Natri là {{c1::SGLT-1 (Sodium-Glucose Cotransporter 1)}}.",
+          "extra": "Cơ chế: SGLT-1 không bị tổn thương bởi độc tố vi khuẩn tả hay ETEC, là nền tảng sinh học giải thích vì sao uống ORS giúp hấp thu nước thần tốc."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong tiêu chảy xuất tiết do phẩy khuẩn tả hoặc ETEC, độc tố ruột kích hoạt enzyme Adenylate cyclase làm tăng nồng độ {{c1::cAMP nội bào}}, mở toang kênh {{c1::CFTR}} bài tiết Cl⁻ vào lòng ruột.",
+          "extra": "Cơ chế: Cl⁻ kéo theo Na⁺ và nước vào lòng ruột, tạo ra những đợt tiêu chảy phân toàn nước xối xả."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong tiêu chảy do Rotavirus, tổn thương đỉnh nhung mao ruột non làm mất enzyme bờ bàn chải quan trọng nhất là {{c1::Lactase}}, dẫn đến tình trạng bất dung nạp đường {{c1::Lactose}} thứ phát.",
+          "extra": "Cơ chế: Đường lactose không tiêu hóa bị vi khuẩn đại tràng lên men thành acid lactic và khí, gây tiêu chảy bọt, phân chua và loét đỏ quanh hậu môn."
+        },
+        {
+          "type": "cloze",
+          "text": "Đặc điểm phân của trẻ tiêu chảy bất dung nạp đường Lactose thứ phát là phân lỏng tóe nước, nhiều bọt sinh hơi, có {{c1::mùi chua nồng}} và pH phân {{c1::< 5.5}}.",
+          "extra": "Cơ chế: Acid lactic sinh ra từ quá trình lên men làm toan hóa phân, gây bỏng rát và viêm đỏ rực da quanh hậu môn của trẻ."
+        },
+        {
+          "type": "cloze",
+          "text": "Hệ thống đánh giá mất nước của WHO dựa trên 4 dấu hiệu lâm sàng cốt lõi: (1) {{c1::Toàn trạng / Tri giác}}, (2) {{c1::Mắt}}, (3) {{c1::Khả năng uống nước}}, và (4) {{c1::Nếp véo da bụng (Skin pinch)}}.",
+          "extra": "Ý nghĩa: 4 dấu hiệu này có giá trị phân loại nhanh và chính xác nhất tại giường bệnh ở mọi tuyến y tế mà không cần xét nghiệm."
+        },
+        {
+          "type": "cloze",
+          "text": "Để xếp loại một trẻ vào nhóm Có mất nước hoặc Mất nước nặng theo WHO, bắt buộc phải có ít nhất {{c1::2 trong số 4 dấu hiệu}} lâm sàng của mức độ đó.",
+          "extra": "Lưu ý: Nếu trẻ chỉ có 1 dấu hiệu đơn độc thì chưa đủ tiêu chuẩn phân độ, cần khám kỹ tìm thêm dấu hiệu thứ hai hoặc xếp vào nhóm thấp hơn."
+        },
+        {
+          "type": "cloze",
+          "text": "Dấu hiệu tri giác ở trẻ tiêu chảy cấp phân loại Có mất nước là {{c1::bứt rứt, bồn chồn (quấy khóc khó dỗ)}}; trong khi ở Mất nước nặng là {{c1::li bì, lơ mơ hoặc hôn mê}}.",
+          "extra": "Cơ chế: Bứt rứt do não bị kích thích bởi thiếu dịch; li bì phản ánh tình trạng giảm tưới máu não nghiêm trọng do sốc giảm thể tích."
+        },
+        {
+          "type": "cloze",
+          "text": "Dấu hiệu uống nước ở trẻ tiêu chảy cấp phân loại Có mất nước là {{c1::khát nước nhiều, uống háo hức}}; trong khi ở Mất nước nặng là {{c1::không uống được hoặc uống rất kém}}.",
+          "extra": "Lưu ý: Dấu hiệu khát háo hức nhận biết khi đưa cốc/thìa nước thì trẻ giằng lấy, uống ừng ực và khóc đòi uống tiếp khi rút thìa ra."
+        },
+        {
+          "type": "cloze",
+          "text": "Dấu hiệu nếp véo da bụng ở trẻ tiêu chảy cấp phân loại Có mất nước là {{c1::mất chậm (1 đến 2 giây)}}; trong khi ở Mất nước nặng là {{c1::mất rất chậm (> 2 giây)}}.",
+          "extra": "Cơ chế: Mất nước gian bào làm giảm độ căng và độ ẩm mô kẽ dưới da. Ở trẻ bình thường nếp véo da mất rất nhanh dưới 1 giây."
+        },
+        {
+          "type": "cloze",
+          "text": "Kỹ thuật làm nếp véo da bụng: véo dọc theo {{c1::chiều dọc cơ thể}} tại vị trí ngang giữa rốn và mạn sườn, giữ nếp da trong {{c1::1 giây}} rồi thả tay ra dứt khoát.",
+          "extra": "Lưu ý: Không véo ngang; không làm khi trẻ đang khóc thét gồng cứng cơ bụng vì sẽ làm nếp véo biến mất nhanh giả tạo."
+        },
+        {
+          "type": "cloze",
+          "text": "Ở trẻ suy dinh dưỡng nặng thể {{c1::Marasmus (teo đét)}}, nếp véo da bụng luôn {{c1::mất chậm hoặc rất chậm}} ngay cả khi không mất nước do trẻ bị teo hết lớp mỡ dưới da.",
+          "extra": "Bẫy lâm sàng: Không được lạm dụng dấu hiệu véo da ở trẻ Marasmus để chẩn đoán mất nước nặng, phải dựa chủ yếu vào tri giác, mắt trũng và tiền sử đi tiểu."
+        },
+        {
+          "type": "cloze",
+          "text": "Phác đồ A được áp dụng cho trẻ tiêu chảy cấp phân loại {{c1::Không mất nước}}, thực hiện điều trị và chăm sóc tại {{c1::nhà}}.",
+          "extra": "Mục tiêu: Bù đắp lượng nước và điện giải bị mất sau mỗi lần đi ngoài, ngăn ngừa trẻ tiến triển thành có mất nước."
+        },
+        {
+          "type": "cloze",
+          "text": "Bốn nguyên tắc vàng của Phác đồ A điều trị tại nhà: (1) {{c1::Cho uống nhiều dịch hơn bình thường}}, (2) {{c1::Bổ sung Kẽm 10–14 ngày}}, (3) {{c1::Tiếp tục cho ăn uống đầy đủ}}, và (4) {{c1::Nhận biết dấu hiệu nguy hiểm cần tái khám ngay}}.",
+          "extra": "Ý nghĩa: Tuyệt đối không cho trẻ nhịn ăn kiêng khem; không dùng thuốc cầm tiêu chảy."
+        },
+        {
+          "type": "cloze",
+          "text": "Liều lượng ORS áp lực thẩm thấu thấp cho trẻ dưới 2 tuổi uống sau mỗi lần đi ngoài phân lỏng trong Phác đồ A là {{c1::50 đến 100 ml}}.",
+          "extra": "Cách cho uống: Dùng thìa nhỏ cho uống từng thìa một chậm rãi, không ép trẻ uống ừng ực một hơi."
+        },
+        {
+          "type": "cloze",
+          "text": "Liều lượng ORS áp lực thẩm thấu thấp cho trẻ từ 2 đến 10 tuổi uống sau mỗi lần đi ngoài phân lỏng trong Phác đồ A là {{c1::100 đến 200 ml}}.",
+          "extra": "Lưu ý: Trẻ từ 10 tuổi trở lên cho uống từng ngụm theo nhu cầu khát cho đến khi hết cảm giác khát."
+        },
+        {
+          "type": "cloze",
+          "text": "Pha gói ORS vào lượng nước {{c1::ít hơn hướng dẫn (pha quá đặc)}} sẽ biến ORS thành dung dịch ưu trương, gây nguy cơ {{c1::tăng Natri máu cấp tính}} và xuất huyết não.",
+          "extra": "Bẫy lâm sàng: Dặn kỹ người nhà đong đúng thể tích nước bằng bình có chia vạch ml; không bao giờ chia nhỏ gói bột khô để pha từng cốc nhỏ."
+        },
+        {
+          "type": "cloze",
+          "text": "Dung dịch ORS sau khi đã pha với nước sạch chỉ được bảo quản và sử dụng tối đa trong vòng {{c1::24 giờ}}; sau 24 giờ bắt buộc phải đổ bỏ pha gói mới.",
+          "extra": "Lý do: ORS chứa glucose và nước là môi trường thuận lợi cho vi khuẩn nhân lên nếu để quá 24 giờ ở nhiệt độ phòng."
+        },
+        {
+          "type": "cloze",
+          "text": "Liều bổ sung Kẽm (Zinc) nguyên tố trong điều trị tiêu chảy cấp cho trẻ dưới 6 tháng tuổi là {{c1::10 mg/ngày}} dùng liên tục trong {{c1::10 đến 14 ngày}}.",
+          "extra": "Cơ chế: Kẽm kích thích phân chia tế bào niêm mạc ruột, phục hồi nhung mao ruột và giảm tính thấm tế bào biểu mô."
+        },
+        {
+          "type": "cloze",
+          "text": "Liều bổ sung Kẽm (Zinc) nguyên tố trong điều trị tiêu chảy cấp cho trẻ từ 6 tháng tuổi trở lên là {{c1::20 mg/ngày}} dùng liên tục trong {{c1::10 đến 14 ngày}}.",
+          "extra": "Thời điểm uống: Cho trẻ uống sau bữa ăn sáng hoặc trưa từ 30–60 phút để giảm thiểu cảm giác kích ứng dạ dày buồn nôn."
+        },
+        {
+          "type": "cloze",
+          "text": "Bổ sung Kẽm đủ 10–14 ngày giúp rút ngắn thời gian tiêu chảy trung bình khoảng 11–24 giờ và giảm {{c1::30%}} nguy cơ tái phát tiêu chảy trong vòng {{c1::3 tháng}} tiếp theo.",
+          "extra": "Theo bằng chứng Cochrane Lazzerini 2016 (PMID: 27996088), hiệu quả phục hồi rõ rệt nhất ở trẻ từ 6 tháng tuổi trở lên."
+        },
+        {
+          "type": "cloze",
+          "text": "Phác đồ B được chỉ định cho trẻ tiêu chảy cấp được phân loại {{c1::Có mất nước}}, thực hiện bù nước bằng đường uống tại cơ sở y tế trong thời gian {{c1::4 giờ}} đầu.",
+          "extra": "Vị trí: Thực hiện tại phòng khám, trạm y tế hoặc buồng lưu bệnh viện dưới sự giám sát của nhân viên y tế."
+        },
+        {
+          "type": "cloze",
+          "text": "Thể tích dung dịch ORS áp lực thẩm thấu thấp cần cho trẻ uống trong 4 giờ đầu của Phác đồ B được tính theo công thức: {{c1::Cân nặng (kg) × 75 ml}}.",
+          "extra": "Ví dụ: Trẻ nặng 8 kg cần uống 8 × 75 = 600 ml ORS chia đều uống trong 4 giờ (trung bình 150 ml mỗi giờ)."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong Phác đồ B, kỹ thuật cho uống ORS là dùng thìa nhỏ hoặc cốc nhỏ cho uống từng thìa một, tần suất cứ {{c1::1 đến 2 phút}} cho uống một thìa.",
+          "extra": "Ý nghĩa: Uống chậm rãi từng thìa giúp dung dịch hấp thu tối ưu qua SGLT-1 và tránh làm căng giãn dạ dày đột ngột gây phản xạ nôn."
+        },
+        {
+          "type": "cloze",
+          "text": "Nếu trẻ đang uống ORS theo Phác đồ B bị nôn ói, xử trí chuẩn xác là {{c1::tạm dừng cho uống trong 10 phút}}, sau đó cho uống lại chậm hơn với tần suất {{c1::2 đến 3 phút một thìa}}.",
+          "extra": "Cơ chế: Dừng 10 phút giúp dạ dày nghỉ ngơi giảm co bóp. Khi toan máu và mất nước giảm dần bằng ORS, nôn trớ sẽ tự thoái lui."
+        },
+        {
+          "type": "cloze",
+          "text": "Thời điểm bắt buộc phải khám và đánh giá lại toàn diện 4 dấu hiệu mất nước ở trẻ thực hiện Phác đồ B là sau {{c1::4 giờ}} bù dịch.",
+          "extra": "Kịch bản: Hết mất nước → Phác đồ A; Vẫn còn mất nước → Lặp lại Phác đồ B thêm 4 giờ; Mất nước nặng hơn → Chuyển ngay Phác đồ C."
+        },
+        {
+          "type": "cloze",
+          "text": "Thất bại bù nước đường uống trong Phác đồ B khi trẻ nôn liên tục (≥ 3 lần/giờ) hoặc lượng phân bài xuất quá lớn, chỉ định đặt {{c1::ống thông dạ dày (Sonde dạ dày)}} nhỏ giọt ORS tốc độ {{c1::20 ml/kg/giờ}}.",
+          "extra": "Nếu đặt sonde dạ dày vẫn nôn hoặc xuất hiện trướng bụng liệt ruột, chuyển ngay sang truyền tĩnh mạch."
+        },
+        {
+          "type": "cloze",
+          "text": "Phác đồ C là phác đồ hồi sức dịch truyền tĩnh mạch cấp cứu khẩn cấp dành cho trẻ được chẩn đoán {{c1::Mất nước nặng}} hoặc có biểu hiện {{c1::Sốc giảm thể tích}}.",
+          "extra": "Tình trạng đe dọa trực tiếp tính mạng, cần thiết lập đường truyền tĩnh mạch kim to ngay lập tức."
+        },
+        {
+          "type": "cloze",
+          "text": "Dung dịch truyền tĩnh mạch ưu tiên lựa chọn hàng đầu số 1 trong Phác đồ C là {{c1::Ringer Lactat (Hartmann's Solution)}}.",
+          "extra": "Lý do: Ringer Lactat có thành phần điện giải cân bằng và chứa Lactat chuyển hóa tại gan thành Bicarbonat giúp hồi phục toan chuyển hóa."
+        },
+        {
+          "type": "cloze",
+          "text": "Dung dịch tinh thể thay thế trong Phác đồ C khi cơ sở y tế không có sẵn Ringer Lactat là {{c1::Natri Clorid 0.9% (Normal Saline)}}.",
+          "extra": "Lưu ý: Tuyệt đối không dùng dung dịch Glucose đơn thuần vì gây hạ Natri máu cấp tính và phù não."
+        },
+        {
+          "type": "cloze",
+          "text": "Tổng thể tích dịch truyền tĩnh mạch cho một đợt hồi sức mất nước nặng theo Phác đồ C luôn là {{c1::100 ml/kg}}.",
+          "extra": "Tổng thể tích này được chia làm 2 bước (30 ml/kg rồi 70 ml/kg) với thời gian khác biệt theo lứa tuổi."
+        },
+        {
+          "type": "cloze",
+          "text": "Ở trẻ từ 12 tháng tuổi trở lên (≥ 1 tuổi), tổng thời gian truyền dịch Phác đồ C là {{c1::3 giờ}}; trong khi ở trẻ dưới 12 tháng tuổi (< 1 tuổi) là {{c1::6 giờ}}.",
+          "extra": "Cơ chế: Trẻ dưới 12 tháng có cơ tim và chức năng lọc cầu thận chưa thích nghi tải dịch nhanh, cần truyền trong 6 giờ để phòng ngừa phù phổi cấp."
+        },
+        {
+          "type": "cloze",
+          "text": "Phác đồ C Bước 1 cho trẻ từ 12 tháng tuổi trở lên (≥ 1 tuổi): Truyền tĩnh mạch Ringer Lactat liều {{c1::30 ml/kg}} trong vòng {{c1::30 phút}} đầu tiên.",
+          "extra": "Hành động: Mở khóa xả tối đa dòng dịch truyền tĩnh mạch để hồi sức khẩn cấp chống sốc giảm thể tích."
+        },
+        {
+          "type": "cloze",
+          "text": "Phác đồ C Bước 2 cho trẻ từ 12 tháng tuổi trở lên (≥ 1 tuổi): Truyền tĩnh mạch Ringer Lactat liều {{c1::70 ml/kg}} trong vòng {{c1::2.5 giờ (150 phút)}} tiếp theo.",
+          "extra": "Đánh giá: Chuyển sang Bước 2 khi mạch quay bắt rõ, huyết áp cải thiện sau khi hoàn thành Bước 1."
+        },
+        {
+          "type": "cloze",
+          "text": "Phác đồ C Bước 1 cho trẻ dưới 12 tháng tuổi (< 1 tuổi): Truyền tĩnh mạch Ringer Lactat liều {{c1::30 ml/kg}} trong vòng {{c1::1 giờ (60 phút)}} đầu tiên.",
+          "extra": "Lưu ý: Truyền chậm hơn so với trẻ lớn để tránh quá tải tâm thất ở trẻ nhũ nhi nhỏ."
+        },
+        {
+          "type": "cloze",
+          "text": "Phác đồ C Bước 2 cho trẻ dưới 12 tháng tuổi (< 1 tuổi): Truyền tĩnh mạch Ringer Lactat liều {{c1::70 ml/kg}} trong vòng {{c1::5 giờ}} tiếp theo.",
+          "extra": "Tổng thời gian Bước 1 + Bước 2 ở trẻ nhũ nhi là 1 giờ + 5 giờ = 6 giờ đủ 100 ml/kg."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong quá trình truyền dịch Phác đồ C, nhân viên y tế phải đánh giá lại mạch, huyết áp, tri giác và nhịp thở của trẻ mỗi {{c1::15 đến 30 phút}}.",
+          "extra": "Hành động: Nếu sau liều 30 ml/kg đầu tiên mạch quay vẫn rất yếu hoặc chưa bắt được, lặp lại ngay một liều 30 ml/kg với tốc độ tương tự."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong Phác đồ C, ngay khi trẻ tỉnh táo lại và có thể nuốt được, bắt đầu cho trẻ uống ORS với liều nhỏ khoảng {{c1::5 ml/kg/giờ}} song song với đường truyền tĩnh mạch.",
+          "extra": "Lợi ích: Cung cấp thêm Kali, Bicarbonat và đường mà dịch Ringer Lactat chưa đủ, kích thích tuần hoàn ruột hồi phục sớm."
+        },
+        {
+          "type": "cloze",
+          "text": "Các thuốc làm giảm nhu động ruột như {{c1::Loperamide (Imodium)}} tuyệt đối {{c1::chống chỉ định}} ở trẻ em vì gây ứ đọng độc tố, liệt ruột cơ năng, hoại tử ruột và ức chế hô hấp.",
+          "extra": "Cảnh báo an toàn: Bác sĩ tuyệt đối không bao giờ kê Loperamide hay Diphenoxylate cho bệnh nhi tiêu chảy cấp."
+        },
+        {
+          "type": "cloze",
+          "text": "Kháng sinh đường uống đầu tay được khuyến cáo trong điều trị Hội chứng lỵ do vi khuẩn Shigella ở trẻ em là {{c1::Ciprofloxacin (15 mg/kg × 2 lần/ngày trong 3 ngày)}} hoặc {{c1::Azithromycin}}.",
+          "extra": "Lưu ý: Tiêu chảy phân nước không có nhầy máu do virus thì tuyệt đối không dùng kháng sinh."
+        },
+        {
+          "type": "cloze",
+          "text": "Dấu hiệu lâm sàng đặc trưng của mất nước tăng Natri máu (Hypernatremia) là sờ da thấy có cảm giác {{c1::\"nhào bột\" (doughy)}}, trẻ kích thích quấy khóc khát nước dữ dội và có thể có {{c1::co giật}}.",
+          "extra": "Xử trí: Hạ Natri từ từ bằng dịch truyền trong 48 giờ, tốc độ hạ không quá 0.5 mmol/L/giờ để tránh phù não hồi ứng."
+        },
+        {
+          "type": "cloze",
+          "text": "Biến chứng hạ Kali máu trong tiêu chảy cấp gây biểu hiện lâm sàng gồm yếu cơ toàn thân, giảm phản xạ gân xương và {{c1::trướng bụng liệt ruột cơ năng}}.",
+          "extra": "Điện tâm đồ: Sóng T dẹt, xuất hiện sóng U, đoạn ST chênh xuống và có nguy cơ loạn nhịp thất."
+        },
+        {
+          "type": "cloze",
+          "text": "Chỉ được pha Kali Clorid (KCl) vào chai dịch truyền tĩnh mạch sau khi trẻ đã {{c1::có nước tiểu (chứng tỏ thận đã được tưới máu)}}, và nồng độ KCl không được vượt quá {{c1::40 mmol/L (0.3%)}}.",
+          "extra": "An toàn dược lý: Pha Kali khi trẻ đang vô niệu do suy thận cấp trước thận sẽ gây tăng Kali máu cấp tính ngừng tim tử vong."
+        },
+        {
+          "type": "cloze",
+          "text": "Dấu hiệu lâm sàng vàng xác nhận tưới máu thận đã phục hồi sau hồi sức bù dịch là trẻ {{c1::đi tiểu tiện trở lại}} trong vòng {{c1::4 đến 6 giờ}}.",
+          "extra": "Ý nghĩa: Thận được tưới máu sẽ tự đào thải acid lactic và giữ lại Bicarbonat giúp điều chỉnh toan chuyển hóa tự nhiên."
+        },
+        {
+          "type": "cloze",
+          "text": "Ở trẻ bú sữa công thức bị tiêu chảy cấp, nguyên tắc dinh dưỡng chuẩn mực là {{c1::tiếp tục cho ăn sữa công thức bình thường}}, tuyệt đối {{c1::không pha loãng sữa}}.",
+          "extra": "Lý do: Pha loãng sữa làm sụt giảm đậm độ năng lượng gây đói, hạ đường huyết và kéo dài thời gian hồi phục nhung mao ruột."
+        },
+        {
+          "type": "cloze",
+          "text": "Hai chủng men vi sinh (Probiotics) có bằng chứng lâm sàng mức độ cao nhất theo khuyến cáo ESPGHAN giúp hỗ trợ giảm thời gian tiêu chảy là {{c1::Lactobacillus rhamnosus GG (LGG)}} và {{c1::Saccharomyces boulardii}}.",
+          "extra": "Lưu ý: Men vi sinh chỉ mang tính chất hỗ trợ thứ yếu, tuyệt đối không được thay thế vai trò cứu mạng của ORS và Kẽm."
+        },
+        {
+          "type": "cloze",
+          "text": "Tác nhân virus thường gây các đợt dịch tiêu chảy bùng phát tại nhà trẻ và trường học với triệu chứng nổi bật là nôn mửa dữ dội trong 24–48 giờ đầu là {{c1::Norovirus}}.",
+          "extra": "Dịch tễ học: Norovirus lây truyền cực mạnh qua đường phân - miệng và khí dung giọt bắn từ chất nôn của bệnh nhân."
+        },
+        {
+          "type": "cloze",
+          "text": "Vi khuẩn gây tiêu chảy lây qua thịt gia cầm hoặc sữa chưa tiệt trùng, gây đau quặn bụng dữ dội dễ nhầm với viêm ruột thừa cấp là {{c1::Campylobacter jejuni}}.",
+          "extra": "Lâm sàng: Campylobacter có thể gây hội chứng giả viêm ruột thừa (Pseudoappendicitis) và phân lỏng có lẫn máu đại thể."
+        },
+        {
+          "type": "cloze",
+          "text": "Chủng vi khuẩn E. coli sinh độc tố Shiga gây viêm đại tràng xuất huyết và có nguy cơ biến chứng Hội chứng tán huyết urê huyết cao (HUS) là {{c1::EHEC / STEC (Enterohemorrhagic E. coli)}}.",
+          "extra": "Cảnh báo an toàn: Tuyệt đối tránh dùng kháng sinh trong nhiễm EHEC vì kháng sinh kích thích vi khuẩn giải phóng ồ ạt độc tố Shiga làm tăng nguy cơ suy thận cấp do HUS."
+        },
+        {
+          "type": "cloze",
+          "text": "Tác nhân vi khuẩn tiết độc tố Choleragen gây tiêu chảy xối xả liên tục với đặc điểm phân màu {{c1::nước vo gạo}} có thể gây sốc tử vong sau vài giờ là {{c1::Vibrio cholerae (Phẩy khuẩn tả)}}.",
+          "extra": "Sinh lý bệnh: Độc tố Choleragen hoạt hóa không hồi phục men Adenylate cyclase, gây bài tiết ồ ạt dịch qua kênh CFTR."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong cơ chế tiêu chảy xuất tiết của dịch tả và ETEC, độc tố ruột thực hiện phản ứng {{c1::ADP-ribosyl hóa protein Gs}}, dẫn đến kích hoạt liên tục enzyme {{c1::Adenylate cyclase}} nội bào.",
+          "extra": "Cơ chế: Sự kích hoạt liên tục làm cAMP tăng vọt, mở toang kênh CFTR tại màng đỉnh tế bào biểu mô ruột bài xuất Cl⁻."
+        },
+        {
+          "type": "cloze",
+          "text": "Bơm duy trì gradien nồng độ Natri hướng tâm tại màng đáy bên tế bào ruột (tạo động lực cho SGLT-1) là bơm {{c1::Na⁺/K⁺-ATPase}}, bơm {{c1::3 ion Na⁺ ra ngoài}} và hút 2 ion K⁺ vào trong.",
+          "extra": "Cơ chế: Nồng độ Na⁺ nội bào luôn duy trì ở mức thấp, giúp ion Na⁺ trong lòng ruột thuận lợi kéo Glucose qua protein SGLT-1 vào tế bào."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong mất nước cấp tính do tiêu chảy, khoảng {{c1::80%}} thể tích dịch mất bắt nguồn từ khoang {{c1::ngoại bào và nội mạch}}.",
+          "extra": "Cơ chế: Thâm hụt cấp khoang ngoại bào làm suy sụp nhanh chóng hồi lưu tĩnh mạch và huyết áp, nhanh chóng đẩy trẻ vào sốc giảm thể tích."
+        },
+        {
+          "type": "cloze",
+          "text": "Dịch phân tiêu chảy cấp chứa nồng độ Bicarbonat rất cao từ {{c1::30 đến 50 mmol/L}}, là nguyên nhân chính dẫn đến biến chứng {{c1::toan chuyển hóa (Metabolic Acidosis)}}.",
+          "extra": "Cơ chế: Mất kiềm qua phân kết hợp ứ acid lactic do sốc giảm tưới máu gây toan chuyển hóa nặng với khoảng trống anion gap tăng."
+        },
+        {
+          "type": "cloze",
+          "text": "Kiểu thở đặc trưng của trẻ bị toan chuyển hóa nặng trong tiêu chảy cấp là thở nhanh sâu không co kéo, được gọi là kiểu thở {{c1::Kussmaul}}.",
+          "extra": "Cơ chế: Trung tâm hô hấp bị kích thích bởi toan máu, tăng cường thở nhanh sâu để đào thải CO₂ tối đa nhằm nâng pH máu trở lại."
+        },
+        {
+          "type": "cloze",
+          "text": "Công thức tính tốc độ nhỏ giọt dịch truyền tĩnh mạch (dây truyền chuẩn 1 ml = 20 giọt): Số giọt/phút = {{c1::(Thể tích ml × 20) / Số phút truyền}}.",
+          "extra": "Ví dụ: Cần truyền 300 ml trong 30 phút → Số giọt/phút = (300 × 20) / 30 = 200 giọt/phút (mở khóa xả tối đa dòng dịch truyền)."
+        },
+        {
+          "type": "cloze",
+          "text": "Thất bại bù nước đường uống trong Phác đồ B được xác định khi trẻ nôn liên tục từ {{c1::3 lần trở lên trong 1 giờ}} hoặc tốc độ bài xuất phân vượt quá {{c1::15 đến 20 ml/kg/giờ}}.",
+          "extra": "Xử trí: Đặt ống thông dạ dày nhỏ giọt ORS 20 ml/kg/giờ hoặc chuyển ngay sang đường truyền tĩnh mạch."
+        },
+        {
+          "type": "cloze",
+          "text": "Tốc độ hạ Natri máu an toàn trong điều trị mất nước tăng Natri máu ($Na^+ > 150\text{ mmol/L}$) tuyệt đối không được vượt quá {{c1::0.5 mmol/L/giờ}} trong vòng {{c1::48 giờ}}.",
+          "extra": "Cảnh báo: Hạ Natri quá nhanh làm nước tự do ùa vào các tế bào não đang tăng áp lực thẩm thấu, gây phù não cấp tính và tử vong."
+        },
+        {
+          "type": "cloze",
+          "text": "Xử trí cấp cứu khi trẻ tiêu chảy cấp có co giật do hạ Natri máu nặng ($Na^+ < 120\text{ mmol/L}$) là truyền tĩnh mạch dung dịch {{c1::Natri Clorid 3%}} liều {{c1::3 đến 5 ml/kg}} trong 15–30 phút.",
+          "extra": "Mục tiêu: Nâng nhanh Natri máu lên thêm 3–5 mmol/L để chấm dứt cơn co giật do phù não cấp."
+        },
+        {
+          "type": "cloze",
+          "text": "Chỉ định bù Natri Bicarbonat đường tĩnh mạch trong tiêu chảy cấp chỉ đặt ra khi đã bù đủ dịch mà xét nghiệm khí máu có {{c1::pH < 7.1}} hoặc {{c1::HCO₃⁻ < 10 mmol/L}}.",
+          "extra": "Cơ chế: Khi tưới máu thận được phục hồi bằng Ringer Lactat, thận sẽ tự đào thải acid và tổng hợp kiềm điều chỉnh toan chuyển hóa."
+        },
+        {
+          "type": "cloze",
+          "text": "Liều lượng kháng sinh Ciprofloxacin đường uống điều trị Hội chứng lỵ ở trẻ em là {{c1::15 mg/kg × 2 lần/ngày}} dùng trong {{c1::3 ngày}}.",
+          "extra": "Lựa chọn thay thế: Azithromycin 10–12 mg/kg/ngày uống 1 lần/ngày trong 3 đến 5 ngày."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong trường hợp nghi ngờ bệnh Tả có mất nước nặng, kháng sinh được khuyến cáo là {{c1::Azithromycin}} liều duy nhất {{c1::20 mg/kg}} hoặc Ciprofloxacin liều duy nhất.",
+          "extra": "Tác dụng: Kháng sinh giúp tiêu diệt phẩy khuẩn tả, rút ngắn 50% thời gian tiêu chảy và giảm thể tích dịch mất."
+        },
+        {
+          "type": "cloze",
+          "text": "Thuốc điều trị đặc hiệu cho trẻ tiêu chảy cấp do nhiễm ký sinh trùng Giardia lamblia hoặc Entamoeba histolytica là {{c1::Metronidazole}} liều {{c1::30 đến 40 mg/kg/ngày}} chia 3 lần.",
+          "extra": "Thời gian dùng: Uống liên tục trong 5 đến 7 ngày đối với Giardia hoặc 7 đến 10 ngày đối với Amip."
+        },
+        {
+          "type": "cloze",
+          "text": "Thuốc ức chế men enkephalinase ngoại biên tại ruột non, giúp giảm tiết dịch mà không gây liệt ruột hay ảnh hưởng nhu động là {{c1::Racecadotril}}.",
+          "extra": "Chỉ định: Có thể dùng phối hợp với ORS trong tiêu chảy phân nước ở trẻ từ 3 tháng tuổi trở lên để giảm lượng phân."
+        },
+        {
+          "type": "cloze",
+          "text": "Thuốc chống nôn trung ương tác động thụ thể Dopaminergic như {{c1::Metoclopramide}} chống chỉ định ở trẻ nhỏ vì nguy cơ cao gây {{c1::hội chứng ngoại tháp (cơn quay mắt, co cứng cổ)}}.",
+          "extra": "An toàn: Trong tiêu chảy cấp, nôn trớ sẽ tự thoái lui khi bù đủ ORS; không cần dùng thuốc chống nôn trung ương độc hại."
+        },
+        {
+          "type": "cloze",
+          "text": "Chăm sóc phòng ngừa viêm loét da quanh hậu môn do phân tiêu chảy acid: rửa sạch bằng nước ấm, thấm khô và bôi một lớp bảo vệ bằng {{c1::mỡ Oxyd kẽm}} hoặc {{c1::Dexpanthenol}}.",
+          "extra": "Ý nghĩa: Tạo hàng rào lipid ngăn cách da với acid và enzyme tiêu hóa trong phân, giúp trẻ không bị đau rát khi đi tiêu."
+        },
+        {
+          "type": "cloze",
+          "text": "Dung dịch bù nước đường uống đặc biệt được thiết kế cho trẻ suy dinh dưỡng nặng bị tiêu chảy cấp có hàm lượng Natri thấp hơn và Kali cao hơn là {{c1::ReSoMal (Rehydration Solution for Malnutrition)}}.",
+          "extra": "Cơ chế: Trẻ suy dinh dưỡng nặng có thừa Natri nội bào và thiếu Kali nặng, nếu dùng ORS thông thường dễ gây quá tải tim."
+        },
+        {
+          "type": "cloze",
+          "text": "Một trong những tiêu chuẩn an toàn để cho trẻ tiêu chảy cấp xuất viện là trẻ dung nạp tốt đường uống và hoàn toàn không nôn ói trong suốt {{c1::6 đến 8 giờ}} theo dõi.",
+          "extra": "Tiêu chuẩn phối hợp: Trẻ hết dấu hiệu mất nước, đi tiểu tiện bình thường, phân bắt đầu sệt lại và người nhà cam kết thực hiện Phác đồ A."
+        },
+        {
+          "type": "cloze",
+          "text": "Dấu hiệu cảnh báo đỏ về tốc độ mất nước qua phân cần nhập viện khẩn cấp là khi trẻ đi ngoài phân nước ồ ạt với tốc độ vượt quá {{c1::15 đến 20 ml/kg/giờ}}.",
+          "extra": "Lý do: Tốc độ mất nước quá nhanh vượt quá năng lực bù dịch bằng đường uống thông thường, trẻ sẽ nhanh chóng rơi vào sốc giảm thể tích."
+        },
+        {
+          "type": "cloze",
+          "text": "Trẻ tiêu chảy cấp dưới {{c1::2 tháng tuổi}} được xếp vào nhóm nguy cơ cao đe dọa tính mạng, bắt buộc phải {{c1::nhập viện điều trị nội trú}}.",
+          "extra": "Lý do: Trẻ sơ sinh và nhũ nhi nhỏ có nguy cơ cao vãng khuẩn huyết, hạ thân nhiệt, hạ đường huyết và mất nước diễn tiến tối cấp."
+        },
+        {
+          "type": "cloze",
+          "text": "Cho trẻ tiêu chảy uống các loại nước ngọt đóng chai, nước có ga có áp lực thẩm thấu cao (500–700 mOsm/L) sẽ làm tăng áp lực thẩm thấu trong lòng ruột, gây bùng phát {{c1::tiêu chảy thẩm thấu}} nặng hơn.",
+          "extra": "Bẫy lâm sàng: Nước ngọt nhiều đường đơn hút nước ngược từ lòng mạch vào ruột, làm Natri máu tiếp tục tụt và trẻ mất nước trầm trọng hơn."
+        },
+        {
+          "type": "cloze",
+          "text": "Chế độ ăn cho trẻ tiêu chảy đã ăn dặm: nên bổ sung thêm {{c1::1 thìa dầu hoặc mỡ thực vật}} vào mỗi bát cháo để đảm bảo {{c1::mật độ năng lượng}} cho trẻ.",
+          "extra": "Nguyên tắc dinh dưỡng: Bổ sung dầu mỡ giúp cháo mềm dễ nuốt, tăng cung cấp calo và hỗ trợ hấp thu các vitamin tan trong dầu (A, D, E, K)."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong Case 1 (trẻ 9 tháng tuổi, nặng 8.5 kg, không mất nước), liều ORS 245 mOsm/L uống sau mỗi lần đi ngoài là {{c1::50 đến 100 ml}} và liều Kẽm là {{c1::20 mg/ngày trong 14 ngày}}.",
+          "extra": "Ứng dụng: Phác đồ A tại nhà, tiếp tục bú mẹ và ăn cháo dinh dưỡng chia nhỏ 5–6 bữa."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong Case 2 (trẻ 20 tháng tuổi, nặng 11 kg, có mất nước), tổng thể tích ORS cần uống trong 4 giờ đầu theo Phác đồ B là {{c1::825 ml}} (11 kg × 75 ml/kg).",
+          "extra": "Kỹ thuật: Cho uống chậm rãi từng thìa mỗi 1–2 phút, trung bình uống khoảng 200 ml mỗi giờ."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong Case 3 (trẻ 14 tháng tuổi, nặng 10 kg, mất nước nặng dọa sốc), tổng thể tích dịch Ringer Lactat Phác đồ C cần truyền là {{c1::1000 ml}} trong tổng thời gian {{c1::3 giờ}}.",
+          "extra": "Vì trẻ 14 tháng (≥ 12 tháng), truyền 100 ml/kg trong 3 giờ (Bước 1: 300 ml/30 phút; Bước 2: 700 ml/2.5 giờ)."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong Case 3 (trẻ 14 tháng, 10 kg, Phác đồ C), thể tích và thời gian của Bước 1 hồi sức khẩn cấp là truyền tĩnh mạch {{c1::300 ml}} Ringer Lactat trong vòng {{c1::30 phút}}.",
+          "extra": "Tốc độ xả dịch: 200 giọt/phút, mở khóa tối đa để nhanh chóng phục hồi thể tích tuần hoàn chống sốc."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong Case 3 (trẻ 14 tháng, 10 kg, Phác đồ C), thể tích và thời gian của Bước 2 bù dịch duy trì là truyền tĩnh mạch {{c1::700 ml}} Ringer Lactat trong vòng {{c1::2.5 giờ (150 phút)}}.",
+          "extra": "Tốc độ truyền: 93 giọt/phút, đánh giá lại mạch và tri giác thường xuyên trong suốt quá trình truyền."
+        },
+        {
+          "type": "cloze",
+          "text": "Chỉ số xét nghiệm sinh hóa máu giúp phân biệt suy thận cấp trước thận do mất nước với hoại tử ống thận cấp tại thận là tỷ lệ {{c1::BUN / Creatinin > 20}} (hoặc Urê máu tăng ưu thế so với Creatinin).",
+          "extra": "Ý nghĩa: Suy thận cấp trước thận sẽ hồi phục hoàn toàn sau khi được bù đủ dịch hoàn nguyên thể tích tuần hoàn."
+        },
+        {
+          "type": "cloze",
+          "text": "Trong trường hợp thất bại thiết lập đường truyền tĩnh mạch ngoại vi sau {{c1::90 giây (hoặc sau 3 lần chọc)}} ở trẻ sốc mất nước nặng, chỉ định cấp cứu tiếp theo là đặt {{c1::kim truyền trong xương (Intraosseous Needle)}}.",
+          "extra": "Vị trí đặt kim trong xương: Mặt trước trong đầu trên xương chày (dưới lồi củ chày 1–2 cm), cho phép truyền dịch và thuốc cấp cứu tương đương tĩnh mạch trung tâm."
+        },
+        {
+          "type": "cloze",
+          "text": "Trẻ tiêu chảy cấp có sốt cao co giật cần phân biệt co giật do sốt lành tính với co giật do biến chứng {{c1::hạ Natri máu cấp tính}} hoặc {{c1::hạ đường huyết}}.",
+          "extra": "Hành động: Bắt buộc thử ngay đường huyết mao mạch tại giường và làm xét nghiệm điện giải đồ khẩn."
+        },
+        {
+          "type": "cloze",
+          "text": "Dung dịch Ringer Lactat chứa nồng độ Lactat là {{c1::28 mmol/L}}, khi truyền vào cơ thể sẽ được {{c1::gan chuyển hóa thành Bicarbonat}} giúp hồi phục toan chuyển hóa.",
+          "extra": "Ưu thế: Tốt hơn nhiều so với Natri Clorid 0.9% vốn có thể gây toan chuyển hóa tăng Clo máu nếu truyền khối lượng lớn."
+        },
+        {
+          "type": "cloze",
+          "text": "Đối với trẻ tiêu chảy cấp còn bú mẹ bị bất dung nạp đường lactose thứ phát thoáng qua, khuyến cáo chuẩn mực là {{c1::tiếp tục cho bú mẹ hoàn toàn}}, không được ngừng bú mẹ.",
+          "extra": "Lý do: Kháng thể và yếu tố tăng trưởng biểu mô trong sữa mẹ thúc đẩy tế bào ruột tái tạo enzyme lactase nhanh hơn nhiều so với ngừng bú."
+        }
+      ],
+      "apkg_file": "PED-27_Tieu_chay_cap_Phan_loai_mat_nuoc_va_Phac_do_A_B_C_2026-09-16_RELEASE_v1.apkg",
+      "html_file": null,
+      "folder_rel": "04_Tieu_hoa_va_Dinh_duong/PED-27_Tieu_chay_cap_Phan_loai_mat_nuoc_va_Phac_do_A_B_C"
+    },
+    {
       "id": "PED-46",
       "priority": "P0",
       "title": "Tiếp cận gan to ở trẻ em (Hepatomegaly)",
@@ -6964,6 +8092,868 @@ window.PED_LIBRARY_DATA = {
       "apkg_file": "PED-46_Tiep_can_gan_to_MASTER_v1.apkg",
       "html_file": null,
       "folder_rel": "04_Tieu_hoa_va_Dinh_duong/PED-46_Tiep_can_gan_to"
+    },
+    {
+      "id": "PED-35",
+      "priority": "P0",
+      "title": "Bệnh Tay Chân Miệng: Phân độ & Xử trí theo độ",
+      "block": "Block 5 — Bệnh Truyền nhiễm Nhi khoa",
+      "scope": "Phân độ lâm sàng 1, 2a, 2b (nhóm 1 vs nhóm 2), 3, 4 theo Bộ Y tế; nhận diện dấu hiệu thần kinh sớm (**giật mình chới với lúc thiu thiu ngủ**); chỉ định IVIG, Phenobarbital và Milrinone.",
+      "dependency": "PED-01, 03",
+      "curriculum_status": "✅ GATES ĐẠT (MD + APKG 84 thẻ)",
+      "has_ped": true,
+      "has_pedytb": false,
+      "has_cards": true,
+      "ped_file": "PED-35_Benh_Tay_Chan_Mieng_2026-09-16_RELEASE_v1.md",
+      "ped_content": "# PED-35: BỆNH TAY CHÂN MIỆNG Ở TRẺ EM (HFMD)\n## Phân Tầng Lâm Sàng, Nhận Diện Biến Chứng Thần Kinh Sớm & Xử Trí Cấp Cứu Theo Y Văn Thực Chứng Quốc Tế & Đồng Thuận Bộ Y Tế\n\n> **Chuyên khoa:** Bệnh Truyền nhiễm Nhi khoa - Cấp cứu & Hồi sức Tích cực Nhi\n(Pediatric Infectious Diseases & Critical Care)\n> **Mã bài học:** PED-35 (Curriculum Nhi khoa Lâm sàng Toàn diện - Block 5: Bệnh\nTruyền nhiễm Nhi khoa)\n> **Đối tượng:** Bác sĩ Nội trú Nhi, Bác sĩ Cấp cứu, Bác sĩ Nhi tổng quát, Học\nviên Sau đại học\n> **Phiên bản:** 2026-09-16_RELEASE_v1\n> **Tiêu chuẩn kiểm định:** Evidence-Based Medicine (EBM) - 9 Verified Europe\nPMC PMIDs - 16 Offline Release Gates\n\n---\n\n## 0. TỔNG QUAN VÀ ĐÍCH ĐẾN HỌC TẬP (FOUNDATION PRIMER)\n\n### 0.1 Nền tảng tối thiểu cần dùng ngay\nBệnh Tay - Chân - Miệng (Hand, Foot, and Mouth Disease - HFMD) là một bệnh nhiễm\nvirus cấp tính lưu hành phổ biến ở trẻ em dưới 5 tuổi.\nĐặc biệt ở lứa tuổi nhũ nhi dưới 3 tuổi, bệnh có nguy cơ diễn tiến thành các\nbiến chứng thần kinh và tim mạch tối nguy kịch.\nHai tác nhân gây bệnh kinh điển nhất là Coxsackievirus A16 (CVA16) và\nEnterovirus 71 (EV71).\nTrong khi CVA16 hầu hết gây ra các đợt bệnh nhẹ, lành tính và tự giới hạn trong\n7 đến 10 ngày, EV71 lại là tác nhân hướng thần kinh nguy hiểm hàng đầu.\nEV71 có khả năng di chuyển ngược dòng sợi trục thần kinh xâm nhập vào thân não,\ngây viêm thân não (rhombencephalitis).\nTổn thương các nhân vận mạch tại thân não kích hoạt giải phóng lượng ồ ạt\ncatecholamine vào máu, gây co mạch toàn thân kịch phát.\nTình trạng tăng hậu gánh thất trái cấp tính kết hợp với tổn thương cơ tim trực\ntiếp dẫn tới suy bơm tim cấp và phù phổi thần kinh tối cấp.\nBệnh nhân có thể tử vong nhanh chóng chỉ trong vòng vài giờ nếu người thầy thuốc\nkhông nhận diện sớm các dấu hiệu cảnh báo đỏ.\nTại phòng cấp cứu, người bác sĩ cần ghi nhớ 5 hành động phản xạ không điều kiện\nkhi tiếp nhận trẻ nghi ngờ tay chân miệng:\nThứ nhất là đánh giá sinh hiệu, đếm nhịp thở trọn vẹn trong 1 phút, bắt mạch\nquay mạch bẹn, đo CRT và đo huyết áp đúng chuẩn lứa tuổi.\nCần phát hiện sớm tình trạng tăng huyết áp kịch phát do bão catecholamine ở giai\nđoạn sớm trước khi huyết áp tụt dốc ở giai đoạn sốc muộn.\nThứ hai là chủ động hỏi kỹ và tìm kiếm triệu chứng giật mình chới với lúc trẻ\nbắt đầu thiu thiu ngủ hoặc trong giấc ngủ chập chờn.\nThứ ba là thăm khám kỹ lưỡng niêm mạc miệng, vòm họng và các vùng da kín đáo ở\nlòng bàn tay, lòng bàn chân, vùng gối và mông.\nThứ tư là bấm đường huyết mao mạch tại giường ngay lập tức, vì tăng đường huyết\nphản ứng là chỉ dấu gián tiếp của bão catecholamine.\nThứ năm là phân loại ngay bệnh nhi vào đúng bậc thang điều trị: Độ 1 (ngoại\ntrú), Độ 2a (nội trú), Độ 2b (cấp cứu/hồi sức), Độ 3 (PICU), Độ 4 (hồi sức\nkhẩn).\nNắm vững phản xạ cấp cứu chính xác theo từng phút là yêu cầu bắt buộc đối với\nmọi nhân viên y tế trực cấp cứu nhi khoa.\n\n### 0.2 Mục tiêu học tập chuyên sâu\nSau khi hoàn thành bài học chuyên sâu này, người học có khả năng:\n1. Phân tầng chuẩn xác 4 độ lâm sàng theo đồng thuận Bộ Y tế: Độ 1, Độ 2a, Độ 2b\n(nhóm 1 và nhóm 2), Độ 3 và Độ 4.\n2. Nhận diện nhạy bén triệu chứng giật mình chới với (myoclonic jerks) lúc thiu\nthiu ngủ chỉ điểm viêm thân não theo Huang CC 1999.\n3. Làm chủ cơ chế sinh bệnh học 5 tầng: từ xâm nhập niêm mạc, ngược dòng sợi\ntrục đến bão catecholamine và phù phổi thần kinh.\n4. Áp dụng bằng chứng thử nghiệm ngẫu nhiên đối chứng (RCT) của Chi CY & Khanh\nTH 2013 tại TP. Hồ Chí Minh về hiệu quả của Milrinone.\n5. Chỉ định và sử dụng chuẩn xác Phenobarbital, Immune Globulin (IVIG),\nMilrinone và tuân thủ nghiêm ngặt quy tắc cấm bolus dịch truyền trong sốc EV71.\n6. Nắm vững khuyến cáo lấy mẫu bệnh phẩm vi sinh chẩn đoán enterovirus theo\nhướng dẫn của Mạng lưới Enterovirus Châu Âu (ENPEN / ESCV 2018).\n\n---\n\n## 1. ĐỊNH NGHĨA VÀ PHÂN LOẠI LÂM SÀNG BẬC THANG\n\n### 1.1 Định nghĩa ca bệnh lâm sàng\n- **Ca bệnh lâm sàng nghi ngờ:** Trẻ có sốt kèm theo vết loét niêm mạc miệng\nvà/hoặc ban bóng nước điển hình ở lòng bàn tay, lòng bàn chân, đầu gối, mông.\n- **Ca bệnh xác định:** Ca bệnh nghi ngờ có xét nghiệm RT-PCR hoặc nuôi cấy phân\nlập virus dương tính với Enterovirus (đặc biệt là EV71 hoặc CVA16).\n\nTheo bài tổng quan trên The Lancet Neurology của Ooi MH và cộng sự (2010), nhiễm Enterovirus 71 ở trẻ em có phổ lâm sàng rộng từ nhẹ đến tử vong nhanh: {claim:C-003} [ABSTRACT VERIFIED] (PMID: 20965438) Enterovirus 71 mostly affects children, manifesting as hand, foot, and mouth disease, aseptic meningitis, acute flaccid paralysis, brainstem encephalitis, pulmonary oedema and cardiorespiratory collapse.\n\n### 1.2 Bảng phân độ lâm sàng bậc thang 4 mức độ theo Bộ Y tế\nPhân độ lâm sàng là kim chỉ nam quyết định vị trí điều trị và các mốc can thiệp\nthuốc sống còn:\n\n| Phân độ lâm sàng | Tiêu chuẩn chẩn đoán lâm sàng chi tiết | Vị trí điều trị | Thái độ xử trí ban đầu |\n|---|---|---|---|\n| **Độ 1** | Chỉ có loét niêm mạc miệng và/hoặc tổn thương da (bóng nước ở lòng bàn tay, lòng bàn chân, đầu gối, mông). Không có dấu hiệu toàn thân nặng. | Ngoại trú tại nhà / Trạm y tế | Hạ sốt Paracetamol đúng liều, dinh dưỡng lỏng nguội, dặn dò phụ huynh tái khám mỗi 1–2 ngày hoặc ngay khi có dấu hiệu cảnh báo. |\n| **Độ 2a** | Có một trong các dấu hiệu cảnh báo sau:<br>- Bệnh sử có giật mình < 2 lần trong 30 phút và không ghi nhận lúc khám.<br>- Sốt trên 2 ngày HOẶC sốt trên 39°C khó hạ bằng thuốc thông thường.<br>- Nôn ói nhiều lần, lừ đừ, khó ngủ, quấy khóc vô cớ. | Khoa Nhi nội trú | Nhập viện theo dõi sinh hiệu, nhịp thở, mạch và tri giác mỗi 6–12 giờ; phát hiện dấu hiệu chuyển sang độ 2b. |\n| **Độ 2b (Nhóm 1)** | Có một trong các dấu hiệu nguy cơ thần kinh:<br>- Giật mình ghi nhận lúc bác sĩ khám bệnh.<br>- Bệnh sử có giật mình ≥ 2 lần trong 30 phút.<br>- Bệnh sử có giật mình kèm một dấu hiệu: ngủ gà, mạch nhanh > 130 lần/phút khi nằm yên không sốt, hoặc sốt cao > 39°C không hạ. | Phòng Cấp cứu / Đơn vị Hồi sức | Nằm đầu cao 30 độ; Phenobarbital uống 5–7 mg/kg/ngày; gắn monitor theo dõi mạch mỗi 1–2 giờ; chuẩn bị IVIG nếu sốt cao mạch nhanh. |\n| **Độ 2b (Nhóm 2)** | Có biểu hiện tổn thương thần kinh thực thể rõ rệt:<br>- Run chi, run người, ngồi không vững, đi loạng choạng.<br>- Rung giật nhãn cầu, lác mắt.<br>- Yếu chi hoặc liệt mềm cấp tính.<br>- Liệt thần kinh sọ (nuốt sặc, thay đổi giọng nói). | Hồi sức cấp cứu Nhi | Nằm đầu cao 30 độ; Phenobarbital uống hoặc tiêm; chỉ định truyền tĩnh mạch Immune Globulin (IVIG) liều 1 g/kg/ngày x 2 ngày hoặc 2 g/kg 1 lần. |\n| **Độ 3** | Biến chứng thần kinh tự chủ & tim mạch giai đoạn bão Catecholamine:<br>- Mạch rất nhanh: > 150 lần/phút (trẻ nhỏ) hoặc > 130 lần/phút (trẻ lớn) khi nằm yên không sốt.<br>- Vã mồ hôi, lạnh đầu chi hoặc lạnh toàn thân.<br>- Huyết áp tăng kịch phát theo tuổi.<br>- Thở nhanh, thở bất thường (thở bụng, thở nông, thở rên).<br>- Rối loạn tri giác (Glasgow < 10 điểm, li bì, hôn mê).<br>- Tăng trương lực cơ toàn thân. | Khoa Hồi sức tích cực (PICU) | Đặt catheter động mạch xâm lấn; thở oxy hoặc CPAP; truyền tĩnh mạch Milrinone 0.25–0.75 µg/kg/phút; truyền IVIG liều 2 g/kg; kiểm soát huyết áp. |\n| **Độ 4** | Suy hô hấp tuần hoàn tối khẩn / Sốc thần kinh tim mạch:<br>- Sốc (mạch bằng 0, huyết áp tụt hoặc không đo được, CRT ≥ 3 giây).<br>- Phù phổi cấp (sùi bọt hồng qua nội khí quản, SpO2 giảm nặng, ran ẩm lan tỏa hai phổi).<br>- Tím tái toàn thân, ngưng thở hoặc thở nấc. | Hồi sức tích cực (PICU) | Đặt nội khí quản thở máy PEEP cao; dùng Dobutamine và Noradrenaline nâng huyết áp; tuyệt đối không truyền dịch bolus nhanh. |\n\n**Checkpoint 1: Nhận diện giật mình chới với**\n*Điểm dừng suy ngẫm:* Hãy nhớ rằng giật mình chới với điển hình của tổn thương\nthân não thường xuất hiện nhất vào thời điểm trẻ vừa thiu thiu chợp mắt. Nếu một\ntrẻ đến khám ban ngày tỉnh táo nhưng đêm qua có từ 2 cơn giật mình trở lên trong\nvòng 30 phút, trẻ đã đủ tiêu chuẩn xếp vào Độ 2b Nhóm 1 và bắt buộc phải điều\ntrị tại buồng cấp cứu/hồi sức.\n\n---\n\n## 2. CƠ CHẾ SINH BỆNH HỌC 5 TẦNG: TỪ VIÊM THÂN NÃO ĐẾN BÃO CATECHOLAMINE\n\nCơ chế bệnh sinh của nhiễm Enterovirus 71 thể nặng diễn tiến qua 5 mắt xích sinh\nlý bệnh học liên hoàn, giải thích tốc độ chuyển độ thần tốc và nguy cơ tử vong\ncấp tính:\n\n### 2.1 Năm tầng sinh lý bệnh học liên hoàn\n- **Tầng 1: Xâm nhập niêm mạc & Nhân lên sơ cấp:**\nVirus EV71 gắn đặc hiệu vào các thụ thể bề mặt tế bào bao gồm SCARB2 và PSGL-1\ntrên niêm mạc hô hấp và mảng Peyer tiêu hóa.\nQuá trình nhân lên tại chỗ gây loét niêm mạc miệng, sau đó virus vào tuần hoàn\nmáu gây nhiễm virus huyết thoáng qua và tạo bóng nước ở da.\n- **Tầng 2: Xâm nhập ngược dòng hệ thần kinh trung ương:**\nVirus xâm nhập vào các đầu tận cùng sợi thần kinh ngoại vi, di chuyển ngược dòng\nsợi trục dọc theo các dây thần kinh sọ hoặc tủy sống vào hệ thần kinh trung\nương.\nVùng tổn thương trọng điểm là thân não (Brainstem), tạo nên bệnh cảnh Viêm thân\nnão (Rhombencephalitis).\n- **Tầng 3: Tổn thương thân não & Mất điều hòa thần kinh tự chủ:**\nTổn thương các nhân vận động và hệ lưới thân não kích thích phát sinh triệu\nchứng giật mình chới với, run giật cơ, thất điều và rung giật nhãn cầu.\nNghiên cứu kinh điển của Huang CC và cộng sự trên New England Journal of Medicine (1999) đã xác lập: {claim:C-006} [ABSTRACT VERIFIED] (PMID: 10498488) The chief neurologic complication of enterovirus 71 was rhombencephalitis, and the most common initial symptoms were myoclonic jerks.\nHình ảnh viêm nhiễm tại sừng trước tủy sống và thân não được ghi nhận rõ trên cộng hưởng từ: {claim:C-004} [ABSTRACT VERIFIED] (PMID: 20965438) Features of inflammation, particularly in the anterior horns of the spinal cord, the dorsal pons, and the medulla can be clearly seen on MRI.\n- **Tầng 4: Cơn bão Catecholamine toàn thân & Co mạch kịch phát:**\nTổn thương trung tâm điều hòa vận mạch tại hành não kích hoạt giải phóng ồ ạt\nAdrenaline và Noradrenaline vào máu gấp hàng chục lần mức sinh lý.\nNồng độ Catecholamine tăng vọt kích thích thụ thể alpha-1 giao cảm gây co thắt\nđộng mạch và tĩnh mạch toàn thân cực độ: huyết áp tăng vọt kịch phát, vã mồ hôi\nvà lạnh đầu chi.\nSolomon T và cộng sự trên The Lancet Infectious Diseases (2010) đã phân tích rõ: {claim:C-005} [ABSTRACT VERIFIED] (PMID: 20961813) The pathogenesis of the severe cardiopulmonary manifestations involves neurogenic pulmonary oedema, cardiac dysfunction, increased vascular permeability, and cytokine storm.\n- **Tầng 5: Phù phổi thần kinh & Suy bơm cơ tim cấp tính:**\nTình trạng tăng hậu gánh thất trái kịch phát kết hợp với dồn máu từ tuần hoàn\ntạng về phổi và độc tính cơ tim của catecholamine làm suy giảm nặng chức năng\ntâm thu thất trái.\nÁp lực mao mạch phổi bít tăng vọt đẩy dịch và hồng cầu tràn ngập phế nang, hình\nthành Phù phổi thần kinh cấp.\nDiễn tiến ác tính này đã được Huang CC và cộng sự (1999) ghi nhận: {claim:C-007} [ABSTRACT VERIFIED] (PMID: 10498488) In severe brain-stem infection, transient myoclonus was followed by rapid onset of respiratory distress, cyanosis, shock, and death within 12 hours after admission.\n\n```text\nChuỗi cơ chế bệnh sinh 5 tầng:\nTầng 1 (Xâm nhập niêm mạc)\n-> Tầng 2 (Ngược dòng sợi trục thần kinh vào Thân não)\n-> Tầng 3 (Viêm thân não Rhombencephalitis gây Giật mình chới với)\n-> Tầng 4 (Bão Catecholamine gây Co mạch kịch phát & Tăng huyết áp)\n-> Tầng 5 (Tăng hậu gánh cực độ + Suy tim cấp -> Phù phổi thần kinh & Tử vong)\n```\n\nChuỗi biến đổi huyết động trong suy tuần hoàn do EV71:\nCường giao cảm cấp tính → Co thắt mạch máu toàn thân → Tăng tiền gánh và hậu\ngánh đột ngột → Choáng váng cơ tim và suy giảm phân suất tống máu → Tăng áp lực\nmao mạch phổi bít → Phù phổi thần kinh.\n\nChuỗi tiến triển tổn thương thần kinh thực thể:\nKích thích hệ lưới thân não → Giật mình chới với lúc thiu thiu ngủ → Rung giật\nnhãn cầu và thất điều → Liệt thần kinh sọ và liệt mềm cấp → Hôn mê và mất phản\nxạ thân não.\n\nChuỗi biến đổi cận lâm sàng phản ánh độ nặng:\nNhiễm virus huyết → Bạch cầu máu tăng cao → Phản ứng tăng đường huyết do bão\ncatecholamine → Toan chuyển hóa và tăng lactate máu → Suy hô hấp và giảm oxy máu\nnặng.\n\n**Checkpoint 2: Cơ chế bão catecholamine**\n*Điểm dừng suy ngẫm:* Giai đoạn tăng huyết áp kịch phát ở Độ 3 chính là cửa sổ\ncơ hội vàng cuối cùng trước khi tim bị suy sụp và chuyển sang sốc tụt huyết áp ở\nĐộ 4. Bác sĩ cần nhận diện ngay mạch nhanh và huyết áp cao ở trẻ vã mồ hôi lạnh\nđầu chi để dùng Milrinone kịp thời.\n\n---\n\n## 3. CHẨN ĐOÁN XÁC ĐỊNH, DẤU HIỆU CẢNH BÁO & CẬN LÂM SÀNG\n\n### 3.1 Triệu chứng lâm sàng điển hình theo giai đoạn\n- **Thời kỳ ủ bệnh (3–7 ngày):** Trẻ hoàn toàn không có triệu chứng lâm sàng.\n- **Thời kỳ khởi phát (1–2 ngày):** Trẻ sốt nhẹ hoặc sốt cao, đau miệng, biếng\năn, quấy khóc, chảy nước dãi nhiều. Đôi khi có kèm tiêu chảy phân lỏng.\n- **Thời kỳ toàn phát (3–7 ngày):**\n- Loét miệng: Xuất hiện các nốt ban đỏ nhỏ ở niêm mạc miệng, nhanh chóng vỡ ra\ntạo thành các vết loét hình tròn đường kính 2–3 mm ở vòm khẩu cái, niêm mạc má,\nlợi và lưỡi.\n- Ban bóng nước ngoài da: Các bóng nước nhỏ đường kính 2–10 mm, hình tròn hoặc\nbầu dục, màu xám đục, xuất hiện ở lòng bàn tay, lòng bàn chân, vùng khớp gối và\nmông.\n\n### 3.2 Bốn dấu hiệu cảnh báo thần kinh sớm bắt buộc thuộc lòng\nKhi trẻ đang ở phân độ 1 hoặc 2a, sự xuất hiện của bất kỳ dấu hiệu nào sau đây\nchỉ điểm viêm thân não đang tiến triển âm thầm:\n1. **Giật mình chới với (Startle reflex / Myoclonic jerk):** Trẻ nẩy người, giơ\nhai tay lên chới với lúc bắt đầu thiu thiu ngủ hoặc trong giấc ngủ chập chờn.\n2. **Sốt cao liên tục ≥ 39°C kéo dài trên 48 giờ:** Sốt không đáp ứng hoặc hạ\nrất ít sau khi dùng Paracetamol và Ibuprofen đúng liều.\n3. **Mạch nhanh không tương xứng với thân nhiệt:** Mạch đo khi trẻ nằm yên,\nkhông khóc, không sốt nhưng vẫn > 130–140 lần/phút.\n4. **Nôn ói nhiều lần:** Nôn ói liên tục không liên quan đến bữa ăn, kèm theo lừ\nđừ, chới với, ngồi không vững hoặc đi loạng choạng.\n\n### 3.3 Cận lâm sàng chẩn đoán vi sinh theo Hướng dẫn ENPEN/ESCV\nVề chỉ định lấy mẫu bệnh phẩm xét nghiệm vi sinh học chẩn đoán enterovirus, Hướng dẫn thực hành lâm sàng của Mạng lưới Enterovirus Châu Âu (ENPEN / ESCV 2018) đưa ra khuyến cáo chuẩn hóa: {claim:C-011} [GUIDELINE VERIFIED] (PMID: 29414181) We recommend that respiratory and stool samples in addition to cerebrospinal fluid (CSF) and blood samples are submitted for EV testing from patients with suspected neurological infections.\n\nKhuyến cáo này đặc biệt có ý nghĩa lâm sàng vì virus enterovirus có thể biến mất\nnhanh ở dịch não tủy nhưng vẫn tồn tại và đào thải kéo dài nhiều tuần trong mẫu\nphân và dịch phết họng. Do đó, việc phối hợp lấy đồng thời mẫu dịch phết họng và\nphân làm tăng đáng kể độ nhạy chẩn đoán RT-PCR.\n\n### 3.4 Các xét nghiệm đánh giá độ nặng và biến chứng\n- **Đường huyết mao mạch:** Tăng đường huyết phản ứng (> 8.9 mmol/L) phản ánh\nmức độ nặng của cơn bão catecholamine.\n- **Công thức máu:** Bạch cầu tăng cao (> 16.0 x 10^9/L) là một yếu tố nguy cơ\nđộc lập chỉ điểm bệnh cảnh nặng.\n- **Khí máu động mạch:** Phát hiện toan chuyển hóa, giảm oxy máu nặng khi đã có\nphù phổi hoặc suy hô hấp.\n- **Troponin I & CK-MB:** Tăng cao khi có viêm cơ tim hoặc suy bơm cơ tim cấp do\nbão catecholamine.\n- **X-quang ngực thẳng:** Đánh giá ứ huyết phổi hoặc mờ phế nang cánh bướm trong\nphù phổi thần kinh.\n\n---\n\n## 4. ĐIỀU TRỊ BẬC THANG & CẤP CỨU HỒI SỨC TÍCH CỰC\n\nNguyên tắc điều trị xuyên suốt là phân độ chính xác, can thiệp theo bậc thang,\nhỗ trợ hô hấp tuần hoàn tích cực và bảo vệ tế bào thần kinh.\n\n### 4.1 Điều trị Độ 1 (Ngoại trú an toàn)\n- **Hạ sốt & Giảm đau:** Dùng Paracetamol liều 10–15 mg/kg mỗi 4–6 giờ khi sốt ≥\n38.5°C (tổng liều tối đa 60 mg/kg/ngày). Không dùng Aspirin.\n- **Vệ sinh miệng & Dinh dưỡng:** Rơ miệng bằng nước muối sinh lý 0.9%; cho trẻ\năn thức ăn lỏng, mềm, nguội; uống nhiều nước hoặc dung dịch Oresol bù dịch.\n- **Giáo dục phụ huynh dấu hiệu tái khám khẩn:** Đưa trẻ đến viện ngay nếu xuất\nhiện giật mình, sốt cao khó hạ, nôn nhiều, thở nhanh hoặc đi loạng choạng.\n\n### 4.2 Điều trị Độ 2a (Nội trú theo dõi)\n- Nhập viện theo dõi tại buồng bệnh khoa Nhi.\n- Tiếp tục hạ sốt, bù nước điện giải đường uống.\n- Theo dõi sát sinh hiệu, nhịp thở, mạch và tri giác mỗi 6 đến 12 giờ.\n- Đặc biệt đánh giá giấc ngủ của trẻ để phát hiện cơn giật mình.\n\n### 4.3 Điều trị Độ 2b (Hồi sức & Kiểm soát thần kinh)\n- **Tư thế:** Nằm đầu cao 30 độ để giảm áp lực nội sọ và hỗ trợ thông khí.\n- **Thuốc an thần Phenobarbital:**\n- Uống Phenobarbital liều 5–7 mg/kg/ngày chia làm 1–2 lần uống.\n- Cơ chế: Phenobarbital ức chế chọn lọc sự quá kích thích của hệ lưới thân não,\ngiảm tần suất giật mình và giảm hoạt tính giao cảm trung ương.\n- Nếu trẻ có co giật thực thể: Tiêm tĩnh mạch chậm Phenobarbital 10–20 mg/kg pha\nloãng trong dung dịch đẳng trương, tiêm trong 15–30 phút.\n- **Chỉ định Immune Globulin (IVIG):**\n- Chỉ định bắt buộc ở trẻ Độ 2b Nhóm 2.\n- Ở Độ 2b Nhóm 1, chỉ định khi sốt cao liên tục không hạ kèm mạch nhanh > 150\nlần/phút.\n- Liều lượng: 1 g/kg/ngày truyền tĩnh mạch trong 8–12 giờ x 2 ngày liên tiếp;\nhoặc liều duy nhất 2 g/kg truyền trong 12–24 giờ.\n\n### 4.4 Điều trị Độ 3 (Hồi sức tích cực PICU)\n- **Hỗ trợ hô hấp:** Thở oxy qua cannula hoặc mặt nạ duy trì SpO2 ≥ 94%. Nếu trẻ\nthở bất thường hoặc SpO2 không đảm bảo: Đặt nội khí quản thở máy sớm.\n- **Liệu pháp Milrinone:**\n- Chỉ định truyền tĩnh mạch Milrinone liều duy trì 0.25–0.75 µg/kg/phút (khởi\nđầu 0.5 µg/kg/phút).\n- Cơ chế: Milrinone ức chế enzyme phosphodiesterase-3 (PDE-3), làm tăng nồng độ\ncAMP nội bào cơ tim và cơ trơn mạch máu. Thuốc vừa làm tăng co bóp cơ tim\n(inotropic), vừa giãn mạch ngoại vi và giãn mạch phổi mạnh mẽ, hạ hậu gánh thất\ntrái, giảm áp lực mao mạch phổi bít và cắt đứt vòng xoắn bệnh lý phù phổi thần\nkinh.\n- Nghiên cứu của Wang SM (2016) chứng minh: {claim:C-010} [ABSTRACT VERIFIED] (PMID: 27065870) Milrinone in Enterovirus 71 Brain Stem Encephalitis reduces sympathetic hyperactivity.\n- Thử nghiệm lâm sàng ngẫu nhiên có đối chứng (RCT) của Chi CY, Khanh TH và cộng sự tại TP. Hồ Chí Minh (Critical Care Medicine 2013) đã chứng minh hiệu quả vượt trội: {claim:C-001} [ABSTRACT VERIFIED] (PMID: 23685637) Milrinone therapy for enterovirus 71-induced pulmonary edema and/or neurogenic shock significantly reduced one-week mortality compared with conventional management group.\n- Thử nghiệm này cũng chứng minh: {claim:C-002} [ABSTRACT VERIFIED] (PMID: 23685637) The median duration of ventilator-free days was longer in the milrinone treatment group.\n- **Liệu pháp IVIG:** Truyền IVIG liều 2 g/kg nếu chưa sử dụng ở giai đoạn\ntrước.\n- **Kiểm soát huyết áp & Sinh hiệu:** Đặt catheter động mạch xâm lấn theo dõi\nliên tục.\n\n### 4.5 Điều trị Độ 4 (Cấp cứu Sốc & Phù phổi cấp)\n- **Đặt nội khí quản thở máy PEEP cao:** Sử dụng PEEP từ 8–12 cmH2O để mở phế\nnang và chống tràn dịch phế nang trong phù phổi cấp.\n- **Hỗ trợ vận mạch:** Phối hợp Dobutamine liều 5–15 µg/kg/phút và Noradrenaline\nnếu có tụt huyết áp kéo dài.\n- **Cảnh báo sống còn về dịch truyền:**\n- Tuyệt đối chống chỉ định bù dịch bolus nhanh 20 ml/kg trong sốc do EV71 vì cơ\nchế suy tuần hoàn là suy tim cấp và phù phổi thần kinh do bão catecholamine.\n\n**Checkpoint 3: Chỉ định và liều dùng Milrinone**\n*Điểm dừng suy ngẫm:* Milrinone truyền tĩnh mạch 0.5 µg/kg/phút được chỉ định ở\nĐộ 3 khi có tăng hoạt tính giao cảm và mạch rất nhanh. Thuốc làm giảm tỷ lệ tử\nvong 1 tuần từ đáng kể tỷ lệ tử vong theo thử nghiệm của Chi CY và Khanh TH tại TP.\nHồ Chí Minh.\n\n---\n\n## 5. THEO DÕI, CHĂM SÓC, DỰ PHÒNG & VẮC XIN EV71\n\n### 5.1 Chế độ theo dõi buồng bệnh\n- Đối với trẻ Độ 1: Tái khám định kỳ mỗi 1–2 ngày cho đến khi hết sốt ít nhất 48\ngiờ và các nốt bóng nước bay hết.\n- Đối với trẻ Độ 2a: Theo dõi mạch, nhiệt độ, nhịp thở mỗi 6 giờ; quan sát giấc\nngủ tìm giật mình mỗi ca trực.\n- Đối với trẻ Độ 2b, 3, 4: Gắn monitor theo dõi liên tục điện tim, SpO2, huyết\náp động mạch; đo lượng nước tiểu qua thông tiểu mỗi 1 giờ; ghi nhận tri giác\ntheo thang điểm Glasgow.\n\n### 5.2 Kiểm soát nhiễm khuẩn & Phòng lây nhiễm chéo\n- Cách ly trẻ mắc bệnh tại nhà hoặc phòng cách ly riêng tại viện ít nhất 10 ngày\nkể từ ngày khởi phát.\n- Rửa tay thường xuyên bằng xà phòng dưới vòi nước chảy trong ít nhất 30 giây\ncho người chăm sóc và trẻ.\n- Khử trùng bề mặt đồ chơi, sàn nhà, vật dụng sinh hoạt bằng dung dịch Cloramin\nB 2% hoặc chất sát khuẩn chứa Clo hoạt tính.\n\n### 5.3 Vắc xin phòng bệnh Enterovirus 71 (EV71 Vaccine)\n- Vắc xin bất hoạt EV71 (Inactivated EV71 Vaccine) đã được chứng minh hiệu quả\nphòng ngừa cao đối với bệnh tay chân miệng nặng do chủng EV71.\n- Thử nghiệm pha 3 của Li R và cộng sự trên New England Journal of Medicine (2014) xác nhận: {claim:C-008} [ABSTRACT VERIFIED] (PMID: 24571755) An inactivated enterovirus 71 vaccine in healthy children demonstrated high protective efficacy against EV71-associated hand, foot, and mouth disease.\n- Nghiên cứu pha 3 của Zhu FC và cộng sự trên The Lancet (2013) cũng đồng thuận: {claim:C-009} [ABSTRACT VERIFIED] (PMID: 23726161) Inactivated alum-adjuvant enterovirus 71 vaccine in children demonstrated efficacy, safety, and immunogenicity in a phase 3 trial.\n\n### 5.4 Di chứng thần kinh dài hạn\nNghiên cứu theo dõi dài hạn của Chang LY và cộng sự trên New England Journal of\nMedicine (2007) cho thấy trẻ từng trải qua viêm thân não do EV71 nặng có nguy cơ\ngặp các rối loạn phát triển thần kinh, suy giảm nhận thức và bất thường hành vi\nkéo dài, đòi hỏi chương trình can thiệp phục hồi chức năng và theo dõi tâm vận\nđịnh kỳ.\n\n**Checkpoint 4: Quy tắc an toàn dịch truyền trong sốc EV71**\n*Điểm dừng suy ngẫm:* Khác biệt cơ bản giữa sốc trong sốt xuất huyết Dengue hay\ntiêu chảy cấp với sốc trong tay chân miệng EV71 là tình trạng quá tải thể tích\ncấp tính do co thắt mạch tạng. Luôn luôn kiểm tra ran ẩm phế nang và chức năng\ntim trước khi đưa ra bất kỳ quyết định truyền dịch nào.\n\n---\n\n## 6. TÓM TẮT THUẬT TOÁN ĐIỀU TRỊ TẠI GIƯỜNG\n\nThuật toán xử trí lâm sàng tiếp cận bệnh nhi tay chân miệng tại phòng cấp cứu:\n\n```text\nTIẾP NHẬN TRẺ NGHI NGỜ TAY CHÂN MIỆNG (Sốt + Loét miệng / Bóng nước)\n│\nĐánh giá 4 Dấu hiệu cảnh báo:\n- Giật mình chới với lúc ngủ?\n- Sốt cao ≥ 39°C liên tục > 48h?\n- Mạch nhanh không tương xứng?\n- Nôn ói nhiều, đi loạng choạng?\n│\n┌────────────────┴────────────────┐\n▼                                 ▼\n[KHÔNG CÓ]                        [CÓ MẶT]\n│                                 │\nĐỘ 1 (Ngoại trú)                      │\n- Hạ sốt Paracetamol                  │\n- Dinh dưỡng, vệ sinh miệng           │\n- Dặn tái khám mỗi 1-2 ngày           │\n▼\n┌───────────────────────────────────┐\n▼                                   ▼\nĐỘ 2a (Nội trú)                     ĐỘ 2b (Cấp cứu/PICU)\n- Nhập khoa Nhi                     - Đầu cao 30 độ\n- Theo dõi sinh hiệu mỗi 6h         - Phenobarbital 5-7 mg/kg/ngày\n- Theo dõi giấc ngủ                 - IVIG 1-2 g/kg nếu nhóm 2\n│\n┌───────────────┴───────────────┐\n▼                               ▼\nĐỘ 3 (Bão Catecholamine)        ĐỘ 4 (Sốc / Phù phổi)\n- PICU                          - Đặt NKQ thở PEEP cao\n- Thở CPAP / Oxy                - Dobutamine + Noradrenaline\n- Milrinone 0.5 µg/kg/min       - TUYỆT ĐỐI KHÔNG BOLUS DỊCH\n- IVIG 2 g/kg                   - Theo dõi huyết động xâm lấn\n```\n\n---\n\n## 7. CLINICAL PEARLS & PRACTICAL TIPS (12 TIPS THỰC CHIẾN)\n\nDưới đây là 12 kinh nghiệm thực chiến và bẫy lâm sàng giúp bác sĩ tránh các sai\nlầm nguy hiểm:\n\n1. **Bẫy lâm sàng số 1 - Chẩn đoán nhầm nhiệt miệng:** Trẻ nhỏ chảy dãi và bỏ bú\nhay bị nhầm là nhiệt miệng thông thường. Ví dụ: một trẻ 10 tháng sốt nhẹ chảy\ndãi nhưng bị bỏ qua bóng nước ở kẽ ngón chân. Luôn cởi tã và vạch lòng bàn tay\nbàn chân để khám.\n2. **Bẫy lâm sàng số 2 - Sai lầm trong hỏi bệnh giật mình:** Phụ huynh thường\nkhông phân biệt được giật mình sinh lý với giật mình bệnh lý. Ví dụ: trẻ nẩy\ngiật cả hai tay khi vừa thiu thiu chợp mắt là giật mình chới với thực sự của tổn\nthương thân não.\n3. **Bẫy lâm sàng số 3 - Xem thường mạch nhanh:** Mạch nhanh không tương xứng\nvới sốt là dấu hiệu báo động đỏ. Ví dụ: trẻ không sốt, nằm yên trên tay mẹ nhưng\nmạch trên monitor vẫn đo được 145 lần/phút chứng tỏ hệ giao cảm đang bị kích\nthích mạnh.\n4. **Bẫy lâm sàng số 4 - Sai lầm bolus dịch nhanh:** Truyền dịch ào ạt 20 ml/kg\ntrong sốc EV71 là sai lầm nguy hiểm nhất. Ví dụ: một trẻ sốc tím tái được xả\nnhanh dịch Ringer Lactat có thể trào bọt hồng tử vong ngay tại giường do phù\nphổi cấp.\n5. **Bẫy lâm sàng số 5 - Lạm dụng Corticoid:** Dùng Dexamethasone hay\nMethylprednisolone thường quy là một sai lầm phổ biến. Ví dụ: tiêm corticoid làm\nvirus nhân lên nhanh hơn và suy giảm đáp ứng miễn dịch tự nhiên của cơ thể.\n6. **Bẫy lâm sàng số 6 - Dùng thuốc an thần sai mục đích:** Nhầm lẫn giữa\nBenzodiazepine đơn thuần và Phenobarbital. Ví dụ: Phenobarbital ức chế chọn lọc\nhệ lưới thân não hiệu quả vượt trội trong việc ngăn chặn cơn bão catecholamine.\n7. **Ví dụ minh họa theo dõi đường huyết:** Bấm đường huyết mao mạch tại giường\ncho kết quả 9.5 mmol/L ở trẻ tay chân miệng giúp nhận diện sớm bão catecholamine\ntiến triển.\n8. **Ví dụ minh họa tư thế đầu cao:** Cho trẻ nằm đầu cao 30 độ ngay khi vào\nviện giúp hỗ trợ tuần hoàn não và cải thiện trao đổi khí phế nang.\n9. **Kỹ thuật khám bóng nước ẩn:** Bóng nước ở lòng bàn chân có thể chỉ là dát\nsẩn đỏ chìm sâu dưới lớp biểu bì dày, đòi hỏi soi đèn ánh sáng trắng trực tiếp.\n10. **Quy tắc đếm giật mình trong 30 phút:** Nếu trong 30 phút người nhà đếm\nđược từ 2 lần giật mình trở lên, xếp ngay vào Độ 2b Nhóm 1.\n11. **Tránh làm thủ thuật gây đau không cần thiết:** Chọc dò tủy sống vội vã lúc\ntrẻ đang kích thích giao cảm có thể kích hoạt cơn co mạch phổi gây phù phổi cấp\ntức thì.\n12. **Hướng dẫn phụ huynh quan sát giấc ngủ:** Dặn bố mẹ chú ý quan sát trẻ\ntrong 30 phút đầu tiên của giấc ngủ đêm để phát hiện kịp thời các cơn giật nẩy\nngười.\n\n---\n\n## 8. CẢNH BÁO BẪY NGUY HIỂM VÀ AN TOÀN NGƯỜI BỆNH (SAFETY BOX ĐỎ)\n\n::: safety\n### HỘP BẢO VỆ AN TOÀN NGƯỜI BỆNH & BẪY NGUY HIỂM (SAFETY BOX ĐỎ)\n- **Bẫy 1 - Bù dịch quá tải trong sốc tim:** Tuyệt đối không được truyền dịch\nbolus nhanh 20 ml/kg ở bệnh nhân sốc do EV71. Cơ chế sốc là do suy sụp chức năng\nco bóp cơ tim cấp và bão catecholamine dồn máu về phổi; việc bolus dịch sẽ gây\nphù phổi cấp tức thì dẫn đến tử vong.\n- **Bẫy 2 - Bỏ qua mạch nhanh không kèm sốt:** Mạch trên 140–150 lần/phút khi\ntrẻ nằm yên, không sốt là dấu hiệu chỉ điểm sớm nhất của bão catecholamine.\nKhông bao giờ được quy kết cho trẻ sợ hãi mà phải theo dõi sát liên tục mỗi 1\ngiờ.\n- **Bẫy 3 - Lạm dụng Corticoid thường quy:** Corticosteroid không có vai trò\nđiều trị trong viêm thân não do EV71 và làm tăng nguy cơ tử vong do ức chế đáp\nứng miễn dịch dịch thể.\n- **Bẫy 4 - Trì hoãn dùng Milrinone ở Độ 3:** Khi trẻ đã có mạch nhanh kèm huyết\náp tăng vọt và lạnh đầu chi, Milrinone truyền tĩnh mạch 0.5 µg/kg/phút phải được\nkhởi động ngay lập tức để hạ hậu gánh và cắt đứt vòng xoắn phù phổi thần kinh.\n- **Bẫy 5 - Nhầm lẫn giật mình với run giật sinh lý:** Giật mình chới với do tổn\nthương thân não xuất hiện lúc thiu thiu ngủ, trẻ nẩy người giơ hai tay lên rồi\nmở mắt khóc, khác với run giật run tay chân lúc đang thức chơi.\n:::\n\n---\n\n## 9. CÁC CA LÂM SÀNG THỰC TẾ CÓ LỜI GIẢI CHI TIẾT (CASE STUDIES)\n\n### Case 1: Trẻ sốt kèm giật mình ghi nhận lúc khám\n- **Bệnh sử:** Bệnh nhi nam 16 tháng tuổi, nặng 11 kg, được mẹ đưa đến khám vì\nsốt 2 ngày nay.\nNhiệt độ cao nhất đo được ở nhà là 39.2°C.\nTrẻ quấy khóc nhiều, ăn kém, chảy nước dãi.\nMẹ kể đêm qua thấy trẻ có giật mình 1 lần lúc thiu thiu ngủ.\n- **Khám lâm sàng tại phòng khám:**\nTrẻ tỉnh, quấy khóc khi khám, thân nhiệt 38.6°C.\nMạch: 136 lần/phút khi nằm yên, SpO2: 98% khí trời, huyết áp: 90/55 mmHg.\nNiêm mạc má và vòm khẩu cái có vài vết loét đỏ đường kính 2 mm.\nLòng bàn tay và hai bên gối có rải rác vài bóng nước nhỏ hình bầu dục chìm dưới\nda.\nTrong lúc bác sĩ đang quan sát trẻ nằm thiu thiu ngủ trên tay mẹ, ghi nhận trẻ\nnẩy giật người và hai tay giơ lên chới với 1 lần.\n- **Phân tích ca lâm sàng & Biện luận chẩn đoán:**\nTrẻ có hội chứng loét miệng và bóng nước đặc trưng ở lòng bàn tay, gối, chẩn\nđoán xác định là Bệnh Tay - Chân - Miệng ngày thứ 2.\nVề phân độ, dù bệnh sử ở nhà chỉ có 1 lần giật mình, nhưng lúc bác sĩ khám trực\ntiếp đã ghi nhận có cơn giật mình chới với thực thể.\nTheo phân độ Bộ Y tế, giật mình ghi nhận lúc khám bệnh xếp bệnh nhi vào Độ 2b\nNhóm 1.\n- **Kế hoạch can thiệp điều trị:**\nNhập viện ngay vào phòng Cấp cứu / Đơn nguyên Hồi sức Nhi để theo dõi liên tục.\nCho trẻ nằm đầu cao 30 độ.\nCho uống Phenobarbital liều 5 mg/kg/ngày (với trẻ 11 kg dùng khoảng 55 mg/ngày\nchia làm 2 lần uống) để an thần và ức chế hệ lưới thân não.\nHạ sốt bằng Paracetamol 10–15 mg/kg khi sốt ≥ 38.5°C.\nĐặt monitor theo dõi nhịp tim, nhịp thở, huyết áp mỗi 1–2 giờ.\nNếu nhịp tim tăng nhanh > 150 lần/phút liên tục hoặc xuất hiện run chi, thất\nđiều, xem xét chỉ định IVIG ngay.\n\n---\n\n### Case 2: Diễn tiến bão catecholamine và tăng huyết áp kịch phát\n- **Bệnh sử:** Bệnh nhi nữ 24 tháng tuổi, nặng 12 kg, được chuyển viện từ tuyến\nhuyện lên tuyến tỉnh với chẩn đoán Bệnh tay chân miệng Độ 2a ngày thứ 3.\nTại tuyến trước, trẻ sốt cao liên tục không hạ.\nKhi vào khoa Cấp cứu bệnh viện tỉnh, điều dưỡng ghi nhận trẻ quấy khóc vật vã,\nda nổi vân tím, đầu chi lạnh ngắt nhưng đo nhiệt kế nách là 39.5°C.\n- **Khám lâm sàng tại khoa Cấp cứu:**\nTrẻ kích thích, bứt rứt, quấy khóc không dỗ được, Glasgow 12 điểm.\nMạch: 172 lần/phút (mạch rất nhanh, đều), SpO2: 94% với khí phòng.\nHuyết áp: 135/85 mmHg (tăng huyết áp kịch phát rõ rệt so với tuổi 24 tháng).\nThở nhanh 48 lần/phút, thở nông, co kéo nhẹ cơ liên sườn.\nPhổi nghe ran ẩm rải rác hai đáy phổi.\nDa toàn thân nổi vân tím, hai bàn tay và bàn chân lạnh ngắt, vã mồ hôi ướt trán.\nCRT: 3 giây.\nLoét miệng nhiều ở lưỡi và vòm họng; bóng nước rải rác lòng bàn chân và mông.\n- **Phân tích ca bệnh & Biện luận chẩn đoán:**\nBệnh nhi mắc Bệnh Tay - Chân - Miệng Độ 3 biến chứng bão Catecholamine nặng, dọa\nphù phổi thần kinh.\nTrẻ có mạch rất nhanh > 150 lần/phút khi nằm yên, huyết áp tăng vọt (135/85\nmmHg), co mạch ngoại vi nặng nề (lạnh đầu chi, vã mồ hôi, CRT kéo dài) kèm thở\nnhanh nông và ran ẩm phế nang.\nĐây là bệnh cảnh điển hình của giai đoạn bão Catecholamine toàn thân kích hoạt\nco mạch hệ thống tối đa và ứ máu phổi.\n- **Phương án xử trí cấp cứu và Phác đồ hồi sức:**\nChuyển ngay khoa Hồi sức tích cực Nhi (PICU).\nThở CPAP áp lực dương qua mũi với áp lực 6–8 cmH2O, FiO2 40–60% để nâng áp lực\ntrong phế nang, ngăn chặn dịch thoát mạch vào lòng phế nang.\nKhởi động ngay truyền tĩnh mạch Milrinone liều 0.5 µg/kg/phút duy trì liên tục\nđể giãn mạch ngoại vi, hạ hậu gánh và giảm áp lực mao mạch phổi bít.\nChỉ định truyền tĩnh mạch Immune Globulin (IVIG) liều 2 g/kg truyền trong 12–24\ngiờ.\nDùng Phenobarbital tiêm tĩnh mạch chậm để kiểm soát kích thích thần kinh trung\nương.\nTuyệt đối không bolus dịch truyền 20 ml/kg vì sẽ đẩy bệnh nhân vào phù phổi cấp\nbọt hồng ngay lập tức.\nĐặt ống thông tiểu theo dõi lượng nước tiểu và đặt catheter động mạch xâm lấn\ntheo dõi huyết áp.\n### Case 3: Bệnh nhi Độ 1 điều trị ngoại trú an toàn\n- **Bệnh sử:** Bé trai 10 tháng tuổi, nặng 9 kg, được mẹ đưa đi khám vì nổi vài\nnốt đỏ ở lòng bàn tay và chân được 1 ngày.\nTrẻ vẫn bú tốt, không nôn, không sốt ở nhà.\n- **Khám lâm sàng:**\nTrẻ tỉnh táo, hồng hào, chơi ngoan. Thân nhiệt: 37.0°C.\nMạch: 110 lần/phút, nhịp thở: 32 lần/phút, SpO2: 99% khí trời.\nNiêm mạc miệng có 1 vết loét nhỏ 2 mm ở niêm mạc má phải, không sưng đỏ xung\nquanh.\nLòng bàn tay có 2 nốt bóng nước nhỏ, lòng bàn chân có 3 nốt. Khớp gối và mông\nkhông có sang thương.\nTim đều, phổi trong, bụng mềm, không giật mình, trương lực cơ bình thường.\n- **Phân tích ca bệnh & Lời giải chi tiết:**\nChẩn đoán: Bệnh Tay - Chân - Miệng Độ 1 ngày thứ 1.\nQuyết định: Cho điều trị ngoại trú tại nhà, không cần nhập viện.\n- **Phương án chăm sóc & Dặn dò dấu hiệu đỏ:**\nCho trẻ bú mẹ theo nhu cầu, uống nước đầy đủ, không kiêng khem ăn uống.\nVệ sinh răng miệng nhẹ nhàng bằng gạc mềm tẩm nước muối sinh lý 0.9%.\nKhông chọc vỡ các nốt bóng nước trên da để phòng ngừa bội nhiễm vi khuẩn.\nCách ly trẻ tại nhà ít nhất 10 ngày để tránh lây nhiễm cho các trẻ khác.\nHướng dẫn phụ huynh cách quan sát giấc ngủ để phát hiện giật mình chới với.\nHẹn tái khám sau 1–2 ngày hoặc đưa trẻ đi cấp cứu ngay lập tức nếu thấy trẻ giật\nmình, sốt cao khó hạ, nôn nhiều hoặc lừ đừ.\n\n---\n\n## 10. TÀI LIỆU THAM KHẢO & BẰNG CHỨNG KIỂM ĐỊNH (EVIDENCE & CITATIONS)\n\nDưới đây là danh mục 9 tài liệu y văn quốc tế đã được đồng bộ và xác thực thực\nchứng qua cơ sở dữ liệu Europe PMC:\n\n1. **Chi CY, Khanh TH, Thoa le PK, Tseng FC, Wang SM, Liu CC (2013)**: *Milrinone therapy for enterovirus 71-induced pulmonary edema and/or neurogenic shock in children: a randomized controlled trial.* Critical Care Medicine. PMID: **23685637**. [ABSTRACT VERIFIED]\n2. **Ooi MH, Wong SC, Lewthwaite P, Cardosa MJ, Solomon T (2010)**: *Clinical features, diagnosis, and management of enterovirus 71: hand, foot, and mouth disease, acute flaccid paralysis, pulmonary oedema.* The Lancet Neurology. PMID: **20965438**. [ABSTRACT VERIFIED]\n3. **Solomon T, Lewthwaite P, Perera D, Cardosa MJ, McMinn P, Ooi MH (2010)**: *Virology, epidemiology, pathogenesis, and control of enterovirus 71: cardiopulmonary manifestations, neurogenic pulmonary oedema, cytokine storm.* The Lancet Infectious Diseases. PMID: **20961813**. [ABSTRACT VERIFIED]\n4. **Huang CC, Liu CC, Chang YC, Chen CY, Wang ST, Yeh TF (1999)**: *Neurologic complications in children with enterovirus 71 infection: rhombencephalitis, myoclonic jerks.* The New England Journal of Medicine. PMID: **10498488**. [ABSTRACT VERIFIED]\n5. **Li R, Liu L, Mo Z, Wang X, Xia J, Liang Z, et al. (2014)**: *An inactivated enterovirus 71 vaccine in healthy children: randomized double-blind placebo-controlled phase 3 trial.* The New England Journal of Medicine. PMID: **24571755**. [ABSTRACT VERIFIED]\n6. **Zhu FC, Meng FY, Li JX, Li XL, Mao QY, Tao H, et al. (2013)**: *Efficacy, safety, and immunology of an inactivated alum-adjuvant enterovirus 71 vaccine in children: phase 3 trial.* The Lancet. PMID: **23726161**. [ABSTRACT VERIFIED]\n7. **Chang LY, Huang LM, Gau SS, Wu YY, Hsia SH, et al. (2007)**: *Neurodevelopment and cognition in children after enterovirus 71 infection.* The New England Journal of Medicine. PMID: **17377160**. [ABSTRACT VERIFIED]\n8. **Wang SM (2016)**: *Milrinone in Enterovirus 71 Brain Stem Encephalitis.* Frontiers in Pharmacology. PMID: **27065870**. [ABSTRACT VERIFIED]\n9. **ENPEN / ESCV (2018)**: *Recommendations for enterovirus diagnostics and characterisation within and beyond Europe.* Journal of Clinical Virology. PMID: **29414181**. [GUIDELINE VERIFIED]\n\n### Bảng tổng hợp các Claim kiểm định trong bài giảng (Registered Claims Table)\n\n| Claim ID | Nhãn kiểm định | Nguồn trích dẫn | Nội dung Claim khoa học |\n|---|:---:|:---:|---|\n| C-001 | [ABSTRACT VERIFIED] | PMID: 23685637 | Milrinone therapy for enterovirus 71-induced pulmonary edema and/or neurogenic shock significantly reduced one-week mortality compared with conventional management group |\n| C-002 | [ABSTRACT VERIFIED] | PMID: 23685637 | The median duration of ventilator-free days was longer in the milrinone treatment group |\n| C-003 | [ABSTRACT VERIFIED] | PMID: 20965438 | Enterovirus 71 mostly affects children, manifesting as hand, foot, and mouth disease, aseptic meningitis, acute flaccid paralysis, brainstem encephalitis, pulmonary oedema and cardiorespiratory collapse |\n| C-004 | [ABSTRACT VERIFIED] | PMID: 20965438 | Features of inflammation, particularly in the anterior horns of the spinal cord, the dorsal pons, and the medulla can be clearly seen on MRI |\n| C-005 | [ABSTRACT VERIFIED] | PMID: 20961813 | The pathogenesis of the severe cardiopulmonary manifestations involves neurogenic pulmonary oedema, cardiac dysfunction, increased vascular permeability, and cytokine storm |\n| C-006 | [ABSTRACT VERIFIED] | PMID: 10498488 | The chief neurologic complication of enterovirus 71 was rhombencephalitis, and the most common initial symptoms were myoclonic jerks |\n| C-007 | [ABSTRACT VERIFIED] | PMID: 10498488 | In severe brain-stem infection, transient myoclonus was followed by rapid onset of respiratory distress, cyanosis, shock, and death within 12 hours after admission |\n| C-008 | [ABSTRACT VERIFIED] | PMID: 24571755 | An inactivated enterovirus 71 vaccine in healthy children demonstrated high protective efficacy against EV71-associated hand, foot, and mouth disease |\n| C-009 | [ABSTRACT VERIFIED] | PMID: 23726161 | Inactivated alum-adjuvant enterovirus 71 vaccine in children demonstrated efficacy, safety, and immunogenicity in a phase 3 trial |\n| C-010 | [ABSTRACT VERIFIED] | PMID: 27065870 | Milrinone in Enterovirus 71 Brain Stem Encephalitis reduces sympathetic hyperactivity |\n| C-011 | [GUIDELINE VERIFIED] | PMID: 29414181 | We recommend that respiratory and stool samples in addition to cerebrospinal fluid (CSF) and blood samples are submitted for EV testing from patients with suspected neurological infections. |\n",
+      "pedytb_file": null,
+      "pedytb_content": "",
+      "cards_count": 84,
+      "cards_data": [
+        {
+          "id": "PED35-C001",
+          "type": "cloze",
+          "text": "Trong bệnh Tay - Chân - Miệng ở trẻ em, tác nhân virus nguy hiểm nhất có ái tính hướng thần kinh mạnh gây biến chứng viêm thân não và tử vong là {{c1::Enterovirus 71 (EV71)}}.",
+          "extra": "Coxsackievirus A16 thường chỉ gây thể nhẹ lành tính, trong khi EV71 có thể gây bão catecholamine và phù phổi thần kinh tối cấp.",
+          "tags": [
+            "PED-35",
+            "Virus_hoc"
+          ]
+        },
+        {
+          "id": "PED35-C002",
+          "type": "cloze",
+          "text": "Chủng virus enterovirus thường gặp nhất gây bệnh tay chân miệng thể nhẹ, tự giới hạn trong 7–10 ngày và rất hiếm khi có biến chứng thần kinh là {{c1::Coxsackievirus A16 (CVA16)}}.",
+          "extra": "CVA16 là nguyên nhân phổ biến nhất của các ca bệnh ngoại trú tự hồi phục hoàn toàn.",
+          "tags": [
+            "PED-35",
+            "Virus_hoc"
+          ]
+        },
+        {
+          "id": "PED35-C003",
+          "type": "cloze",
+          "text": "Chủng enterovirus mới nổi thường gây ban bóng nước không điển hình lan tỏa toàn thân và có hiện tượng rụng móng (onychomadesis) sau khi khỏi bệnh là {{c1::Coxsackievirus A6 (CVA6)}}.",
+          "extra": "CVA6 gây tổn thương da rộng hơn CVA16 kinh điển, có thể xuất hiện bóng nước ở cả thân mình và cẳng tay cẳng chân.",
+          "tags": [
+            "PED-35",
+            "Virus_hoc"
+          ]
+        },
+        {
+          "id": "PED35-C004",
+          "type": "cloze",
+          "text": "Hai con đường lây truyền chính của virus gây bệnh tay chân miệng ở trẻ nhỏ là đường {{c1::tiêu hóa (phân - miệng)}} và đường {{c1::giọt bắn hô hấp}}.",
+          "extra": "Virus bài xuất qua phân kéo dài nhiều tuần và qua dịch tiết hầu họng trong 1–2 tuần đầu.",
+          "tags": [
+            "PED-35",
+            "Dich_te"
+          ]
+        },
+        {
+          "id": "PED35-C005",
+          "type": "cloze",
+          "text": "Lứa tuổi chiếm tỷ lệ mắc bệnh tay chân miệng cao nhất và có nguy cơ chuyển độ nặng nhiều nhất là trẻ {{c1::dưới 3 tuổi}} (đặc biệt dưới 5 tuổi).",
+          "extra": "Hệ miễn dịch chưa hoàn thiện và kháng thể thụ động từ mẹ truyền đã giảm là yếu tố nguy cơ chính.",
+          "tags": [
+            "PED-35",
+            "Dich_te"
+          ]
+        },
+        {
+          "id": "PED35-C006",
+          "type": "cloze",
+          "text": "Hai thụ thể màng tế bào chính giúp virus EV71 gắn kết và xâm nhập vào tế bào người là {{c1::SCARB2}} và PSGL-1.",
+          "extra": "SCARB2 đóng vai trò thiết yếu cho sự gắn kết và cởi vỏ capsid của virus trong tế bào ký chủ.",
+          "tags": [
+            "PED-35",
+            "Vi_sinh"
+          ]
+        },
+        {
+          "id": "PED35-C007",
+          "type": "cloze",
+          "text": "Khả năng tồn tại của virus gây bệnh tay chân miệng ở môi trường ngoài bị bất hoạt hiệu quả bởi các chất khử khuẩn chứa {{c1::Clo hoạt tính (như Cloramin B 2%)}} hoặc nhiệt độ cao.",
+          "extra": "Các dung dịch cồn sát khuẩn tay thông thường (ethanol) ít có hiệu quả diệt enterovirus vì đây là virus không có vỏ lipid bao bọc.",
+          "tags": [
+            "PED-35",
+            "Kiem_soat_nhiem_khuan"
+          ]
+        },
+        {
+          "id": "PED35-C008",
+          "type": "cloze",
+          "text": "Thời gian cách ly tối thiểu được khuyến cáo cho trẻ mắc bệnh tay chân miệng để phòng lây nhiễm chéo tại nhà và trường học là ít nhất {{c1::10 ngày}} kể từ ngày khởi phát bệnh.",
+          "extra": "Trẻ chỉ được quay trở lại lớp học khi đã hết sốt hoàn toàn ít nhất 48 giờ và các nốt bóng nước đã lành lặn.",
+          "tags": [
+            "PED-35",
+            "Phong_ngua"
+          ]
+        },
+        {
+          "id": "PED35-C009",
+          "type": "cloze",
+          "text": "Trẻ mắc bệnh tay chân miệng chỉ có tổn thương loét niêm mạc miệng và/hoặc ban bóng nước ngoài da, không có triệu chứng toàn thân nặng được xếp vào {{c1::Độ 1}}.",
+          "extra": "Độ 1 có chỉ định điều trị ngoại trú an toàn và hẹn tái khám theo dõi mỗi 1–2 ngày.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C010",
+          "type": "cloze",
+          "text": "Tiêu chuẩn sốt để xếp trẻ tay chân miệng vào phân độ Độ 2a là sốt kéo dài trên {{c1::2 ngày}} hoặc sốt cao trên {{c1::39°C}} khó hạ.",
+          "extra": "Sốt cao liên tục không đáp ứng thuốc hạ sốt là dấu hiệu cảnh báo sớm nguy cơ biến chứng thần kinh.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C011",
+          "type": "cloze",
+          "text": "Trẻ tay chân miệng có bệnh sử giật mình dưới 2 lần trong 30 phút và không ghi nhận lúc bác sĩ khám được xếp vào phân độ {{c1::Độ 2a}}.",
+          "extra": "Độ 2a là mốc bắt buộc phải nhập viện điều trị nội trú tại khoa Nhi.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C012",
+          "type": "cloze",
+          "text": "Ba dấu hiệu toàn thân thuộc tiêu chuẩn phân độ Độ 2a bên cạnh sốt cao là {{c1::nôn nhiều, lừ đừ, và khó ngủ / quấy khóc vô cớ}}.",
+          "extra": "Bất kỳ một trong ba dấu hiệu này xuất hiện đều đủ tiêu chuẩn để chỉ định nhập viện theo dõi nội trú.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C013",
+          "type": "cloze",
+          "text": "Khi bác sĩ trực tiếp khám bệnh và ghi nhận được cơn giật mình chới với thực thể của trẻ, bệnh nhi được xếp ngay vào phân độ {{c1::Độ 2b Nhóm 1}}.",
+          "extra": "Tận mắt chứng kiến cơn giật mình tại buồng khám là tiêu chuẩn nâng bậc lên Độ 2b Nhóm 1.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C014",
+          "type": "cloze",
+          "text": "Trẻ tay chân miệng có bệnh sử giật mình từ {{c1::2 lần trở lên}} trong vòng 30 phút được xếp vào phân độ Độ 2b Nhóm 1.",
+          "extra": "Tần suất giật mình dày đặc phản ánh sự quá kích thích tăng dần của hệ lưới thân não.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C015",
+          "type": "cloze",
+          "text": "Ngưỡng nhịp tim khi nằm yên không sốt ở trẻ tay chân miệng có giật mình để xếp vào phân độ Độ 2b Nhóm 1 là trên {{c1::130 lần/phút}}.",
+          "extra": "Mạch nhanh không tương xứng với thân nhiệt là biểu hiện sớm của cường giao cảm.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C016",
+          "type": "cloze",
+          "text": "Trẻ tay chân miệng có bệnh sử giật mình kèm biểu hiện ngủ gà hoặc sốt cao trên 39°C không hạ bằng thuốc hạ sốt được xếp vào phân độ {{c1::Độ 2b Nhóm 1}}.",
+          "extra": "Độ 2b Nhóm 1 cần được theo dõi tại buồng cấp cứu hoặc đơn vị hồi xuất nhi.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C017",
+          "type": "cloze",
+          "text": "Trẻ tay chân miệng có biểu hiện run chi, ngồi không vững, hoặc đi loạng choạng được xếp vào phân độ {{c1::Độ 2b Nhóm 2}}.",
+          "extra": "Dấu hiệu thất điều tiểu não chỉ điểm tổn thương thực thể hệ thần kinh trung ương.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C018",
+          "type": "cloze",
+          "text": "Biểu hiện mắt chỉ điểm tổn thương thần kinh thuộc tiêu chuẩn Độ 2b Nhóm 2 là {{c1::rung giật nhãn cầu (nystagmus) hoặc lác mắt}}.",
+          "extra": "Tổn thương nhân dây thần kinh vận nhãn và thân não gây bất thường vận nhãn.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C019",
+          "type": "cloze",
+          "text": "Biểu hiện vận động chi chỉ điểm tổn thương sừng trước tủy sống thuộc tiêu chuẩn Độ 2b Nhóm 2 là {{c1::yếu chi hoặc liệt mềm cấp tính}}.",
+          "extra": "Tổn thương nơ-ron vận động dưới sừng trước tủy tương tự bệnh cảnh bại liệt (polio-like syndrome).",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C020",
+          "type": "cloze",
+          "text": "Hai biểu hiện tổn thương thần kinh sọ hầu họng thuộc tiêu chuẩn Độ 2b Nhóm 2 là {{c1::nuốt sặc và thay đổi giọng nói}}.",
+          "extra": "Liệt các dây thần kinh sọ số IX, X gây mất phản xạ nuốt và đọng đờm dãi hầu họng.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C021",
+          "type": "cloze",
+          "text": "Dấu hiệu tim mạch then chốt để phân loại trẻ tay chân miệng vào Độ 3 là mạch rất nhanh trên {{c1::150 lần/phút}} ở trẻ nhỏ (hoặc trên 130 lần/phút ở trẻ lớn) khi nằm yên không sốt.",
+          "extra": "Độ 3 là giai đoạn bão catecholamine toàn thân với nguy cơ phù phổi thần kinh kịch phát.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C022",
+          "type": "cloze",
+          "text": "Biểu hiện huyết áp đặc trưng trong bệnh tay chân miệng phân loại vào Độ 3 là {{c1::tăng huyết áp kịch phát}} theo tuổi.",
+          "extra": "Co mạch toàn thân do bão catecholamine làm huyết áp tăng vọt ở giai đoạn đầu.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C023",
+          "type": "cloze",
+          "text": "Dấu hiệu thần kinh tự chủ kèm theo ở trẻ tay chân miệng Độ 3 là {{c1::vã mồ hôi, da nổi vân tím và lạnh đầu chi (hoặc lạnh toàn thân)}}.",
+          "extra": "Mạch ngoại vi co thắt tối đa khiến da lạnh ngắt dù thân nhiệt trung tâm có thể đang sốt cao.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C024",
+          "type": "cloze",
+          "text": "Dấu hiệu hô hấp bất thường ở trẻ tay chân miệng Độ 3 bao gồm {{c1::thở nhanh, thở nông, thở bụng, thở rên, hoặc thở không đều}}.",
+          "extra": "Tổn thương trung tâm hô hấp tại hành não và phù mô kẽ phổi gây rối loạn nhịp thở.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C025",
+          "type": "cloze",
+          "text": "Mức điểm hôn mê Glasgow chỉ điểm biến chứng thần kinh nặng thuộc tiêu chuẩn phân loại Độ 3 là Glasgow {{c1::< 10 điểm}}.",
+          "extra": "Trẻ li bì, lơ mơ hoặc hôn mê phản ánh tổn thương lan tỏa hệ thần kinh trung ương.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C026",
+          "type": "cloze",
+          "text": "Biểu hiện lâm sàng của bệnh tay chân miệng phân loại vào Độ 4 bao gồm tình trạng {{c1::sốc}} (mạch bằng 0, huyết áp tụt), {{c1::phù phổi cấp}} và tím tái ngưng thở.",
+          "extra": "Độ 4 là tình trạng suy sụp tuần hoàn và hô hấp tối khẩn cấp đòi hỏi hồi sức tích cực tại PICU.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C027",
+          "type": "cloze",
+          "text": "Dấu hiệu lâm sàng kinh điển của phù phổi cấp thần kinh trong bệnh tay chân miệng Độ 4 là {{c1::sùi bọt hồng qua miệng hoặc nội khí quản}} kèm ran ẩm lan tỏa hai phổi.",
+          "extra": "Dịch phù giàu protein và hồng cầu tràn ngập các phế nang do áp lực mao mạch phổi bít tăng vọt.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C028",
+          "type": "cloze",
+          "text": "Ngưỡng thời gian phục hồi màu da (CRT) chỉ điểm tình trạng sốc giảm tưới máu ngoại biên trong tay chân miệng Độ 4 là CRT {{c1::≥ 3 giây}}.",
+          "extra": "Mạch ngoại vi bắt không được hoặc bắt rất nhẹ, đầu chi lạnh ngắt và nhớp dính mồ hôi.",
+          "tags": [
+            "PED-35",
+            "Phan_do"
+          ]
+        },
+        {
+          "id": "PED35-C029",
+          "type": "cloze",
+          "text": "Thời điểm xuất hiện điển hình nhất của triệu chứng giật mình chới với (myoclonic jerks) do viêm thân não EV71 là lúc trẻ {{c1::bắt đầu thiu thiu ngủ}}.",
+          "extra": "Trẻ nẩy giật người, hai tay giơ lên hốt hoảng như ai dọa rồi giật mình mở mắt khóc thét.",
+          "tags": [
+            "PED-35",
+            "Trieu_chung"
+          ]
+        },
+        {
+          "id": "PED35-C030",
+          "type": "cloze",
+          "text": "Đặc điểm hình thái vết loét miệng điển hình trong bệnh tay chân miệng là vết loét nông đường kính {{c1::2–3 mm}} ở vòm khẩu cái, niêm mạc má, lợi và lưỡi.",
+          "extra": "Loét miệng gây đau đớn dữ dội khiến trẻ chảy nhiều nước dãi và từ chối bú mẹ.",
+          "tags": [
+            "PED-35",
+            "Trieu_chung"
+          ]
+        },
+        {
+          "id": "PED35-C031",
+          "type": "cloze",
+          "text": "Vị trí phân bố chọn lọc điển hình của ban bóng nước trong bệnh tay chân miệng là ở {{c1::lòng bàn tay, lòng bàn chân, mông và hai đầu gối}}.",
+          "extra": "Bóng nước thường có hình bầu dục, màu xám đục, chạy dọc theo các đường lằn chỉ tay chỉ chân.",
+          "tags": [
+            "PED-35",
+            "Trieu_chung"
+          ]
+        },
+        {
+          "id": "PED35-C032",
+          "type": "cloze",
+          "text": "Đặc điểm cảm giác của ban bóng nước tay chân miệng là thường {{c1::không đau và không ngứa}} khi ấn (khác với thủy đậu hay côn trùng cắn).",
+          "extra": "Khi bóng nước thoái lui thường tự khô xẹp và không để lại sẹo hay vết thâm da.",
+          "tags": [
+            "PED-35",
+            "Trieu_chung"
+          ]
+        },
+        {
+          "id": "PED35-C033",
+          "type": "cloze",
+          "text": "Thời gian diễn tiến từ cơn giật mình thoáng qua đến suy hô hấp, sốc và tử vong ở thể viêm thân não tối cấp do EV71 có thể xảy ra nhanh chóng chỉ trong vòng {{c1::12 giờ}} sau nhập viện.",
+          "extra": "Nghiên cứu của Huang CC (NEJM 1999) ghi nhận 5/7 trẻ thể nặng tử vong trong vòng 12 giờ.",
+          "tags": [
+            "PED-35",
+            "Tien_luong"
+          ]
+        },
+        {
+          "id": "PED35-C034",
+          "type": "cloze",
+          "text": "Bốn dấu hiệu cảnh báo thần kinh sớm bắt buộc thuộc lòng bao gồm: {{c1::giật mình chới với, sốt cao ≥ 39°C > 48h, mạch nhanh không tương xứng, và nôn ói nhiều lần}}.",
+          "extra": "Sự xuất hiện của bất kỳ dấu hiệu nào đều chỉ điểm viêm thân não đang âm thầm tiến triển.",
+          "tags": [
+            "PED-35",
+            "Canh_bao"
+          ]
+        },
+        {
+          "id": "PED35-C035",
+          "type": "cloze",
+          "text": "Bẫy lâm sàng thường gặp khiến phụ huynh và bác sĩ trẻ bỏ sót bệnh tay chân miệng ở trẻ nhũ nhi sốt bỏ bú là chẩn đoán nhầm thành {{c1::nhiệt miệng hoặc mọc răng}}.",
+          "extra": "Luôn luôn cởi tã khám vùng mông và vạch lòng bàn chân ở mọi trẻ sốt bỏ bú chảy nước dãi.",
+          "tags": [
+            "PED-35",
+            "Bay_lam_sang"
+          ]
+        },
+        {
+          "id": "PED35-C036",
+          "type": "cloze",
+          "text": "Cách phân biệt giật mình do EV71 với giật mình sinh lý là giật mình EV71 xuất hiện {{c1::lúc thiu thiu ngủ, trẻ nẩy người giơ hai tay lên rồi mở mắt khóc}}.",
+          "extra": "Giật mình sinh lý thường chỉ giật nhẹ một chi khi có tiếng động lớn kích thích bất ngờ.",
+          "tags": [
+            "PED-35",
+            "Trieu_chung"
+          ]
+        },
+        {
+          "id": "PED35-C037",
+          "type": "cloze",
+          "text": "Đường xâm nhập chính của virus EV71 vào hệ thần kinh trung ương là di chuyển {{c1::ngược dòng sợi trục thần kinh (retrograde axonal transport)}} từ ngoại vi vào thân não.",
+          "extra": "Virus di chuyển dọc theo dây thần kinh vận động và cảm giác để tiến thẳng vào thân não và tủy sống.",
+          "tags": [
+            "PED-35",
+            "Co_che"
+          ]
+        },
+        {
+          "id": "PED35-C038",
+          "type": "cloze",
+          "text": "Tổn thương thần kinh trung ương nguyên phát do virus EV71 gây ra là bệnh cảnh {{c1::viêm thân não (rhombencephalitis)}}.",
+          "extra": "Vùng hành não, cầu não và các nhân vận mạch bị phá hủy tế bào thần kinh và viêm hoại tử.",
+          "tags": [
+            "PED-35",
+            "Co_che"
+          ]
+        },
+        {
+          "id": "PED35-C039",
+          "type": "cloze",
+          "text": "Hình ảnh tổn thương viêm đặc trưng trên MRI sọ não ở bệnh nhân EV71 thể thần kinh xuất hiện rõ rệt tại {{c1::sừng trước tủy sống, lưng cầu não và hành não}}.",
+          "extra": "Ghi nhận tăng tín hiệu trên chuỗi xung T2 tại các vị trí giải phẫu đặc hiệu này (Ooi MH 2010).",
+          "tags": [
+            "PED-35",
+            "MRI"
+          ]
+        },
+        {
+          "id": "PED35-C040",
+          "type": "cloze",
+          "text": "Cơ chế kích hoạt cơn bão Catecholamine là sự phá hủy các trung tâm vận mạch tại {{c1::hành não (medulla oblongata)}} làm mất cơ chế ức chế giao cảm.",
+          "extra": "Tuyến thượng thận và tận cùng thần kinh giao cảm phóng thích lượng ồ ạt Adrenaline và Noradrenaline.",
+          "tags": [
+            "PED-35",
+            "Co_che"
+          ]
+        },
+        {
+          "id": "PED35-C041",
+          "type": "cloze",
+          "text": "Hậu quả tức thời của cơn bão catecholamine lên hệ tuần hoàn là gây {{c1::co thắt mạch máu toàn thân kịch phát}} làm tăng vọt huyết áp và tăng hậu gánh thất trái.",
+          "extra": "Nồng độ catecholamine tăng cao gấp hàng chục lần mức bình thường kích thích mạnh thụ thể alpha-1.",
+          "tags": [
+            "PED-35",
+            "Co_che"
+          ]
+        },
+        {
+          "id": "PED35-C042",
+          "type": "cloze",
+          "text": "Hiện tượng suy sụp chức năng co bóp cơ tim cấp do tác động độc hại trực tiếp của nồng độ catecholamine tăng cao kéo dài được gọi là {{c1::choáng váng cơ tim (myocardial stunning)}}.",
+          "extra": "Tế bào cơ tim bị kiệt quệ năng lượng và quá tải canxi nội bào dẫn đến giảm phân suất tống máu.",
+          "tags": [
+            "PED-35",
+            "Co_che"
+          ]
+        },
+        {
+          "id": "PED35-C043",
+          "type": "cloze",
+          "text": "Cơ chế bệnh sinh chính dẫn đến phù phổi thần kinh do EV71 là sự kết hợp giữa {{c1::tăng áp lực mao mạch phổi bít kịch phát}} và tổn thương suy bơm thất trái cấp.",
+          "extra": "Co mạch tạng dồn thể tích máu về phổi, kết hợp hậu gánh tăng vọt làm tràn dịch phế nang.",
+          "tags": [
+            "PED-35",
+            "Co_che"
+          ]
+        },
+        {
+          "id": "PED35-C044",
+          "type": "cloze",
+          "text": "Các cytokine tiền viêm tăng vọt trong máu tạo nên cơn bão cytokine ở trẻ viêm thân não EV71 nặng bao gồm {{c1::Interleukin-6 (IL-6)}}, IL-8, IL-10 và TNF-alpha.",
+          "extra": "Bão cytokine làm tăng tính thấm thành mạch và thúc đẩy suy đa cơ quan.",
+          "tags": [
+            "PED-35",
+            "Mien_dich"
+          ]
+        },
+        {
+          "id": "PED35-C045",
+          "type": "cloze",
+          "text": "Theo Hướng dẫn ENPEN/ESCV 2018 (PMID: 29414181), hai mẫu bệnh phẩm bắt buộc phải lấy cùng với dịch não tủy để xét nghiệm RT-PCR enterovirus là {{c1::mẫu phân và dịch phết họng}}.",
+          "extra": "Virus enterovirus có thể âm tính sớm ở dịch não tủy nhưng vẫn bài xuất kéo dài nhiều tuần trong phân.",
+          "tags": [
+            "PED-35",
+            "Xet_nghiem"
+          ]
+        },
+        {
+          "id": "PED35-C046",
+          "type": "cloze",
+          "text": "Vùng gen mục tiêu được khuyến cáo giải trình tự để định type chính xác virus Enterovirus (EV typing) là gen mã hóa protein vỏ capsid {{c1::VP1}}.",
+          "extra": "Vùng 5-NCR có độ nhạy cao để phát hiện enterovirus nhưng không dùng để định type do hiện tượng tái tổ hợp.",
+          "tags": [
+            "PED-35",
+            "Vi_sinh"
+          ]
+        },
+        {
+          "id": "PED35-C047",
+          "type": "cloze",
+          "text": "Xét nghiệm đường huyết mao mạch tại giường tăng phản ứng trên ngưỡng {{c1::8.9 mmol/L}} (> 160 mg/dL) là chỉ dấu gián tiếp của cơn bão catecholamine trong EV71.",
+          "extra": "Nồng độ adrenaline tăng vọt kích thích phân giải glycogen gan và ức chế tiết insulin.",
+          "tags": [
+            "PED-35",
+            "Xet_nghiem"
+          ]
+        },
+        {
+          "id": "PED35-C048",
+          "type": "cloze",
+          "text": "Số lượng bạch cầu máu ngoại vi tăng cao trên ngưỡng {{c1::16.0 × 10⁹/L}} là một yếu tố nguy cơ độc lập chỉ điểm bệnh tay chân miệng chuyển độ nặng.",
+          "extra": "Bạch cầu tăng cao phản ánh đáp ứng viêm hệ thống dữ dội do giải phóng ồ ạt cytokine.",
+          "tags": [
+            "PED-35",
+            "Xet_nghiem"
+          ]
+        },
+        {
+          "id": "PED35-C049",
+          "type": "cloze",
+          "text": "Hai xét nghiệm men tim cần chỉ định để đánh giá tổn thương cơ tim ở trẻ tay chân miệng Độ 3 và Độ 4 là {{c1::Troponin I và CK-MB}}.",
+          "extra": "Men tim tăng cao chỉ điểm viêm cơ tim hoặc hoại tử cơ tim do độc tính catecholamine.",
+          "tags": [
+            "PED-35",
+            "Xet_nghiem"
+          ]
+        },
+        {
+          "id": "PED35-C050",
+          "type": "cloze",
+          "text": "Hình ảnh tổn thương điển hình trên X-quang phổi ở bệnh nhi phù phổi thần kinh do EV71 là {{c1::mờ phế nang lan tỏa hình cánh bướm}} hai bên phế trường.",
+          "extra": "Tổn thương phổi tiến triển rất nhanh chỉ trong vài giờ từ khi xuất hiện thở bất thường.",
+          "tags": [
+            "PED-35",
+            "X_quang"
+          ]
+        },
+        {
+          "id": "PED35-C051",
+          "type": "cloze",
+          "text": "Biến đổi khí máu động mạch thường gặp ở bệnh nhi tay chân miệng giai đoạn sốc và phù phổi là tình trạng {{c1::toan chuyển hóa và tăng nồng độ lactate máu}}.",
+          "extra": "Thiếu oxy tổ chức và co mạch ngoại biên nặng nề dẫn đến chuyển hóa yếm khí sinh acid lactic.",
+          "tags": [
+            "PED-35",
+            "Khi_mau"
+          ]
+        },
+        {
+          "id": "PED35-C052",
+          "type": "cloze",
+          "text": "Thuốc an thần được ưu tiên lựa chọn đường uống cho trẻ tay chân miệng Độ 2b với liều 5–7 mg/kg/ngày là {{c1::Phenobarbital}}.",
+          "extra": "Phenobarbital ức chế chọn lọc sự quá kích thích của hệ lưới thân não, giảm giật mình và dịu giao cảm.",
+          "tags": [
+            "PED-35",
+            "Duoc_ly"
+          ]
+        },
+        {
+          "id": "PED35-C053",
+          "type": "cloze",
+          "text": "Khi trẻ mắc bệnh tay chân miệng có cơn co giật thực thể, chỉ định tiêm tĩnh mạch chậm thuốc chống co giật {{c1::Phenobarbital}} với liều 10–20 mg/kg pha loãng tiêm trong 15–30 phút.",
+          "extra": "Luôn chuẩn bị sẵn bóng bóp mask và dụng cụ hút đờm vì thuốc có thể gây ức chế hô hấp.",
+          "tags": [
+            "PED-35",
+            "Duoc_ly"
+          ]
+        },
+        {
+          "id": "PED35-C054",
+          "type": "cloze",
+          "text": "Cơ chế tác dụng dược lý nổi bật của Phenobarbital trong bệnh tay chân miệng thể thần kinh là {{c1::ức chế chọn lọc hệ lưới thân não}} và tăng cường dẫn truyền ức chế qua thụ thể GABA-A.",
+          "extra": "Khác với Benzodiazepine đơn thuần, Phenobarbital kiểm soát cơn bão giao cảm trung ương hiệu quả hơn.",
+          "tags": [
+            "PED-35",
+            "Duoc_ly"
+          ]
+        },
+        {
+          "id": "PED35-C055",
+          "type": "cloze",
+          "text": "Liều lượng Immune Globulin (IVIG) chuẩn theo phác đồ điều trị trẻ tay chân miệng Độ 2b Nhóm 2 và Độ 3 là {{c1::1 g/kg/ngày x 2 ngày}} liên tiếp hoặc liều duy nhất 2 g/kg truyền trong 12–24 giờ.",
+          "extra": "IVIG giúp cung cấp kháng thể trung hòa virus EV71 và điều hòa miễn dịch làm giảm bão cytokine.",
+          "tags": [
+            "PED-35",
+            "Duoc_ly"
+          ]
+        },
+        {
+          "id": "PED35-C056",
+          "type": "cloze",
+          "text": "Chỉ định dùng IVIG ở phân độ Độ 2b Nhóm 1 là khi trẻ có {{c1::sốt cao liên tục không hạ kèm mạch nhanh > 150 lần/phút}}.",
+          "extra": "Can thiệp IVIG sớm ở nhóm nguy cơ cao giúp ngăn chặn diễn tiến chuyển thành Độ 3.",
+          "tags": [
+            "PED-35",
+            "Duoc_ly"
+          ]
+        },
+        {
+          "id": "PED35-C057",
+          "type": "cloze",
+          "text": "Thuốc ức chế men phosphodiesterase-3 (PDE-3) được chỉ định truyền tĩnh mạch liên tục ở trẻ tay chân miệng Độ 3 là {{c1::Milrinone}}.",
+          "extra": "Milrinone làm tăng cAMP nội bào, vừa tăng co bóp cơ tim vừa giãn mạch ngoại biên và mạch phổi.",
+          "tags": [
+            "PED-35",
+            "Duoc_ly"
+          ]
+        },
+        {
+          "id": "PED35-C058",
+          "type": "cloze",
+          "text": "Liều truyền tĩnh mạch duy trì chuẩn của Milrinone trong điều trị bệnh tay chân miệng Độ 3 là {{c1::0.25–0.75 µg/kg/phút}} (thường khởi đầu 0.5 µg/kg/phút).",
+          "extra": "Không tiêm bolus liều nạp nếu trẻ có nguy cơ tụt huyết áp hoặc huyết động không ổn định.",
+          "tags": [
+            "PED-35",
+            "Duoc_ly"
+          ]
+        },
+        {
+          "id": "PED35-C059",
+          "type": "cloze",
+          "text": "Hai tác dụng kép của Milrinone giúp cứu sống bệnh nhi tay chân miệng Độ 3 là {{c1::tăng co bóp cơ tim (inotropic) và giãn mạch hạ hậu gánh (vasodilation)}}.",
+          "extra": "Hạ hậu gánh thất trái làm giảm tức thì áp lực mao mạch phổi bít, cắt đứt cơ chế phù phổi cấp.",
+          "tags": [
+            "PED-35",
+            "Duoc_ly"
+          ]
+        },
+        {
+          "id": "PED35-C060",
+          "type": "cloze",
+          "text": "Thử nghiệm lâm sàng ngẫu nhiên đối chứng (RCT) của Chi CY & Khanh TH (2013) tại TP. Hồ Chí Minh chứng minh Milrinone làm giảm đáng kể {{c1::tỷ lệ tử vong 1 tuần}} và kéo dài số ngày không thở máy.",
+          "extra": "Thử nghiệm chứng minh tỷ lệ tử vong giảm từ 57.9% xuống 18.2% với RR = 0.314 (p = 0.01).",
+          "tags": [
+            "PED-35",
+            "RCT"
+          ]
+        },
+        {
+          "id": "PED35-C061",
+          "type": "cloze",
+          "text": "Thuốc vận mạch tăng co bóp cơ tim đầu tay được phối hợp khi trẻ tay chân miệng Độ 4 có huyết áp tụt trơ với Milrinone là {{c1::Dobutamine}} (liều 5–15 µg/kg/phút).",
+          "extra": "Dobutamine kích thích chọn lọc thụ thể beta-1 adrenergic tăng sức co bóp cơ tim.",
+          "tags": [
+            "PED-35",
+            "Hoi_suc"
+          ]
+        },
+        {
+          "id": "PED35-C062",
+          "type": "cloze",
+          "text": "Khi trẻ tay chân miệng Độ 4 rơi vào sốc kháng dobutamine và huyết áp tụt sâu, thuốc co mạch nâng huyết áp ưu tiên phối hợp là {{c1::Noradrenaline}} (liều 0.1–1.0 µg/kg/phút).",
+          "extra": "Noradrenaline kích thích thụ thể alpha-1 nâng kháng lực mạch máu hệ thống duy trì tưới máu mạch vành và não.",
+          "tags": [
+            "PED-35",
+            "Hoi_suc"
+          ]
+        },
+        {
+          "id": "PED35-C063",
+          "type": "cloze",
+          "text": "Điều tuyệt đối cấm kỵ khi xử trí suy tuần hoàn / sốc do EV71 là không được {{c1::truyền dịch bolus nhanh 20 ml/kg}} như trong sốc giảm thể tích.",
+          "extra": "Cơ chế sốc là suy bơm tim cấp và co mạch phổi; bolus dịch nhanh sẽ gây phù phổi cấp bọt hồng tử vong ngay.",
+          "tags": [
+            "PED-35",
+            "Chong_chi_dinh"
+          ]
+        },
+        {
+          "id": "PED35-C064",
+          "type": "cloze",
+          "text": "Thuốc kháng viêm tuyệt đối KHÔNG được sử dụng thường quy trong bệnh tay chân miệng vì làm tăng nhân lên của virus và ức chế miễn dịch là {{c1::Corticosteroid (Dexamethasone/Methylprednisolone)}}.",
+          "extra": "Nhiều nghiên cứu đối chứng cho thấy Corticoid không cải thiện phù não mà làm tăng tỷ lệ tử vong ở trẻ EV71.",
+          "tags": [
+            "PED-35",
+            "Chong_chi_dinh"
+          ]
+        },
+        {
+          "id": "PED35-C065",
+          "type": "cloze",
+          "text": "Thuốc hạ sốt tuyệt đối chống chỉ định ở trẻ em mắc bệnh tay chân miệng do nguy cơ gây hội chứng Reye hoại tử gan não là {{c1::Aspirin}}.",
+          "extra": "Thuốc hạ sốt an toàn được lựa chọn hàng đầu là Paracetamol liều 10–15 mg/kg mỗi 4–6 giờ.",
+          "tags": [
+            "PED-35",
+            "Chong_chi_dinh"
+          ]
+        },
+        {
+          "id": "PED35-C066",
+          "type": "cloze",
+          "text": "Thủ thuật xâm lấn cần tránh làm vội vã lúc trẻ đang có bão catecholamine tăng huyết áp kịch phát vì có thể kích hoạt phù phổi cấp là {{c1::chọc dò tủy sống}}.",
+          "extra": "Kích thích đau đớn dữ dội làm bùng phát thêm giải phóng catecholamine gây co mạch phổi tức thì.",
+          "tags": [
+            "PED-35",
+            "Canh_bao"
+          ]
+        },
+        {
+          "id": "PED35-C067",
+          "type": "cloze",
+          "text": "Hành động sai lầm của phụ huynh tuyệt đối phải tránh khi chăm sóc bóng nước tay chân miệng là {{c1::chọc vỡ các nốt bóng nước trên da}}.",
+          "extra": "Chọc vỡ bóng nước phá hủy hàng rào bảo vệ tự nhiên, tạo ngõ vào cho tụ cầu gây nhiễm trùng huyết.",
+          "tags": [
+            "PED-35",
+            "Cham_soc"
+          ]
+        },
+        {
+          "id": "PED35-C068",
+          "type": "cloze",
+          "text": "Tư thế nằm đầu cao chuẩn được khuyến cáo cho bệnh nhi tay chân miệng từ phân độ 2b trở lên là nằm đầu cao {{c1::30 độ}}.",
+          "extra": "Tư thế này giúp tăng cường dẫn lưu tĩnh mạch não, giảm phù não và hỗ trợ cơ học thông khí.",
+          "tags": [
+            "PED-35",
+            "Cham_soc"
+          ]
+        },
+        {
+          "id": "PED35-C069",
+          "type": "cloze",
+          "text": "Mức áp lực dương cuối kỳ thở ra (PEEP) cao được cài đặt khi thở máy ở bệnh nhi phù phổi thần kinh do EV71 là từ {{c1::8–12 cmH2O}}.",
+          "extra": "PEEP cao giúp mở các phế nang bị xẹp và chống lại áp lực thủy tĩnh ngăn dịch tràn vào lòng phế nang.",
+          "tags": [
+            "PED-35",
+            "Tho_may"
+          ]
+        },
+        {
+          "id": "PED35-C070",
+          "type": "cloze",
+          "text": "Bệnh lý nhiễm virus cần chẩn đoán phân biệt với loét miệng tay chân miệng có đặc điểm mụn nước mọc thành chùm quanh mép môi và viêm lợi chảy máu là {{c1::Herpes simplex virus (HSV)}}.",
+          "extra": "HSV thường gây viêm lợi miệng cấp tính với nướu răng sưng đỏ, đau rát và tổn thương quanh môi.",
+          "tags": [
+            "PED-35",
+            "Chan_doan_phan_biet"
+          ]
+        },
+        {
+          "id": "PED35-C071",
+          "type": "cloze",
+          "text": "Đặc điểm phân bố tổn thương giúp phân biệt Thủy đậu với Tay chân miệng là bóng nước thủy đậu phân bố chủ yếu ở {{c1::thân mình, mặt và da đầu}} với nhiều lứa tuổi khác nhau.",
+          "extra": "Bóng nước tay chân miệng chọn lọc ở lòng bàn tay, bàn chân, mông và không ngứa.",
+          "tags": [
+            "PED-35",
+            "Chan_doan_phan_biet"
+          ]
+        },
+        {
+          "id": "PED35-C072",
+          "type": "cloze",
+          "text": "Bệnh lý ngoài da nhiễm trùng cần phân biệt với ban tay chân miệng có bóng nước dễ vỡ đóng vảy tiết màu vàng mật ong là {{c1::chốc lây (impetigo)}}.",
+          "extra": "Chốc lây do tụ cầu hoặc liên cầu khuẩn, đáp ứng với kháng sinh bôi hoặc uống.",
+          "tags": [
+            "PED-35",
+            "Chan_doan_phan_biet"
+          ]
+        },
+        {
+          "id": "PED35-C073",
+          "type": "cloze",
+          "text": "Tổn thương loét miệng lành tính hay tái phát ở niêm mạc má lưỡi nhưng hoàn toàn không kèm theo ban da hay biến chứng toàn thân là {{c1::viêm loét miệng Aphthe (Aphthous stomatitis)}}.",
+          "extra": "Aphthe thường đơn độc hoặc vài nốt, bờ rõ, đáy vàng nhạt, không lây nhiễm.",
+          "tags": [
+            "PED-35",
+            "Chan_doan_phan_biet"
+          ]
+        },
+        {
+          "id": "PED35-C074",
+          "type": "cloze",
+          "text": "Hiệu lực bảo vệ của vắc xin bất hoạt Enterovirus 71 (EV71) đối với bệnh tay chân miệng thể nặng và nhập viện trong thử nghiệm pha 3 đạt trên {{c1::90%}}.",
+          "extra": "Vắc xin EV71 tạo kháng thể trung hòa bảo vệ bền vững ở trẻ nhỏ từ 6 đến 35 tháng tuổi (Li R 2014).",
+          "tags": [
+            "PED-35",
+            "Vac_xin"
+          ]
+        },
+        {
+          "id": "PED35-C075",
+          "type": "cloze",
+          "text": "Hạn chế của vắc xin bất hoạt EV71 hiện nay là {{c1::không có khả năng bảo vệ chéo}} đối với các chủng enterovirus khác như Coxsackievirus A16 hay A6.",
+          "extra": "Trẻ đã tiêm vắc xin EV71 vẫn có thể mắc bệnh tay chân miệng do CVA16 hoặc CVA6 nhưng nguy cơ thể nặng giảm.",
+          "tags": [
+            "PED-35",
+            "Vac_xin"
+          ]
+        },
+        {
+          "id": "PED35-C076",
+          "type": "cloze",
+          "text": "Nghiên cứu theo dõi dài hạn của Chang LY (NEJM 2007) cho thấy trẻ từng bị viêm thân não do EV71 nặng có nguy cơ gặp di chứng lâu dài về {{c1::phát triển thần kinh và suy giảm nhận thức}}.",
+          "extra": "Trẻ cần được theo dõi đánh giá tâm vận và can thiệp phục hồi chức năng định kỳ sau xuất viện.",
+          "tags": [
+            "PED-35",
+            "Di_chung"
+          ]
+        },
+        {
+          "id": "PED35-C077",
+          "type": "cloze",
+          "text": "Tỷ lệ di chứng thần kinh kéo dài ở trẻ từng trải qua viêm thân não EV71 có biến chứng phù phổi cao hơn rõ rệt so với nhóm {{c1::chỉ có viêm thân não đơn thuần}}.",
+          "extra": "Thiếu oxy não và tụt huyết áp trong giai đoạn sốc góp phần làm trầm trọng thêm tổn thương nơ-ron.",
+          "tags": [
+            "PED-35",
+            "Di_chung"
+          ]
+        },
+        {
+          "id": "PED35-C078",
+          "type": "cloze",
+          "text": "Dấu hiệu báo động đỏ quan trọng nhất cần hướng dẫn phụ huynh phát hiện khi theo dõi trẻ tay chân miệng Độ 1 tại nhà là {{c1::giật mình chới với lúc thiu thiu ngủ}}.",
+          "extra": "Xuất hiện giật mình chỉ điểm bệnh đã chuyển từ Độ 1 sang Độ 2 cần đưa trẻ đi cấp cứu ngay.",
+          "tags": [
+            "PED-35",
+            "Giao_duc_phu_huynh"
+          ]
+        },
+        {
+          "id": "PED35-C079",
+          "type": "cloze",
+          "text": "Chế độ ăn được khuyến cáo cho trẻ có vết loét miệng gây đau trong bệnh tay chân miệng là thức ăn {{c1::lỏng, mềm, nguội và chia nhỏ bữa}}.",
+          "extra": "Tránh thức ăn chua, cay, mặn hoặc quá nóng vì gây kích ứng đau đớn các vết loét miệng.",
+          "tags": [
+            "PED-35",
+            "Cham_soc"
+          ]
+        },
+        {
+          "id": "PED35-C080",
+          "type": "cloze",
+          "text": "Biện pháp vệ sinh khoang miệng an toàn cho trẻ mắc bệnh tay chân miệng là rơ miệng nhẹ nhàng bằng {{c1::nước muối sinh lý 0.9%}} hoặc dung dịch sát khuẩn miệng chuyên dụng.",
+          "extra": "Tránh chà xát mạnh làm trầy xước niêm mạc gây chảy máu và đau đớn thêm cho trẻ.",
+          "tags": [
+            "PED-35",
+            "Cham_soc"
+          ]
+        },
+        {
+          "id": "PED35-C081",
+          "type": "cloze",
+          "text": "Khoảng thời gian tái khám định kỳ được khuyến cáo cho trẻ tay chân miệng Độ 1 điều trị ngoại trú là mỗi {{c1::1–2 ngày}} một lần cho đến khi hết sốt ít nhất 48 giờ.",
+          "extra": "Tái khám định kỳ giúp bác sĩ đánh giá lại phân độ và phát hiện sớm các ca bệnh chuyển độ ngấm ngầm.",
+          "tags": [
+            "PED-35",
+            "Theo_doi"
+          ]
+        },
+        {
+          "id": "PED35-C082",
+          "type": "cloze",
+          "text": "Các vật dụng sinh hoạt và đồ chơi của trẻ tay chân miệng cần được ngâm rửa khử khuẩn bằng {{c1::dung dịch Cloramin B 2%}} hoặc chất tẩy rửa gia dụng có Clo trong ít nhất 30 phút.",
+          "extra": "Khử trùng bề mặt sàn nhà và đồ chơi giúp ngăn ngừa lây lan thành ổ dịch trong gia đình và trường mẫu giáo.",
+          "tags": [
+            "PED-35",
+            "Phong_ngua"
+          ]
+        },
+        {
+          "id": "PED35-C083",
+          "type": "cloze",
+          "text": "Thuốc giảm đau hạ sốt an toàn tuyệt đối được lựa chọn cho trẻ mắc bệnh tay chân miệng là {{c1::Paracetamol (liều 10–15 mg/kg mỗi 4–6 giờ)}}.",
+          "extra": "Tổng liều Paracetamol không vượt quá 60 mg/kg/ngày để tránh nguy cơ ngộ độc hoại tử tế bào gan.",
+          "tags": [
+            "PED-35",
+            "Duoc_ly"
+          ]
+        },
+        {
+          "id": "PED35-C084",
+          "type": "cloze",
+          "text": "Biện pháp theo dõi tri giác tại nhà đơn giản nhất hướng dẫn cho bố mẹ là quan sát {{c1::mức độ tương tác của trẻ khi hết sốt}} (trẻ có chơi ngoan, mắt sáng hay lừ đừ nhìn vô hồn).",
+          "extra": "Trẻ lừ đừ, quấy khóc vô cớ ngay cả khi đã hạ sốt là dấu hiệu báo động tổn thương thần kinh.",
+          "tags": [
+            "PED-35",
+            "Theo_doi"
+          ]
+        }
+      ],
+      "apkg_file": null,
+      "html_file": null,
+      "folder_rel": "05_Truyen_nhiem/PED-35_Benh_Tay_Chan_Mieng"
     },
     {
       "id": "PED-47",
