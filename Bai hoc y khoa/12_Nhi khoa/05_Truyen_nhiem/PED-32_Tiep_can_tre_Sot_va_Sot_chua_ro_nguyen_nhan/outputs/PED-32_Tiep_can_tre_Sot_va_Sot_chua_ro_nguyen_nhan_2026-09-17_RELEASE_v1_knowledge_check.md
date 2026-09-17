@@ -25,7 +25,7 @@ _Không có câu phù hợp._
 
 ## B. Thresholds and numbers
 
-1. Sốt ở trẻ em được xác định theo tiêu chuẩn vàng khi thân nhiệt đo tại hậu môn đạt mức ≥ _____ (hoặc đo tại nách đạt ≥ _____).
+1. Sốt ở trẻ em được xác định theo tiêu chuẩn vàng khi thân nhiệt đo tại hậu môn đạt mức ≥ _____ (hoặc đo tại nách đạt ≥ 37.5°C).
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
@@ -53,7 +53,7 @@ Trả lời đầy đủ ngưỡng/số liệu:
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-8. Chìa khóa phân tử trực tiếp làm nâng điểm đặt nhiệt độ tại vùng dưới đồi là phân tử lipid _____, được tổng hợp qua enzyme cảm ứng _____.
+8. Chìa khóa phân tử trực tiếp làm nâng điểm đặt nhiệt độ tại vùng dưới đồi là phân tử lipid _____, được tổng hợp qua enzyme cảm ứng COX-2.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
@@ -65,7 +65,7 @@ Trả lời đầy đủ ngưỡng/số liệu:
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-11. Ở trẻ nhũ nhi dưới 1 tuổi, cơ chế sinh nhiệt không run cơ đặc biệt quan trọng dựa vào chuyển hóa của _____ thông qua protein tách cặp _____.
+11. Ở trẻ nhũ nhi dưới 1 tuổi, cơ chế sinh nhiệt không run cơ đặc biệt quan trọng dựa vào chuyển hóa của _____ thông qua protein tách cặp UCP-1.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
@@ -97,7 +97,7 @@ Trả lời đầy đủ ngưỡng/số liệu:
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-19. Phác đồ kháng sinh tĩnh mạch đầu tay theo kinh nghiệm bắt buộc cho trẻ sơ sinh sốt nhập viện là phối hợp _____ (đặc trị Listeria và Enterococcus) kết hợp với _____.
+19. Phác đồ kháng sinh tĩnh mạch đầu tay theo kinh nghiệm bắt buộc cho trẻ sơ sinh sốt nhập viện là phối hợp _____ (đặc trị Listeria và Enterococcus) kết hợp với Cefotaxime (hoặc Gentamicin).
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
@@ -125,11 +125,11 @@ Trả lời đầy đủ ngưỡng/số liệu:
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-26. Liều chuẩn của Paracetamol đường uống ở trẻ em là _____ cho mỗi lần dùng, khoảng cách giữa hai liều tối thiểu từ _____.
+26. Liều chuẩn của Paracetamol đường uống ở trẻ em là _____ cho mỗi lần dùng, khoảng cách giữa hai liều tối thiểu từ 4 đến 6 giờ.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-27. Tổng liều Paracetamol tối đa cho phép trong vòng 24 giờ ở trẻ em không được vượt quá _____, và trần liều người lớn không quá _____.
+27. Tổng liều Paracetamol tối đa cho phép trong vòng 24 giờ ở trẻ em không được vượt quá _____, và trần liều người lớn không quá 4000 mg/ngày.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
@@ -137,11 +137,11 @@ Trả lời đầy đủ ngưỡng/số liệu:
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-29. Liều chuẩn của Ibuprofen đường uống ở trẻ em là _____ cho mỗi lần dùng, khoảng cách giữa hai liều từ _____.
+29. Liều chuẩn của Ibuprofen đường uống ở trẻ em là _____ cho mỗi lần dùng, khoảng cách giữa hai liều từ 6 đến 8 giờ.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-30. Tổng liều Ibuprofen tối đa hàng ngày ở trẻ em không được vượt quá _____, và trần liều người lớn tối đa không quá _____.
+30. Tổng liều Ibuprofen tối đa hàng ngày ở trẻ em không được vượt quá _____, và trần liều người lớn tối đa không quá 1200 đến 2400 mg/ngày.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
@@ -205,15 +205,15 @@ Trả lời đầy đủ ngưỡng/số liệu:
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-46. Theo AAP 2021, ở trẻ nhũ nhi sốt nhóm _____, chọc dò tủy sống (LP) và dùng kháng sinh tĩnh mạch là _____ bất kể kết quả biomarker viêm thế nào.
+46. Theo AAP 2021, ở trẻ nhũ nhi sốt nhóm 8 đến 21 ngày tuổi, chọc dò tủy sống (LP) và dùng kháng sinh tĩnh mạch là _____ bất kể kết quả biomarker viêm thế nào.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-47. Theo AAP 2021, ở nhóm trẻ nhũ nhi sốt từ _____, việc chọc dò tủy sống có thể tránh được nếu TẤT CẢ xét nghiệm nước tiểu và _____ đều bình thường.
+47. Theo AAP 2021, ở nhóm trẻ nhũ nhi sốt từ 22 đến 28 ngày tuổi, việc chọc dò tủy sống có thể tránh được nếu TẤT CẢ xét nghiệm nước tiểu và _____ (Procalcitonin, CRP, ANC) đều bình thường.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-48. Theo AAP 2021, đối với trẻ nhũ nhi sốt từ _____ thỏa mãn tiêu chuẩn nguy cơ thấp, việc theo dõi _____ là an toàn và được khuyến cáo.
+48. Theo AAP 2021, đối với trẻ nhũ nhi sốt từ 29 đến 60 ngày tuổi thỏa mãn tiêu chuẩn nguy cơ thấp, việc theo dõi _____ là an toàn và được khuyến cáo.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
@@ -221,7 +221,7 @@ Trả lời đầy đủ ngưỡng/số liệu:
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-50. Quy tắc dự đoán lâm sàng PECARN xác định trẻ nguy cơ thấp khi thỏa mãn 3 tiêu chí: tổng phân tích nước tiểu âm tính, ANC ≤ _____ và Procalcitonin ≤ _____.
+50. Quy tắc dự đoán lâm sàng PECARN xác định trẻ nguy cơ thấp khi thỏa mãn 3 tiêu chí: tổng phân tích nước tiểu âm tính, ANC ≤ 4,090/µL và Procalcitonin ≤ _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
@@ -293,7 +293,7 @@ Trả lời đầy đủ ngưỡng/số liệu:
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-68. Theo tiêu chuẩn Rochester 1985, ngưỡng số lượng bạch cầu máu an toàn là từ _____ và số lượng bạch cầu non (bands) phải dưới _____.
+68. Theo tiêu chuẩn Rochester 1985, ngưỡng số lượng bạch cầu máu an toàn là từ _____ và số lượng bạch cầu non (bands) phải dưới 1,500/mm³.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
@@ -309,7 +309,7 @@ Trả lời đầy đủ ngưỡng/số liệu:
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-72. Theo tổng quan Chow & Robinson 2011, tỷ lệ các nhóm căn nguyên FUO gồm: Nhiễm trùng _____, Bệnh tự miễn mô liên kết _____, Bệnh ác tính _____ và Tự thoái lui không rõ nguyên nhân _____.
+72. Theo tổng quan Chow & Robinson 2011, tỷ lệ các nhóm căn nguyên FUO gồm: Nhiễm trùng _____, Bệnh tự miễn mô liên kết 9%, Bệnh ác tính 6% và Tự thoái lui không rõ nguyên nhân 23%.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
@@ -357,11 +357,11 @@ Trả lời đầy đủ ngưỡng/số liệu:
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-84. Trong quy tắc đèn giao thông NICE, trẻ từ 3 đến 6 tháng tuổi có thân nhiệt ≥ _____ được xếp vào nhóm nguy cơ _____.
+84. Trong quy tắc đèn giao thông NICE, trẻ từ 3 đến 6 tháng tuổi có thân nhiệt ≥ 39.0°C được xếp vào nhóm nguy cơ _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-85. Trong quy tắc đèn giao thông NICE, trẻ dưới 3 tháng tuổi có thân nhiệt ≥ _____ tự động được xếp vào nhóm nguy cơ _____.
+85. Trong quy tắc đèn giao thông NICE, trẻ dưới 3 tháng tuổi có thân nhiệt ≥ 38.0°C tự động được xếp vào nhóm nguy cơ _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
@@ -374,13 +374,261 @@ Trả lời đầy đủ ngưỡng/số liệu:
 Trả lời đầy đủ ngưỡng/số liệu: 
 
 88. Tiêu chuẩn Rochester kinh điển 1985 loại trừ nhiễm trùng xương khớp và mô mềm dựa trên việc thăm khám tỉ mỉ không phát hiện sưng nóng đỏ đau ở _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+89. Trong Bước 1 tiếp cận FUO, việc đo thân nhiệt trực tiếp tại viện trước mặt nhân viên y tế nhằm loại trừ hội chứng giả bệnh là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+90. Biểu đồ nhiệt độ hình gai nhọn dao động biên độ lớn (Hectic/Spiking fever) trong FUO gợi ý căn nguyên _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+91. Biểu đồ nhiệt độ hình cao nguyên liên tục ít dao động trong sốt kéo dài kinh điển gợi ý bệnh _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+92. Trong xét nghiệm bậc 1 của FUO, phết máu ngoại biên do bác sĩ huyết học đọc trực tiếp nhằm phát hiện mầm bệnh ác tính là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+93. Quy tắc lấy mẫu cấy máu trong FUO bậc 1 là phải lấy tối thiểu _____ ở hai vị trí tĩnh mạch khác nhau trước khi dùng kháng sinh.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+94. Hai chỉ dấu sinh học đánh giá phản ứng viêm pha cấp cơ bản trong xét nghiệm FUO bậc 1 là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+95. Trong xét nghiệm FUO bậc 2, nồng độ Ferritin huyết thanh tăng vọt rất cao (> 1000 ng/mL) gợi ý hai bệnh lý là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+96. Trong xét nghiệm FUO bậc 2, siêu âm tim Doppler màu đóng vai trò mấu chốt loại trừ hai bệnh lý tim mạch nguy hiểm là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+97. Trong thăm dò FUO bậc 3, chọc hút và sinh thiết tủy xương là chỉ định bắt buộc khi trẻ có biểu hiện _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+98. Trong thăm dò FUO bậc 3, kỹ thuật hình ảnh y học hạt nhân hiện đại giúp định vị toàn thân các ổ viêm sâu và u kín đáo là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+99. Sai lầm phổ biến khi dùng kháng sinh bao vây theo kinh nghiệm cho mọi trẻ sốt không rõ ổ nhiễm là kháng sinh _____, mà còn gây loạn khuẩn ruột.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+100. Cơ chế nguy hiểm của việc cho trẻ uống xen kẽ Paracetamol và Ibuprofen mỗi 2-3 giờ tại nhà là làm tăng vọt nguy cơ _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+101. Trong vùng dịch tễ Sốt xuất huyết Dengue, việc dùng Ibuprofen hạ sốt bị CẤM TUYỆT ĐỐI vì gây biến chứng đe dọa tính mạng là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+102. Cơ chế Ibuprofen gây xuất huyết nặng trong Dengue là do ức chế enzyme COX-1 làm phong bế tổng hợp _____, gây ức chế kết tập tiểu cầu không hồi phục.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+103. Không được cho trẻ sơ sinh sốt (< 28 ngày tuổi) về nhà theo dõi vì biểu hiện bên ngoài tỉnh táo bú tốt có thể là _____ trước cơn bão nhiễm khuẩn tối cấp.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+104. Tỷ lệ nhiễm trùng nặng thực sự ở trẻ sơ sinh dưới 28 ngày tuổi bị sốt lên tới _____, đòi hỏi nhập viện bắt buộc.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+105. Lau mát cho trẻ bằng rượu cồn là sai lầm nguy hiểm vì hơi cồn bay hơi hấp thu qua da và hô hấp gây _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+106. Chườm đá lạnh vào trán và nách khi trẻ đang sốt cao gây phản tác dụng vì kích hoạt phản xạ co mạch ngoại vi và _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+107. Quan niệm sai lầm cho rằng sốt cao đơn thuần do nhiễm trùng sẽ gây bại não là vô căn cứ vì thân nhiệt sốt hiếm khi vượt quá _____ nhờ cơ chế điều hòa âm tính.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+108. Co giật do sốt chỉ xảy ra ở 2–5% trẻ có cơ địa nhạy cảm gen thần kinh trong độ tuổi _____, chứ không phải xảy ra ở mọi đứa trẻ sốt cao.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+109. Bỏ quên xét nghiệm nước tiểu ở trẻ nhỏ sốt không rõ ổ nhiễm là cạm bẫy lớn vì nhiễm trùng tiểu tiềm ẩn có thể dẫn đến biến chứng lâu dài là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+110. Dùng Corticoid sớm để cắt sốt trong hội chứng FUO bị cấm vì sẽ làm lu mờ triệu chứng bệnh ác tính là _____ và làm biến đổi tủy đồ khiến chẩn đoán bị trì hoãn.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+111. Ở trẻ thừa cân béo phì, liều thuốc hạ sốt Paracetamol BẮT BUỘC phải tính theo _____ chứ không dùng cân nặng thực tế.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+112. Lý do không tính liều Paracetamol theo cân nặng thực tế ở trẻ béo phì là vì Paracetamol tan trong nước ít phân bố vào mô mỡ, và trẻ béo phì có tình trạng _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+113. Trần liều Paracetamol tối đa của một lần uống ở trẻ em dù nặng cân đến đâu cũng tuyệt đối không được vượt quá trần liều người lớn là _____ (hoặc 4000 mg/ngày).
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+114. Khi tiếp nhận một trẻ sơ sinh 18 ngày tuổi sốt 38.5°C nhưng hoàn toàn tỉnh táo và đang bú mẹ tốt, thái độ xử trí đúng đắn duy nhất là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+115. Bệnh cảnh trẻ 2 tuổi sốt kéo dài 9 ngày hình gai nhọn kèm ban màu hồng cá hồi lặn nhanh theo cơn sốt và sưng khớp gối hướng tới chẩn đoán hàng đầu là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+116. Biến chứng tối cấp đe dọa tính mạng cần theo dõi sát ở bệnh nhi mắc sJIA có sốt kéo dài và Ferritin máu tăng vọt là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+117. Trong Hội chứng kích hoạt đại thực bào (MAS), các xét nghiệm đông máu và sinh hóa thường biểu hiện bất thường gồm _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+118. Tình trạng một trẻ bị bỏ quên trong xe ô tô đóng kín cửa giữa trời nắng có da khô nóng rực không có mồ hôi và hôn mê là bệnh cảnh của _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+119. Trong say nóng (Heat stroke), điểm đặt nhiệt độ vùng dưới đồi hoàn toàn bình thường, do đó các thuốc hạ sốt như Paracetamol hay Ibuprofen _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+120. Biện pháp cấp cứu sống còn số 1 trong say nóng sốc nhiệt là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+121. Trong Ca lâm sàng 1, bé gái 42 ngày tuổi sốt 38.9°C tỉnh táo được phân loại vào nhóm tuổi nguy cơ trung bình theo AAP 2021 là nhóm _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+122. Kết quả tổng phân tích nước tiểu của bé gái 42 ngày tuổi dương tính với cả hai chỉ số quan trọng là _____, khẳng định nhiễm trùng đường tiểu.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+123. Trong nghiên cứu PECARN, ngưỡng bạch cầu đa nhân trung tính tuyệt đối (ANC) an toàn là ≤ 4090/µL; ở bé gái Ca 1, chỉ số ANC là _____, vi phạm tiêu chí nguy cơ thấp.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+124. Tác nhân vi khuẩn Gram âm phân lập được trong cấy nước tiểu của bé gái 42 ngày tuổi là _____ với số lượng > 10^5 CFU/mL.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+125. Kháng sinh đường tĩnh mạch được lựa chọn điều trị ban đầu cho bé gái 42 ngày tuổi viêm đài bể thận do E. coli là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+126. Tổng thời gian điều trị kháng sinh (tĩnh mạch chuyển sang uống) được khuyến cáo cho nhiễm trùng tiểu có sốt ở trẻ nhỏ để phòng ngừa sẹo thận là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+127. Trong Ca lâm sàng 2, bé trai 4 tuổi sốt liên tục 16 ngày đã dùng 3 đợt kháng sinh phổ rộng không đỡ, biểu hiện ban da đặc trưng là _____ xuất hiện khi sốt cao.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+128. Trong Ca lâm sàng 2, số lượng tiểu cầu máu ngoại vi tăng phản ứng rất cao lên tới _____ kèm CRP 185 mg/L phản ánh phản ứng viêm toàn thân bùng nổ.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+129. Xét nghiệm chỉ dấu sinh học định hướng mấu chốt trong Ca lâm sàng 2 tăng vọt lên 3400 ng/mL là nồng độ _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+130. Trước khi khởi động thuốc ức chế miễn dịch điều trị bệnh tự miễn ở trẻ sốt kéo dài có gan lách to, thủ thuật xâm lấn bắt buộc phải làm để loại trừ ung thư máu là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+131. Kết quả tủy đồ trong Ca lâm sàng 2 giúp loại trừ bệnh bạch cầu cấp nhờ tỷ lệ tế bào non ác tính (Blast) _____ và không có hình ảnh thực bào máu.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+132. Chẩn đoán xác định cuối cùng của bé trai 4 tuổi trong Ca lâm sàng 2 là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+133. Phác đồ điều trị trúng đích giúp cắt cơn sốt ngoạn mục trong Ca lâm sàng 2 gồm Methylprednisolone tĩnh mạch liều cao kết hợp thuốc ức chế sinh học kháng thụ thể IL-6 là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+134. Đáp ứng điều trị của sJIA trong Ca lâm sàng 2 được khẳng định khi nồng độ CRP giảm từ 185 mg/L xuống còn _____ sau một tuần can thiệp.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+135. Sau khi xuất viện, bệnh nhi sJIA trong Ca lâm sàng 2 cần được chuyển theo dõi định kỳ dài hạn tại chuyên khoa _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+136. Tip 1: Vị trí giải phẫu đo thân nhiệt phản ánh chính xác nhất nhiệt độ lõi cơ thể ở trẻ nhũ nhi là _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+137. Tip 1: Nhiệt kế đo tại nách thường cho kết quả thấp hơn nhiệt độ hậu môn khoảng _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+138. Tip 2: Quy tắc đánh giá tri giác ở trẻ sốt cao là luôn đánh giá lại tri giác sau khi uống thuốc hạ sốt _____ khi nhiệt độ đã hạ bớt.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+139. Tip 3: Ở mọi bé gái dưới 24 tháng và bé trai dưới 12 tháng sốt không rõ ổ nhiễm kéo dài trên _____, bắt buộc phải chỉ định que nhúng nước tiểu.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+140. Tip 4: Mẫu nước tiểu dùng để cấy định danh vi khuẩn và làm kháng sinh đồ ở trẻ nhỏ BẮT BUỘC phải lấy qua _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+141. Tip 5: Khi kê đơn thuốc hạ sốt, bắt buộc phải _____ chứ tuyệt đối không ước lượng bằng mắt hay hỏi ước chừng.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+142. Tip 6: Khi tư vấn cho phụ huynh có hội chứng sợ sốt, bác sĩ giải thích rằng _____ chỉ để ép uống thuốc nếu trẻ đang ngủ ngon và thở êm.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+143. Tip 7: Nghiệm pháp ấn kính (Glass test) giúp phát hiện tử ban sao trong viêm màng não mô cầu: nếu nốt ban _____ thì đó là ban xuất huyết cấp cứu.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+144. Tip 8: Bác sĩ tuyệt đối không được dùng Corticoid để hạ sốt trong sốt chưa rõ nguyên nhân vì sẽ làm _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+145. Tip 9: Sau khi thân nhiệt đã hạ về bình thường mà nhịp thở của trẻ vẫn nhanh trên ngưỡng lứa tuổi hoặc rút lõm ngực, phải nghĩ ngay đến _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+146. Tip 10: Trong sốt kéo dài FUO, dặn dò gia đình hoặc điều dưỡng đo và ghi chép nhiệt độ đều đặn mỗi _____ để vẽ biểu đồ đường cong nhiệt độ.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+147. Tiêu chuẩn xuất viện an toàn: Trẻ sốt chỉ được cho theo dõi ngoại trú khi đã uống được nước/bú mẹ tốt và _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+148. Dấu hiệu cờ đỏ tuần hoàn cần đưa trẻ tái khám cấp cứu ngay lập tức là khi chân tay lạnh ẩm nổi vân tím dù _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+149. Dấu hiệu cờ đỏ hô hấp cần đưa trẻ tái khám cấp cứu ngay lập tức gồm _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+150. Dặn dò phụ huynh đưa trẻ tái khám cấp cứu ngay khi cơn sốt kéo dài từ _____ mà không có xu hướng thuyên giảm.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
 
 ## C. Cloze drill
 
-1. Sốt ở trẻ em được xác định theo tiêu chuẩn vàng khi thân nhiệt đo tại hậu môn đạt mức ≥ _____ (hoặc đo tại nách đạt ≥ _____).
+1. Sốt ở trẻ em được xác định theo tiêu chuẩn vàng khi thân nhiệt đo tại hậu môn đạt mức ≥ _____ (hoặc đo tại nách đạt ≥ 37.5°C).
 
 Trả lời: 
 
@@ -408,7 +656,7 @@ Trả lời:
 
 Trả lời: 
 
-8. Chìa khóa phân tử trực tiếp làm nâng điểm đặt nhiệt độ tại vùng dưới đồi là phân tử lipid _____, được tổng hợp qua enzyme cảm ứng _____.
+8. Chìa khóa phân tử trực tiếp làm nâng điểm đặt nhiệt độ tại vùng dưới đồi là phân tử lipid _____, được tổng hợp qua enzyme cảm ứng COX-2.
 
 Trả lời: 
 
@@ -420,7 +668,7 @@ Trả lời:
 
 Trả lời: 
 
-11. Ở trẻ nhũ nhi dưới 1 tuổi, cơ chế sinh nhiệt không run cơ đặc biệt quan trọng dựa vào chuyển hóa của _____ thông qua protein tách cặp _____.
+11. Ở trẻ nhũ nhi dưới 1 tuổi, cơ chế sinh nhiệt không run cơ đặc biệt quan trọng dựa vào chuyển hóa của _____ thông qua protein tách cặp UCP-1.
 
 Trả lời: 
 
@@ -452,7 +700,7 @@ Trả lời:
 
 Trả lời: 
 
-19. Phác đồ kháng sinh tĩnh mạch đầu tay theo kinh nghiệm bắt buộc cho trẻ sơ sinh sốt nhập viện là phối hợp _____ (đặc trị Listeria và Enterococcus) kết hợp với _____.
+19. Phác đồ kháng sinh tĩnh mạch đầu tay theo kinh nghiệm bắt buộc cho trẻ sơ sinh sốt nhập viện là phối hợp _____ (đặc trị Listeria và Enterococcus) kết hợp với Cefotaxime (hoặc Gentamicin).
 
 Trả lời: 
 
@@ -480,11 +728,11 @@ Trả lời:
 
 Trả lời: 
 
-26. Liều chuẩn của Paracetamol đường uống ở trẻ em là _____ cho mỗi lần dùng, khoảng cách giữa hai liều tối thiểu từ _____.
+26. Liều chuẩn của Paracetamol đường uống ở trẻ em là _____ cho mỗi lần dùng, khoảng cách giữa hai liều tối thiểu từ 4 đến 6 giờ.
 
 Trả lời: 
 
-27. Tổng liều Paracetamol tối đa cho phép trong vòng 24 giờ ở trẻ em không được vượt quá _____, và trần liều người lớn không quá _____.
+27. Tổng liều Paracetamol tối đa cho phép trong vòng 24 giờ ở trẻ em không được vượt quá _____, và trần liều người lớn không quá 4000 mg/ngày.
 
 Trả lời: 
 
@@ -492,11 +740,11 @@ Trả lời:
 
 Trả lời: 
 
-29. Liều chuẩn của Ibuprofen đường uống ở trẻ em là _____ cho mỗi lần dùng, khoảng cách giữa hai liều từ _____.
+29. Liều chuẩn của Ibuprofen đường uống ở trẻ em là _____ cho mỗi lần dùng, khoảng cách giữa hai liều từ 6 đến 8 giờ.
 
 Trả lời: 
 
-30. Tổng liều Ibuprofen tối đa hàng ngày ở trẻ em không được vượt quá _____, và trần liều người lớn tối đa không quá _____.
+30. Tổng liều Ibuprofen tối đa hàng ngày ở trẻ em không được vượt quá _____, và trần liều người lớn tối đa không quá 1200 đến 2400 mg/ngày.
 
 Trả lời: 
 
@@ -560,15 +808,15 @@ Trả lời:
 
 Trả lời: 
 
-46. Theo AAP 2021, ở trẻ nhũ nhi sốt nhóm _____, chọc dò tủy sống (LP) và dùng kháng sinh tĩnh mạch là _____ bất kể kết quả biomarker viêm thế nào.
+46. Theo AAP 2021, ở trẻ nhũ nhi sốt nhóm 8 đến 21 ngày tuổi, chọc dò tủy sống (LP) và dùng kháng sinh tĩnh mạch là _____ bất kể kết quả biomarker viêm thế nào.
 
 Trả lời: 
 
-47. Theo AAP 2021, ở nhóm trẻ nhũ nhi sốt từ _____, việc chọc dò tủy sống có thể tránh được nếu TẤT CẢ xét nghiệm nước tiểu và _____ đều bình thường.
+47. Theo AAP 2021, ở nhóm trẻ nhũ nhi sốt từ 22 đến 28 ngày tuổi, việc chọc dò tủy sống có thể tránh được nếu TẤT CẢ xét nghiệm nước tiểu và _____ (Procalcitonin, CRP, ANC) đều bình thường.
 
 Trả lời: 
 
-48. Theo AAP 2021, đối với trẻ nhũ nhi sốt từ _____ thỏa mãn tiêu chuẩn nguy cơ thấp, việc theo dõi _____ là an toàn và được khuyến cáo.
+48. Theo AAP 2021, đối với trẻ nhũ nhi sốt từ 29 đến 60 ngày tuổi thỏa mãn tiêu chuẩn nguy cơ thấp, việc theo dõi _____ là an toàn và được khuyến cáo.
 
 Trả lời: 
 
@@ -576,7 +824,7 @@ Trả lời:
 
 Trả lời: 
 
-50. Quy tắc dự đoán lâm sàng PECARN xác định trẻ nguy cơ thấp khi thỏa mãn 3 tiêu chí: tổng phân tích nước tiểu âm tính, ANC ≤ _____ và Procalcitonin ≤ _____.
+50. Quy tắc dự đoán lâm sàng PECARN xác định trẻ nguy cơ thấp khi thỏa mãn 3 tiêu chí: tổng phân tích nước tiểu âm tính, ANC ≤ 4,090/µL và Procalcitonin ≤ _____.
 
 Trả lời: 
 
@@ -648,7 +896,7 @@ Trả lời:
 
 Trả lời: 
 
-68. Theo tiêu chuẩn Rochester 1985, ngưỡng số lượng bạch cầu máu an toàn là từ _____ và số lượng bạch cầu non (bands) phải dưới _____.
+68. Theo tiêu chuẩn Rochester 1985, ngưỡng số lượng bạch cầu máu an toàn là từ _____ và số lượng bạch cầu non (bands) phải dưới 1,500/mm³.
 
 Trả lời: 
 
@@ -664,7 +912,7 @@ Trả lời:
 
 Trả lời: 
 
-72. Theo tổng quan Chow & Robinson 2011, tỷ lệ các nhóm căn nguyên FUO gồm: Nhiễm trùng _____, Bệnh tự miễn mô liên kết _____, Bệnh ác tính _____ và Tự thoái lui không rõ nguyên nhân _____.
+72. Theo tổng quan Chow & Robinson 2011, tỷ lệ các nhóm căn nguyên FUO gồm: Nhiễm trùng _____, Bệnh tự miễn mô liên kết 9%, Bệnh ác tính 6% và Tự thoái lui không rõ nguyên nhân 23%.
 
 Trả lời: 
 
@@ -712,11 +960,11 @@ Trả lời:
 
 Trả lời: 
 
-84. Trong quy tắc đèn giao thông NICE, trẻ từ 3 đến 6 tháng tuổi có thân nhiệt ≥ _____ được xếp vào nhóm nguy cơ _____.
+84. Trong quy tắc đèn giao thông NICE, trẻ từ 3 đến 6 tháng tuổi có thân nhiệt ≥ 39.0°C được xếp vào nhóm nguy cơ _____.
 
 Trả lời: 
 
-85. Trong quy tắc đèn giao thông NICE, trẻ dưới 3 tháng tuổi có thân nhiệt ≥ _____ tự động được xếp vào nhóm nguy cơ _____.
+85. Trong quy tắc đèn giao thông NICE, trẻ dưới 3 tháng tuổi có thân nhiệt ≥ 38.0°C tự động được xếp vào nhóm nguy cơ _____.
 
 Trả lời: 
 
@@ -729,6 +977,254 @@ Trả lời:
 Trả lời: 
 
 88. Tiêu chuẩn Rochester kinh điển 1985 loại trừ nhiễm trùng xương khớp và mô mềm dựa trên việc thăm khám tỉ mỉ không phát hiện sưng nóng đỏ đau ở _____.
+
+Trả lời: 
+
+89. Trong Bước 1 tiếp cận FUO, việc đo thân nhiệt trực tiếp tại viện trước mặt nhân viên y tế nhằm loại trừ hội chứng giả bệnh là _____.
+
+Trả lời: 
+
+90. Biểu đồ nhiệt độ hình gai nhọn dao động biên độ lớn (Hectic/Spiking fever) trong FUO gợi ý căn nguyên _____.
+
+Trả lời: 
+
+91. Biểu đồ nhiệt độ hình cao nguyên liên tục ít dao động trong sốt kéo dài kinh điển gợi ý bệnh _____.
+
+Trả lời: 
+
+92. Trong xét nghiệm bậc 1 của FUO, phết máu ngoại biên do bác sĩ huyết học đọc trực tiếp nhằm phát hiện mầm bệnh ác tính là _____.
+
+Trả lời: 
+
+93. Quy tắc lấy mẫu cấy máu trong FUO bậc 1 là phải lấy tối thiểu _____ ở hai vị trí tĩnh mạch khác nhau trước khi dùng kháng sinh.
+
+Trả lời: 
+
+94. Hai chỉ dấu sinh học đánh giá phản ứng viêm pha cấp cơ bản trong xét nghiệm FUO bậc 1 là _____.
+
+Trả lời: 
+
+95. Trong xét nghiệm FUO bậc 2, nồng độ Ferritin huyết thanh tăng vọt rất cao (> 1000 ng/mL) gợi ý hai bệnh lý là _____.
+
+Trả lời: 
+
+96. Trong xét nghiệm FUO bậc 2, siêu âm tim Doppler màu đóng vai trò mấu chốt loại trừ hai bệnh lý tim mạch nguy hiểm là _____.
+
+Trả lời: 
+
+97. Trong thăm dò FUO bậc 3, chọc hút và sinh thiết tủy xương là chỉ định bắt buộc khi trẻ có biểu hiện _____.
+
+Trả lời: 
+
+98. Trong thăm dò FUO bậc 3, kỹ thuật hình ảnh y học hạt nhân hiện đại giúp định vị toàn thân các ổ viêm sâu và u kín đáo là _____.
+
+Trả lời: 
+
+99. Sai lầm phổ biến khi dùng kháng sinh bao vây theo kinh nghiệm cho mọi trẻ sốt không rõ ổ nhiễm là kháng sinh _____, mà còn gây loạn khuẩn ruột.
+
+Trả lời: 
+
+100. Cơ chế nguy hiểm của việc cho trẻ uống xen kẽ Paracetamol và Ibuprofen mỗi 2-3 giờ tại nhà là làm tăng vọt nguy cơ _____.
+
+Trả lời: 
+
+101. Trong vùng dịch tễ Sốt xuất huyết Dengue, việc dùng Ibuprofen hạ sốt bị CẤM TUYỆT ĐỐI vì gây biến chứng đe dọa tính mạng là _____.
+
+Trả lời: 
+
+102. Cơ chế Ibuprofen gây xuất huyết nặng trong Dengue là do ức chế enzyme COX-1 làm phong bế tổng hợp _____, gây ức chế kết tập tiểu cầu không hồi phục.
+
+Trả lời: 
+
+103. Không được cho trẻ sơ sinh sốt (< 28 ngày tuổi) về nhà theo dõi vì biểu hiện bên ngoài tỉnh táo bú tốt có thể là _____ trước cơn bão nhiễm khuẩn tối cấp.
+
+Trả lời: 
+
+104. Tỷ lệ nhiễm trùng nặng thực sự ở trẻ sơ sinh dưới 28 ngày tuổi bị sốt lên tới _____, đòi hỏi nhập viện bắt buộc.
+
+Trả lời: 
+
+105. Lau mát cho trẻ bằng rượu cồn là sai lầm nguy hiểm vì hơi cồn bay hơi hấp thu qua da và hô hấp gây _____.
+
+Trả lời: 
+
+106. Chườm đá lạnh vào trán và nách khi trẻ đang sốt cao gây phản tác dụng vì kích hoạt phản xạ co mạch ngoại vi và _____.
+
+Trả lời: 
+
+107. Quan niệm sai lầm cho rằng sốt cao đơn thuần do nhiễm trùng sẽ gây bại não là vô căn cứ vì thân nhiệt sốt hiếm khi vượt quá _____ nhờ cơ chế điều hòa âm tính.
+
+Trả lời: 
+
+108. Co giật do sốt chỉ xảy ra ở 2–5% trẻ có cơ địa nhạy cảm gen thần kinh trong độ tuổi _____, chứ không phải xảy ra ở mọi đứa trẻ sốt cao.
+
+Trả lời: 
+
+109. Bỏ quên xét nghiệm nước tiểu ở trẻ nhỏ sốt không rõ ổ nhiễm là cạm bẫy lớn vì nhiễm trùng tiểu tiềm ẩn có thể dẫn đến biến chứng lâu dài là _____.
+
+Trả lời: 
+
+110. Dùng Corticoid sớm để cắt sốt trong hội chứng FUO bị cấm vì sẽ làm lu mờ triệu chứng bệnh ác tính là _____ và làm biến đổi tủy đồ khiến chẩn đoán bị trì hoãn.
+
+Trả lời: 
+
+111. Ở trẻ thừa cân béo phì, liều thuốc hạ sốt Paracetamol BẮT BUỘC phải tính theo _____ chứ không dùng cân nặng thực tế.
+
+Trả lời: 
+
+112. Lý do không tính liều Paracetamol theo cân nặng thực tế ở trẻ béo phì là vì Paracetamol tan trong nước ít phân bố vào mô mỡ, và trẻ béo phì có tình trạng _____.
+
+Trả lời: 
+
+113. Trần liều Paracetamol tối đa của một lần uống ở trẻ em dù nặng cân đến đâu cũng tuyệt đối không được vượt quá trần liều người lớn là _____ (hoặc 4000 mg/ngày).
+
+Trả lời: 
+
+114. Khi tiếp nhận một trẻ sơ sinh 18 ngày tuổi sốt 38.5°C nhưng hoàn toàn tỉnh táo và đang bú mẹ tốt, thái độ xử trí đúng đắn duy nhất là _____.
+
+Trả lời: 
+
+115. Bệnh cảnh trẻ 2 tuổi sốt kéo dài 9 ngày hình gai nhọn kèm ban màu hồng cá hồi lặn nhanh theo cơn sốt và sưng khớp gối hướng tới chẩn đoán hàng đầu là _____.
+
+Trả lời: 
+
+116. Biến chứng tối cấp đe dọa tính mạng cần theo dõi sát ở bệnh nhi mắc sJIA có sốt kéo dài và Ferritin máu tăng vọt là _____.
+
+Trả lời: 
+
+117. Trong Hội chứng kích hoạt đại thực bào (MAS), các xét nghiệm đông máu và sinh hóa thường biểu hiện bất thường gồm _____.
+
+Trả lời: 
+
+118. Tình trạng một trẻ bị bỏ quên trong xe ô tô đóng kín cửa giữa trời nắng có da khô nóng rực không có mồ hôi và hôn mê là bệnh cảnh của _____.
+
+Trả lời: 
+
+119. Trong say nóng (Heat stroke), điểm đặt nhiệt độ vùng dưới đồi hoàn toàn bình thường, do đó các thuốc hạ sốt như Paracetamol hay Ibuprofen _____.
+
+Trả lời: 
+
+120. Biện pháp cấp cứu sống còn số 1 trong say nóng sốc nhiệt là _____.
+
+Trả lời: 
+
+121. Trong Ca lâm sàng 1, bé gái 42 ngày tuổi sốt 38.9°C tỉnh táo được phân loại vào nhóm tuổi nguy cơ trung bình theo AAP 2021 là nhóm _____.
+
+Trả lời: 
+
+122. Kết quả tổng phân tích nước tiểu của bé gái 42 ngày tuổi dương tính với cả hai chỉ số quan trọng là _____, khẳng định nhiễm trùng đường tiểu.
+
+Trả lời: 
+
+123. Trong nghiên cứu PECARN, ngưỡng bạch cầu đa nhân trung tính tuyệt đối (ANC) an toàn là ≤ 4090/µL; ở bé gái Ca 1, chỉ số ANC là _____, vi phạm tiêu chí nguy cơ thấp.
+
+Trả lời: 
+
+124. Tác nhân vi khuẩn Gram âm phân lập được trong cấy nước tiểu của bé gái 42 ngày tuổi là _____ với số lượng > 10^5 CFU/mL.
+
+Trả lời: 
+
+125. Kháng sinh đường tĩnh mạch được lựa chọn điều trị ban đầu cho bé gái 42 ngày tuổi viêm đài bể thận do E. coli là _____.
+
+Trả lời: 
+
+126. Tổng thời gian điều trị kháng sinh (tĩnh mạch chuyển sang uống) được khuyến cáo cho nhiễm trùng tiểu có sốt ở trẻ nhỏ để phòng ngừa sẹo thận là _____.
+
+Trả lời: 
+
+127. Trong Ca lâm sàng 2, bé trai 4 tuổi sốt liên tục 16 ngày đã dùng 3 đợt kháng sinh phổ rộng không đỡ, biểu hiện ban da đặc trưng là _____ xuất hiện khi sốt cao.
+
+Trả lời: 
+
+128. Trong Ca lâm sàng 2, số lượng tiểu cầu máu ngoại vi tăng phản ứng rất cao lên tới _____ kèm CRP 185 mg/L phản ánh phản ứng viêm toàn thân bùng nổ.
+
+Trả lời: 
+
+129. Xét nghiệm chỉ dấu sinh học định hướng mấu chốt trong Ca lâm sàng 2 tăng vọt lên 3400 ng/mL là nồng độ _____.
+
+Trả lời: 
+
+130. Trước khi khởi động thuốc ức chế miễn dịch điều trị bệnh tự miễn ở trẻ sốt kéo dài có gan lách to, thủ thuật xâm lấn bắt buộc phải làm để loại trừ ung thư máu là _____.
+
+Trả lời: 
+
+131. Kết quả tủy đồ trong Ca lâm sàng 2 giúp loại trừ bệnh bạch cầu cấp nhờ tỷ lệ tế bào non ác tính (Blast) _____ và không có hình ảnh thực bào máu.
+
+Trả lời: 
+
+132. Chẩn đoán xác định cuối cùng của bé trai 4 tuổi trong Ca lâm sàng 2 là _____.
+
+Trả lời: 
+
+133. Phác đồ điều trị trúng đích giúp cắt cơn sốt ngoạn mục trong Ca lâm sàng 2 gồm Methylprednisolone tĩnh mạch liều cao kết hợp thuốc ức chế sinh học kháng thụ thể IL-6 là _____.
+
+Trả lời: 
+
+134. Đáp ứng điều trị của sJIA trong Ca lâm sàng 2 được khẳng định khi nồng độ CRP giảm từ 185 mg/L xuống còn _____ sau một tuần can thiệp.
+
+Trả lời: 
+
+135. Sau khi xuất viện, bệnh nhi sJIA trong Ca lâm sàng 2 cần được chuyển theo dõi định kỳ dài hạn tại chuyên khoa _____.
+
+Trả lời: 
+
+136. Tip 1: Vị trí giải phẫu đo thân nhiệt phản ánh chính xác nhất nhiệt độ lõi cơ thể ở trẻ nhũ nhi là _____.
+
+Trả lời: 
+
+137. Tip 1: Nhiệt kế đo tại nách thường cho kết quả thấp hơn nhiệt độ hậu môn khoảng _____.
+
+Trả lời: 
+
+138. Tip 2: Quy tắc đánh giá tri giác ở trẻ sốt cao là luôn đánh giá lại tri giác sau khi uống thuốc hạ sốt _____ khi nhiệt độ đã hạ bớt.
+
+Trả lời: 
+
+139. Tip 3: Ở mọi bé gái dưới 24 tháng và bé trai dưới 12 tháng sốt không rõ ổ nhiễm kéo dài trên _____, bắt buộc phải chỉ định que nhúng nước tiểu.
+
+Trả lời: 
+
+140. Tip 4: Mẫu nước tiểu dùng để cấy định danh vi khuẩn và làm kháng sinh đồ ở trẻ nhỏ BẮT BUỘC phải lấy qua _____.
+
+Trả lời: 
+
+141. Tip 5: Khi kê đơn thuốc hạ sốt, bắt buộc phải _____ chứ tuyệt đối không ước lượng bằng mắt hay hỏi ước chừng.
+
+Trả lời: 
+
+142. Tip 6: Khi tư vấn cho phụ huynh có hội chứng sợ sốt, bác sĩ giải thích rằng _____ chỉ để ép uống thuốc nếu trẻ đang ngủ ngon và thở êm.
+
+Trả lời: 
+
+143. Tip 7: Nghiệm pháp ấn kính (Glass test) giúp phát hiện tử ban sao trong viêm màng não mô cầu: nếu nốt ban _____ thì đó là ban xuất huyết cấp cứu.
+
+Trả lời: 
+
+144. Tip 8: Bác sĩ tuyệt đối không được dùng Corticoid để hạ sốt trong sốt chưa rõ nguyên nhân vì sẽ làm _____.
+
+Trả lời: 
+
+145. Tip 9: Sau khi thân nhiệt đã hạ về bình thường mà nhịp thở của trẻ vẫn nhanh trên ngưỡng lứa tuổi hoặc rút lõm ngực, phải nghĩ ngay đến _____.
+
+Trả lời: 
+
+146. Tip 10: Trong sốt kéo dài FUO, dặn dò gia đình hoặc điều dưỡng đo và ghi chép nhiệt độ đều đặn mỗi _____ để vẽ biểu đồ đường cong nhiệt độ.
+
+Trả lời: 
+
+147. Tiêu chuẩn xuất viện an toàn: Trẻ sốt chỉ được cho theo dõi ngoại trú khi đã uống được nước/bú mẹ tốt và _____.
+
+Trả lời: 
+
+148. Dấu hiệu cờ đỏ tuần hoàn cần đưa trẻ tái khám cấp cứu ngay lập tức là khi chân tay lạnh ẩm nổi vân tím dù _____.
+
+Trả lời: 
+
+149. Dấu hiệu cờ đỏ hô hấp cần đưa trẻ tái khám cấp cứu ngay lập tức gồm _____.
+
+Trả lời: 
+
+150. Dặn dò phụ huynh đưa trẻ tái khám cấp cứu ngay khi cơn sốt kéo dài từ _____ mà không có xu hướng thuyên giảm.
 
 Trả lời: 
 
@@ -760,7 +1256,7 @@ Trả lời:
 
 4. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Ở trẻ nhũ nhi dưới 1 tuổi, cơ chế sinh nhiệt không run cơ đặc biệt quan trọng dựa vào chuyển hóa của _____ thông qua protein tách cặp _____.
+Ở trẻ nhũ nhi dưới 1 tuổi, cơ chế sinh nhiệt không run cơ đặc biệt quan trọng dựa vào chuyển hóa của _____ thông qua protein tách cặp UCP-1.
 
 Trả lời: 
 
@@ -784,7 +1280,7 @@ Trả lời:
 
 8. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Phác đồ kháng sinh tĩnh mạch đầu tay theo kinh nghiệm bắt buộc cho trẻ sơ sinh sốt nhập viện là phối hợp _____ (đặc trị Listeria và Enterococcus) kết hợp với _____.
+Phác đồ kháng sinh tĩnh mạch đầu tay theo kinh nghiệm bắt buộc cho trẻ sơ sinh sốt nhập viện là phối hợp _____ (đặc trị Listeria và Enterococcus) kết hợp với Cefotaxime (hoặc Gentamicin).
 
 Trả lời: 
 
@@ -826,25 +1322,25 @@ Trả lời:
 
 15. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Liều chuẩn của Paracetamol đường uống ở trẻ em là _____ cho mỗi lần dùng, khoảng cách giữa hai liều tối thiểu từ _____.
+Liều chuẩn của Paracetamol đường uống ở trẻ em là _____ cho mỗi lần dùng, khoảng cách giữa hai liều tối thiểu từ 4 đến 6 giờ.
 
 Trả lời: 
 
 16. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Tổng liều Paracetamol tối đa cho phép trong vòng 24 giờ ở trẻ em không được vượt quá _____, và trần liều người lớn không quá _____.
+Tổng liều Paracetamol tối đa cho phép trong vòng 24 giờ ở trẻ em không được vượt quá _____, và trần liều người lớn không quá 4000 mg/ngày.
 
 Trả lời: 
 
 17. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Liều chuẩn của Ibuprofen đường uống ở trẻ em là _____ cho mỗi lần dùng, khoảng cách giữa hai liều từ _____.
+Liều chuẩn của Ibuprofen đường uống ở trẻ em là _____ cho mỗi lần dùng, khoảng cách giữa hai liều từ 6 đến 8 giờ.
 
 Trả lời: 
 
 18. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Tổng liều Ibuprofen tối đa hàng ngày ở trẻ em không được vượt quá _____, và trần liều người lớn tối đa không quá _____.
+Tổng liều Ibuprofen tối đa hàng ngày ở trẻ em không được vượt quá _____, và trần liều người lớn tối đa không quá 1200 đến 2400 mg/ngày.
 
 Trả lời: 
 
@@ -910,25 +1406,25 @@ Trả lời:
 
 29. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Theo AAP 2021, ở trẻ nhũ nhi sốt nhóm _____, chọc dò tủy sống (LP) và dùng kháng sinh tĩnh mạch là _____ bất kể kết quả biomarker viêm thế nào.
+Theo AAP 2021, ở trẻ nhũ nhi sốt nhóm 8 đến 21 ngày tuổi, chọc dò tủy sống (LP) và dùng kháng sinh tĩnh mạch là _____ bất kể kết quả biomarker viêm thế nào.
 
 Trả lời: 
 
 30. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Theo AAP 2021, ở nhóm trẻ nhũ nhi sốt từ _____, việc chọc dò tủy sống có thể tránh được nếu TẤT CẢ xét nghiệm nước tiểu và _____ đều bình thường.
+Theo AAP 2021, ở nhóm trẻ nhũ nhi sốt từ 22 đến 28 ngày tuổi, việc chọc dò tủy sống có thể tránh được nếu TẤT CẢ xét nghiệm nước tiểu và _____ (Procalcitonin, CRP, ANC) đều bình thường.
 
 Trả lời: 
 
 31. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Theo AAP 2021, đối với trẻ nhũ nhi sốt từ _____ thỏa mãn tiêu chuẩn nguy cơ thấp, việc theo dõi _____ là an toàn và được khuyến cáo.
+Theo AAP 2021, đối với trẻ nhũ nhi sốt từ 29 đến 60 ngày tuổi thỏa mãn tiêu chuẩn nguy cơ thấp, việc theo dõi _____ là an toàn và được khuyến cáo.
 
 Trả lời: 
 
 32. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Quy tắc dự đoán lâm sàng PECARN xác định trẻ nguy cơ thấp khi thỏa mãn 3 tiêu chí: tổng phân tích nước tiểu âm tính, ANC ≤ _____ và Procalcitonin ≤ _____.
+Quy tắc dự đoán lâm sàng PECARN xác định trẻ nguy cơ thấp khi thỏa mãn 3 tiêu chí: tổng phân tích nước tiểu âm tính, ANC ≤ 4,090/µL và Procalcitonin ≤ _____.
 
 Trả lời: 
 
@@ -1012,7 +1508,7 @@ Trả lời:
 
 46. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Theo tổng quan Chow & Robinson 2011, tỷ lệ các nhóm căn nguyên FUO gồm: Nhiễm trùng _____, Bệnh tự miễn mô liên kết _____, Bệnh ác tính _____ và Tự thoái lui không rõ nguyên nhân _____.
+Theo tổng quan Chow & Robinson 2011, tỷ lệ các nhóm căn nguyên FUO gồm: Nhiễm trùng _____, Bệnh tự miễn mô liên kết 9%, Bệnh ác tính 6% và Tự thoái lui không rõ nguyên nhân 23%.
 
 Trả lời: 
 
@@ -1066,13 +1562,13 @@ Trả lời:
 
 55. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Trong quy tắc đèn giao thông NICE, trẻ từ 3 đến 6 tháng tuổi có thân nhiệt ≥ _____ được xếp vào nhóm nguy cơ _____.
+Trong quy tắc đèn giao thông NICE, trẻ từ 3 đến 6 tháng tuổi có thân nhiệt ≥ 39.0°C được xếp vào nhóm nguy cơ _____.
 
 Trả lời: 
 
 56. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Trong quy tắc đèn giao thông NICE, trẻ dưới 3 tháng tuổi có thân nhiệt ≥ _____ tự động được xếp vào nhóm nguy cơ _____.
+Trong quy tắc đèn giao thông NICE, trẻ dưới 3 tháng tuổi có thân nhiệt ≥ 38.0°C tự động được xếp vào nhóm nguy cơ _____.
 
 Trả lời: 
 
@@ -1091,5 +1587,227 @@ Trả lời:
 59. Điểm dễ sai/cần tránh trong câu này là gì?
 
 Tiêu chuẩn Rochester kinh điển 1985 loại trừ nhiễm trùng xương khớp và mô mềm dựa trên việc thăm khám tỉ mỉ không phát hiện sưng nóng đỏ đau ở _____.
+
+Trả lời: 
+
+60. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Trong xét nghiệm FUO bậc 2, siêu âm tim Doppler màu đóng vai trò mấu chốt loại trừ hai bệnh lý tim mạch nguy hiểm là _____.
+
+Trả lời: 
+
+61. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Trong thăm dò FUO bậc 3, chọc hút và sinh thiết tủy xương là chỉ định bắt buộc khi trẻ có biểu hiện _____.
+
+Trả lời: 
+
+62. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Sai lầm phổ biến khi dùng kháng sinh bao vây theo kinh nghiệm cho mọi trẻ sốt không rõ ổ nhiễm là kháng sinh _____, mà còn gây loạn khuẩn ruột.
+
+Trả lời: 
+
+63. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Cơ chế nguy hiểm của việc cho trẻ uống xen kẽ Paracetamol và Ibuprofen mỗi 2-3 giờ tại nhà là làm tăng vọt nguy cơ _____.
+
+Trả lời: 
+
+64. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Trong vùng dịch tễ Sốt xuất huyết Dengue, việc dùng Ibuprofen hạ sốt bị CẤM TUYỆT ĐỐI vì gây biến chứng đe dọa tính mạng là _____.
+
+Trả lời: 
+
+65. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Cơ chế Ibuprofen gây xuất huyết nặng trong Dengue là do ức chế enzyme COX-1 làm phong bế tổng hợp _____, gây ức chế kết tập tiểu cầu không hồi phục.
+
+Trả lời: 
+
+66. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Không được cho trẻ sơ sinh sốt (< 28 ngày tuổi) về nhà theo dõi vì biểu hiện bên ngoài tỉnh táo bú tốt có thể là _____ trước cơn bão nhiễm khuẩn tối cấp.
+
+Trả lời: 
+
+67. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Tỷ lệ nhiễm trùng nặng thực sự ở trẻ sơ sinh dưới 28 ngày tuổi bị sốt lên tới _____, đòi hỏi nhập viện bắt buộc.
+
+Trả lời: 
+
+68. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Lau mát cho trẻ bằng rượu cồn là sai lầm nguy hiểm vì hơi cồn bay hơi hấp thu qua da và hô hấp gây _____.
+
+Trả lời: 
+
+69. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Quan niệm sai lầm cho rằng sốt cao đơn thuần do nhiễm trùng sẽ gây bại não là vô căn cứ vì thân nhiệt sốt hiếm khi vượt quá _____ nhờ cơ chế điều hòa âm tính.
+
+Trả lời: 
+
+70. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Co giật do sốt chỉ xảy ra ở 2–5% trẻ có cơ địa nhạy cảm gen thần kinh trong độ tuổi _____, chứ không phải xảy ra ở mọi đứa trẻ sốt cao.
+
+Trả lời: 
+
+71. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Bỏ quên xét nghiệm nước tiểu ở trẻ nhỏ sốt không rõ ổ nhiễm là cạm bẫy lớn vì nhiễm trùng tiểu tiềm ẩn có thể dẫn đến biến chứng lâu dài là _____.
+
+Trả lời: 
+
+72. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Ở trẻ thừa cân béo phì, liều thuốc hạ sốt Paracetamol BẮT BUỘC phải tính theo _____ chứ không dùng cân nặng thực tế.
+
+Trả lời: 
+
+73. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Lý do không tính liều Paracetamol theo cân nặng thực tế ở trẻ béo phì là vì Paracetamol tan trong nước ít phân bố vào mô mỡ, và trẻ béo phì có tình trạng _____.
+
+Trả lời: 
+
+74. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Trần liều Paracetamol tối đa của một lần uống ở trẻ em dù nặng cân đến đâu cũng tuyệt đối không được vượt quá trần liều người lớn là _____ (hoặc 4000 mg/ngày).
+
+Trả lời: 
+
+75. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Khi tiếp nhận một trẻ sơ sinh 18 ngày tuổi sốt 38.5°C nhưng hoàn toàn tỉnh táo và đang bú mẹ tốt, thái độ xử trí đúng đắn duy nhất là _____.
+
+Trả lời: 
+
+76. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Biến chứng tối cấp đe dọa tính mạng cần theo dõi sát ở bệnh nhi mắc sJIA có sốt kéo dài và Ferritin máu tăng vọt là _____.
+
+Trả lời: 
+
+77. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Tình trạng một trẻ bị bỏ quên trong xe ô tô đóng kín cửa giữa trời nắng có da khô nóng rực không có mồ hôi và hôn mê là bệnh cảnh của _____.
+
+Trả lời: 
+
+78. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Trong say nóng (Heat stroke), điểm đặt nhiệt độ vùng dưới đồi hoàn toàn bình thường, do đó các thuốc hạ sốt như Paracetamol hay Ibuprofen _____.
+
+Trả lời: 
+
+79. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Trong Ca lâm sàng 1, bé gái 42 ngày tuổi sốt 38.9°C tỉnh táo được phân loại vào nhóm tuổi nguy cơ trung bình theo AAP 2021 là nhóm _____.
+
+Trả lời: 
+
+80. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Trong nghiên cứu PECARN, ngưỡng bạch cầu đa nhân trung tính tuyệt đối (ANC) an toàn là ≤ 4090/µL; ở bé gái Ca 1, chỉ số ANC là _____, vi phạm tiêu chí nguy cơ thấp.
+
+Trả lời: 
+
+81. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Kháng sinh đường tĩnh mạch được lựa chọn điều trị ban đầu cho bé gái 42 ngày tuổi viêm đài bể thận do E. coli là _____.
+
+Trả lời: 
+
+82. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Tổng thời gian điều trị kháng sinh (tĩnh mạch chuyển sang uống) được khuyến cáo cho nhiễm trùng tiểu có sốt ở trẻ nhỏ để phòng ngừa sẹo thận là _____.
+
+Trả lời: 
+
+83. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Trong Ca lâm sàng 2, bé trai 4 tuổi sốt liên tục 16 ngày đã dùng 3 đợt kháng sinh phổ rộng không đỡ, biểu hiện ban da đặc trưng là _____ xuất hiện khi sốt cao.
+
+Trả lời: 
+
+84. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Trước khi khởi động thuốc ức chế miễn dịch điều trị bệnh tự miễn ở trẻ sốt kéo dài có gan lách to, thủ thuật xâm lấn bắt buộc phải làm để loại trừ ung thư máu là _____.
+
+Trả lời: 
+
+85. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Kết quả tủy đồ trong Ca lâm sàng 2 giúp loại trừ bệnh bạch cầu cấp nhờ tỷ lệ tế bào non ác tính (Blast) _____ và không có hình ảnh thực bào máu.
+
+Trả lời: 
+
+86. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Phác đồ điều trị trúng đích giúp cắt cơn sốt ngoạn mục trong Ca lâm sàng 2 gồm Methylprednisolone tĩnh mạch liều cao kết hợp thuốc ức chế sinh học kháng thụ thể IL-6 là _____.
+
+Trả lời: 
+
+87. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Sau khi xuất viện, bệnh nhi sJIA trong Ca lâm sàng 2 cần được chuyển theo dõi định kỳ dài hạn tại chuyên khoa _____.
+
+Trả lời: 
+
+88. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Tip 1: Vị trí giải phẫu đo thân nhiệt phản ánh chính xác nhất nhiệt độ lõi cơ thể ở trẻ nhũ nhi là _____.
+
+Trả lời: 
+
+89. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Tip 3: Ở mọi bé gái dưới 24 tháng và bé trai dưới 12 tháng sốt không rõ ổ nhiễm kéo dài trên _____, bắt buộc phải chỉ định que nhúng nước tiểu.
+
+Trả lời: 
+
+90. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Tip 4: Mẫu nước tiểu dùng để cấy định danh vi khuẩn và làm kháng sinh đồ ở trẻ nhỏ BẮT BUỘC phải lấy qua _____.
+
+Trả lời: 
+
+91. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Tip 5: Khi kê đơn thuốc hạ sốt, bắt buộc phải _____ chứ tuyệt đối không ước lượng bằng mắt hay hỏi ước chừng.
+
+Trả lời: 
+
+92. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Tip 6: Khi tư vấn cho phụ huynh có hội chứng sợ sốt, bác sĩ giải thích rằng _____ chỉ để ép uống thuốc nếu trẻ đang ngủ ngon và thở êm.
+
+Trả lời: 
+
+93. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Tip 7: Nghiệm pháp ấn kính (Glass test) giúp phát hiện tử ban sao trong viêm màng não mô cầu: nếu nốt ban _____ thì đó là ban xuất huyết cấp cứu.
+
+Trả lời: 
+
+94. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Tip 8: Bác sĩ tuyệt đối không được dùng Corticoid để hạ sốt trong sốt chưa rõ nguyên nhân vì sẽ làm _____.
+
+Trả lời: 
+
+95. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Tiêu chuẩn xuất viện an toàn: Trẻ sốt chỉ được cho theo dõi ngoại trú khi đã uống được nước/bú mẹ tốt và _____.
+
+Trả lời: 
+
+96. Điểm dễ sai/cần tránh trong câu này là gì?
+
+Dặn dò phụ huynh đưa trẻ tái khám cấp cứu ngay khi cơn sốt kéo dài từ _____ mà không có xu hướng thuyên giảm.
 
 Trả lời: 

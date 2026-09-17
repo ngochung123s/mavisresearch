@@ -17,7 +17,7 @@ Critical miss:
 
 ## Đáp án theo thẻ gốc
 
-1. Đáp án: 38.0°C; 37.5°C
+1. Đáp án: 38.0°C
 Nguồn/ghi chú: Cơ chế: Thân nhiệt đo tại hậu môn phản ánh chuẩn xác nhất nhiệt độ lõi cơ thể, ít bị sai lệch bởi lưu lượng máu da hay nhiệt độ môi trường xung quanh.
 
 2. Đáp án: 7 ngày
@@ -38,7 +38,7 @@ Nguồn/ghi chú: Cơ chế: Các cytokine này di chuyển theo dòng tuần ho
 7. Đáp án: thành trước não thất ba
 Nguồn/ghi chú: Cơ chế: Cấu trúc mao mạch có cửa sổ tại OVLT cho phép các phân tử protein cytokine lớn tiếp cận và kích thích tế bào nội mô mạch máu não.
 
-8. Đáp án: Prostaglandin E2 (PGE2); COX-2
+8. Đáp án: Prostaglandin E2 (PGE2)
 Nguồn/ghi chú: Cơ chế: PGE2 gắn vào thụ thể EP3 trên tế bào thần kinh nhân trước thị, làm thay đổi tần số phát xung của các neuron nhạy nhiệt.
 
 9. Đáp án: co mạch máu ngoại biên
@@ -47,10 +47,10 @@ Nguồn/ghi chú: Cơ chế: Phản xạ giao cảm co mạch giúp tập trung 
 10. Đáp án: run cơ (shivering)
 Nguồn/ghi chú: Cơ chế: Co cơ cơ học tiêu hao năng lượng chuyển hóa và sinh ra lượng nhiệt lớn để nâng thân nhiệt bắt kịp điểm đặt mới.
 
-11. Đáp án: mô mỡ nâu (Brown Adipose Tissue); UCP-1 (Thermogenin)
+11. Đáp án: mô mỡ nâu (Brown Adipose Tissue)
 Nguồn/ghi chú: Cơ chế: UCP-1 tách rời chuỗi chuyền điện tử khỏi quá trình tổng hợp ATP tại màng ty thể, giải phóng năng lượng trực tiếp dưới dạng nhiệt lượng.
 
-12. Đáp án: giãn mạch ngoại vi và tăng tiết mồ hôi ồ ạt
+12. Đáp án: giãn mạch ngoại vi và tăng tiết mồ hôi
 Nguồn/ghi chú: Cơ chế: Giãn mạch làm tăng tưới máu bề mặt da, kết hợp nước mồ hôi bay hơi giúp nhiệt lượng dư thừa thoát nhanh ra môi trường.
 
 13. Đáp án: hoàn toàn bình thường
@@ -59,7 +59,7 @@ Nguồn/ghi chú: Cơ chế: Tăng thân nhiệt xảy ra do sinh nhiệt quá m
 14. Đáp án: hoàn toàn vô hiệu và không có tác dụng
 Nguồn/ghi chú: Cơ chế: Thuốc hạ sốt hoạt động bằng cách ức chế tổng hợp PGE2 để hạ set-point; khi set-point không tăng thì thuốc không thể phát huy tác dụng mà chỉ gây độc gan thận.
 
-15. Đáp án: làm mát cưỡng bức vật lý ngoài cơ thể (cởi đồ, phun sương, quạt gió, chườm mát)
+15. Đáp án: làm mát cưỡng bức vật lý ngoài cơ thể
 Nguồn/ghi chú: Cơ chế: Làm mát vật lý hỗ trợ giải phóng nhiệt lượng bị ứ đọng khẩn cấp để ngăn chặn tổn thương não và ly giải cơ vân do nhiệt độ cao > 41.5°C.
 
 16. Đáp án: 8% đến 12%
@@ -68,22 +68,22 @@ Nguồn/ghi chú: Cơ chế: Hệ miễn dịch sơ sinh chưa hoàn thiện khi
 17. Đáp án: Liên cầu nhóm B (GBS), Escherichia coli và Listeria monocytogenes
 Nguồn/ghi chú: Cơ chế: Đây là các mầm bệnh thường trú tại đường sinh dục và tiêu hóa của mẹ lây truyền sang con trong chuyển dạ.
 
-18. Đáp án: Full Sepsis Workup (cấy máu, cấy nước tiểu qua sonde, chọc dò tủy sống)
+18. Đáp án: Full Sepsis Workup
 Nguồn/ghi chú: Cơ chế: Triệu chứng lâm sàng nhiễm khuẩn nặng ở trẻ sơ sinh rất nghèo nàn và không đáng tin cậy; trẻ có thể viêm màng não mủ dù bề ngoài bú tốt.
 
-19. Đáp án: Ampicillin; Cefotaxime (hoặc Gentamicin)
+19. Đáp án: Ampicillin
 Nguồn/ghi chú: Cơ chế: Ampicillin bao phủ Listeria monocytogenes vốn đề kháng tự nhiên với cephalosporin, trong khi Cefotaxime diệt trực khuẩn Gram âm E. coli và GBS.
 
 20. Đáp án: nhiễm trùng đường tiết niệu (UTI)
 Nguồn/ghi chú: Cơ chế: Vi khuẩn Gram âm đường ruột dễ dàng xâm nhập ngược dòng niệu đạo ở lứa tuổi này, đặc biệt ở bé gái và bé trai chưa cắt bao quy đầu.
 
-21. Đáp án: đặt ống thông bàng quang hoặc chọc hút trên xương mu
+21. Đáp án: đặt ống thông bàng quang
 Nguồn/ghi chú: Cơ chế: Nước tiểu lấy bằng túi dán có tỷ lệ dương tính giả do tạp nhiễm vi khuẩn da vùng bẹn lên tới 80%, dẫn đến chẩn đoán sai và lạm dụng kháng sinh.
 
 22. Đáp án: 0.5%
 Nguồn/ghi chú: Cơ chế: Kháng thể tạo ra từ vaccine liên hợp bảo vệ trẻ hiệu quả chống lại sự xâm lấn vào máu của phế cầu và vi khuẩn Hib.
 
-23. Đáp án: trạng thái tỉnh táo, màu sắc da, độ ẩm niêm mạc và phản ứng xã hội
+23. Đáp án: trạng thái tỉnh táo, màu da, độ ẩm niêm mạc
 Nguồn/ghi chú: Cơ chế: Điểm YOS ≤ 10 điểm tương ứng với nguy cơ nhiễm trùng nặng thấp dưới 3%; điểm YOS > 16 điểm có nguy cơ nhiễm trùng nặng lên tới trên 90%.
 
 24. Đáp án: Đỏ (nguy cơ cao)
@@ -92,19 +92,19 @@ Nguồn/ghi chú: Cơ chế: Giúp nhân viên y tế phân loại nhanh bệnh 
 25. Đáp án: Đỏ (nguy cơ cao)
 Nguồn/ghi chú: Cơ chế: Đây là các dấu hiệu suy hô hấp nặng, sốc tuần hoàn hoặc nhiễm khuẩn huyết tối cấp đòi hỏi hồi sức khẩn cấp ngay.
 
-26. Đáp án: 10 đến 15 mg/kg; 4 đến 6 giờ
+26. Đáp án: 10 đến 15 mg/kg
 Nguồn/ghi chú: Cơ chế: Liều này đạt nồng độ ức chế COX tại hệ thần kinh trung ương hiệu quả mà không làm cạn kiệt dự trữ Glutathione tế bào gan.
 
-27. Đáp án: 60 mg/kg/ngày; 4000 mg/ngày
+27. Đáp án: 60 mg/kg/ngày
 Nguồn/ghi chú: Cơ chế: Dùng vượt quá ngưỡng này sẽ làm cạn kiệt Glutathione nội bào tại gan, dẫn đến ngộ độc gan cấp tính do tích lũy NAPQI.
 
 28. Đáp án: N-acetyl-p-benzoquinone imine (NAPQI)
 Nguồn/ghi chú: Cơ chế: NAPQI tự do gắn cộng hóa trị vào đại phân tử tế bào gan gây hoại tử trung tâm tiểu thùy cấp và suy gan bùng phát.
 
-29. Đáp án: 5 đến 10 mg/kg; 6 đến 8 giờ
+29. Đáp án: 5 đến 10 mg/kg
 Nguồn/ghi chú: Cơ chế: Ibuprofen ức chế cả COX-1 và COX-2 ngoại vi và trung ương, mang lại tác dụng kháng viêm và hạ sốt kéo dài hơn Paracetamol.
 
-30. Đáp án: 40 mg/kg/ngày; 1200 đến 2400 mg/ngày
+30. Đáp án: 40 mg/kg/ngày
 Nguồn/ghi chú: Cơ chế: Vượt quá trần liều làm tăng vọt nguy cơ loét thủng dạ dày tá tràng và tổn thương suy thận cấp.
 
 31. Đáp án: 3 tháng tuổi trở lên
@@ -119,10 +119,10 @@ Nguồn/ghi chú: Cơ chế: Khi giảm thể tích tuần hoàn, thận cần p
 34. Đáp án: Cân nặng lý tưởng (Ideal Body Weight)
 Nguồn/ghi chú: Cơ chế: Paracetamol tan trong nước ít phân bố vào mô mỡ; tính theo cân nặng thực tế sẽ gây quá liều độc gan ở trẻ có sẵn thoái hóa mỡ gan.
 
-35. Đáp án: ngộ độc cồn cấp, hạ đường huyết, hôn mê và suy hô hấp
+35. Đáp án: ngộ độc cồn cấp
 Nguồn/ghi chú: Cơ chế: Da trẻ mỏng và diện tích da trên cân nặng lớn khiến cồn thẩm thấu nhanh vào máu ức chế thần kinh trung ương.
 
-36. Đáp án: run cơ tạo nhiệt, làm thân nhiệt lõi tăng vọt lên cao hơn
+36. Đáp án: run cơ tạo nhiệt
 Nguồn/ghi chú: Cơ chế: Kích thích lạnh làm trung tâm điều nhiệt tưởng cơ thể đang lạnh cóng, phát động tăng sinh nhiệt làm trẻ hoảng loạn và kiệt sức.
 
 37. Đáp án: 10% đến 12%
@@ -134,10 +134,10 @@ Nguồn/ghi chú: Cơ chế: Nước ấm vừa đủ giúp giãn mạch bề m�
 39. Đáp án: nhiễm trùng
 Nguồn/ghi chú: Cơ chế: Đa số là biểu hiện không điển hình của các bệnh nhiễm trùng thông thường như lao, nhiễm trùng tiểu sâu, viêm nội tâm mạc, áp xe sâu.
 
-40. Đáp án: Viêm khớp tự phát thiếu niên thể hệ thống (sJIA / Still)
+40. Đáp án: Viêm khớp tự phát thiếu niên thể hệ thống (sJIA)
 Nguồn/ghi chú: Cơ chế: sJIA là bệnh lý tự viêm đặc trưng bởi sự bùng nổ cytokine IL-1 và IL-6 toàn thân, thường kèm tăng Ferritin máu cực cao.
 
-41. Đáp án: Hội chứng Kích hoạt Đại thực bào (MAS) hoặc Bệnh Still thể hệ thống
+41. Đáp án: Hội chứng Kích hoạt Đại thực bào (MAS)
 Nguồn/ghi chú: Cơ chế: Cơn bão cytokine kích hoạt hệ lưới nội mô sản sinh lượng lớn Ferritin, tiềm ẩn nguy cơ thực bào máu đe dọa tính mạng.
 
 42. Đáp án: Corticoid
@@ -152,19 +152,19 @@ Nguồn/ghi chú: Cơ chế: Trẻ sốt thông thường sẽ tươi tỉnh tr�
 45. Đáp án: 21 khuyến cáo hành động then chốt (Key Action Statements)
 Nguồn/ghi chú: Cơ chế: Dựa trên phân tích bằng chứng hệ thống của AHRQ để tối ưu hóa việc phân tầng nguy cơ và giảm thiểu thủ thuật xâm lấn không cần thiết.
 
-46. Đáp án: 8 đến 21 ngày tuổi; bắt buộc 100%
+46. Đáp án: bắt buộc 100%
 Nguồn/ghi chú: Cơ chế: Trẻ dưới 3 tuần tuổi có hàng rào máu não chưa hoàn thiện và tỷ lệ viêm màng não mủ không có biểu hiện lâm sàng vẫn ở mức cao.
 
-47. Đáp án: 22 đến 28 ngày tuổi; các chỉ dấu sinh học viêm (Procalcitonin, CRP, ANC)
+47. Đáp án: các chỉ dấu sinh học viêm
 Nguồn/ghi chú: Cơ chế: Cho phép giảm thiểu thủ thuật xâm lấn đau đớn ở nhóm trẻ nguy cơ thấp được gia đình theo dõi sát và cam kết tái khám sau 24 giờ.
 
-48. Đáp án: 29 đến 60 ngày tuổi; ngoại trú không dùng kháng sinh
+48. Đáp án: ngoại trú không dùng kháng sinh
 Nguồn/ghi chú: Cơ chế: Nguy cơ nhiễm khuẩn xâm lấn ở nhóm này cực thấp (< 0.5%), theo dõi ngoại trú tránh được nguy cơ nhiễm trùng bệnh viện và lạm dụng kháng sinh.
 
 49. Đáp án: 1,821
 Nguồn/ghi chú: Cơ chế: Thiết lập quy tắc dự đoán lâm sàng chuẩn xác nhất hiện nay kết hợp que thử nước tiểu với hai biomarker viêm hiện đại.
 
-50. Đáp án: 4,090/µL; 1.71 ng/mL
+50. Đáp án: 1.71 ng/mL
 Nguồn/ghi chú: Cơ chế: Phân tích đệ quy nhị phân chứng minh bộ ba này vượt trội hoàn toàn so với việc chỉ dựa vào số lượng bạch cầu tổng số (WBC).
 
 51. Đáp án: 97.7%
@@ -197,7 +197,7 @@ Nguồn/ghi chú: Cơ chế: Thử nghiệm PITCH là bằng chứng RCT quy chu
 60. Đáp án: 23 phút
 Nguồn/ghi chú: Cơ chế: Sự hiệp đồng ức chế enzyme COX tại trung ương và ngoại vi giúp giảm tổng hợp PGE2 nhanh hơn đôi chút so với một thuốc.
 
-61. Đáp án: không mang lại lợi ích vượt trội về mức độ giảm khó chịu
+61. Đáp án: không vượt trội về mức độ giảm khó chịu
 Nguồn/ghi chú: Cơ chế: Sự chênh lệch 23 phút hạ nhiệt độ không chuyển thành lợi ích lâm sàng có ý nghĩa đối với sự phục hồi tinh thần của trẻ.
 
 62. Đáp án: vượt trội hơn hẳn nhóm dùng Paracetamol đơn độc
@@ -218,7 +218,7 @@ Nguồn/ghi chú: Cơ chế: Que nhúng phát hiện Leukocyte Esterase và Nitr
 67. Đáp án: 233
 Nguồn/ghi chú: Cơ chế: Nghiên cứu nền tảng mở ra kỷ nguyên phân tầng nguy cơ thấp để tránh nằm viện và dùng kháng sinh không cần thiết.
 
-68. Đáp án: 5,000 đến 15,000/mm³; 1,500/mm³
+68. Đáp án: 5,000 đến 15,000/mm³
 Nguồn/ghi chú: Cơ chế: Bạch cầu quá cao (> 15000) hoặc quá thấp (< 5000) đều là dấu hiệu báo động của nhiễm trùng huyết nặng; tỷ lệ tế bào non phản ánh phản ứng tủy xương.
 
 69. Đáp án: 1 trẻ (0.7%)
@@ -230,19 +230,19 @@ Nguồn/ghi chú: Cơ chế: Giúp các bác sĩ tự tin rằng việc trì ho�
 71. Đáp án: 1,638
 Nguồn/ghi chú: Cơ chế: Tổng hợp dữ liệu dịch tễ học toàn cầu giúp định hình xác suất tiền nghiệm của các nhóm nguyên nhân gây sốt chưa rõ nguyên nhân.
 
-72. Đáp án: 51%; 9%; 6%; 23%
+72. Đáp án: 51%
 Nguồn/ghi chú: Cơ chế: Nắm vững tỷ lệ này giúp bác sĩ ưu tiên tìm kiếm nhiễm trùng thông thường biểu hiện không điển hình trước khi nghĩ đến các bệnh lý hiếm gặp.
 
 73. Đáp án: 59%
 Nguồn/ghi chú: Cơ chế: Các ổ nhiễm khuẩn sâu thường âm thầm khu trú không gây triệu chứng rầm rộ nhưng duy trì phản ứng sốt dai dẳng.
 
-74. Đáp án: tự thoái lui hết sốt hoàn toàn mà không để lại di chứng
+74. Đáp án: tự thoái lui hoàn toàn
 Nguồn/ghi chú: Cơ chế: Khẳng định vai trò của việc kiên trì theo dõi, tránh nôn nóng can thiệp các liệu pháp ức chế miễn dịch hay kháng sinh mù quáng.
 
 75. Đáp án: 2 mẫu máu vô trùng
 Nguồn/ghi chú: Cơ chế: Hai mẫu cấy giúp phân biệt vi khuẩn gây bệnh thực sự với hiện tượng tạp nhiễm vi khuẩn thường trú trên da (như Coagulase-negative Staphylococci).
 
-76. Đáp án: Hội chứng kích hoạt đại thực bào (Macrophage Activation Syndrome - MAS)
+76. Đáp án: Hội chứng kích hoạt đại thực bào (MAS)
 Nguồn/ghi chú: Cơ chế: MAS là một thể nặng của hội chứng thực bào máu xảy ra trên nền bệnh Still sJIA, đòi hỏi can thiệp cấp cứu bằng Methylprednisolone liều xung và Cyclosporine.
 
 77. Đáp án: PET-CT với 18F-FDG
@@ -266,10 +266,10 @@ Nguồn/ghi chú: Cơ chế: Phản ứng quá mẫn qua trung gian miễn dịc
 83. Đáp án: tổn thương não vĩnh viễn hoặc tử vong
 Nguồn/ghi chú: Cơ chế: Nhiệm vụ quan trọng của bác sĩ là tư vấn trấn an khoa học, giải thích sốt là cơ chế bảo vệ và hướng dẫn cách theo dõi dấu hiệu nguy hiểm.
 
-84. Đáp án: 39.0°C; Hổ phách (nguy cơ trung bình)
+84. Đáp án: Hổ phách (nguy cơ trung bình)
 Nguồn/ghi chú: Cơ chế: Trẻ ở lứa tuổi này sốt cao trên 39 độ có xác suất nhiễm khuẩn tiềm ẩn cao hơn, cần được đánh giá cận lâm sàng cẩn thận.
 
-85. Đáp án: 38.0°C; Đỏ (nguy cơ cao)
+85. Đáp án: Đỏ (nguy cơ cao)
 Nguồn/ghi chú: Cơ chế: Do tính dễ bị tổn thương của hệ miễn dịch sơ sinh và nhũ nhi nhỏ, bất kỳ cơn sốt nào ở lứa tuổi này đều phải xem là nguy cơ cao.
 
 86. Đáp án: 4.4 giờ
@@ -280,3 +280,189 @@ Nguồn/ghi chú: Cơ chế: Giúp loại trừ nhiễm trùng đường tiết 
 
 88. Đáp án: tai, da, mô mềm và xương khớp
 Nguồn/ghi chú: Cơ chế: Đảm bảo trẻ không có các ổ viêm mủ khu trú bề mặt trước khi xếp vào nhóm nguy cơ thấp để theo dõi ngoại trú.
+
+89. Đáp án: Hội chứng Munchausen by proxy
+Nguồn/ghi chú: Cơ chế: Một số người chăm sóc có rối loạn tâm thần tự tạo cơn sốt giả cho trẻ (bằng cách hơ nóng nhiệt kế hoặc dùng thuốc) để thu hút sự chú ý của nhân viên y tế.
+
+90. Đáp án: áp xe sâu hoặc bệnh Still thể hệ thống
+Nguồn/ghi chú: Cơ chế: Ổ mủ kín đáo hoặc sự phóng thích cytokine viêm chu kỳ từ đại thực bào tạo nên các đỉnh sốt cao vọt cách quãng trong ngày.
+
+91. Đáp án: Thương hàn (Typhoid fever)
+Nguồn/ghi chú: Cơ chế: Vi khuẩn Salmonella enterica serovar Typhi nhân lên liên tục trong hệ lưới nội mô duy trì nồng độ nội độc tố máu hằng định.
+
+92. Đáp án: tế bào non (Blast)
+Nguồn/ghi chú: Cơ chế: Máy đếm laser tự động có thể bỏ sót tỷ lệ nhỏ tế bào blast trong giai đoạn đầu của bệnh bạch cầu cấp ALL.
+
+93. Đáp án: 2 mẫu máu
+Nguồn/ghi chú: Cơ chế: Hai mẫu cấy độc lập giúp phân biệt vi khuẩn gây bệnh thực sự với hiện tượng tạp nhiễm vi khuẩn thường trú trên da.
+
+94. Đáp án: Tốc độ lắng máu (ESR) và CRP định lượng
+Nguồn/ghi chú: Cơ chế: CRP phản ánh phản ứng viêm cấp tính nhanh (tăng sau 6h), trong khi ESR phản ánh nồng độ Fibrinogen và biến đổi protein huyết tương mạn tính.
+
+95. Đáp án: Hội chứng Kích hoạt Đại thực bào (MAS) và sJIA
+Nguồn/ghi chú: Cơ chế: Đại thực bào hoạt hóa tăng sản xuất và giải phóng ồ ạt Ferritin vào tuần hoàn dưới tác động của cơn bão cytokine IL-1 và IL-18.
+
+96. Đáp án: Viêm nội tâm mạc và phình giãn động mạch vành
+Nguồn/ghi chú: Cơ chế: Giúp phát hiện mảng sùi van tim (vegetation) và đo chỉ số Z-score động mạch vành trước khi xảy ra biến chứng nhồi máu cơ tim.
+
+97. Đáp án: giảm các dòng tế bào máu ngoại vi
+Nguồn/ghi chú: Cơ chế: Khảo sát trực tiếp cơ quan tạo máu giúp chẩn đoán xác định bạch cầu cấp, u nguyên bào thần kinh di căn hoặc hội chứng thực bào máu HLH.
+
+98. Đáp án: chụp PET-CT với 18F-FDG
+Nguồn/ghi chú: Cơ chế: Các tế bào miễn dịch hoạt hóa và tế bào ung thư tăng tiêu thụ glucose mạnh mẽ, tạo điểm bắt giữ phóng xạ nổi bật trên hình ảnh cắt lớp.
+
+99. Đáp án: không có tác dụng hạ sốt hay diệt virus
+Nguồn/ghi chú: Cơ chế: Hơn 80% sốt cấp ở trẻ nhỏ do virus; kháng sinh không tác động lên virus mà thúc đẩy chọn lọc vi khuẩn kháng thuốc nguy hiểm.
+
+100. Đáp án: nhầm lẫn liều và quá liều ngộ độc gan thận
+Nguồn/ghi chú: Cơ chế: Thử nghiệm PITCH chứng minh phối hợp không làm trẻ dễ chịu hơn nhưng làm cha mẹ hoang mang dẫn đến cho uống trùng liều độc tính.
+
+101. Đáp án: xuất huyết tiêu hóa ồ ạt
+Nguồn/ghi chú: Cơ chế: Ibuprofen ức chế kết tập tiểu cầu kết hợp với tình trạng giảm tiểu cầu và tổn thương nội mô do virus Dengue dẫn đến chảy máu khó cầm.
+
+102. Đáp án: Thromboxane A2
+Nguồn/ghi chú: Cơ chế: Tiểu cầu không thể tạo nút thắt cầm máu ban đầu, làm tăng nguy cơ nôn ra máu, đi cầu phân đen và sốc mất máu.
+
+103. Đáp án: sự bình yên giả tạo
+Nguồn/ghi chú: Cơ chế: Trẻ sơ sinh có thể chuyển từ trạng thái tỉnh táo sang sốc nhiễm trùng hoặc suy hô hấp ngừng thở chỉ trong vài giờ.
+
+104. Đáp án: 8% đến 12%
+Nguồn/ghi chú: Cơ chế: Hệ miễn dịch non nớt làm tăng nguy cơ nhiễm khuẩn huyết và viêm màng não do GBS, E. coli hoặc Listeria.
+
+105. Đáp án: ngộ độc cồn cấp và hạ đường huyết
+Nguồn/ghi chú: Cơ chế: Cồn ức chế thần kinh trung ương và ức chế quá trình tân tạo đường tại gan của trẻ nhỏ, có thể dẫn đến hôn mê sâu.
+
+106. Đáp án: run cơ tạo nhiệt, tăng thân nhiệt lõi
+Nguồn/ghi chú: Cơ chế: Lạnh kích thích thụ thể nhiệt da báo tín hiệu giả lên vùng dưới đồi, khiến cơ thể tăng sinh nhiệt và làm trẻ sợ hãi hoảng loạn.
+
+107. Đáp án: 41.0°C
+Nguồn/ghi chú: Cơ chế: Vùng dưới đồi có các thụ thể feedback âm tự giới hạn biên độ tăng thân nhiệt; tổn thương não chỉ xảy ra khi thân nhiệt vượt quá 41.7°C trong say nóng.
+
+108. Đáp án: 6 đến 60 tháng
+Nguồn/ghi chú: Cơ chế: Bác sĩ cần giải tỏa nỗi ám ảnh sợ co giật của phụ huynh để tránh việc lạm dụng thuốc hạ sốt quá liều.
+
+109. Đáp án: tạo sẹo xơ teo thận
+Nguồn/ghi chú: Cơ chế: Viêm đài bể thận tái diễn không được điều trị kịp thời phá hủy nhu mô thận không thể hồi phục.
+
+110. Đáp án: Bạch cầu cấp (ALL)
+Nguồn/ghi chú: Cơ chế: Corticoid phá hủy một phần tế bào lymphoblast làm tủy đồ âm tính giả, khiến bệnh nhi mất cơ hội điều trị hóa chất đúng giai đoạn.
+
+111. Đáp án: Cân nặng lý tưởng (Ideal Body Weight)
+Nguồn/ghi chú: Cơ chế: Paracetamol tan trong nước ít phân bố vào mô mỡ; tính liều theo cân nặng thực tế sẽ gây quá liều tương đối và ngộ độc gan.
+
+112. Đáp án: thoái hóa mỡ gan làm giảm dự trữ Glutathione
+Nguồn/ghi chú: Cơ chế: Dự trữ Glutathione giảm khiến gan trẻ béo phì dễ bị hoại tử tế bào bởi chất độc NAPQI ngay cả ở mức liều thấp hơn bình thường.
+
+113. Đáp án: 1000 mg/lần
+Nguồn/ghi chú: Cơ chế: Đây là ngưỡng bão hòa an toàn của các con đường liên hợp glucuronide và sulfate tại gan người trưởng thành.
+
+114. Đáp án: nhập viện làm Full Sepsis Workup
+Nguồn/ghi chú: Cơ chế: Trẻ sơ sinh dưới 28 ngày tuổi sốt có nguy cơ IBI cao và biểu hiện lâm sàng không phản ánh đúng mức độ nặng của nhiễm trùng.
+
+115. Đáp án: Viêm khớp tự phát thiếu niên thể hệ thống (sJIA)
+Nguồn/ghi chú: Cơ chế: Ban đỏ cá hồi và sốt hình gai nhọn là dấu hiệu chỉ điểm kinh điển của sJIA, thường kèm theo tăng mạnh Ferritin máu.
+
+116. Đáp án: Hội chứng kích hoạt đại thực bào (MAS)
+Nguồn/ghi chú: Cơ chế: MAS là một thể nặng của bão cytokine dẫn đến suy đa tạng và rối loạn đông máu tiêu thụ nghiêm trọng.
+
+117. Đáp án: Fibrinogen giảm, Triglyceride tăng và Ferritin tăng cực cao
+Nguồn/ghi chú: Cơ chế: Đại thực bào hoạt hóa thực bào tiểu cầu và fibrinogen, đồng thời phá hủy chuyển hóa lipid tạo nên tam chứng xét nghiệm đặc thù.
+
+118. Đáp án: Say nóng - Sốc nhiệt cổ điển (Classic Heat Stroke)
+Nguồn/ghi chú: Cơ chế: Tích tụ nhiệt từ môi trường khép kín làm sụp đổ hoàn toàn cơ chế điều nhiệt và thải nhiệt của cơ thể trẻ nhỏ.
+
+119. Đáp án: hoàn toàn vô hiệu và chống chỉ định
+Nguồn/ghi chú: Cơ chế: Thuốc hạ sốt hoạt động qua ức chế PGE2 tại vùng dưới đồi; khi set-point không tăng thì thuốc không hạ được nhiệt mà chỉ gây độc gan thận.
+
+120. Đáp án: làm mát cưỡng bức vật lý ngoài cơ thể
+Nguồn/ghi chú: Cơ chế: Truyền nhiệt cưỡng bức qua đối lưu và bay hơi nước là cách duy nhất hạ nhanh thân nhiệt lõi bảo vệ tế bào thần kinh.
+
+121. Đáp án: 29 đến 60 ngày tuổi
+Nguồn/ghi chú: Cơ chế: Ở nhóm này, việc chọc dò tủy sống có thể tránh được nếu trẻ tỉnh táo, các chỉ số viêm bình thường và nước tiểu âm tính.
+
+122. Đáp án: Leukocyte Esterase và Nitrite
+Nguồn/ghi chú: Cơ chế: LE phản ánh sự hiện diện của bạch cầu đa nhân, trong khi Nitrite phản ánh vi khuẩn Gram âm khử Nitrate thành Nitrite.
+
+123. Đáp án: 5200/µL
+Nguồn/ghi chú: Cơ chế: ANC tăng cao phản ánh phản ứng tủy xương phóng thích bạch cầu trung tính vào tuần hoàn để chống nhiễm khuẩn nặng.
+
+124. Đáp án: Escherichia coli
+Nguồn/ghi chú: Cơ chế: E. coli chiếm trên 80% các trường hợp nhiễm trùng tiểu tiên phát ở trẻ nhũ nhi.
+
+125. Đáp án: Ceftriaxone liều 50 mg/kg/ngày
+Nguồn/ghi chú: Cơ chế: Ceftriaxone có phổ kháng khuẩn mạnh trên trực khuẩn Gram âm đường ruột và bài tiết qua thận với nồng độ cao trong nước tiểu.
+
+126. Đáp án: 10 ngày
+Nguồn/ghi chú: Cơ chế: Đợt điều trị đủ 10 ngày diệt sạch vi khuẩn trong nhu mô thận, ngăn ngừa tái phát và giảm thiểu nguy cơ tạo sẹo thận.
+
+127. Đáp án: dát sẩn màu hồng cá hồi (salmon-pink)
+Nguồn/ghi chú: Cơ chế: Ban sJIA xuất hiện đồng thì với cơn sốt do giãn mạch thoáng qua dưới tác động của cytokine và biến mất khi nhiệt độ hạ.
+
+128. Đáp án: 680,000/mm³
+Nguồn/ghi chú: Cơ chế: Nồng độ IL-6 cao kích thích gan sản sinh Thrombopoietin làm tăng sinh dòng tiểu cầu phản ứng viêm dữ dội.
+
+129. Đáp án: Ferritin huyết thanh
+Nguồn/ghi chú: Cơ chế: Ferritin là protein pha cấp nhạy cảm phản ánh mức độ hoạt hóa của đại thực bào trong các bệnh lý tự viêm hệ thống.
+
+130. Đáp án: chọc hút tủy xương (tủy đồ)
+Nguồn/ghi chú: Cơ chế: Dùng corticoid hoặc ức chế sinh học khi chưa loại trừ ung thư có thể gây biến đổi tủy đồ và bùng phát ly giải u nguy hiểm.
+
+131. Đáp án: dưới 2%
+Nguồn/ghi chú: Cơ chế: Tiêu chuẩn chẩn đoán bạch cầu cấp đòi hỏi tỷ lệ tế bào blast trong tủy xương phải từ 20% trở lên.
+
+132. Đáp án: Viêm khớp tự phát thiếu niên thể hệ thống (sJIA)
+Nguồn/ghi chú: Cơ chế: Thỏa mãn tiêu chuẩn ILAR: Sốt kéo dài trên 2 tuần kèm viêm khớp, ban hồng cá hồi, gan lách to và viêm pha cấp bùng nổ.
+
+133. Đáp án: Tocilizumab
+Nguồn/ghi chú: Cơ chế: IL-6 là cytokine gây sốt và viêm chủ lực trong sJIA; phong bế thụ thể IL-6 dập tắt phản ứng viêm toàn thân nhanh chóng.
+
+134. Đáp án: 12 mg/L
+Nguồn/ghi chú: Cơ chế: Sự sụt giảm ngoạn mục của CRP và Ferritin phản ánh tình trạng dập tắt hoàn toàn cơn bão cytokine trong cơ thể.
+
+135. Đáp án: Khớp Nhi / Miễn dịch lâm sàng
+Nguồn/ghi chú: Cơ chế: Bệnh sJIA cần theo dõi giảm liều corticoid từng bước, theo dõi tác dụng phụ của thuốc sinh học và tầm soát viêm màng bồ đào.
+
+136. Đáp án: nhiệt độ đo tại hậu môn
+Nguồn/ghi chú: Cơ chế: Niêm mạc trực tràng được cấp máu dồi dào từ tuần hoàn trung tâm và không bị ảnh hưởng bởi môi trường không khí xung quanh.
+
+137. Đáp án: 0.3 đến 0.5°C
+Nguồn/ghi chú: Cơ chế: Cần cộng thêm 0.5°C khi đo nách để ước tính nhiệt độ trung tâm cơ thể của trẻ nhũ nhi.
+
+138. Đáp án: 60 phút
+Nguồn/ghi chú: Cơ chế: Phân biệt trẻ mệt mỏi do nhiệt độ cao đơn thuần với tình trạng li bì thực thể do tổn thương hệ thần kinh trung ương.
+
+139. Đáp án: 48 giờ
+Nguồn/ghi chú: Cơ chế: Nhiễm trùng tiểu là nguyên nhân vi khuẩn bị bỏ sót hàng đầu ở lứa tuổi này do không có triệu chứng tiểu khó rõ rệt.
+
+140. Đáp án: ống thông bàng quang đặt vô khuẩn
+Nguồn/ghi chú: Cơ chế: Túi dán nước tiểu có tỷ lệ dương tính giả lên tới 80% do tạp nhiễm vi khuẩn da vùng bẹn.
+
+141. Đáp án: cân trẻ thực tế tại phòng khám
+Nguồn/ghi chú: Cơ chế: Sai lệch 2-3 kg có thể dẫn đến việc dùng dưới liều điều trị (không hạ sốt) hoặc quá liều tích lũy gây độc tế bào gan.
+
+142. Đáp án: không cần thiết phải đánh thức trẻ dậy nửa đêm
+Nguồn/ghi chú: Cơ chế: Giấc ngủ sâu giúp hệ miễn dịch phục hồi và tiết cytokine chống nhiễm trùng; đánh thức trẻ dậy làm tăng stress và mệt mỏi.
+
+143. Đáp án: không biến mất dưới lực ép
+Nguồn/ghi chú: Cơ chế: Ban xuất huyết là hồng cầu thoát mạch ra ngoài mô da do hoại tử vi mạch, không phải giãn mạch đơn thuần.
+
+144. Đáp án: làm sai lệch chẩn đoán bệnh ác tính
+Nguồn/ghi chú: Cơ chế: Corticoid tiêu diệt một phần tế bào blast gây âm tính giả tủy đồ và ức chế miễn dịch làm bùng phát lao lan tràn.
+
+145. Đáp án: viêm phổi hoặc toan chuyển hóa
+Nguồn/ghi chú: Cơ chế: Thân nhiệt hạ loại bỏ kích thích tăng thông khí sinh lý do sốt; nhịp thở nhanh dai dẳng là bằng chứng của tổn thương nhu mô phổi thực thể.
+
+146. Đáp án: 4 giờ một lần
+Nguồn/ghi chú: Cơ chế: Hình thái đường cong nhiệt độ (hình gai, hình cao nguyên, chu kỳ) là manh mối lâm sàng vô giá định hướng căn nguyên.
+
+147. Đáp án: không có dấu hiệu cảnh báo đỏ (Red Flags)
+Nguồn/ghi chú: Cơ chế: Khả năng uống bù dịch đường miệng tốt là yếu tố then chốt ngăn ngừa biến chứng mất nước và rối loạn điện giải tại nhà.
+
+148. Đáp án: thân mình đang sốt cao
+Nguồn/ghi chú: Cơ chế: Dấu hiệu co mạch ngoại vi dữ dội và tụt huyết áp cảnh báo sốc nhiễm khuẩn giai đoạn sớm.
+
+149. Đáp án: thở rên (grunting), thở co kéo ngực sâu
+Nguồn/ghi chú: Cơ chế: Thở rên là phản xạ khép thanh môn để tạo PEEP tự nhiên chống xẹp phế nang trong suy hô hấp nặng.
+
+150. Đáp án: 3 ngày trở lên
+Nguồn/ghi chú: Cơ chế: Sốt kéo dài trên 72 giờ làm tăng nguy cơ bội nhiễm vi khuẩn thứ phát, viêm tai giữa cấp hoặc bệnh Kawasaki.
