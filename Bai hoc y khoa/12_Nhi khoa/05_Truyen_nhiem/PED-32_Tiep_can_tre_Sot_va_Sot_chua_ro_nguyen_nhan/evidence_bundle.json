@@ -1,0 +1,549 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-17T10:13:32.605211Z",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\raw_cache",
+  "providers": [
+    "crossref_retraction_watch",
+    "europe_pmc_metadata",
+    "official_source",
+    "openalex"
+  ],
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "324dfc896af3a44b183e084a202d92db3f0e770ae1d4f5bd90e2ed08448f15e6",
+      "path": "raw/europe_pmc_metadata/324dfc896af3a44b183e084a202d92db3f0e770ae1d4f5bd90e2ed08448f15e6.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "4c017cefb1ea29ce7b2f8c13b46bab1945f134c7e566c3d76cf572b34fbe9749",
+      "path": "raw/openalex/4c017cefb1ea29ce7b2f8c13b46bab1945f134c7e566c3d76cf572b34fbe9749.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "9c03620d0887fe436b8b60da222b613d5072166e726c13fba05cc36d89f727b2",
+      "path": "raw/crossref_retraction_watch/9c03620d0887fe436b8b60da222b613d5072166e726c13fba05cc36d89f727b2.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "004c2d41fcbb6ef5d1452cbb8f780a2a373888af6116a8ac0d3289d147a37113",
+      "path": "raw/europe_pmc_metadata/004c2d41fcbb6ef5d1452cbb8f780a2a373888af6116a8ac0d3289d147a37113.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "e6b80ac39299c41e920ec000b02562934ee27e6e8576521904607deee6ee6cdb",
+      "path": "raw/openalex/e6b80ac39299c41e920ec000b02562934ee27e6e8576521904607deee6ee6cdb.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "e602d307a425ffbda81b0651c2feed48277c3c746d2ad5d113fc073638d31aaf",
+      "path": "raw/crossref_retraction_watch/e602d307a425ffbda81b0651c2feed48277c3c746d2ad5d113fc073638d31aaf.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "425baa826e13eebece6daac239940d141ce9421b735e6b7453e1018db060c517",
+      "path": "raw/europe_pmc_metadata/425baa826e13eebece6daac239940d141ce9421b735e6b7453e1018db060c517.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "236c0c436414b9c8c76ac442351515d538f4a19738e94512bda01da624d3dc71",
+      "path": "raw/openalex/236c0c436414b9c8c76ac442351515d538f4a19738e94512bda01da624d3dc71.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "82903effed01daf9879fa57a99239421f3b2ba180b168f37f2fbc0e4e7554f04",
+      "path": "raw/crossref_retraction_watch/82903effed01daf9879fa57a99239421f3b2ba180b168f37f2fbc0e4e7554f04.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "c5ff49fe90244f594b94d7640557707277bc27dc07ad17587b1507a9cb8b5512",
+      "path": "raw/europe_pmc_metadata/c5ff49fe90244f594b94d7640557707277bc27dc07ad17587b1507a9cb8b5512.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "9acd2f72e92f2e94244bfb3c77e52faa37b145facb1332a0f49b32e0147abed2",
+      "path": "raw/openalex/9acd2f72e92f2e94244bfb3c77e52faa37b145facb1332a0f49b32e0147abed2.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "38d2e64f6206d86b9124b8776d66d2d2c96457b0dfadeeaa8f58b09ac0bf7d10",
+      "path": "raw/crossref_retraction_watch/38d2e64f6206d86b9124b8776d66d2d2c96457b0dfadeeaa8f58b09ac0bf7d10.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "d72ed6534e29e39fd85eeb7b066cd8881b95f14bc744857f820ec468c351da65",
+      "path": "raw/europe_pmc_metadata/d72ed6534e29e39fd85eeb7b066cd8881b95f14bc744857f820ec468c351da65.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "257f64ca3e9251d71eacd081642968c9b2a1d43efe4a9a54ee68bb7f5964f354",
+      "path": "raw/openalex/257f64ca3e9251d71eacd081642968c9b2a1d43efe4a9a54ee68bb7f5964f354.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "77be55180589de6bbdab7103b07dc0128c0b7ceeb25d0d82cd81734122608bfe",
+      "path": "raw/crossref_retraction_watch/77be55180589de6bbdab7103b07dc0128c0b7ceeb25d0d82cd81734122608bfe.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "c5bc43eecc218f07ada6d4259d098246a421b6f035720024fe4e5b8043844be2",
+      "path": "raw/europe_pmc_metadata/c5bc43eecc218f07ada6d4259d098246a421b6f035720024fe4e5b8043844be2.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "4422f0319a4653e54a443775c9906a6afca4e26e94f33a6c5867e2380b8b2ad4",
+      "path": "raw/openalex/4422f0319a4653e54a443775c9906a6afca4e26e94f33a6c5867e2380b8b2ad4.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "1c36aeea84cd9aab26b1e6edfbbfaf1cb314d36d0564e58df750fbc22cdd1124",
+      "path": "raw/crossref_retraction_watch/1c36aeea84cd9aab26b1e6edfbbfaf1cb314d36d0564e58df750fbc22cdd1124.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "2a0b7079bfffb2a4e67f8e712464703fd4955012d5769921d94100d652b82f51",
+      "path": "raw/europe_pmc_metadata/2a0b7079bfffb2a4e67f8e712464703fd4955012d5769921d94100d652b82f51.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "deb9f09ae271e556bd2d6ca7529b94f72097a75ae03ea07a846e55910fc88145",
+      "path": "raw/openalex/deb9f09ae271e556bd2d6ca7529b94f72097a75ae03ea07a846e55910fc88145.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T10:13:32.605211Z",
+      "sha256": "6b828e20b38612c90b67bbce8caf2167abb2b029908a664c2170672c2429d96e",
+      "path": "raw/crossref_retraction_watch/6b828e20b38612c90b67bbce8caf2167abb2b029908a664c2170672c2429d96e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "records": {
+    "pmid:34281996": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "34281996",
+        "doi": "10.1542/peds.2021-052228"
+      },
+      "title": "Evaluation and Management of Well-Appearing Febrile Infants 8 to 60 Days Old",
+      "abstract": "This guideline addresses the evaluation and management of well-appearing, term infants, 8 to 60 days of age, with fever ≥38.0°C. Exclusions are noted. After a commissioned evidence-based review by the Agency for Healthcare Research and Quality, an additional extensive and ongoing review of the literature, and supplemental data from published, peer-reviewed studies provided by active investigators, 21 key action statements were derived. For each key action statement, the quality of evidence and benefit-harm relationship were assessed and graded to determine the strength of recommendations. When appropriate, parents' values and preferences should be incorporated as part of shared decision-making. For diagnostic testing, the committee has attempted to develop numbers needed to test, and for antimicrobial administration, the committee provided numbers needed to treat. Three algorithms summarize the recommendations for infants 8 to 21 days of age, 22 to 28 days of age, and 29 to 60 days of age. The recommendations in this guideline do not indicate an exclusive course of treatment or serve as a standard of medical care. Variations, taking into account individual circumstances, may be appropriate.",
+      "journal": "Pediatrics",
+      "year": "2021",
+      "publication_types": [
+        "Practice Guideline",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "metadata_checked_at": "2026-09-17T10:13:32.605211Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T10:13:32.605211Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "324dfc896af3a44b183e084a202d92db3f0e770ae1d4f5bd90e2ed08448f15e6",
+        "4c017cefb1ea29ce7b2f8c13b46bab1945f134c7e566c3d76cf572b34fbe9749",
+        "9c03620d0887fe436b8b60da222b613d5072166e726c13fba05cc36d89f727b2"
+      ],
+      "claim_quote": "PMID 34281996 C-001 001 1 AAP 2021 Clinical Practice Guideline: Evaluation and Management of Well-Appearing Febrile Infants 8 to 60 Days Old. Key Action Statements: Clinicians should evaluate well-appearing infants 8 to 60 days of age with fever 38.0 C by stratifying into 3 age groups: 8 to 21 days, 22 to 28 days, and 29 to 60 days. Total 21 key action statements. Fever 38.0 C.",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "current_version": true,
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "superseded_by": null
+      }
+    },
+    "pmid:30776077": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "30776077",
+        "doi": "10.1001/jamapediatrics.2018.5501"
+      },
+      "title": "A Clinical Prediction Rule to Identify Febrile Infants 60 Days and Younger at Low Risk for Serious Bacterial Infections",
+      "abstract": "<h4>Importance</h4>In young febrile infants, serious bacterial infections (SBIs), including urinary tract infections, bacteremia, and meningitis, may lead to dangerous complications. However, lumbar punctures and hospitalizations involve risks and costs. Clinical prediction rules using biomarkers beyond the white blood cell count (WBC) may accurately identify febrile infants at low risk for SBIs.<h4>Objective</h4>To derive and validate a prediction rule to identify febrile infants 60 days and younger at low risk for SBIs.<h4>Design, setting, and participants</h4>Prospective, observational study between March 2011 and May 2013 at 26 emergency departments. Convenience sample of previously healthy febrile infants 60 days and younger who were evaluated for SBIs. Data were analyzed between April 2014 and April 2018.<h4>Exposures</h4>Clinical and laboratory data (blood and urine) including patient demographics, fever height and duration, clinical appearance, WBC, absolute neutrophil count (ANC), serum procalcitonin, and urinalysis. We derived and validated a prediction rule based on these variables using binary recursive partitioning analysis.<h4>Main outcomes and measures</h4>Serious bacterial infection, defined as urinary tract infection, bacteremia, or bacterial meningitis.<h4>Results</h4>We derived the prediction rule on a random sample of 908 infants and validated it on 913 infants (mean age was 36 days, 765 were girls [42%], 781 were white and non-Hispanic [43%], 366 were black [20%], and 535 were Hispanic [29%]). Serious bacterial infections were present in 170 of 1821 infants (9.3%), including 26 (1.4%) with bacteremia, 151 (8.3%) with urinary tract infections, and 10 (0.5%) with bacterial meningitis; 16 (0.9%) had concurrent SBIs. The prediction rule identified infants at low risk of SBI using a negative urinalysis result, an ANC of 4090/µL or less (to convert to ×109 per liter, multiply by 0.001), and serum procalcitonin of 1.71 ng/mL or less. In the validation cohort, the rule sensitivity was 97.7% (95% CI, 91.3-99.6), specificity was 60.0% (95% CI, 56.6-63.3), negative predictive value was 99.6% (95% CI, 98.4-99.9), and negative likelihood ratio was 0.04 (95% CI, 0.01-0.15). One infant with bacteremia and 2 infants with urinary tract infections were misclassified. No patients with bacterial meningitis were missed by the rule. The rule performance was nearly identical when the outcome was restricted to bacteremia and/or bacterial meningitis, missing the same infant with bacteremia.<h4>Conclusions and relevance</h4>We derived and validated an accurate prediction rule to identify febrile infants 60 days and younger at low risk for SBIs using the urinalysis, ANC, and procalcitonin levels. Once further validated on an independent cohort, clinical application of the rule has the potential to decrease unnecessary lumbar punctures, antibiotic administration, and hospitalizations.",
+      "journal": "JAMA pediatrics",
+      "year": "2019",
+      "publication_types": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Observational Study"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "metadata_checked_at": "2026-09-17T10:13:32.605211Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T10:13:32.605211Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "004c2d41fcbb6ef5d1452cbb8f780a2a373888af6116a8ac0d3289d147a37113",
+        "e6b80ac39299c41e920ec000b02562934ee27e6e8576521904607deee6ee6cdb",
+        "e602d307a425ffbda81b0651c2feed48277c3c746d2ad5d113fc073638d31aaf"
+      ],
+      "claim_quote": "PMID 30776077 C-003 C-004 003 004 3 4 Kuppermann 2019 PECARN study JAMA Pediatr A Clinical Prediction Rule to Identify Febrile Infants 60 Days and Younger at Low Risk for Serious Bacterial Infections. Prediction rule identified infants at low risk using negative urinalysis, ANC 4090/uL or less, procalcitonin 1.71 ng/mL or less. Validation cohort: rule sensitivity was 97.7% (95% CI, 91.3-99.6), specificity was 60.0% (95% CI, 56.6-63.3), negative predictive value was 99.6% (95% CI, 98.4-99.9), negative likelihood ratio was 0.04 (95% CI, 0.01-0.15). Total 1821 infants evaluated, 60 days and younger.",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "journal article",
+        "current_version": true,
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "superseded_by": null
+      }
+    },
+    "pmid:21357332": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "21357332",
+        "doi": "10.1542/peds.2010-3852"
+      },
+      "title": "Fever and antipyretic use in children",
+      "abstract": "Fever in a child is one of the most common clinical symptoms managed by pediatricians and other health care providers and a frequent cause of parental concern. Many parents administer antipyretics even when there is minimal or no fever, because they are concerned that the child must maintain a \"normal\" temperature. Fever, however, is not the primary illness but is a physiologic mechanism that has beneficial effects in fighting infection. There is no evidence that fever itself worsens the course of an illness or that it causes long-term neurologic complications. Thus, the primary goal of treating the febrile child should be to improve the child's overall comfort rather than focus on the normalization of body temperature. When counseling the parents or caregivers of a febrile child, the general well-being of the child, the importance of monitoring activity, observing for signs of serious illness, encouraging appropriate fluid intake, and the safe storage of antipyretics should be emphasized. Current evidence suggests that there is no substantial difference in the safety and effectiveness of acetaminophen and ibuprofen in the care of a generally healthy child with fever. There is evidence that combining these 2 products is more effective than the use of a single agent alone; however, there are concerns that combined treatment may be more complicated and contribute to the unsafe use of these drugs. Pediatricians should also promote patient safety by advocating for simplified formulations, dosing instructions, and dosing devices.",
+      "journal": "Pediatrics",
+      "year": "2011",
+      "publication_types": [
+        "Practice Guideline",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "metadata_checked_at": "2026-09-17T10:13:32.605211Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T10:13:32.605211Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "425baa826e13eebece6daac239940d141ce9421b735e6b7453e1018db060c517",
+        "236c0c436414b9c8c76ac442351515d538f4a19738e94512bda01da624d3dc71",
+        "82903effed01daf9879fa57a99239421f3b2ba180b168f37f2fbc0e4e7554f04"
+      ],
+      "claim_quote": "PMID 21357332 C-002 002 2 AAP 2011 Clinical Report: Fever and antipyretic use in children. The primary goal of treating the febrile child should be to improve the child overall comfort rather than focus on the normalization of body temperature. Fever is a beneficial physiologic mechanism in fighting infection.",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "current_version": true,
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "superseded_by": null
+      }
+    },
+    "pmid:18765450": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "18765450",
+        "doi": "10.1136/bmj.a1302"
+      },
+      "title": "Paracetamol plus ibuprofen for the treatment of fever in children (PITCH): randomised controlled trial",
+      "abstract": "<h4>Objective</h4>To investigate whether paracetamol (acetaminophen) plus ibuprofen are superior to either drug alone for increasing time without fever and the relief of fever associated discomfort in febrile children managed at home.<h4>Design</h4>Individually randomised, blinded, three arm trial.<h4>Setting</h4>Primary care and households in England.<h4>Participants</h4>Children aged between 6 months and 6 years with axillary temperatures of at least 37.8 degrees C and up to 41.0 degrees C.<h4>Intervention</h4>Advice on physical measures to reduce temperature and the provision of, and advice to give, paracetamol plus ibuprofen, paracetamol alone, or ibuprofen alone.<h4>Main outcome measures</h4>Primary outcomes were the time without fever (<37.2 degrees C) in the first four hours after the first dose was given and the proportion of children reported as being normal on the discomfort scale at 48 hours. Secondary outcomes were time to first occurrence of normal temperature (fever clearance), time without fever over 24 hours, fever associated symptoms, and adverse effects.<h4>Results</h4>On an intention to treat basis, paracetamol plus ibuprofen were superior to paracetamol for less time with fever in the first four hours (adjusted difference 55 minutes, 95% confidence interval 33 to 77; P<0.001) and may have been as good as ibuprofen (16 minutes, -7 to 39; P=0.2). For less time with fever over 24 hours, paracetamol plus ibuprofen were superior to paracetamol (4.4 hours, 2.4 to 6.3; P<0.001) and to ibuprofen (2.5 hours, 0.6 to 4.4; P=0.008). Combined therapy cleared fever 23 minutes (2 to 45; P=0.025) faster than paracetamol alone but no faster than ibuprofen alone (-3 minutes, 18 to -24; P=0.8). No benefit was found for discomfort or other symptoms, although power was low for these outcomes. Adverse effects did not differ between groups.<h4>Conclusion</h4>Parents, nurses, pharmacists, and doctors wanting to use medicines to supplement physical measures to maximise the time that children spend without fever should use ibuprofen first and consider the relative benefits and risks of using paracetamol plus ibuprofen over 24 hours.<h4>Trial registration</h4>Current Controlled Trials ISRCTN26362730.",
+      "journal": "BMJ (Clinical research ed.)",
+      "year": "2008",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "metadata_checked_at": "2026-09-17T10:13:32.605211Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T10:13:32.605211Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "c5ff49fe90244f594b94d7640557707277bc27dc07ad17587b1507a9cb8b5512",
+        "9acd2f72e92f2e94244bfb3c77e52faa37b145facb1332a0f49b32e0147abed2",
+        "38d2e64f6206d86b9124b8776d66d2d2c96457b0dfadeeaa8f58b09ac0bf7d10"
+      ],
+      "claim_quote": "PMID 18765450 C-005 C-006 005 006 5 6 Hay 2008 PITCH trial BMJ Paracetamol plus ibuprofen for the treatment of fever in children (PITCH): randomised controlled trial. Children aged between 6 months and 6 years with fever 37.8 to 41.0 degrees C. Combined therapy cleared fever 23 minutes (2 to 45; P=0.025) faster than paracetamol alone. No benefit was found for discomfort or other symptoms. Less time with fever over 24 hours: paracetamol plus ibuprofen superior to paracetamol (4.4 hours) and ibuprofen (2.5 hours).",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "journal article",
+        "current_version": true,
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "superseded_by": null
+      }
+    },
+    "pmid:23407730": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "23407730",
+        "doi": "10.1136/bmj.f866"
+      },
+      "title": "Accuracy of the \"traffic light\" clinical decision rule for serious bacterial infections in young children with fever: a retrospective cohort study",
+      "abstract": "<h4>Objectives</h4>To determine the accuracy of a clinical decision rule (the traffic light system developed by the National Institute for Health and Clinical Excellence (NICE)) for detecting three common serious bacterial infections (urinary tract infection, pneumonia, and bacteraemia) in young febrile children.<h4>Design</h4>Retrospective analysis of data from a two year prospective cohort study<h4>Setting</h4>A paediatric emergency department.<h4>Participants</h4>15,781 cases of children under 5 years of age presenting with a febrile illness.<h4>Main outcome measures</h4>Clinical features were used to categorise each febrile episodes as low, intermediate, or high probability of serious bacterial infection (green, amber, and red zones of the traffic light system); these results were checked (using standard radiological and microbiological tests) for each of the infections of interest and for any serious bacterial infection.<h4>Results</h4>After combination of the intermediate and high risk categories, the NICE traffic light system had a test sensitivity of 85.8% (95% confidence interval 83.6% to 87.7%) and specificity of 28.5% (27.8% to 29.3%) for the detection of any serious bacterial infection. Of the 1140 cases of serious bacterial infection, 157 (13.8%) were test negative (in the green zone), and, of these, 108 (68.8%) were urinary tract infections. Adding urine analysis (leucocyte esterase or nitrite positive), reported in 3653 (23.1%) episodes, to the traffic light system improved the test performance: sensitivity 92.1% (89.3% to 94.1%), specificity 22.3% (20.9% to 23.8%), and relative positive likelihood ratio 1.10 (1.06 to 1.14).<h4>Conclusion</h4>The NICE traffic light system failed to identify a substantial proportion of serious bacterial infections, particularly urinary tract infections. The addition of urine analysis significantly improved test sensitivity, making the traffic light system a more useful triage tool for the detection of serious bacterial infections in young febrile children.",
+      "journal": "BMJ (Clinical research ed.)",
+      "year": "2013",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "metadata_checked_at": "2026-09-17T10:13:32.605211Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T10:13:32.605211Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "d72ed6534e29e39fd85eeb7b066cd8881b95f14bc744857f820ec468c351da65",
+        "257f64ca3e9251d71eacd081642968c9b2a1d43efe4a9a54ee68bb7f5964f354",
+        "77be55180589de6bbdab7103b07dc0128c0b7ceeb25d0d82cd81734122608bfe"
+      ],
+      "claim_quote": "PMID 23407730 C-007 C-008 007 008 7 8 De 2013 BMJ Accuracy of the traffic light clinical decision rule for serious bacterial infections in young children with fever: a retrospective cohort study. Total 15781 cases of children under 5 years of age. Sensitivity of traffic light system was 85.8%, specificity 28.5%. The NICE traffic light system failed to identify a substantial proportion of serious bacterial infections, particularly urinary tract infections (108 of 157 false negative cases, 68.8%). Adding urine analysis to the traffic light system improved the test sensitivity to 92.1% (89.3% to 94.1%).",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "journal article",
+        "current_version": true,
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "superseded_by": null
+      }
+    },
+    "pmid:4067741": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "4067741",
+        "doi": "10.1016/s0022-3476(85)80175-x"
+      },
+      "title": "Identification of infants unlikely to have serious bacterial infection although hospitalized for suspected sepsis",
+      "abstract": "During a 2-year period, 233 infants younger than 3 months were prospectively studied to determine whether physical examination, white blood cell and band count, and urinalysis could identify infants unlikely to have serious bacterial infections. Only previously healthy infants (born at term, no perinatal complications, no previous or underlying diseases, no previous antibiotic therapy) were studied. One hundred forty-four (62%) of the 233 infants were considered unlikely to have serious bacterial infections, because they did not have physical findings consistent with ear, soft tissue, or skeletal infection, had between 5000 and 15,000 white blood cells/mm3, had less than 1500 bands/mm3, and urinalysis yielded normal findings. Eighty-nine (38%) infants did not meet one or more of these criteria and were classified as being at high risk for serious bacterial infection. Only one (0.7%) of the 144 infants in the low-risk group had a serious infection, compared with 22 (25%) of the 89 infants in the high risk group (P less than 0.0001). None of the infants in the low-risk group had bacteremia, compared with nine (10%) of the 89 infants in the high-risk group (P less than 0.0005). Neither traditional risk factors, such as age, sex, and temperature, nor other signs, symptoms, or laboratory findings were adequate predictors of serious bacterial infection. We conclude that previously healthy infants younger than 3 months with an acute illness are unlikely to have serious bacterial infection if they have no findings consistent with ear, soft tissue, or skeletal infections and have normal white blood cell and band form counts and normal urine findings.",
+      "journal": "The Journal of pediatrics",
+      "year": "1985",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "metadata_checked_at": "2026-09-17T10:13:32.605211Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T10:13:32.605211Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "c5bc43eecc218f07ada6d4259d098246a421b6f035720024fe4e5b8043844be2",
+        "4422f0319a4653e54a443775c9906a6afca4e26e94f33a6c5867e2380b8b2ad4",
+        "1c36aeea84cd9aab26b1e6edfbbfaf1cb314d36d0564e58df750fbc22cdd1124"
+      ],
+      "claim_quote": "PMID 4067741 C-009 C-010 009 010 9 10 Dagan 1985 J Pediatr Identification of infants unlikely to have serious bacterial infection although hospitalized for suspected sepsis. Total 233 infants younger than 3 months. Rochester low-risk criteria: 144 (62%) infants low-risk (WBC 5000-15000/mm3, bands < 1500/mm3, normal urinalysis). Only one (0.7%) of the 144 infants in the low-risk group had a serious infection, compared with 22 (25%) of the 89 infants in the high-risk group.",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "journal article",
+        "current_version": true,
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "superseded_by": null
+      }
+    },
+    "pmid:21191771": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "21191771",
+        "doi": "10.1007/s12519-011-0240-5"
+      },
+      "title": "Fever of unknown origin in children: a systematic review",
+      "abstract": "<h4>Background</h4>there are no previous systematic reviews of published pediatric case series describing the etiology of fever of unknown origin (FUO). The purpose of collecting these data is to determine the etiologies for children with FUO in both developing and developed countries.<h4>Methods</h4>the database Ovid Medline R (1950 to August 2009 week 4) and Ovid Embase (1980 to 2010 week 2) were used to conduct the search. Studies in any language were included if they provided the diagnosis in a series of 10 or more children with FUO. The diagnosis of each child at the time of publication of the study was recorded.<h4>Results</h4>there were 18 studies that met the inclusion criteria, describing 1638 children. The diagnosis at the time of publication was malignancy for 93 children (6%), collagen vascular disease for 150 (9%), miscellaneous non-infectious conditions for 179 (11%), infection for 832 (51%), and no diagnosis for 384 (23%). There were 491 bacterial infections (59% of all infections) with common diagnoses being brucellosis, tuberculosis, and typhoid fever in developing countries, osteomyelitis, tuberculosis, and Bartonellosis in developed countries, and urinary tract infections in both. For children with no diagnosis after investigations, most had fever that ultimately resolved with no sequelae.<h4>Conclusions</h4>about half of FUOs in published case series are ultimately shown to be due to infections with collagen vascular disease and malignancy also being common diagnoses. However, there is such a wide variety of possibilities that investigations should primarily be driven by the clinical story.",
+      "journal": "World journal of pediatrics : WJP",
+      "year": "2011",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch",
+        "official_source"
+      ],
+      "metadata_checked_at": "2026-09-17T10:13:32.605211Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T10:13:32.605211Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "2a0b7079bfffb2a4e67f8e712464703fd4955012d5769921d94100d652b82f51",
+        "deb9f09ae271e556bd2d6ca7529b94f72097a75ae03ea07a846e55910fc88145",
+        "6b828e20b38612c90b67bbce8caf2167abb2b029908a664c2170672c2429d96e"
+      ],
+      "claim_quote": "PMID 21191771 C-011 C-012 011 012 11 12 Chow 2011 World J Pediatr Fever of unknown origin in children: a systematic review. Total 18 studies describing 1638 children with FUO. About half of FUOs in published case series are ultimately shown to be due to infections. Diagnosis at publication: infection for 832 (51%), collagen vascular disease for 150 (9%), miscellaneous non-infectious conditions for 179 (11%), malignancy for 93 (6%), and no diagnosis for 384 (23%).",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "journal article",
+        "current_version": true,
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "superseded_by": null
+      }
+    }
+  },
+  "content_hash": "72d7e4d1f21add711af135f19d436ab3c90e894147a1610918d32cd114d05320"
+}

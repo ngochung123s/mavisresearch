@@ -1,0 +1,442 @@
+[
+  {
+    "type": "cloze",
+    "text": "Sốt ở trẻ em được xác định theo tiêu chuẩn vàng khi thân nhiệt đo tại hậu môn đạt mức ≥ {{c1::38.0°C}} (hoặc đo tại nách đạt ≥ {{c1::37.5°C}}).",
+    "extra": "Cơ chế: Thân nhiệt đo tại hậu môn phản ánh chuẩn xác nhất nhiệt độ lõi cơ thể, ít bị sai lệch bởi lưu lượng máu da hay nhiệt độ môi trường xung quanh."
+  },
+  {
+    "type": "cloze",
+    "text": "Sốt không rõ ổ nhiễm (Fever Without a Source - FWS) là tình trạng sốt cấp tính kéo dài dưới {{c1::7 ngày}} mà thăm khám lâm sàng tỉ mỉ chưa tìm ra ổ nhiễm giải phẫu.",
+    "extra": "Cơ chế: FWS thường gặp ở trẻ dưới 36 tháng tuổi và là tình huống thường tiềm ẩn nhiễm trùng tiểu hoặc nhiễm khuẩn huyết ẩn."
+  },
+  {
+    "type": "cloze",
+    "text": "Sốt chưa rõ nguyên nhân (FUO) ở trẻ em được định nghĩa khi sốt ≥ 38.3°C kéo dài từ {{c1::8 ngày trở lên}} mà chưa rõ căn nguyên sau các thăm dò cơ bản.",
+    "extra": "Cơ chế: Khác với người lớn (yêu cầu trên 3 tuần), trẻ em có ngưỡng thời gian rút ngắn xuống 8 ngày do tốc độ diễn tiến bệnh ở trẻ nhanh hơn nhiều."
+  },
+  {
+    "type": "cloze",
+    "text": "Nhiễm khuẩn nặng xâm lấn (IBI) được định nghĩa là sự phân lập được vi khuẩn gây bệnh từ các dịch cơ thể vô trùng bình thường, chủ yếu là {{c1::máu và dịch não tủy}}.",
+    "extra": "Cơ chế: IBI bao gồm nhiễm khuẩn huyết và viêm màng não mủ, có nguy cơ gây sốc nhiễm khuẩn và tử vong nhanh chóng nếu chậm trễ điều trị."
+  },
+  {
+    "type": "cloze",
+    "text": "Trung tâm điều hòa thân nhiệt của cơ thể nằm tại {{c1::nhân trước thị của vùng dưới đồi (Preoptic Area)}}, đóng vai trò như bộ ổn nhiệt chuẩn xác.",
+    "extra": "Cơ chế: Các neuron tại đây tích hợp tín hiệu nhiệt từ máu và thụ thể ngoại vi để điều khiển cân bằng giữa quá trình sinh nhiệt và thải nhiệt."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong cơ chế sốt, chất gây sốt ngoại sinh (như LPS) kích hoạt đại thực bào phóng thích bộ ba cytokine gây sốt nội sinh chủ lực gồm {{c1::IL-1β, TNF-α và IL-6}}.",
+    "extra": "Cơ chế: Các cytokine này di chuyển theo dòng tuần hoàn đến hệ thần kinh trung ương để phát động phản ứng viêm toàn thân."
+  },
+  {
+    "type": "cloze",
+    "text": "Cơ quan mạch máu lá tận cùng (OVLT) nằm ở {{c1::thành trước não thất ba}}, nơi hàng rào máu não có tính thấm cao giúp cytokine kích hoạt tổng hợp prostaglandin.",
+    "extra": "Cơ chế: Cấu trúc mao mạch có cửa sổ tại OVLT cho phép các phân tử protein cytokine lớn tiếp cận và kích thích tế bào nội mô mạch máu não."
+  },
+  {
+    "type": "cloze",
+    "text": "Chìa khóa phân tử trực tiếp làm nâng điểm đặt nhiệt độ tại vùng dưới đồi là phân tử lipid {{c1::Prostaglandin E2 (PGE2)}}, được tổng hợp qua enzyme cảm ứng {{c1::COX-2}}.",
+    "extra": "Cơ chế: PGE2 gắn vào thụ thể EP3 trên tế bào thần kinh nhân trước thị, làm thay đổi tần số phát xung của các neuron nhạy nhiệt."
+  },
+  {
+    "type": "cloze",
+    "text": "Khi điểm đặt nhiệt độ vùng dưới đồi tăng cao, cơ thể hạn chế tối đa việc thải nhiệt qua phản xạ {{c1::co mạch máu ngoại biên}}, biểu hiện bằng tay chân lạnh ngắt và da tái nổi bông.",
+    "extra": "Cơ chế: Phản xạ giao cảm co mạch giúp tập trung lưu lượng tuần hoàn về các cơ quan nội tạng trung tâm để bảo tồn nhiệt lượng."
+  },
+  {
+    "type": "cloze",
+    "text": "Để tăng cường sinh nhiệt nhanh chóng khi bắt đầu sốt, cơ thể phát động phản xạ co cơ không tự chủ qua sợi vận động tạo ra hiện tượng {{c1::run cơ (shivering)}}.",
+    "extra": "Cơ chế: Co cơ cơ học tiêu hao năng lượng chuyển hóa và sinh ra lượng nhiệt lớn để nâng thân nhiệt bắt kịp điểm đặt mới."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở trẻ nhũ nhi dưới 1 tuổi, cơ chế sinh nhiệt không run cơ đặc biệt quan trọng dựa vào chuyển hóa của {{c1::mô mỡ nâu (Brown Adipose Tissue)}} thông qua protein tách cặp {{c1::UCP-1 (Thermogenin)}}.",
+    "extra": "Cơ chế: UCP-1 tách rời chuỗi chuyền điện tử khỏi quá trình tổng hợp ATP tại màng ty thể, giải phóng năng lượng trực tiếp dưới dạng nhiệt lượng."
+  },
+  {
+    "type": "cloze",
+    "text": "Khi hết cơn sốt hoặc dùng thuốc hạ sốt, điểm đặt nhiệt độ hạ thấp kích hoạt cơ chế thải nhiệt khẩn cấp bằng {{c1::giãn mạch ngoại vi và tăng tiết mồ hôi ồ ạt}}.",
+    "extra": "Cơ chế: Giãn mạch làm tăng tưới máu bề mặt da, kết hợp nước mồ hôi bay hơi giúp nhiệt lượng dư thừa thoát nhanh ra môi trường."
+  },
+  {
+    "type": "cloze",
+    "text": "Điểm khác biệt bản chất giữa Sốt và Tăng thân nhiệt (Hyperthermia) là trong Tăng thân nhiệt, điểm đặt nhiệt độ vùng dưới đồi {{c1::hoàn toàn bình thường}}, không bị thay đổi.",
+    "extra": "Cơ chế: Tăng thân nhiệt xảy ra do sinh nhiệt quá mức hoặc thải nhiệt bị phong bế (say nóng, ủ ấm), làm mất cân bằng nội môi."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong tình trạng Tăng thân nhiệt ác tính hay say nóng (Heat stroke), các thuốc hạ sốt như Paracetamol và Ibuprofen {{c1::hoàn toàn vô hiệu và không có tác dụng}}.",
+    "extra": "Cơ chế: Thuốc hạ sốt hoạt động bằng cách ức chế tổng hợp PGE2 để hạ set-point; khi set-point không tăng thì thuốc không thể phát huy tác dụng mà chỉ gây độc gan thận."
+  },
+  {
+    "type": "cloze",
+    "text": "Biện pháp can thiệp cốt lõi và sống còn trong xử trí Tăng thân nhiệt (say nóng, sốc nhiệt) là {{c1::làm mát cưỡng bức vật lý ngoài cơ thể (cởi đồ, phun sương, quạt gió, chườm mát)}}.",
+    "extra": "Cơ chế: Làm mát vật lý hỗ trợ giải phóng nhiệt lượng bị ứ đọng khẩn cấp để ngăn chặn tổn thương não và ly giải cơ vân do nhiệt độ cao > 41.5°C."
+  },
+  {
+    "type": "cloze",
+    "text": "Tỷ lệ nhiễm khuẩn nặng xâm lấn (IBI) ở trẻ sơ sinh từ 0 đến 28 ngày tuổi bị sốt dao động ở mức rất cao, từ {{c1::8% đến 12%}}.",
+    "extra": "Cơ chế: Hệ miễn dịch sơ sinh chưa hoàn thiện khiến vi khuẩn dễ dàng vượt qua hàng rào bảo vệ tự nhiên để vào máu và dịch não tủy."
+  },
+  {
+    "type": "cloze",
+    "text": "Ba tác nhân vi khuẩn gây nhiễm khuẩn huyết và viêm màng não hàng đầu ở trẻ sơ sinh sốt là {{c1::Liên cầu nhóm B (GBS), Escherichia coli và Listeria monocytogenes}}.",
+    "extra": "Cơ chế: Đây là các mầm bệnh thường trú tại đường sinh dục và tiêu hóa của mẹ lây truyền sang con trong chuyển dạ."
+  },
+  {
+    "type": "cloze",
+    "text": "Tất cả trẻ sơ sinh dưới 28 ngày tuổi có sốt ≥ 38.0°C BẮT BUỘC phải thực hiện {{c1::Full Sepsis Workup (cấy máu, cấy nước tiểu qua sonde, chọc dò tủy sống)}} và nhập viện 100%.",
+    "extra": "Cơ chế: Triệu chứng lâm sàng nhiễm khuẩn nặng ở trẻ sơ sinh rất nghèo nàn và không đáng tin cậy; trẻ có thể viêm màng não mủ dù bề ngoài bú tốt."
+  },
+  {
+    "type": "cloze",
+    "text": "Phác đồ kháng sinh tĩnh mạch đầu tay theo kinh nghiệm bắt buộc cho trẻ sơ sinh sốt nhập viện là phối hợp {{c1::Ampicillin}} (đặc trị Listeria và Enterococcus) kết hợp với {{c1::Cefotaxime (hoặc Gentamicin)}}.",
+    "extra": "Cơ chế: Ampicillin bao phủ Listeria monocytogenes vốn đề kháng tự nhiên với cephalosporin, trong khi Cefotaxime diệt trực khuẩn Gram âm E. coli và GBS."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở trẻ nhũ nhi từ 29 đến 60 ngày tuổi sốt không rõ ổ nhiễm, nhiễm khuẩn nặng phổ biến nhất chiếm khoảng 80% các ca IBI là {{c1::nhiễm trùng đường tiết niệu (UTI)}}.",
+    "extra": "Cơ chế: Vi khuẩn Gram âm đường ruột dễ dàng xâm nhập ngược dòng niệu đạo ở lứa tuổi này, đặc biệt ở bé gái và bé trai chưa cắt bao quy đầu."
+  },
+  {
+    "type": "cloze",
+    "text": "Để cấy nước tiểu tìm vi khuẩn đạt độ tin cậy tuyệt đối ở trẻ nhỏ chưa tự chủ tiểu tiện, mẫu nước tiểu BẮT BUỘC phải được lấy bằng {{c1::đặt ống thông bàng quang hoặc chọc hút trên xương mu}}.",
+    "extra": "Cơ chế: Nước tiểu lấy bằng túi dán có tỷ lệ dương tính giả do tạp nhiễm vi khuẩn da vùng bẹn lên tới 80%, dẫn đến chẩn đoán sai và lạm dụng kháng sinh."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong thời đại vaccine liên hợp (PCV và Hib), tỷ lệ nhiễm khuẩn huyết ẩn ở trẻ từ 3 đến 36 tháng tuổi sốt không rõ ổ nhiễm đã giảm ngoạn mục xuống dưới {{c1::0.5%}}.",
+    "extra": "Cơ chế: Kháng thể tạo ra từ vaccine liên hợp bảo vệ trẻ hiệu quả chống lại sự xâm lấn vào máu của phế cầu và vi khuẩn Hib."
+  },
+  {
+    "type": "cloze",
+    "text": "Thang điểm quan sát Yale (Yale Observation Scale - YOS) đánh giá nguy cơ bệnh nặng ở trẻ 3-36 tháng tuổi dựa trên 6 yếu tố: mức độ khóc, phản ứng với cha mẹ, {{c1::trạng thái tỉnh táo, màu sắc da, độ ẩm niêm mạc và phản ứng xã hội}}.",
+    "extra": "Cơ chế: Điểm YOS ≤ 10 điểm tương ứng với nguy cơ nhiễm trùng nặng thấp dưới 3%; điểm YOS > 16 điểm có nguy cơ nhiễm trùng nặng lên tới trên 90%."
+  },
+  {
+    "type": "cloze",
+    "text": "Hệ thống đèn giao thông NICE phân loại nguy cơ trẻ dưới 5 tuổi sốt thành 3 mức: Xanh lá (nguy cơ thấp), Hổ phách (nguy cơ trung bình) và {{c1::Đỏ (nguy cơ cao)}}.",
+    "extra": "Cơ chế: Giúp nhân viên y tế phân loại nhanh bệnh nhi tại phòng khám để quyết định điều trị tại nhà, lưu viện theo dõi hay hồi sức cấp cứu."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu da tái nổi vân tím hoặc tím tái, li bì không thể đánh thức, thở rên (grunting) và ban tử ban sao xếp trẻ vào vùng nguy cơ {{c1::Đỏ (nguy cơ cao)}} của hệ thống đèn giao thông NICE.",
+    "extra": "Cơ chế: Đây là các dấu hiệu suy hô hấp nặng, sốc tuần hoàn hoặc nhiễm khuẩn huyết tối cấp đòi hỏi hồi sức khẩn cấp ngay."
+  },
+  {
+    "type": "cloze",
+    "text": "Liều chuẩn của Paracetamol đường uống ở trẻ em là {{c1::10 đến 15 mg/kg}} cho mỗi lần dùng, khoảng cách giữa hai liều tối thiểu từ {{c1::4 đến 6 giờ}}.",
+    "extra": "Cơ chế: Liều này đạt nồng độ ức chế COX tại hệ thần kinh trung ương hiệu quả mà không làm cạn kiệt dự trữ Glutathione tế bào gan."
+  },
+  {
+    "type": "cloze",
+    "text": "Tổng liều Paracetamol tối đa cho phép trong vòng 24 giờ ở trẻ em không được vượt quá {{c1::60 mg/kg/ngày}}, và trần liều người lớn không quá {{c1::4000 mg/ngày}}.",
+    "extra": "Cơ chế: Dùng vượt quá ngưỡng này sẽ làm cạn kiệt Glutathione nội bào tại gan, dẫn đến ngộ độc gan cấp tính do tích lũy NAPQI."
+  },
+  {
+    "type": "cloze",
+    "text": "Chất chuyển hóa trung gian có độc tính tế bào gan cực mạnh của Paracetamol sinh ra qua enzyme CYP2E1 là {{c1::N-acetyl-p-benzoquinone imine (NAPQI)}}.",
+    "extra": "Cơ chế: NAPQI tự do gắn cộng hóa trị vào đại phân tử tế bào gan gây hoại tử trung tâm tiểu thùy cấp và suy gan bùng phát."
+  },
+  {
+    "type": "cloze",
+    "text": "Liều chuẩn của Ibuprofen đường uống ở trẻ em là {{c1::5 đến 10 mg/kg}} cho mỗi lần dùng, khoảng cách giữa hai liều từ {{c1::6 đến 8 giờ}}.",
+    "extra": "Cơ chế: Ibuprofen ức chế cả COX-1 và COX-2 ngoại vi và trung ương, mang lại tác dụng kháng viêm và hạ sốt kéo dài hơn Paracetamol."
+  },
+  {
+    "type": "cloze",
+    "text": "Tổng liều Ibuprofen tối đa hàng ngày ở trẻ em không được vượt quá {{c1::40 mg/kg/ngày}}, và trần liều người lớn tối đa không quá {{c1::1200 đến 2400 mg/ngày}}.",
+    "extra": "Cơ chế: Vượt quá trần liều làm tăng vọt nguy cơ loét thủng dạ dày tá tràng và tổn thương suy thận cấp."
+  },
+  {
+    "type": "cloze",
+    "text": "Ibuprofen CHỈ ĐƯỢC CHỈ ĐỊNH cho trẻ từ {{c1::3 tháng tuổi trở lên}} (hoặc cân nặng ≥ 5 kg) và chống chỉ định tuyệt đối cho trẻ sơ sinh.",
+    "extra": "Cơ chế: Trẻ dưới 3 tháng tuổi có mức lọc cầu thận (GFR) rất thấp, việc dùng NSAID dễ gây suy giảm chức năng thận nghiêm trọng."
+  },
+  {
+    "type": "cloze",
+    "text": "Ibuprofen CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI khi trẻ nghi ngờ mắc {{c1::Sốt xuất huyết Dengue}} do nguy cơ ức chế kết tập tiểu cầu gây xuất huyết tiêu hóa ồ ạt.",
+    "extra": "Cơ chế: Ibuprofen ức chế tổng hợp Thromboxane A2 làm tiểu cầu mất khả năng kết tập, phối hợp hạ tiểu cầu do Dengue dẫn đến chảy máu khó cầm."
+  },
+  {
+    "type": "cloze",
+    "text": "Ibuprofen CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI khi trẻ đang có tình trạng {{c1::mất nước hoặc nôn ói nhiều}} do nguy cơ gây suy thận cấp hoại tử ống thận cấp.",
+    "extra": "Cơ chế: Khi giảm thể tích tuần hoàn, thận cần prostaglandin để giãn tiểu động mạch đến; ức chế prostaglandin gây co mạch thiếu máu thận cấp."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở trẻ béo phì, liều thuốc hạ sốt Paracetamol BẮT BUỘC phải được tính toán dựa trên {{c1::Cân nặng lý tưởng (Ideal Body Weight)}} chứ không dùng cân nặng thực tế.",
+    "extra": "Cơ chế: Paracetamol tan trong nước ít phân bố vào mô mỡ; tính theo cân nặng thực tế sẽ gây quá liều độc gan ở trẻ có sẵn thoái hóa mỡ gan."
+  },
+  {
+    "type": "cloze",
+    "text": "Lau mát bằng cồn cho trẻ sốt là biện pháp CỰC KỲ NGUY HIỂM vì hơi cồn hấp thu qua da và hô hấp gây {{c1::ngộ độc cồn cấp, hạ đường huyết, hôn mê và suy hô hấp}}.",
+    "extra": "Cơ chế: Da trẻ mỏng và diện tích da trên cân nặng lớn khiến cồn thẩm thấu nhanh vào máu ức chế thần kinh trung ương."
+  },
+  {
+    "type": "cloze",
+    "text": "Chườm đá lạnh khi trẻ đang sốt gây hại vì làm co mạch ngoại biên đột ngột và kích hoạt phản xạ {{c1::run cơ tạo nhiệt, làm thân nhiệt lõi tăng vọt lên cao hơn}}.",
+    "extra": "Cơ chế: Kích thích lạnh làm trung tâm điều nhiệt tưởng cơ thể đang lạnh cóng, phát động tăng sinh nhiệt làm trẻ hoảng loạn và kiệt sức."
+  },
+  {
+    "type": "cloze",
+    "text": "Khi sốt, tốc độ chuyển hóa cơ bản của trẻ tăng thêm khoảng {{c1::10% đến 12%}} cho mỗi 1°C thân nhiệt tăng trên 37.0°C, làm tăng nhu cầu tiêu thụ oxy và nước.",
+    "extra": "Cơ chế: Tăng chuyển hóa tế bào đòi hỏi bù đủ dịch Oresol áp lực thẩm thấu thấp hoặc sữa mẹ để ngăn ngừa toan chuyển hóa."
+  },
+  {
+    "type": "cloze",
+    "text": "Nếu cần lau nước ấm hỗ trợ hạ sốt, nhiệt độ nước lau nên duy trì ở mức {{c1::32°C đến 35°C}} (thấp hơn thân nhiệt trẻ khoảng 2 đến 3°C).",
+    "extra": "Cơ chế: Nước ấm vừa đủ giúp giãn mạch bề mặt da để nhiệt lượng thoát ra mà không kích hoạt phản xạ co mạch hay run cơ."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong hội chứng sốt chưa rõ nguyên nhân (FUO), căn nguyên {{c1::nhiễm trùng}} là nhóm nguyên nhân phổ biến nhất, chiếm khoảng 51% các trường hợp.",
+    "extra": "Cơ chế: Đa số là biểu hiện không điển hình của các bệnh nhiễm trùng thông thường như lao, nhiễm trùng tiểu sâu, viêm nội tâm mạc, áp xe sâu."
+  },
+  {
+    "type": "cloze",
+    "text": "Cơn sốt cao vọt hình gai nhọn xuất hiện 1-2 lần/ngày kèm ban đỏ màu hồng cá hồi (salmon-pink) lặn nhanh theo cơn sốt là dấu hiệu gợi ý bệnh {{c1::Viêm khớp tự phát thiếu niên thể hệ thống (sJIA / Still)}}.",
+    "extra": "Cơ chế: sJIA là bệnh lý tự viêm đặc trưng bởi sự bùng nổ cytokine IL-1 và IL-6 toàn thân, thường kèm tăng Ferritin máu cực cao."
+  },
+  {
+    "type": "cloze",
+    "text": "Nồng độ Ferritin huyết thanh tăng vọt rất cao (> 1000 đến > 3000 ng/mL) trong FUO là dấu chỉ điểm kinh điển của {{c1::Hội chứng Kích hoạt Đại thực bào (MAS) hoặc Bệnh Still thể hệ thống}}.",
+    "extra": "Cơ chế: Cơn bão cytokine kích hoạt hệ lưới nội mô sản sinh lượng lớn Ferritin, tiềm ẩn nguy cơ thực bào máu đe dọa tính mạng."
+  },
+  {
+    "type": "cloze",
+    "text": "Tuyệt đối KHÔNG dùng {{c1::Corticoid}} sớm theo kinh nghiệm trong sốt chưa rõ nguyên nhân vì sẽ làm lu mờ bệnh cảnh bạch cầu cấp và làm bùng phát lao lan tràn.",
+    "extra": "Cơ chế: Corticoid tiêu diệt một phần tế bào blast làm biến đổi tủy đồ, khiến chẩn đoán ung thư máu bị trì hoãn và mất cơ hội điều trị sớm."
+  },
+  {
+    "type": "cloze",
+    "text": "Để phát hiện ban xuất huyết trong nhiễm khuẩn huyết mô cầu, bác sĩ sử dụng nghiệm pháp {{c1::ấn kính (Glass test)}}: nếu nốt ban không biến mất dưới lực ép thì đó là ban xuất huyết.",
+    "extra": "Cơ chế: Ban xuất huyết là hồng cầu thoát mạch ra ngoài mô da do hoại tử vi mạch, khác với ban giãn mạch thông thường sẽ biến mất khi ấn ép."
+  },
+  {
+    "type": "cloze",
+    "text": "Sau khi thân nhiệt trẻ đã được hạ về mức bình thường bằng thuốc, nếu trẻ vẫn có dấu hiệu {{c1::li bì, khó đánh thức hoặc khóc rên}} thì đó là cảnh báo đỏ của nhiễm trùng thần kinh hoặc nhiễm trùng huyết nặng.",
+    "extra": "Cơ chế: Trẻ sốt thông thường sẽ tươi tỉnh trở lại sau khi hạ sốt; tri giác xấu đi độc lập với thân nhiệt phản ánh tổn thương hệ thần kinh trung ương thực thể."
+  },
+  {
+    "type": "cloze",
+    "text": "Hướng dẫn thực hành lâm sàng AAP 2021 (PMID: 34281996) đưa ra {{c1::21 khuyến cáo hành động then chốt (Key Action Statements)}} trong quản lý trẻ nhũ nhi sốt từ 8 đến 60 ngày tuổi.",
+    "extra": "Cơ chế: Dựa trên phân tích bằng chứng hệ thống của AHRQ để tối ưu hóa việc phân tầng nguy cơ và giảm thiểu thủ thuật xâm lấn không cần thiết."
+  },
+  {
+    "type": "cloze",
+    "text": "Theo AAP 2021, ở trẻ nhũ nhi sốt nhóm {{c1::8 đến 21 ngày tuổi}}, chọc dò tủy sống (LP) và dùng kháng sinh tĩnh mạch là {{c1::bắt buộc 100%}} bất kể kết quả biomarker viêm thế nào.",
+    "extra": "Cơ chế: Trẻ dưới 3 tuần tuổi có hàng rào máu não chưa hoàn thiện và tỷ lệ viêm màng não mủ không có biểu hiện lâm sàng vẫn ở mức cao."
+  },
+  {
+    "type": "cloze",
+    "text": "Theo AAP 2021, ở nhóm trẻ nhũ nhi sốt từ {{c1::22 đến 28 ngày tuổi}}, việc chọc dò tủy sống có thể tránh được nếu TẤT CẢ xét nghiệm nước tiểu và {{c1::các chỉ dấu sinh học viêm (Procalcitonin, CRP, ANC)}} đều bình thường.",
+    "extra": "Cơ chế: Cho phép giảm thiểu thủ thuật xâm lấn đau đớn ở nhóm trẻ nguy cơ thấp được gia đình theo dõi sát và cam kết tái khám sau 24 giờ."
+  },
+  {
+    "type": "cloze",
+    "text": "Theo AAP 2021, đối với trẻ nhũ nhi sốt từ {{c1::29 đến 60 ngày tuổi}} thỏa mãn tiêu chuẩn nguy cơ thấp, việc theo dõi {{c1::ngoại trú không dùng kháng sinh}} là an toàn và được khuyến cáo.",
+    "extra": "Cơ chế: Nguy cơ nhiễm khuẩn xâm lấn ở nhóm này cực thấp (< 0.5%), theo dõi ngoại trú tránh được nguy cơ nhiễm trùng bệnh viện và lạm dụng kháng sinh."
+  },
+  {
+    "type": "cloze",
+    "text": "Nghiên cứu đa trung tâm PECARN (Kuppermann et al. 2019, PMID: 30776077) được tiến hành trên {{c1::1,821}} trẻ nhũ nhi sốt từ 60 ngày tuổi trở xuống tại 26 khoa cấp cứu nhi khoa.",
+    "extra": "Cơ chế: Thiết lập quy tắc dự đoán lâm sàng chuẩn xác nhất hiện nay kết hợp que thử nước tiểu với hai biomarker viêm hiện đại."
+  },
+  {
+    "type": "cloze",
+    "text": "Quy tắc dự đoán lâm sàng PECARN xác định trẻ nguy cơ thấp khi thỏa mãn 3 tiêu chí: tổng phân tích nước tiểu âm tính, ANC ≤ {{c1::4,090/µL}} và Procalcitonin ≤ {{c1::1.71 ng/mL}}.",
+    "extra": "Cơ chế: Phân tích đệ quy nhị phân chứng minh bộ ba này vượt trội hoàn toàn so với việc chỉ dựa vào số lượng bạch cầu tổng số (WBC)."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong nhóm xác thực của nghiên cứu PECARN, quy tắc dự đoán đạt độ nhạy loại trừ nhiễm khuẩn nặng lên tới {{c1::97.7%}} (95% CI: 91.3 - 99.6%).",
+    "extra": "Cơ chế: Độ nhạy cao đảm bảo hầu như không bỏ sót các trường hợp nhiễm khuẩn huyết hoặc viêm màng não vi khuẩn."
+  },
+  {
+    "type": "cloze",
+    "text": "Giá trị dự đoán âm tính (Negative Predictive Value - NPV) của quy tắc PECARN trong nhận diện trẻ sốt nguy cơ thấp đạt mức kỷ lục là {{c1::99.6%}} (95% CI: 98.4 - 99.9%).",
+    "extra": "Cơ chế: Khi một trẻ thỏa mãn cả 3 tiêu chuẩn của PECARN, xác suất trẻ thực sự bị nhiễm khuẩn nặng chỉ là 0.4%."
+  },
+  {
+    "type": "cloze",
+    "text": "Tỷ số khả dĩ âm (Negative Likelihood Ratio - NLR) của quy tắc dự đoán lâm sàng PECARN là {{c1::0.04}} (95% CI: 0.01 - 0.15).",
+    "extra": "Cơ chế: NLR < 0.1 là tiêu chuẩn vàng khẳng định một xét nghiệm có khả năng loại trừ bệnh cực kỳ mạnh mẽ trong y học chứng cứ."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong toàn bộ nghiên cứu xác thực quy tắc PECARN trên trẻ nhũ nhi sốt ≤ 60 ngày tuổi, có {{c1::0 ca (không có ca nào)}} viêm màng não vi khuẩn bị bỏ sót bởi quy tắc.",
+    "extra": "Cơ chế: Khẳng định tính an toàn tuyệt đối của quy tắc trong việc phòng ngừa bỏ sót nhiễm trùng hệ thần kinh trung ương nguy kịch."
+  },
+  {
+    "type": "cloze",
+    "text": "Nghiên cứu PECARN ghi nhận trong số 1,821 trẻ nhũ nhi sốt, tỷ lệ nhiễm khuẩn nặng thực sự là {{c1::9.3%}} (170 trẻ), trong đó nhiễm trùng tiểu chiếm đa số (8.3%).",
+    "extra": "Cơ chế: Nhiễm khuẩn huyết chỉ chiếm 1.4% và viêm màng não chiếm 0.5%, chứng minh UTI là tiêu điểm vi khuẩn thường gặp nhất."
+  },
+  {
+    "type": "cloze",
+    "text": "Báo cáo lâm sàng AAP (Sullivan & Farrar 2011, PMID: 21357332) khẳng định mục tiêu số một của việc dùng thuốc hạ sốt là {{c1::cải thiện sự thoải mái chung của trẻ}}, không phải ép thân nhiệt về bình thường.",
+    "extra": "Cơ chế: Giúp giải tỏa nỗi ám ảnh đo nhiệt độ liên tục của cha mẹ và hướng trọng tâm vào việc đánh giá hành vi, tri giác và khả năng bú của trẻ."
+  },
+  {
+    "type": "cloze",
+    "text": "Báo cáo AAP 2011 tuyên bố không có bằng chứng khoa học nào cho thấy việc dùng thuốc hạ sốt có thể ngăn ngừa được {{c1::cơn co giật do sốt tái phát}}.",
+    "extra": "Cơ chế: Cơn co giật do sốt khởi phát do tốc độ tăng nhiệt độ đột ngột vượt ngưỡng co giật của não bộ, thuốc hạ sốt không làm thay đổi ngưỡng này."
+  },
+  {
+    "type": "cloze",
+    "text": "Báo cáo AAP 2011 cảnh báo việc dùng xen kẽ hoặc phối hợp Paracetamol và Ibuprofen làm tăng nguy cơ {{c1::nhầm lẫn liều lượng và quá liều ngộ độc thuốc}} của phụ huynh.",
+    "extra": "Cơ chế: Lịch uống thuốc phức tạp (mỗi 3-4 giờ đổi một loại) dễ khiến người chăm sóc cho uống trùng lặp hoặc quá liều tối đa hàng ngày."
+  },
+  {
+    "type": "cloze",
+    "text": "Thử nghiệm lâm sàng đối chứng ngẫu nhiên PITCH (Hay et al. 2008, PMID: 18765450) được công bố trên tạp chí danh giá {{c1::British Medical Journal (BMJ)}}.",
+    "extra": "Cơ chế: Thử nghiệm PITCH là bằng chứng RCT quy chuẩn hàng đầu thế giới đánh giá hiệu quả và độ an toàn của phối hợp Paracetamol và Ibuprofen."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong thử nghiệm PITCH, liệu pháp phối hợp Paracetamol + Ibuprofen cắt sốt nhanh hơn so với Paracetamol đơn độc là {{c1::23 phút}} (P = 0.025).",
+    "extra": "Cơ chế: Sự hiệp đồng ức chế enzyme COX tại trung ương và ngoại vi giúp giảm tổng hợp PGE2 nhanh hơn đôi chút so với một thuốc."
+  },
+  {
+    "type": "cloze",
+    "text": "Về mặt triệu chứng lâm sàng ở mốc 48 giờ, thử nghiệm PITCH chứng minh phối hợp hai thuốc {{c1::không mang lại lợi ích vượt trội về mức độ giảm khó chịu}} so với dùng đơn độc.",
+    "extra": "Cơ chế: Sự chênh lệch 23 phút hạ nhiệt độ không chuyển thành lợi ích lâm sàng có ý nghĩa đối với sự phục hồi tinh thần của trẻ."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong thử nghiệm PITCH, so sánh về thời gian không sốt trong 24 giờ đầu, nhóm dùng Ibuprofen đơn độc {{c1::vượt trội hơn hẳn nhóm dùng Paracetamol đơn độc}} (ít sốt hơn 2.5 giờ).",
+    "extra": "Cơ chế: Ibuprofen có thời gian bán thải sinh học và thời gian gắn thụ thể ức chế COX kéo dài hơn so với Paracetamol."
+  },
+  {
+    "type": "cloze",
+    "text": "Nghiên cứu đoàn hệ của De và cộng sự (BMJ 2013, PMID: 23407730) đánh giá độ chính xác của hệ thống đèn giao thông NICE trên {{c1::15,781}} lượt trẻ dưới 5 tuổi khám cấp cứu vì sốt.",
+    "extra": "Cơ chế: Nghiên cứu thực tế tại khoa cấp cứu nhi giúp kiểm chứng tính chuẩn xác của các thang điểm phân loại lâm sàng."
+  },
+  {
+    "type": "cloze",
+    "text": "Nghiên cứu De 2013 phát hiện hệ thống đèn giao thông NICE đơn thuần bỏ sót {{c1::13.8%}} các trường hợp nhiễm khuẩn nặng thực sự (bị xếp nhầm vào vùng Xanh lá nguy cơ thấp).",
+    "extra": "Cơ chế: Các dấu hiệu sinh hiệu và hành vi bên ngoài có thể hoàn toàn bình thường trong giai đoạn đầu của nhiễm trùng nội tạng kín đáo."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong số các ca nhiễm trùng nặng bị bỏ sót ở vùng Xanh lá của NICE, có tới {{c1::68.8%}} trường hợp là nhiễm trùng đường tiết niệu (UTI).",
+    "extra": "Cơ chế: Viêm đài bể thận hoặc viêm bàng quang ở trẻ nhỏ thường chỉ biểu hiện sốt đơn độc mà không hề gây co kéo hô hấp hay rối loạn tri giác."
+  },
+  {
+    "type": "cloze",
+    "text": "Nghiên cứu BMJ 2013 chứng minh khi bổ sung que nhúng tổng phân tích nước tiểu vào hệ thống NICE, độ nhạy phát hiện nhiễm trùng nặng tăng vọt lên {{c1::92.1%}} (từ mức 85.8%).",
+    "extra": "Cơ chế: Que nhúng phát hiện Leukocyte Esterase và Nitrite là bước bổ sung hoàn hảo lấp đầy điểm mù lớn nhất của hệ thống khám lâm sàng."
+  },
+  {
+    "type": "cloze",
+    "text": "Nghiên cứu thiết lập Tiêu chuẩn Rochester của Dagan và cộng sự (J Pediatr 1985, PMID: 4067741) được tiến hành trên {{c1::233}} trẻ nhũ nhi sốt dưới 3 tháng tuổi.",
+    "extra": "Cơ chế: Nghiên cứu nền tảng mở ra kỷ nguyên phân tầng nguy cơ thấp để tránh nằm viện và dùng kháng sinh không cần thiết."
+  },
+  {
+    "type": "cloze",
+    "text": "Theo tiêu chuẩn Rochester 1985, ngưỡng số lượng bạch cầu máu an toàn là từ {{c1::5,000 đến 15,000/mm³}} và số lượng bạch cầu non (bands) phải dưới {{c1::1,500/mm³}}.",
+    "extra": "Cơ chế: Bạch cầu quá cao (> 15000) hoặc quá thấp (< 5000) đều là dấu hiệu báo động của nhiễm trùng huyết nặng; tỷ lệ tế bào non phản ánh phản ứng tủy xương."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong nghiên cứu Rochester 1985, trong nhóm 144 trẻ thỏa mãn tiêu chuẩn nguy cơ thấp, chỉ có duy nhất {{c1::1 trẻ (0.7%)}} thực sự mắc nhiễm trùng nặng.",
+    "extra": "Cơ chế: Ngược lại, ở nhóm nguy cơ cao có tới 25% (22/89 trẻ) mắc nhiễm khuẩn nặng, chứng minh tính phân định xuất sắc của bộ tiêu chuẩn."
+  },
+  {
+    "type": "cloze",
+    "text": "Nghiên cứu Rochester 1985 ghi nhận tỷ lệ nhiễm khuẩn huyết (Bacteremia) ở nhóm trẻ nhũ nhi nguy cơ thấp là {{c1::0% (không có ca nào)}}, so với 10% ở nhóm nguy cơ cao.",
+    "extra": "Cơ chế: Giúp các bác sĩ tự tin rằng việc trì hoãn kháng sinh ở nhóm nguy cơ thấp là một lựa chọn an toàn dựa trên bằng chứng."
+  },
+  {
+    "type": "cloze",
+    "text": "Tổng quan hệ thống về FUO ở trẻ em của Chow & Robinson (World J Pediatr 2011, PMID: 21191771) đã phân tích 18 nghiên cứu bao gồm {{c1::1,638}} bệnh nhi mắc sốt kéo dài.",
+    "extra": "Cơ chế: Tổng hợp dữ liệu dịch tễ học toàn cầu giúp định hình xác suất tiền nghiệm của các nhóm nguyên nhân gây sốt chưa rõ nguyên nhân."
+  },
+  {
+    "type": "cloze",
+    "text": "Theo tổng quan Chow & Robinson 2011, tỷ lệ các nhóm căn nguyên FUO gồm: Nhiễm trùng {{c1::51%}}, Bệnh tự miễn mô liên kết {{c1::9%}}, Bệnh ác tính {{c1::6%}} và Tự thoái lui không rõ nguyên nhân {{c1::23%}}.",
+    "extra": "Cơ chế: Nắm vững tỷ lệ này giúp bác sĩ ưu tiên tìm kiếm nhiễm trùng thông thường biểu hiện không điển hình trước khi nghĩ đến các bệnh lý hiếm gặp."
+  },
+  {
+    "type": "cloze",
+    "text": "Theo Chow & Robinson 2011, trong nhóm căn nguyên nhiễm trùng gây FUO (51%), vi khuẩn chiếm {{c1::59%}} với các bệnh phổ biến là lao, viêm xương tủy, nhiễm trùng tiểu và bệnh mèo cào.",
+    "extra": "Cơ chế: Các ổ nhiễm khuẩn sâu thường âm thầm khu trú không gây triệu chứng rầm rộ nhưng duy trì phản ứng sốt dai dẳng."
+  },
+  {
+    "type": "cloze",
+    "text": "Theo Chow & Robinson 2011, đối với 23% trẻ mắc FUO không tìm ra chẩn đoán sau các thăm dò, phần lớn các trường hợp có diễn tiến {{c1::tự thoái lui hết sốt hoàn toàn mà không để lại di chứng}}.",
+    "extra": "Cơ chế: Khẳng định vai trò của việc kiên trì theo dõi, tránh nôn nóng can thiệp các liệu pháp ức chế miễn dịch hay kháng sinh mù quáng."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong tiếp cận FUO bậc 1, việc cấy máu đòi hỏi lấy tối thiểu {{c1::2 mẫu máu vô trùng}} ở hai vị trí tĩnh mạch khác nhau trước khi sử dụng bất kỳ liều kháng sinh nào.",
+    "extra": "Cơ chế: Hai mẫu cấy giúp phân biệt vi khuẩn gây bệnh thực sự với hiện tượng tạp nhiễm vi khuẩn thường trú trên da (như Coagulase-negative Staphylococci)."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong tiếp cận FUO bậc 2, nồng độ Ferritin huyết thanh tăng rất cao là dấu chỉ điểm hướng tới biến chứng đe dọa tính mạng là {{c1::Hội chứng kích hoạt đại thực bào (Macrophage Activation Syndrome - MAS)}}.",
+    "extra": "Cơ chế: MAS là một thể nặng của hội chứng thực bào máu xảy ra trên nền bệnh Still sJIA, đòi hỏi can thiệp cấp cứu bằng Methylprednisolone liều xung và Cyclosporine."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong tiếp cận FUO bậc 3, chụp {{c1::PET-CT với 18F-FDG}} là công cụ hình ảnh học hạt nhân cao cấp giúp định vị chính xác các ổ viêm sâu tiềm ẩn, áp xe cơ hoặc tổn thương u ác tính toàn thân.",
+    "extra": "Cơ chế: Tế bào viêm hoạt hóa và tế bào u ác tính tăng bắt giữ Fluorodeoxyglucose (FDG) mạnh mẽ, phát tín hiệu chuyển hóa rõ rệt trên bản đồ chụp cắt lớp."
+  },
+  {
+    "type": "cloze",
+    "text": "Thủ thuật chọc hút và sinh thiết tủy xương trong FUO bậc 3 là bắt buộc để loại trừ bệnh lý ác tính thường gặp nhất ở trẻ em là {{c1::Bạch cầu cấp dòng lympho (ALL)}}.",
+    "extra": "Cơ chế: Bạch cầu cấp có thể khởi phát bằng sốt kéo dài đơn độc kèm đau xương trước khi xuất hiện tế bào non blast rõ rệt ở máu ngoại vi."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong bệnh Still thể hệ thống (sJIA), phát ban da có đặc điểm kinh điển là ban dạng dát sẩn màu {{c1::hồng cá hồi (salmon-pink)}} xuất hiện đồng thì với cơn sốt cao và biến mất khi hết sốt.",
+    "extra": "Cơ chế: Phản ứng dãn mạch thoáng qua dưới tác động của giải phóng cytokine viêm chu kỳ từ đại thực bào hoạt hóa."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong bệnh Kawasaki thể không điển hình gây sốt kéo dài trên 5 ngày, siêu âm tim Doppler bắt buộc phải đo đường kính động mạch vành và tính chỉ số {{c1::Z-score}} hiệu chỉnh theo diện tích da.",
+    "extra": "Cơ chế: Chỉ số Z-score ≥ 2.5 tại động mạch vành liên thất trước hoặc vành phải xác định phình giãn động mạch vành, chỉ định điều trị khẩn IVIG."
+  },
+  {
+    "type": "cloze",
+    "text": "Hội chứng sốt có chu kỳ PFAPA ở trẻ em đặc trưng bởi 4 triệu chứng kinh điển: Sốt chu kỳ (Periodic Fever), Viêm miệng áp-tơ (Aphthous stomatitis), Viêm họng (Pharyngitis) và {{c1::Viêm hạch cổ (Adenitis)}}.",
+    "extra": "Cơ chế: Bệnh tự viêm lành tính tái phát đều đặn mỗi 3-4 tuần, đáp ứng cắt cơn sốt ngoạn mục chỉ với một liều duy nhất Prednisolone hoặc Betamethasone."
+  },
+  {
+    "type": "cloze",
+    "text": "Sốt do thuốc (Drug-induced fever) là căn nguyên cần nghĩ tới khi trẻ sốt dai dẳng trong bệnh viện; thân nhiệt thường hạ về bình thường trong vòng {{c1::48 đến 72 giờ}} sau khi ngừng thuốc thủ phạm.",
+    "extra": "Cơ chế: Phản ứng quá mẫn qua trung gian miễn dịch hoặc tác dụng gây sốt nội tại của các kháng sinh nhóm Beta-lactam, Vancomycin hoặc thuốc chống co giật."
+  },
+  {
+    "type": "cloze",
+    "text": "Hội chứng sợ sốt (Fever Phobia) khiến hơn 50% phụ huynh tin rằng sốt cao sẽ trực tiếp gây {{c1::tổn thương não vĩnh viễn hoặc tử vong}}, dẫn đến tình trạng lạm dụng thuốc hạ sốt quá liều nguy hiểm.",
+    "extra": "Cơ chế: Nhiệm vụ quan trọng của bác sĩ là tư vấn trấn an khoa học, giải thích sốt là cơ chế bảo vệ và hướng dẫn cách theo dõi dấu hiệu nguy hiểm."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong quy tắc đèn giao thông NICE, trẻ từ 3 đến 6 tháng tuổi có thân nhiệt ≥ {{c1::39.0°C}} được xếp vào nhóm nguy cơ {{c1::Hổ phách (nguy cơ trung bình)}}.",
+    "extra": "Cơ chế: Trẻ ở lứa tuổi này sốt cao trên 39 độ có xác suất nhiễm khuẩn tiềm ẩn cao hơn, cần được đánh giá cận lâm sàng cẩn thận."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong quy tắc đèn giao thông NICE, trẻ dưới 3 tháng tuổi có thân nhiệt ≥ {{c1::38.0°C}} tự động được xếp vào nhóm nguy cơ {{c1::Đỏ (nguy cơ cao)}}.",
+    "extra": "Cơ chế: Do tính dễ bị tổn thương của hệ miễn dịch sơ sinh và nhũ nhi nhỏ, bất kỳ cơn sốt nào ở lứa tuổi này đều phải xem là nguy cơ cao."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong thử nghiệm PITCH (BMJ 2008), thời gian không sốt trong vòng 24 giờ đầu ở nhóm dùng cả hai thuốc Paracetamol + Ibuprofen nhiều hơn nhóm dùng Paracetamol đơn độc là {{c1::4.4 giờ}}.",
+    "extra": "Cơ chế: Tuy nhiên, mức độ giảm khó chịu không có sự khác biệt có ý nghĩa thống kê giữa các nhóm can thiệp."
+  },
+  {
+    "type": "cloze",
+    "text": "Tiêu chuẩn chẩn đoán nước tiểu bình thường trong bộ tiêu chuẩn Rochester kinh điển 1985 là có dưới {{c1::10 bạch cầu}} trên một vi trường độ phóng đại lớn (HPF).",
+    "extra": "Cơ chế: Giúp loại trừ nhiễm trùng đường tiết niệu ở trẻ nhũ nhi sốt mà không cần chờ đợi kết quả cấy vi khuẩn 48 giờ sau."
+  },
+  {
+    "type": "cloze",
+    "text": "Tiêu chuẩn Rochester kinh điển 1985 loại trừ nhiễm trùng xương khớp và mô mềm dựa trên việc thăm khám tỉ mỉ không phát hiện sưng nóng đỏ đau ở {{c1::tai, da, mô mềm và xương khớp}}.",
+    "extra": "Cơ chế: Đảm bảo trẻ không có các ổ viêm mủ khu trú bề mặt trước khi xếp vào nhóm nguy cơ thấp để theo dõi ngoại trú."
+  }
+]

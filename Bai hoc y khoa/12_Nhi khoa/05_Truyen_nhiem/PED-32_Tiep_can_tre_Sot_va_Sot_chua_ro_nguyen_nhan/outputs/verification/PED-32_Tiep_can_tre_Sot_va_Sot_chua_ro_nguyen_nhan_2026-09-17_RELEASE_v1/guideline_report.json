@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "checked": 2,
+  "failed": 0,
+  "guidelines": [
+    {
+      "claim_id": "C-001",
+      "society": "AAP",
+      "title": "Clinical Practice Guideline: Evaluation and Management of Well-Appearing Febrile Infants 8 to 60 Days Old",
+      "document_id": "AAP-2021-FEBRILE-INFANTS",
+      "version": "2021",
+      "publication_date": "2021-08-01",
+      "accessed_at": "2026-09-17",
+      "canonical_url": "https://publications.aap.org/pediatrics/article/148/2/e2021052228/179783/Clinical-Practice-Guideline-Evaluation-and",
+      "local_copy": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\sources\\aap_2021_febrile_infants.txt",
+      "sha256": "c56425842b44440d4912116d9e23361b3f1e9daaef9152cce0c5037baaed9597",
+      "recommendation_text": "Clinicians should evaluate well-appearing infants 8 to 60 days of age with fever ≥38.0°C by stratifying into 3 age groups: 8 to 21 days, 22 to 28 days, and 29 to 60 days.",
+      "locator": "Key Action Statements / KAS 1",
+      "pmid": "34281996",
+      "superseded_by": null,
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "claim_id": "C-002",
+      "society": "AAP",
+      "title": "Fever and antipyretic use in children",
+      "document_id": "AAP-2011-ANTIPYRETIC-USE",
+      "version": "2011",
+      "publication_date": "2011-03-01",
+      "accessed_at": "2026-09-17",
+      "canonical_url": "https://publications.aap.org/pediatrics/article/127/3/580/64998/Fever-and-Antipyretic-Use-in-Children",
+      "local_copy": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\sources\\aap_2011_antipyretic_use.txt",
+      "sha256": "37da5ec95b505ec2b6c5bb6ff52c78656c7b6645f5d29c866d3dd3060073a0f8",
+      "recommendation_text": "The primary goal of treating the febrile child should be to improve the child's overall comfort rather than focus on the normalization of body temperature.",
+      "locator": "Guidance for Pediatricians / Page 585",
+      "pmid": "21357332",
+      "superseded_by": null,
+      "status": "PASS",
+      "failures": []
+    }
+  ]
+}

@@ -26,7 +26,8 @@
       "2026-09-16 v21: Add Chest, European Respiratory Journal, Lancet Respiratory Medicine, AJRCCM for Pediatric Pulmonology (PED-20)",
       "2026-09-17 v22: Add Pediatrics, JAMA Pediatrics, American Journal of Diseases of Children, Paediatrics & Child Health, Family Practice for Croup (PED-24)",
       "2026-09-17 v23: Add JAMA, Pediatric Critical Care Medicine for Oxygen & Noninvasive Ventilation (PED-25)",
-      "2026-09-17 v24: Add The Journal of Pediatrics for Neonatal Hypoglycemia & Hypothermia (PED-17)"
+      "2026-09-17 v24: Add The Journal of Pediatrics for Neonatal Hypoglycemia & Hypothermia (PED-17)",
+      "2026-09-17 v25: Add BMJ, World Journal of Pediatrics for Pediatric Fever & FUO (PED-32)"
     ],
     "data_source": "JCR 2023/2024 categories (CARDIAC, OB/GYN, PEDIATRICS, ENDOCRINOLOGY), cross-checked với SJR 2024. Một số IF là ước lượng.",
     "tier_definitions": {
@@ -451,6 +452,20 @@
       "field": "Pediatrics",
       "society": "Elsevier",
       "specialty": "Pediatrics"
+    },
+    "BMJ": {
+      "if": 93.6,
+      "field": "General Medicine",
+      "abbr": "BMJ",
+      "society": "BMJ Publishing Group",
+      "notes": "British Medical Journal flagship."
+    },
+    "World Journal of Pediatrics": {
+      "if": 6.1,
+      "field": "Pediatrics",
+      "abbr": "World J Pediatr",
+      "society": "Springer Nature",
+      "notes": "Official journal of Children's Hospital, Zhejiang University School of Medicine."
     }
   },
   "Q2": {
@@ -1082,7 +1097,21 @@
     "the journal of pediatrics": "The Journal of Pediatrics",
     "J Pediatr": "The Journal of Pediatrics",
     "j pediatr": "The Journal of Pediatrics",
-    "Journal of Pediatrics": "The Journal of Pediatrics"
+    "Journal of Pediatrics": "The Journal of Pediatrics",
+    "BMJ (Clinical research ed.)": "BMJ",
+    "bmj (clinical research ed.)": "BMJ",
+    "The BMJ": "BMJ",
+    "the bmj": "BMJ",
+    "British Medical Journal": "BMJ",
+    "british medical journal": "BMJ",
+    "BMJ": "BMJ",
+    "bmj": "BMJ",
+    "World journal of pediatrics : WJP": "World Journal of Pediatrics",
+    "world journal of pediatrics : wjp": "World Journal of Pediatrics",
+    "World J Pediatr": "World Journal of Pediatrics",
+    "world j pediatr": "World Journal of Pediatrics",
+    "World Journal of Pediatrics : WJP": "World Journal of Pediatrics",
+    "World Journal of Pediatrics": "World Journal of Pediatrics"
   },
   "aliases": {
     "Obstet Gynecol": "Obstetrics and Gynecology",
@@ -1121,6 +1150,20 @@
     "the journal of pediatrics": "The Journal of Pediatrics",
     "J Pediatr": "The Journal of Pediatrics",
     "j pediatr": "The Journal of Pediatrics",
-    "Journal of Pediatrics": "The Journal of Pediatrics"
+    "Journal of Pediatrics": "The Journal of Pediatrics",
+    "BMJ (Clinical research ed.)": "BMJ",
+    "bmj (clinical research ed.)": "BMJ",
+    "The BMJ": "BMJ",
+    "the bmj": "BMJ",
+    "British Medical Journal": "BMJ",
+    "british medical journal": "BMJ",
+    "BMJ": "BMJ",
+    "bmj": "BMJ",
+    "World journal of pediatrics : WJP": "World Journal of Pediatrics",
+    "world journal of pediatrics : wjp": "World Journal of Pediatrics",
+    "World J Pediatr": "World Journal of Pediatrics",
+    "world j pediatr": "World Journal of Pediatrics",
+    "World Journal of Pediatrics : WJP": "World Journal of Pediatrics",
+    "World Journal of Pediatrics": "World Journal of Pediatrics"
   }
 }

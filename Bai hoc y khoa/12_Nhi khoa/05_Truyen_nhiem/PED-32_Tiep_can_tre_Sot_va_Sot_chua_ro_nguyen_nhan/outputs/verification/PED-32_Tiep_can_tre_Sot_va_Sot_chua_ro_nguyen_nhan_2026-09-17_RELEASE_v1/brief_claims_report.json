@@ -1,0 +1,537 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_RESEARCH_BRIEF.md",
+  "parsed_claim_count": 12,
+  "verified_claim_count": 12,
+  "status": "PASS",
+  "claims": [
+    {
+      "claim_id": "C-001",
+      "claim_text": "Hướng dẫn AAP 2021 khuyến cáo đánh giá và quản lý trẻ nhũ nhi sốt không kèm triệu chứng điểm hình bằng cách phân tầng theo 3 nhóm tuổi: Clinicians should evaluate well-appearing infants 8 to 60 days of age with fever 38.0 C by stratifying into 3 age groups",
+      "source_id": "34281996",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 85,
+      "population": "Trẻ nhũ nhi 8–60 ngày tuổi sốt",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.26"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-002",
+      "claim_text": "Báo cáo lâm sàng AAP 2011 khẳng định mục tiêu chính của điều trị hạ sốt là cải thiện sự thoải mái chung của trẻ thay vì tập trung vào việc bình thường hóa thân nhiệt: The primary goal of treating the febrile child should be to improve the child overall comfort rather than focus on the normalization of body temperature",
+      "source_id": "21357332",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 86,
+      "population": "Trẻ em bị sốt",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.48"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-003",
+      "claim_text": "Quy tắc dự đoán lâm sàng PECARN xác định trẻ nhũ nhi sốt có nguy cơ thấp nhiễm khuẩn nặng dựa trên tổng phân tích nước tiểu âm tính, số lượng bạch cầu đa nhân trung tính tuyệt đối và procalcitonin huyết thanh: Clinical prediction rule identifies febrile infants 60 days and younger at low risk for serious bacterial infections using urinalysis, absolute neutrophil count, and serum procalcitonin",
+      "source_id": "30776077",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 87,
+      "population": "Trẻ nhũ nhi 60 ngày tuổi trở xuống sốt",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.43"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-004",
+      "claim_text": "Trong nhóm xác thực của nghiên cứu PECARN, quy tắc dự đoán lâm sàng đạt độ nhạy và giá trị dự đoán âm tính cực cao giúp nhận diện an toàn trẻ có nguy cơ thấp: In the validation cohort, the rule demonstrated high sensitivity and negative predictive value to identify febrile infants at low risk",
+      "source_id": "30776077",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 88,
+      "population": "Trẻ nhũ nhi 60 ngày tuổi trở xuống sốt",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.41"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-005",
+      "claim_text": "Thử nghiệm lâm sàng PITCH chứng minh phối hợp paracetamol và ibuprofen không mang lại lợi ích vượt trội về mức độ cải thiện sự khó chịu của trẻ so với dùng thuốc đơn độc: Combined therapy with paracetamol and ibuprofen found no benefit for discomfort or other symptoms",
+      "source_id": "18765450",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 89,
+      "population": "Trẻ em từ 6 tháng đến 6 tuổi bị sốt",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.43"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-006",
+      "claim_text": "Trong thử nghiệm PITCH, liệu pháp phối hợp giúp cắt sốt ban đầu nhanh hơn nhưng không cải thiện sự khó chịu so với dùng paracetamol đơn độc: Combined therapy cleared fever faster initially but provided no extra benefit for discomfort",
+      "source_id": "18765450",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 90,
+      "population": "Trẻ em từ 6 tháng đến 6 tuổi bị sốt",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.39"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-007",
+      "claim_text": "Hệ thống đèn giao thông NICE đơn thuần bỏ sót một tỷ lệ đáng kể nhiễm khuẩn nặng ở trẻ nhỏ sốt, đặc biệt là nhiễm trùng đường tiểu: The NICE traffic light system failed to identify a substantial proportion of serious bacterial infections, particularly urinary tract infections",
+      "source_id": "23407730",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 91,
+      "population": "Trẻ dưới 5 tuổi đến khám cấp cứu vì sốt",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.54"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-008",
+      "claim_text": "Bổ sung xét nghiệm tổng phân tích nước tiểu vào hệ thống đèn giao thông NICE giúp cải thiện rõ rệt độ nhạy phát hiện nhiễm khuẩn nặng: Adding urine analysis to the traffic light system significantly improved test sensitivity",
+      "source_id": "23407730",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 92,
+      "population": "Trẻ dưới 5 tuổi đến khám cấp cứu vì sốt",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.38"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-009",
+      "claim_text": "Tiêu chuẩn Rochester xác định trẻ nhũ nhi sốt ít có khả năng nhiễm khuẩn nặng nếu không có ổ nhiễm trên lâm sàng và có số lượng bạch cầu, bạch cầu non và nước tiểu bình thường: Previously healthy infants younger than 3 months with an acute illness are unlikely to have serious bacterial infection if they have normal white blood cell and band form counts and normal urine findings",
+      "source_id": "4067741",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 93,
+      "population": "Trẻ nhũ nhi dưới 3 tháng tuổi sốt",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.56"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-010",
+      "claim_text": "Trong nghiên cứu thiết lập tiêu chuẩn Rochester, tỷ lệ nhiễm khuẩn nặng thực sự ở nhóm trẻ nguy cơ thấp là rất nhỏ: Serious bacterial infection was extremely rare in the low-risk infant group",
+      "source_id": "4067741",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 94,
+      "population": "Trẻ nhũ nhi dưới 3 tháng tuổi sốt nguy cơ thấp",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.25"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-011",
+      "claim_text": "Tổng quan hệ thống các chuỗi ca bệnh nhi khoa cho thấy khoảng một nửa các trường hợp sốt chưa rõ nguyên nhân cuối cùng được xác định do căn nguyên nhiễm trùng: About half of FUOs in published case series are ultimately shown to be due to infections",
+      "source_id": "21191771",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 95,
+      "population": "Trẻ em mắc sốt chưa rõ nguyên nhân (FUO)",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.35"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-012",
+      "claim_text": "Trong tổng quan hệ thống các nghiên cứu về FUO ở trẻ em, nhiễm trùng là nhóm căn nguyên hàng đầu tiếp theo sau bởi bệnh tự miễn và bệnh ác tính: Systematic review demonstrates that infection remains the most common etiology of pediatric FUO followed by autoimmune diseases and malignancy",
+      "source_id": "21191771",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 96,
+      "population": "Trẻ em mắc sốt chưa rõ nguyên nhân (FUO)",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.30"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    }
+  ],
+  "bundle_hash": "72d7e4d1f21add711af135f19d436ab3c90e894147a1610918d32cd114d05320"
+}

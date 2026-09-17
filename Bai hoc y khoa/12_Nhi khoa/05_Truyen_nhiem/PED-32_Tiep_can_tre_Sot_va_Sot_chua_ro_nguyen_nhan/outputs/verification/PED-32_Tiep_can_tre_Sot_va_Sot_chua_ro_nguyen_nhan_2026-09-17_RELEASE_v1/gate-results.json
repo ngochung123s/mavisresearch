@@ -1,0 +1,484 @@
+[
+  {
+    "gate": "brief_pmid_preflight",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\preflight_check_pmids.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_RESEARCH_BRIEF.md",
+      "--strict",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_RESEARCH_BRIEF.md",
+        "sha256": "1d3ec987ae3246af9e041b43618abc1daa22e22c506bc6d0702e9b57c9eaaf72"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\evidence_bundle.json",
+        "sha256": "a03f36965d52217508409cd2025d92766ed09c907489d443b4a0735dd7df1f5c"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\brief_pmid_preflight.json",
+        "sha256": "5ce677efa63ecda849c1c7494bd424b699140ada848d39eb9922af4e29a0b678"
+      }
+    ]
+  },
+  {
+    "gate": "brief_claims_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_claim_vs_abstract.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_RESEARCH_BRIEF.md",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\brief_claims_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_RESEARCH_BRIEF.md",
+        "sha256": "1d3ec987ae3246af9e041b43618abc1daa22e22c506bc6d0702e9b57c9eaaf72"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\evidence_bundle.json",
+        "sha256": "a03f36965d52217508409cd2025d92766ed09c907489d443b4a0735dd7df1f5c"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\brief_claims_command.json",
+        "sha256": "146d218a561a77aeaaf5efd24f1d314e7a5fe0507c3611f62f8111cb3ba17f37"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\brief_claims_report.json",
+        "sha256": "11727fe476bedbb84ea6067fc0d1a76243368414b17ec522389d0044b5658006"
+      }
+    ]
+  },
+  {
+    "gate": "source_pmid_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_all_pmids.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
+      "--strict",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
+        "sha256": "76aea1247b4629805721680bffb440cdd1de1c74eb773f73e53d8453d86ff218"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\evidence_bundle.json",
+        "sha256": "a03f36965d52217508409cd2025d92766ed09c907489d443b4a0735dd7df1f5c"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\source_pmid_strict.json",
+        "sha256": "146d218a561a77aeaaf5efd24f1d314e7a5fe0507c3611f62f8111cb3ba17f37"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_guidelines.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\guideline_evidence.json",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\guideline_report.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\guideline_evidence.json",
+        "sha256": "a3b6500d92d4711e9ff4c9c6e0973aa7e90a02617f64b3b197c5e159a208f387"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\guideline_command.json",
+        "sha256": "476229e1e85b1a9cab77e274f8275cc41ae7bd0769fc87158816470213523f8d"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\guideline_report.json",
+        "sha256": "37efdb3317f51f64ba2daebccdd86c239430260c6c19cf637930b20a89b76dd7"
+      }
+    ]
+  },
+  {
+    "gate": "source_claims_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_claims.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
+      "--strict",
+      "--guideline-report",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\guideline_report.json",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\source_claims_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
+        "sha256": "76aea1247b4629805721680bffb440cdd1de1c74eb773f73e53d8453d86ff218"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\guideline_evidence.json",
+        "sha256": "a3b6500d92d4711e9ff4c9c6e0973aa7e90a02617f64b3b197c5e159a208f387"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\evidence_bundle.json",
+        "sha256": "a03f36965d52217508409cd2025d92766ed09c907489d443b4a0735dd7df1f5c"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\source_claims_command.json",
+        "sha256": "146d218a561a77aeaaf5efd24f1d314e7a5fe0507c3611f62f8111cb3ba17f37"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\source_claims_report.json",
+        "sha256": "45c92f02ca83a890b764276f0cc4615387bed61e9309a7553d166b0591f5171d"
+      }
+    ]
+  },
+  {
+    "gate": "source_retraction",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\retraction_check.py",
+      "--md",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
+      "--strict",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\source_retraction_report.json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
+        "sha256": "76aea1247b4629805721680bffb440cdd1de1c74eb773f73e53d8453d86ff218"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\evidence_bundle.json",
+        "sha256": "a03f36965d52217508409cd2025d92766ed09c907489d443b4a0735dd7df1f5c"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\source_retraction_command.json",
+        "sha256": "c75c5861507649ac2995834c335df6db725f1a56ee33cc43b8c7628926a3ad5e"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\source_retraction_report.json",
+        "sha256": "04e8d56d433a586598620866845a545129b92516e277e465894e4242dd6b834d"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence_crosscheck",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "crosscheck_guidelines"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\guideline_evidence.json",
+        "sha256": "a3b6500d92d4711e9ff4c9c6e0973aa7e90a02617f64b3b197c5e159a208f387"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_RESEARCH_BRIEF.md",
+        "sha256": "1d3ec987ae3246af9e041b43618abc1daa22e22c506bc6d0702e9b57c9eaaf72"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
+        "sha256": "76aea1247b4629805721680bffb440cdd1de1c74eb773f73e53d8453d86ff218"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\guideline_crosscheck_report.json",
+        "sha256": "61de2812738ecd4385aedcd2a2c82292882cc06fcb65934de688a3bbb7503891"
+      }
+    ]
+  },
+  {
+    "gate": "citation_zero_block",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\citation_audit.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
+      "--json",
+      "--evidence-bundle",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
+        "sha256": "76aea1247b4629805721680bffb440cdd1de1c74eb773f73e53d8453d86ff218"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\citation_audit.json",
+        "sha256": "20225d8f66abefcdfaae1f49be6daf62c5fded9d8a500db4f2187e502909dbc3"
+      }
+    ]
+  },
+  {
+    "gate": "depth_foundation",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\depth_check.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
+      "--profile",
+      "foundation"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
+        "sha256": "76aea1247b4629805721680bffb440cdd1de1c74eb773f73e53d8453d86ff218"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\depth_foundation.json",
+        "sha256": "47018f23940cd7c6b23208d20fa006925f3064a52a811598086637f523ff1f80"
+      }
+    ]
+  },
+  {
+    "gate": "cards_schema",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "--internal",
+      "cards_schema"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.cards.v2.json",
+        "sha256": "08c2a681bd4ba3a6ed0c6f86ef935542ae1f11164ec0c5a8e3577ff085a5c97a"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\cards_schema.json",
+        "sha256": "2a1ed4a4cce7243b59a40e6ec52343f3452488af836b74d78b779754c642b53c"
+      }
+    ]
+  },
+  {
+    "gate": "candidate_apkg_build",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_apkg.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.cards.v2.json",
+      "--output",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.apkg",
+      "--verify"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.cards.v2.json",
+        "sha256": "08c2a681bd4ba3a6ed0c6f86ef935542ae1f11164ec0c5a8e3577ff085a5c97a"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\candidate_apkg_build.json",
+        "sha256": "146d218a561a77aeaaf5efd24f1d314e7a5fe0507c3611f62f8111cb3ba17f37"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.apkg",
+        "sha256": "7c81b8b5c5c0cc5779508e80e0841e2b383c1d609fbd57d8756fce9bb309045c"
+      }
+    ]
+  },
+  {
+    "gate": "package_note_count",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "internal:package_note_count"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.cards.v2.json",
+        "sha256": "08c2a681bd4ba3a6ed0c6f86ef935542ae1f11164ec0c5a8e3577ff085a5c97a"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.apkg",
+        "sha256": "7c81b8b5c5c0cc5779508e80e0841e2b383c1d609fbd57d8756fce9bb309045c"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\package_counts.json",
+        "sha256": "b3dcccdf24228e33702337ed292b94d62acdb5aab5e7a5b7390d6ca2a6da96ca"
+      }
+    ]
+  },
+  {
+    "gate": "package_diacritics",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_apkg_diacritics.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.apkg"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.apkg",
+        "sha256": "7c81b8b5c5c0cc5779508e80e0841e2b383c1d609fbd57d8756fce9bb309045c"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\package_diacritics.json",
+        "sha256": "edabc4bf81e414dd15d6663e834feb93a8bd60484f09dd90c46c8ff1c4d78b1d"
+      }
+    ]
+  },
+  {
+    "gate": "source_diacritics",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "internal:source_diacritics"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
+        "sha256": "76aea1247b4629805721680bffb440cdd1de1c74eb773f73e53d8453d86ff218"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\source_diacritics.json",
+        "sha256": "ef1baebd356b14c12d9b66e9942d83ea07527635b842860266847272c0604415"
+      }
+    ]
+  },
+  {
+    "gate": "docx_build",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\md_to_docx.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.docx"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
+        "sha256": "76aea1247b4629805721680bffb440cdd1de1c74eb773f73e53d8453d86ff218"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\docx_build.json",
+        "sha256": "47842bcb5c4f7d4c6934753f26fd6af49bc8183ea3c46e504c5b2a0322be523c"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.docx",
+        "sha256": "94fcb5eea0abca8855963df42675e8ff7b5a00294b8326c1e795f5e603ce5661"
+      }
+    ]
+  },
+  {
+    "gate": "learner_smoke",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\make_knowledge_check.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.cards.v2.json",
+      "--output-dir",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.cards.v2.json",
+        "sha256": "08c2a681bd4ba3a6ed0c6f86ef935542ae1f11164ec0c5a8e3577ff085a5c97a"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\evidence_bundle.json",
+        "sha256": "a03f36965d52217508409cd2025d92766ed09c907489d443b4a0735dd7df1f5c"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\verification\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1\\learner_smoke.json",
+        "sha256": "5035348d6648d9d7c8b2a208ace9983d7b741a8541414be38c4f5881236b9a7e"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1_knowledge_check.md",
+        "sha256": "5ed1bd0b9752522b649d0c45e60dbc8a0a83c33b52be81bb1762e31091caf027"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1_knowledge_check_answer_key.md",
+        "sha256": "c65a97785f429c53ca773de4cfb3caa967d60abeb03dc94db5f771a81a5888a9"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan\\outputs\\PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1_knowledge_check_score.json",
+        "sha256": "5c656dac1eeadad6cb41040fe7f19d35fdd59b63077e991341ec93547ef72f33"
+      }
+    ]
+  }
+]

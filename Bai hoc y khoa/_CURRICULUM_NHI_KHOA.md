@@ -80,7 +80,7 @@
 ### Block 5 — Bệnh Truyền nhiễm Nhi khoa (08 bài)
 | ID | Ưu tiên | Bài học | Phạm vi cốt lõi (Làm gì + Tại sao) | Phụ thuộc | Trạng thái |
 |---|:---:|---|---|---|:---:|
-| **PED-32** | P0 | Tiếp cận trẻ Sốt & Sốt chưa rõ nguyên nhân (FUO) | Phân tầng nguy cơ sốt ở trẻ sơ sinh và trẻ < 3 tháng (sốt cao không rõ ổ nhiễm); dấu hiệu cảnh báo bệnh nặng; lưu đồ tiếp cận FUO; dùng thuốc hạ sốt an toàn (Paracetamol vs Ibuprofen). | PED-01, 03 | ❌ CHƯA CÓ |
+| **PED-32** | P0 | Tiếp cận trẻ Sốt & Sốt chưa rõ nguyên nhân (FUO) | Phân tầng nguy cơ sốt ở trẻ sơ sinh và trẻ < 3 tháng (sốt cao không rõ ổ nhiễm); dấu hiệu cảnh báo bệnh nặng; lưu đồ tiếp cận FUO; dùng thuốc hạ sốt an toàn (Paracetamol vs Ibuprofen). | PED-01, 03 | ✅ GATES ĐẠT (MD + APKG 88 thẻ) |
 | **PED-33** | P0 | Sốt xuất huyết Dengue: Nhận diện & Theo dõi cảnh báo | Diễn tiến 3 giai đoạn (Sốt, Nguy hiểm, Hồi phục); nhận diện dấu hiệu cảnh báo vào ngày 3–7 (đau bụng, nôn nhiều, xuất huyết niêm mạc, Hct tăng cao kèm tiểu cầu giảm nhanh); chỉ định nhập viện. | PED-01, 03 | ❌ CHƯA CÓ |
 | **PED-34** | P0 | Xử trí Sốc Sốt xuất huyết Dengue | Phác đồ chống sốc dịch truyền (Ringer Lactat / Dung dịch cao phân tử); **cách tính thể tích dịch dựa trên cân nặng hiệu chỉnh ở trẻ béo phì**; theo dõi Hct và nhận diện tái sốc / quá tải dịch. | PED-05, 33 | ❌ CHƯA CÓ |
 | **PED-35** | P0 | Bệnh Tay Chân Miệng: Phân độ & Xử trí theo độ | Phân độ lâm sàng 1, 2a, 2b (nhóm 1 vs nhóm 2), 3, 4 theo Bộ Y tế; nhận diện dấu hiệu thần kinh sớm (**giật mình chới với lúc thiu thiu ngủ**); chỉ định IVIG, Phenobarbital và Milrinone. | PED-01, 03 | ✅ GATES ĐẠT (MD + APKG 84 thẻ) |
