@@ -1,0 +1,13 @@
+[build]
+  base = "Bai hoc y khoa/12_Nhi khoa"
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/app.html"
+  status = 200
+
+[[redirects]]
+  from = "/index.html"
+  to = "/app.html"
+  status = 200
