@@ -266,7 +266,7 @@
   {
     "id": "PED25-CARD-023",
     "type": "cloze",
-    "text": "Chỉ định cấp cứu hàng đầu của mặt nạ có túi dự trữ NRM là {{c1::sốc mất bù, suy hô hấp giảm oxy nặng hoặc ngộ độc CO}}.",
+    "text": "Chỉ định cấp cứu hàng đầu của mặt nạ có túi dự trữ NRM là {{c1::sốc mất bù, suy hô hấp nặng}}.",
     "extra": "NRM là vũ khí hồi sức cấp cứu ban đầu giúp nhanh chóng bão hòa oxy máu trong khi chuẩn bị thiết lập hệ thống HFNC, CPAP hoặc đặt nội khí quản.",
     "tags": [
       "PED-25",
@@ -494,7 +494,7 @@
   {
     "id": "PED25-CARD-042",
     "type": "cloze",
-    "text": "Can thiệp điều dưỡng bắt buộc phải thực hiện ngay khi cho trẻ thở nCPAP là {{c1::đặt ống thông dạ dày mở nắp giải áp liên tục}}.",
+    "text": "Can thiệp điều dưỡng bắt buộc phải thực hiện ngay khi cho trẻ thở nCPAP là {{c1::đặt ống thông dạ dày giải áp liên tục}}.",
     "extra": "Áp lực PEEP đẩy khí vào dạ dày gây trướng căng cơ học, đẩy cơ hoành lên cao cản trở thông khí phổi và tăng nguy cơ hít sặc.",
     "tags": [
       "PED-25",
@@ -506,7 +506,7 @@
   {
     "id": "PED25-CARD-043",
     "type": "cloze",
-    "text": "Xử trí cấp cứu tức thì khi bệnh nhi đang hỗ trợ hô hấp bị biến chứng tràn khí màng phổi áp lực là {{c1::chọc kim giải áp tại khoang liên sườn 2 đường trung đòn}}.",
+    "text": "Xử trí cấp cứu tức thì khi bệnh nhi đang hỗ trợ hô hấp bị biến chứng tràn khí màng phổi áp lực là {{c1::chọc kim giải áp khoang liên sườn 2}}.",
     "extra": "Dùng kim lớn 18–20G chọc hút giải tỏa áp lực khí khoang màng phổi ngay lập tức trước khi tiến hành đặt ống dẫn lưu kín liên tục.",
     "tags": [
       "PED-25",
@@ -518,7 +518,7 @@
   {
     "id": "PED25-CARD-044",
     "type": "cloze",
-    "text": "Tiêu chuẩn dọa ngưng thở bắt buộc dừng hỗ trợ không xâm lấn để đặt nội khí quản gồm {{c1::cơn ngừng thở kéo dài > 20 giây hoặc kèm nhịp tim chậm}}.",
+    "text": "Tiêu chuẩn dọa ngưng thở bắt buộc dừng hỗ trợ không xâm lấn để đặt nội khí quản gồm {{c1::cơn ngừng thở > 20 giây hoặc tim chậm}}.",
     "extra": "Ngừng thở kèm nhịp tim chậm là chỉ điểm của thiếu oxy não nặng và toan máu mất bù; tiếp tục thở máy không xâm lấn lúc này sẽ dẫn đến ngừng tim.",
     "tags": [
       "PED-25",
@@ -602,7 +602,7 @@
   {
     "id": "PED25-CARD-051",
     "type": "cloze",
-    "text": "Khoảng chênh lệch nguy cơ (risk difference) về thất bại điều trị giữa nhóm HFNC và oxy chuẩn trong thử nghiệm PARIS (NEJM 2018) là {{c1::-11 điểm phần trăm (95% CI -15 đến -7; P < 0.001)}}.",
+    "text": "Khoảng chênh lệch nguy cơ (risk difference) về thất bại điều trị giữa nhóm HFNC và oxy chuẩn trong thử nghiệm PARIS (NEJM 2018) là {{c1::-11 điểm phần trăm}}.",
     "extra": "Mức giảm có ý nghĩa thống kê và ý nghĩa lâm sàng rất lớn, tương ứng cứ điều trị khoảng 9 trẻ bằng HFNC sẽ ngăn ngừa được 1 ca thất bại nâng bậc.",
     "tags": [
       "PED-25",
@@ -650,7 +650,7 @@
   {
     "id": "PED25-CARD-055",
     "type": "cloze",
-    "text": "Thử nghiệm ngẫu nhiên PARIS-2 (Franklin D et al., JAMA 2023) đánh giá hiệu quả của HFNC sớm ở trẻ em từ {{c1::1 đến 4 tuổi nhập viện vì suy hô hấp giảm oxy cấp}}.",
+    "text": "Thử nghiệm ngẫu nhiên PARIS-2 (Franklin D et al., JAMA 2023) đánh giá hiệu quả của HFNC sớm ở trẻ em từ {{c1::1 đến 4 tuổi suy hô hấp cấp}}.",
     "extra": "Khác với PARIS-1 chỉ nghiên cứu trẻ nhũ nhi viêm tiểu phế quản, PARIS-2 mở rộng sang trẻ lớn hơn mắc suy hô hấp giảm oxy do các nguyên nhân khác.",
     "tags": [
       "PED-25",
@@ -722,7 +722,7 @@
   {
     "id": "PED25-CARD-061",
     "type": "cloze",
-    "text": "Thử nghiệm FIRST-ABC Step-Up (Ramnarayan P et al., JAMA 2022) so sánh HFNC với CPAP trên {{c1::573 trẻ em tại 24 khoa hồi sức tích cực nhi (PICU)}}.",
+    "text": "Thử nghiệm FIRST-ABC Step-Up (Ramnarayan P et al., JAMA 2022) so sánh HFNC với CPAP trên {{c1::573 trẻ em tại 24 khoa PICU}}.",
     "extra": "Thử nghiệm đánh giá phương thức hỗ trợ hô hấp không xâm lấn đầu tay khi trẻ nhập PICU vì suy hô hấp cấp tính.",
     "tags": [
       "PED-25",
@@ -782,7 +782,7 @@
   {
     "id": "PED25-CARD-066",
     "type": "cloze",
-    "text": "Thử nghiệm FIRST-ABC Post-Extubation (Ramnarayan P et al., JAMA 2022) so sánh HFNC với CPAP trên {{c1::553 trẻ em sau rút nội khí quản tại 22 khoa PICU}}.",
+    "text": "Thử nghiệm FIRST-ABC Post-Extubation (Ramnarayan P et al., JAMA 2022) so sánh HFNC với CPAP trên {{c1::553 trẻ em sau rút nội khí quản}}.",
     "extra": "Đánh giá vai trò của HFNC và CPAP như là biện pháp dự phòng thất bại rút ống sau khi thở máy xâm lấn.",
     "tags": [
       "PED-25",
@@ -806,7 +806,7 @@
   {
     "id": "PED25-CARD-068",
     "type": "cloze",
-    "text": "Thời gian giải phóng hỗ trợ hô hấp ở nhóm HFNC so với CPAP trong FIRST-ABC Post-Extubation là {{c1::trung vị 50.5 giờ so với 42.9 giờ (adjusted HR 0.83)}}.",
+    "text": "Thời gian giải phóng hỗ trợ hô hấp ở nhóm HFNC so với CPAP trong FIRST-ABC Post-Extubation là {{c1::50.5 giờ so với 42.9 giờ}}.",
     "extra": "Khoảng tin cậy một phía 97.5% là 0.70 đến vô cực, vượt ra ngoài biên độ không kém hơn định trước là 0.75.",
     "tags": [
       "PED-25",
@@ -926,7 +926,7 @@
   {
     "id": "PED25-CARD-078",
     "type": "cloze",
-    "text": "Đồng thuận quốc tế PALICC-2 (Pediatr Crit Care Med 2023) đưa ra tiêu chuẩn chẩn đoán cập nhật cho {{c1::Hội chứng suy hô hấp cấp tiến triển ở trẻ em (PARDS)}}.",
+    "text": "Đồng thuận quốc tế PALICC-2 (Pediatr Crit Care Med 2023) đưa ra tiêu chuẩn chẩn đoán cập nhật cho {{c1::Hội chứng suy hô hấp cấp tiến triển (PARDS)}}.",
     "extra": "Đồng thuận được xây dựng bởi 52 chuyên gia hồi sức nhi khoa từ 15 quốc gia dựa trên phương pháp GRADE và hệ thống y học thực chứng.",
     "tags": [
       "PED-25",
@@ -974,7 +974,7 @@
   {
     "id": "PED25-CARD-082",
     "type": "cloze",
-    "text": "Khí thở sục qua cột nước trong Bubble CPAP làm tăng hiệu quả thải khí CO2 nhờ cơ chế {{c1::hòa trộn khí vi thể (Taylor dispersion) và khuếch tán tăng cường}}.",
+    "text": "Khí thở sục qua cột nước trong Bubble CPAP làm tăng hiệu quả thải khí CO2 nhờ cơ chế {{c1::hòa trộn khí vi thể (Taylor dispersion)}}.",
     "extra": "Ưu thế này giúp Bubble CPAP vượt trội hơn hẳn các hệ thống CPAP van cơ học tĩnh trong việc thông khí phế nang cho trẻ nhỏ.",
     "tags": [
       "PED-25",
@@ -1022,7 +1022,7 @@
   {
     "id": "PED25-CARD-086",
     "type": "cloze",
-    "text": "Trong cơn hen phế quản cấp nặng, thở HFNC có nguy cơ làm nặng thêm tình trạng tắc nghẽn do {{c1::bẫy khí thì thở ra và căng giãn phổi quá mức (Auto-PEEP)}}.",
+    "text": "Trong cơn hen phế quản cấp nặng, thở HFNC có nguy cơ làm nặng thêm tình trạng tắc nghẽn do {{c1::bẫy khí và căng giãn phổi (Auto-PEEP)}}.",
     "extra": "Bệnh nhân hen bị co thắt phế quản thì thở ra dữ dội; dòng khí HFNC liên tục có thể cản trở luồng khí thoát ra làm tăng bẫy khí phế nang.",
     "tags": [
       "PED-25",
@@ -1053,6 +1053,750 @@
       "Tho-may-xam-lan",
       "VT-bao-ve-phoi",
       "ebm_hien_dai"
+    ]
+  },
+  {
+    "id": "PED25-CARD-089",
+    "type": "cloze",
+    "text": "Thở oxy nồng độ cao kéo dài khiến PaO2 vọt lên 200–400 mmHg gây co thắt mạch não và sinh ra các {{c1::gốc tự do (ROS)}} gây tổn thương phổi.",
+    "extra": "Tổn thương phổi do tăng oxy máu (hyperoxia) gây viêm phổi hóa học và ức chế sản xuất surfactant.",
+    "tags": [
+      "PED-25",
+      "Cam-bay-dieu-tri",
+      "Tang-oxy-mau",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-090",
+    "type": "cloze",
+    "text": "Khi sử dụng mặt nạ oxy đơn giản (Simple mask), lưu lượng oxy bắt buộc phải cài đặt tối thiểu là {{c1::≥ 5 L/phút}}.",
+    "extra": "Lưu lượng dưới 5 L/phút không đủ rửa trôi buồng mặt nạ, khiến trẻ hít lại toàn bộ khí CO2 tích tụ trong mask gây toan hô hấp.",
+    "tags": [
+      "PED-25",
+      "Cam-bay-dieu-tri",
+      "Simple-mask-5L",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-091",
+    "type": "cloze",
+    "text": "Nếu muốn cung cấp oxy cho trẻ với lưu lượng thấp dưới 5 L/phút, phương tiện thay thế an toàn là {{c1::gọng mũi oxy (canula)}}.",
+    "extra": "Canula không có buồng tích khí chết nên không gây tích tụ CO2 khi dùng dòng thấp.",
+    "tags": [
+      "PED-25",
+      "Cam-bay-dieu-tri",
+      "Canula-dong-thap",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-092",
+    "type": "cloze",
+    "text": "Khi chọn cỡ gọng mũi HFNC, đường kính ngạnh gọng chỉ được chiếm tối đa {{c1::50% đến 70%}} đường kính lỗ mũi trẻ.",
+    "extra": "HFNC là một hệ thống mở; bắt buộc phải có khoảng trống để dòng khí thở ra thoát ra ngoài tránh bẫy áp lực gây tràn khí màng phổi.",
+    "tags": [
+      "PED-25",
+      "Cam-bay-dieu-tri",
+      "Co-prong-HFNC",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-093",
+    "type": "cloze",
+    "text": "Sai lầm chọn gọng mũi HFNC bít kín 100% hai lỗ mũi của trẻ sẽ làm áp lực trong phổi tăng vọt không kiểm soát gây {{c1::tràn khí màng phổi}}.",
+    "extra": "Chấn thương áp lực do phế nang vỡ dưới tác động của dòng khí áp lực cao không có lối thoát ra ngoài.",
+    "tags": [
+      "PED-25",
+      "Cam-bay-dieu-tri",
+      "Bien-chung-tran-khi",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-094",
+    "type": "cloze",
+    "text": "Bệnh nhi thở nCPAP kéo dài bắt buộc phải được đặt {{c1::ống thông dạ dày giải áp}} mở nắp liên tục.",
+    "extra": "Khí áp lực dương đi vào dạ dày làm phình to căng cứng, đẩy cơ hoành lên cao cản trở chuyển động thở và làm sụt giảm FRC.",
+    "tags": [
+      "PED-25",
+      "Cam-bay-dieu-tri",
+      "Sonde-da-day-giai-ap",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-095",
+    "type": "cloze",
+    "text": "Trong quy trình cai máy HFNC, nguyên tắc chuẩn mực là bắt buộc phải hạ {{c1::FiO2 trước}} khi hạ lưu lượng dòng.",
+    "extra": "Lưu lượng dòng duy trì PEEP động và rửa trôi khoảng chết; hạ dòng trước khi phế nang hồi phục sẽ gây xẹp phổi tái phát.",
+    "tags": [
+      "PED-25",
+      "Cam-bay-dieu-tri",
+      "Cai-FiO2-truoc",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-096",
+    "type": "cloze",
+    "text": "Khí thở của hệ thống HFNC bắt buộc phải được làm ẩm nhiệt chuyên dụng đạt chuẩn {{c1::37°C và 100% độ ẩm}}.",
+    "extra": "Dòng khí lưu lượng lớn lạnh khô sẽ làm tê liệt lông chuyển, trợt loét niêm mạc hô hấp và đông vón chất tiết phế quản.",
+    "tags": [
+      "PED-25",
+      "Cam-bay-dieu-tri",
+      "Lam-am-nhiet-HFNC",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-097",
+    "type": "cloze",
+    "text": "Trì hoãn đặt nội khí quản ở trẻ có chỉ số ROX tụt dốc và kiệt sức cơ làm tăng vọt nguy cơ {{c1::ngừng tim lúc đặt ống}} và tử vong.",
+    "extra": "Tăng FiO2 đơn thuần chỉ che đậy tạm thời thiếu oxy máu chứ không đảo ngược được toan hô hấp và mệt cơ hoành.",
+    "tags": [
+      "PED-25",
+      "Cam-bay-dieu-tri",
+      "Tri-hoan-dat-NKQ",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-098",
+    "type": "cloze",
+    "text": "Ở trẻ sơ sinh mắc dị tật tim bẩm sinh phụ thuộc ống động mạch, việc cho thở oxy nồng độ cao bị cấm vì làm {{c1::đóng ống động mạch}} cấp tính.",
+    "extra": "Oxy là chất kích thích co mạch mạnh nhất đối với ống động mạch; đóng ống động mạch làm gián đoạn tuần hoàn phổi hoặc toàn thân dẫn đến tử vong nhanh chóng.",
+    "tags": [
+      "PED-25",
+      "Cam-bay-dieu-tri",
+      "Dong-ong-dong-mach",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-099",
+    "type": "cloze",
+    "text": "Khi sử dụng HFNC cho trẻ hen phế quản cấp nặng, cần thận trọng vì dòng khí liên tục có thể làm tăng {{c1::bẫy khí và Auto-PEEP}}.",
+    "extra": "Hen phế quản bị tắc nghẽn thì thở ra do co thắt; dòng khí liên tục làm phổi căng giãn quá mức và cản trở hồi lưu tĩnh mạch về tim.",
+    "tags": [
+      "PED-25",
+      "Cam-bay-dieu-tri",
+      "Bay-khi-AutoPEEP",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-100",
+    "type": "cloze",
+    "text": "Không điều chỉnh đồng thời cả lưu lượng dòng và FiO2 trong cùng một lần can thiệp nhằm tuân thủ nguyên tắc {{c1::chỉnh một thông số}} tại một thời điểm.",
+    "extra": "Giúp người thầy thuốc đánh giá chính xác tác động sinh lý của từng biến số can thiệp lên trao đổi khí của trẻ.",
+    "tags": [
+      "PED-25",
+      "Cam-bay-dieu-tri",
+      "Chinh-1-thong-so",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-101",
+    "type": "cloze",
+    "text": "Ở Checkpoint 1, trẻ 8 kg suy hô hấp nặng SpO2 86% không đáp ứng với canula được chỉ định nâng bậc sang {{c1::mặt nạ có túi dự trữ}} (NRM).",
+    "extra": "Mặt nạ túi không thở lại cung cấp FiO2 cao 85–90% nhanh chóng bảo vệ tế bào não khỏi thiếu oxy cấp tính.",
+    "tags": [
+      "PED-25",
+      "Checkpoint-1",
+      "Mat-na-tui-NRM",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-102",
+    "type": "cloze",
+    "text": "Lưu lượng oxy cấp vào mặt nạ túi không thở lại (NRM) ở Checkpoint 1 bắt buộc phải đạt từ {{c1::10 đến 12 L/phút}} để giữ túi phồng ≥ 2/3.",
+    "extra": "Nếu lưu lượng không đủ làm phồng túi dự trữ, trẻ sẽ hít phải khí thở ra tích tụ trong túi gây toan hô hấp.",
+    "tags": [
+      "PED-25",
+      "Checkpoint-1",
+      "Luu-luong-NRM",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-103",
+    "type": "cloze",
+    "text": "Công thức tính chỉ số ROX index tại giường ở trẻ thở HFNC là: ROX = {{c1::(SpO2 / FiO2) / Nhịp thở}}.",
+    "extra": "Chỉ số này tích hợp cả hiệu quả oxy hóa máu (SpO2/FiO2) và công thở của người bệnh (tần số thở).",
+    "tags": [
+      "PED-25",
+      "Checkpoint-2",
+      "Cong-thuc-ROX",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-104",
+    "type": "cloze",
+    "text": "Ở Checkpoint 2, chỉ số ROX tụt dốc từ 4.35 xuống mức 3.25 tại thời điểm 2 giờ là dấu hiệu cảnh báo sớm của {{c1::thất bại điều trị với HFNC}}.",
+    "extra": "Ngưỡng ROX < 3.85 tại mốc 2 giờ dự báo nguy cơ thất bại cao, đòi hỏi phải chuẩn bị nâng bậc hỗ trợ hô hấp ngay lập tức.",
+    "tags": [
+      "PED-25",
+      "Checkpoint-2",
+      "ROX-that-bai",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-105",
+    "type": "cloze",
+    "text": "Hiện tượng SpO2 vẫn đạt 93% nhưng FiO2 phải tăng liên tục và nhịp thở tăng dần được gọi là hiện tượng {{c1::thất bại thầm lặng}}.",
+    "extra": "SpO2 ổn định che đậy thực tế lâm sàng là công thở của trẻ đang tăng vọt và cơ hô hấp sắp kiệt sức.",
+    "tags": [
+      "PED-25",
+      "Checkpoint-2",
+      "That-bai-tham-lang",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-106",
+    "type": "cloze",
+    "text": "Ở Checkpoint 3, trẻ thở nCPAP bị chướng bụng căng tức và tụt SpO2 được xử trí đúng đắn bằng thao tác {{c1::đặt ống thông dạ dày}} hút khí giải áp.",
+    "extra": "Hút bỏ 150 mL khí trong dạ dày giúp cơ hoành hạ xuống tự nhiên và SpO2 phục hồi ngay mà không cần tăng PEEP.",
+    "tags": [
+      "PED-25",
+      "Checkpoint-3",
+      "Giai-ap-da-day",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-107",
+    "type": "cloze",
+    "text": "Điều kiện quyết định cho phép chuyển từ HFNC sang thử nghiệm nCPAP là trẻ {{c1::tỉnh táo và chưa kiệt sức}} cơ hô hấp.",
+    "extra": "Bệnh nhi vẫn còn phản xạ thở và sức cơ tốt để phối hợp với áp lực dương liên tục của máy nCPAP.",
+    "tags": [
+      "PED-25",
+      "Checkpoint-4",
+      "Dieu-kien-sang-nCPAP",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-108",
+    "type": "cloze",
+    "text": "Chỉ định bắt buộc đặt nội khí quản ngay mà không chuyển sang nCPAP là khi trẻ có dấu hiệu {{c1::kiệt sức cơ hô hấp}} hoặc toan máu pH < 7.20.",
+    "extra": "Cơ hoành bị kiệt sức sẽ ngừng thở đột ngột; nCPAP không thể cung cấp thông khí thay thế cho bệnh nhi đã mệt cơ.",
+    "tags": [
+      "PED-25",
+      "Checkpoint-4",
+      "Chi-dinh-dat-NKQ",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-109",
+    "type": "cloze",
+    "text": "Khi tính toán pha khí nén và oxy tường, công thức tính lưu lượng oxy cần dùng là: Lưu lượng Oxy = Tổng lưu lượng nhân với phân số {{c1::(FiO2 - 0.21) / 0.79}}.",
+    "extra": "Giúp chuẩn độ chính xác phân suất FiO2 cấp cứu tại cơ sở y tế khi không có buồng trộn oxy chuyên dụng.",
+    "tags": [
+      "PED-25",
+      "Cong-thuc-pha-oxy",
+      "Buong-tron",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-110",
+    "type": "cloze",
+    "text": "Biện pháp xử trí đơn giản khi trẻ thở nCPAP há miệng làm rò rỉ áp lực PEEP ra ngoài là cho trẻ ngậm {{c1::núm vú giả (pacifier)}} hoặc đeo đai giữ cằm.",
+    "extra": "Giúp trẻ ngậm miệng lại để duy trì toàn vẹn cột áp lực dương PEEP mở rộng phế nang đáy phổi.",
+    "tags": [
+      "PED-25",
+      "Xu-tri-ro-ri-khi",
+      "Num-vu-gia",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-111",
+    "type": "cloze",
+    "text": "Ở Ca lâm sàng 1 (bé trai 5 tháng, 7.0 kg, viêm tiểu phế quản nặng thất bại canula), phương thức hỗ trợ hô hấp đầu tay tối ưu được chỉ định là {{c1::thở oxy dòng cao (HFNC)}}.",
+    "extra": "HFNC giúp rửa trôi CO2 vùng hầu họng, tạo PEEP động nhẹ và cung cấp khí thở ấm ẩm làm loãng chất tiết đường thở.",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-1",
+      "Chi-dinh-HFNC",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-112",
+    "type": "cloze",
+    "text": "Ở Ca lâm sàng 1, với cân nặng 7.0 kg và phác đồ liều chuẩn 2.0 L/kg/phút, lưu lượng dòng HFNC cài đặt ban đầu là {{c1::14.0 L/phút}}.",
+    "extra": "Tính theo: 2.0 L/kg/phút × 7.0 kg = 14.0 L/phút; mức lưu lượng này vượt đỉnh lưu lượng hít vào của trẻ giúp triệt tiêu hoàn toàn công cản khí đạo.",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-1",
+      "Luu-luong-HFNC",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-113",
+    "type": "cloze",
+    "text": "Nồng độ oxy FiO2 khởi đầu được lựa chọn cài đặt khi khởi động máy HFNC ở Ca lâm sàng 1 là {{c1::50%}}.",
+    "extra": "FiO2 50% kết hợp buồng làm ẩm 37°C giúp nhanh chóng cải thiện SpO2 từ 87% lên trên ngưỡng an toàn 94%.",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-1",
+      "FiO2-khoi-dau",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-114",
+    "type": "cloze",
+    "text": "Sau 1 giờ thở HFNC ở Ca lâm sàng 1, đáp ứng lâm sàng tích cực biểu hiện bằng nhịp thở giảm từ 68 lần/phút xuống còn {{c1::52 lần/phút}} và SpO2 đạt 95%.",
+    "extra": "Giảm tần số thở trên 15–20% sau 1 giờ là chỉ dấu quan trọng nhất chứng tỏ trẻ đáp ứng tốt với can thiệp HFNC.",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-1",
+      "Dap-ung-sau-1h",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-115",
+    "type": "cloze",
+    "text": "Tại thời điểm 2 giờ ở Ca lâm sàng 1, chỉ số ROX index tính được đạt mức {{c1::4.95}} (nhịp thở 48, FiO2 40%, SpO2 95%).",
+    "extra": "Tính theo: (95 / 0.40) / 48 = 4.95; chỉ số ROX > 4.88 dự báo tiên lượng đáp ứng thành công cao với HFNC.",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-1",
+      "Chi-so-ROX-2h",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-116",
+    "type": "cloze",
+    "text": "Trong kế hoạch cai HFNC ở Ca lâm sàng 1, bước đầu tiên là giảm FiO2 về mức 30%, sau đó mới hạ lưu lượng dòng từ 14 L/phút xuống {{c1::10 L/phút rồi 7 L/phút}}.",
+    "extra": "Giảm dần lưu lượng mỗi 12–24 giờ khi bệnh nhân ổn định, đảm bảo không có xẹp phổi dội ngược.",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-1",
+      "Quy-trinh-cai-HFNC",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-117",
+    "type": "cloze",
+    "text": "Mức lưu lượng dòng HFNC tối thiểu đạt điều kiện ngắt máy chuyển sang thở khí trời ở Ca lâm sàng 1 là {{c1::0.5 L/kg/phút}} (tương đương 3.5 L/phút).",
+    "extra": "Ở mức này, máy hầu như chỉ cung cấp khí thở thông thường và trẻ có thể thở khí phòng hoàn toàn độc lập.",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-1",
+      "Ngat-may-HFNC",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-118",
+    "type": "cloze",
+    "text": "Ở Ca lâm sàng 2 (bé gái 3 tuổi, 14 kg, viêm phổi biến chứng PARDS nặng), tỷ lệ PaO2/FiO2 đo được lúc vào viện xấp xỉ {{c1::100}} phản ánh tổn thương phổi cấp nặng nề.",
+    "extra": "Tỷ lệ P/F ≤ 100 theo phân loại PALICC-2 là tiêu chuẩn xác định hội chứng suy hô hấp cấp tiến triển trẻ em (PARDS) mức độ nặng.",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-2",
+      "Ti-le-PaO2-FiO2",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-119",
+    "type": "cloze",
+    "text": "Ở Ca lâm sàng 2, do tổn thương phế nang đông đặc lan tỏa hai bên, phương thức hỗ trợ không xâm lấn ban đầu được lựa chọn thử nghiệm có kiểm soát là {{c1::thở nCPAP}}.",
+    "extra": "HFNC không thể tạo ra cột áp lực PEEP cố định đủ lớn để huy động các phế nang đông đặc trong tổn thương phổi ARDS.",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-2",
+      "Thu-nghiem-nCPAP",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-120",
+    "type": "cloze",
+    "text": "Thông số cài đặt nCPAP ban đầu cho trẻ ở Ca lâm sàng 2 là mức áp lực PEEP khởi đầu {{c1::6 cmH2O}} phối hợp FiO2 70% và đặt sonde dạ dày giải áp.",
+    "extra": "Mức PEEP 6 cmH2O giúp mở lại các phế nang đáy phổi bị xẹp mà không làm cản trở tuần hoàn hồi lưu tĩnh mạch quá mức.",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-2",
+      "Cai-dat-PEEP-khoi-dau",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-121",
+    "type": "cloze",
+    "text": "Tại thời điểm 2 giờ thở nCPAP ở Ca lâm sàng 2, chỉ số ROX index tụt xuống thảm hại ở mức {{c1::1.85}} (SpO2 88%, FiO2 85%, nhịp thở 56 lần/phút).",
+    "extra": "Tính theo: (88 / 0.85) / 56 = 1.85; giá trị ROX < 2.85 cảnh báo thất bại tuyệt đối với thông khí không xâm lấn.",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-2",
+      "ROX-that-bai-1.85",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-122",
+    "type": "cloze",
+    "text": "Kết quả khí máu động mạch sau 2 giờ ở Ca lâm sàng 2 ghi nhận pH 7.18 và PaCO2 66 mmHg phản ánh tình trạng {{c1::toan hô hấp mất bù}} nặng.",
+    "extra": "Cơ hoành bị kiệt sức dẫn đến ứ đọng CO2 trầm trọng, đe dọa ngừng thở ngừng tim.",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-2",
+      "Toan-ho-hap-mat-bu",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-123",
+    "type": "cloze",
+    "text": "Quyết định xử trí sống còn khi trẻ ở Ca lâm sàng 2 thất bại với nCPAP là kích hoạt kíp hồi sức để {{c1::đặt nội khí quản cấp cứu}} thở máy xâm lấn.",
+    "extra": "Tuyệt đối không chần chừ tăng PEEP lên 9 cmH2O hay FiO2 100% vì sẽ làm mất cơ hội cứu sống trẻ trước khi ngưng tim.",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-2",
+      "Dat-NKQ-cap-cuu",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-124",
+    "type": "cloze",
+    "text": "Cỡ ống nội khí quản có bóng chèn (cuffed ETT) được lựa chọn đặt cấp cứu cho trẻ 3 tuổi ở Ca lâm sàng 2 là ống cỡ {{c1::số 4.5}}.",
+    "extra": "Tính theo công thức tuổi/4 + 3.5 cho ống có cuff: 3/4 + 3.5 = 4.25 (chọn ống 4.0 đến 4.5).",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-2",
+      "Co-ong-NKQ-so-4.5",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-125",
+    "type": "cloze",
+    "text": "Chiến lược thở máy xâm lấn bảo vệ phổi được áp dụng cho trẻ ở Ca lâm sàng 2 cài đặt thể tích lưu thông thấp (VT) ở mức {{c1::6 mL/kg}}.",
+    "extra": "Với trẻ 14 kg, VT = 14 × 6 = 84 mL giúp hạn chế tối đa nguy cơ chấn thương thể tích cho phế nang phổi ARDS.",
+    "tags": [
+      "PED-25",
+      "Ca-lam-sang-2",
+      "VT-bao-ve-phoi",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-126",
+    "type": "cloze",
+    "text": "Tip 1: Khi thử ngạnh gọng mũi HFNC, nếu thấy cánh mũi trẻ bị bè ra hoặc căng phồng thì phải {{c1::đổi ngay cỡ nhỏ hơn}}.",
+    "extra": "Đảm bảo đúng quy tắc đường kính ngạnh chỉ chiếm 50–70% lỗ mũi để duy trì lối thoát khí an toàn.",
+    "tags": [
+      "PED-25",
+      "Tips-lam-sang",
+      "Thu-co-prong",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-127",
+    "type": "cloze",
+    "text": "Tip 2: Định kỳ kiểm tra và xả bẫy nước (water trap) trên dây thở HFNC nhằm ngăn chặn nguy cơ {{c1::đẩy cột nước đọng vào mũi}} trẻ gây sặc.",
+    "extra": "Hơi nước ngưng tụ trong dây thở nếu không xả sẽ gây sặc nước cấp tính hoặc kích hoạt báo động ngắt dòng của máy.",
+    "tags": [
+      "PED-25",
+      "Tips-lam-sang",
+      "Xa-bay-nuoc",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-128",
+    "type": "cloze",
+    "text": "Tip 3: Khi trẻ đang thở nCPAP, ống thông dạ dày bắt buộc phải được nối vào túi dẫn lưu ở trạng thái {{c1::mở nắp tự do}} liên tục.",
+    "extra": "Tuyệt đối không đậy nắp hay gập ống thông để khí thừa tràn vào dạ dày liên tục được xả ra ngoài.",
+    "tags": [
+      "PED-25",
+      "Tips-lam-sang",
+      "Mo-nap-sonde-da-day",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-129",
+    "type": "cloze",
+    "text": "Tip 4: Khi trẻ sốc hoặc hạ thân nhiệt có sóng mạch dẹt, con số SpO2 trên máy theo dõi hoàn toàn {{c1::không đáng tin cậy}}.",
+    "extra": "Co mạch ngoại vi làm mất tín hiệu hấp thu quang học; luôn kiểm tra dạng sóng mạch trước khi đưa ra quyết định lâm sàng.",
+    "tags": [
+      "PED-25",
+      "Tips-lam-sang",
+      "Song-mach-SpO2",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-130",
+    "type": "cloze",
+    "text": "Tip 5: Dạng sóng mạch chuẩn trên máy SpO2 phải đều đặn, có đỉnh rõ ràng và đồng nhịp với {{c1::tiếng nhịp tim}} nghe qua ống nghe.",
+    "extra": "Xác nhận tín hiệu quang học đo được phản ánh trung thực nhịp đập của mạch máu nuôi mô.",
+    "tags": [
+      "PED-25",
+      "Tips-lam-sang",
+      "Dong-nhip-tim",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-131",
+    "type": "cloze",
+    "text": "Tip 6: Dùng kẹp cố định đường dây thở vào ga giường hoặc áo của trẻ nhằm triệt tiêu lực kéo trì xuống gây {{c1::loét vách ngăn mũi}}.",
+    "extra": "Trọng lượng dây máy thở kéo lệch prong là nguyên nhân hàng đầu gây loét tì đè vách ngăn và biến dạng cánh mũi.",
+    "tags": [
+      "PED-25",
+      "Tips-lam-sang",
+      "Kep-co-dinh-day",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-132",
+    "type": "cloze",
+    "text": "Tip 7: Trong cơn hen phế quản cấp nặng, nếu trẻ thở HFNC mà lồng ngực ngày càng căng phồng thì phải nghi ngờ hiện tượng {{c1::bẫy khí Auto-PEEP}}.",
+    "extra": "Phải chuyển ngay phương thức hỗ trợ sang thông khí thích hợp hoặc phối hợp thuốc giãn phế quản tích cực.",
+    "tags": [
+      "PED-25",
+      "Tips-lam-sang",
+      "Phat-hien-Auto-PEEP",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-133",
+    "type": "cloze",
+    "text": "Tip 8: Áp dụng quy tắc cai máy chuẩn mực bằng cách chỉ giảm duy nhất {{c1::một thông số}} trong một lần điều chỉnh.",
+    "extra": "Hạ FiO2 trước về ngưỡng an toàn ≤ 30–40%, sau đó mới tiến hành hạ lưu lượng dòng của máy thở.",
+    "tags": [
+      "PED-25",
+      "Tips-lam-sang",
+      "Giam-1-thong-so",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-134",
+    "type": "cloze",
+    "text": "Tip 9: Nhận diện thất bại thầm lặng khi nhịp thở của trẻ không giảm sau 2 giờ dù SpO2 vẫn duy trì được nhờ {{c1::liên tục tăng FiO2}}.",
+    "extra": "Đừng tự lừa dối bằng con số SpO2 trên monitor; hãy luôn đánh giá công hô hấp và mức độ co kéo cơ thành ngực.",
+    "tags": [
+      "PED-25",
+      "Tips-lam-sang",
+      "Nhan-dien-that-bai",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-135",
+    "type": "cloze",
+    "text": "Tip 10: Luôn chuẩn bị sẵn sàng dụng cụ đặt nội khí quản tại giường ngay khi chỉ số ROX index của trẻ giảm xuống dưới ngưỡng {{c1::< 3.85}}.",
+    "extra": "Chủ động chuẩn bị máy hút đờm, đèn soi và thuốc tiền mê giúp đặt nội khí quản an toàn không bị động khi trẻ ngừng thở.",
+    "tags": [
+      "PED-25",
+      "Tips-lam-sang",
+      "Chuan-bi-san-NKQ",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-136",
+    "type": "cloze",
+    "text": "Tiêu chuẩn cai máy số 1: Trẻ phải tỉnh táo, hồng hào, tự thở êm dịu và không còn {{c1::co kéo cơ hô hấp phụ}} đáng kể.",
+    "extra": "Chứng minh công thở đã trở về giới hạn sinh lý bình thường và không còn nguy cơ kiệt sức cơ.",
+    "tags": [
+      "PED-25",
+      "Tieu-chuan-cai-may",
+      "Tu-tho-em-diu",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-137",
+    "type": "cloze",
+    "text": "Tiêu chuẩn cai máy số 2: Tần số nhịp thở của bệnh nhi phải nằm trong giới hạn {{c1::bình thường theo tuổi}} của trẻ.",
+    "extra": "Không còn hiện tượng thở nhanh nông bù trừ tình trạng toan máu hay giảm trao đổi khí.",
+    "tags": [
+      "PED-25",
+      "Tieu-chuan-cai-may",
+      "Nhip-tho-theo-tuoi",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-138",
+    "type": "cloze",
+    "text": "Tiêu chuẩn thông số máy tối thiểu để cai HFNC là lưu lượng dòng giảm về mức {{c1::≤ 0.5 L/kg/phút}} và FiO2 giảm về ≤ 30%.",
+    "extra": "Mức hỗ trợ tối thiểu này chứng minh trẻ không còn phụ thuộc vào áp lực PEEP động và nồng độ oxy bổ sung.",
+    "tags": [
+      "PED-25",
+      "Tieu-chuan-cai-may",
+      "Thong-so-HFNC-cai",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-139",
+    "type": "cloze",
+    "text": "Tiêu chuẩn thông số máy tối thiểu để cai nCPAP là áp lực PEEP giảm về mức {{c1::≤ 4 cmH2O}} và FiO2 giảm về ≤ 30%.",
+    "extra": "PEEP 4 cmH2O tương đương áp lực sinh lý của thanh môn khi thở tự nhiên.",
+    "tags": [
+      "PED-25",
+      "Tieu-chuan-cai-may",
+      "PEEP-cai-may",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-140",
+    "type": "cloze",
+    "text": "Tiêu chuẩn oxy hóa máu khi cai máy: Trẻ phải duy trì SpO2 ≥ 94% liên tục trong ít nhất {{c1::4 đến 6 giờ}} sau khi chuyển sang thở khí trời.",
+    "extra": "Đảm bảo quá trình trao đổi khí tự nhiên hoàn toàn ổn định và không xuất hiện các đợt sụt giảm oxy máu kín đáo.",
+    "tags": [
+      "PED-25",
+      "Tieu-chuan-cai-may",
+      "SpO2-khi-troi-4h",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-141",
+    "type": "cloze",
+    "text": "Ở bệnh nhi viêm tiểu phế quản, đích SpO2 chấp nhận được khi thở khí trời trong quy trình cai máy có thể linh hoạt ở mức {{c1::≥ 90% đến 92%}}.",
+    "extra": "Theo hướng dẫn của Học viện Nhi khoa Hoa Kỳ (AAP), trẻ viêm tiểu phế quản nhẹ không cần duy trì oxy nếu SpO2 ≥ 90% khi tỉnh táo.",
+    "tags": [
+      "PED-25",
+      "Tieu-chuan-cai-may",
+      "Viem-tieu-phe-quan-SpO2",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-142",
+    "type": "cloze",
+    "text": "Tiêu chuẩn nuôi dưỡng khi cai máy: Trẻ có khả năng bú mẹ hoặc dung nạp thức ăn đường miệng tốt mà không xuất hiện {{c1::cơn khó thở hay tụt SpO2}}.",
+    "extra": "Động tác bú và nuốt đòi hỏi sự phối hợp nhịp nhàng giữa hô hấp và đường tiêu hóa; ăn uống tốt là bằng chứng phục hồi hô hấp vững chắc.",
+    "tags": [
+      "PED-25",
+      "Tieu-chuan-cai-may",
+      "Dung-nap-an-uong",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-143",
+    "type": "cloze",
+    "text": "Tiêu chuẩn chuyển tầng từ PICU ra khoa thường: Trẻ đã cai thành công nCPAP hoặc HFNC và chuyển sang thở canula oxy thường với lưu lượng {{c1::≤ 1 L/phút}} hoặc khí trời.",
+    "extra": "Huyết động ổn định và không còn nhu cầu can thiệp hỗ trợ áp lực dương không xâm lấn.",
+    "tags": [
+      "PED-25",
+      "Chuyen-tang-dieu-tri",
+      "Canula-1L",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-144",
+    "type": "cloze",
+    "text": "Tiêu chuẩn xuất viện an toàn số 1: Trẻ phải tự thở hoàn toàn trong khí trời ít nhất {{c1::24 giờ liên tục}} với SpO2 ≥ 94%.",
+    "extra": "Khẳng định hệ hô hấp đã hoàn toàn tự chủ trao đổi khí mà không cần thêm oxy liệu pháp.",
+    "tags": [
+      "PED-25",
+      "Tieu-chuan-xuat-vien",
+      "Tho-khi-troi-24h",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-145",
+    "type": "cloze",
+    "text": "Tiêu chuẩn xuất viện an toàn số 2: Trẻ phải cắt cơn sốt hoàn toàn trong ít nhất {{c1::24 giờ}} mà không cần dùng bất kỳ thuốc hạ sốt nào.",
+    "extra": "Đảm bảo quá trình nhiễm trùng hô hấp cấp tính đã được kiểm soát và lui bệnh.",
+    "tags": [
+      "PED-25",
+      "Tieu-chuan-xuat-vien",
+      "Het-sot-24h",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-146",
+    "type": "cloze",
+    "text": "Tiêu chuẩn xuất viện an toàn số 3: Lượng ăn hoặc bú của trẻ phải đạt tối thiểu từ {{c1::≥ 75% nhu cầu}} cơ bản hàng ngày và không nôn trớ.",
+    "extra": "Bảo đảm trẻ không có nguy cơ mất nước hay suy dinh dưỡng khi chăm sóc tại gia đình.",
+    "tags": [
+      "PED-25",
+      "Tieu-chuan-xuat-vien",
+      "An-dat-75%",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-147",
+    "type": "cloze",
+    "text": "Tiêu chuẩn xuất viện an toàn số 4: Cha mẹ hoặc người chăm sóc phải nắm vững kỹ năng nhận biết dấu hiệu {{c1::khó thở tái phát}} để đưa trẻ đi khám ngay.",
+    "extra": "Tránh việc gia đình chủ quan bỏ sót dấu hiệu suy hô hấp tiến triển trở lại tại nhà.",
+    "tags": [
+      "PED-25",
+      "Tieu-chuan-xuat-vien",
+      "Tap-huan-gia-dinh",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-148",
+    "type": "cloze",
+    "text": "Dấu hiệu cảnh báo tái khám cấp cứu số 1: Trẻ thở nhanh gấp gáp kèm hiện tượng {{c1::rút lõm lồng ngực sâu}} mỗi khi hít vào.",
+    "extra": "Cơ hoành và các cơ hô hấp phụ phải gắng sức co kéo báo hiệu tắc nghẽn hoặc tổn thương nhu mô phổi tái diễn.",
+    "tags": [
+      "PED-25",
+      "Canh-bao-tai-kham",
+      "Rut-lom-sau",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-149",
+    "type": "cloze",
+    "text": "Dấu hiệu cảnh báo tái khám cấp cứu số 2: Quan sát thấy môi hoặc đầu ngón tay ngón chân của trẻ có màu {{c1::tím tái hoặc nhợt nhạt}}.",
+    "extra": "Dấu hiệu lâm sàng trực tiếp của tình trạng giảm bão hòa oxy máu nặng nề đe dọa tính mạng.",
+    "tags": [
+      "PED-25",
+      "Canh-bao-tai-kham",
+      "Tim-tai",
+      "thuc_chien"
+    ]
+  },
+  {
+    "id": "PED25-CARD-150",
+    "type": "cloze",
+    "text": "Dấu hiệu cảnh báo tái khám cấp cứu số 3: Trẻ mệt lả, bú kém hoặc bỏ bú hoàn toàn và trở nên {{c1::li bì, khó đánh thức}}.",
+    "extra": "Thiếu oxy não và toan hô hấp gây ức chế thần kinh trung ương, cần đưa ngay đến phòng cấp cứu gần nhất.",
+    "tags": [
+      "PED-25",
+      "Canh-bao-tai-kham",
+      "Li-bi-bo-bu",
+      "thuc_chien"
     ]
   }
 ]
