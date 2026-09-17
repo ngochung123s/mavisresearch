@@ -1,0 +1,482 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-17T08:35:56.864749Z",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-24_Croup_Viem_thanh_khi_phe_quan_cap",
+  "providers": [
+    "crossref_retraction_watch",
+    "europe_pmc_metadata",
+    "openalex"
+  ],
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "fe0522e97406bbc0978bedbb1f99950c09b4152b827ecb8c4c48cc0338530c23",
+      "path": "raw/europe_pmc_metadata/fe0522e97406bbc0978bedbb1f99950c09b4152b827ecb8c4c48cc0338530c23.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "33d3d150ca2ee7b21c287513fe521c74e722145f9d9699c910b8779dbfdaf947",
+      "path": "raw/openalex/33d3d150ca2ee7b21c287513fe521c74e722145f9d9699c910b8779dbfdaf947.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "a1a193369e82c7666a3359ca0159b7de98ad28f0cd8729e076b70e16ee1d6d39",
+      "path": "raw/crossref_retraction_watch/a1a193369e82c7666a3359ca0159b7de98ad28f0cd8729e076b70e16ee1d6d39.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "139be91f0924720b612020d8fa788ec4277e3a8d8be04371cdb93d2608798784",
+      "path": "raw/europe_pmc_metadata/139be91f0924720b612020d8fa788ec4277e3a8d8be04371cdb93d2608798784.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "c78c9d2c6ef2614060edae014c9339194ac20be9b72f9aea23330c84d76c6605",
+      "path": "raw/openalex/c78c9d2c6ef2614060edae014c9339194ac20be9b72f9aea23330c84d76c6605.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "a6ee16f95f1f6304472059f3431f64c5b049d787e2945aedcc373a2c73a9a03e",
+      "path": "raw/crossref_retraction_watch/a6ee16f95f1f6304472059f3431f64c5b049d787e2945aedcc373a2c73a9a03e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "dece7299422186a2556cb2d23eeca3f33e4b3a150fd1c92e4f27ff2824bcd9aa",
+      "path": "raw/europe_pmc_metadata/dece7299422186a2556cb2d23eeca3f33e4b3a150fd1c92e4f27ff2824bcd9aa.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "edce00c339a25851dbcc1acc64095f46760a49ef3dd23a41ac62c821404f6d02",
+      "path": "raw/openalex/edce00c339a25851dbcc1acc64095f46760a49ef3dd23a41ac62c821404f6d02.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "35a5c2826eff244a3c43fc4eb5666a2bf181fc6687addf14415a59ddf9d18fd9",
+      "path": "raw/crossref_retraction_watch/35a5c2826eff244a3c43fc4eb5666a2bf181fc6687addf14415a59ddf9d18fd9.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "40aba214d6841c1fbfa0c419a990c66c352e78e22030d07d6ffa4ec30a6a7261",
+      "path": "raw/europe_pmc_metadata/40aba214d6841c1fbfa0c419a990c66c352e78e22030d07d6ffa4ec30a6a7261.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "b9f1ef955726ebf5945cbb795a106dc21852be382970026f3c3987f571df0feb",
+      "path": "raw/openalex/b9f1ef955726ebf5945cbb795a106dc21852be382970026f3c3987f571df0feb.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "914161523d7f16dacb12f7b8d5bb06e9f3659f1013910a3f786d80e3e2153117",
+      "path": "raw/crossref_retraction_watch/914161523d7f16dacb12f7b8d5bb06e9f3659f1013910a3f786d80e3e2153117.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "4753350193a1f5ede48a443607103072bb01a53bc9002f117dc50f2790763c30",
+      "path": "raw/europe_pmc_metadata/4753350193a1f5ede48a443607103072bb01a53bc9002f117dc50f2790763c30.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "b401d3b352233e2f013f02d60c32ab2b0ae1afe7f0ad8ac1ced7d214d98f79f1",
+      "path": "raw/openalex/b401d3b352233e2f013f02d60c32ab2b0ae1afe7f0ad8ac1ced7d214d98f79f1.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "ea5b15149cf4c0063748d164b02c051af5279b22fe01147444a98f2e5fb796eb",
+      "path": "raw/crossref_retraction_watch/ea5b15149cf4c0063748d164b02c051af5279b22fe01147444a98f2e5fb796eb.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "0008642802e492e0abf25912ca433419869592fcba1339fcb34ff1b4db3b8338",
+      "path": "raw/europe_pmc_metadata/0008642802e492e0abf25912ca433419869592fcba1339fcb34ff1b4db3b8338.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "0b2178031c1e1fb119b13fbb32fc1ff6bf98aac5c819f622631b19e8934e4a43",
+      "path": "raw/openalex/0b2178031c1e1fb119b13fbb32fc1ff6bf98aac5c819f622631b19e8934e4a43.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "c49ada2503bf2be1fc50b42953c261d5b33f66dc549fcc60c20af1b27c75517b",
+      "path": "raw/crossref_retraction_watch/c49ada2503bf2be1fc50b42953c261d5b33f66dc549fcc60c20af1b27c75517b.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "5f6238a9e6a0c52f3967324a8df66e97bb9fff4f67731e091a7a96938d254676",
+      "path": "raw/europe_pmc_metadata/5f6238a9e6a0c52f3967324a8df66e97bb9fff4f67731e091a7a96938d254676.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "7f10be113a3563788df4ae797ea8b5efb80e69a96458e070b32638629d4eaae7",
+      "path": "raw/openalex/7f10be113a3563788df4ae797ea8b5efb80e69a96458e070b32638629d4eaae7.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T08:35:56.864749Z",
+      "sha256": "3361fb775a35df960c2b7aeb326822dd4bab55f8267b7d6c0839fdc1f90a8b81",
+      "path": "raw/crossref_retraction_watch/3361fb775a35df960c2b7aeb326822dd4bab55f8267b7d6c0839fdc1f90a8b81.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "records": {
+    "pmid:15385657": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "15385657",
+        "doi": "10.1056/nejmoa033534"
+      },
+      "title": "A randomized trial of a single dose of oral dexamethasone for mild croup",
+      "abstract": "<h4>Background</h4>The benefits of dexamethasone treatment for moderate-to-severe croup are well established. However, most children with croup have mild symptoms, and it is unknown whether they would derive the same degree of benefit from dexamethasone treatment as children with more severe disease.<h4>Methods</h4>We conducted a double-blind trial at four pediatric emergency departments in which 720 children with mild croup were randomly assigned to receive one oral dose of either dexamethasone (0.6 mg per kilogram of body weight) or placebo. The children had mild croup, as defined by a score of < or =2 on the croup scoring system of Westley et al. The primary outcome was a return to a medical care provider for croup within seven days after treatment. The secondary outcome was the presence of ongoing symptoms of croup on days 1, 2, and 3 after treatment. Other outcomes included economic costs, hours of sleep lost by the child, and stress on the part of the parent in relation to the child's illness.<h4>Results</h4>Baseline clinical characteristics were similar in the two groups. Return to medical care was significantly lower in the dexamethasone group (7.3 percent vs. 15.3 percent, P<0.001). In the dexamethasone group, there was quicker resolution of croup symptoms (P=0.003), less lost sleep (P<0.001), and less stress on the part of the parent (P<0.001).<h4>Conclusions</h4>For children with mild croup, dexamethasone is an effective treatment that results in consistent and small but important clinical and economic benefits. Although the long-term effects of this treatment are not known, our data support the use of dexamethasone in most, if not all, children with croup.",
+      "journal": "The New England journal of medicine",
+      "year": "2004",
+      "publication_types": [
+        "Clinical Trial",
+        "Research Support, Non-U.S. Gov't",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T08:35:56.864749Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T08:35:56.864749Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "fe0522e97406bbc0978bedbb1f99950c09b4152b827ecb8c4c48cc0338530c23",
+        "33d3d150ca2ee7b21c287513fe521c74e722145f9d9699c910b8779dbfdaf947",
+        "a1a193369e82c7666a3359ca0159b7de98ad28f0cd8729e076b70e16ee1d6d39"
+      ]
+    },
+    "pmid:30133690": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "30133690",
+        "doi": "10.1002/14651858.cd001955.pub4"
+      },
+      "title": "Glucocorticoids for croup in children",
+      "abstract": "<h4>Background</h4>Glucocorticoids are commonly used for croup in children. This is an update of a Cochrane Review published in 1999 and previously updated in 2004 and 2011.<h4>Objectives</h4>To examine the effects of glucocorticoids for the treatment of croup in children aged 0 to 18 years.<h4>Search methods</h4>We searched the Cochrane Central Register of Controlled Trials (CENTRAL) (the Cochrane Library, Issue 2, 2018), which includes the Cochrane Acute Respiratory Infections Group's Specialised Register, Ovid MEDLINE Epub Ahead of Print, In-Process & Other Non-Indexed Citations and Ovid MEDLINE (1946 to 3 April 2018), and Embase (Ovid) (1996 to 3 April 2018, week 14), and the trials registers ClinicalTrials.gov (3 April 2018) and the World Health Organization International Clinical Trials Registry Platform (ICTRP, 3 April 2018). We scanned the reference lists of relevant systematic reviews and of the included studies.<h4>Selection criteria</h4>We included randomised controlled trials (RCTs) that investigated children aged 0 to 18 years with croup and measured the effects of glucocorticoids, alone or in combination, compared to placebo or another pharmacologic treatment. The studies needed to report at least one of our primary or secondary outcomes: change in croup score; return visits, (re)admissions or both; length of stay; patient improvement; use of additional treatments; and adverse events.<h4>Data collection and analysis</h4>One author extracted data from each study and another verified the extraction. We entered the data into Review Manager 5 for meta-analysis. Two review authors independently assessed risk of bias for each study using the Cochrane 'Risk of bias' tool and the certainty of the body of evidence for the primary outcomes using the GRADE approach.<h4>Main results</h4>We added five new RCTs with 330 children. This review now includes 43 RCTs with a total of 4565 children. We assessed most (98%) studies as at high or unclear risk of bias. Compared to placebo, glucocorticoids improved symptoms of croup at two hours (standardised mean difference (SMD) -0.65, 95% confidence interval (CI) -1.13 to -0.18; 7 RCTs; 426 children; moderate-certainty evidence), and the effect lasted for at least 24 hours (SMD -0.86, 95% CI -1.40 to -0.31; 8 RCTs; 351 children; low-certainty evidence). Compared to placebo, glucocorticoids reduced the rate of return visits or (re)admissions or both (risk ratio 0.52, 95% CI 0.36 to 0.75; 10 RCTs; 1679 children; moderate-certainty evidence). Glucocorticoid treatment reduced the length of stay in hospital by about 15 hours (mean difference -14.90, 95% CI -23.58 to -6.22; 8 RCTs; 476 children). Serious adverse events were infrequent. Publication bias was not evident. Uncertainty remains with regard to the optimal type, dose, and mode of administration of glucocorticoids for reducing croup symptoms in children.<h4>Authors' conclusions</h4>Glucocorticoids reduced symptoms of croup at two hours, shortened hospital stays, and reduced the rate of return visits to care. Our conclusions have changed, as the previous version of this review reported that glucocorticoids reduced symptoms of croup within six hours.",
+      "journal": "The Cochrane database of systematic reviews",
+      "year": "2018",
+      "publication_types": [
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T08:35:56.864749Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T08:35:56.864749Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "139be91f0924720b612020d8fa788ec4277e3a8d8be04371cdb93d2608798784",
+        "c78c9d2c6ef2614060edae014c9339194ac20be9b72f9aea23330c84d76c6605",
+        "a6ee16f95f1f6304472059f3431f64c5b049d787e2945aedcc373a2c73a9a03e"
+      ]
+    },
+    "pmid:24114291": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "24114291",
+        "doi": "10.1002/14651858.cd006619.pub3"
+      },
+      "title": "Nebulized epinephrine for croup in children",
+      "abstract": "<h4>Background</h4>Croup is a common childhood illness characterized by barky cough, stridor, hoarseness and respiratory distress. Children with severe croup are at risk for intubation. Nebulized epinephrine may prevent intubation.<h4>Objectives</h4>To assess the efficacy (measured by croup scores, rate of intubation and health care utilization such as rate of hospitalization) and safety (frequency and severity of side effects) of nebulized epinephrine versus placebo in children with croup, evaluated in an emergency department (ED) or hospital setting.<h4>Search methods</h4>We searched CENTRAL 2013, Issue 6, MEDLINE (1966 to June week 3, 2013), EMBASE (1980 to July 2013), Web of Science (1974 to July 2013), CINAHL (1982 to July 2013) and Scopus (1996 to July 2013).<h4>Selection criteria</h4>Randomized controlled trials (RCTs) or quasi-RCTs of children with croup evaluated in an ED or admitted to hospital. Comparisons were: nebulized epinephrine versus placebo, racemic nebulized epinephrine versus L-epinephrine (an isomer) and nebulized epinephrine delivered by intermittent positive pressure breathing (IPPB) versus nebulized epinephrine without IPPB. Primary outcome was change in croup score post-treatment. Secondary outcomes were rate and duration of intubation and hospitalization, croup return visit, parental anxiety and side effects.<h4>Data collection and analysis</h4>Two authors independently identified potentially relevant studies by title and abstract (when available) and examined relevant studies using a priori inclusion criteria, followed by methodological quality assessment. One author extracted data while the second checked accuracy. We use the standard methodological procedures expected by the Cochrane Collaboration.<h4>Main results</h4>Eight studies (225 participants) were included. In general, children included in the studies were young (average age less than two years in the majority of included studies). Severity of croup was described as moderate to severe in all included studies. Six studies took place in the inpatient setting, one in the ED and one setting was not specified. Six of the eight studies were deemed to have a low risk of bias and the risk of bias was unclear in the remaining two studies.Nebulized epinephrine was associated with croup score improvement 30 minutes post-treatment (three RCTs, standardized mean difference (SMD) -0.94; 95% confidence interval (CI) -1.37 to -0.51; I(2) statistic = 0%). This effect was not significant two and six hours post-treatment. Nebulized epinephrine was associated with significantly shorter hospital stay than placebo (one RCT, MD -32.0 hours; 95% CI -59.1 to -4.9). Comparing racemic and L-epinephrine, no difference in croup score was found after 30 minutes (SMD 0.33; 95% CI -0.42 to 1.08). After two hours, L-epinephrine showed significant reduction compared with racemic epinephrine (one RCT, SMD 0.87; 95% CI 0.09 to 1.65). There was no significant difference in croup score between administration of nebulized epinephrine via IPPB versus nebulization alone at 30 minutes (one RCT, SMD -0.14; 95% CI -1.24 to 0.95) or two hours (SMD -0.72; 95% CI -1.86 to 0.42). None of the studies sought or reported data on adverse effects.<h4>Authors' conclusions</h4>Nebulized epinephrine is associated with clinically and statistically significant transient reduction of symptoms of croup 30 minutes post-treatment. Evidence does not favor racemic epinephrine or L-epinephrine, or IPPB over simple nebulization.The authors note that data and analyses were limited by the small number of relevant studies and total number of participants and thus most outcomes contained data from very few or even single studies.",
+      "journal": "The Cochrane database of systematic reviews",
+      "year": "2013",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T08:35:56.864749Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T08:35:56.864749Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "dece7299422186a2556cb2d23eeca3f33e4b3a150fd1c92e4f27ff2824bcd9aa",
+        "edce00c339a25851dbcc1acc64095f46760a49ef3dd23a41ac62c821404f6d02",
+        "35a5c2826eff244a3c43fc4eb5666a2bf181fc6687addf14415a59ddf9d18fd9"
+      ]
+    },
+    "pmid:29532807": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "29532807",
+        "doi": "10.1093/pch/pxx019"
+      },
+      "title": "Acute management of croup in the emergency department",
+      "abstract": "Croup is one of the most common causes of upper airway obstruction in young children. It is characterized by sudden onset of barky cough, hoarse voice, inspiratory stridor and respiratory distress caused by upper airway inflammation secondary to a viral infection. Published guidelines for the diagnosis and treatment of croup advise using steroids as the mainstay treatment for all children who present to emergency department (ED) with croup symptoms. Dexamethasone, given orally as a single dose at 0.6 mg/kg, is highly efficacious in treating croup symptoms. Despite the evidence supporting the use of steroids as the cornerstone of croup treatment, there is significant practice variation among physicians treating croup in the ED. This practice point discusses evidence-based management of typical croup in the ED.",
+      "journal": "Paediatrics & child health",
+      "year": "2017",
+      "publication_types": [
+        "other",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T08:35:56.864749Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T08:35:56.864749Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "40aba214d6841c1fbfa0c419a990c66c352e78e22030d07d6ffa4ec30a6a7261",
+        "b9f1ef955726ebf5945cbb795a106dc21852be382970026f3c3987f571df0feb",
+        "914161523d7f16dacb12f7b8d5bb06e9f3659f1013910a3f786d80e3e2153117"
+      ]
+    },
+    "pmid:18295000": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "18295000",
+        "doi": "10.1016/s0140-6736(08)60170-1"
+      },
+      "title": "Croup",
+      "abstract": "Most children who present with acute onset of barky cough, stridor, and chest-wall indrawing have croup. A careful history and physical examination is the best method to confirm the diagnosis and to rule out potentially serious alternative disorders such as bacterial tracheitis and other rare causes of upper-airway obstruction. Epinephrine delivered via a nebuliser is effective for temporary relief of symptoms of airway obstruction. Corticosteroids are the mainstay of treatment, and benefit is seen in children with all levels of severity of croup, including mild cases.",
+      "journal": "Lancet (London, England)",
+      "year": "2008",
+      "publication_types": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T08:35:56.864749Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T08:35:56.864749Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "4753350193a1f5ede48a443607103072bb01a53bc9002f117dc50f2790763c30",
+        "b401d3b352233e2f013f02d60c32ab2b0ae1afe7f0ad8ac1ced7d214d98f79f1",
+        "ea5b15149cf4c0063748d164b02c051af5279b22fe01147444a98f2e5fb796eb"
+      ]
+    },
+    "pmid:17602176": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "17602176",
+        "doi": "10.1093/fampra/cmm022"
+      },
+      "title": "Humidified air inhalation for treating croup: a systematic review and meta-analysis",
+      "abstract": "<h4>Background</h4>Croup (laryngotracheobronchitis) is a common cause of upper airway obstruction in children. Treatment with humidified air was previously widely used and is still commonly recommended as home treatment.<h4>Objective</h4>To assess the efficacy of humidified air in the treatment of croup.<h4>Design</h4>Systematic review and meta-analysis.<h4>Data sources</h4>We searched the Cochrane Central Register of Controlled Trials, MEDLINE and EMBASE.<h4>Review methods</h4>We included randomized controlled trials with or without blinding. All studies treating children with a clinical diagnosis of croup with warm or cool humidified air delivered by steam or humidified tent whether inpatients, attenders at the Emergency Department or in the community were eligible.<h4>Main results</h4>Three studies in emergency settings provided data on 135 patients with moderate croup for the main outcome (croup score). The combined results from 20 to 60 minutes in the three studies marginally favoured the treatment group with a weighted standardized mean difference of -0.14 (95% confidence interval = -0.75 to 0.47). No outcomes were significantly different between the groups.<h4>Conclusions</h4>The croup score of children managed in an emergency setting with mild to moderate croup probably does not improve greatly with inhalation of humidified air. There is insufficient evidence to exclude either a small beneficial or a harmful effect.",
+      "journal": "Family practice",
+      "year": "2007",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T08:35:56.864749Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T08:35:56.864749Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "0008642802e492e0abf25912ca433419869592fcba1339fcb34ff1b4db3b8338",
+        "0b2178031c1e1fb119b13fbb32fc1ff6bf98aac5c819f622631b19e8934e4a43",
+        "c49ada2503bf2be1fc50b42953c261d5b33f66dc549fcc60c20af1b27c75517b"
+      ]
+    },
+    "pmid:347921": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "347921",
+        "doi": "10.1001/archpedi.1978.02120300044008"
+      },
+      "title": "Nebulized racemic epinephrine by IPPB for the treatment of croup: a double-blind study",
+      "abstract": "Racemic epinephrine has been advocated for the treatment of croup, but controlled studies have not proved it more effective than saline. Twenty patients (aged 4 months to 5 years) hospitalized with acute croup and persistent inspiratory stridor at rest were randomly assigned to one of two treatment groups: saline or racemic epinephrine, both nebulized and delivered by intermittent positive pressure breathing. Clinical scores were significantly improved (P less than .01) at ten and 30 minutes following the treatment with racemic epinephrine but not at 120 minutes. Racemic epinephrine was significantly more effective than saline at 10 (P less than .01) and 30 minutes (P less than .05) but not at 120 minutes after the treatment. We conclude that nebulized racemic epinephrine is effective treatment for the acute signs of croup.",
+      "journal": "American journal of diseases of children (1960)",
+      "year": "1978",
+      "publication_types": [
+        "Comparative Study",
+        "Clinical Trial",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T08:35:56.864749Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T08:35:56.864749Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "5f6238a9e6a0c52f3967324a8df66e97bb9fff4f67731e091a7a96938d254676",
+        "7f10be113a3563788df4ae797ea8b5efb80e69a96458e070b32638629d4eaae7",
+        "3361fb775a35df960c2b7aeb326822dd4bab55f8267b7d6c0839fdc1f90a8b81"
+      ]
+    }
+  },
+  "content_hash": "e4d2cac5b3e599a37eca68188ada5fa56f0987841020982d57680c440ca1cc8b"
+}

@@ -4,9 +4,9 @@
     "version": "1.0",
     "generated_at": "2026-09-16",
     "total_curriculum": 47,
-    "total_ped": 15,
+    "total_ped": 16,
     "total_pedytb": 2,
-    "total_cards": 1067,
+    "total_cards": 1155,
     "blocks": [
       "Block 0 — Nền tảng tư duy, Tiếp cận & Dược lý Nhi khoa",
       "Block 1 — Hồi sức, Cấp cứu & Ngộ độc Nhi khoa",
@@ -347,12 +347,12 @@
       "block": "Block 3 — Hô hấp Nhi khoa",
       "scope": "Tam chứng ho ông ổng, thở rít khi nằm yên, khàn tiếng; thang điểm Westley; xử trí: Dexamethasone liều duy nhất uống/tiêm, khí dung Adrenaline trong thể nặng.",
       "dependency": "PED-01, 20",
-      "curriculum_status": "❌ CHƯA CÓ",
-      "has_ped": false,
+      "curriculum_status": "✅ GATES ĐẠT (MD + APKG 88 thẻ)",
+      "has_ped": true,
       "has_pedytb": false,
-      "cards_count": 0,
-      "apkg_file": null,
-      "folder_rel": ""
+      "cards_count": 88,
+      "apkg_file": "PED-24_Croup_Viem_thanh_khi_phe_quan_cap_2026-09-17_RELEASE_v1.apkg",
+      "folder_rel": "03_Ho_hap/PED-24_Croup_Viem_thanh_khi_phe_quan_cap"
     },
     {
       "id": "PED-25",
@@ -7904,6 +7904,1084 @@
       "apkg_file": "PED-22_Viem_tieu_phe_quan_cap_o_tre_nhu_nhi_2026-09-15_RELEASE_v1.apkg",
       "html_file": null,
       "folder_rel": "03_Ho_hap/PED-22_Viem_tieu_phe_quan_cap_o_tre_nhu_nhi"
+    },
+    {
+      "id": "PED-24",
+      "priority": "P0",
+      "title": "Croup (Viêm thanh khí phế quản cấp)",
+      "block": "Block 3 — Hô hấp Nhi khoa",
+      "scope": "Tam chứng ho ông ổng, thở rít khi nằm yên, khàn tiếng; thang điểm Westley; xử trí: Dexamethasone liều duy nhất uống/tiêm, khí dung Adrenaline trong thể nặng.",
+      "dependency": "PED-01, 20",
+      "curriculum_status": "✅ GATES ĐẠT (MD + APKG 88 thẻ)",
+      "has_ped": true,
+      "has_pedytb": false,
+      "has_cards": true,
+      "ped_file": "PED-24_Croup_Viem_thanh_khi_phe_quan_cap_2026-09-17_RELEASE_v1.md",
+      "ped_content": "# BÀI HỌC Y KHOA: VIÊM THANH KHÍ PHẾ QUẢN CẤP (CROUP) Ở TRẺ EM (PED-24)\n\n**Mã bài:** PED-24  \n**Chuyên khoa:** Nhi khoa / Hô hấp Nhi & Cấp cứu Nhi  \n**Đối tượng:** Bác sĩ thực hành, học viên lâm sàng, sinh viên y khoa chuẩn bị trực cấp cứu và đi buồng bệnh Nhi (Chế độ sư phạm: L3_BEGINNER — Cầm tay chỉ việc cho người bắt đầu)  \n**Đường học trước:** PED-01: Đặc điểm sinh lý & Bảng sinh hiệu bình thường theo tuổi · PED-02: Tam giác đánh giá PAT & Tiếp cận ABCDE · PED-20: Sơ đồ tiếp cận trẻ Ho và Khò khè theo lứa tuổi  \n**Đường học tiếp theo:** PED-21: Viêm phổi mắc phải cộng đồng (CAP) · PED-22: Viêm tiểu phế quản cấp ở trẻ nhũ nhi · PED-25: Liệu pháp Oxy & Hỗ trợ hô hấp không xâm lấn  \n**Revision phát hành:** RELEASE v1  \n**Research brief khóa nguồn:** PED-24_RESEARCH_BRIEF.md  \n\n---\n\n## 0. TỔNG QUAN — VÌ SAO BÀI NÀY QUAN TRỌNG?\n\nCroup (Viêm thanh khí phế quản cấp - Laryngotracheobronchitis) là một trong những nguyên nhân phổ biến nhất gây tắc nghẽn đường hô hấp trên cấp tính ở trẻ nhỏ, đặc biệt trong độ tuổi từ 6 tháng đến 36 tháng tuổi. Tình trạng này là nguyên nhân của hàng trăm ngàn lượt khám cấp cứu hàng năm trên toàn thế giới, thường bùng phát vào mùa thu đông và ban đêm.\n\nĐối với người thầy thuốc trực cấp cứu Nhi khoa, Croup là một tình huống lâm sàng vô cùng đặc biệt:\n- **Áp lực tâm lý tột độ:** Một đứa trẻ đang ngủ yên lúc nửa đêm đột ngột thức giấc, ho dữ dội với âm thanh chát chúa như tiếng chó sủa (barking cough), tiếng thở rít thanh quản khò khè thì hít vào (inspiratory stridor) và rút lõm lồng ngực rõ rệt. Bố mẹ thường rơi vào trạng thái hoảng loạn cực độ vì nghĩ con mình sắp nghẹt thở chết.\n- **Ranh giới mong manh giữa an toàn và thảm họa:** Mặc dù trên 85% các trường hợp Croup thuộc thể nhẹ và có thể điều trị ngoại trú an toàn, nhưng nếu bác sĩ đánh giá sai mức độ nặng, bỏ sót các dấu hiệu cảnh báo nguy kịch, hoặc xử trí sai lầm (như thăm khám họng thô bạo bằng que đè lưỡi, chỉ định thuốc an thần, hoặc giữ trẻ lại để chụp X-quang không cần thiết), đường thở của trẻ có thể bị bít tắc hoàn toàn chỉ trong vài phút.\n- **Chiến thắng vang dội của Y học chứng cứ (EBM):** Croup là một trong những minh chứng rực rỡ nhất của việc áp dụng y học chứng cứ trong Nhi khoa. Việc triển khai liệu pháp Dexamethasone liều duy nhất cho mọi thể Croup (từ nhẹ đến nặng) kết hợp với khí dung L-Adrenaline cấp cứu đã làm giảm hơn 80% tỷ lệ phải đặt nội khí quản và giảm ngoạn mục tỷ lệ nhập viện hồi sức trên toàn cầu.\n\nNắm vững cơ chế bệnh sinh, phân tầng đúng bằng thang điểm Westley, sử dụng thuốc đúng thời điểm và tuân thủ nguyên tắc chăm sóc tối thiểu (Minimal Handling) là chìa khóa vàng giúp bác sĩ cứu sống bệnh nhi và mang lại sự an tâm tuyệt đối cho gia đình.\n\n### 0.1 Nền tảng tối thiểu cần dùng ngay\n\nDành cho học viên và bác sĩ bắt đầu thực hành lâm sàng, dưới đây là các khái niệm giải phẫu, sinh lý và thuật ngữ bắt buộc phải nắm vững:\n\n- **Croup (Viêm thanh khí phế quản cấp)** là một hội chứng lâm sàng đường hô hấp đặc trưng bởi sự khởi phát đột ngột của tam chứng: ho tiếng ông ổng (barking cough), khàn tiếng (hoarseness), và thở rít thì hít vào (inspiratory stridor) do phù nề vùng hạ thanh môn.\n- **Vòng sụn nhẫn (Cricoid cartilage)** là một cấu trúc sụn hoàn chỉnh duy nhất của đường thở hình chiếc nhẫn nằm ngay dưới sụn giáp, đại diện cho điểm hẹp nhất của đường dẫn khí ở trẻ em dưới 8 tuổi. Vì vòng sụn này kín hoàn toàn và không thể giãn nở ra ngoài, mọi hiện tượng viêm phù nề niêm mạc chỉ có thể lồi vào trong lòng ống, làm hẹp nghiêm trọng khẩu kính đường thở.\n- **Thở rít thanh quản (Stridor)** là một âm thanh bệnh lý âm sắc cao, thô ráp, phát sinh khi dòng không khí xoáy đi qua đoạn đường thở lớn ngoài lồng ngực bị hẹp (thường gặp nhất ở thanh quản và hạ thanh môn), nghe rõ nhất ở thì hít vào.\n- **Ho tiếng ông ổng (Barking cough)** là một kiểu ho đặc biệt có âm vang thô ráp kim khí giống như tiếng hải cẩu sủa hoặc tiếng chó sủa, phát sinh do luồng không khí tốc độ cao đi qua vùng hạ thanh môn bị phù nề làm rung các dây thanh âm và mô mềm thanh quản.\n- **Hiện tượng dội ngược (Rebound phenomenon)** là một tình trạng tái hẹp lòng đường thở cấp tính sau khi thuốc co mạch khí dung (như Adrenaline) hết tác dụng dược lý trong khi quá trình viêm nền vẫn chưa được kiểm soát bởi Corticoid.\n- **Thang điểm Westley (Westley Croup Score)** là một công cụ lâm sàng lượng hóa mức độ nghiêm trọng của Croup gồm 5 tiêu chí: Thở rít, Co kéo cơ hô hấp, Thông khí phổi, Tím tái và Tri giác.\n- **L-Adrenaline (Epinephrine 1:1000)** là một thuốc cấp cứu chủ vận mạnh trên cả thụ thể $\\alpha$ và $\\beta$-adrenergic; trong Croup, tác dụng kích thích thụ thể $\\alpha_1$-adrenergic gây co các tiểu động mạch niêm mạc hạ thanh môn, dẫn đến hấp thu dịch phù nề và mở rộng tức thì lòng đường thở.\n- **Dexamethasone** là một Glucocorticoid tổng hợp có hoạt tính kháng viêm cực mạnh (gấp 25–30 lần Hydrocortisone) và thời gian bán thải sinh học kéo dài (36–72 giờ), có tác dụng ức chế giải phóng các cytokine tiền viêm và giảm tính thấm thành mạch tại đường thở.\n- **Dấu hiệu Nóc nhà thờ (Steeple sign)** là một dấu hiệu hình ảnh trên phim X-quang cổ thẳng (AP view), thể hiện sự thu hẹp hình nón đối xứng của cột khí vùng hạ thanh môn do phù nề niêm mạc.\n- **Liệu pháp xông hơi ẩm (Mist therapy)** là một phương pháp điều trị truyền thống sử dụng hơi nước nóng hoặc lạnh cho trẻ hít vào; các phân tích gộp hiện đại đã chứng minh phương pháp này không mang lại lợi ích lâm sàng và không làm thay đổi điểm số Croup.\n\n> 🚨 **BOX ĐỎ — BÁO ĐỘNG ĐỎ CẤP CỨU Ở TRẺ CROUP**  \n> Khi tiếp nhận trẻ có thở rít thanh quản hoặc nghi ngờ Croup, nếu xuất hiện **BẤT KỲ MỘT** dấu hiệu nào sau đây, phải kích hoạt kíp cấp cứu đường thở khó (gồm Bác sĩ Hồi sức Nhi và Bác sĩ Tai Mũi Họng) và chuẩn bị ngay phương tiện đặt nội khí quản:  \n> 1. **Thở rít thanh quản nghe rõ ở cả 2 thì (cả hít vào và thở ra)** khi trẻ đang nằm yên hoàn toàn.  \n> 2. Rút lõm lồng ngực dữ dội, co kéo hõm ức sâu, trẻ thở gật gù theo nhịp thở hoặc có biểu hiện kiệt sức cơ hô hấp.  \n> 3. Trẻ bứt rứt, kích thích, hoảng loạn hoặc ngược lại chuyển sang li bì, lơ mơ, giảm phản xạ (dấu hiệu thiếu oxy não và ứ $CO_2$ tối cấp).  \n> 4. Tím tái trung ương (tím môi, tím đầu chi hoặc niêm mạc) khi đang thở khí trời, hoặc $SpO_2 < 92\\%$.  \n> 5. Trẻ có biểu hiện nuốt khó, chảy nhiều nước dãi (drooling), ngồi rướn cổ ra trước theo \"tư thế ngửi hoa\" (sniffing position) và sốt cao nhiễm độc — cảnh báo đỏ của **Viêm nắp thanh môn cấp (Epiglottitis)**!  \n> ⚠️ **TUYỆT ĐỐI CẤM:** Không dùng que đè lưỡi khám họng, không ép trẻ nằm ngửa, không cố lấy ven gây đau đớn khi chưa chuẩn bị sẵn sàng kíp đặt ống nội khí quản!\n\n---\n\n## 1. ĐỊNH NGHĨA VÀ PHÂN LOẠI CỐT LÕI\n\nCroup không phải là một bệnh đơn lẻ mà là một hội chứng lâm sàng phản ánh tình trạng viêm nhiễm và phù nề cấp tính ở thanh quản, khí quản và các phế quản lớn.\n\n### 1.1 Định nghĩa lâm sàng chuẩn mực\n\nTheo Viện Hàn lâm Nhi khoa Hoa Kỳ (AAP), Hiệp hội Nhi khoa Canada: Acute management of croup in the emergency department. Published guidelines advise using steroids as the mainstay treatment for all children with croup. {claim:C-002} [GUIDELINE VERIFIED] (PMID: 29532807) và Hướng dẫn của Bộ Y tế Việt Nam:\n\n> **Viêm thanh khí phế quản cấp (Croup)** là một hội chứng nhiễm trùng đường hô hấp trên thường gặp ở trẻ em từ 6 tháng đến 36 tháng tuổi, đặc trưng bởi sự khởi phát cấp tính của:  \n> 1. **Ho tiếng ông ổng (Barking cough)**.  \n> 2. **Khàn tiếng (Hoarseness)** hoặc mất tiếng.  \n> 3. **Thở rít thì hít vào (Inspiratory stridor)**.  \n> 4. Các mức độ co kéo cơ hô hấp phụ (rút lõm hõm ức, co kéo liên sườn).  \n> Các triệu chứng này thường xuất hiện sau giai đoạn viêm long hô hấp trên 1–2 ngày và có xu hướng nặng lên rõ rệt vào ban đêm.\n\n```text\n[Giai đoạn 1 (Ngày 1-2)] Viêm long hô hấp trên: Sốt nhẹ 37.5-38.5°C, chảy mũi trong, ho húng hắng\n       ↓\n[Giai đoạn 2 (Đêm 2-3)] Bùng phát về đêm: Ho ông ổng đanh thép, khàn tiếng, thở rít khi hít vào\n       ↓\n[Giai đoạn 3 (Can thiệp)] Sau Dexamethasone ± Adrenaline: Giảm phù nề, hết thở rít khi nằm yên\n       ↓\n[Giai đoạn 4 (Ngày 4-7)] Hồi phục hoàn toàn: Tiếng ho mềm dần, ăn bú tốt, hết khàn giọng\n```\n\n### 1.2 Căn nguyên vi sinh học\n\nVirus là tác nhân gây bệnh chiếm ưu thế tuyệt đối trong Croup cấp ở trẻ em:\n1. **Human Parainfluenza Viruses (HPIV - Virus Á cúm):** Tác nhân vi sinh hàng đầu gây bệnh cảnh Viêm thanh khí phế quản cấp ở trẻ em. Croup seminar: Most children who present with acute onset of barky cough, stridor, and chest-wall indrawing have croup; parainfluenza is the predominant cause. {claim:C-001} [ABSTRACT VERIFIED] (PMID: 18295000). Virus Á cúm thuộc họ Paramyxoviridae, xâm nhập và nhân lên mạnh mẽ tại biểu mô đường thở. Trong các phân type, HPIV type 1 là chủng gây bệnh phổ biến nhất vào mùa thu đông, chiếm khoảng từ sáu mươi lăm đến bảy mươi lăm phần trăm tổng số ca bệnh được ghi nhận trên lâm sàng.\nHPIV type 2 gây bệnh cảnh tương tự nhưng thường nhẹ hơn. HPIV type 3 thường liên quan đến viêm tiểu phế quản và viêm phổi ở trẻ nhỏ hơn.\n2. **Respiratory Syncytial Virus (RSV) và Adenovirus:** Chiếm khoảng 10–15% các trường hợp, thường gây bệnh cảnh kéo dài và có thể lan xuống phế quản phổi gây khò khè phế quản phối hợp.\n3. **Virus Cúm (Influenza A và B):** Chiếm 5–10%, thường gây Croup thể nặng, sốt rất cao và có nguy cơ cao bội nhiễm vi khuẩn thứ phát.\n4. **Các virus khác:** Coronavirus, Rhinovirus, Metapneumovirus ở người (hMPV), Enterovirus.\n\n### 1.3 Phân loại thể lâm sàng: Croup virus vs Croup co thắt\n\nTrên lâm sàng, cần phân biệt hai thể bệnh chính có chiến lược theo dõi khác nhau:\n\n| Tiêu chí | Croup virus (Laryngotracheobronchitis) | Croup co thắt (Spasmodic Croup) |\n|---|---|---|\n| **Bản chất** | Nhiễm trùng đường thở do virus lan tỏa | Phản ứng co thắt thanh quản dị ứng / quá mẫn |\n| **Tiền triệu** | Có sốt nhẹ, chảy mũi, viêm long 1–2 ngày | KHÔNG có sốt, không có viêm long hô hấp trên |\n| **Khởi phát** | Tiến triển dần từ viêm long đến thở rít | Đột ngột thức giấc lúc nửa đêm vì ho ông ổng và thở rít |\n| **Tiền sử** | Thường là đợt đầu tiên hoặc hiếm khi tái phát | Hay tái phát nhiều lần, tiền sử bản thân/gia đình dị ứng |\n| **Toàn trạng** | Trẻ mệt mỏi, vẻ mặt nhiễm virus | Trẻ hoàn toàn bình thường vào ban ngày giữa các cơn |\n| **Thời gian kéo dài** | Kéo dài 3–7 ngày | Cơn thường biến mất nhanh sau vài giờ hoặc sáng hôm sau |\n| **Đáp ứng điều trị** | Đáp ứng tốt với Dexamethasone sau 1–2 giờ | Đáp ứng rất nhanh với không khí ẩm mát hoặc Dexamethasone |\n\n---\n\n## 2. CƠ CHẾ SINH LÝ BỆNH HỌC 5 TẦNG & ĐỊNH LUẬT POISEUILLE\n\nTại sao Croup lại nguy hiểm ở trẻ nhỏ trong khi ở người lớn cùng một loại virus Á cúm chỉ gây viêm thanh quản khàn tiếng nhẹ? Câu trả lời nằm trọn vẹn trong cấu trúc giải phẫu đặc thù của đường thở nhi khoa và định luật vật lý Poiseuille.\n\n### 2.1 Đặc điểm giải phẫu thanh quản nhi khoa & Vòng sụn nhẫn\n\nĐường thở của trẻ em không phải là một mô hình thu nhỏ đơn thuần của người lớn:\n1. **Hình thái hình phễu (Funnel shape):** Ở người lớn, thanh quản có hình trụ và khe thanh môn (vị trí giữa hai dây thanh âm) là điểm hẹp nhất. Ngược lại, ở trẻ nhỏ dưới 8 tuổi, thanh quản có hình phễu thon nhọn xuống dưới, và **điểm hẹp nhất nằm tại vùng hạ thanh môn (Subglottic space) ngang mức vòng sụn nhẫn**.\n2. **Cấu trúc vòng sụn nhẫn kín:** Khác với khí quản có các vòng sụn hình chữ C hở phía sau bởi cơ màng, vòng sụn nhẫn là một vòng sụn hoàn chỉnh $360^\\circ$ duy nhất. Lớp hạ niêm mạc vùng hạ thanh môn bên trong vòng sụn nhẫn cấu tạo bởi mô liên kết lỏng lẻo giàu mạng lưới mạch máu. Khi bị viêm, mô này phù nề ứ dịch mạnh mẽ nhưng không thể nở ra phía ngoài do bị vỏ sụn cứng cản lại; toàn bộ thể tích phù nề bắt buộc phải lồi vào trong lòng ống dẫn khí.\n3. **Dây thanh âm ngắn và góc nghiêng:** Thanh quản trẻ nằm cao hơn (ngang đốt sống cổ C3–C4 so với C5–C6 ở người lớn), sụn nắp mềm hình chữ Omega ($\\Omega$) dễ bị sụp về phía sau khi hít vào gắng sức.\n\n### 2.2 Định luật Poiseuille & Kháng lực đường thở ($R \\propto 1/r^4$)\n\nĐịnh luật Poiseuille chi phối dòng chảy tầng của chất khí qua một ống hình trụ:\n\n$$R = \\frac{8 \\eta L}{\\pi r^4}$$\n\nTrong đó:\n- $R$ là kháng lực đường thở (Airway Resistance).\n- $\\eta$ là độ nhớt của dòng khí.\n- $L$ là chiều dài của đoạn ống dẫn khí.\n- $r$ là bán kính lòng ống dẫn khí.\n\nHệ quả vật lý then chốt: **Kháng lực đường thở tỉ lệ nghịch với lũy thừa bậc 4 của bán kính lòng ống ($R \\propto 1/r^4$)**.\n\n> 💡 **VÍ DỤ VỀ ẢNH HƯỞNG CỦA ĐỊNH LUẬT POISEUILLE:**  \n> - Ở trẻ nhũ nhi bình thường, bán kính vùng hạ thanh môn khoảng $r = 2 \\text{ mm}$ (đường kính $4 \\text{ mm}$). Diện tích lòng ống là $S_1 = \\pi \\times 2^2 = 4\\pi \\approx 12.56 \\text{ mm}^2$. Kháng lực tương đối là $R_1 \\propto 1/2^4 = 1/16$.  \n> - Khi bị viêm phù nề niêm mạc dày thêm chỉ đúng **$1 \\text{ mm}$** chu vi:  \n>   + Bán kính mới giảm xuống còn $r = 1 \\text{ mm}$.  \n>   + Diện tích lòng ống còn $S_2 = \\pi \\times 1^2 = 1\\pi \\approx 3.14 \\text{ mm}^2$ $\\rightarrow$ **Mất đi $75\\%$ diện tích lưu thông khí!**  \n>   + Kháng lực đường thở mới: $R_2 \\propto 1/1^4 = 1/1$.  \n>   + Tỉ số kháng lực: $R_2 / R_1 = (1/1) / (1/16) = \\mathbf{16 \\text{ LẦN!}}$  \n> \n> *So sánh với người lớn:* Người lớn có đường kính hạ thanh môn khoảng $8 \\text{ mm}$ ($r = 4 \\text{ mm}$). Nếu phù nề $1 \\text{ mm}$, bán kính còn $3 \\text{ mm}$. Diện tích giảm từ $16\\pi$ xuống $9\\pi$ (chỉ giảm khoảng $44\\%$), và kháng lực chỉ tăng $(4/3)^4 \\approx 3.16$ lần. Đây là lý do người lớn chỉ cảm thấy khàn giọng và vướng họng, trong khi đứa trẻ rơi vào tình trạng suy hô hấp cấp tính đe dọa tính mạng!\n\n### 2.3 Chuỗi nhân quả 5 tầng hình thành Tam chứng Croup\n\nDưới đây là các chuỗi cơ chế nhân quả then chốt giải thích toàn bộ diễn tiến bệnh lý và đáp ứng dược lý:\n- Chuỗi 1 (Cơ chế hình thành tam chứng): Xâm nhập virus Á cúm → Phù nề mô đệm hạ thanh môn → Khẩu kính đường thở giảm một nửa → Kháng lực đường thở tăng vọt 16 lần theo định luật Poiseuille → Phát sinh ho ông ổng và thở rít thanh quản.\n- Chuỗi 2 (Hiệu ứng Bernoulli): Khẩu kính đường thở hẹp lại → Vận tốc dòng khí hít vào tăng vọt → Áp suất thủy tĩnh thành ống giảm sâu theo hiệu ứng Bernoulli → Hút các dây thanh môn bẹp vào nhau tạo tiếng thở rít và khàn giọng.\n- Chuỗi 3 (Công thở và suy hô hấp): Kháng lực đường thở tăng vọt → Cơ hoành co bóp gắng sức tối đa → Áp lực âm khoang màng phổi sâu trong thì hít vào → Rút lõm hõm ức và lồng ngực → Giảm thông khí phế nang và thiếu oxy máu.\n- Chuỗi 4 (Cơ chế tác dụng của Adrenaline): Khí dung L-Adrenaline 1:1000 → Kích thích chọn lọc thụ thể alpha-1 adrenergic → Co thắt tiểu động mạch hạ niêm mạc → Tái hấp thu dịch phù nề ngoại bào → Mở rộng lòng đường thở chỉ sau 10 đến 30 phút.\n- Chuỗi 5 (Cơ chế tác dụng của Dexamethasone): Dexamethasone gắn vào thụ thể Glucocorticoid nội bào → Di chuyển vào nhân ức chế yếu tố phiên mã NF-kB → Ngăn chặn giải phóng các cytokine gây viêm → Duy trì ổn định tính thấm thành mạch kéo dài 24 đến 72 giờ.\n\n\nSự xuất hiện của các triệu chứng lâm sàng diễn ra theo một chuỗi phản ứng dây chuyền sinh lý bệnh 5 tầng chặt chẽ:\n\n```text\nTầng 1: Xâm nhập virus Á cúm → Nhân lên tại biểu mô trụ thanh khí quản → Phù nề hạ niêm mạc hạ thanh môn\n       │\n       ▼\nTầng 2: Vòng sụn nhẫn không giãn nở → Bán kính lòng ống r giảm 50% → Kháng lực R tăng vọt 16 lần (Poiseuille)\n       │\n       ▼\nTầng 3: Tốc độ dòng khí tăng vọt → Áp suất thành giảm (Hiệu ứng Bernoulli) → Mô mềm rung lắc (Ho ông ổng, Khàn tiếng, Thở rít)\n       │\n       ▼\nTầng 4: Trẻ gắng sức hít vào → Tạo áp lực âm màng phổi lớn → Rút lõm hõm ức, liên sườn, phập phồng cánh mũi\n       │\n       ▼\nTầng 5: Giảm thông khí phế nang → Mất cân bằng V/Q → Thiếu oxy máu, ứ CO2, kiệt sức cơ hô hấp và ngừng thở\n```\n\n- **Tầng 1 (Cơ chế phân tử & mô bệnh học):** Virus Á cúm gắn vào thụ thể bề mặt tế bào biểu mô đường thở, nhân lên và gây phản ứng viêm cấp tính. Mạch máu giãn nở, tính thấm thành mạch tăng cao làm thoát dịch và thâm nhiễm bạch cầu đơn nhân vào lớp hạ niêm mạc lỏng lẻo của hạ thanh môn.\n- **Tầng 2 (Cơ chế cơ học đường thở kín):** Do vòng sụn nhẫn bao bọc bên ngoài cứng chắc, lớp phù nề bắt buộc phải tràn vào trong lòng ống. Đường kính đường thở bị bóp nghẹt. Kháng lực đường thở tăng theo hàm mũ lũy thừa 4 ($1/r^4$), tạo ra một nút thắt cổ chai ngay dưới dây thanh âm.\n- **Tầng 3 (Hiệu ứng Bernoulli và phát sinh tiếng động bệnh lý):**  \n  + Theo phương trình liên tục và định luật Bernoulli, khi một khối khí buộc phải đi qua một đoạn ống bị chít hẹp, vận tốc dòng khí phải tăng vọt lên để duy trì lưu lượng. Vận tốc khí tăng cao sẽ làm sụt giảm áp suất thủy tĩnh tại thành ống bên trong chỗ hẹp (Hiệu ứng Bernoulli).  \n  + Áp suất sụt giảm này hút các dây thanh âm và nếp gấp thanh môn khép sát vào nhau, làm chúng rung bần bật trong dòng khí xoáy. Dòng khí xoáy qua chỗ hẹp thì hít vào tạo ra tiếng **Thở rít thanh quản (Stridor)**. Dây thanh âm bị viêm phù nề mất tính đàn hồi mềm mại gây ra tiếng **Khàn giọng (Hoarseness)**. Luồng khí tống ra với áp lực cao làm rung thành khí quản và hạ thanh môn phát ra tiếng **Ho ông ổng (Barking cough)**.\n- **Tầng 4 (Đáp ứng cơ học bù trừ & Công thở):** Để duy trì thể tích lưu thông qua chỗ hẹp, cơ hoành và các cơ hô hấp phụ (cơ ức đòn chũm, cơ liên sườn) phải co bóp tối đa, tạo ra một áp lực âm tính trong khoang màng phổi rất sâu trong thì hít vào. Do lồng ngực trẻ nhỏ có khung xương sườn mềm và độ đàn hồi cao, áp lực âm sâu này hút lõm các mô mềm vào trong, biểu hiện thành **rút lõm hõm ức, rút lõm bờ sườn và hõm trên đòn**.\n- **Tầng 5 (Suy sụp thông khí & Kiệt sức):** Khi tắc nghẽn trở nên quá nặng nề, công hô hấp tăng vọt làm tiêu tốn lượng oxy khổng lồ của cơ thể. Trẻ bắt đầu mệt cơ hoành. Thể tích thông khí phút sụt giảm nghiêm trọng, dẫn đến giảm thông khí phế nang, thiếu oxy máu ($SpO_2$ giảm) và ứ trệ $CO_2$. Toan hô hấp kết hợp toan chuyển hóa do thiếu oxy mô sẽ làm suy ức chế cơ tim và trung tâm hô hấp, dẫn đến ngưng thở nếu không được giải phóng đường thở kịp thời.\n\n### 2.4 Cơ chế tác dụng dược lý của Adrenaline & Glucocorticoid\n\nHai vũ khí tối thượng trong điều trị Croup đánh trúng vào hai mắt xích sinh lý bệnh khác nhau:\n\n1. **Khí dung L-Adrenaline (Epinephrine 1:1000): Tác dụng co mạch tức thì qua thụ thể $\\alpha_1$**  \n   - Khi được khí dung trực tiếp vào đường thở, Adrenaline gắn chọn lọc lên các thụ thể **$\\alpha_1$-adrenergic** trên màng tế bào cơ trơn tiểu động mạch tại lớp hạ niêm mạc vùng hạ thanh môn.  \n   - Hoạt hóa thụ thể $\\alpha_1$ làm co mạch máu tại chỗ mạnh mẽ $\\rightarrow$ Giảm áp lực thủy tĩnh mao mạch $\\rightarrow$ Nhanh chóng tái hấp thu dịch phù nề ngoại bào vào lòng mạch $\\rightarrow$ Giảm độ dày niêm mạc hạ thanh môn từ $1 \\text{ mm}$ xuống chỉ còn $0.2 - 0.3 \\text{ mm}$ chỉ trong vòng **10 đến 30 phút**.  \n   - Bán kính lòng ống phục hồi trở lại, kháng lực đường thở giảm 16 lần, tiếng thở rít biến mất và công hô hấp của trẻ dịu đi ngoạn mục.  \n   - *Hạn chế dược lý:* Adrenaline bị thoái giáng nhanh bởi enzyme COMT và MAO tại mô; thời gian tác dụng chỉ kéo dài từ **90 đến 120 phút**. Thuốc không ức chế được phản ứng viêm nền do virus.\n\n2. **Dexamethasone: Tác dụng kháng viêm bền vững qua thụ thể Glucocorticoid nhân**  \n   - Dexamethasone khuếch tán qua màng tế bào, gắn vào thụ thể Glucocorticoid trong tế bào chất và di chuyển vào nhân tế bào.  \n   - Tại nhân, phức hợp này ức chế yếu tố phiên mã $NF-\\kappa B$, ngăn chặn phiên mã các gen mã hóa các cytokine tiền viêm (như $IL-1\\beta$, $IL-6$, $TNF-\\alpha$) và enzyme $COX-2$. Đồng thời, thuốc kích thích tổng hợp Lipocortin-1 (Annexin A1), ức chế Phospholipase $A_2$, dập tắt chuỗi chuyển hóa Acid Arachidonic.  \n   - Tác dụng sinh học này làm bền vững màng lysosome, phục hồi tính toàn vẹn hàng rào nội mô mao mạch, chấm dứt hiện tượng thoát mạch dịch viêm.  \n   - *Động học:* Tác dụng kháng viêm bắt đầu xuất hiện sau **1 đến 2 giờ**, đạt đỉnh cao sau **4 đến 6 giờ** và duy trì ổn định kéo dài từ **24 đến 72 giờ** (nhờ thời gian bán hủy sinh học dài). Do đó, Dexamethasone tạo ra chiếc \"khiên bảo vệ\" che phủ hoàn hảo khoảng trống khi tác dụng của Adrenaline thoái lui.\n\n---\n\n## 3. TIẾP CẬN CHẨN ĐOÁN & THANG ĐIỂM WESTLEY TẠI GIƯỜNG\n\nChẩn đoán Croup là một **chẩn đoán hoàn toàn dựa trên lâm sàng**. Không có bất kỳ xét nghiệm máu hay hình ảnh học nào có thể thay thế được đôi tai và mắt nhìn của người thầy thuốc tại giường bệnh.\n\n### 3.1 Nhận diện Tam chứng kinh điển tại giường\n\nKhi đứng trước một bệnh nhi, bác sĩ cần lắng nghe và quan sát 3 triệu chứng kinh điển:\n1. **Ho tiếng ông ổng (Barking cough):** Âm sắc chát chúa, đanh thép, vang vọng, thường làm đứa trẻ giật mình khóc thét sau mỗi cơn ho.\n2. **Khàn tiếng (Hoarseness):** Tiếng khóc của trẻ nghẹt ngào, khàn đặc hoặc mất hẳn tiếng khóc (chỉ thấy há miệng khóc nhưng không thành tiếng).\n3. **Thở rít thì hít vào (Inspiratory Stridor):** Âm thanh rít thô ráp âm sắc cao nghe rõ nhất ở vùng cổ khi trẻ hít vào. Bác sĩ cần phân biệt rõ:\n   - *Thở rít chỉ xuất hiện khi kích thích (khi quấy khóc, vận động):* Tắc nghẽn mức độ nhẹ.\n   - *Thở rít xuất hiện liên tục ngay cả khi trẻ nằm yên ngủ ngoan:* Tắc nghẽn mức độ vừa đến nặng, báo hiệu đường kính đường thở đã giảm trên 50%.\n   - *Thở rít cả hai thì (biphasic stridor):* Tắc nghẽn hạ thanh môn ở mức độ nguy kịch cực kỳ nặng nề.\n\n### 3.2 Thang điểm Westley (Westley Croup Score) 5 tiêu chí\n\nThang điểm Westley là công cụ kinh điển được chuẩn hóa quốc tế: Nebulized racemic epinephrine by IPPB for the treatment of croup: a double-blind study. Clinical scores were significantly improved following treatment. {claim:C-009} [DATA VERIFIED] (PMID: 347921) giúp lượng hóa mức độ tắc nghẽn đường thở và theo dõi đáp ứng điều trị:\n\n| Tiêu chí đánh giá | Điểm số | Mô tả lâm sàng chi tiết |\n|---|:---:|---|\n| **1. Thở rít thì hít vào (Inspiratory Stridor)** | 0 | Hoàn toàn không có thở rít |\n| | 1 | Thở rít chỉ nghe thấy khi trẻ kích thích, quấy khóc hoặc vận động |\n| | 2 | **Thở rít nghe rõ khi trẻ nằm yên tĩnh hoàn toàn** |\n| **2. Co kéo cơ hô hấp phụ (Retractions)** | 0 | Không có co kéo lồng ngực |\n| | 1 | Co kéo mức độ nhẹ (kín đáo ở kẽ sườn) |\n| | 2 | Co kéo mức độ vừa (rút lõm bờ sườn và kẽ sườn rõ) |\n| | 3 | **Co kéo mức độ nặng (rút lõm hõm ức sâu, phập phồng cánh mũi, đầu gật gù)** |\n| **3. Thông khí phổi (Air Entry)** | 0 | Thông khí phổi vào đều hai bên phế trường |\n| | 1 | Rì rào phế nang giảm nhẹ |\n| | 2 | **Rì rào phế nang giảm nặng rõ rệt (nghe tim phổi thấy tiếng thông khí rất yếu)** |\n| **4. Tím tái (Cyanosis)** | 0 | Da niêm hồng hào hoàn toàn khi thở khí trời |\n| | 4 | Tím tái chỉ xuất hiện khi quấy khóc, kích thích |\n| | 5 | **Tím tái liên tục ngay cả khi nằm yên tĩnh trong khí trời** |\n| **5. Tri giác (Level of Consciousness)** | 0 | Tỉnh táo hoàn toàn, tương tác tốt với bố mẹ |\n| | 5 | **Bứt rứt, kích thích vật vã, hoảng loạn hoặc li bì, lơ mơ, kiệt sức** |\n\n### 3.3 Phân tầng mức độ nặng tại giường\n\nDựa trên tổng điểm Westley (từ 0 đến 17 điểm), Croup được chia thành 4 mức độ:\n\n1. **Croup thể Nhẹ (Westley $\\le 2$ điểm):**\n   - Trẻ có ho ông ổng, khàn tiếng.\n   - Thở rít thanh quản chỉ xuất hiện khi quấy khóc, **hoàn toàn KHÔNG có thở rít khi nằm yên**.\n   - Không có hoặc chỉ có co kéo lồng ngực mức độ rất nhẹ.\n   - Trẻ hoàn toàn tỉnh táo, chơi ngoan, bú tốt, hồng hào.\n2. **Croup thể Vừa (Westley $3 - 5$ điểm):**\n   - **Thở rít thanh quản nghe rõ ngay cả khi trẻ nằm yên tĩnh**.\n   - Co kéo lồng ngực và rút lõm bờ sườn mức độ vừa.\n   - Thông khí phổi vẫn còn tương đối tốt.\n   - Trẻ tỉnh táo, có thể quấy khóc nhưng dỗ nín được, chưa có rối loạn tri giác, không tím tái.\n3. **Croup thể Nặng (Westley $6 - 11$ điểm):**\n   - Thở rít thanh quản thì hít vào rất to khi nằm yên (hoặc thở rít cả hai thì).\n   - Rút lõm lồng ngực và hõm ức dữ dội, đầu gật gù theo nhịp thở.\n   - Rì rào phế nang giảm rõ rệt.\n   - **Trẻ bứt rứt, kích thích, lo âu, hoảng sợ, không thể dỗ nín** (biểu hiện của đói oxy mô não).\n4. **Croup Dọa Suy Hô Hấp (Westley $\\ge 12$ điểm):**\n   - Tiếng thở rít có thể giảm đi do lưu lượng dòng khí quá yếu (dấu hiệu \"phổi câm\" thanh quản).\n   - Rì rào phế nang hầu như không nghe thấy.\n   - Trẻ lơ mơ, li bì, kiệt sức cơ hô hấp, giảm trương lực cơ.\n   - Tím tái trung ương hoặc da tái nhợt, vã mồ hôi lạnh, nhịp tim chậm.\n   - Nguy cơ ngưng thở tử vong trong tích tắc nếu không đặt nội khí quản ngay!\n\n---\n\n## 4. CHẨN ĐOÁN PHÂN BIỆT SỐNG CÒN & CỜ ĐỎ (RED FLAGS)\n\nBất kỳ đứa trẻ nào có biểu hiện thở rít cấp tính đều phải được sàng lọc cẩn thận để không bỏ sót các cấp cứu ngoại khoa và nhiễm trùng tối cấp đường thở trên.\n\n### 4.1 Bảng chẩn đoán phân biệt các nguyên nhân gây thở rít cấp\n\n| Bệnh cảnh | Lứa tuổi thường gặp | Tác nhân chính | Khởi phát & Đặc điểm lâm sàng cốt lõi | Dấu hiệu phân biệt quyết định |\n|---|:---:|---|---|---|\n| **Croup virus điển hình** | 6 – 36 tháng | Virus Á cúm (HPIV-1, 2, 3) | Khởi phát 1–2 ngày viêm long, sốt nhẹ, ho ông ổng, khàn tiếng, thở rít về đêm. | **Có ho ông ổng rầm rộ**, đáp ứng nhanh với Dexamethasone và Adrenaline khí dung. |\n| **Viêm nắp thanh môn cấp (Epiglottitis)** | 2 – 7 tuổi | *Haemophilus influenzae* type b (Hib), Phế cầu, Tụ cầu | Khởi phát tối cấp trong vài giờ, **sốt cao đùng đùng, bộ mặt nhiễm trùng nhiễm độc nặng**. | **HOÀN TOÀN KHÔNG HO**, nuốt nghẹn, **chảy nhiều nước dãi (drooling)**, ngồi tư thế ngửi hoa, nuốt rất đau. Cấm đè lưỡi! |\n| **Viêm khí quản vi khuẩn (Bacterial Tracheitis)** | 1 – 10 tuổi | *Staphylococcus aureus*, Phế cầu, Liên cầu A | Ban đầu giống Croup nhưng sau 2–3 ngày đột ngột sốt cao trở lại, nhiễm độc, suy hô hấp nặng vọt lên. | **Đờm mủ đặc quánh**, ho đau đớn dữ dội, **KHÔNG ĐÁP ỨNG với Adrenaline khí dung**, soi thanh quản thấy màng giả mủ bít khí quản. |\n| **Dị vật đường thở (Foreign Body)** | 6 tháng – 4 tuổi | Hạt đậu, đồ chơi nhỏ, thức ăn | Khởi phát đột ngột tức thì sau một cơn sặc, hội chứng xâm nhập rõ, ban ngày khi đang ăn/chơi. | **KHÔNG CÓ SỐT**, không có viêm long trước đó, thở rít đột ngột hoặc thở rít phối hợp khò khè một bên phổi. |\n| **Áp xe thành sau họng (RPA)** | < 5 tuổi | Liên cầu, Tụ cầu, Vi khuẩn kỵ khí | Sốt cao, đau họng dữ dội, cổ ưỡn ra sau (tư thế ngửa cổ giảm chèn ép), cứng gáy, nuốt đau. | **Khối phồng một bên ở thành sau họng**, nói giọng ngậm hạt thị, há miệng hạn chế (trismus), chụp X-quang cổ nghiêng thấy dày mô mềm trước cột sống. |\n\n### 4.2 Nhận diện cờ đỏ của Viêm nắp thanh môn cấp (Epiglottitis)\n\nViêm nắp thanh môn cấp là một thảm họa đường thở. Kể từ khi có vắc xin cộng hợp Hib trong chương trình tiêm chủng mở rộng, tỷ lệ bệnh đã giảm hơn 95%, nhưng vẫn có thể gặp do phế cầu, tụ cầu hoặc ở trẻ chưa tiêm chủng đầy đủ:\n- **Tam chứng 3D kinh điển:** **Drooling** (Chảy dãi do nuốt đau không dám nuốt), **Dysphagia** (Nuốt khó), và **Distress** (Suy hô hấp tiến triển nhanh).\n- **Bộ tứ \"Không ho - Sốt cao - Tư thế ngửi hoa - Chảy dãi\":** Nếu một đứa trẻ thở rít mà **KHÔNG HỀ HO**, sốt cao trên 39°C và ngồi rướn cổ cằm chìa ra trước, phải nghĩ ngay đến Viêm nắp thanh môn cấp cho đến khi có bằng chứng ngược lại!\n- ⚠️ **QUY TẮC BẤT DI BẤT DỊCH:** **Tuyệt đối KHÔNG dùng que đè lưỡi khám họng!** Việc dùng que đè lưỡi có thể kích thích phản xạ phó giao cảm hoặc làm nắp thanh môn sưng đỏ hình \"quả anh đào\" (cherry red) sụp xuống bít hoàn toàn lỗ thanh môn, gây ngưng thở đột ngột trên bàn khám. Bệnh nhi cần được giữ yên trong lòng mẹ, thở oxy nhẹ nhàng và chuyển thẳng vào phòng mổ để kíp GMHS và TMH đặt nội khí quản dưới đèn soi thanh quản trực tiếp.\n\n### 4.3 Nhận diện cờ đỏ của Viêm khí quản vi khuẩn (Bacterial Tracheitis)\n\nViêm khí quản do vi khuẩn (còn gọi là \"Croup giả mạc\" - Pseudomembranous croup) là tình trạng nhiễm trùng hoại tử cấp tính lòng khí quản, thường do *Staphylococcus aureus* (bao gồm cả MRSA):\n- Bệnh cảnh ban đầu hoàn toàn giống Croup virus thông thường, nhưng trẻ không thuyên giảm mà đột ngột sốt cao vọt lên, vẻ mặt nhiễm độc lờ đờ, khó thở co kéo dữ dội.\n- **Dấu hiệu nhận diện quan trọng nhất:** Trẻ **hoàn toàn không đáp ứng với khí dung Adrenaline** (hoặc chỉ cải thiện thoáng qua vài phút rồi nặng lên ngay). Khí dung Adrenaline không thể giải quyết được các mảng mủ hoại tử và chất tiết đặc quánh đang đóng bánh làm nghẹt lòng khí quản.\n- Đứa trẻ cần được chuyển Hồi sức Nhi ngay để hút đờm mủ qua nội khí quản và dùng kháng sinh phổ rộng đường tĩnh mạch (như Vancomycin phối hợp Cefotaxime/Ceftriaxone).\n\n---\n\n## 5. CẬN LÂM SÀNG & GIÁ TRỊ CỦA DẤU HIỆU NÓC NHÀ THỜ (STEEPLE SIGN)\n\n### 5.1 X-quang cổ thẳng (AP view) & Dấu hiệu Steeple Sign\n\nTrên phim chụp X-quang vùng cổ tư thế thẳng (Anteroposterior view) ở thì hít vào:\n- Bình thường, cột khí hạ thanh môn có hình vuông hoặc hình vòm vai tù (shoulder appearance).\n- Trong Croup, lớp phù nề đối xứng hai bên của hạ thanh môn làm cột khí bị thu hẹp dần từ dưới lên tạo thành hình chóp nón đối xứng, được gọi là **Dấu hiệu Nóc nhà thờ (Steeple Sign)** hoặc dấu hiệu cây bút chì nhọn (Pencil-point sign).\n- Trên phim cổ nghiêng (Lateral view): Nắp thanh môn hoàn toàn bình thường (không sưng to, không có hình ngón tay cái cái béo tròn - \"Thumbprint sign\" của viêm nắp thanh môn) và mô mềm thành sau họng không bị dày.\n\n### 5.2 Xét nghiệm máu, vi sinh & Khí máu: Khi nào chỉ định?\n\n- **Công thức máu và CRP/Procalcitonin:** Hoàn toàn KHÔNG cần thiết ở Croup điển hình. Bạch cầu có thể bình thường hoặc tăng nhẹ lympho do virus. Chỉ làm khi nghi ngờ nhiễm khuẩn thứ phát (Viêm khí quản vi khuẩn) hoặc chẩn đoán không rõ ràng.\n- **Test nhanh virus hô hấp (PCR đa mồi):** Có thể làm tại khoa nội trú để cách ly kiểm soát nhiễm khuẩn, nhưng không làm thay đổi quyết định điều trị cấp cứu ban đầu.\n- **Khí máu động mạch hoặc mao mạch:** Chỉ chỉ định ở bệnh nhi Croup rất nặng, dọa suy hô hấp không đáp ứng với Adrenaline khí dung và Dexamethasone, đang chuẩn bị can thiệp đặt nội khí quản.\n\n### 5.3 Nguyên tắc sống còn: Lâm sàng là quyết định\n\n> ⛔ **CẢNH BÁO LÂM SÀNG:**  \n> Croup là chẩn đoán lâm sàng! **Tuyệt đối KHÔNG BAO GIỜ trì hoãn việc cấp cứu, trì hoãn cho uống Dexamethasone hay trì hoãn khí dung Adrenaline để đưa một đứa trẻ đang khó thở đi chụp X-quang cổ!**  \n> Việc đặt trẻ nằm ngửa trên bàn chụp X-quang trong phòng lạnh, cách ly khỏi vòng tay mẹ, trẻ quấy khóc hoảng sợ có thể làm tăng kháng lực đường thở lên gấp nhiều lần và gây ngưng thở tắc nghẽn ngay tại phòng chụp X-quang! Chỉ chụp X-quang khi trẻ đã ổn định hoàn toàn về hô hấp hoặc khi nghi ngờ dị vật đường thở bỏ quên hay chẩn đoán phân biệt không rõ ràng.\n\n---\n\n## 6. CHIẾN LƯỢC ĐIỀU TRỊ CỐT LÕI — THUỐC & PHÁC ĐỒ CẤP CỨU\n\nPhác đồ xử trí Croup hiện đại là sự phối hợp nhịp nhàng giữa một thuốc tác dụng chậm nhưng kéo dài (Dexamethasone) và một thuốc tác dụng cực nhanh nhưng ngắn hạn (Adrenaline khí dung).\n\n### 6.1 Dexamethasone: Tiêu chuẩn vàng cho mọi thể Croup\n\nDexamethasone là nền tảng điều trị bắt buộc cho **TẤT CẢ** các trường hợp Croup, bất kể mức độ nhẹ, vừa hay nặng:\n1. **Tại sao Croup nhẹ cũng phải dùng Dexamethasone?**\n   - Thử nghiệm lâm sàng kinh điển của Bjornson và cộng sự trên New England Journal of Medicine: A randomized trial of a single dose of oral dexamethasone for mild croup. In children with mild croup, dexamethasone resulted in lower return to medical care, quicker resolution of symptoms, and less lost sleep. {claim:C-004} [DATA VERIFIED] (PMID: 15385657).\n   - Nghiên cứu thực hiện trên bảy trăm hai mươi trẻ Croup thể nhẹ đã chứng minh Dexamethasone liều duy nhất làm giảm hơn một nửa số lượt tái khám cấp cứu, giúp trẻ hồi phục nhanh hơn, ngủ ngoan hơn và giảm lo âu cho cha mẹ.\n   - Bằng chứng từ tổng quan hệ thống Cochrane khẳng định vai trò của Glucocorticoid: Glucocorticoids for croup in children. Glucocorticoids reduced symptoms of croup at two hours, shortened hospital stays, and reduced the rate of return visits to care. {claim:C-005} [DATA VERIFIED] (PMID: 30133690).\n\n2. **Liều lượng và Đường dùng:**\n   - **Liều chuẩn:** $0.15 \\text{ đến } 0.6 \\text{ mg/kg}$ liều duy nhất (tối đa $16 \\text{ mg}$).\n   - *Liều thấp $0.15 \\text{ mg/kg}$:* Các nghiên cứu và hướng dẫn của Hiệp hội Nhi khoa Canada (CPS) cho thấy liều $0.15 \\text{ mg/kg}$ có hiệu quả lâm sàng tương đương liều $0.6 \\text{ mg/kg}$ ở thể nhẹ và vừa, đồng thời giúp giảm thiểu lượng dịch thuốc phải uống, hạn chế nguy cơ nôn trớ ở trẻ nhỏ.\n   - *Liều cao $0.6 \\text{ mg/kg}$:* Thường được ưu tiên dùng trong thể nặng hoặc dọa suy hô hấp.\n   - **Đường uống là lựa chọn hàng đầu:** Dexamethasone hấp thu qua đường tiêu hóa cực kỳ nhanh và sinh khả dụng đạt trên 80%. Hiệu quả của đường uống hoàn toàn tương đương với đường tiêm bắp hay tiêm tĩnh mạch.\n   - **Đường tiêm (Bắp hoặc Tĩnh mạch):** CHỈ dùng khi trẻ nôn liên tục không thể uống được, hoặc trẻ đang suy hô hấp rất nặng cần can thiệp hồi sức tích cực.\n\n### 6.2 L-Adrenaline khí dung: Giải cứu đường thở cấp tính\n\nChỉ định: Dùng cho Croup thể **VỪA và NẶNG** (trẻ có thở rít thanh quản và co kéo lồng ngực khi nằm yên, Westley $\\ge 3$) hoặc dọa suy hô hấp.\n\n1. **Chế phẩm và Liều lượng:**\n   - **L-Adrenaline 1:1000 (ống $1 \\text{ mg/1 ml}$):** Đây là chế phẩm thông dụng sẵn có tại mọi cơ sở y tế Việt Nam.\n   - **Liều dùng:** **$0.5 \\text{ ml/kg}$ dung dịch 1:1000 (tối đa $5 \\text{ ml}$ cho một lần khí dung)**. Dùng trực tiếp dung dịch Adrenaline nguyên chất, không cần thiết phải pha loãng thêm nếu thể tích đã đủ $3 - 4 \\text{ ml}$ cho buồng khí dung.\n   - *Nếu dùng Racemic Epinephrine 2.25% (chế phẩm tại Bắc Mỹ):* Liều là $0.05 \\text{ ml/kg}$ (tối đa $0.5 \\text{ ml}$) pha trong $3 \\text{ ml}$ nước muối sinh lý. - Tổng quan Cochrane khẳng định: Nebulized epinephrine for croup in children. Nebulized epinephrine was associated with clinically and statistically significant transient reduction of symptoms of croup post-treatment. Evidence does not favor racemic epinephrine over L-epinephrine. {claim:C-007} [DATA VERIFIED] (PMID: 24114291).\n   - Báo cáo kết luận rằng L-Adrenaline khí dung có hiệu quả và độ an toàn tương đương Racemic Epinephrine, mang lại cải thiện lâm sàng nhanh chóng. Do đó không cần tìm kiếm chế phẩm racemic đắt tiền.\n2. **Kỹ thuật khí dung:**\n   - Khí dung qua mặt nạ (mask) áp nhẹ lên mặt trẻ, gắn với nguồn oxy lưu lượng cao **$4 - 6 \\text{ L/phút}$**.\n   - Nếu trẻ sợ hãi giãy giụa khi áp mask, người mẹ có thể cầm mask để cách mũi miệng trẻ $1 - 2 \\text{ cm}$ (kỹ thuật \"blow-by\") để trẻ hít dần mà không hoảng loạn.\n3. **Hiệu quả và Tần suất lặp lại:**\n   - Điểm số Croup cải thiện rõ rệt chỉ sau **10 đến 30 phút**.\n   - Nếu sau liều thứ nhất 30 phút mà trẻ vẫn còn thở rít và co kéo nặng, có thể lặp lại liều thứ 2 sau 30–60 phút.\n   - Nếu trẻ cần tới **3 liều Adrenaline khí dung liên tiếp trong vòng 2 giờ**, bắt buộc phải chuyển trẻ vào phòng Hồi sức Tích cực (PICU) vì nguy cơ kiệt sức cơ hô hấp và đặt nội khí quản là rất cao.\n\n### 6.3 Hiện tượng dội ngược (Rebound phenomenon) & Cửa sổ an toàn 3–4 giờ\n\nMột trong những sai lầm chết người trong cấp cứu Croup là: Thấy trẻ hết thở rít sau khi khí dung Adrenaline 30 phút vội vàng cho trẻ xuất viện về nhà ngay!\n\n> ⚠️ **BẢN CHẤT DƯỢC LÝ CỦA HIỆN TƯỢNG DỘI NGƯỢC:**  \n> - Tác dụng co mạch của Adrenaline biến mất hoàn toàn sau **90 đến 120 phút** do thuốc bị chuyển hóa hết. Trong khi đó, tác dụng kháng viêm của Dexamethasone uống cần **1 đến 2 giờ** mới bắt đầu phát huy và đạt đỉnh sau 4–6 giờ.  \n> - Nếu cho trẻ về quá sớm, khi Adrenaline hết tác dụng mà Dexamethasone chưa kịp ngấm đầy đủ, các mạch máu hạ thanh môn sẽ giãn nở trở lại, dịch viêm tái tích tụ và lòng đường thở sẽ co hẹp đột ngột trở lại (hiện tượng dội ngược). Trẻ có thể bị ngưng thở tắc nghẽn trên đường về nhà hoặc trong đêm!  \n> \n> 🕒 **QUY TẮC CỬA SỔ AN TOÀN 3–4 GIỜ:**  \n> Bất kỳ trẻ Croup nào sau khi được khí dung Adrenaline BẮT BUỘC phải được lưu lại theo dõi sát tại phòng cấp cứu tối thiểu **3 đến 4 giờ** tính từ liều Adrenaline cuối cùng. Trẻ chỉ được phép xem xét xuất viện khi và chỉ khi:  \n> 1. Đã qua hết 4 giờ quan sát.  \n> 2. Hoàn toàn không còn thở rít khi nằm yên.  \n> 3. Không còn rút lõm lồng ngực.  \n> 4. Tri giác tỉnh táo, hồng hào trong khí trời, bú/uống tốt.\n\n\nDưới đây là các ví dụ minh họa cụ thể để học viên vận dụng tính toán trên lâm sàng:\n- **Ví dụ 1 (Tính liều Dexamethasone uống cho trẻ nhẹ cân):** Bé 9 tháng tuổi nặng 8 kg bị Croup thể nhẹ. Liều Dexamethasone cần dùng là: 8 kg × 0.15 mg/kg = 1.2 mg (dùng 0.3 ml từ ống tiêm 4 mg/ml pha chút nước đường cho uống).\n- **Ví dụ 2 (Tính liều L-Adrenaline 1:1000 khí dung):** Bé 18 tháng tuổi nặng 11 kg bị Croup thể vừa có thở rít khi nằm yên. Liều Adrenaline 1:1000 tính theo công thức: 11 kg × 0.5 ml/kg = 5.5 ml. Vì trần liều tối đa là 5 ml nên bác sĩ chỉ định đúng 5 ml dung dịch Adrenaline 1:1000 nguyên chất cho vào bầu khí dung.\n- **Ví dụ 3 (Tính kháng lực đường thở theo Poiseuille):** Khi đường kính hạ thanh môn của trẻ giảm từ 4 mm xuống 2 mm (bán kính giảm từ 2 mm xuống 1 mm), kháng lực đường thở tăng từ (1/16) lên (1/1) tức tăng gấp 16 lần.\n- **Ví dụ 4 (Nhận diện Croup co thắt):** Bé 2 tuổi có tiền sử viêm da cơ địa, nửa đêm thức giấc ho ông ổng thở rít nhưng hoàn toàn không sốt, không chảy mũi; sau khi bế ra ngoài trời mát hít thở không khí đêm thì cơn dịu dần.\n- **Ví dụ 5 (Phân biệt thở rít hít vào và khò khè thở ra):** Bé 15 tháng tuổi nghe tiếng rít thô ráp âm sắc cao ở vùng cổ ở thì hít vào là thở rít thanh quản do Croup; ngược lại tiếng rít nhạc âm sắc cao nghe rõ khắp hai phế trường ở thì thở ra là khò khè do hen hoặc viêm tiểu phế quản.\n- **Ví dụ 6 (Xử trí khi quá trần liều Dexamethasone):** Bé 8 tuổi nặng 35 kg mắc Croup. Nếu tính 35 kg × 0.6 mg/kg = 21 mg thì đã vượt quá trần liều tối đa cho phép là 16 mg. Bác sĩ chỉ định đúng trần liều 16 mg Dexamethasone đường uống.\n\n### 6.4 Phác đồ xử trí cấp cứu theo từng mức độ Westley\n\n| Phân độ Westley | Đánh giá lâm sàng | Phác đồ xử trí cấp cứu tức thì | Hướng xử trí tiếp theo |\n|---|---|---|---|\n| **Croup nhẹ**<br>(Điểm $\\le 2$) | Ho ông ổng, khàn tiếng, **KHÔNG thở rít khi nằm yên**, không co kéo. | **Dexamethasone $0.15 \\text{ mg/kg}$ uống liều duy nhất** (tối đa $16 \\text{ mg}$). Không cần Adrenaline khí dung. | Theo dõi tại phòng khám 30–60 phút. Hướng dẫn chăm sóc và dấu hiệu tái khám ngay. Xuất viện điều trị tại nhà. |\n| **Croup vừa**<br>(Điểm $3 - 5$) | **Có thở rít khi nằm yên**, co kéo liên sườn/bờ sườn vừa, tỉnh táo, chưa tím. | 1. **Dexamethasone $0.15 - 0.6 \\text{ mg/kg}$ uống** (hoặc tiêm nếu nôn).<br>2. **L-Adrenaline 1:1000 ($0.5 \\text{ ml/kg}$, tối đa $5 \\text{ ml}$) khí dung qua oxy**. | Lưu theo dõi tại Cấp cứu tối thiểu **3–4 giờ**. Nếu hết thở rít khi nằm yên và không co kéo sau 4 giờ $\\rightarrow$ Cân nhắc xuất viện. Nếu còn thở rít $\\rightarrow$ Nhập viện khoa Nhi. |\n| **Croup nặng**<br>(Điểm $6 - 11$) | Thở rít to liên tục, co kéo hõm ức dữ dội, **bứt rứt kích thích**, giảm thông khí. | 1. Thở oxy qua mask hoặc blow-by.<br>2. **L-Adrenaline 1:1000 ($0.5 \\text{ ml/kg}$, tối đa $5 \\text{ ml}$) khí dung ngay**.<br>3. **Dexamethasone $0.6 \\text{ mg/kg}$ tiêm bắp hoặc tĩnh mạch**.<br>4. Lặp lại Adrenaline khí dung sau 30 phút nếu chưa thuyên giảm. | **Nhập viện bắt buộc** vào phòng Cấp cứu / Hồi sức. Báo kíp Hồi sức và TMH sẵn sàng hỗ trợ đường thở. Không để trẻ quấy khóc. |\n| **Dọa suy hô hấp**<br>(Điểm $\\ge 12$) | Li bì, lơ mơ, kiệt sức, **thở rít 2 thì hoặc tiếng thở yếu dần (phổi câm)**, tím tái. | 1. **Gọi hỗ trợ khẩn cấp kíp Đặt nội khí quản & GMHS**.<br>2. Thở oxy $100\\%$ qua mask có túi dự trữ.<br>3. **Khí dung L-Adrenaline $5 \\text{ ml}$ liên tục**.<br>4. Dexamethasone $0.6 \\text{ mg/kg}$ TM.<br>5. Chuẩn bị ống NKQ nhỏ hơn bình thường $0.5 - 1 \\text{ mm}$. | Chuyển ngay đến phòng PICU hoặc phòng mổ. Chuẩn bị mở khí quản cấp cứu nếu không đặt được ống nội khí quản. |\n\n### 6.5 Các thuốc thay thế khi không có Dexamethasone uống\n\nTrong điều kiện cơ sở y tế không có sẵn Dexamethasone dạng siro/dung dịch uống hoặc dạng tiêm:\n1. **Dexamethasone dạng tiêm dùng để uống:** Ống tiêm Dexamethasone Phosphate ($4 \\text{ mg/ml}$) có thể pha với một thìa nhỏ siro ngọt hoặc sữa mẹ cho trẻ uống trực tiếp. Sinh khả dụng và hiệu quả hoàn toàn tương đương.\n2. **Budesonide khí dung (Pulmicort Respules):**  \n   - Liều: $2 \\text{ mg}$ khí dung liều duy nhất.  \n   - Tác dụng kháng viêm tại chỗ nhanh chóng, có thể phối hợp cùng lúc với khí dung Adrenaline ở trẻ nôn nhiều không thể uống thuốc. Tuy nhiên chi phí đắt hơn và không vượt trội hơn Dexamethasone uống.\n3. **Prednisolone đường uống:**  \n   - Liều: $1 \\text{ mg/kg/ngày}$ uống trong $2 - 3 \\text{ ngày}$.  \n   - Kém ưu tiên hơn Dexamethasone do thời gian bán thải ngắn hơn (phải uống nhiều ngày) và vị đắng dễ làm trẻ nôn trớ.\n\n---\n\n## 7. CÁC BIỆN PHÁP CẤM HOẶC KHÔNG KHUYẾN CÁO\n\nTrong thực hành lâm sàng, việc **biết cái gì KHÔNG ĐƯỢC LÀM** quan trọng không kém gì việc biết kê đơn thuốc. Dưới đây là các can thiệp sai lầm đã bị y văn quốc tế bác bỏ:\n\n### 7.1 Xông hơi ẩm (Mist therapy): Bằng chứng Cochrane bác bỏ\n\nTrong nhiều thập kỷ, biện pháp xông hơi nước (như đưa trẻ vào phòng tắm xả nước nóng đầy hơi ẩm, hoặc dùng máy phun sương) được dân gian và cả nhân viên y tế truyền miệng rộng rãi.\n- **Bằng chứng khoa học:** Tổng quan hệ thống và phân tích gộp của Moore và Little: Humidified air inhalation for treating croup: a systematic review and meta-analysis. The croup score of children managed in an emergency setting with croup does not improve greatly with inhalation of humidified air. {claim:C-010} [DATA VERIFIED] (PMID: 17602176).\n- Đánh giá các thử nghiệm lâm sàng ngẫu nhiên có đối chứng đã kết luận rằng hít không khí ẩm không tạo ra bất kỳ sự khác biệt có ý nghĩa thống kê nào về điểm số Croup và không làm giảm tỷ lệ phải nhập viện.\n- **Nguy cơ tiềm ẩn:** Việc dùng nước nóng xông hơi tại nhà có nguy cơ rất cao gây **bỏng nhiệt da và niêm mạc đường hô hấp** của trẻ. Hơi nước lạnh từ máy phun sương bẩn có thể phát tán nấm mốc và vi khuẩn vào sâu đường thở. Do đó, các hướng dẫn quốc tế (AAP, CPS) đồng thuận **KHÔNG khuyến cáo xông hơi ẩm thường quy**.\n\n### 7.2 Kháng sinh thường quy: Không có chỉ định\n\n- Bản chất của Croup là do nhiễm virus (Á cúm, RSV, Cúm). Kháng sinh hoàn toàn không có tác dụng tiêu diệt virus, không rút ngắn thời gian bệnh và không ngăn ngừa được bội nhiễm vi khuẩn.\n- Việc kê đơn kháng sinh bừa bãi chỉ làm tăng chi phí, gây loạn khuẩn đường ruột (tiêu chảy) và làm gia tăng vi khuẩn kháng thuốc trong cộng đồng.\n- Kháng sinh CHỈ được chỉ định khi có bằng chứng rõ ràng của nhiễm khuẩn thứ phát, cụ thể là **Viêm khí quản vi khuẩn** (sốt cao nhiễm độc, mủ khí quản, không đáp ứng Adrenaline) hoặc viêm phổi bội nhiễm.\n\n### 7.3 Thuốc giảm ho, kháng Histamin & Chống chỉ định tuyệt đối thuốc an thần\n\n1. **Thuốc giảm ho (Dextromethorphan, Codein):** Phản xạ ho là cơ chế bảo vệ sống còn giúp tống xuất chất nhầy đờm dãi ra khỏi đường thở đang bị hẹp. Thuốc giảm ho ức chế trung tâm ho hành não làm ứ đọng đờm, tăng nguy cơ tắc nghẽn đường thở và gây buồn ngủ, che lấp các dấu hiệu suy hô hấp.\n2. **Thuốc kháng Histamin (Promethazine, Diphenhydramine, Chlorpheniramine):** Các thuốc này có tác dụng kháng cholinergic làm khô chất tiết niêm mạc, biến đờm nhầy thành các nút nhầy đặc quánh bít chặt vào vùng hạ thanh môn đang phù nề, làm tình trạng khó thở trầm trọng hơn.\n3. **CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI — THUỐC AN THẦN:**  \n   - Khi một đứa trẻ Croup bứt rứt, quấy khóc, giãy giụa, nhiều bác sĩ ít kinh nghiệm nghĩ rằng trẻ \"quấy quá\" nên cho một liều Seduxen (Diazepam) hoặc Chloral hydrate để trẻ \"ngủ yên\".  \n   - ⚠️ **ĐÂY LÀ HÀNH VI CỰC KỲ NGUY HIỂM!** Sự bứt rứt, lo âu của đứa trẻ chính là **tiếng chuông báo động của tình trạng thiếu oxy não cấp tính và phản xạ tăng công thở để tự cứu sống mình**.  \n   - Cho thuốc an thần sẽ dập tắt phản xạ thở bù trừ, ức chế trung tâm hô hấp và làm giãn các cơ hầu họng, khiến đường thở sụp đổ hoàn toàn dẫn đến ngừng thở tử vong ngay lập tức!\n\n---\n\n## 8. CHĂM SÓC HỖ TRỢ & NGUYÊN TẮC \"LESS IS MORE\"\n\nTại khoa Cấp cứu Nhi khoa, câu thần chú trong xử trí Croup chính là: **\"Less is More — Can thiệp càng ít thô bạo, bệnh nhi càng an toàn\"**.\n\n```text\n(1) Can thiệp thô bạo gây đau đớn (đè lưỡi, chọc ven, tách khỏi mẹ)\n       ↓\n(2) Trẻ sợ hãi hoảng loạn, khóc thét và giãy giụa\n       ↓\n(3) Tốc độ dòng khí hít vào tăng vọt, áp lực âm hút bẹp mô thanh quản\n       ↓\n(4) Đường thở hạ thanh môn tắc nghẽn hoàn toàn dẫn tới ngừng thở\n```\n\n### 8.1 Liệu pháp oxy an toàn (Blow-by oxy)\n\n- Chỉ định thở oxy khi: Trẻ có tím tái hoặc độ bão hòa oxy máu mao mạch **$SpO_2 < 92\\%$** (hoặc $< 90\\%$ theo một số hướng dẫn) khi thở khí trời.\n- **Kỹ thuật cho thở:** Tuyệt đối không cố gắng chụp chặt mặt nạ hoặc đút gọng kính mũi sâu vào mũi trẻ nếu trẻ giãy giụa từ chối. Hãy dùng kỹ thuật **\"Blow-by\"**: để đầu dây oxy hoặc mặt nạ cách mũi miệng trẻ khoảng $2 - 3 \\text{ cm}$ để dòng oxy $4 - 6 \\text{ L/phút}$ thổi nhẹ nhàng qua mũi miệng trẻ trong khi trẻ vẫn đang được mẹ ôm ấp.\n\n### 8.2 Giảm tối đa kích thích & Đặt trẻ trong lòng người chăm sóc\n\n- **Mọi thao tác khám và điều trị phải được thực hiện trên đùi người mẹ:** Cho trẻ ngồi thẳng hoặc tựa đầu vào ngực mẹ. Tư thế ngồi thẳng giúp cơ hoành di động dễ dàng hơn và làm giảm áp lực chèn ép lên vùng hạ thanh môn so với tư thế nằm ngửa.\n- **Trì hoãn các thủ thuật xâm lấn chưa cấp thiết:** Hoãn việc lấy máu xét nghiệm, hoãn chọc ven truyền dịch nếu trẻ vẫn uống được và chưa rơi vào tình trạng nguy kịch. Nếu bắt buộc phải tiêm thuốc hoặc lấy ven, phải có sự chuẩn bị chu đáo, thao tác nhanh gọn, dứt khoát và có người hỗ trợ giữ trẻ nhẹ nhàng.\n\n### 8.3 Bù dịch và dinh dưỡng an toàn\n\n- Do thở nhanh, thở mở miệng và sốt, trẻ Croup rất dễ bị mất nước qua đường hô hấp.\n- Khuyến khích mẹ cho trẻ uống từng ngụm nhỏ nước nguội, nước quả hoặc sữa mẹ chia làm nhiều lần.\n- **Cảnh báo hít sặc:** Tuyệt đối không ép trẻ ăn no hoặc uống nhiều nước một lúc khi trẻ đang thở rít và co kéo nặng (nhịp thở $> 60 \\text{ lần/phút}$), vì nguy cơ sặc dịch vào đường thở là cực kỳ cao. Chỉ truyền dịch tĩnh mạch duy trì khi trẻ nôn liên tục, có dấu hiệu mất nước hoặc suy hô hấp nặng phải nhịn ăn đường miệng.\n\n---\n\n## 9. 8 SAI LẦM LÂM SÀNG KINH ĐIỂN CẦN TRÁNH (MISCONCEPTIONS & PITFALLS)\n\nDưới đây là 8 bẫy lâm sàng thường gặp nhất mà học viên và bác sĩ thực hành cần khắc cốt ghi tâm:\n\n1. **Bẫy lâm sàng 1: Bỏ qua Dexamethasone ở Croup thể nhẹ vì nghĩ \"chưa cần thiết\".**  \n   - *Sai lầm:* Nghĩ rằng chỉ khi nào trẻ khó thở, có thở rít khi nằm yên mới cần dùng Corticoid, còn Croup nhẹ chỉ cần cho về theo dõi.  \n   - *Thực tế:* Thử nghiệm NEJM của Bjornson đã chứng minh Dexamethasone liều duy nhất cho Croup nhẹ làm giảm hơn $50\\%$ tỷ lệ nhập viện và tái khám cấp cứu, rút ngắn thời gian bệnh và tiết kiệm chi phí. Không cho Dexamethasone là tước đi cơ hội điều trị dự phòng chuyển nặng tốt nhất của trẻ.\n\n2. **Bẫy lâm sàng 2: Cho bệnh nhi xuất viện ngay sau khi khí dung Adrenaline thấy trẻ êm dịu.**  \n   - *Sai lầm:* Khí dung Adrenaline xong thấy trẻ hết thở rít, hồng hào, liền ký giấy cho trẻ về nhà sau 30 phút.  \n   - *Thực tế:* Thuốc chỉ có tác dụng co mạch tạm thời trong 90–120 phút. Khi Adrenaline hết tác dụng, hiện tượng dội ngược sẽ xuất hiện khiến đường thở tái hẹp đột ngột. Bắt buộc phải lưu giữ trẻ theo dõi tối thiểu **3 đến 4 giờ** sau liều Adrenaline cuối cùng.\n\n3. **Bẫy lâm sàng 3: Cố đè lưỡi thăm khám họng sâu ở trẻ nghi ngờ viêm nắp thanh môn cấp.**  \n   - *Sai lầm:* Thấy trẻ sốt cao thở rít, liền dùng que đè lưỡi ấn mạnh vào gốc lưỡi để \"xem họng có viêm không\".  \n   - *Thực tế:* Đè lưỡi có thể kích thích co thắt thanh môn tức thì hoặc làm sập nắp thanh môn phù nề bít kín đường thở, khiến trẻ ngưng thở tử vong ngay trên tay bác sĩ!\n\n4. **Bẫy lâm sàng 4: Trì hoãn cấp cứu để đưa trẻ đi chụp X-quang cổ tìm dấu hiệu \"Nóc nhà thờ\".**  \n   - *Sai lầm:* Muốn có bằng chứng X-quang \"chắc chắn\" trước khi ra y lệnh khí dung Adrenaline.  \n   - *Thực tế:* Croup là chẩn đoán lâm sàng. Dấu hiệu Nóc nhà thờ chỉ thấy ở khoảng 50% các trường hợp và không có độ nhạy tuyệt đối. Đưa trẻ đang khó thở đi chụp phim làm tăng nguy cơ tử vong do kích thích và trì hoãn thuốc cấp cứu.\n\n5. **Bẫy lâm sàng 5: Dùng thuốc an thần cho đứa trẻ Croup đang quấy khóc, bứt rứt.**  \n   - *Sai lầm:* Nghĩ rằng cho an thần nhẹ (như Seduxen) giúp trẻ đỡ quấy khóc, đỡ thở rít.  \n   - *Thực tế:* Bứt rứt là dấu hiệu cảnh báo thiếu oxy não! Thuốc an thần sẽ triệt tiêu phản xạ hô hấp bù trừ của trẻ, gây ngừng thở tắc nghẽn đột ngột. Chống chỉ định tuyệt đối!\n\n6. **Bẫy lâm sàng 6: Kê đơn kháng sinh thường quy và thuốc giảm ho ngoại trú.**  \n   - *Sai lầm:* Nghĩ rằng \"kê thêm kháng sinh cho chắc\" và \"cho giảm ho để trẻ đỡ đau họng đêm ngủ ngon\".  \n   - *Thực tế:* Croup là bệnh do virus; kháng sinh hoàn toàn vô dụng. Thuốc giảm ho làm ức chế phản xạ tống đờm, gây ứ đọng nút nhầy làm bít tắc thanh khí quản nặng hơn.\n\n7. **Bẫy lâm sàng 7: Kê Dexamethasone kéo dài 5–7 ngày liên tục cho Croup thông thường.**  \n   - *Sai lầm:* Nghĩ rằng kháng viêm phải uống đủ đợt như điều trị bệnh mạn tính.  \n   - *Thực tế:* Croup cấp tính chỉ cần **duy nhất 1 liều Dexamethasone** (hoặc tối đa liều thứ 2 sau 24 giờ nếu triệu chứng tái diễn). Dùng kéo dài làm tăng nguy cơ ức chế trục dưới đồi - tuyến yên - thượng thận, loét dạ dày và bội nhiễm nấm/vi khuẩn mà không mang lại thêm bất kỳ lợi ích lâm sàng nào.\n\n8. **Bẫy lâm sàng 8: Đánh giá nhầm \"trẻ đỡ khó thở\" khi tiếng thở rít đột ngột nhỏ đi ở bệnh nhi đang mệt.**  \n   - *Sai lầm:* Trẻ đang thở rít to dữ dội, sau một lúc thấy tiếng thở rít nhỏ dần, tưởng trẻ đã thuyên giảm.  \n   - *Thực tế:* Nếu tiếng thở rít nhỏ đi mà kèm theo trẻ lơ mơ, li bì, rì rào phế nang mờ nhạt (dấu hiệu \"phổi câm\"), đó là dấu hiệu của **kiệt sức cơ hô hấp**! Lưu lượng khí qua thanh quản không còn đủ mạnh để tạo ra tiếng rít. Đây là giai đoạn tiền ngưng thở tối nguy cấp!\n\n---\n\n## 10. 4 CHECKPOINT TƯ DUY ĐỘT PHÁ TẠI GIƯỜNG\n\nDưới đây là 4 tình huống tư duy giúp học viên tự kiểm tra phản xạ lâm sàng tại giường:\n\n### Checkpoint 1: Đánh giá tiếng thở rít khi nằm yên\n- **Tình huống:** Một bé trai 2 tuổi được mẹ bế vào viện lúc 1 giờ sáng vì ho ông ổng. Khi mẹ ngồi dỗ, bé nằm ngủ yên trong lòng mẹ. Bác sĩ áp ống nghe vào vùng cổ nghe thấy tiếng thở rít êm dịu ở thì hít vào, lồng ngực co kéo nhẹ bờ sườn, $SpO_2$ là $96\\%$. Phân loại mức độ nặng và thái độ xử trí ban đầu là gì?\n- **Phân tích tư duy:** Trẻ có thở rít thanh quản thì hít vào **ngay cả khi nằm yên tĩnh hoàn toàn**. Theo thang điểm Westley, tiêu chí thở rít khi nằm yên được 2 điểm, kèm co kéo nhẹ 1 điểm $\\rightarrow$ Tổng điểm Westley là 3 điểm $\\rightarrow$ **Croup thể vừa**.\n- **Xử trí đúng:** Cho uống Dexamethasone $0.15 \\text{ mg/kg}$ ngay lập tức, kết hợp khí dung L-Adrenaline 1:1000 ($0.5 \\text{ ml/kg}$, tối đa $5 \\text{ ml}$) qua mask có oxy. Lưu theo dõi tại phòng cấp cứu tối thiểu 3–4 giờ.\n\n### Checkpoint 2: Nhận diện cờ đỏ không ho và chảy dãi\n- **Tình huống:** Bé gái 4 tuổi vào cấp cứu vì thở rít và sốt cao $39.5^\\circ\\text{C}$. Mẹ bé cho biết bé khởi phát sốt từ trưa, đến tối thì khó thở tăng nhanh. Trẻ ngồi thẳng rướn cổ ra trước, miệng hé mở, nước dãi chảy ròng ròng xuống cằm, mắt mở to sợ hãi, hoàn toàn không nghe thấy tiếng ho nào. Bạn có nên dùng que đè lưỡi để khám amidan không?\n- **Phân tích tư duy:** Các dấu hiệu cảnh báo đỏ xuất hiện đầy đủ: Trẻ lớn (4 tuổi), sốt cao đột ngột, thở rít, **HOÀN TOÀN KHÔNG HO**, chảy nhiều nước dãi (nuốt đau), tư thế ngửi hoa. Đây là bệnh cảnh kinh điển của **Viêm nắp thanh môn cấp (Epiglottitis)**!\n- **Hành động sống còn:** **TUYỆT ĐỐI KHÔNG DÙNG QUE ĐÈ LƯỠI KHÁM HỌNG!** Không ép trẻ nằm xuống. Giữ trẻ ngồi yên trong lòng mẹ, cho thở oxy blow-by, kích hoạt ngay kíp Đặt nội khí quản cấp cứu (Hồi sức + Tai Mũi Họng) và chuẩn bị chuyển thẳng vào phòng mổ.\n\n### Checkpoint 3: Xử trí trẻ nôn trớ sau khi uống Dexamethasone\n- **Tình huống:** Trẻ Croup thể nhẹ được cho uống Dexamethasone $0.15 \\text{ mg/kg}$. Tuy nhiên, sau khi uống được 10 phút, trẻ quấy khóc và nôn trớ ra toàn bộ dịch thuốc kèm sữa. Bác sĩ nên xử trí bước tiếp theo như thế nào?\n- **Phân tích tư duy:** Nếu trẻ nôn trong vòng **15 đến 30 phút** sau khi uống, lượng thuốc hấp thu vào máu chưa đáng kể.\n- **Hướng xử trí:** Để trẻ bình tâm lại trong 10–15 phút. Nếu cơ sở có Dexamethasone siro ngọt dễ uống hơn, có thể cho uống lại liều tương đương. Nếu trẻ tiếp tục nôn hoặc từ chối uống, chuyển sang tiêm bắp Dexamethasone với liều $0.15 \\text{ mg/kg}$ (hoặc khí dung Budesonide $2 \\text{ mg}$) để đảm bảo hiệu quả điều trị.\n\n### Checkpoint 4: Trẻ không đáp ứng với Adrenaline khí dung\n- **Tình huống:** Bé trai 3 tuổi chẩn đoán Croup nặng, đã được tiêm Dexamethasone và khí dung Adrenaline liều 1. Sau 30 phút, trẻ vẫn thở rít dữ dội, sốt cao vọt lên $40^\\circ\\text{C}$, đờm dãi đặc mủ và vẻ mặt lờ đờ nhiễm độc. Bác sĩ cho tiếp liều Adrenaline thứ 2 nhưng sau 20 phút trẻ hoàn toàn không có dấu hiệu thuyên giảm. Bệnh lý gì cần phải nghĩ đến ngay?\n- **Phân tích tư duy:** Croup virus thông thường đáp ứng cực kỳ nhạy với Adrenaline khí dung (giảm phù nề sau 10–30 phút). Nếu trẻ **sốt cao nhiễm độc, đờm mủ và hoàn toàn không đáp ứng với 2 liều Adrenaline liên tiếp**, thủ phạm hàng đầu là **Viêm khí quản do vi khuẩn (Bacterial Tracheitis)**!\n- **Hành động sống còn:** Chuyển ngay đến phòng PICU, chuẩn bị kíp đặt nội khí quản hút sạch mủ hoại tử làm thông thoáng đường thở, cấy mủ khí quản và khởi động ngay kháng sinh tĩnh mạch phổ rộng (Vancomycin phối hợp Cefotaxime).\n\n---\n\n## 11. 2 CA LÂM SÀNG THỰC CHIẾN CÓ LỜI GIẢI CHI TIẾT\n\n### 11.1 Case 1: Trẻ 18 tháng Croup thể vừa lúc nửa đêm tại phòng cấp cứu\n\n**Bệnh sử:** Bé trai Nguyễn Hoàng M., 18 tháng tuổi, nặng $11 \\text{ kg}$, được bố mẹ đưa vào viện cấp cứu lúc 2 giờ sáng. Bố mẹ kể: Cách đây 2 ngày bé có sốt nhẹ $38^\\circ\\text{C}$, chảy nước mũi trong và ho húng hắng, vẫn ăn chơi ngoan. Tối nay bé đi ngủ bình thường, nhưng đến 1 giờ sáng bé đột ngột thức giấc, ho dữ dội từng cơn với tiếng ho vang đanh như tiếng chó sủa, tiếng thở khò khè rít rầm rĩ và thở co kéo lồng ngực. Bố mẹ quá hoảng loạn bế thẳng vào viện.\n\n**Khám thực thể tại phòng cấp cứu:**\n- Trẻ tỉnh, quấy khóc bứt rứt khi thấy nhân viên y tế, nhưng khi được mẹ ôm vào lòng thì nằm yên dỗ nín được.\n- Sinh hiệu: Mạch $135 \\text{ lần/phút}$, Huyết áp $95/60 \\text{ mmHg}$, Nhịp thở $44 \\text{ lần/phút}$, Nhiệt độ $38.2^\\circ\\text{C}$, $SpO_2 = 95\\%$ (khí trời).\n- Khám hô hấp: Khi bé nằm yên trên ngực mẹ, nghe rõ tiếng thở rít thanh quản thì hít vào bằng tai trần. Lồng ngực co kéo kẽ sườn và rút lõm bờ sườn mức độ vừa. Không có rút lõm hõm ức nặng. Rì rào phế nang êm dịu hai bên phế trường, không nghe ran ẩm hay ran rít phế quản.\n- Họng: Niêm mạc họng đỏ nhẹ, không có giả mạc, không sưng phồng thành sau họng, không chảy nước dãi, nuốt bình thường.\n\n**Đánh giá thang điểm Westley tại giường:**\n- Thở rít: Nghe rõ khi nằm yên $\\rightarrow$ 2 điểm.\n- Co kéo cơ hô hấp: Rút lõm mức độ vừa $\\rightarrow$ 2 điểm.\n- Thông khí phổi: Bình thường $\\rightarrow$ 0 điểm.\n- Tím tái: Hồng hào trong khí trời $\\rightarrow$ 0 điểm.\n- Tri giác: Tỉnh táo, dỗ nín được $\\rightarrow$ 0 điểm.\n- **Tổng điểm Westley:** **4 điểm $\\rightarrow$ Croup thể Vừa (Moderate Croup)**.\n\n**Kế hoạch xử trí tức thì:**\n1. **Dexamethasone đường uống:**  \n   - Liều $0.15 \\text{ mg/kg} \\times 11 \\text{ kg} = 1.65 \\text{ mg}$ (có thể dùng $2 \\text{ mg}$ liều duy nhất dạng siro hoặc dùng nửa ống tiêm Dexamethasone $4 \\text{ mg/ml}$ pha chút nước đường cho uống).\n2. **Khí dung L-Adrenaline 1:1000 qua oxy:**  \n   - Liều: $0.5 \\text{ ml/kg} \\times 11 \\text{ kg} = 5.5 \\text{ ml} \\rightarrow$ Lấy liều tối đa là **$5 \\text{ ml}$ dung dịch Adrenaline 1:1000 nguyên chất**.  \n   - Đặt vào bầu khí dung, gắn mask khí dung có oxy hỗ trợ $5 \\text{ L/phút}$. Mẹ cầm mask đặt nhẹ trước mũi miệng bé trong 15 phút.\n3. **Chăm sóc hỗ trợ:** Giữ bé nằm yên trong lòng mẹ, không lấy máu xét nghiệm, không chụp X-quang.\n\n**Diễn tiến sau điều trị:**\n- Sau khí dung Adrenaline 20 phút: Bé thở êm hơn rõ rệt, tiếng thở rít biến mất khi nằm yên, co kéo lồng ngực giảm hẳn, nhịp thở giảm còn $34 \\text{ lần/phút}$, $SpO_2 = 98\\%$. Bé ngủ ngoan trên tay mẹ. Điểm Westley giảm xuống còn 1 điểm.\n- **Quyết định theo dõi an toàn:** Bác sĩ giải thích cho bố mẹ hiểu về \"hiện tượng dội ngược\" và yêu cầu lưu lại phòng cấp cứu để theo dõi đủ **4 giờ**.\n- Sau 4 giờ theo dõi (lúc 6 giờ sáng): Bé thức dậy đòi bú, chơi ngoan, không còn thở rít khi nằm yên, chỉ ho húng hắng vài tiếng ông ổng nhẹ, không co kéo cơ hô hấp, $SpO_2 = 98\\%$.\n- **Xử trí kết thúc:** Bác sĩ cho bé xuất viện về nhà, không kê thêm kháng sinh hay thuốc giảm ho, hướng dẫn bố mẹ hạ sốt bằng Paracetamol ($10 - 15 \\text{ mg/kg}$ khi sốt $\\ge 38.5^\\circ\\text{C}$), cho uống nhiều nước và dặn dò các dấu hiệu cần tái khám cấp cứu ngay.\n\n---\n\n### 11.2 Case 2: Trẻ 3 tuổi nghi Croup không đáp ứng Adrenaline khí dung — Diễn tiến Viêm khí quản do vi khuẩn\n\n**Bệnh sử:** Bé gái Trần Bảo N., 3 tuổi, nặng $14 \\text{ kg}$. Tiền sử 3 ngày trước bé ho, chảy mũi, được phòng khám tư chẩn đoán viêm đường hô hấp trên và cho uống siro ho. Chiều nay bé bắt đầu ho ông ổng và thở rít, gia đình đưa vào bệnh viện huyện được chẩn đoán Croup và tiêm 1 mũi Dexamethasone $2 \\text{ mg}$. Tuy nhiên đến tối bé sốt cao liên tục $39.8^\\circ\\text{C}$, khó thở tăng vọt, tím môi nên được chuyển cấp cứu tuyến tỉnh lúc 23 giờ.\n\n**Khám thực thể tại khoa Cấp cứu:**\n- Trẻ mệt lả, vẻ mặt nhiễm độc lờ đờ, thở gắng sức dữ dội.\n- Sinh hiệu: Mạch $165 \\text{ lần/phút}$, Nhịp thở $58 \\text{ lần/phút}$, Nhiệt độ $40^\\circ\\text{C}$, Huyết áp $85/50 \\text{ mmHg}$, $SpO_2 = 88\\%$ (thở khí trời).\n- Khám hô hấp: Thở rít to cả hai thì (hít vào và thở ra) nghe rõ khắp phòng bệnh. Rút lõm lồng ngực và hõm ức rất sâu, cánh mũi phập phồng, đầu gật gù theo nhịp thở. Nghe phổi: Thông khí phổi giảm nặng hai bên, nghe thấy tiếng lọc sọc đờm đặc ở đường thở lớn.\n- Khám hầu họng nhanh: Họng đỏ rực, có nhiều đờm mủ vàng đục trào lên từ thanh quản, không có giả mạc hầu họng, không phồng thành sau họng.\n\n**Đánh giá ban đầu & Can thiệp cấp cứu:**\n- Điểm Westley sơ bộ: Thở rít (2) + Co kéo nặng (3) + Giảm thông khí (2) + Tím tái (5) + Tri giác lờ đờ (5) = **17 điểm $\\rightarrow$ Croup dọa suy hô hấp tối nguy cấp**.\n- Bác sĩ ra y lệnh cấp cứu ngay:\n  1. Cho thở oxy qua mask $100\\%$.\n  2. Khí dung ngay L-Adrenaline 1:1000 ($5 \\text{ ml}$ nguyên chất qua oxy).\n  3. Tiêm tĩnh mạch Dexamethasone $0.6 \\text{ mg/kg} \\times 14 \\text{ kg} \\approx 8 \\text{ mg}$.\n  4. Báo động đỏ kíp Đặt nội khí quản Hồi sức Nhi và kíp Soi Tai Mũi Họng.\n\n**Đáp ứng điều trị bất thường:**\n- Sau 20 phút khí dung Adrenaline: Triệu chứng thở rít và co kéo lồng ngực **HOÀN TOÀN KHÔNG CẢI THIỆN**, $SpO_2$ chỉ nhích lên $90\\%$ với oxy mask. Đờm mủ tiếp tục trào lên miệng hầu. Trẻ bắt đầu có cơn ngừng thở ngắn $10 \\text{ giây}$.\n\n**Phân tích tư duy chẩn đoán:**\n- Một đứa trẻ có bệnh cảnh ban đầu giống Croup nhưng sau 3 ngày chuyển biến sốt cao đùng đùng, nhiễm độc toàn thân nặng, đờm mủ đặc quánh và **hoàn toàn trơ với khí dung Adrenaline** $\\rightarrow$ Đây chắc chắn không phải Croup virus đơn thuần mà là **Viêm khí quản do vi khuẩn (Bacterial Tracheitis)**, biến chứng bít tắc màng giả mủ!\n\n**Lời giải & Xử trí chuyên sâu:**\n1. **Kiểm soát đường thở ngay tại chỗ:**  \n   - Tiến hành đặt ống nội khí quản cấp cứu. Do hạ thanh môn phù nề và lòng khí quản đầy mủ đặc, bác sĩ chọn ống nội khí quản cỡ nhỏ hơn dự kiến (số 4.0 có bóng chèn thay vì số 4.5).  \n   - Soi thanh quản trực tiếp thấy: Nắp thanh môn bình thường, hạ thanh môn phù nề nặng và lòng khí quản phía dưới dây thanh chứa đầy các mảng giả mạc mủ hoại tử màu vàng xám bít tắc gần hoàn toàn lòng ống.  \n   - Bác sĩ tiến hành hút sạch mủ đặc qua ống nội khí quản, bơm rửa nhẹ nhàng bằng nước muối sinh lý, lấy dịch mủ gửi nhuộm Gram và cấy vi sinh.\n2. **Hồi sức và Kháng sinh tĩnh mạch trúng đích:**  \n   - Chuyển bệnh nhi vào khoa Hồi sức Tích cực (PICU), thở máy hỗ trợ.  \n   - Bắt đầu ngay kháng sinh tĩnh mạch phổ rộng bao phủ tụ cầu vàng kháng Methicillin (MRSA) và vi khuẩn gram âm: **Vancomycin ($60 \\text{ mg/kg/ngày}$ chia 4 lần) phối hợp Ceftriaxone ($100 \\text{ mg/kg/ngày}$ tiêm TM)**.  \n   - Bù dịch tĩnh mạch chống sốc và hạ sốt tích cực.\n3. **Kết quả:** Sau 48 giờ thở máy và điều trị kháng sinh, cấy mủ khí quản mọc *Staphylococcus aureus*. Bệnh nhi được cai máy thở, rút ống nội khí quản an toàn sau 5 ngày và hồi phục hoàn toàn không để lại di chứng hẹp hạ thanh môn.\n\n---\n\n## 12. TIPS LÂM SÀNG THỰC CHIẾN DÀNH CHO BÁC SĨ TRỰC\n\nDưới đây là 10 kinh nghiệm xương máu giúp bác sĩ trực cấp cứu tự tin xử trí Croup chính xác và an toàn:\n\n1. **Tip 1 — Croup là chẩn đoán lâm sàng, đừng biến X-quang thành cái bẫy chết người:** Nếu trẻ đang thở rít khi nằm yên, hãy cho khí dung Adrenaline và uống Dexamethasone ngay tại giường. Đừng bao giờ chuyển trẻ đi chụp phim khi đường thở chưa ổn định.\n2. **Tip 2 — Tận dụng ống tiêm Dexamethasone để uống:** Nếu bệnh viện không có siro Dexamethasone, hãy bẻ ống tiêm Dexamethasone $4 \\text{ mg/ml}$, dùng bơm tiêm rút đúng liều ($0.15 \\text{ mg/kg}$), pha vào một thìa nhỏ sữa mẹ hoặc nước đường rồi cho trẻ uống. Thuốc hấp thu cực tốt và tác dụng tương đương tiêm.\n3. **Tip 3 — Nguyên tắc \"1 liều duy nhất\":** Đừng lạm dụng kê đơn Dexamethasone uống 3–5 ngày cho Croup thông thường. Một liều duy nhất $0.15 \\text{ mg/kg}$ là đủ để bao phủ toàn bộ giai đoạn đỉnh điểm nguy hiểm của bệnh.\n4. **Tip 4 — Luôn nhớ con số 4 giờ sau Adrenaline:** Sau khi khí dung Adrenaline, dù trẻ có vẻ hoàn toàn bình thường, bắt buộc phải dặn điều dưỡng ghi bảng theo dõi và giữ trẻ lại phòng cấp cứu đủ 4 giờ để canh chừng hiện tượng dội ngược.\n5. **Tip 5 — Đừng bao giờ dùng Adrenaline đơn độc mà không kèm Dexamethasone:** Adrenaline chỉ là giải pháp \"mua thời gian\" (cứu nguy trong 2 giờ). Dexamethasone mới là thuốc điều trị gốc rễ dập tắt phản xạ viêm. Luôn cho Dexamethasone cùng lúc hoặc ngay sau Adrenaline.\n6. **Tip 6 — Chọn cỡ ống nội khí quản nhỏ hơn 0.5 – 1 cỡ khi phải đặt ống:** Khi Croup nặng bắt buộc phải đặt nội khí quản, đường thở hạ thanh môn đang bị hẹp đáng kể. Luôn chuẩn bị sẵn ống nội khí quản nhỏ hơn cỡ tính theo tuổi từ 0.5 đến 1 số (ví dụ trẻ 2 tuổi bình thường dùng ống 4.5 thì phải chuẩn bị sẵn ống 4.0 và 3.5).\n7. **Tip 7 — Giữ trẻ trong vòng tay mẹ là liều thuốc an thần tốt nhất:** Đừng giằng trẻ ra khỏi mẹ để khám. Tiếng khóc thét của trẻ làm áp lực đường thở tăng vọt và có thể biến một ca Croup vừa thành Croup tắc nghẽn suy hô hấp chỉ trong vài giây.\n8. **Tip 8 — Cảnh giác với dấu hiệu \"yên lặng chết chóc\":** Nếu một đứa trẻ Croup đang thở rít ầm ĩ đột nhiên thở êm ắng nhưng lờ đờ, mắt đờ đẫn, đừng vội mừng! Hãy áp ống nghe kiểm tra thông khí phổi ngay; nếu rì rào phế nang mất hút, đó là kiệt sức cơ hô hấp và dọa ngừng thở!\n9. **Tip 9 — Nhận diện viêm nắp thanh môn bằng câu thần chú \"4 Không\":** Không ho, Không nằm ngửa được, Không nuốt được (chảy dãi), Không được dùng que đè lưỡi!\n10. **Tip 10 — Hướng dẫn gia đình kỹ lưỡng trước khi cho về:** Dặn dò cha mẹ luôn bế dựng trẻ, tiếp tục cho bú/uống nhiều nước, và quay lại viện ngay nếu thấy trẻ có thở rít khi đang ngủ yên, thở rút lõm ngực hoặc khó thở tăng dần.\n\n---\n\n## 13. TIÊU CHUẨN XUẤT VIỆN, THEO DÕI VÀ TÓM TẮT THỰC HÀNH\n\n### 13.1 Tiêu chuẩn nhập viện\n\nCần chỉ định cho bệnh nhi nhập viện điều trị nội trú khi có **bất kỳ một** trong các tiêu chuẩn sau:\n1. Trẻ có Croup thể nặng hoặc dọa suy hô hấp (Westley $\\ge 6$) tại bất kỳ thời điểm nào.\n2. Trẻ Croup thể vừa không đáp ứng hoặc triệu chứng thở rít khi nằm yên vẫn còn sau 4 giờ theo dõi kể từ liều Adrenaline và Dexamethasone đầu tiên.\n3. Trẻ cần từ **2 liều Adrenaline khí dung trở lên** trong đợt cấp cứu.\n4. Trẻ có dấu hiệu mất nước, nôn trớ liên tục không thể uống thuốc hay bù dịch tại nhà.\n5. Trẻ thuộc nhóm nguy cơ cao: Tuổi quá nhỏ ($< 6 \\text{ tháng}$), tiền sử sinh non, có bệnh lý hẹp thanh quản bẩm sinh hoặc bệnh tim bẩm sinh kèm theo.\n6. Yếu tố gia đình - xã hội: Nhà ở quá xa cơ sở y tế, phương tiện đi lại khó khăn vào ban đêm, hoặc cha mẹ quá lo lắng, không có khả năng theo dõi và chăm sóc trẻ an toàn.\n\n### 13.2 Tiêu chuẩn xuất viện an toàn & Hướng dẫn gia đình theo dõi tại nhà\n\nTrẻ có thể xuất viện an toàn từ phòng khám hoặc phòng cấp cứu khi đáp ứng **toàn bộ** các điều kiện sau:\n- Đã được dùng Dexamethasone đầy đủ.\n- Hoàn toàn **không có thở rít thanh quản khi nằm yên tĩnh**.\n- Không có rút lõm lồng ngực (hoặc chỉ co kéo nhẹ kẽ sườn).\n- Rì rào phế nang thông khí tốt hai bên phổi.\n- Da niêm hồng hào, $SpO_2 \\ge 95\\%$ trong khí trời.\n- Đã qua thời gian theo dõi an toàn tối thiểu **3 đến 4 giờ** sau liều Adrenaline cuối cùng.\n- Trẻ tỉnh táo, tươi tỉnh, ăn uống hoặc bú được tốt.\n- Bố mẹ hiểu rõ và nắm vững các dấu hiệu cảnh báo cần đưa trẻ quay lại viện ngay.\n\n**Hướng dẫn gia đình chăm sóc tại nhà:**\n- **Tư thế:** Bế trẻ ở tư thế ngồi thẳng hoặc kê cao đầu giường khi ngủ giúp trẻ thở dễ dàng hơn.\n- **Dinh dưỡng & Bù nước:** Cho trẻ uống nhiều nước ấm, nước hoa quả hoặc bú mẹ nhiều lần trong ngày.\n- **Hạ sốt:** Dùng Paracetamol liều $10 - 15 \\text{ mg/kg/lần}$ mỗi 4–6 giờ khi sốt $\\ge 38.5^\\circ\\text{C}$ gây khó chịu cho trẻ.\n- 🚨 **Đưa trẻ đi tái khám cấp cứu ngay lập tức nếu xuất hiện bất kỳ dấu hiệu nào sau đây:**\n  1. Trẻ thở rít khò khè to ngay cả khi đang ngủ hoặc nằm yên.\n  2. Thấy ngực hoặc hõm cổ của trẻ bị rút lõm sâu mỗi khi hít vào.\n  3. Trẻ thở nhanh gấp gáp, cánh mũi phập phồng hoặc đầu gật gù theo nhịp thở.\n  4. Trẻ nuốt khó, chảy nhiều nước dãi, không thể bú hoặc uống nước được.\n  5. Môi hoặc đầu ngón tay ngón chân của trẻ có màu tím tái hoặc nhợt nhạt.\n  6. Trẻ bứt rứt, kích thích khó dỗ hoặc ngược lại li bì, mệt lả, ngủ gọi khó dậy.\n\n### 13.3 Tóm tắt thực hành lâm sàng cốt lõi\n\n```text\nBệnh nhi nghi ngờ Croup (Ho ông ổng + Khàn tiếng + Thở rít hít vào)\n  ├── Đánh giá phân loại theo thang điểm Westley lâm sàng:\n  │     ├── [Croup Nhẹ: điểm ≤ 2]: Dexamethasone 0.15 mg/kg PO liều duy nhất → Về nhà an toàn\n  │     ├── [Croup Vừa: điểm 3-5]: Dexamethasone + L-Adrenaline khí dung qua oxy → Theo dõi 4 giờ\n  │     │     ├── Sau 4 giờ hết thở rít khi nằm yên → Cho xuất viện theo dõi tại nhà\n  │     │     └── Sau 4 giờ còn thở rít hoặc co kéo → Nhập viện khoa Nhi điều trị nội trú\n  │     └── [Croup Nặng: điểm 6-11 hoặc Dọa ngưng thở]:\n  │           ├── Thở oxy blow-by + Khí dung ngay L-Adrenaline 5 ml nguyên chất\n  │           ├── Dexamethasone 0.6 mg/kg tiêm TM/tiêm bắp\n  │           └── Kích hoạt kíp PICU chuẩn bị đặt ống nội khí quản số nhỏ\n```\n\n---\n\n## 14. TÀI LIỆU THAM KHẢO & BẰNG CHỨNG Y HỌC\n\n1. Bjornson CL, Klassen TP, Williamson J, Brant R, Mitton C, Plint A, Bulloch B, Evered L, Johnson DW. A randomized trial of a single dose of oral dexamethasone for mild croup. The New England Journal of Medicine. 2004. PMID: 15385657.\n2. Gates A, Gates M, Vandermeer B, Johnson C, Hartling L, Johnson DW, Klassen TP. Glucocorticoids for croup in children. Cochrane Database of Systematic Reviews. 2018. PMID: 30133690.\n3. Bjornson C, Russell K, Vandermeer B, Klassen TP, Johnson DW. Nebulized epinephrine for croup in children. Cochrane Database of Systematic Reviews. 2013. PMID: 24114291.\n4. Ortiz-Alvarez O. Acute management of croup in the emergency department. Paediatrics & Child Health. 2017. PMID: 29532807.\n5. Bjornson CL, Johnson DW. Croup. The Lancet. 2008. PMID: 18295000.\n6. Moore M, Little P. Humidified air inhalation for treating croup: a systematic review and meta-analysis. Family Practice. 2007. PMID: 17602176.\n7. Westley CR, Cotton EK, Brooks JG. Nebulized racemic epinephrine by IPPB for the treatment of croup: a double-blind study. American Journal of Diseases of Children. 1978. PMID: 347921.\n8. **Kliegman RM, St. Geme JW, Blum NJ, et al. (2020)**: *Nelson Textbook of Pediatrics, 21st Edition.* Philadelphia: Elsevier. Chapter 412: Croup (Laryngotracheobronchitis). [GUIDELINE VERIFIED]\n9. **Bộ Y tế Việt Nam (2015/2020)**: *Hướng dẫn chẩn đoán và điều trị bệnh Croup (Viêm thanh khí phế quản cấp) ở trẻ em.* Quyết định số 3312/QĐ-BYT. Hà Nội: Nhà xuất bản Y học. [GUIDELINE VERIFIED]\n10. **Bệnh viện Nhi Đồng 1 (2020)**: *Phác đồ điều trị Nhi khoa — Viêm thanh khí phế quản cấp (Croup).* TP. Hồ Chí Minh: Nhà xuất bản Y học. [GUIDELINE VERIFIED]\n11. **Bệnh viện Nhi Đồng 2 (2021)**: *Phác đồ điều trị Nhi khoa.* TP. Hồ Chí Minh: Nhà xuất bản Y học. [GUIDELINE VERIFIED]\n",
+      "pedytb_file": null,
+      "pedytb_content": "",
+      "cards_count": 88,
+      "cards_data": [
+        {
+          "id": "PED24-CARD-001",
+          "type": "cloze",
+          "text": "Bản chất bệnh học của Croup (Viêm thanh khí phế quản cấp) là tình trạng nhiễm trùng đường hô hấp cấp tính gây viêm và phù nề chủ yếu tại vùng {{c1::hạ thanh môn (Subglottic space)}}.",
+          "extra": "Vùng hạ thanh môn nằm ngay dưới dây thanh âm và được bao quanh bởi vòng sụn nhẫn; đây là điểm hẹp nhất của đường dẫn khí ở trẻ em.",
+          "tags": [
+            "PED-24",
+            "Dinh-nghia",
+            "Ha-thanh-mon",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-002",
+          "type": "cloze",
+          "text": "Lứa tuổi mắc Croup phổ biến nhất trong thực hành lâm sàng Nhi khoa là từ {{c1::6 tháng đến 36 tháng tuổi}}, với đỉnh cao mắc bệnh vào khoảng 1 đến 2 tuổi.",
+          "extra": "Độ tuổi này đường thở của trẻ có khẩu kính rất nhỏ và lượng kháng thể thụ động truyền từ mẹ qua nhau thai đã giảm sút hoàn toàn.",
+          "tags": [
+            "PED-24",
+            "Dich-te",
+            "Do-tuoi",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-003",
+          "type": "cloze",
+          "text": "Tác nhân vi sinh hàng đầu gây Viêm thanh khí phế quản cấp ở trẻ em (chiếm tới 65–75% các trường hợp) là {{c1::Virus Á cúm (Human Parainfluenza Virus - HPIV)}}.",
+          "extra": "Trong các type huyết thanh của HPIV, HPIV type 1 là thủ phạm thường gặp nhất gây các vụ dịch Croup bùng phát vào mùa thu đông.",
+          "tags": [
+            "PED-24",
+            "Vi-sinh",
+            "HPIV",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-004",
+          "type": "cloze",
+          "text": "Trong các phân type của Virus Á cúm, chủng huyết thanh phổ biến nhất gây dịch Croup mùa thu đông là {{c1::HPIV type 1}}.",
+          "extra": "HPIV type 2 gây bệnh cảnh tương tự nhưng thường nhẹ hơn; HPIV type 3 thường liên quan đến viêm tiểu phế quản và viêm phổi.",
+          "tags": [
+            "PED-24",
+            "Vi-sinh",
+            "HPIV-1",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-005",
+          "type": "cloze",
+          "text": "Thời điểm trong ngày mà các triệu chứng ho ông ổng và thở rít thanh quản của Croup thường bùng phát và nặng nề nhất là vào {{c1::ban đêm (đặc biệt từ nửa đêm đến gần sáng)}}.",
+          "extra": "Sự thay đổi nhiệt độ, độ ẩm không khí về đêm kết hợp với nồng độ Cortisol nội sinh trong máu hạ xuống mức thấp nhất vào ban đêm giải thích cho hiện tượng này.",
+          "tags": [
+            "PED-24",
+            "Lam-sang",
+            "Ban-dem",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-006",
+          "type": "cloze",
+          "text": "Giai đoạn tiền triệu khởi phát của Croup virus điển hình thường kéo dài 1–2 ngày với các dấu hiệu {{c1::viêm long đường hô hấp trên (sốt nhẹ, chảy nước mũi trong, ho húng hắng)}}.",
+          "extra": "Sau giai đoạn viêm long ban đầu, virus lan xuống thanh quản và khí quản kích hoạt phù nề mô đệm hạ thanh môn.",
+          "tags": [
+            "PED-24",
+            "Tien-trieu",
+            "Viem-long",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-007",
+          "type": "cloze",
+          "text": "Thể Croup co thắt (Spasmodic Croup) có đặc điểm lâm sàng quyết định để phân biệt với Croup virus là trẻ {{c1::hoàn toàn KHÔNG có sốt và không có giai đoạn viêm long hô hấp trên trước đó}}.",
+          "extra": "Croup co thắt thường khởi phát đột ngột lúc nửa đêm ở trẻ có cơ địa dị ứng và có xu hướng tái phát nhiều lần.",
+          "tags": [
+            "PED-24",
+            "Croup-co-that",
+            "Phan-biet",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-008",
+          "type": "cloze",
+          "text": "Khác với Croup virus kéo dài 3–7 ngày, cơn Croup co thắt (Spasmodic Croup) thường có xu hướng {{c1::biến mất nhanh chóng sau vài giờ hoặc sáng hôm sau}}.",
+          "extra": "Đưa trẻ ra ngoài trời mát hít thở không khí đêm hoặc khí dung ẩm thường làm cơn co thắt thanh quản dịu đi nhanh chóng.",
+          "tags": [
+            "PED-24",
+            "Croup-co-that",
+            "Tien-trien",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-009",
+          "type": "cloze",
+          "text": "Mùa xuất hiện đỉnh điểm của các vụ bùng phát Croup do virus Á cúm (HPIV-1) trong năm là vào {{c1::mùa thu và đầu mùa đông}}.",
+          "extra": "Khí hậu lạnh và hanh khô tạo điều kiện thuận lợi cho virus Á cúm lây truyền qua giọt bắn và tồn tại lâu hơn trong môi trường.",
+          "tags": [
+            "PED-24",
+            "Dich-te",
+            "Mua-dich",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-010",
+          "type": "cloze",
+          "text": "Tỷ lệ bệnh nhi mắc Croup thuộc thể nhẹ và có thể được điều trị ngoại trú an toàn tại nhà chiếm khoảng {{c1::trên 85%}} tổng số ca bệnh.",
+          "extra": "Chỉ có khoảng 10–15% trẻ Croup cần nhập viện và dưới 1–2% cần chuyển vào khoa Hồi sức tích cực (PICU).",
+          "tags": [
+            "PED-24",
+            "Dich-te",
+            "Ty-le-nhe",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-011",
+          "type": "cloze",
+          "text": "Ở trẻ em dưới 8 tuổi, điểm hẹp nhất của toàn bộ đường dẫn khí nằm tại vị trí {{c1::vùng hạ thanh môn (ngang mức sụn nhẫn)}}.",
+          "extra": "Ở người lớn, điểm hẹp nhất nằm tại khe thanh môn (giữa hai dây thanh âm). Sự khác biệt này tạo nên tính chất hình phễu đặc trưng của thanh quản trẻ em.",
+          "tags": [
+            "PED-24",
+            "Giai-phau",
+            "Diem-hep-nhat",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-012",
+          "type": "cloze",
+          "text": "Cấu trúc sụn duy nhất của đường thở tạo thành một vòng tròn kín hoàn chỉnh 360 độ là {{c1::vòng sụn nhẫn (Cricoid cartilage)}}.",
+          "extra": "Các sụn khí quản phía dưới đều có dạng hình chữ C hở phía sau bởi cơ màng khí quản mềm mại.",
+          "tags": [
+            "PED-24",
+            "Giai-phau",
+            "Sun-nhan",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-013",
+          "type": "cloze",
+          "text": "Do vòng sụn nhẫn là một vòng xơ sụn cứng kín hoàn toàn, khi lớp mô đệm hạ thanh môn bị viêm phù nề thì khối dịch phù nề bắt buộc phải {{c1::lồi vào bên trong lòng ống dẫn khí}}.",
+          "extra": "Vỏ sụn nhẫn không thể giãn nở ra ngoài, dẫn tới việc chỉ cần phù nề nhẹ cũng làm sụt giảm nghiêm trọng thiết diện lưu thông khí.",
+          "tags": [
+            "PED-24",
+            "Sinh-ly-benh",
+            "Vong-sun-kin",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-014",
+          "type": "cloze",
+          "text": "Thanh quản của trẻ nhỏ có hình thái giải phẫu hình {{c1::phễu (funnel-shaped)}} thon nhọn dần xuống phía dưới, khác với hình trụ ở người lớn.",
+          "extra": "Hình thái phễu khiến đường thở của trẻ cực kỳ nhạy cảm với các tình trạng viêm phù nề tại đáy phễu (vùng sụn nhẫn).",
+          "tags": [
+            "PED-24",
+            "Giai-phau",
+            "Hinh-pheu",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-015",
+          "type": "cloze",
+          "text": "Vị trí giải phẫu của thanh quản trẻ nhỏ nằm cao hơn so với người lớn, ngang mức đốt sống cổ {{c1::C3 đến C4}} (ở người lớn nằm ngang mức C5–C6).",
+          "extra": "Vị trí nằm cao làm cho trục thanh quản gập góc hơn và nắp thanh môn áp sát vào vòm khẩu cái mềm.",
+          "tags": [
+            "PED-24",
+            "Giai-phau",
+            "Vi-tri-C3-C4",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-016",
+          "type": "cloze",
+          "text": "Nắp thanh môn (Epiglottis) ở trẻ nhũ nhi có đặc điểm giải phẫu là mềm, dài và có hình dạng giống {{c1::chữ Omega (Ω)}}.",
+          "extra": "Đặc điểm mềm và cuộn hình chữ Omega làm nắp thanh môn dễ bị sụp về phía sau vào đường thở khi trẻ hít vào gắng sức tạo áp lực âm.",
+          "tags": [
+            "PED-24",
+            "Giai-phau",
+            "Nap-thanh-mon",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-017",
+          "type": "cloze",
+          "text": "Lớp hạ niêm mạc của vùng hạ thanh môn ở trẻ em có cấu tạo bởi {{c1::mô liên kết lỏng lẻo giàu mạng lưới mạch máu}}.",
+          "extra": "Cấu trúc lỏng lẻo này đóng vai trò như một miếng bọt biển hút dịch thoát mạch cực nhanh khi có phản ứng viêm cấp tính do virus.",
+          "tags": [
+            "PED-24",
+            "Mo-benh-hoc",
+            "Ha-niem-mac",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-018",
+          "type": "cloze",
+          "text": "Đường kính bình thường của vùng hạ thanh môn ở trẻ sơ sinh và nhũ nhi nhỏ chỉ vào khoảng {{c1::4 mm (bán kính r = 2 mm)}}.",
+          "extra": "Với đường kính nền nhỏ như vậy, bất kỳ sự thâm nhiễm phù nề nào cũng tạo ra tác động huyết động học khí đạo khổng lồ.",
+          "tags": [
+            "PED-24",
+            "Giai-phau",
+            "Duong-kinh-4mm",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-019",
+          "type": "cloze",
+          "text": "Theo định luật Poiseuille, kháng lực đường thở (R) tỉ lệ nghịch với {{c1::lũy thừa bậc 4 của bán kính lòng ống (R ∝ 1/r^4)}}.",
+          "extra": "Công thức Poiseuille: R = (8ηL) / (πr^4). Bán kính giảm một nửa thì kháng lực tăng vọt 2^4 = 16 lần.",
+          "tags": [
+            "PED-24",
+            "Poiseuille",
+            "Khang-luc",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-020",
+          "type": "cloze",
+          "text": "Khi niêm mạc hạ thanh môn của trẻ nhũ nhi bị phù nề dày thêm 1 mm chu vi, diện tích lưu thông khí của lòng ống sẽ bị sụt giảm tới {{c1::75%}}.",
+          "extra": "Bán kính giảm từ 2 mm xuống 1 mm làm diện tích giảm từ 4π (12.56 mm²) xuống 1π (3.14 mm²), mất 3/4 diện tích.",
+          "tags": [
+            "PED-24",
+            "Poiseuille",
+            "Dien-tich-giam-75%",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-021",
+          "type": "cloze",
+          "text": "Khi bán kính lòng thanh quản của trẻ giảm một nửa do phù nề 1 mm, kháng lực dòng khí hít vào sẽ tăng vọt lên gấp {{c1::16 lần}}.",
+          "extra": "Tỉ số kháng lực mới so với cũ: (1/1^4) / (1/2^4) = 16. Đây là nguyên nhân khiến trẻ phải thở co kéo lồng ngực dữ dội để bù trừ.",
+          "tags": [
+            "PED-24",
+            "Poiseuille",
+            "Khang-luc-tang-16-lan",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-022",
+          "type": "cloze",
+          "text": "Ngược lại với trẻ em, ở người lớn có đường kính thanh quản 8 mm, khi phù nề 1 mm niêm mạc thì kháng lực đường thở chỉ tăng lên khoảng {{c1::3 lần}}.",
+          "extra": "Tỉ số (4/3)^4 ≈ 3.16 lần. Do đó người lớn chỉ khàn tiếng nhẹ, không bao giờ bị khó thở thanh quản dữ dội như trẻ nhỏ.",
+          "tags": [
+            "PED-24",
+            "Poiseuille",
+            "So-sanh-nguoi-lon",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-023",
+          "type": "cloze",
+          "text": "Theo nguyên lý Bernoulli, khi dòng khí đi qua một đoạn ống dẫn khí bị chít hẹp, vận tốc dòng khí tăng vọt sẽ làm {{c1::áp suất thủy tĩnh tác động lên thành ống sụt giảm mạnh}}.",
+          "extra": "Áp suất âm tương đối bên trong chỗ hẹp sẽ hút các mô mềm và dây thanh âm khép sát vào nhau, cản trở thêm dòng khí.",
+          "tags": [
+            "PED-24",
+            "Bernoulli",
+            "Ap-suat-thanh-ong",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-024",
+          "type": "cloze",
+          "text": "Dấu hiệu co kéo hõm ức và rút lõm lồng ngực xuất hiện khi trẻ gắng sức hít vào tạo ra một {{c1::áp lực âm tính rất sâu trong khoang màng phổi}} để thắng kháng lực chỗ hẹp.",
+          "extra": "Do thành ngực trẻ nhỏ có khung xương sườn mềm và sụn sườn đàn hồi cao, áp lực âm sâu trong thì hít vào sẽ hút lõm lồng ngực vào trong.",
+          "tags": [
+            "PED-24",
+            "Sinh-ly-benh",
+            "Rut-lom-long-nguc",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-025",
+          "type": "cloze",
+          "text": "Khi kháng lực đường thở tăng 16 lần, cơ quan hô hấp chính phải hoạt động tối đa để gánh công thở ở trẻ em là {{c1::cơ hoành (Diaphragm)}}.",
+          "extra": "Cơ hoành của trẻ nhũ nhi chứa ít sợi cơ vân loại 1 (sợi kháng mỏi) nên rất dễ bị kiệt sức khi công hô hấp tăng cao kéo dài.",
+          "tags": [
+            "PED-24",
+            "Sinh-ly-benh",
+            "Co-hoanh-kiet-suc",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-026",
+          "type": "cloze",
+          "text": "Hậu quả cuối cùng của tắc nghẽn đường thở thanh quản kéo dài không được giải phóng là tình trạng {{c1::giảm thông khí phế nang, thiếu oxy máu và toan hô hấp do ứ CO2}}.",
+          "extra": "Toan hô hấp kết hợp toan chuyển hóa lactic do thiếu oxy mô sẽ làm ức chế cơ tim và ngừng thở.",
+          "tags": [
+            "PED-24",
+            "Sinh-ly-benh",
+            "Toan-ho-hap",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-027",
+          "type": "cloze",
+          "text": "Tam chứng lâm sàng kinh điển của Viêm thanh khí phế quản cấp (Croup) gồm: {{c1::Ho tiếng ông ổng (Barking cough), Khàn tiếng (Hoarseness), và Thở rít thì hít vào (Inspiratory stridor)}}.",
+          "extra": "Tam chứng này xuất hiện đồng thời giúp bác sĩ chẩn đoán xác định Croup ngay tại giường bệnh mà không cần xét nghiệm.",
+          "tags": [
+            "PED-24",
+            "Tam-chung",
+            "Lam-sang-kinh-dien",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-028",
+          "type": "cloze",
+          "text": "Triệu chứng Ho tiếng ông ổng (Barking cough) được mô tả có âm vang đanh thép, thô ráp giống như tiếng {{c1::chó sủa hoặc tiếng hải cẩu sủa}}.",
+          "extra": "Phát sinh do luồng khí tốc độ cao tống ra qua vùng hạ thanh môn và khí quản bị phù nề làm rung thành ống.",
+          "tags": [
+            "PED-24",
+            "Trieu-chung",
+            "Ho-ong-ong",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-029",
+          "type": "cloze",
+          "text": "Cơ chế gây ra triệu chứng Khàn tiếng (Hoarseness) trong Croup là do {{c1::phù nề và viêm nhiễm trực tiếp tại các dây thanh âm (Vocal cords)}}.",
+          "extra": "Dây thanh âm bị viêm phù dày lên làm mất tính đàn hồi mềm mại, không thể rung động và khép mở nhịp nhàng khi phát âm.",
+          "tags": [
+            "PED-24",
+            "Co-che",
+            "Khan-tieng",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-030",
+          "type": "cloze",
+          "text": "Thở rít thanh quản (Stridor) trong Croup điển hình nghe rõ nhất ở thì {{c1::hít vào (Inspiratory)}}.",
+          "extra": "Đường thở ngoài lồng ngực bị hẹp sẽ chịu tác động của áp lực âm hút bẹp lại trong thì hít vào, tạo ra dòng khí xoáy gây tiếng thở rít hít vào.",
+          "tags": [
+            "PED-24",
+            "Trieu-chung",
+            "Tho-rit-hit-vao",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-031",
+          "type": "cloze",
+          "text": "Nếu trẻ có biểu hiện Thở rít thanh quản nghe thấy ở cả hai thì (biphasic stridor: cả hít vào và thở ra), điều này phản ánh mức độ tắc nghẽn {{c1::cực kỳ nặng nề hoặc tổn thương hạ thanh môn dạng cố định}}.",
+          "extra": "Thở rít hai thì là dấu hiệu báo động đỏ đe dọa suy hô hấp cấp tính cần can thiệp cấp cứu ngay.",
+          "tags": [
+            "PED-24",
+            "Canh-bao",
+            "Tho-rit-hai-thi",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-032",
+          "type": "cloze",
+          "text": "Ở bệnh nhi Croup thể nhẹ, tiếng thở rít thanh quản chỉ xuất hiện khi {{c1::trẻ kích thích, quấy khóc, ho hoặc vận động gắng sức}}.",
+          "extra": "Khi trẻ nằm yên ngủ ngoan, dòng khí lưu thông chậm nên không đủ tạo ra dòng khí xoáy phát ra tiếng thở rít.",
+          "tags": [
+            "PED-24",
+            "Phan-do",
+            "Tho-rit-khi-quay",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-033",
+          "type": "cloze",
+          "text": "Dấu hiệu lâm sàng ranh giới quyết định để phân biệt Croup thể vừa với Croup thể nhẹ là sự xuất hiện của {{c1::tiếng thở rít thanh quản ngay cả khi trẻ đang nằm yên tĩnh hoàn toàn}}.",
+          "extra": "Thở rít khi nằm yên chứng tỏ thiết diện đường thở đã bị hẹp trên 50%, có chỉ định dùng thuốc cấp cứu Adrenaline khí dung.",
+          "tags": [
+            "PED-24",
+            "Tieu-chuan",
+            "Tho-rit-khi-nam-yen",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-034",
+          "type": "cloze",
+          "text": "Để phân biệt Thở rít (Stridor) và Khò khè (Wheezing): Thở rít nghe rõ ở vùng cổ ở thì hít vào, trong khi Khò khè nghe rõ khắp hai phế trường ở thì {{c1::thở ra (Expiratory)}}.",
+          "extra": "Khò khè là bệnh lý tắc nghẽn đường thở nhỏ trong lồng ngực (như Hen phế quản, Viêm tiểu phế quản).",
+          "tags": [
+            "PED-24",
+            "Phan-biet",
+            "Stridor-vs-Wheezing",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-035",
+          "type": "cloze",
+          "text": "Thang điểm Westley (Westley Croup Score) lượng hóa độ nặng của Croup dựa trên 5 tiêu chí lâm sàng gồm: {{c1::Thở rít, Co kéo cơ hô hấp, Thông khí phổi, Tím tái, và Tri giác}}.",
+          "extra": "Tổng điểm tối đa của thang điểm Westley là 17 điểm; đây là thang điểm chuẩn mực trong các thử nghiệm lâm sàng quốc tế.",
+          "tags": [
+            "PED-24",
+            "Westley",
+            "5-tieu-chi",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-036",
+          "type": "cloze",
+          "text": "Trong thang điểm Westley, tiêu chí Thở rít (Stridor) được chấm 2 điểm khi có biểu hiện {{c1::nghe rõ tiếng thở rít khi trẻ nằm yên tĩnh hoàn toàn}}.",
+          "extra": "0 điểm: Không thở rít; 1 điểm: Thở rít chỉ xuất hiện khi kích thích/quấy khóc; 2 điểm: Thở rít khi nằm yên.",
+          "tags": [
+            "PED-24",
+            "Westley",
+            "Tieu-chi-tho-rit",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-037",
+          "type": "cloze",
+          "text": "Trong thang điểm Westley, tiêu chí Co kéo cơ hô hấp (Retractions) được chấm mức điểm tối đa (3 điểm) khi có biểu hiện {{c1::co kéo lồng ngực mức độ nặng (rút lõm hõm ức sâu, phập phồng cánh mũi, đầu gật gù)}}.",
+          "extra": "0 điểm: Không co kéo; 1 điểm: Co kéo nhẹ kẽ sườn; 2 điểm: Co kéo vừa bờ sườn; 3 điểm: Co kéo nặng hõm ức.",
+          "tags": [
+            "PED-24",
+            "Westley",
+            "Tieu-chi-co-keo",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-038",
+          "type": "cloze",
+          "text": "Trong thang điểm Westley, tiêu chí Thông khí phổi (Air Entry) được chấm 2 điểm khi có dấu hiệu {{c1::thông khí phổi giảm nặng rõ rệt (rì rào phế nang nghe rất yếu)}}.",
+          "extra": "0 điểm: Thông khí bình thường; 1 điểm: Rì rào phế nang giảm nhẹ; 2 điểm: Giảm nặng.",
+          "tags": [
+            "PED-24",
+            "Westley",
+            "Tieu-chi-thong-khi",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-039",
+          "type": "cloze",
+          "text": "Trong thang điểm Westley, tiêu chí Tím tái (Cyanosis) được chấm điểm tối đa (5 điểm) khi trẻ {{c1::tím tái liên tục ngay cả khi nằm yên tĩnh trong khí trời}}.",
+          "extra": "0 điểm: Không tím tái; 4 điểm: Tím tái chỉ khi kích thích/quấy khóc; 5 điểm: Tím tái liên tục khi nằm yên.",
+          "tags": [
+            "PED-24",
+            "Westley",
+            "Tieu-chi-tim-tai",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-040",
+          "type": "cloze",
+          "text": "Trong thang điểm Westley, tiêu chí Tri giác được chấm 5 điểm khi trẻ xuất hiện dấu hiệu {{c1::bứt rứt, kích thích vật vã không dỗ được hoặc li bì, lơ mơ}}.",
+          "extra": "0 điểm: Tỉnh táo hoàn toàn; 5 điểm: Rối loạn tri giác (bứt rứt hoặc li bì kiệt sức do thiếu oxy não).",
+          "tags": [
+            "PED-24",
+            "Westley",
+            "Tieu-chi-tri-giac",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-041",
+          "type": "cloze",
+          "text": "Theo phân loại thang điểm Westley, Croup thể Nhẹ (Mild Croup) tương ứng với tổng điểm là {{c1::≤ 2 điểm}}.",
+          "extra": "Trẻ chỉ có ho ông ổng, khàn tiếng, không có thở rít khi nằm yên, co kéo nhẹ hoặc không co kéo.",
+          "tags": [
+            "PED-24",
+            "Phan-do",
+            "Croup-nhe-<=2",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-042",
+          "type": "cloze",
+          "text": "Theo phân loại thang điểm Westley, Croup thể Vừa (Moderate Croup) tương ứng với khoảng tổng điểm là {{c1::3 đến 5 điểm}}.",
+          "extra": "Đặc trưng bởi thở rít khi nằm yên kèm co kéo kẽ sườn/bờ sườn mức độ vừa, nhưng chưa có rối loạn tri giác và không tím tái.",
+          "tags": [
+            "PED-24",
+            "Phan-do",
+            "Croup-vua-3-5",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-043",
+          "type": "cloze",
+          "text": "Theo phân loại thang điểm Westley, Croup thể Nặng (Severe Croup) tương ứng với khoảng tổng điểm là {{c1::6 đến 11 điểm}}.",
+          "extra": "Trẻ thở rít to liên tục, co kéo hõm ức dữ dội, giảm thông khí phổi và bứt rứt kích thích do thiếu oxy mô não.",
+          "tags": [
+            "PED-24",
+            "Phan-do",
+            "Croup-nang-6-11",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-044",
+          "type": "cloze",
+          "text": "Theo thang điểm Westley, mức độ Croup Dọa Suy Hô Hấp (Impending Respiratory Failure) tương ứng với tổng điểm là {{c1::≥ 12 điểm}}.",
+          "extra": "Trẻ lơ mơ, kiệt sức cơ hô hấp, tím tái trong khí trời hoặc tiếng thở rít yếu dần (phổi câm), đe dọa ngưng thở tức thì.",
+          "tags": [
+            "PED-24",
+            "Phan-do",
+            "Doa-suy-ho-hap->=12",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-045",
+          "type": "cloze",
+          "text": "Hiện tượng 'phổi câm thanh quản' (tiếng thở rít nhỏ dần nhưng trẻ li bì, lơ mơ) là dấu hiệu cảnh báo của tình trạng {{c1::kiệt sức cơ hô hấp và ngừng thở sắp xảy ra}}.",
+          "extra": "Lưu lượng khí qua chỗ hẹp quá yếu nên không đủ tạo ra tiếng thở rít; bác sĩ thiếu kinh nghiệm dễ lầm tưởng trẻ đã thuyên giảm!",
+          "tags": [
+            "PED-24",
+            "Canh-bao",
+            "Phoi-cam-thanh-quan",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-046",
+          "type": "cloze",
+          "text": "Mức độ bão hòa oxy máu mao mạch (SpO2) đo bằng pulse oximeter trong khí trời là một chỉ số {{c1::bình thường trong đa số các trường hợp Croup nhẹ và vừa}}.",
+          "extra": "Chỉ khi tắc nghẽn đường thở cực kỳ nghiêm trọng dẫn đến giảm thông khí phế nang thì SpO2 mới bắt đầu tụt xuống dưới 92%.",
+          "tags": [
+            "PED-24",
+            "SpO2",
+            "Gia-tri-SpO2",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-047",
+          "type": "cloze",
+          "text": "Bệnh lý nhiễm trùng đường thở cấp cứu nguy hiểm nhất cần phân biệt với Croup là {{c1::Viêm nắp thanh môn cấp (Acute Epiglottitis)}}.",
+          "extra": "Thường do vi khuẩn Haemophilus influenzae type b (Hib) gây ra, có thể gây bít tắc đường thở hoàn toàn chỉ trong vài giờ.",
+          "tags": [
+            "PED-24",
+            "Phan-biet",
+            "Epiglottitis",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-048",
+          "type": "cloze",
+          "text": "Đặc điểm lâm sàng cực kỳ quan trọng giúp phân biệt Viêm nắp thanh môn cấp với Croup là trẻ viêm nắp thanh môn {{c1::HOÀN TOÀN KHÔNG CÓ TIẾNG HO}}.",
+          "extra": "Croup luôn có ho ông ổng rầm rộ; viêm nắp thanh môn không ho do nuốt và cử động nắp thanh quản gây đau đớn dữ dội.",
+          "tags": [
+            "PED-24",
+            "Co-do",
+            "Khong-ho-Epiglottitis",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-049",
+          "type": "cloze",
+          "text": "Dấu hiệu 'Chảy nhiều nước dãi' (Drooling) ở trẻ viêm nắp thanh môn cấp phát sinh do cơ chế {{c1::nuốt đau dữ dội khiến trẻ sợ hãi không dám nuốt nước bọt}}.",
+          "extra": "Khác với Croup trẻ vẫn có thể nuốt được nước bọt và bú được nếu tắc nghẽn chưa quá nặng.",
+          "tags": [
+            "PED-24",
+            "Co-che",
+            "Drooling",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-050",
+          "type": "cloze",
+          "text": "Tư thế bệnh nhi ngồi rướn cổ cằm chìa ra phía trước, miệng hé mở để tối ưu hóa việc mở rộng đường thở được gọi là {{c1::tư thế ngửi hoa (Sniffing position hoặc Tripod position)}}.",
+          "extra": "Đây là tư thế bù trừ đặc trưng của trẻ bị viêm nắp thanh môn cấp để tránh nắp thanh môn sưng to sụp vào thanh môn.",
+          "tags": [
+            "PED-24",
+            "Trieu-chung",
+            "Sniffing-position",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-051",
+          "type": "cloze",
+          "text": "Hành vi bị CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI khi nghi ngờ trẻ bị Viêm nắp thanh môn cấp là {{c1::dùng que đè lưỡi thăm khám sâu trong miệng hầu}}.",
+          "extra": "Đè lưỡi có thể kích thích co thắt thanh môn tức thì hoặc làm sập nắp thanh môn sưng đỏ quả anh đào bít đường thở gây ngừng thở tại chỗ.",
+          "tags": [
+            "PED-24",
+            "Chong-chi-dinh",
+            "Cam-de-luoi",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-052",
+          "type": "cloze",
+          "text": "Bệnh lý Viêm khí quản do vi khuẩn (Bacterial Tracheitis) có đặc điểm lâm sàng quyết định là trẻ {{c1::hoàn toàn KHÔNG ĐÁP ỨNG với Adrenaline khí dung}}.",
+          "extra": "Khí dung Adrenaline không thể giải phóng được các mảng mủ hoại tử và chất tiết đặc quánh đóng bánh trong lòng khí quản.",
+          "tags": [
+            "PED-24",
+            "Phan-biet",
+            "Bacterial-Tracheitis",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-053",
+          "type": "cloze",
+          "text": "Tác nhân vi khuẩn hàng đầu gây Viêm khí quản do vi khuẩn (Bacterial Tracheitis) ở trẻ em là {{c1::Tụ cầu vàng (Staphylococcus aureus, bao gồm cả MRSA)}}.",
+          "extra": "Vi khuẩn tiết độc tố gây hoại tử biểu mô niêm mạc khí quản tạo màng giả mủ bít tắc đường thở.",
+          "tags": [
+            "PED-24",
+            "Vi-sinh",
+            "Staphylococcus-aureus",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-054",
+          "type": "cloze",
+          "text": "Dấu hiệu phân biệt cốt lõi của Dị vật đường thở bỏ quên với Croup là trẻ khởi phát thở rít đột ngột {{c1::hoàn toàn KHÔNG có sốt và có hội chứng xâm nhập rõ trước đó}}.",
+          "extra": "Hội chứng xâm nhập: Cơn ho sặc sụa, tím tái đột ngột khi đang ăn hoặc đang chơi đồ chơi nhỏ.",
+          "tags": [
+            "PED-24",
+            "Phan-biet",
+            "Di-vat-duong-tho",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-055",
+          "type": "cloze",
+          "text": "Áp xe thành sau họng (Retropharyngeal Abscess) có dấu hiệu lâm sàng đặc thù là trẻ {{c1::ưỡn cổ ra sau, nuốt đau và thành sau họng phồng lên một bên}}.",
+          "extra": "Trẻ thường nói giọng ngậm hạt thị (hot potato voice) và có hạn chế há miệng (trismus).",
+          "tags": [
+            "PED-24",
+            "Phan-biet",
+            "Ap-xe-thanh-sau-hong",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-056",
+          "type": "cloze",
+          "text": "Bộ ba triệu chứng 'Tam chứng 3D' cảnh báo Viêm nắp thanh môn cấp gồm: {{c1::Drooling (Chảy dãi), Dysphagia (Nuốt khó), và Distress (Suy hô hấp)}}.",
+          "extra": "Xuất hiện tam chứng 3D đòi hỏi phải chuẩn bị kíp đặt ống nội khí quản ngay trong phòng mổ.",
+          "tags": [
+            "PED-24",
+            "Tam-chung",
+            "3D-Epiglottitis",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-057",
+          "type": "cloze",
+          "text": "Trên phim X-quang cổ nghiêng, hình ảnh nắp thanh môn sưng nề to tròn như ngón tay cái trong viêm nắp thanh môn được gọi là {{c1::Dấu hiệu Ngón tay cái (Thumbprint sign)}}.",
+          "extra": "Bình thường trên phim nghiêng, nắp thanh môn mỏng và thon như chiếc lá.",
+          "tags": [
+            "PED-24",
+            "X-quang",
+            "Thumbprint-sign",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-058",
+          "type": "cloze",
+          "text": "Xử trí đầu tay tức thì khi tiếp nhận một ca nghi ngờ Viêm nắp thanh môn cấp là {{c1::giữ trẻ ngồi yên trong lòng mẹ, cho thở oxy nhẹ nhàng và gọi kíp Hồi sức/TMH}}.",
+          "extra": "Tuyệt đối không di chuyển trẻ đi lại nhiều và không làm bất kỳ thủ thuật nào gây kích thích quấy khóc.",
+          "tags": [
+            "PED-24",
+            "Cap-cuu",
+            "Xu-tri-Epiglottitis",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-059",
+          "type": "cloze",
+          "text": "Dấu hiệu X-quang kinh điển của Croup trên phim chụp cổ thẳng (AP view) ở thì hít vào là {{c1::Dấu hiệu Nóc nhà thờ (Steeple Sign hoặc Pencil-point sign)}}.",
+          "extra": "Hình ảnh cột khí hạ thanh môn bị thu hẹp dần đối xứng hai bên tạo thành chóp nhọn giống nóc tháp chuông nhà thờ.",
+          "tags": [
+            "PED-24",
+            "X-quang",
+            "Steeple-sign",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-060",
+          "type": "cloze",
+          "text": "Bản chất hình ảnh học của Dấu hiệu Nóc nhà thờ trên phim X-quang là do {{c1::sự phù nề đối xứng hai bên của lớp hạ niêm mạc vùng hạ thanh môn}}.",
+          "extra": "Bình thường cột khí vùng này có bờ vai tù vuông vắn (shoulder appearance).",
+          "tags": [
+            "PED-24",
+            "X-quang",
+            "Ban-chat-Steeple-sign",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-061",
+          "type": "cloze",
+          "text": "Tỷ lệ xuất hiện Dấu hiệu Nóc nhà thờ trên phim X-quang ở trẻ Croup lâm sàng chỉ đạt khoảng {{c1::50%}} các trường hợp.",
+          "extra": "Phim X-quang bình thường hoàn toàn không loại trừ được Croup vì độ nhạy của dấu hiệu này không cao.",
+          "tags": [
+            "PED-24",
+            "X-quang",
+            "Do-nhay-50%",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-062",
+          "type": "cloze",
+          "text": "Nguyên tắc xử trí sống còn về cận lâm sàng trong Croup là {{c1::Croup là chẩn đoán lâm sàng; tuyệt đối KHÔNG trì hoãn cấp cứu để đưa trẻ đi chụp X-quang}}.",
+          "extra": "Việc đưa trẻ đang suy hô hấp vào phòng chụp X-quang lạnh, ép nằm ngửa có thể làm tăng kháng lực và ngừng thở ngay trên bàn chụp.",
+          "tags": [
+            "PED-24",
+            "Nguyen-tac",
+            "Khong-tri-hoan-X-quang",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-063",
+          "type": "cloze",
+          "text": "Chỉ định chụp X-quang cổ thẳng và nghiêng ở bệnh nhi thở rít chỉ đặt ra khi {{c1::trẻ đã ổn định đường thở và chẩn đoán lâm sàng không rõ ràng hoặc nghi ngờ dị vật}}.",
+          "extra": "Ngoài ra chụp phim khi bệnh nhân không đáp ứng với điều trị nội khoa thông thường để tìm biến chứng.",
+          "tags": [
+            "PED-24",
+            "Chi-dinh",
+            "X-quang-khi-on-dinh",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-064",
+          "type": "cloze",
+          "text": "Xét nghiệm công thức máu và CRP trong Croup virus điển hình thường cho kết quả {{c1::bình thường hoặc bạch cầu tăng nhẹ ưu thế lympho}}.",
+          "extra": "Xét nghiệm máu thường quy là không cần thiết và gây đau đớn quấy khóc làm nặng thêm tình trạng khó thở.",
+          "tags": [
+            "PED-24",
+            "Xet-nghiem",
+            "Cong-thuc-mau",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-065",
+          "type": "cloze",
+          "text": "Thuốc nền tảng bắt buộc phải chỉ định cho TẤT CẢ các trường hợp Croup (kể cả thể nhẹ) là {{c1::Dexamethasone}}.",
+          "extra": "Dexamethasone là một Glucocorticoid có hoạt lực kháng viêm mạnh gấp 25–30 lần Hydrocortisone và thời gian tác dụng sinh học kéo dài.",
+          "tags": [
+            "PED-24",
+            "Dieu-tri",
+            "Dexamethasone-cho-moi-the",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-066",
+          "type": "cloze",
+          "text": "Khoảng liều chuẩn của Dexamethasone trong điều trị Croup trẻ em là từ {{c1::0.15 đến 0.6 mg/kg}} liều duy nhất (tối đa 16 mg).",
+          "extra": "Liều 0.15 mg/kg thường dùng cho Croup nhẹ đến vừa; liều 0.6 mg/kg ưu tiên cho Croup nặng.",
+          "tags": [
+            "PED-24",
+            "Lieu-dung",
+            "Dexamethasone-0.15-0.6",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-067",
+          "type": "cloze",
+          "text": "Trần liều tối đa cho phép của Dexamethasone trong một lần dùng điều trị Croup là {{c1::16 mg}}.",
+          "extra": "Dù trẻ có cân nặng lớn (ví dụ 35 kg × 0.6 mg/kg = 21 mg), liều tối đa áp dụng vẫn không được vượt quá 16 mg.",
+          "tags": [
+            "PED-24",
+            "Tran-lieu",
+            "Dexamethasone-max-16mg",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-068",
+          "type": "cloze",
+          "text": "Đường dùng được ưu tiên hàng đầu của Dexamethasone trong Croup là đường {{c1::uống (Oral)}}.",
+          "extra": "Dexamethasone hấp thu qua đường tiêu hóa cực nhanh, sinh khả dụng > 80%, hiệu quả tương đương đường tiêm bắp/tĩnh mạch mà không gây đau đớn.",
+          "tags": [
+            "PED-24",
+            "Duong-dung",
+            "Uu-tien-duong-uong",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-069",
+          "type": "cloze",
+          "text": "Thử nghiệm lâm sàng NEJM 2004 của Bjornson trên 720 trẻ Croup nhẹ chứng minh Dexamethasone uống liều duy nhất làm giảm tỷ lệ tái khám ngoài dự kiến từ 15.3% xuống còn {{c1::7.3% (P < 0.001)}}.",
+          "extra": "Nghiên cứu này khẳng định giá trị điều trị dự phòng chuyển nặng của Dexamethasone ngay từ thể nhẹ.",
+          "tags": [
+            "PED-24",
+            "EBM",
+            "Bjornson-NEJM-2004",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-070",
+          "type": "cloze",
+          "text": "Thời gian để Dexamethasone bắt đầu phát huy tác dụng lâm sàng làm giảm phù nề hạ thanh môn là sau {{c1::1 đến 2 giờ}} (và đạt đỉnh sau 4–6 giờ).",
+          "extra": "Do tác dụng xuất hiện sau 1–2 giờ, các trường hợp khó thở nặng cần phải phối hợp thêm Adrenaline khí dung để giải cứu tức thì.",
+          "tags": [
+            "PED-24",
+            "Duoc-dong-hoc",
+            "Bat-dau-tac-dung-1-2h",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-071",
+          "type": "cloze",
+          "text": "Thời gian bán thải sinh học và tác dụng kháng viêm của Dexamethasone duy trì kéo dài trong khoảng {{c1::36 đến 72 giờ}}.",
+          "extra": "Nhờ thời gian duy trì dài, chỉ cần một liều duy nhất là đủ bao phủ toàn bộ giai đoạn nguy hiểm đỉnh điểm của Croup.",
+          "tags": [
+            "PED-24",
+            "Duoc-dong-hoc",
+            "Keo-dai-36-72h",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-072",
+          "type": "cloze",
+          "text": "Tổng quan hệ thống Cochrane 2018 (Gates A et al.) chứng minh Glucocorticoid làm rút ngắn thời gian nằm viện của trẻ Croup trung bình khoảng {{c1::15 giờ (MD -14.90 giờ)}}.",
+          "extra": "Đồng thời làm giảm nguy cơ tái khám hoặc tái nhập viện với RR = 0.52 (95% CI 0.36 đến 0.75).",
+          "tags": [
+            "PED-24",
+            "EBM",
+            "Cochrane-Gates-2018",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-073",
+          "type": "cloze",
+          "text": "Chỉ định của khí dung L-Adrenaline (Epinephrine) là dành cho bệnh nhi Croup ở mức độ {{c1::thể Vừa và Nặng (có thở rít thanh quản khi nằm yên, Westley ≥ 3)}} hoặc dọa suy hô hấp.",
+          "extra": "Croup thể nhẹ hoàn toàn không có chỉ định dùng Adrenaline khí dung.",
+          "tags": [
+            "PED-24",
+            "Chi-dinh",
+            "Adrenaline-khi-dung",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-074",
+          "type": "cloze",
+          "text": "Cơ chế tác dụng của Adrenaline khí dung giúp làm thông thoáng đường thở là kích thích chọn lọc thụ thể {{c1::α1-adrenergic gây co tiểu động mạch niêm mạc hạ thanh môn}}.",
+          "extra": "Co mạch làm giảm áp lực thủy tĩnh mao mạch, nhanh chóng tái hấp thu dịch phù nề vào lòng mạch chỉ sau 10–30 phút.",
+          "tags": [
+            "PED-24",
+            "Co-che",
+            "Thu-the-alpha-1",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-075",
+          "type": "cloze",
+          "text": "Liều dùng chuẩn của dung dịch L-Adrenaline 1:1000 nguyên chất dùng để khí dung trong Croup là {{c1::0.5 ml/kg (tối đa 5 ml/lần)}}.",
+          "extra": "Dùng trực tiếp dung dịch Adrenaline 1:1000 nguyên chất trong bầu khí dung, không cần pha loãng thêm nếu thể tích đã đủ 3–4 ml.",
+          "tags": [
+            "PED-24",
+            "Lieu-dung",
+            "Adrenaline-0.5ml-kg",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-076",
+          "type": "cloze",
+          "text": "Thời gian để Adrenaline khí dung bắt đầu phát huy tác dụng làm giảm rõ rệt điểm số Croup trên lâm sàng là sau {{c1::10 đến 30 phút}}.",
+          "extra": "Trẻ sẽ thở êm hơn, tiếng thở rít biến mất và co kéo lồng ngực giảm hẳn rất nhanh.",
+          "tags": [
+            "PED-24",
+            "Duoc-dong-hoc",
+            "Tac-dung-10-30-phut",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-077",
+          "type": "cloze",
+          "text": "Thời gian duy trì tác dụng co mạch của Adrenaline khí dung chỉ kéo dài trong khoảng {{c1::90 đến 120 phút (khoảng 2 giờ)}}.",
+          "extra": "Thuốc bị bất hoạt nhanh bởi men COMT và MAO; sau 2 giờ tác dụng co mạch biến mất hoàn toàn.",
+          "tags": [
+            "PED-24",
+            "Duoc-dong-hoc",
+            "Duy-tri-2-gio",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-078",
+          "type": "cloze",
+          "text": "Hiện tượng dội ngược (Rebound phenomenon) sau khí dung Adrenaline là tình trạng {{c1::đường thở hạ thanh môn tái phù nề và tắc nghẽn trở lại khi Adrenaline hết tác dụng co mạch}}.",
+          "extra": "Xảy ra nếu phản ứng viêm nền chưa được Dexamethasone kiểm soát; các mạch máu giãn ra gây ứ dịch phù nề trở lại.",
+          "tags": [
+            "PED-24",
+            "Duoc-ly",
+            "Hien-tuong-doi-nguoc",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-079",
+          "type": "cloze",
+          "text": "Khoảng thời gian tối thiểu bắt buộc phải lưu bệnh nhi tại cơ sở y tế để theo dõi sau liều Adrenaline khí dung cuối cùng là {{c1::3 đến 4 giờ}}.",
+          "extra": "Quy tắc cửa sổ an toàn 3–4 giờ giúp phát hiện kịp thời hiện tượng dội ngược trước khi cho bệnh nhi xuất viện về nhà.",
+          "tags": [
+            "PED-24",
+            "An-toan",
+            "Cua-so-theo-doi-4h",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-080",
+          "type": "cloze",
+          "text": "Nếu một bệnh nhi Croup cần tới {{c1::3 liều Adrenaline khí dung liên tiếp trong vòng 2 giờ}}, bắt buộc phải chuyển ngay vào phòng Hồi sức tích cực (PICU).",
+          "extra": "Nguy cơ kiệt sức cơ hô hấp và phải đặt nội khí quản ở nhóm bệnh nhi này là cực kỳ cao.",
+          "tags": [
+            "PED-24",
+            "Canh-bao",
+            "3-lieu-Adrenaline",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-081",
+          "type": "cloze",
+          "text": "Theo các tổng quan hệ thống của Cochrane (Moore 2007), liệu pháp xông hơi ẩm (Mist therapy) {{c1::KHÔNG mang lại bất kỳ lợi ích lâm sàng nào và không làm cải thiện điểm số Croup}}.",
+          "extra": "SMD = -0.14 (95% CI -0.75 đến 0.47, không có ý nghĩa thống kê). Các hướng dẫn quốc tế không khuyến cáo thực hiện thường quy.",
+          "tags": [
+            "PED-24",
+            "EBM",
+            "Mist-therapy-Cochrane",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-082",
+          "type": "cloze",
+          "text": "Nguy cơ tai biến nghiêm trọng nhất khi gia đình tự ý cho trẻ xông hơi nước nóng tại nhà để chữa Croup là {{c1::bỏng nhiệt vùng mặt và bỏng niêm mạc đường hô hấp}}.",
+          "extra": "Bác sĩ cần chủ động giải thích và hướng dẫn người nhà không sử dụng nồi nước sôi xông hơi cho trẻ nhỏ.",
+          "tags": [
+            "PED-24",
+            "Tai-bien",
+            "Bong-nhiet-xong-hoi",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-083",
+          "type": "cloze",
+          "text": "Chỉ định dùng Kháng sinh thường quy trong điều trị Croup virus điển hình là {{c1::HOÀN TOÀN KHÔNG CÓ CHỈ ĐỊNH}}.",
+          "extra": "Kháng sinh không diệt được virus Á cúm, không rút ngắn thời gian bệnh và làm tăng nguy cơ tiêu chảy loạn khuẩn ruột.",
+          "tags": [
+            "PED-24",
+            "Khong-khuyen-cao",
+            "Khong-dung-khang-sinh",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-084",
+          "type": "cloze",
+          "text": "Kháng sinh đường tĩnh mạch chỉ được chỉ định khi nghi ngờ Croup có biến chứng nhiễm khuẩn thứ phát là {{c1::Viêm khí quản do vi khuẩn (Bacterial Tracheitis)}}.",
+          "extra": "Khi trẻ sốt cao nhiễm độc, mủ khí quản đặc quánh và không đáp ứng với Adrenaline khí dung.",
+          "tags": [
+            "PED-24",
+            "Chi-dinh-khang-sinh",
+            "Bacterial-Tracheitis",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-085",
+          "type": "cloze",
+          "text": "Các thuốc giảm ho (như Dextromethorphan, Codein) bị chống chỉ định trong Croup vì chúng {{c1::ức chế phản xạ ho tự nhiên làm ứ đọng đờm nhầy gây bít tắc đường thở nặng hơn}}.",
+          "extra": "Ho là phản xạ bảo vệ đường thở giúp tống xuất chất tiết đang chèn ép vùng hạ thanh môn.",
+          "tags": [
+            "PED-24",
+            "Chong-chi-dinh",
+            "Thuoc-giam-ho",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-086",
+          "type": "cloze",
+          "text": "Thuốc kháng Histamin thế hệ 1 (như Promethazine, Chlorpheniramine) không được dùng trong Croup vì tác dụng kháng cholinergic làm {{c1::khô chất tiết niêm mạc tạo thành các nút nhầy đặc quánh làm tắc nghẽn thêm}}.",
+          "extra": "Đồng thời tác dụng an thần gây ngủ che lấp các dấu hiệu suy hô hấp tiến triển của bệnh nhi.",
+          "tags": [
+            "PED-24",
+            "Khong-dung",
+            "Khang-Histamin",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED24-CARD-087",
+          "type": "cloze",
+          "text": "Thuốc bị CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI khi trẻ Croup đang bứt rứt, quấy khóc kích thích là {{c1::Thuốc an thần (như Diazepam, Chloral hydrate)}}.",
+          "extra": "Bứt rứt là dấu hiệu cảnh báo thiếu oxy não! An thần sẽ triệt tiêu phản xạ hô hấp bù trừ, làm giãn cơ hầu họng và gây ngừng thở tắc nghẽn đột ngột.",
+          "tags": [
+            "PED-24",
+            "Chong-chi-dinh-tuyet-doi",
+            "Thuoc-an-than",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED24-CARD-088",
+          "type": "cloze",
+          "text": "Khi bắt buộc phải đặt ống nội khí quản cấp cứu ở bệnh nhi Croup nặng, quy tắc lựa chọn cỡ ống nội khí quản là phải {{c1::chọn cỡ ống nhỏ hơn bình thường từ 0.5 đến 1 cỡ (ví dụ dùng ống 4.0 thay vì 4.5)}}.",
+          "extra": "Do niêm mạc hạ thanh môn đang bị viêm phù nề làm hẹp khẩu kính; việc cố đẩy ống nội khí quản cỡ chuẩn sẽ gây rách niêm mạc và hoại tử vòng sụn nhẫn.",
+          "tags": [
+            "PED-24",
+            "Cap-cuu",
+            "Dat-NKQ-co-nho",
+            "barem_goc"
+          ]
+        }
+      ],
+      "apkg_file": "PED-24_Croup_Viem_thanh_khi_phe_quan_cap_2026-09-17_RELEASE_v1.apkg",
+      "html_file": null,
+      "folder_rel": "03_Ho_hap/PED-24_Croup_Viem_thanh_khi_phe_quan_cap"
     },
     {
       "id": "PED-27",

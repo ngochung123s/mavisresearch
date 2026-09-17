@@ -59,7 +59,7 @@
 | **PED-21** | P0 | Viêm phổi mắc phải cộng đồng (CAP) ở trẻ em | Tiêu chuẩn chẩn đoán thở nhanh theo tuổi (WHO); phân loại Nặng vs Không nặng; phác đồ kháng sinh kinh nghiệm ban đầu (Amoxicillin, Co-amoxiclav, Cefotaxim) và tiêu chuẩn chuyển viện. | PED-01, 03 | ✅ GATES ĐẠT (MD + APKG 100 thẻ) |
 | **PED-22** | P0 | Viêm tiểu phế quản cấp ở trẻ nhũ nhi | Lâm sàng điển hình do RSV; tiêu chuẩn phân độ nặng; bằng chứng lâm sàng: **vì sao KHÔNG dùng kháng sinh, thuốc giãn phế quản hay Corticoid thường quy**; chỉ định hút đờm và oxy. | PED-01, 20 | ✅ GATES ĐẠT (MD + APKG 100 thẻ) |
 | **PED-23** | P0 | Hen phế quản trẻ em: Chẩn đoán & Kiểm soát mạn | Tiêu chuẩn chẩn đoán hen ở trẻ < 5 tuổi và ≥ 5 tuổi; bậc thang điều trị duy trì (GINA: ICS liều thấp/vừa); kỹ thuật dùng bình xịt định liều kèm buồng đệm (MDI + Spacer); kế hoạch hành động tại nhà. | PED-08 | ❌ CHƯA CÓ |
-| **PED-24** | P0 | Croup (Viêm thanh khí phế quản cấp) | Tam chứng ho ông ổng, thở rít khi nằm yên, khàn tiếng; thang điểm Westley; xử trí: Dexamethasone liều duy nhất uống/tiêm, khí dung Adrenaline trong thể nặng. | PED-01, 20 | ❌ CHƯA CÓ |
+| **PED-24** | P0 | Croup (Viêm thanh khí phế quản cấp) | Tam chứng ho ông ổng, thở rít khi nằm yên, khàn tiếng; thang điểm Westley; xử trí: Dexamethasone liều duy nhất uống/tiêm, khí dung Adrenaline trong thể nặng. | PED-01, 20 | ✅ GATES ĐẠT (MD + APKG 88 thẻ) |
 | **PED-25** | P0 | Liệu pháp Oxy & Hỗ trợ hô hấp không xâm lấn | Chỉ định và giới hạn của canula mũi, mặt nạ có túi dự trữ; nguyên lý và chỉ định oxy dòng cao qua mũi (HFNC), thở áp lực dương liên tục (CPAP) trong suy hô hấp nhi. | PED-02 | ❌ CHƯA CÓ |
 
 ---

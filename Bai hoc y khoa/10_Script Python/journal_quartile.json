@@ -23,7 +23,8 @@
       "2026-06-29 v18: Add 5 journal for Sieu am tuyen giap + Sieu am tuyen vu lessons - European Radiology (Q1 IF 5.7), Radiographics (Q1 IF 5.0 RSNA), Thyroid (Q1 IF 5.0 ATA), Can Assoc Radiol J (Q2 IF 1.8 CAR), Cancers (Q1 IF 4.5 MDPI)",
       "2026-07-02 v19: Add Reproductive Biology and Endocrinology (Q1 IF 4.0) for Poor Ovarian Response lesson",
       "2026-07-02 v20: Add Journal of Ultrasound in Medicine (Q2, AIUM official) for TVS basic lesson",
-      "2026-09-16 v21: Add Chest, European Respiratory Journal, Lancet Respiratory Medicine, AJRCCM for Pediatric Pulmonology (PED-20)"
+      "2026-09-16 v21: Add Chest, European Respiratory Journal, Lancet Respiratory Medicine, AJRCCM for Pediatric Pulmonology (PED-20)",
+      "2026-09-17 v22: Add Pediatrics, JAMA Pediatrics, American Journal of Diseases of Children, Paediatrics & Child Health, Family Practice for Croup (PED-24)"
     ],
     "data_source": "JCR 2023/2024 categories (CARDIAC, OB/GYN, PEDIATRICS, ENDOCRINOLOGY), cross-checked với SJR 2024. Một số IF là ước lượng.",
     "tier_definitions": {
@@ -400,6 +401,24 @@
       "field": "Critical Care & Pulmonology",
       "abbr": "Am J Respir Crit Care Med",
       "notes": "American Thoracic Society (ATS) flagship journal. Preschool wheeze endotypes (Bush 2021)."
+    },
+    "Pediatrics": {
+      "if": 8.0,
+      "field": "Pediatrics",
+      "society": "AAP",
+      "specialty": "General Pediatrics"
+    },
+    "JAMA Pediatrics": {
+      "if": 26.8,
+      "field": "Pediatrics",
+      "society": "AMA",
+      "specialty": "Pediatrics"
+    },
+    "American Journal of Diseases of Children": {
+      "if": 26.8,
+      "field": "Pediatrics",
+      "society": "AMA",
+      "specialty": "Classic Pediatrics landmark"
     }
   },
   "Q2": {
@@ -575,6 +594,18 @@
       "if": 3.2,
       "field": "Virology",
       "abbr": "J Clin Virol"
+    },
+    "Paediatrics & Child Health": {
+      "if": 2.5,
+      "field": "Pediatrics",
+      "society": "Canadian Paediatric Society",
+      "specialty": "Pediatrics"
+    },
+    "Family Practice": {
+      "if": 2.4,
+      "field": "General Medicine",
+      "society": "Oxford",
+      "specialty": "Primary Care"
     }
   },
   "Q3": {
@@ -1001,7 +1032,13 @@
     "Journal of clinical virology : the official publication of the Pan American Society for Clinical Virology": "Journal of Clinical Virology",
     "The European respiratory journal": "The European Respiratory Journal",
     "The Lancet. Respiratory medicine": "The Lancet Respiratory Medicine",
-    "American journal of respiratory and critical care medicine": "American Journal of Respiratory and Critical Care Medicine"
+    "American journal of respiratory and critical care medicine": "American Journal of Respiratory and Critical Care Medicine",
+    "The Cochrane database of systematic reviews": "Cochrane Database of Systematic Reviews",
+    "Paediatrics & child health": "Paediatrics & Child Health",
+    "American journal of diseases of children (1960)": "American Journal of Diseases of Children",
+    "American Journal of Diseases of Children (1960)": "American Journal of Diseases of Children",
+    "Family practice": "Family Practice",
+    "The Lancet (London, England)": "The Lancet"
   },
   "aliases": {
     "Obstet Gynecol": "Obstetrics and Gynecology",
