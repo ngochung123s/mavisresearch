@@ -2,8 +2,8 @@
 window.PED_LIBRARY_DATA = {
   "metadata": {
     "title": "PedViewer — Thư viện Sách & Bài học Nhi khoa",
-    "version": "20260917_174026",
-    "generated_at": "2026-09-17 17:40:26",
+    "version": "20260917_174702",
+    "generated_at": "2026-09-17 17:47:02",
     "total_curriculum": 47,
     "total_ped": 19,
     "total_pedytb": 2,
@@ -5351,7 +5351,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-014",
           "type": "cloze",
-          "text": "Bốn nhóm đối tượng trẻ sơ sinh nguy cơ cao bắt buộc phải sàng lọc đường huyết chủ động gồm: {{c1::SGA (nhỏ so với tuổi thai), LGA (lớn so với tuổi thai), IDM (con mẹ đái tháo đường) và trẻ sinh non muộn}}.",
+          "text": "Bốn nhóm đối tượng trẻ sơ sinh nguy cơ cao bắt buộc phải sàng lọc đường huyết chủ động gồm: {{c1::SGA, LGA, IDM và trẻ sinh non muộn}}.",
           "extra": "Không khuyến cáo bấm gót chân sàng lọc thường quy cho trẻ đủ tháng khỏe mạnh không có yếu tố nguy cơ.",
           "tags": [
             "PED-17",
@@ -5363,7 +5363,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-015",
           "type": "cloze",
-          "text": "Ở nhóm trẻ có nguy cơ cường insulin cao như IDM và LGA, lịch trình bấm đường huyết mao mạch phải bắt đầu trong vòng {{c1::1 giờ đầu sau sinh (sau cữ bú đầu tiên)}}.",
+          "text": "Ở nhóm trẻ có nguy cơ cường insulin cao như IDM và LGA, lịch trình bấm đường huyết mao mạch phải bắt đầu trong vòng {{c1::1 giờ đầu sau sinh}}.",
           "extra": "Tình trạng cường insulin nội sinh có thể khiến đường huyết tụt dốc cực nhanh ngay sau khi cắt rốn.",
           "tags": [
             "PED-17",
@@ -5387,7 +5387,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-017",
           "type": "cloze",
-          "text": "Dấu hiệu lâm sàng thần kinh cơ sớm và phổ biến nhất của hạ đường huyết sơ sinh là {{c1::run giật chi (Jitteriness) kèm bú kém hoặc li bì}}.",
+          "text": "Dấu hiệu lâm sàng thần kinh cơ sớm và phổ biến nhất của hạ đường huyết sơ sinh là {{c1::run giật chi (Jitteriness)}}.",
           "extra": "Các triệu chứng hạ đường huyết sơ sinh rất tinh tế và không đặc hiệu, đòi hỏi sự nhạy bén của người khám.",
           "tags": [
             "PED-17",
@@ -5399,7 +5399,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-018",
           "type": "cloze",
-          "text": "Đặc điểm phân biệt lâm sàng mấu chốt giữa Jitteriness (run chi) và Co giật thực sự sơ sinh là Jitteriness {{c1::dừng lại hoàn toàn khi người khám giữ nhẹ hoặc gập nhẹ chi đó}}.",
+          "text": "Đặc điểm phân biệt lâm sàng mấu chốt giữa Jitteriness (run chi) và Co giật thực sự sơ sinh là Jitteriness {{c1::dừng lại hoàn toàn khi giữ nhẹ chi}}.",
           "extra": "Co giật thực sự vẫn tiếp tục giật nhịp nhàng cơ học và thường đi kèm cử động bất thường ở mắt miệng.",
           "tags": [
             "PED-17",
@@ -5435,7 +5435,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-021",
           "type": "cloze",
-          "text": "Tuyệt đối CẤM tiêm bolus các dung dịch Glucose ưu trương 20%, 30% hoặc 50% vì nguy cơ {{c1::xuất huyết nội sọ và kích thích tụy tiết insulin dội ngược gây hạ đường huyết tái phát}}.",
+          "text": "Tuyệt đối CẤM tiêm bolus các dung dịch Glucose ưu trương 20%, 30% hoặc 50% vì nguy cơ {{c1::hạ đường huyết dội ngược tái phát}}.",
           "extra": "Dịch ưu trương gây dịch chuyển nước ồ ạt từ khoang nội bào ra lòng mạch làm tổn thương tế bào não.",
           "tags": [
             "PED-17",
@@ -5447,7 +5447,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-022",
           "type": "cloze",
-          "text": "Công thức tính nhanh tốc độ truyền glucose tại giường: GIR (mg/kg/phút) = {{c1::[Tốc độ dịch (mL/h) × Nồng độ Glucose (%)] / [6 × Cân nặng (kg)]}}.",
+          "text": "Công thức tính nhanh tốc độ truyền glucose tại giường: GIR (mg/kg/phút) = {{c1::6 × Cân nặng (kg)}}.",
           "extra": "Công thức này áp dụng cho mọi loại nồng độ dung dịch glucose pha truyền tĩnh mạch.",
           "tags": [
             "PED-17",
@@ -5495,7 +5495,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-026",
           "type": "cloze",
-          "text": "Khi nồng độ dịch truyền Glucose vượt quá 12.5%, bác sĩ bắt buộc phải thiết lập {{c1::đường truyền tĩnh mạch trung tâm (catheter tĩnh mạch rốn UVC hoặc PICC)}}.",
+          "text": "Khi nồng độ dịch truyền Glucose vượt quá 12.5%, bác sĩ bắt buộc phải thiết lập {{c1::đường truyền tĩnh mạch trung tâm}}.",
           "extra": "Truyền dịch ưu trương qua ngoại vi có nguy cơ thoát mạch gây loét hoại tử da mô mềm sâu dẫn tới tàn phế.",
           "tags": [
             "PED-17",
@@ -5531,7 +5531,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-029",
           "type": "cloze",
-          "text": "Mẫu máu quan trọng (Critical blood sample) bắt buộc phải được lấy tại thời điểm {{c1::trẻ đang bị hạ đường huyết (glucose máu dưới 50 mg/dL trước khi tiêm thuốc)}}.",
+          "text": "Mẫu máu quan trọng (Critical blood sample) bắt buộc phải được lấy tại thời điểm {{c1::trẻ đang bị hạ đường huyết}}.",
           "extra": "Nếu lấy khi đường huyết đã được nâng lên bình thường, các thông số nội tiết sẽ bị sai lệch hoàn toàn.",
           "tags": [
             "PED-17",
@@ -5543,7 +5543,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-030",
           "type": "cloze",
-          "text": "Thuốc lựa chọn hàng đầu trong điều trị nội khoa hạ đường huyết cường insulin bẩm sinh kéo dài ở trẻ sơ sinh là {{c1::Diazoxide (liều 10 đến 15 mg/kg/ngày chia 3 lần uống)}}.",
+          "text": "Thuốc lựa chọn hàng đầu trong điều trị nội khoa hạ đường huyết cường insulin bẩm sinh kéo dài ở trẻ sơ sinh là {{c1::Diazoxide}}.",
           "extra": "Diazoxide mở kênh K-ATP tại tế bào beta đảo tụy, gây tăng phân cực màng và ức chế giải phóng insulin.",
           "tags": [
             "PED-17",
@@ -5555,7 +5555,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-031",
           "type": "cloze",
-          "text": "Trong hạ đường huyết kháng trị, Hydrocortisone liều 2.5–5 mg/kg/ngày tiêm tĩnh mạch có tác dụng {{c1::kích thích tân tạo đường tại gan và làm giảm độ nhạy cảm ngoại vi với insulin}}.",
+          "text": "Trong hạ đường huyết kháng trị, Hydrocortisone liều 2.5–5 mg/kg/ngày tiêm tĩnh mạch có tác dụng {{c1::kích thích tân tạo đường tại gan}}.",
           "extra": "Đặc biệt hiệu quả trong các trường hợp suy giảm tuyến thượng thận hoặc suy tuyến yên toàn bộ.",
           "tags": [
             "PED-17",
@@ -5567,7 +5567,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-032",
           "type": "cloze",
-          "text": "Glucagon liều 0.5–1.0 mg tiêm bắp hoặc tĩnh mạch chỉ phát huy hiệu quả nâng đường huyết khi {{c1::gan của trẻ còn đủ kho dự trữ glycogen}}.",
+          "text": "Glucagon liều 0.5–1.0 mg tiêm bắp hoặc tĩnh mạch chỉ phát huy hiệu quả nâng đường huyết khi {{c1::còn đủ kho dự trữ glycogen}}.",
           "extra": "Glucagon rất hiệu quả ở trẻ IDM (kho glycogen dồi dào), nhưng kém hiệu quả ở trẻ sinh non hoặc SGA.",
           "tags": [
             "PED-17",
@@ -5579,7 +5579,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-033",
           "type": "cloze",
-          "text": "Quy trình cai dịch truyền glucose an toàn đòi hỏi giảm dần GIR từng bước {{c1::1 đến 2 mg/kg/phút mỗi 4 đến 6 giờ}} song song với việc tăng lượng sữa bú mẹ.",
+          "text": "Quy trình cai dịch truyền glucose an toàn đòi hỏi giảm dần GIR từng bước {{c1::1 đến 2 mg/kg/phút}} song song với việc tăng lượng sữa bú mẹ.",
           "extra": "Tuyệt đối cấm rút kim ngừng dịch đột ngột vì sẽ gây cơn hạ đường huyết dội ngược nguy hiểm.",
           "tags": [
             "PED-17",
@@ -5615,7 +5615,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-036",
           "type": "cloze",
-          "text": "Theo WHO, hạ thân nhiệt trung bình là từ {{c1::32.0 đến 35.9°C}}, và hạ thân nhiệt nặng là khi nhiệt độ đo nách dưới {{c2::32.0°C}}.",
+          "text": "Theo WHO, hạ thân nhiệt trung bình là từ {{c1::32.0 đến 35.9°C}}, và hạ thân nhiệt nặng là khi nhiệt độ đo nách dưới {{c1::32.0°C}}.",
           "extra": "Hạ thân nhiệt nặng đe dọa ngừng tuần hoàn, xuất huyết phổi và tử vong nếu không hồi sức kịp thời.",
           "tags": [
             "PED-17",
@@ -5627,7 +5627,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-037",
           "type": "cloze",
-          "text": "Bốn cơ chế mất nhiệt vật lý từ cơ thể trẻ sơ sinh ra môi trường bên ngoài gồm: {{c1::bốc hơi, dẫn truyền, đối lưu và bức xạ}}.",
+          "text": "Bốn cơ chế mất nhiệt vật lý từ cơ thể trẻ sơ sinh ra môi trường bên ngoài gồm: {{c1::bốc hơi, dẫn truyền, đối lưu, bức xạ}}.",
           "extra": "Kiểm soát đồng thời cả bốn cơ chế này là nguyên lý cốt lõi của chuỗi ủ ấm sơ sinh.",
           "tags": [
             "PED-17",
@@ -5639,7 +5639,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-038",
           "type": "cloze",
-          "text": "Con đường mất nhiệt lớn nhất và diễn ra nhanh nhất ở trẻ sơ sinh ngay sau khi chào đời tại phòng sinh là {{c1::mất nhiệt do bốc hơi nước ối qua bề mặt da ướt}}.",
+          "text": "Con đường mất nhiệt lớn nhất và diễn ra nhanh nhất ở trẻ sơ sinh ngay sau khi chào đời tại phòng sinh là {{c1::bốc hơi nước ối}}.",
           "extra": "Mỗi 1 mL nước ối bay hơi mang theo 0.58 kcal nhiệt lượng của cơ thể.",
           "tags": [
             "PED-17",
@@ -5675,7 +5675,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-041",
           "type": "cloze",
-          "text": "Biến chứng mạch máu phổi nguy hiểm nhất của hạ thân nhiệt là gây co thắt động mạch phổi dẫn đến {{c1::Tăng áp động mạch phổi tồn tại ở trẻ sơ sinh (PPHN)}}.",
+          "text": "Biến chứng mạch máu phổi nguy hiểm nhất của hạ thân nhiệt là gây co thắt động mạch phổi dẫn đến {{c1::Tăng áp động mạch phổi tồn tại (PPHN)}}.",
           "extra": "Co mạch phổi tạo shunt Phải - Trái qua ống động mạch gây thiếu oxy máu trơ khó hồi phục.",
           "tags": [
             "PED-17",
@@ -5711,7 +5711,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-BG-044",
           "type": "cloze",
-          "text": "Làm ấm ngoại vi quá nhanh ở trẻ hạ thân nhiệt nặng sẽ kích hoạt biến chứng nguy hiểm là {{c1::Sốc giãn mạch (Rewarming shock) gây tụt huyết áp và ngừng tim}}.",
+          "text": "Làm ấm ngoại vi quá nhanh ở trẻ hạ thân nhiệt nặng sẽ kích hoạt biến chứng nguy hiểm là {{c1::Sốc giãn mạch (Rewarming shock)}}.",
           "extra": "Giãn mạch ngoại vi đột ngột làm cạn kiệt tuần hoàn trung tâm và xả toan lactic từ chi về tim.",
           "tags": [
             "PED-17",
@@ -5735,7 +5735,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-002",
           "type": "cloze",
-          "text": "Trong thử nghiệm Sugar Babies Study, chế phẩm được sử dụng là Dextrose gel nồng độ {{c1::40% với liều lượng 0.5 mL/kg (tương đương 200 mg/kg)}} bôi niêm mạc má.",
+          "text": "Trong thử nghiệm Sugar Babies Study, chế phẩm được sử dụng là Dextrose gel nồng độ {{c1::Dextrose gel 40% liều 0.5 mL/kg}} bôi niêm mạc má.",
           "extra": "Thuốc được miết đều vào niêm mạc má giúp glucose hấp thu trực tiếp nhanh chóng vào hệ tuần hoàn.",
           "tags": [
             "PED-17",
@@ -5747,7 +5747,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-003",
           "type": "cloze",
-          "text": "Thử nghiệm Sugar Babies Study chứng minh Dextrose gel 40% làm giảm đáng kể tỷ lệ thất bại điều trị từ 24% ở nhóm giả dược xuống còn {{c1::14% ở nhóm can thiệp (RR 0.57, P = 0.04)}}.",
+          "text": "Thử nghiệm Sugar Babies Study chứng minh Dextrose gel 40% làm giảm đáng kể tỷ lệ thất bại điều trị từ 24% ở nhóm giả dược xuống còn {{c1::14%}}.",
           "extra": "Xác lập Dextrose gel 40% là biện pháp can thiệp đầu tay không xâm lấn chuẩn mực.",
           "tags": [
             "PED-17",
@@ -5759,7 +5759,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-004",
           "type": "cloze",
-          "text": "Việc can thiệp Dextrose gel 40% bôi niêm mạc má trong Sugar Babies Study giúp làm giảm gần một nửa {{c1::tỷ lệ trẻ phải nhập khoa hồi sức tích cực sơ sinh NICU (RR 0.54, P = 0.03)}}.",
+          "text": "Việc can thiệp Dextrose gel 40% bôi niêm mạc má trong Sugar Babies Study giúp làm giảm gần một nửa {{c1::tỷ lệ trẻ phải nhập NICU}}.",
           "extra": "Giảm tỷ lệ nhập NICU giúp bảo tồn việc nuôi con bằng sữa mẹ và giảm chi phí điều trị.",
           "tags": [
             "PED-17",
@@ -5807,7 +5807,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-008",
           "type": "cloze",
-          "text": "Trong nghiên cứu CHYLD, khi nồng độ glucose máu được kiểm soát duy trì ≥ 47 mg/dL, tỷ lệ suy giảm phát triển thần kinh lúc 2 tuổi {{c1::không khác biệt so với trẻ không hạ đường huyết (RR 0.95, P = 0.67)}}.",
+          "text": "Trong nghiên cứu CHYLD, khi nồng độ glucose máu được kiểm soát duy trì ≥ 47 mg/dL, tỷ lệ suy giảm phát triển thần kinh lúc 2 tuổi {{c1::không khác biệt}}.",
           "extra": "Chứng minh can thiệp đúng ngưỡng bảo tồn hoàn hảo tiên lượng phát triển nhận thức của trẻ.",
           "tags": [
             "PED-17",
@@ -5819,7 +5819,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-009",
           "type": "cloze",
-          "text": "Báo cáo lâm sàng của AAP (Pediatrics 2011) xác lập phương pháp tiếp cận ngưỡng can thiệp động học theo {{c1::từng mốc giờ tuổi sau sinh (0-4h, 4-24h và sau 24h)}}.",
+          "text": "Báo cáo lâm sàng của AAP (Pediatrics 2011) xác lập phương pháp tiếp cận ngưỡng can thiệp động học theo {{c1::từng mốc giờ tuổi sau sinh}}.",
           "extra": "Thay thế hoàn toàn quan niệm cứng nhắc cũ dùng một ngưỡng cố định cho mọi thời điểm.",
           "tags": [
             "PED-17",
@@ -5843,7 +5843,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-011",
           "type": "cloze",
-          "text": "Theo PES 2015, trước khi cho trẻ hạ đường huyết kéo dài xuất viện, bắt buộc phải thực hiện {{c1::nghiệm pháp nhịn ăn an toàn trong 6 đến 8 giờ}} để chứng minh đường huyết duy trì vững chắc > 60 mg/dL.",
+          "text": "Theo PES 2015, trước khi cho trẻ hạ đường huyết kéo dài xuất viện, bắt buộc phải thực hiện {{c1::nhịn ăn an toàn trong 6 đến 8 giờ}} để chứng minh đường huyết duy trì vững chắc > 60 mg/dL.",
           "extra": "Đảm bảo trẻ có khả năng tự duy trì đường huyết khi ngủ xuyên đêm tại nhà.",
           "tags": [
             "PED-17",
@@ -5855,7 +5855,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-012",
           "type": "cloze",
-          "text": "Tổng quan hệ thống Cochrane Review (McCall et al., 2018) đã tổng hợp dữ liệu từ 25 thử nghiệm lâm sàng ngẫu nhiên trên {{c1::3,433 trẻ sơ sinh sinh non hoặc nhẹ cân}}.",
+          "text": "Tổng quan hệ thống Cochrane Review (McCall et al., 2018) đã tổng hợp dữ liệu từ 25 thử nghiệm lâm sàng ngẫu nhiên trên {{c1::3,433 trẻ}}.",
           "extra": "Cung cấp bằng chứng mức độ cao nhất (Level 1) về hiệu quả của các can thiệp ủ ấm phòng sinh.",
           "tags": [
             "PED-17",
@@ -5867,7 +5867,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-013",
           "type": "cloze",
-          "text": "Cochrane Review 2018 chứng minh việc bọc túi nhựa/màng polyethylene ngay khi sinh không lau khô giúp giảm {{c1::32% nguy cơ hạ thân nhiệt lúc nhập viện (RR 0.68, 95% CI 0.58–0.79)}}.",
+          "text": "Cochrane Review 2018 chứng minh việc bọc túi nhựa/màng polyethylene ngay khi sinh không lau khô giúp giảm {{c1::32%}}.",
           "extra": "Hiệu quả giữ ấm vượt trội so với chỉ lau khô và đắp khăn ấm kinh điển thông thường.",
           "tags": [
             "PED-17",
@@ -5879,7 +5879,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-014",
           "type": "cloze",
-          "text": "Chỉ định bọc túi nhựa Polyethylene ngay tại phòng sinh theo khuyến cáo quốc tế áp dụng cho trẻ sinh non có tuổi thai dưới {{c1::32 tuần hoặc cân nặng lúc sinh dưới 1500 gram}}.",
+          "text": "Chỉ định bọc túi nhựa Polyethylene ngay tại phòng sinh theo khuyến cáo quốc tế áp dụng cho trẻ sinh non có tuổi thai dưới {{c1::32 tuần hoặc cân nặng < 1500 gram}}.",
           "extra": "Nhóm trẻ này có lớp sừng da rất mỏng và tốc độ mất nhiệt bốc hơi cao nhất.",
           "tags": [
             "PED-17",
@@ -5903,7 +5903,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-016",
           "type": "cloze",
-          "text": "Nghiên cứu của Mạng lưới Sơ sinh Canada (Lyu et al., JAMA Pediatr 2015) được tiến hành trên một cỡ mẫu rất lớn gồm {{c1::9,833 trẻ sinh non dưới 33 tuần tuổi thai}}.",
+          "text": "Nghiên cứu của Mạng lưới Sơ sinh Canada (Lyu et al., JAMA Pediatr 2015) được tiến hành trên một cỡ mẫu rất lớn gồm {{c1::9,833 trẻ}}.",
           "extra": "Nghiên cứu phân tích mối tương quan giữa thân nhiệt nhập viện và nguy cơ tử vong.",
           "tags": [
             "PED-17",
@@ -5915,7 +5915,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-017",
           "type": "cloze",
-          "text": "Nghiên cứu của Lyu et al. (JAMA Pediatr 2015) chứng minh mỗi 1°C giảm thân nhiệt nhập viện dưới 36.5°C làm tăng {{c1::28% nguy cơ tử vong sơ sinh (aOR 1.28, 95% CI 1.16–1.41)}}.",
+          "text": "Nghiên cứu của Lyu et al. (JAMA Pediatr 2015) chứng minh mỗi 1°C giảm thân nhiệt nhập viện dưới 36.5°C làm tăng {{c1::28%}}.",
           "extra": "Khẳng định thân nhiệt khi nhập viện là một yếu tố dự báo sinh tồn độc lập cực kỳ mạnh mẽ.",
           "tags": [
             "PED-17",
@@ -5927,7 +5927,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-018",
           "type": "cloze",
-          "text": "Trong nghiên cứu của Lyu et al. (2015), mỗi 1°C giảm thân nhiệt nhập viện dưới 36.5°C còn làm tăng {{c1::11% nguy cơ mắc nhiễm trùng huyết khởi phát muộn (aOR 1.11, 95% CI 1.04–1.20)}}.",
+          "text": "Trong nghiên cứu của Lyu et al. (2015), mỗi 1°C giảm thân nhiệt nhập viện dưới 36.5°C còn làm tăng {{c1::11%}}.",
           "extra": "Hạ thân nhiệt làm suy giảm miễn dịch và tổn thương hàng rào bảo vệ niêm mạc ruột.",
           "tags": [
             "PED-17",
@@ -5939,7 +5939,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-019",
           "type": "cloze",
-          "text": "Nghiên cứu của Mạng lưới Nghiên cứu Sơ sinh Hoa Kỳ (Laptook et al., J Pediatr 2018) khảo sát đoàn hệ gồm {{c1::5,477 trẻ cực sinh non dưới 29 tuần tuổi thai}}.",
+          "text": "Nghiên cứu của Mạng lưới Nghiên cứu Sơ sinh Hoa Kỳ (Laptook et al., J Pediatr 2018) khảo sát đoàn hệ gồm {{c1::5,477 trẻ}}.",
           "extra": "Đánh giá các kết cục bệnh tật nội viện nặng nề của trẻ sơ sinh cực non.",
           "tags": [
             "PED-17",
@@ -5963,7 +5963,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-021",
           "type": "cloze",
-          "text": "Trong nghiên cứu của Laptook et al. (2018), hạ thân nhiệt nhập viện làm tăng 29% nguy cơ mắc {{c1::Xuất huyết nội sọ nặng độ 3–4 (IVH)}} và tăng 27% nguy cơ mắc {{c2::Viêm ruột hoại tử (NEC)}}.",
+          "text": "Trong nghiên cứu của Laptook et al. (2018), hạ thân nhiệt nhập viện làm tăng 29% nguy cơ mắc {{c1::Xuất huyết nội sọ nặng độ 3–4 (IVH)}} và tăng 27% nguy cơ mắc {{c1::Viêm ruột hoại tử (NEC)}}.",
           "extra": "Dao động lưu lượng máu não và thiếu máu tưới nuôi dưỡng ruột do lạnh là cơ chế bệnh sinh chính.",
           "tags": [
             "PED-17",
@@ -5987,7 +5987,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-023",
           "type": "cloze",
-          "text": "Mô mỡ nâu (BAT) phân bố giải phẫu tập trung chủ yếu tại 4 vùng: {{c1::gian bả vai, quanh thận, nách và trung thất}}.",
+          "text": "Mô mỡ nâu (BAT) phân bố giải phẫu tập trung chủ yếu tại 4 vùng: {{c1::gian bả vai, quanh thận, nách, trung thất}}.",
           "extra": "Máu đi qua mạng lưới mao mạch dày đặc của BAT được sưởi ấm rồi phân phối về các tạng trung tâm.",
           "tags": [
             "PED-17",
@@ -6095,7 +6095,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-032",
           "type": "cloze",
-          "text": "Khuyến cáo của WHO và Bộ Y tế yêu cầu trì hoãn việc tắm lần đầu cho trẻ sơ sinh trong ít nhất {{c1::24 giờ sau sinh (hoặc 48 giờ đối với trẻ nhẹ cân)}}.",
+          "text": "Khuyến cáo của WHO và Bộ Y tế yêu cầu trì hoãn việc tắm lần đầu cho trẻ sơ sinh trong ít nhất {{c1::24 giờ sau sinh}}.",
           "extra": "Tắm sớm làm mất lớp chất gây bảo vệ (vernix caseosa) và gây mất nhiệt bốc hơi dữ dội.",
           "tags": [
             "PED-17",
@@ -6119,7 +6119,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-034",
           "type": "cloze",
-          "text": "Cơ chế của hiện tượng tụt thân nhiệt trung tâm (Core drop) khi làm ấm nhanh: Máu lạnh ứ đọng từ các chi dồn ồ ạt về tim làm {{c1::nhiệt độ lõi cơ thể tụt sâu hơn và toan lactic máu bùng phát}}.",
+          "text": "Cơ chế của hiện tượng tụt thân nhiệt trung tâm (Core drop) khi làm ấm nhanh: Máu lạnh ứ đọng từ các chi dồn ồ ạt về tim làm {{c1::nhiệt độ lõi cơ thể tụt sâu hơn}}.",
           "extra": "Đây là thành tố quan trọng trong cơ chế bệnh sinh của cơn sốc giãn mạch (Rewarming shock).",
           "tags": [
             "PED-17",
@@ -6131,7 +6131,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-035",
           "type": "cloze",
-          "text": "Thuốc can thiệp hồi sức ban đầu chuẩn mực khi trẻ xuất hiện sốc giãn mạch tụt huyết áp trong quá trình làm ấm là {{c1::Natri Clorid 0.9% liều 10 mL/kg tiêm truyền tĩnh mạch trong 20–30 phút}}.",
+          "text": "Thuốc can thiệp hồi sức ban đầu chuẩn mực khi trẻ xuất hiện sốc giãn mạch tụt huyết áp trong quá trình làm ấm là {{c1::Natri Clorid 0.9% liều 10 mL/kg}}.",
           "extra": "Bù dịch đẳng trương kịp thời làm đầy thể tích lòng mạch giãn rộng giúp phục hồi huyết áp động mạch.",
           "tags": [
             "PED-17",
@@ -6143,7 +6143,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-036",
           "type": "cloze",
-          "text": "Thuyết Pederson kinh điển: Tình trạng tăng đường huyết mạn tính của mẹ kích thích tụy thai nhi tăng sản tế bào beta đảo tụy và gây {{c1::tăng tiết nồng độ Insulin trong máu thai nhi (Hyperinsulinism)}}.",
+          "text": "Thuyết Pederson kinh điển: Tình trạng tăng đường huyết mạn tính của mẹ kích thích tụy thai nhi tăng sản tế bào beta đảo tụy và gây {{c1::tăng tiết nồng độ Insulin (Hyperinsulinism)}}.",
           "extra": "Insulin đóng vai trò như một hormone tăng trưởng làm thai to (LGA) và tích lũy mỡ nhiều.",
           "tags": [
             "PED-17",
@@ -6155,7 +6155,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-037",
           "type": "cloze",
-          "text": "Nồng độ insulin máu cao ở trẻ IDM đồng thời ức chế hai con đường sống còn tại gan là {{c1::ly giải glycogen (glycogenolysis) và tân tạo đường (gluconeogenesis)}}.",
+          "text": "Nồng độ insulin máu cao ở trẻ IDM đồng thời ức chế hai con đường sống còn tại gan là {{c1::ly giải glycogen và tân tạo đường}}.",
           "extra": "Khiến trẻ hoàn toàn mất khả năng tự sản xuất glucose nội sinh sau khi cắt rốn.",
           "tags": [
             "PED-17",
@@ -6167,7 +6167,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-038",
           "type": "cloze",
-          "text": "Trẻ nhỏ so với tuổi thai (SGA) bị hạ đường huyết chủ yếu do {{c1::cạn kiệt kho dự trữ glycogen tại gan và thiếu hụt mô mỡ cung cấp glycerol/acid béo}}.",
+          "text": "Trẻ nhỏ so với tuổi thai (SGA) bị hạ đường huyết chủ yếu do {{c1::cạn kiệt kho dự trữ glycogen tại gan}}.",
           "extra": "Suy tuần hoàn bánh nhau mạn tính tước đoạt cơ hội tích lũy dưỡng chất trong 3 tháng cuối thai kỳ.",
           "tags": [
             "PED-17",
@@ -6179,7 +6179,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-039",
           "type": "cloze",
-          "text": "Trong tình trạng ngạt sau sinh, chuyển hóa chuyển dịch sang con đường đường phân kỵ khí chỉ tạo ra {{c1::2 phân tử ATP (thay vì 36–38 ATP theo hiếu khí)}}, tiêu tốn glucose gấp 18 lần.",
+          "text": "Trong tình trạng ngạt sau sinh, chuyển hóa chuyển dịch sang con đường đường phân kỵ khí chỉ tạo ra {{c1::2 phân tử ATP}}, tiêu tốn glucose gấp 18 lần.",
           "extra": "Điều này làm cạn kiệt toàn bộ kho dự trữ glycogen chỉ sau vài giờ và tạo lượng lớn acid lactic gây toan máu.",
           "tags": [
             "PED-17",
@@ -6191,7 +6191,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-040",
           "type": "cloze",
-          "text": "Tiêm bolus Glucose ưu trương 20–30% sẽ kích thích tế bào beta tụy tiết ồ ạt insulin nội sinh, dẫn đến cơn {{c1::hạ đường huyết dội ngược (rebound hypoglycemia) nghiêm trọng sau 30 phút}}.",
+          "text": "Tiêm bolus Glucose ưu trương 20–30% sẽ kích thích tế bào beta tụy tiết ồ ạt insulin nội sinh, dẫn đến cơn {{c1::hạ đường huyết dội ngược (rebound hypoglycemia)}}.",
           "extra": "Đây là nguyên nhân chính giải thích vì sao dung dịch Glucose 10% là lựa chọn an toàn duy nhất.",
           "tags": [
             "PED-17",
@@ -6215,7 +6215,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-042",
           "type": "cloze",
-          "text": "Hiện tượng đa hồng cầu (Hematocrit > 65%) ở trẻ sơ sinh làm giảm thể tích huyết tương tiếp xúc với que thử, gây ra hiện tượng {{c1::đo đường huyết thấp giả tạo trên máy thử mao mạch}}.",
+          "text": "Hiện tượng đa hồng cầu (Hematocrit > 65%) ở trẻ sơ sinh làm giảm thể tích huyết tương tiếp xúc với que thử, gây ra hiện tượng {{c1::thấp giả tạo trên máy thử mao mạch}}.",
           "extra": "Luôn kiểm tra Hematocrit và đối chiếu với đường huyết huyết tương tĩnh mạch khi có nghi ngờ.",
           "tags": [
             "PED-17",
@@ -6227,7 +6227,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED17-EBM-043",
           "type": "cloze",
-          "text": "Ở trẻ bị hạ thân nhiệt nặng hoặc sốc có co mạch ngoại vi nghiêm trọng, mẫu máu bấm gót chân có thể cho nồng độ glucose {{c1::thấp hơn đáng kể so với nồng độ glucose trong tuần hoàn trung tâm}}.",
+          "text": "Ở trẻ bị hạ thân nhiệt nặng hoặc sốc có co mạch ngoại vi nghiêm trọng, mẫu máu bấm gót chân có thể cho nồng độ glucose {{c1::thấp hơn đáng kể}}.",
           "extra": "Do ứ trệ tuần hoàn mao mạch tại chỗ tiêu thụ glucose kéo dài.",
           "tags": [
             "PED-17",
@@ -9064,7 +9064,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-006",
           "type": "cloze",
-          "text": "Giai đoạn tiền triệu khởi phát của Croup virus điển hình thường kéo dài 1–2 ngày với các dấu hiệu {{c1::viêm long đường hô hấp trên (sốt nhẹ, chảy nước mũi trong, ho húng hắng)}}.",
+          "text": "Giai đoạn tiền triệu khởi phát của Croup virus điển hình thường kéo dài 1–2 ngày với các dấu hiệu {{c1::viêm long đường hô hấp trên}}.",
           "extra": "Sau giai đoạn viêm long ban đầu, virus lan xuống thanh quản và khí quản kích hoạt phù nề mô đệm hạ thanh môn.",
           "tags": [
             "PED-24",
@@ -9076,7 +9076,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-007",
           "type": "cloze",
-          "text": "Thể Croup co thắt (Spasmodic Croup) có đặc điểm lâm sàng quyết định để phân biệt với Croup virus là trẻ {{c1::hoàn toàn KHÔNG có sốt và không có giai đoạn viêm long hô hấp trên trước đó}}.",
+          "text": "Thể Croup co thắt (Spasmodic Croup) có đặc điểm lâm sàng quyết định để phân biệt với Croup virus là trẻ {{c1::hoàn toàn KHÔNG có sốt}}.",
           "extra": "Croup co thắt thường khởi phát đột ngột lúc nửa đêm ở trẻ có cơ địa dị ứng và có xu hướng tái phát nhiều lần.",
           "tags": [
             "PED-24",
@@ -9088,7 +9088,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-008",
           "type": "cloze",
-          "text": "Khác với Croup virus kéo dài 3–7 ngày, cơn Croup co thắt (Spasmodic Croup) thường có xu hướng {{c1::biến mất nhanh chóng sau vài giờ hoặc sáng hôm sau}}.",
+          "text": "Khác với Croup virus kéo dài 3–7 ngày, cơn Croup co thắt (Spasmodic Croup) thường có xu hướng {{c1::biến mất nhanh chóng sau vài giờ}}.",
           "extra": "Đưa trẻ ra ngoài trời mát hít thở không khí đêm hoặc khí dung ẩm thường làm cơn co thắt thanh quản dịu đi nhanh chóng.",
           "tags": [
             "PED-24",
@@ -9220,7 +9220,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-019",
           "type": "cloze",
-          "text": "Theo định luật Poiseuille, kháng lực đường thở (R) tỉ lệ nghịch với {{c1::lũy thừa bậc 4 của bán kính lòng ống (R ∝ 1/r^4)}}.",
+          "text": "Theo định luật Poiseuille, kháng lực đường thở (R) tỉ lệ nghịch với {{c1::lũy thừa bậc 4 của bán kính}}.",
           "extra": "Công thức Poiseuille: R = (8ηL) / (πr^4). Bán kính giảm một nửa thì kháng lực tăng vọt 2^4 = 16 lần.",
           "tags": [
             "PED-24",
@@ -9268,7 +9268,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-023",
           "type": "cloze",
-          "text": "Theo nguyên lý Bernoulli, khi dòng khí đi qua một đoạn ống dẫn khí bị chít hẹp, vận tốc dòng khí tăng vọt sẽ làm {{c1::áp suất thủy tĩnh tác động lên thành ống sụt giảm mạnh}}.",
+          "text": "Theo nguyên lý Bernoulli, khi dòng khí đi qua một đoạn ống dẫn khí bị chít hẹp, vận tốc dòng khí tăng vọt sẽ làm {{c1::áp suất thủy tĩnh sụt giảm mạnh}}.",
           "extra": "Áp suất âm tương đối bên trong chỗ hẹp sẽ hút các mô mềm và dây thanh âm khép sát vào nhau, cản trở thêm dòng khí.",
           "tags": [
             "PED-24",
@@ -9304,7 +9304,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-026",
           "type": "cloze",
-          "text": "Hậu quả cuối cùng của tắc nghẽn đường thở thanh quản kéo dài không được giải phóng là tình trạng {{c1::giảm thông khí phế nang, thiếu oxy máu và toan hô hấp do ứ CO2}}.",
+          "text": "Hậu quả cuối cùng của tắc nghẽn đường thở thanh quản kéo dài không được giải phóng là tình trạng {{c1::giảm thông khí phế nang và toan hô hấp}}.",
           "extra": "Toan hô hấp kết hợp toan chuyển hóa lactic do thiếu oxy mô sẽ làm ức chế cơ tim và ngừng thở.",
           "tags": [
             "PED-24",
@@ -9316,7 +9316,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-027",
           "type": "cloze",
-          "text": "Tam chứng lâm sàng kinh điển của Viêm thanh khí phế quản cấp (Croup) gồm: {{c1::Ho tiếng ông ổng (Barking cough), Khàn tiếng (Hoarseness), và Thở rít thì hít vào (Inspiratory stridor)}}.",
+          "text": "Tam chứng lâm sàng kinh điển của Viêm thanh khí phế quản cấp (Croup) gồm: {{c1::Ho tiếng ông ổng, Khàn tiếng, Thở rít hít vào}}.",
           "extra": "Tam chứng này xuất hiện đồng thời giúp bác sĩ chẩn đoán xác định Croup ngay tại giường bệnh mà không cần xét nghiệm.",
           "tags": [
             "PED-24",
@@ -9340,7 +9340,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-029",
           "type": "cloze",
-          "text": "Cơ chế gây ra triệu chứng Khàn tiếng (Hoarseness) trong Croup là do {{c1::phù nề và viêm nhiễm trực tiếp tại các dây thanh âm (Vocal cords)}}.",
+          "text": "Cơ chế gây ra triệu chứng Khàn tiếng (Hoarseness) trong Croup là do {{c1::phù nề tại các dây thanh âm}}.",
           "extra": "Dây thanh âm bị viêm phù dày lên làm mất tính đàn hồi mềm mại, không thể rung động và khép mở nhịp nhàng khi phát âm.",
           "tags": [
             "PED-24",
@@ -9364,7 +9364,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-031",
           "type": "cloze",
-          "text": "Nếu trẻ có biểu hiện Thở rít thanh quản nghe thấy ở cả hai thì (biphasic stridor: cả hít vào và thở ra), điều này phản ánh mức độ tắc nghẽn {{c1::cực kỳ nặng nề hoặc tổn thương hạ thanh môn dạng cố định}}.",
+          "text": "Nếu trẻ có biểu hiện Thở rít thanh quản nghe thấy ở cả hai thì (biphasic stridor: cả hít vào và thở ra), điều này phản ánh mức độ tắc nghẽn {{c1::cực kỳ nặng nề hoặc cố định}}.",
           "extra": "Thở rít hai thì là dấu hiệu báo động đỏ đe dọa suy hô hấp cấp tính cần can thiệp cấp cứu ngay.",
           "tags": [
             "PED-24",
@@ -9376,7 +9376,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-032",
           "type": "cloze",
-          "text": "Ở bệnh nhi Croup thể nhẹ, tiếng thở rít thanh quản chỉ xuất hiện khi {{c1::trẻ kích thích, quấy khóc, ho hoặc vận động gắng sức}}.",
+          "text": "Ở bệnh nhi Croup thể nhẹ, tiếng thở rít thanh quản chỉ xuất hiện khi {{c1::trẻ kích thích, quấy khóc gắng sức}}.",
           "extra": "Khi trẻ nằm yên ngủ ngoan, dòng khí lưu thông chậm nên không đủ tạo ra dòng khí xoáy phát ra tiếng thở rít.",
           "tags": [
             "PED-24",
@@ -9388,7 +9388,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-033",
           "type": "cloze",
-          "text": "Dấu hiệu lâm sàng ranh giới quyết định để phân biệt Croup thể vừa với Croup thể nhẹ là sự xuất hiện của {{c1::tiếng thở rít thanh quản ngay cả khi trẻ đang nằm yên tĩnh hoàn toàn}}.",
+          "text": "Dấu hiệu lâm sàng ranh giới quyết định để phân biệt Croup thể vừa với Croup thể nhẹ là sự xuất hiện của {{c1::thở rít ngay cả khi nằm yên tĩnh}}.",
           "extra": "Thở rít khi nằm yên chứng tỏ thiết diện đường thở đã bị hẹp trên 50%, có chỉ định dùng thuốc cấp cứu Adrenaline khí dung.",
           "tags": [
             "PED-24",
@@ -9412,7 +9412,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-035",
           "type": "cloze",
-          "text": "Thang điểm Westley (Westley Croup Score) lượng hóa độ nặng của Croup dựa trên 5 tiêu chí lâm sàng gồm: {{c1::Thở rít, Co kéo cơ hô hấp, Thông khí phổi, Tím tái, và Tri giác}}.",
+          "text": "Thang điểm Westley (Westley Croup Score) lượng hóa độ nặng của Croup dựa trên 5 tiêu chí lâm sàng gồm: {{c1::Thở rít, Co kéo, Thông khí, Tím tái, Tri giác}}.",
           "extra": "Tổng điểm tối đa của thang điểm Westley là 17 điểm; đây là thang điểm chuẩn mực trong các thử nghiệm lâm sàng quốc tế.",
           "tags": [
             "PED-24",
@@ -9424,7 +9424,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-036",
           "type": "cloze",
-          "text": "Trong thang điểm Westley, tiêu chí Thở rít (Stridor) được chấm 2 điểm khi có biểu hiện {{c1::nghe rõ tiếng thở rít khi trẻ nằm yên tĩnh hoàn toàn}}.",
+          "text": "Trong thang điểm Westley, tiêu chí Thở rít (Stridor) được chấm 2 điểm khi có biểu hiện {{c1::thở rít khi trẻ nằm yên tĩnh}}.",
           "extra": "0 điểm: Không thở rít; 1 điểm: Thở rít chỉ xuất hiện khi kích thích/quấy khóc; 2 điểm: Thở rít khi nằm yên.",
           "tags": [
             "PED-24",
@@ -9436,7 +9436,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-037",
           "type": "cloze",
-          "text": "Trong thang điểm Westley, tiêu chí Co kéo cơ hô hấp (Retractions) được chấm mức điểm tối đa (3 điểm) khi có biểu hiện {{c1::co kéo lồng ngực mức độ nặng (rút lõm hõm ức sâu, phập phồng cánh mũi, đầu gật gù)}}.",
+          "text": "Trong thang điểm Westley, tiêu chí Co kéo cơ hô hấp (Retractions) được chấm mức điểm tối đa (3 điểm) khi có biểu hiện {{c1::co kéo lồng ngực mức độ nặng}}.",
           "extra": "0 điểm: Không co kéo; 1 điểm: Co kéo nhẹ kẽ sườn; 2 điểm: Co kéo vừa bờ sườn; 3 điểm: Co kéo nặng hõm ức.",
           "tags": [
             "PED-24",
@@ -9448,7 +9448,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-038",
           "type": "cloze",
-          "text": "Trong thang điểm Westley, tiêu chí Thông khí phổi (Air Entry) được chấm 2 điểm khi có dấu hiệu {{c1::thông khí phổi giảm nặng rõ rệt (rì rào phế nang nghe rất yếu)}}.",
+          "text": "Trong thang điểm Westley, tiêu chí Thông khí phổi (Air Entry) được chấm 2 điểm khi có dấu hiệu {{c1::thông khí phổi giảm nặng rõ rệt}}.",
           "extra": "0 điểm: Thông khí bình thường; 1 điểm: Rì rào phế nang giảm nhẹ; 2 điểm: Giảm nặng.",
           "tags": [
             "PED-24",
@@ -9460,7 +9460,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-039",
           "type": "cloze",
-          "text": "Trong thang điểm Westley, tiêu chí Tím tái (Cyanosis) được chấm điểm tối đa (5 điểm) khi trẻ {{c1::tím tái liên tục ngay cả khi nằm yên tĩnh trong khí trời}}.",
+          "text": "Trong thang điểm Westley, tiêu chí Tím tái (Cyanosis) được chấm điểm tối đa (5 điểm) khi trẻ {{c1::tím tái liên tục khi nằm yên tĩnh}}.",
           "extra": "0 điểm: Không tím tái; 4 điểm: Tím tái chỉ khi kích thích/quấy khóc; 5 điểm: Tím tái liên tục khi nằm yên.",
           "tags": [
             "PED-24",
@@ -9472,7 +9472,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-040",
           "type": "cloze",
-          "text": "Trong thang điểm Westley, tiêu chí Tri giác được chấm 5 điểm khi trẻ xuất hiện dấu hiệu {{c1::bứt rứt, kích thích vật vã không dỗ được hoặc li bì, lơ mơ}}.",
+          "text": "Trong thang điểm Westley, tiêu chí Tri giác được chấm 5 điểm khi trẻ xuất hiện dấu hiệu {{c1::bứt rứt kích thích hoặc li bì}}.",
           "extra": "0 điểm: Tỉnh táo hoàn toàn; 5 điểm: Rối loạn tri giác (bứt rứt hoặc li bì kiệt sức do thiếu oxy não).",
           "tags": [
             "PED-24",
@@ -9532,7 +9532,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-045",
           "type": "cloze",
-          "text": "Hiện tượng 'phổi câm thanh quản' (tiếng thở rít nhỏ dần nhưng trẻ li bì, lơ mơ) là dấu hiệu cảnh báo của tình trạng {{c1::kiệt sức cơ hô hấp và ngừng thở sắp xảy ra}}.",
+          "text": "Hiện tượng 'phổi câm thanh quản' (tiếng thở rít nhỏ dần nhưng trẻ li bì, lơ mơ) là dấu hiệu cảnh báo của tình trạng {{c1::kiệt sức cơ hô hấp}}.",
           "extra": "Lưu lượng khí qua chỗ hẹp quá yếu nên không đủ tạo ra tiếng thở rít; bác sĩ thiếu kinh nghiệm dễ lầm tưởng trẻ đã thuyên giảm!",
           "tags": [
             "PED-24",
@@ -9544,7 +9544,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-046",
           "type": "cloze",
-          "text": "Mức độ bão hòa oxy máu mao mạch (SpO2) đo bằng pulse oximeter trong khí trời là một chỉ số {{c1::bình thường trong đa số các trường hợp Croup nhẹ và vừa}}.",
+          "text": "Mức độ bão hòa oxy máu mao mạch (SpO2) đo bằng pulse oximeter trong khí trời là một chỉ số {{c1::bình thường trong đa số các ca}}.",
           "extra": "Chỉ khi tắc nghẽn đường thở cực kỳ nghiêm trọng dẫn đến giảm thông khí phế nang thì SpO2 mới bắt đầu tụt xuống dưới 92%.",
           "tags": [
             "PED-24",
@@ -9580,7 +9580,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-049",
           "type": "cloze",
-          "text": "Dấu hiệu 'Chảy nhiều nước dãi' (Drooling) ở trẻ viêm nắp thanh môn cấp phát sinh do cơ chế {{c1::nuốt đau dữ dội khiến trẻ sợ hãi không dám nuốt nước bọt}}.",
+          "text": "Dấu hiệu 'Chảy nhiều nước dãi' (Drooling) ở trẻ viêm nắp thanh môn cấp phát sinh do cơ chế {{c1::nuốt đau dữ dội}}.",
           "extra": "Khác với Croup trẻ vẫn có thể nuốt được nước bọt và bú được nếu tắc nghẽn chưa quá nặng.",
           "tags": [
             "PED-24",
@@ -9640,7 +9640,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-054",
           "type": "cloze",
-          "text": "Dấu hiệu phân biệt cốt lõi của Dị vật đường thở bỏ quên với Croup là trẻ khởi phát thở rít đột ngột {{c1::hoàn toàn KHÔNG có sốt và có hội chứng xâm nhập rõ trước đó}}.",
+          "text": "Dấu hiệu phân biệt cốt lõi của Dị vật đường thở bỏ quên với Croup là trẻ khởi phát thở rít đột ngột {{c1::có hội chứng xâm nhập rõ trước đó}}.",
           "extra": "Hội chứng xâm nhập: Cơn ho sặc sụa, tím tái đột ngột khi đang ăn hoặc đang chơi đồ chơi nhỏ.",
           "tags": [
             "PED-24",
@@ -9652,7 +9652,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-055",
           "type": "cloze",
-          "text": "Áp xe thành sau họng (Retropharyngeal Abscess) có dấu hiệu lâm sàng đặc thù là trẻ {{c1::ưỡn cổ ra sau, nuốt đau và thành sau họng phồng lên một bên}}.",
+          "text": "Áp xe thành sau họng (Retropharyngeal Abscess) có dấu hiệu lâm sàng đặc thù là trẻ {{c1::thành sau họng phồng lên một bên}}.",
           "extra": "Trẻ thường nói giọng ngậm hạt thị (hot potato voice) và có hạn chế há miệng (trismus).",
           "tags": [
             "PED-24",
@@ -9664,7 +9664,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-056",
           "type": "cloze",
-          "text": "Bộ ba triệu chứng 'Tam chứng 3D' cảnh báo Viêm nắp thanh môn cấp gồm: {{c1::Drooling (Chảy dãi), Dysphagia (Nuốt khó), và Distress (Suy hô hấp)}}.",
+          "text": "Bộ ba triệu chứng 'Tam chứng 3D' cảnh báo Viêm nắp thanh môn cấp gồm: {{c1::Drooling, Dysphagia và Distress}}.",
           "extra": "Xuất hiện tam chứng 3D đòi hỏi phải chuẩn bị kíp đặt ống nội khí quản ngay trong phòng mổ.",
           "tags": [
             "PED-24",
@@ -9688,7 +9688,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-058",
           "type": "cloze",
-          "text": "Xử trí đầu tay tức thì khi tiếp nhận một ca nghi ngờ Viêm nắp thanh môn cấp là {{c1::giữ trẻ ngồi yên trong lòng mẹ, cho thở oxy nhẹ nhàng và gọi kíp Hồi sức/TMH}}.",
+          "text": "Xử trí đầu tay tức thì khi tiếp nhận một ca nghi ngờ Viêm nắp thanh môn cấp là {{c1::giữ trẻ ngồi yên trong lòng mẹ}}.",
           "extra": "Tuyệt đối không di chuyển trẻ đi lại nhiều và không làm bất kỳ thủ thuật nào gây kích thích quấy khóc.",
           "tags": [
             "PED-24",
@@ -9712,7 +9712,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-060",
           "type": "cloze",
-          "text": "Bản chất hình ảnh học của Dấu hiệu Nóc nhà thờ trên phim X-quang là do {{c1::sự phù nề đối xứng hai bên của lớp hạ niêm mạc vùng hạ thanh môn}}.",
+          "text": "Bản chất hình ảnh học của Dấu hiệu Nóc nhà thờ trên phim X-quang là do {{c1::phù nề đối xứng vùng hạ thanh môn}}.",
           "extra": "Bình thường cột khí vùng này có bờ vai tù vuông vắn (shoulder appearance).",
           "tags": [
             "PED-24",
@@ -9736,7 +9736,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-062",
           "type": "cloze",
-          "text": "Nguyên tắc xử trí sống còn về cận lâm sàng trong Croup là {{c1::Croup là chẩn đoán lâm sàng; tuyệt đối KHÔNG trì hoãn cấp cứu để đưa trẻ đi chụp X-quang}}.",
+          "text": "Nguyên tắc xử trí sống còn về cận lâm sàng trong Croup là {{c1::tuyệt đối KHÔNG trì hoãn cấp cứu để chụp X-quang}}.",
           "extra": "Việc đưa trẻ đang suy hô hấp vào phòng chụp X-quang lạnh, ép nằm ngửa có thể làm tăng kháng lực và ngừng thở ngay trên bàn chụp.",
           "tags": [
             "PED-24",
@@ -9748,7 +9748,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-063",
           "type": "cloze",
-          "text": "Chỉ định chụp X-quang cổ thẳng và nghiêng ở bệnh nhi thở rít chỉ đặt ra khi {{c1::trẻ đã ổn định đường thở và chẩn đoán lâm sàng không rõ ràng hoặc nghi ngờ dị vật}}.",
+          "text": "Chỉ định chụp X-quang cổ thẳng và nghiêng ở bệnh nhi thở rít chỉ đặt ra khi {{c1::ổn định đường thở và chẩn đoán không rõ}}.",
           "extra": "Ngoài ra chụp phim khi bệnh nhân không đáp ứng với điều trị nội khoa thông thường để tìm biến chứng.",
           "tags": [
             "PED-24",
@@ -9868,7 +9868,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-073",
           "type": "cloze",
-          "text": "Chỉ định của khí dung L-Adrenaline (Epinephrine) là dành cho bệnh nhi Croup ở mức độ {{c1::thể Vừa và Nặng (có thở rít thanh quản khi nằm yên, Westley ≥ 3)}} hoặc dọa suy hô hấp.",
+          "text": "Chỉ định của khí dung L-Adrenaline (Epinephrine) là dành cho bệnh nhi Croup ở mức độ {{c1::thể Vừa và Nặng (Westley ≥ 3)}} hoặc dọa suy hô hấp.",
           "extra": "Croup thể nhẹ hoàn toàn không có chỉ định dùng Adrenaline khí dung.",
           "tags": [
             "PED-24",
@@ -9880,7 +9880,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-074",
           "type": "cloze",
-          "text": "Cơ chế tác dụng của Adrenaline khí dung giúp làm thông thoáng đường thở là kích thích chọn lọc thụ thể {{c1::α1-adrenergic gây co tiểu động mạch niêm mạc hạ thanh môn}}.",
+          "text": "Cơ chế tác dụng của Adrenaline khí dung giúp làm thông thoáng đường thở là kích thích chọn lọc thụ thể {{c1::α1-adrenergic}}.",
           "extra": "Co mạch làm giảm áp lực thủy tĩnh mao mạch, nhanh chóng tái hấp thu dịch phù nề vào lòng mạch chỉ sau 10–30 phút.",
           "tags": [
             "PED-24",
@@ -9928,7 +9928,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-078",
           "type": "cloze",
-          "text": "Hiện tượng dội ngược (Rebound phenomenon) sau khí dung Adrenaline là tình trạng {{c1::đường thở hạ thanh môn tái phù nề và tắc nghẽn trở lại khi Adrenaline hết tác dụng co mạch}}.",
+          "text": "Hiện tượng dội ngược (Rebound phenomenon) sau khí dung Adrenaline là tình trạng {{c1::đường thở hạ thanh môn tái phù nề trở lại}}.",
           "extra": "Xảy ra nếu phản ứng viêm nền chưa được Dexamethasone kiểm soát; các mạch máu giãn ra gây ứ dịch phù nề trở lại.",
           "tags": [
             "PED-24",
@@ -9952,7 +9952,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-080",
           "type": "cloze",
-          "text": "Nếu một bệnh nhi Croup cần tới {{c1::3 liều Adrenaline khí dung liên tiếp trong vòng 2 giờ}}, bắt buộc phải chuyển ngay vào phòng Hồi sức tích cực (PICU).",
+          "text": "Nếu một bệnh nhi Croup cần tới {{c1::3 liều trong vòng 2 giờ}}, bắt buộc phải chuyển ngay vào phòng Hồi sức tích cực (PICU).",
           "extra": "Nguy cơ kiệt sức cơ hô hấp và phải đặt nội khí quản ở nhóm bệnh nhi này là cực kỳ cao.",
           "tags": [
             "PED-24",
@@ -9964,7 +9964,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-081",
           "type": "cloze",
-          "text": "Theo các tổng quan hệ thống của Cochrane (Moore 2007), liệu pháp xông hơi ẩm (Mist therapy) {{c1::KHÔNG mang lại bất kỳ lợi ích lâm sàng nào và không làm cải thiện điểm số Croup}}.",
+          "text": "Theo các tổng quan hệ thống của Cochrane (Moore 2007), liệu pháp xông hơi ẩm (Mist therapy) {{c1::KHÔNG mang lại lợi ích lâm sàng nào}}.",
           "extra": "SMD = -0.14 (95% CI -0.75 đến 0.47, không có ý nghĩa thống kê). Các hướng dẫn quốc tế không khuyến cáo thực hiện thường quy.",
           "tags": [
             "PED-24",
@@ -9976,7 +9976,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-082",
           "type": "cloze",
-          "text": "Nguy cơ tai biến nghiêm trọng nhất khi gia đình tự ý cho trẻ xông hơi nước nóng tại nhà để chữa Croup là {{c1::bỏng nhiệt vùng mặt và bỏng niêm mạc đường hô hấp}}.",
+          "text": "Nguy cơ tai biến nghiêm trọng nhất khi gia đình tự ý cho trẻ xông hơi nước nóng tại nhà để chữa Croup là {{c1::bỏng nhiệt vùng mặt và đường hô hấp}}.",
           "extra": "Bác sĩ cần chủ động giải thích và hướng dẫn người nhà không sử dụng nồi nước sôi xông hơi cho trẻ nhỏ.",
           "tags": [
             "PED-24",
@@ -10012,7 +10012,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-085",
           "type": "cloze",
-          "text": "Các thuốc giảm ho (như Dextromethorphan, Codein) bị chống chỉ định trong Croup vì chúng {{c1::ức chế phản xạ ho tự nhiên làm ứ đọng đờm nhầy gây bít tắc đường thở nặng hơn}}.",
+          "text": "Các thuốc giảm ho (như Dextromethorphan, Codein) bị chống chỉ định trong Croup vì chúng {{c1::ức chế phản xạ ho tự nhiên}}.",
           "extra": "Ho là phản xạ bảo vệ đường thở giúp tống xuất chất tiết đang chèn ép vùng hạ thanh môn.",
           "tags": [
             "PED-24",
@@ -10024,7 +10024,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-086",
           "type": "cloze",
-          "text": "Thuốc kháng Histamin thế hệ 1 (như Promethazine, Chlorpheniramine) không được dùng trong Croup vì tác dụng kháng cholinergic làm {{c1::khô chất tiết niêm mạc tạo thành các nút nhầy đặc quánh làm tắc nghẽn thêm}}.",
+          "text": "Thuốc kháng Histamin thế hệ 1 (như Promethazine, Chlorpheniramine) không được dùng trong Croup vì tác dụng kháng cholinergic làm {{c1::khô chất tiết tạo nút nhầy đặc}}.",
           "extra": "Đồng thời tác dụng an thần gây ngủ che lấp các dấu hiệu suy hô hấp tiến triển của bệnh nhi.",
           "tags": [
             "PED-24",
@@ -10048,7 +10048,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED24-CARD-088",
           "type": "cloze",
-          "text": "Khi bắt buộc phải đặt ống nội khí quản cấp cứu ở bệnh nhi Croup nặng, quy tắc lựa chọn cỡ ống nội khí quản là phải {{c1::chọn cỡ ống nhỏ hơn bình thường từ 0.5 đến 1 cỡ (ví dụ dùng ống 4.0 thay vì 4.5)}}.",
+          "text": "Khi bắt buộc phải đặt ống nội khí quản cấp cứu ở bệnh nhi Croup nặng, quy tắc lựa chọn cỡ ống nội khí quản là phải {{c1::nhỏ hơn bình thường từ 0.5 đến 1 cỡ}}.",
           "extra": "Do niêm mạc hạ thanh môn đang bị viêm phù nề làm hẹp khẩu kính; việc cố đẩy ống nội khí quản cỡ chuẩn sẽ gây rách niêm mạc và hoại tử vòng sụn nhẫn.",
           "tags": [
             "PED-24",
@@ -10346,7 +10346,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED25-CARD-023",
           "type": "cloze",
-          "text": "Chỉ định cấp cứu hàng đầu của mặt nạ có túi dự trữ NRM là {{c1::sốc mất bù, suy hô hấp giảm oxy nặng hoặc ngộ độc CO}}.",
+          "text": "Chỉ định cấp cứu hàng đầu của mặt nạ có túi dự trữ NRM là {{c1::sốc mất bù, suy hô hấp nặng}}.",
           "extra": "NRM là vũ khí hồi sức cấp cứu ban đầu giúp nhanh chóng bão hòa oxy máu trong khi chuẩn bị thiết lập hệ thống HFNC, CPAP hoặc đặt nội khí quản.",
           "tags": [
             "PED-25",
@@ -10574,7 +10574,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED25-CARD-042",
           "type": "cloze",
-          "text": "Can thiệp điều dưỡng bắt buộc phải thực hiện ngay khi cho trẻ thở nCPAP là {{c1::đặt ống thông dạ dày mở nắp giải áp liên tục}}.",
+          "text": "Can thiệp điều dưỡng bắt buộc phải thực hiện ngay khi cho trẻ thở nCPAP là {{c1::đặt ống thông dạ dày giải áp liên tục}}.",
           "extra": "Áp lực PEEP đẩy khí vào dạ dày gây trướng căng cơ học, đẩy cơ hoành lên cao cản trở thông khí phổi và tăng nguy cơ hít sặc.",
           "tags": [
             "PED-25",
@@ -10586,7 +10586,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED25-CARD-043",
           "type": "cloze",
-          "text": "Xử trí cấp cứu tức thì khi bệnh nhi đang hỗ trợ hô hấp bị biến chứng tràn khí màng phổi áp lực là {{c1::chọc kim giải áp tại khoang liên sườn 2 đường trung đòn}}.",
+          "text": "Xử trí cấp cứu tức thì khi bệnh nhi đang hỗ trợ hô hấp bị biến chứng tràn khí màng phổi áp lực là {{c1::chọc kim giải áp khoang liên sườn 2}}.",
           "extra": "Dùng kim lớn 18–20G chọc hút giải tỏa áp lực khí khoang màng phổi ngay lập tức trước khi tiến hành đặt ống dẫn lưu kín liên tục.",
           "tags": [
             "PED-25",
@@ -10598,7 +10598,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED25-CARD-044",
           "type": "cloze",
-          "text": "Tiêu chuẩn dọa ngưng thở bắt buộc dừng hỗ trợ không xâm lấn để đặt nội khí quản gồm {{c1::cơn ngừng thở kéo dài > 20 giây hoặc kèm nhịp tim chậm}}.",
+          "text": "Tiêu chuẩn dọa ngưng thở bắt buộc dừng hỗ trợ không xâm lấn để đặt nội khí quản gồm {{c1::cơn ngừng thở > 20 giây hoặc tim chậm}}.",
           "extra": "Ngừng thở kèm nhịp tim chậm là chỉ điểm của thiếu oxy não nặng và toan máu mất bù; tiếp tục thở máy không xâm lấn lúc này sẽ dẫn đến ngừng tim.",
           "tags": [
             "PED-25",
@@ -10682,7 +10682,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED25-CARD-051",
           "type": "cloze",
-          "text": "Khoảng chênh lệch nguy cơ (risk difference) về thất bại điều trị giữa nhóm HFNC và oxy chuẩn trong thử nghiệm PARIS (NEJM 2018) là {{c1::-11 điểm phần trăm (95% CI -15 đến -7; P < 0.001)}}.",
+          "text": "Khoảng chênh lệch nguy cơ (risk difference) về thất bại điều trị giữa nhóm HFNC và oxy chuẩn trong thử nghiệm PARIS (NEJM 2018) là {{c1::-11 điểm phần trăm}}.",
           "extra": "Mức giảm có ý nghĩa thống kê và ý nghĩa lâm sàng rất lớn, tương ứng cứ điều trị khoảng 9 trẻ bằng HFNC sẽ ngăn ngừa được 1 ca thất bại nâng bậc.",
           "tags": [
             "PED-25",
@@ -10730,7 +10730,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED25-CARD-055",
           "type": "cloze",
-          "text": "Thử nghiệm ngẫu nhiên PARIS-2 (Franklin D et al., JAMA 2023) đánh giá hiệu quả của HFNC sớm ở trẻ em từ {{c1::1 đến 4 tuổi nhập viện vì suy hô hấp giảm oxy cấp}}.",
+          "text": "Thử nghiệm ngẫu nhiên PARIS-2 (Franklin D et al., JAMA 2023) đánh giá hiệu quả của HFNC sớm ở trẻ em từ {{c1::1 đến 4 tuổi suy hô hấp cấp}}.",
           "extra": "Khác với PARIS-1 chỉ nghiên cứu trẻ nhũ nhi viêm tiểu phế quản, PARIS-2 mở rộng sang trẻ lớn hơn mắc suy hô hấp giảm oxy do các nguyên nhân khác.",
           "tags": [
             "PED-25",
@@ -10802,7 +10802,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED25-CARD-061",
           "type": "cloze",
-          "text": "Thử nghiệm FIRST-ABC Step-Up (Ramnarayan P et al., JAMA 2022) so sánh HFNC với CPAP trên {{c1::573 trẻ em tại 24 khoa hồi sức tích cực nhi (PICU)}}.",
+          "text": "Thử nghiệm FIRST-ABC Step-Up (Ramnarayan P et al., JAMA 2022) so sánh HFNC với CPAP trên {{c1::573 trẻ em tại 24 khoa PICU}}.",
           "extra": "Thử nghiệm đánh giá phương thức hỗ trợ hô hấp không xâm lấn đầu tay khi trẻ nhập PICU vì suy hô hấp cấp tính.",
           "tags": [
             "PED-25",
@@ -10862,7 +10862,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED25-CARD-066",
           "type": "cloze",
-          "text": "Thử nghiệm FIRST-ABC Post-Extubation (Ramnarayan P et al., JAMA 2022) so sánh HFNC với CPAP trên {{c1::553 trẻ em sau rút nội khí quản tại 22 khoa PICU}}.",
+          "text": "Thử nghiệm FIRST-ABC Post-Extubation (Ramnarayan P et al., JAMA 2022) so sánh HFNC với CPAP trên {{c1::553 trẻ em sau rút nội khí quản}}.",
           "extra": "Đánh giá vai trò của HFNC và CPAP như là biện pháp dự phòng thất bại rút ống sau khi thở máy xâm lấn.",
           "tags": [
             "PED-25",
@@ -10886,7 +10886,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED25-CARD-068",
           "type": "cloze",
-          "text": "Thời gian giải phóng hỗ trợ hô hấp ở nhóm HFNC so với CPAP trong FIRST-ABC Post-Extubation là {{c1::trung vị 50.5 giờ so với 42.9 giờ (adjusted HR 0.83)}}.",
+          "text": "Thời gian giải phóng hỗ trợ hô hấp ở nhóm HFNC so với CPAP trong FIRST-ABC Post-Extubation là {{c1::50.5 giờ so với 42.9 giờ}}.",
           "extra": "Khoảng tin cậy một phía 97.5% là 0.70 đến vô cực, vượt ra ngoài biên độ không kém hơn định trước là 0.75.",
           "tags": [
             "PED-25",
@@ -11006,7 +11006,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED25-CARD-078",
           "type": "cloze",
-          "text": "Đồng thuận quốc tế PALICC-2 (Pediatr Crit Care Med 2023) đưa ra tiêu chuẩn chẩn đoán cập nhật cho {{c1::Hội chứng suy hô hấp cấp tiến triển ở trẻ em (PARDS)}}.",
+          "text": "Đồng thuận quốc tế PALICC-2 (Pediatr Crit Care Med 2023) đưa ra tiêu chuẩn chẩn đoán cập nhật cho {{c1::Hội chứng suy hô hấp cấp tiến triển (PARDS)}}.",
           "extra": "Đồng thuận được xây dựng bởi 52 chuyên gia hồi sức nhi khoa từ 15 quốc gia dựa trên phương pháp GRADE và hệ thống y học thực chứng.",
           "tags": [
             "PED-25",
@@ -11054,7 +11054,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED25-CARD-082",
           "type": "cloze",
-          "text": "Khí thở sục qua cột nước trong Bubble CPAP làm tăng hiệu quả thải khí CO2 nhờ cơ chế {{c1::hòa trộn khí vi thể (Taylor dispersion) và khuếch tán tăng cường}}.",
+          "text": "Khí thở sục qua cột nước trong Bubble CPAP làm tăng hiệu quả thải khí CO2 nhờ cơ chế {{c1::hòa trộn khí vi thể (Taylor dispersion)}}.",
           "extra": "Ưu thế này giúp Bubble CPAP vượt trội hơn hẳn các hệ thống CPAP van cơ học tĩnh trong việc thông khí phế nang cho trẻ nhỏ.",
           "tags": [
             "PED-25",
@@ -11102,7 +11102,7 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED25-CARD-086",
           "type": "cloze",
-          "text": "Trong cơn hen phế quản cấp nặng, thở HFNC có nguy cơ làm nặng thêm tình trạng tắc nghẽn do {{c1::bẫy khí thì thở ra và căng giãn phổi quá mức (Auto-PEEP)}}.",
+          "text": "Trong cơn hen phế quản cấp nặng, thở HFNC có nguy cơ làm nặng thêm tình trạng tắc nghẽn do {{c1::bẫy khí và căng giãn phổi (Auto-PEEP)}}.",
           "extra": "Bệnh nhân hen bị co thắt phế quản thì thở ra dữ dội; dòng khí HFNC liên tục có thể cản trở luồng khí thoát ra làm tăng bẫy khí phế nang.",
           "tags": [
             "PED-25",
@@ -12006,7 +12006,7 @@ window.PED_LIBRARY_DATA = {
       "cards_data": [
         {
           "type": "cloze",
-          "text": "Sốt ở trẻ em được xác định theo tiêu chuẩn vàng khi thân nhiệt đo tại hậu môn đạt mức ≥ {{c1::38.0°C}} (hoặc đo tại nách đạt ≥ {{c1::37.5°C}}).",
+          "text": "Sốt ở trẻ em được xác định theo tiêu chuẩn vàng khi thân nhiệt đo tại hậu môn đạt mức ≥ {{c1::38.0°C}} (hoặc đo tại nách đạt ≥ 37.5°C).",
           "extra": "Cơ chế: Thân nhiệt đo tại hậu môn phản ánh chuẩn xác nhất nhiệt độ lõi cơ thể, ít bị sai lệch bởi lưu lượng máu da hay nhiệt độ môi trường xung quanh."
         },
         {
@@ -12041,7 +12041,7 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Chìa khóa phân tử trực tiếp làm nâng điểm đặt nhiệt độ tại vùng dưới đồi là phân tử lipid {{c1::Prostaglandin E2 (PGE2)}}, được tổng hợp qua enzyme cảm ứng {{c1::COX-2}}.",
+          "text": "Chìa khóa phân tử trực tiếp làm nâng điểm đặt nhiệt độ tại vùng dưới đồi là phân tử lipid {{c1::Prostaglandin E2 (PGE2)}}, được tổng hợp qua enzyme cảm ứng COX-2.",
           "extra": "Cơ chế: PGE2 gắn vào thụ thể EP3 trên tế bào thần kinh nhân trước thị, làm thay đổi tần số phát xung của các neuron nhạy nhiệt."
         },
         {
@@ -12056,12 +12056,12 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Ở trẻ nhũ nhi dưới 1 tuổi, cơ chế sinh nhiệt không run cơ đặc biệt quan trọng dựa vào chuyển hóa của {{c1::mô mỡ nâu (Brown Adipose Tissue)}} thông qua protein tách cặp {{c1::UCP-1 (Thermogenin)}}.",
+          "text": "Ở trẻ nhũ nhi dưới 1 tuổi, cơ chế sinh nhiệt không run cơ đặc biệt quan trọng dựa vào chuyển hóa của {{c1::mô mỡ nâu (Brown Adipose Tissue)}} thông qua protein tách cặp UCP-1.",
           "extra": "Cơ chế: UCP-1 tách rời chuỗi chuyền điện tử khỏi quá trình tổng hợp ATP tại màng ty thể, giải phóng năng lượng trực tiếp dưới dạng nhiệt lượng."
         },
         {
           "type": "cloze",
-          "text": "Khi hết cơn sốt hoặc dùng thuốc hạ sốt, điểm đặt nhiệt độ hạ thấp kích hoạt cơ chế thải nhiệt khẩn cấp bằng {{c1::giãn mạch ngoại vi và tăng tiết mồ hôi ồ ạt}}.",
+          "text": "Khi hết cơn sốt hoặc dùng thuốc hạ sốt, điểm đặt nhiệt độ hạ thấp kích hoạt cơ chế thải nhiệt khẩn cấp bằng {{c1::giãn mạch ngoại vi và tăng tiết mồ hôi}}.",
           "extra": "Cơ chế: Giãn mạch làm tăng tưới máu bề mặt da, kết hợp nước mồ hôi bay hơi giúp nhiệt lượng dư thừa thoát nhanh ra môi trường."
         },
         {
@@ -12076,7 +12076,7 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Biện pháp can thiệp cốt lõi và sống còn trong xử trí Tăng thân nhiệt (say nóng, sốc nhiệt) là {{c1::làm mát cưỡng bức vật lý ngoài cơ thể (cởi đồ, phun sương, quạt gió, chườm mát)}}.",
+          "text": "Biện pháp can thiệp cốt lõi và sống còn trong xử trí Tăng thân nhiệt (say nóng, sốc nhiệt) là {{c1::làm mát cưỡng bức vật lý ngoài cơ thể}}.",
           "extra": "Cơ chế: Làm mát vật lý hỗ trợ giải phóng nhiệt lượng bị ứ đọng khẩn cấp để ngăn chặn tổn thương não và ly giải cơ vân do nhiệt độ cao > 41.5°C."
         },
         {
@@ -12091,12 +12091,12 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Tất cả trẻ sơ sinh dưới 28 ngày tuổi có sốt ≥ 38.0°C BẮT BUỘC phải thực hiện {{c1::Full Sepsis Workup (cấy máu, cấy nước tiểu qua sonde, chọc dò tủy sống)}} và nhập viện 100%.",
+          "text": "Tất cả trẻ sơ sinh dưới 28 ngày tuổi có sốt ≥ 38.0°C BẮT BUỘC phải thực hiện {{c1::Full Sepsis Workup}} và nhập viện 100%.",
           "extra": "Cơ chế: Triệu chứng lâm sàng nhiễm khuẩn nặng ở trẻ sơ sinh rất nghèo nàn và không đáng tin cậy; trẻ có thể viêm màng não mủ dù bề ngoài bú tốt."
         },
         {
           "type": "cloze",
-          "text": "Phác đồ kháng sinh tĩnh mạch đầu tay theo kinh nghiệm bắt buộc cho trẻ sơ sinh sốt nhập viện là phối hợp {{c1::Ampicillin}} (đặc trị Listeria và Enterococcus) kết hợp với {{c1::Cefotaxime (hoặc Gentamicin)}}.",
+          "text": "Phác đồ kháng sinh tĩnh mạch đầu tay theo kinh nghiệm bắt buộc cho trẻ sơ sinh sốt nhập viện là phối hợp {{c1::Ampicillin}} (đặc trị Listeria và Enterococcus) kết hợp với Cefotaxime (hoặc Gentamicin).",
           "extra": "Cơ chế: Ampicillin bao phủ Listeria monocytogenes vốn đề kháng tự nhiên với cephalosporin, trong khi Cefotaxime diệt trực khuẩn Gram âm E. coli và GBS."
         },
         {
@@ -12106,7 +12106,7 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Để cấy nước tiểu tìm vi khuẩn đạt độ tin cậy tuyệt đối ở trẻ nhỏ chưa tự chủ tiểu tiện, mẫu nước tiểu BẮT BUỘC phải được lấy bằng {{c1::đặt ống thông bàng quang hoặc chọc hút trên xương mu}}.",
+          "text": "Để cấy nước tiểu tìm vi khuẩn đạt độ tin cậy tuyệt đối ở trẻ nhỏ chưa tự chủ tiểu tiện, mẫu nước tiểu BẮT BUỘC phải được lấy bằng {{c1::đặt ống thông bàng quang}}.",
           "extra": "Cơ chế: Nước tiểu lấy bằng túi dán có tỷ lệ dương tính giả do tạp nhiễm vi khuẩn da vùng bẹn lên tới 80%, dẫn đến chẩn đoán sai và lạm dụng kháng sinh."
         },
         {
@@ -12116,7 +12116,7 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Thang điểm quan sát Yale (Yale Observation Scale - YOS) đánh giá nguy cơ bệnh nặng ở trẻ 3-36 tháng tuổi dựa trên 6 yếu tố: mức độ khóc, phản ứng với cha mẹ, {{c1::trạng thái tỉnh táo, màu sắc da, độ ẩm niêm mạc và phản ứng xã hội}}.",
+          "text": "Thang điểm quan sát Yale (Yale Observation Scale - YOS) đánh giá nguy cơ bệnh nặng ở trẻ 3-36 tháng tuổi dựa trên 6 yếu tố: mức độ khóc, phản ứng với cha mẹ, {{c1::trạng thái tỉnh táo, màu da, độ ẩm niêm mạc}}.",
           "extra": "Cơ chế: Điểm YOS ≤ 10 điểm tương ứng với nguy cơ nhiễm trùng nặng thấp dưới 3%; điểm YOS > 16 điểm có nguy cơ nhiễm trùng nặng lên tới trên 90%."
         },
         {
@@ -12131,12 +12131,12 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Liều chuẩn của Paracetamol đường uống ở trẻ em là {{c1::10 đến 15 mg/kg}} cho mỗi lần dùng, khoảng cách giữa hai liều tối thiểu từ {{c1::4 đến 6 giờ}}.",
+          "text": "Liều chuẩn của Paracetamol đường uống ở trẻ em là {{c1::10 đến 15 mg/kg}} cho mỗi lần dùng, khoảng cách giữa hai liều tối thiểu từ 4 đến 6 giờ.",
           "extra": "Cơ chế: Liều này đạt nồng độ ức chế COX tại hệ thần kinh trung ương hiệu quả mà không làm cạn kiệt dự trữ Glutathione tế bào gan."
         },
         {
           "type": "cloze",
-          "text": "Tổng liều Paracetamol tối đa cho phép trong vòng 24 giờ ở trẻ em không được vượt quá {{c1::60 mg/kg/ngày}}, và trần liều người lớn không quá {{c1::4000 mg/ngày}}.",
+          "text": "Tổng liều Paracetamol tối đa cho phép trong vòng 24 giờ ở trẻ em không được vượt quá {{c1::60 mg/kg/ngày}}, và trần liều người lớn không quá 4000 mg/ngày.",
           "extra": "Cơ chế: Dùng vượt quá ngưỡng này sẽ làm cạn kiệt Glutathione nội bào tại gan, dẫn đến ngộ độc gan cấp tính do tích lũy NAPQI."
         },
         {
@@ -12146,12 +12146,12 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Liều chuẩn của Ibuprofen đường uống ở trẻ em là {{c1::5 đến 10 mg/kg}} cho mỗi lần dùng, khoảng cách giữa hai liều từ {{c1::6 đến 8 giờ}}.",
+          "text": "Liều chuẩn của Ibuprofen đường uống ở trẻ em là {{c1::5 đến 10 mg/kg}} cho mỗi lần dùng, khoảng cách giữa hai liều từ 6 đến 8 giờ.",
           "extra": "Cơ chế: Ibuprofen ức chế cả COX-1 và COX-2 ngoại vi và trung ương, mang lại tác dụng kháng viêm và hạ sốt kéo dài hơn Paracetamol."
         },
         {
           "type": "cloze",
-          "text": "Tổng liều Ibuprofen tối đa hàng ngày ở trẻ em không được vượt quá {{c1::40 mg/kg/ngày}}, và trần liều người lớn tối đa không quá {{c1::1200 đến 2400 mg/ngày}}.",
+          "text": "Tổng liều Ibuprofen tối đa hàng ngày ở trẻ em không được vượt quá {{c1::40 mg/kg/ngày}}, và trần liều người lớn tối đa không quá 1200 đến 2400 mg/ngày.",
           "extra": "Cơ chế: Vượt quá trần liều làm tăng vọt nguy cơ loét thủng dạ dày tá tràng và tổn thương suy thận cấp."
         },
         {
@@ -12176,12 +12176,12 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Lau mát bằng cồn cho trẻ sốt là biện pháp CỰC KỲ NGUY HIỂM vì hơi cồn hấp thu qua da và hô hấp gây {{c1::ngộ độc cồn cấp, hạ đường huyết, hôn mê và suy hô hấp}}.",
+          "text": "Lau mát bằng cồn cho trẻ sốt là biện pháp CỰC KỲ NGUY HIỂM vì hơi cồn hấp thu qua da và hô hấp gây {{c1::ngộ độc cồn cấp}}.",
           "extra": "Cơ chế: Da trẻ mỏng và diện tích da trên cân nặng lớn khiến cồn thẩm thấu nhanh vào máu ức chế thần kinh trung ương."
         },
         {
           "type": "cloze",
-          "text": "Chườm đá lạnh khi trẻ đang sốt gây hại vì làm co mạch ngoại biên đột ngột và kích hoạt phản xạ {{c1::run cơ tạo nhiệt, làm thân nhiệt lõi tăng vọt lên cao hơn}}.",
+          "text": "Chườm đá lạnh khi trẻ đang sốt gây hại vì làm co mạch ngoại biên đột ngột và kích hoạt phản xạ {{c1::run cơ tạo nhiệt}}.",
           "extra": "Cơ chế: Kích thích lạnh làm trung tâm điều nhiệt tưởng cơ thể đang lạnh cóng, phát động tăng sinh nhiệt làm trẻ hoảng loạn và kiệt sức."
         },
         {
@@ -12201,12 +12201,12 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Cơn sốt cao vọt hình gai nhọn xuất hiện 1-2 lần/ngày kèm ban đỏ màu hồng cá hồi (salmon-pink) lặn nhanh theo cơn sốt là dấu hiệu gợi ý bệnh {{c1::Viêm khớp tự phát thiếu niên thể hệ thống (sJIA / Still)}}.",
+          "text": "Cơn sốt cao vọt hình gai nhọn xuất hiện 1-2 lần/ngày kèm ban đỏ màu hồng cá hồi (salmon-pink) lặn nhanh theo cơn sốt là dấu hiệu gợi ý bệnh {{c1::Viêm khớp tự phát thiếu niên thể hệ thống (sJIA)}}.",
           "extra": "Cơ chế: sJIA là bệnh lý tự viêm đặc trưng bởi sự bùng nổ cytokine IL-1 và IL-6 toàn thân, thường kèm tăng Ferritin máu cực cao."
         },
         {
           "type": "cloze",
-          "text": "Nồng độ Ferritin huyết thanh tăng vọt rất cao (> 1000 đến > 3000 ng/mL) trong FUO là dấu chỉ điểm kinh điển của {{c1::Hội chứng Kích hoạt Đại thực bào (MAS) hoặc Bệnh Still thể hệ thống}}.",
+          "text": "Nồng độ Ferritin huyết thanh tăng vọt rất cao (> 1000 đến > 3000 ng/mL) trong FUO là dấu chỉ điểm kinh điển của {{c1::Hội chứng Kích hoạt Đại thực bào (MAS)}}.",
           "extra": "Cơ chế: Cơn bão cytokine kích hoạt hệ lưới nội mô sản sinh lượng lớn Ferritin, tiềm ẩn nguy cơ thực bào máu đe dọa tính mạng."
         },
         {
@@ -12231,17 +12231,17 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Theo AAP 2021, ở trẻ nhũ nhi sốt nhóm {{c1::8 đến 21 ngày tuổi}}, chọc dò tủy sống (LP) và dùng kháng sinh tĩnh mạch là {{c1::bắt buộc 100%}} bất kể kết quả biomarker viêm thế nào.",
+          "text": "Theo AAP 2021, ở trẻ nhũ nhi sốt nhóm 8 đến 21 ngày tuổi, chọc dò tủy sống (LP) và dùng kháng sinh tĩnh mạch là {{c1::bắt buộc 100%}} bất kể kết quả biomarker viêm thế nào.",
           "extra": "Cơ chế: Trẻ dưới 3 tuần tuổi có hàng rào máu não chưa hoàn thiện và tỷ lệ viêm màng não mủ không có biểu hiện lâm sàng vẫn ở mức cao."
         },
         {
           "type": "cloze",
-          "text": "Theo AAP 2021, ở nhóm trẻ nhũ nhi sốt từ {{c1::22 đến 28 ngày tuổi}}, việc chọc dò tủy sống có thể tránh được nếu TẤT CẢ xét nghiệm nước tiểu và {{c1::các chỉ dấu sinh học viêm (Procalcitonin, CRP, ANC)}} đều bình thường.",
+          "text": "Theo AAP 2021, ở nhóm trẻ nhũ nhi sốt từ 22 đến 28 ngày tuổi, việc chọc dò tủy sống có thể tránh được nếu TẤT CẢ xét nghiệm nước tiểu và {{c1::các chỉ dấu sinh học viêm}} (Procalcitonin, CRP, ANC) đều bình thường.",
           "extra": "Cơ chế: Cho phép giảm thiểu thủ thuật xâm lấn đau đớn ở nhóm trẻ nguy cơ thấp được gia đình theo dõi sát và cam kết tái khám sau 24 giờ."
         },
         {
           "type": "cloze",
-          "text": "Theo AAP 2021, đối với trẻ nhũ nhi sốt từ {{c1::29 đến 60 ngày tuổi}} thỏa mãn tiêu chuẩn nguy cơ thấp, việc theo dõi {{c1::ngoại trú không dùng kháng sinh}} là an toàn và được khuyến cáo.",
+          "text": "Theo AAP 2021, đối với trẻ nhũ nhi sốt từ 29 đến 60 ngày tuổi thỏa mãn tiêu chuẩn nguy cơ thấp, việc theo dõi {{c1::ngoại trú không dùng kháng sinh}} là an toàn và được khuyến cáo.",
           "extra": "Cơ chế: Nguy cơ nhiễm khuẩn xâm lấn ở nhóm này cực thấp (< 0.5%), theo dõi ngoại trú tránh được nguy cơ nhiễm trùng bệnh viện và lạm dụng kháng sinh."
         },
         {
@@ -12251,7 +12251,7 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Quy tắc dự đoán lâm sàng PECARN xác định trẻ nguy cơ thấp khi thỏa mãn 3 tiêu chí: tổng phân tích nước tiểu âm tính, ANC ≤ {{c1::4,090/µL}} và Procalcitonin ≤ {{c1::1.71 ng/mL}}.",
+          "text": "Quy tắc dự đoán lâm sàng PECARN xác định trẻ nguy cơ thấp khi thỏa mãn 3 tiêu chí: tổng phân tích nước tiểu âm tính, ANC ≤ 4,090/µL và Procalcitonin ≤ {{c1::1.71 ng/mL}}.",
           "extra": "Cơ chế: Phân tích đệ quy nhị phân chứng minh bộ ba này vượt trội hoàn toàn so với việc chỉ dựa vào số lượng bạch cầu tổng số (WBC)."
         },
         {
@@ -12306,7 +12306,7 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Về mặt triệu chứng lâm sàng ở mốc 48 giờ, thử nghiệm PITCH chứng minh phối hợp hai thuốc {{c1::không mang lại lợi ích vượt trội về mức độ giảm khó chịu}} so với dùng đơn độc.",
+          "text": "Về mặt triệu chứng lâm sàng ở mốc 48 giờ, thử nghiệm PITCH chứng minh phối hợp hai thuốc {{c1::không vượt trội về mức độ giảm khó chịu}} so với dùng đơn độc.",
           "extra": "Cơ chế: Sự chênh lệch 23 phút hạ nhiệt độ không chuyển thành lợi ích lâm sàng có ý nghĩa đối với sự phục hồi tinh thần của trẻ."
         },
         {
@@ -12341,7 +12341,7 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Theo tiêu chuẩn Rochester 1985, ngưỡng số lượng bạch cầu máu an toàn là từ {{c1::5,000 đến 15,000/mm³}} và số lượng bạch cầu non (bands) phải dưới {{c1::1,500/mm³}}.",
+          "text": "Theo tiêu chuẩn Rochester 1985, ngưỡng số lượng bạch cầu máu an toàn là từ {{c1::5,000 đến 15,000/mm³}} và số lượng bạch cầu non (bands) phải dưới 1,500/mm³.",
           "extra": "Cơ chế: Bạch cầu quá cao (> 15000) hoặc quá thấp (< 5000) đều là dấu hiệu báo động của nhiễm trùng huyết nặng; tỷ lệ tế bào non phản ánh phản ứng tủy xương."
         },
         {
@@ -12361,7 +12361,7 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Theo tổng quan Chow & Robinson 2011, tỷ lệ các nhóm căn nguyên FUO gồm: Nhiễm trùng {{c1::51%}}, Bệnh tự miễn mô liên kết {{c1::9%}}, Bệnh ác tính {{c1::6%}} và Tự thoái lui không rõ nguyên nhân {{c1::23%}}.",
+          "text": "Theo tổng quan Chow & Robinson 2011, tỷ lệ các nhóm căn nguyên FUO gồm: Nhiễm trùng {{c1::51%}}, Bệnh tự miễn mô liên kết 9%, Bệnh ác tính 6% và Tự thoái lui không rõ nguyên nhân 23%.",
           "extra": "Cơ chế: Nắm vững tỷ lệ này giúp bác sĩ ưu tiên tìm kiếm nhiễm trùng thông thường biểu hiện không điển hình trước khi nghĩ đến các bệnh lý hiếm gặp."
         },
         {
@@ -12371,7 +12371,7 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Theo Chow & Robinson 2011, đối với 23% trẻ mắc FUO không tìm ra chẩn đoán sau các thăm dò, phần lớn các trường hợp có diễn tiến {{c1::tự thoái lui hết sốt hoàn toàn mà không để lại di chứng}}.",
+          "text": "Theo Chow & Robinson 2011, đối với 23% trẻ mắc FUO không tìm ra chẩn đoán sau các thăm dò, phần lớn các trường hợp có diễn tiến {{c1::tự thoái lui hoàn toàn}}.",
           "extra": "Cơ chế: Khẳng định vai trò của việc kiên trì theo dõi, tránh nôn nóng can thiệp các liệu pháp ức chế miễn dịch hay kháng sinh mù quáng."
         },
         {
@@ -12381,7 +12381,7 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Trong tiếp cận FUO bậc 2, nồng độ Ferritin huyết thanh tăng rất cao là dấu chỉ điểm hướng tới biến chứng đe dọa tính mạng là {{c1::Hội chứng kích hoạt đại thực bào (Macrophage Activation Syndrome - MAS)}}.",
+          "text": "Trong tiếp cận FUO bậc 2, nồng độ Ferritin huyết thanh tăng rất cao là dấu chỉ điểm hướng tới biến chứng đe dọa tính mạng là {{c1::Hội chứng kích hoạt đại thực bào (MAS)}}.",
           "extra": "Cơ chế: MAS là một thể nặng của hội chứng thực bào máu xảy ra trên nền bệnh Still sJIA, đòi hỏi can thiệp cấp cứu bằng Methylprednisolone liều xung và Cyclosporine."
         },
         {
@@ -12421,12 +12421,12 @@ window.PED_LIBRARY_DATA = {
         },
         {
           "type": "cloze",
-          "text": "Trong quy tắc đèn giao thông NICE, trẻ từ 3 đến 6 tháng tuổi có thân nhiệt ≥ {{c1::39.0°C}} được xếp vào nhóm nguy cơ {{c1::Hổ phách (nguy cơ trung bình)}}.",
+          "text": "Trong quy tắc đèn giao thông NICE, trẻ từ 3 đến 6 tháng tuổi có thân nhiệt ≥ 39.0°C được xếp vào nhóm nguy cơ {{c1::Hổ phách (nguy cơ trung bình)}}.",
           "extra": "Cơ chế: Trẻ ở lứa tuổi này sốt cao trên 39 độ có xác suất nhiễm khuẩn tiềm ẩn cao hơn, cần được đánh giá cận lâm sàng cẩn thận."
         },
         {
           "type": "cloze",
-          "text": "Trong quy tắc đèn giao thông NICE, trẻ dưới 3 tháng tuổi có thân nhiệt ≥ {{c1::38.0°C}} tự động được xếp vào nhóm nguy cơ {{c1::Đỏ (nguy cơ cao)}}.",
+          "text": "Trong quy tắc đèn giao thông NICE, trẻ dưới 3 tháng tuổi có thân nhiệt ≥ 38.0°C tự động được xếp vào nhóm nguy cơ {{c1::Đỏ (nguy cơ cao)}}.",
           "extra": "Cơ chế: Do tính dễ bị tổn thương của hệ miễn dịch sơ sinh và nhũ nhi nhỏ, bất kỳ cơn sốt nào ở lứa tuổi này đều phải xem là nguy cơ cao."
         },
         {
