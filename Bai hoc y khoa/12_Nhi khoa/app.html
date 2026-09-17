@@ -31,6 +31,9 @@
   </script>
   <!-- Marked.js for fast Markdown parsing -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- KaTeX for Medical & Clinical Formulas (e.g. PaO2, PaCO2, HR, CO = HR x SV) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
   <style>
     :root {
       --bg-base: #090e17;
@@ -678,22 +681,61 @@
     }
 
     // Render markdown with custom tags (e.g. <!-- Page XX -->) and strip YAML frontmatter
+    // Format Math in plain text (e.g. Anki cards)
+    function formatMathInText(str) {
+      if (!str || !window.katex) return str || '';
+      str = str.replace(/\$\$([\s\S]+?)\$\$/g, (m, expr) => {
+        try {
+          return katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false });
+        } catch(e) { return m; }
+      });
+      str = str.replace(/(^|[^\\])\$([^\$\n]+?)\$/g, (m, prefix, expr) => {
+        if (/^\d+(?:[.,]\d+)?\s*$/.test(expr)) return m;
+        try {
+          return prefix + katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
+        } catch(e) { return m; }
+      });
+      return str;
+    }
+
+    // Render markdown with custom tags, protected KaTeX math, and strip YAML frontmatter
     function renderMarkdownColumn(type, content) {
       const container = document.getElementById(`${type}ArticleBody`);
+      let text = (content || '').trimStart().replace(/^---\s*[\r\n]+[\s\S]*?[\r\n]+---\s*[\r\n]*/, '');
 
-      // Strip leading YAML frontmatter if present (between --- and ---)
-      let cleanContent = (content || '').trimStart().replace(/^---\s*[\r\n]+[\s\S]*?[\r\n]+---\s*[\r\n]*/, '');
-
-      // Convert page comment to visual banner
-      let processed = cleanContent.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
+      text = text.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
         return `\n\n<div class="page-marker-banner"><span>📖 Trang ${p}</span> <span class="text-purple-300/40">•</span> <span>Giáo trình Nhi khoa Y Thái Bình</span></div>\n\n`;
       });
 
-      if (window.marked) {
-        container.innerHTML = marked.parse(processed);
-      } else {
-        container.innerText = processed;
-      }
+      const mathStore = [];
+      text = text.replace(/\$\$([\s\S]+?)\$\$/g, (m, expr) => {
+        let rendered = m;
+        if (window.katex) {
+          try {
+            rendered = katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false });
+          } catch(e) { rendered = m; }
+        }
+        const id = `@@MATH_BLOCK_${mathStore.length}@@`;
+        mathStore.push(rendered);
+        return id;
+      });
+
+      text = text.replace(/(^|[^\\])\$([^\$\n]+?)\$/g, (m, prefix, expr) => {
+        if (/^\d+(?:[.,]\d+)?\s*$/.test(expr)) return m;
+        let rendered = `$${expr}$`;
+        if (window.katex) {
+          try {
+            rendered = katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
+          } catch(e) { rendered = `$${expr}$`; }
+        }
+        const id = `@@MATH_INLINE_${mathStore.length}@@`;
+        mathStore.push(rendered);
+        return prefix + id;
+      });
+
+      let html = window.marked ? marked.parse(text) : text;
+      html = html.replace(/@@MATH_(?:BLOCK|INLINE)_(\d+)@@/g, (m, idx) => mathStore[Number(idx)] || m);
+      container.innerHTML = html;
     }
 
     // Render Anki Cards
@@ -727,6 +769,8 @@
 
         // Cloze clean preview
         let cleanText = c.text ? c.text.replace(/{{c\d+::(.*?)(?:::(.*?))?}}/g, '<span class="bg-rose-500/20 text-rose-300 border-b-2 border-rose-500 px-1 py-0.5 rounded font-bold">$1</span>') : '';
+        cleanText = formatMathInText(cleanText);
+        let extraText = formatMathInText(c.extra || '');
 
         cardEl.innerHTML = `
           <div>
@@ -743,7 +787,7 @@
           </div>
           ${c.extra ? `
             <div class="pt-2 border-t border-white/5 text-[11px] text-slate-400 italic">
-              <b class="${c.track === 'barem_goc' ? 'text-amber-400' : 'text-cyan-400'} not-italic">💡 ${c.track === 'barem_goc' ? 'Barem giáo trình gốc' : 'Lập luận lâm sàng & EBM'}:</b> ${c.extra}
+              <b class="${c.track === 'barem_goc' ? 'text-amber-400' : 'text-cyan-400'} not-italic">💡 ${c.track === 'barem_goc' ? 'Barem giáo trình gốc' : 'Lập luận lâm sàng & EBM'}:</b> ${extraText}
             </div>
           ` : ''}
         `;

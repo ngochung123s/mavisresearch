@@ -35,6 +35,9 @@
   </script>
   <!-- Marked.js -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- KaTeX for Medical & Clinical Formulas (e.g. PaO2, PaCO2, HR, CO = HR x SV) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
   <style>
     :root {
       --bg-base: #090a0f;
@@ -770,20 +773,60 @@
       }
     }
 
+    // Format Math in plain text (e.g. Anki cards)
+    function formatMathInText(str) {
+      if (!str || !window.katex) return str || '';
+      str = str.replace(/\$\$([\s\S]+?)\$\$/g, (m, expr) => {
+        try {
+          return katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false });
+        } catch(e) { return m; }
+      });
+      str = str.replace(/(^|[^\\])\$([^\$\n]+?)\$/g, (m, prefix, expr) => {
+        if (/^\d+(?:[.,]\d+)?\s*$/.test(expr)) return m;
+        try {
+          return prefix + katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
+        } catch(e) { return m; }
+      });
+      return str;
+    }
+
     function renderMarkdown(type, content) {
       const container = document.getElementById(`${type}Container`);
-      // Strip leading YAML frontmatter if present
-      let cleanContent = (content || '').trimStart().replace(/^---\s*[\r\n]+[\s\S]*?[\r\n]+---\s*[\r\n]*/, '');
+      let text = (content || '').trimStart().replace(/^---\s*[\r\n]+[\s\S]*?[\r\n]+---\s*[\r\n]*/, '');
 
-      let processed = cleanContent.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
+      text = text.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
         return `\n\n<div class="page-marker-banner"><span>📖 Trang ${p}</span> <span class="text-purple-300/40">•</span> <span>Giáo trình Nhi khoa Y Thái Bình</span></div>\n\n`;
       });
 
-      if (window.marked) {
-        container.innerHTML = marked.parse(processed);
-      } else {
-        container.innerText = processed;
-      }
+      const mathStore = [];
+      text = text.replace(/\$\$([\s\S]+?)\$\$/g, (m, expr) => {
+        let rendered = m;
+        if (window.katex) {
+          try {
+            rendered = katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false });
+          } catch(e) { rendered = m; }
+        }
+        const id = `@@MATH_BLOCK_${mathStore.length}@@`;
+        mathStore.push(rendered);
+        return id;
+      });
+
+      text = text.replace(/(^|[^\\])\$([^\$\n]+?)\$/g, (m, prefix, expr) => {
+        if (/^\d+(?:[.,]\d+)?\s*$/.test(expr)) return m;
+        let rendered = `$${expr}$`;
+        if (window.katex) {
+          try {
+            rendered = katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
+          } catch(e) { rendered = `$${expr}$`; }
+        }
+        const id = `@@MATH_INLINE_${mathStore.length}@@`;
+        mathStore.push(rendered);
+        return prefix + id;
+      });
+
+      let html = window.marked ? marked.parse(text) : text;
+      html = html.replace(/@@MATH_(?:BLOCK|INLINE)_(\d+)@@/g, (m, idx) => mathStore[Number(idx)] || m);
+      container.innerHTML = html;
     }
 
     // Generate section quick-jumper pills from H2 headers
@@ -896,7 +939,8 @@
       document.getElementById('cardIDBadge').textContent = `#${c.id || (currentCardIdx + 1)}`;
 
       // Question (Cloze hidden)
-      const qText = c.text ? c.text.replace(/{{c\d+::(.*?)(?:::(.*?))?}}/g, '<span class="bg-rose-500/20 text-rose-300 border-b-2 border-dashed border-rose-500 px-1.5 py-0.5 rounded font-bold">[ ... ]</span>') : '';
+      let qText = c.text ? c.text.replace(/{{c\d+::(.*?)(?:::(.*?))?}}/g, '<span class="bg-rose-500/20 text-rose-300 border-b-2 border-dashed border-rose-500 px-1.5 py-0.5 rounded font-bold">[ ... ]</span>') : '';
+      qText = formatMathInText(qText);
       document.getElementById('cardQuestionText').innerHTML = qText;
 
       // Extra
@@ -904,10 +948,11 @@
       answerArea.classList.add('hidden');
 
       const isBarem = c.track === 'barem_goc';
+      const extraFormatted = formatMathInText(c.extra || 'Không có ghi chú thêm.');
       document.getElementById('cardExtraText').innerHTML = `
         <div class="p-3 rounded-xl ${isBarem ? 'bg-amber-950/20 border border-amber-500/30' : 'bg-cyan-950/20 border border-cyan-500/30'}">
           <b class="${isBarem ? 'text-amber-400' : 'text-cyan-400'} block mb-1">💡 ${isBarem ? 'Barem giáo trình gốc YTB' : 'Lập luận lâm sàng & EBM'}:</b>
-          <span class="text-slate-200">${c.extra || 'Không có ghi chú thêm.'}</span>
+          <span class="text-slate-200">${extraFormatted}</span>
         </div>
       `;
 
@@ -924,7 +969,8 @@
 
       if (isFlipped) {
         // Show cloze answer highlighted
-        const aText = c.text ? c.text.replace(/{{c\d+::(.*?)(?:::(.*?))?}}/g, '<span class="bg-emerald-500/20 text-emerald-300 border-b-2 border-emerald-500 px-1.5 py-0.5 rounded font-bold">$1</span>') : '';
+        let aText = c.text ? c.text.replace(/{{c\d+::(.*?)(?:::(.*?))?}}/g, '<span class="bg-emerald-500/20 text-emerald-300 border-b-2 border-emerald-500 px-1.5 py-0.5 rounded font-bold">$1</span>') : '';
+        aText = formatMathInText(aText);
         document.getElementById('cardQuestionText').innerHTML = aText;
         answerArea.classList.remove('hidden');
         document.getElementById('btnFlipText').textContent = 'Ẩn đáp án';
