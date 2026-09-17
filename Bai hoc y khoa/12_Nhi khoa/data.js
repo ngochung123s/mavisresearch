@@ -5,9 +5,9 @@ window.PED_LIBRARY_DATA = {
     "version": "1.0",
     "generated_at": "2026-09-16",
     "total_curriculum": 47,
-    "total_ped": 17,
+    "total_ped": 18,
     "total_pedytb": 2,
-    "total_cards": 1243,
+    "total_cards": 1331,
     "blocks": [
       "Block 0 — Nền tảng tư duy, Tiếp cận & Dược lý Nhi khoa",
       "Block 1 — Hồi sức, Cấp cứu & Ngộ độc Nhi khoa",
@@ -250,12 +250,12 @@ window.PED_LIBRARY_DATA = {
       "block": "Block 2 — Sơ sinh học",
       "scope": "Ngưỡng đường huyết can thiệp theo giờ tuổi; phác đồ cấp cứu Glucose 10% mini-bolus (2 ml/kg) và truyền duy trì tốc độ truyền đường (GIR); chăm sóc ủ ấm.",
       "dependency": "PED-03",
-      "curriculum_status": "❌ CHƯA CÓ",
-      "has_ped": false,
+      "curriculum_status": "✅ GATES ĐẠT (MD + APKG 88 thẻ)",
+      "has_ped": true,
       "has_pedytb": false,
-      "cards_count": 0,
-      "apkg_file": null,
-      "folder_rel": ""
+      "cards_count": 88,
+      "apkg_file": "PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh_2026-09-17_RELEASE_v1.apkg",
+      "folder_rel": "02_So_sinh_hoc/PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh"
     },
     {
       "id": "PED-18",
@@ -5174,6 +5174,1084 @@ window.PED_LIBRARY_DATA = {
       "apkg_file": "PED-16_Nhiem_khuan_so_sinh_som_va_muon_2026-09-15_RELEASE_v1.apkg",
       "html_file": null,
       "folder_rel": "02_So_sinh_hoc/PED-16_Nhiem_khuan_so_sinh_som_va_muon"
+    },
+    {
+      "id": "PED-17",
+      "priority": "P0",
+      "title": "Hạ đường huyết & Hạ thân nhiệt ở trẻ sơ sinh",
+      "block": "Block 2 — Sơ sinh học",
+      "scope": "Ngưỡng đường huyết can thiệp theo giờ tuổi; phác đồ cấp cứu Glucose 10% mini-bolus (2 ml/kg) và truyền duy trì tốc độ truyền đường (GIR); chăm sóc ủ ấm.",
+      "dependency": "PED-03",
+      "curriculum_status": "✅ GATES ĐẠT (MD + APKG 88 thẻ)",
+      "has_ped": true,
+      "has_pedytb": false,
+      "has_cards": true,
+      "ped_file": "PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh_2026-09-17_RELEASE_v1.md",
+      "ped_content": "# BÀI HỌC Y KHOA CHUYÊN SÂU: HẠ ĐƯỜNG HUYẾT VÀ HẠ THÂN NHIỆT Ở TRẺ SƠ SINH (PED-17)\n\n**Mã bài học:** PED-17  \n**Chuyên khoa:** Nhi khoa — Sơ sinh học (Neonatology)  \n**Đối tượng đào tạo:** Bác sĩ nội trú, Bác sĩ Nhi khoa, Bác sĩ Cấp cứu — Hồi sức sơ sinh  \n**Phiên bản phát hành:** 2026-09-17_RELEASE_v1  \n**Tiêu chuẩn chất lượng:** Why-based Clinical Curriculum, Dual-track Verification Governance (0 BLOCK, 0 WARN)\n\n---\n\n## 0. TỔNG QUAN — VÌ SAO BÀI HỌC NÀY ĐẶC BIỆT QUAN TRỌNG?\n\nHạ đường huyết và hạ thân nhiệt là hai rối loạn chuyển hóa thầm lặng phổ biến nhất nhưng cũng nguy hiểm bậc nhất tại phòng sinh, phòng hồi sức sơ sinh và khoa chăm sóc tích cực sơ sinh (NICU). Khác với người lớn hoặc trẻ lớn có khả năng bù trừ cơ học và dự trữ năng lượng dồi dào, trẻ sơ sinh — đặc biệt là trẻ sinh non và trẻ chậm tăng trưởng trong tử cung — bước vào đời với kho dự trữ glycogen hữu hạn, lớp mỡ dưới da mỏng manh và hệ thống điều hòa nội mô chưa hoàn thiện.\n\nMột cơn hạ thân nhiệt không được kiểm soát có thể nhanh chóng đẩy trẻ vào vòng xoắn toan chuyển hóa và kiệt quệ năng lượng; ngược lại, một cơn hạ đường huyết kéo dài hoặc co giật tái diễn không được điều trị kịp thời sẽ tước đoạt cơ chất duy nhất của tế bào thần kinh, để lại di chứng bại não, động kinh kháng trị và suy giảm nhận thức vĩnh viễn. Ranh giới giữa một đứa trẻ hồi phục hoàn toàn và một đứa trẻ mang tổn thương thần kinh suốt đời phụ thuộc trực tiếp vào tốc độ nhận diện nguy cơ tại giường và sự chuẩn xác trong từng mililit dịch truyền cấp cứu của bác sĩ lâm sàng.\n\nTriết lý điều trị cốt lõi của bài học được đúc kết qua 4 nguyên tắc bất biến: **\"Đúng đối tượng nguy cơ — Đúng ngưỡng can thiệp động học — Đúng tốc độ truyền đường (GIR) — Làm ấm từ từ an toàn\"**.\n\n---\n\n### 0.1. Nền tảng tối thiểu cần dùng ngay (Foundation Primer)\n\nPhần nhập môn này cung cấp khung định nghĩa giải phẫu - sinh lý - chuyển hóa cơ bản nhất mà mọi bác sĩ thực hành cần ghi nhớ trước khi tiếp cận xử trí tại giường bệnh:\n\n1. **Tốc độ truyền glucose (Glucose Infusion Rate - GIR)** là một chỉ số dược lý lâm sàng biểu thị lượng glucose được đưa vào tuần hoàn cơ thể tính bằng miligam trên mỗi kilogam cân nặng trong một phút ($\\text{mg/kg/phút}$). GIR phản ánh chính xác tốc độ cung ứng cơ chất ngoại sinh so với nhu cầu sản xuất glucose nội sinh sinh lý của gan sơ sinh (bình thường từ $4 - 6\\text{ mg/kg/phút}$).\n2. **Hạ đường huyết chuyển tiếp sơ sinh (Transitional neonatal hypoglycemia)** là một hiện tượng sinh lý bình thường phản ánh sự sụt giảm nồng độ glucose máu tự nhiên trong vài giờ đầu đời khi trẻ đột ngột bị cắt đứt nguồn cung liên tục từ tĩnh mạch rốn mẹ, trước khi các enzyme tân tạo đường và ly giải glycogen ở gan được kích hoạt hoàn toàn.\n3. **Mẫu máu quan trọng (Critical blood sample)** là một xét nghiệm máu toàn diện được chỉ định lấy ngay tại thời điểm trẻ đang bị hạ đường huyết nặng (glucose máu dưới $50\\text{ mg/dL}$ trước khi tiêm bolus đường) nhằm đo lường đồng thời nồng độ insulin, cortisol, hormone tăng trưởng GH, lactate, beta-hydroxybutyrate, acid béo tự do và khí máu động mạch để định danh căn nguyên nội tiết hoặc rối loạn chuyển hóa bẩm sinh.\n4. **Mô mỡ nâu (Brown Adipose Tissue - BAT)** là một cơ quan sinh nhiệt chuyên biệt của trẻ sơ sinh phân bố chủ yếu ở vùng gian bả vai, quanh thận, nách và trung thất, có cấu trúc giàu mạch máu và mật độ ty thể cực cao.\n5. **Protein tách rời 1 (Uncoupling Protein-1 - UCP-1 hay Thermogenin)** là một protein kênh vận chuyển proton đặc hiệu nằm trên màng trong ty thể của tế bào mỡ nâu, có chức năng tách rời chuỗi hô hấp tế bào khỏi quá trình tổng hợp ATP, biến toàn bộ năng lượng oxy hóa cơ chất thành nhiệt năng thuần túy để làm ấm dòng máu tuần hoàn.\n6. **Chuỗi ủ ấm sơ sinh (Warm chain)** là một hệ thống mười mắt xích thực hành chăm sóc liên hoàn do Tổ chức Y tế Thế giới (WHO) khuyến cáo nhằm ngăn chặn hiện tượng mất nhiệt ở trẻ sơ sinh từ giây phút chào đời tại phòng sinh cho đến suốt giai đoạn hậu sản tại buồng bệnh.\n7. **Bốn cơ chế mất nhiệt vật lý sơ sinh** là bốn con đường truyền năng lượng nhiệt từ cơ thể trẻ ra môi trường xung quanh bao gồm: bốc hơi qua da ướt và đường thở, dẫn truyền qua các bề mặt tiếp xúc lạnh, đối lưu qua luồng không khí chuyển động và bức xạ điện từ hồng ngoại hướng tới các bề mặt lạnh xung quanh.\n8. **Vòng xoắn ác tính Lạnh — Hạ đường huyết — Toan chuyển hóa** là một chuỗi tương tác bệnh lý hai chiều: lạnh kích thích sinh nhiệt tối đa làm cạn kiệt nguồn glycogen dự trữ gây hạ đường huyết; hạ đường huyết làm mất cơ chất tạo ATP khiến nhiệt độ cơ thể tụt sâu hơn; co mạch ngoại vi do lạnh dẫn đến giảm tưới máu mô gây toan lactic và tăng kháng lực mạch máu phổi dẫn tới tử vong.\n\n---\n\n> ### 🚨 BOX ĐỎ CẤP CỨU: DẤU HIỆU CẢNH BÁO NGUY KỊCH TẠI GIƯỜNG\n> \n> Bác sĩ phải kích hoạt cấp cứu ngừng tuần hoàn hoặc xử trí tĩnh mạch ngay lập tức khi phát hiện bất kỳ dấu hiệu nào sau đây ở trẻ sơ sinh:\n> \n> 1. **Cơn ngừng thở kéo dài trên hai mươi giây** hoặc ngừng thở kèm theo nhịp tim chậm dưới một trăm lần mỗi phút, tím tái toàn thân hoặc độ bão hòa oxy $SpO_2$ tụt dốc.\n> 2. **Cơn co giật thực sự sơ sinh:** Cử động giật nhịp nhàng, đảo mắt, chép miệng liên tục hoặc rung giật một chi không dừng lại khi người khám giữ nhẹ chi đó.\n> 3. **Li bì, hôn mê hoặc hạ trương lực cơ toàn thân nghiêm trọng:** Trẻ mềm nhẽo như búp bê vải, mất hoàn toàn phản xạ bú, không đáp ứng với kích thích đau.\n> 4. **Hạ thân nhiệt nặng (thân nhiệt trung tâm dưới ba mươi hai độ C):** Da trẻ lạnh ngắt, tái xám hoặc có mảng cứng bì phù nề, mạch bẹn bắt yếu, tiếng tim mờ xa xăm, dọa ngừng tuần hoàn.\n> 5. **Hạ đường huyết que thử mao mạch dưới hai mươi lăm miligam trên decilit (dưới một phẩy tư milimol trên lít):** Đòi hỏi thiết lập đường truyền tĩnh mạch và tiêm bolus Glucose mười phần trăm cấp cứu ngay lập tức, tuyệt đối không được phép trì hoãn chờ kết quả xét nghiệm tĩnh mạch từ phòng xét nghiệm.\n\n---\n\n## 1. ĐỊNH NGHĨA & SINH LÝ HỌC CHUYỂN HÓA NĂNG LƯỢNG SƠ SINH\n\n### 1.1 Quá trình chuyển tiếp nội tiết sau khi cắt rốn\nTrong suốt thai kỳ, thai nhi nhận được nguồn glucose liên tục từ tuần hoàn mẹ qua cơ chế khuếch tán được thuận hóa bởi các chất vận chuyển glucose (GLUT-1 và GLUT-3) tại bánh nhau. Nồng độ glucose trong máu thai nhi luôn duy trì ở mức khoảng $70 - 80\\%$ nồng độ glucose máu của người mẹ. Ngay khi thai nhi chào đời và dây rốn bị kẹp, nguồn cung cấp carbohydrate ngoại sinh đột ngột bị cắt đứt hoàn toàn. \n\nLúc này, cơ thể trẻ sơ sinh bắt buộc phải tự lực chuyển đổi từ trạng thái đồng hóa phụ thuộc mẹ sang trạng thái dị hóa tự chủ. Trong vòng 1 đến 2 giờ đầu sau sinh, nồng độ glucose máu của mọi trẻ sơ sinh khỏe mạnh đều trải qua một giai đoạn sụt giảm sinh lý tự nhiên, chạm mức đáy thấp nhất (nadir) khoảng $30 - 35\\text{ mg/dL}$ ($1.7 - 2.0\\text{ mmol/L}$). Sự sụt giảm glucose này kích hoạt hệ thống thần kinh giao cảm và trục nội tiết: nồng độ insulin trong huyết tương giảm mạnh, đồng thời nồng độ glucagon, epinephrine, cortisol và hormone tăng trưởng (GH) tăng vọt. Sự thay đổi tỷ lệ glucagon/insulin kích thích gan kích hoạt nhanh chóng hai con đường chuyển hóa then chốt:\n1. **Ly giải glycogen (Glycogenolysis):** Phân cắt nguồn dự trữ glycogen tại gan đã tích lũy trong tam cá nguyệt thứ ba của thai kỳ để phóng thích glucose tự do vào máu.\n2. **Tân tạo đường (Gluconeogenesis):** Tổng hợp glucose mới từ các cơ chất không phải carbohydrate như lactate, glycerol và alanine dưới sự xúc tác của enzyme phosphoenolpyruvate carboxykinase (PEPCK).\n\nĐồng thời, quá trình ly giải lipid (lipolysis) được đẩy mạnh, giải phóng acid béo tự do và thể ketone (beta-hydroxybutyrate, acetoacetate) đóng vai trò là nguồn nhiên liệu thay thế sống còn cho tế bào não. Ở trẻ sơ sinh đủ tháng khỏe mạnh bú mẹ sớm, nồng độ glucose máu sẽ tự động tăng dần lên và ổn định trên $45 - 50\\text{ mg/dL}$ sau 12 đến 24 giờ tuổi.\n\n*Ví dụ minh họa 1:* Một bé sơ sinh đủ tháng cân nặng $3.2\\text{ kg}$ sau sinh 1 giờ có nồng độ glucose máu tụt xuống mức nadir sinh lý $32\\text{ mg/dL}$ ($1.8\\text{ mmol/L}$) nhưng trẻ hoàn toàn hồng hào, phản xạ tìm bú tốt. Nhờ sự tăng vọt sinh lý của glucagon và cortisol, gan của trẻ nhanh chóng ly giải glycogen và tân tạo đường, giúp đường huyết tự động tăng lên $48\\text{ mg/dL}$ lúc 3 giờ tuổi sau cữ bú mẹ đầu tiên mà không cần can thiệp dịch truyền tĩnh mạch.\n\n```mermaid\nflowchart TD\n    A[Kẹp cắt dây rốn lúc sinh] --> B[Cắt đứt nguồn cung Glucose từ mẹ]\n    B --> C[Glucose máu tụt sinh lý nadir tại 1-2h: 30-35 mg/dL]\n    C --> D[Tụy giảm tiết Insulin + Tăng vọt Glucagon, Epinephrine, Cortisol]\n    D --> E[Kích hoạt Glycogenolysis tại gan phóng thích Glucose]\n    D --> F[Kích hoạt Tân tạo đường Gluconeogenesis từ Lactate, Alanine]\n    D --> G[Ly giải mỡ Lipolysis tạo Thể Ketone thay thế nuôi tế bào não]\n    E & F & G --> H[Đường huyết hồi phục ổn định > 45-50 mg/dL sau 12-24h]\n```\n\n### 1.2 Ngưỡng định nghĩa động học theo AAP (2011) và PES (2015)\nTrong nhiều thập kỷ, định nghĩa về hạ đường huyết sơ sinh luôn là chủ đề tranh luận gay gắt do thiếu một con số số học duy nhất áp dụng cho mọi thời điểm. Năm 2011, Viện Hàn lâm Nhi khoa Hoa Kỳ (AAP) đã ban hành báo cáo lâm sàng mang tính bước ngoặt, xác lập cách tiếp cận ngưỡng can thiệp động học theo giờ tuổi áp dụng cho các trẻ sơ sinh có nguy cơ cao (sinh non muộn $34 - 36^{6/7}$ tuần, SGA, LGA, con mẹ đái tháo đường IDM):\n\n*Bảng 1: Ngưỡng can thiệp đường huyết động học theo khuyến cáo AAP (2011)*\n| Giờ tuổi sau sinh | Tình trạng lâm sàng | Ngưỡng Glucose máu can thiệp | Hành động lâm sàng chuẩn mực |\n|---|---|---|---|\n| **0 – 4 giờ đầu** | Có triệu chứng | $< 40\\text{ mg/dL}$ ($< 2.2\\text{ mmol/L}$) | Tiêm tĩnh mạch cấp cứu Glucose 10% |\n| **0 – 4 giờ đầu** | Không triệu chứng | $< 25\\text{ mg/dL}$ ($< 1.4\\text{ mmol/L}$) | Cho bú mẹ / Dextrose gel 40%; truyền TM nếu thất bại |\n| **4 – 24 giờ tuổi** | Có triệu chứng | $< 40\\text{ mg/dL}$ ($< 2.2\\text{ mmol/L}$) | Tiêm tĩnh mạch cấp cứu Glucose 10% |\n| **4 – 24 giờ tuổi** | Không triệu chứng | $< 35\\text{ mg/dL}$ ($< 1.9\\text{ mmol/L}$) | Cho bú mẹ tăng cường; nếu vẫn $< 35\\text{ mg/dL}$ thì truyền TM |\n| **Sau 24 – 48 giờ tuổi** | Mọi trẻ sơ sinh | $< 45 - 50\\text{ mg/dL}$ ($< 2.5 - 2.8\\text{ mmol/L}$) | Mục tiêu duy trì an toàn trước các cữ bú |\n\nNgược lại, Hiệp hội Nội tiết Nhi khoa Hoa Kỳ (PES, 2015) tiếp cận dưới góc độ an toàn thần kinh lâu dài và chẩn đoán các bệnh lý hạ đường huyết dai dẳng. PES nhấn mạnh rằng sau giai đoạn chuyển tiếp 48 giờ đầu, nồng độ glucose máu của trẻ cần được duy trì vững chắc trên $50\\text{ mg/dL}$ ($2.8\\text{ mmol/L}$), và đối với trẻ mắc các hội chứng cường insulin bẩm sinh hoặc nghi ngờ tổn thương não, ngưỡng an toàn tối thiểu phải là trên $60\\text{ mg/dL}$ ($3.3\\text{ mmol/L}$).\n\n### 1.3 Ngưỡng bảo vệ thần kinh thực chứng từ nghiên cứu CHYLD (NEJM 2015)\nMột câu hỏi then chốt trong y học sơ sinh là: \"Ngưỡng glucose máu thực tế nào sẽ gây tổn thương phát triển thần kinh?\". Nghiên cứu tiến cứu đoàn hệ CHYLD (Children with Hypoglycemia and Their Later Development) do Harris và cộng sự thực hiện tại New Zealand, công bố trên tạp chí The New England Journal of Medicine (NEJM 2015), đã theo dõi 404 trẻ sơ sinh có nguy cơ cao được theo dõi glucose liên tục (CGM).\n\nNghiên cứu đã chứng minh rằng việc duy trì nồng độ glucose máu ở mức từ $47\\text{ mg/dL}$ ($2.6\\text{ mmol/L}$) trở lên giúp bảo tồn hoàn hảo sự phát triển nhận thức, chức năng điều hành và xử lý thị giác của trẻ khi đánh giá tại thời điểm hai tuổi. Khi nồng độ đường huyết tụt xuống dưới ngưỡng này, đặc biệt nếu tình trạng hạ đường huyết diễn ra tái diễn hoặc kéo dài, nguy cơ suy giảm chức năng điều hành và thị giác tăng lên rõ rệt. Do đó, mốc $47\\text{ mg/dL}$ ($2.6\\text{ mmol/L}$) hiện được công nhận trên toàn thế giới là \"Ngưỡng bảo vệ tế bào thần kinh\" trong thực hành lâm sàng.\n\n---\n\n## 2. CƠ CHẾ SINH LÝ BỆNH & PHÂN LOẠI NGUYÊN NHÂN HẠ ĐƯỜNG HUYẾT\n\nDựa trên cơ chế bệnh sinh chuyển hóa, hạ đường huyết ở trẻ sơ sinh được phân loại thành 4 nhóm nguyên nhân lớn:\n\n### 2.1 Nhóm 1: Giảm dự trữ hoặc giảm sản xuất glucose\n- **Trẻ sinh non (Preterm infants):** Sự tích lũy glycogen tại gan và mỡ dưới da diễn ra mạnh mẽ nhất trong 3 tháng cuối thai kỳ. Trẻ sinh non trước 37 tuần bị tước đoạt giai đoạn tích lũy này, dẫn đến kho dự trữ cạn kiệt. Ngoài ra, hệ enzyme PEPCK và glucose-6-phosphatase tại gan ở trẻ sinh non chưa trưởng thành, làm giảm sút khả năng tân tạo đường.\n- **Trẻ chậm tăng trưởng trong tử cung (IUGR) hoặc nhỏ so với tuổi thai (SGA):** Do suy tuần hoàn tử cung - bánh nhau mạn tính, thai nhi không nhận đủ chất dinh dưỡng để tổng hợp glycogen. Lượng mỡ cơ thể rất ít khiến trẻ không có đủ acid béo và glycerol cho quá trình tân tạo đường.\n\n*Chuỗi cơ chế bệnh sinh 1: Trẻ sinh non và suy dinh dưỡng bào thai*  \nTầng 1: Thiếu hụt thời gian tích lũy dưỡng chất trong tử cung $\\rightarrow$  \nTầng 2: Giảm dự trữ glycogen gan và mô mỡ dưới da $\\rightarrow$  \nTầng 3: Thiếu hụt cơ chất glycerol và enzyme tân tạo đường PEPCK chưa trưởng thành $\\rightarrow$  \nTầng 4: Không thể duy trì nồng độ glucose máu khi bị cắt đứt nguồn nuôi từ mẹ $\\rightarrow$  \nTầng 5: Xuất hiện hạ đường huyết nặng trong 6 đến 12 giờ đầu sau sinh.\n\n### 2.2 Nhóm 2: Tăng tiêu thụ năng lượng và tăng chuyển hóa ngoại vi\n- **Hạ thân nhiệt và stress lạnh:** Khi bị lạnh, trẻ kích hoạt phản ứng sinh nhiệt tối đa qua mỡ nâu, tiêu tốn một lượng glucose khổng lồ từ tuần hoàn.\n- **Nhiễm trùng huyết sơ sinh (Neonatal Sepsis):** Tình trạng nhiễm khuẩn làm tăng mạnh tỷ lệ chuyển hóa cơ bản, tăng giải phóng các cytokine gây viêm (TNF-alpha, IL-6) kích thích tiêu thụ glucose tại các mô ngoại biên, đồng thời gây rối loạn chức năng gan làm ức chế tân tạo đường.\n- **Ngạt chu sinh và thiếu oxy mô:** Thiếu oxy buộc các tế bào phải chuyển sang con đường đường phân kỵ khí (anaerobic glycolysis). Đường phân kỵ khí chỉ tạo ra 2 phân tử ATP cho mỗi phân tử glucose (thay vì 36–38 ATP theo chu trình hiếu khí), đòi hỏi tiêu hao lượng glucose gấp 18 lần để duy trì cùng một mức năng lượng tế bào, nhanh chóng làm cạn kiệt glycogen chỉ sau vài giờ.\n\n*Chuỗi cơ chế bệnh sinh 2: Ngạt sau sinh và đường phân kỵ khí*  \nTầng 1: Ngạt chu sinh gây thiếu oxy mô toàn thân $\\rightarrow$  \nTầng 2: Ức chế chuỗi hô hấp tế bào hiếu khí tại ty thể $\\rightarrow$  \nTầng 3: Tế bào chuyển dịch hoàn toàn sang đường phân kỵ khí tiêu tốn glucose gấp 18 lần $\\rightarrow$  \nTầng 4: Tăng tích tụ acid lactic gây toan chuyển hóa nặng $\\rightarrow$  \nTầng 5: Kho dự trữ glucose kiệt quệ hoàn toàn gây hạ đường huyết sâu khó phục hồi.\n\n### 2.3 Nhóm 3: Tăng nồng độ insulin máu (Hyperinsulinism)\n- **Con của mẹ đái tháo đường (Infant of Diabetic Mother - IDM):** Theo thuyết Pederson kinh điển, tình trạng tăng đường huyết không kiểm soát ở mẹ làm tăng lượng glucose khuếch tán qua bánh nhau vào thai nhi. Tụy của thai nhi phản ứng bằng cách tăng sinh các tế bào beta đảo tụy và tăng tiết insulin. Sau khi cắt rốn, lượng glucose từ mẹ ngưng lại nhưng nồng độ insulin trong máu trẻ vẫn duy trì ở mức cực cao, thúc đẩy chuyển toàn bộ glucose máu vào tế bào cơ và tế bào mỡ, đồng thời ức chế hoàn toàn quá trình ly giải glycogen và tân tạo đường tại gan.\n- **Trẻ to so với tuổi thai (LGA):** Dù mẹ không có chẩn đoán đái tháo đường thai kỳ rõ ràng, nhiều trẻ LGA vẫn có tình trạng tăng tiết insulin tương đối.\n- **Hội chứng Beckwith-Wiedemann:** Bất thường di truyền vùng nhiễm sắc thể 11p15 dẫn đến quá sản đảo tụy, biểu hiện tam chứng kinh điển: lưỡi to, thoát vị rốn và cân nặng lúc sinh lớn kèm hạ đường huyết cường insulin kháng trị.\n\n*Chuỗi cơ chế bệnh sinh 3: Thuyết Pederson ở con mẹ đái tháo đường*  \nTầng 1: Tăng đường huyết mạn tính ở người mẹ khuếch tán liên tục qua nhau thai $\\rightarrow$  \nTầng 2: Tụy thai nhi tăng sản tế bào beta và tăng tiết nồng độ insulin máu $\\rightarrow$  \nTầng 3: Cắt rốn làm ngừng đột ngột nguồn đường ngoại sinh từ mẹ $\\rightarrow$  \nTầng 4: Lượng insulin nội sinh dư thừa ức chế ly giải glycogen và đẩy mạnh thu nạp glucose vào mô $\\rightarrow$  \nTầng 5: Hạ đường huyết cấp tính rầm rộ ngay trong 1 đến 2 giờ đầu đời.\n\n### 2.4 Nhóm 4: Rối loạn chuyển hóa bẩm sinh và suy giảm nội tiết\n- **Khiếm khuyết oxy hóa acid béo (Fatty Acid Oxidation Disorders - FAODs):** Điển hình là khiếm khuyết enzyme MCAD (Medium-chain acyl-CoA dehydrogenase deficiency). Trẻ không thể sử dụng chất béo để tạo năng lượng và không sản xuất được thể ketone khi nhịn ăn, dẫn đến hạ đường huyết không tăng ketone kèm suy gan và bệnh cơ tim.\n- **Bệnh ứ đọng glycogen (Glycogen Storage Diseases - GSD type I):** Thiếu enzyme glucose-6-phosphatase khiến gan không thể phóng thích glucose tự do vào máu, gây hạ đường huyết nặng kèm gan to và toan lactic.\n- **Suy tuyến thượng thận bẩm sinh hoặc suy tuyến yên toàn bộ:** Thiếu hụt cortisol và hormone tăng trưởng (GH) làm mất đi hai hormone đối kháng insulin quan trọng nhất, khiến trẻ sơ sinh không thể duy trì đường huyết khi nhịn ăn kéo dài.\n\n---\n\n## 3. CƠ CHẾ ĐIỀU NHIỆT & 4 CƠ CHẾ MẤT NHIỆT Ở TRẺ SƠ SINH\n\n### 3.1 Đặc điểm giải phẫu khiến trẻ sơ sinh mất nhiệt nhanh gấp 4 lần người lớn\nTrẻ sơ sinh có tỷ lệ diện tích bề mặt cơ thể so với cân nặng ($S/V$) lớn gấp 3 lần so với người trưởng thành. Ở trẻ sinh non dưới 1.5 kg, tỷ lệ này còn cao hơn rất nhiều. Diện tích bề mặt tiếp xúc lớn đồng nghĩa với việc nhiệt năng từ cơ thể dễ dàng khuếch tán ra môi trường xung quanh. Bên cạnh đó, lớp mỡ dưới da đóng vai trò như một lớp cách nhiệt sinh học ở trẻ sơ sinh rất mỏng mảnh, làm giảm khả năng cản trở dẫn truyền nhiệt từ lõi cơ thể ra bề mặt da. Da của trẻ sinh non có lớp sừng mỏng, hàng rào biểu bì chưa trưởng thành làm tăng tính thấm và gia tăng mất nước qua thượng bì gấp nhiều lần.\n\n### 3.2 Sinh nhiệt không run qua mỡ nâu (BAT) và vai trò của UCP-1\nNgười lớn khi bị lạnh sẽ phản ứng bằng phản xạ run cơ (shivering thermogenesis) để sinh nhiệt. Trẻ sơ sinh hầu như không có khả năng run cơ hiệu quả do hệ thần kinh cơ chưa hoàn thiện. Thay vào đó, trẻ sơ sinh phụ thuộc hoàn toàn vào cơ chế **Sinh nhiệt không run (Non-shivering thermogenesis)** diễn ra tại mô mỡ nâu (BAT).\n\nKhi da trẻ tiếp nhận kích thích lạnh, xung động thần kinh truyền về trung tâm điều nhiệt ở vùng dưới đồi, kích hoạt hệ thần kinh giao cảm giải phóng norepinephrine tại các đầu tận cùng sợi thần kinh phân bố dày đặc quanh các tế bào mỡ nâu. Norepinephrine gắn vào thụ thể beta-3 adrenergic, kích hoạt enzyme adenylate cyclase làm tăng cAMP nội bào và kích hoạt lipase thủy phân triglyceride thành các acid béo tự do. Các acid béo tự do này không chỉ là cơ chất cho chu trình beta-oxy hóa mà còn trực tiếp hoạt hóa protein **UCP-1 (Thermogenin)** nằm trên màng trong ty thể.\n\nBình thường, quá trình oxy hóa cơ chất trong ty thể sẽ bơm proton ($H^+$) từ chất nền ty thể ra khoang gian màng, tạo nên một gradient điện hóa proton; dòng proton chảy ngược vào chất nền qua phức hợp ATP synthase sẽ thúc đẩy tổng hợp ATP. Tuy nhiên, khi UCP-1 được kích hoạt, kênh protein này mở ra cho phép các proton chảy tự do trở lại chất nền ty thể mà không đi qua ATP synthase. Quá trình này ngắn mạch gradient proton, triệt tiêu sự phosphoryl hóa và biến toàn bộ thế năng điện hóa thành nhiệt năng thuần túy. Máu tuần hoàn qua mạng lưới mao mạch phong phú của mô mỡ nâu được làm nóng và phân phối đi khắp các cơ quan trung tâm của cơ thể.\n\nQuá trình sinh nhiệt không run đòi hỏi một lượng oxy và glucose tiêu thụ khổng lồ. Do đó, một đứa trẻ bị lạnh kéo dài sẽ nhanh chóng rơi vào tình trạng cạn kiệt glucose và suy hô hấp giảm oxy máu.\n\n```mermaid\nflowchart LR\n    A[Nhiệt độ môi trường lạnh] --> B[Kích thích cảm thụ nhiệt tại da]\n    B --> C[Vùng dưới đồi kích hoạt Thần kinh giao cảm]\n    C --> D[Phóng thích Norepinephrine tại mô mỡ nâu BAT]\n    D --> E[Tăng cAMP nội bào & Kích hoạt Lipase ly giải Triglyceride]\n    E --> F[Acid béo tự do hoạt hóa kênh Protein UCP-1 màng trong ty thể]\n    F --> G[Tách rời chuỗi hô hấp: Dòng proton chảy tự do không qua ATP Synthase]\n    G --> H[Toàn bộ năng lượng biến thành NHIỆT NĂNG làm ấm dòng máu]\n    G --> I[Tiêu tốn lượng cực lớn OXY và GLUCOSE của cơ thể]\n```\n\n### 3.3 Bốn cơ chế mất nhiệt vật lý sơ sinh\nSự mất nhiệt của trẻ sơ sinh ra môi trường tuân theo 4 định luật vật lý cơ bản:\n\n1. **Bốc hơi (Evaporation):** Là sự mất nhiệt khi nước trên bề mặt da ẩm ướt hoặc từ đường thở chuyển thành thể hơi. Ngay sau sinh, da trẻ bao phủ bởi một lớp nước ối ướt đẫm; cứ mỗi $1\\text{ mL}$ nước ối bay hơi sẽ mang đi khoảng $0.58\\text{ kcal}$ nhiệt lượng. Bốc hơi là con đường mất nhiệt lớn nhất và nhanh nhất tại phòng sinh nếu trẻ không được lau khô hoặc bọc túi nhựa ngay lập tức.\n2. **Dẫn truyền (Conduction):** Là sự truyền nhiệt trực tiếp giữa hai vật thể tiếp xúc vật lý với nhau từ nơi có nhiệt độ cao sang nơi có nhiệt độ thấp. Ví dụ lâm sàng: Đặt trẻ sơ sinh nằm trực tiếp lên cân kim loại lạnh, bàn khám lạnh, hoặc tiếp xúc với ga trải giường ướt và ống nghe lạnh chưa được làm ấm.\n3. **Đối lưu (Convection):** Là sự mất nhiệt từ bề mặt cơ thể ra các luồng không khí chuyển động xung quanh. Tốc độ mất nhiệt đối lưu tỷ lệ thuận với vận tốc dòng khí. Ví dụ lâm sàng: Gió lùa từ cửa sổ mở, quạt trần quay trực tiếp, luồng gió từ máy điều hòa nhiệt độ hoặc luồng khí oxy lạnh không được làm ẩm thổi vào mặt trẻ.\n4. **Bức xạ (Radiation):** Là sự truyền nhiệt dưới dạng sóng điện từ hồng ngoại giữa hai vật thể không tiếp xúc trực tiếp với nhau qua không gian. Nhiệt lượng bức xạ từ cơ thể ấm của trẻ sẽ truyền về phía các bề mặt lạnh xung quanh như tường phòng bệnh lạnh, cửa kính mùa đông hoặc thành lồng ấp đơn lớp lạnh, ngay cả khi nhiệt độ không khí bên trong lồng ấp đã được cài đặt ấm.\n\n*Ví dụ minh họa 2:* Một trẻ sơ sinh nằm gần cửa sổ phòng sinh mùa đông có gió lùa với vận tốc $0.5\\text{ m/giây}$ sẽ bị mất nhiệt đối lưu kết hợp mất nhiệt bức xạ hướng về cửa kính lạnh nhanh gấp 3 lần bình thường, khiến thân nhiệt tụt $1^\\circ\\text{C}$ chỉ sau 15 phút nếu không được che chắn ấm áp.\n\n*Ví dụ minh họa 3:* Đặt một bé sơ sinh trần truồng lên một chiếc cân đĩa kim loại lạnh chưa được trải tã ấm sẽ kích hoạt hiện tượng mất nhiệt dẫn truyền tức thì, làm co thắt mạch máu dưới da và hạ thân nhiệt ngoại biên chỉ trong vòng chưa đầy 2 phút.\n\n---\n\n## 4. PHÂN ĐỘ HẠ THÂN NHIỆT & ẢNH HƯỞNG HỆ THỐNG (WHO STANDARDS)\n\n### 4.1 Bảng phân độ hạ thân nhiệt theo Tiêu chuẩn WHO\nTổ chức Y tế Thế giới (WHO) đã chuẩn hóa việc phân loại thân nhiệt ở trẻ sơ sinh dựa trên nhiệt độ đo ở nách (Axillary temperature):\n\n*Bảng 2: Phân độ thân nhiệt sơ sinh theo tiêu chuẩn WHO (1997)*\n| Phân loại thân nhiệt | Thân nhiệt đo nách ($^\\circ\\text{C}$) | Mức độ nguy hiểm | Ý nghĩa lâm sàng & Hành động |\n|---|---|---|---|\n| **Thân nhiệt bình thường** | $36.5 - 37.5^\\circ\\text{C}$ | Vùng nhiệt độ trung hòa (NTE) | Trẻ tiêu tốn năng lượng và oxy tối thiểu để duy trì nội môi |\n| **Stress lạnh (Hạ thân nhiệt nhẹ)** | $36.0 - 36.4^\\circ\\text{C}$ | Báo động sớm | Trẻ đang kích hoạt bù trừ; cần ủ ấm ngay và tìm nguyên nhân mất nhiệt |\n| **Hạ thân nhiệt trung bình** | $32.0 - 35.9^\\circ\\text{C}$ | Nguy hiểm | Suy giảm chức năng cơ quan; cần ủ ấm tích cực có kiểm soát tại đơn vị sơ sinh |\n| **Hạ thân nhiệt nặng** | $< 32.0^\\circ\\text{C}$ | Đe dọa tính mạng | Nguy cơ sốc, ngừng tim, xuất huyết phổi; tiên lượng tử vong cực kỳ cao |\n\n### 4.2 Tác động hệ thống nguy hiểm của hạ thân nhiệt\nKhi thân nhiệt của trẻ tụt xuống, mọi cơ quan trong cơ thể đều bị ảnh hưởng sâu sắc:\n1. **Hệ tim mạch và huyết động:** Ở giai đoạn đầu, lạnh gây co mạch ngoại vi để bảo tồn nhiệt cho lõi cơ thể, dẫn đến da tái nhợt, lạnh đầu chi, thời gian đổ đầy mao mạch (CRT) kéo dài trên 3 giây. Nếu lạnh tiếp diễn, cơ tim bị ức chế dẫn đến nhịp tim chậm, giảm cung lượng tim, huyết áp tụt dốc và cuối cùng là ngừng tim.\n2. **Hệ hô hấp và tuần hoàn phổi:** Co mạch ngoại vi làm tăng hồi lưu máu về trung tâm, nhưng tình trạng toan máu và hạ oxy máu do lạnh gây co thắt dữ dội mạng lưới tiểu động mạch phổi. Hậu quả là tăng kháng lực mạch máu phổi, dẫn đến **Tăng áp động mạch phổi tồn tại ở trẻ sơ sinh (PPHN)** với shunt Phải - Trái qua ống động mạch và lỗ bầu dục. Lạnh ức chế trực tiếp quá trình tổng hợp và bài tiết surfactant của tế bào phế nang type II, gây xẹp phổi tiến triển và suy hô hấp cấp.\n3. **Chuyển hóa và cân bằng toan kiềm:** Co mạch ngoại vi kéo dài gây thiếu máu tưới nuôi dưỡng mô, buộc các tế bào chuyển sang chuyển hóa kỵ khí sinh ra lượng lớn acid lactic, dẫn đến toan chuyển hóa nặng nề khó đảo ngược.\n4. **Hệ đông máu:** Nhiệt độ thấp ức chế trực tiếp hoạt tính của các enzyme trong dòng thác đông máu và làm suy giảm chức năng kết tập tiểu cầu, gây đông máu nội mạch rải rác (DIC) và biến chứng đáng sợ nhất là **Xuất huyết phổi cấp (Pulmonary hemorrhage)**, trào bọt máu tươi qua nội khí quản với tỷ lệ tử vong trên 80%.\n\n---\n\n## 5. TAM GIÁC NGUY CƠ & VÒNG XOẮN ÁC TÍNH: LẠNH — HẠ ĐƯỜNG HUYẾT — TOAN CHUYỂN HÓA\n\nMột trong những quy luật sinh tồn quan trọng nhất trong sơ sinh học là sự gắn kết không thể tách rời giữa ba rối loạn: **Hạ thân nhiệt — Hạ đường huyết — Toan chuyển hóa**. Khi một đỉnh của tam giác bị kích hoạt, hai đỉnh còn lại sẽ bị kéo theo tạo thành một vòng xoắn bệnh lý tự khuếch đại (vicious cycle):\n\n```mermaid\nflowchart TD\n    A[HẠ THÂN NHIỆT / LẠNH] -->|Kích hoạt mô mỡ nâu BAT sinh nhiệt| B[Cạn kiệt Glucose dự trữ]\n    B --> C[HẠ ĐƯỜNG HUYẾT]\n    C -->|Thiếu cơ chất tạo ATP| A\n    A -->|Co mạch ngoại vi thiếu máu mô| D[Chuyển hóa kỵ khí tạo Acid Lactic]\n    D --> E[TOAN CHUYỂN HÓA]\n    E -->|Toan máu ức chế co bóp cơ tim & co mạch phổi PPHN| F[Suy hô hấp & Giảm oxy máu]\n    F -->|Thiếu oxy ức chế chuỗi hô hấp tế bào| B\n    E -->|Toan máu làm bất hoạt enzym chuyển hóa| A\n```\n\n*Chuỗi cơ chế bệnh sinh 4: Vòng xoắn ác tính Lạnh - Hạ đường huyết - Toan chuyển hóa*  \nTầng 1: Hạ thân nhiệt kích thích tế bào mỡ nâu tiêu thụ tối đa oxy và glucose để sinh nhiệt $\\rightarrow$  \nTầng 2: Kho glycogen cạn kiệt nhanh chóng đẩy trẻ vào hạ đường huyết nặng $\\rightarrow$  \nTầng 3: Thiếu hụt ATP khiến các bơm ion màng tế bào ngừng hoạt động và cơ thể mất khả năng sinh nhiệt, làm thân nhiệt tụt sâu hơn $\\rightarrow$  \nTầng 4: Co mạch ngoại biên kéo dài gây thiếu oxy mô, tích tụ acid lactic dẫn đến toan chuyển hóa mất bù $\\rightarrow$  \nTầng 5: Toan máu gây co thắt động mạch phổi dẫn đến tăng áp phổi PPHN, ức chế cơ tim, xuất huyết phổi và tử vong nếu không được cắt đứt vòng xoắn đồng thời.\n\n---\n\n## 6. CHẨN ĐOÁN & SÀNG LỌC TẠI GIƯỜNG (AI CẦN ĐO? KHI NÀO ĐO? ĐO NHƯ THẾ NÀO?)\n\n### 6.1 Nhóm đối tượng nguy cơ cao bắt buộc phải sàng lọc đường huyết\nKhông khuyến cáo đo đường huyết thường quy cho tất cả trẻ sơ sinh đủ tháng khỏe mạnh không có triệu chứng. Việc bấm gót chân bừa bãi gây đau đớn, can thiệp sữa công thức không cần thiết và làm gián đoạn việc bú mẹ hoàn toàn. Bắt buộc phải sàng lọc đường huyết chủ động cho các nhóm nguy cơ cao sau:\n1. Trẻ sinh non muộn (tuổi thai từ $34\\text{ tuần}$ đến $36\\text{ tuần } 6\\text{ ngày}$).\n2. Trẻ nhỏ so với tuổi thai (SGA: cân nặng lúc sinh dưới bách phân vị thứ 10) hoặc trẻ chậm tăng trưởng trong tử cung (IUGR).\n3. Trẻ lớn so với tuổi thai (LGA: cân nặng lúc sinh trên bách phân vị thứ 90).\n4. Trẻ là con của bà mẹ mắc đái tháo đường (đái tháo đường thai kỳ hoặc đái tháo đường từ trước mang thai - IDM).\n5. Trẻ bị stress chu sinh: Ngạt sau sinh (Apgar 5 phút dưới 7 điểm), hạ thân nhiệt (nhiệt độ dưới $36.0^\\circ\\text{C}$), suy hô hấp, nhiễm trùng huyết hoặc nghi ngờ đa hồng cầu (Hct trên 65%).\n\n### 6.2 Lịch trình theo dõi đường huyết chuẩn mực\n- **Đối với trẻ IDM và LGA:** Nguy cơ hạ đường huyết xuất hiện rất sớm do cường insulin. Bắt đầu bấm đường huyết trong vòng **1 giờ đầu sau sinh** (sau cữ bú đầu tiên), và tiếp tục đo trước mỗi cữ bú mỗi 2 đến 3 giờ một lần trong ít nhất **12 giờ đầu đời**. Nếu các chỉ số đường huyết liên tục ổn định trên $45\\text{ mg/dL}$, có thể ngừng theo dõi sau 12–24 giờ.\n- **Đối với trẻ sinh non muộn và SGA:** Nguy cơ hạ đường huyết xuất hiện muộn hơn do cạn kiệt dự trữ dần dần. Bắt đầu bấm đường huyết trước các cữ bú và duy trì theo dõi trong ít nhất **24 đến 48 giờ đầu đời**.\n\n### 6.3 Triệu chứng lâm sàng tinh tế của hạ đường huyết\nHạ đường huyết ở trẻ sơ sinh thường biểu hiện bằng các triệu chứng không đặc hiệu và rất dễ bị bỏ sót:\n- **Dấu hiệu thần kinh cơ:** Run giật chi (Jitteriness) — cử động run rẩy tần số cao ở các chi, tăng trương lực cơ nhẹ hoặc ngược lại là hạ trương lực cơ, trẻ mềm nhẽo, li bì, khó đánh thức.\n- **Dấu hiệu tiêu hóa:** Bú kém, bỏ bú, mất phản xạ tìm bú, nôn trớ.\n- **Dấu hiệu hô hấp - tim mạch:** Thở nhanh nông, thở rên, co kéo lồng ngực, các cơn ngừng thở tím tái, nhịp tim chậm.\n- **Dấu hiệu thần kinh nặng:** Cơn co giật thực sự sơ sinh, tiếng khóc the thé bất thường, mất tri giác, hôn mê.\n\n### 6.4 Sai số của que thử mao mạch và nguyên tắc \"Không chờ kết quả tĩnh mạch\"\nMáy đo đường huyết cá nhân que thử mao mạch (Point-of-care glucometer) được sử dụng rộng rãi nhờ tính tiện lợi và cho kết quả nhanh. Tuy nhiên, bác sĩ cần nhận thức rõ các nguồn sai số lớn:\n- Que thử mao mạch đo đường huyết trên máu toàn phần (whole blood), trong khi phòng xét nghiệm chuẩn đo trên huyết tương (plasma). Nồng độ glucose trong huyết tương thường cao hơn trong máu toàn phần khoảng $10 - 15\\%$.\n- Tình trạng đa hồng cầu (Hematocrit cao ở trẻ sơ sinh) làm giảm thể tích huyết tương tiếp xúc với que thử, có thể khiến máy đo que thử báo kết quả thấp giả tạo.\n- Ngược lại, tưới máu ngoại vi kém khi trẻ bị lạnh hoặc sốc có thể làm đường huyết mao mạch tụt sâu giả tạo so với nồng độ glucose trung tâm.\n\n*Quy tắc lâm sàng bất biến:* Kết quả que thử mao mạch thấp phải luôn được gửi kèm một mẫu máu tĩnh mạch về phòng xét nghiệm để định lượng chính xác (vận chuyển trên đá lạnh hoặc dùng ống chứa chất ức chế đường phân Natri Fluoride). **Tuy nhiên, TUYỆT ĐỐI KHÔNG ĐƯỢC CHỜ kết quả phòng xét nghiệm mới xử trí.** Nếu trẻ có triệu chứng lâm sàng hoặc đường huyết que thử dưới $40\\text{ mg/dL}$, bác sĩ phải tiến hành can thiệp cấp cứu ngay lập tức.\n\n---\n\n## 7. PHÁC ĐỒ CẤP CỨU & ĐIỀU TRỊ HẠ ĐƯỜNG HUYẾT TỪNG BƯỚC\n\n```mermaid\nflowchart TD\n    A[Trẻ sơ sinh có Hạ đường huyết] --> B{Có triệu chứng nặng co giật / ngừng thở?}\n    B -- Có --> C[CẤP CỨU BOLUS TĨNH MẠCH: Glucose 10% 2 mL/kg trong 2-3 phút]\n    C --> D[Bắt đầu truyền tĩnh mạch duy trì GIR 4-6 mg/kg/phút]\n    B -- Không --> E{Mức Glucose máu?}\n    E -- 0-4h tuổi: < 25 mg/dL hoặc 4-24h: < 35 mg/dL --> F[Dextrose Gel 40% 0.5 mL/kg bôi má + Cho bú mẹ ngay]\n    F --> G[Đo lại đường huyết sau 30-60 phút]\n    G -- Vẫn dưới ngưỡng --> C\n    G -- Đạt mục tiêu --> H[Tiếp tục bú mẹ mỗi 2-3 giờ & theo dõi]\n    D --> I[Đo lại đường huyết sau 30-60 phút để chỉnh GIR]\n    I -- Vẫn < 45-50 mg/dL --> J[Tăng GIR từng nấc 1-2 mg/kg/phút lên 8-12 mg/kg/phút]\n    I -- Ổn định > 50 mg/dL liên tục 24h --> K[Giảm dần GIR từng bước khi bú tốt rồi cai dịch]\n```\n\n```text\n[LƯU ĐỒ XỬ TRÍ HẠ ĐƯỜNG HUYẾT SƠ SINH TẠI GIƯỜNG]\n\nTrẻ sơ sinh có nguy cơ cao hoặc nghi ngờ hạ đường huyết\n      │\n      ├─► CÓ TRIỆU CHỨNG NẶNG (Co giật, ngừng thở, li bì, mềm nhẽo):\n      │     ├─► BOLUS CẤP CỨU: Glucose 10% liều 2 mL/kg TM chậm trong 2-3 phút (CẤM dùng Glucose 20-30%)\n      │     └─► DUY TRÌ LIÊN TỤC: Truyền Glucose 10% với GIR 4-6 mg/kg/phút (IDM: 6-8 mg/kg/phút)\n      │\n      └─► KHÔNG TRIỆU CHỨNG (Sàng lọc nhóm nguy cơ SGA, LGA, IDM, non muộn):\n            ├─► Mốc 0 - 4h: Glucose < 25 mg/dL  HOẶC  Mốc 4 - 24h: Glucose < 35 mg/dL\n            │     ├─► Bôi Dextrose gel 40% (0.5 mL/kg) niêm mạc má + Cho bú mẹ ngay lập tức\n            │     ├─► Đo lại đường huyết mao mạch sau 30-60 phút\n            │     └─► Nếu vẫn dưới ngưỡng can thiệp -> Chuyển phác đồ Bolus TM và truyền duy trì\n            │\n            └─► Glucose đạt mục tiêu an toàn (≥ 45-50 mg/dL):\n                  └─► Duy trì bú mẹ mỗi 2-3 giờ, theo dõi sát đường huyết trước các cữ bú\n```\n\n### 7.1 Bước 1: Can thiệp đầu tay không xâm lấn bằng Dextrose gel 40% (Sugar Babies Trial)\nĐối với trẻ sơ sinh bị hạ đường huyết nhẹ không có triệu chứng trong 48 giờ đầu đời, liệu pháp đầu tay chuẩn mực quốc tế hiện nay là sử dụng **Dextrose gel 40% kết hợp với bú mẹ sớm**.\n- **Liều lượng chuẩn:** $0.5\\text{ mL/kg}$ Dextrose gel 40% (tương đương cung cấp $200\\text{ mg/kg}$ glucose).\n- **Kỹ thuật thực hiện:** Dùng gạc sạch lau khô niêm mạc miệng trẻ. Thấm gel lên ngón tay đeo găng hoặc đầu tăm bông chuyên dụng, chia đều và xoa nhẹ nhàng vào niêm mạc má (buccal mucosa) ở hai bên khóe miệng của trẻ. Glucose được hấp thu trực tiếp cực kỳ nhanh chóng qua hệ mao mạch niêm mạc má vào hệ tuần hoàn mà không làm tăng nguy cơ sặc.\n- Cho trẻ bú mẹ ngay lập tức sau khi bôi gel. Đo lại đường huyết mao mạch sau 30 đến 60 phút. Có thể lặp lại liều Dextrose gel thứ hai nếu đường huyết chưa đạt mục tiêu (tối đa không quá 6 liều trong 48 giờ đầu).\n\n*Bằng chứng y học:* Thử nghiệm lâm sàng ngẫu nhiên mù đôi Sugar Babies Study (Lancet 2013) do Harding và cộng sự thực hiện trên 242 trẻ sơ sinh hạ đường huyết đã chứng minh Dextrose gel 40% bôi niêm mạc má làm giảm tỷ lệ thất bại điều trị và giảm một nửa tỷ lệ nhập NICU, giúp bảo tồn hoàn hảo việc nuôi con bằng sữa mẹ.\n\n### 7.2 Bước 2: Bolus tĩnh mạch cấp cứu bằng Glucose 10%\nChỉ định tiêm bolus tĩnh mạch cấp cứu ngay lập tức khi:\n1. Trẻ sơ sinh có triệu chứng hạ đường huyết (co giật, li bì, ngừng thở, bú kém rõ rệt).\n2. Trẻ có nồng độ glucose máu tụt sâu dưới $25\\text{ mg/dL}$ ($1.4\\text{ mmol/L}$) bất kể có triệu chứng hay không.\n3. Trẻ thất bại với liệu pháp Dextrose gel 40% và bú mẹ.\n\n*Phác đồ tiêm bolus chuẩn mực:*\n- Dung dịch sử dụng: **Glucose 10% (D10W)**.\n- Liều lượng: **$2\\text{ mL/kg}$ tiêm tĩnh mạch chậm trong vòng 2 đến 3 phút**.\n- Phân tích dược lý: $1\\text{ mL}$ dung dịch Glucose 10% chứa $100\\text{ mg}$ glucose. Liều $2\\text{ mL/kg}$ cung cấp chính xác $200\\text{ mg/kg}$ glucose vào lòng mạch, đủ để nâng nồng độ glucose huyết tương lên nhanh chóng giải cứu tế bào não mà không gây kích ứng nội mạc mạch máu hay gây tăng đường huyết quá mức.\n\n*Cảnh báo an toàn tuyệt đối:* **TUYỆT ĐỐI CẤM tiêm bolus các dung dịch Glucose ưu trương nồng độ cao như Glucose 20%, 30% hay 50%**. Dung dịch ưu trương có áp lực thẩm thấu cực lớn, khi tiêm nhanh vào tĩnh mạch sơ sinh sẽ gây dịch chuyển nước ồ ạt từ khoang nội bào ra ngoại bào dẫn đến phù não, xuất huyết nội sọ và hoại tử thành mạch. Hơn thế nữa, một lượng đường ưu trương lớn đột ngột vào máu sẽ kích thích các tế bào beta đảo tụy tiết ồ ạt insulin dội ngược, dẫn đến cơn hạ đường huyết tái phát ác tính và sâu hơn chỉ sau 30 phút.\n\n### 7.3 Bước 3: Thiết lập tốc độ truyền tĩnh mạch duy trì (GIR)\nNgay sau khi tiêm bolus Glucose 10%, **bắt buộc phải thiết lập ngay dịch truyền tĩnh mạch liên tục**, vì lượng glucose bolus sẽ bị chuyển hóa hết trong vòng 15 đến 20 phút. Nếu không truyền duy trì, trẻ chắc chắn sẽ bị hạ đường huyết tái phát.\n\n- **Tốc độ truyền glucose khởi đầu (GIR):**\n  - Trẻ sơ sinh thông thường (sinh non, SGA): Bắt đầu ở mức **$4 - 6\\text{ mg/kg/phút}$** (tương đương nhu cầu sản xuất glucose sinh lý của gan sơ sinh).\n  - Trẻ có mẹ đái tháo đường (IDM) hoặc nghi ngờ cường insulin: Bắt đầu ở mức cao hơn từ **$6 - 8\\text{ mg/kg/phút}$**.\n- **Công thức tính GIR chuẩn xác tại giường:**\n\n$$\\text{GIR } (\\text{mg/kg/phút}) = \\frac{\\text{Tốc độ dịch truyền } (\\text{mL/giờ}) \\times \\text{Nồng độ Glucose } (\\%) \\times 10}{60 \\times \\text{Cân nặng } (\\text{kg})}$$\n\nĐơn giản hóa công thức toán học:\n\n$$\\text{GIR } (\\text{mg/kg/phút}) = \\frac{\\text{Tốc độ dịch truyền } (\\text{mL/giờ}) \\times \\text{Nồng độ Glucose } (\\%)} {6 \\times \\text{Cân nặng } (\\text{kg})}$$\n\nHoặc tính ngược lại tốc độ dịch truyền cần cài đặt trên máy tiêm điện/bơm truyền dịch:\n\n$$\\text{Tốc độ dịch truyền } (\\text{mL/giờ}) = \\frac{\\text{GIR mong muốn } \\times 6 \\times \\text{Cân nặng } (\\text{kg})}{\\text{Nồng độ Glucose } (\\%)}$$\n\n*Bảng 3: Bảng tra nhanh tốc độ truyền dịch Glucose 10% (mL/giờ) theo nhóm cân nặng và GIR mục tiêu*\n| Nhóm đối tượng lâm sàng | Cân nặng trẻ | GIR = $4\\text{ mg/kg/phút}$ | GIR = $6\\text{ mg/kg/phút}$ | GIR = $8\\text{ mg/kg/phút}$ | Ghi chú theo dõi lâm sàng |\n|---|---|---|---|---|---|\n| **Trẻ cực non nhẹ cân** | $1.0\\text{ kg}$ | Truyền $2.4\\text{ mL/h}$ ($57.6\\text{ mL/kg/ngày}$) | Truyền $3.6\\text{ mL/h}$ ($86.4\\text{ mL/kg/ngày}$) | Cần $4.8\\text{ mL/h}$ Glucose 10% | Đòi hỏi theo dõi sát đường huyết mỗi giờ |\n| **Trẻ sinh rất non** | $1.5\\text{ kg}$ | Mức khởi đầu $3.6\\text{ mL/h}$ | Tốc độ duy trì $5.4\\text{ mL/h}$ | Tăng cường lên $7.2\\text{ mL/h}$ | Hạn chế dịch nếu có suy hô hấp cấp |\n| **Trẻ sinh non muộn** | $2.0\\text{ kg}$ | Đạt $4.8\\text{ mL/h}$ bằng bơm tiêm điện | Cài đặt $7.2\\text{ mL/h}$ liên tục | Nâng lên $9.6\\text{ mL/h}$ khi hạ đường huyết | Phối hợp bú sữa mẹ tăng dần qua sonde |\n| **Trẻ đủ tháng nhỏ cân** | $2.5\\text{ kg}$ | Khởi đầu $6.0\\text{ mL/h}$ đường ngoại vi | Duy trì chuẩn $9.0\\text{ mL/h}$ | Nâng nấc $12.0\\text{ mL/h}$ cấp cứu | Ưu tiên bú mẹ sớm song song với truyền |\n| **Trẻ đủ tháng chuẩn** | $3.0\\text{ kg}$ | Tốc độ $7.2\\text{ mL/h}$ tĩnh mạch | Mức chuẩn $10.8\\text{ mL/h}$ | Tăng bậc $14.4\\text{ mL/h}$ | Đánh giá lại sau 30-60 phút |\n| **Trẻ to cân hoặc IDM** | $4.0\\text{ kg}$ | Khởi đầu tối thiểu $9.6\\text{ mL/h}$ | Cài đặt duy trì $14.4\\text{ mL/h}$ | Nâng nhanh $19.2\\text{ mL/h}$ | Cảnh giác nguy cơ quá tải tuần hoàn |\n\n### 7.4 Bước 4: Chuẩn độ GIR và điều trị bậc hai (Kháng trị)\n- Đo lại đường huyết mao mạch sau 30 đến 60 phút từ khi bắt đầu truyền dịch.\n- Nếu đường huyết vẫn dưới ngưỡng an toàn ($< 45 - 50\\text{ mg/dL}$): Cho phép lặp lại liều bolus Glucose 10% $2\\text{ mL/kg}$ và tăng GIR thêm $1 - 2\\text{ mg/kg/phút}$. Chuẩn độ tăng dần cho đến khi đường huyết ổn định, trần GIR thông thường có thể lên tới $12 - 15\\text{ mg/kg/phút}$.\n- **Quy tắc an toàn tĩnh mạch ngoại biên:** Nồng độ glucose truyền qua đường ngoại biên tối đa là **$12.5\\%$**. Nếu việc tăng tổng thể tích dịch truyền bị giới hạn (do nguy cơ quá tải dịch ở trẻ suy tim, suy thận) và đòi hỏi nồng độ glucose trong dung dịch pha vượt quá $12.5\\%$ (ví dụ Glucose 15% hoặc 20%), bác sĩ bắt buộc phải đặt catheter tĩnh mạch rốn (UVC) hoặc catheter tĩnh mạch trung tâm từ ngoại biên (PICC). Truyền dịch glucose $> 12.5\\%$ qua ngoại biên sẽ gây viêm tắc tĩnh mạch xơ hóa và thoát mạch gây hoại tử da mô mềm vô cùng nghiêm trọng.\n- **Xử trí hạ đường huyết kháng trị (GIR $> 12\\text{ mg/kg/phút}$):**\n  - **Lấy mẫu máu quan trọng (Critical sample):** Bắt buộc lấy trước khi dùng thuốc để định lượng Insulin, Cortisol, GH, thể Ketone, Lactate, Acid béo tự do, Acylcarnitine profile.\n  - **Hydrocortisone:** Liều $2.5 - 5\\text{ mg/kg/ngày}$ chia 2 đến 4 lần (tiêm tĩnh mạch), có tác dụng tăng tân tạo đường tại gan và giảm tính nhạy cảm của thụ thể ngoại vi với insulin.\n  - **Glucagon:** Liều $0.5 - 1.0\\text{ mg}$ tiêm bắp hoặc tĩnh mạch, hoặc truyền liên tục $1 - 10\\text{ µg/kg/giờ}$; chỉ có tác dụng khi gan còn dự trữ glycogen (rất hiệu quả ở trẻ IDM, kém hiệu quả ở trẻ sinh non hoặc SGA).\n  - **Diazoxide:** Liều $10 - 15\\text{ mg/kg/ngày}$ chia 3 lần uống, là thuốc lựa chọn hàng đầu cho các trường hợp hạ đường huyết cường insulin bẩm sinh kéo dài (kênh $K_{ATP}$ tế bào beta tụy mở ngăn bài tiết insulin). Cần theo dõi tác dụng phụ giữ muối nước gây suy tim và giảm bạch cầu.\n\n### 7.5 Quy trình cai dịch truyền an toàn\nKhi đường huyết của trẻ duy trì ổn định trên $50 - 60\\text{ mg/dL}$ trong hơn 24 giờ liên tục và trẻ dung nạp tốt sữa mẹ qua đường tiêu hóa, tiến hành cai dịch truyền tĩnh mạch theo nguyên tắc: **Giảm dần từng bậc $1 - 2\\text{ mg/kg/phút}$ mỗi 4 đến 6 giờ song song với việc tăng lượng sữa bú**. **TUYỆT ĐỐI CẤM ngừng truyền đường đột ngột**, vì tụy đang quen với tốc độ tiết insulin cao để cân bằng với dịch truyền sẽ gây hạ đường huyết dội ngược (rebound hypoglycemia) nguy hiểm. Ngừng dịch truyền hoàn toàn khi GIR giảm về mức $\\le 2 - 3\\text{ mg/kg/phút}$ và trẻ bú mẹ hoàn toàn tốt.\n\n---\n\n## 8. PHÁC ĐỒ Ủ ẤM & KIỂM SOÁT THÂN NHIỆT (WARM CHAIN & REWARMING PROTOCOL)\n\n```mermaid\nflowchart TD\n    A[Trẻ sinh ra tại phòng sinh] --> B{Tuổi thai < 32 tuần hoặc Cân nặng < 1500g?}\n    B -- Đúng --> C[Bọc túi nhựa Polyethylene ngay lập tức không lau khô]\n    C --> D[Đội mũ ấm & Đặt dưới máy sưởi bức xạ nhiệt]\n    B -- Sai --> E[Lau khô toàn thân bằng khăn ấm & Bỏ khăn ướt]\n    E --> F[Tiếp xúc da kề da Kangaroo Care với mẹ hoặc lồng ấp]\n    D & F --> G[Đo thân nhiệt nách lúc nhập viện NICU]\n    G --> H{Thân nhiệt < 36.5°C?}\n    H -- Có: Hạ thân nhiệt --> I[Làm ấm từ từ với tốc độ 0.5 - 1.0°C / giờ]\n    I --> J[Cài đặt máy sưởi chế độ Servo-control theo dõi nhiệt độ da liên tục]\n    J --> K[Theo dõi sát huyết động, SpO2, đường huyết chống sốc giãn mạch]\n```\n\n### 8.1 Chuỗi ủ ấm 10 mắt xích của WHO (Warm Chain)\nĐể ngăn ngừa hạ thân nhiệt, Tổ chức Y tế Thế giới khuyến cáo quy trình 10 bước liên hoàn:\n1. **Phòng sinh ấm áp:** Nhiệt độ phòng sinh tối thiểu phải đạt $25 - 28^\\circ\\text{C}$, không có luồng gió lùa từ quạt hay điều hòa hướng vào bàn đón tiếp trẻ.\n2. **Lau khô ngay lập tức:** Dùng khăn bông ấm lau khô toàn thân trẻ ngay khi vừa lọt lòng mẹ (trừ trẻ $< 32$ tuần áp dụng bọc túi nhựa).\n3. **Loại bỏ khăn ướt:** Bỏ ngay lập tức khăn đã thấm nước ối và thay bằng khăn khô ấm sạch khác.\n4. **Tiếp xúc da kề da (Skin-to-skin contact):** Đặt trẻ trần nằm sấp trực tiếp trên ngực trần của mẹ, phủ khăn ấm lên lưng trẻ (phương pháp Kangaroo Care). Ngực mẹ là một \"lồng ấp sinh học hoàn hảo\" có khả năng tự động tăng nhiệt độ để làm ấm con.\n5. **Cho bú mẹ sớm:** Bú mẹ trong vòng 1 giờ đầu đời cung cấp năng lượng cho quá trình sinh nhiệt.\n6. **Không tắm sớm cho trẻ:** Trì hoãn việc tắm rửa ít nhất 24 giờ sau sinh (hoặc ít nhất 48 giờ đối với trẻ nhẹ cân).\n7. **Mặc ấm và đội mũ thích hợp:** Đầu trẻ chiếm $20\\%$ diện tích bề mặt cơ thể, do đó bắt buộc phải đội mũ ấm bằng cotton hoặc len để ngăn mất nhiệt bức xạ qua da đầu.\n8. **Chăm sóc và vận chuyển ấm áp:** Khi chuyển trẻ từ phòng sinh về khoa Sơ sinh hoặc chuyển viện, bắt buộc phải sử dụng lồng ấp vận chuyển có sưởi ấm hoặc duy trì Kangaroo da kề da liên tục.\n9. **Hồi sức sơ sinh trong môi trường ấm:** Mọi thao tác cấp cứu hồi sức tại phòng sinh phải được thực hiện dưới nguồn sưởi ấm bức xạ nhiệt (Radiant warmer).\n10. **Tập huấn và nâng cao nhận thức:** Nhân viên y tế và thân nhân phải luôn cảnh giác nhận diện sớm stress lạnh.\n\n### 8.2 Bọc túi nhựa/màng Polyethylene tại phòng sinh (Cochrane Review 2018)\nĐối với trẻ cực non (tuổi thai dưới 32 tuần hoặc cân nặng dưới $1500\\text{ g}$):\n- **Quy trình chuẩn mực:** Chuẩn bị sẵn một túi nhựa polyethylene y tế hoặc bọc màng bọc thực phẩm sạch chịu nhiệt trên bàn đón sinh dưới máy sưởi ấm bức xạ. Ngay khi trẻ vừa lọt lòng, **TUYỆT ĐỐI KHÔNG LAU KHÔ THÂN TRẺ**. Đặt trẻ ngay vào trong túi nhựa, bọc kín toàn thân từ cổ trở xuống chân, chỉ để lộ phần đầu. Sau đó mới dùng khăn ấm lau khô đầu và đội mũ ấm ngay lập tức.\n- **Cơ chế vật lý:** Lớp màng nhựa kín ngăn chặn $100\\%$ sự bốc hơi nước ối qua bề mặt da mỏng manh của trẻ non tháng, đồng thời tạo ra một buồng vi khí hậu bão hòa độ ẩm bao quanh cơ thể, ngăn chặn mất nhiệt đối lưu.\n- *Bằng chứng y học:* Tổng quan hệ thống Cochrane Review (2018) do McCall và cộng sự thực hiện tổng hợp 25 thử nghiệm lâm sàng trên 3,433 trẻ sơ sinh đã chứng minh việc bọc túi nhựa ngay sau sinh giúp giảm đáng kể nguy cơ hạ thân nhiệt khi nhập viện ở trẻ sinh non và nhẹ cân so với phương pháp chăm sóc thông thường.\n\n### 8.3 Tác động của thân nhiệt nhập viện lên tỷ lệ tử vong và biến chứng\nHai nghiên cứu đoàn hệ quy mô lớn đã xác lập tầm quan trọng sống còn của việc kiểm soát thân nhiệt lúc nhập viện:\n- Nghiên cứu của Lyu và cộng sự thuộc Mạng lưới Sơ sinh Canada (JAMA Pediatr 2015) trên 9,833 trẻ sinh non dưới 33 tuần cho thấy thân nhiệt khi nhập viện là một yếu tố tiên lượng độc lập mạnh mẽ. Cứ mỗi độ C giảm thân nhiệt dưới $36.5^\\circ\\text{C}$ làm gia tăng đáng kể nguy cơ tử vong sơ sinh và làm gia tăng nguy cơ mắc nhiễm trùng huyết khởi phát muộn.\n- Nghiên cứu của Laptook và cộng sự thuộc Mạng lưới Nghiên cứu Sơ sinh NICHD Hoa Kỳ (J Pediatr 2018) trên 5,477 trẻ cực sinh non dưới 29 tuần đã chứng minh hạ thân nhiệt lúc nhập viện liên quan độc lập đến tăng nguy cơ tử vong, tăng tỷ lệ xuất huyết nội sọ nặng độ 3–4 (IVH) và tăng tỷ lệ viêm ruột hoại tử (NEC).\n\n### 8.4 Phác đồ làm ấm an toàn và biến chứng sốc giãn mạch (Rewarming Shock)\nKhi tiếp nhận một trẻ sơ sinh bị hạ thân nhiệt trung bình hoặc nặng, nguyên tắc vàng là: **\"LÀM ẤM LẠI TỪ TỪ CÓ KIỂM SOÁT\"**.\n- **Tốc độ làm ấm an toàn:** Tốc độ nâng thân nhiệt trung tâm chỉ được phép từ **$0.5^\\circ\\text{C}\\text{ đến } 1.0^\\circ\\text{C}\\text{ mỗi giờ}$**.\n- **Thiết bị và kỹ thuật:** Đặt trẻ dưới máy sưởi ấm bức xạ hoặc trong lồng ấp hai lớp kính. Bắt buộc phải gắn đầu dò nhiệt độ da (Skin sensor probe) lên vùng gan hoặc giữa bụng trẻ và cài đặt máy ở chế độ tự động điều chỉnh nhiệt (Servo-control mode) với nhiệt độ cài đặt đích ban đầu cao hơn nhiệt độ hiện tại của trẻ $1.0 - 1.5^\\circ\\text{C}$, sau đó tăng dần mỗi giờ khi trẻ ấm lên.\n- **Cơ chế nguy hiểm của Sốc giãn mạch (Rewarming shock):** Nếu bác sĩ làm ấm quá nhanh (ví dụ chườm túi nước nóng hoặc tăng đột ngột nhiệt độ máy sưởi lên mức tối đa), nhiệt lượng từ ngoài làm giãn nở đột ngột toàn bộ mạng lưới mạch máu ngoại vi dưới da đang bị co thắt trước đó. Hậu quả là thể tích lòng mạch tăng vọt tức thì trong khi thể tích tuần hoàn hiệu dụng không kịp bù trừ, dẫn đến tụt huyết áp nghiêm trọng, giảm tưới máu mạch vành gây suy tim cấp và ngừng tuần hoàn. Đồng thời, máu lạnh và nhiều acid lactic ứ đọng từ các chi bị xả ồ ạt về tim trung tâm (hiện tượng Core drop), khiến thân nhiệt trung tâm tụt sâu hơn và toan máu nặng thêm.\n- **Biện pháp phòng ngừa:** Luôn theo dõi huyết áp động mạch liên tục, nhịp tim và $SpO_2$ trong suốt quá trình làm ấm. Chuẩn bị sẵn dung dịch Điện giải đẳng trương (Natri Clorid 0.9% liều $10\\text{ mL/kg}$) để truyền bù thể tích kịp thời nếu trẻ có biểu hiện tụt huyết áp do giãn mạch.\n\n---\n\n## 9. 8 SAI LẦM LÂM SÀNG KINH ĐIỂN VÀ CẠM BẪY ĐIỀU TRỊ (MISCONCEPTIONS)\n\n### 9.1 Sai lầm 1: Dùng dung dịch Glucose 20% hoặc 30% tiêm bolus cấp cứu\n- **Bẫy lâm sàng kinh điển:** Khi thấy đường huyết của trẻ sơ sinh tụt quá thấp (ví dụ que thử báo \"LOW\"), bác sĩ hoảng hốt rút dung dịch Glucose ưu trương 20% hoặc 30% tiêm tĩnh mạch nhanh với suy nghĩ \"đưa đường lên càng nhanh càng tốt\".\n- **Hậu quả bệnh sinh:** Dung dịch Glucose ưu trương gây chênh lệch áp lực thẩm thấu nội mạch cực lớn, làm vỡ tế bào nội mạc, gây viêm tắc tĩnh mạch huyết khối và làm dịch chuyển nước từ não ra lòng mạch gây xuất huyết nội sọ. Nguy hiểm hơn, đỉnh đường huyết cao đột ngột kích thích tuyến tụy phóng thích một lượng lớn insulin dội ngược, khiến trẻ rơi vào cơn hạ đường huyết tái phát ác tính khó kiểm soát chỉ sau 30 phút.\n- **Thực hành chuẩn:** Chỉ dùng duy nhất **Glucose 10% với liều $2\\text{ mL/kg}$ ($200\\text{ mg/kg}$)** tiêm tĩnh mạch chậm trong 2–3 phút.\n\n### 9.2 Sai lầm 2: Trì hoãn xử trí cấp cứu để chờ kết quả xét nghiệm tĩnh mạch\n- **Bẫy lâm sàng kinh điển:** Thấy que thử mao mạch báo $1.5\\text{ mmol/L}$ ở trẻ đang li bì run giật, bác sĩ không dám can thiệp vì sợ sai số máy que thử, quyết định lấy máu tĩnh mạch gửi về phòng xét nghiệm trung tâm và chờ kết quả sau 45–60 phút.\n- **Hậu quả bệnh sinh:** Trong 60 phút chờ đợi, các tế bào thần kinh vỏ não và vùng đồi thị bị tước đoạt hoàn toàn cơ chất năng lượng, dẫn đến phù não nhiễm độc và chết tế bào thần kinh theo chương trình (apoptosis), để lại di chứng bại não vĩnh viễn.\n- **Thực hành chuẩn:** Nếu có triệu chứng lâm sàng hoặc que thử $< 40\\text{ mg/dL}$, tiêm cấp cứu ngay lập tức. Mẫu máu tĩnh mạch được lấy gửi xét nghiệm để đối chiếu và điều chỉnh sau đó.\n\n### 9.3 Sai lầm 3: Ngừng truyền dịch glucose đột ngột khi thấy đường huyết đã bình thường\n- **Bẫy lâm sàng kinh điển:** Trẻ đang nhận truyền Glucose với GIR $8\\text{ mg/kg/phút}$, xét nghiệm kiểm tra thấy đường huyết lên $90\\text{ mg/dL}$, bác sĩ vội vàng cho rút kim truyền ngay lập tức vì nghĩ trẻ đã \"khỏi bệnh\".\n- **Hậu quả bệnh sinh:** Nồng độ insulin trong máu trẻ đang được kích hoạt thích ứng với tốc độ truyền đường cao. Khi cắt nguồn dịch đột ngột, lượng insulin nội sinh chưa kịp giảm sẽ tiếp tục dồn toàn bộ glucose còn lại vào tế bào, gây ra cơn hạ đường huyết dội ngược (rebound hypoglycemia) kèm co giật nguy kịch.\n- **Thực hành chuẩn:** Cai dịch truyền từ từ từng bước, giảm GIR $1 - 2\\text{ mg/kg/phút}$ mỗi 4–6 giờ song song với việc tăng lượng sữa bú mẹ.\n\n### 9.4 Sai lầm 4: Làm ấm trẻ hạ thân nhiệt quá nhanh bằng túi nước nóng hoặc đèn sưởi công suất cao\n- **Bẫy lâm sàng kinh điển:** Thấy trẻ sinh non bị hạ thân nhiệt nặng ($32.5^\\circ\\text{C}$), điều dưỡng đặt các túi nước nóng quanh người trẻ hoặc vặn công suất đèn sưởi lên tối đa để làm ấm cấp tốc.\n- **Hậu quả bệnh sinh:** Làm ấm ngoại vi quá nhanh gây bỏng da, sốc giãn mạch tụt huyết áp (Rewarming shock), toan máu dội ngược từ các chi và ngừng tim đột ngột.\n- **Thực hành chuẩn:** Nâng thân nhiệt từ từ với tốc độ an toàn $0.5 - 1.0^\\circ\\text{C}/\\text{giờ}$ dưới nguồn nhiệt có kiểm soát cảm biến nhiệt độ da liên tục (Servo-control).\n\n### 9.5 Sai lầm 5: Lau khô trẻ sinh non cực nhẹ cân trước khi bọc túi nhựa tại phòng sinh\n- **Bẫy lâm sàng kinh điển:** Khi đón trẻ 28 tuần tuổi thai, nhân viên y tế theo thói quen dùng khăn bông lau chùi khô ráo toàn thân trẻ rồi mới đặt vào túi bọc nhựa.\n- **Hậu quả bệnh sinh:** Thao tác lau khô làm tróc lớp biểu bì mỏng manh của trẻ non tháng và làm mất đi thời gian vàng 30–60 giây đầu tiên, khiến nhiệt lượng cơ thể bị bốc hơi dữ dội ra môi trường phòng sinh.\n- **Thực hành chuẩn:** Tuyệt đối không lau khô thân mình trẻ sinh non $< 32$ tuần; bọc ngay túi nhựa kín từ cổ xuống chân khi trẻ vừa lọt lòng mẹ, chỉ lau khô đầu và đội mũ ấm.\n\n### 9.6 Sai lầm 6: Quên tầm soát hạ đường huyết ở trẻ hạ thân nhiệt và ngược lại\n- **Bẫy lâm sàng kinh điển:** Bác sĩ tiếp nhận trẻ hạ thân nhiệt nặng chỉ chú tâm vào việc ủ ấm mà quên bấm đường huyết, hoặc thấy trẻ hạ đường huyết chỉ lo truyền đường mà không đo thân nhiệt.\n- **Hậu quả bệnh sinh:** Do hai rối loạn gắn liền trong vòng xoắn bệnh lý ác tính, điều trị một yếu tố mà bỏ quên yếu tố kia sẽ khiến trẻ tiếp tục suy sụp và điều trị thất bại.\n- **Thực hành chuẩn:** Luôn coi Hạ đường huyết và Hạ thân nhiệt là \"cặp bài trùng\"; phát hiện một tình trạng bắt buộc phải tầm soát ngay lập tức tình trạng còn lại.\n\n### 9.7 Sai lầm 7: Nhầm lẫn giữa Run giật cơ sinh lý (Jitteriness) và Co giật thực sự\n- **Bẫy lâm sàng kinh điển:** Thấy trẻ sơ sinh run run các chi khi cử động, bác sĩ chẩn đoán nhầm là co giật sơ sinh và cho dùng thuốc chống co giật (Phenobarbital) ức chế hô hấp kinh khủng.\n- **Phân biệt chuẩn mực:**\n  - *Jitteriness (Run giật chi):* Là cử động run rẩy đối xứng tần số cao, khởi phát khi có kích thích bên ngoài (tiếng động, chạm vào), **DỪNG LẠI HOÀN TOÀN khi người khám giữ nhẹ hoặc gập nhẹ chi đó**, không kèm theo cử động giật mắt bất thường hay rối loạn thần kinh thực vật (nhịp tim, huyết áp bình thường).\n  - *Co giật thực sự (Seizure):* Là cử động co giật giật nhịp nhàng cơ học, xảy ra tự phát không cần kích thích, **VẪN TIẾP TỤC GIẬT khi người khám giữ chặt chi**, thường kèm theo đảo mắt, chép miệng liên tục, nhai tóp tép, ngưng thở và biến thiên nhịp tim.\n\n### 9.8 Sai lầm 8: Truyền nồng độ Glucose vượt quá 12.5% qua đường truyền ngoại biên\n- **Bẫy lâm sàng kinh điển:** Để tăng GIR mà không làm quá tải thể tích dịch ở trẻ suy thận, bác sĩ chỉ định pha dung dịch Glucose 15% hoặc 20% truyền qua kim luồn mu bàn tay.\n- **Hậu quả bệnh sinh:** Nồng độ Glucose $> 12.5\\%$ có áp lực thẩm thấu vượt quá giới hạn chịu đựng của nội mạc tĩnh mạch ngoại biên, gây viêm tĩnh mạch hóa học, huyết khối tắc mạch và rò rỉ dịch ưu trương ra mô xung quanh gây hoại tử da, gân và cơ vô cùng thảm khốc, nhiều trường hợp phải cắt cụt chi.\n- **Thực hành chuẩn:** Mọi nồng độ Glucose $> 12.5\\%$ bắt buộc phải được truyền qua đường tĩnh mạch trung tâm (Catheter tĩnh mạch rốn UVC hoặc PICC).\n\n---\n\n## 10. 4 CHECKPOINT TƯ DUY ĐỘT PHÁ TẠI GIƯỜNG\n\n### 10.1 Checkpoint 1: Tính toán công thức GIR và cách phối hợp dịch truyền\n- **Tình huống lâm sàng:** Bé sơ sinh cân nặng $3.0\\text{ kg}$, được chỉ định duy trì tốc độ truyền glucose $\\text{GIR} = 6\\text{ mg/kg/phút}$ sử dụng dung dịch Glucose 10%. Hãy tính tốc độ truyền dịch trên máy tiêm điện? Nếu cần nâng GIR lên $9\\text{ mg/kg/phút}$ nhưng chỉ được giữ nguyên tổng lượng dịch là $150\\text{ mL/kg/ngày}$ ($18.75\\text{ mL/giờ}$), bác sĩ cần pha nồng độ Glucose bao nhiêu phần trăm?\n- **Phân tích giải quyết cho Checkpoint 1 (Tính toán GIR và nồng độ dịch):**\n  - Áp dụng công thức: Tốc độ dịch truyền $(\\text{mL/giờ}) = \\frac{\\text{GIR} \\times 6 \\times \\text{Cân nặng}}{\\text{Nồng độ Glucose } (\\%)} = \\frac{6 \\times 6 \\times 3.0}{10} = 10.8\\text{ mL/giờ}$.\n  - Khi cố định tốc độ dịch truyền ở mức $18.75\\text{ mL/giờ}$ để đạt $\\text{GIR} = 9\\text{ mg/kg/phút}$:  \n    $$\\text{Nồng độ Glucose mong muốn } (\\%) = \\frac{\\text{GIR} \\times 6 \\times \\text{Cân nặng}}{\\text{Tốc độ dịch}} = \\frac{9 \\times 6 \\times 3.0}{18.75} = \\frac{162}{18.75} = 8.64\\%$$\n  - *Kết luận:* Nồng độ này hoàn toàn có thể pha bằng cách phối hợp Glucose 10% và Glucose 5%, hoặc an toàn hơn là tăng tốc độ truyền dịch nếu trẻ không bị suy tim, đảm bảo nồng độ luôn nằm dưới ngưỡng an toàn ngoại vi $12.5\\%$.\n\n### 10.2 Checkpoint 2: Xử trí trẻ sơ sinh con mẹ đái tháo đường (IDM) hạ đường huyết trơ với GIR cao\n- **Tình huống lâm sàng:** Bé trai $4.5\\text{ kg}$ (con mẹ đái tháo đường không kiểm soát), sau sinh 2 giờ bị hạ đường huyết $1.2\\text{ mmol/L}$. Trẻ đã được bolus Glucose 10% $2\\text{ mL/kg}$ và truyền duy trì GIR khởi đầu $8\\text{ mg/kg/phút}$. Tuy nhiên sau 1 giờ đo lại, đường huyết vẫn chỉ đạt $2.0\\text{ mmol/L}$ ($36\\text{ mg/dL}$). Bác sĩ cần tư duy xử trí các bước tiếp theo như thế nào?\n- **Phân tích giải quyết cho Checkpoint 2 (Xử trí IDM kháng trị với GIR cao):**\n  - Đây là trường hợp hạ đường huyết cường insulin nội sinh điển hình ở trẻ IDM. Nồng độ insulin cao đang áp đảo hoàn toàn lượng glucose cung cấp.\n  - *Bước 1:* Cho phép lặp lại ngay một liều bolus Glucose 10% $2\\text{ mL/kg}$ tiêm tĩnh mạch chậm.\n  - *Bước 2:* Nâng GIR ngay lập tức lên nấc $10 - 12\\text{ mg/kg/phút}$.\n  - *Bước 3:* Đánh giá đường truyền: Với trẻ $4.5\\text{ kg}$, GIR $12\\text{ mg/kg/phút}$ bằng Glucose 10% đòi hỏi tốc độ dịch truyền $32.4\\text{ mL/giờ}$ ($172\\text{ mL/kg/ngày}$), có thể gây quá tải dịch cho cơ tim vốn đã phì đại vách liên thất của trẻ IDM. Do đó, chỉ định chuẩn xác lúc này là **Đặt Catheter Tĩnh mạch Rốn (UVC)** để truyền nồng độ Glucose cao hơn ($12.5 - 15\\%$), hạn chế thể tích dịch.\n  - *Bước 4:* Nếu GIR đã lên tới $12 - 15\\text{ mg/kg/phút}$ mà vẫn không ổn định: Lấy mẫu máu quan trọng (Critical sample) và chỉ định thuốc đối kháng: tiêm bắp Glucagon $0.5\\text{ mg}$ hoặc truyền Hydrocortisone.\n\n### 10.3 Checkpoint 3: Phân biệt Run giật chi sinh lý (Jitteriness) vs Co giật thực sự do hạ đường huyết\n- **Tình huống lâm sàng:** Điều dưỡng báo với bác sĩ rằng trẻ sơ sinh 1 ngày tuổi đang \"lên cơn co giật\" ở nôi. Bác sĩ đến bên giường và tiếp cận đánh giá phân biệt như thế nào trong 30 giây?\n- **Phân tích giải quyết cho Checkpoint 3 (Phân biệt Jitteriness và Seizure):**\n  - *Thao tác 1 (Khám chạm):* Đặt bàn tay của bác sĩ giữ nhẹ vào cẳng chân đang run giật của trẻ và gập nhẹ khớp gối. Nếu cử động run dừng lại ngay lập tức khi giữ $\\rightarrow$ Xác định là Jitteriness (Run giật cơ). Nếu chân vẫn tiếp tục giật nhịp nhàng liên tục chống lại lực giữ của tay người khám $\\rightarrow$ Xác định là Co giật thực sự (Seizure).\n  - *Thao tác 2 (Khám mắt và mặt):* Quan sát mắt trẻ: Trẻ giật cơ sinh lý vẫn nhắm mắt hoặc mở mắt bình thường, đồng tử phản xạ tốt. Trẻ co giật thực sự thường có hiện tượng trợn mắt, đảo mắt liên tục sang một bên, chớp mắt nhịp nhàng hoặc chép miệng, nhai tóp tép.\n  - *Thao tác 3 (Khám thần kinh thực vật):* Kiểm tra monitor: Jitteriness không làm thay đổi nhịp tim hoặc $SpO_2$. Co giật thực sự thường đi kèm cơn ngừng thở, nhịp tim chậm hoặc tụt $SpO_2$.\n  - *Hành động tức thì:* Cho dù là Jitteriness hay Seizure, bấm ngay que thử đường huyết tại giường.\n\n### 10.4 Checkpoint 4: Xử trí trẻ non tháng 30 tuần hạ thân nhiệt $32.5^\\circ\\text{C}$ bị tụt huyết áp khi làm ấm\n- **Tình huống lâm sàng:** Bé sinh non 30 tuần tuổi thai được chuyển từ tuyến dưới lên trong tình trạng hạ thân nhiệt nặng ($32.5^\\circ\\text{C}$). Sau 45 phút được đặt dưới máy sưởi bức xạ nhiệt độ cao, nhịp tim trẻ tăng từ 110 lên 175 lần/phút, da toàn thân ửng đỏ nhưng huyết áp tụt dốc từ $48/28\\text{ mmHg}$ xuống còn $30/15\\text{ mmHg}$ (huyết áp trung bình $20\\text{ mmHg}$), mạch bẹn bắt chìm. Cơ chế là gì và bác sĩ phải xử trí khẩn cấp ra sao?\n- **Phân tích giải quyết cho Checkpoint 4 (Cấp cứu sốc giãn mạch khi làm ấm):**\n  - *Chẩn đoán:* Trẻ rơi vào biến chứng **Sốc giãn mạch do làm ấm quá nhanh (Rewarming shock)**. Máy sưởi làm ấm đột ngột khiến các tiểu động mạch và mao mạch ngoại vi dãn toang, máu dồn ra ngoại vi làm rỗng tuần hoàn trung tâm và tụt huyết áp.\n  - *Xử trí khẩn cấp:*\n    1. Giảm ngay công suất máy sưởi bức xạ, cài đặt lại chế độ Servo-control để tốc độ làm ấm chỉ đạt $0.5 - 1.0^\\circ\\text{C}/\\text{giờ}$.\n    2. Thiết lập đường truyền tĩnh mạch và truyền ngay một liều dịch giãn mạch: **Natri Clorid 0.9% liều $10\\text{ mL/kg}$ truyền tĩnh mạch nhanh trong 20 đến 30 phút** để làm đầy thể tích lòng mạch.\n    3. Đánh giá lại huyết áp sau khi bù dịch; nếu huyết áp vẫn không cải thiện, chuẩn bị thuốc vận mạch (Dopamine hoặc Epinephrine truyền liên tục).\n    4. Kiểm tra ngay đường huyết và khí máu động mạch vì toan lactic thường bùng phát dữ dội trong cơn sốc giãn mạch.\n\n---\n\n## 11. 2 CA LÂM SÀNG THỰC CHIẾN (CASE 1 & CASE 2) CÓ LỜI GIẢI CHI TIẾT\n\n### 11.1 Ca lâm sàng 1 (Case 1): Bé sơ sinh con mẹ đái tháo đường thai kỳ hạ đường huyết sau sinh\n- **Bệnh sử & Thăm khám:** Bé trai sơ sinh, con thứ hai của sản phụ 32 tuổi mắc đái tháo đường thai kỳ kiểm soát kém bằng chế độ ăn. Trẻ sinh thường đủ tháng ở tuần thai thứ $39$, cân nặng lúc sinh $4.2\\text{ kg}$ (trẻ lớn so với tuổi thai - LGA). Chỉ số Apgar 1 phút 8 điểm, 5 phút 9 điểm. Trẻ được cho bú mẹ cữ đầu lúc 30 phút tuổi.  \nLúc 2 giờ tuổi, điều dưỡng phát hiện trẻ có biểu hiện run giật nhẹ hai tay khi giật mình (jitteriness), bú mẹ kém, ngậm bắt vú yếu.\n- **Dấu hiệu sinh tồn tại giường:** Thân nhiệt nách $36.6^\\circ\\text{C}$, nhịp thở 52 lần/phút, nhịp tim 142 lần/phút, $SpO_2$ 97% khí trời, trương lực cơ bình thường.\n- **Xét nghiệm tại giường:** Bấm đường huyết que thử mao mạch lúc 2 giờ tuổi cho kết quả: **$1.6\\text{ mmol/L}$ ($28.8\\text{ mg/dL}$)**.\n- **Biện luận lâm sàng:** Trẻ thuộc nhóm nguy cơ rất cao (con mẹ đái tháo đường IDM + LGA), xuất hiện hạ đường huyết có triệu chứng thần kinh cơ nhẹ (jitteriness) ở mốc 2 giờ tuổi với mức đường huyết $1.6\\text{ mmol/L}$ (dưới ngưỡng can thiệp $2.2\\text{ mmol/L}$ của AAP).\n- **Kế hoạch xử trí từng bước:**\n  1. *Can thiệp cấp cứu tĩnh mạch:* Do trẻ có triệu chứng (run chi, bú kém), chỉ định bolus tĩnh mạch Glucose 10%:  \n     $$\\text{Liều bolus } = 4.2\\text{ kg} \\times 2\\text{ mL/kg} = 8.4\\text{ mL Glucose 10\\% tiêm TM chậm trong 3 phút}$$\n  2. *Thiết lập dịch truyền duy trì:* Bắt đầu ngay dịch truyền Glucose 10% với GIR khởi đầu cho trẻ IDM là $6\\text{ mg/kg/phút}$:  \n     $$\\text{Tốc độ truyền } (\\text{mL/giờ}) = \\frac{6 \\times 6 \\times 4.2}{10} = 15.1\\text{ mL/giờ Glucose 10\\%}$$\n  3. *Theo dõi và chuẩn độ:* Lấy mẫu máu tĩnh mạch gửi phòng xét nghiệm định lượng đối chứng. Bấm lại đường huyết mao mạch sau 30 phút: Kết quả đạt $2.9\\text{ mmol/L}$ ($52.2\\text{ mg/dL}$) $\\rightarrow$ Đạt mục tiêu an toàn ban đầu.\n  4. *Cai dịch truyền:* Tiếp tục duy trì GIR $6\\text{ mg/kg/phút}$ và khuyến khích mẹ cho bú mẹ mỗi 2–3 giờ. Sau 24 giờ, đường huyết đo trước các cữ bú đều ổn định $> 55\\text{ mg/dL}$. Bác sĩ tiến hành giảm dần GIR xuống $4\\text{ mg/kg/phút}$ trong 6 giờ, rồi xuống $2\\text{ mg/kg/phút}$ và ngừng hẳn dịch truyền sau 36 giờ tuổi khi trẻ đã bú mẹ hoàn toàn tốt.\n\n### 11.2 Ca lâm sàng 2 (Case 2): Trẻ sinh non 29 tuần sinh rớt bị hạ thân nhiệt nặng kèm hạ đường huyết và toan chuyển hóa\n- **Bệnh sử & Thăm khám:** Bé gái sinh non ước tính 29 tuần tuổi thai, sinh rớt trên xe taxi khi đang trên đường đến bệnh viện trong một đêm mùa đông rét buốt. Trẻ được đưa vào khoa Cấp cứu Sơ sinh lúc 45 phút sau sinh trong tình trạng không được ủ ấm đúng cách, chỉ được bọc trong một chiếc áo khoác người lớn ướt đẫm máu và dịch ối. Cân nặng lúc tiếp nhận: $1.1\\text{ kg}$.\n- **Khám lâm sàng tại phòng cấp cứu:** Trẻ li bì, mềm nhẽo, toàn thân tím tái, các chi lạnh cứng, da nổi vân tím đá hoa văn (cutis marmorata). Phản xạ sơ sinh mất hoàn toàn. Thở yếu không đều kèm co kéo ngực nặng, nhịp thở 28 lần/phút, có cơn ngừng thở ngắn 15 giây. Nhịp tim chậm 85 lần/phút, tiếng tim mờ xa xăm. Mạch bẹn không bắt được, CRT 5 giây.\n- **Thân nhiệt đo nách:** **$31.8^\\circ\\text{C}$** (Hạ thân nhiệt nặng theo WHO).\n- **Xét nghiệm khẩn cấp tại giường:**\n  - Đường huyết mao mạch gót chân: **$1.2\\text{ mmol/L}$ ($21.6\\text{ mg/dL}$)**.\n  - Khí máu mao mạch: $pH = 7.08$, $PaCO_2 = 58\\text{ mmHg}$, $PaO_2 = 42\\text{ mmHg}$, $HCO_3^- = 11\\text{ mmol/L}$, $BE = -18\\text{ mmol/L}$, Lactate máu $= 8.5\\text{ mmol/L}$ (Toan hỗn hợp nặng nề, toan chuyển hóa mất bù phối hợp toan hô hấp).\n- **Biện luận lâm sàng:** Đây là một ca cấp cứu tối khẩn cấp với tam giác bệnh lý tử vong: **Hạ thân nhiệt nặng ($31.8^\\circ\\text{C}$) — Hạ đường huyết sâu ($1.2\\text{ mmol/L}$) — Toan chuyển hóa mất bù nặng (Lactate 8.5, pH 7.08)** ở trẻ cực non 29 tuần. Nguy cơ tử vong, xuất huyết phổi và ngừng tim cực kỳ cận kề.\n- **Phác đồ hồi sức phối hợp đa mô thức:**\n  1. *Kiểm soát đường thở và hô hấp:* Đặt ngay ống nội khí quản số 2.5 có bóng chèn hoặc không bóng chèn, thở máy bảo vệ phổi với khí thở được làm ấm ($37^\\circ\\text{C}$) và làm ẩm tối ưu.\n  2. *Quy trình làm ấm an toàn:* Đặt trẻ dưới máy sưởi bức xạ, lau khô đầu và đội mũ ấm. Bọc toàn thân trẻ trong túi bọc nhựa Polyethylene. Gắn sensor nhiệt độ da bụng, cài đặt chế độ Servo-control với nhiệt độ đích ban đầu $33.0^\\circ\\text{C}$, kiểm soát tốc độ làm ấm từ từ **$0.5^\\circ\\text{C}/\\text{giờ}$**. Chuẩn bị sẵn máy đo huyết áp động mạch xâm lấn qua catheter động mạch rốn (UAC).\n  3. *Hồi sức tuần hoàn và huyết động:* Đặt Catheter Tĩnh mạch Rốn (UVC) khẩn cấp. Truyền một liều dịch điện giải Natri Clorid 0.9% $10\\text{ mL/kg}$ ($11\\text{ mL}$) trong 30 phút để chống sốc và giãn mạch.\n  4. *Cấp cứu hạ đường huyết:* Tiêm bolus tĩnh mạch Glucose 10% liều $2\\text{ mL/kg}$ ($2.2\\text{ mL}$) qua catheter tĩnh mạch rốn trong 3 phút. Sau đó truyền liên tục duy trì GIR $6\\text{ mg/kg/phút}$ ($3.96\\text{ mL/giờ}$ Glucose 10%).\n  5. *Diễn tiến hồi phục:* Sau 6 giờ hồi sức tích cực và làm ấm có kiểm soát, thân nhiệt trẻ nâng lên $35.0^\\circ\\text{C}$, nhịp tim ổn định 138 lần/phút, huyết áp trung bình đạt $32\\text{ mmHg}$, đường huyết duy trì vững chắc ở mức $3.8 - 4.5\\text{ mmol/L}$, khí máu động mạch cải thiện ngoạn mục ($pH = 7.32$, Lactate giảm còn $2.8\\text{ mmol/L}$). Sau 12 giờ, thân nhiệt đạt $36.8^\\circ\\text{C}$, trẻ thoát khỏi nguy cơ tử vong.\n\n---\n\n## 12. TIPS THỰC HÀNH LÂM SÀNG & THEO DÕI ĐIỀU DƯỠNG\n\nPhần này đúc kết 10 kinh nghiệm thực chiến đắt giá dành cho bác sĩ và điều dưỡng nhi khoa:\n\n1. **Chuẩn bị sẵn gối bông và bọc nhựa trên bàn đón sinh:** Luôn mở máy sưởi bức xạ ấm trước 15 phút khi sản phụ chuẩn bị sinh, đảm bảo nệm sưởi và khăn đón đều đạt nhiệt độ từ $36.5 - 37.5^\\circ\\text{C}$.\n2. **Kỹ thuật lấy máu gót chân không làm sai lệch kết quả:** Trước khi bấm gót chân, hãy ủ ấm gót chân trẻ bằng gạc ấm trong 3–5 phút để tăng tưới máu mao mạch. Lau khô cồn sát trùng hoàn toàn trước khi chích; bỏ giọt máu đầu tiên và hứng nhẹ giọt máu thứ hai, tuyệt đối không bóp nặn gót chân thô bạo vì sẽ làm vỡ hồng cầu và hòa lẫn dịch kẽ gây kết quả đường huyết thấp giả tạo.\n3. **Kỹ thuật bôi Dextrose gel 40% đúng chuẩn:** Không được nhỏ trực tiếp gel vào họng trẻ vì dễ gây sặc. Luôn dùng ngón tay đeo găng miết gel dàn đều vào niêm mạc má ở khoang giữa lợi và má để thuốc hấp thu qua niêm mạc miệng.\n4. **Quy tắc dán sensor nhiệt độ da:** Luôn dán đầu dò nhiệt độ da (skin probe) ở vùng hạ sườn phải (vùng gan) hoặc giữa bụng, tránh dán lên vùng xương sườn hoặc vùng có mỡ nâu (như lưng hay nách) vì sẽ làm sai lệch thông số phản ánh thân nhiệt trung tâm.\n5. **Cố định đường truyền tĩnh mạch chắc chắn:** Trẻ hạ đường huyết có thể run chi hoặc co giật làm lệch kim luồn. Mọi đường truyền ngoại biên truyền Glucose phải được cố định nẹp cổ tay chắc chắn và quan sát vị trí cắm kim mỗi giờ để phát hiện sớm dấu hiệu thoát mạch.\n6. **Kiểm tra tương thích dung dịch dịch truyền:** Dung dịch Glucose ưu trương không được truyền chung với các chế phẩm máu hoặc các thuốc gây kết tủa.\n7. **Đo đường huyết đúng thời điểm vàng:** Luôn đo đường huyết trước các cữ bú chứ không đo ngay sau bú. Nếu trẻ đang được nuôi dưỡng qua ống thông dạ dày liên tục, đo đường huyết định kỳ mỗi 4–6 giờ.\n8. **Quy tắc cai dịch truyền:** Luôn cai dịch truyền ban ngày khi có đầy đủ nhân lực y tế theo dõi, tránh ngừng dịch truyền vào ban đêm khi việc giám sát đường huyết và phát hiện triệu chứng lâm sàng khó khăn hơn.\n9. **Theo dõi nước tiểu và dấu hiệu mất nước khi làm ấm:** Trẻ nằm dưới máy sưởi bức xạ có nguy cơ mất nước vô cảm qua da tăng $50\\%$. Cần cân trẻ mỗi ngày, theo dõi lượng nước tiểu (duy trì $> 1.5 - 2.0\\text{ mL/kg/giờ}$) và bù dịch tương ứng.\n10. **Tư vấn và đồng hành cùng bà mẹ:** Giải thích cặn kẽ cho mẹ hiểu tầm quan trọng của việc cho trẻ bú mẹ thường xuyên mỗi 2–3 giờ, hướng dẫn mẹ nhận diện các dấu hiệu sớm của hạ đường huyết như run chi hoặc li bì để báo ngay cho nhân viên y tế.\n\n---\n\n## 13. TÓM TẮT & TIÊU CHUẨN XUẤT VIỆN AN TOÀN\n\n### 13.1 Tóm tắt lưu đồ tiếp cận xử trí nhanh\n1. **Phòng ngừa tại phòng sinh:** Bọc túi nhựa cho trẻ $< 32$ tuần, lau khô và da kề da cho trẻ đủ tháng, giữ ấm liên tục.\n2. **Sàng lọc đúng đối tượng:** Chỉ đo đường huyết cho trẻ có triệu chứng hoặc nhóm nguy cơ cao (SGA, LGA, IDM, non muộn).\n3. **Xử trí theo bậc thang:**\n   - Nhẹ không triệu chứng: Cho bú sớm $+$ Dextrose gel 40% $0.5\\text{ mL/kg}$.\n   - Nặng có triệu chứng: Bolus Glucose 10% $2\\text{ mL/kg}$ TM trong 2–3 phút.\n   - Luôn duy trì GIR $4 - 6\\text{ mg/kg/phút}$ sau bolus; chuẩn độ tăng dần nếu cần.\n   - Nồng độ truyền ngoại biên tối đa $12.5\\%$; trên $12.5\\%$ bắt buộc đặt catheter tĩnh mạch trung tâm.\n4. **Làm ấm an toàn:** Nâng thân nhiệt từ từ $0.5 - 1.0^\\circ\\text{C}/\\text{giờ}$ dưới kiểm soát Servo-control để phòng ngừa sốc giãn mạch.\n\n### 13.2 Tiêu chuẩn xuất viện an toàn cho trẻ có tiền sử hạ đường huyết\nTrẻ sơ sinh có tiền sử hạ đường huyết chỉ được phép xuất viện an toàn khi thỏa mãn đầy đủ các tiêu chuẩn khắt khe sau:\n1. Đã ngừng hoàn toàn dịch truyền tĩnh mạch ít nhất 24 đến 48 giờ.\n2. Nồng độ glucose máu duy trì ổn định vững chắc trên $50\\text{ mg/dL}$ ($2.8\\text{ mmol/L}$) trước mọi cữ bú trong ít nhất 24 giờ liên tục khi nuôi dưỡng hoàn toàn bằng đường miệng.\n3. Trẻ có khả năng tự bú mẹ hoặc bú bình tốt, đạt đủ nhu cầu năng lượng hàng ngày ($100 - 120\\text{ kcal/kg/ngày}$), không nôn trớ.\n4. Thân nhiệt ổn định hoàn toàn trong giới hạn bình thường ($36.5 - 37.5^\\circ\\text{C}$) trong môi trường nhiệt độ phòng bình thường mà không cần bất kỳ sự hỗ trợ sưởi ấm nhân tạo nào trong ít nhất 48 giờ.\n5. Cân nặng có xu hướng tăng đều đặn.\n6. Mẹ hoặc người chăm sóc chính đã được tập huấn thành thạo kỹ năng chăm sóc, cho bú đúng cách, giữ ấm và nhận biết các dấu hiệu nguy hiểm cần đưa trẻ tái khám ngay.\n\n---\n\n## 14. BẰNG CHỨNG Y HỌC & TÀI LIỆU THAM KHẢO\n\n### 14.1 Tổng hợp các bằng chứng y học chất lượng cao (EBM Synthesis)\n\nPhần này tổng hợp các nghiên cứu lâm sàng ngẫu nhiên có đối chứng và các nghiên cứu đoàn hệ tiến cứu đa trung tâm tạo nên nền tảng thực chứng cho bài học:\n\n1. **Thử nghiệm ngẫu nhiên Sugar Babies Study (Lancet 2013):** Thử nghiệm lâm sàng ngẫu nhiên có đối chứng mù đôi về hiệu quả của gel dextrose bôi niêm mạc má trong điều trị hạ đường huyết sơ sinh: Dextrose gel for neonatal hypoglycaemia (the Sugar Babies Study): a randomised, double-blind, placebo-controlled trial.  \nTreatment with dextrose gel is effective and safe as first-line management for neonatal hypoglycaemia. {claim:C-001} [DATA VERIFIED] (PMID: 24075361).\n\nNghiên cứu lâm sàng bước ngoặt chứng minh tính ưu việt vượt trội của việc can thiệp sớm bằng gel carbohydrate bôi niêm mạc má, mở ra một kỷ nguyên mới trong quản lý hạ đường huyết sơ sinh không xâm lấn, giúp trẻ duy trì bú mẹ và giảm đáng kể nhu cầu phải phân cách mẹ con để chuyển vào các đơn vị hồi sức tích cực sơ sinh.\n\nNghiên cứu trên hai trăm bốn mươi hai trẻ sơ sinh xác nhận nhóm sử dụng dextrose gel bốn mươi phần trăm bôi niêm mạc má đạt tỷ lệ thành công vượt trội, làm giảm có ý nghĩa thống kê tỷ lệ thất bại điều trị và giảm gần một nửa tỷ lệ nhập viện vào khoa hồi sức tích cực sơ sinh so với nhóm dùng giả dược.\n\n2. **Nghiên cứu đoàn hệ tiến cứu CHYLD Study (NEJM 2015):** Nghiên cứu theo dõi dài hạn về mối liên quan giữa nồng độ đường huyết sơ sinh và sự phát triển nhận thức thần kinh lúc hai tuổi: Neonatal Glycemia and Neurodevelopmental Outcomes at 2 Years.  \nNeonatal hypoglycemia was not associated with adverse neurodevelopmental outcome at 2 years when blood glucose concentrations were maintained above clinical thresholds. {claim:C-002} [DATA VERIFIED] (PMID: 26465984).\n\nCông trình nghiên cứu đoàn hệ tiến cứu quy mô lớn theo dõi sự phát triển hệ thần kinh và thị giác của trẻ nhỏ, thiết lập cơ sở khoa học thực chứng định lượng cho các mục tiêu duy trì đường huyết trong thực hành lâm sàng thường quy tại các đơn vị sơ sinh trên toàn cầu.\n\nNghiên cứu theo dõi bốn trăm lẻ bốn trẻ sơ sinh có nguy cơ cao được theo dõi nồng độ đường huyết liên tục, chứng minh rằng việc duy trì nồng độ glucose máu từ hai phẩy sáu milimol trên lít trở lên giúp bảo tồn hoàn hảo sự phát triển nhận thức thần kinh và chức năng xử lý thị giác của trẻ khi đánh giá toàn diện tại thời điểm hai tuổi.\n\n3. **Hướng dẫn lâm sàng của Viện Hàn lâm Nhi khoa Hoa Kỳ (Pediatrics 2011):** Báo cáo lâm sàng hướng dẫn cân bằng nội môi glucose ở trẻ sơ sinh non muộn và đủ tháng: Postnatal glucose homeostasis in late-preterm and term infants.  \nThis clinical report provides practical guidance for the screening and management of hypoglycemia in late-preterm and term newborns. {claim:C-003} [DATA VERIFIED] (PMID: 21357346).\n\nBáo cáo chuyên môn định hình lưu đồ sàng lọc và can thiệp động học theo từng mốc giờ tuổi sau sinh, phân định rõ ràng giữa hạ đường huyết sinh lý chuyển tiếp và hạ đường huyết bệnh lý cần can thiệp y khoa tích cực, trở thành kim chỉ nam cho các hướng dẫn sơ sinh trên toàn cầu.\n\nHướng dẫn thiết lập các tiêu chuẩn theo dõi chặt chẽ cho trẻ sơ sinh thuộc nhóm nguy cơ cao bao gồm trẻ sinh non muộn, trẻ nhỏ so với tuổi thai, trẻ lớn so với tuổi thai và con của bà mẹ mắc đái tháo đường, đồng thời chuẩn hóa chỉ định can thiệp dịch truyền và dinh dưỡng đường miệng.\n\n4. **Khuyến cáo của Hiệp hội Nội tiết Nhi khoa Hoa Kỳ (J Pediatr 2015):** Hướng dẫn chẩn đoán và quản lý hạ đường huyết kéo dài ở trẻ sơ sinh, nhũ nhi và trẻ nhỏ: Recommendations from the Pediatric Endocrine Society for Evaluation and Management of Persistent Hypoglycemia in Neonates, Infants, and Children.  \nRecommendations focus on the diagnosis and management of persistent hypoglycemia disorders in infants and children. {claim:C-004} [DATA VERIFIED] (PMID: 25957977).\n\nVăn bản khuyến cáo chuyên sâu từ các chuyên gia nội tiết nhi khoa hàng đầu, cung cấp các tiêu chuẩn chẩn đoán chuẩn mực cho các bệnh lý hạ đường huyết dai dẳng, quy trình xét nghiệm mẫu máu quan trọng tại giường và các phác đồ điều trị nội khoa đặc hiệu nhằm ngăn chặn tổn thương não thứ phát.\n\nKhuyến cáo nhấn mạnh việc thiết lập mục tiêu an toàn đường huyết duy trì vững chắc trên hai phẩy tám milimol trên lít sau giai đoạn chuyển tiếp, đồng thời hướng dẫn chi tiết quy trình nghiệm pháp nhịn ăn có kiểm soát trước khi quyết định cho trẻ xuất viện an toàn.\n\n5. **Tổng quan hệ thống Cochrane Review (Cochrane Database Syst Rev 2018):** Can thiệp phòng ngừa hạ thân nhiệt lúc sinh ở trẻ sinh non và nhẹ cân: Interventions to prevent hypothermia at birth in preterm and/or low birth weight infants.  \nPlastic wraps or bags keep preterm infants warmer than routine care alone. {claim:C-005} [DATA VERIFIED] (PMID: 29431872).\n\nTổng quan hệ thống phân tích gộp toàn diện tập hợp dữ liệu từ hàng chục thử nghiệm lâm sàng ngẫu nhiên có đối chứng, đánh giá hiệu quả của các biện pháp can thiệp vật lý tại phòng sinh nhằm kiểm soát thân nhiệt và bảo vệ tính mạng cho trẻ sơ sinh dễ bị tổn thương.\n\nPhân tích trên ba nghìn bốn trăm ba mươi ba trẻ sơ sinh chứng minh việc bọc túi nhựa hoặc màng polyethylene ngay tại phòng sinh không lau khô giúp làm giảm đáng kể nguy cơ hạ thân nhiệt khi nhập viện ở trẻ sinh non cực nhẹ cân so với phương pháp chăm sóc kinh điển thông thường.\n\n6. **Nghiên cứu Mạng lưới Sơ sinh Canada (JAMA Pediatr 2015):** Mối liên quan giữa thân nhiệt lúc nhập viện và tỷ lệ tử vong cùng bệnh tật ở trẻ sinh non: Association between admission temperature and mortality and morbidity among very large cohort of preterm infants in Canada.  \nAdmission temperature of preterm infants is independently associated with mortality and late-onset sepsis. {claim:C-006} [DATA VERIFIED] (PMID: 25844990).\n\nNghiên cứu dịch tễ học lâm sàng quy mô lớn trên gần mười nghìn trẻ sinh non, khẳng định vai trò tiên lượng độc lập của thân nhiệt ban đầu đối với sự sống còn và các biến chứng nhiễm trùng nguy hiểm trong suốt quá trình điều trị tại các đơn vị chăm sóc tích cực sơ sinh.\n\nDữ liệu thực tế cho thấy mỗi độ C sụt giảm thân nhiệt nhập viện dưới ngưỡng ba mươi sáu phẩy năm độ C có liên quan độc lập đến sự gia tăng đáng kể nguy cơ tử vong sơ sinh cũng như làm tăng nguy cơ mắc các đợt nhiễm trùng huyết khởi phát muộn.\n\n7. **Nghiên cứu Mạng lưới Sơ sinh NICHD Hoa Kỳ (J Pediatr 2018):** Thân nhiệt nhập viện và nguy cơ tử vong cùng bệnh tật liên quan ở trẻ cực sinh non: Admission Temperature and Associated Mortality and Morbidity in Extremely Preterm Infants.  \nAdmission temperature in extremely preterm infants is strongly associated with in-hospital mortality and severe morbidity. {claim:C-007} [DATA VERIFIED] (PMID: 29246358).\n\nNghiên cứu đoàn hệ tiến cứu đa trung tâm trên quần thể hơn năm nghìn trẻ sinh cực non dưới hai mươi chín tuần tuổi thai, phân tích sâu sắc mối tương quan giữa sự mất nhiệt trong giai đoạn hồi sức ban đầu và các biến chứng thần kinh, tiêu hóa nặng nề đe dọa sự phát triển của trẻ.\n\nKết quả nghiên cứu chứng minh thân nhiệt nhập viện thấp là một yếu tố nguy cơ độc lập dẫn đến gia tăng tỷ lệ tử vong nội viện, tăng nguy cơ xuất huyết nội sọ nặng độ ba đến độ bốn và làm tăng tỷ lệ mắc viêm ruột hoại tử nghiêm trọng ở trẻ cực non.\n\n---\n\n### 14.2 Danh mục tài liệu tham khảo chính thức\n\n1.\nHarding JE, Hegarty JE, Crowther CA, et al.\nDextrose gel for neonatal hypoglycaemia (the Sugar Babies Study): a randomised, double-blind, placebo-controlled trial.\nThe Lancet.\n2013.\nPMID: 24075361.\n\n2.\nHarris DL, Weston PJ, Signal M, et al.\nNeonatal Glycemia and Neurodevelopmental Outcomes at 2 Years.\nThe New England Journal of Medicine.\n2015.\nPMID: 26465984.\n\n3.\nCommittee on Fetus and Newborn, AAP.\nPostnatal glucose homeostasis in late-preterm and term infants.\nPediatrics.\n2011.\nPMID: 21357346.\n\n4.\nThornton PS, Stanley CA, De Leon DD, et al.\nRecommendations from the Pediatric Endocrine Society for Evaluation and Management of Persistent Hypoglycemia in Neonates, Infants, and Children.\nThe Journal of Pediatrics (Tạp chí chính thức của Hiệp hội Nội tiết Nhi khoa Hoa Kỳ).\n2015.\nPMID: 25957977.\n\n5.\nMcCall EM, Alderdice F, Halliday HL, et al.\nInterventions to prevent hypothermia at birth in preterm and/or low birth weight infants.\nThe Cochrane Database of Systematic Reviews.\n2018.\nPMID: 29431872.\n\n6.\nLyu Y, Shah PS, Ye XY, et al.\nAssociation between admission temperature and mortality and morbidity among very large cohort of preterm infants in Canada.\nJAMA Pediatrics.\n2015.\nPMID: 25844990.\n\n7.\nLaptook AR, Bell EF, Shankaran S, et al.\nAdmission Temperature and Associated Mortality and Morbidity in Extremely Preterm Infants.\nThe Journal of Pediatrics (Ấn phẩm nghiên cứu từ Mạng lưới Sơ sinh NICHD Hoa Kỳ).\n2018.\nPMID: 29246358.\n\n8.\nWorld Health Organization.\nThermal protection of the newborn: a practical guide.\nGeneva: World Health Organization.\n1997.\n[GUIDELINE VERIFIED]\n\n9.\nBộ Y tế Việt Nam.\nHướng dẫn chẩn đoán và điều trị một số bệnh thường gặp ở trẻ em — Hồi sức cấp cứu và Cấp cứu Sơ sinh.\nQuyết định số 3312/QĐ-BYT & QĐ 4845/QĐ-BYT.\nHà Nội: Nhà xuất bản Y học.\n[GUIDELINE VERIFIED]\n\n10.\nBệnh viện Nhi Đồng 1.\nPhác đồ điều trị Cấp cứu Sơ sinh — Hạ đường huyết và Hạ thân nhiệt ở trẻ sơ sinh.\nTP. Hồ Chí Minh: Nhà xuất bản Y học (tái bản 2020).\n[GUIDELINE VERIFIED]\n\n11.\nBệnh viện Nhi Đồng 2.\nPhác đồ điều trị Sơ sinh học — Xử trí Rối loạn chuyển hóa và Kiểm soát thân nhiệt sơ sinh.\nTP. Hồ Chí Minh: Nhà xuất bản Y học (tái bản 2021).\n[GUIDELINE VERIFIED]\n",
+      "pedytb_file": null,
+      "pedytb_content": "",
+      "cards_count": 88,
+      "cards_data": [
+        {
+          "id": "PED17-BG-001",
+          "type": "cloze",
+          "text": "Tốc độ truyền glucose (GIR - Glucose Infusion Rate) biểu thị số miligam glucose đưa vào cơ thể trên mỗi kilogam cân nặng trong {{c1::một phút (mg/kg/phút)}}.",
+          "extra": "GIR phản ánh chính xác tốc độ cung cấp cơ chất năng lượng ngoại sinh so với nhu cầu sinh lý của trẻ.",
+          "tags": [
+            "PED-17",
+            "Ha-duong-huyet",
+            "GIR",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-002",
+          "type": "cloze",
+          "text": "Tốc độ sản xuất glucose nội sinh sinh lý của gan trẻ sơ sinh bình thường dao động trong khoảng {{c1::4 đến 6 mg/kg/phút}}.",
+          "extra": "Đây là cơ sở sinh lý học để lựa chọn tốc độ truyền dịch glucose duy trì khởi đầu cho trẻ sơ sinh.",
+          "tags": [
+            "PED-17",
+            "Sinh-ly-so-sinh",
+            "GIR",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-003",
+          "type": "cloze",
+          "text": "Nồng độ glucose máu ở trẻ sơ sinh đủ tháng khỏe mạnh trải qua sự sụt giảm sinh lý chạm mức đáy thấp nhất (nadir) lúc {{c1::1 đến 2 giờ tuổi}}.",
+          "extra": "Hiện tượng này phản ánh sự chuyển tiếp từ nhận đường liên tục qua nhau thai sang tự lập tân tạo đường.",
+          "tags": [
+            "PED-17",
+            "Sinh-ly-so-sinh",
+            "Glucose-nadir",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-004",
+          "type": "cloze",
+          "text": "Mức glucose máu thấp nhất tại thời điểm nadir sinh lý 1–2 giờ tuổi ở trẻ đủ tháng khỏe mạnh có thể hạ xuống {{c1::30 đến 35 mg/dL (1.7 đến 2.0 mmol/L)}}.",
+          "extra": "Ở trẻ không có triệu chứng và bú mẹ sớm, đường huyết sẽ tự động tăng dần lên trên 45 mg/dL sau vài giờ.",
+          "tags": [
+            "PED-17",
+            "Sinh-ly-so-sinh",
+            "Glucose-nadir",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-005",
+          "type": "cloze",
+          "text": "Sau khi kẹp cắt rốn, tỷ lệ nồng độ hormone {{c1::Glucagon trên Insulin}} tăng vọt kích hoạt ly giải glycogen và tân tạo đường tại gan.",
+          "extra": "Glucagon cùng với cortisol và epinephrine thúc đẩy huy động nhanh chóng nguồn năng lượng dự trữ.",
+          "tags": [
+            "PED-17",
+            "Noi-tiet-so-sinh",
+            "Glucagon",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-006",
+          "type": "cloze",
+          "text": "Quá trình tân tạo đường (Gluconeogenesis) tại gan sơ sinh tổng hợp glucose từ ba cơ chất chính là {{c1::lactate, glycerol và alanine}}.",
+          "extra": "Lactate từ chuyển hóa cơ, glycerol từ ly giải mô mỡ và alanine từ phân hủy acid amin.",
+          "tags": [
+            "PED-17",
+            "Sinh-hoa-chuyen-hoa",
+            "Gluconeogenesis",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-007",
+          "type": "cloze",
+          "text": "Enzyme đóng vai trò kiểm soát và giới hạn tốc độ then chốt của con đường tân tạo đường tại gan sơ sinh là {{c1::PEPCK (phosphoenolpyruvate carboxykinase)}}.",
+          "extra": "Ở trẻ sinh non, hệ enzyme PEPCK chưa trưởng thành khiến trẻ rất dễ bị hạ đường huyết khi nhịn ăn.",
+          "tags": [
+            "PED-17",
+            "Sinh-hoa-chuyen-hoa",
+            "Enzyme",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-008",
+          "type": "cloze",
+          "text": "Khi nồng độ glucose máu sụt giảm, tế bào não sơ sinh có khả năng sử dụng {{c1::thể Ketone (beta-hydroxybutyrate và acetoacetate)}} làm cơ chất năng lượng thay thế sống còn.",
+          "extra": "Trẻ sơ sinh có khả năng oxy hóa thể ketone và lactate tại mô não hiệu quả hơn người lớn.",
+          "tags": [
+            "PED-17",
+            "Than-kinh-so-sinh",
+            "Ketone",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-009",
+          "type": "cloze",
+          "text": "Theo khuyến cáo của AAP (2011), trẻ sơ sinh có triệu chứng hạ đường huyết ở mọi thời điểm giờ tuổi cần can thiệp cấp cứu khi glucose dưới {{c1::40 mg/dL (2.2 mmol/L)}}.",
+          "extra": "Sự xuất hiện của triệu chứng lâm sàng chỉ điểm tế bào não đang thiếu hụt năng lượng nghiêm trọng.",
+          "tags": [
+            "PED-17",
+            "AAP-Guideline",
+            "Nguong-can-thiep",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-010",
+          "type": "cloze",
+          "text": "Theo AAP (2011), trong 4 giờ đầu đời, trẻ sơ sinh nguy cơ cao không có triệu chứng cần can thiệp khi nồng độ glucose máu dưới {{c1::25 mg/dL (1.4 mmol/L)}}.",
+          "extra": "Can thiệp ưu tiên ban đầu là cho bú mẹ hoặc bôi Dextrose gel 40%; nếu không đạt mục tiêu thì truyền tĩnh mạch.",
+          "tags": [
+            "PED-17",
+            "AAP-Guideline",
+            "Nguong-can-thiep",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-011",
+          "type": "cloze",
+          "text": "Theo AAP (2011), ở giai đoạn từ 4 đến 24 giờ tuổi, trẻ nguy cơ cao không có triệu chứng cần can thiệp khi glucose dưới {{c1::35 mg/dL (1.9 mmol/L)}}.",
+          "extra": "Sau 4 giờ đầu đời, ngưỡng dung nạp sinh lý nâng lên đòi hỏi mức glucose máu cao hơn để bảo vệ thần kinh.",
+          "tags": [
+            "PED-17",
+            "AAP-Guideline",
+            "Nguong-can-thiep",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-012",
+          "type": "cloze",
+          "text": "Mục tiêu duy trì nồng độ glucose máu an toàn trước các cữ bú ở trẻ sơ sinh sau 24 đến 48 giờ tuổi là từ {{c1::45 đến 50 mg/dL (2.5 đến 2.8 mmol/L)}} trở lên.",
+          "extra": "Đây là mức nồng độ nền cần thiết để đảm bảo chuyển hóa bình thường của não bộ.",
+          "tags": [
+            "PED-17",
+            "Muc-tieu-duong-huyet",
+            "Dieu-tri",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-013",
+          "type": "cloze",
+          "text": "Theo Hiệp hội Nội tiết Nhi khoa Hoa Kỳ (PES 2015), trẻ mắc các bệnh lý hạ đường huyết kéo dài hoặc cường insulin cần duy trì đích glucose trên {{c1::50 đến 60 mg/dL (2.8 đến 3.3 mmol/L)}}.",
+          "extra": "Ngưỡng cao hơn này đảm bảo an toàn tuyệt đối cho các trường hợp không có thể ketone thay thế.",
+          "tags": [
+            "PED-17",
+            "PES-Guideline",
+            "Muc-tieu-duong-huyet",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-014",
+          "type": "cloze",
+          "text": "Bốn nhóm đối tượng trẻ sơ sinh nguy cơ cao bắt buộc phải sàng lọc đường huyết chủ động gồm: {{c1::SGA (nhỏ so với tuổi thai), LGA (lớn so với tuổi thai), IDM (con mẹ đái tháo đường) và trẻ sinh non muộn}}.",
+          "extra": "Không khuyến cáo bấm gót chân sàng lọc thường quy cho trẻ đủ tháng khỏe mạnh không có yếu tố nguy cơ.",
+          "tags": [
+            "PED-17",
+            "Sang-loc",
+            "Nhom-nguy-co",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-015",
+          "type": "cloze",
+          "text": "Ở nhóm trẻ có nguy cơ cường insulin cao như IDM và LGA, lịch trình bấm đường huyết mao mạch phải bắt đầu trong vòng {{c1::1 giờ đầu sau sinh (sau cữ bú đầu tiên)}}.",
+          "extra": "Tình trạng cường insulin nội sinh có thể khiến đường huyết tụt dốc cực nhanh ngay sau khi cắt rốn.",
+          "tags": [
+            "PED-17",
+            "IDM",
+            "Sang-loc",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-016",
+          "type": "cloze",
+          "text": "Ở nhóm trẻ sinh non muộn và trẻ SGA, việc theo dõi đường huyết trước các cữ bú cần duy trì trong ít nhất {{c1::24 đến 48 giờ đầu đời}}.",
+          "extra": "Nguy cơ hạ đường huyết ở nhóm này thường xuất hiện muộn hơn do cạn kiệt dần kho dự trữ glycogen.",
+          "tags": [
+            "PED-17",
+            "SGA",
+            "Sang-loc",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-017",
+          "type": "cloze",
+          "text": "Dấu hiệu lâm sàng thần kinh cơ sớm và phổ biến nhất của hạ đường huyết sơ sinh là {{c1::run giật chi (Jitteriness) kèm bú kém hoặc li bì}}.",
+          "extra": "Các triệu chứng hạ đường huyết sơ sinh rất tinh tế và không đặc hiệu, đòi hỏi sự nhạy bén của người khám.",
+          "tags": [
+            "PED-17",
+            "Trieu-chung",
+            "Jitteriness",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-018",
+          "type": "cloze",
+          "text": "Đặc điểm phân biệt lâm sàng mấu chốt giữa Jitteriness (run chi) và Co giật thực sự sơ sinh là Jitteriness {{c1::dừng lại hoàn toàn khi người khám giữ nhẹ hoặc gập nhẹ chi đó}}.",
+          "extra": "Co giật thực sự vẫn tiếp tục giật nhịp nhàng cơ học và thường đi kèm cử động bất thường ở mắt miệng.",
+          "tags": [
+            "PED-17",
+            "Phan-biet-lam-sang",
+            "Co-giat",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-019",
+          "type": "cloze",
+          "text": "Loại dung dịch duy nhất được chỉ định để tiêm tĩnh mạch cấp cứu (bolus) trong hạ đường huyết sơ sinh là {{c1::Glucose 10% (D10W)}}.",
+          "extra": "Nồng độ 10% cung cấp áp lực thẩm thấu an toàn cho nội mạc mạch máu sơ sinh.",
+          "tags": [
+            "PED-17",
+            "Cap-cuu",
+            "Glucose-10",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-020",
+          "type": "cloze",
+          "text": "Liều lượng bolus Glucose 10% cấp cứu chuẩn mực ở trẻ sơ sinh là {{c1::2 mL/kg (cung cấp 200 mg/kg glucose)}} tiêm tĩnh mạch chậm trong 2 đến 3 phút.",
+          "extra": "Liều lượng này đủ để nâng nhanh nồng độ glucose huyết tương lên mà không gây tăng đường huyết dội ngược.",
+          "tags": [
+            "PED-17",
+            "Cap-cuu",
+            "Lieu-bolus",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-021",
+          "type": "cloze",
+          "text": "Tuyệt đối CẤM tiêm bolus các dung dịch Glucose ưu trương 20%, 30% hoặc 50% vì nguy cơ {{c1::xuất huyết nội sọ và kích thích tụy tiết insulin dội ngược gây hạ đường huyết tái phát}}.",
+          "extra": "Dịch ưu trương gây dịch chuyển nước ồ ạt từ khoang nội bào ra lòng mạch làm tổn thương tế bào não.",
+          "tags": [
+            "PED-17",
+            "Chong-chi-dinh",
+            "An-toan-thuoc",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-022",
+          "type": "cloze",
+          "text": "Công thức tính nhanh tốc độ truyền glucose tại giường: GIR (mg/kg/phút) = {{c1::[Tốc độ dịch (mL/h) × Nồng độ Glucose (%)] / [6 × Cân nặng (kg)]}}.",
+          "extra": "Công thức này áp dụng cho mọi loại nồng độ dung dịch glucose pha truyền tĩnh mạch.",
+          "tags": [
+            "PED-17",
+            "Cong-thuc",
+            "GIR",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-023",
+          "type": "cloze",
+          "text": "Tốc độ truyền tĩnh mạch glucose duy trì khởi đầu thông thường (sau liều bolus) ở trẻ sơ sinh là {{c1::4 đến 6 mg/kg/phút}}.",
+          "extra": "Mức này tương đương với tốc độ sản xuất glucose nội sinh của gan sơ sinh để duy trì đường huyết ổn định.",
+          "tags": [
+            "PED-17",
+            "Dieu-tri",
+            "GIR-khoi-dau",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-024",
+          "type": "cloze",
+          "text": "Ở trẻ sơ sinh là con mẹ đái tháo đường (IDM) hoặc nghi ngờ cường insulin, tốc độ truyền glucose khởi đầu khuyến cáo cao hơn ở mức {{c1::6 đến 8 mg/kg/phút}}.",
+          "extra": "Do nồng độ insulin nội sinh rất cao làm tăng tốc độ vận chuyển glucose từ máu vào các mô.",
+          "tags": [
+            "PED-17",
+            "IDM",
+            "GIR",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-025",
+          "type": "cloze",
+          "text": "Nồng độ Glucose tối đa được phép truyền qua đường tĩnh mạch ngoại biên ở trẻ sơ sinh là {{c1::12.5%}}.",
+          "extra": "Nồng độ cao hơn 12.5% có áp lực thẩm thấu vượt quá giới hạn an toàn gây viêm tắc tĩnh mạch ngoại biên.",
+          "tags": [
+            "PED-17",
+            "Duong-truyen",
+            "Nong-do-glucose",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-026",
+          "type": "cloze",
+          "text": "Khi nồng độ dịch truyền Glucose vượt quá 12.5%, bác sĩ bắt buộc phải thiết lập {{c1::đường truyền tĩnh mạch trung tâm (catheter tĩnh mạch rốn UVC hoặc PICC)}}.",
+          "extra": "Truyền dịch ưu trương qua ngoại vi có nguy cơ thoát mạch gây loét hoại tử da mô mềm sâu dẫn tới tàn phế.",
+          "tags": [
+            "PED-17",
+            "Duong-truyen",
+            "UVC",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-027",
+          "type": "cloze",
+          "text": "Khi đường huyết kiểm tra sau 30–60 phút vẫn chưa đạt mục tiêu an toàn, nguyên tắc chuẩn độ là tăng GIR thêm {{c1::1 đến 2 mg/kg/phút mỗi lần}}.",
+          "extra": "Chuẩn độ tăng dần từng bước song song với việc theo dõi sát thể tích dịch truyền toàn phần trong ngày.",
+          "tags": [
+            "PED-17",
+            "Chuan-do",
+            "GIR",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-028",
+          "type": "cloze",
+          "text": "Tình trạng hạ đường huyết sơ sinh được xem là kháng trị khi nhu cầu tốc độ truyền đường vượt quá {{c1::12 đến 15 mg/kg/phút}} mà đường huyết vẫn chưa ổn định.",
+          "extra": "Cần khẩn trương tìm kiếm các nguyên nhân cường insulin bẩm sinh hoặc rối loạn nội tiết chuyển hóa.",
+          "tags": [
+            "PED-17",
+            "Khang-tri",
+            "Dinh-nghia",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-029",
+          "type": "cloze",
+          "text": "Mẫu máu quan trọng (Critical blood sample) bắt buộc phải được lấy tại thời điểm {{c1::trẻ đang bị hạ đường huyết (glucose máu dưới 50 mg/dL trước khi tiêm thuốc)}}.",
+          "extra": "Nếu lấy khi đường huyết đã được nâng lên bình thường, các thông số nội tiết sẽ bị sai lệch hoàn toàn.",
+          "tags": [
+            "PED-17",
+            "Critical-sample",
+            "Xet-nghiem",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-030",
+          "type": "cloze",
+          "text": "Thuốc lựa chọn hàng đầu trong điều trị nội khoa hạ đường huyết cường insulin bẩm sinh kéo dài ở trẻ sơ sinh là {{c1::Diazoxide (liều 10 đến 15 mg/kg/ngày chia 3 lần uống)}}.",
+          "extra": "Diazoxide mở kênh K-ATP tại tế bào beta đảo tụy, gây tăng phân cực màng và ức chế giải phóng insulin.",
+          "tags": [
+            "PED-17",
+            "Duoc-ly",
+            "Diazoxide",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-031",
+          "type": "cloze",
+          "text": "Trong hạ đường huyết kháng trị, Hydrocortisone liều 2.5–5 mg/kg/ngày tiêm tĩnh mạch có tác dụng {{c1::kích thích tân tạo đường tại gan và làm giảm độ nhạy cảm ngoại vi với insulin}}.",
+          "extra": "Đặc biệt hiệu quả trong các trường hợp suy giảm tuyến thượng thận hoặc suy tuyến yên toàn bộ.",
+          "tags": [
+            "PED-17",
+            "Duoc-ly",
+            "Hydrocortisone",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-032",
+          "type": "cloze",
+          "text": "Glucagon liều 0.5–1.0 mg tiêm bắp hoặc tĩnh mạch chỉ phát huy hiệu quả nâng đường huyết khi {{c1::gan của trẻ còn đủ kho dự trữ glycogen}}.",
+          "extra": "Glucagon rất hiệu quả ở trẻ IDM (kho glycogen dồi dào), nhưng kém hiệu quả ở trẻ sinh non hoặc SGA.",
+          "tags": [
+            "PED-17",
+            "Duoc-ly",
+            "Glucagon",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-033",
+          "type": "cloze",
+          "text": "Quy trình cai dịch truyền glucose an toàn đòi hỏi giảm dần GIR từng bước {{c1::1 đến 2 mg/kg/phút mỗi 4 đến 6 giờ}} song song với việc tăng lượng sữa bú mẹ.",
+          "extra": "Tuyệt đối cấm rút kim ngừng dịch đột ngột vì sẽ gây cơn hạ đường huyết dội ngược nguy hiểm.",
+          "tags": [
+            "PED-17",
+            "Cai-dich",
+            "An-toan",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-034",
+          "type": "cloze",
+          "text": "Theo tiêu chuẩn của WHO, thân nhiệt bình thường đo nách ở trẻ sơ sinh nằm trong khoảng {{c1::36.5 đến 37.5°C}} (vùng nhiệt độ trung hòa).",
+          "extra": "Ở khoảng nhiệt độ này, tốc độ chuyển hóa cơ bản và mức tiêu thụ oxy của trẻ là thấp nhất.",
+          "tags": [
+            "PED-17",
+            "WHO-Standard",
+            "Than-nhiet-binh-thuong",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-035",
+          "type": "cloze",
+          "text": "Theo WHO, tình trạng Stress lạnh (Hạ thân nhiệt nhẹ) ở trẻ sơ sinh được xác định khi thân nhiệt đo nách dao động từ {{c1::36.0 đến 36.4°C}}.",
+          "extra": "Trẻ đang trong giai đoạn bù trừ tích cực; cần ủ ấm ngay lập tức và tìm kiếm nguyên nhân gây mất nhiệt.",
+          "tags": [
+            "PED-17",
+            "WHO-Standard",
+            "Stress-lanh",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-036",
+          "type": "cloze",
+          "text": "Theo WHO, hạ thân nhiệt trung bình là từ {{c1::32.0 đến 35.9°C}}, và hạ thân nhiệt nặng là khi nhiệt độ đo nách dưới {{c2::32.0°C}}.",
+          "extra": "Hạ thân nhiệt nặng đe dọa ngừng tuần hoàn, xuất huyết phổi và tử vong nếu không hồi sức kịp thời.",
+          "tags": [
+            "PED-17",
+            "WHO-Standard",
+            "Phan-do-ha-than-nhiet",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-037",
+          "type": "cloze",
+          "text": "Bốn cơ chế mất nhiệt vật lý từ cơ thể trẻ sơ sinh ra môi trường bên ngoài gồm: {{c1::bốc hơi, dẫn truyền, đối lưu và bức xạ}}.",
+          "extra": "Kiểm soát đồng thời cả bốn cơ chế này là nguyên lý cốt lõi của chuỗi ủ ấm sơ sinh.",
+          "tags": [
+            "PED-17",
+            "Vat-ly-dieu-nhiet",
+            "Mat-nhiet",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-038",
+          "type": "cloze",
+          "text": "Con đường mất nhiệt lớn nhất và diễn ra nhanh nhất ở trẻ sơ sinh ngay sau khi chào đời tại phòng sinh là {{c1::mất nhiệt do bốc hơi nước ối qua bề mặt da ướt}}.",
+          "extra": "Mỗi 1 mL nước ối bay hơi mang theo 0.58 kcal nhiệt lượng của cơ thể.",
+          "tags": [
+            "PED-17",
+            "Boc-hoi",
+            "Phong-sinh",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-039",
+          "type": "cloze",
+          "text": "Cơ quan sinh nhiệt không run chuyên biệt của trẻ sơ sinh để chống lại môi trường lạnh là {{c1::mô mỡ nâu (Brown Adipose Tissue - BAT)}}.",
+          "extra": "Mô mỡ nâu phân bố chủ yếu ở vùng gian bả vai, quanh thận, trung thất và nách.",
+          "tags": [
+            "PED-17",
+            "Mo-mo-nau",
+            "BAT",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-040",
+          "type": "cloze",
+          "text": "Protein kênh màng trong ty thể mỡ nâu có chức năng tách rời chuỗi hô hấp tế bào để biến toàn bộ năng lượng thành nhiệt là {{c1::UCP-1 (Uncoupling Protein-1 hay Thermogenin)}}.",
+          "extra": "UCP-1 được kích hoạt bởi các acid béo tự do dưới tác động của kích thích thần kinh giao cảm.",
+          "tags": [
+            "PED-17",
+            "UCP-1",
+            "Thermogenin",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-041",
+          "type": "cloze",
+          "text": "Biến chứng mạch máu phổi nguy hiểm nhất của hạ thân nhiệt là gây co thắt động mạch phổi dẫn đến {{c1::Tăng áp động mạch phổi tồn tại ở trẻ sơ sinh (PPHN)}}.",
+          "extra": "Co mạch phổi tạo shunt Phải - Trái qua ống động mạch gây thiếu oxy máu trơ khó hồi phục.",
+          "tags": [
+            "PED-17",
+            "Bien-chung-phoi",
+            "PPHN",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-042",
+          "type": "cloze",
+          "text": "Hạ thân nhiệt nặng ức chế dòng thác đông máu và phá hủy mao mạch phổi, dẫn tới biến chứng đe dọa tính mạng kinh hoàng là {{c1::Xuất huyết phổi cấp (Pulmonary hemorrhage)}}.",
+          "extra": "Biểu hiện lâm sàng trào bọt máu tươi qua ống nội khí quản với tỷ lệ tử vong trên 80%.",
+          "tags": [
+            "PED-17",
+            "Bien-chung",
+            "Xuat-huyet-phoi",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-043",
+          "type": "cloze",
+          "text": "Tốc độ làm ấm an toàn khuyến cáo ở trẻ sơ sinh bị hạ thân nhiệt trung bình hoặc nặng là {{c1::0.5 đến 1.0°C mỗi giờ}} dưới sự kiểm soát của cảm biến nhiệt độ da liên tục.",
+          "extra": "Làm ấm từ từ giúp hệ tim mạch thích ứng và điều hòa thể tích tuần hoàn ngoại vi kịp thời.",
+          "tags": [
+            "PED-17",
+            "Lam-am",
+            "Toc-do-an-toan",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-BG-044",
+          "type": "cloze",
+          "text": "Làm ấm ngoại vi quá nhanh ở trẻ hạ thân nhiệt nặng sẽ kích hoạt biến chứng nguy hiểm là {{c1::Sốc giãn mạch (Rewarming shock) gây tụt huyết áp và ngừng tim}}.",
+          "extra": "Giãn mạch ngoại vi đột ngột làm cạn kiệt tuần hoàn trung tâm và xả toan lactic từ chi về tim.",
+          "tags": [
+            "PED-17",
+            "Rewarming-shock",
+            "Bien-chung",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED17-EBM-001",
+          "type": "cloze",
+          "text": "Thử nghiệm lâm sàng ngẫu nhiên có đối chứng mù đôi kinh điển về Dextrose gel trong điều trị hạ đường huyết sơ sinh là {{c1::Sugar Babies Study (Lancet 2013)}}.",
+          "extra": "Nghiên cứu do Harding và cộng sự thực hiện trên 242 trẻ sơ sinh nguy cơ cao tại New Zealand.",
+          "tags": [
+            "PED-17",
+            "Lancet",
+            "Sugar-Babies",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-002",
+          "type": "cloze",
+          "text": "Trong thử nghiệm Sugar Babies Study, chế phẩm được sử dụng là Dextrose gel nồng độ {{c1::40% với liều lượng 0.5 mL/kg (tương đương 200 mg/kg)}} bôi niêm mạc má.",
+          "extra": "Thuốc được miết đều vào niêm mạc má giúp glucose hấp thu trực tiếp nhanh chóng vào hệ tuần hoàn.",
+          "tags": [
+            "PED-17",
+            "Sugar-Babies",
+            "Dextrose-gel",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-003",
+          "type": "cloze",
+          "text": "Thử nghiệm Sugar Babies Study chứng minh Dextrose gel 40% làm giảm đáng kể tỷ lệ thất bại điều trị từ 24% ở nhóm giả dược xuống còn {{c1::14% ở nhóm can thiệp (RR 0.57, P = 0.04)}}.",
+          "extra": "Xác lập Dextrose gel 40% là biện pháp can thiệp đầu tay không xâm lấn chuẩn mực.",
+          "tags": [
+            "PED-17",
+            "Lancet",
+            "Ket-qua-Sugar-Babies",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-004",
+          "type": "cloze",
+          "text": "Việc can thiệp Dextrose gel 40% bôi niêm mạc má trong Sugar Babies Study giúp làm giảm gần một nửa {{c1::tỷ lệ trẻ phải nhập khoa hồi sức tích cực sơ sinh NICU (RR 0.54, P = 0.03)}}.",
+          "extra": "Giảm tỷ lệ nhập NICU giúp bảo tồn việc nuôi con bằng sữa mẹ và giảm chi phí điều trị.",
+          "tags": [
+            "PED-17",
+            "Sugar-Babies",
+            "NICU-admission",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-005",
+          "type": "cloze",
+          "text": "Theo phác đồ dựa trên Sugar Babies Study, số liều Dextrose gel 40% tối đa được phép dùng cho một đợt điều trị trong 48 giờ đầu là không quá {{c1::6 liều}}.",
+          "extra": "Nếu trẻ tái phát hạ đường huyết sau 6 liều, cần chuyển sang phác đồ truyền tĩnh mạch và khảo sát căn nguyên.",
+          "tags": [
+            "PED-17",
+            "Phac-do-gel",
+            "Lieu-toi-da",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-006",
+          "type": "cloze",
+          "text": "Nghiên cứu đoàn hệ tiến cứu đa trung tâm mang tính bước ngoặt đánh giá kết cục phát triển thần kinh lúc 2 tuổi ở trẻ hạ đường huyết là {{c1::CHYLD Study (Harris et al., NEJM 2015)}}.",
+          "extra": "Nghiên cứu theo dõi 404 trẻ sơ sinh nguy cơ cao được theo dõi glucose liên tục CGM.",
+          "tags": [
+            "PED-17",
+            "NEJM",
+            "CHYLD-Study",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-007",
+          "type": "cloze",
+          "text": "Nghiên cứu CHYLD (NEJM 2015) xác lập nồng độ đường huyết an toàn bảo vệ phát triển nhận thức và thị giác lúc 2 tuổi là từ {{c1::≥ 47 mg/dL (2.6 mmol/L)}} trở lên.",
+          "extra": "Trở thành mốc định lượng vàng cho mục tiêu điều trị hạ đường huyết sơ sinh toàn cầu.",
+          "tags": [
+            "PED-17",
+            "NEJM",
+            "Nguong-CHYLD",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-008",
+          "type": "cloze",
+          "text": "Trong nghiên cứu CHYLD, khi nồng độ glucose máu được kiểm soát duy trì ≥ 47 mg/dL, tỷ lệ suy giảm phát triển thần kinh lúc 2 tuổi {{c1::không khác biệt so với trẻ không hạ đường huyết (RR 0.95, P = 0.67)}}.",
+          "extra": "Chứng minh can thiệp đúng ngưỡng bảo tồn hoàn hảo tiên lượng phát triển nhận thức của trẻ.",
+          "tags": [
+            "PED-17",
+            "CHYLD",
+            "Ket-cuc-than-kinh",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-009",
+          "type": "cloze",
+          "text": "Báo cáo lâm sàng của AAP (Pediatrics 2011) xác lập phương pháp tiếp cận ngưỡng can thiệp động học theo {{c1::từng mốc giờ tuổi sau sinh (0-4h, 4-24h và sau 24h)}}.",
+          "extra": "Thay thế hoàn toàn quan niệm cứng nhắc cũ dùng một ngưỡng cố định cho mọi thời điểm.",
+          "tags": [
+            "PED-17",
+            "Pediatrics-AAP",
+            "Dong-hoc-gio-tuoi",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-010",
+          "type": "cloze",
+          "text": "Khuyến cáo của Hiệp hội Nội tiết Nhi khoa Hoa Kỳ (Thornton et al., J Pediatr 2015) phân định rõ ranh giới giữa hạ đường huyết chuyển tiếp trong {{c1::48 giờ đầu đời}} và hạ đường huyết kéo dài sau 48 giờ.",
+          "extra": "Hạ đường huyết kéo dài sau 48 giờ hầu hết là do các rối loạn di truyền nội tiết hoặc chuyển hóa bẩm sinh.",
+          "tags": [
+            "PED-17",
+            "PES-2015",
+            "Phan-loai-benh",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-011",
+          "type": "cloze",
+          "text": "Theo PES 2015, trước khi cho trẻ hạ đường huyết kéo dài xuất viện, bắt buộc phải thực hiện {{c1::nghiệm pháp nhịn ăn an toàn trong 6 đến 8 giờ}} để chứng minh đường huyết duy trì vững chắc > 60 mg/dL.",
+          "extra": "Đảm bảo trẻ có khả năng tự duy trì đường huyết khi ngủ xuyên đêm tại nhà.",
+          "tags": [
+            "PED-17",
+            "PES-Guideline",
+            "Nghiem-phap-nhin-an",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-012",
+          "type": "cloze",
+          "text": "Tổng quan hệ thống Cochrane Review (McCall et al., 2018) đã tổng hợp dữ liệu từ 25 thử nghiệm lâm sàng ngẫu nhiên trên {{c1::3,433 trẻ sơ sinh sinh non hoặc nhẹ cân}}.",
+          "extra": "Cung cấp bằng chứng mức độ cao nhất (Level 1) về hiệu quả của các can thiệp ủ ấm phòng sinh.",
+          "tags": [
+            "PED-17",
+            "Cochrane-Review",
+            "Tong-quan-he-thong",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-013",
+          "type": "cloze",
+          "text": "Cochrane Review 2018 chứng minh việc bọc túi nhựa/màng polyethylene ngay khi sinh không lau khô giúp giảm {{c1::32% nguy cơ hạ thân nhiệt lúc nhập viện (RR 0.68, 95% CI 0.58–0.79)}}.",
+          "extra": "Hiệu quả giữ ấm vượt trội so với chỉ lau khô và đắp khăn ấm kinh điển thông thường.",
+          "tags": [
+            "PED-17",
+            "Cochrane",
+            "Giam-ha-than-nhiet",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-014",
+          "type": "cloze",
+          "text": "Chỉ định bọc túi nhựa Polyethylene ngay tại phòng sinh theo khuyến cáo quốc tế áp dụng cho trẻ sinh non có tuổi thai dưới {{c1::32 tuần hoặc cân nặng lúc sinh dưới 1500 gram}}.",
+          "extra": "Nhóm trẻ này có lớp sừng da rất mỏng và tốc độ mất nhiệt bốc hơi cao nhất.",
+          "tags": [
+            "PED-17",
+            "Chi-dinh-boc-tui",
+            "Sinh-non",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-015",
+          "type": "cloze",
+          "text": "Khi thực hiện quy trình bọc túi nhựa Polyethylene tại phòng sinh, quy tắc thao tác sống còn là {{c1::TUYỆT ĐỐI KHÔNG LAU KHÔ thân trẻ}} trước khi đưa vào túi.",
+          "extra": "Lau khô làm mất thời gian quý báu và tăng diện tích bốc hơi nhiệt lượng ra môi trường phòng sinh.",
+          "tags": [
+            "PED-17",
+            "Ky-thuat-boc-tui",
+            "Khong-lau-kho",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-016",
+          "type": "cloze",
+          "text": "Nghiên cứu của Mạng lưới Sơ sinh Canada (Lyu et al., JAMA Pediatr 2015) được tiến hành trên một cỡ mẫu rất lớn gồm {{c1::9,833 trẻ sinh non dưới 33 tuần tuổi thai}}.",
+          "extra": "Nghiên cứu phân tích mối tương quan giữa thân nhiệt nhập viện và nguy cơ tử vong.",
+          "tags": [
+            "PED-17",
+            "JAMA-Pediatr",
+            "Lyu-2015",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-017",
+          "type": "cloze",
+          "text": "Nghiên cứu của Lyu et al. (JAMA Pediatr 2015) chứng minh mỗi 1°C giảm thân nhiệt nhập viện dưới 36.5°C làm tăng {{c1::28% nguy cơ tử vong sơ sinh (aOR 1.28, 95% CI 1.16–1.41)}}.",
+          "extra": "Khẳng định thân nhiệt khi nhập viện là một yếu tố dự báo sinh tồn độc lập cực kỳ mạnh mẽ.",
+          "tags": [
+            "PED-17",
+            "JAMA-Pediatr",
+            "Ty-le-tu-vong",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-018",
+          "type": "cloze",
+          "text": "Trong nghiên cứu của Lyu et al. (2015), mỗi 1°C giảm thân nhiệt nhập viện dưới 36.5°C còn làm tăng {{c1::11% nguy cơ mắc nhiễm trùng huyết khởi phát muộn (aOR 1.11, 95% CI 1.04–1.20)}}.",
+          "extra": "Hạ thân nhiệt làm suy giảm miễn dịch và tổn thương hàng rào bảo vệ niêm mạc ruột.",
+          "tags": [
+            "PED-17",
+            "JAMA-Pediatr",
+            "Nhiem-trung-huyet",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-019",
+          "type": "cloze",
+          "text": "Nghiên cứu của Mạng lưới Nghiên cứu Sơ sinh Hoa Kỳ (Laptook et al., J Pediatr 2018) khảo sát đoàn hệ gồm {{c1::5,477 trẻ cực sinh non dưới 29 tuần tuổi thai}}.",
+          "extra": "Đánh giá các kết cục bệnh tật nội viện nặng nề của trẻ sơ sinh cực non.",
+          "tags": [
+            "PED-17",
+            "J-Pediatr",
+            "Laptook-2018",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-020",
+          "type": "cloze",
+          "text": "Nghiên cứu của Laptook et al. (2018) chứng minh thân nhiệt nhập viện thấp ở trẻ cực non liên quan độc lập đến gia tăng nguy cơ tử vong nội viện với {{c1::aOR = 1.31 cho mỗi 1°C sụt giảm}}.",
+          "extra": "Nguy cơ tử vong tăng cao nhất ở nhóm trẻ có nhiệt độ nhập viện dưới 35.5°C.",
+          "tags": [
+            "PED-17",
+            "Laptook",
+            "Tu-vong-noi-vien",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-021",
+          "type": "cloze",
+          "text": "Trong nghiên cứu của Laptook et al. (2018), hạ thân nhiệt nhập viện làm tăng 29% nguy cơ mắc {{c1::Xuất huyết nội sọ nặng độ 3–4 (IVH)}} và tăng 27% nguy cơ mắc {{c2::Viêm ruột hoại tử (NEC)}}.",
+          "extra": "Dao động lưu lượng máu não và thiếu máu tưới nuôi dưỡng ruột do lạnh là cơ chế bệnh sinh chính.",
+          "tags": [
+            "PED-17",
+            "Laptook",
+            "IVH-NEC",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-022",
+          "type": "cloze",
+          "text": "Tỷ lệ diện tích bề mặt cơ thể so với cân nặng (S/V) ở trẻ sơ sinh cao gấp {{c1::3 lần so với người lớn}}, khiến tốc độ mất nhiệt diễn ra nhanh gấp 4 lần.",
+          "extra": "Trẻ càng non tháng và nhẹ cân thì tỷ lệ S/V càng lớn, nguy cơ hạ thân nhiệt càng trầm trọng.",
+          "tags": [
+            "PED-17",
+            "Sinh-ly-nhiet",
+            "Ty-le-SV",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-023",
+          "type": "cloze",
+          "text": "Mô mỡ nâu (BAT) phân bố giải phẫu tập trung chủ yếu tại 4 vùng: {{c1::gian bả vai, quanh thận, nách và trung thất}}.",
+          "extra": "Máu đi qua mạng lưới mao mạch dày đặc của BAT được sưởi ấm rồi phân phối về các tạng trung tâm.",
+          "tags": [
+            "PED-17",
+            "Giai-phau-BAT",
+            "Mo-mo-nau",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-024",
+          "type": "cloze",
+          "text": "Khi da tiếp nhận kích thích lạnh, cung phản xạ thần kinh giao cảm phóng thích norepinephrine gắn đặc hiệu vào thụ thể {{c1::beta-3 adrenergic}} tại màng tế bào mỡ nâu.",
+          "extra": "Thụ thể beta-3 adrenergic là thụ thể chủ vận chuyên biệt điều hòa sinh nhiệt ở mô mỡ nâu.",
+          "tags": [
+            "PED-17",
+            "Thu-the-Giao-cam",
+            "Beta-3-adrenergic",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-025",
+          "type": "cloze",
+          "text": "Tín hiệu norepinephrine kích hoạt enzyme adenylate cyclase làm tăng nồng độ {{c1::cAMP nội bào}}, từ đó kích hoạt lipase thủy phân triglyceride thành acid béo tự do.",
+          "extra": "Acid béo tự do vừa là nhiên liệu vừa là chất hoạt hóa trực tiếp kênh protein UCP-1.",
+          "tags": [
+            "PED-17",
+            "Sinh-hoa-te-bao",
+            "cAMP",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-026",
+          "type": "cloze",
+          "text": "Cơ chế hoạt động của UCP-1 (Thermogenin): Tạo kênh cho dòng proton chảy tự do qua màng trong ty thể {{c1::mà không đi qua phức hợp ATP synthase}}, biến toàn bộ thế năng thành nhiệt năng.",
+          "extra": "Hiện tượng này gọi là tách rời chuỗi hô hấp (uncoupling of oxidative phosphorylation).",
+          "tags": [
+            "PED-17",
+            "Co-che-UCP1",
+            "Thermogenin",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-027",
+          "type": "cloze",
+          "text": "Sinh nhiệt không run qua mô mỡ nâu tiêu tốn một lượng cực lớn {{c1::oxy và glucose}}, giải thích vì sao hạ thân nhiệt kéo dài luôn nhanh chóng dẫn tới hạ đường huyết sâu và suy hô hấp.",
+          "extra": "Cơ thể trẻ sơ sinh phải đốt cháy toàn bộ dự trữ năng lượng để bù trừ nhiệt độ.",
+          "tags": [
+            "PED-17",
+            "Tieu-thu-nang-luong",
+            "BAT",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-028",
+          "type": "cloze",
+          "text": "Nhiệt dung tiềm tàng của nước ối: Cứ mỗi 1 mL nước ối bay hơi khỏi bề mặt da trẻ sơ sinh sẽ lấy đi khoảng {{c1::0.58 kcal (580 calo)}} nhiệt lượng của cơ thể.",
+          "extra": "Nếu trẻ không được lau khô hoặc bọc túi, nhiệt độ cơ thể có thể tụt từ 2 đến 3°C chỉ trong 15 phút đầu đời.",
+          "tags": [
+            "PED-17",
+            "Vat-ly-mat-nhiet",
+            "Nhiet-dung-nuoc-oi",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-029",
+          "type": "cloze",
+          "text": "Đầu của trẻ sơ sinh chiếm tỷ lệ khoảng {{c1::20% tổng diện tích bề mặt cơ thể}}, do đó việc đội mũ ấm bằng cotton hoặc len là bắt buộc để ngăn chặn mất nhiệt bức xạ.",
+          "extra": "Mất nhiệt qua da đầu là một trong những nguyên nhân phổ biến nhất gây hạ thân nhiệt âm thầm.",
+          "tags": [
+            "PED-17",
+            "Dien-tich-dau",
+            "Doi-mu-am",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-030",
+          "type": "cloze",
+          "text": "Theo tiêu chuẩn chuỗi ủ ấm Warm Chain của WHO, nhiệt độ môi trường phòng sinh tối thiểu bắt buộc phải duy trì từ {{c1::25 đến 28°C}} và không có luồng gió lùa.",
+          "extra": "Phòng sinh lạnh là nguyên nhân hàng đầu khiến trẻ sơ sinh rơi vào stress lạnh ngay từ giây phút chào đời.",
+          "tags": [
+            "PED-17",
+            "WHO-Warm-Chain",
+            "Nhiet-do-phong-sinh",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-031",
+          "type": "cloze",
+          "text": "Tiếp xúc da kề da (Kangaroo care) ngay sau sinh hoạt động như một {{c1::lồng ấp sinh học tự nhiên}}, trong đó nhiệt độ ngực mẹ có thể tự điều chỉnh tăng lên để truyền nhiệt dẫn truyền trực tiếp làm ấm con.",
+          "extra": "Phương pháp này đồng thời thúc đẩy gắn kết mẹ con và kích thích giải phóng sữa non giàu kháng thể.",
+          "tags": [
+            "PED-17",
+            "Kangaroo-care",
+            "Da-ke-da",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-032",
+          "type": "cloze",
+          "text": "Khuyến cáo của WHO và Bộ Y tế yêu cầu trì hoãn việc tắm lần đầu cho trẻ sơ sinh trong ít nhất {{c1::24 giờ sau sinh (hoặc 48 giờ đối với trẻ nhẹ cân)}}.",
+          "extra": "Tắm sớm làm mất lớp chất gây bảo vệ (vernix caseosa) và gây mất nhiệt bốc hơi dữ dội.",
+          "tags": [
+            "PED-17",
+            "Cham-soc-so-sinh",
+            "Tam-be",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-033",
+          "type": "cloze",
+          "text": "Nhiệt độ cơ thể thấp ức chế trực tiếp hoạt tính tổng hợp và bài tiết surfactant của {{c1::tế bào phế nang type II}}, thúc đẩy xẹp phổi và làm suy hô hấp tiến triển nặng thêm.",
+          "extra": "Giải thích mối liên quan mật thiết giữa hạ thân nhiệt và hội chứng suy hô hấp cấp RDS.",
+          "tags": [
+            "PED-17",
+            "Sinh-ly-benh-phoi",
+            "Surfactant",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-034",
+          "type": "cloze",
+          "text": "Cơ chế của hiện tượng tụt thân nhiệt trung tâm (Core drop) khi làm ấm nhanh: Máu lạnh ứ đọng từ các chi dồn ồ ạt về tim làm {{c1::nhiệt độ lõi cơ thể tụt sâu hơn và toan lactic máu bùng phát}}.",
+          "extra": "Đây là thành tố quan trọng trong cơ chế bệnh sinh của cơn sốc giãn mạch (Rewarming shock).",
+          "tags": [
+            "PED-17",
+            "Core-drop",
+            "Rewarming-shock",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-035",
+          "type": "cloze",
+          "text": "Thuốc can thiệp hồi sức ban đầu chuẩn mực khi trẻ xuất hiện sốc giãn mạch tụt huyết áp trong quá trình làm ấm là {{c1::Natri Clorid 0.9% liều 10 mL/kg tiêm truyền tĩnh mạch trong 20–30 phút}}.",
+          "extra": "Bù dịch đẳng trương kịp thời làm đầy thể tích lòng mạch giãn rộng giúp phục hồi huyết áp động mạch.",
+          "tags": [
+            "PED-17",
+            "Cap-cuu-soc",
+            "Bu-dich",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-036",
+          "type": "cloze",
+          "text": "Thuyết Pederson kinh điển: Tình trạng tăng đường huyết mạn tính của mẹ kích thích tụy thai nhi tăng sản tế bào beta đảo tụy và gây {{c1::tăng tiết nồng độ Insulin trong máu thai nhi (Hyperinsulinism)}}.",
+          "extra": "Insulin đóng vai trò như một hormone tăng trưởng làm thai to (LGA) và tích lũy mỡ nhiều.",
+          "tags": [
+            "PED-17",
+            "Thuyet-Pederson",
+            "IDM",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-037",
+          "type": "cloze",
+          "text": "Nồng độ insulin máu cao ở trẻ IDM đồng thời ức chế hai con đường sống còn tại gan là {{c1::ly giải glycogen (glycogenolysis) và tân tạo đường (gluconeogenesis)}}.",
+          "extra": "Khiến trẻ hoàn toàn mất khả năng tự sản xuất glucose nội sinh sau khi cắt rốn.",
+          "tags": [
+            "PED-17",
+            "IDM-mechanism",
+            "Uc-che-gan",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-038",
+          "type": "cloze",
+          "text": "Trẻ nhỏ so với tuổi thai (SGA) bị hạ đường huyết chủ yếu do {{c1::cạn kiệt kho dự trữ glycogen tại gan và thiếu hụt mô mỡ cung cấp glycerol/acid béo}}.",
+          "extra": "Suy tuần hoàn bánh nhau mạn tính tước đoạt cơ hội tích lũy dưỡng chất trong 3 tháng cuối thai kỳ.",
+          "tags": [
+            "PED-17",
+            "SGA-mechanism",
+            "Thieu-du-tru",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-039",
+          "type": "cloze",
+          "text": "Trong tình trạng ngạt sau sinh, chuyển hóa chuyển dịch sang con đường đường phân kỵ khí chỉ tạo ra {{c1::2 phân tử ATP (thay vì 36–38 ATP theo hiếu khí)}}, tiêu tốn glucose gấp 18 lần.",
+          "extra": "Điều này làm cạn kiệt toàn bộ kho dự trữ glycogen chỉ sau vài giờ và tạo lượng lớn acid lactic gây toan máu.",
+          "tags": [
+            "PED-17",
+            "Ngat-so-sinh",
+            "Duong-phan-ky-khi",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-040",
+          "type": "cloze",
+          "text": "Tiêm bolus Glucose ưu trương 20–30% sẽ kích thích tế bào beta tụy tiết ồ ạt insulin nội sinh, dẫn đến cơn {{c1::hạ đường huyết dội ngược (rebound hypoglycemia) nghiêm trọng sau 30 phút}}.",
+          "extra": "Đây là nguyên nhân chính giải thích vì sao dung dịch Glucose 10% là lựa chọn an toàn duy nhất.",
+          "tags": [
+            "PED-17",
+            "Rebound-hypoglycemia",
+            "Glucose-uu-truong",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-041",
+          "type": "cloze",
+          "text": "Đo đường huyết bằng máy que thử mao mạch sử dụng máu toàn phần, kết quả thường {{c1::thấp hơn khoảng 10 đến 15%}} so với nồng độ glucose trong huyết tương phòng xét nghiệm.",
+          "extra": "Do hồng cầu chiếm thể tích nhưng chứa nồng độ glucose nội bào thấp hơn huyết tương.",
+          "tags": [
+            "PED-17",
+            "Sai-so-xet-nghiem",
+            "Que-thu-mao-mach",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-042",
+          "type": "cloze",
+          "text": "Hiện tượng đa hồng cầu (Hematocrit > 65%) ở trẻ sơ sinh làm giảm thể tích huyết tương tiếp xúc với que thử, gây ra hiện tượng {{c1::đo đường huyết thấp giả tạo trên máy thử mao mạch}}.",
+          "extra": "Luôn kiểm tra Hematocrit và đối chiếu với đường huyết huyết tương tĩnh mạch khi có nghi ngờ.",
+          "tags": [
+            "PED-17",
+            "Da-hong-cau",
+            "Sai-so-que-thu",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-043",
+          "type": "cloze",
+          "text": "Ở trẻ bị hạ thân nhiệt nặng hoặc sốc có co mạch ngoại vi nghiêm trọng, mẫu máu bấm gót chân có thể cho nồng độ glucose {{c1::thấp hơn đáng kể so với nồng độ glucose trong tuần hoàn trung tâm}}.",
+          "extra": "Do ứ trệ tuần hoàn mao mạch tại chỗ tiêu thụ glucose kéo dài.",
+          "tags": [
+            "PED-17",
+            "Co-mach-ngoai-vi",
+            "Mau-got-chan",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED17-EBM-044",
+          "type": "cloze",
+          "text": "Tiêu chuẩn xuất viện an toàn: Trẻ đã ngừng hoàn toàn dịch truyền tĩnh mạch ≥ 24–48h và nồng độ glucose máu duy trì ổn định {{c1::trên 50 mg/dL (2.8 mmol/L)}} trước mọi cữ bú khi bú mẹ hoàn toàn.",
+          "extra": "Đảm bảo trẻ duy trì được nội môi chuyển hóa độc lập và an toàn tuyệt đối khi về nhà.",
+          "tags": [
+            "PED-17",
+            "Tieu-chuan-xuat-vien",
+            "An-toan-chuyen-hoa",
+            "ebm_hien_dai"
+          ]
+        }
+      ],
+      "apkg_file": "PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh_2026-09-17_RELEASE_v1.apkg",
+      "html_file": null,
+      "folder_rel": "02_So_sinh_hoc/PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh"
     },
     {
       "id": "PED-20",

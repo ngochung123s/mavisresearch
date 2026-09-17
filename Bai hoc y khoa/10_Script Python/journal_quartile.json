@@ -25,7 +25,8 @@
       "2026-07-02 v20: Add Journal of Ultrasound in Medicine (Q2, AIUM official) for TVS basic lesson",
       "2026-09-16 v21: Add Chest, European Respiratory Journal, Lancet Respiratory Medicine, AJRCCM for Pediatric Pulmonology (PED-20)",
       "2026-09-17 v22: Add Pediatrics, JAMA Pediatrics, American Journal of Diseases of Children, Paediatrics & Child Health, Family Practice for Croup (PED-24)",
-      "2026-09-17 v23: Add JAMA, Pediatric Critical Care Medicine for Oxygen & Noninvasive Ventilation (PED-25)"
+      "2026-09-17 v23: Add JAMA, Pediatric Critical Care Medicine for Oxygen & Noninvasive Ventilation (PED-25)",
+      "2026-09-17 v24: Add The Journal of Pediatrics for Neonatal Hypoglycemia & Hypothermia (PED-17)"
     ],
     "data_source": "JCR 2023/2024 categories (CARDIAC, OB/GYN, PEDIATRICS, ENDOCRINOLOGY), cross-checked với SJR 2024. Một số IF là ước lượng.",
     "tier_definitions": {
@@ -432,6 +433,24 @@
       "field": "Pediatric Critical Care",
       "society": "SCCM / WFPICCS",
       "specialty": "Pediatric Intensive Care"
+    },
+    "The Journal of Pediatrics": {
+      "if": 3.9,
+      "field": "Pediatrics",
+      "society": "Elsevier",
+      "specialty": "Pediatrics"
+    },
+    "The Journal of pediatrics": {
+      "if": 3.9,
+      "field": "Pediatrics",
+      "society": "Elsevier",
+      "specialty": "Pediatrics"
+    },
+    "Journal of Pediatrics": {
+      "if": 3.9,
+      "field": "Pediatrics",
+      "society": "Elsevier",
+      "specialty": "Pediatrics"
     }
   },
   "Q2": {
@@ -1058,7 +1077,12 @@
     "JAMA": "JAMA",
     "jama": "JAMA",
     "Pediatric critical care medicine : a journal of the Society of Critical Care Medicine and the World Federation of Pediatric Intensive and Critical Care Societies": "Pediatric Critical Care Medicine",
-    "pediatric critical care medicine : a journal of the society of critical care medicine and the world federation of pediatric intensive and critical care societies": "Pediatric Critical Care Medicine"
+    "pediatric critical care medicine : a journal of the society of critical care medicine and the world federation of pediatric intensive and critical care societies": "Pediatric Critical Care Medicine",
+    "The Journal of pediatrics": "The Journal of Pediatrics",
+    "the journal of pediatrics": "The Journal of Pediatrics",
+    "J Pediatr": "The Journal of Pediatrics",
+    "j pediatr": "The Journal of Pediatrics",
+    "Journal of Pediatrics": "The Journal of Pediatrics"
   },
   "aliases": {
     "Obstet Gynecol": "Obstetrics and Gynecology",
@@ -1092,6 +1116,11 @@
     "Critical care medicine": "Critical Care Medicine",
     "critical care medicine": "Critical Care Medicine",
     "Frontiers in pharmacology": "Frontiers in Pharmacology",
-    "frontiers in pharmacology": "Frontiers in Pharmacology"
+    "frontiers in pharmacology": "Frontiers in Pharmacology",
+    "The Journal of pediatrics": "The Journal of Pediatrics",
+    "the journal of pediatrics": "The Journal of Pediatrics",
+    "J Pediatr": "The Journal of Pediatrics",
+    "j pediatr": "The Journal of Pediatrics",
+    "Journal of Pediatrics": "The Journal of Pediatrics"
   }
 }

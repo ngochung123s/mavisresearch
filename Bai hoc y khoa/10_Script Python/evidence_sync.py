@@ -293,12 +293,19 @@ def sync(
                 providers_set.add("crossref_retraction_watch")
             except Exception:
                 pass
+        abstract_text = epmc_row.get("abstractText") or ""
+        if not abstract_text and "oalex_row" in locals() and oalex_row and oalex_row.get("abstract_inverted_index"):
+            inv = oalex_row["abstract_inverted_index"]
+            word_pos = []
+            for w, pos in inv.items():
+                word_pos.extend([(p, w) for p in pos])
+            word_pos.sort()
+            abstract_text = " ".join(w for p, w in word_pos)
 
         full_text_meta, _ = oa_full_text(cache_root, pmid, resolved_doi, now_text)
         pub_types = epmc_row.get("pubTypeList", {}).get("pubType", ["Journal Article"])
         if isinstance(pub_types, str):
             pub_types = [pub_types]
-
         records[key] = {
             "exists": True,
             "identifiers": {
@@ -306,7 +313,7 @@ def sync(
                 "doi": resolved_doi,
             },
             "title": epmc_row.get("title", ""),
-            "abstract": epmc_row.get("abstractText", ""),
+            "abstract": abstract_text,
             "journal": epmc_row.get("journal", "Unknown Journal"),
             "year": epmc_row.get("pubYear", ""),
             "publication_types": pub_types,

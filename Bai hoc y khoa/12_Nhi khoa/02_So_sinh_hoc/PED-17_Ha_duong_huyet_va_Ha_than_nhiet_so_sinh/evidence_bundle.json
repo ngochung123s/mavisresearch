@@ -1,0 +1,480 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-17T09:36:04.006807Z",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\02_So_sinh_hoc\\PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh\\raw",
+  "providers": [
+    "crossref_retraction_watch",
+    "europe_pmc_metadata",
+    "openalex"
+  ],
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "596c907a0c8699688fcf6c5a7308c76173a407213b4c5f75dcb51044a53ebf95",
+      "path": "raw/europe_pmc_metadata/596c907a0c8699688fcf6c5a7308c76173a407213b4c5f75dcb51044a53ebf95.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "2b3cf048d5d1bdb41357bfa702c3b95416aaa81e013be9959b1d80933e94021e",
+      "path": "raw/openalex/2b3cf048d5d1bdb41357bfa702c3b95416aaa81e013be9959b1d80933e94021e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "f1793fd965c688bd162df2de3c4de29a6985225d6a2a00d0dd7870f76e234962",
+      "path": "raw/crossref_retraction_watch/f1793fd965c688bd162df2de3c4de29a6985225d6a2a00d0dd7870f76e234962.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "6cbee0f5eb896a6186c489ee7ac08ccf7673a81f4f998a3ad348e99037fb0ba9",
+      "path": "raw/europe_pmc_metadata/6cbee0f5eb896a6186c489ee7ac08ccf7673a81f4f998a3ad348e99037fb0ba9.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "c49c8cad0e32aa6acc61bf4febdb5a686e13ee9d164a216d2c52ce7ddb047688",
+      "path": "raw/openalex/c49c8cad0e32aa6acc61bf4febdb5a686e13ee9d164a216d2c52ce7ddb047688.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "fd79ef17647054bc42990178ed4bdb4021bd5249c8731e98927a0b6b22440ef0",
+      "path": "raw/crossref_retraction_watch/fd79ef17647054bc42990178ed4bdb4021bd5249c8731e98927a0b6b22440ef0.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "c76a047312bbaa68b93d0c38745e6917f99658bbf3d874f7d2be60c576612aaf",
+      "path": "raw/europe_pmc_metadata/c76a047312bbaa68b93d0c38745e6917f99658bbf3d874f7d2be60c576612aaf.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "98a241da640682e78f1799ceda96699e83acf8c075a8f8f014f57227a56ad743",
+      "path": "raw/openalex/98a241da640682e78f1799ceda96699e83acf8c075a8f8f014f57227a56ad743.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "2f4de7c69961229819ee53cf5e195dbcc3a91bf9d701d3a2ce8f685f04d9d600",
+      "path": "raw/crossref_retraction_watch/2f4de7c69961229819ee53cf5e195dbcc3a91bf9d701d3a2ce8f685f04d9d600.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "4b91e7d92a77680bc76b49242de4b65431c6e20247b6d5add596f3f247d21d79",
+      "path": "raw/europe_pmc_metadata/4b91e7d92a77680bc76b49242de4b65431c6e20247b6d5add596f3f247d21d79.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "1f54c68d76197167a4c59f888586438ed222eacc331aeddee115db62eb7df6ee",
+      "path": "raw/openalex/1f54c68d76197167a4c59f888586438ed222eacc331aeddee115db62eb7df6ee.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "2812d098d44726f2b1553aec51671707904629286184ff97f61d082675a5fcd3",
+      "path": "raw/crossref_retraction_watch/2812d098d44726f2b1553aec51671707904629286184ff97f61d082675a5fcd3.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "4492fe38b0e9d048dd11ef1615c50d659c329d78d63a49d4af759e9f566d0e2a",
+      "path": "raw/europe_pmc_metadata/4492fe38b0e9d048dd11ef1615c50d659c329d78d63a49d4af759e9f566d0e2a.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "82d8ffa7b0f0d435c86a5f3ec0351b290cf730957358d8f194be2e19697bfa66",
+      "path": "raw/openalex/82d8ffa7b0f0d435c86a5f3ec0351b290cf730957358d8f194be2e19697bfa66.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "89a8c7816f7b7932df8c2860205f573c0406587ebe685e9d7e58b8d56616239f",
+      "path": "raw/crossref_retraction_watch/89a8c7816f7b7932df8c2860205f573c0406587ebe685e9d7e58b8d56616239f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "ccd682dfdc39916139c27417bcf4758269dde7047cc0eab9d7903d49cbb3da43",
+      "path": "raw/europe_pmc_metadata/ccd682dfdc39916139c27417bcf4758269dde7047cc0eab9d7903d49cbb3da43.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "f4fb766e3a4f23945f0749a9a63b5c2056041ef1ae8a56f0a9f1c95573578cf3",
+      "path": "raw/openalex/f4fb766e3a4f23945f0749a9a63b5c2056041ef1ae8a56f0a9f1c95573578cf3.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "221f33bc2f9d4b3a89527b5c72e14107607173f2637da162f7497a0c33401393",
+      "path": "raw/crossref_retraction_watch/221f33bc2f9d4b3a89527b5c72e14107607173f2637da162f7497a0c33401393.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "bd73865547471ddab2a37450622c4ed0dff06183af3785f418e65328938d76f0",
+      "path": "raw/europe_pmc_metadata/bd73865547471ddab2a37450622c4ed0dff06183af3785f418e65328938d76f0.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "a81c1bebf1e02dde3a9fcfd4f107598f57e9d5f58107ca141da558825624cdfa",
+      "path": "raw/openalex/a81c1bebf1e02dde3a9fcfd4f107598f57e9d5f58107ca141da558825624cdfa.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T09:36:04.006807Z",
+      "sha256": "d5675496ffe6364a219829f759edb080f3fd60b6de85337e3ec00458c2bcc4b5",
+      "path": "raw/crossref_retraction_watch/d5675496ffe6364a219829f759edb080f3fd60b6de85337e3ec00458c2bcc4b5.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "records": {
+    "pmid:24075361": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "24075361",
+        "doi": "10.1016/s0140-6736(13)61645-1"
+      },
+      "title": "Dextrose gel for neonatal hypoglycaemia (the Sugar Babies Study): a randomised, double-blind, placebo-controlled trial",
+      "abstract": "<h4>Background</h4>Neonatal hypoglycaemia is common, and a preventable cause of brain damage. Dextrose gel is used to reverse hypoglycaemia in individuals with diabetes; however, little evidence exists for its use in babies. We aimed to assess whether treatment with dextrose gel was more effective than feeding alone for reversal of neonatal hypoglycaemia in at-risk babies.<h4>Methods</h4>We undertook a randomised, double-blind, placebo-controlled trial at a tertiary centre in New Zealand between Dec 1, 2008, and Nov 31, 2010. Babies aged 35-42 weeks' gestation, younger than 48-h-old, and at risk of hypoglycaemia were randomly assigned (1:1), via computer-generated blocked randomisation, to 40% dextrose gel 200 mg/kg or placebo gel. Randomisation was stratified by maternal diabetes and birthweight. Group allocation was concealed from clinicians, families, and all study investigators. The primary outcome was treatment failure, defined as a blood glucose concentration of less than 2·6 mmol/L after two treatment attempts. Analysis was by intention to treat. The trial is registered with Australian New Zealand Clinical Trials Registry, number ACTRN12608000623392.<h4>Findings</h4>Of 514 enrolled babies, 242 (47%) became hypoglycaemic and were randomised. Five babies were randomised in error, leaving 237 for analysis: 118 (50%) in the dextrose group and 119 (50%) in the placebo group. Dextrose gel reduced the frequency of treatment failure compared with placebo (16 [14%] vs 29 [24%]; relative risk 0·57, 95% CI 0·33-0·98; p=0·04). We noted no serious adverse events. Three (3%) babies in the placebo group each had one blood glucose concentration of 0·9 mmol/L. No other adverse events took place.<h4>Interpretation</h4>Treatment with dextrose gel is inexpensive and simple to administer. Dextrose gel should be considered for first-line treatment to manage hypoglycaemia in late preterm and term babies in the first 48 h after birth.<h4>Funding</h4>Waikato Medical Research Foundation, the Auckland Medical Research Foundation, the Maurice and Phyllis Paykel Trust, the Health Research Council of New Zealand, and the Rebecca Roberts Scholarship.",
+      "journal": "Lancet (London, England)",
+      "year": "2013",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T09:36:04.006807Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T09:36:04.006807Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "596c907a0c8699688fcf6c5a7308c76173a407213b4c5f75dcb51044a53ebf95",
+        "2b3cf048d5d1bdb41357bfa702c3b95416aaa81e013be9959b1d80933e94021e",
+        "f1793fd965c688bd162df2de3c4de29a6985225d6a2a00d0dd7870f76e234962"
+      ]
+    },
+    "pmid:26465984": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "26465984",
+        "doi": "10.1056/nejmoa1504909"
+      },
+      "title": "Neonatal Glycemia and Neurodevelopmental Outcomes at 2 Years",
+      "abstract": "<h4>Background</h4>Neonatal hypoglycemia is common and can cause neurologic impairment, but evidence supporting thresholds for intervention is limited.<h4>Methods</h4>We performed a prospective cohort study involving 528 neonates with a gestational age of at least 35 weeks who were considered to be at risk for hypoglycemia; all were treated to maintain a blood glucose concentration of at least 47 mg per deciliter (2.6 mmol per liter). We intermittently measured blood glucose for up to 7 days. We continuously monitored interstitial glucose concentrations, which were masked to clinical staff. Assessment at 2 years included Bayley Scales of Infant Development III and tests of executive and visual function.<h4>Results</h4>Of 614 children, 528 were eligible, and 404 (77% of eligible children) were assessed; 216 children (53%) had neonatal hypoglycemia (blood glucose concentration, <47 mg per deciliter). Hypoglycemia, when treated to maintain a blood glucose concentration of at least 47 mg per deciliter, was not associated with an increased risk of the primary outcomes of neurosensory impairment (risk ratio, 0.95; 95% confidence interval [CI], 0.75 to 1.20; P=0.67) and processing difficulty, defined as an executive-function score or motion coherence threshold that was more than 1.5 SD from the mean (risk ratio, 0.92; 95% CI, 0.56 to 1.51; P=0.74). Risks were not increased among children with unrecognized hypoglycemia (a low interstitial glucose concentration only). The lowest blood glucose concentration, number of hypoglycemic episodes and events, and negative interstitial increment (area above the interstitial glucose concentration curve and below 47 mg per deciliter) also did not predict the outcome.<h4>Conclusions</h4>In this cohort, neonatal hypoglycemia was not associated with an adverse neurologic outcome when treatment was provided to maintain a blood glucose concentration of at least 47 mg per deciliter. (Funded by the Eunice Kennedy Shriver National Institute of Child Health and Human Development and others.).",
+      "journal": "The New England journal of medicine",
+      "year": "2015",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T09:36:04.006807Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T09:36:04.006807Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "6cbee0f5eb896a6186c489ee7ac08ccf7673a81f4f998a3ad348e99037fb0ba9",
+        "c49c8cad0e32aa6acc61bf4febdb5a686e13ee9d164a216d2c52ce7ddb047688",
+        "fd79ef17647054bc42990178ed4bdb4021bd5249c8731e98927a0b6b22440ef0"
+      ]
+    },
+    "pmid:21357346": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "21357346",
+        "doi": "10.1542/peds.2010-3851"
+      },
+      "title": "Postnatal glucose homeostasis in late-preterm and term infants",
+      "abstract": "This report provides a practical guide and algorithm for the screening and subsequent management of neonatal hypoglycemia. Current evidence does not support a specific concentration of glucose that can discriminate normal from abnormal or can potentially result in acute or chronic irreversible neurologic damage. Early identification of the at-risk infant and institution of prophylactic measures to prevent neonatal hypoglycemia are recommended as a pragmatic approach despite the absence of a consistent definition of hypoglycemia in the literature.",
+      "journal": "Pediatrics",
+      "year": "2011",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T09:36:04.006807Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T09:36:04.006807Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "c76a047312bbaa68b93d0c38745e6917f99658bbf3d874f7d2be60c576612aaf",
+        "98a241da640682e78f1799ceda96699e83acf8c075a8f8f014f57227a56ad743",
+        "2f4de7c69961229819ee53cf5e195dbcc3a91bf9d701d3a2ce8f685f04d9d600"
+      ]
+    },
+    "pmid:25957977": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "25957977",
+        "doi": "10.1016/j.jpeds.2015.03.057"
+      },
+      "title": "Recommendations from the Pediatric Endocrine Society for Evaluation and Management of Persistent Hypoglycemia in Neonates, Infants, and Children",
+      "abstract": "During the first 24-48 hours of life, as normal neonates transition from intrauterine to extrauterine life, their plasma glucose (PG) concentrations are typically lower than later in life.1Cornblath M. Reisner S.H. Blood glucose in the neonate and its clinical significance.N Engl J Med. 1965; 273: 378-381Crossref PubMed Scopus (116) Google Scholar, 2Srinivasan G. Pildes R.S. Cattamanchi G. Voora S. Lilien L.D. Plasma glucose values in normal neonates: a new look.J Pediatr. 1986; 109: 114-117Abstract Full Text PDF PubMed Scopus (225) Google Scholar, 3Stanley C.A. Rozance P.J. Thornton P.S. De Leon D.D. Harris D. Haymond M.W. et al.Re-evaluating “transitional neonatal hypoglycemia”: mechanism and implications for management.J Pediatr. 2015; 166: 1520-1525Abstract Full Text Full Text PDF PubMed Scopus (128) Google Scholar Published guidelines for screening at-risk newborns and managing low PG concentrations in neonates focus on the immediate neonatal period, but do not address the diagnosis and management of disorders causing recurrent and prolonged hypoglycemia.4Canadian Paediatric SocietyScreening guidelines for newborns at risk for low blood glucose.Paediatr Child Health. 2004; 9: 723-740PubMed Google Scholar, 5Adamkin D.H. Postnatal glucose homeostasis in late-preterm and term infants.Pediatrics. 2011; 127: 575-579Crossref PubMed Scopus (424) Google Scholar, 6Wight N. Marinelli K.A. ABM clinical protocol 1: guidelines for glucose monitoring and treatment of hypoglycemia in breastfed neonates.Breastfeed Med. 2006; 1: 178-184Crossref PubMed Scopus (27) Google Scholar Distinguishing between transitional neonatal glucose regulation in normal newborns and hypoglycemia that persists or occurs for the first time beyond the first 3 days of life is important for prompt diagnosis and effective treatment to avoid serious consequences, including seizures and permanent brain injury.Moreover, the evaluation and management of pediatric hypoglycemia differ in several respects from that in adults, for whom guidelines were recently published.7Cryer P.E. Axelrod L. Grossman A.B. Heller S.R. Montori V.M. Seaquist E.R. et al.Evaluation and management of adult hypoglycemic disorders: an Endocrine Society clinical practice guideline.J Clin Endocrinol Metab. 2009; 94: 709-728Crossref PubMed Scopus (704) Google Scholar First, persistent hypoglycemia most often results from a congenital or genetic defect in regulating secretion of insulin, deficiency of cortisol and/or growth hormone, or defects in the metabolism of glucose, glycogen, and fatty acids. Second, it may be difficult to identify and distinguish newborn infants with a persistent hypoglycemia disorder from those with transitional low glucose levels in the initial 48 hours of life, as detailed in the separate document on transitional neonatal hypoglycemia prepared by our committee.3Stanley C.A. Rozance P.J. Thornton P.S. De Leon D.D. Harris D. Haymond M.W. et al.Re-evaluating “transitional neonatal hypoglycemia”: mechanism and implications for management.J Pediatr. 2015; 166: 1520-1525Abstract Full Text Full Text PDF PubMed Scopus (128) Google Scholar Third, the first few months of life are the most vulnerable period for developmental disability, which occurs in ∼25%-50% of children with congenital hyperinsulinism. Early recognition and treatment are crucial for preventing these sequelae.8Menni F. de Lonlay P. Sevin C. Touati G. Peigne C. Barbier V. et al.Neurologic outcomes of 90 neonates and infants with persistent hyperinsulinemic hypoglycemia.Pediatrics. 2001; 107: 476-479Crossref PubMed Scopus (271) Google Scholar, 9Steinkrauss L. Lipman T.H. Hendell C.D. Gerdes M. Thornton P.S. Stanley C.A. Effects of hypoglycemia on developmental outcome in children with congenital hyperinsulinism.J Pediatr Nurs. 2005; 20: 109-118Abstract Full Text Full Text PDF PubMed Scopus (71) Google Scholar, 10Meissner T. Wendel U. Burgard P. Schaetzle S. Mayatepek E. Long-term follow-up of 114 patients with congenital hyperinsulinism.Eur J Endocrinol. 2003; 149: 43-51Crossref PubMed Scopus (157) Google ScholarTo address these deficiencies, the Pediatric Endocrine Society convened an expert panel of pediatric endocrinologists and neonatologists to develop guidelines for managing hypoglycemia in neonates, infants, and children, but excluding children with diabetes. The goals of these guidelines are to help physicians recognize persistent hypoglycemia disorders, guide their expeditious diagnosis and effective treatment, and prevent brain damage in at-risk babies.MethodsEvidence Retrieval and RatingThe committee searched for existing evidence synthesis reports, systematic reviews, and meta-analyses. The committee also evaluated guidelines published by the Endocrine Society, American Academy of Pediatrics, Canadian Pediatric Society, and others, and reviewed their bibliographies.4Canadian Paediatric SocietyScreening guidelines for newborns at risk for low blood glucose.Paediatr Child Health. 2004; 9: 723-740PubMed Google Scholar, 5Adamkin D.H. Postnatal glucose homeostasis in late-preterm and term infants.Pediatrics. 2011; 127: 575-579Crossref PubMed Scopus (424) Google Scholar, 6Wight N. Marinelli K.A. ABM clinical protocol 1: guidelines for glucose monitoring and treatment of hypoglycemia in breastfed neonates.Breastfeed Med. 2006; 1: 178-184Crossref PubMed Scopus (27) Google Scholar, 7Cryer P.E. Axelrod L. Grossman A.B. Heller S.R. Montori V.M. Seaquist E.R. et al.Evaluation and management of adult hypoglycemic disorders: an Endocrine Society clinical practice guideline.J Clin Endocrinol Metab. 2009; 94: 709-728Crossref PubMed Scopus (704) Google Scholar Committee members identified additional individual studies.The committee adopted the framework of the Grading of Recommendations Assessment, Development, and Evaluation (GRADE) Working Group,11Atkins D. Best D. Briss P.A. Eccles M. Falck-Ytter Y. Flottorp S. et al.Grading quality of evidence and strength of recommendations.BMJ. 2004; 328: 1490Crossref PubMed Google Scholar in which guideline developers rate their confidence in the evidence as very low (+000), low (++00), moderate (+++0), or high (++++). Randomized trials start as high, and observational studies start as low.11Atkins D. Best D. Briss P.A. Eccles M. Falck-Ytter Y. Flottorp S. et al.Grading quality of evidence and strength of recommendations.BMJ. 2004; 328: 1490Crossref PubMed Google ScholarGrading the Strength of RecommendationsThe guideline developers considered the quality of the evidence. They also considered the balance between benefits and harms, patients' values and preferences, cost and resource utilization, and other societal and contextual factors, such as availability of technology and health services and implementation barriers. The recommendations according to the GRADE framework are either strong (GRADE 1), stated as “we recommend,” or weak (GRADE 2), stated as “we suggest.”Section 1: Which Neonates, Infants, and Children to Evaluate for Hypoglycemia1.1For children who are able to communicate their symptoms, we recommend evaluation and management only of those in whom Whipple's triad (see below) is documented. GRADE 1++++.1.2For infants and younger children who are unable to reliably communicate symptoms, we suggest evaluation and management only of those whose PG concentrations are documented by laboratory quality assays to be below the normal threshold for neurogenic responses (<60 mg/dL [3.3 mmol/L]). GRADE 2+++0.1.3For those neonates who are suspected to be at high risk of having a persistent hypoglycemia disorder, we suggest evaluation when the infant is ≥48 hours of age so that the period of transitional glucose regulation has passed and persistent hypoglycemia may be excluded before discharge home. GRADE 2++00.Clinical Definition of HypoglycemiaClinical hypoglycemia is defined as a PG concentration low enough to cause symptoms and/or signs of impaired brain function.7Cryer P.E. Axelrod L. Grossman A.B. Heller S.R. Montori V.M. Seaquist E.R. et al.Evaluation and management of adult hypoglycemic disorders: an Endocrine Society clinical practice guideline.J Clin Endocrinol Metab. 2009; 94: 709-728Crossref PubMed Scopus (704) Google Scholar Hypoglycemia may be difficult to recognize because the signs and symptoms are nonspecific, and a single low PG concentration may be an artifact. For these reasons, guidelines in adults emphasize the value of Whipple's triad for confirming hypoglycemia: symptoms and/or signs consistent with hypoglycemia, a documented low PG concentration, and relief of signs/symptoms when PG concentration is restored to normal. Young infants and children often cannot dependably recognize and/or communicate their symptoms, however; therefore, recognition of hypoglycemia may require confirmation by repeated measurements of PG concentration and formal testing. Nevertheless, suspected hypoglycemia should be treated promptly to avoid potential adverse consequences.Hypoglycemia cannot be defined as a specific PG concentration, because: (1) thresholds for specific brain responses to hypoglycemia occur across a range of PG concentrations, and these thresholds can be altered by the presence of alternative fuels, such as ketones, and by recent antecedent hypoglycemia; (2) it is not possible to identify a single PG value that causes brain injury, and the extent of injury is influenced by other factors, such as duration and degree of hypoglycemia; and (3) potential artifacts and technical factors that lead to inaccuracies in glucose determination may complicate the interpretation of any single PG value.Symptoms of HypoglycemiaThe symptoms of hypoglycemia reflect responses of the brain to glucose deprivation and have been well delineated in adults.12Cryer P.E. Hypoglycemia in diabetes: Pathophysiology, prevalence, and prevention.2nd ed. American Diabetes Association, Alexandria (VA)2013Google Scholar Neurogenic (autonomic) symptoms result from the perception of physiological changes caused by the sympathetic nervous discharge triggered by hypoglycemia; these include adrenergic responses (eg, palpitations, tremor, anxiety) and cholinergic responses (eg, sweating, hunger, paresthesias). Neuroglycopenic signs and symptoms, including confusion, coma, and seizures, are caused by brain dysfunction resulting from a deficient glucose supply to sustain brain energy metabolism. Awareness of hypoglycemia depends chiefly on perception of the central and peripheral effects of neurogenic (as opposed to neuroglycopenic) responses to hypoglycemia. Brain glucose utilization becomes limited at a PG concentration of approximately 55-65 mg/dL (3.0-3.6 mmol/L).12Cryer P.E. Hypoglycemia in diabetes: Pathophysiology, prevalence, and prevention.2nd ed. American Diabetes Association, Alexandria (VA)2013Google Scholar Neurogenic symptoms are perceived at a PG concentration <55 mg/dL (<3.0 mmol/L), which in older children and adults triggers a search for food or assistance, an important defense against hypoglycemia. Cognitive function is impaired (neuroglycopenia) at a PG concentration <50 mg/dL (<2.8 mmol/L).Glucose UtilizationThe adult brain accounts for more than one-half of total glucose consumption. Because of their disproportionately larger brain size relative to body mass, infants and young children have a 2- to 3-fold higher glucose utilization rate (4-6 mg/kg/min) per kilogram of body weight compared with adults.13Bier D.M. Leake R.D. Haymond M.W. Arnold K.J. Gruenke L.D. Sperling M.A. et al.Measurement of “true” glucose production rates in infancy and childhood with 6,6-dideuteroglucose.Diabetes. 1977; 26: 1016-1023Crossref PubMed Google Scholar Although the brain has an obligate requirement for glucose, it also can use plasma ketones and lactate as energy sources if the concentrations of these substances are sufficiently elevated.14Veneman T. Mitrakou A. Mokan M. Cryer P. Gerich J. Effect of hyperketonemia and hyperlacticacidemia on symptoms, cognitive dysfunction, and counterregulatory hormone responses during hypoglycemia in normal humans.Diabetes. 1994; 43: 1311-1317Crossref PubMed Scopus (142) Google Scholar However, in hypoketotic conditions, such as hyperinsulinism or fatty acid oxidation disorders, ketones and lactate are not available in sufficiently high concentrations to substitute for glucose, and the risk of brain energy failure is greater.Neuroendocrine Defenses against HypoglycemiaIn normal individuals, the maintenance of normal PG concentrations is highly protected. The first defense is suppression of insulin secretion when PG concentration falls below the normal postabsorptive mean of ∼85 mg/dL (4.9 mmol/L).15Cryer P.E. Hypoglycemia, functional brain failure, and brain death.J Clin Invest. 2007; 117: 868-870Crossref PubMed Scopus (223) Google Scholar A further reduction of PG to 65-70 mg/dL (3.6-3.9 mmol/L) elicits glucagon secretion and activation of the sympathoadrenal system (reflected by increased epinephrine concentration), which increases glucose release from liver glycogen stores to raise the PG concentration. At a PG concentration <65 mg/dL (3.6 mmol/L), levels of plasma cortisol and growth hormone, important for maintenance of glucose during prolonged fasting, increase as well. Because the brain has only a few minutes worth of stored fuel reserves in the form of glycogen,12Cryer P.E. Hypoglycemia in diabetes: Pathophysiology, prevalence, and prevention.2nd ed. American Diabetes Association, Alexandria (VA)2013Google Scholar interruption of glucose delivery can have devastating consequences. Whereas recovery from brief periods of hypoglycemia is usually complete, severe and prolonged hypoglycemia can cause permanent brain injury.8Menni F. de Lonlay P. Sevin C. Touati G. Peigne C. Barbier V. et al.Neurologic outcomes of 90 neonates and infants with persistent hyperinsulinemic hypoglycemia.Pediatrics. 2001; 107: 476-479Crossref PubMed Scopus (271) Google Scholar, 9Steinkrauss L. Lipman T.H. Hendell C.D. Gerdes M. Thornton P.S. Stanley C.A. Effects of hypoglycemia on developmental outcome in children with congenital hyperinsulinism.J Pediatr Nurs. 2005; 20: 109-118Abstract Full Text Full Text PDF PubMed Scopus (71) Google Scholar, 10Meissner T. Wendel U. Burgard P. Schaetzle S. Mayatepek E. Long-term follow-up of 114 patients with congenital hyperinsulinism.Eur J Endocrinol. 2003; 149: 43-51Crossref PubMed Scopus (157) Google Scholar, 16Koivisto M. Blanco-Sequeiros M. Krause U. Neonatal symptomatic and asymptomatic hypoglycaemia: a follow-up study of 151 children.Dev Med Child Neurol. 1972; 14: 603-614Crossref PubMed Scopus (124) Google ScholarMetabolic Defenses against HypoglycemiaIn the postabsorptive phase, the liver supplies the brain and other tissues with glucose by releasing glucose from the breakdown of stored glycogen and by gluconeogenesis, principally from gluconeogenic amino acids, such as alanine, and recycled lactate. With longer fasting and further suppression of insulin secretion, glucose utilization is restricted to the brain and a few glycolytic tissues, such as erythrocytes. Adipose tissue lipolysis releases glycerol, a gluconeogenic substrate, and free fatty acids (FFAs) that can replace glucose as an energy substrate in skeletal and heart muscle, but not in brain. FFAs are also converted by the liver to beta-hydroxybutyrate (BOHB) and acetoacetate for use by the brain. BOHB is the predominant ketoacid, and its plasma level serves as a measure of ketogenesis. As ketoacid concentrations rise, they can partly support the brain's energy needs. The changes in fuel metabolism during fasting in normal neonates after 2-3 days of age and in infants and children do not differ substantially from those in adults, except that PG concentrations decrease more rapidly and hyperketonemia develops sooner, because of the energy needs of their relatively larger brains.17Chaussain J.L. Georges P. Calzada L. Job J.C. Glycemic response to 24-hour fast in normal children, III: influence of age.J Pediatr. 1977; 91: 711-714Abstract Full Text PDF PubMed Scopus (47) Google Scholar Measurement of BOHB, FFA, and lactate at the time of hypoglycemia provides important information for diagnosing the cause of hypoglycemia (Figure).Altered Hypoglycemia AwarenessPrevious exposure to an episode of hypoglycemia can blunt, and repeated episodes can eliminate, neurogenic responses to subsequent hypoglycemic episodes.18Cryer P.E. Diverse causes of hypoglycemia-associated autonomic failure in diabetes.N Engl J Med. 2004; 350: 2272-2279Crossref PubMed Scopus (314) Google Scholar This leads to reduced or absent awareness of hypoglycemia and impairs hepatic glucose release, perpetuating hypoglycemia. This combination of events has been termed hypoglycemia-associated autonomic failure (HAAF).18Cryer P.E. Diverse causes of hypoglycemia-associated autonomic failure in diabetes.N Engl J Med. 2004; 350: 2272-2279Crossref PubMed Scopus (314) Google Scholar HAAF can persist for >24 hours after a single episode of hypoglycemia or even longer after repeated episodes of hypoglycemia. A similar impairment in neuroendocrine responses to hypoglycemia also occurs during sleep and exercise.18Cryer P.E. Diverse causes of hypoglycemia-associated autonomic failure in diabetes.N Engl J Med. 2004; 350: 2272-2279Crossref PubMed Scopus (314) Google Scholar Thus, exposure to recurrent hypoglycemia can shift the usual glucose threshold for recognition of neurogenic symptoms of 55 mg/dL (3.0 mmol/L) to a lower level. Although previous exposure to hypoglycemia lowers the glucose threshold for neurogenic responses, the threshold for neuroglycopenic symptoms is not altered acutely; whether adaptation occurs with repeated exposure to hypoglycemia is unknown. Features of HAAF have been demonstrated in infants as young as age 10-13 weeks.19Hussain K. Bryan J. Christesen H.T. Brusgaard K. Aguilar-Bryan L. Serum glucagon counterregulatory hormonal response to hypoglycemia is blunted in congenital hyperinsulinism.Diabetes. 2005; 54: 2946-2951Crossref PubMed Scopus (49) Google ScholarPotential Artifacts in Measurements of PG ConcentrationTo diagnose hypoglycemia, PG concentration should be measured using a clinical laboratory method.12Cryer P.E. Hypoglycemia in diabetes: Pathophysiology, prevalence, and prevention.2nd ed. American Diabetes Association, Alexandria (VA)2013Google Scholar Important considerations are that whole blood glucose values are ∼15% lower than PG concentrations, and that because of red cell glycolysis, delays in processing and assaying glucose can reduce the glucose concentration by up to 6 mg/dL/hour (0.3 mmol/L/hour). Point-of-care meters provide a convenient screening method for detecting hypoglycemia, but their accuracy is limited to approximately ±10-15 mg/dL (0.6-0.8 mmol/L) in the range of hypoglycemia. Therefore, before establishing a diagnosis of hypoglycemia in neonates, infants, and children, it is essential to confirm low PG concentration using a clinical laboratory method.Normal PG Concentrations in Neonates Aged >48 Hours, Infants, and ChildrenAfter the first 48 hours of life, PG concentration and the physiology of glucose homeostasis do not differ to any great extent with age. Mean PG concentration in the postabsorptive state in normal neonates after ∼2 days of age and in infants and children does not differ from that in adults (70-100 mg/dL [3.9-5.5 mmol/L])17Chaussain J.L. Georges P. Calzada L. Job J.C. Glycemic response to 24-hour fast in normal children, III: influence of age.J Pediatr. 1977; 91: 711-714Abstract Full Text PDF PubMed Scopus (47) Google Scholar, 20Bonnefont J.P. Specola N.B. Vassault A. Lombes A. Ogier H. de Klerk J.B. et al.The fasting test in paediatrics: application to the diagnosis of pathological hypo- and hyperketotic states.Eur J Pediatr. 1990; 150: 80-85Crossref PubMed Scopus (119) Google Scholar, 21van Veen M.R. van Hasselt P.M. de Sain-van der Velden M.G. Verhoeven N. Hofstede F.C. de Koning T.J. et al.Metabolic profiles in children during fasting.Pediatrics. 2011; 127: e1021-e1027Crossref PubMed Scopus (55) Google Scholar; however, children under age 4 years may have a PG concentration <70 mg/dL (3.9 mmol/L) and hyperketonemia after overnight fasting because of limited fasting tolerance.17Chaussain J.L. Georges P. Calzada L. Job J.C. Glycemic response to 24-hour fast in normal children, III: influence of age.J Pediatr. 1977; 91: 711-714Abstract Full Text PDF PubMed Scopus (47) Google Scholar, 20Bonnefont J.P. Specola N.B. Vassault A. Lombes A. Ogier H. de Klerk J.B. et al.The fasting test in paediatrics: application to the diagnosis of pathological hypo- and hyperketotic states.Eur J Pediatr. 1990; 150: 80-85Crossref PubMed Scopus (119) Google Scholar, 21van Veen M.R. van Hasselt P.M. de Sain-van der Velden M.G. Verhoeven N. Hofstede F.C. de Koning T.J. et al.Metabolic profiles in children during fasting.Pediatrics. 2011; 127: e1021-e1027Crossref PubMed Scopus (55) Google Scholar Other evidence that the normal PG concentration in children does not differ from that in adults include the following: (1) fasting hyperketonemia develops at a similar PG concentration in infants, children, and adults21van Veen M.R. van Hasselt P.M. de Sain-van der Velden M.G. Verhoeven N. Hofstede F.C. de Koning T.J. et al.Metabolic profiles in children during fasting.Pediatrics. 2011; 127: e1021-e1027Crossref PubMed Scopus (55) Google Scholar, 22Saudubray J.M. Marsac C. Limal J.M. Dumurgier E. Charpentier C. Ogier H. et al.Variation in plasma ketone bodies during a 24-hour fast in normal and in hypoglycemic children: relationship to age.J Pediatr. 1981; 98: 904-908Abstract Full Text PDF PubMed Scopus (45) Google Scholar (hyperketonemia does not occur during transitional neonatal hypoglycemia in normal newborns in the first 1-2 days of life3Stanley C.A. Rozance P.J. Thornton P.S. De Leon D.D. Harris D. Haymond M.W. et al.Re-evaluating “transitional neonatal hypoglycemia”: mechanism and implications for management.J Pediatr. 2015; 166: 1520-1525Abstract Full Text Full Text PDF PubMed Scopus (128) Google Scholar); (2) plasma lactate rises as PG falls below ∼70 mg/dL (∼3.9 mmol/L) in children with glucose-6-phosphatase deficiency23Wolfsdorf J.I. Plotkin R.A. Laffel L.M. Crigler Jr., J.F. Continuous glucose for treatment of patients with type 1 glycogen-storage disease: comparison of the effects of dextrose and uncooked cornstarch on biochemical variables.Am J Clin Nutr. 1990; 52: Google Scholar; and (3) and are in patients with defects of fatty acid oxidation when PG to mg/dL Concentrations in Neonates Aged normal newborn infants, PG concentration after to levels below those in older infants and The interpretation and response to PG concentration during the first days of life have been Jr., R.D. and needs for and neonatal hypoglycemia: from the of Child and Pediatr. 2009; Full Text Full Text PDF PubMed Scopus Google Scholar the brain of newborn infants has or to hypoglycemic injury is as M. of the brain to hypoglycemia J Endocrinol Metab. 2005; PubMed Scopus Google Scholar, brain 2001; Full Text PDF PubMed Scopus (124) Google Scholar As C.A. Rozance P.J. Thornton P.S. De Leon D.D. Harris D. Haymond M.W. et al.Re-evaluating “transitional neonatal hypoglycemia”: mechanism and implications for management.J Pediatr. 2015; 166: 1520-1525Abstract Full Text Full Text PDF PubMed Scopus (128) Google Scholar the of available on transitional neonatal hypoglycemia in normal newborns hypoglycemia with responses to glucagon or epinephrine that it is a and form of hyperinsulinism in which the mean PG threshold for suppression of insulin secretion is mg/dL (3.0-3.6 mmol/L) after compared with mg/dL mmol/L) in older infants, children, and As the glucose secretion mechanism mean PG concentration in normal newborns increases and by hours of age is similar to those in older infants and M. Reisner S.H. Blood glucose in the neonate and its clinical significance.N Engl J Med. 1965; 273: 378-381Crossref PubMed Scopus (116) Google Scholar, 2Srinivasan G. Pildes R.S. Cattamanchi G. Voora S. Lilien L.D. Plasma glucose values in normal neonates: a new look.J Pediatr. 1986; 109: 114-117Abstract Full Text PDF PubMed Scopus (225) Google Scholar; therefore, the for normal neonates be beyond 2-3 days after Because of the in a suspected persistent hypoglycemia disorder from transitional neonatal glucose concentrations during the first 48 hours of life, we suggest 2-3 days after Aged >48 at for Hypoglycemia neonates can be identified by clinical as at high risk for severe hypoglycemia during the first 48 hours after M. Blanco-Sequeiros M. Krause U. Neonatal symptomatic and asymptomatic hypoglycaemia: a follow-up study of 151 children.Dev Med Child Neurol. 1972; 14: 603-614Crossref PubMed Scopus (124) Google Scholar, brain 2001; Full Text PDF PubMed Scopus (124) Google Scholar and a of those neonates are also at increased risk for persistent hypoglycemia beyond 48 hours of life in and infants with PubMed Scopus Google Scholar, D. V. D.M. et in for 1990; PubMed Scopus Google Scholar, A. A. to infants at risk of hypoglycemia before Pediatr. Full Text Full Text PDF PubMed Scopus Google Scholar, Thornton P.S. L. R.A. Stanley C.A. and insulin regulation in infants with a of prolonged neonatal hyperinsulinism.J Pediatr. 2006; Full Text Full Text PDF PubMed Scopus Google Scholar include not only the infants with genetic hypoglycemia disorders, such as congenital hyperinsulinism or K. hypoglycaemia: genetic diagnosis and management.J Clin Pediatr Endocrinol. PubMed Scopus Google Scholar but also those with relatively more prolonged neonatal hyperinsulinism to as with intrauterine growth or in and infants with PubMed Scopus Google Scholar, D. V. D.M. et in for 1990; PubMed Scopus Google Scholar, Thornton P.S. L. R.A. Stanley C.A. and insulin regulation in infants with a of prolonged neonatal hyperinsulinism.J Pediatr. 2006; Full Text Full Text PDF PubMed Scopus Google and managing neonates at increased risk for a persistent hypoglycemia at increased risk of hypoglycemia and require glucose of for age delivery for or growth for or of of a genetic form of (eg, (eg, in whom to persistent hypoglycemia before hypoglycemia (eg, episode of symptomatic hypoglycemia or for dextrose to to PG concentration mg/dL up to 48 hours of age and mg/dL after 48 hours of of a genetic form of (eg, (eg, in a new provide a guide and in the of evidence in the committee a to the technical neonates with a risk of a genetic or other persistent form of",
+      "journal": "The Journal of pediatrics",
+      "year": "2015",
+      "publication_types": [
+        "research-article",
+        "Practice Guideline",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T09:36:04.006807Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T09:36:04.006807Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "4b91e7d92a77680bc76b49242de4b65431c6e20247b6d5add596f3f247d21d79",
+        "1f54c68d76197167a4c59f888586438ed222eacc331aeddee115db62eb7df6ee",
+        "2812d098d44726f2b1553aec51671707904629286184ff97f61d082675a5fcd3"
+      ]
+    },
+    "pmid:29431872": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "29431872",
+        "doi": "10.1002/14651858.cd004210.pub5"
+      },
+      "title": "Interventions to prevent hypothermia at birth in preterm and/or low birth weight infants",
+      "abstract": "<h4>Background</h4>Newborn admission temperature is a strong predictor of outcomes across all gestations. Hypothermia immediately after birth remains a worldwide issue and, if prolonged, is associated with harm. Keeping preterm infants warm is difficult even when recommended routine thermal care guidelines are followed in the delivery room.<h4>Objectives</h4>To assess the efficacy and safety of interventions designed for prevention of hypothermia in preterm and/or low birth weight infants applied within 10 minutes after birth in the delivery room, compared with routine thermal care or any other single/combination of intervention(s) also designed for prevention of hypothermia in preterm and/or low birth weight infants applied within 10 minutes after birth in the delivery room.<h4>Search methods</h4>We used the standard search strategy of Cochrane Neonatal to search the Cochrane Central Register of Controlled Trials (CENTRAL; 2016, Issue 5), MEDLINE via PubMed (1966 to 30 June 2016), Embase (1980 to 30 June 2016), and CINAHL (1982 to 30 June 2016). We also searched clinical trials databases, conference proceedings, and reference lists of retrieved articles for randomised controlled trials and quasi-randomised trials.<h4>Selection criteria</h4>Trials using randomised or quasi-randomised allocations to test interventions designed to prevent hypothermia (apart from 'routine' thermal care) applied within 10 minutes after birth in the delivery room for infants at < 37 weeks' gestation and/or birth weight ≤ 2500 grams.<h4>Data collection and analysis</h4>We used Cochrane Neonatal methods when performing data collection and analysis.<h4>Main results</h4>Twenty-five studies across 15 comparison groups met the inclusion criteria, categorised as: barriers to heat loss (18 studies); external heat sources (three studies); and combinations of interventions (four studies).Barriers to heat loss Plastic wrap or bag versus routine carePlastic wraps improved core body temperature on admission to the neonatal intensive care unit (NICU) or up to two hours after birth (mean difference (MD) 0.58°C, 95% confidence interval (CI) 0.50 to 0.66; 13 studies; 1633 infants), and fewer infants had hypothermia on admission to the NICU or up to two hours after birth (typical risk ratio (RR) 0.67, 95% CI 0.62 to 0.72; typical risk reduction (RD) -0.25, 95% CI -0.29 to -0.20; number needed to treat for an additional beneficial outcome (NNTB) 4, 95% CI 4 to 5; 10 studies; 1417 infants). Risk of hyperthermia on admission to the NICU or up to two hours after birth was increased in infants in the wrapped group (typical RR 3.91, 95% CI 2.05 to 7.44; typical RD 0.04, 95% CI 0.02 to 0.06; number needed to treat for an additional harmful outcome (NNTH) 25, 95% CI 17 to 50; 12 studies; 1523 infants), but overall, fewer infants receiving plastic wrap were outside the normothermic range (typical RR 0.75, 95% CI 0.69 to 0.81; typical RD -0.20, 95% CI -0.26 to -0.15; NNTH 5, 95% CI 4 to 7; five studies; 1048 infants).Evidence was insufficient to suggest that plastic wraps or bags significantly reduce risk of death during hospital stay or other major morbidities, with the exception of reducing risk of pulmonary haemorrhage.Evidence of practices regarding permutations on this general approach is still emerging and has been based on the findings of only one or two small studies.External heat sourcesEvidence is emerging on the efficacy of external heat sources, including skin-to-skin care (SSC) versus routine care (one study; 31 infants) and thermal mattress versus routine care (two studies; 126 infants).SSC was shown to be effective in reducing risk of hypothermia when compared with conventional incubator care for infants with birth weight ≥ 1200 and ≤ 2199 grams (RR 0.09, 95% CI 0.01 to 0.64; RD -0.56, 95% CI -0.84 to -0.27; NNTB 2, 95% CI 1 to 4). Thermal (transwarmer) mattress significantly kept infants ≤ 1500 grams warmer (MD 0.65°C, 95% CI 0.36 to 0.94) and reduced the incidence of hypothermia on admission to the NICU, with no significant difference in hyperthermia risk.Combinations of interventionsTwo studies (77 infants) compared thermal mattresses versus plastic wraps or bags for infants at ≤ 28 weeks' gestation. Investigators reported no significant differences in core body temperature nor in the incidence of hypothermia, hyperthermia, or core body temperature outside the normothermic range on admission to the NICU.Two additional studies (119 infants) compared plastic bags and thermal mattresses versus plastic bags alone for infants at < 31 weeks' gestation. Meta-analysis of these two studies showed improvement in core body temperature on admission to the NICU or up to two hours after birth, but an increase in hyperthermia. Data show no significant difference in the risk of having a core body temperature outside the normothermic range on admission to the NICU nor in the risk of other reported morbidities.<h4>Authors' conclusions</h4>Evidence of moderate quality shows that use of plastic wraps or bags compared with routine care led to higher temperatures on admission to NICUs with less hypothermia, particularly for extremely preterm infants. Thermal mattresses and SSC also reduced hypothermia risk when compared with routine care, but findings are based on two or fewer small studies. Caution must be taken to avoid iatrogenic hyperthermia, particularly when multiple interventions are used simultaneously. Limited evidence suggests benefit and no evidence of harm for most short-term morbidity outcomes known to be associated with hypothermia, including major brain injury, bronchopulmonary dysplasia, retinopathy of prematurity, necrotising enterocolitis, and nosocomial infection. Many observational studies have shown increased mortality among preterm hypothermic infants compared with those who maintain normothermia, yet evidence is insufficient to suggest that these interventions reduce risk of in-hospital mortality across all comparison groups. Hypothermia may be a marker for illness and poorer outcomes by association rather than by causality. Limitations of this review include small numbers of identified studies; small sample sizes; and variations in methods and definitions used for hypothermia, hyperthermia, normothermia, routine care, and morbidity, along with lack of power to detect effects on morbidity and mortality across most comparison groups. Future studies should: be adequately powered to detect rarer outcomes; apply standardised morbidity definitions; focus on longer-term outcomes, particularly neurodevelopmental outcomes.",
+      "journal": "The Cochrane database of systematic reviews",
+      "year": "2018",
+      "publication_types": [
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T09:36:04.006807Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T09:36:04.006807Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "4492fe38b0e9d048dd11ef1615c50d659c329d78d63a49d4af759e9f566d0e2a",
+        "82d8ffa7b0f0d435c86a5f3ec0351b290cf730957358d8f194be2e19697bfa66",
+        "89a8c7816f7b7932df8c2860205f573c0406587ebe685e9d7e58b8d56616239f"
+      ]
+    },
+    "pmid:25844990": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "25844990",
+        "doi": "10.1001/jamapediatrics.2015.0277"
+      },
+      "title": "Association between admission temperature and mortality and major morbidity in preterm infants born at fewer than 33 weeks' gestation",
+      "abstract": "<h4>Importance</h4>Neonatal hypothermia has been associated with higher mortality and morbidity; therefore, thermal control following delivery is an essential part of neonatal care. Identifying the ideal body temperature in preterm neonates in the first few hours of life may be helpful to reduce the risk for adverse outcomes.<h4>Objectives</h4>To examine the association between admission temperature and neonatal outcomes and estimate the admission temperature associated with lowest rates of adverse outcomes in preterm infants born at fewer than 33 weeks' gestation.<h4>Design, setting, and participants</h4>Retrospective observational study at 29 neonatal intensive care units in the Canadian Neonatal Network. Participants included 9833 inborn infants born at fewer than 33 weeks' gestation who were admitted between January 1, 2010, and December 31, 2012.<h4>Exposure</h4>Axillary or rectal body temperature recorded at admission.<h4>Main outcomes and measures</h4>The primary outcome was a composite adverse outcome defined as mortality or any of the following: severe neurological injury, severe retinopathy of prematurity, necrotizing enterocolitis, bronchopulmonary dysplasia, or nosocomial infection. The relationships between admission temperature and the composite outcome as well as between admission temperature and the components of the composite outcome were evaluated using multivariable analyses.<h4>Results</h4>Admission temperatures of the 9833 neonates were distributed as follows: lower than 34.5°C (1%); 34.5°C to 34.9°C (1%); 35.0°C to 35.4°C (3%); 35.5°C to 35.9°C (7%); 36.0°C to 36.4°C (24%); 36.5°C to 36.9°C (38%); 37.0°C to 37.4°C (19%); 37.5°C to 37.9°C (5%); and 38.0°C or higher (2%). After adjustment for maternal and infant characteristics, the rates of the composite outcome, severe neurological injury, severe retinopathy of prematurity, necrotizing enterocolitis, bronchopulmonary dysplasia, and nosocomial infection had a U-shaped relationship with admission temperature (α > 0 [P < .05]). The admission temperature at which the rate of the composite outcome was lowest was 36.8°C (95% CI, 36.7°C-37.0°C). Rates of severe neurological injury, severe retinopathy of prematurity, necrotizing enterocolitis (95% CI, 36.3°C-36.7°C), bronchopulmonary dysplasia, and nosocomial infection (95% CI, 36.9°C-37.3°C) were lowest at admission temperatures ranging from 36.5°C to 37.2°C.<h4>Conclusions and relevance</h4>The relationship between admission temperature and adverse neonatal outcomes was U-shaped. The lowest rates of adverse outcomes were associated with admission temperatures between 36.5°C and 37.2°C.",
+      "journal": "JAMA pediatrics",
+      "year": "2015",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article",
+        "Observational Study"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T09:36:04.006807Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T09:36:04.006807Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "ccd682dfdc39916139c27417bcf4758269dde7047cc0eab9d7903d49cbb3da43",
+        "f4fb766e3a4f23945f0749a9a63b5c2056041ef1ae8a56f0a9f1c95573578cf3",
+        "221f33bc2f9d4b3a89527b5c72e14107607173f2637da162f7497a0c33401393"
+      ]
+    },
+    "pmid:29246358": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "29246358",
+        "doi": "10.1016/j.jpeds.2017.09.021"
+      },
+      "title": "Admission Temperature and Associated Mortality and Morbidity among Moderately and Extremely Preterm Infants",
+      "abstract": "<h4>Objective</h4>To evaluate the temperature distribution among moderately preterm (MPT, 29-33 weeks) and extremely preterm (EPT, <29 weeks) infants upon neonatal intensive care unit (NICU) admission in 2012-2013, the change in admission temperature distribution for EPT infants between 2002-2003 and 2012-2013, and associations between admission temperature and mortality and morbidity for both MPT and EPT infants.<h4>Study design</h4>Prospectively collected data from 18 centers in the Eunice Kennedy Shriver National Institute of Child Health and Human Development Neonatal Research Network were used to examine NICU admission temperature of inborn MPT and EPT infants. Associations between admission temperature and mortality and morbidity were determined by multivariable logistic regression. EPT infants from 2002-2003 and 2012-2013 were compared.<h4>Results</h4>MPT and EPT cohorts consisted of 5818 and 3213 infants, respectively. The distribution of admission temperatures differed between the MPT vs EPT (P < .01), including the percentage <36.5°C (38.6% vs 40.9%), 36.5°C-37.5°C (57.3% vs 52.9%), and >37.5°C (4.2% vs 6.2%). For EPT infants in 2012-2013 compared with 2002-2003, the percentage of temperatures between 36.5°C and 37.5°C more than doubled and the percentage of temperatures >37.5°C more than tripled. Admission temperature was inversely associated with in-hospital mortality.<h4>Conclusions</h4>Low and high admission temperatures are more frequent among EPT than MPT infants. Compared with a decade earlier, fewer EPT infants experience low admission temperatures but more have elevated temperatures. In spite of a change in distribution of NICU admission temperature, an inverse association between temperature and mortality risk persists.",
+      "journal": "The Journal of pediatrics",
+      "year": "2018",
+      "publication_types": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T09:36:04.006807Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T09:36:04.006807Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "bd73865547471ddab2a37450622c4ed0dff06183af3785f418e65328938d76f0",
+        "a81c1bebf1e02dde3a9fcfd4f107598f57e9d5f58107ca141da558825624cdfa",
+        "d5675496ffe6364a219829f759edb080f3fd60b6de85337e3ec00458c2bcc4b5"
+      ]
+    }
+  },
+  "content_hash": "d354493ce44564184963c7a7b46f82bb27ed019d0d343e4f47125a386a98bda4"
+}
