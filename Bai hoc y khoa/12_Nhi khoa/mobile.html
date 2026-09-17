@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="PedViewer">
+  <meta name="theme-color" content="#000000">
+  <meta name="mobile-web-app-capable" content="yes">
   <title>PedViewer Mobile · Sách & Bài Học Nhi Khoa</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -360,10 +365,13 @@
     <div class="p-3 border-t border-white/10 bg-black/30 text-[11px] space-y-2">
       <div class="flex items-center justify-between">
         <button onclick="openDataModal()" class="text-cyan-400 hover:text-cyan-300 flex items-center gap-1 font-semibold">
-          <span>🔄</span> Nạp / Đổi dữ liệu
+          <span>🔄</span> Nạp dữ liệu
         </button>
+        <a href="app.html" onclick="localStorage.setItem('ped_viewer_target','desktop')" class="text-slate-400 hover:text-slate-200 flex items-center gap-1 font-semibold">
+          <span>💻</span> Bản Desktop
+        </a>
         <a href="checklist.html" class="text-amber-400 hover:text-amber-300 flex items-center gap-1 font-semibold">
-          <span>📋</span> Sổ tay Checklist
+          <span>📋</span> Checklist
         </a>
       </div>
       <div class="text-center text-[10px] text-slate-500">
