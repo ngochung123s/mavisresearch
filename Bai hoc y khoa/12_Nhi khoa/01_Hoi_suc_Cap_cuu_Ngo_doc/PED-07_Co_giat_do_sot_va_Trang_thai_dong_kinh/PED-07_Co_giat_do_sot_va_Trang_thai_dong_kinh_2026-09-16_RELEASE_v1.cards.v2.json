@@ -1,182 +1,1322 @@
 [
   {
+    "id": "PED07-001",
     "type": "cloze",
-    "text": "Theo AAP, co giật do sốt được định nghĩa là biến cố co giật xảy ra ở trẻ em trong độ tuổi từ {{c1::6 đến 60 tháng}}, có kèm theo sốt thân nhiệt ≥ {{c1::38.0°C}} mà không có bằng chứng nhiễm trùng thần kinh trung ương hay rối loạn chuyển hóa.",
-    "extra": "Cơ chế: Ở lứa tuổi 6 đến 60 tháng, não bộ chưa trưởng thành có ngưỡng kích thích thấp do hệ thống ức chế GABA chưa phát triển hoàn chỉnh."
+    "text": "Theo AAP, độ tuổi xác định co giật do sốt ở trẻ em là từ {{c1::6 đến 60 tháng tuổi}}.",
+    "extra": "Cơ chế: Não bộ chưa trưởng thành trong độ tuổi này có ngưỡng kích thích thấp do hệ thống ức chế GABA chưa hoàn thiện.",
+    "tags": [
+      "PED-07",
+      "Dinh-nghia",
+      "Do-tuoi"
+    ]
   },
   {
+    "id": "PED07-002",
     "type": "cloze",
-    "text": "Co giật do sốt đơn thuần (Simple FS) có tính chất co cứng - co giật {{c1::toàn thể, đối xứng hai bên}}, thời gian kéo dài dưới {{c1::15 phút}} và chỉ xuất hiện {{c1::1 cơn duy nhất}} trong vòng 24 giờ.",
-    "extra": "Cơ chế: Co giật do sốt đơn thuần chiếm 70% đến 75% các trường hợp, hoàn toàn lành tính và không để lại di chứng thần kinh."
+    "text": "Ngưỡng thân nhiệt tối thiểu để xác định co giật do sốt theo tiêu chuẩn AAP là từ {{c1::≥ 38.0°C}}.",
+    "extra": "Cơn co giật xảy ra liên quan đến nhiệt độ tăng cao nhưng không có bằng chứng nhiễm trùng thần kinh trung ương.",
+    "tags": [
+      "PED-07",
+      "Dinh-nghia",
+      "Nguong-nhiet-do"
+    ]
   },
   {
+    "id": "PED07-003",
     "type": "cloze",
-    "text": "Co giật do sốt phức tạp (Complex FS) được xác định khi có ít nhất một trong ba đặc điểm: cơn giật {{c1::cục bộ một bên}}, thời gian kéo dài từ {{c1::15 phút trở lên}}, hoặc xuất hiện từ {{c1::2 cơn trở lên}} trong vòng 24 giờ.",
-    "extra": "Cơ chế: Co giật do sốt phức tạp chiếm khoảng 20% đến 25% các trường hợp và làm tăng nhẹ nguy cơ tiến triển thành động kinh sau này."
+    "text": "Co giật do sốt bắt buộc phải loại trừ hai nguyên nhân hàng đầu là nhiễm trùng thần kinh trung ương và {{c1::rối loạn chuyển hóa cấp tính}}.",
+    "extra": "Các rối loạn chuyển hóa như hạ đường huyết, hạ canxi hay hạ natri máu phải được phát hiện và xử trí tức thì.",
+    "tags": [
+      "PED-07",
+      "Dinh-nghia",
+      "Loai-tru"
+    ]
   },
   {
+    "id": "PED07-004",
     "type": "cloze",
-    "text": "Trạng thái động kinh do sốt (Febrile Status Epilepticus - FSE) là tình trạng co giật liên tục hoặc nhiều cơn co giật ngắt quãng không hồi phục tri giác kéo dài từ {{c1::30 phút trở lên}}.",
-    "extra": "Cơ chế: FSE chiếm khoảng 5% các ca co giật do sốt và có thể gây tổn thương phù nề tế bào thần kinh vùng hồi hải mã."
+    "text": "Trẻ được chẩn đoán co giật do sốt bắt buộc phải có tiền sử {{c1::chưa từng co giật không sốt}} trước đó.",
+    "extra": "Nếu trẻ từng có cơn co giật không sốt thì được xếp vào nhóm động kinh có cơn giật khởi phát do sốt.",
+    "tags": [
+      "PED-07",
+      "Dinh-nghia",
+      "Tien-su"
+    ]
   },
   {
+    "id": "PED07-005",
     "type": "cloze",
-    "text": "Hội chứng Dravet khởi phát bằng co giật do sốt sớm trước 1 tuổi thường do đột biến gen {{c1::SCN1A}} mã hóa kênh Natri NaV1.1, và chống chỉ định tuyệt đối các thuốc {{c1::chẹn kênh Natri (Carbamazepine, Phenytoin)}}.",
-    "extra": "Cơ chế: Thuốc chẹn kênh Natri làm giảm chức năng của các interneuron ức chế GABAergic vốn đã bị khiếm khuyết, làm cơn co giật bùng phát dữ dội hơn."
+    "text": "Tỷ lệ co giật do sốt đơn thuần (Simple FS) chiếm khoảng {{c1::70% đến 80%}} tổng số các ca co giật do sốt ở trẻ em.",
+    "extra": "Đây là thể lành tính nhất với tiên lượng phát triển tinh thần - vận động hoàn toàn bình thường.",
+    "tags": [
+      "PED-07",
+      "Phan-loai",
+      "Ty-le-FS-don-thuan"
+    ]
   },
   {
+    "id": "PED07-006",
     "type": "cloze",
-    "text": "Trong hội chứng GEFS+ (Genetic Epilepsy with Febrile Seizures Plus), bệnh nhi có đặc điểm co giật do sốt tiếp diễn sau {{c1::6 tuổi}} và di truyền theo tính trạng {{c1::trội trên nhiễm sắc thể thường}}.",
-    "extra": "Cơ chế: GEFS+ liên quan đến các đột biến gen kênh ion SCN1A, SCN1B hoặc GABRG2 dẫn đến tăng tính kích thích nơ ron lan tỏa trong gia đình."
+    "text": "Về mặt tính chất cơn, Co giật do sốt đơn thuần có biểu hiện co cứng - co giật {{c1::toàn thể, đối xứng hai bên}}.",
+    "extra": "Không có dấu hiệu thần kinh khu trú trong và sau cơn co giật.",
+    "tags": [
+      "PED-07",
+      "FS-don-thuan",
+      "Tinh-chat-con"
+    ]
   },
   {
+    "id": "PED07-007",
     "type": "cloze",
-    "text": "Hội chứng FIRES là tình trạng trạng thái động kinh bùng phát dữ dội sau một đợt nhiễm trùng sốt thông thường, đáp ứng kém với thuốc chống động kinh quy ước và đòi hỏi điều trị bằng {{c1::điều hòa miễn dịch (Anakinra) và chế độ ăn sinh ceton}}.",
-    "extra": "Cơ chế: FIRES đặc trưng bởi cơn bão viêm thần kinh cấp tính qua thụ thể IL-1 với sự kích hoạt quá mức của tế bào vi mô đệm."
+    "text": "Giới hạn thời gian tối đa của một cơn Co giật do sốt đơn thuần là {{c1::dưới 15 phút}} (thường kết thúc dưới 5 phút).",
+    "extra": "Cơn giật kéo dài trên 15 phút được xếp ngay vào nhóm co giật do sốt phức tạp.",
+    "tags": [
+      "PED-07",
+      "FS-don-thuan",
+      "Thoi-gian-con"
+    ]
   },
   {
+    "id": "PED07-008",
     "type": "cloze",
-    "text": "Khi nhiệt độ tăng cao đột ngột, cytokine gây viêm {{c1::IL-1β}} được giải phóng từ tế bào thần kinh đệm kích thích trực tiếp lên thụ thể {{c1::NMDA}}, làm dòng ion Canxi và Natri tràn vào nội bào gây khử cực màng.",
-    "extra": "Cơ chế: IL-1β làm tăng cường dẫn truyền kích thích Glutamate và ức chế dòng Clorua qua thụ thể GABAA, hạ thấp ngưỡng co giật."
+    "text": "Số lượng cơn tối đa cho phép của Co giật do sốt đơn thuần là chỉ có {{c1::1 cơn duy nhất}} trong vòng 24 giờ.",
+    "extra": "Nếu xuất hiện từ 2 cơn giật trở lên trong cùng một đợt sốt 24 giờ thì là co giật do sốt phức tạp.",
+    "tags": [
+      "PED-07",
+      "FS-don-thuan",
+      "So-luong-con"
+    ]
   },
   {
+    "id": "PED07-009",
     "type": "cloze",
-    "text": "Tình trạng tăng thông khí thở nhanh do sốt cao gây ra {{c1::kiềm hô hấp}}, làm giảm nồng độ {{c1::Canxi ion hóa}} trong dịch kẽ não tủy và làm tăng tính kích thích màng tế bào thần kinh.",
-    "extra": "Cơ chế: Kiềm máu làm tăng gắn kết Canxi với Albumin, làm giảm Canxi tự do ngoại bào vốn đóng vai trò ổn định điện thế màng nơ ron."
+    "text": "Về mặt phục hồi tri giác sau cơn giật đơn thuần, trẻ thường hồi phục hoàn toàn trong vòng {{c1::dưới 1 giờ}}.",
+    "extra": "Thời gian ngủ sau cơn (postictal) ngắn, sau đó trẻ tỉnh táo, giao tiếp và bú bình thường.",
+    "tags": [
+      "PED-07",
+      "FS-don-thuan",
+      "Phuc-hoi-tri-giac"
+    ]
   },
   {
+    "id": "PED07-010",
     "type": "cloze",
-    "text": "Trong chuỗi 5 tầng tổn thương tế bào của trạng thái động kinh, hiện tượng Glutamate tích tụ kích hoạt thụ thể NMDA mở cửa cho ion Canxi tràn vào tế bào thuộc {{c1::Tầng 2 (Độc tính kích thích ngoại bào)}}.",
-    "extra": "Cơ chế: Canxi nội bào tăng vọt ở Tầng 3 sẽ kích hoạt Calpain và Caspase-3 phá hủy màng ty thể, dẫn đến hoại tử thần kinh ở Tầng 4."
+    "text": "Co giật do sốt phức tạp (Complex FS) được xác định khi có ít nhất một đặc điểm là cơn giật mang tính chất {{c1::cục bộ một bên}}.",
+    "extra": "Giật khu trú nửa người hoặc một chi gợi ý có tổn thương cấu trúc não bộ khu trú nền tảng.",
+    "tags": [
+      "PED-07",
+      "FS-phuc-tap",
+      "Giat-cuc-bo"
+    ]
   },
   {
+    "id": "PED07-011",
     "type": "cloze",
-    "text": "Hậu quả lâu dài của trạng thái động kinh kéo dài trên 30 phút ở Tầng 5 là hiện tượng {{c1::mọc chồi sợi rêu bất thường (mossy fiber sprouting)}} tại hồi răng, tạo vòng cung phản xạ kích thích tự động dẫn đến động kinh thùy thái dương.",
-    "extra": "Cơ chế: Sự tái cấu trúc synap kích thích bất thường làm biến đổi cấu trúc mạng lưới thần kinh vĩnh viễn không thể đảo ngược."
+    "text": "Tiêu chuẩn thời gian của Co giật do sốt phức tạp là cơn giật kéo dài {{c1::từ 15 phút trở lên}}.",
+    "extra": "Co giật kéo dài làm tăng nguy cơ thiếu oxy não và tổn thương cấu trúc hồi hải mã.",
+    "tags": [
+      "PED-07",
+      "FS-phuc-tap",
+      "Keo-dai-15-phut"
+    ]
   },
   {
+    "id": "PED07-012",
     "type": "cloze",
-    "text": "Theo Hướng dẫn AAP 2011, chọc dò tủy sống {{c1::không được khuyến cáo thường quy}} ở trẻ co giật do sốt đơn thuần có tổng trạng tốt và đã được {{c1::tiêm chủng đầy đủ vaccine phế cầu và Hib}}.",
-    "extra": "Cơ chế: Tỷ lệ viêm màng não mủ ở trẻ co giật do sốt đơn thuần tỉnh táo hoàn toàn và tiêm chủng đầy đủ là dưới 0.5%."
+    "text": "Tiêu chuẩn tần suất của Co giật do sốt phức tạp là xuất hiện {{c1::từ 2 cơn trở lên}} trong vòng 24 giờ.",
+    "extra": "Tái phát nhiều cơn chứng tỏ ngưỡng co giật của vỏ não bị ức chế kém.",
+    "tags": [
+      "PED-07",
+      "FS-phuc-tap",
+      "Tai-phat-24h"
+    ]
   },
   {
+    "id": "PED07-013",
     "type": "cloze",
-    "text": "Theo AAP 2011, chọc dò tủy sống là một lựa chọn cần cân nhắc khi trẻ từ 6 đến 12 tháng tuổi {{c1::chưa được tiêm chủng phế cầu/Hib đầy đủ}} hoặc {{c1::không thể xác minh lịch sử tiêm chủng}}.",
-    "extra": "Cơ chế: Ở trẻ chưa tiêm vaccine, các dấu hiệu màng não có thể không rõ ràng trong giai đoạn đầu của viêm màng não do phế cầu hoặc Hib."
+    "text": "Hiện tượng yếu liệt nửa người thoáng qua xuất hiện sau cơn co giật do sốt cục bộ được gọi là {{c1::liệt Todd (Todd paresis)}}.",
+    "extra": "Liệt Todd thường tự hồi phục sau vài giờ đến 24 giờ, là bằng chứng của cơn co giật có yếu tố khu trú.",
+    "tags": [
+      "PED-07",
+      "FS-phuc-tap",
+      "Liet-Todd"
+    ]
   },
   {
+    "id": "PED07-014",
     "type": "cloze",
-    "text": "Bốn chỉ định bắt buộc phải chọc dò dịch não tủy không thể trì hoãn gồm: có dấu hiệu màng não, dấu hiệu nhiễm độc li bì, {{c1::đang hoặc đã dùng kháng sinh trước đó}}, và trẻ dưới {{c1::6 tháng tuổi}}.",
-    "extra": "Cơ chế: Kháng sinh trước đó có thể làm lu mờ triệu chứng cổ cứng; trẻ dưới 6 tháng tuổi co giật có sốt có nguy cơ viêm màng não rất cao."
+    "text": "Trạng thái động kinh do sốt (FSE) được định nghĩa khi cơn co giật liên tục hoặc ngắt quãng không tỉnh kéo dài {{c1::từ 30 phút trở lên}}.",
+    "extra": "FSE chiếm khoảng 5% tổng số các ca co giật do sốt và đòi hỏi hồi sức tích cực khẩn cấp.",
+    "tags": [
+      "PED-07",
+      "FSE",
+      "Moc-30-phut"
+    ]
   },
   {
+    "id": "PED07-015",
     "type": "cloze",
-    "text": "Theo Guideline AAP 2011, điện não đồ (EEG) và chẩn đoán hình ảnh thần kinh (CT/MRI) {{c1::không được khuyến cáo thường quy}} trong đánh giá ban đầu trẻ co giật do sốt đơn thuần.",
-    "extra": "Cơ chế: Bản ghi EEG trong 48 giờ đầu có thể thấy sóng chậm lan tỏa thoáng qua nhưng không có giá trị tiên lượng tái phát hay động kinh tương lai."
+    "text": "Hội chứng Dravet (động kinh giật cơ nặng ở nhũ nhi) thường do đột biến gen {{c1::SCN1A}} mã hóa kênh Natri NaV1.1.",
+    "extra": "Đột biến làm giảm chức năng kênh Natri trên các nơ-ron ức chế GABA, gây kích thích mất kiểm soát.",
+    "tags": [
+      "PED-07",
+      "Hoi-chung-Dravet",
+      "Gen-SCN1A"
+    ]
   },
   {
+    "id": "PED07-016",
     "type": "cloze",
-    "text": "Trong phác đồ cấp cứu trạng thái động kinh của Hội Động kinh Hoa Kỳ (AES 2016), mốc T1 là {{c1::5 phút}} (thời điểm bắt đầu can thiệp thuốc cắt cơn) và mốc T2 là {{c1::30 phút}} (thời điểm tổn thương nơ ron không hồi phục bắt đầu xuất hiện).",
-    "extra": "Cơ chế: Sau 5 phút, cơ chế tự chấm dứt cơn giật của não thất bại; sau 30 phút, tổn thương tế bào não do cạn kiệt ATP và độc tính Canxi bắt đầu xảy ra."
+    "text": "Cơn co giật khởi phát trong Hội chứng Dravet thường xuất hiện rất sớm ở độ tuổi {{c1::dưới 12 tháng tuổi}}.",
+    "extra": "Khởi đầu bằng các cơn giật nửa người kéo dài liên quan đến sốt nhẹ hoặc sau tiêm chủng.",
+    "tags": [
+      "PED-07",
+      "Hoi-chung-Dravet",
+      "Khoi-phat-som"
+    ]
   },
   {
+    "id": "PED07-017",
     "type": "cloze",
-    "text": "Trong 5 phút đầu cấp cứu co giật (Phút 0 - 5), ưu tiên hàng đầu là hỗ trợ hô hấp ABCDE và thử nhanh {{c1::đường huyết mao mạch tại giường}}, nếu Glucose < 2.6 mmol/L tiêm tĩnh mạch Glucose 10% liều {{c1::2 mL/kg}}.",
-    "extra": "Cơ chế: Hạ đường huyết làm tăng tính kích thích tế bào não và làm nặng thêm tổn thương nơ ron do thiếu hụt năng lượng."
+    "text": "Nhóm thuốc chống động kinh bị CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI trong Hội chứng Dravet là {{c1::thuốc chẹn kênh Natri}} (Carbamazepine, Phenytoin).",
+    "extra": "Cơ chế: Chẹn thêm kênh Natri sẽ làm tê liệt nốt các nơ-ron ức chế GABA còn lại, khiến cơn co giật bùng phát dữ dội.",
+    "tags": [
+      "PED-07",
+      "Hoi-chung-Dravet",
+      "Chong-chi-dinh"
+    ]
   },
   {
+    "id": "PED07-018",
     "type": "cloze",
-    "text": "Thuốc cắt cơn bước 1 lựa chọn hàng đầu ngoài bệnh viện khi chưa có đường truyền tĩnh mạch là {{c1::Midazolam tiêm bắp (IM)}} với liều lượng {{c1::0.2 mg/kg}} (tối đa 10 mg cho trẻ > 40 kg).",
-    "extra": "Cơ chế: Thử nghiệm RAMPART (NEJM 2012) chứng minh Midazolam IM cắt cơn nhanh hơn và tỷ lệ thành công cao hơn Lorazepam IV do không mất thời gian lấy ven."
+    "text": "Thuốc chống động kinh được lựa chọn ưu tiên hàng đầu cho bệnh nhi Hội chứng Dravet là {{c1::Clobazam hoặc Valproate}} (phối hợp Stiripentol).",
+    "extra": "Giúp tăng cường hoạt tính ức chế qua hệ thống GABA mà không ức chế kênh Natri.",
+    "tags": [
+      "PED-07",
+      "Hoi-chung-Dravet",
+      "Thuoc-dau-tay"
+    ]
   },
   {
+    "id": "PED07-019",
     "type": "cloze",
-    "text": "Khi đã có sẵn đường truyền tĩnh mạch, thuốc Benzodiazepine bước 1 ưu tiên lựa chọn là {{c1::Lorazepam IV}} liều {{c1::0.1 mg/kg}} (tối đa 4 mg), tiêm tĩnh mạch chậm trong 1 đến 2 phút.",
-    "extra": "Cơ chế: Lorazepam có ái lực cao với thụ thể GABAA và thể tích phân bố nhỏ, duy trì tác dụng ức chế thần kinh trung ương kéo dài từ 12 đến 24 giờ."
+    "text": "Hội chứng Động kinh di truyền kèm co giật do sốt cộng (GEFS+) có đặc điểm cơn co giật do sốt tiếp tục kéo dài {{c1::sau 6 tuổi}}.",
+    "extra": "Bệnh có tính chất di truyền trội trên nhiễm sắc thể thường với nhiều thành viên trong gia đình cùng mắc.",
+    "tags": [
+      "PED-07",
+      "GEFS+",
+      "Sau-6-tuoi"
+    ]
   },
   {
+    "id": "PED07-020",
     "type": "cloze",
-    "text": "Nếu dùng Diazepam đường tĩnh mạch để cắt cơn, liều khuyến cáo là {{c1::0.2 mg/kg}} (tối đa 10 mg) và tốc độ tiêm không được vượt quá {{c1::2 mg/phút}}.",
-    "extra": "Cơ chế: Tiêm Diazepam quá nhanh có thể gây ngừng thở đột ngột, co thắt thanh quản và tụt huyết áp do dung môi propylene glycol."
+    "text": "Hội chứng Động kinh liên quan nhiễm trùng có sốt (FIRES) đặc trưng bởi trạng thái động kinh bùng phát dữ dội sau một đợt {{c1::sốt nhiễm siêu vi thông thường}}.",
+    "extra": "Cơ chế qua trung gian bão cytokine viêm thần kinh bùng phát và đáp ứng rất kém với thuốc chống động kinh thông thường.",
+    "tags": [
+      "PED-07",
+      "FIRES",
+      "Bao-cytokine"
+    ]
   },
   {
+    "id": "PED07-021",
     "type": "cloze",
-    "text": "Trong xử trí bước 1 trạng thái động kinh, số liều Benzodiazepine tối đa được phép dùng trước khi chuyển sang thuốc bước 2 là {{c1::2 liều}}.",
-    "extra": "Cơ chế: Dùng từ 3 liều Benzodiazepine trở lên làm tăng vọt nguy cơ suy hô hấp, ngừng thở và tụt huyết áp mà không làm tăng tỷ lệ cắt cơn giật."
+    "text": "Ở não bộ chưa trưởng thành, chất dẫn truyền ức chế chính GABA đôi khi lại đóng vai trò {{c1::kích thích khử cực}}.",
+    "extra": "Do nồng độ ion Cl- nội bào ở nơ-ron non nớt cao hơn tế bào trưởng thành (kênh NKCC1 hoạt động mạnh hơn KCC2).",
+    "tags": [
+      "PED-07",
+      "Sinh-ly-benh",
+      "GABA-non-not"
+    ]
   },
   {
+    "id": "PED07-022",
     "type": "cloze",
-    "text": "Theo hướng dẫn AES 2016, ba lựa chọn thuốc chống động kinh bước 2 đường tĩnh mạch cho trạng thái động kinh kháng Benzodiazepine là {{c1::Levetiracetam, Fosphenytoin và Sodium Valproate}}.",
-    "extra": "Cơ chế: Thử nghiệm ESETT (NEJM 2019) chứng minh cả ba loại thuốc này đạt hiệu quả cắt cơn và hồi phục tri giác tương đương nhau (khoảng 45% đến 47%)."
+    "text": "Trong cơn sốt, cytokine tiền viêm nồng độ cao tại não đóng vai trò kích hoạt co giật mạnh nhất là {{c1::Interleukin-1 beta (IL-1β)}}.",
+    "extra": "IL-1β làm tăng giải phóng glutamate và ức chế dòng ức chế qua thụ thể GABA-A.",
+    "tags": [
+      "PED-07",
+      "Sinh-ly-benh",
+      "IL-1-beta"
+    ]
   },
   {
+    "id": "PED07-023",
     "type": "cloze",
-    "text": "Liều khuyến cáo của Levetiracetam (Keppra) truyền tĩnh mạch trong điều trị bước 2 trạng thái động kinh là {{c1::60 mg/kg}} (tối đa 4500 mg), truyền tĩnh mạch trong {{c1::5 đến 10 phút}}.",
-    "extra": "Cơ chế: Levetiracetam rất an toàn về tim mạch, không gây tụt huyết áp hay loạn nhịp, thời gian truyền nhanh vượt trội so với Phenytoin."
+    "text": "Thở nhanh tăng thông khí do sốt cao gây kiềm hô hấp cấp tính, làm dịch chuyển pH não sang kiềm và làm {{c1::tăng tính hưng phấn nơ-ron}}.",
+    "extra": "Kiềm hóa nội môi làm nhạy cảm hóa thụ thể NMDA và kích hoạt kênh ion nhạy cảm pH làm hạ ngưỡng giật.",
+    "tags": [
+      "PED-07",
+      "Sinh-ly-benh",
+      "Kiem-ho-hap"
+    ]
   },
   {
+    "id": "PED07-024",
     "type": "cloze",
-    "text": "Cơ chế phân tử độc đáo của Levetiracetam là gắn chọn lọc vào protein túi synap {{c1::SV2A}}, ức chế giải phóng chất dẫn truyền thần kinh kích thích {{c1::Glutamate}} vào khe synap.",
-    "extra": "Cơ chế: Thuốc thải trừ 66% qua thận dưới dạng nguyên vẹn, không chuyển hóa qua Cytochrome P450 nên không gây tương tác thuốc bất lợi."
+    "text": "Hiện tượng nơ-ron bị kích thích liên tục bởi nồng độ Glutamate ngoại bào cao gây tràn ngập Canxi nội bào được gọi là {{c1::độc tính kích thích (Excitotoxicity)}}.",
+    "extra": "Canxi quá tải kích hoạt protease, endonuclease và phospholipase phá hủy màng tế bào thần kinh.",
+    "tags": [
+      "PED-07",
+      "Sinh-ly-benh",
+      "Excitotoxicity"
+    ]
   },
   {
+    "id": "PED07-025",
     "type": "cloze",
-    "text": "Liều khuyến cáo của Fosphenytoin đường tĩnh mạch là {{c1::20 mg PE/kg}} (tối đa 1500 mg PE), với tốc độ truyền tối đa là {{c1::150 mg PE/phút}}.",
-    "extra": "Cơ chế: Fosphenytoin là tiền chất tan trong nước của Phenytoin, không chứa propylene glycol nên tránh được biến chứng hoại tử mô hội chứng găng tay tím."
+    "text": "Vùng cấu trúc não nhạy cảm nhất với tổn thương thiếu máu - chuyển hóa trong trạng thái động kinh do sốt kéo dài là {{c1::vùng hồi hải mã (Hippocampus)}}.",
+    "extra": "Tế bào hình tháp vùng CA1 và CA3 của hồi hải mã có mật độ thụ thể NMDA cao nhất, dễ bị xơ hóa.",
+    "tags": [
+      "PED-07",
+      "Sinh-ly-benh",
+      "Hoi-hai-ma"
+    ]
   },
   {
+    "id": "PED07-026",
     "type": "cloze",
-    "text": "Khi pha dung dịch Phenytoin truyền tĩnh mạch, dung dịch pha duy nhất được phép sử dụng là {{c1::Natri Clorid 0.9%}}, tuyệt đối không được pha trong {{c1::Glucose}} vì gây kết tủa tinh thể.",
-    "extra": "Cơ chế: Phenytoin chỉ tan ở pH kiềm cao (pH 12), khi gặp môi trường toan của Glucose sẽ kết tủa tinh thể gây tắc mạch và hoại tử mô."
+    "text": "Hậu quả lâu dài của tổn thương hồi hải mã sau trạng thái động kinh do sốt kéo dài là biến chứng {{c1::xơ teo hồi hải mã (MTS)}} gây động kinh thái dương.",
+    "extra": "Mesial Temporal Sclerosis (MTS) là nguyên nhân hàng đầu của động kinh thùy thái dương kháng thuốc cần phẫu thuật.",
+    "tags": [
+      "PED-07",
+      "Sinh-ly-benh",
+      "Xo-teo-hoi-hai-ma"
+    ]
   },
   {
+    "id": "PED07-027",
     "type": "cloze",
-    "text": "Liều khuyến cáo của Sodium Valproate đường tĩnh mạch là {{c1::40 mg/kg}} (tối đa 3000 mg), và thuốc chống chỉ định tuyệt đối khi nghi ngờ {{c1::bệnh lý ty thể (đột biến gen POLG) hoặc suy gan cấp}}.",
-    "extra": "Cơ chế: Valproate gây ức chế chu trình oxy hóa beta acid béo trong ty thể, dẫn đến hoại tử tế bào gan cấp tính tử vong ở trẻ có khiếm khuyết ty thể."
+    "text": "Theo AAP 2011, chọc dò tủy sống là CHỈ ĐỊNH BẮT BUỘC khi trẻ co giật có sốt kèm theo {{c1::dấu hiệu màng não}} (cổ gượng, thóp phồng, Kernig/Brudzinski (+)).",
+    "extra": "Bắt buộc loại trừ viêm màng não mủ tối cấp để tránh chậm trễ kháng sinh cứu mạng.",
+    "tags": [
+      "PED-07",
+      "Chi-dinh-LP",
+      "Dau-hieu-mang-nao"
+    ]
   },
   {
+    "id": "PED07-028",
     "type": "cloze",
-    "text": "Hai thử nghiệm nhi khoa ConSEPT và EcLiPSE (Lancet 2019) chứng minh rằng Levetiracetam {{c1::không vượt trội hơn Phenytoin}} về tỷ lệ cắt cơn, nhưng có ưu thế vượt trội về {{c1::thời gian pha truyền nhanh hơn và an toàn tim mạch cao hơn}}.",
-    "extra": "Cơ chế: Phenytoin cần truyền chậm trong 20 phút và theo dõi điện tim liên tục, trong khi Levetiracetam truyền xong trong 5 đến 10 phút mà không cần monitoring tim mạch phức tạp."
+    "text": "AAP 2011 khuyến cáo NÊN CÂN NHẮC chọc dò dịch não tủy cho trẻ co giật có sốt trong độ tuổi từ {{c1::6 đến 12 tháng tuổi}} nếu chưa tiêm đủ vaccine Hib và Phế cầu.",
+    "extra": "Ở trẻ dưới 12 tháng, triệu chứng màng não kinh điển thường rất kín đáo hoặc không xuất hiện.",
+    "tags": [
+      "PED-07",
+      "Chi-dinh-LP",
+      "Do-tuoi-6-12-thang"
+    ]
   },
   {
+    "id": "PED07-029",
     "type": "cloze",
-    "text": "Theo thử nghiệm ngẫu nhiên của Murata 2018 trên tạp chí Pediatrics, việc đặt hậu môn Acetaminophen liều {{c1::10 mg/kg mỗi 6 giờ}} giúp làm giảm an toàn tỷ lệ tái phát co giật {{c1::trong cùng một đợt sốt (9.1% so với 23.5%)}}.",
-    "extra": "Cơ chế: Mặc dù thuốc hạ sốt không ngăn được cơn co giật trong các đợt bệnh tương lai, việc kiểm soát thân nhiệt ổn định giúp giảm tỷ lệ tái phát ngắn hạn trong 24 giờ đầu."
+    "text": "Chọc dò tủy sống CẦN ĐƯỢC CÂN NHẮC khi trẻ co giật có sốt đã được {{c1::dùng kháng sinh trước đó}}.",
+    "extra": "Kháng sinh trước đó có thể che lấp các triệu chứng lâm sàng kinh điển của viêm màng não (viêm màng não mất đầu).",
+    "tags": [
+      "PED-07",
+      "Chi-dinh-LP",
+      "Tien-su-khang-sinh"
+    ]
   },
   {
+    "id": "PED07-030",
     "type": "cloze",
-    "text": "Theo nghiên cứu đoàn hệ FEBSTAT, khoảng {{c1::11.5%}} trẻ bị trạng thái động kinh do sốt có tổn thương cấp tính ở {{c1::hồi hải mã}} trên phim MRI, tiến triển thành xơ teo hồi hải mã và động kinh thùy thái dương sau này.",
-    "extra": "Cơ chế: Tỷ lệ động kinh sau co giật do sốt đơn thuần chỉ là 1% đến 2%, nhưng sau trạng thái động kinh do sốt (FSE) tỷ lệ này tăng vọt lên 10% đến 15%."
+    "text": "Đối với trẻ co giật do sốt đơn thuần đã tiêm chủng đầy đủ và khám bình thường, AAP 2011 khuyến cáo {{c1::không chọc dò tủy sống}} thường quy.",
+    "extra": "Tỷ lệ viêm màng não ở nhóm này cực thấp (< 0.5%), chọc dò thường quy không mang lại lợi ích và gây đau đớn.",
+    "tags": [
+      "PED-07",
+      "Chi-dinh-LP",
+      "Khong-choc-thuong-quy"
+    ]
   },
   {
+    "id": "PED07-031",
     "type": "cloze",
-    "text": "Hướng dẫn thực hành lâm sàng AAP 2008 khuyến cáo {{c1::KHÔNG điều trị dự phòng thường quy}} bằng thuốc chống động kinh liên tục hoặc ngắt quãng cho trẻ co giật do sốt đơn thuần vì {{c1::tác dụng phụ của thuốc vượt trội hơn hẳn lợi ích}}.",
-    "extra": "Cơ chế: Co giật do sốt đơn thuần hoàn toàn lành tính, không gây tử vong hay tổn thương não, trong khi Phenobarbital và Valproate gây độc gan và suy giảm trí tuệ."
+    "text": "Thời gian theo dõi tri giác tối thiểu trước khi quyết định chọc dò tủy sống ở trẻ sau cơn co giật do sốt là {{c1::2 giờ}}.",
+    "extra": "Sau 2 giờ mà trẻ vẫn còn li bì, bứt rứt không tỉnh táo thì bắt buộc phải chọc dò loại trừ nhiễm trùng TKTW.",
+    "tags": [
+      "PED-07",
+      "Chi-dinh-LP",
+      "Theo-doi-tri-giac"
+    ]
   },
   {
+    "id": "PED07-032",
     "type": "cloze",
-    "text": "Tác dụng không mong muốn nghiêm trọng nhất khiến Phenobarbital bị loại bỏ trong điều trị dự phòng co giật do sốt ở trẻ nhỏ là {{c1::suy giảm nhận thức, giảm chỉ số IQ và rối loạn hành vi kích động}}.",
-    "extra": "Cơ chế: Phenobarbital tác động lên thụ thể GABAA toàn thể trong não đang phát triển, làm ức chế synap kéo dài và cản trở quá trình hình thành đuôi gai nơ ron."
+    "text": "AAP khuyến cáo KHÔNG làm điện não đồ (EEG) thường quy cho trẻ co giật do sốt đơn thuần trong vòng {{c1::48 giờ đầu sau cơn giật}}.",
+    "extra": "Sóng chậm sau cơn (postictal slowing) xuất hiện ở 30% trẻ bình thường, dễ dẫn đến chẩn đoán nhầm động kinh và điều trị sai.",
+    "tags": [
+      "PED-07",
+      "Chi-dinh-EEG",
+      "Khong-lam-thuong-quy"
+    ]
   },
   {
+    "id": "PED07-033",
     "type": "cloze",
-    "text": "Yếu tố dự báo mạnh nhất cho nguy cơ tái phát co giật do sốt ở trẻ nhỏ là {{c1::tuổi khởi phát cơn đầu tiên dưới 12 tháng tuổi}} (nguy cơ tái phát lên tới {{c1::50%}}).",
-    "extra": "Cơ chế: Khởi phát càng sớm chứng tỏ ngưỡng co giật bẩm sinh của não càng thấp, trẻ còn nhiều đợt sốt nhiễm trùng trong các năm tiếp theo."
+    "text": "Điện não đồ (EEG) chỉ được chỉ định khi trẻ bị {{c1::co giật do sốt phức tạp}} nhiều lần hoặc nghi ngờ trạng thái động kinh không co giật.",
+    "extra": "Giúp tầm soát các đợt sóng kịch phát động kinh khu trú hoặc toàn thể tiềm ẩn.",
+    "tags": [
+      "PED-07",
+      "Chi-dinh-EEG",
+      "Chi-dinh-dung"
+    ]
   },
   {
+    "id": "PED07-034",
     "type": "cloze",
-    "text": "Hành vi chèn thìa, đũa hoặc ngón tay vào miệng trẻ đang co giật là bẫy nguy hiểm phổ biến, có thể gây {{c1::gãy răng, chấn thương mô mềm và tắc nghẽn đường thở dẫn đến tử vong do ngạt}}.",
-    "extra": "Cơ chế: Trẻ đang co giật không bao giờ tự cắn đứt lưỡi; hành động chèn vật cứng kích thích phản xạ nôn và đẩy đàm nhớt, răng gãy vào khí quản."
+    "text": "Chụp CT-scan sọ não cấp cứu được chỉ định khi trẻ co giật có kèm dấu hiệu {{c1::tăng áp lực nội sọ cấp}} hoặc chấn thương đầu.",
+    "extra": "Giúp loại trừ tụ máu nội sọ, phù não nặng hoặc khối choán chỗ trước khi quyết định chọc dò tủy sống.",
+    "tags": [
+      "PED-07",
+      "Chan-doan-hinh-anh",
+      "CT-scan-cap-cuu"
+    ]
   },
   {
+    "id": "PED07-035",
     "type": "cloze",
-    "text": "Sau cơn co giật do sốt, trẻ {{c1::hoàn toàn KHÔNG bị chống chỉ định tiêm chủng}} và cần được tiếp tục tiêm phòng đầy đủ tất cả các loại vaccine theo lịch tiêm chủng mở rộng.",
-    "extra": "Cơ chế: Lợi ích bảo vệ của vaccine chống viêm màng não, viêm não, sởi vượt trội hoàn toàn so với nguy cơ co giật do sốt lành tính thoáng qua sau tiêm."
+    "text": "Phương tiện chẩn đoán hình ảnh tối ưu nhất để đánh giá cấu trúc hồi hải mã sau trạng thái động kinh do sốt là {{c1::chụp cộng hưởng từ (MRI)}}.",
+    "extra": "MRI sọ não chuỗi xung T2/FLAIR có độ phân giải mô mềm cao vượt trội so với CT-scan.",
+    "tags": [
+      "PED-07",
+      "Chan-doan-hinh-anh",
+      "MRI-so-nao"
+    ]
   },
   {
+    "id": "PED07-036",
     "type": "cloze",
-    "text": "Thuốc cấp cứu cắt cơn tại nhà có thể kê đơn cho gia đình có tiền sử co giật kéo dài trên 5 phút hoặc ở xa bệnh viện là {{c1::Midazolam ngậm niêm mạc má (Buccal Midazolam)}} hoặc {{c1::Diazepam gel thụt trực tràng (Diastat)}}.",
-    "extra": "Cơ chế: Thuốc hấp thu nhanh chóng qua niêm mạc miệng hoặc trực tràng vào tuần hoàn, giúp cắt cơn giật sớm trước khi chuyển biến thành trạng thái động kinh."
+    "text": "Thời điểm vàng để chụp MRI sọ não đánh giá tổn thương hồi hải mã sau trạng thái động kinh do sốt là từ {{c1::72 giờ đến 2 tuần}} sau cơn giật.",
+    "extra": "Thời điểm này hình ảnh phù nề cấp và tăng tín hiệu T2/FLAIR hiển thị rõ nét nhất trên phim.",
+    "tags": [
+      "PED-07",
+      "Chan-doan-hinh-anh",
+      "Thoi-diem-chup-MRI"
+    ]
+  },
+  {
+    "id": "PED07-037",
+    "type": "cloze",
+    "text": "Theo Hội Động kinh Hoa Kỳ (AES 2016), mốc thời gian T1 trong cơn co giật co cứng - co giật toàn thể được xác định ở {{c1::phút thứ 5}}.",
+    "extra": "Mốc T1 là thời điểm cơn giật ít có khả năng tự chấm dứt tự nhiên và bắt buộc phải bắt đầu dùng thuốc cắt cơn.",
+    "tags": [
+      "PED-07",
+      "AES-2016",
+      "Moc-T1-5-phut"
+    ]
+  },
+  {
+    "id": "PED07-038",
+    "type": "cloze",
+    "text": "Theo AES 2016, mốc thời gian T2 trong trạng thái động kinh co giật toàn thể được xác định ở {{c1::phút thứ 30}}.",
+    "extra": "Mốc T2 là thời điểm bắt đầu xảy ra tổn thương nơ-ron không hồi phục và tử vong tế bào não.",
+    "tags": [
+      "PED-07",
+      "AES-2016",
+      "Moc-T2-30-phut"
+    ]
+  },
+  {
+    "id": "PED07-039",
+    "type": "cloze",
+    "text": "Trong 5 phút đầu tiếp cận trẻ co giật (Phút 0–5), tư thế nằm bắt buộc để bảo vệ đường thở là {{c1::tư thế nằm nghiêng an toàn}} (nghiêng bên trái).",
+    "extra": "Giúp lưỡi không tụt ra sau chèn ép đường thở và các chất tiết đờm dãi tự chảy ra ngoài chống hít sặc.",
+    "tags": [
+      "PED-07",
+      "Cap-cuu-0-5p",
+      "Tu-the-nam-nghieng"
+    ]
+  },
+  {
+    "id": "PED07-040",
+    "type": "cloze",
+    "text": "Liệu pháp oxy cấp cứu ban đầu cho trẻ đang co giật là thở oxy lưu lượng cao qua {{c1::mặt nạ có túi dự trữ}} với lưu lượng 10–15 L/phút.",
+    "extra": "Bù đắp nhu cầu tiêu thụ oxy tăng vọt gấp 3–4 lần của mô não trong cơn co giật.",
+    "tags": [
+      "PED-07",
+      "Cap-cuu-0-5p",
+      "Tho-oxy-mask-tui"
+    ]
+  },
+  {
+    "id": "PED07-041",
+    "type": "cloze",
+    "text": "Xét nghiệm chuyển hóa tối khẩn bắt buộc phải làm tại giường trong 5 phút đầu là {{c1::đo đường huyết mao mạch}}.",
+    "extra": "Hạ đường huyết là nguyên nhân co giật có thể điều trị khỏi ngay lập tức bằng tiêm bolus Glucose 10% 2 mL/kg.",
+    "tags": [
+      "PED-07",
+      "Cap-cuu-0-5p",
+      "Duong-huyet-mao-mach"
+    ]
+  },
+  {
+    "id": "PED07-042",
+    "type": "cloze",
+    "text": "Khi chưa thiết lập được đường truyền tĩnh mạch ở phút 5–20, thuốc cắt cơn bước 1 lựa chọn đầu tay là {{c1::Midazolam tiêm bắp (IM)}}.",
+    "extra": "Midazolam tan trong nước ở dạng ống tiêm, hấp thu qua cơ bắp cực nhanh tương đương đường tĩnh mạch.",
+    "tags": [
+      "PED-07",
+      "Buoc-1-cat-con",
+      "Midazolam-IM"
+    ]
+  },
+  {
+    "id": "PED07-043",
+    "type": "cloze",
+    "text": "Liều lượng Midazolam tiêm bắp (IM) khuyến cáo theo phác đồ AES 2016 cho trẻ em là {{c1::0.2 mg/kg}} (liều tối đa 10 mg).",
+    "extra": "Hiệu quả cắt cơn đạt được trong vòng 3 đến 5 phút sau khi tiêm bắp đùi mặt ngoài.",
+    "tags": [
+      "PED-07",
+      "Buoc-1-cat-con",
+      "Lieu-Midazolam-IM"
+    ]
+  },
+  {
+    "id": "PED07-044",
+    "type": "cloze",
+    "text": "Liều lượng Midazolam dùng đường ngậm niêm mạc má (buccal) hoặc xịt mũi (IN) cho trẻ là {{c1::0.2 mg/kg}} (tối đa 10 mg).",
+    "extra": "Hấp thu trực tiếp qua đám rối tĩnh mạch niêm mạc miệng/mũi vào vòng tuần hoàn mà không qua chuyển hóa gan lần đầu.",
+    "tags": [
+      "PED-07",
+      "Buoc-1-cat-con",
+      "Midazolam-buccal"
+    ]
+  },
+  {
+    "id": "PED07-045",
+    "type": "cloze",
+    "text": "Nếu đã có sẵn đường truyền tĩnh mạch, thuốc Benzodiazepine tĩnh mạch được AES 2016 xếp hàng đầu là {{c1::Lorazepam tĩnh mạch}} với liều 0.1 mg/kg.",
+    "extra": "Lorazepam có ái lực cao với thụ thể GABA-A và ít tan trong mỡ hơn Diazepam nên duy trì tác dụng chống co giật kéo dài 12–24h.",
+    "tags": [
+      "PED-07",
+      "Buoc-1-cat-con",
+      "Lorazepam-IV"
+    ]
+  },
+  {
+    "id": "PED07-046",
+    "type": "cloze",
+    "text": "Liều lượng Diazepam đường tĩnh mạch (IV) cấp cứu cắt cơn là {{c1::0.2 mg/kg}} (tối đa 10 mg), tiêm chậm không quá 2 mg/phút.",
+    "extra": "Diazepam tan trong mỡ rất cao nên vào não nhanh nhưng cũng phân bố lại vào mô mỡ nhanh, dễ tái co giật sau 20 phút.",
+    "tags": [
+      "PED-07",
+      "Buoc-1-cat-con",
+      "Diazepam-IV"
+    ]
+  },
+  {
+    "id": "PED07-047",
+    "type": "cloze",
+    "text": "Liều lượng Diazepam thụt trực tràng (gel bơm hậu môn) tại nhà hoặc ngoài viện là {{c1::0.2 đến 0.5 mg/kg}} (tối đa 20 mg).",
+    "extra": "Là phương tiện cấp cứu tại nhà kinh điển (Diastat) khi cha mẹ được tập huấn từ trước.",
+    "tags": [
+      "PED-07",
+      "Buoc-1-cat-con",
+      "Diazepam-thut-truc-trang"
+    ]
+  },
+  {
+    "id": "PED07-048",
+    "type": "cloze",
+    "text": "Số liều Benzodiazepine tác dụng ngắn tối đa được phép dùng trong cấp cứu cắt cơn bước 1 là {{c1::không quá 2 liều}}.",
+    "extra": "Tiêm từ 3 liều trở lên làm tăng vọt biến chứng ức chế hô hấp, ngừng thở và tụt huyết áp mà không tăng tỷ lệ cắt cơn.",
+    "tags": [
+      "PED-07",
+      "Buoc-1-cat-con",
+      "Toi-da-2-lieu"
+    ]
+  },
+  {
+    "id": "PED07-049",
+    "type": "cloze",
+    "text": "Thuốc chống co giật bước 2 được ưu tiên hàng đầu ở trẻ em hiện nay nhờ tính an toàn tim mạch vượt trội là {{c1::Levetiracetam (Keppra)}}.",
+    "extra": "Không gây ức chế hô hấp hay tụt huyết áp, không cần theo dõi điện tim liên tục khi truyền.",
+    "tags": [
+      "PED-07",
+      "Buoc-2-AED",
+      "Levetiracetam-dau-tay"
+    ]
+  },
+  {
+    "id": "PED07-050",
+    "type": "cloze",
+    "text": "Liều nạp tĩnh mạch của Levetiracetam (Keppra) trong trạng thái động kinh bước 2 là {{c1::60 mg/kg}} (tối đa 4500 mg).",
+    "extra": "Thuốc được pha trong NaCl 0.9% hoặc Glucose 5% và truyền tĩnh mạch nhanh trong 5 đến 10 phút.",
+    "tags": [
+      "PED-07",
+      "Buoc-2-AED",
+      "Lieu-Levetiracetam"
+    ]
+  },
+  {
+    "id": "PED07-051",
+    "type": "cloze",
+    "text": "Cơ chế phân tử độc đáo của Levetiracetam là gắn chọn lọc vào {{c1::protein túi synap 2A (SV2A)}}.",
+    "extra": "Ức chế giải phóng các bóng chứa chất dẫn truyền thần kinh kích thích Glutamate vào khe synap.",
+    "tags": [
+      "PED-07",
+      "Buoc-2-AED",
+      "Co-che-SV2A"
+    ]
+  },
+  {
+    "id": "PED07-052",
+    "type": "cloze",
+    "text": "Liều nạp tĩnh mạch của Fosphenytoin trong cấp cứu trạng thái động kinh bước 2 là {{c1::20 mg PE/kg}} (tối đa 1500 mg PE).",
+    "extra": "Fosphenytoin là tiền chất tan hoàn toàn trong nước, có thể truyền tĩnh mạch với tốc độ nhanh lên đến 150 mg PE/phút.",
+    "tags": [
+      "PED-07",
+      "Buoc-2-AED",
+      "Lieu-Fosphenytoin"
+    ]
+  },
+  {
+    "id": "PED07-053",
+    "type": "cloze",
+    "text": "Ưu điểm vượt trội của Fosphenytoin so với Phenytoin truyền thống là {{c1::không chứa Propylene glycol}}.",
+    "extra": "Propylene glycol trong Phenytoin truyền thống là dung môi gây tụt huyết áp nặng và loạn nhịp tim.",
+    "tags": [
+      "PED-07",
+      "Buoc-2-AED",
+      "Fosphenytoin-uu-diem"
+    ]
+  },
+  {
+    "id": "PED07-054",
+    "type": "cloze",
+    "text": "Khi sử dụng Phenytoin truyền thống, dung dịch dịch truyền BẮT BUỘC duy nhất được dùng để pha thuốc là {{c1::Natri Clorid 0.9%}}.",
+    "extra": "Pha Phenytoin vào dung dịch Glucose/Dextrose sẽ gây kết tủa tinh thể thuốc ngay lập tức trong dây truyền.",
+    "tags": [
+      "PED-07",
+      "Buoc-2-AED",
+      "Pha-Phenytoin-NaCl"
+    ]
+  },
+  {
+    "id": "PED07-055",
+    "type": "cloze",
+    "text": "Tốc độ truyền tĩnh mạch tối đa cho phép của Phenytoin truyền thống ở trẻ em là {{c1::không quá 1 mg/kg/phút}} (tối đa 50 mg/phút).",
+    "extra": "Truyền nhanh hơn sẽ gây trụy tim mạch, bloc nhĩ thất và vô tâm thu.",
+    "tags": [
+      "PED-07",
+      "Buoc-2-AED",
+      "Toc-do-truyen-Phenytoin"
+    ]
+  },
+  {
+    "id": "PED07-056",
+    "type": "cloze",
+    "text": "Biến chứng viêm tắc mạch hoại tử mô do thuốc Phenytoin thoát mạch được gọi là {{c1::hội chứng găng tay tím}} (Purple Glove Syndrome).",
+    "extra": "Do tính kiềm cao (pH 12) của dung dịch thuốc gây co thắt và huyết khối vi mạch chi.",
+    "tags": [
+      "PED-07",
+      "Buoc-2-AED",
+      "Purple-Glove-Syndrome"
+    ]
+  },
+  {
+    "id": "PED07-057",
+    "type": "cloze",
+    "text": "Liều nạp tĩnh mạch của Sodium Valproate (Depakine) trong trạng thái động kinh bước 2 là {{c1::40 mg/kg}} (tối đa 3000 mg).",
+    "extra": "Truyền tĩnh mạch trong 5 đến 10 phút, có hiệu quả cao trong co giật toàn thể và co giật giật cơ.",
+    "tags": [
+      "PED-07",
+      "Buoc-2-AED",
+      "Lieu-Valproate"
+    ]
+  },
+  {
+    "id": "PED07-058",
+    "type": "cloze",
+    "text": "Sodium Valproate bị chống chỉ định thận trọng ở trẻ dưới 2 tuổi nghi ngờ mắc {{c1::bệnh ty thể (đột biến POLG)}} hoặc suy gan.",
+    "extra": "Valproate có thể gây suy gan cấp hoại tử bùng phát đe dọa tính mạng ở bệnh nhân bệnh ty thể.",
+    "tags": [
+      "PED-07",
+      "Buoc-2-AED",
+      "Valproate-chong-chi-dinh"
+    ]
+  },
+  {
+    "id": "PED07-059",
+    "type": "cloze",
+    "text": "Trạng thái động kinh kháng trị (RSE) được xác định khi cơn giật tiếp diễn sau Benzodiazepine và {{c1::một thuốc bước 2}} đầy đủ liều.",
+    "extra": "Bệnh nhân bước vào giai đoạn nguy cơ cao tổn thương não, cần can thiệp gây mê hồi sức tại PICU.",
+    "tags": [
+      "PED-07",
+      "Buoc-3-RSE",
+      "Dinh-nghia-RSE"
+    ]
+  },
+  {
+    "id": "PED07-060",
+    "type": "cloze",
+    "text": "Can thiệp đường thở bắt buộc phải thực hiện ngay khi bệnh nhân bước vào giai đoạn trạng thái động kinh kháng trị là {{c1::đặt ống nội khí quản}} thở máy.",
+    "extra": "Bảo vệ đường thở tuyệt đối trước khi sử dụng các thuốc gây mê truyền liên tục liều cao.",
+    "tags": [
+      "PED-07",
+      "Buoc-3-RSE",
+      "Dat-noi-khi-quan"
+    ]
+  },
+  {
+    "id": "PED07-061",
+    "type": "cloze",
+    "text": "Thuốc gây mê truyền tĩnh mạch liên tục được ưu tiên hàng đầu trong điều trị RSE ở trẻ em là {{c1::Midazolam truyền liên tục}}.",
+    "extra": "Liều nạp 0.2 mg/kg, sau đó duy trì 0.05 đến 2.0 mg/kg/giờ điều chỉnh theo đáp ứng lâm sàng.",
+    "tags": [
+      "PED-07",
+      "Buoc-3-RSE",
+      "Midazolam-truyen-lien-tuc"
+    ]
+  },
+  {
+    "id": "PED07-062",
+    "type": "cloze",
+    "text": "Thuốc gây mê bị CHỐNG CHỈ ĐỊNH truyền tĩnh mạch liên tục kéo dài ở trẻ nhỏ do nguy cơ PRIS là {{c1::Propofol}}.",
+    "extra": "Hội chứng truyền Propofol (PRIS) gây toan chuyển hóa kháng trị, tiêu cơ vân, suy tim và tử vong.",
+    "tags": [
+      "PED-07",
+      "Buoc-3-RSE",
+      "Chong-chi-dinh-Propofol"
+    ]
+  },
+  {
+    "id": "PED07-063",
+    "type": "cloze",
+    "text": "Thuốc gây mê đối kháng thụ thể NMDA đường truyền tĩnh mạch thường được phối hợp trong RSE kháng trị là {{c1::Ketamine}}.",
+    "extra": "Ketamine ức chế thụ thể NMDA vốn đang bị tăng biểu hiện dữ dội trong các cơn co giật kéo dài.",
+    "tags": [
+      "PED-07",
+      "Buoc-3-RSE",
+      "Ketamine-NMDA"
+    ]
+  },
+  {
+    "id": "PED07-064",
+    "type": "cloze",
+    "text": "Mục tiêu điều trị trên điện não đồ liên tục (cEEG) trong hồi sức RSE là đạt được mô hình {{c1::dập tắt - bùng phát (Burst-Suppression)}}.",
+    "extra": "Duy trì mô hình này trong 24 đến 48 giờ trước khi tiến hành giảm dần liều thuốc gây mê.",
+    "tags": [
+      "PED-07",
+      "Buoc-3-RSE",
+      "cEEG-Burst-Suppression"
+    ]
+  },
+  {
+    "id": "PED07-065",
+    "type": "cloze",
+    "text": "Thử nghiệm lâm sàng RAMPART (2012) chứng minh Midazolam tiêm bắp có tỷ lệ cắt cơn trước khi đến viện {{c1::vượt trội hơn}} so với Lorazepam tĩnh mạch.",
+    "extra": "Nguyên nhân do không mất thời gian tìm đường truyền ven ngoại biên ngoài bệnh viện (tiết kiệm trung bình 4.8 phút).",
+    "tags": [
+      "PED-07",
+      "RCT",
+      "RAMPART-2012"
+    ]
+  },
+  {
+    "id": "PED07-066",
+    "type": "cloze",
+    "text": "Thử nghiệm ESETT chứng minh tỷ lệ cắt cơn của Levetiracetam, Fosphenytoin và Valproate là {{c1::tương đương nhau (khoảng 46%)}}.",
+    "extra": "Cả ba thuốc đều có hiệu quả và độ an toàn tương đương trong trạng thái động kinh kháng Benzodiazepine.",
+    "tags": [
+      "PED-07",
+      "RCT",
+      "ESETT-2019"
+    ]
+  },
+  {
+    "id": "PED07-067",
+    "type": "cloze",
+    "text": "Hai thử nghiệm ConSEPT và EcLiPSE chứng minh Levetiracetam có hiệu quả tương đương nhưng {{c1::truyền nhanh và an toàn hơn}} Phenytoin.",
+    "extra": "Levetiracetam truyền trong 5 phút so với Phenytoin cần 20–30 phút, giúp giảm gánh nặng thao tác hồi sức.",
+    "tags": [
+      "PED-07",
+      "RCT",
+      "ConSEPT-EcLiPSE"
+    ]
+  },
+  {
+    "id": "PED07-068",
+    "type": "cloze",
+    "text": "Thử nghiệm Murata (2018) chứng minh thuốc hạ sốt Paracetamol đặt hậu môn {{c1::không ngừa được tái phát giật}} trong cùng đợt sốt.",
+    "extra": "Co giật do sốt xảy ra do tốc độ tăng vọt của nhiệt độ và đáp ứng viêm não hơn là giá trị tuyệt đối của thân nhiệt.",
+    "tags": [
+      "PED-07",
+      "RCT",
+      "Murata-2018"
+    ]
+  },
+  {
+    "id": "PED07-069",
+    "type": "cloze",
+    "text": "Nghiên cứu FEBSTAT chứng minh trạng thái động kinh do sốt kéo dài trên 30 phút có tới 10% xuất hiện {{c1::phù nề hồi hải mã}} cấp trên MRI.",
+    "extra": "Tổn thương cấp tính này sau đó tiến triển thành teo xơ hồi hải mã và động kinh cục bộ thùy thái dương.",
+    "tags": [
+      "PED-07",
+      "RCT",
+      "FEBSTAT-2012"
+    ]
+  },
+  {
+    "id": "PED07-070",
+    "type": "cloze",
+    "text": "Tỷ lệ tái phát cơn co giật do sốt chung sau cơn giật đầu tiên trong cuộc đời của trẻ là khoảng {{c1::30% đến 35%}}.",
+    "extra": "Khoảng 1/3 số trẻ sẽ bị ít nhất một cơn co giật do sốt tái phát trong các đợt sốt sau này.",
+    "tags": [
+      "PED-07",
+      "Quan-ly-dai-han",
+      "Ty-le-tai-phat-chung"
+    ]
+  },
+  {
+    "id": "PED07-071",
+    "type": "cloze",
+    "text": "Yếu tố dự báo nguy cơ tái phát co giật do sốt cao nhất (lên đến 50%) là trẻ bị cơn giật đầu tiên ở độ tuổi {{c1::dưới 12 tháng tuổi}}.",
+    "extra": "Tuổi khởi phát càng nhỏ, não bộ càng nhạy cảm và thời gian trẻ còn trong khoảng tuổi nguy cơ (đến 5 tuổi) càng dài.",
+    "tags": [
+      "PED-07",
+      "Quan-ly-dai-han",
+      "Yeu-to-nguy-co-tuoi"
+    ]
+  },
+  {
+    "id": "PED07-072",
+    "type": "cloze",
+    "text": "Trẻ khởi phát co giật ở mức thân nhiệt {{c1::dưới 38.5°C}} có nguy cơ tái phát co giật cao hơn đáng kể.",
+    "extra": "Ngưỡng co giật của não trẻ thấp hơn bình thường nên dễ bị kích hoạt co giật ở các đợt sốt nhẹ sau này.",
+    "tags": [
+      "PED-07",
+      "Quan-ly-dai-han",
+      "Yeu-to-than-nhiet-thap"
+    ]
+  },
+  {
+    "id": "PED07-073",
+    "type": "cloze",
+    "text": "Khoảng cách thời gian từ lúc bắt đầu sốt đến khi xuất hiện cơn giật {{c1::dưới 1 giờ}} là yếu tố nguy cơ làm tăng tỷ lệ tái phát.",
+    "extra": "Phản ánh cơn giật xảy ra ở pha tăng nhiệt độ nhanh và đột ngột của cơ thể.",
+    "tags": [
+      "PED-07",
+      "Quan-ly-dai-han",
+      "Khoang-cach-sot-ngan"
+    ]
+  },
+  {
+    "id": "PED07-074",
+    "type": "cloze",
+    "text": "Nguy cơ phát triển thành bệnh động kinh thực sự sau co giật do sốt đơn thuần là rất thấp, chỉ khoảng {{c1::1% đến 2%}} (gần bằng dân số chung 0.5–1%).",
+    "extra": "Đây là bằng chứng khoa học quan trọng nhất giúp bác sĩ trấn an phụ huynh rằng bệnh hoàn toàn lành tính.",
+    "tags": [
+      "PED-07",
+      "Quan-ly-dai-han",
+      "Nguy-co-dong-kinh-FS"
+    ]
+  },
+  {
+    "id": "PED07-075",
+    "type": "cloze",
+    "text": "Nguy cơ tiến triển thành bệnh động kinh ở trẻ có co giật do sốt phức tạp (có đủ cả 3 yếu tố) tăng cao lên mức {{c1::khoảng 5% đến 10%}}.",
+    "extra": "Cần theo dõi sát sự phát triển tâm thần vận động và làm điện não đồ khi có chỉ định.",
+    "tags": [
+      "PED-07",
+      "Quan-ly-dai-han",
+      "Nguy-co-dong-kinh-phuc-tap"
+    ]
+  },
+  {
+    "id": "PED07-076",
+    "type": "cloze",
+    "text": "AAP 2008 khuyến cáo KHÔNG dùng thuốc chống động kinh liên tục kéo dài để {{c1::dự phòng tái phát co giật}} do sốt đơn thuần.",
+    "extra": "Tác dụng phụ gây suy giảm nhận thức, tăng động và độc gan của thuốc vượt trội hơn nguy cơ lành tính của bệnh.",
+    "tags": [
+      "PED-07",
+      "Quan-ly-dai-han",
+      "Khong-dung-du-phong"
+    ]
+  },
+  {
+    "id": "PED07-077",
+    "type": "cloze",
+    "text": "Tác dụng phụ nguy hiểm nhất khiến Phenobarbital bị loại bỏ trong dự phòng co giật do sốt là làm {{c1::suy giảm chỉ số IQ}} của trẻ.",
+    "extra": "Các thử nghiệm lâm sàng ghi nhận trẻ dùng Phenobarbital kéo dài giảm 7–10 điểm IQ so với nhóm chứng.",
+    "tags": [
+      "PED-07",
+      "Quan-ly-dai-han",
+      "Phenobarbital-giam-IQ"
+    ]
+  },
+  {
+    "id": "PED07-078",
+    "type": "cloze",
+    "text": "Trẻ có tiền sử co giật do sốt được khuyến cáo {{c1::tiếp tục tiêm chủng đầy đủ}} theo lịch phòng bệnh thường quy.",
+    "extra": "Nguy cơ nhiễm trùng nặng khi không tiêm vaccine lớn hơn gấp nhiều lần nguy cơ sốt co giật sau tiêm.",
+    "tags": [
+      "PED-07",
+      "Quan-ly-dai-han",
+      "Tiem-chung-an-toan"
+    ]
+  },
+  {
+    "id": "PED07-079",
+    "type": "cloze",
+    "text": "Thuốc hạ sốt Paracetamol hoặc Ibuprofen được cho uống nhằm mục đích {{c1::giảm khó chịu cho trẻ}} chứ không phòng được co giật.",
+    "extra": "Phụ huynh cần hiểu đúng vai trò của thuốc hạ sốt để tránh tâm lý hoảng loạn ép trẻ uống quá liều gây ngộ độc.",
+    "tags": [
+      "PED-07",
+      "Quan-ly-dai-han",
+      "Vai-tro-thuoc-ha-sot"
+    ]
+  },
+  {
+    "id": "PED07-080",
+    "type": "cloze",
+    "text": "Thuốc cấp cứu cắt cơn tại nhà (Rescue medication) được chỉ định kê đơn cho gia đình mang về khi cơn co giật kéo dài {{c1::trên 5 phút}}.",
+    "extra": "Gồm Midazolam ngậm niêm mạc má (Buccal) hoặc Diazepam gel trực tràng bơm hậu môn.",
+    "tags": [
+      "PED-07",
+      "Quan-ly-dai-han",
+      "Rescue-medication-5p"
+    ]
+  },
+  {
+    "id": "PED07-081",
+    "type": "cloze",
+    "text": "Tip 1: Khi trẻ đang co giật, hành động của người nhà bị CẤM TUYỆT ĐỐI là {{c1::nhét vật cứng vào miệng}} trẻ.",
+    "extra": "Hành vi này làm gãy răng rơi vào khí quản, rách rưới niêm mạc miệng và gây tắc nghẽn đường thở hoàn toàn.",
+    "tags": [
+      "PED-07",
+      "Tips-lam-sang",
+      "Cam-nhet-vat-cung"
+    ]
+  },
+  {
+    "id": "PED07-082",
+    "type": "cloze",
+    "text": "Tip 2: Khi tiếp nhận trẻ đang co giật tại phòng cấp cứu, phản xạ đầu tiên của điều dưỡng là {{c1::bấm giờ chính xác}} thời gian cơn giật.",
+    "extra": "Người nhà trong cơn hoảng loạn thường có xu hướng phóng đại thời gian cơn giật từ 2 phút lên thành 20 phút.",
+    "tags": [
+      "PED-07",
+      "Tips-lam-sang",
+      "Bam-gio-chinh-xac"
+    ]
+  },
+  {
+    "id": "PED07-083",
+    "type": "cloze",
+    "text": "Tip 3: Không bao giờ để việc cố gắng tìm ven ngoại biên làm chậm trễ liều cắt cơn đầu tiên; hãy tiêm ngay {{c1::Midazolam tiêm bắp (IM)}}.",
+    "extra": "Mỗi phút trì hoãn cắt cơn làm thụ thể GABA-A bị thoái giáng và giảm khả năng đáp ứng với thuốc.",
+    "tags": [
+      "PED-07",
+      "Tips-lam-sang",
+      "Khong-cho-lay-ven"
+    ]
+  },
+  {
+    "id": "PED07-084",
+    "type": "cloze",
+    "text": "Tip 4: Tuyệt đối không dùng nước đá lạnh hoặc chườm đá lên người trẻ vì gây {{c1::co mạch ngoại vi đột ngột}} làm giữ nhiệt trung tâm.",
+    "extra": "Lau người hạ sốt chỉ dùng khăn nhúng nước ấm có nhiệt độ thấp hơn thân nhiệt trẻ khoảng 1 đến 2°C.",
+    "tags": [
+      "PED-07",
+      "Tips-lam-sang",
+      "Cam-dung-nuoc-da"
+    ]
+  },
+  {
+    "id": "PED07-085",
+    "type": "cloze",
+    "text": "Tip 5: Liều dùng thuốc hạ sốt Paracetamol chuẩn an toàn cho trẻ co giật có sốt là {{c1::10 đến 15 mg/kg/lần}} mỗi 4–6 giờ (tối đa 60 mg/kg/ngày).",
+    "extra": "Đảm bảo hạ nhiệt độ an toàn mà không gây độc tính hoại tử tế bào gan.",
+    "tags": [
+      "PED-07",
+      "Tips-lam-sang",
+      "Lieu-Paracetamol-chuan"
+    ]
+  },
+  {
+    "id": "PED07-086",
+    "type": "cloze",
+    "text": "Tip 6: Khi pha Phenytoin truyền tĩnh mạch, nếu pha vào dịch chứa đường Glucose thì thuốc sẽ bị {{c1::kết tủa tinh thể ngay}} trong dây truyền.",
+    "extra": "Phenytoin chỉ tan ở môi trường kiềm cao; dịch đường có tính acid yếu làm biến thuốc thành tinh thể bít tắc lòng mạch.",
+    "tags": [
+      "PED-07",
+      "Tips-lam-sang",
+      "Ket-tua-Phenytoin"
+    ]
+  },
+  {
+    "id": "PED07-087",
+    "type": "cloze",
+    "text": "Tip 7: Nếu sau 2 liều Benzodiazepine mà cơn co giật vẫn không dứt, bước tiếp theo là {{c1::chuyển ngay sang thuốc bước 2}} mà không dùng thêm liều Benzodiazepine thứ 3.",
+    "extra": "Dùng liều thứ 3 làm triệt tiêu phản xạ tự thở, khiến trẻ ngừng thở và tụt huyết áp nghiêm trọng.",
+    "tags": [
+      "PED-07",
+      "Tips-lam-sang",
+      "Chuyen-ngay-buoc-2"
+    ]
+  },
+  {
+    "id": "PED07-088",
+    "type": "cloze",
+    "text": "Tip 8: Hướng dẫn người nhà khi trẻ đang co giật là nới rộng quần áo, đặt trẻ nằm nghiêng bên trái và {{c1::quay video ngắn về cơn giật}} nếu an toàn.",
+    "extra": "Đoạn video giúp bác sĩ thần kinh xác định chính xác cơn giật cục bộ hay toàn thể mà lời kể người nhà không tả được.",
+    "tags": [
+      "PED-07",
+      "Tips-lam-sang",
+      "Quay-video-con-giat"
+    ]
+  },
+  {
+    "id": "PED07-089",
+    "type": "cloze",
+    "text": "Tip 9: Không cho trẻ ăn uống bất cứ thứ gì cho đến khi trẻ {{c1::tỉnh táo hoàn toàn}} và phản xạ nuốt hồi phục bình thường.",
+    "extra": "Cho trẻ uống sữa hoặc nước đường khi còn lơ mơ sau cơn giật rất dễ gây sặc vào phổi dẫn đến suy hô hấp cấp.",
+    "tags": [
+      "PED-07",
+      "Tips-lam-sang",
+      "Cam-an-uong-khi-me"
+    ]
+  },
+  {
+    "id": "PED07-090",
+    "type": "cloze",
+    "text": "Tip 10: Nhắc nhở phụ huynh nghiêm cấm các hủ tục dân gian nguy hại như {{c1::vắt chanh vào miệng}} hoặc cạo gió rách da.",
+    "extra": "Acid citric trong chanh gây bỏng rát niêm mạc hầu họng và co thắt thanh quản gây tắc nghẽn đường thở.",
+    "tags": [
+      "PED-07",
+      "Tips-lam-sang",
+      "Cam-vat-chanh"
+    ]
+  },
+  {
+    "id": "PED07-091",
+    "type": "cloze",
+    "text": "Bẫy lâm sàng số 1: Nhầm lẫn co giật do sốt với {{c1::Viêm màng não mủ sớm}} ở trẻ nhũ nhi dưới 12 tháng tuổi.",
+    "extra": "Ở độ tuổi này, thóp phồng và cổ cứng có thể hoàn toàn vắng mặt; chỉ có li bì, bỏ bú và sốt cao.",
+    "tags": [
+      "PED-07",
+      "Safety-box",
+      "Bay-viem-mang-nao"
+    ]
+  },
+  {
+    "id": "PED07-092",
+    "type": "cloze",
+    "text": "Bẫy lâm sàng số 2: Bỏ sót tình trạng {{c1::hạ đường huyết cấp tính}} đi kèm ở trẻ sốt cao co giật.",
+    "extra": "Sốt cao và co giật đốt cháy nguồn dự trữ glycogen cực nhanh; bỏ quên thử đường huyết có thể làm tổn thương não vĩnh viễn.",
+    "tags": [
+      "PED-07",
+      "Safety-box",
+      "Bay-ha-duong-huyet"
+    ]
+  },
+  {
+    "id": "PED07-093",
+    "type": "cloze",
+    "text": "Bẫy lâm sàng số 3: Vội vàng tiêm dồn dập từ 3 đến 4 liều Benzodiazepine làm trẻ bị {{c1::ngừng thở và tụt áp}}.",
+    "extra": "Bác sĩ cần bình tĩnh tuân thủ nguyên tắc tối đa 2 liều rồi chuyển bậc sang Levetiracetam.",
+    "tags": [
+      "PED-07",
+      "Safety-box",
+      "Bay-qua-lieu-Benval"
+    ]
+  },
+  {
+    "id": "PED07-094",
+    "type": "cloze",
+    "text": "Bẫy lâm sàng số 4: Tiêm bắp thuốc cắt cơn vào vùng mông ở trẻ nhũ nhi gây nguy cơ chọc trúng {{c1::dây thần kinh tọa}} (thần kinh ngồi).",
+    "extra": "Vị trí tiêm bắp chuẩn mực và an toàn tuyệt đối ở trẻ nhỏ là cơ tứ đầu đùi mặt trước ngoài (Vastus lateralis).",
+    "tags": [
+      "PED-07",
+      "Safety-box",
+      "Bay-tiem-mong"
+    ]
+  },
+  {
+    "id": "PED07-095",
+    "type": "cloze",
+    "text": "Bẫy lâm sàng số 5: Kê đơn thuốc chống co giật dự phòng dài hạn cho trẻ co giật do sốt đơn thuần vì {{c1::tâm lý lo âu phụ huynh}}.",
+    "extra": "Hành động này vi phạm y học chứng cứ và gây hại trực tiếp cho sự phát triển trí tuệ của trẻ.",
+    "tags": [
+      "PED-07",
+      "Safety-box",
+      "Bay-ke-thuoc-du-phong"
+    ]
+  },
+  {
+    "id": "PED07-096",
+    "type": "cloze",
+    "text": "Bẫy lâm sàng số 6: Bỏ quên hạ thân nhiệt sau khi cắt cơn bằng thuốc chống động kinh, khiến {{c1::cơn giật bùng phát lại}}.",
+    "extra": "Thuốc chống co giật chỉ dập tắt cơn tạm thời; nếu thân nhiệt tiếp tục tăng vọt 40°C thì cơn giật sẽ xuất hiện trở lại.",
+    "tags": [
+      "PED-07",
+      "Safety-box",
+      "Bay-quen-ha-sot"
+    ]
+  },
+  {
+    "id": "PED07-097",
+    "type": "cloze",
+    "text": "Bẫy lâm sàng số 7: Bỏ sót co giật do sốt ở trẻ tiêu chảy cấp có rối loạn điện giải nghiêm trọng là {{c1::hạ hoặc tăng Natri máu}}.",
+    "extra": "Thay đổi áp lực thẩm thấu nội sọ trong rối loạn Natri máu là nguyên nhân trực tiếp kích hoạt cơn giật.",
+    "tags": [
+      "PED-07",
+      "Safety-box",
+      "Bay-roi-loan-natri"
+    ]
+  },
+  {
+    "id": "PED07-098",
+    "type": "cloze",
+    "text": "Bẫy lâm sàng số 8: Nhầm cơn rùng mình do rét run khi sốt cao (Chills) với {{c1::cơn co giật sơ sinh}} hoặc nhũ nhi.",
+    "extra": "Rét run trẻ vẫn hoàn toàn tỉnh táo, mắt mở bình thường và cơn run biến mất khi giữ ấm hoặc ôm chặt chi.",
+    "tags": [
+      "PED-07",
+      "Safety-box",
+      "Bay-ret-run"
+    ]
+  },
+  {
+    "id": "PED07-099",
+    "type": "cloze",
+    "text": "Bẫy lâm sàng số 9: Chậm trễ đặt nội khí quản ở trẻ trạng thái động kinh kéo dài trên 30 phút dẫn đến {{c1::phù não và suy hô hấp}} toan chuyển hóa.",
+    "extra": "Mốc 30 phút là ranh giới sống còn; vượt qua mốc này tế bào não bắt đầu tổn thương không hồi phục.",
+    "tags": [
+      "PED-07",
+      "Safety-box",
+      "Bay-cham-dat-NKQ"
+    ]
+  },
+  {
+    "id": "PED07-100",
+    "type": "cloze",
+    "text": "Bẫy lâm sàng số 10: Không dặn dò phụ huynh các dấu hiệu cảnh báo tái khám cấp cứu khiến trẻ tái phát cơn giật tại nhà {{c1::không được cấp cứu kịp thời}}.",
+    "extra": "Luôn hướng dẫn phụ huynh cách xử trí 5 bước tại nhà và thời điểm gọi xe cấp cứu 115.",
+    "tags": [
+      "PED-07",
+      "Safety-box",
+      "Bay-quen-dan-tai-kham"
+    ]
+  },
+  {
+    "id": "PED07-101",
+    "type": "cloze",
+    "text": "Ở Ca lâm sàng 1 (bé trai 18 tháng, 11.5 kg, co giật toàn thể 3 phút khi sốt 39.2°C), chẩn đoán xác định là {{c1::co giật do sốt đơn thuần}}.",
+    "extra": "Cơn giật toàn thể, thời gian dưới 15 phút, chỉ có 1 cơn trong 24h và tri giác hồi phục hoàn toàn sau cơn.",
+    "tags": [
+      "PED-07",
+      "Ca-lam-sang-1",
+      "Chan-doan-FS-don-thuan"
+    ]
+  },
+  {
+    "id": "PED07-102",
+    "type": "cloze",
+    "text": "Ở Ca lâm sàng 1, thái độ xử trí cận lâm sàng chuẩn mực là {{c1::KHÔNG làm LP, EEG hay CT-scan}}.",
+    "extra": "Trẻ tỉnh táo, không dấu màng não, đã tiêm đủ vaccine; các xét nghiệm này hoàn toàn không có chỉ định.",
+    "tags": [
+      "PED-07",
+      "Ca-lam-sang-1",
+      "Khong-lam-can-lam-sang"
+    ]
+  },
+  {
+    "id": "PED07-103",
+    "type": "cloze",
+    "text": "Liều Paracetamol hạ sốt thích hợp cho bệnh nhi 11.5 kg ở Ca lâm sàng 1 là {{c1::150 mg/lần}} uống hoặc đặt hậu môn.",
+    "extra": "Tính theo liều 10–15 mg/kg: 11.5 × 12.5 ≈ 144 mg (dùng gói hoặc viên đạn 150 mg thông dụng).",
+    "tags": [
+      "PED-07",
+      "Ca-lam-sang-1",
+      "Lieu-Paracetamol"
+    ]
+  },
+  {
+    "id": "PED07-104",
+    "type": "cloze",
+    "text": "Ở Ca lâm sàng 2 (bé gái 24 tháng, 12 kg, sốt 40°C đang co giật toàn thể phút thứ 20), bệnh nhi đã bước vào {{c1::trạng thái động kinh do sốt}}.",
+    "extra": "Cơn co giật vượt qua mốc T1 (5 phút) và kéo dài đến 20 phút đòi hỏi xử trí theo phác đồ cấp cứu hồi sức.",
+    "tags": [
+      "PED-07",
+      "Ca-lam-sang-2",
+      "Chan-doan-FSE"
+    ]
+  },
+  {
+    "id": "PED07-105",
+    "type": "cloze",
+    "text": "Liều Midazolam tiêm bắp cấp cứu ngay lập tức cho trẻ 12 kg ở Ca lâm sàng 2 (chưa có ven) là {{c1::2.4 mg}} tiêm bắp đùi ngoài.",
+    "extra": "Tính theo: 12 kg × 0.2 mg/kg = 2.4 mg Midazolam.",
+    "tags": [
+      "PED-07",
+      "Ca-lam-sang-2",
+      "Lieu-Midazolam-IM"
+    ]
+  },
+  {
+    "id": "PED07-106",
+    "type": "cloze",
+    "text": "Sau 5 phút tiêm Midazolam ở Ca lâm sàng 2 mà cơn giật vẫn tiếp diễn, chỉ định bước tiếp theo là {{c1::lặp lại liều Midazolam thứ 2}} (hoặc Lorazepam IV).",
+    "extra": "Đánh giá lại hô hấp và nhịp tim, chuẩn bị sẵn bóng bóp qua mask nếu trẻ suy hô hấp.",
+    "tags": [
+      "PED-07",
+      "Ca-lam-sang-2",
+      "Lieu-2-Benzodiazepine"
+    ]
+  },
+  {
+    "id": "PED07-107",
+    "type": "cloze",
+    "text": "Khi cơn co giật ở Ca lâm sàng 2 bước sang phút thứ 25 sau 2 liều Midazolam thất bại, thuốc bước 2 được chọn truyền tĩnh mạch là {{c1::Levetiracetam liều 720 mg}}.",
+    "extra": "Tính theo: 12 kg × 60 mg/kg = 720 mg Levetiracetam pha truyền trong 10 phút.",
+    "tags": [
+      "PED-07",
+      "Ca-lam-sang-2",
+      "Lieu-Levetiracetam-IV"
+    ]
+  },
+  {
+    "id": "PED07-108",
+    "type": "cloze",
+    "text": "Sau khi cắt được cơn giật và huyết động ổn định ở Ca lâm sàng 2, thủ thuật bắt buộc phải tiến hành là {{c1::chọc dò tủy sống}} loại trừ viêm màng não mủ.",
+    "extra": "Trạng thái động kinh do sốt kéo dài trên 20 phút ở trẻ nhỏ bắt buộc phải khảo sát dịch não tủy.",
+    "tags": [
+      "PED-07",
+      "Ca-lam-sang-2",
+      "Chi-dinh-LP-FSE"
+    ]
+  },
+  {
+    "id": "PED07-109",
+    "type": "cloze",
+    "text": "Ở Ca lâm sàng 3 (bé trai 7 tháng tuổi, co giật nửa người bên trái kéo dài 18 phút khi sốt nhẹ 38.1°C), dạng co giật được phân loại là {{c1::co giật do sốt phức tạp}}.",
+    "extra": "Cơn giật có tính chất cục bộ nửa người và kéo dài trên 15 phút.",
+    "tags": [
+      "PED-07",
+      "Ca-lam-sang-3",
+      "Phan-loai-FS-phuc-tap"
+    ]
+  },
+  {
+    "id": "PED07-110",
+    "type": "cloze",
+    "text": "Bệnh cảnh co giật cục bộ kéo dài khởi phát ở trẻ dưới 1 tuổi sau tiêm vaccine trong Ca lâm sàng 3 gợi ý cao hội chứng di truyền là {{c1::Hội chứng Dravet}}.",
+    "extra": "Cần chỉ định xét nghiệm giải trình tự gen SCN1A để xác chẩn bệnh học phân tử.",
+    "tags": [
+      "PED-07",
+      "Ca-lam-sang-3",
+      "Nghi-ngo-Dravet"
+    ]
+  },
+  {
+    "id": "PED07-111",
+    "type": "cloze",
+    "text": "Nếu xét nghiệm gen khẳng định trẻ ở Ca lâm sàng 3 mắc Hội chứng Dravet, bác sĩ cần ghi chú cảnh báo cấm dùng {{c1::Carbamazepine và Phenytoin}} vào hồ sơ bệnh án.",
+    "extra": "Các thuốc chẹn kênh Natri sẽ làm nặng thêm tình trạng co giật và thúc đẩy trạng thái động kinh tái diễn.",
+    "tags": [
+      "PED-07",
+      "Ca-lam-sang-3",
+      "Canh-bao-chong-chi-dinh"
+    ]
+  },
+  {
+    "id": "PED07-112",
+    "type": "cloze",
+    "text": "Thủ thuật chẩn đoán hình ảnh cần thực hiện có kế hoạch sau 72 giờ ở Ca lâm sàng 3 là {{c1::chụp MRI sọ não}} có tiêm đối quang.",
+    "extra": "Nhằm tầm soát dị tật phát triển vỏ não khu trú, loạn sản vỏ hoặc tổn thương hồi hải mã.",
+    "tags": [
+      "PED-07",
+      "Ca-lam-sang-3",
+      "MRI-co-ke-hoach"
+    ]
+  },
+  {
+    "id": "PED07-113",
+    "type": "cloze",
+    "text": "Thời gian bán thải phân bố sinh học trong huyết tương của Diazepam rất ngắn chỉ khoảng {{c1::15 đến 30 phút}} do hiện tượng tái phân bố vào mô mỡ.",
+    "extra": "Do đó Diazepam có tác dụng cắt cơn cấp thời nhanh nhưng nguy cơ tái phát cơn giật sau 30 phút rất cao.",
+    "tags": [
+      "PED-07",
+      "Duoc-dong-hoc",
+      "Diazepam-tai-phan-bo"
+    ]
+  },
+  {
+    "id": "PED07-114",
+    "type": "cloze",
+    "text": "Vòng imidazole trong phân tử Midazolam có đặc tính {{c1::mở vòng ở pH toan}} giúp thuốc tan hoàn toàn trong nước khi đóng ống tiêm.",
+    "extra": "Khi tiêm vào cơ thể ở pH sinh lý 7.4, vòng imidazole tự đóng lại làm thuốc chuyển sang tan trong mỡ và ngấm vào não cực nhanh.",
+    "tags": [
+      "PED-07",
+      "Duoc-dong-hoc",
+      "Midazolam-vong-imidazole"
+    ]
+  },
+  {
+    "id": "PED07-115",
+    "type": "cloze",
+    "text": "Khi sử dụng Midazolam ngậm niêm mạc má (Buccal Midazolam), dung dịch thuốc được bơm vào vị trí {{c1::khoang giữa lợi và má}} của trẻ.",
+    "extra": "Tuyệt đối không bơm trực tiếp vào sâu trong họng để tránh làm trẻ bị sặc thuốc vào đường thở.",
+    "tags": [
+      "PED-07",
+      "Tips-lam-sang",
+      "Ky-thuat-buccal"
+    ]
+  },
+  {
+    "id": "PED07-116",
+    "type": "cloze",
+    "text": "Thuốc giải độc đặc hiệu đối kháng tác dụng ức chế hô hấp của nhóm Benzodiazepine là {{c1::Flumazenil}} tiêm tĩnh mạch.",
+    "extra": "Cần chuẩn bị sẵn khi phải dùng Benzodiazepine liều cao, nhưng thận trọng vì có thể kích hoạt cơn co giật dội ngược.",
+    "tags": [
+      "PED-07",
+      "Cap-cuu",
+      "Flumazenil"
+    ]
+  },
+  {
+    "id": "PED07-117",
+    "type": "cloze",
+    "text": "Sau một cơn co giật do sốt đơn thuần, thời gian trẻ cần được theo dõi sát tại phòng cấp cứu tối thiểu là {{c1::4 đến 6 giờ}} trước khi xem xét cho về.",
+    "extra": "Đảm bảo trẻ tỉnh táo hoàn toàn, không có cơn giật thứ hai trong cùng ngày và ổ nhiễm trùng được xác định an toàn.",
+    "tags": [
+      "PED-07",
+      "Theo-doi-cap-cuu",
+      "Moc-4-6-gio"
+    ]
+  },
+  {
+    "id": "PED07-118",
+    "type": "cloze",
+    "text": "Ở trẻ có tiền sử co giật do sốt, thân nhiệt đo được chính xác và phản ánh nhiệt độ trung tâm tốt nhất tại nhà là đo ở {{c1::vùng nách hoặc hậu môn}}.",
+    "extra": "Đo nhiệt độ trán bằng tia hồng ngoại dễ bị sai lệch bởi gió hoặc mồ hôi da.",
+    "tags": [
+      "PED-07",
+      "Do-than-nhiet",
+      "Nhiet-do-trung-tam"
+    ]
+  },
+  {
+    "id": "PED07-119",
+    "type": "cloze",
+    "text": "Nguyên nhân nhiễm trùng thường gặp nhất kích hoạt co giật do sốt ở trẻ nhỏ là {{c1::nhiễm virus đường hô hấp trên}} hoặc sốt phát ban do HHV-6.",
+    "extra": "Human Herpesvirus-6 (HHV-6) gây bệnh ban đào Roseola infantum có ái lực cao với hệ thần kinh và làm sốt cao đột ngột.",
+    "tags": [
+      "PED-07",
+      "Nguyen-nhan-sot",
+      "HHV-6"
+    ]
+  },
+  {
+    "id": "PED07-120",
+    "type": "cloze",
+    "text": "Khi trẻ có cơn co giật kéo dài trên 5 phút tại nhà, cha mẹ cần đặt trẻ nằm nghiêng, dùng thuốc cắt cơn nếu có và {{c1::gọi ngay cấp cứu 115}}.",
+    "extra": "Cơn giật vượt quá 5 phút hầu như không thể tự dứt và cần can thiệp y tế khẩn cấp tại bệnh viện.",
+    "tags": [
+      "PED-07",
+      "Xu-tri-tai-nha",
+      "Goi-cap-cuu-115"
+    ]
   }
 ]

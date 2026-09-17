@@ -1,392 +1,1157 @@
-{
-  "topic": "PED-47: Tiếp cận Đái máu ở Trẻ em",
-  "version": "v2",
-  "date": "2026-09-13",
-  "total_cards": 32,
-  "cards": [
-    {
-      "id": "PED47-001",
-      "card_type": "cloze",
-      "text": "Đái máu vi thể ở trẻ em được xác định khi soi cặn ly tâm 10 mL nước tiểu tươi giữa dòng thấy có {{c1::trên 3 hồng cầu/vi trường}} (HPF độ phóng đại 400×).",
-      "extra": "Nếu soi nước tiểu tươi không ly tâm, tiêu chuẩn tương ứng là có ≥ 5 hồng cầu/mL (theo barem Giáo trình Nhi khoa YTB).",
-      "tags": [
-        "PED-47",
-        "Dinh-nghia",
-        "Dai-mau-vi-the",
-        "Tieu-chuan"
-      ]
-    },
-    {
-      "id": "PED47-002",
-      "card_type": "cloze",
-      "text": "Tình huống que thử nước tiểu Dipstick dương tính (+) với Hemoglobin nhưng soi cặn kính hiển vi không thấy hồng cầu gặp trong {{c1::huyết sắc tố niệu hoặc myoglobin niệu}}.",
-      "extra": "Cơ chế: Que thử dipstick phát hiện hoạt tính peroxidase của nhân Heme tự do từ hồng cầu vỡ do tán huyết nội mạch (Hemoglobin) hoặc dập cơ vân (Myoglobin).",
-      "tags": [
-        "PED-47",
-        "Dipstick",
-        "Hb-nieu",
-        "Myoglobin-nieu"
-      ]
-    },
-    {
-      "id": "PED47-003",
-      "card_type": "cloze",
-      "text": "Để chẩn đoán xác định đái máu vi thể bệnh lý thực sự, khuyến cáo yêu cầu phải có ít nhất {{c1::2 – 3 mẫu nước tiểu độc lập}} cho kết quả dương tính lấy cách nhau 1 – 2 tuần.",
-      "extra": "Ý nghĩa: Đái máu vi thể thoáng qua gặp ở 1 - 2% trẻ em khỏe mạnh bình thường sau sốt virus, gắng sức thể lực hoặc chấn thương nhẹ.",
-      "tags": [
-        "PED-47",
-        "Chan-doan",
-        "Dai-mau-vi-the",
-        "Mau-lap-lai"
-      ]
-    },
-    {
-      "id": "PED47-004",
-      "card_type": "cloze",
-      "text": "Biến chứng tối khẩn của bệnh lý cầu thận biểu hiện bằng đái máu kèm thiểu niệu, tăng huyết áp kịch phát và suy giảm mức lọc cầu thận nhanh chóng trong vài ngày đến vài tuần là {{c1::Viêm cầu thận tiến triển nhanh (RPGN)}}.",
-      "extra": "Mô bệnh học đặc trưng bởi hình ảnh liềm tế bào (Crescentic) trong nang Bowman. Cần điều trị Methylprednisolone liều cao và lọc máu khẩn cấp.",
-      "tags": [
-        "PED-47",
-        "RPGN",
-        "Cap-cuu",
-        "Liem-te-bao"
-      ]
-    },
-    {
-      "id": "PED47-005",
-      "card_type": "cloze",
-      "text": "Nước tiểu có màu đỏ như nước rửa thịt, màu nước coca-cola hoặc màu nước chè sẫm gợi ý nguồn gốc đái máu từ {{c1::cầu thận}}.",
-      "extra": "Cơ chế: Hemoglobin của hồng cầu bị oxy hóa thành Methemoglobin dưới tác động của môi trường toan và độ thẩm thấu cao trong lòng ống lượn thận.",
-      "tags": [
-        "PED-47",
-        "Mau-sac",
-        "Cau-than",
-        "Methemoglobin"
-      ]
-    },
-    {
-      "id": "PED47-006",
-      "card_type": "cloze",
-      "text": "Sự xuất hiện của {{c1::cục máu đông}} trong nước tiểu là bằng chứng lâm sàng chắc chắn loại trừ nguồn gốc đái máu từ cầu thận.",
-      "extra": "Cơ chế: Tại cầu thận và ống thận có nồng độ cao enzyme Urokinase hoạt hóa plasminogen làm tan fibrin ngay lập tức, ngăn cản hình thành máu cục.",
-      "tags": [
-        "PED-47",
-        "Cuc-mau-dong",
-        "Ngoai-cau-than",
-        "Urokinase"
-      ]
-    },
-    {
-      "id": "PED47-007",
-      "card_type": "cloze",
-      "text": "Hình thái hồng cầu niệu đặc trưng cho đái máu cầu thận là tỷ lệ hồng cầu biến dạng (dysmorphic RBCs) chiếm {{c1::> 80%}} tổng số hồng cầu.",
-      "extra": "Cơ chế: Hồng cầu phải chịu áp lực chèn ép cơ học khi lọt qua các khe lỗ lọc màng đáy cầu thận bị rách kết hợp với biến đổi thẩm thấu dọc ống thận.",
-      "tags": [
-        "PED-47",
-        "Hong-cau-bien-dang",
-        "Dysmorphic",
-        "Cau-than"
-      ]
-    },
-    {
-      "id": "PED47-008",
-      "card_type": "cloze",
-      "text": "Dạng hồng cầu biến dạng có giá trị đặc hiệu cao nhất (> 98%) cho tổn thương viêm cầu thận trên kính hiển vi là {{c1::Acanthocyte}} (hồng cầu hình nhẫn có chồi) khi chiếm > 5%.",
-      "extra": "Acanthocyte hình thành do màng hồng cầu bị kéo giãn và thoát bọng nước khi chui qua lỗ lọc cầu thận bị tổn thương.",
-      "tags": [
-        "PED-47",
-        "Acanthocyte",
-        "Dac-hieu",
-        "Cau-than"
-      ]
-    },
-    {
-      "id": "PED47-009",
-      "card_type": "cloze",
-      "text": "Thành phần cặn lắng nước tiểu được coi là dấu hiệu xác tín đặc hiệu 100% (pathognomonic) cho tổn thương viêm tại cầu thận là {{c1::trụ hồng cầu (RBC casts)}}.",
-      "extra": "Cơ chế: Hồng cầu kết tụ cùng với mạng lưới protein Tamm-Horsfall do tế bào nhánh dày quai Henle tiết ra trong lòng ống thận.",
-      "tags": [
-        "PED-47",
-        "Tru-hong-cau",
-        "RBC-casts",
-        "Pathognomonic"
-      ]
-    },
-    {
-      "id": "PED47-010",
-      "card_type": "cloze",
-      "text": "Trong nghiệm pháp 3 cốc, đái máu xuất hiện ở cốc thứ nhất (đầu bãi) chỉ điểm vị trí tổn thương nằm tại {{c1::niệu đạo}}.",
-      "extra": "Đái máu cuối bãi gặp trong tổn thương cổ bàng quang hoặc tam giác bàng quang. Đái máu toàn bãi (cả 3 cốc) gặp trong tổn thương cầu thận, niệu quản hoặc bàng quang.",
-      "tags": [
-        "PED-47",
-        "Nghiem-phap-3-coc",
-        "Dau-bai",
-        "Nieu-dao"
-      ]
-    },
-    {
-      "id": "PED47-011",
-      "card_type": "cloze",
-      "text": "Trong nghiệm pháp 3 cốc, đái máu xuất hiện ở cốc thứ ba (cuối bãi) chỉ điểm vị trí tổn thương nằm tại {{c1::cổ bàng quang hoặc tam giác bàng quang}}.",
-      "extra": "Cơ chế: Cuối bãi cơ bàng quang co thắt tối đa để tống giọt nước tiểu cuối cùng, ép vào tổn thương vùng cổ bàng quang gây chảy máu.",
-      "tags": [
-        "PED-47",
-        "Nghiem-phap-3-coc",
-        "Cuoi-bai",
-        "Bang-quang"
-      ]
-    },
-    {
-      "id": "PED47-012",
-      "card_type": "cloze",
-      "text": "Ở bệnh nhân đái máu nguồn gốc cầu thận, xét nghiệm nước tiểu thường xuyên đi kèm với tình trạng {{c1::protein niệu dương tính (+)}}.",
-      "extra": "Tỷ lệ UPr/UCr thường > 0,2 mg/mg và có thể đạt ngưỡng thận hư (> 2,0 mg/mg). Ngược lại, đái máu ngoài cầu thận đơn thuần có protein niệu âm tính hoặc rất thấp.",
-      "tags": [
-        "PED-47",
-        "Protein-nieu",
-        "Cau-than",
-        "UPr-UCr"
-      ]
-    },
-    {
-      "id": "PED47-013",
-      "card_type": "cloze",
-      "text": "Thời gian tiềm tàng từ khi viêm họng do liên cầu khuẩn nhóm A đến khi xuất hiện triệu chứng Viêm cầu thận cấp hậu nhiễm liên cầu (APSGN) điển hình là {{c1::1 – 3 tuần}}.",
-      "extra": "Nếu nhiễm liên cầu ở da (chốc lở), thời gian tiềm tàng kéo dài hơn từ 3 – 6 tuần. Nếu đái máu xảy ra ngay trong 1 - 2 ngày đầu viêm họng, phải nghĩ tới Bệnh thận IgA.",
-      "tags": [
-        "PED-47",
-        "APSGN",
-        "Thoi-gian-tiem-tang",
-        "Lien-cau"
-      ]
-    },
-    {
-      "id": "PED47-014",
-      "card_type": "cloze",
-      "text": "Trong Viêm cầu thận cấp hậu nhiễm liên cầu (APSGN), nồng độ bổ thể C3 trong huyết thanh giảm sâu trong giai đoạn cấp và bắt buộc phải hồi phục về bình thường sau {{c1::6 – 8 tuần}}.",
-      "extra": "Cạm bẫy: Nếu sau 8 - 12 tuần bổ thể C3 vẫn giảm kéo dài, bắt buộc phải chỉ định sinh thiết thận vì nguy cơ cao mắc Viêm cầu thận tăng sinh màng (MPGN) hoặc Viêm thận Lupus!",
-      "tags": [
-        "PED-47",
-        "APSGN",
-        "Bo-the-C3",
-        "6-8-tuan"
-      ]
-    },
-    {
-      "id": "PED47-015",
-      "card_type": "cloze",
-      "text": "Bệnh lý cầu thận nguyên phát đặc trưng bởi các đợt đái máu đại thể tái phát xuất hiện đồng thời hoặc chỉ sau 1 – 2 ngày nhiễm trùng hô hấp là {{c1::Bệnh thận IgA (Bệnh Berger)}}.",
-      "extra": "Hiện tượng này gọi là 'Synpharyngitic hematuria'. Khác với APSGN, nồng độ bổ thể C3 trong bệnh thận IgA luôn ở mức bình thường.",
-      "tags": [
-        "PED-47",
-        "Benh-than-IgA",
-        "Berger",
-        "Synpharyngitic"
-      ]
-    },
-    {
-      "id": "PED47-016",
-      "card_type": "cloze",
-      "text": "Chỉ số cận lâm sàng miễn dịch quan trọng nhất giúp phân biệt tức thì giữa Bệnh thận IgA và Viêm cầu thận cấp hậu nhiễm liên cầu (APSGN) là {{c1::nồng độ bổ thể C3}}.",
-      "extra": "Bổ thể C3 giảm sâu trong APSGN (con đường nhánh thay thế), trong khi C3 hoàn toàn bình thường trong Bệnh thận IgA.",
-      "tags": [
-        "PED-47",
-        "Phan-biet",
-        "IgA-vs-APSGN",
-        "Bo-the-C3"
-      ]
-    },
-    {
-      "id": "PED47-017",
-      "card_type": "cloze",
-      "text": "Tứ chứng kinh điển của Viêm mạch Henoch-Schonlein (HSPN) gồm: Ban xuất huyết dạng đi bốt ở hai cẳng chân, Đau viêm khớp, Đau bụng xuất huyết tiêu hóa và {{c1::tổn thương thận (đái máu, protein niệu)}}.",
-      "extra": "Ban xuất huyết gồ trên mặt da (Palpable purpura) phân bố đối xứng cẳng chân và mông, số lượng tiểu cầu hoàn toàn bình thường (không giảm).",
-      "tags": [
-        "PED-47",
-        "Henoch-Schonlein",
-        "HSPN",
-        "Tu-chung"
-      ]
-    },
-    {
-      "id": "PED47-018",
-      "card_type": "cloze",
-      "text": "Hội chứng di truyền liên kết NST X gây đái máu tiến triển kết hợp với giảm thính lực tiếp nhận thần kinh và tổn thương thể thủy tinh hình nón ở mắt là {{c1::hội chứng Alport}}.",
-      "extra": "Nguyên nhân do đột biến gen COL4A5 mã hóa chuỗi alpha-5 của Collagen type IV. Bệnh diễn tiến nặng ở trẻ trai dẫn đến suy thận mạn giai đoạn cuối ở tuổi thanh niên.",
-      "tags": [
-        "PED-47",
-        "Alport",
-        "Diec",
-        "Collagen-IV"
-      ]
-    },
-    {
-      "id": "PED47-019",
-      "card_type": "cloze",
-      "text": "Bệnh lý cầu thận di truyền trội trên NST thường đặc trưng bởi đái máu vi thể liên tục không triệu chứng, chức năng thận và huyết áp bình thường suốt đời là {{c1::Bệnh màng đáy mỏng}}.",
-      "extra": "Tên gọi khác: Đái máu lành tính có tính chất gia đình (Benign Familial Hematuria). Đột biến gen COL4A3 hoặc COL4A4 làm màng đáy cầu thận mỏng đồng nhất trên kính hiển vi điện tử.",
-      "tags": [
-        "PED-47",
-        "Mang-day-mong",
-        "Lanh-tinh-gia-dinh",
-        "COL4A3"
-      ]
-    },
-    {
-      "id": "PED47-020",
-      "card_type": "cloze",
-      "text": "Tam chứng kinh điển của Hội chứng huyết tán ure máu cao (HUS) sau tiêu chảy nhiễm trùng đường ruột gồm: Thiếu máu tan máu vi mạch, Giảm tiểu cầu và {{c1::Tổn thương thận cấp (đái máu, thiểu niệu)}}.",
-      "extra": "Thường gặp do nhiễm khuẩn E. coli sinh độc tố Shiga (STEC O157:H7). Tiêu chảy phân máu đi trước đợt suy thận cấp vài ngày.",
-      "tags": [
-        "PED-47",
-        "HUS",
-        "STEC",
-        "Thieu-mau-tan-mau"
-      ]
-    },
-    {
-      "id": "PED47-021",
-      "card_type": "cloze",
-      "text": "Nguyên nhân ngoài cầu thận phổ biến nhất gây đái máu vi thể không triệu chứng ở trẻ em mà không thấy sỏi trên X-quang là {{c1::Tăng canxi niệu vô căn (Idiopathic Hypercalciuria)}}.",
-      "extra": "Được xác định khi tỷ lệ Canxi/Creatinine niệu mẫu ngẫu nhiên (UCa/UCr) > 0,2 mg/mg ở trẻ trên 2 tuổi hoặc định lượng Canxi niệu 24 giờ > 4 mg/kg/ngày.",
-      "tags": [
-        "PED-47",
-        "Tang-canxi-nieu",
-        "UCa-UCr",
-        "Ngoai-cau-than"
-      ]
-    },
-    {
-      "id": "PED47-022",
-      "card_type": "cloze",
-      "text": "Ngưỡng tỷ lệ Canxi/Creatinine niệu (UCa/UCr) mẫu ngẫu nhiên dùng để chẩn đoán tăng canxi niệu ở trẻ em trên 2 tuổi là {{c1::> 0,2 mg/mg}}.",
-      "extra": "Ở trẻ dưới 1 tuổi ngưỡng là > 0,8 mg/mg; trẻ 1 - 2 tuổi là > 0,6 mg/mg do bài tiết creatinine sinh lý của trẻ nhỏ còn thấp.",
-      "tags": [
-        "PED-47",
-        "UCa-UCr",
-        "Nguong-canxi",
-        "Tre-2-tuoi"
-      ]
-    },
-    {
-      "id": "PED47-023",
-      "card_type": "cloze",
-      "text": "Hội chứng Nutcracker gây đái máu do tĩnh mạch thận trái bị chèn ép giữa {{c1::động mạch chủ bụng và động mạch mạc treo tràng trên}}.",
-      "extra": "Thường gặp ở trẻ vị thành niên dáng người cao gầy. Có thể kèm đau tức hông lưng trái và giãn tĩnh mạch thừng tinh bên trái ở bé trai.",
-      "tags": [
-        "PED-47",
-        "Nutcracker",
-        "SMA",
-        "Tinh-mach-than-trai"
-      ]
-    },
-    {
-      "id": "PED47-024",
-      "card_type": "cloze",
-      "text": "Dấu hiệu lâm sàng sinh dục thường đi kèm với đái máu trong Hội chứng Nutcracker ở trẻ trai là {{c1::giãn tĩnh mạch thừng tinh bên trái (Varicocele)}}.",
-      "extra": "Cơ chế: Tĩnh mạch tinh hoàn bên trái đổ trực tiếp vào tĩnh mạch thận trái. Khi tĩnh mạch thận trái bị kẹp nghẹt, áp lực tĩnh mạch tinh trái dội ngược gây ứ máu búi tĩnh mạch thừng tinh.",
-      "tags": [
-        "PED-47",
-        "Nutcracker",
-        "Varicocele",
-        "Tre-trai"
-      ]
-    },
-    {
-      "id": "PED47-025",
-      "card_type": "cloze",
-      "text": "Khối u ác tính tại thận thường gặp nhất ở trẻ nhỏ dưới 5 tuổi biểu hiện bằng khối u bụng sờ thấy được kèm đái máu và tăng huyết áp là {{c1::U nguyên bào thận (U Wilms / Nephroblastoma)}}.",
-      "extra": "Chống chỉ định sờ nắn thô bạo vùng bụng vì nguy cơ làm vỡ vỏ bọc khối u gây gieo rắc tế bào ung thư vào khoang phúc mạc.",
-      "tags": [
-        "PED-47",
-        "U-Wilms",
-        "U-than",
-        "Tre-nho"
-      ]
-    },
-    {
-      "id": "PED47-026",
-      "card_type": "cloze",
-      "text": "Chỉ định sinh thiết thận kinh điển về mức độ protein niệu ở trẻ em đái máu là khi Protein niệu 24 giờ đạt ngưỡng {{c1::> 1 g/1,73 m²/ngày}} (hoặc UPr/UCr > 1,0 kéo dài).",
-      "extra": "Mức protein niệu này phản ánh tổn thương màng đáy cầu thận nghiêm trọng và nguy cơ tiến triển xơ hóa cầu thận cần can thiệp ức chế miễn dịch đích.",
-      "tags": [
-        "PED-47",
-        "Sinh-thiet-than",
-        "Protein-nieu",
-        "Chi-dinh-1"
-      ]
-    },
-    {
-      "id": "PED47-026b",
-      "card_type": "cloze",
-      "text": "Chỉ định sinh thiết thận kinh điển về diễn tiến bổ thể ở trẻ đái máu cầu thận là khi nồng độ Bổ thể C3 giảm kéo dài {{c1::trên 3 tháng}}.",
-      "extra": "Trong APSGN thông thường C3 phải hồi phục sau 6 - 8 tuần; nếu kéo dài quá 3 tháng gợi ý Viêm cầu thận tăng sinh màng (MPGN) hoặc Viêm thận Lupus.",
-      "tags": [
-        "PED-47",
-        "Sinh-thiet-than",
-        "Bo-the-C3",
-        "3-thang"
-      ]
-    },
-    {
-      "id": "PED47-027",
-      "card_type": "cloze",
-      "text": "Chỉ định sinh thiết thận kinh điển về mức lọc cầu thận (eGFR) ở trẻ đái máu là khi eGFR giảm kéo dài dưới ngưỡng {{c1::< 80 mL/phút/1,73 m²}}.",
-      "extra": "Phản ánh tình trạng suy giảm chức năng thận không hồi phục, cần đánh giá mức độ xơ hóa ống kẽ thận và tổn thương cầu thận.",
-      "tags": [
-        "PED-47",
-        "Sinh-thiet-than",
-        "eGFR",
-        "Chi-dinh-3"
-      ]
-    },
-    {
-      "id": "PED47-028",
-      "card_type": "cloze",
-      "text": "Điều kiện an toàn tối thiểu về số lượng tiểu cầu bắt buộc phải đạt được trước khi tiến hành thủ thuật sinh thiết thận qua da ở trẻ em là {{c1::> 100.000/µL}}.",
-      "extra": "Đồng thời chỉ số INR phải < 1.2 và aPTT bình thường để phòng ngừa biến chứng tụ máu quanh thận hoặc xuất huyết sau phúc mạc ồ ạt.",
-      "tags": [
-        "PED-47",
-        "Sinh-thiet-than",
-        "Tieu-cau",
-        "An-toan"
-      ]
-    },
-    {
-      "id": "PED47-029",
-      "card_type": "cloze",
-      "text": "Khi trẻ có đái máu đại thể đơn độc sau đợt chạy nhảy thi đấu bóng đá, bước xử trí phân loại thích hợp là cho trẻ nghỉ ngơi và {{c1::làm lại xét nghiệm nước tiểu sau 48 – 72 giờ}}.",
-      "extra": "Đái máu do gắng sức (Exercise-induced hematuria) sẽ tự biến mất sau vài ngày nghỉ ngơi. Nếu đái máu vẫn tồn tại dai dẳng mới tiến hành các thăm dò chuyên sâu.",
-      "tags": [
-        "PED-47",
-        "Gang-suc",
-        "The-thao",
-        "Buoc-3"
-      ]
-    },
-    {
-      "id": "PED47-029b",
-      "card_type": "cloze",
-      "text": "Trong thuật toán tiếp cận đái máu vi thể đơn độc không triệu chứng ở trẻ em, quy trình theo dõi yêu cầu làm lại xét nghiệm nước tiểu {{c1::hàng tuần trong 2 tuần liên tiếp}}.",
-      "extra": "Nếu đái máu vi thể biến mất, kết luận đái máu thoáng qua. Nếu vẫn tồn tại trên 2 - 3 mẫu thử, chuyển sang Bước 4 soi hình thái hồng cầu và định lượng protein niệu.",
-      "tags": [
-        "PED-47",
-        "Buoc-3",
-        "Vi-the-don-doc",
-        "Theo-doi"
-      ]
-    },
-    {
-      "id": "PED47-030",
-      "card_type": "cloze",
-      "text": "Trong chẩn đoán đái máu gia đình, xét nghiệm sàng lọc đơn giản và rẻ tiền nhất cần làm ngay cho bố, mẹ và anh chị em ruột của bệnh nhi là {{c1::xét nghiệm tổng phân tích nước tiểu}}.",
-      "extra": "Giúp phát hiện đái máu vi thể ẩn ở người thân, định hướng nhanh chóng Bệnh màng đáy mỏng (di truyền trội) hoặc Hội chứng Alport (di truyền liên kết X).",
-      "tags": [
-        "PED-47",
-        "Gia-dinh",
-        "Nuoc-tieu",
-        "Alport-vs-Thin"
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": "PED47-001",
+    "type": "cloze",
+    "text": "Đái máu đại thể được định nghĩa khi nước tiểu biến đổi màu sắc có thể {{c1::nhìn thấy bằng mắt thường}} (đỏ, nước rửa thịt, màu cola).",
+    "extra": "Chỉ cần 1 mL máu toàn phần hòa tan trong 1 lít nước tiểu đã đủ làm nước tiểu đổi màu mắt thường nhìn thấy.",
+    "tags": [
+      "PED-47",
+      "Dinh-nghia",
+      "Dai-mau-dai-the"
+    ]
+  },
+  {
+    "id": "PED47-002",
+    "type": "cloze",
+    "text": "Tiêu chuẩn chẩn đoán Đái máu vi thể trên cặn ly tâm nước tiểu tươi là có {{c1::> 3 hồng cầu/vi trường}} (HPF 400x).",
+    "extra": "Cần lấy 10 mL nước tiểu giữa dòng tươi mới, ly tâm ở tốc độ 2000 vòng/phút trong 5 phút.",
+    "tags": [
+      "PED-47",
+      "Dinh-nghia",
+      "Dai-mau-vi-the-HPF"
+    ]
+  },
+  {
+    "id": "PED47-003",
+    "type": "cloze",
+    "text": "Để khẳng định chẩn đoán đái máu vi thể mạn tính, tiêu chuẩn bắt buộc phải dương tính trên ít nhất {{c1::2 đến 3 mẫu nước tiểu}} độc lập cách nhau 1–2 tuần.",
+    "extra": "Một mẫu dương tính duy nhất có thể chỉ là đái máu thoáng qua do sốt cao, vận động gắng sức hoặc chấn thương nhẹ.",
+    "tags": [
+      "PED-47",
+      "Dinh-nghia",
+      "Tieu-chuan-2-3-mau"
+    ]
+  },
+  {
+    "id": "PED47-004",
+    "type": "cloze",
+    "text": "Nguyên lý hoạt động của que thử nước tiểu Dipstick phát hiện đái máu dựa trên phản ứng xúc tác của {{c1::hoạt tính Heme Peroxidase}}.",
+    "extra": "Hemoglobin hoặc Myoglobin xúc tác phản ứng oxy hóa chất chỉ thị màu trên que thử từ vàng sang xanh lục.",
+    "tags": [
+      "PED-47",
+      "Dipstick",
+      "Heme-Peroxidase"
+    ]
+  },
+  {
+    "id": "PED47-005",
+    "type": "cloze",
+    "text": "Hiện tượng que thử Dipstick (+) với máu nhưng soi kính hiển vi KHÔNG thấy hồng cầu gợi ý hai bệnh lý là {{c1::Hemoglobin niệu hoặc Myoglobin niệu}}.",
+    "extra": "Do sắc tố Heme tự do hòa tan trong nước tiểu phản ứng mạnh với que thử mà không có tế bào hồng cầu nguyên vẹn.",
+    "tags": [
+      "PED-47",
+      "Dipstick",
+      "Hemoglobin-vs-Myoglobin"
+    ]
+  },
+  {
+    "id": "PED47-006",
+    "type": "cloze",
+    "text": "Để phân biệt Hemoglobin niệu do tán huyết với Myoglobin niệu do tiêu cơ vân, người ta quan sát {{c1::màu sắc huyết tương}} sau ly tâm máu.",
+    "extra": "Huyết tương của tán huyết có màu hồng đỏ (do Haptoglobin bão hòa); huyết tương của tiêu cơ vân có màu trong suốt.",
+    "tags": [
+      "PED-47",
+      "Phan-biet",
+      "Mau-sac-huyet-tuong"
+    ]
+  },
+  {
+    "id": "PED47-007",
+    "type": "cloze",
+    "text": "Tình trạng nước tiểu có màu đỏ nhưng cả Dipstick (-) và Soi kính hiển vi (-) thường do {{c1::phẩm màu thức ăn}} (củ dền đỏ, thanh long).",
+    "extra": "Sắc tố Betanin trong củ dền đào thải nguyên vẹn qua nước tiểu mà không chứa nhân Heme.",
+    "tags": [
+      "PED-47",
+      "Gia-dai-mau",
+      "Pham-mau-thuc-an"
+    ]
+  },
+  {
+    "id": "PED47-008",
+    "type": "cloze",
+    "text": "Loại thuốc kháng lao kinh điển thường làm đổi màu nước tiểu và nước mắt thành màu đỏ cam vô hại là {{c1::Rifampicin}}.",
+    "extra": "Cần giải thích trước cho bệnh nhi và gia đình để tránh hoang mang nhầm lẫn với đái máu đại thể.",
+    "tags": [
+      "PED-47",
+      "Gia-dai-mau",
+      "Rifampicin"
+    ]
+  },
+  {
+    "id": "PED47-009",
+    "type": "cloze",
+    "text": "Hiện tượng tã lót của trẻ sơ sinh xuất hiện vệt màu đỏ gạch thực chất là do lắng đọng {{c1::tinh thể Acid Uric (Urat)}}.",
+    "extra": "Lành tính thường gặp trong những ngày đầu sau sinh do trẻ bú ít và độ cô đặc nước tiểu cao.",
+    "tags": [
+      "PED-47",
+      "Gia-dai-mau",
+      "Tinh-the-Urat-so-sinh"
+    ]
+  },
+  {
+    "id": "PED47-010",
+    "type": "cloze",
+    "text": "Báo động đỏ tối khẩn cấp trong đái máu là Viêm cầu thận tiến triển nhanh (RPGN) biểu hiện bằng đái máu kèm {{c1::suy thận cấp tiến triển}} trong vài ngày.",
+    "extra": "Đòi hỏi sinh thiết thận cấp cứu và điều trị ức chế miễn dịch liều xung (Pulse Methylprednisolone) để cứu quả thận.",
+    "tags": [
+      "PED-47",
+      "Bao-dong-do",
+      "RPGN"
+    ]
+  },
+  {
+    "id": "PED47-011",
+    "type": "cloze",
+    "text": "Nước tiểu có màu nước coca-cola, nước chè sẫm hoặc nước rửa thịt là đặc điểm kinh điển của đái máu có nguồn gốc từ {{c1::Cầu thận}}.",
+    "extra": "Hemoglobin bị oxy hóa thành Methemoglobin dưới tác động của môi trường toan và áp lực thẩm thấu cao của ống thận.",
+    "tags": [
+      "PED-47",
+      "Phan-biet-cau-than",
+      "Mau-nuoc-cola"
+    ]
+  },
+  {
+    "id": "PED47-012",
+    "type": "cloze",
+    "text": "Nước tiểu có màu đỏ tươi hoặc hồng tươi có thể kèm máu cục là đặc điểm kinh điển của đái máu có nguồn gốc từ {{c1::Ngoài cầu thận}}.",
+    "extra": "Máu chảy trực tiếp từ đường dẫn niệu (bàng quang, niệu quản, niệu đạo) mà không tiếp xúc với toan dịch ống thận.",
+    "tags": [
+      "PED-47",
+      "Phan-biet-ngoai-cau-than",
+      "Mau-do-tuoi"
+    ]
+  },
+  {
+    "id": "PED47-013",
+    "type": "cloze",
+    "text": "Sự hiện diện của các cục máu đông (máu cục) trong nước tiểu khẳng định chắc chắn 100% nguồn gốc đái máu là {{c1::Ngoài cầu thận}}.",
+    "extra": "Màng đáy cầu thận và ống thận tiết chất hoạt hóa Plasminogen (Urokinase) làm tiêu Fibrin ngăn hình thành máu cục.",
+    "tags": [
+      "PED-47",
+      "Phan-biet",
+      "Mau-cuc-ngoai-cau-than"
+    ]
+  },
+  {
+    "id": "PED47-014",
+    "type": "cloze",
+    "text": "Đặc điểm hình thái hồng cầu có giá trị chẩn đoán xác định đái máu cầu thận trên kính hiển vi pha tương phản là {{c1::Hồng cầu biến dạng (Dysmorphic)}} > 80%.",
+    "extra": "Hồng cầu bị biến dạng màng tế bào khi chui qua khe lọc cầu thận và chịu áp lực thẩm thấu thay đổi dọc ống thận.",
+    "tags": [
+      "PED-47",
+      "Vi-the",
+      "Hong-cau-bien-dang-80%"
+    ]
+  },
+  {
+    "id": "PED47-015",
+    "type": "cloze",
+    "text": "Thể tế bào hồng cầu hình nhẫn có chồi màng gai là chỉ dấu đặc hiệu 100% cho tổn thương cầu thận được gọi là {{c1::Acanthocytes (hoặc G1 cells)}}.",
+    "extra": "Chỉ cần tỷ lệ Acanthocytes đạt > 5% trong tổng số hồng cầu niệu là đủ xác lập chắc chắn nguồn gốc cầu thận.",
+    "tags": [
+      "PED-47",
+      "Vi-the",
+      "Acanthocytes-5%"
+    ]
+  },
+  {
+    "id": "PED47-016",
+    "type": "cloze",
+    "text": "Tiêu chuẩn vi thể khẳng định đái máu ngoài cầu thận là tỷ lệ hồng cầu đồng dạng (Isomorphic RBCs) đạt mức {{c1::> 80%}}.",
+    "extra": "Tế bào hồng cầu giữ nguyên vẹn hình đĩa lõm hai mặt tròn đều tương tự như trong tuần hoàn máu ngoại vi.",
+    "tags": [
+      "PED-47",
+      "Vi-the",
+      "Hong-cau-dong-dang-80%"
+    ]
+  },
+  {
+    "id": "PED47-017",
+    "type": "cloze",
+    "text": "Trụ niệu có giá trị đặc hiệu bệnh học 100% chứng minh đái máu từ cầu thận là {{c1::Trụ hồng cầu (RBC casts)}}.",
+    "extra": "Hồng cầu bị cuộn ép trong khuôn gel protein Tamm-Horsfall tại ống lượn xa và ống góp của nephron.",
+    "tags": [
+      "PED-47",
+      "Vi-the",
+      "Tru-hong-cau"
+    ]
+  },
+  {
+    "id": "PED47-018",
+    "type": "cloze",
+    "text": "Đái máu cầu thận hầu như luôn đi kèm với {{c1::Protein niệu có ý nghĩa}} (UPr/UCr > 0.2 hoặc > 100 mg/m2/ngày).",
+    "extra": "Tổn thương màng đáy cầu thận làm rách hàng rào điện tích và kích thước khiến cả hồng cầu và protein cùng lọt qua.",
+    "tags": [
+      "PED-47",
+      "Phan-biet",
+      "Protein-nieu-dong-hanh"
+    ]
+  },
+  {
+    "id": "PED47-019",
+    "type": "cloze",
+    "text": "Tam chứng viêm cầu thận kinh điển thường đi kèm với đái máu cầu thận bao gồm: Đái máu, Phù và {{c1::Tăng huyết áp}}.",
+    "extra": "Ứ trệ natri và nước do giảm diện tích lọc cầu thận dẫn đến tăng thể tích lòng mạch và tăng huyết áp.",
+    "tags": [
+      "PED-47",
+      "Tam-chung",
+      "Tang-huyet-ap-phu"
+    ]
+  },
+  {
+    "id": "PED47-020",
+    "type": "cloze",
+    "text": "Đái máu ngoài cầu thận thường đi kèm các triệu chứng kích thích đường tiểu dưới như {{c1::đái buốt, đái rắt}} hoặc đau quặn thận.",
+    "extra": "Viêm nhiễm bàng quang niệu đạo hoặc sỏi di chuyển gây kích thích co thắt cơ trơn đường tiết niệu.",
+    "tags": [
+      "PED-47",
+      "Trieu-chung",
+      "Dai-buot-dai-rat"
+    ]
+  },
+  {
+    "id": "PED47-021",
+    "type": "cloze",
+    "text": "Bệnh lý cầu thận nguyên phát thường gặp nhất gây đái máu đại thể tái phát ở trẻ em là {{c1::Bệnh thận IgA (Berger)}}.",
+    "extra": "Đặc trưng bởi sự lắng đọng phức hợp miễn dịch IgA1 nghèo galactose tại vùng gian mạch cầu thận.",
+    "tags": [
+      "PED-47",
+      "Benh-than-IgA",
+      "Nguyen-nhan-hang-dau"
+    ]
+  },
+  {
+    "id": "PED47-022",
+    "type": "cloze",
+    "text": "Thời điểm xuất hiện đái máu đại thể trong Bệnh thận IgA là {{c1::ngay trong hoặc sau 1–2 ngày}} bị sốt viêm họng (synpharyngitic).",
+    "extra": "Khác với viêm cầu thận sau nhiễm liên cầu vốn có thời gian ủ bệnh kéo dài vài tuần sau viêm họng.",
+    "tags": [
+      "PED-47",
+      "Benh-than-IgA",
+      "Synpharyngitic-1-2-ngay"
+    ]
+  },
+  {
+    "id": "PED47-023",
+    "type": "cloze",
+    "text": "Nồng độ bổ thể C3 huyết thanh trong đợt đái máu cấp của Bệnh thận IgA có giá trị {{c1::hoàn toàn bình thường}}.",
+    "extra": "Đây là xét nghiệm bản lề quan trọng nhất giúp phân biệt tức thì với Viêm cầu thận sau nhiễm liên cầu (C3 giảm).",
+    "tags": [
+      "PED-47",
+      "Benh-than-IgA",
+      "Bo-the-C3-binh-thuong"
+    ]
+  },
+  {
+    "id": "PED47-024",
+    "type": "cloze",
+    "text": "Khoảng cách thời gian ủ bệnh từ khi viêm họng do liên cầu đến khi xuất hiện viêm cầu thận cấp (APSGN) là {{c1::1 đến 3 tuần}}.",
+    "extra": "Cần thời gian để cơ thể sinh kháng thể và hình thành phức hợp miễn dịch lưu hành lắng đọng tại màng đáy cầu thận.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "U-benh-viem-hong"
+    ]
+  },
+  {
+    "id": "PED47-025",
+    "type": "cloze",
+    "text": "Khoảng cách thời gian ủ bệnh từ khi nhiễm trùng da (chốc lở) đến khi xuất hiện viêm cầu thận cấp (APSGN) kéo dài hơn, khoảng {{c1::3 đến 6 tuần}}.",
+    "extra": "Kháng nguyên liên cầu từ da xâm nhập chậm hơn vào hệ miễn dịch toàn thân so với niêm mạc hầu họng.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "U-benh-nhiem-trung-da"
+    ]
+  },
+  {
+    "id": "PED47-026",
+    "type": "cloze",
+    "text": "Trong Viêm cầu thận cấp hậu nhiễm liên cầu (APSGN), nồng độ bổ thể C3 huyết thanh có đặc điểm {{c1::giảm mạnh trong đợt cấp}}.",
+    "extra": "Bổ thể C3 bị tiêu thụ ồ ạt qua con đường hoạt hóa bổ thể nhánh thay thế.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "C3-giam-manh"
+    ]
+  },
+  {
+    "id": "PED47-027",
+    "type": "cloze",
+    "text": "Nồng độ bổ thể C3 ở bệnh nhi APSGN điển hình bắt buộc phải tự hồi phục trở về mức bình thường sau {{c1::6 đến 8 tuần}}.",
+    "extra": "Nếu C3 giảm kéo dài quá 8–12 tuần (> 3 tháng), bắt buộc phải sinh thiết thận vì nghi ngờ MPGN hoặc Lupus.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "C3-hoi-phuc-6-8-tuan"
+    ]
+  },
+  {
+    "id": "PED47-028",
+    "type": "cloze",
+    "text": "Chỉ dấu huyết thanh học chứng minh tiền sử nhiễm liên cầu khuẩn tan huyết beta nhóm A ở họng là hiệu giá kháng thể {{c1::ASO (Antistreptolysin O)}}.",
+    "extra": "Hiệu giá ASO tăng cao trên 200–400 Todd đơn vị hoặc hiệu giá tăng gấp đôi sau 2 tuần.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "Hieu-gia-ASO"
+    ]
+  },
+  {
+    "id": "PED47-029",
+    "type": "cloze",
+    "text": "Chỉ dấu huyết thanh học nhạy nhất chứng minh nhiễm liên cầu sau nhiễm trùng da chốc lở là kháng thể {{c1::Anti-DNase B}}.",
+    "extra": "ASO thường ít tăng sau nhiễm trùng da do lipid da ức chế tính sinh miễn dịch của Streptolysin O.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "Anti-DNase-B-choc-lo"
+    ]
+  },
+  {
+    "id": "PED47-030",
+    "type": "cloze",
+    "text": "Bệnh lý cầu thận di truyền liên kết nhiễm sắc thể giới tính X gây đái máu tiến triển kèm điếc tiếp nhận thần kinh là {{c1::Hội chứng Alport}}.",
+    "extra": "Đột biến gen COL4A5 mã hóa chuỗi alpha-5 của collagen type IV gây thoái hóa màng đáy cầu thận.",
+    "tags": [
+      "PED-47",
+      "Alport",
+      "Di-truyen-X-diec"
+    ]
+  },
+  {
+    "id": "PED47-031",
+    "type": "cloze",
+    "text": "Tổn thương cấu trúc nhãn cầu đặc trưng có thể gặp ở bệnh nhân Hội chứng Alport là tật {{c1::thể thủy tinh hình nón}}.",
+    "extra": "Biến dạng lồi hình nón của mặt trước thể thủy tinh do mỏng màng đáy bao thể thủy tinh.",
+    "tags": [
+      "PED-47",
+      "Alport",
+      "The-thuy-tinh-hinh-non"
+    ]
+  },
+  {
+    "id": "PED47-032",
+    "type": "cloze",
+    "text": "Bệnh màng đáy mỏng (Thin Basement Membrane Disease) có đặc điểm lâm sàng là đái máu vi thể đơn độc với tiên lượng {{c1::hoàn toàn lành tính}}.",
+    "extra": "Không kèm protein niệu, không tăng huyết áp, chức năng thận duy trì bình thường suốt đời.",
+    "tags": [
+      "PED-47",
+      "Mang-day-mong",
+      "Tien-luong-lanh-tinh"
+    ]
+  },
+  {
+    "id": "PED47-033",
+    "type": "cloze",
+    "text": "Viêm thận trong Ban xuất huyết Henoch-Schonlein (HSP) thực chất có cơ chế bệnh sinh mô học tương tự như bệnh lý {{c1::Bệnh thận IgA}}.",
+    "extra": "Lắng đọng phức hợp miễn dịch IgA tại gian mạch; tiên lượng lâu dài của HSP phụ thuộc hoàn toàn vào mức độ tổn thương thận.",
+    "tags": [
+      "PED-47",
+      "HSP",
+      "Mo-hoc-IgA"
+    ]
+  },
+  {
+    "id": "PED47-034",
+    "type": "cloze",
+    "text": "Viêm thận Lupus (Lupus Nephritis) gây đái máu kèm tổn thương cầu thận nặng đặc trưng bởi nồng độ bổ thể {{c1::cả C3 và C4 đều giảm}}.",
+    "extra": "Phản ánh hoạt hóa bổ thể qua con đường cổ điển bởi phức hợp miễn dịch kháng nguyên - kháng thể DNA.",
+    "tags": [
+      "PED-47",
+      "Lupus",
+      "Giam-ca-C3-C4"
+    ]
+  },
+  {
+    "id": "PED47-035",
+    "type": "cloze",
+    "text": "Nguyên nhân ngoài cầu thận hàng đầu gây đái máu vi thể kèm đau buốt khi đi tiểu ở trẻ em là {{c1::Nhiễm khuẩn tiết niệu (UTI)}}.",
+    "extra": "Vi khuẩn xâm nhập gây viêm loét niêm mạc bàng quang và niệu đạo.",
+    "tags": [
+      "PED-47",
+      "Ngoai-cau-than",
+      "UTI"
+    ]
+  },
+  {
+    "id": "PED47-036",
+    "type": "cloze",
+    "text": "Tiêu chuẩn cấy nước tiểu giữa dòng xác định nhiễm khuẩn tiết niệu ở trẻ em là số lượng khuẩn lạc đạt {{c1::≥ 100.000 CFU/mL (10^5 CFU/mL)}}.",
+    "extra": "Tác nhân vi khuẩn phân lập thường gặp nhất là Escherichia coli (E. coli).",
+    "tags": [
+      "PED-47",
+      "UTI",
+      "Cay-nuoc-tieu-10^5"
+    ]
+  },
+  {
+    "id": "PED47-037",
+    "type": "cloze",
+    "text": "Tăng canxi niệu vô căn (Idiopathic Hypercalciuria) được xác định khi tỷ lệ Canxi/Creatinine ngẫu nhiên trong nước tiểu đạt {{c1::UCa/UCr > 0.2 mg/mg}} (ở trẻ > 2 tuổi).",
+    "extra": "Là nguyên nhân thường bị bỏ sót nhất gây đái máu vi thể đơn độc tái diễn ở trẻ em không có protein niệu.",
+    "tags": [
+      "PED-47",
+      "Tang-canxi-nieu",
+      "Ty-le-UCa-UCr-0.2"
+    ]
+  },
+  {
+    "id": "PED47-038",
+    "type": "cloze",
+    "text": "Hội chứng Nutcracker xảy ra do tĩnh mạch thận trái bị chèn ép giữa động mạch chủ và {{c1::động mạch mạc treo tràng trên}}.",
+    "extra": "Góc kẹp SMA hẹp làm tăng áp lực tĩnh mạch thận trái gây rách các vi mạch mỏng manh quanh đài bể thận.",
+    "tags": [
+      "PED-47",
+      "Nutcracker",
+      "Chen-ep-SMA"
+    ]
+  },
+  {
+    "id": "PED47-039",
+    "type": "cloze",
+    "text": "Triệu chứng đái máu trong Hội chứng Nutcracker thường xuất hiện hoặc tăng lên sau khi {{c1::vận động thể lực gắng sức}}.",
+    "extra": "Kèm theo đau tức mỏi vùng hông lưng bên trái và có thể có giãn tĩnh mạch thừng tinh bên trái ở trẻ trai.",
+    "tags": [
+      "PED-47",
+      "Nutcracker",
+      "Tang-sau-van-dong"
+    ]
+  },
+  {
+    "id": "PED47-040",
+    "type": "cloze",
+    "text": "Hóa chất điều trị ung thư nhóm alkyl hóa Cyclophosphamide có thể gây biến chứng đái máu đại thể nguy hiểm là {{c1::viêm bàng quang xuất huyết}}.",
+    "extra": "Do chất chuyển hóa độc hại Acrolein tiếp xúc trực tiếp làm loét hoại tử niêm mạc bàng quang.",
+    "tags": [
+      "PED-47",
+      "Ngoai-cau-than",
+      "Cyclophosphamide-Acrolein"
+    ]
+  },
+  {
+    "id": "PED47-041",
+    "type": "cloze",
+    "text": "Thuốc giải độc trung hòa chất Acrolein để phòng ngừa viêm bàng quang xuất huyết khi truyền Cyclophosphamide là {{c1::MESNA}}.",
+    "extra": "MESNA chứa nhóm sulfhydryl tự do gắn kết trực tiếp với acrolein tạo thành chất trơ không độc.",
+    "tags": [
+      "PED-47",
+      "Phong-ngua",
+      "MESNA"
+    ]
+  },
+  {
+    "id": "PED47-042",
+    "type": "cloze",
+    "text": "Chỉ định sinh thiết thận số 1: Đái máu kèm theo Protein niệu dai dẳng ở mức {{c1::> 1 g/1.73 m2/ngày}} (hoặc UPr/UCr > 1.0).",
+    "extra": "Protein niệu mức cao báo hiệu tổn thương cấu trúc màng lọc cầu thận nghiêm trọng cần định danh mô bệnh học.",
+    "tags": [
+      "PED-47",
+      "Sinh-thiet-than",
+      "Chi-dinh-1-Protein-nieu"
+    ]
+  },
+  {
+    "id": "PED47-043",
+    "type": "cloze",
+    "text": "Chỉ định sinh thiết thận số 2: Nồng độ bổ thể C3 huyết thanh giảm kéo dài liên tục trên {{c1::3 tháng (hoặc > 8–12 tuần)}}.",
+    "extra": "Không phù hợp diễn tiến tự hồi phục của APSGN; nghi ngờ cao Viêm cầu thận màng tăng sinh (MPGN) hoặc Lupus.",
+    "tags": [
+      "PED-47",
+      "Sinh-thiet-than",
+      "Chi-dinh-2-C3-giam-3-thang"
+    ]
+  },
+  {
+    "id": "PED47-044",
+    "type": "cloze",
+    "text": "Chỉ định sinh thiết thận số 3: Mức lọc cầu thận eGFR giảm dưới mức {{c1::< 80 mL/phút/1.73 m2}} mà không có xu hướng hồi phục.",
+    "extra": "Cần sinh thiết sớm để phát hiện các thể tổn thương hình liềm (Crescentic GN) đe dọa suy thận giai đoạn cuối.",
+    "tags": [
+      "PED-47",
+      "Sinh-thiet-than",
+      "Chi-dinh-3-eGFR-giam"
+    ]
+  },
+  {
+    "id": "PED47-045",
+    "type": "cloze",
+    "text": "Chỉ định sinh thiết thận số 4: Bệnh nhi nghi ngờ Viêm thận Lupus hoặc HSP có biểu hiện {{c1::tổn thương thận tiến triển nặng}}.",
+    "extra": "Phân loại giải phẫu bệnh theo ISN/RPS (Class I đến VI) để quyết định phác đồ thuốc ức chế miễn dịch phù hợp.",
+    "tags": [
+      "PED-47",
+      "Sinh-thiet-than",
+      "Chi-dinh-4-Lupus-HSP"
+    ]
+  },
+  {
+    "id": "PED47-046",
+    "type": "cloze",
+    "text": "Chỉ định sinh thiết thận số 5: Trẻ có tiền sử gia đình suy thận hoặc nghi ngờ mắc {{c1::Hội chứng Alport}}.",
+    "extra": "Kính hiển vi điện tử cho thấy hình ảnh màng đáy cầu thận bị xẻ rách dạng màng đan (basket-weave pattern).",
+    "tags": [
+      "PED-47",
+      "Sinh-thiet-than",
+      "Chi-dinh-5-Alport"
+    ]
+  },
+  {
+    "id": "PED47-047",
+    "type": "cloze",
+    "text": "Chỉ định sinh thiết thận số 6: Bệnh nhi bị đái máu đại thể {{c1::tái phát nhiều đợt}} không rõ nguyên nhân sau khi đã loại trừ sỏi và dị tật.",
+    "extra": "Giúp xác định các thể viêm cầu thận âm thầm như bệnh thận IgA hoặc bệnh màng đáy mỏng.",
+    "tags": [
+      "PED-47",
+      "Sinh-thiet-than",
+      "Chi-dinh-6-Dai-mau-tai-phat"
+    ]
+  },
+  {
+    "id": "PED47-048",
+    "type": "cloze",
+    "text": "Chỉ định sinh thiết thận số 7: Đái máu cầu thận mà gia đình thiết tha muốn biết nguyên nhân và tiên lượng bệnh dù {{c1::protein niệu chưa cao}}.",
+    "extra": "Cung cấp chẩn đoán mô bệnh học giải tỏa tâm lý lo lắng kéo dài cho phụ huynh.",
+    "tags": [
+      "PED-47",
+      "Sinh-thiet-than",
+      "Chi-dinh-7-Nguyen-vong-gia-dinh"
+    ]
+  },
+  {
+    "id": "PED47-049",
+    "type": "cloze",
+    "text": "Điều kiện an toàn bắt buộc về số lượng tiểu cầu trước khi chọc sinh thiết thận qua da là phải đạt từ {{c1::≥ 100.000 /mcL}}.",
+    "extra": "Ngăn ngừa tai biến chảy máu tụ máu dưới bao thận và chảy máu đường dẫn niệu.",
+    "tags": [
+      "PED-47",
+      "Sinh-thiet-than",
+      "Tieu-cau-an-toan"
+    ]
+  },
+  {
+    "id": "PED47-050",
+    "type": "cloze",
+    "text": "Chỉ số đông máu INR an toàn bắt buộc trước khi thực hiện thủ thuật sinh thiết thận qua da là phải {{c1::< 1.2}}.",
+    "extra": "Bảo đảm chức năng đông máu ngoại sinh hoàn toàn bình thường trước khi can thiệp xâm lấn.",
+    "tags": [
+      "PED-47",
+      "Sinh-thiet-than",
+      "INR-an-toan"
+    ]
+  },
+  {
+    "id": "PED47-051",
+    "type": "cloze",
+    "text": "Bước 1 trong thuật toán tiếp cận đái máu là phải khẳng định chắc chắn sự hiện diện của {{c1::hồng cầu trong nước tiểu}}.",
+    "extra": "Soi tươi hoặc soi cặn lắng ly tâm để loại trừ hoàn toàn các trường hợp đái myoglobin, hemoglobin hoặc thức ăn.",
+    "tags": [
+      "PED-47",
+      "Thuat-toan",
+      "Buoc-1-khang-dinh"
+    ]
+  },
+  {
+    "id": "PED47-052",
+    "type": "cloze",
+    "text": "Bước 2 trong thuật toán tiếp cận đái máu là phân định dứt khoát giữa đái máu cầu thận với {{c1::đái máu ngoài cầu thận}}.",
+    "extra": "Dựa vào hình dạng hồng cầu (pha tương phản), trụ hồng cầu và tỷ lệ protein niệu.",
+    "tags": [
+      "PED-47",
+      "Thuat-toan",
+      "Buoc-2-phan-dinh-vi-tri"
+    ]
+  },
+  {
+    "id": "PED47-053",
+    "type": "cloze",
+    "text": "Bước 3 trong thuật toán khi xác định đái máu cầu thận là định lượng nồng độ {{c1::bổ thể C3 và C4}} huyết thanh.",
+    "extra": "Chia thành 2 nhánh bệnh lý: nhánh có bổ thể giảm (APSGN, Lupus, MPGN) và nhánh bổ thể bình thường (IgA, Alport).",
+    "tags": [
+      "PED-47",
+      "Thuat-toan",
+      "Buoc-3-bo-the-C3-C4"
+    ]
+  },
+  {
+    "id": "PED47-054",
+    "type": "cloze",
+    "text": "Bước 4 trong thuật toán tiếp cận đái máu ngoài cầu thận là chỉ định phương tiện hình ảnh học hàng đầu là {{c1::Siêu âm hệ tiết niệu}}.",
+    "extra": "Giúp tầm soát sỏi thận, u thận, dị tật tắc nghẽn bể thận niệu quản và chấn thương.",
+    "tags": [
+      "PED-47",
+      "Thuat-toan",
+      "Buoc-4-sieu-am-he-nieu"
+    ]
+  },
+  {
+    "id": "PED47-055",
+    "type": "cloze",
+    "text": "Phương pháp chẩn đoán hình ảnh Doppler mạch máu thận được chỉ định để xác định {{c1::Hội chứng Nutcracker}}.",
+    "extra": "Đo vận tốc dòng máu tại chỗ hẹp tĩnh mạch thận trái giữa động mạch chủ bụng và động mạch mạc treo tràng trên.",
+    "tags": [
+      "PED-47",
+      "Can-lam-sang",
+      "Doppler-Nutcracker"
+    ]
+  },
+  {
+    "id": "PED47-056",
+    "type": "cloze",
+    "text": "Cạm bẫy số 1: Bỏ sót tình trạng Tăng huyết áp ở trẻ đái máu do không đo huyết áp bằng {{c1::băng quấn đúng kích cỡ}}.",
+    "extra": "Tăng huyết áp trong viêm cầu thận cấp có thể gây co giật do bệnh não tăng áp lực hoặc suy tim cấp phù phổi.",
+    "tags": [
+      "PED-47",
+      "Cam-bay",
+      "Bang-quan-huyet-ap"
+    ]
+  },
+  {
+    "id": "PED47-057",
+    "type": "cloze",
+    "text": "Băng quấn huyết áp chuẩn ở trẻ em phải có chiều rộng túi hơi bao phủ ít nhất {{c1::40% chu vi cánh tay}} của trẻ.",
+    "extra": "Băng quấn quá nhỏ sẽ làm kết quả huyết áp cao giả tạo; băng quấn quá to làm thấp giả tạo.",
+    "tags": [
+      "PED-47",
+      "Cam-bay",
+      "Kich-co-cuff-40%"
+    ]
+  },
+  {
+    "id": "PED47-058",
+    "type": "cloze",
+    "text": "Cạm bẫy số 2: Nhầm lẫn đái máu do Bệnh thận IgA với APSGN do không khai thác kỹ {{c1::thời điểm sau viêm họng}}.",
+    "extra": "IgA xuất hiện ngay ngày 1–2 của viêm họng; APSGN xuất hiện muộn sau 1–3 tuần.",
+    "tags": [
+      "PED-47",
+      "Cam-bay",
+      "Thoi-gian-u-benh-nham"
+    ]
+  },
+  {
+    "id": "PED47-059",
+    "type": "cloze",
+    "text": "Cạm bẫy số 3: Bỏ qua xét nghiệm tỷ lệ Canxi/Creatinine niệu ở trẻ đái máu vi thể đơn độc làm chậm trễ chẩn đoán {{c1::Tăng canxi niệu vô căn}}.",
+    "extra": "Tăng canxi niệu kéo dài có thể dẫn đến lắng đọng canxi tủy thận (Nephrocalcinosis) và sỏi thận.",
+    "tags": [
+      "PED-47",
+      "Cam-bay",
+      "Bo-qua-canxi-nieu"
+    ]
+  },
+  {
+    "id": "PED47-060",
+    "type": "cloze",
+    "text": "Cạm bẫy số 4: Thấy nước tiểu màu đỏ vội vàng chẩn đoán đái máu mà quên {{c1::soi cặn lắng ly tâm}}.",
+    "extra": "Dẫn đến thực hiện hàng loạt xét nghiệm xâm lấn tốn kém không cần thiết cho trẻ chỉ bị giả đái máu do thức ăn.",
+    "tags": [
+      "PED-47",
+      "Cam-bay",
+      "Quen-soi-kinh-hien-vi"
+    ]
+  },
+  {
+    "id": "PED47-061",
+    "type": "cloze",
+    "text": "Viêm cầu thận cấp hậu nhiễm liên cầu (APSGN) thường gặp nhất ở trẻ em trong độ tuổi từ {{c1::5 đến 12 tuổi}}.",
+    "extra": "Hiếm gặp ở trẻ dưới 2 tuổi do hệ miễn dịch chưa hoàn thiện khả năng sinh kháng thể kháng liên cầu.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "Do-tuoi-5-12"
+    ]
+  },
+  {
+    "id": "PED47-062",
+    "type": "cloze",
+    "text": "Chủng vi khuẩn liên cầu tan huyết beta nhóm A gây viêm họng sinh viêm cầu thận thường gặp nhất là type {{c1::M12 (hoặc 1, 4)}}.",
+    "extra": "Các type M gây bệnh ở da thường là type M49, 55, 57.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "Chung-M12"
+    ]
+  },
+  {
+    "id": "PED47-063",
+    "type": "cloze",
+    "text": "Hai kháng nguyên liên cầu chính tích tụ tại màng đáy cầu thận kích hoạt viêm trong APSGN là SPEB và {{c1::NAPlr}}.",
+    "extra": "Streptococcal Pyrogenic Exotoxin B (SPEB) và Nephritis-Associated Plasmin Receptor (NAPlr).",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "Khang-nguyen-SPEB-NAPlr"
+    ]
+  },
+  {
+    "id": "PED47-064",
+    "type": "cloze",
+    "text": "Hình ảnh đặc trưng trên kính hiển vi điện tử trong Viêm cầu thận sau nhiễm liên cầu là các nốt lắng đọng dưới biểu mô hình {{c1::bướu lạc đà (Humps)}}.",
+    "extra": "Các gò lắng đọng phức hợp miễn dịch IgG và bổ thể C3 nằm giữa màng đáy và tế bào có chân (podocyte).",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "Buou-lac-da-Humps"
+    ]
+  },
+  {
+    "id": "PED47-065",
+    "type": "cloze",
+    "text": "Biểu hiện miễn dịch huỳnh quang đặc trưng của APSGN là hình ảnh lắng đọng dạng hạt thô của {{c1::C3 và IgG}} dọc màng đáy và gian mạch.",
+    "extra": "Hình ảnh 'bầu trời đầy sao' (starry sky pattern) rất đặc hiệu cho APSGN đợt cấp.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "Mien-dich-huynh-quang"
+    ]
+  },
+  {
+    "id": "PED47-066",
+    "type": "cloze",
+    "text": "Trong điều trị APSGN, dùng kháng sinh Penicillin hoặc Amoxicillin trong 10 ngày nhằm mục đích {{c1::tiệt trừ vi khuẩn liên cầu}}.",
+    "extra": "Kháng sinh không làm thay đổi diễn tiến hay rút ngắn thời gian của viêm cầu thận đã khởi phát.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "Tiet-tru-lien-cau"
+    ]
+  },
+  {
+    "id": "PED47-067",
+    "type": "cloze",
+    "text": "Thuốc lợi tiểu quai đầu tay được lựa chọn để giải quyết tình trạng quá tải thể tích và phù trong APSGN là {{c1::Furosemid}} liều 1–2 mg/kg.",
+    "extra": "Furosemid giúp thải trừ nhanh muối nước, giảm áp lực lòng mạch và hỗ trợ hạ huyết áp hiệu quả.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "Furosemid-dau-tay"
+    ]
+  },
+  {
+    "id": "PED47-068",
+    "type": "cloze",
+    "text": "Chế độ ăn cho trẻ bị viêm cầu thận cấp có phù hoặc tăng huyết áp bắt buộc phải {{c1::ăn nhạt tuyệt đối}} (hạn chế muối dưới 1–2 g/ngày).",
+    "extra": "Ứ trệ natri là cơ chế bệnh sinh cốt lõi gây phù và tăng huyết áp thể tích trong viêm cầu thận.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "An-nhat-tuyet-doi"
+    ]
+  },
+  {
+    "id": "PED47-069",
+    "type": "cloze",
+    "text": "Lượng nước đưa vào hàng ngày ở trẻ APSGN có thiểu niệu tính bằng nước mất vô cảm cộng với {{c1::lượng nước tiểu hôm trước}}.",
+    "extra": "Nước mất vô cảm tính khoảng 300–400 mL/m2/ngày (hoặc 15–20 mL/kg/ngày).",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "Can-bang-nuoc"
+    ]
+  },
+  {
+    "id": "PED47-070",
+    "type": "cloze",
+    "text": "Biến chứng tim mạch nguy hiểm nhất đe dọa tử vong trong đợt cấp của APSGN là {{c1::Phù phổi cấp suy tim trái}} do quá tải thể tích.",
+    "extra": "Trẻ khó thở dữ dội, thở nhanh co kéo, ho khạc bọt hồng; cần tiêm ngay Furosemid liều cao và thở oxy.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "Bien-chung-phu-phoi"
+    ]
+  },
+  {
+    "id": "PED47-071",
+    "type": "cloze",
+    "text": "Biến chứng thần kinh cấp tính do tăng huyết áp nặng không kiểm soát trong APSGN là {{c1::Bệnh não do tăng huyết áp}}.",
+    "extra": "Trẻ đau đầu dữ dội, nôn vọt, nhìn mờ, lơ mơ hoặc co giật toàn thể; cần hạ huyết áp khẩn cấp bằng Nicardipine.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "Benh-nao-tang-HA"
+    ]
+  },
+  {
+    "id": "PED47-072",
+    "type": "cloze",
+    "text": "Diễn tiến phục hồi lâm sàng của APSGN theo thứ tự: hết phù và huyết áp ổn định sau 1–2 tuần, đái máu đại thể hết sau {{c1::khoảng vài tuần}}.",
+    "extra": "Đái máu vi thể có thể kéo dài dai dẳng từ 6 tháng đến 1 năm mà không ảnh hưởng đến tiên lượng dài hạn.",
+    "tags": [
+      "PED-47",
+      "APSGN",
+      "Dien-tien-hoi-phuc"
+    ]
+  },
+  {
+    "id": "PED47-073",
+    "type": "cloze",
+    "text": "Bệnh thận IgA thường gặp ở trẻ trai hơn trẻ gái với tỷ lệ nam/nữ khoảng {{c1::2:1 đến 3:1}}.",
+    "extra": "Đỉnh cao tuổi khởi phát bệnh thận IgA ở trẻ em là từ 10 đến 15 tuổi.",
+    "tags": [
+      "PED-47",
+      "Benh-than-IgA",
+      "Ty-le-nam-nu"
+    ]
+  },
+  {
+    "id": "PED47-074",
+    "type": "cloze",
+    "text": "Đặc điểm mô học kinh điển của Bệnh thận IgA trên nhuộm miễn dịch huỳnh quang là lắng đọng IgA ưu thế ở {{c1::vùng gian mạch cầu thận (Mesangium)}}.",
+    "extra": "Kèm theo tăng sinh tế bào gian mạch và tăng chất nền ngoại bào.",
+    "tags": [
+      "PED-47",
+      "Benh-than-IgA",
+      "Lang-dong-gian-mach"
+    ]
+  },
+  {
+    "id": "PED47-075",
+    "type": "cloze",
+    "text": "Hệ thống phân loại mô bệnh học chuẩn quốc tế hiện nay dùng để tiên lượng Bệnh thận IgA là thang điểm {{c1::Oxford (MEST-C score)}}.",
+    "extra": "Gồm 5 tiêu chí: Mesangial hypercellularity (M), Endocapillary hypercellularity (E), Segmental sclerosis (S), Tubular atrophy (T), Crescents (C).",
+    "tags": [
+      "PED-47",
+      "Benh-than-IgA",
+      "Thang-diem-Oxford"
+    ]
+  },
+  {
+    "id": "PED47-076",
+    "type": "cloze",
+    "text": "Yếu tố lâm sàng tiên lượng nguy cơ tiến triển xấu trong Bệnh thận IgA là {{c1::Protein niệu > 1 g/ngày}} dai dẳng.",
+    "extra": "Kèm theo tăng huyết áp khó kiểm soát và mức lọc cầu thận giảm ngay từ lúc chẩn đoán.",
+    "tags": [
+      "PED-47",
+      "Benh-than-IgA",
+      "Tien-luong-xau"
+    ]
+  },
+  {
+    "id": "PED47-077",
+    "type": "cloze",
+    "text": "Thuốc điều trị nền tảng đầu tay giúp làm giảm protein niệu và làm chậm tiến triển suy thận trong Bệnh thận IgA là {{c1::thuốc ức chế men chuyển (ACEi)}} hoặc ARB.",
+    "extra": "Làm giãn tiểu động mạch đi cầu thận, giảm áp lực lọc nội cầu thận và bảo vệ cấu trúc podocyte.",
+    "tags": [
+      "PED-47",
+      "Benh-than-IgA",
+      "Thuoc-ACEi-dau-tay"
+    ]
+  },
+  {
+    "id": "PED47-078",
+    "type": "cloze",
+    "text": "Khi Bệnh thận IgA có protein niệu dai dẳng > 1 g/ngày dù đã dùng ACEi tối ưu 3–6 tháng, chỉ định tiếp theo là dùng {{c1::Corticosteroid toàn thân}} trong 6 tháng.",
+    "extra": "Theo hướng dẫn KDIGO 2021, Corticoid giúp dập tắt phản ứng viêm gian mạch cầu thận.",
+    "tags": [
+      "PED-47",
+      "Benh-than-IgA",
+      "Chi-dinh-Corticoid"
+    ]
+  },
+  {
+    "id": "PED47-079",
+    "type": "cloze",
+    "text": "Hội chứng Alport di truyền lặn trên nhiễm sắc thể thường do đột biến xảy ra trên các gen {{c1::COL4A3 hoặc COL4A4}}.",
+    "extra": "Chiếm khoảng 15% các ca Alport; biểu hiện mức độ nặng tương đương ở cả hai giới nam và nữ.",
+    "tags": [
+      "PED-47",
+      "Alport",
+      "Gen-COL4A3-COL4A4"
+    ]
+  },
+  {
+    "id": "PED47-080",
+    "type": "cloze",
+    "text": "Biểu hiện mất thính lực trong Hội chứng Alport có đặc điểm là điếc tiếp nhận đối xứng hai bên ở dải {{c1::tần số cao (2000–8000 Hz)}}.",
+    "extra": "Tiến triển dần trong lứa tuổi học đường; cần đo thính lực đồ định kỳ hàng năm cho bệnh nhân.",
+    "tags": [
+      "PED-47",
+      "Alport",
+      "Diec-tan-so-cao"
+    ]
+  },
+  {
+    "id": "PED47-081",
+    "type": "cloze",
+    "text": "Viêm cầu thận màng tăng sinh (MPGN) gây đái máu kèm hội chứng thận hư đặc trưng bởi nồng độ bổ thể C3 {{c1::giảm liên tục kéo dài}}.",
+    "extra": "Hình ảnh màng đáy cầu thận dày lên dạng viền đôi (tram-track appearance) trên nhuộm bạc.",
+    "tags": [
+      "PED-47",
+      "MPGN",
+      "C3-giam-keo-dai"
+    ]
+  },
+  {
+    "id": "PED47-082",
+    "type": "cloze",
+    "text": "Kháng thể tự miễn kích hoạt con đường thay thế bổ thể thường gặp trong bệnh MPGN type II (bệnh lắng đọng dày đặc DDD) là {{c1::yếu tố C3NeF (C3 Nephritic Factor)}}.",
+    "extra": "C3NeF là tự kháng thể IgG gắn vào và ổn định enzym C3 convertase làm thoái giáng bổ thể C3 liên tục.",
+    "tags": [
+      "PED-47",
+      "MPGN",
+      "Yeu-to-C3NeF"
+    ]
+  },
+  {
+    "id": "PED47-083",
+    "type": "cloze",
+    "text": "Thành phần sỏi tiết niệu phổ biến nhất ở trẻ em (chiếm tới 70–80% các trường hợp) là {{c1::Sỏi Canxi Oxalate}}.",
+    "extra": "Thường liên quan đến tình trạng tăng canxi niệu vô căn hoặc tăng oxalat niệu.",
+    "tags": [
+      "PED-47",
+      "Soi-tiet-nieu",
+      "Canxi-Oxalate"
+    ]
+  },
+  {
+    "id": "PED47-084",
+    "type": "cloze",
+    "text": "Thuốc lợi tiểu nhóm Thiazide (như Hydrochlorothiazide) được chỉ định điều trị Tăng canxi niệu vô căn vì giúp {{c1::tăng tái hấp thu canxi}} tại ống lượn xa.",
+    "extra": "Làm giảm nồng độ canxi tự do trong nước tiểu, ngăn ngừa tạo sỏi và bảo tồn mật độ xương.",
+    "tags": [
+      "PED-47",
+      "Dieu-tri-canxi-nieu",
+      "Thiazide"
+    ]
+  },
+  {
+    "id": "PED47-085",
+    "type": "cloze",
+    "text": "Phương pháp chẩn đoán hình ảnh được lựa chọn đầu tay để tầm soát sỏi hệ tiết niệu ở trẻ em là {{c1::Siêu âm ổ bụng hệ niệu}}.",
+    "extra": "Hình ảnh nốt tăng âm kèm bóng cản âm phía sau; không nhiễm xạ nên rất an toàn cho trẻ nhỏ.",
+    "tags": [
+      "PED-47",
+      "Soi-tiet-nieu",
+      "Sieu-am-dau-tay"
+    ]
+  },
+  {
+    "id": "PED47-086",
+    "type": "cloze",
+    "text": "Khi siêu âm nghi ngờ sỏi nhưng không rõ, chỉ định chẩn đoán hình ảnh là {{c1::chụp CT-scan hệ niệu}} không cản quang.",
+    "extra": "Độ nhạy và độ đặc hiệu trên 95% phát hiện sỏi ở mọi vị trí của đường dẫn niệu.",
+    "tags": [
+      "PED-47",
+      "Soi-tiet-nieu",
+      "CT-scan-he-nieu"
+    ]
+  },
+  {
+    "id": "PED47-087",
+    "type": "cloze",
+    "text": "Kháng sinh đường tĩnh mạch đầu tay điều trị Viêm đài bể thận cấp (UTI trên) có sốt ở trẻ em là {{c1::Cefotaxime hoặc Ceftriaxone}}.",
+    "extra": "Liều Ceftriaxone 50–75 mg/kg/ngày tiêm 1 lần; bao phủ hầu hết các chủng vi khuẩn gram âm đường ruột.",
+    "tags": [
+      "PED-47",
+      "UTI-tren",
+      "Ceftriaxone-dau-tay"
+    ]
+  },
+  {
+    "id": "PED47-088",
+    "type": "cloze",
+    "text": "Sau đợt viêm đài bể thận ở trẻ dưới 2 tuổi, phương tiện tầm soát trào ngược bàng quang niệu quản là {{c1::chụp bàng quang niệu đạo (VCUG)}}.",
+    "extra": "Nhằm tầm soát dị tật trào ngược bàng quang niệu quản (VUR) bẩm sinh.",
+    "tags": [
+      "PED-47",
+      "Can-lam-sang",
+      "VCUG-trao-nguoc"
+    ]
+  },
+  {
+    "id": "PED47-089",
+    "type": "cloze",
+    "text": "Xạ hình thận bằng DMSA (Dimercaptosuccinic acid) là tiêu chuẩn vàng để phát hiện tổn thương {{c1::sẹo thận sau nhiễm trùng}} đài bể thận.",
+    "extra": "Sẹo thận làm suy giảm mức lọc cầu thận và là nguyên nhân gây tăng huyết áp thứ phát ở trẻ lớn.",
+    "tags": [
+      "PED-47",
+      "Can-lam-sang",
+      "Xa-hinh-DMSA-seo-than"
+    ]
+  },
+  {
+    "id": "PED47-090",
+    "type": "cloze",
+    "text": "Đái máu tái phát từng đợt kèm theo đau tinh hoàn hoặc giãn tĩnh mạch thừng tinh bên trái ở thiếu niên gầy cao gợi ý {{c1::Hội chứng Nutcracker}}.",
+    "extra": "Tĩnh mạch sinh dục trái đổ thẳng vào tĩnh mạch thận trái; ứ trệ áp lực tĩnh mạch thận sẽ dồn về tĩnh mạch thừng tinh.",
+    "tags": [
+      "PED-47",
+      "Nutcracker",
+      "Gian-TM-thung-tinh"
+    ]
+  },
+  {
+    "id": "PED47-091",
+    "type": "cloze",
+    "text": "Tiêu chuẩn chẩn đoán Hội chứng Nutcracker trên siêu âm Doppler là tỷ lệ vận tốc dòng máu đỉnh chỗ hẹp/trước hẹp đạt {{c1::> 5:1}} (hoặc tỷ lệ đường kính trước/tại chỗ hẹp > 4:1).",
+    "extra": "Xác nhận có sự cản trở huyết động đáng kể tại góc kẹp giữa động mạch mạc treo tràng trên và động mạch chủ.",
+    "tags": [
+      "PED-47",
+      "Nutcracker",
+      "Ty-le-Doppler-5-1"
+    ]
+  },
+  {
+    "id": "PED47-092",
+    "type": "cloze",
+    "text": "Thái độ xử trí ban đầu ở hầu hết trẻ em mắc Hội chứng Nutcracker là {{c1::theo dõi bảo tồn}} chờ trẻ lớn lên.",
+    "extra": "Khi trẻ phát triển chiều cao và tăng cân, lớp mỡ sau phúc mạc dày lên làm góc kẹp SMA rộng ra, triệu chứng tự thoái lui.",
+    "tags": [
+      "PED-47",
+      "Nutcracker",
+      "Theo-doi-bao-ton"
+    ]
+  },
+  {
+    "id": "PED47-093",
+    "type": "cloze",
+    "text": "Khối u thận nguyên phát thường gặp nhất ở trẻ nhỏ dưới 5 tuổi gây đái máu và sờ thấy u bụng là {{c1::U Wilms (Nephroblastoma)}}.",
+    "extra": "Chiếm 95% các u thận ác tính trẻ em; tiên lượng điều trị phối hợp phẫu thuật và hóa chất đạt tỷ lệ khỏi trên 90%.",
+    "tags": [
+      "PED-47",
+      "U-than",
+      "U-Wilms"
+    ]
+  },
+  {
+    "id": "PED47-094",
+    "type": "cloze",
+    "text": "Trong khám lâm sàng trẻ nghi ngờ U Wilms, nguyên tắc an toàn bắt buộc là {{c1::tránh sờ nắn thô bạo}}.",
+    "extra": "Sờ nắn mạnh tay có thể làm vỡ vỏ bọc khối u gây tràn tế bào ác tính vào khoang phúc mạc và xuất huyết nặng.",
+    "tags": [
+      "PED-47",
+      "Cam-bay-U-Wilms",
+      "Tranh-so-nan-manh"
+    ]
+  },
+  {
+    "id": "PED47-095",
+    "type": "cloze",
+    "text": "Thuốc hạ áp nhóm ức chế kênh Canxi đường truyền tĩnh mạch được ưu tiên hàng đầu trong cấp cứu cơn tăng huyết áp do viêm cầu thận là {{c1::Nicardipine}}.",
+    "extra": "Liều khởi đầu 0.5–1.0 mcg/kg/phút truyền tĩnh mạch liên tục, giúp kiểm soát huyết áp chính xác từng phút.",
+    "tags": [
+      "PED-47",
+      "Cap-cuu-tang-HA",
+      "Nicardipine"
+    ]
+  },
+  {
+    "id": "PED47-096",
+    "type": "cloze",
+    "text": "Tốc độ hạ huyết áp an toàn trong cơn tăng huyết áp cấp tính ở trẻ viêm cầu thận là hạ không quá {{c1::25% mức huyết áp ban đầu}} trong 6–8 giờ đầu.",
+    "extra": "Hạ huyết áp quá nhanh làm giảm áp lực tưới máu não và thận đột ngột gây nhồi máu não và suy thận cấp nặng hơn.",
+    "tags": [
+      "PED-47",
+      "Cap-cuu-tang-HA",
+      "Ha-HA-khong-qua-25%"
+    ]
+  },
+  {
+    "id": "PED47-097",
+    "type": "cloze",
+    "text": "Xét nghiệm kháng thể kháng màng đáy cầu thận (Anti-GBM) dương tính gặp trong bệnh lý tự miễn gây đái máu và ho ra máu là {{c1::Hội chứng Goodpasture}}.",
+    "extra": "Kháng thể tự miễn kháng lại chuỗi alpha-3 của collagen type IV tại màng đáy phế nang và màng đáy cầu thận.",
+    "tags": [
+      "PED-47",
+      "RPGN",
+      "Hoi-chung-Goodpasture"
+    ]
+  },
+  {
+    "id": "PED47-098",
+    "type": "cloze",
+    "text": "Xét nghiệm kháng thể ANCA dương tính gợi ý đái máu do bệnh lý {{c1::viêm vi mạch hệ thống}} (GPA hoặc MPA).",
+    "extra": "Gồm u hạt kèm viêm đa mạch (Granulomatosis with Polyangiitis) và viêm vi mạch đa phát (Microscopic Polyangiitis).",
+    "tags": [
+      "PED-47",
+      "RPGN",
+      "Khang-the-ANCA"
+    ]
+  },
+  {
+    "id": "PED47-099",
+    "type": "cloze",
+    "text": "Khi chọc sinh thiết thận, mẫu mô thận tối thiểu đạt tiêu chuẩn chẩn đoán bệnh học cầu thận bắt buộc phải chứa ít nhất {{c1::≥ 10 cầu thận}}.",
+    "extra": "Đảm bảo đủ số lượng đơn vị nephron để đánh giá đại diện trên kính hiển vi quang học và miễn dịch huỳnh quang.",
+    "tags": [
+      "PED-47",
+      "Sinh-thiet-than",
+      "Tieu-chuan-10-cau-than"
+    ]
+  },
+  {
+    "id": "PED47-100",
+    "type": "cloze",
+    "text": "Tư thế nằm bất động bắt buộc của bệnh nhi sau thủ thuật sinh thiết thận qua da là nằm ngửa trên mặt phẳng cứng trong {{c1::ít nhất 6 đến 12 giờ}}.",
+    "extra": "Tạo lực ép tự nhiên từ lưng lên vị trí chọc kim giúp cầm máu và ngăn ngừa tụ máu quanh thận.",
+    "tags": [
+      "PED-47",
+      "Theo-doi-sau-sinh-thiet",
+      "Nam-bat-dong-6-12h"
+    ]
+  },
+  {
+    "id": "PED47-101",
+    "type": "cloze",
+    "text": "Theo dõi nước tiểu sau sinh thiết thận: Nếu nước tiểu chuyển sang màu đỏ tươi có máu cục và trẻ kêu đau quặn hông thì phải nghi ngờ {{c1::chảy máu đài bể thận cấp}}.",
+    "extra": "Cần đo mạch huyết áp ngay, bất động tuyệt đối, truyền dịch và làm siêu âm cấp cứu kiểm tra bao thận.",
+    "tags": [
+      "PED-47",
+      "Theo-doi-sau-sinh-thiet",
+      "Chay-mau-sau-sinh-thiet"
+    ]
+  },
+  {
+    "id": "PED47-102",
+    "type": "cloze",
+    "text": "Đái máu vi thể sau vận động thể lực nặng (Exercise-induced hematuria) là hiện tượng {{c1::lành tính thoáng qua}}.",
+    "extra": "Nước tiểu sẽ tự trở về bình thường sau 48–72 giờ nghỉ ngơi mà không để lại bất kỳ tổn thương thận nào.",
+    "tags": [
+      "PED-47",
+      "Dai-mau-van-dong",
+      "Lanh-tinh-thoang-qua"
+    ]
+  },
+  {
+    "id": "PED47-103",
+    "type": "cloze",
+    "text": "Ở trẻ gái vị thành niên, mẫu nước tiểu xét nghiệm đái máu bắt buộc phải tránh thời điểm {{c1::đang có chu kỳ kinh nguyệt}}.",
+    "extra": "Máu kinh lẫn vào nước tiểu gây kết quả dương tính giả; nếu nghi ngờ cần lấy lại mẫu sau khi sạch kinh 3–5 ngày.",
+    "tags": [
+      "PED-47",
+      "Cam-bay",
+      "Tranh-lan-mau-kinh"
+    ]
+  },
+  {
+    "id": "PED47-104",
+    "type": "cloze",
+    "text": "Phương pháp lấy mẫu nước tiểu chuẩn xác nhất để làm cặn lắng và que thử ở trẻ có khả năng tự tiểu là lấy mẫu {{c1::nước tiểu giữa dòng}} vào buổi sáng sớm.",
+    "extra": "Bỏ phần nước tiểu đầu bãi để rửa trôi vi khuẩn và tế bào biểu mô từ lỗ niệu đạo ngoài.",
+    "tags": [
+      "PED-47",
+      "Ky-thuat-lay-mau",
+      "Nuoc-tieu-giua-dong"
+    ]
+  },
+  {
+    "id": "PED47-105",
+    "type": "cloze",
+    "text": "Khi trẻ có biểu hiện đái máu, thái độ xử trí lâm sàng sai lầm nghiêm trọng nhất là {{c1::cho thuốc cầm máu thường quy}} mà không tìm nguyên nhân.",
+    "extra": "Các thuốc cầm máu như Tranexamic acid có thể tạo máu cục bít tắc niệu quản gây suy thận ứ nước cấp tính vô cùng nguy hiểm.",
+    "tags": [
+      "PED-47",
+      "Cam-bay-sinh-tu",
+      "Cam-thuoc-cam-mau"
+    ]
+  }
+]
