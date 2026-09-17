@@ -1,0 +1,492 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-17T08:49:27.633519Z",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-25_Lieu_phap_Oxy_va_Ho_tro_ho_hap_khong_xam_lan",
+  "providers": [
+    "crossref_retraction_watch",
+    "europe_pmc_metadata",
+    "openalex"
+  ],
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "90256bc09734cccb37238f03049f1840d4cb3d909f389859627203cdbc868189",
+      "path": "raw/europe_pmc_metadata/90256bc09734cccb37238f03049f1840d4cb3d909f389859627203cdbc868189.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "7c81e345f6bba08cde1584a1b4417a8f32352f7c1330a9f89552fc17f82fcaca",
+      "path": "raw/openalex/7c81e345f6bba08cde1584a1b4417a8f32352f7c1330a9f89552fc17f82fcaca.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "8bc37c3d4e0f9414ce69c820640c3f0bd15ebfa8c67ce993c0a8866b5d9eb567",
+      "path": "raw/crossref_retraction_watch/8bc37c3d4e0f9414ce69c820640c3f0bd15ebfa8c67ce993c0a8866b5d9eb567.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "767bb21b4ef35b323a584f047d8f82f79c74e83b5d2d3d0414c3f23909ded6a1",
+      "path": "raw/europe_pmc_metadata/767bb21b4ef35b323a584f047d8f82f79c74e83b5d2d3d0414c3f23909ded6a1.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "c52cda5061a205a521c92a4fe5234a1897d20db4426c120a31f22e23a2d34d27",
+      "path": "raw/openalex/c52cda5061a205a521c92a4fe5234a1897d20db4426c120a31f22e23a2d34d27.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "f4ba41a780900d0ec61c53580cc68c8c5414d6defc443b730c13a52e1188de0e",
+      "path": "raw/crossref_retraction_watch/f4ba41a780900d0ec61c53580cc68c8c5414d6defc443b730c13a52e1188de0e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "2efc84086bf6e127d8018fa68f5c46df5accd2789bb5dd68c34e4788c5b55dd7",
+      "path": "raw/europe_pmc_metadata/2efc84086bf6e127d8018fa68f5c46df5accd2789bb5dd68c34e4788c5b55dd7.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "93a0c4c94b1b49f88fe38c8f7672e64bbe97c90b06bf63992ca9951553e17ca3",
+      "path": "raw/openalex/93a0c4c94b1b49f88fe38c8f7672e64bbe97c90b06bf63992ca9951553e17ca3.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "7d5289e02fb3e7745f7c8b43ea9cf2359a11375c8088c67864593a98f4cb6876",
+      "path": "raw/crossref_retraction_watch/7d5289e02fb3e7745f7c8b43ea9cf2359a11375c8088c67864593a98f4cb6876.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "05cdac9573b8ac95830e5361f5a4583b003b714c32ae28bfb6ea221ccadd01d1",
+      "path": "raw/europe_pmc_metadata/05cdac9573b8ac95830e5361f5a4583b003b714c32ae28bfb6ea221ccadd01d1.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "4f7574184afcd5917029a8277e3a60e3d33a3c4ead2814734b795dd988dd8cae",
+      "path": "raw/openalex/4f7574184afcd5917029a8277e3a60e3d33a3c4ead2814734b795dd988dd8cae.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "7c33b83ffa1784ee9dfd6e8a657dd0c659b2bc64dd8d947e27381fe7506323e9",
+      "path": "raw/crossref_retraction_watch/7c33b83ffa1784ee9dfd6e8a657dd0c659b2bc64dd8d947e27381fe7506323e9.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "35ee5eea37459fec81d9f132b973526b71e415d0e6519a4cbe2e1bde4446bfd2",
+      "path": "raw/europe_pmc_metadata/35ee5eea37459fec81d9f132b973526b71e415d0e6519a4cbe2e1bde4446bfd2.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "efa041939dd10dadde9687397fa9514bc2c9013db52ce73e7314c9e26c4d5b5a",
+      "path": "raw/openalex/efa041939dd10dadde9687397fa9514bc2c9013db52ce73e7314c9e26c4d5b5a.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "f88fafd40a79a1ea754d6cb9c3cfdd814eaf06038d51bd111b8e12add2b2268f",
+      "path": "raw/crossref_retraction_watch/f88fafd40a79a1ea754d6cb9c3cfdd814eaf06038d51bd111b8e12add2b2268f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "f2ad66cbf5d3a2cc880e8b2d87123ee09e9a775fb6fd648c5feb5d626682e7d8",
+      "path": "raw/europe_pmc_metadata/f2ad66cbf5d3a2cc880e8b2d87123ee09e9a775fb6fd648c5feb5d626682e7d8.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "212ee80804b5f21d6ec1732dbc8f9af575c4ed35063b00aa95304c2d8a7de32c",
+      "path": "raw/openalex/212ee80804b5f21d6ec1732dbc8f9af575c4ed35063b00aa95304c2d8a7de32c.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "8ce2b00b1f95a74960253e09642f05b87a70c6fb7b39f9fe856999adebfd4b31",
+      "path": "raw/crossref_retraction_watch/8ce2b00b1f95a74960253e09642f05b87a70c6fb7b39f9fe856999adebfd4b31.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "bf17861a3d9094b33806e8c27777de1ba5eff8afe175db80fd1e2ca1f96dd30a",
+      "path": "raw/europe_pmc_metadata/bf17861a3d9094b33806e8c27777de1ba5eff8afe175db80fd1e2ca1f96dd30a.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "da97df0e97c47a8684c1ca951694f8258269a2364696e853ce88f2cc74f4bd52",
+      "path": "raw/openalex/da97df0e97c47a8684c1ca951694f8258269a2364696e853ce88f2cc74f4bd52.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-17T08:49:27.633519Z",
+      "sha256": "04634484ef7ec532b5703f5f914c156279c4c7d52d998b113734b9751e0fa62e",
+      "path": "raw/crossref_retraction_watch/04634484ef7ec532b5703f5f914c156279c4c7d52d998b113734b9751e0fa62e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "records": {
+    "pmid:29562151": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "29562151",
+        "doi": "10.1056/nejmoa1714855"
+      },
+      "title": "A Randomized Trial of High-Flow Oxygen Therapy in Infants with Bronchiolitis",
+      "abstract": "<h4>Background</h4>High-flow oxygen therapy through a nasal cannula has been increasingly used in infants with bronchiolitis, despite limited high-quality evidence of its efficacy. The efficacy of high-flow oxygen therapy through a nasal cannula in settings other than intensive care units (ICUs) is unclear.<h4>Methods</h4>In this multicenter, randomized, controlled trial, we assigned infants younger than 12 months of age who had bronchiolitis and a need for supplemental oxygen therapy to receive either high-flow oxygen therapy (high-flow group) or standard oxygen therapy (standard-therapy group). Infants in the standard-therapy group could receive rescue high-flow oxygen therapy if their condition met criteria for treatment failure. The primary outcome was escalation of care due to treatment failure (defined as meeting ≥3 of 4 clinical criteria: persistent tachycardia, tachypnea, hypoxemia, and medical review triggered by a hospital early-warning tool). Secondary outcomes included duration of hospital stay, duration of oxygen therapy, and rates of transfer to a tertiary hospital, ICU admission, intubation, and adverse events.<h4>Results</h4>The analyses included 1472 patients. The percentage of infants receiving escalation of care was 12% (87 of 739 infants) in the high-flow group, as compared with 23% (167 of 733) in the standard-therapy group (risk difference, -11 percentage points; 95% confidence interval, -15 to -7; P<0.001). No significant differences were observed in the duration of hospital stay or the duration of oxygen therapy. In each group, one case of pneumothorax (<1% of infants) occurred. Among the 167 infants in the standard-therapy group who had treatment failure, 102 (61%) had a response to high-flow rescue therapy.<h4>Conclusions</h4>Among infants with bronchiolitis who were treated outside an ICU, those who received high-flow oxygen therapy had significantly lower rates of escalation of care due to treatment failure than those in the group that received standard oxygen therapy. (Funded by the National Health and Medical Research Council and others; Australian and New Zealand Clinical Trials Registry number, ACTRN12613000388718 .).",
+      "journal": "The New England journal of medicine",
+      "year": "2018",
+      "publication_types": [
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T08:49:27.633519Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T08:49:27.633519Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "90256bc09734cccb37238f03049f1840d4cb3d909f389859627203cdbc868189",
+        "7c81e345f6bba08cde1584a1b4417a8f32352f7c1330a9f89552fc17f82fcaca",
+        "8bc37c3d4e0f9414ce69c820640c3f0bd15ebfa8c67ce993c0a8866b5d9eb567"
+      ]
+    },
+    "pmid:36648469": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "36648469",
+        "doi": "10.1001/jama.2022.21805"
+      },
+      "title": "Effect of Early High-Flow Nasal Oxygen vs Standard Oxygen Therapy on Length of Hospital Stay in Hospitalized Children With Acute Hypoxemic Respiratory Failure: The PARIS-2 Randomized Clinical Trial",
+      "abstract": "<h4>Importance</h4>Nasal high-flow oxygen therapy in infants with bronchiolitis and hypoxia has been shown to reduce the requirement to escalate care. The efficacy of high-flow oxygen therapy in children aged 1 to 4 years with acute hypoxemic respiratory failure without bronchiolitis is unknown.<h4>Objective</h4>To determine the effect of early high-flow oxygen therapy vs standard oxygen therapy in children with acute hypoxemic respiratory failure.<h4>Design, setting, and participants</h4>A multicenter, randomized clinical trial was conducted at 14 metropolitan and tertiary hospitals in Australia and New Zealand, including 1567 children aged 1 to 4 years (randomized between December 18, 2017, and March 18, 2020) requiring hospital admission for acute hypoxemic respiratory failure. The last participant follow-up was completed on March 22, 2020.<h4>Interventions</h4>Enrolled children were randomly allocated 1:1 to high-flow oxygen therapy (n = 753) or standard oxygen therapy (n = 764). The type of oxygen therapy could not be masked, but the investigators remained blinded until the outcome data were locked.<h4>Main outcomes and measures</h4>The primary outcome was length of hospital stay with the hypothesis that high-flow oxygen therapy reduces length of stay. There were 9 secondary outcomes, including length of oxygen therapy and admission to the intensive care unit. Children were analyzed according to their randomization group.<h4>Results</h4>Of the 1567 children who were randomized, 1517 (97%) were included in the primary analysis (median age, 1.9 years [IQR, 1.4-3.0 years]; 732 [46.7%] were female) and all children completed the trial. The length of hospital stay was significantly longer in the high-flow oxygen group with a median of 1.77 days (IQR, 1.03-2.80 days) vs 1.50 days (IQR, 0.85-2.44 days) in the standard oxygen group (adjusted hazard ratio, 0.83 [95% CI, 0.75-0.92]; P < .001). Of the 9 prespecified secondary outcomes, 4 showed no significant difference. The median length of oxygen therapy was 1.07 days (IQR, 0.50-2.06 days) in the high-flow oxygen group vs 0.75 days (IQR, 0.35-1.61 days) in the standard oxygen therapy group (adjusted hazard ratio, 0.78 [95% CI, 0.70-0.86]). In the high-flow oxygen group, there were 94 admissions (12.5%) to the intensive care unit compared with 53 admissions (6.9%) in the standard oxygen group (adjusted odds ratio, 1.93 [95% CI, 1.35-2.75]). There was only 1 death and it occurred in the high-flow oxygen group.<h4>Conclusions and relevance</h4>Nasal high-flow oxygen used as the initial primary therapy in children aged 1 to 4 years with acute hypoxemic respiratory failure did not significantly reduce the length of hospital stay compared with standard oxygen therapy.<h4>Trial registration</h4>anzctr.org.au Identifier: ACTRN12618000210279.",
+      "journal": "JAMA",
+      "year": "2023",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T08:49:27.633519Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T08:49:27.633519Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "767bb21b4ef35b323a584f047d8f82f79c74e83b5d2d3d0414c3f23909ded6a1",
+        "c52cda5061a205a521c92a4fe5234a1897d20db4426c120a31f22e23a2d34d27",
+        "f4ba41a780900d0ec61c53580cc68c8c5414d6defc443b730c13a52e1188de0e"
+      ]
+    },
+    "pmid:35707984": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "35707984",
+        "doi": "10.1001/jama.2022.9615"
+      },
+      "title": "Effect of High-Flow Nasal Cannula Therapy vs Continuous Positive Airway Pressure Therapy on Liberation From Respiratory Support in Acutely Ill Children Admitted to Pediatric Critical Care Units: A Randomized Clinical Trial",
+      "abstract": "<h4>Importance</h4>The optimal first-line mode of noninvasive respiratory support for acutely ill children is not known.<h4>Objective</h4>To evaluate the noninferiority of high-flow nasal cannula therapy (HFNC) as the first-line mode of noninvasive respiratory support for acute illness, compared with continuous positive airway pressure (CPAP), for time to liberation from all forms of respiratory support.<h4>Design, setting, and participants</h4>Pragmatic, multicenter, randomized noninferiority clinical trial conducted in 24 pediatric critical care units in the United Kingdom among 600 acutely ill children aged 0 to 15 years who were clinically assessed to require noninvasive respiratory support, recruited between August 2019 and November 2021, with last follow-up completed in March 2022.<h4>Interventions</h4>Patients were randomized 1:1 to commence either HFNC at a flow rate based on patient weight (n = 301) or CPAP of 7 to 8 cm H2O (n = 299).<h4>Main outcomes and measures</h4>The primary outcome was time from randomization to liberation from respiratory support, defined as the start of a 48-hour period during which a participant was free from all forms of respiratory support (invasive or noninvasive), assessed against a noninferiority margin of an adjusted hazard ratio of 0.75. Seven secondary outcomes were assessed, including mortality at critical care unit discharge, intubation within 48 hours, and use of sedation.<h4>Results</h4>Of the 600 randomized children, consent was not obtained for 5 (HFNC: 1; CPAP: 4) and respiratory support was not started in 22 (HFNC: 5; CPAP: 17); 573 children (HFNC: 295; CPAP: 278) were included in the primary analysis (median age, 9 months; 226 girls [39%]). The median time to liberation in the HFNC group was 52.9 hours (95% CI, 46.0-60.9 hours) vs 47.9 hours (95% CI, 40.5-55.7 hours) in the CPAP group (absolute difference, 5.0 hours [95% CI -10.1 to 17.4 hours]; adjusted hazard ratio 1.03 [1-sided 97.5% CI, 0.86-∞]). This met the criterion for noninferiority. Of the 7 prespecified secondary outcomes, 3 were significantly lower in the HFNC group: use of sedation (27.7% vs 37%; adjusted odds ratio, 0.59 [95% CI, 0.39-0.88]); mean duration of critical care stay (5 days vs 7.4 days; adjusted mean difference, -3 days [95% CI, -5.1 to -1 days]); and mean duration of acute hospital stay (13.8 days vs 19.5 days; adjusted mean difference, -7.6 days [95% CI, -13.2 to -1.9 days]). The most common adverse event was nasal trauma (HFNC: 6/295 [2.0%]; CPAP: 18/278 [6.5%]).<h4>Conclusions and relevance</h4>Among acutely ill children clinically assessed to require noninvasive respiratory support in a pediatric critical care unit, HFNC compared with CPAP met the criterion for noninferiority for time to liberation from respiratory support.<h4>Trial registration</h4>ISRCTN.org Identifier: ISRCTN60048867.",
+      "journal": "JAMA",
+      "year": "2022",
+      "publication_types": [
+        "Comparative Study",
+        "research-article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Pragmatic Clinical Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T08:49:27.633519Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T08:49:27.633519Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "2efc84086bf6e127d8018fa68f5c46df5accd2789bb5dd68c34e4788c5b55dd7",
+        "93a0c4c94b1b49f88fe38c8f7672e64bbe97c90b06bf63992ca9951553e17ca3",
+        "7d5289e02fb3e7745f7c8b43ea9cf2359a11375c8088c67864593a98f4cb6876"
+      ]
+    },
+    "pmid:35390113": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "35390113",
+        "doi": "10.1001/jama.2022.3367"
+      },
+      "title": "Effect of High-Flow Nasal Cannula Therapy vs Continuous Positive Airway Pressure Following Extubation on Liberation From Respiratory Support in Critically Ill Children: A Randomized Clinical Trial",
+      "abstract": "<h4>Importance</h4>The optimal first-line mode of noninvasive respiratory support following extubation of critically ill children is not known.<h4>Objective</h4>To evaluate the noninferiority of high-flow nasal cannula (HFNC) therapy as the first-line mode of noninvasive respiratory support following extubation, compared with continuous positive airway pressure (CPAP), on time to liberation from respiratory support.<h4>Design, setting, and participants</h4>This was a pragmatic, multicenter, randomized, noninferiority trial conducted at 22 pediatric intensive care units in the United Kingdom. Six hundred children aged 0 to 15 years clinically assessed to require noninvasive respiratory support within 72 hours of extubation were recruited between August 8, 2019, and May 18, 2020, with last follow-up completed on November 22, 2020.<h4>Interventions</h4>Patients were randomized 1:1 to start either HFNC at a flow rate based on patient weight (n = 299) or CPAP of 7 to 8 cm H2O (n = 301).<h4>Main outcomes and measures</h4>The primary outcome was time from randomization to liberation from respiratory support, defined as the start of a 48-hour period during which the child was free from all forms of respiratory support (invasive or noninvasive), assessed against a noninferiority margin of an adjusted hazard ratio (HR) of 0.75. There were 6 secondary outcomes, including mortality at day 180 and reintubation within 48 hours.<h4>Results</h4>Of the 600 children who were randomized, 553 children (HFNC, 281; CPAP, 272) were included in the primary analysis (median age, 3 months; 241 girls [44%]). HFNC failed to meet noninferiority, with a median time to liberation of 50.5 hours (95% CI, 43.0-67.9) vs 42.9 hours (95% CI, 30.5-48.2) for CPAP (adjusted HR, 0.83; 1-sided 97.5% CI, 0.70-∞). Similar results were seen across prespecified subgroups. Of the 6 prespecified secondary outcomes, 5 showed no significant difference, including the rate of reintubation within 48 hours (13.3% for HFNC vs 11.5 % for CPAP). Mortality at day 180 was significantly higher for HFNC (5.6% vs 2.4% for CPAP; adjusted odds ratio, 3.07 [95% CI, 1.1-8.8]). The most common adverse events were abdominal distension (HFNC: 8/281 [2.8%] vs CPAP: 7/272 [2.6%]) and nasal/facial trauma (HFNC: 14/281 [5.0%] vs CPAP: 15/272 [5.5%]).<h4>Conclusions and relevance</h4>Among critically ill children requiring noninvasive respiratory support following extubation, HFNC compared with CPAP following extubation failed to meet the criterion for noninferiority for time to liberation from respiratory support.<h4>Trial registration</h4>isrctn.org Identifier: ISRCTN60048867.",
+      "journal": "JAMA",
+      "year": "2022",
+      "publication_types": [
+        "Comparative Study",
+        "Equivalence Trial",
+        "research-article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Pragmatic Clinical Trial",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T08:49:27.633519Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T08:49:27.633519Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "05cdac9573b8ac95830e5361f5a4583b003b714c32ae28bfb6ea221ccadd01d1",
+        "4f7574184afcd5917029a8277e3a60e3d33a3c4ead2814734b795dd988dd8cae",
+        "7c33b83ffa1784ee9dfd6e8a657dd0c659b2bc64dd8d947e27381fe7506323e9"
+      ]
+    },
+    "pmid:35377462": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "35377462",
+        "doi": "10.1002/14651858.cd010473.pub4"
+      },
+      "title": "Continuous positive airway pressure (CPAP) for acute bronchiolitis in children",
+      "abstract": "<h4>Background</h4>Acute bronchiolitis is one of the most frequent causes of emergency department visits and hospitalisation in children up to three years of age. There is no specific treatment for bronchiolitis except for supportive treatment, which includes ensuring adequate hydration and oxygen supplementation. Continuous positive airway pressure (CPAP) aims to widen the lungs' peripheral airways, enabling deflation of overdistended lungs in bronchiolitis. Increased airway pressure also prevents the collapse of poorly supported peripheral small airways during expiration. Observational studies report that CPAP is beneficial for children with acute bronchiolitis. This is an update of a review first published in 2015 and updated in 2019.<h4>Objectives</h4>To assess the efficacy and safety of CPAP compared to no CPAP or sham CPAP in infants and children up to three years of age with acute bronchiolitis.<h4>Search methods</h4>We conducted searches of CENTRAL (2021, Issue 7), which includes the Cochrane Acute Respiratory Infections Group Specialised Register, MEDLINE (1946 to August 2021), Embase (1974 to August 2021), CINAHL (1981 to August 2021), and LILACS (1982 to August 2021) in August 2021. We also searched the US National Institutes of Health Ongoing Trials Register ClinicalTrials.gov and the World Health Organization (WHO) International Clinical Trials Registry Platform (ICTRP) for completed and ongoing trials on 26 October 2021.<h4>Selection criteria</h4>We considered randomised controlled trials (RCTs), quasi-RCTs, cross-over RCTs, and cluster-RCTs evaluating the effect of CPAP in children with acute bronchiolitis.<h4>Data collection and analysis</h4>Two review authors independently assessed study eligibility, extracted data using a structured pro forma, analysed data, and performed meta-analyses. We used the Cochrane risk of bias tool to assess risk of bias in the included studies. We created a summary of the findings table employing GRADEpro GDT software.  MAIN RESULTS: We included three studies with a total of 122 children (62/60 in intervention/control arms) aged up to 12 months investigating nasal CPAP compared with supportive (or 'standard') therapy. We included one new trial (72 children) in the 2019 update that contributed data to the assessment of respiratory rate and the need for mechanical ventilation for this update. We did not identify any new trials for inclusion in the current update. The included studies were single-centre trials conducted in France, the UK, and India. Two studies were parallel-group RCTs, and one study was a cross-over RCT. The evidence provided by the included studies was of low certainty; we made an assessment of high risk of bias for blinding, incomplete outcome data, and selective reporting, and confidence intervals were wide. The effect of CPAP on the need for mechanical ventilation in children with acute bronchiolitis was uncertain due to risk of bias and imprecision around the effect estimate (risk difference -0.01, 95% confidence interval (CI) -0.09 to 0.08; 3 RCTs, 122 children; low certainty evidence). None of the trials measured time to recovery. Limited, low certainty evidence indicated that CPAP decreased respiratory rate (decreased respiratory rate is better) (mean difference (MD) -3.81, 95% CI -5.78 to -1.84; 2 RCTs, 91 children; low certainty evidence). Only one trial measured change in arterial oxygen saturation (increased oxygen saturation is better), and the results were imprecise (MD -1.70%, 95% CI -3.76 to 0.36; 1 RCT, 19 children; low certainty evidence). The effect of CPAP on change in arterial partial carbon dioxide pressure (pCO₂) (decrease in pCO₂ is better) was imprecise (MD -2.62 mmHg, 95% CI -5.29 to 0.05; 2 RCTs, 50 children; low certainty evidence). Duration of hospital stay was similar in both the CPAP and supportive care groups (MD 0.07 days, 95% CI -0.36 to 0.50; 2 RCTs, 50 children; low certainty evidence). Two studies did not report pneumothorax, but pneumothorax did not occur in one study. No studies reported occurrences of deaths. Several outcomes (change in partial oxygen pressure, hospital admission rate (from the emergency department to hospital), duration of emergency department stay, and need for intensive care unit admission) were not reported in the included studies.<h4>Authors' conclusions</h4>The use of CPAP did not reduce the need for mechanical ventilation in children with bronchiolitis, although the evidence was of low certainty. Limited, low certainty evidence suggests that breathing improved (a decreased respiratory rate) in children with bronchiolitis who received CPAP; this finding is unchanged from the 2015 review and 2019 update. Due to the limited available evidence, the effect of CPAP in children with acute bronchiolitis is uncertain for our other outcomes. Larger, adequately powered trials are needed to evaluate the effect of CPAP for children with acute bronchiolitis.",
+      "journal": "The Cochrane database of systematic reviews",
+      "year": "2022",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T08:49:27.633519Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T08:49:27.633519Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "35ee5eea37459fec81d9f132b973526b71e415d0e6519a4cbe2e1bde4446bfd2",
+        "efa041939dd10dadde9687397fa9514bc2c9013db52ce73e7314c9e26c4d5b5a",
+        "f88fafd40a79a1ea754d6cb9c3cfdd814eaf06038d51bd111b8e12add2b2268f"
+      ]
+    },
+    "pmid:37273226": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "37273226",
+        "doi": "10.1001/jamapediatrics.2023.1478"
+      },
+      "title": "Association of Extubation Failure Rates With High-Flow Nasal Cannula, Continuous Positive Airway Pressure, and Bilevel Positive Airway Pressure vs Conventional Oxygen Therapy in Infants and Young Children: A Systematic Review and Network Meta-Analysis",
+      "abstract": "<h4>Importance</h4>Extubation failure (EF) has been associated with worse outcomes in critically ill children. The relative efficacy of different modes of noninvasive respiratory support (NRS) to prevent EF is unknown.<h4>Objective</h4>To study the reported relative efficacy of different modes of NRS (high-flow nasal cannula [HFNC], continuous positive airway pressure [CPAP], and bilevel positive airway pressure [BiPAP]) compared to conventional oxygen therapy (COT).<h4>Data sources</h4>MEDLINE, Embase, and CINAHL Complete through May 2022.<h4>Study selection</h4>Randomized clinical trials that enrolled critically ill children receiving invasive mechanical ventilation for more than 24 hours and compared the efficacy of different modes of postextubation NRS.<h4>Data extraction and synthesis</h4>Random-effects models were fit using a bayesian network meta-analysis framework. Between-group comparisons were estimated using odds ratios (ORs) or mean differences with 95% credible intervals (CrIs). Treatment rankings were assessed by rank probabilities and the surface under the cumulative rank curve (SUCRA).<h4>Main outcomes and measures</h4>The primary outcome was EF (reintubation within 48 to 72 hours). Secondary outcomes were treatment failure (TF, reintubation plus NRS escalation or crossover to another NRS mode), pediatric intensive care unit (PICU) mortality, PICU and hospital length of stay, abdominal distension, and nasal injury.<h4>Results</h4>A total of 11 615 citations were screened, and 9 randomized clinical trials with a total of 1421 participants were included. Both CPAP and HFNC were found to be more effective than COT in reducing EF and TF (CPAP: OR for EF, 0.43; 95% CrI, 0.17-1.0 and OR for TF 0.27, 95% CrI 0.11-0.57 and HFNC: OR for EF, 0.64; 95% CrI, 0.24-1.0 and OR for TF, 0.34; 95% CrI, 0.16- 0.65). CPAP had the highest likelihood of being the best intervention for both EF (SUCRA, 0.83) and TF (SUCRA, 0.91). Although not statistically significant, BiPAP was likely to be better than COT for preventing both EF and TF. Compared to COT, CPAP and BiPAP were reported as showing a modest increase (approximately 3%) in nasal injury and abdominal distension.<h4>Conclusions and relevance</h4>The studies included in this systematic review and network meta-analysis found that compared with COT, EF and TF rates were lower with modest increases in abdominal distension and nasal injury. Of the modes evaluated, CPAP was associated with the lowest rates of EF and TF.",
+      "journal": "JAMA pediatrics",
+      "year": "2023",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Systematic Review",
+        "Network Meta-Analysis",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T08:49:27.633519Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T08:49:27.633519Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "f2ad66cbf5d3a2cc880e8b2d87123ee09e9a775fb6fd648c5feb5d626682e7d8",
+        "212ee80804b5f21d6ec1732dbc8f9af575c4ed35063b00aa95304c2d8a7de32c",
+        "8ce2b00b1f95a74960253e09642f05b87a70c6fb7b39f9fe856999adebfd4b31"
+      ]
+    },
+    "pmid:36661420": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "36661420",
+        "doi": "10.1097/pcc.0000000000003147"
+      },
+      "title": "Executive Summary of the Second International Guidelines for the Diagnosis and Management of Pediatric Acute Respiratory Distress Syndrome (PALICC-2)",
+      "abstract": "<h4>Objectives</h4>We sought to update our 2015 work in the Second Pediatric Acute Lung Injury Consensus Conference (PALICC-2) guidelines for the diagnosis and management of pediatric acute respiratory distress syndrome (PARDS), considering new evidence and topic areas that were not previously addressed.<h4>Design</h4>International consensus conference series involving 52 multidisciplinary international content experts in PARDS and four methodology experts from 15 countries, using consensus conference methodology, and implementation science.<h4>Setting</h4>Not applicable.<h4>Patients</h4>Patients with or at risk for PARDS.<h4>Interventions</h4>None.<h4>Measurements and main results</h4>Eleven subgroups conducted systematic or scoping reviews addressing 11 topic areas: 1) definition, incidence, and epidemiology; 2) pathobiology, severity, and risk stratification; 3) ventilatory support; 4) pulmonary-specific ancillary treatment; 5) nonpulmonary treatment; 6) monitoring; 7) noninvasive respiratory support; 8) extracorporeal support; 9) morbidity and long-term outcomes; 10) clinical informatics and data science; and 11) resource-limited settings. The search included MEDLINE, EMBASE, and CINAHL Complete (EBSCOhost) and was updated in March 2022. Grading of Recommendations, Assessment, Development, and Evaluation methodology was used to summarize evidence and develop the recommendations, which were discussed and voted on by all PALICC-2 experts. There were 146 recommendations and statements, including: 34 recommendations for clinical practice; 112 consensus-based statements with 18 on PARDS definition, 55 on good practice, seven on policy, and 32 on research. All recommendations and statements had agreement greater than 80%.<h4>Conclusions</h4>PALICC-2 recommendations and consensus-based statements should facilitate the implementation and adherence to the best clinical practice in patients with PARDS. These results will also inform the development of future programs of research that are crucially needed to provide stronger evidence to guide the pediatric critical care teams managing these patients.",
+      "journal": "Pediatric critical care medicine : a journal of the Society of Critical Care Medicine and the World Federation of Pediatric Intensive and Critical Care Societies",
+      "year": "2023",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-17T08:49:27.633519Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-17T08:49:27.633519Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "bf17861a3d9094b33806e8c27777de1ba5eff8afe175db80fd1e2ca1f96dd30a",
+        "da97df0e97c47a8684c1ca951694f8258269a2364696e853ce88f2cc74f4bd52",
+        "04634484ef7ec532b5703f5f914c156279c4c7d52d998b113734b9751e0fa62e"
+      ]
+    }
+  },
+  "content_hash": "4a684ba8fe87c7271610c27f7ed96d4241d4c8e1250d25d393fe04efd07a8df9"
+}

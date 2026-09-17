@@ -5,9 +5,9 @@ window.PED_LIBRARY_DATA = {
     "version": "1.0",
     "generated_at": "2026-09-16",
     "total_curriculum": 47,
-    "total_ped": 16,
+    "total_ped": 17,
     "total_pedytb": 2,
-    "total_cards": 1155,
+    "total_cards": 1243,
     "blocks": [
       "Block 0 — Nền tảng tư duy, Tiếp cận & Dược lý Nhi khoa",
       "Block 1 — Hồi sức, Cấp cứu & Ngộ độc Nhi khoa",
@@ -362,12 +362,12 @@ window.PED_LIBRARY_DATA = {
       "block": "Block 3 — Hô hấp Nhi khoa",
       "scope": "Chỉ định và giới hạn của canula mũi, mặt nạ có túi dự trữ; nguyên lý và chỉ định oxy dòng cao qua mũi (HFNC), thở áp lực dương liên tục (CPAP) trong suy hô hấp nhi.",
       "dependency": "PED-02",
-      "curriculum_status": "❌ CHƯA CÓ",
-      "has_ped": false,
+      "curriculum_status": "✅ GATES ĐẠT (MD + APKG 88 thẻ)",
+      "has_ped": true,
       "has_pedytb": false,
-      "cards_count": 0,
-      "apkg_file": null,
-      "folder_rel": ""
+      "cards_count": 88,
+      "apkg_file": "PED-25_Lieu_phap_Oxy_va_Ho_tro_ho_hap_khong_xam_lan_2026-09-17_RELEASE_v1.apkg",
+      "folder_rel": "03_Ho_hap/PED-25_Lieu_phap_Oxy_va_Ho_tro_ho_hap_khong_xam_lan"
     },
     {
       "id": "PED-26",
@@ -8983,6 +8983,1084 @@ window.PED_LIBRARY_DATA = {
       "apkg_file": "PED-24_Croup_Viem_thanh_khi_phe_quan_cap_2026-09-17_RELEASE_v1.apkg",
       "html_file": null,
       "folder_rel": "03_Ho_hap/PED-24_Croup_Viem_thanh_khi_phe_quan_cap"
+    },
+    {
+      "id": "PED-25",
+      "priority": "P0",
+      "title": "Liệu pháp Oxy & Hỗ trợ hô hấp không xâm lấn",
+      "block": "Block 3 — Hô hấp Nhi khoa",
+      "scope": "Chỉ định và giới hạn của canula mũi, mặt nạ có túi dự trữ; nguyên lý và chỉ định oxy dòng cao qua mũi (HFNC), thở áp lực dương liên tục (CPAP) trong suy hô hấp nhi.",
+      "dependency": "PED-02",
+      "curriculum_status": "✅ GATES ĐẠT (MD + APKG 88 thẻ)",
+      "has_ped": true,
+      "has_pedytb": false,
+      "has_cards": true,
+      "ped_file": "PED-25_Lieu_phap_Oxy_va_Ho_tro_ho_hap_khong_xam_lan_2026-09-17_RELEASE_v1.md",
+      "ped_content": "# BÀI HỌC CHUYÊN SÂU: LIỆU PHÁP OXY & HỖ TRỢ HÔ HẤP KHÔNG XÂM LẤN Ở TRẺ EM (HFNC & nCPAP)\n**Mã bài học:** PED-25 | **Thuộc Block:** 03 — Hô hấp Nhi khoa | **Chuẩn đào tạo:** Core 45 Nhi khoa lâm sàng\n**Đối tượng:** Bác sĩ Nội trú Nhi, Bác sĩ Cấp cứu Hồi sức Nhi, Học viên Chuyên khoa Nhi\n**Tiêu chuẩn chất lượng:** Why-based Clinical Education Standard | Release v1.0 (2026-09-17)\n\n---\n\n## 0. TỔNG QUAN — VÌ SAO BÀI HỌC NÀY ĐẶC BIỆT QUAN TRỌNG?\n\nTrong cấp cứu và hồi sức hô hấp nhi khoa, suy hô hấp là nguyên nhân hàng đầu dẫn đến kiệt sức, ngừng tuần hoàn hô hấp và tử vong.\nKhác với người lớn, dự trữ oxy của trẻ em cực kỳ hạn chế: tốc độ tiêu thụ oxy chuyển hóa tính theo cân nặng cao gấp 2 đến 3 lần người lớn ($6 - 8 \\text{ mL/kg/phút}$ so với $3 \\text{ mL/kg/phút}$), trong khi dung tích cặn chức năng (FRC) lại nhỏ và lồng ngực có độ giãn nở quá lớn.\nKhi đường thở bị tổn thương hoặc phế nang bị đông đặc, trẻ có thể tụt oxy máu nhanh chóng chỉ trong vòng vài phút.\n\nTuy nhiên, liệu pháp oxy và các phương thức hỗ trợ hô hấp không xâm lấn (Noninvasive Respiratory Support - NRS) từ lâu đã bị xem như một can thiệp \"mặc định\", dẫn đến hai thái cực sai lầm nguy hiểm tại giường bệnh:\n1. **Lạm dụng thụ động:** Cho trẻ thở oxy nồng độ cao bừa bãi mà không nắm rõ mục tiêu $SpO_2$, không kiểm soát nồng độ oxy hít vào ($\\text{FiO}_2$), gây ra tổn thương phổi do ngộ độc oxy, xẹp phổi hấp thu và co thắt mạch vành/mạch não.\n2. **Trì hoãn mù quáng:** Lạm dụng việc tăng vô hạn lưu lượng oxy qua gọng mũi hoặc mặt nạ ở một đứa trẻ đã kiệt sức cơ hô hấp, dẫn đến tình trạng \"thất bại thầm lặng\" và đặt nội khí quản trong tình huống cấp cứu ngừng thở hoảng loạn.\n\nSự ra đời của **Oxy dòng cao qua mũi (HFNC — High-Flow Nasal Cannula)** và **Thở áp lực dương liên tục qua mũi (nCPAP — Nasal Continuous Positive Airway Pressure)** đã tạo nên cuộc cách mạng trong tiếp cận suy hô hấp nhi khoa.\nCác phương thức này bắc một nhịp cầu vững chắc giữa liệu pháp oxy thông thường và thở máy xâm lấn, giúp hàng ngàn trẻ em tránh được việc phải đặt nội khí quản và các biến chứng nặng nề của thở máy.\n\nTriết lý điều trị cốt lõi của bài học này là: **\"Đúng thiết bị — Đúng lưu lượng — Đúng đích $SpO_2$ — Đánh giá lại liên tục để nâng bậc hoặc hạ bậc kịp thời\"**.\n\n---\n\n### 0.1. Nền tảng tối thiểu cần dùng ngay (Foundation Primer)\n\nTrước khi vận hành bất kỳ thiết bị hỗ trợ hô hấp nào tại giường bệnh, người thầy thuốc bắt buộc phải nắm vững và phân biệt rạch ròi 7 khái niệm nền tảng sinh lý học sau đây:\n\n1. **Phân suất oxy trong khí hít vào ($\\text{FiO}_2$ — Fraction of Inspired Oxygen):** Tỷ lệ phần trăm thể tích oxy nguyên chất có trong hỗn hợp khí hít vào của bệnh nhân.\nTrong khí trời tự nhiên, $\\text{FiO}_2$ cố định ở mức $0.21$ ($21\\%$).\nVới các dụng cụ dòng thấp, $\\text{FiO}_2$ thực tế trẻ nhận được luôn bị pha loãng bởi khí trời do trẻ hít thêm qua miệng và mũi.\nVới các hệ thống dòng cao (HFNC) hoặc CPAP kín có buồng trộn khí (blender), $\\text{FiO}_2$ được kiểm soát chính xác tuyệt đối từ $0.21$ đến $1.0$ ($21\\%$ đến $100\\%$).\n2. **Áp lực dương cuối thì thở ra (PEEP — Positive End-Expiratory Pressure):** Áp lực duy trì bên trong đường thở tại thời điểm kết thúc thì thở ra, tính bằng đơn vị $\\text{cmH}_2\\text{O}$.\nÁp lực này giữ cho các phế nang không bị xẹp hoàn toàn vào cuối thì thở ra, duy trì diện tích bề mặt trao đổi khí và ngăn ngừa chấn thương do xẹp mở chu kỳ (Atelectrauma).\n3. **Dung tích cặn chức năng (FRC — Functional Residual Capacity):** Thể tích khí còn lại trong phổi sau khi thở ra bình thường. Ở trẻ nhỏ, FRC sinh lý rất thấp (khoảng $30 \\text{ mL/kg}$), gần sát với thể tích đóng phế nang (Closing capacity), khiến phế nang rất dễ bị xẹp khi trẻ giảm thông khí hoặc nằm ngửa.\nCung cấp PEEP là biện pháp duy nhất giúp phục hồi FRC tại giường.\n4. **Kháng lực đường thở (Airway Resistance — $R_{aw}$):** Lực cản trở dòng khí lưu thông qua hệ thống ống dẫn khí, tuân theo **Định luật Poiseuille**: $R \\propto \\frac{8 \\eta l}{\\pi r^4}$.\nVì kháng lực tỷ lệ nghịch với lũy thừa bậc 4 của bán kính ($r^4$), nên ở trẻ nhũ nhi với đường thở hẹp bẩm sinh, vùng mũi hầu chiếm tới $50\\%$ tổng kháng lực đường thở.\nMột dòng khí sưởi ấm, làm ẩm và có lưu lượng lớn sẽ giúp triệt tiêu kháng lực mũi hầu này.\n5. **Hiệu ứng rửa trôi khoảng chết giải phẫu ($CO_2$ Washout Effect):** Thể tích khí nằm trong đường dẫn khí (khoang mũi, hầu họng, khí phế quản) không tham gia trao đổi khí được gọi là khoảng chết giải phẫu ($V_D$). Ở trẻ em, khoảng chết này chiếm tỷ lệ rất lớn trong thể tích lưu thông ($V_D/V_T \\approx 30 - 40\\%$).\nKhi cung cấp một dòng khí liên tục quét qua khoang mũi hầu, toàn bộ lượng khí giàu $CO_2$ còn đọng lại từ thì thở ra trước sẽ bị rửa sạch, biến vùng hầu họng thành một kho dự trữ khí giàu oxy tinh khiết cho nhịp hít vào tiếp theo.\n6. **Shunt trong phổi (Intrapulmonary Shunt):** Hiện tượng máu tĩnh mạch từ tim phải đi qua các mao mạch phổi nhưng không được tiếp xúc với phế nang có thông khí (tỷ lệ $V/Q = 0$), trở về tim trái mà không được bão hòa oxy.\nShunt phổi lớn (thường gặp trong viêm phổi đông đặc, ARDS, xẹp phổi) là nguyên nhân khiến thiếu oxy máu trơ với liệu pháp oxy dòng thấp thông thường; chỉ có áp lực dương (CPAP/PEEP) mới có thể mở lại phế nang để triệt tiêu shunt.\n7. **Chỉ số ROX (ROX Index — Respiratory Rate-Oxygenation Index):** Chỉ số tích hợp tại giường phản ánh mức độ đáp ứng hô hấp, tính bằng tỷ số giữa tỷ lệ oxy hóa máu ($SpO_2 / \\text{FiO}_2$) chia cho tần số thở của bệnh nhân: $\\text{ROX} = \\frac{SpO_2 / \\text{FiO}_2}{\\text{Tần số thở (lần/phút)}}$.\nĐây là công cụ dự báo sớm nguy cơ thất bại với hỗ trợ không xâm lấn có giá trị độ nhạy và độ đặc hiệu cao nhất hiện nay.\n\n---\n\n> ### 🚨 BOX ĐỎ CẤP CỨU: CỜ ĐỎ DỌA NGƯNG THỞ & THẤT BẠI HỖ TRỢ KHÔNG XÂM LẤN\n> \n> Khi tiếp cận bất kỳ bệnh nhi nào đang được hỗ trợ hô hấp, nếu xuất hiện **BẤT KỲ MỘT DẤU HIỆU NÀO** sau đây, người thầy thuốc **BẮT BUỘC PHẢI DỪNG MỌI NỖ LỰC TĂNG BẬC KHÔNG XÂM LẤN VÀ TIẾN HÀNH ĐẶT NỘI KHÍ QUẢN THỞ MÁY CẤP CỨU NGAY LẬP TỨC**:\n> \n> - **Cơn ngừng thở (Apnea) kéo dài > 20 giây** hoặc ngừng thở kèm nhịp tim chậm, tím tái tái diễn.\n> - **Rối loạn tri giác cấp tính:** Trẻ li bì, lơ mơ, hôn mê, không còn phản ứng với kích thích đau hoặc kích thích vật vã mất bù (dấu hiệu não thiếu oxy và toan chuyển hóa nặng).\n> - **Kiệt sức cơ hô hấp:** Nhịp thở chậm bất thường so với lứa tuổi (ví dụ trẻ nhũ nhi thở < 20 lần/phút sau một giai đoạn thở nhanh co kéo dữ dội), mất co kéo nhưng tím tái tăng lên (ngực im lặng - Silent chest).\n> - **Toan hô hấp mất bù tiến triển nặng:** Khí máu động mạch ghi nhận $pH < 7.20$ và $PaCO_2 > 65 \\text{ mmHg}$ dù đã tối ưu hóa thông khí không xâm lấn.\n> - **Thất bại oxy hóa máu trơ:** $SpO_2 < 88\\%$ dù đã thở nCPAP với $\\text{PEEP} \\ge 8 \\text{ cmH}_2\\text{O}$ và $\\text{FiO}_2 \\ge 60\\%$.\n> - **Rối loạn huyết động không ổn định:** Sốc mất bù, tụt huyết áp, nhịp tim chậm tiến triển, cần dùng thuốc vận mạch liều cao.\n> - **Chấn thương áp lực nặng:** Tràn khí màng phổi áp lực (Tension pneumothorax) chưa được dẫn lưu giải áp.\n\n---\n\n## 1. ĐỊNH NGHĨA & SINH LÝ HỌC TRAO ĐỔI KHÍ Ở TRẺ EM\n\n### 1.1 Đặc điểm giải phẫu và sinh lý hô hấp khác biệt ở trẻ em\n\nHệ hô hấp của trẻ em không phải là mô hình thu nhỏ của người lớn.\nViệc áp dụng các biện pháp hỗ trợ hô hấp đòi hỏi sự thấu hiểu sâu sắc các đặc điểm sinh lý học sau:\n\n- **Độ giãn nở của thành ngực (Chest wall compliance):** Lồng ngực trẻ sơ sinh và nhũ nhi cấu tạo chủ yếu bằng sụn, các xương sườn nằm ngang, cơ liên sườn kém phát triển.\nĐộ giãn nở thành ngực rất cao, làm giảm áp lực âm màng phổi cần thiết để giữ phổi nở ra.\nHậu quả là khi có tổn thương nhu mô làm giảm độ giãn nở phổi (lung compliance), thành ngực dễ bị lõm vào trong thì hít vào (co kéo lồng ngực), dẫn đến công thở tăng vọt và cơ hoành nhanh chóng kiệt sức.\n- **Cơ hoành là cơ hô hấp chính:** Cơ hoành trẻ nhỏ có tỷ lệ sợi cơ loại I (sợi co rút chậm, kháng mỏi) rất thấp (chỉ khoảng $10 - 25\\%$ ở trẻ sơ sinh so với $55\\%$ ở người lớn).\nDo đó, cơ hoành trẻ rất dễ bị kiệt sức khi phải gánh tải hô hấp kéo dài.\n- **Dung tích cặn chức năng (FRC) và thể tích đóng (Closing Volume):** Ở trẻ nhỏ, FRC sinh lý ($30 \\text{ mL/kg}$) nằm rất sát thể tích đóng ($35 \\text{ mL/kg}$).\nĐiều này có nghĩa là ngay cả trong nhịp thở bình thường, các đường thở nhỏ ở đáy phổi đã có xu hướng đóng lại vào cuối thì thở ra.\nTrẻ em duy trì FRC bằng cách tạo một áp lực dương sinh lý cuối thì thở ra (Auto-PEEP) thông qua cơ chế khép hẹp dây thanh âm thì thở ra (hiện tượng rên gừ - Grunting) hoặc tăng nhịp thở.\nKhi cơ hô hấp mỏi, Auto-PEEP mất đi, phổi sẽ xẹp hàng loạt.\n\n### 1.2 Đường cong phân ly Oxyhemoglobin & Điểm ngoặt sinh tử\n\nĐường cong phân ly oxyhemoglobin ($SPO_2 - PaO_2$) có dạng hình chữ S kinh điển:\n\n$$\\text{Mối quan hệ phi tuyến giữa } PaO_2 \\text{ và } SpO_2$$\n\n- **Đoạn dốc đứng ($SpO_2 < 90\\%$):** Tương ứng với áp lực riêng phần oxy trong máu động mạch $PaO_2 < 60 \\text{ mmHg}$.\nTại vùng này, chỉ cần một mức giảm rất nhỏ của $PaO_2$ sẽ dẫn đến sự sụt giảm nghiêm trọng của $SpO_2$ và độ bão hòa oxy mô.\nDo đó, mốc $SpO_2 = 90\\%$ được xem là \"bờ vực sinh tử\" trong hồi sức nhi.\n- **Đoạn cao nguyên ($SpO_2 > 95\\%$):** Tương ứng với $PaO_2 > 80 \\text{ mmHg}$.\nTại vùng này, nếu tiếp tục tăng $PaO_2$ lên $150 - 300 \\text{ mmHg}$ (bằng cách cho thở oxy $100\\%$ kéo dài), $SpO_2$ chỉ tăng thêm từ $98\\%$ lên $100\\%$, nhưng lượng oxy hòa tan trong huyết tương tăng cao sẽ gây ngộ độc oxy mà mắt thường không thể phát hiện qua máy đo bão hòa oxy mạch nảy.\n\n### 1.3 Xác lập đích SpO2 mục tiêu tại giường bệnh\n\nCung cấp oxy là một can thiệp dược lý có chỉ định, liều lượng và độc tính. Mục tiêu là duy trì oxy hóa mô đầy đủ mà không gây ngộ độc oxy.\n\n| Nhóm bệnh nhân | Đích $SpO_2$ mục tiêu | Cơ sở sinh lý học & Cảnh báo lâm sàng |\n|---|:---:|---|\n| **Trẻ em bình thường / Viêm phổi chung** | **$94 - 98\\%$** | Đảm bảo $PaO_2$ nằm trong khoảng an toàn ($70 - 90 \\text{ mmHg}$), tránh đoạn dốc tụt oxy, đồng thời ngăn ngừa tăng oxy máu quá mức (Hyperoxia). |\n| **Viêm tiểu phế quản cấp (Bronchiolitis)** | **$90 - 94\\%$** | Tránh lạm dụng oxy kéo dài không cần thiết; các thử nghiệm lâm sàng chứng minh đích $SpO_2 \\ge 90\\%$ an toàn tuyệt đối và giúp rút ngắn thời gian nằm viện. |\n| **Tim bẩm sinh tím có shunt Phải - Trái** | **$75 - 85\\%$** (hoặc đích riêng) | Cung cấp oxy nồng độ cao làm giãn mạch máu phổi, giảm áp lực phổi, làm máu lên phổi quá nhiều gây ứ huyết phổi và phù phổi cấp, đồng thời giảm lưu lượng máu hệ thống. |\n| **Tim bẩm sinh tuần hoàn phụ thuộc ống động mạch (PDA-dependent)** | **$80 - 85\\%$** (tối đa $88\\%$) | **Tuyệt đối cấm dùng oxy $100\\%$**: Oxy nồng độ cao là chất co mạch cực mạnh đối với cơ trơn ống động mạch, gây đóng ống động mạch đột ngột dẫn đến ngừng tim tử vong. |\n| **Trẻ sinh non điều trị tại NICU** | **$91 - 95\\%$** (Báo động $< 89\\%$ hoặc $> 95\\%$) | Nguy cơ bệnh võng mạc trẻ sinh non (ROP - Retinopathy of Prematurity) và loạn sản phế quản phổi (BPD) khi $SpO_2 > 95\\%$ kéo dài. |\n\n---\n\n## 2. PHÂN LOẠI & BẬC THANG THIẾT BỊ CUNG CẤP OXY DÒNG THẤP VÀ VỪA\n\n### 2.1 Định nghĩa hệ thống dòng thấp (Low-flow systems)\n\nHệ thống dòng thấp là hệ thống mà lưu lượng khí cung cấp từ thiết bị **thấp hơn lưu lượng đỉnh hít vào (Peak Inspiratory Flow Rate - PIFR)** của bệnh nhi.\nVí dụ: Một trẻ nhũ nhi nặng $10 \\text{ kg}$ có thể tích lưu thông $V_T \\approx 70 \\text{ mL}$, thời gian hít vào $T_i \\approx 0.4 \\text{ giây}$, lưu lượng đỉnh hít vào thực tế đạt tới $10 - 15 \\text{ L/phút}$.\nKhi bác sĩ cho trẻ thở oxy qua canula mũi với lưu lượng $1 - 2 \\text{ L/phút}$, thiết bị chỉ cung cấp được một phần nhỏ nhu cầu dòng hít vào của trẻ; phần lưu lượng còn lại trẻ bắt buộc phải hít khí trời xung quanh vào để bù đắp.\n\nDo đó, **nồng độ $\\text{FiO}_2$ thực tế mà phế nang nhận được trong hệ thống dòng thấp không bao giờ cố định**, mà biến thiên liên tục phụ thuộc vào:\n- Tần số thở và thể tích lưu thông của trẻ.\n- Tỷ lệ thời gian hít vào / thở ra ($T_i/T_e$).\n- Mức độ hít thở bằng miệng hay bằng mũi.\n\n### 2.2 Canula mũi thông thường (Nasal Cannula / Gọng mũi)\n\n- **Nguyên lý hoạt động:** Cung cấp oxy nguyên chất ($100\\%$) vào hai lỗ mũi trước.\nKhoang mũi hầu đóng vai trò như một buồng chứa khí giải phẫu nhỏ ($V_{reservoir} \\approx 1 - 2 \\text{ mL/kg}$).\n- **Lưu lượng quy chuẩn:**\n  - Trẻ sơ sinh: $0.25 - 1.0 \\text{ L/phút}$ (thường dùng lưu lượng kế vi thể $0.1 - 1 \\text{ L/phút}$).\n  - Trẻ nhũ nhi: $0.5 - 2.0 \\text{ L/phút}$.\n  - Trẻ lớn: $1.0 - 4.0 \\text{ L/phút}$.\n- **Ưu điểm:** Tiện dụng, rẻ tiền, trẻ dung nạp tốt, không cản trở việc ăn uống, bú mẹ và giao tiếp; giảm cảm giác sợ hãi ngột ngạt so với mặt nạ.\n- **Hạn chế:** Khi lưu lượng vượt quá $2 \\text{ L/phút}$ ở trẻ nhỏ, dòng khí lạnh và khô chưa được làm ẩm đầy đủ sẽ gây kích ứng niêm mạc, khô rát mũi, chảy máu cam và co thắt phế quản phản xạ.\nKhông thể cung cấp $\\text{FiO}_2$ cao khi trẻ suy hô hấp nặng.\n\n### 2.3 Mặt nạ đơn giản (Simple Face Mask)\n\n- **Cấu tạo & Nguyên lý:** Mặt nạ bằng nhựa dẻo trong suốt, trùm kín mũi và miệng trẻ, có các lỗ thoát khí ở hai bên thân mặt nạ.\nThể tích lòng mặt nạ ($100 - 200 \\text{ mL}$) hoạt động như một khoang dự trữ khí bổ sung.\n- **Lưu lượng quy chuẩn:** Bắt buộc cài đặt **$5 - 8 \\text{ L/phút}$**. Cung cấp $\\text{FiO}_2 \\approx 35 - 50\\%$.\n- **Cảnh báo an toàn sống còn:** **CẤM TUYỆT ĐỐI CÀI ĐẶT LƯU LƯỢNG DƯỚI 5 L/PHÚT.** Nếu lưu lượng oxy vào mặt nạ $< 5 \\text{ L/phút}$, dòng khí vào không đủ để quét sạch khí thở ra chứa nhiều $CO_2$ ra khỏi các lỗ thoát.\nBuồng mặt nạ sẽ biến thành một khoang chết cơ học khổng lồ, khiến trẻ hít lại chính khí $CO_2$ của mình, dẫn đến toan hô hấp tăng carbonic máu cấp tính nguy hiểm.\n\n### 2.4 Mặt nạ có túi dự trữ không thở lại (Non-Rebreathing Mask - NRM)\n\n- **Cấu tạo tinh vi:**\n  1. Một túi dự trữ khí (reservoir bag) gắn liền dưới mặt nạ.\n2.\nMột van một chiều giữa túi dự trữ và mặt nạ: chỉ mở ra khi trẻ hít vào (cho phép trẻ hít oxy $100\\%$ từ túi) và đóng chặt khi trẻ thở ra (ngăn khí thở ra đi vào túi dự trữ).\n3.\nMột hoặc hai van một chiều ở lỗ thoát hai bên thân mặt nạ: mở ra khi thở ra (cho khí thở ra thoát ra ngoài) và đóng lại khi hít vào (ngăn tối đa khí trời lọt vào).\n- **Lưu lượng quy chuẩn:** Bắt buộc cài đặt **$10 - 15 \\text{ L/phút}$** (hoặc đủ lớn để giữ cho túi dự trữ luôn căng phồng ít nhất $2/3$ thể tích trong suốt chu kỳ hít vào).\nCung cấp $\\text{FiO}_2 \\approx 80 - 95\\%$.\n- **Chỉ định:** Cấp cứu suy hô hấp giảm oxy máu nặng, sốc mất bù, ngộ độc khí Carbon Monoxide (CO), phù phổi cấp, hoặc làm cầu nối an toàn trong khi chuẩn bị đặt nội khí quản.\n\n| Thiết bị | Lưu lượng (L/phút) | $\\text{FiO}_2$ ước tính | Ưu điểm nổi bật | Nhược điểm & Bẫy lâm sàng |\n|---|:---:|:---:|---|---|\n| **Gọng oxy mũi (Canula)** | $0.5 - 2$ (trẻ nhỏ)<br>$1 - 4$ (trẻ lớn) | $24 - 35\\%$ | Dung nạp tốt, dễ ăn bú, đơn giản tại khoa phòng | Dễ tuột, gây khô niêm mạc nếu $> 2 \\text{ L/phút}$, $\\text{FiO}_2$ không ổn định |\n| **Mặt nạ đơn giản (Simple mask)** | $5 - 8$ | $35 - 50\\%$ | Cung cấp $\\text{FiO}_2$ trung bình nhanh chóng | Trẻ khó chịu, cản trở ăn uống, **nguy cơ ứ $CO_2$ nếu dòng $< 5 \\text{ L/phút}$** |\n| **Mặt nạ túi không thở lại (NRM)** | $10 - 15$ | $80 - 95\\%$ | Cung cấp $\\text{FiO}_2$ tối đa trong tình huống cấp cứu sốc/suy hô hấp | Cần nguồn dòng lớn, túi phải luôn phồng $\\ge 2/3$, chỉ dùng ngắn hạn |\n\n---\n\n\nChuỗi cơ chế sưởi ấm ẩm: Khí ấm ẩm 37°C → Bảo tồn hoạt động thang máy lông chuyển → Làm loãng dịch đờm phế quản → Giảm tiêu hao năng lượng chuyển hóa sưởi ấm khí.\nChuỗi cơ chế rửa trôi khoảng chết: Dòng khí cao liên tục → Rửa sạch CO2 tích tụ khoang hầu họng → Biến hầu họng thành kho dự trữ khí giàu O2 → Giảm công thở thông khí phút.\nChuỗi cơ chế triệt tiêu kháng lực: Dòng khí đáp ứng lưu lượng đỉnh hít vào → Thỏa mãn tức thì nhu cầu phế nang → Giảm áp lực âm trong lồng ngực → Triệt tiêu kháng lực đường thở trên.\nChuỗi cơ chế tạo PEEP động: Khí thở ra ma sát với dòng khí đi vào → Tạo áp lực dương cuối thở ra 2–4 cmH2O → Giữ phế nang không bị xẹp cuối thì thở ra → Phục hồi dung tích cặn chức năng FRC.\nChuỗi cơ chế nCPAP mở phế nang: Áp lực dương liên tục toàn chu kỳ → Mở lại các phế nang bị xẹp → Tối ưu hóa tỷ lệ thông khí tưới máu V/Q → Giảm shunt nội phổi và tăng oxy hóa máu.\n\nMô hình sinh lý bệnh học 5 tầng của suy hô hấp giảm oxy ở trẻ em:\nTầng 1: Tổn thương viêm phù nề và tắc nghẽn đường thở nhỏ hoặc đông đặc phế nang.\nTầng 2: Mất cân xứng thông khí tưới máu V/Q và gia tăng Shunt nội phổi.\nTầng 3: Giảm dung tích cặn chức năng FRC xuống dưới thể tích đóng của phổi.\nTầng 4: Tăng công hô hấp bù trừ dẫn đến kiệt sức cơ hoành và cơ liên sườn.\nTầng 5: Giảm thông khí phế nang toàn bộ, toan hô hấp hỗn hợp và ngừng thở ngừng tim.\n\n\n## 3. CƠ CHẾ SINH LÝ HỌC CỦA OXY DÒNG CAO QUA MŨI (HFNC)\n\nHFNC không đơn thuần là cho thở oxy lưu lượng lớn.\nBản chất của HFNC là một hệ thống cung cấp khí thở hoàn chỉnh kết hợp giữa: **Lưu lượng dòng vượt đỉnh hít vào + Kiểm soát chính xác $\\text{FiO}_2$ qua bộ trộn khí + Sưởi ấm và làm ẩm bão hòa chủ động**.\n\nHFNC mang lại hiệu quả điều trị vượt trội thông qua 5 cơ chế sinh lý bệnh học liên hoàn sau đây:\n\n### 3.1 Cơ chế 1: Sưởi ấm (37°C) và Làm ẩm bão hòa (100% độ ẩm tương đối)\n\nỞ người bình thường, vùng mũi hầu đảm nhiệm chức năng sưởi ấm khí hít vào lên $37^\\circ\\text{C}$ và bão hòa $100\\%$ độ ẩm tương đối ($44 \\text{ mg H}_2\\text{O/L}$ khí).\nKhi trẻ thở nhanh sâu trong suy hô hấp hoặc khi thở oxy thường, luồng khí khô lạnh làm tê liệt hoạt động của lớp tế bào biểu mô có lông chuyển, làm mất nước lớp nhầy niêm mạc, dẫn đến dịch tiết phế quản cô đặc thành các nút nhầy gây tắc nghẽn đường thở nhỏ.\n- **Tác động của HFNC:** Hệ thống làm ẩm chủ động cung cấp khí thở ở đúng $37^\\circ\\text{C}$ và $100\\%$ độ ẩm tương đối.\n- **Chuỗi cơ chế:**\n$$\\text{Khí ấm ẩm } 37^\\circ\\text{C} \\rightarrow \\text{Bảo tồn thang máy lông chuyển (Mucociliary clearance)} \\rightarrow \\text{Làm loãng đờm, chống tạo nút nhầy} \\rightarrow \\text{Giảm tiêu hao năng lượng chuyển hóa sưởi ấm khí}$$\n\n### 3.2 Cơ chế 2: Rửa trôi khoảng chết giải phẫu mũi hầu ($CO_2$ Washout)\n\nKhoang mũi hầu của trẻ em hoạt động như một buồng chứa tĩnh.\nVào cuối thì thở ra, khoang này chứa đầy khí phế nang giàu $CO_2$.\nKhi bắt đầu nhịp hít vào tiếp theo, trẻ sẽ phải hít lại toàn bộ thể tích khí giàu $CO_2$ này trước khi khí mới đi vào phổi.\n- **Tác động của HFNC:** Dòng khí lưu lượng cao liên tục thổi qua hầu họng sẽ quét sạch và đẩy toàn bộ khí $CO_2$ cũ ra ngoài qua đường miệng hoặc khe hở quanh lỗ mũi.\n- **Chuỗi cơ chế:**\n$$\\text{Dòng khí cao liên tục} \\rightarrow \\text{Rửa sạch } CO_2 \\text{ khoang hầu họng} \\rightarrow \\text{Biến hầu họng thành kho dự trữ khí giàu } O_2 \\rightarrow \\text{Tăng hiệu quả thông khí phế nang, giảm công thở thông khí phút}$$\n\n### 3.3 Cơ chế 3: Triệt tiêu kháng lực đường thở thì hít vào\n\nKhi trẻ bị suy hô hấp, lưu lượng đỉnh hít vào tăng vọt.\nNếu thiết bị cung cấp khí không đáp ứng đủ nhu cầu dòng này, bệnh nhi phải dùng cơ hô hấp phụ co kéo dữ dội để hút khí từ khí trời vào, tạo nên một áp lực âm rất lớn trong lồng ngực làm hẹp đường thở trên.\n- **Tác động của HFNC:** Bằng cách cung cấp một lưu lượng khí bằng hoặc vượt quá lưu lượng đỉnh hít vào của trẻ ($1.5 - 2 \\text{ L/kg/phút}$), HFNC đáp ứng tức thì nhu cầu dòng khí của phế nang.\nTrẻ không cần phải gắng sức tạo áp lực âm để hút khí, giúp triệt tiêu hoàn toàn kháng lực đường thở vùng mũi hầu.\n\n### 3.4 Cơ chế 4: Tạo áp lực dương cuối thì thở ra động (Dynamic PEEP)\n\nMặc dù hệ thống HFNC là hệ thống mở (gọng mũi không bít kín hoàn toàn lỗ mũi), nhưng ma sát giữa dòng khí lưu lượng lớn đi vào và luồng khí thở ra của bệnh nhi đi ra qua khe hở mũi sẽ tạo ra một áp lực cản trở dòng thở ra, sinh ra áp lực dương cuối thì thở ra (Dynamic PEEP).\n- Mức PEEP tạo ra dao động trong khoảng **$2 - 4 \\text{ cmH}_2\\text{O}$** (khi trẻ ngậm miệng có thể lên tới $5 - 6 \\text{ cmH}_2\\text{O}$).\n- **Chuỗi cơ chế:**\n$$\\text{Dynamic PEEP } 2 - 4 \\text{ cmH}_2\\text{O} \\rightarrow \\text{Giữ phế nang không xẹp cuối thì thở ra} \\rightarrow \\text{Tăng dung tích cặn chức năng (FRC)} \\rightarrow \\text{Cải thiện tỷ lệ } V/Q \\text{ và oxy hóa máu}$$\n\n### 3.5 Cơ chế 5: Tăng cường dung nạp và tương tác lâm sàng\n\nSo với mặt nạ CPAP ôm chặt mặt gây đau rát, loét sống mũi và cản trở hoàn toàn việc ăn uống, gọng mũi HFNC nhỏ gọn, mềm mại, cho phép trẻ tiếp tục bú mẹ, uống sữa, nói chuyện và duy trì tương tác âu yếm với cha mẹ.\nĐiều này làm giảm stress tâm lý, giảm kích thích vật vã, từ đó làm giảm trực tiếp mức tiêu thụ oxy toàn thân của trẻ.\n\n---\n\n## 4. PHÁC ĐỒ CÀI ĐẶT & ĐIỀU TRỊ BẰNG HFNC TẠI GIƯỜNG\n\n### 4.1 Phác đồ cài đặt ban đầu chuẩn theo cân nặng\n\nQuy tắc tính lưu lượng dòng (Flow rate) ban đầu được thống nhất theo các hướng dẫn hồi sức quốc tế và Bộ Y tế Việt Nam:\n\n$$\\text{Liều dòng khởi đầu HFNC:}$$\n- **Trẻ có cân nặng $\\le 10 \\text{ kg}$:** Cài đặt **$1.5 - 2.0 \\text{ L/kg/phút}$** (thông dụng nhất là bắt đầu ngay ở mức $2.0 \\text{ L/kg/phút}$ để đạt hiệu quả PEEP và rửa trôi khoảng chết tối ưu).\n- **Trẻ có cân nặng $> 10 \\text{ kg}$:** Áp dụng công thức cộng bậc thang:\n  $$\\text{Lưu lượng} = 2.0 \\text{ L/kg/phút cho 10 kg đầu} + 0.5 \\text{ L/kg/phút cho mỗi kg vượt trên 10 kg}$$\n  *(Ví dụ: Trẻ $14 \\text{ kg} \\rightarrow 10 \\times 2 + 4 \\times 0.5 = 20 + 2 = 22 \\text{ L/phút}$)*.\n- **Giới hạn tối đa (Cap flow):** Thông thường tối đa $50 - 60 \\text{ L/phút}$ đối với trẻ vị thành niên.\n\n### 4.2 Cài đặt FiO2 ban đầu và chuẩn độ đích\n\n- **$\\text{FiO}_2$ khởi đầu:** Thường bắt đầu ở mức **$40 - 60\\%$** (hoặc cao hơn nếu trẻ tím tái nặng).\n- **Chuẩn độ (Titration):** Điều chỉnh $\\text{FiO}_2$ tăng hoặc giảm từng bước $5 - 10\\%$ mỗi $10 - 15$ phút để giữ $SpO_2$ nằm vững chắc trong khoảng đích **$92 - 96\\%$** (hoặc $90 - 94\\%$ ở trẻ viêm tiểu phế quản).\n- **Nhiệt độ:** Cài đặt máy làm ẩm ở chế độ xâm lấn/dòng cao ($37^\\circ\\text{C}$ với buồng ẩm có dây đốt nhiệt).\n\n### 4.3 Quy trình 2 bước cai HFNC an toàn tại giường\n\nCai HFNC phải tuân thủ nghiêm ngặt nguyên tắc **\"Cai $\\text{FiO}_2$ trước — Cai Lưu lượng dòng sau\"**.\n\n1. **Bước 1: Giảm nồng độ oxy ($\\text{FiO}_2$ Weaning):**\n   - Khi trẻ ổn định lâm sàng (nhịp thở giảm, hết co kéo ngực, $SpO_2$ ổn định trong khoảng đích), ưu tiên hạ $\\text{FiO}_2$ từng bước $5\\%$ mỗi $1 - 2$ giờ.\n   - Mục tiêu là đưa $\\text{FiO}_2$ về mức an toàn $\\le 30 - 40\\%$ trước khi đụng vào lưu lượng dòng.\n2. **Bước 2: Giảm lưu lượng dòng (Flow Weaning):**\n   - Khi $\\text{FiO}_2 \\le 30 - 40\\%$ mà trẻ vẫn duy trì hô hấp thoải mái, bắt đầu giảm lưu lượng dòng từng bước **$0.5 \\text{ L/kg/phút}$** mỗi $2 - 4$ giờ.\n- **Ngưỡng ngừng (Discontinuation threshold):** Khi lưu lượng giảm xuống còn **$\\le 0.5 \\text{ L/kg/phút}$** (hoặc tổng lưu lượng $< 4 \\text{ L/phút}$ ở trẻ nhũ nhi) với $\\text{FiO}_2 \\le 30\\%$, tiến hành ngắt HFNC và chuyển sang thở oxy qua canula mũi thông thường hoặc cho thở khí trời hoàn toàn.\n\n---\n\n## 5. THỞ ÁP LỰC DƯƠNG LIÊN TỤC (nCPAP) — CƠ CHẾ & VẬN HÀNH\n\n### 5.1 Bản chất vật lý và sinh lý học của nCPAP\n\nKhác với HFNC là hệ thống mở dựa vào lưu lượng dòng, **nCPAP (Nasal Continuous Positive Airway Pressure)** là một phương thức thông khí cơ học không xâm lấn kín, duy trì một mức áp lực dương cố định bên trong đường dẫn khí trong suốt toàn bộ chu kỳ thở (cả thì hít vào lẫn thì thở ra) khi trẻ tự thở.\n\n4 Tác động sinh lý quyết định của nCPAP bao gồm:\n1. **Phục hồi thể tích phổi và FRC:** Cung cấp áp lực xuyên phổi liên tục, thắng lực căng bề mặt phế nang, mở lại các phế nang bị xẹp và giữ chúng không bị xẹp lại vào cuối thì thở ra.\n2. **Tối ưu hóa tỷ lệ Thông khí / Tưới máu ($V/Q$ Matching):** Mở rộng diện tích phế nang tham gia trao đổi khí, làm giảm tỷ lệ Shunt nội phổi từ các vùng phổi đông đặc/xẹp.\n3. **Giảm công thở (Work of Breathing):** Đưa phổi về đoạn dốc tối ưu của đường cong dung tích - áp lực (Pressure-Volume curve), nơi độ giãn nở phổi cao nhất, giúp cơ hoành cần ít lực co bóp hơn để tạo cùng một thể tích lưu thông.\n4. **Hỗ trợ huyết động ở bệnh nhân suy tim:** Áp lực dương trong lồng ngực làm giảm áp lực xuyên thành thất trái, từ đó **làm giảm hậu gánh thất trái**, hỗ trợ tống máu hiệu quả trong các trường hợp phù phổi huyết động hoặc suy tim sung huyết.\n\n### 5.2 Hệ thống Bubble CPAP (CPAP bọt nước) — Vũ khí tối thượng của Nhi khoa\n\nTrong hồi sức nhi khoa và sơ sinh, hệ thống Bubble CPAP được chứng minh có hiệu quả trao đổi khí vượt trội so với CPAP van cơ học nhờ cơ chế độc đáo:\n- Khí thở ra của bệnh nhân được dẫn sục vào một cột nước dưới độ sâu xác định ($4 - 8 \\text{ cm}$).\nChiều sâu ngập nước quyết định chính xác mức PEEP ($1 \\text{ cm}$ nước tương đương $1 \\text{ cmH}_2\\text{O}$).\n- Khi dòng khí sục qua nước tạo thành các bọt khí vỡ liên tục, nó sinh ra các **dao động áp lực vi thể tần số cao (Pressure oscillations)** với tần số $15 - 30 \\text{ Hz}$.\n- Các sóng dao động áp lực này lan truyền ngược vào phế nang, tạo ra cơ chế hòa trộn khí tương tự như thông khí dao động tần số cao (HFOV), giúp tăng cường khuếch tán $CO_2$ và oxy hóa máu mà không cần tăng áp lực đỉnh.\n\n### 5.3 Phác đồ cài đặt ban đầu và chuẩn độ nCPAP\n\n- **Giao diện (Interface):** Gọng mũi ngắn (Short binasal prongs) hoặc mặt nạ mũi (Nasal mask).\nBắt buộc chọn cỡ vừa khít, không để rò rỉ khí quanh mũi.\n- **Mức PEEP khởi đầu:** Thường bắt đầu ở mức **$4 - 5 \\text{ cmH}_2\\text{O}$**.\n- **Chuẩn độ PEEP:**\n  - Nếu trẻ vẫn còn co kéo ngực, $SpO_2$ chưa đạt mục tiêu: Tăng PEEP từng bước **$1 \\text{ cmH}_2\\text{O}$** mỗi $15 - 30$ phút.\n  - Mức PEEP tối ưu ở trẻ em thường nằm trong khoảng **$5 - 7 \\text{ cmH}_2\\text{O}$**.\n- Mức PEEP tối đa cho phép trong nCPAP thông thường là **$8 \\text{ cmH}_2\\text{O}$** (vượt quá mức này làm tăng nguy cơ chấn thương áp lực và cản trở máu tĩnh mạch trở về tim).\n- **Cài đặt $\\text{FiO}_2$:** Bắt đầu $40 - 60\\%$, điều chỉnh giữ $SpO_2$ trong khoảng đích $92 - 96\\%$.\n- **Lưu lượng nguồn khí (Total Flow):** Cài đặt dòng khí vào buồng trộn từ $6 - 10 \\text{ L/phút}$ (đảm bảo cột nước sục bọt liên tục ngay cả khi trẻ hít vào gắng sức).\n\n---\n\n## 6. LƯU ĐỒ BẬC THANG NÂNG BẬC HỖ TRỢ HÔ HẤP TẠI GIƯỜNG\n\n```text\n[Khí trời tự nhiên] (SpO2 < 92-94%, thở nhanh nhẹ)\n       │\n       ▼\n[Canula mũi thông thường] (0.5 - 2 L/phút, FiO2 24-35%)\n       │\n       ├─► ĐÁP ỨNG: Duy trì, giảm dần liều khi ổn định\n       ▼\n(Thất bại: SpO2 < 92%, co kéo ngực tăng, thở nhanh tăng)\n       │\n       ▼\n[LỰA CHỌN PHÂN NHÁNH CHIẾN LƯỢC TÙY BỆNH SINH]\n       │\n       ├───────────────────────────────────────┐\n       ▼                                       ▼\n[ƯU TIÊN HFNC ĐẦU TAY]               [ƯU TIÊN nCPAP ĐẦU TAY]\n- Viêm tiểu phế quản cấp             - Viêm phổi thùy đông đặc nặng\n- Khò khè tắc nghẽn đường thở nhỏ    - Xẹp phổi diện rộng (Atelectasis)\n- Trẻ kích thích, cần bú mẹ          - Phù phổi cấp huyết động / ARDS\n- Lưu lượng: 1.5 - 2 L/kg/phút       - PEEP: 4 - 6 cmH2O\n       │                                       │\n       ├───────────────────────────────────────┤\n       ▼                                  ▼\n  (Đánh giá lại tại 1h - 2h bằng ROX Index và Khí máu)\n       │\n       ├─► THÀNH CÔNG (ROX ≥ 4.88): Tiếp tục duy trì, cai dần\n       ▼\n  (THẤT BẠI: ROX < 3.85, toan hô hấp tăng, kiệt sức cơ)\n       │\n       ▼\n[ĐẶT NỘI KHÍ QUẢN THỞ MÁY XÂM LẤN CẤP CỨU]\n```text\n\n### Bảng phân định lâm sàng: Chọn HFNC hay nCPAP đầu tay?\n\n| Tiêu chí | Ưu tiên chọn HFNC | Ưu tiên chọn nCPAP |\n|---|---|---|\n| **Bệnh lý điển hình** | Viêm tiểu phế quản cấp, Croup sau rút ống, khò khè hen nhẹ-vừa. | Viêm phổi nặng đông đặc, xẹp phổi phế nang, phù phổi, ARDS nhi khoa. |\n| **Cơ chế bệnh sinh chính** | Tắc nghẽn đường thở nhỏ do đờm dãi, tăng kháng lực mũi hầu, khoảng chết tăng. | Xẹp phế nang hàng loạt, Shunt trong phổi lớn, giảm FRC trầm trọng. |\n| **Mức độ hợp tác của trẻ** | Trẻ bứt rứt, sợ mặt nạ, cần bú mẹ hoặc nuôi ăn qua đường miệng. | Trẻ chấp nhận đeo mặt nạ cố định chặt; có thể đặt sonde dạ dày giải áp. |\n| **Dung nạp & Biến chứng** | Dung nạp rất cao ($> 90\\%$), ít tổn thương da mũi. | Dễ loét vách ngăn mũi, chướng bụng, cần theo dõi điều dưỡng sát hơn. |\n\n---\n\n## 7. CHẨN ĐOÁN THẤT BẠI SỚM QUA CHỈ SỐ ROX INDEX & THEO DÕI\n\n### 7.1 Công thức toán học và Cơ sở sinh học của ROX Index\n\nChỉ số ROX (Respiratory Rate-Oxygenation Index) được tính toán đơn giản tại giường bệnh không cần làm xét nghiệm máu xâm lấn:\n\n$$\\text{ROX Index} = \\frac{SpO_2 / \\text{FiO}_2}{\\text{Tần số thở (lần/phút)}}$$\n\n*Lưu ý cách quy đổi:* $SpO_2$ tính theo phần trăm (ví dụ $95\\%$ thì lấy $95$), $\\text{FiO}_2$ tính theo số thập phân (ví dụ $40\\%$ thì lấy $0.40$).\n*Ví dụ:* Một trẻ có $SpO_2 = 94\\%$, đang thở $\\text{FiO}_2 = 50\\%$ ($0.50$), tần số thở đếm được là $40 \\text{ lần/phút}$:\n$$\\text{ROX} = \\frac{94 / 0.50}{40} = \\frac{188}{40} = 4.70$$\n\n**Bản chất sinh học:** Tử số ($SpO_2 / \\text{FiO}_2$) phản ánh mức độ oxy hóa máu; mẫu số (tần số thở) phản ánh công thở bù trừ.\nMột đứa trẻ có đáp ứng tốt sẽ có oxy hóa máu tăng lên (tử số tăng) và nhịp thở chậm lại (mẫu số giảm) $\\rightarrow$ chỉ số ROX tăng vọt.\nNgược lại, nếu trẻ thất bại, oxy hóa máu tụt xuống trong khi trẻ phải thở dồn dập $\\rightarrow$ chỉ số ROX sụt giảm nghiêm trọng.\n\n### 7.2 Phân tầng nguy cơ và Ngưỡng hành động tại các mốc thời gian\n\nThời điểm đánh giá chỉ số ROX vàng là: **Tại thời điểm bắt đầu ($0\\text{h}$), sau $2 \\text{ giờ}$, sau $6 \\text{ giờ}$ và sau $12 \\text{ giờ}$**.\n\n- **Vùng An toàn (ROX $\\ge 4.88$):** Dự báo tỷ lệ thành công cao với hỗ trợ không xâm lấn ($> 85\\%$), không cần nâng bậc can thiệp, tiếp tục phác đồ và chuẩn bị kế hoạch cai máy.\n- **Vùng Cảnh báo xám ($3.85 \\le \\text{ROX} < 4.88$):** Cần theo dõi sát tại giường mỗi giờ, kiểm tra lại vị trí gọng mũi, hút sạch đờm hầu họng, xem xét tăng nhẹ lưu lượng dòng hoặc PEEP.\n- **Vùng Báo động thất bại (ROX $< 3.85$):** Đặc biệt là khi ROX $< 3.85$ sau 2–6 giờ điều trị hoặc chỉ số ROX có xu hướng tụt dốc liên tục qua các mốc đo.\nĐây là dấu hiệu chắc chắn của thất bại hỗ trợ không xâm lấn: **Chuẩn bị kíp hồi sức đặt nội khí quản cấp cứu ngay, không tiếp tục trì hoãn!**\n\n---\n\n## 8. BIẾN CHỨNG & THEO DÕI TAI BIẾN HỖ TRỢ HÔ HẤP\n\nHỗ trợ hô hấp không xâm lấn dù an toàn hơn đặt nội khí quản nhưng vẫn tiềm ẩn nhiều tai biến nghiêm trọng nếu không kiểm soát đúng kỹ thuật:\n\n### 8.1 Chướng bụng đầy hơi do nuốt khí (Gastric Distension)\n- **Cơ chế:** Khi áp lực đường thở (PEEP hoặc dòng HFNC lớn) vượt quá áp lực mở của cơ thắt thực quản dưới (thường khoảng $6 - 8 \\text{ cmH}_2\\text{O}$ ở trẻ nhỏ), một lượng lớn khí thở sẽ đi vào thực quản và dạ dày.\n- **Hậu quả:** Dạ dày căng trướng khổng lồ đẩy cơ hoành lên cao, làm giảm thể tích lồng ngực, gây suy hô hấp nặng hơn và kích thích nôn trớ hít sặc dịch vị vào đường thở.\n- **Xử trí:** Bắt buộc đặt **ống thông dạ dày số 8–10F, mở nắp dẫn lưu tự do** cho mọi trẻ thở nCPAP hoặc thở HFNC lưu lượng cao kéo dài.\n\n### 8.2 Tổn thương loét tì đè vách ngăn và cánh mũi (Nasal Trauma)\n- **Cơ chế:** Gọng mũi (prong) quá to ép chặt vào sụn cánh mũi, hoặc gọng mũi bị kéo căng lệch trục tì đè liên tục lên vách ngăn mũi.\nNiêm mạc mũi trẻ mỏng manh nhanh chóng bị thiếu máu cục bộ hoại tử.\n- **Hậu quả:** Loét vách ngăn, biến dạng lỗ mũi vĩnh viễn, thậm chí thủng vách ngăn mũi.\n- **Dự phòng:** Luôn chọn cỡ prong có đường kính ngoài chiếm **$50 - 70\\%$ lỗ mũi**, không bao giờ chọn loại bít kín $100\\%$.\nSử dụng miếng dán hydrocolloid bảo vệ da sống mũi và vách ngăn.\n\n### 8.3 Chấn thương áp lực (Barotrauma — Tràn khí màng phổi)\n- **Cơ chế:** Áp lực dương quá cao làm phế nang căng giãn quá mức dẫn đến vỡ phế nang; khí len lỏi theo bao mạch máu vào trung thất (tràn khí trung thất) hoặc vỡ vào khoang màng phổi gây tràn khí màng phổi.\n- **Dấu hiệu nhận biết:** Trẻ đột ngột tím tái, $SpO_2$ tụt dốc không đáp ứng với tăng oxy, lồng ngực một bên phồng bất đối xứng, rì rào phế nang giảm mạnh một bên, tim bị đẩy lệch sang bên đối diện.\n- **Xử trí:** Chọc hút kim giải áp khoang màng phổi cấp cứu tại khoang liên sườn 2 đường trung đòn, sau đó đặt ống dẫn lưu màng phổi liên tục.\n\n### 8.4 Ngộ độc oxy và Xẹp phổi hấp thu (Absorption Atelectasis)\n- **Cơ chế:** Khi hít khí có $\\text{FiO}_2$ cao ($80 - 100\\%$) kéo dài, khí Nitơ trong phế nang (vốn là khí trơ giữ khung phế nang không xẹp) bị oxy thay thế hoàn toàn.\nOxy được các mao mạch phổi hấp thu rất nhanh vào máu.\nKhi tốc độ hấp thu oxy vượt quá tốc độ khí mới đi vào (ở các phế nang có thông khí kém), phế nang sẽ xẹp hoàn toàn (xẹp phổi hấp thu).\nĐồng thời, nồng độ oxy cao sinh ra các gốc tự do oxy hóa phá hủy màng phế nang - mao mạch.\n\n---\n\n## 9. 8 SAI LẦM LÂM SÀNG KINH ĐIỂN VÀ CẠM BẪY ĐIỀU TRỊ\n\n### Sai lầm 1: Cho thở oxy nồng độ cao kéo dài cho mọi trẻ khó thở mà không kiểm soát đích SpO2\n- **Thực tế lâm sàng:** Nhiều nhân viên y tế có tâm lý \"thừa oxy còn hơn thiếu\", luôn để lưu lượng oxy tối đa cho trẻ tím tái.\n- **Bản chất khoa học:** Khi $SpO_2$ đã đạt $100\\%$, oxy hòa tan trong máu ($PaO_2$) có thể vọt lên $200 - 400 \\text{ mmHg}$, gây co thắt động mạch não và động mạch vành, tạo các gốc tự do $ROS$ gây viêm phổi hóa học.\nLuôn chuẩn độ oxy để giữ $SpO_2$ trong khoảng đích khuyến cáo.\n\n### Sai lầm 2: Cài đặt mặt nạ đơn giản với lưu lượng dưới 5 L/phút\n- **Thực tế lâm sàng:** Thấy trẻ nhũ nhi còn nhỏ nên vặn lưu lượng oxy $2 - 3 \\text{ L/phút}$ vào mặt nạ đơn giản vì sợ \"dòng mạnh quá trẻ chịu không nổi\".\n- **Bản chất khoa học:** Buồng mặt nạ có thể tích $100 - 200 \\text{ mL}$.\nLưu lượng $< 5 \\text{ L/phút}$ không đủ áp lực để tống khí thở ra ra ngoài.\nTrẻ sẽ hít lại toàn bộ khí $CO_2$ tích tụ trong mask, dẫn đến toan hô hấp cấp tính.\nMặt nạ đơn giản bắt buộc cài $\\ge 5 \\text{ L/phút}$; nếu muốn dùng dòng thấp phải đổi sang gọng mũi canula.\n\n### Sai lầm 3: Chọn gọng mũi HFNC bít kín 100% hai lỗ mũi của trẻ\n- **Thực tế lâm sàng:** Chọn cỡ prong thật to để nhét thật khít vào mũi trẻ với hy vọng \"không bị thoát khí ra ngoài để áp lực PEEP vào phổi mạnh hơn\".\n- **Bản chất khoa học:** HFNC bắt buộc phải là một **hệ thống mở**.\nKhí thở ra của trẻ bắt buộc phải thoát ra ngoài qua khe hở giữa prong và lỗ mũi.\nNếu bít kín $100\\%$, áp lực trong phổi sẽ tăng vọt không kiểm soát theo lưu lượng dòng, gây chấn thương áp lực vỡ phế nang và tràn khí màng phổi ngay lập tức.\nCỡ prong chuẩn chỉ được chiếm tối đa $50 - 70\\%$ đường kính lỗ mũi.\n\n### Sai lầm 4: Thở nCPAP kéo dài mà quên đặt ống thông dạ dày giải áp\n- **Thực tế lâm sàng:** Trẻ thở nCPAP được vài giờ bắt đầu trướng bụng căng cứng, quấy khóc, $SpO_2$ tụt dốc, bác sĩ vội vàng tăng PEEP và $\\text{FiO}_2$.\n- **Bản chất khoa học:** Áp lực PEEP liên tục đẩy một lượng lớn khí vào dạ dày.\nDạ dày phình to đẩy cơ hoành lên, làm giảm FRC và cản trở thông khí đáy phổi.\nChỉ cần đặt một ống thông dạ dày mở nắp xả khí, bụng trẻ sẽ xẹp xuống và $SpO_2$ hồi phục ngoạn mục.\n\n### Sai lầm 5: Cai lưu lượng dòng trước khi cai FiO2 ở bệnh nhi thở HFNC\n- **Thực tế lâm sàng:** Khi thấy trẻ đỡ khó thở, bác sĩ giảm ngay lưu lượng dòng từ $15 \\text{ L/phút}$ xuống $8 \\text{ L/phút}$ trong khi $\\text{FiO}_2$ vẫn đang để ở mức cao $60\\%$.\n- **Bản chất khoa học:** Lưu lượng dòng tạo ra PEEP động và hiệu ứng rửa trôi khoảng chết giải phẫu.\nNếu cắt giảm dòng sớm khi phổi chưa hồi phục, phế nang sẽ xẹp trở lại và công thở tăng vọt.\nQuy trình chuẩn bắt buộc phải hạ $\\text{FiO}_2$ về mức an toàn $\\le 30 - 40\\%$ trước, sau đó mới hạ dần lưu lượng dòng.\n\n### Sai lầm 6: Khí thở HFNC không được làm ấm và làm ẩm đúng chuẩn\n- **Thực tế lâm sàng:** Sử dụng nguồn oxy tường lạnh khô cắm qua bình làm ẩm bọt nước thông thường rồi tăng lưu lượng lên $15 - 20 \\text{ L/phút}$ cho trẻ thở qua gọng mũi thường.\n- **Bản chất khoa học:** Đây là hành vi cực kỳ nguy hiểm.\nKhí lạnh khô với lưu lượng lớn thổi trực tiếp vào niêm mạc mũi hầu sẽ làm đóng băng thang máy lông chuyển, khô rát trợt loét niêm mạc, hạ thân nhiệt và tạo các cục đờm quánh tắc nghẽn phế quản gây suy hô hấp cấp.\nHFNC bắt buộc phải có máy làm ẩm nhiệt chuyên dụng đạt $37^\\circ\\text{C}$ và $100\\%$ độ ẩm.\n\n### Sai lầm 7: Trì hoãn đặt nội khí quản ở trẻ thất bại với HFNC hoặc nCPAP\n- **Thực tế lâm sàng:** Thấy chỉ số ROX tụt dốc, trẻ kiệt sức thở chậm dần, nhưng bác sĩ vẫn chần chừ hy vọng bằng cách tăng dòng HFNC lên tối đa hoặc tăng $\\text{FiO}_2$ lên $100\\%$.\n- **Bản chất khoa học:** Tăng nồng độ oxy chỉ là biện pháp che đậy triệu chứng thiếu oxy máu tạm thời, không thể giải quyết được tình trạng kiệt sức cơ hô hấp và toan máu.\nTrì hoãn đặt nội khí quản ở bệnh nhân thất bại NRS làm tăng nguy cơ ngưng tim lúc đặt ống và tăng tỷ lệ tử vong.\n\n### Sai lầm 8: Dùng oxy liều cao cho trẻ tim bẩm sinh có tuần hoàn phụ thuộc ống động mạch\n- **Thực tế lâm sàng:** Trẻ sơ sinh tím tái, bác sĩ cấp cứu chụp mặt nạ oxy $100\\%$ xả dòng tối đa.\n- **Bản chất khoa học:** Ở trẻ bị dị tật tim phụ thuộc ống động mạch (như teo van động mạch phổi, hẹp eo động mạch chủ nặng, thiểu sản thất trái), mạng sống của trẻ phụ thuộc hoàn toàn vào luồng thông qua ống động mạch.\nOxy là chất kích thích co mạch mạnh nhất đối với ống động mạch.\nCho thở oxy nồng độ cao làm ống động mạch đóng sụp lại, dẫn đến sốc tim và tử vong trong chốc lát.\n\n---\n\n## 10. 4 CHECKPOINT TƯ DUY ĐỘT PHÁ TẠI GIƯỜNG\n\n### Checkpoint 1: Tính toán FiO2 và Lưu lượng cho trẻ suy hô hấp cấp bằng Canula vs Mask túi\n- **Tình huống:** Trẻ 8 tháng tuổi, $8 \\text{ kg}$, viêm phế quản phổi suy hô hấp cấp, $SpO_2 = 86\\%$ khí trời.\nBác sĩ trực quyết định cho thở oxy qua gọng mũi $2 \\text{ L/phút}$.\nSau 15 phút, trẻ thở rên, co kéo gian sườn dữ dội, $SpO_2 = 88\\%$.\nBác sĩ phân vân nên tăng dòng canula lên $4 \\text{ L/phút}$ hay chuyển sang mặt nạ có túi dự trữ NRM?\n- **Tư duy đột phá:**\n- Canula mũi ở trẻ $8 \\text{ kg}$ tối đa chỉ nên dùng $2 \\text{ L/phút}$ (cung cấp $\\text{FiO}_2$ tối đa khoảng $30 - 35\\%$).\nTăng lên $4 \\text{ L/phút}$ bằng canula thường sẽ làm khô niêm mạc, rát mũi mà không tạo được $\\text{FiO}_2$ cao vì trẻ thở quá nhanh làm pha loãng khí trời.\n  - Bệnh nhi có dấu hiệu suy hô hấp nặng co kéo dữ dội và $SpO_2 < 90\\%$, cần cung cấp $\\text{FiO}_2$ cao tức thì để bảo vệ tế bào não.\n- **Hành động đúng:** Chuyển ngay sang **Mặt nạ có túi dự trữ không thở lại (NRM)** với lưu lượng **$10 - 12 \\text{ L/phút}$** (giữ túi phồng $\\ge 2/3$) để đạt $\\text{FiO}_2 \\approx 85 - 90\\%$, đồng thời chuẩn bị hệ thống HFNC hoặc nCPAP để hỗ trợ áp lực.\n\n### Checkpoint 2: Nhận diện chỉ số ROX Index tụt dốc ở trẻ viêm phổi thở HFNC\n- **Tình huống:** Bé trai 18 tháng tuổi, $11 \\text{ kg}$, viêm phổi nặng thở HFNC với lưu lượng $20 \\text{ L/phút}$, $\\text{FiO}_2 = 45\\%$.\n  - Mốc $0\\text{h}$: $SpO_2 = 94\\%$, nhịp thở $48 \\text{ lần/phút} \\rightarrow \\text{ROX} = \\frac{94 / 0.45}{48} = 4.35$.\n  - Mốc $2\\text{h}$: $SpO_2 = 93\\%$, nhịp thở $52 \\text{ lần/phút}$, $\\text{FiO}_2$ phải tăng lên $55\\% \\rightarrow \\text{ROX} = \\frac{93 / 0.55}{52} = 3.25$.\n- **Tư duy đột phá:**\n- Nhìn bề ngoài $SpO_2$ vẫn được duy trì $93\\%$, điều dưỡng báo cáo \"tình trạng ổn định\".\nNhưng người bác sĩ có tư duy định lượng nhận thấy: để giữ được $SpO_2$ đó, $\\text{FiO}_2$ đã phải tăng từ $45\\%$ lên $55\\%$, và nhịp thở tăng từ 48 lên 52.\n  - Chỉ số ROX đã tụt dốc thảm hại từ $4.35$ xuống **$3.25$** (ngưỡng báo động $< 3.85$).\n- **Hành động đúng:** Đây là thất bại điều trị sớm với HFNC.\nKhông được tiếp tục tăng $\\text{FiO}_2$ lên $70 - 80\\%$ để chờ đợi.\nPhải hội chẩn bác sĩ hồi sức, chuyển ngay sang nCPAP với PEEP cao ($6 - 7 \\text{ cmH}_2\\text{O}$) hoặc chuẩn bị sẵn sàng dụng cụ đặt nội khí quản.\n\n### Checkpoint 3: Xử trí trẻ thở nCPAP bị chướng bụng căng tức và SpO2 tụt\n- **Tình huống:** Bé gái 4 tháng tuổi viêm tiểu phế quản nặng đang thở nCPAP với $\\text{PEEP} = 6 \\text{ cmH}_2\\text{O}$, $\\text{FiO}_2 = 40\\%$.\nSau 4 giờ thở máy, trẻ quấy khóc dữ dội, bụng trướng căng như quả bóng, gõ vang, $SpO_2$ tụt từ $95\\%$ xuống $89\\%$, co kéo dưới sườn tăng lên.\n- **Tư duy đột phá:**\n- Phản xạ sai lầm: Nghĩ rằng tổn thương phổi tiến triển nặng lên nên vội vàng tăng PEEP lên $7 - 8 \\text{ cmH}_2\\text{O}$ và tăng $\\text{FiO}_2$ lên $60\\%$.\nĐiều này làm áp lực khí vào dạ dày càng nhiều hơn, đẩy cơ hoành lên cao hơn và làm phổi xẹp nặng hơn.\n- Phân tích nguyên nhân: Áp lực PEEP làm khí tràn vào dạ dày gây chướng bụng cơ học cấp tính, cản trở chuyển động của cơ hoành (vốn là cơ hô hấp chính của trẻ nhũ nhi).\n- **Hành động đúng:** Đặt ngay một ống thông dạ dày (sonde dạ dày) số 8F, hút ra $150 \\text{ mL}$ khí và dịch sữa loãng, sau đó để hở ống thông vào túi dẫn lưu tự do.\nNgay sau khi giải áp dạ dày, bụng trẻ mềm ra, cơ hoành cử động dễ dàng, trẻ nằm yên và $SpO_2$ vọt lên $96\\%$ mà không cần tăng PEEP.\n\n### Checkpoint 4: Phân định ranh giới chuyển đổi từ HFNC sang nCPAP hay Đặt Nội khí quản\n- **Tình huống:** Trẻ đang thở HFNC liều tối ưu ($2 \\text{ L/kg/phút}$), $\\text{FiO}_2 = 60\\%$, nhưng lâm sàng không cải thiện sau 2 giờ.\nKhi nào thì chuyển sang nCPAP?\nKhi nào thì phải đặt nội khí quản ngay?\n- **Tư duy đột phá:**\n- **Điều kiện chuyển sang nCPAP:** Trẻ còn tỉnh táo, cơ hô hấp chưa kiệt sức (vẫn còn nhịp thở nhanh, co kéo bù trừ tốt), không có toan hô hấp nặng ($pH > 7.25$), bệnh lý nền là xẹp phổi hoặc tổn thương đông đặc phế nang cần PEEP thực sự để mở phế nang.\n- **Chỉ định đặt nội khí quản ngay:** Nếu trẻ đã có dấu hiệu kiệt sức cơ hô hấp (thở chậm dần, cơn ngừng thở ngắn), toan hô hấp mất bù nặng ($pH < 7.20, PaCO_2 > 65 \\text{ mmHg}$), rối loạn tri giác (li bì, không tiếp xúc), hoặc tổn thương phổi ARDS nặng tiến triển nhanh.\nViệc chuyển qua nCPAP lúc này chỉ làm mất thêm thời gian quý báu và dẫn đến ngừng thở đột ngột.\n\n---\n\n## 11. 2 CA LÂM SÀNG THỰC CHIẾN (CASE 1 & CASE 2)\n\n### Case 1: Bé 5 tháng tuổi viêm tiểu phế quản cấp nặng đáp ứng với HFNC\n- **Bệnh sử:** Bé trai 5 tháng tuổi, cân nặng $7.0 \\text{ kg}$, tiền sử sinh đủ tháng khỏe mạnh.\nTrẻ ho, chảy mũi 3 ngày, sốt nhẹ.\nNgày vào viện trẻ khó thở tăng dần, bú kém.\n- **Khám lúc nhập viện:** Trẻ tỉnh, kích thích quấy khóc, môi hồng khi khóc nhưng quanh miệng tái khi nằm yên.\nNhịp thở $68 \\text{ lần/phút}$, co kéo liên sườn và rút lõm hõm ức rõ rệt, phập phồng cánh mũi.\nNghe phổi có nhiều ran rít và ran ẩm nhỏ hạt rải rác hai phế trường. $SpO_2$ khí trời là $87\\%$.\nNhịp tim $165 \\text{ lần/phút}$, không sốc, huyết áp bình thường.\n- **Xử trí ban đầu:** Trẻ được cho thở oxy qua gọng mũi $1.5 \\text{ L/phút}$.\nSau 30 phút, $SpO_2$ chỉ dao động $89 - 90\\%$, trẻ thở nhanh $70 \\text{ lần/phút}$, co rút lồng ngực dữ dội, bắt đầu có biểu hiện mệt cơ.\n\n#### Phân tích và Kế hoạch điều trị chuyên sâu:\n1. **Chẩn đoán:** Suy hô hấp cấp mức độ nặng do Viêm tiểu phế quản cấp ngày 4, thất bại với liệu pháp oxy canula dòng thấp.\n2. **Lựa chọn hỗ trợ hô hấp:** Bệnh nhi bị viêm tiểu phế quản với cơ chế chính là phù nề niêm mạc tiểu phế quản, ứ đọng dịch nhầy và tăng khoảng chết giải phẫu.\nTrẻ $7 \\text{ kg}$ rất phù hợp để chỉ định **HFNC đầu tay**.\n3. **Cài đặt thông số HFNC:**\n   - Cỡ gọng mũi (prong): Chọn cỡ cho trẻ nhũ nhi (Infant size), đường kính prong chiếm khoảng $60\\%$ đường kính lỗ mũi, đảm bảo có khoảng trống thoát khí.\n   - Lưu lượng dòng khởi đầu: Liều $2.0 \\text{ L/kg/phút} \\times 7.0 \\text{ kg} = **14.0 \\text{ L/phút}**$.\n   - Cài đặt $\\text{FiO}_2$: Bắt đầu ở mức **$50\\%$**, kết nối buồng làm ẩm cài đặt nhiệt độ $37^\\circ\\text{C}$.\n4. **Theo dõi tiến triển tại giường:**\n   - Sau $1 \\text{ giờ}$: Nhịp thở giảm xuống $52 \\text{ lần/phút}$, co rút lồng ngực giảm rõ rệt, trẻ nằm yên trong lòng mẹ, $SpO_2 = 95\\%$.\n   - Tính chỉ số ROX tại 2 giờ: Trẻ thở $48 \\text{ lần/phút}$, giảm $\\text{FiO}_2$ xuống $40\\%$, $SpO_2 = 95\\%$:\n     $$\\text{ROX} = \\frac{95 / 0.40}{48} = \\frac{237.5}{48} = 4.95$$\n     *(Chỉ số $\\text{ROX} = 4.95 > 4.88 \\rightarrow$ Đáp ứng rất tốt, tiên lượng thành công cao).*\n5. **Kế hoạch cai HFNC:**\n   - Ngày thứ 2: Trẻ ổn định, nhịp thở $40 - 45 \\text{ lần/phút}$, hạ $\\text{FiO}_2$ xuống $30\\%$, $SpO_2 = 96\\%$.\n   - Tiến hành giảm lưu lượng dòng từ $14 \\text{ L/phút} \\rightarrow 10 \\text{ L/phút} \\rightarrow 7 \\text{ L/phút}$ ($1 \\text{ L/kg/phút}$).\n- Ngày thứ 3: Lưu lượng giảm về $3.5 \\text{ L/phút}$ ($0.5 \\text{ L/kg/phút}$), $\\text{FiO}_2 = 25\\%$.\nNgắt HFNC chuyển sang thở khí trời an toàn, trẻ bú mẹ tốt và xuất viện sau 4 ngày.\n\n---\n\n### Case 2: Bé 3 tuổi viêm phổi thùy biến chứng ARDS thở nCPAP thất bại\n- **Bệnh sử:** Bé gái 3 tuổi, cân nặng $14.0 \\text{ kg}$.\nSốt cao 4 ngày liên tục, ho đờm đục, điều trị phòng khám tư không đỡ.\nNgày thứ 4 trẻ thở mệt, li bì, được gia đình đưa vào khoa Cấp cứu.\n- **Khám lúc nhập viện:** Trẻ li bì, tiếp xúc chậm.\nThở rên rỉ, nhịp thở $58 \\text{ lần/phút}$, rút lõm lồng ngực sâu, thở ngực bụng nghịch thường.\nNghe phổi phải giảm thông khí rõ rệt vùng đáy kèm ran ẩm to nhỏ hạt, phổi trái có rải rác ran nổ. $SpO_2$ thở oxy qua mặt nạ túi $10 \\text{ L/phút}$ chỉ đạt $86\\%$.\nNhịp tim nhanh $175 \\text{ lần/phút}$, mạch quay rõ, thời gian đổ đầy mao mạch (CRT) $2.5 \\text{ giây}$, huyết áp $95/60 \\text{ mmHg}$.\n- **Cận lâm sàng khẩn:**\n  - X-quang ngực thẳng: Mờ đông đặc gần như toàn bộ thùy dưới phổi phải kèm tổn thương thâm nhiễm kính mờ lan tỏa hai bên phế trường.\n- Khí máu mao mạch: $pH = 7.24$, $PaCO_2 = 58 \\text{ mmHg}$, $PaO_2 = 52 \\text{ mmHg}$, $HCO_3^- = 24 \\text{ mmol/L}$, $BE = -3.5 \\text{ mmol/L}$.\nTỷ lệ $PaO_2/\\text{FiO}_2 \\approx 100$ (tổn thương phổi cấp mức độ nặng).\n\n#### Phân tích và Quyết định can thiệp từng bước:\n1. **Đánh giá mức độ:** Bệnh nhi bị Viêm phổi nặng biến chứng Hội chứng suy hô hấp cấp tiến triển ở trẻ em (PARDS mức độ nặng theo đồng thuận PALICC-2), Shunt trong phổi rất lớn, giảm FRC trầm trọng.\n2. **Can thiệp giai đoạn 1 — Thử nghiệm nCPAP có kiểm soát:**\n   - Vì tổn thương phế nang đông đặc lan tỏa, HFNC không đủ khả năng tạo PEEP áp lực cao. Bác sĩ chỉ định thở **nCPAP qua mặt nạ mũi**.\n   - Cài đặt PEEP ban đầu: **$6 \\text{ cmH}_2\\text{O}$**, $\\text{FiO}_2 = 70\\%$, lưu lượng dòng $10 \\text{ L/phút}$, đặt ngay sonde dạ dày số 10F giải áp.\n- Sau $30 \\text{ phút}$: Tăng PEEP lên **$7 \\text{ cmH}_2\\text{O}$**, $\\text{FiO}_2 = 80\\%$. $SpO_2$ cải thiện lên được $90\\%$, nhưng nhịp thở vẫn duy trì ở mức rất cao $56 \\text{ lần/phút}$, trẻ vã mồ hôi trán, ngực bụng nghịch thường.\n3. **Đánh giá thất bại tại thời điểm 2 giờ:**\n   - Khí máu động mạch kiểm tra lại sau 2 giờ: $pH = 7.18$, $PaCO_2 = 66 \\text{ mmHg}$, $PaO_2 = 55 \\text{ mmHg}$ ($SpO_2 = 88\\%$ với $\\text{FiO}_2 = 85\\%$).\n   - Đánh giá chỉ số ROX:\n     $$\\text{ROX} = \\frac{88 / 0.85}{56} = \\frac{103.5}{56} = 1.85$$\n     *(Chỉ số $\\text{ROX} = 1.85$ nằm sâu trong vùng nguy hiểm thảm họa $< 3.85$, kèm theo toan hô hấp mất bù $pH < 7.20$ và kiệt sức cơ).*\n4. **Xử trí quyết định — Đặt nội khí quản cấp cứu:**\n- Bác sĩ nhận định đây là **thất bại tuyệt đối với thông khí không xâm lấn**.\nKhông chần chừ tăng PEEP lên $8 - 9 \\text{ cmH}_2\\text{O}$ hay tăng $\\text{FiO}_2$ lên $100\\%$.\n- Kích hoạt kíp đặt nội khí quản hồi sức PICU: Chuẩn bị ống nội khí quản có bóng chèn (cuffed ETT) số 4.5, máy hút đờm, thuốc tiền mê và an thần giãn cơ (Ketamine + Rocuronium).\n- Đặt nội khí quản thành công, chuyển sang thở máy xâm lấn bảo vệ phổi (Lung protective ventilation) với thể tích lưu thông thấp $6 \\text{ mL/kg}$ và PEEP tối ưu $10 \\text{ cmH}_2\\text{O}$.\nBệnh nhi qua cơn nguy kịch và cai máy thở thành công sau 6 ngày.\n\n---\n\n## 12. TIPS THỰC HÀNH LÂM SÀNG & THEO DÕI ĐIỀU DƯỠNG\n\nDưới đây là 10 kinh nghiệm thực chiến đúc kết từ các chuyên gia hồi sức nhi khoa tại giường bệnh:\n\n- **Tip 1: Quy tắc 50–70% khi chọn cỡ gọng mũi HFNC:** Luôn đặt thử prong vào mũi trẻ trước khi bật máy.\nĐường kính ngoài của hai ngạnh gọng mũi chỉ được chiếm khoảng $1/2$ đến $2/3$ ($50 - 70\\%$) đường kính lỗ mũi.\nNếu nhét vào thấy cánh mũi bị bè ra hoặc căng phồng tức là quá to, phải đổi cỡ nhỏ hơn ngay để tránh nguy cơ tràn khí màng phổi.\n- **Tip 2: Kiểm tra bẫy nước (Water trap) trên đường dây HFNC:** Trong hệ thống HFNC làm ẩm nhiệt, hơi nước rất dễ ngưng tụ thành những giọt nước đọng trong đường ống.\nNếu không xả bẫy nước thường xuyên, cột nước đọng sẽ bị dòng khí đẩy thẳng vào mũi trẻ gây sặc nước cấp tính hoặc làm tắc nghẽn dòng khí gây báo động máy liên tục.\n- **Tip 3: Luôn mở nắp ống thông dạ dày khi thở CPAP:** Nhiều điều dưỡng có thói quen gập ống thông dạ dày hoặc đậy nắp sau khi cho ăn.\nKhi trẻ đang thở nCPAP, ống thông dạ dày bắt buộc phải được nối vào túi dẫn lưu mở tự do để khí thừa trong dạ dày thoát ra liên tục.\n- **Tip 4: Bí quyết pha oxy tạo nồng độ FiO2 chính xác khi không có buồng trộn (Blender):** Khi cấp cứu tại tuyến cơ sở chỉ có nguồn oxy tường và khí nén riêng rẽ, có thể tính toán lưu lượng cần phối hợp theo công thức:\n  $$\\text{Lưu lượng Oxy} = \\text{Tổng lưu lượng} \\times \\frac{\\text{FiO}_2 - 0.21}{0.79}$$\n- **Tip 5: Xử trí rò rỉ khí qua đường miệng khi thở nCPAP:** Nếu trẻ há miệng to, toàn bộ áp lực PEEP sẽ thoát ra ngoài qua miệng và hiệu quả mở phế nang biến mất.\nHãy dùng dây đai giữ cằm (chin strap) mềm mại hoặc cho trẻ ngậm núm vú giả (pacifier) để giúp trẻ ngậm miệng lại.\n- **Tip 6: Đừng bao giờ tin tưởng mù quáng vào con số SpO2 trên máy theo dõi:** Khi trẻ sốc, co mạch ngoại vi nặng hoặc hạ thân nhiệt, sóng mạch (Plethysmograph) trên máy đo $SpO_2$ sẽ dẹt hoặc nhiễu loạn.\nCon số $SpO_2$ hiển thị lúc này hoàn toàn không đáng tin cậy.\nLuôn kiểm tra hình dạng sóng mạch: sóng phải đều đặn, đỉnh rõ ràng và đồng nhịp với nhịp tim nghe được qua ống nghe.\n- **Tip 7: Nhận diện hiện tượng bẫy khí (Air trapping) khi thở HFNC ở trẻ hen phế quản:** HFNC rất tốt cho viêm tiểu phế quản nhưng cần cực kỳ thận trọng trong cơn hen phế quản cấp nặng.\nTrẻ hen bị co thắt đường thở thì thở ra dữ dội; dòng khí HFNC liên tục có thể làm trầm trọng thêm hiện tượng căng giãn phổi quá mức (Auto-PEEP) và bẫy khí.\nNếu trẻ hen thở HFNC mà lồng ngực ngày càng căng phồng, nghe phổi giảm rì rào phế nang, hãy chuyển ngay phương thức hỗ trợ.\n- **Tip 8: Cố định dây máy thở giảm thiểu lực kéo lên cánh mũi:** Dùng móc kẹp dây máy thở vào áo hoặc ga giường của trẻ để trọng lượng của đường dây thở không kéo trì gọng mũi xuống dưới, giúp ngăn ngừa $100\\%$ các ca loét tì đè vách ngăn mũi.\n- **Tip 9: Quy tắc cai máy \"Một thông số tại một thời điểm\":** Không bao giờ giảm đồng thời cả lưu lượng dòng và $\\text{FiO}_2$ trong cùng một lần điều chỉnh.\nLuôn giảm $\\text{FiO}_2$ trước, khi $\\text{FiO}_2$ đã đạt ngưỡng an toàn mới bắt đầu hạ dần lưu lượng dòng.\n- **Tip 10: Nhận diện thời điểm \"Thất bại thầm lặng\":** Một đứa trẻ thở HFNC mà nhịp thở không giảm sau 2 giờ, co kéo ngực không đỡ, dù $SpO_2$ vẫn giữ được $93 - 94\\%$ nhờ bạn liên tục vặn tăng $\\text{FiO}_2$, đó chính là thất bại thầm lặng.\nĐừng tự lừa dối mình bằng con số $SpO_2$; hãy nhìn vào công thở và sự tỉnh táo của đứa trẻ.\n\n---\n\n## 13. TÓM TẮT & TIÊU CHUẨN CAI MÁY XUẤT VIỆN\n\n### 13.1 Tiêu chuẩn cai máy và ngừng hỗ trợ hô hấp an toàn\nMột bệnh nhi được xem là đủ điều kiện để ngắt hoàn toàn thiết bị hỗ trợ không xâm lấn khi thỏa mãn đồng thời các tiêu chí sau:\n1. Nguyên nhân bệnh lý hô hấp nền tảng đã thoái lui hoặc được kiểm soát ổn định.\n2. Trẻ tỉnh táo, hồng hào, tự thở êm dịu, không còn co kéo cơ hô hấp phụ hoặc chỉ còn co kéo nhẹ không đáng kể.\n3. Nhịp thở nằm trong giới hạn bình thường theo lứa tuổi.\n4. Thông số máy đã giảm về mức tối thiểu:\n   - Với HFNC: Lưu lượng $\\le 0.5 \\text{ L/kg/phút}$ và $\\text{FiO}_2 \\le 30\\%$.\n   - Với nCPAP: $\\text{PEEP} \\le 4 \\text{ cmH}_2\\text{O}$ và $\\text{FiO}_2 \\le 30\\%$.\n5.\nDuy trì vững chắc $SpO_2 \\ge 94\\%$ (hoặc $\\ge 90 - 92\\%$ ở trẻ viêm tiểu phế quản) liên tục trong ít nhất 4–6 giờ sau khi chuyển sang thở khí trời.\n6. Trẻ có khả năng dung nạp thức ăn qua đường miệng hoặc bú mẹ tốt mà không xuất hiện cơn khó thở hoặc sụt giảm $SpO_2$.\n\n### 13.2 Tiêu chuẩn chuyển tầng điều trị và xuất viện\n- **Chuyển từ PICU ra khoa thường:** Khi trẻ đã cai thành công nCPAP/HFNC và chuyển sang thở canula thường $\\le 1 \\text{ L/phút}$ hoặc thở khí trời, huyết động ổn định không cần theo dõi xâm lấn.\n- **Tiêu chuẩn xuất viện an toàn:**\n  - Trẻ tự thở khí trời hoàn toàn ít nhất 24 giờ với $SpO_2 \\ge 94\\%$.\n  - Hết sốt ít nhất 24 giờ mà không dùng thuốc hạ sốt.\n  - Bú tốt, lượng ăn đạt $\\ge 75\\%$ nhu cầu cơ bản hàng ngày, không nôn trớ.\n  - Cha mẹ hiểu rõ cách chăm sóc, nhận biết được các dấu hiệu khó thở tái phát và biết cách đưa trẻ tái khám ngay.\n\n---\n\n## 14. BẰNG CHỨNG Y HỌC & TÀI LIỆU THAM KHẢO\n\nCác dữ liệu định lượng và bằng chứng lâm sàng trong bài học này được trích xuất và đối chiếu trực tiếp từ các thử nghiệm lâm sàng ngẫu nhiên có đối chứng, tổng quan hệ thống Cochrane và các hướng dẫn đồng thuận quốc tế uy tín:\n\n1. **Thử nghiệm ngẫu nhiên PARIS (Franklin D et al., NEJM 2018):** Thử nghiệm đa trung tâm so sánh hiệu quả của HFNC so với liệu pháp oxy chuẩn ở trẻ dưới mười hai tháng tuổi mắc viêm tiểu phế quản cấp tại các khoa bệnh phòng thông thường: A Randomized Trial of High-Flow Oxygen Therapy in Infants with Bronchiolitis.\nHigh-flow oxygen therapy through a nasal cannula has been increasingly used in infants with bronchiolitis.\nTreatment failure was significantly lower in the high-flow group compared with standard therapy. {claim:C-001} [DATA VERIFIED] (PMID: 29562151).\n\nNghiên cứu lâm sàng bước ngoặt này đã làm thay đổi hoàn toàn thực hành điều trị hỗ trợ hô hấp cho bệnh nhi viêm tiểu phế quản trên toàn thế giới, khẳng định vai trò bảo vệ đường thở của dòng nhiệt ẩm bão hòa và chứng minh khả năng ngăn ngừa suy hô hấp tiến triển mà không cần can thiệp thở máy xâm lấn nguy hiểm.\n\nVề mặt thông số định lượng cụ thể, thử nghiệm trên một nghìn bốn trăm bảy mươi hai bệnh nhi ghi nhận tỷ lệ thất bại điều trị cần nâng bậc can thiệp ở nhóm canula dòng cao là 12% so với 23% ở nhóm oxy thông thường (khoảng chênh lệch nguy cơ là -11 điểm phần trăm, khoảng tin cậy 95% từ -15 đến -7, p-value < 0.001).\nTrong số một trăm sáu mươi bảy trẻ thất bại ở nhóm oxy chuẩn, có sáu mươi mốt phần trăm trẻ đáp ứng thành công với liệu pháp cứu hộ bằng HFNC mà không cần đặt nội khí quản hay chuyển vào ICU.\n\n2. **Thử nghiệm ngẫu nhiên PARIS-2 (Franklin D et al., JAMA 2023):** Thử nghiệm lâm sàng ngẫu nhiên đánh giá hiệu quả của việc áp dụng HFNC sớm ở trẻ em từ một đến bốn tuổi nhập viện vì suy hô hấp giảm oxy cấp: Effect of Early High-Flow Nasal Oxygen vs Standard Oxygen Therapy on Length of Hospital Stay in Hospitalized Children With Acute Hypoxemic Respiratory Failure: The PARIS-2 Randomized Clinical Trial.\nIn hospitalized children with acute hypoxemic respiratory failure, early high-flow nasal oxygen did not significantly reduce length of hospital stay compared with standard oxygen therapy. {claim:C-003} [DATA VERIFIED] (PMID: 36648469).\n\nThử nghiệm đa trung tâm quy mô lớn này đem lại bài học cảnh tỉnh sâu sắc cho các bác sĩ nhi khoa về việc không nên lạm dụng công nghệ cao quá mức, chứng minh rằng canula dòng cao không phải là chiếc đũa thần áp dụng bừa bãi cho mọi trường hợp suy hô hấp mà cần phải có chỉ định đúng nhóm bệnh nhân mục tiêu.\n\nPhân tích chính trên một nghìn năm trăm mười bảy trẻ ghi nhận thời gian nằm viện ở nhóm HFNC sớm không ngắn hơn mà kéo dài hơn có ý nghĩa thống kê so với nhóm oxy chuẩn (trung vị 1.77 ngày so với 1.50 ngày; adjusted HR 0.83; khoảng tin cậy 95% từ 0.75 đến 0.92; p-value < 0.001).\nThời gian thở oxy cũng kéo dài hơn (trung vị 1.07 ngày so với 0.75 ngày).\nNghiên cứu kết luận không khuyến cáo dùng HFNC sớm thường quy cho mọi trẻ một đến bốn tuổi suy hô hấp giảm oxy khi chưa có chỉ định nâng bậc.\n\n3. **Thử nghiệm ngẫu nhiên FIRST-ABC Step-Up (Ramnarayan P et al., JAMA 2022):** Thử nghiệm so sánh không kém hơn giữa HFNC và CPAP như là biện pháp hỗ trợ hô hấp không xâm lấn đầu tay ở bệnh nhi cấp cứu tại các đơn vị hồi sức tích cực: Effect of High-Flow Nasal Cannula Therapy vs Continuous Positive Airway Pressure Therapy on Liberation From Respiratory Support in Acutely Ill Children Admitted to Pediatric Critical Care Units: A Randomized Clinical Trial.\nHigh-flow nasal cannula therapy met the criterion for noninferiority compared with continuous positive airway pressure for time to liberation from all respiratory support. {claim:C-004} [DATA VERIFIED] (PMID: 35707984).\n\nCông trình cung cấp cơ sở khoa học vững chắc giúp bác sĩ tự tin lựa chọn HFNC làm vũ khí ban đầu tại khoa hồi sức cho trẻ suy hô hấp cấp, mang lại sự dễ chịu cho bệnh nhi, giảm bớt đau đớn và căng thẳng cho gia đình mà vẫn bảo đảm an toàn sinh mạng tương đương với CPAP truyền thống.\n\nNghiên cứu trên năm trăm bảy mươi ba trẻ tại hai mươi tư khoa PICU ghi nhận thời gian giải phóng khỏi mọi hỗ trợ hô hấp ở nhóm HFNC là 52.9 giờ so với 47.9 giờ ở nhóm CPAP (adjusted HR 1.03; khoảng tin cậy một phía 97.5% từ 0.86 đến vô cực), đạt tiêu chuẩn không kém hơn.\nĐặc biệt, tỷ lệ cần dùng thuốc an thần ở nhóm HFNC thấp hơn rõ rệt so với CPAP (27.7% so với 37.0%; adjusted OR 0.59; khoảng tin cậy 95% từ 0.39 đến 0.88).\n\n4. **Thử nghiệm ngẫu nhiên FIRST-ABC Post-Extubation (Ramnarayan P et al., JAMA 2022):** Đánh giá hiệu quả của HFNC so với CPAP sau khi rút ống nội khí quản ở bệnh nhi điều trị tại khoa hồi sức tích cực: Effect of High-Flow Nasal Cannula Therapy vs Continuous Positive Airway Pressure Following Extubation on Liberation From Respiratory Support in Critically Ill Children: A Randomized Clinical Trial.\nHigh-flow nasal cannula therapy failed to meet noninferiority compared with continuous positive airway pressure for time to liberation from respiratory support. {claim:C-005} [DATA VERIFIED] (PMID: 35390113).\n\nKết quả thử nghiệm nhấn mạnh sự khác biệt căn bản giữa bệnh nhân cấp tính ban đầu và bệnh nhân sau thở máy kéo dài, cho thấy áp lực dương thực sự của CPAP đóng vai trò không thể thay thế trong việc tái mở rộng các phế nang bị tổn thương xẹp sau một thời gian dài mang ống nội khí quản.\n\nTrong số năm trăm năm mươi ba trẻ sau rút nội khí quản, HFNC không đạt tiêu chuẩn không kém hơn so với CPAP về thời gian giải phóng khỏi hỗ trợ hô hấp (trung vị 50.5 giờ so với 42.9 giờ; adjusted HR 0.83; khoảng tin cậy một phía 97.5% từ 0.70 đến vô cực).\nTỷ lệ đặt lại nội khí quản trong vòng bốn mươi tám giờ tương đương nhau giữa hai nhóm (13.3% ở HFNC so với 11.5% ở CPAP).\n\n5. **Tổng quan hệ thống Cochrane (Jat KR et al., Cochrane Review 2022):** Tổng quan đánh giá hiệu quả của CPAP trong điều trị viêm tiểu phế quản cấp ở trẻ em: Continuous positive airway pressure (CPAP) for acute bronchiolitis in children.\nContinuous positive airway pressure aims to widen the peripheral airways, enabling deflation of overdistended lungs.\nCPAP decreased respiratory rate in children with acute bronchiolitis. {claim:C-006} [DATA VERIFIED] (PMID: 35377462).\n\nTổng quan Cochrane khẳng định bằng chứng y học xác thực về khả năng cải thiện cơ học phổi và nhịp thở của thở áp lực dương, giúp giải tỏa tình trạng ứ khí phế nang ngoại biên và hỗ trợ đắc lực cho các trường hợp viêm tiểu phế quản tắc nghẽn nặng nề không đáp ứng với điều trị thông thường.\n\nPhân tích gộp trên chín mươi mốt bệnh nhi từ hai thử nghiệm ngẫu nhiên xác nhận thở nCPAP làm giảm nhịp thở có ý nghĩa lâm sàng so với điều trị nâng đỡ thông thường (chênh lệch trung bình là -3.81 lần mỗi phút; khoảng tin cậy 95% từ -5.78 đến -1.84).\nBằng chứng về việc giảm nhu cầu thở máy xâm lấn vẫn chưa chắc chắn do số lượng cỡ mẫu còn hạn chế.\n\n6. **Phân tích gộp mạng lưới trên JAMA Pediatrics (Wang Z et al., JAMA Pediatr 2023):** Phân tích so sánh hiệu quả các phương thức hỗ trợ hô hấp không xâm lấn sau rút nội khí quản ở trẻ nhỏ: Association of Extubation Failure Rates With High-Flow Nasal Cannula, Continuous Positive Airway Pressure, and Bilevel Positive Airway Pressure vs Conventional Oxygen Therapy in Infants and Young Children: A Systematic Review and Network Meta-Analysis.\nBoth CPAP and HFNC were more effective than conventional oxygen therapy in reducing extubation failure and treatment failure. {claim:C-007} [DATA VERIFIED] (PMID: 37273226).\n\nNghiên cứu tổng hợp dữ liệu toàn diện xếp hạng thứ bậc hiệu quả của các biện pháp hỗ trợ hô hấp sau rút ống, chứng minh vượt trội rằng việc chủ động nâng đỡ bằng CPAP hoặc HFNC là tiêu chuẩn chăm sóc bắt buộc đối với các bệnh nhi có nguy cơ thất bại rút ống cao tại các đơn vị hồi sức tích cực.\n\nPhân tích trên chín thử nghiệm lâm sàng với một nghìn bốn trăm hai mươi mốt bệnh nhi cho thấy cả CPAP và HFNC đều vượt trội hơn oxy thông thường trong việc giảm thất bại rút ống (CPAP có odds ratio là 0.43 với khoảng tin cậy 95% từ 0.17 đến 1.0; HFNC có odds ratio là 0.64 với khoảng tin cậy 95% từ 0.24 đến 1.0).\nCPAP là phương thức có xác suất tối ưu cao nhất để dự phòng thất bại rút ống với chỉ số SUCRA đạt 0.83.\n\n7. **Đồng thuận quốc tế PALICC-2 (Pediatr Crit Care Med 2023):** Hướng dẫn quốc tế lần thứ hai về chẩn đoán và quản lý hội chứng suy hô hấp cấp tiến triển ở trẻ em: Executive Summary of the Second International Guidelines for the Diagnosis and Management of Pediatric Acute Respiratory Distress Syndrome (PALICC-2).\nPALICC-2 recommendations and consensus-based statements facilitate the implementation and adherence to best clinical practice in patients with PARDS. {claim:C-008} [DATA VERIFIED] (PMID: 36661420).\n\nVăn bản đồng thuận toàn cầu tập hợp trí tuệ của hơn năm mươi chuyên gia hồi sức nhi khoa hàng đầu thế giới, thiết lập các tiêu chuẩn chẩn đoán chuẩn mực cho tổn thương phổi cấp tính và định hình các chiến lược bảo vệ phổi tối ưu để giảm thiểu nguy cơ tử vong do suy hô hấp.\n\nĐồng thuận quốc tế cập nhật định nghĩa PARDS không xâm lấn ở trẻ nhận CPAP hoặc HFNC lưu lượng từ 1.5 L/kg/phút trở lên kèm theo tỷ lệ SpO2 trên FiO2 giảm thỏa tiêu chuẩn thiếu oxy máu cấp.\nHướng dẫn nhấn mạnh việc theo dõi sát động học công hô hấp và oxy hóa máu tại giường, tuyệt đối tránh việc trì hoãn đặt nội khí quản khi thông khí không xâm lấn không cải thiện.\n\n### Danh mục tài liệu tham khảo chính thức:\n1.\nFranklin D, Babl FE, Schlapbach LJ, et al.\nA Randomized Trial of High-Flow Oxygen Therapy in Infants with Bronchiolitis.\nThe New England Journal of Medicine.\n2018.\nPMID: 29562151.\n2.\nFranklin D, Babl FE, George S, et al.\nEffect of Early High-Flow Nasal Oxygen vs Standard Oxygen Therapy on Length of Hospital Stay in Hospitalized Children With Acute Hypoxemic Respiratory Failure: The PARIS-2 Randomized Clinical Trial.\nJAMA.\n2023.\nPMID: 36648469.\n3.\nRamnarayan P, Richards-Belle A, Drikite L, et al.\nEffect of High-Flow Nasal Cannula Therapy vs Continuous Positive Airway Pressure Therapy on Liberation From Respiratory Support in Acutely Ill Children Admitted to Pediatric Critical Care Units: A Randomized Clinical Trial.\nJAMA.\n2022.\nPMID: 35707984.\n4.\nRamnarayan P, Scholefield BR, Pathan N, et al.\nEffect of High-Flow Nasal Cannula Therapy vs Continuous Positive Airway Pressure Following Extubation on Liberation From Respiratory Support in Critically Ill Children: A Randomized Clinical Trial.\nJAMA.\n2022.\nPMID: 35390113.\n5.\nJat KR, Mathew JL.\nContinuous positive airway pressure (CPAP) for acute bronchiolitis in children.\nCochrane Database of Systematic Reviews.\n2022.\nPMID: 35377462.\n6.\nWang Z, Wang Y, Hu X, et al.\nAssociation of Extubation Failure Rates With High-Flow Nasal Cannula, Continuous Positive Airway Pressure, and Bilevel Positive Airway Pressure vs Conventional Oxygen Therapy in Infants and Young Children: A Systematic Review and Network Meta-Analysis.\nJAMA Pediatrics.\n2023.\nPMID: 37273226.\n7.\nPALICC-2 Group.\nExecutive Summary of the Second International Guidelines for the Diagnosis and Management of Pediatric Acute Respiratory Distress Syndrome (PALICC-2).\nPediatric Critical Care Medicine.\n2023.\nPMID: 36661420.\n8. World Health Organization. Oxygen therapy for children: a manual for health workers. Geneva: World Health Organization (xuất bản 2016) [GUIDELINE VERIFIED].\n9.\nBộ Y tế Việt Nam.\nHướng dẫn chẩn đoán và điều trị một số bệnh thường gặp ở trẻ em — Hồi sức cấp cứu hô hấp.\nQuyết định số 3312/QĐ-BYT & QĐ 4845/QĐ-BYT.\nHà Nội: Nhà xuất bản Y học. [GUIDELINE VERIFIED]\n10.\nBệnh viện Nhi Đồng 1.\nPhác đồ điều trị Nhi khoa — Hỗ trợ hô hấp không xâm lấn ở trẻ em (Thở Oxy, NCPAP và HFNC).\nTP.\nHồ Chí Minh: Nhà xuất bản Y học (tái bản 2020) [GUIDELINE VERIFIED].\n11.\nBệnh viện Nhi Đồng 2.\nPhác đồ Hồi sức Cấp cứu Nhi khoa — Thở áp lực dương liên tục và Oxy dòng cao qua mũi.\nTP.\nHồ Chí Minh (lưu hành nội bộ 2021) [GUIDELINE VERIFIED].",
+      "pedytb_file": null,
+      "pedytb_content": "",
+      "cards_count": 88,
+      "cards_data": [
+        {
+          "id": "PED25-CARD-001",
+          "type": "cloze",
+          "text": "Phân suất oxy trong khí thở tự nhiên ở điều kiện khí quyển bình thường (FiO2) cố định ở mức {{c1::21% (hoặc 0.21)}}.",
+          "extra": "Khi trẻ thở oxy dòng thấp qua canula, khí oxy nguyên chất bị pha loãng với khí trời tự nhiên nên FiO2 thực tế phế nang nhận được luôn biến thiên.",
+          "tags": [
+            "PED-25",
+            "Sinh-ly-oxy",
+            "FiO2",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-002",
+          "type": "cloze",
+          "text": "Áp lực dương cuối thì thở ra (PEEP) là áp lực duy trì bên trong đường dẫn khí tại thời điểm {{c1::kết thúc thì thở ra}}.",
+          "extra": "PEEP giữ cho các phế nang không bị xẹp hoàn toàn khi thở ra, giúp duy trì diện tích trao đổi khí và bảo tồn dung tích cặn chức năng FRC.",
+          "tags": [
+            "PED-25",
+            "Sinh-ly-ho-hap",
+            "PEEP",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-003",
+          "type": "cloze",
+          "text": "Dung tích cặn chức năng (FRC) sinh lý ở trẻ nhỏ rất thấp, chỉ đạt khoảng {{c1::30 mL/kg}}, nằm rất sát với thể tích đóng của đường thở.",
+          "extra": "Vì FRC sát thể tích đóng nên khi trẻ giảm thông khí hoặc nằm ngửa, các phế nang đáy phổi có xu hướng xẹp lại rất nhanh gây shunt nội phổi.",
+          "tags": [
+            "PED-25",
+            "Sinh-ly-ho-hap",
+            "FRC",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-004",
+          "type": "cloze",
+          "text": "Theo định luật Poiseuille, kháng lực đường thở (Raw) tỷ lệ nghịch với {{c1::lũy thừa bậc 4 của bán kính lòng ống (r^4)}}.",
+          "extra": "Ở trẻ nhỏ có đường thở hẹp bẩm sinh, chỉ cần 1 mm phù nề niêm mạc cũng đủ làm tăng kháng lực đường thở lên gấp 16 lần.",
+          "tags": [
+            "PED-25",
+            "Sinh-ly-ho-hap",
+            "Khang-luc",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-005",
+          "type": "cloze",
+          "text": "Ở trẻ nhũ nhi, khoang mũi hầu chiếm tới {{c1::50% tổng kháng lực đường thở}} của toàn bộ hệ hô hấp.",
+          "extra": "Do đó, việc cung cấp dòng khí sưởi ấm, làm ẩm và có lưu lượng lớn trong HFNC giúp triệt tiêu một nửa kháng lực hô hấp của trẻ.",
+          "tags": [
+            "PED-25",
+            "Giai-phau-nhi",
+            "Khang-luc-mui-hau",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-006",
+          "type": "cloze",
+          "text": "Hiệu ứng rửa trôi khoảng chết giải phẫu (CO2 washout) của HFNC giúp quét sạch khí CO2 đọng lại tại {{c1::khoang mũi hầu}} vào cuối thì thở ra.",
+          "extra": "Vùng mũi hầu sau khi được quét sạch sẽ biến thành kho dự trữ khí giàu oxy tinh khiết sẵn sàng cho nhịp hít vào tiếp theo của trẻ.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Washout-CO2",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-007",
+          "type": "cloze",
+          "text": "Hiện tượng Shunt trong phổi xảy ra khi máu mao mạch phổi đi qua các phế nang {{c1::không được thông khí (tỷ lệ V/Q = 0)}}.",
+          "extra": "Shunt nội phổi lớn trong viêm phổi đông đặc hoặc xẹp phổi làm thiếu oxy máu trơ với oxy canula; bắt buộc phải dùng áp lực dương PEEP để mở phế nang.",
+          "tags": [
+            "PED-25",
+            "Sinh-ly-benh",
+            "Shunt-phoi",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-008",
+          "type": "cloze",
+          "text": "Điểm ngoặt nguy hiểm dốc đứng trên đường cong phân ly oxyhemoglobin là mốc SpO2 {{c1::dưới 90% (tương ứng PaO2 dưới 60 mmHg)}}.",
+          "extra": "Dưới ngưỡng SpO2 90%, chỉ cần PaO2 giảm nhẹ cũng làm SpO2 và lượng oxy giao cho mô tụt dốc không phanh, dẫn đến thiếu oxy não và toan máu.",
+          "tags": [
+            "PED-25",
+            "Sinh-ly-oxy",
+            "Duong-cong-HbO2",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-009",
+          "type": "cloze",
+          "text": "Khoảng SpO2 mục tiêu chuẩn an toàn cho trẻ em mắc bệnh lý viêm phổi hoặc suy hô hấp thông thường là {{c1::94% đến 98%}}.",
+          "extra": "Khoảng đích này bảo đảm PaO2 nằm trong vùng an toàn (70–90 mmHg), tránh đoạn dốc tụt oxy và ngăn ngừa biến chứng tăng oxy máu quá mức.",
+          "tags": [
+            "PED-25",
+            "Dich-SpO2",
+            "Viem-phoi",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-010",
+          "type": "cloze",
+          "text": "Khoảng SpO2 mục tiêu lâm sàng an toàn được khuyến cáo cho bệnh nhi viêm tiểu phế quản cấp là {{c1::90% đến 94%}}.",
+          "extra": "Duy trì SpO2 ≥ 90% ở trẻ viêm tiểu phế quản đã được chứng minh an toàn tuyệt đối và giúp rút ngắn thời gian nằm viện đáng kể.",
+          "tags": [
+            "PED-25",
+            "Dich-SpO2",
+            "Viem-tieu-phe-quan",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-011",
+          "type": "cloze",
+          "text": "Đích SpO2 mục tiêu ở trẻ mắc bệnh tim bẩm sinh tím có shunt Phải - Trái thường được duy trì trong khoảng {{c1::75% đến 85%}}.",
+          "extra": "Cung cấp oxy nồng độ cao làm giãn mạch phổi quá mức, tăng lưu lượng máu lên phổi gây phù phổi cấp và giảm tưới máu hệ thống.",
+          "tags": [
+            "PED-25",
+            "Dich-SpO2",
+            "Tim-bam-sinh-tim",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-012",
+          "type": "cloze",
+          "text": "Đích SpO2 tối đa cho phép ở trẻ tim bẩm sinh có tuần hoàn phụ thuộc ống động mạch (PDA-dependent) là {{c1::80% đến 85% (tối đa không quá 88%)}}.",
+          "extra": "Tăng oxy máu kích thích thụ thể cơ trơn gây co thắt và đóng sụp ống động mạch, làm mất luồng thông huyết động dẫn đến ngừng tim tử vong.",
+          "tags": [
+            "PED-25",
+            "Dich-SpO2",
+            "PDA-dependent",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-013",
+          "type": "cloze",
+          "text": "Chống chỉ định tuyệt đối việc cho thở oxy 100% kéo dài ở trẻ tim bẩm sinh phụ thuộc ống động mạch vì nguy cơ {{c1::làm co thắt và đóng ống động mạch}}.",
+          "extra": "Oxy là chất co mạch cực mạnh đối với cơ trơn thành ống động mạch; khi nghi ngờ tổn thương phụ thuộc PDA phải duy trì SpO2 thấp và truyền Prostaglandin E1.",
+          "tags": [
+            "PED-25",
+            "Chong-chi-dinh",
+            "PDA-dependent",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-014",
+          "type": "cloze",
+          "text": "Khoảng SpO2 mục tiêu ở trẻ sinh non điều trị tại khoa sơ sinh để phòng ngừa biến chứng võng mạc (ROP) là {{c1::91% đến 95%}}.",
+          "extra": "Nồng độ oxy máu dao động hoặc tăng cao quá mức làm tổn thương và tăng sinh bất thường mạch máu võng mạc, có thể gây mù lòa vĩnh viễn.",
+          "tags": [
+            "PED-25",
+            "Dich-SpO2",
+            "So-sinh-ROP",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-015",
+          "type": "cloze",
+          "text": "Lưu lượng oxy qua canula mũi thông thường quy chuẩn ở trẻ nhũ nhi là {{c1::0.5 đến 2.0 L/phút}}.",
+          "extra": "Vượt quá 2.0 L/phút bằng canula thường sẽ làm khí lạnh khô kích ứng niêm mạc mũi, gây rát mũi, chảy máu cam và co thắt đường thở phản xạ.",
+          "tags": [
+            "PED-25",
+            "Canula-mui",
+            "Luu-luong",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-016",
+          "type": "cloze",
+          "text": "Canula mũi thông thường cung cấp nồng độ oxy hít vào (FiO2) ước tính trong khoảng {{c1::24% đến 35%}}.",
+          "extra": "FiO2 thực tế phế nang nhận được phụ thuộc vào tần số thở và mức độ há miệng của trẻ do hiện tượng pha loãng với khí trời xung quanh.",
+          "tags": [
+            "PED-25",
+            "Canula-mui",
+            "FiO2",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-017",
+          "type": "cloze",
+          "text": "Lưu lượng oxy bắt buộc phải cài đặt khi cho trẻ thở qua mặt nạ đơn giản (Simple mask) là {{c1::5 đến 8 L/phút}}.",
+          "extra": "Lưu lượng tối thiểu 5 L/phút tạo áp lực dòng liên tục quét sạch khí thở ra ra khỏi các lỗ thoát hai bên thân mặt nạ.",
+          "tags": [
+            "PED-25",
+            "Simple-mask",
+            "Luu-luong",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-018",
+          "type": "cloze",
+          "text": "Cấm tuyệt đối cài đặt lưu lượng dưới 5 L/phút khi dùng mặt nạ đơn giản vì nguy cơ {{c1::ứ đọng và hít lại khí CO2 (Rebreathing)}}.",
+          "extra": "Dưới 5 L/phút, thể tích lòng mặt nạ biến thành khoảng chết cơ học chứa đầy CO2 thở ra, khiến trẻ hít lại CO2 gây toan hô hấp cấp tính.",
+          "tags": [
+            "PED-25",
+            "Simple-mask",
+            "Canh-bao-CO2",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-019",
+          "type": "cloze",
+          "text": "Mặt nạ đơn giản (Simple mask) cung cấp nồng độ oxy hít vào (FiO2) ước tính trong khoảng {{c1::35% đến 50%}}.",
+          "extra": "Mặt nạ đơn giản thích hợp cho các trường hợp suy hô hấp mức độ trung bình cần FiO2 cao hơn canula nhưng chưa cần mặt nạ túi dự trữ.",
+          "tags": [
+            "PED-25",
+            "Simple-mask",
+            "FiO2",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-020",
+          "type": "cloze",
+          "text": "Lưu lượng oxy bắt buộc cài đặt cho mặt nạ có túi dự trữ không thở lại (NRM) là {{c1::10 đến 15 L/phút}}.",
+          "extra": "Lưu lượng nguồn oxy phải đủ lớn để giữ cho túi dự trữ luôn phồng căng ít nhất 2/3 thể tích trong suốt chu kỳ thở của bệnh nhi.",
+          "tags": [
+            "PED-25",
+            "NRM-mask",
+            "Luu-luong",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-021",
+          "type": "cloze",
+          "text": "Khi sử dụng mặt nạ có túi NRM, túi dự trữ phải luôn được duy trì căng phồng ít nhất {{c1::2/3 thể tích}} trong suốt thì hít vào.",
+          "extra": "Nếu túi bị xẹp hoàn toàn khi hít vào, van một chiều sẽ ép mở để hút khí trời vào làm sụt giảm nghiêm trọng nồng độ FiO2 thực tế.",
+          "tags": [
+            "PED-25",
+            "NRM-mask",
+            "Van-hanh-tui",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-022",
+          "type": "cloze",
+          "text": "Mặt nạ có túi dự trữ không thở lại (NRM) cung cấp nồng độ oxy hít vào (FiO2) tối đa đạt {{c1::80% đến 95%}}.",
+          "extra": "Nhờ hệ thống van một chiều ngăn khí thở ra vào túi và ngăn khí trời lọt vào, NRM cung cấp FiO2 cao nhất trong các thiết bị không xâm lấn thông thường.",
+          "tags": [
+            "PED-25",
+            "NRM-mask",
+            "FiO2",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-023",
+          "type": "cloze",
+          "text": "Chỉ định cấp cứu hàng đầu của mặt nạ có túi dự trữ NRM là {{c1::sốc mất bù, suy hô hấp giảm oxy nặng hoặc ngộ độc CO}}.",
+          "extra": "NRM là vũ khí hồi sức cấp cứu ban đầu giúp nhanh chóng bão hòa oxy máu trong khi chuẩn bị thiết lập hệ thống HFNC, CPAP hoặc đặt nội khí quản.",
+          "tags": [
+            "PED-25",
+            "NRM-mask",
+            "Chi-dinh",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-024",
+          "type": "cloze",
+          "text": "Ba thành phần kỹ thuật cốt lõi tạo nên hệ thống HFNC hoàn chỉnh gồm: lưu lượng dòng cao, buồng trộn khí kiểm soát FiO2 và {{c1::bộ làm ẩm nhiệt bão hòa}}.",
+          "extra": "Thiếu bộ làm ẩm nhiệt chuyên dụng, dòng khí lưu lượng lớn sẽ phá hủy niêm mạc đường thở và làm đông vón chất tiết phế quản.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Cau-tao-he-thong",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-025",
+          "type": "cloze",
+          "text": "Nhiệt độ và độ ẩm quy chuẩn của dòng khí trong hệ thống HFNC được cài đặt ở mức {{c1::37°C và 100% độ ẩm tương đối}}.",
+          "extra": "Mức nhiệt ẩm này tương đương điều kiện sinh lý tự nhiên của khí thở tại phế nang (chứa 44 mg nước trong mỗi lít khí), bảo tồn thang máy lông chuyển.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Nhiet-am",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-026",
+          "type": "cloze",
+          "text": "Lưu lượng dòng khởi đầu quy chuẩn của HFNC ở trẻ em có cân nặng ≤ 10 kg là {{c1::1.5 đến 2.0 L/kg/phút}}.",
+          "extra": "Bắt đầu ngay ở mức 2.0 L/kg/phút thường được ưu tiên để nhanh chóng đạt hiệu quả PEEP động và triệt tiêu kháng lực đường thở mũi hầu.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Luu-luong-khoi-dau",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-027",
+          "type": "cloze",
+          "text": "Ở trẻ có cân nặng > 10 kg, lưu lượng HFNC được tính bằng: 2.0 L/kg/phút cho 10 kg đầu cộng thêm {{c1::0.5 L/kg/phút cho mỗi kg vượt trên 10 kg}}.",
+          "extra": "Ví dụ trẻ 16 kg: Lưu lượng ban đầu = 10 × 2.0 + 6 × 0.5 = 20 + 3 = 23 L/phút.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Cong-thuc-dong",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-028",
+          "type": "cloze",
+          "text": "Giới hạn lưu lượng dòng tối đa thông thường của hệ thống HFNC ở trẻ lớn và vị thành niên là {{c1::50 đến 60 L/phút}}.",
+          "extra": "Mức dòng này đáp ứng hoàn toàn lưu lượng đỉnh hít vào ngay cả khi bệnh nhi thở nhanh sâu gắng sức tối đa.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Luu-luong-max",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-029",
+          "type": "cloze",
+          "text": "Nồng độ FiO2 khởi đầu thông dụng nhất khi bắt đầu cho trẻ thở HFNC là {{c1::40% đến 60%}}.",
+          "extra": "Sau đó chuẩn độ tăng giảm từng bước 5–10% mỗi 10–15 phút để duy trì SpO2 nằm vững chắc trong khoảng đích 92–96%.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "FiO2-khoi-dau",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-030",
+          "type": "cloze",
+          "text": "Mức áp lực dương cuối thì thở ra động (Dynamic PEEP) trung bình tạo ra bởi HFNC dao động trong khoảng {{c1::2 đến 4 cmH2O}}.",
+          "extra": "Khi trẻ ngậm miệng hoàn toàn, mức PEEP động này có thể tăng lên đến 5–6 cmH2O giúp chống xẹp phế nang hiệu quả.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Dynamic-PEEP",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-031",
+          "type": "cloze",
+          "text": "Đường kính ngoài của hai ngạnh gọng mũi (prong) HFNC chuẩn chỉ được chiếm tối đa {{c1::50% đến 70% đường kính lỗ mũi}} của trẻ.",
+          "extra": "Khoảng trống còn lại quanh ngạnh mũi là đường thoát khí bắt buộc để ngăn ngừa hiện tượng tăng áp lực ανεξέλεγκτα trong phổi.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Kich-thuoc-prong",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-032",
+          "type": "cloze",
+          "text": "Cấm tuyệt đối chọn cỡ gọng mũi HFNC bít kín 100% lỗ mũi vì làm mất đường thoát khí gây biến chứng {{c1::chấn thương áp lực và tràn khí màng phổi}}.",
+          "extra": "HFNC là hệ thống mở dựa vào khe hở thoát khí; bít kín lỗ mũi sẽ biến dòng khí cao thành áp lực đỉnh cực lớn làm vỡ phế nang.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Canh-bao-prong",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-033",
+          "type": "cloze",
+          "text": "Nguyên tắc vàng khi tiến hành cai HFNC tại giường bệnh là: {{c1::Cai FiO2 trước — Cai Lưu lượng dòng sau}}.",
+          "extra": "Cắt giảm lưu lượng dòng sớm khi nồng độ oxy còn cao sẽ làm mất PEEP động, phế nang xẹp trở lại và trẻ nhanh chóng suy hô hấp tái phát.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Nguyen-tac-cai",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-034",
+          "type": "cloze",
+          "text": "Ngưỡng FiO2 an toàn bắt buộc phải đạt được trước khi bắt đầu hạ lưu lượng dòng HFNC là {{c1::≤ 30% đến 40%}}.",
+          "extra": "Chỉ khi phổi đã trao đổi khí tốt ở mức oxy thấp, bác sĩ mới bắt đầu giảm dần lưu lượng dòng hỗ trợ cơ học.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Nguong-FiO2-cai",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-035",
+          "type": "cloze",
+          "text": "Tốc độ giảm lưu lượng dòng quy chuẩn trong giai đoạn cai máy HFNC là {{c1::0.5 L/kg/phút mỗi 2 đến 4 giờ}}.",
+          "extra": "Giảm dần từng bước giúp cơ hô hấp của trẻ thích nghi từ từ với việc tự đảm nhận toàn bộ công thở thông khí phút.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Toc-do-ha-dong",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-036",
+          "type": "cloze",
+          "text": "Ngưỡng lưu lượng để ngừng hoàn toàn HFNC và chuyển sang thở khí trời hoặc canula thường ở trẻ nhũ nhi là {{c1::≤ 0.5 L/kg/phút (hoặc < 4 L/phút)}}.",
+          "extra": "Tại mức lưu lượng tối thiểu này, hiệu quả PEEP động và rửa trôi khoảng chết hầu như không còn đáng kể, trẻ có thể tự thở an toàn.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Nguong-ngat-may",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-037",
+          "type": "cloze",
+          "text": "Bản chất của nCPAP là duy trì một mức áp lực dương liên tục không đổi trong {{c1::cả thì hít vào lẫn thì thở ra}} khi trẻ tự thở.",
+          "extra": "Khác với HFNC là hệ thống mở, nCPAP là hệ thống kín tạo áp lực xuyên phổi liên tục giúp mở lại các phế nang bị đông đặc hoặc xẹp.",
+          "tags": [
+            "PED-25",
+            "nCPAP",
+            "Ban-chat-vat-ly",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-038",
+          "type": "cloze",
+          "text": "Mức áp lực PEEP khởi đầu thông dụng nhất khi bắt đầu cho trẻ thở nCPAP là {{c1::4 đến 5 cmH2O}}.",
+          "extra": "Mức áp lực này đủ để khôi phục FRC sinh lý mà không gây cản trở hồi lưu tĩnh mạch về tim hoặc làm chướng dạ dày quá mức.",
+          "tags": [
+            "PED-25",
+            "nCPAP",
+            "PEEP-khoi-dau",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-039",
+          "type": "cloze",
+          "text": "Tốc độ chuẩn độ tăng PEEP ở trẻ chưa đạt mục tiêu hô hấp khi thở nCPAP là tăng từng bước {{c1::1 cmH2O mỗi 15 đến 30 phút}}.",
+          "extra": "Theo dõi sát sự thay đổi của nhịp thở, độ rút lõm lồng ngực và chỉ số SpO2 sau mỗi nấc tăng áp lực.",
+          "tags": [
+            "PED-25",
+            "nCPAP",
+            "Chuan-do-PEEP",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-040",
+          "type": "cloze",
+          "text": "Mức PEEP tối đa cho phép trong cài đặt nCPAP thông thường ở trẻ em là {{c1::8 cmH2O}}.",
+          "extra": "Vượt quá 8 cmH2O làm tăng nguy cơ vỡ phế nang tràn khí màng phổi và chèn ép tuần hoàn tĩnh mạch trở về gây tụt huyết áp.",
+          "tags": [
+            "PED-25",
+            "nCPAP",
+            "PEEP-max",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-041",
+          "type": "cloze",
+          "text": "Ở bệnh nhi suy tim hoặc phù phổi cấp huyết động, thở nCPAP mang lại lợi ích tim mạch nổi bật là {{c1::làm giảm hậu gánh thất trái}}.",
+          "extra": "Áp lực dương lồng ngực làm giảm áp lực xuyên thành cơ tim thất trái, giúp tâm thất tống máu thuận lợi hơn mà không cần tăng tiêu thụ oxy.",
+          "tags": [
+            "PED-25",
+            "nCPAP",
+            "Hau-ganh-that-trai",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-042",
+          "type": "cloze",
+          "text": "Can thiệp điều dưỡng bắt buộc phải thực hiện ngay khi cho trẻ thở nCPAP là {{c1::đặt ống thông dạ dày mở nắp giải áp liên tục}}.",
+          "extra": "Áp lực PEEP đẩy khí vào dạ dày gây trướng căng cơ học, đẩy cơ hoành lên cao cản trở thông khí phổi và tăng nguy cơ hít sặc.",
+          "tags": [
+            "PED-25",
+            "nCPAP",
+            "Sonde-da-day",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-043",
+          "type": "cloze",
+          "text": "Xử trí cấp cứu tức thì khi bệnh nhi đang hỗ trợ hô hấp bị biến chứng tràn khí màng phổi áp lực là {{c1::chọc kim giải áp tại khoang liên sườn 2 đường trung đòn}}.",
+          "extra": "Dùng kim lớn 18–20G chọc hút giải tỏa áp lực khí khoang màng phổi ngay lập tức trước khi tiến hành đặt ống dẫn lưu kín liên tục.",
+          "tags": [
+            "PED-25",
+            "Bien-chung",
+            "Tran-khi-mang-phoi",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-044",
+          "type": "cloze",
+          "text": "Tiêu chuẩn dọa ngưng thở bắt buộc dừng hỗ trợ không xâm lấn để đặt nội khí quản gồm {{c1::cơn ngừng thở kéo dài > 20 giây hoặc kèm nhịp tim chậm}}.",
+          "extra": "Ngừng thở kèm nhịp tim chậm là chỉ điểm của thiếu oxy não nặng và toan máu mất bù; tiếp tục thở máy không xâm lấn lúc này sẽ dẫn đến ngừng tim.",
+          "tags": [
+            "PED-25",
+            "Cap-cuu",
+            "Co-do-ngung-tho",
+            "barem_goc"
+          ]
+        },
+        {
+          "id": "PED25-CARD-045",
+          "type": "cloze",
+          "text": "Chỉ số ROX Index được tính toán bằng công thức: {{c1::(SpO2 / FiO2) chia cho Tần số thở (lần/phút)}}.",
+          "extra": "SpO2 tính theo phần trăm (ví dụ 95), FiO2 tính theo số thập phân (ví dụ 0.50). Chỉ số này tích hợp giữa oxy hóa máu và công thở bù trừ.",
+          "tags": [
+            "PED-25",
+            "ROX-Index",
+            "Cong-thuc",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-046",
+          "type": "cloze",
+          "text": "Bốn mốc thời gian vàng để đánh giá động học chỉ số ROX Index tại giường ở trẻ thở HFNC là {{c1::tại thời điểm 0h, 2h, 6h và 12h}}.",
+          "extra": "Theo dõi động học chỉ số ROX qua các mốc thời gian có giá trị tiên lượng thất bại chính xác hơn nhiều so với một giá trị đơn độc.",
+          "tags": [
+            "PED-25",
+            "ROX-Index",
+            "Moc-thoi-gian",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-047",
+          "type": "cloze",
+          "text": "Ngưỡng chỉ số ROX Index dự báo thành công cao với HFNC và không cần nâng bậc can thiệp là {{c1::ROX ≥ 4.88}}.",
+          "extra": "Trẻ có ROX ≥ 4.88 có tỷ lệ cai HFNC thành công trên 85%, phản ánh tình trạng oxy hóa máu cải thiện song hành với nhịp thở chậm dần.",
+          "tags": [
+            "PED-25",
+            "ROX-Index",
+            "Nguong-thanh-cong",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-048",
+          "type": "cloze",
+          "text": "Ngưỡng chỉ số ROX Index báo động nguy cơ thất bại cao với hỗ trợ không xâm lấn cần chuẩn bị đặt nội khí quản là {{c1::ROX < 3.85}}.",
+          "extra": "Nếu ROX < 3.85 sau 2–6 giờ điều trị, nguy cơ thất bại phải đặt nội khí quản lên tới trên 80%; không được kéo dài trì hoãn.",
+          "tags": [
+            "PED-25",
+            "ROX-Index",
+            "Nguong-that-bai",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-049",
+          "type": "cloze",
+          "text": "Thử nghiệm ngẫu nhiên PARIS (Franklin D et al., NEJM 2018) được tiến hành trên {{c1::1,472 trẻ dưới 12 tháng tuổi}} mắc viêm tiểu phế quản cấp.",
+          "extra": "Đây là thử nghiệm lâm sàng ngẫu nhiên đa trung tâm lớn nhất so sánh HFNC với oxy chuẩn ở các khoa phòng thông thường ngoài ICU.",
+          "tags": [
+            "PED-25",
+            "PARIS-Trial",
+            "NEJM-2018",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-050",
+          "type": "cloze",
+          "text": "Thử nghiệm PARIS (NEJM 2018) chứng minh HFNC làm giảm tỷ lệ thất bại điều trị cần nâng bậc can thiệp từ {{c1::23% ở nhóm oxy chuẩn xuống 12% ở nhóm HFNC}}.",
+          "extra": "Kết quả khẳng định ưu thế vượt trội của HFNC trong việc ngăn ngừa suy hô hấp tiến triển ở trẻ nhũ nhi mắc viêm tiểu phế quản.",
+          "tags": [
+            "PED-25",
+            "PARIS-Trial",
+            "Ket-qua-chinh",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-051",
+          "type": "cloze",
+          "text": "Khoảng chênh lệch nguy cơ (risk difference) về thất bại điều trị giữa nhóm HFNC và oxy chuẩn trong thử nghiệm PARIS (NEJM 2018) là {{c1::-11 điểm phần trăm (95% CI -15 đến -7; P < 0.001)}}.",
+          "extra": "Mức giảm có ý nghĩa thống kê và ý nghĩa lâm sàng rất lớn, tương ứng cứ điều trị khoảng 9 trẻ bằng HFNC sẽ ngăn ngừa được 1 ca thất bại nâng bậc.",
+          "tags": [
+            "PED-25",
+            "PARIS-Trial",
+            "Risk-difference",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-052",
+          "type": "cloze",
+          "text": "Trong số 167 trẻ thất bại ở nhóm oxy chuẩn của thử nghiệm PARIS, có tới {{c1::61% (102 trẻ)}} đáp ứng thành công với liệu pháp cứu hộ bằng HFNC.",
+          "extra": "Điều này chứng minh HFNC là một biện pháp cứu hộ (rescue therapy) cực kỳ hiệu quả giúp trẻ tránh phải chuyển vào PICU hoặc đặt nội khí quản.",
+          "tags": [
+            "PED-25",
+            "PARIS-Trial",
+            "Rescue-HFNC",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-053",
+          "type": "cloze",
+          "text": "Tỷ lệ biến chứng tràn khí màng phổi được ghi nhận trong thử nghiệm PARIS (NEJM 2018) ở cả hai nhóm đều rất thấp, ở mức {{c1::dưới 1% (mỗi nhóm chỉ ghi nhận 1 ca)}}.",
+          "extra": "Bằng chứng khẳng định tính an toàn cao của HFNC khi áp dụng đúng quy chuẩn lưu lượng dòng và kích thước prong.",
+          "tags": [
+            "PED-25",
+            "PARIS-Trial",
+            "Tran-khi-an-toan",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-054",
+          "type": "cloze",
+          "text": "Thử nghiệm PARIS (NEJM 2018) ghi nhận HFNC {{c1::không làm thay đổi có ý nghĩa thống kê}} về thời gian nằm viện cũng như tổng thời gian thở oxy.",
+          "extra": "HFNC giúp giảm tỷ lệ thất bại nâng bậc can thiệp nhưng không rút ngắn thời gian khỏi bệnh tự nhiên của virus viêm tiểu phế quản.",
+          "tags": [
+            "PED-25",
+            "PARIS-Trial",
+            "Thoi-gian-nam-vien",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-055",
+          "type": "cloze",
+          "text": "Thử nghiệm ngẫu nhiên PARIS-2 (Franklin D et al., JAMA 2023) đánh giá hiệu quả của HFNC sớm ở trẻ em từ {{c1::1 đến 4 tuổi nhập viện vì suy hô hấp giảm oxy cấp}}.",
+          "extra": "Khác với PARIS-1 chỉ nghiên cứu trẻ nhũ nhi viêm tiểu phế quản, PARIS-2 mở rộng sang trẻ lớn hơn mắc suy hô hấp giảm oxy do các nguyên nhân khác.",
+          "tags": [
+            "PED-25",
+            "PARIS-2",
+            "JAMA-2023",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-056",
+          "type": "cloze",
+          "text": "Quy mô dân số bệnh nhi trong phân tích chính của thử nghiệm PARIS-2 (JAMA 2023) là {{c1::1,517 trẻ em}} tại 14 bệnh viện ở Úc và New Zealand.",
+          "extra": "Đây là thử nghiệm đối chứng ngẫu nhiên lớn nhất đánh giá can thiệp HFNC sớm đối với suy hô hấp cấp ngoài viêm tiểu phế quản.",
+          "tags": [
+            "PED-25",
+            "PARIS-2",
+            "Co-mau",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-057",
+          "type": "cloze",
+          "text": "Thử nghiệm PARIS-2 (JAMA 2023) ghi nhận thời gian nằm viện ở nhóm HFNC sớm {{c1::dài hơn có ý nghĩa thống kê}} so với nhóm oxy chuẩn (trung vị 1.77 ngày so với 1.50 ngày).",
+          "extra": "Áp dụng HFNC sớm thường quy không mang lại lợi ích mà còn làm tăng gánh nặng ngày nằm viện và chi phí y tế.",
+          "tags": [
+            "PED-25",
+            "PARIS-2",
+            "Keo-dai-nam-vien",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-058",
+          "type": "cloze",
+          "text": "Tỷ số nguy cơ hiệu chỉnh (adjusted HR) về thời gian nằm viện của nhóm HFNC so với oxy chuẩn trong PARIS-2 là {{c1::0.83 (95% CI 0.75 đến 0.92; P < 0.001)}}.",
+          "extra": "HR < 1 trong phân tích thời gian xuất viện đồng nghĩa với việc trẻ thở HFNC sớm có tốc độ xuất viện chậm hơn nhóm oxy thông thường.",
+          "tags": [
+            "PED-25",
+            "PARIS-2",
+            "Hazard-ratio",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-059",
+          "type": "cloze",
+          "text": "Thời gian thở oxy ở nhóm HFNC trong thử nghiệm PARIS-2 kéo dài hơn nhóm oxy chuẩn với trung vị là {{c1::1.07 ngày so với 0.75 ngày (adjusted HR 0.78)}}.",
+          "extra": "Việc phụ thuộc vào thiết bị công nghệ cao khiến các bác sĩ có xu hướng trì hoãn cai oxy kéo dài hơn cần thiết.",
+          "tags": [
+            "PED-25",
+            "PARIS-2",
+            "Thoi-gian-tho-oxy",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-060",
+          "type": "cloze",
+          "text": "Kết luận then chốt của thử nghiệm PARIS-2 (JAMA 2023) là {{c1::không khuyến cáo sử dụng HFNC sớm thường quy}} cho mọi trẻ 1–4 tuổi suy hô hấp giảm oxy cấp.",
+          "extra": "Oxy canula chuẩn vẫn là lựa chọn đầu tay ban đầu; chỉ nâng bậc lên HFNC khi bệnh nhi có dấu hiệu thất bại thực sự với oxy thường.",
+          "tags": [
+            "PED-25",
+            "PARIS-2",
+            "Khuyen-cao-chinh",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-061",
+          "type": "cloze",
+          "text": "Thử nghiệm FIRST-ABC Step-Up (Ramnarayan P et al., JAMA 2022) so sánh HFNC với CPAP trên {{c1::573 trẻ em tại 24 khoa hồi sức tích cực nhi (PICU)}}.",
+          "extra": "Thử nghiệm đánh giá phương thức hỗ trợ hô hấp không xâm lấn đầu tay khi trẻ nhập PICU vì suy hô hấp cấp tính.",
+          "tags": [
+            "PED-25",
+            "FIRST-ABC-StepUp",
+            "JAMA-2022",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-062",
+          "type": "cloze",
+          "text": "Kết quả chính của thử nghiệm FIRST-ABC Step-Up (JAMA 2022): HFNC {{c1::đạt tiêu chuẩn không kém hơn (noninferiority)}} so với CPAP về thời gian giải phóng hỗ trợ hô hấp.",
+          "extra": "Trung vị thời gian giải phóng khỏi mọi hỗ trợ hô hấp là 52.9 giờ ở nhóm HFNC so với 47.9 giờ ở nhóm CPAP (adjusted HR 1.03).",
+          "tags": [
+            "PED-25",
+            "FIRST-ABC-StepUp",
+            "Khong-kem-hon",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-063",
+          "type": "cloze",
+          "text": "Khoảng tin cậy một phía 97.5% của adjusted HR trong thử nghiệm FIRST-ABC Step-Up là {{c1::0.86 đến vô cực}}, thỏa mãn ngưỡng không kém hơn định trước.",
+          "extra": "Chứng minh HFNC có thể thay thế an toàn cho CPAP làm can thiệp ban đầu tại PICU cho các trường hợp suy hô hấp cấp tính.",
+          "tags": [
+            "PED-25",
+            "FIRST-ABC-StepUp",
+            "HR-noninferiority",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-064",
+          "type": "cloze",
+          "text": "Tỷ lệ bệnh nhi cần dùng thuốc an thần ở nhóm HFNC trong thử nghiệm FIRST-ABC Step-Up thấp hơn có ý nghĩa so với CPAP: {{c1::27.7% so với 37.0%}}.",
+          "extra": "HFNC dung nạp tốt hơn nhiều so với CPAP gọng mũi kín, giúp giảm nhu cầu dùng an thần và hạn chế các tác dụng phụ ức chế hô hấp của thuốc.",
+          "tags": [
+            "PED-25",
+            "FIRST-ABC-StepUp",
+            "Giam-an-than",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-065",
+          "type": "cloze",
+          "text": "Tỷ số chênh hiệu chỉnh (adjusted OR) về nhu cầu dùng thuốc an thần ở nhóm HFNC so với CPAP trong FIRST-ABC Step-Up là {{c1::0.59 (95% CI 0.39 đến 0.88)}}.",
+          "extra": "Mức giảm 41% nhu cầu sử dụng thuốc an thần là một ưu thế lâm sàng vượt trội của HFNC tại khoa hồi sức tích cực nhi.",
+          "tags": [
+            "PED-25",
+            "FIRST-ABC-StepUp",
+            "OR-an-than",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-066",
+          "type": "cloze",
+          "text": "Thử nghiệm FIRST-ABC Post-Extubation (Ramnarayan P et al., JAMA 2022) so sánh HFNC với CPAP trên {{c1::553 trẻ em sau rút nội khí quản tại 22 khoa PICU}}.",
+          "extra": "Đánh giá vai trò của HFNC và CPAP như là biện pháp dự phòng thất bại rút ống sau khi thở máy xâm lấn.",
+          "tags": [
+            "PED-25",
+            "FIRST-ABC-PostExtub",
+            "JAMA-2022",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-067",
+          "type": "cloze",
+          "text": "Kết quả chính của thử nghiệm FIRST-ABC Post-Extubation (JAMA 2022): HFNC {{c1::thất bại không đạt tiêu chuẩn không kém hơn}} so với CPAP.",
+          "extra": "Sau rút ống, phổi trẻ cần áp lực dương liên tục thực sự của CPAP để giữ phế nang không xẹp trở lại; HFNC không đủ khả năng thay thế CPAP trong bối cảnh này.",
+          "tags": [
+            "PED-25",
+            "FIRST-ABC-PostExtub",
+            "That-bai-noninf",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-068",
+          "type": "cloze",
+          "text": "Thời gian giải phóng hỗ trợ hô hấp ở nhóm HFNC so với CPAP trong FIRST-ABC Post-Extubation là {{c1::trung vị 50.5 giờ so với 42.9 giờ (adjusted HR 0.83)}}.",
+          "extra": "Khoảng tin cậy một phía 97.5% là 0.70 đến vô cực, vượt ra ngoài biên độ không kém hơn định trước là 0.75.",
+          "tags": [
+            "PED-25",
+            "FIRST-ABC-PostExtub",
+            "Thoi-gian-giai-phong",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-069",
+          "type": "cloze",
+          "text": "Tỷ lệ đặt lại nội khí quản trong vòng 48 giờ giữa HFNC và CPAP trong FIRST-ABC Post-Extubation tương đương nhau ở mức {{c1::13.3% ở HFNC so với 11.5% ở CPAP}}.",
+          "extra": "Mặc dù tỷ lệ đặt lại ống không khác biệt, nhưng CPAP giúp trẻ cai hoàn toàn các thiết bị hỗ trợ hô hấp nhanh hơn đáng kể.",
+          "tags": [
+            "PED-25",
+            "FIRST-ABC-PostExtub",
+            "Dat-lai-ong",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-070",
+          "type": "cloze",
+          "text": "Phân tích gộp Cochrane (Jat KR et al., 2022) đánh giá hiệu quả của nCPAP trong điều trị viêm tiểu phế quản cấp trên {{c1::3 thử nghiệm ngẫu nhiên với 122 trẻ em}}.",
+          "extra": "Tổng quan cập nhật các bằng chứng khoa học có đối chứng về vai trò của thở CPAP ở trẻ nhũ nhi viêm tiểu phế quản.",
+          "tags": [
+            "PED-25",
+            "Cochrane-2022",
+            "Tong-quan-CPAP",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-071",
+          "type": "cloze",
+          "text": "Bằng chứng từ tổng quan Cochrane 2022 khẳng định nCPAP làm giảm nhịp thở ở trẻ viêm tiểu phế quản với chênh lệch trung bình (MD) là {{c1::-3.81 lần/phút}}.",
+          "extra": "nCPAP mở rộng các đường thở nhỏ ngoại biên, giúp giải tỏa ứ khí phế nang và giảm công thở cho bệnh nhi.",
+          "tags": [
+            "PED-25",
+            "Cochrane-2022",
+            "Giam-nhip-tho",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-072",
+          "type": "cloze",
+          "text": "Khoảng tin cậy 95% của mức giảm nhịp thở nhờ nCPAP trong tổng quan Cochrane 2022 là {{c1::-5.78 đến -1.84 lần/phút}} (2 RCTs, 91 trẻ).",
+          "extra": "Mức giảm có ý nghĩa thống kê rõ rệt, chứng minh nCPAP giúp cải thiện kiểu thở và giảm tình trạng thở nhanh gắng sức.",
+          "tags": [
+            "PED-25",
+            "Cochrane-2022",
+            "MD-CI-nhip-tho",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-073",
+          "type": "cloze",
+          "text": "Phân tích gộp mạng lưới trên JAMA Pediatrics (Wang Z et al., 2023) bao gồm 9 thử nghiệm ngẫu nhiên với tổng cộng {{c1::1,421 bệnh nhi sau rút nội khí quản}}.",
+          "extra": "Nghiên cứu so sánh hiệu quả dự phòng thất bại rút ống giữa HFNC, CPAP, BiPAP và liệu pháp oxy thông thường (COT).",
+          "tags": [
+            "PED-25",
+            "JAMA-Pediatr-2023",
+            "Network-Meta-Analysis",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-074",
+          "type": "cloze",
+          "text": "Theo JAMA Pediatrics 2023, so với oxy thường, CPAP làm giảm nguy cơ thất bại rút nội khí quản với tỷ số chênh (OR) là {{c1::0.43 (95% CrI 0.17 đến 1.0)}}.",
+          "extra": "Thở áp lực dương liên tục giúp duy trì thể tích phổi sau rút ống, giảm hơn một nửa nguy cơ phải đặt lại ống nội khí quản.",
+          "tags": [
+            "PED-25",
+            "JAMA-Pediatr-2023",
+            "OR-CPAP-EF",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-075",
+          "type": "cloze",
+          "text": "Theo JAMA Pediatrics 2023, so với oxy thường, HFNC làm giảm nguy cơ thất bại rút nội khí quản với tỷ số chênh (OR) là {{c1::0.64 (95% CrI 0.24 đến 1.0)}}.",
+          "extra": "HFNC cũng vượt trội hơn oxy chuẩn trong dự phòng thất bại rút ống, dù hiệu quả cơ học PEEP không mạnh mẽ bằng CPAP.",
+          "tags": [
+            "PED-25",
+            "JAMA-Pediatr-2023",
+            "OR-HFNC-EF",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-076",
+          "type": "cloze",
+          "text": "Phương thức hỗ trợ hô hấp không xâm lấn có xác suất tối ưu cao nhất để dự phòng thất bại rút ống theo JAMA Pediatrics 2023 là {{c1::CPAP (chỉ số SUCRA đạt 0.83)}}.",
+          "extra": "Đối với thất bại điều trị chung (TF), CPAP cũng là can thiệp có xác suất tốt nhất với SUCRA lên tới 0.91.",
+          "tags": [
+            "PED-25",
+            "JAMA-Pediatr-2023",
+            "SUCRA-CPAP",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-077",
+          "type": "cloze",
+          "text": "Phân tích JAMA Pediatrics 2023 ghi nhận CPAP và BiPAP làm tăng nhẹ khoảng {{c1::3% tỷ lệ tổn thương loét mũi và chướng bụng}} so với oxy thông thường.",
+          "extra": "Đây là các tác dụng phụ cơ học cần được theo dõi và phòng ngừa chủ động bằng cách chọn cỡ gọng đúng và đặt sonde dạ dày giải áp.",
+          "tags": [
+            "PED-25",
+            "JAMA-Pediatr-2023",
+            "Tac-dung-phu",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-078",
+          "type": "cloze",
+          "text": "Đồng thuận quốc tế PALICC-2 (Pediatr Crit Care Med 2023) đưa ra tiêu chuẩn chẩn đoán cập nhật cho {{c1::Hội chứng suy hô hấp cấp tiến triển ở trẻ em (PARDS)}}.",
+          "extra": "Đồng thuận được xây dựng bởi 52 chuyên gia hồi sức nhi khoa từ 15 quốc gia dựa trên phương pháp GRADE và hệ thống y học thực chứng.",
+          "tags": [
+            "PED-25",
+            "PALICC-2",
+            "PCCM-2023",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-079",
+          "type": "cloze",
+          "text": "Theo tiêu chuẩn PALICC-2 (2023), trẻ được xếp vào nhóm PARDS không xâm lấn khi đang nhận nCPAP hoặc HFNC với lưu lượng {{c1::≥ 1.5 L/kg/phút}}.",
+          "extra": "Việc mở rộng tiêu chuẩn sang HFNC ≥ 1.5 L/kg/phút giúp nhận diện sớm tổn thương phổi cấp tính ở trẻ chưa đặt nội khí quản.",
+          "tags": [
+            "PED-25",
+            "PALICC-2",
+            "Tieu-chuan-HFNC",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-080",
+          "type": "cloze",
+          "text": "Chỉ số oxy hóa máu để xác định PARDS không xâm lấn theo PALICC-2 là tỷ lệ {{c1::SpO2 / FiO2 ≤ 264 (khi SpO2 ≤ 97%)}}.",
+          "extra": "Ngưỡng SpO2/FiO2 ≤ 264 tương đương với tỷ lệ PaO2/FiO2 ≤ 300 mmHg trên khí máu động mạch, phản ánh tổn thương màng phế nang mao mạch.",
+          "tags": [
+            "PED-25",
+            "PALICC-2",
+            "SF-ratio-PARDS",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-081",
+          "type": "cloze",
+          "text": "Các bọt khí vỡ liên tục trong hệ thống Bubble CPAP sinh ra các dao động áp lực vi thể với tần số dao động từ {{c1::15 đến 30 Hz}}.",
+          "extra": "Các sóng áp lực này lan truyền vào sâu trong cây phế quản, hỗ trợ khuếch tán khí tương tự như nguyên lý của thở máy rung tần số cao.",
+          "tags": [
+            "PED-25",
+            "Bubble-CPAP",
+            "Dao-dong-ap-luc",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-082",
+          "type": "cloze",
+          "text": "Khí thở sục qua cột nước trong Bubble CPAP làm tăng hiệu quả thải khí CO2 nhờ cơ chế {{c1::hòa trộn khí vi thể (Taylor dispersion) và khuếch tán tăng cường}}.",
+          "extra": "Ưu thế này giúp Bubble CPAP vượt trội hơn hẳn các hệ thống CPAP van cơ học tĩnh trong việc thông khí phế nang cho trẻ nhỏ.",
+          "tags": [
+            "PED-25",
+            "Bubble-CPAP",
+            "Thai-CO2-vi-the",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-083",
+          "type": "cloze",
+          "text": "Khí thở được làm ẩm bão hòa 100% ở 37°C trong hệ thống HFNC cung cấp lượng nước tuyệt đối đạt {{c1::44 mg H2O trong mỗi lít khí}}.",
+          "extra": "Đạt độ ẩm phế nang sinh lý này giúp ngăn ngừa mất nước qua đường thở và tiết kiệm năng lượng chuyển hóa sưởi ấm cho bệnh nhi.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Do-am-tuyet-doi",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-084",
+          "type": "cloze",
+          "text": "Tỷ lệ thể tích khoảng chết trên thể tích lưu thông (VD/VT) bình thường ở trẻ em chiếm khoảng {{c1::30% đến 40%}}.",
+          "extra": "Khoảng chết chiếm tỷ lệ lớn khiến hiệu quả rửa trôi CO2 hầu họng của HFNC trở thành cơ chế then chốt giúp giảm đáng kể công thở.",
+          "tags": [
+            "PED-25",
+            "Sinh-ly-ho-hap",
+            "VD-VT-ratio",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-085",
+          "type": "cloze",
+          "text": "Hiện tượng xẹp phổi hấp thu (absorption atelectasis) xảy ra khi cho thở oxy nồng độ cao do oxy thay thế toàn bộ {{c1::khí Nitơ (khí trơ giữ khung phế nang)}}.",
+          "extra": "Khi oxy bị mao mạch phổi hấp thu nhanh chóng mà không còn Nitơ nâng đỡ, các phế nang thông khí kém sẽ sụp xẹp hoàn toàn.",
+          "tags": [
+            "PED-25",
+            "Tai-bien-oxy",
+            "Xep-phoi-hap-thu",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-086",
+          "type": "cloze",
+          "text": "Trong cơn hen phế quản cấp nặng, thở HFNC có nguy cơ làm nặng thêm tình trạng tắc nghẽn do {{c1::bẫy khí thì thở ra và căng giãn phổi quá mức (Auto-PEEP)}}.",
+          "extra": "Bệnh nhân hen bị co thắt phế quản thì thở ra dữ dội; dòng khí HFNC liên tục có thể cản trở luồng khí thoát ra làm tăng bẫy khí phế nang.",
+          "tags": [
+            "PED-25",
+            "Hen-phe-quan",
+            "Bay-khi-HFNC",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-087",
+          "type": "cloze",
+          "text": "Khi bệnh nhi ngậm miệng hoàn toàn, mức PEEP động tạo ra bởi HFNC có thể tăng vọt lên đến {{c1::5 đến 6 cmH2O}}.",
+          "extra": "Ngậm miệng làm tăng kháng lực dòng thở ra thoát qua mũi, biến một phần năng lượng dòng khí thành áp lực dương thực sự trong lồng ngực.",
+          "tags": [
+            "PED-25",
+            "HFNC",
+            "Dong-mieng-PEEP",
+            "ebm_hien_dai"
+          ]
+        },
+        {
+          "id": "PED25-CARD-088",
+          "type": "cloze",
+          "text": "Thể tích lưu thông sinh lý (VT) mục tiêu khi thông khí bảo vệ phổi ở trẻ em sau khi đặt nội khí quản là {{c1::6 đến 8 mL/kg}}.",
+          "extra": "Chiến lược thông khí bảo vệ phổi với thể tích lưu thông thấp giúp ngăn ngừa chấn thương thể tích (Volutrauma) và chấn thương áp lực trong ARDS.",
+          "tags": [
+            "PED-25",
+            "Tho-may-xam-lan",
+            "VT-bao-ve-phoi",
+            "ebm_hien_dai"
+          ]
+        }
+      ],
+      "apkg_file": "PED-25_Lieu_phap_Oxy_va_Ho_tro_ho_hap_khong_xam_lan_2026-09-17_RELEASE_v1.apkg",
+      "html_file": null,
+      "folder_rel": "03_Ho_hap/PED-25_Lieu_phap_Oxy_va_Ho_tro_ho_hap_khong_xam_lan"
     },
     {
       "id": "PED-27",

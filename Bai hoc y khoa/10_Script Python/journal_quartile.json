@@ -24,7 +24,8 @@
       "2026-07-02 v19: Add Reproductive Biology and Endocrinology (Q1 IF 4.0) for Poor Ovarian Response lesson",
       "2026-07-02 v20: Add Journal of Ultrasound in Medicine (Q2, AIUM official) for TVS basic lesson",
       "2026-09-16 v21: Add Chest, European Respiratory Journal, Lancet Respiratory Medicine, AJRCCM for Pediatric Pulmonology (PED-20)",
-      "2026-09-17 v22: Add Pediatrics, JAMA Pediatrics, American Journal of Diseases of Children, Paediatrics & Child Health, Family Practice for Croup (PED-24)"
+      "2026-09-17 v22: Add Pediatrics, JAMA Pediatrics, American Journal of Diseases of Children, Paediatrics & Child Health, Family Practice for Croup (PED-24)",
+      "2026-09-17 v23: Add JAMA, Pediatric Critical Care Medicine for Oxygen & Noninvasive Ventilation (PED-25)"
     ],
     "data_source": "JCR 2023/2024 categories (CARDIAC, OB/GYN, PEDIATRICS, ENDOCRINOLOGY), cross-checked với SJR 2024. Một số IF là ước lượng.",
     "tier_definitions": {
@@ -419,6 +420,18 @@
       "field": "Pediatrics",
       "society": "AMA",
       "specialty": "Classic Pediatrics landmark"
+    },
+    "JAMA": {
+      "if": 63.1,
+      "field": "General Medicine",
+      "society": "AMA",
+      "specialty": "General Medicine Landmark"
+    },
+    "Pediatric Critical Care Medicine": {
+      "if": 3.8,
+      "field": "Pediatric Critical Care",
+      "society": "SCCM / WFPICCS",
+      "specialty": "Pediatric Intensive Care"
     }
   },
   "Q2": {
@@ -1038,7 +1051,14 @@
     "American journal of diseases of children (1960)": "American Journal of Diseases of Children",
     "American Journal of Diseases of Children (1960)": "American Journal of Diseases of Children",
     "Family practice": "Family Practice",
-    "The Lancet (London, England)": "The Lancet"
+    "The Lancet (London, England)": "The Lancet",
+    "Pediatr Crit Care Med": "Pediatric Critical Care Medicine",
+    "Pediatric Critical Care Medicine : a journal of the Society of Critical Care Medicine and the World Federation of Pediatric Intensive and Critical Care Societies": "Pediatric Critical Care Medicine",
+    "pediatr crit care med": "Pediatric Critical Care Medicine",
+    "JAMA": "JAMA",
+    "jama": "JAMA",
+    "Pediatric critical care medicine : a journal of the Society of Critical Care Medicine and the World Federation of Pediatric Intensive and Critical Care Societies": "Pediatric Critical Care Medicine",
+    "pediatric critical care medicine : a journal of the society of critical care medicine and the world federation of pediatric intensive and critical care societies": "Pediatric Critical Care Medicine"
   },
   "aliases": {
     "Obstet Gynecol": "Obstetrics and Gynecology",
