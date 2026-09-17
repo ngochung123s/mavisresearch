@@ -429,7 +429,7 @@
   </div>
 
   <!-- LOAD DATA SCRIPT -->
-  <script src="data.js"></script>
+  <script src="data.js?v=20260917_174026"></script>
 
   <!-- APPLICATION LOGIC SCRIPT -->
   <script>
@@ -467,52 +467,46 @@
     }
 
     async function bootstrapLibrary() {
-      // Tier 1: in-memory data
-      if (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.lessons) {
-        saveDataCache(window.PED_LIBRARY_DATA);
+      // 1. Render immediately from in-memory or localStorage cache for instant load
+      let hasRendered = false;
+      if (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.lessons && window.PED_LIBRARY_DATA.lessons.length > 0) {
         initLibraryUI();
-        return;
+        hasRendered = true;
+      } else {
+        const cached = loadDataCache();
+        if (cached && cached.lessons && cached.lessons.length > 0) {
+          window.PED_LIBRARY_DATA = cached;
+          initLibraryUI();
+          hasRendered = true;
+        }
       }
 
-      // Tier 2: localStorage cache
-      const cached = loadDataCache();
-      if (cached && cached.lessons && cached.lessons.length > 0) {
-        window.PED_LIBRARY_DATA = cached;
-        initLibraryUI();
-        return;
-      }
-
-      // Tier 3: Local AJAX fetch
+      // 2. Fetch fresh catalog from Netlify origin (stale-while-revalidate)
       try {
-        const resp = await fetch('CATALOG_PED_VIEWER.json');
+        const resp = await fetch('CATALOG_PED_VIEWER.json?t=' + Date.now(), { cache: 'no-store' });
         if (resp.ok) {
-          const data = await resp.json();
-          if (data && data.lessons) {
-            window.PED_LIBRARY_DATA = data;
-            saveDataCache(data);
-            initLibraryUI();
+          const freshData = await resp.json();
+          if (freshData && freshData.lessons && freshData.lessons.length > 0) {
+            const currentCount = (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.lessons) ? window.PED_LIBRARY_DATA.lessons.length : 0;
+            const currentVer = (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.metadata) ? window.PED_LIBRARY_DATA.metadata.version : '';
+            const freshVer = (freshData.metadata) ? freshData.metadata.version : '';
+
+            if (!hasRendered || freshData.lessons.length !== currentCount || freshVer !== currentVer) {
+              window.PED_LIBRARY_DATA = freshData;
+              saveDataCache(freshData);
+              initLibraryUI();
+              console.log(`[PedViewer] Đã đồng bộ ${freshData.lessons.length} bài học mới nhất từ máy chủ.`);
+            }
             return;
           }
         }
-      } catch (e) {}
-
-      // Tier 4: Cloud fetch from GitHub if online
-      if (navigator.onLine) {
-        try {
-          const resp = await fetch(GITHUB_RAW_URL, { cache: 'no-cache' });
-          if (resp.ok) {
-            const data = await resp.json();
-            if (data && data.lessons) {
-              window.PED_LIBRARY_DATA = data;
-              saveDataCache(data);
-              initLibraryUI();
-              return;
-            }
-          }
-        } catch (e) {}
+      } catch (e) {
+        console.warn("[PedViewer] Không thể fetch CATALOG_PED_VIEWER.json từ máy chủ:", e);
       }
 
-      console.warn("Chưa tìm thấy data.js hoặc nguồn dữ liệu nào. Hãy dùng nút Kéo thả để nạp file.");
+      if (!hasRendered) {
+        console.warn("Chưa tìm thấy data.js hoặc nguồn dữ liệu nào. Hãy dùng nút Kéo thả để nạp file.");
+      }
     }
 
     function initLibraryUI() {
@@ -534,17 +528,22 @@
       btn.disabled = true;
       btn.innerHTML = '<span>⏳</span> <span class="hidden lg:inline">Đang tải...</span>';
       try {
-        const resp = await fetch(GITHUB_RAW_URL, { cache: 'no-cache' });
+        let resp = await fetch('CATALOG_PED_VIEWER.json?t=' + Date.now(), { cache: 'no-store' });
+        if (!resp.ok) {
+          resp = await fetch(GITHUB_RAW_URL, { cache: 'no-cache' });
+        }
         if (!resp.ok) throw new Error("HTTP " + resp.status);
         const data = await resp.json();
         if (data && data.lessons && data.lessons.length > 0) {
           window.PED_LIBRARY_DATA = data;
           saveDataCache(data);
           initLibraryUI();
-          alert(`Đã đồng bộ thành công ${data.lessons.length} bài học từ GitHub Cloud!`);
+          alert(`Đã đồng bộ thành công ${data.lessons.length} bài học từ máy chủ!`);
+        } else {
+          throw new Error("Dữ liệu trống");
         }
       } catch (err) {
-        alert("Lỗi đồng bộ Cloud: " + err.message + ". Hãy đảm bảo có kết nối Internet.");
+        alert("Lỗi đồng bộ: " + err.message + ". Hãy kiểm tra kết nối mạng.");
       } finally {
         btn.disabled = false;
         btn.innerHTML = origText;

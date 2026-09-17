@@ -10,6 +10,7 @@ Trình quét tự động và đóng gói dữ liệu cho PedViewer (Nhi khoa Ma
 3. Xuất ra data.js và CATALOG_PED_VIEWER.json dùng cho app.html (PedViewer).
 """
 from __future__ import annotations
+from datetime import datetime
 import os
 import re
 import json
@@ -209,8 +210,8 @@ def main():
     payload = {
         "metadata": {
             "title": "PedViewer — Thư viện Sách & Bài học Nhi khoa",
-            "version": "1.0",
-            "generated_at": "2026-09-16",
+            "version": datetime.now().strftime("%Y%m%d_%H%M%S"),
+            "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "total_curriculum": len(curriculum),
             "total_ped": ped_count,
             "total_pedytb": pedytb_count,
