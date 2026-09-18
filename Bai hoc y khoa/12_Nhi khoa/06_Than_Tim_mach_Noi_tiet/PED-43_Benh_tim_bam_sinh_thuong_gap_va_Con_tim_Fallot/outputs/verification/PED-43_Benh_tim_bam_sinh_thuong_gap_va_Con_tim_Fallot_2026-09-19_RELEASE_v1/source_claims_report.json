@@ -1,0 +1,361 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+  "parsed_claim_count": 8,
+  "verified_claim_count": 8,
+  "status": "PASS",
+  "checks": [
+    {
+      "claim_id": "C-002",
+      "claim_text": "Tỷ lệ mới mắc của các thể bệnh tim bẩm sinh nặng ước tính khoảng 8 trên 1000 trẻ sinh sống: The incidence of severe congenital heart disease is estimated at approximately 8 per 1,000 live births. {claim:C-002} [ABSTRACT VERIFIED] (PMID: 12084585)",
+      "source_id": "12084585",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 95,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.41"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-003",
+      "claim_text": "Tổng quan hệ thống trên toàn cầu xác định tỷ lệ lưu hành lúc sinh của bệnh tim bẩm sinh là 9.1 trên 1000 trẻ sinh sống: Congenital heart disease birth prevalence worldwide is 9.1 per 1,000 live births. {claim:C-003} [ABSTRACT VERIFIED] (PMID: 22078432)",
+      "source_id": "22078432",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 97,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.42"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-001",
+      "claim_text": "Hướng dẫn ACC/AHA 2025 cập nhật cung cấp các khuyến cáo hướng dẫn lâm sàng về đánh giá và điều trị bệnh nhân mắc bệnh tim bẩm sinh thay thế hướng dẫn 2018: The 2025 ACC/AHA/HRS/ISACHD/SCAI Guideline for the Management of Adults With Congenital Heart Disease provides recommendations to guide clinicians on the evaluation and treatment of adult patients with congenital heart disease, incorporating new evidence to replace the 2018 guideline. {claim:C-001} [GUIDELINE VERIFIED] (PMID: 41411480)",
+      "source_id": "41411480",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 100,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.60"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-008",
+      "claim_text": "Thông liên thất là dị tật tim bẩm sinh phổ biến nhất, biểu hiện lâm sàng phụ thuộc vào kích thước lỗ thông và sức cản mạch máu phổi: Ventricular septal defects are the most common congenital heart defect with clinical manifestations depending on defect size and pulmonary vascular resistance. {claim:C-008} [ABSTRACT VERIFIED] (PMID: 17101870)",
+      "source_id": "17101870",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 195,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.30"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-006",
+      "claim_text": "Ibuprofen có hiệu quả đóng ống động mạch tương đương indomethacin ở trẻ sơ sinh non tháng với ít tác dụng không mong muốn hơn: Ibuprofen is as effective as indomethacin in closing a patent ductus arteriosus in preterm infants. {claim:C-006} [ABSTRACT VERIFIED] (PMID: 30264852)",
+      "source_id": "30264852",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 287,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.41"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-005",
+      "claim_text": "Tứ chứng Fallot là dạng tim bẩm sinh có tím phổ biến nhất, với những tiến bộ phẫu thuật giúp hầu hết trẻ sinh ra mắc bệnh sống tới tuổi trưởng thành: Tetralogy of Fallot is the most common form of cyanotic congenital heart disease with advances in diagnosis and surgical treatment enabling almost all born with it to survive to adulthood. {claim:C-005} [ABSTRACT VERIFIED] (PMID: 19683809)",
+      "source_id": "19683809",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 320,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.52"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-004",
+      "claim_text": "Tứ chứng Fallot bao gồm 4 dị tật kinh điển: thông liên thất, hẹp đường ra thất phải, động mạch chủ cưỡi ngựa và phì đại thất phải: Tetralogy of Fallot consists of four classic defects: ventricular septal defect, right ventricular outflow tract obstruction, aortic override, and right ventricular hypertrophy. {claim:C-004} [ABSTRACT VERIFIED] (PMID: 19144126)",
+      "source_id": "19144126",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 323,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.45"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-007",
+      "claim_text": "Phẫu thuật chuyển gốc động mạch Jatene đã thay thế hoàn toàn phẫu thuật chuyển tầng nhĩ trong điều trị chuyển gốc động mạch lớn giúp hầu hết bệnh nhân sống sót đến tuổi trưởng thành: The arterial switch operation has replaced atrial switch procedures for D-TGA, and patients now reach adulthood. {claim:C-007} [ABSTRACT VERIFIED] (PMID: 25082585)",
+      "source_id": "25082585",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 393,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.32"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    }
+  ],
+  "bundle_hash": "d5e774ad854ce669c21520fa1bec4dfc545392f845f794e2416fb4821dbbb64d"
+}

@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "Verifying 1 APKG file(s)...\n\nFile                                                            Ratio     VN  Notes Status    \n----------------------------------------------------------------------------------------------------\nPED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2...     95.4%   7578    155  [OK]      \n----------------------------------------------------------------------------------------------------\n\nTổng kết (1 files):\n  [OK]    : 1 — ratio >= 80%\n  [WARN]  : 0 — ratio 50-80%\n  [BLOCK] : 0 — ratio < 50%\n",
+  "stderr": ""
+}

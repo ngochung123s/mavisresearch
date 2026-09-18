@@ -75,6 +75,8 @@ class CitationAuditor:
             raise BundleError("--evidence-bundle is required")
         self.bundle = load_bundle(Path(evidence_bundle))
     def _load_json(self, path):
+        if not path.exists():
+            return {}
         with open(path, 'r', encoding='utf-8') as f:
             return json.load(f)
 

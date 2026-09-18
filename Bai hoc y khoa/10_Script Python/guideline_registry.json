@@ -165,6 +165,20 @@
         "year": 2007,
         "title": "Recommendations for the standardization and interpretation of the electrocardiogram: part I: the electrocardiogram and its technology",
         "pmid": "17349896"
+      },
+      "AHA/ACC 2018 - Congenital Heart Disease": {
+        "year": 2018,
+        "title": "2018 AHA/ACC Guideline for the Management of Adults With Congenital Heart Disease",
+        "pmid": "30586767",
+        "doi": "10.1161/CIR.0000000000000603",
+        "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000000603"
+      },
+      "ACC/AHA 2025 - Congenital Heart Disease": {
+        "year": 2025,
+        "title": "2025 ACC/AHA/HRS/ISACHD/SCAI Guideline for the Management of Adults With Congenital Heart Disease",
+        "pmid": "41411480",
+        "doi": "10.1016/j.jacc.2025.09.006",
+        "url": "https://www.jacc.org/doi/10.1016/j.jacc.2025.09.006"
       }
     }
   },
@@ -264,6 +278,20 @@
         "pmid": "31320455",
         "doi": "10.1183/13993003.00382-2019",
         "url": "https://erj.ersjournals.com/content/54/4/1900382"
+      }
+    }
+  },
+  "ISHLT": {
+    "society": "International Society for Heart and Lung Transplantation",
+    "url_base": "https://www.sciencedirect.com",
+    "tier": 0,
+    "guidelines": {
+      "ISHLT 2025 - Pediatric Heart Failure": {
+        "year": 2025,
+        "title": "The International Society for Heart and Lung Transplantation Guidelines for the Management of Pediatric Heart Failure (Update From 2014)",
+        "pmid": "40838915",
+        "doi": "10.1016/j.healun.2025.06.003",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1053249825012482"
       }
     }
   }

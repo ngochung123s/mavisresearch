@@ -1,0 +1,603 @@
+{
+  "file": "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+  "summary": {
+    "total": 16,
+    "pass": 16,
+    "warn": 0,
+    "block": 0
+  },
+  "citations": [
+    {
+      "citation": "PMID: 12084585",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 24.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "12084585",
+          "status": "OK",
+          "year": "2002",
+          "title": "The incidence of congenital heart disease",
+          "author": "NA",
+          "journal": "Journal of the American College of Cardiology",
+          "article_type": "Research Support, U.S. Gov't, P.H.S., Review",
+          "pubtypes": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Journal of the American College of Cardiology",
+        "quartile": "Q1",
+        "if": 24.0
+      }
+    },
+    {
+      "citation": "PMID: 22078432",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 24.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "22078432",
+          "status": "OK",
+          "year": "2011",
+          "title": "Birth prevalence of congenital heart disease worldwide: a systematic review and meta-analysis",
+          "author": "NA",
+          "journal": "Journal of the American College of Cardiology",
+          "article_type": "Meta-Analysis, Systematic Review",
+          "pubtypes": [
+            "Meta-Analysis",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Meta-Analysis",
+          "evidence_level": 1,
+          "is_guideline": false,
+          "is_meta_analysis": true,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Journal of the American College of Cardiology",
+        "quartile": "Q1",
+        "if": 24.0
+      }
+    },
+    {
+      "citation": "PMID: 41411480",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 24.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "41411480",
+          "status": "OK",
+          "year": "2026",
+          "title": "2025 ACC/AHA/HRS/ISACHD/SCAI Guideline for the Management of Adults With Congenital Heart Disease: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines",
+          "author": "NA",
+          "journal": "Journal of the American College of Cardiology",
+          "article_type": "Practice Guideline, Review",
+          "pubtypes": [
+            "Practice Guideline",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Journal of the American College of Cardiology",
+        "quartile": "Q1",
+        "if": 24.0
+      }
+    },
+    {
+      "citation": "PMID: 17101870",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 35.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "17101870",
+          "status": "OK",
+          "year": "2006",
+          "title": "Ventricular septal defects",
+          "author": "NA",
+          "journal": "Circulation",
+          "article_type": "Review, Journal Article",
+          "pubtypes": [
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Circulation",
+        "quartile": "Q1",
+        "if": 35.0
+      }
+    },
+    {
+      "citation": "PMID: 30264852",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 11.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "30264852",
+          "status": "OK",
+          "year": "2018",
+          "title": "Ibuprofen for the treatment of patent ductus arteriosus in preterm or low birth weight (or both) infants",
+          "author": "NA",
+          "journal": "The Cochrane database of systematic reviews",
+          "article_type": "Meta-Analysis, Systematic Review",
+          "pubtypes": [
+            "Meta-Analysis",
+            "Systematic Review",
+            "systematic-review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Meta-Analysis",
+          "evidence_level": 1,
+          "is_guideline": false,
+          "is_meta_analysis": true,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The Cochrane database of systematic reviews",
+        "quartile": "Q1",
+        "if": 11.0
+      }
+    },
+    {
+      "citation": "PMID: 19683809",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 98.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "19683809",
+          "status": "OK",
+          "year": "2009",
+          "title": "Tetralogy of Fallot",
+          "author": "NA",
+          "journal": "Lancet (London, England)",
+          "article_type": "Research Support, Non-U.S. Gov't, Review",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Lancet (London, England)",
+        "quartile": "Q1",
+        "if": 98.0
+      }
+    },
+    {
+      "citation": "PMID: 19144126",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 3.7)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "19144126",
+          "status": "OK",
+          "year": "2009",
+          "title": "Tetralogy of Fallot",
+          "author": "NA",
+          "journal": "Orphanet journal of rare diseases",
+          "article_type": "review-article, Review",
+          "pubtypes": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Orphanet journal of rare diseases",
+        "quartile": "Q1",
+        "if": 3.7
+      }
+    },
+    {
+      "citation": "PMID: 25082585",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 24.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "25082585",
+          "status": "OK",
+          "year": "2014",
+          "title": "D-transposition of the great arteries: the current era of the arterial switch operation",
+          "author": "NA",
+          "journal": "Journal of the American College of Cardiology",
+          "article_type": "research-article, Review",
+          "pubtypes": [
+            "research-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Journal of the American College of Cardiology",
+        "quartile": "Q1",
+        "if": 24.0
+      }
+    },
+    {
+      "citation": "PMID:\n41411480",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 24.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "41411480",
+          "status": "OK",
+          "year": "2026",
+          "title": "2025 ACC/AHA/HRS/ISACHD/SCAI Guideline for the Management of Adults With Congenital Heart Disease: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines",
+          "author": "NA",
+          "journal": "Journal of the American College of Cardiology",
+          "article_type": "Practice Guideline, Review",
+          "pubtypes": [
+            "Practice Guideline",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Journal of the American College of Cardiology",
+        "quartile": "Q1",
+        "if": 24.0
+      }
+    },
+    {
+      "citation": "PMID:\n12084585",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 24.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "12084585",
+          "status": "OK",
+          "year": "2002",
+          "title": "The incidence of congenital heart disease",
+          "author": "NA",
+          "journal": "Journal of the American College of Cardiology",
+          "article_type": "Research Support, U.S. Gov't, P.H.S., Review",
+          "pubtypes": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Journal of the American College of Cardiology",
+        "quartile": "Q1",
+        "if": 24.0
+      }
+    },
+    {
+      "citation": "PMID:\n22078432",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 24.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "22078432",
+          "status": "OK",
+          "year": "2011",
+          "title": "Birth prevalence of congenital heart disease worldwide: a systematic review and meta-analysis",
+          "author": "NA",
+          "journal": "Journal of the American College of Cardiology",
+          "article_type": "Meta-Analysis, Systematic Review",
+          "pubtypes": [
+            "Meta-Analysis",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Meta-Analysis",
+          "evidence_level": 1,
+          "is_guideline": false,
+          "is_meta_analysis": true,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Journal of the American College of Cardiology",
+        "quartile": "Q1",
+        "if": 24.0
+      }
+    },
+    {
+      "citation": "PMID:\n19144126",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 3.7)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "19144126",
+          "status": "OK",
+          "year": "2009",
+          "title": "Tetralogy of Fallot",
+          "author": "NA",
+          "journal": "Orphanet journal of rare diseases",
+          "article_type": "review-article, Review",
+          "pubtypes": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Orphanet journal of rare diseases",
+        "quartile": "Q1",
+        "if": 3.7
+      }
+    },
+    {
+      "citation": "PMID:\n19683809",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 98.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "19683809",
+          "status": "OK",
+          "year": "2009",
+          "title": "Tetralogy of Fallot",
+          "author": "NA",
+          "journal": "Lancet (London, England)",
+          "article_type": "Research Support, Non-U.S. Gov't, Review",
+          "pubtypes": [
+            "Research Support, Non-U.S. Gov't",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Lancet (London, England)",
+        "quartile": "Q1",
+        "if": 98.0
+      }
+    },
+    {
+      "citation": "PMID:\n30264852",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 11.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "30264852",
+          "status": "OK",
+          "year": "2018",
+          "title": "Ibuprofen for the treatment of patent ductus arteriosus in preterm or low birth weight (or both) infants",
+          "author": "NA",
+          "journal": "The Cochrane database of systematic reviews",
+          "article_type": "Meta-Analysis, Systematic Review",
+          "pubtypes": [
+            "Meta-Analysis",
+            "Systematic Review",
+            "systematic-review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Meta-Analysis",
+          "evidence_level": 1,
+          "is_guideline": false,
+          "is_meta_analysis": true,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "The Cochrane database of systematic reviews",
+        "quartile": "Q1",
+        "if": 11.0
+      }
+    },
+    {
+      "citation": "PMID:\n25082585",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 24.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "25082585",
+          "status": "OK",
+          "year": "2014",
+          "title": "D-transposition of the great arteries: the current era of the arterial switch operation",
+          "author": "NA",
+          "journal": "Journal of the American College of Cardiology",
+          "article_type": "research-article, Review",
+          "pubtypes": [
+            "research-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Journal of the American College of Cardiology",
+        "quartile": "Q1",
+        "if": 24.0
+      }
+    },
+    {
+      "citation": "PMID:\n17101870",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 35.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "17101870",
+          "status": "OK",
+          "year": "2006",
+          "title": "Ventricular septal defects",
+          "author": "NA",
+          "journal": "Circulation",
+          "article_type": "Review, Journal Article",
+          "pubtypes": [
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Circulation",
+        "quartile": "Q1",
+        "if": 35.0
+      }
+    }
+  ]
+}

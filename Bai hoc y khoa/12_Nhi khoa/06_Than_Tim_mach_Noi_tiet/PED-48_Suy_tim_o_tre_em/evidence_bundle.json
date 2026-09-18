@@ -1,0 +1,481 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-18T17:38:00.438710Z",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-48_Suy_tim_o_tre_em\\raw_cache",
+  "providers": [
+    "crossref_retraction_watch",
+    "europe_pmc_metadata",
+    "openalex"
+  ],
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "653539f606c6cd70657f955ea7c8ed19f849a6d0541522d3e1f4172439bd9ea5",
+      "path": "raw/europe_pmc_metadata/653539f606c6cd70657f955ea7c8ed19f849a6d0541522d3e1f4172439bd9ea5.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "047c5e958e542b3dfbb3f7a3695955c18f92393d9f9cc602f3956ffe9e3949b4",
+      "path": "raw/openalex/047c5e958e542b3dfbb3f7a3695955c18f92393d9f9cc602f3956ffe9e3949b4.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "d6209ccfcefdd87a7cf5545d542c9a8c6497054f555307f44acbf8d16394c8b2",
+      "path": "raw/crossref_retraction_watch/d6209ccfcefdd87a7cf5545d542c9a8c6497054f555307f44acbf8d16394c8b2.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "4406f2823a7990f37aa40f97159556bf4e72b3fff1290f41c9acf407032e30e0",
+      "path": "raw/europe_pmc_metadata/4406f2823a7990f37aa40f97159556bf4e72b3fff1290f41c9acf407032e30e0.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "e5f10d9fe245b55512c6428b67fe70f9df2f9b4ea31bb6e3128021849894a64e",
+      "path": "raw/openalex/e5f10d9fe245b55512c6428b67fe70f9df2f9b4ea31bb6e3128021849894a64e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "b34da22cb5c5443e81f48966dcc2feaef0f03a3e45cb80c399d61e0220205202",
+      "path": "raw/crossref_retraction_watch/b34da22cb5c5443e81f48966dcc2feaef0f03a3e45cb80c399d61e0220205202.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "003c9b14767e37cf210375c8bce894f3ac05060a1131171eb9c505ef00890c4d",
+      "path": "raw/europe_pmc_metadata/003c9b14767e37cf210375c8bce894f3ac05060a1131171eb9c505ef00890c4d.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "d14e8025b2836d0b2dc8fca146c5a252e5cbdf3fa1b738ed01ad6dc4f1a354bf",
+      "path": "raw/openalex/d14e8025b2836d0b2dc8fca146c5a252e5cbdf3fa1b738ed01ad6dc4f1a354bf.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "4ec486cb8ed2e6255234bdfaeae910eb0a77de04dc7315b9b1ccb3767306eb2f",
+      "path": "raw/crossref_retraction_watch/4ec486cb8ed2e6255234bdfaeae910eb0a77de04dc7315b9b1ccb3767306eb2f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "0fd30f8ab527352d85702b4573e0cab73780dfc2490037a78936be3c30eea614",
+      "path": "raw/europe_pmc_metadata/0fd30f8ab527352d85702b4573e0cab73780dfc2490037a78936be3c30eea614.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "e53429c70cabdad98236e6035db401d33e81daf3e5b44975465986a2a516531f",
+      "path": "raw/openalex/e53429c70cabdad98236e6035db401d33e81daf3e5b44975465986a2a516531f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "18ed67c15437b60d78eb429604d475a2d91e6d6d2aef10040b82fbd96d3c3036",
+      "path": "raw/crossref_retraction_watch/18ed67c15437b60d78eb429604d475a2d91e6d6d2aef10040b82fbd96d3c3036.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "0b923a599dd3e51edaced0901adc9b6c1cb9e77319fbeed4557165ce06a415b3",
+      "path": "raw/europe_pmc_metadata/0b923a599dd3e51edaced0901adc9b6c1cb9e77319fbeed4557165ce06a415b3.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "535602c3d68712fe5b623ab03aef3af4302ed7cc589b0b6d9f732ba3e3f0f0b4",
+      "path": "raw/openalex/535602c3d68712fe5b623ab03aef3af4302ed7cc589b0b6d9f732ba3e3f0f0b4.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "36eb683bf291398b11ef96e957a73aff4c0bdfd1f87702dc804eb2b323a9b28e",
+      "path": "raw/crossref_retraction_watch/36eb683bf291398b11ef96e957a73aff4c0bdfd1f87702dc804eb2b323a9b28e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "3bad7a5d8326b3ea94d22c74ada2836bb74f752128c0b191378a843dda546ac3",
+      "path": "raw/europe_pmc_metadata/3bad7a5d8326b3ea94d22c74ada2836bb74f752128c0b191378a843dda546ac3.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "02b035834349ea165fbb3366541d8ae09449bad26b865acc054f5ac208e6f582",
+      "path": "raw/openalex/02b035834349ea165fbb3366541d8ae09449bad26b865acc054f5ac208e6f582.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "581aad4a71476e77d41b566da5ff6e1e0e0c01e1a8194ce3e31722b0d5a1cd09",
+      "path": "raw/crossref_retraction_watch/581aad4a71476e77d41b566da5ff6e1e0e0c01e1a8194ce3e31722b0d5a1cd09.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "2d0c57741a4f737d43df99182e92a399d42715d0307823546e621d9c7eb8c10e",
+      "path": "raw/europe_pmc_metadata/2d0c57741a4f737d43df99182e92a399d42715d0307823546e621d9c7eb8c10e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "9003513d7cecd10e5ea09bf962ffe4e04eb7174d1a85a6754eddae02fd0fcd54",
+      "path": "raw/openalex/9003513d7cecd10e5ea09bf962ffe4e04eb7174d1a85a6754eddae02fd0fcd54.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-18T17:38:00.438710Z",
+      "sha256": "4d87b31f72d903247440c7d3f283ace720fd8cbc58ed48c4a013d60dd987119e",
+      "path": "raw/crossref_retraction_watch/4d87b31f72d903247440c7d3f283ace720fd8cbc58ed48c4a013d60dd987119e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "records": {
+    "pmid:40838915": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "40838915",
+        "doi": "10.1016/j.healun.2025.06.003"
+      },
+      "title": "The International Society for Heart and Lung Transplantation Guidelines for the Management of Pediatric Heart Failure (Update From 2014)",
+      "abstract": "Pediatric heart failure (HF) secondary to cardiomyopathies, acquired heart disease, and congenital heart disease is associated with significant morbidity and mortality. These guidelines represent an update from the International Society for Heart and Lung Transplantation guidelines for the management of pediatric HF that were published in 2014 and incorporate interval advancements in medical therapies and new approaches in the evaluation and management of children with HF.",
+      "journal": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+      "year": "2025",
+      "publication_types": [
+        "Practice Guideline",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-18T17:38:00.438710Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-18T17:38:00.438710Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "653539f606c6cd70657f955ea7c8ed19f849a6d0541522d3e1f4172439bd9ea5",
+        "047c5e958e542b3dfbb3f7a3695955c18f92393d9f9cc602f3956ffe9e3949b4",
+        "d6209ccfcefdd87a7cf5545d542c9a8c6497054f555307f44acbf8d16394c8b2"
+      ],
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "current_version": true,
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "superseded_by": null
+      },
+      "claim_quote": "PMID 40838915 C-001 ISHLT 2025 Guidelines for the Management of Pediatric Heart Failure. Pediatric heart failure (HF) secondary to cardiomyopathies, acquired heart disease, and congenital heart disease is associated with significant morbidity and mortality. These guidelines represent an update from the International Society for Heart and Lung Transplantation guidelines for the management of pediatric HF that were published in 2014 and incorporate interval advancements in medical therapies and new approaches in the evaluation and management of children with HF."
+    },
+    "pmid:19707788": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "19707788",
+        "doi": "10.1007/s00431-009-1024-y"
+      },
+      "title": "Clinical practice: heart failure in children. Part I: clinical evaluation, diagnostic testing, and initial medical management",
+      "abstract": "Current evidence suggests that almost half of all children with cardiomyopathy and symptomatic heart failure will die or require a cardiac transplant within 5 years of diagnosis. The recognition, diagnostic assessment, and treatment of heart failure in children are therefore challenging undertakings, to say the least. It involves an assessment of cardiac appearance and function, adaptation of the child as a whole, and a diagnostic approach that evaluates many possible root causes. This review is intended to assist the practicing pediatrician and cardiologist by providing a framework for this diagnostic assessment and to give an overview of the treatment options available for children with heart failure. In this first part, we will focus on clinical evaluation, diagnostic testing, and initial medical management. In the second part of this series, the maintenance treatment and treatment options applicable when medical treatment is insufficient will be addressed.",
+      "journal": "European journal of pediatrics",
+      "year": "2010",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-18T17:38:00.438710Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-18T17:38:00.438710Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "4406f2823a7990f37aa40f97159556bf4e72b3fff1290f41c9acf407032e30e0",
+        "e5f10d9fe245b55512c6428b67fe70f9df2f9b4ea31bb6e3128021849894a64e",
+        "b34da22cb5c5443e81f48966dcc2feaef0f03a3e45cb80c399d61e0220205202"
+      ]
+    },
+    "pmid:20127112": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "20127112",
+        "doi": "10.1007/s00431-009-1133-7"
+      },
+      "title": "Clinical practice: heart failure in children. Part II: current maintenance therapy and new therapeutic approaches",
+      "abstract": "The current maintenance treatment for children with heart failure remains controversial: To a large extent, it is based on extrapolation of data derived from trials in adult populations. There are only a few randomized trials focused on the treatment of children with cardiac disease, especially in the subgroup with cardiomyopathy and heart failure. The goals of therapy are to maintain circulatory and end-organ function and to allow for recovery and reverse remodeling to occur. When maintenance therapy fails and medical treatment does not result in clinical improvement, the alternative of device therapy must be considered: In that case, the usual aim is to stabilize circulatory status, as a bridge to either recovery or to cardiac transplantation. Recently, carefully selected patients with electromechanical dyssynchrony of ventricular systolic function have demonstrated a benefit from biventricular pacing devices (cardiac resynchronization therapy), with improved functional capacity and quality of life and, in some patients, avoidance of the need for transplantation.",
+      "journal": "European journal of pediatrics",
+      "year": "2010",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-18T17:38:00.438710Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-18T17:38:00.438710Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "003c9b14767e37cf210375c8bce894f3ac05060a1131171eb9c505ef00890c4d",
+        "d14e8025b2836d0b2dc8fca146c5a252e5cbdf3fa1b738ed01ad6dc4f1a354bf",
+        "4ec486cb8ed2e6255234bdfaeae910eb0a77de04dc7315b9b1ccb3767306eb2f"
+      ]
+    },
+    "pmid:22476605": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "22476605",
+        "doi": "10.1007/s00246-012-0306-8"
+      },
+      "title": "The Ross classification for heart failure in children after 25 years: a review and an age-stratified revision",
+      "abstract": "Accurate grading of the presence and severity of heart failure (HF) signs and symptoms in infants and children remains challenging. It has been 25 years since the Ross classification was first used for this purpose. Since then, several modifications of the system have been used and others proposed. New evidence has shown that in addition to signs and symptoms, data from echocardiography, exercise testing, and biomarkers such as N-terminal pro-brain natriuretic peptide (NT-proBNP) all are useful in stratifying outcomes for children with HF. It also is apparent that grading of signs and symptoms in children is dependent on age because infants manifest HF differently than toddlers and older children. This review culminates in a proposed new age-based Ross classification for HF in children that incorporates the most useful data from the last two decades. Testing of this new system will be important to determine whether an age-stratified scoring system can unify the way communication of HF severity and research on HF in children is performed in the future.",
+      "journal": "Pediatric cardiology",
+      "year": "2012",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-18T17:38:00.438710Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-18T17:38:00.438710Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "0fd30f8ab527352d85702b4573e0cab73780dfc2490037a78936be3c30eea614",
+        "e53429c70cabdad98236e6035db401d33e81daf3e5b44975465986a2a516531f",
+        "18ed67c15437b60d78eb429604d475a2d91e6d6d2aef10040b82fbd96d3c3036"
+      ]
+    },
+    "pmid:42558062": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "42558062",
+        "doi": "10.1161/cir.0000000000001461"
+      },
+      "title": "Surviving Pediatric Cardiogenic Shock: Clinical Approach, Improving Outcomes, and Future Directions: A Scientific Statement From the American Heart Association",
+      "abstract": "Pediatric heart failure-related cardiogenic shock carries high morbidity and mortality but is understudied. Improving outcomes in pediatric cardiogenic shock hinges on timely diagnosis and appropriate triage, medical management tailored to the cause and phenotype of cardiogenic shock, and optimal timing of escalation to appropriate mechanical circulatory support. This scientific statement provides a diagnostic framework for the bedside clinician, in addition to proposing a pediatric cardiogenic shock definition and severity staging aligned with systems previously validated in other studies. It outlines the initial approach to diagnosis and stabilization of a child with suspected cardiogenic shock and offers guidance on optimal noninvasive and invasive monitoring strategies to determine clinical trajectory because a significant proportion of children with cardiogenic shock will continue to deteriorate in the first 24 hours. Last, it identifies future directions for the field, including educational interventions for the frontline clinicians seeing these patients, studying the role of a multidisciplinary shock team, evaluating the prognostic and clinical relevance of known and novel biomarkers, and leveraging all these to develop clinical decision tools or algorithms to guide nuanced management of these patients.",
+      "journal": "Circulation",
+      "year": "2026",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-18T17:38:00.438710Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-18T17:38:00.438710Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "0b923a599dd3e51edaced0901adc9b6c1cb9e77319fbeed4557165ce06a415b3",
+        "535602c3d68712fe5b623ab03aef3af4302ed7cc589b0b6d9f732ba3e3f0f0b4",
+        "36eb683bf291398b11ef96e957a73aff4c0bdfd1f87702dc804eb2b323a9b28e"
+      ]
+    },
+    "pmid:41599219": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "41599219",
+        "doi": "10.3390/pharmaceutics18010112"
+      },
+      "title": "Physiologically Based Pharmacokinetic Modeling of Digoxin in Adult and Pediatric Patients with Heart Failure",
+      "abstract": "<b>Background/Objectives</b>: Digoxin is a cardiotonic agent with a narrow therapeutic window and a high risk of toxicity. The current clinical use is based on an empirically FDA-recommended regimen which has wide dosing ranges, introducing the risk of inappropriate dosing and related adverse events. This study aims to develop a physiologically based pharmacokinetic (PBPK) model to characterize digoxin pharmacokinetics in adult and pediatric patients with heart failure, and then to evaluate the FDA-recommended regimen. <b>Methods</b>: The PBPK model was initially developed in healthy adults using PK-Sim<sup>®</sup>. Then, it was translated to adults with heart failure by incorporating disease factors. Next, it was further translated to pediatrics by scaling age-related parameters. Finally, through two-step translations, the model was used to evaluate current dosing regimens to inform safety and effectiveness based on observing predicted trough concentrations at a steady state. <b>Results</b>: This PBPK model has strong predicting ability, where observed concentrations and key PK metrics (C<sub>max</sub>, AUC<sub>0-t</sub>) were within 0.5-2.0-fold of predictions in healthy adults, adults with heart failure, neonates, and infants. The model prediction work on the evaluation of recommended dosing regimens from the FDA shows that the current regimen may not achieve the lowest boundary of the therapeutic window (0.5-2 ng/mL) in neonates (0-30 days), whereas infants (1-2 months) and children (<18 years) are generally good within it. <b>Conclusions</b>: This PBPK model explained major physiological and pathological contributors to differences in digoxin pharmacokinetics across populations and showed good performance in pediatric extrapolation. It also pointed out the shortage of empirical dosing regimens for such a drug with a narrow therapeutic window. The model may assist in optimizing the pediatric dosing strategies of digoxin, and suggests that current neonatal dosing regimens need refinement.",
+      "journal": "Pharmaceutics",
+      "year": "2026",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-18T17:38:00.438710Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-18T17:38:00.438710Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "3bad7a5d8326b3ea94d22c74ada2836bb74f752128c0b191378a843dda546ac3",
+        "02b035834349ea165fbb3366541d8ae09449bad26b865acc054f5ac208e6f582",
+        "581aad4a71476e77d41b566da5ff6e1e0e0c01e1a8194ce3e31722b0d5a1cd09"
+      ]
+    },
+    "pmid:33708503": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "33708503",
+        "doi": "10.21037/cdt-20-358"
+      },
+      "title": "Medical management of pediatric heart failure",
+      "abstract": "Pediatric heart failure is a complex, heterogenous syndrome that occurs relatively rarely in children, but carries a high burden of morbidity and mortality. This article reflects on the current state of medical therapy for both acute and chronic pediatric heart failure, based on expert consensus guidelines, and the extrapolation of data from trials performed in adults. For the management of acute heart failure specifically, we rely on an initial assessment of the perfusion and volume status of a patient, to guide medical therapy. This paradigm was adapted from adult studies that demonstrated increased morbidity and mortality in heart failure patients whose hemodynamics or examination findings were consistent with a PCWP >18 mmHg and a CI ≤2.2 L/min/m<sup>2</sup>. The cornerstone of treatment in the acute setting therefore relies on achieving a euvolemic state with adequate cardiac output. In the chronic setting, patients are typically maintained on a regimen of an angiotensin converting enzyme inhibitor, a beta-blocker, and spironolactone. For those with refractory heart failure, intravenous milrinone therapy has become a mainstay of bridging children to cardiac transplantation. The pediatric-specific data driving these clinical practices are limited and often times, conflicting. The future of pediatric heart failure depends on collaboration, quality improvement, and a commitment to pediatric-specific indications for new medical and device therapies.",
+      "journal": "Cardiovascular diagnosis and therapy",
+      "year": "2021",
+      "publication_types": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-18T17:38:00.438710Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-18T17:38:00.438710Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "2d0c57741a4f737d43df99182e92a399d42715d0307823546e621d9c7eb8c10e",
+        "9003513d7cecd10e5ea09bf962ffe4e04eb7174d1a85a6754eddae02fd0fcd54",
+        "4d87b31f72d903247440c7d3f283ace720fd8cbc58ed48c4a013d60dd987119e"
+      ]
+    }
+  },
+  "content_hash": "34f50e799522ae323dee7dd5d37b401ec8b0c2f6d3afd37b122db6b7bb463dc6"
+}

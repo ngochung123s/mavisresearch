@@ -1,0 +1,484 @@
+[
+  {
+    "gate": "brief_pmid_preflight",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\preflight_check_pmids.py",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_RESEARCH_BRIEF.md",
+      "--strict",
+      "--json",
+      "--evidence-bundle",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_RESEARCH_BRIEF.md",
+        "sha256": "09f57effff516c335552c35a308f1e74880f7583bc2d4b1937f0d390242e18ba"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\evidence_bundle.json",
+        "sha256": "79689d16e1d92bd880bad98979ae640e4ea5893281c63231856a364f7706a9be"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\brief_pmid_preflight.json",
+        "sha256": "d4ba69e65f747f17b61cc29299adade11d26e77053179687d50f3e11b7f0d9ef"
+      }
+    ]
+  },
+  {
+    "gate": "brief_claims_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_claim_vs_abstract.py",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_RESEARCH_BRIEF.md",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\brief_claims_report.json",
+      "--evidence-bundle",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_RESEARCH_BRIEF.md",
+        "sha256": "09f57effff516c335552c35a308f1e74880f7583bc2d4b1937f0d390242e18ba"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\evidence_bundle.json",
+        "sha256": "79689d16e1d92bd880bad98979ae640e4ea5893281c63231856a364f7706a9be"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\brief_claims_command.json",
+        "sha256": "f585e9dda5d986ae0eab36d6188eef03f78916d5879c74a6624e07f24b4b585c"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\brief_claims_report.json",
+        "sha256": "7cf319457c45d02127e644ec677e0112fcfdb0fbbd9c6d3457f74260e061c8db"
+      }
+    ]
+  },
+  {
+    "gate": "source_pmid_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_all_pmids.py",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+      "--strict",
+      "--json",
+      "--evidence-bundle",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+        "sha256": "51005940edccf217d86df5cd01cea3a7d8f557f0eea1d777466c6ca9971435d9"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\evidence_bundle.json",
+        "sha256": "79689d16e1d92bd880bad98979ae640e4ea5893281c63231856a364f7706a9be"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\source_pmid_strict.json",
+        "sha256": "4c9d153ce27122eac1d55658fddad792b4d579d4fe9af9e3329ddfd4d7ea4ced"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_guidelines.py",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\guideline_evidence.json",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\guideline_report.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\guideline_evidence.json",
+        "sha256": "f2c3964e97094ed76a58d7374dd3bd00879dbb77ca2991c8ddcee2fa97fe8a95"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\guideline_command.json",
+        "sha256": "a7cd78a310107ef4db360e5c7fce4de86965e38547e51ebda3b1825f65e26a9c"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\guideline_report.json",
+        "sha256": "3a719068623625e66704ad79afe4d532955eaf9367cad717c207f13bebb247fa"
+      }
+    ]
+  },
+  {
+    "gate": "source_claims_strict",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_claims.py",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+      "--strict",
+      "--guideline-report",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\guideline_report.json",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\source_claims_report.json",
+      "--evidence-bundle",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+        "sha256": "51005940edccf217d86df5cd01cea3a7d8f557f0eea1d777466c6ca9971435d9"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\guideline_evidence.json",
+        "sha256": "f2c3964e97094ed76a58d7374dd3bd00879dbb77ca2991c8ddcee2fa97fe8a95"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\evidence_bundle.json",
+        "sha256": "79689d16e1d92bd880bad98979ae640e4ea5893281c63231856a364f7706a9be"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\source_claims_command.json",
+        "sha256": "74acd19513089278d00943aae7add513d7c060648e8e9b8d8f5a952b33bd974b"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\source_claims_report.json",
+        "sha256": "528179973cd7fb07d3f6480686bd6731249dcc995bfe1dcdb3dbdc83ad3ac308"
+      }
+    ]
+  },
+  {
+    "gate": "source_retraction",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\retraction_check.py",
+      "--md",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+      "--strict",
+      "--json-out",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\source_retraction_report.json",
+      "--evidence-bundle",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+        "sha256": "51005940edccf217d86df5cd01cea3a7d8f557f0eea1d777466c6ca9971435d9"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\evidence_bundle.json",
+        "sha256": "79689d16e1d92bd880bad98979ae640e4ea5893281c63231856a364f7706a9be"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\source_retraction_command.json",
+        "sha256": "6ff3ea38a24eddbcebeb5d71203ed9fed16aee0041c8ef8c408edaeb7597647d"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\source_retraction_report.json",
+        "sha256": "6e882dd43f4b3631bf3fe8e55ff0bc76e0afd1d51d4dce30820c895b552862b2"
+      }
+    ]
+  },
+  {
+    "gate": "guideline_evidence_crosscheck",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "crosscheck_guidelines"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\guideline_evidence.json",
+        "sha256": "f2c3964e97094ed76a58d7374dd3bd00879dbb77ca2991c8ddcee2fa97fe8a95"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_RESEARCH_BRIEF.md",
+        "sha256": "09f57effff516c335552c35a308f1e74880f7583bc2d4b1937f0d390242e18ba"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+        "sha256": "51005940edccf217d86df5cd01cea3a7d8f557f0eea1d777466c6ca9971435d9"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\guideline_crosscheck_report.json",
+        "sha256": "61de2812738ecd4385aedcd2a2c82292882cc06fcb65934de688a3bbb7503891"
+      }
+    ]
+  },
+  {
+    "gate": "citation_zero_block",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\citation_audit.py",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+      "--json",
+      "--evidence-bundle",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\evidence_bundle.json"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+        "sha256": "51005940edccf217d86df5cd01cea3a7d8f557f0eea1d777466c6ca9971435d9"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\citation_audit.json",
+        "sha256": "8db4bfde3b1afe2c8f9f513ffcab0df5484b355a0ce77a27e98a30bf71d633a6"
+      }
+    ]
+  },
+  {
+    "gate": "depth_foundation",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\depth_check.py",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+      "--profile",
+      "foundation"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+        "sha256": "51005940edccf217d86df5cd01cea3a7d8f557f0eea1d777466c6ca9971435d9"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\depth_foundation.json",
+        "sha256": "da5eef904e579c914f427aaea4de2bc61f382915f97188df212d58586b5c33d2"
+      }
+    ]
+  },
+  {
+    "gate": "cards_schema",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "--internal",
+      "cards_schema"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.cards.v2.json",
+        "sha256": "805a9e89eaebb5096a47fb525b30fae3ae5f8affc5c86009fe4c2322d522713b"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\cards_schema.json",
+        "sha256": "a4c1ad5db31e4ccf6fda683c73400d393308fcfed1846237261e149e4da6785d"
+      }
+    ]
+  },
+  {
+    "gate": "candidate_apkg_build",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_apkg.py",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.cards.v2.json",
+      "--output",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.apkg",
+      "--verify"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.cards.v2.json",
+        "sha256": "805a9e89eaebb5096a47fb525b30fae3ae5f8affc5c86009fe4c2322d522713b"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\candidate_apkg_build.json",
+        "sha256": "b01ac7c738e12274f60b296fa0b83cd98b5e3a17c81e61f105eb1caf0fb084cd"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.apkg",
+        "sha256": "b1db122c1b5784d43ba981cbb2c080b5947aab589910053755090a76f8892cc5"
+      }
+    ]
+  },
+  {
+    "gate": "package_note_count",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "internal:package_note_count"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.cards.v2.json",
+        "sha256": "805a9e89eaebb5096a47fb525b30fae3ae5f8affc5c86009fe4c2322d522713b"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.apkg",
+        "sha256": "b1db122c1b5784d43ba981cbb2c080b5947aab589910053755090a76f8892cc5"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\package_counts.json",
+        "sha256": "8c3820b7399009092be3e82bf6b1f84da20a630905a2d170a1cd0bac31d1639a"
+      }
+    ]
+  },
+  {
+    "gate": "package_diacritics",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\verify_apkg_diacritics.py",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.apkg"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.apkg",
+        "sha256": "b1db122c1b5784d43ba981cbb2c080b5947aab589910053755090a76f8892cc5"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\package_diacritics.json",
+        "sha256": "f1d98cd3e09f415a6c01890a2748228e1d5f6c93b0e7145851587f4b53d44733"
+      }
+    ]
+  },
+  {
+    "gate": "source_diacritics",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\build_pipeline.py",
+      "internal:source_diacritics"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+        "sha256": "51005940edccf217d86df5cd01cea3a7d8f557f0eea1d777466c6ca9971435d9"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\source_diacritics.json",
+        "sha256": "99a2647e5fde52affae1b64483119daadc142a5a0804e2d980ee9cabc849aa82"
+      }
+    ]
+  },
+  {
+    "gate": "docx_build",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\md_to_docx.py",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.docx"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
+        "sha256": "51005940edccf217d86df5cd01cea3a7d8f557f0eea1d777466c6ca9971435d9"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\docx_build.json",
+        "sha256": "f6ac015b36bdcb27a8405613f9562549785280eb8f325c3151f62a5a0b731629"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.docx",
+        "sha256": "7287b71126fded440e1fd48cdfc45a251f03a38411a77cf3219afa9da183fafb"
+      }
+    ]
+  },
+  {
+    "gate": "learner_smoke",
+    "status": "PASS",
+    "command": [
+      "C:\\Users\\THANHANH\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\10_Script Python\\make_knowledge_check.py",
+      "..\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.cards.v2.json",
+      "--output-dir",
+      "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs"
+    ],
+    "exit_code": 0,
+    "release_id": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1",
+    "inputs": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.cards.v2.json",
+        "sha256": "805a9e89eaebb5096a47fb525b30fae3ae5f8affc5c86009fe4c2322d522713b"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\evidence_bundle.json",
+        "sha256": "79689d16e1d92bd880bad98979ae640e4ea5893281c63231856a364f7706a9be"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\verification\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1\\learner_smoke.json",
+        "sha256": "8ed0c9c97e518869bd4687377a24357d0f045b270fffdebdff3da05afde4dbaf"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1_knowledge_check.md",
+        "sha256": "4c74a151a0b667a36b9656c357f26080d59f954314cda3364db14ac404b983c4"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1_knowledge_check_answer_key.md",
+        "sha256": "e42a44fdc403f7b30e5a30fcc1a9fd8f8d9d9962f68ce44d3d27379cbd045a11"
+      },
+      {
+        "path": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\outputs\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1_knowledge_check_score.json",
+        "sha256": "f6fd49f6812f7a216cf2e900502799e2fbb671d9702222cb46ecf31e389d7056"
+      }
+    ]
+  }
+]

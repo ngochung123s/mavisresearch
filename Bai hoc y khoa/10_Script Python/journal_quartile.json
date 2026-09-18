@@ -328,8 +328,8 @@
     },
     "Journal of the American College of Cardiology": {
       "if": 24.0,
-      "quartile": "Q1",
-      "category": "Cardiac & Cardiovascular Systems"
+      "field": "Cardiology",
+      "abbr": "J Am Coll Cardiol"
     },
     "New England Journal of Medicine": {
       "if": 96.0,
@@ -466,6 +466,31 @@
       "abbr": "World J Pediatr",
       "society": "Springer Nature",
       "notes": "Official journal of Children's Hospital, Zhejiang University School of Medicine."
+    },
+    "The Journal of Heart and Lung Transplantation": {
+      "if": 8.9,
+      "field": "Cardiology & Transplantation",
+      "abbr": "J Heart Lung Transplant"
+    },
+    "European Journal of Pediatrics": {
+      "if": 3.6,
+      "field": "Pediatrics",
+      "abbr": "Eur J Pediatr"
+    },
+    "Pharmaceutics": {
+      "if": 5.4,
+      "field": "Pharmacology",
+      "abbr": "Pharmaceutics"
+    },
+    "Orphanet Journal of Rare Diseases": {
+      "if": 3.7,
+      "field": "Rare Diseases",
+      "abbr": "Orphanet J Rare Dis"
+    },
+    "The Cochrane Database of Systematic Reviews": {
+      "if": 11.0,
+      "field": "Medicine, General & Internal",
+      "abbr": "Cochrane Database Syst Rev"
     }
   },
   "Q2": {
@@ -653,6 +678,16 @@
       "field": "General Medicine",
       "society": "Oxford",
       "specialty": "Primary Care"
+    },
+    "Pediatric Cardiology": {
+      "if": 1.8,
+      "field": "Pediatric Cardiology",
+      "abbr": "Pediatr Cardiol"
+    },
+    "Cardiovascular Diagnosis and Therapy": {
+      "if": 2.5,
+      "field": "Cardiology",
+      "abbr": "Cardiovasc Diagn Ther"
     }
   },
   "Q3": {
@@ -843,7 +878,7 @@
     "Human Reproduction Update": "Human Reproduction Update",
     "NEJM": "New England Journal of Medicine",
     "N Engl J Med": "New England Journal of Medicine",
-    "Cochrane Database Syst Rev": "Cochrane Database of Systematic Reviews",
+    "Cochrane Database Syst Rev": "The Cochrane Database of Systematic Reviews",
     "RBMO": "Reproductive BioMedicine Online",
     "Reprod Biomed Online": "Reproductive BioMedicine Online",
     "JARG": "Journal of Assisted Reproduction and Genetics",
@@ -1003,7 +1038,7 @@
     "Hum Genet": "Human Genetics",
     "Cureus": "Cureus",
     "Urology": "Urology",
-    "J Heart Lung Transplant": "Journal of Heart and Lung Transplantation",
+    "J Heart Lung Transplant": "The Journal of Heart and Lung Transplantation",
     "Heart": "Heart",
     "Lancet Oncol": "Lancet Oncology",
     "Lancet Neurol": "Lancet Neurology",
@@ -1080,7 +1115,7 @@
     "The European respiratory journal": "The European Respiratory Journal",
     "The Lancet. Respiratory medicine": "The Lancet Respiratory Medicine",
     "American journal of respiratory and critical care medicine": "American Journal of Respiratory and Critical Care Medicine",
-    "The Cochrane database of systematic reviews": "Cochrane Database of Systematic Reviews",
+    "The Cochrane database of systematic reviews": "The Cochrane Database of Systematic Reviews",
     "Paediatrics & child health": "Paediatrics & Child Health",
     "American journal of diseases of children (1960)": "American Journal of Diseases of Children",
     "American Journal of Diseases of Children (1960)": "American Journal of Diseases of Children",
@@ -1111,7 +1146,34 @@
     "World J Pediatr": "World Journal of Pediatrics",
     "world j pediatr": "World Journal of Pediatrics",
     "World Journal of Pediatrics : WJP": "World Journal of Pediatrics",
-    "World Journal of Pediatrics": "World Journal of Pediatrics"
+    "World Journal of Pediatrics": "World Journal of Pediatrics",
+    "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation": "The Journal of Heart and Lung Transplantation",
+    "the journal of heart and lung transplantation : the official publication of the international society for heart transplantation": "The Journal of Heart and Lung Transplantation",
+    "The Journal of heart and lung transplantation": "The Journal of Heart and Lung Transplantation",
+    "the journal of heart and lung transplantation": "The Journal of Heart and Lung Transplantation",
+    "j heart lung transplant": "The Journal of Heart and Lung Transplantation",
+    "European journal of pediatrics": "European Journal of Pediatrics",
+    "european journal of pediatrics": "European Journal of Pediatrics",
+    "Eur J Pediatr": "European Journal of Pediatrics",
+    "eur j pediatr": "European Journal of Pediatrics",
+    "Pediatric cardiology": "Pediatric Cardiology",
+    "pediatric cardiology": "Pediatric Cardiology",
+    "pediatr cardiol": "Pediatric Cardiology",
+    "Cardiovascular diagnosis and therapy": "Cardiovascular Diagnosis and Therapy",
+    "cardiovascular diagnosis and therapy": "Cardiovascular Diagnosis and Therapy",
+    "Cardiovasc Diagn Ther": "Cardiovascular Diagnosis and Therapy",
+    "cardiovasc diagn ther": "Cardiovascular Diagnosis and Therapy",
+    "Pharmaceutics": "Pharmaceutics",
+    "pharmaceutics": "Pharmaceutics",
+    "Orphanet journal of rare diseases": "Orphanet Journal of Rare Diseases",
+    "orphanet journal of rare diseases": "Orphanet Journal of Rare Diseases",
+    "Orphanet J Rare Dis": "Orphanet Journal of Rare Diseases",
+    "orphanet j rare dis": "Orphanet Journal of Rare Diseases",
+    "the cochrane database of systematic reviews": "The Cochrane Database of Systematic Reviews",
+    "cochrane database syst rev": "The Cochrane Database of Systematic Reviews",
+    "Journal of the American College of Cardiology": "Journal of the American College of Cardiology",
+    "journal of the american college of cardiology": "Journal of the American College of Cardiology",
+    "j am coll cardiol": "Journal of the American College of Cardiology"
   },
   "aliases": {
     "Obstet Gynecol": "Obstetrics and Gynecology",

@@ -136,9 +136,45 @@ Bản vá toàn diện theo đánh giá của Qwen:
     .glow-legendary { border-color: #facc15; box-shadow: 0 0 18px rgba(250, 204, 21, 0.6); }
     .glow-mythic { border-color: #f43f5e; box-shadow: 0 0 22px rgba(244, 63, 94, 0.8); }
     .glow-cursed { border-color: #64748b; box-shadow: 0 0 15px rgba(0, 0, 0, 0.9); }
+
+    /* Death's Door Red Vignette */
+    @keyframes deathPulse {
+      0%, 100% { opacity: 0.6; box-shadow: inset 0 0 60px rgba(220, 38, 38, 0.75), inset 0 0 130px rgba(185, 28, 28, 0.45); }
+      50% { opacity: 1; box-shadow: inset 0 0 95px rgba(239, 68, 68, 0.95), inset 0 0 170px rgba(220, 38, 38, 0.65); }
+    }
+    .vignette-death {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 8888;
+      animation: deathPulse 1.0s ease-in-out infinite;
+    }
+
+    /* Heartbeat animation */
+    @keyframes heartbeatAnim {
+      0%, 100% { transform: scale(1); }
+      14% { transform: scale(1.15); }
+      28% { transform: scale(0.96); }
+      42% { transform: scale(1.08); }
+      70% { transform: scale(1); }
+    }
+    .anim-heartbeat {
+      animation: heartbeatAnim 0.85s ease-in-out infinite;
+    }
+
+    /* Wheel of Fate Glow & Spin */
+    @keyframes wheelGlow {
+      0%, 100% { box-shadow: 0 0 15px rgba(234, 179, 8, 0.3), inset 0 0 10px rgba(234, 179, 8, 0.2); }
+      50% { box-shadow: 0 0 30px rgba(234, 179, 8, 0.7), inset 0 0 20px rgba(234, 179, 8, 0.4); }
+    }
+    .wheel-glow {
+      animation: wheelGlow 2s ease-in-out infinite;
+    }
+
   </style>
 </head>
 <body class="bg-gothic-950 text-slate-100 font-sans min-h-screen flex flex-col selection:bg-rose-700 selection:text-white pb-8 overflow-x-hidden">
+  <div id="deathVignette" class="hidden vignette-death"></div>
 
   <!-- FLOATING DAMAGE & PARTICLES LAYER -->
   <div id="fxLayer" class="fixed inset-0 pointer-events-none z-[999]"></div>
@@ -262,6 +298,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
           <span id="monsterTraitBadge" class="text-[9px] font-mono font-bold px-1.5 py-0.2 rounded bg-red-950 text-red-400 border border-red-800/80">
             Nhầy độc
           </span>
+          <span id="monsterAffixBadge" class="hidden text-[9px] font-mono font-bold px-1.5 py-0.2 rounded border animate-pulse"></span>
         </div>
         <div id="monsterIntent" class="text-[11px] text-amber-400 font-mono mt-0.5 flex items-center gap-1">
           <span>⚔️ Ý định: Tấn công gây 8 DMG</span>
@@ -294,7 +331,21 @@ Bản vá toàn diện theo đánh giá của Qwen:
           <!-- Player HP Bar -->
           <div class="w-full h-3 bg-gothic-950 rounded-full p-0.5 border border-emerald-900/60 overflow-hidden shadow-inner">
             <div id="playerHpBar" class="h-full bg-gradient-to-r from-emerald-600 to-teal-400 rounded-full transition-all duration-300 w-full"></div>
-          </div>
+          
+          <!-- Player Stress Gauge & Resolve -->
+          <div class="space-y-1 mt-1.5">
+            <div class="flex items-center justify-between text-[10px] font-mono">
+              <div class="flex items-center gap-1.5">
+                <span>🧠</span>
+                <span class="text-slate-400">ÁP LỰC TÂM LÝ:</span>
+                <span id="playerAfflictionBadge" class="hidden text-[9px] px-1.5 py-0.2 rounded font-bold"></span>
+              </div>
+              <span id="playerStressText" class="font-bold text-purple-300">0 / 100 STRESS</span>
+            </div>
+            <div class="w-full h-2 bg-gothic-950 rounded-full p-0.5 border border-purple-900/60 overflow-hidden shadow-inner">
+              <div id="playerStressBar" class="h-full bg-gradient-to-r from-purple-700 via-fuchsia-600 to-pink-500 rounded-full transition-all duration-300 w-0"></div>
+            </div>
+          </div></div>
 
           <!-- Combat Stats: ATK, Shields, Mana, Combo -->
           <div class="grid grid-cols-4 gap-1.5 text-center font-mono text-[10px]">
@@ -462,6 +513,33 @@ Bản vá toàn diện theo đánh giá của Qwen:
         </button>
         <button id="btnGoSanctuaryOnDeath" class="flex-1 py-2.5 rounded-xl bg-gothic-800 hover:bg-gothic-700 border border-slate-700 text-slate-300 font-mono text-xs transition">
           🏛️ THÁNH ĐỊA
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- WHEEL OF ASCLEPIUS MODAL (VÒNG QUAY SỐ PHẬN THẦN Y) -->
+  <div id="wheelOfFateModal" class="hidden fixed inset-0 bg-black/90 backdrop-blur-md z-50 flex items-center justify-center p-4">
+    <div class="bg-gothic-900 border-2 border-yellow-600/80 rounded-3xl max-w-sm w-full p-5 space-y-4 shadow-2xl text-center relative overflow-hidden wheel-glow">
+      <div class="text-4xl">🎰</div>
+      <h2 class="text-base font-bold text-yellow-400 font-mono tracking-wide">VÒNG QUAY SỐ PHẬN CỦA THẦN Y</h2>
+      <p class="text-xs text-slate-300 leading-relaxed" id="wheelDescText">
+        Một tế đàn cổ thần bí phát sáng giữa hầm ngục! Bạn có dám thử vận may của số phận?
+      </p>
+      
+      <div id="wheelWheelContainer" class="p-3 bg-gothic-950 rounded-2xl border border-yellow-900/60 space-y-2">
+        <div id="wheelCurrentOutcome" class="text-sm py-2 font-mono font-bold text-yellow-300 min-h-[48px] flex items-center justify-center">
+          ❓ [Bấm thử vận may để quay số]
+        </div>
+      </div>
+
+      <div class="flex gap-2">
+        <button id="btnSpinWheel" onclick="spinWheelOfFate()" class="flex-1 py-2.5 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-500 hover:from-amber-500 hover:to-yellow-400 text-slate-950 font-bold font-mono text-xs transition shadow-lg shadow-yellow-500/30">
+          🎲 THỬ VẬN MAY!
+        </button>
+        <button id="btnSkipWheel" onclick="closeWheelOfFate()" class="px-4 py-2.5 rounded-xl bg-gothic-800 hover:bg-gothic-700 border border-slate-700 text-slate-300 font-mono text-xs transition">
+          BỎ QUA
         </button>
       </div>
     </div>
@@ -731,6 +809,38 @@ Bản vá toàn diện theo đánh giá của Qwen:
         this.tone(523.25, 'sine', 0.1, 0.06);
         setTimeout(() => this.tone(783.99, 'sine', 0.15, 0.08), 80);
       },
+      heartbeat() {
+        if (!this.enabled) return;
+        this.tone(65, 'sine', 0.12, 0.22);
+        setTimeout(() => this.tone(55, 'sine', 0.15, 0.28), 160);
+      },
+      thunder() {
+        if (!this.enabled) return;
+        this.tone(120, 'sawtooth', 0.35, 0.2);
+        setTimeout(() => this.tone(85, 'square', 0.45, 0.18), 40);
+        setTimeout(() => this.tone(55, 'sine', 0.55, 0.22), 100);
+      },
+      deathToll() {
+        if (!this.enabled) return;
+        [220, 207.65, 196, 174.61].forEach((f, i) => {
+          setTimeout(() => this.tone(f, 'sawtooth', 0.45, 0.15), i * 140);
+        });
+      },
+      revive() {
+        if (!this.enabled) return;
+        [329.63, 392, 493.88, 587.33, 783.99].forEach((f, i) => {
+          setTimeout(() => this.tone(f, 'triangle', 0.28, 0.12), i * 75);
+        });
+      },
+      curse() {
+        if (!this.enabled) return;
+        this.tone(110, 'sawtooth', 0.5, 0.18);
+        setTimeout(() => this.tone(80, 'sawtooth', 0.65, 0.22), 90);
+      },
+      wheelTick() {
+        if (!this.enabled) return;
+        this.tone(600 + Math.random() * 300, 'triangle', 0.05, 0.09);
+      },
       victory() {
         [440, 554.37, 659.25, 880, 1108.73].forEach((f, i) => {
           setTimeout(() => this.tone(f, 'triangle', 0.35, 0.1), i * 90);
@@ -776,6 +886,11 @@ Bản vá toàn diện theo đánh giá của Qwen:
         mana: 0,
         maxMana: 3,
         combo: 0,
+        stress: 0,
+        affliction: null,
+        isDeathsDoor: false,
+        monsterAffix: null,
+        activeRandomEvent: null,
         poisonTurns: 0,
         againUsedThisRoom: false,
         organSealStacks: 0,
@@ -815,6 +930,10 @@ Bản vá toàn diện theo đánh giá của Qwen:
           state.meta.upgrades = Object.assign({}, DEFAULT_STATE.meta.upgrades, (parsed.meta && parsed.meta.upgrades) || {});
           state.run = Object.assign({}, DEFAULT_STATE.run, parsed.run || {});
           state.battle = Object.assign({}, DEFAULT_STATE.battle, parsed.battle || {});
+          // Fix legacy 0hp bug: If active run loaded with 0 HP, restart with fresh HP or die!
+          if (state.run.active && state.run.hp <= 0) {
+            state.run.hp = state.run.maxHp || 100;
+          }
         }
       } catch(e) {}
     }
@@ -834,6 +953,179 @@ Bản vá toàn diện theo đánh giá của Qwen:
     /* ====================================================================
        6. RELIC EFFECT DISPATCHER HELPER FUNCTIONS
        ==================================================================== */
+    
+    /* ====================================================================
+       STRESS & RESOLVE ENGINE (DARK FANTASY PSYCHOLOGICAL HORROR)
+       ==================================================================== */
+    function addStress(amt) {
+      if (!state.run.active) return;
+      state.run.stress = Math.min(100, Math.max(0, (state.run.stress || 0) + amt));
+      if (state.run.stress >= 100 && !state.run.affliction) {
+        triggerResolveCheck();
+      }
+      renderUI();
+    }
+
+    function reduceStress(amt) {
+      if (!state.run.active) return;
+      state.run.stress = Math.max(0, (state.run.stress || 0) - amt);
+      renderUI();
+    }
+
+    function triggerResolveCheck() {
+      DungeonSound.thunder();
+      shakeScreen();
+      // 25% Virtue (Ý Chí Thép) vs 75% Affliction (Khủng Hoảng Tâm Lý)
+      const isVirtue = (Math.random() < 0.25) || relicFlag('guaranteedVirtue');
+      if (isVirtue) {
+        const virtues = [
+          { id: 'vigorous', name: 'Bừng Sáng', desc: 'Hồi phục 100% Máu tối đa và tăng vĩnh viễn +5 ATK!', icon: '✨', isVirtue: true },
+          { id: 'courageous', name: 'Can Trường', desc: 'Lòng can đảm tột đỉnh! Mỗi đòn Good/Easy giáng thêm sấm sét 20 DMG!', icon: '⚡', isVirtue: true }
+        ];
+        const v = virtues[Math.floor(Math.random() * virtues.length)];
+        state.run.affliction = v;
+        state.run.stress = 0;
+        if (v.id === 'vigorous') {
+          state.run.hp = state.run.maxHp;
+          state.run.bonusAtk = (state.run.bonusAtk || 0) + 5;
+        }
+        DungeonSound.revive();
+        spawnDamageFloat(`Ý CHÍ THÉP: ${v.name.toUpperCase()}!`, 'text-cyan-300');
+        logBattle(`👑 [Ý CHÍ THÉP THỨC TỈNH]: ${v.name} — ${v.desc}`);
+        showToast(`🌟 THỨC TỈNH Ý CHÍ THÉP: ${v.name}!`, 'success');
+      } else {
+        const afflictions = [
+          { id: 'paranoia', name: 'Hoang Tưởng', desc: 'Mất toàn bộ khiên và không thể tích khiên bảo vệ!', icon: '😱', isVirtue: false },
+          { id: 'hopeless', name: 'Tuyệt Vọng', desc: 'Mất hết niềm tin, sát thương tấn công giảm 35%!', icon: '🥀', isVirtue: false },
+          { id: 'irrational', name: 'Bấn Loạn', desc: 'Tay run rẩy, hoảng sợ đánh rơi vật phẩm hoặc 20 Vàng!', icon: '🩸', isVirtue: false }
+        ];
+        const a = afflictions[Math.floor(Math.random() * afflictions.length)];
+        state.run.affliction = a;
+        state.run.stress = 65; // Giữ lại mức stress cao
+        if (a.id === 'paranoia') {
+          state.run.shields = 0;
+        } else if (a.id === 'irrational') {
+          if (state.run.inventory.length > 0) {
+            const dropped = state.run.inventory.pop();
+            showToast(`😱 Bấn loạn: Bạn hoảng sợ đánh rơi ${dropped.name}!`, 'error');
+            logBattle(`😱 [Bấn loạn]: Bạn run tay làm rơi mất [${dropped.name}]!`);
+          } else {
+            state.run.gold = Math.max(0, state.run.gold - 20);
+            showToast('😱 Bấn loạn: Bạn run rẩy làm rơi 20 Vàng!', 'error');
+            logBattle('😱 [Bấn loạn]: Bạn hoảng hốt làm rơi mất 20 Vàng!');
+          }
+        }
+        DungeonSound.curse();
+        spawnDamageFloat(`HOẢNG LOẠN: ${a.name.toUpperCase()}!`, 'text-purple-400');
+        logBattle(`😱 [KHỦNG HOẢNG TÂM LÝ]: ${a.name} — ${a.desc}`);
+        showToast(`💔 KHỦNG HOẢNG TÂM LÝ: ${a.name}!`, 'error');
+      }
+      saveState();
+    }
+
+    /* ====================================================================
+       RANDOM WHEEL OF ASCLEPIUS (VÒNG QUAY SỐ PHẬN CỦA THẦN Y)
+       ==================================================================== */
+    let isSpinningWheel = false;
+
+    function openWheelOfFate() {
+      const modal = document.getElementById('wheelOfFateModal');
+      if (!modal) return;
+      modal.classList.remove('hidden');
+      document.getElementById('wheelCurrentOutcome').innerHTML = '❓ [Bấm thử vận may để quay số]';
+      document.getElementById('btnSpinWheel').disabled = false;
+      isSpinningWheel = false;
+
+      // Auto-pilot handles wheel automatically after 1.8s
+      if (state.run.autoPilot) {
+        setTimeout(() => {
+          if (!modal.classList.contains('hidden') && !isSpinningWheel) {
+            spinWheelOfFate();
+          }
+        }, 1800);
+      }
+    }
+
+    function closeWheelOfFate() {
+      const modal = document.getElementById('wheelOfFateModal');
+      if (modal) modal.classList.add('hidden');
+      isSpinningWheel = false;
+      renderUI();
+    }
+
+    function spinWheelOfFate() {
+      if (isSpinningWheel) return;
+      isSpinningWheel = true;
+      document.getElementById('btnSpinWheel').disabled = true;
+
+      const outcomes = [
+        { text: '🌟 Thần Dược Ban Phước (+20 Max HP & Hồi Đầy Máu)', action: () => {
+          state.run.maxHp += 20;
+          state.run.hp = state.run.maxHp;
+          showToast('🌟 Vận may thần y: +20 Max HP & Hồi đầy máu!', 'success');
+          logBattle('🎰 [Vòng Quay Số Phận]: Thần Dược Ban Phước (+20 Max HP & Hồi đầy máu)!');
+        }},
+        { text: '💎 Siêu Cổ Vật Thất Truyền (Nhận 1 Cổ Vật Hiếm)', action: () => {
+          const unowned = RELICS_MASTER_DB.filter(r => !state.run.relics.includes(r.id) && r.rarity !== 'cursed');
+          if (unowned.length > 0) {
+            const r = unowned[Math.floor(Math.random() * unowned.length)];
+            state.run.relics.push(r.id);
+            recalcMaxHp();
+            showToast(`💎 Vận may thần y: Nhận Cổ Vật [${r.name}]!`, 'success');
+            logBattle(`🎰 [Vòng Quay Số Phận]: Nhận Cổ Vật [${r.name}]!`);
+          }
+        }},
+        { text: '🪙 Cơn Mưa Hoàng Kim (+80 Vàng)', action: () => {
+          state.run.gold += 80;
+          showToast('🪙 Vận may thần y: +80 Vàng!', 'success');
+          logBattle('🎰 [Vòng Quay Số Phận]: Nhận 80 Vàng rực rỡ!');
+        }},
+        { text: '☠️ Liều Độc Dược Thử Nghiệm (-15 HP)', action: () => {
+          state.run.hp = Math.max(1, state.run.hp - 15);
+          DungeonSound.curse();
+          shakeScreen();
+          showToast('☠️ Tác dụng phụ độc dược: Mất -15 HP!', 'error');
+          logBattle('🎰 [Vòng Quay Số Phận]: Uống nhầm độc dược thử nghiệm, mất 15 HP!');
+        }},
+        { text: '⚡ Quái Vật Bị Nguyền Rủa (-50% HP Quái Hiện Tại)', action: () => {
+          if (state.battle.monster) {
+            const cutDmg = Math.round(state.battle.currentHp * 0.5);
+            state.battle.currentHp = Math.max(1, state.battle.currentHp - cutDmg);
+            showToast(`⚡ Quái vật trúng sét sấm truyền: Giảm ${cutDmg} HP!`, 'info');
+            logBattle(`🎰 [Vòng Quay Số Phận]: Quái vật bị giáng sét mất ${cutDmg} HP!`);
+          }
+        }},
+        { text: '👹 Dịch Bệnh Cuồng Nộ (Quái Tăng 25% ATK)', action: () => {
+          if (state.battle.monster) {
+            state.battle.monster.atk = Math.round(state.battle.monster.atk * 1.25);
+            DungeonSound.monsterBite();
+            showToast('👹 Bão dịch bệnh: Quái vật cuồng nộ tăng sát thương!', 'error');
+            logBattle('🎰 [Vòng Quay Số Phận]: Quái vật hấp thu tà khí, tăng 25% ATK!');
+          }
+        }}
+      ];
+
+      let ticks = 0;
+      const interval = setInterval(() => {
+        const randIdx = Math.floor(Math.random() * outcomes.length);
+        document.getElementById('wheelCurrentOutcome').textContent = outcomes[randIdx].text;
+        DungeonSound.wheelTick();
+        ticks++;
+        if (ticks >= 12) {
+          clearInterval(interval);
+          const finalPick = outcomes[Math.floor(Math.random() * outcomes.length)];
+          document.getElementById('wheelCurrentOutcome').innerHTML = `<span class="text-emerald-400 scale-105 inline-block transition font-bold">${finalPick.text}</span>`;
+          DungeonSound.thunder();
+          shakeScreen();
+          finalPick.action();
+          saveState();
+          setTimeout(() => {
+            closeWheelOfFate();
+          }, 1600);
+        }
+      }, 100);
+    }
+
     function getRelic(id) {
       return RELICS_MASTER_DB.find(r => r.id === id);
     }
@@ -913,7 +1205,12 @@ Bản vá toàn diện theo đánh giá của Qwen:
         inventory: [],
         tempAtkBuff: 0,
         tempAtkBuffTurns: 0,
-        tempDmgReduceTurns: 0
+        tempDmgReduceTurns: 0,
+        stress: 0,
+        affliction: null,
+        isDeathsDoor: false,
+        monsterAffix: null,
+        activeRandomEvent: null
       });
 
       recalcMaxHp();
@@ -988,6 +1285,21 @@ Bản vá toàn diện theo đánh giá của Qwen:
       const scaledHp = Math.round(monsterTemplate.hp * hpMult);
       const scaledAtk = Math.round(monsterTemplate.atk * atkMult);
 
+      
+      // RANDOM MONSTER MUTATOR AFFIXES (55% chance on non-boss rooms)
+      state.run.monsterAffix = null;
+      if (rIdx < state.run.totalRooms && Math.random() < 0.55) {
+        const MONSTER_AFFIXES = [
+          { id: 'haste', name: 'Siêu Tốc', icon: '⚡', desc: 'Đánh phủ đầu khi vào phòng', color: 'text-amber-400 bg-amber-950 border-amber-800' },
+          { id: 'armored', name: 'Thiết Giáp', icon: '🛡️', desc: 'Bắt đầu với 2 lớp khiên thép', color: 'text-cyan-400 bg-cyan-950 border-cyan-800' },
+          { id: 'vampiric', name: 'Hút Máu', icon: '🧛', desc: 'Hồi phục HP khi đánh trúng bạn', color: 'text-rose-400 bg-rose-950 border-rose-800' },
+          { id: 'volatile', name: 'Tử Khí', icon: '💣', desc: 'Khi chết phát nổ 12 sát thương', color: 'text-orange-400 bg-orange-950 border-orange-800' },
+          { id: 'frostbite', name: 'Bỏng Lạnh', icon: '❄️', desc: 'Đòn đánh đóng băng làm mất 1 Mana', color: 'text-cyan-300 bg-sky-950 border-sky-800' },
+          { id: 'golden', name: 'Hoàng Kim', icon: '👑', desc: 'Máu +30% nhưng rơi gấp đôi Vàng & Cổ vật', color: 'text-yellow-300 bg-yellow-950 border-yellow-800' }
+        ];
+        state.run.monsterAffix = MONSTER_AFFIXES[Math.floor(Math.random() * MONSTER_AFFIXES.length)];
+      }
+
       state.battle = {
         monster: Object.assign({}, monsterTemplate, { hp: scaledHp, atk: scaledAtk }),
         currentHp: scaledHp,
@@ -1002,6 +1314,26 @@ Bản vá toàn diện theo đánh giá của Qwen:
       state.run.tempAtkBuff = 0;
       state.run.shields = 0;
       if (relicFlag('blockFirstHit')) state.run.shields += 1;
+
+      // Apply monster affix bonuses
+      if (state.run.monsterAffix) {
+        const af = state.run.monsterAffix;
+        state.battle.monster.name = `${af.icon} ${state.battle.monster.name}`;
+        if (af.id === 'armored') {
+          state.battle.monsterShields = 2;
+        } else if (af.id === 'golden') {
+          state.battle.currentHp = Math.round(state.battle.currentHp * 1.3);
+          state.battle.maxHp = state.battle.currentHp;
+        }
+        logBattle(`⚠️ ĐỘT BIẾN DỊ THƯỜNG: [${state.battle.monster.name}] mang đặc tính [${af.name}]: ${af.desc}!`);
+        showToast(`⚠️ Quái vật đột biến: [${af.name}] - ${af.desc}!`, 'error');
+      }
+
+      // Random Sudden Event at Room 1 or 2 (30% chance of Wheel of Fate)
+      if ((rIdx === 1 || rIdx === 2) && Math.random() < 0.30) {
+        setTimeout(() => openWheelOfFate(), 400);
+      }
+
 
       // Apply buffered pre-emptive strike if any (capped at 30 DMG)
       if (state.run.reviewBuffer > 0) {
@@ -1052,6 +1384,7 @@ Bản vá toàn diện theo đánh giá của Qwen:
       if (ease === 1) {
         // AGAIN: Monster strikes player!
         handleMonsterAttack();
+        addStress(15);
 
         // Relic r42: first again each room keeps combo!
         if (relicFlag('firstAgainKeepCombo') && !state.run.againUsedThisRoom) {
@@ -1076,14 +1409,15 @@ Bản vá toàn diện theo đánh giá của Qwen:
 
       } else if (ease === 2) {
         // HARD: Defensive Parry
-        damageDealt = Math.round(baseAtk * (relicFlag('hardAsGood') ? 1.0 : 0.6));
-
-        // P0 FIX: Hard shields capped at 3!
-        if (state.run.shields < 3) {
+        addStress(3);
+        if (state.run.affliction && state.run.affliction.id === 'paranoia') {
+          showToast('😱 Hoang tưởng: Bạn không dám giơ khiên đỡ đòn!', 'error');
+        } else if (state.run.shields < 3) {
           state.run.shields++;
         } else {
           spawnDamageFloat('SHIELD MAX 🛡️', 'text-slate-400');
         }
+        damageDealt = Math.round(baseAtk * (relicFlag('hardAsGood') ? 1.0 : 0.6));
 
         state.run.mana = Math.min(state.run.maxMana, state.run.mana + 1);
         if (relicSum('hardHeal') > 0) healPlayer(relicSum('hardHeal'));
@@ -1093,6 +1427,14 @@ Bản vá toàn diện theo đánh giá của Qwen:
 
       } else if (ease === 3) {
         // GOOD: Standard Clinical Slash
+        reduceStress(3);
+
+        if (state.run.affliction && state.run.affliction.id === 'courageous') {
+          damageDealt += 20;
+          DungeonSound.thunder();
+          spawnDamageFloat('+20 SẤM SÉT ⚡', 'text-amber-300');
+          logBattle('⚡ [Can Trường]: Sấm sét giáng thêm 20 sát thương lên quái!');
+        }
         damageDealt = baseAtk;
         state.run.combo++;
 
@@ -1118,6 +1460,14 @@ Bản vá toàn diện theo đánh giá của Qwen:
 
       } else if (ease === 4) {
         // EASY: Critical Execution
+        reduceStress(8);
+
+        if (state.run.affliction && state.run.affliction.id === 'courageous') {
+          damageDealt += 25;
+          DungeonSound.thunder();
+          spawnDamageFloat('+25 SẤM SÉT ⚡', 'text-amber-300');
+          logBattle('⚡ [Can Trường]: Sấm sét giáng thêm 25 sát thương lên quái!');
+        }
         damageDealt = Math.round(baseAtk * 1.25);
         state.run.combo++;
 
@@ -1135,6 +1485,10 @@ Bản vá toàn diện theo đánh giá của Qwen:
         shakeScreen();
       }
 
+      // Affliction Hopeless damage cut
+      if (damageDealt > 0 && state.run.affliction && state.run.affliction.id === 'hopeless') {
+        damageDealt = Math.max(1, Math.round(damageDealt * 0.65));
+      }
       // Combo bonus damage
       if (damageDealt > 0 && state.run.combo >= 5) {
         damageDealt += Math.floor(state.run.combo / 5) * (1 + relicSum('comboBonusPer5'));
@@ -1159,7 +1513,15 @@ Bản vá toàn diện theo đánh giá của Qwen:
           spawnDamageFloat('-2 PHẢN ĐÒN 🗿', 'text-amber-400');
         }
 
+        if (b.monsterShields && b.monsterShields > 0) {
+        b.monsterShields--;
+        damageDealt = 0;
+        DungeonSound.parry();
+        spawnDamageFloat('GIÁP QUÁI CHẶN 🛡️', 'text-slate-400');
+        logBattle(`🛡️ Khiên thiết giáp của [${b.monster.name}] đã cản phá đòn đánh của bạn!`);
+      } else {
         b.currentHp = Math.max(0, b.currentHp - damageDealt);
+      }
         triggerMonsterStagger();
         logBattle(`⚔️ [${source}] Đòn đánh gây ${damageDealt} DMG lên [${b.monster.name}]! (HP còn: ${b.currentHp}/${b.maxHp})`);
 
@@ -1192,6 +1554,15 @@ Bản vá toàn diện theo đánh giá của Qwen:
       }
 
       let dmg = b.monster.atk;
+      addStress(6);
+      if (state.run.monsterAffix && state.run.monsterAffix.id === 'vampiric') {
+        b.currentHp = Math.min(b.maxHp, b.currentHp + 5);
+        logBattle(`🧛 [${b.monster.name}] hút máu: Hồi +5 HP!`);
+      }
+      if (state.run.monsterAffix && state.run.monsterAffix.id === 'frostbite' && state.run.mana > 0) {
+        state.run.mana--;
+        spawnDamageFloat('-1 MANA ❄️', 'text-cyan-300');
+      }
 
       // ACTIVE MONSTER TRAIT: Boss Cytokine Enrage after turn 5
       if (b.isBoss && b.turnCount >= 5 && b.monster.trait === 'Bão Cytokine') {
@@ -1268,9 +1639,11 @@ Bản vá toàn diện theo đánh giá của Qwen:
         logBattle(`🦺 Giáp gai phản đòn: Gây ${relicSum('thorns')} DMG lên quái!`);
       }
 
-      // Check Player Death
+      // Check Player Death: 0 HP = PERMADEATH NGAY LẬP TỨC!
       if (state.run.hp <= 0) {
+        state.run.hp = 0;
         handlePlayerDeath();
+        return;
       }
     }
 
@@ -1287,6 +1660,27 @@ Bản vá toàn diện theo đánh giá của Qwen:
       state.meta.totalKills++;
       DungeonSound.victory();
       logBattle(`🏆 QUÁI VẬT [${b.monster.name}] ĐÃ BỊ TIÊU DIỆT HOÀN TOÀN!`);
+      // Volatile affix explosion
+      if (state.run.monsterAffix && state.run.monsterAffix.id === 'volatile') {
+        if (state.run.shields > 0) {
+          state.run.shields--;
+          showToast('💣 Khiên thủ cản phá vụ nổ tử khí!', 'info');
+        } else {
+          state.run.hp = Math.max(0, state.run.hp - 12);
+          DungeonSound.thunder();
+          shakeScreen();
+          spawnDamageFloat('TỬ KHÍ BỘC PHÁT! 💣 -12 HP', 'text-orange-400');
+          logBattle('💣 [Tử Khí Bộc Phát]: Quái vật phát nổ khi chết, bạn mất 12 HP!');
+          if (state.run.hp <= 0) handlePlayerDeath();
+        }
+      }
+      // Golden affix double rewards & relic
+      if (state.run.monsterAffix && state.run.monsterAffix.id === 'golden') {
+        const bonusGold = 40;
+        state.run.gold += bonusGold;
+        spawnDamageFloat(`+${bonusGold} 👑 VÀNG HOÀNG KIM!`, 'text-yellow-300');
+        showToast(`👑 Quái vật Hoàng Kim ban thưởng: +${bonusGold} Vàng!`, 'success');
+      }
 
       // Gold Calculation
       let goldEarned = Math.floor(Math.random() * 12) + 12;
@@ -2156,6 +2550,58 @@ Bản vá toàn diện theo đánh giá của Qwen:
       const poisonBadge = document.getElementById('playerPoisonBadge');
       if (state.run.poisonTurns > 0) poisonBadge.classList.remove('hidden');
       else poisonBadge.classList.add('hidden');
+
+      // Danger Vignette when HP <= 25%
+      const vignette = document.getElementById('deathVignette');
+      const hpTextEl = document.getElementById('playerHpText');
+      const isCritical = state.run.hp > 0 && state.run.hp <= Math.round(state.run.maxHp * 0.25);
+      if (isCritical) {
+        if (vignette) vignette.classList.remove('hidden');
+        hpTextEl.className = 'font-bold text-rose-500 animate-pulse';
+        DungeonSound.heartbeat();
+      } else {
+        if (vignette) vignette.classList.add('hidden');
+        hpTextEl.className = 'font-bold text-emerald-400';
+      }
+
+      // If active and 0 HP, instantly trigger death
+      if (state.run.active && state.run.hp <= 0) {
+        handlePlayerDeath();
+      }
+
+      // Render Stress Bar & Affliction
+      const stressPct = Math.min(100, Math.max(0, state.run.stress || 0));
+      const sBar = document.getElementById('playerStressBar');
+      const sText = document.getElementById('playerStressText');
+      if (sBar) sBar.style.width = `${stressPct}%`;
+      if (sText) sText.textContent = `${stressPct} / 100 STRESS`;
+
+      const affBadge = document.getElementById('playerAfflictionBadge');
+      if (affBadge) {
+        if (state.run.affliction) {
+          affBadge.classList.remove('hidden');
+          affBadge.textContent = `${state.run.affliction.icon} ${state.run.affliction.name}`;
+          affBadge.className = state.run.affliction.isVirtue 
+            ? 'text-[9px] px-1.5 py-0.2 rounded font-bold bg-cyan-950 text-cyan-300 border border-cyan-700 animate-pulse'
+            : 'text-[9px] px-1.5 py-0.2 rounded font-bold bg-purple-950 text-purple-300 border border-purple-800 animate-pulse';
+          affBadge.title = state.run.affliction.desc;
+        } else {
+          affBadge.classList.add('hidden');
+        }
+      }
+
+      // Render Monster Affix Badge
+      const affixBadge = document.getElementById('monsterAffixBadge');
+      if (affixBadge) {
+        if (state.run.monsterAffix) {
+          affixBadge.classList.remove('hidden');
+          affixBadge.textContent = `${state.run.monsterAffix.icon} ${state.run.monsterAffix.name}`;
+          affixBadge.className = `text-[9px] font-mono font-bold px-1.5 py-0.2 rounded border animate-pulse ${state.run.monsterAffix.color}`;
+          affixBadge.title = state.run.monsterAffix.desc;
+        } else {
+          affixBadge.classList.add('hidden');
+        }
+      }
 
       // Render Item Belt (Dynamic Max Slots)
       const maxSlots = 3 + relicSum('extraItemSlot');

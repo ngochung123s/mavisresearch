@@ -1,0 +1,785 @@
+[
+  {
+    "type": "cloze",
+    "text": "Bệnh tim bẩm sinh (Congenital Heart Disease) là dị tật phổ biến nhất lúc sinh, với tỷ lệ mắc ở trẻ sinh sống ước tính khoảng {{c1::0,8%}} (tương đương khoảng 8 trên 1000 trẻ sinh sống).",
+    "extra": "Dịch tễ: Tổng quan hệ thống toàn cầu của van der Linde xác định tỷ lệ lưu hành lúc sinh của tim bẩm sinh là 9,1 trên 1000 trẻ."
+  },
+  {
+    "type": "cloze",
+    "text": "Ca phẫu thuật tim hở điều trị tim bẩm sinh đầu tiên trên thế giới được tiến hành tại Đại học Minnesota vào năm {{c1::1950}} nhờ sự ra đời của máy tim phổi nhân tạo.",
+    "extra": "Lịch sử: Đánh dấu kỷ nguyên phẫu thuật sửa chữa triệt để các dị tật tim phức tạp."
+  },
+  {
+    "type": "cloze",
+    "text": "Tiêu chuẩn phân loại lâm sàng cơ bản nhất của tim bẩm sinh là dựa vào sự hiện diện của {{c1::triệu chứng tím tái trung ương (Cyanosis)}}.",
+    "extra": "Phân tầng: Chia thành 2 nhóm lớn là tim bẩm sinh không tím (chiếm 70-80%) và tim bẩm sinh có tím (chiếm 20-30%)."
+  },
+  {
+    "type": "cloze",
+    "text": "Đặc điểm huyết động học chung của nhóm tim bẩm sinh có luồng shunt Trái - Phải là: {{c1::Máu đi từ bên trái sang bên phải}}, lượng máu lên phổi {{c1::tăng}} và thường {{c1::không có tím ban đầu}}.",
+    "extra": "Cơ chế: Áp lực buồng tim trái và đại tuần hoàn sinh lý cao hơn buồng tim phải và mạch phổi."
+  },
+  {
+    "type": "cloze",
+    "text": "Hiện tượng tím tái xuất hiện muộn ở bệnh nhân có luồng shunt Trái - Phải lớn không được phẫu thuật kịp thời được gọi là {{c1::Hội chứng Eisenmenger}}.",
+    "extra": "Cơ chế: Tăng áp lực mạch phổi cố định làm đảo chiều luồng shunt thành Phải - Trái, lúc này chống chỉ định phẫu thuật đóng lỗ thông."
+  },
+  {
+    "type": "cloze",
+    "text": "Đặc điểm huyết động học chung của nhóm tim bẩm sinh có luồng shunt Phải - Trái là: Máu nghèo oxy từ tim phải {{c1::đi thẳng vào động mạch chủ}} và gây nên triệu chứng {{c1::tím tái trung ương sớm}}.",
+    "extra": "Lâm sàng: SpO2 giảm thấp ngay sau sinh, không đáp ứng với nghiệm pháp thở oxy 100%."
+  },
+  {
+    "type": "cloze",
+    "text": "Bốn bệnh tim bẩm sinh có luồng shunt Trái - Phải thường gặp nhất gồm: {{c1::Thông liên thất (VSD), Thông liên nhĩ (ASD), Còn ống động mạch (PDA) và Thông sàn nhĩ thất (AVSD)}}.",
+    "extra": "Huyết động: Tất cả đều làm tăng lưu lượng tuần hoàn phổi và có nguy cơ biến chứng suy tim sung huyết."
+  },
+  {
+    "type": "cloze",
+    "text": "Các bệnh tim bẩm sinh có luồng shunt Phải - Trái (có tím) điển hình gồm: {{c1::Tứ chứng Fallot, Chuyển gốc đại động mạch (d-TGA), Teo van ba lá, Thân chung động mạch và Hội chứng thiểu sản thất trái (HLHS)}}.",
+    "extra": "Phân loại: Tứ chứng Fallot và Teo van ba lá có giảm lưu lượng phổi; TGA và Truncus có tăng lưu lượng phổi."
+  },
+  {
+    "type": "cloze",
+    "text": "Ba bệnh lý tim bẩm sinh thuộc nhóm tổn thương tắc nghẽn đường ra tâm thất thường gặp gồm: {{c1::Hẹp eo động mạch chủ (CoA), Hẹp van động mạch chủ (AS) và Hẹp van động mạch phổi (PS)}}.",
+    "extra": "Cơ chế: Gây tăng gánh áp lực (tăng hậu gánh) tâm thất, dẫn đến phì đại tế bào cơ tim đồng tâm."
+  },
+  {
+    "type": "cloze",
+    "text": "Thông liên thất (VSD) là dị tật tim bẩm sinh phổ biến nhất ở trẻ em, chiếm khoảng {{c1::20% đến 30%}} tổng số các trường hợp tim bẩm sinh.",
+    "extra": "Dịch tễ: Nếu tính cả các dị tật van động mạch chủ hai lá thì tỷ lệ tim bẩm sinh nói chung còn cao hơn."
+  },
+  {
+    "type": "cloze",
+    "text": "Thể giải phẫu phổ biến nhất của thông liên thất là {{c1::thông liên thất phần quanh màng (Perimembranous VSD)}}, chiếm khoảng {{c1::70% đến 80%}} các trường hợp.",
+    "extra": "Giải phẫu: Nằm ở phần màng của vách liên thất, sát van ba lá và van động mạch chủ."
+  },
+  {
+    "type": "cloze",
+    "text": "Thông liên thất phần quanh màng có khả năng tự đóng tự nhiên trong những năm đầu đời nhờ cơ chế {{c1::sự bọc lại của mô lá vách van ba lá tạo thành túi phình vách}}.",
+    "extra": "Tiên lượng: Khoảng 30-40% VSD phần màng nhỏ có thể tự bít kín trước tuổi thiếu niên."
+  },
+  {
+    "type": "cloze",
+    "text": "Thể thông liên thất nằm sát dưới van động mạch chủ và van động mạch phổi được gọi là {{c1::thông liên thất phần phễu / dưới van (Infundibular / Subarterial VSD)}}.",
+    "extra": "Cơ chế: Chiếm 5-7%, có nguy cơ cao biến chứng sa lá van và hở van động mạch chủ do hiệu ứng Venturi."
+  },
+  {
+    "type": "cloze",
+    "text": "Hiện tượng sa lá van động mạch chủ phải và hở van động mạch chủ thứ phát trong thông liên thất phần phễu xảy ra do cơ chế khí động học có tên là {{c1::hiệu ứng Venturi}}.",
+    "extra": "Cơ chế: Dòng phụt xoáy tốc độ cao qua lỗ thông tạo áp lực âm hút lá van ĐMC về phía lỗ thông liên thất."
+  },
+  {
+    "type": "cloze",
+    "text": "Thông liên thất phần buồng nhận (Inlet VSD) nằm ở phần sau dưới vách liên thất sát van nhĩ thất, có đặc điểm là {{c1::không bao giờ tự đóng tự nhiên}} và thường nằm trong bệnh cảnh {{c1::thông sàn nhĩ thất (kênh nhĩ thất)}}.",
+    "extra": "Điện tim: Thường biểu hiện trục trái bất thường trên điện tâm đồ."
+  },
+  {
+    "type": "cloze",
+    "text": "Thông liên thất phần cơ (Muscular VSD) là dị tật hay gặp ở trẻ sơ sinh, có đặc tính tự nhiên là {{c1::hầu hết sẽ tự đóng trước 2 tuổi}} khi khối cơ tâm thất phát triển dày lên.",
+    "extra": "Tiên lượng: Thường có nhiều lỗ nhỏ dạng tổ ong (Swiss-cheese VSD)."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở trẻ mắc thông liên thất lỗ nhỏ (Bệnh Roger), trẻ {{c1::hoàn toàn không có triệu chứng cơ năng (không khó thở, không chậm lớn)}} và nghe tim thấy {{c1::tiếng thổi tâm thu thô ráp cường độ lớn 4/6 kèm rung miu ở cạnh ức trái}}.",
+    "extra": "Huyết động: Chênh áp giữa hai thất rất lớn tạo tiếng thổi to, nhưng lưu lượng shunt nhỏ không gây suy tim."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở trẻ mắc thông liên thất lỗ lớn, các triệu chứng suy tim sung huyết thường bùng phát vào thời điểm {{c1::6 đến 8 tuần tuổi}} sau sinh.",
+    "extra": "Cơ chế: Do sức cản mạch máu phổi (PVR) sinh lý thoái triển giảm sâu, tạo chênh áp lớn làm máu dồn lên phổi tăng vọt."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong thông liên thất lỗ lớn có lưu lượng shunt Trái - Phải khổng lồ (Qp/Qs ≥ 2:1), nghe tim ở mỏm có thể phát hiện thêm {{c1::tiếng rung tâm trương cơ năng (Functional diastolic rumble)}}.",
+    "extra": "Cơ chế: Do lượng máu từ phổi về nhĩ trái dồn qua van hai lá trong thời kỳ tâm trương tăng gấp 2-3 lần bình thường."
+  },
+  {
+    "type": "cloze",
+    "text": "Thời điểm vàng phẫu thuật vá thông liên thất lớn có tăng lưu lượng phổi nhiều và suy dinh dưỡng nặng không đáp ứng nội khoa là lúc trẻ {{c1::1 đến 4 tháng tuổi}}.",
+    "extra": "Chỉ định: Nhằm bảo vệ chức năng thất và giúp trẻ bắt kịp đà tăng trưởng thể chất."
+  },
+  {
+    "type": "cloze",
+    "text": "Hầu hết các trường hợp thông liên thất lỗ lớn có tăng áp động mạch phổi bắt buộc phải được phẫu thuật đóng lỗ thông trước thời điểm {{c1::6 đến 9 tháng tuổi}}.",
+    "extra": "Cảnh báo: Trì hoãn quá mốc này làm tăng nguy cơ tổn thương xơ hóa mạch máu phổi không hồi phục (Eisenmenger)."
+  },
+  {
+    "type": "cloze",
+    "text": "Thông liên nhĩ (ASD) chiếm khoảng 6% đến 10% tim bẩm sinh, với đặc điểm dịch tễ nổi bật là tỷ lệ mắc ở giới Nữ {{c1::gấp 2 lần}} giới Nam.",
+    "extra": "Dịch tễ: Là dị tật tim bẩm sinh không tím phổ biến nhất được phát hiện ở tuổi trưởng thành."
+  },
+  {
+    "type": "cloze",
+    "text": "Thể giải phẫu phổ biến nhất của thông liên nhĩ là {{c1::thông liên nhĩ lỗ thứ phát (Ostium secundum)}}, chiếm khoảng {{c1::60% đến 70%}} tổng số các ca thông liên nhĩ.",
+    "extra": "Giải phẫu: Nằm ở vùng hố bầu dục (Fossa ovalis) ở phần trung tâm của vách liên nhĩ."
+  },
+  {
+    "type": "cloze",
+    "text": "Thông liên nhĩ lỗ tiên phát (Ostium primum) nằm ở phần thấp vách liên nhĩ sát van nhĩ thất, thuộc bệnh cảnh giải phẫu của {{c1::thông sàn nhĩ thất (kênh nhĩ thất bán phần)}}.",
+    "extra": "Điện tim: Dấu hiệu đặc trưng là trục điện tim chuyển sang trái và khử cực ngược chiều kim đồng hồ."
+  },
+  {
+    "type": "cloze",
+    "text": "Thông liên nhĩ thể xoang tĩnh mạch (Sinus venosus ASD) nằm ở vị trí đổ vào của tĩnh mạch chủ trên hoặc dưới, hầu như luôn kết hợp với {{c1::bất thường hồi lưu tĩnh mạch phổi bán phần (PAPVC)}}.",
+    "extra": "Giải phẫu: Tĩnh mạch phổi trên phải đổ lạc chỗ vào tĩnh mạch chủ trên hoặc nhĩ phải."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu nghe tim thực thể kinh điển và đặc trưng nhất của thông liên nhĩ là {{c1::tiếng tim thứ hai (T2) tách đôi cố định (Fixed split S2)}} ở ổ van động mạch phổi.",
+    "extra": "Cơ chế: Thể tích tống máu của thất phải luôn dư thừa trong cả thì hít vào và thở ra, làm van động mạch phổi luôn đóng muộn cố định."
+  },
+  {
+    "type": "cloze",
+    "text": "Tiếng thổi tâm thu nghe được ở khoang liên sườn 2 bờ trái xương ức trong thông liên nhĩ phát sinh do {{c1::tăng lưu lượng máu đi qua van động mạch phổi bình thường}} (không phải do dòng máu qua vách liên nhĩ).",
+    "extra": "Huyết động: Áp lực giữa hai tâm nhĩ rất thấp nên dòng máu qua lỗ thông liên nhĩ không tạo ra tiếng thổi."
+  },
+  {
+    "type": "cloze",
+    "text": "Hình ảnh điện tâm đồ điển hình của thông liên nhĩ lỗ thứ phát bao gồm: {{c1::trục phải, dày thất phải và hình ảnh block nhánh phải không hoàn toàn (dạng rSR' ở chuyển đạo V1)}}.",
+    "extra": "Điện tim: Phản ánh tình trạng quá tải thể tích tâm trương của buồng tâm thất phải."
+  },
+  {
+    "type": "cloze",
+    "text": "Biện pháp điều trị can thiệp được lựa chọn hàng đầu hiện nay cho bệnh nhân thông liên nhĩ lỗ thứ phát có gờ mô xung quanh đầy đủ (> 5 mm) là {{c1::bít lỗ thông bằng dụng cụ qua da (bít dù Amplatzer)}}.",
+    "extra": "Can thiệp: Tránh được cuộc phẫu thuật tim hở mở ngực, thời gian hồi phục nhanh sau 24-48 giờ."
+  },
+  {
+    "type": "cloze",
+    "text": "Thời điểm lý tưởng nhất để can thiệp bít dù hoặc phẫu thuật đóng thông liên nhĩ ở trẻ em không triệu chứng là lúc trẻ {{c1::3 đến 5 tuổi}} (trước độ tuổi đi học).",
+    "extra": "Tiên lượng: Can thiệp ở lứa tuổi này giúp buồng tim phải tái cấu trúc trở về kích thước bình thường hoàn toàn."
+  },
+  {
+    "type": "cloze",
+    "text": "Còn ống động mạch (PDA) chiếm tỷ lệ từ 9% đến 12% tim bẩm sinh ở trẻ đủ tháng, nhưng đặc biệt phổ biến ở trẻ sinh non với cân nặng dưới 1000 g lên tới {{c1::42%}}.",
+    "extra": "Dịch tễ: Tần suất PDA ở trẻ sinh non từ 1000 đến 1500 g là khoảng 21%."
+  },
+  {
+    "type": "cloze",
+    "text": "Tỷ lệ trẻ mắc còn ống động mạch ở những quần thể dân cư sinh sống tại vùng núi cao có thể cao {{c1::gấp 30 lần}} so với trẻ sống ở vùng đồng bằng.",
+    "extra": "Cơ chế: Nồng độ oxy phế nang và phân áp oxy máu thấp tại vùng núi cao cản trở cơ chế co thắt sinh lý của ống động mạch sau sinh."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu mạch ngoại vi kinh điển của còn ống động mạch lớn là {{c1::mạch nảy mạnh chìm sâu (mạch Corrigan / Bounding pulse)}}.",
+    "extra": "Cơ chế: Thất trái tống thể tích máu lớn trong tâm thu làm huyết áp tâm thu tăng, máu thoát nhanh qua ống sang phổi trong tâm trương làm tụt huyết áp tâm trương."
+  },
+  {
+    "type": "cloze",
+    "text": "Tiếng thổi đặc trưng kinh điển nhất của còn ống động mạch ở trẻ nhũ nhi và trẻ lớn là {{c1::tiếng thổi liên tục (Continuous murmur / Giad-máy)}} nghe rõ nhất ở {{c1::khoang liên sườn 1-2 dưới đòn trái}}.",
+    "extra": "Huyết động: Áp lực động mạch chủ cao hơn động mạch phổi trong cả thời kỳ tâm thu và tâm trương."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở trẻ sinh non hoặc trẻ sơ sinh có tăng áp lực động mạch phổi nặng, nghe tim trong còn ống động mạch có thể {{c1::chỉ nghe thấy tiếng thổi tâm thu đơn thuần}} (mất thành phần tâm trương).",
+    "extra": "Cơ chế: Áp lực động mạch phổi trong tâm trương tăng cao xấp xỉ áp lực động mạch chủ làm triệt tiêu chênh áp tâm trương."
+  },
+  {
+    "type": "cloze",
+    "text": "Triệu chứng tím chuyên biệt nửa dưới cơ thể (Differential cyanosis: chân tím hơn tay) là dấu hiệu lâm sàng của còn ống động mạch khi có biến chứng {{c1::Hội chứng Eisenmenger (tăng áp phổi đảo ngược luồng shunt)}}.",
+    "extra": "Giải phẫu: Máu đen từ động mạch phổi qua ống động mạch đổ vào động mạch chủ xuống sau chỗ xuất phát của động mạch dưới đòn trái nuôi chi trên."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc ức chế men COX đường uống hoặc tiêm tĩnh mạch được chứng minh có hiệu quả tương đương Indomethacin trong đóng ống động mạch ở trẻ sơ sinh non tháng là {{c1::Ibuprofen}}.",
+    "extra": "Dược lý: Ibuprofen có ưu điểm ít gây co mạch thận và ít gây viêm ruột hoại tử (NEC) hơn Indomethacin."
+  },
+  {
+    "type": "cloze",
+    "text": "Phác đồ liều chuẩn của Ibuprofen đường tĩnh mạch đóng ống động mạch ở trẻ sinh non gồm 3 liều cách nhau 24 giờ: Liều 1 là {{c1::10 mg/kg}}; Liều 2 (sau 24h) là {{c1::5 mg/kg}}; Liều 3 (sau 48h) là {{c1::5 mg/kg}}.",
+    "extra": "Thực hành: Theo dõi sát lượng nước tiểu và nồng độ Creatinine máu trong suốt liệu trình điều trị."
+  },
+  {
+    "type": "cloze",
+    "text": "Tứ chứng Fallot là bệnh tim bẩm sinh có tím phổ biến nhất sau thời kỳ sơ sinh, chiếm khoảng {{c1::4% đến 8%}} tổng số các trường hợp tim bẩm sinh.",
+    "extra": "Dịch tễ: Là một trong những bệnh tim bẩm sinh đầu tiên được phẫu thuật sửa chữa thành công trên thế giới."
+  },
+  {
+    "type": "cloze",
+    "text": "Bốn tổn thương giải phẫu bệnh học kinh điển hợp thành Tứ chứng Fallot gồm: {{c1::Thông liên thất phần phễu lớn, Hẹp đường ra thất phải, Động mạch chủ cưỡi ngựa trên vách liên thất và Phì đại tâm thất phải}}.",
+    "extra": "Phôi thai học: Hậu quả của sự lệch vách nón phễu (Conal septum) ra trước và lên trên trong quá trình tạo hình tim."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong tứ chứng Fallot, mức độ biểu hiện tím tái trên lâm sàng phụ thuộc chủ yếu vào mức độ nặng của tổn thương {{c1::hẹp đường ra thất phải (RVOTO)}}.",
+    "extra": "Lâm sàng: Nếu hẹp nhẹ, luồng shunt chủ yếu là Trái - Phải và trẻ không có tím (Fallot hồng / Pink Fallot)."
+  },
+  {
+    "type": "cloze",
+    "text": "Thiếu oxy mạn tính trong tứ chứng Fallot kích thích tủy xương tăng sinh hồng cầu thứ phát, biểu hiện bằng chỉ số {{c1::Hematocrit tăng cao (thường > 55% đến 65%)}}.",
+    "extra": "Biến chứng: Tăng độ nhớt máu làm tăng nguy cơ tắc mạch máu não, huyết khối tĩnh mạch xoang và áp xe não."
+  },
+  {
+    "type": "cloze",
+    "text": "Biến chứng ngón tay ngón chân hình dùi trống (Clubbing) và móng tay khum mặt kính đồng hồ ở bệnh nhân Fallot hình thành do {{c1::tình trạng thiếu oxy mạn tính kích thích giải phóng yếu tố tăng trưởng mạch máu VEGF và PDGF tại các đầu chi}}.",
+    "extra": "Lâm sàng: Thường bắt đầu xuất hiện rõ rệt sau 6 tháng tuổi."
+  },
+  {
+    "type": "cloze",
+    "text": "Tiếng thổi tâm thu nghe được ở khoang liên sườn 2 bờ trái xương ức trong Tứ chứng Fallot được phát sinh từ {{c1::chỗ hẹp đường ra thất phải (hẹp phễu và hẹp van động mạch phổi)}}.",
+    "extra": "Bẫy lâm sàng: Tiếng thổi này HOÀN TOÀN KHÔNG PHẢI do dòng máu đi qua lỗ thông liên thất lớn."
+  },
+  {
+    "type": "cloze",
+    "text": "Hình ảnh X-quang tim phổi thẳng kinh điển của Tứ chứng Fallot được mô tả là hình ảnh {{c1::tim hình chiếc ủng (Coeur en sabot)}}.",
+    "extra": "Hình ảnh: Do mỏm tim hếch lên trên vì thất phải phì đại, cung động mạch phổi lõm sâu và hai phế trường sáng giảm tưới máu."
+  },
+  {
+    "type": "cloze",
+    "text": "Cơ chế bệnh sinh cốt lõi phát động cơn tím thiếu oxy cấp (Tet spell) ở trẻ mắc Fallot là do {{c1::cơn co thắt cơ phễu đường ra thất phải dưới tác động của tăng tiết Catecholamine giao cảm}}.",
+    "extra": "Cơ chế: Co thắt phễu cắt đứt dòng máu lên phổi, dồn toàn bộ máu nghèo oxy từ thất phải qua VSD tràn vào động mạch chủ."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong cơn tím Fallot cấp tính, khám nghe tim sẽ ghi nhận một hiện tượng lâm sàng bất thường là: Tiếng thổi tâm thu ở bờ trái ức vốn có hàng ngày sẽ {{c1::đột ngột nhỏ đi rõ rệt hoặc biến mất hoàn toàn}}.",
+    "extra": "Ý nghĩa: Phản ánh cơ phễu đã co thắt tối đa, hầu như không còn máu thoát qua được đường ra thất phải lên phổi."
+  },
+  {
+    "type": "cloze",
+    "text": "Tư thế ngồi xổm (Squatting) hoặc tư thế ngực gối (Knee-chest) giúp cắt cơn tím ở trẻ Fallot nhờ cơ chế {{c1::làm gập động mạch đùi, tăng sức cản mạch máu ngoại biên hệ thống (SVR), từ đó làm giảm luồng shunt Phải - Trái qua VSD}}.",
+    "extra": "Huyết động: Ép máu từ thất phải vượt qua chỗ hẹp phễu lên động mạch phổi để tăng cường trao đổi oxy."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc an thần giảm đau được lựa chọn hàng đầu trong cấp cứu cơn tím Fallot là {{c1::Morphine Sulfate}}, với liều dùng là {{c1::0,1 mg/kg}} tiêm dưới da (SC) hoặc tiêm bắp (IM).",
+    "extra": "Tác dụng: Ức chế trung tâm hô hấp làm dịu cơn thở nhanh sâu, trấn tĩnh trẻ, cắt đứt phản xạ giao cảm và làm giãn cơ phễu thất phải."
+  },
+  {
+    "type": "cloze",
+    "text": "Biện pháp bù dịch nhanh bằng dung dịch điện giải đẳng trương NaCl 0,9% liều {{c1::10 đến 15 mL/kg}} trong cơn tím Fallot có tác dụng {{c1::làm tăng thể tích tiền gánh thất phải và chống hiện tượng cô đặc máu}}.",
+    "extra": "Cơ chế: Tăng thể tích tống máu thất phải giúp đẩy mở cơ phễu đường ra thất phải."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc chẹn beta giao cảm tiêm tĩnh mạch chậm điều trị cơn tím Fallot trơ với Morphine và bù dịch là {{c1::Propranolol}}, với liều tiêm TM rất chậm từ {{c1::0,05 đến 0,1 mg/kg}} trong 5-10 phút.",
+    "extra": "Cơ chế: Trực tiếp làm giãn cơ trơn phễu buồng tống thất phải, bắt buộc theo dõi monitor điện tim liên tục."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc điều trị nội khoa đường uống được chỉ định để dự phòng tái phát cơn tím Fallot ở trẻ chờ phẫu thuật là {{c1::Propranolol}}, với liều dùng từ {{c1::1 đến 3 mg/kg/ngày}} chia làm 3 đến 4 lần.",
+    "extra": "Thực hành: Ngăn chặn các đợt co thắt phễu kịch phát khi trẻ quấy khóc hoặc sốt."
+  },
+  {
+    "type": "cloze",
+    "text": "Phẫu thuật bắc cầu tạm thời Blalock-Taussig cải tiến (Modified BT shunt) trong Tứ chứng Fallot là kỹ thuật {{c1::dùng ống ghép mạch nhân tạo Gore-Tex nối giữa động mạch dưới đòn và động mạch phổi}}.",
+    "extra": "Mục tiêu: Cung cấp nguồn máu cấp cứu từ đại tuần hoàn lên phổi cho trẻ sơ sinh hoặc trẻ có nhánh động mạch phổi quá nhỏ."
+  },
+  {
+    "type": "cloze",
+    "text": "Thời điểm phẫu thuật sửa chữa triệt để toàn bộ (Total intracardiac repair) cho trẻ mắc Tứ chứng Fallot hiện nay thường được thực hiện lúc trẻ {{c1::4 đến 6 tháng tuổi}}.",
+    "extra": "Kỹ thuật: Vá lỗ thông liên thất bằng miếng vá nhân tạo và mở rộng đường ra thất phải bằng miếng vá màng ngoài tim."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong dị tật Chuyển gốc đại động mạch (d-TGA), động mạch chủ xuất phát bất thường từ {{c1::tâm thất phải}} và động mạch phổi xuất phát bất thường từ {{c1::tâm thất trái}}.",
+    "extra": "Giải phẫu: Tạo nên hai vòng tuần hoàn đại tuần hoàn và tiểu tuần hoàn chảy song song độc lập."
+  },
+  {
+    "type": "cloze",
+    "text": "Dị tật phối hợp bắt buộc phải có để bệnh nhân chuyển gốc đại động mạch (d-TGA) có thể sống sót sau sinh là {{c1::lỗ thông pha trộn máu (thông liên nhĩ, thông liên thất hoặc còn ống động mạch)}}.",
+    "extra": "Huyết động: Nếu không có sự pha trộn máu, cơ thể sẽ tử vong do thiếu oxy mô trầm trọng trong vòng vài giờ đầu."
+  },
+  {
+    "type": "cloze",
+    "text": "Thủ thuật thông tim can thiệp cấp cứu xé rách vách liên nhĩ bằng bóng ở trẻ sơ sinh mắc TGA có tên là {{c1::Thủ thuật Rashkind (Balloon Atrial Septostomy)}}.",
+    "extra": "Ý nghĩa: Tạo lỗ thông liên nhĩ lớn để tối ưu hóa sự pha trộn máu ở tầng tâm nhĩ trong khi chờ phẫu thuật chuyển gốc."
+  },
+  {
+    "type": "cloze",
+    "text": "Phẫu thuật sửa chữa triệt để về mặt giải phẫu hiện đại được lựa chọn hàng đầu cho chuyển gốc đại động mạch là {{c1::Phẫu thuật chuyển gốc động mạch Jatene (Arterial Switch Operation - ASO)}}.",
+    "extra": "Kỹ thuật: Chuyển lại động mạch chủ về thất trái, chuyển động mạch phổi về thất phải và cắm lại động mạch vành."
+  },
+  {
+    "type": "cloze",
+    "text": "Thời điểm vàng bắt buộc phải thực hiện phẫu thuật Jatene cho trẻ TGA đơn thuần lành vách liên thất là trong {{c1::tuần đầu tiên sau sinh (từ 3 đến 7 ngày tuổi)}}.",
+    "extra": "Cơ chế: Sau tuần đầu, sức cản mạch phổi giảm làm tâm thất trái bị thoái triển thành mỏng, không còn đủ áp lực để bơm máu hệ thống."
+  },
+  {
+    "type": "cloze",
+    "text": "Hai phương pháp phẫu thuật chuyển tầng nhĩ kinh điển trong lịch sử điều trị TGA những năm 1960-1980 là {{c1::phương pháp Senning và phương pháp Mustard}}.",
+    "extra": "Biến chứng: Để lại tâm thất phải làm nhiệm vụ bơm máu hệ thống, dẫn đến suy thất phải và loạn nhịp nhĩ khi trưởng thành."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Hội chứng thiểu sản thất trái (HLHS), toàn bộ lưu lượng máu nuôi đại tuần hoàn và mạch vành phụ thuộc hoàn toàn vào {{c1::tâm thất phải bơm máu qua ống động mạch (PDA)}}.",
+    "extra": "Cấp cứu: Khi ống động mạch đóng lại, trẻ rơi vào sốc tim trụy mạch tử vong nhanh chóng nếu không truyền PGE1."
+  },
+  {
+    "type": "cloze",
+    "text": "Quy trình phẫu thuật tái tạo 3 giai đoạn điều trị Hội chứng thiểu sản thất trái (HLHS) hướng tới sinh lý thất duy nhất gồm: Giai đoạn 1 là {{c1::phẫu thuật Norwood}}; Giai đoạn 2 là {{c1::phẫu thuật Glenn hai hướng}}; Giai đoạn 3 là {{c1::phẫu thuật Fontan}}.",
+    "extra": "Lâm sàng: Norwood tiến hành tuần đầu sau sinh; Glenn lúc 3-6 tháng; Fontan lúc 2-4 tuổi."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong bệnh dị tật Ebstein của van ba lá, tổn thương giải phẫu đặc trưng là {{c1::lá vách và lá sau van ba lá bị bám thấp bất thường về phía mỏm thất phải}}, dẫn đến hiện tượng {{c1::nhĩ hóa thất phải}}.",
+    "extra": "Lâm sàng: Hở nặng van ba lá, buồng nhĩ phải giãn khổng lồ chèn ép thất phải."
+  },
+  {
+    "type": "cloze",
+    "text": "Hội chứng rối loạn nhịp tiền kích thích bẩm sinh thường phối hợp với bệnh dị tật Ebstein ở khoảng 15% các trường hợp là {{c1::Hội chứng Wolff-Parkinson-White (WPW)}}.",
+    "extra": "Điện tim: Xuất hiện sóng delta và khoảng PR ngắn, nguy cơ khởi phát cơn nhịp nhanh trên thất kịch phát."
+  },
+  {
+    "type": "cloze",
+    "text": "Hình ảnh điện tâm đồ kinh điển trong bệnh Ebstein gồm: Sóng P ở DII cao khổng lồ nhọn hoắt được ví như {{c1::sóng P kiểu dãy Himalaya (P himalayan)}}, kèm block nhánh phải hoàn toàn.",
+    "extra": "Điện tim: Phản ánh tâm nhĩ phải giãn to cực độ chứa một lượng máu ứ trệ khổng lồ."
+  },
+  {
+    "type": "cloze",
+    "text": "Phương pháp phẫu thuật tạo hình sửa van ba lá hiện đại và hiệu quả nhất cho bệnh nhân mắc dị tật Ebstein là {{c1::phương pháp tạo hình hình nón (Cone procedure)}}.",
+    "extra": "Phẫu thuật: Huy động toàn bộ các lá van ba lá để tái tạo thành một van hình nón có chức năng đóng mở sinh lý."
+  },
+  {
+    "type": "cloze",
+    "text": "Bệnh Hẹp eo động mạch chủ (Coarctation of the Aorta) ở trẻ gái có tỷ lệ phối hợp rất cao với hội chứng bất thường nhiễm sắc thể có tên là {{c1::Hội chứng Turner (bộ NST 45,XO)}}.",
+    "extra": "Di truyền: Khoảng 30% đến 35% bệnh nhân Turner có hẹp eo động mạch chủ hoặc van ĐMC hai lá."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu lâm sàng then chốt để chẩn đoán xác định Hẹp eo động mạch chủ ở trẻ lớn là: Huyết áp chi trên {{c1::cao hơn}} huyết áp chi dưới với mức chênh lệch huyết áp tay - chân {{c1::> 20 mmHg}}.",
+    "extra": "Khám: Bắt mạch đùi hai bên thấy yếu rõ rệt hoặc đến chậm so với mạch quay (Radio-femoral delay)."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu Roesler trên phim X-quang ngực thẳng của bệnh nhân hẹp eo động mạch chủ lớn tuổi là hình ảnh {{c1::khuyết bờ dưới các xương sườn (Rib notching)}}.",
+    "extra": "Cơ chế: Do các động mạch liên sườn thuộc hệ tuần hoàn bàng hệ giãn to ngoằn ngoèo đè ép bào mòn bờ dưới xương sườn."
+  },
+  {
+    "type": "cloze",
+    "text": "Dị tật van tim bẩm sinh thường phối hợp nhất với Hẹp eo động mạch chủ ở khoảng 70% các trường hợp là {{c1::van động mạch chủ hai lá (Bicuspid Aortic Valve)}}.",
+    "extra": "Biến chứng: Có nguy cơ tiến triển thành hẹp van hoặc hở van động mạch chủ và viêm nội tâm mạc nhiễm khuẩn."
+  },
+  {
+    "type": "cloze",
+    "text": "Biện pháp điều trị lựa chọn hàng đầu cho bệnh nhân Hẹp van động mạch phổi đơn thuần (Pulmonary Stenosis) có chênh áp đỉnh qua van lớn là {{c1::nong van động mạch phổi bằng bóng qua da (Balloon Valvuloplasty)}}.",
+    "extra": "Can thiệp: Tỷ lệ thành công lâu dài đạt trên 85% các trường hợp, tránh được phẫu thuật mở ngực."
+  },
+  {
+    "type": "cloze",
+    "text": "Hội chứng di truyền thường phối hợp kinh điển nhất với Hẹp van động mạch phổi bẩm sinh là {{c1::Hội chứng Noonan}}.",
+    "extra": "Lâm sàng: Trẻ có khuôn mặt đặc trưng, cổ ngắn có màng, lồng ngực lõm ức và chậm phát triển chiều cao."
+  },
+  {
+    "type": "basic",
+    "front": "Trình bày 4 dị tật giải phẫu bệnh học kinh điển hợp thành Tứ chứng Fallot?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Bao gồm 4 tổn thương: 1. Thông liên thất phần phễu lớn. 2. Hẹp đường ra thất phải. 3. Động mạch chủ cưỡi ngựa trên vách liên thất. 4. Phì đại thất phải do hẹp đường ra thất phải.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Nguồn gốc phôi thai học duy nhất của Tứ chứng Fallot là sự lệch vách nón phễu ra trước và lên trên. Tổn thương hẹp đường ra thất phải quyết định mức độ tím và tiên lượng của bệnh nhi.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Trình bày chuỗi phản xạ cấp cứu Cơn tím Fallot cấp (Tet spell) tại giường bệnh?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• 1. Đặt trẻ ở tư thế ngực gối (Knee-chest position). 2. Thở oxy qua mặt nạ. 3. Morphin 0,1 mg/kg tiêm dưới da hoặc tiêm bắp. 4. Truyền dịch duy trì thể tích tuần hoàn và chống cô đặc máu. 5. Propranolol tiêm tĩnh mạch chậm để giảm co thắt đường ra thất phải. 6. Natri bicarbonat nếu có toan chuyển hóa nặng.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Tư thế ngực gối là động tác vật lý đầu tiên giúp tăng sức cản mạch hệ thống SVR ngay tức thì, ép máu từ thất phải vượt qua phễu lên phổi. Morphin giúp cắt đứt vòng xoắn kích thích giao cảm làm giãn cơ phễu thất phải.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Giải thích cơ chế tại sao trẻ lớn mắc Tứ chứng Fallot lại có động tác ngồi xổm (Squatting)?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Trẻ lớn có tư thế ngồi xổm (ngực gối) để làm tăng hậu gánh (tăng sức cản ngoại vi) và làm giảm dòng shunt Phải - Trái, đẩy máu qua phổi nhiều hơn.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Ngồi xổm làm gập động mạch đùi và động mạch chậu, tăng áp lực động mạch hệ thống vượt qua áp lực thất phải. Nhờ đó, lượng máu đen bị đẩy sang động mạch chủ giảm đi, máu buộc phải tìm đường qua chỗ hẹp phễu lên động mạch phổi để hấp thu oxy.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Trình bày dấu hiệu nghe tim kinh điển của Thông liên nhĩ và giải thích cơ chế?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tăng gánh tâm trương thất phải; Tiếng tim thứ hai (T2) tách đôi cố định; Tiếng thổi tâm thu ở đầu trên xương ức do tăng lưu lượng máu qua van động mạch phổi; Trong thông liên nhĩ lớn có thể có tiếng thổi tâm trương ở phần dưới xương ức do tăng lưu lượng máu qua van 3 lá.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• T2 tách đôi cố định là dấu hiệu then chốt nhất: Thất phải nhận máu liên tục từ nhĩ trái sang trong cả hai thì hô hấp, khiến thể tích tống máu thất phải luôn dư thừa và van động mạch phổi luôn đóng muộn một khoảng thời gian cố định so với van chủ.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Mô tả triệu chứng mạch và huyết áp đặc trưng trong Còn ống động mạch (PDA) lớn?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Mạch ngoại vi nẩy mạnh chìm sâu (Corrigan).<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Trong PDA lớn, thất trái tống một lượng thể tích máu rất lớn vào động mạch chủ trong kỳ tâm thu tạo sóng mạch nảy vọt. Đến kỳ tâm trương, máu thoát nhanh chóng và liên tục qua ống động mạch sang phổi làm áp lực tâm trương tụt giảm sâu. Chênh lệch huyết áp tâm thu và tâm trương mở rộng tạo nên mạch nảy mạnh chìm sâu.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Vì sao trong Chuyển gốc đại động mạch (d-TGA), phẫu thuật chuyển gốc Jatene bắt buộc phải thực hiện trong tuần đầu sau sinh?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Ngay tuần đầu tiên sau sinh là lựa chọn tốt nhất cho bệnh nhân TGA không có thông liên thất và không hẹp động mạch phổi. Ngay khi áp lực tuần hoàn phổi giảm xuống, thất trái phải đủ điều kiện để bơm máu vào tuần hoàn hệ thống với áp lực lớn hơn.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Trong tuần đầu, thất trái vẫn còn chịu áp lực mạch phổi cao của thời kỳ bào thai nên cơ thất còn dày. Sau 1-2 tuần, sức cản phổi giảm làm thất trái thoái triển thành mỏng (deconditioned LV). Nếu mổ muộn sau tuần đầu, thất trái mỏng sẽ không đủ sức đảm đương áp lực hệ thống và bệnh nhân sẽ tử vong vì suy thất trái cấp sau mổ.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Trình bày đặc điểm lâm sàng và cận lâm sàng giúp nhận diện Hẹp eo động mạch chủ ở trẻ lớn?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Tăng huyết áp chi trên nhưng chi dưới huyết áp thấp hoặc không đo được; Chênh lệch huyết áp tay - chân > 20 mmHg; Mạch đùi bắt yếu hoặc đến chậm so với mạch quay (Radio-femoral delay); Tiếng thổi tâm thu khoang liên sườn 2 bờ trái ức lan ra sau lưng; X-quang có dấu hiệu khuyết bờ dưới các xương sườn (dấu hiệu Roesler) và dấu hiệu số 3.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Khám mạch bẹn hai bên là bước thăm khám bắt buộc ở mọi trẻ tăng huyết áp hoặc suy tim. Khuyết bờ dưới xương sườn hình thành do tuần hoàn bàng hệ động mạch liên sườn giãn to ngoằn ngoèo để đưa máu qua chỗ hẹp nuôi nửa dưới cơ thể.",
+    "extra": ""
+  },
+  {
+    "type": "basic",
+    "front": "Nêu nguyên tắc dự phòng viêm nội tâm mạc nhiễm khuẩn (IE) ở trẻ mắc bệnh tim bẩm sinh?",
+    "back": "<b>📖 Văn bản gốc:</b><br>• Kháng sinh dự phòng trước các thủ thuật răng miệng hoặc can thiệp đường thở có chảy máu.<br><br><b>🔍 Góc nhìn bổ sung (AI):</b><br>• Kháng sinh đầu tay là Amoxicillin liều 50 mg/kg uống trước thủ thuật 30-60 phút. Dòng máu chảy xoáy với vận tốc cao qua các lỗ thông hoặc chỗ hẹp làm tổn thương lớp nội mạc mạch máu, tạo điều kiện cho vi khuẩn bám dính hình thành sùi nhiễm trùng.",
+    "extra": ""
+  },
+  {
+    "type": "cloze",
+    "text": "Chỉ định phẫu thuật đóng thông liên thất (VSD) dựa trên tỷ số lưu lượng máu phổi trên lưu lượng máu hệ thống (Qp/Qs) khi tỷ số này đạt từ {{c1::Qp/Qs ≥ 1,5:1}} trở lên.",
+    "extra": "Huyết động: Phản ánh luồng shunt Trái - Phải có ý nghĩa huyết động gây quá tải thể tích thất trái."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong thông liên thất phần phễu (dưới van), biến chứng hở van động mạch chủ tiến triển xảy ra do lá van {{c1::động mạch chủ bên phải}} bị hút sa vào lỗ thông liên thất.",
+    "extra": "Cơ chế: Hiệu ứng Venturi tạo áp lực âm kéo tụt lá van phải vào buồng thất phải."
+  },
+  {
+    "type": "cloze",
+    "text": "Khác với thông liên thất phần màng và phần cơ, thông liên thất phần buồng nhận (Inlet VSD) có đặc tính là {{c1::không bao giờ tự đóng tự nhiên}}.",
+    "extra": "Giải phẫu: Thuộc bệnh cảnh khuyết gối nội tâm mạc, liên quan chặt chẽ đến van nhĩ thất."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở trẻ sơ sinh mắc thông liên thất lớn, tình trạng tăng áp lực động mạch phổi ác tính cố định (Eisenmenger) thường không xảy ra ngay lúc mới sinh mà phát triển dần sau {{c1::sau 1 đến 2 tuổi}}.",
+    "extra": "Cơ chế: Cần thời gian để các mạch máu phổi phì đại lớp cơ trơn và xơ hóa nội mạc cố định."
+  },
+  {
+    "type": "cloze",
+    "text": "Hội chứng Eisenmenger là tình trạng {{c1::tăng áp lực mạch máu phổi cố định không hồi phục}}, làm áp lực buồng tim phải vượt buồng tim trái và đảo chiều luồng shunt thành {{c1::Phải - Trái}}.",
+    "extra": "Chống chỉ định: Bệnh nhân mất chỉ định phẫu thuật sửa chữa tim hở hoàn toàn."
+  },
+  {
+    "type": "cloze",
+    "text": "Dị tật Thông sàn nhĩ thất (AVSD) hay kênh nhĩ thất đặc biệt phổ biến ở trẻ mắc hội chứng di truyền {{c1::Hội chứng Down (Trisomy 21)}} với tỷ lệ lên tới {{c1::40%}}.",
+    "extra": "Di truyền: Chiếm khoảng 4% đến 5% tổng số các trường hợp tim bẩm sinh nói chung."
+  },
+  {
+    "type": "cloze",
+    "text": "Thông sàn nhĩ thất bán phần (Partial AVSD) bao gồm hai tổn thương giải phẫu cơ bản là: {{c1::thông liên nhĩ lỗ tiên phát (Ostium primum ASD) và chẻ lá trước van hai lá (Cleft mitral valve)}}.",
+    "extra": "Lâm sàng: Gây luồng shunt ở tầng nhĩ và hở van hai lá bẩm sinh."
+  },
+  {
+    "type": "cloze",
+    "text": "Thời điểm vàng phẫu thuật sửa chữa triệt để cho trẻ mắc Thông sàn nhĩ thất hoàn toàn (Complete AVSD) là lúc trẻ {{c1::3 đến 6 tháng tuổi}}.",
+    "extra": "Kỹ thuật: Phẫu thuật vá hai miếng (Two-patch technique) tái tạo vách liên nhĩ, vách liên thất và chia tách van nhĩ thất chung."
+  },
+  {
+    "type": "cloze",
+    "text": "Biến chứng muộn thường gặp nhất sau phẫu thuật sửa chữa thông sàn nhĩ thất đòi hỏi theo dõi suốt đời là {{c1::hở van hai lá tiến triển}} (gặp ở khoảng 15% bệnh nhân).",
+    "extra": "Tiên lượng: Do cấu trúc giải phẫu của van hai lá bất thường bẩm sinh khó phục hồi sinh lý hoàn toàn."
+  },
+  {
+    "type": "cloze",
+    "text": "Ống động mạch ở trẻ đủ tháng khỏe mạnh thường bắt đầu co thắt chức năng trong vòng 10 đến 15 giờ đầu sau sinh và đóng kín về mặt giải phẫu sau {{c1::vài ngày đến 2 tuần đầu}}.",
+    "extra": "Cơ chế: Nồng độ oxy máu tăng vọt sau sinh ức chế kênh kali và làm giảm nồng độ Prostaglandin E2 nội sinh."
+  },
+  {
+    "type": "cloze",
+    "text": "Tiếng thổi liên tục kinh điển trong còn ống động mạch (PDA) còn có tên gọi là tiếng thổi {{c1::Gibson}} (hoặc tiếng thổi giàn máy - Machinery murmur).",
+    "extra": "Âm học: Cường độ tăng dần về cuối tâm thu, đạt đỉnh ở T2 và giảm dần trong tâm trương."
+  },
+  {
+    "type": "cloze",
+    "text": "Chênh lệch huyết áp (hiệu số huyết áp tâm thu trừ tâm trương) ở trẻ mắc còn ống động mạch lớn thường mở rộng vượt quá {{c1::> 30 đến 40 mmHg}}.",
+    "extra": "Khám: Huyết áp tâm thu có thể bình thường nhưng huyết áp tâm trương tụt sâu xuống 20-30 mmHg."
+  },
+  {
+    "type": "cloze",
+    "text": "Bên cạnh Indomethacin và Ibuprofen, hoạt chất hạ sốt giảm đau thông thường {{c1::Paracetamol (Acetaminophen)}} đường uống hoặc truyền tĩnh mạch cũng được chứng minh có hiệu quả đóng ống động mạch ở trẻ sinh non.",
+    "extra": "Chỉ định: Lựa chọn thay thế an toàn khi trẻ non tháng có giảm tiểu cầu nặng hoặc nguy cơ xuất huyết tiêu hóa."
+  },
+  {
+    "type": "cloze",
+    "text": "Hội chứng thanh gươm Thổ Nhĩ Kỳ (Scimitar syndrome) là một thể của bất thường hồi lưu tĩnh mạch phổi bán phần, trong đó tĩnh mạch phổi dưới phải đổ bất thường vào {{c1::tĩnh mạch chủ dưới (IVC)}}.",
+    "extra": "Hình ảnh: Bóng tĩnh mạch phổi bất thường tạo hình ảnh dải mờ cong cong như thanh gươm Scimitar dọc bờ phải tim trên X-quang."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Tứ chứng Fallot, phì đại tâm thất phải là tổn thương {{c1::thứ phát}} hình thành do thất phải phải co bóp chống lại tình trạng hẹp đường ra thất phải.",
+    "extra": "Cơ chế: Giúp tâm thất phải tạo áp lực tống máu tương đương áp lực thất trái."
+  },
+  {
+    "type": "cloze",
+    "text": "Thể lâm sàng Fallot hồng (Pink Fallot) xuất hiện khi mức độ hẹp đường ra thất phải còn nhẹ, áp lực thất phải thấp hơn thất trái nên luồng shunt qua VSD chủ yếu là {{c1::Trái - Phải (không gây tím)}}.",
+    "extra": "Tiên lượng: Bệnh nhân có biểu hiện suy tim tăng lưu lượng phổi giống như thông liên thất lớn."
+  },
+  {
+    "type": "cloze",
+    "text": "Chỉ số Hematocrit ở trẻ Tứ chứng Fallot tím mạn tính tăng cao bù trừ trên {{c1::> 65%}} làm tăng vọt độ nhớt máu và đòi hỏi phải {{c1::bù dịch chống mất nước hoặc trích máu thay thế dịch đẳng trương}}.",
+    "extra": "Cảnh báo: Nguy cơ huyết khối tắc mạch não và đột quỵ nhồi máu não."
+  },
+  {
+    "type": "cloze",
+    "text": "Biến chứng nhiễm trùng thần kinh nguy hiểm thường gặp ở trẻ lớn mắc Tứ chứng Fallot có tím mạn tính là {{c1::áp xe não (Brain Abscess)}}.",
+    "extra": "Cơ chế: Máu tĩnh mạch hệ thống không qua hệ thống lọc mao mạch phổi nên vi khuẩn xâm nhập thẳng vào tuần hoàn động mạch não."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc chẹn beta Propranolol giúp cắt cơn tím Fallot nhờ tác dụng {{c1::ức chế thụ thể beta-1 adrenergic, làm giãn cơ trơn phễu đường ra thất phải}}.",
+    "extra": "Dược lý: Cắt đứt tác động co thắt phễu của nồng độ Catecholamine tăng vọt."
+  },
+  {
+    "type": "cloze",
+    "text": "Phác đồ liều của thuốc Morphin Sulfate tiêm dưới da hoặc tiêm bắp trong cấp cứu cơn tím Fallot là {{c1::0,1 mg/kg}}.",
+    "extra": "Cấp cứu: Có thể nhắc lại sau 15 đến 30 phút nếu cơn tím chưa dứt hoàn toàn."
+  },
+  {
+    "type": "cloze",
+    "text": "Cầu nối Blalock-Taussig cải tiến (mBT shunt) dùng đoạn mạch nhân tạo Gore-Tex nối giữa {{c1::động mạch dưới đòn}} và {{c1::nhánh động mạch phổi cùng bên}}.",
+    "extra": "Phẫu thuật: Cung cấp dòng máu có áp lực từ đại tuần hoàn lên phổi giúp các nhánh động mạch phổi phát triển."
+  },
+  {
+    "type": "cloze",
+    "text": "Dị tật Teo van động mạch phổi kèm thông liên thất (PA-VSD) được coi là thể giải phẫu nặng nề nhất của quang phổ bệnh lý {{c1::Tứ chứng Fallot}}.",
+    "extra": "Huyết động: Máu lên phổi hoàn toàn phụ thuộc vào ống động mạch hoặc tuần hoàn bàng hệ chủ - phổi (MAPCAs)."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc duy trì mở ống động mạch cứu mạng ở trẻ sơ sinh mắc bệnh tim phụ thuộc ống động mạch là {{c1::Prostaglandin E1 (Alprostadil / PGE1)}} với liều truyền tĩnh mạch từ {{c1::0,01 đến 0,05 µg/kg/phút}}.",
+    "extra": "Tác dụng phụ: Có thể gây cơn ngừng thở (Apnea), sốt và tụt huyết áp; cần chuẩn bị sẵn bóng bóp và nội khí quản."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong chuyển gốc đại động mạch (d-TGA), nghiệm pháp thở oxy 100% (Hyperoxia test) có kết quả đặc trưng là: PaO2 máu động mạch {{c1::hầu như không tăng (vẫn < 100 - 150 mmHg)}}.",
+    "extra": "Chẩn đoán: Khẳng định tím do tim có luồng shunt Phải - Trái chứ không phải suy hô hấp do bệnh nhu mô phổi."
+  },
+  {
+    "type": "cloze",
+    "text": "Thủ thuật xé vách liên nhĩ bằng bóng Rashkind đưa ống thông có bóng qua đường tĩnh mạch đùi hoặc tĩnh mạch rốn vào {{c1::tâm nhĩ trái}}, bơm căng bóng rồi giật mạnh về {{c1::tâm nhĩ phải}}.",
+    "extra": "Huyết động: Xé rách van lỗ bầu dục tạo lỗ thông liên nhĩ lớn cho phép máu giàu oxy sang tuần hoàn hệ thống."
+  },
+  {
+    "type": "cloze",
+    "text": "Phẫu thuật chuyển gốc động mạch Jatene bao gồm các thì phẫu thuật chính: Cắt rời đại động mạch, chuyển ĐMC về thất trái, chuyển ĐMP về thất phải, {{c1::cắm lại cuống động mạch vành}} và làm nghiệm pháp Lecompte.",
+    "extra": "Kỹ thuật: Phức tạp nhất là thì chuyển gốc hai động mạch vành mà không làm xoắn vặn hay tắc hẹp lòng mạch."
+  },
+  {
+    "type": "cloze",
+    "text": "Hội chứng DiGeorge (mất đoạn nhiễm sắc thể 22q11.2) có liên quan di truyền rất chặt chẽ với dị tật tim bẩm sinh {{c1::Thân chung động mạch (Truncus Arteriosus)}} và đứt đoạn quai động mạch chủ.",
+    "extra": "Di truyền: Kèm theo thiểu sản tuyến ức suy giảm miễn dịch và hạ canxi máu do suy tuyến cận giáp."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong bệnh Thân chung động mạch (Truncus Arteriosus), phẫu thuật triệt để phải được tiến hành sớm trước {{c1::2 đến 3 tháng tuổi}} để tránh bệnh lý tắc nghẽn mạch máu phổi cố định.",
+    "extra": "Kỹ thuật: Phẫu thuật đóng VSD và đặt ống ghép có van (Conduit) nối từ thất phải lên động mạch phổi."
+  },
+  {
+    "type": "cloze",
+    "text": "Hiện tượng 'nhĩ hóa thất phải' trong bệnh Ebstein có nghĩa là {{c1::một phần buồng tâm thất phải phía trên chỗ bám bất thường của van ba lá bị sáp nhập vào buồng tâm nhĩ phải}}.",
+    "extra": "Giải phẫu: Khiến phần buồng thất phải chức năng co bóp tống máu còn lại bị teo nhỏ và giảm động."
+  },
+  {
+    "type": "cloze",
+    "text": "Trên phim X-quang tim phổi thẳng của bệnh nhân Ebstein nặng, bóng tim phải giãn to khổng lồ chiếm gần hết lồng ngực được ví như hình ảnh {{c1::quả bóng bàn (hoặc hình bình nước)}}.",
+    "extra": "Hình ảnh: Hai phế trường phổi sáng do lượng máu lên phổi bị sụt giảm nghiêm trọng."
+  },
+  {
+    "type": "cloze",
+    "text": "Bất thường hồi lưu tĩnh mạch phổi hoàn toàn (TAPVC) thể dưới tim (Infracardiac type) thường xuyên bị biến chứng {{c1::tắc nghẽn đường về tĩnh mạch phổi}}, gây phù phổi cấp dữ dội ở trẻ sơ sinh.",
+    "extra": "Cấp cứu: Đòi hỏi phải phẫu thuật cấp cứu khẩn cấp trong vòng 24 giờ đầu, tỷ lệ tử vong lên tới 40% nếu chậm trễ."
+  },
+  {
+    "type": "cloze",
+    "text": "Hình ảnh X-quang tim phổi kinh điển của TAPVC thể trên tim (đổ vào tĩnh mạch vô danh) được gọi là dấu hiệu {{c1::hình người tuyết (Snowman sign) hoặc hình số 8}}.",
+    "extra": "Hình ảnh: Nửa trên số 8 tạo bởi tĩnh mạch dọc bất thường, tĩnh mạch vô danh và TMC trên giãn lớn; nửa dưới là bóng tim."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Teo van ba lá (Tricuspid Atresia), máu từ nhĩ phải muốn sang tuần hoàn đại thể bắt buộc phải qua {{c1::lỗ bầu dục hoặc lỗ thông liên nhĩ (ASD)}} để sang tâm nhĩ trái.",
+    "extra": "Huyết động: Toàn bộ máu trở về tim trái, thất trái giãn lớn và đảm đương chức năng bơm máu duy nhất."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu điện tâm đồ đặc biệt nhất của Teo van ba lá giúp phân biệt với hầu hết các bệnh tim bẩm sinh có tím khác là {{c1::trục điện tim chuyển trái (Left Axis Deviation) và dày thất trái}}.",
+    "extra": "Điện tim: Phần lớn tim bẩm sinh có tím là trục phải và dày thất phải, riêng Teo van ba lá là trục trái."
+  },
+  {
+    "type": "cloze",
+    "text": "Phẫu thuật Glenn hai hướng (Bidirectional Glenn) trong quy trình Fontan là phẫu thuật nối trực tiếp {{c1::tĩnh mạch chủ trên (SVC)}} vào {{c1::động mạch phổi phải}}.",
+    "extra": "Huyết động: Đưa máu nửa trên cơ thể về phổi thụ động không cần qua tâm thất, thực hiện lúc 3 đến 6 tháng tuổi."
+  },
+  {
+    "type": "cloze",
+    "text": "Phẫu thuật Fontan hoàn tất là kỹ thuật nối trực tiếp {{c1::tĩnh mạch chủ dưới (IVC)}} vào {{c1::động mạch phổi}} thông qua ống ghép nhân tạo ngoài tim (Extracardiac conduit).",
+    "extra": "Huyết động: Tách rời hoàn toàn máu tĩnh mạch hệ thống không qua tim, đưa tâm thất duy nhất làm nhiệm vụ bơm máu động mạch chủ."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Hẹp eo động mạch chủ (CoA), vị trí chỗ hẹp giải phẫu thường nằm ở {{c1::ngay đối diện hoặc dưới chỗ xuất phát của động mạch dưới đòn trái (vùng eo động mạch chủ)}}.",
+    "extra": "Giải phẫu: Tương ứng với vị trí bám của dây chằng động mạch."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu mạch kinh điển trong Hẹp eo động mạch chủ là hiện tượng {{c1::mạch bẹn / mạch đùi bắt yếu hoặc đến chậm so với mạch quay (Radio-femoral delay)}}.",
+    "extra": "Lâm sàng: Do sóng mạch đi qua chỗ hẹp bị cản trở và giảm vận tốc truyền âm."
+  },
+  {
+    "type": "cloze",
+    "text": "Hình ảnh 'dấu hiệu số 3' (Figure-of-3 sign) trên phim X-quang ngực thẳng của bệnh nhân hẹp eo ĐMC hình thành do {{c1::giãn quai ĐMC trước chỗ hẹp, lõm tại chỗ hẹp eo và giãn phình ĐMC xuống sau chỗ hẹp}}.",
+    "extra": "Hình ảnh: Dấu hiệu hình ảnh gián tiếp đặc thù của hẹp eo động mạch chủ."
+  },
+  {
+    "type": "cloze",
+    "text": "Hẹp van động mạch chủ bẩm sinh nguy kịch ở trẻ sơ sinh (Critical AS) gây sốc tim suy thất trái nặng nề, biện pháp can thiệp cấp cứu đầu tay là {{c1::nong van động mạch chủ bằng bóng qua da}}.",
+    "extra": "Can thiệp: Giúp giải áp khẩn cấp buồng thất trái trước khi xem xét phẫu thuật Ross hoặc sửa van."
+  },
+  {
+    "type": "cloze",
+    "text": "Phẫu thuật Ross trong điều trị bệnh lý van động mạch chủ nặng ở trẻ em là kỹ thuật lấy {{c1::van động mạch phổi tự thân}} chuyển sang thay thế van động mạch chủ, và đặt ống ghép có van vào đường ra thất phải.",
+    "extra": "Ưu điểm: Van động mạch phổi tự thân có khả năng tăng trưởng kích thước theo sự lớn lên của đứa trẻ."
+  },
+  {
+    "type": "cloze",
+    "text": "Hội chứng Williams (Williams-Beuren syndrome) do mất đoạn gen Elastin trên nhiễm sắc thể 7q11.23 thường phối hợp với dị tật tim mạch đặc trưng là {{c1::hẹp trên van động mạch chủ (Supravalvular Aortic Stenosis)}}.",
+    "extra": "Lâm sàng: Trẻ có khuôn mặt giống chú lùn (Elfin face), tính cách cởi mở quá mức và tăng canxi máu thời thơ ấu."
+  },
+  {
+    "type": "cloze",
+    "text": "Tiếng click tống máu (Ejection click) trong Hẹp van động mạch phổi có đặc điểm điện thính học đặc biệt là {{c1::nhỏ đi hoặc biến mất trong thì hít vào sâu}}.",
+    "extra": "Cơ chế: Hít vào làm tăng hồi lưu máu về thất phải làm căng sớm lá van phổi trước khi thất co bóp."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Hẹp van động mạch phổi nặng, nghe tim thấy thành phần van phổi P2 của tiếng tim thứ hai có đặc điểm là {{c1::mờ nhạt hoặc biến mất hoàn toàn}}.",
+    "extra": "Lâm sàng: Tiếng T2 tách đôi rất rộng với thành phần A2 đơn độc."
+  },
+  {
+    "type": "cloze",
+    "text": "Chế độ kháng sinh dự phòng viêm nội tâm mạc nhiễm khuẩn đường uống tiêu chuẩn trước thủ thuật răng miệng là {{c1::Amoxicillin liều 50 mg/kg (tối đa 2 g)}} uống một liều duy nhất trước thủ thuật {{c1::30 đến 60 phút}}.",
+    "extra": "Dược lý: Nếu dị ứng Penicillin chuyển sang Clindamycin 20 mg/kg hoặc Azithromycin 15 mg/kg."
+  },
+  {
+    "type": "cloze",
+    "text": "Bệnh tim bẩm sinh tím có luồng shunt Phải - Trái làm mất chức năng của màng mao mạch phổi đóng vai trò là {{c1::bộ lọc cơ học vi khuẩn và cục máu đông}} của cơ thể.",
+    "extra": "Cơ chế: Giải thích tại sao trẻ tim bẩm sinh tím có nguy cơ cao bị áp xe não và nhồi máu não nghịch thường."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong cấp cứu cơn tím Fallot, tiêm Natri Bicarbonat (NaHCO3) liều 1 đến 2 mEq/kg được chỉ định khi bệnh nhi có tình trạng {{c1::toan chuyển hóa nặng}}.",
+    "extra": "Cơ chế: Toan chuyển hóa kích thích trung tâm hô hấp làm thở nhanh sâu và làm tăng sức cản mạch phổi, đẩy mạnh luồng shunt Phải - Trái."
+  },
+  {
+    "type": "cloze",
+    "text": "Để tránh nhầm lẫn tiếng thổi tâm thu của thông liên thất với tiếng thổi của hở hai lá cơ năng ở mỏm tim, cần nhớ tiếng thổi của VSD nghe rõ nhất ở {{c1::khoang liên sườn 3-4 bờ trái xương ức}} và lan {{c1::hình nan quạt quanh ngực}}.",
+    "extra": "Khám: Tiếng thổi hở hai lá nghe rõ ở mỏm tim và lan ra hố nách trái."
+  },
+  {
+    "type": "cloze",
+    "text": "Dấu hiệu nhận biết trẻ sơ sinh tím tái do nguyên nhân tim bẩm sinh so với tím do hạ thân nhiệt là: Tím do tim xuất hiện ở cả {{c1::niêm mạc miệng, lưỡi và kết mạc mắt}} và {{c1::không biến mất sau khi sưởi ấm trẻ}}.",
+    "extra": "Khám: Tím do lạnh chỉ xuất hiện ở đầu chi, niêm mạc lưỡi vẫn hồng hào."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở trẻ nhũ nhi mắc thông liên thất lớn, việc theo dõi sát biểu hiện lâm sàng ăn bú và tăng cân có giá trị hơn nghe tim vì tiếng thổi tâm thu có thể {{c1::nhỏ đi khi áp lực động mạch phổi tăng cao gần bằng áp lực thất trái}}.",
+    "extra": "Bẫy lâm sàng: Tiếng thổi nhỏ đi không có nghĩa là bệnh thuyên giảm mà có thể cảnh báo tăng áp phổi nặng."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong Thân chung động mạch (Truncus Arteriosus), phân loại Collett-Edwards chia thành 4 tuýp dựa vào {{c1::vị trí xuất phát của các nhánh động mạch phổi từ thân chung}}.",
+    "extra": "Phân loại: Tuýp I thân ĐMP chung xuất phát từ thân chung; Tuýp II hai nhánh ĐMP xuất phát sát nhau ở mặt sau; Tuýp III xuất phát riêng rẽ hai bên."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong bệnh dị tật Ebstein của van ba lá, lá van ba lá thường có kích thước rất lớn, di động dạng cánh buồm (Sail-like leaflet) và bám đúng vị trí vòng van là {{c1::lá van trước (Anterior leaflet)}}.",
+    "extra": "Giải phẫu: Trong khi lá vách và lá sau bị bám thấp sâu về phía mỏm tim."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong phẫu thuật Norwood điều trị HLHS giai đoạn 1, cải tiến Sano sử dụng một ống nối nhân tạo không van nối từ {{c1::tâm thất phải}} lên {{c1::thân động mạch phổi}} (thay thế cho cầu nối Blalock-Taussig).",
+    "extra": "Kỹ thuật: Giúp duy trì huyết áp tâm trương tốt hơn và cải thiện tưới máu động mạch vành."
+  },
+  {
+    "type": "cloze",
+    "text": "Phẫu thuật Glenn hai hướng trong quy trình Fontan đưa dòng máu tĩnh mạch chủ trên về phổi thụ động, điều kiện tiên quyết là sức cản mạch máu phổi (PVR) phải thấp dưới {{c1::< 2 đến 3 đơn vị Wood}}.",
+    "extra": "Huyết động: Tuần hoàn Fontan không có bơm thất phải nên lưu lượng máu qua phổi phụ thuộc hoàn toàn vào gradient áp lực tĩnh mạch."
+  },
+  {
+    "type": "cloze",
+    "text": "Cơ chế tăng huyết áp chi trên trong Hẹp eo động mạch chủ bao gồm hai cơ chế phối hợp: cản trở cơ học cơ học dòng máu và {{c1::thiếu máu tưới nuôi thận mạn tính kích hoạt hệ RAAS}}.",
+    "extra": "Sinh lý: Giải thích tại sao một số bệnh nhân vẫn còn tăng huyết áp tồn dư sau khi đã phẫu thuật giải tỏa chỗ hẹp."
+  },
+  {
+    "type": "cloze",
+    "text": "Biến chứng tăng huyết áp tồn dư sau phẫu thuật hoặc can thiệp hẹp eo động mạch chủ xảy ra ở khoảng 20% đến 30% bệnh nhân do {{c1::rối loạn độ chun giãn mạch máu và thay đổi thụ cảm thể áp lực xoang cảnh}}.",
+    "extra": "Theo dõi: Đòi hỏi bệnh nhân phải được theo dõi huyết áp định kỳ suốt đời."
+  },
+  {
+    "type": "cloze",
+    "text": "Mọi trẻ gái được chẩn đoán Hẹp eo động mạch chủ đều có chỉ định bắt buộc làm xét nghiệm di truyền {{c1::nhiễm sắc thể đồ (Karyotype)}} để tầm soát Hội chứng Turner.",
+    "extra": "Di truyền: Ngược lại, mọi trẻ gái mắc Turner đều phải được siêu âm tim tầm soát hẹp eo ĐMC và van ĐMC hai lá."
+  },
+  {
+    "type": "cloze",
+    "text": "Hội chứng Williams (Williams-Beuren) do đột biến mất đoạn gen Elastin trên nhiễm sắc thể 7q11.23, có đặc điểm lâm sàng điển hình gồm khuôn mặt giống chú lùn, tính cách cởi mở và dị tật tim mạch {{c1::hẹp trên van động mạch chủ}}.",
+    "extra": "Lâm sàng: Thường kèm tăng canxi máu thời kỳ nhũ nhi."
+  },
+  {
+    "type": "cloze",
+    "text": "Hội chứng Noonan do đột biến gen PTPN11 có biểu hiện lâm sàng gồm cổ ngắn có màng, lồng ngực lõm ức, chậm lớn và dị tật tim bẩm sinh thường gặp nhất là {{c1::hẹp van động mạch phổi}}.",
+    "extra": "Lâm sàng: Thường kèm theo loạn sản các lá van động mạch phổi dày cộm."
+  },
+  {
+    "type": "cloze",
+    "text": "Hội chứng DiGeorge (mất đoạn 22q11.2) gây tam chứng kinh điển gồm: dị tật tim nón phễu (Thân chung ĐMC, đứt đoạn quai ĐMC), {{c1::hạ canxi máu sơ sinh do suy tuyến cận giáp}} và {{c1::suy giảm miễn dịch tế bào T do thiểu sản tuyến ức}}.",
+    "extra": "Di truyền: Cần xét nghiệm lai huỳnh quang tại chỗ (FISH) để chẩn đoán xác định."
+  },
+  {
+    "type": "cloze",
+    "text": "Hình ảnh 'Người tuyết' (Snowman sign) trên X-quang ngực thẳng trong TAPVC thể trên tim được hình thành bởi: Đầu người tuyết tạo bởi {{c1::tĩnh mạch dọc bất thường, tĩnh mạch vô danh và tĩnh mạch chủ trên giãn to}}; Thân người tuyết là {{c1::bóng tim to}}.",
+    "extra": "Hình ảnh: Dấu hiệu X-quang kinh điển phát hiện sau giai đoạn sơ sinh."
+  },
+  {
+    "type": "cloze",
+    "text": "Ở bệnh nhi mắc Teo van ba lá có lưu lượng máu lên phổi quá ít gây tím tái nặng, phẫu thuật tạm thời giai đoạn sơ sinh là {{c1::làm cầu nối Blalock-Taussig cải tiến (mBT shunt)}}.",
+    "extra": "Phẫu thuật: Ngược lại, nếu lưu lượng máu lên phổi quá nhiều gây suy tim, phẫu thuật tạm thời là thắt hẹp động mạch phổi (PA banding)."
+  },
+  {
+    "type": "cloze",
+    "text": "Tỷ lệ tự đóng tự nhiên của thông liên thất phần cơ nhỏ (Muscular VSD) ở trẻ em trước 2 tuổi có thể lên tới {{c1::trên 80%}}.",
+    "extra": "Tiên lượng: Cơ tâm thất phì đại sinh lý ép bít các lỗ thông cơ bè nhỏ."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong thông liên thất phần phễu (dưới van), định luật Bernoulli giải thích dòng máu phụt xoáy với vận tốc cao qua lỗ thông tạo nên {{c1::áp lực bên âm (áp lực hút)}} hút tụt lá van động mạch chủ.",
+    "extra": "Vật lý: Đây là bản chất cơ học của hiệu ứng Venturi gây sa van và hở van động mạch chủ tiến triển."
+  },
+  {
+    "type": "cloze",
+    "text": "Tiếng thổi liên tục Gibson trong còn ống động mạch bắt đầu từ {{c1::đầu kỳ tâm thu}}, mạnh dần lên và đạt cường độ đỉnh ở {{c1::tiếng T2}}, sau đó giảm dần trong kỳ tâm trương.",
+    "extra": "Âm học: Phản ánh chênh áp giữa động mạch chủ và động mạch phổi tồn tại liên tục trong suốt chu chuyển tim."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc đóng ống động mạch (Ibuprofen, Indomethacin) hoàn toàn KHÔNG có tác dụng ở {{c1::trẻ sơ sinh đủ tháng}} mắc còn ống động mạch.",
+    "extra": "Dược lý: Ống động mạch ở trẻ đủ tháng có cấu trúc mô học trưởng thành với nhiều sợi chun, cơ chế đóng ống không còn đáp ứng với ức chế men COX."
+  },
+  {
+    "type": "cloze",
+    "text": "Cơn tím thiếu oxy Fallot có đỉnh điểm xuất hiện phổ biến nhất trong độ tuổi từ {{c1::2 đến 4 tháng tuổi}} và thường hay xảy ra vào thời điểm {{c1::buổi sáng sớm sau khi ngủ dậy}}.",
+    "extra": "Cơ chế: Do nồng độ Catecholamine nội sinh tăng cao theo nhịp sinh học buổi sáng kết hợp tình trạng thiếu nước tương đối sau giấc ngủ đêm."
+  },
+  {
+    "type": "cloze",
+    "text": "Động tác ép chặt hai đầu gối vào ngực trong tư thế ngực gối (Knee-chest) làm tăng sức cản mạch hệ thống SVR nhờ cơ chế {{c1::gập nếp gấp bẹn ép nghẽn cơ học động mạch đùi hai bên}}.",
+    "extra": "Cơ chế: SVR tăng cao vượt áp lực thất phải, ép dòng máu đen qua chỗ hẹp phễu lên động mạch phổi để hấp thu oxy."
+  },
+  {
+    "type": "cloze",
+    "text": "Trong cấp cứu cơn tím Fallot, Morphin Sulfate phát huy tác dụng điều trị nhờ {{c1::ức chế trung tâm hô hấp làm dịu cơn thở nhanh sâu, giảm phản xạ giao cảm và cắt đứt cơn co thắt phễu thất phải}}.",
+    "extra": "Dược lý: Cắt đứt vòng xoắn bệnh lý giữa lo âu - khóc thét - tăng giao cảm - co thắt phễu."
+  },
+  {
+    "type": "cloze",
+    "text": "Thuốc chẹn beta Propranolol tiêm tĩnh mạch trong cơn tím Fallot có tác dụng trực tiếp là {{c1::chẹn thụ thể beta-1 adrenergic làm giãn các dải cơ phễu buồng tống thất phải}}.",
+    "extra": "Thực hành: Bắt buộc tiêm tĩnh mạch rất chậm trong 5 đến 10 phút dưới monitor theo dõi điện tim."
+  },
+  {
+    "type": "cloze",
+    "text": "Tiêm Natri Bicarbonat (NaHCO3) trong cơn tím Fallot nặng nhằm mục đích kiềm hóa máu, bởi vì tình trạng toan chuyển hóa là yếu tố gây {{c1::co thắt mạnh mạch máu phổi, làm tăng sức cản mạch phổi và đẩy mạnh luồng shunt Phải - Trái}}.",
+    "extra": "Huyết động: Phục hồi pH máu giúp hạ sức cản mạch phổi, tạo thuận lợi cho máu lên phổi."
+  },
+  {
+    "type": "cloze",
+    "text": "Chỉ định dùng kháng sinh dự phòng viêm nội tâm mạc nhiễm khuẩn bắt buộc áp dụng trong vòng {{c1::6 tháng đầu sau phẫu thuật hoặc can thiệp}} đặt vật liệu nhân tạo trong tim.",
+    "extra": "Khuyến cáo: Sau 6 tháng, lớp nội mạc mạch máu đã bao phủ hoàn toàn bề mặt vật liệu nhân tạo."
+  },
+  {
+    "type": "cloze",
+    "text": "Đối với bệnh nhân tim bẩm sinh có tím chưa được phẫu thuật sửa chữa triệt để, chỉ định dùng kháng sinh dự phòng viêm nội tâm mạc nhiễm khuẩn được áp dụng {{c1::suốt đời}}.",
+    "extra": "Khuyến cáo: Luôn duy trì vệ sinh răng miệng tốt và uống Amoxicillin 50 mg/kg trước các thủ thuật răng miệng có chảy máu."
+  },
+  {
+    "type": "cloze",
+    "text": "Liều dùng kháng sinh dự phòng viêm nội tâm mạc nhiễm khuẩn đường uống bằng Amoxicillin ở trẻ em là {{c1::50 mg/kg}} (liều tối đa ở người lớn là {{c1::2 g}}), uống trước thủ thuật 30-60 phút.",
+    "extra": "Dược lý: Nếu trẻ dị ứng với Penicillin, thuốc thay thế đường uống hàng đầu là Clindamycin liều 20 mg/kg."
+  },
+  {
+    "type": "cloze",
+    "text": "Một trẻ sơ sinh tím tái nặng có SpO2 65%, sau khi thở oxy 100% qua mask trong 15 phút SpO2 chỉ tăng lên 68% (nghiệm pháp thở oxy âm tính), khẳng định nguyên nhân tím là do {{c1::tim bẩm sinh có luồng shunt Phải - Trái}}.",
+    "extra": "Chẩn đoán: Loại trừ các bệnh lý suy hô hấp do nhu mô phổi đơn thuần (vốn đáp ứng tăng PaO2 rõ rệt với oxy 100%)."
+  }
+]

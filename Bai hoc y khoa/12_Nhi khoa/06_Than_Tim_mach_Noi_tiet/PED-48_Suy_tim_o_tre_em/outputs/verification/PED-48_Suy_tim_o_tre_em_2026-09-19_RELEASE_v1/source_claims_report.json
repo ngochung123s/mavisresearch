@@ -1,0 +1,317 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-48_Suy_tim_o_tre_em\\PED-48_Suy_tim_o_tre_em_2026-09-19_RELEASE_v1.md",
+  "parsed_claim_count": 7,
+  "verified_claim_count": 7,
+  "status": "PASS",
+  "checks": [
+    {
+      "claim_id": "C-001",
+      "claim_text": "Hướng dẫn ISHLT 2025 cập nhật nhấn mạnh suy tim trẻ em thứ phát sau bệnh cơ tim, bệnh tim mắc phải và tim bẩm sinh gắn liền với tỷ lệ mắc bệnh và tử vong đáng kể: Pediatric heart failure secondary to cardiomyopathies, acquired heart disease, and congenital heart disease is associated with significant morbidity and mortality. {claim:C-001} [GUIDELINE VERIFIED] (PMID: 40838915)",
+      "source_id": "40838915",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 104,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.48"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-002",
+      "claim_text": "Đánh giá lâm sàng suy tim trẻ em đòi hỏi nhận biết các biểu hiện phụ thuộc lứa tuổi, trong đó trẻ nhũ nhi chủ yếu biểu hiện bằng bú kém, chậm lớn và thở nhanh: Clinical evaluation of heart failure in children requires recognition of age-dependent presentations, where infants predominantly present with poor feeding, failure to thrive, and tachypnea. {claim:C-002} [ABSTRACT VERIFIED] (PMID: 19707788)",
+      "source_id": "19707788",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 129,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.21"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-003",
+      "claim_text": "Liệu pháp duy trì suy tim trẻ em hướng tới ức chế trục thần kinh thể dịch bao gồm thuốc ức chế men chuyển và thuốc chẹn beta giao cảm: Maintenance therapy for pediatric heart failure targets neurohormonal inhibition including angiotensin-converting enzyme inhibitors and beta-blockers. {claim:C-003} [ABSTRACT VERIFIED] (PMID: 20127112)",
+      "source_id": "20127112",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 161,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.15"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-005",
+      "claim_text": "Sốc tim liên quan đến suy tim ở trẻ em đòi hỏi chẩn đoán kịp thời, phân loại kiểu hình huyết động và dùng thuốc tăng co bóp cơ tim phù hợp: Surviving pediatric cardiogenic shock hinges on timely diagnosis, hemodynamic phenotyping, and tailored inotropic therapy. {claim:C-005} [ABSTRACT VERIFIED] (PMID: 42558062)",
+      "source_id": "42558062",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 272,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.30"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-004",
+      "claim_text": "Thang điểm Ross phân tầng suy tim ở trẻ nhũ nhi và trẻ nhỏ thành 4 mức độ dựa trên tần số thở, nhịp tim, mức độ khó thở khi bú và gan to: The Ross classification stratifies heart failure in infants and young children into four classes based on respiratory rate, heart rate, feeding difficulties, and hepatomegaly. {claim:C-004} [ABSTRACT VERIFIED] (PMID: 22476605)",
+      "source_id": "22476605",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 345,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.28"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-007",
+      "claim_text": "Quản lý nội khoa suy tim trẻ em kết hợp liệu pháp lợi tiểu để giảm ứ huyết tĩnh mạch phổi và tĩnh mạch hệ thống: Medical management of pediatric heart failure combines diuretic therapy to reduce pulmonary and systemic venous congestion. {claim:C-007} [ABSTRACT VERIFIED] (PMID: 33708503)",
+      "source_id": "33708503",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 373,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.24"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-006",
+      "claim_text": "Digoxin là thuốc trợ tim có khoảng điều trị hẹp và nguy cơ ngộ độc cao ở trẻ em đòi hỏi kiểm soát liều lượng thận trọng theo cân nặng: Digoxin is a cardiotonic agent with a narrow therapeutic window and a high risk of toxicity in pediatric patients requiring cautious weight-based dosing. {claim:C-006} [ABSTRACT VERIFIED] (PMID: 41599219)",
+      "source_id": "41599219",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 405,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.45"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    }
+  ],
+  "bundle_hash": "34f50e799522ae323dee7dd5d37b401ec8b0c2f6d3afd37b122db6b7bb463dc6"
+}
