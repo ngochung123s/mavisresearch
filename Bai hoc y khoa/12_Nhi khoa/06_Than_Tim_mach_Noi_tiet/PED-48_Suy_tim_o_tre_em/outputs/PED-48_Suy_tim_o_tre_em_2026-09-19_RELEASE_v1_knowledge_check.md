@@ -20,1009 +20,1057 @@ Critical miss:
 
 ## A. Closed-book recall
 
-1. Trình bày 4 yếu tố sinh lý quyết định cung lượng tim ở trẻ em?
+1. Trình bày định nghĩa và 4 đặc điểm chung của suy tim ở trẻ em?
 
 Trả lời: 
 
-2. Mô tả các cơ chế bù trừ ngoài tim khi xảy ra suy tim ở trẻ em?
+2. Trình bày 4 yếu tố đảm bảo cung lượng tim và các cơ chế bù trừ trong suy tim?
 
 Trả lời: 
 
-3. Trình bày 4 nhóm nguyên nhân chính gây suy tim ở trẻ em theo cơ chế huyết động?
+3. Trình bày 4 nhóm nguyên nhân gây suy tim ở trẻ em theo giáo trình?
 
 Trả lời: 
 
-4. Nêu các triệu chứng lâm sàng kinh điển của suy tim trái ở trẻ em?
+4. Trình bày triệu chứng lâm sàng và cận lâm sàng của suy tim trái?
 
 Trả lời: 
 
-5. Nêu các triệu chứng lâm sàng kinh điển của suy tim phải ở trẻ em?
+5. Trình bày triệu chứng lâm sàng và cận lâm sàng của suy tim phải?
 
 Trả lời: 
 
-6. Trình bày phân độ suy tim trẻ em theo lâm sàng Việt Nam (Độ 1 đến Độ 4)?
+6. Trình bày Bảng phân độ suy tim trẻ em Việt Nam (Độ 1 đến Độ 4)?
 
 Trả lời: 
 
-7. Trình bày phác đồ số hóa nhanh (Digitalization) liều tấn công Digoxin ở trẻ em?
+7. Trình bày phác đồ số hóa nhanh liều tấn công và liều duy trì của Digoxin?
 
 Trả lời: 
 
-8. Trình bày các bước cấp cứu ngộ độc Digoxin ở trẻ em?
+8. Trình bày các bước điều trị ngộ độc Digoxin và quy tắc bù kali?
 
 Trả lời: 
 
-9. Vì sao thở oxy nồng độ cao là chống chỉ định tương đối ở trẻ tim bẩm sinh shunt Trái - Phải lớn có suy tim?
-
-Trả lời: 
-
-10. Tại sao bệnh nhân suy tim đang dùng Furosemid lại có nguy cơ ngộ độc Digoxin rất cao?
+9. Chỉ ra điểm đính chính quan trọng về liều Norepinephrin và hình ảnh X-quang trong giáo trình gốc?
 
 Trả lời: 
 
 
 ## B. Thresholds and numbers
 
-1. Suy tim ở trẻ em là tình trạng tim không còn khả năng đảm bảo _____ đáp ứng nhu cầu chuyển hóa và oxy của cơ thể ở áp lực đổ đầy bình thường.
+1. [PEDYTB - Ôn thi] Định nghĩa suy tim ở trẻ em trong giáo trình là tình trạng tim không còn khả năng đảm bảo _____ đáp ứng nhu cầu của cơ thể.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-2. Theo thống kê kinh điển của Demopoulos và Sonnenblick, tỷ lệ tử vong trong vòng 5 năm đầu ở những bệnh nhân mới phát hiện suy tim là _____ nếu không được can thiệp nguyên nhân kịp thời.
+2. [PEDYTB - Ôn thi] Theo thống kê kinh điển của Demopoulos và Sonnenblick (1995) tại Mỹ trong giáo trình, số người suy tim ước tính lên đến _____ vào năm 2000 với _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-3. Ước tính tần suất mắc suy tim ở trẻ em tại Việt Nam dao động trong khoảng từ _____ dân số trẻ em.
+3. [PEDYTB - Ôn thi] Tại Việt Nam, tần suất suy tim ở trẻ em ước tính trong khoảng _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-4. Ở trẻ sơ sinh và trẻ nhũ nhi, suy tim thường có đặc điểm nổi bật là khởi phát dưới dạng _____.
+4. [PEDYTB - Ôn thi] Về tiên lượng, tỷ lệ tử vong ở những người suy tim nặng lên đến _____; ngay cả những người mới bị suy tim thì hơn một nửa sẽ chết trong vòng _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-5. Về mặt thể bệnh lâm sàng, suy tim ở trẻ em chủ yếu biểu hiện dưới hình thái _____.
+5. [PEDYTB - Ôn thi] Đặc điểm chung thứ nhất của suy tim trẻ em trong giáo trình là: Thường gặp _____ (hay gặp do viêm cầu thận cấp tăng HA, thiếu vitamin B1, ngộ độc giáp, viêm cơ tim virus, hẹp eo ĐMC, còn ống ĐM lớn).
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-6. Khác với người lớn, triệu chứng lâm sàng của suy tim ở trẻ nhũ nhi chủ yếu bộc lộ qua đường _____.
+6. [PEDYTB - Ôn thi] Đặc điểm chung thứ hai của suy tim trẻ em trong giáo trình là: Thể bệnh chủ yếu trên lâm sàng là _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-7. Dấu hiệu vã mồ hôi bệnh lý trong suy tim ở trẻ nhũ nhi có đặc điểm là vã mồ hôi lạnh, tập trung chủ yếu ở _____ và xuất hiện rõ nhất lúc _____.
+7. [PEDYTB - Ôn thi] Đặc điểm chung thứ ba của suy tim trẻ em trong giáo trình là: Suy tim từ từ mạn tính hay gặp do _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-8. Cung lượng tim (CO) được quyết định bởi 4 yếu tố cơ bản gồm: _____.
+8. [PEDYTB - Ôn thi] Đặc điểm chung thứ tư của suy tim trẻ em trong giáo trình là: Triệu chứng lâm sàng không giống người lớn mà chủ yếu biểu hiện bằng _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-9. Ở trẻ sơ sinh và trẻ nhũ nhi, do thể tích nhát bóp (SV) gần như cố định, cung lượng tim phụ thuộc chủ yếu vào _____.
+9. [PED - Lâm sàng] Theo hướng dẫn ISHLT 2025 cập nhật, suy tim trẻ em thứ phát sau bệnh cơ tim, bệnh tim mắc phải và tim bẩm sinh gắn liền với _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-10. Định nghĩa: Tiền gánh (Preload) của tâm thất là _____ của buồng tâm thất trước khi bắt đầu kỳ co bóp.
+10. [PED - Lâm sàng] Dấu hiệu vã mồ hôi bệnh lý trong suy tim ở trẻ nhũ nhi có đặc điểm là _____, tập trung chủ yếu ở _____ và xuất hiện rõ nhất lúc _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-11. Định nghĩa: Hậu gánh (Afterload) của tâm thất là _____ mà tâm thất phải vượt qua để tống máu vào đại động mạch.
+11. [PEDYTB - Ôn thi] Trong điều kiện bình thường, cung lượng tim được đảm bảo nhờ 4 yếu tố: _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-12. Khi tần số tim ở trẻ nhũ nhi tăng quá nhanh vượt ngưỡng _____, cung lượng tim sẽ sụt giảm do _____.
+12. [PEDYTB - Ôn thi] Giáo trình định nghĩa: Tiền gánh là _____ của tâm thất.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-13. Trong cơ chế bù trừ tại cơ tim, hiện tượng giãn sợi cơ ban đầu để đáp ứng với tình trạng tăng tiền gánh tuân theo _____.
+13. [PEDYTB - Ôn thi] Giáo trình định nghĩa: Hậu gánh là _____ với sức bóp của tâm thất.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-14. Trong suy tim mạn tính, đáp ứng phì đại tế bào cơ tim đồng tâm (Concentric Hypertrophy) thường xảy ra do _____.
+14. [PED - Lâm sàng] Ở trẻ sơ sinh và trẻ nhũ nhi, do thể tích nhát bóp (SV) gần như cố định, cung lượng tim phụ thuộc chủ yếu vào _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-15. Trong suy tim do tăng gánh thể tích (shunt Trái - Phải lớn), cơ tim đáp ứng bằng hình thái _____.
+15. [PED - Lâm sàng] Khi tần số tim ở trẻ nhũ nhi tăng quá nhanh vượt ngưỡng _____, cung lượng tim sẽ sụt giảm do _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-16. Hệ thần kinh giao cảm phản ứng sớm nhất trong suy tim bằng cách giải phóng hai chất dẫn truyền thần kinh chủ lực là _____.
+16. [PEDYTB - Ôn thi] Cơ chế bù trừ tại tim trong suy tim gồm 3 cơ chế: _____ để đáp ứng tiền gánh; _____; và _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-17. Hậu quả bất lợi lâu dài của việc hoạt hóa giao cảm liên tục trong suy tim là làm tăng hậu gánh thất trái và gây hiện tượng _____ thụ thể beta-1 adrenergic.
+17. [PED - Lâm sàng] Trong suy tim mạn tính, đáp ứng phì đại tế bào cơ tim đồng tâm (Concentric) thường do _____; trong khi phì đại lệch tâm (Eccentric) do _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-18. Khi áp lực tưới máu thận giảm, tế bào cạnh cầu thận sẽ tăng tiết enzyme _____, khởi động dòng thác kích hoạt trục RAAS.
+18. [PEDYTB - Ôn thi] Cơ chế bù trừ ngoài tim thứ nhất là hệ RAAS: Giảm tưới máu thận khởi động hệ _____ càng gây co mạch, ứ muối và nước.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-19. Enzyme chuyển Angiotensin (ACE) nằm chủ yếu ở _____, có nhiệm vụ chuyển Angiotensin I thành _____ có hoạt tính co mạch cực mạnh.
+19. [PEDYTB - Ôn thi] Cơ chế bù trừ ngoài tim thứ hai là: Ứ máu ở thành tâm nhĩ gây kích thích tăng tiết các yếu tố gây bài xuất natri qua nước tiểu (giáo trình ghi: _____).
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-20. Tác dụng của Angiotensin II tại vỏ thượng thận là kích thích lớp cầu tăng tổng hợp và bài tiết hormone _____.
+20. [PEDYTB - Ôn thi] Cơ chế bù trừ ngoài tim thứ ba trong suy tim là: Tăng khả năng _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-21. Khi thành tâm nhĩ bị căng giãn quá mức do ứ máu sung huyết, cơ tim tâm nhĩ sẽ tăng tiết hormone peptide có tên là _____.
+21. [PEDYTB - Ôn thi] Hậu quả của suy tim: Giảm cung lượng tim làm giảm oxy tới các mô và _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-22. Hậu quả huyết động của suy tim trái là gây tăng áp lực mao mạch phổi bít, dẫn đến _____.
+22. [PEDYTB - Ôn thi] Tăng áp lực tĩnh mạch ngoại vi gây hậu quả: Suy tim phải gây _____; Suy tim trái gây _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-23. Hậu quả huyết động của suy tim phải là gây ứ trệ tuần hoàn tĩnh mạch chủ, dẫn đến _____.
+23. [PEDYTB - Ôn thi] Nhóm nguyên nhân do tăng gánh thể tích (tăng tiền gánh) gồm: Bệnh tim bẩm sinh có shunt Trái - Phải (_____) và nguyên nhân suy tim sớm (_____).
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-24. Bệnh tim bẩm sinh có luồng shunt Trái - Phải lớn gây suy tim chủ yếu theo cơ chế _____.
+24. [PEDYTB - Ôn thi] Nhóm nguyên nhân do tăng gánh áp lực (tăng hậu gánh) gồm: Hẹp van ĐMC nặng, hẹp eo ĐMC nặng; các bệnh gây tắc tĩnh mạch phổi (_____); tăng áp ĐMP sơ sinh, hẹp van ĐMP gây suy tim phải.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-25. Bệnh hẹp van động mạch chủ nặng và hẹp eo động mạch chủ gây suy tim chủ yếu theo cơ chế _____.
+25. [PEDYTB - Ôn thi] Nhóm nguyên nhân tại cơ tim gồm: Viêm cơ tim (_____), bệnh cơ tim, bất thường động mạch vành trái (_____); ở trẻ sơ sinh có thể do rối loạn chuyển hóa (_____).
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-26. Hội chứng ALCAPA (Bland-White-Garland) là một nguyên nhân gây suy tim do tổn thương cơ tim, trong đó _____.
+26. [PED - Lâm sàng] Hội chứng ALCAPA (Bland-White-Garland) là dị tật động mạch vành trái xuất phát từ _____, khi sức cản phổi giảm sẽ gây hiện tượng _____ dẫn đến nhồi máu cơ tim ở trẻ nhũ nhi.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-27. Ở trẻ sơ sinh, các rối loạn chuyển hóa bẩm sinh có thể gây suy chức năng co bóp cơ tim cấp tính gồm: _____.
+27. [PED - Lâm sàng] Bệnh Beriberi thể ướt (Shoshin Beriberi) là nguyên nhân suy tim cấp cung lượng cao ở trẻ nhỏ do thiếu hụt _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-28. Bệnh Beriberi thể ướt (Shoshin Beriberi) là một nguyên nhân gây suy tim cấp cung lượng cao ở trẻ nhỏ do thiếu hụt _____.
+28. [PEDYTB - Ôn thi] Nhóm nguyên nhân do rối loạn nhịp tim gồm: Nhịp tim nhanh (_____); Nhịp tim chậm (_____); và các rối loạn nhịp tim khác.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-29. Nguyên nhân hàng đầu gây sốc tim và suy tim cấp tử vong ở trẻ từ 4 đến 12 tháng tuổi trước đó khỏe mạnh là _____.
+29. [PED - Lâm sàng] Block nhĩ thất hoàn toàn bẩm sinh ở trẻ sơ sinh thường có liên quan chặt chẽ đến mẹ mắc bệnh tự miễn có kháng thể _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-30. Block nhĩ thất hoàn toàn bẩm sinh (Congenital Complete Heart Block) ở trẻ sơ sinh thường có liên quan đến mẹ mắc bệnh tự miễn có kháng thể _____.
+30. [PED - Lâm sàng] Sốc tim ở trẻ sơ sinh trong tuần đầu sau sinh ngay khi ống động mạch đóng lại là dấu hiệu cảnh báo của _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-31. Dấu hiệu khó thở khi nằm phẳng và đỡ khó thở hơn khi ngồi hoặc bế đầu cao trong suy tim trái được gọi là _____.
+31. [PEDYTB - Ôn thi] Khám tim trong suy tim trái: Mỏm tim lệch trái, nhịp tim nhanh, có thể có tiếng _____; thường có tiếng thổi tâm thu ở mỏm do _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-32. Trong cơn phù phổi cấp (Acute Pulmonary Edema), khám phổi nghe thấy ran ẩm nhỏ hạt có đặc điểm _____.
+32. [PEDYTB - Ôn thi] Khám phổi trong suy tim trái: Thường thấy _____; cơn hen tim có _____; trong phù phổi cấp có ran ẩm to nhỏ hạt dâng như _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-33. Tiếng ngựa phi (Gallop T3) nghe rõ ở mỏm tim trong suy tim trái được phát sinh do _____.
+33. [PEDYTB - Ôn thi] Huyết áp trong suy tim trái có đặc điểm: Huyết áp tối đa (tâm thu) _____ nhưng tối thiểu (tâm trương) lại _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-34. Đặc điểm gan to trong suy tim phải giai đoạn đầu được mô tả là kiểu _____.
+34. [PEDYTB - Ôn thi] X-quang ngực trong suy tim trái: Tim to, nhất là tim trái; cả hai rốn phổi mờ, có thể gặp _____ hoặc hình _____ ở rốn phổi.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-35. Dấu hiệu phản hồi gan - tĩnh mạch cổ (Hepatojugular Reflux) được coi là dương tính khi _____.
+35. [PEDYTB - Ôn thi] Triệu chứng thực thể của suy tim phải: Gan to (lúc đầu kiểu _____, sau cứng không nhỏ); tĩnh mạch cổ nổi và phản hồi gan - TM cổ (+); tăng áp lực CVP; tím; phù (lúc đầu hai chi dưới, sau toàn thân/đa màng); đái ít sẫm màu; dấu hiệu _____; huyết áp tối đa bình thường, tối thiểu _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-36. Dấu hiệu Hartzer dương tính trên lâm sàng là cảm giác _____.
+36. [PEDYTB - Đính chính]: Phim X-quang nghiêng trái trong suy tim phải bản in gốc ghi nhầm 'thất trái giãn làm khoảng sáng sau tim hẹp lại', thực tế lâm sàng chuẩn xác là _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-37. Hội chứng suy tuần hoàn ngoại vi cấp tính trong sốc tim biểu hiện bằng thời gian đổ đầy mao mạch (CRT) kéo dài _____.
+37. [PEDYTB - Ôn thi] Bệnh cảnh suy tim cấp ở trẻ em: Thường gặp suy tim trái hoặc toàn bộ tiến triển nhanh chóng, bệnh cảnh giống như _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-38. Chỉ số tim - ngực (Cardiothoracic Ratio - CTR) trên phim X-quang ngực thẳng được coi là tim to khi: Trẻ sơ sinh CTR > _____; Trẻ nhũ nhi CTR > _____; Trẻ lớn CTR > _____.
+38. [PEDYTB - Ôn thi] Triệu chứng suy tuần hoàn ngoại vi trong suy tim cấp: Tinh thần kích thích vật vã; trẻ tái nhợt, chi lạnh, vã mồ hôi, vân tím; mạch nhanh nhỏ khó bắt; thời gian CRT _____; huyết áp _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-39. Hình ảnh đường Kerley B trên phim X-quang tim phổi thẳng của bệnh nhân suy tim là các đường mờ ngắn nằm ngang ở góc sườn hoành, phản ánh tình trạng _____.
+39. [PEDYTB - Ôn thi] Triệu chứng suy tim từ từ (suy tim mạn) ở trẻ nhũ nhi: Toàn thân (mệt mỏi, khóc yếu); Hô hấp (thở nhanh, thở rên, co kéo); Dinh dưỡng & tiêu hóa (_____); Ứ trệ (TM cổ nổi, gan to, phù, đái ít).
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-40. Trên siêu âm tim, phân suất tống máu thất trái (LVEF theo phương pháp Simpson) được coi là suy giảm nặng khi LVEF đạt dưới mức _____ (bình thường ≥ 55-60%).
+40. [PED - Lâm sàng] Chỉ số tim - ngực (CTR) trên phim X-quang ngực thẳng được coi là tim to bệnh lý khi: Trẻ sơ sinh CTR > _____; Trẻ nhũ nhi CTR > _____; Trẻ lớn CTR > _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-41. Chỉ dấu sinh học peptide lợi niệu _____ huyết thanh tăng cao vượt trội giúp bác sĩ cấp cứu phân biệt chính xác khó thở do suy tim với khó thở do viêm tiểu phế quản cấp.
+41. [PED - Lâm sàng] Trên siêu âm tim Doppler theo Simpson biplane, phân suất tống máu thất trái (LVEF) được phân độ: Bình thường LVEF ≥ 55-60%; Suy tim nhẹ LVEF _____; Suy tim vừa LVEF _____; Suy tim nặng LVEF _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-42. Theo phân độ lâm sàng suy tim trẻ em Việt Nam, Suy tim Độ 1 được đặc trưng bởi: Khó thở _____; Kích thước gan dưới sườn phải _____; _____.
+42. [PED - Lâm sàng] Chỉ dấu sinh học peptide lợi niệu _____ huyết thanh tăng cao vượt trội giúp bác sĩ cấp cứu phân biệt chính xác khó thở do suy tim với khó thở do viêm tiểu phế quản cấp.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-43. Theo phân độ lâm sàng suy tim trẻ em Việt Nam, Suy tim Độ 2 được đặc trưng bởi: Khó thở _____; Kích thước gan dưới sườn phải _____; _____.
+43. [PEDYTB - Ôn thi] Đánh giá mức độ suy tim theo NYHA gồm 4 độ: Độ I (có bệnh tim nhưng _____); Độ II (triệu chứng chỉ xuất hiện khi _____); Độ III (triệu chứng xuất hiện cả khi _____); Độ IV (triệu chứng xuất hiện _____).
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-44. Theo phân độ lâm sàng suy tim trẻ em Việt Nam, Suy tim Độ 3 được đặc trưng bởi: Khó thở nặng co kéo; Gan to _____ nhưng _____; Tiên lượng _____.
+44. [PEDYTB - Ôn thi] Bảng phân độ suy tim trẻ em Việt Nam - Độ 1: Khó thở _____; Kích thước gan _____; Phù _____; Nước tiểu _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-45. Theo phân độ lâm sàng suy tim trẻ em Việt Nam, Suy tim Độ 4 được đặc trưng bởi: Khó thở nặng liên tục; Gan to mạn tính _____; Tiên lượng _____.
+45. [PEDYTB - Ôn thi] Bảng phân độ suy tim trẻ em Việt Nam - Độ 2: Khó thở _____; Kích thước gan _____; Phù _____; Nước tiểu _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-46. Thang điểm Ross cải tiến lượng hóa mức độ suy tim ở trẻ dưới 1 tuổi dựa trên 7 tiêu chí lâm sàng gồm: _____.
+46. [PEDYTB - Ôn thi] Bảng phân độ suy tim trẻ em Việt Nam - Độ 3: Khó thở _____; Kích thước gan _____; Phù _____; Nước tiểu _____; Tiên lượng _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-47. Phân loại chức năng suy tim theo Hội Tim mạch New York (NYHA) chủ yếu được áp dụng cho đối tượng _____ (do đòi hỏi đánh giá mức độ hạn chế hoạt động thể lực gắng sức).
+47. [PEDYTB - Ôn thi] Bảng phân độ suy tim trẻ em Việt Nam - Độ 4: Khó thở _____; Kích thước gan _____; Phù _____; Nước tiểu _____; Tiên lượng _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-48. Tư thế nằm đầu cao tối ưu cho bệnh nhi suy tim nặng là tư thế _____.
+48. [PED - Lâm sàng] Thang điểm Ross cải tiến lượng hóa mức độ suy tim ở trẻ dưới 1 tuổi dựa trên 7 tiêu chí: _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-49. Chế độ ăn hạn chế muối (ăn nhạt) ở trẻ suy tim nặng đòi hỏi kiểm soát lượng muối đưa vào dưới mức _____ (tương đương dưới 0,5 g Natri/ngày).
+49. [PED - Lâm sàng] Trong thang điểm Ross cải tiến, tiêu chí lượng sữa bú mỗi cữ được tính 2 điểm khi giảm xuống mức _____ (bình thường > 100 mL/cữ tính 0 điểm).
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-50. Trong giai đoạn suy tim cấp có phù to và thiểu niệu, lượng dịch đưa vào cơ thể cần được hạn chế ở mức _____.
+50. [PED - Lâm sàng] Trong thang điểm Ross cải tiến, thời gian mỗi cữ bú ở trẻ nhũ nhi được tính 2 điểm khi thời gian cữ bú kéo dài vượt quá _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-51. Thuốc lợi tiểu quai đầu tay điều trị suy tim cấp ở trẻ em là _____, với liều tiêm tĩnh mạch thông thường từ _____ (tối đa 6 mg/kg/ngày).
+51. [PEDYTB - Ôn thi] Chế độ ăn nhạt (hạn chế muối) trong suy tim theo giáo trình: Suy tim nhẹ giảm muối _____; Suy tim nặng ăn nhạt gần như hoàn toàn _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-52. Hai tác dụng phụ rối loạn điện giải thường gặp nhất và nguy hiểm nhất khi sử dụng Furosemid liều cao kéo dài là _____.
+52. [PED - Lâm sàng] Tư thế nằm đầu cao tối ưu cho bệnh nhi suy tim nặng là tư thế _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-53. Thuốc lợi tiểu kháng Aldosterone _____ có liều dùng từ _____ uống chia 1-2 lần.
+53. [PED - Lâm sàng] Trong giai đoạn suy tim cấp có phù to và thiểu niệu, lượng dịch đưa vào cơ thể cần được hạn chế ở mức _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-54. Thuốc ức chế men chuyển đầu tay thường dùng ở trẻ nhỏ là _____, với liều khởi đầu thăm dò từ _____ uống ngày 3 lần trước bữa ăn.
+54. [PEDYTB - Ôn thi] Liều dùng thuốc lợi tiểu quai Furosemid theo giáo trình là _____; chú ý cần đề phòng _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-55. Captopril nên được cho trẻ uống vào thời điểm _____ để đảm bảo thuốc được hấp thu tối đa qua đường tiêu hóa.
+55. [PEDYTB - Ôn thi] Liều dùng thuốc lợi tiểu Thiazide theo giáo trình là _____; chú ý _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-56. Hai thông số xét nghiệm bắt buộc phải kiểm tra lại sau 1 đến 2 tuần bắt đầu dùng hoặc tăng liều thuốc ức chế men chuyển là _____.
+56. [PEDYTB - Ôn thi] Liều dùng thuốc lợi tiểu Spironolacton theo giáo trình là _____; Liều dùng Triamteren là _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-57. Thuốc chẹn beta giao cảm được khuyến cáo hàng đầu trong suy tim mạn tính ở trẻ em là _____, với liều bắt đầu cực thấp từ _____ ngày 2 lần.
+57. [PED - Lâm sàng] Trong điều trị suy tim trẻ em bằng Furosemid đường uống, sinh khả dụng chỉ đạt khoảng 50% so với đường tiêm tĩnh mạch, do đó liều uống thường _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-58. Nguyên tắc bất di bất dịch khi chỉ định Carvedilol cho trẻ suy tim là _____ và chỉ bắt đầu khi _____.
+58. [PED - Lâm sàng] Hiện tượng kháng thuốc lợi tiểu (Diuretic Resistance) được khắc phục bằng chiến lược phong bế nephron tuần tự, phối hợp Furosemid với _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-59. Thuốc inotrope ức chế enzyme Phosphodiesterase-3 được ưu tiên hàng đầu trong suy tim cấp có huyết áp còn ổn định là _____, với liều truyền duy trì từ _____.
+59. [PEDYTB - Ôn thi] Tác dụng của Glycosid trợ tim (Digoxin) trên tim gồm 4 tác dụng: Làm tăng _____; làm chậm _____; làm chậm _____; làm tăng _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-60. Ở bệnh nhân suy tim cấp có huyết áp tâm thu còn thấp hoặc ranh giới, khi bắt đầu truyền Milrinone nên _____ để phòng ngừa nguy cơ tụt huyết áp cấp tính.
+60. [PEDYTB - Ôn thi] Liều tấn công số hóa nhanh của Digoxin theo giáo trình là _____ chia làm 3 lần cách nhau 8 giờ theo tỷ lệ: Lần 1 uống _____; Lần 2 (sau 8h) uống _____; Lần 3 (sau 8h tiếp) uống _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-61. Thuốc tăng co bóp cơ tim Catecholamine kinh điển _____ có liều truyền tĩnh mạch liên tục từ _____.
+61. [PEDYTB - Ôn thi] Liều duy trì của Digoxin theo giáo trình là _____ chia làm _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-62. Thuốc vận mạch _____ ở dải liều inotrope tăng co bóp cơ tim là _____; trong khi ở dải liều cao co mạch tăng huyết áp là _____.
+62. [PED - Lâm sàng] Ở trẻ sơ sinh non tháng hoặc bệnh nhi có suy giảm chức năng thận, tổng liều tấn công số hóa Digoxin cần được giảm bớt _____ xuống còn _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-63. Thuốc giãn mạch trực tiếp truyền tĩnh mạch _____ có liều dùng từ _____ (tối đa 8 µg/kg/phút).
+63. [PED - Lâm sàng] Khi chuyển đổi thuốc Digoxin từ đường uống sang đường tiêm tĩnh mạch, liều tiêm tĩnh mạch chỉ bằng _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-64. Cơ chế phân tử của Digoxin là gắn và ức chế chọn lọc bơm _____ trên màng tế bào cơ tim.
+64. [PED - Lâm sàng] Nồng độ trị liệu an toàn của Digoxin trong huyết thanh nằm trong khoảng hẹp từ _____ (nguy cơ ngộ độc tăng vọt khi nồng độ > 1,2 - 2,0 ng/mL).
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-65. Bốn tác dụng điện sinh lý kinh điển của Digoxin trên tim gồm: _____.
+65. [PEDYTB - Ôn thi] Yếu tố thuận lợi gây ngộ độc Digoxin theo giáo trình gồm: Quá liều, suy thận, rối loạn điện giải như _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-66. Quy trình số hóa nhanh (Digitalization) liều tấn công Digoxin đường uống ở trẻ nhỏ có tổng liều từ _____, được chia làm 3 lần trong 24 giờ theo tỷ lệ _____ (cách nhau mỗi 8 giờ).
+66. [PEDYTB - Ôn thi] Triệu chứng lâm sàng ngộ độc Digoxin theo giáo trình: Tiêu hóa (_____); Thần kinh - thị giác (_____); Tim mạch (_____).
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-67. Liều duy trì Digoxin đường uống hàng ngày ở trẻ em là từ _____ chia làm 2 lần cách nhau mỗi 12 giờ.
+67. [PEDYTB - Ôn thi] Điện tâm đồ trong ngộ độc Digoxin theo giáo trình: Khoảng PR kéo dài (PQ kéo dài); ngoại tâm thu thất (nhất là _____); nhịp nhanh trên thất kèm block AV; rung thất; dấu hiệu 'ngấm digitalis' là _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-68. Nồng độ trị liệu an toàn của Digoxin trong huyết thanh nằm trong khoảng hẹp từ _____ (nguy cơ ngộ độc tăng vọt khi nồng độ > 1,2 - 2,0 ng/mL).
+68. [PEDYTB - Ôn thi] Năm bước điều trị ngộ độc Digoxin theo giáo trình: 1. _____; 2. _____; 3. _____; 4. _____; 5. _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-69. Yếu tố rối loạn điện giải nguy hiểm nhất thúc đẩy bùng phát ngộ độc Digoxin dù ở liều điều trị chuẩn là _____.
+69. [PEDYTB - Ôn thi] Quy tắc bù kali trong điều trị ngộ độc Digoxin theo giáo trình: Uống hoặc truyền dung dịch có kali với nồng độ _____ với tốc độ tối đa _____ (chống chỉ định nếu có _____).
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-70. Triệu chứng sớm nhất cảnh báo ngộ độc Digoxin ở trẻ nhỏ trên đường tiêu hóa là _____.
+70. [PED - Lâm sàng] Thuốc chống loạn nhịp hàng đầu được lựa chọn để điều trị loạn nhịp thất do ngộ độc Digoxin ở trẻ em là _____ hoặc _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-71. Triệu chứng ngộ độc Digoxin trên thị giác ở trẻ lớn là nhìn mờ, sợ ánh sáng và hiện tượng _____.
+71. [PED - Lâm sàng] Thuốc đặc trị giải độc đặc hiệu duy nhất trong ngộ độc Digoxin nặng đe dọa tính mạng là _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-72. Dấu hiệu 'ngấm Digitalis' đơn thuần trên điện tâm đồ (chưa phải là ngộ độc) là hình ảnh _____ ở các chuyển đạo có sóng R cao.
+72. [PED - Lâm sàng] Công thức ước tính số lọ kháng thể DigiFab cần dùng khi biết nồng độ Digoxin huyết thanh là: Số lọ Fab = _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-73. Dấu hiệu rối loạn nhịp tim đặc trưng nhất và gợi ý cao nhất của ngộ độc Digoxin trên điện tâm đồ là _____ hoặc _____.
+73. [PED - Lâm sàng] Ở bệnh nhân ngộ độc Digoxin xuất hiện loạn nhịp tim, thủ thuật _____ bị CHỐNG CHỈ ĐỊNH tương đối vì có thể kích hoạt rung thất trơ không thể hồi phục.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-74. Bước đầu tiên mang tính sống còn khi nghi ngờ bệnh nhân bị ngộ độc Digoxin là _____ và _____.
+74. [PEDYTB - Ôn thi] Liều truyền tĩnh mạch liên tục của Dopamin theo giáo trình là _____; Liều của Dobutamin là _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-75. Trong điều trị ngộ độc Digoxin, nguyên tắc bù Kali tĩnh mạch là pha dịch truyền có nồng độ KCl không vượt quá _____ và tốc độ truyền tối đa không quá _____.
+75. [PEDYTB - Đính chính]: Bản in giáo trình gốc in nhầm đơn vị Norepinephrin là '0,25 - 1 mg/kg/phút', thực tế lâm sàng bắt buộc phải là _____ truyền tĩnh mạch.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-76. Thuốc chống loạn nhịp hàng đầu được lựa chọn để điều trị loạn nhịp thất do ngộ độc Digoxin ở trẻ em là _____ hoặc _____.
+76. [PEDYTB - Ôn thi] Liều dùng các thuốc giãn mạch theo giáo trình: Nitroprusside _____ (truyền TM chậm bọc giấy bạc); Hydralazine _____ chia 3 lần; Prazosine ban đầu _____, duy trì _____ chia 4 lần; Captopril _____ chia 3 lần.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-77. Thuốc đặc trị giải độc đặc hiệu duy nhất trong ngộ độc Digoxin nặng đe dọa tính mạng là _____.
+77. [PED - Lâm sàng] Thuốc ức chế men chuyển Captopril nên được cho trẻ uống vào thời điểm _____ để đảm bảo thuốc được hấp thu tối đa.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-78. Ở bệnh nhân ngộ độc Digoxin xuất hiện loạn nhịp tim, thủ thuật _____ bị CHỐNG CHỈ ĐỊNH tương đối vì có thể kích hoạt rung thất trơ không thể hồi phục.
+78. [PED - Lâm sàng] Thuốc inotrope ức chế enzyme Phosphodiesterase-3 được ưu tiên hàng đầu trong suy tim cấp có huyết áp còn ổn định là _____, với liều truyền duy trì từ _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-79. Thuốc giãn mạch đường uống ức chế trực tiếp cơ trơn tiểu động mạch _____ có liều dùng từ _____ chia làm 3 đến 4 lần.
+79. [PED - Lâm sàng] Ở bệnh nhân suy tim cấp có huyết áp tâm thu còn thấp hoặc ranh giới, khi bắt đầu truyền Milrinone nên _____ để phòng ngừa nguy cơ tụt huyết áp cấp tính.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-80. Thuốc chẹn thụ thể alpha-1 adrenergic đường uống _____ có liều khởi đầu thăm dò từ _____, sau đó tăng dần theo đáp ứng huyết áp.
+80. [PED - Lâm sàng] Thuốc chẹn beta giao cảm được khuyến cáo hàng đầu trong suy tim mạn tính ở trẻ em là _____, với liều bắt đầu cực thấp từ _____ ngày 2 lần.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-81. Thuốc lợi tiểu giữ Kali ức chế trực tiếp kênh Natri biểu mô ở ống lượn xa và ống góp không phụ thuộc Aldosterone là _____, với liều dùng từ _____.
+81. [PED - Lâm sàng] Nguyên tắc bất di bất dịch khi chỉ định Carvedilol cho trẻ suy tim là _____ và chỉ bắt đầu khi _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-82. Trong điều trị suy tim trẻ em bằng Furosemid đường uống, sinh khả dụng chỉ đạt khoảng 50% so với đường tiêm tĩnh mạch, do đó liều uống thường _____.
+82. [PEDYTB - Ôn thi] Các biện pháp phòng bệnh suy tim theo giáo trình gồm: 1. Giải quyết sớm nguyên nhân và yếu tố thuận lợi; 2. Phòng tim bẩm sinh (_____); 3. Quản lý và điều trị dự phòng viêm họng liên cầu để _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-83. Hiện tượng kháng thuốc lợi tiểu (Diuretic Resistance) trong suy tim tiến triển được khắc phục bằng chiến lược phong bế nephron tuần tự (Sequential Nephron Blockade), phối hợp Furosemid với _____.
+83. [PED - Lâm sàng] Sai lầm chết người thường gặp ở trẻ suy tim thở nhanh kèm ran ẩm ở phổi là chẩn đoán nhầm thành _____ và điều trị bằng kháng sinh kéo dài vô ích.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-84. Công thức ước tính số lọ kháng thể DigiFab cần dùng trong ngộ độc Digoxin cấp tính khi biết nồng độ máu là: Số lọ Fab = _____.
+84. [PED - Lâm sàng] Ở trẻ tim bẩm sinh có luồng shunt Trái - Phải lớn (như VSD lớn), việc cho thở oxy nồng độ cao (FiO2 100%) là sai lầm nguy hiểm vì _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-85. Tiêu chuẩn điện tâm đồ chẩn đoán dày tâm thất phải ở trẻ nhũ nhi bao gồm: Trục điện tim chuyển sang _____; Sóng R ưu thế ở _____; và sóng T _____.
+85. [PED - Lâm sàng] Quy tắc điều dưỡng an toàn trước khi cho trẻ uống Digoxin là phải dùng ống nghe đếm nhịp tim ở mỏm trọn vẹn 1 phút; tạm dừng thuốc ngay nếu nhịp tim dưới _____ ở trẻ nhũ nhi hoặc dưới _____ ở trẻ lớn.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-86. Tiêu chuẩn điện tâm đồ dày tâm thất trái ở trẻ em được xác định khi chỉ số Sokolow-Lyon (biên độ sóng S ở V1 cộng biên độ sóng R ở V5 hoặc V6) vượt quá _____.
+86. [PED - Lâm sàng] Để tránh hiện tượng tụt huyết áp tư thế phối hợp đột ngột, thuốc ức chế men chuyển Captopril nên được cho uống cách thời điểm tiêm hoặc uống Furosemid ít nhất _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-87. Trên siêu âm tim Doppler, vận tốc tối đa của dòng hở van ba lá (V_TR) cho phép ước tính áp lực động mạch phổi tâm thu (PASP) thông qua phương trình Bernoulli cải tiến: PASP = _____.
+87. [PED - Lâm sàng] Ở bệnh nhi suy tim nặng đang điều trị nội khoa, việc cân trẻ mỗi sáng giúp phát hiện sớm tình trạng ứ dịch nếu cân nặng tăng đột ngột trên _____ ở trẻ nhũ nhi.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-88. Trong thang điểm Ross cải tiến, tiêu chí lượng sữa bú mỗi cữ của trẻ nhũ nhi được tính 2 điểm khi lượng sữa giảm xuống mức _____ (hoặc bú không đủ no).
+88. [PED - Lâm sàng] Khi theo dõi trẻ suy tim cấp được truyền thuốc tăng co bóp inotrope, lượng nước tiểu qua sonde tiểu lưu cần được đo mỗi giờ và duy trì đạt đích tối thiểu trên _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-89. Trong thang điểm Ross cải tiến, thời gian mỗi cữ bú ở trẻ nhũ nhi được tính 2 điểm khi thời gian cữ bú kéo dài vượt quá _____.
+89. Trình bày định nghĩa và 4 đặc điểm chung của suy tim ở trẻ em?
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-90. Trong thang điểm Ross cải tiến, tiêu chí kích thước gan to dưới bờ sườn phải được tính 2 điểm khi bờ dưới gan vượt quá _____.
+90. Trình bày 4 yếu tố đảm bảo cung lượng tim và các cơ chế bù trừ trong suy tim?
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-91. Trình bày 4 yếu tố sinh lý quyết định cung lượng tim ở trẻ em?
+91. Trình bày 4 nhóm nguyên nhân gây suy tim ở trẻ em theo giáo trình?
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-92. Mô tả các cơ chế bù trừ ngoài tim khi xảy ra suy tim ở trẻ em?
+92. Trình bày triệu chứng lâm sàng và cận lâm sàng của suy tim trái?
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-93. Trình bày 4 nhóm nguyên nhân chính gây suy tim ở trẻ em theo cơ chế huyết động?
+93. Trình bày triệu chứng lâm sàng và cận lâm sàng của suy tim phải?
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-94. Nêu các triệu chứng lâm sàng kinh điển của suy tim trái ở trẻ em?
+94. Trình bày Bảng phân độ suy tim trẻ em Việt Nam (Độ 1 đến Độ 4)?
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-95. Nêu các triệu chứng lâm sàng kinh điển của suy tim phải ở trẻ em?
+95. Trình bày phác đồ số hóa nhanh liều tấn công và liều duy trì của Digoxin?
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-96. Trình bày phân độ suy tim trẻ em theo lâm sàng Việt Nam (Độ 1 đến Độ 4)?
+96. Trình bày các bước điều trị ngộ độc Digoxin và quy tắc bù kali?
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-97. Trình bày phác đồ số hóa nhanh (Digitalization) liều tấn công Digoxin ở trẻ em?
+97. Chỉ ra điểm đính chính quan trọng về liều Norepinephrin và hình ảnh X-quang trong giáo trình gốc?
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-98. Trình bày các bước cấp cứu ngộ độc Digoxin ở trẻ em?
+98. [PED - Lâm sàng] Thuốc lợi tiểu Thiazide thường dùng duy trì ở trẻ em là _____, với liều lượng từ _____ uống chia làm 2 lần.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-99. Vì sao thở oxy nồng độ cao là chống chỉ định tương đối ở trẻ tim bẩm sinh shunt Trái - Phải lớn có suy tim?
+99. [PED - Lâm sàng] Trong điều trị kháng thuốc lợi tiểu ở trẻ suy tim nặng, thuốc lợi tiểu thiazide-like đường uống thường được phối hợp với Furosemid là _____, với liều dùng từ _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-100. Tại sao bệnh nhân suy tim đang dùng Furosemid lại có nguy cơ ngộ độc Digoxin rất cao?
+100. [PED - Lâm sàng] Bên cạnh tác dụng lợi tiểu giữ Kali, Spironolacton còn có vai trò bảo vệ tim mạch lâu dài quan trọng là _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-101. Thuốc lợi tiểu Thiazide thường dùng duy trì ở trẻ em là _____, với liều lượng từ _____ uống chia làm 2 lần.
+101. [PED - Lâm sàng] Thuốc ức chế men chuyển tác dụng kéo dài dùng cho trẻ lớn có thể uống 1 đến 2 lần mỗi ngày là _____, với liều duy trì từ _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-102. Trong điều trị kháng thuốc lợi tiểu ở trẻ suy tim nặng, thuốc lợi tiểu thiazide-like đường uống thường được phối hợp với Furosemid là _____, với liều dùng từ _____.
+102. [PED - Lâm sàng] Mục tiêu liều đích duy trì của thuốc chẹn beta Carvedilol trong điều trị suy tim mạn tính ở trẻ em là _____ (chia làm 2 lần uống).
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-103. Bên cạnh tác dụng lợi tiểu giữ Kali, Spironolacton còn có vai trò bảo vệ tim mạch lâu dài quan trọng là _____.
+103. [PED - Lâm sàng] Cơ chế phân tử của Milrinone là ức chế enzyme Phosphodiesterase-3 (PDE-3), dẫn đến làm tăng nồng độ chất truyền tin thứ hai _____ bên trong tế bào cơ tim và cơ trơn mạch máu.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-104. Thuốc ức chế men chuyển tác dụng kéo dài dùng cho trẻ lớn có thể uống 1 đến 2 lần mỗi ngày là _____, với liều duy trì từ _____.
+104. [PED - Lâm sàng] Thuốc tăng co bóp cơ tim Dobutamin tác động kích thích chủ yếu và chọn lọc lên thụ thể _____ trên màng tế bào cơ tim.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-105. Mục tiêu liều đích duy trì của thuốc chẹn beta Carvedilol trong điều trị suy tim mạn tính ở trẻ em là _____ (chia làm 2 lần uống).
+105. [PED - Lâm sàng] Thuốc vận mạch Dopamin ở dải liều thấp (1 đến 3 µg/kg/phút) kích thích chọn lọc lên thụ thể _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-106. Cơ chế phân tử của Milrinone là ức chế enzyme Phosphodiesterase-3 (PDE-3), dẫn đến làm tăng nồng độ chất truyền tin thứ hai _____ bên trong tế bào cơ tim và cơ trơn mạch máu.
+106. [PED - Lâm sàng] Thuốc vận mạch co mạch đầu tay được lựa chọn khi suy tim cấp có tụt huyết áp nặng trơ với Dopamin và Dobutamin là _____ với liều truyền từ _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-107. Thuốc tăng co bóp cơ tim Dobutamin tác động kích thích chủ yếu và chọn lọc lên thụ thể _____ trên màng tế bào cơ tim.
+107. [PED - Lâm sàng] Khi truyền Nitroprusside kéo dài trên 48 đến 72 giờ hoặc ở bệnh nhân có suy giảm chức năng thận, cần cảnh giác nguy cơ ngộ độc chuyển hóa do tích lũy _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-108. Thuốc vận mạch Dopamin ở dải liều thấp (1 đến 3 µg/kg/phút) kích thích chọn lọc lên thụ thể _____.
+108. [PED - Lâm sàng] Triệu chứng ngộ độc Digoxin trên thị giác ở trẻ lớn có hiện tượng nhìn thấy quầng màu vàng hoặc màu xanh lá cây quanh nguồn sáng, thuật ngữ y khoa gọi là _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-109. Thuốc vận mạch co mạch đầu tay được lựa chọn khi suy tim cấp có tụt huyết áp nặng trơ với Dopamin và Dobutamin là _____ với liều truyền từ _____.
+109. [PED - Lâm sàng] Rối loạn nhịp tim được coi là đặc trưng nhất và gợi ý cao nhất cho ngộ độc Digitalis trên điện tâm đồ là _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-110. Khi truyền Nitroprusside kéo dài trên 48 đến 72 giờ hoặc ở bệnh nhân có suy giảm chức năng thận, cần cảnh giác nguy cơ ngộ độc chuyển hóa do tích lũy _____.
+110. [PED - Lâm sàng] Kháng thể DigiFab trung hòa độc tính của Digoxin bằng cách gắn kết với phân tử Digoxin tự do với ái lực cao hơn thụ thể Na+/K+-ATPase của cơ tim tới _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-111. Ở trẻ sơ sinh non tháng hoặc bệnh nhi có suy giảm chức năng thận, tổng liều tấn công số hóa Digoxin cần được giảm bớt _____ xuống còn _____.
+111. [PED - Lâm sàng] Thở áp lực dương liên tục (CPAP) trong suy tim cấp có ứ huyết phổi giúp cải thiện chức năng thất trái nhờ cơ chế _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-112. Khi chuyển đổi thuốc Digoxin từ đường uống sang đường tiêm tĩnh mạch, liều tiêm tĩnh mạch chỉ bằng _____.
+112. [PED - Lâm sàng] Trong thang điểm Ross cải tiến, tiêu chí tần số tim lúc nghỉ ngơi được tính 2 điểm khi tần số tim tăng cao hơn bình thường theo tuổi trên _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-113. Triệu chứng ngộ độc Digoxin trên thị giác ở trẻ lớn có hiện tượng nhìn thấy quầng màu vàng hoặc màu xanh lá cây quanh nguồn sáng, thuật ngữ y khoa gọi là _____.
+113. [PED - Lâm sàng] Trong thang điểm Ross cải tiến, tiêu chí tần số thở lúc nghỉ ngơi được tính 2 điểm khi tần số thở tăng cao hơn giới hạn bình thường theo tuổi trên _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-114. Các triệu chứng ngộ độc Digoxin trên đường tiêu hóa thường xuất hiện sớm nhất bao gồm: _____.
+114. [PED - Lâm sàng] Trong thang điểm Ross cải tiến, tiêu chí kích thước gan to dưới bờ sườn phải được tính 2 điểm khi bờ dưới gan vượt quá _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-115. Rối loạn nhịp tim được coi là đặc trưng nhất và gợi ý cao nhất cho ngộ độc Digitalis trên điện tâm đồ là _____.
+115. [PED - Lâm sàng] Đường Kerley B trên X-quang ngực thẳng là các đường mờ mảnh dài 1 đến 2 cm nằm ngang sát màng phổi ở góc sườn hoành, hình thành do _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-116. Kháng thể DigiFab trung hòa độc tính của Digoxin bằng cách gắn kết với phân tử Digoxin tự do với ái lực cao hơn thụ thể Na+/K+-ATPase của cơ tim tới _____.
+116. [PED - Lâm sàng] Tiêu chuẩn điện tâm đồ dày tâm thất phải ở trẻ nhũ nhi bao gồm: Trục điện tim chuyển sang _____; Sóng R ưu thế ở _____; và sóng T _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-117. Trong xử trí cơn phù phổi cấp do suy tim trái, tư thế nằm đầu cao Fowler góc 30 đến 45 độ giúp làm giảm tải lượng máu tĩnh mạch hồi lưu từ hai chi dưới về buồng tim phải theo cơ chế _____.
+117. [PED - Lâm sàng] Tiêu chuẩn điện tâm đồ dày tâm thất trái ở trẻ em được xác định khi chỉ số Sokolow-Lyon (biên độ sóng S ở V1 cộng biên độ sóng R ở V5 hoặc V6) vượt quá _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-118. Thở áp lực dương liên tục (CPAP) trong suy tim cấp có ứ huyết phổi giúp cải thiện chức năng thất trái nhờ cơ chế _____.
+118. [PED - Lâm sàng] Trên siêu âm tim Doppler, vận tốc tối đa của dòng hở van ba lá (V_TR) cho phép ước tính áp lực động mạch phổi tâm thu (PASP) thông qua phương trình Bernoulli cải tiến: PASP = _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-119. Trong thang điểm Ross cải tiến, tiêu chí tần số tim lúc nghỉ ngơi được tính 2 điểm khi tần số tim tăng cao hơn bình thường theo tuổi trên _____.
+119. [PED - Lâm sàng] Trong Case 1 viêm cơ tim cấp gây sốc tim ở trẻ 8 tháng, phân suất tống máu LVEF giảm nặng xuống 28%, thuốc tăng co bóp inotrope đường truyền TM phối hợp đầu tay là _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-120. Trong thang điểm Ross cải tiến, tiêu chí tần số thở lúc nghỉ ngơi được tính 2 điểm khi tần số thở tăng cao hơn giới hạn bình thường theo tuổi trên _____.
+120. [PED - Lâm sàng] Trong Case 1 viêm cơ tim cấp, liệu pháp miễn dịch đặc hiệu liều cao giúp trung hòa kháng thể và giảm viêm cơ tim là truyền _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-121. Chỉ số tim - ngực (CTR) trên phim X-quang tim phổi thẳng ở trẻ sơ sinh được coi là bóng tim to bệnh lý khi tỷ lệ này vượt quá _____.
+121. [PED - Lâm sàng] Trong Case 2 thông liên thất lớn gây suy tim độ 3 ở trẻ 2 tháng tuổi, thuốc ức chế men chuyển _____ được phối hợp với lợi tiểu nhằm mục đích _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-122. Đường Kerley B trên X-quang ngực thẳng là các đường mờ mảnh dài 1 đến 2 cm nằm ngang sát màng phổi ở góc sườn hoành, hình thành do _____.
+122. [PED - Lâm sàng] Trong Case 2 thông liên thất lớn có suy tim và suy dinh dưỡng nặng, chỉ định ngoại khoa vàng là _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-123. Hội chứng suy tuần hoàn ngoại vi trong sốc tim được xác định khi thời gian đổ đầy mao mạch (Capillary Refill Time - CRT) kéo dài trên _____.
+123. [PED - Lâm sàng] Cạm bẫy lâm sàng: Khi thấy trẻ suy tim thở nhanh và nhịp tim nhanh, sai lầm chết người là truyền dịch nhanh (bolus) vì sẽ gây _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-124. Ở bệnh nhi suy tim nhũ nhi đang điều trị nội khoa, mức tăng cân đột ngột vượt quá _____ phản ánh tình trạng ứ dịch chứ không phải tăng trưởng dinh dưỡng.
+124. [PED - Lâm sàng] Cạm bẫy lâm sàng: Sốc điện khử rung khi bệnh nhân ngộ độc Digoxin xuất hiện loạn nhịp tim có thể kích hoạt _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
-125. Để tránh tiêu hao năng lượng quá mức cho công hô hấp ở trẻ suy tim nhũ nhi, thời gian cho mỗi cữ bú bình hoặc bú mẹ tuyệt đối không nên kéo dài quá _____.
+125. [PED - Lâm sàng] Cạm bẫy lâm sàng: Ngừng đột ngột thuốc chẹn beta giao cảm Carvedilol đang dùng duy trì sẽ gây _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+126. [PED - Lâm sàng] Tip thực hành: Điều dưỡng hoặc bác sĩ nên dùng bút dạ y tế gạch một đường nhỏ đánh dấu _____ để theo dõi đáp ứng với Furosemid trực quan.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+127. [PED - Lâm sàng] Tip thực hành: Đục lỗ núm vú bình sữa rộng hơn một chút cho trẻ suy tim bú nhằm mục đích _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+128. [PED - Lâm sàng] Tip thực hành: Hạn chế tối đa làm các thủ thuật gây đau đớn dồn dập cho trẻ suy tim vì _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+129. [PED - Lâm sàng] Checkpoint: Ở trẻ mắc thông liên thất lớn, triệu chứng suy tim sung huyết thường không xuất hiện ngay sau sinh mà bùng phát lúc 6-8 tuần tuổi vì _____.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+130. [PED - Lâm sàng] Checkpoint: Tiếng rung tâm trương ngắn nghe được ở mỏm tim trong thông liên thất lớn phản ánh tình trạng _____ chứ không phải hẹp van hai lá thực thể.
+
+Trả lời đầy đủ ngưỡng/số liệu: 
+
+131. [PED - Lâm sàng] Tiêu chuẩn xuất viện an toàn của trẻ suy tim: Trẻ tự ăn bú tốt, hết khó thở, phổi sạch ran, gan thu nhỏ _____, và phác đồ thuốc chuyển sang đường uống ổn định tối thiểu _____.
 
 Trả lời đầy đủ ngưỡng/số liệu: 
 
 
 ## C. Cloze drill
 
-1. Suy tim ở trẻ em là tình trạng tim không còn khả năng đảm bảo _____ đáp ứng nhu cầu chuyển hóa và oxy của cơ thể ở áp lực đổ đầy bình thường.
+1. [PEDYTB - Ôn thi] Định nghĩa suy tim ở trẻ em trong giáo trình là tình trạng tim không còn khả năng đảm bảo _____ đáp ứng nhu cầu của cơ thể.
 
 Trả lời: 
 
-2. Theo thống kê kinh điển của Demopoulos và Sonnenblick, tỷ lệ tử vong trong vòng 5 năm đầu ở những bệnh nhân mới phát hiện suy tim là _____ nếu không được can thiệp nguyên nhân kịp thời.
+2. [PEDYTB - Ôn thi] Theo thống kê kinh điển của Demopoulos và Sonnenblick (1995) tại Mỹ trong giáo trình, số người suy tim ước tính lên đến _____ vào năm 2000 với _____.
 
 Trả lời: 
 
-3. Ước tính tần suất mắc suy tim ở trẻ em tại Việt Nam dao động trong khoảng từ _____ dân số trẻ em.
+3. [PEDYTB - Ôn thi] Tại Việt Nam, tần suất suy tim ở trẻ em ước tính trong khoảng _____.
 
 Trả lời: 
 
-4. Ở trẻ sơ sinh và trẻ nhũ nhi, suy tim thường có đặc điểm nổi bật là khởi phát dưới dạng _____.
+4. [PEDYTB - Ôn thi] Về tiên lượng, tỷ lệ tử vong ở những người suy tim nặng lên đến _____; ngay cả những người mới bị suy tim thì hơn một nửa sẽ chết trong vòng _____.
 
 Trả lời: 
 
-5. Về mặt thể bệnh lâm sàng, suy tim ở trẻ em chủ yếu biểu hiện dưới hình thái _____.
+5. [PEDYTB - Ôn thi] Đặc điểm chung thứ nhất của suy tim trẻ em trong giáo trình là: Thường gặp _____ (hay gặp do viêm cầu thận cấp tăng HA, thiếu vitamin B1, ngộ độc giáp, viêm cơ tim virus, hẹp eo ĐMC, còn ống ĐM lớn).
 
 Trả lời: 
 
-6. Khác với người lớn, triệu chứng lâm sàng của suy tim ở trẻ nhũ nhi chủ yếu bộc lộ qua đường _____.
+6. [PEDYTB - Ôn thi] Đặc điểm chung thứ hai của suy tim trẻ em trong giáo trình là: Thể bệnh chủ yếu trên lâm sàng là _____.
 
 Trả lời: 
 
-7. Dấu hiệu vã mồ hôi bệnh lý trong suy tim ở trẻ nhũ nhi có đặc điểm là vã mồ hôi lạnh, tập trung chủ yếu ở _____ và xuất hiện rõ nhất lúc _____.
+7. [PEDYTB - Ôn thi] Đặc điểm chung thứ ba của suy tim trẻ em trong giáo trình là: Suy tim từ từ mạn tính hay gặp do _____.
 
 Trả lời: 
 
-8. Cung lượng tim (CO) được quyết định bởi 4 yếu tố cơ bản gồm: _____.
+8. [PEDYTB - Ôn thi] Đặc điểm chung thứ tư của suy tim trẻ em trong giáo trình là: Triệu chứng lâm sàng không giống người lớn mà chủ yếu biểu hiện bằng _____.
 
 Trả lời: 
 
-9. Ở trẻ sơ sinh và trẻ nhũ nhi, do thể tích nhát bóp (SV) gần như cố định, cung lượng tim phụ thuộc chủ yếu vào _____.
+9. [PED - Lâm sàng] Theo hướng dẫn ISHLT 2025 cập nhật, suy tim trẻ em thứ phát sau bệnh cơ tim, bệnh tim mắc phải và tim bẩm sinh gắn liền với _____.
 
 Trả lời: 
 
-10. Định nghĩa: Tiền gánh (Preload) của tâm thất là _____ của buồng tâm thất trước khi bắt đầu kỳ co bóp.
+10. [PED - Lâm sàng] Dấu hiệu vã mồ hôi bệnh lý trong suy tim ở trẻ nhũ nhi có đặc điểm là _____, tập trung chủ yếu ở _____ và xuất hiện rõ nhất lúc _____.
 
 Trả lời: 
 
-11. Định nghĩa: Hậu gánh (Afterload) của tâm thất là _____ mà tâm thất phải vượt qua để tống máu vào đại động mạch.
+11. [PEDYTB - Ôn thi] Trong điều kiện bình thường, cung lượng tim được đảm bảo nhờ 4 yếu tố: _____.
 
 Trả lời: 
 
-12. Khi tần số tim ở trẻ nhũ nhi tăng quá nhanh vượt ngưỡng _____, cung lượng tim sẽ sụt giảm do _____.
+12. [PEDYTB - Ôn thi] Giáo trình định nghĩa: Tiền gánh là _____ của tâm thất.
 
 Trả lời: 
 
-13. Trong cơ chế bù trừ tại cơ tim, hiện tượng giãn sợi cơ ban đầu để đáp ứng với tình trạng tăng tiền gánh tuân theo _____.
+13. [PEDYTB - Ôn thi] Giáo trình định nghĩa: Hậu gánh là _____ với sức bóp của tâm thất.
 
 Trả lời: 
 
-14. Trong suy tim mạn tính, đáp ứng phì đại tế bào cơ tim đồng tâm (Concentric Hypertrophy) thường xảy ra do _____.
+14. [PED - Lâm sàng] Ở trẻ sơ sinh và trẻ nhũ nhi, do thể tích nhát bóp (SV) gần như cố định, cung lượng tim phụ thuộc chủ yếu vào _____.
 
 Trả lời: 
 
-15. Trong suy tim do tăng gánh thể tích (shunt Trái - Phải lớn), cơ tim đáp ứng bằng hình thái _____.
+15. [PED - Lâm sàng] Khi tần số tim ở trẻ nhũ nhi tăng quá nhanh vượt ngưỡng _____, cung lượng tim sẽ sụt giảm do _____.
 
 Trả lời: 
 
-16. Hệ thần kinh giao cảm phản ứng sớm nhất trong suy tim bằng cách giải phóng hai chất dẫn truyền thần kinh chủ lực là _____.
+16. [PEDYTB - Ôn thi] Cơ chế bù trừ tại tim trong suy tim gồm 3 cơ chế: _____ để đáp ứng tiền gánh; _____; và _____.
 
 Trả lời: 
 
-17. Hậu quả bất lợi lâu dài của việc hoạt hóa giao cảm liên tục trong suy tim là làm tăng hậu gánh thất trái và gây hiện tượng _____ thụ thể beta-1 adrenergic.
+17. [PED - Lâm sàng] Trong suy tim mạn tính, đáp ứng phì đại tế bào cơ tim đồng tâm (Concentric) thường do _____; trong khi phì đại lệch tâm (Eccentric) do _____.
 
 Trả lời: 
 
-18. Khi áp lực tưới máu thận giảm, tế bào cạnh cầu thận sẽ tăng tiết enzyme _____, khởi động dòng thác kích hoạt trục RAAS.
+18. [PEDYTB - Ôn thi] Cơ chế bù trừ ngoài tim thứ nhất là hệ RAAS: Giảm tưới máu thận khởi động hệ _____ càng gây co mạch, ứ muối và nước.
 
 Trả lời: 
 
-19. Enzyme chuyển Angiotensin (ACE) nằm chủ yếu ở _____, có nhiệm vụ chuyển Angiotensin I thành _____ có hoạt tính co mạch cực mạnh.
+19. [PEDYTB - Ôn thi] Cơ chế bù trừ ngoài tim thứ hai là: Ứ máu ở thành tâm nhĩ gây kích thích tăng tiết các yếu tố gây bài xuất natri qua nước tiểu (giáo trình ghi: _____).
 
 Trả lời: 
 
-20. Tác dụng của Angiotensin II tại vỏ thượng thận là kích thích lớp cầu tăng tổng hợp và bài tiết hormone _____.
+20. [PEDYTB - Ôn thi] Cơ chế bù trừ ngoài tim thứ ba trong suy tim là: Tăng khả năng _____.
 
 Trả lời: 
 
-21. Khi thành tâm nhĩ bị căng giãn quá mức do ứ máu sung huyết, cơ tim tâm nhĩ sẽ tăng tiết hormone peptide có tên là _____.
+21. [PEDYTB - Ôn thi] Hậu quả của suy tim: Giảm cung lượng tim làm giảm oxy tới các mô và _____.
 
 Trả lời: 
 
-22. Hậu quả huyết động của suy tim trái là gây tăng áp lực mao mạch phổi bít, dẫn đến _____.
+22. [PEDYTB - Ôn thi] Tăng áp lực tĩnh mạch ngoại vi gây hậu quả: Suy tim phải gây _____; Suy tim trái gây _____.
 
 Trả lời: 
 
-23. Hậu quả huyết động của suy tim phải là gây ứ trệ tuần hoàn tĩnh mạch chủ, dẫn đến _____.
+23. [PEDYTB - Ôn thi] Nhóm nguyên nhân do tăng gánh thể tích (tăng tiền gánh) gồm: Bệnh tim bẩm sinh có shunt Trái - Phải (_____) và nguyên nhân suy tim sớm (_____).
 
 Trả lời: 
 
-24. Bệnh tim bẩm sinh có luồng shunt Trái - Phải lớn gây suy tim chủ yếu theo cơ chế _____.
+24. [PEDYTB - Ôn thi] Nhóm nguyên nhân do tăng gánh áp lực (tăng hậu gánh) gồm: Hẹp van ĐMC nặng, hẹp eo ĐMC nặng; các bệnh gây tắc tĩnh mạch phổi (_____); tăng áp ĐMP sơ sinh, hẹp van ĐMP gây suy tim phải.
 
 Trả lời: 
 
-25. Bệnh hẹp van động mạch chủ nặng và hẹp eo động mạch chủ gây suy tim chủ yếu theo cơ chế _____.
+25. [PEDYTB - Ôn thi] Nhóm nguyên nhân tại cơ tim gồm: Viêm cơ tim (_____), bệnh cơ tim, bất thường động mạch vành trái (_____); ở trẻ sơ sinh có thể do rối loạn chuyển hóa (_____).
 
 Trả lời: 
 
-26. Hội chứng ALCAPA (Bland-White-Garland) là một nguyên nhân gây suy tim do tổn thương cơ tim, trong đó _____.
+26. [PED - Lâm sàng] Hội chứng ALCAPA (Bland-White-Garland) là dị tật động mạch vành trái xuất phát từ _____, khi sức cản phổi giảm sẽ gây hiện tượng _____ dẫn đến nhồi máu cơ tim ở trẻ nhũ nhi.
 
 Trả lời: 
 
-27. Ở trẻ sơ sinh, các rối loạn chuyển hóa bẩm sinh có thể gây suy chức năng co bóp cơ tim cấp tính gồm: _____.
+27. [PED - Lâm sàng] Bệnh Beriberi thể ướt (Shoshin Beriberi) là nguyên nhân suy tim cấp cung lượng cao ở trẻ nhỏ do thiếu hụt _____.
 
 Trả lời: 
 
-28. Bệnh Beriberi thể ướt (Shoshin Beriberi) là một nguyên nhân gây suy tim cấp cung lượng cao ở trẻ nhỏ do thiếu hụt _____.
+28. [PEDYTB - Ôn thi] Nhóm nguyên nhân do rối loạn nhịp tim gồm: Nhịp tim nhanh (_____); Nhịp tim chậm (_____); và các rối loạn nhịp tim khác.
 
 Trả lời: 
 
-29. Nguyên nhân hàng đầu gây sốc tim và suy tim cấp tử vong ở trẻ từ 4 đến 12 tháng tuổi trước đó khỏe mạnh là _____.
+29. [PED - Lâm sàng] Block nhĩ thất hoàn toàn bẩm sinh ở trẻ sơ sinh thường có liên quan chặt chẽ đến mẹ mắc bệnh tự miễn có kháng thể _____.
 
 Trả lời: 
 
-30. Block nhĩ thất hoàn toàn bẩm sinh (Congenital Complete Heart Block) ở trẻ sơ sinh thường có liên quan đến mẹ mắc bệnh tự miễn có kháng thể _____.
+30. [PED - Lâm sàng] Sốc tim ở trẻ sơ sinh trong tuần đầu sau sinh ngay khi ống động mạch đóng lại là dấu hiệu cảnh báo của _____.
 
 Trả lời: 
 
-31. Dấu hiệu khó thở khi nằm phẳng và đỡ khó thở hơn khi ngồi hoặc bế đầu cao trong suy tim trái được gọi là _____.
+31. [PEDYTB - Ôn thi] Khám tim trong suy tim trái: Mỏm tim lệch trái, nhịp tim nhanh, có thể có tiếng _____; thường có tiếng thổi tâm thu ở mỏm do _____.
 
 Trả lời: 
 
-32. Trong cơn phù phổi cấp (Acute Pulmonary Edema), khám phổi nghe thấy ran ẩm nhỏ hạt có đặc điểm _____.
+32. [PEDYTB - Ôn thi] Khám phổi trong suy tim trái: Thường thấy _____; cơn hen tim có _____; trong phù phổi cấp có ran ẩm to nhỏ hạt dâng như _____.
 
 Trả lời: 
 
-33. Tiếng ngựa phi (Gallop T3) nghe rõ ở mỏm tim trong suy tim trái được phát sinh do _____.
+33. [PEDYTB - Ôn thi] Huyết áp trong suy tim trái có đặc điểm: Huyết áp tối đa (tâm thu) _____ nhưng tối thiểu (tâm trương) lại _____.
 
 Trả lời: 
 
-34. Đặc điểm gan to trong suy tim phải giai đoạn đầu được mô tả là kiểu _____.
+34. [PEDYTB - Ôn thi] X-quang ngực trong suy tim trái: Tim to, nhất là tim trái; cả hai rốn phổi mờ, có thể gặp _____ hoặc hình _____ ở rốn phổi.
 
 Trả lời: 
 
-35. Dấu hiệu phản hồi gan - tĩnh mạch cổ (Hepatojugular Reflux) được coi là dương tính khi _____.
+35. [PEDYTB - Ôn thi] Triệu chứng thực thể của suy tim phải: Gan to (lúc đầu kiểu _____, sau cứng không nhỏ); tĩnh mạch cổ nổi và phản hồi gan - TM cổ (+); tăng áp lực CVP; tím; phù (lúc đầu hai chi dưới, sau toàn thân/đa màng); đái ít sẫm màu; dấu hiệu _____; huyết áp tối đa bình thường, tối thiểu _____.
 
 Trả lời: 
 
-36. Dấu hiệu Hartzer dương tính trên lâm sàng là cảm giác _____.
+36. [PEDYTB - Đính chính]: Phim X-quang nghiêng trái trong suy tim phải bản in gốc ghi nhầm 'thất trái giãn làm khoảng sáng sau tim hẹp lại', thực tế lâm sàng chuẩn xác là _____.
 
 Trả lời: 
 
-37. Hội chứng suy tuần hoàn ngoại vi cấp tính trong sốc tim biểu hiện bằng thời gian đổ đầy mao mạch (CRT) kéo dài _____.
+37. [PEDYTB - Ôn thi] Bệnh cảnh suy tim cấp ở trẻ em: Thường gặp suy tim trái hoặc toàn bộ tiến triển nhanh chóng, bệnh cảnh giống như _____.
 
 Trả lời: 
 
-38. Chỉ số tim - ngực (Cardiothoracic Ratio - CTR) trên phim X-quang ngực thẳng được coi là tim to khi: Trẻ sơ sinh CTR > _____; Trẻ nhũ nhi CTR > _____; Trẻ lớn CTR > _____.
+38. [PEDYTB - Ôn thi] Triệu chứng suy tuần hoàn ngoại vi trong suy tim cấp: Tinh thần kích thích vật vã; trẻ tái nhợt, chi lạnh, vã mồ hôi, vân tím; mạch nhanh nhỏ khó bắt; thời gian CRT _____; huyết áp _____.
 
 Trả lời: 
 
-39. Hình ảnh đường Kerley B trên phim X-quang tim phổi thẳng của bệnh nhân suy tim là các đường mờ ngắn nằm ngang ở góc sườn hoành, phản ánh tình trạng _____.
+39. [PEDYTB - Ôn thi] Triệu chứng suy tim từ từ (suy tim mạn) ở trẻ nhũ nhi: Toàn thân (mệt mỏi, khóc yếu); Hô hấp (thở nhanh, thở rên, co kéo); Dinh dưỡng & tiêu hóa (_____); Ứ trệ (TM cổ nổi, gan to, phù, đái ít).
 
 Trả lời: 
 
-40. Trên siêu âm tim, phân suất tống máu thất trái (LVEF theo phương pháp Simpson) được coi là suy giảm nặng khi LVEF đạt dưới mức _____ (bình thường ≥ 55-60%).
+40. [PED - Lâm sàng] Chỉ số tim - ngực (CTR) trên phim X-quang ngực thẳng được coi là tim to bệnh lý khi: Trẻ sơ sinh CTR > _____; Trẻ nhũ nhi CTR > _____; Trẻ lớn CTR > _____.
 
 Trả lời: 
 
-41. Chỉ dấu sinh học peptide lợi niệu _____ huyết thanh tăng cao vượt trội giúp bác sĩ cấp cứu phân biệt chính xác khó thở do suy tim với khó thở do viêm tiểu phế quản cấp.
+41. [PED - Lâm sàng] Trên siêu âm tim Doppler theo Simpson biplane, phân suất tống máu thất trái (LVEF) được phân độ: Bình thường LVEF ≥ 55-60%; Suy tim nhẹ LVEF _____; Suy tim vừa LVEF _____; Suy tim nặng LVEF _____.
 
 Trả lời: 
 
-42. Theo phân độ lâm sàng suy tim trẻ em Việt Nam, Suy tim Độ 1 được đặc trưng bởi: Khó thở _____; Kích thước gan dưới sườn phải _____; _____.
+42. [PED - Lâm sàng] Chỉ dấu sinh học peptide lợi niệu _____ huyết thanh tăng cao vượt trội giúp bác sĩ cấp cứu phân biệt chính xác khó thở do suy tim với khó thở do viêm tiểu phế quản cấp.
 
 Trả lời: 
 
-43. Theo phân độ lâm sàng suy tim trẻ em Việt Nam, Suy tim Độ 2 được đặc trưng bởi: Khó thở _____; Kích thước gan dưới sườn phải _____; _____.
+43. [PEDYTB - Ôn thi] Đánh giá mức độ suy tim theo NYHA gồm 4 độ: Độ I (có bệnh tim nhưng _____); Độ II (triệu chứng chỉ xuất hiện khi _____); Độ III (triệu chứng xuất hiện cả khi _____); Độ IV (triệu chứng xuất hiện _____).
 
 Trả lời: 
 
-44. Theo phân độ lâm sàng suy tim trẻ em Việt Nam, Suy tim Độ 3 được đặc trưng bởi: Khó thở nặng co kéo; Gan to _____ nhưng _____; Tiên lượng _____.
+44. [PEDYTB - Ôn thi] Bảng phân độ suy tim trẻ em Việt Nam - Độ 1: Khó thở _____; Kích thước gan _____; Phù _____; Nước tiểu _____.
 
 Trả lời: 
 
-45. Theo phân độ lâm sàng suy tim trẻ em Việt Nam, Suy tim Độ 4 được đặc trưng bởi: Khó thở nặng liên tục; Gan to mạn tính _____; Tiên lượng _____.
+45. [PEDYTB - Ôn thi] Bảng phân độ suy tim trẻ em Việt Nam - Độ 2: Khó thở _____; Kích thước gan _____; Phù _____; Nước tiểu _____.
 
 Trả lời: 
 
-46. Thang điểm Ross cải tiến lượng hóa mức độ suy tim ở trẻ dưới 1 tuổi dựa trên 7 tiêu chí lâm sàng gồm: _____.
+46. [PEDYTB - Ôn thi] Bảng phân độ suy tim trẻ em Việt Nam - Độ 3: Khó thở _____; Kích thước gan _____; Phù _____; Nước tiểu _____; Tiên lượng _____.
 
 Trả lời: 
 
-47. Phân loại chức năng suy tim theo Hội Tim mạch New York (NYHA) chủ yếu được áp dụng cho đối tượng _____ (do đòi hỏi đánh giá mức độ hạn chế hoạt động thể lực gắng sức).
+47. [PEDYTB - Ôn thi] Bảng phân độ suy tim trẻ em Việt Nam - Độ 4: Khó thở _____; Kích thước gan _____; Phù _____; Nước tiểu _____; Tiên lượng _____.
 
 Trả lời: 
 
-48. Tư thế nằm đầu cao tối ưu cho bệnh nhi suy tim nặng là tư thế _____.
+48. [PED - Lâm sàng] Thang điểm Ross cải tiến lượng hóa mức độ suy tim ở trẻ dưới 1 tuổi dựa trên 7 tiêu chí: _____.
 
 Trả lời: 
 
-49. Chế độ ăn hạn chế muối (ăn nhạt) ở trẻ suy tim nặng đòi hỏi kiểm soát lượng muối đưa vào dưới mức _____ (tương đương dưới 0,5 g Natri/ngày).
+49. [PED - Lâm sàng] Trong thang điểm Ross cải tiến, tiêu chí lượng sữa bú mỗi cữ được tính 2 điểm khi giảm xuống mức _____ (bình thường > 100 mL/cữ tính 0 điểm).
 
 Trả lời: 
 
-50. Trong giai đoạn suy tim cấp có phù to và thiểu niệu, lượng dịch đưa vào cơ thể cần được hạn chế ở mức _____.
+50. [PED - Lâm sàng] Trong thang điểm Ross cải tiến, thời gian mỗi cữ bú ở trẻ nhũ nhi được tính 2 điểm khi thời gian cữ bú kéo dài vượt quá _____.
 
 Trả lời: 
 
-51. Thuốc lợi tiểu quai đầu tay điều trị suy tim cấp ở trẻ em là _____, với liều tiêm tĩnh mạch thông thường từ _____ (tối đa 6 mg/kg/ngày).
+51. [PEDYTB - Ôn thi] Chế độ ăn nhạt (hạn chế muối) trong suy tim theo giáo trình: Suy tim nhẹ giảm muối _____; Suy tim nặng ăn nhạt gần như hoàn toàn _____.
 
 Trả lời: 
 
-52. Hai tác dụng phụ rối loạn điện giải thường gặp nhất và nguy hiểm nhất khi sử dụng Furosemid liều cao kéo dài là _____.
+52. [PED - Lâm sàng] Tư thế nằm đầu cao tối ưu cho bệnh nhi suy tim nặng là tư thế _____.
 
 Trả lời: 
 
-53. Thuốc lợi tiểu kháng Aldosterone _____ có liều dùng từ _____ uống chia 1-2 lần.
+53. [PED - Lâm sàng] Trong giai đoạn suy tim cấp có phù to và thiểu niệu, lượng dịch đưa vào cơ thể cần được hạn chế ở mức _____.
 
 Trả lời: 
 
-54. Thuốc ức chế men chuyển đầu tay thường dùng ở trẻ nhỏ là _____, với liều khởi đầu thăm dò từ _____ uống ngày 3 lần trước bữa ăn.
+54. [PEDYTB - Ôn thi] Liều dùng thuốc lợi tiểu quai Furosemid theo giáo trình là _____; chú ý cần đề phòng _____.
 
 Trả lời: 
 
-55. Captopril nên được cho trẻ uống vào thời điểm _____ để đảm bảo thuốc được hấp thu tối đa qua đường tiêu hóa.
+55. [PEDYTB - Ôn thi] Liều dùng thuốc lợi tiểu Thiazide theo giáo trình là _____; chú ý _____.
 
 Trả lời: 
 
-56. Hai thông số xét nghiệm bắt buộc phải kiểm tra lại sau 1 đến 2 tuần bắt đầu dùng hoặc tăng liều thuốc ức chế men chuyển là _____.
+56. [PEDYTB - Ôn thi] Liều dùng thuốc lợi tiểu Spironolacton theo giáo trình là _____; Liều dùng Triamteren là _____.
 
 Trả lời: 
 
-57. Thuốc chẹn beta giao cảm được khuyến cáo hàng đầu trong suy tim mạn tính ở trẻ em là _____, với liều bắt đầu cực thấp từ _____ ngày 2 lần.
+57. [PED - Lâm sàng] Trong điều trị suy tim trẻ em bằng Furosemid đường uống, sinh khả dụng chỉ đạt khoảng 50% so với đường tiêm tĩnh mạch, do đó liều uống thường _____.
 
 Trả lời: 
 
-58. Nguyên tắc bất di bất dịch khi chỉ định Carvedilol cho trẻ suy tim là _____ và chỉ bắt đầu khi _____.
+58. [PED - Lâm sàng] Hiện tượng kháng thuốc lợi tiểu (Diuretic Resistance) được khắc phục bằng chiến lược phong bế nephron tuần tự, phối hợp Furosemid với _____.
 
 Trả lời: 
 
-59. Thuốc inotrope ức chế enzyme Phosphodiesterase-3 được ưu tiên hàng đầu trong suy tim cấp có huyết áp còn ổn định là _____, với liều truyền duy trì từ _____.
+59. [PEDYTB - Ôn thi] Tác dụng của Glycosid trợ tim (Digoxin) trên tim gồm 4 tác dụng: Làm tăng _____; làm chậm _____; làm chậm _____; làm tăng _____.
 
 Trả lời: 
 
-60. Ở bệnh nhân suy tim cấp có huyết áp tâm thu còn thấp hoặc ranh giới, khi bắt đầu truyền Milrinone nên _____ để phòng ngừa nguy cơ tụt huyết áp cấp tính.
+60. [PEDYTB - Ôn thi] Liều tấn công số hóa nhanh của Digoxin theo giáo trình là _____ chia làm 3 lần cách nhau 8 giờ theo tỷ lệ: Lần 1 uống _____; Lần 2 (sau 8h) uống _____; Lần 3 (sau 8h tiếp) uống _____.
 
 Trả lời: 
 
-61. Thuốc tăng co bóp cơ tim Catecholamine kinh điển _____ có liều truyền tĩnh mạch liên tục từ _____.
+61. [PEDYTB - Ôn thi] Liều duy trì của Digoxin theo giáo trình là _____ chia làm _____.
 
 Trả lời: 
 
-62. Thuốc vận mạch _____ ở dải liều inotrope tăng co bóp cơ tim là _____; trong khi ở dải liều cao co mạch tăng huyết áp là _____.
+62. [PED - Lâm sàng] Ở trẻ sơ sinh non tháng hoặc bệnh nhi có suy giảm chức năng thận, tổng liều tấn công số hóa Digoxin cần được giảm bớt _____ xuống còn _____.
 
 Trả lời: 
 
-63. Thuốc giãn mạch trực tiếp truyền tĩnh mạch _____ có liều dùng từ _____ (tối đa 8 µg/kg/phút).
+63. [PED - Lâm sàng] Khi chuyển đổi thuốc Digoxin từ đường uống sang đường tiêm tĩnh mạch, liều tiêm tĩnh mạch chỉ bằng _____.
 
 Trả lời: 
 
-64. Cơ chế phân tử của Digoxin là gắn và ức chế chọn lọc bơm _____ trên màng tế bào cơ tim.
+64. [PED - Lâm sàng] Nồng độ trị liệu an toàn của Digoxin trong huyết thanh nằm trong khoảng hẹp từ _____ (nguy cơ ngộ độc tăng vọt khi nồng độ > 1,2 - 2,0 ng/mL).
 
 Trả lời: 
 
-65. Bốn tác dụng điện sinh lý kinh điển của Digoxin trên tim gồm: _____.
+65. [PEDYTB - Ôn thi] Yếu tố thuận lợi gây ngộ độc Digoxin theo giáo trình gồm: Quá liều, suy thận, rối loạn điện giải như _____.
 
 Trả lời: 
 
-66. Quy trình số hóa nhanh (Digitalization) liều tấn công Digoxin đường uống ở trẻ nhỏ có tổng liều từ _____, được chia làm 3 lần trong 24 giờ theo tỷ lệ _____ (cách nhau mỗi 8 giờ).
+66. [PEDYTB - Ôn thi] Triệu chứng lâm sàng ngộ độc Digoxin theo giáo trình: Tiêu hóa (_____); Thần kinh - thị giác (_____); Tim mạch (_____).
 
 Trả lời: 
 
-67. Liều duy trì Digoxin đường uống hàng ngày ở trẻ em là từ _____ chia làm 2 lần cách nhau mỗi 12 giờ.
+67. [PEDYTB - Ôn thi] Điện tâm đồ trong ngộ độc Digoxin theo giáo trình: Khoảng PR kéo dài (PQ kéo dài); ngoại tâm thu thất (nhất là _____); nhịp nhanh trên thất kèm block AV; rung thất; dấu hiệu 'ngấm digitalis' là _____.
 
 Trả lời: 
 
-68. Nồng độ trị liệu an toàn của Digoxin trong huyết thanh nằm trong khoảng hẹp từ _____ (nguy cơ ngộ độc tăng vọt khi nồng độ > 1,2 - 2,0 ng/mL).
+68. [PEDYTB - Ôn thi] Năm bước điều trị ngộ độc Digoxin theo giáo trình: 1. _____; 2. _____; 3. _____; 4. _____; 5. _____.
 
 Trả lời: 
 
-69. Yếu tố rối loạn điện giải nguy hiểm nhất thúc đẩy bùng phát ngộ độc Digoxin dù ở liều điều trị chuẩn là _____.
+69. [PEDYTB - Ôn thi] Quy tắc bù kali trong điều trị ngộ độc Digoxin theo giáo trình: Uống hoặc truyền dung dịch có kali với nồng độ _____ với tốc độ tối đa _____ (chống chỉ định nếu có _____).
 
 Trả lời: 
 
-70. Triệu chứng sớm nhất cảnh báo ngộ độc Digoxin ở trẻ nhỏ trên đường tiêu hóa là _____.
+70. [PED - Lâm sàng] Thuốc chống loạn nhịp hàng đầu được lựa chọn để điều trị loạn nhịp thất do ngộ độc Digoxin ở trẻ em là _____ hoặc _____.
 
 Trả lời: 
 
-71. Triệu chứng ngộ độc Digoxin trên thị giác ở trẻ lớn là nhìn mờ, sợ ánh sáng và hiện tượng _____.
+71. [PED - Lâm sàng] Thuốc đặc trị giải độc đặc hiệu duy nhất trong ngộ độc Digoxin nặng đe dọa tính mạng là _____.
 
 Trả lời: 
 
-72. Dấu hiệu 'ngấm Digitalis' đơn thuần trên điện tâm đồ (chưa phải là ngộ độc) là hình ảnh _____ ở các chuyển đạo có sóng R cao.
+72. [PED - Lâm sàng] Công thức ước tính số lọ kháng thể DigiFab cần dùng khi biết nồng độ Digoxin huyết thanh là: Số lọ Fab = _____.
 
 Trả lời: 
 
-73. Dấu hiệu rối loạn nhịp tim đặc trưng nhất và gợi ý cao nhất của ngộ độc Digoxin trên điện tâm đồ là _____ hoặc _____.
+73. [PED - Lâm sàng] Ở bệnh nhân ngộ độc Digoxin xuất hiện loạn nhịp tim, thủ thuật _____ bị CHỐNG CHỈ ĐỊNH tương đối vì có thể kích hoạt rung thất trơ không thể hồi phục.
 
 Trả lời: 
 
-74. Bước đầu tiên mang tính sống còn khi nghi ngờ bệnh nhân bị ngộ độc Digoxin là _____ và _____.
+74. [PEDYTB - Ôn thi] Liều truyền tĩnh mạch liên tục của Dopamin theo giáo trình là _____; Liều của Dobutamin là _____.
 
 Trả lời: 
 
-75. Trong điều trị ngộ độc Digoxin, nguyên tắc bù Kali tĩnh mạch là pha dịch truyền có nồng độ KCl không vượt quá _____ và tốc độ truyền tối đa không quá _____.
+75. [PEDYTB - Đính chính]: Bản in giáo trình gốc in nhầm đơn vị Norepinephrin là '0,25 - 1 mg/kg/phút', thực tế lâm sàng bắt buộc phải là _____ truyền tĩnh mạch.
 
 Trả lời: 
 
-76. Thuốc chống loạn nhịp hàng đầu được lựa chọn để điều trị loạn nhịp thất do ngộ độc Digoxin ở trẻ em là _____ hoặc _____.
+76. [PEDYTB - Ôn thi] Liều dùng các thuốc giãn mạch theo giáo trình: Nitroprusside _____ (truyền TM chậm bọc giấy bạc); Hydralazine _____ chia 3 lần; Prazosine ban đầu _____, duy trì _____ chia 4 lần; Captopril _____ chia 3 lần.
 
 Trả lời: 
 
-77. Thuốc đặc trị giải độc đặc hiệu duy nhất trong ngộ độc Digoxin nặng đe dọa tính mạng là _____.
+77. [PED - Lâm sàng] Thuốc ức chế men chuyển Captopril nên được cho trẻ uống vào thời điểm _____ để đảm bảo thuốc được hấp thu tối đa.
 
 Trả lời: 
 
-78. Ở bệnh nhân ngộ độc Digoxin xuất hiện loạn nhịp tim, thủ thuật _____ bị CHỐNG CHỈ ĐỊNH tương đối vì có thể kích hoạt rung thất trơ không thể hồi phục.
+78. [PED - Lâm sàng] Thuốc inotrope ức chế enzyme Phosphodiesterase-3 được ưu tiên hàng đầu trong suy tim cấp có huyết áp còn ổn định là _____, với liều truyền duy trì từ _____.
 
 Trả lời: 
 
-79. Thuốc giãn mạch đường uống ức chế trực tiếp cơ trơn tiểu động mạch _____ có liều dùng từ _____ chia làm 3 đến 4 lần.
+79. [PED - Lâm sàng] Ở bệnh nhân suy tim cấp có huyết áp tâm thu còn thấp hoặc ranh giới, khi bắt đầu truyền Milrinone nên _____ để phòng ngừa nguy cơ tụt huyết áp cấp tính.
 
 Trả lời: 
 
-80. Thuốc chẹn thụ thể alpha-1 adrenergic đường uống _____ có liều khởi đầu thăm dò từ _____, sau đó tăng dần theo đáp ứng huyết áp.
+80. [PED - Lâm sàng] Thuốc chẹn beta giao cảm được khuyến cáo hàng đầu trong suy tim mạn tính ở trẻ em là _____, với liều bắt đầu cực thấp từ _____ ngày 2 lần.
 
 Trả lời: 
 
-81. Thuốc lợi tiểu giữ Kali ức chế trực tiếp kênh Natri biểu mô ở ống lượn xa và ống góp không phụ thuộc Aldosterone là _____, với liều dùng từ _____.
+81. [PED - Lâm sàng] Nguyên tắc bất di bất dịch khi chỉ định Carvedilol cho trẻ suy tim là _____ và chỉ bắt đầu khi _____.
 
 Trả lời: 
 
-82. Trong điều trị suy tim trẻ em bằng Furosemid đường uống, sinh khả dụng chỉ đạt khoảng 50% so với đường tiêm tĩnh mạch, do đó liều uống thường _____.
+82. [PEDYTB - Ôn thi] Các biện pháp phòng bệnh suy tim theo giáo trình gồm: 1. Giải quyết sớm nguyên nhân và yếu tố thuận lợi; 2. Phòng tim bẩm sinh (_____); 3. Quản lý và điều trị dự phòng viêm họng liên cầu để _____.
 
 Trả lời: 
 
-83. Hiện tượng kháng thuốc lợi tiểu (Diuretic Resistance) trong suy tim tiến triển được khắc phục bằng chiến lược phong bế nephron tuần tự (Sequential Nephron Blockade), phối hợp Furosemid với _____.
+83. [PED - Lâm sàng] Sai lầm chết người thường gặp ở trẻ suy tim thở nhanh kèm ran ẩm ở phổi là chẩn đoán nhầm thành _____ và điều trị bằng kháng sinh kéo dài vô ích.
 
 Trả lời: 
 
-84. Công thức ước tính số lọ kháng thể DigiFab cần dùng trong ngộ độc Digoxin cấp tính khi biết nồng độ máu là: Số lọ Fab = _____.
+84. [PED - Lâm sàng] Ở trẻ tim bẩm sinh có luồng shunt Trái - Phải lớn (như VSD lớn), việc cho thở oxy nồng độ cao (FiO2 100%) là sai lầm nguy hiểm vì _____.
 
 Trả lời: 
 
-85. Tiêu chuẩn điện tâm đồ chẩn đoán dày tâm thất phải ở trẻ nhũ nhi bao gồm: Trục điện tim chuyển sang _____; Sóng R ưu thế ở _____; và sóng T _____.
+85. [PED - Lâm sàng] Quy tắc điều dưỡng an toàn trước khi cho trẻ uống Digoxin là phải dùng ống nghe đếm nhịp tim ở mỏm trọn vẹn 1 phút; tạm dừng thuốc ngay nếu nhịp tim dưới _____ ở trẻ nhũ nhi hoặc dưới _____ ở trẻ lớn.
 
 Trả lời: 
 
-86. Tiêu chuẩn điện tâm đồ dày tâm thất trái ở trẻ em được xác định khi chỉ số Sokolow-Lyon (biên độ sóng S ở V1 cộng biên độ sóng R ở V5 hoặc V6) vượt quá _____.
+86. [PED - Lâm sàng] Để tránh hiện tượng tụt huyết áp tư thế phối hợp đột ngột, thuốc ức chế men chuyển Captopril nên được cho uống cách thời điểm tiêm hoặc uống Furosemid ít nhất _____.
 
 Trả lời: 
 
-87. Trên siêu âm tim Doppler, vận tốc tối đa của dòng hở van ba lá (V_TR) cho phép ước tính áp lực động mạch phổi tâm thu (PASP) thông qua phương trình Bernoulli cải tiến: PASP = _____.
+87. [PED - Lâm sàng] Ở bệnh nhi suy tim nặng đang điều trị nội khoa, việc cân trẻ mỗi sáng giúp phát hiện sớm tình trạng ứ dịch nếu cân nặng tăng đột ngột trên _____ ở trẻ nhũ nhi.
 
 Trả lời: 
 
-88. Trong thang điểm Ross cải tiến, tiêu chí lượng sữa bú mỗi cữ của trẻ nhũ nhi được tính 2 điểm khi lượng sữa giảm xuống mức _____ (hoặc bú không đủ no).
+88. [PED - Lâm sàng] Khi theo dõi trẻ suy tim cấp được truyền thuốc tăng co bóp inotrope, lượng nước tiểu qua sonde tiểu lưu cần được đo mỗi giờ và duy trì đạt đích tối thiểu trên _____.
 
 Trả lời: 
 
-89. Trong thang điểm Ross cải tiến, thời gian mỗi cữ bú ở trẻ nhũ nhi được tính 2 điểm khi thời gian cữ bú kéo dài vượt quá _____.
+89. [PED - Lâm sàng] Thuốc lợi tiểu Thiazide thường dùng duy trì ở trẻ em là _____, với liều lượng từ _____ uống chia làm 2 lần.
 
 Trả lời: 
 
-90. Trong thang điểm Ross cải tiến, tiêu chí kích thước gan to dưới bờ sườn phải được tính 2 điểm khi bờ dưới gan vượt quá _____.
+90. [PED - Lâm sàng] Trong điều trị kháng thuốc lợi tiểu ở trẻ suy tim nặng, thuốc lợi tiểu thiazide-like đường uống thường được phối hợp với Furosemid là _____, với liều dùng từ _____.
 
 Trả lời: 
 
-91. Thuốc lợi tiểu Thiazide thường dùng duy trì ở trẻ em là _____, với liều lượng từ _____ uống chia làm 2 lần.
+91. [PED - Lâm sàng] Bên cạnh tác dụng lợi tiểu giữ Kali, Spironolacton còn có vai trò bảo vệ tim mạch lâu dài quan trọng là _____.
 
 Trả lời: 
 
-92. Trong điều trị kháng thuốc lợi tiểu ở trẻ suy tim nặng, thuốc lợi tiểu thiazide-like đường uống thường được phối hợp với Furosemid là _____, với liều dùng từ _____.
+92. [PED - Lâm sàng] Thuốc ức chế men chuyển tác dụng kéo dài dùng cho trẻ lớn có thể uống 1 đến 2 lần mỗi ngày là _____, với liều duy trì từ _____.
 
 Trả lời: 
 
-93. Bên cạnh tác dụng lợi tiểu giữ Kali, Spironolacton còn có vai trò bảo vệ tim mạch lâu dài quan trọng là _____.
+93. [PED - Lâm sàng] Mục tiêu liều đích duy trì của thuốc chẹn beta Carvedilol trong điều trị suy tim mạn tính ở trẻ em là _____ (chia làm 2 lần uống).
 
 Trả lời: 
 
-94. Thuốc ức chế men chuyển tác dụng kéo dài dùng cho trẻ lớn có thể uống 1 đến 2 lần mỗi ngày là _____, với liều duy trì từ _____.
+94. [PED - Lâm sàng] Cơ chế phân tử của Milrinone là ức chế enzyme Phosphodiesterase-3 (PDE-3), dẫn đến làm tăng nồng độ chất truyền tin thứ hai _____ bên trong tế bào cơ tim và cơ trơn mạch máu.
 
 Trả lời: 
 
-95. Mục tiêu liều đích duy trì của thuốc chẹn beta Carvedilol trong điều trị suy tim mạn tính ở trẻ em là _____ (chia làm 2 lần uống).
+95. [PED - Lâm sàng] Thuốc tăng co bóp cơ tim Dobutamin tác động kích thích chủ yếu và chọn lọc lên thụ thể _____ trên màng tế bào cơ tim.
 
 Trả lời: 
 
-96. Cơ chế phân tử của Milrinone là ức chế enzyme Phosphodiesterase-3 (PDE-3), dẫn đến làm tăng nồng độ chất truyền tin thứ hai _____ bên trong tế bào cơ tim và cơ trơn mạch máu.
+96. [PED - Lâm sàng] Thuốc vận mạch Dopamin ở dải liều thấp (1 đến 3 µg/kg/phút) kích thích chọn lọc lên thụ thể _____.
 
 Trả lời: 
 
-97. Thuốc tăng co bóp cơ tim Dobutamin tác động kích thích chủ yếu và chọn lọc lên thụ thể _____ trên màng tế bào cơ tim.
+97. [PED - Lâm sàng] Thuốc vận mạch co mạch đầu tay được lựa chọn khi suy tim cấp có tụt huyết áp nặng trơ với Dopamin và Dobutamin là _____ với liều truyền từ _____.
 
 Trả lời: 
 
-98. Thuốc vận mạch Dopamin ở dải liều thấp (1 đến 3 µg/kg/phút) kích thích chọn lọc lên thụ thể _____.
+98. [PED - Lâm sàng] Khi truyền Nitroprusside kéo dài trên 48 đến 72 giờ hoặc ở bệnh nhân có suy giảm chức năng thận, cần cảnh giác nguy cơ ngộ độc chuyển hóa do tích lũy _____.
 
 Trả lời: 
 
-99. Thuốc vận mạch co mạch đầu tay được lựa chọn khi suy tim cấp có tụt huyết áp nặng trơ với Dopamin và Dobutamin là _____ với liều truyền từ _____.
+99. [PED - Lâm sàng] Triệu chứng ngộ độc Digoxin trên thị giác ở trẻ lớn có hiện tượng nhìn thấy quầng màu vàng hoặc màu xanh lá cây quanh nguồn sáng, thuật ngữ y khoa gọi là _____.
 
 Trả lời: 
 
-100. Khi truyền Nitroprusside kéo dài trên 48 đến 72 giờ hoặc ở bệnh nhân có suy giảm chức năng thận, cần cảnh giác nguy cơ ngộ độc chuyển hóa do tích lũy _____.
+100. [PED - Lâm sàng] Rối loạn nhịp tim được coi là đặc trưng nhất và gợi ý cao nhất cho ngộ độc Digitalis trên điện tâm đồ là _____.
 
 Trả lời: 
 
-101. Ở trẻ sơ sinh non tháng hoặc bệnh nhi có suy giảm chức năng thận, tổng liều tấn công số hóa Digoxin cần được giảm bớt _____ xuống còn _____.
+101. [PED - Lâm sàng] Kháng thể DigiFab trung hòa độc tính của Digoxin bằng cách gắn kết với phân tử Digoxin tự do với ái lực cao hơn thụ thể Na+/K+-ATPase của cơ tim tới _____.
 
 Trả lời: 
 
-102. Khi chuyển đổi thuốc Digoxin từ đường uống sang đường tiêm tĩnh mạch, liều tiêm tĩnh mạch chỉ bằng _____.
+102. [PED - Lâm sàng] Thở áp lực dương liên tục (CPAP) trong suy tim cấp có ứ huyết phổi giúp cải thiện chức năng thất trái nhờ cơ chế _____.
 
 Trả lời: 
 
-103. Triệu chứng ngộ độc Digoxin trên thị giác ở trẻ lớn có hiện tượng nhìn thấy quầng màu vàng hoặc màu xanh lá cây quanh nguồn sáng, thuật ngữ y khoa gọi là _____.
+103. [PED - Lâm sàng] Trong thang điểm Ross cải tiến, tiêu chí tần số tim lúc nghỉ ngơi được tính 2 điểm khi tần số tim tăng cao hơn bình thường theo tuổi trên _____.
 
 Trả lời: 
 
-104. Các triệu chứng ngộ độc Digoxin trên đường tiêu hóa thường xuất hiện sớm nhất bao gồm: _____.
+104. [PED - Lâm sàng] Trong thang điểm Ross cải tiến, tiêu chí tần số thở lúc nghỉ ngơi được tính 2 điểm khi tần số thở tăng cao hơn giới hạn bình thường theo tuổi trên _____.
 
 Trả lời: 
 
-105. Rối loạn nhịp tim được coi là đặc trưng nhất và gợi ý cao nhất cho ngộ độc Digitalis trên điện tâm đồ là _____.
+105. [PED - Lâm sàng] Trong thang điểm Ross cải tiến, tiêu chí kích thước gan to dưới bờ sườn phải được tính 2 điểm khi bờ dưới gan vượt quá _____.
 
 Trả lời: 
 
-106. Kháng thể DigiFab trung hòa độc tính của Digoxin bằng cách gắn kết với phân tử Digoxin tự do với ái lực cao hơn thụ thể Na+/K+-ATPase của cơ tim tới _____.
+106. [PED - Lâm sàng] Đường Kerley B trên X-quang ngực thẳng là các đường mờ mảnh dài 1 đến 2 cm nằm ngang sát màng phổi ở góc sườn hoành, hình thành do _____.
 
 Trả lời: 
 
-107. Trong xử trí cơn phù phổi cấp do suy tim trái, tư thế nằm đầu cao Fowler góc 30 đến 45 độ giúp làm giảm tải lượng máu tĩnh mạch hồi lưu từ hai chi dưới về buồng tim phải theo cơ chế _____.
+107. [PED - Lâm sàng] Tiêu chuẩn điện tâm đồ dày tâm thất phải ở trẻ nhũ nhi bao gồm: Trục điện tim chuyển sang _____; Sóng R ưu thế ở _____; và sóng T _____.
 
 Trả lời: 
 
-108. Thở áp lực dương liên tục (CPAP) trong suy tim cấp có ứ huyết phổi giúp cải thiện chức năng thất trái nhờ cơ chế _____.
+108. [PED - Lâm sàng] Tiêu chuẩn điện tâm đồ dày tâm thất trái ở trẻ em được xác định khi chỉ số Sokolow-Lyon (biên độ sóng S ở V1 cộng biên độ sóng R ở V5 hoặc V6) vượt quá _____.
 
 Trả lời: 
 
-109. Trong thang điểm Ross cải tiến, tiêu chí tần số tim lúc nghỉ ngơi được tính 2 điểm khi tần số tim tăng cao hơn bình thường theo tuổi trên _____.
+109. [PED - Lâm sàng] Trên siêu âm tim Doppler, vận tốc tối đa của dòng hở van ba lá (V_TR) cho phép ước tính áp lực động mạch phổi tâm thu (PASP) thông qua phương trình Bernoulli cải tiến: PASP = _____.
 
 Trả lời: 
 
-110. Trong thang điểm Ross cải tiến, tiêu chí tần số thở lúc nghỉ ngơi được tính 2 điểm khi tần số thở tăng cao hơn giới hạn bình thường theo tuổi trên _____.
+110. [PED - Lâm sàng] Trong Case 1 viêm cơ tim cấp gây sốc tim ở trẻ 8 tháng, phân suất tống máu LVEF giảm nặng xuống 28%, thuốc tăng co bóp inotrope đường truyền TM phối hợp đầu tay là _____.
 
 Trả lời: 
 
-111. Chỉ số tim - ngực (CTR) trên phim X-quang tim phổi thẳng ở trẻ sơ sinh được coi là bóng tim to bệnh lý khi tỷ lệ này vượt quá _____.
+111. [PED - Lâm sàng] Trong Case 1 viêm cơ tim cấp, liệu pháp miễn dịch đặc hiệu liều cao giúp trung hòa kháng thể và giảm viêm cơ tim là truyền _____.
 
 Trả lời: 
 
-112. Đường Kerley B trên X-quang ngực thẳng là các đường mờ mảnh dài 1 đến 2 cm nằm ngang sát màng phổi ở góc sườn hoành, hình thành do _____.
+112. [PED - Lâm sàng] Trong Case 2 thông liên thất lớn gây suy tim độ 3 ở trẻ 2 tháng tuổi, thuốc ức chế men chuyển _____ được phối hợp với lợi tiểu nhằm mục đích _____.
 
 Trả lời: 
 
-113. Hội chứng suy tuần hoàn ngoại vi trong sốc tim được xác định khi thời gian đổ đầy mao mạch (Capillary Refill Time - CRT) kéo dài trên _____.
+113. [PED - Lâm sàng] Trong Case 2 thông liên thất lớn có suy tim và suy dinh dưỡng nặng, chỉ định ngoại khoa vàng là _____.
 
 Trả lời: 
 
-114. Ở bệnh nhi suy tim nhũ nhi đang điều trị nội khoa, mức tăng cân đột ngột vượt quá _____ phản ánh tình trạng ứ dịch chứ không phải tăng trưởng dinh dưỡng.
+114. [PED - Lâm sàng] Cạm bẫy lâm sàng: Khi thấy trẻ suy tim thở nhanh và nhịp tim nhanh, sai lầm chết người là truyền dịch nhanh (bolus) vì sẽ gây _____.
 
 Trả lời: 
 
-115. Để tránh tiêu hao năng lượng quá mức cho công hô hấp ở trẻ suy tim nhũ nhi, thời gian cho mỗi cữ bú bình hoặc bú mẹ tuyệt đối không nên kéo dài quá _____.
+115. [PED - Lâm sàng] Cạm bẫy lâm sàng: Sốc điện khử rung khi bệnh nhân ngộ độc Digoxin xuất hiện loạn nhịp tim có thể kích hoạt _____.
+
+Trả lời: 
+
+116. [PED - Lâm sàng] Cạm bẫy lâm sàng: Ngừng đột ngột thuốc chẹn beta giao cảm Carvedilol đang dùng duy trì sẽ gây _____.
+
+Trả lời: 
+
+117. [PED - Lâm sàng] Tip thực hành: Điều dưỡng hoặc bác sĩ nên dùng bút dạ y tế gạch một đường nhỏ đánh dấu _____ để theo dõi đáp ứng với Furosemid trực quan.
+
+Trả lời: 
+
+118. [PED - Lâm sàng] Tip thực hành: Đục lỗ núm vú bình sữa rộng hơn một chút cho trẻ suy tim bú nhằm mục đích _____.
+
+Trả lời: 
+
+119. [PED - Lâm sàng] Tip thực hành: Hạn chế tối đa làm các thủ thuật gây đau đớn dồn dập cho trẻ suy tim vì _____.
+
+Trả lời: 
+
+120. [PED - Lâm sàng] Checkpoint: Ở trẻ mắc thông liên thất lớn, triệu chứng suy tim sung huyết thường không xuất hiện ngay sau sinh mà bùng phát lúc 6-8 tuần tuổi vì _____.
+
+Trả lời: 
+
+121. [PED - Lâm sàng] Checkpoint: Tiếng rung tâm trương ngắn nghe được ở mỏm tim trong thông liên thất lớn phản ánh tình trạng _____ chứ không phải hẹp van hai lá thực thể.
+
+Trả lời: 
+
+122. [PED - Lâm sàng] Tiêu chuẩn xuất viện an toàn của trẻ suy tim: Trẻ tự ăn bú tốt, hết khó thở, phổi sạch ran, gan thu nhỏ _____, và phác đồ thuốc chuyển sang đường uống ổn định tối thiểu _____.
 
 Trả lời: 
 
@@ -1031,31 +1079,31 @@ Trả lời:
 
 1. Tình huống ngắn: Bạn đang gặp một ca/bối cảnh liên quan đến nội dung sau. Hãy trả lời như khi đi lâm sàng.
 
-Nêu các triệu chứng lâm sàng kinh điển của suy tim phải ở trẻ em?
+Trình bày triệu chứng lâm sàng và cận lâm sàng của suy tim phải?
 
 Trả lời: 
 
 2. Tình huống ngắn: Bạn đang gặp một ca/bối cảnh liên quan đến nội dung sau. Hãy trả lời như khi đi lâm sàng.
 
-Trình bày phân độ suy tim trẻ em theo lâm sàng Việt Nam (Độ 1 đến Độ 4)?
+Trình bày Bảng phân độ suy tim trẻ em Việt Nam (Độ 1 đến Độ 4)?
 
 Trả lời: 
 
 3. Tình huống ngắn: Bạn đang gặp một ca/bối cảnh liên quan đến nội dung sau. Hãy trả lời như khi đi lâm sàng.
 
-Trình bày phác đồ số hóa nhanh (Digitalization) liều tấn công Digoxin ở trẻ em?
+Trình bày phác đồ số hóa nhanh liều tấn công và liều duy trì của Digoxin?
 
 Trả lời: 
 
 4. Tình huống ngắn: Bạn đang gặp một ca/bối cảnh liên quan đến nội dung sau. Hãy trả lời như khi đi lâm sàng.
 
-Trình bày các bước cấp cứu ngộ độc Digoxin ở trẻ em?
+Trình bày các bước điều trị ngộ độc Digoxin và quy tắc bù kali?
 
 Trả lời: 
 
 5. Tình huống ngắn: Bạn đang gặp một ca/bối cảnh liên quan đến nội dung sau. Hãy trả lời như khi đi lâm sàng.
 
-Tại sao bệnh nhân suy tim đang dùng Furosemid lại có nguy cơ ngộ độc Digoxin rất cao?
+Chỉ ra điểm đính chính quan trọng về liều Norepinephrin và hình ảnh X-quang trong giáo trình gốc?
 
 Trả lời: 
 
@@ -1064,330 +1112,372 @@ Trả lời:
 
 1. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Suy tim ở trẻ em là tình trạng tim không còn khả năng đảm bảo _____ đáp ứng nhu cầu chuyển hóa và oxy của cơ thể ở áp lực đổ đầy bình thường.
+[PEDYTB - Ôn thi] Định nghĩa suy tim ở trẻ em trong giáo trình là tình trạng tim không còn khả năng đảm bảo _____ đáp ứng nhu cầu của cơ thể.
 
 Trả lời: 
 
 2. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Theo thống kê kinh điển của Demopoulos và Sonnenblick, tỷ lệ tử vong trong vòng 5 năm đầu ở những bệnh nhân mới phát hiện suy tim là _____ nếu không được can thiệp nguyên nhân kịp thời.
+[PEDYTB - Ôn thi] Về tiên lượng, tỷ lệ tử vong ở những người suy tim nặng lên đến _____; ngay cả những người mới bị suy tim thì hơn một nửa sẽ chết trong vòng _____.
 
 Trả lời: 
 
 3. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Khác với người lớn, triệu chứng lâm sàng của suy tim ở trẻ nhũ nhi chủ yếu bộc lộ qua đường _____.
+[PEDYTB - Ôn thi] Đặc điểm chung thứ tư của suy tim trẻ em trong giáo trình là: Triệu chứng lâm sàng không giống người lớn mà chủ yếu biểu hiện bằng _____.
 
 Trả lời: 
 
 4. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Ở trẻ sơ sinh và trẻ nhũ nhi, do thể tích nhát bóp (SV) gần như cố định, cung lượng tim phụ thuộc chủ yếu vào _____.
+[PED - Lâm sàng] Theo hướng dẫn ISHLT 2025 cập nhật, suy tim trẻ em thứ phát sau bệnh cơ tim, bệnh tim mắc phải và tim bẩm sinh gắn liền với _____.
 
 Trả lời: 
 
 5. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Hậu quả huyết động của suy tim trái là gây tăng áp lực mao mạch phổi bít, dẫn đến _____.
+[PED - Lâm sàng] Ở trẻ sơ sinh và trẻ nhũ nhi, do thể tích nhát bóp (SV) gần như cố định, cung lượng tim phụ thuộc chủ yếu vào _____.
 
 Trả lời: 
 
 6. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Bệnh Beriberi thể ướt (Shoshin Beriberi) là một nguyên nhân gây suy tim cấp cung lượng cao ở trẻ nhỏ do thiếu hụt _____.
+[PEDYTB - Ôn thi] Hậu quả của suy tim: Giảm cung lượng tim làm giảm oxy tới các mô và _____.
 
 Trả lời: 
 
 7. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Đặc điểm gan to trong suy tim phải giai đoạn đầu được mô tả là kiểu _____.
+[PED - Lâm sàng] Bệnh Beriberi thể ướt (Shoshin Beriberi) là nguyên nhân suy tim cấp cung lượng cao ở trẻ nhỏ do thiếu hụt _____.
 
 Trả lời: 
 
 8. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Dấu hiệu phản hồi gan - tĩnh mạch cổ (Hepatojugular Reflux) được coi là dương tính khi _____.
+[PEDYTB - Ôn thi] Nhóm nguyên nhân do rối loạn nhịp tim gồm: Nhịp tim nhanh (_____); Nhịp tim chậm (_____); và các rối loạn nhịp tim khác.
 
 Trả lời: 
 
 9. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Theo phân độ lâm sàng suy tim trẻ em Việt Nam, Suy tim Độ 1 được đặc trưng bởi: Khó thở _____; Kích thước gan dưới sườn phải _____; _____.
+[PED - Lâm sàng] Sốc tim ở trẻ sơ sinh trong tuần đầu sau sinh ngay khi ống động mạch đóng lại là dấu hiệu cảnh báo của _____.
 
 Trả lời: 
 
 10. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Theo phân độ lâm sàng suy tim trẻ em Việt Nam, Suy tim Độ 4 được đặc trưng bởi: Khó thở nặng liên tục; Gan to mạn tính _____; Tiên lượng _____.
+[PEDYTB - Ôn thi] Triệu chứng thực thể của suy tim phải: Gan to (lúc đầu kiểu _____, sau cứng không nhỏ); tĩnh mạch cổ nổi và phản hồi gan - TM cổ (+); tăng áp lực CVP; tím; phù (lúc đầu hai chi dưới, sau toàn thân/đa màng); đái ít sẫm màu; dấu hiệu _____; huyết áp tối đa bình thường, tối thiểu _____.
 
 Trả lời: 
 
 11. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Phân loại chức năng suy tim theo Hội Tim mạch New York (NYHA) chủ yếu được áp dụng cho đối tượng _____ (do đòi hỏi đánh giá mức độ hạn chế hoạt động thể lực gắng sức).
+[PEDYTB - Ôn thi] Bệnh cảnh suy tim cấp ở trẻ em: Thường gặp suy tim trái hoặc toàn bộ tiến triển nhanh chóng, bệnh cảnh giống như _____.
 
 Trả lời: 
 
 12. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Chế độ ăn hạn chế muối (ăn nhạt) ở trẻ suy tim nặng đòi hỏi kiểm soát lượng muối đưa vào dưới mức _____ (tương đương dưới 0,5 g Natri/ngày).
+[PEDYTB - Ôn thi] Triệu chứng suy tuần hoàn ngoại vi trong suy tim cấp: Tinh thần kích thích vật vã; trẻ tái nhợt, chi lạnh, vã mồ hôi, vân tím; mạch nhanh nhỏ khó bắt; thời gian CRT _____; huyết áp _____.
 
 Trả lời: 
 
 13. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc lợi tiểu quai đầu tay điều trị suy tim cấp ở trẻ em là _____, với liều tiêm tĩnh mạch thông thường từ _____ (tối đa 6 mg/kg/ngày).
+[PEDYTB - Ôn thi] Đánh giá mức độ suy tim theo NYHA gồm 4 độ: Độ I (có bệnh tim nhưng _____); Độ II (triệu chứng chỉ xuất hiện khi _____); Độ III (triệu chứng xuất hiện cả khi _____); Độ IV (triệu chứng xuất hiện _____).
 
 Trả lời: 
 
 14. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Hai tác dụng phụ rối loạn điện giải thường gặp nhất và nguy hiểm nhất khi sử dụng Furosemid liều cao kéo dài là _____.
+[PEDYTB - Ôn thi] Bảng phân độ suy tim trẻ em Việt Nam - Độ 1: Khó thở _____; Kích thước gan _____; Phù _____; Nước tiểu _____.
 
 Trả lời: 
 
 15. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc lợi tiểu kháng Aldosterone _____ có liều dùng từ _____ uống chia 1-2 lần.
+[PEDYTB - Ôn thi] Bảng phân độ suy tim trẻ em Việt Nam - Độ 4: Khó thở _____; Kích thước gan _____; Phù _____; Nước tiểu _____; Tiên lượng _____.
 
 Trả lời: 
 
 16. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc ức chế men chuyển đầu tay thường dùng ở trẻ nhỏ là _____, với liều khởi đầu thăm dò từ _____ uống ngày 3 lần trước bữa ăn.
+[PEDYTB - Ôn thi] Liều dùng thuốc lợi tiểu quai Furosemid theo giáo trình là _____; chú ý cần đề phòng _____.
 
 Trả lời: 
 
 17. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Hai thông số xét nghiệm bắt buộc phải kiểm tra lại sau 1 đến 2 tuần bắt đầu dùng hoặc tăng liều thuốc ức chế men chuyển là _____.
+[PEDYTB - Ôn thi] Liều dùng thuốc lợi tiểu Thiazide theo giáo trình là _____; chú ý _____.
 
 Trả lời: 
 
 18. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc chẹn beta giao cảm được khuyến cáo hàng đầu trong suy tim mạn tính ở trẻ em là _____, với liều bắt đầu cực thấp từ _____ ngày 2 lần.
+[PEDYTB - Ôn thi] Liều dùng thuốc lợi tiểu Spironolacton theo giáo trình là _____; Liều dùng Triamteren là _____.
 
 Trả lời: 
 
 19. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Nguyên tắc bất di bất dịch khi chỉ định Carvedilol cho trẻ suy tim là _____ và chỉ bắt đầu khi _____.
+[PED - Lâm sàng] Trong điều trị suy tim trẻ em bằng Furosemid đường uống, sinh khả dụng chỉ đạt khoảng 50% so với đường tiêm tĩnh mạch, do đó liều uống thường _____.
 
 Trả lời: 
 
 20. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc inotrope ức chế enzyme Phosphodiesterase-3 được ưu tiên hàng đầu trong suy tim cấp có huyết áp còn ổn định là _____, với liều truyền duy trì từ _____.
+[PEDYTB - Ôn thi] Tác dụng của Glycosid trợ tim (Digoxin) trên tim gồm 4 tác dụng: Làm tăng _____; làm chậm _____; làm chậm _____; làm tăng _____.
 
 Trả lời: 
 
 21. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Ở bệnh nhân suy tim cấp có huyết áp tâm thu còn thấp hoặc ranh giới, khi bắt đầu truyền Milrinone nên _____ để phòng ngừa nguy cơ tụt huyết áp cấp tính.
+[PEDYTB - Ôn thi] Liều tấn công số hóa nhanh của Digoxin theo giáo trình là _____ chia làm 3 lần cách nhau 8 giờ theo tỷ lệ: Lần 1 uống _____; Lần 2 (sau 8h) uống _____; Lần 3 (sau 8h tiếp) uống _____.
 
 Trả lời: 
 
 22. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc tăng co bóp cơ tim Catecholamine kinh điển _____ có liều truyền tĩnh mạch liên tục từ _____.
+[PEDYTB - Ôn thi] Liều duy trì của Digoxin theo giáo trình là _____ chia làm _____.
 
 Trả lời: 
 
 23. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc vận mạch _____ ở dải liều inotrope tăng co bóp cơ tim là _____; trong khi ở dải liều cao co mạch tăng huyết áp là _____.
+[PED - Lâm sàng] Ở trẻ sơ sinh non tháng hoặc bệnh nhi có suy giảm chức năng thận, tổng liều tấn công số hóa Digoxin cần được giảm bớt _____ xuống còn _____.
 
 Trả lời: 
 
 24. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc giãn mạch trực tiếp truyền tĩnh mạch _____ có liều dùng từ _____ (tối đa 8 µg/kg/phút).
+[PED - Lâm sàng] Khi chuyển đổi thuốc Digoxin từ đường uống sang đường tiêm tĩnh mạch, liều tiêm tĩnh mạch chỉ bằng _____.
 
 Trả lời: 
 
 25. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Bốn tác dụng điện sinh lý kinh điển của Digoxin trên tim gồm: _____.
+[PED - Lâm sàng] Nồng độ trị liệu an toàn của Digoxin trong huyết thanh nằm trong khoảng hẹp từ _____ (nguy cơ ngộ độc tăng vọt khi nồng độ > 1,2 - 2,0 ng/mL).
 
 Trả lời: 
 
 26. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Quy trình số hóa nhanh (Digitalization) liều tấn công Digoxin đường uống ở trẻ nhỏ có tổng liều từ _____, được chia làm 3 lần trong 24 giờ theo tỷ lệ _____ (cách nhau mỗi 8 giờ).
+[PEDYTB - Ôn thi] Yếu tố thuận lợi gây ngộ độc Digoxin theo giáo trình gồm: Quá liều, suy thận, rối loạn điện giải như _____.
 
 Trả lời: 
 
 27. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Liều duy trì Digoxin đường uống hàng ngày ở trẻ em là từ _____ chia làm 2 lần cách nhau mỗi 12 giờ.
+[PEDYTB - Ôn thi] Triệu chứng lâm sàng ngộ độc Digoxin theo giáo trình: Tiêu hóa (_____); Thần kinh - thị giác (_____); Tim mạch (_____).
 
 Trả lời: 
 
 28. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Nồng độ trị liệu an toàn của Digoxin trong huyết thanh nằm trong khoảng hẹp từ _____ (nguy cơ ngộ độc tăng vọt khi nồng độ > 1,2 - 2,0 ng/mL).
+[PEDYTB - Ôn thi] Quy tắc bù kali trong điều trị ngộ độc Digoxin theo giáo trình: Uống hoặc truyền dung dịch có kali với nồng độ _____ với tốc độ tối đa _____ (chống chỉ định nếu có _____).
 
 Trả lời: 
 
 29. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Yếu tố rối loạn điện giải nguy hiểm nhất thúc đẩy bùng phát ngộ độc Digoxin dù ở liều điều trị chuẩn là _____.
+[PED - Lâm sàng] Công thức ước tính số lọ kháng thể DigiFab cần dùng khi biết nồng độ Digoxin huyết thanh là: Số lọ Fab = _____.
 
 Trả lời: 
 
 30. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Bước đầu tiên mang tính sống còn khi nghi ngờ bệnh nhân bị ngộ độc Digoxin là _____ và _____.
+[PED - Lâm sàng] Ở bệnh nhân ngộ độc Digoxin xuất hiện loạn nhịp tim, thủ thuật _____ bị CHỐNG CHỈ ĐỊNH tương đối vì có thể kích hoạt rung thất trơ không thể hồi phục.
 
 Trả lời: 
 
 31. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Trong điều trị ngộ độc Digoxin, nguyên tắc bù Kali tĩnh mạch là pha dịch truyền có nồng độ KCl không vượt quá _____ và tốc độ truyền tối đa không quá _____.
+[PEDYTB - Ôn thi] Liều truyền tĩnh mạch liên tục của Dopamin theo giáo trình là _____; Liều của Dobutamin là _____.
 
 Trả lời: 
 
 32. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Ở bệnh nhân ngộ độc Digoxin xuất hiện loạn nhịp tim, thủ thuật _____ bị CHỐNG CHỈ ĐỊNH tương đối vì có thể kích hoạt rung thất trơ không thể hồi phục.
+[PEDYTB - Đính chính]: Bản in giáo trình gốc in nhầm đơn vị Norepinephrin là '0,25 - 1 mg/kg/phút', thực tế lâm sàng bắt buộc phải là _____ truyền tĩnh mạch.
 
 Trả lời: 
 
 33. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc giãn mạch đường uống ức chế trực tiếp cơ trơn tiểu động mạch _____ có liều dùng từ _____ chia làm 3 đến 4 lần.
+[PEDYTB - Ôn thi] Liều dùng các thuốc giãn mạch theo giáo trình: Nitroprusside _____ (truyền TM chậm bọc giấy bạc); Hydralazine _____ chia 3 lần; Prazosine ban đầu _____, duy trì _____ chia 4 lần; Captopril _____ chia 3 lần.
 
 Trả lời: 
 
 34. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc chẹn thụ thể alpha-1 adrenergic đường uống _____ có liều khởi đầu thăm dò từ _____, sau đó tăng dần theo đáp ứng huyết áp.
+[PED - Lâm sàng] Thuốc inotrope ức chế enzyme Phosphodiesterase-3 được ưu tiên hàng đầu trong suy tim cấp có huyết áp còn ổn định là _____, với liều truyền duy trì từ _____.
 
 Trả lời: 
 
 35. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc lợi tiểu giữ Kali ức chế trực tiếp kênh Natri biểu mô ở ống lượn xa và ống góp không phụ thuộc Aldosterone là _____, với liều dùng từ _____.
+[PED - Lâm sàng] Ở bệnh nhân suy tim cấp có huyết áp tâm thu còn thấp hoặc ranh giới, khi bắt đầu truyền Milrinone nên _____ để phòng ngừa nguy cơ tụt huyết áp cấp tính.
 
 Trả lời: 
 
 36. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Trong điều trị suy tim trẻ em bằng Furosemid đường uống, sinh khả dụng chỉ đạt khoảng 50% so với đường tiêm tĩnh mạch, do đó liều uống thường _____.
+[PED - Lâm sàng] Thuốc chẹn beta giao cảm được khuyến cáo hàng đầu trong suy tim mạn tính ở trẻ em là _____, với liều bắt đầu cực thấp từ _____ ngày 2 lần.
 
 Trả lời: 
 
 37. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Công thức ước tính số lọ kháng thể DigiFab cần dùng trong ngộ độc Digoxin cấp tính khi biết nồng độ máu là: Số lọ Fab = _____.
+[PED - Lâm sàng] Nguyên tắc bất di bất dịch khi chỉ định Carvedilol cho trẻ suy tim là _____ và chỉ bắt đầu khi _____.
 
 Trả lời: 
 
 38. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Trong thang điểm Ross cải tiến, tiêu chí lượng sữa bú mỗi cữ của trẻ nhũ nhi được tính 2 điểm khi lượng sữa giảm xuống mức _____ (hoặc bú không đủ no).
+[PEDYTB - Ôn thi] Các biện pháp phòng bệnh suy tim theo giáo trình gồm: 1. Giải quyết sớm nguyên nhân và yếu tố thuận lợi; 2. Phòng tim bẩm sinh (_____); 3. Quản lý và điều trị dự phòng viêm họng liên cầu để _____.
 
 Trả lời: 
 
 39. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Trình bày phân độ suy tim trẻ em theo lâm sàng Việt Nam (Độ 1 đến Độ 4)?
+[PED - Lâm sàng] Sai lầm chết người thường gặp ở trẻ suy tim thở nhanh kèm ran ẩm ở phổi là chẩn đoán nhầm thành _____ và điều trị bằng kháng sinh kéo dài vô ích.
 
 Trả lời: 
 
 40. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Trình bày phác đồ số hóa nhanh (Digitalization) liều tấn công Digoxin ở trẻ em?
+[PED - Lâm sàng] Ở trẻ tim bẩm sinh có luồng shunt Trái - Phải lớn (như VSD lớn), việc cho thở oxy nồng độ cao (FiO2 100%) là sai lầm nguy hiểm vì _____.
 
 Trả lời: 
 
 41. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Trình bày các bước cấp cứu ngộ độc Digoxin ở trẻ em?
+[PED - Lâm sàng] Để tránh hiện tượng tụt huyết áp tư thế phối hợp đột ngột, thuốc ức chế men chuyển Captopril nên được cho uống cách thời điểm tiêm hoặc uống Furosemid ít nhất _____.
 
 Trả lời: 
 
 42. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Vì sao thở oxy nồng độ cao là chống chỉ định tương đối ở trẻ tim bẩm sinh shunt Trái - Phải lớn có suy tim?
+Trình bày định nghĩa và 4 đặc điểm chung của suy tim ở trẻ em?
 
 Trả lời: 
 
 43. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Tại sao bệnh nhân suy tim đang dùng Furosemid lại có nguy cơ ngộ độc Digoxin rất cao?
+Trình bày triệu chứng lâm sàng và cận lâm sàng của suy tim phải?
 
 Trả lời: 
 
 44. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc lợi tiểu Thiazide thường dùng duy trì ở trẻ em là _____, với liều lượng từ _____ uống chia làm 2 lần.
+Trình bày Bảng phân độ suy tim trẻ em Việt Nam (Độ 1 đến Độ 4)?
 
 Trả lời: 
 
 45. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Trong điều trị kháng thuốc lợi tiểu ở trẻ suy tim nặng, thuốc lợi tiểu thiazide-like đường uống thường được phối hợp với Furosemid là _____, với liều dùng từ _____.
+Trình bày phác đồ số hóa nhanh liều tấn công và liều duy trì của Digoxin?
 
 Trả lời: 
 
 46. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc ức chế men chuyển tác dụng kéo dài dùng cho trẻ lớn có thể uống 1 đến 2 lần mỗi ngày là _____, với liều duy trì từ _____.
+Trình bày các bước điều trị ngộ độc Digoxin và quy tắc bù kali?
 
 Trả lời: 
 
 47. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Mục tiêu liều đích duy trì của thuốc chẹn beta Carvedilol trong điều trị suy tim mạn tính ở trẻ em là _____ (chia làm 2 lần uống).
+Chỉ ra điểm đính chính quan trọng về liều Norepinephrin và hình ảnh X-quang trong giáo trình gốc?
 
 Trả lời: 
 
 48. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc vận mạch Dopamin ở dải liều thấp (1 đến 3 µg/kg/phút) kích thích chọn lọc lên thụ thể _____.
+[PED - Lâm sàng] Thuốc lợi tiểu Thiazide thường dùng duy trì ở trẻ em là _____, với liều lượng từ _____ uống chia làm 2 lần.
 
 Trả lời: 
 
 49. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Thuốc vận mạch co mạch đầu tay được lựa chọn khi suy tim cấp có tụt huyết áp nặng trơ với Dopamin và Dobutamin là _____ với liều truyền từ _____.
+[PED - Lâm sàng] Trong điều trị kháng thuốc lợi tiểu ở trẻ suy tim nặng, thuốc lợi tiểu thiazide-like đường uống thường được phối hợp với Furosemid là _____, với liều dùng từ _____.
 
 Trả lời: 
 
 50. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Khi truyền Nitroprusside kéo dài trên 48 đến 72 giờ hoặc ở bệnh nhân có suy giảm chức năng thận, cần cảnh giác nguy cơ ngộ độc chuyển hóa do tích lũy _____.
+[PED - Lâm sàng] Thuốc ức chế men chuyển tác dụng kéo dài dùng cho trẻ lớn có thể uống 1 đến 2 lần mỗi ngày là _____, với liều duy trì từ _____.
 
 Trả lời: 
 
 51. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Ở trẻ sơ sinh non tháng hoặc bệnh nhi có suy giảm chức năng thận, tổng liều tấn công số hóa Digoxin cần được giảm bớt _____ xuống còn _____.
+[PED - Lâm sàng] Mục tiêu liều đích duy trì của thuốc chẹn beta Carvedilol trong điều trị suy tim mạn tính ở trẻ em là _____ (chia làm 2 lần uống).
 
 Trả lời: 
 
 52. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Khi chuyển đổi thuốc Digoxin từ đường uống sang đường tiêm tĩnh mạch, liều tiêm tĩnh mạch chỉ bằng _____.
+[PED - Lâm sàng] Thuốc vận mạch Dopamin ở dải liều thấp (1 đến 3 µg/kg/phút) kích thích chọn lọc lên thụ thể _____.
 
 Trả lời: 
 
 53. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Kháng thể DigiFab trung hòa độc tính của Digoxin bằng cách gắn kết với phân tử Digoxin tự do với ái lực cao hơn thụ thể Na+/K+-ATPase của cơ tim tới _____.
+[PED - Lâm sàng] Thuốc vận mạch co mạch đầu tay được lựa chọn khi suy tim cấp có tụt huyết áp nặng trơ với Dopamin và Dobutamin là _____ với liều truyền từ _____.
 
 Trả lời: 
 
 54. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Ở bệnh nhi suy tim nhũ nhi đang điều trị nội khoa, mức tăng cân đột ngột vượt quá _____ phản ánh tình trạng ứ dịch chứ không phải tăng trưởng dinh dưỡng.
+[PED - Lâm sàng] Khi truyền Nitroprusside kéo dài trên 48 đến 72 giờ hoặc ở bệnh nhân có suy giảm chức năng thận, cần cảnh giác nguy cơ ngộ độc chuyển hóa do tích lũy _____.
 
 Trả lời: 
 
 55. Điểm dễ sai/cần tránh trong câu này là gì?
 
-Để tránh tiêu hao năng lượng quá mức cho công hô hấp ở trẻ suy tim nhũ nhi, thời gian cho mỗi cữ bú bình hoặc bú mẹ tuyệt đối không nên kéo dài quá _____.
+[PED - Lâm sàng] Kháng thể DigiFab trung hòa độc tính của Digoxin bằng cách gắn kết với phân tử Digoxin tự do với ái lực cao hơn thụ thể Na+/K+-ATPase của cơ tim tới _____.
+
+Trả lời: 
+
+56. Điểm dễ sai/cần tránh trong câu này là gì?
+
+[PED - Lâm sàng] Trong Case 1 viêm cơ tim cấp gây sốc tim ở trẻ 8 tháng, phân suất tống máu LVEF giảm nặng xuống 28%, thuốc tăng co bóp inotrope đường truyền TM phối hợp đầu tay là _____.
+
+Trả lời: 
+
+57. Điểm dễ sai/cần tránh trong câu này là gì?
+
+[PED - Lâm sàng] Trong Case 1 viêm cơ tim cấp, liệu pháp miễn dịch đặc hiệu liều cao giúp trung hòa kháng thể và giảm viêm cơ tim là truyền _____.
+
+Trả lời: 
+
+58. Điểm dễ sai/cần tránh trong câu này là gì?
+
+[PED - Lâm sàng] Trong Case 2 thông liên thất lớn có suy tim và suy dinh dưỡng nặng, chỉ định ngoại khoa vàng là _____.
+
+Trả lời: 
+
+59. Điểm dễ sai/cần tránh trong câu này là gì?
+
+[PED - Lâm sàng] Cạm bẫy lâm sàng: Khi thấy trẻ suy tim thở nhanh và nhịp tim nhanh, sai lầm chết người là truyền dịch nhanh (bolus) vì sẽ gây _____.
+
+Trả lời: 
+
+60. Điểm dễ sai/cần tránh trong câu này là gì?
+
+[PED - Lâm sàng] Cạm bẫy lâm sàng: Sốc điện khử rung khi bệnh nhân ngộ độc Digoxin xuất hiện loạn nhịp tim có thể kích hoạt _____.
+
+Trả lời: 
+
+61. Điểm dễ sai/cần tránh trong câu này là gì?
+
+[PED - Lâm sàng] Checkpoint: Ở trẻ mắc thông liên thất lớn, triệu chứng suy tim sung huyết thường không xuất hiện ngay sau sinh mà bùng phát lúc 6-8 tuần tuổi vì _____.
+
+Trả lời: 
+
+62. Điểm dễ sai/cần tránh trong câu này là gì?
+
+[PED - Lâm sàng] Checkpoint: Tiếng rung tâm trương ngắn nghe được ở mỏm tim trong thông liên thất lớn phản ánh tình trạng _____ chứ không phải hẹp van hai lá thực thể.
 
 Trả lời: 
