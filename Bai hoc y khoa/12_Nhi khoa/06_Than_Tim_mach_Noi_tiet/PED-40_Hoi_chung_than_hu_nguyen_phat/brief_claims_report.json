@@ -1,0 +1,273 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-40_Hoi_chung_than_hu_nguyen_phat\\PED-40_RESEARCH_BRIEF.md",
+  "parsed_claim_count": 6,
+  "verified_claim_count": 6,
+  "status": "PASS",
+  "claims": [
+    {
+      "claim_id": "C-001",
+      "claim_text": "Khuyến cáo thực hành lâm sàng IPNA 2023 khuyến cáo điều trị đợt đầu hội chứng thận hư nhạy cảm steroid (SSNS) bằng Prednisolone hoặc Prednisone uống liều 60 mg/m2/ngày hoặc 2 mg/kg/ngày (tối đa 60 mg/ngày) trong 4-6 tuần, sau đó chuyển sang liều cách ngày 40 mg/m2 hoặc 1.5 mg/kg (tối đa 40 mg) trong 4-6 tuần, tổng thời gian 8-12 tuần: We recommend oral prednisolone or prednisone at a dose of 60 mg/m2/day or 2 mg/kg/day (maximum 60 mg/day) administered as a single daily morning dose for 4 to 6 weeks, followed by alternate-day prednisolone at 40 mg/m2 or 1.5 mg/kg (maximum 40 mg) for 4 to 6 weeks (total duration 8 to 12 weeks)",
+      "source_id": "36269406",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 85,
+      "population": "Trẻ em mắc hội chứng thận hư đợt đầu",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.16"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "exact numbers require abstract evidence or suitably licensed full text"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-002",
+      "claim_text": "Khuyến cáo thực hành lâm sàng IPNA 2020 định nghĩa hội chứng thận hư kháng steroid (SRNS) khi trẻ không đạt lui bệnh hoàn toàn sau 4 tuần điều trị liên tục Prednisolone hoặc Prednisone hàng ngày liều chuẩn 60 mg/m2/ngày hoặc 2 mg/kg/ngày: We recommend defining SRNS as lack of complete remission of proteinuria after 4 weeks of daily prednisolone or prednisone at standard dose of 60 mg/m2/day or 2 mg/kg/day",
+      "source_id": "32382828",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 86,
+      "population": "Trẻ em mắc hội chứng thận hư kháng steroid",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.24"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "exact numbers require abstract evidence or suitably licensed full text"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-003",
+      "claim_text": "Hướng dẫn KDIGO 2021 khuyến cáo thời gian điều trị corticosteroid đường uống đợt đầu cho hội chứng thận hư ở trẻ em là từ 8 đến 12 tuần (4 đến 6 tuần liều hàng ngày 60 mg/m2 hoặc 2 mg/kg tiếp theo bởi 4 đến 6 tuần liều cách ngày 40 mg/m2 hoặc 1.5 mg/kg): We recommend that oral corticosteroids (prednisone or prednisolone) be administered for 8 to 12 weeks for the initial treatment of nephrotic syndrome in children, either as daily 60 mg/m2 or 2 mg/kg for 4 to 6 weeks followed by alternate-day 40 mg/m2 or 1.5 mg/kg for 4 to 6 weeks",
+      "source_id": "34556256",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 87,
+      "population": "Trẻ em mắc hội chứng thận hư",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.43"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "exact numbers require abstract evidence or suitably licensed full text"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-004",
+      "claim_text": "Tổng quan hệ thống Cochrane 2020 cho thấy việc kéo dài thời gian điều trị corticosteroid đợt đầu trên 2 đến 3 tháng (8-12 tuần) không làm giảm nguy cơ tái phát so với phác đồ chuẩn 2 đến 3 tháng (RR 0.95, 95% CI 0.81 đến 1.12) mà còn làm gia tăng các tác dụng phụ của thuốc: When studies with low risk of bias were analysed separately, there was no significant difference in the risk of relapse between children treated for two to three months compared with longer durations (RR 0.95, 95% CI 0.81 to 1.12)",
+      "source_id": "35659203",
+      "verification": "DATA VERIFIED",
+      "quote": "",
+      "line": 88,
+      "population": "Trẻ em mắc hội chứng thận hư nhạy cảm steroid",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.38"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "exact numbers require abstract evidence or suitably licensed full text"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-005",
+      "claim_text": "Nghiên cứu đa trung tâm của Hiệp hội Thận Nhi vùng Trung Tây Hoa Kỳ (MWPNC) trên 988 trẻ mắc hội chứng thận hư ghi nhận biến chứng tắc mạch huyết khối xảy ra ở 2.8% bệnh nhân, và lứa tuổi trên 12 tuổi là yếu tố nguy cơ độc lập: In this multicenter study of children with nephrotic syndrome from the Midwest Pediatric Nephrology Consortium (MWPNC), thromboembolic complications occurred in 2.8% of patients. Children aged > 12 years are at much greater risk of thromboembolism",
+      "source_id": "19394032",
+      "verification": "DATA VERIFIED",
+      "quote": "",
+      "line": 89,
+      "population": "Trẻ em mắc hội chứng thận hư",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.56"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-006",
+      "claim_text": "Đồng thuận Hội Thận Nhi khoa Ý (SINePe 2017) khuyến cáo điều trị đợt đầu hội chứng thận hư trẻ em gồm Prednisone hàng ngày 60 mg/m2/ngày (tối đa 60 mg/ngày) trong 4-6 tuần, tiếp theo bằng Prednisone cách ngày 40 mg/m2 (tối đa 40 mg) trong 4-6 tuần: Initial treatment of pediatric nephrotic syndrome consists of daily prednisone at 60 mg/m2/day (maximum 60 mg/day) for 4 to 6 weeks followed by alternate-day prednisone at 40 mg/m2 (maximum 40 mg) for 4 to 6 weeks",
+      "source_id": "28427453",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 90,
+      "population": "Trẻ em khởi phát hội chứng thận hư lần đầu",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.22"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "exact numbers require abstract evidence or suitably licensed full text"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    }
+  ],
+  "bundle_hash": "ddb44d174339dac1b1b1fea3ae86e1759e5bb60172f91eb229fccdb1b448a90e"
+}

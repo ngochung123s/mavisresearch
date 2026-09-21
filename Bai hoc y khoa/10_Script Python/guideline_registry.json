@@ -294,5 +294,54 @@
         "url": "https://www.sciencedirect.com/science/article/pii/S1053249825012482"
       }
     }
+  },
+  "IPNA": {
+    "society": "International Pediatric Nephrology Association",
+    "url_base": "https://theipna.org",
+    "tier": 0,
+    "guidelines": {
+      "IPNA 2023 - Steroid-Sensitive Nephrotic Syndrome": {
+        "year": 2023,
+        "title": "IPNA clinical practice recommendations for the diagnosis and management of children with steroid-sensitive nephrotic syndrome",
+        "pmid": "36269406",
+        "doi": "10.1007/s00467-022-05739-3",
+        "url": "https://doi.org/10.1007/s00467-022-05739-3"
+      },
+      "IPNA 2020 - Steroid-Resistant Nephrotic Syndrome": {
+        "year": 2020,
+        "title": "IPNA clinical practice recommendations for the diagnosis and management of children with steroid-resistant nephrotic syndrome",
+        "pmid": "32382828",
+        "doi": "10.1007/s00467-020-04519-1",
+        "url": "https://doi.org/10.1007/s00467-020-04519-1"
+      }
+    }
+  },
+  "KDIGO": {
+    "society": "Kidney Disease: Improving Global Outcomes",
+    "url_base": "https://kdigo.org",
+    "tier": 0,
+    "guidelines": {
+      "KDIGO 2021 - Glomerular Diseases": {
+        "year": 2021,
+        "title": "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases",
+        "pmid": "34556256",
+        "doi": "10.1016/j.kint.2021.05.021",
+        "url": "https://doi.org/10.1016/j.kint.2021.05.021"
+      }
+    }
+  },
+  "SINePe": {
+    "society": "Italian Society for Pediatric Nephrology",
+    "url_base": "https://doi.org",
+    "tier": 0,
+    "guidelines": {
+      "SINePe 2017 - Nephrotic Syndrome in Children": {
+        "year": 2017,
+        "title": "The Italian Society for Pediatric Nephrology (SINePe) consensus document on the management of nephrotic syndrome in children: Part I",
+        "pmid": "28427453",
+        "doi": "10.1186/s13052-017-0356-x",
+        "url": "https://doi.org/10.1186/s13052-017-0356-x"
+      }
+    }
   }
 }

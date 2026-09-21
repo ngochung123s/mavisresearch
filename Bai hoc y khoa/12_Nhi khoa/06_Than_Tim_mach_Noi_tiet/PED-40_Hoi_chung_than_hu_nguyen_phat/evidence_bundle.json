@@ -1,0 +1,469 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-21T05:22:34.025937Z",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-40_Hoi_chung_than_hu_nguyen_phat\\raw_cache",
+  "providers": [
+    "crossref_retraction_watch",
+    "europe_pmc_metadata",
+    "openalex"
+  ],
+  "raw_objects": [
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "718bd6a96dde0f81ed919e5a969c3fb78ba2a156495d1a2f4ce434bd0b36aab6",
+      "path": "raw/openalex/718bd6a96dde0f81ed919e5a969c3fb78ba2a156495d1a2f4ce434bd0b36aab6.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "1285613e4d7cc4822148f43b80bd25a6787bf6bd9b1e1cc193280f3c58522bb0",
+      "path": "raw/crossref_retraction_watch/1285613e4d7cc4822148f43b80bd25a6787bf6bd9b1e1cc193280f3c58522bb0.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "75692508da42f90b36f72da8015765f5d2b43e23e137d7521cb7e44f24e1f6db",
+      "path": "raw/europe_pmc_metadata/75692508da42f90b36f72da8015765f5d2b43e23e137d7521cb7e44f24e1f6db.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "459e1d2e3a01185ff3adad34c427e6b34f73b24574c8e23e6fc785d63436b058",
+      "path": "raw/openalex/459e1d2e3a01185ff3adad34c427e6b34f73b24574c8e23e6fc785d63436b058.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "f2a21205974b5b94b4b180def293fd2beb9d08f0347aaa33d24f318c5ece1e5c",
+      "path": "raw/crossref_retraction_watch/f2a21205974b5b94b4b180def293fd2beb9d08f0347aaa33d24f318c5ece1e5c.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "045ad5b39a0e29187c8d6b72e09c16774d9c33963275c54542a4989254790ec7",
+      "path": "raw/europe_pmc_metadata/045ad5b39a0e29187c8d6b72e09c16774d9c33963275c54542a4989254790ec7.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "53296d8916e9aa70d32c43e57e23007c494479fb9213b0e87c0f6c6b03935448",
+      "path": "raw/openalex/53296d8916e9aa70d32c43e57e23007c494479fb9213b0e87c0f6c6b03935448.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "1022bec37dda47d6fe68178c7356946cc97406351cfb26587e1bd3a05b52e64c",
+      "path": "raw/crossref_retraction_watch/1022bec37dda47d6fe68178c7356946cc97406351cfb26587e1bd3a05b52e64c.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "0d574c0f7f78c11f702b3667dfed083edddb0f47bb09bf292fb34c480a2eeadb",
+      "path": "raw/europe_pmc_metadata/0d574c0f7f78c11f702b3667dfed083edddb0f47bb09bf292fb34c480a2eeadb.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "2e6b5d0398971a51e54a65c901322a8f6930ecbcb51e76d940658529e0da3a4b",
+      "path": "raw/openalex/2e6b5d0398971a51e54a65c901322a8f6930ecbcb51e76d940658529e0da3a4b.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "cbe661f38f83c2c5de19c5e9db45c2cc452292290f2a15806a30bc35b84a45e0",
+      "path": "raw/crossref_retraction_watch/cbe661f38f83c2c5de19c5e9db45c2cc452292290f2a15806a30bc35b84a45e0.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "04c13b4797aa9d6399e4e2fb24c708ed79700858e4a54248e8fcfe9aedbad219",
+      "path": "raw/europe_pmc_metadata/04c13b4797aa9d6399e4e2fb24c708ed79700858e4a54248e8fcfe9aedbad219.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "82b07f8fd7b35ba2b0f344ca1f9590398aa41757493874a4c4f416d6c7facef8",
+      "path": "raw/openalex/82b07f8fd7b35ba2b0f344ca1f9590398aa41757493874a4c4f416d6c7facef8.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "89af079343809451220f248b9d277c802cb1440290c6ef003107e9cdcd6d27fd",
+      "path": "raw/crossref_retraction_watch/89af079343809451220f248b9d277c802cb1440290c6ef003107e9cdcd6d27fd.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "ea0f6d886c45175da18324fc989c8865a43cbb15fb045eaa8008d792ee1535ee",
+      "path": "raw/europe_pmc_metadata/ea0f6d886c45175da18324fc989c8865a43cbb15fb045eaa8008d792ee1535ee.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "20642e60b46e09d2a18f8f86e92a2a664a482d2acc5352c5e3273b8087300b71",
+      "path": "raw/openalex/20642e60b46e09d2a18f8f86e92a2a664a482d2acc5352c5e3273b8087300b71.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "893141dc4508024095b2b1ea15e5e8f6ba261d3f2913f109b61b529471653589",
+      "path": "raw/crossref_retraction_watch/893141dc4508024095b2b1ea15e5e8f6ba261d3f2913f109b61b529471653589.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-21T05:22:34.025937Z",
+      "sha256": "d58800f403871c263c2fc825a88a69fde30b6a415f9daa0d7f8a7969dc8b5801",
+      "path": "raw/europe_pmc_metadata/d58800f403871c263c2fc825a88a69fde30b6a415f9daa0d7f8a7969dc8b5801.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "records": {
+    "pmid:36269406": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "36269406",
+        "doi": "10.1007/s00467-022-05739-3"
+      },
+      "title": "IPNA clinical practice recommendations for the diagnosis and management of children with steroid-sensitive nephrotic syndrome.",
+      "abstract": "Idiopathic nephrotic syndrome is the most frequent pediatric glomerular disease, affecting from 1.15 to 16.9 per 100,000 children per year globally. It is characterized by massive proteinuria, hypoalbuminemia, and/or concomitant edema. Approximately 85-90% of patients attain complete remission of proteinuria within 4-6 weeks of treatment with glucocorticoids, and therefore, have steroid-sensitive nephrotic syndrome (SSNS). Among those patients who are steroid sensitive, 70-80% will have at least one relapse during follow-up, and up to 50% of these patients will experience frequent relapses or become dependent on glucocorticoids to maintain remission. The dose and duration of steroid treatment to prolong time between relapses remains a subject of much debate, and patients continue to experience a high prevalence of steroid-related morbidity. Various steroid-sparing immunosuppressive drugs have been used in clinical practice; however, there is marked practice variation in the selection of these drugs and timing of their introduction during the course of the disease. Therefore, international evidence-based clinical practice recommendations (CPRs) are needed to guide clinical practice and reduce practice variation. The International Pediatric Nephrology Association (IPNA) convened a team of experts including pediatric nephrologists, an adult nephrologist, and a patient representative to develop comprehensive CPRs on the diagnosis and management of SSNS in children. After performing a systematic literature review on 12 clinically relevant PICO (Patient or Population covered, Intervention, Comparator, Outcome) questions, recommendations were formulated and formally graded at several virtual consensus meetings. New definitions for treatment outcomes to help guide change of therapy and recommendations for important research questions are given.",
+      "journal": "Pediatr Nephrol",
+      "year": "2023",
+      "publication_types": [
+        "Practice Guideline",
+        "Consensus Development Conference",
+        "Guideline"
+      ],
+      "topics": [
+        "pediatrics",
+        "nephrology"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-21T05:22:34.025937Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-21T05:22:34.025937Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "718bd6a96dde0f81ed919e5a969c3fb78ba2a156495d1a2f4ce434bd0b36aab6",
+        "1285613e4d7cc4822148f43b80bd25a6787bf6bd9b1e1cc193280f3c58522bb0",
+        "75692508da42f90b36f72da8015765f5d2b43e23e137d7521cb7e44f24e1f6db"
+      ],
+      "claim_quote": "PMID 36269406 C-001 001 1 2023 IPNA 2023 SSNS clinical practice recommendations. We recommend oral prednisolone or prednisone at a dose of 60 mg/m2/day or 2 mg/kg/day (maximum 60 mg/day) administered as a single daily morning dose for 4 to 6 weeks (4-6 weeks -6), followed by alternate-day prednisolone at 40 mg/m2 or 1.5 mg/kg (maximum 40 mg) for 4 to 6 weeks (4-6 weeks -6), total duration 8 to 12 weeks (8-12 weeks -12). Complete remission is defined as negative or trace proteinuria on dipstick (or Up/Ucr < 0.2 mg/mg or < 20 mg/mmol) for 3 consecutive days. 85-90% of patients attain complete remission.",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "current_version": true,
+        "superseded_by": null,
+        "translation_of": null,
+        "endorsement_status": "endorsed"
+      }
+    },
+    "pmid:32382828": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "32382828",
+        "doi": "10.1007/s00467-020-04519-1"
+      },
+      "title": "IPNA clinical practice recommendations for the diagnosis and management of children with steroid-resistant nephrotic syndrome.",
+      "abstract": "Idiopathic nephrotic syndrome newly affects 1-3 per 100,000 children per year. Approximately 85% of cases show complete remission of proteinuria following glucocorticoid treatment. Patients who do not achieve complete remission within 4-6 weeks of glucocorticoid treatment have steroid-resistant nephrotic syndrome (SRNS). In 10-30% of steroid-resistant patients, mutations in podocyte-associated genes can be detected, whereas an undefined circulating factor of immune origin is assumed in the remaining ones. Diagnosis and management of SRNS is a great challenge due to its heterogeneous etiology, frequent lack of remission by further immunosuppressive treatment, and severe complications including the development of end-stage kidney disease and recurrence after renal transplantation. A team of experts including pediatric nephrologists and renal geneticists from the International Pediatric Nephrology Association (IPNA), a renal pathologist, and an adult nephrologist have now developed comprehensive clinical practice recommendations on the diagnosis and management of SRNS in children. The team performed a systematic literature review on 9 clinically relevant PICO (Patient or Population covered, Intervention, Comparator, Outcome) questions, formulated recommendations and formally graded them at a consensus meeting, with input from patient representatives and a dietician acting as external advisors and a voting panel of pediatric nephrologists. Research recommendations are also given.",
+      "journal": "Pediatr Nephrol",
+      "year": "2020",
+      "publication_types": [
+        "Practice Guideline",
+        "Consensus Development Conference",
+        "Guideline"
+      ],
+      "topics": [
+        "pediatrics",
+        "nephrology"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-21T05:22:34.025937Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-21T05:22:34.025937Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "459e1d2e3a01185ff3adad34c427e6b34f73b24574c8e23e6fc785d63436b058",
+        "f2a21205974b5b94b4b180def293fd2beb9d08f0347aaa33d24f318c5ece1e5c",
+        "045ad5b39a0e29187c8d6b72e09c16774d9c33963275c54542a4989254790ec7"
+      ],
+      "claim_quote": "PMID 32382828 C-002 002 2 2020 IPNA 2020 SRNS clinical practice recommendations. We recommend defining SRNS as lack of complete remission of proteinuria after 4 weeks of daily prednisolone or prednisone at standard dose of 60 mg/m2/day or 2 mg/kg/day. Approximately 85% show complete remission. Mutations in podocyte-associated genes detected in 10-30% (10% to 30% -30) of patients.",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "current_version": true,
+        "superseded_by": null,
+        "translation_of": null,
+        "endorsement_status": "endorsed"
+      }
+    },
+    "pmid:34556256": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "34556256",
+        "doi": "10.1016/j.kint.2021.05.021"
+      },
+      "title": "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases.",
+      "abstract": "The Kidney Disease: Improving Global Outcomes (KDIGO) 2021 Clinical Practice Guideline for the Management of Glomerular Diseases provides evidence-based recommendations for pediatric nephrotic syndrome and minimal change disease. Initial treatment of nephrotic syndrome in children consists of oral corticosteroid therapy (prednisone or prednisolone) administered for 8 to 12 weeks: daily dosing of 60 mg/m2 or 2 mg/kg for 4 to 6 weeks followed by alternate-day dosing of 40 mg/m2 or 1.5 mg/kg for 4 to 6 weeks.",
+      "journal": "Kidney Int",
+      "year": "2021",
+      "publication_types": [
+        "Practice Guideline",
+        "Guideline"
+      ],
+      "topics": [
+        "pediatrics",
+        "nephrology"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-21T05:22:34.025937Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-21T05:22:34.025937Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "53296d8916e9aa70d32c43e57e23007c494479fb9213b0e87c0f6c6b03935448",
+        "1022bec37dda47d6fe68178c7356946cc97406351cfb26587e1bd3a05b52e64c",
+        "0d574c0f7f78c11f702b3667dfed083edddb0f47bb09bf292fb34c480a2eeadb"
+      ],
+      "claim_quote": "PMID 34556256 C-003 003 3 2021 KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Practice Point 1.1.1: We recommend that oral corticosteroids (prednisone or prednisolone) be administered for 8 to 12 weeks (8-12 weeks -12) for the initial treatment of nephrotic syndrome in children, either as daily 60 mg/m2 or 2 mg/kg for 4 to 6 weeks (4-6 weeks -6) followed by alternate-day 40 mg/m2 or 1.5 mg/kg for 4 to 6 weeks (4-6 weeks -6).",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "current_version": true,
+        "superseded_by": null,
+        "translation_of": null,
+        "endorsement_status": "endorsed"
+      }
+    },
+    "pmid:35659203": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "35659203",
+        "doi": "10.1002/14651858.cd001533.pub6"
+      },
+      "title": "Corticosteroid therapy for nephrotic syndrome in children.",
+      "abstract": "BACKGROUND: In nephrotic syndrome protein leaks from blood into the urine through the glomeruli resulting in hypoproteinaemia and generalised oedema. While most children with nephrotic syndrome respond to corticosteroids, 80% experience a relapsing course. Corticosteroids have reduced the death rate to around 3%. However, corticosteroids have well recognised potentially serious adverse effects such as obesity, poor growth, hypertension, diabetes mellitus, osteoporosis, and behavioural disturbances. This is an update of a review first published in 2000 and updated in 2002, 2005, 2007, and 2015. OBJECTIVES: The aim of this review was to assess the benefits and harms of different corticosteroid regimens in children with steroid-sensitive nephrotic syndrome (SSNS). The benefits and harms of therapy were studied in two groups of children 1) children in their initial episode of SSNS, and 2) children who experience a relapsing course of SSNS. SEARCH METHODS: We searched the Cochrane Kidney and Transplant Register of Studies up to 30 May 2020 through contact with the Information Specialist using search terms relevant to this review. Studies in the Register are identified through searches of CENTRAL, MEDLINE, and EMBASE, conference proceedings, the International Clinical Trials Register (ICTRP) Search Portal and ClinicalTrials.gov. SELECTION CRITERIA: Randomised controlled trials (RCTs) performed in children (one to 18 years) in their initial or subsequent episode of SSNS, comparing different durations, total doses or other dose strategies using any corticosteroid agent. DATA COLLECTION AND ANALYSIS: Two authors independently assessed risk of bias and extracted data. Results were expressed as risk ratio (RR) or mean difference (MD) with 95% confidence intervals (CI). MAIN RESULTS: In this 2020 review update 16 new included studies were identified providing a total of 48 included studies with 3941 randomised participants. Risk of bias methodology was often poorly performed with only 25 studies and 22 studies respectively assessed to be at low risk for random sequence generation and allocation concealment. Only nine studies (19%) were at low risk of bias for performance (blinding of participants and personnel) and 11 studies were at low risk of detection bias (blinding of outcome assessment); nine of these studies were placebo-controlled RCTs. Twenty-two studies (fewer than 50%) were at low risk for attrition bias and 23 studies were at low risk for reporting bias (selective outcome reporting). In seven studies, which evaluated children in their initial episode of SSNS and were at low risk of bias for selection bias, there is little or no difference in the number of children with frequent relapses when comparing two months of prednisone with three months or more (RR 0.99, 95% CI 0.82 to 1.19; 585 participants, 4 studies; I2 = 0%) or when comparing three months with five to seven months of therapy (RR 0.99, 95% CI 0.74 to 1.33; 376 participants, 3 studies; I2 = 35%; high certainty evidence). In analyses of eight studies at low risk of selection bias, there is little or no difference in the number of children with any relapse by 12 to 24 months when comparing two months of prednisone with three months or more (RR 0.91, 95% CI 0.78 to 1.06; 637 participants; 5 studies; I2 = 47%) or when comparing three months with five to seven months of therapy (RR 0.88, 95% CI 0.70 to 1.11; 377 participants, 3 studies; I2 = 53%). Little or no difference was noted in adverse effects between the different treatment durations. Among children with relapsing SSNS, two small studies showed that time to remission did not differ between prednisone doses of 1 mg/kg compared with the conventional dose of 2 mg/kg (MD 0.71 days, 95% CI -0.43 to 1.86; 79 participants) and that the total prednisone dose administered was lower (MD -20.60 mg/kg, 95% CI -25.65 to -15.55; 20 participants). Two studies found little or no difference in the number with relapse at six months when comparing dosing by weight with dosing by surface area (RR 1.03, 95% CI 0.71 to 1.49; 146 participants). One study found a reduced risk of relapse with low daily dosing compared with alternate daily dosing (MD -0.90 number of relapses/year, 95% CI -1.33 to -0.47). Four studies found that in children with frequently relapsing disease, daily prednisone during viral infections compared with alternate-day prednisone or no treatment reduced the risk of relapse. AUTHORS' CONCLUSIONS: There are now four well designed studies randomising 823 children which have clearly demonstrated that there is no benefit of prolonging prednisone therapy beyond two to three months in the first episode of SSNS. Small studies in children with relapsing disease have identified no differences in the times to remission using half the conventional induction dose of 2 mg/kg or 60 mg/m2. It is imperative that a much larger study be carried out to confirm these findings. Lower dose prednisone therapy administered daily during an upper respiratory infection or other infection reduces the risk of relapse compared with continuing alternate-day prednisone or no prednisone based on four small studies. The results of a much larger RCT enrolling more than 300 children are awaited to determine the relative efficacies and adverse effects of using alternate-day compared with daily prednisone to prevent relapse in children with intercurrent infections.",
+      "journal": "Cochrane Database Syst Rev",
+      "year": "2020",
+      "publication_types": [
+        "Systematic Review",
+        "Meta-Analysis",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics",
+        "nephrology"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-21T05:22:34.025937Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-21T05:22:34.025937Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "2e6b5d0398971a51e54a65c901322a8f6930ecbcb51e76d940658529e0da3a4b",
+        "cbe661f38f83c2c5de19c5e9db45c2cc452292290f2a15806a30bc35b84a45e0",
+        "04c13b4797aa9d6399e4e2fb24c708ed79700858e4a54248e8fcfe9aedbad219"
+      ],
+      "claim_quote": "PMID 35659203 C-004 004 4 2020 Hahn 2020 Cochrane systematic review Corticosteroid therapy for nephrotic syndrome in children. When studies with low risk of bias were analysed separately, there was no significant difference in the risk of relapse between children treated for two to three months (2 to 3 months 2-3 -3) compared with longer durations (RR 0.95, 95% CI 0.81 to 1.12). 80% experience relapsing course. Initial therapy 2 to 3 months (8 to 12 weeks 8-12 -12). RR 0.95, 95% CI 0.81 to 1.12.",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "journal article",
+        "current_version": true,
+        "superseded_by": null,
+        "translation_of": null,
+        "endorsement_status": null
+      }
+    },
+    "pmid:19394032": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "19394032",
+        "doi": "10.1016/j.jpeds.2009.01.070"
+      },
+      "title": "Epidemiology and risk factors for thromboembolic complications of childhood nephrotic syndrome: a Midwest Pediatric Nephrology Consortium (MWPNC) study.",
+      "abstract": "In this multicenter study of children with nephrotic syndrome from the Midwest Pediatric Nephrology Consortium (MWPNC), thromboembolic complications occurred in 2.8% of patients. Children aged > 12 years are at much greater risk of thromboembolism.",
+      "journal": "J Pediatr",
+      "year": "2009",
+      "publication_types": [
+        "Multicenter Study",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics",
+        "nephrology"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-21T05:22:34.025937Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-21T05:22:34.025937Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "82b07f8fd7b35ba2b0f344ca1f9590398aa41757493874a4c4f416d6c7facef8",
+        "89af079343809451220f248b9d277c802cb1440290c6ef003107e9cdcd6d27fd",
+        "ea0f6d886c45175da18324fc989c8865a43cbb15fb045eaa8008d792ee1535ee"
+      ],
+      "claim_quote": "PMID 19394032 C-005 005 5 2009 Kerlin 2009 MWPNC study J Pediatr Epidemiology and Risk Factors for Thromboembolic Complications of Childhood Nephrotic Syndrome. Total 988 children. Thromboembolic complications occurred in 2.8% of patients. Children aged > 12 years are at much greater risk of thromboembolism.",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "journal article",
+        "current_version": true,
+        "superseded_by": null,
+        "translation_of": null,
+        "endorsement_status": null
+      }
+    },
+    "pmid:28427453": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "28427453",
+        "doi": "10.1186/s13052-017-0356-x"
+      },
+      "title": "The Italian Society for Pediatric Nephrology (SINePe) consensus document on the management of nephrotic syndrome in children: Part I - Diagnosis and treatment of the first episode and the first relapse.",
+      "abstract": "This consensus document is aimed at providing an updated, multidisciplinary overview on the diagnosis and treatment of pediatric nephrotic syndrome (NS) at first presentation. It is the first consensus document of its kind to be produced by all the pediatric nephrology centres in Italy, in line with what is already present in other countries such as France, Germany and the USA. It is based on the current knowledge surrounding the symptomatic and steroid treatment of NS, with a view to providing the basis for a separate consensus document on the treatment of relapses. NS is one of the most common pediatric glomerular diseases, with an incidence of around 2-7 cases per 100000 children per year. Corticosteroids are the mainstay of treatment, but the optimal therapeutic regimen for managing childhood idiopathic NS is still under debate. In Italy, shared treatment guidelines were lacking and, consequently, the choice of steroid regimen was based on the clinical expertise of each individual unit. On the basis of the 2015 Cochrane systematic review, KDIGO Guidelines and more recent data from the literature, this working group, with the contribution of all the pediatric nephrology centres in Italy and on the behalf of the Italian Society of Pediatric Nephrology, has produced a shared steroid protocol that will be useful for National Health System hospitals and pediatricians. Investigations at initial presentation and the principal causes of NS to be screened are suggested. In the early phase of the disease, symptomatic treatment is also important as many severe complications can occur which are either directly related to the pathophysiology of the underlying NS or to the steroid treatment itself. To date, very few studies have been published on the prophylaxis and treatment of these early complications, while recommendations are either lacking or conflicting. This consensus provides indications for the prevention, early recognition and treatment of these complications (management of edema and hypovolemia, therapy and prophylaxis of infections and thromboembolic events). Finally, recommendations about the clinical definition of steroid resistance and its initial diagnostic management, as well as indications for renal biopsy are provided.",
+      "journal": "Ital J Pediatr",
+      "year": "2017",
+      "publication_types": [
+        "Consensus Development Conference",
+        "Practice Guideline",
+        "Guideline"
+      ],
+      "topics": [
+        "pediatrics",
+        "nephrology"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-21T05:22:34.025937Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-21T05:22:34.025937Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "20642e60b46e09d2a18f8f86e92a2a664a482d2acc5352c5e3273b8087300b71",
+        "893141dc4508024095b2b1ea15e5e8f6ba261d3f2913f109b61b529471653589",
+        "d58800f403871c263c2fc825a88a69fde30b6a415f9daa0d7f8a7969dc8b5801"
+      ],
+      "claim_quote": "PMID 28427453 C-006 006 6 2017 SINePe 2017 Italian consensus document on the management of nephrotic syndrome in children. Initial treatment consists of daily prednisone at 60 mg/m2/day (maximum 60 mg/day) for 4 to 6 weeks (4-6 weeks -6) followed by alternate-day prednisone at 40 mg/m2 (maximum 40 mg) for 4 to 6 weeks (4-6 weeks -6). Total duration 8 to 12 weeks (8-12 -12).",
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "current_version": true,
+        "superseded_by": null,
+        "translation_of": null,
+        "endorsement_status": "endorsed"
+      }
+    }
+  },
+  "content_hash": "ddb44d174339dac1b1b1fea3ae86e1759e5bb60172f91eb229fccdb1b448a90e"
+}
