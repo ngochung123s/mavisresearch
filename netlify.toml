@@ -1,6 +1,7 @@
 [build]
   base = "Bai hoc y khoa/12_Nhi khoa"
   publish = "."
+  ignore = "exit 1"
 
 [[redirects]]
   from = "/mobile"
