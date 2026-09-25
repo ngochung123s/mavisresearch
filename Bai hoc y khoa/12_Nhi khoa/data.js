@@ -2,12 +2,12 @@
 window.PED_LIBRARY_DATA = {
   "metadata": {
     "title": "PedViewer — Thư viện Sách & Bài học Nhi khoa",
-    "version": "20260921_123848",
-    "generated_at": "2026-09-21 12:38:48",
-    "total_curriculum": 48,
-    "total_ped": 22,
+    "version": "20260925_213804",
+    "generated_at": "2026-09-25 21:38:04",
+    "total_curriculum": 49,
+    "total_ped": 23,
     "total_pedytb": 4,
-    "total_cards": 2197,
+    "total_cards": 2375,
     "blocks": [
       "Block 0 — Nền tảng tư duy, Tiếp cận & Dược lý Nhi khoa",
       "Block 1 — Hồi sức, Cấp cứu & Ngộ độc Nhi khoa",
@@ -580,6 +580,20 @@ window.PED_LIBRARY_DATA = {
       "folder_rel": ""
     },
     {
+      "id": "PED-49",
+      "priority": "P0",
+      "title": "Tiếp cận bệnh nhân phát ban ở trẻ em (Pediatric Rash)",
+      "block": "Block 5 — Bệnh Truyền nhiễm Nhi khoa",
+      "scope": "Nghiệm pháp ấn kính (Glass test) phân loại ban dãn mạch vs ban xuất huyết; dấu hiệu cờ đỏ cấp cứu (tử ban sao não mô cầu, sốc, Nikolsky (+), loét đa niêm mạc); phân loại hình thái học tổn thương da (dát sẩn, mụn nước, tử ban, sẩn phù); động học sốt và ban (Sởi, Roseola, Thủy đậu, Tay chân miệng, Kawasaki); nguyên tắc hạ sốt an toàn theo AAP 2011.",
+      "dependency": "PED-01, 02",
+      "curriculum_status": "✅ GATES ĐẠT (MD + APKG 80 thẻ)",
+      "has_ped": true,
+      "has_pedytb": false,
+      "cards_count": 80,
+      "apkg_file": "PED-49_Tiep_can_benh_nhan_phat_ban_2026-09-25_RELEASE_v1.apkg",
+      "folder_rel": "05_Truyen_nhiem/PED-49_Tiep_can_benh_nhan_phat_ban"
+    },
+    {
       "id": "PED-40",
       "priority": "P0",
       "title": "Hội chứng thận hư nguyên phát ở trẻ em",
@@ -589,8 +603,8 @@ window.PED_LIBRARY_DATA = {
       "curriculum_status": "📝 MD-DRAFT (Bản RELEASE v1 đạt chuẩn Gates, APKG triển khai lượt sau)",
       "has_ped": true,
       "has_pedytb": false,
-      "cards_count": 0,
-      "apkg_file": null,
+      "cards_count": 98,
+      "apkg_file": "PED-40_Hoi_chung_than_hu_nguyen_phat_MASTER_v1.apkg",
       "folder_rel": "06_Than_Tim_mach_Noi_tiet/PED-40_Hoi_chung_than_hu_nguyen_phat"
     },
     {
@@ -17800,6 +17814,472 @@ window.PED_LIBRARY_DATA = {
       "folder_rel": "05_Truyen_nhiem/PED-35_Benh_Tay_Chan_Mieng"
     },
     {
+      "id": "PED-49",
+      "priority": "P0",
+      "title": "Tiếp cận bệnh nhân phát ban ở trẻ em (Pediatric Rash)",
+      "block": "Block 5 — Bệnh Truyền nhiễm Nhi khoa",
+      "scope": "Nghiệm pháp ấn kính (Glass test) phân loại ban dãn mạch vs ban xuất huyết; dấu hiệu cờ đỏ cấp cứu (tử ban sao não mô cầu, sốc, Nikolsky (+), loét đa niêm mạc); phân loại hình thái học tổn thương da (dát sẩn, mụn nước, tử ban, sẩn phù); động học sốt và ban (Sởi, Roseola, Thủy đậu, Tay chân miệng, Kawasaki); nguyên tắc hạ sốt an toàn theo AAP 2011.",
+      "dependency": "PED-01, 02",
+      "curriculum_status": "✅ GATES ĐẠT (MD + APKG 80 thẻ)",
+      "has_ped": true,
+      "has_pedytb": false,
+      "has_cards": true,
+      "ped_file": "PED-49_Tiep_can_benh_nhan_phat_ban_2026-09-25_RELEASE_v1.md",
+      "ped_content": "# BÀI HỌC Y KHOA: TIẾP CẬN BỆNH NHÂN PHÁT BAN Ở TRẺ EM (PED-49)\n\n**Mã bài học:** PED-49\n**Chuyên khoa:** Bệnh Truyền nhiễm Nhi khoa / Cấp cứu Nhi khoa / Da liễu Nhi\n**Đối tượng học:** Bác sĩ thực hành, học viên sau đại học, sinh viên y khoa\n**Thời lượng chuẩn:** 180 phút lý thuyết chuyên sâu và phân tích ca lâm sàng\n**Hệ thống phân loại:** L3_BEGINNER — Cầm tay chỉ việc cho người bắt đầu\n**Thuộc Block chuyên khoa:** Block 5 — Bệnh Truyền nhiễm Nhi khoa\n**Phiên bản phát hành:** 2026-09-25_RELEASE_v1\n**Tiêu chuẩn chất lượng:** Why-based Clinical Curriculum, Dual-track Verification Governance (0 BLOCK, 0 WARN)\n\n---\n\n## 0. TỔNG QUAN — VÌ SAO PHÁT BAN Ở TRẺ EM LÀ TÌNH TRẠNG LÂM SÀNG CẦN TIẾP CẬN HỆ THỐNG?\n\nPhát ban ở trẻ em là một trong những lý do nhập viện và khám cấp cứu thường gặp nhất tại các cơ sở y tế.\nBệnh cảnh phát ban ở trẻ nhỏ vô cùng đa dạng và phong phú, trải dài từ các nhiễm trùng siêu vi lành tính tự giới hạn cho đến những bệnh lý nhiễm trùng tối cấp đe dọa trực tiếp đến tính mạng.\nKhác với người lớn, hệ miễn dịch và làn da của trẻ em rất mỏng manh, nhạy cảm và dễ phản ứng rầm rộ trước các tác nhân gây bệnh.\nNhiều bệnh nhi đến khám chỉ với một triệu chứng ban đỏ đơn thuần, nhưng đằng sau đó có thể là một cơn bão cytokine đang âm thầm tàn phá nội mô mạch máu.\nViệc tiếp cận bệnh nhân phát ban đòi hỏi người thầy thuốc phải có một tư duy lâm sàng nhạy bén, toàn diện và có hệ thống.\nKhông bao giờ được phép chỉ nhìn vào tổn thương da đơn độc mà vội vàng đưa ra chẩn đoán nguyên nhân.\nMọi đánh giá phải bắt đầu từ tình trạng sinh hiệu, tri giác, mức độ ổn định huyết động và hô hấp.\nPhân định rõ ràng giữa ban dãn mạch sung huyết lành tính và ban xuất huyết hoại tử là ranh giới sống còn.\nViệc nhận biết đúng bệnh giúp tránh được hai thái cực sai lầm: lạm dụng kháng sinh không cần thiết hoặc chậm trễ cấp cứu các bệnh lý tối khẩn.\n\n### 0.1. Nền tảng tối thiểu cần dùng ngay cho bác sĩ ca trực\n- Nguyên tắc 1:\nNền tảng tối thiểu cần dùng ngay khi tiếp cận bệnh nhi phát ban là luôn thực hiện nghiệm pháp ấn kính trong 3 giây đầu tiên.\n- Nghiệm pháp ấn kính giúp phân định rạch ròi giữa ban sung huyết dãn mạch và ban xuất huyết thoát mạch.\n- Nếu ban biến mất khi ấn ép, đó là hiện tượng sung huyết mao mạch nông ở nhú bì.\n- Nếu ban không biến mất khi ấn ép, đó là tổn thương xuất huyết do hồng cầu thoát mạch hoặc hoại tử vi mạch.\n- Nguyên tắc 2:\nKhông bao giờ được bỏ qua việc bộc lộ toàn bộ cơ thể trẻ để thăm khám dưới ánh sáng tự nhiên đầy đủ.\n- Ánh đèn vàng phòng bệnh có thể che lấp hoàn toàn các chấm xuất huyết nhỏ hoặc làm sai lệch màu sắc của tổn thương da.\n- Cần kiểm tra kỹ các vùng kín đáo như da đầu, sau tai, nếp lằn cổ, nách, bẹn, kẽ ngón và vùng quanh hậu môn.\n- Nguyên tắc 3:\nLuôn đối chiếu thời điểm xuất hiện ban với diễn tiến của cơn sốt.\n- Mối tương quan động học giữa sốt và ban là chìa khóa vàng giúp phân biệt các bệnh truyền nhiễm kinh điển.\n- Sốt cao liên tục cùng lúc mọc ban từ đầu mặt xuống chân gợi ý bệnh Sởi.\n- Sốt cao 3 đến 4 ngày rồi cắt sốt đột ngột mới bùng phát ban ở thân mình gợi ý bệnh Ban đào (Roseola infantum).\n- Sốt kèm ban mụn nước nhiều lứa tuổi phân bố hướng tâm gợi ý bệnh Thủy đậu.\n- Sốt kèm loét miệng và mụn nước bầu dục ở lòng bàn tay, bàn chân, mông, gối gợi ý Bệnh Tay Chân Miệng.\n- Nguyên tắc 4:\nLuôn chủ động tìm kiếm các dấu hiệu tổn thương niêm mạc ở mắt, môi miệng và cơ quan sinh dục.\n- Sự hiện diện của tổn thương niêm mạc giúp định hướng đến các bệnh lý nguy hiểm như Kawasaki, Stevens-Johnson hoặc Sởi.\n- Nguyên tắc 5:\nĐánh giá nhanh tình trạng tưới máu mô bằng thời gian phục hồi màu da CRT và nhiệt độ đầu chi.\n- Thời gian phục hồi màu da CRT kéo dài trên 3 giây là chỉ dấu sớm của sốc tuần hoàn giảm thể tích hoặc sốc nhiễm khuẩn.\n- Nguyên tắc 6:\nThận trọng với tiền sử dùng thuốc trong vòng 8 tuần trước đó để phát hiện sớm các hội chứng phản ứng có hại của thuốc nặng.\n- Nguyên tắc 7:\nLuôn kiểm tra tình trạng tiêm chủng mở rộng của trẻ, đặc biệt là vắc xin sởi, thủy đậu và não mô cầu.\n- Bác sĩ cần ghi nhớ rằng sự an toàn của bệnh nhi luôn là ưu tiên cao nhất trong suốt quá trình thăm khám.\n\n> ⚠️ **BOX ĐỎ NGUY HIỂM — CẢNH BÁO AN TOÀN:**\n> Tuyệt đối không được chần chừ tiêm kháng sinh tĩnh mạch phổ rộng (Ceftriaxone hoặc Cefotaxim) ở bệnh nhi sốt có ban tử ban sao hoặc chấm xuất huyết hoại tử nghi nhiễm não mô cầu để chờ kết quả xét nghiệm máu hoặc chọc dò dịch não tủy. Mỗi 30 phút chậm trễ đều làm tăng vọt nguy cơ tử vong và tàn phế do sốc nhiễm khuẩn tối cấp!\n\n---\n\n## 1. ĐỊNH NGHĨA, HÌNH THÁI HỌC TỔN THƯƠNG DA CƠ BẢN & PHÂN LOẠI BAN\n\n### 1.1. Định nghĩa chuẩn hóa\n- Ban ngoài da (Exanthem) là tổn thương da lan tỏa bùng phát nhanh chóng, thường đi kèm các biểu hiện nhiễm trùng toàn thân.\n- Ban niêm mạc (Enanthem) là tổn thương phát ban xuất hiện trên bề mặt niêm mạc miệng, mắt, hầu họng hoặc đường tiêu hóa.\n- Hồng ban (Erythema) là tình trạng đỏ da cục bộ hoặc lan tỏa do dãn nở các mao mạch máu nông; ban biến mất khi căng da.\n- Xuất huyết dưới da (Purpura) là tình trạng hồng cầu thoát ra ngoài lòng mạch đi vào mô bì; ban không biến mất khi căng da.\n\n### 1.2. Phân loại hình thái học tổn thương da cơ bản\n1.\nDát (Macule):\nVùng da đổi màu phẳng, nằm ngang bằng với mặt da xung quanh, không sờ thấy gờ lên, kích thước dưới 10 mm.\n2.\nMảng dát (Patch):\nVùng dát phẳng đổi màu trên mặt da có kích thước từ 10 mm trở lên.\n3.\nSẩn (Papule):\nTổn thương gồ đặc trên bề mặt da, sờ thấy ranh giới rõ rệt, kích thước dưới 10 mm.\n4.\nMảng sẩn (Plaque):\nTổn thương gồ nông trên mặt da, thường do nhiều sẩn hợp lại, kích thước từ 10 mm trở lên.\n5.\nBan dát sẩn (Maculopapular rash):\nTổn thương phối hợp giữa các dát đỏ phẳng và sẩn gồ nhẹ trên bề mặt da.\n6.\nMụn nước (Vesicle):\nTổn thương gồ lên chứa dịch trong suốt, kích thước dưới 5 mm.\n7.\nBóng nước (Bulla):\nTổn thương gồ chứa dịch trong hoặc dịch đục, kích thước từ 5 mm trở lên.\n8.\nMụn mủ (Pustule):\nTổn thương gồ trên da chứa đầy dịch mủ đục ngay từ giai đoạn khởi phát.\n9.\nSẩn phù / Mày đay (Wheal):\nVùng phù nề nông ở lớp bì, màu hồng hoặc trắng trung tâm, ngứa nhiều, thay đổi vị trí liên tục.\n10.\nChấm xuất huyết (Petechiae):\nĐốm xuất huyết nhỏ li ti dạng chấm kim, đường kính dưới 2 mm, không mất màu khi ấn kính.\n11.\nTử ban (Purpura):\nVùng xuất huyết có đường kính từ 2 mm đến 10 mm, có thể phẳng hoặc gồ trên mặt da.\n12.\nMảng bầm máu (Ecchymosis):\nVùng xuất huyết rộng trên 10 mm nằm sâu dưới lớp bì và mô mỡ dưới da.\n13.\nVảy da (Scale):\nSự bong tróc bất thường của các phiến sừng trên bề mặt da, gặp trong giai đoạn hồi phục của sởi và scarlet fever.\n14.\nVảy tiết (Crust):\nDịch tiết, mủ hoặc máu khô đọng trên bề mặt da, điển hình là vảy tiết màu vàng mật ong trong bệnh chốc lây.\n15.\nVết trợt (Erosion):\nTổn thương mất một phần lớp biểu bì nông do vỡ mụn nước, lành không để lại sẹo.\n16.\nVết loét (Ulcer):\nTổn thương mất toàn bộ lớp biểu bì và một phần lớp bì sâu, thường lành để lại mô sẹo.\n\n| Hình thái tổn thương | Đặc điểm nhận diện lâm sàng | Nghiệm pháp ấn kính | Bệnh lý nguyên nhân thường gặp |\n|---|---|---|---|\n| Ban dát sẩn (Maculopapular) | Dát đỏ phẳng xen lẫn sẩn gồ nhẹ | Biến mất hoàn toàn (Blanching) | Sởi, Roseola (HHV-6), Rubella, Parvovirus B19, EBV |\n| Mụn nước / Bóng nước | Gồ chứa dịch trong hoặc mủ | Vách căng, không đổi màu dịch | Thủy đậu, Tay chân miệng, Herpes simplex, Chốc lây |\n| Sẩn phù / Mày đay | Mảng gồ phù nề, ngứa, đổi chỗ | Biến mất một phần ở trung tâm | Mày đay dị ứng, sốc phản vệ, nhiễm siêu vi |\n| Chấm xuất huyết / Tử ban | Hồng cầu thoát mạch, phẳng hoặc gồ | KHÔNG biến mất (Non-blanching) | Não mô cầu, Sốt xuất huyết Dengue, Henoch-Schonlein |\n| Ly thượng bì / Trợt da | Da bong tróc như bị bỏng nước | Đỏ rực nền da trợt nông | SSSS (Tụ cầu), Hội chứng Stevens-Johnson (SJS), TEN |\n\n---\n\n## 2. CƠ CHẾ SINH LÝ BỆNH CHUYÊN SÂU — 3 CHUỖI CƠ CHẾ BỆNH SINH CỦA PHÁT BAN\n\n### 2.1. Chuỗi cơ chế 1: Dãn mao mạch sung huyết vs Thoát mạch hoại tử vi mạch\n- Trong các bệnh sốt phát ban do siêu vi thông thường, virus kích thích hệ miễn dịch giải phóng cytokine dãn mạch mức độ nhẹ.\n- Các chất trung gian hóa học làm dãn cơ trơn thành tiểu động mạch và ứ trệ dòng máu trong mạng lưới mao mạch nhú bì.\n- Lực ép cơ học của ngón tay hoặc lam kính dễ dàng đẩy khối hồng cầu khỏi mao mạch dãn, tạo nên hiện tượng mất màu khi căng da.\n- Chuỗi cơ chế dãn mạch:\nVirus xâm nhập → kích hoạt tế bào lympho tiết cytokine nhẹ → dãn tiểu động mạch nông nhú bì → ứ máu mao mạch tạo ban đỏ → ấn kính đẩy máu đi làm biến mất ban.\n- Ngược lại, trong nhiễm khuẩn huyết tối cấp do Não mô cầu, nội độc tố vi khuẩn kích hoạt bão cytokine bùng nổ dữ dội.\n- Thành mao mạch bị hoại tử hoàn toàn và hệ thống đông máu vi mạch bị kích hoạt gây tắc nghẽn lòng mạch bởi cục máu đông.\n- Hồng cầu thoát mạch tự do vào mô đệm liên kết và mô da bị thiếu máu hoại tử cấp tính.\n- Áp lực cơ học bên ngoài hoàn toàn bất lực trong việc dịch chuyển các hồng cầu đã thoát mạch ra ngoài mô kẽ.\n- Chuỗi cơ chế hoại tử vi mạch:\nVi khuẩn não mô cầu xâm nhập → giải phóng nội độc tố lipooligosaccharide → kích hoạt bão cytokine và viêm mạch hoại tử → đứt gãy thành mao mạch và tắc huyết khối vi mạch → hồng cầu thoát mạch mô bì tạo tử ban sao không mất màu.\n\n### 2.2. Chuỗi cơ chế 2: Quá mẫn Type I qua IgE vs Quá mẫn Type IV qua tế bào T\n- Cơ chế quá mẫn tức thì Type I phụ thuộc vào kháng thể IgE gắn sẵn trên bề mặt dưỡng bào quanh các mao mạch da.\n- Khi tiếp xúc với dị nguyên, sự liên kết chéo kích hoạt dưỡng bào phóng thích Histamine và các chất trung gian chỉ sau vài phút.\n- Histamine gắn thụ thể H1 gây dãn mạch và làm tăng tính thấm thành mạch cấp tính, tạo nên các nốt sẩn phù mày đay.\n- Chuỗi cơ chế mày đay cấp:\nDị nguyên xâm nhập → gắn chéo kháng thể IgE trên bề mặt dưỡng bào → giải phóng ồ ạt Histamine và leukotriene → tăng tính thấm mao mạch bì nông tức thì → huyết tương thoát mạch tạo nốt sẩn phù mày đay.\n- Cơ chế quá mẫn muộn Type IV là phản ứng miễn dịch qua trung gian tế bào T độc và tế bào T hỗ trợ.\n- Phản ứng này thường xuất hiện sau nhiều ngày tiếp xúc với thuốc hoặc sau khi nhiễm virus Epstein-Barr (EBV).\n- Tế bào T hoạt hóa thâm nhiễm quanh các vi mạch ở trung bì và tiết ra các enzym độc tế bào gây viêm da tiếp diễn.\n- Chuỗi cơ chế ban do thuốc muộn:\nThuốc đóng vai trò hapten liên kết protein → mẫn cảm tế bào lympho T CD4+ và CD8+ → tế bào T hoạt hóa di chuyển đến da sau 7 đến 14 ngày → tiết Interferon-gamma và Granzyme B → thâm nhiễm viêm lớp bì tạo ban dát sẩn lan tỏa.\n\n### 2.3. Chuỗi cơ chế 3: Tách lớp thượng bì do độc tố tụ cầu vs Hoại tử thượng bì qua trung gian miễn dịch\n- Trong hội chứng bong vảy da do tụ cầu (SSSS), vi khuẩn tại ổ nhiễm trùng tiết ngoại độc tố Exfoliatin A và B vào máu.\n- Độc tố là một enzym protease serin cắt đứt đặc hiệu cầu nối Desmoglein-1 giữa các tế bào sừng ở lớp hạt của biểu bì.\n- Biểu bì bị tách rời rất nông ngay dưới lớp sừng mà không gây tổn thương các tế bào đáy hoặc lớp bì sâu.\n- Chuỗi cơ chế SSSS:\nTụ cầu vàng tiết ngoại độc tố Exfoliatin → độc tố theo dòng máu đến mao mạch da → phân cắt chọn lọc cầu nối Desmoglein-1 → tế bào sừng lớp hạt tách rời tạo bóng nước nông → trợt da diện rộng có dấu hiệu Nikolsky dương tính nhưng niêm mạc không bị loét.\n- Trong hội chứng Stevens-Johnson và TEN, phản ứng độc tế bào phá hủy toàn bộ chiều dày lớp biểu bì ngay từ màng đáy.\n- Tế bào T độc và tế bào NK tiết Granulysin gây chết hàng loạt tế bào sừng, dẫn đến bong trợt da nặng và loét hoại tử niêm mạc.\n- Chuỗi cơ chế viêm mạch IgA:\nNhiễm trùng hô hấp kích hoạt sản xuất IgA1 bất thường → hình thành phức hợp miễn dịch IgA1 lưu hành → lắng đọng tại thành mạch máu nhỏ lớp nhú bì → hoạt hóa bổ thể và thu hút bạch cầu trung tính → viêm mạch hủy bạch cầu gây ban xuất huyết sờ thấy được.\n\n---\n\n## 3. TIẾP CẬN CẤP CỨU BAN ĐẦU & CÁC DẤU HIỆU CỜ ĐỎ NGUY HIỂM TÍNH MẠNG\n\n### 3.1. Nghiệm pháp ấn kính và phân loại dấu hiệu cờ đỏ\n- Kỹ thuật thực hiện:\nDùng lam kính sạch hoặc đáy cốc thủy tinh trong suốt ấn mạnh trực tiếp lên bề mặt nốt ban da của trẻ.\n- Quan sát nốt ban qua kính trong suốt thời gian duy trì lực ép cơ học liên tục.\n- Đánh giá:\nNếu nốt ban biến mất hoàn toàn, đó là ban sung huyết; nếu nốt ban giữ nguyên màu đỏ tía hoặc tím đen, đó là ban xuất huyết.\n\nHướng dẫn NICE NG143 sử dụng hệ thống đèn giao thông để phân tầng nguy cơ trẻ sốt trong đó phát ban không mất màu khi căng da là dấu hiệu cờ đỏ chỉ điểm nguy cơ cao: NICE guideline NG143 uses traffic light system for fever assessment where non-blanching rash is a red flag indicating high risk. {claim:C-004} [ABSTRACT VERIFIED] (PMID: 34244233)\n\n### 3.2. Bằng chứng định lượng về ban chấm xuất huyết ở trẻ sốt cấp cứu\n- Ban chấm xuất huyết kèm theo sốt là một thách thức chẩn đoán lớn đối với bác sĩ khoa cấp cứu nhi khoa.\n- Nguy cơ nhiễm trùng huyết và viêm màng não mủ luôn phải được đặt lên hàng đầu trong tư duy tiếp cận ban đầu.\n\nNghiên cứu đa trung tâm tại các khoa cấp cứu châu Âu xác nhận phát ban dạng chấm xuất huyết ở trẻ sốt là dấu hiệu cảnh báo quan trọng của nhiễm khuẩn huyết và viêm màng não: European multicentre study confirms petechial rash in febrile children as an important warning sign for sepsis and meningitis. {claim:C-002} [ABSTRACT VERIFIED] (PMID: 36866956)\n\n- Đáng chú ý, ngay cả ở những trẻ có vẻ ngoài hoàn toàn tỉnh táo và khỏe mạnh, nguy cơ nhiễm khuẩn xâm lấn vẫn không thể loại trừ.\n\nNghiên cứu quan sát tiền cứu tại các bệnh viện ghi nhận nhiễm khuẩn xâm lấn ở trẻ sốt có chấm xuất huyết tại khoa cấp cứu chủ yếu do bệnh não mô cầu và phế cầu khuẩn huyết: Prospective observational study found invasive bacterial infection in febrile children with petechial rash in emergency department predominantly comprising meningococcal disease and pneumococcal bacteraemia. {claim:C-003} [ABSTRACT VERIFIED] (PMID: 37019466)\n\n### 3.3. Các dấu hiệu cờ đỏ bắt buộc hồi sức khẩn cấp\n1.\nTử ban sao lan nhanh:\nBan màu tím đen bờ nham nhở, lan rộng kích thước từng giờ.\n2.\nDấu hiệu sốc:\nMạch nhanh nhỏ, huyết áp tụt, chi lạnh ẩm nổi vân tím, thời gian CRT trên 3 giây.\n3.\nRối loạn tri giác:\nLi bì khó đánh thức, kích thích vật vã, thóp phồng, cổ gượng, co giật.\n4.\nSuy hô hấp:\nThở rên, thở rít thanh quản, thở nhanh co kéo lồng ngực nặng.\n5.\nDấu hiệu Nikolsky dương tính:\nDa trợt rách dễ dàng khi chà xát nhẹ.\n6.\nLoét hoại tử niêm mạc ở từ hai hốc tự nhiên trở lên.\n\nMày đay ở trẻ em đặc trưng bởi các nốt sẩn phù phù mạch thoáng qua và adrenaline tiêm bắp là can thiệp hàng đầu khi có dấu hiệu phản vệ: Urticaria is characterized by transient wheals and angioedema with intramuscular adrenaline as the primary emergency intervention for anaphylaxis. {claim:C-007} [ABSTRACT VERIFIED] (PMID: 32482691)\n\n---\n\n## 4. CHẨN ĐOÁN HÌNH THÁI HỌC & ĐỘNG HỌC SỐT - PHÁT BAN (MORPHOLOGY-FIRST)\n\n### 4.1. Nhóm ban dát sẩn và động học sốt\n- Bệnh Sởi (Measles):\nSốt cao liên tục 3 đến 5 ngày kèm tam chứng viêm long 3C (ho, sổ mũi, viêm kết mạc).\n- Hạt Koplik xuất hiện ở niêm mạc má đối diện răng hàm vào ngày 2 đến 3 của sốt.\n- Ban mọc vào ngày thứ 4 của sốt, lan tuần tự từ sau tai, chân tóc xuống mặt, ngực, bụng và cuối cùng tới bàn chân.\n- Khi ban mọc tới chân thì trẻ bắt đầu hạ sốt; ban bay để lại vết thâm da hổ đặc trưng.\n\nHướng dẫn CDC về chẩn đoán và kiểm soát dự phòng nhiễm khuẩn bệnh sởi ở trẻ em: Centers for Disease Control and Prevention CDC guideline recommendations for diagnosis infection prevention and control of suspected or confirmed measles in children. {claim:C-005} [ABSTRACT VERIFIED] (PMID: 31869297)\n\n- Bệnh Ban đào (Roseola infantum do HHV-6):\nTrẻ sốt rất cao liên tục trong 3 đến 5 ngày nhưng vẫn tỉnh táo.\n- Vào ngày thứ 4 hoặc 5, trẻ hết sốt hoàn toàn thì ban dát sẩn màu hồng cánh đào mới bùng phát rực rỡ ở thân mình.\n- Ban của Roseola lặn nhanh sau 24 đến 48 giờ và hoàn toàn không để lại vết thâm hay bong vảy.\n- Bệnh Kawasaki:\nSốt cao liên tục từ 5 ngày trở lên kèm theo viêm mạch máu hệ thống đa cơ quan.\n\nBệnh Kawasaki là nguyên nhân hàng đầu gây bệnh tim mắc phải ở trẻ em các nước phát triển và có nguy cơ dẫn đến giãn hoặc phình động mạch vành ở bệnh nhân không được điều trị: Kawasaki disease is the leading cause of acquired heart disease in children in developed countries and leads to coronary artery aneurysms in untreated cases. {claim:C-001} [GUIDELINE VERIFIED] (PMID: 28356445)\n\n- Bệnh Ban đỏ nhiễm khuẩn (Erythema infectiosum do Parvovirus B19):\nGặp ở trẻ từ 4 đến 10 tuổi.\n- Biểu hiện giai đoạn đầu là ban đỏ rực hai gò má hình má bị tát, trong khi vùng quanh miệng nhợt nhạt.\n- Giai đoạn hai xuất hiện ban dát sẩn dạng lưới ren ở thân mình và cẳng tay cẳng chân.\n- Bệnh Tinh hồng nhiệt (Scarlet fever do Streptococcus pyogenes tiết độc tố erythrogenic toxin):\n- Trẻ sốt cao, đau họng, hạch góc hàm to, lưỡi gà đỏ dâu tây trắng rồi chuyển sang dâu tây đỏ.\n- Ban đỏ mịn nhám như giấy ráp toàn thân, đậm màu hơn ở các nếp gấp tạo thành đường Pastia.\n\n### 4.2. Nhóm ban mụn nước và bóng nước\n- Bệnh Thủy đậu (Varicella):\nBan tiến triển cực nhanh từ dát đỏ sang mụn nước trong hình giọt sương trên cánh hoa hồng.\n- Ban mọc thành từng đợt liên tiếp tạo nên hình ảnh kinh điển là ban nhiều lứa tuổi cùng tồn tại trên một vùng da.\n- Ban phân bố theo kiểu hướng tâm, tập trung nhiều nhất ở thân mình và da đầu, thưa thớt ở cẳng tay cẳng chân.\n- Bệnh Tay Chân Miệng (HFMD):\nMụn nước nhỏ hình bầu dục màu xám trên nền da đỏ, không ngứa, không đau.\n- Vị trí phân bố chọn lọc điển hình ở lòng bàn tay, lòng bàn chân, vùng mông và hai đầu gối, kèm loét niêm mạc miệng.\n\n### 4.3. Nhóm ban xuất huyết và viêm mạch\n- Ban xuất huyết Henoch-Schonlein (Viêm mạch IgA):\nLắng đọng phức hợp miễn dịch IgA1 tại các vi mạch nhỏ.\n\nBan xuất huyết Henoch-Schonlein đặc trưng bởi ban xuất huyết sờ thấy được phân bố ưu thế ở hai chi dưới và mông không do giảm tiểu cầu: Henoch-Schonlein purpura is characterized by palpable purpura distributed on lower extremities and buttocks without thrombocytopenia. {claim:C-006} [ABSTRACT VERIFIED] (PMID: 25274973)\n\n- Ban phân bố đối xứng ở hai cẳng chân, mu bàn chân và vùng mông, thường đi kèm sưng đau khớp và đau bụng cơn.\n- Viêm mạch mày đay (Urticarial Vasculitis):\nTổn thương sẩn phù gồ tồn tại cố định trên 24 giờ, khi lặn để lại vết xuất huyết.\n- Hồng ban đa dạng (Erythema Multiforme):\nTổn thương hình bia bắn kinh điển (Targetoid lesion) gồm 3 vòng tròn đồng tâm.\n\n| Bệnh lý | Động học sốt | Hình thái tổn thương da | Vị trí phân bố | Dấu hiệu đặc trưng đi kèm |\n|---|---|---|---|---|\n| Sởi (Measles) | Sốt cao cùng lúc mọc ban | Dát sẩn đỏ đậm, hợp lưu | Lan tuần tự: tai → mặt → thân → chân | Hạt Koplik, ho, viêm kết mạc mắt đỏ |\n| Ban đào (Roseola) | Hết sốt mới bùng phát ban | Dát sẩn hồng cánh đào rời rạc | Tập trung ở ngực, bụng, lưng; ít ở mặt | Trẻ vui vẻ ngay sau khi cắt sốt |\n| Thủy đậu (Varicella) | Sốt nhẹ hoặc vừa khi mọc ban | Mụn nước giọt sương, nhiều lứa tuổi | Hướng tâm: Thân mình và mặt nhiều hơn chi | Ngứa nhiều, vảy tiết khô dần |\n| Tay Chân Miệng | Sốt nhẹ hoặc sốt cao (EV71) | Mụn nước hình bầu dục màu xám tro | Lòng bàn tay, bàn chân, mông, đầu gối | Loét áp-tơ niêm mạc miệng, giật mình |\n| Kawasaki | Sốt liên tục $\\ge 5$ ngày | Ban đa dạng, phù mu bàn tay chân | Toàn thân, vùng tã lót; bong da quanh móng | Mắt đỏ không ghèn, môi đỏ lưỡi dâu tây |\n| Não mô cầu | Sốt cao đột ngột, nhiễm độc | Tử ban sao tím đen, hoại tử | Rải rác toàn thân, tăng nhanh kích thước | Sốc tuần hoàn, cổ gượng, li bì |\n\n---\n\n## 5. CHIẾN LƯỢC THĂM DÒ CẬN LÂM SÀNG CÓ CHỌN LỌC THEO PHÂN TẦNG NGUY CƠ\n\n### 5.1. Nhóm nguy cơ thấp (Vùng Xanh) — Không lạm dụng xét nghiệm\n- Đa số trẻ sốt phát ban dạng dát sẩn có sinh hiệu bình thường không cần thực hiện bất kỳ xét nghiệm máu nào.\n- Việc chích máu xét nghiệm gây đau đớn, hoảng sợ cho trẻ và tốn kém chi phí không cần thiết cho gia đình.\n- Chỉ định theo dõi sát diễn tiến lâm sàng tại nhà và hẹn tái khám đánh giá lại.\n\n### 5.2. Nhóm nguy cơ trung bình và cao (Vùng Vàng và Vùng Đỏ)\n- Tổng phân tích tế bào máu ngoại vi:\nĐánh giá số lượng bạch cầu, tỷ lệ bạch cầu đoạn trung tính và số lượng tiểu cầu.\n- Tăng bạch cầu đa nhân trung tính gợi ý nhiễm trùng vi khuẩn sinh mủ; giảm bạch cầu và giảm tiểu cầu gợi ý nhiễm siêu vi hoặc sốt xuất huyết.\n- Dấu ấn sinh học viêm pha cấp:\nĐịnh lượng CRP và Procalcitonin máu giúp phát hiện sớm nhiễm khuẩn xâm lấn.\n- Procalcitonin tăng cao trên 2 ng/mL là bằng chứng mạnh mẽ của nhiễm trùng huyết do vi khuẩn xâm lấn.\n- Cấy máu 2 vị trí trước khi dùng liều kháng sinh đầu tiên ở trẻ nghi ngờ nhiễm trùng huyết.\n- Xét nghiệm đông máu toàn bộ:\nPT, aPTT, Fibrinogen, D-dimer tầm soát sớm biến chứng đông máu nội mạch rải rác.\n- Tổng phân tích nước tiểu:\nTầm soát protein niệu và hồng cầu niệu ở trẻ nghi ngờ viêm mạch Henoch-Schonlein.\n- Siêu âm tim qua thành ngực:\nBắt buộc ở mọi trẻ sốt từ 5 ngày trở lên nghi ngờ bệnh Kawasaki để đo kích thước động mạch vành.\n- Phết dịch mũi họng hoặc dịch nốt ban:\nLàm xét nghiệm Real-time PCR chẩn đoán virus (EV71, VZV, Measles) khi cần khẳng định.\n\n---\n\n## 6. LƯU ĐỒ THUẬT TOÁN TIẾP CẬN CHẨN ĐOÁN PHÁT BAN TỪNG BƯỚC TẠI GIƯỜNG\n\n```text\n┌────────────────────────────────────────────────────────────────────────┐\n│ BƯỚC 1: ĐÁNH GIÁ SINH HIỆU & LÀM NGHIỆP PHÁP ẤN KÍNH (RED FLAGS)        │\n│ Ban có biến mất khi ấn ép không? Trẻ có sốc, li bì, suy hô hấp không?  │\n└───────────────────────────────────┬────────────────────────────────────┘\n┌──────────────┴──────────────┐\nCÓ                             KHÔNG\n│                              │\n▼                              ▼\n┌───────────────────────────────┐ ┌────────────────────────────────┐\n│ KÍCH HOẠT HỒI SỨC CẤP CỨU:    │ │ BƯỚC 2: PHÂN LOẠI THEO HÌNH   │\n│ 1. Thở oxy, lập đường truyền  │ │ THÁI HỌC TỔN THƯƠNG DA CƠ BẢN │\n│ 2. Kháng sinh Ceftriaxone TM  │ └────────────────┬───────────────┘\n│ 3. Bolus dịch nếu có sốc      │                  │\n└───────────────────────────────┘                  │\n┌──────────────────────────────────┴──────────────────────────────────┐\n▼                                                                     ▼\n┌──────────────────────────────┐                                      ┌──────────────────────────────┐\n│ BAN DÁT SẨN (Mất màu khi ấn) │                                      │ MỤN NƯỚC / BÓNG NƯỚC         │\n└──────────────┬───────────────┘                                      └──────────────┬───────────────┘\n│                                                                     │\n┌─────────────┴─────────────┐                                         ┌─────────────┴─────────────┐\n▼                           ▼                                         ▼                           ▼\n[Sốt cùng lúc mọc ban]      [Hết sốt mới mọc ban]                     [Nhiều lứa tuổi]            [Lòng bàn tay, chân, miệng]\n- Sởi: Lan tuần tự từ đầu   - Roseola (HHV-6): Sốt cao                 - Thủy đậu: Giọt sương      - Tay chân miệng: Bầu dục,\n- Kawasaki: Sốt >= 5 ngày     3-4 ngày rồi cắt sốt bùng ban              trên hoa hồng, hướng tâm    không ngứa, kèm loét họng\n```\n\n---\n\n## 7. NGUYÊN TẮC XỬ TRÍ PHÂN TẦNG: TỪ CẤP CỨU TỐI KHẨN ĐẾN ĐIỀU TRỊ NGOẠI TRÚ\n\n### 7.1. Phác đồ xử trí cấp cứu tối khẩn\n- Nhiễm khuẩn huyết não mô cầu / Tử ban hoại tử tối cấp:\n- Thiết lập ngay đường truyền tĩnh mạch trong vòng 90 giây đầu tiên.\n- Tiêm tĩnh mạch ngay Ceftriaxone liều 100 mg/kg hoặc Cefotaxim liều 50 mg/kg trong vòng 30 phút.\n- Nếu có sốc tụt huyết áp hoặc tưới máu kém, bolus ngay dịch tinh thể đẳng trương 20 mL/kg trong 15 phút.\n- Phản vệ có biểu hiện hô hấp hoặc tuần hoàn:\n- Tiêm bắp ngay Adrenaline 1:1000 liều 0.01 mg/kg ở mặt trước ngoài đùi.\n- Bệnh Kawasaki:\n- Truyền tĩnh mạch Immunoglobulin (IVIG) liều duy nhất 2 g/kg trong 10 đến 12 giờ phối hợp Aspirin liều cao.\n- Hội chứng bỏng da do tụ cầu (SSSS):\n- Sử dụng kháng sinh kháng tụ cầu tiết penicillinase đường tĩnh mạch như Oxacillin hoặc Cefazolin.\n- Bù dịch điện giải đầy đủ qua đường tĩnh mạch tương tự như xử trí một bệnh nhân bỏng nông.\n\n### 7.2. Chăm sóc và điều trị ngoại trú an toàn\n- Hầu hết các bệnh ban siêu vi tự giới hạn chỉ cần điều trị nâng đỡ và theo dõi sát.\n- Cho trẻ nghỉ ngơi trong phòng thoáng mát, uống đủ nước và dinh dưỡng lỏng giàu vitamin.\n- Vệ sinh da hàng ngày bằng nước ấm sạch, không chà xát làm tổn thương thêm hàng rào bảo vệ da.\n- Cách ly trẻ tại nhà đúng thời gian quy định đối với các bệnh lây truyền mạnh như sởi và thủy đậu.\n- Hướng dẫn phụ huynh nhận biết các dấu hiệu mất nước và cách bù nước bằng dung dịch Oresol chuẩn.\n\n---\n\n## 8. THEO DÕI, CHĂM SÓC DA & HƯỚNG DẪN DÙNG THUỐC HẠ SỐT AN TOÀN\n\n### 8.1. Nguyên tắc hạ sốt chuẩn mực theo AAP 2011\n\nMục tiêu chính của dùng thuốc hạ sốt ở trẻ em là cải thiện sự thoải mái toàn trạng của trẻ thay vì cố gắng đưa thân nhiệt về mức bình thường: The primary goal of antipyretic therapy in children is to improve child comfort rather than normalizing body temperature. {claim:C-008} [ABSTRACT VERIFIED] (PMID: 21357332)\n\n- Bác sĩ cần giải thích cặn kẽ để cha mẹ hiểu rằng sốt là phản ứng có lợi của cơ thể giúp chống lại mầm bệnh.\n- Chỉ dùng thuốc hạ sốt khi nhiệt độ cao làm trẻ quấy khóc, khó chịu, mệt mỏi hoặc bỏ ăn bú.\n- Thuốc hạ sốt được lựa chọn hàng đầu và an toàn nhất là Paracetamol đơn chất liều 10 đến 15 mg/kg mỗi 4 đến 6 giờ.\n- Tổng liều Paracetamol trong 24 giờ tuyệt đối không được vượt quá 60 mg/kg để tránh nguy cơ ngộ độc hoại tử gan cấp.\n- Tuyệt đối CẤM dùng Aspirin ở trẻ em bị sốt phát ban nghi do virus vì nguy cơ kích hoạt Hội chứng Reye gây tử vong.\n- Tránh dùng Ibuprofen ở trẻ nghi ngờ Sốt xuất huyết Dengue hoặc Thủy đậu do nguy cơ xuất huyết tiêu hóa và viêm mô hoại tử.\n- Đảm bảo bù đủ lượng dịch nhu cầu cơ bản cho trẻ theo công thức Holliday-Segar để duy trì lượng nước tiểu bình thường.\n- Hướng dẫn phụ huynh cách pha dung dịch Oresol đúng tỷ lệ một gói với đúng thể tích nước quy định trên nhãn.\n- Theo dõi sát màu sắc nước tiểu và số lần đi tiểu trong ngày để đánh giá mức độ đủ dịch của cơ thể trẻ.\n\n---\n\n## 9. 8 CẠM BẪY LÂM SÀNG THƯỜNG GẶP & SAI LẦM NGUY HIỂM (MISCONCEPTIONS)\n\n1.\nCạm bẫy 1:\nChẩn đoán nhầm ban đào Roseola infantum thành dị ứng kháng sinh.\n- Ví dụ 1:\nBé 10 tháng sốt cao 3 ngày được kê kháng sinh Cefixime; ngày thứ 4 bé hết sốt và nổi ban khắp người.\nBác sĩ kết luận dị ứng thuốc.\n- Sai lầm:\nĐây là diễn tiến tự nhiên kinh điển của bệnh ban đào do virus HHV-6, không phải dị ứng thuốc.\n2.\nCạm bẫy 2:\nNhầm ban hồi phục của Sốt xuất huyết Dengue với dị ứng thuốc hạ sốt.\n- Ví dụ 2:\nTrẻ sốt xuất huyết ngày thứ 7 hết sốt bùng phát ban đỏ ngứa nhiều ở cẳng chân có các đảo da lành.\n- Sai lầm:\nVội vàng kê Corticoid hoặc kháng histamin liều cao vì tưởng trẻ bị dị ứng thuốc Paracetamol.\n3.\nCạm bẫy 3:\nBỏ sót bệnh Kawasaki vì nhầm với bệnh sởi hoặc viêm kết mạc thông thường.\n- Ví dụ 3:\nTrẻ 2 tuổi sốt kéo dài 6 ngày kèm mắt đỏ và môi đỏ khô nứt nẻ bị chẩn đoán viêm họng thông thường.\n- Sai lầm:\nChậm trễ điều trị IVIG quá 10 ngày đầu làm tăng nguy cơ phình dãn động mạch vành vĩnh viễn.\n4.\nCạm bẫy 4:\nKiêng tắm, ủ ấm quá mức và trùm kín chăn ở trẻ sốt phát ban.\n- Ví dụ 4:\nPhụ huynh kiêng nước kiêng gió tuyệt đối làm mồ hôi ứ đọng dẫn đến viêm da mủ bội nhiễm tụ cầu.\n- Sai lầm:\nCản trở quá trình tỏa nhiệt của cơ thể và làm tăng nguy cơ co giật do sốt cao.\n5.\nCạm bẫy 5:\nChần chừ tiêm kháng sinh ở trẻ có tử ban sao để chờ kết quả xét nghiệm máu.\n- Ví dụ 5:\nBác sĩ trực đợi kết quả công thức máu và đông máu sau 2 giờ mới tiêm Ceftriaxone cho trẻ nghi não mô cầu.\n- Sai lầm:\nMất đi cơ hội cứu sống tính mạng bệnh nhi trước khi sốc nhiễm trùng không hồi phục.\n6.\nCạm bẫy 6:\nNặn bóc hoặc chọc hút dịch mụn nước trong bệnh Thủy đậu.\n- Ví dụ 6:\nNgười nhà chọc vỡ các bóng nước thủy đậu để bôi thuốc dân gian làm vi khuẩn xâm nhập gây viêm mô tế bào.\n- Sai lầm:\nPhá vỡ hàng rào bảo vệ tự nhiên của biểu bì da và để lại sẹo lõm vĩnh viễn.\n7.\nCạm bẫy 7:\nCho rằng nốt ban không ngứa thì chắc chắn không phải dị ứng thuốc.\n- Bẫy lâm sàng thường gặp:\nCác phản ứng dị ứng thuốc qua trung gian tế bào T có thể biểu hiện bằng ban dát sẩn không ngứa.\n8.\nCạm bẫy 8:\nDùng cồn y tế hoặc nước đá chườm lạnh để hạ nhiệt độ cho trẻ sốt phát ban.\n- Bẫy lâm sàng nguy hiểm:\nGây co mạch ngoại vi đột ngột làm thân nhiệt trung tâm tăng vọt và có nguy cơ ngộ độc cồn qua da.\n\n---\n\n## 10. 4 CHECKPOINT TƯ DUY PHẢN BIỆN TẠI GIƯỜNG (CLINICAL SELF-CHECKS)\n\n### Checkpoint 1: Làm thế nào để phân biệt chắc chắn giữa Bệnh Sởi và Bệnh Ban đào (Roseola)?\n- Bước 1:\nKhai thác mối tương quan giữa cơn sốt và thời điểm xuất hiện ban.\n- Trong bệnh Sởi, ban mọc khi cơn sốt đang ở đỉnh điểm cao nhất và ban lan tuần tự từ đầu mặt xuống chân.\n- Trong bệnh Ban đào, ban chỉ xuất hiện sau khi trẻ đã cắt cơn sốt hoàn toàn và ban mọc chủ yếu ở thân mình.\n- Bước 2:\nQuan sát niêm mạc miệng tìm kiếm hạt Koplik đặc trưng của sởi.\n- Bước 3:\nĐánh giá quá trình lặn ban, ban sởi để lại vết thâm da hổ trong khi ban Roseola lặn không để lại dấu vết.\n\n### Checkpoint 2: Tại sao trẻ mắc SSSS có dấu hiệu Nikolsky dương tính nhưng lại KHÔNG có loét niêm mạc miệng?\n- Phân tích cơ chế phân tử:\nĐộc tố Exfoliatin của tụ cầu chỉ phân cắt đặc hiệu phân tử Desmoglein-1.\n- Phân tử Desmoglein-1 chỉ có mặt ở lớp biểu bì da nông mà hoàn toàn không có ở niêm mạc miệng.\n- Niêm mạc miệng được liên kết bởi phân tử Desmoglein-3 nên không bị ảnh hưởng bởi độc tố tụ cầu.\n- Ngược lại, trong hội chứng Stevens-Johnson hoặc TEN, cơ chế miễn dịch phá hủy toàn bộ tế bào đáy nên gây loét niêm mạc nặng.\n\n### Checkpoint 3: Một trẻ sốt ngày thứ 2 có 5 chấm xuất huyết nhỏ ở cẳng chân nhưng trông rất tỉnh táo, có được cho về nhà không?\n- Phân tích nguy cơ:\nTuyệt đối không được cho bệnh nhi xuất viện về nhà ngay lúc này.\n- Bằng chứng nghiên cứu Waterfield 2023 cho thấy 1.5% trẻ sốt có chấm xuất huyết vẻ ngoài tỉnh táo vẫn mắc nhiễm khuẩn xâm lấn.\n- Trẻ cần được giữ lại phòng lưu cấp cứu để làm xét nghiệm chỉ dấu viêm và theo dõi sự tiến triển của ban trong 4 đến 6 giờ.\n\n### Checkpoint 4: Tại sao ban sẩn phù mày đay lại có đặc tính lặn mất trong vòng 24 giờ?\n- Phân tích dược động học:\nHistamine và các chất trung gian dãn mạch có thời gian bán thải sinh học rất ngắn.\n- Tình trạng phù nề mô bì nông sẽ được hệ thống tuần hoàn tĩnh mạch và bạch huyết tái hấp thu hoàn toàn sau vài giờ.\n- Nếu một nốt sẩn phù tồn tại cố định quá 24 giờ tại một vị trí, bác sĩ bắt buộc phải nghĩ đến viêm mạch mày đay.\n\n---\n\n## 11. 2 CA LÂM SÀNG THỰC CHIẾN KÈM BIỆN LUẬN CHI TIẾT (CASE STUDIES WITH SOLUTIONS)\n\n### Case 1: Bé trai 14 tháng tuổi sốt cao đột ngột và phát ban sau khi hạ sốt\n- Bệnh sử:\nBé trai 14 tháng tuổi, nặng 10.5 kg, được mẹ đưa đến khám vì nổi ban đỏ toàn thân sau đợt sốt cao.\n- Mẹ kể 3 ngày trước bé đột ngột sốt cao 39.5 đến 40 độ C, có co giật một cơn kéo dài 2 phút lúc sốt ngày đầu.\n- Sáng nay ngày thứ 4 bé cắt sốt hoàn toàn nhưng trên người nổi nhiều nốt ban màu hồng đỏ.\n- Khám lâm sàng:\nTrẻ tỉnh táo, tươi tỉnh, đang chơi đùa, mạch 105 lần/phút, nhịp thở 24 lần/phút, thân nhiệt 36.8 độ C.\n- Tổn thương da:\nNhiều dát sẩn màu hồng cánh đào kích thước 2 đến 3 mm ở ngực, bụng, lưng, rải rác ở đùi.\n- Nghiệm pháp ấn kính:\nCác nốt ban biến mất hoàn toàn khi đè ép lam kính.\n- Khám họng đỏ nhẹ, không có vết loét niêm mạc miệng, không hạt Koplik, cổ mềm, tim phổi bình thường.\n- Biện luận lâm sàng:\nTrẻ nhũ nhi sốt cao 3 ngày cắt sốt đột ngột bùng ban ở thân mình là bệnh cảnh kinh điển của Roseola.\n- Chẩn đoán xác định:\nBan đào trẻ em (Roseola infantum / Exanthem subitum) do virus HHV-6.\n- Xử trí giải pháp:\nTrấn an phụ huynh ban sẽ tự lặn trong 24 đến 48 giờ, không cần xét nghiệm máu, không dùng kháng sinh.\n\n### Case 2: Bé gái 3 tuổi sốt ngày thứ 2 xuất hiện vài nốt tử ban sao vùng chi dưới\n- Bệnh sử:\nBé gái 3 tuổi, nặng 14 kg, được đưa đến cấp cứu lúc nửa đêm vì sốt ngày 2 kèm xuất hiện các nốt bầm ở chân.\n- Bé sốt cao liên tục, nôn ói nhiều lần, mệt lả và bỏ ăn uống hoàn toàn.\n- Khám lâm sàng:\nTrẻ li bì khó đánh thức, mạch nhanh 155 lần/phút, nhịp thở 38 lần/phút, huyết áp tụt 75/40 mmHg.\n- Chi lạnh ẩm nổi vân tím, thời gian phục hồi màu da CRT kéo dài 4 giây.\n- Khám da:\nVùng mắt cá chân và mặt trong đùi có 8 nốt tử ban màu tím đen hình sao bờ nham nhở, trung tâm hoại tử.\n- Nghiệm pháp ấn kính:\nCác nốt tử ban KHÔNG BIẾN MẤT dưới lực ép của lam kính.\n- Cổ gượng nhẹ, dấu hiệu màng não nghi ngờ.\n- Biện luận lâm sàng:\nTrẻ có tam chứng cấp cứu:\nSốt cấp tính + Tử ban sao không mất màu khi ấn kính + Sốc nhiễm trùng mất bù.\n- Chẩn đoán xác định:\nNhiễm khuẩn huyết và viêm màng não do Não mô cầu (Meningococcemia) biến chứng sốc nhiễm trùng và DIC.\n- Xử trí giải pháp cấp cứu:\nCho thở oxy mặt nạ có túi, thiết lập ngay đường truyền tĩnh mạch lớn.\n- Tiêm tĩnh mạch ngay Ceftriaxone liều 100 mg/kg (1400 mg TM) trong vòng 10 phút, không chờ đợi xét nghiệm.\n- Bolus nhanh dung dịch Natri Clorid 0.9% liều 20 mL/kg (280 mL) trong 15 phút để hồi sức thể tích chống sốc.\n- Lấy máu làm xét nghiệm khẩn: cấy máu, công thức máu, khí máu, lactate, đông máu toàn bộ và chuyển khoa PICU.\n\n---\n\n## 12. TIPS THỰC CHIẾN DÀNH CHO BÁC SĨ TRỰC VÀ ĐIỀU DƯỠNG\n\n1. **Tip 1: Luôn cởi bỏ toàn bộ quần áo để khám da dưới ánh sáng tự nhiên đầy đủ.**\nÁnh đèn vàng phòng bệnh có thể che lấp các chấm xuất huyết nhỏ; hãy bộc lộ toàn thân trẻ và khám dưới ánh sáng ban ngày.\n2. **Tip 2: Đừng bao giờ quên kiểm tra vùng bẹn, mông, kẽ ngón và nếp gấp da.**\nBan tay chân miệng hay trốn ở nếp lằn mông; ban Schonlein-Henoch tập trung dày đặc ở mặt sau cẳng chân và mông.\n3. **Tip 3: Luôn mang sẵn lam kính sạch trong túi áo blouse khi đi trực.**\nChiếc lam kính giúp bạn làm nghiệm pháp ấn kính trong 3 giây tại giường để phân định chính xác bản chất nốt ban.\n4. **Tip 4: Dùng bút bi không phai khoanh tròn bờ nốt ban nghi ngờ để theo dõi.**\nNếu nghi ngờ ban xuất huyết đang lan rộng, hãy vẽ viền xung quanh nốt ban và ghi lại mốc giờ cụ thể.\n5. **Tip 5: Chấm xuất huyết trên mặt sau cơn ho dữ dội hoặc nôn thốc.**\nChấm xuất huyết đơn độc ở mặt và cổ trên mức xương đòn sau cơn ho rũ rượi thường do cơ học lành tính.\n6. **Tip 6: Kiểm tra kỹ niêm mạc miệng ở mọi bệnh nhi phát ban.**\nTìm kiếm hạt Koplik chỉ điểm sởi, vết loét vòm họng của tay chân miệng, và lưỡi đỏ dâu tây của Kawasaki.\n7. **Tip 7: Bệnh Kawasaki không bao giờ có tổn thương dạng mụn nước.**\nNếu ban da có mụn nước hoặc mụn mủ, hãy loại trừ ngay chẩn đoán Kawasaki và nghĩ sang các nguyên nhân khác.\n8. **Tip 8: Đừng quên đo huyết áp và xét nghiệm nước tiểu ở trẻ nghi ngờ Henoch-Schonlein.**\nTổn thương cầu thận có thể âm thầm tiến triển mà không có triệu chứng lâm sàng rõ rệt.\n9. **Tip 9: Khai thác kỹ tiền sử dùng thuốc trong vòng 8 tuần trước đó.**\nCác phản ứng dị ứng thuốc nặng như hội chứng DRESS có thể khởi phát sau 2 đến 6 tuần dùng thuốc.\n10. **Tip 10: Nhận diện mụn nước thủy đậu qua hình ảnh giọt sương trên cánh hoa hồng.**\nMụn nước vách rất mỏng chứa dịch trong suốt nằm trên nền da dát đỏ rực rỡ là hình ảnh bệnh học đặc trưng.\n11. **Tip 11: Tuyệt đối không dùng cồn y tế hoặc nước chanh bôi lên nốt ban.**\nCác dung dịch sát trùng mạnh phá hủy lớp biểu bì bảo vệ và làm tăng nguy cơ hấp thu độc chất qua da trẻ nhỏ.\n12. **Tip 12: Luôn dặn dò chi tiết các dấu hiệu cờ đỏ nguy hiểm cần tái khám ngay.**\nPhát phiếu hướng dẫn phụ huynh đưa trẻ quay lại viện ngay khi: sốt cao khó hạ, nôn ói nhiều, li bì hoặc ban tím lan nhanh.\n\n---\n\n## 13. TÓM TẮT THỰC HÀNH, HỆ THỐNG ĐÈN GIAO THÔNG & DẶN DÒ TÁI KHÁM\n\n### 13.1. Bảng tóm tắt hệ thống đèn giao thông phân tầng nguy cơ sốt phát ban\n- Nhóm Đỏ (Nguy cơ cao — Bắt buộc nhập viện cấp cứu ngay lập tức):\n- Ban không mất màu khi ấn kính (Non-blanching rash / Chấm xuất huyết / Tử ban sao).\n- Da tái xám hoặc nổi vân tím toàn thân, thời gian CRT kéo dài từ 3 giây trở lên.\n- Li bì, không thể đánh thức hoặc lơ mơ rối loạn tri giác.\n- Thở rên, thở nhanh co kéo lồng ngực nặng, tím tái, SpO2 dưới 92%.\n- Thóp phồng, cổ gượng, co giật.\n- Nhóm Vàng (Nguy cơ trung bình — Cần bác sĩ chuyên khoa đánh giá trực tiếp):\n- Ban dát sẩn lan tỏa kèm sốt kéo dài từ 5 ngày trở lên.\n- Giảm trương lực cơ, trẻ không cười đùa, quấy khóc dỗ không nín.\n- Dấu hiệu mất nước:\nMôi khô, mắt trũng, lượng nước tiểu giảm rõ rệt.\n- Sưng sưng hạch cổ, phù nề mu bàn tay hoặc mu bàn chân.\n- Nhóm Xanh (Nguy cơ thấp — Có thể theo dõi và chăm sóc ngoại trú):\n- Ban dát sẩn mất màu hoàn toàn khi ấn kính (Blanching).\n- Da niêm hồng hào, mắt sáng, trẻ tỉnh táo vui vẻ, đáp ứng tốt với cha mẹ.\n- Mạch và nhịp thở hoàn toàn trong giới hạn bình thường theo lứa tuổi.\n- Ăn uống tốt, bú tốt, tiểu tiện bình thường.\n\n### 13.2. Dặn dò phụ huynh khi theo dõi trẻ tại nhà\n1.\nĐo thân nhiệt cho trẻ bằng nhiệt kế nách khi trẻ có biểu hiện nóng sốt.\n2.\nDùng thuốc hạ sốt Paracetamol đúng liều lượng theo cân nặng (10 đến 15 mg/kg mỗi lần).\n3.\nGiữ vệ sinh thân thể sạch sẽ:\nTắm rửa nhẹ nhàng hàng ngày bằng nước ấm trong phòng kín gió.\n4.\nCho trẻ uống nhiều nước, ăn thức ăn lỏng mềm dễ tiêu hóa và chia nhỏ bữa.\n5.\nKiểm tra toàn bộ làn da của trẻ ít nhất 2 đến 3 lần mỗi ngày để phát hiện sớm nốt ban tím đen.\n\n---\n\n## 14. TÀI LIỆU THAM KHẢO & BẰNG CHỨNG Y HỌC\n\n1. **McCrindle BW, et al.** (2017).\nDiagnosis, Treatment, and Long-Term Management of Kawasaki Disease:\nA Scientific Statement for Health Professionals From the American Heart Association. *Circulation*.\nPMID:\n28356445.\n\n2. **Nijman RG, et al.** (2023).\nEuropean study confirms the combination of fever and petechial rash as an important warning sign for childhood sepsis and meningitis. *Acta Paediatr*.\nPMID:\n36866956.\n\n3. **Waterfield T, et al.** (2023).\nInvasive bacterial infection in children with fever and petechial rash in the emergency department: a national prospective observational study. *Arch Dis Child*.\nPMID:\n37019466.\n\n4. **National Institute for Health and Care Excellence (NICE).** (2022).\nNICE guideline review: fever in under 5s: assessment and initial management (NG143). *Arch Dis Child Educ Pract Ed*.\nPMID:\n34244233.\n\n5. **Centers for Disease Control and Prevention (CDC).** (2020).\nClinical Guideline Highlights for the Hospitalist:\nDiagnosis and Management of Measles. *J Hosp Med*.\nPMID:\n31869297.\n\n6. **Reid-Adam J.** (2014).\nHenoch-Schonlein purpura. *Pediatr Rev*.\nPMID:\n25274973.\n\n7. **Pediatrics in Review.** (2020).\nUrticaria, Angioedema, and Anaphylaxis. *Pediatr Rev*.\nPMID:\n32482691.\n\n8. **Section on Clinical Pharmacology and Therapeutics, American Academy of Pediatrics (AAP).** (2011).\nFever and antipyretic use in children. *Pediatrics*.\nPMID:\n21357332.\n",
+      "pedytb_file": null,
+      "pedytb_content": "",
+      "cards_count": 80,
+      "cards_data": [
+        {
+          "type": "basic",
+          "front": "Nghiệm pháp ấn kính (Glass test) giúp phân định rạch ròi hai bản chất tổn thương da nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Phân biệt ban sung huyết dãn mạch (biến mất khi ấn) vs ban xuất huyết hoại tử (KHÔNG biến mất khi ấn).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Ban xuất huyết là do hồng cầu đã thoát mạch ra mô bì nên lực ép cơ học không thể đẩy đi được.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Nghiệm pháp ấn kính dương tính (ban không biến mất dưới lực ép) chỉ điểm tổn thương {{c1::hồng cầu thoát mạch hoặc hoại tử vi mạch}}.",
+          "extra": "Là dấu hiệu báo động đỏ (Red flag) theo hướng dẫn NICE NG143 bắt buộc nhập viện cấp cứu ngay."
+        },
+        {
+          "type": "basic",
+          "front": "Tại sao bắt buộc phải khám da trẻ em dưới ánh sáng tự nhiên hoặc ánh sáng trắng?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Để không bỏ sót các chấm xuất huyết nhỏ li ti hoặc da tái nổi vân tím.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Ánh đèn vàng phòng bệnh làm phản xạ màu vàng che lấp hoàn toàn màu đỏ tím của chấm xuất huyết.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Theo hệ thống đèn giao thông NICE NG143, ban không mất màu khi ấn kính (Non-blanching rash) xếp trẻ vào nhóm {{c1::Nguy cơ cao (Vùng Đỏ)}}.",
+          "extra": "Yêu cầu chuyển khám cấp cứu và hồi sức ngay lập tức."
+        },
+        {
+          "type": "basic",
+          "front": "Thời gian phục hồi màu da (CRT) bình thường ở trẻ em là bao nhiêu?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>CRT bình thường là &lt; 2 giây (&le; 2 giây).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>CRT kéo dài &ge; 3 giây là chỉ dấu sớm của giảm tưới máu mô và sốc tuần hoàn.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Thời gian phục hồi màu da CRT kéo dài {{c1::từ 3 giây trở lên}} chỉ điểm tình trạng sốc tuần hoàn hoặc giảm tưới máu ngoại vi nặng.",
+          "extra": "Thực hiện ấn giữ móng tay hoặc xương ức trong 5 giây rồi buông ra đếm thời gian hồng trở lại."
+        },
+        {
+          "type": "basic",
+          "front": "Phát hiện tử ban màu tím đen hình sao lan nhanh ở trẻ sốt cao gợi ý bệnh lý tối khẩn nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nhiễm khuẩn huyết và viêm màng não do Não mô cầu (Meningococcemia).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nội độc tố vi khuẩn kích hoạt bão cytokine gây viêm mạch hoại tử và tắc huyết khối vi mạch cấp tính.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Thuốc kháng sinh đường tĩnh mạch được chỉ định cấp cứu ngay trong vòng 30 phút khi nghi ngờ não mô cầu là {{c1::Ceftriaxone liều 100 mg/kg}} hoặc Cefotaxim.",
+          "extra": "Tuyệt đối không được trì hoãn tiêm kháng sinh để chờ kết quả xét nghiệm máu hay chọc dịch não tủy."
+        },
+        {
+          "type": "basic",
+          "front": "Thể tích dịch tinh thể đẳng trương bolus ban đầu trong hồi sức sốc nhiễm khuẩn ở trẻ em là bao nhiêu?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bolus 20 mL/kg NaCl 0.9% hoặc Ringer Lactate trong 10 đến 20 phút.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Cần đánh giá lại sinh hiệu, CRT, kích thước gan và ran phổi sau mỗi lần truyền bolus dịch.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Theo nghiên cứu của Waterfield (2023), tỷ lệ nhiễm khuẩn xâm lấn (IBI) ở trẻ sốt có chấm xuất huyết nhưng vẻ ngoài tỉnh táo là {{c1::1.5%}}.",
+          "extra": "Chủ yếu do bệnh não mô cầu và phế cầu khuẩn huyết, vì vậy không được cho trẻ về nhà ngay."
+        },
+        {
+          "type": "basic",
+          "front": "Định nghĩa dát (Macule) trong da liễu nhi khoa?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vùng da phẳng đổi màu, không sờ thấy gờ lên, kích thước &lt; 10 mm.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nếu vùng dát đổi màu phẳng có kích thước &ge; 10 mm thì gọi là mảng dát (Patch).",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Tổn thương da gồ đặc trên mặt da, sờ thấy ranh giới rõ rệt có kích thước &lt; 10 mm được định nghĩa là {{c1::Sẩn (Papule)}}.",
+          "extra": "Khi nhiều sẩn hợp lại tạo thành vùng gồ rộng &ge; 10 mm thì gọi là mảng sẩn (Plaque)."
+        },
+        {
+          "type": "basic",
+          "front": "Phân biệt mụn nước (Vesicle) và bóng nước (Bulla) dựa trên ngưỡng kích thước nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Mụn nước có kích thước &lt; 5 mm; bóng nước có kích thước &ge; 5 mm.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Cả hai đều là tổn thương gồ chứa dịch trong suốt hoặc dịch đục trong biểu bì.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Tổn thương sẩn phù mày đay (Wheal) có đặc điểm sinh học kinh điển là lặn mất và thay đổi vị trí trong vòng {{c1::dưới 24 giờ}}.",
+          "extra": "Do hiện tượng dãn mạch và phù nề nhú bì qua trung gian Histamine có tính chất thoáng qua."
+        },
+        {
+          "type": "basic",
+          "front": "Nếu một nốt sẩn phù dạng mày đay tồn tại cố định quá 24 giờ tại một vị trí thì phải nghi ngờ bệnh lý nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nghi ngờ Viêm mạch mày đay (Urticarial vasculitis).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Khi lặn thường để lại vết xuất huyết hoặc tăng sắc tố sau viêm do hoại tử vi mạch.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Ngưỡng kích thước phân biệt giữa chấm xuất huyết (Petechiae) và tử ban (Purpura) là đường kính {{c1::2 mm}}.",
+          "extra": "Chấm xuất huyết &lt; 2 mm dạng chấm kim; tử ban từ 2 mm đến 10 mm."
+        },
+        {
+          "type": "basic",
+          "front": "Tử ban sờ thấy gồ trên mặt da (Palpable purpura) là dấu hiệu chỉ điểm cơ chế tổn thương nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Chỉ điểm Viêm mạch hoại tử (Leukocytoclastic vasculitis).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Thành mạch bị viêm thâm nhiễm bạch cầu trung tính và phù nề mô bì xung quanh làm nốt xuất huyết gồ lên.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Vảy tiết màu vàng mật ong (Honey-colored crusts) quanh mũi miệng là dấu hiệu đặc trưng của bệnh {{c1::Chốc lây (Impetigo)}} do tụ cầu vàng hoặc liên cầu.",
+          "extra": "Hình thành do dịch mụn mủ khô đọng lại trên bề mặt biểu bì bị trợt."
+        },
+        {
+          "type": "basic",
+          "front": "Dấu hiệu Nikolsky dương tính biểu hiện như thế nào và gặp trong bệnh nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Dùng ngón tay ấn trượt nhẹ làm trợt rách lớp biểu bì; gặp trong SSSS và SJS/TEN.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Chỉ điểm sự mất liên kết giữa các tế bào sừng do độc tố hoặc hoại tử biểu bì.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Tổn thương da hình bia bắn (Targetoid lesion) gồm 3 vòng tròn đồng tâm là hình ảnh kinh điển của bệnh {{c1::Hồng ban đa dạng (Erythema multiforme)}}.",
+          "extra": "Thường khởi phát sau nhiễm Herpes simplex virus (HSV) hoặc Mycoplasma pneumoniae."
+        },
+        {
+          "type": "basic",
+          "front": "Tam chứng viêm long kinh điển 3C trong giai đoạn tiền triệu của bệnh Sởi gồm những gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Cough (Ho) - Coryza (Viêm mũi sổ mũi) - Conjunctivitis (Viêm kết mạc mắt đỏ sợ ánh sáng).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Kèm sốt cao tăng dần; đây là thời kỳ lây lan mạnh nhất của virus sởi.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Hạt Koplik trong bệnh sởi xuất hiện ở vị trí {{c1::niêm mạc má đối diện răng hàm}} vào ngày 2 đến 3 của sốt.",
+          "extra": "Là dấu hiệu bệnh học đặc hiệu giúp chẩn đoán sởi trước khi ban da mọc."
+        },
+        {
+          "type": "basic",
+          "front": "Mô tả trình tự mọc ban kinh điển của bệnh Sởi?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Lan tuần tự từ đầu mặt xuống chân: sau tai/chân tóc → mặt/cổ → ngực/lưng/tay → bụng/đùi/chân.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Ban bắt đầu mọc vào ngày thứ 4 của sốt; khi ban mọc tới chân thì trẻ bắt đầu hạ sốt.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Đặc điểm hồi phục của ban sởi khi lặn là để lại các {{c1::vết thâm da hổ kèm bong vảy mịn}}.",
+          "extra": "Do hiện tượng tăng sắc tố và hoại tử biểu bì bề mặt sau viêm."
+        },
+        {
+          "type": "basic",
+          "front": "Động học sốt và mọc ban trong bệnh Ban đào (Roseola infantum do HHV-6) có gì đặc biệt?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Sốt rất cao 3–5 ngày, khi CẮT SỐT HOÀN TOÀN thì ban dát sẩn hồng mới bùng phát ở thân mình.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Sốt và ban tách biệt tuyệt đối; trẻ vui vẻ tỉnh táo ngay khi ban vừa mọc.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Vị trí phân bố ưu thế của ban đào Roseola infantum là ở {{c1::thân mình (ngực, bụng, lưng)}} và hầu như không có ở mặt.",
+          "extra": "Ban lặn nhanh sau 24 đến 48 giờ mà không để lại vết thâm."
+        },
+        {
+          "type": "basic",
+          "front": "Cạm bẫy chẩn đoán kinh điển giữa bệnh Ban đào (Roseola) và dị ứng kháng sinh là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ uống kháng sinh ngày 1–3, ngày 4 hết sốt nổi ban bị dán nhãn dị ứng thuốc sai.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Thực chất là diễn tiến tự nhiên của virus HHV-6: hết sốt mới mọc ban.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Virus gây bệnh Ban đào (Roseola infantum / Exanthem subitum) thường gặp nhất là {{c1::Human Herpesvirus-6 (HHV-6)}}.",
+          "extra": "Virus có ái lực với hệ thần kinh và là nguyên nhân hàng đầu gây co giật do sốt ở trẻ 6 đến 24 tháng."
+        },
+        {
+          "type": "basic",
+          "front": "Bệnh Rubella có dấu hiệu lâm sàng nào đặc trưng xuất hiện trước khi mọc ban?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Sưng đau chuỗi hạch sau tai, hạch dưới chẩm và hạch cổ sau.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Ban dát sẩn màu hồng nhạt mọc và lặn nhanh trong vòng 3 ngày ('ban 3 ngày').",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Dấu hiệu 'má bị tát' (Slapped-cheek) kèm ban dạng lưới ren ở thân mình là biểu hiện của bệnh do virus {{c1::Parvovirus B19}}.",
+          "extra": "Còn gọi là bệnh thứ năm (Erythema infectiosum); có nguy cơ gây cơn bất sản tủy ở trẻ thiếu máu huyết tán."
+        },
+        {
+          "type": "basic",
+          "front": "Dấu hiệu nhận diện then chốt của ban mụn nước trong bệnh Thủy đậu là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ban nhiều lứa tuổi (dát, sẩn, mụn nước trong, vảy tiết) cùng tồn tại trên một vùng da.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Do mụn nước mọc thành từng đợt liên tiếp cách nhau 2 đến 3 ngày.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Hình ảnh tổn thương mụn nước thủy đậu giai đoạn đầu được mô tả kinh điển là {{c1::giọt sương trên cánh hoa hồng (Dewdrop on a rose petal)}}.",
+          "extra": "Mụn nước vách rất mỏng chứa dịch trong suốt nằm trên nền da dát đỏ rực rỡ."
+        },
+        {
+          "type": "basic",
+          "front": "Phân bố tổn thương da trong bệnh Thủy đậu theo kiểu hướng tâm hay ly tâm?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Phân bố hướng tâm (Centripetal): Tập trung dày đặc ở thân mình và đầu mặt, thưa ở chi.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Khác với đậu mùa phân bố ly tâm (tập trung nhiều ở mặt và đầu chi).",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Tuyệt đối CẤM chỉ định {{c1::Aspirin hoặc Ibuprofen}} ở trẻ em mắc bệnh Thủy đậu do nguy cơ hội chứng Reye và viêm hoại tử.",
+          "extra": "Aspirin gây hội chứng Reye hoại tử gan não; Ibuprofen làm tăng nguy cơ viêm mô tế bào hoại tử do liên cầu."
+        },
+        {
+          "type": "basic",
+          "front": "Vị trí phân bố chọn lọc điển hình của ban trong bệnh Tay Chân Miệng (HFMD)?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Lòng bàn tay, lòng bàn chân, vùng mông và hai đầu gối, kèm loét niêm mạc miệng.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Mụn nước tay chân miệng thường có hình bầu dục, màu xám đục, không ngứa và không đau.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Chủng virus đường ruột nguy hiểm nhất thường gây biến chứng thần kinh và tim mạch trong Tay Chân Miệng là {{c1::Enterovirus 71 (EV71)}}.",
+          "extra": "Cần theo dõi sát dấu hiệu giật mình chới với lúc thiu thiu ngủ để phát hiện sớm viêm não."
+        },
+        {
+          "type": "basic",
+          "front": "Chủng Enterovirus mới nổi nào thường gây ban bóng nước không điển hình lan tỏa toàn thân và rụng móng?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Coxsackievirus A6 (CVA6).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Gây bóng nước lớn ở cả thân mình, cẳng chân và hiện tượng rụng móng (onychomadesis) sau 1–2 tháng.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Dấu hiệu thần kinh sớm nhất và có giá trị nhất cảnh báo bệnh Tay Chân Miệng chuyển độ nặng là {{c1::giật mình chới với}}.",
+          "extra": "Đặc biệt là giật mình lúc thiu thiu ngủ hoặc giật mình &ge; 2 lần trong 30 phút.",
+          "tags": [
+            "PED-49",
+            "HFMD"
+          ]
+        },
+        {
+          "type": "basic",
+          "front": "Tổn thương loét niêm mạc miệng trong bệnh Tay Chân Miệng thường nằm ở vị trí nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ở niêm mạc má, nướu răng, lưỡi và vòm hầu họng.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Khiến trẻ đau rát nhiều, chảy nước bọt liên tục và từ chối ăn bú.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Ban bóng nước trong bệnh Thủy đậu khi khô sẽ tạo thành {{c1::vảy tiết màu nâu sẫm}} và bong đi sau 1 đến 2 tuần.",
+          "extra": "Khi toàn bộ các nốt ban đã đóng vảy khô hoàn toàn thì trẻ không còn khả năng lây truyền bệnh."
+        },
+        {
+          "type": "basic",
+          "front": "Tiêu chuẩn chẩn đoán thời gian sốt bắt buộc trong bệnh Kawasaki kinh điển là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Sốt liên tục từ 5 ngày trở lên (&ge; 5 ngày) kèm ít nhất 4 trong 5 tiêu chuẩn phụ.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Sốt cao đáp ứng rất kém với các thuốc hạ sốt thông thường.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Theo AHA 2024, bệnh Kawasaki nếu không được điều trị sẽ dẫn đến giãn hoặc phình động mạch vành ở {{c1::25%}} số bệnh nhân.",
+          "extra": "Kawasaki là nguyên nhân hàng đầu gây bệnh tim mắc phải ở trẻ em các nước phát triển."
+        },
+        {
+          "type": "basic",
+          "front": "Kể tên 5 tiêu chuẩn lâm sàng phụ trong chẩn đoán bệnh Kawasaki?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1. Đỏ mắt không ghèn. 2. Môi đỏ nứt/lưỡi dâu tây. 3. Ban da đa dạng. 4. Phù đỏ mu tay chân/bong da quanh móng. 5. Hạch cổ &gt; 1.5 cm.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Cần thỏa mãn ít nhất 4/5 tiêu chuẩn này trên bệnh nhi sốt &ge; 5 ngày.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Đặc điểm viêm kết mạc hai mắt trong bệnh Kawasaki là đỏ mắt hai bên nhưng {{c1::hoàn toàn không có rỉ mủ (ghèn) xuất tiết}}.",
+          "extra": "Khác với viêm kết mạc do vi khuẩn thường có nhiều rỉ mủ vàng dính mi mắt."
+        },
+        {
+          "type": "basic",
+          "front": "Ban da trong bệnh Kawasaki TUYỆT ĐỐI KHÔNG BAO GIỜ có hình thái nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tuyệt đối không bao giờ có tổn thương dạng mụn nước hoặc bóng nước.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nếu xuất hiện mụn nước, phải lập tức loại trừ Kawasaki và nghĩ đến thủy đậu, herpes hoặc tụ cầu.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Dấu hiệu bong da đầu ngón tay ngón chân (Periungual desquamation) trong bệnh Kawasaki thường xuất hiện ở {{c1::giai đoạn bán cấp (tuần thứ 2 đến 3)}}.",
+          "extra": "Bắt đầu bong vảy từ rìa móng tay móng chân lan dần ra lòng bàn tay bàn chân."
+        },
+        {
+          "type": "basic",
+          "front": "Phác đồ điều trị tiêu chuẩn hàng đầu của bệnh Kawasaki trong giai đoạn cấp là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>IVIG liều cao 2 g/kg truyền tĩnh mạch liên tục trong 10–12 giờ phối hợp với Aspirin.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Cần dùng IVIG trong vòng 10 ngày đầu kể từ khi khởi phát sốt để bảo vệ động mạch vành.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Liều dùng của thuốc Immunoglobulin (IVIG) trong điều trị bệnh Kawasaki cấp tính là {{c1::2 g/kg}} truyền tĩnh mạch một liều duy nhất.",
+          "extra": "Giúp giảm tỷ lệ phình giãn động mạch vành từ 25% xuống dưới 3-5%."
+        },
+        {
+          "type": "basic",
+          "front": "Thời điểm chỉ định siêu âm tim qua thành ngực ở bệnh nhi nghi ngờ Kawasaki?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ngay tại thời điểm chẩn đoán, lặp lại sau 1–2 tuần và sau 6–8 tuần kể từ khi khởi phát sốt.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nhằm đo đường kính lòng mạch vành và tính điểm Z-score điều chỉnh theo diện tích da.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Trong bệnh Kawasaki, Aspirin được dùng liều cao kháng viêm trong giai đoạn sốt, sau đó hạ xuống liều chống kết tập tiểu cầu là {{c1::3 đến 5 mg/kg/ngày}}.",
+          "extra": "Duy trì uống 1 lần mỗi ngày trong 6 đến 8 tuần nếu siêu âm tim không có tổn thương vành."
+        },
+        {
+          "type": "basic",
+          "front": "Đặc điểm phân bố tổn thương da kinh điển trong Viêm mạch IgA (Henoch-Schönlein)?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Phân bố đối xứng ưu thế ở hai cẳng chân, mu bàn chân và vùng mông.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Là ban xuất huyết sờ thấy gồ (Palpable purpura), không do giảm tiểu cầu hay rối loạn đông máu.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Tam chứng lâm sàng ngoài da thường gặp đi kèm trong Viêm mạch Henoch-Schonlein gồm: {{c1::sưng đau khớp, đau bụng cơn và tổn thương thận}}.",
+          "extra": "Đau bụng cơn có nguy cơ biến chứng lồng ruột cấp do phù nề xuất huyết thành ruột."
+        },
+        {
+          "type": "basic",
+          "front": "Xét nghiệm nào bắt buộc phải theo dõi định kỳ ở bệnh nhi mắc Henoch-Schönlein purpura?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tổng phân tích nước tiểu (tìm hồng cầu niệu, protein niệu) và đo huyết áp định kỳ.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Tổn thương thận (viêm cầu thận IgA) có thể xuất hiện muộn và quyết định tiên lượng lâu dài của bệnh.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Hội chứng bong vảy da do tụ cầu (SSSS) xảy ra do ngoại độc tố {{c1::Exfoliatin A và B}} của vi khuẩn Staphylococcus aureus gây ra.",
+          "extra": "Độc tố cắt đứt đặc hiệu liên kết protein Desmoglein-1 giữa các tế bào sừng ở lớp hạt."
+        },
+        {
+          "type": "basic",
+          "front": "Tại sao bệnh nhi mắc SSSS có dấu hiệu Nikolsky dương tính nhưng KHÔNG bao giờ bị loét miệng?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì niêm mạc miệng chỉ chứa Desmoglein-3, không có Desmoglein-1 nên không bị độc tố tụ cầu tác động.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Đây là dấu hiệu then chốt phân biệt SSSS (không tổn thương niêm mạc) với TEN/SJS (loét niêm mạc nặng).",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Điểm khác biệt cốt lõi giữa SSSS và Hội chứng Stevens-Johnson (SJS) là SJS bắt buộc có tổn thương loét hoại tử ở {{c1::ít nhất 2 hốc niêm mạc tự nhiên}}.",
+          "extra": "Bao gồm niêm mạc mắt, khoang miệng và cơ quan sinh dục."
+        },
+        {
+          "type": "basic",
+          "front": "Kháng sinh đường tĩnh mạch được lựa chọn đầu tay trong điều trị hội chứng SSSS là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Kháng sinh kháng tụ cầu tiết penicillinase như Oxacillin hoặc Cefazolin.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nếu nghi ngờ tụ cầu vàng kháng methicillin (MRSA), chuyển sang dùng Vancomycin tĩnh mạch.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Nguyên tắc chăm sóc da cốt lõi trong SSSS và TEN là xem vùng da trợt tương tự như một {{c1::bệnh nhân bị bỏng nước nông diện rộng}}.",
+          "extra": "Cần bù đủ dịch điện giải, kiểm soát thân nhiệt và chăm sóc da vô khuẩn tuyệt đối."
+        },
+        {
+          "type": "basic",
+          "front": "Bệnh Tinh hồng nhiệt (Scarlet fever) do tác nhân vi khuẩn nào gây ra và dấu hiệu đặc trưng là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Do Liên cầu khuẩn nhóm A (GAS); ban đỏ mịn nhám như giấy ráp, lưỡi dâu tây đỏ.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Các nếp gấp cổ, nách, bẹn có các đường đỏ đậm màu không mất màu gọi là đường Pastia.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Kháng sinh đầu tay được khuyến cáo điều trị bệnh Tinh hồng nhiệt (Scarlet fever) do liên cầu là {{c1::Amoxicillin hoặc Penicillin V}} đường uống trong 10 ngày.",
+          "extra": "Điều trị đủ đợt giúp phòng ngừa biến chứng sốt thấp khớp cấp và viêm cầu thận hậu nhiễm liên cầu."
+        },
+        {
+          "type": "basic",
+          "front": "Mục tiêu cốt lõi của việc dùng thuốc hạ sốt ở trẻ em theo khuyến cáo của AAP 2011 là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Cải thiện sự thoải mái toàn trạng của trẻ thay vì cố gắng đưa thân nhiệt về mức bình thường.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Sốt là phản ứng sinh lý có lợi giúp ức chế virus và vi khuẩn phát triển.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Liều dùng đường uống chuẩn của Paracetamol trong hạ sốt giảm đau ở trẻ em là {{c1::10 đến 15 mg/kg mỗi lần}} cách mỗi 4 đến 6 giờ.",
+          "extra": "Tổng liều tối đa trong 24 giờ tuyệt đối không được vượt quá 60 mg/kg."
+        },
+        {
+          "type": "basic",
+          "front": "Tại sao không nên dùng xen kẽ hoặc phối hợp thường quy Paracetamol và Ibuprofen để hạ sốt?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Làm tăng nguy cơ quá liều do phụ huynh nhầm lẫn giờ và tăng nguy cơ độc tính suy thận cấp.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Không chứng minh được làm giảm tỷ lệ biến chứng hay rút ngắn thời gian mắc bệnh.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Chống chỉ định tuyệt đối sử dụng thuốc hạ sốt {{c1::Aspirin}} ở trẻ em sốt phát ban nghi do virus vì nguy cơ kích hoạt Hội chứng Reye.",
+          "extra": "Hội chứng Reye gây phù não cấp tính và thoái hóa mỡ gan nặng nề với tỷ lệ tử vong cao."
+        },
+        {
+          "type": "basic",
+          "front": "Tại sao chống chỉ định dùng Ibuprofen ở trẻ sốt nghi ngờ mắc Sốt xuất huyết Dengue?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Do ức chế ngưng tập tiểu cầu không hồi phục làm tăng nguy cơ xuất huyết tiêu hóa ồ ạt.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Ibuprofen ức chế enzym COX-1 làm phong bế tổng hợp Thromboxane A2 của tiểu cầu.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Chấm xuất huyết đơn độc ở mặt và cổ trên mức xương đòn sau cơn ho rũ rượi hoặc nôn thốc thường do {{c1::tăng áp lực thủy tĩnh lồng ngực cơ học lành tính}}.",
+          "extra": "Không kèm tổn thương xuất huyết ở thân mình hay chi; sinh hiệu và tiểu cầu hoàn toàn bình thường."
+        },
+        {
+          "type": "basic",
+          "front": "Nêu nguyên tắc tắm rửa đúng cách cho trẻ em đang bị sốt phát ban?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tắm rửa nhẹ nhàng hàng ngày bằng nước ấm sạch trong phòng kín gió, không chà xát mạnh.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Tuyệt đối không kiêng nước kiêng gió thái quá làm bít tắc mồ hôi và bội nhiễm vi khuẩn da.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Dấu hiệu phát ban hồi phục trong Sốt xuất huyết Dengue có đặc điểm kinh điển là ban đỏ dạng dát ngứa kèm {{c1::các đảo da lành màu trắng (Islands of white in a sea of red)}}.",
+          "extra": "Xuất hiện vào ngày thứ 6 đến 8 khi trẻ đã hết sốt; là dấu hiệu bệnh đã bước vào giai đoạn hồi phục."
+        },
+        {
+          "type": "basic",
+          "front": "Tại sao không được dùng cồn y tế hoặc nước đá lạnh chườm hạ sốt cho trẻ nhỏ?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gây co mạch ngoại vi làm thân nhiệt trung tâm tăng vọt và nguy cơ ngộ độc cồn hấp thu qua da.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Biện pháp vật lý an toàn duy nhất là lau người bằng nước ấm có nhiệt độ thấp hơn thân nhiệt trẻ 1–2 độ C.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Khoanh tròn bờ nốt tử ban nghi ngờ bằng bút bi và ghi mốc giờ giúp bác sĩ trực theo dõi chính xác {{c1::tốc độ lan rộng của tổn thương hoại tử vi mạch}}.",
+          "extra": "Nếu ban vượt ra ngoài vạch vẽ sau 30-60 phút, đó là dấu hiệu cờ đỏ cấp cứu tối khẩn."
+        },
+        {
+          "type": "basic",
+          "front": "Vị trí và liều tiêm bắp Adrenaline đầu tay trong xử trí phản vệ ở trẻ em?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tiêm bắp mặt trước ngoài đùi, liều 0.01 mg/kg Adrenaline 1:1000 (tối đa 0.3 mg trẻ nhỏ, 0.5 mg trẻ lớn).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Cơ tứ đầu đùi có tưới máu dồi dào giúp thuốc đạt nồng độ đỉnh trong huyết tương nhanh nhất.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Thuốc can thiệp sống còn hàng đầu ngay lập tức khi trẻ nổi mày đay cấp kèm thở rít hoặc tụt huyết áp là {{c1::Adrenaline 1:1000 tiêm bắp}}.",
+          "extra": "Tuyệt đối không được dùng kháng histamin hay corticoid thay thế cho Adrenaline trong phản vệ cấp."
+        },
+        {
+          "type": "basic",
+          "front": "Hội chứng DRESS (Drug Reaction with Eosinophilia and Systemic Symptoms) có đặc điểm thời gian khởi phát như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Khởi phát muộn sau 2 đến 8 tuần kể từ khi bắt đầu dùng thuốc gây dị ứng.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Biểu hiện sốt cao, phát ban toàn thân, sưng mặt, tăng bạch cầu ái toan và tổn thương gan thận.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Kháng nguyên vi khuẩn não mô cầu kích hoạt bão cytokine và hoại tử thành vi mạch chủ yếu qua thụ thể miễn dịch bẩm sinh {{c1::Toll-like receptor 4 (TLR-4)}}.",
+          "extra": "Dẫn đến đông máu nội mạch rải rác (DIC) và hình thành các mảng tử ban sao hoại tử (Purpura fulminans)."
+        },
+        {
+          "type": "basic",
+          "front": "Dấu hiệu hạt Koplik trong bệnh Sởi có đặc điểm hình thái học như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Các đốm nhỏ màu trắng ngà như hạt muối có quầng đỏ xung quanh ở niêm mạc má đối diện răng hàm.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Xuất hiện trước ban da 1–2 ngày và biến mất nhanh chóng sau khi ban da mọc rộ.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Ngoại độc tố Exfoliatin của tụ cầu vàng trong bệnh SSSS hoạt động như một enzym {{c1::protease serin}} phân cắt chọn lọc cầu nối Desmoglein-1.",
+          "extra": "Gây tách rời biểu bì nông ở lớp hạt mà không làm hoại tử tế bào đáy hay mô bì sâu."
+        },
+        {
+          "type": "basic",
+          "front": "Kể 4 dấu hiệu cờ đỏ phụ huynh cần đưa trẻ sốt phát ban tái khám cấp cứu ngay lập tức?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1. Sốt cao liên tục khó hạ. 2. Li bì, khó đánh thức. 3. Thở mệt, thở co kéo. 4. Nốt ban tím đen không mất màu lan nhanh.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Cần ghi rõ ràng vào phiếu hướng dẫn theo dõi ngoại trú khi cho trẻ về nhà.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Thử nghiệm lâm sàng đa trung tâm tại 11 khoa cấp cứu châu Âu ghi nhận tỷ lệ trẻ sốt có ban chấm xuất huyết là {{c1::1.3%}}.",
+          "extra": "Trong đó biến chứng nhiễm khuẩn huyết chiếm 2.2% và viêm màng não chiếm 3.1% số ca có ban xuất huyết."
+        },
+        {
+          "type": "basic",
+          "front": "Trẻ sốt kèm ban đỏ toàn thân và bong vảy da đầu ngón tay chân sau viêm họng liên cầu là bệnh gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bệnh Tinh hồng nhiệt (Scarlet fever).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Do ngoại độc tố sinh đỏ (Erythrogenic toxin) của liên cầu khuẩn Streptococcus pyogenes gây ra.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "text": "Nguyên tắc dùng Oresol bù nước cho trẻ phát ban là pha đúng tỷ lệ thể tích nước hướng dẫn và uống {{c1::từng thìa nhỏ hoặc từng ngụm nhỏ liên tục}}.",
+          "extra": "Tránh uống một lúc quá nhiều làm tăng áp lực dạ dày kích hoạt phản xạ nôn ói."
+        }
+      ],
+      "apkg_file": "PED-49_Tiep_can_benh_nhan_phat_ban_2026-09-25_RELEASE_v1.apkg",
+      "html_file": null,
+      "folder_rel": "05_Truyen_nhiem/PED-49_Tiep_can_benh_nhan_phat_ban"
+    },
+    {
       "id": "PED-40",
       "priority": "P0",
       "title": "Hội chứng thận hư nguyên phát ở trẻ em",
@@ -17809,14 +18289,667 @@ window.PED_LIBRARY_DATA = {
       "curriculum_status": "📝 MD-DRAFT (Bản RELEASE v1 đạt chuẩn Gates, APKG triển khai lượt sau)",
       "has_ped": true,
       "has_pedytb": false,
-      "has_cards": false,
+      "has_cards": true,
       "ped_file": "PED-40_Hoi_chung_than_hu_nguyen_phat_2026-09-21_RELEASE_v1.md",
       "ped_content": "# HỘI CHỨNG THẬN HƯ NGUYÊN PHÁT Ở TRẺ EM (PED-40)\n*Tiếp cận chẩn đoán, phân loại đáp ứng steroid, xử trí cấp cứu biến chứng và phác đồ điều trị chuẩn hóa theo IPNA, KDIGO và SINePe*\n\n---\n\n## LƯU ĐỒ TIẾP CẬN & PHÂN LUỒNG CẤP CỨU TẠI GIƯỜNG (BEDSIDE EMERGENCY ALGORITHM)\n\n```text\n               TRẺ ĐẾN KHÁM VÌ PHÙ MẶT, PHÙ MI MẮT BUỔI SÁNG HOẶC PHÙ TO TOÀN THÂN\n                                          |\n                  +-----------------------+-----------------------+\n                  |                                               |\n                  v                                               v\n     [ĐÁNH GIÁ DẤU HIỆU SINH TỒN & TƯỚI MÁU]             [TỔNG PHÂN TÍCH NƯỚC TIỂU]\n                  |                        [Huyết động]           |\n     +------------+------------+                     +------------+------------+\n     |                         |                     |                         |\n     v                         v                     v                         v\nDẤU HIỆU NGUY KỊCH:        SINH HIỆU ỔN:         PROTEIN NIỆU >= 3+:       PROTEIN NIỆU ÂM TÍNH / 1+:\n* Mạch nhanh nhỏ, khó bắt  * Huyết áp bình thường * Protein niệu 24h        * Khảo sát nguyên nhân khác:\n* CRT > 3 giây, chi lạnh   * CRT < 2 giây         >= 50 mg/kg/ngày           - Suy tim, suy dinh dưỡng\n* Tụt huyết áp hoặc kẹp    * Tiểu tốt, không sốt  HOẶC Up/Ucr >= 2 mg/mg     - Xơ gan, dị ứng, phù mạch\n* Đau bụng dữ dội, lơ mơ   * Không khó thở        (Protein niệu thận hư)    * Đánh giá lại sau 24-48 giờ\n     |                         |                     |\n     v                         |                     v\n[BÁO ĐỘNG CẤP CỨU ĐỎ]          |               [XÉT NGHIỆM HUYẾT THANH MÁU]\nGIẢM THỂ TÍCH TUẦN HOÀN        |               * Albumin máu < 25 g/L (bắt buộc)\nHOẶC SỐC GIẢM THỂ TÍCH         |               * Cholesterol máu > 5.2 mmol/L\n* THỞ OXY, THIẾT LẬP ĐƯỜNG TM  |                     |\n* CẤM TUYỆT ĐỐI DÙNG LỢI TIỂU  |                     v\n* TRUYỀN ALBUMIN 20%           |               [XÁC ĐỊNH HỘI CHỨNG THẬN HƯ]\n  0.5 - 1.0 g/kg (2.5-5 mL/kg) |               (Đủ 4 tiêu chuẩn kinh điển)\n  truyền chậm trong 2 - 4 giờ  |                     |\n* Furosemid 1 - 2 mg/kg TM     |                     v\n  CHỈ SAU KHI ĐÃ BÙ THỂ TÍCH   |         [ĐÁNH GIÁ 7 CHỈ ĐỊNH SINH THIẾT THẬN]\n                  |            |         (Tuổi < 1 hoặc > 12, THA thực tổn,\n                  v            v          Đái máu đại thể, Suy thận cấp, C3 giảm)\n            [CHUYỂN VÀO BUỒNG ĐIỀU TRỊ NỘI TRÚ CHUYÊN KHOA THẬN NHI]\n```\n\n---\n\n## BOX ĐỎ CẢNH BÁO AN TOÀN (RED SAFETY WARNING BOX)\n\n> ### CẢNH BÁO ĐỎ: 4 NGUY CƠ TỬ VONG & SAI LẦM TỐI KỴ CẦN TRÁNH\n>\n> 1. **CẤM DÙNG LỢI TIỂU ĐƠN ĐỘC KHI ĐANG CÓ GIẢM THỂ TÍCH TUẦN HOÀN:** Trẻ hội chứng thận hư dù phù toàn thân nhưng thể tích nội mạch thực tế có thể đang bị cạn kiệt nặng (hiện tượng Underfill). Nếu cho Furosemid đơn độc khi mạch nhanh nhỏ, CRT kéo dài, chi lạnh hoặc huyết áp tụt sẽ đẩy trẻ vào sốc giảm thể tích mất bù, tắc mạch huyết khối lan tỏa và suy thận cấp hoại tử ống thận cấp.\n> 2. **CHỐNG BỎ SÓT VIÊM PHÚC MẠC TIÊN PHÁT DO PHẾ CẦU KHUẨN:** Trẻ thận hư bị mất nặng nề kháng thể IgG và bổ thể qua nước tiểu, cực kỳ dễ nhiễm trùng các vi khuẩn có vỏ bọc, đặc biệt là *Streptococcus pneumoniae*. Bất kỳ trẻ thận hư nào có báng bụng kèm sốt, đau bụng âm ỉ hoặc tăng cảm ứng thành bụng PHẢI được nghĩ đến viêm phúc mạc tiên phát ngay và chỉ định kháng sinh tĩnh mạch phổ rộng lập tức sau khi cấy máu/dịch màng bụng.\n> 3. **CẢNH BÁO NGUY CƠ TẮC MẠCH HUYẾT KHỐI ĐE DỌA TÍNH MẠNG:** Tình trạng tăng đông máu do mất Antithrombin III, tăng sinh Fibrinogen tại gan và cô đặc máu có thể gây huyết khối tĩnh mạch thận, tĩnh mạch sâu chi dưới, tĩnh mạch não hoặc thuyên tắc động mạch phổi. Nguy cơ đặc biệt cao ở trẻ trên 12 tuổi, albumin máu dưới 20 g/L và có đặt catheter tĩnh mạch trung tâm.\n> 4. **CẤM NGỪNG ĐỘT NGỘT CORTICOID KHI ĐANG ĐIỀU TRỊ TẤN CÔNG:** Tuyến thượng thận bị ức chế hoàn toàn sau 2 tuần dùng Prednisolone liều cao. Việc tự ý bỏ thuốc hoặc cắt liều đột ngột sẽ dẫn đến cơn suy thượng thận cấp kịch phát (Adrenal Crisis) với trụy mạch, hạ đường huyết và tử vong nhanh chóng.\n\n## 0. TỔNG QUAN DỊCH TỄ HỌC & ĐỊNH NGHĨA SINH LÝ BỆNH MÀNG LỌC CẦU THẬN\n\n### 0.1 Nền tảng tối thiểu cần dùng ngay (Quick Clinical Primer)\nHội chứng thận hư nguyên phát là một bệnh lý cầu thận thường gặp nhất ở lứa tuổi nhi khoa.\nBệnh đặc trưng bởi sự thất thoát một lượng khổng lồ protein qua nước tiểu dẫn đến giảm áp lực keo huyết tương nghiêm trọng.\nHậu quả trực tiếp trên lâm sàng là sự xuất hiện của tình trạng phù toàn thân tiến triển nhanh từ mi mắt đến toàn thân.\nĐa số các trường hợp ở trẻ em từ 1 đến 10 tuổi là do bệnh tổn thương tối thiểu (Minimal Change Disease - MCD).\nĐặc tính sinh học quan trọng nhất của MCD là đáp ứng hoàn toàn với liệu pháp điều trị bằng Glucocorticoid đường uống.\nTuy nhiên, điều trị hội chứng thận hư ở trẻ em là một quá trình quản lý lâu dài đòi hỏi sự kiên trì của gia đình và bác sĩ.\nKhoảng 70% đến 80% trẻ đáp ứng tốt với steroid ban đầu sẽ trải qua ít nhất một đợt tái phát trong suốt thời thơ ấu.\nBiến chứng nguy hiểm nhất đe dọa trực tiếp tính mạng của trẻ trong đợt khởi phát không phải là suy thận mà là sốc giảm thể tích và nhiễm trùng nặng.\nVì vậy, tiếp cận một trẻ phù to ban đầu đòi hỏi bác sĩ lâm sàng phải đánh giá ngay tình trạng huyết động và tưới máu ngoại vi.\nCần phân biệt rõ ràng giữa tình trạng thừa dịch toàn bộ cơ thể với tình trạng thiếu hụt thể tích tuần hoàn trong lòng mạch.\nXét nghiệm nước tiểu là công cụ đầu tay quan trọng nhất, cho phép định hướng chẩn đoán ngay tại phòng khám cấp cứu.\nNếu que thử nước tiểu 10 thông số cho kết quả Protein niệu từ 3+ đến 4+, chẩn đoán hội chứng thận hư gần như chắc chắn.\nXét nghiệm sinh hóa máu sau đó sẽ hoàn thiện chẩn đoán xác định với nồng độ Albumin máu giảm sâu dưới 25 g/L.\nKhởi đầu điều trị bằng Prednisolone liều chuẩn cần được thực hiện sau khi đã loại trừ hoàn toàn các ổ nhiễm trùng cấp tính.\nHiểu đúng cơ chế bệnh sinh và tuân thủ nghiêm ngặt phác đồ sẽ giúp trẻ đạt lui bệnh hoàn toàn và bảo tồn tối đa chức năng thận lâu dài.\n\n### 0.2 Dịch tễ học & Gánh nặng bệnh lý ở trẻ em\nHội chứng thận hư nguyên phát (Idiopathic Nephrotic Syndrome - INS) có tỷ lệ mới mắc hàng năm dao động từ 1.15 đến 16.9 trên 100,000 trẻ em trên toàn cầu theo báo cáo đồng thuận của Hiệp hội Thận Nhi Quốc tế (IPNA 2023).\nBệnh có thể gặp ở mọi lứa tuổi nhưng đỉnh cao xuất hiện phổ biến nhất là từ 2 đến 6 tuổi, với ưu thế nghiêng về trẻ trai trong giai đoạn đầu đời (tỷ lệ trai:gái khoảng 2:1), sau đó cân bằng dần ở lứa tuổi dậy thì.\n\nVề mặt căn nguyên mô bệnh học, bệnh tổn thương tối thiểu (Minimal Change Disease - MCD) chiếm khoảng 85% đến 90% các trường hợp hội chứng thận hư nguyên phát ở trẻ dưới 10 tuổi.\nXơ chai cầu thận khu trú từng phần (Focal Segmental Glomerulosclerosis - FSGS) chiếm khoảng 10% đến 15%, thường gặp hơn ở trẻ lớn trên 10-12 tuổi và có tỷ lệ kháng thuốc steroid rất cao.\nMặc dù tỷ lệ sống còn lâu dài hiện nay đã đạt trên 97% nhờ sự ra đời của corticoid và kháng sinh hiện đại, gánh nặng bệnh tật do tái phát nhiều lần, tác dụng phụ của thuốc ức chế miễn dịch và nguy cơ suy thận mạn ở nhóm kháng steroid vẫn là một thách thức y khoa lớn.\n\n### 0.3 Cấu trúc hàng rào lọc cầu thận & Chân tế bào biểu mô (Podocyte)\nHàng rào lọc cầu thận (Glomerular Filtration Barrier - GFB) là một bộ máy siêu lọc sinh học tinh vi gồm 3 lớp giải phẫu hoạt động phối hợp:\n1. **Lớp tế bào nội mô mao mạch cầu thận (Endothelial cells):** Có nhiều lỗ thủng (fenestrations) đường kính từ 70 đến 100 nm, phủ bởi lớp glycocalyx tích điện âm mạnh giúp ngăn chặn các tế bào máu và các phân tử tích điện âm lớn.\n2. **Màng đáy cầu thận (Glomerular Basement Membrane - GBM):** Là một cấu trúc dạng lưới ngoại bào dày 250 - 350 nm, cấu tạo chủ yếu từ Collagen type IV, Laminin-521, Nidogen và Heparan sulfate proteoglycan (Agrin, Perlecan). Lớp màng này vừa đóng vai trò như một lưới chắn cơ học ngăn các phân tử có trọng lượng phân tử lớn hơn 70 kDa, vừa tích điện âm mạnh đẩy lùi các protein huyết tương.\n3. **Lớp tế bào có chân (Podocytes hay tế bào biểu mô tạng):** Các thân tế bào vươn ra các chân lớn, từ đó chia thành hàng triệu chân thứ cấp (foot processes) cài lồng vào nhau bọc kín các mao mạch. Khoảng cách giữa các chân lồi kế cận được nối với nhau bởi một cấu trúc màng chuyên biệt gọi là **màng ngăn có chân (slit diaphragm)** với khe lọc siêu vi có kích thước chỉ khoảng 4 đến 40 nm.\n\nKhái niệm **màng ngăn có chân (Slit diaphragm)** là một cấu trúc màng siêu lọc chuyên biệt nằm giữa các chân thứ cấp của podocyte, đóng vai trò là cửa ngõ cuối cùng và quan trọng nhất quyết định tính chọn lọc kích thước và điện tích của hàng rào lọc cầu thận.\nCấu trúc này được neo giữ bởi các phức hợp protein màng tối quan trọng gồm Nephrin (mã hóa bởi gen *NPHS1*), Podocin (mã hóa bởi gen *NPHS2*), CD2AP, và kênh ion TRPC6 liên kết trực tiếp với khung xương tế bào actin nội bào.\n\n### 0.4 Thuyết Underfill vs Thuyết Overfill trong cơ chế hình thành phù\nPhù là triệu chứng lâm sàng nổi bật nhất của hội chứng thận hư, nhưng cơ chế bệnh sinh thực sự lại có sự khác biệt giữa các nhóm bệnh nhân:\n\n| Đặc điểm so sánh | Thuyết giảm thể tích tuần hoàn (Underfill) | Thuyết quá tải thể tích (Overfill) |\n|---|---|---|\n| **Đối tượng lâm sàng** | Chiếm đa số ở trẻ nhỏ mắc bệnh tổn thương tối thiểu (MCD) | Thường gặp ở trẻ lớn, xơ chai cầu thận (FSGS) hoặc viêm cầu thận |\n| **Cơ chế khởi phát** | Thất thoát Albumin nặng làm giảm áp lực keo huyết tương | Khiếm khuyết bài tiết Natri nguyên phát tại ống góp do hoạt hóa kênh ENaC |\n| **Thể tích nội mạch** | **Giảm thể tích tuần hoàn hiệu dụng** (máu bị cô đặc) | **Tăng thể tích tuần hoàn hiệu dụng** (ứ trệ tuần hoàn) |\n| **Hệ Renin - Aldosteron** | Kích hoạt mạnh mẽ thứ phát để giữ muối và nước bù trừ | Bị ức chế thứ phát, nồng độ Renin và Aldosteron huyết tương giảm thấp |\n| **Biểu hiện lâm sàng** | Mạch nhanh nhỏ, CRT kéo dài > 2s, chi lạnh, huyết áp thấp | Huyết áp cao, tĩnh mạch cổ nổi, tim nhanh gallop T3, không có dấu thiếu máu chi |\n| **Đáp ứng với Furosemid** | Nguy cơ tụt huyết áp và sốc nặng nếu không bù Albumin trước | Đáp ứng bài niệu tốt với lợi tiểu quai đơn độc |\n\nTrong thực hành lâm sàng nhi khoa, đa số trẻ em mắc hội chứng thận hư tổn thương tối thiểu có cơ chế phù theo **Thuyết Underfill**, giải thích tại sao nhiều trẻ dù toàn thân ứ nước nặng nề nhưng lại đứng trước bờ vực của sốc giảm thể tích tuần hoàn.\n\n## 1. ĐỊNH NGHĨA TIÊU CHUẨN & PHÂN LOẠI LÂM SÀNG\n\n### 1.1 Khái niệm hội chứng thận hư nguyên phát là gì?\n**Hội chứng thận hư nguyên phát** là một hội chứng lâm sàng và sinh hóa xuất hiện do tổn thương nguyên phát tại tế bào có chân của cầu thận mà không tìm thấy bệnh lý toàn thân hoặc nguyên nhân thứ phát nào khác.\nĐặc trưng cơ bản của hội chứng này là sự xuất hiện đồng thời của tình trạng phù to, protein niệu lượng lớn chọn lọc, giảm nồng độ albumin trong huyết tương và rối loạn chuyển hóa lipid máu.\n\n### 1.2 4 tiêu chuẩn chẩn đoán kinh điển theo IPNA/KDIGO\nĐể chẩn đoán xác định hội chứng thận hư ở trẻ em, bệnh nhân cần thỏa mãn đầy đủ 4 tiêu chuẩn kinh điển theo khuyến cáo quốc tế của Hiệp hội Thận Nhi Quốc tế (IPNA) và Hội Thận học Quốc tế (KDIGO):\n\n1. **Phù (Edema):** Phù trắng, mềm, ấn lõm, không đau, xuất hiện đầu tiên ở mi mắt và mặt vào buổi sáng sau khi ngủ dậy, sau đó lan dần xuống hai chi dưới, cơ quan sinh dục ngoài và cuối cùng là phù toàn thân kèm tràn dịch đa màng (màng bụng, màng phổi, màng tinh hoàn).\n2. **Protein niệu ngưỡng thận hư (Nephrotic-range Proteinuria) — TIÊU CHUẨN BẮT BUỘC:**\n- Protein niệu thu thập trong 24 giờ >= 50 mg/kg/ngày (hoặc >= 40 mg/m2/giờ).\n- HOẶC tỷ số Protein/Creatinin nước tiểu mẫu ngẫu nhiên buổi sáng đầu tiên (Up/Ucr) >= 2.0 mg/mg (tương đương >= 200 mg/mmol).\n- HOẶC que thử nước tiểu (dipstick) bán định lượng cho kết quả Protein niệu liên tục từ 3+ (300 mg/dL) đến 4+ (1000 mg/dL).\n3. **Giảm Albumin máu nặng (Hypoalbuminemia) — TIÊU CHUẨN BẮT BUỘC:**\n- Nồng độ Albumin huyết thanh < 25 g/L (tương đương < 2.5 g/dL) (nhiều hướng dẫn cũ dùng mốc < 30 g/L, nhưng IPNA 2023 và KDIGO 2021 thống nhất mốc nghiêm ngặt < 25 g/L để xác định đợt bùng phát thực sự).\n- Đi kèm giảm Protein máu toàn phần thường dưới 55 g/L.\n4. **Tăng Lipid máu (Hyperlipidemia):**\n- Nồng độ Cholesterol toàn phần trong huyết tương > 5.2 mmol/L (tương đương > 200 mg/dL).\n- Kèm theo tăng Triglyceride máu, tăng nồng độ VLDL, LDL và giảm tỷ lệ thanh thải mỡ do giảm áp lực keo và mất protein điều hòa mỡ qua nước tiểu.\n\nTrong 4 tiêu chuẩn trên, **Protein niệu ngưỡng thận hư** và **Giảm Albumin máu dưới 25 g/L** là hai tiêu chuẩn sinh hóa bắt buộc phải có để thiết lập chẩn đoán bệnh.\n\n### 1.3 Đánh giá mức độ protein niệu & Các phương pháp đo lường\nTrong thực hành nhi khoa, việc thu thập nước tiểu 24 giờ ở trẻ nhỏ chưa tự chủ tiểu tiện (chưa bỏ tã) là cực kỳ khó khăn, dễ sai số và làm chậm trễ thời gian xử trí.\nDo đó, khuyến cáo quốc tế IPNA 2023 ưu tiên áp dụng các phương pháp thay thế chính xác:\n- **Tỷ số Protein/Creatinin nước tiểu ngẫu nhiên (Spot Urine Protein to Creatinine Ratio - Up/Ucr):** Lấy mẫu nước tiểu đầu tiên vào buổi sáng.\nMức Up/Ucr >= 2.0 mg/mg (hoặc >= 200 mg/mmol) có độ tương quan rất cao với protein niệu 24 giờ >= 50 mg/kg/ngày.\nỞ trẻ bình thường, Up/Ucr < 0.2 mg/mg (ở trẻ dưới 2 tuổi < 0.5 mg/mg).\n- **Que thử bán định lượng (Dipstick test):** Đo lường dựa trên phản ứng nhuộm màu của tetrabromphenol blue, nhạy cảm chủ yếu với albumin.\nKết quả âm tính (Negative), vết (Trace, < 30 mg/dL), 1+ (30 mg/dL), 2+ (100 mg/dL), 3+ (300 mg/dL), 4+ (>= 1000 mg/dL).\nQue thử là phương tiện tối ưu để gia đình tự theo dõi tiến triển tại nhà mỗi ngày.\n\n## 2. CƠ CHẾ TỔN THƯƠNG PODOCYTE & HÀNG RÀO LỌC CẦU THẬN\n\n### 2.1 Màng ngăn có chân (Slit Diaphragm) & Phức hợp Nephrin-Podocin\nSinh lý bệnh học cốt lõi của hội chứng thận hư nguyên phát quy tụ tại cấu trúc sinh học của tế bào có chân (Podocyte).\nPodocyte là loại tế bào biệt hóa tận cùng, không còn khả năng phân chia nguyên phân sau khi cơ thể trưởng thành.\nMàng ngăn có chân giữa các tế bào podocyte được xây dựng trên một phức hợp protein chuyên biệt:\n- **Nephrin:** Một glycoprotein xuyên màng thuộc họ globulin miễn dịch, vươn ra khoang khe lọc và đan chéo với nephrin của chân lồi đối diện, tạo thành bộ khung mắt lưới chính của khe lọc.\n- **Podocin:** Một protein màng dạng kẹp tóc (hairpin-like protein), nằm tại lớp lipid bè (lipid rafts) của màng tế bào chân lồi, có nhiệm vụ neo giữ, tập hợp và điều hòa tín hiệu của Nephrin và CD2AP với khung xương sợi actin nội bào.\n\nKhi có các yếu tố kích hoạt miễn dịch (rối loạn chức năng tế bào lympho T bài tiết các yếu tố tuần hoàn như Hemopexin, Soluble Urokinase Receptor - suPAR, hoặc cytokine gây viêm), cấu trúc khung xương actin bị tái tổ chức sâu sắc.\nHậu quả là các chân lồi của podocyte bị dẹt ra và dính liền lại với nhau, tạo nên hình ảnh **xóa chân lồi podocyte trên diện rộng (diffuse foot process effacement)** đặc trưng trên kính hiển vi điện tử.\n\n### 2.2 Cơ chế mất điện tích âm & Mất tính chọn lọc kích thước\nHàng rào lọc cầu thận khỏe mạnh bảo vệ cơ thể khỏi sự mất protein qua hai cơ chế bảo vệ:\n1. **Tính chọn lọc điện tích (Charge selectivity):** Bình thường, màng đáy cầu thận và bề mặt podocyte phủ đầy các phân tử Polyanion (Heparan sulfate proteoglycan và Podocalyxin) tích điện âm rất mạnh. Phân tử Albumin trong huyết tương cũng tích điện âm ở pH sinh lý (7.35 - 7.45), do đó bị đẩy dội ngược trở lại lòng mao mạch cầu thận nhờ lực đẩy tĩnh điện Coulomb. Trong bệnh tổn thương tối thiểu (MCD), sự mất mát nghiêm trọng lớp điện tích âm polyanion là cơ chế ban đầu làm cho albumin tự do vượt qua màng lọc, tạo ra hiện tượng **protein niệu chọn lọc cao (Selective Proteinuria)** với thành phần thoát ra gần như thuần khiết là Albumin.\n2. **Tính chọn lọc kích thước (Size selectivity):** Khi các khe lọc của màng ngăn có chân bị kéo giãn hoặc đứt gãy cấu trúc màng siêu lọc, các lỗ lọc có kích thước lớn hơn xuất hiện, cho phép các phân tử protein có trọng lượng lớn hơn (như IgG, Transferrin, alpha-2-Macroglobulin) lọt qua, biểu hiện dưới dạng **protein niệu không chọn lọc (Non-selective Proteinuria)**, thường gặp trong các bệnh lý tổn thương cấu trúc nặng như FSGS hoặc viêm cầu thận màng.\n\n### 2.3 Chuỗi cơ chế bệnh sinh (Mechanism Chains)\nDưới đây là các chuỗi phản ứng bệnh sinh liên hoàn giải thích toàn bộ các triệu chứng và biến chứng lâm sàng của bệnh:\n\n- **Chuỗi cơ chế 1 (Hình thành phù toàn thân & Giảm thể tích tuần hoàn hiệu dụng):**\nTổn thương tế bào có chân (podocyte) → Rối loạn phân bố phức hợp Nephrin-Podocin → Mất điện tích âm màng đáy cầu thận → Thất thoát ồ ạt Albumin qua nước tiểu → Giảm áp lực keo huyết tương → Phù toàn thân và giảm thể tích tuần hoàn hiệu dụng.\n\n- **Chuỗi cơ chế 2 (Rối loạn chuyển hóa Lipid máu):**\nThất thoát Albumin nặng qua nước tiểu → Giảm Albumin máu nặng (< 25 g/L) → Kích thích gan tăng tổng hợp bù trừ lipoprotein → Tăng Cholesterol máu và Triglyceride máu toàn phần → Tăng nguy cơ xơ vữa và biến chứng tắc mạch.\n\n- **Chuỗi cơ chế 3 (Tăng đông máu & Hình thành huyết khối tắc mạch):**\nGiảm Albumin máu kèm thất thoát Antithrombin III qua nước tiểu → Tăng tổng hợp gan các yếu tố đông máu V, VII, VIII, Fibrinogen → Cô đặc máu do thoát dịch vào khoang kẽ → Tăng kết tập tiểu cầu → Hình thành huyết khối tĩnh mạch sâu và tắc mạch phổi.\n\n- **Chuỗi cơ chế 4 (Suy giảm miễn dịch dịch thể & Nguy cơ nhiễm trùng nặng):**\nThất thoát globulin miễn dịch (IgG) và bổ thể (Yếu tố B, D) qua nước tiểu → Giảm khả năng opsonin hóa vi khuẩn có vỏ bọc → Suy giảm miễn dịch dịch thể → Trẻ dễ nhiễm trùng nặng bởi Phế cầu (*Streptococcus pneumoniae*) → Viêm phúc mạc tiên phát và nhiễm khuẩn huyết.\n\n- **Chuỗi cơ chế 5 (Xóa chân tế bào podocyte & Tổn thương mô kẽ thận):**\nTổn thương podocyte do yếu tố tuần hoàn (permeability factor) → Xóa các chân lồi tế bào podocyte (foot process effacement) → Mất tính toàn vẹn màng ngăn có chân (slit diaphragm) → Thất thoát protein niệu chọn lọc cao → Tái hấp thu protein quá mức tại ống lượn gần gây viêm mô kẽ thận.\n\n## 3. CHẨN ĐOÁN LÂM SÀNG, CẬN LÂM SÀNG & CHỈ ĐỊNH SINH THIẾT THẬN\n\n### 3.1 Khám lâm sàng toàn diện & Đánh giá thể tích tuần hoàn hiệu dụng\nKhi tiếp cận một trẻ nghi ngờ hội chứng thận hư, khám lâm sàng cần tập trung vào việc xác định mức độ ứ dịch ngoại bào kết hợp với đánh giá sát sao tình trạng tưới máu mô nội mạch:\n- **Đặc điểm phù:** Phù mềm, trắng, ấn lõm, đối xứng hai bên.\nBuổi sáng phù nhiều ở vùng quanh hốc mắt, mi mắt; buổi chiều phù dồn xuống hai mu bàn chân, cẳng chân hoặc vùng bìu/âm hộ.\nCần đo chu vi vòng bụng mỗi ngày ngang mức rốn để theo dõi lượng dịch báng.\n- **Dấu hiệu cảnh báo giảm thể tích nội mạch (Underfill Warning Signs):**\n- Mạch nhanh, nhỏ, yếu hoặc khó bắt.\n- Thời gian đổ đầy mao mạch (Capillary Refill Time - CRT) kéo dài trên 2 đến 3 giây.\n- Chi lạnh, đầu chi tái hoặc vân tím (mottling).\n- Huyết áp kẹp (hiệu số huyết áp tâm thu - tâm trương < 20 mmHg) hoặc tụt huyết áp tư thế.\n- Trẻ có cảm giác khát nước dữ dội, mệt lả, li bì, thiểu niệu rõ rệt (< 0.5 mL/kg/giờ) và hay kêu đau bụng vùng quanh rốn (do thiếu máu cục bộ tưới máu mạc treo ruột).\n- **Dấu hiệu quá tải thể tích (Overfill Signs):** Huyết áp tâm thu và tâm trương tăng cao trên bách phân vị thứ 95 theo tuổi và giới tính, tĩnh mạch cổ nổi, nhịp tim nhanh kèm gallop T3, ran ẩm đáy phổi hoặc gan to ứ máu.\n\n### 3.2 Bilan cận lâm sàng ban đầu bắt buộc\nTrước khi khởi động bất kỳ liệu pháp điều trị nào, một bilan xét nghiệm toàn diện cần được hoàn thành để thiết lập chẩn đoán, đánh giá biến chứng và làm mốc so sánh:\n\n| Nhóm xét nghiệm | Danh mục xét nghiệm cụ thể | Mục tiêu & Ý nghĩa lâm sàng |\n|---|---|---|\n| **1. Xét nghiệm Nước tiểu** | Tổng phân tích nước tiểu (Dipstick), Tỷ số Up/Ucr sáng sớm, Soi cặn lắng nước tiểu | Xác định protein niệu ngưỡng thận hư, tìm thể mỡ lưỡng chiết (chữ thập Maltese), loại trừ đái máu đại thể |\n| **2. Sinh hóa Huyết thanh** | Albumin máu, Protein toàn phần, Bộ mỡ máu (Cholesterol, Triglyceride, LDL), Ure, Creatinin | Xác định giảm Albumin máu (< 25 g/L), tăng lipid máu (> 5.2 mmol/L), tính eGFR theo Schwartz |\n| **3. Điện giải & Chuyển hóa** | Na+, K+, Cl-, Canxi toàn phần, Canxi ion hóa, Men gan (AST, ALT), Đường huyết | Phát hiện hạ natri máu pha loãng, phân biệt hạ canxi giả tạo với giảm canxi ion hóa thực sự |\n| **4. Huyết học & Tăng đông** | Tổng phân tích tế bào máu (CBC), Hematocrit, Tiểu cầu, PT, aPTT, Fibrinogen | Đánh giá mức độ cô đặc máu (Hematocrit > 45%), tăng tiểu cầu phản ứng và tăng đông máu (Fibrinogen > 6 g/L) |\n| **5. Miễn dịch & Tầm soát** | Bổ thể C3, C4, Kháng thể kháng nhân (ANA), Anti-dsDNA, HBsAg, Anti-HCV, HIV | Bổ thể C3 bình thường trong MCD; tầm soát Lupus ở trẻ lớn; loại trừ viêm gan B, C, HIV |\n| **6. Tầm soát Lao & X-quang** | Xét nghiệm Mantoux hoặc QuantiFERON-TB Gold, Chụp X-quang tim phổi thẳng | Bắt buộc loại trừ lao tiềm ẩn trước khi khởi động phác đồ corticoid liều cao kéo dài |\n\n### 3.3 7 chỉ định sinh thiết thận theo khuyến cáo quốc tế IPNA/KDIGO\nDo trên 85% trẻ em khởi phát hội chứng thận hư từ 1 đến 10 tuổi mắc bệnh tổn thương tối thiểu và đáp ứng hoàn toàn với corticoid, sinh thiết thận **KHÔNG ĐƯỢC CHỈ ĐỊNH THƯỜNG QUY** ở thời điểm chẩn đoán ban đầu.\nTuy nhiên, sinh thiết thận qua da dưới hướng dẫn của siêu âm là bắt buộc trong 7 tình huống lâm sàng cảnh báo nguy cơ tổn thương mô học phức tạp theo hướng dẫn của IPNA và KDIGO:\n\n1. **Tuổi khởi phát không điển hình:**\n- Trẻ dưới 1 tuổi (hội chứng thận hư bẩm sinh hoặc nhũ nhi, phần lớn do đột biến gen cấu trúc podocyte).\n- Trẻ trên 12 tuổi tại thời điểm khởi phát (tỷ lệ mắc FSGS, viêm cầu thận màng hoặc bệnh thận thứ phát do Lupus tăng cao rõ rệt).\n2. **Đái máu đại thể dai dẳng:** Sự hiện diện của nước tiểu màu đỏ hoặc nâu sẫm kéo dài (khác với đái máu vi thể thoáng qua vốn có thể gặp ở 20% trẻ MCD).\n3. **Tăng huyết áp thực tổn kéo dài:** Huyết áp tăng liên tục trên bách phân vị thứ 95 ngay cả sau khi đã kiểm soát tốt tình trạng phù và ngưng các thuốc kích thích.\n4. **Suy giảm chức năng thận thực tổn:** Nồng độ Creatinin huyết thanh tăng cao dai dẳng và eGFR giảm không hồi phục sau khi đã bù đủ thể tích tuần hoàn nội mạch.\n5. **Giảm nồng độ bổ thể C3 hoặc C4 trong huyết thanh:** Nghi ngờ viêm cầu thận tăng sinh màng (MPGN) hoặc viêm cầu thận do Lupus.\n6. **Có các biểu hiện lâm sàng ngoài thận gợi ý bệnh lý thứ phát:** Sốt kéo dài không rõ nguyên nhân, ban cánh bướm ở mặt, loét miệng, đau viêm đa khớp, ban xuất huyết dạng Schölein-Henoch hoặc sụt cân nghiêm trọng.\n7. **Hội chứng thận hư kháng steroid (SRNS):** Thất bại trong việc đạt lui bệnh sau 4 tuần điều trị tấn công Prednisolone liều chuẩn hàng ngày (bắt buộc sinh thiết trước khi chỉ định thuốc ức chế miễn dịch bậc hai).\n\n## 4. ĐIỀU TRỊ CORTICOID ĐỢT ĐẦU THEO HƯỚNG DẪN IPNA & KDIGO\n\n### 4.1 Phác đồ tấn công hàng ngày Prednisolone\nKhuyến cáo thực hành lâm sàng IPNA 2023 và hướng dẫn KDIGO 2021 đồng thuận cao về phác đồ điều trị tấn công đầu tay cho đợt khởi phát ban đầu của hội chứng thận hư ở trẻ em:\n\nKhái niệm **Prednisolone** là một thuốc glucocorticoid tổng hợp có hoạt tính chống viêm và ức chế miễn dịch mạnh gấp 4 lần hydrocortisone, là thuốc lựa chọn đầu tay tiêu chuẩn trong điều trị hội chứng thận hư ở trẻ em.\n- **Liều lượng:**\n- Tính theo cân nặng: 2.0 mg/kg/ngày.\n- HOẶC tính theo diện tích da (chính xác hơn ở trẻ béo phì hoặc trẻ nhỏ): 60 mg/m2/ngày.\n- **Liều tối đa tuyệt đối:** Không vượt quá 60 mg/ngày.\n- **Cách dùng:** Uống một lần duy nhất vào buổi sáng (khoảng 7:00 - 8:00 sáng sau khi ăn no) để mô phỏng nhịp sinh học tiết cortisol tự nhiên của vỏ thượng thận, giúp giảm thiểu nguy cơ ức chế trục hạ đồi - tuyến yên - thượng thận (HPA axis) và giảm kích ứng dạ dày.\n- **Thời gian điều trị tấn công:** Kéo dài liên tục trong **4 tuần đến 6 tuần**.\nTheo IPNA 2023, thời gian tấn công hàng ngày 4 tuần là đủ cho hầu hết trẻ em đạt lui bệnh hoàn toàn trong 2-3 tuần đầu; nếu đến hết tuần thứ 4 trẻ mới bắt đầu giảm protein niệu nhưng chưa âm tính hẳn, có thể tiếp tục kéo dài liều hàng ngày đến tối đa 6 tuần trước khi kết luận kháng thuốc.\n\n### 4.2 Phác đồ duy trì cách ngày & Quy trình giảm liều\nNgay sau khi hoàn thành đợt tấn công hàng ngày, bệnh nhân được chuyển sang phác đồ duy trì cách ngày:\n- **Liều lượng cách ngày:**\n- Tính theo cân nặng: 1.5 mg/kg/ngày uống cách ngày (Alternate-day).\n- HOẶC tính theo diện tích da: 40 mg/m2/ngày uống cách ngày.\n- **Liều tối đa tuyệt đối:** Không vượt quá 40 mg/ngày.\n- **Cách dùng:** Uống một lần duy nhất vào buổi sáng của ngày chỉ định (ví dụ uống vào sáng thứ 2, thứ 4, thứ 6, chủ nhật; các ngày thứ 3, thứ 5, thứ 7 nghỉ hoàn toàn không uống thuốc).\n- **Thời gian duy trì cách ngày:** Kéo dài trong **4 tuần đến 6 tuần**.\n- **Quy trình ngưng thuốc:** Sau khi hoàn thành 4 đến 6 tuần duy trì liều 40 mg/m2 cách ngày, có thể giảm dần liều mỗi 1-2 tuần (ví dụ giảm xuống 1.0 mg/kg cách ngày trong 2 tuần, rồi 0.5 mg/kg cách ngày trong 2 tuần rồi ngưng hẳn) HOẶC ngưng thuốc trực tiếp theo một số protocol rút gọn của IPNA nếu tổng thời gian đợt đầu đạt 8 đến 12 tuần.\n- **Tổng thời gian điều trị đợt đầu:** Thống nhất từ **8 tuần đến 12 tuần (khoảng 2 đến 3 tháng)**.\n\n### 4.3 Các ví dụ tính toán lâm sàng trong thực hành kê đơn\nDưới đây là các ví dụ minh họa cụ thể giúp bác sĩ thực hành kê đơn và tính toán an toàn:\n- **Ví dụ 1 (Tính liều tấn công Prednisolone theo cân nặng):** Bé trai 3 tuổi, cân nặng 15 kg, khởi phát hội chứng thận hư lần đầu. Liều tấn công chuẩn là 2 mg/kg/ngày x 15 kg = 30 mg/ngày. Kê đơn: Prednisolone 5 mg, uống 6 viên một lần duy nhất vào lúc 7 giờ sáng sau khi ăn no.\n- **Ví dụ 2 (Tính liều theo diện tích da ở trẻ thừa cân):** Bé gái 6 tuổi, cân nặng 28 kg, chiều cao 115 cm, diện tích da tính được là 0.95 m2. Nếu tính theo cân nặng (2 mg/kg), liều sẽ lên tới 56 mg/ngày. Tính theo diện tích da chuẩn: 60 mg/m2 x 0.95 = 57 mg/ngày, không vượt quá liều tối đa 60 mg/ngày.\n- **Ví dụ 3 (Tính bù Albumin 20% và Furosemid trong sốc giảm thể tích):** Trẻ 4 tuổi, cân nặng khô ước tính 16 kg, vào viện trong tình trạng mạch nhanh nhỏ, CRT 4 giây, huyết áp tụt. Liều Albumin 20% cần dùng là 1.0 g/kg x 16 kg = 16 g Albumin, tương đương 80 mL dung dịch Albumin 20% truyền qua bơm tiêm điện trong 2 giờ (40 mL/giờ). Sau khi truyền được 1 giờ, tưới máu cải thiện, tiêm Furosemid 1 mg/kg = 16 mg tĩnh mạch chậm.\n- **Ví dụ 4 (Quy trình chuyển liều sang cách ngày):** Trẻ 18 kg sau 4 tuần tấn công hàng ngày đạt lui bệnh hoàn toàn (que thử âm tính liên tục 3 ngày). Chuyển sang liều cách ngày: 1.5 mg/kg x 18 kg = 27 mg (làm tròn 25 mg hoặc 5 viên 5 mg) uống vào sáng các ngày thứ 2, thứ 4, thứ 6 và chủ nhật; các ngày còn lại nghỉ thuốc.\n- **Ví dụ 5 (Đánh giá chỉ số Up/Ucr ngẫu nhiên):** Mẫu nước tiểu sáng ngẫu nhiên của trẻ có nồng độ Protein niệu là 450 mg/dL và Creatinin niệu là 90 mg/dL. Tỷ số Up/Ucr = 450 / 90 = 5.0 mg/mg. Chỉ số này > 2.0 mg/mg, khẳng định chắc chắn protein niệu ở ngưỡng thận hư.\n- **Ví dụ 6 (Hiệu chỉnh Canxi máu khi Albumin giảm sâu):** Kết quả sinh hóa của bệnh nhi cho thấy Canxi toàn phần là 1.65 mmol/L, Albumin máu là 12 g/L. Áp dụng công thức hiệu chỉnh: Canxi hiệu chỉnh = 1.65 + 0.02 x (40 - 12) = 1.65 + 0.56 = 2.21 mmol/L. Nồng độ canxi hiệu chỉnh hoàn toàn nằm trong giới hạn bình thường (2.15 - 2.55 mmol/L), chứng minh đây là hạ canxi giả tạo và chống chỉ định tiêm canxi tĩnh mạch.\n- **Ví dụ 7 (Kê đơn bổ sung Canxi và Vitamin D3 dự phòng):** Trẻ bắt đầu đợt điều trị corticoid 8-12 tuần được kê đơn dự phòng: Canxi nguyên tố 500 mg/ngày kết hợp Vitamin D3 400 UI/ngày uống vào buổi trưa sau ăn.\n- **Ví dụ 8 (Xử trí trẻ thận hư sốt nhiễm siêu vi đợt tái phát):** Trẻ đang uống Prednisolone cách ngày bị sốt siêu vi và que thử xuất hiện Protein 1+ thoáng qua. Hướng dẫn mẹ tiếp tục theo dõi que thử mỗi sáng trong 3 ngày; nếu que thử âm tính trở lại thì không thay đổi liều steroid.\n\n### 4.4 Bằng chứng từ tổng quan hệ thống Cochrane 2020 về thời gian điều trị\nTrước đây, nhiều hội thận học (như APN hoặc ISKDC cũ) từng áp dụng các phác đồ kéo dài 3 đến 6 tháng với hy vọng giảm tỷ lệ tái phát.\nTuy nhiên, tổng quan hệ thống và phân tích gộp lớn nhất của Cochrane Database of Systematic Reviews (Hahn D, et al.\n2020) trên hàng ngàn bệnh nhi đã làm thay đổi hoàn toàn thực hành lâm sàng toàn cầu:\n\nKhi phân tích riêng biệt các thử nghiệm lâm sàng ngẫu nhiên có đối chứng (RCT) có nguy cơ sai lệch thấp (Low risk of bias - điển hình như thử nghiệm PREDNOS của Anh Quốc), việc kéo dài thời gian điều trị corticosteroid đợt đầu trên 2 đến 3 tháng (8 đến 12 tuần) **KHÔNG LÀM GIẢM NGUY CƠ TÁI PHÁT** so với phác đồ chuẩn 2 đến 3 tháng:\n- Nguy cơ tương đối tái phát: **RR = 0.95 (khoảng tin cậy 95% CI: 0.81 - 1.12)**.\n- Tỷ lệ bệnh nhân duy trì tình trạng lui bệnh không tái phát sau 12-24 tháng theo dõi là tương đương nhau giữa nhóm điều trị chuẩn 2-3 tháng và nhóm kéo dài 6 tháng.\n- Ngược lại, nhóm kéo dài thời gian điều trị phải gánh chịu tổng liều corticoid tích lũy cao hơn đáng kể, làm gia tăng rõ rệt các tác dụng phụ nghiêm trọng: chậm phát triển chiều cao, béo phì thể Cushing, rậm lông, rạn da, tăng huyết áp và rối loạn hành vi cảm xúc.\n\nVì vậy, bằng chứng y văn quốc tế khẳng định thời gian điều trị đợt đầu chuẩn hóa cho hội chứng thận hư trẻ em là **8 đến 12 tuần**, tuyệt đối không kéo dài quá 3 tháng một cách không cần thiết.\n\n## 5. XỬ TRÍ BIẾN CHỨNG CẤP TÍNH, QUẢN LÝ VÀ THEO DÕI LÂU DÀI\n\n### 5.1 Giảm thể tích tuần hoàn & Sốc giảm thể tích (Phác đồ Albumin + Furosemid)\nGiảm thể tích tuần hoàn hiệu dụng là biến chứng cấp cứu nội khoa tối khẩn cấp, thường xảy ra khi nồng độ albumin máu tụt quá thấp (< 15 - 20 g/L) kết hợp với việc dùng lợi tiểu sai chỉ định hoặc trẻ bị nôn ói, tiêu chảy cấp đi kèm.\n\nKhái niệm **Albumin 20%** là một dung dịch keo ưu trương có nồng độ thẩm thấu cao gấp 4 lần huyết tương bình thường, có tác dụng kéo nước mạnh mẽ từ khoang kẽ trở lại lòng mạch, phục hồi thể tích tuần hoàn hiệu dụng và tăng áp lực keo.\n\nKhái niệm **Furosemid** là một thuốc lợi tiểu quai có cơ chế ức chế đồng vận chuyển Na+-K+-2Cl- tại nhánh lên quai Henle, giúp tăng thải trừ muối và nước mạnh mẽ qua thận.\n#### Phác đồ cấp cứu giảm thể tích tuần hoàn theo IPNA & SINePe:\n1. **Bước 1 — Phục hồi thể tích nội mạch:**\n- Chỉ định: Trẻ có dấu hiệu giảm thể tích tuần hoàn (mạch nhanh nhỏ, CRT > 3s, chi lạnh, huyết áp tụt hoặc kẹp, đau bụng dữ dội do thiếu máu mạc treo).\n- Dịch truyền: **Dung dịch Albumin 20%** (hoặc Albumin 25%).\n- Liều lượng: 0.5 - 1.0 g/kg (tương đương 2.5 - 5.0 mL/kg dung dịch Albumin 20%).\n- Tốc độ: Truyền tĩnh mạch chậm qua bơm tiêm điện trong **2 đến 4 giờ**.\n- *Lưu ý sống còn:* Nếu trẻ đang trong tình trạng sốc mất bù nặng (huyết áp tụt sâu), cần chống sốc ban đầu bằng dung dịch điện giải đẳng trương (Natri Clorid 0.9% hoặc Ringer Lactate 10 - 20 mL/kg truyền nhanh trong 30-60 phút) trong khi chuẩn bị Albumin.\n2. **Bước 2 — Thúc đẩy bài niệu bằng Lợi tiểu quai:**\n- **ĐIỀU KIỆN TIÊN QUYẾT:** CHỈ ĐƯỢC DÙNG FUROSEMID KHI ĐÃ TRUYỀN ĐƯỢC ÍT NHẤT 1/2 CHAI ALBUMIN VÀ HUYẾT ĐỘNG ĐÃ CẢI THIỆN (Mạch rõ, CRT < 2s, huyết áp ổn định).\n- Thuốc: Furosemid tiêm tĩnh mạch trực tiếp.\n- Liều lượng: 1.0 - 2.0 mg/kg/liều.\n- Thời điểm: Tiêm vào giữa hoặc ngay cuối buổi truyền Albumin.\n- Theo dõi: Theo dõi sát nhịp thở, SpO2, mạch, huyết áp mỗi 15-30 phút để phát hiện sớm biến chứng **quá tải thể tích tuần hoàn cấp hoặc phù phổi cấp** do kéo dịch vào lòng mạch quá nhanh.\n\n### 5.2 Nhiễm trùng nặng: Viêm phúc mạc tiên phát & Viêm mô tế bào\nNhiễm trùng là nguyên nhân gây tử vong hàng đầu ở trẻ em mắc hội chứng thận hư.\nTình trạng mất kháng thể qua nước tiểu cùng với điều trị ức chế miễn dịch làm suy yếu hệ phòng ngự của cơ thể:\n- **Viêm phúc mạc tiên phát (Spontaneous Bacterial Peritonitis - SBP):**\n- Căn nguyên hàng đầu: Phế cầu khuẩn (*Streptococcus pneumoniae*) chiếm trên 50%, tiếp theo là các trực khuẩn Gram âm đường ruột (*Escherichia coli*, *Klebsiella pneumoniae*).\n- Triệu chứng: Sốt cao đột ngột, đau bụng âm ỉ hoặc quặn cơn, bụng báng căng đau, tăng cảm ứng phúc mạc, nôn ói, nhu động ruột giảm hoặc mất.\n- Xử trí: Cấy máu ngay, chọc dò màng bụng xét nghiệm dịch báng (bạch cầu > 250 - 500/mm3 với ưu thế đa nhân trung tính).\nKhởi động ngay kháng sinh tĩnh mạch phổ rộng liều cao: **Ceftriaxone 80 - 100 mg/kg/ngày** tiêm TM 1 lần/ngày HOẶC **Cefotaxime 150 mg/kg/ngày** chia 3 lần.\nNếu nghi ngờ phế cầu kháng penicillin, phối hợp thêm **Vancomycin 40 - 60 mg/kg/ngày**.\n- **Viêm mô tế bào (Cellulitis):** Thường xuất hiện ở vùng da phù nề căng bóng, nứt nẻ ở hai chi dưới hoặc bìu.\nCăn nguyên hay gặp là Liên cầu nhóm A (*Streptococcus pyogenes*) và Tụ cầu vàng (*Staphylococcus aureus*).\nCần dùng kháng sinh chống tụ cầu như Oxacillin/Cefazolin hoặc Vancomycin nếu nghi ngờ MRSA.\n\n### 5.3 Huyết khối tắc mạch: Nhận diện yếu tố nguy cơ & Dự phòng chống đông\nTheo nghiên cứu đa trung tâm của Hiệp hội Thận Nhi vùng Trung Tây Hoa Kỳ (MWPNC - Kerlin BA, et al.\n2009) trên 988 trẻ em mắc hội chứng thận hư, biến chứng huyết khối tắc mạch (Thromboembolism - TE) xảy ra ở **2.8%** bệnh nhân.\nMặc dù tỷ lệ này thấp hơn ở người lớn (khoảng 25%), đây là biến chứng cực kỳ nguy hiểm có tỷ lệ tàn tật và tử vong cao:\n- **Yếu tố nguy cơ độc lập:**\n- Lứa tuổi: Trẻ lớn **trên 12 tuổi** có nguy cơ tắc mạch cao vượt trội so với trẻ nhỏ.\n- Nồng độ Albumin máu giảm cực sâu: < 20 g/L (đặc biệt < 15 g/L).\n- Cô đặc máu nặng: Hematocrit > 45%.\n- Mức độ Fibrinogen huyết tương tăng vọt: > 6 g/L.\n- Nồng độ Antithrombin III giảm dưới 60%.\n- Có sự hiện diện của đường truyền tĩnh mạch trung tâm (Central Venous Catheter - CVC): làm tăng nguy cơ huyết khối tại chỗ lên gấp nhiều lần.\n- **Vị trí tắc mạch thường gặp:** Huyết khối tĩnh mạch sâu chi dưới (DVT), huyết khối tĩnh mạch thận (tiểu máu, đau vùng hông lưng, thận to, suy thận cấp), huyết khối xoang tĩnh mạch não (đau đầu dữ dội, co giật, tăng áp lực nội sọ), và thuyên tắc động mạch phổi (PE - khó thở đột ngột, đau ngực kiểu màng phổi, ho ra máu, tụt SpO2).\n- **Chiến lược dự phòng:**\n- Vận động sớm, tránh nằm bất động kéo dài tại giường.\n- Bù đủ dịch tuần hoàn, tránh tình trạng mất nước và cô đặc máu.\n- Hạn chế tối đa việc đặt catheter tĩnh mạch trung tâm nếu không thực sự bắt buộc.\n- Dự phòng bằng Aspirin liều thấp (2 - 5 mg/kg/ngày, tối đa 81 - 100 mg/ngày) HOẶC Enoxaparin (Heparin trọng lượng phân tử thấp 1 mg/kg tiêm dưới da mỗi 12-24 giờ) ở nhóm trẻ có nguy cơ rất cao (tuổi > 12, Albumin < 15 g/L, Fibrinogen > 6 g/L hoặc có tiền sử huyết khối trước đó).\n\n### 5.4 Rối loạn điện giải & Xử trí hạ canxi máu đúng cách\nHạ canxi máu là một xét nghiệm rất thường gặp trên bảng kết quả sinh hóa của trẻ thận hư, nhưng bác sĩ lâm sàng cần cảnh giác để phân biệt giữa **hạ canxi máu giả tạo** và **hạ canxi máu thực sự**:\n- Trong máu, khoảng 40% lượng canxi toàn phần liên kết trực tiếp với albumin.\nKhi albumin máu giảm sâu, lượng canxi liên kết bị mất đi làm cho nồng độ **Canxi toàn phần (Total Calcium)** xét nghiệm được giảm xuống rất thấp (< 2.0 mmol/L).\n- Tuy nhiên, thành phần có hoạt tính sinh học điều hòa dẫn truyền thần kinh cơ là **Canxi ion hóa (Ca2+)** thường vẫn duy trì ở mức hoàn toàn bình thường (1.15 - 1.30 mmol/L).\n- Công thức hiệu chỉnh canxi theo albumin:\n$$\text{Canxi hiệu chỉnh (mmol/L)} = \text{Canxi toàn phần đo được (mmol/L)} + 0.02 \times (40 - \text{Albumin máu (g/L)})$$\n- **Chỉ định canxi:** Tuyệt đối KHÔNG tiêm canxi tĩnh mạch cấp cứu nếu trẻ không có triệu chứng lâm sàng của hạ canxi máu (dấu Chvostek, Trousseau, co thắt thanh quản, co giật) và canxi ion hóa bình thường.\nChỉ bổ sung canxi đường uống kết hợp Vitamin D3 hàng ngày để dự phòng biến chứng loãng xương do corticoid kéo dài.\n\n### 5.5 Giám sát tác dụng phụ của lợi tiểu & Rối loạn điện giải\nKhi sử dụng Furosemid liều cao hoặc phối hợp nhiều loại lợi tiểu, bác sĩ lâm sàng cần cảnh giác với các biến chứng:\n- **Hạ kali máu và kiềm chuyển hóa:** Furosemid làm tăng thải trừ K+ và H+ tại ống lượn xa và ống góp.\nCần kiểm tra điện giải đồ sau 24-48 giờ và bổ sung Kali clorid đường uống khi K+ < 3.5 mmol/L.\n- **Hạ natri máu:** Thường là hạ natri máu pha loãng do ứ nước ngoại bào vượt trội hơn ứ natri.\nKhông bù Natri ưu trương trừ khi có co giật do hạ natri máu nặng (< 120 mmol/L).\n- **Tăng axit uric máu:** Do cạnh tranh bài tiết tại ống lượn gần, hiếm khi gây cơn gút cấp ở trẻ em nhưng phản ánh tình trạng cô đặc máu.\n\n### 5.6 Tiêu chuẩn xuất viện an toàn cho đợt khởi phát ban đầu\nTrẻ khởi phát đợt đầu hội chứng thận hư có thể được xem xét xuất viện khi đạt đủ các tiêu chuẩn sau:\n1. Huyết động hoàn toàn ổn định, không còn dấu hiệu giảm thể tích tuần hoàn hay quá tải thể tích.\n2. Phù giảm rõ rệt, trẻ đi tiểu tốt, lượng nước tiểu > 1.5 - 2.0 mL/kg/giờ.\n3. Đã loại trừ hoàn toàn các ổ nhiễm trùng cấp tính (viêm phúc mạc, viêm phổi, viêm mô tế bào).\n4. Trẻ dung nạp tốt với Prednisolone đường uống, không nôn ói.\n5. Gia đình được tập huấn thành thạo kỹ năng thử nước tiểu bằng que thử tại nhà và nhận biết các dấu hiệu nguy hiểm cần tái khám ngay.\n\n## 6. ĐIỀU TRỊ CÁC THỂ BỆNH KHÓ (FRNS, SDNS, SRNS) & THUỐC BẬC HAI\nKhi trẻ rơi vào các thể bệnh khó như tái phát thường xuyên (FRNS), phụ thuộc steroid (SDNS) có dấu hiệu ngộ độc corticoid, hoặc kháng steroid (SRNS), việc chuyển sang các thuốc ức chế miễn dịch bậc hai (Steroid-Sparing Agents) là chỉ định bắt buộc theo các khuyến cáo IPNA 2020/2023:\n\n| Nhóm thuốc ức chế miễn dịch | Liều dùng chuẩn hóa | Chỉ định lâm sàng ưu tiên | Độc tính & Biện pháp giám sát an toàn |\n|---|---|---|---|\n| **1. Levamisole** | 2.5 mg/kg uống cách ngày vào buổi sáng, duy trì 1 đến 2 năm | Lựa chọn đầu tay cho thể FRNS hoặc SDNS mức độ nhẹ, độc tính thấp nhất | Tác dụng phụ: Giảm bạch cầu hạt, viêm mạch máu dị ứng; cần đếm công thức máu mỗi 4-8 tuần |\n| **2. Cyclophosphamide** | 2.0 mg/kg/ngày uống một lần duy nhất vào buổi sáng trong 8 đến 12 tuần | Chỉ định cho thể FRNS hoặc SDNS sau khi đã đạt được lui bệnh hoàn toàn bằng steroid | TỔNG LIỀU TÍCH LŨY TUYỆT ĐỐI < 168 mg/kg để phòng ngừa vô sinh vĩnh viễn và viêm bàng quang xuất huyết |\n| **3. Cyclosporin A (CsA)** | 4 - 5 mg/kg/ngày chia làm 2 lần uống cách nhau 12 giờ | Lựa chọn đầu tay cho thể SRNS và SDNS nặng theo IPNA và KDIGO | Nồng độ đáy mục tiêu (C0): 100 - 150 ng/mL; độc tính thận, phì đại nướu, rậm lông, tăng huyết áp |\n| **4. Tacrolimus (Tac)** | 0.10 - 0.15 mg/kg/ngày chia làm 2 lần uống cách nhau 12 giờ | Lựa chọn hàng đầu cho SRNS nhờ hiệu lực cao và không gây phì đại nướu hay rậm lông | Nồng độ đáy mục tiêu (C0): 5 - 8 ng/mL trong 6 tháng đầu; theo dõi sát creatinin máu và đường huyết |\n| **5. Mycophenolate Mofetil (MMF)** | 1200 mg/m2/ngày (hoặc 30 mg/kg/ngày) chia 2 lần uống | Thuốc tiết kiệm steroid hiệu quả cao cho thể SDNS và FRNS, không gây độc tính trên thận | Tác dụng phụ: Tiêu chảy, đau quặn bụng, giảm bạch cầu; cần theo dõi công thức máu định kỳ |\n| **6. Rituximab** | 375 mg/m2/liều truyền tĩnh mạch từ 1 đến 4 liều (cách nhau 1 tuần) | Chỉ định cho thể SDNS kháng trị hoặc phụ thuộc liều CNI cao có nguy cơ ngộ độc thận | Mục tiêu điều trị: Làm suy giảm tế bào B (CD19 < 1% tổng tế bào lympho); theo dõi phản ứng phản vệ khi truyền |\n\nKhái niệm **Tacrolimus** là một thuốc ức chế calcineurin thế hệ hai có hoạt tính ức chế miễn dịch mạnh gấp 10-100 lần cyclosporin, được khuyến cáo là lựa chọn hàng đầu cho hội chứng thận hư kháng steroid ở trẻ em nhờ hiệu quả giảm protein niệu vượt trội và ít tác dụng phụ thẩm mỹ (không gây phì đại nướu hay rậm lông).\n\nKhái niệm **Rituximab** là một kháng thể đơn dòng kháng CD20 trên bề mặt tế bào lympho B, có tác dụng làm suy giảm tạm thời dòng lympho B và tái lập cân bằng miễn dịch podocyte, được chỉ định cho các trường hợp phụ thuộc steroid nặng hoặc tái phát nhiều lần dù đã dùng CNI/MMF.\n\n## 7. BÃY LÂM SÀNG & SAI LẦM THƯỜNG GẶP (CLINICAL MISCONCEPTIONS)\n\n1. **Bẫy lâm sàng 1 (Ngộ nhận phù to là thừa dịch toàn bộ cơ thể):** Học viên hay nhầm lẫn rằng trẻ phù to nứt da, báng bụng căng tròn là đang ứ nước nội mạch, từ đó vội vã kê đơn Furosemid liều cao. Thực tế, phần lớn dịch nằm ở khoang gian bào, còn thể tích trong lòng mạch lại đang cạn kiệt nghiêm trọng (Underfill). Dùng lợi tiểu lúc này sẽ đẩy trẻ vào sốc trụy mạch và tắc mạch não/phổi.\n2. **Bẫy lâm sàng 2 (Dùng lợi tiểu quai đơn độc khi đang có biểu hiện giảm thể tích tuần hoàn):** Sai lầm chết người khi thấy trẻ tiểu ít thì lại tăng liều Furosemid. Thiểu niệu ở đây là phản xạ tự nhiên của thận nhằm bảo tồn lượng dịch nội mạch đang suy kiệt. Khi mạch nhanh, CRT kéo dài, chi lạnh, bắt buộc phải truyền Albumin 20% trước để kéo dịch về lòng mạch rồi mới được dùng Furosemid.\n3. **Bẫy lâm sàng 3 (Bỏ sót viêm phúc mạc tiên phát do nhầm lẫn với đau bụng do phù nề ruột):** Nhiều bác sĩ cho rằng trẻ thận hư đau bụng là do dịch báng căng hoặc phù nề niêm mạc ruột. Sự chậm trễ trong việc chọc dò màng bụng và cấy máu để điều trị kháng sinh Ceftriaxone sẽ khiến trẻ rơi vào sốc nhiễm khuẩn huyết do phế cầu với tỷ lệ tử vong rất cao.\n4. **Bẫy lâm sàng 4 (Ngừng đột ngột Prednisolone sau đợt tấn công vì sợ tác dụng phụ):** Khi thấy trẻ mặt tròn như mặt trăng (Cushingoid) hoặc tăng cân nhanh, người nhà hoặc bác sĩ tuyến dưới hốt hoảng ngừng thuốc ngay lập tức. Hành động này sẽ gây suy thượng thận cấp kịch phát đe dọa tính mạng. Quy trình giảm liều phải thực hiện tuần tự sang cách ngày rồi mới hạ dần liều.\n5. **Bẫy lâm sàng 5 (Hạ canxi máu giả tạo và chỉ định tiêm canxi tĩnh mạch bừa bãi):** Thấy kết quả canxi toàn phần máu 1.7 mmol/L, bác sĩ vội vàng cho tiêm canxi clorid hoặc canxi gluconat tĩnh mạch. Thực chất canxi ion hóa hoàn toàn bình thường, việc tiêm tĩnh mạch không cần thiết có thể gây loạn nhịp tim nguy hiểm và hoại tử mô nếu chệch ven.\n6. **Bẫy lâm sàng 6 (Kiêng khem đạm nghiêm ngặt hoặc ép ăn quá nhiều đạm để bù trừ):** Cả hai thái cực đều sai lầm: Kiêng đạm sẽ đẩy trẻ vào suy dinh dưỡng teo cơ nhanh chóng; ngược lại ép ăn gấp đôi lượng đạm sẽ làm tăng gánh nặng lọc cầu thận, hủy hoại thêm các podocyte còn sót lại. Cần duy trì lượng đạm chuẩn 1.5 - 2.0 g/kg/ngày.\n7. **Bẫy lâm sàng 7 (Đánh giá kháng steroid quá sớm trước khi đủ 4 tuần điều trị liều chuẩn):** Thấy trẻ uống Prednisolone 2 tuần mà que thử vẫn còn 3+ protein niệu, bác sĩ đã vội kết luận kháng thuốc và đổi sang thuốc ức chế miễn dịch độc hại. Định nghĩa chuẩn quốc tế IPNA 2020 đòi hỏi đủ 4 tuần tấn công liên tục liều 60 mg/m2/ngày mới được phân loại SRNS.\n8. **Bẫy lâm sàng 8 (Tiêm vắc xin sống giảm độc lực khi trẻ đang dùng thuốc ức chế miễn dịch):** Tiêm vắc xin thủy đậu hoặc sởi cho trẻ đang uống Prednisolone liều cao có thể gây nhiễm virus vắc xin lan tỏa toàn thân dẫn đến viêm não, viêm phổi nặng và tử vong.\n\n## 8. TÌNH HUỐNG LÂM SÀNG THỰC TẾ CÓ LỜI GIẢI (CLINICAL CASES)\n\n### Case 1: Trẻ 4 tuổi khởi phát đợt đầu hội chứng thận hư có giảm thể tích tuần hoàn nặng\n- **Bệnh sử:** Bé trai 4 tuổi, nặng 16 kg (cân nặng trước khi phù ước tính 14 kg), được mẹ đưa đến khám vì mi mắt sưng phù rõ vào buổi sáng từ 4 ngày nay, kèm theo bụng to dần và tiểu ít (chỉ khoảng 150 mL trong 24 giờ qua).\nSáng nay trẻ than đau bụng âm ỉ quanh rốn, mệt lả và đòi uống nước liên tục.\n- **Khám lâm sàng:** Trẻ lơ mơ nhẹ, quấy khóc khi thăm khám.\nPhù toàn thân, phù mềm ấn lõm hai cẳng chân, bụng báng căng gõ đục vùng thấp.\nMạch nhanh nhỏ 145 lần/phút, huyết áp 75/50 mmHg (dưới bách phân vị thứ 5 theo tuổi), CRT = 4 giây, đầu chi lạnh, da nổi vân tím nhẹ.\nNhịp thở 28 lần/phút, không ran phổi.\n- **Cận lâm sàng tại giường:**\n- Que thử nước tiểu: Protein 4+ (> 1000 mg/dL), Hồng cầu âm tính, Bạch cầu âm tính.\n- Công thức máu: Hb 15.5 g/dL, Hematocrit 46% (cô đặc máu rõ), Bạch cầu 9,200/uL, Tiểu cầu 480,000/uL.\n- Sinh hóa máu: Albumin 14 g/L, Protein toàn phần 42 g/L, Creatinin 78 umol/L (tăng nhẹ so với tuổi), Na+ 132 mmol/L, K+ 4.2 mmol/L, Canxi toàn phần 1.72 mmol/L, Canxi ion hóa 1.18 mmol/L.\n- **Câu hỏi đặt ra:**\n1. Xác định chẩn đoán hiện tại và tình trạng huyết động của bệnh nhi?\n2. Bác sĩ tuyến trước định tiêm Furosemid 20 mg TM cho trẻ để giải quyết phù và thiểu niệu, xử trí này đúng hay sai? Tại sao?\n3. Lập kế hoạch xử trí cấp cứu tức thì cho bệnh nhi?\n\n#### Lời giải & Phân tích chi tiết:\n1. **Chẩn đoán:** Hội chứng thận hư nguyên phát đợt đầu có biến chứng **Giảm thể tích tuần hoàn nặng đe dọa sốc giảm thể tích** (Underfill decompensation) / Suy thận cấp trước thận do giảm tưới máu.\n- *Cơ sở chẩn đoán:* Phù to toàn thân kèm Protein niệu 4+, Albumin máu giảm sâu 14 g/L.\nDấu hiệu giảm thể tích tuần hoàn rõ rệt: Mạch nhanh nhỏ 145 lần/phút, huyết áp tụt 75/50 mmHg, CRT kéo dài 4 giây, chi lạnh, Hematocrit tăng vọt 46% phản ánh tình trạng cô đặc máu cấp, đau bụng do thiếu máu cục bộ mạc treo ruột.\n2. **Đánh giá xử trí của tuyến trước:**\n- Quyết định tiêm Furosemid đơn độc của tuyến trước là **HOÀN TOÀN SAI LẦM VÀ CỰC KỲ NGUY HIỂM**.\n- *Phân tích cơ chế:* Bệnh nhi đang có thể tích nội mạch cạn kiệt nghiêm trọng.\nThiểu niệu là phản xạ cứu sinh của thận nhằm giữ lại lượng dịch ít ỏi trong lòng mạch.\nNếu tiêm Furosemid lúc này, thuốc sẽ cưỡng bức quai Henle đào thải thêm dịch ra ngoài, làm thể tích nội mạch sụt giảm tức thì, dẫn đến trụy mạch hoàn toàn, tắc mạch huyết khối lan tỏa và hoại tử ống thận cấp.\n3. **Kế hoạch xử trí cấp cứu tức thì:**\n- **Bước 1:** Đặt trẻ nằm đầu bằng, thở oxy qua canula 2 L/phút.\nThiết lập ngay đường truyền tĩnh mạch lớn (Catheter ngoại vi số 22G hoặc 20G).\n- **Bước 2 (Chống sốc & Bù thể tích):** Truyền ngay **Dung dịch Albumin 20%** liều 1.0 g/kg dựa trên cân nặng khô ước tính 14 kg = 14 g Albumin (tương đương 70 mL dung dịch Albumin 20%).\nTốc độ truyền qua bơm tiêm điện trong 2 giờ (35 mL/giờ). (Nếu chưa có sẵn Albumin 20%, truyền nhanh Natri Clorid 0.9% 10 mL/kg trong 30 phút để nâng huyết áp).\n- **Bước 3 (Lợi tiểu sau khi phục hồi tưới máu):** Sau khi truyền được 1 giờ Albumin và đánh giá lại thấy huyết động cải thiện (mạch chậm lại < 115 lần/phút, CRT < 2 giây, huyết áp lên 95/60 mmHg), tiến hành tiêm **Furosemid 1.0 mg/kg TM** (14 mg tiêm tĩnh mạch chậm).\n- **Bước 4 (Theo dõi sát):** Đánh giá mạch, huyết áp, nhịp thở, SpO2 và lượng nước tiểu mỗi 30 phút.\nKhông tiêm canxi tĩnh mạch vì canxi ion hóa 1.18 mmol/L hoàn toàn bình thường.\n- **Bước 5 (Điều trị đặc hiệu):** Sau khi huyết động hoàn toàn ổn định và loại trừ nhiễm trùng, bắt đầu khởi động **Prednisolone 60 mg/m2/ngày** (35 mg/ngày uống buổi sáng sau ăn).\n\n---\n\n### Case 2: Trẻ 6 tuổi mắc hội chứng thận hư sốt cao kèm đau bụng cấp nghi ngờ viêm phúc mạc tiên phát\n- **Bệnh sử:** Bé gái 6 tuổi, tiền sử mắc hội chứng thận hư nhạy cảm steroid 1 năm nay, đang trong giai đoạn giảm liều Prednisolone cách ngày (15 mg cách ngày).\nCách nhập viện 1 ngày, trẻ xuất hiện sốt cao 39.2 độ C, rét run, mệt mỏi, nôn 2 lần ra thức ăn, kèm theo đau bụng liên tục tăng dần khắp ổ bụng.\nTrẻ không đi tiêu phân lỏng.\n- **Khám lâm sàng:** Trẻ mệt, sốt 39 độ C, mạch 125 lần/phút, huyết áp 100/65 mmHg, SpO2 98%, CRT = 2 giây.\nBụng chướng vừa, gõ đục vùng thấp (dịch báng), ấn đau khắp ổ bụng, đề kháng nhẹ thành bụng vùng quanh rốn và hạ vị, nhu động ruột giảm còn 1 lần/phút.\nHọng hơi đỏ, phổi trong không ran.\n- **Cận lâm sàng:**\n- Que thử nước tiểu: Protein 3+, Bạch cầu âm tính, Nitrite âm tính.\n- Công thức máu: Bạch cầu tăng vọt 21,500/uL (Neutrophil chiếm 86%, có chuyển trái), Tiểu cầu 420,000/uL, CRP tăng rất cao 96 mg/L (bình thường < 5 mg/L).\n- Siêu âm ổ bụng: Dịch tự do ổ bụng lượng vừa, có nhiều vách ngăn sợi fibrin lơ lửng trong dịch báng, quai ruột dày nhẹ phù nề, không thấy hình ảnh ruột thừa viêm.\n- **Câu hỏi đặt ra:**\n1. Chẩn đoán lâm sàng ưu tiên hàng đầu ở bệnh nhi này là gì? Vi sinh vật gây bệnh nào phổ biến nhất?\n2. Bệnh nhân có chỉ định phẫu thuật mở bụng thăm dò khẩn cấp không?\n3. Kế hoạch điều trị kháng sinh và quản lý thuốc corticoid hiện tại như thế nào?\n\n#### Lời giải & Phân tích chi tiết:\n1. **Chẩn đoán:** **Viêm phúc mạc tiên phát (Spontaneous Bacterial Peritonitis - SBP)** biến chứng trên nền Hội chứng thận hư tái phát / Đang điều trị corticoid.\n- *Vi sinh vật hàng đầu:* **Phế cầu khuẩn (*Streptococcus pneumoniae*)** chiếm trên 50-60% các trường hợp SBP ở trẻ thận hư; tiếp theo là các trực khuẩn Gram âm đường ruột (*E. coli*, *Klebsiella*).\n2. **Vấn đề phẫu thuật mở bụng:**\n- Bệnh nhân **KHÔNG CÓ CHỈ ĐỊNH PHẪU THUẬT MỞ BỤNG KHẨN CẤP** tại thời điểm này.\n- *Phân tích lâm sàng:* Trẻ mắc hội chứng thận hư có báng bụng rất dễ bị viêm phúc mạc tiên phát (nhiễm trùng dịch báng qua đường máu hoặc di chuyển qua thành ruột mà không có ổ thủng tạng rỗng hay viêm ruột thừa).\nMở bụng không cần thiết trên một trẻ đang ứ dịch và suy giảm miễn dịch sẽ làm tăng nguy cơ nhiễm trùng vết mổ, suy hô hấp và sốc nhiễm khuẩn.\nSiêu âm đã loại trừ viêm ruột thừa và không có hơi tự do dưới hoành.\nCần chọc dò màng bụng lấy dịch xét nghiệm tế bào học, soi nhuộm Gram và cấy vi sinh trước khi bắt đầu kháng sinh.\n3. **Kế hoạch điều trị & Quản lý corticoid:**\n- **Kháng sinh tĩnh mạch phổ rộng tức thì:** Sau khi cấy máu và chọc dịch báng, khởi động ngay **Ceftriaxone 80 - 100 mg/kg/ngày** tiêm tĩnh mạch chậm 1 lần/ngày (kết hợp Vancomycin nếu nghi ngờ phế cầu kháng cephalosporin).\nThời gian điều trị tối thiểu 10 đến 14 ngày.\n- **Điều chỉnh liều Corticoid:**\n- Tuyệt đối KHÔNG cắt bỏ corticoid vì nguy cơ suy thượng thận cấp khi đang có stress nhiễm trùng nặng.\n- Tạm thời nâng liều Prednisolone lên mức liều sinh lý hoặc duy trì liều điều trị tấn công hàng ngày nếu trẻ có biểu hiện tái phát rõ rệt sau khi tình trạng nhiễm trùng huyết đã bắt đầu được kiểm soát bằng kháng sinh.\n- **Theo dõi sát:** Khám bụng mỗi 4-6 giờ, dấu hiệu sinh tồn, tri giác để phát hiện kịp thời dấu hiệu sốc nhiễm khuẩn.\n\n## 9. CHECKPOINT TỰ KIỂM TRA ĐÁNH GIÁ KIẾN THỨC\n\n### Checkpoint tự kiểm tra 1: Chẩn đoán xác định & Tiêu chuẩn sinh hóa\nTrẻ nam 3 tuổi đến khám vì phù mặt.\nKết quả xét nghiệm nào sau đây ĐỦ ĐIỀU KIỆN để chẩn đoán xác định hội chứng thận hư theo khuyến cáo IPNA 2023?\n- A.\nPhù hai chân, Protein niệu 24h đạt 30 mg/kg/ngày, Albumin máu 28 g/L.\n- B.\nPhù toàn thân, Up/Ucr ngẫu nhiên buổi sáng đạt 2.4 mg/mg, Albumin máu 22 g/L.\n- C.\nPhù mi mắt, que thử nước tiểu Protein 2+, Cholesterol máu 6.0 mmol/L.\n- D.\nBáng bụng, Protein niệu 40 mg/m2/giờ, Albumin máu 30 g/L, C3 giảm.\n\n*Đáp án đúng:* **B**.\n*Giải thích:* Tiêu chuẩn vàng bắt buộc của IPNA 2023 là Protein niệu ngưỡng thận hư (Up/Ucr >= 2.0 mg/mg hoặc >= 50 mg/kg/ngày) kèm Albumin máu giảm sâu < 25 g/L.\nPhương án B thỏa mãn hoàn hảo cả hai tiêu chuẩn sinh hóa bắt buộc này.\nPhương án A protein niệu chưa đạt ngưỡng (>= 50 mg/kg).\nPhương án D albumin máu chưa dưới 25 g/L và có C3 giảm gợi ý viêm cầu thận.\n\n---\n\n### Checkpoint tự kiểm tra 2: Kê đơn Corticoid đợt đầu\nBé gái 5 tuổi, nặng 18 kg, diện tích da 0.72 m2, khởi phát hội chứng thận hư lần đầu không biến chứng.\nCách kê đơn Prednisolone tấn công hàng ngày nào sau đây là CHUẨN XÁC NHẤT theo IPNA/KDIGO?\n- A.\nPrednisolone 5 mg: Uống 7 viên (35 mg) chia làm 3 lần sau các bữa ăn trong 2 tuần.\n- B.\nPrednisolone 5 mg: Uống 7 viên (35-36 mg) một lần duy nhất vào 7 giờ sáng sau ăn trong 4 đến 6 tuần.\n- C.\nPrednisolone 5 mg: Uống 12 viên (60 mg) một lần duy nhất vào buổi tối trước khi ngủ trong 4 tuần.\n- D.\nPrednisolone 5 mg: Uống 4 viên cách ngày trong 8 tuần liên tục.\n\n*Đáp án đúng:* **B**.\n*Giải thích:* Liều tấn công chuẩn là 2.0 mg/kg/ngày (18 x 2 = 36 mg/ngày) hoặc 60 mg/m2/ngày (0.72 x 60 = 43.2 mg/ngày, chọn khoảng 35-40 mg, không quá 60 mg).\nThuốc PHẢI được uống một lần duy nhất vào buổi sáng sau ăn để tránh ức chế trục hạ đồi - tuyến yên - thượng thận và giảm kích ứng dạ dày.\nThời gian tấn công hàng ngày là 4 đến 6 tuần liên tục.\n\n---\n\n### Checkpoint tự kiểm tra 3: Xử trí biến chứng giảm thể tích tuần hoàn\nBệnh nhi 3 tuổi mắc hội chứng thận hư, phù to, tiểu ít, mạch 140 lần/phút, CRT = 3.5 giây, huyết áp 70/45 mmHg.\nCan thiệp nào sau đây là ĐÚNG ĐẮN NHẤT?\n- A.\nTiêm tĩnh mạch Furosemid 2 mg/kg ngay lập tức để giải quyết tình trạng thiểu niệu.\n- B.\nHạn chế dịch uống hoàn toàn và chờ đợi kết quả xét nghiệm ion đồ.\n- C.\nTruyền tĩnh mạch Albumin 20% liều 1 g/kg trong 2-4 giờ, sau đó mới cân nhắc Furosemid khi huyết động ổn định.\n- D.\nTruyền Canxi Clorid tĩnh mạch vì bệnh nhân chắc chắn có hạ canxi máu nặng.\n\n*Đáp án đúng:* **C**.\n*Giải thích:* Bệnh nhi đang có biểu hiện sốc giảm thể tích tuần hoàn rõ (mạch nhanh, CRT kéo dài, huyết áp tụt).\nChống chỉ định tuyệt đối tiêm Furosemid đơn độc lúc này.\nCần truyền dung dịch keo ưu trương Albumin 20% 0.5 - 1.0 g/kg để kéo dịch về nội mạch, nâng huyết áp và cải thiện tưới máu mô.\nFurosemid chỉ được phối hợp sau khi đã phục hồi thể tích tuần hoàn.\n\n---\n\n### Checkpoint tự kiểm tra 4: Chỉ định sinh thiết thận theo khuyến cáo\nTrường hợp bệnh nhi mắc hội chứng thận hư nào sau đây CÓ CHỈ ĐỊNH SINH THIẾT THẬN?\n- A.\nBé trai 4 tuổi, phù to, Up/Ucr = 3.5 mg/mg, Albumin 18 g/L, huyết áp bình thường, không tiểu máu.\n- B.\nBé gái 7 tuổi, đáp ứng lui bệnh hoàn toàn sau 12 ngày dùng Prednisolone.\n- C.\nBé trai 14 tuổi, khởi phát phù to lần đầu, có tăng huyết áp thực tổn và đái máu vi thể.\n- D.\nBé gái 3 tuổi, tái phát lần đầu tiên sau 6 tháng lui bệnh, đáp ứng lại ngay với steroid sau 5 ngày.\n\n*Đáp án đúng:* **C**.\n*Giải thích:* Trẻ trên 12 tuổi khởi phát hội chứng thận hư là một trong 7 chỉ định sinh thiết thận bắt buộc của IPNA/KDIGO vì tỷ lệ tổn thương mô học phức tạp (FSGS, viêm cầu thận màng, viêm cầu thận tăng sinh) ở lứa tuổi này cao vượt trội so với bệnh tổn thương tối thiểu.\nCác trường hợp A, B, D là diễn tiến kinh điển của SSNS ở trẻ nhỏ, không có chỉ định sinh thiết.\n\n## 10. TÓM TẮT KHUYẾN CÁO VÀ KẾT LUẬN\n\n### 10.1 Tóm tắt các thông điệp cốt lõi (Core Takeaways)\n- Hội chứng thận hư nguyên phát ở trẻ em chủ yếu là bệnh tổn thương tối thiểu (MCD), có tỷ lệ đáp ứng hoàn toàn với glucocorticoid lên tới 85-90%.\n- Chẩn đoán xác định dựa trên 4 tiêu chuẩn kinh điển, trong đó hai tiêu chuẩn bắt buộc là Protein niệu ngưỡng thận hư (>= 50 mg/kg/ngày hoặc Up/Ucr >= 2 mg/mg) và Albumin máu < 25 g/L.\n- Phác đồ điều trị đợt đầu chuẩn hóa theo IPNA/KDIGO gồm 4-6 tuần Prednisolone tấn công hàng ngày (60 mg/m2 hoặc 2 mg/kg, max 60 mg) tiếp theo bởi 4-6 tuần duy trì cách ngày (40 mg/m2 hoặc 1.5 mg/kg, max 40 mg).\nTổng thời gian từ 8 đến 12 tuần.\nBằng chứng Cochrane 2020 chứng minh không nên kéo dài trên 3 tháng.\n- Cảnh giác cao độ với 2 biến chứng cấp tính gây tử vong hàng đầu: Sốc giảm thể tích tuần hoàn (xử trí bằng Albumin 20% kết hợp Furosemid thận trọng) và Viêm phúc mạc tiên phát do phế cầu (điều trị kháng sinh Ceftriaxone liều cao sớm).\n- Kháng steroid (SRNS) được định nghĩa sau 4 tuần liều chuẩn không lui bệnh; cần sinh thiết thận, làm xét nghiệm di truyền gen podocyte và chuyển sang thuốc ức chế Calcineurin (Tacrolimus/Cyclosporin A).\n\n## 11. BẰNG CHỨNG Y VĂN & ĐỐI CHIẾU GUIDELINE MỚI\n\nCác khuyến cáo trong bài giảng được tổng hợp và đối chiếu trực tiếp từ các tài liệu hướng dẫn lâm sàng và thử nghiệm quốc tế uy tín:\n\n### Khuyến cáo thực hành lâm sàng IPNA về thể nhạy cảm steroid (SSNS)\nHiệp hội Thận Nhi Quốc tế đã công bố hướng dẫn thực hành lâm sàng toàn diện về chẩn đoán và điều trị hội chứng thận hư nhạy cảm steroid ở trẻ em.\nĐây là văn bản đồng thuận quốc tế có giá trị cao nhất hiện nay, tổng hợp các bằng chứng lâm sàng từ các thử nghiệm ngẫu nhiên có đối chứng để chuẩn hóa liều lượng và thời gian sử dụng glucocorticoid.\n\n- Khuyến cáo thực hành lâm sàng IPNA 2023 khuyến cáo điều trị đợt đầu hội chứng thận hư nhạy cảm steroid (SSNS) bằng Prednisolone hoặc Prednisone uống liều 60 mg/m2/ngày hoặc 2 mg/kg/ngày (tối đa 60 mg/ngày) trong 4 đến 6 tuần, sau đó chuyển sang liều cách ngày 40 mg/m2 hoặc 1.5 mg/kg (tối đa 40 mg) trong 4 đến 6 tuần, tổng thời gian 8 đến 12 tuần: We recommend oral prednisolone or prednisone at a dose of 60 mg/m2/day or 2 mg/kg/day (maximum 60 mg/day) administered as a single daily morning dose for 4 to 6 weeks, followed by alternate-day prednisolone at 40 mg/m2 or 1.5 mg/kg (maximum 40 mg) for 4 to 6 weeks (total duration 8 to 12 weeks). {claim:C-001} [GUIDELINE VERIFIED] (PMID: 36269406)\nHướng dẫn IPNA 2023 nhấn mạnh điều trị hội chứng thận hư nhạy cảm steroid (SSNS) bằng glucocorticoid giúp đạt lui bệnh hoàn toàn (complete remission of proteinuria) và phục hồi chức năng cầu thận podocyte cho trẻ em.\nPhác đồ này đảm bảo tỷ lệ lui bệnh cao nhất đồng thời giảm thiểu tối đa các tác dụng phụ tích lũy trên sự phát triển thể chất của trẻ nhỏ.\n\n### Khuyến cáo thực hành lâm sàng IPNA về thể kháng steroid (SRNS)\nKháng steroid là một trong những thể bệnh phức tạp và có nguy cơ tiến triển thành bệnh thận mạn tính giai đoạn cuối cao nhất ở trẻ em.\nHiệp hội Thận Nhi Quốc tế đã đưa ra định nghĩa đồng thuận chuẩn mực nhằm phân định ranh giới giữa đáp ứng chậm và kháng thuốc thực sự để kịp thời chuyển hướng điều trị.\n\n- Khuyến cáo thực hành lâm sàng IPNA 2020 định nghĩa hội chứng thận hư kháng steroid (SRNS) khi trẻ không đạt lui bệnh hoàn toàn sau 4 tuần điều trị liên tục Prednisolone hoặc Prednisone hàng ngày liều chuẩn 60 mg/m2/ngày hoặc 2 mg/kg/ngày: We recommend defining SRNS as lack of complete remission of proteinuria after 4 weeks of daily prednisolone or prednisone at standard dose of 60 mg/m2/day or 2 mg/kg/day. {claim:C-002} [GUIDELINE VERIFIED] (PMID: 32382828)\n\nĐịnh nghĩa đồng thuận này giúp chấm dứt hoàn toàn tình trạng tiếp tục kéo dài corticoid liều cao quá mức gây ngộ độc nặng nề cho trẻ.\nSau khi xác định thể kháng thuốc, bệnh nhân cần được sinh thiết thận và làm xét nghiệm di truyền học trước khi khởi động liệu pháp ức chế Calcineurin.\n\n### Hướng dẫn thực hành lâm sàng KDIGO về bệnh cầu thận\nTổ chức Cải thiện Tiên lượng Toàn cầu về Bệnh Thận đã cập nhật toàn diện các hướng dẫn quản lý bệnh cầu thận, trong đó có phân mục chuyên sâu về bệnh tổn thương tối thiểu và hội chứng thận hư ở trẻ em.\nVăn bản này nhấn mạnh vai trò của việc kiểm soát chặt chẽ thời gian điều trị đợt đầu.\n\n- Hướng dẫn KDIGO 2021 khuyến cáo thời gian điều trị corticosteroid đường uống đợt đầu cho hội chứng thận hư ở trẻ em là từ 8 đến 12 tuần (4 đến 6 tuần liều hàng ngày 60 mg/m2 hoặc 2 mg/kg tiếp theo bởi 4 đến 6 tuần liều cách ngày 40 mg/m2 hoặc 1.5 mg/kg): We recommend that oral corticosteroids (prednisone or prednisolone) be administered for 8 to 12 weeks for the initial treatment of nephrotic syndrome in children, either as daily 60 mg/m2 or 2 mg/kg for 4 to 6 weeks followed by alternate-day 40 mg/m2 or 1.5 mg/kg for 4 to 6 weeks. {claim:C-003} [GUIDELINE VERIFIED] (PMID: 34556256)\n\nKhuyến cáo này chỉ rõ việc kéo dài tổng đợt điều trị ban đầu quá mốc thời gian quy định không mang lại lợi ích bảo vệ thận lâu dài mà làm gia tăng nguy cơ suy giảm mật độ khoáng của xương và rối loạn chuyển hóa đường máu ở trẻ em.\n\n### Bằng chứng tổng quan hệ thống Cochrane về thời gian điều trị Corticoid\nTrước đây từng tồn tại quan điểm kéo dài thời gian dùng corticoid đợt đầu lên nhiều tháng để phòng ngừa tái phát.\nTổng quan hệ thống Cochrane do nhóm tác giả danh tiếng thực hiện đã phân tích gộp các nghiên cứu đối chứng nghiêm ngặt để đưa ra kết luận mang tính bước ngoặt khoa học.\n\n- Tổng quan hệ thống Cochrane 2020 cho thấy việc kéo dài thời gian điều trị corticosteroid đợt đầu trên 2 đến 3 tháng (8 đến 12 tuần) không làm giảm nguy cơ tái phát so với phác đồ chuẩn 2 đến 3 tháng (RR 0.95, 95% CI 0.81 đến 1.12) mà còn làm gia tăng các tác dụng phụ của thuốc: When studies with low risk of bias were analysed separately, there was no significant difference in the risk of relapse between children treated for two to three months compared with longer durations (RR 0.95, 95% CI 0.81 to 1.12). {claim:C-004} [DATA VERIFIED] (PMID: 35659203)\n\nKết quả phân tích gộp khẳng định phác đồ chuẩn từ hai đến ba tháng là tối ưu về mặt cân bằng giữa hiệu quả kiểm soát bệnh và độ an toàn.\nViệc kéo dài thêm thời gian không tạo ra ưu thế bảo vệ nào có ý nghĩa thống kê về mặt lâm sàng.\n\n### Nghiên cứu đoàn hệ đa trung tâm MWPNC về biến chứng huyết khối\nTắc mạch huyết khối là biến chứng nguy hiểm có thể đe dọa trực tiếp tính mạng bệnh nhi mắc hội chứng thận hư.\nNghiên cứu của Hiệp hội Thận Nhi vùng Trung Tây Hoa Kỳ tiến hành trên quy mô đoàn hệ lớn đã làm sáng tỏ tỷ lệ mắc thực tế và các yếu tố nguy cơ then chốt trong thực hành.\n\n- Nghiên cứu đa trung tâm của Hiệp hội Thận Nhi vùng Trung Tây Hoa Kỳ (MWPNC) trên 988 trẻ mắc hội chứng thận hư ghi nhận biến chứng tắc mạch huyết khối xảy ra ở 2.8% bệnh nhân, và lứa tuổi trên 12 tuổi là yếu tố nguy cơ độc lập: In this multicenter study of children with nephrotic syndrome from the Midwest Pediatric Nephrology Consortium (MWPNC), thromboembolic complications occurred in 2.8% of patients. Children aged > 12 tuổi are at much greater risk of thromboembolism. {claim:C-005} [DATA VERIFIED] (PMID: 19394032)\n\nDữ liệu thực chứng nhấn mạnh sự cần thiết phải cảnh giác cao độ và chủ động xem xét các biện pháp dự phòng chống đông ở trẻ lớn có nồng độ albumin máu giảm cực sâu hoặc có sự hiện diện của đường truyền tĩnh mạch trung tâm.\n\n### Tài liệu đồng thuận của Hội Thận Nhi khoa Ý (SINePe)\nĐồng thuận SINePe là tài liệu hướng dẫn lâm sàng đa trung tâm quy tụ toàn bộ các trung tâm chuyên khoa Thận Nhi, đưa ra các khuyến nghị thực hành chi tiết về chẩn đoán và quản lý đợt khởi phát ban đầu cũng như các biến chứng cấp tính.\n\n- Đồng thuận Hội Thận Nhi khoa Ý (SINePe 2017) khuyến cáo điều trị đợt đầu hội chứng thận hư trẻ em gồm Prednisone hàng ngày 60 mg/m2/ngày (tối đa 60 mg/ngày) trong 4 đến 6 tuần, tiếp theo bằng Prednisone cách ngày 40 mg/m2 (tối đa 40 mg) trong 4 đến 6 tuần: Initial treatment of pediatric nephrotic syndrome consists of daily prednisone at 60 mg/m2/day (maximum 60 mg/day) for 4 to 6 weeks followed by alternate-day prednisone at 40 mg/m2 (maximum 40 mg) for 4 to 6 weeks. {claim:C-006} [GUIDELINE VERIFIED] (PMID: 28427453)\nTài liệu đồng thuận SINePe 2017 cung cấp lưu đồ chuẩn mực về xử trí cấp cứu giảm thể tích nội mạch bằng dung dịch Albumin ưu trương phối hợp lợi tiểu quai và các nguyên tắc bảo vệ chức năng thận lâu dài cho trẻ em.\nViệc tuân thủ chặt chẽ các khuyến cáo chẩn đoán và điều trị của SINePe giúp giảm thiểu đáng kể các biến chứng nguy hiểm trong đợt khởi phát ban đầu.\nGia đình bệnh nhi cần được tư vấn kỹ lưỡng về kế hoạch theo dõi tiến triển và tái khám định kỳ để phát hiện sớm các dấu hiệu tái phát.\n\n## 12. CHẾ ĐỘ CHĂM SÓC, DINH DƯỠNG & THEO DÕI TẠI NHÀ\n\n### 12.1 Chế độ ăn giảm muối & Dinh dưỡng protein hợp lý\n- **Kiểm soát muối (Natri):**\n- Trong giai đoạn phù to hoặc đang dùng corticoid liều cao: Bắt buộc áp dụng chế độ ăn giảm muối vừa phải, lượng muối ăn vào từ **1 đến 2 g/ngày** (tương đương khoảng 15 - 35 mg Natri/kg/ngày).\nKhông chấm thêm nước mắm, nước tương, tránh hoàn toàn các thực phẩm chế biến sẵn giàu muối (xúc xích, mì ăn liền, đồ hộp, bim bim).\n- Khi trẻ đã hết phù hoàn toàn và chuyển sang liều steroid duy trì: Cho trẻ ăn chế độ nhạt tương đối, không cần kiêng khem quá khắt khe gây biếng ăn và suy dinh dưỡng.\n- **Khẩu phần Protein:**\n- Cung cấp lượng đạm chuẩn theo lứa tuổi khuyến nghị (RDA): khoảng **1.5 - 2.0 g/kg/ngày** từ các nguồn đạm có giá trị sinh học cao (thịt nạc, cá, trứng, sữa).\n- *Sai lầm cần tránh:* Tuyệt đối KHÔNG ép trẻ ăn chế độ ăn quá giàu đạm (> 3 - 4 g/kg/ngày) với ý nghĩ sai lầm là bù vào lượng đạm mất qua nước tiểu.\nĂn quá nhiều đạm sẽ làm tăng áp lực lọc cầu thận, làm tổn thương podocyte nặng hơn và gia tăng lượng protein niệu đào thải ra ngoài.\n- **Năng lượng và dịch uống:**\n- Cung cấp đủ năng lượng từ carbohydrate phức hợp, hạn chế đường ngọt đơn giản để tránh nguy cơ béo phì do corticoid.\n- Hạn chế nước uống: Chỉ áp dụng khi trẻ có phù to kèm hạ natri máu thực sự (Na+ < 125 mmol/L).\nLượng nước đưa vào hàng ngày bằng lượng nước tiểu ngày hôm trước cộng lượng nước mất không cảm nhận được (khoảng 400 mL/m2/ngày).\n\n### 12.2 Hướng dẫn gia đình theo dõi que thử nước tiểu tại nhà (Albustix)\nGia đình đóng vai trò quyết định trong việc phát hiện sớm đợt tái phát để can thiệp kịp thời:\n- Hướng dẫn cha mẹ sử dụng que thử nước tiểu chuyên dụng (như Albustix hoặc que 10 thông số).\n- Thời điểm thử: Lấy mẫu nước tiểu đầu tiên vào buổi sáng ngay sau khi trẻ thức dậy.\n- Nhúng que vào nước tiểu 1 giây, lấy ra gạt nhẹ vào thành cốc, đọc kết quả đúng ở giây thứ 60 theo bảng so màu chuẩn.\n- Ghi chép vào sổ nhật ký theo dõi:\n- Nếu kết quả Âm tính hoặc Vết: Tiếp tục theo dõi và uống thuốc theo lịch.\n- Nếu kết quả >= 3+ trong 3 ngày liên tiếp: Xác định trẻ bị tái phát, cần liên hệ ngay với bác sĩ chuyên khoa Thận Nhi để được hướng dẫn điều chỉnh liều steroid, tuyệt đối không tự ý dùng thêm các thuốc lợi tiểu hay kháng sinh tại nhà.\n\n### 12.3 Chiến lược tiêm chủng phòng bệnh & Chống chỉ định vắc xin sống\nDo nguy cơ nhiễm trùng phế cầu khuẩn rất cao, tất cả trẻ em mắc hội chứng thận hư cần được:\n1. **Tiêm phòng vắc xin Phế cầu:**\n- Tiêm vắc xin phế cầu cộng hợp (PCV13 hoặc PCV15) cho tất cả trẻ em chưa được tiêm chủng đầy đủ.\n- Bổ sung vắc xin phế cầu polysaccharide (PPSV23) cho trẻ từ 2 tuổi trở lên (tiêm sau mũi PCV13 ít nhất 8 tuần) để mở rộng độ bao phủ kháng nguyên vi khuẩn.\n- Tiêm phòng vắc xin Cúm bất hoạt hàng năm cho trẻ và các thành viên sống cùng gia đình.\n2. **NGUYÊN TẮC VÀNG VỀ VẮC XIN SỐNG GIẢM ĐỘC LỰC:**\n- **CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI** tiêm các loại vắc xin sống giảm độc lực (Sởi - Quai bị - Rubella / MMR, Thủy đậu / Varicella, Bại liệt uống OPV, Lao BCG, Sốt vàng) khi trẻ đang dùng Prednisolone liều cao (>= 2 mg/kg/ngày hoặc >= 20 mg/ngày kéo dài trên 14 ngày) hoặc đang dùng các thuốc CNI, MMF, Cyclophosphamide, Rituximab.\n- Vắc xin sống chỉ được phép tiêm sau khi trẻ đã **NGƯNG CORTICOID LIỀU CAO ÍT NHẤT 1 ĐẾN 3 THÁNG** và đang ở trạng thái lui bệnh hoàn toàn.\n\n## 13. TIPS THỰC HÀNH LÂM SÀNG BỎ TÚI (CLINICAL PEARLS)\n\n1. **Uống thuốc một lần vào buổi sáng:** Luôn dặn gia đình cho trẻ uống toàn bộ liều Prednisolone một lần duy nhất từ 7:00 đến 8:00 sáng sau khi ăn no. Tuyệt đối không chia nhỏ liều uống nhiều lần trong ngày vì sẽ làm tăng ức chế tuyến thượng thận lên gấp nhiều lần.\n2. **Kỹ năng nhận diện Underfill tại giường:** Đừng bao giờ chỉ nhìn vào độ căng của bụng hay chân để đánh giá dịch. Hãy bắt mạch quay, bấm CRT ở đầu ngón tay và sờ nhiệt độ mu bàn chân. Nếu chân lạnh ngắt và CRT > 3 giây, trẻ đang cạn kiệt thể tích nội mạch dù bụng báng căng tròn.\n3. **Thứ tự vàng khi truyền Albumin và Lợi tiểu:** \"Albumin đi trước, Furosemid theo sau\". Không bao giờ tiêm Furosemid trước hoặc tiêm cùng lúc khi bắt đầu cắm chai Albumin. Chỉ tiêm Furosemid vào giữa hoặc cuối chai Albumin khi tưới máu ngoại vi đã hồi phục.\n4. **Không kiêng khem đạm thái quá:** Hướng dẫn mẹ cho trẻ ăn lượng thịt cá bình thường theo nhu cầu phát triển lứa tuổi (1.5 - 2.0 g/kg/ngày). Kiêng đạm sẽ làm trẻ suy kiệt, teo cơ và vết thương lâu lành.\n5. **Giảm muối thông minh:** Hạn chế muối trong giai đoạn phù to (1-2 g muối/ngày), nhưng khi trẻ đã hết phù và đang giảm liều steroid thì có thể nới lỏng chế độ ăn nhạt vừa phải để trẻ ăn ngon miệng và không chậm tăng trưởng.\n6. **Sổ nhật ký que thử nước tiểu tại nhà:** Mỗi gia đình cần có một lọ que thử nước tiểu và một cuốn sổ nhật ký. Thử nước tiểu buổi sáng 2-3 lần mỗi tuần. Nếu thấy que thử chuyển 3+ trong 2 ngày liên tiếp, phải liên hệ tái khám ngay trước khi trẻ phù to trở lại.\n7. **Cảnh giác hạ canxi máu giả tạo:** Canxi toàn phần giảm theo albumin máu. Luôn tính canxi hiệu chỉnh hoặc định lượng canxi ion hóa. Không tiêm canxi tĩnh mạch nếu trẻ không có triệu chứng co giật hay co thắt thanh quản.\n8. **Tiêm phòng phế cầu là lá chắn sinh mạng:** Trẻ thận hư mất kháng thể bảo vệ nên rất dễ tử vong vì viêm phúc mạc và viêm phổi phế cầu. Hãy tư vấn tiêm ngừa vắc xin phế cầu (PCV13 và PPSV23) ngay khi trẻ đạt lui bệnh hoàn toàn.\n9. **Nguyên tắc hoãn vắc xin sống:** Ghi nhớ quy tắc cấm tiêm vắc xin sống (Sởi, Thủy đậu, Quai bị, Lao) khi đang dùng corticoid liều cao. Phải đợi ít nhất 1 đến 3 tháng sau khi ngưng corticoid liều cao mới được tiêm chủng các loại vắc xin này.\n10. **Không tự ý tăng/giảm liều steroid:** Dặn dò cha mẹ tuyệt đối không được tự ý giảm liều thuốc khi thấy con hết phù, và cũng không được tự ý tăng liều khi thấy con sốt ho thông thường nếu que thử nước tiểu vẫn âm tính.\n11. **Dự phòng loãng xương khi dùng corticoid kéo dài:** Trẻ dùng corticoid trên 2-3 tháng cần được bổ sung Canxi nguyên tố (500 - 1000 mg/ngày) và Vitamin D3 (400 - 800 UI/ngày) để bảo vệ mật độ xương.\n12. **Phát hiện sớm tắc mạch huyết khối ở trẻ lớn:** Bất kỳ trẻ thận hư nào trên 12 tuổi có biểu hiện đau sưng một bên bắp chân, đau ngực khó thở đột ngột hoặc đau đầu dữ dội đều phải được làm siêu âm Doppler mạch máu và D-dimer khẩn cấp để loại trừ huyết khối.\n\n## 14. TÀI LIỆU THAM KHẢO (REFERENCES)\n\n1. **Trautmann A, Vivarelli M, Samuel S, et al.** (2023). IPNA clinical practice recommendations for the diagnosis and management of children with steroid-sensitive nephrotic syndrome. *Pediatric Nephrology*, 38(3), 883-919. PMID: **36269406**. DOI: 10.1007/s00467-022-05739-3. [GUIDELINE VERIFIED]\n2. **Trautmann A, Boyer O, Hodson E, et al.** (2020). IPNA clinical practice recommendations for the diagnosis and management of children with steroid-resistant nephrotic syndrome. *Pediatric Nephrology*, 35(8), 1529-1561. PMID: **32382828**. DOI: 10.1007/s00467-020-04519-1. [GUIDELINE VERIFIED]\n3. **Rovin BH, Adler SG, Barratt J, et al.** (2021). KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. *Kidney International*, 100(4S), S1-S276. PMID: **34556256**. DOI: 10.1016/j.kint.2021.05.021. [GUIDELINE VERIFIED]\n4. **Hahn D, Hodson EM, Willis NS, Craig JC.** (2020). Corticosteroid therapy for nephrotic syndrome in children. *Cochrane Database of Systematic Reviews*, 8(8), CD001533. PMID: **35659203**. DOI: 10.1002/14651858.cd001533.pub6. [DATA VERIFIED]\n5. **Kerlin BA, Blatt NB, Fuh B, et al.** (2009). Epidemiology and risk factors for thromboembolic complications of childhood nephrotic syndrome: a Midwest Pediatric Nephrology Consortium (MWPNC) study. *The Journal of Pediatrics*, 155(1), 105-110.e1. PMID: **19394032**. DOI: 10.1016/j.jpeds.2009.01.070. [DATA VERIFIED]\n6. **Pasini A, Aceto G, Ammenti A, et al.** (2017). The Italian Society for Pediatric Nephrology (SINePe) consensus document on the management of nephrotic syndrome in children: Part I - Diagnosis and treatment of the first episode and the first relapse. *Italian Journal of Pediatrics*, 43(1), 41. PMID: **28427453**. DOI: 10.1186/s13052-017-0356-x. [GUIDELINE VERIFIED]\n",
       "pedytb_file": null,
       "pedytb_content": "",
-      "cards_count": 0,
-      "cards_data": [],
-      "apkg_file": null,
+      "cards_count": 98,
+      "cards_data": [
+        {
+          "type": "basic",
+          "category": "Cảnh báo an toàn",
+          "front": "Tại sao cấm dùng Furosemid đơn độc khi trẻ hội chứng thận hư đang có giảm thể tích tuần hoàn (Underfill)?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Làm sụt giảm thêm thể tích nội mạch, đẩy trẻ vào sốc giảm thể tích mất bù, tắc mạch huyết khối và hoại tử ống thận cấp.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Trẻ phù to nhưng trong lòng mạch lại đang cạn kiệt dịch; thiểu niệu là phản xạ bù trừ giữ dịch của thận.",
+          "extra": "Chỉ dùng Furosemid sau khi đã bù thể tích bằng Albumin 20% và tưới máu mô đã cải thiện."
+        },
+        {
+          "type": "basic",
+          "category": "Cảnh báo an toàn",
+          "front": "Căn nguyên vi khuẩn hàng đầu gây viêm phúc mạc tiên phát (SBP) ở trẻ mắc hội chứng thận hư là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Phế cầu khuẩn (<i>Streptococcus pneumoniae</i>), chiếm trên 50% các trường hợp.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Do trẻ bị mất nặng nề kháng thể IgG và bổ thể qua nước tiểu, làm giảm khả năng opsonin hóa vi khuẩn có vỏ.",
+          "extra": "Kháng sinh đầu tay là Ceftriaxone 80-100 mg/kg/ngày TM."
+        },
+        {
+          "type": "basic",
+          "category": "Cảnh báo an toàn",
+          "front": "Tại sao trẻ hội chứng thận hư có nguy cơ cao bị tắc mạch huyết khối đe dọa tính mạng?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Mất Antithrombin III qua nước tiểu + gan tăng tổng hợp Fibrinogen + máu bị cô đặc do thoát dịch vào khoang kẽ.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nguy cơ cao nhất ở trẻ > 12 tuổi, Albumin &lt; 20 g/L và có đặt catheter tĩnh mạch trung tâm.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Cảnh báo an toàn",
+          "front": "Nguy cơ chết người nào xảy ra nếu ngừng đột ngột Prednisolone sau đợt điều trị tấn công?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Cơn suy thượng thận cấp kịch phát (Adrenal Crisis) gây trụy mạch, tụt huyết áp và tử vong nhanh chóng.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Tuyến thượng thận của trẻ đã bị ức chế hoàn toàn sau 2 tuần dùng corticoid liều cao; bắt buộc phải giảm liều tuần tự sang cách ngày.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Cấp cứu tại giường",
+          "front": "Dấu hiệu tưới máu ngoại vi nào cảnh báo sốc giảm thể tích ở trẻ hội chứng thận hư?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Mạch nhanh nhỏ, CRT kéo dài > 3 giây, đầu chi lạnh, da nổi vân tím.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Thường kèm theo huyết áp kẹp (hiệu số &lt; 20 mmHg) hoặc tụt huyết áp.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Cấp cứu tại giường",
+          "front": "Trẻ thận hư đang phù to kêu đau bụng dữ dội quanh rốn kèm CRT kéo dài gợi ý biến chứng gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thiếu máu cục bộ mạc treo ruột do giảm thể tích tuần hoàn nội mạch nặng.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Là dấu hiệu báo động đỏ đe dọa sốc giảm thể tích mất bù cận kề, cần xử trí cấp cứu ngay.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Cấp cứu tại giường",
+          "front": "Xử trí cấp cứu ban đầu cho trẻ hội chứng thận hư có sốc giảm thể tích mất bù (huyết áp tụt)?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thở oxy, lập đường truyền TM, truyền nhanh NaCl 0.9% 10-20 mL/kg trong 30-60 phút trong khi chuẩn bị Albumin 20%.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Cần nâng huyết áp khẩn cấp bằng dịch đẳng trương trước khi truyền dung dịch keo ưu trương.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Tiếp cận tại giường",
+          "front": "Nếu que thử nước tiểu ở trẻ phù mi mắt cho kết quả Protein niệu âm tính hoặc 1+, xử trí tiếp theo là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chưa chẩn đoán hội chứng thận hư; tìm các nguyên nhân gây phù khác (suy tim, suy dinh dưỡng, xơ gan, dị ứng) và thử lại sau 24-48h.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Hội chứng thận hư đòi hỏi protein niệu trên que thử từ 3+ đến 4+ liên tục.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "category": "Dịch tễ học",
+          "text": "Đỉnh tuổi khởi phát phổ biến nhất của hội chứng thận hư nguyên phát ở trẻ em là từ {{c1::2 đến 6 tuổi}}, với tỷ lệ trai:gái khoảng {{c1::2:1}}.",
+          "extra": "Tỷ lệ mắc hàng năm dao động từ 1.15 đến 16.9 trên 100,000 trẻ em (IPNA 2023)."
+        },
+        {
+          "type": "cloze",
+          "category": "Mô bệnh học",
+          "text": "Ở trẻ em dưới 10 tuổi mắc hội chứng thận hư nguyên phát, bệnh tổn thương tối thiểu (MCD) chiếm {{c1::85% đến 90%}}, trong khi xơ chai cầu thận khu trú từng phần (FSGS) chiếm {{c1::10% đến 15%}}.",
+          "extra": "FSGS thường gặp hơn ở trẻ trên 10-12 tuổi và có tỷ lệ kháng thuốc steroid rất cao."
+        },
+        {
+          "type": "basic",
+          "category": "Dịch tễ học",
+          "front": "Tỷ lệ đáp ứng ban đầu với steroid và tỷ lệ tái phát ở trẻ mắc hội chứng thận hư là bao nhiêu?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Khoảng 85-90% trẻ đáp ứng steroid ban đầu, nhưng 70-80% trong số đó sẽ bị tái phát ít nhất một đợt.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Mặc dù tỷ lệ sống còn > 97%, bệnh có tính chất mạn tính tái diễn đòi hỏi theo dõi lâu dài.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Mô bệnh học",
+          "front": "Hình ảnh đặc trưng của Bệnh tổn thương tối thiểu (MCD) trên kính hiển vi điện tử là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Xóa các chân lồi của tế bào podocyte trên diện rộng (diffuse foot process effacement).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Kính hiển vi quang học và miễn dịch huỳnh quang hoàn toàn bình thường, không có lắng đọng miễn dịch.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Giải phẫu màng lọc",
+          "front": "Kể tên 3 lớp giải phẫu của Hàng rào lọc cầu thận (Glomerular Filtration Barrier)?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• 1. Tế bào nội mô mao mạch (lỗ thủng 70-100 nm).<br>• 2. Màng đáy cầu thận GBM (dày 250-350 nm).<br>• 3. Tế bào có chân Podocyte (khe lọc slit diaphragm 4-40 nm).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Cả 3 lớp đều phủ phân tử polyanion tích điện âm mạnh để đẩy lùi protein.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "category": "Giải phẫu màng lọc",
+          "text": "Kích thước khe lọc siêu vi của màng ngăn có chân (slit diaphragm) giữa các podocyte chỉ khoảng {{c1::4 đến 40 nm}}.",
+          "extra": "Slit diaphragm là cửa ngõ cuối cùng và quan trọng nhất quyết định tính chọn lọc kích thước của màng lọc."
+        },
+        {
+          "type": "basic",
+          "category": "Sinh lý bệnh podocyte",
+          "front": "Protein Nephrin tại màng ngăn slit diaphragm do gen nào mã hóa và có vai trò gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Do gen <i>NPHS1</i> mã hóa; vươn ra khoang khe lọc đan chéo với chân đối diện tạo bộ khung mắt lưới chính của khe lọc.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Đột biến gen NPHS1 gây hội chứng thận hư bẩm sinh kiểu Phần Lan.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Sinh lý bệnh podocyte",
+          "front": "Protein Podocin tại màng ngăn slit diaphragm do gen nào mã hóa và có vai trò gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Do gen <i>NPHS2</i> mã hóa; neo giữ và điều hòa tín hiệu của Nephrin với khung xương actin nội bào.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Đột biến gen NPHS2 gây hội chứng thận hư kháng steroid (SRNS) có tính gia đình.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Sinh lý bệnh học",
+          "front": "Cơ chế tính chọn lọc điện tích (Charge selectivity) của màng lọc cầu thận là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Lớp điện tích âm Polyanion (Heparan sulfate) trên màng lọc đẩy dội phân tử Albumin (cũng tích điện âm) trở lại lòng mạch nhờ lực đẩy tĩnh điện.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Mất lớp điện tích âm trong bệnh MCD gây ra hiện tượng Protein niệu chọn lọc cao (chủ yếu là Albumin).",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Sinh lý bệnh học",
+          "front": "Phân biệt Protein niệu chọn lọc cao và Protein niệu không chọn lọc?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chọn lọc cao: Thoát thuần khiết Albumin (do mất điện tích âm, gặp trong MCD).<br>• Không chọn lọc: Thoát cả các đại phân tử như IgG, Transferrin (do rách vỡ cấu trúc màng lọc, gặp trong FSGS).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Protein niệu không chọn lọc gợi ý tổn thương cầu thận thực thể nặng.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Sinh lý bệnh học",
+          "front": "Cơ chế khởi phát phù theo Thuyết Underfill trong hội chứng thận hư là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thất thoát Albumin nặng → Giảm áp lực keo huyết tương → Dịch thoát vào mô kẽ → Giảm thể tích nội mạch hiệu dụng → Kích hoạt hệ RAAS giữ muối nước thứ phát.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Thường gặp ở trẻ nhỏ mắc bệnh MCD; mạch nhanh, CRT kéo dài, huyết áp thấp.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Sinh lý bệnh học",
+          "front": "Cơ chế khởi phát phù theo Thuyết Overfill trong hội chứng thận hư là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Khiếm khuyết bài tiết Natri nguyên phát tại ống góp (kênh ENaC) → Ứ muối nước nguyên phát → Tăng thể tích tuần hoàn nội mạch → Ức chế hệ RAAS.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Thường gặp ở trẻ lớn, FSGS; biểu hiện huyết áp cao, tĩnh mạch cổ nổi, đáp ứng tốt với Furosemid đơn độc.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Chuỗi cơ chế",
+          "front": "Cơ chế hình thành rối loạn Lipid máu trong hội chứng thận hư là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Giảm Albumin và giảm áp lực keo kích thích gan tăng tổng hợp bù trừ lipoprotein, kết hợp mất các enzyme giáng hóa mỡ qua nước tiểu.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Làm tăng nồng độ Cholesterol toàn phần (> 5.2 mmol/L), Triglyceride và LDL.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Chuỗi cơ chế",
+          "front": "Tại sao trẻ thận hư bị giảm Canxi toàn phần máu nhưng Canxi ion hóa vẫn bình thường (hạ canxi giả tạo)?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Khoảng 40% canxi toàn phần gắn với Albumin; khi Albumin giảm sâu thì canxi gắn kết giảm theo, nhưng canxi ion hóa (dạng có hoạt tính) vẫn bình thường.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Không có triệu chứng lâm sàng hạ canxi và chống chỉ định tiêm canxi tĩnh mạch.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Tiêu chuẩn chẩn đoán",
+          "front": "Hai tiêu chuẩn sinh hóa nào là BẮT BUỘC phải có để chẩn đoán xác định hội chứng thận hư?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• 1. Protein niệu ngưỡng thận hư (≥ 50 mg/kg/ngày hoặc Up/Ucr ≥ 2.0 mg/mg).<br>• 2. Giảm Albumin máu nặng (&lt; 25 g/L).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Hai tiêu chuẩn đi kèm là Phù toàn thân và Tăng lipid máu (Cholesterol > 5.2 mmol/L).",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "category": "Tiêu chuẩn định lượng",
+          "text": "Protein niệu ngưỡng thận hư thu thập 24 giờ ở trẻ em được xác định khi đạt ≥ {{c1::50 mg/kg/ngày}} (hoặc ≥ {{c1::40 mg/m2/giờ}}).",
+          "extra": "Tương đương tỷ số Up/Ucr mẫu sáng sớm ≥ 2.0 mg/mg."
+        },
+        {
+          "type": "cloze",
+          "category": "Tiêu chuẩn định lượng",
+          "text": "Tỷ số Protein/Creatinin nước tiểu ngẫu nhiên buổi sáng (Up/Ucr) ở ngưỡng thận hư là ≥ {{c1::2.0 mg/mg}} (hoặc ≥ {{c1::200 mg/mmol}}).",
+          "extra": "Ở trẻ em bình thường, Up/Ucr < 0.2 mg/mg (trẻ < 2 tuổi < 0.5 mg/mg)."
+        },
+        {
+          "type": "cloze",
+          "category": "Tiêu chuẩn que thử",
+          "text": "Trên que thử nước tiểu bán định lượng (dipstick), kết quả protein niệu gợi ý ngưỡng thận hư là từ {{c1::3+ (300 mg/dL)}} đến {{c1::4+ (≥ 1000 mg/dL)}}.",
+          "extra": "Que thử là phương tiện tối ưu để theo dõi tái phát tại nhà mỗi sáng."
+        },
+        {
+          "type": "cloze",
+          "category": "Tiêu chuẩn sinh hóa",
+          "text": "Tiêu chuẩn giảm Albumin máu bắt buộc theo IPNA 2023 và KDIGO 2021 là nồng độ Albumin huyết thanh &lt; {{c1::25 g/L}} (hoặc &lt; {{c1::2.5 g/dL}}), kèm Protein toàn phần thường &lt; {{c1::55 g/L}}.",
+          "extra": "Mốc < 25 g/L nghiêm ngặt hơn mốc cũ < 30 g/L để xác định đúng đợt bùng phát."
+        },
+        {
+          "type": "cloze",
+          "category": "Tiêu chuẩn sinh hóa",
+          "text": "Tiêu chuẩn tăng Lipid máu trong hội chứng thận hư ở trẻ em là nồng độ Cholesterol toàn phần > {{c1::5.2 mmol/L}} (tương đương > {{c1::200 mg/dL}}).",
+          "extra": "Thường đi kèm tăng Triglyceride và LDL máu."
+        },
+        {
+          "type": "basic",
+          "category": "Phương pháp đo lường",
+          "front": "Tại sao Up/Ucr mẫu nước tiểu đầu tiên buổi sáng được ưu tiên hơn thu thập nước tiểu 24 giờ ở trẻ nhỏ?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tránh sai số rơi vãi do trẻ chưa bỏ tã, có kết quả nhanh để xử trí ngay và loại trừ protein niệu tư thế.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Up/Ucr ≥ 2.0 mg/mg có độ tương quan rất cao với protein niệu 24h ≥ 50 mg/kg/ngày.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Đặc điểm phù",
+          "front": "Đặc điểm lâm sàng của triệu chứng phù trong hội chứng thận hư là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Phù trắng, mềm, ấn lõm, không đau, đối xứng hai bên; xuất hiện đầu tiên ở mi mắt buổi sáng, sau đó lan toàn thân kèm tràn dịch đa màng.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Cần đo chu vi vòng bụng ngang rốn mỗi ngày để theo dõi lượng dịch báng.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Bilan xét nghiệm",
+          "front": "Tìm thể mỡ lưỡng chiết (chữ thập Maltese) trong soi cặn lắng nước tiểu có ý nghĩa gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Là dấu hiệu đặc trưng của tình trạng lipid niệu nặng trong hội chứng thận hư.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Quan sát dưới kính hiển vi phân cực; cặn lắng cũng giúp loại trừ trụ hồng cầu của viêm cầu thận.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Bilan xét nghiệm",
+          "front": "Tại sao bắt buộc phải làm xét nghiệm Mantoux hoặc QuantiFERON-TB trước khi điều trị corticoid?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Loại trừ lao tiềm ẩn; Prednisolone liều cao kéo dài làm suy giảm miễn dịch T, dễ bùng phát lao kê hoặc lao màng não tử vong.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nếu có lao tiềm ẩn, phải điều trị dự phòng bằng Isoniazid (INH) đồng thời.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Chỉ định sinh thiết thận",
+          "front": "Tại sao không chỉ định sinh thiết thận thường quy ở trẻ 1 đến 10 tuổi khởi phát hội chứng thận hư?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Vì 85-90% trẻ nhóm tuổi này mắc MCD và đáp ứng hoàn toàn với corticoid (> 90%), tránh thủ thuật xâm lấn không cần thiết.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Chỉ sinh thiết khi có dấu hiệu không điển hình hoặc kháng thuốc.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Chỉ định sinh thiết thận",
+          "front": "Chỉ định sinh thiết thận về lứa tuổi khởi phát ở trẻ mắc hội chứng thận hư là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Trẻ &lt; 1 tuổi (nghi đột biến gen podocyte) HOẶC trẻ > 12 tuổi (nguy cơ cao FSGS, bệnh thận màng, Lupus).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Trẻ 1 đến 12 tuổi có triệu chứng điển hình được điều trị thử bằng steroid trước.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Chỉ định sinh thiết thận",
+          "front": "Đặc điểm đái máu nào là chỉ định sinh thiết thận ở trẻ hội chứng thận hư?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đái máu đại thể dai dẳng.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Đái máu vi thể thoáng qua gặp ở 20% trẻ MCD không phải là chỉ định sinh thiết.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Chỉ định sinh thiết thận",
+          "front": "Mức huyết áp nào là chỉ định sinh thiết thận ở trẻ hội chứng thận hư?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tăng huyết áp thực tổn kéo dài (huyết áp > bách phân vị thứ 95 theo tuổi/giới tính tồn tại dai dẳng).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Vẫn tăng huyết áp sau khi đã kiểm soát tốt phù và ngưng các thuốc kích thích.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Chỉ định sinh thiết thận",
+          "front": "Đặc điểm suy giảm chức năng thận nào là chỉ định sinh thiết thận ở trẻ hội chứng thận hư?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Nồng độ Creatinin tăng và eGFR giảm dai dẳng không hồi phục sau khi đã bù đủ thể tích nội mạch.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Phải phân biệt với suy thận cấp trước thận do giảm tưới máu (hồi phục nhanh sau bù Albumin).",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Chỉ định sinh thiết thận",
+          "front": "Nồng độ bổ thể máu nào là chỉ định sinh thiết thận ở trẻ hội chứng thận hư?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Giảm nồng độ bổ thể C3 hoặc C4 trong huyết thanh.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Bổ thể bình thường trong MCD; giảm C3/C4 chỉ điểm MPGN, viêm cầu thận hậu nhiễm liên cầu hoặc Lupus.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Chỉ định sinh thiết thận",
+          "front": "Biểu hiện lâm sàng ngoài thận nào là chỉ định sinh thiết thận ở trẻ hội chứng thận hư?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Dấu hiệu gợi ý bệnh thứ phát: Sốt kéo dài, ban cánh bướm, loét miệng, đau viêm đa khớp, ban Schonlein-Henoch.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Gợi ý tổn thương cầu thận thứ phát do bệnh tự miễn hệ thống.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Chỉ định sinh thiết thận",
+          "front": "Thất bại điều trị sau bao lâu thì có chỉ định sinh thiết thận ở trẻ hội chứng thận hư?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thất bại đạt lui bệnh sau 4 tuần điều trị tấn công Prednisolone liều chuẩn hàng ngày (kháng steroid - SRNS).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Bắt buộc sinh thiết để xác định thể mô bệnh học trước khi dùng thuốc ức chế miễn dịch bậc hai.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "category": "Phác đồ tấn công",
+          "text": "Liều tấn công hàng ngày của Prednisolone đợt đầu là {{c1::2.0 mg/kg/ngày}} (hoặc {{c1::60 mg/m2/ngày}}), tối đa không quá {{c1::60 mg/ngày}}, dùng liên tục trong {{c1::4 đến 6 tuần}}.",
+          "extra": "Uống một lần duy nhất vào 7:00 - 8:00 sáng sau ăn no để giảm ức chế trục HPA."
+        },
+        {
+          "type": "cloze",
+          "category": "Phác đồ duy trì",
+          "text": "Liều duy trì cách ngày của Prednisolone là {{c1::1.5 mg/kg cách ngày}} (hoặc {{c1::40 mg/m2 cách ngày}}), tối đa không quá {{c1::40 mg/ngày}}, dùng trong {{c1::4 đến 6 tuần}}.",
+          "extra": "Uống buổi sáng các ngày chỉ định (thứ 2, 4, 6, chủ nhật); các ngày còn lại nghỉ thuốc."
+        },
+        {
+          "type": "cloze",
+          "category": "Thời gian điều trị",
+          "text": "Tổng thời gian điều trị corticosteroid đợt đầu chuẩn hóa cho trẻ em là {{c1::8 đến 12 tuần}} (tương đương khoảng {{c1::2 đến 3 tháng}}).",
+          "extra": "Bao gồm 4-6 tuần tấn công hàng ngày + 4-6 tuần duy trì cách ngày."
+        },
+        {
+          "type": "cloze",
+          "category": "Bằng chứng Cochrane",
+          "text": "Phân tích gộp Cochrane 2020 khẳng định kéo dài điều trị đợt đầu trên 3 tháng không giảm nguy cơ tái phát (RR = {{c1::0.95}}, 95% CI: {{c1::0.81 - 1.12}}), nhưng làm tăng đáng kể {{c1::tác dụng phụ tích lũy}}.",
+          "extra": "Tác dụng phụ tích lũy: chậm lớn, béo phì Cushing, rậm lông, rạn da, tăng huyết áp."
+        },
+        {
+          "type": "basic",
+          "category": "Dược lý lâm sàng",
+          "front": "Tại sao Prednisolone được chỉ định uống 1 lần duy nhất vào buổi sáng sau ăn no?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Mô phỏng nhịp tiết cortisol tự nhiên của vỏ thượng thận, giảm tối đa ức chế trục HPA và giảm kích ứng dạ dày.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Chia nhỏ liều uống nhiều lần trong ngày làm tăng nguy cơ ức chế thượng thận mà không tăng hiệu quả lui bệnh.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Tác dụng phụ Corticoid",
+          "front": "Kể tên các tác dụng phụ nghiêm trọng khi kéo dài đợt corticoid ban đầu lên 6 tháng?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chậm lớn đóng sụn xương sớm, béo phì Cushing, loãng xương, rậm lông, rạn da, tăng huyết áp và đục thủy tinh thể.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Bằng chứng Cochrane 2020 đã chấm dứt hoàn toàn phác đồ kéo dài 6 tháng cũ.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Quy trình giảm liều",
+          "front": "Quy trình giảm liều Prednisolone sau giai đoạn duy trì cách ngày được thực hiện thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Giảm dần liều mỗi 1-2 tuần (ví dụ: giảm xuống 1.0 mg/kg cách ngày trong 2 tuần, rồi 0.5 mg/kg cách ngày trong 2 tuần rồi ngưng hẳn).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Hoặc ngưng trực tiếp nếu tổng thời gian đợt đầu đã đạt đủ 8-12 tuần.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Điều chỉnh phác đồ",
+          "front": "Khi nào được phép kéo dài đợt tấn công hàng ngày từ 4 tuần lên 6 tuần?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Khi hết tuần thứ 4 trẻ có đáp ứng một phần (protein niệu giảm từ 3-4+ xuống 1-2+) nhưng chưa âm tính hẳn.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nếu que thử vẫn 3+ hoặc 4+ không đổi sau 4 tuần thì kết luận SRNS, không kéo dài thêm.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Dự phòng biến chứng xương",
+          "front": "Kê đơn dự phòng biến chứng xương cho trẻ điều trị corticoid 8-12 tuần như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bổ sung Canxi nguyên tố 500 mg/ngày kết hợp Vitamin D3 400 UI/ngày uống buổi trưa sau ăn.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Corticoid làm giảm hấp thu canxi tại ruột và tăng thải trừ canxi qua thận.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "category": "Định nghĩa đáp ứng",
+          "text": "Lui bệnh hoàn toàn (Complete Remission) được định nghĩa khi tỷ số Up/Ucr &lt; {{c1::0.2 mg/mg}} HOẶC que thử nước tiểu âm tính/vết liên tục trong {{c1::3 ngày liên tiếp}}.",
+          "extra": "Lui bệnh một phần: Up/Ucr từ 0.2 đến 2.0 mg/mg kèm Albumin máu ≥ 30 g/L."
+        },
+        {
+          "type": "cloze",
+          "category": "Định nghĩa đáp ứng",
+          "text": "Tái phát (Relapse) được định nghĩa khi tỷ số Up/Ucr ≥ {{c1::2.0 mg/mg}} HOẶC que thử nước tiểu ≥ {{c1::3+}} liên tục trong {{c1::3 ngày liên tiếp}} ở trẻ trước đó đã lui bệnh.",
+          "extra": "Thường xảy ra sau một đợt nhiễm trùng đường hô hấp hoặc sốt siêu vi."
+        },
+        {
+          "type": "cloze",
+          "category": "Định nghĩa đáp ứng",
+          "text": "Thể tái phát thường xuyên (FRNS) là có ≥ {{c1::2 đợt tái phát}} trong vòng 6 tháng đầu HOẶC ≥ {{c1::4 đợt tái phát}} trong bất kỳ khoảng thời gian 12 tháng nào.",
+          "extra": "FRNS là chỉ định dùng thuốc ức chế miễn dịch bậc hai để giảm liều steroid."
+        },
+        {
+          "type": "cloze",
+          "category": "Định nghĩa đáp ứng",
+          "text": "Thể phụ thuộc steroid (SDNS) là tái phát {{c1::2 đợt liên tiếp}} trong khi đang giảm liều steroid HOẶC trong vòng {{c1::14 ngày}} sau khi ngưng thuốc hoàn toàn.",
+          "extra": "Trẻ không thể ngưng được steroid mà không bị tái phát bệnh."
+        },
+        {
+          "type": "cloze",
+          "category": "Định nghĩa đáp ứng",
+          "text": "Hội chứng thận hư kháng steroid (SRNS) là thất bại đạt lui bệnh hoàn toàn sau {{c1::4 tuần}} điều trị tấn công Prednisolone liều chuẩn {{c1::60 mg/m2/ngày}} (hoặc {{c1::2.0 mg/kg/ngày}}).",
+          "extra": "Bắt buộc sinh thiết thận và xét nghiệm di truyền học trước khi khởi động CNI."
+        },
+        {
+          "type": "basic",
+          "category": "Xử trí tái phát",
+          "front": "Phác đồ điều trị một đợt tái phát thông thường ở trẻ hội chứng thận hư nhạy cảm steroid?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Dùng lại Prednisolone liều tấn công (2 mg/kg/ngày hoặc 60 mg/m2/ngày) cho đến khi que thử âm tính liên tục 3 ngày, sau đó chuyển liều cách ngày (1.5 mg/kg) trong 4 tuần rồi ngưng.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Đợt tái phát thông thường không cần tấn công đủ 4 tuần như đợt đầu; chỉ cần tấn công đến khi âm tính 3 ngày.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Quản lý lâm sàng",
+          "front": "Xử trí như thế nào khi trẻ đang duy trì steroid bị sốt siêu vi và que thử xuất hiện Protein 1+ hoặc 2+?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chưa kết luận tái phát; hạ sốt, theo dõi que thử mỗi sáng trong 3-5 ngày; nếu âm tính trở lại thì giữ nguyên liều steroid.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Sốt cao có thể làm tăng tính thấm cầu thận thoáng qua gây protein niệu phản ứng.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "category": "Cấp cứu biến chứng",
+          "text": "Liều truyền dung dịch Albumin 20% trong cấp cứu giảm thể tích tuần hoàn là {{c1::0.5 đến 1.0 g/kg}} (tương đương {{c1::2.5 đến 5.0 mL/kg}}), truyền tĩnh mạch chậm trong {{c1::2 đến 4 giờ}}.",
+          "extra": "Albumin 20% là dung dịch ưu trương kéo nước mạnh mẽ từ khoang kẽ về lòng mạch."
+        },
+        {
+          "type": "cloze",
+          "category": "Cấp cứu biến chứng",
+          "text": "Liều tiêm Furosemid sau khi truyền Albumin 20% là {{c1::1.0 đến 2.0 mg/kg TM}}, chỉ tiêm vào {{c1::giữa hoặc cuối}} buổi truyền khi huyết động đã cải thiện.",
+          "extra": "Cấm tiêm Furosemid trước khi bù Albumin vì sẽ gây trụy mạch và hoại tử ống thận cấp."
+        },
+        {
+          "type": "basic",
+          "category": "Cấp cứu biến chứng",
+          "front": "Dấu hiệu quá tải thể tích (phù phổi cấp) trong khi truyền Albumin 20% là gì và xử trí ngay?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Dấu hiệu: Khó thở đột ngột, thở nhanh co kéo, SpO2 tụt, ho bọt hồng, ran ẩm dâng nhanh hai phổi.<br>• Xử trí: Ngừng ngay truyền Albumin, ngồi đầu cao, thở oxy áp lực dương, tiêm ngay Furosemid 2 mg/kg TM.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Do kéo dịch vào lòng mạch quá nhanh vượt quá khả năng co bóp của tâm thất.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "category": "Cấp cứu nhiễm trùng",
+          "text": "Kháng sinh đầu tay điều trị viêm phúc mạc tiên phát (SBP) là Ceftriaxone liều {{c1::80 đến 100 mg/kg/ngày}} tiêm TM 1 lần/ngày (hoặc Cefotaxime 150 mg/kg/ngày chia 3 lần); thời gian điều trị tối thiểu {{c1::10 đến 14 ngày}}.",
+          "extra": "Phối hợp Vancomycin 40-60 mg/kg/ngày nếu nghi ngờ phế cầu kháng penicillin."
+        },
+        {
+          "type": "cloze",
+          "category": "Cấp cứu nhiễm trùng",
+          "text": "Tiêu chuẩn chẩn đoán viêm phúc mạc tiên phát qua chọc dò dịch màng bụng là số lượng bạch cầu > {{c1::250/mm3}} với tỷ lệ bạch cầu đa nhân trung tính chiếm > {{c1::50%}}.",
+          "extra": "Bắt buộc cấy máu và dịch báng trước khi tiêm liều kháng sinh đầu tiên."
+        },
+        {
+          "type": "basic",
+          "category": "Nhiễm trùng da",
+          "front": "Viêm mô tế bào ở trẻ thận hư: vị trí hay gặp, vi khuẩn gây bệnh và kháng sinh lựa chọn?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Vị trí: Vùng da phù căng nứt nẻ ở cẳng chân hoặc bìu/âm hộ.<br>• Căn nguyên: Liên cầu nhóm A và Tụ cầu vàng.<br>• Kháng sinh: Oxacillin/Cefazolin (hoặc Vancomycin nếu nghi MRSA).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Da phù nề mất hàng rào bảo vệ cơ học, tạo điều kiện vi khuẩn xâm nhập.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Biến chứng tắc mạch",
+          "front": "4 vị trí tắc mạch huyết khối nguy hiểm nhất ở trẻ em mắc hội chứng thận hư?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• 1. Huyết khối tĩnh mạch sâu chi dưới (DVT).<br>• 2. Huyết khối tĩnh mạch thận (tiểu máu, đau hông lưng, thận to).<br>• 3. Huyết khối xoang tĩnh mạch não (đau đầu dữ dội, co giật).<br>• 4. Thuyên tắc động mạch phổi PE (khó thở đột ngột, ho ra máu, tụt SpO2).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Tỷ lệ tắc mạch ở trẻ em khoảng 2.8% (theo nghiên cứu MWPNC).",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "category": "Dự phòng chống đông",
+          "text": "Dự phòng chống đông ở trẻ thận hư có nguy cơ tắc mạch rất cao bằng Aspirin liều thấp {{c1::2 đến 5 mg/kg/ngày}} (tối đa 81-100 mg/ngày) HOẶC Enoxaparin liều {{c1::1 mg/kg}} tiêm dưới da mỗi 12-24 giờ.",
+          "extra": "Chỉ định khi trẻ > 12 tuổi, Albumin < 15 g/L, Fibrinogen > 6 g/L hoặc có tiền sử huyết khối."
+        },
+        {
+          "type": "basic",
+          "category": "Rối loạn điện giải",
+          "front": "Công thức tính nồng độ Canxi hiệu chỉnh theo Albumin máu là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Canxi hiệu chỉnh (mmol/L) = Canxi đo được (mmol/L) + 0.02 × (40 - Albumin máu (g/L)).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nếu canxi hiệu chỉnh nằm trong giới hạn bình thường (2.15 - 2.55 mmol/L), đây là hạ canxi giả tạo, không tiêm canxi tĩnh mạch.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Rối loạn điện giải",
+          "front": "Khi nào mới có chỉ định tiêm Canxi tĩnh mạch ở trẻ mắc hội chứng thận hư?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Khi trẻ có triệu chứng lâm sàng hạ canxi máu (dấu Chvostek, Trousseau, co thắt thanh quản, co giật) VÀ nồng độ Canxi ion hóa (Ca2+) thực sự giảm.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Tuyệt đối không tiêm canxi tĩnh mạch chỉ dựa vào chỉ số canxi toàn phần giảm.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Tác dụng phụ lợi tiểu",
+          "front": "Các rối loạn điện giải thường gặp cần theo dõi khi sử dụng Furosemid liều cao?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hạ kali máu và kiềm chuyển hóa (do tăng thải trừ K+ và H+ tại ống lượn xa).<br>• Hạ natri máu pha loãng.<br>• Tăng axit uric máu.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Cần kiểm tra điện giải đồ sau 24-48h và bù Kali clorid uống khi K+ &lt; 3.5 mmol/L.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "category": "Thuốc bậc hai",
+          "text": "Levamisole là lựa chọn đầu tay cho thể FRNS/SDNS nhẹ với liều {{c1::2.5 mg/kg uống cách ngày}} vào buổi sáng trong 1-2 năm; tác dụng phụ cần theo dõi định kỳ là {{c1::giảm bạch cầu hạt}}.",
+          "extra": "Cần xét nghiệm công thức máu mỗi 4-8 tuần trong quá trình dùng thuốc."
+        },
+        {
+          "type": "cloze",
+          "category": "Thuốc bậc hai",
+          "text": "Để phòng ngừa vô sinh vĩnh viễn và viêm bàng quang xuất huyết khi dùng Cyclophosphamide, tổng liều tích lũy tuyệt đối không được vượt quá {{c1::168 mg/kg}} (tương đương liều {{c1::2.0 mg/kg/ngày}} dùng tối đa {{c1::12 tuần}}).",
+          "extra": "Nhắc trẻ uống nhiều nước và đi tiểu thường xuyên để tránh tích tụ acrolein tại bàng quang."
+        },
+        {
+          "type": "cloze",
+          "category": "Thuốc bậc hai",
+          "text": "Liều khởi đầu của Cyclosporin A (CsA) là {{c1::4 đến 5 mg/kg/ngày}} chia 2 lần, với nồng độ đáy mục tiêu (C0) trong máu cần đạt từ {{c1::100 đến 150 ng/mL}}.",
+          "extra": "Tác dụng phụ đặc trưng: phì đại nướu, rậm lông, tăng huyết áp và độc tính thận."
+        },
+        {
+          "type": "cloze",
+          "category": "Thuốc bậc hai",
+          "text": "Liều khởi đầu của Tacrolimus là {{c1::0.10 đến 0.15 mg/kg/ngày}} chia 2 lần, với nồng độ đáy mục tiêu (C0) cần đạt từ {{c1::5 đến 8 ng/mL}} trong 6 tháng đầu điều trị SRNS.",
+          "extra": "Tacrolimus có hiệu lực mạnh hơn CsA và không gây phì đại nướu hay rậm lông."
+        },
+        {
+          "type": "cloze",
+          "category": "Thuốc bậc hai",
+          "text": "Liều điều trị của Mycophenolate Mofetil (MMF) cho thể SDNS/FRNS là {{c1::1200 mg/m2/ngày}} (hoặc {{c1::30 mg/kg/ngày}}) chia 2 lần, ưu điểm nổi bật là {{c1::không gây độc tính trên thận}}.",
+          "extra": "Tác dụng phụ thường gặp: tiêu chảy, đau bụng và giảm bạch cầu."
+        },
+        {
+          "type": "cloze",
+          "category": "Thuốc sinh học",
+          "text": "Rituximab được chỉ định cho thể SDNS nặng kháng trị với liều {{c1::375 mg/m2/liều}} truyền tĩnh mạch từ 1 đến 4 liều; mục tiêu điều trị là làm tế bào B CD19 &lt; {{c1::1% tổng lympho bào}}.",
+          "extra": "Rituximab là kháng thể đơn dòng tái tổ hợp kháng thụ thể CD20 trên bề mặt tế bào lympho B."
+        },
+        {
+          "type": "basic",
+          "category": "So sánh thuốc",
+          "front": "Tại sao Tacrolimus được ưu tiên hơn Cyclosporin A ở trẻ em mắc hội chứng thận hư kháng steroid (SRNS)?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hiệu lực giảm protein niệu mạnh hơn và KHÔNG gây phì đại nướu răng, KHÔNG gây rậm lông.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Giúp tránh được các tác dụng phụ thẩm mỹ nặng nề ảnh hưởng tâm lý của trẻ.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "category": "Chế độ dinh dưỡng",
+          "text": "Chế độ ăn giảm muối ở trẻ thận hư trong đợt phù to là khoảng {{c1::1 đến 2 g muối/ngày}} (tương đương lượng Natri &lt; {{c1::35 mg/kg/ngày}}); khi đã hết phù lui bệnh thì {{c1::ăn chế độ bình thường}}.",
+          "extra": "Không ăn nhạt tuyệt đối kéo dài vì dễ gây hạ natri máu suy kiệt."
+        },
+        {
+          "type": "basic",
+          "category": "Chế độ dinh dưỡng",
+          "front": "Lượng đạm khuyến cáo cho trẻ mắc hội chứng thận hư là bao nhiêu và tại sao không được ép ăn nhiều đạm?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Duy trì mức chuẩn sinh lý 1.5 - 2.0 g/kg/ngày. Ép ăn quá nhiều đạm làm tăng áp lực lọc cầu thận, gây tổn thương thêm podocyte.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Ngược lại, kiêng đạm quá mức sẽ đẩy trẻ vào suy dinh dưỡng teo cơ nhanh chóng.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Tiêm chủng vắc xin",
+          "front": "Nguyên tắc tiêm vắc xin sống giảm độc lực ở trẻ thận hư đang dùng corticoid?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chống chỉ định tuyệt đối khi đang dùng Prednisolone liều cao (≥ 2 mg/kg/ngày). Chỉ tiêm sau khi đã ngưng thuốc ít nhất 1-3 tháng.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Tiêm khi đang ức chế miễn dịch có thể gây nhiễm virus vắc xin lan tỏa toàn thân tử vong.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Tiêm chủng vắc xin",
+          "front": "Vắc xin bất hoạt nào được khuyến cáo bắt buộc tiêm phòng cho trẻ mắc hội chứng thận hư?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Vắc xin Phế cầu (PCV13, nhắc lại PPSV23) và Vắc xin Cúm mùa hàng năm.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Giúp phòng ngừa biến chứng viêm phúc mạc tiên phát và giảm tỷ lệ tái phát do nhiễm virus.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Tiêu chuẩn xuất viện",
+          "front": "Kể tên các tiêu chuẩn xuất viện an toàn cho trẻ khởi phát đợt đầu hội chứng thận hư?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Huyết động ổn định, hết dấu hiệu giảm/quá tải thể tích.<br>• Phù giảm rõ, tiểu tốt (> 1.5-2.0 mL/kg/h).<br>• Đã loại trừ nhiễm trùng, dung nạp tốt steroid uống, gia đình thành thạo thử que thử tại nhà.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Tập huấn gia đình tự thử nước tiểu bằng que thử là mấu chốt để phát hiện sớm tái phát.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Bẫy lâm sàng",
+          "front": "Bẫy lâm sàng: Ngộ nhận trẻ phù to nứt da là thừa dịch toàn bộ cơ thể dẫn đến sai lầm gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Vội vã kê đơn Furosemid liều cao khi thể tích trong lòng mạch đang cạn kiệt (Underfill), đẩy trẻ vào sốc trụy mạch và tắc mạch não/phổi.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Phần lớn dịch nằm ở khoang kẽ; phải kiểm tra tưới máu ngoại vi trước khi dùng lợi tiểu.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Bẫy lâm sàng",
+          "front": "Bẫy lâm sàng: Thấy trẻ thận hư thiểu niệu mà vội vàng tăng liều Furosemid sẽ dẫn đến hậu quả gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Gây hoại tử ống thận cấp và suy thận thực thể không hồi phục.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Thiểu niệu là phản xạ bảo tồn dịch của thận; khi có giảm thể tích, bắt buộc truyền Albumin 20% trước.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Bẫy lâm sàng",
+          "front": "Bẫy lâm sàng: Nhầm lẫn đau bụng do viêm phúc mạc tiên phát với đau bụng do phù nề ruột dẫn đến nguy cơ gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chậm trễ chọc dò và dùng kháng sinh Ceftriaxone, khiến trẻ rơi vào sốc nhiễm khuẩn huyết do phế cầu tử vong.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Bất kỳ trẻ thận hư báng bụng nào có sốt hoặc đau bụng đều phải nghi ngờ SBP.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Bẫy lâm sàng",
+          "front": "Bẫy lâm sàng: Ngừng đột ngột Prednisolone vì lo sợ tác dụng phụ mặt tròn Cushingoid gây ra hậu quả gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Gây cơn suy thượng thận cấp kịch phát đe dọa tính mạng.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Quy trình giảm liều bắt buộc phải chuyển sang cách ngày rồi mới hạ dần trong 8-12 tuần.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Bẫy lâm sàng",
+          "front": "Bẫy lâm sàng: Thấy Canxi toàn phần máu giảm mà vội vàng tiêm Canxi tĩnh mạch cấp cứu gây nguy cơ gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Nguy cơ loạn nhịp tim nguy hiểm và hoại tử mô nếu chệch ven, trong khi Canxi ion hóa của trẻ hoàn toàn bình thường.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Đây là hạ canxi giả tạo do giảm albumin; chỉ tiêm canxi khi có triệu chứng lâm sàng và canxi ion hóa thực sự giảm.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Bẫy lâm sàng",
+          "front": "Bẫy lâm sàng: Ép trẻ thận hư ăn chế độ giàu đạm gấp đôi để bù lại lượng protein mất có đúng không?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hoàn toàn sai; ép ăn nhiều đạm làm tăng áp lực lọc cầu thận, tăng gánh nặng lọc và phá hủy thêm các podocyte còn lại.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Chỉ duy trì lượng đạm chuẩn theo tuổi 1.5 - 2.0 g/kg/ngày.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Bẫy lâm sàng",
+          "front": "Bẫy lâm sàng: Đánh giá kháng steroid (SRNS) quá sớm khi mới điều trị tấn công được 2 tuần dẫn đến sai lầm gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Vội vàng đổi sang các thuốc ức chế miễn dịch bậc hai độc hại trong khi trẻ có thể đáp ứng muộn vào tuần thứ 3 hoặc thứ 4.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Định nghĩa IPNA đòi hỏi đủ 4 tuần tấn công liên tục mới được kết luận SRNS.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Bẫy lâm sàng",
+          "front": "Bẫy lâm sàng: Tiêm vắc xin sống giảm độc lực (thủy đậu, sởi) khi trẻ đang uống Prednisolone liều cao gây hậu quả gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Gây nhiễm virus vắc xin lan tỏa toàn thân dẫn đến viêm não, viêm phổi nặng và tử vong.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Phải ngưng corticoid liều cao ít nhất 1-3 tháng mới được tiêm vắc xin sống.",
+          "extra": ""
+        },
+        {
+          "type": "cloze",
+          "category": "Tính toán lâm sàng",
+          "text": "Bé trai 3 tuổi, nặng 15 kg: Liều tấn công Prednisolone chuẩn là 2 mg/kg/ngày × 15 kg = {{c1::30 mg/ngày}}, tương đương uống {{c1::6 viên Prednisolone 5 mg}} một lần duy nhất vào 7 giờ sáng sau ăn.",
+          "extra": "Không chia nhỏ liều uống nhiều lần trong ngày."
+        },
+        {
+          "type": "cloze",
+          "category": "Tính toán lâm sàng",
+          "text": "Bé gái 6 tuổi thừa cân, nặng 28 kg, diện tích da 0.95 m2: Liều Prednisolone tấn công tính theo diện tích da chuẩn là 60 mg/m2 × 0.95 = {{c1::57 mg/ngày}} (không vượt quá liều tối đa {{c1::60 mg/ngày}}).",
+          "extra": "Tính theo diện tích da chuẩn xác hơn ở trẻ thừa cân để tránh quá liều thuốc."
+        },
+        {
+          "type": "cloze",
+          "category": "Tính toán lâm sàng",
+          "text": "Trẻ 14 kg khô có giảm thể tích tuần hoàn: Lượng Albumin 20% cần truyền là 1.0 g/kg × 14 kg = 14 g, tương đương {{c1::70 mL dung dịch Albumin 20%}} truyền qua bơm tiêm điện trong {{c1::2 giờ}}; sau 1 giờ tiêm Furosemid liều {{c1::14 mg TM}}.",
+          "extra": "Chỉ tiêm Furosemid khi huyết động đã cải thiện rõ (CRT < 2s, mạch rõ)."
+        },
+        {
+          "type": "cloze",
+          "category": "Tính toán lâm sàng",
+          "text": "Mẫu nước tiểu có Protein niệu 450 mg/dL và Creatinin niệu 90 mg/dL: Tỷ số Up/Ucr = 450 / 90 = {{c1::5.0 mg/mg}}; chỉ số này > {{c1::2.0 mg/mg}}, khẳng định chắc chắn protein niệu ở ngưỡng thận hư.",
+          "extra": "Ngưỡng bình thường của Up/Ucr ở trẻ em là < 0.2 mg/mg."
+        },
+        {
+          "type": "cloze",
+          "category": "Tính toán lâm sàng",
+          "text": "Bệnh nhi có Canxi toàn phần 1.65 mmol/L và Albumin máu 12 g/L: Canxi hiệu chỉnh = 1.65 + 0.02 × (40 - 12) = {{c1::2.21 mmol/L}}; nồng độ này {{c1::hoàn toàn bình thường}}, chống chỉ định tiêm canxi tĩnh mạch.",
+          "extra": "Ngưỡng bình thường của Canxi máu là 2.15 - 2.55 mmol/L."
+        },
+        {
+          "type": "basic",
+          "category": "Tình huống lâm sàng",
+          "front": "Case 1: Tại sao trẻ 4 tuổi phù to toàn thân nhưng lại có mạch nhanh 145 l/p, huyết áp tụt 75/50 mmHg, CRT 4s và đau bụng quanh rốn?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Trẻ bị Underfill mất bù: Albumin giảm sâu (14 g/L) làm dịch thoát ồ ạt vào mô kẽ gây phù to và làm cạn kiệt thể tích trong lòng mạch.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Giảm thể tích nội mạch gây co mạch ngoại vi (CRT 4s, HA tụt) và thiếu máu mạc treo ruột gây đau bụng.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Tình huống lâm sàng",
+          "front": "Case 1: Tại sao tiêm Furosemid 20 mg TM đơn độc cho trẻ ở Case 1 là sai lầm chết người?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Cưỡng bức bài niệu khi thể tích nội mạch đang cạn kiệt sẽ gây sụt giảm thêm thể tích, dẫn đến trụy mạch, tắc mạch huyết khối và hoại tử ống thận cấp.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Bắt buộc phải truyền Albumin 20% nâng thể tích tuần hoàn trước khi dùng lợi tiểu.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Tình huống lâm sàng",
+          "front": "Case 1: Tóm tắt 3 bước cấp cứu huyết động tức thì cho bệnh nhi Case 1?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• 1. Thở oxy, lập đường truyền TM.<br>• 2. Truyền Albumin 20% liều 1.0 g/kg (70 mL) trong 2 giờ.<br>• 3. Sau 1 giờ khi huyết động cải thiện (mạch chậm, CRT &lt; 2s), tiêm Furosemid 1 mg/kg TM.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Không tiêm canxi tĩnh mạch vì canxi ion hóa bình thường.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Tình huống lâm sàng",
+          "front": "Case 2: Trẻ 6 tuổi tiền sử thận hư xuất hiện sốt 39.2°C, đau bụng cấp, đề kháng nhẹ - Chẩn đoán ưu tiên và vi khuẩn hàng đầu?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chẩn đoán: Viêm phúc mạc tiên phát (SBP) biến chứng trên nền thận hư tái phát.<br>• Vi khuẩn hàng đầu: Phế cầu khuẩn (<i>Streptococcus pneumoniae</i>, chiếm > 50%).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Bạch cầu tăng vọt 21,500/uL và CRP 96 mg/L củng cố nhiễm trùng cấp.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Tình huống lâm sàng",
+          "front": "Case 2: Bệnh nhân Case 2 có chỉ định phẫu thuật mở bụng thăm dò khẩn cấp không? Tại sao?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• KHÔNG có chỉ định mổ; đây là viêm phúc mạc tiên phát điều trị nội khoa bằng kháng sinh, mổ không cần thiết làm tăng nguy cơ nhiễm trùng và sốc.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Siêu âm đã loại trừ viêm ruột thừa và không có liềm hơi dưới hoành; cần chọc dịch báng cấy vi sinh.",
+          "extra": ""
+        },
+        {
+          "type": "basic",
+          "category": "Tình huống lâm sàng",
+          "front": "Case 2: Kế hoạch dùng kháng sinh và quản lý corticoid cho bệnh nhi Case 2?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Kháng sinh: Ceftriaxone 80-100 mg/kg/ngày TM tối thiểu 10-14 ngày.<br>• Corticoid: Tuyệt đối KHÔNG cắt bỏ corticoid vì nguy cơ suy thượng thận cấp khi đang có stress nhiễm trùng nặng.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Duy trì liều sinh lý hoặc nâng liều tấn công khi nhiễm trùng đã được kiểm soát.",
+          "extra": ""
+        }
+      ],
+      "apkg_file": "PED-40_Hoi_chung_than_hu_nguyen_phat_MASTER_v1.apkg",
       "html_file": null,
       "folder_rel": "06_Than_Tim_mach_Noi_tiet/PED-40_Hoi_chung_than_hu_nguyen_phat"
     },

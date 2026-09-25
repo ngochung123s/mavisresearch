@@ -1,0 +1,585 @@
+{
+  "file": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-49_Tiep_can_benh_nhan_phat_ban\\PED-49_Tiep_can_benh_nhan_phat_ban_2026-09-25_RELEASE_v1.md",
+  "summary": {
+    "total": 16,
+    "pass": 16,
+    "warn": 0,
+    "block": 0
+  },
+  "citations": [
+    {
+      "citation": "PMID: 34244233",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 4.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "34244233",
+          "status": "OK",
+          "year": "2022",
+          "title": "NICE guideline review: fever in under 5s: assessment and initial management (NG143)",
+          "author": "NA",
+          "journal": "Archives of disease in childhood. Education and practice edition",
+          "article_type": "Journal Article",
+          "pubtypes": [
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline/Consensus",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Archives of disease in childhood. Education and practice edition",
+        "quartile": "Q1",
+        "if": 4.0
+      }
+    },
+    {
+      "citation": "PMID: 36866956",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 2,
+      "tier_reason": "Q2 (IF 3.5)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "36866956",
+          "status": "OK",
+          "year": "2023",
+          "title": "European study confirms the combination of fever and petechial rash as an important warning sign for childhood sepsis and meningitis",
+          "author": "NA",
+          "journal": "Acta paediatrica (Oslo, Norway : 1992)",
+          "article_type": "Journal Article",
+          "pubtypes": [
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Acta paediatrica (Oslo, Norway : 1992)",
+        "quartile": "Q2",
+        "if": 3.5
+      }
+    },
+    {
+      "citation": "PMID: 37019466",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 4.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "37019466",
+          "status": "OK",
+          "year": "2023",
+          "title": "Invasive bacterial infection in children with fever and petechial rash in the emergency department: a national prospective observational study",
+          "author": "NA",
+          "journal": "Archives of disease in childhood",
+          "article_type": "Multicenter Study, Journal Article",
+          "pubtypes": [
+            "Multicenter Study",
+            "Journal Article",
+            "Observational Study"
+          ]
+        },
+        "evidence": {
+          "study_design": "Cohort (Prospective)",
+          "evidence_level": 3,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Archives of disease in childhood",
+        "quartile": "Q1",
+        "if": 4.0
+      }
+    },
+    {
+      "citation": "PMID: 32482691",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 2,
+      "tier_reason": "Q2 (IF 3.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "32482691",
+          "status": "OK",
+          "year": "2020",
+          "title": "Urticaria, Angioedema, and Anaphylaxis",
+          "author": "NA",
+          "journal": "Pediatrics in review",
+          "article_type": "Review, Journal Article",
+          "pubtypes": [
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Pediatrics in review",
+        "quartile": "Q2",
+        "if": 3.0
+      }
+    },
+    {
+      "citation": "PMID: 31869297",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 4.5)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "31869297",
+          "status": "OK",
+          "year": "2020",
+          "title": "Clinical Guideline Highlights for the Hospitalist: Diagnosis and Management of Measles",
+          "author": "NA",
+          "journal": "Journal of hospital medicine",
+          "article_type": "Research Support, U.S. Gov't, P.H.S., Journal Article",
+          "pubtypes": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline/Consensus",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Journal of hospital medicine",
+        "quartile": "Q1",
+        "if": 4.5
+      }
+    },
+    {
+      "citation": "PMID: 28356445",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 35.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "28356445",
+          "status": "OK",
+          "year": "2017",
+          "title": "Diagnosis, Treatment, and Long-Term Management of Kawasaki Disease: A Scientific Statement for Health Professionals From the American Heart Association",
+          "author": "NA",
+          "journal": "Circulation",
+          "article_type": "Practice Guideline, Review",
+          "pubtypes": [
+            "Practice Guideline",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Circulation",
+        "quartile": "Q1",
+        "if": 35.0
+      }
+    },
+    {
+      "citation": "PMID: 25274973",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 2,
+      "tier_reason": "Q2 (IF 3.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "25274973",
+          "status": "OK",
+          "year": "2014",
+          "title": "Henoch-Schonlein purpura",
+          "author": "NA",
+          "journal": "Pediatrics in review",
+          "article_type": "Journal Article",
+          "pubtypes": [
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Pediatrics in review",
+        "quartile": "Q2",
+        "if": 3.0
+      }
+    },
+    {
+      "citation": "PMID: 21357332",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 8.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "21357332",
+          "status": "OK",
+          "year": "2011",
+          "title": "Fever and antipyretic use in children",
+          "author": "NA",
+          "journal": "Pediatrics",
+          "article_type": "Review, Journal Article",
+          "pubtypes": [
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Pediatrics",
+        "quartile": "Q1",
+        "if": 8.0
+      }
+    },
+    {
+      "citation": "PMID:\n28356445",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 35.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "28356445",
+          "status": "OK",
+          "year": "2017",
+          "title": "Diagnosis, Treatment, and Long-Term Management of Kawasaki Disease: A Scientific Statement for Health Professionals From the American Heart Association",
+          "author": "NA",
+          "journal": "Circulation",
+          "article_type": "Practice Guideline, Review",
+          "pubtypes": [
+            "Practice Guideline",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Circulation",
+        "quartile": "Q1",
+        "if": 35.0
+      }
+    },
+    {
+      "citation": "PMID:\n36866956",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 2,
+      "tier_reason": "Q2 (IF 3.5)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "36866956",
+          "status": "OK",
+          "year": "2023",
+          "title": "European study confirms the combination of fever and petechial rash as an important warning sign for childhood sepsis and meningitis",
+          "author": "NA",
+          "journal": "Acta paediatrica (Oslo, Norway : 1992)",
+          "article_type": "Journal Article",
+          "pubtypes": [
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Acta paediatrica (Oslo, Norway : 1992)",
+        "quartile": "Q2",
+        "if": 3.5
+      }
+    },
+    {
+      "citation": "PMID:\n37019466",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 4.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "37019466",
+          "status": "OK",
+          "year": "2023",
+          "title": "Invasive bacterial infection in children with fever and petechial rash in the emergency department: a national prospective observational study",
+          "author": "NA",
+          "journal": "Archives of disease in childhood",
+          "article_type": "Multicenter Study, Journal Article",
+          "pubtypes": [
+            "Multicenter Study",
+            "Journal Article",
+            "Observational Study"
+          ]
+        },
+        "evidence": {
+          "study_design": "Cohort (Prospective)",
+          "evidence_level": 3,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Archives of disease in childhood",
+        "quartile": "Q1",
+        "if": 4.0
+      }
+    },
+    {
+      "citation": "PMID:\n34244233",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 4.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "34244233",
+          "status": "OK",
+          "year": "2022",
+          "title": "NICE guideline review: fever in under 5s: assessment and initial management (NG143)",
+          "author": "NA",
+          "journal": "Archives of disease in childhood. Education and practice edition",
+          "article_type": "Journal Article",
+          "pubtypes": [
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline/Consensus",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Archives of disease in childhood. Education and practice edition",
+        "quartile": "Q1",
+        "if": 4.0
+      }
+    },
+    {
+      "citation": "PMID:\n31869297",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 4.5)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "31869297",
+          "status": "OK",
+          "year": "2020",
+          "title": "Clinical Guideline Highlights for the Hospitalist: Diagnosis and Management of Measles",
+          "author": "NA",
+          "journal": "Journal of hospital medicine",
+          "article_type": "Research Support, U.S. Gov't, P.H.S., Journal Article",
+          "pubtypes": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Guideline/Consensus",
+          "evidence_level": 1,
+          "is_guideline": true,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Journal of hospital medicine",
+        "quartile": "Q1",
+        "if": 4.5
+      }
+    },
+    {
+      "citation": "PMID:\n25274973",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 2,
+      "tier_reason": "Q2 (IF 3.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "25274973",
+          "status": "OK",
+          "year": "2014",
+          "title": "Henoch-Schonlein purpura",
+          "author": "NA",
+          "journal": "Pediatrics in review",
+          "article_type": "Journal Article",
+          "pubtypes": [
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Observational",
+          "evidence_level": 4,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Pediatrics in review",
+        "quartile": "Q2",
+        "if": 3.0
+      }
+    },
+    {
+      "citation": "PMID:\n32482691",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 2,
+      "tier_reason": "Q2 (IF 3.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "32482691",
+          "status": "OK",
+          "year": "2020",
+          "title": "Urticaria, Angioedema, and Anaphylaxis",
+          "author": "NA",
+          "journal": "Pediatrics in review",
+          "article_type": "Review, Journal Article",
+          "pubtypes": [
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Pediatrics in review",
+        "quartile": "Q2",
+        "if": 3.0
+      }
+    },
+    {
+      "citation": "PMID:\n21357332",
+      "type": "pmid",
+      "has_specific_claim": false,
+      "specific_patterns": [],
+      "tier": 1,
+      "tier_reason": "Q1 (IF 8.0)",
+      "verdict": "OK",
+      "severity": "pass",
+      "details": {
+        "pmid_info": {
+          "pmid": "21357332",
+          "status": "OK",
+          "year": "2011",
+          "title": "Fever and antipyretic use in children",
+          "author": "NA",
+          "journal": "Pediatrics",
+          "article_type": "Review, Journal Article",
+          "pubtypes": [
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "evidence": {
+          "study_design": "Review",
+          "evidence_level": 5,
+          "is_guideline": false,
+          "is_meta_analysis": false,
+          "is_systematic_review": false,
+          "is_rct": false
+        },
+        "journal": "Pediatrics",
+        "quartile": "Q1",
+        "if": 8.0
+      }
+    }
+  ]
+}

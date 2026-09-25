@@ -88,6 +88,7 @@
 | **PED-37** | P0 | Viêm màng não mủ ở trẻ em | Tác nhân vi khuẩn theo lứa tuổi; triệu chứng lâm sàng ở nhũ nhi (thóp phồng, li bì, bỏ bú) vs trẻ lớn (cổ gượng, Kernig, Brudzinski); biện luận kết quả xét nghiệm dịch não tủy; phác đồ kháng sinh + Dexamethasone. | PED-01, 03, 07 | ❌ CHƯA CÓ |
 | **PED-38** | P0 | Thủy đậu ở trẻ em & Biến chứng | Lâm sàng ban dạng nốt đậu nhiều lứa tuổi; chẩn đoán phân biệt; chỉ định dùng Acyclovir đường uống vs tĩnh mạch; nhận diện và xử trí biến chứng bội nhiễm da (tụ cầu/liên cầu), viêm mô tế bào, viêm não tiểu não. | PED-01 | ❌ CHƯA CÓ |
 | **PED-39** | P0 | Lịch Tiêm chủng mở rộng quốc gia & Tư vấn sau tiêm | Lịch tiêm chuẩn tại Việt Nam (Lao, Viêm gan B, 5 trong 1, Bại liệt, Sởi - Rubella, Viêm não Nhật Bản); các vắc xin dịch vụ thiết yếu (Phế cầu, Rota, Cúm, Não mô cầu); chống chỉ định và xử trí phản ứng sau tiêm. | PED-01 | ❌ CHƯA CÓ |
+| **PED-49** | P0 | Tiếp cận bệnh nhân phát ban ở trẻ em (Pediatric Rash) | Nghiệm pháp ấn kính (Glass test) phân loại ban dãn mạch vs ban xuất huyết; dấu hiệu cờ đỏ cấp cứu (tử ban sao não mô cầu, sốc, Nikolsky (+), loét đa niêm mạc); phân loại hình thái học tổn thương da (dát sẩn, mụn nước, tử ban, sẩn phù); động học sốt và ban (Sởi, Roseola, Thủy đậu, Tay chân miệng, Kawasaki); nguyên tắc hạ sốt an toàn theo AAP 2011. | PED-01, 02 | ✅ GATES ĐẠT (MD + APKG 80 thẻ) |
 
 ---
 

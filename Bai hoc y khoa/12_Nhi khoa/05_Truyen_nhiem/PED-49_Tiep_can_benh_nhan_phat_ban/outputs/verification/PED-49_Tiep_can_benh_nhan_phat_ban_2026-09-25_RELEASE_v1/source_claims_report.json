@@ -1,0 +1,361 @@
+{
+  "document": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-49_Tiep_can_benh_nhan_phat_ban\\PED-49_Tiep_can_benh_nhan_phat_ban_2026-09-25_RELEASE_v1.md",
+  "parsed_claim_count": 8,
+  "verified_claim_count": 8,
+  "status": "PASS",
+  "checks": [
+    {
+      "claim_id": "C-004",
+      "claim_text": "Hướng dẫn NICE NG143 sử dụng hệ thống đèn giao thông để phân tầng nguy cơ trẻ sốt trong đó phát ban không mất màu khi căng da là dấu hiệu cờ đỏ chỉ điểm nguy cơ cao: NICE guideline NG143 uses traffic light system for fever assessment where non-blanching rash is a red flag indicating high risk. {claim:C-004} [ABSTRACT VERIFIED] (PMID: 34244233)",
+      "source_id": "34244233",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 177,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.17"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-002",
+      "claim_text": "Nghiên cứu đa trung tâm tại các khoa cấp cứu châu Âu xác nhận phát ban dạng chấm xuất huyết ở trẻ sốt là dấu hiệu cảnh báo quan trọng của nhiễm khuẩn huyết và viêm màng não: European multicentre study confirms petechial rash in febrile children as an important warning sign for sepsis and meningitis. {claim:C-002} [ABSTRACT VERIFIED] (PMID: 36866956)",
+      "source_id": "36866956",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 183,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.38"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-003",
+      "claim_text": "Nghiên cứu quan sát tiền cứu tại các bệnh viện ghi nhận nhiễm khuẩn xâm lấn ở trẻ sốt có chấm xuất huyết tại khoa cấp cứu chủ yếu do bệnh não mô cầu và phế cầu khuẩn huyết: Prospective observational study found invasive bacterial infection in febrile children with petechial rash in emergency department predominantly comprising meningococcal disease and pneumococcal bacteraemia. {claim:C-003} [ABSTRACT VERIFIED] (PMID: 37019466)",
+      "source_id": "37019466",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 187,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.53"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-007",
+      "claim_text": "Mày đay ở trẻ em đặc trưng bởi các nốt sẩn phù phù mạch thoáng qua và adrenaline tiêm bắp là can thiệp hàng đầu khi có dấu hiệu phản vệ: Urticaria is characterized by transient wheals and angioedema with intramuscular adrenaline as the primary emergency intervention for anaphylaxis. {claim:C-007} [ABSTRACT VERIFIED] (PMID: 32482691)",
+      "source_id": "32482691",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 208,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.25"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-005",
+      "claim_text": "Hướng dẫn CDC về chẩn đoán và kiểm soát dự phòng nhiễm khuẩn bệnh sởi ở trẻ em: Centers for Disease Control and Prevention CDC guideline recommendations for diagnosis infection prevention and control of suspected or confirmed measles in children. {claim:C-005} [ABSTRACT VERIFIED] (PMID: 31869297)",
+      "source_id": "31869297",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 221,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.55"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-001",
+      "claim_text": "Bệnh Kawasaki là nguyên nhân hàng đầu gây bệnh tim mắc phải ở trẻ em các nước phát triển và có nguy cơ dẫn đến giãn hoặc phình động mạch vành ở bệnh nhân không được điều trị: Kawasaki disease is the leading cause of acquired heart disease in children in developed countries and leads to coronary artery aneurysms in untreated cases. {claim:C-001} [GUIDELINE VERIFIED] (PMID: 28356445)",
+      "source_id": "28356445",
+      "verification": "GUIDELINE VERIFIED",
+      "quote": "",
+      "line": 230,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.45"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "official, current, endorsed guideline authority/document type required"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-006",
+      "claim_text": "Ban xuất huyết Henoch-Schonlein đặc trưng bởi ban xuất huyết sờ thấy được phân bố ưu thế ở hai chi dưới và mông không do giảm tiểu cầu: Henoch-Schonlein purpura is characterized by palpable purpura distributed on lower extremities and buttocks without thrombocytopenia. {claim:C-006} [ABSTRACT VERIFIED] (PMID: 25274973)",
+      "source_id": "25274973",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 253,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.36"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    },
+    {
+      "claim_id": "C-008",
+      "claim_text": "Mục tiêu chính của dùng thuốc hạ sốt ở trẻ em là cải thiện sự thoải mái toàn trạng của trẻ thay vì cố gắng đưa thân nhiệt về mức bình thường: The primary goal of antipyretic therapy in children is to improve child comfort rather than normalizing body temperature. {claim:C-008} [ABSTRACT VERIFIED] (PMID: 21357332)",
+      "source_id": "21357332",
+      "verification": "ABSTRACT VERIFIED",
+      "quote": "",
+      "line": 358,
+      "population": "",
+      "intervention_comparator": "",
+      "outcome": "",
+      "timepoint": "",
+      "status": "PASS",
+      "failures": [],
+      "gates": {
+        "existence": {
+          "status": "PASS",
+          "reason": "record exists"
+        },
+        "exact_identity": {
+          "status": "PASS",
+          "reason": "identifiers agree"
+        },
+        "topic_relevance": {
+          "status": "PASS",
+          "reason": "overlap=0.39"
+        },
+        "claim_abstract": {
+          "status": "PASS",
+          "reason": "abstract supports claim tokens"
+        },
+        "numeric_full_text": {
+          "status": "PASS",
+          "reason": "not numeric"
+        },
+        "guideline_authority": {
+          "status": "PASS",
+          "reason": "not a guideline claim"
+        },
+        "integrity_freshness": {
+          "status": "PASS",
+          "reason": "status=clean; fresh=True; unresolved_corrections=0"
+        }
+      }
+    }
+  ],
+  "bundle_hash": "8ecadbfeaa6b1223ac96d7b4da7853aec24c4e0a5887d087b221baf0c2475935"
+}

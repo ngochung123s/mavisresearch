@@ -521,6 +521,18 @@
       "category": "PEDIATRICS",
       "source": "JCR 2023",
       "if": 4.4
+    },
+    "Archives of Disease in Childhood": {
+      "if": 4.0,
+      "field": "Pediatrics",
+      "abbr": "Arch Dis Child",
+      "society": "RCPCH / BMJ"
+    },
+    "Journal of Hospital Medicine": {
+      "if": 4.5,
+      "field": "Pediatrics / Hospital Medicine",
+      "abbr": "J Hosp Med",
+      "society": "Society of Hospital Medicine"
     }
   },
   "Q2": {
@@ -728,6 +740,18 @@
       "category": "PEDIATRICS",
       "source": "JCR 2023",
       "if": 3.2
+    },
+    "Acta Paediatrica": {
+      "if": 3.5,
+      "field": "Pediatrics",
+      "abbr": "Acta Paediatr",
+      "society": "Foundation Acta Paediatrica"
+    },
+    "Pediatrics in Review": {
+      "if": 3.0,
+      "field": "Pediatrics",
+      "abbr": "Pediatr Rev",
+      "society": "AAP"
     }
   },
   "Q3": {
@@ -1213,7 +1237,30 @@
     "cochrane database syst rev": "The Cochrane Database of Systematic Reviews",
     "Journal of the American College of Cardiology": "Journal of the American College of Cardiology",
     "journal of the american college of cardiology": "Journal of the American College of Cardiology",
-    "j am coll cardiol": "Journal of the American College of Cardiology"
+    "j am coll cardiol": "Journal of the American College of Cardiology",
+    "Archives of disease in childhood": "Archives of Disease in Childhood",
+    "archives of disease in childhood": "Archives of Disease in Childhood",
+    "Archives of disease in childhood. Education and practice edition": "Archives of Disease in Childhood",
+    "archives of disease in childhood. education and practice edition": "Archives of Disease in Childhood",
+    "arch dis child": "Archives of Disease in Childhood",
+    "Arch Dis Child Educ Pract Ed": "Archives of Disease in Childhood",
+    "arch dis child educ pract ed": "Archives of Disease in Childhood",
+    "Acta paediatrica (Oslo, Norway : 1992)": "Acta Paediatrica",
+    "acta paediatrica (oslo, norway : 1992)": "Acta Paediatrica",
+    "Acta Paediatrica": "Acta Paediatrica",
+    "acta paediatrica": "Acta Paediatrica",
+    "Acta Paediatr": "Acta Paediatrica",
+    "acta paediatr": "Acta Paediatrica",
+    "Pediatrics in review": "Pediatrics in Review",
+    "pediatrics in review": "Pediatrics in Review",
+    "Pediatrics in Review": "Pediatrics in Review",
+    "Pediatr Rev": "Pediatrics in Review",
+    "pediatr rev": "Pediatrics in Review",
+    "Journal of hospital medicine": "Journal of Hospital Medicine",
+    "journal of hospital medicine": "Journal of Hospital Medicine",
+    "Journal of Hospital Medicine": "Journal of Hospital Medicine",
+    "J Hosp Med": "Journal of Hospital Medicine",
+    "j hosp med": "Journal of Hospital Medicine"
   },
   "aliases": {
     "Obstet Gynecol": "Obstetrics and Gynecology",
@@ -1266,6 +1313,30 @@
     "World J Pediatr": "World Journal of Pediatrics",
     "world j pediatr": "World Journal of Pediatrics",
     "World Journal of Pediatrics : WJP": "World Journal of Pediatrics",
-    "World Journal of Pediatrics": "World Journal of Pediatrics"
+    "World Journal of Pediatrics": "World Journal of Pediatrics",
+    "Archives of disease in childhood": "Archives of Disease in Childhood",
+    "archives of disease in childhood": "Archives of Disease in Childhood",
+    "Archives of disease in childhood. Education and practice edition": "Archives of Disease in Childhood",
+    "archives of disease in childhood. education and practice edition": "Archives of Disease in Childhood",
+    "Arch Dis Child": "Archives of Disease in Childhood",
+    "arch dis child": "Archives of Disease in Childhood",
+    "Arch Dis Child Educ Pract Ed": "Archives of Disease in Childhood",
+    "arch dis child educ pract ed": "Archives of Disease in Childhood",
+    "Acta paediatrica (Oslo, Norway : 1992)": "Acta Paediatrica",
+    "acta paediatrica (oslo, norway : 1992)": "Acta Paediatrica",
+    "Acta Paediatrica": "Acta Paediatrica",
+    "acta paediatrica": "Acta Paediatrica",
+    "Acta Paediatr": "Acta Paediatrica",
+    "acta paediatr": "Acta Paediatrica",
+    "Pediatrics in review": "Pediatrics in Review",
+    "pediatrics in review": "Pediatrics in Review",
+    "Pediatrics in Review": "Pediatrics in Review",
+    "Pediatr Rev": "Pediatrics in Review",
+    "pediatr rev": "Pediatrics in Review",
+    "Journal of hospital medicine": "Journal of Hospital Medicine",
+    "journal of hospital medicine": "Journal of Hospital Medicine",
+    "Journal of Hospital Medicine": "Journal of Hospital Medicine",
+    "J Hosp Med": "Journal of Hospital Medicine",
+    "j hosp med": "Journal of Hospital Medicine"
   }
 }

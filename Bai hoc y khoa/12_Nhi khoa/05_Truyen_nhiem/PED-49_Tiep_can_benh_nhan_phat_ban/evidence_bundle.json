@@ -1,0 +1,542 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-25T14:32:36.147951Z",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\05_Truyen_nhiem\\PED-49_Tiep_can_benh_nhan_phat_ban\\raw_cache",
+  "providers": [
+    "crossref_retraction_watch",
+    "europe_pmc_metadata",
+    "openalex"
+  ],
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "75a208373dbc991da39434fb38251be81405c875673e081f205c10d39d729950",
+      "path": "raw/europe_pmc_metadata/75a208373dbc991da39434fb38251be81405c875673e081f205c10d39d729950.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "ba088267e449dd9a55a41c9e25f631aaf251d5317ad7a166fde2d86f395e46af",
+      "path": "raw/openalex/ba088267e449dd9a55a41c9e25f631aaf251d5317ad7a166fde2d86f395e46af.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "86bae0523cd5248cda2be5b220a85abedfaef5774507acaa3422fc0e82593af4",
+      "path": "raw/crossref_retraction_watch/86bae0523cd5248cda2be5b220a85abedfaef5774507acaa3422fc0e82593af4.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "5038adebf76c57d6ae49141980cec9b525cdf57749452fa3f810b18b2bd5c4c1",
+      "path": "raw/europe_pmc_metadata/5038adebf76c57d6ae49141980cec9b525cdf57749452fa3f810b18b2bd5c4c1.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "ac5bf3a104f3a7b3b6c70fbacd435df2950dade50f32c6ff992bd97a37e4e239",
+      "path": "raw/openalex/ac5bf3a104f3a7b3b6c70fbacd435df2950dade50f32c6ff992bd97a37e4e239.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "371afaa5d915da63575b7bb5cb2476662486de5241bf8a5d131e126bc2764fa6",
+      "path": "raw/crossref_retraction_watch/371afaa5d915da63575b7bb5cb2476662486de5241bf8a5d131e126bc2764fa6.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "ebb90e1f413074b32fbab87479a1d271c60791e14d846bbc28d7b5d51a64cc95",
+      "path": "raw/europe_pmc_metadata/ebb90e1f413074b32fbab87479a1d271c60791e14d846bbc28d7b5d51a64cc95.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "15c9e153e4ecfe42bf35a51f0fc28c258f42ab415e4dd2b4f1aab86c42013b25",
+      "path": "raw/openalex/15c9e153e4ecfe42bf35a51f0fc28c258f42ab415e4dd2b4f1aab86c42013b25.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "5e6fade6bc69b17937f22e46b9e1be93a34d7572556d3254ed122df03eef6b67",
+      "path": "raw/crossref_retraction_watch/5e6fade6bc69b17937f22e46b9e1be93a34d7572556d3254ed122df03eef6b67.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "41f605a5fbd3e8603eb1db8169f60b20f3f6e6d8b18a1fa10e5d0e8fe44e137e",
+      "path": "raw/europe_pmc_metadata/41f605a5fbd3e8603eb1db8169f60b20f3f6e6d8b18a1fa10e5d0e8fe44e137e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "f52f7d9ddcb9dc784ffb40b314545019fed62f98c8a81e8c7e3bd1b1c46e046f",
+      "path": "raw/openalex/f52f7d9ddcb9dc784ffb40b314545019fed62f98c8a81e8c7e3bd1b1c46e046f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "4be13d00871d734f3601589574f7a5b023a28a4671f4c035c8c32f2bf96c72b9",
+      "path": "raw/europe_pmc_metadata/4be13d00871d734f3601589574f7a5b023a28a4671f4c035c8c32f2bf96c72b9.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "c03eca3fe3ce61fb2c85ef05a06286a83e5acbb1514c562c329f68b2dd5a5fc0",
+      "path": "raw/openalex/c03eca3fe3ce61fb2c85ef05a06286a83e5acbb1514c562c329f68b2dd5a5fc0.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "8cdaef2106cdf3f6203f7f1dc2ca03c17c94d3e62886a07ad6711fa1338ad421",
+      "path": "raw/crossref_retraction_watch/8cdaef2106cdf3f6203f7f1dc2ca03c17c94d3e62886a07ad6711fa1338ad421.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "c988bf4a657176d3412f790dc591457a093d5442dc444c9d8a9f42cdd59eec3f",
+      "path": "raw/europe_pmc_metadata/c988bf4a657176d3412f790dc591457a093d5442dc444c9d8a9f42cdd59eec3f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "b14bafa4d002c78fb15be4f4ef0bb6839beea2c5ff7fbaf7101af8979a6875ce",
+      "path": "raw/openalex/b14bafa4d002c78fb15be4f4ef0bb6839beea2c5ff7fbaf7101af8979a6875ce.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "456a7de294ef1d8d87a77b47209eeae64cb72a8e27b6c997b0b036dbc6bb4b98",
+      "path": "raw/crossref_retraction_watch/456a7de294ef1d8d87a77b47209eeae64cb72a8e27b6c997b0b036dbc6bb4b98.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "d507e0f7489e0f7cc406747f9ecea080683622d9b7c8e6d2f9a8022a3b2f1b28",
+      "path": "raw/europe_pmc_metadata/d507e0f7489e0f7cc406747f9ecea080683622d9b7c8e6d2f9a8022a3b2f1b28.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "802eed4fb7e3f358a6ceada1f6ffb7fc22d8572316242a65e6dc2a46b8867cc4",
+      "path": "raw/openalex/802eed4fb7e3f358a6ceada1f6ffb7fc22d8572316242a65e6dc2a46b8867cc4.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "a33bc697fa91547a4cb6345207d8bb249f5150b3f3310a68f2268f5783f59ef0",
+      "path": "raw/crossref_retraction_watch/a33bc697fa91547a4cb6345207d8bb249f5150b3f3310a68f2268f5783f59ef0.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "425baa826e13eebece6daac239940d141ce9421b735e6b7453e1018db060c517",
+      "path": "raw/europe_pmc_metadata/425baa826e13eebece6daac239940d141ce9421b735e6b7453e1018db060c517.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "b4acf62945dd0fa232e888d551f3db41fb7221a180a118eaec86b3ca14b5b25e",
+      "path": "raw/openalex/b4acf62945dd0fa232e888d551f3db41fb7221a180a118eaec86b3ca14b5b25e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-25T14:32:36.147951Z",
+      "sha256": "82903effed01daf9879fa57a99239421f3b2ba180b168f37f2fbc0e4e7554f04",
+      "path": "raw/crossref_retraction_watch/82903effed01daf9879fa57a99239421f3b2ba180b168f37f2fbc0e4e7554f04.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-25T14:35:08.254464Z",
+      "sha256": "216ac3e7a92266cd929ea80c5e78aff5790bcae6cb1d9750c6c364743570d39a",
+      "path": "raw/crossref_retraction_watch/216ac3e7a92266cd929ea80c5e78aff5790bcae6cb1d9750c6c364743570d39a.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "records": {
+    "pmid:28356445": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "28356445",
+        "doi": "10.1161/cir.0000000000000484"
+      },
+      "title": "Diagnosis, Treatment, and Long-Term Management of Kawasaki Disease: A Scientific Statement for Health Professionals From the American Heart Association",
+      "abstract": "<h4>Background</h4>Kawasaki disease is an acute vasculitis of childhood that leads to coronary artery aneurysms in ≈25% of untreated cases. It has been reported worldwide and is the leading cause of acquired heart disease in children in developed countries.<h4>Methods and results</h4>To revise the previous American Heart Association guidelines, a multidisciplinary writing group of experts was convened to review and appraise available evidence and practice-based opinion, as well as to provide updated recommendations for diagnosis, treatment of the acute illness, and long-term management. Although the cause remains unknown, discussion sections highlight new insights into the epidemiology, genetics, pathogenesis, pathology, natural history, and long-term outcomes. Prompt diagnosis is essential, and an updated algorithm defines supplemental information to be used to assist the diagnosis when classic clinical criteria are incomplete. Although intravenous immune globulin is the mainstay of initial treatment, the role for additional primary therapy in selected patients is discussed. Approximately 10% to 20% of patients do not respond to initial intravenous immune globulin, and recommendations for additional therapies are provided. Careful initial management of evolving coronary artery abnormalities is essential, necessitating an increased frequency of assessments and escalation of thromboprophylaxis. Risk stratification for long-term management is based primarily on maximal coronary artery luminal dimensions, normalized as <i>Z</i> scores, and is calibrated to both past and current involvement. Patients with aneurysms require life-long and uninterrupted cardiology follow-up.<h4>Conclusions</h4>These recommendations provide updated and best evidence-based guidance to healthcare providers who diagnose and manage Kawasaki disease, but clinical decision making should be individualized to specific patient circumstances.",
+      "journal": "Circulation",
+      "year": "2017",
+      "publication_types": [
+        "Practice Guideline",
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-25T14:32:36.147951Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-25T14:32:36.147951Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "75a208373dbc991da39434fb38251be81405c875673e081f205c10d39d729950",
+        "ba088267e449dd9a55a41c9e25f631aaf251d5317ad7a166fde2d86f395e46af",
+        "86bae0523cd5248cda2be5b220a85abedfaef5774507acaa3422fc0e82593af4"
+      ],
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "current_version": true,
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "superseded_by": null
+      }
+    },
+    "pmid:34244233": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "34244233",
+        "doi": "10.1136/archdischild-2021-321718"
+      },
+      "title": "NICE guideline review: fever in under 5s: assessment and initial management (NG143)",
+      "abstract": "Feverish illness is one of the leading causes for a child to be seen by healthcare professionals, and is a major cause for hospital admissions.\n\nIn 2007, the National Institute for Health and Care Excellence (NICE) published the original guidance on feverish illness in children (CG47). This was developed to aid healthcare professionals in their decision-making process while managing children aged <5 years with fever. This guidance has been revised multiple times in 2013 (CG160) and 2019 (NG143) and was updated in 2017.\n\nThe current update (NG143) has made specific recommendations on assessment for Kawasaki disease in febrile children.1 Most of the recommendations from the past update 2013 (CG160) have been retained.\n\nThis guideline should be used in conjunction with other NICE guidelines on gastroenteritis (CG84), urinary tract infection (CG54), neonatal infection (NG195), bacterial meningitis (CG102) and sepsis (NG51) (see box 1).\n\nBox 1 \n### Resources\n\nThe incidence and type of serious bacterial infection is likely to have changed following the introduction of newer vaccines.2 3 This review encompasses recommendations from the NICE guideline NG143 (2019).\n\n### Definition of fever\n\nChildren <3 months with temperature ≥38°C should be included in red …",
+      "journal": "Archives of disease in childhood. Education and practice edition",
+      "year": "2022",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-25T14:32:36.147951Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-25T14:32:36.147951Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "5038adebf76c57d6ae49141980cec9b525cdf57749452fa3f810b18b2bd5c4c1",
+        "ac5bf3a104f3a7b3b6c70fbacd435df2950dade50f32c6ff992bd97a37e4e239",
+        "371afaa5d915da63575b7bb5cb2476662486de5241bf8a5d131e126bc2764fa6"
+      ]
+    },
+    "pmid:37019466": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "37019466",
+        "doi": "10.1136/archdischild-2022-325281"
+      },
+      "title": "Invasive bacterial infection in children with fever and petechial rash in the emergency department: a national prospective observational study",
+      "abstract": "<h4>Objective</h4>To determine the incidence and clinical predictors of invasive bacterial infection (IBI) in well-appearing children who present to the emergency department (ED) with fever and petechiae.<h4>Design</h4>A prospective, observational, multicentre study was conducted in 18 hospitals between November 2017 and October 2019.<h4>Patients</h4>A total of 688 patients were recruited.<h4>Main outcome measures</h4>The primary outcome was the presence of IBI. Clinical features and laboratory test results were described and related to the presence of IBI.<h4>Results</h4>Ten IBIs were found (1.5%), comprising eight cases of meningococcal disease and two of occult pneumococcal bacteraemia. Median age was 26.2 months (IQR 15.3-51.2). Blood samples were obtained from 575 patients (83.3%). Patients with an IBI had a shorter time from fever to ED visit (13.5 hours vs 24 hours) and between fever and rash onset (3.5 hours vs 24 hours). Values for absolute leucocyte count, total neutrophil count, C reactive protein and procalcitonin were significantly higher in patients with an IBI. Significantly fewer patients with a favourable clinical status while in the observation unit were found to have an IBI (2/408 patients, 0.5%) than when clinical status was unfavourable (3/18, 16.7%).<h4>Conclusions</h4>The incidence of IBI among children with fever and petechial rash is lower than previously reported (1.5%). The time from fever to ED visit and to rash onset was shorter in patients with an IBI. Patients with a favourable clinical course during observation in the ED are at lower risk of IBI.",
+      "journal": "Archives of disease in childhood",
+      "year": "2023",
+      "publication_types": [
+        "Multicenter Study",
+        "Journal Article",
+        "Observational Study"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-25T14:32:36.147951Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-25T14:32:36.147951Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "ebb90e1f413074b32fbab87479a1d271c60791e14d846bbc28d7b5d51a64cc95",
+        "15c9e153e4ecfe42bf35a51f0fc28c258f42ab415e4dd2b4f1aab86c42013b25",
+        "5e6fade6bc69b17937f22e46b9e1be93a34d7572556d3254ed122df03eef6b67"
+      ]
+    },
+    "pmid:36866956": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "36866956",
+        "doi": "10.1111/apa.16740"
+      },
+      "title": "European study confirms the combination of fever and petechial rash as an important warning sign for childhood sepsis and meningitis",
+      "abstract": "<h4>Aim</h4>This study investigated febrile children with petechial rashes who presented to European emergency departments (EDs) and investigated the role that mechanical causes played in diagnoses.<h4>Methods</h4>Consecutive patients with fever presenting to EDs in 11 European emergency departments in 2017-2018 were enrolled. The cause and focus of infection were identified and a detailed analysis was performed on children with petechial rashes. The results are presented as odds ratios (OR) with 95% confidence intervals (CI).<h4>Results</h4>We found that 453/34010 (1.3%) febrile children had petechial rashes. The focus of the infection included sepsis (10/453, 2.2%) and meningitis (14/453, 3.1%). Children with a petechial rash were more likely than other febrile children to have sepsis or meningitis (OR 8.5, 95% CI 5.3-13.1) and bacterial infections (OR 1.4, 95% CI 1.0-1.8) as well as need for immediate life-saving interventions (OR 6.6, 95% CI 4.4-9.5) and intensive care unit admissions (OR 6.5, 95% CI 3.0-12.5).<h4>Conclusion</h4>The combination of fever and petechial rash is still an important warning sign for childhood sepsis and meningitis. Ruling out coughing and/or vomiting was insufficient to safely identify low-risk patients.",
+      "journal": "Acta paediatrica (Oslo, Norway : 1992)",
+      "year": "2023",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-25T14:32:36.147951Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-25T14:32:36.147951Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "41f605a5fbd3e8603eb1db8169f60b20f3f6e6d8b18a1fa10e5d0e8fe44e137e",
+        "f52f7d9ddcb9dc784ffb40b314545019fed62f98c8a81e8c7e3bd1b1c46e046f",
+        "216ac3e7a92266cd929ea80c5e78aff5790bcae6cb1d9750c6c364743570d39a"
+      ]
+    },
+    "pmid:25274973": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "25274973",
+        "doi": "10.1542/pir.35-10-447"
+      },
+      "title": "Henoch-Schonlein purpura",
+      "abstract": "1. Jessica Reid-Adam, MD\n\n\n \n\n1. Department of Pediatrics, Icahn School of Medicine at Mount Sinai, New York, NY\n\n1. 1. Gedalia A\n Henoch-Schonlein Purpura. Gedalia A. Curr Rheumatol Rep. 2004;6(3):195–202\n [OpenUrl][1][CrossRef][2][PubMed][3]\n\n2. 1. Tizard EJ, 2. Hamilton-Ayres MJJ\n Henoch-Schonlein Purpura. Tizard EJ, Hamilton-Ayres MJJ. Arch Dis Child Educ Pract Ed. 2008;93(1):1–8\n [OpenUrl][4][FREE Full Text][5]\n\n3. 1. Narchi H\n Risk of Long Term Renal Impairment and Duration of Follow Up Recommended for Henoch-Schonlein Purpura with Normal or Minimal Urinary Findings: A Systematic Review. Narchi H. Arch Dis Child. 2005;90(9):916–920\n [OpenUrl][6][Abstract/FREE Full Text][7]\n\n4. 1. Hicks J, 2. Mierau G, 3. Wartchow E, 4. Eldin K\n Renal Diseases Associated with Hematuria in Children and Adolescents: A Brief Tutorial. Hicks J, Mierau G, Wartchow E, Eldin K. Ultrastruct Pathol. 2012;36(1):1–18\n [OpenUrl][8][CrossRef][9][PubMed][10]\n\nHenoch-Schonlein purpura (HSP) is a small vessel vasculitis that annually affects 10 to 20 children per 100,000 population. It is the most common vasculitis of childhood. Although HSP is seen in infancy through adulthood, most documented cases affect children; more than 75% of those diagnosed as having HSP are younger than 10 years, with a peak incidence at 4 to 6 years. White and Asian children are most commonly affected, whereas African American children are least commonly affected. Male predominance among children approaches 2:1. The most recent consensus criteria published in 2010 by the European League Against Rheumatism and the Paediatric Rheumatology European Society state that for diagnosis of HSP, palpable purpura should be accompanied by at least one of the following: abdominal pain, predominance of IgA deposition on a biopsy specimen, arthritis or arthralgia, or renal involvement indicated by hematuria/proteinuria. HSP often follows an upper respiratory tract infection, with most cases occurring in the fall and winter. Although many cases do not have a specifically identified infectious trigger, a variety of viral and bacterial agents have been associated with HSP, group A β-hemolytic streptococcus being the most common. Pathogenesis has been linked to IgA1, a subclass of IgA, and its deposition is noted in the glomerulus, the skin, and the blood vessels of the gastrointestinal (GI) tract. Abnormally O-glycosylated IgA1 has been identified in patients with HSP nephritis and in patients with IgA nephropathy, a disease indistinguishable from HSP on renal biopsy.\n\nThe hallmark of HSP is cutaneous palpable purpura, often involving the lower extremities and buttocks. The appearance of the rash in this pattern reflects its tendency to distribute in …\n\n [1]: {openurl}?query=rft.jtitle%253DCurrent%2Brheumatology%2Breports%26rft.stitle%253DCurr%2BRheumatol%2BRep%26rft.aulast%253DGedalia%26rft.auinit1%253DA.%26rft.volume%253D6%26rft.issue%253D3%26rft.spage%253D195%26rft.epage%253D202%26rft.atitle%253DHenoch-Schonlein%2Bpurpura.%26rft_id%253Dinfo%253Adoi%252F10.1007%252Fs11926-004-0068-2%26rft_id%253Dinfo%253Apmid%252F15134598%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx\n [2]: /lookup/external-ref?access_num=10.1007/s11926-004-0068-2&link_type=DOI\n [3]: /lookup/external-ref?access_num=15134598&link_type=MED&atom=%2Fpedsinreview%2F35%2F10%2F447.atom\n [4]: {openurl}?query=rft.jtitle%253DArchives%2Bof%2BDisease%2Bin%2BChildhood%2B-%2BEducation%2Band%2BPractice%26rft.stitle%253DEDUCATION%2BAND%2BPRACTICE%26rft.issn%253D1743-0585%26rft.aulast%253DTizard%26rft.auinit1%253DE%2BJ%26rft.volume%253D93%26rft.issue%253D1%26rft.spage%253D1%26rft.epage%253D8%26rft.atitle%253DHenoch%2BSchonlein%2Bpurpura%26rft_id%253Dinfo%253Adoi%252F10.1136%252Fadc.2004.066035%26rft_id%253Dinfo%253Apmid%252F18208978%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx\n [5]: /lookup/ijlink?linkType=FULL&journalCode=edpract&resid=93/1/1&atom=%2Fpedsinreview%2F35%2F10%2F447.atom\n [6]: {openurl}?query=rft.jtitle%253DArch%2BDis%2BChild%26rft_id%253Dinfo%253Adoi%252F10.1136%252Fadc.2005.074641%26rft_id%253Dinfo%253Apmid%252F15871983%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx\n [7]: /lookup/ijlink?linkType=ABST&journalCode=archdischild&resid=90/9/916&atom=%2Fpedsinreview%2F35%2F10%2F447.atom\n [8]: {openurl}?query=rft.jtitle%253DUltrastructural%2Bpathology%26rft.stitle%253DUltrastruct%2BPathol%26rft.aulast%253DHicks%26rft.auinit1%253DJ.%26rft.volume%253D36%26rft.issue%253D1%26rft.spage%253D1%26rft.epage%253D18%26rft.atitle%253DRenal%2Bdiseases%2Bassociated%2Bwith%2Bhematuria%2Bin%2Bchildren%2Band%2Badolescents%253A%2Ba%2Bbrief%2Btutorial.%26rft_id%253Dinfo%253Adoi%252F10.3109%252F01913123.2011.620731%26rft_id%253Dinfo%253Apmid%252F22292732%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx\n [9]: /lookup/external-ref?access_num=10.3109/01913123.2011.620731&link_type=DOI\n [10]: /lookup/external-ref?access_num=22292732&link_type=MED&atom=%2Fpedsinreview%2F35%2F10%2F447.atom",
+      "journal": "Pediatrics in review",
+      "year": "2014",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-25T14:32:36.147951Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-25T14:32:36.147951Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "4be13d00871d734f3601589574f7a5b023a28a4671f4c035c8c32f2bf96c72b9",
+        "c03eca3fe3ce61fb2c85ef05a06286a83e5acbb1514c562c329f68b2dd5a5fc0",
+        "8cdaef2106cdf3f6203f7f1dc2ca03c17c94d3e62886a07ad6711fa1338ad421"
+      ]
+    },
+    "pmid:31869297": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "31869297",
+        "doi": "10.12788/jhm.3346"
+      },
+      "title": "Clinical Guideline Highlights for the Hospitalist: Diagnosis and Management of Measles",
+      "abstract": "GUIDELINE TITLE: (1) Measles (Rubeola): For Healthcare Professionals and (2) Interim Infection Prevention and Control Recommendations for Measles in Healthcare Settings RELEASE DATE: (1) February 5, 2018, and (2) July 2019 PRIOR VERSION(S): n/a DEVELOPER: Centers for Disease Control and Prevention (CDC) FUNDING SOURCE: CDC TARGET POPULATION: Children and adults with suspected or confirmed measles.",
+      "journal": "Journal of hospital medicine",
+      "year": "2020",
+      "publication_types": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-25T14:32:36.147951Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-25T14:32:36.147951Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "c988bf4a657176d3412f790dc591457a093d5442dc444c9d8a9f42cdd59eec3f",
+        "b14bafa4d002c78fb15be4f4ef0bb6839beea2c5ff7fbaf7101af8979a6875ce",
+        "456a7de294ef1d8d87a77b47209eeae64cb72a8e27b6c997b0b036dbc6bb4b98"
+      ]
+    },
+    "pmid:32482691": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "32482691",
+        "doi": "10.1542/pir.2019-0056"
+      },
+      "title": "Urticaria, Angioedema, and Anaphylaxis",
+      "abstract": "Urticaria and, to a lesser extent, angioedema are common occurrences in the pediatric population. There are multiple causes of acute and chronic urticaria and angioedema. Most causes are benign, although they can be worrisome for patients and their parents. An allergist should evaluate acute urticaria and/or angioedema if there are concerns of an external cause, such as foods or medications. Chronic urticaria and angioedema can severely affect quality of life and should be managed aggressively with antihistamines and immunomodulators if poorly controlled. Chronic symptoms are unlikely to be due to an external cause. Anaphylaxis is a more serious allergic condition characterized by a systemic reaction involving at least 2 organ systems. Anaphylaxis should be initially managed with intramuscular epinephrine. Patients who experience anaphylaxis should be evaluated by an allergist for possible causes; if found, avoidance of the inciting antigen is the best management. All patients should also be given an epinephrine autoinjector and an action plan. Foods are a common cause of anaphylaxis in the pediatric population. New evidence suggests that the introduction of highly allergic foods is safe in infancy and should not be delayed. In addition, the early introduction of foods such as peanuts may help prevent the development of food allergies.",
+      "journal": "Pediatrics in review",
+      "year": "2020",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-25T14:32:36.147951Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-25T14:32:36.147951Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "d507e0f7489e0f7cc406747f9ecea080683622d9b7c8e6d2f9a8022a3b2f1b28",
+        "802eed4fb7e3f358a6ceada1f6ffb7fc22d8572316242a65e6dc2a46b8867cc4",
+        "a33bc697fa91547a4cb6345207d8bb249f5150b3f3310a68f2268f5783f59ef0"
+      ]
+    },
+    "pmid:21357332": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "21357332",
+        "doi": "10.1542/peds.2010-3852"
+      },
+      "title": "Fever and antipyretic use in children",
+      "abstract": "Fever in a child is one of the most common clinical symptoms managed by pediatricians and other health care providers and a frequent cause of parental concern. Many parents administer antipyretics even when there is minimal or no fever, because they are concerned that the child must maintain a \"normal\" temperature. Fever, however, is not the primary illness but is a physiologic mechanism that has beneficial effects in fighting infection. There is no evidence that fever itself worsens the course of an illness or that it causes long-term neurologic complications. Thus, the primary goal of treating the febrile child should be to improve the child's overall comfort rather than focus on the normalization of body temperature. When counseling the parents or caregivers of a febrile child, the general well-being of the child, the importance of monitoring activity, observing for signs of serious illness, encouraging appropriate fluid intake, and the safe storage of antipyretics should be emphasized. Current evidence suggests that there is no substantial difference in the safety and effectiveness of acetaminophen and ibuprofen in the care of a generally healthy child with fever. There is evidence that combining these 2 products is more effective than the use of a single agent alone; however, there are concerns that combined treatment may be more complicated and contribute to the unsafe use of these drugs. Pediatricians should also promote patient safety by advocating for simplified formulations, dosing instructions, and dosing devices.",
+      "journal": "Pediatrics",
+      "year": "2011",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-25T14:32:36.147951Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-25T14:32:36.147951Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "425baa826e13eebece6daac239940d141ce9421b735e6b7453e1018db060c517",
+        "b4acf62945dd0fa232e888d551f3db41fb7221a180a118eaec86b3ca14b5b25e",
+        "82903effed01daf9879fa57a99239421f3b2ba180b168f37f2fbc0e4e7554f04"
+      ]
+    }
+  },
+  "content_hash": "8ecadbfeaa6b1223ac96d7b4da7853aec24c4e0a5887d087b221baf0c2475935"
+}
