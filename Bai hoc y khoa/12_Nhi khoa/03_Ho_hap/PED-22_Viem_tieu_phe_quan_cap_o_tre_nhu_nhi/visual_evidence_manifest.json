@@ -1,0 +1,47 @@
+{
+  "lesson_id": "PED-22",
+  "generated_at": "2026-09-26T15:09:21.373157",
+  "audit_note": "100% UNMODIFIED RAW PDF RENDERS. No PIL synthetic headers, no matplotlib DIY drawings.",
+  "artifacts": [
+    {
+      "claim_id": "C-009_C-010",
+      "pmid": "40685806",
+      "type": "raw_pdf_page",
+      "file_path": "outputs/visual_evidence/RAW_PREDICT_2025_Page10_Hydration.png",
+      "sha256": "6356b514e22aa403e2241f96fd6dabe6922204654d018b9c87a21225868ce226",
+      "page_number": 10,
+      "source_document": "sources/predict_bedside_2025.pdf",
+      "caption": "Australasian Bronchiolitis Guideline (PREDICT 2025 Update) - Page 10: Official Hydration/Nutrition Recommendations (NG vs IV, Feeding thresholds)"
+    },
+    {
+      "claim_id": "C-010",
+      "pmid": "40685806",
+      "type": "raw_pdf_page",
+      "file_path": "outputs/visual_evidence/RAW_PREDICT_2025_Page11_Fluid_Restriction.png",
+      "sha256": "71e70e58316dab9499ed166f90ca9e37f773483acd01c31bc99f77d605c99ed9",
+      "page_number": 11,
+      "source_document": "sources/predict_bedside_2025.pdf",
+      "caption": "Australasian Bronchiolitis Guideline (PREDICT 2025 Update) - Page 11: Fluid Restriction at 50-75% & Isotonic IV fluid recommendation"
+    },
+    {
+      "claim_id": "C-009",
+      "pmid": "25349312",
+      "type": "raw_pdf_page",
+      "file_path": "outputs/visual_evidence/RAW_Riley_Bronchiolitis_Guideline_2025.png",
+      "sha256": "c6591c2001fc880a845d7cfd52640e48525d7e52f756facac0e81b9840a3c5f1",
+      "page_number": 1,
+      "source_document": "sources/riley_bronchiolitis.pdf",
+      "caption": "Riley Children's Health Clinical Pathway (Sep 2025) - Hydration and Admission Criteria (based on AAP 2014 / Ralston SL)"
+    },
+    {
+      "claim_id": "C-008",
+      "pmid": "40685806",
+      "type": "raw_pdf_flowchart",
+      "file_path": "outputs/visual_evidence/RAW_PREDICT_2025_Official_Flowchart.png",
+      "sha256": "da78eb858ba9182310e84c575b5b5a50ce040278e9dcc4dfd42de18b15ca43b0",
+      "page_number": 1,
+      "source_document": "sources/Australasian-Bronchiolitis-Guideline-Respiratory-support-flow-chart.pdf",
+      "caption": "PREDICT 2025 Official Flowchart - An evidence-based approach to the use of respiratory support in infants with bronchiolitis"
+    }
+  ]
+}

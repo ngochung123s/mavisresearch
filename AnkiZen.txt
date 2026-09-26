@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anki Zen - Ambient Study Companion</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap');
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #06080e;
+      color: #e2e8f0;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow: hidden;
+      user-select: none;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #zenCanvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 10;
+    }
+
+    /* Soft ambient vignette */
+    .ambient-vignette {
+      position: fixed;
+      top: 0; left: 0; width: 100vw; height: 100vh;
+      background: radial-gradient(circle at center, transparent 30%, rgba(6, 8, 14, 0.85) 100%);
+      pointer-events: none;
+      z-index: 20;
+    }
+
+    /* Subtle glow pulse */
+    .bloom-glow {
+      filter: drop-shadow(0 0 25px rgba(99, 102, 241, 0.35));
+    }
+  </style>
+</head>
+<body class="relative w-screen h-screen bg-[#06080e] overflow-hidden">
+  <div class="ambient-vignette"></div>
+
+  <canvas id="zenCanvas"></canvas>
+
+  <!-- Minimalist Top Bar -->
+  <header class="absolute top-0 left-0 right-0 z-30 flex items-center justify-between px-6 py-4 pointer-events-none">
+    <div class="flex items-center gap-3">
+      <div class="flex items-center gap-2">
+        <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+        <span class="text-sm font-semibold tracking-widest text-slate-300 uppercase">ANKI ZEN</span>
+      </div>
+      <span class="text-xs text-slate-600">|</span>
+      <span class="text-xs text-slate-400">Không gian tĩnh tâm cho Bác sĩ</span>
+    </div>
+
+    <!-- Anki Status & Controls -->
+    <div class="flex items-center gap-3 pointer-events-auto">
+      <div id="ankiStatusBox" class="flex items-center gap-2 px-3 py-1 bg-slate-900/60 backdrop-blur-md rounded-full border border-slate-800 text-xs">
+        <span id="ankiStatusDot" class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+        <span id="ankiStatusText" class="text-slate-400">Đang tìm Anki...</span>
+      </div>
+      <button onclick="TargetManager.toggleModal()" id="targetGoalBtn" class="flex items-center gap-1.5 px-3 py-1 bg-slate-900/60 hover:bg-slate-800 text-indigo-300 hover:text-indigo-200 rounded-full border border-indigo-900/50 hover:border-indigo-700/60 text-xs transition cursor-pointer backdrop-blur-md" title="Chọn Deck mục tiêu trong ngày">
+        🎯 <span id="targetBadgeText">Mục tiêu: Tất cả</span>
+      </button>
+
+      <button onclick="Sky.cycle()" id="skyBadge" class="flex items-center gap-1.5 px-3 py-1 bg-slate-900/60 hover:bg-slate-800 text-slate-300 rounded-full border border-slate-800 text-xs transition cursor-pointer" title="Nhấp để đổi không gian Nhật - Nguyệt">
+        🌙 <span>Đêm thanh</span>
+      </button>
+
+      <button onclick="toggleSound()" id="soundBtn" class="p-1.5 bg-slate-900/60 hover:bg-slate-800 text-slate-400 hover:text-slate-200 rounded-full border border-slate-800 text-xs transition" title="Âm thanh sinh thái (Mưa & Chuông)">
+        🔔
+      </button>
+      <button onclick="toggleFullscreen()" class="p-1.5 bg-slate-900/60 hover:bg-slate-800 text-slate-400 hover:text-slate-200 rounded-full border border-slate-800 text-xs transition">
+        ⛶
+      </button>
+    </div>
+  </header>
+
+  <!-- Bottom Centered Study Stats -->
+  <footer class="absolute bottom-6 left-1/2 -translate-x-1/2 z-30 flex flex-col items-center gap-1 pointer-events-none text-center">
+    <div class="text-3xl sm:text-4xl font-light text-slate-100 tracking-tight" id="counterText">
+      0
+    </div>
+    <div class="text-xs text-slate-400 font-medium tracking-wider uppercase" id="counterLabel">
+      Thẻ đã ôn hôm nay
+    </div>
+    <!-- 3-Color Badges (Kiểu 3 chuẩn Anki Desktop) -->
+    <div class="flex items-center justify-center gap-2 mt-2 pointer-events-auto">
+      <!-- Cần ôn / Review (Xanh lục) -->
+      <div class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-950/70 border border-emerald-500/40 text-emerald-400 text-xs font-semibold backdrop-blur-md shadow-[0_0_10px_rgba(16,185,129,0.2)]" title="Thẻ đến hạn ôn tập (Review)">
+        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span id="badgeReviewCount">0</span>
+        <span class="text-[10px] text-emerald-500/80 font-normal">Cần ôn</span>
+      </div>
+
+      <!-- Đang học / Learn (Đỏ) -->
+      <div class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-950/70 border border-rose-500/40 text-rose-400 text-xs font-semibold backdrop-blur-md shadow-[0_0_10px_rgba(244,63,94,0.2)]" title="Thẻ đang học / quên (Learn)">
+        <span class="w-1.5 h-1.5 rounded-full bg-rose-400"></span>
+        <span id="badgeLearnCount">0</span>
+        <span class="text-[10px] text-rose-500/80 font-normal">Đang học</span>
+      </div>
+
+      <!-- Thẻ mới / New (Xanh lam) -->
+      <div class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-950/70 border border-sky-500/40 text-sky-400 text-xs font-semibold backdrop-blur-md shadow-[0_0_10px_rgba(56,189,248,0.2)]" title="Thẻ mới chưa học (New)">
+        <span class="w-1.5 h-1.5 rounded-full bg-sky-400"></span>
+        <span id="badgeNewCount">0</span>
+        <span class="text-[10px] text-sky-500/80 font-normal">Thẻ mới</span>
+      </div>
+
+      <!-- Tổng thẻ / Total (Xám bạc) -->
+      <div class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900/80 border border-slate-700/60 text-slate-300 text-xs font-semibold backdrop-blur-md shadow-[0_0_10px_rgba(148,163,184,0.15)]" title="Tổng số thẻ trong các deck đã chọn">
+        <span class="w-1.5 h-1.5 rounded-full bg-slate-400"></span>
+        <span id="badgeTotalCount">0</span>
+        <span class="text-[10px] text-slate-400 font-normal">Tổng thẻ</span>
+      </div>
+    </div>
+
+    <!-- Daily Target Progress Bar -->
+    <div id="progressContainer" class="w-72 sm:w-96 mt-2 flex flex-col items-center gap-1.5 pointer-events-auto">
+      <div class="w-full bg-slate-900/90 rounded-full h-2 overflow-hidden border border-slate-800 p-[1px] shadow-inner">
+        <div id="progressBar" class="bg-gradient-to-r from-emerald-500 via-teal-400 to-sky-400 h-full rounded-full transition-all duration-700 ease-out shadow-[0_0_12px_rgba(16,185,129,0.5)]" style="width: 0%"></div>
+      </div>
+      <div class="flex items-center justify-between w-full text-[11px] text-slate-400 px-1 font-mono">
+        <span id="progressText" class="text-slate-300">0 / 0 thẻ (0%)</span>
+        <span id="dueRemainingText" class="text-slate-400">Còn 0 thẻ cần ôn • Tổng 0 thẻ</span>
+      </div>
+    </div>
+    <div class="text-[11px] text-indigo-400/80 mt-0.5 tracking-wide" id="lastActionText">
+      Mỗi thẻ Anki sẽ thắp sáng một ngôi sao
+    </div>
+  </footer>
+
+  <!-- Quick Manual Test Triggers (Nhỏ gọn góc dưới) -->
+  <div class="absolute bottom-4 right-4 z-30 flex items-center gap-1.5 pointer-events-auto opacity-30 hover:opacity-100 transition duration-300 text-[10px]">
+    <span class="text-slate-500">Thử:</span>
+    <button onclick="onReview(1)" class="px-2 py-0.5 bg-slate-900 text-rose-300 rounded border border-slate-800 hover:border-rose-500">Again</button>
+    <button onclick="onReview(2)" class="px-2 py-0.5 bg-slate-900 text-amber-300 rounded border border-slate-800 hover:border-amber-500">Hard</button>
+    <button onclick="onReview(3)" class="px-2 py-0.5 bg-slate-900 text-emerald-300 rounded border border-slate-800 hover:border-emerald-500">Good</button>
+    <button onclick="onReview(4)" class="px-2 py-0.5 bg-slate-900 text-indigo-300 rounded border border-slate-800 hover:border-indigo-500">Easy</button>
+  </div>
+  <!-- Target Deck Selection Modal -->
+  <div id="targetModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/75 backdrop-blur-sm opacity-0 pointer-events-none transition-all duration-300">
+    <div id="targetModalCard" class="relative w-full max-w-xl mx-4 max-h-[85vh] flex flex-col bg-slate-950/95 border border-slate-800 rounded-2xl shadow-2xl overflow-hidden scale-95 transition-all duration-300">
+      <!-- Header -->
+      <div class="flex items-center justify-between px-5 py-4 border-b border-slate-800 bg-slate-900/40">
+        <div class="flex items-center gap-2.5">
+          <span class="text-lg">🎯</span>
+          <div>
+            <h3 class="text-sm font-semibold text-slate-200">Mục tiêu học tập trong ngày</h3>
+            <p class="text-[11px] text-slate-400">Chọn deck cha hoặc chuyên khoa để gom nhóm tiến trình</p>
+          </div>
+        </div>
+        <button onclick="TargetManager.toggleModal(false)" class="text-slate-400 hover:text-slate-200 p-1.5 rounded-lg hover:bg-slate-800 text-sm transition">✕</button>
+      </div>
+      <!-- Search & Filter Bar -->
+      <div class="p-4 border-b border-slate-800 bg-slate-900/20 flex flex-col gap-2.5">
+        <div class="relative">
+          <span class="absolute left-3 top-2.5 text-slate-500 text-xs">🔍</span>
+          <input type="text" id="deckSearchInput" oninput="TargetManager.onSearch(this.value)" placeholder="Tìm kiếm nhanh (VD: Nội Khoa, Nhi, ICU, AI...)" class="w-full pl-8 pr-4 py-2 bg-slate-900/90 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition" />
+        </div>
+        <div class="flex items-center justify-between text-[11px] text-slate-400">
+          <div class="flex items-center gap-2">
+            <button onclick="TargetManager.selectAll()" class="text-indigo-400 hover:text-indigo-300 transition">Tất cả các deck (Mặc định)</button>
+            <span class="text-slate-600">•</span>
+            <button onclick="TargetManager.clearAll()" class="text-slate-500 hover:text-slate-300 transition">Bỏ chọn hết</button>
+          </div>
+          <span id="selectedCountText" class="text-indigo-300 font-medium">Đang chọn: Tất cả</span>
+        </div>
+      </div>
+      <!-- Deck Tree Container (Rollup: Chỉ hiện Root & Chuyên khoa, không liệt kê từng deck con) -->
+      <div id="deckTreeContainer" class="p-4 overflow-y-auto space-y-2 flex-1 max-h-[50vh] text-xs">
+        <!-- JS Rendered -->
+      </div>
+      <!-- Footer Actions -->
+      <div class="px-5 py-3 border-t border-slate-800 bg-slate-900/40 flex items-center justify-between">
+        <span class="text-[11px] text-slate-500">Tự động gom toàn bộ deck con khi chọn cấp cha</span>
+        <button onclick="TargetManager.applyAndClose()" class="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-medium shadow-lg shadow-indigo-600/30 transition">
+          Áp dụng & Bắt đầu học
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* ========================================================================
+       1. ADAPTIVE SOUNDSCAPE & SOUND SYNTHESIZER (Web Audio API)
+       ======================================================================== */
+    const ZenAudio = {
+      ctx: null,
+      enabled: true,
+      rainGain: null,
+      lastActivity: Date.now(),
+      bowlPlayed: false,
+
+      init() {
+        if (!this.ctx) {
+          try {
+            const AudioContext = window.AudioContext || window.webkitAudioContext;
+            this.ctx = new AudioContext();
+            this.setupRain();
+          } catch(e) {}
+        }
+        if (this.ctx && this.ctx.state === 'suspended') {
+          this.ctx.resume();
+        }
+      },
+
+      // White noise buffer + low-pass filter = gentle rain / stream
+      setupRain() {
+        try {
+          const bufferSize = this.ctx.sampleRate * 2;
+          const noiseBuffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
+          const output = noiseBuffer.getChannelData(0);
+          for (let i = 0; i < bufferSize; i++) output[i] = Math.random() * 2 - 1;
+
+          const whiteNoise = this.ctx.createBufferSource();
+          whiteNoise.buffer = noiseBuffer;
+          whiteNoise.loop = true;
+
+          const filter = this.ctx.createBiquadFilter();
+          filter.type = 'lowpass';
+          filter.frequency.value = 600;
+
+          this.rainGain = this.ctx.createGain();
+          this.rainGain.gain.setValueAtTime(this.enabled ? 0.025 : 0, this.ctx.currentTime);
+
+          whiteNoise.connect(filter);
+          filter.connect(this.rainGain);
+          this.rainGain.connect(this.ctx.destination);
+          whiteNoise.start();
+        } catch(e) {}
+      },
+
+      playChime(ease = 3) {
+        this.recordActivity();
+        if (!this.enabled) return;
+        this.init();
+        if (!this.ctx) return;
+        try {
+          const baseFreqs = [261.63, 329.63, 392.00, 523.25];
+          const freq = baseFreqs[Math.min(ease - 1, 3)] || 392.00;
+
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
+
+          gain.gain.setValueAtTime(0.06, this.ctx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 2.2);
+
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start();
+          osc.stop(this.ctx.currentTime + 2.3);
+
+          const overtone = this.ctx.createOscillator();
+          const overGain = this.ctx.createGain();
+          overtone.type = 'sine';
+          overtone.frequency.setValueAtTime(freq * 2.02, this.ctx.currentTime);
+          overGain.gain.setValueAtTime(0.015, this.ctx.currentTime);
+          overGain.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 1.6);
+          overtone.connect(overGain);
+          overGain.connect(this.ctx.destination);
+          overtone.start();
+          overtone.stop(this.ctx.currentTime + 1.7);
+        } catch(e) {}
+      },
+
+      recordActivity() {
+        this.lastActivity = Date.now();
+      }
+    };
+
+    function toggleSound() {
+      ZenAudio.enabled = !ZenAudio.enabled;
+      if (!ZenAudio.ctx && ZenAudio.enabled) ZenAudio.init();
+      if (ZenAudio.rainGain && ZenAudio.ctx) {
+        ZenAudio.rainGain.gain.setValueAtTime(ZenAudio.enabled ? 0.025 : 0, ZenAudio.ctx.currentTime);
+      }
+      document.getElementById('soundBtn').textContent = ZenAudio.enabled ? '🔔' : '🔕';
+    }
+
+    function toggleFullscreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().catch(() => {});
+      } else {
+        document.exitFullscreen().catch(() => {});
+      }
+    }
+
+    // Auto-init Web Audio on first user interaction
+    window.addEventListener('click', () => ZenAudio.init(), { once: true });
+    window.addEventListener('keydown', () => ZenAudio.init(), { once: true });
+
+    /* ========================================================================
+       2. GLOBAL ZEN STATE
+       ======================================================================== */
+    let orbColor = 'rgba(99, 102, 241, ';
+    let orbRadius = 70;
+    let orbBaseRadius = 70;
+    let orbPulseAngle = 0;
+    let blobWobble = 0;
+    let cardsReviewed = 0;
+    const ripples = [];
+    const orbitingStars = [];
+    const meteors = [];
+    let lastMeteorTime = 0;
+
+    function spawnMeteor() {
+      const startX = Math.random() * (w * 1.2) - (w * 0.1);
+      const startY = Math.random() * (h * 0.3) - 60;
+      const angle = Math.PI / 4 + (Math.random() - 0.5) * 0.3;
+      const speed = Math.random() * 8 + 14;
+      meteors.push({
+        x: startX,
+        y: startY,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed,
+        len: Math.random() * 120 + 160, // Dài và to (160 - 280px)
+        width: Math.random() * 1.8 + 2.6, // Nét dày (2.6 - 4.4px)
+        alpha: 1,
+        decay: Math.random() * 0.009 + 0.012
+      });
+    }
+
+    const MILESTONE_TIERS = [
+      { tier: 1, max: 100, name: 'Lam Băng', color: 'rgba(56, 189, 248, ', baseSize: 2.0, hasDoubleHalo: false, hasRays: false },
+      { tier: 2, max: 200, name: 'Ngọc Bích', color: 'rgba(52, 211, 153, ', baseSize: 2.5, hasDoubleHalo: true, hasRays: false },
+      { tier: 3, max: 300, name: 'Hoàng Kim', color: 'rgba(251, 191, 36, ', baseSize: 2.9, hasDoubleHalo: true, hasRays: true, rayLen: 6 },
+      { tier: 4, max: 400, name: 'Tử Tinh', color: 'rgba(192, 132, 252, ', baseSize: 3.3, hasDoubleHalo: true, hasRays: true, rayLen: 9 },
+      { tier: 5, max: 500, name: 'Hồng Ngọc', color: 'rgba(251, 113, 133, ', baseSize: 3.7, hasDoubleHalo: true, hasRays: true, rayLen: 12 },
+      { tier: 6, max: Infinity, name: 'Bạch Kim', color: 'rgba(248, 250, 252, ', baseSize: 4.2, hasDoubleHalo: true, hasRays: true, rayLen: 16, diamondCross: true }
+    ];
+
+    function getStarTierInfo(index) {
+      for (const tier of MILESTONE_TIERS) {
+        if (index <= tier.max) return tier;
+      }
+      return MILESTONE_TIERS[MILESTONE_TIERS.length - 1];
+    }
+
+    function getStarColorByCardIndex(index) {
+      return getStarTierInfo(index).color;
+    }
+
+    function addStar(cardIndex = orbitingStars.length + 1, fromCenter = false) {
+      const tInfo = getStarTierInfo(cardIndex);
+      const targetRadius = orbBaseRadius + 28 + Math.random() * 260;
+      orbitingStars.push({
+        index: cardIndex,
+        tier: tInfo.tier,
+        hasDoubleHalo: tInfo.hasDoubleHalo,
+        hasRays: tInfo.hasRays,
+        rayLen: tInfo.rayLen,
+        diamondCross: tInfo.diamondCross,
+        angle: Math.random() * Math.PI * 2,
+        targetRadius,
+        currentRadius: fromCenter ? 15 : targetRadius,
+        speed: (Math.random() * 0.005 + 0.002) * (Math.random() > 0.35 ? 1 : -1),
+        tilt: 0.52 + Math.random() * 0.28,
+        tiltAngle: -Math.PI / 6,
+        size: tInfo.baseSize + Math.random() * 0.7,
+        color: tInfo.color,
+        alpha: Math.random() * 0.25 + 0.75,
+        twinkleSpeed: Math.random() * 0.03 + 0.015
+      });
+    }
+
+    function syncStars(count) {
+      while (orbitingStars.length < count) addStar(orbitingStars.length + 1, false);
+      while (orbitingStars.length > count) orbitingStars.pop();
+      for (let i = 0; i < orbitingStars.length; i++) {
+        const tInfo = getStarTierInfo(i + 1);
+        const s = orbitingStars[i];
+        s.color = tInfo.color;
+        s.tier = tInfo.tier;
+        s.hasDoubleHalo = tInfo.hasDoubleHalo;
+        s.hasRays = tInfo.hasRays;
+        s.rayLen = tInfo.rayLen;
+        s.diamondCross = tInfo.diamondCross;
+        s.size = tInfo.baseSize + (s.size % 0.7);
+      }
+    }
+    /* ========================================================================
+       3. DAY/NIGHT & REAL-TIME WEATHER/LIGHTING CYCLE
+       ======================================================================== */
+    const Sky = {
+      modes: [
+        { name: 'Bình minh', icon: '🌅', bg: [11, 19, 43], orb: 'rgba(251, 191, 36, ', particle: 'rgba(254, 240, 138, ' },
+        { name: 'Ban ngày', icon: '☀️', bg: [15, 23, 42], orb: 'rgba(56, 189, 248, ', particle: 'rgba(224, 242, 254, ' },
+        { name: 'Hoàng hôn', icon: '🌇', bg: [26, 15, 26], orb: 'rgba(251, 146, 60, ', particle: 'rgba(254, 215, 170, ' },
+        { name: 'Đêm thanh', icon: '🌙', bg: [6, 8, 14], orb: 'rgba(99, 102, 241, ', particle: 'rgba(167, 243, 208, ' }
+      ],
+      currentIdx: 3,
+      auto: false,
+
+      // ponytail: default to Đêm thanh (dark mode); upgrade to dynamic solar tracking if requested
+      init() {
+        const saved = localStorage.getItem('anki_zen_sky_mode');
+        const idx = saved !== null ? parseInt(saved, 10) : 3;
+        this.setMode(isNaN(idx) ? 3 : idx, false);
+      },
+
+      setMode(idx, manual = true) {
+        this.currentIdx = (idx + this.modes.length) % this.modes.length;
+        if (manual) {
+          try { localStorage.setItem('anki_zen_sky_mode', this.currentIdx); } catch(e) {}
+        }
+        const m = this.modes[this.currentIdx];
+        const badge = document.getElementById('skyBadge');
+        if (badge) badge.innerHTML = `${m.icon} <span>${m.name}</span>`;
+        orbColor = m.orb;
+      },
+
+      cycle() {
+        this.setMode(this.currentIdx + 1, true);
+      },
+
+      current() {
+        return this.modes[this.currentIdx];
+      }
+    };
+    Sky.init();
+
+    /* ========================================================================
+       3. TRANQUIL VISUAL ENGINE: GLOWING ORB & FLOATING PARTICLES
+       ======================================================================== */
+    const canvas = document.getElementById('zenCanvas');
+    const ctx = canvas.getContext('2d');
+
+    let w = 0;
+    let h = 0;
+
+    function resize() {
+      w = canvas.width = window.innerWidth;
+      h = canvas.height = window.innerHeight;
+    }
+    window.addEventListener('resize', resize);
+    resize();
+
+    // Hạt đom đóm li ti rất mờ trong nền sâu (không lẫn với sao)
+    const numMotes = 40;
+    const dustMotes = [];
+    for (let i = 0; i < numMotes; i++) {
+      dustMotes.push({
+        x: Math.random() * window.innerWidth,
+        y: Math.random() * window.innerHeight,
+        vx: (Math.random() - 0.5) * 0.15,
+        vy: (Math.random() - 0.5) * 0.15,
+        radius: Math.random() * 0.7 + 0.4,
+        alpha: Math.random() * 0.22 + 0.08,
+        pulse: Math.random() * 0.02 + 0.01
+      });
+    }
+    function render(time) {
+
+      // Clear canvas cleanly every frame to prevent blur/bloom accumulation
+      ctx.clearRect(0, 0, w, h);
+      const [r, g, b] = Sky.current().bg;
+      ctx.fillStyle = `rgb(${r}, ${g}, ${b})`;
+      ctx.fillRect(0, 0, w, h);
+
+      // Đom đóm li ti trôi chậm ở hậu cảnh sâu
+      for (const d of dustMotes) {
+        d.x += d.vx; d.y += d.vy;
+        if (d.x < 0) d.x = w; if (d.x > w) d.x = 0;
+        if (d.y < 0) d.y = h; if (d.y > h) d.y = 0;
+        const da = Math.max(0.06, Math.min(0.35, d.alpha + Math.sin(time * d.pulse) * 0.08));
+        ctx.beginPath();
+        ctx.arc(d.x, d.y, d.radius, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(203, 213, 225, ${da})`;
+        ctx.fill();
+      }
+      const cx = w / 2;
+      const cy = h / 2 - 20;
+      orbColor = getStarColorByCardIndex(cardsReviewed || 1);
+      // 1. Draw Central Fluid Morphing Jelly Core (Dạng dẻo, uốn lượn co giãn)
+      orbPulseAngle += 0.015;
+      blobWobble += (0 - blobWobble) * 0.05;
+      const currentRadius = orbRadius + Math.sin(orbPulseAngle) * 6;
+      const t = time * 0.0025;
+      const numBlobPoints = 72;
+
+      function getBlobR(angle, scale = 1) {
+        const wave = Math.sin(3 * angle + t * 1.8) * (8 + blobWobble * 0.6)
+                   + Math.cos(4 * angle - t * 1.3) * (5 + blobWobble * 0.4)
+                   + Math.sin(2 * angle + t * 0.9) * (4 + blobWobble * 0.3);
+        return (currentRadius + wave) * scale;
+      }
+
+      function traceBlob(scale = 1) {
+        ctx.beginPath();
+        for (let i = 0; i <= numBlobPoints; i++) {
+          const angle = (i / numBlobPoints) * Math.PI * 2;
+          const r = getBlobR(angle, scale);
+          const x = cx + Math.cos(angle) * r;
+          const y = cy + Math.sin(angle) * r;
+          if (i === 0) ctx.moveTo(x, y);
+          else ctx.lineTo(x, y);
+        }
+        ctx.closePath();
+      }
+
+      // Outer Bloom (Hào quang dẻo biến dạng theo lõi)
+      const grad = ctx.createRadialGradient(cx, cy, currentRadius * 0.3, cx, cy, currentRadius * 2.4);
+      grad.addColorStop(0, orbColor + '0.38)');
+      grad.addColorStop(0.55, orbColor + '0.08)');
+      grad.addColorStop(1, 'transparent');
+      ctx.fillStyle = grad;
+      traceBlob(2.1);
+      ctx.fill();
+
+      // Inner Jelly Core (Lõi dẻo bóng)
+      const coreGrad = ctx.createRadialGradient(cx, cy - 8, 0, cx, cy, currentRadius * 1.15);
+      coreGrad.addColorStop(0, orbColor + '0.98)');
+      coreGrad.addColorStop(0.7, orbColor + '0.8)');
+      coreGrad.addColorStop(1, orbColor + '0.5)');
+      ctx.fillStyle = coreGrad;
+      traceBlob(1.0);
+      ctx.fill();
+
+      // Viền màng dẻo phát sáng (Jelly membrane)
+      ctx.strokeStyle = orbColor + '0.7)';
+      ctx.lineWidth = 2.2;
+      traceBlob(1.0);
+      ctx.stroke();
+
+      // Vòng gợn sóng thở bên trong lõi
+      ctx.strokeStyle = 'rgba(255, 255, 255, 0.25)';
+      ctx.lineWidth = 1.2;
+      traceBlob(0.82);
+      ctx.stroke();
+
+      // Decay orb size back to base
+      orbRadius += (orbBaseRadius - orbRadius) * 0.04;
+      // 2. Draw & Update Expanding Ripples
+      for (let i = ripples.length - 1; i >= 0; i--) {
+        const rip = ripples[i];
+        rip.radius += rip.speed;
+        rip.alpha -= 0.008;
+
+        ctx.beginPath();
+        ctx.arc(cx, cy, rip.radius, 0, Math.PI * 2);
+        ctx.strokeStyle = rip.color + rip.alpha + ')';
+        ctx.lineWidth = rip.width;
+        ctx.stroke();
+
+        if (rip.alpha <= 0) {
+          ripples.splice(i, 1);
+        }
+      }
+
+      // 4. Draw & Update Orbiting Stars (Mỗi thẻ xong là 1 ngôi sao)
+      for (const s of orbitingStars) {
+        s.angle += s.speed;
+        s.currentRadius += (s.targetRadius - s.currentRadius) * 0.04;
+
+        const cosA = Math.cos(s.angle);
+        const sinA = Math.sin(s.angle);
+        const rx = s.currentRadius * cosA;
+        const ry = s.currentRadius * sinA * s.tilt;
+        const sx = cx + rx * Math.cos(s.tiltAngle) - ry * Math.sin(s.tiltAngle);
+        const sy = cy + rx * Math.sin(s.tiltAngle) + ry * Math.cos(s.tiltAngle);
+
+        const a = Math.max(0.35, Math.min(1, s.alpha + Math.sin(time * s.twinkleSpeed) * 0.25));
+
+        // 1. Level 2+: Quầng sáng rộng tỏa ra ngoài (Double Outer Halo)
+        if (s.hasDoubleHalo) {
+          ctx.beginPath();
+          ctx.arc(sx, sy, s.size * 3.8, 0, Math.PI * 2);
+          ctx.fillStyle = s.color + (a * 0.12) + ')';
+          ctx.fill();
+        }
+
+        // 2. Quầng sáng chính
+        ctx.beginPath();
+        ctx.arc(sx, sy, s.size * 2.4, 0, Math.PI * 2);
+        ctx.fillStyle = s.color + (a * 0.35) + ')';
+        ctx.fill();
+
+        // 3. Level 3+: Tia sao chữ thập phát quang lấp lánh (Diffraction Spikes)
+        if (s.hasRays && s.rayLen) {
+          const rLen = s.rayLen * (0.85 + Math.sin(time * s.twinkleSpeed * 1.6) * 0.3);
+          ctx.strokeStyle = s.color + (a * 0.85) + ')';
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(sx - rLen, sy);
+          ctx.lineTo(sx + rLen, sy);
+          ctx.moveTo(sx, sy - rLen);
+          ctx.lineTo(sx, sy + rLen);
+          if (s.diamondCross) {
+            const diag = rLen * 0.65;
+            ctx.moveTo(sx - diag, sy - diag);
+            ctx.lineTo(sx + diag, sy + diag);
+            ctx.moveTo(sx + diag, sy - diag);
+            ctx.lineTo(sx - diag, sy + diag);
+          }
+          ctx.stroke();
+        }
+
+        // 4. Thân ngôi sao đậm màu
+        ctx.beginPath();
+        ctx.arc(sx, sy, s.size, 0, Math.PI * 2);
+        ctx.fillStyle = s.color + a + ')';
+        ctx.fill();
+
+        // 5. Nhân sao phát sáng trắng
+        ctx.beginPath();
+        ctx.arc(sx, sy, s.size * (s.tier >= 3 ? 0.55 : 0.45), 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(255, 255, 255, ' + (a * 0.95) + ')';
+        ctx.fill();
+      }
+      // 5. Draw & Update Shooting Stars (Sao băng to, vệt đuôi dài & sáng)
+      if (time - lastMeteorTime > (Math.random() * 2000 + 2500)) {
+        spawnMeteor();
+        lastMeteorTime = time;
+      }
+
+      for (let i = meteors.length - 1; i >= 0; i--) {
+        const m = meteors[i];
+        m.x += m.vx;
+        m.y += m.vy;
+        m.alpha -= m.decay;
+
+        if (m.alpha <= 0 || m.x > w + 250 || m.y > h + 250) {
+          meteors.splice(i, 1);
+          continue;
+        }
+
+        const speedMag = Math.hypot(m.vx, m.vy);
+        const tailX = m.x - (m.vx / speedMag) * m.len;
+        const tailY = m.y - (m.vy / speedMag) * m.len;
+
+        const grad = ctx.createLinearGradient(tailX, tailY, m.x, m.y);
+        grad.addColorStop(0, 'rgba(255, 255, 255, 0)');
+        grad.addColorStop(0.6, 'rgba(224, 242, 254, ' + (m.alpha * 0.45) + ')');
+        grad.addColorStop(1, 'rgba(255, 255, 255, ' + m.alpha + ')');
+
+        ctx.beginPath();
+        ctx.moveTo(tailX, tailY);
+        ctx.lineTo(m.x, m.y);
+        ctx.strokeStyle = grad;
+        ctx.lineWidth = m.width;
+        ctx.lineCap = 'round';
+        ctx.stroke();
+
+        // Đầu sao băng sáng rõ
+        ctx.beginPath();
+        ctx.arc(m.x, m.y, m.width * 1.3, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(255, 255, 255, ' + m.alpha + ')';
+        ctx.fill();
+
+        // Hào quang đầu sao băng
+        ctx.beginPath();
+        ctx.arc(m.x, m.y, m.width * 3.2, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(199, 210, 254, ' + (m.alpha * 0.3) + ')';
+        ctx.fill();
+      }
+
+      requestAnimationFrame(render);
+    }
+    requestAnimationFrame(render);
+    /* ========================================================================
+       3. REACTION ON ANKI REVIEW
+       ======================================================================== */
+    function onReview(ease = 3) {
+      cardsReviewed++;
+      document.getElementById('counterText').textContent = cardsReviewed;
+      addStar(cardsReviewed, true);
+      spawnMeteor();
+      if (cardsReviewed % 100 === 0) spawnMeteor();
+      blobWobble = 16;
+      ZenAudio.playChime(ease);
+
+      orbRadius = orbBaseRadius + 28;
+      document.getElementById('lastActionText').textContent = 'Nhẹ nhàng ghi nhớ';
+
+      const tierColor = getStarColorByCardIndex(cardsReviewed);
+      ripples.push({
+        radius: orbBaseRadius + 10,
+        speed: 2.2,
+        alpha: 0.6,
+        color: tierColor,
+        width: 1.5
+      });
+
+      // Cập nhật tiến độ tức thì trên giao diện (Kiểu 3: 3 màu Anki)
+      if (TargetManager.currentStats) {
+        const s = TargetManager.currentStats;
+        s.todayCount++;
+        if (ease === 1) {
+          s.learnCount++;
+        } else {
+          if (s.learnCount > 0) s.learnCount--;
+          else if (s.reviewDueCount > 0) s.reviewDueCount--;
+        }
+        TargetManager.renderProgressUI(s.todayCount, s.reviewDueCount, s.learnCount, s.newCount, s.totalCards, s.isAutoTarget, s.autoDeckName);
+      }
+    }
+
+    /* ========================================================================
+       4. TARGET DECK MANAGER (Search & Grouped Tree Rollup)
+       ======================================================================== */
+    const TargetManager = {
+      allDeckNames: [],
+      deckTree: {},
+      selectedTargets: [], // Chứa prefix deck, VD: ["1. Y Khoa - Nội Khoa & Cấp Cứu"]
+      searchTerm: '',
+      currentStats: null,
+
+      init() {
+        try {
+          const saved = localStorage.getItem('anki_zen_targets');
+          if (saved) {
+            this.selectedTargets = JSON.parse(saved);
+          }
+        } catch(e) {
+          this.selectedTargets = [];
+        }
+        this.updateBadge();
+      },
+
+      updateBadge() {
+        const badge = document.getElementById('targetBadgeText');
+        if (!badge) return;
+        if (!this.selectedTargets || this.selectedTargets.length === 0) {
+          badge.textContent = 'Mục tiêu: Tất cả';
+        } else if (this.selectedTargets.length === 1) {
+          const name = this.selectedTargets[0].split('::').pop();
+          badge.textContent = `🎯 ${name.length > 18 ? name.slice(0, 16) + '...' : name}`;
+        } else {
+          badge.textContent = `🎯 ${this.selectedTargets.length} mục tiêu`;
+        }
+      },
+
+      setDecks(names) {
+        this.allDeckNames = names;
+        this.deckTree = this.buildTree(names);
+        this.render();
+      },
+
+      // Gom nhóm cây: Chỉ hiển thị Cấp 1 (Root) và Cấp 2 (Chuyên khoa), tuyệt đối không bung 2800+ deck con
+      buildTree(names) {
+        const roots = {};
+        for (const fullName of names) {
+          const parts = fullName.split('::');
+          const root = parts[0];
+          if (!roots[root]) {
+            roots[root] = { name: root, count: 0, subDecks: {} };
+          }
+          roots[root].count++;
+          if (parts.length > 1) {
+            const depth2 = parts[0] + '::' + parts[1];
+            if (!roots[root].subDecks[depth2]) {
+              roots[root].subDecks[depth2] = { name: depth2, label: parts[1], count: 0 };
+            }
+            roots[root].subDecks[depth2].count++;
+          }
+        }
+        return roots;
+      },
+
+      toggleModal(show) {
+        const modal = document.getElementById('targetModal');
+        const card = document.getElementById('targetModalCard');
+        if (!modal || !card) return;
+        const isVisible = modal.classList.contains('opacity-100');
+        const targetShow = show !== undefined ? show : !isVisible;
+
+        if (targetShow) {
+          modal.classList.remove('opacity-0', 'pointer-events-none');
+          modal.classList.add('opacity-100', 'pointer-events-auto');
+          card.classList.remove('scale-95');
+          card.classList.add('scale-100');
+          this.render();
+          const searchInput = document.getElementById('deckSearchInput');
+          if (searchInput) setTimeout(() => searchInput.focus(), 100);
+        } else {
+          modal.classList.remove('opacity-100', 'pointer-events-auto');
+          modal.classList.add('opacity-0', 'pointer-events-none');
+          card.classList.remove('scale-100');
+          card.classList.add('scale-95');
+        }
+      },
+
+      onSearch(term) {
+        this.searchTerm = (term || '').trim().toLowerCase();
+        this.render();
+      },
+
+      toggleTarget(name) {
+        const idx = this.selectedTargets.indexOf(name);
+        if (idx >= 0) {
+          this.selectedTargets.splice(idx, 1);
+        } else {
+          // Khi chọn cấp cha, bỏ chọn các cấp con của nó để tránh trùng lặp query
+          this.selectedTargets = this.selectedTargets.filter(t => !t.startsWith(name + '::'));
+          // Khi chọn cấp con, kiểm tra nếu cấp cha đang chọn thì bỏ cấp cha
+          const parentName = name.split('::')[0];
+          this.selectedTargets = this.selectedTargets.filter(t => t !== parentName);
+          this.selectedTargets.push(name);
+        }
+        this.save();
+        this.render();
+        this.updateBadge();
+        Anki.refreshProgress();
+      },
+
+      selectAll() {
+        this.selectedTargets = [];
+        this.save();
+        this.render();
+        this.updateBadge();
+        Anki.refreshProgress();
+      },
+
+      clearAll() {
+        this.selectedTargets = [];
+        this.save();
+        this.render();
+        this.updateBadge();
+        Anki.refreshProgress();
+      },
+
+      save() {
+        try {
+          localStorage.setItem('anki_zen_targets', JSON.stringify(this.selectedTargets));
+        } catch(e) {}
+      },
+
+      applyAndClose() {
+        this.save();
+        this.updateBadge();
+        this.toggleModal(false);
+        Anki.refreshProgress();
+      },
+
+      renderProgressUI(todayCount, reviewDueCount, learnCount, newCount, totalCards, isAutoTarget = false, autoDeckName = null) {
+        const bRev = document.getElementById('badgeReviewCount');
+        const bLearn = document.getElementById('badgeLearnCount');
+        const bNew = document.getElementById('badgeNewCount');
+        const bTotal = document.getElementById('badgeTotalCount');
+        if (bRev) bRev.textContent = reviewDueCount || 0;
+        if (bLearn) bLearn.textContent = learnCount || 0;
+        if (bNew) bNew.textContent = newCount || 0;
+        if (bTotal) bTotal.textContent = totalCards || 0;
+
+        // Cả 3 loại màu còn lại cần học: Cần ôn (Green) + Đang học (Red) + Thẻ mới (Blue)
+        const remaining3Colors = (reviewDueCount || 0) + (learnCount || 0) + (newCount || 0);
+        // Tổng thẻ mục tiêu tích chọn (bao gồm cả 3 loại màu)
+        const total = totalCards > 0 ? totalCards : (todayCount + remaining3Colors);
+        const percent = total > 0 ? Math.min(100, Math.round((todayCount / total) * 100)) : (todayCount > 0 ? 100 : 0);
+
+        const progressBar = document.getElementById('progressBar');
+        const progressText = document.getElementById('progressText');
+        const dueRemainingText = document.getElementById('dueRemainingText');
+        const counterLabel = document.getElementById('counterLabel');
+        const badge = document.getElementById('targetBadgeText');
+
+        if (progressBar) progressBar.style.width = percent + '%';
+        if (progressText) progressText.textContent = `${todayCount} / ${total} thẻ thật (${percent}%)`;
+        if (dueRemainingText) dueRemainingText.textContent = remaining3Colors > 0 
+          ? `Còn ${remaining3Colors} thẻ (${newCount} mới • ${learnCount} học • ${reviewDueCount} ôn)` 
+          : `Sạch thẻ mục tiêu! 🌟 • Tổng ${total} thẻ`;
+
+        if (counterLabel) {
+          if (isAutoTarget && autoDeckName) {
+            const shortName = autoDeckName.split('::').pop();
+            counterLabel.textContent = `Thẻ thật đã học: ${shortName}`;
+          } else if (!this.selectedTargets || this.selectedTargets.length === 0) {
+            counterLabel.textContent = 'Thẻ thật đã học hôm nay (Toàn bộ)';
+          } else if (this.selectedTargets.length === 1) {
+            const shortName = this.selectedTargets[0].split('::').pop();
+            counterLabel.textContent = `Thẻ thật đã học: ${shortName}`;
+          } else {
+            counterLabel.textContent = `Thẻ thật đã học (${this.selectedTargets.length} deck)`;
+          }
+        }
+        if (badge && (!this.selectedTargets || this.selectedTargets.length === 0)) {
+          if (isAutoTarget && autoDeckName) {
+            const name = autoDeckName.split('::').pop();
+            badge.textContent = `🎯 ${name.length > 18 ? name.slice(0, 16) + '...' : name}`;
+          } else {
+            badge.textContent = 'Mục tiêu: Tất cả';
+          }
+        }
+      },
+
+      render() {
+        const container = document.getElementById('deckTreeContainer');
+        const selectedCount = document.getElementById('selectedCountText');
+        if (!container) return;
+
+        if (selectedCount) {
+          if (!this.selectedTargets || this.selectedTargets.length === 0) {
+            selectedCount.textContent = 'Đang chọn: Tất cả các deck';
+          } else {
+            selectedCount.textContent = `Đang chọn: ${this.selectedTargets.length} mục tiêu`;
+          }
+        }
+
+        const term = this.searchTerm;
+        const rootKeys = Object.keys(this.deckTree);
+        if (rootKeys.length === 0) {
+          container.innerHTML = '<div class="text-center py-8 text-slate-500">Đang tải danh sách deck từ Anki...</div>';
+          return;
+        }
+
+        let html = '';
+        for (const rKey of rootKeys) {
+          const root = this.deckTree[rKey];
+          const subKeys = Object.keys(root.subDecks);
+
+          const matchRoot = !term || root.name.toLowerCase().includes(term);
+          const matchingSubs = subKeys.filter(sk => !term || sk.toLowerCase().includes(term));
+
+          if (!matchRoot && matchingSubs.length === 0) continue;
+
+          const isRootSelected = this.selectedTargets.includes(root.name);
+          const hasSubSelected = subKeys.some(sk => this.selectedTargets.includes(sk));
+          const safeId = 'deck-sub-' + Math.abs(this.hashCode(root.name));
+
+          html += `
+            <div class="bg-slate-900/60 border ${isRootSelected ? 'border-indigo-600/60 bg-indigo-950/20' : 'border-slate-800/80'} rounded-xl p-3 transition hover:border-slate-700">
+              <div class="flex items-center justify-between">
+                <label class="flex items-center gap-2.5 cursor-pointer flex-1 mr-2 select-none">
+                  <input type="checkbox" ${isRootSelected ? 'checked' : ''} onchange="TargetManager.toggleTarget('${root.name.replace(/'/g, "\\'")}')" class="w-4 h-4 rounded bg-slate-800 border-slate-700 text-indigo-600 focus:ring-0 cursor-pointer" />
+                  <span class="font-medium ${isRootSelected ? 'text-indigo-300 font-semibold' : 'text-slate-200'} text-xs">${root.name}</span>
+                </label>
+                <div class="flex items-center gap-2">
+                  <span class="text-[10px] px-2 py-0.5 rounded-full bg-slate-800/80 text-slate-400 border border-slate-700/50">
+                    ${root.count} deck con
+                  </span>
+                  ${subKeys.length > 0 ? `
+                    <button onclick="document.getElementById('${safeId}').classList.toggle('hidden')" class="text-slate-400 hover:text-slate-200 px-1.5 py-0.5 rounded hover:bg-slate-800 text-xs transition" title="Bung / Gọn chuyên khoa">
+                      ▾
+                    </button>
+                  ` : ''}
+                </div>
+              </div>
+
+              ${subKeys.length > 0 ? `
+                <div id="${safeId}" class="${(term && matchingSubs.length > 0 && !matchRoot) || hasSubSelected ? '' : 'hidden'} mt-2.5 pt-2 border-t border-slate-800/50 pl-5 space-y-1.5">
+                  ${(term ? matchingSubs : subKeys).map(sk => {
+                    const sub = root.subDecks[sk];
+                    const isSubSelected = this.selectedTargets.includes(sub.name);
+                    return `
+                      <div class="flex items-center justify-between py-0.5 pr-1">
+                        <label class="flex items-center gap-2 cursor-pointer flex-1 select-none">
+                          <input type="checkbox" ${isSubSelected || isRootSelected ? 'checked' : ''} ${isRootSelected ? 'disabled' : ''} onchange="TargetManager.toggleTarget('${sub.name.replace(/'/g, "\\'")}')" class="w-3.5 h-3.5 rounded bg-slate-800 border-slate-700 text-indigo-500 cursor-pointer" />
+                          <span class="text-[11px] ${isRootSelected ? 'text-slate-500' : (isSubSelected ? 'text-indigo-300 font-medium' : 'text-slate-300')}">${sub.label}</span>
+                        </label>
+                        <span class="text-[10px] text-slate-500">${sub.count} nhánh</span>
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+              ` : ''}
+            </div>
+          `;
+        }
+
+        if (!html) {
+          html = '<div class="text-center py-8 text-slate-500">Không tìm thấy deck nào phù hợp từ khóa</div>';
+        }
+
+        container.innerHTML = html;
+      },
+
+      hashCode(str) {
+        let hash = 0;
+        for (let i = 0; i < str.length; i++) {
+          hash = ((hash << 5) - hash) + str.charCodeAt(i);
+          hash |= 0;
+        }
+        return hash;
+      }
+    };
+
+    /* ========================================================================
+       5. ANKICONNECT LISTENER & PROGRESS SYNC
+       ======================================================================== */
+    const Anki = {
+      url: 'http://127.0.0.1:8765',
+      connected: false,
+      isPolling: false,
+      lastReviewedCount: -1,
+      cachedTotalCards: 0,
+      currentDueTotal: 0,
+      currentTargetQuery: '',
+      currentTargetName: '',
+
+      async call(action, params = {}) {
+        const res = await fetch(this.url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ action, version: 6, params })
+        });
+        const data = await res.json();
+        if (data.error) throw new Error(data.error);
+        return data.result;
+      },
+
+      // Tải dữ liệu thẻ khi khởi động hoặc khi đổi mục tiêu
+      async initTargetData() {
+        if (!this.connected) return;
+        try {
+          let targets = TargetManager.selectedTargets;
+          let isAutoTarget = false;
+          let autoDeckName = null;
+
+          // 1. Tự động nhận diện deck đang học nếu người dùng chưa chọn thủ công
+          if (!targets || targets.length === 0) {
+            try {
+              const currentCard = await this.call('guiCurrentCard');
+              if (currentCard && currentCard.deckName) {
+                autoDeckName = currentCard.deckName;
+              }
+            } catch(e) {}
+
+            // Nếu Anki chưa mở review thẻ, lấy deck của thẻ vừa ôn gần nhất hôm nay
+            if (!autoDeckName) {
+              try {
+                const ratedCards = await this.call('findCards', { query: 'rated:1' });
+                if (ratedCards && ratedCards.length > 0) {
+                  const lastCardId = ratedCards[ratedCards.length - 1];
+                  const cInfo = await this.call('cardsInfo', { cards: [lastCardId] });
+                  if (cInfo && cInfo.length > 0 && cInfo[0].deckName) {
+                    autoDeckName = cInfo[0].deckName;
+                  }
+                }
+              } catch(e) {}
+            }
+
+            if (autoDeckName) {
+              targets = [autoDeckName];
+              isAutoTarget = true;
+            }
+          }
+
+          const targetQuery = (!targets || targets.length === 0)
+            ? ''
+            : (targets.length === 1 ? `deck:"${targets[0]}*"` : `(${targets.map(t => `deck:"${t}*"`).join(' or ')})`);
+
+          this.currentTargetQuery = targetQuery;
+          this.currentTargetName = autoDeckName;
+
+          // 2. Lấy dữ liệu 3 nhóm thẻ (New, Learn, Due) & Tổng thẻ của mục tiêu
+          const [newCards, learnCards, dueCards, allCards, todayCards] = await Promise.all([
+            this.call('findCards', { query: targetQuery ? `${targetQuery} is:new` : 'is:new' }),
+            this.call('findCards', { query: targetQuery ? `${targetQuery} is:learn` : 'is:learn' }),
+            this.call('findCards', { query: targetQuery ? `${targetQuery} is:review is:due` : 'is:review is:due' }),
+            this.call('findCards', { query: targetQuery ? targetQuery : '' }),
+            this.call('findCards', { query: targetQuery ? `${targetQuery} rated:1` : 'rated:1' })
+          ]);
+
+          // Đếm SỐ LƯỢNG THẺ THẬT đã học hôm nay (unique cards từ rated:1)
+          const todayCount = todayCards ? todayCards.length : 0;
+
+          const newCount = newCards ? newCards.length : 0;
+          const learnCount = learnCards ? learnCards.length : 0;
+          const reviewDueCount = dueCards ? dueCards.length : 0;
+          const totalCards = allCards ? allCards.length : 0;
+
+          TargetManager.currentStats = {
+            todayCount,
+            reviewDueCount,
+            learnCount,
+            newCount,
+            totalCards,
+            isAutoTarget,
+            autoDeckName
+          };
+
+          this.renderFastUI();
+          cardsReviewed = todayCount;
+          document.getElementById('counterText').textContent = cardsReviewed;
+          syncStars(todayCount);
+
+          const globalToday = await this.call('getNumCardsReviewedToday') || todayCount;
+          this.lastReviewedCount = globalToday;
+        } catch(err) {
+          console.warn('initTargetData error:', err);
+        }
+      },
+
+      renderFastUI() {
+        if (!TargetManager.currentStats) return;
+        const s = TargetManager.currentStats;
+        TargetManager.renderProgressUI(
+          s.todayCount,
+          s.reviewDueCount,
+          s.learnCount,
+          s.newCount,
+          s.totalCards,
+          s.isAutoTarget,
+          s.autoDeckName
+        );
+      },
+
+      // Heartbeat siêu nhẹ (chỉ ~30ms, KHÔNG lock database, KHÔNG làm lag Anki)
+      async heartbeat() {
+        if (this.isPolling) return;
+        this.isPolling = true;
+        try {
+          if (!this.connected) {
+            await this.call('version');
+            this.connected = true;
+            document.getElementById('ankiStatusDot').className = 'w-1.5 h-1.5 rounded-full bg-emerald-400';
+            document.getElementById('ankiStatusText').textContent = 'AnkiConnect sẵn sàng';
+
+            if (TargetManager.allDeckNames.length === 0) {
+              const names = await this.call('deckNames');
+              TargetManager.setDecks(names);
+            }
+            await this.initTargetData();
+            return;
+          }
+
+          // Tự động chuyển deck nếu phát hiện người dùng chuyển sang học bài khác trong Anki
+          if (!TargetManager.selectedTargets || TargetManager.selectedTargets.length === 0) {
+            try {
+              const cur = await this.call('guiCurrentCard');
+              if (cur && cur.deckName && cur.deckName !== this.currentTargetName) {
+                await this.initTargetData();
+                return;
+              }
+            } catch(e) {}
+          }
+
+          // Lấy nhanh số lượt review hôm nay (chỉ 30ms, không quét bảng thẻ)
+          const globalToday = await this.call('getNumCardsReviewedToday');
+          if (globalToday === this.lastReviewedCount) {
+            return; // Chưa bấm thẻ mới -> Thoát ngay, Anki 100% mượt!
+          }
+
+          // Phát hiện vừa bấm review thẻ trong Anki!
+          if (this.lastReviewedCount >= 0 && globalToday > this.lastReviewedCount) {
+            for (let i = 0; i < 3; i++) spawnMeteor();
+            blobWobble = 16;
+            ZenAudio.playChime(3);
+
+            // Cập nhật lại số thẻ thật và 3 màu chính xác của mục tiêu (chỉ mất ~100ms)
+            const targetQuery = this.currentTargetQuery;
+            const [newCards, learnCards, dueCards, todayCards] = await Promise.all([
+              this.call('findCards', { query: targetQuery ? `${targetQuery} is:new` : 'is:new' }),
+              this.call('findCards', { query: targetQuery ? `${targetQuery} is:learn` : 'is:learn' }),
+              this.call('findCards', { query: targetQuery ? `${targetQuery} is:review is:due` : 'is:review is:due' }),
+              this.call('findCards', { query: targetQuery ? `${targetQuery} rated:1` : 'rated:1' })
+            ]);
+
+            const todayRealCount = todayCards ? todayCards.length : 0;
+            const newCount = newCards ? newCards.length : 0;
+            const learnCount = learnCards ? learnCards.length : 0;
+            const reviewDueCount = dueCards ? dueCards.length : 0;
+
+            if (TargetManager.currentStats) {
+              TargetManager.currentStats.todayCount = todayRealCount;
+              TargetManager.currentStats.newCount = newCount;
+              TargetManager.currentStats.learnCount = learnCount;
+              TargetManager.currentStats.reviewDueCount = reviewDueCount;
+              this.renderFastUI();
+            }
+
+            cardsReviewed = todayRealCount;
+            document.getElementById('counterText').textContent = cardsReviewed;
+            syncStars(cardsReviewed);
+          }
+
+          this.lastReviewedCount = globalToday;
+        } catch(e) {
+          this.connected = false;
+          document.getElementById('ankiStatusDot').className = 'w-1.5 h-1.5 rounded-full bg-rose-500';
+          document.getElementById('ankiStatusText').textContent = 'Chưa bật Anki';
+        } finally {
+          this.isPolling = false;
+        }
+      },
+
+      // Gọi lại khi người dùng bấm Save/Apply trong Modal chọn Target
+      async refreshProgress() {
+        await this.initTargetData();
+      }
+    };
+
+    TargetManager.init();
+    if (document.readyState === 'loading') {
+      window.addEventListener('DOMContentLoaded', () => {
+        Anki.heartbeat();
+        setInterval(() => Anki.heartbeat(), 2500);
+      });
+    } else {
+      Anki.heartbeat();
+      setInterval(() => Anki.heartbeat(), 2500);
+    }
+  </script>
+</body>
+</html>
