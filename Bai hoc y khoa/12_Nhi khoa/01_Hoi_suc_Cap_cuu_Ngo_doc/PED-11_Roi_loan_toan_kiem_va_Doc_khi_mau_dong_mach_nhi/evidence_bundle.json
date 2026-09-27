@@ -1,0 +1,405 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-27T03:01:43.568512Z",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\01_Hoi_suc_Cap_cuu_Ngo_doc\\PED-11_Roi_loan_toan_kiem_va_Doc_khi_mau_dong_mach_nhi\\raw_cache",
+  "providers": [
+    "crossref_retraction_watch",
+    "europe_pmc_metadata",
+    "openalex"
+  ],
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "7a097d1289847ced58c64a5edf4394d29dfd12501dc8ada86304390a98c74950",
+      "path": "raw/europe_pmc_metadata/7a097d1289847ced58c64a5edf4394d29dfd12501dc8ada86304390a98c74950.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "ef7455e5dc570a09f6d547fbf6052a3af4f73218b46ea19985e3ff7049a41934",
+      "path": "raw/openalex/ef7455e5dc570a09f6d547fbf6052a3af4f73218b46ea19985e3ff7049a41934.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "fad66006b8b6d47f9dca78c473d33ae3113f4099d63aa39abfd31b6c3a8ad89b",
+      "path": "raw/crossref_retraction_watch/fad66006b8b6d47f9dca78c473d33ae3113f4099d63aa39abfd31b6c3a8ad89b.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "5e734a047cf634a0de510dab32321f93b5f098edc3156652230105166866c4ae",
+      "path": "raw/europe_pmc_metadata/5e734a047cf634a0de510dab32321f93b5f098edc3156652230105166866c4ae.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "ef7545eb3620b78799f8eb362e94817d30e84e2806c3ba73a66a2bcf6dc307c9",
+      "path": "raw/openalex/ef7545eb3620b78799f8eb362e94817d30e84e2806c3ba73a66a2bcf6dc307c9.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "76d0cff66b1b89cd89c30e6f276a6753c79ffec11aff09a72eaf57843a80ee22",
+      "path": "raw/crossref_retraction_watch/76d0cff66b1b89cd89c30e6f276a6753c79ffec11aff09a72eaf57843a80ee22.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "c8040fa5a632c84e80e88cf8dd76b1c60c163e1aea45348dd55929f55d2758cd",
+      "path": "raw/europe_pmc_metadata/c8040fa5a632c84e80e88cf8dd76b1c60c163e1aea45348dd55929f55d2758cd.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "3d109ee95fb3793b75a1d0139f4512c3fd4e7b3db9c071862127c3704c83e835",
+      "path": "raw/openalex/3d109ee95fb3793b75a1d0139f4512c3fd4e7b3db9c071862127c3704c83e835.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "d1c8b0bd6f040f80550f424e73ee8909c60e1b1ecf5888ee7135efc4654b93b4",
+      "path": "raw/crossref_retraction_watch/d1c8b0bd6f040f80550f424e73ee8909c60e1b1ecf5888ee7135efc4654b93b4.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "14798f24d5a1352dbf39c4dda690183d463a4e6fe937b19a8b859d9c69ffd6af",
+      "path": "raw/europe_pmc_metadata/14798f24d5a1352dbf39c4dda690183d463a4e6fe937b19a8b859d9c69ffd6af.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "2578b81f7026f2cf46be5fc0d95707157ac664622673225f5798505475c38f50",
+      "path": "raw/openalex/2578b81f7026f2cf46be5fc0d95707157ac664622673225f5798505475c38f50.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "87982868080652dff1eef717f9ac9e28ffbeba5162a2ac5209cf52c0a45e163d",
+      "path": "raw/crossref_retraction_watch/87982868080652dff1eef717f9ac9e28ffbeba5162a2ac5209cf52c0a45e163d.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "defe13a38aa33cb2e9f34aa0746185fe8e3bd0a58d6fa79607ed0a858fca100d",
+      "path": "raw/europe_pmc_metadata/defe13a38aa33cb2e9f34aa0746185fe8e3bd0a58d6fa79607ed0a858fca100d.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "47c695eb420c5d4bc4356eed1e5544095fbcdd61181a17fc956e3c82942d5e3c",
+      "path": "raw/openalex/47c695eb420c5d4bc4356eed1e5544095fbcdd61181a17fc956e3c82942d5e3c.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "0b0167790bba424ff59c94c7a9838d38cb4346192d6cc9b556e30a1a08542a4a",
+      "path": "raw/crossref_retraction_watch/0b0167790bba424ff59c94c7a9838d38cb4346192d6cc9b556e30a1a08542a4a.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "ed027b6b0ba42c8854d62c02c7071496f8dd7af2c087a059a41a240f7c1d9bbe",
+      "path": "raw/europe_pmc_metadata/ed027b6b0ba42c8854d62c02c7071496f8dd7af2c087a059a41a240f7c1d9bbe.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "b94e4c1f6295284a7b227a70c745302c5165130cf8088ae4c9be5cf8eac4785b",
+      "path": "raw/openalex/b94e4c1f6295284a7b227a70c745302c5165130cf8088ae4c9be5cf8eac4785b.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-27T03:01:43.568512Z",
+      "sha256": "85334e73990be9473e727c910969e5130ddea5f4fe24629548a2891dcfdc0bd7",
+      "path": "raw/crossref_retraction_watch/85334e73990be9473e727c910969e5130ddea5f4fe24629548a2891dcfdc0bd7.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "records": {
+    "pmid:36755633": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "36755633",
+        "doi": "10.5005/jp-journals-10071-24367"
+      },
+      "title": "Acute Diarrhea and Severe Dehydration in Children: Does Non-anion-gap Component of Severe Metabolic Acidemia Need More Attention?",
+      "abstract": "<h4>Background</h4>Despite significant loss of bicarbonate during acute diarrhea, pediatric data are scarce with acute diarrhea/severe dehydration (ADSD) and severe non-anion-gap metabolic acidemia (sNAGMA). We planned to study their clinical profile, critical care needs, and outcome.<h4>Patients</h4>Children (1 month-12 years) with ADSD and sNAGMA (pH <7.2 and/or bicarbonate <15 mEq/L, and normal/mixed anion gap) admitted in Pediatric Emergency Department from January 2016 to December 2018 were enrolled. Children with pure high-anion-gap metabolic acidemia were excluded.<h4>Methods</h4>Medical records were reviewed retrospectively. The primary outcome was time taken to resolve acidemia. Secondary outcomes were acute care area free days in 5 days (ACAFD<sub>5</sub>), and adverse outcome as composite of Pediatric Intensive Care Unit (PICU) admission and/or death.<h4>Results</h4>Out of 929 diarrhea patients admitted for intravenous therapy, 121 (13%; median age, 4 months) had ADSD and sNAGMA. Median (IQR) pH was 7.11 (7.01-7.22); 21% patients had pH <7.00. Hyperchloremia (96%) and hypernatremia (45%) were common. About 12% patients each required inotropes and ventilation, while 58% had acute kidney injury (AKI). Median (IQR) time for resolution of acidemia among survivors was 24 (12, 24) hours. Thirty-two patients had adverse outcome. Higher grades of sNAGMA were associated with shock, AKI, coma, hypernatremia, hyperkalemia, adverse outcome, and lesser ACAFD<sub>5</sub>. Shock, ventilation, renal replacement therapy (RRT), and higher grades of sNAGMA were predictors of adverse outcome, with former two being independent predictors.<h4>Conclusion</h4>Severe non-anion-gap metabolic acidemia in children with ADSD is associated with organ dysfunctions, dyselectrolytemias, and lesser ACAFD5. Resolution of acidemia took unacceptably longer time. Higher grades of sNAGMA were a predictor of adverse outcomes. Trials are suggested to assess the role of additional bicarbonate therapy.<h4>How to cite this article</h4>Takia L, Baranwal AK, Gupta PK, Angurana SK, Jayashree M. Acute Diarrhea and Severe Dehydration in Children: Does Non-anion-gap Component of Severe Metabolic Acidemia Need More Attention? Indian J Crit Care Med 2022;26(12):1300-1307.",
+      "journal": "Indian journal of critical care medicine : peer-reviewed, official publication of Indian Society of Critical Care Medicine",
+      "year": "2022",
+      "publication_types": [
+        "Journal Article",
+        "Case Reports",
+        "case-report"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-27T03:01:43.568512Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-27T03:01:43.568512Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "7a097d1289847ced58c64a5edf4394d29dfd12501dc8ada86304390a98c74950",
+        "ef7455e5dc570a09f6d547fbf6052a3af4f73218b46ea19985e3ff7049a41934",
+        "fad66006b8b6d47f9dca78c473d33ae3113f4099d63aa39abfd31b6c3a8ad89b"
+      ]
+    },
+    "pmid:40249229": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "40249229",
+        "doi": "10.1097/pcc.0000000000003746"
+      },
+      "title": "Early Sodium Bicarbonate Use in Pediatric In-Hospital Cardiac Arrest: A Single-Center, Retrospective Cohort Study, 2013-2023",
+      "abstract": "<h4>Objectives</h4>To explore the association of intra-arrest sodium bicarbonate (SB) use with outcomes in pediatric in-hospital cardiac arrest (p-IHCA) when accounting for the timing of initial SB administration. We hypothesized that administration of SB within the first 5 minutes of p-IHCA would be associated with greater odds of hospital survival and return of spontaneous circulation (ROSC).<h4>Design</h4>Retrospective cohort study.<h4>Setting</h4>Quaternary care academic children's hospital.<h4>Patients</h4>Children 18 years old or younger with pulseless IHCA of at least 5 minutes duration at our institution between January 2013 and January 2023 with complete data were included.<h4>Interventions</h4>None.<h4>Measurements and main results</h4>Of 243 index events of p-IHCA, 99 (41%) received SB in the first 5 minutes of cardiopulmonary resuscitation (CPR). Overall, 107 patients (44%) survived to hospital discharge and ROSC was achieved in 91 of 243 patients (37%). A logistic treatment-effects estimation utilizing inverse-probability weighting via a propensity score was performed to compare the effects of SB use within the first 5 minutes of CPR with those who did not receive early SB. In this analysis, we failed to detect an association between early SB, compared with not, and differing adjusted odds of survival to discharge (adjusted odds ratio [aOR], 0.87; 95% CI, 0.45-1.69; p = 0.687) and ROSC (aOR, 0.82; 95% CI, 0.43-1.56; p = 0.537).<h4>Conclusions</h4>In this retrospective cohort study of p-IHCA, we failed to detect an association between timing of SB and odds of survival to hospital discharge and ROSC. These findings warrant reevaluation of the evidence and support a less restrictive recommendation for SB use during p-IHCA in U.S. national guidelines.",
+      "journal": "Pediatric critical care medicine : a journal of the Society of Critical Care Medicine and the World Federation of Pediatric Intensive and Critical Care Societies",
+      "year": "2025",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-27T03:01:43.568512Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-27T03:01:43.568512Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "5e734a047cf634a0de510dab32321f93b5f098edc3156652230105166866c4ae",
+        "ef7545eb3620b78799f8eb362e94817d30e84e2806c3ba73a66a2bcf6dc307c9",
+        "76d0cff66b1b89cd89c30e6f276a6753c79ffec11aff09a72eaf57843a80ee22"
+      ]
+    },
+    "pmid:42666620": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "42666620",
+        "doi": "10.3389/fmed.2026.1857577"
+      },
+      "title": "Physiologic response to sodium bicarbonate administration during pediatric in-hospital cardiac arrest",
+      "abstract": "<h4>Aim</h4>To explore the physiologic response to sodium bicarbonate (SB) administration during pediatric in-hospital cardiac arrest (p-IHCA) and its association with outcomes.<h4>Methods</h4>Retrospective single-center study of patients < 18 years old who experienced IHCA with an arterial line in place and received intra-arrest SB from 2013 to 2023. To evaluate the hemodynamic response to SB in isolation, events in which vasopressors were administered the minute before, during or after the first dose of SB were excluded. The primary outcome was the change in diastolic blood pressure (DBP). Patients were classified as SB responders if DBP increased ≥5 mmHg. To assess for a potential enhancement on vasopressor efficacy, a secondary analysis was performed examining the difference-in-difference between the DBP response to epinephrine before and after SB administration.<h4>Results</h4>Thirteen patients were included in the primary analysis, with a median DBP change of 4 mmHg (95% CI: -3, 11 after SB administration (<i>p</i> = 0.31). Of these, 6 (46%) patients were classified as SB responders. There were no significant differences in outcomes between SB responders and non-responders. Ten patients were included in the secondary analysis. There was no significant change in the difference-in-difference between the DBP response to epinephrine before and after SB administration [-2 mmHg (95% CI: -9, 7); <i>p</i> = 0.56].<h4>Conclusions</h4>In this small cohort study, SB administration during p-IHCA was not associated with a significant change in DBP or an augmented DBP response to epinephrine. SB responder status was not associated with outcomes, though power to detect differences was low due to sample size.",
+      "journal": "Frontiers in medicine",
+      "year": "2026",
+      "publication_types": [
+        "brief-report",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-27T03:01:43.568512Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-27T03:01:43.568512Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "c8040fa5a632c84e80e88cf8dd76b1c60c163e1aea45348dd55929f55d2758cd",
+        "3d109ee95fb3793b75a1d0139f4512c3fd4e7b3db9c071862127c3704c83e835",
+        "d1c8b0bd6f040f80550f424e73ee8909c60e1b1ecf5888ee7135efc4654b93b4"
+      ]
+    },
+    "pmid:41120922": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "41120922",
+        "doi": "10.1186/s12887-025-06241-z"
+      },
+      "title": "Clinical value of albumin-corrected anion gap combined with lactate dehydrogenase in predicting sepsis-associated liver injury in children: a single-center retrospective cohort study",
+      "abstract": "OBJECTIVE: The purpose of this study was to examine the predictive value of albumin-corrected anion gap (ACAG) for the early detection of pediatric sepsis-associated liver injury (SAIL). METHODS: A retrospective analysis was performed on clinical data of pediatric patients with sepsis who were admitted to the Pediatric Intensive Care Unit (PICU) at Anhui Provincial Children's Hospital between January 2021 and February 2024. Patients were divided into two groups based on the presence of liver injury: 118 cases in the non-liver injury group and 30 cases in the liver injury group. Logistic regression analysis was performed to identify risk factors for SAIL in children. The predictive value of each independent risk factor for the early diagnosis of SAIL was evaluated using receiver operating characteristic (ROC) curves.  RESULTS: In a group of 148 pediatric patients diagnosed with sepsis, 30 individuals, representing 20.27%, developed SAIL. The SAIL group exhibited a significantly higher mortality rate than the non-SAIL group (P<0.05), with patients having abdominal infections as the primary infection site being more susceptible to SAIL. Significant differences were observed between the SAIL and non-SAIL groups in terms of albumin (ALB), platelet (PLT) count, ACAG, lactate dehydrogenase (LDH), aspartate aminotransferase (AST), gamma-glutamyl transferase (GGT), serum creatinine (SCr), blood urea nitrogen (BUN), creatine kinase (CK), creatine kinase isoenzyme (CK-MB), international normalized ratio (INR), fibrinogen concentration (FDP), prothrombin time (PT), thrombin time(TT), activated partial thromboplastin time (APTT), and D-dimer levels (P<0.05). No significant differences were found between the two groups regarding age, sex, birth status, white blood cell count and alkaline phosphatase (ALP), Cholinesterase(CHE) (P>0.05).Multivariate logistic regression analysis identified ACAG (OR = 1.017, 95% CI: 1.016–1.207, P = 0.021), LDH (OR = 1.037, 95% CI: 1.009–1.066, P = 0.009), intra-abdominal infection (OR = 5.450, 95% CI: 1.190–24.958, P = 0.029), and severe lactic acidosis (OR = 2.585, 95% CI: 1.129–5.922, P = 0.025) as independent risk factors for SAIL. Receiver operating characteristic (ROC) curve analysis showed that the combination of ACAG and LDH yielded an area under the curve (AUC) of 0.906 (95% CI: 0.843–0.962) for predicting SAIL. At a cutoff value of 21.88, the sensitivity was 90.00% and the specificity was 82.20%. CONCLUSION: ACAG, LDH, severe lactic acidosis, and abdominal infection were identified as independent predictors of sepsis-associated liver injury (SAIL) incidence in children, the combination of ACAG and LDH had a better predictive value than individual indicators.",
+      "journal": "BMC pediatrics",
+      "year": "2025",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-27T03:01:43.568512Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-27T03:01:43.568512Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "14798f24d5a1352dbf39c4dda690183d463a4e6fe937b19a8b859d9c69ffd6af",
+        "2578b81f7026f2cf46be5fc0d95707157ac664622673225f5798505475c38f50",
+        "87982868080652dff1eef717f9ac9e28ffbeba5162a2ac5209cf52c0a45e163d"
+      ]
+    },
+    "pmid:40983691": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "40983691",
+        "doi": "10.1038/s41390-025-04382-6"
+      },
+      "title": "Pyloric index: a novel nomogram predictor of metabolic alkalosis in congenital hypertrophic pyloric stenosis",
+      "abstract": "<h4>Background</h4>Metabolic alkalosis (MA) is a common complication of congenital hypertrophic pyloric stenosis (CHPS). This study develops and validates a nomogram to predict MA probability in CHPS infants.<h4>Methods</h4>A retrospective study was conducted on CHPS patients at the First Affiliated Hospital of Zhengzhou University. Patients were divided into CHPS and MA-CHPS groups. Lasso and logistic regression selected predictive factors, and a nomogram was developed. Discriminative ability was assessed using the C-index with bootstrap validation. Calibration curves evaluated predictive accuracy, while decision curve analysis (DCA) assessed clinical applicability.<h4>Results</h4>A total of 107 cases were included in the final analysis, with 81 in the CHPS group and 26 in the MA-CHPS group. The predictive nomogram included the following factors: weight at diagnosis, symptom duration, and pyloric index (PI). The C-index of the predictive nomogram was determined to be 0.818, with a bootstrap validation (1000 resamples) yielding a corrected C-index of 0.798, indicating good discriminative ability. Calibration curves demonstrated a high degree of consistency between predicted and actual results. DCA confirmed good clinical utility.<h4>Conclusion</h4>We developed a nomogram to predict the probability of MA in CHPS patients, enabling early identification of poor prognosis and improving outcomes.<h4>Impact statement</h4>This study presents a novel predictive model for assessing the probability of metabolic alkalosis (MA) in congenital hypertrophic pyloric stenosis (CHPS) infants. It is the first model integrating the pyloric index (PI) as a predictive factor, alongside weight at diagnosis and symptom duration. The nomogram demonstrated strong discriminative ability and clinical utility, aiding early MA identification and improving perioperative management. By providing a practical risk stratification tool, this model enhances clinical decision-making, facilitates timely interventions, and ultimately improves outcomes for CHPS infants.",
+      "journal": "Pediatric research",
+      "year": "2026",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-27T03:01:43.568512Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-27T03:01:43.568512Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "defe13a38aa33cb2e9f34aa0746185fe8e3bd0a58d6fa79607ed0a858fca100d",
+        "47c695eb420c5d4bc4356eed1e5544095fbcdd61181a17fc956e3c82942d5e3c",
+        "0b0167790bba424ff59c94c7a9838d38cb4346192d6cc9b556e30a1a08542a4a"
+      ]
+    },
+    "pmid:37511675": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "37511675",
+        "doi": "10.3390/jpm13071061"
+      },
+      "title": "Arterial Blood Gas Analysis for Survival Prediction in Pediatric Patients with Out-of-Hospital Cardiac Arrest",
+      "abstract": "Arterial blood gas analysis (ABGA) is one of the few tests performed during cardiopulmonary resuscitation (CPR). There have been some studies on the prediction of survival outcomes in adult out-of-hospital cardiac arrest (OHCA) patients during CPR using ABGA results. However, in pediatric OHCA patients, the prognosis of survival outcome based on ABGA results during CPR remains unclear. We retrospectively analyzed prospectively collected data from the Korean Cardiac Arrest Resuscitation Consortium (KoCARC) registry, a multicenter OHCA registry of Republic of Korea. We analyzed 108 pediatric (age < 19 years) OHCA patients between October 2015 and June 2022. Using multivariable logistic regression, an adjusted odds ratio (aOR) was obtained to validate the ABGA results of survival to hospital admission and survival to discharge. The variables associated with survival to hospital admission were non-comorbidities (aOR 3.03, 95% confidence interval (CI) 1.22-7.53, <i>p</i> = 0.017) and PaO<sub>2</sub> > 45.750 mmHg (aOR 2.69, 95% CI 1.13-6.42, <i>p</i> = 0.026). There was no variable that was statistically significant association with survival to discharge. PaO<sub>2</sub> > 47.750 mmHg and non-comorbidities may serve as an independent prognostic factor for survival to hospital admission in pediatric OHCA patients. However, the number of cases analyzed in our study was relatively small, and there have been few studies investigating the association between ABGA results during CPR and the survival outcome of pediatric OHCA patients. Therefore, further large-scale studies are needed.",
+      "journal": "Journal of personalized medicine",
+      "year": "2023",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-27T03:01:43.568512Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-27T03:01:43.568512Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "ed027b6b0ba42c8854d62c02c7071496f8dd7af2c087a059a41a240f7c1d9bbe",
+        "b94e4c1f6295284a7b227a70c745302c5165130cf8088ae4c9be5cf8eac4785b",
+        "85334e73990be9473e727c910969e5130ddea5f4fe24629548a2891dcfdc0bd7"
+      ]
+    }
+  },
+  "content_hash": "09bc6f6a20fa02f9e5fb27e718dd84fb757a8e9268e714c4470ce99f76bfd716"
+}
