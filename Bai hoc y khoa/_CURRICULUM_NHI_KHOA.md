@@ -18,7 +18,7 @@
 ### Block 0 — Nền tảng tư duy, Tiếp cận & Dược lý Nhi khoa (04 bài)
 | ID | Ưu tiên | Bài học | Phạm vi cốt lõi (Làm gì + Tại sao) | Phụ thuộc | Trạng thái |
 |---|:---:|---|---|---|:---:|
-| **PED-01** | P0 | Đặc điểm sinh lý & Bảng sinh hiệu bình thường theo tuổi | Mạch, HA, nhịp thở (ngưỡng thở nhanh WHO: <2th, 2-12th, 1-5t), nhiệt độ; công thức ước tính cân nặng; các mốc phát triển tâm vận chính. | — | ✅ GATES ĐẠT (MD + APKG 48 thẻ + App HTML) |
+| **PED-01** | P0 | Đặc điểm sinh lý & Bảng sinh hiệu bình thường theo tuổi | Mạch, HA, nhịp thở (ngưỡng thở nhanh WHO: <2th, 2-12th, 1-5t), nhiệt độ; công thức ước tính cân nặng; các mốc phát triển tâm vận chính. | — | ✅ GATES ĐẠT (MD + PEDYTB + APKG 48 thẻ + App HTML) |
 | **PED-02** | P0 | Tam giác đánh giá nhi khoa (PAT) & Tiếp cận ABCDE | Đánh giá nhanh trong 60 giây đầu: Vẻ ngoài (Appearance) - Hô hấp (Breathing) - Tuần hoàn da (Circulation); phân biệt suy hô hấp vs kiệt sức hô hấp, sốc bù vs mất bù. | — | ✅ GATES ĐẠT (MD + APKG 48 thẻ + App HTML) |
 | **PED-02b** | P0 | Hướng dẫn thăm khám lâm sàng & Nghiệm pháp đặc thù Nhi khoa | Triết lý "Khám không khóc", trình tự khám đảo ngược/cơ hội; khám toàn diện các hệ cơ quan; bộ nghiệm pháp và phản xạ nguyên thủy đặc thù Nhi. | PED-01, 02 | ✅ GATES ĐẠT (MD) |
 | **PED-03** | P0 | Nguyên tắc kê đơn & Tính liều thuốc an toàn ở trẻ em | Tính liều theo mg/kg; **bẫy trần liều người lớn**; dạng bào chế thực tế (siro, cốm, viên đạn); tốc độ truyền dịch và các thuốc chống chỉ định ở trẻ nhỏ. | — | ✅ GATES ĐẠT (MD + APKG 48 thẻ + App HTML) |
@@ -69,7 +69,7 @@
 | ID | Ưu tiên | Bài học | Phạm vi cốt lõi (Làm gì + Tại sao) | Phụ thuộc | Trạng thái |
 |---|:---:|---|---|---|:---:|
 | **PED-26** | P0 | Tiếp cận trẻ Nôn và Đau bụng cấp | Phân tầng nôn dịch trong/dịch vị vs nôn dịch mật (cấp cứu ngoại khoa); sơ đồ chẩn đoán đau bụng cấp theo lứa tuổi; dấu hiệu cảnh báo ngoại khoa cần hội chẩn ngay. | PED-01 | ❌ CHƯA CÓ |
-| **PED-27** | P0 | Tiêu chảy cấp: Phân loại mất nước & Phác đồ A - B - C | Đánh giá 4 dấu hiệu mất nước theo WHO; Phác đồ A (tại nhà), Phác đồ B (bù dịch ORS tại trạm/khoa), Phác đồ C (truyền tĩnh mạch cấp cứu Ringer Lactat theo tuổi). | PED-01, 03 | ✅ GATES ĐẠT (MD + APKG 88 thẻ) |
+| **PED-27** | P0 | Tiêu chảy cấp: Phân loại mất nước & Phác đồ A - B - C | Đánh giá 4 dấu hiệu mất nước theo WHO; Phác đồ A (tại nhà), Phác đồ B (bù dịch ORS tại trạm/khoa), Phác đồ C (truyền tĩnh mạch cấp cứu Ringer Lactat theo tuổi). | PED-01, 03 | ✅ GATES ĐẠT (MD + PEDYTB + APKG 88 thẻ) |
 | **PED-28** | P0 | Liệu pháp Kẽm & Dinh dưỡng trong Tiêu chảy cấp | Cơ chế phục hồi nhung mao ruột của Kẽm; liều lượng theo tuổi (<6 tháng: 10mg/ngày, ≥6 tháng: 20mg/ngày x 10-14 ngày); duy trì bú mẹ và ăn uống bình thường (không kiêng khem). | PED-27 | ❌ CHƯA CÓ |
 | **PED-29** | P0 | Lồng ruột cấp ở trẻ nhũ nhi | Tam chứng kinh điển (khóc thét từng cơn, nôn ói, đi ngoài phân nhầy máu/nước mận chín); dấu hiệu bánh lồng / hình bia trên siêu âm; chỉ định tháo lồng bằng hơi và theo dõi tái lồng. | PED-26 | ❌ CHƯA CÓ |
 | **PED-30** | P0 | Đánh giá dinh dưỡng trẻ em theo chuẩn WHO | Đọc biểu đồ tăng trưởng và Z-score (Weight-for-Age, Height-for-Age, Weight-for-Height, BMI-for-Age); phân loại thể nhẹ cân, thấp còi, gầy còm; sàng lọc béo phì. | PED-01 | ❌ CHƯA CÓ |
