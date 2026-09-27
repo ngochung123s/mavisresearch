@@ -36,7 +36,7 @@
 | **PED-09** | P0 | Cấp cứu dị vật đường thở (Sặc dị vật) | Tam chứng xâm nhập; xử trí cấp cứu tức thì: vỗ lưng ấn ngực (<1 tuổi) vs nghiệm pháp Heimlich (≥1 tuổi); những điều tuyệt đối cấm kỵ (không móc họng mù). | PED-02 | ❌ CHƯA CÓ |
 | **PED-10** | P0 | Ngộ độc Paracetamol cấp ở trẻ em | Đánh giá liều độc tính (>150 mg/kg); đường biểu đồ Rumack-Matthew; chỉ định và phác đồ N-acetylcysteine (NAC) truyền tĩnh mạch vs uống. | PED-03 | ❌ CHƯA CÓ |
 | **PED-11** | P0 | Rối loạn toan kiềm & Đọc khí máu động mạch nhi | Đọc có hệ thống pH, PaCO2, HCO3-; toan chuyển hóa và khoảng trống Anion Gap; bù trừ sinh lý nhi khoa; phân biệt ABG và VBG trong cấp cứu; nguyên tắc bù Bicarbonat an toàn. | PED-01, 50 | 📝 MD-DRAFT (kèm PEDYTB) |
-| **PED-50** | P0 | Tiếp cận & Xử trí Rối loạn điện giải ở trẻ em | Sinh lý nước - điện giải theo tuổi; hạ/tăng Natri máu cấp cứu; phân loại mất nước đẳng/ưu/nhược trương; 3 bài toán tính bù dịch lâm sàng; hạ/tăng Kali, Canxi, Magie. | PED-01, 03 | 📝 MD-DRAFT (kèm PEDYTB) |
+| **PED-50** | P0 | Tiếp cận & Xử trí Rối loạn điện giải ở trẻ em | Sinh lý nước - điện giải theo tuổi; hạ/tăng Natri máu cấp cứu; phân loại mất nước đẳng/ưu/nhược trương; 3 bài toán tính bù dịch lâm sàng; hạ/tăng Kali, Canxi, Magie. | PED-01, 03 | ✅ GATES ĐẠT (MD + PEDYTB - Chờ APKG) |
 
 ---
 

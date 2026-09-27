@@ -1,0 +1,408 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-27T02:21:07.041805Z",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\01_Hoi_suc_Cap_cuu_Ngo_doc\\PED-50_Roi_loan_nuoc_va_dien_giai_o_tre_em\\raw_cache",
+  "providers": [
+    "crossref_retraction_watch",
+    "europe_pmc_metadata",
+    "openalex"
+  ],
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "27a7a88ff95fa21e56a50201501fa60a4f722e43a12e40a00f90157e3af31d5c",
+      "path": "raw/europe_pmc_metadata/27a7a88ff95fa21e56a50201501fa60a4f722e43a12e40a00f90157e3af31d5c.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "183581f975a674dacadc670fb186332d820fc0bda5e84f4fda02eff69ec19912",
+      "path": "raw/openalex/183581f975a674dacadc670fb186332d820fc0bda5e84f4fda02eff69ec19912.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "d1810b69cf9854f84fdbb24a7d23e224704c86b8fd6fbfac1577f612435a41bb",
+      "path": "raw/crossref_retraction_watch/d1810b69cf9854f84fdbb24a7d23e224704c86b8fd6fbfac1577f612435a41bb.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "bc6a676579a098a4108aee5b437ca7a031b243ce6e5adef3b1b406a3cfe1a0e5",
+      "path": "raw/europe_pmc_metadata/bc6a676579a098a4108aee5b437ca7a031b243ce6e5adef3b1b406a3cfe1a0e5.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "d039a610559f66331d879b604f14cbcb2088ba69eaacac8e2d88962aa007d165",
+      "path": "raw/openalex/d039a610559f66331d879b604f14cbcb2088ba69eaacac8e2d88962aa007d165.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "76be2050cdb0b697d00413cf3c3c29154f8e47a132c01b782d8e6a458440ec91",
+      "path": "raw/crossref_retraction_watch/76be2050cdb0b697d00413cf3c3c29154f8e47a132c01b782d8e6a458440ec91.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "77502489000b232eeeb911ae855f83455629814577a8e71ed3cd4347d1bcf9d5",
+      "path": "raw/europe_pmc_metadata/77502489000b232eeeb911ae855f83455629814577a8e71ed3cd4347d1bcf9d5.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "d24d72723707546fa4162e591dad9fdadb33ba69635449f26825444b8feb2110",
+      "path": "raw/openalex/d24d72723707546fa4162e591dad9fdadb33ba69635449f26825444b8feb2110.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "b9e30681ce1da98204701823a84121fa7b9bc7eb3f21212ac571876811160f09",
+      "path": "raw/crossref_retraction_watch/b9e30681ce1da98204701823a84121fa7b9bc7eb3f21212ac571876811160f09.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "66940c14fa7d7c5ab30fb87202ed0056318c7c8de38616f4ed95186b4feeb5e6",
+      "path": "raw/europe_pmc_metadata/66940c14fa7d7c5ab30fb87202ed0056318c7c8de38616f4ed95186b4feeb5e6.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "5e4ebd65b25a765cb8b4f1312b9ee29120e34fd4f051e8f8972fd19276da9de3",
+      "path": "raw/openalex/5e4ebd65b25a765cb8b4f1312b9ee29120e34fd4f051e8f8972fd19276da9de3.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "6c2a261cd096db0331dbce3c7c85a2918deb47bd9982fc3b6b19c1f7dd51d1ff",
+      "path": "raw/crossref_retraction_watch/6c2a261cd096db0331dbce3c7c85a2918deb47bd9982fc3b6b19c1f7dd51d1ff.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "c90bb3140cc43c3fa4ff625a1b1aa1ec873beec4da708ba359f6d5aaf4c7a2d7",
+      "path": "raw/europe_pmc_metadata/c90bb3140cc43c3fa4ff625a1b1aa1ec873beec4da708ba359f6d5aaf4c7a2d7.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "552d967e7cb28c0aa3c9616a636dcc4b3e13db49ade21d862a17b8865200b363",
+      "path": "raw/openalex/552d967e7cb28c0aa3c9616a636dcc4b3e13db49ade21d862a17b8865200b363.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "51c329cd61a9016715b4634ab79751a3fb5268d07fdb3723e71d00495d344a80",
+      "path": "raw/crossref_retraction_watch/51c329cd61a9016715b4634ab79751a3fb5268d07fdb3723e71d00495d344a80.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "acfca107066b30110659876f44a5ae6e4608f082ec991be075f1c2fde2806107",
+      "path": "raw/europe_pmc_metadata/acfca107066b30110659876f44a5ae6e4608f082ec991be075f1c2fde2806107.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "836a0791a04e58070964592988a6562d527f17988d5249018f4ecae9eb69244c",
+      "path": "raw/openalex/836a0791a04e58070964592988a6562d527f17988d5249018f4ecae9eb69244c.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-27T02:21:07.041805Z",
+      "sha256": "2f7e248065e437e0cc3cce8b15da27b4ce958e5e67da0bff3977e1b87c019968",
+      "path": "raw/crossref_retraction_watch/2f7e248065e437e0cc3cce8b15da27b4ce958e5e67da0bff3977e1b87c019968.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "records": {
+    "pmid:30478247": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "30478247",
+        "doi": "10.1542/peds.2018-3083"
+      },
+      "title": "Clinical Practice Guideline: Maintenance Intravenous Fluids in Children",
+      "abstract": "Maintenance intravenous fluids (IVFs) are used to provide critical supportive care for children who are acutely ill. IVFs are required if sufficient fluids cannot be provided by using enteral administration for reasons such as gastrointestinal illness, respiratory compromise, neurologic impairment, a perioperative state, or being moribund from an acute or chronic illness. Despite the common use of maintenance IVFs, there is high variability in fluid prescribing practices and a lack of guidelines for fluid composition administration and electrolyte monitoring. The administration of hypotonic IVFs has been the standard in pediatrics. Concerns have been raised that this approach results in a high incidence of hyponatremia and that isotonic IVFs could prevent the development of hyponatremia. Our goal in this guideline is to provide an evidence-based approach for choosing the tonicity of maintenance IVFs in most patients from 28 days to 18 years of age who require maintenance IVFs. This guideline applies to children in surgical (postoperative) and medical acute-care settings, including critical care and the general inpatient ward. Patients with neurosurgical disorders, congenital or acquired cardiac disease, hepatic disease, cancer, renal dysfunction, diabetes insipidus, voluminous watery diarrhea, or severe burns; neonates who are younger than 28 days old or in the NICU; and adolescents older than 18 years old are excluded. We specifically address the tonicity of maintenance IVFs in children.The Key Action Statement of the subcommittee is as follows:<i>1A: The American Academy of Pediatrics recommends that patients 28 days to 18 years of age requiring maintenance IVFs should receive isotonic solutions with appropriate potassium chloride and dextrose because they significantly decrease the risk of developing hyponatremia (evidence quality: A; recommendation strength: strong)</i>.",
+      "journal": "Pediatrics",
+      "year": "2018",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-27T02:21:07.041805Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-27T02:21:07.041805Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "27a7a88ff95fa21e56a50201501fa60a4f722e43a12e40a00f90157e3af31d5c",
+        "183581f975a674dacadc670fb186332d820fc0bda5e84f4fda02eff69ec19912",
+        "d1810b69cf9854f84fdbb24a7d23e224704c86b8fd6fbfac1577f612435a41bb"
+      ]
+    },
+    "pmid:36888887": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "36888887",
+        "doi": "10.2215/cjn.0000000000000077"
+      },
+      "title": "Correcting Hypernatremia in Children",
+      "abstract": "<h4>Background</h4>In children with hypernatremia, current clinical guidelines recommend a reduction in serum sodium of 0.5 mmol/L per hour or less to avoid complications of cerebral edema. However, no large-scale studies have been conducted in the pediatric setting to inform this recommendation. Therefore, this study aimed to report the association between the rate of correction of hypernatremia, neurological outcomes, and all-cause mortality in children.<h4>Methods</h4>A retrospective cohort study was conducted from 2016 to 2019 at a quaternary pediatric center in Melbourne, Victoria, Australia. All children with at least one serum sodium level ≥150 mmol/L were identified through interrogation of the hospital's electronic medical record. Medical notes, neuroimaging reports, and electroencephalogram results were reviewed for evidence of seizures and/or cerebral edema. The peak serum sodium level was identified and correction rates over the first 24 hours and overall were calculated. Unadjusted and multivariable analyses were used to examine the association between the rate of sodium correction and neurological complications, the requirement for neurological investigation, and death.<h4>Results</h4>There were 402 episodes of hypernatremia among 358 children over the 3-year study period. Of these, 179 were community-acquired and 223 developed during admission. A total of 28 patients (7%) died during admission. Mortality was higher in children with hospital-acquired hypernatremia, as was the frequency of intensive care unit admission and hospital length of stay. Rapid correction (>0.5 mmol/L per hour) occurred in 200 children and was not associated with greater neurological investigation or mortality. Length of stay was longer in children who received slow correction (<0.5 mmol/L per hour).<h4>Conclusions</h4>Our study did not find any evidence that rapid sodium correction was associated with greater neurological investigation, cerebral edema, seizures, or mortality; however, slow correction was associated with a longer hospital length of stay.",
+      "journal": "Clinical journal of the American Society of Nephrology : CJASN",
+      "year": "2023",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-27T02:21:07.041805Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-27T02:21:07.041805Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "bc6a676579a098a4108aee5b437ca7a031b243ce6e5adef3b1b406a3cfe1a0e5",
+        "d039a610559f66331d879b604f14cbcb2088ba69eaacac8e2d88962aa007d165",
+        "76be2050cdb0b697d00413cf3c3c29154f8e47a132c01b782d8e6a458440ec91"
+      ]
+    },
+    "pmid:42015038": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "42015038",
+        "doi": "10.1186/s12887-026-06888-2"
+      },
+      "title": "Hyponatremia upon PICU admission: a 10-year retrospective analysis of outcomes and independent prognostic value",
+      "abstract": "BACKGROUND: Hyponatremia is a common electrolyte disturbance in critically ill children that has been associated with increased morbidity and mortality. This retrospective, single-center study investigates the prevalence and clinical relevance of hyponatremia at the time of pediatric intensive care unit (PICU) admission, with a particular focus on its association with inflammatory markers and seizures. METHODS: We conducted a retrospective observational cohort study of pediatric patients beyond the neonatal period who were admitted with hyponatremia (serum sodium ≤ 135 mmol/L) to a German tertiary mixed pediatric and neonatal ICU between January 2015 and October 2024. Among 5,595 admissions screened, 2,906 non-neonatal patients were eligible; 113 presented with hyponatremia upon admission. After excluding cases with type 1 diabetes, chronic diuretic therapy, or hospital-acquired hyponatremia (HAH), 64 patients remained for analysis. Clinical characteristics, inflammatory markers (CRP, IL-6, PCT), and neurological events were evaluated. RESULTS: Among the 64 included children (median serum sodium 129.5 mmol/L), infections were the leading cause of admission. Hyponatremia frequently preceded the rise of inflammatory markers and showed no significant association with CRP, IL-6, or PCT. However, IL-6 and PCT were not routinely measured, limiting interpretability. Length of stay primarily reflected underlying disease severity and showed no correlation with sodium levels. Seizures occurred in 16.4% of patients, although a direct causal link to hyponatremia could not be confirmed. COVID-19–associated hyponatremia was identified in 11 cases, including presentations with pediatric inflammatory multisystem syndrome (PIMS) and encephalopathy. CONCLUSION: Hyponatremia at PICU admission appears to represent an early indicator of disease burden that is not consistently reflected by conventional inflammatory biomarkers. Its frequent occurrence in infectious and neurological conditions underscores the importance of early recognition and structured interdisciplinary communication across emergency, pediatric, and critical care teams. Prospective studies are needed to validate these findings and delineate disease-specific mechanisms.",
+      "journal": "BMC pediatrics",
+      "year": "2026",
+      "publication_types": [
+        "research-article",
+        "Journal Article",
+        "Observational Study"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-27T02:21:07.041805Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-27T02:21:07.041805Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "77502489000b232eeeb911ae855f83455629814577a8e71ed3cd4347d1bcf9d5",
+        "d24d72723707546fa4162e591dad9fdadb33ba69635449f26825444b8feb2110",
+        "b9e30681ce1da98204701823a84121fa7b9bc7eb3f21212ac571876811160f09"
+      ]
+    },
+    "pmid:38001558": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "38001558",
+        "doi": "10.1097/mop.0000000000001321"
+      },
+      "title": "Management of hyperkalemia in children",
+      "abstract": "<h4>Purpose of review</h4>Hyperkalemia is a potentially fatal electrolyte abnormality with no standardized management. The purpose of this review is to provide the knowledge needed for timely and effective management of hyperkalemia in children. It describes the utility of existing and novel therapies.<h4>Recent findings</h4>Two newer oral potassium binding agents, patiromer sorbitex calcium and sodium zirconium cyclosilicate, have been FDA-approved for the management of hyperkalemia in adults. These newer agents offer hope for improved management, even though their use in pediatric patients requires further exploration.<h4>Summary</h4>This review highlights the causes and life-threatening effects of hyperkalemia and provides a comprehensive overview of the management of hyperkalemia in both acute and chronic settings along with upcoming treatment strategies.",
+      "journal": "Current opinion in pediatrics",
+      "year": "2024",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-27T02:21:07.041805Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-27T02:21:07.041805Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "66940c14fa7d7c5ab30fb87202ed0056318c7c8de38616f4ed95186b4feeb5e6",
+        "5e4ebd65b25a765cb8b4f1312b9ee29120e34fd4f051e8f8972fd19276da9de3",
+        "6c2a261cd096db0331dbce3c7c85a2918deb47bd9982fc3b6b19c1f7dd51d1ff"
+      ]
+    },
+    "pmid:41704483": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "41704483",
+        "doi": "10.3389/fendo.2026.1701713"
+      },
+      "title": "Severe pediatric hypocalcemia in Vietnam: etiologic profile, clinical outcomes and risk factors in 246 cases",
+      "abstract": "<h4>Background</h4>Severe hypocalcemia in children can precipitate life-threatening neurologic and cardiovascular events, including seizures and cardiac dysfunction. Etiologies range from nutritional deficiency to genetic syndromes, yet local epidemiologic and clinical data remain limited, particularly in Southeast Asia.<h4>Methods</h4>We retrospectively reviewed 246 children (newborns to 18 years) admitted with severe hypocalcemia at the Vietnam National Children's Hospital (2018 - 2024), the leading tertiary center in Northern Vietnam. Demographic, clinical, and comprehensive biochemical data were collected. Descriptive, bivariate, and multivariable logistic regression analyses identified independent predictors of major clinical outcomes.<h4>Results</h4>Among 246 children, infants and young children predominated (70.7%; median age 67 days). Seizures occurred in 79.2%, while vitamin D deficiency (67.1%) and hypoparathyroidism (28.0%) were the leading causes of severe hypocalcemia. The mean ionized calcium level was profoundly low (0.66 ± 0.13 mmol/L). Patients with vitamin D deficiency had markedly low 25(OH)D levels (mean 18.4 nmol/L) and high PTH (mean 261.7 pg/mL), consistent with secondary hyperparathyroidism. Conversely, those with hypoparathyroidism showed low PTH levels (22.2 pg/mL) despite significant hypocalcemia. Children with DiGeorge syndrome had even lower PTH levels (6.3 pg/mL) and preserved phosphate. In multivariate analyses, lower ionized calcium and lower 25-hydroxyvitamin D levels were independent predictors of seizures. Cardiac complications (cardiogenic shock and/or acute heart failure) occurred in 5.7% and were associated with more severe hypocalcemia.<h4>Conclusion</h4>Severe pediatric hypocalcemia in Vietnam predominantly affects infants and young children and is largely attributable to preventable vitamin D deficiency. While vitamin D deficiency is globally recognized, this study provides novel region-specific insight into the high frequency of symptomatic presentations, including seizures and cardiac events, in a tropical setting with presumed adequate sunlight exposure. It also emphasizes distinct biochemical phenotypes that allow early etiological stratification. These findings reinforce the urgency of proactive vitamin D supplementation policies and biochemical screening protocols tailored for high-risk populations, particularly in resource-limited settings.",
+      "journal": "Frontiers in endocrinology",
+      "year": "2026",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-27T02:21:07.041805Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-27T02:21:07.041805Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "c90bb3140cc43c3fa4ff625a1b1aa1ec873beec4da708ba359f6d5aaf4c7a2d7",
+        "552d967e7cb28c0aa3c9616a636dcc4b3e13db49ade21d862a17b8865200b363",
+        "51c329cd61a9016715b4634ab79751a3fb5268d07fdb3723e71d00495d344a80"
+      ]
+    },
+    "pmid:42161576": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "42161576",
+        "doi": "10.1136/archdischild-2026-330358"
+      },
+      "title": "Intravenous rehydration in children with severe malnutrition and severe dehydration: a systematic review and meta-analysis",
+      "abstract": "<h4>Objectives</h4>To compare the efficacy and safety of intravenous rehydration (IVR) versus oral rehydration (OR) strategies in children with severe acute malnutrition (SAM) and severe dehydration.<h4>Design</h4>Systematic review and meta-analysis.<h4>Setting</h4>Lower-to-middle-income countries.<h4>Patients</h4>Children with SAM are hospitalised with severe dehydration secondary to gastroenteritis.<h4>Interventions</h4>Randomised trials of IVR and OR (standard of care) MAIN OUTCOME MEASURES: Primary: in-hospital mortality. Secondary: fluid overload events, development of shock requiring intravenous boluses, severe electrolyte abnormalities at 24 hours and day 28 mortality.<h4>Results</h4>We identified three RCTs comprising 484 participants with severe malnutrition (72 had kwashiorkor, two had some risk of bias, and one had low risk of bias). The pooled risk ratio (RR) for in-hospital mortality for IVR versus OR is 0.71 (95% CI 0.46 to 1.10; I<sup>2</sup>=0.0%) with moderate certainty of evidence. No fluid overload events were reported, pooled RR 0.99 (95% CI 0.10 to 9.35). The pooled RR of severe hyponatraemia (sodium <125 or <130 mmol/L) at 24 hours was 0.66 (95% CI 0.44 to 0.99). Only one trial reported RR for shock development, hypernatraemia (sodium >145 mmol/L) or 28-day mortality with IVR versus OR (RRs 0.56, 95% CI 0.21 to 1.48; RR 2.05, 95% CI 0.50 to 8.58 and RR 0.85, 95% CI 0.44 to 1.65, respectively). Subgroup analyses for in-hospital mortality were carried out for region and risk of bias rating, giving p=0.85 and p=0.54 for heterogeneity, respectively.<h4>Conclusions</h4>The estimated effect of using IVR versus OR in children with SAM with severe dehydration ranges from a 54% relative reduction to a 10% relative increase in the risk of death, with IVR resulting in fewer adverse events.<h4>Prospero registration number</h4>CRD42025637956.",
+      "journal": "Archives of disease in childhood",
+      "year": "2026",
+      "publication_types": [
+        "Meta-Analysis",
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-09-27T02:21:07.041805Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-27T02:21:07.041805Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "acfca107066b30110659876f44a5ae6e4608f082ec991be075f1c2fde2806107",
+        "836a0791a04e58070964592988a6562d527f17988d5249018f4ecae9eb69244c",
+        "2f7e248065e437e0cc3cce8b15da27b4ce958e5e67da0bff3977e1b87c019968"
+      ]
+    }
+  },
+  "content_hash": "8b740511d80c376484f365bf2516d958744ef8925cc48a1a5ac134c380258223"
+}
