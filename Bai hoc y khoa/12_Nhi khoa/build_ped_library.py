@@ -50,7 +50,8 @@ def parse_curriculum() -> list[dict]:
         # Rows: | **PED-xx** | P0 | Title | Scope | Dependency | Status |
         row_matches = re.findall(
             r'\|\s*\*\*(PED-\d+[a-z]?)\*\*\s*\|\s*(P\d+)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|',
-            section
+            section,
+            re.IGNORECASE
         )
         for r in row_matches:
             lessons.append({
@@ -147,7 +148,7 @@ def main():
 
     for item in curriculum:
         pid = item["id"]
-        disc = discovered.get(pid, {})
+        disc = discovered.get(pid) or discovered.get(pid.upper()) or discovered.get(pid.lower()) or {}
 
         has_ped = bool(disc.get("ped_content"))
         has_pedytb = bool(disc.get("pedytb_content"))
@@ -191,7 +192,7 @@ def main():
     curriculum_summary = []
     for item in curriculum:
         pid = item["id"]
-        disc = discovered.get(pid, {})
+        disc = discovered.get(pid) or discovered.get(pid.upper()) or discovered.get(pid.lower()) or {}
         curriculum_summary.append({
             "id": pid,
             "priority": item["priority"],

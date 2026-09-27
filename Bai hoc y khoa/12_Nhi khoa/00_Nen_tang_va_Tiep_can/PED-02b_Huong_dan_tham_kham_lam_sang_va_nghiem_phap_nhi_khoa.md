@@ -8,10 +8,9 @@
 ---
 
 ## 📷 BẰNG CHỨNG THỊ GIÁC ĐÍNH KÈM (VISUAL EVIDENCE)
-* **File ảnh trích xuất gốc tại Desktop:** `C:\Users\THANHANH\Desktop\RAW_EVIDENCE_Pediatric_Exam_Signs_Table2_Crop.png`
+* **File ảnh trích xuất:** `00_Nen_tang_va_Tiep_can/sources/RAW_EVIDENCE_Pediatric_Exam_Signs_Table2_Crop.png` (Desktop: `C:\Users\THANHANH\Desktop\RAW_EVIDENCE_Pediatric_Exam_Signs_Table2_Crop.png`)
 * **Nguồn:** *Australasian Bronchiolitis Guideline (PREDICT 2025 Update - Table 2: Initial Illness Severity Assessment)*.
 * **Ý nghĩa:** Minh chứng bộ tiêu chuẩn lượng giá khách quan trong thăm khám Nhi khoa: Hành vi (Behaviour), Nhịp thở theo lứa tuổi và **6 dấu hiệu co rút cơ hô hấp đặc thù: Co kéo hõm ức/khí quản (Tracheal tug), Phập phồng cánh mũi (Nasal flaring), Rút lõm lồng ngực (Chest wall retractions)**.
-
 ---
 
 ## 0. TRIẾT LÝ CỐT LÕI: VÌ SAO KHÁM NHI HOÀN TOÀN KHÁC NGƯỜI LỚN?
