@@ -380,7 +380,7 @@ CARDS_DATA = [
         "type": "basic",
         "category": "Chẩn đoán phân biệt",
         "front": "[PEDYTB - Ôn thi] Bốn dấu hiệu cờ đỏ phân biệt Viêm nắp thanh môn cấp (Epiglottitis) với Croup thông thường là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1. Sốt cao đột ngột nhiễm độc.<br>2. KHÔNG HO (hoặc ho rất yếu).<br>3. Chảy nước dãi ròng ròng (Drooling).<br>4. Tư thế hít ngửi / kiềng 3 chân (Tripod position).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nắp thanh môn viêm to cản trở hoàn toàn phản xạ nuốt nước bọt.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Sốt cao nhiễm độc, KHÔNG HO (hoặc ho rất yếu), chảy nước dãi (Drooling) và tư thế kiềng 3 chân (Tripod).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nắp thanh môn sưng to cản trở nuốt nước bọt; trẻ ngồi cúi để mở rộng đường thở.",
         "extra": "Trẻ ngồi chồm ra trước, cằm chìa, ngửa cổ để mở tối đa đường thở; vẻ mặt kinh hoàng sợ hãi."
     },
     {
@@ -667,7 +667,7 @@ CARDS_DATA = [
         "type": "basic",
         "category": "Tips lâm sàng",
         "front": "[PED - Lâm sàng] Năm tiêu chuẩn chỉ định nhập viện điều trị nội trú đối với bệnh nhi Croup là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1. Điểm Westley ≥ 3 sau 3-4 giờ theo dõi.<br>2. Cần từ 2 liều Adrenaline khí dung trở lên.<br>3. SpO2 &lt; 92% khí phòng.<br>4. Trẻ nhỏ &lt; 6 tháng tuổi.<br>5. Nghi ngờ chẩn đoán khác hoặc gia đình không an toàn.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Trẻ nhỏ &lt; 6 tháng có nguy cơ tắc nghẽn đường thở tiến triển nhanh hơn trẻ lớn.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Điểm Westley ≥ 3 sau 3-4h, cần ≥ 2 liều Adrenaline, SpO2 &lt; 92%, trẻ nhỏ &lt; 6 tháng tuổi hoặc gia đình không an toàn.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Trẻ &lt; 6 tháng hoặc khó thở dai dẳng có nguy cơ suy hô hấp tiến triển nhanh.",
         "extra": "Bất kỳ nghi ngờ nào về viêm khí quản vi khuẩn hoặc dị vật đều là chỉ định nhập viện tuyệt đối."
     },
     {
