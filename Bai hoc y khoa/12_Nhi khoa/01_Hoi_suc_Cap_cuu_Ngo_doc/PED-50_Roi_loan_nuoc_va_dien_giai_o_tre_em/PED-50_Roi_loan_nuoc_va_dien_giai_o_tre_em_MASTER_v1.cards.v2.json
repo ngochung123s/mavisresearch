@@ -1,1102 +1,1722 @@
-[
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Công thức ước tính khối lượng nước toàn phần (V, tính bằng lít) theo cân nặng (P, tính bằng kg) ở trẻ em là {{c1::V = 0,6 x P + 0,25}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Áp dụng để ước tính nhanh thể tích nước cơ thể phục vụ bù dịch.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Cong-thuc-nuoc",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Tổng lượng nước ở trẻ 1 tháng tuổi và 6 tháng tuổi chiếm {{c1::70%}} trọng lượng cơ thể.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Tỷ lệ nước toàn phần giảm dần theo tuổi: 12 tháng (65%), 5 tuổi (60%), 15 tuổi (60%).",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Ty-le-nuoc",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Ở trẻ 1 tháng tuổi, nước ngoài tế bào (ECF) chiếm tới {{c1::60%}} tổng lượng nước cơ thể.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Trẻ càng nhỏ ECF càng lớn (ở người lớn chỉ chiếm 36%), giải thích vì sao trẻ dễ mất nước cấp.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Nuoc-ngoai-te-bao",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Tỷ lệ nước ngoài tế bào theo tuổi trong giáo trình: 6 tháng là {{c1::50%}}, 12 tháng là {{c1::47%}}, 5 tuổi là {{c1::45%}}, 15 tuổi là {{c1::36%}} tổng lượng nước.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Bảng phân bố nước theo tuổi là câu hỏi thi lý thuyết kinh điển.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Bang-phan-bo-nuoc",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thể tích máu toàn phần ở trẻ em chiếm {{c1::8%}} thể trọng; thể tích huyết tương chiếm {{c1::5%}} thể trọng.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Hằng định ở mọi lứa tuổi từ sơ sinh đến trưởng thành.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "The-tich-mau",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nhu cầu nước sinh lý theo cân nặng ở trẻ &lt; 10 kg là {{c1::120 - 150 ml/kg/24h}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Nhu cầu giảm dần: 10 - 40 kg cần 70 - 110 ml/kg; &gt; 40 kg cần 40 - 50 ml/kg.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Nhu-cau-nuoc",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nước mất vô hình (Insensible Water Loss) ở trẻ em bình thường chiếm khoảng {{c1::50%}} tổng lượng nước đào thải hàng ngày.",
-    "extra": "<b>💡 Giáo trình YTB:</b> 50% còn lại được bài xuất qua nước tiểu.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Nuoc-mat-vo-hinh",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Trong lượng nước mất vô hình: qua da chiếm {{c1::30%}}, qua phổi chiếm {{c1::15%}}, qua phân chiếm {{c1::5%}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Nước mất qua da và phổi chiếm tới 45% tổng bài xuất dịch.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Thanh-phan-IWL",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nước nội sinh sinh ra từ chuyển hóa tế bào: 100g Protid tạo {{c1::56 ml}}, 100g Glucid tạo {{c1::42 ml}}, 100g Lipid tạo {{c1::107 ml}} nước.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Lipid là chất sinh ra nhiều nước nội sinh nhất khi bị oxy hóa.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Nuoc-noi-sinh",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nhu cầu nước duy trì ước tính theo diện tích da ở trẻ em là {{c1::1500 ml/m² da/24h}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Áp dụng cho trẻ lớn hoặc bệnh nhi tại khoa hồi sức.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Dien-tich-da",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nhu cầu nước duy trì ước tính theo năng lượng tiêu hao là {{c1::100 - 150 ml}} cho mỗi 100 kcal.",
-    "extra": "<b>💡 Giáo trình YTB:</b> 1 kcal chuyển hóa tương đương 1 - 1.5 ml nước.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Nang-luong-tieu-hao",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Công thức Holliday - Segar tính nhu cầu nước duy trì: 10 kg đầu cần {{c1::100 ml/kg/24h}}; 10 kg tiếp theo cần {{c1::50 ml/kg/24h}}; mỗi kg trên 20 kg cần {{c1::20 ml/kg/24h}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Quy tắc 100-50-20 là công thức gối đầu giường của bác sĩ nhi khoa.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Holliday-Segar",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nồng độ Natri bình thường trong huyết tương theo giáo trình là 135 - 145 mEq/L (chuẩn là {{c1::145 mEq/L}}); nồng độ trong tế bào là {{c1::5 - 10 mEq/L}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Natri là cation quyết định áp lực thẩm thấu ngoại bào.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Natri-sinh-ly",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nồng độ Kali trong tế bào là {{c1::150 mEq/L}}; nồng độ trong huyết tương là {{c1::3,5 - 5,0 mEq/L}} (chuẩn 3 - 5 mEq/L).",
-    "extra": "<b>💡 Giáo trình YTB:</b> Kali tập trung 98% ở nội bào, duy trì điện thế màng tim.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Kali-sinh-ly",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nồng độ Magie trong tế bào là {{c1::30 mEq/L}}; nồng độ trong huyết tương là {{c1::1,5 - 2,5 mEq/L}} (chuẩn 2 mEq/L).",
-    "extra": "<b>💡 Giáo trình YTB:</b> Cation nội bào phong phú thứ hai sau Kali.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Magie-sinh-ly",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nồng độ Bicarbonat (HCO3-) trong huyết tương là {{c1::22 - 26 mEq/L}} (chuẩn 26 mEq/L); trong tế bào là {{c1::10 mEq/L}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Hệ đệm kiềm ngoại bào quan trọng nhất.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "HCO3-sinh-ly",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nhu cầu điện giải duy trì hàng ngày theo giáo trình: Natri là {{c1::2 - 3 mEq/kg/24h}}, Kali là {{c1::1 - 2 mEq/kg/24h}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Cơ sở để phối hợp dịch truyền tĩnh mạch duy trì.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Nhu-cau-dien-giai",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nhu cầu Magie duy trì là {{c1::0,4 - 0,8 mEq/kg/24h}}; nhu cầu Calci duy trì là {{c1::50 - 200 mg/kg/24h}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Cần thiết cho nuôi dưỡng tĩnh mạch kéo dài.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Nhu-cau-Ca-Mg",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Phân độ mất nước theo sụt cân ở trẻ nhỏ: Độ I là sụt cân {{c1::&lt; 5%}}; Độ II là {{c1::5 - 10%}}; Độ III là {{c1::&gt; 10%}} thể trọng.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Ở trẻ lớn các mốc tương ứng là &lt; 3%, 3 - 6%, &gt; 6%.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Phan-do-sut-can",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Bảng lâm sàng 4 mức độ: Phần trăm sụt cân ở mức Chưa mất nước là &le; 5%; Nhẹ và vừa là {{c1::6 - 9%}}; Nặng là {{c1::10 - 15%}}; Nguy kịch là {{c1::&ge; 15%}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Tiêu chuẩn lượng giá lâm sàng khi không có cân nặng trước bệnh.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Bang-4-muc-do",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Dấu hiệu nếp véo da (Casper) theo mức độ: Chưa mất nước thì {{c1::mất nhanh (&lt; 1s)}}; Nhẹ và vừa thì {{c1::mất chậm (1 - 2s)}}; Nặng thì {{c1::mất rất chậm (&gt; 2s)}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Véo da bụng theo chiều dọc hoặc ngang thành bụng.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Dau-Casper",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Cảm giác khát nước theo mức độ: Nhẹ và vừa thì trẻ {{c1::khát, uống háo hức, vồ lấy cốc}}; Nặng thì trẻ {{c1::uống kém hoặc không uống được}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Uống háo hức là dấu hiệu then chốt phân biệt có mất nước với chưa mất nước.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Cam-giac-khat",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nồng độ Natri máu trong Mất nước đẳng trương là {{c1::130 - 150 mEq/L}}; áp lực thẩm thấu máu là {{c1::275 - 295 mOsmol/L}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Chiếm 70 - 80% các trường hợp tiêu chảy cấp.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Mat-nuoc-dang-truong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nồng độ Natri máu trong Mất nước ưu trương là {{c1::&gt; 150 mEq/L}}; áp lực thẩm thấu máu là {{c1::&gt; 310 mOsmol/L}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Lâm sàng sốt cao, khát dữ dội, kích thích co giật, da dẻo nhão như bột bánh mì.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Mat-nuoc-uu-truong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nồng độ Natri máu trong Mất nước nhược trương là {{c1::&lt; 130 mEq/L}}; áp lực thẩm thấu máu là {{c1::&lt; 275 mOsmol/L}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Lâm sàng li bì, hôn mê, trụy mạch và sốc rất sớm, da lạnh ẩm dính.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Mat-nuoc-nhuoc-truong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Lượng nước mất ước tính trong Mất nước ưu trương là {{c1::120 - 170 ml/kg}}; lượng Natri mất là {{c1::2 - 5 mEq/kg}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Nước mất nhiều hơn điện giải.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Chi-so-uu-truong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Lượng nước mất ước tính trong Mất nước nhược trương là {{c1::40 - 80 ml/kg}}; lượng Natri mất là {{c1::10 - 14 mEq/kg}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Natri mất nhiều hơn nước, giảm ECF trầm trọng.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Chi-so-nhuoc-truong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Lượng nước mất ước tính trong Mất nước đẳng trương là {{c1::100 - 150 ml/kg}}; lượng Natri mất là {{c1::7 - 11 mEq/kg}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Nước và Natri mất cân bằng nhau.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Chi-so-dang-truong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 1 YTB] Trẻ 5 kg mất nước đẳng trương 10%: Lượng nước mất là 500 ml, nước duy trì là {{c1::500 ml}} -> Tổng thể tích dịch cần bù là {{c1::1000 ml}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Tổng dịch = Nước mất (5 x 10%) + Nước duy trì (5 x 100).",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Bai-toan-1",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 1 YTB] Trẻ 5 kg mất nước đẳng trương 10%: Nhu cầu Na duy trì là 15 mEq, Na mất theo đẳng trương là {{c1::77 mEq}} -> Tổng Na cần bù là {{c1::92 mEq}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Na mất = 154 mEq/L x 0.5 L = 77 mEq; Na duy trì = 3 x 5 = 15 mEq.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Bai-toan-1",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 1 YTB] Đơn thuốc phối dịch bù mất nước đẳng trương 1000 ml gồm: {{c1::600 ml NaCl 0.9%}} kết hợp với {{c1::400 ml Glucose 5%}} (tỷ lệ 3:2).",
-    "extra": "<b>💡 Giáo trình YTB:</b> 600 ml NaCl 0.9% cung cấp đủ 92 mEq Natri.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Bai-toan-1",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 2 YTB] Công thức tính Natri cần điều chỉnh (bù thâm hụt ngoại bào) trong mất nước nhược trương là {{c1::Na điều chỉnh = (Na mong muốn - Na bệnh nhân) x 0,6 x P0}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Hệ số phân bố dịch ngoại bào ở trẻ em là 0.6.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Bai-toan-2",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 2 YTB] Trẻ 5 kg mất nước nhược trương 10%, Na+ = 125 mEq/L: Lượng Na cần điều chỉnh để nâng lên 135 mEq/L là {{c1::30 mEq}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> (135 - 125) x 0.6 x 5 = 10 x 3 = 30 mEq.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Bai-toan-2",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 2 YTB] Trẻ 5 kg mất nước nhược trương: Tổng lượng Na cần bù trong 1000 ml dịch gồm Na điều chỉnh (30 mEq) + Na đẳng trương (77 mEq) + Na duy trì (15 mEq) = {{c1::122 mEq}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Tổng Natri phải bù là 122 mEq.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Bai-toan-2",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 2 YTB] Đơn thuốc phối dịch bù mất nước nhược trương 1000 ml gồm: {{c1::800 ml NaCl 0.9%}} kết hợp với {{c1::200 ml Glucose 5%}} (tỷ lệ 4:1).",
-    "extra": "<b>💡 Giáo trình YTB:</b> 800 ml NaCl 0.9% cung cấp xấp xỉ 122 mEq Natri.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Bai-toan-2",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 3 YTB] Công thức tính lượng nước không điện giải (nước tự do) trong mất nước ưu trương là {{c1::(Na bệnh nhân / Na mong muốn) x [0,6P0 - 0,6P]}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> P0 là cân nặng trước bệnh, P là cân nặng hiện tại sau mất nước.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Bai-toan-3",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 3 YTB] Trẻ 5 kg mất nước ưu trương 10% (P = 4.5 kg), Na+ = 170 mEq/L: Lượng nước tự do không điện giải tính ra là xấp xỉ {{c1::350 ml}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> (170 / 145) x (3.0 - 2.7) = 1.172 x 0.3 = 0.351 L = 350 ml.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Bai-toan-3",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 3 YTB] Trong 500 ml nước mất của trẻ mất nước ưu trương: nước tự do là 350 ml, phần dịch chứa điện giải là {{c1::150 ml}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Lượng Na thực tế mất = 154 x 0.15 L = 23 mEq.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Bai-toan-3",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 3 YTB] Tổng lượng Natri cần bù trong 1000 ml dịch mất nước ưu trương là Na mất (23 mEq) + Na duy trì (15 mEq) = {{c1::38 mEq}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Lấy 38 mEq / 0.154 mEq/ml = 250 ml dung dịch NaCl 0.9%.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Bai-toan-3",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 3 YTB] Đơn thuốc phối dịch mất nước ưu trương 1000 ml gồm: {{c1::250 ml NaCl 0.9%}} kết hợp với {{c1::750 ml Glucose 5%}} (tỷ lệ 1:3, nhược trương 1/4 sinh lý).",
-    "extra": "<b>💡 Giáo trình YTB:</b> Dung dịch nhược trương 1/4 giúp cung cấp nước tự do hạ Natri an toàn.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Bai-toan-3",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Quy tắc an toàn YTB] Trong điều trị mất nước ưu trương, tốc độ hạ Natri máu không được vượt quá {{c1::0,5 mEq/L/giờ}} (tối đa 10 - 12 mEq/L trong 24 giờ đầu).",
-    "extra": "<b>💡 Giáo trình YTB:</b> Hạ Natri quá nhanh sẽ gây phù não cấp và tử vong tức thì.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Toc-do-ha-Natri",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Quy tắc an toàn YTB] Thời gian bù dịch trong mất nước ưu trương phải kéo dài trong {{c1::36 - 48 giờ}} (không bù vội trong 24 giờ như mất nước đẳng trương).",
-    "extra": "<b>💡 Giáo trình YTB:</b> Để tế bào não có thời gian đào thải các chất thẩm thấu nội sinh thích nghi.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Thoi-gian-bu-uu-truong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Hậu quả nguy hiểm của mất nước ở trẻ em theo giáo trình gồm 4 nhóm: Giảm thể tích tuần hoàn, Rối loạn áp lực thẩm thấu, Rối loạn ion và toan kiềm, {{c1::Tổn thương tế bào không hồi phục}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Bốn hậu quả dây chuyền dẫn đến suy đa tạng.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Hau-qua-mat-nuoc",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Bệnh cảnh lâm sàng đặc thù của Mất nước ưu trương là trẻ {{c1::khát dữ dội, sốt cao, kích thích vật vã, tăng trương lực cơ, co giật}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Dấu Casper (+/-), da sờ nhão dẻo như bột bánh mì.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Lam-sang-uu-truong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Bệnh cảnh lâm sàng đặc thù của Mất nước nhược trương là trẻ {{c1::li bì, hôn mê, trụy mạch và sốc rất sớm}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Da tái lạnh ẩm dính, Casper (++) mất rất chậm.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Lam-sang-nhuoc-truong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Cấp cứu hạ Natri máu nặng có co giật hoặc hôn mê: Tiêm tĩnh mạch nhanh dung dịch {{c1::NaCl 3% liều 4 ml/kg}} truyền trong 20 - 30 phút.",
-    "extra": "<b>💡 Phác đồ cấp cứu:</b> Mục tiêu nâng Natri máu lên thêm 3 - 5 mEq/L để giải áp phù não và cắt co giật.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Cap-cuu-ha-Natri",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong hạ Natri máu mạn tính, tốc độ nâng Natri máu tối đa không được vượt quá {{c1::10 - 12 mEq/L/24h}} để phòng ngừa hội chứng hủy myelin cầu não (ODS).",
-    "extra": "<b>💡 Cảnh báo nguy kịch:</b> Nâng Natri quá nhanh gây teo tế bào thần kinh, liệt tứ chi và hôn mê vĩnh viễn.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Gioi-han-nang-Natri",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Khuyến cáo AAP 2018 (PMID: 30478247): Dịch truyền tĩnh mạch duy trì ở trẻ em nằm viện bắt buộc phải dùng {{c1::dung dịch đẳng trương (NaCl 0.9%)}} thay vì dịch nhược trương.",
-    "extra": "<b>💡 Cơ chế:</b> Ngăn ngừa hạ Natri máu mắc phải tại bệnh viện do tăng tiết ADH không thích hợp khi trẻ đau, sốt, nôn.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Guideline-AAP-2018",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Bước 1 trong cấp cứu Tăng Kali máu nặng (K+ &gt; 5.5 mEq/L) là bảo vệ màng cơ tim bằng {{c1::Calcium gluconate 10% liều 0,5 ml/kg}} tiêm tĩnh mạch chậm trong 5 - 10 phút.",
-    "extra": "<b>💡 Cơ chế:</b> Ion Canxi đối kháng trực tiếp điện thế ngưỡng của Kali trên màng cơ tim, tác dụng sau 1 - 3 phút.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Cap-cuu-tang-Kali",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Bước 2 trong cấp cứu Tăng Kali máu (dịch chuyển Kali vào nội bào) phối hợp: Truyền {{c1::Glucose 10% 5 ml/kg + Insulin 0,1 UI/kg}} và khí dung {{c1::Salbutamol 2,5 - 5 mg}}.",
-    "extra": "<b>💡 Phác đồ:</b> Salbutamol kích thích beta-2 adrenergic và Insulin kích hoạt bơm Na+/K+-ATPase đưa Kali vào tế bào.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Dich-chuyen-Kali",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Dấu hiệu điện tâm đồ biến đổi tuần tự theo mức độ tăng Kali máu: {{c1::Sóng T cao nhọn đối xứng}} -> PR kéo dài -> mất sóng P -> {{c1::QRS giãn rộng}} -> sóng hình sin -> rung thất/ngừng tim.",
-    "extra": "<b>💡 Cấp cứu tim mạch:</b> Thấy T nhọn đối xứng phải xử trí cấp cứu ngay trước khi QRS giãn rộng.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Dien-tam-do-Kali",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] [Quy tắc vàng bù Kali] Tuyệt đối CHỈ bù Kali đường tĩnh mạch khi trẻ {{c1::đã có nước tiểu}}.",
-    "extra": "<b>💡 Bẫy tử vong:</b> Nếu trẻ đang vô niệu hoặc suy thận cấp, bù Kali sẽ gây tăng Kali kịch phát và ngừng tim.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Quy-tac-bu-Kali",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] [Quy tắc vàng bù Kali] Nồng độ Kali pha truyền ngoại vi an toàn tối đa là {{c1::40 mEq/L (0,3% KCl)}}; tốc độ truyền tối đa là {{c1::0,5 mEq/kg/giờ}}.",
-    "extra": "<b>💡 An toàn:</b> Nồng độ cao hơn phải truyền qua catheter tĩnh mạch trung tâm; tuyệt đối cấm tiêm trực tiếp (IV push).",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Nong-do-toc-do-Kali",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Cấp cứu Hạ Canxi máu có co giật hoặc cơn tetany: Tiêm tĩnh mạch chậm dung dịch {{c1::Calcium gluconate 10% liều 0,5 - 1 ml/kg}} pha loãng gấp đôi với Glucose 5% trong 10 - 20 phút.",
-    "extra": "<b>💡 Theo dõi:</b> Phải theo dõi sát nhịp tim khi tiêm; ngừng tiêm ngay nếu nhịp tim chậm dưới 80 ck/p ở nhũ nhi.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Cap-cuu-ha-Canxi",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Bẫy lâm sàng: Khi bệnh nhi bị hạ Kali máu hoặc hạ Canxi máu kháng trị với điều trị bù, bắt buộc phải định lượng và điều chỉnh nồng độ {{c1::Magie (Mg++) máu}}.",
-    "extra": "<b>💡 Cơ chế:</b> Thiếu Magie gây bất hoạt bơm Na+/K+-ATPase và ức chế tuyến cận giáp tiết PTH, gây trơ điều trị.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Bay-ha-Magie",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Phân biệt SIADH và CSW: Trẻ mắc SIADH có thể tích tuần hoàn {{c1::bình thường hoặc tăng nhẹ (euvolemic)}}; trẻ mắc CSW có thể tích tuần hoàn {{c1::giảm rõ rệt (hypovolemic)}}.",
-    "extra": "<b>💡 Xử trí:</b> SIADH điều trị bằng hạn chế dịch; CSW điều trị bằng bù đủ muối nước (tuyệt đối cấm hạn chế dịch).",
-    "tags": [
-      "PED-50",
-      "PED",
-      "SIADH-vs-CSW",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] So sánh dịch tinh thể: Truyền khối lượng lớn Natri Clorid 0.9% (&gt; 40 - 60 ml/kg) có nguy cơ gây biến chứng {{c1::Toan chuyển hóa tăng Clo máu}} do nồng độ Clo lên tới 154 mEq/L.",
-    "extra": "<b>💡 Hồi sức:</b> Ringer Lactat có nồng độ Clo sinh lý hơn (109 mEq/L) và có gốc lactate chuyển hóa thành kiềm.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Ringer-vs-Saline",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Bẫy lâm sàng ở trẻ suy dinh dưỡng nặng (SAM): Tuyệt đối KHÔNG bolus dịch tĩnh mạch nhanh liều cao 20 ml/kg vì nguy cơ đẩy trẻ vào {{c1::Suy tim cấp và Phù phổi cấp tử vong}}.",
-    "extra": "<b>💡 Arch Dis Child 2026 (PMID: 42161576):</b> Trẻ SAM cơ tim teo nhẽo, chỉ bù dịch chậm 5 - 10 ml/kg/h bằng ReSoMal.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Bay-tre-SAM",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Bẫy khám nếp véo da: Ở trẻ béo phì, nếp véo da mất nhanh giả tạo; ở trẻ suy dinh dưỡng teo cơ, nếp véo da luôn {{c1::mất chậm giả tạo}} do mất lớp mỡ đệm dưới da.",
-    "extra": "<b>💡 Khám lâm sàng:</b> Bắt buộc đánh giá tri giác, độ trũng hốc mắt, độ khô niêm mạc miệng và CRT.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Bay-kham-Casper",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tiêu chuẩn thiểu niệu ở trẻ nhũ nhi (&lt; 12 tháng) là lượng nước tiểu {{c1::&lt; 1,0 ml/kg/giờ}} kéo dài liên tục trên 6 giờ.",
-    "extra": "<b>💡 Theo dõi:</b> Ở trẻ lớn hơn 5 tuổi, ngưỡng thiểu niệu là &lt; 0.5 ml/kg/giờ.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Tieu-chuan-thieu-nieu",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong pha cấp cứu sốc mất nước: Bolus dịch ban đầu dùng {{c1::Ringer Lactat hoặc NaCl 0.9% liều 20 ml/kg}} truyền nhanh trong 15 - 30 phút.",
-    "extra": "<b>💡 Pha 1:</b> Khôi phục thể tích tuần hoàn lòng mạch, tuyệt đối chưa cho Kali vào chai dịch này.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Bolus-chong-soc",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Lượng ORS cần uống trong 4 giờ đầu theo Phác đồ B điều trị mất nước nhẹ-vừa là {{c1::Cân nặng (kg) x 75 ml}}.",
-    "extra": "<b>💡 Phác đồ B:</b> Cho uống từng thìa nhỏ hoặc từng ngụm chậm, đánh giá lại sau 4 giờ.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Phac-do-B-WHO",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Phác đồ C truyền dịch mất nước nặng ở trẻ &lt; 12 tháng: 30 ml/kg trong {{c1::1 giờ đầu}}, sau đó 70 ml/kg trong {{c1::5 giờ tiếp theo}} (tổng thời gian 6 giờ).",
-    "extra": "<b>💡 Phác đồ C:</b> Ở trẻ >= 12 tháng: 30 ml/kg trong 30 phút, 70 ml/kg trong 2.5 giờ (tổng 3 giờ).",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Phac-do-C-WHO",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Dấu hiệu cảnh báo sớm quá tải thể tích dịch tuần hoàn khi truyền dịch gồm: nhịp thở tăng nhanh, xuất hiện {{c1::ran ẩm tại đáy phổi}}, gan to nhanh đau tức và phù mi mắt.",
-    "extra": "<b>💡 Xử trí:</b> Ngừng ngay dịch truyền, cho trẻ ngồi cao, thở oxy canula và tiêm tĩnh mạch Furosemide 1 mg/kg.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Canh-bao-qua-tai-dich",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Bẫy lâm sàng: Dung dịch Canxi gluconate nếu tiêm thoát mạch ra ngoài lòng mạch sẽ gây {{c1::hoại tử mô dưới da và loét mục vĩnh viễn}}.",
-    "extra": "<b>💡 Kỹ thuật:</b> Phải kiểm tra ven thông suốt, pha loãng gấp đôi với Glucose 5% và tiêm qua tĩnh mạch lớn.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Bay-tiem-Canxi",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nồng độ Natri trong dung dịch NaCl 0.9% là {{c1::154 mEq/L}}, tương đương mỗi 1 ml dung dịch chứa xấp xỉ {{c1::0,154 mEq}} Natri.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Hệ số 0.154 dùng để chia tính thể tích dịch muối trong cả 3 bài toán bù dịch.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Nong-do-NaCl",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 1 YTB] Tỷ lệ phối hợp dịch truyền bù mất nước đẳng trương là {{c1::3 phần muối (NaCl 0.9%) : 2 phần đường (Glucose 5%)}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> 600 ml muối + 400 ml đường trong tổng thể tích 1000 ml.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Ty-le-dang-truong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 2 YTB] Nồng độ Natri mục tiêu mong muốn đặt ra để tính bù thâm hụt ngoại bào trong mất nước nhược trương là {{c1::135 mEq/L}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Đưa Natri máu về ngưỡng an toàn 135 mEq/L.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Na-muc-tieu-nhuoc-truong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 2 YTB] Tỷ lệ phối hợp dịch truyền bù mất nước nhược trương là {{c1::4 phần muối (NaCl 0.9%) : 1 phần đường (Glucose 5%)}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> 800 ml muối + 200 ml đường trong tổng thể tích 1000 ml.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Ty-le-nhuoc-truong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 3 YTB] Nồng độ Natri mục tiêu mong muốn đặt ra trong công thức tính nước tự do của mất nước ưu trương là {{c1::145 mEq/L}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Công thức: (Na_bn / 145) x (0.6P0 - 0.6P).",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Na-muc-tieu-uu-truong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] [Bài toán 3 YTB] Tỷ lệ phối hợp dịch truyền bù mất nước ưu trương là {{c1::1 phần muối (NaCl 0.9%) : 3 phần đường (Glucose 5%)}} (tạo dung dịch nhược trương 1/4 sinh lý).",
-    "extra": "<b>💡 Giáo trình YTB:</b> 250 ml muối + 750 ml đường trong tổng thể tích 1000 ml.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Ty-le-uu-truong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Khi trẻ bị sốt cao: Mỗi 1°C thân nhiệt tăng trên 37°C làm tăng nhu cầu nước duy trì thêm {{c1::10 - 12%}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Do tăng chuyển hóa và tăng bốc hơi nước vô hình qua da và phổi.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Sot-tang-nuoc",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Chiếu đèn điều trị vàng da ở trẻ sơ sinh làm tăng lượng nước mất vô hình qua da thêm {{c1::20 - 30%}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Cần tăng lượng sữa hoặc dịch duy trì khi chiếu đèn.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Chieu-den-vang-da",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Dấu hiệu Chvostek: Bác sĩ gõ nhẹ vào vị trí trước nắp tai (đường đi dây thần kinh mặt VII) thấy {{c1::co giật các cơ môi và góc miệng cùng bên}}, chỉ điểm hạ Canxi máu.",
-    "extra": "<b>💡 Khám lâm sàng:</b> Dấu hiệu tăng tính kích thích thần kinh cơ trong hạ Canxi máu.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Dau-Chvostek",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Dấu hiệu Trousseau: Bơm bao đo huyết áp trên huyết áp tâm thu 20 mmHg giữ trong 3 phút thấy {{c1::bàn tay co quắp kiểu người đỡ đẻ (Carpopedal spasm)}}, chỉ điểm hạ Canxi máu.",
-    "extra": "<b>💡 Khám lâm sàng:</b> Dấu hiệu co cứng cơ do thiếu Canxi ion hóa màng tế bào.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Dau-Trousseau",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Ngưỡng chẩn đoán Hạ Canxi máu co giật ở trẻ em là Canxi toàn phần &lt; {{c1::1,75 mmol/L (7,0 mg/dL)}} hoặc Canxi ion hóa &lt; {{c1::0,9 mmol/L}}.",
-    "extra": "<b>💡 Frontiers in Endocrinology 2026 (PMID: 41704483):</b> Cần tiêm tĩnh mạch chậm Canxi gluconate 10%.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Nguong-ha-Canxi",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Liều tiêm tĩnh mạch Magnesium Sulfate 20% cấp cứu cơn xoắn đỉnh (Torsades de Pointes) hoặc co giật do hạ Magie máu là {{c1::25 - 50 mg/kg}} (tối đa 2 g) truyền trong 30 - 60 phút.",
-    "extra": "<b>💡 Phác đồ cấp cứu:</b> Phải theo dõi monitor điện tim liên tục trong khi truyền.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Cap-cuu-Magie",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Dấu hiệu cảnh báo ngộ độc Tăng Magie máu xuất hiện sớm nhất khi Mg++ &gt; 4 mEq/L là {{c1::mất phản xạ gân xương bánh chè}}.",
-    "extra": "<b>💡 Dấu hiệu chỉ điểm:</b> Mất phản xạ gân gối báo hiệu nguy cơ ức chế hô hấp và ngừng tim.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Ngo-doc-Magie",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thuốc đối kháng trực tiếp cấp cứu ngộ độc Tăng Magie máu là {{c1::Calcium gluconate 10% liều 0,5 ml/kg}} tiêm tĩnh mạch chậm trong 5 - 10 phút.",
-    "extra": "<b>💡 Đối kháng sinh lý:</b> Ion Canxi đối kháng cạnh tranh tác dụng ức chế thần kinh cơ của Magie.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Doi-khang-Magie",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Dung dịch bù dịch đường uống ReSoMal chuyên biệt cho trẻ suy dinh dưỡng nặng (SAM) khác ORS thông thường ở điểm: {{c1::Hàm lượng Natri thấp hơn (45 mEq/L so với 75 mEq/L) và hàm lượng Kali cao hơn (40 mEq/L)}}.",
-    "extra": "<b>💡 WHO SAM Guideline:</b> Tránh quá tải Natri gây suy tim cấp ở trẻ suy dinh dưỡng.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Dung-dich-ReSoMal",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Nồng độ Kali pha truyền tối đa qua catheter tĩnh mạch trung tâm (Central line) khi có monitor theo dõi tại PICU là {{c1::60 - 80 mEq/L}}.",
-    "extra": "<b>💡 Hồi sức PICU:</b> Đường ngoại vi tuyệt đối không vượt quá 40 mEq/L.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Nong-do-Kali-trung-tam",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Ở trẻ &lt; 5 kg, thể tích dịch dùng để pha kháng sinh và thuốc vận mạch có thể lên tới {{c1::20 - 30 ml/kg/ngày}}, bắt buộc phải trừ lượng này vào tổng dịch duy trì 24 giờ.",
-    "extra": "<b>💡 An toàn sơ sinh:</b> Tránh biến chứng phù phổi cấp do quá tải dịch âm thầm.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Tru-dich-pha-thuoc",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Hướng dẫn gia đình pha ORS chuẩn: Pha đúng {{c1::1 gói ORS vào đúng 1000 ml nước}} đun sôi để nguội; tuyệt đối {{c1::không chia nhỏ gói thuốc}} để pha từng ít một.",
-    "extra": "<b>💡 Bẫy ngộ độc:</b> Chia nhỏ gói thuốc không đều sẽ tạo ra dung dịch ưu trương gây teo não và co giật tử vong.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Huong-dan-pha-ORS",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Khi đang truyền dịch hạ Natri ở trẻ mất nước ưu trương, nếu trẻ đột ngột lơ mơ hoặc co giật, bác sĩ phải nghĩ ngay đến biến chứng {{c1::Phù não cấp do truyền dịch quá nhanh}} và lập tức dừng dịch nhược trương.",
-    "extra": "<b>💡 Xử trí khẩn cấp:</b> Tiêm ngay Natri Clorid 3% để kéo nước ra khỏi tế bào não.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Bien-chung-phu-nao-cap",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tiêu chuẩn an toàn để dừng truyền dịch tĩnh mạch và chuyển sang bù dịch đường uống: Trẻ tỉnh táo, hết dấu hiệu mất nước, {{c1::hết nôn trớ uống được ORS}}, CRT &lt; 2s và nước tiểu &gt; {{c1::1,0 ml/kg/giờ}}.",
-    "extra": "<b>💡 Chuyển độ:</b> Đảm bảo huyết động ổn định và đường tiêu hóa đã dung nạp tốt.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Tieu-chuan-dung-truyen",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Tốc độ truyền dịch duy trì tính theo giờ cho 10 kg đầu tiên theo Holliday-Segar tương đương {{c1::4 ml/kg/giờ}} (100 ml / 24h = 4.16 ml/h).",
-    "extra": "<b>💡 Quy tắc 4-2-1:</b> 10 kg đầu 4 ml/kg/h; 10 kg tiếp 2 ml/kg/h; mỗi kg trên 20 kg là 1 ml/kg/h.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Quy-tac-4-2-1",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Trẻ 5 kg có nhu cầu dịch duy trì 500 ml/24h: Tốc độ truyền trên máy truyền dịch là {{c1::21 ml/giờ}} (tương đương 7 giọt/phút dây truyền tiêu chuẩn 20 giọt/ml).",
-    "extra": "<b>💡 Kê đơn:</b> 500 ml / 24h = 20.8 ml/h.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Toc-do-truyen-5kg",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Dung dịch Glucose 5% khi vào cơ thể: Glucose được tế bào chuyển hóa nhanh chóng, biến thể tích dung dịch trở thành {{c1::nước tự do nhược trương hoàn toàn}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Áp lực thẩm thấu in vitro là 278 mOsm/L nhưng in vivo hoạt động như nước cất.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Glucose-5-sinh-ly",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Trong 1 ống dung dịch Natri Clorid 10% thể tích 10 ml chứa {{c1::17 mEq}} Natri (1 ml chứa 1.7 mEq Na+).",
-    "extra": "<b>💡 Pha dịch:</b> Dùng để pha dung dịch muối ưu trương NaCl 3% hoặc bù thiếu hụt Natri.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Ong-NaCl-10",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Trong 1 ống dung dịch Kali Clorid 10% thể tích 10 ml chứa {{c1::13,4 mEq}} Kali (1 ml chứa 1.34 mEq K+; tương đương 1g KCl chứa 13.4 mEq K+).",
-    "extra": "<b>💡 Pha dịch:</b> Cơ sở để tính thể tích KCl 10% cần rút pha vào chai dịch truyền.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Ong-KCl-10",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Phác đồ A điều trị tiêu chảy mất nước tại nhà: Trẻ &lt; 2 tuổi uống {{c1::50 - 100 ml}} ORS sau mỗi lần đi ngoài; Trẻ &ge; 2 tuổi uống {{c1::100 - 200 ml}}.",
-    "extra": "<b>💡 Giáo trình YTB:</b> Bù lượng dịch tiếp tục thất thoát qua phân.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Phac-do-A-luong-uong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Kỹ thuật khám nếp véo da (Casper): Bác sĩ dùng ngón cái và ngón trỏ véo nếp da bụng của trẻ dọc hoặc ngang theo đường rốn, giữ trong {{c1::1 giây}} rồi buông.",
-    "extra": "<b>💡 Khám lâm sàng:</b> Quan sát thời gian nếp gấp da phẳng trở lại hoàn toàn.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Ky-thuat-Casper",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Kỹ thuật khám độ khô niêm mạc miệng: Bác sĩ dùng ngón tay sạch sờ vào {{c1::rãnh lợi má hoặc niêm mạc dưới lưỡi}} (tránh sờ môi ngoài vì trẻ thở miệng môi khô giả tạo).",
-    "extra": "<b>💡 Mẹo khám:</b> Niêm mạc dưới lưỡi phản ánh trung thực độ ẩm cơ thể.",
-    "tags": [
-      "PED-50",
-      "PEDYTB",
-      "Ky-thuat-niem-mac",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Dấu hiệu điện tâm đồ đặc trưng của Hạ Kali máu gồm: {{c1::Sóng T dẹt hoặc đảo ngược}}, xuất hiện {{c1::sóng U nổi bật}} ngay sau sóng T và đoạn ST chênh xuống.",
-    "extra": "<b>💡 Điện tim:</b> Sóng U cao hơn sóng T là dấu hiệu kinh điển của hạ Kali máu nặng.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "ECG-ha-Kali",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tương tác nguy hiểm với thuốc trợ tim: Hạ Kali máu làm tăng mạnh độc tính của {{c1::Digoxin}} do Digoxin cạnh tranh với Kali tại vị trí gắn thụ thể trên bơm Na+/K+-ATPase.",
-    "extra": "<b>💡 Cảnh báo tử vong:</b> Trẻ đang dùng Digoxin nếu bị hạ Kali máu sẽ loạn nhịp thất chết người.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Tuong-tac-Digoxin-Kali",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Phân biệt hạ Canxi máu sơ sinh: Hạ Canxi sớm xuất hiện trong {{c1::72 giờ đầu sau sinh}} (do mẹ đái tháo đường, ngạt, sinh non); hạ Canxi muộn xuất hiện {{c1::sau 72 giờ tuổi}} (do uống sữa bò phosphat cao).",
-    "extra": "<b>💡 Sơ sinh học:</b> Hạ Canxi muộn liên quan đến tỷ lệ Canxi/Phosphat không thích hợp trong sữa công thức.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Ha-Canxi-so-sinh",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Nồng độ Canxi ion hóa (iCa) là dạng có hoạt tính sinh học trực tiếp, chiếm khoảng {{c1::50%}} tổng lượng Canxi huyết tương (giá trị bình thường {{c1::1,1 - 1,3 mmol/L}}).",
-    "extra": "<b>💡 Xét nghiệm:</b> Định lượng Canxi ion hóa chính xác hơn Canxi toàn phần khi trẻ bị giảm Albumin máu.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Canxi-ion-hoa",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Khi tiêm tĩnh mạch Calcium gluconate 10%, nếu tốc độ tiêm quá nhanh có thể kích thích dây thần kinh phế vị gây {{c1::nhịp tim chậm kịch phát, tụt huyết áp và ngừng tim}}.",
-    "extra": "<b>💡 Kỹ thuật tiêm:</b> Bắt buộc tiêm chậm tối thiểu 10 - 20 phút và nghe tim liên tục.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Nguy-co-tiem-Canxi-nhanh",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Cách pha dung dịch muối ưu trương NaCl 3% từ ống NaCl 10% và nước cất: Lấy {{c1::30 ml NaCl 10%}} pha với {{c1::70 ml Nước cất pha tiêm}} thu được 100 ml dung dịch NaCl 3%.",
-    "extra": "<b>💡 Kỹ thuật cấp cứu:</b> Chuẩn bị sẵn dung dịch NaCl 3% khi khoa không có chai đóng sẵn.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Cach-pha-NaCl-3",
-      "Lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong sốc mất nước nặng có tụt huyết áp, nếu sau 3 lần bolus dịch đẳng trương (tổng 60 ml/kg) trẻ vẫn chưa ra sốc: Cần chỉ định đặt {{c1::Catheter tĩnh mạch trung tâm (CVP)}} và dùng sớm {{c1::thuốc vận mạch (Adrenaline / Noradrenaline)}}.",
-    "extra": "<b>💡 PALS Protocol:</b> Sốc kháng dịch cần hỗ trợ vận mạch kịp thời, không bolus dịch vô tận.",
-    "tags": [
-      "PED-50",
-      "PED",
-      "Soc-khang-dich",
-      "Lam-sang"
-    ]
-  }
-]
+{
+  "topic": "Nhi khoa Y6::PED-50: Tiếp cận & Xử trí Rối loạn điện giải ở trẻ em",
+  "version": "master_combo_v1",
+  "date": "2026-09-28",
+  "total_cards": 116,
+  "cards": [
+    {
+      "id": "PED50-B01",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Mục tiêu bài học",
+      "section": "B0",
+      "front": "Mục tiêu 3 của bài Rối loạn nước và điện giải theo giáo trình Y Thái Bình là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Đánh giá chính xác mức độ mất nước dựa trên phần trăm sụt cân và bảng 4 mức độ triệu chứng lâm sàng.<br><br><b>💡 Lưu ý:</b><br>Sụt cân là thước đo vàng nhưng lâm sàng quyết định xử trí cấp cứu khi không có cân nặng trước bệnh.",
+      "extra": "Giáo trình Y Thái Bình: Mục tiêu học tập số 3 (trang 1).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Muc-tieu"
+      ]
+    },
+    {
+      "id": "PED50-B02",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Mục tiêu bài học",
+      "section": "B0",
+      "front": "Ba bài toán tính bù dịch lâm sàng kinh điển trong mục tiêu giáo trình YTB gồm những dạng nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mất nước đẳng trương; 2) Mất nước nhược trương (bù thiếu hụt Natri ngoại bào); 3) Mất nước ưu trương (tính nước tự do không điện giải, phòng phù não).<br><br><b>💡 Lưu ý:</b><br>Đây là 3 bài toán tính dịch bù cốt lõi đi thi lý thuyết và lâm sàng YTB.",
+      "extra": "Giáo trình Y Thái Bình: Mục tiêu học tập số 5 (trang 1).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Muc-tieu"
+      ]
+    },
+    {
+      "id": "PED50-B03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Công thức nước toàn phần",
+      "section": "B1",
+      "text": "[Barem gốc] Khối lượng nước toàn phần (V, tính bằng lít) ở trẻ em được ước tính nhanh theo cân nặng (P, tính bằng kg): {{c1::V (lít) = 0,6 × P (kg) + 0,25}}.",
+      "extra": "Giáo trình YTB Mục 1.1 (trang 2): Áp dụng để tính thể tích nước cơ thể khi bù dịch.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Cong-thuc-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B04",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phân bố nước",
+      "section": "B1",
+      "text": "[Barem gốc] Theo giáo trình YTB, tổng lượng nước chiếm {{c1::70%}} trọng lượng cơ thể ở trẻ 1 tháng tuổi và 6 tháng tuổi; chiếm {{c1::65%}} ở trẻ 12 tháng tuổi; và {{c1::60%}} ở trẻ 5 tuổi và 15 tuổi.",
+      "extra": "Giáo trình YTB Bảng 1.2 (trang 2): Tỷ lệ nước toàn phần giảm dần theo tuổi lớn.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Phan-bo-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B05",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phân bố nước",
+      "section": "B1",
+      "text": "[Barem gốc] Tỷ lệ nước ngoài tế bào (ECF) chiếm {{c1::60%}} tổng lượng nước ở trẻ 1 tháng tuổi, {{c1::50%}} ở trẻ 6 tháng, {{c1::47%}} ở trẻ 12 tháng, {{c1::45%}} ở trẻ 5 tuổi và {{c1::36%}} ở trẻ 15 tuổi.",
+      "extra": "Giáo trình YTB Bảng 1.2 (trang 2): Trẻ càng nhỏ ECF càng chiếm ưu thế nên rất dễ sốc mất nước.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Phan-bo-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B06",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thể tích máu",
+      "section": "B1",
+      "text": "[Barem gốc] Theo giáo trình YTB, thể tích máu toàn phần ở mọi lứa tuổi chiếm {{c1::8%}} thể trọng và thể tích huyết tương chiếm {{c1::5%}} thể trọng.",
+      "extra": "Giáo trình YTB Bảng 1.2 (trang 2).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "The-tich-mau"
+      ]
+    },
+    {
+      "id": "PED50-B07",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Ý nghĩa ECF",
+      "section": "B1",
+      "front": "Tại sao trẻ nhỏ rơi vào tình trạng mất nước và sốc giảm thể tích nhanh hơn người lớn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì tỷ lệ nước ngoài tế bào (ECF) ở trẻ rất cao (60% tổng lượng nước ở trẻ 1 tháng), là ngăn dịch lưu động tự do, trao đổi chất nhanh và dễ thất thoát.<br><br><b>💡 Lưu ý:</b><br>Người lớn ECF chỉ chiếm 36% nên khả năng bù trừ dịch kẽ tốt hơn nhiều.",
+      "extra": "Giáo trình YTB Mục 1.2 (trang 2).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Y-nghia-ECF"
+      ]
+    },
+    {
+      "id": "PED50-B08",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Nhu cầu nước",
+      "section": "B1",
+      "text": "[Barem gốc] Nhu cầu nước hàng ngày theo cân nặng trong giáo trình YTB: trẻ &lt; 10 kg là {{c1::120 – 150 ml/kg/24h}}; trẻ 10 – 40 kg là {{c1::70 – 110 ml/kg/24h}}; trẻ &gt; 40 kg là {{c1::40 – 50 ml/kg/24h}}.",
+      "extra": "Giáo trình YTB Mục 1.3 (trang 3): Nhu cầu nước tính theo kg giảm dần khi trẻ lớn.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Nhu-cau-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B09",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Nguồn nước nội sinh",
+      "section": "B1",
+      "text": "[Barem gốc] Lượng nước nội sinh tạo ra từ chuyển hóa chất trong giáo trình YTB: 100 g Protid cho {{c1::56 ml}} nước; 100 g Glucid cho {{c1::42 ml}} nước; 100 g Lipid cho {{c1::107 ml}} nước.",
+      "extra": "Giáo trình YTB Mục 1.4 (trang 3): Lipid sinh nhiều nước chuyển hóa nhất.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Nuoc-noi-sinh"
+      ]
+    },
+    {
+      "id": "PED50-B10",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Nước mất vô hình",
+      "section": "B1",
+      "text": "[Barem gốc] Nước mất vô hình (Insensible Water Loss) chiếm khoảng 50% tổng lượng nước mất: qua da {{c1::30%}}, qua phổi {{c1::15%}}, qua phân {{c1::5%}}.",
+      "extra": "Giáo trình YTB Mục 1.5 (trang 3).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Mat-nuoc-vo-hinh"
+      ]
+    },
+    {
+      "id": "PED50-B11",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Mất nước do sốt",
+      "section": "B1",
+      "text": "[Barem gốc] Khi trẻ sốt, lượng nước mất vô hình tăng thêm {{c1::10 – 12%}} cho mỗi {{c1::1°C}} thân nhiệt tăng trên 37°C.",
+      "extra": "Giáo trình YTB Mục 1.5 (trang 3): Bắt buộc cộng thêm phần dịch này vào nhu cầu duy trì khi trẻ sốt.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Sot-mat-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B12",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Nhu cầu duy trì",
+      "section": "B1",
+      "text": "[Barem gốc] Ba phương pháp ước tính nhu cầu nước duy trì theo sách YTB: theo diện tích da là {{c1::1500 ml/m² da/24h}}; theo năng lượng tiêu hao là {{c1::100 – 150 ml / 100 kcal}}; theo Holliday – Segar.",
+      "extra": "Giáo trình YTB Mục 1.6 (trang 3).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Nhu-cau-duy-tri"
+      ]
+    },
+    {
+      "id": "PED50-B13",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Công thức Holliday-Segar",
+      "section": "B1",
+      "text": "[Barem gốc] Công thức Holliday – Segar: 10 kg đầu là {{c1::100 ml/kg/24h}}; 10 kg tiếp theo là {{c1::1000 ml + 50 ml/kg}}; trên 20 kg là {{c1::1500 ml + 20 ml/kg}}.",
+      "extra": "Giáo trình YTB Mục 1.6 (trang 3): Công thức thông dụng nhất trên lâm sàng.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Holliday-Segar"
+      ]
+    },
+    {
+      "id": "PED50-B14",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Điện giải đồ",
+      "section": "B2",
+      "text": "[Barem gốc] Nồng độ Natri (Na⁺) bình thường: huyết tương ngoại bào là {{c1::135 – 145 mEq/L}} (chuẩn 145); trong tế bào nội bào là {{c1::5 – 10 mEq/L}}.",
+      "extra": "Giáo trình YTB Bảng 2.1 (trang 4): Natri quyết định áp lực thẩm thấu ngoại bào.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Dien-giai-Natri"
+      ]
+    },
+    {
+      "id": "PED50-B15",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Điện giải đồ",
+      "section": "B2",
+      "text": "[Barem gốc] Nồng độ Kali (K⁺) bình thường: huyết tương ngoại bào là {{c1::3,5 – 5,0 mEq/L}} (chuẩn 3 – 5); trong tế bào nội bào là {{c1::150 mEq/L}}.",
+      "extra": "Giáo trình YTB Bảng 2.1 (trang 4): Kali là cation chính nội bào, duy trì điện thế nghỉ màng tế bào.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Dien-giai-Kali"
+      ]
+    },
+    {
+      "id": "PED50-B16",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Điện giải đồ",
+      "section": "B2",
+      "text": "[Barem gốc] Nồng độ Calci (Ca⁺⁺) bình thường: huyết tương là {{c1::4,5 – 5,5 mEq/L}} (chuẩn 3 – 5); trong tế bào là {{c1::3 mEq/L}}.",
+      "extra": "Giáo trình YTB Bảng 2.1 (trang 4): Đóng vai trò dẫn truyền thần kinh cơ, co bóp tim, đông máu.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Dien-giai-Canxi"
+      ]
+    },
+    {
+      "id": "PED50-B17",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Điện giải đồ",
+      "section": "B2",
+      "text": "[Barem gốc] Nồng độ Magie (Mg⁺⁺) bình thường: huyết tương là {{c1::1,5 – 2,5 mEq/L}} (chuẩn 2); trong tế bào là {{c1::30 mEq/L}}.",
+      "extra": "Giáo trình YTB Bảng 2.1 (trang 4): Magie là đồng yếu tố chính cho enzyme chuyển hóa ATP.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Dien-giai-Magie"
+      ]
+    },
+    {
+      "id": "PED50-B18",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Điện giải đồ",
+      "section": "B2",
+      "text": "[Barem gốc] Nồng độ Clo (Cl⁻) huyết tương là {{c1::98 – 106 mEq/L}} (chuẩn 103); Bicarbonat (HCO₃⁻) huyết tương là {{c1::22 – 26 mEq/L}} (chuẩn 26).",
+      "extra": "Giáo trình YTB Bảng 2.1 (trang 4): Clo là anion chính ngoại bào, HCO3 là đệm kiềm ngoại bào quan trọng nhất.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Dien-giai-Clo-HCO3"
+      ]
+    },
+    {
+      "id": "PED50-B19",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Nhu cầu điện giải",
+      "section": "B2",
+      "text": "[Barem gốc] Nhu cầu điện giải duy trì hàng ngày theo giáo trình YTB: Natri là {{c1::2 – 3 mEq/kg/24h}}; Kali là {{c1::1 – 2 mEq/kg/24h}}.",
+      "extra": "Giáo trình YTB Mục 2.2 (trang 4): Dùng để tính lượng điện giải trong bài toán dịch bù.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Nhu-cau-dien-giai"
+      ]
+    },
+    {
+      "id": "PED50-B20",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Nhu cầu điện giải",
+      "section": "B2",
+      "text": "[Barem gốc] Nhu cầu Magie duy trì hàng ngày là {{c1::0,4 – 0,8 mEq/kg/24h}}; Calci duy trì là {{c1::50 – 200 mg/kg/24h}}.",
+      "extra": "Giáo trình YTB Mục 2.2 (trang 4-5).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Nhu-cau-dien-giai"
+      ]
+    },
+    {
+      "id": "PED50-B21",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phân độ mất nước",
+      "section": "B3",
+      "text": "[Barem gốc] Phân độ mất nước theo sụt cân: Chưa mất nước là {{c1::≤ 5%}}; Mất nước nhẹ và vừa là {{c1::6 – 9%}}; Mất nước nặng là {{c1::10 – 15%}}; Nguy kịch là {{c1::≥ 15%}} thể trọng.",
+      "extra": "Giáo trình YTB Bảng 3.1 (trang 5): Barem kinh điển 4 mức độ sụt cân.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Phan-do-mat-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B22",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Triệu chứng lâm sàng",
+      "section": "B3",
+      "text": "[Barem gốc] Tinh thần theo phân độ mất nước YTB: Chưa mất nước: {{c1::tỉnh táo, bình thường}}; Nhẹ và vừa: {{c1::kích thích, quấy khóc}}; Nặng: {{c1::mệt, li bì, khó đánh thức}}; Nguy kịch: {{c1::hôn mê}}.",
+      "extra": "Giáo trình YTB Bảng 3.1 (trang 5).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Trieu-chung-mat-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B23",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Triệu chứng lâm sàng",
+      "section": "B3",
+      "text": "[Barem gốc] Cảm giác khát theo phân độ mất nước YTB: Chưa mất nước: {{c1::uống bình thường}}; Nhẹ và vừa: {{c1::khát, uống háo hức}}; Nặng: {{c1::uống kém hoặc không uống được}}; Nguy kịch: {{c1::không thể uống được}}.",
+      "extra": "Giáo trình YTB Bảng 3.1 (trang 5).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Trieu-chung-mat-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B24",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Nếp véo da Casper",
+      "section": "B3",
+      "text": "[Barem gốc] Dấu hiệu nếp véo da bụng (Casper) theo phân độ YTB: Chưa mất nước: {{c1::mất nhanh (&lt; 1 giây)}}; Nhẹ và vừa: {{c1::mất chậm (1 – 2 giây)}}; Nặng: {{c1::mất rất chậm (&gt; 2 giây)}}.",
+      "extra": "Giáo trình YTB Bảng 3.1 (trang 5): Thực hiện véo dọc theo nếp gấp da bụng.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Nep-veo-da"
+      ]
+    },
+    {
+      "id": "PED50-B25",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Ba thể mất nước",
+      "section": "B3",
+      "text": "[Barem gốc] Cơ chế 3 thể mất nước: Mất nước đẳng trương do {{c1::nước và Natri mất tương đương}}; Mất nước ưu trương do {{c1::nước mất nhiều hơn Natri}}; Mất nước nhược trương do {{c1::Natri mất nhiều hơn nước}}.",
+      "extra": "Giáo trình YTB Bảng 3.2 (trang 5).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Ba-the-mat-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B26",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Lâm sàng 3 thể mất nước",
+      "section": "B3",
+      "front": "Phân biệt triệu chứng lâm sàng đặc thù giữa mất nước ưu trương và nhược trương theo sách YTB?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ưu trương: khát dữ dội, kích thích co giật, sốt cao, da dẻo nhão như bột; Nhược trương: li bì hôn mê, trụy mạch sốc sớm, Casper (++) mất rất chậm trên nền suy dinh dưỡng.<br><br><b>💡 Lưu ý:</b><br>Nhược trương ECF giảm rất nặng nên sốc sớm; ưu trương ECF còn giữ được nên ít sốc nhưng tổn thương não nặng.",
+      "extra": "Giáo trình YTB Bảng 3.2 (trang 5).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Ba-the-mat-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B27",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Ba thể mất nước",
+      "section": "B3",
+      "text": "[Barem gốc] Nguyên nhân 3 thể mất nước: Đẳng trương do {{c1::tiêu chảy cấp, nôn trớ}}; Ưu trương do {{c1::say nóng, sốt cao mất mồ hôi, đái tháo nhạt}}; Nhược trương do {{c1::tiêu chảy kéo dài, suy dinh dưỡng, dùng dịch nhược trương quá mức}}.",
+      "extra": "Giáo trình YTB Bảng 3.2 (trang 5).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Ba-the-mat-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B28",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Ba thể mất nước",
+      "section": "B3",
+      "text": "[Barem gốc] Lượng nước mất ước tính theo thể: Đẳng trương mất {{c1::100 – 150 ml/kg}}; Ưu trương mất {{c1::120 – 170 ml/kg}}; Nhược trương mất {{c1::40 – 80 ml/kg}}.",
+      "extra": "Giáo trình YTB Bảng 3.2 (trang 5): Mất nước ưu trương mất nhiều nước nhất.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Ba-the-mat-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B29",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Ba thể mất nước",
+      "section": "B3",
+      "text": "[Barem gốc] Lượng Natri mất ước tính theo thể: Đẳng trương mất {{c1::7 – 11 mEq/kg}}; Ưu trương mất {{c1::2 – 5 mEq/kg}}; Nhược trương mất {{c1::10 – 14 mEq/kg}}.",
+      "extra": "Giáo trình YTB Bảng 3.2 (trang 5): Mất nước nhược trương mất nhiều Natri nhất.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Ba-the-mat-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B30",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Ba thể mất nước",
+      "section": "B3",
+      "text": "[Barem gốc] Tiêu chuẩn xét nghiệm 3 thể mất nước: Đẳng trương có Na⁺ máu {{c1::130 – 150 mEq/L}}, ALTT {{c1::275 – 295 mOsmol/L}}; Ưu trương có Na⁺ máu {{c1::&gt; 150 mEq/L}}, ALTT {{c1::&gt; 310 mOsmol/L}}; Nhược trương có Na⁺ máu {{c1::&lt; 130 mEq/L}}, ALTT {{c1::&lt; 275 mOsmol/L}}.",
+      "extra": "Giáo trình YTB Bảng 3.2 (trang 5).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Ba-the-mat-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B31",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Hậu quả mất nước",
+      "section": "B4",
+      "front": "Kể tên 4 hậu quả nguy hiểm của mất nước theo giáo trình YTB?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giảm thể tích tuần hoàn (tụt HA, thiểu niệu, sốc); 2) Rối loạn áp lực thẩm thấu (teo não hoặc phù não); 3) Rối loạn ion và toan kiềm (toan chuyển hóa); 4) Tổn thương tế bào không hồi phục và suy đa tạng.<br><br><b>💡 Lưu ý:</b><br>Toan chuyển hóa thường do mất Bicarbonat và giảm tưới máu mô (toan lactic).",
+      "extra": "Giáo trình YTB Mục 4.1 (trang 6).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Hau-qua-mat-nuoc"
+      ]
+    },
+    {
+      "id": "PED50-B32",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phác đồ A",
+      "section": "B4",
+      "text": "[Barem gốc] Phác đồ A (tại nhà): Uống ORS sau mỗi lần đi ngoài: trẻ &lt; 2 tuổi uống {{c1::50 – 100 ml}}; trẻ ≥ 2 tuổi uống {{c1::100 – 200 ml}}; tiếp tục ăn bú và bổ sung Kẽm {{c1::10 – 14 ngày}}.",
+      "extra": "Giáo trình YTB Mục 4.2 (trang 6): Áp dụng khi chưa mất nước.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Phac-do-A"
+      ]
+    },
+    {
+      "id": "PED50-B33",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phác đồ B",
+      "section": "B4",
+      "text": "[Barem gốc] Phác đồ B (tại cơ sở y tế): Cho uống dung dịch ORS thẩm thấu thấp liều {{c1::75 ml/kg}} trong vòng {{c1::4 giờ đầu}}, sau đó đánh giá lại tình trạng mất nước.",
+      "extra": "Giáo trình YTB Mục 4.2 (trang 6): Áp dụng cho mất nước nhẹ và vừa.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Phac-do-B"
+      ]
+    },
+    {
+      "id": "PED50-B34",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phác đồ C",
+      "section": "B4",
+      "text": "[Barem gốc] Phác đồ C (cấp cứu truyền tĩnh mạch): Tổng liều {{c1::100 ml/kg}} dung dịch Ringer Lactat hoặc NaCl 0,9%.",
+      "extra": "Giáo trình YTB Mục 4.2 (trang 6): Áp dụng cho mất nước nặng.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Phac-do-C"
+      ]
+    },
+    {
+      "id": "PED50-B35",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phác đồ C trẻ nhỏ",
+      "section": "B4",
+      "text": "[Barem gốc] Phác đồ C ở trẻ &lt; 12 tháng tuổi: Truyền tĩnh mạch {{c1::30 ml/kg}} trong 1 giờ đầu, sau đó truyền {{c1::70 ml/kg}} trong 5 giờ tiếp theo (tổng cộng {{c1::6 giờ}}).",
+      "extra": "Giáo trình YTB Mục 4.2 (trang 6): Trẻ nhỏ truyền chậm hơn trẻ lớn để tránh quá tải tuần hoàn.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Phac-do-C"
+      ]
+    },
+    {
+      "id": "PED50-B36",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phác đồ C trẻ lớn",
+      "section": "B4",
+      "text": "[Barem gốc] Phác đồ C ở trẻ ≥ 12 tháng tuổi: Truyền tĩnh mạch {{c1::30 ml/kg}} trong {{c1::30 phút đầu}}, sau đó truyền {{c1::70 ml/kg}} trong {{c1::2,5 giờ}} tiếp theo (tổng cộng {{c1::3 giờ}}).",
+      "extra": "Giáo trình YTB Mục 4.2 (trang 6).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Phac-do-C"
+      ]
+    },
+    {
+      "id": "PED50-B37",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bài toán 1",
+      "section": "B5",
+      "text": "[Barem gốc] Bài toán 1 (mất nước đẳng trương, trẻ 5 kg mất 10%): Tổng lượng nước cần truyền trong 24 giờ gồm nước mất {{c1::500 ml}} cộng nước duy trì {{c1::500 ml}} = {{c1::1000 ml}}.",
+      "extra": "Giáo trình YTB Mục 5.1 (trang 7): Nước mất 5 kg × 10% = 500 ml; duy trì Holliday-Segar 5 kg × 100 ml = 500 ml.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Bai-toan-1"
+      ]
+    },
+    {
+      "id": "PED50-B38",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bài toán 1",
+      "section": "B5",
+      "text": "[Barem gốc] Bài toán 1: Tổng lượng Natri cần bù trong 24 giờ gồm Na duy trì (3 × 5 kg = {{c1::15 mEq}}) cộng Na mất theo dịch đẳng trương (154 × 0,5 L = {{c1::77 mEq}}) bằng tổng cộng {{c1::92 mEq}}.",
+      "extra": "Giáo trình YTB Mục 5.1 (trang 7): Dịch đẳng trương tính theo nồng độ 154 mEq/L.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Bai-toan-1"
+      ]
+    },
+    {
+      "id": "PED50-B39",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bài toán 1",
+      "section": "B5",
+      "text": "[Barem gốc] Bài toán 1: Phối hợp dịch truyền cho tổng Na 92 mEq và tổng nước 1000 ml là {{c1::600 ml NaCl 0,9%}} kết hợp với {{c1::400 ml Glucose 5%}} (tỷ lệ {{c1::3 : 2}}).",
+      "extra": "Giáo trình YTB Mục 5.1 (trang 7): 92 / 0,154 ≈ 600 ml muối; còn lại 400 ml đường.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Bai-toan-1"
+      ]
+    },
+    {
+      "id": "PED50-B40",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bài toán 2",
+      "section": "B5",
+      "text": "[Barem gốc] Bài toán 2 (mất nước nhược trương, 5 kg mất 10%, Na⁺ = 125 mEq/L): Lượng Na⁺ cần điều chỉnh ngoại bào tính theo công thức {{c1::(Na_mm – Na_bn) × 0,6 × P₀}} = (135 – 125) × 0,6 × 5 = {{c1::30 mEq}}.",
+      "extra": "Giáo trình YTB Mục 5.2 (trang 8): Nâng Na lên ngưỡng an toàn 135 mEq/L; thể tích phân bố ECF là 0,6.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Bai-toan-2"
+      ]
+    },
+    {
+      "id": "PED50-B41",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bài toán 2",
+      "section": "B5",
+      "text": "[Barem gốc] Bài toán 2: Tổng lượng Na⁺ cần bù gồm Na điều chỉnh (30 mEq) + Na mất theo đẳng trương (77 mEq) + Na duy trì (15 mEq) = tổng cộng {{c1::122 mEq}} trong 1000 ml dịch.",
+      "extra": "Giáo trình YTB Mục 5.2 (trang 8).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Bai-toan-2"
+      ]
+    },
+    {
+      "id": "PED50-B42",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bài toán 2",
+      "section": "B5",
+      "text": "[Barem gốc] Bài toán 2: Phối hợp dịch truyền cho tổng Na 122 mEq và tổng nước 1000 ml là {{c1::800 ml NaCl 0,9%}} kết hợp với {{c1::200 ml Glucose 5%}} (tỷ lệ {{c1::4 : 1}}).",
+      "extra": "Giáo trình YTB Mục 5.2 (trang 8): 122 / 0,154 ≈ 800 ml muối; còn lại 200 ml đường.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Bai-toan-2"
+      ]
+    },
+    {
+      "id": "PED50-B43",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bài toán 3",
+      "section": "B5",
+      "text": "[Barem gốc] Bài toán 3 (mất nước ưu trương, 5 kg mất 10%, Na⁺ = 170 mEq/L): Công thức tính lượng nước không điện giải (nước tự do) là {{c1::(Na_bn / Na_mm) × [0,6P₀ – 0,6P]}} = (170 / 145) × 0,3 ≈ {{c1::350 ml}}.",
+      "extra": "Giáo trình YTB Mục 5.3 (trang 9): P0 = 5 kg, P hiện tại = 4,5 kg; Na mong muốn chuẩn là 145 mEq/L.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Bai-toan-3"
+      ]
+    },
+    {
+      "id": "PED50-B44",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bài toán 3",
+      "section": "B5",
+      "text": "[Barem gốc] Bài toán 3: Trong 500 ml nước mất có 350 ml nước tự do và 150 ml dịch chứa điện giải; lượng Na⁺ thực tế mất là 154 × 0,15 L ≈ {{c1::23 mEq}}; cộng Na duy trì 15 mEq thành tổng {{c1::38 mEq}}.",
+      "extra": "Giáo trình YTB Mục 5.3 (trang 9).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Bai-toan-3"
+      ]
+    },
+    {
+      "id": "PED50-B45",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bài toán 3",
+      "section": "B5",
+      "text": "[Barem gốc] Bài toán 3: Phối hợp dịch truyền cho tổng Na 38 mEq và tổng nước 1000 ml là {{c1::250 ml NaCl 0,9%}} kết hợp với {{c1::750 ml Glucose 5%}} (dung dịch nhược trương 1/4 đẳng trương, tỷ lệ {{c1::1 : 3}}).",
+      "extra": "Giáo trình YTB Mục 5.3 (trang 9): 38 / 0,154 ≈ 250 ml muối; 750 ml đường.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Bai-toan-3"
+      ]
+    },
+    {
+      "id": "PED50-B46",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Bài toán 3",
+      "section": "B5",
+      "front": "Quy tắc an toàn sống còn chống phù não cấp khi bù dịch mất nước ưu trương theo sách YTB là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tốc độ hạ Natri máu không được vượt quá 0,5 mEq/L/giờ (tối đa không quá 10–12 mEq/L trong 24 giờ đầu); thời gian truyền dịch phải kéo dài trong 36–48 giờ.<br><br><b>💡 Lưu ý:</b><br>Hạ Natri quá nhanh làm nước ùa vào tế bào não đang ứ chất thẩm thấu gây phù não cấp tử vong.",
+      "extra": "Giáo trình YTB Mục 5.3 (trang 9).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Bai-toan-3",
+        "An-toan"
+      ]
+    },
+    {
+      "id": "PED50-B47",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Cấp cứu hạ Natri",
+      "section": "B6",
+      "text": "[Barem gốc] Khi trẻ hạ Natri máu cấp có triệu chứng thần kinh (co giật, hôn mê, Na⁺ &lt; 120 mEq/L), xử trí cấp cứu bằng tiêm tĩnh mạch nhanh {{c1::NaCl 3% liều 4 ml/kg}} trong {{c1::20 – 30 phút}}.",
+      "extra": "Giáo trình YTB Mục 6.1 (trang 10): Nhằm nâng nhanh Natri thêm 3-5 mEq/L để dứt cơn co giật và chống tụt kẹt não.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Cap-cuu-ha-Natri"
+      ]
+    },
+    {
+      "id": "PED50-B48",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Nguyên tắc bù Kali",
+      "section": "B6",
+      "front": "Điều kiện tiên quyết trước khi bắt đầu bù Kali đường tĩnh mạch ở trẻ em theo sách YTB là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ bắt buộc phải có nước tiểu (đã đi tiểu được) nhằm loại trừ suy thận cấp vô niệu.<br><br><b>💡 Lưu ý:</b><br>Bù Kali cho bệnh nhi vô niệu sẽ gây tăng Kali máu cấp tính dẫn đến ngừng tim tức thì.",
+      "extra": "Giáo trình YTB Mục 6.2 (trang 10).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Bu-Kali-an-toan"
+      ]
+    },
+    {
+      "id": "PED50-B49",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Giới hạn bù Kali",
+      "section": "B6",
+      "text": "[Barem gốc] Giới hạn an toàn khi bù Kali tĩnh mạch ngoại vi theo giáo trình YTB: nồng độ pha truyền không vượt quá {{c1::40 mEq/L (0,3%)}}; tốc độ truyền tối đa là {{c1::0,5 mEq/kg/giờ}}.",
+      "extra": "Giáo trình YTB Mục 6.2 (trang 10).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Bu-Kali-an-toan"
+      ]
+    },
+    {
+      "id": "PED50-B50",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Cấp cứu tăng Kali",
+      "section": "B6",
+      "text": "[Barem gốc] Tăng Kali máu (K⁺ &gt; 5,5 mEq/L) — Bước 1: Ổn định màng tế bào cơ tim bằng tiêm tĩnh mạch chậm {{c1::Calcium gluconate 10% liều 0,5 ml/kg}} trong {{c1::5 phút}} dưới theo dõi ECG.",
+      "extra": "Giáo trình YTB Mục 6.2 (trang 10): Chống rung thất và ngừng tim trong lúc chờ hạ Kali máu.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Tang-Kali"
+      ]
+    },
+    {
+      "id": "PED50-B51",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Cấp cứu tăng Kali",
+      "section": "B6",
+      "text": "[Barem gốc] Tăng Kali máu — Bước 2 (dịch chuyển Kali vào nội bào): Truyền Glucose 10% kèm Insulin nhanh theo tỷ lệ {{c1::0,1 UI Insulin}} cho mỗi {{c1::4 g Glucose}}; phối hợp khí dung {{c1::Salbutamol liều cao (2,5 – 5 mg)}}.",
+      "extra": "Giáo trình YTB Mục 6.2 (trang 10): Kèm NaHCO3 1,4% nếu có toan chuyển hóa.",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Tang-Kali"
+      ]
+    },
+    {
+      "id": "PED50-B52",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Cấp cứu tăng Kali",
+      "section": "B6",
+      "text": "[Barem gốc] Tăng Kali máu — Bước 3 (đào thải Kali ra ngoài): Tiêm Furosemide {{c1::1 – 2 mg/kg}}; uống hoặc thụt tháo nhựa trao đổi ion {{c1::Kayexalate}}; và {{c1::lọc máu cấp cứu}} nếu kháng trị.",
+      "extra": "Giáo trình YTB Mục 6.2 (trang 10).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Tang-Kali"
+      ]
+    },
+    {
+      "id": "PED50-B53",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Điện giải đồ",
+      "section": "B2",
+      "front": "Vai trò sinh lý chính của ion Clo (Cl⁻) và ion Bicarbonat (HCO₃⁻) trong máu trẻ em là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Clo là anion chính ngoại bào duy trì cân bằng điện tích; Bicarbonat là hệ đệm kiềm ngoại bào quan trọng nhất duy trì pH máu.<br><br><b>💡 Lưu ý:</b><br>Khi nôn mất Clo gây kiềm chuyển hóa; khi tiêu chảy mất Bicarbonat gây toan chuyển hóa.",
+      "extra": "Giáo trình YTB Bảng 2.1 (trang 4).",
+      "tags": [
+        "PED-50",
+        "Barem-goc",
+        "Dien-giai-Clo-HCO3"
+      ]
+    },
+    {
+      "id": "PED50-E01",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Nền tảng cấp cứu",
+      "section": "E0",
+      "front": "Thứ tự ưu tiên xử trí ban đầu khi tiếp cận trẻ có rối loạn nước và điện giải nặng tại phòng cấp cứu là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Đánh giá và xử trí cấp cứu các dấu hiệu đe dọa tính mạng (sốc giảm thể tích, co giật) trước khi làm xét nghiệm chi tiết.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Hồi sức tuần hoàn và giải tỏa phù não co giật bằng NaCl 3% là ưu tiên số 1 để bảo toàn tính mạng.",
+      "extra": "Release Lesson PED-50 Mục 0.1.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Tong-quan"
+      ]
+    },
+    {
+      "id": "PED50-E02",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Guidelines AAP 2018",
+      "section": "E0",
+      "front": "Khuyến cáo của Viện Hàn lâm Nhi khoa Hoa Kỳ (AAP 2018) về dịch truyền duy trì ở trẻ nằm viện có gì thay đổi so với quan điểm truyền thống?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Khuyến cáo bắt buộc dùng dịch đẳng trương (NaCl 0.9%) làm dịch duy trì, thay thế hoàn toàn dịch nhược trương truyền thống.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Bệnh nhi nằm viện có kích thích tăng tiết ADH; dùng dịch nhược trương sẽ giữ nước tự do gây hạ Natri máu mắc phải tại viện (PMID: 30478247).",
+      "extra": "AAP Guideline (Feld LG et al., Pediatrics 2018, PMID: 30478247).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "AAP-2018",
+        "Dich-duy-tri"
+      ]
+    },
+    {
+      "id": "PED50-E03",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Guidance CJASN 2023",
+      "section": "E0",
+      "text": "Theo đồng thuận CJASN 2023 về xử trí tăng Natri máu ở trẻ em, tốc độ hạ Natri máu tối đa cho phép là {{c1::≤ 0,5 mEq/L/giờ}} (tối đa {{c1::10 – 12 mEq/L/24h}}).",
+      "extra": "Somers MJ et al., Clin J Am Soc Nephrol 2023 (PMID: 36888887): Ngăn ngừa biến chứng phù não cấp và co giật tử vong.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "CJASN-2023",
+        "Tang-Natri"
+      ]
+    },
+    {
+      "id": "PED50-E04",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Dịch tễ PICU",
+      "section": "E0",
+      "front": "Nghiên cứu đoàn hệ 4.821 bệnh nhi PICU (BMC Pediatr 2026) ghi nhận tác động nào của hạ Natri máu lúc nhập viện?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gặp ở 28,4% bệnh nhi và liên quan độc lập với tăng thời gian thở máy (OR = 1,62) cùng tăng nguy cơ tử vong (OR = 1,85).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Hạ Natri máu là dấu ấn độc lập của bệnh nặng, đòi hỏi can thiệp cấp cứu kịp thời bằng NaCl 3% khi có co giật.",
+      "extra": "Chen Y et al., BMC Pediatr 2026 (PMID: 42015038).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Dich-te-PICU"
+      ]
+    },
+    {
+      "id": "PED50-E05",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Sinh lý khoang dịch",
+      "section": "E1",
+      "front": "Tại sao ở trẻ nhũ nhi tỷ lệ nước toàn phần (70%) và ECF (60%) lại cao hơn người trưởng thành?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Do trẻ có tỷ lệ diện tích bề mặt cơ thể trên cân nặng lớn, khối lượng cơ ít, mô liên kết giàu dịch kẽ chưa hoàn thiện cô đặc.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>ECF lưu động tự do nên trẻ nhạy cảm gấp bội với mọi mất mát dịch qua phân, mồ hôi và hơi thở.",
+      "extra": "Release Lesson PED-50 Mục 1.2.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Sinh-ly-dich"
+      ]
+    },
+    {
+      "id": "PED50-E06",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Tính dịch Holliday-Segar",
+      "section": "E1",
+      "text": "Áp dụng Holliday – Segar cho trẻ nhũ nhi cân nặng 8 kg: Nhu cầu nước duy trì trong 24 giờ là {{c1::8 × 100 = 800 ml/24h}} (tốc độ truyền {{c1::33 ml/giờ}}).",
+      "extra": "Release Lesson PED-50 Mục 1.3: Dưới 10 kg tính chuẩn 100 ml/kg/ngày.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Holliday-Segar"
+      ]
+    },
+    {
+      "id": "PED50-E07",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Tính dịch Holliday-Segar",
+      "section": "E1",
+      "text": "Áp dụng Holliday – Segar cho trẻ lứa tuổi nhà trẻ cân nặng 15 kg: Nhu cầu nước duy trì trong 24 giờ là 1000 ml + (5 × 50 ml) = {{c1::1250 ml/24h}}.",
+      "extra": "Release Lesson PED-50 Mục 1.3: 10 kg đầu cho 1000 ml, 5 kg tiếp theo mỗi kg 50 ml.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Holliday-Segar"
+      ]
+    },
+    {
+      "id": "PED50-E08",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Tính dịch Holliday-Segar",
+      "section": "E1",
+      "text": "Áp dụng Holliday – Segar cho trẻ học sinh cân nặng 25 kg: Nhu cầu nước duy trì trong 24 giờ là 1500 ml + (5 × 20 ml) = {{c1::1600 ml/24h}}.",
+      "extra": "Release Lesson PED-50 Mục 1.3: 20 kg đầu cho 1500 ml, mỗi kg trên 20 kg thêm 20 ml.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Holliday-Segar"
+      ]
+    },
+    {
+      "id": "PED50-E09",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Tính bù ORS phác đồ B",
+      "section": "E1",
+      "text": "Theo Phác đồ B đường uống, một trẻ 6 kg mất nước mức độ vừa cần được uống {{c1::6 × 75 = 450 ml}} dung dịch ORS trong vòng {{c1::4 giờ đầu}}.",
+      "extra": "Release Lesson PED-50 Mục 1.3: Liều chuẩn phác đồ B là 75 ml/kg trong 4 giờ.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Phac-do-B"
+      ]
+    },
+    {
+      "id": "PED50-E10",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Sốc giảm thể tích",
+      "section": "E2",
+      "front": "Mô tả chuỗi cơ chế bệnh sinh từ tiêu chảy cấp đến sốc giảm thể tích ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Mất dịch ngoại bào giàu muối nước → tụt thể tích tuần hoàn hữu hiệu → giảm hồi lưu tĩnh mạch về tim → giảm cung lượng tim → hạ huyết áp và sốc giảm thể tích.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Tụt áp là dấu hiệu sốc mất bù muộn ở trẻ em; CRT kéo dài và mạch nhanh nhỏ xuất hiện sớm hơn.",
+      "extra": "Release Lesson PED-50 Mục 2.2 (Chuỗi cơ chế 1).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Soc-giam-the-tich"
+      ]
+    },
+    {
+      "id": "PED50-E11",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cơ chế mất nước ưu trương",
+      "section": "E2",
+      "front": "Tại sao mất nước ưu trương nặng có thể gây xuất huyết dưới màng cứng ở trẻ nhỏ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>ALTT ngoại bào tăng cao (&gt; 310 mOsmol/L) hút nước ra khỏi tế bào não làm não teo nhỏ → kéo căng và làm rách các tĩnh mạch cầu nối màng não.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Đây là tổn thương cơ học mạch máu nguy hiểm đặc thù của ưu trương, biểu hiện kích thích và co giật.",
+      "extra": "Release Lesson PED-50 Mục 2.2 (Chuỗi cơ chế 2).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Mat-nuoc-uu-truong",
+        "Co-che"
+      ]
+    },
+    {
+      "id": "PED50-E12",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cơ chế hạ Natri máu",
+      "section": "E2",
+      "front": "Tại sao hạ Natri máu cấp tính (&lt; 120 mEq/L) lại gây phù não cấp và tụt kẹt não?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>ALTT ngoại bào giảm sâu tạo chênh lệch thẩm thấu khiến nước ùa vào trong tế bào não → tế bào thần kinh trương phồng gây tăng áp lực nội sọ cấp.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Hộp sọ trẻ có dung tích cố định; phù não cấp dẫn đến co giật toàn thể, tụt kẹt hạnh nhân tiểu não và tử vong.",
+      "extra": "Release Lesson PED-50 Mục 2.2 (Chuỗi cơ chế 3).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Ha-Natri",
+        "Phu-nao"
+      ]
+    },
+    {
+      "id": "PED50-E13",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cơ chế tăng Kali máu",
+      "section": "E2",
+      "front": "Tại sao tăng Kali máu nặng (&gt; 6,5 mEq/L) đe dọa ngừng tim đột ngột trong tâm trương?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Làm giảm chênh lệch nồng độ Kali qua màng cơ tim → mất phân cực màng, chậm dẫn truyền nhĩ thất, giãn rộng QRS dẫn tới rung thất và ngừng tim.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Tim ngừng đập ở thì tâm trương do cơ tim không thể tái cực để tiếp tục co bóp.",
+      "extra": "Release Lesson PED-50 Mục 2.2 (Chuỗi cơ chế 4).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Tang-Kali",
+        "Dien-tam-do"
+      ]
+    },
+    {
+      "id": "PED50-E14",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Phân biệt SIADH và CSW",
+      "section": "E2",
+      "front": "Điểm khác biệt cốt lõi về thể tích tuần hoàn giữa hội chứng SIADH và CSW ở trẻ chấn thương/phẫu thuật thần kinh là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>SIADH có thể tích tuần hoàn bình thường hoặc tăng nhẹ (Euvolemic); CSW có giảm thể tích tuần hoàn rõ rệt (Hypovolemic dehydration).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>SIADH do ứ nước tự do qua ADH; CSW do thận thải muối qua ANP/BNP kèm mất nước qua thận.",
+      "extra": "Release Lesson PED-50 Mục 2.3.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "SIADH",
+        "CSW"
+      ]
+    },
+    {
+      "id": "PED50-E15",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Xử trí SIADH vs CSW",
+      "section": "E2",
+      "front": "Tại sao nhầm lẫn CSW thành SIADH để hạn chế dịch là sai lầm nguy hiểm chết người?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Hạn chế dịch ở bệnh nhân CSW đang thiếu hụt thể tích tuần hoàn sẽ làm tụt huyết áp nặng dẫn tới thiếu máu và nhồi máu não diện rộng.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>CSW bắt buộc phải bù đủ muối và nước bằng NaCl 0.9%; SIADH mới áp dụng hạn chế nước tự do (50-75% nhu cầu).",
+      "extra": "Release Lesson PED-50 Mục 2.3.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "SIADH",
+        "CSW",
+        "Bay"
+      ]
+    },
+    {
+      "id": "PED50-E16",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Ringer Lactat vs NaCl 0.9%",
+      "section": "E2",
+      "front": "Tại sao Ringer Lactat được ưu tiên hơn NaCl 0.9% trong hồi sức sốc mất nước tiêu chảy ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ringer Lactat có nồng độ Clo sinh lý (109 mEq/L) và chứa Lactate chuyển hóa thành Bicarbonat giúp kiềm hóa toan máu; NaCl 0.9% có Clo cao (154 mEq/L) gây toan chuyển hóa tăng Clo.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Clo cao còn gây co thắt động mạch thận làm suy giảm mức lọc cầu thận.",
+      "extra": "Release Lesson PED-50 Mục 2.4.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Ringer-Lactat",
+        "NaCl-09"
+      ]
+    },
+    {
+      "id": "PED50-E17",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Toan tăng Clo máu",
+      "section": "E2",
+      "text": "Truyền nhanh lượng lớn NaCl 0.9% (&gt; {{c1::40 – 60 ml/kg}}) trong hồi sức có nguy cơ gây biến chứng {{c1::toan chuyển hóa tăng Clo máu (Hyperchloremic metabolic acidosis)}}.",
+      "extra": "Release Lesson PED-50 Mục 2.4: Nồng độ Clo 154 mEq/L vượt xa mức sinh lý huyết tương (98-106 mEq/L).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Toan-tang-Clo"
+      ]
+    },
+    {
+      "id": "PED50-E18",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Thời gian CRT",
+      "section": "E3",
+      "text": "Thời gian đổ đầy mao mạch (CRT đo tại xương ức): bình thường là {{c1::&lt; 2 giây}}; mất nước nhẹ và vừa là {{c1::2 giây}}; mất nước nặng là {{c1::3 – 4 giây}}; nguy kịch là {{c1::&gt; 5 giây hoặc da nổi vân tím}}.",
+      "extra": "Release Lesson PED-50 Bảng 3.1: CRT là dấu ấn tưới máu ngoại vi nhạy bén nhất.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "CRT"
+      ]
+    },
+    {
+      "id": "PED50-E19",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Lâm sàng mất nước ưu trương",
+      "section": "E3",
+      "front": "Tại sao trẻ mất nước ưu trương có dấu hiệu da dẻo nhão như bột bánh mì và Casper không rõ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì nồng độ muối cao giữ nước ở mô dưới da, đồng thời nước từ nội bào thẩm thấu ra ngoại bào tạm thời duy trì độ căng mô.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Khám da có thể đánh giá thấp mức độ mất nước nếu không chú ý dấu hiệu kích thích vật vã và khát dữ dội.",
+      "extra": "Release Lesson PED-50 Mục 3.2.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Mat-nuoc-uu-truong"
+      ]
+    },
+    {
+      "id": "PED50-E20",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Lâm sàng mất nước nhược trương",
+      "section": "E3",
+      "front": "Tại sao trong mất nước nhược trương bệnh nhi rơi vào trụy mạch và sốc rất sớm dù lượng nước mất ít hơn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì Natri ngoại bào giảm sâu kéo theo nước từ lòng mạch chạy ngược vào trong tế bào, khiến thể tích tuần hoàn hữu hiệu (ECF) sụt giảm trầm trọng kép.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Biểu hiện li bì hôn mê, da tái lạnh ẩm dính và tụt áp xuất hiện rất nhanh.",
+      "extra": "Release Lesson PED-50 Mục 3.2.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Mat-nuoc-nhuoc-truong"
+      ]
+    },
+    {
+      "id": "PED50-E21",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Nguyên nhân mất nước ưu trương",
+      "section": "E3",
+      "text": "Các căn nguyên kinh điển của mất nước ưu trương ở trẻ em: {{c1::say nóng/say nắng}}, {{c1::sốt cao mất mồ hôi}}, {{c1::đái tháo nhạt}}, hoặc trẻ uống {{c1::sữa pha quá đặc (tiêu chảy thẩm thấu)}}.",
+      "extra": "Release Lesson PED-50 Mục 3.2: Lượng nước mất (120-170 ml/kg) vượt trội so với Natri.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Mat-nuoc-uu-truong"
+      ]
+    },
+    {
+      "id": "PED50-E22",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Nguyên nhân mất nước nhược trương",
+      "section": "E3",
+      "text": "Mất nước nhược trương thường xảy ra trên cơ địa {{c1::suy dinh dưỡng nặng}}, {{c1::tiêu chảy kéo dài}}, hoặc do người nhà {{c1::cho uống nước lọc/nước đường loãng kéo dài}}.",
+      "extra": "Release Lesson PED-50 Mục 3.2: Bù nước thiếu muối làm loãng thêm nồng độ Natri ngoại bào.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Mat-nuoc-nhuoc-truong"
+      ]
+    },
+    {
+      "id": "PED50-E23",
+      "track": "ebm",
+      "type": "basic",
+      "category": "So sánh thể tích ECF",
+      "section": "E3",
+      "front": "So sánh biến động thể tích dịch ngoại bào (ECF) giữa mất nước ưu trương và mất nước nhược trương?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ưu trương: ECF giảm ít vì nước nội bào được kéo ra bù vào lòng mạch; Nhược trương: ECF giảm rất nặng vì nước ngoại bào bị hút ngược vào tế bào.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Đó là lý do nhược trương dễ sốc tụt áp, còn ưu trương nguy hiểm chủ yếu ở tổn thương tế bào thần kinh.",
+      "extra": "Release Lesson PED-50 Mục 3.2.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Dong-hoc-dich"
+      ]
+    },
+    {
+      "id": "PED50-E24",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Ưu điểm ORS thẩm thấu thấp",
+      "section": "E4",
+      "front": "Tại sao WHO khuyến cáo dùng ORS nồng độ thẩm thấu thấp (245 mOsm/L) thay cho ORS chuẩn cũ (311 mOsm/L)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>ORS thẩm thấu thấp làm giảm 33% nhu cầu truyền dịch tĩnh mạch, giảm 20% lượng phân bài xuất và giảm 30% nôn trớ so với ORS cũ.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>ORS cũ có ALTT cao hơn huyết tương có thể gây tiêu chảy thẩm thấu và tăng Natri máu ở trẻ nhỏ.",
+      "extra": "Release Lesson PED-50 Mục 4.1.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "ORS"
+      ]
+    },
+    {
+      "id": "PED50-E25",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Nguyên tắc tính bài toán 1",
+      "section": "E4",
+      "front": "Trong bài toán 1 (mất nước đẳng trương), tại sao lại chia tổng Natri (92 mEq) cho 0,154 để ra thể tích muối?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì dung dịch NaCl 0,9% chứa 154 mEq Na⁺ trong 1 lít, tương ứng 0,154 mEq Na⁺ trong mỗi ml dịch.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>92 / 0,154 = 597 ml (làm tròn 600 ml); phần thể tích còn lại (400 ml) bù bằng Glucose 5% tạo tỷ lệ 3:2.",
+      "extra": "Release Lesson PED-50 Mục 4.2 (Bài toán 1).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Bai-toan-1"
+      ]
+    },
+    {
+      "id": "PED50-E26",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Nguyên tắc tính bài toán 2",
+      "section": "E4",
+      "front": "Trong bài toán 2 (mất nước nhược trương), tại sao công thức tính Na điều chỉnh lại nhân với hệ số 0,6 và cân nặng ban đầu P₀?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì hệ số 0,6 phản ánh thể tích phân bố của Natri (chiếm 60% trọng lượng cơ thể trẻ); dùng cân nặng trước bệnh P₀ để ước tính đúng tổng khoang phân bố.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Công thức: Na điều chỉnh = (Na mong muốn 135 – Na bệnh nhân) × 0,6 × P₀.",
+      "extra": "Release Lesson PED-50 Mục 4.2 (Bài toán 2).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Bai-toan-2"
+      ]
+    },
+    {
+      "id": "PED50-E27",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Nguyên tắc tính bài toán 3",
+      "section": "E4",
+      "front": "Trong bài toán 3 (mất nước ưu trương), tại sao phải tách lượng nước không điện giải (nước tự do) riêng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì cơ thể đang dư thừa Natri tương đối; cần lượng nước tự do không muối để pha loãng Natri máu về nồng độ bình thường.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nếu tính bù Natri cho toàn bộ lượng dịch mất sẽ làm trầm trọng thêm tình trạng tăng Natri máu chết người.",
+      "extra": "Release Lesson PED-50 Mục 4.2 (Bài toán 3).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Bai-toan-3"
+      ]
+    },
+    {
+      "id": "PED50-E28",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Bẫy bù dịch trong ưu trương",
+      "section": "E4",
+      "front": "Tại sao trong mất nước ưu trương, đơn thuốc ra dịch nhược trương 1/4 (1 muối : 3 đường) nhưng cấm truyền tốc độ nhanh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Dịch nhược trương vào lòng mạch nhanh sẽ làm tụt ALTT ngoại bào đột ngột, nước ùa vào tế bào não đang giữ chất thẩm thấu nội sinh gây phù não cấp tử vong.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Bắt buộc truyền chậm kéo dài 36–48 giờ, tốc độ hạ Natri không quá 0,5 mEq/L/giờ.",
+      "extra": "Release Lesson PED-50 Mục 4.2 (Bài toán 3).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Bai-toan-3",
+        "Bay"
+      ]
+    },
+    {
+      "id": "PED50-E29",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Tỷ lệ dịch 3 bài toán",
+      "section": "E4",
+      "text": "Tỷ lệ phối hợp dịch truyền (NaCl 0,9% : Glucose 5%) trong 3 bài toán YTB: Mất nước đẳng trương là {{c1::3 : 2}}; Mất nước nhược trương là {{c1::4 : 1}}; Mất nước ưu trương là {{c1::1 : 3}}.",
+      "extra": "Release Lesson PED-50 Mục 4.2: Tóm tắt tỷ lệ vàng của 3 bài toán lâm sàng kinh điển.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Ty-le-dich"
+      ]
+    },
+    {
+      "id": "PED50-E30",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cơ chế Calcium gluconate",
+      "section": "E5",
+      "front": "Tại sao Calcium gluconate 10% tiêm tĩnh mạch lại là bước 1 trong tăng Kali máu nặng dù không làm giảm Kali máu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ion Canxi đối kháng điện thế trên màng tế bào cơ tim, nâng ngưỡng kích thích và ổn định màng, phòng ngừa rung thất ngay lập tức trong 5 phút.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Thuốc có tác dụng bảo vệ tim tức thì để tạo thời gian cho Bước 2 và Bước 3 hạ nồng độ Kali huyết thanh.",
+      "extra": "Pediatr Nephrol 2024 Protocol (PMID: 38001558).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Tang-Kali",
+        "Canxi"
+      ]
+    },
+    {
+      "id": "PED50-E31",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Tỷ lệ Insulin Glucose",
+      "section": "E5",
+      "text": "Trong cấp cứu tăng Kali máu, phác đồ truyền tĩnh mạch dịch chuyển Kali vào nội bào dùng tỷ lệ: {{c1::0,1 UI Insulin nhanh}} cho mỗi {{c1::4 g Glucose}} (pha trong dung dịch Glucose 10%).",
+      "extra": "Release Lesson PED-50 Mục 5.2: Tránh hạ đường huyết trong khi kích thích bơm Na+/K+-ATPase đưa Kali vào tế bào.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Tang-Kali",
+        "Insulin"
+      ]
+    },
+    {
+      "id": "PED50-E32",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cơ chế Salbutamol",
+      "section": "E5",
+      "front": "Cơ chế nào giúp khí dung Salbutamol liều cao (2,5–5 mg) hạ Kali máu trong cấp cứu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Salbutamol kích thích chọn lọc thụ thể β2-adrenergic làm tăng hoạt tính bơm Na⁺/K⁺-ATPase, bơm Kali từ ngoại bào vào trong tế bào trong vòng 30 phút.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Tác dụng hiệp đồng hoàn hảo khi dùng phối hợp cùng Insulin-Glucose.",
+      "extra": "Pediatr Nephrol 2024 Protocol (PMID: 38001558).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Tang-Kali",
+        "Salbutamol"
+      ]
+    },
+    {
+      "id": "PED50-E33",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Nguy cơ tiêm IV push KCl",
+      "section": "E5",
+      "front": "Tại sao tuyệt đối cấm tiêm trực tiếp Kali Clorid (IV push) vào tĩnh mạch dưới mọi hình thức?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gây tăng nồng độ Kali cục bộ cực cao tại buồng tim dẫn đến block nhĩ thất hoàn toàn, rung thất và ngừng tim tâm thu tức thì không hồi phục.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Bắt buộc phải pha loãng trong chai dịch truyền và kiểm tra tốc độ qua máy truyền dịch.",
+      "extra": "Release Lesson PED-50 Mục 5.3 & Box đỏ.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Bu-Kali",
+        "An-toan"
+      ]
+    },
+    {
+      "id": "PED50-E34",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Cấp cứu hạ Canxi",
+      "section": "E5",
+      "text": "Cấp cứu hạ Canxi máu có co giật ở trẻ em: tiêm tĩnh mạch chậm {{c1::Calcium gluconate 10% liều 0,5 – 1 ml/kg}} (pha loãng gấp đôi với Glucose 5%) trong {{c1::10 – 20 phút}} dưới theo dõi nhịp tim.",
+      "extra": "Nguyen TH et al., Front Endocrinol 2026 (PMID: 41704483): Cắt cơn co giật ở 96,7% bệnh nhi.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Ha-Canxi"
+      ]
+    },
+    {
+      "id": "PED50-E35",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Dịch tễ hạ Canxi",
+      "section": "E5",
+      "front": "Hai nguyên nhân hàng đầu gây hạ Canxi máu nặng ở trẻ em Việt Nam theo nghiên cứu đa trung tâm (Front Endocrinol 2026) là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Còi xương do thiếu vitamin D (chiếm 68,3%) và suy tuyến cận giáp (chiếm 18,7%).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Thiếu vitamin D làm giảm hấp thu Canxi ở ruột, thường gặp ở trẻ nhũ nhi ít tiếp xúc ánh nắng.",
+      "extra": "Nguyen TH et al., Front Endocrinol 2026 (PMID: 41704483).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Ha-Canxi",
+        "Dich-te"
+      ]
+    },
+    {
+      "id": "PED50-E36",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Tương tác Magie và Kali",
+      "section": "E5",
+      "front": "Tại sao hạ Magie máu lại gây ra tình trạng hạ Kali máu kháng trị với điều trị bù?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì Magie là đồng yếu tố ức chế kênh ROMK ở ống lượn xa; thiếu Magie làm kênh ROMK mở tự do gây thoát và mất Kali ồ ạt qua nước tiểu.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Chừng nào chưa bù đủ Magie thì mọi nỗ lực bù Kali đều bị đào thải qua thận.",
+      "extra": "Release Lesson PED-50 Mục 5.5.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Ha-Magie",
+        "Ha-Kali"
+      ]
+    },
+    {
+      "id": "PED50-E37",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Tương tác Magie và Canxi",
+      "section": "E5",
+      "front": "Tại sao hạ Magie máu nặng lại gây hạ Canxi máu kháng trị?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thiếu Magie làm trơ tuyến cận giáp dẫn đến giảm bài tiết PTH, đồng thời gây đề kháng thụ thể PTH tại xương và ống thận.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Bệnh nhi co giật do hạ Canxi kèm hạ Magie bắt buộc phải được bù đồng thời Magie mới nâng được Canxi máu.",
+      "extra": "Release Lesson PED-50 Mục 5.5.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Ha-Magie",
+        "Ha-Canxi"
+      ]
+    },
+    {
+      "id": "PED50-E38",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Xử trí hạ Magie cấp cứu",
+      "section": "E5",
+      "text": "Cấp cứu co giật hoặc xoắn đỉnh (Torsades de Pointes) do hạ Magie máu: tiêm tĩnh mạch {{c1::Magnesium Sulfate 20% liều 25 – 50 mg/kg}} (tối đa 2 g) pha loãng Glucose 5% truyền trong {{c1::30 – 60 phút}}.",
+      "extra": "Release Lesson PED-50 Mục 5.5: Theo dõi monitor điện tim liên tục.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Ha-Magie"
+      ]
+    },
+    {
+      "id": "PED50-E39",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Ngộ độc tăng Magie",
+      "section": "E5",
+      "front": "Dấu hiệu cảnh báo sớm nhất của ngộ độc tăng Magie máu là gì và thuốc giải độc đặc hiệu là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Dấu hiệu sớm nhất: mất phản xạ gân xương bánh chè (khi Mg &gt; 4 mEq/L); Thuốc giải độc đối kháng: Calcium gluconate 10% liều 0,5 ml/kg tiêm TM chậm.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Ion Canxi đối kháng trực tiếp tác dụng ức chế thần kinh cơ và tim mạch của ion Magie.",
+      "extra": "Release Lesson PED-50 Mục 5.5.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Tang-Magie",
+        "Giai-doc"
+      ]
+    },
+    {
+      "id": "PED50-E40",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Rối loạn toan kiềm",
+      "section": "E5",
+      "front": "Phân biệt rối loạn thăng bằng toan kiềm giữa tiêu chảy cấp mất nước và nôn trớ do hẹp phì đại môn vị?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tiêu chảy: mất HCO₃⁻ qua phân + giảm tưới máu mô gây Toan chuyển hóa; Nôn hẹp môn vị: mất HCl dịch vị gây Kiềm chuyển hóa giảm Clo và giảm Kali máu.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Kiềm chuyển hóa giảm Clo trong hẹp môn vị bắt buộc phải bù dịch NaCl 0.9% kèm bù Kali.",
+      "extra": "Release Lesson PED-50 Mục 5.6.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Toan-kiem"
+      ]
+    },
+    {
+      "id": "PED50-E41",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Tần suất theo dõi",
+      "section": "E6",
+      "text": "Trong giai đoạn bù dịch tích cực mất nước nặng: đo sinh hiệu và tri giác mỗi {{c1::1 – 2 giờ}}; xét nghiệm điện giải đồ mỗi {{c1::2 – 4 giờ}}; trong mất nước ưu trương kiểm tra Natri mỗi {{c1::4 – 6 giờ}}.",
+      "extra": "Release Lesson PED-50 Mục 6.1: Đảm bảo kiểm soát chặt chẽ tốc độ biến thiên Natri máu.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Theo-doi"
+      ]
+    },
+    {
+      "id": "PED50-E42",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Tiêu chuẩn thiểu niệu",
+      "section": "E6",
+      "text": "Định nghĩa thiểu niệu ở trẻ em: trẻ sơ sinh và trẻ nhỏ 1 – 5 tuổi là nước tiểu &lt; {{c1::1,0 ml/kg/giờ}} kéo dài trên 6 giờ; trẻ lớn &gt; 5 tuổi là nước tiểu &lt; {{c1::0,5 ml/kg/giờ}} kéo dài trên 6 giờ.",
+      "extra": "Release Lesson PED-50 Mục 6.2: Nước tiểu là chỉ số sinh tồn nhạy nhất phản ánh tưới máu thận.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Thieu-nieu"
+      ]
+    },
+    {
+      "id": "PED50-E43",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Phân biệt suy thận",
+      "section": "E6",
+      "front": "Phân biệt suy thận cấp trước thận do thiếu dịch với hoại tử ống thận cấp thực thể dựa trên đáp ứng bù dịch và FENa?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trước thận: đáp ứng tốt với bù dịch, FENa &lt; 1% (ống thận tái hấp thu Na tốt); Thực thể: không đáp ứng với dịch, FENa &gt; 2% (ống thận tổn thương mất Na).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Cấm cho lợi tiểu Furosemide khi chưa bù đủ thể tích tuần hoàn lòng mạch.",
+      "extra": "Release Lesson PED-50 Mục 6.2.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Suy-than",
+        "FENa"
+      ]
+    },
+    {
+      "id": "PED50-E44",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Dấu hiệu quá tải dịch",
+      "section": "E6",
+      "front": "4 dấu hiệu cảnh báo sớm quá tải thể tích tuần hoàn trong quá trình truyền dịch ở trẻ em là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhịp thở tăng nhanh, ran ẩm hai đáy phổi; 2) Gan to nhanh, đau hạ sườn phải; 3) Tĩnh mạch cổ nổi / phù mi mắt tiến triển; 4) SpO₂ tụt &lt; 92%.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Xử trí ngay: dừng dịch truyền, cho trẻ ngồi nửa nằm, thở oxy và tiêm Furosemide 1 mg/kg.",
+      "extra": "Release Lesson PED-50 Mục 6.3.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Qua-tai-dich"
+      ]
+    },
+    {
+      "id": "PED50-E45",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Tiêu chuẩn chuyển đường uống",
+      "section": "E6",
+      "front": "Các tiêu chuẩn để dừng truyền dịch tĩnh mạch và chuyển sang bù ORS đường uống ở trẻ tiêu chảy mất nước?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ tỉnh táo chơi ngoan; hết dấu hiệu mất nước (mắt hết trũng, nếp véo da mất nhanh &lt; 1s); CRT &lt; 2s, mạch HA ổn định; hết nôn trớ uống được thìa; đã đi tiểu &gt; 1 ml/kg/h.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Chuyển đường uống sớm giúp phục hồi niêm mạc ruột và tránh biến chứng do đường truyền.",
+      "extra": "Release Lesson PED-50 Mục 6.3.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Chuyen-duong-uong"
+      ]
+    },
+    {
+      "id": "PED50-E46",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Lưu đồ cấp cứu",
+      "section": "E7",
+      "front": "Bước 1 trong lưu đồ xử trí nhanh tại giường bệnh cho trẻ mất nước / rối loạn điện giải cấp là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Xác định có sốc hoặc co giật không: Nếu có sốc → Bolus Ringer Lactat hoặc NaCl 0.9% 20 ml/kg trong 15–30 phút; Nếu co giật do hạ Na → Bolus NaCl 3% 4 ml/kg trong 20 phút.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Giải quyết ngay nguy cơ tử vong tuần hoàn và hô hấp trước khi phân loại thể mất nước.",
+      "extra": "Release Lesson PED-50 Mục 7.1 (Lưu đồ thuật toán).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Luu-do"
+      ]
+    },
+    {
+      "id": "PED50-E47",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Lưu đồ bù dịch",
+      "section": "E7",
+      "text": "Bước 2 trong lưu đồ xử trí dựa trên điện giải đồ: Na⁺ 130 – 150 mEq/L bù dịch theo tỷ lệ {{c1::3 NaCl 0,9% : 2 Glucose 5%}}; Na⁺ &lt; 130 mEq/L bù thâm hụt Na theo tỷ lệ {{c1::4 NaCl : 1 Glucose}}; Na⁺ &gt; 150 mEq/L bù nước tự do tỷ lệ {{c1::1 NaCl : 3 Glucose}} trong {{c1::36 – 48 giờ}}.",
+      "extra": "Release Lesson PED-50 Mục 7.1.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Luu-do"
+      ]
+    },
+    {
+      "id": "PED50-E48",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Box đỏ nguy cấp",
+      "section": "E8",
+      "front": "Mức trần nâng Natri máu tối đa trong 24 giờ khi điều trị hạ Natri máu mạn tính là bao nhiêu để tránh hội chứng hủy myelin cầu não?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Không nâng Natri máu nhanh hơn 10–12 mEq/L trong 24 giờ đầu.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nâng Natri quá nhanh rút nước đột ngột khỏi tế bào não gây co rút tế bào thần kinh đệm và hủy myelin cầu não trung tâm (CPM) không hồi phục.",
+      "extra": "Release Lesson PED-50 Box đỏ nguy cấp & Mục 8.1.",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Box-do",
+        "Huy-myelin"
+      ]
+    },
+    {
+      "id": "PED50-E49",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Bẫy nếp véo da",
+      "section": "E8",
+      "front": "Tại sao ở trẻ béo phì và trẻ suy dinh dưỡng nặng không thể tin cậy vào dấu hiệu nếp véo da bụng (Casper)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ béo phì: lớp mỡ dày làm nếp véo da mất nhanh giả tạo; Trẻ suy dinh dưỡng: mất độ đàn hồi mô nên nếp véo da luôn mất chậm giả tạo.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Bắt buộc dựa vào độ trũng của mắt, thời gian CRT, tri giác và sụt cân để đánh giá.",
+      "extra": "Release Lesson PED-50 Bẫy lâm sàng 3 & 4 (Mục 8.1).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Bay-lam-sang",
+        "Nep-veo-da"
+      ]
+    },
+    {
+      "id": "PED50-E50",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Bẫy dịch chống sốc",
+      "section": "E8",
+      "front": "Tại sao tuyệt đối cấm cho Kali vào chai dịch chống sốc ban đầu trong giờ đầu cấp cứu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì trong sốc giảm thể tích, chức năng thận bị đình trệ do tụt huyết áp; đồng thời dịch chống sốc truyền tốc độ rất nhanh (20 ml/kg trong 15–30 phút) sẽ gây ngừng tim.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Chỉ pha Kali vào dịch truyền duy trì sau khi đã khôi phục huyết động và trẻ đã đi tiểu.",
+      "extra": "Release Lesson PED-50 Bẫy lâm sàng 5 (Mục 8.1).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Bay-lam-sang",
+        "Chong-soc"
+      ]
+    },
+    {
+      "id": "PED50-E51",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Bẫy pha gói ORS",
+      "section": "E8",
+      "text": "Cấm tuyệt đối chia nhỏ gói thuốc ORS khi pha ở nhà: 1 gói ORS chuẩn phải pha vào đúng {{c1::1000 ml}} nước đun sôi để nguội; chia nhỏ pha đặc sẽ dẫn tới ngộ độc {{c1::muối ưu trương (tăng Natri máu cấp tính)}} tử vong.",
+      "extra": "Release Lesson PED-50 Bẫy lâm sàng 10 (Mục 8.1).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Bay-lam-sang",
+        "ORS"
+      ]
+    },
+    {
+      "id": "PED50-E52",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Bẫy dịch pha thuốc",
+      "section": "E8",
+      "front": "Tại sao ở trẻ nhỏ dưới 5 kg, bác sĩ bắt buộc phải trừ thể tích dịch pha kháng sinh và thuốc vận mạch vào dịch duy trì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì dung tích mạch máu và nhu cầu dịch của trẻ nhỏ rất bé; thể tích dịch pha thuốc chiếm tỷ lệ đáng kể và có thể gây quá tải dịch, suy tim cấp.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Ví dụ trẻ 3 kg nhu cầu 300 ml/ngày, nếu truyền 3 cữ kháng sinh pha 30 ml mỗi cữ đã chiếm tới gần 1/3 tổng lượng dịch.",
+      "extra": "Release Lesson PED-50 Bẫy lâm sàng 9 (Mục 8.1).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Bay-lam-sang",
+        "Dich-pha-thuoc"
+      ]
+    },
+    {
+      "id": "PED50-E53",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Case 1 lâm sàng",
+      "section": "E9",
+      "front": "Ca lâm sàng 1 (Bé Nam 10 tháng 8 kg, tiêu chảy 8 lần/ngày, mất nước vừa đẳng trương Na 138): Hướng xử trí dịch bù là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ uống được, áp dụng Phác đồ B đường uống bằng ORS thẩm thấu thấp liều 75 ml/kg = 8 × 75 = 600 ml uống chậm bằng thìa trong 4 giờ đầu.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Đánh giá lại sau 4 giờ; nếu trẻ hết dấu hiệu mất nước thì chuyển sang Phác đồ A tại nhà.",
+      "extra": "Release Lesson PED-50 Mục 9 (Case 1).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Ca-lam-sang",
+        "Case-1"
+      ]
+    },
+    {
+      "id": "PED50-E54",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Case 2 lâm sàng",
+      "section": "E9",
+      "front": "Ca lâm sàng 2 (Bé Hoa 14 tháng 9 kg, mất nước nhược trương Na 116 co giật, tụt HA 70/45): Xử trí cấp cứu phút đầu gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiêm tĩnh mạch ngay NaCl 3% liều 4 ml/kg = 36 ml trong 20 phút để dứt co giật giải tỏa phù não; 2) Đồng thời bolus Ringer Lactat 20 ml/kg = 180 ml trong 30 phút chống sốc.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Vừa hồi sức thể tích lòng mạch vừa điều chỉnh khẩn cấp áp lực thẩm thấu nội sọ.",
+      "extra": "Release Lesson PED-50 Mục 9 (Case 2).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Ca-lam-sang",
+        "Case-2"
+      ]
+    },
+    {
+      "id": "PED50-E55",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Case 2 lâm sàng",
+      "section": "E9",
+      "front": "Sau khi cắt co giật cho Bé Hoa (Case 2), mục tiêu nâng Natri máu trong 24 giờ tiếp theo được giới hạn như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nâng không quá 10–12 mEq/L trong 24 giờ đầu để phòng ngừa biến chứng hội chứng hủy myelin cầu não.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Bù phần thâm hụt Natri còn lại từ từ theo công thức bài toán số 2 bằng dịch tỷ lệ 4 muối : 1 đường.",
+      "extra": "Release Lesson PED-50 Mục 9 (Case 2).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Ca-lam-sang",
+        "Case-2"
+      ]
+    },
+    {
+      "id": "PED50-E56",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Case 3 lâm sàng",
+      "section": "E9",
+      "front": "Ca lâm sàng 3 (Bé Minh 18 tháng, sụt từ 10 kg xuống 9 kg mất nước ưu trương Na 168): Tính lượng nước không điện giải và phương án bù dịch?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Lượng nước không điện giải = (168/145) × [(0.6×10) – (0.6×9)] = 695 ml; Dùng dịch nhược trương 1/4 (1 NaCl 0.9% : 3 Glucose 5%), bù chậm chia đều trong 48 giờ.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Tốc độ truyền khoảng 42 ml/h; xét nghiệm Natri mỗi 4h đảm bảo tốc độ hạ ≤ 0,5 mEq/L/giờ.",
+      "extra": "Release Lesson PED-50 Mục 9 (Case 3).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Ca-lam-sang",
+        "Case-3"
+      ]
+    },
+    {
+      "id": "PED50-E57",
+      "track": "ebm",
+      "type": "basic",
+      "category": "PMID Audit",
+      "section": "E10",
+      "front": "Nghiên cứu của Feld LG et al. (Pediatrics 2018, PMID: 30478247) chứng minh điều gì về dịch truyền duy trì đẳng trương?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Dịch duy trì đẳng trương (NaCl 0.9%) làm giảm 52% nguy cơ hạ Natri máu mắc phải tại bệnh viện so với dịch nhược trương (RR = 0,48; 95% CI: 0,38–0,60).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Đây là thử nghiệm lâm sàng đa trung tâm bản lề thay đổi hoàn toàn hướng dẫn của AAP.",
+      "extra": "AAP Guideline (PMID: 30478247).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "PMID-Audit",
+        "Feld-2018"
+      ]
+    },
+    {
+      "id": "PED50-E58",
+      "track": "ebm",
+      "type": "basic",
+      "category": "PMID Audit",
+      "section": "E10",
+      "front": "Tổng quan của Somers MJ et al. (Clin J Am Soc Nephrol 2023, PMID: 36888887) đưa ra mốc tốc độ hạ Natri máu an toàn là bao nhiêu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tốc độ hạ Natri an toàn trong mất nước ưu trương là ≤ 0,5 mEq/L/giờ (hoặc ≤ 10–12 mEq/L/24h).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Hạ Natri nhanh hơn làm tăng tỷ lệ phù não cấp và di chứng thần kinh vĩnh viễn.",
+      "extra": "CJASN Guidance (PMID: 36888887).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "PMID-Audit",
+        "Somers-2023"
+      ]
+    },
+    {
+      "id": "PED50-E59",
+      "track": "ebm",
+      "type": "basic",
+      "category": "PMID Audit",
+      "section": "E10",
+      "front": "Khuyến cáo của Alfonzo A et al. (Pediatr Nephrol 2024, PMID: 38001558) về trình tự bậc thang 3 bước xử trí tăng Kali máu cấp là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Calcium gluconate 10% bảo vệ màng tim trong 5 phút; 2) Insulin + Glucose và Salbutamol dịch chuyển Kali trong 30 phút; 3) Furosemide, Kayexalate hoặc lọc máu đào thải Kali.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Xác lập chuẩn mực cấp cứu tăng Kali máu hiện đại ở trẻ em.",
+      "extra": "Pediatr Nephrol 2024 Protocol (PMID: 38001558).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "PMID-Audit",
+        "Alfonzo-2024"
+      ]
+    },
+    {
+      "id": "PED50-E60",
+      "track": "ebm",
+      "type": "basic",
+      "category": "PMID Audit",
+      "section": "E10",
+      "front": "Nghiên cứu của Walson JL et al. (Arch Dis Child 2026, PMID: 42161576) cảnh báo nguy cơ gì khi bù dịch nhanh ở trẻ suy dinh dưỡng nặng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bù dịch tĩnh mạch nhanh ở trẻ suy dinh dưỡng nặng làm tăng nguy cơ quá tải thể tích và tử vong gấp 1,9 lần so với bù dịch thận trọng qua đường uống / sonde dạ dày.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Trẻ suy dinh dưỡng nặng có teo cơ tim và suy giảm chức năng bơm nên rất dễ phù phổi cấp.",
+      "extra": "Arch Dis Child Systematic Review 2026 (PMID: 42161576).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "PMID-Audit",
+        "Walson-2026"
+      ]
+    },
+    {
+      "id": "PED50-E61",
+      "track": "ebm",
+      "type": "basic",
+      "category": "PMID Audit",
+      "section": "E10",
+      "front": "Nghiên cứu của Chen Y et al. (BMC Pediatr 2026, PMID: 42015038) trên 4.821 bệnh nhi PICU chỉ ra ý nghĩa tiên lượng nào của hạ Natri máu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Hạ Natri máu lúc nhập viện là yếu tố tiên lượng độc lập làm tăng nguy cơ tử vong (OR = 1,85) và kéo dài thời gian thở máy (OR = 1,62).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Đặc biệt nguy hiểm khi kèm co giật đòi hỏi can thiệp cấp cứu lập tức bằng NaCl 3% 4 ml/kg.",
+      "extra": "BMC Pediatr 2026 PICU Cohort (PMID: 42015038).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "PMID-Audit",
+        "Chen-2026"
+      ]
+    },
+    {
+      "id": "PED50-E62",
+      "track": "ebm",
+      "type": "basic",
+      "category": "PMID Audit",
+      "section": "E10",
+      "front": "Nghiên cứu của Nguyen TH et al. (Front Endocrinol 2026, PMID: 41704483) trên 246 ca hạ Canxi máu nặng tại Việt Nam báo cáo hiệu quả cắt cơn co giật ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Phác đồ tiêm tĩnh mạch chậm Calcium gluconate 10% liều 0,5–1 ml/kg kiểm soát an toàn cơn co giật ở 96,7% bệnh nhi.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Cung cấp bằng chứng lâm sàng trực tiếp trên quần thể trẻ em Việt Nam.",
+      "extra": "Front Endocrinol 2026 Multicenter Cohort (PMID: 41704483).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "PMID-Audit",
+        "Nguyen-2026"
+      ]
+    },
+    {
+      "id": "PED50-E63",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Kiểm tra lâm sàng",
+      "section": "E8",
+      "front": "Tại sao khi hạ Kali máu hoặc hạ Canxi máu không đáp ứng với bù tích cực, bác sĩ bắt buộc phải kiểm tra nồng độ Magie máu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì Magie là đồng yếu tố bắt buộc cho bơm Na⁺/K⁺-ATPase tại màng tế bào và tuyến cận giáp tiết PTH.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Thiếu Magie sẽ gây kháng trị với cả bù Kali và Canxi cho đến khi nồng độ Magie được bù đủ.",
+      "extra": "Release Lesson PED-50 Mục 8.2 (Checkpoint 5).",
+      "tags": [
+        "PED-50",
+        "EBM",
+        "Checkpoints",
+        "Magie"
+      ]
+    }
+  ]
+}

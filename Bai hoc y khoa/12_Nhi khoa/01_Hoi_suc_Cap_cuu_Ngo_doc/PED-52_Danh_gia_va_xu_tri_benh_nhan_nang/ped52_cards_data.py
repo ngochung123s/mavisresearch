@@ -1,0 +1,1388 @@
+# -*- coding: utf-8 -*-
+"""PED-52 MASTER deck cards data: Track barem Y Thai Binh.
+Fields: id, track (barem_goc), type (basic|cloze), category, section,
+front/back (basic) or text (cloze), extra, tags.
+Section codes B00-B18 (PEDYTB scan 100% verbatim). Coverage gate requires >=1 card per section.
+"""
+cards_data = [
+    {
+        "id": "PED52-B01",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Mục tiêu bài học",
+        "section": "B00",
+        "front": "4 mục tiêu học tập của bài Đánh giá và xử trí bệnh nhân nặng ở trẻ em theo giáo trình Y Thái Bình là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đánh giá được mức độ suy thở và suy tuần hoàn theo trình tự tiếp cận ABC.<br>2) Biết xử trí cấp cứu ban đầu suy thở và suy tuần hoàn.<br>3) Đánh giá được bước hai sau khi đã hoàn thành đánh giá ban đầu.<br>4) Biết điều trị cấp cứu một số tình trạng bệnh lý hay gặp trong đánh giá bước hai.<br><br><b>💡 Lưu ý:</b><br>Bám sát 4 mục tiêu để nắm vững cấu trúc tiếp cận cấp cứu nhi khoa toàn diện.",
+        "extra": "Văn bản gốc: MỤC TIÊU 1-4 (trang 143).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Muc-tieu"
+        ]
+    },
+    {
+        "id": "PED52-B02",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Mục tiêu bài học",
+        "section": "B00",
+        "text": "[Barem gốc] 4 mục tiêu tiếp cận trẻ bệnh nặng: đánh giá suy thở và suy tuần hoàn theo trình tự {{c1::ABC}}, xử trí cấp cứu ban đầu, sau đó đánh giá {{c1::bước hai}} và điều trị cấp cứu các bệnh lý hay gặp.",
+        "extra": "Văn bản gốc: MỤC TIÊU (trang 143).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Muc-tieu"
+        ]
+    },
+    {
+        "id": "PED52-B03",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Đánh giá ban đầu",
+        "section": "B01",
+        "front": "Mục đích của đánh giá ban đầu ở trẻ bệnh nặng là gì và tiếp cận theo trình tự nào?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Đánh giá nhanh nhằm phát hiện trẻ mắc bệnh nặng có đe dọa đến tính mạng. Tiếp cận theo trình tự: Đường thở (Airway) - Hô hấp (Breathing) - Tuần hoàn (Circulation) - Đánh giá chức năng thần kinh (Disability) - Khám toàn thân (Exposure).<br><br><b>💡 Lưu ý:</b><br>Tuân thủ nghiêm ngặt trình tự ABCDE để không bỏ sót các tổn thương đe dọa tử vong.",
+        "extra": "Văn bản gốc mục 1 (trang 143).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Danh-gia-ban-dau",
+            "ABCDE"
+        ]
+    },
+    {
+        "id": "PED52-B04",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá ban đầu",
+        "section": "B01",
+        "text": "[Barem gốc] Đánh giá ban đầu là việc đánh giá nhanh nhằm phát hiện trẻ mắc bệnh nặng có {{c1::đe dọa đến tính mạng}}.",
+        "extra": "Văn bản gốc mục 1 (trang 143).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Danh-gia-ban-dau"
+        ]
+    },
+    {
+        "id": "PED52-B05",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá ban đầu",
+        "section": "B01",
+        "text": "[Barem gốc] Trình tự đánh giá ban đầu để không bỏ sót tổn thương ở trẻ bệnh nặng: {{c1::Đường thở (Airway)}} → {{c1::Hô hấp (Breathing)}} → {{c1::Tuần hoàn (Circulation)}} → {{c1::Chức năng thần kinh (Disability)}} → {{c1::Khám toàn thân (Exposure)}}.",
+        "extra": "Văn bản gốc mục 1 (trang 143).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "ABCDE"
+        ]
+    },
+    {
+        "id": "PED52-B06",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Đánh giá hô hấp",
+        "section": "B02",
+        "front": "Ngưỡng tần số thở nhanh theo 3 nhóm tuổi ở trẻ em theo giáo trình Y Thái Bình là bao nhiêu?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Trẻ < 2 tháng: nhịp thở ≥ 60 lần/phút.<br>• Trẻ 2 - 11 tháng: nhịp thở ≥ 50 lần/phút.<br>• Trẻ 1 - 5 tuổi: nhịp thở ≥ 40 lần/phút.<br><br><b>💡 Lưu ý:</b><br>Phải đếm nhịp thở trong trọn vẹn 1 phút khi trẻ nằm yên, không khóc.",
+        "extra": "Văn bản gốc mục 1.1.1 (trang 143).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Nhip-tho"
+        ]
+    },
+    {
+        "id": "PED52-B07",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá hô hấp",
+        "section": "B02",
+        "text": "[Barem gốc] Ngưỡng thở nhanh ở trẻ < 2 tháng là {{c1::≥ 60 lần/phút}}; trẻ từ 2 - 11 tháng là {{c1::≥ 50 lần/phút}}; trẻ từ 1 - 5 tuổi là {{c1::≥ 40 lần/phút}}.",
+        "extra": "Văn bản gốc mục 1.1.1 (trang 143).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Nhip-tho"
+        ]
+    },
+    {
+        "id": "PED52-B08",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá hô hấp",
+        "section": "B02",
+        "text": "[Barem gốc] Dấu hiệu gắng sức cơ hô hấp: thở cánh mũi phập phồng hay gặp ở {{c1::trẻ nhỏ}}; rút lõm lồng ngực là dấu hiệu gắng sức của {{c1::cơ hoành}} và {{c1::các cơ liên sườn}}.",
+        "extra": "Văn bản gốc mục 1.1.1 (trang 143).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Gang-suc"
+        ]
+    },
+    {
+        "id": "PED52-B09",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá hô hấp",
+        "section": "B02",
+        "text": "[Barem gốc] Tiếng thở rít (stridor) là biểu hiện của tình trạng tắc nghẽn ở {{c1::thanh, khí quản}}.",
+        "extra": "Văn bản gốc mục 1.1.1 (trang 143).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Tieng-tho"
+        ]
+    },
+    {
+        "id": "PED52-B10",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá hô hấp",
+        "section": "B02",
+        "text": "[Barem gốc] Tiếng thở khò khè (wheezing) là do tắc nghẽn ở {{c1::đường hô hấp dưới}}, nghe rõ nhất ở thì {{c1::thở ra}}.",
+        "extra": "Văn bản gốc mục 1.1.1 (trang 143).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Tieng-tho"
+        ]
+    },
+    {
+        "id": "PED52-B11",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Đánh giá hô hấp",
+        "section": "B02",
+        "front": "Cơ chế sinh lý bệnh và ý nghĩa lâm sàng của tiếng thở rên ở trẻ nhỏ là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nghe ở thì thở ra, do nắp thanh môn đóng lại ở cuối thì thở ra để tạo áp lực dương (tương đương PEEP sinh lý) nhằm tránh gây xẹp phổi.<br><br><b>💡 Lưu ý:</b><br>Dấu hiệu báo động suy hô hấp nặng ở trẻ sơ sinh và trẻ nhỏ, cần hỗ trợ hô hấp khẩn cấp.",
+        "extra": "Văn bản gốc mục 1.1.1 (trang 143).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Tho-ren"
+        ]
+    },
+    {
+        "id": "PED52-B12",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá hô hấp",
+        "section": "B02",
+        "text": "[Barem gốc] Tiếng thở rên nghe ở thì {{c1::thở ra}}, do {{c1::nắp thanh môn đóng lại}} cuối thì thở ra để tạo áp lực dương tránh gây {{c1::xẹp phổi}}.",
+        "extra": "Văn bản gốc mục 1.1.1 (trang 143).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Tho-ren"
+        ]
+    },
+    {
+        "id": "PED52-B13",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá hô hấp",
+        "section": "B02",
+        "text": "[Barem gốc] Tiếng thở hổn hển (gasping) là dấu hiệu của {{c1::thiếu oxy nặng}} và có thể là dấu hiệu của {{c1::giai đoạn cuối}}.",
+        "extra": "Văn bản gốc mục 1.1.1 (trang 145).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Tieng-tho"
+        ]
+    },
+    {
+        "id": "PED52-B14",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Đánh giá hô hấp",
+        "section": "B02",
+        "front": "Những nhóm trẻ suy hô hấp nào có thể KHÔNG có biểu hiện gắng sức cơ hô hấp?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ suy hô hấp kéo dài bị kiệt sức.<br>2) Trẻ bị tổn thương thần kinh trung ương.<br>3) Trẻ có bệnh lý thần kinh cơ.<br><br><b>💡 Lưu ý:</b><br>Ở các đối tượng này, không thấy co kéo lồng ngực không có nghĩa là hô hấp ổn, phải dựa vào SpO2, tri giác và tần số thở để đánh giá.",
+        "extra": "Văn bản gốc phần Chú ý mục 1.1.1 (trang 145).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Chu-y"
+        ]
+    },
+    {
+        "id": "PED52-B15",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá hô hấp",
+        "section": "B03",
+        "text": "[Barem gốc] Khi nghe phổi ở trẻ bệnh nặng, âm phế bào giảm khi: lồng ngực di động kém, có {{c1::tắc nghẽn đường thở}}, {{c1::xẹp phổi}}, {{c1::tràn khí}} hoặc {{c1::tràn dịch màng phổi}}.",
+        "extra": "Văn bản gốc mục 1.1.2 (trang 145).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Nghe-phoi"
+        ]
+    },
+    {
+        "id": "PED52-B16",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá hô hấp",
+        "section": "B03",
+        "text": "[Barem gốc] Đánh giá hiệu quả thở: nếu độ bão hoà oxy {{c1::< 92%}} khi thở khí trời là dấu hiệu gợi ý suy hô hấp nặng.",
+        "extra": "Văn bản gốc mục 1.1.2 (trang 145).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "SpO2"
+        ]
+    },
+    {
+        "id": "PED52-B17",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Đánh giá hô hấp",
+        "section": "B03",
+        "front": "Ý nghĩa của nhịp tim nhanh so với nhịp tim chậm khi đánh giá ảnh hưởng của suy hô hấp là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Nhịp tim nhanh: Dấu hiệu cơ thể bù trừ khi trẻ thiếu oxy.<br>• Nhịp tim chậm: Gợi ý tình trạng thiếu oxy nặng và là dấu hiệu sắp ngừng thở.<br><br><b>💡 Lưu ý:</b><br>Nhịp tim chậm do thiếu oxy là tình trạng tối khẩn cấp, cần thông khí oxy áp lực dương ngay.",
+        "extra": "Văn bản gốc mục 1.1.3 (trang 145).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Nhip-tim"
+        ]
+    },
+    {
+        "id": "PED52-B18",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá hô hấp",
+        "section": "B03",
+        "text": "[Barem gốc] Ảnh hưởng của suy hô hấp lên nhịp tim: nhịp tim nhanh là dấu hiệu {{c1::bù trừ khi trẻ thiếu oxy}}; nhịp tim chậm gợi ý {{c1::thiếu oxy nặng}} và là dấu hiệu {{c1::sắp ngừng thở}}.",
+        "extra": "Văn bản gốc mục 1.1.3 (trang 145).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Nhip-tim"
+        ]
+    },
+    {
+        "id": "PED52-B19",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá hô hấp",
+        "section": "B03",
+        "text": "[Barem gốc] Biểu hiện ở da trong suy hô hấp: tím {{c1::trung tâm}} là dấu hiệu thiếu oxy nặng; da {{c1::tái, ẩm, nổi vân tím}} là dấu hiệu nặng của suy hô hấp.",
+        "extra": "Văn bản gốc mục 1.1.3 (trang 145).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Dau-hieu-da"
+        ]
+    },
+    {
+        "id": "PED52-B20",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá hô hấp",
+        "section": "B03",
+        "text": "[Barem gốc] Ảnh hưởng của suy hô hấp lên tri giác: trẻ kích thích, vật vã là dấu hiệu {{c1::thiếu oxy não}}; li bì, hôn mê là dấu hiệu {{c1::muộn}} của suy hô hấp.",
+        "extra": "Văn bản gốc mục 1.1.3 (trang 145).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Tri-giac"
+        ]
+    },
+    {
+        "id": "PED52-B21",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Đánh giá tuần hoàn",
+        "section": "B04",
+        "front": "4 thông số lâm sàng chính để nhận biết tình trạng suy tuần hoàn ở bước đánh giá ban đầu là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhịp tim (nhanh bù trừ hoặc chậm đe dọa ngừng tim).<br>2) Mạch (mạch ngoại vi yếu/mất, mạch trung tâm yếu ở giai đoạn muộn).<br>3) Thời gian làm đầy mao mạch (CRT kéo dài > 2 giây).<br>4) Huyết áp động mạch (hạ huyết áp là dấu hiệu muộn).<br><br><b>💡 Lưu ý:</b><br>Không đợi tụt huyết áp mới xử trí sốc vì huyết áp hạ là biểu hiện giai đoạn mất bù cuối cùng.",
+        "extra": "Văn bản gốc mục 1.2.1 (trang 145-146).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Nhan-biet"
+        ]
+    },
+    {
+        "id": "PED52-B22",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá tuần hoàn",
+        "section": "B04",
+        "text": "[Barem gốc] Trong suy tuần hoàn: nhịp tim nhanh là dấu hiệu {{c1::cơ thể bù trừ trong tình trạng sốc}}; nhịp tim chậm là dấu hiệu {{c1::muộn của suy tuần hoàn}} và cảnh báo {{c1::sắp ngừng tim}}.",
+        "extra": "Văn bản gốc mục 1.2.1 (trang 145).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Nhip-tim"
+        ]
+    },
+    {
+        "id": "PED52-B23",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá tuần hoàn",
+        "section": "B04",
+        "text": "[Barem gốc] Bắt mạch trong suy tuần hoàn: mạch ngoại vi (quay, mu chân) nảy yếu hoặc không bắt được; mạch trung tâm (cảnh, bẹn, hoặc {{c1::mạch cánh tay ở trẻ nhũ nhi}}) nảy yếu trong {{c1::giai đoạn muộn}}.",
+        "extra": "Văn bản gốc mục 1.2.1 (trang 145).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Kham-mach"
+        ]
+    },
+    {
+        "id": "PED52-B24",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá tuần hoàn",
+        "section": "B04",
+        "text": "[Barem gốc] Thời gian làm đầy mao mạch (Refill time) kéo dài {{c1::> 2 giây}} là dấu hiệu của {{c1::giảm tưới máu ngoại vi}}.",
+        "extra": "Văn bản gốc mục 1.2.1 (trang 145).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "CRT"
+        ]
+    },
+    {
+        "id": "PED52-B25",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá tuần hoàn",
+        "section": "B04",
+        "text": "[Barem gốc] Trong suy tuần hoàn ở trẻ em, huyết áp hạ là dấu hiệu {{c1::muộn của giai đoạn cuối}}.",
+        "extra": "Văn bản gốc mục 1.2.1 (trang 146).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Huyet-ap"
+        ]
+    },
+    {
+        "id": "PED52-B26",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Đánh giá tuần hoàn",
+        "section": "B05",
+        "front": "Đặc điểm nhịp thở do toan chuyển hóa trong suy tuần hoàn khác gì so với suy hô hấp nguyên phát?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Suy tuần hoàn gây toan chuyển hóa: nhịp thở nhanh sâu nhưng KHÔNG có dấu hiệu co kéo cơ hô hấp.<br><br><b>💡 Lưu ý:</b><br>Thở nhanh không co kéo là phản ứng bù trừ của trung tâm hô hấp nhằm đào thải CO2 hạ toan máu.",
+        "extra": "Văn bản gốc mục 1.2.2 (trang 146).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Toan-chuyen-hoa"
+        ]
+    },
+    {
+        "id": "PED52-B27",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá tuần hoàn",
+        "section": "B05",
+        "text": "[Barem gốc] Ảnh hưởng của suy tuần hoàn lên cơ quan hô hấp: nhịp thở {{c1::nhanh}}, {{c1::không có co kéo cơ hô hấp}} do hậu quả của toan chuyển hóa.",
+        "extra": "Văn bản gốc mục 1.2.2 (trang 146).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Toan-chuyen-hoa"
+        ]
+    },
+    {
+        "id": "PED52-B28",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá tuần hoàn",
+        "section": "B05",
+        "text": "[Barem gốc] Lượng nước tiểu giảm xuống dưới mức {{c1::< 1 ml/kg/h}} là dấu hiệu của {{c1::giảm tưới máu thận trong sốc}}.",
+        "extra": "Văn bản gốc mục 1.2.2 (trang 146).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Nuoc-tieu"
+        ]
+    },
+    {
+        "id": "PED52-B29",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Đánh giá tuần hoàn",
+        "section": "B05",
+        "front": "Nêu 6 dấu hiệu lâm sàng gợi ý tình trạng suy thở có nguyên nhân xuất phát từ tim mạch?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tím không đáp ứng với oxy.<br>2) Nhịp tim nhanh không tương ứng với mức độ khó thở.<br>3) Tĩnh mạch cổ nổi.<br>4) Tiếng thổi tâm thu, tiếng ngựa phi.<br>5) Gan to.<br>6) Không bắt được mạch đùi.<br><br><b>💡 Lưu ý:</b><br>Gặp các dấu hiệu này cần tầm soát bệnh tim bẩm sinh phụ thuộc ống hoặc suy tim cấp.",
+        "extra": "Văn bản gốc phần Lưu ý mục 1.2.2 (trang 146).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Suy-tho-tim-mach"
+        ]
+    },
+    {
+        "id": "PED52-B30",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá tuần hoàn",
+        "section": "B05",
+        "text": "[Barem gốc] Suy thở do nguyên nhân tim mạch được gợi ý khi trẻ có tím {{c1::không đáp ứng với oxy}} và nhịp tim nhanh {{c1::không tương ứng với mức độ khó thở}}.",
+        "extra": "Văn bản gốc mục 1.2.2 (trang 146).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Suy-tho-tim-mach"
+        ]
+    },
+    {
+        "id": "PED52-B31",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá tuần hoàn",
+        "section": "B05",
+        "text": "[Barem gốc] Các dấu hiệu thực thể gợi ý suy thở do tim mạch gồm: {{c1::tĩnh mạch cổ nổi}}, tiếng thổi tâm thu, {{c1::tiếng ngựa phi}}, {{c1::gan to}} và không bắt được {{c1::mạch đùi}}.",
+        "extra": "Văn bản gốc mục 1.2.2 (trang 146).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Suy-tho-tim-mach"
+        ]
+    },
+    {
+        "id": "PED52-B32",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Đánh giá chức năng thần kinh",
+        "section": "B06",
+        "front": "Thang điểm AVPU đánh giá nhanh tri giác trẻ em gồm 4 mức độ nào?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• A (Alert): Tỉnh táo.<br>• V (Voice): Đáp ứng với lời nói.<br>• P (Pain): Chỉ đáp ứng với kích thích đau.<br>• U (Unresponsive): Không đáp ứng với tất cả các kích thích.<br><br><b>💡 Lưu ý:</b><br>Trẻ ở mức P hoặc U cần cân nhắc đặt ống nội khí quản bảo vệ đường thở ngay.",
+        "extra": "Văn bản gốc mục 1.3.1 (trang 146).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Than-kinh",
+            "AVPU"
+        ]
+    },
+    {
+        "id": "PED52-B33",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá chức năng thần kinh",
+        "section": "B06",
+        "text": "[Barem gốc] 4 mức độ tri giác AVPU ở trẻ em: A = {{c1::Alert (Tỉnh táo)}}, V = {{c1::Voice (Đáp ứng với lời nói)}}, P = {{c1::Pain (Chỉ đáp ứng với đau)}}, U = {{c1::Unresponsive (Không đáp ứng)}}.",
+        "extra": "Văn bản gốc mục 1.3.1 (trang 146).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Than-kinh",
+            "AVPU"
+        ]
+    },
+    {
+        "id": "PED52-B34",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá chức năng thần kinh",
+        "section": "B06",
+        "text": "[Barem gốc] Đánh giá tư thế trẻ bệnh nặng: tư thế {{c1::bóc vỏ}} hay {{c1::duỗi cứng mất não}} biểu hiện suy chức năng thần kinh nặng; dấu hiệu {{c1::thóp phồng}} và {{c1::cổ cứng}} gợi ý bệnh viêm màng não.",
+        "extra": "Văn bản gốc mục 1.3.1 (trang 147).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Than-kinh",
+            "Tu-the"
+        ]
+    },
+    {
+        "id": "PED52-B35",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá chức năng thần kinh",
+        "section": "B06",
+        "text": "[Barem gốc] Khám đồng tử ở trẻ bệnh nặng: đồng tử {{c1::giãn}}, {{c1::mất phản xạ}} hoặc {{c1::kích thước 2 bên không cân xứng}} là những dấu hiệu tổn thương não nặng.",
+        "extra": "Văn bản gốc mục 1.3.1 (trang 147).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Than-kinh",
+            "Dong-tu"
+        ]
+    },
+    {
+        "id": "PED52-B36",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá chức năng thần kinh",
+        "section": "B06",
+        "text": "[Barem gốc] Ảnh hưởng của suy chức năng thần kinh nặng và muộn lên hệ tim mạch là: {{c1::tăng huyết áp}} đi kèm với {{c1::nhịp tim chậm}}.",
+        "extra": "Văn bản gốc mục 1.3.2 (trang 147).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Than-kinh",
+            "Cushing"
+        ]
+    },
+    {
+        "id": "PED52-B37",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Khám toàn thân",
+        "section": "B07",
+        "front": "Ý nghĩa của dấu hiệu sốt và hạ nhiệt độ khi khám toàn thân ở trẻ bệnh nặng là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Sốt: Gợi ý nguyên nhân nhiễm trùng, co giật do sốt hoặc rét run kéo dài.<br>• Hạ nhiệt độ: Ở trẻ sơ sinh và trẻ suy dinh dưỡng nặng, nhiễm trùng có thể biểu hiện bằng hạ thân nhiệt thay vì sốt.<br><br><b>💡 Lưu ý:</b><br>Hạ thân nhiệt ở trẻ sơ sinh là dấu hiệu chỉ điểm nhiễm khuẩn nặng nguy kịch.",
+        "extra": "Văn bản gốc mục 1.4 (trang 147).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Toan-than",
+            "Nhiet-do"
+        ]
+    },
+    {
+        "id": "PED52-B38",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Khám toàn thân",
+        "section": "B07",
+        "text": "[Barem gốc] Ở trẻ sơ sinh và trẻ suy dinh dưỡng nặng, tình trạng nhiễm trùng nặng có thể biểu hiện bằng {{c1::hạ nhiệt độ}} thay vì sốt.",
+        "extra": "Văn bản gốc mục 1.4 (trang 147).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Toan-than",
+            "Nhiet-do"
+        ]
+    },
+    {
+        "id": "PED52-B39",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Khám toàn thân",
+        "section": "B07",
+        "text": "[Barem gốc] Khám da toàn thân có thể phát hiện ban dị ứng, xuất huyết, tử ban, tụ máu trong {{c1::nhiễm khuẩn huyết}} hoặc trẻ bị {{c1::lạm dụng}}.",
+        "extra": "Văn bản gốc mục 1.4 (trang 147).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Toan-than",
+            "Ban-xuat-huyet"
+        ]
+    },
+    {
+        "id": "PED52-B40",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Hồi sức ban đầu - Đường thở",
+        "section": "B08",
+        "front": "Nguyên tắc phối hợp giữa đánh giá ban đầu và các động tác hồi sức ở trẻ bệnh nặng là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Đánh giá ban đầu và bất kỳ động tác hồi sức nào đều phải được tiến hành TRƯỚC KHI tiến hành đánh giá chi tiết (bước hai) tiếp theo.<br><br><b>💡 Lưu ý:</b><br>Phát hiện suy thoái chức năng sống ở bước nào (A, B hay C) phải hồi sức ngay bước đó rồi mới chuyển bước tiếp theo.",
+        "extra": "Văn bản gốc mục 2 (trang 147).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Hoi-suc",
+            "Nguyen-tac"
+        ]
+    },
+    {
+        "id": "PED52-B41",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Hồi sức ban đầu - Đường thở",
+        "section": "B08",
+        "front": "Dấu hiệu lâm sàng nào chứng tỏ đường thở của trẻ thông thoáng và hô hấp hoàn toàn đảm bảo?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nếu trẻ nói được hoặc khóc được chứng tỏ đường thở thông thoáng và hô hấp đảm bảo.<br><br><b>💡 Lưu ý:</b><br>Tiếng khóc to, phát âm rõ là bằng chứng chắc chắn thanh môn mở và có luồng khí lưu thông tốt.",
+        "extra": "Văn bản gốc mục 2.1 (trang 147).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Duong-tho",
+            "Thong-thoang"
+        ]
+    },
+    {
+        "id": "PED52-B42",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hồi sức ban đầu - Đường thở",
+        "section": "B08",
+        "text": "[Barem gốc] Trong đánh giá đường thở ban đầu, nếu trẻ {{c1::nói được}} hoặc {{c1::khóc được}} chứng tỏ đường thở thông thoáng và hô hấp đảm bảo.",
+        "extra": "Văn bản gốc mục 2.1 (trang 147).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Duong-tho",
+            "Thong-thoang"
+        ]
+    },
+    {
+        "id": "PED52-B43",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hồi sức ban đầu - Đường thở",
+        "section": "B08",
+        "text": "[Barem gốc] Đánh giá sự thông thoáng đường thở theo trình tự 3 bước: {{c1::nhìn}}, {{c1::nghe}} và {{c1::cảm nhận}}.",
+        "extra": "Văn bản gốc mục 2.1 (trang 147).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Duong-tho",
+            "Trinh-tu"
+        ]
+    },
+    {
+        "id": "PED52-B44",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hồi sức ban đầu - Đường thở",
+        "section": "B08",
+        "text": "[Barem gốc] Hồi sức đường thở không thông thoáng: mở thông bằng kỹ thuật {{c1::nâng cằm và ấn hàm}}, điều chỉnh {{c1::tư thế bệnh nhân}}, dùng {{c1::dụng cụ hỗ trợ}} và có thể đặt {{c1::ống nội khí quản (NKQ)}} nếu cần thiết.",
+        "extra": "Văn bản gốc mục 2.1 (trang 148).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Duong-tho",
+            "Hoi-suc"
+        ]
+    },
+    {
+        "id": "PED52-B45",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Hồi sức ban đầu - Hô hấp",
+        "section": "B09",
+        "front": "Ngưỡng SpO2 nào được coi là rất thấp khi theo dõi hô hấp ở trẻ bệnh nặng theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• SpO2 < 90% khi thở khí trời.<br>• Hoặc SpO2 < 95% khi đã được cho thở oxy.<br><br><b>💡 Lưu ý:</b><br>Khi đạt các ngưỡng này, phải nâng bậc hỗ trợ hô hấp (tăng lưu lượng oxy, bóp bóng qua mask hoặc đặt NKQ).",
+        "extra": "Văn bản gốc mục 2.2 (trang 148).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "SpO2"
+        ]
+    },
+    {
+        "id": "PED52-B46",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hồi sức ban đầu - Hô hấp",
+        "section": "B09",
+        "text": "[Barem gốc] Khi theo dõi bằng oximeter, độ bão hoà oxy được coi là rất thấp khi SpO2 {{c1::< 90%}} lúc thở khí trời hoặc SpO2 {{c1::< 95%}} lúc thở oxy.",
+        "extra": "Văn bản gốc mục 2.2 (trang 148).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "SpO2"
+        ]
+    },
+    {
+        "id": "PED52-B47",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hồi sức ban đầu - Hô hấp",
+        "section": "B09",
+        "text": "[Barem gốc] Hồi sức hô hấp: dùng oxy lưu lượng cao cho trẻ rối loạn hô hấp; trẻ có suy hô hấp cần được thông khí với oxy bằng {{c1::bóng-mask}} hoặc đặt NKQ và cho thở {{c1::áp lực dương ngắt quãng}}.",
+        "extra": "Văn bản gốc mục 2.2 (trang 148).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Ho-hap",
+            "Hoi-suc"
+        ]
+    },
+    {
+        "id": "PED52-B48",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Hồi sức ban đầu - Tuần hoàn",
+        "section": "B10",
+        "front": "Trình bày các khoảng nhịp tim bình thường theo 5 mốc lứa tuổi ở trẻ em theo Bảng 1 giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Dưới 1 tuổi: 110 - 160 lần/phút.<br>• 1 - 2 tuổi: 100 - 150 lần/phút.<br>• 2 - 5 tuổi: 95 - 140 lần/phút.<br>• 5 - 12 tuổi: 80 - 120 lần/phút.<br>• Trên 12 tuổi: 60 - 100 lần/phút.<br><br><b>💡 Lưu ý:</b><br>Nhịp tim giảm dần theo lứa tuổi khi hệ thần kinh phó giao cảm hoàn thiện.",
+        "extra": "Văn bản gốc Bảng 1 mục 2.3 (trang 149).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Nhip-tim-theo-tuoi"
+        ]
+    },
+    {
+        "id": "PED52-B49",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Hồi sức ban đầu - Tuần hoàn",
+        "section": "B10",
+        "front": "Trình bày các khoảng huyết áp tâm thu bình thường theo 5 mốc lứa tuổi ở trẻ em theo Bảng 1 giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Dưới 1 tuổi: 70 - 90 mmHg.<br>• 1 - 2 tuổi: 80 - 95 mmHg.<br>• 2 - 5 tuổi: 80 - 100 mmHg.<br>• 5 - 12 tuổi: 90 - 110 mmHg.<br>• Trên 12 tuổi: 100 - 120 mmHg.<br><br><b>💡 Lưu ý:</b><br>Đo huyết áp bắt buộc phải dùng băng đo có kích thước thích hợp với lứa tuổi.",
+        "extra": "Văn bản gốc Bảng 1 mục 2.3 (trang 149).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Huyet-ap-theo-tuoi"
+        ]
+    },
+    {
+        "id": "PED52-B50",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hồi sức ban đầu - Tuần hoàn",
+        "section": "B10",
+        "text": "[Barem gốc] Nhịp tim bình thường theo Bảng 1: trẻ < 1 tuổi là {{c1::110 - 160 lần/phút}}; trẻ từ 1 - 2 tuổi là {{c1::100 - 150 lần/phút}}.",
+        "extra": "Văn bản gốc Bảng 1 (trang 149).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Nhip-tim"
+        ]
+    },
+    {
+        "id": "PED52-B51",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hồi sức ban đầu - Tuần hoàn",
+        "section": "B10",
+        "text": "[Barem gốc] Nhịp tim bình thường theo Bảng 1: trẻ từ 2 - 5 tuổi là {{c1::95 - 140 lần/phút}}; trẻ từ 5 - 12 tuổi là {{c1::80 - 120 lần/phút}}; trẻ > 12 tuổi là {{c1::60 - 100 lần/phút}}.",
+        "extra": "Văn bản gốc Bảng 1 (trang 149).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Nhip-tim"
+        ]
+    },
+    {
+        "id": "PED52-B52",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hồi sức ban đầu - Tuần hoàn",
+        "section": "B10",
+        "text": "[Barem gốc] Huyết áp tâm thu bình thường theo Bảng 1: trẻ < 1 tuổi là {{c1::70 - 90 mmHg}}; trẻ từ 1 - 2 tuổi là {{c1::80 - 95 mmHg}}.",
+        "extra": "Văn bản gốc Bảng 1 (trang 149).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Huyet-ap"
+        ]
+    },
+    {
+        "id": "PED52-B53",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hồi sức ban đầu - Tuần hoàn",
+        "section": "B10",
+        "text": "[Barem gốc] Huyết áp tâm thu bình thường theo Bảng 1: trẻ từ 2 - 5 tuổi là {{c1::80 - 100 mmHg}}; trẻ từ 5 - 12 tuổi là {{c1::90 - 110 mmHg}}; trẻ > 12 tuổi là {{c1::100 - 120 mmHg}}.",
+        "extra": "Văn bản gốc Bảng 1 (trang 149).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Huyet-ap"
+        ]
+    },
+    {
+        "id": "PED52-B54",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hồi sức ban đầu - Tuần hoàn",
+        "section": "B10",
+        "text": "[Barem gốc] Khi đánh giá thời gian làm đầy mao mạch phải chú ý {{c1::nhiệt độ môi trường}}, bình thường thời gian đầy mao mạch là {{c1::< 2 giây}}.",
+        "extra": "Văn bản gốc mục 2.3 (trang 149).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "CRT"
+        ]
+    },
+    {
+        "id": "PED52-B55",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Hồi sức ban đầu - Tuần hoàn",
+        "section": "B10",
+        "front": "Các biện pháp hồi sức tuần hoàn cấp cứu ban đầu cho bệnh nhân sốc gồm những gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cho thở oxy qua mặt nạ hoặc ống NKQ.<br>2) Thiết lập đường truyền tĩnh mạch hoặc đường truyền trong xương.<br>3) Truyền ngay dung dịch tinh thể liều 20 ml/kg.<br>4) Lấy mẫu máu xét nghiệm và kiểm tra đường huyết ngay thời điểm này.<br><br><b>💡 Lưu ý:</b><br>Đường truyền trong xương là cứu cánh khi thất bại lấy ven sau 90 giây ở trẻ sốc nặng.",
+        "extra": "Văn bản gốc mục 2.3 (trang 149).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Hoi-suc-soc"
+        ]
+    },
+    {
+        "id": "PED52-B56",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hồi sức ban đầu - Tuần hoàn",
+        "section": "B10",
+        "text": "[Barem gốc] Hồi sức sốc ban đầu: lập đường truyền tĩnh mạch hoặc {{c1::đường truyền trong xương}}, truyền ngay dung dịch tinh thể với liều {{c1::20 ml/kg}} và kiểm tra {{c1::đường huyết}} ngay thời điểm này.",
+        "extra": "Văn bản gốc mục 2.3 (trang 149).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tuan-hoan",
+            "Hoi-suc-soc"
+        ]
+    },
+    {
+        "id": "PED52-B57",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Hồi sức ban đầu - Thần kinh",
+        "section": "B11",
+        "front": "Khi nào cần cân nhắc đặt ống nội khí quản kiểm soát đường thở ở bước hồi sức thần kinh ban đầu?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Khi bệnh nhân có rối loạn ý thức ở mức độ P (chỉ đáp ứng với đau) hoặc U (không đáp ứng) trên thang điểm AVPU.<br><br><b>💡 Lưu ý:</b><br>Mất phản xạ bảo vệ đường hầu họng đặt bệnh nhân trước nguy cơ hít sặc và suy hô hấp cấp.",
+        "extra": "Văn bản gốc mục 2.4 (trang 150).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Than-kinh",
+            "Dat-NKQ"
+        ]
+    },
+    {
+        "id": "PED52-B58",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hồi sức ban đầu - Thần kinh",
+        "section": "B11",
+        "text": "[Barem gốc] Nếu bệnh nhân có rối loạn ý thức ở mức độ {{c1::P hoặc U (chỉ đáp ứng đau hoặc không đáp ứng)}} thì phải cân nhắc đặt ống NKQ để kiểm soát đường thở.",
+        "extra": "Văn bản gốc mục 2.4 (trang 150)."
+    },
+    {
+        "id": "PED52-B59",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Hồi sức ban đầu - Thần kinh",
+        "section": "B11",
+        "front": "Phác đồ xử trí hạ đường huyết cấp cứu ở trẻ bệnh nặng theo giáo trình Y Thái Bình là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Điều trị bằng dung dịch Glucose 10% liều 2 ml/kg tiêm tĩnh mạch. Trước khi truyền đường, phải lấy máu xét nghiệm đường và các xét nghiệm khác.<br><br><b>💡 Lưu ý:</b><br>Tuyệt đối không dùng Glucose ưu trương nồng độ cao (20%, 30%) tiêm bolus trực tiếp ở trẻ em vì nguy cơ xơ hóa tĩnh mạch và tăng áp lực thẩm thấu đột ngột.",
+        "extra": "Văn bản gốc mục 2.4 (trang 150).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Than-kinh",
+            "Ha-duong-huyet"
+        ]
+    },
+    {
+        "id": "PED52-B60",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hồi sức ban đầu - Thần kinh",
+        "section": "B11",
+        "text": "[Barem gốc] Điều trị hạ đường huyết ban đầu: dùng dung dịch {{c1::Glucose 10%}} liều {{c1::2 ml/kg}}; trước khi truyền đường bắt buộc phải {{c1::lấy máu xét nghiệm đường}}.",
+        "extra": "Văn bản gốc mục 2.4 (trang 150).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Than-kinh",
+            "Ha-duong-huyet"
+        ]
+    },
+    {
+        "id": "PED52-B61",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hồi sức ban đầu - Thần kinh",
+        "section": "B11",
+        "text": "[Barem gốc] Trong hồi sức thần kinh ban đầu, nếu trẻ co giật kéo dài hoặc tái diễn thì chỉ định dùng {{c1::Benzodiazepine}}.",
+        "extra": "Văn bản gốc mục 2.4 (trang 150).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Than-kinh",
+            "Co-giat"
+        ]
+    },
+    {
+        "id": "PED52-B62",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Đánh giá bước hai",
+        "section": "B12",
+        "front": "Thời điểm và điều kiện tiên quyết để tiến hành đánh giá bước hai ở trẻ bệnh nặng là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Đánh giá bước hai chỉ được thực hiện sau khi đã tiến hành đánh giá ban đầu và đã điều trị các dấu hiệu đe dọa tính mạng.<br><br><b>💡 Lưu ý:</b><br>Đường thở chưa thông, hô hấp chưa ổn, huyết động chưa vững tuyệt đối không dừng lại để làm đánh giá bước hai.",
+        "extra": "Văn bản gốc mục 3 (trang 150).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai",
+            "Dieu-kien"
+        ]
+    },
+    {
+        "id": "PED52-B63",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Đánh giá bước hai",
+        "section": "B12",
+        "front": "Mục đích cốt lõi của đánh giá bước hai ở trẻ bệnh nặng khác gì so với làm bệnh án thông thường?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Đánh giá bước hai tiến hành không phải để hoàn thành chẩn đoán xác định mà để phát hiện các vấn đề cần điều trị cấp cứu. Tập trung vào những vấn đề thiết yếu vì thời gian có hạn.<br><br><b>💡 Lưu ý:</b><br>Khác với bệnh án thông thường vốn mang tính chất tầm soát toàn diện và tìm bệnh căn nguyên lâu dài.",
+        "extra": "Văn bản gốc mục 3 (trang 150).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai",
+            "Muc-dich"
+        ]
+    },
+    {
+        "id": "PED52-B64",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá bước hai",
+        "section": "B12",
+        "text": "[Barem gốc] Đánh giá bước hai chỉ được thực hiện sau khi đã {{c1::tiến hành đánh giá ban đầu}} và {{c1::điều trị các dấu hiệu đe dọa tính mạng}}.",
+        "extra": "Văn bản gốc mục 3 (trang 150).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai",
+            "Dieu-kien"
+        ]
+    },
+    {
+        "id": "PED52-B65",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá bước hai",
+        "section": "B12",
+        "text": "[Barem gốc] Đánh giá bước hai được tiến hành không phải để hoàn thành chẩn đoán xác định mà để {{c1::phát hiện các vấn đề cần điều trị cấp cứu}}.",
+        "extra": "Văn bản gốc mục 3 (trang 150).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai",
+            "Muc-dich"
+        ]
+    },
+    {
+        "id": "PED52-B66",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá bước hai",
+        "section": "B12",
+        "text": "[Barem gốc] Khi khai thác bệnh sử bước hai ở trẻ bệnh nặng, người thầy thuốc không được quên hỏi: {{c1::tình trạng ban đầu}} và {{c1::đáp ứng với điều trị}}.",
+        "extra": "Văn bản gốc mục 3 (trang 150).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai",
+            "Benh-su"
+        ]
+    },
+    {
+        "id": "PED52-B67",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Bước hai - Hô hấp",
+        "section": "B13",
+        "front": "4 xét nghiệm cận lâm sàng đề xuất trong đánh giá bước hai hệ hô hấp ở trẻ bệnh nặng là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đo độ bão hòa oxy (SpO2).<br>2) Cấy máu.<br>3) Chụp X-quang ngực thẳng.<br>4) Khí máu động mạch.<br><br><b>💡 Lưu ý:</b><br>Bộ xét nghiệm đánh giá mức độ trao đổi khí, thăng bằng toan kiềm và tổn thương nhu mô/nhiễm trùng phổi.",
+        "extra": "Văn bản gốc mục 3.1 (trang 151).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-ho-hap",
+            "Xet-nghiem"
+        ]
+    },
+    {
+        "id": "PED52-B68",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Bước hai - Hô hấp",
+        "section": "B13",
+        "front": "Chẩn đoán và xử trí cấp cứu bước hai khi trẻ có thở rít kết hợp ho ông ổng và khó thở nặng?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chẩn đoán: Nghĩ đến viêm tắc thanh quản nặng (croup nặng).<br>• Điều trị cấp cứu: Khí dung Adrenalin 1‰ liều 5 ml với oxy.<br><br><b>💡 Lưu ý:</b><br>Tác dụng co mạch tại chỗ của Adrenalin giúp giảm nhanh phù nề hạ thanh môn.",
+        "extra": "Văn bản gốc mục 3.1 (trang 151).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-ho-hap",
+            "Viem-thanh-quan"
+        ]
+    },
+    {
+        "id": "PED52-B69",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Hô hấp",
+        "section": "B13",
+        "text": "[Barem gốc] Khi trẻ có thở rít kết hợp với ho ông ổng và khó thở nặng thì nghĩ đến viêm tắc thanh quản nặng, điều trị bằng {{c1::khí dung Adrenalin 1‰ 5 ml với oxy}}.",
+        "extra": "Văn bản gốc mục 3.1 (trang 151).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-ho-hap",
+            "Viem-thanh-quan"
+        ]
+    },
+    {
+        "id": "PED52-B70",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Hô hấp",
+        "section": "B13",
+        "text": "[Barem gốc] Khi nghi ngờ viêm nắp thanh môn hoặc dị vật thanh quản: nguyên tắc là {{c1::không can thiệp thô bạo vào đường thở}}; trong tình huống đe dọa tính mạng soi thanh quản gắp dị vật bằng {{c1::kẹp Magill}}.",
+        "extra": "Văn bản gốc mục 3.1 (trang 151).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-ho-hap",
+            "Di-vat"
+        ]
+    },
+    {
+        "id": "PED52-B71",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Hô hấp",
+        "section": "B13",
+        "text": "[Barem gốc] Tiếng thở rít xảy ra sau khi bệnh nhân tiêm hoặc ăn phải dị nguyên gợi ý phản vệ, chỉ định cấp cứu bằng {{c1::Adrenalin 1‰ liều 10 µg/kg}}, tiêm {{c1::bắp}}.",
+        "extra": "Văn bản gốc mục 3.1 (trang 152).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-ho-hap",
+            "Phan-ve"
+        ]
+    },
+    {
+        "id": "PED52-B72",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Hô hấp",
+        "section": "B13",
+        "text": "[Barem gốc] Trẻ có tiền sử hen phế quản, thở khò khè, suy hô hấp nặng được điều trị bằng khí dung {{c1::thuốc chủ vận β2-Adrenergic}} và {{c1::Ipratropium}} với oxy; trẻ nhũ nhi viêm tiểu phế quản điều trị bằng {{c1::oxy}}.",
+        "extra": "Văn bản gốc mục 3.1 (trang 152).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-ho-hap",
+            "Hen-phe-quan"
+        ]
+    },
+    {
+        "id": "PED52-B73",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Hô hấp",
+        "section": "B13",
+        "text": "[Barem gốc] Điều trị cấp cứu tình trạng thở kiểu nhiễm toan do đái tháo đường ở trẻ em gồm: {{c1::huyết thanh mặn 9‰}} và {{c1::Insulin}}.",
+        "extra": "Văn bản gốc mục 3.1 (trang 152).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-ho-hap",
+            "Nhiem-toan"
+        ]
+    },
+    {
+        "id": "PED52-B74",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Bước hai - Tuần hoàn",
+        "section": "B14",
+        "front": "Xử trí bù dịch trong sốc ở bước hai: Khi nào cần cân nhắc sử dụng thuốc vận mạch và đặt ống nội khí quản?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bơm thêm dịch nếu bệnh nhân sốc không đáp ứng với lần bơm thứ nhất.<br>• Cân nhắc việc dùng thuốc vận mạch và đặt ống NKQ nếu phải bơm dịch lần thứ 3.<br><br><b>💡 Lưu ý:</b><br>Sau 40 - 60 ml/kg dịch tinh thể không cải thiện, cần chuyển sang hỗ trợ co bóp cơ tim/vận mạch để tránh quá tải dịch.",
+        "extra": "Văn bản gốc mục 3.2 (trang 153).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-tuan-hoan",
+            "Bu-dich-soc"
+        ]
+    },
+    {
+        "id": "PED52-B75",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Tuần hoàn",
+        "section": "B14",
+        "text": "[Barem gốc] Xử trí sốc bước hai: bơm thêm dịch nếu không đáp ứng lần thứ nhất; cân nhắc {{c1::dùng thuốc vận mạch}} và {{c1::đặt ống NKQ}} nếu phải bơm dịch {{c1::lần thứ 3}}.",
+        "extra": "Văn bản gốc mục 3.2 (trang 153).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-tuan-hoan",
+            "Bu-dich-soc"
+        ]
+    },
+    {
+        "id": "PED52-B76",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Tuần hoàn",
+        "section": "B14",
+        "text": "[Barem gốc] Cân nhắc việc sử dụng {{c1::kháng sinh tĩnh mạch}} trong trường hợp trẻ sốc nếu không có dấu hiệu mất nước vì có thể là do {{c1::nhiễm khuẩn huyết}}.",
+        "extra": "Văn bản gốc mục 3.2 (trang 153).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-tuan-hoan",
+            "Khang-sinh"
+        ]
+    },
+    {
+        "id": "PED52-B77",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Tuần hoàn",
+        "section": "B14",
+        "text": "[Barem gốc] Sử dụng {{c1::Prostaglandin E1}} trong trường hợp trẻ mắc bệnh tim bẩm sinh nghi {{c1::phụ thuộc ống}}.",
+        "extra": "Văn bản gốc mục 3.2 (trang 153).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-tuan-hoan",
+            "PGE1"
+        ]
+    },
+    {
+        "id": "PED52-B78",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Tuần hoàn",
+        "section": "B14",
+        "text": "[Barem gốc] Bệnh nhân có các cấp cứu về tiêu hóa (nôn, đau bụng, khối ở bụng, cảm ứng phúc mạc) cần khẩn trương {{c1::hội chẩn và can thiệp ngoại khoa}}.",
+        "extra": "Văn bản gốc mục 3.2 (trang 153).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-tuan-hoan",
+            "Ngoai-khoa"
+        ]
+    },
+    {
+        "id": "PED52-B79",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Bước hai - Thần kinh",
+        "section": "B15",
+        "front": "Các dấu hiệu gợi ý và phác đồ điều trị cấp cứu tăng áp lực nội sọ trong đánh giá bước hai là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Dấu hiệu: Giảm tri giác, tư thế bất thường hoặc phản xạ vận động nhãn cầu bất thường.<br>• Xử trí: Đặt ống NKQ và thông khí nhân tạo; cân nhắc dùng Mannitol 0,5 - 1,0 g/kg TM trên 15 phút (nhắc lại nếu cần, duy trì áp lực thẩm thấu < 325 mOsm/l) hoặc truyền muối ưu trương 3%.<br><br><b>💡 Lưu ý:</b><br>Kiểm soát PaCO2 ở mức 30 - 35 mmHg và dùng liệu pháp thẩm thấu là hai trụ cột chống phù não cấp.",
+        "extra": "Văn bản gốc mục 3.3 (trang 154).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-than-kinh",
+            "Tang-ALNS"
+        ]
+    },
+    {
+        "id": "PED52-B80",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Thần kinh",
+        "section": "B15",
+        "text": "[Barem gốc] Trẻ có tăng áp lực nội sọ cần được đặt NKQ và thông khí nhân tạo; cân nhắc dùng {{c1::Mannitol 0,5 - 1,0 g/kg}} TM trên 15 phút, duy trì áp lực thẩm thấu {{c1::< 325 mOsm/l}}, hoặc truyền {{c1::muối ưu trương 3%}}.",
+        "extra": "Văn bản gốc mục 3.3 (trang 154).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-than-kinh",
+            "Tang-ALNS"
+        ]
+    },
+    {
+        "id": "PED52-B81",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Thần kinh",
+        "section": "B15",
+        "text": "[Barem gốc] Nếu trẻ có tri giác giảm hoặc co giật, cần nghĩ đến viêm màng não hoặc viêm não và chỉ định ngay {{c1::Cefotaxim}} hoặc {{c1::Acyclovir}}.",
+        "extra": "Văn bản gốc mục 3.3 (trang 154).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-than-kinh",
+            "Viem-nao"
+        ]
+    },
+    {
+        "id": "PED52-B82",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Thần kinh",
+        "section": "B15",
+        "text": "[Barem gốc] Nếu trẻ hôn mê kèm theo đồng tử co nhỏ thì nghĩ đến {{c1::ngộ độc Opiate}}, xử trí cấp cứu có thể dùng thử {{c1::Naloxone}}.",
+        "extra": "Văn bản gốc mục 3.3 (trang 154).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-than-kinh",
+            "Opiate"
+        ]
+    },
+    {
+        "id": "PED52-B83",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Thần kinh",
+        "section": "B15",
+        "text": "[Barem gốc] Nếu trẻ lơ mơ và thở yếu, cần kiểm tra: đường máu, khí máu và định lượng {{c1::Salicylate trong máu}}.",
+        "extra": "Văn bản gốc mục 3.3 (trang 154).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-than-kinh",
+            "Xet-nghiem"
+        ]
+    },
+    {
+        "id": "PED52-B84",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Bước hai - Khám toàn thân",
+        "section": "B16",
+        "front": "Chẩn đoán nghi ngờ và xử trí cấp cứu bước hai khi trẻ có rối loạn tuần hoàn, thần kinh kết hợp ban xuất huyết?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Gợi ý chẩn đoán: Nhiễm khuẩn huyết hoặc viêm màng não mủ.<br>• Điều trị cấp cứu: Dùng Cefotaxim hoặc Ceftriaxone, bắt buộc phải cấy máu trước khi dùng kháng sinh.<br><br><b>💡 Lưu ý:</b><br>Lấy máu cấy nhanh không làm chậm trễ tiêm kháng sinh liều đầu tiên.",
+        "extra": "Văn bản gốc mục 3.4 (trang 154).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-toan-than",
+            "Ban-xuat-huyet"
+        ]
+    },
+    {
+        "id": "PED52-B85",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Khám toàn thân",
+        "section": "B16",
+        "text": "[Barem gốc] Trẻ có triệu chứng rối loạn tuần hoàn và thần kinh, có ban xuất huyết gợi ý {{c1::nhiễm khuẩn huyết}} hoặc {{c1::viêm màng não mủ}}, điều trị bằng {{c1::Cefotaxim hoặc Ceftriaxone}} và phải {{c1::cấy máu trước khi dùng kháng sinh}}.",
+        "extra": "Văn bản gốc mục 3.4 (trang 154).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-toan-than",
+            "Ban-xuat-huyet"
+        ]
+    },
+    {
+        "id": "PED52-B86",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bước hai - Khám toàn thân",
+        "section": "B16",
+        "text": "[Barem gốc] Nếu trẻ có triệu chứng hô hấp, tuần hoàn kèm ban mề đay hoặc phù mạch gợi ý sốc phản vệ, cấp cứu ngay bằng {{c1::Epinephrin 10 µg/kg tiêm bắp}}.",
+        "extra": "Văn bản gốc mục 3.4 (trang 155).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-toan-than",
+            "Phan-ve"
+        ]
+    },
+    {
+        "id": "PED52-B87",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Bệnh sử bổ sung",
+        "section": "B17",
+        "front": "Hai nhóm nội dung trọng tâm cần khai thác trong phần bệnh sử bổ sung ở trẻ bệnh nặng là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Môi trường sống và sự phát triển: Quá trình phát triển tâm vận động, lịch sử tiêm chủng, hoàn cảnh gia đình, các bệnh đã mắc.<br>2) Thuốc và dị ứng: Tiền sử dùng thuốc ở nhà hoặc điều trị trước đó (nếu nghi ngờ ngộ độc), tiền sử dị ứng của trẻ.<br><br><b>💡 Lưu ý:</b><br>Cung cấp các manh mối quan trọng về nguyên nhân nền tảng và cơ địa của trẻ.",
+        "extra": "Văn bản gốc mục 3.5 (trang 155).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Benh-su-bo-sung"
+        ]
+    },
+    {
+        "id": "PED52-B88",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bệnh sử bổ sung",
+        "section": "B17",
+        "text": "[Barem gốc] Bệnh sử bổ sung ở trẻ nhỏ và trẻ nhũ nhi cần đặc biệt khai thác về: quá trình {{c1::phát triển}}, tiền sử {{c1::tiêm chủng}} và hoàn cảnh gia đình của trẻ.",
+        "extra": "Văn bản gốc mục 3.5 (trang 155).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Benh-su-bo-sung",
+            "Tiem-chung"
+        ]
+    },
+    {
+        "id": "PED52-B89",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bệnh sử bổ sung",
+        "section": "B17",
+        "text": "[Barem gốc] Khi nghi ngờ trẻ bị ngộ độc, bệnh sử bổ sung phải đặc biệt quan tâm đến {{c1::tiền sử dùng thuốc ở nhà hoặc điều trị trước đó}} và tiền sử {{c1::dị ứng}} của trẻ.",
+        "extra": "Văn bản gốc mục 3.5 (trang 155).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Benh-su-bo-sung",
+            "Ngo-doc"
+        ]
+    },
+    {
+        "id": "PED52-B90",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Tài liệu tham khảo",
+        "section": "B18",
+        "front": "Hai nguồn tài liệu tham khảo chính được trích dẫn trong bài giảng Đánh giá và xử trí bệnh nhân nặng ở trẻ em là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) GS Nguyễn Công Khanh (2016): Tiếp cận trẻ bị bệnh nặng cần cấp cứu, Sách Giáo khoa Nhi khoa, NXB Y học, trang 316-323.<br>2) Advanced Pediatric Life Support - APLS (2005): The Structured Approach to the Seriously Ill Child, Blackwell Publishing, Chapter 7: p.53-69.<br><br><b>💡 Lưu ý:</b><br>Nắm nguồn để biết phác đồ cấp cứu ban đầu được chuyển giao từ chuẩn mực APLS quốc tế.",
+        "extra": "Văn bản gốc phần TÀI LIỆU THAM KHẢO (trang 155).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tai-lieu-tham-khao"
+        ]
+    },
+    {
+        "id": "PED52-B91",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Tài liệu tham khảo",
+        "section": "B18",
+        "text": "[Barem gốc] Bài học Tiếp cận bệnh nhân nặng ở trẻ em được biên soạn dựa trên giáo trình của GS {{c1::Nguyễn Công Khanh (2016)}} và tài liệu cấp cứu nhi khoa quốc tế {{c1::APLS (Advanced Pediatric Life Support, 2005)}}.",
+        "extra": "Văn bản gốc phần TÀI LIỆU THAM KHẢO (trang 155).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Tai-lieu-tham-khao"
+        ]
+    }
+]

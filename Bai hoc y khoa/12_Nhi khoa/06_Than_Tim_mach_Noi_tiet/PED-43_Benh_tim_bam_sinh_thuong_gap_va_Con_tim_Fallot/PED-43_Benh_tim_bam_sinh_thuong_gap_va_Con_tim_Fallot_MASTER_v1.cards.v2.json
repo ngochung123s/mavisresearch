@@ -1,1690 +1,2468 @@
-[
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Tỷ lệ mắc tim bẩm sinh lúc sinh ở trẻ sống theo giáo trình là khoảng {{c1::0,8% trẻ sống}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 8 - Mục I).<br><b>🔍 Đối chiếu PED:</b> Tương đương khoảng 8 đến 10 trẻ trên 1000 trẻ sinh sống. Meta-analysis toàn cầu của van der Linde xác định tỷ lệ là 9,1 trên 1000.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Dich-te",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thời điểm phát hiện tim bẩm sinh bằng siêu âm tiền sản theo giáo trình là vào {{c1::quý thứ hai của thời kỳ có thai}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 8 - Mục I).<br><b>🔍 Đối chiếu PED:</b> Siêu âm tim thai hình thái học tối ưu nhất ở tuần thai thứ 18 đến 22.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Sieu-am-tien-san",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Phẫu thuật tim hở lần đầu tiên trên thế giới được tiến hành ở Đại học Minnesota vào năm {{c1::1950}} với máy tim phổi nhân tạo.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 8 - Mục I).<br><b>🔍 Đối chiếu PED:</b> Mốc lịch sử mở ra kỷ nguyên phẫu thuật sửa chữa triệt để tim bẩm sinh.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Lich-su-phau-thuat",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Đặc điểm chung của nhóm tim bẩm sinh shunt Trái - Phải là: {{c1::Máu đi từ bên trái sang bên phải}}, lượng máu lên phổi {{c1::tăng}} và thường {{c1::không có tím}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 8 - Mục II.1).<br><b>🔍 Đối chiếu PED:</b> Do áp lực và sức cản đại tuần hoàn sinh lý cao hơn tuần hoàn phổi.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Shunt-Trai-Phai",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Hiện tượng tím muộn trong nhóm tim bẩm sinh shunt Trái - Phải xảy ra khi tổn thương lớn không được phẫu thuật gây tắc nghẽn mạch phổi, được gọi là {{c1::Hội chứng Eisenmenger}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 8 - Mục II.1).<br><b>🔍 Đối chiếu PED:</b> Tăng áp lực mạch phổi cố định làm đảo ngược luồng shunt thành Phải - Trái, chống chỉ định mổ tim hở đóng lỗ thông.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Hoi-chung-Eisenmenger",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Danh mục các bệnh tim bẩm sinh shunt Trái - Phải trong giáo trình gồm 5 bệnh: {{c1::Thông liên thất (VSD), Thông liên nhĩ (ASD), Còn ống động mạch (PDA), Thông sàn nhĩ thất (AVSD) và Bất thường tĩnh mạch phổi bán phần (PAPVC)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 8 - Mục II.1).<br><b>🔍 Đối chiếu PED:</b> 5 bệnh lý shunt Trái - Phải kinh điển cần ghi nhớ khi thi.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Phan-loai-Shunt-TP",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Đặc điểm chung của nhóm tim bẩm sinh shunt Phải - Trái là: {{c1::Máu chưa được oxy hóa đi vào động mạch chủ}}, lượng máu tới phổi có thể {{c1::tăng hoặc giảm}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 8 - Mục II.2).<br><b>🔍 Đối chiếu PED:</b> Gây triệu chứng tím tái trung ương sớm ngay sau sinh.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Shunt-Phai-Trai",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Danh mục 7 bệnh tim bẩm sinh shunt Phải - Trái (có tím) trong giáo trình gồm: {{c1::Tứ chứng Fallot, Teo van ĐMP kèm/không kèm VSD, Chuyển gốc ĐM (TGA), Thân chung ĐM, Bệnh Ebstein, TAPVC toàn phần và Thiểu sản thất trái (HLHS)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 8 - Mục II.2).<br><b>🔍 Đối chiếu PED:</b> Cần phân biệt nhóm giảm lưu lượng phổi (Fallot, Teo van ĐMP) và nhóm tăng lưu lượng phổi (TGA, Truncus).",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Phan-loai-Shunt-PT",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nhóm tổn thương tắc nghẽn tại van và không tại van trong giáo trình gồm: {{c1::Tắc nghẽn đường ra thất trái (LVOTO), Thiểu sản quai ĐMC / hẹp eo ĐMC, Hẹp van ĐMP và Hẹp van ĐMC}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 9 - Mục II.3).<br><b>🔍 Đối chiếu PED:</b> Nhóm bệnh gây tăng gánh áp lực đơn thuần không có luồng shunt ban đầu.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Ton-thuong-tac-nghen",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Nghiệm pháp thở oxy 100% (Hyperoxia test) có giá trị chẩn đoán: Nếu PaO2 sau 10 phút thở oxy vẫn dưới {{c1::< 100 đến 150 mmHg}} khẳng định nguyên nhân tím là do {{c1::tim bẩm sinh có luồng shunt Phải - Trái}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 3.2).<br><b>🔍 Phân biệt:</b> Nếu PaO2 tăng vọt > 200 mmHg chứng tỏ tím do bệnh lý suy hô hấp của nhu mô phổi.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Hyperoxia-test"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thông liên thất (VSD) là dị tật phổ biến nhất của tim bẩm sinh, chiếm tới {{c1::20%}} tất cả các trường hợp tim bẩm sinh (trừ van ĐMC hai lá và sa van hai lá).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 9 - Mục 3.1).<br><b>🔍 Đối chiếu PED:</b> Là dị tật bẩm sinh hay gặp nhất ở các phòng khám tim mạch nhi.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "VSD-dich-te",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Giáo trình phân loại thông liên thất thành 4 vị trí giải phẫu: {{c1::Phần quanh màng (Perimembranous), Phần phễu / Dưới van (Infundibular), Phần buồng nhận (Inlet) và Phần cơ (Muscular)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 9 - Mục 3.1).<br><b>🔍 Đối chiếu PED:</b> 4 vị trí giải phẫu chuẩn mực bắt buộc thuộc lòng.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "VSD-vi-tri",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thông liên thất phần quanh màng có đặc tính tự nhiên là {{c1::có thể đóng tự nhiên do sự bọc lại của lá vách van ba lá}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 9 - Mục 3.1).<br><b>🔍 Đối chiếu PED:</b> Tạo thành cấu trúc túi phình vách ngăn bảo vệ trên siêu âm tim.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "VSD-phan-mang",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Cả thông liên thất phần màng và phần phễu đều rất gần với lá van động mạch chủ bên phải; do {{c1::hiệu ứng Venturi}} gây sa và hở van động mạch chủ, hạn chế dòng máu qua VSD.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 9 - Mục 3.1).<br><b>🔍 Đối chiếu PED:</b> Áp lực âm do dòng phụt xoáy tốc độ cao hút tụt lá van động mạch chủ.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Hieu-ung-Venturi",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thông liên thất phần buồng nhận có đặc điểm là {{c1::không đóng tự nhiên được}} và thường phối hợp với {{c1::thông sàn nhĩ thất hoặc hở van nhĩ thất}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 9 - Mục 3.1).<br><b>🔍 Đối chiếu PED:</b> ĐTĐ thường biểu hiện trục trái đặc thù.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "VSD-buong-nhan",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thông liên thất phần cơ là dị tật hay gặp ở trẻ sơ sinh và {{c1::hầu hết sẽ đóng trước 2 tuổi}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 9 - Mục 3.1).<br><b>🔍 Đối chiếu PED:</b> Khối cơ bè tâm thất dày lên sinh lý ép bít các lỗ thông cơ nhỏ.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "VSD-phan-co",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Trẻ thông liên thất lỗ nhỏ có đặc điểm: {{c1::Không có triệu chứng lâm sàng}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 9 - Mục 3.1).<br><b>🔍 Đối chiếu PED:</b> Bệnh Roger, chỉ nghe thấy tiếng thổi tâm thu thô ráp 4/6 kèm rung miu.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "VSD-lo-nho",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Trẻ thông liên thất lỗ lớn có triệu chứng thở nhanh, nhịp tim nhanh, không lên cân xuất hiện ngay khi áp lực mạch máu phổi giảm xuống vào lúc trẻ {{c1::6 - 8 tuần tuổi}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 9 - Mục 3.1).<br><b>🔍 Đối chiếu PED:</b> Mốc 6-8 tuần tuổi là mốc kinh điển bùng phát suy tim trong VSD lớn.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "VSD-lo-lon",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Bệnh lý tắc nghẽn mạch máu phổi không xảy ra ở trẻ sơ sinh nhưng có thể phát triển khi trẻ được {{c1::2 tuổi}}; Hội chứng Eisenmenger xảy ra muộn gây shunt Phải - Trái và lúc đó {{c1::không còn chỉ định phẫu thuật}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 9 - Mục 3.1).<br><b>🔍 Đối chiếu PED:</b> Chống chỉ định phẫu thuật đóng lỗ thông khi đã có Eisenmenger.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "VSD-Eisenmenger",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nghe tim trong thông liên thất: Tiếng thổi tâm thu từ nhẹ đến vừa; trường hợp lưu lượng shunt Trái - Phải lớn có thể nghe thấy {{c1::tiếng thổi giữa tâm trương do tăng lưu lượng qua van hai lá}} (rung tâm trương cơ năng).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 9 - Mục 3.1).<br><b>🔍 Đối chiếu PED:</b> Là bằng chứng gián tiếp của luồng shunt lớn Qp/Qs ≥ 2:1.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "VSD-nghe-tim",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Mục tiêu điều trị thông liên thất là: {{c1::Đảm bảo sự phát triển bình thường của cơ thể}} và {{c1::phòng tránh bệnh lý tắc nghẽn mạch phổi}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 9 - Mục 3.1).<br><b>🔍 Đối chiếu PED:</b> Hai mục tiêu chiến lược trong quản lý VSD.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "VSD-muc-tieu",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thời điểm phẫu thuật VSD theo giáo trình: Trẻ có tăng lưu lượng phổi nhiều, không lên cân cần phẫu thuật lúc {{c1::1 - 4 tháng tuổi}}; Hầu hết thông liên thất lớn cần phẫu thuật lúc {{c1::6 - 9 tháng tuổi}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 9 - Mục 3.1).<br><b>🔍 Đối chiếu PED:</b> Hai mốc thời điểm phẫu thuật kinh điển cần ghi nhớ chính xác khi thi.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "VSD-thoi-diem-mo",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thông liên nhĩ (ASD) chiếm tỷ lệ {{c1::6 - 10%}} tim bẩm sinh, với tỷ lệ giới tính {{c1::Nữ : Nam = 2 : 1}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 10 - Mục 3.2).<br><b>🔍 Đối chiếu PED:</b> Dị tật không tím hay gặp nhất ở người lớn.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "ASD-dich-te",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Giáo trình phân loại thông liên nhĩ thành 4 nhóm giải phẫu: 1. {{c1::Thông liên nhĩ thứ phát (Ostium secundum, chiếm 60 - 70%)}}; 2. {{c1::Thông liên nhĩ tiền phát (Ostium primum)}}; 3. {{c1::Thể xoang tĩnh mạch (Sinus venosus)}}; 4. {{c1::Khuyết nóc xoang vành (Coronary sinus defect)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 10 - Mục 3.2).<br><b>🔍 Đối chiếu PED:</b> Thể xoang tĩnh mạch và khuyết nóc xoang vành không được coi là ASD thực sự.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "ASD-giai-phau",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thông liên nhĩ đơn thuần thường {{c1::không có triệu chứng}}, thường không được phát hiện ở tuổi trẻ; nếu không điều trị sẽ dẫn đến mất bù khi gắng sức, loạn nhịp nhĩ, tắc nghẽn mạch phổi sau {{c1::3 đến 4 thập kỷ}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 10 - Mục 3.2).<br><b>🔍 Đối chiếu PED:</b> Tiến triển âm thầm đến tuổi 30-40 mới bộc lộ biến chứng.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "ASD-lam-sang",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Dấu hiệu nghe tim kinh điển của thông liên nhĩ lỗ trung bình - lớn: {{c1::Tiếng tim thứ hai (T2) tách đôi cố định}} và {{c1::tiếng thổi tâm thu ở đầu trên xương ức do tăng lưu lượng qua van ĐMP}} (không phải do máu qua lỗ ASD).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 10 - Mục 3.2).<br><b>🔍 Đối chiếu PED:</b> Tiếng T2 tách đôi không đổi theo hô hấp là triệu chứng chìa khóa.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "ASD-nghe-tim",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Trong thông liên nhĩ lớn, nghe tim có thể thấy tiếng thổi tâm trương ở phần dưới xương ức do {{c1::tăng lưu lượng máu qua van 3 lá}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 10 - Mục 3.2).<br><b>🔍 Đối chiếu PED:</b> Rung tâm trương cơ năng van 3 lá.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "ASD-nghe-tim",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Điện tâm đồ trong thông liên nhĩ lỗ tiên phát (Ostium primum) có dấu hiệu đặc trưng là {{c1::trục trái và khử cực ngược chiều kim đồng hồ}} (khác với lỗ thứ phát thường là trục phải).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 10 - Mục 3.2).<br><b>🔍 Đối chiếu PED:</b> Phản ánh bất thường dẫn truyền của hệ thống His-Purkinje do khuyết gối nội tâm mạc.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "ASD-ECG",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Điều trị thông liên nhĩ theo giáo trình gồm hai phương pháp: {{c1::Phẫu thuật hoặc đóng bằng dụng cụ dưới da (qua da)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 10 - Mục 3.2).<br><b>🔍 Đối chiếu PED:</b> Đóng dù qua da là lựa chọn hàng đầu cho thể thứ phát có gờ mô > 5 mm.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "ASD-dieu-tri",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thông sàn nhĩ thất (AVSD / kênh nhĩ thất) chiếm 4 - 5% tim bẩm sinh, và đặc biệt gặp ở {{c1::40% trẻ bị Down}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 10 - Mục 3.3).<br><b>🔍 Đối chiếu PED:</b> Có tên gọi khác là khuyết gối nội tâm mạc (Endocardial cushion defect).",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "AVSD-Down",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Phân loại thông sàn nhĩ thất theo giáo trình: Thể bán phần có tuýp 1 là {{c1::thông liên nhĩ tiền phát}}; Thể hoàn toàn bao gồm {{c1::thông liên nhĩ tiền phát và thông liên thất phần buồng nhận}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 10 - Mục 3.3).<br><b>🔍 Đối chiếu PED:</b> Thể hoàn toàn kèm một van nhĩ thất chung duy nhất bắc cầu.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "AVSD-phan-loai",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thời điểm phẫu thuật điều trị thông sàn nhĩ thất theo giáo trình là lúc trẻ {{c1::3 - 6 tháng tuổi}}; cần theo dõi lâu dài vì có {{c1::15%}} dẫn đến hở van nhĩ thất hoặc tắc nghẽn LVOTO.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 10 - Mục 3.3).<br><b>🔍 Đối chiếu PED:</b> Mổ sớm trước 6 tháng để phòng tăng áp phổi nặng ở trẻ Down.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "AVSD-phau-thuat",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Dịch tễ Còn ống động mạch (PDA): Chiếm 9 - 12% tim bẩm sinh; tỷ lệ 1 : 5000 ở trẻ đủ tháng nhưng rất cao ở trẻ non tháng theo cân nặng: Trẻ 500 - 999 g là {{c1::42%}}; Trẻ 1000 - 1499 g là {{c1::21%}}; Trẻ 1500 - 1750 g là {{c1::7%}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 10 - Mục 3.4).<br><b>🔍 Đối chiếu PED:</b> Bộ ba số liệu non tháng theo cân nặng kinh điển của giáo trình.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "PDA-non-thang",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Tỷ lệ còn ống động mạch ở những trẻ sống trên vùng núi cao có thể cao gấp {{c1::30 lần}} trẻ sống ở vùng đồng bằng.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 10 - Mục 3.4).<br><b>🔍 Đối chiếu PED:</b> Áp lực riêng phần oxy thấp tại vùng núi cao cản trở đóng ống động mạch sinh lý.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "PDA-nui-cao",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Dấu hiệu mạch ngoại vi đặc trưng của còn ống động mạch lớn là {{c1::mạch nẩy mạnh chìm sâu (Corrigan)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 11 - Mục 3.4).<br><b>🔍 Đối chiếu PED:</b> Máu thoát nhanh từ ĐMC sang ĐMP trong thời kỳ tâm trương làm tụt huyết áp tâm trương.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "PDA-mach-Corrigan",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Tiếng thổi kinh điển của còn ống động mạch là {{c1::tiếng thổi liên tục}} ở đầu trong xương đòn bên trái (dưới đòn trái); ở trẻ sơ sinh và non tháng có thể chỉ nghe thấy {{c1::tiếng thổi tâm thu}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 11 - Mục 3.4).<br><b>🔍 Đối chiếu PED:</b> Tiếng thổi liên tục Gibson (tiếng máy xay).",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "PDA-nghe-tim",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Biểu hiện của Hội chứng Eisenmenger trong còn ống động mạch là {{c1::tím nửa dưới cơ thể (chân tím hơn tay)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 11 - Mục 3.4).<br><b>🔍 Đối chiếu PED:</b> Tím chuyên biệt (Differential cyanosis) do máu đen đổ vào ĐMC xuống sau nhánh dưới đòn trái.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "PDA-Eisenmenger",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Điều trị đóng ống động mạch: Ở trẻ non tháng dùng thuốc {{c1::Indomethacin, Ibuprofen}} (chuyển phẫu thuật nếu thất bại); Ở trẻ lớn đóng bằng {{c1::coil hoặc dụng cụ (dù qua da)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 11 - Mục 3.4).<br><b>🔍 Đối chiếu PED:</b> Cochrane Review xác nhận Ibuprofen an toàn cho thận hơn Indomethacin.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "PDA-dieu-tri",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Tứ chứng Fallot chiếm tỷ lệ {{c1::4 - 8%}} tim bẩm sinh, là một trong các dạng phổ biến nhất của bệnh tim bẩm sinh có tím.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 11 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Tim bẩm sinh tím phổ biến nhất sau thời kỳ sơ sinh.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "TOF-dich-te",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Tứ chứng Fallot bao gồm 4 tổn thương: 1. {{c1::Thông liên thất phần phễu lớn}}; 2. {{c1::Hẹp đường ra thất phải}}; 3. {{c1::Động mạch chủ cưỡi ngựa trên vách liên thất}}; 4. {{c1::Phì đại thất phải do hẹp đường ra thất phải}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 11 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> 4 tổn thương kinh điển do lệch vách nón phễu.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "TOF-4-ton-thuong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Khái niệm Fallot hồng (Pink Fallot): Xảy ra khi {{c1::hẹp đường ra thất phải nhẹ}}, bệnh nhân không có tím.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 11 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Luồng shunt chủ yếu là Trái - Phải, biểu hiện giống VSD lớn.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Fallot-hong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Tiếng thổi tâm thu nghe được ở cạnh ức trái trên trong Fallot là do {{c1::hẹp đường ra thất phải}}, giáo trình nhấn mạnh {{c1::không phải do tiếng thổi qua lỗ thông liên thất}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Câu hỏi thi bẫy kinh điển: Thổi tâm thu là do hẹp đường ra thất phải.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "TOF-thoi-tam-thu",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Hình ảnh X-quang tim phổi kinh điển trong Fallot là {{c1::tim hình chiếc ủng (coeur en sabot)}} do mỏm tim hếch lên vì phì đại thất phải, cung ĐMP lõm và trường phổi sáng do giảm lưu lượng máu lên phổi.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> ĐTĐ thấy trục phải và dày thất phải.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "TOF-Xquang",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Cơ chế phát động Cơn tím thiếu oxy cấp (Hypoxic spell) ở trẻ Fallot là do {{c1::co thắt đường ra thất phải làm giảm lượng máu lên phổi trầm trọng và làm tăng dòng shunt Phải - Trái qua VSD}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Co thắt phễu cắt đứt dòng máu lên phổi.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Con-tim-co-che",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Biểu hiện của cơn tím Fallot gồm: Đột ngột {{c1::thở nhanh nông, kích thích, thở sâu và tăng tím}}; trường hợp nặng có thể dẫn đến {{c1::hôn mê, co giật, tai biến mạch não do tắc mạch (huyết khối/áp xe não)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 11-12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Biến chứng tắc mạch do tăng Hematocrit máu.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Con-tim-bieu-hien",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Cơ chế của tư thế ngồi xổm (Squatting) hoặc ngực gối: Làm {{c1::tăng hậu gánh (tăng sức cản ngoại vi)}} và làm {{c1::giảm dòng shunt Phải - Trái}}, đẩy máu qua phổi nhiều hơn.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Tăng SVR ép máu từ thất phải vượt qua phễu lên ĐMP.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Ngoi-xom-co-che",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Sáu bước xử trí cấp cứu Cơn tím Fallot theo giáo trình: 1. {{c1::Tư thế ngực gối (Knee-chest)}}; 2. {{c1::Thở oxy qua mặt nạ}}; 3. {{c1::Morphin 0,1 mg/kg tiêm dưới da hoặc tiêm bắp}}; 4. {{c1::Truyền dịch}}; 5. {{c1::Propranolol tiêm tĩnh mạch chậm}}; 6. {{c1::Natri bicarbonat nếu có toan chuyển hóa nặng}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Phác đồ 6 bước cấp cứu tại giường bắt buộc thuộc lòng khi đi thi.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Cap-cuu-con-tim",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thuốc và liều dùng dự phòng cơn tím Fallot theo giáo trình là {{c1::Propranolol đường uống}} với liều {{c1::1 - 2 mg/kg/ngày chia 2 - 4 lần}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Dùng duy trì cho trẻ chờ phẫu thuật triệt để.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Du-phong-con-tim",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thời điểm phẫu thuật triệt để (sửa chữa toàn bộ) đóng VSD và mở rộng đường ra thất phải trong Fallot theo giáo trình là lúc trẻ {{c1::4 - 6 tháng tuổi}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Mổ tạm thời làm cầu nối Blalock-Taussig cải tiến nếu giải phẫu nhánh ĐMP quá nhỏ.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "TOF-phau-thuat",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Trong Chuyển gốc đại động mạch (d-TGA), động mạch chủ xuất phát từ {{c1::thất phải}} và động mạch phổi xuất phát từ {{c1::thất trái}}; hai vòng tuần hoàn chảy {{c1::song song với nhau}} thay vì nối tiếp.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 13 - Mục 3.9).<br><b>🔍 Đối chiếu PED:</b> Chiếm 4% tim bẩm sinh.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "TGA-giai-phau",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Để bệnh nhân TGA tồn tại được, bắt buộc phải có các tổn thương phối hợp để {{c1::pha trộn máu (thông liên thất, thông liên nhĩ, còn ống động mạch)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 13 - Mục 3.9).<br><b>🔍 Đối chiếu PED:</b> Không có lỗ pha trộn máu trẻ sẽ tử vong trong vài giờ đầu.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "TGA-pha-tron-mau",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Xử trí cấp cứu TGA sơ sinh gồm: Truyền {{c1::PGE1}} để duy trì mở ống động mạch và {{c1::phá vách liên nhĩ cấp cứu bằng bóng (Thủ thuật Rashkind)}} để đảm bảo pha trộn máu tầng nhĩ.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 13 - Mục 3.9).<br><b>🔍 Đối chiếu PED:</b> Hai biện pháp hồi sức cấp cứu sống còn tại giường.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "TGA-cap-cuu",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Phẫu thuật chuyển lại gốc động mạch ({{c1::Phẫu thuật Jatene / Arterial Switch}}) ngay {{c1::tuần đầu tiên sau sinh}} là lựa chọn tốt nhất cho bệnh nhân TGA không có VSD và không hẹp ĐMP.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 13 - Mục 3.9).<br><b>🔍 Đối chiếu PED:</b> Tuần đầu thất trái chưa bị thoái triển áp lực tống máu.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "TGA-Jatene",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Hai phương pháp phẫu thuật chuyển tầng nhĩ kinh điển trong TGA là phương pháp {{c1::Senning và Mustard}}; biến chứng lâu dài gồm tắc nghẽn tĩnh mạch, rối loạn nhịp và {{c1::suy chức năng thất phải (thất phải gánh hệ thống)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 13 - Mục 3.9).<br><b>🔍 Đối chiếu PED:</b> Khoảng 80% có kết quả tốt ban đầu nhưng bộc lộ suy tim khi lớn.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "TGA-Senning-Mustard",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thân chung động mạch (Truncus Arteriosus) chiếm < 1% tim bẩm sinh, hay kết hợp với {{c1::Hội chứng DiGeorge (mất đoạn NST 22q11)}}; phẫu thuật triệt để phải tiến hành sớm trước {{c1::2 - 3 tháng tuổi}} để đề phòng bệnh mạch máu phổi cố định.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 13 - Mục 3.10).<br><b>🔍 Đối chiếu PED:</b> Gồm 1 VSD phễu lớn và 1 thân chung ĐM duy nhất cưỡi ngựa.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Truncus-Arteriosus",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Bệnh Ebstein là bệnh hiếm gặp do sự bám thấp bất thường của {{c1::lá vách và lá sau van ba lá}} về phía mỏm thất phải, dẫn đến {{c1::nhĩ hóa một phần thất phải}} và gây hở nặng van ba lá.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 14 - Mục 3.11).<br><b>🔍 Đối chiếu PED:</b> Một dạng bệnh cơ tim của thất phải.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Ebstein-giai-phau",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Điện tâm đồ trong bệnh Ebstein: Sóng P khổng lồ ({{c1::sóng P kiểu dãy Himalaya}}) ở DII, block nhánh phải, và đặc biệt {{c1::Hội chứng Wolff-Parkinson-White (WPW)}} phát hiện ở {{c1::15%}} bệnh nhân.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 14 - Mục 3.11).<br><b>🔍 Đối chiếu PED:</b> X-quang tim to hình bóng bàn hoặc bình nước.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Ebstein-ECG",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Phương pháp phẫu thuật sửa van ba lá hiệu quả trong bệnh Ebstein là phương pháp {{c1::Cone (Cone procedure)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 14 - Mục 3.11).<br><b>🔍 Đối chiếu PED:</b> Tạo hình van 3 lá dạng hình nón sinh lý.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Ebstein-Cone",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Trong Bất thường hồi lưu tĩnh mạch phổi hoàn toàn (TAPVC), thể có tắc nghẽn (đặc biệt là {{c1::thể dưới tim ở trẻ sơ sinh}}) gây tăng áp phổi ác tính, phù phổi cấp dữ dội và đòi hỏi {{c1::phẫu thuật cấp cứu tối khẩn (tử vong lên đến 40%)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 14 - Mục 3.12).<br><b>🔍 Đối chiếu PED:</b> Thể trên tim không tắc nghẽn có hình người tuyết (snowman sign).",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "TAPVC-duoi-tim",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Dấu hiệu điện tâm đồ kinh điển đặc biệt nhất của Teo tịt van ba lá (Tricuspid Atresia) là {{c1::trục trái và dày thất trái}} (rất đặc biệt vì hầu hết tim bẩm sinh có tím là trục phải/dày thất phải).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 14 - Mục 3.13).<br><b>🔍 Đối chiếu PED:</b> Thất phải thiểu sản nặng, thất trái lớn đảm đương chức năng bơm máu duy nhất.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Teo-van-3-la-ECG",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Phẫu thuật điều trị Teo van ba lá theo quy trình nhiều giai đoạn hướng tới {{c1::Phẫu thuật Fontan cải tiến}} (nối tĩnh mạch chủ vào động mạch phổi, đưa thất trái duy nhất bơm máu hệ thống) với tỷ lệ sống sót {{c1::> 85% sau 10 năm}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 14 - Mục 3.13).<br><b>🔍 Đối chiếu PED:</b> Phẫu thuật kinh điển cho sinh lý thất duy nhất.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Teo-van-3-la-Fontan",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Trong Hội chứng thiểu sản thất trái (HLHS), tuần hoàn nuôi cơ thể phụ thuộc hoàn toàn vào {{c1::thất phải bơm máu qua ống động mạch (PDA) vào động mạch chủ xuống và chảy ngược nuôi não, vành}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 14-15 - Mục 3.14).<br><b>🔍 Đối chiếu PED:</b> Cấp cứu sơ sinh bắt buộc truyền PGE1 mở lại ống động mạch.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "HLHS-tuan-hoan",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Ba giai đoạn phẫu thuật tái tạo điều trị HLHS theo giáo trình: Giai đoạn 1 (tuần đầu sau sinh) là {{c1::phẫu thuật Norwood}}; Giai đoạn 2 (3 - 6 tháng tuổi) là {{c1::phẫu thuật Glenn hai hướng}}; Giai đoạn 3 (2 - 4 tuổi) là {{c1::phẫu thuật Fontan}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 15 - Mục 3.14).<br><b>🔍 Đối chiếu PED:</b> 3 giai đoạn phẫu thuật chuẩn mực điều trị tim một thất.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "HLHS-3-giai-doan",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Hẹp eo động mạch chủ chiếm 5% tim bẩm sinh, hay gặp ở trẻ trai; ở trẻ gái rất hay phối hợp với {{c1::Hội chứng Turner (45,XO)}}; có tới {{c1::70%}} trường hợp phối hợp van ĐMC hai lá.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 16 - Mục 3.16).<br><b>🔍 Đối chiếu PED:</b> Vị trí hẹp đối diện ống động mạch dưới nhánh dưới đòn trái.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Hep-eo-DMC-dich-te",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Dấu hiệu lâm sàng kinh điển của Hẹp eo ĐMC ở trẻ lớn: Tăng huyết áp chi trên nhưng chi dưới thấp; {{c1::chênh lệch huyết áp tay - chân > 20 mmHg}}; mạch đùi yếu hoặc đến chậm so với mạch quay ({{c1::Radio-femoral delay}}).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 16 - Mục 3.16).<br><b>🔍 Đối chiếu PED:</b> Nghe tim có tiếng thổi tâm thu khoang liên sườn 2 bờ trái ức lan sau liên bả.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Hep-eo-DMC-lam-sang",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Hình ảnh X-quang đặc trưng của Hẹp eo ĐMC ở trẻ lớn là {{c1::dấu hiệu khuyết bờ dưới các xương sườn (Rib notching / Dấu hiệu Roesler)}} do tuần hoàn bàng hệ ĐM liên sườn giãn lớn bào mòn xương và {{c1::dấu hiệu số 3 (Figure of 3 sign)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 16 - Mục 3.16).<br><b>🔍 Đối chiếu PED:</b> Hai dấu hiệu X-quang kinh điển trong câu hỏi thi.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Hep-eo-DMC-Xquang",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Hẹp van động mạch phổi chiếm 8% tim bẩm sinh, thường phối hợp với {{c1::Hội chứng Noonan}}; nghe tim có {{c1::tiếng click tống máu nhỏ đi khi hít vào}} và tiếng thổi tâm thu tống máu khoang liên sườn 2 trái lan sau lưng.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 17 - Mục 3.17).<br><b>🔍 Đối chiếu PED:</b> Tiếng T2 tách đôi rộng, P2 mờ hoặc mất trong hẹp nặng.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Hep-van-DMP-lam-sang",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Biện pháp điều trị lựa chọn hàng đầu cho Hẹp van động mạch phổi là {{c1::nong van động mạch phổi bằng bóng qua da (Balloon pulmonary valvuloplasty)}} mang lại thành công lâu dài ở {{c1::85%}} các trường hợp.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 17 - Mục 3.17).<br><b>🔍 Đối chiếu PED:</b> An toàn, hiệu quả, tránh được phẫu thuật tim hở.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Hep-van-DMP-nong-bong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Chế độ kháng sinh dự phòng viêm nội tâm mạc nhiễm khuẩn đường uống tiêu chuẩn trước thủ thuật răng miệng là {{c1::Amoxicillin liều 50 mg/kg (tối đa 2 g)}} uống một liều duy nhất trước thủ thuật {{c1::30 đến 60 phút}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 9.2).<br><b>🔍 Dược lý:</b> Nếu dị ứng Penicillin chuyển sang Clindamycin 20 mg/kg hoặc Azithromycin 15 mg/kg.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Khang-sinh-du-phong-IE"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Trình bày 4 dị tật giải phẫu bệnh học kinh điển hợp thành Tứ chứng Fallot?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• Bao gồm 4 tổn thương: 1. Thông liên thất phần phễu lớn. 2. Hẹp đường ra thất phải. 3. Động mạch chủ cưỡi ngựa trên vách liên thất. 4. Phì đại thất phải do hẹp đường ra thất phải.<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Nguồn gốc phôi thai học duy nhất của Tứ chứng Fallot là sự lệch vách nón phễu ra trước và lên trên. Tổn thương hẹp đường ra thất phải quyết định mức độ tím và tiên lượng của bệnh nhi.",
-    "extra": "",
-    "tags": [
-      "PED-43",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Trình bày chuỗi phản xạ cấp cứu Cơn tím Fallot cấp (Tet spell) tại giường bệnh?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• 1. Đặt trẻ ở tư thế ngực gối (Knee-chest position). 2. Thở oxy qua mặt nạ. 3. Morphin 0,1 mg/kg tiêm dưới da hoặc tiêm bắp. 4. Truyền dịch duy trì thể tích tuần hoàn và chống cô đặc máu. 5. Propranolol tiêm tĩnh mạch chậm để giảm co thắt đường ra thất phải. 6. Natri bicarbonat nếu có toan chuyển hóa nặng.<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Tư thế ngực gối là động tác vật lý đầu tiên giúp tăng sức cản mạch hệ thống SVR ngay tức thì, ép máu từ thất phải vượt qua phễu lên phổi. Morphin giúp cắt đứt vòng xoắn kích thích giao cảm làm giãn cơ phễu thất phải.",
-    "extra": "",
-    "tags": [
-      "PED-43",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Giải thích cơ chế tại sao trẻ lớn mắc Tứ chứng Fallot lại có động tác ngồi xổm (Squatting)?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• Trẻ lớn có tư thế ngồi xổm (ngực gối) để làm tăng hậu gánh (tăng sức cản ngoại vi) và làm giảm dòng shunt Phải - Trái, đẩy máu qua phổi nhiều hơn.<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Ngồi xổm làm gập động mạch đùi và động mạch chậu, tăng áp lực động mạch hệ thống vượt qua áp lực thất phải. Nhờ đó, lượng máu đen bị đẩy sang động mạch chủ giảm đi, máu buộc phải tìm đường qua chỗ hẹp phễu lên động mạch phổi để hấp thu oxy.",
-    "extra": "",
-    "tags": [
-      "PED-43",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Trình bày dấu hiệu nghe tim kinh điển của Thông liên nhĩ và giải thích cơ chế?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• Tăng gánh tâm trương thất phải; Tiếng tim thứ hai (T2) tách đôi cố định; Tiếng thổi tâm thu ở đầu trên xương ức do tăng lưu lượng máu qua van động mạch phổi; Trong thông liên nhĩ lớn có thể có tiếng thổi tâm trương ở phần dưới xương ức do tăng lưu lượng máu qua van 3 lá.<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• T2 tách đôi cố định là dấu hiệu then chốt nhất: Thất phải nhận máu liên tục từ nhĩ trái sang trong cả hai thì hô hấp, khiến thể tích tống máu thất phải luôn dư thừa và van động mạch phổi luôn đóng muộn một khoảng thời gian cố định so với van chủ.",
-    "extra": "",
-    "tags": [
-      "PED-43",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Mô tả triệu chứng mạch và huyết áp đặc trưng trong Còn ống động mạch (PDA) lớn?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• Mạch ngoại vi nẩy mạnh chìm sâu (Corrigan).<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Trong PDA lớn, thất trái tống một lượng thể tích máu rất lớn vào động mạch chủ trong kỳ tâm thu tạo sóng mạch nảy vọt. Đến kỳ tâm trương, máu thoát nhanh chóng và liên tục qua ống động mạch sang phổi làm áp lực tâm trương tụt giảm sâu. Chênh lệch huyết áp tâm thu và tâm trương mở rộng tạo nên mạch nảy mạnh chìm sâu.",
-    "extra": "",
-    "tags": [
-      "PED-43",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Vì sao trong Chuyển gốc đại động mạch (d-TGA), phẫu thuật chuyển gốc Jatene bắt buộc phải thực hiện trong tuần đầu sau sinh?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• Ngay tuần đầu tiên sau sinh là lựa chọn tốt nhất cho bệnh nhân TGA không có thông liên thất và không hẹp động mạch phổi. Ngay khi áp lực tuần hoàn phổi giảm xuống, thất trái phải đủ điều kiện để bơm máu vào tuần hoàn hệ thống với áp lực lớn hơn.<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Trong tuần đầu, thất trái vẫn còn chịu áp lực mạch phổi cao của thời kỳ bào thai nên cơ thất còn dày. Sau 1-2 tuần, sức cản phổi giảm làm thất trái thoái triển thành mỏng (deconditioned LV). Nếu mổ muộn sau tuần đầu, thất trái mỏng sẽ không đủ sức đảm đương áp lực hệ thống và bệnh nhân sẽ tử vong vì suy thất trái cấp sau mổ.",
-    "extra": "",
-    "tags": [
-      "PED-43",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Trình bày đặc điểm lâm sàng và cận lâm sàng giúp nhận diện Hẹp eo động mạch chủ ở trẻ lớn?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• Tăng huyết áp chi trên nhưng chi dưới huyết áp thấp hoặc không đo được; Chênh lệch huyết áp tay - chân > 20 mmHg; Mạch đùi bắt yếu hoặc đến chậm so với mạch quay (Radio-femoral delay); Tiếng thổi tâm thu khoang liên sườn 2 bờ trái ức lan ra sau lưng; X-quang có dấu hiệu khuyết bờ dưới các xương sườn (dấu hiệu Roesler) và dấu hiệu số 3.<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Khám mạch bẹn hai bên là bước thăm khám bắt buộc ở mọi trẻ tăng huyết áp hoặc suy tim. Khuyết bờ dưới xương sườn hình thành do tuần hoàn bàng hệ động mạch liên sườn giãn to ngoằn ngoèo để đưa máu qua chỗ hẹp nuôi nửa dưới cơ thể.",
-    "extra": "",
-    "tags": [
-      "PED-43",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Nêu nguyên tắc dự phòng viêm nội tâm mạc nhiễm khuẩn (IE) ở trẻ mắc bệnh tim bẩm sinh?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• Kháng sinh dự phòng trước các thủ thuật răng miệng hoặc can thiệp đường thở có chảy máu.<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Kháng sinh đầu tay là Amoxicillin liều 50 mg/kg uống trước thủ thuật 30-60 phút. Dòng máu chảy xoáy với vận tốc cao qua các lỗ thông hoặc chỗ hẹp làm tổn thương lớp nội mạc mạch máu, tạo điều kiện cho vi khuẩn bám dính hình thành sùi nhiễm trùng.",
-    "extra": "",
-    "tags": [
-      "PED-43",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Chỉ định phẫu thuật đóng thông liên thất (VSD) dựa trên tỷ số lưu lượng máu phổi trên lưu lượng máu hệ thống (Qp/Qs) khi tỷ số này đạt từ {{c1::Qp/Qs ≥ 1,5:1}} trở lên.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 4.3).<br><b>🔍 Huyết động:</b> Phản ánh luồng shunt Trái - Phải có ý nghĩa huyết động gây quá tải thể tích thất trái.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "VSD-QpQs"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong thông liên thất phần phễu (dưới van), biến chứng hở van động mạch chủ tiến triển xảy ra do lá van {{c1::động mạch chủ bên phải}} bị hút sa vào lỗ thông liên thất.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 4.1).<br><b>🔍 Cơ chế:</b> Hiệu ứng Venturi tạo áp lực âm kéo tụt lá van phải vào buồng thất phải.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "VSD-sa-van-DMC"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Tỷ lệ tự đóng tự nhiên của thông liên thất phần cơ nhỏ (Muscular VSD) ở trẻ em trước 2 tuổi có thể lên tới {{c1::trên 80%}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 9 - Mục 3.1).<br><b>🔍 Đối chiếu PED:</b> Khối cơ bè tâm thất phì đại sinh lý ép bít các lỗ thông cơ nhỏ.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "VSD-tu-dong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Để tránh nhầm lẫn tiếng thổi tâm thu của thông liên thất với tiếng thổi của hở hai lá cơ năng ở mỏm tim, cần nhớ tiếng thổi của VSD nghe rõ nhất ở {{c1::khoang liên sườn 3-4 bờ trái xương ức}} và lan {{c1::hình nan quạt quanh ngực}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 10 - Cạm bẫy 4).<br><b>🔍 Khám:</b> Tiếng thổi hở hai lá nghe rõ ở mỏm tim và lan ra hố nách trái.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Phan-biet-thoi-VSD"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Ở trẻ nhũ nhi mắc thông liên thất lớn, việc theo dõi sát biểu hiện lâm sàng ăn bú và tăng cân có giá trị hơn nghe tim vì tiếng thổi tâm thu có thể {{c1::nhỏ đi khi áp lực động mạch phổi tăng cao gần bằng áp lực thất trái}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 10 - Cạm bẫy 8).<br><b>🔍 Bẫy lâm sàng:</b> Tiếng thổi nhỏ đi không có nghĩa là bệnh thuyên giảm mà có thể cảnh báo tăng áp phổi nặng.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "VSD-tieng-thoi-nho"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Điều kiện giải phẫu bắt buộc để có thể can thiệp bít thông liên nhĩ lỗ thứ phát bằng dù qua da là gờ mô vách liên nhĩ xung quanh lỗ thông phải đủ dày và rộng {{c1::> 5 mm}} (trừ gờ động mạch chủ).",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 5.3).<br><b>🔍 Can thiệp:</b> Nhằm đảm bảo hai cánh của dù bít Amplatzer bám chắc chắn không bị bung trôi.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "ASD-go-mo"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong thông liên nhĩ lớn, sự quá tải thể tích kéo dài của buồng tâm nhĩ phải và tâm thất phải ở tuổi trưởng thành thường dẫn đến biến chứng rối loạn nhịp tim nguy hiểm là {{c1::rung nhĩ hoặc cuồng nhĩ}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 5.2).<br><b>🔍 Biến chứng:</b> Do thành tâm nhĩ phải bị căng giãn và xơ hóa cấu trúc cơ học theo thời gian.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "ASD-loan-nhip"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tiếng thổi liên tục Gibson trong còn ống động mạch bắt đầu từ {{c1::đầu kỳ tâm thu}}, mạnh dần lên và đạt cường độ đỉnh ở {{c1::tiếng T2}}, sau đó giảm dần trong kỳ tâm trương.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 6.2).<br><b>🔍 Âm học:</b> Phản ánh chênh áp giữa động mạch chủ và động mạch phổi tồn tại liên tục trong suốt chu chuyển tim.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "PDA-Gibson"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Chênh lệch huyết áp (hiệu số huyết áp tâm thu trừ tâm trương) ở trẻ mắc còn ống động mạch lớn thường mở rộng vượt quá {{c1::> 30 đến 40 mmHg}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 6.2).<br><b>🔍 Khám:</b> Huyết áp tâm thu có thể bình thường nhưng huyết áp tâm trương tụt sâu xuống 20-30 mmHg.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "PDA-hieu-so-HA"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Bên cạnh Indomethacin và Ibuprofen, hoạt chất hạ sốt giảm đau thông thường {{c1::Paracetamol (Acetaminophen)}} đường uống hoặc truyền tĩnh mạch cũng được chứng minh có hiệu quả đóng ống động mạch ở trẻ sinh non.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 6.3).<br><b>🔍 Dược lý:</b> Lựa chọn thay thế an toàn khi trẻ non tháng có giảm tiểu cầu nặng hoặc nguy cơ xuất huyết tiêu hóa.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "PDA-Paracetamol"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thuốc đóng ống động mạch (Ibuprofen, Indomethacin) hoàn toàn KHÔNG có tác dụng ở {{c1::trẻ sơ sinh đủ tháng}} mắc còn ống động mạch.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 6.3).<br><b>🔍 Dược lý:</b> Ống động mạch ở trẻ đủ tháng có cấu trúc mô học trưởng thành với nhiều sợi chun, không còn đáp ứng với ức chế men COX.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "PDA-du-thang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Cơ chế cơn tím Fallot: Cơn tăng tiết Catecholamine giao cảm kích thích co thắt dữ dội {{c1::cơ phễu đường ra thất phải}}, cắt đứt dòng máu lên phổi, dồn toàn bộ máu đen từ thất phải qua VSD vào động mạch chủ.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Cơn tím thường bùng phát vào buổi sáng sau thức dậy hoặc sau khóc thét, bú gắng sức.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Fallot-con-tim-co-che",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Trong cơn tím Fallot cấp tính, khám nghe tim sẽ ghi nhận một hiện tượng lâm sàng bất thường là: Tiếng thổi tâm thu ở bờ trái ức vốn có hàng ngày sẽ {{c1::đột ngột nhỏ đi rõ rệt hoặc biến mất hoàn toàn}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Phản ánh cơ phễu đã co thắt tối đa, hầu như không còn máu thoát qua được đường ra thất phải lên phổi.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Fallot-con-tim-tieng-thoi",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Tư thế ngồi xổm (Squatting) hoặc tư thế ngực gối (Knee-chest) giúp cắt cơn tím ở trẻ Fallot nhờ cơ chế {{c1::làm gập động mạch đùi, tăng sức cản mạch máu ngoại biên hệ thống (SVR), từ đó làm giảm luồng shunt Phải - Trái qua VSD}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Ép máu từ thất phải vượt qua chỗ hẹp phễu lên động mạch phổi để tăng cường trao đổi oxy.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Fallot-nguc-goi-co-che",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thuốc an thần giảm đau được lựa chọn hàng đầu trong cấp cứu cơn tím Fallot là {{c1::Morphine Sulfate}}, với liều dùng là {{c1::0,1 mg/kg}} tiêm dưới da (SC) hoặc tiêm bắp (IM).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Ức chế trung tâm hô hấp làm dịu cơn thở nhanh sâu, trấn tĩnh trẻ, cắt đứt phản xạ giao cảm và làm giãn cơ phễu thất phải.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Fallot-Morphin",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Biện pháp bù dịch nhanh bằng dung dịch điện giải đẳng trương NaCl 0,9% liều {{c1::10 đến 15 mL/kg}} trong cơn tím Fallot có tác dụng {{c1::làm tăng thể tích tiền gánh thất phải và chống hiện tượng cô đặc máu}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Tăng thể tích tống máu thất phải giúp đẩy mở cơ phễu đường ra thất phải.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Fallot-bu-dich",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thuốc chẹn beta giao cảm tiêm tĩnh mạch chậm điều trị cơn tím Fallot trơ với Morphine và bù dịch là {{c1::Propranolol}}, với liều tiêm TM rất chậm từ {{c1::0,05 đến 0,1 mg/kg}} trong 5-10 phút.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Trực tiếp làm giãn cơ trơn phễu buồng tống thất phải, bắt buộc theo dõi monitor điện tim liên tục.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Fallot-Propranolol-TM",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thuốc điều trị nội khoa đường uống được chỉ định để dự phòng tái phát cơn tím Fallot ở trẻ chờ phẫu thuật là {{c1::Propranolol}}, với liều dùng từ {{c1::1 đến 2 mg/kg/ngày}} chia làm 2 đến 4 lần.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 12 - Mục 3.6).<br><b>🔍 Đối chiếu PED:</b> Ngăn chặn các đợt co thắt phễu kịch phát khi trẻ quấy khóc hoặc sốt.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Fallot-Propranolol-uong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tiêm Natri Bicarbonat (NaHCO3) liều 1 đến 2 mEq/kg trong cơn tím Fallot nặng nhằm mục đích kiềm hóa máu, bởi vì tình trạng toan chuyển hóa là yếu tố gây {{c1::co thắt mạnh mạch máu phổi, làm tăng sức cản mạch phổi và đẩy mạnh luồng shunt Phải - Trái}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 7.3).<br><b>🔍 Huyết động:</b> Phục hồi pH máu giúp hạ sức cản mạch phổi, tạo thuận lợi cho máu lên phổi.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Fallot-NaHCO3"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Cơn tím thiếu oxy Fallot có đỉnh điểm xuất hiện phổ biến nhất trong độ tuổi từ {{c1::2 đến 4 tháng tuổi}} và thường hay xảy ra vào thời điểm {{c1::buổi sáng sớm sau khi ngủ dậy}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 7.3).<br><b>🔍 Cơ chế:</b> Do nồng độ Catecholamine nội sinh tăng cao theo nhịp sinh học buổi sáng kết hợp tình trạng thiếu nước tương đối sau giấc ngủ đêm.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Fallot-dinh-diem-con-tim"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Biến chứng nhiễm trùng thần kinh nguy hiểm thường gặp ở trẻ lớn mắc Tứ chứng Fallot có tím mạn tính là {{c1::áp xe não (Brain Abscess)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 7.2).<br><b>🔍 Cơ chế:</b> Máu tĩnh mạch hệ thống không qua hệ thống lọc mao mạch phổi nên vi khuẩn xâm nhập thẳng vào tuần hoàn động mạch não.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Fallot-ap-xe-nao"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thủ thuật thông tim can thiệp cấp cứu xé rách vách liên nhĩ bằng bóng ở trẻ sơ sinh mắc TGA có tên là {{c1::Thủ thuật Rashkind (Balloon Atrial Septostomy)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 13 - Mục 3.9).<br><b>🔍 Đối chiếu PED:</b> Tạo lỗ thông liên nhĩ lớn để tối ưu hóa sự pha trộn máu ở tầng tâm nhĩ trong khi chờ phẫu thuật chuyển gốc.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Thu-thuat-Rashkind",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Phẫu thuật sửa chữa triệt để về mặt giải phẫu hiện đại được lựa chọn hàng đầu cho chuyển gốc đại động mạch là {{c1::Phẫu thuật chuyển gốc động mạch Jatene (Arterial Switch Operation - ASO)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 13 - Mục 3.9).<br><b>🔍 Đối chiếu PED:</b> Chuyển lại động mạch chủ về thất trái, chuyển động mạch phổi về thất phải và cắm lại động mạch vành.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Phau-thuat-Jatene",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Thời điểm vàng bắt buộc phải thực hiện phẫu thuật Jatene cho trẻ TGA đơn thuần lành vách liên thất là trong {{c1::tuần đầu tiên sau sinh (từ 3 đến 7 ngày tuổi)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 13 - Mục 3.9).<br><b>🔍 Đối chiếu PED:</b> Sau tuần đầu, sức cản mạch phổi giảm làm tâm thất trái bị thoái triển thành mỏng, không còn đủ áp lực để bơm máu hệ thống.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Jatene-tuan-dau",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Kỹ thuật phẫu thuật Jatene bao gồm các thì chính: Cắt rời đại động mạch, chuyển ĐMC về thất trái, chuyển ĐMP về thất phải, cắm lại hai cuống động mạch vành và làm thủ thuật {{c1::Lecompte đưa động mạch phổi ra trước động mạch chủ}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.1).<br><b>🔍 Phẫu thuật:</b> Nghiệm pháp Lecompte giúp tái lập vị trí giải phẫu tự nhiên của thân động mạch phổi.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Jatene-Lecompte"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Trong Hội chứng thiểu sản thất trái (HLHS), toàn bộ lưu lượng máu nuôi đại tuần hoàn và mạch vành phụ thuộc hoàn toàn vào {{c1::tâm thất phải bơm máu qua ống động mạch (PDA)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 14-15 - Mục 3.14).<br><b>🔍 Đối chiếu PED:</b> Cấp cứu sơ sinh bắt buộc truyền PGE1 mở lại ống động mạch.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "HLHS-tuan-hoan-PDA",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Quy trình phẫu thuật tái tạo 3 giai đoạn điều trị HLHS theo giáo trình gồm: Giai đoạn 1 là {{c1::phẫu thuật Norwood}}; Giai đoạn 2 là {{c1::phẫu thuật Glenn hai hướng}}; Giai đoạn 3 là {{c1::phẫu thuật Fontan}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 15 - Mục 3.14).<br><b>🔍 Đối chiếu PED:</b> Norwood tiến hành tuần đầu sau sinh; Glenn lúc 3-6 tháng; Fontan lúc 2-4 tuổi.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "HLHS-3-giai-doan",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Phẫu thuật Glenn hai hướng (Bidirectional Glenn) trong quy trình Fontan là phẫu thuật nối trực tiếp {{c1::tĩnh mạch chủ trên (SVC)}} vào {{c1::động mạch phổi phải}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Huyết động:</b> Đưa máu nửa trên cơ thể về phổi thụ động không cần qua tâm thất, thực hiện lúc 3 đến 6 tháng tuổi.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Glenn-hai-huong"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Phẫu thuật Fontan hoàn tất là kỹ thuật nối trực tiếp {{c1::tĩnh mạch chủ dưới (IVC)}} vào {{c1::động mạch phổi}} thông qua ống ghép nhân tạo ngoài tim (Extracardiac conduit).",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Huyết động:</b> Tách rời hoàn toàn máu tĩnh mạch hệ thống không qua tim, đưa tâm thất duy nhất làm nhiệm vụ bơm máu động mạch chủ.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Fontan-hoan-tat"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Trong bệnh dị tật Ebstein của van ba lá, tổn thương giải phẫu đặc trưng là {{c1::lá vách và lá sau van ba lá bị bám thấp bất thường về phía mỏm thất phải}}, dẫn đến hiện tượng {{c1::nhĩ hóa một phần thất phải}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 14 - Mục 3.11).<br><b>🔍 Đối chiếu PED:</b> Khiến phần buồng thất phải chức năng co bóp tống máu còn lại bị teo nhỏ và giảm động.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Ebstein-giai-phau",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Hội chứng rối loạn nhịp tiền kích thích bẩm sinh thường phối hợp với bệnh dị tật Ebstein ở khoảng 15% các trường hợp là {{c1::Hội chứng Wolff-Parkinson-White (WPW)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 14 - Mục 3.11).<br><b>🔍 Đối chiếu PED:</b> Xuất hiện sóng delta và khoảng PR ngắn, nguy cơ khởi phát cơn nhịp nhanh trên thất kịch phát.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Ebstein-WPW",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Hình ảnh điện tâm đồ kinh điển trong bệnh Ebstein gồm: Sóng P ở DII cao khổng lồ nhọn hoắt được ví như {{c1::sóng P kiểu dãy Himalaya (P himalayan)}}, kèm block nhánh phải hoàn toàn.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 14 - Mục 3.11).<br><b>🔍 Đối chiếu PED:</b> Phản ánh tâm nhĩ phải giãn to cực độ chứa một lượng máu ứ trệ khổng lồ.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Ebstein-P-Himalaya",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Phương pháp phẫu thuật tạo hình sửa van ba lá hiện đại và hiệu quả nhất cho bệnh nhân mắc dị tật Ebstein là {{c1::phương pháp tạo hình hình nón (Cone procedure)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 14 - Mục 3.11).<br><b>🔍 Đối chiếu PED:</b> Huy động toàn bộ các lá van ba lá để tái tạo thành một van hình nón có chức năng đóng mở sinh lý.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "Ebstein-Cone",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Bệnh Hẹp eo động mạch chủ (Coarctation of the Aorta) ở trẻ gái có tỷ lệ phối hợp rất cao với hội chứng bất thường nhiễm sắc thể có tên là {{c1::Hội chứng Turner (bộ NST 45,XO)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 16 - Mục 3.16).<br><b>🔍 Đối chiếu PED:</b> Khoảng 30% đến 35% bệnh nhân Turner có hẹp eo động mạch chủ hoặc van ĐMC hai lá.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "CoA-Turner",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Dấu hiệu lâm sàng then chốt để chẩn đoán xác định Hẹp eo động mạch chủ ở trẻ lớn là: Huyết áp chi trên {{c1::cao hơn}} huyết áp chi dưới với mức chênh lệch huyết áp tay - chân {{c1::> 20 mmHg}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 16 - Mục 3.16).<br><b>🔍 Đối chiếu PED:</b> Bắt mạch đùi hai bên thấy yếu rõ rệt hoặc đến chậm so với mạch quay (Radio-femoral delay).",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "CoA-chenh-lech-HA",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Dấu hiệu Roesler trên phim X-quang ngực thẳng của bệnh nhân hẹp eo động mạch chủ lớn tuổi là hình ảnh {{c1::khuyết bờ dưới các xương sườn (Rib notching)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 16 - Mục 3.16).<br><b>🔍 Đối chiếu PED:</b> Do các động mạch liên sườn thuộc hệ tuần hoàn bàng hệ giãn to ngoằn ngoèo đè ép bào mòn bờ dưới xương sườn.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "CoA-dau-hieu-Roesler",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Dị tật van tim bẩm sinh thường phối hợp nhất với Hẹp eo động mạch chủ ở khoảng 70% các trường hợp là {{c1::van động mạch chủ hai lá (Bicuspid Aortic Valve)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 16 - Mục 3.16).<br><b>🔍 Đối chiếu PED:</b> Có nguy cơ tiến triển thành hẹp van hoặc hở van động mạch chủ và viêm nội tâm mạc nhiễm khuẩn.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "CoA-van-DMC-2-la",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Biện pháp điều trị lựa chọn hàng đầu cho bệnh nhân Hẹp van động mạch phổi đơn thuần (Pulmonary Stenosis) có chênh áp đỉnh qua van lớn là {{c1::nong van động mạch phổi bằng bóng qua da (Balloon Valvuloplasty)}} với tỷ lệ thành công {{c1::85%}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 17 - Mục 3.17).<br><b>🔍 Đối chiếu PED:</b> Tỷ lệ thành công lâu dài đạt trên 85% các trường hợp, tránh được phẫu thuật mở ngực.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "PS-nong-bong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Hội chứng di truyền thường phối hợp kinh điển nhất với Hẹp van động mạch phổi bẩm sinh là {{c1::Hội chứng Noonan}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 17 - Mục 3.17).<br><b>🔍 Đối chiếu PED:</b> Trẻ có khuôn mặt đặc trưng, cổ ngắn có màng, lồng ngực lõm ức và chậm phát triển chiều cao.",
-    "tags": [
-      "PED-43",
-      "PEDYTB",
-      "PS-Noonan",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Chế độ kháng sinh dự phòng viêm nội tâm mạc nhiễm khuẩn đường uống tiêu chuẩn trước thủ thuật răng miệng là {{c1::Amoxicillin liều 50 mg/kg (tối đa 2 g)}} uống một liều duy nhất trước thủ thuật {{c1::30 đến 60 phút}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 9.2).<br><b>🔍 Dược lý:</b> Nếu dị ứng Penicillin chuyển sang Clindamycin 20 mg/kg hoặc Azithromycin 15 mg/kg.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Khang-sinh-du-phong-IE"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Bệnh tim bẩm sinh tím có luồng shunt Phải - Trái làm mất chức năng của màng mao mạch phổi đóng vai trò là {{c1::bộ lọc cơ học vi khuẩn và cục máu đông}} của cơ thể.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 10 - Cạm bẫy 1).<br><b>🔍 Cơ chế:</b> Giải thích tại sao trẻ tim bẩm sinh tím có nguy cơ cao bị áp xe não và nhồi máu não nghịch thường.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Loc-mao-mach-phoi"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Dấu hiệu nhận biết trẻ sơ sinh tím tái do nguyên nhân tim bẩm sinh so với tím do hạ thân nhiệt là: Tím do tim xuất hiện ở cả {{c1::niêm mạc miệng, lưỡi và kết mạc mắt}} và {{c1::không biến mất sau khi sưởi ấm trẻ}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 11 - Checkpoint 3).<br><b>🔍 Khám:</b> Tím do lạnh chỉ xuất hiện ở đầu chi, niêm mạc lưỡi vẫn hồng hào.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Phan-biet-tim-tai"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong Thân chung động mạch (Truncus Arteriosus), phân loại Collett-Edwards chia thành 4 tuýp dựa vào {{c1::vị trí xuất phát của các nhánh động mạch phổi từ thân chung}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Phân loại:</b> Tuýp I thân ĐMP chung xuất phát từ thân chung; Tuýp II hai nhánh ĐMP xuất phát sát nhau ở mặt sau; Tuýp III xuất phát riêng rẽ hai bên.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Truncus-phan-loai"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Khám tim ở bệnh nhân Thân chung động mạch nghe thấy tiếng thổi tâm thu tống máu cạnh trái ức và đặc biệt có {{c1::tiếng click tống máu}} ngay sau T1 do dòng máu dội qua van thân chung loạn sản.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Thính chẩn:</b> Nếu kèm hở van thân chung sẽ nghe thấy tiếng thổi tâm trương kèm mạch nảy chìm sâu.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Truncus-thinh-chan"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Bệnh nhân Thân chung động mạch có kèm theo mất mạch bẹn ở cả hai bên là dấu hiệu cảnh báo tổn thương phối hợp cực kỳ nặng nề là {{c1::đứt đoạn quai động mạch chủ (Interrupted Aortic Arch)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Cấp cứu:</b> Bắt buộc truyền PGE1 và phẫu thuật sửa chữa toàn bộ khẩn cấp.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Truncus-dut-doan-quai"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Bốn thể giải phẫu của Bất thường hồi lưu tĩnh mạch phổi hoàn toàn (TAPVC) gồm: {{c1::Thể trên tim (Supracardiac), Thể trong tim (Cardiac), Thể dưới tim (Infracardiac) và Thể hỗn hợp (Mixed)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Dịch tễ:</b> Thể trên tim đổ vào tĩnh mạch vô danh là thể thường gặp nhất (chiếm 45-50%).",
-    "tags": [
-      "PED-43",
-      "PED",
-      "TAPVC-4-the"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong TAPVC thể dưới tim, các tĩnh mạch phổi hợp lưu thành một thân chung chui qua cơ hoành đi xuống để đổ vào {{c1::hệ thống tĩnh mạch cửa hoặc tĩnh mạch chủ dưới}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Cơ chế:</b> Thân tĩnh mạch bị chèn ép khi chui qua lỗ cơ hoành và chịu áp lực cao của giường mao mạch gan gây tăng áp phổi ác tính.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "TAPVC-duoi-tim-co-che"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Hình ảnh X-quang 'Người tuyết' (Snowman sign) trong TAPVC thể trên tim được tạo thành bởi: Nửa trên là {{c1::tĩnh mạch dọc bất thường, tĩnh mạch vô danh và tĩnh mạch chủ trên giãn to}}; Nửa dưới là {{c1::bóng tim to toàn bộ}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Hình ảnh:</b> Dấu hiệu số 8 kinh điển xuất hiện rõ ở trẻ sau vài tháng tuổi.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "TAPVC-nguoi-tuyet"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong bệnh Ebstein, lá van ba lá duy nhất bám đúng vị trí vòng van nhĩ thất giải phẫu, có kích thước phì đại rất lớn và di động tự do dạng cánh buồm là {{c1::lá van trước (Anterior leaflet)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Giải phẫu:</b> Trong khi lá vách và lá sau bị dính chặt bám thấp sâu vào cơ tâm thất phải.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Ebstein-la-truoc"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Cơ chế gây tím tái trong bệnh Ebstein là do luồng shunt Phải - Trái qua lỗ bầu dục hoặc thông liên nhĩ, hình thành khi {{c1::áp lực tâm nhĩ phải tăng cao vượt áp lực tâm nhĩ trái do ứ trệ máu và hở ba lá nặng}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Huyết động:</b> Máu đen từ nhĩ phải tràn sang nhĩ trái gây tím trung ương.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Ebstein-co-che-tim"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Ở trẻ sơ sinh mắc Teo van ba lá kèm hẹp nặng van động mạch phổi, lưu lượng máu lên phổi quá ít gây tím tái trầm trọng, biện pháp phẫu thuật tạm thời cấp cứu giai đoạn sơ sinh là {{c1::làm cầu nối Blalock-Taussig cải tiến (mBT shunt)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Ngoại khoa:</b> Ngược lại nếu không hẹp ĐMP máu lên phổi quá nhiều gây suy tim, phải làm phẫu thuật thắt đai ĐMP (PA banding).",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Teo-van-3-la-BT-shunt"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Điều kiện huyết động học bắt buộc để thực hiện phẫu thuật Fontan thành công là sức cản mạch máu phổi (PVR) phải thấp dưới {{c1::< 2 đến 3 đơn vị Wood}} và áp lực động mạch phổi trung bình phải dưới {{c1::< 15 mmHg}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Tiêu chuẩn:</b> Do dòng máu tĩnh mạch về phổi hoàn toàn thụ động không có lực đẩy của tâm thất.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Fontan-tieu-chuan-PVR"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong phẫu thuật Norwood điều trị HLHS giai đoạn 1, thì tái tạo đường tống máu đại tuần hoàn được thực hiện bằng cách {{c1::nối thân động mạch phổi vào quai động mạch chủ thiểu sản để tạo thành một động mạch chủ mới (Neoaorta)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Kỹ thuật:</b> Đưa tâm thất phải duy nhất làm nhiệm vụ tống máu nuôi toàn bộ cơ thể.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Norwood-Neoaorta"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Cải tiến Sano trong phẫu thuật Norwood giai đoạn 1 sử dụng một đoạn ống ghép nhân tạo không van nối từ {{c1::tâm thất phải}} lên {{c1::ngã ba thân động mạch phổi}} thay thế cho cầu nối Blalock-Taussig.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Ưu điểm:</b> Giữ vững áp lực tâm trương động mạch chủ, cải thiện tưới máu mạch vành và giảm nguy cơ sốc tim.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Norwood-Sano-shunt"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Cơ chế gây tăng huyết áp chi trên trong Hẹp eo động mạch chủ gồm hai cơ chế phối hợp: {{c1::cản trở cơ học dòng máu qua chỗ hẹp}} và {{c1::thiếu máu tưới nuôi thận mạn tính kích hoạt giải phóng Renin từ hệ RAAS}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Sinh lý:</b> Giải thích tại sao nhiều bệnh nhân vẫn còn tăng huyết áp tồn dư sau phẫu thuật giải tỏa chỗ hẹp.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "CoA-co-che-tang-HA"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Mọi trẻ gái được chẩn đoán Hẹp eo động mạch chủ đều có chỉ định bắt buộc làm xét nghiệm di truyền {{c1::nhiễm sắc thể đồ (Karyotype)}} để tầm soát Hội chứng Turner (45,XO).",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Di truyền:</b> Ngược lại, mọi trẻ gái mắc Turner đều phải siêu âm tim kiểm tra quai động mạch chủ.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "CoA-Turner-Karyotype"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Bốn thể giải phẫu của tắc nghẽn đường ra thất trái (LVOTO) gồm: {{c1::Hẹp tại van động mạch chủ, Hẹp trên van ĐMC, Hẹp dưới van ĐMC dạng gờ xơ cơ và Hẹp dưới van ĐMC dạng đường hầm}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Giải phẫu:</b> Hẹp tại van chiếm đa số các trường hợp.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "LVOTO-4-the"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Hội chứng Williams (Williams-Beuren) do mất đoạn gen Elastin trên nhiễm sắc thể 7q11.23 thường phối hợp kinh điển với tổn thương tim mạch là {{c1::hẹp trên van động mạch chủ (Supravalvular AS)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Lâm sàng:</b> Trẻ có khuôn mặt giống chú lùn (Elfin face), tính cách cởi mở và tăng canxi máu thời thơ ấu.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Hoi-chung-Williams"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Phẫu thuật Ross điều trị bệnh van động mạch chủ nặng ở trẻ em là kỹ thuật lấy {{c1::van động mạch phổi tự thân}} chuyển sang thay thế van động mạch chủ và đặt ống ghép có van vào đường ra thất phải.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Ưu điểm:</b> Van phổi tự thân có khả năng phát triển kích thước theo sự lớn lên của đứa trẻ và không cần dùng thuốc kháng đông suốt đời.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Phau-thuat-Ross"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tiếng click tống máu (Ejection click) trong Hẹp van động mạch phổi có đặc điểm biến đổi thính chẩn đặc biệt là {{c1::nhỏ đi hoặc biến mất hoàn toàn trong thì hít vào sâu}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Cơ chế:</b> Hít vào làm tăng hồi lưu máu về thất phải làm căng sớm lá van phổi trước khi thất co bóp.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Click-van-DMP"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong Hẹp van động mạch phổi nặng, nghe tim thấy thành phần van phổi P2 của tiếng tim thứ hai có đặc điểm là {{c1::mờ nhạt hoặc biến mất hoàn toàn}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8).<br><b>🔍 Thính chẩn:</b> Tiếng T2 tách đôi rất rộng với thành phần A2 đơn độc.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "P2-mo-trong-PS"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong cấp cứu cơn tím Fallot, động tác ép chặt hai đùi vào bụng ở tư thế ngực gối (Knee-chest) làm tăng sức cản hệ thống SVR bằng cách {{c1::gập nếp gấp bẹn ép nghẽn cơ học động mạch đùi hai bên}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 7.3).<br><b>🔍 Cơ chế:</b> Đẩy dòng máu từ thất phải vượt qua phễu lên động mạch phổi để hấp thu oxy.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Nguc-goi-dong-mach-dui"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Liều tiêm dưới da hoặc tiêm bắp của Morphin Sulfate trong cấp cứu cơn tím Fallot ở trẻ em là {{c1::0,1 mg/kg}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 7.3).<br><b>🔍 Dược lý:</b> Giúp ức chế trung tâm hô hấp làm dịu cơn thở sâu kích thích, giảm giao cảm và giãn phễu cơ thất phải.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Morphin-lieu-Fallot"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Liều tiêm tĩnh mạch rất chậm của Propranolol trong điều trị cơn tím Fallot cấp trơ với Morphin là {{c1::0,05 đến 0,1 mg/kg}} tiêm TM trong 5 đến 10 phút dưới monitor theo dõi điện tim.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 7.3).<br><b>🔍 Cảnh báo:</b> Tiêm nhanh có thể gây nhịp chậm xoang kịch phát và ngừng tim.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Propranolol-TM-Fallot"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thuốc chẹn beta Propranolol đường uống dùng dự phòng cơn tím Fallot ở trẻ chờ phẫu thuật có liều dùng từ {{c1::1 đến 2 mg/kg/ngày}} chia làm 2 đến 4 lần.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 7.3).<br><b>🔍 Thực hành:</b> Uống đều đặn hàng ngày để ngăn chặn các cơn co thắt phễu kịch phát.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Propranolol-uong-du-phong"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Các bệnh tim bẩm sinh phụ thuộc ống động mạch có tưới máu đại tuần hoàn (HLHS, hẹp eo ĐMC nặng, hẹp van ĐMC nguy kịch) đòi hỏi duy trì mở ống động mạch bằng {{c1::truyền tĩnh mạch liên tục Prostaglandin E1 (PGE1)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 0).<br><b>🔍 Liều dùng:</b> Bắt đầu từ 0,01 đến 0,05 µg/kg/phút qua đường truyền tĩnh mạch lớn.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "PGE1-phu-thuoc-PDA"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tác dụng phụ nguy hiểm thường gặp nhất khi truyền Prostaglandin E1 ở trẻ sơ sinh là {{c1::cơn ngừng thở (Apnea)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 0).<br><b>🔍 Cấp cứu:</b> Bắt buộc chuẩn bị sẵn sàng bóng bóp qua mask và dụng cụ đặt nội khí quản tại giường.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "PGE1-tac-dung-phu"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Chỉ định dùng kháng sinh dự phòng viêm nội tâm mạc nhiễm khuẩn bắt buộc áp dụng trong vòng {{c1::6 tháng đầu sau phẫu thuật hoặc can thiệp}} đặt vật liệu nhân tạo trong tim.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 9.2).<br><b>🔍 Khuyến cáo:</b> Sau 6 tháng lớp nội mạc mạch máu đã bao phủ hoàn toàn bề mặt vật liệu nhân tạo.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "IE-du-phong-6-thang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Đối với bệnh nhân tim bẩm sinh có tím chưa được phẫu thuật sửa chữa triệt để, chỉ định dùng kháng sinh dự phòng viêm nội tâm mạc nhiễm khuẩn được áp dụng {{c1::suốt đời}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 9.2).<br><b>🔍 Khuyến cáo:</b> Luôn duy trì vệ sinh răng miệng tốt và uống Amoxicillin 50 mg/kg trước các thủ thuật răng miệng có chảy máu.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "IE-du-phong-suot-doi"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Liều dùng kháng sinh dự phòng viêm nội tâm mạc nhiễm khuẩn đường uống bằng Amoxicillin ở trẻ em là {{c1::50 mg/kg}} (liều tối đa 2 g), uống một liều duy nhất trước thủ thuật {{c1::30 đến 60 phút}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 9.2).<br><b>🔍 Dược lý:</b> Nếu dị ứng Penicillin chuyển sang Clindamycin 20 mg/kg hoặc Azithromycin 15 mg/kg.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Amoxicillin-lieu-IE"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong Case 1 cấp cứu cơn tím Fallot ở trẻ 10 tháng, SpO2 tụt xuống 52%, chuỗi hành động cấp cứu đầu tiên tại giường là {{c1::đặt trẻ tư thế ngực gối và thở oxy 100% qua mask có túi}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 12 - Case 1).<br><b>🔍 Xử trí:</b> Sau đó tiêm ngay Morphine Sulfate 0,1 mg/kg dưới da và lập đường truyền bù dịch NaCl 0,9%.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Case-1-Fallot-cap-cuu"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong Case 2 phát hiện còn ống động mạch lớn ở trẻ sinh non 29 tuần, phác đồ điều trị đóng ống động mạch bằng thuốc lựa chọn hàng đầu là {{c1::Ibuprofen đường tĩnh mạch liệu trình 3 liều (10 - 5 - 5 mg/kg cách nhau 24 giờ)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 12 - Case 2).<br><b>🔍 Xử trí:</b> Giúp đóng ống động mạch thành công mà ít nguy cơ suy thận hơn Indomethacin.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Case-2-PDA-Ibuprofen"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Checkpoint: Trẻ mắc Tứ chứng Fallot có bản năng ngồi xổm khi đang chơi đùa vì động tác này làm {{c1::gập động mạch đùi, tăng sức cản mạch máu hệ thống SVR đột ngột}}, ép máu từ thất phải vượt qua phễu lên phổi để hấp thu oxy.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 11 - Checkpoint 1).<br><b>🔍 Cơ chế:</b> Giúp trẻ nhanh chóng tự cắt cơn thiếu oxy não và đỡ mệt.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Checkpoint-ngoi-xom"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Checkpoint: Dấu hiệu điện tâm đồ then chốt giúp phân biệt Thông liên nhĩ lỗ tiên phát với lỗ thứ phát là {{c1::ASD lỗ tiên phát có trục trái và khử cực ngược chiều kim đồng hồ}} (trong khi lỗ thứ phát thường là trục phải).",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 11 - Checkpoint 2).<br><b>🔍 Điện tim:</b> Do khiếm khuyết phát triển của gối nội tâm mạc làm thay đổi hướng lan truyền khử cực.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Checkpoint-ASD-truc-trai"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Checkpoint: Dấu hiệu lâm sàng tại giường phân biệt tím trung ương do tim với tím ngoại vi do lạnh là: Tím trung ương xuất hiện ở cả {{c1::niêm mạc lưỡi, kết mạc mắt và đầu chi với SpO2 giảm}} và không đổi sau khi sưởi ấm.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 11 - Checkpoint 3).<br><b>🔍 Khám:</b> Tím ngoại vi chỉ xuất hiện ở đầu chi lạnh do co mạch, niêm mạc miệng vẫn hồng hào và SpO2 bình thường.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Checkpoint-phan-biet-tim"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Checkpoint: Trong Hẹp eo động mạch chủ, huyết áp chi trên cao hơn huyết áp chi dưới vì {{c1::vị trí hẹp nằm dưới chỗ xuất phát của động mạch dưới đòn trái, khiến chi trên nhận máu trước chỗ hẹp có áp lực cao và chi dưới nhận máu sau chỗ hẹp có áp lực thấp}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 11 - Checkpoint 4).<br><b>🔍 Huyết động:</b> Tạo chênh lệch huyết áp tay - chân > 20 mmHg.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Checkpoint-CoA-huyet-ap"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tip thực hành: Khi trẻ Fallot khóc quấy xuất hiện cơn tím tái đậm, phản xạ đầu tiên của điều dưỡng là {{c1::lập tức gập chặt hai đầu gối trẻ áp sát vào ngực}} trước khi đi tìm thuốc.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 13 - Tip 1).<br><b>🔍 Phản xạ:</b> Động tác vật lý tăng SVR ngay tức thì để cứu tế bào não.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Tip-nguc-goi-dau-tien"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tip thực hành: Không bao giờ đo huyết áp chỉ ở một tay; luôn đo huyết áp ở {{c1::cả tay phải và một trong hai chân}} để không bao giờ bỏ sót bệnh hẹp eo động mạch chủ.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 13 - Tip 2).<br><b>🔍 Khám:</b> Chênh lệch HA tay - chân > 20 mmHg là tiêu chuẩn vàng chẩn đoán lâm sàng.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Tip-do-HA-4-chi"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tip thực hành: Tiếng tim T2 tách đôi cố định không thay đổi theo nhịp hô hấp là chìa khóa vàng thính chẩn chẩn đoán {{c1::Thông liên nhĩ lỗ lớn}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 13 - Tip 4).<br><b>🔍 Thính chẩn:</b> Dấu hiệu kinh điển không bao giờ thay đổi theo chu kỳ hít thở.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Tip-T2-tach-doi-co-dinh"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tip thực hành: Dấu hiệu mạch nảy rất mạnh và chìm sâu (mạch Corrigan) ở trẻ sơ sinh là chỉ điểm lâm sàng kinh điển của {{c1::Còn ống động mạch lớn có ý nghĩa huyết động}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 13 - Tip 5).<br><b>🔍 Khám:</b> Sờ mạch bẹn thấy dội mạnh vào ngón tay và tụt nhanh.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Tip-mach-Corrigan-PDA"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tip thực hành: Khi nghe thấy tiếng thổi tâm thu ở tim đột ngột nhỏ đi bất thường ở một trẻ Fallot đang khó thở, phải coi chừng trẻ đang rơi vào {{c1::cơn co thắt cơ phễu đường ra thất phải cắt đứt dòng máu lên phổi (cơn tím cấp)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 13 - Tip 12).<br><b>🔍 Cảnh báo:</b> Tiếng thổi nhỏ đi là dấu hiệu nguy kịch đe dọa ngừng tim chứ không phải thuyên giảm bệnh.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Tip-thoi-nho-di-Fallot"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tiêu chuẩn xuất viện an toàn của trẻ tim bẩm sinh: Trẻ không còn khó thở khi ăn bú, tăng cân ổn định, không có cơn tím tái tại viện, phác đồ thuốc uống duy trì ổn định tối thiểu {{c1::48 giờ}}, và có {{c1::lịch hẹn can thiệp hoặc phẫu thuật cụ thể}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 14.2).<br><b>🔍 Xuất viện:</b> Gia đình nắm vững kỹ năng sơ cứu tư thế ngực gối tại nhà.",
-    "tags": [
-      "PED-43",
-      "PED",
-      "Tieu-chuan-xuat-vien-CHD"
-    ]
-  }
-]
+{
+  "topic": "Nhi khoa Y6::PED-43: Bệnh tim bẩm sinh thường gặp & Cơn tim Fallot",
+  "version": "master_combo_v1",
+  "date": "2026-09-28",
+  "total_cards": 161,
+  "cards": [
+    {
+      "id": "PED43-B01",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Mục tiêu bài học",
+      "section": "B0",
+      "front": "5 mục tiêu học tập của bài Tim bẩm sinh ở trẻ em theo giáo trình Y Thái Bình là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phân loại tim bẩm sinh; 2) Đặc điểm chung shunt Trái - Phải; 3) Đặc điểm chung shunt Phải - Trái; 4) Đặc điểm tổn thương tắc nghẽn; 5) Triệu chứng, cận lâm sàng, chẩn đoán và điều trị 4 bệnh thường gặp: VSD, ASD, PDA, Fallot.<br><br><b>💡 Lưu ý:</b><br>Đi thi tự luận bám sát đúng 5 mục tiêu này để đạt trọn điểm.",
+      "extra": "Giáo trình Nhi khoa (Trang 8 - Mục MỤC TIÊU).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Muc-tieu"
+      ]
+    },
+    {
+      "id": "PED43-B02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Mục tiêu bài học",
+      "section": "B0",
+      "text": "[Barem gốc] 4 bệnh tim bẩm sinh thường gặp được đặt trọng tâm trong mục tiêu học tập lâm sàng là: {{c1::thông liên thất}}, {{c1::thông liên nhĩ}}, {{c1::còn ống động mạch}} và {{c1::tứ chứng Fallot}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 8 - Mục tiêu 5).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Muc-tieu"
+      ]
+    },
+    {
+      "id": "PED43-B03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Giới thiệu & Dịch tễ",
+      "section": "B1",
+      "text": "[Barem gốc] Tim bẩm sinh là dị tật phổ biến nhất lúc sinh, tuy rằng tỷ lệ tim bẩm sinh thấp khoảng {{c1::0,8% trẻ sống}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 8 - Mục I). Tương đương khoảng 8/1000 trẻ sinh sống.",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Dich-te"
+      ]
+    },
+    {
+      "id": "PED43-B04",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Chẩn đoán tiền sản",
+      "section": "B1",
+      "text": "[Barem gốc] Phát hiện tim bẩm sinh có thể thực hiện bằng siêu âm vào {{c1::quý thứ hai}} của thời kỳ có thai và khám lâm sàng cho trẻ sau khi sinh.",
+      "extra": "Giáo trình Nhi khoa (Trang 8 - Mục I).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Tien-san"
+      ]
+    },
+    {
+      "id": "PED43-B05",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Lịch sử phẫu thuật",
+      "section": "B1",
+      "text": "[Barem gốc] Phẫu thuật tim lần đầu tiên được tiến hành ở {{c1::Đại học Minnesota}} vào năm {{c1::1950}} với máy tim phổi nhân tạo.",
+      "extra": "Giáo trình Nhi khoa (Trang 8 - Mục I).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Lich-su"
+      ]
+    },
+    {
+      "id": "PED43-B06",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phân loại TBS",
+      "section": "B2",
+      "text": "[Barem gốc] Đặc điểm nhóm tim bẩm sinh shunt Trái - Phải: máu đi từ {{c1::bên trái sang bên phải}}, lượng máu lên phổi {{c1::tăng}} và thường {{c1::không có tím}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 8 - Mục II.1).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Phan-loai"
+      ]
+    },
+    {
+      "id": "PED43-B07",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Hội chứng Eisenmenger",
+      "section": "B2",
+      "front": "Cơ chế xuất hiện tím muộn trong nhóm tim bẩm sinh shunt Trái - Phải theo giáo trình là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tổn thương lớn không được phẫu thuật gây tắc nghẽn mạch phổi tiến triển, làm đảo ngược chiều shunt thành Phải - Trái (Hội chứng Eisenmenger).<br><br><b>💡 Lưu ý:</b><br>Khi đã có hội chứng Eisenmenger cố định, phẫu thuật đóng lỗ thông bị chống chỉ định tuyệt đối.",
+      "extra": "Giáo trình Nhi khoa (Trang 8 - Mục II.1).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Eisenmenger"
+      ]
+    },
+    {
+      "id": "PED43-B08",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phân loại TBS",
+      "section": "B2",
+      "text": "[Barem gốc] Đặc điểm nhóm tim bẩm sinh shunt Phải - Trái: máu {{c1::chưa được oxy hóa}} đi vào {{c1::động mạch chủ}}, lượng máu tới phổi có thể {{c1::tăng hoặc giảm}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 8 - Mục II.2).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Phan-loai"
+      ]
+    },
+    {
+      "id": "PED43-B09",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phân loại TBS",
+      "section": "B2",
+      "text": "[Barem gốc] 4 tổn thương tắc nghẽn tại van và không tại van được phân loại gồm: tắc nghẽn đường ra thất trái (LVOTO), {{c1::hẹp eo động mạch chủ}}, {{c1::hẹp van động mạch phổi}} và {{c1::hẹp van động mạch chủ}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 9 - Mục II.3).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Phan-loai"
+      ]
+    },
+    {
+      "id": "PED43-B10",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thông liên thất",
+      "section": "B3",
+      "text": "[Barem gốc] Thông liên thất là dị tật phổ biến nhất của tim bẩm sinh, chiếm tới {{c1::20%}} tất cả các trường hợp tim bẩm sinh (trừ van ĐMC 2 lá và sa van 2 lá).",
+      "extra": "Giáo trình Nhi khoa (Trang 9 - Mục III.3.1).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "VSD"
+      ]
+    },
+    {
+      "id": "PED43-B11",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thông liên thất",
+      "section": "B3",
+      "text": "[Barem gốc] Phân loại vị trí VSD: phần quanh màng có thể đóng tự nhiên do sự bọc lại của {{c1::lá vách van ba lá}}; phần cơ hầu hết đóng trước {{c1::2 tuổi}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 9 - Mục III.3.1).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "VSD"
+      ]
+    },
+    {
+      "id": "PED43-B12",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Thông liên thất",
+      "section": "B3",
+      "front": "Tại sao thông liên thất phần phễu và phần quanh màng có thể gây sa và hở van động mạch chủ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Do lỗ thông nằm rất gần lá van động mạch chủ bên phải, dòng máu qua lỗ thông tạo hiệu ứng Venturi hút sa lá van vào lỗ thông, gây hở van ĐMC tiến triển.<br><br><b>💡 Lưu ý:</b><br>Biến chứng sa lá van ĐMC là chỉ định phẫu thuật đóng VSD sớm để bảo tồn van.",
+      "extra": "Giáo trình Nhi khoa (Trang 9 - Mục III.3.1).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "VSD",
+        "Venturi"
+      ]
+    },
+    {
+      "id": "PED43-B13",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thông liên thất",
+      "section": "B3",
+      "text": "[Barem gốc] Ở trẻ thông liên thất lỗ lớn, triệu chứng tăng lưu lượng phổi (thở nhanh, nhịp nhanh, không lên cân) xuất hiện khi áp lực mạch phổi giảm xuống vào lúc {{c1::6 – 8 tuần tuổi}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 9 - Mục III.3.1).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "VSD"
+      ]
+    },
+    {
+      "id": "PED43-B14",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thông liên thất",
+      "section": "B3",
+      "text": "[Barem gốc] Nghe tim trong VSD lớn có thể thấy tiếng thổi giữa tâm trương (rung tâm trương cơ năng) ở mỏm tim do {{c1::tăng lưu lượng máu qua van hai lá}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 9 - Mục III.3.1).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "VSD"
+      ]
+    },
+    {
+      "id": "PED43-B15",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thông liên thất",
+      "section": "B3",
+      "text": "[Barem gốc] Trên điện tâm đồ, thông liên thất phần {{c1::buồng nhận (Inlet)}} thường có biểu hiện {{c1::trục trái}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 9 - Mục III.3.1).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "VSD",
+        "ECG"
+      ]
+    },
+    {
+      "id": "PED43-B16",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thông liên thất",
+      "section": "B3",
+      "text": "[Barem gốc] Thời điểm phẫu thuật VSD lớn: trẻ tăng lưu lượng phổi nhiều, không lên cân cần mổ lúc {{c1::1 – 4 tháng tuổi}}; hầu hết VSD lớn cần phẫu thuật lúc {{c1::6 – 9 tháng tuổi}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 9 - Mục III.3.1).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "VSD",
+        "Dieu-tri"
+      ]
+    },
+    {
+      "id": "PED43-B17",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thông liên nhĩ",
+      "section": "B4",
+      "text": "[Barem gốc] Thông liên nhĩ chiếm tỷ lệ {{c1::6 – 10%}} tim bẩm sinh, với tỷ lệ giới tính Nữ : Nam = {{c1::2 : 1}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 10 - Mục III.3.2).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "ASD"
+      ]
+    },
+    {
+      "id": "PED43-B18",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thông liên nhĩ",
+      "section": "B4",
+      "text": "[Barem gốc] Thể thông liên nhĩ hay gặp nhất là {{c1::thông liên nhĩ thứ phát (Ostium secundum)}}, chiếm {{c1::60 – 70%}} các trường hợp thông liên nhĩ.",
+      "extra": "Giáo trình Nhi khoa (Trang 10 - Mục III.3.2).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "ASD"
+      ]
+    },
+    {
+      "id": "PED43-B19",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thông liên nhĩ",
+      "section": "B4",
+      "text": "[Barem gốc] Hai dạng khuyết vách nhĩ không được coi là thông liên nhĩ thực sự theo giáo trình là: {{c1::thể xoang tĩnh mạch (Sinus venosus)}} và {{c1::thể khuyết nóc xoang vành (Coronary sinus defect)}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 10 - Mục III.3.2).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "ASD"
+      ]
+    },
+    {
+      "id": "PED43-B20",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Thông liên nhĩ",
+      "section": "B4",
+      "front": "Dấu hiệu nghe tim kinh điển và bản chất tiếng thổi tâm thu trong thông liên nhĩ là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Dấu hiệu kinh điển: Tiếng tim thứ hai T₂ tách đôi cố định. Tiếng thổi tâm thu ở khoang liên sườn 2 bờ trái ức do tăng lưu lượng máu qua van động mạch phổi, KHÔNG PHẢI do dòng máu qua lỗ thông liên nhĩ.<br><br><b>💡 Lưu ý:</b><br>Chênh áp qua vách liên nhĩ rất thấp nên bản thân lỗ ASD không tự phát sinh tiếng thổi.",
+      "extra": "Giáo trình Nhi khoa (Trang 10 - Mục III.3.2).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "ASD",
+        "Trieu-chung"
+      ]
+    },
+    {
+      "id": "PED43-B21",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thông liên nhĩ",
+      "section": "B4",
+      "text": "[Barem gốc] Trên điện tâm đồ, đa số ASD có trục phải dày thất phải, nhưng riêng thông liên nhĩ lỗ tiên phát lại có biểu hiện {{c1::trục trái}} và khử cực ngược chiều kim đồng hồ.",
+      "extra": "Giáo trình Nhi khoa (Trang 10 - Mục III.3.2).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "ASD",
+        "ECG"
+      ]
+    },
+    {
+      "id": "PED43-B22",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thông sàn nhĩ thất",
+      "section": "B5",
+      "text": "[Barem gốc] Thông sàn nhĩ thất chiếm 4 – 5% tim bẩm sinh, và đặc biệt gặp ở {{c1::40%}} trẻ bị {{c1::hội chứng Down}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 10 - Mục III.3.3). Còn gọi là kênh nhĩ thất hoặc khuyết gối nội tâm mạc.",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "AVSD",
+        "Down"
+      ]
+    },
+    {
+      "id": "PED43-B23",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thông sàn nhĩ thất",
+      "section": "B5",
+      "text": "[Barem gốc] Thông sàn nhĩ thất hoàn toàn bao gồm: {{c1::thông liên nhĩ tiền phát}} và {{c1::thông liên thất phần buồng nhận}}, kèm bất thường van nhĩ thất chung.",
+      "extra": "Giáo trình Nhi khoa (Trang 10 - Mục III.3.3).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "AVSD"
+      ]
+    },
+    {
+      "id": "PED43-B24",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thông sàn nhĩ thất",
+      "section": "B5",
+      "text": "[Barem gốc] Thời điểm phẫu thuật cho thông sàn nhĩ thất (AVSD) là lúc trẻ {{c1::3 – 6 tháng tuổi}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 10 - Mục III.3.3). Cần theo dõi lâu dài vì 15% dẫn đến hở van nhĩ thất hoặc LVOTO.",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "AVSD",
+        "Dieu-tri"
+      ]
+    },
+    {
+      "id": "PED43-B25",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Còn ống động mạch",
+      "section": "B6",
+      "text": "[Barem gốc] Còn ống động mạch chiếm 9 – 12% tim bẩm sinh; tỷ lệ ở trẻ non tháng theo cân nặng: 500 – 999 g là {{c1::42%}}, 1000 – 1499 g là {{c1::21%}}, 1500 – 1750 g là {{c1::7%}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 10 - Mục III.3.4).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PDA",
+        "Dich-te"
+      ]
+    },
+    {
+      "id": "PED43-B26",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Còn ống động mạch",
+      "section": "B6",
+      "text": "[Barem gốc] Tỷ lệ còn ống động mạch ở những trẻ sống trên vùng núi cao gấp {{c1::30 lần}} trẻ sống ở vùng đồng bằng.",
+      "extra": "Giáo trình Nhi khoa (Trang 10 - Mục III.3.4). Do thiếu oxy mạn tính ở độ cao làm chậm co thắt đóng ống.",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PDA"
+      ]
+    },
+    {
+      "id": "PED43-B27",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Còn ống động mạch",
+      "section": "B6",
+      "front": "Đặc điểm mạch ngoại vi và cơ chế tiếng thổi nghe tim trong còn ống động mạch lớn là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Mạch nảy mạnh chìm sâu (mạch Corrigan) do tụt huyết áp tâm trương. Nghe tim có tiếng thổi liên tục ở khoang liên sườn dưới đòn trái do áp lực ĐMC luôn cao hơn ĐMP cả tâm thu và tâm trương.<br><br><b>💡 Lưu ý:</b><br>Ở sơ sinh và trẻ non tháng có thể chỉ nghe tiếng thổi tâm thu tương tự VSD do sức cản mạch phổi còn cao.",
+      "extra": "Giáo trình Nhi khoa (Trang 11 - Mục III.3.4).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PDA",
+        "Trieu-chung"
+      ]
+    },
+    {
+      "id": "PED43-B28",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Còn ống động mạch",
+      "section": "B6",
+      "text": "[Barem gốc] Biểu hiện tím trong Hội chứng Eisenmenger do còn ống động mạch đảo chiều shunt là {{c1::tím nửa dưới cơ thể (chân tím hơn tay)}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 11 - Mục III.3.4). Do ống động mạch đổ vào ĐMC xuống sau nhánh dưới đòn trái.",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PDA",
+        "Eisenmenger"
+      ]
+    },
+    {
+      "id": "PED43-B29",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Còn ống động mạch",
+      "section": "B6",
+      "text": "[Barem gốc] Ở trẻ sơ sinh non tháng, ống động mạch có thể đóng bằng thuốc uống {{c1::Indomethacin}} hoặc {{c1::Ibuprofen}}; chuyển phẫu thuật nếu thất bại.",
+      "extra": "Giáo trình Nhi khoa (Trang 11 - Mục III.3.4).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PDA",
+        "Dieu-tri"
+      ]
+    },
+    {
+      "id": "PED43-B30",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Còn ống động mạch",
+      "section": "B6",
+      "text": "[Barem gốc] Ở trẻ lớn và người lớn, phương pháp điều trị còn ống động mạch lựa chọn là đóng bằng {{c1::coil hoặc dụng cụ (dù qua da)}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 11 - Mục III.3.4).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PDA",
+        "Dieu-tri"
+      ]
+    },
+    {
+      "id": "PED43-B31",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bất thường tĩnh mạch phổi",
+      "section": "B7",
+      "text": "[Barem gốc] PAPVC xảy ra khi có {{c1::≥ 1 (nhưng không phải tất cả)}} tĩnh mạch phổi nối với tĩnh mạch hệ thống hoặc nhĩ phải, chiếm tỷ lệ {{c1::≤ 1%}} tim bẩm sinh.",
+      "extra": "Giáo trình Nhi khoa (Trang 11 - Mục III.3.5).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PAPVC"
+      ]
+    },
+    {
+      "id": "PED43-B32",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Hội chứng Scimitar",
+      "section": "B7",
+      "front": "Tổn thương giải phẫu của Hội chứng thanh gươm Thổ Nhĩ Kỳ (Scimitar syndrome) theo giáo trình là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nối tĩnh mạch phổi dưới bên phải với tĩnh mạch chủ dưới (IVC), nằm trong bệnh cảnh bất thường tĩnh mạch phổi một phần.<br><br><b>💡 Lưu ý:</b><br>Biểu hiện lâm sàng thay đổi từ tăng áp phổi rất nặng ở sơ sinh đến không triệu chứng ở người lớn.",
+      "extra": "Giáo trình Nhi khoa (Trang 11 - Mục III.3.5).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PAPVC",
+        "Scimitar"
+      ]
+    },
+    {
+      "id": "PED43-B33",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bất thường tĩnh mạch phổi",
+      "section": "B7",
+      "text": "[Barem gốc] Để chẩn đoán chính xác PAPVC ở người lớn khi siêu âm qua thành ngực hạn chế, cần sử dụng thêm: {{c1::siêu âm qua thực quản, CT hoặc MRI}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 11 - Mục III.3.5).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PAPVC",
+        "Chan-doan"
+      ]
+    },
+    {
+      "id": "PED43-B34",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Tứ chứng Fallot",
+      "section": "B8",
+      "text": "[Barem gốc] Tứ chứng Fallot chiếm 4 – 8% tim bẩm sinh, gồm 4 tổn thương: 1) Thông liên thất phần phễu lớn; 2) {{c1::Hẹp đường ra thất phải}}; 3) {{c1::Động mạch chủ cưỡi ngựa}}; 4) {{c1::Phì đại thất phải}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 11 - Mục III.3.6).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Fallot",
+        "Giai-phau"
+      ]
+    },
+    {
+      "id": "PED43-B35",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Tứ chứng Fallot",
+      "section": "B8",
+      "text": "[Barem gốc] Trong tứ chứng Fallot, bệnh nhân không có tím khi hẹp đường ra thất phải nhẹ được gọi là thể lâm sàng {{c1::Fallot hồng}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 11 - Mục III.3.6).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Fallot"
+      ]
+    },
+    {
+      "id": "PED43-B36",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Tứ chứng Fallot",
+      "section": "B8",
+      "front": "Bản chất tiếng thổi tâm thu nghe được trong tứ chứng Fallot xuất phát từ tổn thương nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tiếng thổi tâm thu ở cạnh ức trái trên do hẹp đường ra thất phải, KHÔNG PHẢI do dòng máu qua lỗ thông liên thất.<br><br><b>💡 Lưu ý:</b><br>Trong cơn tím nặng, tiếng thổi này nhỏ đi hoặc biến mất hoàn toàn vì máu không tống được lên phổi.",
+      "extra": "Giáo trình Nhi khoa (Trang 12 - Mục III.3.6).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Fallot",
+        "Nghe-tim"
+      ]
+    },
+    {
+      "id": "PED43-B37",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Cơn tím Fallot",
+      "section": "B8",
+      "front": "Cơ chế sinh bệnh của Cơn tím thiếu oxy cấp (Hypoxic spell / Tet spell) trong Fallot là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Xảy ra do co thắt cơ phễu đường ra thất phải làm giảm lượng máu lên phổi trầm trọng, đồng thời làm tăng mạnh dòng shunt Phải - Trái qua lỗ thông liên thất.<br><br><b>💡 Lưu ý:</b><br>Biểu hiện: đột ngột thở nhanh sâu, tăng tím tái, kích thích, có thể dẫn đến hôn mê, co giật và tắc mạch não.",
+      "extra": "Giáo trình Nhi khoa (Trang 12 - Mục III.3.6).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Tet-spell",
+        "Co-che"
+      ]
+    },
+    {
+      "id": "PED43-B38",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Cơn tím Fallot",
+      "section": "B8",
+      "front": "Vì sao tư thế ngồi xổm (Squatting) hoặc ngực gối (Knee-chest) giúp cắt cơn tím ở trẻ Fallot?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Làm gập động mạch đùi, tăng sức cản ngoại vi (SVR), giảm dòng shunt Phải - Trái và ép máu từ thất phải vượt qua phễu hẹp lên động mạch phổi nhiều hơn.<br><br><b>💡 Lưu ý:</b><br>Đây là phản xạ bản năng tại giường quan trọng nhất phải thực hiện ngay lập tức.",
+      "extra": "Giáo trình Nhi khoa (Trang 12 - Mục III.3.6).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Tet-spell",
+        "Ngoi-xom"
+      ]
+    },
+    {
+      "id": "PED43-B39",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Cấp cứu cơn tím",
+      "section": "B8",
+      "text": "[Barem gốc] Liều Morphin tiêm dưới da hoặc tiêm bắp trong cấp cứu cơn tím Fallot theo giáo trình là {{c1::0,1 mg/kg}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 12 - Mục III.3.6). Tác dụng: ức chế trung tâm hô hấp, giảm kích thích, giãn phễu thất phải.",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Tet-spell",
+        "Cap-cuu"
+      ]
+    },
+    {
+      "id": "PED43-B40",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Cấp cứu cơn tím",
+      "section": "B8",
+      "text": "[Barem gốc] Thuốc chẹn beta giao cảm tiêm tĩnh mạch chậm trong cấp cứu cơn tím Fallot để giảm co thắt đường ra thất phải là {{c1::Propranolol}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 12 - Mục III.3.6).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Tet-spell",
+        "Cap-cuu"
+      ]
+    },
+    {
+      "id": "PED43-B41",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Dự phòng cơn tím",
+      "section": "B8",
+      "text": "[Barem gốc] Dự phòng cơn tím Fallot tái phát bằng Propranolol đường uống với liều {{c1::1 – 2 mg/kg/ngày}} chia {{c1::2 – 4 lần}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 12 - Mục III.3.6).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Fallot",
+        "Du-phong"
+      ]
+    },
+    {
+      "id": "PED43-B42",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Tứ chứng Fallot",
+      "section": "B8",
+      "text": "[Barem gốc] Hình ảnh tim trên X-quang điển hình của tứ chứng Fallot là {{c1::hình chiếc ủng (coeur en sabot)}}, với mỏm tim hếch lên, cung ĐMP lõm và trường phổi sáng.",
+      "extra": "Giáo trình Nhi khoa (Trang 12 - Mục III.3.6).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Fallot",
+        "X-quang"
+      ]
+    },
+    {
+      "id": "PED43-B43",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Tứ chứng Fallot",
+      "section": "B8",
+      "text": "[Barem gốc] Phẫu thuật triệt để Fallot (vá VSD và mở rộng đường ra thất phải) thường tiến hành lúc trẻ {{c1::4 – 6 tháng tuổi}}; phẫu thuật tạm thời là làm cầu nối {{c1::Blalock-Taussig cải tiến}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 12 - Mục III.3.6).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Fallot",
+        "Phau-thuat"
+      ]
+    },
+    {
+      "id": "PED43-B44",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Teo tịt van ĐMP",
+      "section": "B9",
+      "text": "[Barem gốc] Teo tịt van ĐMP kèm thông liên thất (PA-VSD) là dạng nặng nhất của tứ chứng Fallot, máu lên phổi phụ thuộc hoàn toàn vào {{c1::ống động mạch (PDA)}} hoặc {{c1::tuần hoàn bàng hệ chủ - phổi (MAPCAs)}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 12 - Mục III.3.7).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PA-VSD"
+      ]
+    },
+    {
+      "id": "PED43-B45",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Teo tịt van ĐMP",
+      "section": "B9",
+      "text": "[Barem gốc] Thuốc dùng để duy trì mở ống động mạch ngay sau sinh ở trẻ teo tịt van động mạch phổi là truyền tĩnh mạch {{c1::Prostaglandin E1 (PGE1)}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 12 - Mục III.3.7).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PGE1"
+      ]
+    },
+    {
+      "id": "PED43-B46",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Teo tịt van ĐMP",
+      "section": "B9",
+      "front": "Điểm khác biệt giải phẫu và hướng xử trí giữa PA-VSD và PA-IVS là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>PA-IVS có vách liên thất lành lặn nên thất phải bị thiểu sản nặng ở các mức độ; nếu có đường rò động mạch vành vào thất phải thì bắt buộc phải phẫu thuật kiểu Fontan cải tiến.<br><br><b>💡 Lưu ý:</b><br>PA-VSD có lỗ VSD giải áp cho thất phải nên thất phải phát triển tốt hơn và hướng tới sửa chữa triệt để.",
+      "extra": "Giáo trình Nhi khoa (Trang 12-13 - Mục III.3.7 & III.3.8).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PA-IVS"
+      ]
+    },
+    {
+      "id": "PED43-B47",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Chuyển gốc động mạch",
+      "section": "B10",
+      "text": "[Barem gốc] Trong d-TGA, động mạch chủ xuất phát từ {{c1::thất phải}} và động mạch phổi xuất phát từ {{c1::thất trái}}, tạo thành hai vòng tuần hoàn {{c1::song song}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 13 - Mục III.3.9). Chiếm 4% tim bẩm sinh.",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TGA",
+        "Giai-phau"
+      ]
+    },
+    {
+      "id": "PED43-B48",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Chuyển gốc động mạch",
+      "section": "B10",
+      "front": "Điều kiện tiên quyết để một trẻ sơ sinh mắc d-TGA có thể sống sót sau sinh là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bắt buộc phải có các tổn thương phối hợp để pha trộn máu giữa hai vòng tuần hoàn: thông liên thất, thông liên nhĩ hoặc còn ống động mạch.<br><br><b>💡 Lưu ý:</b><br>Nếu không có trộn máu, máu giàu oxy quẩn quanh phổi và máu đen quẩn quanh cơ thể gây tử vong trong 24 giờ đầu.",
+      "extra": "Giáo trình Nhi khoa (Trang 13 - Mục III.3.9).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TGA",
+        "Huyet-dong"
+      ]
+    },
+    {
+      "id": "PED43-B49",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Chuyển gốc động mạch",
+      "section": "B10",
+      "text": "[Barem gốc] Khám tim ở trẻ sơ sinh mắc d-TGA đơn thuần thường nghe thấy tiếng thứ hai (T₂) {{c1::đơn độc}} ở van động mạch chủ.",
+      "extra": "Giáo trình Nhi khoa (Trang 13 - Mục III.3.9).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TGA",
+        "Nghe-tim"
+      ]
+    },
+    {
+      "id": "PED43-B50",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Chuyển gốc động mạch",
+      "section": "B10",
+      "text": "[Barem gốc] Hai biện pháp xử trí cấp cứu ban đầu cho sơ sinh d-TGA tím tái nặng là: truyền {{c1::PGE1}} giữ mở ống động mạch và phá vách liên nhĩ bằng bóng (thủ thuật {{c1::Rashkind}}).",
+      "extra": "Giáo trình Nhi khoa (Trang 13 - Mục III.3.9).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TGA",
+        "Cap-cuu"
+      ]
+    },
+    {
+      "id": "PED43-B51",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Chuyển gốc động mạch",
+      "section": "B10",
+      "text": "[Barem gốc] Phẫu thuật lựa chọn hàng đầu cho d-TGA là {{c1::phẫu thuật chuyển gốc động mạch (Arterial Switch / Jatene)}}, tiến hành ngay trong {{c1::tuần đầu tiên sau sinh}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 13 - Mục III.3.9). Trước khi áp lực thất trái thoái triển.",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TGA",
+        "Phau-thuat"
+      ]
+    },
+    {
+      "id": "PED43-B52",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Chuyển gốc động mạch",
+      "section": "B10",
+      "front": "Nhược điểm lâu dài của phẫu thuật chuyển tầng nhĩ kinh điển (Senning, Mustard) ở bệnh nhân TGA khi trưởng thành là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tắc nghẽn đường về tĩnh mạch, rối loạn nhịp tim và suy chức năng thất phải muộn do thất phải phải đảm nhận gánh nặng bơm máu đại tuần hoàn suốt đời.<br><br><b>💡 Lưu ý:</b><br>Đó là lý do phẫu thuật Jatene (đưa thất trái về bơm hệ thống) đã thay thế hoàn toàn chuyển tầng nhĩ.",
+      "extra": "Giáo trình Nhi khoa (Trang 13 - Mục III.3.9).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TGA",
+        "Senning-Mustard"
+      ]
+    },
+    {
+      "id": "PED43-B53",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thân chung động mạch",
+      "section": "B11",
+      "text": "[Barem gốc] Thân chung động mạch chiếm < 1% tim bẩm sinh, bao gồm 1 VSD phần phễu lớn và 1 thân chung cưỡi ngựa chia ra: {{c1::động mạch vành, động mạch phổi và động mạch chủ}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 13 - Mục III.3.10).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Truncus"
+      ]
+    },
+    {
+      "id": "PED43-B54",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thân chung động mạch",
+      "section": "B11",
+      "text": "[Barem gốc] Thân chung động mạch hay kết hợp với {{c1::Hội chứng DiGeorge}} do mất đoạn nhiễm sắc thể {{c1::22q11}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 13 - Mục III.3.10).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Truncus",
+        "DiGeorge"
+      ]
+    },
+    {
+      "id": "PED43-B55",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Thân chung động mạch",
+      "section": "B11",
+      "front": "Dấu hiệu nghe tim đặc trưng trong thân chung động mạch là gì và khi nào tiếng thổi tâm thu bị giảm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nghe thấy tiếng thổi tâm thu tống máu cạnh trái xương ức và tiếng click tống máu qua van thân chung; tiếng thổi tâm thu bị giảm cường độ khi có kèm hở van thân chung động mạch.<br><br><b>💡 Lưu ý:</b><br>Nếu kèm gián đoạn quai ĐMC sẽ mất mạch bẹn hai bên.",
+      "extra": "Giáo trình Nhi khoa (Trang 13 - Mục III.3.10).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Truncus",
+        "Nghe-tim"
+      ]
+    },
+    {
+      "id": "PED43-B56",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thân chung động mạch",
+      "section": "B11",
+      "text": "[Barem gốc] Phẫu thuật triệt để thân chung động mạch (đặt Conduit nối RV với PA) phải tiến hành sớm trước khi trẻ {{c1::2 – 3 tháng tuổi}} để phòng bệnh lý tắc nghẽn mạch phổi cố định.",
+      "extra": "Giáo trình Nhi khoa (Trang 13 - Mục III.3.10).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Truncus",
+        "Phau-thuat"
+      ]
+    },
+    {
+      "id": "PED43-B57",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bệnh Ebstein",
+      "section": "B12",
+      "text": "[Barem gốc] Bệnh Ebstein có đặc điểm giải phẫu là sự bám thấp bất thường của {{c1::lá vách và lá sau}} van ba lá về phía mỏm thất phải, dẫn đến {{c1::nhĩ hóa}} một phần thất phải.",
+      "extra": "Giáo trình Nhi khoa (Trang 14 - Mục III.3.11). Gây hở nặng van ba lá.",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Ebstein",
+        "Giai-phau"
+      ]
+    },
+    {
+      "id": "PED43-B58",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bệnh Ebstein",
+      "section": "B12",
+      "text": "[Barem gốc] Dấu hiệu nghe tim điển hình của bệnh Ebstein gồm: {{c1::tiếng T₁ và T₂ tách đôi rộng}} và {{c1::tiếng ngựa phi nhĩ}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 14 - Mục III.3.11).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Ebstein",
+        "Nghe-tim"
+      ]
+    },
+    {
+      "id": "PED43-B59",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bệnh Ebstein",
+      "section": "B12",
+      "text": "[Barem gốc] X-quang ngực trong Ebstein có bóng tim phải to khổng lồ hình {{c1::\"quả bóng bàn\" hoặc \"hình bình nước\"}}, phế trường phổi sáng giảm tưới máu.",
+      "extra": "Giáo trình Nhi khoa (Trang 14 - Mục III.3.11).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Ebstein",
+        "X-quang"
+      ]
+    },
+    {
+      "id": "PED43-B60",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bệnh Ebstein",
+      "section": "B12",
+      "text": "[Barem gốc] Bất thường điện tâm đồ đặc biệt ở 15% bệnh nhân Ebstein là {{c1::Hội chứng Wolff-Parkinson-White (WPW)}}, kèm sóng P khổng lồ kiểu dãy Himalaya ở DII.",
+      "extra": "Giáo trình Nhi khoa (Trang 14 - Mục III.3.11).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Ebstein",
+        "ECG",
+        "WPW"
+      ]
+    },
+    {
+      "id": "PED43-B61",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Bệnh Ebstein",
+      "section": "B12",
+      "text": "[Barem gốc] Phương pháp phẫu thuật tạo hình sửa van ba lá mang lại hiệu quả cao hiện nay trong bệnh Ebstein là {{c1::phương pháp Cone (Cone procedure)}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 14 - Mục III.3.11).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Ebstein",
+        "Phau-thuat"
+      ]
+    },
+    {
+      "id": "PED43-B62",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "TAPVC",
+      "section": "B13",
+      "text": "[Barem gốc] 4 thể giải phẫu của TAPVC gồm: thể trên tim (hay gặp nhất), {{c1::thể trong tim}}, {{c1::thể dưới tim}} và {{c1::thể hỗn hợp}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 14 - Mục III.3.12).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TAPVC"
+      ]
+    },
+    {
+      "id": "PED43-B63",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "TAPVC",
+      "section": "B13",
+      "front": "Vì sao bệnh nhân TAPVC bắt buộc phải có thông liên nhĩ (ASD) để duy trì sự sống?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Toàn bộ máu giàu oxy từ phổi đổ bất thường về nhĩ phải; nếu không có ASD máu không thể sang tim trái để tống vào đại tuần hoàn nuôi cơ thể.<br><br><b>💡 Lưu ý:</b><br>Bệnh nhân sống sót nhờ sự pha trộn máu hoàn toàn ở tầng nhĩ trước khi xuống thất.",
+      "extra": "Giáo trình Nhi khoa (Trang 14 - Mục III.3.12).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TAPVC",
+        "Huyet-dong"
+      ]
+    },
+    {
+      "id": "PED43-B64",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "TAPVC",
+      "section": "B13",
+      "text": "[Barem gốc] Hình ảnh X-quang kinh điển trong TAPVC thể trên tim không tắc nghẽn là {{c1::\"hình người tuyết\" (Snowman sign)}} hoặc hình số 8.",
+      "extra": "Giáo trình Nhi khoa (Trang 14 - Mục III.3.12).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TAPVC",
+        "X-quang"
+      ]
+    },
+    {
+      "id": "PED43-B65",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "TAPVC",
+      "section": "B13",
+      "text": "[Barem gốc] TAPVC thể {{c1::dưới tim}} thường gây tắc nghẽn tĩnh mạch phổi nặng nề, phù phổi cấp dữ dội ở sơ sinh cần {{c1::phẫu thuật cấp cứu tối khẩn}} với tử vong lên đến 40%.",
+      "extra": "Giáo trình Nhi khoa (Trang 14 - Mục III.3.12).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TAPVC",
+        "Cap-cuu"
+      ]
+    },
+    {
+      "id": "PED43-B66",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Teo van ba lá",
+      "section": "B14",
+      "text": "[Barem gốc] Teo van ba lá chiếm 3% tim bẩm sinh; thất phải thường {{c1::thiểu sản nặng}}, trong khi thất trái {{c1::phì đại lớn}} gánh toàn bộ tuần hoàn.",
+      "extra": "Giáo trình Nhi khoa (Trang 14 - Mục III.3.13).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Teo-van-3-la"
+      ]
+    },
+    {
+      "id": "PED43-B67",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Teo van ba lá",
+      "section": "B14",
+      "front": "Dấu hiệu điện tâm đồ kinh điển khác biệt của teo van ba lá so với đa số các bệnh tim bẩm sinh có tím khác là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trục trái và dày thất trái (trong khi hầu hết các bệnh tim bẩm sinh có tím khác đều có trục phải và dày thất phải).<br><br><b>💡 Lưu ý:</b><br>Gặp một trẻ sơ sinh tím tái có trục trái trên ĐTĐ phải nghĩ ngay đến teo van ba lá.",
+      "extra": "Giáo trình Nhi khoa (Trang 14 - Mục III.3.13).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Teo-van-3-la",
+        "ECG"
+      ]
+    },
+    {
+      "id": "PED43-B68",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Teo van ba lá",
+      "section": "B14",
+      "text": "[Barem gốc] Máu từ nhĩ phải trong teo van ba lá bắt buộc phải qua {{c1::lỗ bầu dục hoặc thông liên nhĩ}} để sang nhĩ trái hòa trộn với máu tĩnh mạch phổi.",
+      "extra": "Giáo trình Nhi khoa (Trang 14 - Mục III.3.13).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Teo-van-3-la"
+      ]
+    },
+    {
+      "id": "PED43-B69",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Teo van ba lá",
+      "section": "B14",
+      "text": "[Barem gốc] Phẫu thuật đích cuối cùng cho teo van ba lá là {{c1::Phẫu thuật Fontan cải tiến}}, nối tĩnh mạch chủ vào ĐMP với tỷ lệ sống sót > 85% sau 10 năm.",
+      "extra": "Giáo trình Nhi khoa (Trang 14 - Mục III.3.13).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Teo-van-3-la",
+        "Fontan"
+      ]
+    },
+    {
+      "id": "PED43-B70",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "HLHS",
+      "section": "B15",
+      "text": "[Barem gốc] Hội chứng HLHS gồm: teo/hẹp nặng van 2 lá, teo/hẹp van ĐMC, {{c1::thất trái thiểu sản nặng}} và thường kèm {{c1::hẹp eo động mạch chủ}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 14 - Mục III.3.14).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "HLHS"
+      ]
+    },
+    {
+      "id": "PED43-B71",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "HLHS",
+      "section": "B15",
+      "front": "Giải thích vì sao trẻ sơ sinh mắc HLHS rơi vào sốc tim trụy mạch tử vong khi ống động mạch đóng lại?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thất trái không hoạt động, toàn bộ đại tuần hoàn phụ thuộc vào thất phải bơm qua ống động mạch (PDA) vào ĐMC xuống và chảy ngược nuôi vành, não; khi PDA đóng, cơ thể mất hoàn toàn nguồn tưới máu dẫn đến sốc và toan nặng.<br><br><b>💡 Lưu ý:</b><br>Xử trí cấp cứu đầu tay bắt buộc là truyền tĩnh mạch liên tục PGE1 để mở lại ống động mạch.",
+      "extra": "Giáo trình Nhi khoa (Trang 14-15 - Mục III.3.14).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "HLHS",
+        "Huyet-dong"
+      ]
+    },
+    {
+      "id": "PED43-B72",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "HLHS",
+      "section": "B15",
+      "text": "[Barem gốc] Phẫu thuật tái tạo giai đoạn 1 trong tuần đầu sau sinh cho trẻ HLHS là {{c1::phẫu thuật Norwood}} (tạo hình quai ĐMC mới từ thân ĐMP và tạo nguồn cấp máu lên phổi qua BT shunt hoặc Sano).",
+      "extra": "Giáo trình Nhi khoa (Trang 15 - Mục III.3.14).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "HLHS",
+        "Norwood"
+      ]
+    },
+    {
+      "id": "PED43-B73",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "HLHS",
+      "section": "B15",
+      "text": "[Barem gốc] Giai đoạn 2 và 3 trong phẫu thuật tái tạo 3 giai đoạn cho HLHS lần lượt là: phẫu thuật {{c1::Glenn hai hướng}} (lúc 3–6 tháng) và phẫu thuật {{c1::Fontan}} (lúc 2–4 tuổi).",
+      "extra": "Giáo trình Nhi khoa (Trang 15 - Mục III.3.14).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "HLHS",
+        "Fontan"
+      ]
+    },
+    {
+      "id": "PED43-B74",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "LVOTO",
+      "section": "B16",
+      "text": "[Barem gốc] Hẹp trên van động mạch chủ thường phối hợp với {{c1::Hội chứng Williams}} do bất thường nhiễm sắc thể số {{c1::7}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 15 - Mục III.3.15).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "LVOTO",
+        "Williams"
+      ]
+    },
+    {
+      "id": "PED43-B75",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Hẹp van ĐMC",
+      "section": "B16",
+      "text": "[Barem gốc] Tỷ lệ van động mạch chủ hai lá (Bicuspid aortic valve) trong cộng đồng chiếm khoảng {{c1::2% dân số}}, có thể diễn tiến hẹp hoặc hở van khi lớn.",
+      "extra": "Giáo trình Nhi khoa (Trang 15 - Mục III.3.15).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Hep-van-DMC"
+      ]
+    },
+    {
+      "id": "PED43-B76",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Hẹp van ĐMC",
+      "section": "B16",
+      "front": "Đặc điểm của tiếng click tống máu trong hẹp van động mạch chủ giúp phân biệt với hẹp van động mạch phổi là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tiếng click tống máu của van ĐMC xuất hiện ngay sau T₁ và KHÔNG thay đổi theo chu kỳ hô hấp (trong khi click van ĐMP nhỏ đi khi hít vào).<br><br><b>💡 Lưu ý:</b><br>Nghe rõ nhất ở liên sườn 2 bờ phải xương ức lan lên động mạch cảnh hai bên cổ.",
+      "extra": "Giáo trình Nhi khoa (Trang 16 - Mục III.3.15).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Hep-van-DMC",
+        "Click"
+      ]
+    },
+    {
+      "id": "PED43-B77",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Hẹp van ĐMC",
+      "section": "B16",
+      "text": "[Barem gốc] Biện pháp cấp cứu sơ sinh hẹp van động mạch chủ nặng là {{c1::nong van bằng bóng qua da}}; ở trẻ lớn có thể phẫu thuật {{c1::Ross}} (thay van tự thân) hoặc thay van cơ học/sinh học.",
+      "extra": "Giáo trình Nhi khoa (Trang 16 - Mục III.3.15).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Hep-van-DMC",
+        "Dieu-tri"
+      ]
+    },
+    {
+      "id": "PED43-B78",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Hẹp eo ĐMC",
+      "section": "B17",
+      "text": "[Barem gốc] Hẹp eo động mạch chủ chiếm 5% tim bẩm sinh, hay gặp ở trẻ trai; ở trẻ gái rất hay phối hợp với {{c1::Hội chứng Turner (45,XO)}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 16 - Mục III.3.16).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Hep-eo-DMC",
+        "Turner"
+      ]
+    },
+    {
+      "id": "PED43-B79",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Hẹp eo ĐMC",
+      "section": "B17",
+      "text": "[Barem gốc] Khoảng {{c1::70%}} trường hợp hẹp eo động mạch chủ có phối hợp với dị tật {{c1::van động mạch chủ hai lá}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 16 - Mục III.3.16).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Hep-eo-DMC"
+      ]
+    },
+    {
+      "id": "PED43-B80",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Hẹp eo ĐMC",
+      "section": "B17",
+      "front": "Dấu hiệu lâm sàng tim mạch đặc trưng nhất giúp chẩn đoán hẹp eo động mạch chủ ở trẻ lớn là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tăng huyết áp chi trên kết hợp huyết áp chi dưới thấp, chênh lệch huyết áp tay - chân > 20 mmHg; mạch đùi bắt yếu hoặc đến chậm so với mạch quay (Radio-femoral delay).<br><br><b>💡 Lưu ý:</b><br>Bắt mạch bẹn hai bên và đo huyết áp 4 chi là thao tác bắt buộc ở mọi trẻ suy tim hoặc tăng huyết áp.",
+      "extra": "Giáo trình Nhi khoa (Trang 16 - Mục III.3.16).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Hep-eo-DMC",
+        "Mach-ben"
+      ]
+    },
+    {
+      "id": "PED43-B81",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Hẹp eo ĐMC",
+      "section": "B17",
+      "text": "[Barem gốc] Dấu hiệu X-quang kinh điển ở trẻ lớn mắc hẹp eo ĐMC là {{c1::\"khuyết bờ dưới các xương sườn\" (Rib notching / Dấu hiệu Roesler)}} do tuần hoàn bàng hệ động mạch liên sườn bào mòn xương.",
+      "extra": "Giáo trình Nhi khoa (Trang 16 - Mục III.3.16).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Hep-eo-DMC",
+        "X-quang"
+      ]
+    },
+    {
+      "id": "PED43-B82",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Hẹp eo ĐMC",
+      "section": "B17",
+      "text": "[Barem gốc] Dấu hiệu quai động mạch chủ trên phim X-quang ngực thẳng gợi ý hẹp eo ĐMC là {{c1::dấu hiệu số 3 (Figure of 3 sign)}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 16 - Mục III.3.16).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Hep-eo-DMC",
+        "X-quang"
+      ]
+    },
+    {
+      "id": "PED43-B83",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Hẹp van ĐMP",
+      "section": "B18",
+      "text": "[Barem gốc] Hẹp van động mạch phổi chiếm 8% tim bẩm sinh, thường phối hợp với {{c1::Hội chứng Noonan}}.",
+      "extra": "Giáo trình Nhi khoa (Trang 17 - Mục III.3.17).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Hep-van-DMP",
+        "Noonan"
+      ]
+    },
+    {
+      "id": "PED43-B84",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Hẹp van ĐMP",
+      "section": "B18",
+      "front": "Tiếng click tống máu trong hẹp van động mạch phổi có đặc điểm thay đổi theo hô hấp như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tiếng click tống máu van ĐMP nhỏ đi hoặc biến mất khi hít vào (do hít vào làm tăng hồi lưu tĩnh mạch về tim phải, đẩy van mở sớm trước kỳ tâm thu).<br><br><b>💡 Lưu ý:</b><br>Đây là điểm mấu chốt phân biệt với tiếng click van động mạch chủ (không thay đổi theo hô hấp).",
+      "extra": "Giáo trình Nhi khoa (Trang 17 - Mục III.3.17).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Hep-van-DMP",
+        "Click"
+      ]
+    },
+    {
+      "id": "PED43-B85",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Hẹp van ĐMP",
+      "section": "B18",
+      "text": "[Barem gốc] Nghe tim trong hẹp van ĐMP: tiếng tim thứ hai (T₂) {{c1::tách đôi rộng}}, thành phần van ĐMP (P₂) {{c1::mờ hoặc mất}} trong trường hợp hẹp nặng.",
+      "extra": "Giáo trình Nhi khoa (Trang 17 - Mục III.3.17).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Hep-van-DMP",
+        "Nghe-tim"
+      ]
+    },
+    {
+      "id": "PED43-B86",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Hẹp van ĐMP",
+      "section": "B18",
+      "text": "[Barem gốc] Biện pháp điều trị lựa chọn hàng đầu cho hẹp van động mạch phổi là {{c1::nong van bằng bóng qua da (Balloon pulmonary valvuloplasty)}}, thành công lâu dài ở {{c1::85%}} các trường hợp.",
+      "extra": "Giáo trình Nhi khoa (Trang 17 - Mục III.3.17).",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Hep-van-DMP",
+        "Dieu-tri"
+      ]
+    },
+    {
+      "id": "PED43-E01",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Box an toàn",
+      "section": "E0",
+      "front": "Vì sao tuyệt đối CẤM đóng ống động mạch bằng Indomethacin hoặc Ibuprofen ở trẻ sơ sinh mắc tim bẩm sinh phụ thuộc ống?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ở các bệnh như HLHS, TGA chưa sửa, teo van ĐMP, coarctation nặng, ống động mạch là nguồn tưới máu duy nhất nuôi cơ thể hoặc lên phổi; đóng ống sẽ gây trụy mạch và tử vong ngay lập tức.<br><br><b>💡 Lưu ý:</b><br>Bắt buộc truyền tĩnh mạch liên tục Prostaglandin E1 để giữ mở ống động mạch khi nghi ngờ.",
+      "extra": "Box đỏ an toàn (Mục 0 RELEASE). Cảnh báo khẩn cấp cấp cứu sơ sinh.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Box-an-toan",
+        "PGE1"
+      ]
+    },
+    {
+      "id": "PED43-E02",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Box an toàn",
+      "section": "E0",
+      "front": "Tại sao tuyệt đối CẤM đè ép ngực hoặc ép trẻ nằm ngửa khi đang lên cơn tím thiếu oxy Fallot (Tet spell)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ép ngực hoặc nằm ngửa làm giảm hồi lưu tĩnh mạch về tim, kích thích trẻ khóc thét và tăng tiêu thụ oxy, làm trầm trọng thêm luồng shunt Phải - Trái và thiếu máu não.<br><br><b>💡 Lưu ý:</b><br>Bắt buộc đặt trẻ ở tư thế ngực gối (Knee-chest) hoặc bế gập hai đùi sát bụng trẻ.",
+      "extra": "Box đỏ an toàn (Mục 0 RELEASE). Phản xạ tư thế sống còn trong Tet spell.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Box-an-toan",
+        "Tet-spell"
+      ]
+    },
+    {
+      "id": "PED43-E03",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Box an toàn",
+      "section": "E0",
+      "front": "Vì sao Propranolol tiêm tĩnh mạch trong cơn tím Fallot bắt buộc phải tiêm rất chậm dưới monitor theo dõi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tiêm nhanh có thể gây nhịp chậm xoang kịch phát, block nhĩ thất hoàn toàn và ngừng tim đột ngột do ức chế thụ thể beta giao cảm cơ tim quá mức.<br><br><b>💡 Lưu ý:</b><br>Liều: 0,05–0,1 mg/kg tiêm tĩnh mạch chậm trong 5–10 phút dưới sự giám sát liên tục của monitor.",
+      "extra": "Box đỏ an toàn (Mục 0 RELEASE). Quy tắc an toàn tim mạch.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Box-an-toan",
+        "Propranolol"
+      ]
+    },
+    {
+      "id": "PED43-E04",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Box an toàn",
+      "section": "E0",
+      "front": "Vì sao chống chỉ định tuyệt đối phẫu thuật đóng lỗ thông tim khi bệnh nhân đã chuyển sang Hội chứng Eisenmenger cố định?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Sức cản mạch phổi đã xơ hóa cố định, lỗ thông đóng vai trò van giải áp bảo vệ tâm thất; đóng lỗ thông sẽ gây suy thất cấp không thể đảo ngược và tử vong ngay trên bàn mổ.<br><br><b>💡 Lưu ý:</b><br>Bệnh nhân Eisenmenger chỉ còn chỉ định điều trị hạ áp phổi nội khoa hoặc ghép tim - phổi.",
+      "extra": "Box đỏ an toàn (Mục 0 RELEASE). Chống chỉ định ngoại khoa kinh điển.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Box-an-toan",
+        "Eisenmenger"
+      ]
+    },
+    {
+      "id": "PED43-E05",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Dịch tễ học",
+      "section": "E1",
+      "text": "[EBM] Nghiên cứu dịch tễ của Hoffman & Kaplan ước tính tỷ lệ mới mắc của các thể bệnh tim bẩm sinh nặng khoảng {{c1::8 trên 1.000 trẻ sinh sống}}.",
+      "extra": "PMID: 12084585 (Hoffman JI, Kaplan S. J Am Coll Cardiol 2002).",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Dich-te",
+        "PMID-12084585"
+      ]
+    },
+    {
+      "id": "PED43-E06",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Dịch tễ học",
+      "section": "E1",
+      "text": "[EBM] Tổng quan hệ thống và meta-analysis toàn cầu của van der Linde xác định tỷ lệ lưu hành lúc sinh của bệnh tim bẩm sinh là {{c1::9,1 trên 1.000 trẻ sinh sống}}.",
+      "extra": "PMID: 22078432 (van der Linde D, et al. J Am Coll Cardiol 2011).",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Dich-te",
+        "PMID-22078432"
+      ]
+    },
+    {
+      "id": "PED43-E07",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Khuyến cáo hướng dẫn",
+      "section": "E1",
+      "text": "[EBM] Hướng dẫn thực hành lâm sàng toàn diện cập nhật năm 2025 về quản lý tim bẩm sinh người lớn (ACHD) thay thế hướng dẫn 2018 là của hiệp hội {{c1::ACC/AHA}}.",
+      "extra": "PMID: 41411480 (2025 ACC/AHA ACHD Guideline, J Am Coll Cardiol 2025).",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Guideline",
+        "PMID-41411480"
+      ]
+    },
+    {
+      "id": "PED43-E08",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Chuyển tiếp huyết động",
+      "section": "E1",
+      "front": "Ngay sau khi trẻ cất tiếng khóc chào đời, sự biến chuyển sinh lý nào diễn ra ở sức cản mạch phổi (PVR) và sức cản hệ thống (SVR)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Khi phổi nở ra, sức cản mạch máu phổi (PVR) sụt giảm đột ngột; đồng thời tuần hoàn nhau thai bị kẹp cắt đứt làm sức cản hệ thống (SVR) tăng vọt.<br><br><b>💡 Lưu ý:</b><br>Sự thay đổi áp lực này phơi bày các luồng thông máu Trái - Phải và khởi động quá trình đóng ống động mạch sinh lý.",
+      "extra": "Mục 0 & Mục 1.1 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Huyet-dong",
+        "So-sinh"
+      ]
+    },
+    {
+      "id": "PED43-E09",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Phân loại huyết động",
+      "section": "E1",
+      "front": "Phân biệt 3 nhóm huyết động học tim bẩm sinh theo biểu hiện tím và lưu lượng máu lên phổi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Shunt Trái - Phải (không tím, tăng lưu lượng phổi: VSD, ASD, PDA); 2) Shunt Phải - Trái (có tím: giảm máu phổi như Fallot/teo van ĐMP, hoặc tăng máu phổi như TGA/Truncus); 3) Tắc nghẽn đường ra (không tím, cản trở cơ học: CoA, hẹp van ĐMC, hẹp van ĐMP).<br><br><b>💡 Lưu ý:</b><br>Đây là lưu đồ tiếp cận lâm sàng chuẩn mực tại giường bệnh.",
+      "extra": "Mục 1.2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Phan-loai"
+      ]
+    },
+    {
+      "id": "PED43-E10",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Sinh lý bệnh huyết động",
+      "section": "E2",
+      "front": "Theo định luật huyết động học, hai yếu tố nào quyết định chiều và lưu lượng dòng máu qua một lỗ thông tim bẩm sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Kích thước lỗ thông và tỷ số chênh lệch sức cản giữa sức cản mạch hệ thống (SVR) và sức cản mạch máu phổi (PVR).<br><br><b>💡 Lưu ý:</b><br>Dòng máu luôn ưu tiên chảy từ nơi có áp lực cao/sức cản cao sang nơi có áp lực thấp/sức cản thấp.",
+      "extra": "Mục 2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Sinh-ly-benh",
+        "PVR-SVR"
+      ]
+    },
+    {
+      "id": "PED43-E11",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Hội chứng Eisenmenger",
+      "section": "E2",
+      "front": "Giải thích chuỗi cơ chế bệnh sinh dẫn đến Hội chứng Eisenmenger ở bệnh nhân shunt Trái - Phải lớn không điều trị?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Shunt Trái - Phải lớn tràn máu lên phổi → tăng áp tiểu động mạch phổi → phì đại lớp cơ trơn và nội mạc → xơ hóa cố định lòng mạch → PVR vượt SVR làm đảo shunt thành Phải - Trái gây tím tái vĩnh viễn.<br><br><b>💡 Lưu ý:</b><br>Khi đã đảo shunt cố định, phẫu thuật đóng lỗ thông bị chống chỉ định tuyệt đối vì gây suy thất cấp tử vong.",
+      "extra": "Mục 2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Eisenmenger",
+        "Co-che"
+      ]
+    },
+    {
+      "id": "PED43-E12",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Suy tim huyết động",
+      "section": "E2",
+      "front": "Tại sao shunt Trái - Phải lưu lượng lớn kéo dài lại dẫn đến suy tim sung huyết theo định luật Frank-Starling?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Máu shunt sang tim phải lên phổi rồi dồn ngược về thất trái gây quá tải thể tích thất trái cuối tâm trương; khi thể tích vượt quá ngưỡng bù trừ của định luật Frank-Starling thì cơ tim suy giảm sức co bóp dẫn đến suy tim sung huyết.<br><br><b>💡 Lưu ý:</b><br>Thất trái là buồng tim bị quá tải thể tích trực tiếp nhất trong VSD và PDA lớn.",
+      "extra": "Mục 2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Suy-tim",
+        "Frank-Starling"
+      ]
+    },
+    {
+      "id": "PED43-E13",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Còn ống động mạch",
+      "section": "E2",
+      "front": "Giải thích cơ chế vì sao ở trẻ sinh non có PDA lớn lại có nguy cơ cao bị biến chứng viêm ruột hoại tử (NEC)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Hiện tượng \"cướp máu tâm trương\": dòng máu liên tục thoát nhanh từ động mạch chủ sang động mạch phổi trong thì tâm trương làm tụt huyết áp tâm trương hệ thống, dẫn đến thiếu máu tưới mạc treo ruột kéo dài.<br><br><b>💡 Lưu ý:</b><br>Tương tự, tưới máu não và thận cũng bị đe dọa do hiện tượng tụt huyết áp tâm trương này.",
+      "extra": "Mục 2 (Ví dụ 4) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "PDA",
+        "NEC",
+        "Cuop-mau"
+      ]
+    },
+    {
+      "id": "PED43-E14",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Chuyển gốc động mạch",
+      "section": "E2",
+      "front": "Giải thích cơ chế huyết động vì sao trong chuyển gốc đại động mạch (d-TGA) nếu không có sự pha trộn máu thì trẻ sẽ tử vong nhanh chóng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì hai vòng tuần hoàn hoạt động song song độc lập: máu giàu oxy tuần hoàn khép kín giữa tim trái và phổi, trong khi máu nghèo oxy tuần hoàn khép kín giữa tim phải và cơ thể → thiếu oxy mô toàn thân tối cấp.<br><br><b>💡 Lưu ý:</b><br>Lỗ thông liên nhĩ hoặc ống động mạch là chiếc cầu nối sống còn duy nhất cho phép máu giàu oxy sang đại tuần hoàn.",
+      "extra": "Mục 2 (Ví dụ 3) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "TGA",
+        "Tuan-hoan-song-song"
+      ]
+    },
+    {
+      "id": "PED43-E15",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Tiếp cận lâm sàng",
+      "section": "E3",
+      "front": "Kể tên 4 bước tiếp cận chẩn đoán tim bẩm sinh tại giường theo khuyến cáo?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bước 1: Đánh giá tím trung ương hay ngoại vi; Bước 2: Đo SpO₂ đồng thời ở tay phải và chân; Bước 3: Bắt mạch và đo huyết áp 4 chi (so sánh mạch bẹn và mạch quay); Bước 4: Nghe tim có hệ thống (T₂, click, tiếng thổi).<br><br><b>💡 Lưu ý:</b><br>Luôn đo SpO₂ tay phải vì tay phải nhận máu trước vị trí ống động mạch (pre-ductal).",
+      "extra": "Mục 3.1 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Tiep-can",
+        "Kham-lam-sang"
+      ]
+    },
+    {
+      "id": "PED43-E16",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Nghiệm pháp Hyperoxia",
+      "section": "E3",
+      "front": "Cách tiến hành và tiêu chuẩn biện luận của Nghiệm pháp thở oxy 100% (Hyperoxia test) ở trẻ sơ sinh tím tái?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Cho thở oxy 100% qua mask kín có túi dự trữ trong 10–15 phút rồi đo PaO₂ khí máu: Nếu PaO₂ tăng vọt (> 150–200 mmHg) là do bệnh lý phổi; Nếu PaO₂ không vượt qua 100–150 mmHg khẳng định tim bẩm sinh có shunt Phải - Trái.<br><br><b>💡 Lưu ý:</b><br>Xét nghiệm nhanh tại giường giúp định hướng khẩn cấp giữa suy hô hấp sơ sinh và tim bẩm sinh tím.",
+      "extra": "Mục 3.2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Hyperoxia-test",
+        "Khi-mau"
+      ]
+    },
+    {
+      "id": "PED43-E17",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Chẩn đoán hình ảnh",
+      "section": "E3",
+      "front": "Phương tiện cận lâm sàng nào là tiêu chuẩn vàng tuyệt đối để chẩn đoán xác định cấu trúc giải phẫu và huyết động tim bẩm sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Siêu âm tim Doppler màu qua thành ngực (TTE): xác định cấu trúc giải phẫu, kích thước lỗ thông, hướng luồng shunt, tính phân suất tống máu và đo chênh áp qua van.<br><br><b>💡 Lưu ý:</b><br>CT đa dãy hoặc MRI tim dùng bổ trợ khi cần đánh giá quai ĐMC, tĩnh mạch phổi hoặc bàng hệ MAPCAs.",
+      "extra": "Mục 3.3 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Sieu-am-tim",
+        "Tieu-chuan-vang"
+      ]
+    },
+    {
+      "id": "PED43-E18",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Nhận diện tím",
+      "section": "E3",
+      "text": "[EBM] Tím trung ương được nhận diện tại giường khi thấy tím ở {{c1::niêm mạc miệng, lưỡi và kết mạc}} đi kèm với {{c1::SpO₂ giảm}}; trong khi tím ngoại vi chỉ ở đầu chi lạnh và niêm mạc vẫn hồng.",
+      "extra": "Mục 3.1 & Checkpoint 3 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Nhan-dien-tim"
+      ]
+    },
+    {
+      "id": "PED43-E19",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Sàng lọc SpO2",
+      "section": "E3",
+      "front": "Tại sao đo SpO₂ sàng lọc tim bẩm sinh ở trẻ sơ sinh bắt buộc phải đo ở tay phải (pre-ductal) và một trong hai chân (post-ductal)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tay phải nhận máu từ thân cánh tay đầu trước chỗ đổ của ống động mạch; chân nhận máu sau ống động mạch. Sự chênh lệch SpO₂ (> 3%) giúp phát hiện tổn thương phụ thuộc ống hoặc đảo chiều shunt nửa dưới cơ thể.<br><br><b>💡 Lưu ý:</b><br>Ví dụ: hẹp eo ĐMC nặng hoặc PDA tăng áp phổi sẽ có SpO₂ chân thấp hơn tay phải rõ rệt.",
+      "extra": "Mục 3.1 & Tip 2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "SpO2-screening",
+        "Pre-post-ductal"
+      ]
+    },
+    {
+      "id": "PED43-E20",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Thông liên thất",
+      "section": "E4",
+      "text": "[EBM] Tổng quan Minette & Sahn khẳng định: Thông liên thất là dị tật tim bẩm sinh phổ biến nhất, với biểu hiện lâm sàng phụ thuộc vào {{c1::kích thước lỗ thông}} và {{c1::sức cản mạch máu phổi (PVR)}}.",
+      "extra": "PMID: 17101870 (Minette MS, Sahn DJ. Circulation 2006).",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "VSD",
+        "PMID-17101870"
+      ]
+    },
+    {
+      "id": "PED43-E21",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Thông liên thất",
+      "section": "E4",
+      "front": "Vì sao trẻ mắc thông liên thất lớn thường không có triệu chứng lúc mới sinh mà đến 6–8 tuần tuổi mới xuất hiện suy tim thở nhanh bú kém?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ở sơ sinh, sức cản mạch phổi (PVR) còn cao tương đương sức cản hệ thống nên lượng máu shunt T-P rất ít. Đến 6–8 tuần tuổi, PVR giảm sinh lý làm chênh áp tăng vọt, luồng shunt T-P tràn ngập lên phổi gây suy tim sung huyết.<br><br><b>💡 Lưu ý:</b><br>Đây là lý do VSD lớn hiếm khi suy tim ngay tuần đầu sau sinh.",
+      "extra": "Mục 4.2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "VSD",
+        "Sinh-ly-PVR"
+      ]
+    },
+    {
+      "id": "PED43-E22",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Thông liên thất",
+      "section": "E4",
+      "front": "Phác đồ điều trị nội khoa suy tim sung huyết ở trẻ mắc thông liên thất lớn gồm những nhóm thuốc nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thuốc lợi tiểu quai (Furosemid) phối hợp kháng Aldosterone (Spironolacton) để giảm ứ huyết phổi, kết hợp thuốc giãn mạch ức chế men chuyển (Captopril) để giảm hậu gánh thất trái làm giảm dòng shunt.<br><br><b>💡 Lưu ý:</b><br>Đồng thời bắt buộc tăng đậm độ năng lượng khẩu phần ăn lên 120–150 kcal/kg/ngày.",
+      "extra": "Mục 4.3 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "VSD",
+        "Noi-khoa"
+      ]
+    },
+    {
+      "id": "PED43-E23",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Thông liên thất",
+      "section": "E4",
+      "front": "Vì sao thông liên thất phần phễu (dưới van ĐMC) dù kích thước nhỏ vẫn có chỉ định can thiệp phẫu thuật sớm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Do hiệu ứng Venturi của dòng phụt xoáy liên tục hút sa lá van động mạch chủ bên phải vào lỗ thông, gây biến dạng van và hở van động mạch chủ tiến triển không hồi phục.<br><br><b>💡 Lưu ý:</b><br>Xuất hiện sa lá van ĐMC là chỉ định phẫu thuật ngay không chờ đợi.",
+      "extra": "Mục 4.1 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "VSD",
+        "Venturi",
+        "Ho-chu"
+      ]
+    },
+    {
+      "id": "PED43-E24",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Thông liên thất",
+      "section": "E4",
+      "text": "[EBM] Thời điểm phẫu thuật triệt để vá VSD lớn có tăng áp phổi là trước {{c1::6 – 9 tháng tuổi}} để ngăn ngừa tổn thương mạch máu phổi xơ hóa cố định không hồi phục (Eisenmenger).",
+      "extra": "Mục 4.3 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "VSD",
+        "Thoi-diem-mo"
+      ]
+    },
+    {
+      "id": "PED43-E25",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Thông liên nhĩ",
+      "section": "E5",
+      "front": "Giải thích cơ chế sinh lý vì sao tiếng tim thứ hai T₂ tách đôi cố định (không thay đổi theo hô hấp) trong thông liên nhĩ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bình thường khi hít vào máu về thất phải tăng làm chậm đóng van ĐMP. Trong ASD, luồng shunt T-P liên tục cung cấp thể tích dồi dào cho thất phải cả thì hít vào và thở ra, khiến thời gian tống máu thất phải luôn kéo dài cố định.<br><br><b>💡 Lưu ý:</b><br>T₂ tách đôi cố định là dấu hiệu lâm sàng đặc hiệu nhất của ASD.",
+      "extra": "Mục 5.2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "ASD",
+        "T2-tach-doi"
+      ]
+    },
+    {
+      "id": "PED43-E26",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Thông liên nhĩ",
+      "section": "E5",
+      "front": "Tại sao tiếng thổi tâm thu nghe được ở khoang liên sườn 2 bờ trái ức trong ASD không phải là tiếng thổi qua vách liên nhĩ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Chênh áp giữa hai tâm nhĩ rất nhỏ (chỉ vài mmHg) nên dòng máu qua lỗ ASD không tạo ra xoáy đủ lớn để phát thành tiếng; tiếng thổi thực chất là do tăng lưu lượng máu lớn tống qua van động mạch phổi bình thường (hẹp phổi cơ năng).<br><br><b>💡 Lưu ý:</b><br>Do đó lỗ ASD càng to thì tiếng thổi qua van ĐMP càng rõ.",
+      "extra": "Mục 5.2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "ASD",
+        "Tieng-thoi-co-nang"
+      ]
+    },
+    {
+      "id": "PED43-E27",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Thông liên nhĩ",
+      "section": "E5",
+      "front": "Biến đổi điện tâm đồ nào là dấu hiệu đặc trưng giúp phân biệt ASD lỗ tiên phát với ASD lỗ thứ phát?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>ASD lỗ thứ phát có trục phải và dày thất phải; trong khi ASD lỗ tiên phát có trục trái và khử cực ngược chiều kim đồng hồ (do khuyết gối nội tâm mạc làm thay đổi mạng lưới dẫn truyền).<br><br><b>💡 Lưu ý:</b><br>Dấu hiệu trục trái ở trẻ nghi ngờ ASD gợi ý ngay thể tiên phát / kênh nhĩ thất.",
+      "extra": "Mục 5.2 & Checkpoint 2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "ASD",
+        "ECG",
+        "Phan-biet"
+      ]
+    },
+    {
+      "id": "PED43-E28",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Thông liên nhĩ",
+      "section": "E5",
+      "text": "[EBM] Thời điểm can thiệp bít dù qua da (Amplatzer) lý tưởng cho trẻ thông liên nhĩ lỗ thứ phát là lúc trẻ {{c1::3 – 5 tuổi}} trước khi trẻ đến tuổi đi học.",
+      "extra": "Mục 5.3 & Bảng 9.1 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "ASD",
+        "Bit-du"
+      ]
+    },
+    {
+      "id": "PED43-E29",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Còn ống động mạch",
+      "section": "E6",
+      "text": "[EBM] Tổng quan hệ thống Cochrane của Ohlsson khẳng định: {{c1::Ibuprofen}} có hiệu quả đóng ống động mạch tương đương {{c1::indomethacin}} ở trẻ sơ sinh non tháng với ít tác dụng không mong muốn trên thận và tiêu hóa hơn.",
+      "extra": "PMID: 30264852 (Ohlsson A, Walia R, Shah SS. Cochrane Database Syst Rev 2018).",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "PDA",
+        "Cochrane",
+        "PMID-30264852"
+      ]
+    },
+    {
+      "id": "PED43-E30",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Còn ống động mạch",
+      "section": "E6",
+      "front": "Giải thích cơ chế sinh lý tạo nên dấu hiệu mạch nảy mạnh chìm sâu (mạch Corrigan) trong còn ống động mạch lớn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tâm thu thất trái tống lượng máu lớn bù trừ vào ĐMC làm áp lực tâm thu tăng cao; tâm trương máu lập tức thoát nhanh sang ĐMP qua ống thông làm huyết áp tâm trương tụt sâu → chênh lệch áp lực mạch mở rộng tạo mạch Corrigan.<br><br><b>💡 Lưu ý:</b><br>Dấu hiệu này rất dễ nhận biết bằng bắt mạch quay hoặc mạch bẹn ở trẻ sơ sinh.",
+      "extra": "Mục 6.2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "PDA",
+        "Mach-Corrigan"
+      ]
+    },
+    {
+      "id": "PED43-E31",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Còn ống động mạch",
+      "section": "E6",
+      "front": "Giải thích cơ chế vì sao trong hội chứng Eisenmenger do PDA lại xuất hiện tím chuyên biệt ở nửa dưới cơ thể (chân tím hơn tay)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Lỗ đổ của ống động mạch vào ĐMC nằm sau chỗ xuất phát của động mạch dưới đòn trái nuôi chi trên. Khi đảo shunt P-T, máu đen từ ĐMP qua PDA đổ thẳng vào ĐMC xuống nuôi nửa dưới cơ thể, trong khi đầu và tay phải vẫn nhận máu đỏ từ quai ĐMC.<br><br><b>💡 Lưu ý:</b><br>Đây là dấu hiệu lâm sàng độc nhất vô nhị chỉ có ở PDA đảo shunt.",
+      "extra": "Mục 6.2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "PDA",
+        "Tim-chuyen-biet"
+      ]
+    },
+    {
+      "id": "PED43-E32",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Còn ống động mạch",
+      "section": "E6",
+      "front": "Thuốc đóng ống động mạch bằng ức chế tổng hợp Prostaglandin có hiệu quả ở lứa tuổi nào và cơ chế tác dụng là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Chỉ có hiệu quả ở trẻ sơ sinh non tháng trong những tuần đầu đời vì tế bào cơ trơn thành ống còn khả năng đáp ứng co thắt khi bị ức chế enzym Cyclooxygenase làm giảm nồng độ Prostaglandin nội sinh.<br><br><b>💡 Lưu ý:</b><br>Ở trẻ đủ tháng và trẻ lớn, cấu trúc ống đã xơ hóa không còn đáp ứng với thuốc, bắt buộc can thiệp dù hoặc phẫu thuật.",
+      "extra": "Mục 6.3 & Tip 5 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "PDA",
+        "Dong-ong-thuoc"
+      ]
+    },
+    {
+      "id": "PED43-E33",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Còn ống động mạch",
+      "section": "E6",
+      "text": "[EBM] Liệu trình đóng ống động mạch bằng Ibuprofen đường tĩnh mạch chuẩn mực ở trẻ sơ sinh non tháng gồm {{c1::3 liều}} dùng cách nhau {{c1::24 giờ}} (liều đầu 10 mg/kg, hai liều sau 5 mg/kg).",
+      "extra": "Mục 12 (Case 2) RELEASE & Cochrane 2018.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "PDA",
+        "Ibuprofen-dose"
+      ]
+    },
+    {
+      "id": "PED43-E34",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Tứ chứng Fallot",
+      "section": "E7",
+      "text": "[EBM] Tổng quan Orphanet của Bailliard & Anderson xác định tứ chứng Fallot bao gồm 4 dị tật kinh điển: {{c1::thông liên thất}}, {{c1::hẹp đường ra thất phải}}, {{c1::động mạch chủ cưỡi ngựa}} và {{c1::phì đại thất phải}}.",
+      "extra": "PMID: 19144126 (Bailliard F, Anderson RH. Orphanet J Rare Dis 2009).",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Fallot",
+        "PMID-19144126"
+      ]
+    },
+    {
+      "id": "PED43-E35",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Tứ chứng Fallot",
+      "section": "E7",
+      "text": "[EBM] Tổng quan của Apitz trên tạp chí Lancet khẳng định: Những tiến bộ trong chẩn đoán và phẫu thuật đã giúp {{c1::hầu hết trẻ}} sinh ra mắc tứ chứng Fallot sống sót đến {{c1::tuổi trưởng thành}}.",
+      "extra": "PMID: 19683809 (Apitz C, Webb GD, Redington AN. Lancet 2009).",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Fallot",
+        "PMID-19683809"
+      ]
+    },
+    {
+      "id": "PED43-E36",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cơn tím Fallot",
+      "section": "E7",
+      "front": "Tại sao tiếng thổi tâm thu trong tứ chứng Fallot lại đột ngột nhỏ đi hoặc biến mất hoàn toàn khi trẻ rơi vào cơn tím cấp (Tet spell)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Cơ phễu đường ra thất phải co thắt cực độ cắt đứt gần như hoàn toàn lưu lượng máu lên động mạch phổi; không còn dòng máu tống qua chỗ hẹp phễu nên tiếng thổi tâm thu biến mất.<br><br><b>💡 Lưu ý:</b><br>Tiếng thổi tim biến mất là dấu hiệu cảnh báo cơn tím đang ở mức độ tối nguy kịch.",
+      "extra": "Mục 7.3 & Tip 12 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Tet-spell",
+        "Tieng-thoi-bien-mat"
+      ]
+    },
+    {
+      "id": "PED43-E37",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cấp cứu cơn tím",
+      "section": "E7",
+      "front": "Trình bày thứ tự 6 bước cấp cứu xử trí cơn tím Fallot kịch phát tại giường?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tư thế ngực gối (Knee-chest) ngay lập tức; 2) Thở oxy 100% qua mask kín; 3) Tiêm Morphine sulfate 0,1 mg/kg SC/IM; 4) Truyền dịch NaCl 0,9% 10–15 mL/kg tĩnh mạch nhanh; 5) Tiêm TM chậm Propranolol 0,05–0,1 mg/kg trong 5–10 phút; 6) Natri bicarbonat nếu toan nặng.<br><br><b>💡 Lưu ý:</b><br>Thuộc nằm lòng thứ tự này để cấp cứu trong vòng 3 phút đầu.",
+      "extra": "Mục 7.3 Lưu đồ cấp cứu RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Tet-spell",
+        "Cap-cuu-6-buoc"
+      ]
+    },
+    {
+      "id": "PED43-E38",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cấp cứu cơn tím",
+      "section": "E7",
+      "front": "Tác dụng điều trị của Morphine sulfate trong cấp cứu cơn tím Fallot là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ức chế trung tâm hô hấp làm giảm nhịp thở nhanh sâu, trấn tĩnh an thần trẻ giúp cắt đứt phản xạ tăng tiết Catecholamine giao cảm, từ đó làm giãn cơ phễu đường ra thất phải.<br><br><b>💡 Lưu ý:</b><br>Liều chuẩn: 0,1 mg/kg tiêm dưới da hoặc tiêm bắp.",
+      "extra": "Mục 7.3 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Tet-spell",
+        "Morphine"
+      ]
+    },
+    {
+      "id": "PED43-E39",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Cấp cứu cơn tím",
+      "section": "E7",
+      "text": "[EBM] Liều truyền dịch muối đẳng trương NaCl 0,9% trong cấp cứu cơn tím Fallot là {{c1::10 – 15 mL/kg}} truyền tĩnh mạch nhanh để tăng tiền gánh thất phải và chống cô đặc máu.",
+      "extra": "Mục 7.3 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Tet-spell",
+        "Truyen-dich"
+      ]
+    },
+    {
+      "id": "PED43-E40",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Phẫu thuật Fallot",
+      "section": "E7",
+      "text": "[EBM] Thời điểm vàng phẫu thuật sửa chữa toàn bộ triệt để cho trẻ mắc tứ chứng Fallot là lúc {{c1::4 – 6 tháng tuổi}}.",
+      "extra": "Mục 7.4 & Bảng 9.1 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Fallot",
+        "Thoi-diem-mo"
+      ]
+    },
+    {
+      "id": "PED43-E41",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Chuyển gốc động mạch",
+      "section": "E8",
+      "text": "[EBM] Tổng quan của Villafañe trên JACC khẳng định: Phẫu thuật chuyển gốc động mạch Jatene đã {{c1::thay thế hoàn toàn}} phẫu thuật chuyển tầng nhĩ trong điều trị d-TGA, giúp bệnh nhân sống sót đến tuổi trưởng thành.",
+      "extra": "PMID: 25082585 (Villafañe J, et al. J Am Coll Cardiol 2014).",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "TGA",
+        "Jatene",
+        "PMID-25082585"
+      ]
+    },
+    {
+      "id": "PED43-E42",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Chuyển gốc động mạch",
+      "section": "E8",
+      "front": "Tại sao phẫu thuật Jatene (Arterial switch) cho trẻ chuyển gốc đại động mạch (d-TGA) bắt buộc phải tiến hành trong tuần đầu sau sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì sau sinh sức cản mạch phổi giảm làm áp lực buồng thất trái tụt giảm nhanh; nếu mổ muộn sau tuần đầu cơ thất trái sẽ bị thoái triển không còn đủ sức gánh áp lực đại tuần hoàn hệ thống.<br><br><b>💡 Lưu ý:</b><br>Mổ sau tuần đầu đòi hỏi phải luyện tập thất trái phức tạp trước mổ.",
+      "extra": "Mục 8.1 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "TGA",
+        "Jatene",
+        "Thoi-diem-vang"
+      ]
+    },
+    {
+      "id": "PED43-E43",
+      "track": "ebm",
+      "type": "basic",
+      "category": "HLHS",
+      "section": "E8",
+      "front": "Trình bày quy trình phẫu thuật tái tạo 3 giai đoạn hướng tới tuần hoàn Fontan ở trẻ mắc Hội chứng thiểu sản thất trái (HLHS)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Giai đoạn 1 (tuần đầu sau sinh): Phẫu thuật Norwood tạo đường tống máu đại tuần hoàn; Giai đoạn 2 (3–6 tháng): Phẫu thuật Glenn hai hướng nối SVC vào ĐMP; Giai đoạn 3 (2–4 tuổi): Phẫu thuật Fontan nối IVC vào ĐMP.<br><br><b>💡 Lưu ý:</b><br>Mục tiêu là đưa tâm thất phải duy nhất đảm nhận bơm máu đại tuần hoàn.",
+      "extra": "Mục 8.2 & Bảng 9.1 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "HLHS",
+        "Norwood-Glenn-Fontan"
+      ]
+    },
+    {
+      "id": "PED43-E44",
+      "track": "ebm",
+      "type": "basic",
+      "category": "TAPVC",
+      "section": "E8",
+      "front": "Phân biệt hai thể lâm sàng của bất thường hồi lưu tĩnh mạch phổi hoàn toàn (TAPVC): thể tắc nghẽn và thể không tắc nghẽn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thể không tắc nghẽn (trên tim): tím nhẹ, tăng máu phổi, suy tim sung huyết, X-quang hình người tuyết; Thể có tắc nghẽn (dưới tim): tắc nghẽn tĩnh mạch phổi gây tăng áp phổi ác tính, phù phổi cấp dữ dội ở sơ sinh cần mổ cấp cứu tối khẩn.<br><br><b>💡 Lưu ý:</b><br>Thể dưới tim tắc nghẽn có tỷ lệ tử vong sơ sinh lên đến 40%.",
+      "extra": "Mục 8 RELEASE & PEDYTB mục 3.12.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "TAPVC",
+        "Phu-phoi-cap"
+      ]
+    },
+    {
+      "id": "PED43-E45",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Bệnh Ebstein",
+      "section": "E8",
+      "text": "[EBM] Dấu hiệu điện tâm đồ đặc trưng của bệnh Ebstein là {{c1::sóng P khổng lồ (kiểu dãy Himalaya)}} ở chuyển đạo DII, kèm nguy cơ xuất hiện cơn nhịp nhanh do {{c1::hội chứng Wolff-Parkinson-White (WPW)}} ở 15% bệnh nhân.",
+      "extra": "Mục 8 RELEASE & PEDYTB mục 3.11.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Ebstein",
+        "WPW",
+        "ECG"
+      ]
+    },
+    {
+      "id": "PED43-E46",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Thời điểm can thiệp",
+      "section": "E9",
+      "front": "Thời điểm vàng can thiệp phẫu thuật hoặc bít dù của 4 bệnh tim bẩm sinh thường gặp (VSD, ASD, PDA non tháng, Fallot) là khi nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>VSD lớn: 1–4 tháng (suy tim nặng) hoặc trước 6–9 tháng; ASD thứ phát: 3–5 tuổi; PDA sơ sinh non tháng: tuần 1–2 sau sinh (đóng thuốc); Tứ chứng Fallot: 4–6 tháng tuổi.<br><br><b>💡 Lưu ý:</b><br>Nắm chắc bảng thời điểm vàng để tư vấn và chuyển tuyến can thiệp kịp thời.",
+      "extra": "Bảng 9.1 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Thoi-diem-vang",
+        "Can-thiep"
+      ]
+    },
+    {
+      "id": "PED43-E47",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Phẫu thuật tạm thời",
+      "section": "E9",
+      "front": "Khi nào có chỉ định làm phẫu thuật tạm thời cầu nối Blalock-Taussig cải tiến thay vì sửa chữa triệt để ngay trong tim bẩm sinh tím?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Khi trẻ có tím nặng đe dọa tính mạng nhưng cân nặng quá thấp hoặc các nhánh động mạch phổi còn quá nhỏ/thiểu sản chưa đủ kích thước để chịu lưu lượng sửa chữa triệt để một thì.<br><br><b>💡 Lưu ý:</b><br>Cầu nối BT giúp cấp máu tạm thời nuôi các nhánh ĐMP phát triển trước khi mổ triệt để.",
+      "extra": "Mục 9.2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "BT-shunt",
+        "Phau-thuat-tam-thoi"
+      ]
+    },
+    {
+      "id": "PED43-E48",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Can thiệp qua da",
+      "section": "E9",
+      "front": "Nhóm dị tật tim bẩm sinh nào hiện nay có chỉ định bít dù qua da thay thế phẫu thuật mở tim hở?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thông liên nhĩ lỗ thứ phát có gờ mô xung quanh đầy đủ, còn ống động mạch (PDA) ở trẻ lớn, và một số thể thông liên thất phần cơ hoặc quanh màng thuận lợi giải phẫu.<br><br><b>💡 Lưu ý:</b><br>Can thiệp qua da giúp trẻ hồi phục nhanh, không cần mở xương ức và không chạy máy tim phổi nhân tạo.",
+      "extra": "Mục 9.2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Bit-du-qua-da"
+      ]
+    },
+    {
+      "id": "PED43-E49",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Cấp cứu sơ sinh",
+      "section": "E9",
+      "text": "[EBM] Thuốc cấp cứu hàng đầu duy trì mở ống động mạch để cứu sống trẻ sơ sinh mắc bệnh tim bẩm sinh phụ thuộc ống là truyền liên tục {{c1::Prostaglandin E1 (Alprostadil)}} với liều khởi đầu 0,05 – 0,1 µg/kg/phút.",
+      "extra": "Mục 9 RELEASE & Box an toàn.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "PGE1",
+        "Lieu-thuoc"
+      ]
+    },
+    {
+      "id": "PED43-E50",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cạm bẫy lâm sàng",
+      "section": "E10",
+      "front": "Cạm bẫy lâm sàng 1: Có phải mọi bệnh tim bẩm sinh đều nghe thấy tiếng thổi ở tim không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Không. Những bệnh cực kỳ nguy kịch như chuyển gốc đại động mạch (d-TGA) đơn thuần hoặc TAPVC thể tắc nghẽn có thể hoàn toàn không có tiếng thổi ở tim do không có dòng xoáy tạo tiếng.<br><br><b>💡 Lưu ý:</b><br>Trẻ sơ sinh tím tái nặng dù tim không tiếng thổi vẫn phải nghĩ ngay tới tim bẩm sinh tím.",
+      "extra": "Mục 10 (Cạm bẫy 1) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Cam-bay",
+        "Tieng-thoi"
+      ]
+    },
+    {
+      "id": "PED43-E51",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cạm bẫy lâm sàng",
+      "section": "E10",
+      "front": "Cạm bẫy lâm sàng 2: Sai lầm chết người khi dùng thuốc hạ sốt hoặc chỉ cho thở oxy để điều trị cơn tím Fallot là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Cơn tím không phải do sốt hay thiếu oxy đơn thuần mà do co thắt phễu đường ra thất phải; oxy liều cao không qua được phổi bị tắc nghẽn; bắt buộc phải dùng tư thế ngực gối, Morphine và bù dịch để phá vỡ vòng xoắn co thắt.<br><br><b>💡 Lưu ý:</b><br>Chỉ loay hoay cho thở oxy mà không gập gối sẽ làm trẻ tử vong.",
+      "extra": "Mục 10 (Cạm bẫy 2) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Cam-bay",
+        "Tet-spell"
+      ]
+    },
+    {
+      "id": "PED43-E52",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cạm bẫy lâm sàng",
+      "section": "E10",
+      "front": "Cạm bẫy lâm sàng 4: Tại sao chẩn đoán nhầm trẻ suy tim do shunt Trái - Phải lớn thành viêm phổi là sai lầm rất phổ biến?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Cả hai đều có thở nhanh, co kéo và nghe rale ẩm ở phổi do ứ dịch; tuy nhiên trẻ tim bẩm sinh có thêm bú ngắt quãng vã mồ hôi, gan to và tiếng thổi ở tim.<br><br><b>💡 Lưu ý:</b><br>Điều trị kháng sinh kéo dài không giải quyết được gốc rễ suy tim huyết động.",
+      "extra": "Mục 10 (Cạm bẫy 4) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Cam-bay",
+        "Viem-phoi-nham"
+      ]
+    },
+    {
+      "id": "PED43-E53",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cạm bẫy lâm sàng",
+      "section": "E10",
+      "front": "Cạm bẫy lâm sàng 7: Tại sao cho thở oxy nồng độ cao bừa bãi ở trẻ có shunt Trái - Phải lớn (VSD, PDA lớn) lại nguy hiểm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Oxy nồng độ cao là chất giãn mạch phổi cực mạnh, làm tụt sức cản mạch phổi (PVR), khiến luồng shunt Trái - Phải càng tràn ngập dữ dội lên phổi gây ngập lụt phù phổi và sốc tim.<br><br><b>💡 Lưu ý:</b><br>Chỉ cho thở oxy khi có giảm oxy máu thực sự và duy trì SpO₂ mục tiêu vừa phải.",
+      "extra": "Mục 10 (Cạm bẫy 7) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Cam-bay",
+        "Oxy-lieu-cao"
+      ]
+    },
+    {
+      "id": "PED43-E54",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cạm bẫy lâm sàng",
+      "section": "E10",
+      "front": "Cạm bẫy lâm sàng 9: Nhầm lẫn tiếng thổi tâm thu trong Fallot là do dòng máu qua lỗ VSD dẫn đến sai lầm gì trong theo dõi cơn tím?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thực chất tiếng thổi là do hẹp đường ra thất phải. Trong cơn tím, tiếng thổi nhỏ đi báo hiệu co thắt phễu nặng cắt máu lên phổi; nếu lầm tưởng tiếng thổi giảm là bệnh tự thuyên giảm sẽ bỏ lỡ thời cơ cấp cứu tối khẩn.<br><br><b>💡 Lưu ý:</b><br>Tiếng thổi nhỏ đi ở trẻ Fallot tím tái là dấu hiệu báo động đỏ.",
+      "extra": "Mục 10 (Cạm bẫy 9) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Cam-bay",
+        "Tieng-thoi-Fallot"
+      ]
+    },
+    {
+      "id": "PED43-E55",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cạm bẫy lâm sàng",
+      "section": "E10",
+      "front": "Cạm bẫy lâm sàng 10: Hậu quả của việc trì hoãn phẫu thuật thông liên thất lớn có tăng áp phổi quá 9 tháng tuổi là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Các mạch máu phổi bị phì đại và xơ hóa lòng mạch cố định (Hội chứng Eisenmenger); trẻ mất vĩnh viễn cơ hội phẫu thuật sửa chữa và phải đối mặt với suy tim, tím tái và tử vong sớm.<br><br><b>💡 Lưu ý:</b><br>Phải chủ động chuyển phẫu thuật tim trước mốc 6–9 tháng tuổi.",
+      "extra": "Mục 10 (Cạm bẫy 10) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Cam-bay",
+        "Tri-hoan-mo-VSD"
+      ]
+    },
+    {
+      "id": "PED43-E56",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Checkpoint tư duy",
+      "section": "E11",
+      "front": "Checkpoint 1: Vì sao trẻ mắc tứ chứng Fallot có bản năng tự ngồi xổm khi đang chơi đùa bị mệt?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ngồi xổm gập các động mạch đùi và động mạch chậu, làm tăng sức cản mạch hệ thống (SVR) đột ngột, ép dòng máu từ thất phải vượt qua phễu hẹp lên động mạch phổi để tăng lượng oxy máu trao đổi.<br><br><b>💡 Lưu ý:</b><br>Trẻ tự học được phản xạ này từ khoảng 1–2 tuổi khi bắt đầu biết đi.",
+      "extra": "Mục 11 (Checkpoint 1) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Checkpoint",
+        "Ngoi-xom"
+      ]
+    },
+    {
+      "id": "PED43-E57",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Checkpoint tư duy",
+      "section": "E11",
+      "front": "Checkpoint 2: Dấu hiệu điện tâm đồ nào giúp phân biệt chắc chắn giữa ASD lỗ tiên phát và ASD lỗ thứ phát tại giường?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>ASD lỗ thứ phát có trục phải và dày thất phải; ASD lỗ tiên phát có trục trái (hoặc trục vô định) và khử cực ngược chiều kim đồng hồ do khuyết gối nội tâm mạc làm lệch đường dẫn truyền.<br><br><b>💡 Lưu ý:</b><br>Nhìn trục điện tim trên chuyển đạo DII, DIII, aVF giúp phân định thể giải phẫu ngay lập tức.",
+      "extra": "Mục 11 (Checkpoint 2) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Checkpoint",
+        "ECG-ASD"
+      ]
+    },
+    {
+      "id": "PED43-E58",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Checkpoint tư duy",
+      "section": "E11",
+      "front": "Checkpoint 3: Hai đặc điểm thăm khám tại giường giúp phân biệt chính xác giữa tím trung ương và tím ngoại vi là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Vị trí: Tím trung ương thấy ở niêm mạc miệng, lưỡi và kết mạc mắt; tím ngoại vi chỉ khu trú ở đầu ngón tay/chân lạnh. 2) SpO₂: Tím trung ương có SpO₂ giảm; tím ngoại vi SpO₂ ở mô ấm bình thường.<br><br><b>💡 Lưu ý:</b><br>Luôn quan sát niêm mạc lưỡi và mặt trong má để tìm tím trung ương.",
+      "extra": "Mục 11 (Checkpoint 3) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Checkpoint",
+        "Tim-trung-uong-ngoai-vi"
+      ]
+    },
+    {
+      "id": "PED43-E59",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Checkpoint tư duy",
+      "section": "E11",
+      "front": "Checkpoint 4: Giải thích vì sao trong bệnh hẹp eo động mạch chủ huyết áp chi trên lại cao hơn huyết áp chi dưới?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vị trí eo hẹp nằm sau chỗ xuất phát của động mạch dưới đòn trái nuôi chi trên: chi trên nhận máu trước chỗ hẹp với áp lực cản cao, trong khi chi dưới nhận máu sau chỗ hẹp bị giảm áp lực tưới máu nghiêm trọng.<br><br><b>💡 Lưu ý:</b><br>Chênh lệch huyết áp tâm thu tay - chân > 20 mmHg là tiêu chuẩn chẩn đoán quan trọng.",
+      "extra": "Mục 11 (Checkpoint 4) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Checkpoint",
+        "Chenh-lech-HA-CoA"
+      ]
+    },
+    {
+      "id": "PED43-E60",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Ca lâm sàng",
+      "section": "E12",
+      "front": "Case 1: Trẻ 10 tháng Fallot sau khóc thét đột ngột thở nhanh 68 l/p, môi tím đen, lơ mơ, tiếng thổi tâm thu mờ nhạt — Chẩn đoán và 2 việc cần làm ngay lập tức tại giường là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Chẩn đoán: Cơn tím thiếu oxy cấp (Tet spell). Xử trí tức thì: 1) Lập tức đặt trẻ ở tư thế ngực gối (gấp hai đùi sát vào ngực); 2) Cho thở oxy 100% qua mặt nạ có túi dự trữ.<br><br><b>💡 Lưu ý:</b><br>Thực hiện hai động tác này trong 30 giây đầu tiên trước khi tiêm thuốc.",
+      "extra": "Mục 12 (Case 1) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Case-study",
+        "Tet-spell-cap-cuu"
+      ]
+    },
+    {
+      "id": "PED43-E61",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Ca lâm sàng",
+      "section": "E12",
+      "front": "Case 1: Vì sao sau khi tiêm Morphine và truyền dịch cấp cứu cơn tím Fallot thành công, tiếng thổi tâm thu lại nghe to rõ trở lại?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Morphine và bù dịch làm an thần, giảm giao cảm và giãn cơ phễu đường ra thất phải; dòng máu được tái lập lưu thông mạnh mẽ từ thất phải qua chỗ phễu lên động mạch phổi tạo lại tiếng thổi tâm thu.<br><br><b>💡 Lưu ý:</b><br>Tiếng thổi rõ trở lại là bằng chứng huyết động chứng minh cơn co thắt phễu đã được giải tỏa.",
+      "extra": "Mục 12 (Case 1) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Case-study",
+        "Giai-toa-pheu"
+      ]
+    },
+    {
+      "id": "PED43-E62",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Ca lâm sàng",
+      "section": "E12",
+      "front": "Case 2: Trẻ sơ sinh 29 tuần, 1200g, thở CPAP ngày thứ 6 xuất hiện ngừng thở, phụ thuộc oxy tăng, mạch bẹn nảy mạnh chìm sâu, thổi liên tục dưới đòn trái — Chẩn đoán xác định là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Còn ống động mạch lớn có ý nghĩa huyết động (hsPDA - Hemodynamically Significant PDA) ở trẻ sơ sinh non tháng.<br><br><b>💡 Lưu ý:</b><br>Mạch nảy mạnh chìm sâu và hiệu số huyết áp rộng là dấu hiệu lâm sàng đặc hiệu.",
+      "extra": "Mục 12 (Case 2) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Case-study",
+        "PDA-non-thang"
+      ]
+    },
+    {
+      "id": "PED43-E63",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Ca lâm sàng",
+      "section": "E12",
+      "front": "Case 2: Phác đồ xử trí đóng ống động mạch bằng thuốc ở trẻ sơ sinh non tháng 29 tuần này gồm những bước gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Hạn chế dịch nhập, tăng áp lực dương CPAP chống phù phổi; chỉ định Ibuprofen tĩnh mạch liệu trình 3 liều (10 - 5 - 5 mg/kg cách nhau 24 giờ); theo dõi sát chức năng thận và xuất huyết tiêu hóa.<br><br><b>💡 Lưu ý:</b><br>Sau liệu trình siêu âm Doppler kiểm tra mức độ đóng ống.",
+      "extra": "Mục 12 (Case 2) RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Case-study",
+        "Ibuprofen-protocol"
+      ]
+    },
+    {
+      "id": "PED43-E64",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Tips thực hành",
+      "section": "E13",
+      "front": "Phản xạ xử trí tức thì đầu tiên của điều dưỡng khi phát hiện trẻ Fallot khóc quấy xuất hiện cơn tím tái đậm là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Lập tức gập chặt hai đầu gối trẻ áp sát vào ngực (tư thế ngực gối) và gọi hỗ trợ, TUYỆT ĐỐI KHÔNG bỏ đi tìm thuốc hay loay hoay lấy ven trước.<br><br><b>💡 Lưu ý:</b><br>Động tác gập gối làm tăng SVR tức thì cắt cơn thiếu oxy não.",
+      "extra": "Tip 1 & Tip 8 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Tips-thuc-hanh",
+        "Dieu-duong"
+      ]
+    },
+    {
+      "id": "PED43-E65",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Tips thực hành",
+      "section": "E13",
+      "front": "Tại sao cần đo huyết áp đồng thời ở cả tay phải và một trong hai chân ở mọi trẻ tăng huyết áp hoặc suy tim?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Để không bỏ sót bệnh hẹp eo động mạch chủ (CoA) — bệnh lý gây tăng huyết áp chi trên nhưng tụt huyết áp chi dưới với chênh lệch > 20 mmHg.<br><br><b>💡 Lưu ý:</b><br>Đo huyết áp một tay rất dễ chẩn đoán nhầm thành tăng huyết áp vô căn.",
+      "extra": "Tip 2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Tips-thuc-hanh",
+        "Do-HA-4-chi"
+      ]
+    },
+    {
+      "id": "PED43-E66",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Tips thực hành",
+      "section": "E13",
+      "front": "Tại sao đối với trẻ mắc tứ chứng Fallot phải tuyệt đối tránh để trẻ bị mất nước và sốt cao kéo dài?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ Fallot có đa hồng cầu thứ phát; mất nước sẽ làm máu bị cô đặc dữ dội, tăng độ nhớt máu vọt lên gây biến chứng tắc mạch máu não và áp xe não nguy hiểm.<br><br><b>💡 Lưu ý:</b><br>Khi trẻ sốt hoặc tiêu chảy phải bù dịch đầy đủ và theo dõi Hematocrit sát.",
+      "extra": "Tip 9 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Tips-thuc-hanh",
+        "Tac-mach-nao"
+      ]
+    },
+    {
+      "id": "PED43-E67",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Tips thực hành",
+      "section": "E13",
+      "front": "Hướng dẫn chăm sóc nuôi dưỡng cho trẻ mắc tim bẩm sinh có luồng shunt Trái - Phải lớn gồm những nguyên tắc gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Chia nhỏ cữ bú làm nhiều bữa, cho bú ở tư thế nửa nằm nửa ngồi để giảm công thở, dùng sữa có đậm độ năng lượng cao (120–150 kcal/kg/ngày) và không ép trẻ bú kéo dài quá 30 phút mỗi cữ.<br><br><b>💡 Lưu ý:</b><br>Bú kéo dài làm trẻ tiêu hao năng lượng nhiều hơn năng lượng nạp vào.",
+      "extra": "Tip 11 & Khuyến cáo dinh dưỡng RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Tips-thuc-hanh",
+        "Dinh-duong"
+      ]
+    },
+    {
+      "id": "PED43-E68",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Tiêu chuẩn xuất viện",
+      "section": "E14",
+      "front": "5 tiêu chuẩn xuất viện an toàn cho một bệnh nhi tim bẩm sinh sau đợt điều trị nội khoa suy tim hoặc cơn tím là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ bú tốt, không khó thở khi ăn, tăng cân ổn định; 2) Triệu chứng suy tim được kiểm soát bằng thuốc uống > 48 giờ; 3) SpO₂ và huyết động ổn định theo bệnh; 4) Gia đình thành thạo kỹ năng xử trí cơn tím tại nhà; 5) Có kế hoạch can thiệp/phẫu thuật cụ thể.<br><br><b>💡 Lưu ý:</b><br>Đảm bảo an toàn tuyệt đối trước khi cho trẻ về cộng đồng.",
+      "extra": "Mục 14.2 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Xuat-vien-an-toan"
+      ]
+    },
+    {
+      "id": "PED43-E69",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Phòng ngừa viêm nội tâm mạc",
+      "section": "E14",
+      "front": "Ba biện pháp cốt lõi phòng ngừa viêm nội tâm mạc nhiễm khuẩn (IE) ở trẻ mắc tim bẩm sinh là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Vệ sinh răng miệng hàng ngày cẩn thận và khám nha khoa định kỳ; 2) Điều trị triệt để các ổ nhiễm trùng ngoài da và mô mềm; 3) Dùng kháng sinh dự phòng trước các can thiệp nha khoa xâm lấn ở đối tượng nguy cơ cao.<br><br><b>💡 Lưu ý:</b><br>Viêm nội tâm mạc là biến chứng nhiễm trùng đe dọa tính mạng người bệnh tim bẩm sinh.",
+      "extra": "Mục 14 & Tip 10 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Phong-IE"
+      ]
+    },
+    {
+      "id": "PED43-E70",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Tóm tắt xử trí",
+      "section": "E14",
+      "text": "[EBM] Tóm tắt 5 bước xử trí cơn tím Fallot tại giường theo thứ tự ưu tiên: 1) {{c1::Tư thế ngực gối}} → 2) {{c1::Thở oxy}} → 3) {{c1::Morphine}} → 4) {{c1::Bù dịch đẳng trương}} → 5) {{c1::Propranolol TM chậm}}.",
+      "extra": "Mục 14.1 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Tom-tat",
+        "Tet-spell"
+      ]
+    },
+    {
+      "id": "PED43-E71",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Dinh dưỡng tim mạch",
+      "section": "E14",
+      "text": "[EBM] Nhu cầu năng lượng ở trẻ tim bẩm sinh có shunt Trái - Phải lớn tăng cao do tăng công hô hấp và tuần hoàn, cần cung cấp chế độ ăn đạt {{c1::120 – 150 kcal/kg/ngày}}.",
+      "extra": "Mục 0.1 & Mục 14 RELEASE.",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Dinh-duong"
+      ]
+    },
+    {
+      "id": "PED43-E72",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Bằng chứng y học",
+      "section": "E15",
+      "text": "[EBM] Văn bản hướng dẫn thực hành lâm sàng toàn diện năm 2025 của ACC/AHA về quản lý tim bẩm sinh ở người trưởng thành (ACHD) được công bố với mã định danh PubMed là {{c1::PMID 41411480}}.",
+      "extra": "Mục 15 RELEASE (ACC/AHA Guideline 2025).",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Bang-chung",
+        "PMID-41411480"
+      ]
+    },
+    {
+      "id": "PED43-E73",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Bằng chứng y học",
+      "section": "E15",
+      "text": "[EBM] Bằng chứng mức độ I từ tổng quan hệ thống Cochrane khẳng định Ibuprofen có hiệu quả đóng ống động mạch tương đương Indomethacin ở trẻ non tháng mang mã định danh {{c1::PMID 30264852}}.",
+      "extra": "Mục 15 RELEASE (Ohlsson et al., Cochrane 2018).",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Bang-chung",
+        "PMID-30264852"
+      ]
+    },
+    {
+      "id": "PED43-E74",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Bằng chứng y học",
+      "section": "E15",
+      "text": "[EBM] Hai công trình kinh điển về giải phẫu và tiến bộ phẫu thuật sửa chữa toàn bộ Fallot mang tính bước ngoặt trên Orphanet và The Lancet lần lượt là {{c1::PMID 19144126}} và {{c1::PMID 19683809}}.",
+      "extra": "Mục 15 RELEASE (Bailliard 2009 & Apitz 2009).",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Bang-chung",
+        "PMID-19144126",
+        "PMID-19683809"
+      ]
+    },
+    {
+      "id": "PED43-E75",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Bằng chứng y học",
+      "section": "E15",
+      "text": "[EBM] Nghiên cứu dịch tễ kinh điển của Hoffman & Kaplan trên JACC năm 2002 xác định tỷ lệ tim bẩm sinh nặng khoảng 8/1.000 trẻ sinh sống có mã định danh là {{c1::PMID 12084585}}.",
+      "extra": "Mục 15 RELEASE (Hoffman & Kaplan, JACC 2002).",
+      "tags": [
+        "PED-43",
+        "EBM",
+        "Bang-chung",
+        "PMID-12084585"
+      ]
+    }
+  ]
+}

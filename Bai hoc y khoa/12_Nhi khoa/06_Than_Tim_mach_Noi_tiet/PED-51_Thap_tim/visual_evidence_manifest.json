@@ -1,0 +1,128 @@
+{
+  "lesson_id": "PED-51",
+  "generated_at": "2026-09-28T11:21:21Z",
+  "artifacts": [
+    {
+      "claim_ids": [
+        "C-001",
+        "C-002",
+        "C-003",
+        "C-004",
+        "C-005",
+        "C-006",
+        "C-007",
+        "C-008"
+      ],
+      "pmid": null,
+      "type": "table",
+      "file_path": "outputs/visual_evidence/aus_table63_jones.png",
+      "sha256": "84b8324c223232baf453cab91254303a1408890940385f64f3c4ae87974ae94f",
+      "page_number": 83,
+      "source_document": "sources/aus_2025_arf_rhd_guideline.pdf",
+      "caption": "Aus Table 6.3 Australian criteria for ARF diagnosis (Jones)"
+    },
+    {
+      "claim_ids": [
+        "C-024"
+      ],
+      "pmid": null,
+      "type": "table",
+      "file_path": "outputs/visual_evidence/aus_table102_regimens.png",
+      "sha256": "d6e8449b4ae45df27300e55f74eadb3a41424812743411f92196aa627c15b36b",
+      "page_number": 170,
+      "source_document": "sources/aus_2025_arf_rhd_guideline.pdf",
+      "caption": "Aus Table 10.2 Secondary prophylaxis regimens"
+    },
+    {
+      "claim_ids": [
+        "C-025"
+      ],
+      "pmid": null,
+      "type": "table",
+      "file_path": "outputs/visual_evidence/aus_table103_durations.png",
+      "sha256": "bbe9dc7165e94671ac756ce454300f56c142739e10b50d1fec28d654c8e80bdb",
+      "page_number": 172,
+      "source_document": "sources/aus_2025_arf_rhd_guideline.pdf",
+      "caption": "Aus Table 10.3 Prophylaxis durations"
+    },
+    {
+      "claim_ids": [
+        "C-026"
+      ],
+      "pmid": null,
+      "type": "table",
+      "file_path": "outputs/visual_evidence/aus_table53_gas.png",
+      "sha256": "d18e7abf65276248d0f70035d6dec15e6b89461113a48818c4da4d72b9f56c5e",
+      "page_number": 69,
+      "source_document": "sources/aus_2025_arf_rhd_guideline.pdf",
+      "caption": "Aus Table 5.3 Strep A sore throat treatment"
+    },
+    {
+      "claim_ids": [
+        "C-027",
+        "C-028",
+        "C-029",
+        "C-030"
+      ],
+      "pmid": null,
+      "type": "table",
+      "file_path": "outputs/visual_evidence/aus_table71a_meds.png",
+      "sha256": "a01e42f6be8370e85f392279486d039ea497901f09ec0baf390ae04c4f9ee94e",
+      "page_number": 111,
+      "source_document": "sources/aus_2025_arf_rhd_guideline.pdf",
+      "caption": "Aus Table 7.1 ARF medications (eradication/analgesia/arthritis/chorea)"
+    },
+    {
+      "claim_ids": [
+        "C-031",
+        "C-032"
+      ],
+      "pmid": null,
+      "type": "table",
+      "file_path": "outputs/visual_evidence/aus_table71b_carditis.png",
+      "sha256": "8e29b9f96c6ae881a860ffda1a5db5f95145e515db8c8f9105e724f845fb5f6d",
+      "page_number": 112,
+      "source_document": "sources/aus_2025_arf_rhd_guideline.pdf",
+      "caption": "Aus Table 7.1 ARF medications (carditis/immunomodulatory)"
+    },
+    {
+      "claim_ids": [
+        "C-012",
+        "C-013"
+      ],
+      "pmid": null,
+      "type": "text",
+      "file_path": "outputs/visual_evidence/who_echo_detection.png",
+      "sha256": "0c299f377cf528ecc3815ddeddc3640f80256d1e5a646c1017101a3b77a410ec",
+      "page_number": 20,
+      "source_document": "sources/who_2024_rf_rhd_guideline.pdf",
+      "caption": "WHO echo gold standard + detection rates"
+    },
+    {
+      "claim_ids": [
+        "C-023"
+      ],
+      "pmid": null,
+      "type": "text",
+      "file_path": "outputs/visual_evidence/who_bpg_safety.png",
+      "sha256": "88e2422de40e066e7d6195807c9b617d7adc26d9a91eee8b0e01e8eb3376adb4",
+      "page_number": 25,
+      "source_document": "sources/who_2024_rf_rhd_guideline.pdf",
+      "caption": "WHO BPG safety + adherence"
+    },
+    {
+      "claim_ids": [
+        "C-014",
+        "C-015",
+        "C-016"
+      ],
+      "pmid": "37914787",
+      "type": "figure",
+      "file_path": "outputs/visual_evidence/whf_doppler_criteria.png",
+      "sha256": "c81d447c1fa04a831a1158be28e3679f8bac6a73fe9cacdba353947c38b85a09",
+      "page_number": 4,
+      "source_document": "sources/whf_2023_echo_rhd.pdf",
+      "caption": "WHF 2023 confirmatory Doppler criteria + staging"
+    }
+  ]
+}

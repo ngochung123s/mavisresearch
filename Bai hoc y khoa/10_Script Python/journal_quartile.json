@@ -533,6 +533,18 @@
       "field": "Pediatrics / Hospital Medicine",
       "abbr": "J Hosp Med",
       "society": "Society of Hospital Medicine"
+    },
+    "Nature Reviews Cardiology": {
+      "if": 38.0,
+      "field": "Cardiology",
+      "abbr": "Nat Rev Cardiol",
+      "notes": "Top cardiology review journal, WHF guidelines 2024"
+    },
+    "Nature Reviews Disease Primers": {
+      "if": 65.0,
+      "field": "General Medicine / Disease Primers",
+      "abbr": "Nat Rev Dis Primers",
+      "notes": "Flagship Nature Disease Primers, Carapetis 2016"
     }
   },
   "Q2": {
@@ -1260,7 +1272,11 @@
     "journal of hospital medicine": "Journal of Hospital Medicine",
     "Journal of Hospital Medicine": "Journal of Hospital Medicine",
     "J Hosp Med": "Journal of Hospital Medicine",
-    "j hosp med": "Journal of Hospital Medicine"
+    "j hosp med": "Journal of Hospital Medicine",
+    "nature reviews. cardiology": "Nature Reviews Cardiology",
+    "nature reviews. disease primers": "Nature Reviews Disease Primers",
+    "nat rev cardiol": "Nature Reviews Cardiology",
+    "nat rev dis primers": "Nature Reviews Disease Primers"
   },
   "aliases": {
     "Obstet Gynecol": "Obstetrics and Gynecology",

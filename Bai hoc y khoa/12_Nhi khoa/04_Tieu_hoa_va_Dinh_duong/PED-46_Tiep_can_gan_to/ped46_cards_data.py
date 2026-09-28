@@ -1,0 +1,1080 @@
+# -*- coding: utf-8 -*-
+"""PED-46 MASTER deck cards data: Track 1 barem YTB + Track 2 EBM.
+Fields: id, track (barem_goc|ebm), type (basic|cloze), category, section,
+front/back (basic) or text (cloze), extra, tags.
+Section codes B0-B7 (PEDYTB) + E0-E9 (RELEASE lesson). Coverage gate requires >=1 card per section.
+"""
+
+cards_data = [
+    # =========================================================================
+    # TRACK 1: BAREM GOC Y THAI BINH — B0 MUC TIEU HOC TAP
+    # =========================================================================
+    {
+        "id": "PED46-B01",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Mục tiêu bài học",
+        "section": "B0",
+        "front": "3 mục tiêu học tập của bài Gan to theo giáo trình Nhi khoa Y Thái Bình là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trình bày được cách thăm khám bệnh nhân gan to;<br>2) Đưa ra các chẩn đoán tiềm năng một bệnh nhân gan to;<br>3) Chỉ định được các thăm dò cận lâm sàng ở bệnh nhân gan to.<br><br><b>💡 Lưu ý:</b><br>Bám sát 3 mục tiêu này khi làm bài thi tự luận để bao quát đủ điểm.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, MỤC TIÊU HỌC TẬP (trang 37).",
+        "tags": ["PED-46", "Barem-goc", "Muc-tieu"]
+    },
+    {
+        "id": "PED46-B02",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Mục tiêu bài học",
+        "section": "B0",
+        "text": "[Barem gốc] Bài học Gan to ở trẻ em gồm 3 mục tiêu: cách {{c1::thăm khám}}, đưa ra các {{c1::chẩn đoán tiềm năng}}, và chỉ định các {{c1::thăm dò cận lâm sàng}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình (trang 37).",
+        "tags": ["PED-46", "Barem-goc", "Muc-tieu"]
+    },
+
+    # =========================================================================
+    # TRACK 1: BAREM GOC Y THAI BINH — B1 DINH NGHIA & PHAN BIET GAN SA
+    # =========================================================================
+    {
+        "id": "PED46-B03",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Khám lâm sàng",
+        "section": "B1",
+        "text": "[Barem gốc] Kích thước gan trên lâm sàng được đánh giá bằng cách {{c1::gõ}} để xác định bờ trên và {{c1::sờ nắn}} để xác định bờ dưới.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục I (trang 37).",
+        "tags": ["PED-46", "Barem-goc", "Kham-lam-sang"]
+    },
+    {
+        "id": "PED46-B04",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bờ gan bình thường",
+        "section": "B1",
+        "text": "[Barem gốc] Bình thường, bờ trên gan gõ thấy ở {{c1::khoang liên sườn 5}} trên đường giữa xương đòn phải.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục I (trang 37).",
+        "tags": ["PED-46", "Barem-goc", "Bo-gan"]
+    },
+    {
+        "id": "PED46-B05",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Bờ gan bình thường",
+        "section": "B1",
+        "text": "[Barem gốc] Bờ dưới của gan bình thường sờ thấy dưới bờ sườn phải không quá {{c1::2 cm}} đối với trẻ nhỏ và không quá {{c1::1 cm}} với trẻ lớn.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục I (trang 37).",
+        "tags": ["PED-46", "Barem-goc", "Bo-gan"]
+    },
+    {
+        "id": "PED46-B06",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Kích thước theo tuổi",
+        "section": "B1",
+        "text": "[Barem gốc] Kích thước trung bình của gan: trẻ 1 tuần tuổi là {{c1::4,5 – 5 cm}}, trẻ nhỏ là {{c1::6 – 7 cm}}, trẻ lúc 12 tuổi là {{c1::7 – 8 cm}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục I (trang 37).",
+        "tags": ["PED-46", "Barem-goc", "Kich-thuoc"]
+    },
+    {
+        "id": "PED46-B07",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Công thức Nelson 1996",
+        "section": "B1",
+        "text": "[Barem gốc] Ở trẻ trai trên 12 tuổi, kích thước gan (cm) = {{c1::0,032}} × W (pound) + {{c1::0,18}} × H (inch) - 7,86 (theo Nelson 1996).",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục I (trang 37). W: cân nặng (pound), H: chiều cao (inch).",
+        "tags": ["PED-46", "Barem-goc", "Nelson-1996"]
+    },
+    {
+        "id": "PED46-B08",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Công thức Nelson 1996",
+        "section": "B1",
+        "text": "[Barem gốc] Ở trẻ gái trên 12 tuổi, kích thước gan (cm) = {{c1::0,027}} × W (pound) + {{c1::0,22}} × H (inch) - 10,75 (theo Nelson 1996).",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục I (trang 37). W: cân nặng (pound), H: chiều cao (inch).",
+        "tags": ["PED-46", "Barem-goc", "Nelson-1996"]
+    },
+    {
+        "id": "PED46-B09",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Phân biệt gan sa",
+        "section": "B1",
+        "front": "Các trường hợp nào có thể gây lầm là gan to do gan bị sa xuống theo sách giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tràn khí màng phổi, tăng thâm nhiễm ở phổi;<br>2) Khối u ở sau phúc mạc, áp xe dưới cơ hoành.<br><br><b>💡 Lưu ý:</b><br>Khi gan sa, bờ trên gõ đục bị hạ thấp nhưng chiều cao gan không tăng.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục I Chẩn đoán phân biệt (trang 37).",
+        "tags": ["PED-46", "Barem-goc", "Gan-sa"]
+    },
+    {
+        "id": "PED46-B10",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Phân biệt khối u lân cận",
+        "section": "B1",
+        "text": "[Barem gốc] Các cấu trúc giải phẫu và u lân cận dễ lầm với gan to gồm: {{c1::thuỳ phải kéo dài (thuỳ Riedel)}}, {{c1::túi mật lớn}}, u dạ dày, u đại tràng góc gan, thận phải to, hạch mạc treo, hoặc u/viêm cơ thẳng bụng hạ sườn phải.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục I Chẩn đoán phân biệt (trang 37).",
+        "tags": ["PED-46", "Barem-goc", "Chan-doan-phan-biet"]
+    },
+
+    # =========================================================================
+    # TRACK 1: BAREM GOC Y THAI BINH — B2 NGUYEN NHAN THEO 6 CO CHE
+    # =========================================================================
+    {
+        "id": "PED46-B11",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "6 cơ chế bệnh sinh",
+        "section": "B2",
+        "text": "[Barem gốc] Phân loại nguyên nhân gan to theo cơ chế bệnh sinh gồm 6 nhóm: {{c1::viêm nhiễm}}, {{c1::ứ chất (storage)}}, {{c1::thâm nhiễm}}, {{c1::tăng kích thước khoang mạch}}, {{c1::ứ mật}}, và {{c1::nội tại gan}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, Bảng phân loại mục II (trang 38).",
+        "tags": ["PED-46", "Barem-goc", "Co-che"]
+    },
+    {
+        "id": "PED46-B12",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Cơ chế viêm nhiễm",
+        "section": "B2",
+        "text": "[Barem gốc] Nhóm nguyên nhân viêm nhiễm gây gan to gồm: viêm gan virus A, B; áp xe gan (vi khuẩn, amip); sán gan, {{c1::Schistosoma}}; gan nhiễm độc do thuốc; tự miễn ({{c1::viêm gan mạn, Sarcoid, SLE, viêm đường mật xơ hoá}}).",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, Bảng mục II (trang 38). Bản gốc viết Schistosomia.",
+        "tags": ["PED-46", "Barem-goc", "Viem-nhiem"]
+    },
+    {
+        "id": "PED46-B13",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Cơ chế ứ chất",
+        "section": "B2",
+        "text": "[Barem gốc] Nhóm nguyên nhân ứ chất (storage) gây gan to gồm: thoái hoá mỡ (suy dinh dưỡng, hội chứng Reye, ĐTĐ); bệnh Gaucher, Niemann-Pick, Wolman; bệnh ứ glycogen, Beckwith; thiếu alpha 1-antitrypsin, bệnh {{c1::Wilson}}, ứ sắt, thoái hoá tinh bột ({{c1::amyloidosis}}).",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, Bảng mục II (trang 38). Bản gốc viết hội chứng Woman.",
+        "tags": ["PED-46", "Barem-goc", "U-chat"]
+    },
+    {
+        "id": "PED46-B14",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Cơ chế thâm nhiễm",
+        "section": "B2",
+        "text": "[Barem gốc] Nhóm nguyên nhân thâm nhiễm gây gan to: u tiên phát gồm u nguyên bào, carcinom tế bào gan, u mạch, quá sản hạt ổ; u thứ phát hay di căn gồm {{c1::leukemia}}, {{c1::u lympho}}, tăng mô bào, u nguyên bào thần kinh, u Wilms.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, Bảng mục II (trang 38).",
+        "tags": ["PED-46", "Barem-goc", "Tham-nhiem"]
+    },
+    {
+        "id": "PED46-B15",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Cơ chế mạch máu",
+        "section": "B2",
+        "text": "[Barem gốc] Nhóm tăng kích thước khoang mạch: tắc tĩnh mạch trong gan gồm bệnh tắc tĩnh mạch, huyết khối tĩnh mạch gan ({{c1::hội chứng Budd-Chiari}}); trên gan gồm {{c1::suy tim sung huyết}}, bệnh màng ngoài tim, viêm màng ngoài tim co thắt.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, Bảng mục II (trang 38).",
+        "tags": ["PED-46", "Barem-goc", "Khoang-mach"]
+    },
+    {
+        "id": "PED46-B16",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Cơ chế ứ mật",
+        "section": "B2",
+        "text": "[Barem gốc] Nhóm nguyên nhân ứ mật gây gan to trong sách gồm: theo đường mật, {{c1::tắc mật ngoài gan}}, và {{c1::hội chứng Caroli}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, Bảng mục II (trang 38).",
+        "tags": ["PED-46", "Barem-goc", "U-mat"]
+    },
+    {
+        "id": "PED46-B17",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Cơ chế nội tại gan",
+        "section": "B2",
+        "text": "[Barem gốc] Nhóm nguyên nhân nội tại gan gây gan to gồm: {{c1::xơ gan}}, {{c1::xơ hoá gan bẩm sinh}}, và {{c1::đa nang ở gan và thận}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, Bảng mục II (trang 38).",
+        "tags": ["PED-46", "Barem-goc", "Noi-tai-gan"]
+    },
+
+    # =========================================================================
+    # TRACK 1: BAREM GOC Y THAI BINH — B3 HOI BENH & KHAM THUC THE TAI GAN
+    # =========================================================================
+    {
+        "id": "PED46-B18",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Tiếp cận chẩn đoán",
+        "section": "B3",
+        "text": "[Barem gốc] Trước một trẻ bị gan to, trước tiên nên tìm các nguyên nhân {{c1::tại gan}}, đặc biệt là các nguyên nhân do {{c1::viêm nhiễm}}, sau đó mới tìm các nguyên nhân khác.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III (trang 39).",
+        "tags": ["PED-46", "Barem-goc", "Tiep-can"]
+    },
+    {
+        "id": "PED46-B19",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hỏi bệnh",
+        "section": "B3",
+        "text": "[Barem gốc] Khi hỏi bệnh trẻ gan to, cần khai thác biểu hiện tắc mật ({{c1::phân bạc màu, nước tiểu sẫm, vàng da sẫm}}), suy gan ({{c1::xuất huyết da/tiêu hoá, phù}}), và tiền sử giun chui ống mật, lỵ, dùng thuốc.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.1 (trang 39).",
+        "tags": ["PED-46", "Barem-goc", "Hoi-benh"]
+    },
+    {
+        "id": "PED46-B20",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Khám thực thể tại gan",
+        "section": "B3",
+        "text": "[Barem gốc] Khám thực thể tại gan cần đánh giá 6 yếu tố: mức độ to, mật độ ({{c1::chắc, cứng hay mềm}}), bờ gan ({{c1::tù hay sắc, đều hay không}}), mặt gan ({{c1::nhẵn hay u cục}}), đau khi nắn gõ, và nghe tiếng thổi/cọ sát.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.1 (trang 39).",
+        "tags": ["PED-46", "Barem-goc", "Kham-thuc-the"]
+    },
+    {
+        "id": "PED46-B21",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Vị trí đặc biệt của gan",
+        "section": "B3",
+        "front": "3 vị trí đặc biệt của gan cần chú ý khi khám và ảnh hưởng của chúng đến việc sờ/gõ gan là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Gan nằm chếch dọc bờ sườn: có thể sờ thấy bờ dưới gan phải;<br>2) Gan đổ sau: diện đục gõ nhỏ hơn bình thường;<br>3) Gan đổ trước: diện đục gõ rộng hơn bình thường.<br><br><b>💡 Lưu ý:</b><br>Chỉ dựa vào sờ bờ gan không thể kết luận gan to hay không to.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.1 (trang 39).",
+        "tags": ["PED-46", "Barem-goc", "Vi-tri-gan"]
+    },
+    {
+        "id": "PED46-B22",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Vị trí đặc biệt của gan",
+        "section": "B3",
+        "text": "[Barem gốc] Do tư thế giải phẫu: gan đổ sau làm diện đục {{c1::nhỏ hơn bình thường}}, gan đổ trước làm diện đục {{c1::rộng hơn bình thường}}; do đó chỉ dựa vào sờ bờ gan {{c1::không thể kết luận gan to hay không to}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.1 (trang 39).",
+        "tags": ["PED-46", "Barem-goc", "Vi-tri-gan"]
+    },
+
+    # =========================================================================
+    # TRACK 1: BAREM GOC Y THAI BINH — B4 NGHIEM PHAP DAC BIET
+    # =========================================================================
+    {
+        "id": "PED46-B23",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Nghiệm pháp rung gan",
+        "section": "B4",
+        "text": "[Barem gốc] Nghiệm pháp rung gan: tay trái thầy thuốc áp lên vùng gan, tay phải {{c1::chặt nhẹ}} vào tay trái; dương tính khi người bệnh {{c1::đau}}, thường gặp trong {{c1::áp xe gan}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.2 (trang 40).",
+        "tags": ["PED-46", "Barem-goc", "Rung-gan"]
+    },
+    {
+        "id": "PED46-B24",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Nghiệm pháp ấn kẽ sườn",
+        "section": "B4",
+        "text": "[Barem gốc] Nghiệm pháp ấn kẽ sườn: thầy thuốc dùng ngón tay ấn vào các kẽ sườn vùng trước gan; dương tính khi {{c1::người bệnh đau}}, thường gặp trong {{c1::áp xe gan}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.2 (trang 40).",
+        "tags": ["PED-46", "Barem-goc", "An-ke-suon"]
+    },
+    {
+        "id": "PED46-B25",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Phản hồi gan - TMC",
+        "section": "B4",
+        "text": "[Barem gốc] Nghiệm pháp phản hồi gan - tĩnh mạch cổ (+): áp bàn tay phải vào vùng gan to ấn tăng dần, tĩnh mạch cảnh phải {{c1::nổi rõ dần lên}}, bỏ tay ra thì {{c1::nhỏ đi như cũ}}, gặp trong gan ứ máu do {{c1::suy tim phải}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.2 (trang 40). Khi gan xơ thì nghiệm pháp này âm tính.",
+        "tags": ["PED-46", "Barem-goc", "HJR"]
+    },
+    {
+        "id": "PED46-B26",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Dấu hiệu Murphy",
+        "section": "B4",
+        "text": "[Barem gốc] Nghiệm pháp Murphy: ấn sâu điểm túi mật khi thở ra rồi giữ nguyên; khi hít vào chạm túi mật đau khiến bệnh nhân {{c1::ngừng thở ngay}}; gặp trong {{c1::viêm túi mật xơ teo}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.2 (trang 40).",
+        "tags": ["PED-46", "Barem-goc", "Murphy"]
+    },
+    {
+        "id": "PED46-B27",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Chú ý nghiệm pháp Murphy",
+        "section": "B4",
+        "front": "2 chú ý quan trọng nhất khi làm nghiệm pháp Murphy theo sách giáo trình là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Xác định gan có to không để xác định chính xác vị trí điểm túi mật;<br>2) Chỉ làm khi nhìn thấy túi mật KHÔNG to, vì nếu túi mật to ấn vào có thể gây vỡ túi mật, mật vào ổ bụng gây viêm phúc mạc.<br><br><b>💡 Lưu ý:</b><br>Đây là lỗi thực hành lâm sàng nguy hiểm nếu bỏ qua bước sờ tìm túi mật to trước.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.2 Chú ý (trang 40).",
+        "tags": ["PED-46", "Barem-goc", "Murphy", "Canh-bao"]
+    },
+
+    # =========================================================================
+    # TRACK 1: BAREM GOC Y THAI BINH — B5 TRIEU CHUNG KEM THEO
+    # =========================================================================
+    {
+        "id": "PED46-B28",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Triệu chứng kèm theo",
+        "section": "B5",
+        "text": "[Barem gốc] Gan to kèm theo vàng da, có biểu hiện xuất huyết da hoặc tiêu hoá gợi ý các xét nghiệm về {{c1::suy gan}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.3 (trang 40).",
+        "tags": ["PED-46", "Barem-goc", "Trieu-chung-kem"]
+    },
+    {
+        "id": "PED46-B29",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Triệu chứng kèm theo",
+        "section": "B5",
+        "text": "[Barem gốc] Gan to với lách to, có cổ trướng, tuần hoàn bàng hệ gợi ý tới {{c1::xơ gan}}, có {{c1::tăng áp lực tĩnh mạch cửa}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.3 (trang 40).",
+        "tags": ["PED-46", "Barem-goc", "Trieu-chung-kem"]
+    },
+    {
+        "id": "PED46-B30",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Triệu chứng kèm theo",
+        "section": "B5",
+        "text": "[Barem gốc] Gan to, vàng da sẫm màu, phân bạc màu có trong {{c1::teo hay tắc đường mật}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.3 (trang 40).",
+        "tags": ["PED-46", "Barem-goc", "Trieu-chung-kem"]
+    },
+    {
+        "id": "PED46-B31",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Triệu chứng kèm theo",
+        "section": "B5",
+        "text": "[Barem gốc] Gan to, đau, sốt, có tiền sử giun chui ống mật hay lỵ amip nên nghĩ tới {{c1::áp xe gan}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.3 (trang 41).",
+        "tags": ["PED-46", "Barem-goc", "Trieu-chung-kem"]
+    },
+    {
+        "id": "PED46-B32",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Triệu chứng kèm theo",
+        "section": "B5",
+        "text": "[Barem gốc] Gan to, vàng da, sốt nhiều, ấn vùng túi mật đau cần theo dõi {{c1::viêm đường mật}}; túi mật to cùng với gan to trong tắc mật theo dõi {{c1::u đầu tuỵ}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.3 (trang 41).",
+        "tags": ["PED-46", "Barem-goc", "Trieu-chung-kem"]
+    },
+    {
+        "id": "PED46-B33",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Triệu chứng kèm theo",
+        "section": "B5",
+        "text": "[Barem gốc] Ở trẻ nhỏ, gan to kèm theo lách to, có biểu hiện thần kinh hoặc không, gan to kéo dài, nên tìm các bệnh ứ chất như {{c1::Gaucher, Niemann-Pick}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.3 (trang 41).",
+        "tags": ["PED-46", "Barem-goc", "Trieu-chung-kem"]
+    },
+    {
+        "id": "PED46-B34",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Triệu chứng kèm theo",
+        "section": "B5",
+        "text": "[Barem gốc] Ở trẻ sơ sinh có gan to, lách to, nên tiến hành {{c1::soi đáy mắt}} tìm các biểu hiện viêm màng mạch - võng mạc để phát hiện {{c1::nhiễm khuẩn bẩm sinh}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.3 (trang 41).",
+        "tags": ["PED-46", "Barem-goc", "Trieu-chung-kem"]
+    },
+
+    # =========================================================================
+    # TRACK 1: BAREM GOC Y THAI BINH — B6 CHUAN DOAN THEO THE LAM SANG
+    # =========================================================================
+    {
+        "id": "PED46-B35",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Gan to đơn thuần",
+        "section": "B6",
+        "text": "[Barem gốc] Áp xe gan amip: gan to {{c1::thường không đồng đều}}, mật độ mềm, mặt nhẵn, đau, rung gan và ấn kẽ sườn {{c1::dương tính (+)}}, có dấu hiệu nhiễm trùng.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.4.1 (trang 41).",
+        "tags": ["PED-46", "Barem-goc", "Gan-don-thuan"]
+    },
+    {
+        "id": "PED46-B36",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Gan to đơn thuần",
+        "section": "B6",
+        "text": "[Barem gốc] Gan to do suy tim: gan to {{c1::đều}}, mật độ mềm, mặt nhẵn, {{c1::ấn tức}}, phản hồi gan tĩnh mạch cổ {{c1::dương tính (+)}}, có biểu hiện suy tim.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.4.1 (trang 41).",
+        "tags": ["PED-46", "Barem-goc", "Gan-don-thuan"]
+    },
+    {
+        "id": "PED46-B37",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Gan to đơn thuần",
+        "section": "B6",
+        "text": "[Barem gốc] Ung thư gan nguyên phát: gan to {{c1::không đều, lổn nhổn}}, mật độ {{c1::cứng và lồi lõm}}, không đau, tiến triển nhanh, toàn trạng suy sụp nhanh.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.4.1 (trang 41-42).",
+        "tags": ["PED-46", "Barem-goc", "Gan-don-thuan"]
+    },
+    {
+        "id": "PED46-B38",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Gan to đơn thuần",
+        "section": "B6",
+        "front": "5 bệnh hiếm gặp gây gan to đơn thuần được liệt kê trong giáo trình là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Gan ứ nhiễm (nhiễm mỡ, sắt, đồng);<br>2) Lao gan (to không đều, mềm, dấu hiệu nhiễm lao);<br>3) Giang mai gan (to không đều, cứng, lồi lõm);<br>4) U nang nước của gan (nang gan: to không đều, cứng, tiến triển chậm);<br>5) U lành tính của gan.<br><br><b>💡 Lưu ý:</b><br>Các bệnh này cần sinh thiết hoặc chẩn đoán hình ảnh để xác định.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.4.1 (trang 42).",
+        "tags": ["PED-46", "Barem-goc", "Benh-hiem"]
+    },
+    {
+        "id": "PED46-B39",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Gan to có vàng da",
+        "section": "B6",
+        "text": "[Barem gốc] Gan to có vàng da do viêm gan do virus: gan to {{c1::ít}}, mềm, mặt nhẵn, {{c1::không đau nhiều}} và có dấu hiệu nhiễm khuẩn nhẹ.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.4.2 (trang 42).",
+        "tags": ["PED-46", "Barem-goc", "Gan-vang-da"]
+    },
+    {
+        "id": "PED46-B40",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Gan to có vàng da",
+        "section": "B6",
+        "text": "[Barem gốc] Gan to do u đầu tuỵ - u bóng Vater: gan to đều, mềm, mặt nhẵn, {{c1::không đau, không sốt}}, kèm {{c1::túi mật to}} và dấu hiệu tắc mật rõ.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.4.2 (trang 42). Bản gốc in nhầm thành Vanter.",
+        "tags": ["PED-46", "Barem-goc", "Gan-vang-da"]
+    },
+    {
+        "id": "PED46-B41",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Gan to có vàng da",
+        "section": "B6",
+        "text": "[Barem gốc] Gan to do sỏi mật - áp xe đường mật: gan to đều, mềm và nhẵn, {{c1::đau nhiều khi khám}}, có tiền sử {{c1::cơn đau quặn gan}} và tình trạng nhiễm khuẩn nặng.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.4.2 (trang 42).",
+        "tags": ["PED-46", "Barem-goc", "Gan-vang-da"]
+    },
+    {
+        "id": "PED46-B42",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Gan to có vàng da",
+        "section": "B6",
+        "text": "[Barem gốc] Gan to do sán lá gan: gan to {{c1::ít và đều}}, mềm và nhẵn, có tiền sử {{c1::ăn gỏi cá}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.4.2 (trang 42-43).",
+        "tags": ["PED-46", "Barem-goc", "Gan-vang-da"]
+    },
+    {
+        "id": "PED46-B43",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Gan to kèm lách to",
+        "section": "B6",
+        "text": "[Barem gốc] Hội chứng Banti: gan to ít và đều, chắc và nhẵn, không đau, xơ gan, kèm {{c1::lách to}}, {{c1::cổ trướng}} và {{c1::tuần hoàn bàng hệ}} (tăng áp lực tĩnh mạch cửa).",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.4.3 (trang 43).",
+        "tags": ["PED-46", "Barem-goc", "Gan-lach-to"]
+    },
+    {
+        "id": "PED46-B44",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Gan to kèm lách to",
+        "section": "B6",
+        "text": "[Barem gốc] Bệnh Hanot: gan to đều, chắc và không đau, kèm lách to và {{c1::vàng da từng đợt ngày càng tăng lên}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.4.3 (trang 43).",
+        "tags": ["PED-46", "Barem-goc", "Gan-lach-to"]
+    },
+    {
+        "id": "PED46-B45",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Gan to, lách to, hạch to",
+        "section": "B6",
+        "text": "[Barem gốc] Gan to + lách to + hạch to thường do bệnh hệ thống tạo máu (Leucemie cấp - kinh, Hodgkin, Lymphosarcoma): gan to {{c1::ít và đều}}, mật độ {{c1::mềm nhẵn và không đau}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.2.4.4 (trang 43).",
+        "tags": ["PED-46", "Barem-goc", "Gan-lach-hach"]
+    },
+
+    # =========================================================================
+    # TRACK 1: BAREM GOC Y THAI BINH — B7 CAN LAM SANG THEO SACH
+    # =========================================================================
+    {
+        "id": "PED46-B46",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Xét nghiệm cơ bản",
+        "section": "B7",
+        "text": "[Barem gốc] Xét nghiệm cơ bản ban đầu ở bệnh nhân gan to gồm: {{c1::công thức máu}}; {{c1::bilirubin máu}}; {{c1::sắc tố mật và muối mật nước tiểu}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.3 (trang 43).",
+        "tags": ["PED-46", "Barem-goc", "Can-lam-sang"]
+    },
+    {
+        "id": "PED46-B47",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá tắc mật",
+        "section": "B7",
+        "text": "[Barem gốc] Đánh giá tắc mật / teo đường mật: {{c1::bilirubin trực tiếp}}, {{c1::acid mật}}, lipid và {{c1::phosphatase kiềm}} tăng.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.3 (trang 43).",
+        "tags": ["PED-46", "Barem-goc", "Tac-mat"]
+    },
+    {
+        "id": "PED46-B48",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Đánh giá suy tế bào gan",
+        "section": "B7",
+        "text": "[Barem gốc] Đánh giá suy tế bào gan: thời gian đông máu kéo dài, {{c1::thời gian prothrombin dài}}, {{c1::amoniac máu tăng}}, {{c1::albumin máu giảm}}.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.3 (trang 43).",
+        "tags": ["PED-46", "Barem-goc", "Suy-gan"]
+    },
+    {
+        "id": "PED46-B49",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Hoại tử tế bào gan",
+        "section": "B7",
+        "text": "[Barem gốc] Đánh giá hoại tử tế bào gan: các enzym {{c1::SGOT, SGPT, ALT}} tăng phản ánh mức độ tổn thương tế bào gan.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.3 (trang 43).",
+        "tags": ["PED-46", "Barem-goc", "Men-gan"]
+    },
+    {
+        "id": "PED46-B50",
+        "track": "barem_goc",
+        "type": "cloze",
+        "category": "Dấu ấn sinh học khối u",
+        "section": "B7",
+        "text": "[Barem gốc] Dấu ấn sinh học khối u (Tumor Markers) khi nghĩ tới bệnh ác tính ở gan gồm {{c1::alpha-fetoprotein (AFP)}} tăng và {{c1::kháng nguyên carcinoembryonic (CEA)}} tăng cao.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.3 (trang 43).",
+        "tags": ["PED-46", "Barem-goc", "Tumor-markers"]
+    },
+    {
+        "id": "PED46-B51",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Chẩn đoán hình ảnh và sinh thiết",
+        "section": "B7",
+        "front": "Vai trò của siêu âm, CT và sinh thiết gan ở trẻ gan to theo giáo trình là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Siêu âm và CT: xác định tổn thương u khu trú hay lan toả, định hướng chẩn đoán;<br>2) Sinh thiết gan: thăm dò mô bệnh học để xác định nguyên nhân gây gan to.<br><br><b>💡 Lưu ý:</b><br>Trước khi sinh thiết phải luôn kiểm tra chức năng đông máu để tránh biến chứng chảy máu.",
+        "extra": "Giáo trình Nhi khoa Y Thái Bình, mục III.3 (trang 43-44).",
+        "tags": ["PED-46", "Barem-goc", "Sieu-am-sinh-thiet"]
+    },
+
+    # =========================================================================
+    # TRACK 2: EBM HIEN DAI & LAM SANG — E0 TOM TAT COT LOI 60 GIAY
+    # =========================================================================
+    {
+        "id": "PED46-E01",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Tóm tắt 60 giây",
+        "section": "E0",
+        "front": "5 nguyên tắc cốt lõi trong tiếp cận gan to ở trẻ em theo EBM là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 0: Loại trừ suy gan cấp (PALF: INR > 1.5 có não gan hoặc > 2.0 không não gan);<br>2) Tiêu chuẩn khám: Bờ trên KLS 5, bờ dưới ≤ 2 cm (trẻ nhỏ) hoặc ≤ 1 cm (trẻ lớn);<br>3) Tiêu chuẩn vàng: Siêu âm đo chiều dọc gan đường trung đòn đối chiếu Z-score;<br>4) 6 cơ chế: Viêm nhiễm, Ứ chất, Thâm nhiễm, Ứ máu/mạch, Ứ mật, Nội tại;<br>5) Cầu nối thuật ngữ: Banti ↔ NCPF, Hanot ↔ PSC/AIH/PFIC, Nelson ↔ Siêu âm BSA.<br><br><b>💡 Lưu ý:</b><br>Nắm vững 5 bước này để xử trí lâm sàng và làm bài thi lâm sàng đạt điểm tối đa.",
+        "extra": "RELEASE v1, Tóm tắt cốt lõi trong 60 giây.",
+        "tags": ["PED-46", "EBM", "Tom-tat"]
+    },
+    {
+        "id": "PED46-E02",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Thứ tự ưu tiên",
+        "section": "E0",
+        "text": "[EBM] Thứ tự ưu tiên hàng đầu trước một trẻ có gan to là sàng lọc khẩn cấp {{c1::Suy gan cấp trẻ em (PALF)}} trước khi tiến hành phân loại cơ chế bệnh sinh mạn tính.",
+        "extra": "RELEASE v1, Bước 0 & Tóm tắt cốt lõi.",
+        "tags": ["PED-46", "EBM", "Uu-tien"]
+    },
+
+    # =========================================================================
+    # TRACK 2: EBM HIEN DAI & LAM SANG — E1 BUOC 0: SANG LOC CO DO PALF
+    # =========================================================================
+    {
+        "id": "PED46-E03",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Tiêu chuẩn PALF",
+        "section": "E1",
+        "text": "[EBM] Tiêu chuẩn định nghĩa Suy gan cấp trẻ em (PALF) khi CÓ bệnh não gan là rối loạn đông máu với {{c1::INR > 1.5}} (không hồi phục sau tiêm Vitamin K).",
+        "extra": "Squires et al. (2006) - Hướng dẫn chẩn đoán PALF đa trung tâm.",
+        "tags": ["PED-46", "EBM", "PALF"]
+    },
+    {
+        "id": "PED46-E04",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Tiêu chuẩn PALF",
+        "section": "E1",
+        "text": "[EBM] Tiêu chuẩn định nghĩa PALF ngay cả khi KHÔNG CÓ bệnh não gan là rối loạn đông máu với {{c1::INR > 2.0}} (không hồi phục sau tiêm Vitamin K).",
+        "extra": "Ở trẻ nhỏ, bệnh não gan giai đoạn sớm rất khó phát hiện; do đó ngưỡng INR > 2.0 đủ để xác lập chẩn đoán cấp cứu.",
+        "tags": ["PED-46", "EBM", "PALF"]
+    },
+    {
+        "id": "PED46-E05",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Cơ chế PALF",
+        "section": "E1",
+        "front": "Tại sao rối loạn đông máu (INR) là tiêu chuẩn vàng định nghĩa PALF mà không phải men gan AST/ALT?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gan tổng hợp các yếu tố đông máu; yếu tố VII có bán hủy ngắn nhất (~6 giờ) nên PT/INR kéo dài rất nhạy khi hoại tử tế bào gan cấp.<br>Ngược lại, khi suy gan bùng phát tối cấp, tế bào gan chết cạn kiệt khiến AST/ALT giảm giả tạo (hiện tượng phân ly men gan - bilirubin).<br><br><b>💡 Lưu ý:</b><br>Men gan bình thường hoặc giảm không có nghĩa là gan an toàn nếu INR đang tăng vọt.",
+        "extra": "RELEASE v1, Cơ chế sinh lý bệnh PALF & Squires et al.",
+        "tags": ["PED-46", "EBM", "PALF", "Co-che"]
+    },
+    {
+        "id": "PED46-E06",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Xử trí cấp cứu PALF",
+        "section": "E1",
+        "front": "4 xử trí cấp cứu ban đầu bắt buộc khi phát hiện cờ đỏ PALF ở trẻ gan to là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chuyển ICU, đặt đường truyền tĩnh mạch, thở oxy;<br>2) Chống hạ đường huyết (truyền glucose tĩnh mạch duy trì GIR);<br>3) Dự phòng phù não: Nằm đầu cao 30°, hạn chế dịch đẳng trương, kiểm soát co giật/sốt;<br>4) TUYỆT ĐỐI KHÔNG sinh thiết gan mù qua da.<br><br><b>💡 Lưu ý:</b><br>Sinh thiết gan mù khi INR kéo dài sẽ gây chảy máu trong ổ bụng không cầm được dẫn đến tử vong.",
+        "extra": "RELEASE v1, Lưu đồ cấp cứu PALF.",
+        "tags": ["PED-46", "EBM", "PALF", "Cap-cuu"]
+    },
+    {
+        "id": "PED46-E07",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Chống chỉ định PALF",
+        "section": "E1",
+        "text": "[EBM] Ở bệnh nhân nghi ngờ Suy gan cấp (PALF), chống chỉ định tuyệt đối là {{c1::sinh thiết gan qua da}} do nguy cơ chảy máu tử vong khi các yếu tố đông máu bị suy kiệt.",
+        "extra": "RELEASE v1, BƯỚC 0 Sàng lọc cờ đỏ.",
+        "tags": ["PED-46", "EBM", "PALF", "Chong-chi-dinh"]
+    },
+
+    # =========================================================================
+    # TRACK 2: EBM HIEN DAI & LAM SANG — E2 DINH NGHIA EBM & PHAN BIET GAN SA
+    # =========================================================================
+    {
+        "id": "PED46-E08",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Sinh lý khám gan",
+        "section": "E2",
+        "front": "Tại sao trẻ nhũ nhi hoàn toàn khỏe mạnh vẫn thường sờ thấy bờ gan dưới sườn phải 1–2 cm?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ở trẻ nhũ nhi, cơ hoành còn phẳng, lồng ngực mềm dẻo và góc sườn ức tù khiến bờ gan tự nhiên thò ra dưới bờ sườn 1–2 cm mà thể tích gan hoàn toàn bình thường.<br><br><b>💡 Lưu ý:</b><br>Không vội kết luận gan to bệnh lý nếu trẻ phát triển thể chất bình thường và không có cờ đỏ.",
+        "extra": "RELEASE v1, Góc nhìn EBM khám lâm sàng; Nelson 21st Ed.",
+        "tags": ["PED-46", "EBM", "Kham-lam-sang"]
+    },
+    {
+        "id": "PED46-E09",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Tiêu chuẩn vàng EBM",
+        "section": "E2",
+        "text": "[EBM] Tiêu chuẩn vàng xác định gan to ở trẻ em hiện đại là {{c1::siêu âm bụng}} đo chiều dọc gan trên đường trung đòn (MCL) đối chiếu với {{c1::biểu đồ Z-score / bách phân vị}} theo chiều cao và diện tích bề mặt cơ thể (BSA).",
+        "extra": "RELEASE v1, Phần I.2; Nelson Textbook of Pediatrics.",
+        "tags": ["PED-46", "EBM", "Sieu-am-Zscore"]
+    },
+    {
+        "id": "PED46-E10",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Phân biệt gan sa",
+        "section": "E2",
+        "front": "Dấu hiệu lâm sàng phân biệt gan sa do bệnh phổi (ứ khí, tràn dịch/khí) với gan to thực sự là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bờ trên gõ đục bị hạ thấp xuống KLS 6–7, nhưng khoảng cách giữa bờ trên và bờ dưới (chiều cao gan) không thay đổi; trẻ có dấu hiệu hô hấp đi kèm (thở nhanh, co kéo).<br><br><b>💡 Lưu ý:</b><br>Gan to thực sự thì chiều cao gan tăng và bờ trên vẫn ở KLS 5.",
+        "extra": "RELEASE v1, Bảng chẩn đoán phân biệt Gan to vs Gan sa.",
+        "tags": ["PED-46", "EBM", "Gan-sa-phoi"]
+    },
+    {
+        "id": "PED46-E11",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Nghiệm pháp Carnett",
+        "section": "E2",
+        "front": "Nghiệm pháp Carnett được thực hiện thế nào và giúp phân biệt u thành bụng với gan to ra sao?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bảo trẻ nằm ngửa gồng cơ bụng (nâng đầu hoặc nhấc hai chân lên):<br>Khối u cơ thành bụng sẽ sờ rõ hơn và đau tăng lên (Carnett dương tính); còn tạng trong ổ bụng (gan) sẽ bị chìm xuống và khó sờ hơn.<br><br><b>💡 Lưu ý:</b><br>Giúp tránh nhầm lẫn áp xe/u cơ thẳng bụng với khối gan to.",
+        "extra": "RELEASE v1, Bảng chẩn đoán phân biệt Gan to vs Gan sa.",
+        "tags": ["PED-46", "EBM", "Carnett"]
+    },
+    {
+        "id": "PED46-E12",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Biến thể giải phẫu",
+        "section": "E2",
+        "text": "[EBM] {{c1::Thuỳ Riedel}} là một biến thể giải phẫu bẩm sinh bình thường trong đó thùy phải gan kéo dài xuống hố chậu phải; trẻ hoàn toàn khỏe mạnh, chức năng gan và cấu trúc nhu mô bình thường.",
+        "extra": "RELEASE v1, Bảng chẩn đoán phân biệt.",
+        "tags": ["PED-46", "EBM", "Thuy-Riedel"]
+    },
+    {
+        "id": "PED46-E13",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Phân biệt thận to",
+        "section": "E2",
+        "front": "Cách phân biệt thận phải to hoặc u Wilms với gan to khi thăm khám vùng hạ sườn phải?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thận to có dấu hiệu chạm thắt lưng (+), bập bềnh thận (+); khi gõ có dải đại tràng nằm phía trước tạo tiếng trong.<br>Gan to nằm sát thành bụng trước, không có đại tràng đè lên phía trước nên gõ đục liên tục từ bờ sườn.<br><br><b>💡 Lưu ý:</b><br>Siêu âm bụng giúp xác định ranh giới giải phẫu chính xác 100%.",
+        "extra": "RELEASE v1, Bảng chẩn đoán phân biệt; Nelson 21st Ed.",
+        "tags": ["PED-46", "EBM", "Phan-biet-than"]
+    },
+
+    # =========================================================================
+    # TRACK 2: EBM HIEN DAI & LAM SANG — E3 6 CO CHE BENH SINH CHI TIET
+    # =========================================================================
+    {
+        "id": "PED46-E14",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "MASLD",
+        "section": "E3",
+        "text": "[EBM] Bệnh gan thoái hóa mỡ liên quan rối loạn chuyển hóa ({{c1::MASLD}}) hiện là nguyên nhân hàng đầu gây gan to và tăng men gan mạn tính ở trẻ em học đường thành thị do đại dịch béo phì.",
+        "extra": "RELEASE v1, Phần II.2; Hướng dẫn ESPGHAN/NASPGHAN.",
+        "tags": ["PED-46", "EBM", "MASLD"]
+    },
+    {
+        "id": "PED46-E15",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Hội chứng Reye",
+        "section": "E3",
+        "front": "Cơ chế bệnh sinh của hội chứng Reye và khuyến cáo sử dụng thuốc hạ sốt ở trẻ nhiễm virus là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thoái hóa mỡ não gan cấp tính do tổn thương ty thể khi dùng Aspirin (acid acetylsalicylic) ở trẻ nhiễm virus cúm hoặc thủy đậu.<br>Khuyến cáo: Chống chỉ định dùng Aspirin để hạ sốt ở trẻ em; dùng Paracetamol hoặc Ibuprofen thay thế.<br><br><b>💡 Lưu ý:</b><br>Biểu hiện: nôn dữ dội, mê sảng, co giật, gan to, hạ đường huyết, amoniac máu tăng cao.",
+        "extra": "RELEASE v1, Phần II.2 Cơ chế ứ chất; Nelson 21st Ed.",
+        "tags": ["PED-46", "EBM", "Reye", "Aspirin"]
+    },
+    {
+        "id": "PED46-E16",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Bệnh ứ Glycogen",
+        "section": "E3",
+        "text": "[EBM] Bệnh dự trữ Glycogen Type I (Von Gierke) do thiếu men {{c1::glucose-6-phosphatase}}; biểu hiện gan rất to, mặt búp bê, kèm bộ tứ rối loạn: {{c1::hạ đường huyết khi đói, tăng acid uric, tăng lipid máu và tăng lactate}}.",
+        "extra": "RELEASE v1, Phần II.2 & IV.1.",
+        "tags": ["PED-46", "EBM", "Glycogenosis"]
+    },
+    {
+        "id": "PED46-E17",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Bệnh Wilson",
+        "section": "E3",
+        "front": "Các dấu hiệu lâm sàng và cận lâm sàng gợi ý bệnh Wilson ở trẻ gan to là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ > 5 tuổi; tăng men gan kéo dài không rõ nguyên nhân; tán huyết Coombs âm tính; vòng Kayser-Fleischer ở rìa giác mạc; ceruloplasmin máu giảm (&lt; 20 mg/dL) và đồng niệu 24h tăng cao.<br><br><b>💡 Lưu ý:</b><br>Do đột biến gen ATP7B gây rối loạn bài tiết Đồng qua mật, tích tụ đồng ở gan và não.",
+        "extra": "RELEASE v1, Phần II.2 & V; Hướng dẫn EASL/AASLD về bệnh Wilson.",
+        "tags": ["PED-46", "EBM", "Wilson"]
+    },
+    {
+        "id": "PED46-E18",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "U gan ác tính",
+        "section": "E3",
+        "text": "[EBM] Khối u gan ác tính phổ biến nhất ở trẻ dưới 3 tuổi là {{c1::U nguyên bào gan (Hepatoblastoma)}}; đặc trưng bởi khối u lớn chắc ở gan kèm nồng độ {{c1::Alpha-fetoprotein (AFP)}} máu tăng cực kỳ cao (> 100.000 ng/mL).",
+        "extra": "RELEASE v1, Phần II.3 & V.",
+        "tags": ["PED-46", "EBM", "Hepatoblastoma"]
+    },
+    {
+        "id": "PED46-E19",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Teo đường mật bẩm sinh",
+        "section": "E3",
+        "text": "[EBM] Tam chứng kinh điển của teo đường mật bẩm sinh (Biliary Atresia) gồm: {{c1::vàng da ứ mật}}, {{c1::phân bạc màu}}, và {{c1::gan to chắc}}; phẫu thuật Kasai phải thực hiện trước {{c1::60 ngày tuổi}}.",
+        "extra": "RELEASE v1, Phần II.5 & VIII.3; Fawaz et al. (2017) NASPGHAN/ESPGHAN.",
+        "tags": ["PED-46", "EBM", "Teo-duong-mat"]
+    },
+    {
+        "id": "PED46-E20",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Hội chứng Alagille",
+        "section": "E3",
+        "text": "[EBM] Hội chứng Alagille là bệnh lý thiểu sản đường mật trong gan kèm dị tật tim ({{c1::hẹp động mạch phổi}}), dị tật cột sống ({{c1::đốt sống cánh bướm}}), và khuôn mặt đặc trưng trán dô cằm nhọn.",
+        "extra": "RELEASE v1, Phần II.5 Cơ chế ứ mật.",
+        "tags": ["PED-46", "EBM", "Alagille"]
+    },
+    {
+        "id": "PED46-E21",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Hội chứng Budd-Chiari",
+        "section": "E3",
+        "front": "Cơ chế và tam chứng lâm sàng của hội chứng Budd-Chiari ở trẻ em là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Huyết khối làm tắc các tĩnh mạch gan chính hoặc tĩnh mạch chủ dưới đoạn trên gan, cản trở máu hồi lưu từ gan về tim.<br>Tam chứng: Gan to đau cấp tính + Cổ trướng kháng trị + Đau bụng hạ sườn phải.<br><br><b>💡 Lưu ý:</b><br>Siêu âm Doppler mạch máu gan là thăm dò đầu tay để chẩn đoán.",
+        "extra": "RELEASE v1, Phần II.4 Cơ chế tăng kích thước khoang mạch.",
+        "tags": ["PED-46", "EBM", "Budd-Chiari"]
+    },
+
+    # =========================================================================
+    # TRACK 2: EBM HIEN DAI & LAM SANG — E4 KY THUAT KHAM & 4 NGHIEM PHAP EBM
+    # =========================================================================
+    {
+        "id": "PED46-E22",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Cơ chế nghiệm pháp",
+        "section": "E4",
+        "front": "Giải thích cơ chế sinh lý bệnh tại sao nghiệm pháp Rung gan dương tính trong áp xe gan?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Dao động cơ học từ lực chặt nhẹ truyền qua thành ngực tác động lên ổ mủ căng trong nhu mô gan, làm căng giãn đột ngột bao Glisson giàu thụ cảm thể thần kinh cảm giác.<br><br><b>💡 Lưu ý:</b><br>Chống chỉ định chặt quá mạnh vì nguy cơ làm vỡ ổ áp xe vào ổ bụng hoặc màng phổi.",
+        "extra": "RELEASE v1, Bảng 4 nghiệm pháp đặc biệt.",
+        "tags": ["PED-46", "EBM", "Rung-gan", "Co-che"]
+    },
+    {
+        "id": "PED46-E23",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Cơ chế nghiệm pháp",
+        "section": "E4",
+        "front": "Giải thích cơ chế phản hồi gan - tĩnh mạch cổ (HJR) và lý do nghiệm pháp trở nên âm tính khi gan đã xơ?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ép gan dồn máu ứ từ tĩnh mạch gan về nhĩ phải; tim phải suy không kịp bơm lượng máu tăng thêm này làm dội ngược áp lực lên tĩnh mạch cảnh.<br>Khi gan đã xơ teo, mô xơ thay thế nhu mô và lòng mạch xơ cứng nên không còn trữ lượng máu ứ để dồn về tim.<br><br><b>💡 Lưu ý:</b><br>HJR dương tính là bằng chứng tin cậy của suy tim phải hoặc viêm màng ngoài tim co thắt.",
+        "extra": "RELEASE v1, Bảng 4 nghiệm pháp đặc biệt.",
+        "tags": ["PED-46", "EBM", "HJR", "Co-che"]
+    },
+    {
+        "id": "PED46-E24",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Tiêu chuẩn HJR",
+        "section": "E4",
+        "text": "[EBM] Nghiệm pháp phản hồi gan - tĩnh mạch cổ (HJR) được xem là dương tính khi cột tĩnh mạch cảnh nổi cao thêm {{c1::≥ 3 cm}} và duy trì liên tục trong suốt {{c1::15 – 30 giây}} ép gan.",
+        "extra": "RELEASE v1, Bảng 4 nghiệm pháp đặc biệt.",
+        "tags": ["PED-46", "EBM", "HJR"]
+    },
+    {
+        "id": "PED46-E25",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Cạm bẫy Murphy",
+        "section": "E4",
+        "front": "Vì sao chống chỉ định làm dấu hiệu Murphy khi nhìn hoặc sờ thấy túi mật to căng?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Khi túi mật tắc nghẽn căng to, áp lực trong lòng túi mật rất cao và thành túi mật thiếu máu nuôi; thao tác ấn sâu có thể làm vỡ túi mật, giải phóng dịch mật nhiễm trùng gây viêm phúc mạc mật và sốc nhiễm trùng.<br><br><b>💡 Lưu ý:</b><br>Luôn quan sát và sờ nhẹ nhàng vùng hạ sườn phải trước khi thực hiện thao tác ấn sâu.",
+        "extra": "RELEASE v1, Bảng 4 nghiệm pháp đặc biệt & Phần VIII.2.",
+        "tags": ["PED-46", "EBM", "Murphy", "Nguy-hiem"]
+    },
+
+    # =========================================================================
+    # TRACK 2: EBM HIEN DAI & LAM SANG — E5 4 HOI CHUNG LAM SANG KET HOP
+    # =========================================================================
+    {
+        "id": "PED46-E26",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Gan to có vàng da",
+        "section": "E5",
+        "front": "Trẻ có gan to đau, sốt nhẹ, vàng da nhẹ, tiền sử ăn rau thủy sinh sống (cần nước, rau ngổ) và bạch cầu ái toan (Eosinophil) tăng vọt (> 15%): nghĩ tới bệnh gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nhiễm sán lá gan lớn (Fasciola hepatica / Fasciola gigantica).<br><br><b>💡 Lưu ý:</b><br>Chẩn đoán xác định bằng huyết thanh học ELISA kháng thể kháng Fasciola và siêu âm tìm tổn thương đường hầm trong nhu mô gan; điều trị đặc hiệu bằng Triclabendazole.",
+        "extra": "RELEASE v1, Hội chứng 2: Gan to kèm Vàng da.",
+        "tags": ["PED-46", "EBM", "San-la-gan"]
+    },
+    {
+        "id": "PED46-E27",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Gan lách to",
+        "section": "E5",
+        "text": "[EBM] Hội chứng gan lách to khổng lồ ở trẻ nhỏ kèm biến dạng đầu dưới xương đùi hình bình Erlenmeyer trên X-quang là hình ảnh kinh điển của bệnh {{c1::Gaucher}} do tích tụ glucocerebroside.",
+        "extra": "RELEASE v1, Hội chứng 3: Gan to kèm Lách to.",
+        "tags": ["PED-46", "EBM", "Gaucher"]
+    },
+    {
+        "id": "PED46-E28",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Gan lách hạch to",
+        "section": "E5",
+        "front": "Trẻ có gan to, lách to, hạch cổ nhiều nơi kèm tam chứng thiếu máu + sốt kéo dài + xuất huyết da: cần làm xét nghiệm gì khẩn cấp để chẩn đoán?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Làm ngay huyết đồ (công thức máu + phết máu ngoại biên tìm tế bào non Blast) và chọc hút tủy đồ để chẩn đoán Bạch cầu cấp (Leukemia - phổ biến nhất là ALL).<br><br><b>💡 Lưu ý:</b><br>Tránh nhầm lẫn với nhiễm trùng thông thường làm chậm trễ hóa trị.",
+        "extra": "RELEASE v1, Hội chứng 4: Gan lách hạch to.",
+        "tags": ["PED-46", "EBM", "Leukemia"]
+    },
+    {
+        "id": "PED46-E29",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Gan đàn xếp",
+        "section": "E5",
+        "text": "[EBM] Dấu hiệu lâm sàng \"gan đàn xếp\" (kích thước gan thu nhỏ lại nhanh chóng sau khi dùng thuốc lợi tiểu và trợ tim) là bằng chứng điển hình của gan to do {{c1::suy tim sung huyết}}.",
+        "extra": "RELEASE v1, Hội chứng 1: Gan to đơn thuần.",
+        "tags": ["PED-46", "EBM", "Gan-dan-xep"]
+    },
+
+    # =========================================================================
+    # TRACK 2: EBM HIEN DAI & LAM SANG — E6 PHAN TANG THEO 3 NHOM TUOI
+    # =========================================================================
+    {
+        "id": "PED46-E30",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Tiếp cận theo tuổi",
+        "section": "E6",
+        "front": "4 nhóm nguyên nhân gan to hàng đầu cần ưu tiên sàng lọc ở trẻ dưới 1 tuổi (sơ sinh & nhũ nhi) là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhiễm trùng bẩm sinh TORCH (CMV, Toxoplasma, Rubella);<br>2) Teo đường mật bẩm sinh (Kasai trước 60 ngày!);<br>3) Rối loạn chuyển hóa bẩm sinh (Galactosemia, GSD);<br>4) U nguyên bào gan (Hepatoblastoma, theo dõi AFP).<br><br><b>💡 Lưu ý:</b><br>Nhóm tuổi này có nguy cơ teo đường mật bẩm sinh cao nhất, cần can thiệp ngoại khoa khẩn cấp.",
+        "extra": "RELEASE v1, Sơ đồ tiếp cận phân tầng theo 3 nhóm tuổi.",
+        "tags": ["PED-46", "EBM", "Nhom-tuoi-duoi-1"]
+    },
+    {
+        "id": "PED46-E31",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Tiếp cận theo tuổi",
+        "section": "E6",
+        "front": "Các căn nguyên gan to phổ biến nhất ở lứa tuổi từ 1 đến 10 tuổi (trẻ nhỏ & học đường) là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Viêm gan virus (HAV, HBV, EBV); Áp xe gan amip hoặc vi khuẩn; Bệnh Wilson (cần xét nghiệm Ceruloplasmin); Suy tim do tim bẩm sinh; Bệnh máu ác tính (Bạch cầu cấp ALL, Thalassemia).<br><br><b>💡 Lưu ý:</b><br>Mọi trẻ > 5 tuổi có tăng men gan hoặc gan lách to không rõ nguyên nhân đều phải tầm soát bệnh Wilson.",
+        "extra": "RELEASE v1, Sơ đồ tiếp cận phân tầng theo 3 nhóm tuổi.",
+        "tags": ["PED-46", "EBM", "Nhom-tuoi-1-10"]
+    },
+    {
+        "id": "PED46-E32",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Tiếp cận theo tuổi",
+        "section": "E6",
+        "text": "[EBM] Ở lứa tuổi vị thành niên (> 10 tuổi), 4 căn nguyên gan to nổi bật gồm: {{c1::bệnh gan nhiễm mỡ chuyển hóa (MASLD)}}, {{c1::viêm gan tự miễn (AIH)}}, viêm đường mật xơ hóa (PSC kèm IBD), và ngộ độc Paracetamol.",
+        "extra": "RELEASE v1, Sơ đồ tiếp cận phân tầng theo 3 nhóm tuổi.",
+        "tags": ["PED-46", "EBM", "Nhom-tuoi-tren-10"]
+    },
+    {
+        "id": "PED46-E33",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Mốc vàng Kasai",
+        "section": "E6",
+        "text": "[EBM] Mốc thời gian vàng để phẫu thuật Kasai điều trị teo đường mật bẩm sinh nhằm đạt tỷ lệ lưu thông dòng mật tối ưu và tránh phải ghép gan sớm là trước {{c1::60 ngày tuổi}}.",
+        "extra": "RELEASE v1, Sơ đồ phân tầng & Fawaz et al. (2017).",
+        "tags": ["PED-46", "EBM", "Moc-Kasai"]
+    },
+
+    # =========================================================================
+    # TRACK 2: EBM HIEN DAI & LAM SANG — E7 CHIEN LUOC CAN LAM SANG 3 BAC
+    # =========================================================================
+    {
+        "id": "PED46-E34",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Cận lâm sàng Tier 1",
+        "section": "E7",
+        "front": "Các xét nghiệm thuộc Tier 1 (đánh giá ban đầu 100% bệnh nhân gan to) gồm những gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) CBC + tiểu cầu, CRP (nhiễm trùng, suy tủy);<br>2) Men gan: AST, ALT (hủy hoại tế bào);<br>3) Men mật: GGT, ALP, Bilirubin toàn phần & trực tiếp;<br>4) Chức năng gan: Albumin, PT/INR, Glucose;<br>5) Siêu âm bụng Doppler (Z-score kích thước, nhu mô, mạch cửa, lách).<br><br><b>💡 Lưu ý:</b><br>Tier 1 trả lời ngay 3 câu hỏi: Có suy gan cấp không? Có ứ mật không? Có hoại tử tế bào không?",
+        "extra": "RELEASE v1, Chiến lược cận lâm sàng 3 bậc.",
+        "tags": ["PED-46", "EBM", "Tier-1"]
+    },
+    {
+        "id": "PED46-E35",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Cận lâm sàng Tier 2",
+        "section": "E7",
+        "text": "[EBM] Trong xét nghiệm Tier 2 gan to, nhóm tự miễn khảo sát {{c1::ANA, ASMA, Anti-LKM1 và IgG}}; nhóm bệnh Wilson khảo sát {{c1::Ceruloplasmin máu và đồng niệu 24h}}.",
+        "extra": "RELEASE v1, Chiến lược cận lâm sàng 3 bậc.",
+        "tags": ["PED-46", "EBM", "Tier-2"]
+    },
+    {
+        "id": "PED46-E36",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Tiêu chuẩn an toàn sinh thiết",
+        "section": "E7",
+        "front": "Điều kiện an toàn huyết học bắt buộc trước khi chỉ định sinh thiết gan qua da ở trẻ em là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Số lượng tiểu cầu phải > 60.000/µL và chỉ số đông máu INR < 1.4.<br><br><b>💡 Lưu ý:</b><br>Nếu không đạt ngưỡng an toàn này, phải truyền tiểu cầu hoặc huyết tương tươi đông lạnh điều chỉnh trước mổ hoặc chọn sinh thiết qua đường tĩnh mạch cảnh (transjugular).",
+        "extra": "RELEASE v1, Tier 3 Cận lâm sàng nâng cao.",
+        "tags": ["PED-46", "EBM", "Sinh-thiet-gan", "An-toan"]
+    },
+    {
+        "id": "PED46-E37",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Cận lâm sàng Tier 3",
+        "section": "E7",
+        "text": "[EBM] Trong cận lâm sàng Tier 3 gan to, {{c1::chụp cộng hưởng từ gan mật (MRI / MRCP)}} là phương tiện không xâm lấn tối ưu để đánh giá chi tiết dị tật đường mật trong và ngoài gan.",
+        "extra": "RELEASE v1, Tier 3 Thăm dò nâng cao.",
+        "tags": ["PED-46", "EBM", "Tier-3", "MRCP"]
+    },
+
+    # =========================================================================
+    # TRACK 2: EBM HIEN DAI & LAM SANG — E8 ROSETTA STONE: DOI CHIEU THUAT NGU
+    # =========================================================================
+    {
+        "id": "PED46-E38",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Rosetta Stone",
+        "section": "E8",
+        "front": "Thuật ngữ cổ \"Hội chứng Banti\" trong giáo trình tương ứng với thực thể bệnh sinh nào theo EBM hiện đại?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bản chất là Tăng áp lực tĩnh mạch cửa không do xơ gan (NCPF), phổ biến nhất ở trẻ nhỏ là Huyết khối tĩnh mạch cửa dạng hang (Portal cavernoma) - thường do di chứng đặt catheter tĩnh mạch rốn hoặc nhiễm trùng rốn thời sơ sinh.<br><br><b>💡 Lưu ý:</b><br>Viết bài thi: \"Hội chứng Banti (theo EBM xếp vào NCPF / Huyết khối tạo hang tĩnh mạch cửa)\".",
+        "extra": "RELEASE v1, Bảng đối chiếu thuật ngữ Phần VII.",
+        "tags": ["PED-46", "EBM", "Rosetta-Stone", "Banti"]
+    },
+    {
+        "id": "PED46-E39",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Rosetta Stone",
+        "section": "E8",
+        "front": "Thuật ngữ cổ \"Bệnh Hanot\" trong giáo trình tương ứng với bệnh gì và tại sao không chẩn đoán ở trẻ em?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bệnh Hanot là tên lịch sử của Xơ gan mật nguyên phát (PBC) - bệnh này hầu như không bao giờ gặp ở trẻ em.<br>Ở trẻ em có biểu hiện tương tự, bản chất là Viêm đường mật xơ hóa (PSC), Viêm gan tự miễn (AIH) hoặc Ứ mật tiến triển trong gan (PFIC).<br><br><b>💡 Lưu ý:</b><br>Viết bài thi nêu rõ chẩn đoán phân biệt với PSC, AIH và PFIC.",
+        "extra": "RELEASE v1, Bảng đối chiếu thuật ngữ Phần VII.",
+        "tags": ["PED-46", "EBM", "Rosetta-Stone", "Hanot"]
+    },
+    {
+        "id": "PED46-E40",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Rosetta Stone",
+        "section": "E8",
+        "text": "[EBM] Tên bệnh viết nhầm \"hội chứng Woman\" trong giáo trình gốc chính là {{c1::bệnh Wolman}} (thiếu men lysosomal acid lipase - LAL), rối loạn ứ đọng lipid gây gan to và vôi hóa tuyến thượng thận trên X-quang.",
+        "extra": "RELEASE v1, Bảng đối chiếu thuật ngữ Phần VII.",
+        "tags": ["PED-46", "EBM", "Rosetta-Stone", "Wolman"]
+    },
+    {
+        "id": "PED46-E41",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Rosetta Stone",
+        "section": "E8",
+        "text": "[EBM] Tên giải phẫu viết nhầm \"u bóng Vanter\" trong giáo trình gốc thực chất là {{c1::u bóng Vater}} (nhú tá lớn), khối u gây tắc đồng thời cả ống mật chủ và ống tụy chính làm túi mật căng to.",
+        "extra": "RELEASE v1, Bảng đối chiếu thuật ngữ Phần VII.",
+        "tags": ["PED-46", "EBM", "Rosetta-Stone", "Vater"]
+    },
+    {
+        "id": "PED46-E42",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Rosetta Stone",
+        "section": "E8",
+        "front": "Tại sao công thức Nelson 1996 (pound/inch) tính kích thước gan ít còn được áp dụng trên lâm sàng hiện nay?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Công thức hồi quy năm 1996 dùng đơn vị Anh/Mỹ cũ, dễ sai số lớn do tỷ lệ trẻ béo phì hiện nay tăng cao làm lệch tương quan cân nặng - kích thước gan.<br>Hiện nay tiêu chuẩn khách quan là đo chiều dọc gan trên siêu âm đối chiếu Z-score theo BSA.<br><br><b>💡 Lưu ý:</b><br>Đi thi viết cả công thức Nelson 1996 để lấy điểm barem và bổ sung tiêu chuẩn siêu âm Z-score để ăn điểm EBM.",
+        "extra": "RELEASE v1, Bảng đối chiếu thuật ngữ Phần VII.",
+        "tags": ["PED-46", "EBM", "Rosetta-Stone", "Nelson-vs-Zscore"]
+    },
+
+    # =========================================================================
+    # TRACK 2: EBM HIEN DAI & LAM SANG — E9 CAM BAY LAM SANG
+    # =========================================================================
+    {
+        "id": "PED46-E43",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Cạm bẫy lâm sàng",
+        "section": "E9",
+        "front": "Bẫy lâm sàng \"Men gan AST/ALT bình thường nghĩa là gan hoàn toàn an toàn\" nguy hiểm thế nào trong suy gan tối cấp?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trong suy gan tối cấp hoặc xơ gan giai đoạn cuối, các tế bào gan đã hoại tử cạn kiệt nên không còn enzyme để phóng thích vào máu, khiến AST/ALT giảm giả tạo về mức bình thường.<br><br><b>💡 Lưu ý:</b><br>Luôn phải đánh giá PT/INR, Albumin, Glucose và Amoniac máu để xác định chức năng sống của gan.",
+        "extra": "RELEASE v1, Cạm bẫy lâm sàng Phần VIII.1.",
+        "tags": ["PED-46", "EBM", "Cam-bay", "Men-gan"]
+    },
+    {
+        "id": "PED46-E44",
+        "track": "ebm",
+        "type": "basic",
+        "category": "Cạm bẫy lâm sàng",
+        "section": "E9",
+        "front": "Mốc thời gian bắt buộc phải định lượng Bilirubin trực tiếp ở trẻ sơ sinh còn vàng da để tầm soát teo đường mật bẩm sinh?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Sau 14 ngày tuổi ở trẻ đủ tháng, hoặc sau 21 ngày tuổi ở trẻ non tháng.<br>Nếu Bilirubin trực tiếp > 1 mg/dL (hoặc > 20% Bilirubin toàn phần) kèm phân bạc màu, phải chuyển gấp ngoại nhi làm xét nghiệm khẳng định teo đường mật.<br><br><b>💡 Lưu ý:</b><br>Tuyệt đối không chủ quan xem mọi vàng da sơ sinh kéo dài là vàng da sinh lý hay vàng da do sữa mẹ.",
+        "extra": "RELEASE v1, Cạm bẫy lâm sàng Phần VIII.3; Fawaz et al. (2017).",
+        "tags": ["PED-46", "EBM", "Cam-bay", "Vang-da-keo-dai"]
+    },
+    {
+        "id": "PED46-E45",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Cạm bẫy lâm sàng",
+        "section": "E9",
+        "text": "[EBM] Hiện tượng phân ly men gan - bilirubin trong suy gan cấp xảy ra khi {{c1::bilirubin tiếp tục tăng vọt}} trong khi {{c1::men gan AST/ALT giảm đột ngột}}, báo hiệu tế bào gan đã bị hủy hoại gần như toàn bộ.",
+        "extra": "RELEASE v1, BƯỚC 0 & Phần VIII.1.",
+        "tags": ["PED-46", "EBM", "Cam-bay", "Phan-ly-men-gan"]
+    },
+    {
+        "id": "PED46-E46",
+        "track": "ebm",
+        "type": "cloze",
+        "category": "Cạm bẫy lâm sàng",
+        "section": "E9",
+        "text": "[EBM] Phẫu thuật Kasai ở trẻ teo đường mật bẩm sinh nếu trì hoãn qua {{c1::90 ngày tuổi}} thì hầu hết bệnh nhân sẽ bị xơ gan ứ mật không hồi phục và bắt buộc phải {{c1::ghép gan}}.",
+        "extra": "RELEASE v1, Phần VIII.3 & Fawaz et al. (2017).",
+        "tags": ["PED-46", "EBM", "Cam-bay", "Kasai-90-ngay"]
+    },
+]

@@ -1,1379 +1,2021 @@
-[
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Định nghĩa suy tim ở trẻ em trong giáo trình là tình trạng tim không còn khả năng đảm bảo {{c1::cung lượng tim}} đáp ứng nhu cầu của cơ thể.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 1 - Mục 1.1).<br><b>🔍 Đối chiếu PED:</b> Cung lượng tim không đủ đáp ứng nhu cầu oxy của mô ở áp lực đổ đầy bình thường, hoặc chỉ đáp ứng được khi áp lực tâm thất tăng cao bất thường.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Dinh-nghia",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Theo thống kê kinh điển của Demopoulos và Sonnenblick (1995) tại Mỹ trong giáo trình, số người suy tim ước tính lên đến {{c1::6 triệu người}} vào năm 2000 với {{c1::400.000 ca mới mỗi năm}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 1 - Mục 1.2).<br><b>🔍 Đối chiếu PED:</b> Cung cấp số liệu dịch tễ học nền tảng trong giáo trình giảng dạy của trường.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Dich-te",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Tại Việt Nam, tần suất suy tim ở trẻ em ước tính trong khoảng {{c1::0,1% - 0,2%}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 1 - Mục 1.2).<br><b>🔍 Đối chiếu PED:</b> Con số ước tính dịch tễ học nhi khoa tại Việt Nam được Bộ môn Nhi Thái Bình sử dụng làm chuẩn giảng dạy và ra đề thi.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Dich-te-VN",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Về tiên lượng, tỷ lệ tử vong ở những người suy tim nặng lên đến {{c1::50%}}; ngay cả những người mới bị suy tim thì hơn một nửa sẽ chết trong vòng {{c1::5 năm}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 1 - Mục 1.2).<br><b>🔍 Đối chiếu PED:</b> Nhấn mạnh gánh nặng tử vong rất cao của suy tim ở trẻ em nếu không được điều trị nguyên nhân kịp thời.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Tien-luong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Đặc điểm chung thứ nhất của suy tim trẻ em trong giáo trình là: Thường gặp {{c1::suy tim cấp}} (hay gặp do viêm cầu thận cấp tăng HA, thiếu vitamin B1, ngộ độc giáp, viêm cơ tim virus, hẹp eo ĐMC, còn ống ĐM lớn).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 1 - Mục 1.3).<br><b>🔍 Đối chiếu PED:</b> Khác với người lớn thường suy tim mạn tính do xơ vữa mạch vành, trẻ em có dự trữ cơ tim thấp nên thường bùng phát suy tim cấp tính.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Dac-diem-chung",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Đặc điểm chung thứ hai của suy tim trẻ em trong giáo trình là: Thể bệnh chủ yếu trên lâm sàng là {{c1::suy tim sung huyết}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 1 - Mục 1.3).<br><b>🔍 Đối chiếu PED:</b> Tình trạng ứ trệ tuần hoàn tĩnh mạch phổi (gây khó thở, ho) và tĩnh mạch hệ thống (gây gan to, phù) chiếm ưu thế tuyệt đối.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Dac-diem-chung",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Đặc điểm chung thứ ba của suy tim trẻ em trong giáo trình là: Suy tim từ từ mạn tính hay gặp do {{c1::thấp tim, bệnh tim bẩm sinh, bệnh van tim hậu thấp}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 1 - Mục 1.3).<br><b>🔍 Đối chiếu PED:</b> Nhóm nguyên nhân tiến triển âm thầm theo thời gian.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Dac-diem-chung",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Đặc điểm chung thứ tư của suy tim trẻ em trong giáo trình là: Triệu chứng lâm sàng không giống người lớn mà chủ yếu biểu hiện bằng {{c1::triệu chứng toàn thân và tiêu hóa (kém ăn, nôn nhiều, chậm lên cân)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 1 - Mục 1.3).<br><b>🔍 Đối chiếu PED:</b> Trẻ nhũ nhi không thể than khó thở khi gắng sức; cữ bú kéo dài > 30 phút và vã mồ hôi trán là tương đương nghiệm pháp gắng sức ở người lớn.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Dac-diem-chung",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Theo hướng dẫn ISHLT 2025 cập nhật, suy tim trẻ em thứ phát sau bệnh cơ tim, bệnh tim mắc phải và tim bẩm sinh gắn liền với {{c1::tỷ lệ mắc bệnh và tử vong đáng kể}}.",
-    "extra": "<b>📚 Nguồn:</b> ISHLT 2025 Guideline (PMID: 40838915).<br><b>🔍 Khuyến cáo:</b> Đòi hỏi tiếp cận đa chuyên khoa và phân tầng nguy cơ theo kiểu hình huyết động.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "ISHLT-2025",
-      "Lam-sang-chuyen-sau"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Dấu hiệu vã mồ hôi bệnh lý trong suy tim ở trẻ nhũ nhi có đặc điểm là {{c1::vã mồ hôi lạnh}}, tập trung chủ yếu ở {{c1::vùng trán và da đầu}} và xuất hiện rõ nhất lúc {{c1::trẻ đang gắng sức bú mẹ}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 13 - Tip 10).<br><b>🔍 Cơ chế:</b> Phản ánh tình trạng cường giao cảm bù trừ kích thích tuyến mồ hôi ngoại biên.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Lam-sang-chuyen-sau"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Trong điều kiện bình thường, cung lượng tim được đảm bảo nhờ 4 yếu tố: {{c1::Tiền gánh, Hậu gánh, Tần số tim và Sức bóp của tim}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 2 - Mục 2.1).<br><b>🔍 Đối chiếu PED:</b> CO = Thể tích nhát bóp (SV) × Tần số tim (HR).",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Sinh-ly-benh",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Giáo trình định nghĩa: Tiền gánh là {{c1::thể tích hoặc áp lực cuối tâm trương}} của tâm thất.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 2 - Mục 2.1).<br><b>🔍 Đối chiếu PED:</b> Quyết định độ dài ban đầu của sợi cơ tim trước khi co bóp theo định luật Frank-Starling.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Tien-ganh",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Giáo trình định nghĩa: Hậu gánh là {{c1::sức cản của mạch máu}} với sức bóp của tâm thất.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 2 - Mục 2.1).<br><b>🔍 Đối chiếu PED:</b> Là toàn bộ trở lực mạch hệ thống hoặc mạch phổi mà tâm thất phải vượt qua để mở van bán nguyệt tống máu.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Hau-ganh",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Ở trẻ sơ sinh và trẻ nhũ nhi, do thể tích nhát bóp (SV) gần như cố định, cung lượng tim phụ thuộc chủ yếu vào {{c1::tần số tim (Heart Rate)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 0).<br><b>🔍 Cơ chế:</b> Cơ tim trẻ nhỏ chứa nhiều collagen không co bóp và ít sợi myofibril hơn người lớn, khiến khả năng giãn nở buồng thất bị giới hạn.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Sinh-ly-nhi",
-      "Lam-sang-chuyen-sau"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Khi tần số tim ở trẻ nhũ nhi tăng quá nhanh vượt ngưỡng {{c1::180 đến 200 nhịp/phút}}, cung lượng tim sẽ sụt giảm do {{c1::thời gian tâm trương bị rút ngắn nghiêm trọng}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 0).<br><b>🔍 Cơ chế:</b> Rút ngắn tâm trương làm giảm thể tích đổ đầy thất và giảm thời gian tưới máu động mạch vành nuôi cơ tim.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Sinh-ly-nhi",
-      "Lam-sang-chuyen-sau"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Cơ chế bù trừ tại tim trong suy tim gồm 3 cơ chế: {{c1::Giãn sợi cơ}} để đáp ứng tiền gánh; {{c1::Phì đại các tế bào cơ tim}}; và {{c1::Hệ thần kinh giao cảm (tăng epinephrin và norepinephrin)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 2 - Mục 2.2).<br><b>🔍 Đối chiếu PED:</b> Giao cảm giúp tăng nhịp và co bóp, tái phân bố máu nuôi tim và não; nhưng kéo dài gây tăng hậu gánh do co mạch ngoại vi.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Bu-tru-tai-tim",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong suy tim mạn tính, đáp ứng phì đại tế bào cơ tim đồng tâm (Concentric) thường do {{c1::quá tải áp lực (tăng hậu gánh)}}; trong khi phì đại lệch tâm (Eccentric) do {{c1::quá tải thể tích (tăng tiền gánh)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 2).<br><b>🔍 Cơ chế:</b> Phì đại lệch tâm do các sarcomere xếp nối tiếp nhau làm buồng tim giãn lớn để chứa thể tích máu tăng thêm.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Lam-sang-chuyen-sau"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Cơ chế bù trừ ngoài tim thứ nhất là hệ RAAS: Giảm tưới máu thận khởi động hệ {{c1::Renin - Angiotensin - Aldosteron}} càng gây co mạch, ứ muối và nước.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 2 - Mục 2.2).<br><b>🔍 Đối chiếu PED:</b> Vòng xoắn bệnh lý làm tăng cả tiền gánh và hậu gánh, là cơ sở dùng thuốc ACEi và Spironolacton.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Bu-tru-ngoai-tim",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Cơ chế bù trừ ngoài tim thứ hai là: Ứ máu ở thành tâm nhĩ gây kích thích tăng tiết các yếu tố gây bài xuất natri qua nước tiểu (giáo trình ghi: {{c1::atrial natrium factor / ANF}}).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 2 - Mục 2.2).<br><b>🔍 Đối chiếu PED:</b> Thuật ngữ hiện đại là Atrial Natriuretic Peptide (ANP) và Brain Natriuretic Peptide (BNP/NT-proBNP).",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Bu-tru-ngoai-tim",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Cơ chế bù trừ ngoài tim thứ ba trong suy tim là: Tăng khả năng {{c1::tách và sử dụng O2 tại tổ chức}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 2 - Mục 2.2).<br><b>🔍 Đối chiếu PED:</b> Tăng chênh lệch oxy động - tĩnh mạch để thích nghi với tình trạng giảm cung lượng tim.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Bu-tru-ngoai-tim",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Hậu quả của suy tim: Giảm cung lượng tim làm giảm oxy tới các mô và {{c1::ưu tiên oxy cho não và động mạch vành}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 2 - Mục 2.3).<br><b>🔍 Đối chiếu PED:</b> Cơ chế tái phân bố tuần hoàn của hệ giao cảm giúp bảo vệ cơ quan sống còn.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Hau-qua-suy-tim",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Tăng áp lực tĩnh mạch ngoại vi gây hậu quả: Suy tim phải gây {{c1::phù, gan to, tĩnh mạch cổ nổi}}; Suy tim trái gây {{c1::khó thở, có thể ho ra máu, phù phổi}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 2 - Mục 2.3).<br><b>🔍 Đối chiếu PED:</b> Suy tim phải gây ứ trệ đại tuần hoàn; suy tim trái gây ứ trệ tiểu tuần hoàn.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Hau-qua-suy-tim",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nhóm nguyên nhân do tăng gánh thể tích (tăng tiền gánh) gồm: Bệnh tim bẩm sinh có shunt Trái - Phải ({{c1::PDA, VSD, ASD}}) và nguyên nhân suy tim sớm ({{c1::dò động tĩnh mạch lớn, thân chung ĐM, chuyển gốc ĐM, teo van ba lá}}).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 3 - Mục 3.1).<br><b>🔍 Đối chiếu PED:</b> Gây tăng thể tích máu đổ về các buồng tim, giãn sợi cơ theo Frank-Starling.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Nguyen-nhan",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nhóm nguyên nhân do tăng gánh áp lực (tăng hậu gánh) gồm: Hẹp van ĐMC nặng, hẹp eo ĐMC nặng; các bệnh gây tắc tĩnh mạch phổi ({{c1::tim ba nhĩ, bất thường hồi lưu TM phổi, teo van ba lá}}); tăng áp ĐMP sơ sinh, hẹp van ĐMP gây suy tim phải.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 3 - Mục 3.2).<br><b>🔍 Đối chiếu PED:</b> Cản trở đường tống máu ra khỏi tâm thất.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Nguyen-nhan",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nhóm nguyên nhân tại cơ tim gồm: Viêm cơ tim ({{c1::do thấp, nhiễm khuẩn, nhiễm độc}}), bệnh cơ tim, bất thường động mạch vành trái ({{c1::ALCAPA}}); ở trẻ sơ sinh có thể do rối loạn chuyển hóa ({{c1::hạ đường huyết, hạ canxi huyết, hạ magie huyết nặng}}).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 3 - Mục 3.3).<br><b>🔍 Đối chiếu PED:</b> Suy giảm sức co bóp nội tại của tế bào cơ tim.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Nguyen-nhan",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Hội chứng ALCAPA (Bland-White-Garland) là dị tật động mạch vành trái xuất phát từ {{c1::động mạch phổi}}, khi sức cản phổi giảm sẽ gây hiện tượng {{c1::cướp máu động mạch vành}} dẫn đến nhồi máu cơ tim ở trẻ nhũ nhi.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 3.1).<br><b>🔍 Lâm sàng:</b> Trẻ nhũ nhi 2-3 tháng khóc thét khi bú (cơn đau thắt ngực nhũ nhi) kèm suy tim nặng và ST chênh lên ở DI, aVL.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "ALCAPA",
-      "Lam-sang-chuyen-sau"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Bệnh Beriberi thể ướt (Shoshin Beriberi) là nguyên nhân suy tim cấp cung lượng cao ở trẻ nhỏ do thiếu hụt {{c1::vitamin B1 (Thiamine)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 3.1).<br><b>🔍 Lâm sàng:</b> Bệnh đáp ứng ngoạn mục sau khi tiêm tĩnh mạch Thiamine liều cao.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Beriberi",
-      "Lam-sang-chuyen-sau"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Nhóm nguyên nhân do rối loạn nhịp tim gồm: Nhịp tim nhanh ({{c1::Basedow, do thuốc}}); Nhịp tim chậm ({{c1::suy giáp bẩm sinh, ngộ độc digitalis, morphin}}); và các rối loạn nhịp tim khác.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 3 - Mục 3.4).<br><b>🔍 Đối chiếu PED:</b> Nhịp quá nhanh rút ngắn tâm trương; nhịp quá chậm không bù được thể tích nhát bóp.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Nguyen-nhan",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Block nhĩ thất hoàn toàn bẩm sinh ở trẻ sơ sinh thường có liên quan chặt chẽ đến mẹ mắc bệnh tự miễn có kháng thể {{c1::kháng Ro/SSA và kháng La/SSB}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 3.1).<br><b>🔍 Cơ chế:</b> Kháng thể mẹ qua nhau thai gây viêm và xơ hóa vĩnh viễn nút nhĩ thất của thai nhi.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Block-AV",
-      "Lam-sang-chuyen-sau"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Sốc tim ở trẻ sơ sinh trong tuần đầu sau sinh ngay khi ống động mạch đóng lại là dấu hiệu cảnh báo của {{c1::các bệnh tim bẩm sinh tắc nghẽn phụ thuộc ống động mạch (HLHS, hẹp eo ĐMC nặng, hẹp van ĐMC nguy kịch)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 3.2).<br><b>🔍 Cấp cứu:</b> Bắt buộc truyền Prostaglandin E1 khẩn cấp để mở lại ống động mạch.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Soc-tim-so-sinh",
-      "Lam-sang-chuyen-sau"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Khám tim trong suy tim trái: Mỏm tim lệch trái, nhịp tim nhanh, có thể có tiếng {{c1::ngựa phi (gallop)}}; thường có tiếng thổi tâm thu ở mỏm do {{c1::hở van hai lá cơ năng vì giãn buồng tim}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 3 - Mục 4.1.1).<br><b>🔍 Đối chiếu PED:</b> Giãn vòng van hai lá thứ phát do buồng thất trái giãn lớn.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Suy-tim-trai",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Khám phổi trong suy tim trái: Thường thấy {{c1::ran ẩm ở đáy phổi}}; cơn hen tim có {{c1::ran rít, ran ẩm hai phổi}}; trong phù phổi cấp có ran ẩm to nhỏ hạt dâng như {{c1::nước thủy triều}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 3 - Mục 4.1.1).<br><b>🔍 Đối chiếu PED:</b> Phản ánh dịch thoát từ mao mạch phổi vào mô kẽ và phế nang.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Suy-tim-trai",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Huyết áp trong suy tim trái có đặc điểm: Huyết áp tối đa (tâm thu) {{c1::giảm}} nhưng tối thiểu (tâm trương) lại {{c1::bình thường}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 3 - Mục 4.1.1).<br><b>🔍 Đối chiếu PED:</b> Tạo nên hiệu số huyết áp kẹt do giảm thể tích tống máu.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Suy-tim-trai",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] X-quang ngực trong suy tim trái: Tim to, nhất là tim trái; cả hai rốn phổi mờ, có thể gặp {{c1::đường Kerley}} hoặc hình {{c1::cánh bướm}} ở rốn phổi.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 3 - Mục 4.1.1).<br><b>🔍 Đối chiếu PED:</b> Đường Kerley B là phù mô kẽ vách liên tiểu thùy; cánh bướm là phù phế nang cấp.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Suy-tim-trai",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Triệu chứng thực thể của suy tim phải: Gan to (lúc đầu kiểu {{c1::gan đàn xếp}}, sau cứng không nhỏ); tĩnh mạch cổ nổi và phản hồi gan - TM cổ (+); tăng áp lực CVP; tím; phù (lúc đầu hai chi dưới, sau toàn thân/đa màng); đái ít sẫm màu; dấu hiệu {{c1::Hartzer (+)}}; huyết áp tối đa bình thường, tối thiểu {{c1::thường tăng (kẹt huyết áp)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 4 - Mục 4.1.2).<br><b>🔍 Đối chiếu PED:</b> Toàn bộ hội chứng ứ trệ tuần hoàn ngoại vi kinh điển.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Suy-tim-phai",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Đính chính]: Phim X-quang nghiêng trái trong suy tim phải bản in gốc ghi nhầm 'thất trái giãn làm khoảng sáng sau tim hẹp lại', thực tế lâm sàng chuẩn xác là {{c1::thất phải giãn làm khoảng sáng sau xương ức hẹp lại}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 4 - Mục 4.1.2 ghi chú đính chính).<br><b>🔍 Giải phẫu X-quang:</b> Thất phải nằm ngay sau xương ức, khi giãn sẽ lấp đầy khoảng sáng sau xương ức trên phim nghiêng.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Dinh-chinh",
-      "X-quang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Bệnh cảnh suy tim cấp ở trẻ em: Thường gặp suy tim trái hoặc toàn bộ tiến triển nhanh chóng, bệnh cảnh giống như {{c1::sốc tim}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 4 - Mục 4.2.1).<br><b>🔍 Đối chiếu PED:</b> Giảm nặng cung lượng tim đột ngột không bù trừ.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Suy-tim-cap",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Triệu chứng suy tuần hoàn ngoại vi trong suy tim cấp: Tinh thần kích thích vật vã; trẻ tái nhợt, chi lạnh, vã mồ hôi, vân tím; mạch nhanh nhỏ khó bắt; thời gian CRT {{c1::> 3 giây}}; huyết áp {{c1::hạ hoặc không đo được}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 4 - Mục 4.2.1).<br><b>🔍 Đối chiếu PED:</b> Tình trạng tưới máu mô cơ quan sụp đổ.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Suy-tim-cap",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Triệu chứng suy tim từ từ (suy tim mạn) ở trẻ nhũ nhi: Toàn thân (mệt mỏi, khóc yếu); Hô hấp (thở nhanh, thở rên, co kéo); Dinh dưỡng & tiêu hóa ({{c1::ăn bú kém, chậm lên cân, ra mồ hôi nhiều nhất là khi bú}}); Ứ trệ (TM cổ nổi, gan to, phù, đái ít).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 5 - Mục 4.2.2).<br><b>🔍 Đối chiếu PED:</b> Tam chứng bú ngắt quãng - thở nhanh co kéo - chậm tăng cân là chỉ điểm sớm nhất của suy tim nhũ nhi.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Suy-tim-man",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Chỉ số tim - ngực (CTR) trên phim X-quang ngực thẳng được coi là tim to bệnh lý khi: Trẻ sơ sinh CTR > {{c1::0,60}}; Trẻ nhũ nhi CTR > {{c1::0,55}}; Trẻ lớn CTR > {{c1::0,50}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 5.1).<br><b>🔍 Chẩn đoán:</b> Tỷ lệ đường kính ngang lớn nhất của tim chia đường kính lồng ngực.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "CTR-Xquang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trên siêu âm tim Doppler theo Simpson biplane, phân suất tống máu thất trái (LVEF) được phân độ: Bình thường LVEF ≥ 55-60%; Suy tim nhẹ LVEF {{c1::45 - 54%}}; Suy tim vừa LVEF {{c1::35 - 44%}}; Suy tim nặng LVEF {{c1::< 35%}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 5.3).<br><b>🔍 Siêu âm tim:</b> Phân suất co rút FS bình thường ≥ 28-30%, suy giảm khi FS < 25%.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "LVEF-Sieu-am"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Chỉ dấu sinh học peptide lợi niệu {{c1::NT-proBNP}} huyết thanh tăng cao vượt trội giúp bác sĩ cấp cứu phân biệt chính xác khó thở do suy tim với khó thở do viêm tiểu phế quản cấp.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 5.4).<br><b>🔍 Ý nghĩa:</b> NT-proBNP có độ nhạy rất cao trong chẩn đoán suy tim trẻ em.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "NT-proBNP"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Đánh giá mức độ suy tim theo NYHA gồm 4 độ: Độ I (có bệnh tim nhưng {{c1::không hạn chế hoạt động thông thường}}); Độ II (triệu chứng chỉ xuất hiện khi {{c1::gắng sức, giảm nhẹ hoạt động}}); Độ III (triệu chứng xuất hiện cả khi {{c1::gắng sức rất ít, hạn chế nhiều}}); Độ IV (triệu chứng xuất hiện {{c1::ngay cả lúc nghỉ ngơi}}).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 5 - Mục 5.1).<br><b>🔍 Đối chiếu PED:</b> Chủ yếu áp dụng cho trẻ lớn và người lớn.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Phan-do-NYHA",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Bảng phân độ suy tim trẻ em Việt Nam - Độ 1: Khó thở {{c1::chỉ khi gắng sức}}; Kích thước gan {{c1::< 2 cm dưới bờ sườn phải}}; Phù {{c1::không phù hoặc phù kín đáo}}; Nước tiểu {{c1::gần như bình thường}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 5 - Bảng mục 5.2).<br><b>🔍 Đối chiếu PED:</b> Thể suy tim nhẹ nhất, đáp ứng tốt với nghỉ ngơi và ăn nhạt.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Phan-do-VN",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Bảng phân độ suy tim trẻ em Việt Nam - Độ 2: Khó thở {{c1::thường xuyên}}; Kích thước gan {{c1::2 - 4 cm dưới bờ sườn phải}}; Phù {{c1::phù nhẹ hoặc phù vừa}}; Nước tiểu {{c1::giảm nhẹ}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 5 - Bảng mục 5.2).<br><b>🔍 Đối chiếu PED:</b> Bắt đầu cần điều trị thuốc lợi tiểu và ức chế men chuyển.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Phan-do-VN",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Bảng phân độ suy tim trẻ em Việt Nam - Độ 3: Khó thở {{c1::nặng}}; Kích thước gan {{c1::> 4 - 5 cm dưới bờ sườn phải, nhưng CÒN THU NHỎ sau điều trị (gan đàn xếp)}}; Phù {{c1::phù to, phù toàn thân}}; Nước tiểu {{c1::rất ít}}; Tiên lượng {{c1::suy tim CÒN HỒI PHỤC}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 5 - Bảng mục 5.2).<br><b>🔍 Đối chiếu PED:</b> Trọng tâm thi cử: Gan còn thu nhỏ = suy tim còn hồi phục.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Phan-do-VN",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Bảng phân độ suy tim trẻ em Việt Nam - Độ 4: Khó thở {{c1::nặng liên tục}}; Kích thước gan {{c1::to mạn tính KHÔNG THU NHỎ}}; Phù {{c1::phù to toàn thân, cổ trướng}}; Nước tiểu {{c1::thiểu niệu / vô niệu}}; Tiên lượng {{c1::rất ít hiệu quả, suy tim KHÔNG HỒI PHỤC, xơ gan do tim}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 5 - Bảng mục 5.2).<br><b>🔍 Đối chiếu PED:</b> Trọng tâm thi cử: Gan cứng không thu nhỏ = suy tim không hồi phục (xơ gan tim).",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Phan-do-VN",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thang điểm Ross cải tiến lượng hóa mức độ suy tim ở trẻ dưới 1 tuổi dựa trên 7 tiêu chí: {{c1::lượng sữa bú, thời gian cữ bú, nhịp thở, thở gắng sức, nhịp tim, kích thước gan và thời gian CRT}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 6.2).<br><b>🔍 Phân tầng:</b> 0-2đ (Ross I), 3-6đ (Ross II - nhẹ), 7-9đ (Ross III - vừa), 10-14đ (Ross IV - nặng).",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Thang-diem-Ross"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong thang điểm Ross cải tiến, tiêu chí lượng sữa bú mỗi cữ được tính 2 điểm khi giảm xuống mức {{c1::< 70 mL/cữ}} (bình thường > 100 mL/cữ tính 0 điểm).",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 6.2).<br><b>🔍 Lượng hóa:</b> Trẻ giảm lượng bú phản ánh suy tim đang tiến triển.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Thang-diem-Ross"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong thang điểm Ross cải tiến, thời gian mỗi cữ bú ở trẻ nhũ nhi được tính 2 điểm khi thời gian cữ bú kéo dài vượt quá {{c1::> 40 phút}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 6.2).<br><b>🔍 Lượng hóa:</b> Thời gian bú 20-40 phút tính 1 điểm; bú nhanh dưới 20 phút tính 0 điểm.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Thang-diem-Ross"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Chế độ ăn nhạt (hạn chế muối) trong suy tim theo giáo trình: Suy tim nhẹ giảm muối {{c1::< 3 g muối/ngày}}; Suy tim nặng ăn nhạt gần như hoàn toàn {{c1::< 1,2 g muối/ngày}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 6 - Mục 6.1.1).<br><b>🔍 Đối chiếu PED:</b> Tương đương < 0,5 g Natri/ngày trong suy tim nặng.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Che-do-an-nhat",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tư thế nằm đầu cao tối ưu cho bệnh nhi suy tim nặng là tư thế {{c1::Fowler (nửa nằm nửa ngồi góc 30 đến 45 độ)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.1).<br><b>🔍 Cơ chế:</b> Giúp cơ hoành hạ thấp làm tăng dung tích phổi và giảm lượng máu tĩnh mạch hồi lưu về tim phải.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Tu-the-Fowler"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong giai đoạn suy tim cấp có phù to và thiểu niệu, lượng dịch đưa vào cơ thể cần được hạn chế ở mức {{c1::70% đến 80% nhu cầu duy trì cơ bản (khoảng 60 - 80 mL/kg/ngày)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.1).<br><b>🔍 Thực hành:</b> Cần trừ đi lượng dịch pha thuốc tiêm truyền tĩnh mạch.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Han-che-dich"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Liều dùng thuốc lợi tiểu quai Furosemid theo giáo trình là {{c1::1 - 2 mg/kg/ngày}}; chú ý cần đề phòng {{c1::hạ kali máu, hạ natri máu}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 6 - Mục 6.1.2.A).<br><b>🔍 Đối chiếu PED:</b> Thuốc tác dụng nhanh, mạnh, giảm nhanh tiền gánh.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Loi-tieu-Furosemid",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Liều dùng thuốc lợi tiểu Thiazide theo giáo trình là {{c1::1 - 2 mg/kg/ngày}}; chú ý {{c1::cần bổ sung kali}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 6 - Mục 6.1.2.A).<br><b>🔍 Đối chiếu PED:</b> Lợi tiểu mức độ trung bình, dùng trong điều trị duy trì.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Loi-tieu-Thiazide",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Liều dùng thuốc lợi tiểu Spironolacton theo giáo trình là {{c1::1 - 3 mg/kg/ngày}}; Liều dùng Triamteren là {{c1::2 - 4 mg/kg/ngày}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 6 - Mục 6.1.2.A).<br><b>🔍 Đối chiếu PED:</b> Thuộc nhóm lợi tiểu giữ kali (kháng aldosterone hoặc ức chế kênh Na biểu mô).",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Loi-tieu-giu-K",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong điều trị suy tim trẻ em bằng Furosemid đường uống, sinh khả dụng chỉ đạt khoảng 50% so với đường tiêm tĩnh mạch, do đó liều uống thường {{c1::gấp đôi liều tiêm tĩnh mạch}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Dược lý:</b> Cần lưu ý khi chuyển đổi từ phác đồ Furosemid tiêm TM sang phác đồ uống xuất viện.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Duoc-ly-Furosemid"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Hiện tượng kháng thuốc lợi tiểu (Diuretic Resistance) được khắc phục bằng chiến lược phong bế nephron tuần tự, phối hợp Furosemid với {{c1::Thiazide hoặc Spironolacton}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Cơ chế:</b> Ức chế tái hấp thu Natri bù trừ tại các đoạn ống thận xa.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Khang-loi-tieu"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Tác dụng của Glycosid trợ tim (Digoxin) trên tim gồm 4 tác dụng: Làm tăng {{c1::tính co bóp cơ tim (inotropic dương)}}; làm chậm {{c1::dẫn truyền nhĩ - thất (dromotropic âm)}}; làm chậm {{c1::nhịp xoang (chronotropic âm)}}; làm tăng {{c1::tính tự động cơ thất (bathmotropic dương - nguy cơ loạn nhịp)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 6 - Mục 6.1.2.B.1).<br><b>🔍 Đối chiếu PED:</b> Bốn tác dụng kinh điển cần thuộc lòng khi đi thi.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Digoxin-tac-dung",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Liều tấn công số hóa nhanh của Digoxin theo giáo trình là {{c1::0,04 - 0,06 mg/kg/ngày}} chia làm 3 lần cách nhau 8 giờ theo tỷ lệ: Lần 1 uống {{c1::1/2 tổng liều}}; Lần 2 (sau 8h) uống {{c1::1/4 tổng liều}}; Lần 3 (sau 8h tiếp) uống {{c1::1/4 tổng liều còn lại}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 6 - Mục 6.1.2.B.1).<br><b>🔍 Đối chiếu PED:</b> Quy tắc 1/2 - 1/4 - 1/4 là câu hỏi thi cực kỳ kinh điển của Bộ môn Nhi Thái Bình.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Digoxin-lieu-tan-cong",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Liều duy trì của Digoxin theo giáo trình là {{c1::0,01 - 0,02 mg/kg/ngày}} chia làm {{c1::2 lần cách nhau 12 giờ}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 6 - Mục 6.1.2.B.1).<br><b>🔍 Đối chiếu PED:</b> Bắt đầu sau liều tấn công cuối cùng 12 giờ.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Digoxin-lieu-duy-tri",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Ở trẻ sơ sinh non tháng hoặc bệnh nhi có suy giảm chức năng thận, tổng liều tấn công số hóa Digoxin cần được giảm bớt {{c1::50%}} xuống còn {{c1::0,02 đến 0,03 mg/kg}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 9.1).<br><b>🔍 Dược lý:</b> Trẻ non tháng có độ thanh thải Digoxin qua thận giảm mạnh, nguy cơ ngộ độc rất cao.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Digoxin-non-thang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Khi chuyển đổi thuốc Digoxin từ đường uống sang đường tiêm tĩnh mạch, liều tiêm tĩnh mạch chỉ bằng {{c1::75% liều uống}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 9.1).<br><b>🔍 Dược lý:</b> Do sinh khả dụng đường uống chỉ đạt 70-80% so với tiêm tĩnh mạch.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Digoxin-chuyen-lieu"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Nồng độ trị liệu an toàn của Digoxin trong huyết thanh nằm trong khoảng hẹp từ {{c1::0,5 đến 0,9 ng/mL}} (nguy cơ ngộ độc tăng vọt khi nồng độ > 1,2 - 2,0 ng/mL).",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 9.1).<br><b>🔍 Xét nghiệm:</b> Lấy máu định lượng nồng độ Digoxin sau liều uống ít nhất 6 đến 8 giờ.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Digoxin-nong-do"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Yếu tố thuận lợi gây ngộ độc Digoxin theo giáo trình gồm: Quá liều, suy thận, rối loạn điện giải như {{c1::hạ kali máu, hạ magie máu, tăng canxi máu}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 7 - Mục 6.1.2.B.2).<br><b>🔍 Đối chiếu PED:</b> Hạ Kali máu là yếu tố nguy hiểm nhất và hay gặp nhất khi dùng kèm Furosemid.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Ngo-doc-Digoxin",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Triệu chứng lâm sàng ngộ độc Digoxin theo giáo trình: Tiêu hóa ({{c1::biếng ăn, buồn nôn, nôn mửa, đau bụng}}); Thần kinh - thị giác ({{c1::nhìn mờ, sợ ánh sáng, nhìn thấy quầng màu vàng, màu cam}}); Tim mạch ({{c1::mạch chậm, nhịp tim không đều, ngoại tâm thu}}).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 7 - Mục 6.1.2.B.2).<br><b>🔍 Đối chiếu PED:</b> Biếng ăn và nôn là dấu hiệu cảnh báo sớm nhất.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Ngo-doc-Digoxin",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Điện tâm đồ trong ngộ độc Digoxin theo giáo trình: Khoảng PR kéo dài (PQ kéo dài); ngoại tâm thu thất (nhất là {{c1::nhịp đôi, nhịp ba}}); nhịp nhanh trên thất kèm block AV; rung thất; dấu hiệu 'ngấm digitalis' là {{c1::ST chênh xuống dạng đáy chén}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 7 - Mục 6.1.2.B.2).<br><b>🔍 Đối chiếu PED:</b> ST đáy chén là ngấm thuốc; nhịp đôi và PAT with block là ngộ độc thực sự.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "ECG-Digoxin",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Năm bước điều trị ngộ độc Digoxin theo giáo trình: 1. {{c1::Ngừng thuốc ngay lập tức; rửa dạ dày}}; 2. {{c1::Lấy máu đo nồng độ Digoxin và điện giải (K+, Na+, Mg2+, Ca2+)}}; 3. {{c1::Theo dõi liên tục ĐTĐ}}; 4. {{c1::Bù kali}}; 5. {{c1::Điều trị rối loạn nhịp (Phenytoin/Lidocain/DigiFab)}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 7 - Mục 6.1.2.B.2).<br><b>🔍 Đối chiếu PED:</b> 5 bước điều trị chuẩn cần trình bày chính xác khi thi tự luận.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Dieu-tri-ngo-doc-Digoxin",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Quy tắc bù kali trong điều trị ngộ độc Digoxin theo giáo trình: Uống hoặc truyền dung dịch có kali với nồng độ {{c1::40 mEq/lít}} với tốc độ tối đa {{c1::0,3 mEq/kg/giờ}} (chống chỉ định nếu có {{c1::block nhĩ thất độ cao hoặc K+ máu > 5 mEq/L}}).",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 7 - Mục 6.1.2.B.2).<br><b>🔍 Đối chiếu PED:</b> Con số nồng độ 40 mEq/L và tốc độ 0,3 mEq/kg/h là chuẩn mực thi cử.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Bu-kali",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thuốc chống loạn nhịp hàng đầu được lựa chọn để điều trị loạn nhịp thất do ngộ độc Digoxin ở trẻ em là {{c1::Phenytoin (1,25 mg/kg truyền TM)}} hoặc {{c1::Lidocain (1 mg/kg tiêm TM bolus)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 9.2).<br><b>🔍 Dược lý:</b> Phenytoin phục hồi hoạt tính bơm Na+/K+-ATPase và cải thiện dẫn truyền nhĩ thất.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Phenytoin-Digoxin"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thuốc đặc trị giải độc đặc hiệu duy nhất trong ngộ độc Digoxin nặng đe dọa tính mạng là {{c1::kháng thể kháng Digoxin Fab (DigiFab)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 9.2).<br><b>🔍 Dược lý:</b> Các mảnh phân tử Fab gắn kết với Digoxin tự do trong tuần hoàn tạo phức hợp trơ đào thải qua thận.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "DigiFab"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Công thức ước tính số lọ kháng thể DigiFab cần dùng khi biết nồng độ Digoxin huyết thanh là: Số lọ Fab = {{c1::(Nồng độ Digoxin ng/mL × Cân nặng kg) / 100}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 9.2).<br><b>🔍 Cấp cứu:</b> Nếu không rõ nồng độ huyết thanh trong tình huống ngừng tim, trẻ nhỏ tiêm ngay 1 đến 2 lọ DigiFab.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "DigiFab-cong-thuc"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Ở bệnh nhân ngộ độc Digoxin xuất hiện loạn nhịp tim, thủ thuật {{c1::sốc điện khử rung chuyển nhịp (Cardioversion)}} bị CHỐNG CHỈ ĐỊNH tương đối vì có thể kích hoạt rung thất trơ không thể hồi phục.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 10 - Cạm bẫy 7).<br><b>🔍 Cấp cứu:</b> Chỉ sốc điện khi bệnh nhân đã rơi vào rung thất mất mạch thực sự sau khi đã tiêm kháng thể DigiFab.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Chong-chi-dinh-soc-dien"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Liều truyền tĩnh mạch liên tục của Dopamin theo giáo trình là {{c1::5 - 10 µg/kg/phút}}; Liều của Dobutamin là {{c1::2,5 - 10 µg/kg/phút}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 7 - Mục 6.1.2.B.3).<br><b>🔍 Đối chiếu PED:</b> Dopamin liều 5-10 kích thích beta-1; Dobutamin chọn lọc beta-1.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Catecholamine",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Đính chính]: Bản in giáo trình gốc in nhầm đơn vị Norepinephrin là '0,25 - 1 mg/kg/phút', thực tế lâm sàng bắt buộc phải là {{c1::0,25 - 1 µg/kg/phút (microgam)}} truyền tĩnh mạch.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 7 - Mục 6.1.2.B.3 ghi chú đính chính).<br><b>🔍 Cảnh báo dược lý:</b> Liều miligam (mg) sẽ gây co mạch hoại tử tử vong tức thì, liều chuẩn lâm sàng là microgam (µg).",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Dinh-chinh",
-      "Norepinephrine"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Liều dùng các thuốc giãn mạch theo giáo trình: Nitroprusside {{c1::0,5 - 8 µg/kg/phút}} (truyền TM chậm bọc giấy bạc); Hydralazine {{c1::0,5 - 7 mg/kg/ngày}} chia 3 lần; Prazosine ban đầu {{c1::0,2 - 0,4 mg/ngày}}, duy trì {{c1::6 - 15 mg/kg/ngày}} chia 4 lần; Captopril {{c1::0,5 - 6 mg/kg/ngày}} chia 3 lần.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 7 - Mục 6.1.2.B.4).<br><b>🔍 Đối chiếu PED:</b> Bảng liều thuốc giãn mạch kinh điển trong giáo trình.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Thuoc-gian-mach",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thuốc ức chế men chuyển Captopril nên được cho trẻ uống vào thời điểm {{c1::trước bữa ăn 1 giờ}} để đảm bảo thuốc được hấp thu tối đa.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Dược lý:</b> Thức ăn làm giảm sinh khả dụng của Captopril từ 30% đến 40%.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Captopril-uong"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thuốc inotrope ức chế enzyme Phosphodiesterase-3 được ưu tiên hàng đầu trong suy tim cấp có huyết áp còn ổn định là {{c1::Milrinone}}, với liều truyền duy trì từ {{c1::0,25 đến 0,75 µg/kg/phút}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Dược lý:</b> Milrinone vừa làm tăng sức co bóp cơ tim vừa làm giãn tiểu động mạch ngoại vi và động mạch phổi (Inodilator).",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Milrinone"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Ở bệnh nhân suy tim cấp có huyết áp tâm thu còn thấp hoặc ranh giới, khi bắt đầu truyền Milrinone nên {{c1::bỏ qua liều tấn công (bolus)}} để phòng ngừa nguy cơ tụt huyết áp cấp tính.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Lâm sàng:</b> Liều bolus 50 µg/kg trong 30-60 phút dễ gây giãn mạch hệ thống đột ngột.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Milrinone-bolus"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thuốc chẹn beta giao cảm được khuyến cáo hàng đầu trong suy tim mạn tính ở trẻ em là {{c1::Carvedilol}}, với liều bắt đầu cực thấp từ {{c1::0,05 mg/kg/liều}} ngày 2 lần.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Dược lý:</b> Carvedilol chẹn không chọn lọc thụ thể beta-1, beta-2 và chẹn alpha-1 gây giãn mạch.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Carvedilol"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Nguyên tắc bất di bất dịch khi chỉ định Carvedilol cho trẻ suy tim là {{c1::tuyệt đối không khởi trị trong giai đoạn suy tim cấp mất bù}} và chỉ bắt đầu khi {{c1::bệnh nhân đã hết ứ dịch hoàn toàn và huyết động ổn định}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Cơ chế:</b> Tác dụng ức chế co bóp ban đầu của chẹn beta có thể gây sụp đổ cung lượng tim và sốc tim tử vong.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Carvedilol-nguyen-tac"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PEDYTB - Ôn thi] Các biện pháp phòng bệnh suy tim theo giáo trình gồm: 1. Giải quyết sớm nguyên nhân và yếu tố thuận lợi; 2. Phòng tim bẩm sinh ({{c1::tiêm phòng Rubella, tránh hóa chất độc hại, chụp X-quang, dùng thuốc thận trọng khi mang thai}}); 3. Quản lý và điều trị dự phòng viêm họng liên cầu để {{c1::phòng thấp tim và bệnh van tim hậu thấp}}.",
-    "extra": "<b>📚 Nguồn:</b> PEDYTB (Trang 7 - Mục VII).<br><b>🔍 Đối chiếu PED:</b> Ba trụ cột dự phòng suy tim nhi khoa.",
-    "tags": [
-      "PED-48",
-      "PEDYTB",
-      "Phong-benh",
-      "On-thi-YTB"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Sai lầm chết người thường gặp ở trẻ suy tim thở nhanh kèm ran ẩm ở phổi là chẩn đoán nhầm thành {{c1::viêm phế quản phổi}} và điều trị bằng kháng sinh kéo dài vô ích.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 10 - Cạm bẫy 1).<br><b>🔍 Cạm bẫy:</b> Luôn sờ bờ dưới gan, đo SpO2 và nghe kỹ tiếng tim trước khi kết luận khó thở do phổi.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Cam-bay-lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Ở trẻ tim bẩm sinh có luồng shunt Trái - Phải lớn (như VSD lớn), việc cho thở oxy nồng độ cao (FiO2 100%) là sai lầm nguy hiểm vì {{c1::oxy gây giãn mạch phổi mạnh, làm tụt sức cản phổi và tăng lượng máu ngập lụt lên phổi}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 10 - Cạm bẫy 6).<br><b>🔍 Cạm bẫy:</b> Làm nặng thêm phù phổi cấp và cướp máu của tuần hoàn đại thể.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Cam-bay-lam-sang"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Quy tắc điều dưỡng an toàn trước khi cho trẻ uống Digoxin là phải dùng ống nghe đếm nhịp tim ở mỏm trọn vẹn 1 phút; tạm dừng thuốc ngay nếu nhịp tim dưới {{c1::< 100 nhịp/phút}} ở trẻ nhũ nhi hoặc dưới {{c1::< 70 nhịp/phút}} ở trẻ lớn.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 13 - Tip 3).<br><b>🔍 Thực hành:</b> Báo cáo bác sĩ ngay để kiểm tra điện tim và nồng độ thuốc máu.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Tip-dieu-duong"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Để tránh hiện tượng tụt huyết áp tư thế phối hợp đột ngột, thuốc ức chế men chuyển Captopril nên được cho uống cách thời điểm tiêm hoặc uống Furosemid ít nhất {{c1::1 đến 2 giờ}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 13 - Tip 8).<br><b>🔍 Dược lý:</b> Tránh tác dụng cộng gộp hạ tiền gánh và hạ hậu gánh cùng một lúc.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Tip-dieu-duong"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Ở bệnh nhi suy tim nặng đang điều trị nội khoa, việc cân trẻ mỗi sáng giúp phát hiện sớm tình trạng ứ dịch nếu cân nặng tăng đột ngột trên {{c1::> 30 đến 50 g/ngày}} ở trẻ nhũ nhi.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 13 - Tip 4).<br><b>🔍 Thực hành:</b> Cân vào cùng một giờ mỗi sáng sau khi đi tiểu và trước cữ ăn đầu tiên.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Tip-dieu-duong"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Khi theo dõi trẻ suy tim cấp được truyền thuốc tăng co bóp inotrope, lượng nước tiểu qua sonde tiểu lưu cần được đo mỗi giờ và duy trì đạt đích tối thiểu trên {{c1::> 1 mL/kg/giờ}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 13 - Tip 9).<br><b>🔍 Hồi sức:</b> Nước tiểu là thước đo nhạy cảm nhất của mức lọc cầu thận và tưới máu cơ quan đích.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Tip-dieu-duong"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Trình bày định nghĩa và 4 đặc điểm chung của suy tim ở trẻ em?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• Định nghĩa: Tình trạng tim không còn khả năng đảm bảo cung lượng đáp ứng nhu cầu của cơ thể. 4 đặc điểm: 1. Thường gặp suy tim cấp (viêm cầu thận cấp, thiếu B1, viêm cơ tim, hẹp eo ĐMC, PDA lớn...). 2. Chủ yếu là suy tim sung huyết. 3. Suy tim mạn hay gặp do thấp tim, tim bẩm sinh, van tim hậu thấp. 4. Lâm sàng không giống người lớn: biểu hiện chủ yếu bằng kém ăn, nôn nhiều, chậm lên cân.<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Trẻ nhỏ có sức co bóp dự trữ thấp và thể tích nhát bóp cố định nên phụ thuộc vào tần số tim. Suy tim ở trẻ nhũ nhi bộc lộ gián tiếp qua cữ bú kéo dài > 30 phút kèm vã mồ hôi trán.",
-    "extra": "",
-    "tags": [
-      "PED-48",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Trình bày 4 yếu tố đảm bảo cung lượng tim và các cơ chế bù trừ trong suy tim?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• 4 yếu tố: Tiền gánh, Hậu gánh, Tần số tim, Sức bóp cơ tim. Bù trừ tại tim: Giãn sợi cơ (Frank-Starling), phì đại tế bào cơ tim, hệ giao cảm (tăng epinephrin/norepinephrin). Bù trừ ngoài tim: Hệ RAAS (co mạch, ứ muối nước), tăng tiết yếu tố bài xuất natri qua nước tiểu (ANF/ANP), tăng tách và sử dụng O2 tại tổ chức.<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Hoạt hóa giao cảm và trục RAAS bù trừ ban đầu giúp giữ huyết áp nuôi não và mạch vành, nhưng nồng độ Catecholamine và Angiotensin II cao kéo dài sẽ gây độc tế bào cơ tim, tái cấu trúc buồng tim và tăng cả tiền gánh lẫn hậu gánh.",
-    "extra": "",
-    "tags": [
-      "PED-48",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Trình bày 4 nhóm nguyên nhân gây suy tim ở trẻ em theo giáo trình?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• 1. Tăng gánh thể tích (tiền gánh): Shunt Trái - Phải (PDA, VSD, ASD), rò ĐTM lớn, thân chung ĐM, chuyển gốc ĐM, teo van ba lá. 2. Tăng gánh áp lực (hậu gánh): Hẹp van ĐMC, hẹp eo ĐMC, tắc TM phổi (tim 3 nhĩ, TAPVC, teo van ba lá), tăng áp ĐMP sơ sinh, hẹp van ĐMP. 3. Tại cơ tim: Viêm cơ tim (thấp, nhiễm khuẩn, nhiễm độc), bệnh cơ tim, ALCAPA, rối loạn chuyển hóa sơ sinh (hạ đường huyết, hạ Ca, hạ Mg). 4. Do rối loạn nhịp tim: Nhịp nhanh (Basedow, thuốc), nhịp chậm (suy giáp bẩm sinh, ngộ độc digitalis, morphin), loạn nhịp.<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Xác định đúng nhóm cơ chế quyết định phác đồ: Tăng tiền gánh dùng lợi tiểu; Tăng hậu gánh dùng giãn mạch; Giảm co bóp cơ tim dùng inotrope (Dobutamin, Milrinone); Rối loạn chuyển hóa sơ sinh cần bù ngay Canxi/Glucose.",
-    "extra": "",
-    "tags": [
-      "PED-48",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Trình bày triệu chứng lâm sàng và cận lâm sàng của suy tim trái?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• Cơ năng: Khó thở (gắng sức bú, thường xuyên, Orthopnea, hen tim, phù phổi cấp); Ho (khan ban đêm, đờm lẫn máu). Thực thể: Tim to lệch trái, nhịp nhanh, gallop T3, thổi tâm thu ở mỏm do hở hai lá cơ năng; Phổi có ran ẩm đáy phổi (phù phổi cấp ran dâng như thủy triều); Huyết áp tâm thu giảm, tâm trương bình thường (huyết áp kẹt). X-quang: Tim to bên trái, rốn phổi mờ, đường Kerley, cánh bướm. ĐTĐ: Dày thất trái. Siêu âm: Giãn thất trái, nhĩ trái, đo EF, FS.<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Khó thở trong suy tim trái là do ứ huyết tiểu tuần hoàn (tăng áp lực mao mạch phổi bít). Ở trẻ nhũ nhi, khó thở khi bú và cữ bú kéo dài > 30 phút là dấu hiệu tương đương khó thở khi gắng sức ở người lớn.",
-    "extra": "",
-    "tags": [
-      "PED-48",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Trình bày triệu chứng lâm sàng và cận lâm sàng của suy tim phải?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• Cơ năng: Khó thở thường xuyên tăng dần; Đau tức hạ sườn phải do gan to. Thực thể: Gan to (lúc đầu kiểu gan đàn xếp, sau cứng không nhỏ); Tĩnh mạch cổ nổi, phản hồi gan - TM cổ (+); Tăng áp lực CVP; Tím da niêm mạc; Phù mềm (lúc đầu hai chi dưới, sau toàn thân/đa màng); Đái ít sẫm màu; Hartzer (+), thổi tâm thu nhẹ mũi ức do hở ba lá cơ năng; Huyết áp tối đa bình thường, tối thiểu tăng (kẹt HA). X-quang: Cung dưới phải giãn, mỏm tim hếch lên, ĐMP giãn, phổi ứ huyết; phim nghiêng hẹp khoảng sáng sau tim (chuẩn xác là sau xương ức). ĐTĐ: Dày nhĩ phải, dày thất phải, trục phải. Siêu âm: Thất phải giãn, tăng áp ĐMP.<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Suy tim phải gây ứ trệ đại tuần hoàn. Gan đàn xếp là tiêu chuẩn lâm sàng vô cùng nhạy bén để đánh giá đáp ứng điều trị: bờ gan co nhỏ sau tiêm Furosemid là bằng chứng của suy tim còn hồi phục.",
-    "extra": "",
-    "tags": [
-      "PED-48",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Trình bày Bảng phân độ suy tim trẻ em Việt Nam (Độ 1 đến Độ 4)?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• Độ 1: Khó thở khi gắng sức, gan < 2 cm, không phù/kín đáo, nước tiểu gần bình thường. Độ 2: Khó thở thường xuyên, gan 2-4 cm, phù nhẹ/vừa, nước tiểu giảm nhẹ. Độ 3: Khó thở nặng, gan > 4-5 cm (CÒN THU NHỎ sau điều trị - gan đàn xếp), phù to toàn thân, nước tiểu rất ít, điều trị tích cực triệu chứng giảm (CÒN HỒI PHỤC). Độ 4: Khó thở nặng liên tục, gan to mạn tính KHÔNG THU NHỎ, phù to cổ trướng, thiểu niệu/vô niệu, điều trị rất ít hiệu quả (KHÔNG HỒI PHỤC - xơ gan tim).<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Trọng tâm thi cử: Phân định giữa suy tim còn hồi phục (Độ 3: gan đàn xếp còn co nhỏ) và suy tim không hồi phục (Độ 4: gan xơ cứng không thu nhỏ). Trẻ nhũ nhi có thể dùng thêm thang điểm Ross cải tiến (Ross I đến IV).",
-    "extra": "",
-    "tags": [
-      "PED-48",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Trình bày phác đồ số hóa nhanh liều tấn công và liều duy trì của Digoxin?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• Liều tấn công: 0,04 - 0,06 mg/kg/ngày đường uống chia 3 lần cách 8 giờ: Lần 1 uống 1/2 tổng liều; Lần 2 (sau 8h) uống 1/4 tổng liều; Lần 3 (sau 8h tiếp) uống 1/4 tổng liều. Liều duy trì: 0,01 - 0,02 mg/kg/ngày chia 2 lần cách nhau 12 giờ.<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Tác dụng của Digoxin: Tăng co bóp (inotropic dương), chậm dẫn truyền AV (dromotropic âm), chậm nhịp xoang (chronotropic âm), tăng tính tự động thất (bathmotropic dương). Trước khi cho uống mỗi liều, điều dưỡng bắt buộc phải đếm nhịp tim qua ống nghe trọn 1 phút.",
-    "extra": "",
-    "tags": [
-      "PED-48",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Trình bày các bước điều trị ngộ độc Digoxin và quy tắc bù kali?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• 5 bước: 1. Ngừng thuốc ngay lập tức, rửa dạ dày. 2. Lấy máu đo nồng độ Digoxin và điện giải (K, Na, Mg, Ca). 3. Theo dõi liên tục ĐTĐ. 4. Bù kali: Uống hoặc truyền dung dịch có nồng độ 40 mEq/lít, tốc độ tối đa 0,3 mEq/kg/giờ (chống chỉ định nếu block AV độ cao hoặc K+ > 5 mEq/L). 5. Điều trị loạn nhịp (Phenytoin hoặc Lidocain; dùng DigiFab nếu ngộ độc nặng đe dọa tính mạng).<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Tuyệt đối chống chỉ định sốc điện khử rung khi ngộ độc Digoxin vì dễ gây rung thất trơ tử vong. Kháng thể DigiFab gắn kết đặc hiệu với Digoxin tự do đào thải qua thận.",
-    "extra": "",
-    "tags": [
-      "PED-48",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "basic",
-    "front": "Chỉ ra điểm đính chính quan trọng về liều Norepinephrin và hình ảnh X-quang trong giáo trình gốc?",
-    "back": "<b>📖 Văn bản gốc [PEDYTB - Giáo trình Nhi Thái Bình]:</b><br>• 1. Liều Norepinephrin: Bản in giáo trình in nhầm là '0,25 - 1 mg/kg/phút', thực tế lâm sàng chuẩn xác bắt buộc phải là '0,25 - 1 µg/kg/phút' (microgam). 2. Phim X-quang nghiêng trái trong suy tim phải: Bản in gốc ghi nhầm 'thất trái giãn làm khoảng sáng sau tim hẹp lại', thực tế lâm sàng chuẩn xác là 'thất phải giãn làm khoảng sáng sau xương ức hẹp lại'.<br><br><b>🔍 Góc nhìn bổ sung [PED - Chuẩn hóa Lâm sàng Quốc tế]:</b><br>• Đây là 2 cạm bẫy in ấn kinh điển trong giáo trình. Đi thi hoặc làm bài lâm sàng cần nhớ rõ con số chuẩn để không bị mất điểm oan và đảm bảo an toàn tuyệt đối khi kê đơn thuốc hồi sức.",
-    "extra": "",
-    "tags": [
-      "PED-48",
-      "Basic-Card",
-      "Dung-hoa-2-phien-ban"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thuốc lợi tiểu Thiazide thường dùng duy trì ở trẻ em là {{c1::Hydrochlorothiazide}}, với liều lượng từ {{c1::1 đến 2 mg/kg/ngày}} uống chia làm 2 lần.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Dược lý:</b> Tác động lên đoạn đầu ống lượn xa, hiệu quả vừa phải và luôn cần theo dõi bù Kali.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Loi-tieu-Thiazide"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong điều trị kháng thuốc lợi tiểu ở trẻ suy tim nặng, thuốc lợi tiểu thiazide-like đường uống thường được phối hợp với Furosemid là {{c1::Metolazone}}, với liều dùng từ {{c1::0,2 đến 0,4 mg/kg/ngày}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Cơ chế:</b> Phong bế nephron tuần tự, ức chế tái hấp thu muối nước bù trừ tại ống lượn xa.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Khang-loi-tieu"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Bên cạnh tác dụng lợi tiểu giữ Kali, Spironolacton còn có vai trò bảo vệ tim mạch lâu dài quan trọng là {{c1::chống xơ hóa cơ tim và ức chế tái cấu trúc thất trái}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Cơ chế:</b> Kháng tác động gây xơ hóa và chết tế bào của Aldosterone trên mô kẽ cơ tim.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Spironolacton"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thuốc ức chế men chuyển tác dụng kéo dài dùng cho trẻ lớn có thể uống 1 đến 2 lần mỗi ngày là {{c1::Enalapril}}, với liều duy trì từ {{c1::0,1 đến 0,5 mg/kg/ngày}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Dược lý:</b> Được chuyển hóa tại gan thành Enalaprilat có hoạt tính, tiện lợi trong điều trị ngoại trú dài hạn.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Enalapril"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Mục tiêu liều đích duy trì của thuốc chẹn beta Carvedilol trong điều trị suy tim mạn tính ở trẻ em là {{c1::0,2 đến 0,4 mg/kg/ngày}} (chia làm 2 lần uống).",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Thực hành:</b> Bắt đầu từ liều thăm dò 0,05 mg/kg/liều và tăng gấp đôi liều mỗi 2 tuần nếu dung nạp tốt.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Carvedilol"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Cơ chế phân tử của Milrinone là ức chế enzyme Phosphodiesterase-3 (PDE-3), dẫn đến làm tăng nồng độ chất truyền tin thứ hai {{c1::cAMP (cyclic AMP)}} bên trong tế bào cơ tim và cơ trơn mạch máu.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Dược lý:</b> cAMP tăng làm tăng dòng canxi vào cơ tim (tăng co bóp) và giãn cơ trơn thành mạch (giảm tiền gánh và hậu gánh).",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Milrinone"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thuốc tăng co bóp cơ tim Dobutamin tác động kích thích chủ yếu và chọn lọc lên thụ thể {{c1::beta-1 adrenergic}} trên màng tế bào cơ tim.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Dược lý:</b> Kích thích thụ thể này làm tăng nồng độ canxi nội bào qua trung gian protein Gs, tăng sức co bóp mà ít gây co mạch ngoại biên.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Dobutamin"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thuốc vận mạch Dopamin ở dải liều thấp (1 đến 3 µg/kg/phút) kích thích chọn lọc lên thụ thể {{c1::Dopaminergic tại giường mạch thận và tạng}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Dược lý:</b> Liều này làm giãn mạch thận, nhưng hiện nay không còn được khuyến cáo dùng đơn độc chỉ để bảo vệ thận.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Dopamin"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thuốc vận mạch co mạch đầu tay được lựa chọn khi suy tim cấp có tụt huyết áp nặng trơ với Dopamin và Dobutamin là {{c1::Norepinephrine (Noradrenalin)}} với liều truyền từ {{c1::0,05 đến 0,1 µg/kg/phút}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Dược lý:</b> Kích thích mạnh thụ thể alpha-1 gây co mạch nâng huyết áp trung bình, kèm kích thích nhẹ beta-1 hỗ trợ co bóp cơ tim.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Norepinephrine"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Khi truyền Nitroprusside kéo dài trên 48 đến 72 giờ hoặc ở bệnh nhân có suy giảm chức năng thận, cần cảnh giác nguy cơ ngộ độc chuyển hóa do tích lũy {{c1::Cyanide và Thiocyanate}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 8.2).<br><b>🔍 Cảnh báo:</b> Biểu hiện ngộ độc gồm toan lactic tiến triển, lú lẫn, co giật và tụt huyết áp trơ.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Nitroprusside"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Triệu chứng ngộ độc Digoxin trên thị giác ở trẻ lớn có hiện tượng nhìn thấy quầng màu vàng hoặc màu xanh lá cây quanh nguồn sáng, thuật ngữ y khoa gọi là {{c1::Xanthopsia}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 9.2).<br><b>🔍 Cơ chế:</b> Độc tính ức chế bơm ion Na+/K+-ATPase trên tế bào nón của võng mạc mắt.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Xanthopsia"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Rối loạn nhịp tim được coi là đặc trưng nhất và gợi ý cao nhất cho ngộ độc Digitalis trên điện tâm đồ là {{c1::nhịp nhanh nhĩ kèm block nhĩ thất (PAT with block)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 9.2).<br><b>🔍 Điện tim:</b> Vừa tăng tính tự động của ổ ngoại vị nhĩ vừa ức chế dẫn truyền qua nút nhĩ thất.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "PAT-block"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Kháng thể DigiFab trung hòa độc tính của Digoxin bằng cách gắn kết với phân tử Digoxin tự do với ái lực cao hơn thụ thể Na+/K+-ATPase của cơ tim tới {{c1::1000 lần}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 9.2).<br><b>🔍 Dược lý:</b> Tạo phức hợp kháng nguyên - kháng thể trơ không độc và được đào thải nhanh chóng qua nước tiểu.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "DigiFab"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Thở áp lực dương liên tục (CPAP) trong suy tim cấp có ứ huyết phổi giúp cải thiện chức năng thất trái nhờ cơ chế {{c1::làm tăng áp lực trong lồng ngực, từ đó làm giảm áp lực xuyên thành thất trái (giảm hậu gánh thất trái)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 7).<br><b>🔍 Cơ chế:</b> Đồng thời đẩy dịch phế nang ngược trở lại mô kẽ và tuần hoàn bạch huyết.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "CPAP-suy-tim"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong thang điểm Ross cải tiến, tiêu chí tần số tim lúc nghỉ ngơi được tính 2 điểm khi tần số tim tăng cao hơn bình thường theo tuổi trên {{c1::> 20 nhịp/phút}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 6.2).<br><b>🔍 Phân tầng:</b> Tăng 10-20 nhịp/phút tính 1 điểm; bình thường theo tuổi tính 0 điểm.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Ross-HR"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong thang điểm Ross cải tiến, tiêu chí tần số thở lúc nghỉ ngơi được tính 2 điểm khi tần số thở tăng cao hơn giới hạn bình thường theo tuổi trên {{c1::> 20 nhịp/phút}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 6.2).<br><b>🔍 Phân tầng:</b> Thở nhanh > 20 nhịp so với ngưỡng sinh lý là dấu hiệu suy tim tiến triển.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Ross-RR"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong thang điểm Ross cải tiến, tiêu chí kích thước gan to dưới bờ sườn phải được tính 2 điểm khi bờ dưới gan vượt quá {{c1::> 3 cm}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 6.2).<br><b>🔍 Phân tầng:</b> Gan < 2 cm tính 0 điểm; gan 2-3 cm tính 1 điểm.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Ross-gan"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Đường Kerley B trên X-quang ngực thẳng là các đường mờ mảnh dài 1 đến 2 cm nằm ngang sát màng phổi ở góc sườn hoành, hình thành do {{c1::sự tích tụ dịch phù nề trong các vách liên tiểu thùy phổi}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 5.1).<br><b>🔍 Hình ảnh:</b> Là dấu hiệu kinh điển của tình trạng ứ dịch mô kẽ mạn tính do tăng áp lực nhĩ trái.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Kerley-B"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tiêu chuẩn điện tâm đồ dày tâm thất phải ở trẻ nhũ nhi bao gồm: Trục điện tim chuyển sang {{c1::phải (Right Axis Deviation)}}; Sóng R ưu thế ở {{c1::chuyển đạo V1}}; và sóng T {{c1::dương ở V1 sau ngày tuổi thứ 7}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 5.2).<br><b>🔍 Điện tim:</b> Bình thường sóng T ở V1 phải âm từ ngày thứ 7 sau sinh đến tuổi thiếu niên.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "ECG-RVH"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tiêu chuẩn điện tâm đồ dày tâm thất trái ở trẻ em được xác định khi chỉ số Sokolow-Lyon (biên độ sóng S ở V1 cộng biên độ sóng R ở V5 hoặc V6) vượt quá {{c1::bách phân vị thứ 98 theo lứa tuổi}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 5.2).<br><b>🔍 Điện tim:</b> Kèm theo dấu hiệu quá tải tâm thu thất trái (ST chênh xuống và T âm ở V5, V6).",
-    "tags": [
-      "PED-48",
-      "PED",
-      "ECG-LVH"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trên siêu âm tim Doppler, vận tốc tối đa của dòng hở van ba lá (V_TR) cho phép ước tính áp lực động mạch phổi tâm thu (PASP) thông qua phương trình Bernoulli cải tiến: PASP = {{c1::4 × (V_TR)^2 + RAP}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 5.3).<br><b>🔍 Sinh lý:</b> RAP là áp lực ước tính của tâm nhĩ phải (thường lấy mốc 5 đến 10 mmHg).",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Bernoulli-PASP"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong Case 1 viêm cơ tim cấp gây sốc tim ở trẻ 8 tháng, phân suất tống máu LVEF giảm nặng xuống 28%, thuốc tăng co bóp inotrope đường truyền TM phối hợp đầu tay là {{c1::Dobutamin kết hợp Milrinone}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 12 - Case 1).<br><b>🔍 Xử trí:</b> Tuyệt đối không dùng Digoxin trong giai đoạn viêm cơ tim cấp mất bù vì cơ tim rất nhạy cảm dễ rung thất.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Case-1-Myocarditis"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong Case 1 viêm cơ tim cấp, liệu pháp miễn dịch đặc hiệu liều cao giúp trung hòa kháng thể và giảm viêm cơ tim là truyền {{c1::IVIG (Immunoglobulin liều 2 g/kg trong 24 giờ)}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 12 - Case 1).<br><b>🔍 Miễn dịch:</b> Can thiệp then chốt cải thiện tỷ lệ sống còn trong viêm cơ tim cấp do virus.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Case-1-IVIG"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong Case 2 thông liên thất lớn gây suy tim độ 3 ở trẻ 2 tháng tuổi, thuốc ức chế men chuyển {{c1::Captopril}} được phối hợp với lợi tiểu nhằm mục đích {{c1::giảm hậu gánh đại tuần hoàn, từ đó làm giảm luồng shunt Trái - Phải qua lỗ thông}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 12 - Case 2).<br><b>🔍 Huyết động:</b> Giảm áp lực thất trái giúp giảm lượng máu tràn lên phổi.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Case-2-VSD"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Trong Case 2 thông liên thất lớn có suy tim và suy dinh dưỡng nặng, chỉ định ngoại khoa vàng là {{c1::phẫu thuật tim hở vá lỗ thông liên thất lúc trẻ 2 đến 3 tháng tuổi}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 12 - Case 2).<br><b>🔍 Ngoại khoa:</b> Ngăn ngừa biến chứng tăng áp lực mạch máu phổi cố định không hồi phục (Eisenmenger).",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Case-2-Phau-thuat"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Cạm bẫy lâm sàng: Khi thấy trẻ suy tim thở nhanh và nhịp tim nhanh, sai lầm chết người là truyền dịch nhanh (bolus) vì sẽ gây {{c1::quá tải thể tích tức thì và bùng phát phù phổi cấp ngừng thở}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 10 - Cạm bẫy 2).<br><b>🔍 Cảnh báo:</b> Chỉ truyền dịch bolus khi có bằng chứng chắc chắn của sốc giảm thể tích mất nước nặng.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Cam-bay-truyen-dich"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Cạm bẫy lâm sàng: Sốc điện khử rung khi bệnh nhân ngộ độc Digoxin xuất hiện loạn nhịp tim có thể kích hoạt {{c1::rung thất trơ không thể hồi phục}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 10 - Cạm bẫy 7).<br><b>🔍 Cấp cứu:</b> Ưu tiên dùng Phenytoin, Lidocain và kháng thể đặc hiệu DigiFab.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Cam-bay-soc-dien"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Cạm bẫy lâm sàng: Ngừng đột ngột thuốc chẹn beta giao cảm Carvedilol đang dùng duy trì sẽ gây {{c1::hiện tượng dội ngược (Rebound) nhịp nhanh kịch phát và bùng phát suy tim cấp}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 10 - Cạm bẫy 9).<br><b>🔍 Dược lý:</b> Do số lượng thụ thể beta đã bị điều hòa tăng (Upregulation) trong thời gian dùng thuốc.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Cam-bay-chen-beta"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tip thực hành: Điều dưỡng hoặc bác sĩ nên dùng bút dạ y tế gạch một đường nhỏ đánh dấu {{c1::bờ dưới gan trên da bụng trẻ vào buổi sáng}} để theo dõi đáp ứng với Furosemid trực quan.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 13 - Tip 2).<br><b>🔍 Thực hành:</b> Sự co nhỏ của bờ gan là bằng chứng khách quan của giảm ứ huyết đại tuần hoàn.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Tip-danh-dau-gan"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tip thực hành: Đục lỗ núm vú bình sữa rộng hơn một chút cho trẻ suy tim bú nhằm mục đích {{c1::sữa chảy dễ dàng khi mút nhẹ, giúp tiết kiệm công thở và năng lượng}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 13 - Tip 7).<br><b>🔍 Dinh dưỡng:</b> Giúp trẻ bú đủ no trước khi bị kiệt sức.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Tip-num-vu"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tip thực hành: Hạn chế tối đa làm các thủ thuật gây đau đớn dồn dập cho trẻ suy tim vì {{c1::cơn khóc thét kích thích giao cảm làm tăng vọt huyết áp và tần số tim, đẩy buồng tim vào phù phổi cấp}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 13 - Tip 12).<br><b>🔍 Chăm sóc:</b> Giữ trẻ yên tĩnh và có mẹ vỗ về bên cạnh.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Tip-tranh-kich-thich"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Checkpoint: Ở trẻ mắc thông liên thất lớn, triệu chứng suy tim sung huyết thường không xuất hiện ngay sau sinh mà bùng phát lúc 6-8 tuần tuổi vì {{c1::sức cản mạch máu phổi (PVR) sinh lý giảm dần và chạm đáy lúc 6-8 tuần tuổi, làm luồng shunt Trái - Phải đạt mức cực đại}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 11 - Checkpoint 1).<br><b>🔍 Cơ chế:</b> Chênh áp giữa hai tâm thất trở nên cực đại khi PVR giảm sâu.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Checkpoint-VSD-PVR"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Checkpoint: Tiếng rung tâm trương ngắn nghe được ở mỏm tim trong thông liên thất lớn phản ánh tình trạng {{c1::rung tâm trương cơ năng do tăng lưu lượng máu lớn qua van hai lá (Qp/Qs ≥ 2:1)}} chứ không phải hẹp van hai lá thực thể.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 11 - Checkpoint 4).<br><b>🔍 Thính chẩn:</b> Là bằng chứng gián tiếp khẳng định luồng shunt Trái - Phải có lưu lượng rất lớn.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Checkpoint-rung-tam-truong"
-    ]
-  },
-  {
-    "type": "cloze",
-    "text": "[PED - Lâm sàng] Tiêu chuẩn xuất viện an toàn của trẻ suy tim: Trẻ tự ăn bú tốt, hết khó thở, phổi sạch ran, gan thu nhỏ {{c1::< 2 cm dưới bờ sườn}}, và phác đồ thuốc chuyển sang đường uống ổn định tối thiểu {{c1::48 giờ}}.",
-    "extra": "<b>📚 Nguồn:</b> PED (Mục 14.2).<br><b>🔍 Xuất viện:</b> Gia đình biết cách cho uống thuốc chuẩn bằng bơm tiêm chia vạch.",
-    "tags": [
-      "PED-48",
-      "PED",
-      "Tieu-chuan-xuat-vien"
-    ]
-  }
-]
+{
+  "topic": "Nhi khoa Y6::PED-48: Suy tim ở trẻ em",
+  "version": "master_combo_v1",
+  "date": "2026-09-28",
+  "total_cards": 137,
+  "cards": [
+    {
+      "id": "PED48-B01",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Mục tiêu bài học",
+      "section": "B0",
+      "front": "4 mục tiêu học tập của bài Suy tim ở trẻ em theo giáo trình Y Thái Bình là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trình bày định nghĩa & nguyên nhân phổ biến; 2) Sinh lý bệnh học; 3) Triệu chứng lâm sàng & phân độ; 4) Phác đồ điều trị suy tim cấp.<br><br><b>💡 Lưu ý:</b><br>Bám sát 4 mục tiêu này khi làm bài thi tự luận hoặc vấn đáp.",
+      "extra": "Văn bản gốc: MỤC TIÊU 1 - 4 (Trang 1).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Muc-tieu"
+      ]
+    },
+    {
+      "id": "PED48-B02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Mục tiêu bài học",
+      "section": "B0",
+      "text": "[Barem gốc] 4 mục tiêu bài Suy tim YTB: 1) Định nghĩa và {{c1::nguyên nhân phổ biến}}; 2) {{c1::Sinh lý bệnh học}}; 3) Triệu chứng lâm sàng và {{c1::phân độ}}; 4) Phác đồ {{c1::điều trị suy tim cấp}}.",
+      "extra": "Văn bản gốc: MỤC TIÊU (Trang 1).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Muc-tieu"
+      ]
+    },
+    {
+      "id": "PED48-B03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Định nghĩa",
+      "section": "B1",
+      "text": "[Barem gốc] Suy tim là tình trạng tim không còn khả năng đảm bảo {{c1::cung lượng}} đáp ứng {{c1::nhu cầu của cơ thể}}.",
+      "extra": "Văn bản gốc mục 1.1 Định nghĩa (Trang 1).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Dinh-nghia"
+      ]
+    },
+    {
+      "id": "PED48-B04",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Dịch tễ học",
+      "section": "B1",
+      "text": "[Barem gốc] Theo Demopoulos và Sonnenblick (1995) tại Mỹ: số người suy tim ước tính lên đến {{c1::6 triệu người}} vào năm 2000, với {{c1::400.000 ca mới}} mỗi năm.",
+      "extra": "Văn bản gốc mục 1.2 Dịch tễ học (Trang 1).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Dich-te"
+      ]
+    },
+    {
+      "id": "PED48-B05",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Dịch tễ học",
+      "section": "B1",
+      "text": "[Barem gốc] Tại Việt Nam, tần suất suy tim ở trẻ em ước tính khoảng {{c1::0,1 - 0,2%}}.",
+      "extra": "Văn bản gốc mục 1.2 Dịch tễ học (Trang 1). Con số chuẩn thi YTB.",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Dich-te-VN"
+      ]
+    },
+    {
+      "id": "PED48-B06",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Tiên lượng",
+      "section": "B1",
+      "text": "[Barem gốc] Tỷ lệ tử vong ở trẻ suy tim nặng lên đến {{c1::50%}}; ngay cả người mới bị suy tim thì hơn {{c1::một nửa (50%)}} sẽ chết trong vòng 5 năm.",
+      "extra": "Văn bản gốc mục 1.2 (Trang 1).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Tien-luong"
+      ]
+    },
+    {
+      "id": "PED48-B07",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Đặc điểm chung",
+      "section": "B1",
+      "text": "[Barem gốc] Ở trẻ em thường gặp {{c1::suy tim cấp}} và thể bệnh chủ yếu là {{c1::suy tim sung huyết}}.",
+      "extra": "Văn bản gốc mục 1.3 Đặc điểm chung của suy tim ở trẻ em (Trang 1).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Dac-diem-chung"
+      ]
+    },
+    {
+      "id": "PED48-B08",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm chung",
+      "section": "B1",
+      "front": "Các nguyên nhân thường gặp gây suy tim cấp ở trẻ em theo giáo trình Y Thái Bình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Viêm cầu thận cấp tăng huyết áp, thiếu vitamin B1, ngộ độc giáp trạng, viêm cơ tim virus, hẹp eo ĐMC nặng, còn ống động mạch lớn sơ sinh, chèn ép tim cấp, loạn nhịp tim kéo dài.<br><br><b>💡 Lưu ý:</b><br>Suy tim cấp ở trẻ em diễn tiến tối cấp đe dọa tính mạng ngay.",
+      "extra": "Văn bản gốc mục 1.3 (Trang 1).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Nguyen-nhan"
+      ]
+    },
+    {
+      "id": "PED48-B09",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Đặc điểm chung",
+      "section": "B1",
+      "text": "[Barem gốc] Suy tim từ từ mạn tính ở trẻ em hay gặp do: {{c1::thấp tim}}, {{c1::bệnh tim bẩm sinh}}, và {{c1::bệnh van tim hậu thấp}}.",
+      "extra": "Văn bản gốc mục 1.3 (Trang 1).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Dac-diem-chung"
+      ]
+    },
+    {
+      "id": "PED48-B10",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Đặc điểm chung",
+      "section": "B1",
+      "text": "[Barem gốc] Khác người lớn, suy tim ở trẻ em biểu hiện chủ yếu bằng các triệu chứng toàn thân và tiêu hóa: {{c1::kém ăn}}, {{c1::nôn nhiều}}, và {{c1::chậm lên cân}}.",
+      "extra": "Văn bản gốc mục 1.3 (Trang 1).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Trieu-chung"
+      ]
+    },
+    {
+      "id": "PED48-B11",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Sinh lý bệnh",
+      "section": "B2",
+      "front": "4 yếu tố ảnh hưởng trực tiếp đến cung lượng tim theo sơ đồ giáo trình Y Thái Bình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiền gánh; 2) Hậu gánh; 3) Tần số tim; 4) Sức bóp của tim.<br><br><b>💡 Lưu ý:</b><br>Cung lượng tim (CO) được đảm bảo nhờ sự phối hợp cân bằng của 4 yếu tố này.",
+      "extra": "Văn bản gốc mục 2.1 Các yếu tố ảnh hưởng đến cung lượng tim (Trang 2).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Sinh-ly-benh"
+      ]
+    },
+    {
+      "id": "PED48-B12",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Sinh lý bệnh",
+      "section": "B2",
+      "text": "[Barem gốc] Tiền gánh là {{c1::thể tích}} hoặc {{c1::áp lực cuối tâm trương}} của tâm thất.",
+      "extra": "Văn bản gốc mục 2.1 (Trang 2).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Tien-ganh"
+      ]
+    },
+    {
+      "id": "PED48-B13",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Sinh lý bệnh",
+      "section": "B2",
+      "text": "[Barem gốc] Hậu gánh là {{c1::sức cản của mạch máu}} với {{c1::sức bóp của tâm thất}}.",
+      "extra": "Văn bản gốc mục 2.1 (Trang 2).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Hau-ganh"
+      ]
+    },
+    {
+      "id": "PED48-B14",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Cơ chế bù trừ",
+      "section": "B2",
+      "text": "[Barem gốc] Cơ chế bù trừ tại tim gồm: {{c1::giãn sợi cơ}} để đáp ứng tiền gánh và {{c1::phì đại các tế bào cơ tim}}.",
+      "extra": "Văn bản gốc mục 2.2 Cơ chế bù trừ trong suy tim (Trang 2).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Bu-tru-tai-tim"
+      ]
+    },
+    {
+      "id": "PED48-B15",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Cơ chế bù trừ",
+      "section": "B2",
+      "text": "[Barem gốc] Hệ thần kinh giao cảm bù trừ bằng tăng tiết {{c1::epinephrin và norepinephrin}} để tăng nhịp và co bóp, tái phân bố máu ưu tiên cho {{c1::tim và não}}.",
+      "extra": "Văn bản gốc mục 2.2 (Trang 2). Kéo dài gây tăng hậu gánh do co mạch.",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Giao-cam"
+      ]
+    },
+    {
+      "id": "PED48-B16",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Cơ chế bù trừ",
+      "section": "B2",
+      "text": "[Barem gốc] Giảm tưới máu thận khởi động hệ {{c1::Renin - Angiotensin - Aldosteron (RAAS)}} càng gây co mạch, {{c1::ứ muối và nước}}.",
+      "extra": "Văn bản gốc mục 2.2 Cơ chế bù trừ ngoài tim (Trang 2).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "RAAS"
+      ]
+    },
+    {
+      "id": "PED48-B17",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Cơ chế bù trừ",
+      "section": "B2",
+      "text": "[Barem gốc] Ứ máu ở thành tâm nhĩ gây kích thích tăng tiết {{c1::yếu tố gây bài xuất natri (ANF)}} qua nước tiểu.",
+      "extra": "Văn bản gốc mục 2.2 (Trang 2): Atrial natriuretic factor (bản gốc ghi atrial natrium factor).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "ANF"
+      ]
+    },
+    {
+      "id": "PED48-B18",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Cơ chế bù trừ",
+      "section": "B2",
+      "text": "[Barem gốc] Cơ chế bù trừ ngoài tim tại mô: {{c1::tăng khả năng tách và sử dụng O₂}} tại tổ chức.",
+      "extra": "Văn bản gốc mục 2.2 Cơ chế bù trừ ngoài tim (Trang 2).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Bu-tru-ngoai-tim"
+      ]
+    },
+    {
+      "id": "PED48-B19",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Hậu quả suy tim",
+      "section": "B2",
+      "text": "[Barem gốc] Tăng áp lực tĩnh mạch ngoại vi gây: Suy tim phải dẫn đến {{c1::phù, gan to, tĩnh mạch cổ nổi}}; Suy tim trái dẫn đến {{c1::khó thở, ho ra máu, phù phổi}}.",
+      "extra": "Văn bản gốc mục 2.3 Hậu quả của suy tim (Trang 2).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Hau-qua"
+      ]
+    },
+    {
+      "id": "PED48-B20",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Nguyên nhân tiền gánh",
+      "section": "B3",
+      "text": "[Barem gốc] Bệnh tim bẩm sinh có shunt Trái - Phải gây tăng gánh thể tích (tiền gánh) gồm: {{c1::PDA (còn ống ĐM)}}, {{c1::VSD (thông liên thất)}}, và {{c1::ASD (thông liên nhĩ)}}.",
+      "extra": "Văn bản gốc mục 3.1 Do tăng gánh thể tích (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Tien-ganh",
+        "Shunt"
+      ]
+    },
+    {
+      "id": "PED48-B21",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Nguyên nhân tiền gánh",
+      "section": "B3",
+      "text": "[Barem gốc] Các nguyên nhân gây suy tim sớm do tăng tiền gánh gồm: {{c1::dò động tĩnh mạch lớn}}, {{c1::thân chung động mạch}}, {{c1::chuyển gốc động mạch}}, và {{c1::teo van ba lá}}.",
+      "extra": "Văn bản gốc mục 3.1 (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Tien-ganh"
+      ]
+    },
+    {
+      "id": "PED48-B22",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Nguyên nhân hậu gánh",
+      "section": "B3",
+      "text": "[Barem gốc] Nguyên nhân tăng gánh áp lực (tăng hậu gánh) thất trái gồm: {{c1::hẹp van động mạch chủ nặng}} hoặc {{c1::hẹp eo động mạch chủ nặng}}.",
+      "extra": "Văn bản gốc mục 3.2 Do tăng gánh áp lực (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Hau-ganh"
+      ]
+    },
+    {
+      "id": "PED48-B23",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Nguyên nhân hậu gánh",
+      "section": "B3",
+      "text": "[Barem gốc] Các bệnh gây tắc tĩnh mạch phổi dẫn đến tăng hậu gánh gồm: {{c1::tim ba nhĩ}}, {{c1::bất thường hồi lưu tĩnh mạch phổi}}, và {{c1::teo van ba lá}}.",
+      "extra": "Văn bản gốc mục 3.2 (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Hau-ganh"
+      ]
+    },
+    {
+      "id": "PED48-B24",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Nguyên nhân hậu gánh",
+      "section": "B3",
+      "text": "[Barem gốc] Nguyên nhân tăng gánh áp lực gây suy tim phải gồm: {{c1::tăng áp động mạch phổi sơ sinh}} và {{c1::hẹp van động mạch phổi}}.",
+      "extra": "Văn bản gốc mục 3.2 (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Suy-tim-phai"
+      ]
+    },
+    {
+      "id": "PED48-B25",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Nguyên nhân tại cơ tim",
+      "section": "B3",
+      "text": "[Barem gốc] Nguyên nhân suy tim tại cơ tim gồm: {{c1::viêm cơ tim (thấp, nhiễm khuẩn, nhiễm độc)}}, {{c1::bệnh cơ tim}}, và {{c1::ALCAPA (bất thường ĐM vành trái)}}.",
+      "extra": "Văn bản gốc mục 3.3 Tại cơ tim (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Co-tim"
+      ]
+    },
+    {
+      "id": "PED48-B26",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Nguyên nhân tại cơ tim",
+      "section": "B3",
+      "text": "[Barem gốc] Ở trẻ sơ sinh, rối loạn chuyển hóa tại cơ tim gây suy tim gồm: {{c1::hạ đường huyết}}, {{c1::hạ canxi huyết}}, và {{c1::hạ magie huyết nặng}}.",
+      "extra": "Văn bản gốc mục 3.3 (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "So-sinh",
+        "Chuyen-hoa"
+      ]
+    },
+    {
+      "id": "PED48-B27",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Rối loạn nhịp",
+      "section": "B3",
+      "text": "[Barem gốc] Suy tim do nhịp tim nhanh hay gặp trong bệnh {{c1::Basedow}} hoặc {{c1::do thuốc}}.",
+      "extra": "Văn bản gốc mục 3.4 Do rối loạn nhịp tim (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Nhip-nhanh"
+      ]
+    },
+    {
+      "id": "PED48-B28",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Rối loạn nhịp",
+      "section": "B3",
+      "text": "[Barem gốc] Suy tim do nhịp tim chậm hay gặp trong {{c1::suy giáp bẩm sinh}} hoặc {{c1::ngộ độc thuốc (digitalis, morphin)}}.",
+      "extra": "Văn bản gốc mục 3.4 Do rối loạn nhịp tim (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Nhip-cham"
+      ]
+    },
+    {
+      "id": "PED48-B29",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim trái",
+      "section": "B4",
+      "text": "[Barem gốc] Suy tim trái cơ năng: lúc đầu khó thở khi {{c1::gắng sức}}, sau khó thở {{c1::thường xuyên}}, ngồi thì dễ thở hơn (tư thế {{c1::orthopnea}}), đột ngột trong hen tim/phù phổi cấp.",
+      "extra": "Văn bản gốc mục 4.1.1 Suy tim trái (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Suy-tim-trai",
+        "Kho-tho"
+      ]
+    },
+    {
+      "id": "PED48-B30",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim trái",
+      "section": "B4",
+      "text": "[Barem gốc] Triệu chứng ho trong suy tim trái: hay xảy ra {{c1::ban đêm hoặc khi gắng sức}}; thường là {{c1::ho khan}}, có khi {{c1::ho ra đờm lẫn máu}}.",
+      "extra": "Văn bản gốc mục 4.1.1 (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Suy-tim-trai",
+        "Ho"
+      ]
+    },
+    {
+      "id": "PED48-B31",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim trái",
+      "section": "B4",
+      "text": "[Barem gốc] Khám tim suy tim trái: mỏm tim lệch {{c1::trái}}, nhịp tim {{c1::nhanh}}, có thể có tiếng {{c1::ngựa phi (gallop)}}, và tiếng thổi tâm thu ở mỏm do {{c1::hở van hai lá cơ năng}}.",
+      "extra": "Văn bản gốc mục 4.1.1 (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Suy-tim-trai",
+        "Kham-tim"
+      ]
+    },
+    {
+      "id": "PED48-B32",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim trái",
+      "section": "B4",
+      "text": "[Barem gốc] Khám phổi suy tim trái: thường thấy ran ẩm ở đáy phổi; cơn hen tim có {{c1::ran rít, ran ẩm}}; phù phổi cấp có ran ẩm to nhỏ hạt {{c1::dâng như nước thủy triều}}.",
+      "extra": "Văn bản gốc mục 4.1.1 (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Suy-tim-trai",
+        "Ran-phoi"
+      ]
+    },
+    {
+      "id": "PED48-B33",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim trái",
+      "section": "B4",
+      "text": "[Barem gốc] Huyết áp trong suy tim trái: huyết áp tối đa (tâm thu) {{c1::giảm}}, nhưng huyết áp tối thiểu (tâm trương) {{c1::bình thường}}.",
+      "extra": "Văn bản gốc mục 4.1.1 (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Huyet-ap"
+      ]
+    },
+    {
+      "id": "PED48-B34",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim trái cận lâm sàng",
+      "section": "B4",
+      "text": "[Barem gốc] X-quang suy tim trái: rốn phổi mờ, có thể gặp {{c1::đường Kerley}} hoặc {{c1::hình cánh bướm}}; ECG có hình ảnh {{c1::dày thất trái (tăng gánh thất trái)}}.",
+      "extra": "Văn bản gốc mục 4.1.1 (Trang 3).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "X-quang",
+        "ECG"
+      ]
+    },
+    {
+      "id": "PED48-B35",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim phải",
+      "section": "B4",
+      "text": "[Barem gốc] Suy tim phải cơ năng: khó thở {{c1::thường xuyên, ngày một tăng}} và {{c1::không có cơn kịch phát}}; đau tức hạ sườn phải do {{c1::gan to và đau}}.",
+      "extra": "Văn bản gốc mục 4.1.2 Suy tim phải (Trang 4).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Suy-tim-phai"
+      ]
+    },
+    {
+      "id": "PED48-B36",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim phải",
+      "section": "B4",
+      "text": "[Barem gốc] Khám gan trong suy tim phải: lúc đầu kiểu {{c1::\"gan đàn xếp\" (thu nhỏ sau điều trị)}}, sau {{c1::cứng và không nhỏ được nữa}}.",
+      "extra": "Văn bản gốc mục 4.1.2 (Trang 4).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Gan-dan-xep"
+      ]
+    },
+    {
+      "id": "PED48-B37",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim phải",
+      "section": "B4",
+      "text": "[Barem gốc] Ứ trệ ngoại biên suy tim phải: tĩnh mạch cổ nổi, phản hồi gan - tĩnh mạch cổ {{c1::dương tính}}, và áp lực tĩnh mạch trung ương (CVP) {{c1::tăng}}.",
+      "extra": "Văn bản gốc mục 4.1.2 (Trang 4).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "TM-co",
+        "CVP"
+      ]
+    },
+    {
+      "id": "PED48-B38",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim phải",
+      "section": "B4",
+      "text": "[Barem gốc] Tính chất phù suy tim phải: phù {{c1::mềm}}; lúc đầu ở {{c1::hai chi dưới}}, sau phù {{c1::toàn thân hoặc phù đa màng}}.",
+      "extra": "Văn bản gốc mục 4.1.2 (Trang 4). Kèm đái ít, nước tiểu sẫm màu.",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Phu"
+      ]
+    },
+    {
+      "id": "PED48-B39",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim phải",
+      "section": "B4",
+      "text": "[Barem gốc] Khám tim suy tim phải có dấu hiệu {{c1::Hartzer dương tính}}; huyết áp tối đa bình thường, tối thiểu thường {{c1::tăng (kẹt huyết áp)}}.",
+      "extra": "Văn bản gốc mục 4.1.2 (Trang 4). Thổi tâm thu nhẹ mũi ức do hở 3 lá cơ năng.",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Hartzer",
+        "Huyet-ap"
+      ]
+    },
+    {
+      "id": "PED48-B40",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim phải cận lâm sàng",
+      "section": "B4",
+      "text": "[Barem gốc] X-quang suy tim phải: cung dưới phải giãn, mỏm tim {{c1::hếch lên}}, cung ĐMP giãn; ECG có {{c1::dày nhĩ phải, dày thất phải, trục phải}}.",
+      "extra": "Văn bản gốc mục 4.1.2 (Trang 4). Siêu âm: thất phải giãn to & tăng áp ĐMP.",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "X-quang",
+        "ECG"
+      ]
+    },
+    {
+      "id": "PED48-B41",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim cấp",
+      "section": "B4",
+      "text": "[Barem gốc] Suy tuần hoàn ngoại vi trong suy tim cấp: kích thích, chi lạnh, vân tím, mạch nhanh nhỏ, CRT {{c1::> 3 giây}}, huyết áp {{c1::hạ hoặc không đo được}}.",
+      "extra": "Văn bản gốc mục 4.2.1 Suy tim cấp (Trang 4). Giống bệnh cảnh sốc tim.",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Suy-tim-cap",
+        "Soc-tim"
+      ]
+    },
+    {
+      "id": "PED48-B42",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim cấp",
+      "section": "B4",
+      "text": "[Barem gốc] Triệu chứng ứ đọng suy tim cấp: thở rên, co kéo, ran ẩm đáy dâng lan dần, gan to đau, nước tiểu {{c1::đái ít hoặc vô niệu}}.",
+      "extra": "Văn bản gốc mục 4.2.1 (Trang 4).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Suy-tim-cap"
+      ]
+    },
+    {
+      "id": "PED48-B43",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Suy tim mạn",
+      "section": "B4",
+      "text": "[Barem gốc] Triệu chứng suy tim từ từ (mạn tính): bú kém ăn ít, {{c1::chậm lên cân (Failure to thrive)}}, và {{c1::ra mồ hôi nhiều (nhất là khi bú)}}.",
+      "extra": "Văn bản gốc mục 4.2.2 Suy tim từ từ (Trang 5).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Suy-tim-man"
+      ]
+    },
+    {
+      "id": "PED48-B44",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Phân độ NYHA",
+      "section": "B5",
+      "front": "4 mức độ suy tim theo Hiệp hội Tim mạch New York (NYHA) ghi trong giáo trình YTB?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Độ I: không hạn chế thể lực; Độ II: giảm nhẹ, triệu chứng khi gắng sức; Độ III: hạn chế nhiều, triệu chứng khi gắng sức ít; Độ IV: triệu chứng ngay khi nghỉ ngơi.<br><br><b>💡 Lưu ý:</b><br>Chủ yếu áp dụng cho trẻ lớn và người lớn.",
+      "extra": "Văn bản gốc mục 5.1 Đánh giá mức độ suy tim theo NYHA (Trang 5).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "NYHA"
+      ]
+    },
+    {
+      "id": "PED48-B45",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phân độ NYHA",
+      "section": "B5",
+      "text": "[Barem gốc] Phân độ NYHA: Độ I là {{c1::không hạn chế}}; Độ II là hạn chế nhẹ {{c1::khi gắng sức}}; Độ III là hạn chế nhiều {{c1::khi gắng sức ít}}; Độ IV là triệu chứng {{c1::ngay cả lúc nghỉ ngơi}}.",
+      "extra": "Văn bản gốc mục 5.1 (Trang 5).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "NYHA"
+      ]
+    },
+    {
+      "id": "PED48-B46",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phân độ lâm sàng VN",
+      "section": "B5",
+      "text": "[Barem gốc] Phân độ lâm sàng VN - Độ 1: khó thở {{c1::khi gắng sức}}; gan dưới bờ sườn phải {{c1::&lt; 2 cm}}; phù {{c1::không phù hoặc phù kín đáo}}; nước tiểu {{c1::gần như bình thường}}.",
+      "extra": "Văn bản gốc bảng mục 5.2 Phân loại theo các dấu hiệu suy tim lâm sàng (Trang 5).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Phan-do-VN",
+        "Do-1"
+      ]
+    },
+    {
+      "id": "PED48-B47",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phân độ lâm sàng VN",
+      "section": "B5",
+      "text": "[Barem gốc] Phân độ lâm sàng VN - Độ 2: khó thở {{c1::thường xuyên}}; gan dưới bờ sườn phải {{c1::2 - 4 cm}}; phù {{c1::phù nhẹ hoặc vừa}}; nước tiểu {{c1::giảm nhẹ}}.",
+      "extra": "Văn bản gốc bảng mục 5.2 (Trang 5).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Phan-do-VN",
+        "Do-2"
+      ]
+    },
+    {
+      "id": "PED48-B48",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phân độ lâm sàng VN",
+      "section": "B5",
+      "text": "[Barem gốc] Phân độ lâm sàng VN - Độ 3: khó thở {{c1::nặng}}; gan dưới bờ sườn phải {{c1::> 4 - 5 cm}}, nhưng {{c1::còn thu nhỏ sau điều trị (gan đàn xếp)}}.",
+      "extra": "Văn bản gốc bảng mục 5.2 (Trang 5).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Phan-do-VN",
+        "Do-3"
+      ]
+    },
+    {
+      "id": "PED48-B49",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phân độ lâm sàng VN",
+      "section": "B5",
+      "text": "[Barem gốc] Phân độ lâm sàng VN - Độ 3: phù {{c1::to, toàn thân}}; nước tiểu {{c1::rất ít}}; điều trị triệu chứng giảm ({{c1::suy tim còn hồi phục}}).",
+      "extra": "Văn bản gốc bảng mục 5.2 (Trang 5).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Phan-do-VN",
+        "Do-3"
+      ]
+    },
+    {
+      "id": "PED48-B50",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phân độ lâm sàng VN",
+      "section": "B5",
+      "text": "[Barem gốc] Phân độ lâm sàng VN - Độ 4: khó thở {{c1::nặng liên tục}}; gan {{c1::to mạn tính không thu nhỏ}}; phù to cổ trướng; tiên lượng {{c1::suy tim không hồi phục (xơ gan tim)}}.",
+      "extra": "Văn bản gốc bảng mục 5.2 (Trang 5). Thiểu niệu / vô niệu, điều trị rất ít hiệu quả.",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Phan-do-VN",
+        "Do-4"
+      ]
+    },
+    {
+      "id": "PED48-B51",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Phân độ lâm sàng VN",
+      "section": "B5",
+      "front": "Điểm khác biệt mấu chốt giữa suy tim Độ 3 và Độ 4 trong bảng phân độ lâm sàng Việt Nam?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Độ 3: gan to còn thu nhỏ sau điều trị (gan đàn xếp, suy tim còn hồi phục); Độ 4: gan to mạn tính không thu nhỏ (xơ gan tim, suy tim không hồi phục).<br><br><b>💡 Lưu ý:</b><br>Khả năng co nhỏ của bờ gan sau lợi tiểu là dấu mốc tiên lượng then chốt.",
+      "extra": "Văn bản gốc bảng mục 5.2 (Trang 5).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Phan-do-VN"
+      ]
+    },
+    {
+      "id": "PED48-B52",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Không dùng thuốc",
+      "section": "B6",
+      "text": "[Barem gốc] Suy tim nặng: nghỉ ngơi tuyệt đối tại giường tư thế {{c1::Fowler (nửa nằm nửa ngồi)}}; ăn nhạt gần hoàn toàn {{c1::&lt; 1,2 g muối/ngày}} (suy tim nhẹ: {{c1::&lt; 3 g muối/ngày}}).",
+      "extra": "Văn bản gốc mục 6.1.1 Những biện pháp không dùng thuốc (Trang 6).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Fowler",
+        "An-nhat"
+      ]
+    },
+    {
+      "id": "PED48-B53",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Lợi tiểu",
+      "section": "B6",
+      "text": "[Barem gốc] Furosemid là lợi tiểu quai nhanh, mạnh với liều {{c1::1 - 2 mg/kg/ngày}}; cần đề phòng biến chứng {{c1::hạ kali máu, hạ natri máu}}.",
+      "extra": "Văn bản gốc mục A. Thuốc lợi tiểu (Trang 6). Giảm tiền gánh.",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Furosemid"
+      ]
+    },
+    {
+      "id": "PED48-B54",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Lợi tiểu",
+      "section": "B6",
+      "text": "[Barem gốc] Thuốc lợi tiểu duy trì: Thiazide liều {{c1::1 - 2 mg/kg/ngày}} (cần bổ sung kali); Spironolacton liều {{c1::1 - 3 mg/kg/ngày}} (kháng aldosterone, {{c1::giữ kali}}).",
+      "extra": "Văn bản gốc mục A (Trang 6).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Thiazide",
+        "Spironolacton"
+      ]
+    },
+    {
+      "id": "PED48-B55",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Lợi tiểu",
+      "section": "B6",
+      "text": "[Barem gốc] Triamteren là thuốc lợi tiểu giữ kali với liều {{c1::2 - 4 mg/kg/ngày}}.",
+      "extra": "Văn bản gốc mục A (Trang 6).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Triamteren"
+      ]
+    },
+    {
+      "id": "PED48-B56",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Digoxin tác dụng",
+      "section": "B6",
+      "front": "4 tác dụng sinh lý của Glucosid trợ tim (Digoxin) lên cơ tim theo giáo trình YTB?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tăng tính co bóp (inotropic +); 2) Giảm dẫn truyền nhĩ - thất (dromotropic -); 3) Chậm nhịp xoang (chronotropic -); 4) Tăng tính tự động cơ thất (bathmotropic +).<br><br><b>💡 Lưu ý:</b><br>Tác dụng bathmotropic dương tính là nguồn gốc gây loạn nhịp thất khi quá liều.",
+      "extra": "Văn bản gốc mục B.1 Glucosid trợ tim (Trang 6).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Digoxin"
+      ]
+    },
+    {
+      "id": "PED48-B57",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Digoxin liều dùng",
+      "section": "B6",
+      "text": "[Barem gốc] Digoxin liều tấn công (số hóa nhanh): {{c1::0,04 - 0,06 mg/kg/ngày}} chia 3 lần cách 8h: Lần 1 dùng {{c1::1/2 tổng liều}}, lần 2 dùng {{c1::1/4}}, lần 3 dùng {{c1::1/4}}.",
+      "extra": "Văn bản gốc mục B.1 Liều lượng (Trang 6).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Digoxin-tan-cong"
+      ]
+    },
+    {
+      "id": "PED48-B58",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Digoxin liều dùng",
+      "section": "B6",
+      "text": "[Barem gốc] Digoxin liều duy trì: {{c1::0,01 - 0,02 mg/kg/ngày}} chia làm {{c1::2 lần cách nhau 12 giờ}}.",
+      "extra": "Văn bản gốc mục B.1 Liều lượng (Trang 6).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Digoxin-duy-tri"
+      ]
+    },
+    {
+      "id": "PED48-B59",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Ngộ độc Digoxin",
+      "section": "B6",
+      "text": "[Barem gốc] Yếu tố thuận lợi ngộ độc Digoxin: quá liều, suy thận, và rối loạn điện giải gồm {{c1::hạ kali máu}}, {{c1::hạ magie máu}}, và {{c1::tăng canxi máu}}.",
+      "extra": "Văn bản gốc mục B.2 Ngộ độc Digoxin (Trang 7).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Ngo-doc-Digoxin"
+      ]
+    },
+    {
+      "id": "PED48-B60",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Ngộ độc Digoxin",
+      "section": "B6",
+      "text": "[Barem gốc] Triệu chứng ngộ độc Digoxin: tiêu hóa (biếng ăn, nôn, đau bụng); thị giác ({{c1::nhìn mờ, sợ sáng, quầng vàng cam}}); tim mạch ({{c1::mạch chậm, ngoại tâm thu}}).",
+      "extra": "Văn bản gốc mục B.2 (Trang 7).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Ngo-doc-Digoxin"
+      ]
+    },
+    {
+      "id": "PED48-B61",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Ngộ độc Digoxin",
+      "section": "B6",
+      "text": "[Barem gốc] ĐTĐ ngộ độc Digoxin: PR kéo dài, ngoại tâm thu thất (nhịp đôi, nhịp ba); dấu hiệu ngấm digitalis là {{c1::ST chênh xuống dạng đáy chén}}.",
+      "extra": "Văn bản gốc mục B.2 (Trang 7).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "ECG",
+        "Ngo-doc-Digoxin"
+      ]
+    },
+    {
+      "id": "PED48-B62",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Điều trị ngộ độc Digoxin",
+      "section": "B6",
+      "text": "[Barem gốc] Xử trí ngộ độc Digoxin: ngừng thuốc ngay, rửa dạ dày; lấy máu đo {{c1::nồng độ Digoxin máu}} và {{c1::điện giải máu (K⁺, Na⁺, Mg²⁺, Ca²⁺)}}; monitor ĐTĐ liên tục.",
+      "extra": "Văn bản gốc mục B.2 Điều trị ngộ độc Digoxin (Trang 7).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Cap-cuu-Digoxin"
+      ]
+    },
+    {
+      "id": "PED48-B63",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Điều trị ngộ độc Digoxin",
+      "section": "B6",
+      "text": "[Barem gốc] Bù kali ngộ độc Digoxin: nồng độ {{c1::40 mEq/lít}}, tốc độ tối đa {{c1::0,3 mEq/kg/giờ}}; chống chỉ định khi K⁺ máu {{c1::> 5 mEq/L}} hoặc có {{c1::block nhĩ thất độ cao}}.",
+      "extra": "Văn bản gốc mục B.2 (Trang 7).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Bu-kali"
+      ]
+    },
+    {
+      "id": "PED48-B64",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Điều trị ngộ độc Digoxin",
+      "section": "B6",
+      "text": "[Barem gốc] Điều trị loạn nhịp do ngộ độc Digoxin dùng {{c1::Phenytoin (Diphenylhydantoin)}} hoặc {{c1::Lidocain}}; ngộ độc nặng đe dọa tính mạng dùng {{c1::kháng thể DigiFab}}.",
+      "extra": "Văn bản gốc mục B.2 (Trang 7).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Phenytoin",
+        "DigiFab"
+      ]
+    },
+    {
+      "id": "PED48-B65",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Inotrope Catecholamine",
+      "section": "B6",
+      "text": "[Barem gốc] Inotrope catecholamine truyền TM liên tục: Dopamin liều {{c1::5 - 10 µg/kg/phút}}; Dobutamin liều {{c1::2,5 - 10 µg/kg/phút}}.",
+      "extra": "Văn bản gốc mục B.3 Các thuốc tăng co bóp không phải glycosid (Trang 7).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Dopamin",
+        "Dobutamin"
+      ]
+    },
+    {
+      "id": "PED48-B66",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Inotrope Catecholamine",
+      "section": "B6",
+      "text": "[Barem gốc] Norepinephrin truyền tĩnh mạch với liều {{c1::0,25 - 1 µg/kg/phút}} (bản in cũ ghi nhầm đơn vị mg/kg/phút).",
+      "extra": "Văn bản gốc mục B.3 (Trang 7). Đã đính chính lỗi đơn vị in ấn.",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Norepinephrin"
+      ]
+    },
+    {
+      "id": "PED48-B67",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thuốc giãn mạch",
+      "section": "B6",
+      "text": "[Barem gốc] Nitroprusside giãn mạch: liều {{c1::0,5 - 8 µg/kg/phút}} truyền TM chậm; bắt buộc phải {{c1::bọc giấy bạc che sáng}}.",
+      "extra": "Văn bản gốc mục B.4 Các thuốc giãn mạch (Trang 7).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Nitroprusside"
+      ]
+    },
+    {
+      "id": "PED48-B68",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thuốc giãn mạch",
+      "section": "B6",
+      "text": "[Barem gốc] Thuốc giãn mạch: Hydralazine liều {{c1::0,5 - 7 mg/kg/ngày}} chia 3 lần; Prazosine ban đầu {{c1::0,2 - 0,4 mg/ngày}}, lâu dài {{c1::6 - 15 mg/kg/ngày}} chia 4 lần.",
+      "extra": "Văn bản gốc mục B.4 (Trang 7). Theo dõi sát huyết áp.",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Hydralazine",
+        "Prazosine"
+      ]
+    },
+    {
+      "id": "PED48-B69",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thuốc giãn mạch",
+      "section": "B6",
+      "text": "[Barem gốc] Captopril (ức chế men chuyển ACEi) liều {{c1::0,5 - 6 mg/kg/ngày}} chia {{c1::3 lần}}.",
+      "extra": "Văn bản gốc mục B.4 (Trang 7).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Captopril"
+      ]
+    },
+    {
+      "id": "PED48-B70",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phòng bệnh chung",
+      "section": "B7",
+      "text": "[Barem gốc] Phòng bệnh suy tim: giải quyết sớm nguyên nhân và điều trị tích cực yếu tố thuận lợi gồm {{c1::nhiễm trùng}}, {{c1::thiếu máu}}, và {{c1::rối loạn nhịp tim}}.",
+      "extra": "Văn bản gốc mục VII. PHÒNG BỆNH (Trang 7).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Phong-benh"
+      ]
+    },
+    {
+      "id": "PED48-B71",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Phòng bệnh tim bẩm sinh",
+      "section": "B7",
+      "front": "Các biện pháp phòng ngừa bệnh tim bẩm sinh theo giáo trình Y Thái Bình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nâng cao chăm sóc bà mẹ mang thai: tiêm phòng Rubella, tránh tiếp xúc hóa chất độc hại, tránh tia X-quang, và thận trọng khi dùng thuốc.<br><br><b>💡 Lưu ý:</b><br>Bảo vệ thai nhi trong 3 tháng đầu thai kỳ là giai đoạn hình thành tim then chốt.",
+      "extra": "Văn bản gốc mục VII (Trang 7).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Tim-bam-sinh"
+      ]
+    },
+    {
+      "id": "PED48-B72",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Phòng thấp tim",
+      "section": "B7",
+      "text": "[Barem gốc] Phòng suy tim do biến chứng van tim: quản lý và điều trị dự phòng {{c1::viêm họng do liên cầu khuẩn}} để phòng {{c1::thấp tim và bệnh van tim hậu thấp}}.",
+      "extra": "Văn bản gốc mục VII (Trang 7).",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Thap-tim"
+      ]
+    },
+    {
+      "id": "PED48-E01",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Sinh lý học tim trẻ em",
+      "section": "E0",
+      "front": "Vì sao trẻ sơ sinh và nhũ nhi phụ thuộc gần như hoàn toàn vào tần số tim (HR) để tăng cung lượng tim?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Do thành tâm thất chứa nhiều mô liên kết collagen không đàn hồi, thể tích nhát bóp (SV) gần như cố định, nên cung lượng tim CO = SV × HR hoàn toàn phụ thuộc vào nhịp tim.<br><br><b>💡 Lưu ý:</b><br>Khi nhịp tim > 180-200 nhịp/phút, thời gian tâm trương bị rút ngắn nghiêm trọng gây suy sụp tưới máu mạch vành và đổ đầy thất.",
+      "extra": "RELEASE mục 0: Công thức CO = SV × HR và đặc điểm sợi cơ tim nhũ nhi.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Sinh-ly-tim"
+      ]
+    },
+    {
+      "id": "PED48-E02",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Box đỏ an toàn",
+      "section": "E0",
+      "front": "4 chống chỉ định khẩn cấp trong Box đỏ an toàn điều trị suy tim trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cấm bolus dịch nhanh khi không mất nước nặng; 2) Cấm chẹn beta khi đang suy tim cấp mất bù; 3) Cấm nạp nhanh Digoxin chưa xét nghiệm K⁺/ECG; 4) Cấm thở oxy cao trong shunt Trái-Phải lớn.<br><br><b>💡 Lưu ý:</b><br>Vi phạm bất kỳ điều nào cũng kích hoạt phù phổi cấp hoặc sốc tim tử vong ngay.",
+      "extra": "RELEASE mục 0: Box đỏ an toàn — Cảnh báo khẩn cấp.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Box-do-an-toan"
+      ]
+    },
+    {
+      "id": "PED48-E03",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Box đỏ an toàn",
+      "section": "E0",
+      "text": "[EBM] Ở trẻ tim bẩm sinh có luồng shunt Trái - Phải lớn, thở oxy nồng độ cao (FiO₂ cao) gây {{c1::giãn mạch phổi mạnh}}, làm tăng lượng máu dồn lên phổi và kích hoạt {{c1::phù phổi cấp / cướp máu đại tuần hoàn}}.",
+      "extra": "RELEASE mục 0: Box đỏ an toàn. Mục tiêu SpO₂ ở trẻ shunt Trái-Phải chỉ cần duy trì 92-95%.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Oxy-lieu-phap"
+      ]
+    },
+    {
+      "id": "PED48-E04",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Nền tảng lâm sàng",
+      "section": "E0",
+      "text": "[EBM] Tiền gánh tối ưu ở trẻ nhỏ có biên độ dung nạp rất hẹp: thiếu dịch gây tụt huyết áp nhanh chóng, nhưng thừa dịch chỉ {{c1::10 đến 20 mL/kg}} đã đủ kích hoạt {{c1::phù phổi cấp}}.",
+      "extra": "RELEASE mục 0.1 Nền tảng tối thiểu cần dùng ngay.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Tien-ganh"
+      ]
+    },
+    {
+      "id": "PED48-E05",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Nền tảng lâm sàng",
+      "section": "E0",
+      "front": "Dấu hiệu lâm sàng sớm và nhạy cảm nhất của suy tim ở trẻ dưới 1 tuổi là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nhịp thở nhanh nông khi ngủ (> 50 nhịp/phút) và bú ngắt quãng kèm vã nhiều mồ hôi vùng trán.<br><br><b>💡 Lưu ý:</b><br>Cường giao cảm bù trừ kích thích tiết mồ hôi trán trong khi gắng sức bú.",
+      "extra": "RELEASE mục 0.1: Chỉ dấu nhạy cảm nhất ở trẻ nhũ nhi.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Trieu-chung-som"
+      ]
+    },
+    {
+      "id": "PED48-E06",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Khuyến cáo ISHLT 2025",
+      "section": "E1",
+      "text": "[EBM] Hướng dẫn ISHLT 2025 (PMID: 40838915): Suy tim trẻ em thứ phát sau {{c1::bệnh cơ tim}}, {{c1::bệnh tim mắc phải}} và {{c1::tim bẩm sinh}} gắn liền với tỷ lệ mắc bệnh và tử vong đáng kể.",
+      "extra": "RELEASE mục 1.2: Guideline ISHLT 2025 cập nhật.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "ISHLT-2025"
+      ]
+    },
+    {
+      "id": "PED48-E07",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Dịch tễ học hiện đại",
+      "section": "E1",
+      "text": "[EBM] Tỷ lệ mắc suy tim mới ở trẻ em tại các quốc gia phát triển dao động từ {{c1::1 đến 3 trường hợp / 100.000 trẻ/năm}}, với đỉnh cao nhập viện tập trung vào {{c1::năm đầu đời}}.",
+      "extra": "RELEASE mục 1.2 Dịch tễ học thực chứng.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Dich-te"
+      ]
+    },
+    {
+      "id": "PED48-E08",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Đặc điểm lứa tuổi",
+      "section": "E1",
+      "front": "Đặc điểm biểu hiện lâm sàng suy tim ở trẻ nhũ nhi theo y văn thực chứng (Kantor 2010, PMID: 19707788)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ nhũ nhi biểu hiện chủ yếu bằng bú kém (poor feeding), chậm lớn (failure to thrive) và thở nhanh (tachypnea), không có phù chi dưới kinh điển như người lớn.<br><br><b>💡 Lưu ý:</b><br>Đánh giá lâm sàng suy tim trẻ em đòi hỏi nhận biết các triệu chứng phụ thuộc lứa tuổi.",
+      "extra": "RELEASE mục 1.3: Dẫn xuất Kantor PF 2010 (PMID: 19707788).",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Nhu-nhi"
+      ]
+    },
+    {
+      "id": "PED48-E09",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Đặc điểm lâm sàng",
+      "section": "E1",
+      "text": "[EBM] Nhận biết suy tim ở trẻ nhũ nhi dựa trên bộ ba lâm sàng then chốt: {{c1::bú ngắt quãng}}, {{c1::thở nhanh co kéo}}, và {{c1::chậm tăng cân kéo dài}}.",
+      "extra": "RELEASE mục 1.3: Tam chứng lâm sàng kinh điển nhũ nhi.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Tam-chung"
+      ]
+    },
+    {
+      "id": "PED48-E10",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cơ chế Frank-Starling",
+      "section": "E2",
+      "front": "Vì sao cơ chế bù trừ Frank-Starling ở trẻ sơ sinh dễ thất bại khi quá tải thể tích?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Cơ tim trẻ sơ sinh có ít cầu nối actin-myosin và cơ tâm thất kém giãn nở; khi vượt ngưỡng tối ưu sẽ rơi ngay vào nhánh dốc đi xuống của đường cong Starling.<br><br><b>💡 Lưu ý:</b><br>Hậu quả là áp lực buồng tim tăng vọt mà cung lượng không tăng, dẫn đến phù phổi cấp.",
+      "extra": "RELEASE mục 2.1 Phân tích cơ chế Frank-Starling.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Frank-Starling"
+      ]
+    },
+    {
+      "id": "PED48-E11",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Hệ thần kinh giao cảm",
+      "section": "E2",
+      "text": "[EBM] Cường giao cảm mạn tính làm tăng nồng độ Catecholamine kéo dài, dẫn đến {{c1::điều hòa giảm (down-regulation) thụ thể beta-1}} và thúc đẩy {{c1::chết tế bào cơ tim theo chương trình (apoptosis)}}.",
+      "extra": "RELEASE mục 2.2 Vai trò hệ thần kinh giao cảm.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Giao-cam",
+        "Beta-blocker"
+      ]
+    },
+    {
+      "id": "PED48-E12",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Hệ RAAS",
+      "section": "E2",
+      "front": "Cơ chế gây hại kép của Angiotensin II và Aldosterone trong suy tim trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Angiotensin II gây co tiểu động mạch ngoại vi cực mạnh làm tăng vọt hậu gánh thất trái; Aldosterone tái hấp thu Na⁺/nước gây phù và thúc đẩy xơ hóa cơ tim.<br><br><b>💡 Lưu ý:</b><br>Ức chế men chuyển (ACEi) và kháng Aldosterone là vũ khí cốt lõi ngăn chặn tái cấu trúc thất.",
+      "extra": "RELEASE mục 2.3 Hệ Renin - Angiotensin - Aldosteron.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "RAAS"
+      ]
+    },
+    {
+      "id": "PED48-E13",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Peptide lợi niệu",
+      "section": "E2",
+      "text": "[EBM] ANP và BNP gắn vào thụ thể NPR-A kích hoạt enzym {{c1::Guanylyl cyclase}} làm tăng {{c1::cGMP nội bào}}, dẫn đến giãn mạch, tăng mức lọc cầu thận và bài xuất muối nước.",
+      "extra": "RELEASE mục 2.4 Peptide lợi niệu nhĩ (ANP) và peptide lợi niệu não (BNP).",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "BNP",
+        "cGMP"
+      ]
+    },
+    {
+      "id": "PED48-E14",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Ức chế thần kinh thể dịch",
+      "section": "E2",
+      "text": "[EBM] Theo Kantor 2010 (PMID: 20127112), nền tảng điều trị duy trì suy tim trẻ em hướng tới ức chế trục thần kinh thể dịch bao gồm: {{c1::thuốc ức chế men chuyển (ACEi)}} và {{c1::thuốc chẹn beta giao cảm}}.",
+      "extra": "RELEASE mục 2: Bằng chứng y học Kantor PF 2010 (PMID: 20127112).",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "ACEi",
+        "Beta-blocker"
+      ]
+    },
+    {
+      "id": "PED48-E15",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Căn nguyên theo tuổi",
+      "section": "E3",
+      "front": "Bệnh lý tim bẩm sinh nào gây sốc tim và toan chuyển hóa nặng ngay khi ống động mạch đóng lại trong tuần đầu sau sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Hẹp eo động mạch chủ nặng (coarctation) hoặc hội chứng thiểu sản tim trái (HLHS) phụ thuộc ống động mạch.<br><br><b>💡 Lưu ý:</b><br>Khi ống động mạch đóng, tưới máu chi dưới và tạng bụng sụp đổ gây sốc tim tối cấp.",
+      "extra": "RELEASE mục 3.1 & 3.2: Ví dụ 3 ca hẹp eo ĐMC sơ sinh.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Hep-eo-DMC"
+      ]
+    },
+    {
+      "id": "PED48-E16",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Hội chứng ALCAPA",
+      "section": "E3",
+      "text": "[EBM] Hội chứng ALCAPA (động mạch vành trái xuất phát từ {{c1::động mạch phổi}}) gây nhồi máu cơ tim và suy tim nặng ở trẻ {{c1::1 đến 4 tháng tuổi}} do áp lực động mạch phổi giảm.",
+      "extra": "RELEASE mục 3.1 & 3.2: ALCAPA là căn nguyên cơ tim thiếu máu cục bộ kinh điển.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "ALCAPA"
+      ]
+    },
+    {
+      "id": "PED48-E17",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Căn nguyên theo tuổi",
+      "section": "E3",
+      "text": "[EBM] Phân tầng căn nguyên suy tim: Sơ sinh tuần đầu là {{c1::tim bẩm sinh phụ thuộc ống ĐM}}; 1-4 tháng là {{c1::shunt Trái - Phải lớn & ALCAPA}}; 4-12 tháng là {{c1::viêm cơ tim virus & DCM}}; trẻ lớn là {{c1::thấp tim & viêm cầu thận cấp}}.",
+      "extra": "RELEASE mục 3.2 Căn nguyên phân tầng theo giai đoạn phát triển.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Can-nguyen-theo-tuoi"
+      ]
+    },
+    {
+      "id": "PED48-E18",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Căn nguyên huyết động",
+      "section": "E3",
+      "front": "Vì sao thông liên nhĩ (ASD) hiếm khi gây suy tim ở trẻ nhỏ so với thông liên thất (VSD)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Chênh áp giữa hai tâm nhĩ rất thấp, lưu lượng shunt nhỏ và áp lực thấp nên chỉ gây quá tải thể tích thất phải từ từ sau nhiều năm.<br><br><b>💡 Lưu ý:</b><br>VSD có chênh áp hai tâm thất rất cao làm lượng máu dồn lên phổi cực lớn gây suy tim sớm.",
+      "extra": "RELEASE mục 3.1: Cơ chế huyết động các luồng shunt.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "ASD",
+        "VSD"
+      ]
+    },
+    {
+      "id": "PED48-E19",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Sốc tim ở trẻ em",
+      "section": "E4",
+      "front": "Tiêu chuẩn chẩn đoán hội chứng sốc tim ở trẻ em theo tuyên bố AHA 2026 (PMID: 42558062)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>CRT > 3 giây, chi lạnh ngắt nổi vân tím, mạch nhanh nhỏ, huyết áp tụt hoặc kẹt, kèm toan lactic và tăng Troponin/NT-proBNP.<br><br><b>💡 Lưu ý:</b><br>Sống còn của sốc tim phụ thuộc vào chẩn đoán kịp thời và chọn thuốc inotrope phù hợp.",
+      "extra": "RELEASE mục 4.3: AHA Scientific Statement 2026 (PMID: 42558062).",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Soc-tim",
+        "AHA-2026"
+      ]
+    },
+    {
+      "id": "PED48-E20",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Suy tim phải",
+      "section": "E4",
+      "text": "[EBM] Áp lực tĩnh mạch trung ương (CVP) trong suy tim phải ở trẻ em thường tăng cao trên {{c1::10 đến 12 cmH₂O}}, kèm theo gan to đàn xếp và tĩnh mạch cổ nổi.",
+      "extra": "RELEASE mục 4.2 Triệu chứng suy tim phải.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "CVP",
+        "Suy-tim-phai"
+      ]
+    },
+    {
+      "id": "PED48-E21",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Chẩn đoán phân biệt",
+      "section": "E4",
+      "front": "Làm thế nào để phân biệt khó thở do suy tim với viêm tiểu phế quản cấp ở trẻ nhũ nhi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Suy tim có gan to, diện tim to, tiếng T3 gallop và NT-proBNP tăng rất cao; viêm tiểu phế quản có sốt, nhiều ran rít/ngáy nhưng gan bình thường và NT-proBNP bình thường.<br><br><b>💡 Lưu ý:</b><br>Tránh bẫy chẩn đoán viêm tiểu phế quản rồi điều trị kháng sinh kéo dài vô ích.",
+      "extra": "RELEASE mục 4.4 Chẩn đoán phân biệt.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Chan-doan-phan-biet"
+      ]
+    },
+    {
+      "id": "PED48-E22",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Chẩn đoán phân biệt",
+      "section": "E4",
+      "text": "[EBM] Suy dinh dưỡng thể phù (Kwashiorkor) phân biệt với suy tim nhờ: {{c1::bóng tim trên X-quang hoàn toàn bình thường}} và {{c1::không có ứ huyết phổi hay gan đàn xếp}}.",
+      "extra": "RELEASE mục 4.4 Chẩn đoán phân biệt với Kwashiorkor.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Kwashiorkor"
+      ]
+    },
+    {
+      "id": "PED48-E23",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Thực thể tim",
+      "section": "E4",
+      "text": "[EBM] Dấu hiệu Hartzer dương tính biểu hiện qua {{c1::thất phải phì đại đập dội mạnh}} vào ngón tay người khám đặt tại {{c1::góc bờ sườn mũi ức}}.",
+      "extra": "RELEASE mục 4.2: Dấu hiệu thực thể suy tim phải.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Hartzer"
+      ]
+    },
+    {
+      "id": "PED48-E24",
+      "track": "ebm",
+      "type": "basic",
+      "category": "X-quang ngực",
+      "section": "E5",
+      "front": "Các ngưỡng chỉ số tim ngực (CTR) trên X-quang thẳng khẳng định tim to theo từng lứa tuổi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ sơ sinh: CTR > 0,60; Trẻ nhũ nhi (< 1 tuổi): CTR > 0,55; Trẻ lớn: CTR > 0,50.<br><br><b>💡 Lưu ý:</b><br>Phim X-quang phải được chụp đủ sâu ở thì hít vào để tránh tim to giả tạo do cơ hoành dâng cao.",
+      "extra": "RELEASE mục 5.1 X-quang tim phổi thẳng.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "CTR",
+        "X-quang"
+      ]
+    },
+    {
+      "id": "PED48-E25",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "X-quang ngực",
+      "section": "E5",
+      "text": "[EBM] Hình ảnh ứ dịch mô kẽ trên X-quang đặc trưng bởi {{c1::đường Kerley B ở góc sườn hoành}}; phù phế nang cấp tính thể hiện qua {{c1::hình cánh bướm tỏa rộng từ hai rốn phổi}}.",
+      "extra": "RELEASE mục 5.1: Dấu hiệu ứ huyết phổi thụ động.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Kerley",
+        "Canh-buom"
+      ]
+    },
+    {
+      "id": "PED48-E26",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Siêu âm tim Doppler",
+      "section": "E5",
+      "text": "[EBM] Siêu âm tim Doppler đo phân suất tống máu LVEF bằng phương pháp {{c1::Simpson hai bình diện (biplane)}}; phân suất co rút thất trái FS bình thường ở trẻ em là {{c1::≥ 28 - 30%}}.",
+      "extra": "RELEASE mục 5.3 Siêu âm tim Doppler — Tiêu chuẩn vàng.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Sieu-am-tim",
+        "EF",
+        "FS"
+      ]
+    },
+    {
+      "id": "PED48-E27",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Chỉ dấu sinh học",
+      "section": "E5",
+      "text": "[EBM] Điểm cắt NT-proBNP huyết thanh tăng cao trên {{c1::300 - 450 pg/mL}} giúp phân biệt nhanh chóng khó thở do tim với {{c1::khó thở do viêm tiểu phế quản cấp}} tại phòng cấp cứu.",
+      "extra": "RELEASE mục 5.4 Chỉ dấu sinh học (Biomarkers).",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "NT-proBNP"
+      ]
+    },
+    {
+      "id": "PED48-E28",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Chỉ dấu sinh học",
+      "section": "E5",
+      "front": "Ý nghĩa lâm sàng của xét nghiệm Troponin I hoặc Troponin T trong suy tim cấp ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Troponin tăng cao khẳng định có tổn thương hoại tử tế bào cơ tim đang tiến triển, đặc biệt nhạy trong viêm cơ tim cấp do virus.<br><br><b>💡 Lưu ý:</b><br>Mức độ tăng nồng độ Troponin tương quan với nguy cơ sốc tim và rối loạn nhịp thất ác tính.",
+      "extra": "RELEASE mục 5.4: Chỉ dấu sinh học hoại tử cơ tim.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Troponin"
+      ]
+    },
+    {
+      "id": "PED48-E29",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Thang điểm Ross",
+      "section": "E6",
+      "front": "Vì sao thang điểm NYHA không phù hợp để lượng giá suy tim ở trẻ nhũ nhi dưới 1 tuổi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì NYHA dựa trên mức độ hạn chế gắng sức thể lực chủ động (đi bộ, leo dốc), điều mà trẻ nhũ nhi chưa biết đi và chưa biết nói không thể thực hiện.<br><br><b>💡 Lưu ý:</b><br>Trẻ dưới 1 tuổi phải dùng thang điểm Ross dựa trên mức độ khó thở khi bú và ăn uống.",
+      "extra": "RELEASE mục 6.2 Thang điểm Ross cải tiến.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Ross",
+        "NYHA"
+      ]
+    },
+    {
+      "id": "PED48-E30",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Thang điểm Ross",
+      "section": "E6",
+      "text": "[EBM] Thang điểm Ross cải tiến cho trẻ nhũ nhi (PMID: 22476605): Ross I ({{c1::0 - 2 điểm}}); Ross II nhẹ ({{c1::3 - 6 điểm}}); Ross III vừa ({{c1::7 - 9 điểm}}); Ross IV nặng ({{c1::10 - 14 điểm}}).",
+      "extra": "RELEASE mục 6.2: Nghiên cứu Ross RD 2012 (PMID: 22476605).",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Ross-score"
+      ]
+    },
+    {
+      "id": "PED48-E31",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Thang điểm Ross",
+      "section": "E6",
+      "text": "[EBM] Thang điểm Ross phân tầng suy tim ở trẻ nhũ nhi dựa trên 4 trụ cột lâm sàng: {{c1::tần số thở}}, {{c1::tần số tim}}, {{c1::mức độ khó thở khi bú}}, và {{c1::kích thước gan to}}.",
+      "extra": "RELEASE mục 6.2: Khuyến cáo lượng hóa mức độ suy tim trẻ nhỏ.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Ross-criteria"
+      ]
+    },
+    {
+      "id": "PED48-E32",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Phân độ lâm sàng VN",
+      "section": "E6",
+      "front": "Tiên lượng đáp ứng điều trị giữa suy tim Độ 3 và Độ 4 trong bảng phân độ lâm sàng Việt Nam?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Độ 3: suy tim còn hồi phục, gan thu nhỏ sau điều trị lợi tiểu; Độ 4: suy tim không hồi phục, gan to mạn tính không thu nhỏ (xơ gan tim).<br><br><b>💡 Lưu ý:</b><br>Độ 4 điều trị nội khoa rất ít hiệu quả, là chỉ định xem xét ghép tim hoặc hỗ trợ cơ học.",
+      "extra": "RELEASE mục 6.1 Bảng phân độ lâm sàng suy tim trẻ em Việt Nam.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Phan-do-VN"
+      ]
+    },
+    {
+      "id": "PED48-E33",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Phân loại huyết động",
+      "section": "E7",
+      "front": "Cách phân biệt hai kiểu hình huyết động \"Ấm & Ướt\" và \"Lạnh & Ướt\" tại giường cấp cứu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ấm & Ướt: tưới máu tốt (chi ấm, CRT bình thường), sung huyết (phù, ran ẩm); Lạnh & Ướt: giảm tưới máu nặng (chi lạnh, CRT > 3s, HA tụt), kèm sung huyết phổi/gan.<br><br><b>💡 Lưu ý:</b><br>Ấm & Ướt dùng Lợi tiểu + Giãn mạch; Lạnh & Ướt bắt buộc phải dùng Inotrope vận mạch.",
+      "extra": "RELEASE mục 7: Lưu đồ tiếp cận và phân luồng tại giường.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Am-Uot",
+        "Lanh-Uot"
+      ]
+    },
+    {
+      "id": "PED48-E34",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Hồi sức sốc tim",
+      "section": "E7",
+      "text": "[EBM] Kiểu hình Lạnh & Ướt (sốc tim): hồi sức bằng truyền tĩnh mạch liên tục {{c1::Milrinone (0,25 - 0,75 µg/kg/phút)}} kết hợp {{c1::Dobutamin (2,5 - 10 µg/kg/phút)}}.",
+      "extra": "RELEASE mục 7: Bước 6 xử trí kiểu hình Lạnh & Ướt.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Milrinone",
+        "Dobutamin"
+      ]
+    },
+    {
+      "id": "PED48-E35",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Thuốc Inodilator",
+      "section": "E7",
+      "front": "Vì sao Milrinone được xem là lựa chọn vàng trong sốc tim do viêm cơ tim hoặc sau mổ tim hở?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Milrinone ức chế enzym PDE-3 làm tăng co bóp cơ tim đồng thời giãn tiểu động mạch và mạch phổi (Inodilator), giúp giảm cả tiền gánh và hậu gánh mà ít làm tăng tiêu thụ oxy tim.<br><br><b>💡 Lưu ý:</b><br>Theo dõi sát huyết áp vì nguy cơ tụt huyết áp nếu chưa bù đủ thể tích nội mạch.",
+      "extra": "RELEASE mục 7 & 8: Cơ chế tác dụng của Milrinone.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Milrinone",
+        "PDE-3"
+      ]
+    },
+    {
+      "id": "PED48-E36",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Theo dõi bài niệu",
+      "section": "E7",
+      "text": "[EBM] Trong hồi sức suy tim cấp truyền inotrope, theo dõi nước tiểu qua ống thông tiểu lưu từng giờ với đích duy trì lượng nước tiểu {{c1::> 1 mL/kg/giờ}}.",
+      "extra": "RELEASE mục 7: Bước 7 theo dõi lượng nước tiểu.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Nuoc-tieu",
+        "Cap-cuu"
+      ]
+    },
+    {
+      "id": "PED48-E37",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Liệu pháp lợi tiểu",
+      "section": "E8",
+      "text": "[EBM] Quản lý nội khoa suy tim trẻ em kết hợp liệu pháp lợi tiểu để giảm ứ huyết tĩnh mạch phổi và tĩnh mạch hệ thống: {{c1::Masarweh 2021}} (PMID: {{c1::33708503}}).",
+      "extra": "RELEASE mục 8: Dẫn chứng y học Masarweh OM 2021 (PMID: 33708503).",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Masarweh-2021",
+        "Loi-tieu"
+      ]
+    },
+    {
+      "id": "PED48-E38",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Phối hợp lợi tiểu",
+      "section": "E8",
+      "front": "Nguyên tắc phối hợp Furosemid và Spironolacton trong điều trị duy trì suy tim trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Furosemid thải kali ở quai Henle, phối hợp Spironolacton giữ kali ở ống góp giúp duy trì thăng bằng điện giải và ngăn chặn xơ hóa cơ tim.<br><br><b>💡 Lưu ý:</b><br>Liều thường dùng: Furosemid 1-2 mg/kg/ngày kết hợp Spironolacton 1-2 mg/kg/ngày.",
+      "extra": "RELEASE mục 8: Bảng liều thuốc điều trị suy tim.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Furosemid",
+        "Spironolacton"
+      ]
+    },
+    {
+      "id": "PED48-E39",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Thuốc ACEi",
+      "section": "E8",
+      "text": "[EBM] Captopril trong suy tim trẻ em: bắt đầu {{c1::0,1 - 0,3 mg/kg/liều}} ngày 3 lần, tăng dần tới {{c1::1 - 2 mg/kg/ngày}}; uống {{c1::trước ăn 1 giờ}}.",
+      "extra": "RELEASE mục 8.2: Bảng liều thuốc an toàn theo cân nặng.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Captopril"
+      ]
+    },
+    {
+      "id": "PED48-E40",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Thuốc chẹn beta",
+      "section": "E8",
+      "front": "Điều kiện bắt buộc trước khi khởi đầu thuốc chẹn beta giao cảm (Carvedilol) ở trẻ suy tim?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bệnh nhi phải ở trạng thái \"khô\" hoàn toàn (hết ứ trệ tuần hoàn, phổi sạch ran, gan không căng) và huyết động ổn định không cần inotrope truyền tĩnh mạch.<br><br><b>💡 Lưu ý:</b><br>Bắt đầu liều cực thấp 0,05 mg/kg/liều ngày 2 lần và chỉnh liều chậm mỗi 2 tuần.",
+      "extra": "RELEASE mục 8.2: Lưu ý dùng Carvedilol.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Carvedilol"
+      ]
+    },
+    {
+      "id": "PED48-E41",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Dinh dưỡng suy tim",
+      "section": "E8",
+      "text": "[EBM] Dinh dưỡng cho trẻ suy tim mạn tính: bổ sung sữa đậm độ năng lượng cao từ {{c1::120 đến 150 kcal/kg/ngày}} để bù đắp năng lượng tiêu hao cho công thở.",
+      "extra": "RELEASE mục 8.1 Biện pháp không dùng thuốc.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Dinh-duong"
+      ]
+    },
+    {
+      "id": "PED48-E42",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Dược động học Digoxin",
+      "section": "E9",
+      "text": "[EBM] Digoxin có {{c1::khoảng điều trị hẹp}} và nguy cơ ngộ độc cao ở trẻ em, đòi hỏi kiểm soát liều lượng thận trọng theo {{c1::cân nặng và chức năng thận}}: Pharmaceutics 2026 (PMID: {{c1::41599219}}).",
+      "extra": "RELEASE mục 9: Dẫn chứng y học Pharmaceutics 2026 (PMID: 41599219).",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Digoxin",
+        "Duoc-dong-hoc"
+      ]
+    },
+    {
+      "id": "PED48-E43",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cơ chế ngộ độc Digoxin",
+      "section": "E9",
+      "front": "Vì sao hạ Kali máu (K⁺ &lt; 3,5 mEq/L) làm tăng vọt nguy cơ ngộ độc Digoxin?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ion K⁺ cạnh tranh trực tiếp với Digoxin trên bơm Na⁺/K⁺-ATPase; khi K⁺ máu giảm, Digoxin gắn vào thụ thể nhiều hơn gây ức chế bơm quá mức và tăng độc tính nội bào.<br><br><b>💡 Lưu ý:</b><br>Luôn kiểm tra điện giải đồ và bù Kali về mức bình thường trước khi dùng Digoxin.",
+      "extra": "RELEASE mục 9: Cơ chế sinh học tương tác Digoxin và Kali máu.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Digoxin",
+        "Ha-kali"
+      ]
+    },
+    {
+      "id": "PED48-E44",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Quy tắc an toàn Digoxin",
+      "section": "E9",
+      "text": "[EBM] Kiểm tra nhịp tim qua ống nghe trọn 1 phút trước uống Digoxin: tạm ngừng thuốc nếu nhịp tim {{c1::&lt; 100 nhịp/phút}} ở trẻ nhũ nhi hoặc {{c1::&lt; 70 nhịp/phút}} ở trẻ lớn.",
+      "extra": "RELEASE mục 9.1 & 13: Quy tắc an toàn điều dưỡng then chốt.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Nhip-tim",
+        "Digoxin"
+      ]
+    },
+    {
+      "id": "PED48-E45",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Thuốc giải độc DigiFab",
+      "section": "E9",
+      "text": "[EBM] Kháng thể đặc hiệu kháng Digoxin ({{c1::DigiFab}}) được chỉ định trong ngộ độc Digitalis nặng {{c1::đe dọa tính mạng / ngừng tuần hoàn}} hoặc có rối loạn nhịp thất trơ.",
+      "extra": "RELEASE mục 9.2 Cấp cứu ngộ độc Digoxin.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "DigiFab"
+      ]
+    },
+    {
+      "id": "PED48-E46",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cảnh báo ngộ độc Digoxin",
+      "section": "E9",
+      "front": "Vì sao chống chỉ định sốc điện khử rung khi bệnh nhân đang có loạn nhịp do ngộ độc Digoxin?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Sốc điện trên cơ tim ngấm Digoxin có nguy cơ cao kích hoạt rung thất trơ không hồi phục hoặc vô tâm thu hoàn toàn.<br><br><b>💡 Lưu ý:</b><br>Ưu tiên dùng thuốc Phenytoin, Lidocain và kháng thể đặc hiệu DigiFab để khống chế loạn nhịp.",
+      "extra": "RELEASE mục 10: Cạm bẫy lâm sàng số 7.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Soc-dien",
+        "Digoxin"
+      ]
+    },
+    {
+      "id": "PED48-E47",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cạm bẫy lâm sàng",
+      "section": "E10",
+      "front": "Hậu quả chết người của việc truyền dịch nhanh (bolus) ở trẻ suy tim sung huyết hoặc sốc tim?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Làm tăng đột ngột tiền gánh vượt quá khả năng tống máu của tâm thất, đẩy áp lực mao mạch phổi bít tăng vọt và kích hoạt phù phổi cấp tử vong tức thì.<br><br><b>💡 Lưu ý:</b><br>Chỉ bolus dịch khi có bằng chứng chắc chắn của sốc giảm thể tích mất nước nặng.",
+      "extra": "RELEASE mục 10: Cạm bẫy lâm sàng số 2.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Bolus-dich",
+        "Phu-phoi-cap"
+      ]
+    },
+    {
+      "id": "PED48-E48",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Cạm bẫy lâm sàng",
+      "section": "E10",
+      "front": "Cạm bẫy khi sử dụng thuốc chẹn beta giao cảm ngay trong đợt suy tim cấp mất bù là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Triệt tiêu trương lực giao cảm bù trừ đang duy trì huyết động, dẫn đến tụt cung lượng tim đột ngột và đẩy bệnh nhi vào sốc tim ngừng tuần hoàn.<br><br><b>💡 Lưu ý:</b><br>Tuyệt đối chỉ dùng chẹn beta khi bệnh nhân đã được điều trị ổn định về trạng thái \"khô\".",
+      "extra": "RELEASE mục 10: Cạm bẫy lâm sàng số 3.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Beta-blocker",
+        "Soc-tim"
+      ]
+    },
+    {
+      "id": "PED48-E49",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Cạm bẫy lâm sàng",
+      "section": "E10",
+      "text": "[EBM] Cạm bẫy chẩn đoán: quên bắt mạch bẹn và đo huyết áp chi dưới sẽ bỏ sót bệnh lý {{c1::hẹp eo động mạch chủ nặng}} ở trẻ suy tim cấp.",
+      "extra": "RELEASE mục 10: Cạm bẫy lâm sàng số 5.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Mach-ben",
+        "Hep-eo-DMC"
+      ]
+    },
+    {
+      "id": "PED48-E50",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Cạm bẫy lâm sàng",
+      "section": "E10",
+      "text": "[EBM] Ngừng đột ngột thuốc chẹn beta đang dùng duy trì sẽ kích hoạt cơn {{c1::nhịp nhanh dội ngược (rebound tachycardia)}} và đẩy bệnh nhân vào {{c1::suy tim kịch phát}}.",
+      "extra": "RELEASE mục 10: Cạm bẫy lâm sàng số 9.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Rebound-tachycardia"
+      ]
+    },
+    {
+      "id": "PED48-E51",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Checkpoint phản biện",
+      "section": "E11",
+      "front": "Checkpoint 1: Vì sao suy tim trong thông liên thất (VSD) lớn thường xuất hiện lúc 6 - 8 tuần tuổi mà không xuất hiện ngay sau sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Do sức cản mạch máu phổi (PVR) sau sinh giảm dần và chạm đáy lúc 6-8 tuần tuổi, làm chênh áp hai tâm thất đạt tối đa khiến luồng shunt Trái-Phải tràn lên phổi cực đại.<br><br><b>💡 Lưu ý:</b><br>Ngay sau sinh PVR còn cao ngang sức cản hệ thống nên luồng shunt còn nhỏ.",
+      "extra": "RELEASE mục 11: Checkpoint 1.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "VSD",
+        "PVR"
+      ]
+    },
+    {
+      "id": "PED48-E52",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Checkpoint phản biện",
+      "section": "E11",
+      "front": "Checkpoint 2: Hướng xử trí khẩn cấp khi trẻ dùng Digoxin xuất hiện nhịp tim chậm 50 nhịp/phút?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ngừng Digoxin ngay, mắc monitor điện tim liên tục, xét nghiệm khẩn cấp Kali máu và nồng độ Digoxin, chuẩn bị sẵn Atropin và DigiFab.<br><br><b>💡 Lưu ý:</b><br>Nhịp chậm 50 bpm ở trẻ nhỏ là dấu hiệu đe dọa ngừng tim do ngộ độc Digitalis.",
+      "extra": "RELEASE mục 11: Checkpoint 2.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Nhip-cham",
+        "Digoxin"
+      ]
+    },
+    {
+      "id": "PED48-E53",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Checkpoint phản biện",
+      "section": "E11",
+      "front": "Checkpoint 3: Có nên cho thở oxy nồng độ cao cho trẻ VSD lớn đang thở nhanh co kéo không, vì sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Không nên cho thở oxy nồng độ cao bừa bãi khi SpO₂ còn ≥ 92%, vì oxy làm giãn mạch phổi dữ dội khiến máu dồn lên phổi nhiều hơn, làm nặng thêm phù phổi và cướp máu đại tuần hoàn.<br><br><b>💡 Lưu ý:</b><br>Chỉ duy trì oxy vừa đủ để đạt SpO₂ từ 92% đến 95%.",
+      "extra": "RELEASE mục 11: Checkpoint 3.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Oxy-lieu-phap",
+        "VSD"
+      ]
+    },
+    {
+      "id": "PED48-E54",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Checkpoint phản biện",
+      "section": "E11",
+      "front": "Checkpoint 4: Ý nghĩa của tiếng rung tâm trương ở mỏm tim trong thông liên thất (VSD) lớn là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Là tiếng rung tâm trương cơ năng do tăng lưu lượng máu lớn qua van hai lá trong thời kỳ tâm trương, khẳng định luồng shunt Trái-Phải có tỷ lệ Qp/Qs > 2:1.<br><br><b>💡 Lưu ý:</b><br>Không phải do tổn thương hẹp van hai lá thực thể.",
+      "extra": "RELEASE mục 11: Checkpoint 4.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Rung-tam-truong",
+        "Qp-Qs"
+      ]
+    },
+    {
+      "id": "PED48-E55",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Ca lâm sàng 1",
+      "section": "E12",
+      "front": "Xử trí hồi sức huyết động trong Case 1: bé trai 8 tháng tuổi sốc tim do viêm cơ tim cấp (LVEF 28%, CRT 4s, HA 70/45 mmHg)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nằm đầu cao 30°, thở máy xâm nhập với PEEP 6-8 cmH₂O; truyền tĩnh mạch Dobutamin kết hợp Milrinone; dùng IVIG 2 g/kg; tuyệt đối cấm dùng Digoxin.<br><br><b>💡 Lưu ý:</b><br>Cơ tim đang viêm hoại tử rất dễ rung thất nếu dùng Digoxin.",
+      "extra": "RELEASE mục 12: Case 1 Viêm cơ tim cấp gây sốc tim.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Viem-co-tim",
+        "Case-1"
+      ]
+    },
+    {
+      "id": "PED48-E56",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Ca lâm sàng 1",
+      "section": "E12",
+      "text": "[EBM] Trong sốc tim do viêm cơ tim, thông khí cơ học xâm nhập với PEEP {{c1::6 - 8 cmH₂O}} có tác dụng hạ {{c1::hậu gánh thất trái}}, giảm phù phổi và cải thiện phân suất tống máu.",
+      "extra": "RELEASE mục 12: Biện luận xử trí Case 1.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "PEEP",
+        "Viem-co-tim"
+      ]
+    },
+    {
+      "id": "PED48-E57",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Ca lâm sàng 2",
+      "section": "E12",
+      "front": "Chiến lược điều trị nội khoa và thời điểm phẫu thuật trong Case 2: trẻ 2 tháng tuổi VSD lớn 7 mm suy tim Ross III?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Furosemid 1 mg/kg + Spironolacton 1 mg/kg; phối hợp Captopril 0,2-0,5 mg/kg/liều uống trước ăn; dinh dưỡng sữa cao năng lượng 120-150 kcal/kg; chỉ định phẫu thuật vá VSD lúc 2-3 tháng tuổi.<br><br><b>💡 Lưu ý:</b><br>Cần phẫu thuật sớm trước khi sức cản mạch phổi tăng cố định (Eisenmenger).",
+      "extra": "RELEASE mục 12: Case 2 VSD lớn biến chứng suy tim.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "VSD",
+        "Case-2"
+      ]
+    },
+    {
+      "id": "PED48-E58",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Ca lâm sàng 2",
+      "section": "E12",
+      "text": "[EBM] Trẻ mắc thông liên thất lớn suy tim trơ nội khoa cần được phẫu thuật vá vách liên thất lúc {{c1::2 - 3 tháng tuổi}} nhằm phòng ngừa biến chứng {{c1::tăng áp lực động mạch phổi cố định}}.",
+      "extra": "RELEASE mục 12: Biện luận ngoại khoa Case 2.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "VSD-phau-thuat"
+      ]
+    },
+    {
+      "id": "PED48-E59",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Tips lâm sàng",
+      "section": "E13",
+      "text": "[EBM] Đếm nhịp thở khi trẻ nằm yên hoặc ngủ trọn 1 phút: nhịp thở {{c1::> 50 nhịp/phút}} ở trẻ nhũ nhi là dấu hiệu sớm nhất của suy tim mất bù.",
+      "extra": "RELEASE mục 13: Tip 1 đếm nhịp thở khi ngủ.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Nhip-tho",
+        "Tip-1"
+      ]
+    },
+    {
+      "id": "PED48-E60",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Tips lâm sàng",
+      "section": "E13",
+      "text": "[EBM] Dùng bút dạ y tế {{c1::gạch đường nhỏ đánh dấu bờ dưới gan}} trên da bụng vào buổi sáng để theo dõi đáp ứng rút nước với {{c1::thuốc lợi tiểu Furosemid}} trực quan tại giường.",
+      "extra": "RELEASE mục 13: Tip 2 đánh dấu bờ gan.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Bo-gan",
+        "Tip-2"
+      ]
+    },
+    {
+      "id": "PED48-E61",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Tips lâm sàng",
+      "section": "E13",
+      "text": "[EBM] Cân trẻ mỗi sáng cùng khung giờ: tăng cân đột ngột {{c1::> 30 - 50 g/ngày}} ở trẻ nhũ nhi là bằng chứng của {{c1::ứ dịch tuần hoàn}} chứ không phải phát triển thể chất.",
+      "extra": "RELEASE mục 13: Tip 4 theo dõi cân nặng.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Can-nang",
+        "Tip-4"
+      ]
+    },
+    {
+      "id": "PED48-E62",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Tips lâm sàng",
+      "section": "E13",
+      "front": "Hai mẹo điều dưỡng quan trọng khi cho trẻ suy tim bú bình nhằm tiết kiệm năng lượng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đục rộng lỗ núm vú bình sữa để sữa chảy dễ dàng khi mút nhẹ; 2) Không cho bú kéo dài quá 30 phút mỗi cữ (chuyển ăn qua sonde nếu cần).<br><br><b>💡 Lưu ý:</b><br>Bú kéo dài làm trẻ kiệt sức tiêu hao nhiều calo hơn năng lượng nhận được từ sữa.",
+      "extra": "RELEASE mục 13: Tip 6 & Tip 7 chăm sóc ăn bú.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Bu-binh",
+        "Tiet-kiem-nang-luong"
+      ]
+    },
+    {
+      "id": "PED48-E63",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Thông điệp cốt lõi",
+      "section": "E14",
+      "front": "Bộ ba lâm sàng nhận biết sớm suy tim mất bù ở trẻ nhũ nhi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bú ngắt quãng (cữ bú kéo dài) — Thở nhanh co kéo — Chậm lên cân kèm vã mồ hôi vùng trán.<br><br><b>💡 Lưu ý:</b><br>Cần phát hiện từ tam chứng này trước khi trẻ rơi vào sốc tim hoặc phù phổi cấp.",
+      "extra": "RELEASE mục 14.1 Tóm tắt các thông điệp cốt lõi.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Tam-chung-suy-tim"
+      ]
+    },
+    {
+      "id": "PED48-E64",
+      "track": "ebm",
+      "type": "basic",
+      "category": "Tiêu chuẩn xuất viện",
+      "section": "E14",
+      "front": "4 tiêu chuẩn xuất viện an toàn cho bệnh nhi suy tim?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hết khó thở khi bú, phổi sạch ran; 2) Gan thu nhỏ &lt; 2 cm dưới sườn, hết phù; 3) Thuốc uống ổn định ≥ 48 giờ; 4) Tăng cân 3 ngày liên tiếp và người nhà biết chia liều bằng bơm tiêm.<br><br><b>💡 Lưu ý:</b><br>Luôn có lịch hẹn tái khám chuyên khoa tim mạch và số liên hệ cấp cứu.",
+      "extra": "RELEASE mục 14.2 Tiêu chuẩn xuất viện an toàn.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Xuat-vien"
+      ]
+    },
+    {
+      "id": "PED48-E65",
+      "track": "ebm",
+      "type": "cloze",
+      "category": "Chiến lược phòng bệnh",
+      "section": "E14",
+      "text": "[EBM] Chiến lược phòng suy tim: chăm sóc tốt mẹ mang thai (tiêm Rubella, tránh tia X) phòng {{c1::bệnh tim bẩm sinh}}; điều trị triệt để viêm họng liên cầu phòng {{c1::thấp tim và bệnh van tim hậu thấp}}.",
+      "extra": "RELEASE mục 14: Phòng bệnh nguyên phát và thứ phát.",
+      "tags": [
+        "PED-48",
+        "EBM",
+        "Phong-benh"
+      ]
+    }
+  ]
+}

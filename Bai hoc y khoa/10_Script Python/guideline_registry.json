@@ -343,5 +343,48 @@
         "url": "https://doi.org/10.1186/s13052-017-0356-x"
       }
     }
+  },
+  "AHA": {
+    "society": "American Heart Association",
+    "url_base": "https://www.ahajournals.org",
+    "tier": 0,
+    "guidelines": {
+      "AHA 2015 - Jones Criteria": {
+        "year": 2015,
+        "title": "Revision of the Jones Criteria for the Diagnosis of Acute Rheumatic Fever in the Era of Doppler Echocardiography",
+        "pmid": "25908771"
+      },
+      "AHA 2009 - RF Prevention and Strep Pharyngitis": {
+        "year": 2009,
+        "title": "Prevention of Rheumatic Fever and Diagnosis and Treatment of Acute Streptococcal Pharyngitis: A Scientific Statement From the American Heart Association",
+        "pmid": "19246689"
+      }
+    }
+  },
+  "WHF": {
+    "society": "World Heart Federation",
+    "url_base": "https://world-heart-federation.org",
+    "tier": 0,
+    "guidelines": {
+      "WHF 2023 - RHD Echocardiography": {
+        "year": 2023,
+        "title": "2023 World Heart Federation guidelines for the echocardiographic diagnosis of rheumatic heart disease",
+        "pmid": "37914787",
+        "url": "https://www.nature.com/articles/s41569-023-00940-9"
+      }
+    }
+  },
+  "RHDA": {
+    "society": "RHD Australia (Menzies School of Health Research)",
+    "url_base": "https://www.rhdaustralia.org.au",
+    "tier": 0,
+    "guidelines": {
+      "RHDA 2025 - ARF RHD Edition 3.3": {
+        "year": 2025,
+        "title": "Australian guideline for the prevention, diagnosis and management of acute rheumatic fever and rheumatic heart disease (Edition 3.3)",
+        "pmid": null,
+        "url": "https://www.rhdaustralia.org.au/arf-rhd-guidelines/"
+      }
+    }
   }
 }

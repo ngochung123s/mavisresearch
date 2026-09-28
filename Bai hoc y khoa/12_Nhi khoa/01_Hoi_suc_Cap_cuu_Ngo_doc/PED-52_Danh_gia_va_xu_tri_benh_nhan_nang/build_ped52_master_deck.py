@@ -1,0 +1,245 @@
+# -*- coding: utf-8 -*-
+"""
+build_ped52_master_deck.py
+Đóng gói bộ thẻ Anki MASTER barem gốc cho PED-52 Đánh giá và xử trí bệnh nhân nặng ở trẻ em:
+- Track: BAREM GỐC Y THÁI BÌNH (cloze + basic) bám sát 100% giáo trình.
+- Quy tắc: atomic, basic back (🎯 + 💡), Unicode diacritics, escape angle brackets.
+- Coverage gate: BLOCK exit 2 nếu bất kỳ section nào trong 19 sections thiếu thẻ.
+- Verification: Kiểm tra đối chiếu số lượng notes trong SQLite của APKG == tổng input.
+"""
+import json
+import re
+import sqlite3
+import sys
+import tempfile
+import zipfile
+from collections import Counter
+from pathlib import Path
+
+import genanki
+
+TARGET_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(TARGET_DIR))
+from ped52_cards_data import cards_data  # noqa: E402
+
+DECK_ID = 1709132052
+DECK_NAME = "Nhi khoa Y6::PED-52: Đánh giá & Xử trí bệnh nhân nặng"
+JSON_PATH = TARGET_DIR / "PED-52_Danh_gia_va_xu_tri_benh_nhan_nang_MASTER_v1.cards.v2.json"
+APKG_PATH = TARGET_DIR / "PED-52_Danh_gia_va_xu_tri_benh_nhan_nang_MASTER_v1.apkg"
+
+REQUIRED_SECTIONS = [
+    "B00", "B01", "B02", "B03", "B04", "B05", "B06", "B07", "B08", "B09",
+    "B10", "B11", "B12", "B13", "B14", "B15", "B16", "B17", "B18"
+]
+
+CSS_STYLE = """
+.card {
+  font-family: 'Be Vietnam Pro', 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e2e8f0;
+  background-color: #090e17;
+  padding: 18px;
+  max-width: 680px;
+  margin: 0 auto;
+}
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.badge-barem {
+  background-color: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.4);
+}
+.badge-ebm {
+  background-color: rgba(6, 182, 212, 0.15);
+  color: #22d3ee;
+  border: 1px solid rgba(6, 182, 212, 0.4);
+}
+.question {
+  font-size: 16px;
+  font-weight: 600;
+  color: #f8fafc;
+  margin-bottom: 10px;
+}
+.answer-box {
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  padding: 14px 16px;
+  border-left: 3px solid #38bdf8;
+  margin-top: 10px;
+  font-size: 14.5px;
+}
+.cloze {
+  font-weight: 700;
+  color: #38bdf8;
+  border-bottom: 2px solid #0284c7;
+  padding: 0 2px;
+}
+.extra-box {
+  margin-top: 14px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.04);
+  border-left: 3px solid #38bdf8;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+.extra-box-barem, .extra-box.badge-barem {
+  border-left-color: #fbbf24;
+}
+.extra-title {
+  font-weight: 700;
+  color: #38bdf8;
+  margin-bottom: 4px;
+}
+.extra-title-barem, .extra-title.badge-barem {
+  color: #fbbf24;
+}
+"""
+
+BASIC_MODEL = genanki.Model(
+    1709521001,
+    "PED52_Master_Basic",
+    fields=[
+        {"name": "Front"},
+        {"name": "Back"},
+        {"name": "Extra"},
+        {"name": "Category"},
+        {"name": "Badge"},
+        {"name": "BadgeClass"}
+    ],
+    templates=[{
+        "name": "PED52 Master Basic",
+        "qfmt": '<div class="badge {{BadgeClass}}">{{Badge}} • {{Category}}</div><div class="question">{{Front}}</div>',
+        "afmt": '<div class="badge {{BadgeClass}}">{{Badge}} • {{Category}}</div><div class="question">{{Front}}</div><hr id="answer"><div class="answer-box">{{Back}}</div>{{#Extra}}<div class="extra-box {{BadgeClass}}"><div class="extra-title {{BadgeClass}}">Nguồn & lưu ý:</div>{{Extra}}</div>{{/Extra}}',
+    }],
+    css=CSS_STYLE,
+)
+
+CLOZE_MODEL = genanki.Model(
+    1709521002,
+    "PED52_Master_Cloze",
+    model_type=genanki.Model.CLOZE,
+    fields=[
+        {"name": "Text"},
+        {"name": "Extra"},
+        {"name": "Category"},
+        {"name": "Badge"},
+        {"name": "BadgeClass"}
+    ],
+    templates=[{
+        "name": "PED52 Master Cloze",
+        "qfmt": '<div class="badge {{BadgeClass}}">{{Badge}} • {{Category}}</div><div class="question">{{cloze:Text}}</div>',
+        "afmt": '<div class="badge {{BadgeClass}}">{{Badge}} • {{Category}}</div><div class="question">{{cloze:Text}}</div><hr id="answer">{{#Extra}}<div class="extra-box {{BadgeClass}}"><div class="extra-title {{BadgeClass}}">Nguồn & lưu ý:</div>{{Extra}}</div>{{/Extra}}',
+    }],
+    css=CSS_STYLE,
+)
+
+
+def escape_angle_brackets(text: str) -> str:
+    if not text:
+        return ""
+    return re.sub(r"<(?!(?:b|/b|i|/i|br|div|/div|span|/span|hr)\b)", "&lt;", text)
+
+
+def main() -> int:
+    print("=== BUILD PED-52 MASTER DECK (BAREM GOC) ===")
+    # 1. Coverage gate (BLOCK neu thieu bat ky section nao)
+    have = Counter(c["section"] for c in cards_data)
+    missing = [s for s in REQUIRED_SECTIONS if have.get(s, 0) == 0]
+    if missing:
+        print(f"[BLOCK] Thieu the o sections: {missing}")
+        return 2
+    print(f"[COVERAGE] Du {len(REQUIRED_SECTIONS)}/{len(REQUIRED_SECTIONS)} sections:")
+    for sec, count in sorted(have.items()):
+        print(f"  - {sec}: {count} the")
+
+    # 2. Validate fields
+    for c in cards_data:
+        if c["type"] == "basic":
+            assert str(c.get("front", "")).strip() and str(c.get("back", "")).strip(), f"Empty front/back in {c['id']}"
+        elif c["type"] == "cloze":
+            assert re.search(r"\{\{c\d+::.+?\}\}", str(c.get("text", ""))), f"Invalid cloze in {c['id']}"
+        else:
+            raise ValueError(f"unknown type {c['type']} in {c['id']}")
+    ids = [c["id"] for c in cards_data]
+    assert len(ids) == len(set(ids)), "duplicate ids found"
+    n_basic = sum(1 for c in cards_data if c["type"] == "basic")
+    n_cloze = len(cards_data) - n_basic
+    print(f"[VALID] {len(cards_data)} the hop le ({n_basic} basic + {n_cloze} cloze), ID duy nhat.")
+
+    # 3. JSON Export
+    payload = {
+        "topic": DECK_NAME,
+        "version": "master_combo_v1",
+        "date": "2026-09-28",
+        "total_cards": len(cards_data),
+        "cards": cards_data
+    }
+    JSON_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[JSON] Da luu: {JSON_PATH.name}")
+
+    # 4. APKG Export
+    deck = genanki.Deck(DECK_ID, DECK_NAME)
+    for c in cards_data:
+        is_barem = c.get("track") == "barem_goc"
+        badge = "🏛️ BAREM GỐC Y THÁI BÌNH" if is_barem else "🔬 EBM HIỆN ĐẠI & LÂM SÀNG"
+        bclass = "badge-barem" if is_barem else "badge-ebm"
+        if c["type"] == "basic":
+            note = genanki.Note(
+                model=BASIC_MODEL,
+                fields=[
+                    escape_angle_brackets(c["front"]),
+                    escape_angle_brackets(c["back"]),
+                    escape_angle_brackets(c.get("extra", "")),
+                    c.get("category", ""),
+                    badge,
+                    bclass
+                ],
+                tags=c.get("tags", [])
+            )
+        else:
+            note = genanki.Note(
+                model=CLOZE_MODEL,
+                fields=[
+                    escape_angle_brackets(c["text"]),
+                    escape_angle_brackets(c.get("extra", "")),
+                    c.get("category", ""),
+                    badge,
+                    bclass
+                ],
+                tags=c.get("tags", [])
+            )
+        deck.add_note(note)
+
+    genanki.Package(deck).write_to_file(str(APKG_PATH))
+    print(f"[APKG] Da xuat {len(cards_data)} the vao: {APKG_PATH.name}")
+
+    # 5. Verify SQLite notes in APKG
+    with tempfile.TemporaryDirectory() as td:
+        with zipfile.ZipFile(APKG_PATH) as z:
+            z.extract("collection.anki2", td)
+        con = sqlite3.connect(f"{td}/collection.anki2")
+        n_notes = con.execute("SELECT COUNT(*) FROM notes").fetchone()[0]
+        n_cards = con.execute("SELECT COUNT(*) FROM cards").fetchone()[0]
+        con.close()
+
+    print(f"[VERIFY] notes={n_notes} cards={n_cards} (input={len(cards_data)})")
+    if n_notes != len(cards_data):
+        print(f"[FAIL] Lech note count: n_notes={n_notes} vs input={len(cards_data)}")
+        return 2
+
+    print("=== BUILD OK — organic count, khong ep so tron, 100% verified ===")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

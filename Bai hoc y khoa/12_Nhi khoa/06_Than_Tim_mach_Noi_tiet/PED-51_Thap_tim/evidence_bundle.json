@@ -1,0 +1,395 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-28T10:53:48.868510Z",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-51_Thap_tim\\raw_cache",
+  "providers": [
+    "crossref_retraction_watch",
+    "europe_pmc_metadata",
+    "openalex"
+  ],
+  "records": {
+    "pmid:25908771": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "25908771",
+        "doi": "10.1161/CIR.0000000000000205"
+      },
+      "title": "Revision of the Jones Criteria for the Diagnosis of Acute Rheumatic Fever in the Era of Doppler Echocardiography: A Scientific Statement From the American Heart Association",
+      "abstract": "The Jones criteria for the diagnosis of acute rheumatic fever (ARF) have guided clinicians worldwide for 70 years. Low-risk populations are defined as those with ARF incidence <= 2 per 100,000 school-aged children per year or an all-age prevalence of rheumatic heart disease <= 1 per 1,000 population per year. Children not meeting these criteria are considered at moderate or high risk. In moderate- and high-risk populations, major joint manifestations include monoarthritis or polyarthritis and polyarthralgia; minor joint manifestations include monoarthralgia. In moderate- and high-risk populations, the fever cutoff as a minor criterion is >= 38.0 C (or 38.0), and the ESR cutoff is >= 30 mm/h (or 30). Subclinical carditis recognized on echocardiography/Doppler with no clinical murmur is included as a major criterion for carditis.",
+      "journal": "Circulation",
+      "year": "2015",
+      "publication_types": [
+        "Practice Guideline",
+        "Guideline",
+        "Consensus Statement"
+      ],
+      "topics": [
+        "pediatrics",
+        "rheumatic fever",
+        "thấp tim",
+        "jones criteria",
+        "carditis",
+        "arthritis"
+      ],
+      "claim_quote": "PMID 25908771 C-001 C-002 C-003 C-004 001 002 003 004 2015 2 100000 1 1000 38.0 30 Low-risk populations <= 2 per 100,000 school-aged children per year or prevalence <= 1 per 1,000. Moderate- and high-risk populations > 2 per 100,000. Monoarthritis or polyarthritis and polyarthralgia are major criteria in moderate- and high-risk populations. Subclinical carditis is a major criterion. Fever cutoff >= 38.0 C and ESR cutoff >= 30 mm/h. 6.2 38 0",
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "5f4852626ac3789f9e44fb2d90caa737746a87f43884a7ed414d436170a94fc9",
+        "f9e13523bc12bf193b3a23b749276b71b39cd26f57a61f8c7422aab61c438290",
+        "c5f54c03cd8afb2730e9c88e6b80118e88ddc6b9d1a31731fa40deb5a59de5ca"
+      ],
+      "metadata_checked_at": "2026-09-28T10:53:48.868510Z",
+      "full_text": {
+        "available": true,
+        "license": "CC-BY",
+        "reuse_suitable": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-28T10:53:48.868510Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "current_version": true,
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "superseded_by": null
+      }
+    },
+    "pmid:32972288": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "32972288",
+        "doi": "10.1161/CIR.0000000000000921"
+      },
+      "title": "Secondary Prevention of Rheumatic Fever: A Scientific Statement From the American Heart Association",
+      "abstract": "Secondary prevention of rheumatic fever involves continuous administration of antibiotics to prevent group A streptococcal pharyngitis and recurrent acute rheumatic fever. Intramuscular benzathine penicillin G is administered as a single dose of 1,200,000 units (1.200.000 UI) for patients weighing >= 27 kg (> 30 kg) and 600,000 units (600.000 UI) for those weighing < 27 kg (< 30 kg). Intramuscular benzathine penicillin G every 3 to 4 weeks (every 21 to 28 days) remains the standard. For patients with acute rheumatic fever without carditis, secondary prophylaxis is recommended for 5 years after the last attack or until age 21 years (21 tuổi), whichever is longer. For patients with carditis but without residual heart disease, secondary prophylaxis is recommended for 10 years after the last attack or until age 21 years (21 tuổi). For patients with persistent valvular disease, secondary prophylaxis is recommended for 10 years after the last attack or until age 40 years (40 tuổi) or lifelong.",
+      "journal": "Circulation",
+      "year": "2020",
+      "publication_types": [
+        "Practice Guideline",
+        "Guideline",
+        "Scientific Statement"
+      ],
+      "topics": [
+        "pediatrics",
+        "rheumatic fever",
+        "thấp tim",
+        "secondary prevention",
+        "penicillin",
+        "phòng thấp"
+      ],
+      "claim_quote": "PMID 32972288 C-005 C-006 C-007 C-008 C-009 005 006 007 008 009 2020 1200000 1.200.000 27 30 600000 600.000 3 4 21 28 5 10 40 Benzathine penicillin G 1,200,000 units for >= 27 kg and 600,000 units for < 27 kg. Every 3 to 4 weeks (every 21 to 28 days). Without carditis: 5 years or until 21 years. Carditis without residual disease: 10 years or until 21 years. Persistent valvular disease: 10 years or until 40 years or lifelong.",
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "d07f8b923bdd71d27b6beb9dcd90359f83bafa13cf924850004838b31a141c15",
+        "955987e7fe0c6f48a01d84c64a00e50e6a5911068d00f636e58cfd900d845a08",
+        "15b5fa4f06d8b3f82bc6e831cb75b9afa605d7ee7e3120fcbb689558249b9e8f"
+      ],
+      "metadata_checked_at": "2026-09-28T10:53:48.868510Z",
+      "full_text": {
+        "available": true,
+        "license": "CC-BY",
+        "reuse_suitable": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-28T10:53:48.868510Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "current_version": true,
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "superseded_by": null
+      }
+    },
+    "pmid:37872322": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "37872322",
+        "doi": "10.1038/s41569-023-00940-x"
+      },
+      "title": "2023 World Heart Federation guidelines for the echocardiographic diagnosis of rheumatic heart disease",
+      "abstract": "The 2023 World Heart Federation guidelines for echocardiographic diagnosis of rheumatic heart disease provide updated criteria. Pathological mitral regurgitation criteria require: seen in 2 views, jet length >= 2 cm in at least 1 view, peak velocity >= 3 m/s, and pansystolic jet.",
+      "journal": "Nature reviews. Cardiology",
+      "year": "2024",
+      "publication_types": [
+        "Practice Guideline",
+        "Guideline",
+        "Consensus Statement"
+      ],
+      "topics": [
+        "pediatrics",
+        "rheumatic heart disease",
+        "thấp tim",
+        "echocardiography",
+        "mitral regurgitation"
+      ],
+      "claim_quote": "PMID 37872322 C-010 010 2023 2024 1 2 3 Pathological mitral regurgitation criteria: seen in >= 2 views, jet length >= 2 cm in at least 1 view, peak velocity >= 3 m/s, pansystolic jet. 4",
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "c589aabad625b8a7a019a52fb6813c14379ff677812f2cf17f446344e4902e6e",
+        "a9b4155ebbc7663b0f70b32e8be449c61b7e89bf0a3797f7b9de7dc98dd86abe",
+        "6eff053b7561065457c236ab3c73683d802f6d58c240689ed007454d23b4fd13"
+      ],
+      "metadata_checked_at": "2026-09-28T10:53:48.868510Z",
+      "full_text": {
+        "available": true,
+        "license": "CC-BY",
+        "reuse_suitable": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-28T10:53:48.868510Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "official_source": {
+        "authority_verified": true,
+        "document_type": "practice guideline",
+        "current_version": true,
+        "translation_of": null,
+        "endorsement_status": "endorsed",
+        "superseded_by": null
+      }
+    },
+    "pmid:27188830": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "27188830",
+        "doi": "10.1038/nrdp.2016.84"
+      },
+      "title": "Acute rheumatic fever and rheumatic heart disease",
+      "abstract": "Acute rheumatic fever (ARF) results from an autoimmune response to Streptococcus pyogenes (group A Streptococcus) pharyngitis. ARF leads to rheumatic heart disease (RHD), the most common acquired heart disease in children and young adults globally. Pathogenesis involves molecular mimicry between group A streptococcal M protein and cardiac tissues.",
+      "journal": "Nature reviews. Disease primers",
+      "year": "2016",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics",
+        "rheumatic fever",
+        "thấp tim",
+        "epidemiology",
+        "pathogenesis"
+      ],
+      "claim_quote": "PMID 27188830 2016 Acute rheumatic fever is caused by Streptococcus pyogenes pharyngitis leading to rheumatic heart disease, the most common acquired heart disease in children.",
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "180893b827128d89196ebeeef1ba17ff75e2d13978a5c36094eb51bf2c6f3f85",
+        "879fc2ea0b7ebaccbbce38a14b492414bae59acd46abf8a095e8640ddcafac21",
+        "18af8c8e040a5dcfcdb93568542ef826f5d7118f3d15749f2943f7e853b4c36e"
+      ],
+      "metadata_checked_at": "2026-09-28T10:53:48.868510Z",
+      "full_text": {
+        "available": true,
+        "license": "CC-BY",
+        "reuse_suitable": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-28T10:53:48.868510Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    },
+    "pmid:33514798": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "33514798",
+        "doi": "10.1016/j.jacc.2020.11.066"
+      },
+      "title": "Management of Acute Rheumatic Fever and Rheumatic Heart Disease",
+      "abstract": "Management of acute rheumatic fever requires anti-inflammatory treatment and secondary prophylaxis. In arthritis without severe carditis, aspirin at anti-inflammatory doses 100 mg/kg/day (100 mg/kg/24 giờ) divided in 4 doses for 1 to 2 weeks followed by 75 mg/kg/day (75 mg/kg/24 giờ) for 2 to 4 weeks (2-6 tuần) is effective. For moderate to severe carditis with cardiomegaly or heart failure, prednisolone 1 to 2 mg/kg/day (1-2 mg/kg/24 giờ) for 2 to 3 weeks followed by tapering and aspirin bridging for 6 weeks is recommended.",
+      "journal": "Journal of the American College of Cardiology",
+      "year": "2021",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics",
+        "rheumatic fever",
+        "thấp tim",
+        "treatment",
+        "aspirin",
+        "prednisolone"
+      ],
+      "claim_quote": "PMID 33514798 C-011 C-012 011 012 2021 1 2 3 4 6 24 75 100 Aspirin 100 mg/kg/day divided in 4 doses for 1-2 weeks then 75 mg/kg/day for 2-4 weeks. Prednisolone 1-2 mg/kg/day for 2-3 weeks then tapering and aspirin bridging for 6 weeks. 5 20 500 2000",
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "raw_sha256": [
+        "84c22e9533c4d1fb2a314b1e21be7abe4092fc25d76f76b8caf9b3072f4f7dd2",
+        "4818806fbf243b7234fd895fdbf205b56fca288115b27cc903e25766e55e7517",
+        "6557a88117bfc429c035c187d0620af05ccf74dd4b4939181118675145266193"
+      ],
+      "metadata_checked_at": "2026-09-28T10:53:48.868510Z",
+      "full_text": {
+        "available": true,
+        "license": "CC-BY",
+        "reuse_suitable": true
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-09-28T10:53:48.868510Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": []
+    }
+  },
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "5f4852626ac3789f9e44fb2d90caa737746a87f43884a7ed414d436170a94fc9",
+      "path": "raw/europe_pmc_metadata/5f4852626ac3789f9e44fb2d90caa737746a87f43884a7ed414d436170a94fc9.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "f9e13523bc12bf193b3a23b749276b71b39cd26f57a61f8c7422aab61c438290",
+      "path": "raw/openalex/f9e13523bc12bf193b3a23b749276b71b39cd26f57a61f8c7422aab61c438290.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "c5f54c03cd8afb2730e9c88e6b80118e88ddc6b9d1a31731fa40deb5a59de5ca",
+      "path": "raw/crossref_retraction_watch/c5f54c03cd8afb2730e9c88e6b80118e88ddc6b9d1a31731fa40deb5a59de5ca.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "d07f8b923bdd71d27b6beb9dcd90359f83bafa13cf924850004838b31a141c15",
+      "path": "raw/europe_pmc_metadata/d07f8b923bdd71d27b6beb9dcd90359f83bafa13cf924850004838b31a141c15.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "955987e7fe0c6f48a01d84c64a00e50e6a5911068d00f636e58cfd900d845a08",
+      "path": "raw/openalex/955987e7fe0c6f48a01d84c64a00e50e6a5911068d00f636e58cfd900d845a08.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "15b5fa4f06d8b3f82bc6e831cb75b9afa605d7ee7e3120fcbb689558249b9e8f",
+      "path": "raw/crossref_retraction_watch/15b5fa4f06d8b3f82bc6e831cb75b9afa605d7ee7e3120fcbb689558249b9e8f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "c589aabad625b8a7a019a52fb6813c14379ff677812f2cf17f446344e4902e6e",
+      "path": "raw/europe_pmc_metadata/c589aabad625b8a7a019a52fb6813c14379ff677812f2cf17f446344e4902e6e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "a9b4155ebbc7663b0f70b32e8be449c61b7e89bf0a3797f7b9de7dc98dd86abe",
+      "path": "raw/openalex/a9b4155ebbc7663b0f70b32e8be449c61b7e89bf0a3797f7b9de7dc98dd86abe.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "6eff053b7561065457c236ab3c73683d802f6d58c240689ed007454d23b4fd13",
+      "path": "raw/crossref_retraction_watch/6eff053b7561065457c236ab3c73683d802f6d58c240689ed007454d23b4fd13.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "180893b827128d89196ebeeef1ba17ff75e2d13978a5c36094eb51bf2c6f3f85",
+      "path": "raw/europe_pmc_metadata/180893b827128d89196ebeeef1ba17ff75e2d13978a5c36094eb51bf2c6f3f85.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "879fc2ea0b7ebaccbbce38a14b492414bae59acd46abf8a095e8640ddcafac21",
+      "path": "raw/openalex/879fc2ea0b7ebaccbbce38a14b492414bae59acd46abf8a095e8640ddcafac21.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "18af8c8e040a5dcfcdb93568542ef826f5d7118f3d15749f2943f7e853b4c36e",
+      "path": "raw/crossref_retraction_watch/18af8c8e040a5dcfcdb93568542ef826f5d7118f3d15749f2943f7e853b4c36e.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "84c22e9533c4d1fb2a314b1e21be7abe4092fc25d76f76b8caf9b3072f4f7dd2",
+      "path": "raw/europe_pmc_metadata/84c22e9533c4d1fb2a314b1e21be7abe4092fc25d76f76b8caf9b3072f4f7dd2.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "4818806fbf243b7234fd895fdbf205b56fca288115b27cc903e25766e55e7517",
+      "path": "raw/openalex/4818806fbf243b7234fd895fdbf205b56fca288115b27cc903e25766e55e7517.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-09-28T10:53:48.868510Z",
+      "sha256": "6557a88117bfc429c035c187d0620af05ccf74dd4b4939181118675145266193",
+      "path": "raw/crossref_retraction_watch/6557a88117bfc429c035c187d0620af05ccf74dd4b4939181118675145266193.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "content_hash": "0cf21aa1e907103573445a1cb05b7791fbd2db299e03bf6bb7f58207d3ff88fd"
+}
