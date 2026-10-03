@@ -1,0 +1,72 @@
+{
+  "_embedded" : {
+    "bitstreams" : [ {
+      "id" : "fbd835e1-b9b7-414a-b6aa-9c279472bbdf",
+      "uuid" : "fbd835e1-b9b7-414a-b6aa-9c279472bbdf",
+      "name" : "9789240100077-eng.pdf",
+      "handle" : null,
+      "metadata" : {
+        "dc.description" : [ {
+          "value" : "",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.source" : [ {
+          "value" : "9789240100077-eng.pdf",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "9789240100077-eng.pdf",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "bundleName" : "ORIGINAL",
+      "sizeBytes" : 571991,
+      "checkSum" : {
+        "checkSumAlgorithm" : "MD5",
+        "value" : "f6323f324a3713e191b88b2f8162c549"
+      },
+      "sequenceId" : 1,
+      "type" : "bitstream",
+      "_links" : {
+        "content" : {
+          "href" : "https://iris.who.int/server/api/core/bitstreams/fbd835e1-b9b7-414a-b6aa-9c279472bbdf/content"
+        },
+        "bundle" : {
+          "href" : "https://iris.who.int/server/api/core/bitstreams/fbd835e1-b9b7-414a-b6aa-9c279472bbdf/bundle"
+        },
+        "format" : {
+          "href" : "https://iris.who.int/server/api/core/bitstreams/fbd835e1-b9b7-414a-b6aa-9c279472bbdf/format"
+        },
+        "thumbnail" : {
+          "href" : "https://iris.who.int/server/api/core/bitstreams/fbd835e1-b9b7-414a-b6aa-9c279472bbdf/thumbnail"
+        },
+        "replacement" : {
+          "href" : "https://iris.who.int/server/api/core/bitstreams/fbd835e1-b9b7-414a-b6aa-9c279472bbdf/replacement"
+        },
+        "self" : {
+          "href" : "https://iris.who.int/server/api/core/bitstreams/fbd835e1-b9b7-414a-b6aa-9c279472bbdf"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 1
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://iris.who.int/server/api/core/bundles/017cb39b-aecb-46d0-99ad-a23df5174a68/bitstreams"
+    }
+  }
+}

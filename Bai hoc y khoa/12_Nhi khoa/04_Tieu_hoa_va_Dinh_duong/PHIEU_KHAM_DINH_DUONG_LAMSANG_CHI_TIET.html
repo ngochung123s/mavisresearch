@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>BỆNH ÁN & PHIẾU ĐÁNH GIÁ DINH DƯỠNG LÂM SÀNG CHUYÊN SÂU</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 12mm 15mm;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 11.5pt;
+      line-height: 1.5;
+      color: #1e293b;
+      background: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    .header-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #0284c7;
+      padding-bottom: 8px;
+    }
+    .hospital-title {
+      font-size: 11pt;
+      font-weight: 700;
+      color: #0369a1;
+      text-transform: uppercase;
+    }
+    .doc-title {
+      text-align: center;
+      font-size: 17pt;
+      font-weight: 800;
+      color: #0f172a;
+      text-transform: uppercase;
+      margin: 12px 0 4px 0;
+      letter-spacing: -0.02em;
+    }
+    .doc-subtitle {
+      text-align: center;
+      font-size: 11pt;
+      font-style: italic;
+      color: #475569;
+      margin-bottom: 16px;
+    }
+    .patient-box {
+      background-color: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-bottom: 16px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 6px 16px;
+      font-size: 11pt;
+    }
+    .section-title {
+      font-size: 12.5pt;
+      font-weight: 700;
+      color: #ffffff;
+      background: #0284c7;
+      padding: 5px 12px;
+      border-radius: 5px;
+      margin-top: 18px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 14px 0;
+      font-size: 10.5pt;
+    }
+    table.data-table th {
+      background-color: #f1f5f9;
+      color: #0f172a;
+      font-weight: 700;
+      text-align: left;
+      padding: 7px 10px;
+      border: 1px solid #cbd5e1;
+    }
+    table.data-table td {
+      padding: 6px 10px;
+      border: 1px solid #cbd5e1;
+      vertical-align: top;
+    }
+    table.data-table tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+    .badge-danger {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 9.5pt;
+      background-color: #fee2e2;
+      color: #b91c1c;
+      border: 1px solid #f87171;
+    }
+    .badge-warning {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 9.5pt;
+      background-color: #fef3c7;
+      color: #b45309;
+      border: 1px solid #fcd34d;
+    }
+    .badge-success {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 9.5pt;
+      background-color: #dcfce7;
+      color: #15803d;
+      border: 1px solid #86efac;
+    }
+    .alert-card {
+      background-color: #fff1f2;
+      border-left: 4px solid #e11d48;
+      padding: 8px 12px;
+      border-radius: 4px;
+      margin: 10px 0;
+      font-size: 10.5pt;
+      color: #881337;
+    }
+    .info-card {
+      background-color: #f0f9ff;
+      border-left: 4px solid #0284c7;
+      padding: 8px 12px;
+      border-radius: 4px;
+      margin: 10px 0;
+      font-size: 10.5pt;
+      color: #0c4a6e;
+    }
+    ul, ol {
+      margin: 4px 0 8px 18px;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 3px;
+    }
+    .page-break {
+      page-break-before: always;
+    }
+    .footer-sign {
+      margin-top: 25px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      text-align: center;
+      font-size: 11pt;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <table class="header-table">
+    <tr>
+      <td style="width: 50%;">
+        <div class="hospital-title">SỞ Y TẾ TỈNH NAM ĐỊNH — BV NHI NAM ĐỊNH</div>
+        <div style="font-size: 9.5pt; color: #64748b;">KHOA HỒI SỨC CẤP CỨU &amp; TRUNG TÂM DINH DƯỠNG LÂM SÀNG</div>
+      </td>
+      <td style="width: 50%; text-align: right; font-size: 9.5pt; color: #475569;">
+        Mã BA: <b>BA26000047696</b><br>
+        Ngày khám: <b>27/09/2026</b>
+      </td>
+    </tr>
+  </table>
+
+  <div class="doc-title">BỆNH ÁN &amp; PHIẾU ĐÁNH GIÁ DINH DƯỠNG LÂM SÀNG CHUYÊN SÂU</div>
+  <div class="doc-subtitle">(Áp dụng chuẩn Nhân trắc học WHO 2007 &amp; Hướng dẫn Dinh dưỡng Hồi sức Cấp cứu Nhi khoa)</div>
+
+  <!-- PATIENT DEMOGRAPHICS -->
+  <div class="patient-box">
+    <div>Họ và tên: <b>NGÔ MINH TRIẾT</b></div>
+    <div>Tuổi: <b>9 tuổi</b> (108 tháng)</div>
+    <div>Giới tính: <b>Nam</b></div>
+    <div>Cân nặng thực tế: <b style="color: #b91c1c;">15.0 kg</b></div>
+    <div>Chiều cao đứng: <b style="color: #b91c1c;">110.0 cm</b></div>
+    <div>Chỉ số BMI: <b style="color: #b91c1c;">12.40 kg/m²</b></div>
+    <div style="grid-column: span 3;">Tiền sử sản khoa &amp; bệnh nền: <b>Đẻ non 32 tuần, Pss 1.5 kg (nhẹ cân sơ sinh), ADHD phát hiện lúc 2 tuổi, đang dùng Risperidone.</b></div>
+    <div style="grid-column: span 3;">Lý do hội chẩn dinh dưỡng: <b>Ngộ độc cấp 10 mg Risperidone giờ thứ 24, co giật toàn thể 5 phút, teo cơ cạn kiệt mỡ trầm trọng.</b></div>
+  </div>
+
+  <!-- SECTION 1 -->
+  <div class="section-title">I. ĐÁNH GIÁ NHÂN TRẮC HỌC CHI TIẾT (WHO 2007 ANTHROPOMETRIC AUDIT)</div>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Chỉ số nhân trắc</th>
+        <th>Giá trị đo thực tế</th>
+        <th>Chuẩn WHO Median (Trẻ trai 9 tuổi)</th>
+        <th>Độ lệch Z-Score</th>
+        <th>Phân loại &amp; Kết luận lâm sàng</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>Cân nặng theo tuổi (WAZ)</b></td>
+        <td><b>15.0 kg</b></td>
+        <td>28.1 kg (Khoảng -2SD: 21.0 kg)</td>
+        <td><b style="color: #b91c1c;">WAZ = -4.25 SD</b></td>
+        <td><span class="badge-danger">Suy dinh dưỡng thể Nhẹ cân mức độ RẤT NẶNG</span> (Đạt 53.4% so với median)</td>
+      </tr>
+      <tr>
+        <td><b>Chiều cao theo tuổi (HAZ)</b></td>
+        <td><b>110.0 cm</b></td>
+        <td>133.3 cm (Khoảng -2SD: 121.7 cm)</td>
+        <td><b style="color: #b91c1c;">HAZ = -4.02 SD</b></td>
+        <td><span class="badge-danger">Suy dinh dưỡng thể Thấp còi mức độ RẤT NẶNG</span> (Di chứng sinh non 32 tuần)</td>
+      </tr>
+      <tr>
+        <td><b>Chỉ số khối cơ thể (BMI/A - BAZ)</b></td>
+        <td><b>12.40 kg/m²</b></td>
+        <td>15.3 kg/m² (Khoảng -2SD: 13.0 kg/m²)</td>
+        <td><b style="color: #b91c1c;">BAZ = -3.22 SD</b></td>
+        <td><span class="badge-danger">Gầy còm / Teo đét mức độ RẤT NẶNG (Severe Wasting)</span></td>
+      </tr>
+      <tr>
+        <td><b>Vòng cánh tay (MUAC)</b></td>
+        <td><b>11.8 cm</b></td>
+        <td>18.5 cm (Ngưỡng nguy kịch: &lt; 13.5 cm)</td>
+        <td><b style="color: #b91c1c;">&lt; -3.5 SD</b></td>
+        <td><span class="badge-danger">Cạn kiệt khối cơ ngoại vi trầm trọng</span></td>
+      </tr>
+      <tr>
+        <td><b>Nếp gấp da cơ tam đầu (TSF)</b></td>
+        <td><b>3.2 mm</b></td>
+        <td>8.5 mm (Bách phân vị &lt; P3)</td>
+        <td><b style="color: #b91c1c;">&lt; P3</b></td>
+        <td><span class="badge-danger">Mất hoàn toàn lớp mỡ dự trữ dưới da</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="info-card">
+    <b>📌 Phân loại theo thang điểm Waterlow &amp; Gomez:</b><br>
+    • <b>Thấp còi theo Waterlow:</b> Chiều cao thực tế / Chiều cao chuẩn theo tuổi = 110 / 133.3 = <b>82.5%</b> (&lt; 85% $ightarrow$ Thấp còi Độ III).<br>
+    • <b>Gầy còm theo Waterlow:</b> Cân nặng thực tế / Cân nặng chuẩn theo chiều cao (110 cm chuẩn là 18.5 kg) = 15.0 / 18.5 = <b>81.1%</b> (&lt; 85% $ightarrow$ Gầy còm Độ II - III).<br>
+    • <b>KẾT LUẬN CHẨN ĐOÁN DINH DƯỠNG:</b> <b>Suy dinh dưỡng mạn tính tiến triển thể phối hợp (Marasmic Stunting - Thấp còi phối hợp Teo đét mức độ nặng nhất) trên cơ địa trẻ đẻ non 32 tuần.</b>
+  </div>
+
+  <!-- SECTION 2 -->
+  <div class="section-title">II. DẤU HIỆU LÂM SÀNG CỦA CẠN KIỆT DINH DƯỠNG &amp; THIẾU VI CHẤT</div>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Hệ cơ quan</th>
+        <th>Triệu chứng lâm sàng ghi nhận tại giường</th>
+        <th>Cơ chế &amp; Ý nghĩa bệnh lý</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>Khối mỡ dưới da</b></td>
+        <td>Mất hoàn toàn mỡ vùng má (má hóp, túi mỡ Bichat teo nhẽo), nếp gấp da bụng mỏng dính (&lt; 2mm), da bọc xương sườn, mông teo xếp nếp "quần thụng".</td>
+        <td>Huy động toàn bộ mô mỡ dự trữ để sinh năng lượng duy trì sự sống trong giai đoạn đói mạn tính.</td>
+      </tr>
+      <tr>
+        <td><b>Hệ cơ vân</b></td>
+        <td>Hố thái dương lõm sâu, cơ delta cánh tay trơ xương, cơ bắp chân teo nhẽo, xương bả vai nhô hình cánh chim.</td>
+        <td>Thoái giáng protein cơ vân để cung cấp acid amin cho tân tạo đường tại gan. Giảm khối lượng cơ toàn thân.</td>
+      </tr>
+      <tr>
+        <td><b>Lồng ngực &amp; Khung xương</b></td>
+        <td>Lồng ngực hẹp, lộ rõ chuỗi hạt sườn, rãnh Harrison nông, biến dạng nhẹ di chứng còi xương sớm sau sinh non.</td>
+        <td>Hậu quả của thiếu hụt khoáng hóa xương (Canxi, Phosphat, Vitamin D) từ thời kỳ sơ sinh thiếu tháng.</td>
+      </tr>
+      <tr>
+        <td><b>Da, lông, tóc, móng</b></td>
+        <td>Da khô ráp, mất độ căng bóng, tóc thưa dễ rụng và nhạt màu, móng tay giòn có khía dọc, niêm mạc nhợt nhẹ.</td>
+        <td>Biểu hiện thiếu hụt đa vi chất mạn tính: Kẽm, Sắt, Vitamin A, Vitamin nhóm B.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- SECTION 3 -->
+  <div class="section-title">III. PHÂN TÍCH TƯƠNG TÁC DƯỢC LÝ &amp; ĐỘC CHẤT TRÊN CƠ ĐỊA SUY DINH DƯỠNG</div>
+  <div class="alert-card">
+    <b>🚨 CẢNH BÁO TỬ VONG: VÌ SAO LIỀU 10 MG RISPERIDONE GÂY ĐỘC TÍNH NGUY KỊCH Ở TRẺ NÀY?</b>
+    <ul>
+      <li><b>1. Thể tích phân bố (Vd) sụt giảm nghiêm trọng:</b> Risperidone là thuốc thân lipid. Ở trẻ 15 kg cạn kiệt mô mỡ, thể tích phân bố thuốc giảm mạnh, khiến nồng độ thuốc tập trung với tỷ lệ cực cao trong khoang dịch ngoại bào và tuần hoàn máu não.</li>
+      <li><b>2. Giảm nồng độ Protein huyết tương:</b> Bình thường Risperidone gắn 90% với Albumin và alpha-1 acid glycoprotein. Ở trẻ suy dinh dưỡng nặng, nồng độ protein giảm làm <b>tỷ lệ thuốc tự do dạng có hoạt tính (Free drug fraction) tăng vọt gấp 2–3 lần</b>, kích thích dữ dội thụ thể D2 gây co giật 5 phút và co cứng ngoại tháp.</li>
+      <li><b>3. Giảm thanh thải tại gan &amp; Thận:</b> Suy dinh dưỡng làm suy giảm men chuyển hóa CYP2D6 tại gan và giảm mức lọc cầu thận. Chất chuyển hóa có hoạt tính <b>9-hydroxyrisperidone (Paliperidone) có thời gian bán thải kéo dài tới 24–36 giờ</b>, giải thích vì sao sau 24 giờ uống thuốc mới bùng phát cơn co giật và độc tính đỉnh điểm!</li>
+      <li><b>4. Chỉ số Creatinin 68.69 µmol/L là "Báo động đỏ":</b> Ở trẻ teo cơ khối cơ cực ít (15 kg), Creatinin nền bình thường chỉ 25–35 µmol/L. Mức 68.69 µmol/L thực chất phản ánh mức lọc cầu thận đã sụt giảm nghiêm trọng hoặc trẻ đang bị <b>Tiêu cơ vân cấp (Rhabdomyolysis)</b> sau cơn co cứng 5 phút!</li>
+    </ul>
+  </div>
+
+  <div class="page-break"></div>
+
+  <!-- SECTION 4 -->
+  <div class="section-title">IV. TÍNH TOÁN NHU CẦU NĂNG LƯỢNG &amp; DƯỠNG CHẤT ĐỊNH LƯỢNG CHI TIẾT</div>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Chỉ số dinh dưỡng</th>
+        <th>Công thức tính toán lâm sàng</th>
+        <th>Nhu cầu định lượng / ngày</th>
+        <th>Mục tiêu điều trị lâm sàng</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>Chuyển hóa cơ bản (BMR)</b></td>
+        <td>Schofield (Nam 3-10t): 22.7 x P + 495</td>
+        <td><b>835.5 kcal / ngày</b></td>
+        <td>Năng lượng tối thiểu duy trì chức năng tim, não, phổi</td>
+      </tr>
+      <tr>
+        <td><b>Năng lượng duy trì (TEE)</b></td>
+        <td>BMR x 1.2 (hệ số hoạt động tĩnh)</td>
+        <td><b>1.000 kcal / ngày</b> (66.7 kcal/kg)</td>
+        <td>Mức năng lượng trong 48 giờ đầu cấp cứu ngộ độc</td>
+      </tr>
+      <tr>
+        <td><b>Năng lượng Bắt kịp tăng trưởng (Catch-up Growth)</b></td>
+        <td>120 - 150 kcal / kg cân nặng thực tế</td>
+        <td><b style="color: #0284c7;">1.800 – 2.250 kcal / ngày</b></td>
+        <td>Áp dụng từ tuần thứ 2 sau khi qua giai đoạn ngộ độc cấp</td>
+      </tr>
+      <tr>
+        <td><b>Nhu cầu Protein (Chất đạm)</b></td>
+        <td>2.5 - 3.0 g / kg / ngày</td>
+        <td><b style="color: #0284c7;">37.5 – 45.0 g / ngày</b></td>
+        <td>Tỷ lệ P:E = 10 - 12%. Tái tạo khối cơ vân và protein huyết tương</td>
+      </tr>
+      <tr>
+        <td><b>Nhu cầu Lipid (Chất béo)</b></td>
+        <td>35 - 40% tổng năng lượng khẩu phần</td>
+        <td><b>70 – 90 g chất béo / ngày</b></td>
+        <td>Ưu tiên chất béo chuỗi trung bình (MCT), dầu thực vật, Omega-3</td>
+      </tr>
+      <tr>
+        <td><b>Nhu cầu Carbohydrate (Đường)</b></td>
+        <td>50 - 55% tổng năng lượng khẩu phần</td>
+        <td><b>225 – 275 g glucid / ngày</b></td>
+        <td>Tinh bột phức hợp, tránh đường đơn gây tiêu chảy thẩm thấu</td>
+      </tr>
+      <tr>
+        <td><b>Nhu cầu nước duy trì</b></td>
+        <td>Holliday - Segar: 1000 + 50 x 5 kg</td>
+        <td><b>1.250 ml / 24 giờ</b> (83 ml/kg)</td>
+        <td>Chia đều qua dịch truyền và đường miệng</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- SECTION 5 -->
+  <div class="section-title">V. PHÁC ĐỒ PHÒNG NGỪA HỘI CHỨNG NUÔI ĂN LẠI (REFEEDING SYNDROME PROTOCOL)</div>
+  <div class="alert-card">
+    <b>⚠️ NGUY CƠ:</b> Trẻ suy dinh dưỡng nặng khi được nạp calorie ồ ạt sẽ kích thích tiết Insulin làm ion <b>Phosphat, Kali và Magie</b> chạy ồ ạt vào tế bào $ightarrow$ Hạ Phosphat máu cấp tính gây suy tim cấp, liệt cơ hô hấp và tử vong đột ngột!
+  </div>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Giai đoạn can thiệp</th>
+        <th>Thời gian</th>
+        <th>Mức Calorie cung cấp</th>
+        <th>Giám sát xét nghiệm &amp; Bổ sung vi chất</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>Giai đoạn 1: Khởi động &amp; Ổn định</b></td>
+        <td>Ngày 1 – Ngày 3 (Giai đoạn cấp cứu)</td>
+        <td><b>50 – 60 kcal/kg/ngày</b> (750 – 900 kcal/ngày)</td>
+        <td>• <b>Thiamine (Vitamin B1):</b> Uống hoặc tiêm 50–100 mg trước khi nuôi ăn.<br>• Giữ Kali máu: 4.0 – 4.5 mmol/L (hiện 3.60 mEq/L là quá thấp!).<br>• Giữ Magie máu: &gt; 0.85 mmol/L để phòng xoắn đỉnh tim mạch.</td>
+      </tr>
+      <tr>
+        <td><b>Giai đoạn 2: Chuyển tiếp</b></td>
+        <td>Ngày 4 – Ngày 7</td>
+        <td><b>80 – 100 kcal/kg/ngày</b> (1.200 – 1.500 kcal/ngày)</td>
+        <td>• Tăng dần thể tích từng bữa, theo dõi dung nạp tiêu hóa.<br>• Xét nghiệm Điện giải đồ, Phosphat máu mỗi 24 giờ.</td>
+      </tr>
+      <tr>
+        <td><b>Giai đoạn 3: Bắt kịp tăng trưởng</b></td>
+        <td>Từ tuần thứ 2 trở đi</td>
+        <td><b>120 – 150 kcal/kg/ngày</b> (1.800 – 2.250 kcal/ngày)</td>
+        <td>• Tăng cân mục tiêu: <b>10 – 15 g/kg/ngày</b> (khoảng 150–200 g/tuần).<br>• Bổ sung Sắt hữu cơ: 3 mg/kg/ngày (sau khi đã ổn định chuyển hóa).</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- SECTION 6 -->
+  <div class="section-title">VI. ĐƠN THUỐC BỔ SUNG VI CHẤT &amp; THỰC ĐƠN MẪU TẠI GIƯỜNG BỆNH</div>
+  <div class="info-card">
+    <b>💊 ĐƠN BỔ SUNG VI CHẤT DINH DƯỠNG CẤP CỨU:</b><br>
+    1. <b>Vitamin B1 (Thiamine):</b> 50 mg x 01 viên, uống ngay trước khi ăn, dùng trong 7 ngày.<br>
+    2. <b>Kẽm Gluconate:</b> 20 mg nguyên tố/ngày (tương đương 140 mg kẽm gluconate), uống sau ăn 1 giờ x 14 ngày.<br>
+    3. <b>Vitamin A liều cao:</b> 200.000 UI uống liều duy nhất tại thời điểm chẩn đoán suy dinh dưỡng nặng.<br>
+    4. <b>Vitamin D3:</b> 1.000 UI/ngày (hỗ trợ hấp thu Canxi và phục hồi xương sau sinh non).<br>
+    5. <b>Bù Kali Clorid (KCl):</b> Bắt buộc bổ sung 2–3 mEq/kg/ngày qua dịch truyền Ringer Lactat hoặc dung dịch uống để nâng K+ từ 3.6 lên 4.2 mmol/L.
+  </div>
+
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Bữa ăn trong ngày</th>
+        <th>Thời điểm</th>
+        <th>Thực đơn chi tiết (Giai đoạn chuyển tiếp 1.200 kcal)</th>
+        <th>Giá trị dinh dưỡng ước tính</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>Bữa 1 (Sáng)</b></td>
+        <td>07:00</td>
+        <td>Cháo thịt lợn nạc + bí đỏ + 10 ml dầu thực vật (1 bát con 200 ml)</td>
+        <td>~ 220 kcal | 8g Protein</td>
+      </tr>
+      <tr>
+        <td><b>Bữa 2 (Phụ sáng)</b></td>
+        <td>09:30</td>
+        <td>Sữa cao năng lượng chuyên biệt cho trẻ suy dinh dưỡng (150 ml, tỷ lệ 1 kcal/ml)</td>
+        <td>~ 150 kcal | 5g Protein</td>
+      </tr>
+      <tr>
+        <td><b>Bữa 3 (Trưa)</b></td>
+        <td>12:00</td>
+        <td>Cháo lươn / cá hồi + rau ngót + 10 ml dầu oliu (1 bát con 200 ml)</td>
+        <td>~ 250 kcal | 10g Protein</td>
+      </tr>
+      <tr>
+        <td><b>Bữa 4 (Phụ chiều)</b></td>
+        <td>15:00</td>
+        <td>Sữa chua nguyên kem (1 hộp 100g) + 1/2 quả chuối tiêu dầm</td>
+        <td>~ 140 kcal | 4g Protein</td>
+      </tr>
+      <tr>
+        <td><b>Bữa 5 (Tối)</b></td>
+        <td>18:30</td>
+        <td>Cháo trứng gà + thịt bò băm + rau củ nghiền + 10 ml dầu ăn (200 ml)</td>
+        <td>~ 240 kcal | 9g Protein</td>
+      </tr>
+      <tr>
+        <td><b>Bữa 6 (Đêm)</b></td>
+        <td>21:30</td>
+        <td>Sữa cao năng lượng ấm (200 ml) trước khi ngủ</td>
+        <td>~ 200 kcal | 7g Protein</td>
+      </tr>
+      <tr>
+        <td colspan="3" style="text-align: right; font-weight: 700;">TỔNG NĂNG LƯỢNG &amp; PROTEIN ĐẠT ĐƯỢC:</td>
+        <td style="font-weight: 700; color: #0284c7;">~ 1.200 kcal | 43g Protein</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- SIGNATURES -->
+  <div class="footer-sign">
+    <div>
+      <b>BÁC SĨ ĐIỀU TRỊ HỒI SỨC</b><br>
+      <i>(Ký và ghi rõ họ tên)</i>
+      <br><br><br><br>
+      <b>BS. Nguyễn Ngọc Hưng</b>
+    </div>
+    <div>
+      <b>TRƯỞNG KHOA DINH DƯỠNG LÂM SÀNG</b><br>
+      <i>(Ký và ghi rõ họ tên)</i>
+      <br><br><br><br>
+      <b>TS.BS. Chuyên khoa Dinh dưỡng Nhi</b>
+    </div>
+  </div>
+
+</body>
+</html>

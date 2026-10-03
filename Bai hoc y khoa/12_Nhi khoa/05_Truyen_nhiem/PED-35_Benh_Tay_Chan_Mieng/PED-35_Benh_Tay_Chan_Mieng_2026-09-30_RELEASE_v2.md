@@ -7,7 +7,7 @@
 Truyền nhiễm Nhi khoa)
 > **Đối tượng:** Bác sĩ Nội trú Nhi, Bác sĩ Cấp cứu, Bác sĩ Nhi tổng quát, Học
 viên Sau đại học
-> **Phiên bản:** 2026-09-16_RELEASE_v1
+> **Phiên bản:** 2026-09-30_RELEASE_v2
 > **Tiêu chuẩn kiểm định:** Evidence-Based Medicine (EBM) - 9 Verified Europe
 PMC PMIDs - 16 Offline Release Gates
 
@@ -214,6 +214,18 @@ phù phổi hoặc suy hô hấp.
 bão catecholamine.
 - **X-quang ngực thẳng:** Đánh giá ứ huyết phổi hoặc mờ phế nang cánh bướm trong
 phù phổi thần kinh.
+
+### 3.5 Chẩn đoán phân biệt tại giường
+- **Herpes simplex (HSV):** Mụn nước mọc thành chùm quanh mép môi kèm viêm lợi
+sưng đỏ chảy máu; tổn thương đau rát, khác loét tay chân miệng rải rác vòm má lưỡi.
+- **Thủy đậu:** Bóng nước phân bố chủ yếu ở thân mình, mặt và da đầu với nhiều
+lứa tuổi cùng lúc và ngứa nhiều; tay chân miệng chọn lọc lòng bàn tay bàn chân và không ngứa.
+- **Chốc lây (Impetigo):** Bóng nước nông dễ vỡ, đóng vảy tiết màu vàng mật ong
+do tụ cầu/liên cầu; đáp ứng kháng sinh bôi hoặc uống.
+- **Viêm loét miệng Aphthe:** Loét tái phát ở niêm mạc má lưỡi, bờ rõ đáy vàng
+nhạt, hoàn toàn không kèm ban da hay biến chứng toàn thân, không lây nhiễm.
+- **Viêm họng mụn nước (Herpangina):** Loét đơn thuần vùng màn hầu – lưỡi gà do
+Coxsackie A, không có bóng nước ngoài da.
 
 ---
 

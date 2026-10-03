@@ -1,30 +1,13 @@
 # -*- coding: utf-8 -*-
-"""PED-53 MASTER deck cards data: Track barem YTB (Hạch to ở trẻ em).
-Fields: id, track (barem_goc), type (basic|cloze), category, section,
-front/back (basic) or text (cloze), extra, tags.
-Section codes:
-- B0: Mục tiêu & Khái niệm hạch to (ngưỡng kích thước)
-- B1_0: I. Nguyên nhân bệnh hạch bạch huyết - Cơ chế chung
-- B1_1: 1. Nhiễm khuẩn
-- B1_2: 2. Bệnh mô liên kết
-- B1_3: 3. Tình trạng quá mẫn
-- B1_4: 4. Bệnh ác tính
-- B1_5: 5. Rối loạn tăng sinh mô bạch huyết
-- B1_6: 6. Bệnh tích lũy
-- B1_7: 7. Bệnh u hạt
-- B1_8: 8. Nguyên nhân khác
-- B2_0: II. Tiếp cận chẩn đoán chung
-- B2_1: 2.1. Bệnh sử
-- B2_2: 2.2. Khám xét hạch bạch huyết và toàn thân
-- B2_3: 2.3. Xét nghiệm chẩn đoán
-- B3: III. Điều trị
-Coverage gate requires >=1 card per section.
+"""
+ped53_cards_data.py
+Dong goi bo the Anki MASTER barem cho PED-53 Hach to:
+- Track: BAREM GOC Y THAI BINH (giao trinh scan Hach_to_PEDYTB.md Trang 55 - 61).
+Quy tac: atomic, back <= 3-4 dong, Unicode 100%, escape '<', organic count.
+Coverage gate: BLOCK neu bat ky section nao trong 15 sections khong co the.
 """
 
 cards_data = [
-    # =========================================================================
-    # B0: MỤC TIÊU & KHÁI NIỆM HẠCH TO (NGƯỠNG KÍCH THƯỚC)
-    # =========================================================================
     {
         "id": "PED53-B01",
         "track": "barem_goc",
@@ -32,9 +15,13 @@ cards_data = [
         "category": "Mục tiêu bài học",
         "section": "B0",
         "front": "3 mục tiêu học tập của bài Hạch to ở trẻ em theo giáo trình là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trình bày các nguyên nhân gây ra hạch to.<br>2) Trình bày cách tiếp cận chẩn đoán hạch to.<br>3) Điều trị một số nguyên nhân gây ra hạch to thường gặp.<br><br><b>💡 Lưu ý:</b><br>Bám sát 3 mục tiêu này khi trả lời câu hỏi tự luận lý thuyết.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguyên nhân gây hạch to. 2) Tiếp cận chẩn đoán. 3) Điều trị một số nguyên nhân thường gặp.<br><b>💡 Barem:</b> Bám sát 3 mục tiêu này khi trả lời câu hỏi tự luận lý thuyết.",
         "extra": "Văn bản gốc: Mục tiêu 1-3 (trang 55).",
-        "tags": ["PED-53", "Barem-goc", "Muc-tieu"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Muc-tieu"
+        ]
     },
     {
         "id": "PED53-B02",
@@ -44,7 +31,11 @@ cards_data = [
         "section": "B0",
         "text": "[Barem gốc] Khám hạch bình thường ở trẻ: phần lớn {{c1::không sờ thấy hạch}} ở trẻ sơ sinh, còn ở trẻ nhỏ có thể sờ thấy hạch ở các vùng {{c1::cổ, nách, bẹn}}.",
         "extra": "Văn bản gốc: Bình thường phần lớn không sờ thấy hạch ở trẻ sơ sinh, còn ở trẻ em nhỏ có thể sờ thấy hạch ở vùng cổ, nách, bẹn (trang 55).",
-        "tags": ["PED-53", "Barem-goc", "Khai-niem"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Khai-niem"
+        ]
     },
     {
         "id": "PED53-B03",
@@ -54,7 +45,12 @@ cards_data = [
         "section": "B0",
         "text": "[Barem gốc] Định nghĩa hạch to theo kích thước: đường kính trên {{c1::1 cm}} với hạch ở cổ hoặc hạch ở nách, và trên {{c1::1,5 cm}} với hạch ở vùng bẹn.",
         "extra": "Văn bản gốc: Hạch bạch huyết gọi là to khi đường kính của hạch trên 1cm với hạch ở cổ hay hạch ở nách và trên 1,5cm với hạch ở vùng bẹn (trang 55).",
-        "tags": ["PED-53", "Barem-goc", "Khai-niem", "Kich-thuoc"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Khai-niem",
+            "Kich-thuoc"
+        ]
     },
     {
         "id": "PED53-B04",
@@ -65,12 +61,12 @@ cards_data = [
         "front": "Tiên lượng phần lớn các trường hợp có hạch to ở trẻ em theo giáo trình như thế nào?",
         "back": "<b>🎯 Trả lời cốt lõi:</b><br>Phần lớn các bệnh có hạch to chỉ là tạm thời, tự khỏi và không để lại di chứng.<br><br><b>💡 Lưu ý:</b><br>Tuy vậy nhiều bệnh hạch to cần được chẩn đoán sớm và theo dõi chặt chẽ để phát hiện các căn nguyên nguy hiểm.",
         "extra": "Văn bản gốc: Phần lớn các bệnh có hạch bạch huyết to chỉ là tạm thời, khỏi không có di chứng, song nhiều bệnh có hạch bạch huyết to cần được chẩn đoán (trang 55).",
-        "tags": ["PED-53", "Barem-goc", "Khai-niem"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Khai-niem"
+        ]
     },
-
-    # =========================================================================
-    # B1_0: I. NGUYÊN NHÂN BỆNH HẠCH BẠCH HUYẾT - CƠ CHẾ CHUNG
-    # =========================================================================
     {
         "id": "PED53-B05",
         "track": "barem_goc",
@@ -78,9 +74,13 @@ cards_data = [
         "category": "Cơ chế to hạch",
         "section": "B1_0",
         "front": "2 cơ chế cơ bản làm hạch bạch huyết to lên theo giáo trình là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sự tăng sinh các thành phần của hạch bạch huyết do có kháng nguyên kích thích.<br>2) Thâm nhiễm các tế bào ngoài hạch (như bạch cầu đa nhân hoặc tế bào ác tính di căn).<br><br><b>💡 Lưu ý:</b><br>Phổ biến nhất trên lâm sàng là tăng sinh tế bào đáp ứng với nhiễm khuẩn tại chỗ.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tăng sinh tế bào do kích thích kháng nguyên. 2) Thâm nhiễm tế bào ngoài hạch (bạch cầu đa nhân, tế bào ác tính di căn).<br><b>💡 Barem:</b> Phổ biến nhất là tăng sinh tế bào đáp ứng nhiễm khuẩn tại chỗ.",
         "extra": "Văn bản gốc: Hạch bạch huyết to là hậu quả của sự tăng sinh các thành phần của hạch bạch huyết, do có một kháng nguyên kích thích, hay do thâm nhiễm, tế bào ngoài hạch như bạch cầu đa nhân hay tế bào ác tính di căn (trang 55).",
-        "tags": ["PED-53", "Barem-goc", "Co-che"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Co-che"
+        ]
     },
     {
         "id": "PED53-B06",
@@ -90,12 +90,12 @@ cards_data = [
         "section": "B1_0",
         "text": "[Barem gốc] Động học kích thước hạch: khi mất kháng nguyên kích thích thì hạch bạch huyết {{c1::nhỏ lại}}, nếu kháng nguyên kích thích tồn tại lâu sẽ làm hạch {{c1::to mạn tính}}.",
         "extra": "Văn bản gốc: khi mất kháng nguyên kích thích thì hạch bạch huyết nhỏ lại, nếu kháng nguyên kích thích tồn tại lâu sẽ làm hạch bạch huyết to mạn tính (trang 55).",
-        "tags": ["PED-53", "Barem-goc", "Co-che"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Co-che"
+        ]
     },
-
-    # =========================================================================
-    # B1_1: 1. NHIỄM KHUẨN
-    # =========================================================================
     {
         "id": "PED53-B07",
         "track": "barem_goc",
@@ -104,7 +104,12 @@ cards_data = [
         "section": "B1_1",
         "text": "[Barem gốc] Các nguyên nhân vi khuẩn gây hạch to: nhiễm khuẩn da, {{c1::tụ cầu, liên cầu}}, nhiễm khuẩn huyết, {{c1::lao, Mycobacteria không điển hình}}, Brucella, thương hàn, bạch hầu, giang mai.",
         "extra": "Văn bản gốc mục 1. Nhiễm khuẩn: Vi khuẩn (trang 55).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "Vi-khuan"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "Vi-khuan"
+        ]
     },
     {
         "id": "PED53-B08",
@@ -114,7 +119,12 @@ cards_data = [
         "section": "B1_1",
         "text": "[Barem gốc] Các nguyên nhân virus gây hạch to: tăng bạch cầu đơn nhân nhiễm khuẩn, {{c1::cytomegalovirus (CMV)}}, rubella, thủy đậu, {{c1::HIV}}, adenovirus, herpes, bệnh mèo cào...",
         "extra": "Văn bản gốc mục 1. Nhiễm khuẩn: Virus (trang 55).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "Virus"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "Virus"
+        ]
     },
     {
         "id": "PED53-B09",
@@ -124,7 +134,12 @@ cards_data = [
         "section": "B1_1",
         "text": "[Barem gốc] Căn nguyên đơn bào gây hạch to gồm {{c1::toxoplasma, trypanosomia}}; xoắn khuẩn gồm {{c1::giang mai}}; nấm gồm {{c1::nấm da, histoplasma}}.",
         "extra": "Văn bản gốc mục 1. Nhiễm khuẩn: Đơn bào, Xoắn khuẩn, Nấm (trang 55).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "Ky-sinh-trung"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "Ky-sinh-trung"
+        ]
     },
     {
         "id": "PED53-B10",
@@ -134,12 +149,13 @@ cards_data = [
         "section": "B1_1",
         "text": "[Barem gốc] Trong phân loại nguyên nhân hạch to theo giáo trình, {{c1::bệnh Kawasaki}} được xếp trong nhóm nguyên nhân {{c1::nhiễm khuẩn}} (mục 1).",
         "extra": "Văn bản gốc: mục 1. Nhiễm khuẩn liệt kê cuối cùng: Bệnh Kawasaki (trang 55).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "Kawasaki"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "Kawasaki"
+        ]
     },
-
-    # =========================================================================
-    # B1_2: 2. BỆNH MÔ LIÊN KẾT
-    # =========================================================================
     {
         "id": "PED53-B11",
         "track": "barem_goc",
@@ -148,12 +164,13 @@ cards_data = [
         "section": "B1_2",
         "text": "[Barem gốc] Hai bệnh mô liên kết chính gây hạch to ở trẻ em theo giáo trình là: {{c1::viêm khớp dạng thấp}} và {{c1::lupus ban đỏ hệ thống}}.",
         "extra": "Văn bản gốc mục 2. Bệnh mô liên kết (trang 55).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "Mo-lien-ket"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "Mo-lien-ket"
+        ]
     },
-
-    # =========================================================================
-    # B1_3: 3. TÌNH TRẠNG QUÁ MẪN
-    # =========================================================================
     {
         "id": "PED53-B12",
         "track": "barem_goc",
@@ -162,12 +179,13 @@ cards_data = [
         "section": "B1_3",
         "text": "[Barem gốc] Hai tình trạng quá mẫn gây hạch to ở trẻ em theo giáo trình gồm: {{c1::bệnh huyết thanh}} và {{c1::phản ứng thuốc}}.",
         "extra": "Văn bản gốc mục 3. Tình trạng quá mẫn (trang 55-56).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "Qua-man"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "Qua-man"
+        ]
     },
-
-    # =========================================================================
-    # B1_4: 4. BỆNH ÁC TÍNH
-    # =========================================================================
     {
         "id": "PED53-B13",
         "track": "barem_goc",
@@ -176,7 +194,12 @@ cards_data = [
         "section": "B1_4",
         "text": "[Barem gốc] Hai loại u lympho ác tính gây hạch to thường gặp ở trẻ em theo giáo trình là: {{c1::u lympho Hodgkin}} và {{c1::u lympho không Hodgkin}}.",
         "extra": "Văn bản gốc mục 4. Bệnh ác tính (trang 56).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "Ac-tinh"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "Ac-tinh"
+        ]
     },
     {
         "id": "PED53-B14",
@@ -185,9 +208,14 @@ cards_data = [
         "category": "Bệnh ác tính",
         "section": "B1_4",
         "front": "Kể tên 4 nhóm bệnh ác tính gây hạch to ở trẻ em theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) U lympho Hodgkin và không Hodgkin.<br>2) Bệnh lơxêmi (leukemia).<br>3) Di căn ung thư.<br>4) Bệnh tăng mô bào.<br><br><b>💡 Lưu ý:</b><br>Đây là nhóm nguyên nhân nguy hiểm cần được loại trừ sớm bằng khám xét kỹ và sinh thiết khi có chỉ định.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) U lympho (Hodgkin & không Hodgkin). 2) Bệnh lơxêmi. 3) Di căn ung thư. 4) Bệnh tăng mô bào.<br><b>💡 Barem:</b> Bắt buộc loại trừ sớm bằng khám xét kỹ và sinh thiết khi có chỉ định.",
         "extra": "Văn bản gốc mục 4. Bệnh ác tính (trang 56).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "Ac-tinh"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "Ac-tinh"
+        ]
     },
     {
         "id": "PED53-B15",
@@ -197,12 +225,13 @@ cards_data = [
         "section": "B1_4",
         "text": "[Barem gốc] 3 thể bệnh tăng mô bào gây hạch to theo giáo trình: tăng mô bào tế bào {{c1::Langerhans}}, tăng mô bào {{c1::liên võng tủy}}, tăng mô bào lympho {{c1::thực bào hồng cầu gia đình}}.",
         "extra": "Văn bản gốc: Bệnh tăng mô bào: tăng mô bào tế bào Lengerhans, tăng mô bào liên võng tủy, tăng mô bào lympho thực bào hồng cầu gia đình (trang 56).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "Tang-mo-bao"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "Tang-mo-bao"
+        ]
     },
-
-    # =========================================================================
-    # B1_5: 5. RỐI LOẠN TĂNG SINH MÔ BẠCH HUYẾT
-    # =========================================================================
     {
         "id": "PED53-B16",
         "track": "barem_goc",
@@ -211,7 +240,12 @@ cards_data = [
         "section": "B1_5",
         "text": "[Barem gốc] Bệnh Castleman trong nhóm tăng sinh mô bạch huyết gồm 2 thể: quá sản hạch bạch huyết {{c1::khổng lồ}} và quá sản hạch bạch huyết {{c1::nang mạch}}.",
         "extra": "Văn bản gốc: Bệnh Castleman: quá sản hạch bạch huyết khổng lồ, quá sản hạch bạch huyết nang mạch (trang 56).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "Castleman"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "Castleman"
+        ]
     },
     {
         "id": "PED53-B17",
@@ -220,9 +254,14 @@ cards_data = [
         "category": "Tăng sinh bạch huyết",
         "section": "B1_5",
         "front": "Kể tên các bệnh rối loạn tăng sinh mô bạch huyết gây hạch to (ngoài bệnh Castleman) theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh hạch nguyên bào miễn dịch mạch và loạn protein máu.<br>2) Hội chứng tăng sinh bạch huyết liên kết – X.<br>3) Bệnh u hạt dạng lympho.<br>4) Bệnh tăng mô bào xoang kèm hạch to (Rosai-Dorfman).<br>5) Hội chứng tăng sinh bạch huyết tự miễn (ALPS).<br><br><b>💡 Lưu ý:</b><br>Các bệnh này thường biểu hiện hạch to kèm biến loạn miễn dịch phức tạp.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bệnh hạch nguyên bào MD mạch, HC tăng sinh lympho liên kết-X, u hạt dạng lympho, bệnh Rosai-Dorfman, HC ALPS.<br><b>💡 Barem:</b> Các bệnh rối loạn tăng sinh mô bạch huyết kèm biến loạn miễn dịch phức tạp.",
         "extra": "Văn bản gốc mục 5. Rối loạn tăng sinh mô bạch huyết (trang 56).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "Tang-sinh"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "Tang-sinh"
+        ]
     },
     {
         "id": "PED53-B18",
@@ -232,12 +271,13 @@ cards_data = [
         "section": "B1_5",
         "text": "[Barem gốc] Rối loạn tăng sinh mô bạch huyết di truyền liên kết nhiễm sắc thể giới tính gây hạch to là {{c1::hội chứng tăng sinh bạch huyết liên kết – X}}.",
         "extra": "Văn bản gốc: Hội chứng tăng sinh bạch huyết liên kết – X (trang 56).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "Tang-sinh"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "Tang-sinh"
+        ]
     },
-
-    # =========================================================================
-    # B1_6: 6. BỆNH TÍCH LŨY
-    # =========================================================================
     {
         "id": "PED53-B19",
         "track": "barem_goc",
@@ -246,12 +286,13 @@ cards_data = [
         "section": "B1_6",
         "text": "[Barem gốc] Hai bệnh tích lũy gây hạch to được nêu trong giáo trình là bệnh {{c1::Niemann-Pick}} và bệnh {{c1::loạn dưỡng cystin}}.",
         "extra": "Văn bản gốc mục 6. Bệnh tích lũy (trang 56).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "Tich-luy"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "Tich-luy"
+        ]
     },
-
-    # =========================================================================
-    # B1_7: 7. BỆNH U HẠT
-    # =========================================================================
     {
         "id": "PED53-B20",
         "track": "barem_goc",
@@ -260,12 +301,13 @@ cards_data = [
         "section": "B1_7",
         "text": "[Barem gốc] Hai bệnh u hạt gây hạch to theo giáo trình là bệnh {{c1::sarcoid}} và bệnh {{c1::tăng u hạt mạn tính}}.",
         "extra": "Văn bản gốc mục 7. Bệnh u hạt (trang 56).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "U-hat"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "U-hat"
+        ]
     },
-
-    # =========================================================================
-    # B1_8: 8. NGUYÊN NHÂN KHÁC
-    # =========================================================================
     {
         "id": "PED53-B21",
         "track": "barem_goc",
@@ -273,14 +315,15 @@ cards_data = [
         "category": "Nguyên nhân khác",
         "section": "B1_8",
         "front": "Kể tên 4 nguyên nhân khác gây hạch to được liệt kê ở mục 8 của giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phơi nhiễm beryllium.<br>2) Cường giáp.<br>3) Loạn gamma globulin máu với bệnh hạch bạch huyết tiên phát.<br>4) Viêm hạch sau tiêm chủng.<br><br><b>💡 Lưu ý:</b><br>Luôn lưu ý tiền sử tiêm chủng và sử dụng thuốc gần đây khi trẻ có hạch to cấp.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phơi nhiễm beryllium. 2) Cường giáp. 3) Loạn gamma globulin máu tiên phát. 4) Viêm hạch sau tiêm chủng.<br><b>💡 Barem:</b> Luôn lưu ý tiền sử tiêm chủng và sử dụng thuốc gần đây khi trẻ có hạch to cấp.",
         "extra": "Văn bản gốc mục 8. Nguyên nhân khác (trang 56).",
-        "tags": ["PED-53", "Barem-goc", "Nguyen-nhan", "Khac"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Nguyen-nhan",
+            "Khac"
+        ]
     },
-
-    # =========================================================================
-    # B2_0: II. TIẾP CẬN CHẨN ĐOÁN CHUNG
-    # =========================================================================
     {
         "id": "PED53-B22",
         "track": "barem_goc",
@@ -288,14 +331,14 @@ cards_data = [
         "category": "Tiếp cận chẩn đoán",
         "section": "B2_0",
         "front": "Trình bày 4 bước theo trình tự tiếp cận chẩn đoán bệnh nhân hạch to theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khai thác kỹ bệnh sử.<br>2) Khám xét kỹ tính chất hạch (khu trú/toàn thể) và toàn thân.<br>3) Thăm dò các xét nghiệm không xâm nhập trước.<br>4) Sau đó sinh thiết hạch để nghiên cứu mô bệnh học về hình thái & mô miễn dịch học.<br><br><b>💡 Lưu ý:</b><br>Nguyên tắc kinh điển: đi từ không xâm nhập đến xâm nhập; sinh thiết là xét nghiệm chẩn đoán quyết định.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh sử. 2) Khám hạch (khu trú/toàn thể) & toàn thân. 3) Xét nghiệm không xâm nhập. 4) Sinh thiết hạch.<br><b>💡 Barem:</b> Trình tự chuẩn: đi từ không xâm nhập đến xâm nhập; sinh thiết là xét nghiệm quyết định.",
         "extra": "Văn bản gốc mục II. Tiếp cận chẩn đoán bệnh hạch bạch huyết (trang 56).",
-        "tags": ["PED-53", "Barem-goc", "Tiep-can"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Tiep-can"
+        ]
     },
-
-    # =========================================================================
-    # B2_1: 2.1. BỆNH SỬ
-    # =========================================================================
     {
         "id": "PED53-B23",
         "track": "barem_goc",
@@ -303,9 +346,14 @@ cards_data = [
         "category": "Bệnh sử nhiễm khuẩn",
         "section": "B2_1",
         "front": "Khi khai thác bệnh sử nghi ngờ nhiễm khuẩn ở bệnh nhân hạch to, cần chú ý những điểm gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>- Hạch to từ bao lâu; có sốt không (thất thường, kéo dài hay tái diễn).<br>- Nhiễm khuẩn ở vùng dẫn lưu bạch huyết (đau họng, viêm đường hô hấp trên).<br>- Dấu hiệu lao: ho kéo dài, tiêm chủng thường quy, sẹo tiêm phòng lao, sụt cân, mồ hôi trộm đêm.<br><br><b>💡 Lưu ý:</b><br>Luôn luôn kiểm tra sẹo BCG và diễn biến lao ở mọi trẻ em có hạch to.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thời gian hạch to & sốt, nhiễm khuẩn vùng dẫn lưu (họng, hô hấp trên), và dấu hiệu lao (ho kéo dài, sẹo BCG, sụt cân).<br><b>💡 Barem:</b> Luôn luôn kiểm tra sẹo BCG và diễn biến lao ở mọi trẻ em có hạch to.",
         "extra": "Văn bản gốc mục 2.1 Bệnh sử (trang 56).",
-        "tags": ["PED-53", "Barem-goc", "Benh-su", "Nhiem-khuan"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Benh-su",
+            "Nhiem-khuan"
+        ]
     },
     {
         "id": "PED53-B24",
@@ -315,7 +363,12 @@ cards_data = [
         "section": "B2_1",
         "text": "[Barem gốc] Khai thác bệnh sử nghi bệnh ác tính ở trẻ có hạch to: chú ý các biểu hiện {{c1::sốt thất thường}}, {{c1::chảy máu mũi}} và {{c1::bầm máu ở da}}.",
         "extra": "Văn bản gốc: Hỏi các biểu hiện của bệnh ác tính như sốt thất thường, chảy máu mũi, bầm máu ở da (trang 57).",
-        "tags": ["PED-53", "Barem-goc", "Benh-su", "Ac-tinh"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Benh-su",
+            "Ac-tinh"
+        ]
     },
     {
         "id": "PED53-B25",
@@ -325,7 +378,12 @@ cards_data = [
         "section": "B2_1",
         "text": "[Barem gốc] Khai thác bệnh sử nghi bệnh mô liên kết ở trẻ hạch to: hỏi phát hiện {{c1::đau khớp}}, {{c1::phát ban}} và {{c1::sốt}}; lưu ý tới vắc xin mới tiêm chủng và các thuốc đã dùng.",
         "extra": "Văn bản gốc: Hỏi phát hiện các bệnh mô liên kết như đau khớp, phát ban và sốt. Lưu ý tới vaccin mới tiêm chủng và các thuốc đã dùng (trang 57).",
-        "tags": ["PED-53", "Barem-goc", "Benh-su", "Mo-lien-ket"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Benh-su",
+            "Mo-lien-ket"
+        ]
     },
     {
         "id": "PED53-B26",
@@ -335,12 +393,13 @@ cards_data = [
         "section": "B2_1",
         "text": "[Barem gốc] Khai thác tiền sử và dịch tễ ở trẻ hạch to: hỏi nguy cơ liên quan {{c1::nhiễm HIV}}, tiền sử bị {{c1::mèo cào, súc vật cắn}}, tổn thương ở da, mới {{c1::di chuyển từ xa về}}.",
         "extra": "Văn bản gốc: Hỏi bệnh sử có liên quan đến nhiễm HIV, tiền sử bị mèo cào, súc vật cắn, tổn thương ở da, mới đi chuyển từ xa về (trang 57).",
-        "tags": ["PED-53", "Barem-goc", "Benh-su", "Dich-te"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Benh-su",
+            "Dich-te"
+        ]
     },
-
-    # =========================================================================
-    # B2_2: 2.2. KHÁM XÉT HẠCH BẠCH HUYẾT VÀ TOÀN THÂN
-    # =========================================================================
     {
         "id": "PED53-B27",
         "track": "barem_goc",
@@ -349,7 +408,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Hạch bạch huyết được định nghĩa là to toàn thể khi hạch to trên {{c1::hai vùng hạch không gần nhau}}.",
         "extra": "Văn bản gốc: Hạch bạch huyết to toàn thể khi hạch to trên hai vùng hạch không gần nhau (trang 57).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Dinh-nghia"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Dinh-nghia"
+        ]
     },
     {
         "id": "PED53-B28",
@@ -358,9 +422,14 @@ cards_data = [
         "category": "Nguyên nhân hạch toàn thể",
         "section": "B2_2",
         "front": "Kể các nhóm nguyên nhân chính gây hạch to toàn thể theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhiễm trùng toàn thể: vi khuẩn, virus, nấm, đơn bào (lao, thương hàn, giang mai, Brucella, CMV).<br>2) Bệnh tự miễn, bệnh ác tính.<br>3) Tích lũy lipid, bệnh huyết thanh, phản ứng thuốc.<br><br><b>💡 Lưu ý:</b><br>Hạch toàn thể gợi ý bệnh lý hệ thống, cần khảo sát toàn diện nhiều cơ quan.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhiễm trùng toàn thể (lao, thương hàn, giang mai, CMV). 2) Tự miễn, ác tính. 3) Tích lũy lipid, bệnh huyết thanh, phản ứng thuốc.<br><b>💡 Barem:</b> Hạch to toàn thể (≥ 2 vùng không gần nhau) gợi ý bệnh lý hệ thống.",
         "extra": "Văn bản gốc mục 2.2 Khám xét hạch (trang 57).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Nguyen-nhan"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Nguyen-nhan"
+        ]
     },
     {
         "id": "PED53-B29",
@@ -370,7 +439,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Mối liên quan vùng dẫn lưu: hạch góc hàm to thường do {{c1::nhiễm khuẩn ở họng, viêm amydal}}; hạch cổ to do {{c1::nhiễm khuẩn đường hô hấp trên}}; hạch chẩm to do {{c1::nhiễm khuẩn vùng da đầu}}.",
         "extra": "Văn bản gốc mục 2.2 Khám xét hạch (trang 57).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Dan-luu"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Dan-luu"
+        ]
     },
     {
         "id": "PED53-B30",
@@ -379,9 +453,14 @@ cards_data = [
         "category": "Hạch thượng đòn",
         "section": "B2_2",
         "front": "Ý nghĩa lâm sàng khi sờ thấy hạch to ở vùng thượng đòn trái và thượng đòn phải?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>- Thượng đòn trái: nghi bệnh ác tính phát triển từ trong ổ bụng lan rộng qua ống ngực.<br>- Thượng đòn phải: có tổn thương trong lồng ngực (do dẫn lưu từ phổi và trung thất).<br><br><b>💡 Lưu ý:</b><br>Hạch thượng đòn luôn là tình trạng bệnh nặng, bắt buộc tìm bệnh lý ở lồng ngực hoặc ổ bụng.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thượng đòn trái: bệnh ác tính từ ổ bụng qua ống ngực; Thượng đòn phải: tổn thương trong lồng ngực (phổi, trung thất).<br><b>💡 Barem:</b> Hạch thượng đòn luôn là bệnh nặng, bắt buộc tìm bệnh lý ở lồng ngực hoặc ổ bụng.",
         "extra": "Văn bản gốc mục 2.2 Khám xét hạch (trang 57).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Thuong-don"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Thuong-don"
+        ]
     },
     {
         "id": "PED53-B31",
@@ -391,7 +470,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Hạch bạch huyết to ở thượng đòn nên tìm bệnh lý ở {{c1::trung thất}}; hạch bạch huyết to ở {{c1::thượng đòn và nách to}} thường là tình trạng bệnh nặng.",
         "extra": "Văn bản gốc: Hạch bạch huyết to ở thượng đòn nên tìm bệnh lý ở trung thất, hạch bạch huyết ở thượng đòn và nách to thường là tình trạng bệnh nặng (trang 57).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Thuong-don"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Thuong-don"
+        ]
     },
     {
         "id": "PED53-B32",
@@ -401,7 +485,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Các nhóm hạch sâu gồm hạch ở {{c1::mạc treo, sau ổ bụng, trung thất}}; các hạch này to nhiều, dính thành khối thường là bệnh toàn thể, cần phát hiện bằng {{c1::X quang, siêu âm, CLVT (CT)}}.",
         "extra": "Văn bản gốc: hạch bạch huyết ở sâu cũng có thể to và nhiều như hạch ở mạc treo, ở sau ổ bụng, ở trung thất... (trang 57).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Hach-sau"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Hach-sau"
+        ]
     },
     {
         "id": "PED53-B33",
@@ -411,7 +500,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Hạch trung thất to ở trẻ em ngoài nguyên nhân do {{c1::lao}}, phần lớn là do {{c1::bệnh ác tính}}.",
         "extra": "Văn bản gốc: Hạch trung thất to ngoài nguyên nhân lao, phần lớn là bệnh ác tính ở trẻ em (trang 57).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Trung-that"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Trung-that"
+        ]
     },
     {
         "id": "PED53-B34",
@@ -421,7 +515,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Nguyên nhân theo vùng hạch: hạch chẩm to do {{c1::nhiễm khuẩn da đầu, rubella}}; hạch quanh tai to do {{c1::nhiễm khuẩn ở mắt, bệnh mèo cào}}.",
         "extra": "Văn bản gốc: Hạch chẩm to: nhiễm khuẩn da đầu, rubella; Hạch quanh tai to: nhiễm khuẩn ở mắt, bệnh mèo cào (trang 57).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Dan-luu"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Dan-luu"
+        ]
     },
     {
         "id": "PED53-B35",
@@ -430,9 +529,14 @@ cards_data = [
         "category": "Nguyên nhân theo vùng",
         "section": "B2_2",
         "front": "Kể tên các nguyên nhân phổ biến gây hạch cổ to theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm hạch do tụ cầu, liên cầu khuẩn, viêm amydal.<br>2) Viêm bạch cầu đơn nhân nhiễm khuẩn.<br>3) Toxoplasma.<br>4) Bệnh ác tính.<br>5) Bệnh Kawasaki.<br><br><b>💡 Lưu ý:</b><br>Hạch cổ là vị trí gặp nhiều nhất ở trẻ em, đa dạng từ nhiễm trùng lành tính đến bệnh ác tính.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhiễm khuẩn tụ cầu, liên cầu, viêm amidan. 2) Bệnh tăng bạch cầu đơn nhân. 3) Toxoplasma. 4) Ác tính. 5) Bệnh Kawasaki.<br><b>💡 Barem:</b> Hạch cổ là vị trí gặp nhiều nhất ở trẻ em, đa dạng từ lành tính đến ác tính.",
         "extra": "Văn bản gốc mục các nguyên nhân phổ biến của vùng hạch to (trang 57).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Hach-co"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Hach-co"
+        ]
     },
     {
         "id": "PED53-B36",
@@ -442,7 +546,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Hạch dưới hàm to theo giáo trình do các nguyên nhân: {{c1::lao}}, {{c1::u lympho Hodgkin, u lympho không Hodgkin}} và {{c1::bệnh nấm Histoplasma}}.",
         "extra": "Văn bản gốc: Hạch dưới hàm to do: lao, U lympho Hodgkin, u lympho không Hodgkin, bệnh nấm Histoplasma (trang 58).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Duoi-ham"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Duoi-ham"
+        ]
     },
     {
         "id": "PED53-B37",
@@ -452,7 +561,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Hạch nách to do {{c1::nhiễm khuẩn cánh tay, thành ngực, bệnh ác tính, bệnh mèo cào}}; hạch vùng chậu bẹn to do {{c1::nhiễm khuẩn ở chi dưới, nhiễm khuẩn vùng háng}}.",
         "extra": "Văn bản gốc mục các nguyên nhân phổ biến của vùng hạch to (trang 58).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Nach-ben"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Nach-ben"
+        ]
     },
     {
         "id": "PED53-B38",
@@ -462,7 +576,13 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Hạch trung thất to do {{c1::lao, bệnh ác tính, nấm Histoplasma, bệnh sarcoid}}; hạch bụng to do {{c1::bệnh ác tính, viêm hạch mạc treo}}.",
         "extra": "Văn bản gốc mục các nguyên nhân phổ biến của vùng hạch to (trang 58).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Trung-that", "Bung"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Trung-that",
+            "Bung"
+        ]
     },
     {
         "id": "PED53-B39",
@@ -472,7 +592,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Về kích thước: hạch bạch huyết to trên {{c1::2 cm}} phải coi là bệnh lý, kèm theo tính chất hạch {{c1::to lên dần, càng ngày càng to}} là hạch bệnh lý.",
         "extra": "Văn bản gốc: Hạch bạch huyết to trên 2 cm phải coi là bệnh lý, thêm vào hạch bạch huyết to lên dần, càng ngày càng to là hạch bệnh lý (trang 58).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Kich-thuoc"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Kich-thuoc"
+        ]
     },
     {
         "id": "PED53-B40",
@@ -482,7 +607,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Hạch to một vùng, đau phù nề quanh hạch, mặt da đỏ nóng là {{c1::viêm hạch do vi khuẩn}}; nếu điều trị kháng sinh {{c1::hai tuần}} mà hạch không nhỏ đi thì cần theo dõi cẩn thận.",
         "extra": "Văn bản gốc mục Tính chất hạch to (trang 58).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Tinh-chat"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Tinh-chat"
+        ]
     },
     {
         "id": "PED53-B41",
@@ -493,7 +623,12 @@ cards_data = [
         "front": "Đặc điểm khám hạch tại chỗ gợi ý hạch di căn hoặc thâm nhiễm của bệnh ác tính là gì?",
         "back": "<b>🎯 Trả lời cốt lõi:</b><br>Hạch to, cứng, không đau, dính sâu vào tổ chức xung quanh.<br><br><b>💡 Lưu ý:</b><br>Mật độ cứng chắc và kém di động do xâm lấn mô nâng đỡ là cờ đỏ cảnh báo ung thư.",
         "extra": "Văn bản gốc: Hạch to, cứng, không đau, dính sâu vào tổ chức xung quanh nghi tới hạch di căn hoặc thâm nhiễm của bệnh ác tính (trang 58).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Ac-tinh"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Ac-tinh"
+        ]
     },
     {
         "id": "PED53-B42",
@@ -504,7 +639,12 @@ cards_data = [
         "front": "Mô tả tính chất điển hình của hạch lao qua thăm khám tại chỗ theo giáo trình?",
         "back": "<b>🎯 Trả lời cốt lõi:</b><br>Hạch to, nhiều, dính vào nhau, mặt da đỏ không đều, có hạch chắc có hạch mềm, đôi khi có rò và rỉ chất nhầy không phải mủ.<br><br><b>💡 Lưu ý:</b><br>Viêm bã đậu hóa tạo mật độ mềm chắc không đồng nhất và rò chất nhầy đặc trưng cho hạch lao.",
         "extra": "Văn bản gốc mục Tính chất hạch to (trang 58).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Lao"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Lao"
+        ]
     },
     {
         "id": "PED53-B43",
@@ -514,7 +654,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Hạch to ở nhiều nơi, các hạch dính vào nhau, sờ {{c1::không đau}}, ngoài da {{c1::không đỏ}} gợi ý nhiễm khuẩn lan tỏa, virus, kể cả lao và các bệnh toàn thể khác.",
         "extra": "Văn bản gốc mục Tính chất hạch to (trang 58).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Tinh-chat"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Tinh-chat"
+        ]
     },
     {
         "id": "PED53-B44",
@@ -524,7 +669,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Khám toàn thân ở trẻ hạch to cần phát hiện các dấu hiệu: xem {{c1::tuyến giáp có to không}} (phì đại tuyến giáp), {{c1::gan và lách có to không}}, có viêm đau khớp, phát ban hoặc {{c1::vàng mắt}} (kết mạc).",
         "extra": "Văn bản gốc mục Khám toàn thân (trang 58).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Toan-than"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Toan-than"
+        ]
     },
     {
         "id": "PED53-B45",
@@ -534,7 +684,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Hội chứng phối hợp: hạch to kèm theo sốt thất thường kéo dài mạn tính, cơ thể suy yếu, ho kéo dài cần tìm {{c1::lao}} để xác định chẩn đoán.",
         "extra": "Văn bản gốc mục Khám toàn thân (trang 58).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Lao"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Lao"
+        ]
     },
     {
         "id": "PED53-B46",
@@ -544,7 +699,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Hội chứng phối hợp: hạch to toàn thể kèm theo {{c1::gan to, lách to, xuất huyết, thiếu máu}} cần tìm bệnh ác tính như {{c1::bệnh lơxêmi, bệnh tăng mô bào}}.",
         "extra": "Văn bản gốc mục Khám toàn thân (trang 58).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Ac-tinh"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Ac-tinh"
+        ]
     },
     {
         "id": "PED53-B47",
@@ -554,7 +714,12 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Hội chứng phối hợp: hạch to toàn thể, sụt cân, sốt không rõ nguyên nhân, {{c1::rối loạn tiêu hóa}} kèm theo {{c1::lách to}} cần tìm nhiễm HIV.",
         "extra": "Văn bản gốc mục Khám toàn thân (trang 58-59).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "HIV"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "HIV"
+        ]
     },
     {
         "id": "PED53-B48",
@@ -564,12 +729,13 @@ cards_data = [
         "section": "B2_2",
         "text": "[Barem gốc] Hạch to ngoại biên kết hợp đồng thời với hạch to ở trong sâu ở trẻ em còn có thể do {{c1::u lympho ác tính}}.",
         "extra": "Văn bản gốc mục Khám toàn thân (trang 58).",
-        "tags": ["PED-53", "Barem-goc", "Kham-xet", "Ac-tinh"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Kham-xet",
+            "Ac-tinh"
+        ]
     },
-
-    # =========================================================================
-    # B2_3: 2.3. XÉT NGHIỆM CHẨN ĐOÁN
-    # =========================================================================
     {
         "id": "PED53-B49",
         "track": "barem_goc",
@@ -577,9 +743,13 @@ cards_data = [
         "category": "Xét nghiệm ban đầu",
         "section": "B2_3",
         "front": "Kể tên các xét nghiệm không xâm nhập và ban đầu trong tiếp cận chẩn đoán hạch to?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Công thức máu ngoại biên, máu lắng.<br>2) Tủy đồ (khi nghi lơxêmi, tăng mô bào, u lympho, tích lũy).<br>3) Test da (Mantoux tìm lao, mèo cào, nấm); Cấy vi khuẩn vùng tổn thương.<br>4) Huyết thanh học (CMV, toxoplasma, EBV, HIV); CĐHA (X quang, CT, siêu âm); Chọc hút hạch (FNA) tế bào & cấy.<br><br><b>💡 Lưu ý:</b><br>Các xét nghiệm này giúp khoanh vùng nguyên nhân trước khi chỉ định sinh thiết hạch.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) CTM, máu lắng, tủy đồ. 2) Test da Mantoux, cấy vi khuẩn. 3) Huyết thanh học (CMV, EBV, Toxoplasma). 4) CĐHA (X-quang, SA, CT).<br><b>💡 Barem:</b> Khoanh vùng nguyên nhân bằng xét nghiệm không xâm nhập trước khi chỉ định sinh thiết.",
         "extra": "Văn bản gốc mục 2.3 Xét nghiệm chẩn đoán (trang 59).",
-        "tags": ["PED-53", "Barem-goc", "Xet-nghiem"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Xet-nghiem"
+        ]
     },
     {
         "id": "PED53-B50",
@@ -588,9 +758,14 @@ cards_data = [
         "category": "Chỉ định sinh thiết",
         "section": "B2_3",
         "front": "4 chỉ định sinh thiết hạch bạch huyết theo giáo trình là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nghi ngờ một bệnh ác tính.<br>2) Các xét nghiệm không kết luận được VÀ hạch trên 2,5 cm.<br>3) Hạch bạch huyết to kéo dài.<br>4) Hạch to dùng kháng sinh trong vòng 1 tháng mà không lui.<br><br><b>💡 Lưu ý:</b><br>Đây là barem cốt lõi cần thuộc lòng từng câu từng chữ khi làm bài thi tự luận.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nghi ngờ bệnh ác tính. 2) Không kết luận được VÀ hạch > 2,5 cm. 3) Hạch to kéo dài. 4) Dùng kháng sinh 1 tháng không lui.<br><b>💡 Barem:</b> 4 chỉ định sinh thiết kinh điển cần thuộc lòng từng chữ khi làm bài thi tự luận.",
         "extra": "Văn bản gốc: Sinh thiết hạch bạch huyết nếu... (trang 59).",
-        "tags": ["PED-53", "Barem-goc", "Xet-nghiem", "Sinh-thiet"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Xet-nghiem",
+            "Sinh-thiet"
+        ]
     },
     {
         "id": "PED53-B51",
@@ -600,7 +775,12 @@ cards_data = [
         "section": "B2_3",
         "text": "[Barem gốc] Vị trí sinh thiết hạch: KHÔNG nên sinh thiết hạch ở {{c1::phần trên cổ và vùng bẹn}}; NÊN sinh thiết hạch ở {{c1::vùng dưới cổ và nách}} để có kết quả tin cậy hơn.",
         "extra": "Văn bản gốc: Không nên sinh thiết hạch phần trên cổ và hạch vùng bẹn, nên sinh thiết hạch vùng dưới cổ và nách để có kết quả tin cậy hơn (trang 59).",
-        "tags": ["PED-53", "Barem-goc", "Xet-nghiem", "Sinh-thiet"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Xet-nghiem",
+            "Sinh-thiet"
+        ]
     },
     {
         "id": "PED53-B52",
@@ -610,7 +790,12 @@ cards_data = [
         "section": "B2_3",
         "text": "[Barem gốc] Chọn hạch sinh thiết: nên sinh thiết hạch {{c1::to nhất}}, không phải là hạch {{c1::dễ thấy nhất}}; nên có sự thảo luận giữa chuyên khoa ung thư và ngoại khoa để chọn hạch.",
         "extra": "Văn bản gốc: Nên sinh thiết hạch to nhất, không phải là hạch dễ thấy nhất (trang 59).",
-        "tags": ["PED-53", "Barem-goc", "Xet-nghiem", "Sinh-thiet"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Xet-nghiem",
+            "Sinh-thiet"
+        ]
     },
     {
         "id": "PED53-B53",
@@ -620,7 +805,12 @@ cards_data = [
         "section": "B2_3",
         "text": "[Barem gốc] Kỹ thuật lấy bệnh phẩm sinh thiết hạch: cần sinh thiết lấy hạch {{c1::nguyên vẹn cả bao hạch}}, tuyệt đối {{c1::không lấy từng mảnh}}.",
         "extra": "Văn bản gốc: Cần sinh thiết lấy hạch nguyên vẹn cả bao hạch, không lấy từng mảnh (trang 59).",
-        "tags": ["PED-53", "Barem-goc", "Xet-nghiem", "Sinh-thiet"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Xet-nghiem",
+            "Sinh-thiet"
+        ]
     },
     {
         "id": "PED53-B54",
@@ -629,9 +819,14 @@ cards_data = [
         "category": "Bảo quản sinh thiết",
         "section": "B2_3",
         "front": "4 quy tắc bảo quản và vận chuyển hạch sinh thiết tới nhà giải phẫu bệnh theo sách?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Gửi trong môi trường nuôi cấy tổ chức để tránh tổ chức bị khô.<br>2) KHÔNG để hạch sinh thiết ở chỗ ánh sáng mạnh.<br>3) KHÔNG để ở chỗ nóng.<br>4) KHÔNG bọc hạch trong gạc khô.<br><br><b>💡 Lưu ý:</b><br>Tổn thương tế bào do khô hay nhiệt độ sẽ phá hỏng hoàn toàn cấu trúc vi thể của hạch.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gửi trong môi trường nuôi cấy tổ chức (tránh khô); TUYỆT ĐỐI KHÔNG để chỗ sáng mạnh, chỗ nóng hoặc bọc trong gạc khô.<br><b>💡 Barem:</b> Tổn thương tế bào do khô hoặc nhiệt độ sẽ phá hỏng hoàn toàn cấu trúc vi thể của hạch.",
         "extra": "Văn bản gốc: Phải gửi tới nhà giải phẫu bệnh, hạch sinh thiết trong môi trường nuôi cấy tổ chức để tránh tổ chức bị khô... (trang 59).",
-        "tags": ["PED-53", "Barem-goc", "Xet-nghiem", "Sinh-thiet"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Xet-nghiem",
+            "Sinh-thiet"
+        ]
     },
     {
         "id": "PED53-B55",
@@ -641,7 +836,12 @@ cards_data = [
         "section": "B2_3",
         "text": "[Barem gốc] Các xét nghiệm trên mô sinh thiết hạch: nuôi cấy & nhuộm Gram tìm vi khuẩn/virus/nấm; xét nghiệm virus; mô học; {{c1::kính hiển vi điện tử}}; nhuộm {{c1::hóa mô}}; {{c1::đếm tế bào dưới dòng chảy (flow cytometry)}}; nghiên cứu gen.",
         "extra": "Văn bản gốc mục các xét nghiệm khi sinh thiết hạch (trang 59-60).",
-        "tags": ["PED-53", "Barem-goc", "Xet-nghiem", "Sinh-thiet"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Xet-nghiem",
+            "Sinh-thiet"
+        ]
     },
     {
         "id": "PED53-B56",
@@ -651,12 +851,13 @@ cards_data = [
         "section": "B2_3",
         "text": "[Barem gốc] Xét nghiệm gen trên mô hạch: nghiên cứu gen với {{c1::thụ thể tế bào T}} và gen {{c1::globulin miễn dịch}} để xác định tính đơn dòng trong bệnh lơxêmi và u lympho.",
         "extra": "Văn bản gốc: Nghiên cứu gen với thụ thể tế bào T và gen globulin miễn dịch để xác định tính đơn dòng trong bệnh lơxemi và u lympho (trang 60).",
-        "tags": ["PED-53", "Barem-goc", "Xet-nghiem", "Sinh-thiet"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Xet-nghiem",
+            "Sinh-thiet"
+        ]
     },
-
-    # =========================================================================
-    # B3: III. ĐIỀU TRỊ
-    # =========================================================================
     {
         "id": "PED53-B57",
         "track": "barem_goc",
@@ -664,9 +865,14 @@ cards_data = [
         "category": "Nguyên nhân viêm hạch cấp",
         "section": "B3",
         "front": "Các vi khuẩn thường gặp gây viêm hạch cấp tính vùng đầu mặt cổ theo lứa tuổi là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>- Trẻ lớn: liên cầu khuẩn β tan huyết nhóm A hoặc tụ cầu vàng.<br>- Trẻ sơ sinh và trẻ nhỏ: có thể gặp liên cầu nhóm B (GBS), có hoặc không kèm viêm mô tế bào.<br><br><b>💡 Lưu ý:</b><br>Liên cầu nhóm B là căn nguyên đặc thù của lứa tuổi sơ sinh/nhỏ cần cảnh giác.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ lớn: tụ cầu vàng hoặc liên cầu khuẩn beta tan huyết nhóm A; Trẻ sơ sinh/nhỏ: có thể gặp liên cầu nhóm B (GBS).<br><b>💡 Barem:</b> GBS là căn nguyên đặc thù của lứa tuổi sơ sinh và nhũ nhi nhỏ cần cảnh giác.",
         "extra": "Văn bản gốc mục III. Điều trị (trang 60).",
-        "tags": ["PED-53", "Barem-goc", "Dieu-tri", "Can-nguyen"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Dieu-tri",
+            "Can-nguyen"
+        ]
     },
     {
         "id": "PED53-B58",
@@ -676,7 +882,12 @@ cards_data = [
         "section": "B3",
         "text": "[Barem gốc] Kháng sinh kinh nghiệm điều trị viêm hạch cấp do liên cầu nhóm A và tụ cầu vàng: sử dụng {{c1::Amoxicillin-clavulanic}} hoặc nhóm {{c1::cephalosporin}} (đường uống hoặc tiêm).",
         "extra": "Văn bản gốc: Điều trị sử dụng kháng sinh tác dụng với liên cầu nhóm A và các chủng tụ cầu vàng: Amoxicillin-clavunalic hoặc nhóm cephalosporin (trang 60).",
-        "tags": ["PED-53", "Barem-goc", "Dieu-tri", "Khang-sinh"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Dieu-tri",
+            "Khang-sinh"
+        ]
     },
     {
         "id": "PED53-B59",
@@ -686,7 +897,12 @@ cards_data = [
         "section": "B3",
         "text": "[Barem gốc] Trường hợp nhiễm trùng do tụ cầu kháng methicillin trong cộng đồng (CA-MRSA) gây viêm hạch có thể dùng: {{c1::clindamycin}} hoặc {{c1::trimethoprim-sulfamethoxazol (TMP-SMX)}}.",
         "extra": "Văn bản gốc: Trường hợp nhiễm trùng do tụ cầu kháng methicillin trong cộng đồng có thể dùng clindamycin hoặc trimethoprim-sulfamethoxazol (trang 60).",
-        "tags": ["PED-53", "Barem-goc", "Dieu-tri", "MRSA"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Dieu-tri",
+            "MRSA"
+        ]
     },
     {
         "id": "PED53-B60",
@@ -696,7 +912,12 @@ cards_data = [
         "section": "B3",
         "text": "[Barem gốc] Thời gian điều trị kháng sinh trong viêm hạch cấp: {{c1::10–14 ngày}} hoặc ít nhất sau {{c1::5 ngày}} các dấu hiệu viêm giảm.",
         "extra": "Văn bản gốc: Thời gian điều trị 10-14 ngày hoặc ít nhất sau 5 ngày các dấu hiệu viêm giảm (trang 60).",
-        "tags": ["PED-53", "Barem-goc", "Dieu-tri", "Khang-sinh"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Dieu-tri",
+            "Khang-sinh"
+        ]
     },
     {
         "id": "PED53-B61",
@@ -707,7 +928,12 @@ cards_data = [
         "front": "Xử trí đối với hạch bạch huyết đã có mủ theo giáo trình?",
         "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tiến hành dẫn lưu mủ, đồng thời nhuộm Gram mủ để tìm vi khuẩn giúp lựa chọn kháng sinh thích hợp.<br><br><b>💡 Lưu ý:</b><br>Khi đã tụ mủ thì kháng sinh đơn thuần không đủ — bắt buộc phải dẫn lưu ổ mủ ngoại khoa.",
         "extra": "Văn bản gốc: Đối với hạch có mủ, dẫn lưu mủ, nhuộm gram để tìm vi khuẩn lựa chọn kháng sinh thích hợp (trang 60).",
-        "tags": ["PED-53", "Barem-goc", "Dieu-tri", "Dan-luu"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Dieu-tri",
+            "Dan-luu"
+        ]
     },
     {
         "id": "PED53-B62",
@@ -717,7 +943,12 @@ cards_data = [
         "section": "B3",
         "text": "[Barem gốc] Viêm hạch đầu mặt cổ nghi ngờ nhiễm vi khuẩn kỵ khí vùng miệng: kháng sinh được dùng là {{c1::Metronidazol}} hoặc {{c1::Clindamycin}}, có thể kết hợp với {{c1::Cephalosporin thế hệ 3}}.",
         "extra": "Văn bản gốc mục III. Điều trị (trang 60).",
-        "tags": ["PED-53", "Barem-goc", "Dieu-tri", "Ky-khi"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Dieu-tri",
+            "Ky-khi"
+        ]
     },
     {
         "id": "PED53-B63",
@@ -726,9 +957,15 @@ cards_data = [
         "category": "Hạch lao và Mycobacteria",
         "section": "B3",
         "front": "2 nguyên tắc xử trí ngoại khoa và can thiệp đối với hạch lao và Mycobacteria không điển hình (NTM)?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) NTM thường kháng thuốc chống lao nên thường phải phẫu thuật cắt bỏ hạch.<br>2) TRÁNH rạch hoặc dẫn lưu trong trường hợp nhiễm hạch lao (để ngừa lỗ rò mạn tính khó liền).<br><br><b>💡 Lưu ý:</b><br>Rạch hạch lao là sai lầm kinh điển dẫn đến rò rỉ bã đậu kéo dài nhiều tháng.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) NTM kháng thuốc chống lao nên thường phải phẫu thuật cắt hạch. 2) CẤM rạch dẫn lưu hạch lao để tránh rò rỉ mạn tính.<br><b>💡 Barem:</b> Rạch hạch lao là sai lầm kinh điển dẫn đến rò mủ bã đậu kéo dài nhiều tháng.",
         "extra": "Văn bản gốc: nhiều chủng mycobacteria không điển hình kháng với thuốc chống lao thường phải cắt bỏ hạch, tránh rạch hoặc dẫn lưu trong trường hợp nhiễm lao (trang 60).",
-        "tags": ["PED-53", "Barem-goc", "Dieu-tri", "Lao", "Bay"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Dieu-tri",
+            "Lao",
+            "Bay"
+        ]
     },
     {
         "id": "PED53-B64",
@@ -738,7 +975,12 @@ cards_data = [
         "section": "B3",
         "text": "[Barem gốc] Viêm hạch trong bệnh mèo cào: thường {{c1::tự ổn định}}; ở bệnh nhân suy giảm miễn dịch có thể dùng kháng sinh: {{c1::Azithromycin, Rifampin và Doxycyclin}}.",
         "extra": "Văn bản gốc: Trường hợp viêm hạch trong bệnh mèo cào thường tự ổn định, một số kháng sinh có thể dùng ở bệnh nhân giảm miễn dịch: Azithromicin, Rifampin và doxycyclin (trang 60).",
-        "tags": ["PED-53", "Barem-goc", "Dieu-tri", "Meo-cao"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Dieu-tri",
+            "Meo-cao"
+        ]
     },
     {
         "id": "PED53-B65",
@@ -748,7 +990,12 @@ cards_data = [
         "section": "B3",
         "text": "[Barem gốc] Nhiễm virus Herpes simplex nặng kèm theo viêm hạch cục bộ: sử dụng {{c1::Acyclovir}} đường {{c1::uống}} để rút ngắn thời gian bệnh.",
         "extra": "Văn bản gốc: Trường hợp nhiễm virus herpes simplex nặng kèm theo viêm hạch cục bộ, sử dụng Acyclovir đường uống rút ngắn thời gian bệnh (trang 61).",
-        "tags": ["PED-53", "Barem-goc", "Dieu-tri", "Herpes"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Dieu-tri",
+            "Herpes"
+        ]
     },
     {
         "id": "PED53-B66",
@@ -759,6 +1006,122 @@ cards_data = [
         "front": "Đặc điểm hạch và các triệu chứng toàn thân cảnh báo ung thư ở trẻ em cần chỉ định sinh thiết?",
         "back": "<b>🎯 Trả lời cốt lõi:</b><br>Hạch thường to, chắc, không đau; kèm theo sốt không giải thích được, sụt cân, đổ mồ hôi đêm.<br><br><b>💡 Lưu ý:</b><br>Khi gặp tổ hợp dấu hiệu này, nên chỉ định sinh thiết hạch để xác định chẩn đoán bản chất.",
         "extra": "Văn bản gốc: Hạch trong các bệnh ung thư trẻ em: thường to, chắc, không đau, có sốt không giải thích được, sụt cân, đổ mồ hôi đêm, nên chỉ định sinh thiết hạch để xác định nguyên nhân (trang 61).",
-        "tags": ["PED-53", "Barem-goc", "Dieu-tri", "Ung-thu"],
+        "tags": [
+            "PED-53",
+            "Barem-goc",
+            "Dieu-tri",
+            "Ung-thu"
+        ]
     },
+    {
+        "id": "PED53-B67",
+        "type": "cloze",
+        "section": "B1_1",
+        "category": "Căn nguyên đơn bào",
+        "text": "[Barem gốc] Hai căn nguyên đơn bào gây bệnh hạch bạch huyết to được nêu trong giáo trình gồm: {{c1::toxoplasma}} và {{c1::trypanosomia}}.",
+        "extra": "Văn bản gốc mục 1. Nhiễm khuẩn: Đơn bào (trang 55).",
+        "tags": [
+            "PED-53",
+            "Barem-goc"
+        ]
+    },
+    {
+        "id": "PED53-B68",
+        "type": "cloze",
+        "section": "B1_1",
+        "category": "Căn nguyên nấm",
+        "text": "[Barem gốc] Hai căn nguyên nấm gây hạch bạch huyết to theo giáo trình gồm: {{c1::nấm da}} và {{c1::histoplasma}}.",
+        "extra": "Văn bản gốc mục 1. Nhiễm khuẩn: Nấm (trang 55).",
+        "tags": [
+            "PED-53",
+            "Barem-goc"
+        ]
+    },
+    {
+        "id": "PED53-B69",
+        "type": "cloze",
+        "section": "B1_5",
+        "category": "Hội chứng ALPS",
+        "text": "[Barem gốc] Trong các rối loạn tăng sinh mô bạch huyết, ALPS là tên viết tắt của {{c1::hội chứng tăng sinh bạch huyết tự miễn}}.",
+        "extra": "Văn bản gốc mục 5. Rối loạn tăng sinh mô bạch huyết (trang 56).",
+        "tags": [
+            "PED-53",
+            "Barem-goc"
+        ]
+    },
+    {
+        "id": "PED53-B70",
+        "type": "cloze",
+        "section": "B1_5",
+        "category": "Bệnh Rosai-Dorfman",
+        "text": "[Barem gốc] Bệnh Rosai-Dorfman trong nhóm tăng sinh mô bạch huyết còn được gọi là bệnh {{c1::tăng mô bào xoang kèm hạch to}}.",
+        "extra": "Văn bản gốc mục 5. Rối loạn tăng sinh mô bạch huyết (trang 56).",
+        "tags": [
+            "PED-53",
+            "Barem-goc"
+        ]
+    },
+    {
+        "id": "PED53-B71",
+        "type": "basic",
+        "section": "B2_2",
+        "category": "Hạch sâu trong ổ bụng",
+        "front": "Triệu chứng và phương pháp phát hiện các hạch sâu trong ổ bụng (hạch mạc treo, sau phúc mạc) theo giáo trình là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thường gây đau bụng tái diễn; cần phát hiện bằng siêu âm ổ bụng, chụp cắt lớp vi tính (CT) hoặc X-quang.<br><b>💡 Barem:</b> Hạch sâu to nhiều dính thành khối thường chỉ điểm bệnh toàn thể hoặc ác tính.",
+        "extra": "Văn bản gốc mục 2.2 Khám xét hạch (trang 57).",
+        "tags": [
+            "PED-53",
+            "Barem-goc"
+        ]
+    },
+    {
+        "id": "PED53-B72",
+        "type": "cloze",
+        "section": "B2_2",
+        "category": "Hạch thượng đòn và nách",
+        "text": "[Barem gốc] Khi khám hạch ngoại vi, tình trạng hạch bạch huyết ở {{c1::thượng đòn và nách to đồng thời}} thường chỉ điểm một {{c1::tình trạng bệnh nặng}}.",
+        "extra": "Văn bản gốc mục 2.2 Khám xét hạch (trang 57).",
+        "tags": [
+            "PED-53",
+            "Barem-goc"
+        ]
+    },
+    {
+        "id": "PED53-B73",
+        "type": "basic",
+        "section": "B2_3",
+        "category": "Chỉ định tủy đồ trong hạch to",
+        "front": "Chỉ định chọc hút tủy xương (tủy đồ) trong tiếp cận bệnh nhân hạch to theo giáo trình khi nào?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Khi nghi ngờ bệnh lơxêmi, u lympho, bệnh tăng mô bào hoặc bệnh tích lũy.<br><b>💡 Barem:</b> Thực hiện trước các xét nghiệm xâm lấn phẫu thuật khi có tổn thương hệ tạo máu.",
+        "extra": "Văn bản gốc mục 2.3 Cận lâm sàng (trang 58).",
+        "tags": [
+            "PED-53",
+            "Barem-goc"
+        ]
+    },
+    {
+        "id": "PED53-B74",
+        "type": "cloze",
+        "section": "B3",
+        "category": "Kháng sinh viêm hạch cấp vi khuẩn",
+        "text": "[Barem gốc] Điều trị viêm hạch cấp tính do tụ cầu hoặc liên cầu thường dùng kháng sinh uống nhóm {{c1::Cephalosporin thế hệ 1 (như cephalexin)}} hoặc {{c1::Amoxicillin-Clavulanat}} trong 10-14 ngày.",
+        "extra": "Văn bản gốc mục III. Điều trị (trang 59-60).",
+        "tags": [
+            "PED-53",
+            "Barem-goc"
+        ]
+    },
+    {
+        "id": "PED53-B75",
+        "type": "basic",
+        "section": "B3",
+        "category": "Kháng sinh vi khuẩn kỵ khí răng miệng",
+        "front": "Kháng sinh nào được ưu tiên khi viêm hạch bắt nguồn từ nhiễm khuẩn răng miệng họng chứa vi khuẩn kỵ khí?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Amoxicillin-Clavulanat hoặc Clindamycin.<br><b>💡 Barem:</b> Giúp bao phủ tốt cả vi khuẩn Gram dương hiếu khí và vi khuẩn kỵ khí khoang miệng.",
+        "extra": "Văn bản gốc mục III. Điều trị (trang 60).",
+        "tags": [
+            "PED-53",
+            "Barem-goc"
+        ]
+    }
 ]

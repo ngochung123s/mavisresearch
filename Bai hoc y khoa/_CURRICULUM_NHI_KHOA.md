@@ -67,7 +67,7 @@
 
 ---
 
-### Block 4 — Tiêu hóa & Dinh dưỡng Nhi khoa (07 bài)
+### Block 4 — Tiêu hóa & Dinh dưỡng Nhi khoa (08 bài)
 | ID | Ưu tiên | Bài học | Phạm vi cốt lõi (Làm gì + Tại sao) | Phụ thuộc | Trạng thái |
 |---|:---:|---|---|---|:---:|
 | **PED-26** | P0 | Tiếp cận trẻ Nôn và Đau bụng cấp | Phân tầng nôn dịch trong/dịch vị vs nôn dịch mật (cấp cứu ngoại khoa); sơ đồ chẩn đoán đau bụng cấp theo lứa tuổi; dấu hiệu cảnh báo ngoại khoa cần hội chẩn ngay. | PED-01 | ❌ CHƯA CÓ |
@@ -77,27 +77,28 @@
 | **PED-30** | P0 | Đánh giá dinh dưỡng trẻ em theo chuẩn WHO | Đọc biểu đồ tăng trưởng và Z-score (Weight-for-Age, Height-for-Age, Weight-for-Height, BMI-for-Age); phân loại thể nhẹ cân, thấp còi, gầy còm; sàng lọc béo phì. | PED-01 | ❌ CHƯA CÓ |
 | **PED-31** | P0 | Suy dinh dưỡng nặng: Phác đồ 10 bước của WHO | Phân biệt Marasmus vs Kwashiorkor; nguyên tắc điều trị cấp (hạ đường huyết, hạ thân nhiệt, mất nước); cách pha và cho ăn F-75, F-100, RUTF; dự phòng hội chứng nuôi ăn lại (Refeeding). | PED-30 | ❌ CHƯA CÓ |
 | **PED-46** | P0 | Tiếp cận gan to ở trẻ em (Hepatomegaly) | Định nghĩa kích thước gan theo tuổi & công thức Nelson; kỹ thuật khám (gõ bờ trên, sờ bờ dưới, các nghiệm pháp Murphy, rung gan, ấn kẽ sườn, phản hồi gan TMC); phân loại nguyên nhân 6 cơ chế và hội chứng lâm sàng (gan to đơn thuần, gan to vàng da, gan to lách to, gan lách hạch to); chỉ định CLS định hướng. | PED-01, 15 | ✅ GATES ĐẠT (MD + PEDYTB + APKG 97 thẻ) |
+| **PED-55** | P0 | Xuất huyết tiêu hóa ở trẻ em (Gastrointestinal Bleeding) | Định nghĩa XHTH trên vs dưới; phân biệt nôn máu thật vs giả, test Apt-Downey; đánh giá mất máu và huyết động; nguyên nhân theo lứa tuổi (sơ sinh, nhũ nhi lồng ruột/Meckel, trẻ lớn vỡ giãn TM thực quản/loét); hồi sức chống sốc 20ml/kg; phác đồ Octreotide, PPI, sonde Sengstaken-Blakemore và nội soi can thiệp. | PED-01, 05, 27 | 📝 PEDYTB (scan + 75 thẻ barem Master, chưa tạo PED) |
 
 ---
 
-### Block 5 — Bệnh Truyền nhiễm Nhi khoa (08 bài)
+### Block 5 — Bệnh Truyền nhiễm Nhi khoa (11 bài)
 | ID | Ưu tiên | Bài học | Phạm vi cốt lõi (Làm gì + Tại sao) | Phụ thuộc | Trạng thái |
 |---|:---:|---|---|---|:---:|
 | **PED-32** | P0 | Tiếp cận trẻ Sốt & Sốt chưa rõ nguyên nhân (FUO) | Phân tầng nguy cơ sốt ở trẻ sơ sinh và trẻ < 3 tháng (sốt cao không rõ ổ nhiễm); dấu hiệu cảnh báo bệnh nặng; lưu đồ tiếp cận FUO; dùng thuốc hạ sốt an toàn (Paracetamol vs Ibuprofen). | PED-01, 03 | ✅ GATES ĐẠT (MD + APKG 150 thẻ) |
 | **PED-33** | P0 | Sốt xuất huyết Dengue: Nhận diện & Theo dõi cảnh báo | Diễn tiến 3 giai đoạn (Sốt, Nguy hiểm, Hồi phục); nhận diện dấu hiệu cảnh báo vào ngày 3–7 (đau bụng, nôn nhiều, xuất huyết niêm mạc, Hct tăng cao kèm tiểu cầu giảm nhanh); chỉ định nhập viện. | PED-01, 03 | ❌ CHƯA CÓ |
 | **PED-34** | P0 | Xử trí Sốc Sốt xuất huyết Dengue | Phác đồ chống sốc dịch truyền (Ringer Lactat / Dung dịch cao phân tử); **cách tính thể tích dịch dựa trên cân nặng hiệu chỉnh ở trẻ béo phì**; theo dõi Hct và nhận diện tái sốc / quá tải dịch. | PED-05, 33 | ❌ CHƯA CÓ |
-| **PED-35** | P0 | Bệnh Tay Chân Miệng: Phân độ & Xử trí theo độ | Phân độ lâm sàng 1, 2a, 2b (nhóm 1 vs nhóm 2), 3, 4 theo Bộ Y tế; nhận diện dấu hiệu thần kinh sớm (**giật mình chới với lúc thiu thiu ngủ**); chỉ định IVIG, Phenobarbital và Milrinone. | PED-01, 03 | ✅ GATES ĐẠT (MD + APKG 84 thẻ) |
+| **PED-35** | P0 | Bệnh Tay Chân Miệng: Phân độ & Xử trí theo độ | Phân độ lâm sàng 1, 2a, 2b (nhóm 1 vs nhóm 2), 3, 4 theo Bộ Y tế; nhận diện dấu hiệu thần kinh sớm (**giật mình chới với lúc thiu thiu ngủ**); chỉ định IVIG, Phenobarbital và Milrinone. | PED-01, 03 | ✅ GATES ĐẠT (MD + APKG 129 thẻ) |
 | **PED-36** | P0 | Bệnh Sởi ở trẻ em | Diễn tiến 3 thời kỳ (khởi phát viêm long + hạt Koplik, toàn phát ban tuần tự từ sau tai xuống chân, hồi phục vết thâm da hổ); biến chứng phổi, não, tiêu hóa; **phác đồ bổ sung Vitamin A liều cao theo tuổi**. | PED-01 | ❌ CHƯA CÓ |
 | **PED-37** | P0 | Viêm màng não mủ ở trẻ em | Tác nhân vi khuẩn theo lứa tuổi; triệu chứng lâm sàng ở nhũ nhi (thóp phồng, li bì, bỏ bú) vs trẻ lớn (cổ gượng, Kernig, Brudzinski); biện luận kết quả xét nghiệm dịch não tủy; phác đồ kháng sinh + Dexamethasone. | PED-01, 03, 07 | ❌ CHƯA CÓ |
 | **PED-38** | P0 | Thủy đậu ở trẻ em & Biến chứng | Lâm sàng ban dạng nốt đậu nhiều lứa tuổi; chẩn đoán phân biệt; chỉ định dùng Acyclovir đường uống vs tĩnh mạch; nhận diện và xử trí biến chứng bội nhiễm da (tụ cầu/liên cầu), viêm mô tế bào, viêm não tiểu não. | PED-01 | ❌ CHƯA CÓ |
 | **PED-39** | P0 | Lịch Tiêm chủng mở rộng quốc gia & Tư vấn sau tiêm | Lịch tiêm chuẩn tại Việt Nam (Lao, Viêm gan B, 5 trong 1, Bại liệt, Sởi - Rubella, Viêm não Nhật Bản); các vắc xin dịch vụ thiết yếu (Phế cầu, Rota, Cúm, Não mô cầu); chống chỉ định và xử trí phản ứng sau tiêm. | PED-01 | ❌ CHƯA CÓ |
 | **PED-49** | P0 | Tiếp cận bệnh nhân phát ban ở trẻ em (Pediatric Rash) | Nghiệm pháp ấn kính (Glass test) phân loại ban dãn mạch vs ban xuất huyết; dấu hiệu cờ đỏ cấp cứu (tử ban sao não mô cầu, sốc, Nikolsky (+), loét đa niêm mạc); phân loại hình thái học tổn thương da (dát sẩn, mụn nước, tử ban, sẩn phù); động học sốt và ban (Sởi, Roseola, Thủy đậu, Tay chân miệng, Kawasaki); nguyên tắc hạ sốt an toàn theo AAP 2011. | PED-01, 02 | ✅ GATES ĐẠT (MD + APKG 80 thẻ) |
-| **PED-53** | P0 | Hạch to ở trẻ em (Lymphadenopathy) | Ngưỡng hạch to (cổ/nách > 1 cm, bẹn > 1,5 cm); 8 nhóm nguyên nhân (nhiễm khuẩn, mô liên kết, quá mẫn, ác tính, tăng sinh lympho, tích lũy, u hạt); hạch khu trú vs toàn thể; hạch thượng đòn luôn bệnh lý; chỉ định và nguyên tắc sinh thiết hạch. | PED-01, 49 | 📝 PEDYTB (scan + 66 thẻ barem Master, chưa tạo PED) |
-| **PED-54** | P0 | Tiếp cận trẻ đau khớp (Pediatric Joint Pain) | Định nghĩa đau vs viêm khớp; khám 6 dấu hiệu (sưng, nóng, đau, lạo xạo, vận động, biến dạng); phân biệt JIA các thể, viêm khớp nhiễm khuẩn, phản ứng/Reiter, thấp khớp Jones, Lyme, Osgood-Schlatter; cận lâm sàng và điều trị NSAID/DMARD. | PED-01, 51 | 📝 PEDYTB (scan + 59 thẻ barem Master, chưa tạo PED) |
+| **PED-53** | P0 | Hạch to ở trẻ em (Lymphadenopathy) | Ngưỡng hạch to (cổ/nách > 1 cm, bẹn > 1,5 cm); 8 nhóm nguyên nhân (nhiễm khuẩn, mô liên kết, quá mẫn, ác tính, tăng sinh lympho, tích lũy, u hạt); hạch khu trú vs toàn thể; hạch thượng đòn luôn bệnh lý; chỉ định và nguyên tắc sinh thiết hạch. | PED-01, 49 | ✅ GATES ĐẠT (MD RELEASE v1 + EBM APKG + PEDYTB) |
+| **PED-54** | P0 | Tiếp cận trẻ đau khớp (Pediatric Joint Pain) | Định nghĩa đau vs viêm khớp; khám 6 dấu hiệu (sưng, nóng, đau, lạo xạo, vận động, biến dạng); phân biệt JIA các thể, viêm khớp nhiễm khuẩn, phản ứng/Reiter, thấp khớp Jones, Lyme, Osgood-Schlatter; cận lâm sàng và điều trị NSAID/DMARD. | PED-01, 51 | ✅ GATES ĐẠT (MD RELEASE v1 + EBM APKG + PEDYTB) |
 
 ---
 
-### Block 6 — Thận, Tim mạch, Huyết học & Nội tiết Nhi (08 bài)
+### Block 6 — Thận, Tim mạch, Huyết học & Nội tiết Nhi (09 bài)
 | ID | Ưu tiên | Bài học | Phạm vi cốt lõi (Làm gì + Tại sao) | Phụ thuộc | Trạng thái |
 |---|:---:|---|---|---|:---:|
 | **PED-40** | P0 | Hội chứng thận hư nguyên phát ở trẻ em | Tiêu chuẩn chẩn đoán (phù to, tiểu ít, protein niệu 24h ngưỡng thận hư, albumin máu giảm); thể nhạy cảm Steroid; phác đồ tấn công Prednisolone ban đầu; nhận diện và xử trí biến chứng giảm thể tích tuần hoàn và nhiễm trùng. | PED-01, 03 | 📝 MD-DRAFT (Bản RELEASE v1 đạt chuẩn Gates, APKG triển khai lượt sau) |

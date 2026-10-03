@@ -1,0 +1,678 @@
+# -*- coding: utf-8 -*-
+"""
+ped53_ebm_cards_data.py
+Bộ thẻ Anki EBM Update cho bài học PED-53:
+Tiếp cận Hạch to ở trẻ em & Hội chứng thâm nhiễm (Bạch cầu cấp, Gan lách to).
+Quy chuẩn: 1 thẻ 1 ý, back <= 3-4 dòng (3-5s), 100% Unicode.
+"""
+
+cards_data = [
+    {
+        "id": "PED53-EBM-001",
+        "type": "cloze",
+        "section": "EBM_DinhNghia",
+        "category": "Ngưỡng hạch to cổ và nách",
+        "text": "Trên lâm sàng, hạch ở vùng cổ và nách được định nghĩa là to khi đường kính trục ngắn đo được trên {{c1::1.0 cm}}.",
+        "extra": "Hạch bình thường ở trẻ nhỏ thường có kích thước dưới 1 cm, mềm và di động.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Dinh-nghia"
+        ]
+    },
+    {
+        "id": "PED53-EBM-002",
+        "type": "cloze",
+        "section": "EBM_DinhNghia",
+        "category": "Ngưỡng hạch to vùng bẹn",
+        "text": "Hạch bạch huyết ở vùng bẹn của trẻ em được định nghĩa là to bệnh lý khi đường kính trục ngắn trên {{c1::1.5 cm}}.",
+        "extra": "Vùng bẹn thường xuyên dẫn lưu các vi chấn thương ở chi dưới nên ngưỡng kích thước sinh lý cho phép lớn hơn vùng khác.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Dinh-nghia"
+        ]
+    },
+    {
+        "id": "PED53-EBM-003",
+        "type": "cloze",
+        "section": "EBM_DinhNghia",
+        "category": "Ngưỡng hạch ròng rọc",
+        "text": "Hạch trên ròng rọc khuỷu tay (Epitrochlear node) được xem là bất thường bệnh lý khi sờ thấy kích thước trên {{c1::0.5 cm}}.",
+        "extra": "Cần tìm ngay tổn thương nhiễm trùng da bàn tay, bệnh giang mai hoặc bệnh bạch cầu cấp.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Dinh-nghia"
+        ]
+    },
+    {
+        "id": "PED53-EBM-004",
+        "type": "basic",
+        "section": "EBM_DinhNghia",
+        "category": "Hạch thượng đòn",
+        "front": "Ý nghĩa lâm sàng then chốt của hạch sờ thấy ở hố thượng đòn (Supraclavicular) ở trẻ em là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Luôn luôn là bệnh lý bất kể kích thước nào, với nguy cơ ác tính trên 50%.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Thượng đòn dẫn lưu trực tiếp từ trung thất, phổi và các tạng trong ổ bụng.",
+        "extra": "Bắt buộc chụp X-quang phổi và khảo sát ổ bụng khẩn cấp.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Co-do"
+        ]
+    },
+    {
+        "id": "PED53-EBM-005",
+        "type": "basic",
+        "section": "EBM_DinhNghia",
+        "category": "Hạch Virchow",
+        "front": "Hạch thượng đòn bên trái to (Hạch Virchow / Troisier) cảnh báo nguy cơ bệnh lý ác tính bắt nguồn từ đâu?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bệnh lý ác tính xuất phát từ các cơ quan trong ổ bụng.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Hố thượng đòn trái là vị trí ống ngực (Thoracic duct) đổ vào tĩnh mạch dưới đòn trái.",
+        "extra": "Thường gặp trong Neuroblastoma, U lympho ổ bụng hoặc u Wilms.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Giai-phau"
+        ]
+    },
+    {
+        "id": "PED53-EBM-006",
+        "type": "basic",
+        "section": "EBM_DinhNghia",
+        "category": "Hạch thượng đòn phải",
+        "front": "Hạch thượng đòn bên phải to cảnh báo nguy cơ bệnh lý bắt nguồn từ đâu?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bệnh lý ác tính hoặc tổn thương sâu trong lồng ngực và trung thất.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Thượng đòn phải dẫn lưu bạch huyết trực tiếp từ phổi và các chuỗi hạch trung thất.",
+        "extra": "Cần chụp X-quang ngực ngay để loại trừ khối u trung thất đè ép khí đạo.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Giai-phau"
+        ]
+    },
+    {
+        "id": "PED53-EBM-007",
+        "type": "cloze",
+        "section": "EBM_DinhNghia",
+        "category": "Định nghĩa hạch to toàn thể",
+        "text": "Hạch to toàn thể (Generalized lymphadenopathy) được định nghĩa khi sờ thấy hạch to ở {{c1::≥ 2 vùng giải phẫu không liên tiếp nhau}}.",
+        "extra": "Gợi ý bệnh lý toàn thân: nhiễm virus hệ thống (EBV, CMV, HIV), bệnh tự miễn hoặc bệnh lý ác tính cơ quan tạo máu.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Dinh-nghia"
+        ]
+    },
+    {
+        "id": "PED53-EBM-008",
+        "type": "basic",
+        "section": "EBM_DinhNghia",
+        "category": "Hạch bắn bi sinh lý",
+        "front": "Tại sao trẻ nhỏ từ 2 đến 8 tuổi rất hay sờ thấy các hạch nhỏ như hạt đậu/hạt bi ở vùng cổ nông và bẹn?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Do hiện tượng tăng sản mô lympho sinh lý khi hệ miễn dịch tiếp xúc liên tục với kháng nguyên mới.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Khối lượng mô lympho đạt đỉnh gấp 2 lần người lớn ở lứa tuổi học đường trước khi thoái triển sinh lý sau dậy thì.",
+        "extra": "Nếu hạch &lt; 1 cm, mật độ mềm, di động tự do, không đau thì chỉ cần trấn an phụ huynh.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Sinh-ly"
+        ]
+    },
+    {
+        "id": "PED53-EBM-009",
+        "type": "basic",
+        "section": "EBM_CoChe",
+        "category": "3 Cơ chế to hạch",
+        "front": "Kể tên 3 cơ chế bệnh sinh cơ bản làm hạch bạch huyết to lên ở trẻ em?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tăng sản phản ứng lành tính. 2) Thâm nhiễm ác tính. 3) Viêm hoại tử sinh mủ.<br><b>💡 Cơ chế:</b> Phổ biến nhất ở trẻ em là tăng sản phản ứng đáp ứng nhiễm trùng lân cận.",
+        "extra": "Thâm nhiễm tế bào ác tính hay gặp nhất là Bạch cầu cấp (ALL) và U lympho.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Co-che"
+        ]
+    },
+    {
+        "id": "PED53-EBM-010",
+        "type": "basic",
+        "section": "EBM_CoChe",
+        "category": "Mật độ hạch ác tính",
+        "front": "Tại sao hạch thâm nhiễm ác tính (U lympho, ung thư di căn) thường có mật độ chắc/cứng và không đau khi sờ nắn?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Do tế bào ác tính tăng sinh chậm chạp, thâm nhiễm phá vỡ bao hạch và liên kết thành khối chắc mà không có viêm cấp.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Cảm giác đau chỉ xuất hiện khi có phản ứng viêm cấp gây căng giãn bao hạch đột ngột.",
+        "extra": "Hạch chắc như cao su (rubbery) rất đặc trưng cho U lympho Hodgkin.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Kham-lam-sang"
+        ]
+    },
+    {
+        "id": "PED53-EBM-011",
+        "type": "cloze",
+        "section": "EBM_CoChe",
+        "category": "Đặc tính hạch lành tính",
+        "text": "Hạch tăng sản phản ứng do nhiễm virus thông thường có đặc tính khi khám: mật độ {{c1::mềm}}, ranh giới {{c1::rõ}} và di động {{c1::tự do}} dưới da.",
+        "extra": "Hạch ác tính ngược lại: mật độ chắc hoặc cứng như đá, dính chặt vào mô xung quanh và kém di động.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Kham-lam-sang"
+        ]
+    },
+    {
+        "id": "PED53-EBM-012",
+        "type": "basic",
+        "section": "EBM_TamGiacThietYeu",
+        "category": "Cầu nối Gan - Lách - Hạch to",
+        "front": "Tại sao trong bệnh Bạch cầu cấp dòng lympho (ALL), trẻ thường có biểu hiện đồng thời cả Hạch to, Gan to và Lách to?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Do tế bào lymphoblast ác tính từ tủy xương tràn vào máu và tái thâm nhiễm vào hệ liên võng nội mô của gan, lách, hạch.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Gan và lách là các cơ quan tạo máu ngoài tủy thời kỳ bào thai, cung cấp vi môi trường thuận lợi cho tế bào non cư trú.",
+        "extra": "Tham chiếu bài PED-46 (Hội chứng 4: Gan to + Lách to + Hạch to toàn thân).",
+        "tags": [
+            "PED-53",
+            "PED-46",
+            "EBM-Update",
+            "Bach-cau-cap"
+        ]
+    },
+    {
+        "id": "PED53-EBM-013",
+        "type": "basic",
+        "section": "EBM_TamGiacThietYeu",
+        "category": "Tam chứng suy tủy trong ALL",
+        "front": "Tam chứng suy tủy điển hình đi kèm hội chứng thâm nhiễm gan lách hạch to trong Bạch cầu cấp (ALL) gồm những dấu hiệu gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thiếu máu (da xanh). 2) Xuất huyết (chấm/mảng do giảm tiểu cầu). 3) Sốt nhiễm trùng (giảm bạch cầu hạt).<br><b>💡 Cơ chế:</b> Tế bào blast chèn ép dập tắt các dòng tế bào tủy bình thường.",
+        "extra": "Kèm theo đau nhức xương dài dữ dội do tăng áp lực trong tủy xương.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Bach-cau-cap"
+        ]
+    },
+    {
+        "id": "PED53-EBM-014",
+        "type": "basic",
+        "section": "EBM_TamGiacThietYeu",
+        "category": "Đau xương trong ALL",
+        "front": "Đặc điểm đau cơ xương khớp nào ở trẻ có hạch to là cờ đỏ cảnh báo mạnh mẽ bệnh lý Bạch cầu cấp (ALL)?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Đau sâu trong thân xương dài (đặc biệt xương cẳng chân), thường xuất hiện về đêm làm trẻ thức giấc và khóc thét.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Do tế bào lymphoblast tăng sinh phá hủy vỏ xương và căng màng xương, không tương xứng với dấu hiệu viêm khớp bên ngoài.",
+        "extra": "Rất hay bị chẩn đoán nhầm thành 'đau xương phát triển' (Growing pains) hoặc Viêm khớp tự phát thiếu niên (JIA).",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Bach-cau-cap",
+            "Co-do"
+        ]
+    },
+    {
+        "id": "PED53-EBM-015",
+        "type": "basic",
+        "section": "EBM_TamGiacThietYeu",
+        "category": "Phân biệt EBV vs ALL",
+        "front": "Dấu hiệu huyết học then chốt nào trên phết máu ngoại biên giúp phân biệt Tăng bạch cầu đơn nhân (EBV) với Bạch cầu cấp (ALL)?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>EBV: Tăng lympho không điển hình Downey bào tương rộng; ALL: Tế bào non Blast tỷ lệ nhân/bào tương cao, hạt nhân rõ.<br><b>💡 Lưu ý:</b> ALL thường kèm suy tủy nặng (thiếu máu, giảm tiểu cầu); EBV không có suy tủy.",
+        "extra": "ALL thường kèm giảm nặng tiểu cầu và thiếu máu; EBV thường không có suy tủy nặng.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Huyet-hoc"
+        ]
+    },
+    {
+        "id": "PED53-EBM-016",
+        "type": "cloze",
+        "section": "EBM_TamGiacThietYeu",
+        "category": "Tiêu chuẩn chẩn đoán tủy đồ ALL",
+        "text": "Chẩn đoán xác định Bạch cầu cấp (ALL) trên tủy đồ khi tỷ lệ tế bào non (Blast cells) chiếm {{c1::≥ 20%}} tổng số tế bào có nhân trong tủy xương.",
+        "extra": "Theo tiêu chuẩn phân loại quốc tế của Tổ chức Y tế Thế giới (WHO).",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Bach-cau-cap"
+        ]
+    },
+    {
+        "id": "PED53-EBM-017",
+        "type": "basic",
+        "section": "EBM_TamGiacThietYeu",
+        "category": "Nguyên tắc khám bụng ở trẻ hạch to",
+        "front": "Tại sao mọi trẻ em đến khám vì hạch to bất kỳ vị trí nào đều bắt buộc phải được bộc lộ và khám bụng kỹ lưỡng?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Để phát hiện sớm tình trạng Gan to và Lách to trong Hội chứng thâm nhiễm toàn thân.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nếu có gan lách to kèm theo, tính chất bệnh chuyển từ viêm hạch khu trú sang bệnh lý hệ thống ác tính hoặc bệnh chuyển hóa nguy hiểm.",
+        "extra": "Không khám bụng là một trong 5 lỗi bỏ sót thường gặp nhất của bác sĩ trẻ.",
+        "tags": [
+            "PED-53",
+            "PED-46",
+            "EBM-Update",
+            "Kham-lam-sang"
+        ]
+    },
+    {
+        "id": "PED53-EBM-018",
+        "type": "basic",
+        "section": "EBM_VungDanLuu",
+        "category": "Hạch sau tai và chẩm",
+        "front": "Trẻ có hạch to sưng đau ở vùng chẩm và sau tai thường gợi ý những căn nguyên nào?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhiễm khuẩn hoặc nấm da đầu (chốc lở, Tinea capitis). 2) Bệnh Rubella.<br><b>💡 Cơ chế:</b> Chuỗi hạch chẩm và sau tai dẫn lưu trực tiếp toàn bộ da đầu và vành tai sau.",
+        "extra": "Luôn vạch tóc kiểm tra chấy rận và tổn thương vảy da đầu.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Vung-dan-luu"
+        ]
+    },
+    {
+        "id": "PED53-EBM-019",
+        "type": "cloze",
+        "section": "EBM_VungDanLuu",
+        "category": "Viêm hạch cổ cấp tính 1 bên",
+        "text": "Khoảng 80% trường hợp Viêm hạch cổ cấp tính 1 bên do vi khuẩn ở trẻ em là do 2 tác nhân hàng đầu: {{c1::Staphylococcus aureus}} và {{c1::Streptococcus pyogenes (Liên cầu nhóm A)}}.",
+        "extra": "Hạch sưng to nhanh, nóng, đỏ, đau rực, có thể tiến triển thành ổ áp xe phập phều.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Vi-khuan"
+        ]
+    },
+    {
+        "id": "PED53-EBM-020",
+        "type": "basic",
+        "section": "EBM_VungDanLuu",
+        "category": "Viêm hạch cổ 2 bên bán cấp",
+        "front": "Trẻ có hạch cổ hai bên to thành chuỗi kèm sốt, viêm họng có giả mạc trắng dày, phù mí mắt trên thường nghĩ đến bệnh gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bệnh Tăng bạch cầu đơn nhân nhiễm trùng (Infectious Mononucleosis do virus EBV).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>EBV nhân lên tại biểu mô họng và thâm nhiễm tế bào lympho B trong các chuỗi hạch cổ và amidan.",
+        "extra": "Dấu hiệu phù mí mắt trên gọi là Hoagland sign; hạch cổ sau to đối xứng rất đặc trưng.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Virus"
+        ]
+    },
+    {
+        "id": "PED53-EBM-021",
+        "type": "basic",
+        "section": "EBM_VungDanLuu",
+        "category": "Hạch góc hàm và dưới hàm",
+        "front": "Vùng hạch dưới hàm và góc hàm to đơn độc cần ưu tiên thăm khám cơ quan nào?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Khám răng miệng (sâu răng, áp xe quanh cuống răng) và amiđan.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Hạch góc hàm (Jugulodigastric node) dẫn lưu trực tiếp từ khoang miệng, hạnh nhân amidan và đáy lưỡi.",
+        "extra": "Áp xe quanh amidan (Quinsy) luôn gây sưng hạch góc hàm cùng bên rất đau.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Vung-dan-luu"
+        ]
+    },
+    {
+        "id": "PED53-EBM-022",
+        "type": "cloze",
+        "section": "EBM_VungDanLuu",
+        "category": "Bệnh mèo cào",
+        "text": "Bệnh mèo cào do vi khuẩn {{c1::Bartonella henselae}} gây ra, biểu hiện sưng hạch khu trú bán cấp thường gặp nhất ở vùng {{c1::nách hoặc cổ}} sau vết cào cắn từ 1 đến 3 tuần.",
+        "extra": "Hạch sưng to kéo dài nhiều tuần, có thể hóa mủ vô khuẩn ở trung tâm hạch.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Meo-cao"
+        ]
+    },
+    {
+        "id": "PED53-EBM-023",
+        "type": "basic",
+        "section": "EBM_VungDanLuu",
+        "category": "Viêm hạch nách sau tiêm BCG",
+        "front": "Trẻ 3 tháng tuổi có khối hạch nách trái to 2 cm không nóng đỏ, xuất hiện sau tiêm chủng sơ sinh, chẩn đoán nghĩ tới nhiều nhất là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Viêm hạch sau tiêm vắc xin phòng lao BCG (BCG Lymphadenitis).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Do vắc xin BCG sống giảm độc lực tiêm ở cơ delta cánh tay trái lan theo đường bạch mạch về hạch nách cùng bên.",
+        "extra": "Đa số tự thoái triển trong vài tháng; chỉ chọc hút khi hạch hóa mủ căng đau đe dọa vỡ da.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Vac-xin"
+        ]
+    },
+    {
+        "id": "PED53-EBM-024",
+        "type": "cloze",
+        "section": "EBM_CanLamSang",
+        "category": "Chỉ số tỷ lệ L/S trên siêu âm",
+        "text": "Trên siêu âm hạch, tỷ lệ đường kính dài/ngắn (L/S ratio) {{c1::≥ 2}} đặc trưng cho hạch viêm phản ứng lành tính, còn tỷ lệ {{c1::&lt; 2}} (hạch hình tròn) gợi ý nguy cơ ác tính.",
+        "extra": "Hạch ác tính có xu hướng phát triển tròn đều về mọi hướng làm mất hình bầu dục sinh lý.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Sieu-am"
+        ]
+    },
+    {
+        "id": "PED53-EBM-025",
+        "type": "basic",
+        "section": "EBM_CanLamSang",
+        "category": "Rốn hạch trên siêu âm",
+        "front": "Đặc điểm hình ảnh rốn hạch (Lymph node hilum) trên siêu âm Doppler khác biệt như thế nào giữa hạch lành tính và hạch ác tính?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Lành tính: Rốn hạch dày sáng, mạch máu tỏa tia từ rốn; Ác tính: Mất rốn hạch, mạch máu hỗn loạn ngoại vi hoặc xuyên bao.<br><b>💡 Cơ chế:</b> Tế bào u ác tính thâm nhiễm xóa sạch cấu trúc mỡ và mạch máu rốn hạch.",
+        "extra": "Siêu âm Doppler có độ nhạy rất cao trong định hướng chỉ định sinh thiết.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Sieu-am"
+        ]
+    },
+    {
+        "id": "PED53-EBM-026",
+        "type": "basic",
+        "section": "EBM_CanLamSang",
+        "category": "X-quang phổi trước thủ thuật",
+        "front": "Tại sao bắt buộc phải chụp X-quang phổi thẳng ở mọi bệnh nhi có hạch to kéo dài trước khi tiến hành sinh thiết hoặc gây mê?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Để phát hiện sớm khối u trung thất lớn chèn ép khí quản và tĩnh mạch chủ trên.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Thuốc giãn cơ và gây mê toàn thân có thể làm sập hoàn toàn đường thở đã bị u trung thất đè ép, dẫn đến tử vong tức thì trên bàn mổ.",
+        "extra": "Khối u trung thất trước hay gặp nhất là U lympho tế bào T (T-cell ALL / Lymphoma).",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "An-toan-thu-thuat",
+            "Co-do"
+        ]
+    },
+    {
+        "id": "PED53-EBM-027",
+        "type": "basic",
+        "section": "EBM_SinhThiet",
+        "category": "Chỉ định tuyệt đối sinh thiết hạch",
+        "front": "Kể 4 chỉ định tuyệt đối cần tiến hành sinh thiết hạch mở trọn vẹn ở trẻ em?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hạch thượng đòn. 2) Hạch > 2 cm không giảm sau 4-6 tuần. 3) Hạch cứng dính cố định. 4) Hạch to kèm triệu chứng B.<br><b>💡 Lưu ý:</b> Nếu có gan lách to hoặc suy tủy, phải làm tủy đồ trước khi sinh thiết.",
+        "extra": "Nếu có gan lách to hoặc suy tủy, phải làm tủy đồ trước khi sinh thiết hạch.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Sinh-thiet"
+        ]
+    },
+    {
+        "id": "PED53-EBM-028",
+        "type": "basic",
+        "section": "EBM_SinhThiet",
+        "category": "Tại sao không dùng FNA ở trẻ em",
+        "front": "Tại sao chọc hút tế bào bằng kim nhỏ (FNA) bị coi là không phù hợp để chẩn đoán nguyên nhân hạch to nghi ngờ ác tính ở trẻ em?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì FNA không lấy được cấu trúc kiến trúc mô học (Architecture) của nang hạch, dẫn đến tỷ lệ âm tính giả lên tới 30-40%.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Phân loại U lympho (Hodgkin vs Non-Hodgkin) bắt buộc phải quan sát mối tương quan giữa các tế bào u và mô đệm bao quanh.",
+        "extra": "Tiêu chuẩn vàng luôn là Sinh thiết hạch mở trọn vẹn (Excisional biopsy).",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Sinh-thiet",
+            "Bay-lam-sang"
+        ]
+    },
+    {
+        "id": "PED53-EBM-029",
+        "type": "basic",
+        "section": "EBM_BayLamSang",
+        "category": "Cấm dùng Corticoid thử nghiệm",
+        "front": "Tại sao chống chỉ định tuyệt đối việc dùng Corticoid (Prednisolone/Dexamethasone) để làm test giảm kích thước hạch chưa rõ nguyên nhân ở trẻ em?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì Corticoid làm tan các tế bào lymphoblast ác tính tạm thời, gây âm tính giả tủy đồ và sinh thiết, đồng thời gây kháng hóa chất sau này.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Dùng Corticoid làm xóa mờ hình ảnh giải phẫu bệnh khiến chẩn đoán Bạch cầu cấp (ALL) bị chậm trễ nghiêm trọng.",
+        "extra": "Chỉ dùng Corticoid khi đã loại trừ hoàn toàn ung thư hoặc có chẩn đoán bệnh tự miễn rõ ràng.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Bay-lam-sang",
+            "Co-do"
+        ]
+    },
+    {
+        "id": "PED53-EBM-030",
+        "type": "basic",
+        "section": "EBM_BayLamSang",
+        "category": "Trình tự Tủy đồ vs Sinh thiết hạch",
+        "front": "Khi trẻ có Hạch to kèm Gan to và Lách to, xét nghiệm can thiệp mô học nào bắt buộc phải làm TRƯỚC: Chọc tủy đồ hay Sinh thiết hạch?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bắt buộc làm Chọc hút tủy xương (Tủy đồ) TRƯỚC.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Nếu tủy đồ xác chẩn Bạch cầu cấp (Blast ≥ 20%), trẻ không cần phải chịu phẫu thuật cắt hạch có gây mê không cần thiết.",
+        "extra": "Sinh thiết hạch mở chỉ tiến hành khi tủy đồ không xác định được chẩn đoán.",
+        "tags": [
+            "PED-53",
+            "PED-46",
+            "EBM-Update",
+            "Thuat-toan"
+        ]
+    },
+    {
+        "id": "PED53-EBM-031",
+        "type": "basic",
+        "section": "EBM_BayLamSang",
+        "category": "Phân biệt nang giáp lưỡi",
+        "front": "Đặc điểm khám lâm sàng nào giúp phân biệt chắc chắn giữa Nang giáp lưỡi (Thyroglossal cyst) và Hạch bạch huyết vùng cổ?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nang giáp lưỡi nằm ở đường giữa cổ và di động chạy lên trên theo động tác nuốt hoặc thè lưỡi của trẻ.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Do nang dính liền với cuống ống giáp lưỡi gắn vào đáy lưỡi xương móng; hạch bạch huyết không bao giờ di động theo động tác thè lưỡi.",
+        "extra": "Nang khe mang nằm ở bờ trước cơ ức đòn chũm, không di động khi nuốt.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Giai-phau"
+        ]
+    },
+    {
+        "id": "PED53-EBM-032",
+        "type": "basic",
+        "section": "EBM_BayLamSang",
+        "category": "Bẫy ban dị ứng Amoxicillin trong EBV",
+        "front": "Hiện tượng gì sẽ xảy ra nếu bác sĩ kê đơn Amoxicillin hoặc Ampicillin cho trẻ bị sốt viêm họng do virus EBV?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ sẽ bùng phát cơn phát ban dát sẩn đỏ rực toàn thân dữ dội sau 5-10 ngày dùng thuốc (gặp ở > 90% trường hợp).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Đây là phản ứng quá mẫn miễn dịch đặc thù do virus EBV kích hoạt tương tác với phân tử aminopenicillin, không phải dị ứng penicillin vĩnh viễn.",
+        "extra": "Tránh vội vàng kết luận trẻ bị dị ứng trọn đời với Penicillin.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Duoc-ly",
+            "Virus"
+        ]
+    },
+    {
+        "id": "PED53-EBM-033",
+        "type": "cloze",
+        "section": "EBM_DieuTri",
+        "category": "Kháng sinh đầu tay viêm hạch cổ cấp",
+        "text": "Kháng sinh đường uống đầu tay điều trị Viêm hạch cổ cấp tính do tụ cầu và liên cầu ở trẻ em là {{c1::Cephalexin}} với liều lượng {{c1::50 - 75 mg/kg/ngày}} chia 3-4 lần.",
+        "extra": "Nếu nghi ngờ vi khuẩn kỵ khí từ nhiễm trùng răng miệng, ưu tiên Amoxicillin-Clavulanate.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Duoc-ly"
+        ]
+    },
+    {
+        "id": "PED53-EBM-034",
+        "type": "basic",
+        "section": "EBM_DieuTri",
+        "category": "Kháng sinh thay thế nghi ngờ MRSA",
+        "front": "Khi trẻ bị viêm hạch cổ cấp nghi ngờ tụ cầu kháng Methicillin (CA-MRSA) hoặc dị ứng Penicillin, kháng sinh đường uống nào là lựa chọn hàng đầu?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Clindamycin với liều 30 - 40 mg/kg/ngày chia 3 lần uống.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Clindamycin có khả năng thấm tốt vào mô hạch và ức chế độc tố vi khuẩn (như độc tố PVL của tụ cầu).",
+        "extra": "Cần theo dõi nguy cơ tiêu chảy và viêm đại tràng giả mạc.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Duoc-ly"
+        ]
+    },
+    {
+        "id": "PED53-EBM-035",
+        "type": "cloze",
+        "section": "EBM_DieuTri",
+        "category": "Phác đồ Azithromycin bệnh mèo cào",
+        "text": "Trong bệnh mèo cào thể hạch to đau nhiều, phác đồ Azithromycin đường uống chuẩn gồm: ngày đầu tiên dùng liều {{c1::10 mg/kg}} (tối đa 500 mg), sau đó dùng {{c1::5 mg/kg/ngày}} (tối đa 250 mg) từ ngày 2 đến ngày 5.",
+        "extra": "Kháng sinh giúp làm giảm nhanh thể tích hạch trong tháng đầu điều trị.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Duoc-ly",
+            "Meo-cao"
+        ]
+    },
+    {
+        "id": "PED53-EBM-036",
+        "type": "basic",
+        "section": "EBM_DieuTri",
+        "category": "Xử trí hạch mủ trong bệnh mèo cào",
+        "front": "Tại sao không nên rạch mở dẫn lưu mủ (Incision & Drainage) ở hạch hóa mủ do bệnh mèo cào?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì vết rạch rất dễ tạo thành đường rò mạn tính (Sinus tract) rỉ dịch kéo dài nhiều tháng và để lại sẹo xấu.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Khi hạch hóa mủ căng đau, biện pháp chuẩn mực là chọc hút bằng kim vô trùng dưới siêu âm.",
+        "extra": "Có thể phải chọc hút lặp lại vài lần để giải áp.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Ngoai-khoa",
+            "Meo-cao"
+        ]
+    },
+    {
+        "id": "PED53-EBM-037",
+        "type": "cloze",
+        "section": "EBM_DieuTri",
+        "category": "Phác đồ chống lao hạch",
+        "text": "Phác đồ điều trị Lao hạch ngoại biên chuẩn ở trẻ em theo Chương trình Chống lao Quốc gia là: {{c1::2RHZE / 4RH}} (2 tháng tấn công 4 thuốc, 4 tháng duy trì 2 thuốc).",
+        "extra": "R: Rifampicin, H: Isoniazid, Z: Pyrazinamide, E: Ethambutol.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Lao"
+        ]
+    },
+    {
+        "id": "PED53-EBM-038",
+        "type": "basic",
+        "section": "EBM_BenhDacBiet",
+        "category": "Dấu ấn hóa mô miễn dịch LCH",
+        "front": "2 dấu ấn hóa mô miễn dịch đặc hiệu giúp chẩn đoán xác định Bệnh mô bào Langerhans (LCH) trên mẫu mô sinh thiết là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>CD1a dương tính và Langerin (CD207) dương tính.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Kính hiển vi điện tử thấy cấu trúc thể Birbeck đặc trưng hình vợt tennis trong bào tương tế bào tua Langerhans.",
+        "extra": "Thường mang đột biến gen dòng hoạt hóa BRAF V600E.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Giai-phau-benh"
+        ]
+    },
+    {
+        "id": "PED53-EBM-039",
+        "type": "basic",
+        "section": "EBM_BenhDacBiet",
+        "category": "Triệu chứng da xương trong LCH",
+        "front": "Bệnh mô bào Langerhans (LCH) ở trẻ nhỏ thường có biểu hiện lâm sàng đặc trưng nào ở da và xương?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Da: Ban sẩn vảy tiết nâu vàng/hồng ở da đầu và nếp bẹn; Xương: Tiêu xương hình đục lỗ (Punched-out) trên X-quang sọ.<br><b>💡 Cơ chế:</b> Tế bào Langerhans ác tính thâm nhiễm phá hủy vỏ xương và màng đáy biểu bì.",
+        "extra": "Có thể kèm đái tháo nhạt do thâm nhiễm cuống tuyến yên.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Lam-sang"
+        ]
+    },
+    {
+        "id": "PED53-EBM-040",
+        "type": "cloze",
+        "section": "EBM_BenhDacBiet",
+        "category": "Chỉ số Ferritin trong HLH",
+        "text": "Trong Hội chứng thực bào máu (HLH), chỉ số xét nghiệm huyết thanh đặc trưng nhất phản ánh cơn bão cytokine là nồng độ {{c1::Ferritin máu tăng cực cao (thường > 2000 - 3000 µg/L)}}.",
+        "extra": "Tiêu chuẩn chẩn đoán HLH-2004 yêu cầu Ferritin ≥ 500 µg/L, kết hợp giảm 2 dòng máu và lách to.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Xet-nghiem"
+        ]
+    },
+    {
+        "id": "PED53-EBM-041",
+        "type": "basic",
+        "section": "EBM_BenhDacBiet",
+        "category": "Tiêu chuẩn hạch trong Kawasaki",
+        "front": "Đặc điểm của hạch cổ trong tiêu chuẩn chẩn đoán Bệnh Kawasaki kinh điển ở trẻ em là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Hạch cổ sưng to một bên (Unilateral) với đường kính lớn nhất trên 1.5 cm.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Đây là 1 trong 5 tiêu chuẩn lâm sàng phụ, thường là tiêu chuẩn ít gặp nhất và hạch thường không hóa mủ.",
+        "extra": "Bệnh nhi bắt buộc phải có sốt cao liên tục ≥ 5 ngày không đáp ứng kháng sinh.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Kawasaki"
+        ]
+    },
+    {
+        "id": "PED53-EBM-042",
+        "type": "basic",
+        "section": "EBM_BenhDacBiet",
+        "category": "U lympho Hodgkin",
+        "front": "Tế bào khổng lồ ác tính đặc trưng trên tiêu bản mô bệnh học của U lympho Hodgkin có tên là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Đại tế bào Reed-Sternberg (tế bào hai nhân đối xứng hình mắt cú).<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Tế bào Reed-Sternberg có nguồn gốc từ tế bào lympho B trung tâm mầm bị đột biến, biểu hiện CD30 và CD15 dương tính.",
+        "extra": "Hay gặp ở trẻ lớn và vị thành niên với khối hạch cổ chắc không đau và u trung thất.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Giai-phau-benh"
+        ]
+    },
+    {
+        "id": "PED53-EBM-043",
+        "type": "basic",
+        "section": "EBM_QuyTrinhSinhThiet",
+        "category": "Vị trí hạch cần tránh sinh thiết",
+        "front": "Tại sao bác sĩ phẫu thuật nên tránh chọn hạch vùng bẹn để làm sinh thiết chẩn đoán nếu bệnh nhi còn các hạch khác ở cổ hoặc nách?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì hạch bẹn rất hay bị xơ hóa và viêm phản ứng mạn tính do nhiễm trùng da chi dưới thường xuyên làm nhiễu kết quả mô bệnh học.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Cấu trúc mô bệnh học của hạch cổ hoặc nách nguyên vẹn và phản ánh chính xác bản chất bệnh lý hơn.",
+        "extra": "Luôn ưu tiên chọn hạch lớn nhất và nằm sâu nhất trong chùm hạch bất thường.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Ngoai-khoa"
+        ]
+    },
+    {
+        "id": "PED53-EBM-044",
+        "type": "basic",
+        "section": "EBM_QuyTrinhSinhThiet",
+        "category": "Chia bệnh phẩm phòng mổ",
+        "front": "Mẫu hạch sinh thiết tươi tại phòng mổ cần được chia làm 2 phần gửi làm những xét nghiệm gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Mô tươi gạc ẩm: làm tế bào dòng chảy (Flow cytometry), PCR di truyền, cấy vi sinh; Mô cố định Formalin 10%: làm GPB và hóa mô miễn dịch.<br><b>💡 Lưu ý:</b> Formol làm biến tính protein và DNA nên không thể cấy vi sinh hay chạy flow.",
+        "extra": "Phối hợp chặt chẽ giữa phẫu thuật viên và khoa giải phẫu bệnh.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Giai-phau-benh"
+        ]
+    },
+    {
+        "id": "PED53-EBM-045",
+        "type": "cloze",
+        "section": "EBM_PhanXaNhanh",
+        "category": "Quy tắc 2 tuần 4 tuần",
+        "text": "Theo dõi hạch sưng to cấp tính ở trẻ em: hạch do nhiễm trùng thông thường phải bắt đầu nhỏ dần sau {{c1::2 tuần}} và trở về kích thước bình thường trong vòng {{c1::4 đến 6 tuần}}.",
+        "extra": "Nếu hạch tiếp tục tăng kích thước sau 2 tuần hoặc không nhỏ lại sau 6 tuần, bắt buộc phải đánh giá chuyên sâu.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Lam-sang"
+        ]
+    },
+    {
+        "id": "PED53-EBM-046",
+        "type": "basic",
+        "section": "EBM_PhanXaNhanh",
+        "category": "Tam chứng cờ đỏ ung thư",
+        "front": "3 dấu hiệu toàn thân kinh điển (Triệu chứng B) cảnh báo hạch to do bệnh lý ác tính ở trẻ em là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sốt kéo dài không rõ nguyên nhân (> 38°C). 2) Sụt cân > 10% trong 6 tháng. 3) Đổ mồ hôi ướt đẫm ban đêm.<br><b>💡 Cơ chế:</b> Tế bào u giải phóng cytokine tiền viêm (IL-1, IL-6, TNF-alpha) gây rối loạn điều nhiệt và dị hóa mạnh.",
+        "extra": "Thường gặp trong U lympho Hodgkin và Non-Hodgkin.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Co-do"
+        ]
+    },
+    {
+        "id": "PED53-EBM-047",
+        "type": "cloze",
+        "section": "EBM_PhanXaNhanh",
+        "category": "Lời khuyên phụ huynh",
+        "text": "Bác sĩ cần nhắc nhở phụ huynh {{c1::tuyệt đối không nắn bóp hạch của trẻ hàng ngày}}, vì tác động cơ học liên tục sẽ gây kích thích viêm mạn tính khiến hạch không thể thu nhỏ.",
+        "extra": "Chỉ kiểm tra lại định kỳ theo hẹn của bác sĩ lâm sàng.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Tu-van"
+        ]
+    },
+    {
+        "id": "PED53-EBM-048",
+        "type": "basic",
+        "section": "EBM_PhanXaNhanh",
+        "category": "Hội chứng SVCS",
+        "front": "Hội chứng tĩnh mạch chủ trên (SVCS) do khối hạch trung thất to ở trẻ em biểu hiện bằng những dấu hiệu cấp cứu nào?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Phù áo khoác (phù mặt, cổ, ngực), tĩnh mạch cổ nổi căng, tím tái nửa người trên và khó thở tăng khi nằm ngửa.<br><br><b>💡 Cơ chế / Lưu ý:</b><br>Khối u trung thất trước đè ép tĩnh mạch chủ trên cản trở máu hồi lưu về tâm nhĩ phải.",
+        "extra": "Cấp cứu ung bướu khẩn cấp: cho trẻ ngồi đầu cao, thở oxy và chuyển viện ngay.",
+        "tags": [
+            "PED-53",
+            "EBM-Update",
+            "Cap-cuu",
+            "Co-do"
+        ]
+    }
+]
