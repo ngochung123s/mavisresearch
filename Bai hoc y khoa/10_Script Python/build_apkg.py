@@ -85,6 +85,8 @@ def detect_main_deck(cards_path):
         return 'Fetal ultrasound'
     elif '11_noi' in path_str or 'noi khoa' in path_str:
         return 'Internal medicine'
+    elif '12_nhi' in path_str or 'nhi khoa' in path_str:
+        return 'Nhi khoa Y6'
     else:
         return 'Medical'
 
@@ -95,7 +97,7 @@ def detect_date_from_path(cards_path):
     return m.group(1) if m else None
 
 
-def build_apkg(cards_json_path, output_path=None):
+def build_apkg(cards_json_path, output_path=None, deck_name=None):
     """Build APKG từ cards JSON. Tự động detect format V1/V2."""
     cards_json_path = Path(cards_json_path).resolve()
     if not cards_json_path.exists():
@@ -137,8 +139,12 @@ def build_apkg(cards_json_path, output_path=None):
     # Remove date suffix from topic for cleaner display
     if date:
         topic_short = stem.replace('_' + date, '').replace(date, '')
-    deck_full = f'{main_deck}::{topic_short}::{date or ""}'
-    deck_full = deck_full.rstrip(':')
+    if deck_name:
+        deck_full = deck_name
+    elif isinstance(raw_data, dict) and raw_data.get('topic'):
+        deck_full = raw_data['topic']
+    else:
+        deck_full = f'{main_deck}::{topic_short}::{date or ""}'.rstrip(':')
 
     print(f"\n{'='*60}")
     print(f"  BUILD APKG")
@@ -248,11 +254,11 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser(description='Build APKG from cards JSON (V1 or V2)')
     ap.add_argument('cards_json', help='Path to cards.json hoặc cards.v2.json')
     ap.add_argument('--output', '-o', help='Output .apkg path (auto-detect nếu không chỉ định)')
+    ap.add_argument('--deck', '-d', help='Tên deck đầy đủ (ghi đè auto-detect)')
     ap.add_argument('--verify', '-v', action='store_true', help='Chạy verify_apkg_diacritics sau build')
     args = ap.parse_args()
 
-    rc = build_apkg(args.cards_json, args.output)
-
+    rc = build_apkg(args.cards_json, args.output, deck_name=args.deck)
     if args.verify and rc != 2:
         out_path = args.output or Path(args.cards_json).parent / f"Anki - {Path(args.cards_json).stem.replace('.cards','').replace('.v2','')} - {detect_date_from_path(args.cards_json) or 'undated'}.apkg"
         if Path(out_path).exists():
