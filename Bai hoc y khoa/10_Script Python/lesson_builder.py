@@ -336,13 +336,13 @@ def add_cards_from_json_v2(json_path, basic_model_id, cloze_model_id,
       {
         "type": "basic",
         "front": "Câu hỏi",
-        "back": "<b>📖 Văn bản gốc:</b><br>...<br><br><b>🔍 Góc nhìn bổ sung:</b><br>...",
-        "extra": ""
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>...<br><br><b>💡 Giải thích của AI:</b><br>...",
+        "extra": "📖 Nguồn: ..."
       },
       {
         "type": "cloze",
         "text": "Câu chứa {{c1::phần ẩn}}.",
-        "extra": "Ghi chú bổ sung"
+        "extra": "<b>💡 Giải thích của AI:</b> ...<br>📖 Nguồn: ..."
       }
     ]
     
