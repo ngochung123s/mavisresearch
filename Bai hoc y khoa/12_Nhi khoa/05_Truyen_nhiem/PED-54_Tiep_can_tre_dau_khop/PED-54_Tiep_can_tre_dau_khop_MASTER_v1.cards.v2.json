@@ -2,17 +2,17 @@
   "topic": "Nhi khoa Y6::PED-54: Tiếp cận trẻ đau khớp",
   "version": "master_combo_v1",
   "date": "2026-09-28",
-  "total_cards": 75,
+  "total_cards": 63,
   "cards": [
     {
       "id": "PED54-B01",
       "track": "barem_goc",
       "type": "basic",
-      "category": "Mục tiêu bài học",
       "section": "B0",
-      "front": "2 mục tiêu của bài Tiếp cận trẻ đau khớp theo giáo trình Y Thái Bình là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Triệu chứng đau khớp và đề xuất xét nghiệm chẩn đoán. 2) Các phương pháp điều trị đau khớp.<br><b>💡 Barem:</b> 2 mục tiêu cốt lõi theo giáo trình Y Thái Bình (trang 78).",
-      "extra": "Văn bản gốc: Mục tiêu 1-2 (trang 78).",
+      "category": "Mục tiêu bài học",
+      "front": "2 mục tiêu học tập chính của bài Tiếp cận trẻ đau khớp theo giáo trình Y Thái Bình là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trình bày triệu chứng đau khớp của một số bệnh và đề xuất các xét nghiệm thăm dò cho chẩn đoán nguyên nhân.<br>2) Chỉ ra các phương pháp điều trị đau khớp ở trẻ em.<br><br><b>💡 Giải thích của AI:</b><br>Đây là 2 mục tiêu cốt lõi của bài học, bao quát toàn bộ từ nhận diện lâm sàng, chỉ định cận lâm sàng đến bậc thang điều trị nội - ngoại khoa.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 78, Mục tiêu bài học)",
       "tags": [
         "PED-54",
         "Barem-goc",
@@ -22,39 +22,28 @@
     {
       "id": "PED54-B02",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Định nghĩa",
-      "section": "B1",
-      "text": "[Barem gốc] Đau khớp được định nghĩa khi có biểu hiện đau ở {{c1::vị trí khớp}} hay {{c1::vùng xung quanh}} (vì trẻ em khó xác định chính xác).",
-      "extra": "Văn bản gốc: Đau khớp được định nghĩa khi có biểu hiện đau ở vị trí khớp hay vùng xung quanh (vì trẻ em khó xác định) (trang 78).",
+      "type": "basic",
+      "section": "B0",
+      "category": "Định nghĩa bệnh học",
+      "front": "Định nghĩa Đau khớp (Arthralgia) ở trẻ em và phân biệt với đau cơ hoặc đau chi không do khớp?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đau khớp được định nghĩa khi có biểu hiện đau ở vị trí khớp hay vùng xung quanh (vì trẻ em khó xác định chính xác).<br>• Quy tắc dùng thuật ngữ: Chỉ nên sử dụng thuật ngữ 'Đau khớp' nếu sự khó chịu bắt nguồn từ chính cấu trúc của khớp.<br>• Phân biệt: Phải tách bạch đau khớp với đau cơ hoặc các loại đau liên quan đến chi nhưng không thuộc cấu trúc khớp.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ nhỏ thường không định khu được vị trí đau, đau đầu xương hoặc cơ quanh khớp hay bị trẻ kêu chung là đau khớp.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 78, Mục 1 - Định nghĩa)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "Dinh-nghia"
+        "Dinh-nghia",
+        "Dau-khop"
       ]
     },
     {
       "id": "PED54-B03",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Định nghĩa",
-      "section": "B1",
-      "text": "[Barem gốc] Thuật ngữ đau khớp chỉ nên được sử dụng nếu sự khó chịu bắt nguồn từ {{c1::chính khớp}}; cần phân biệt đau khớp với {{c1::đau cơ}} hoặc đau khác ở chi không liên quan đến khớp.",
-      "extra": "Văn bản gốc: Thuật ngữ đau khớp chỉ nên được sử dụng nếu sự khó chịu bắt nguồn từ chính khớp; phân biệt đau khớp với đau cơ... (trang 78).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Dinh-nghia"
-      ]
-    },
-    {
-      "id": "PED54-B04",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Định nghĩa",
-      "section": "B1",
-      "text": "[Barem gốc] Thuật ngữ viêm khớp chỉ được sử dụng khi có bằng chứng viêm trong khớp gồm 4 dấu hiệu: {{c1::Sưng}}, {{c1::nóng}}, {{c1::đỏ}}, {{c1::đau khi vận động}}.",
-      "extra": "Văn bản gốc: Thuật ngữ viêm khớp chỉ nên được sử dụng khi có bằng chứng về viêm trong khớp gồm: Sưng, nóng, đỏ, đau khi vận động (trang 78).",
+      "type": "basic",
+      "section": "B0",
+      "category": "Định nghĩa bệnh học",
+      "front": "Thuật ngữ 'Viêm khớp' (Arthritis) chỉ được sử dụng khi có những bằng chứng viêm nào trong khớp?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thuật ngữ 'Viêm khớp' chỉ được sử dụng khi có bằng chứng viêm rõ ràng trong khớp gồm đầy đủ 4 dấu hiệu:<br>1) Sưng khớp.<br>2) Nóng khớp.<br>3) Đỏ khớp.<br>4) Đau khi vận động khớp.<br><br><b>💡 Giải thích của AI:</b><br>Đau khớp (Arthralgia) là triệu chứng cơ năng thuần túy; còn Viêm khớp (Arthritis) là bệnh cảnh thực thể có phản ứng viêm sưng nóng đỏ đau tại màng hoạt dịch hoặc sụn khớp.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 78, Mục 1 - Định nghĩa)",
       "tags": [
         "PED-54",
         "Barem-goc",
@@ -63,143 +52,94 @@
       ]
     },
     {
-      "id": "PED54-B05",
+      "id": "PED54-B04",
       "track": "barem_goc",
       "type": "basic",
-      "category": "Khám khớp",
-      "section": "B2",
-      "front": "Kể tên 6 dấu hiệu chung của khớp cần thăm khám ở trẻ em theo barem giáo trình?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sưng; 2) Nóng; 3) Đau; 4) Kêu rắc rắc (lạo xạo); 5) Giới hạn cử động; 6) Biến dạng khớp.<br><br><b>💡 Lưu ý:</b><br>Luôn đối chiếu và so sánh với khớp đối diện bên lành khi thăm khám.",
-      "extra": "Văn bản gốc: Các dấu hiệu chung của khớp bao gồm: sưng, nóng, đau, kêu rắc rắc, giới hạn cử động và đổi biến dạng (trang 78).",
+      "section": "B1",
+      "category": "Khám khớp lâm sàng",
+      "front": "Kể tên 6 dấu hiệu lâm sàng chung của bệnh lý khớp cần đánh giá khi thăm khám theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 6 dấu hiệu kinh điển:<br>1) Sưng khớp.<br>2) Nóng khớp.<br>3) Đau khớp.<br>4) Dấu hiệu lạo xạo (kêu rắc rắc khi vận động).<br>5) Giới hạn cử động (hạn chế biên độ vận động).<br>6) Biến dạng khớp.<br><br><b>💡 Giải thích của AI:</b><br>Đây là khung 6 bước thăm khám khớp toàn diện bắt buộc phải thuộc lòng khi thi hỏi thi lâm sàng và thi chạy trạm OSCE.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 78 - 79, Mục 2 - Lâm sàng)",
       "tags": [
         "PED-54",
         "Barem-goc",
         "Kham-khop",
-        "Trieu-chung"
+        "6-dau-hieu"
+      ]
+    },
+    {
+      "id": "PED54-B05",
+      "track": "barem_goc",
+      "type": "basic",
+      "section": "B1",
+      "category": "Khám khớp - Sưng & Đau",
+      "front": "Cách đánh giá dấu hiệu Sưng và Đau của khớp cùng các nguyên nhân gây sưng khớp ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đánh giá sưng: Nhìn và sờ trực tiếp khớp. 3 nguyên nhân gây sưng:<br>1) Rối loạn tăng trưởng xương.<br>2) Tràn dịch trong ổ khớp.<br>3) Tăng sinh bao hoạt dịch khớp.<br>• Đánh giá đau: Sờ nắn trực tiếp quanh khớp từ nhẹ nhàng đến mạnh; quan sát biểu hiện cảm xúc của trẻ qua nét mặt và lời nói.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ em thường sợ hãi khi khám, sờ từ nhẹ đến mạnh và quan sát nét mặt (thay vì chỉ hỏi có đau không) giúp phát hiện điểm đau chói chính xác nhất.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 78 - 79, Mục 2 - Lâm sàng)",
+      "tags": [
+        "PED-54",
+        "Barem-goc",
+        "Kham-khop",
+        "Sung-Dau"
       ]
     },
     {
       "id": "PED54-B06",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Khám khớp",
-      "section": "B2",
-      "text": "[Barem gốc] Khớp sưng được đánh giá bằng {{c1::nhìn}} và {{c1::sờ trực tiếp}}; 3 nguyên nhân gây sưng gồm: rối loạn tăng trưởng xương, {{c1::tràn dịch khớp}}, hoặc {{c1::tăng sinh bao hoạt dịch khớp}}.",
-      "extra": "Văn bản gốc: Khớp sưng có thể đánh giá bằng cách nhìn và sờ trực tiếp khớp. Nguyên nhân có thể do rối loạn tăng trưởng xương, tràn dịch khớp, hoặc tăng sinh bao hoạt dịch khớp (trang 78).",
+      "type": "basic",
+      "section": "B1",
+      "category": "Khám khớp - Nóng & Lạo xạo",
+      "front": "Cách xác định dấu hiệu Nóng và Dấu hiệu lạo xạo (kêu rắc rắc) của khớp theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Dấu hiệu Nóng: Xác định bằng cách dùng mu bàn tay so sánh nhiệt độ da trên khớp bị tổn thương với khớp đối diện bên lành; có thể kèm thay đổi màu sắc da.<br>• Dấu hiệu lạo xạo: Phát hiện qua sờ hoặc nghe thấy tiếng lắc rắc khi cử động khớp; cơ chế do hai mặt khớp gồ ghề tổn thương cọ sát vào nhau.<br><br><b>💡 Giải thích của AI:</b><br>Mu bàn tay có thụ thể cảm nhận nhiệt nhạy nhất; luôn so sánh đối xứng hai bên là nguyên tắc khám cốt lõi trong cơ xương khớp.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 79, Mục 2 - Lâm sàng)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "Sung-khop"
+        "Kham-khop",
+        "Nong-Lao-xao"
       ]
     },
     {
       "id": "PED54-B07",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Khám khớp",
-      "section": "B2",
-      "text": "[Barem gốc] Triệu chứng đau của khớp được đánh giá bằng sờ trực tiếp quanh khớp từ nhẹ đến mạnh; mức độ đau được đánh giá qua cảm xúc của trẻ qua {{c1::nét mặt}} và {{c1::lời nói}}.",
-      "extra": "Văn bản gốc: Mức độ đau được đánh giá dựa vào những biểu hiện cảm xúc của bệnh nhân qua nét mặt, lời nói (trang 79).",
+      "type": "basic",
+      "section": "B1",
+      "category": "Khám khớp - Vận động & Biến dạng",
+      "front": "Vì sao đánh giá giới hạn vận động THỤ ĐỘNG lại chính xác hơn CHỦ ĐỘNG? Các nguyên nhân gây biến dạng khớp?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Vận động thụ động chính xác hơn: Vì bệnh nhân thường sợ đau nên tự hạn chế cử động chủ động theo cảm nhận chủ quan; do đó đánh giá biên độ vận động thụ động do thầy thuốc thực hiện sẽ cho kết quả khách quan và chính xác hơn.<br>• Các nguyên nhân gây biến dạng khớp (không thẳng hàng, lệch trục):<br>1) Xương lồi ra.<br>2) Bán trật khớp.<br>3) Co thắt các cơ nâng đỡ.<br>4) Phá hủy của các dây chằng nâng đỡ khớp.<br><br><b>💡 Giải thích của AI:</b><br>Nếu vận động chủ động bị hạn chế nhưng thụ động bình thường → nghĩ đến tổn thương cơ/gân hoặc tâm lý; nếu cả chủ động và thụ động đều bị hạn chế → tổn thương thực thể tại bao khớp/sụn khớp.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 79, Mục 2 - Lâm sàng)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "Dau-khop"
+        "Kham-khop",
+        "Van-dong-Bien-dang"
       ]
     },
     {
       "id": "PED54-B08",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Khám khớp",
+      "type": "basic",
       "section": "B2",
-      "text": "[Barem gốc] Triệu chứng nóng tại khớp được xác định bằng cách {{c1::so sánh với khớp đối diện}}; có thể kèm theo thay đổi {{c1::màu sắc da}}.",
-      "extra": "Văn bản gốc: Nóng: Xác định bằng cách so sánh với khớp đối diện. Thay đổi màu sắc da có thể gặp (trang 79).",
+      "category": "Khung chẩn đoán phân biệt",
+      "front": "Chẩn đoán phân biệt đau khớp bắt đầu bằng bước phân loại nào? Các nguyên nhân của bệnh khớp không do viêm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bước đầu tiên: Bắt đầu bằng cách xác định xem bệnh ở dạng VIÊM hay KHÔNG PHẢI VIÊM.<br>• Trong bệnh khớp do viêm: Phân chia thành do THẤP KHỚP (tự miễn) hoặc KHÔNG DO THẤP (nhiễm trùng, sau nhiễm trùng).<br>• Các nguyên nhân không do viêm:<br>1) Chấn thương.<br>2) Căng thẳng lặp đi lặp lại (Overuse - hoạt động quá mức).<br>3) Dị tật bẩm sinh hoặc phát triển xương khớp.<br>4) Các nguyên nhân cơ học khác.<br><br><b>💡 Giải thích của AI:</b><br>Đây là cây quyết định phân loại lâm sàng của giáo trình: Tách Viêm vs Không viêm → Tách Thấp khớp tự miễn vs Nhiễm trùng vs Cơ học chấn thương.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 79, Mục 3 - Chẩn đoán phân biệt)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "Nong-khop"
+        "Phan-loai",
+        "Tong-quan"
       ]
     },
     {
       "id": "PED54-B09",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Khám khớp",
-      "section": "B2",
-      "text": "[Barem gốc] Dấu hiệu lạo xạo phát hiện qua sờ hoặc nghe thấy tiếng lắc rắc khi cử động, do {{c1::hai mặt khớp gồ ghề cọ sát vào nhau}}.",
-      "extra": "Văn bản gốc: Dấu hiệu lạo xạo: Có thể phát hiện qua sờ hoặc nghe thấy tiếng lắc rắc khi cử động làm hai mặt khớp gồ ghề cọ sát vào nhau (trang 79).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Lao-xao-khop"
-      ]
-    },
-    {
-      "id": "PED54-B10",
-      "track": "barem_goc",
       "type": "basic",
-      "category": "Khám khớp",
       "section": "B2",
-      "front": "Khi đánh giá biên độ vận động khớp ở trẻ em, đánh giá chủ động hay thụ động cho kết quả chính xác hơn, vì sao?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Đánh giá thụ động cho kết quả chính xác hơn vì trẻ thường tự hạn chế cử động do sợ đau.<br><b>💡 Barem:</b> Luôn so sánh biên độ vận động thụ động với bên lành đối diện.",
-      "extra": "Văn bản gốc: Bệnh nhân thường hạn chế cử động của khớp cần đánh giá đau chủ quan của mình, nên đánh giá giới hạn vận động thụ động của khớp sẽ cho kết quả chính xác hơn (trang 79).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Kham-khop",
-        "Van-dong"
-      ]
-    },
-    {
-      "id": "PED54-B11",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Khám khớp",
-      "section": "B2",
-      "text": "[Barem gốc] Biến dạng khớp biểu hiện bằng sự {{c1::không thẳng hàng, lệch trục}} của khớp; nguyên nhân có thể do xương lồi ra, {{c1::bán trật khớp}}, co thắt hoặc phá hủy {{c1::dây chằng nâng đỡ}}.",
-      "extra": "Văn bản gốc: Biến dạng của khớp biểu hiện bằng sự không thẳng hàng, lệch trục của khớp, có thể do nguyên nhân như xương lồi ra, bán trật khớp, co thắt hay phá hủy của các dây chằng nâng đỡ (trang 79).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Bien-dang-khop"
-      ]
-    },
-    {
-      "id": "PED54-B12",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Chẩn đoán phân biệt",
-      "section": "B3",
-      "text": "[Barem gốc] Tiếp cận chẩn đoán phân biệt đau khớp ở trẻ thường bắt đầu bằng cách xác định bệnh ở dạng {{c1::viêm}} hay {{c1::không phải là viêm}}.",
-      "extra": "Văn bản gốc: Chẩn đoán phân biệt thường bắt đầu bằng cách xác định xem bệnh có ở dạng viêm hay không phải là viêm (trang 79).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Chan-doan-phan-biet"
-      ]
-    },
-    {
-      "id": "PED54-B13",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Chẩn đoán phân biệt",
-      "section": "B3",
-      "text": "[Barem gốc] Các bệnh khớp không do viêm ở trẻ em có thể do: {{c1::chấn thương}}, căng thẳng lặp đi lặp lại, dị tật bẩm sinh / phát triển hoặc {{c1::nguyên nhân cơ học khác}}.",
-      "extra": "Văn bản gốc: Các bệnh không do viêm có thể do chấn thương, căng thẳng lặp đi lặp lại, dị tật bẩm sinh hoặc phát triển hoặc các nguyên nhân cơ học khác (trang 79).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Khong-do-viem"
-      ]
-    },
-    {
-      "id": "PED54-B14",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Bệnh thấp khớp",
-      "section": "B4",
-      "text": "[Barem gốc] Viêm khớp tự phát ở tuổi vị thành niên (JIA) là bệnh thấp khớp phổ biến nhất thời thơ ấu, xảy ra ở {{c1::1/1.000}} trẻ em trên toàn thế giới, khởi phát có thể từ {{c1::năm thứ hai}} của tuổi vị thành niên.",
-      "extra": "Văn bản gốc: ...xảy ra ở 1/1000 trẻ em trên toàn thế giới. Khởi phát có thể từ năm thứ hai của tuổi vị thành niên (trang 79-80).",
+      "category": "Viêm khớp tự phát thiếu niên - JIA",
+      "front": "Dịch tễ học và thời điểm khởi phát của Viêm khớp tự phát ở tuổi vị thành niên (JIA) theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tên gọi cũ: Viêm khớp dạng thấp thiếu niên (Juvenile Rheumatoid Arthritis - JRA).<br>• Dịch tễ: Là bệnh thấp khớp phổ biến nhất của thời thơ ấu, tỷ lệ mắc khoảng 1 / 1000 trẻ em trên toàn thế giới.<br>• Thời điểm khởi phát: Có thể khởi phát từ năm thứ hai của cuộc đời hoặc tuổi vị thành niên.<br><br><b>💡 Giải thích của AI:</b><br>JIA không phải là một bệnh đơn độc mà là một nhóm bệnh lý viêm mạn tính kéo dài trên 6 tuần không rõ nguyên nhân ở trẻ dưới 16 tuổi.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 79, Mục 3 - Bệnh thấp khớp)",
       "tags": [
         "PED-54",
         "Barem-goc",
@@ -208,670 +148,409 @@
       ]
     },
     {
-      "id": "PED54-B15",
+      "id": "PED54-B10",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Bệnh thấp khớp",
-      "section": "B4",
-      "text": "[Barem gốc] JIA thể đa khớp đặc trưng bởi tình trạng viêm {{c1::≥ 5 khớp}} trong vòng {{c1::6 tháng đầu}} khởi phát bệnh, tổn thương các khớp lớn và nhỏ, có thể đối xứng hoặc không.",
-      "extra": "Văn bản gốc: Viêm khớp thiếu niên tự phát thể đa khớp đặc trưng bởi viêm ≥ 5 khớp, trong vòng 6 tháng đầu khởi phát bệnh (trang 80).",
+      "type": "basic",
+      "section": "B2",
+      "category": "Viêm khớp tự phát thiếu niên - JIA",
+      "front": "Đặc điểm lâm sàng của JIA thể ĐA KHỚP và nguy cơ biến chứng ở mắt khi có kháng thể kháng nhân ANA dương tính?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đặc điểm thể đa khớp: Viêm từ 5 khớp trở lên (≥ 5 khớp) trong vòng 6 tháng đầu khởi phát bệnh; tổn thương cả khớp lớn và khớp nhỏ, có thể đối xứng hoặc không đối xứng.<br>• Tiên lượng: Tiên lượng lâu dài tương đối tốt nhưng có thể gây bất thường về tăng trưởng xương.<br>• Nguy cơ biến chứng mắt: Đặc biệt ở bệnh nhân có Kháng thể kháng nhân (ANA) dương tính, có nguy cơ cao bị biến chứng ở mắt là Viêm màng bồ đào / Viêm mống mắt thể mi.<br><br><b>💡 Giải thích của AI:</b><br>Viêm màng bồ đào trong JIA diễn tiến hoàn toàn thầm lặng không đau đỏ mắt, nếu không soi đèn khe định kỳ sẽ dẫn đến dính đồng tử và mù lòa vĩnh viễn.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 80, Mục JIA đa khớp)",
       "tags": [
         "PED-54",
         "Barem-goc",
         "JIA",
-        "The-da-khop"
+        "The-da-khop",
+        "ANA",
+        "Mat"
+      ]
+    },
+    {
+      "id": "PED54-B11",
+      "track": "barem_goc",
+      "type": "basic",
+      "section": "B2",
+      "category": "Viêm khớp tự phát thiếu niên - JIA",
+      "front": "Tiêu chuẩn chẩn đoán JIA thể HỆ THỐNG (Systemic JIA) và đặc điểm yếu tố thấp huyết thanh theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đặc điểm khớp: Viêm các khớp nhỏ và khớp lớn, có yếu tố thấp IgM huyết thanh.<br>• Tiêu chuẩn chẩn đoán lâm sàng và huyết học:<br>1) Sốt cao kéo dài.<br>2) Phát ban dạng hồng ban dễ phai (thoáng qua theo cơn sốt).<br>3) Hạch bạch huyết toàn thân sưng to.<br>4) Lách to và Gan to.<br>5) Thiếu máu và tăng bạch cầu máu rõ rệt.<br><br><b>💡 Giải thích của AI:</b><br>JIA thể hệ thống (còn gọi là bệnh Still trẻ em) đặc trưng bởi hội chứng viêm toàn thân rầm rộ, ban xuất hiện khi sốt cao và biến mất khi hạ sốt.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 80, Mục JIA thể hệ thống)",
+      "tags": [
+        "PED-54",
+        "Barem-goc",
+        "JIA",
+        "The-he-thong",
+        "Benh-Still"
+      ]
+    },
+    {
+      "id": "PED54-B12",
+      "track": "barem_goc",
+      "type": "basic",
+      "section": "B2",
+      "category": "Viêm cột sống dính khớp",
+      "front": "Đặc điểm lâm sàng, xét nghiệm gen và X-quang của Viêm cột sống dính khớp / Bệnh lý cột sống ở trẻ em theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đặc trưng cốt lõi: Viêm khớp kết hợp viêm điểm bám gân (Enthesitis), liên quan đến kháng nguyên HLA-B27.<br>• Tính chất đau khớp: Cứng khớp vào buổi sáng, đôi khi đau tăng về đêm. Vị trí ở các khớp lớn chi dưới (ít khớp hoặc nhiều khớp, đối xứng hoặc không), rất hiếm gặp ở chi trên. Viêm khớp cùng chậu 1 bên hoặc 2 bên.<br>• Tổn thương cột sống ở trẻ em: Thường kín đáo và xuất hiện muộn. Giai đoạn toàn phát có viêm cột sống cổ C1 - C2, đau cột sống thắt lưng và khớp cùng chậu.<br>• Hình ảnh X-quang: Khuyết xương hoặc hình chồi xương (gai xương) ở chỗ gân bám vào xương.<br><br><b>💡 Giải thích của AI:</b><br>Ở trẻ em, bệnh cảnh viêm khớp trục thường khởi phát bằng viêm điểm bám gân gót (Achilles) hoặc viêm khớp gối/cổ chân, nhiều năm sau mới xuất hiện đau cột sống thắt lưng.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 80, Mục Viêm cột sống dính khớp)",
+      "tags": [
+        "PED-54",
+        "Barem-goc",
+        "VCSDK",
+        "HLA-B27",
+        "Enthesitis"
+      ]
+    },
+    {
+      "id": "PED54-B13",
+      "track": "barem_goc",
+      "type": "basic",
+      "section": "B2",
+      "category": "Bệnh tự miễn hệ thống khác",
+      "front": "Đặc điểm tổn thương khớp trong JIA thể vảy nến, Lupus ban đỏ hệ thống và Viêm da cơ vị thành niên theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) JIA thể vảy nến: Tổn thương vảy nến ở da hoặc móng tay kết hợp viêm khớp ngoại biên và cột sống; gặp ở nữ nhiều hơn nam.<br>2) Lupus ban đỏ hệ thống (SLE): Gặp ở trẻ gái nhiều hơn trai, trước tuổi thiếu niên; là bệnh đa hệ thống, đau khớp hoặc viêm khớp là triệu chứng thường gặp và có thể là triệu chứng xuất hiện đầu tiên.<br>3) Viêm da cơ vị thành niên (JDM): Đặc trưng bởi ban da đặc hiệu và yếu cơ vân do viêm chiếm ưu thế hơn bệnh khớp, nhưng có thể đi kèm đau khớp hoặc sưng khớp.<br>4) Các bệnh khác: Hội chứng Sjogren, xơ cứng bì, bệnh mô liên kết hỗn hợp (MCTD), Kawasaki và Henoch-Schönlein.<br><br><b>💡 Giải thích của AI:</b><br>Đau khớp có thể là 'phát súng đầu tiên' của các bệnh tự miễn hệ thống nặng nề như Lupus hoặc viêm mạch Henoch-Schönlein.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 81, Mục Bệnh tự miễn khác)",
+      "tags": [
+        "PED-54",
+        "Barem-goc",
+        "Lupus",
+        "Vay-nen",
+        "Viem-da-co"
+      ]
+    },
+    {
+      "id": "PED54-B14",
+      "track": "barem_goc",
+      "type": "basic",
+      "section": "B3",
+      "category": "Viêm khớp nhiễm khuẩn",
+      "front": "Căn nguyên vi khuẩn Gram dương và Gram âm gây Viêm khớp nhiễm khuẩn ở trẻ em theo giáo trình Y Thái Bình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Vi khuẩn Gram dương (Hay gặp nhất):<br>1) Tụ cầu vàng (Staphylococcus aureus): Chiếm 50 - 70% các trường hợp (căn nguyên hàng đầu).<br>2) Liên cầu khuẩn (Streptococcus).<br>3) Phế cầu khuẩn (Streptococcus pneumoniae).<br>4) Lậu cầu (Neisseria gonorrhoeae).<br>• Vi khuẩn Gram âm (Ít gặp hơn): E. coli, Haemophilus influenzae.<br><br><b>💡 Giải thích của AI:</b><br>Tụ cầu vàng là thủ phạm số 1 phá hủy sụn khớp ở mọi lứa tuổi; kháng sinh kinh nghiệm ban đầu bắt buộc phải bao phủ được Tụ cầu vàng.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 81, Mục Viêm khớp nhiễm khuẩn)",
+      "tags": [
+        "PED-54",
+        "Barem-goc",
+        "Nhiem-khuan",
+        "Tu-cau-vang"
+      ]
+    },
+    {
+      "id": "PED54-B15",
+      "track": "barem_goc",
+      "type": "basic",
+      "section": "B3",
+      "category": "Viêm khớp nhiễm khuẩn",
+      "front": "Triệu chứng lâm sàng tại khớp, toàn thân và tiêu chuẩn xét nghiệm dịch khớp trong Viêm khớp nhiễm khuẩn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Lâm sàng tại khớp: Khớp sưng, nóng, đỏ, đau dữ dội, có thể kèm tràn dịch, co thắt cơ và hạn chế vận động hoàn toàn (tư thế chống đau).<br>• Toàn thân: Sốt cao, có khi rét run, môi khô, lưỡi bẩn (hội chứng nhiễm trùng rầm rộ).<br>• Xét nghiệm dịch khớp: Dịch khớp có mủ đại thể HOẶC số lượng tế bào dịch khớp &gt; 100.000 bạch cầu / mm³ với ít nhất 80% là bạch cầu đa nhân trung tính.<br>• Xét nghiệm xác định: Cấy máu hoặc cấy dịch khớp dương tính với vi khuẩn.<br><br><b>💡 Giải thích của AI:</b><br>Mốc 100.000 tế bào/mm³ và 80% Neutrophil là con số kinh điển trong giáo trình để chẩn đoán xác định viêm khớp mủ.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 81 - 82, Mục Viêm khớp nhiễm khuẩn)",
+      "tags": [
+        "PED-54",
+        "Barem-goc",
+        "Nhiem-khuan",
+        "Dich-khop"
       ]
     },
     {
       "id": "PED54-B16",
       "track": "barem_goc",
       "type": "basic",
-      "category": "Bệnh thấp khớp",
-      "section": "B4",
-      "front": "Ở bệnh nhân JIA thể đa khớp có kháng thể kháng nhân (ANA) dương tính, nguy cơ tổn thương cơ quan ngoài khớp nào cần đặc biệt lưu ý?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nguy cơ tổn thương mắt với viêm mống mắt (viêm màng bồ đào trước mạn tính câm lặng).<br><b>💡 Barem:</b> Bắt buộc soi đèn khe định kỳ ngay cả khi mắt chưa đỏ đau.",
-      "extra": "Văn bản gốc: ...đặc biệt ở những bệnh nhân có kháng thể kháng nhân dương tính, nó có nguy cơ liên quan đến mắt với viêm mống mắt (trang 80).",
+      "section": "B3",
+      "category": "Viêm khớp nhiễm khuẩn & Xương tủy",
+      "front": "Hình ảnh X-quang điển hình của Viêm khớp nhiễm khuẩn và các vị trí hay gặp của Viêm xương tủy ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• X-quang viêm khớp nhiễm khuẩn điển hình: Có hình ảnh 'soi gương' (tổn thương tiêu xương đối xứng qua khe khớp ở cả hai đầu xương đối diện).<br>• Viêm xương tủy (Osteomyelitis): Là nhiễm trùng cấp tính của xương. Ở trẻ em thường xảy ra ở các đầu xương dài:<br>1) Xương đùi, xương cẳng chân.<br>2) Xương cánh tay.<br>3) Khớp gối, khớp vai và cổ tay.<br><br><b>💡 Giải thích của AI:</b><br>Hình ảnh soi gương phản ánh mủ và men tiêu protein từ dịch khớp phá hủy đồng thời cả hai diện sụn tiếp xúc đối nhau.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 82, Mục Viêm khớp & Viêm xương tủy)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "JIA",
-        "Bien-chung-mat"
+        "X-quang-soi-guong",
+        "Viem-xuong-tuy"
       ]
     },
     {
       "id": "PED54-B17",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Bệnh thấp khớp",
-      "section": "B4",
-      "text": "[Barem gốc] JIA thể hệ thống liên quan đến viêm các khớp nhỏ và khớp lớn, huyết thanh có sự hiện diện của yếu tố thấp {{c1::IgM}}.",
-      "extra": "Văn bản gốc: Viêm khớp thiếu niên tự phát thể hệ thống: Liên quan đến viêm các khớp nhỏ, khớp lớn, có yếu tố thấp IgM huyết thanh (trang 80).",
+      "type": "basic",
+      "section": "B3",
+      "category": "Nhiễm khuẩn đặc biệt - Neisseria",
+      "front": "Đặc điểm viêm khớp trong nhiễm trùng toàn thân do Neisseria và nguyên tắc xử trí cấp cứu theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Căn nguyên: Neisseria meningitidis (não mô cầu) và Neisseria gonorrhoeae (lậu cầu).<br>• Đặc điểm: Gây nhiễm trùng toàn thân kèm viêm khớp; vi khuẩn thường KHÔNG phân lập được trực tiếp từ dịch khớp trong các trường hợp này (do cơ chế miễn dịch hoặc vi khuẩn khó mọc).<br>• Nguyên tắc xử trí: Khi nghi ngờ viêm khớp có mủ, trẻ PHẢI ĐƯỢC NHẬP VIỆN NGAY LẬP TỨC và bắt đầu điều trị bằng KHÁNG SINH TIÊM TĨNH MẠCH thích hợp; điều trị tích cực kịp thời thường hồi phục tốt không để lại di chứng.<br><br><b>💡 Giải thích của AI:</b><br>Dù cấy dịch khớp âm tính, tình trạng nhiễm khuẩn Neisseria toàn thân vẫn đòi hỏi kháng sinh tĩnh mạch liều cao (Cephalosporin thế hệ 3).",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 82, Mục Nhiễm trùng Neisseria)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "JIA",
-        "The-he-thong"
+        "Neisseria",
+        "Khang-sinh-TM"
       ]
     },
     {
       "id": "PED54-B18",
       "track": "barem_goc",
       "type": "basic",
-      "category": "Bệnh thấp khớp",
-      "section": "B4",
-      "front": "Tiêu chuẩn / triệu chứng toàn thân trong chẩn đoán JIA thể hệ thống theo barem giáo trình gồm những gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Sốt cao, phát ban (ban dễ phai), hạch to, gan lách to, thiếu máu, tăng bạch cầu.<br><br><b>💡 Lưu ý:</b><br>Sốt cao dao động hình gai kèm ban đỏ dễ bay theo cơn sốt là đặc trưng kinh điển.",
-      "extra": "Văn bản gốc: Tiêu chuẩn chẩn đoán: Sốt cao, phát ban, hạch ban, ban dễ phai, hạch bạch huyết, lách và gan to, thiếu máu, tăng bạch cầu (trang 80).",
+      "section": "B3",
+      "category": "Viêm đĩa đệm - Discitis",
+      "front": "Triệu chứng lâm sàng, vi khuẩn hay gặp và biến chứng nguy hiểm của Viêm đĩa đệm (Discitis) ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Lâm sàng: Đau lưng và đau chói trên gai sống tiếp giáp với khoang đĩa đệm liên quan; trẻ có thể sốt nhẹ hoặc không sốt.<br>• Căn nguyên: Tụ cầu vàng (Staphylococcus aureus) thường được phân lập từ máu và khoang đĩa đệm.<br>• Biến chứng nguy hiểm: Rối loạn cảm giác và vận động do chèn ép rễ thần kinh; phải luôn tầm soát biến chứng Áp xe ngoài màng cứng tủy sống.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ nhỏ bị viêm đĩa đệm thường biểu hiện bằng từ chối ngồi dậy, từ chối đi lại hoặc gập lưng cúi nhặt đồ vật, rất dễ bị chẩn đoán nhầm với bệnh lý ổ bụng hoặc khớp háng.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 82, Mục Viêm đĩa đệm)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "JIA",
-        "The-he-thong"
+        "Discitis",
+        "Viem-dia-dem"
       ]
     },
     {
       "id": "PED54-B19",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Bệnh cột sống",
-      "section": "B4",
-      "text": "[Barem gốc] Viêm cột sống dính khớp ở trẻ em đặc trưng bởi viêm khớp và {{c1::viêm điểm bám gân}}, có tiền sử/hiện tại đau cột sống / cùng chậu kiểu viêm và liên quan kháng nguyên {{c1::HLA-B27}}.",
-      "extra": "Văn bản gốc: Bệnh đặc trưng bằng viêm khớp và viêm điểm bám gân... đau khớp cùng chậu hoặc đau cột sống kiểu viêm, Hiện diện HLA- B27 (trang 80).",
+      "type": "basic",
+      "section": "B3",
+      "category": "Viêm khớp bệnh Lyme",
+      "front": "Căn nguyên, đường lây truyền, xét nghiệm chẩn đoán và phác đồ điều trị Viêm khớp trong Bệnh Lyme theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Căn nguyên & Lây truyền: Do xoắn khuẩn Borrelia burgdorferi, lây truyền qua vết đốt của ve bét ở vùng rừng dịch tễ.<br>• Xét nghiệm chẩn đoán: Xác định sự hiện diện của kháng thể IgM đặc hiệu với Borrelia trong huyết thanh.<br>• Phác đồ điều trị: Dùng kháng sinh Amoxicillin uống liên tục trong 4 tuần kết hợp điều trị triệu chứng.<br><br><b>💡 Giải thích của AI:</b><br>Viêm khớp Lyme thường biểu hiện viêm khớp lớn (đặc biệt khớp gối) từng đợt; tiền sử dịch tễ vào rừng có ve cắn và kháng thể IgM là chìa khóa chẩn đoán.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 82, Mục Bệnh Lyme)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "VCSDK",
-        "HLA-B27"
+        "Lyme",
+        "Borrelia",
+        "Amoxicillin"
       ]
     },
     {
       "id": "PED54-B20",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Bệnh cột sống",
+      "type": "basic",
       "section": "B4",
-      "text": "[Barem gốc] Viêm khớp trong viêm cột sống dính khớp có tính chất {{c1::cứng khớp vào buổi sáng}}, đôi khi đau về đêm; vị trí hay gặp ở khớp lớn {{c1::chi dưới}}; hiếm gặp ở chi trên.",
-      "extra": "Văn bản gốc: Viêm khớp với tính chất cứng khớp vào buổi sáng, đôi khi đau về đêm. Vị trí các khớp lớn chi dưới... Hiếm gặp ở viêm khớp chi trên (trang 80).",
+      "category": "Viêm khớp do virus",
+      "front": "Kể tên các loại virus thường gây viêm khớp ở trẻ em và dấu hiệu lâm sàng gợi ý đi trước?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Các virus thường gặp: Rubella, Quai bị (Mumps), Thủy đậu (Varicella), Parvovirus (B19), Adenovirus, Epstein-Barr virus (EBV) và HIV.<br>• Dấu hiệu gợi ý đi trước: Biểu hiện của hội chứng nhiễm virus toàn thân (phát ban ngoài da, sốt, viêm kết mạc, loét niêm mạc miệng) thường xuất hiện trước tổn thương khớp vài ngày đến 1 tuần.<br><br><b>💡 Giải thích của AI:</b><br>Viêm khớp sau nhiễm virus là bệnh lý lành tính tự giới hạn, điều trị chủ yếu là nâng đỡ và giảm đau bằng Paracetamol/NSAID, không dùng kháng sinh.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 82, Mục Virus)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "VCSDK"
+        "Virus",
+        "Viem-khop-virus"
       ]
     },
     {
       "id": "PED54-B21",
       "track": "barem_goc",
       "type": "basic",
-      "category": "Bệnh cột sống",
       "section": "B4",
-      "front": "Đặc điểm tổn thương trục cột sống và khớp cùng chậu trong viêm cột sống dính khớp ở trẻ em có gì đặc biệt?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tổn thương trục thường kín đáo và xuất hiện muộn; toàn phát có viêm cột sống cổ C1-C2, thắt lưng và cùng chậu.<br><b>💡 Barem:</b> Triệu chứng cột sống thường chưa xuất hiện lúc khởi phát bệnh.",
-      "extra": "Văn bản gốc: Ở trẻ em tổn thương trục (cột sống, cùng chậu) thường kín đáo và xuất hiện muộn. Triệu chứng ở cột sống thường chưa xuất hiện lúc khởi phát bệnh (trang 80).",
+      "category": "Viêm khớp phản ứng - Reiter",
+      "front": "Tam chứng kinh điển của Hội chứng Reiter (Viêm khớp phản ứng), yếu tố khởi phát và gen liên quan theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tam chứng kinh điển: Viêm niệu đạo + Viêm kết mạc mắt + Viêm khớp.<br>• Yếu tố khởi phát: Ở trẻ em thường xuất hiện sau một đợt viêm ruột tiêu chảy nhiễm khuẩn (Salmonella, Shigella, Yersinia, Campylobacter).<br>• Dịch tễ & Di truyền: Trẻ trai gặp nhiều hơn trẻ gái; có mối liên quan chặt chẽ với kháng nguyên HLA-B27.<br>• Tiên lượng & Điều trị: Điều trị bằng thuốc chống viêm; đa số hồi phục trong vài tháng, nhưng một số trẻ có thể tiến triển mạn tính tái phát thành viêm cột sống dính khớp.<br><br><b>💡 Giải thích của AI:</b><br>Câu khẩu quyết nhớ tam chứng Reiter: 'Không thể nhìn (viêm kết mạc), không thể tiểu (viêm niệu đạo), không thể leo trèo (viêm khớp)'.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 83, Mục Viêm khớp phản ứng)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "VCSDK"
+        "Reiter",
+        "Viem-khop-phan-ung",
+        "HLA-B27"
       ]
     },
     {
       "id": "PED54-B22",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Bệnh cột sống",
+      "type": "basic",
       "section": "B4",
-      "text": "[Barem gốc] Hình ảnh X-quang tại chỗ gân bám trong viêm cột sống dính khớp cho thấy có {{c1::khuyết xương}} hoặc {{c1::hình chồi xương}}.",
-      "extra": "Văn bản gốc: X-quang cho thấy có khuyết xương hoặc hình chồi xương ở chỗ gân bám (trang 80).",
+      "category": "Sốt thấp khớp cấp - Thấp tim",
+      "front": "Đặc điểm thời gian khởi phát và tiêu chuẩn chẩn đoán Sốt thấp khớp cấp tính (Thấp tim) theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Khởi phát: Xảy ra sau đợt nhiễm liên cầu khuẩn β tan huyết nhóm A ở họng khoảng 2 hoặc 3 tuần.<br>• Tiêu chuẩn chẩn đoán: Dựa vào tiêu chí Jones gồm:<br>1) Viêm khớp di chuyển hoặc đau khớp.<br>2) Sốt.<br>3) Viêm tim (tiếng thổi mới, suy tim).<br>4) Hồng ban vòng (ban đỏ).<br>5) Tổn thương hệ thần kinh trung ương (Múa vờn Sydenham).<br>6) Hạt dưới da Meynet.<br>7) Phản ứng viêm pha cấp tăng cao (máu lắng, CRP) và khoảng PR kéo dài trên điện tâm đồ.<br><br><b>💡 Giải thích của AI:</b><br>Thấp tim luôn là chẩn đoán phân biệt bắt buộc khi trẻ khởi phát cấp tính viêm khớp di chuyển khớp lớn sau viêm họng.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 83, Mục Sốt thấp khớp cấp)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "VCSDK",
-        "X-quang"
+        "Thap-tim",
+        "Jones"
       ]
     },
     {
       "id": "PED54-B23",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Bệnh thấp khớp",
-      "section": "B4",
-      "text": "[Barem gốc] JIA thể viêm khớp vảy nến có tổn thương vảy nến ở {{c1::da hoặc móng}} phối hợp viêm khớp ngoại biên và tổn thương cột sống, gặp ở {{c1::nữ nhiều hơn nam}}.",
-      "extra": "Văn bản gốc: Bệnh lý khớp tổn thương vảy nến ở da hoặc móng và tình trạng viêm khớp ngoại biên, có kèm tổn thương tại cột sống, gặp ở nữ nhiều hơn nam (trang 81).",
+      "type": "basic",
+      "section": "B5",
+      "category": "Đau bánh chè - đùi",
+      "front": "Hội chứng đau Patellofemoral (Chondromalacia patellae) có đặc điểm lâm sàng và biện pháp điều trị phục hồi chức năng gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đặc điểm: Còn gọi là nhuyễn sụn bánh chè; là nguyên nhân rất phổ biến gây đau khớp gối ở trẻ em và thanh thiếu niên, thường bị cả hai bên đầu gối.<br>• Tính chất đau: Đau liên quan rõ rệt đến hoạt động (leo cầu thang, chạy nhảy) và xuất hiện khi ngồi lâu gập gối hoặc đứng lâu.<br>• Điều trị: Các bài tập vật lý trị liệu tăng cường sức mạnh cơ tứ đầu đùi và các cơ phụ trợ giúp cải thiện triệu chứng rõ rệt.<br><br><b>💡 Giải thích của AI:</b><br>Hiện tượng 'dấu hiệu rạp chiếu phim' (Movie-goer sign) đau gối tăng khi ngồi gập gối lâu là dấu hiệu gợi ý kinh điển của hội chứng đau bánh chè - đùi.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 83 - 84, Mục Patellofemoral)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "JIA",
-        "Vay-nen"
+        "Patellofemoral",
+        "Chondromalacia"
       ]
     },
     {
       "id": "PED54-B24",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Bệnh tự miễn hệ thống",
-      "section": "B4",
-      "text": "[Barem gốc] Lupus ban đỏ hệ thống (SLE) ở trẻ em thường gặp ở {{c1::trẻ gái hơn trẻ trai}}, xuất hiện trước tuổi thiếu niên; đau khớp hoặc viêm khớp có thể là {{c1::triệu chứng khởi phát bệnh}}.",
-      "extra": "Văn bản gốc: Lupus ban đỏ hệ thống, thường gặp ở trẻ gái hơn trẻ trai và thường gặp trước tuổi thiếu niên... Đau khớp và đôi khi viêm khớp không phải là hiếm gặp và có thể là triệu chứng xuất hiện (trang 81).",
+      "type": "basic",
+      "section": "B5",
+      "category": "Bệnh Osgood-Schlatter",
+      "front": "Bản chất bệnh học, đối tượng hay gặp và phương pháp điều trị Bệnh Osgood-Schlatter theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bản chất bệnh học: Bệnh hoại tử xương sụn vô khuẩn của lồi củ trước xương chày (chỗ bám của gân bánh chè), gây viêm sưng đau tại chỗ.<br>• Đối tượng: Rất hay gặp ở các bé trai tuổi dậy thì tham gia các hoạt động thể thao chạy nhảy, đá bóng (cũng có thể gặp ở trẻ gái chơi thể thao).<br>• Điều trị: Điều chỉnh mức độ hoạt động thể lực, phục hồi chức năng và dùng thuốc giảm đau khi cần thiết.<br><br><b>💡 Giải thích của AI:</b><br>Khám thấy sưng và ấn đau chói ngay tại lồi củ trước xương chày dưới xương bánh chè, trong khi bản thân ổ khớp gối hoàn toàn không sưng và không tràn dịch.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 84, Mục Osgood-Schlatter)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "SLE"
+        "Osgood-Schlatter",
+        "Loi-cu-chay"
       ]
     },
     {
       "id": "PED54-B25",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Viêm mạch máu",
-      "section": "B4",
-      "text": "[Barem gốc] Hai bệnh lý viêm mạch máu hệ thống thường gặp ở trẻ em có thể gây ra viêm khớp là {{c1::Bệnh Kawasaki}} và {{c1::ban xuất huyết Henoch-Schönlein}}.",
-      "extra": "Văn bản gốc: Bệnh Kawasaki và ban xuất huyết Henoch- Schonlein, cùng với các loại viêm mạch khác, có thể gây viêm khớp (trang 81).",
+      "type": "basic",
+      "section": "B5",
+      "category": "Trượt đầu trên xương đùi - SCFE",
+      "front": "Đối tượng nguy cơ và biểu hiện lâm sàng của Chứng trượt xương đùi (SCFE) theo giáo trình Y Thái Bình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bản chất: Chỏm xương đùi bị trượt và dịch chuyển khỏi cổ xương đùi qua đĩa sụn tiếp hợp.<br>• Đối tượng nguy cơ: Gặp ở trẻ em chưa trưởng thành về bộ xương, đặc biệt trẻ THỪA CÂN, BÉO PHÌ trong độ tuổi dậy thì.<br>• Biểu hiện lâm sàng: Đau khớp háng hoặc đau vùng đùi khi đi lại; ĐẶC BIỆT TRẺ CÓ THỂ CHỈ BIỂU HIỆN BẰNG ĐAU ĐẦU GỐI; chẩn đoán xác định bằng chẩn đoán hình ảnh (X-quang).<br><br><b>💡 Giải thích của AI:</b><br>Bẫy lâm sàng sống còn: Trẻ béo phì đi khập khiễng kêu đau đầu gối phải luôn luôn chụp X-quang khớp háng để loại trừ SCFE, bỏ sót sẽ gây hoại tử chỏm xương đùi tàn phế.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 84, Mục Trượt xương đùi)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "Viem-mach",
-        "Kawasaki",
-        "HSP"
+        "SCFE",
+        "Truot-xuong-dui"
       ]
     },
     {
       "id": "PED54-B26",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Viêm khớp nhiễm khuẩn",
+      "type": "basic",
       "section": "B5",
-      "text": "[Barem gốc] Nguyên nhân vi khuẩn Gram dương hay gặp nhất gây viêm khớp nhiễm khuẩn ở trẻ em là {{c1::Tụ cầu vàng (Staphylococcus aureus)}}, chiếm tỷ lệ {{c1::50–70%}}.",
-      "extra": "Văn bản gốc: Nguyên nhân hay gặp do vi khuẩn Gram dương: Tụ cầu vàng (50-70%), liên cầu, phế cầu, lậu cầu (trang 81).",
+      "category": "Gãy xương căng thẳng & Viêm gân",
+      "front": "Gãy xương do căng thẳng (Stress fracture) và Viêm gân mạn tính do lặp đi lặp lại thường gặp ở đối tượng nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm gân mạn tính do cử động lặp lại: Thường gặp ở các vận động viên, vũ công, nhạc sĩ luyện tập hoặc biểu diễn các động tác lặp đi lặp lại kéo dài.<br>2) Gãy xương do căng thẳng (Stress fracture): Không phổ biến ở trẻ nhỏ, thường gặp ở các vận động viên thể thao bị đau xương hoặc khớp mạn tính do quá tải tải trọng liên tục.<br><br><b>💡 Giải thích của AI:</b><br>Gãy xương mệt (stress fracture) ban đầu X-quang có thể bình thường, phải sau 2 - 3 tuần mới thấy hình ảnh can xương hoặc phát hiện sớm bằng MRI.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 84, Mục Gãy xương căng thẳng)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "Viem-khop-nhiem-khuan",
-        "Tu-cau"
+        "Stress-fracture",
+        "Viem-gan"
       ]
     },
     {
       "id": "PED54-B27",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Viêm khớp nhiễm khuẩn",
-      "section": "B5",
-      "text": "[Barem gốc] Các vi khuẩn Gram âm ít gặp gây viêm khớp nhiễm khuẩn ở trẻ em theo giáo trình gồm: {{c1::E. coli}} và {{c1::H. influenzae}}.",
-      "extra": "Văn bản gốc: Vi khuẩn Gram âm ít gặp: E. coli, H.influenzae (trang 81).",
+      "type": "basic",
+      "section": "B6",
+      "category": "Cận lâm sàng giáo trình",
+      "front": "Các xét nghiệm máu và nước tiểu cơ bản được chỉ định trong tiếp cận trẻ đau khớp theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Công thức máu: Đánh giá số lượng bạch cầu, công thức bạch cầu, thiếu máu.<br>2) Xét nghiệm đáp ứng viêm: Tốc độ máu lắng (VSS/ESR) và Protein phản ứng C (CRP).<br>3) Xét nghiệm sinh hóa thông thường: Creatinin, men gan (AST, ALT), men cơ (CK).<br>4) Tổng phân tích nước tiểu: Tầm soát protein niệu, hồng cầu niệu trong bệnh thận tự miễn hoặc viêm mạch.<br><br><b>💡 Giải thích của AI:</b><br>Men cơ (CK) tăng giúp phân biệt Viêm da cơ; Creatinin và nước tiểu giúp phát hiện viêm thận Lupus.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 84, Mục 3 - Cận lâm sàng)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "Viem-khop-nhiem-khuan",
-        "Gram-am"
+        "Can-lam-sang",
+        "Xet-nghiem-mau"
       ]
     },
     {
       "id": "PED54-B28",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Viêm khớp nhiễm khuẩn",
-      "section": "B5",
-      "text": "[Barem gốc] Tiêu chuẩn tế bào dịch khớp gợi ý viêm khớp nhiễm khuẩn: dịch mủ hoặc tế bào dịch khớp {{c1::> 100.000}} bạch cầu/mm³ với ít nhất {{c1::80%}} là bạch cầu đa nhân trung tính.",
-      "extra": "Văn bản gốc: Xét nghiệm dịch khớp có mủ hoặc tế bào dịch khớp > 100.000 tế bào bạch cầu/mm3 với ít nhất 80% bạch cầu đa nhân trung tính (trang 81).",
+      "type": "basic",
+      "section": "B6",
+      "category": "Cận lâm sàng giáo trình",
+      "front": "Chỉ định xét nghiệm ASO và các loại cấy vi sinh vật (đặc biệt lưu ý khi nghi ngờ viêm nội tâm mạc)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Xét nghiệm ASO (ASLO): Chỉ định nếu trẻ có biểu hiện đau khớp ở lứa tuổi từ 5 đến 15 tuổi (lứa tuổi nguy cơ cao của Thấp tim).<br>• Nuôi cấy vi sinh vật: Cấy máu, cấy nước tiểu, cấy dịch họng.<br>• LƯU Ý KHI NGHI NGỜ VIÊM NỘI TÂM MẠC NHIỄM KHUẨN: Bắt buộc phải lấy máu ở 2 vị trí khác nhau để cấy máu.<br><br><b>💡 Giải thích của AI:</b><br>Lấy máu 2 vị trí tĩnh mạch khác nhau giúp khẳng định tình trạng vãng khuẩn huyết liên tục đặc trưng của viêm nội tâm mạc và loại trừ nhiễm bẩn mẫu cấy.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 84, Mục 3 - Cận lâm sàng)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "Dich-khop",
-        "Viem-khop-nhiem-khuan"
+        "ASO",
+        "Cay-mau",
+        "VNTMNK"
       ]
     },
     {
       "id": "PED54-B29",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Viêm khớp nhiễm khuẩn",
-      "section": "B5",
-      "text": "[Barem gốc] Hình ảnh X-quang khớp điển hình trong viêm khớp nhiễm khuẩn là {{c1::hình ảnh soi gương}} (phản chiếu tổn thương phá hủy ở hai diện đối xứng).",
-      "extra": "Văn bản gốc: X quang viêm khớp điển hình: Có hình ảnh soi gương (trang 82).",
+      "type": "basic",
+      "section": "B6",
+      "category": "Chẩn đoán hình ảnh giáo trình",
+      "front": "Các phương tiện chẩn đoán hình ảnh và xét nghiệm miễn dịch được nêu trong giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chẩn đoán hình ảnh:<br>1) Chụp X-quang xương khớp.<br>2) Chụp CT scan ngực / chậu.<br>3) Xạ hình xương (Bone scintigraphy).<br>• Xét nghiệm miễn dịch: Định lượng Immunoglobulin (IgG, IgA, IgM) và các xét nghiệm đánh giá suy giảm miễn dịch.<br><br><b>💡 Giải thích của AI:</b><br>Xạ hình xương rất nhạy để phát hiện sớm các ổ viêm xương tủy hoặc tổn thương đa ổ trước khi X-quang quy ước thấy biến đổi.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 84, Mục 3 - Cận lâm sàng)",
       "tags": [
         "PED-54",
         "Barem-goc",
         "X-quang",
-        "Viem-khop-nhiem-khuan"
+        "CT",
+        "Xa-hinh-xuong"
       ]
     },
     {
       "id": "PED54-B30",
       "track": "barem_goc",
       "type": "basic",
-      "category": "Viêm khớp nhiễm khuẩn",
-      "section": "B5",
-      "front": "Thái độ xử trí cấp thiết ngay khi nghi ngờ viêm khớp có mủ (viêm khớp nhiễm khuẩn) ở trẻ em là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nhập viện ngay và bắt đầu điều trị bằng kháng sinh tiêm tĩnh mạch thích hợp.<br><b>💡 Barem:</b> Điều trị kịp thời giúp phục hồi hoàn toàn, chậm trễ để lại di chứng khớp mạn.",
-      "extra": "Văn bản gốc: Khi có nghi ngờ về viêm khớp có mủ, trẻ nên được nhập viện và bắt đầu điều trị bằng kháng sinh tiêm tĩnh mạch thích hợp (trang 82).",
+      "section": "B7",
+      "category": "Nguyên tắc điều trị",
+      "front": "Mục tiêu cốt lõi của kiểm soát đau khớp thứ phát sau viêm khớp và vai trò của NSAID?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Mục tiêu cốt lõi: Tập trung vào việc GIẢM VIÊM và BẢO TỒN HOẠT ĐỘNG, SỨC MẠNH VÀ CHỨC NĂNG BÌNH THƯỜNG CỦA KHỚP.<br>• Vai trò của NSAID: Thuốc chống viêm không steroid (NSAID) thường được sử dụng như LIỆU PHÁP BAN ĐẦU.<br><br><b>💡 Giải thích của AI:</b><br>NSAID là bước 1 làm giảm sưng đau nhanh chóng, giúp trẻ duy trì vận động để tránh teo cơ cứng khớp trong khi chờ các thuốc DMARDs phát huy tác dụng.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 84 - 85, Mục 4 - Điều trị)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "Viem-khop-nhiem-khuan",
-        "Xu-tri"
+        "Dieu-tri",
+        "Muc-tieu",
+        "NSAID"
       ]
     },
     {
       "id": "PED54-B31",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Viêm xương tủy",
-      "section": "B5",
-      "text": "[Barem gốc] Viêm xương tủy là bệnh nhiễm trùng cấp tính của xương, ở trẻ em thường xảy ra ở {{c1::các đầu xương dài}} (xương cánh tay, cẳng chân, đùi, gối, vai, cổ tay).",
-      "extra": "Văn bản gốc: Ở trẻ em, viêm xương tủy thường xảy ra ở các đầu xương dài của xương cánh tay và xương cẳng chân, xương đùi, khớp gối, vai và cổ tay (trang 82).",
+      "type": "basic",
+      "section": "B7",
+      "category": "Corticosteroid giáo trình",
+      "front": "Chỉ định Corticosteroid tiêm tại khớp và Corticosteroid toàn thân trong điều trị JIA theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Corticosteroid tiêm nội khớp: Được khuyến cáo ở những bệnh nhân mắc bệnh viêm đa khớp nhưng chỉ còn 1 KHỚP DUY NHẤT HOẠT ĐỘNG LIÊN TỤC.<br>2) Corticosteroid toàn thân: Dùng điều trị trong các phân nhóm JIA khác; LƯU Ý BẮT BUỘC CHỈ DÙNG THỜI GIAN NGẮN NGÀY vì nhiều tác dụng phụ nghiêm trọng (chậm lớn, loãng xương, hội chứng Cushing).<br><br><b>💡 Giải thích của AI:</b><br>Tiêm Triamcinolone hexacetonide nội khớp là 'vũ khí mạnh' dập tắt viêm tại chỗ mà không gây tác dụng phụ toàn thân lên sự phát triển chiều cao của trẻ.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 85, Mục 4 - Điều trị)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "Viem-xuong-tuy"
+        "Corticosteroid",
+        "Tiem-noi-khop"
       ]
     },
     {
       "id": "PED54-B32",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Nhiễm trùng toàn thân",
-      "section": "B5",
-      "text": "[Barem gốc] Hai vi khuẩn nhiễm trùng toàn thân gây viêm khớp nhưng thường không phân lập được từ dịch khớp là {{c1::Neisseria meningitidis}} và {{c1::Neisseria gonorrhoeae}}.",
-      "extra": "Văn bản gốc: Nhiễm trùng toàn thân đáng chú ý là nhiễm trùng do Neisseria meningitidis và Neisseria gonorrhoeae, cũng có thể gây viêm khớp, mặc dù vi khuẩn thường không được phân lập từ khớp trong những trường hợp này (trang 82).",
+      "type": "basic",
+      "section": "B7",
+      "category": "Thuốc điều hòa miễn dịch",
+      "front": "Chỉ định Methotrexate và các thuốc điều hòa miễn dịch khác trong điều trị JIA theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Methotrexate: Dùng cho trẻ em bị JIA và một số bệnh nhân khác trong trường hợp viêm khớp cần điều trị vượt ngoài NSAID (kháng NSAID).<br>• Các thuốc điều hòa miễn dịch khác: Sulfasalazine, Leflunomide và Hydroxychloroquine cũng có thể được sử dụng ở một số bệnh nhân.<br><br><b>💡 Giải thích của AI:</b><br>Methotrexate là thuốc DMARD kinh điển đầu tay trong JIA, dùng liều 1 lần/tuần kèm bổ sung Acid folic để giảm độc tính tủy xương và gan.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 85, Mục 4 - Điều trị)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "Neisseria",
-        "Nhiem-trung"
+        "Methotrexate",
+        "DMARDs"
       ]
     },
     {
       "id": "PED54-B33",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Viêm đĩa đệm",
-      "section": "B5",
-      "text": "[Barem gốc] Viêm đĩa đệm ở trẻ em đặc trưng bởi đau lưng và ấn đau gai sau; tác nhân phân lập là {{c1::Staphylococcus aureus}}; cần cảnh giác biến chứng {{c1::áp xe ngoài màng cứng}} và chèn ép rễ thần kinh.",
-      "extra": "Văn bản gốc: Staphylococcus aureus đã được phân lập từ máu và không gian đĩa... chèn ép rễ thần kinh và áp xe ngoài màng cứng phải được xem xét trong chẩn đoán (trang 82).",
+      "type": "basic",
+      "section": "B7",
+      "category": "Nhiễm khuẩn & Chấn thương",
+      "front": "Nguyên tắc điều trị Viêm khớp nhiễm khuẩn và Đau khớp do chấn thương theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Viêm khớp nhiễm khuẩn: Bất kỳ trẻ nào bị viêm khớp nhiễm khuẩn phải được XÁC ĐỊNH KỊP THỜI VÀ ĐIỀU TRỊ BẰNG KHÁNG SINH TIÊM TĨNH MẠCH. Các nguyên nhân do virus (Parvovirus) chỉ điều trị hỗ trợ.<br>• Đau khớp do chấn thương: Liệu pháp ban đầu gồm NGHỈ NGƠI, CHƯỜM ĐÁ, NSAID hoặc các thuốc giảm đau khác; cần được bác sĩ chỉnh hình đánh giá kịp thời để cố định bất động bên ngoài hoặc phẫu thuật.<br><br><b>💡 Giải thích của AI:</b><br>Quy tắc RICE (Rest, Ice, Compression, Elevation) kết hợp NSAID là nền tảng xử trí chấn thương phần mềm khớp trước khi đánh giá phẫu thuật.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 85, Mục 4 - Điều trị)",
       "tags": [
         "PED-54",
         "Barem-goc",
-        "Viem-dia-dem",
-        "Tu-cau"
+        "Nhiem-khuan",
+        "Chan-thuong",
+        "Khang-sinh"
       ]
     },
     {
       "id": "PED54-B34",
       "track": "barem_goc",
-      "type": "cloze",
-      "category": "Bệnh Lyme",
-      "section": "B5",
-      "text": "[Barem gốc] Viêm khớp trong bệnh Lyme do xoắn khuẩn {{c1::Borrelia burgdorferi}} lây qua ve cắn ở vùng rừng dịch tễ, chẩn đoán bằng kháng thể IgM, điều trị bằng {{c1::amoxicillin trong 4 tuần}}.",
-      "extra": "Văn bản gốc: Viêm khớp trong bệnh Lyme: Thứ phát sau nhiễm Borrelia burgdorferi do ve cắn vùng dịch tễ (rừng). Chẩn đoán: hiện diện của IgM. Điều trị: amoxicilline (4 tuần)... (trang 82).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Lyme",
-        "Borrelia"
-      ]
-    },
-    {
-      "id": "PED54-B35",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Viêm khớp do virus",
-      "section": "B5",
-      "text": "[Barem gốc] Viêm khớp do virus (rubella, quai bị, thủy đậu, parvovirus, EBV...) có đặc điểm: các triệu chứng hội chứng virus ({{c1::phát ban}}, {{c1::sốt}}, tổn thương niêm mạc) thường xuất hiện {{c1::đi trước}} viêm khớp.",
-      "extra": "Văn bản gốc: Biểu hiện của hội chứng virus (phát ban, sốt, liên quan đến màng nhầy) thường đi trước sự tham gia của khớp (trang 82).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Virus"
-      ]
-    },
-    {
-      "id": "PED54-B36",
-      "track": "barem_goc",
       "type": "basic",
-      "category": "Viêm khớp phản ứng",
-      "section": "B5",
-      "front": "Tam chứng kinh điển của hội chứng Reiter (viêm khớp phản ứng) gồm những biểu hiện gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tam chứng: 1) Viêm niệu đạo. 2) Viêm kết mạc. 3) Viêm khớp.<br><b>💡 Barem:</b> Ở trẻ em thường xuất hiện sau một đợt viêm đường tiêu hóa (viêm ruột).",
-      "extra": "Văn bản gốc: Viêm khớp phản ứng, trước đây được gọi là hội chứng Reiter bao gồm viêm niệu đạo, viêm kết mạc và viêm khớp có thể xuất hiện ở trẻ em và thanh thiếu niên. Ở trẻ em, có thể có một đợt viêm ruột (trang 83).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Reiter",
-        "Viem-khop-phan-ung"
-      ]
-    },
-    {
-      "id": "PED54-B37",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Viêm khớp phản ứng",
-      "section": "B5",
-      "text": "[Barem gốc] Viêm khớp phản ứng phổ biến ở trẻ {{c1::trai hơn trẻ gái}}, có mối liên quan với kháng nguyên {{c1::HLA-B27}}, điều trị chủ yếu bằng {{c1::thuốc chống viêm}}.",
-      "extra": "Văn bản gốc: Viêm khớp phản ứng phổ biến hơn ở trẻ trai so với trẻ gái... Có liên quan đến HLA-B27. Rối loạn được điều trị bằng thuốc chống viêm (trang 83).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Reiter",
-        "HLA-B27"
-      ]
-    },
-    {
-      "id": "PED54-B38",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Sốt thấp khớp cấp",
-      "section": "B5",
-      "text": "[Barem gốc] Sốt thấp khớp cấp xảy ra sau nhiễm liên cầu khuẩn nhóm A hầu họng khoảng {{c1::2 hoặc 3 tuần}}, biểu hiện khớp đặc trưng là {{c1::viêm khớp di chuyển}}.",
-      "extra": "Văn bản gốc: Xảy ra sau khi bị nhiễm liên cầu khuẩn nhóm A, thường là viêm họng, thường là khoảng 2 hoặc 3 tuần... viêm khớp di chuyển hoặc đau khớp... (trang 83).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Sot-thap-khop"
-      ]
-    },
-    {
-      "id": "PED54-B39",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Nguyên nhân cơ học",
-      "section": "B6",
-      "text": "[Barem gốc] Hội chứng đau Patellofemoral (chondromalacia patellae / nhuyễn sụn bánh chè) là nguyên nhân đau {{c1::đầu gối}} thường gặp ở trẻ lớn, tính chất thường đau {{c1::hai bên}}, tăng khi ngồi lâu hoặc đứng lâu.",
-      "extra": "Văn bản gốc: Hội chứng đau Patellofemoral, còn được gọi là chondromalacia patellae, là một nguyên nhân phổ biến của đau đầu gối ở trẻ em và thanh thiếu niên và thường là hai bên (trang 83).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Patellofemoral",
-        "Khop-goi"
-      ]
-    },
-    {
-      "id": "PED54-B40",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Nguyên nhân cơ học",
-      "section": "B6",
-      "text": "[Barem gốc] Trong điều trị hội chứng đau Patellofemoral, các bài tập tăng cường {{c1::cơ tứ đầu đùi}} và {{c1::cơ phụ}} có thể tạo ra sự cải thiện triệu chứng rõ rệt.",
-      "extra": "Văn bản gốc: Các bài tập tăng cường cơ tứ đầu đùi và cơ phụ có thể tạo ra sự cải thiện rõ rệt (trang 84).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Patellofemoral",
-        "Tap-luyen"
-      ]
-    },
-    {
-      "id": "PED54-B41",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Viêm gân mạn tính",
-      "section": "B6",
-      "text": "[Barem gốc] Các hoạt động lặp đi lặp lại có thể dẫn đến {{c1::viêm gân mạn tính}}, thường gặp ở các nhóm trẻ: {{c1::vận động viên}}, vũ công, nhạc sĩ.",
-      "extra": "Văn bản gốc: Các hoạt động lặp đi lặp lại có thể dẫn đến viêm gân mạn tính thường gặp ở các vận động viên, vũ công, nhạc sĩ... (trang 84).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Viem-gan-man"
-      ]
-    },
-    {
-      "id": "PED54-B42",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Bệnh Osgood-Schlatter",
-      "section": "B6",
-      "text": "[Barem gốc] Bệnh Osgood-Schlatter là bệnh hoại tử xương sụn của {{c1::củ chày (lồi củ trước xương chày)}}, gây sưng đau, hay gặp ở {{c1::bé trai}} tham gia hoạt động thể thao.",
-      "extra": "Văn bản gốc: Bệnh Osgood-Schlatter bệnh hoại tử xương sụn của củ chày, gây viêm sưng đau, bệnh hay gặp ở các bé trai, nhưng cũng có thể gặp ở trẻ gái hay tham các hoạt động thể thao (trang 84).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Osgood-Schlatter"
-      ]
-    },
-    {
-      "id": "PED54-B43",
-      "track": "barem_goc",
-      "type": "basic",
-      "category": "Bệnh Osgood-Schlatter",
-      "section": "B6",
-      "front": "Các biện pháp điều trị bệnh Osgood-Schlatter ở trẻ em theo barem giáo trình gồm những gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Điều chỉnh hoạt động thể lực. 2) Phục hồi chức năng. 3) Dùng thuốc giảm đau khi cần.<br><b>💡 Barem:</b> Bệnh lành tính và tự khỏi khi củ chày cốt hóa hoàn toàn.",
-      "extra": "Văn bản gốc: Điều trị bằng cách điều chỉnh hoạt động, phục hồi chức năng và giảm đau khi cần thiết (trang 84).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Osgood-Schlatter",
-        "Dieu-tri"
-      ]
-    },
-    {
-      "id": "PED54-B44",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Trượt xương đùi",
-      "section": "B6",
-      "text": "[Barem gốc] Chứng trượt xương đùi (dịch chuyển chỏm xương đùi khỏi cổ xương đùi) gặp ở trẻ em chưa trưởng thành về bộ xương có tình trạng {{c1::thừa cân béo phì}}.",
-      "extra": "Văn bản gốc: Chứng trượt xương đùi (xương đùi bị dịch chuyển khỏi cổ xương đùi): Gặp ở trẻ em chưa trưởng thành về bộ xương, thừa cân béo phì (trang 84).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Truot-xuong-dui"
-      ]
-    },
-    {
-      "id": "PED54-B45",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Trượt xương đùi",
-      "section": "B6",
-      "text": "[Barem gốc] Biểu hiện của chứng trượt xương đùi là đau {{c1::khớp háng hoặc đùi khi đi}} hoặc đau ở {{c1::khớp gối}} (đau quy chiếu do chi phối thần kinh bịt).",
-      "extra": "Văn bản gốc: Biểu hiện là đau hông hoặc đùi khi đi hoặc đau gối và được chẩn đoán bằng hình ảnh (trang 84).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Truot-xuong-dui"
-      ]
-    },
-    {
-      "id": "PED54-B46",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Cận lâm sàng",
       "section": "B7",
-      "text": "[Barem gốc] Xét nghiệm ASO (antistreptolysin O) được chỉ định trong tiếp cận trẻ đau khớp khi bệnh nhi ở lứa tuổi {{c1::5 đến 15 tuổi}}.",
-      "extra": "Văn bản gốc: Tổng phân tích nước tiểu; ASO (nếu có biểu hiện đau khớp ở lứa tuổi 5- 15 tuổi) (trang 84).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "ASO",
-        "Can-lam-sang"
-      ]
-    },
-    {
-      "id": "PED54-B47",
-      "track": "barem_goc",
-      "type": "basic",
-      "category": "Cận lâm sàng",
-      "section": "B7",
-      "front": "Khi nghi ngờ viêm nội tâm mạc nhiễm khuẩn gây viêm đau khớp ở trẻ, nguyên tắc lấy mẫu cấy máu là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bắt buộc lấy máu ở 2 vị trí khác nhau để phân biệt vi khuẩn gây bệnh với tạp nhiễm da.<br><b>💡 Barem:</b> Quy tắc cấy máu chuẩn khi nghi ngờ viêm nội tâm mạc nhiễm khuẩn.",
-      "extra": "Văn bản gốc: Nếu nghi tới viêm nội tâm mạc nhiễm khuẩn, cần lấy máu ở 2 chỗ khác nhau (trang 84).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Cay-mau",
-        "VNTMNK"
-      ]
-    },
-    {
-      "id": "PED54-B48",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Cận lâm sàng",
-      "section": "B7",
-      "text": "[Barem gốc] Xét nghiệm đánh giá đáp ứng viêm cơ bản ở trẻ đau khớp gồm: {{c1::tốc độ máu lắng (VSS)}} và {{c1::protein phản ứng C (CRP)}}.",
-      "extra": "Văn bản gốc: Công thức máu: Xét nghiệm về đáp ứng viêm (VSS, CRP)... (trang 84).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "VSS",
-        "CRP"
-      ]
-    },
-    {
-      "id": "PED54-B49",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Cận lâm sàng",
-      "section": "B7",
-      "text": "[Barem gốc] Các thăm dò chẩn đoán hình ảnh xương khớp được đề xuất trong barem gồm: chụp X-quang xương, {{c1::CT scan ngực / chậu}}, và {{c1::xạ hình xương}}.",
-      "extra": "Văn bản gốc: Chụp X quang xương; CTscan ngực/ chậu, xạ hình xương (trang 84).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Chan-doan-hinh-anh"
-      ]
-    },
-    {
-      "id": "PED54-B50",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Cận lâm sàng",
-      "section": "B7",
-      "text": "[Barem gốc] Các xét nghiệm miễn dịch cần làm trong tiếp cận đau khớp gồm: {{c1::định lượng Immunoglobulin}} và các xét nghiệm về {{c1::suy giảm miễn dịch}}.",
-      "extra": "Văn bản gốc: Định lượng Immunoglobulin và những xét nghiệm về suy giảm miễn dịch (trang 84).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Mien-dich"
-      ]
-    },
-    {
-      "id": "PED54-B51",
-      "track": "barem_goc",
-      "type": "basic",
-      "category": "Điều trị",
-      "section": "B8",
-      "front": "Mục tiêu điều trị kiểm soát đau khớp thứ phát sau viêm khớp ở trẻ em tập trung vào những vấn đề gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giảm viêm. 2) Bảo tồn khớp hoạt động, duy trì sức mạnh và chức năng bình thường của khớp.<br><b>💡 Barem:</b> Phối hợp nội khoa và phục hồi chức năng để tránh teo cơ dính khớp.",
-      "extra": "Văn bản gốc: Kiểm soát cơn đau khớp thứ phát sau viêm khớp tập trung vào việc giảm viêm và bảo tồn khớp hoạt động, sức mạnh và chức năng bình thường khớp (trang 85).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Dieu-tri",
-        "Muc-tieu-dieu-tri"
-      ]
-    },
-    {
-      "id": "PED54-B52",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Điều trị",
-      "section": "B8",
-      "text": "[Barem gốc] Nhóm thuốc thường được sử dụng như liệu pháp ban đầu trong kiểm soát đau khớp thứ phát do viêm ở trẻ em là {{c1::NSAID}} (thuốc chống viêm không steroid).",
-      "extra": "Văn bản gốc: NSAID thường được sử dụng như liệu pháp ban đầu (trang 85).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "NSAID",
-        "Dieu-tri"
-      ]
-    },
-    {
-      "id": "PED54-B53",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Điều trị",
-      "section": "B8",
-      "text": "[Barem gốc] Ở những bệnh nhân mắc bệnh viêm đa khớp chỉ còn một khớp duy nhất hoạt động liên tục, liệu pháp được khuyến cáo là {{c1::tiêm corticosteroid tại khớp}}.",
-      "extra": "Văn bản gốc: Ở những bệnh nhân mắc bệnh viêm đa khớp chỉ còn 1 khớp duy nhất hoạt động liên tục, corticosteroid được khuyến cáo (trang 85).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Corticosteroid",
-        "JIA"
-      ]
-    },
-    {
-      "id": "PED54-B54",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Điều trị",
-      "section": "B8",
-      "text": "[Barem gốc] Corticosteroid toàn thân trong các phân nhóm JIA chỉ được điều trị trong {{c1::thời gian ngắn ngày}} vì có nhiều {{c1::tác dụng phụ nguy hiểm}} đối với trẻ.",
-      "extra": "Văn bản gốc: Corticosteroid toàn thân điều trị trong các phân nhóm JIA khác, thời gian dùng ngắn ngày vì tác dụng phụ (trang 85).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Corticosteroid",
-        "JIA"
-      ]
-    },
-    {
-      "id": "PED54-B55",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Điều trị",
-      "section": "B8",
-      "text": "[Barem gốc] Thuốc DMARD hàng đầu dùng cho trẻ em bị JIA khi tình trạng viêm cần điều trị không đáp ứng đơn thuần với NSAID là {{c1::Methotrexate}}.",
-      "extra": "Văn bản gốc: Methotrexate: Dùng cho trẻ em bị JIA và một số bệnh nhân khác trong trường hợp viêm cần điều trị không NSAID (trang 85).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Methotrexate",
-        "JIA"
-      ]
-    },
-    {
-      "id": "PED54-B56",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Điều trị",
-      "section": "B8",
-      "text": "[Barem gốc] Các thuốc điều hòa miễn dịch khác có thể sử dụng ở bệnh nhi viêm khớp gồm 3 thuốc: {{c1::sulfasalazine}}, {{c1::leflunomide}} và {{c1::hydroxychloroquine}}.",
-      "extra": "Văn bản gốc: Các thuốc điều hòa miễn dịch khác như sulfasalazine, leflunomide và hydroxychloroquine cũng có thể được sử dụng ở một số bệnh nhân (trang 85).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "DMARDs"
-      ]
-    },
-    {
-      "id": "PED54-B57",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Điều trị",
-      "section": "B8",
-      "text": "[Barem gốc] Các nguyên nhân viêm khớp do nhiễm virus như Parvovirus có phương thức điều trị chủ yếu là {{c1::điều trị hỗ trợ}}.",
-      "extra": "Văn bản gốc: Các nguyên nhân như parvovirus cần điều trị là hỗ trợ (trang 85).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Virus",
-        "Dieu-tri"
-      ]
-    },
-    {
-      "id": "PED54-B58",
-      "track": "barem_goc",
-      "type": "basic",
-      "category": "Điều trị",
-      "section": "B8",
-      "front": "Liệu pháp xử trí ban đầu ở bệnh nhân bị đau khớp do chấn thương bao gồm những bước gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nghỉ ngơi, chườm đá, dùng thuốc NSAID hoặc giảm đau khác, và được bác sĩ chỉnh hình đánh giá kịp thời.<br><br><b>💡 Lưu ý:</b><br>Cần được chỉnh hình đánh giá để quyết định ổn định bên ngoài (bó bột, nẹp) hoặc can thiệp phẫu thuật.",
-      "extra": "Văn bản gốc: Ở những bệnh nhân bị đau khớp do chấn thương, liệu pháp bao gồm nghỉ ngơi, chườm đá, NSAID hoặc các thuốc giảm đau khác. Được bác sĩ chỉnh hình đánh giá kịp thời để ổn định bên ngoài hoặc phẫu thuật (trang 85).",
-      "tags": [
-        "PED-54",
-        "Barem-goc",
-        "Chan-thuong",
-        "Xu-tri"
-      ]
-    },
-    {
-      "id": "PED54-B59",
-      "track": "barem_goc",
-      "type": "cloze",
-      "category": "Điều trị",
-      "section": "B8",
-      "text": "[Barem gốc] Chỉ định phẫu thuật xâm lấn trong chẩn đoán nguyên nhân: {{c1::sinh thiết khớp}} để xác định nhiễm trùng không điển hình, hoặc {{c1::sinh thiết xương}} trong trường hợp viêm tủy xương.",
-      "extra": "Văn bản gốc: Sinh thiết khớp để điều trị nhiễm trùng không điển hình hoặc sinh thiết xương cho viêm tủy xương (trang 85).",
+      "category": "Phẫu thuật & Sinh thiết",
+      "front": "Chỉ định điều trị phẫu thuật và sinh thiết khớp/xương trong bệnh lý khớp theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Điều trị phẫu thuật: Can thiệp đối với tổn thương khớp kéo dài mạn tính hoặc nặng trong viêm khớp do viêm hoặc rối loạn cơ học để xác định chẩn đoán rõ ràng.<br>• Sinh thiết khớp: Chỉ định để chẩn đoán và điều trị nhiễm trùng không điển hình (lao khớp, nấm).<br>• Sinh thiết xương: Chỉ định cho viêm tủy xương.<br><br><b>💡 Giải thích của AI:</b><br>Sinh thiết màng hoạt dịch hoặc xương là tiêu chuẩn vàng khi các xét nghiệm thông thường bế tắc trước một tổn thương khớp mạn tính không rõ nguyên nhân.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 85, Mục 4 - Điều trị)",
       "tags": [
         "PED-54",
         "Barem-goc",
@@ -880,201 +559,484 @@
       ]
     },
     {
-      "id": "PED54-B60",
-      "type": "cloze",
-      "section": "B4",
-      "category": "X-quang viêm cột sống dính khớp",
-      "text": "[Barem gốc] Hình ảnh X-quang trong viêm cột sống dính khớp hoặc bệnh lý cột sống ở trẻ em cho thấy có {{c1::khuyết xương hoặc hình chồi xương}} ở chỗ gân bám.",
-      "extra": "Giáo trình Nhi khoa, mục Viêm cột sống dính khớp (trang 80).",
-      "tags": [
-        "PED-54",
-        "Barem-goc"
-      ]
-    },
-    {
-      "id": "PED54-B61",
+      "id": "PED54-E01",
+      "track": "ebm",
       "type": "basic",
-      "section": "B4",
-      "category": "Tổn thương cột sống cổ trong VKCSDK",
-      "front": "Giai đoạn toàn phát của viêm cột sống dính khớp ở trẻ em thường có tổn thương tại các đốt sống cổ nào?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thường có viêm cột sống cổ C1 và C2.<br><b>💡 Barem:</b> Kèm theo đau cột sống thắt lưng và khớp cùng chậu.",
-      "extra": "Giáo trình Nhi khoa, mục Viêm cột sống dính khớp (trang 80).",
+      "section": "E0",
+      "category": "Cờ đỏ cấp cứu",
+      "front": "5 dấu hiệu Cờ đỏ (Red Flags) cấp cứu và nguy cơ tàn phế bắt buộc phải loại trừ đầu tiên khi tiếp cận trẻ đau khớp?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sốt cao kèm rét run, bộ mặt nhiễm trùng độc hại (Cờ đỏ Viêm khớp nhiễm trùng / Viêm xương tủy).<br>2) Mất hoàn toàn khả năng tì đè chịu lực chân (Non-weight bearing) hoặc đi khập khiễng cấp tính.<br>3) Đau xương khớp dữ dội về đêm đánh thức trẻ dậy (Cờ đỏ Bệnh ác tính / Ung thư máu ALL).<br>4) Sụt cân không rõ nguyên nhân, đổ mồ hôi trộm đêm, chán ăn, xanh xao suy kiệt.<br>5) Đau lưng/cột sống khu trú kèm rối loạn cơ tròn (tiểu tiện không tự chủ) hoặc yếu liệt chi (Cờ đỏ Áp xe ngoài màng cứng / Chèn ép tủy).<br><br><b>💡 Giải thích của AI:</b><br>Bất kỳ một cờ đỏ nào xuất hiện cũng đòi hỏi quy trình nhập viện khẩn cấp, đình chỉ việc cho về nhà dùng thuốc giảm đau đơn thuần.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Nelson Pediatrics & Sàng lọc cờ đỏ cấp cứu (Phần 0)",
       "tags": [
         "PED-54",
-        "Barem-goc"
+        "EBM",
+        "Co-do",
+        "Red-flags"
       ]
     },
     {
-      "id": "PED54-B62",
+      "id": "PED54-E02",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E1",
+      "category": "Thang điểm Kocher",
+      "front": "5 tiêu chí trong Thang điểm Kocher cải tiến (Modified Kocher Criteria) để phân biệt Viêm mủ khớp háng với Viêm màng hoạt dịch thoáng qua?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Mỗi tiêu chí tính 1 điểm:<br>1) Không có khả năng tì đè chịu lực bên chân đau (Non-weight bearing).<br>2) Sốt cao: Thân nhiệt đo được ≥ 38,5°C.<br>3) Tốc độ máu lắng tăng: ESR ≥ 40 mm/giờ.<br>4) Số lượng bạch cầu máu tăng: WBC > 12.000 / μL.<br>5) Protein phản ứng C tăng: CRP > 20 mg/L (tiêu chí cải tiến nhạy nhất).<br><br><b>💡 Giải thích của AI:</b><br>Thang điểm Kocher nguyên bản có 4 tiêu chí; việc bổ sung CRP > 20 mg/L làm tăng đáng kể độ chính xác chẩn đoán phân biệt giữa viêm mủ khớp háng và viêm bao hoạt dịch thoáng qua.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Thang điểm Kocher cải tiến (Phần III.1)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "Kocher",
+        "Viem-mu-khop-hang"
+      ]
+    },
+    {
+      "id": "PED54-E03",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E1",
+      "category": "Thang điểm Kocher - Ý nghĩa",
+      "front": "Ý nghĩa tiên lượng xác suất viêm khớp nhiễm trùng theo thang điểm Kocher và thái độ xử trí cấp cứu khi điểm số ≥ 4/5?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Xác suất viêm khớp mủ theo điểm số:<br>1) 0/5 điểm: Nguy cơ &lt; 0,2%.<br>2) 1/5 điểm: Nguy cơ khoảng 3%.<br>3) 2/5 điểm: Nguy cơ khoảng 40%.<br>4) 3/5 điểm: Nguy cơ khoảng 93%.<br>5) 4/5 hoặc 5/5 điểm: Nguy cơ lên tới 98 - 99%.<br>• Thái độ xử trí cấp cứu khi điểm ≥ 4/5: CẤP CỨU NGOẠI KHOA KHẨN CẤP → Chỉ định chọc hút dịch khớp háng dưới hướng dẫn siêu âm và phẫu thuật mở bao khớp rửa dẫn lưu mủ trong 6 GIỜ ĐẦU.<br><br><b>💡 Giải thích của AI:</b><br>Bao khớp háng là khoang kín áp lực cao; mủ ứ đọng chèn ép mạch máu nuôi chỏm xương đùi gây hoại tử vô mạch không thể hồi phục chỉ sau 6 đến 12 giờ nếu không giải áp.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Thang điểm Kocher cải tiến (Phần III.1)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "Kocher",
+        "Xac-suat",
+        "6-gio"
+      ]
+    },
+    {
+      "id": "PED54-E04",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E2",
+      "category": "Phân tích dịch khớp",
+      "front": "Bảng phân tích đặc điểm dịch khớp giúp phân biệt 3 nhóm: Bình thường, Viêm vô khuẩn (JIA) và Nhiễm trùng sinh mủ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dịch khớp bình thường: Trong suốt, nhớt cao; Bạch cầu &lt; 200 / μL; Neutrophil &lt; 25%; Glucose bằng đường máu.<br>2) Dịch viêm vô khuẩn (JIA / Thấp khớp): Vàng trong hoặc hơi đục, nhớt giảm; Bạch cầu 2.000 - 50.000 / μL; Neutrophil 50 - 75%; Glucose bình thường hoặc giảm nhẹ.<br>3) Dịch nhiễm trùng sinh mủ (Septic): Rất đục, mủ vàng/xanh, nhớt rất thấp; Bạch cầu &gt; 50.000 - 100.000 / μL; Neutrophil &gt; 75 - 80%; Glucose giảm nặng (&lt; 50% đường máu song song); Nhuộm Gram hoặc cấy vi khuẩn (+).<br><br><b>💡 Giải thích của AI:</b><br>Số lượng bạch cầu > 50.000/μL với ưu thế Neutrophil áp đảo và tỷ lệ Glucose dịch khớp/máu &lt; 0,5 là bằng chứng thép của viêm khớp nhiễm khuẩn.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Tiêu chuẩn vàng phân tích dịch khớp (Phần III.2)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "Dich-khop",
+        "Phan-tich-dich-khop"
+      ]
+    },
+    {
+      "id": "PED54-E05",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E3",
+      "category": "Phân loại JIA theo ILAR",
+      "front": "5 thể lâm sàng then chốt của Viêm khớp tự phát thiếu niên (JIA) theo Hội Khớp học Quốc tế (ILAR)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thể ít khớp (Oligoarticular JIA): Viêm ≤ 4 khớp trong 6 tháng đầu (chiếm 50%, hay gặp nhất; bé gái 2 - 4 tuổi, khớp lớn chi dưới).<br>2) Thể đa khớp (Polyarticular JIA): Viêm ≥ 5 khớp trong 6 tháng đầu (chia 2 nhóm: RF âm tính và RF dương tính giống viêm khớp dạng thấp người lớn).<br>3) Thể hệ thống (Systemic JIA / Bệnh Still): Sốt cao cơn hàng ngày, ban hồng dễ phai, viêm khớp, hạch gan lách to, viêm màng ngoài tim.<br>4) Thể viêm điểm bám gân (Enthesitis-related arthritis - ERA): Hay gặp ở bé trai ≥ 6 tuổi, liên quan HLA-B27, viêm khớp chi dưới kèm đau gót chân.<br>5) Thể vảy nến (Psoriatic JIA): Viêm khớp kèm vảy nến da/móng hoặc viêm ngón tay hình khúc dồi.<br><br><b>💡 Giải thích của AI:</b><br>Phân loại ILAR là tiêu chuẩn quốc tế cập nhật thay thế cho tên gọi cũ JRA, giúp định hướng điều trị sinh học chính xác theo từng thể.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Phân loại JIA theo ILAR (Phần IV.2)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "ILAR",
+        "JIA",
+        "5-the"
+      ]
+    },
+    {
+      "id": "PED54-E06",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E3",
+      "category": "Cảnh báo mù lòa trong JIA",
+      "front": "Vì sao trẻ mắc JIA thể ÍT KHỚP có kháng thể ANA dương tính bắt buộc phải khám mắt bằng Đèn khe (Slit-lamp) định kỳ 3 tháng/lần?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Nguy cơ mù lòa: Khoảng 20 - 30% trẻ JIA thể ít khớp có ANA (+) bị biến chứng Viêm màng bồ đào trước mạn tính (Chronic anterior uveitis).<br>• Đặc tính nguy hiểm: Viêm màng bồ đào diễn biến HOÀN TOÀN ÂM THẦM, KHÔNG ĐỎ MẮT, KHÔNG ĐAU MẮT, KHÔNG SỢ ÁNH SÁNG, thị lực ban đầu bình thường.<br>• Hậu quả nếu không phát hiện sớm: Gây dính đồng tử, đục thủy tinh thể, tăng nhãn áp và MÙ LÒA VĨNH VIỄN.<br>• Quy định sàng lọc: Bắt buộc soi đèn khe định kỳ mỗi 3 tháng/lần trong ít nhất 4 năm đầu.<br><br><b>💡 Giải thích của AI:</b><br>Đây là cạm bẫy lâm sàng số 1 trong JIA: mắt hoàn toàn trắng và trẻ không hề kêu đau nhưng bên trong buồng trước nhãn cầu các tế bào viêm đang tàn phá thủy tinh thể.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Cạm bẫy khám mắt trong JIA (Phần VII.3)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "JIA",
+        "Mat",
+        "Den-khe",
+        "Uveitis"
+      ]
+    },
+    {
+      "id": "PED54-E07",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E4",
+      "category": "Hội chứng MAS trong Bệnh Still",
+      "front": "Hội chứng kích hoạt đại thực bào (MAS - Macrophage Activation Syndrome) trong JIA thể hệ thống là gì? 4 dấu hiệu cảnh báo sinh tử?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bản chất: Là biến chứng bão cytokine tối cấp đe dọa tính mạng (tử vong lên tới 20 - 30%) do đại thực bào T-lympho bị hoạt hóa quá mức nuốt các tế bào máu trong tủy xương.<br>• 4 dấu hiệu xét nghiệm cảnh báo sinh tử:<br>1) Nồng độ Ferritin huyết thanh tăng vọt cực cao (thường > 10.000 ng/mL).<br>2) Nồng độ Fibrinogen máu tụt giảm nghịch thường (trong khi bệnh nhân đang sốt viêm rất nặng).<br>3) Tụt giảm đột ngột các dòng tế bào máu ngoại vi (tiểu cầu giảm, bạch cầu giảm, thiếu máu nặng).<br>4) Tốc độ máu lắng (ESR) giảm nghịch thường (do Fibrinogen bị tiêu thụ cạn kiệt).<br><br><b>💡 Giải thích của AI:</b><br>Nghịch lý MAS: Bệnh nhân đang sốt đùng đùng mà máu lắng lại tụt và Fibrinogen tụt dốc không phanh kèm Ferritin hàng chục nghìn → cấp cứu truyền Methylprednisolone xung liều cao ngay lập tức.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Hội chứng MAS trong JIA thể hệ thống (Phần IV.2)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "MAS",
+        "Benh-Still",
+        "Ferritin"
+      ]
+    },
+    {
+      "id": "PED54-E08",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E5",
+      "category": "Trượt đầu trên xương đùi - SCFE",
+      "front": "Bệnh cảnh điển hình của Trượt đầu trên xương đùi (SCFE), dấu hiệu Drehmann trên lâm sàng và dấu hiệu đường Klein trên X-quang?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bệnh cảnh điển hình: Bé trai thừa cân béo phì trong độ tuổi 10 - 14 tuổi, đi khập khiễng, đau háng hoặc đau quy chiếu xuống gối.<br>• Dấu hiệu Drehmann: Khi người khám gập thụ động khớp háng của trẻ lên 90 độ, đùi tự động xoay ngoài và dạng ra (không thể gập háng thẳng hàng được).<br>• Dấu hiệu đường Klein trên X-quang: Kẻ đường thẳng dọc bờ trên cổ xương đùi trên phim tư thế chân ếch (Frog-leg); ở người bình thường đường này phải cắt qua một phần chỏm xương đùi; trong SCFE đường Klein KHÔNG CẮT QUA CHỎM ĐÙI.<br>• Xử trí khẩn: CẤM TÌ ĐÈ CHỊU LỰC TUYỆT ĐỐI → Phẫu thuật bắt vít cố định tại chỗ (In situ pinning).<br><br><b>💡 Giải thích của AI:</b><br>Cố nắn chỉnh chỏm xương đùi bị trượt là sai lầm chết người vì sẽ làm đứt cuống mạch máu nuôi chỏm gây hoại tử vô mạch tức thì; nguyên tắc là bắt vít cố định ngay tại vị trí trượt.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Trượt đầu trên xương đùi SCFE (Phần V.1)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "SCFE",
+        "Drehmann",
+        "Duong-Klein"
+      ]
+    },
+    {
+      "id": "PED54-E09",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E5",
+      "category": "Bệnh Legg-Calvé-Perthes",
+      "front": "Bản chất bệnh học, lứa tuổi hay gặp và tiến triển lâm sàng của Bệnh Legg-Calvé-Perthes?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bản chất: Hoại tử vô mạch tự phát (Avascular necrosis - AVN) của chỏm xương đùi do gián đoạn tạm thời nguồn cấp máu.<br>• Đối tượng: Hay gặp ở bé trai gầy gò, hiếu động, lứa tuổi 4 - 8 tuổi (đỉnh cao 5 - 7 tuổi).<br>• Tiến triển lâm sàng: Trẻ đi khập khiễng khởi phát từ từ, KHÔNG ĐAU HOẶC ĐAU RẤT NHẸ, hạn chế vận động dạng và xoay trong khớp háng.<br>• X-quang theo các giai đoạn: Đặc xương chỏm đùi → Vỡ mảnh chỏm đùi → Tái tạo sửa chữa chỏm xương.<br><br><b>💡 Giải thích của AI:</b><br>Phân biệt với SCFE: Perthes gặp ở trẻ nhỏ hơn (4 - 8 tuổi, thể trạng gầy, đi khập khiễng không đau); SCFE gặp ở trẻ lớn hơn (10 - 14 tuổi, béo phì, đau nhiều).",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Bệnh Legg-Calvé-Perthes (Phần V.2)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "Perthes",
+        "Hoai-tu-chom-dui"
+      ]
+    },
+    {
+      "id": "PED54-E10",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E5",
+      "category": "Viêm màng hoạt dịch thoáng qua",
+      "front": "Đặc điểm lâm sàng và thái độ điều trị Viêm màng hoạt dịch thoáng qua khớp háng (Transient synovitis)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đặc điểm: Là nguyên nhân gây đi khập khiễng hay gặp nhất ở trẻ 3 - 8 tuổi; thường xuất hiện sau một đợt nhiễm virus đường hô hấp trên 1 - 2 tuần.<br>• Lâm sàng: Trẻ đau háng nhẹ, đi khập khiễng nhưng toàn trạng tốt, thang điểm Kocher &lt; 2 điểm (sốt nhẹ hoặc không sốt, xét nghiệm viêm máu lắng/CRP bình thường hoặc tăng rất nhẹ).<br>• Tiên lượng & Điều trị: Bệnh hoàn toàn lành tính; điều trị bằng NGHỈ NGƠI TẠI GIƯỜNG VÀ UỐNG NSAID (Ibuprofen); tự khỏi hoàn toàn trong vòng 7 - 10 ngày không để lại di chứng.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ chẩn đoán Viêm màng hoạt dịch thoáng qua khi đã loại trừ chắc chắn Viêm mủ khớp háng (Kocher &lt; 2 điểm). Nếu sau 7 - 10 ngày không đỡ phải chụp lại X-quang loại trừ Perthes.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Viêm màng hoạt dịch thoáng qua (Phần V)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "Transient-synovitis",
+        "Lanh-tinh"
+      ]
+    },
+    {
+      "id": "PED54-E11",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E6",
+      "category": "Cờ đỏ ác tính",
+      "front": "Vì sao trẻ em đau xương khớp nghi ngờ bệnh lý ác tính (Bạch cầu cấp ALL / U nguyên bào thần kinh) TUYỆT ĐỐI CẤM DÙNG CORTICOID trước khi chọc tủy đồ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Nguy cơ xóa mờ chẩn đoán: Corticoid có tác dụng tiêu diệt tế bào non ung thư máu (Lymphoblast) rất mạnh nhưng không triệt để.<br>• Hậu quả: Dùng dù chỉ vài ngày Corticoid cũng sẽ làm các tế bào ác tính trong tủy biến mất tạm thời, kết quả chọc tủy đồ trở thành âm tính giả, che mờ chẩn đoán và trì hoãn phác đồ hóa trị chuẩn.<br>• Làm kháng thuốc: Làm tăng nguy cơ kháng hóa chất điều trị ung thư sau này, giảm tỷ lệ sống sót của trẻ.<br>• Quy tắc an toàn: Khi trẻ có đau xương khớp không rõ nguyên nhân kèm thiếu máu, giảm tiểu cầu hoặc hạch gan lách to → TUYỆT ĐỐI KHÔNG DÙNG CORTICOID cho đến khi đã làm tủy đồ loại trừ ung thư.<br><br><b>💡 Giải thích của AI:</b><br>Đây là 'lời thề sinh tử' của bác sĩ Huyết học - Khớp nhi: Thà chậm dùng Corticoid 1 ngày còn hơn dùng sớm xóa mất cơ hội cứu sống trẻ bị bạch cầu cấp.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Cạm bẫy dùng Corticoid làm mờ bệnh ác tính (Phần VII.2)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "ALL",
+        "Ung-thu-mau",
+        "Cam-Corticoid"
+      ]
+    },
+    {
+      "id": "PED54-E12",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Cạm bẫy lâm sàng",
+      "front": "Giải thích cơ chế giải phẫu vì sao bệnh lý tại khớp háng (SCFE, Perthes, Viêm mủ) lại biểu hiện bằng ĐAU ĐẦU GỐI?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Cơ chế đau quy chiếu (Referred pain): Cả bao khớp háng và bao khớp gối đều nhận các nhánh thần kinh cảm giác chi phối chung từ THẦN KINH BỊT (Obturator nerve) và THẦN KINH ĐÙI (Femoral nerve).<br>• Hậu quả: Xung động đau từ khớp háng truyền theo dây thần kinh bịt lên tủy sống khiến vỏ não trẻ nhận định nhầm vị trí đau là ở đầu gối.<br>• Quy tắc vàng: Bất kỳ đứa trẻ nào đến khám vì đau đầu gối mà khớp gối khám hoàn toàn bình thường → BẮT BUỘC PHẢI KHÁM VÀ XOAY KHỚP HÁNG HAI BÊN.<br><br><b>💡 Giải thích của AI:</b><br>Bỏ sót khám khớp háng ở trẻ kêu đau gối là cạm bẫy sơ đẳng và thường gặp nhất dẫn đến chẩn đoán muộn SCFE và hoại tử chỏm xương đùi.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Cạm bẫy đau đầu gối khám khớp háng (Phần VII.1)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "Dau-quy-chieu",
+        "Than-kinh-bit",
+        "Cam-bay"
+      ]
+    },
+    {
+      "id": "PED54-E13",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Cạm bẫy lâm sàng",
+      "front": "Phân biệt Đau xương tăng trưởng (Growing pains) với các bệnh lý đau khớp thực thể nguy hiểm ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đau xương tăng trưởng:<br>1) Tuổi: 3 - 12 tuổi.<br>2) Thời điểm: Đau vào chiều muộn hoặc đêm, ban ngày trẻ chạy nhảy hoàn toàn bình thường.<br>3) Vị trí: Đau cơ bắp chân, đùi, KHÔNG BAO GIỜ ĐAU KHỚP THỰC SỰ.<br>4) Khám: Hoàn toàn bình thường, không khập khiễng, không sưng nóng đỏ.<br>5) Xét nghiệm: Máu lắng, CRP, X-quang hoàn toàn bình thường.<br>• Bệnh lý thực thể: Đau cả ban ngày, đi khập khiễng, sưng nóng khớp, hạn chế vận động hoặc xét nghiệm viêm tăng.<br><br><b>💡 Giải thích của AI:</b><br>Đau xương tăng trưởng là chẩn đoán loại trừ; trẻ không bao giờ đi khập khiễng vào buổi sáng. Nếu trẻ đi khập khiễng sáng dậy → loại trừ ngay đau xương tăng trưởng.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Cạm bẫy đau xương tăng trưởng (Phần VII.4)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "Growing-pains",
+        "Dau-tang-truong"
+      ]
+    },
+    {
+      "id": "PED54-E14",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Cạm bẫy lâm sàng",
+      "front": "Phân biệt Thấp tim cấp (ARF) với Viêm khớp tự phát thiếu niên (JIA) về tính chất khớp, đáp ứng điều trị và tổn thương tim?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tính chất khớp: Thấp tim là viêm khớp di chuyển, tự khỏi trong 2 - 4 tuần, không di chứng; JIA là viêm khớp dai dẳng kéo dài &gt; 6 tuần, có thể gây dính biến dạng khớp.<br>2) Đáp ứng thuốc: Thấp tim đáp ứng tức thì với Aspirin trong 24 - 48 giờ; JIA đáp ứng chậm hoặc không hoàn toàn với NSAID.<br>3) Tổn thương tim: Thấp tim gây viêm nội tâm mạc hở van tim (tiếng thổi hở 2 lá, hở chủ); JIA thể hệ thống chỉ gây viêm màng ngoài tim (tràn dịch màng tim), KHÔNG GÂY TỔN THƯƠNG VAN TIM.<br>4) Bằng chứng nhiễm liên cầu: Thấp tim có ASLO tăng cao; JIA có ASLO bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Nếu thấy hở van tim thực thể → nghĩ ngay Thấp tim; nếu chỉ thấy tràn dịch màng tim kèm sốt cao hạch to → nghĩ ngay JIA thể hệ thống (Still).",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Phân biệt Thấp tim vs JIA (Phần VII.5)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "Thap-tim-vs-JIA",
+        "Phan-biet"
+      ]
+    },
+    {
+      "id": "PED54-B35",
+      "track": "barem_goc",
+      "type": "basic",
+      "section": "B1",
+      "category": "Khám khớp - Khám lâm sàng",
+      "front": "Khi đánh giá biên độ vận động của một khớp, người thầy thuốc cần nắm vững nguyên tắc cơ bản nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Cần biết rõ biên độ cử động bình thường theo giải phẫu sinh lý của từng khớp tương ứng.<br>• Bắt buộc phải đánh giá cả hai hình thức:<br>1) Biên độ cử động CHỦ ĐỘNG (do trẻ tự làm).<br>2) Biên độ cử động THỤ ĐỘNG (do thầy thuốc nhẹ nhàng thực hiện).<br>• So sánh đối xứng biên độ vận động với khớp lành bên đối diện.<br><br><b>💡 Giải thích của AI:</b><br>Nắm chắc biên độ bình thường của từng khớp giúp bác sĩ nhận biết ngay sự giới hạn dù chỉ vài độ ở giai đoạn đầu của tràn dịch khớp.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 79, Mục 2 - Lâm sàng)",
+      "tags": [
+        "PED-54",
+        "Barem-goc",
+        "Kham-khop",
+        "Bien-do"
+      ]
+    },
+    {
+      "id": "PED54-B36",
+      "track": "barem_goc",
+      "type": "basic",
+      "section": "B2",
+      "category": "Viêm cột sống dính khớp",
+      "front": "Vị trí tổn thương trục ở cột sống trong Viêm cột sống dính khớp ở trẻ em thường xuất hiện ở giai đoạn nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Ở trẻ em, triệu chứng ở cột sống thường CHƯA XUẤT HIỆN lúc khởi phát bệnh (tổn thương trục thường kín đáo và xuất hiện rất muộn).<br>• Giai đoạn toàn phát bệnh mới biểu hiện rõ:<br>1) Viêm khớp và cứng khớp cột sống cổ C1 và C2.<br>2) Đau cứng cột sống thắt lưng kiểu viêm.<br>3) Đau viêm khớp cùng chậu một bên hoặc hai bên.<br><br><b>💡 Giải thích của AI:</b><br>Khác với người lớn khởi phát đau thắt ngực/thắt lưng ngay từ đầu, trẻ em mắc bệnh lý cột sống dính khớp hầu hết khởi phát bằng viêm khớp ngoại biên chi dưới và viêm điểm bám gân (Achilles).",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 80, Mục Viêm cột sống dính khớp)",
+      "tags": [
+        "PED-54",
+        "Barem-goc",
+        "VCSDK",
+        "Cot-song-C1-C2"
+      ]
+    },
+    {
+      "id": "PED54-B37",
+      "track": "barem_goc",
+      "type": "basic",
+      "section": "B3",
+      "category": "Viêm khớp nhiễm khuẩn",
+      "front": "Tư thế chống đau kinh điển của khớp háng ở trẻ bị Viêm khớp nhiễm khuẩn là gì và giải thích cơ chế?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tư thế chống đau: Khớp háng ở tư thế GẬP NHẸ, DẠNG VÀ XOAY NGOÀI.<br>• Cơ chế: Đây là tư thế mà bao khớp háng có thể tích khoang nội khớp LỚN NHẤT, giúp giảm bớt áp lực chất mủ ứ đọng chèn ép màng bao khớp, làm giảm cảm giác căng tức đau đớn cho trẻ.<br><br><b>💡 Giải thích của AI:</b><br>Nhìn một đứa trẻ nằm gập háng dạng xoay ngoài và khóc thét khi ai chạm vào chân là dấu hiệu lâm sàng báo động viêm mủ khớp háng.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 81, Mục Viêm khớp nhiễm khuẩn)",
+      "tags": [
+        "PED-54",
+        "Barem-goc",
+        "Tu-the-chong-dau"
+      ]
+    },
+    {
+      "id": "PED54-B38",
+      "track": "barem_goc",
+      "type": "basic",
+      "section": "B3",
+      "category": "Viêm đĩa đệm - Discitis",
+      "front": "Dấu hiệu lâm sàng gợi ý Viêm đĩa đệm (Discitis) ở trẻ mới biết đi và trẻ nhỏ là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ đột ngột từ chối đi lại, từ chối đứng dậy hoặc từ chối ngồi.<br>2) Dáng đi gượng gạo, cứng đờ cột sống lưng.<br>3) Không chịu cúi gập lưng để nhặt đồ chơi dưới sàn (dấu hiệu nhặt đồ chơi: trẻ ngồi xổm gập gối chứ không chịu cúi lưng).<br>4) Ấn có điểm đau chói khu trú trên gai sống khoang đĩa đệm.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ nhỏ chưa biết than phiền đau lưng, biểu hiện duy nhất của viêm đĩa đệm thường là thay đổi hành vi vận động từ chối gập cột sống.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 82, Mục Viêm đĩa đệm)",
+      "tags": [
+        "PED-54",
+        "Barem-goc",
+        "Discitis",
+        "Dau-lung"
+      ]
+    },
+    {
+      "id": "PED54-B39",
+      "track": "barem_goc",
       "type": "basic",
       "section": "B5",
-      "category": "Đặc điểm viêm da cơ vị thành niên",
-      "front": "Đặc điểm lâm sàng nào giúp phân biệt Viêm da cơ vị thành niên với các bệnh khớp khác theo giáo trình?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Đặc trưng bởi phát ban da và yếu cơ chiếm ưu thế hơn bệnh khớp.<br><b>💡 Barem:</b> Đau khớp hoặc sưng khớp chỉ là triệu chứng đi kèm trong một số trường hợp.",
-      "extra": "Giáo trình Nhi khoa, mục Bệnh hệ thống (trang 81).",
+      "category": "Nguyên nhân cơ học",
+      "front": "Phân biệt triệu chứng đau giữa Hội chứng đau Patellofemoral và Bệnh Osgood-Schlatter ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hội chứng đau Patellofemoral:<br>1) Vị trí: Đau quanh hoặc sau xương bánh chè, thường cả hai bên đầu gối.<br>2) Khám: Ấn di chuyển xương bánh chè có đau và lạo xạo; ổ khớp không sưng.<br>3) Đau tăng khi ngồi lâu gập gối, leo cầu thang.<br>• Bệnh Osgood-Schlatter:<br>1) Vị trí: Đau khu trú ngay tại lồi củ trước xương chày (dưới bánh chè).<br>2) Khám: Lồi củ xương chày sưng to, gồ lên và ấn đau chói; vận động khớp gối bình thường.<br>3) Đau tăng khi co cơ tứ đầu đùi chống lực cản (đá bóng, chạy nhảy).<br><br><b>💡 Giải thích của AI:</b><br>Chỉ cần xác định chính xác điểm đau: sau xương bánh chè → Patellofemoral; ngay tại mỏm lồi củ chày gồ lên → Osgood-Schlatter.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 83 - 84, Mục Cơ học)",
       "tags": [
         "PED-54",
-        "Barem-goc"
+        "Barem-goc",
+        "Osgood-Schlatter",
+        "Patellofemoral"
       ]
     },
     {
-      "id": "PED54-B63",
-      "type": "cloze",
-      "section": "B5",
-      "category": "Các bệnh mô liên kết gây đau khớp",
-      "text": "[Barem gốc] Các bệnh mô liên kết khác đôi khi gặp ở trẻ em có thể gây ra triệu chứng khớp gồm: {{c1::hội chứng Sjogren, xơ cứng bì và bệnh mô liên kết hỗn hợp}}.",
-      "extra": "Giáo trình Nhi khoa, mục Bệnh hệ thống (trang 81).",
-      "tags": [
-        "PED-54",
-        "Barem-goc"
-      ]
-    },
-    {
-      "id": "PED54-B64",
-      "type": "cloze",
-      "section": "B5",
-      "category": "Viêm mạch gây viêm khớp",
-      "text": "[Barem gốc] Hai bệnh lý viêm mạch máu thường gặp ở trẻ em có thể gây viêm khớp là: {{c1::bệnh Kawasaki}} và {{c1::ban xuất huyết Henoch-Schonlein}}.",
-      "extra": "Giáo trình Nhi khoa, mục Bệnh hệ thống (trang 81).",
-      "tags": [
-        "PED-54",
-        "Barem-goc"
-      ]
-    },
-    {
-      "id": "PED54-B65",
-      "type": "cloze",
-      "section": "B5",
-      "category": "Tỷ lệ tụ cầu vàng trong viêm khớp mủ",
-      "text": "[Barem gốc] Vi khuẩn Gram dương hay gặp nhất trong viêm khớp nhiễm khuẩn ở trẻ em là tụ cầu vàng (Staphylococcus aureus), chiếm tỷ lệ {{c1::50 - 70%}}.",
-      "extra": "Giáo trình Nhi khoa, mục Viêm khớp nhiễm khuẩn (trang 81).",
-      "tags": [
-        "PED-54",
-        "Barem-goc"
-      ]
-    },
-    {
-      "id": "PED54-B66",
-      "type": "cloze",
-      "section": "B5",
-      "category": "Tế bào dịch khớp nhiễm khuẩn",
-      "text": "[Barem gốc] Xét nghiệm dịch khớp trong viêm khớp nhiễm khuẩn có mủ hoặc số lượng bạch cầu {{c1::> 100.000 tế bào/mm³}} với ít nhất {{c1::80%}} là bạch cầu đa nhân trung tính.",
-      "extra": "Giáo trình Nhi khoa, mục Viêm khớp nhiễm khuẩn (trang 81).",
-      "tags": [
-        "PED-54",
-        "Barem-goc"
-      ]
-    },
-    {
-      "id": "PED54-B67",
-      "type": "basic",
-      "section": "B5",
-      "category": "Hình ảnh X-quang viêm khớp mủ điển hình",
-      "front": "Hình ảnh X-quang khớp điển hình trong viêm khớp nhiễm khuẩn theo giáo trình là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Có hình ảnh soi gương (tổn thương đối xứng hai diện khớp đối diện nhau).<br><b>💡 Barem:</b> Do quá trình tiêu hủy sụn diễn ra đồng thời ở cả hai mặt tiếp xúc của khớp.",
-      "extra": "Giáo trình Nhi khoa, mục Viêm khớp nhiễm khuẩn (trang 82).",
-      "tags": [
-        "PED-54",
-        "Barem-goc"
-      ]
-    },
-    {
-      "id": "PED54-B68",
+      "id": "PED54-B40",
+      "track": "barem_goc",
       "type": "basic",
       "section": "B6",
-      "category": "Bệnh viêm đĩa đệm ở trẻ em",
-      "front": "Đặc điểm lâm sàng và vi khuẩn thường phân lập được trong Bệnh viêm đĩa đệm (Discitis) ở trẻ em theo sách là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Đặc trưng bởi đau lưng và ấn đau trên gai tiếp giáp khoang đĩa đệm, sốt nhẹ hoặc không sốt; vi khuẩn phân lập được là Staphylococcus aureus.<br><b>💡 Barem:</b> Cần cảnh giác biến chứng chèn ép rễ thần kinh và áp xe ngoài màng cứng.",
-      "extra": "Giáo trình Nhi khoa, mục Viêm đĩa đệm (trang 82).",
+      "category": "Cận lâm sàng giáo trình",
+      "front": "Ý nghĩa của xét nghiệm Men cơ (CK) và Men gan (AST, ALT) trong tiếp cận chẩn đoán trẻ đau khớp theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Men cơ (Creatine Kinase - CK): Tăng rất cao trong Viêm da cơ vị thành niên (JDM) do tổn thương hủy hoại sợi cơ vân, giúp phân biệt với bệnh khớp đơn thuần.<br>2) Men gan (AST, ALT): Tăng trong bệnh lý tự miễn thể hệ thống (Lupus, Still), nhiễm trùng toàn thân, hoặc phát hiện độc tính của thuốc điều trị (NSAID, Methotrexate) trên tế bào gan.<br><br><b>💡 Giải thích của AI:</b><br>Men cơ là xét nghiệm chỉ điểm sống còn khi nghi ngờ viêm da cơ ở trẻ có yếu cơ vùng gốc chi kèm đau khớp.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 84, Mục 3 - Cận lâm sàng)",
       "tags": [
         "PED-54",
-        "Barem-goc"
+        "Barem-goc",
+        "Men-co-CK",
+        "Men-gan"
       ]
     },
     {
-      "id": "PED54-B69",
-      "type": "cloze",
-      "section": "B6",
-      "category": "Viêm khớp trong bệnh Lyme",
-      "text": "[Barem gốc] Viêm khớp trong bệnh Lyme thứ phát sau nhiễm {{c1::Borrelia burgdorferi do ve cắn}}, chẩn đoán dựa vào sự hiện diện của IgM, điều trị bằng {{c1::amoxicilline trong 4 tuần}}.",
-      "extra": "Giáo trình Nhi khoa, mục Viêm khớp trong bệnh Lyme (trang 82).",
-      "tags": [
-        "PED-54",
-        "Barem-goc"
-      ]
-    },
-    {
-      "id": "PED54-B70",
-      "type": "cloze",
-      "section": "B6",
-      "category": "Các virus gây bệnh khớp",
-      "text": "[Barem gốc] Các virus có thể gây ra bệnh khớp ở trẻ em gồm: {{c1::rubella, quai bị, varicella, parvovirus, adenovirus, EBV và HIV}}.",
-      "extra": "Giáo trình Nhi khoa, mục Nhiễm trùng toàn thân (trang 82).",
-      "tags": [
-        "PED-54",
-        "Barem-goc"
-      ]
-    },
-    {
-      "id": "PED54-B71",
-      "type": "cloze",
+      "id": "PED54-B41",
+      "track": "barem_goc",
+      "type": "basic",
       "section": "B7",
-      "category": "Khoảng cách khởi phát Thấp tim",
-      "text": "[Barem gốc] Sốt thấp khớp cấp tính (thấp tim) thường xảy ra sau khi bị nhiễm liên cầu khuẩn nhóm A đường họng khoảng {{c1::2 hoặc 3 tuần}}.",
-      "extra": "Giáo trình Nhi khoa, mục Sốt thấp khớp cấp tính (trang 83).",
+      "category": "Điều trị giáo trình",
+      "front": "Chỉ định sinh thiết màng hoạt dịch khớp và sinh thiết xương trong bệnh lý cơ xương khớp nhi theo giáo trình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sinh thiết màng hoạt dịch khớp: Chỉ định để chẩn đoán xác định các trường hợp viêm khớp mạn tính kéo dài không đáp ứng điều trị, hoặc nghi ngờ nhiễm trùng không điển hình (Lao khớp, nhiễm nấm).<br>2) Sinh thiết xương: Chỉ định khi nghi ngờ Viêm tủy xương mạn tính hoặc tổn thương nghi ngờ u xương ác tính.<br><br><b>💡 Giải thích của AI:</b><br>Sinh thiết mô bệnh học và nuôi cấy mô sinh thiết là tiêu chuẩn vàng cuối cùng để tìm vi khuẩn lao (AFB) hoặc tế bào u xương.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 85, Mục 4 - Điều trị)",
       "tags": [
         "PED-54",
-        "Barem-goc"
+        "Barem-goc",
+        "Sinh-thiet",
+        "Phau-thuat"
       ]
     },
     {
-      "id": "PED54-B72",
+      "id": "PED54-E15",
+      "ebm": true,
+      "track": "ebm",
       "type": "basic",
-      "section": "B7",
-      "category": "Hội chứng đau Patellofemoral",
-      "front": "Hội chứng đau Patellofemoral (chondromalacia patellae) có đặc điểm lâm sàng và biện pháp cải thiện như thế nào theo sách?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Đau đầu gối hai bên liên quan đến hoạt động, ngồi lâu hoặc đứng lâu; bài tập tăng cường cơ tứ đầu đùi và cơ phụ tạo cải thiện rõ rệt.<br><b>💡 Barem:</b> Là nguyên nhân phổ biến gây đau khớp gối ở trẻ em và thanh thiếu niên.",
-      "extra": "Giáo trình Nhi khoa, mục Nguyên nhân khác (trang 83-84).",
+      "section": "E1",
+      "category": "Khám khớp háng ở trẻ khập khiễng",
+      "front": "2 nghiệm pháp khám khớp háng đặc thù (FABER / Patrick test và Log-roll test) thực hiện như thế nào và có ý nghĩa gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nghiệm pháp Log-roll (Lăn đùi): Bệnh nhân nằm ngửa, người khám dùng hai tay xoay nhẹ đùi vào trong và ra ngoài quanh trục dài. Nếu trẻ kêu đau hoặc co cứng cơ → biểu hiện kích thích màng hoạt dịch khớp háng (dấu hiệu nhạy nhất của viêm bao khớp háng).<br>2) Nghiệm pháp FABER (Patrick test): Đặt chân bên đau bắt chéo lên gối bên lành (Flexion, ABduction, External Rotation). Người khám ấn nhẹ gối xuống mặt giường. Đau ở háng/mông → tổn thương tại khớp háng hoặc khớp cùng chậu.<br><br><b>💡 Giải thích của AI:</b><br>Log-roll test là nghiệm pháp ít gây đau nhất nhưng nhạy nhất để xác định đau có thực sự xuất phát từ khớp háng hay không.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Khám khớp háng đặc thù (Phần I.3)",
       "tags": [
         "PED-54",
-        "Barem-goc"
+        "EBM",
+        "FABER",
+        "Log-roll"
       ]
     },
     {
-      "id": "PED54-B73",
-      "type": "cloze",
-      "section": "B8",
-      "category": "Gãy xương do căng thẳng",
-      "text": "[Barem gốc] Gãy xương do căng thẳng (stress fracture) không phổ biến ở trẻ em bình thường mà thường gặp ở {{c1::vận động viên bị đau xương hoặc khớp mãn tính}}.",
-      "extra": "Giáo trình Nhi khoa, mục Nguyên nhân khác (trang 84).",
-      "tags": [
-        "PED-54",
-        "Barem-goc"
-      ]
-    },
-    {
-      "id": "PED54-B74",
-      "type": "cloze",
-      "section": "B8",
-      "category": "Chỉ định xét nghiệm ASO",
-      "text": "[Barem gốc] Xét nghiệm định lượng kháng thể kháng liên cầu ASO được chỉ định khi trẻ có biểu hiện đau khớp ở lứa tuổi {{c1::5 đến 15 tuổi}}.",
-      "extra": "Giáo trình Nhi khoa, mục 3. Cận lâm sàng (trang 84).",
-      "tags": [
-        "PED-54",
-        "Barem-goc"
-      ]
-    },
-    {
-      "id": "PED54-B75",
+      "id": "PED54-E16",
+      "ebm": true,
+      "track": "ebm",
       "type": "basic",
-      "section": "B8",
-      "category": "Kháng viêm trong điều trị đau khớp",
-      "front": "Hai nhóm thuốc kháng viêm chính được sử dụng để điều trị đau khớp ở trẻ em theo giáo trình là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thuốc chống viêm không steroid (NSAID) và Corticoid.<br><b>💡 Barem:</b> Kết hợp bảo tồn chức năng khớp bằng vật lý trị liệu phục hồi chức năng.",
-      "extra": "Giáo trình Nhi khoa, mục 4. Điều trị (trang 85).",
+      "section": "E3",
+      "category": "JIA - Viêm điểm bám gân (ERA)",
+      "front": "Đặc điểm bệnh cảnh của JIA thể Viêm điểm bám gân (Enthesitis-Related Arthritis - ERA) theo tiêu chuẩn ILAR?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đối tượng: Thường gặp ở bé trai trên 6 tuổi (đỉnh cao tuổi dậy thì), mang kháng nguyên HLA-B27.<br>2) Vị trí tổn thương: Viêm các khớp lớn chi dưới (khớp gối, cổ chân) KÈM VIÊM ĐIỂM BÁM GÂN (ấn đau chói ở chỗ bám gân gót Achilles, gân gan chân, lồi củ chày).<br>3) Tiêu chuẩn hỗ trợ: Tiền sử gia đình có người mắc viêm cột sống dính khớp, vảy nến hoặc viêm màng bồ đào cấp.<br><br><b>💡 Giải thích của AI:</b><br>ERA là tiền thân ở tuổi thiếu niên của bệnh Viêm cột sống dính khớp ở người lớn.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — JIA thể ERA theo ILAR (Phần IV.2)",
       "tags": [
         "PED-54",
-        "Barem-goc"
+        "EBM",
+        "ERA",
+        "Enthesitis",
+        "HLA-B27"
+      ]
+    },
+    {
+      "id": "PED54-E17",
+      "ebm": true,
+      "track": "ebm",
+      "type": "basic",
+      "section": "E4",
+      "category": "Bệnh Still thể hệ thống",
+      "front": "Tam chứng lâm sàng kinh điển của JIA thể Hệ thống (Bệnh Still trẻ em) là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm tam chứng kinh điển:<br>1) Sốt cao hình gai (Spiking fever): Sốt cao cơn 39 - 40°C hàng ngày (thường 1 - 2 cơn/ngày vào chiều tối), giữa các cơn sốt thân nhiệt về bình thường.<br>2) Ban hồng cá hồi thoáng qua (Evanescent salmon-pink rash): Ban dát sẩn màu hồng cá hồi xuất hiện theo cơn sốt và tự lặn biến mất khi hết sốt.<br>3) Viêm khớp: Viêm nhiều khớp hoặc đau khớp dữ dội.<br>• Kèm theo: Hạch to toàn thân, gan lách to, viêm thanh mạc (tràn dịch màng phổi, màng tim).<br><br><b>💡 Giải thích của AI:</b><br>Đặc tính 'ban xuất hiện khi sốt, lặn khi hạ sốt' là dấu hiệu nhận diện độc nhất vô nhị của bệnh Still.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Bệnh Still trẻ em (Phần IV.2)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "Still",
+        "Sot-hinh-gai",
+        "Ban-ca-hoi"
+      ]
+    },
+    {
+      "id": "PED54-E18",
+      "ebm": true,
+      "track": "ebm",
+      "type": "basic",
+      "section": "E5",
+      "category": "Chẩn đoán hình ảnh khớp háng",
+      "front": "Vì sao khi nghi ngờ Trượt đầu trên xương đùi (SCFE), bắt buộc phải chụp X-quang khớp háng tư thế Chân ếch (Frog-leg lateral view)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hạn chế của phim thẳng: Trên phim X-quang khung chậu thẳng (AP view), chỏm xương đùi bị trượt ra phía sau và vào trong nên ở giai đoạn sớm tổn thương có thể bị bóng cổ xương đùi che khuất, rất dễ bị bỏ sót.<br>• Ưu thế phim Chân ếch (Frog-leg view): Khi cho trẻ nằm gập và dạng xoay ngoài khớp háng, diện trượt phía sau của chỏm đùi bộc lộ rõ nhất, cho phép phát hiện sớm độ trượt qua dấu hiệu đường Klein.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ định chụp X-quang háng thẳng VÀ chân ếch hai bên là quy tắc vàng không được bỏ qua khi tiếp cận trẻ khập khiễng tuổi dậy thì.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Chẩn đoán hình ảnh SCFE (Phần V.1)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "SCFE",
+        "Frog-leg"
+      ]
+    },
+    {
+      "id": "PED54-E19",
+      "ebm": true,
+      "track": "ebm",
+      "type": "basic",
+      "section": "E6",
+      "category": "Legg-Calvé-Perthes",
+      "front": "4 giai đoạn tiến triển trên X-quang của Bệnh Legg-Calvé-Perthes (Hoại tử vô mạch chỏm xương đùi)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giai đoạn 1 (Thiếu máu & Đặc xương): Chỏm xương đùi đặc lại, khe khớp háng rộng ra do sụn dày lên.<br>2) Giai đoạn 2 (Phân mảnh / Vỡ vụn): Chỏm xương đùi bị vỡ thành nhiều mảnh, xẹp lún chiều cao chỏm.<br>3) Giai đoạn 3 (Tái tạo / Tái cốt hóa): Mạch máu và mô xương mới mọc vào thay thế, chỏm xương dần liền lại.<br>4) Giai đoạn 4 (Di chứng / Lành bệnh): Chỏm xương đùi lành lại với hình dạng bình thường hoặc bị biến dạng dẹt (Coxa plana) gây thoái hóa khớp sớm.<br><br><b>💡 Giải thích của AI:</b><br>Quá trình tự sửa chữa của bệnh Perthes kéo dài từ 2 đến 4 năm; mục tiêu điều trị chỉnh hình là duy trì chỏm đùi nằm gọn trong ổ cối (Containment) trong giai đoạn chỏm bị mềm vỡ.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Bệnh Legg-Calvé-Perthes (Phần V.2)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "Perthes",
+        "4-giai-doan"
+      ]
+    },
+    {
+      "id": "PED54-E20",
+      "ebm": true,
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Cờ đỏ ác tính - Bạch cầu cấp",
+      "front": "Các đặc điểm lâm sàng và xét nghiệm giúp phân biệt Đau xương khớp do Bạch cầu cấp (ALL) với Viêm khớp tự phát thiếu niên (JIA)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Gợi ý Bạch cầu cấp (ALL):<br>1) Đau xương (đặc biệt đau hành xương) nhiều hơn đau khớp; đau dữ dội về đêm đánh thức trẻ dậy.<br>2) Mức độ đau không tương xứng với tình trạng sưng khớp (khớp sưng ít nhưng đau khóc thét).<br>3) Thiếu máu và giảm tiểu cầu (xuất huyết dưới da).<br>4) Tỷ lệ Axit uric và LDH máu tăng rất cao.<br>5) Nồng độ Ferritin tăng cao bất thường.<br>• JIA: Thường cứng khớp buổi sáng, đau khớp tương xứng với sưng khớp, số lượng tiểu cầu thường TĂNG PHẢN ỨNG (không bao giờ giảm).<br><br><b>💡 Giải thích của AI:</b><br>Quy tắc cảnh giác: Một trẻ viêm khớp mà có số lượng tiểu cầu giảm hoặc nồng độ LDH máu tăng vọt → nghi ngờ ung thư máu ngay lập tức, cấm dùng Corticoid.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Cờ đỏ ung thư máu ALL (Phần V.4)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "ALL",
+        "Ung-thu-mau"
+      ]
+    },
+    {
+      "id": "PED54-E21",
+      "ebm": true,
+      "track": "ebm",
+      "type": "basic",
+      "section": "E8",
+      "category": "Thuật toán tiếp cận tại giường",
+      "front": "3 bước trong Thuật toán tiếp cận chẩn đoán nhanh một trẻ bị Đau khớp / Đi khập khiễng cấp tính tại giường bệnh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bước 1: Sàng lọc Cờ đỏ Cấp cứu (Sốt cao rét run, không tì đè được chân, đau đêm, sụt cân) → Nếu có: Xét nghiệm máu cấp cứu, X-quang và đánh giá Thang điểm Kocher để loại trừ Viêm mủ khớp háng trong 6 giờ đầu.<br>• Bước 2: Khám xác định vị trí tổn thương thực thể (Loại trừ đau quy chiếu khớp háng, chấn thương, SCFE, Osgood-Schlatter, viêm đĩa đệm).<br>• Bước 3: Phân nhóm thời gian và tính chất viêm:<br>1) Dưới 6 tuần: Viêm khớp nhiễm khuẩn, Viêm màng hoạt dịch thoáng qua, Thấp tim, Viêm khớp phản ứng.<br>2) Trên 6 tuần: Viêm khớp tự phát thiếu niên (JIA), Bệnh tự miễn hệ thống (Lupus).<br><br><b>💡 Giải thích của AI:</b><br>Mốc 6 tuần là ranh giới vàng quốc tế: &lt; 6 tuần là cấp tính (nghĩ nhiễm trùng/sau nhiễm trùng/cơ học); ≥ 6 tuần là mạn tính (nghĩ JIA/tự miễn).",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Thuật toán tiếp cận tại giường (Phần VI)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "Thuat-toan",
+        "6-tuan"
+      ]
+    },
+    {
+      "id": "PED54-E22",
+      "ebm": true,
+      "track": "ebm",
+      "type": "basic",
+      "section": "E8",
+      "category": "Dược lý an toàn",
+      "front": "Nguyên tắc lựa chọn và lưu ý an toàn của thuốc sinh học (Biologic DMARDs) trong điều trị JIA hiện đại?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Các nhóm thuốc sinh học:<br>1) Kháng TNF-alpha (Etanercept, Adalimumab): Ưu tiên cho JIA thể đa khớp và thể viêm điểm bám gân kháng Methotrexate.<br>2) Kháng IL-6 (Tocilizumab) và Kháng IL-1 (Anakinra, Canakinumab): Lựa chọn hàng đầu cho JIA thể hệ thống (bệnh Still).<br>• 2 lưu ý an toàn sinh tử:<br>1) Bắt buộc tầm soát Lao tiềm ẩn (chụp X-quang phổi và xét nghiệm IGRA / Mantoux) và Viêm gan B trước khi bắt đầu dùng.<br>2) Đình chỉ tạm thời thuốc sinh học ngay khi trẻ có biểu hiện nhiễm trùng cấp tính sốt cao.<br><br><b>💡 Giải thích của AI:</b><br>Thuốc sinh học đã làm thay đổi hoàn toàn diện mạo điều trị JIA, giúp trẻ tránh khỏi tàn phế khớp mà không phải chịu tác dụng phụ làm lùn xương của Corticoid kéo dài.",
+      "extra": "📖 Nguồn: EBM Lâm sàng — Dược lý an toàn trong JIA (Phần VIII)",
+      "tags": [
+        "PED-54",
+        "EBM",
+        "Thuoc-sinh-hoc",
+        "Biologics"
       ]
     }
   ]

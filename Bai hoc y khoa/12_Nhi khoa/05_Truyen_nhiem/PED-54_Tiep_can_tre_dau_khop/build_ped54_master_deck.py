@@ -23,7 +23,10 @@ DECK_NAME = "Nhi khoa Y6::PED-54: Tiếp cận trẻ đau khớp"
 JSON_PATH = TARGET_DIR / "PED-54_Tiep_can_tre_dau_khop_MASTER_v1.cards.v2.json"
 APKG_PATH = TARGET_DIR / "PED-54_Tiep_can_tre_dau_khop_MASTER_v1.apkg"
 
-REQUIRED_SECTIONS = ["B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8"]
+REQUIRED_SECTIONS = [
+    "B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7",
+    "E0", "E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8"
+]
 
 CSS_STYLE = """
 .card {
