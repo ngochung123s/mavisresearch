@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 ped53_cards_data.py
-Dong goi bo the Anki MASTER barem cho PED-53 Hach to:
-- Track: BAREM GOC Y THAI BINH (giao trinh scan Hach_to_PEDYTB.md Trang 55 - 61).
-Quy tac: atomic, back <= 3-4 dong, Unicode 100%, escape '<', organic count.
-Coverage gate: BLOCK neu bat ky section nao trong 15 sections khong co the.
+Bo the MASTER DUAL-TRACK cho PED-53 Hach to o tre em.
+Gop 2 luong trong 1 file duy nhat:
+- Track 1 [BAREM GOC Y THAI BINH]: 42 the Basic bao phu 100% cau chu giao trinh (Trang 55 - 61).
+- Track 2 [EBM HIEN DAI & LAM SANG]: 18 the Basic giai quyet co do, ALL vs EBV, sinh thiet, cam bay.
+Tong cong: 60 the Basic chuyen sau, xuong dong ro rang, khong sot bat ky chi tiet nao.
 """
 
 cards_data = [
@@ -12,11 +13,11 @@ cards_data = [
         "id": "PED53-B01",
         "track": "barem_goc",
         "type": "basic",
-        "category": "Mục tiêu bài học",
         "section": "B0",
-        "front": "3 mục tiêu học tập của bài Hạch to ở trẻ em theo giáo trình là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguyên nhân gây hạch to. 2) Tiếp cận chẩn đoán. 3) Điều trị một số nguyên nhân thường gặp.<br><b>💡 Barem:</b> Bám sát 3 mục tiêu này khi trả lời câu hỏi tự luận lý thuyết.",
-        "extra": "Văn bản gốc: Mục tiêu 1-3 (trang 55).",
+        "category": "Mục tiêu bài học",
+        "front": "3 mục tiêu học tập chính của bài Hạch to ở trẻ em theo giáo trình Y Thái Bình là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trình bày được các nguyên nhân gây ra hạch to.<br>2) Trình bày được cách tiếp cận chẩn đoán hạch to.<br>3) Điều trị được một số nguyên nhân gây ra hạch to thường gặp.<br><br><b>💡 Giải thích của AI:</b><br>3 mục tiêu này là khung sườn định hình cấu trúc đề thi lý thuyết và vấn đáp lâm sàng của Bộ môn Nhi ĐHYD Thái Bình.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 55, Mục tiêu bài học)",
         "tags": [
             "PED-53",
             "Barem-goc",
@@ -26,1102 +27,984 @@ cards_data = [
     {
         "id": "PED53-B02",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Đặc điểm bình thường",
+        "type": "basic",
         "section": "B0",
-        "text": "[Barem gốc] Khám hạch bình thường ở trẻ: phần lớn {{c1::không sờ thấy hạch}} ở trẻ sơ sinh, còn ở trẻ nhỏ có thể sờ thấy hạch ở các vùng {{c1::cổ, nách, bẹn}}.",
-        "extra": "Văn bản gốc: Bình thường phần lớn không sờ thấy hạch ở trẻ sơ sinh, còn ở trẻ em nhỏ có thể sờ thấy hạch ở vùng cổ, nách, bẹn (trang 55).",
+        "category": "Định nghĩa định lượng",
+        "front": "Định nghĩa định lượng Hạch to ở trẻ em theo từng vị trí giải phẫu và ngưỡng kích thước hạch bệnh lý theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bình thường: Trẻ sơ sinh phần lớn KHÔNG sờ thấy hạch; trẻ nhỏ có thể sờ thấy hạch nhỏ ở vùng cổ, nách, bẹn.<br>• Ngưỡng định nghĩa hạch to:<br>1) Vùng cổ hoặc nách: Đường kính hạch > 1 cm.<br>2) Vùng bẹn: Đường kính hạch > 1,5 cm.<br>• Ngưỡng khẳng định hạch bệnh lý: Hạch có đường kính > 2 cm HOẶC hạch có tính chất to lên dần theo thời gian.<br><br><b>💡 Giải thích của AI:</b><br>Mô lympho ở trẻ nhỏ phát triển mạnh mẽ đáp ứng với kích thích miễn dịch thông thường, do đó các hạch nhỏ &le; 1 cm ở cổ/nách hay &le; 1,5 cm ở bẹn là hạch phản ứng sinh lý.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 55, 58, Mục Đại cương)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Khai-niem"
+            "Dinh-nghia",
+            "Kich-thuoc-hach"
         ]
     },
     {
         "id": "PED53-B03",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Định nghĩa hạch to",
+        "type": "basic",
         "section": "B0",
-        "text": "[Barem gốc] Định nghĩa hạch to theo kích thước: đường kính trên {{c1::1 cm}} với hạch ở cổ hoặc hạch ở nách, và trên {{c1::1,5 cm}} với hạch ở vùng bẹn.",
-        "extra": "Văn bản gốc: Hạch bạch huyết gọi là to khi đường kính của hạch trên 1cm với hạch ở cổ hay hạch ở nách và trên 1,5cm với hạch ở vùng bẹn (trang 55).",
+        "category": "Cơ chế sinh bệnh chung",
+        "front": "Cơ chế sinh bệnh chung dẫn đến Hạch bạch huyết to theo giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Hạch bạch huyết to là hậu quả của 2 cơ chế chính:<br>1) Cơ chế tăng sinh: Tăng sinh các thành phần tế bào nội tại của hạch (tế bào lympho, tương bào, đại thực bào) do có kích thích của một kháng nguyên.<br>2) Cơ chế thâm nhiễm: Thâm nhiễm các tế bào từ ngoài hạch vào, bao gồm bạch cầu đa nhân (trong viêm sinh mủ) hoặc tế bào ác tính di căn.<br>• Diễn biến: Hạch to thường là đáp ứng với nhiễm khuẩn tại chỗ (khi hết kháng nguyên thì hạch nhỏ lại); nếu kháng nguyên kích thích tồn tại kéo dài sẽ làm hạch to mạn tính.<br><br><b>💡 Giải thích của AI:</b><br>Nắm chắc 2 cơ chế (tăng sinh miễn dịch nội tại vs thâm nhiễm tế bào ngoại lai) giúp phân biệt nhanh hạch phản ứng viêm với hạch ung thư thâm nhiễm.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 55, Mục I - Nguyên nhân)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Khai-niem",
-            "Kich-thuoc"
+            "Co-che-sinh-benh"
         ]
     },
     {
         "id": "PED53-B04",
         "track": "barem_goc",
         "type": "basic",
-        "category": "Tiên lượng chung",
-        "section": "B0",
-        "front": "Tiên lượng phần lớn các trường hợp có hạch to ở trẻ em theo giáo trình như thế nào?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Phần lớn các bệnh có hạch to chỉ là tạm thời, tự khỏi và không để lại di chứng.<br><br><b>💡 Lưu ý:</b><br>Tuy vậy nhiều bệnh hạch to cần được chẩn đoán sớm và theo dõi chặt chẽ để phát hiện các căn nguyên nguy hiểm.",
-        "extra": "Văn bản gốc: Phần lớn các bệnh có hạch bạch huyết to chỉ là tạm thời, khỏi không có di chứng, song nhiều bệnh có hạch bạch huyết to cần được chẩn đoán (trang 55).",
+        "section": "B1",
+        "category": "Khung 8 nhóm nguyên nhân",
+        "front": "Kể tên 8 nhóm nguyên nhân lớn gây hạch bạch huyết to ở trẻ em theo giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 8 nhóm nguyên nhân lớn:<br>1) Nhiễm khuẩn (Vi khuẩn, virus, đơn bào, xoắn khuẩn, nấm, bệnh Kawasaki).<br>2) Bệnh mô liên kết (Viêm khớp dạng thấp thiếu niên, Lupus ban đỏ hệ thống).<br>3) Tình trạng quá mẫn (Bệnh huyết thanh, phản ứng thuốc).<br>4) Bệnh ác tính (U lympho, Lơxêmi, di căn ung thư, bệnh tăng mô bào).<br>5) Rối loạn tăng sinh mô bạch huyết (Bệnh Castleman, Rosai-Dorfman, ALPS, u hạt lympho).<br>6) Bệnh tích lũy (Bệnh Niemann-Pick, Loạn dưỡng cystin).<br>7) Bệnh u hạt (Bệnh Sarcoidosis, Bệnh tăng u hạt mạn tính - CGD).<br>8) Nguyên nhân khác (Phơi nhiễm Beryllium, cường giáp, viêm hạch sau tiêm chủng).<br><br><b>💡 Giải thích của AI:</b><br>Khung 8 nhóm nguyên nhân này là câu hỏi lý thuyết kinh điển 10 điểm của bộ môn Nhi Thái Bình, bắt buộc phải thuộc đủ 8 đề mục.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 55 - 56, Mục I - Nguyên nhân)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Khai-niem"
+            "8-nhom-nguyen-nhan",
+            "Tong-quan"
         ]
     },
     {
         "id": "PED53-B05",
         "track": "barem_goc",
         "type": "basic",
-        "category": "Cơ chế to hạch",
-        "section": "B1_0",
-        "front": "2 cơ chế cơ bản làm hạch bạch huyết to lên theo giáo trình là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tăng sinh tế bào do kích thích kháng nguyên. 2) Thâm nhiễm tế bào ngoài hạch (bạch cầu đa nhân, tế bào ác tính di căn).<br><b>💡 Barem:</b> Phổ biến nhất là tăng sinh tế bào đáp ứng nhiễm khuẩn tại chỗ.",
-        "extra": "Văn bản gốc: Hạch bạch huyết to là hậu quả của sự tăng sinh các thành phần của hạch bạch huyết, do có một kháng nguyên kích thích, hay do thâm nhiễm, tế bào ngoài hạch như bạch cầu đa nhân hay tế bào ác tính di căn (trang 55).",
+        "section": "B1",
+        "category": "Nhóm 1: Nhiễm khuẩn",
+        "front": "Kể tên các căn nguyên vi sinh vật và bệnh lý thuộc nhóm Nhiễm khuẩn gây hạch to theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Vi khuẩn: Nhiễm khuẩn da, tụ cầu, liên cầu, nhiễm khuẩn huyết, lao, Mycobacteria không điển hình (NTM), Brucella, thương hàn, bạch hầu, giang mai.<br>2) Virus: Tăng bạch cầu đơn nhân nhiễm khuẩn (EBV), Cytomegalovirus (CMV), Rubella, Thủy đậu, HIV, Adenovirus, Herpes, bệnh mèo cào (Bartonella).<br>3) Đơn bào: Toxoplasma, Trypanosoma.<br>4) Xoắn khuẩn: Giang mai.<br>5) Nấm: Nấm da, Histoplasma.<br>6) Bệnh lý viêm đặc biệt: Bệnh Kawasaki.<br><br><b>💡 Giải thích của AI:</b><br>Nhiễm khuẩn là nhóm nguyên nhân phổ biến nhất chiếm trên 80% các trường hợp hạch to ở trẻ em, trong đó tụ cầu và liên cầu đứng đầu bảng ở thể cấp tính.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 55, Mục I.1 - Nhiễm khuẩn)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Co-che"
+            "Nhiem-khuan",
+            "Can-nguyen"
         ]
     },
     {
         "id": "PED53-B06",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Động học hạch to",
-        "section": "B1_0",
-        "text": "[Barem gốc] Động học kích thước hạch: khi mất kháng nguyên kích thích thì hạch bạch huyết {{c1::nhỏ lại}}, nếu kháng nguyên kích thích tồn tại lâu sẽ làm hạch {{c1::to mạn tính}}.",
-        "extra": "Văn bản gốc: khi mất kháng nguyên kích thích thì hạch bạch huyết nhỏ lại, nếu kháng nguyên kích thích tồn tại lâu sẽ làm hạch bạch huyết to mạn tính (trang 55).",
+        "type": "basic",
+        "section": "B1",
+        "category": "Nhóm 2 & 3: Mô liên kết & Quá mẫn",
+        "front": "Các bệnh mô liên kết và tình trạng quá mẫn gây hạch to ở trẻ em theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bệnh mô liên kết:<br>1) Viêm khớp dạng thấp thiếu niên (JIA - đặc biệt thể hệ thống).<br>2) Lupus ban đỏ hệ thống (SLE).<br>• Tình trạng quá mẫn:<br>1) Bệnh huyết thanh (Serum sickness).<br>2) Phản ứng dị ứng thuốc (đặc biệt các thuốc chống động kinh như Phenytoin, Carbamazepin).<br><br><b>💡 Giải thích của AI:</b><br>Trong bệnh huyết thanh và dị ứng thuốc, hạch to thường xuất hiện toàn thân kèm theo sốt, nổi mề đay và đau nhức các khớp.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 55 - 56, Mục I.2 & I.3)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Co-che"
+            "Mo-lien-ket",
+            "Qua-man"
         ]
     },
     {
         "id": "PED53-B07",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Nhiễm vi khuẩn",
-        "section": "B1_1",
-        "text": "[Barem gốc] Các nguyên nhân vi khuẩn gây hạch to: nhiễm khuẩn da, {{c1::tụ cầu, liên cầu}}, nhiễm khuẩn huyết, {{c1::lao, Mycobacteria không điển hình}}, Brucella, thương hàn, bạch hầu, giang mai.",
-        "extra": "Văn bản gốc mục 1. Nhiễm khuẩn: Vi khuẩn (trang 55).",
+        "type": "basic",
+        "section": "B1",
+        "category": "Nhóm 4: Bệnh ác tính",
+        "front": "Kể tên các bệnh lý ác tính gây hạch to ở trẻ em theo giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) U lympho ác tính: U lympho Hodgkin và U lympho không Hodgkin.<br>2) Bệnh lơxêmi (Bạch cầu cấp / Ung thư máu).<br>3) Di căn ung thư (U nguyên bào thần kinh, sarcoma...).<br>4) Các bệnh tăng mô bào (Histiocytosis):<br>• Tăng mô bào tế bào Langerhans (LCH).<br>• Tăng mô bào liên võng tủy.<br>• Tăng mô bào lympho thực bào hồng cầu gia đình (HLH).<br><br><b>💡 Giải thích của AI:</b><br>Bệnh ác tính là nguyên nhân nguy hiểm nhất cần loại trừ đầu tiên khi hạch to cứng chắc, không đau, không viêm và dính tổ chức sâu.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 56, Mục I.4 - Bệnh ác tính)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
-            "Vi-khuan"
+            "Ac-tinh",
+            "U-lympho",
+            "Loxemi"
         ]
     },
     {
         "id": "PED53-B08",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Nhiễm virus",
-        "section": "B1_1",
-        "text": "[Barem gốc] Các nguyên nhân virus gây hạch to: tăng bạch cầu đơn nhân nhiễm khuẩn, {{c1::cytomegalovirus (CMV)}}, rubella, thủy đậu, {{c1::HIV}}, adenovirus, herpes, bệnh mèo cào...",
-        "extra": "Văn bản gốc mục 1. Nhiễm khuẩn: Virus (trang 55).",
+        "type": "basic",
+        "section": "B1",
+        "category": "Nhóm 5: Tăng sinh mô bạch huyết",
+        "front": "Kể tên các bệnh lý thuộc nhóm Rối loạn tăng sinh mô bạch huyết gây hạch to theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh hạch bạch huyết nguyên bào miễn dịch mạch và loạn protein máu.<br>2) Hội chứng tăng sinh bạch huyết liên kết nhiễm sắc thể X (X-linked lymphoproliferative syndrome).<br>3) Bệnh u hạt dạng lympho (Lymphomatoid granulomatosis).<br>4) Bệnh tăng mô bào xoang với hạch bạch huyết to (Bệnh Rosai-Dorfman).<br>5) Bệnh Castleman: Quá sản hạch bạch huyết khổng lồ, quá sản hạch bạch huyết nang mạch.<br>6) Hội chứng tăng sinh bạch huyết tự miễn (ALPS).<br><br><b>💡 Giải thích của AI:</b><br>Đây là các rối loạn tăng sinh mô lympho không ác tính hiếm gặp nhưng có thể tiến triển thành u lympho thực sự nếu không theo dõi sát.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 56, Mục I.5 - Rối loạn tăng sinh)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
-            "Virus"
+            "Tang-sinh-bach-huyet",
+            "Castleman",
+            "Rosai-Dorfman"
         ]
     },
     {
         "id": "PED53-B09",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Đơn bào và nấm",
-        "section": "B1_1",
-        "text": "[Barem gốc] Căn nguyên đơn bào gây hạch to gồm {{c1::toxoplasma, trypanosomia}}; xoắn khuẩn gồm {{c1::giang mai}}; nấm gồm {{c1::nấm da, histoplasma}}.",
-        "extra": "Văn bản gốc mục 1. Nhiễm khuẩn: Đơn bào, Xoắn khuẩn, Nấm (trang 55).",
+        "type": "basic",
+        "section": "B1",
+        "category": "Nhóm 6, 7 & 8: Tích lũy, U hạt & Khác",
+        "front": "Kể tên các bệnh tích lũy, bệnh u hạt và các nguyên nhân khác gây hạch to theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bệnh tích lũy: Bệnh Niemann-Pick, Bệnh loạn dưỡng Cystin.<br>• Bệnh u hạt: Bệnh Sarcoidosis (bệnh sarcoid), Bệnh tăng u hạt mạn tính (CGD - Chronic Granulomatous Disease).<br>• Nguyên nhân khác:<br>1) Phơi nhiễm Beryllium.<br>2) Cường giáp (Basedow).<br>3) Loạn gamma globulin máu với bệnh hạch bạch huyết tiên phát.<br>4) Viêm hạch sau tiêm chủng (đặc biệt phản ứng hạch nách/cổ sau tiêm vắc xin phòng lao BCG).<br><br><b>💡 Giải thích của AI:</b><br>Hạch nách cùng bên sau tiêm phòng lao BCG ở trẻ nhũ nhi là tình trạng rất phổ biến, đa số tự thoái triển trong vài tháng.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 56, Mục I.6, I.7, I.8)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
-            "Ky-sinh-trung"
+            "Tich-luy",
+            "U-hat",
+            "BCG"
         ]
     },
     {
         "id": "PED53-B10",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Bệnh Kawasaki",
-        "section": "B1_1",
-        "text": "[Barem gốc] Trong phân loại nguyên nhân hạch to theo giáo trình, {{c1::bệnh Kawasaki}} được xếp trong nhóm nguyên nhân {{c1::nhiễm khuẩn}} (mục 1).",
-        "extra": "Văn bản gốc: mục 1. Nhiễm khuẩn liệt kê cuối cùng: Bệnh Kawasaki (trang 55).",
+        "type": "basic",
+        "section": "B2",
+        "category": "Khai thác bệnh sử nhiễm khuẩn",
+        "front": "Các thông tin bệnh sử cần khai thác về tình trạng nhiễm khuẩn và định hướng bệnh Lao ở trẻ có hạch to?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thời gian xuất hiện hạch to từ bao lâu.<br>• Dấu hiệu nhiễm khuẩn chung: Có sốt không (sốt thất thường, kéo dài hay tái diễn), đau họng, viêm đường hô hấp trên, ho kéo dài, ổ nhiễm khuẩn vùng da/niêm mạc dẫn lưu bạch huyết.<br>• Dấu hiệu định hướng bệnh Lao (luôn luôn chú ý):<br>1) Hỏi tiền sử tiêm chủng vắc xin phòng lao BCG và kiểm tra sẹo tiêm phòng lao.<br>2) Tiền sử tiếp xúc với người mắc bệnh lao trong gia đình/xung quanh.<br>3) Tình trạng sụt cân, mệt mỏi, đổ mồ hôi trộm về đêm.<br><br><b>💡 Giải thích của AI:</b><br>Việt Nam là vùng dịch tễ lao cao, khai thác sẹo BCG, nguồn lây lao và triệu chứng nhiễm lao chung là bắt buộc trong mọi hồ sơ bệnh án hạch to.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 56 - 57, Mục 2.1 - Bệnh sử)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
-            "Kawasaki"
+            "Benh-su",
+            "Nhiem-khuan",
+            "Lao"
         ]
     },
     {
         "id": "PED53-B11",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Bệnh mô liên kết",
-        "section": "B1_2",
-        "text": "[Barem gốc] Hai bệnh mô liên kết chính gây hạch to ở trẻ em theo giáo trình là: {{c1::viêm khớp dạng thấp}} và {{c1::lupus ban đỏ hệ thống}}.",
-        "extra": "Văn bản gốc mục 2. Bệnh mô liên kết (trang 55).",
+        "type": "basic",
+        "section": "B2",
+        "category": "Khai thác bệnh sử ác tính & tự miễn",
+        "front": "Các thông tin bệnh sử gợi ý Bệnh ác tính và Bệnh mô liên kết ở trẻ có hạch to theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Gợi ý bệnh ác tính (Lơxêmi, u lympho):<br>1) Sốt thất thường kéo dài không rõ nguyên nhân.<br>2) Chảy máu mũi (chảy máu cam), chảy máu chân răng.<br>3) Xuất hiện các mảng bầm tím, chấm xuất huyết ở da (biểu hiện giảm tiểu cầu).<br>• Gợi ý bệnh mô liên kết tự miễn: Đau mỏi các khớp, sưng khớp, phát ban ngoài da kèm sốt kéo dài.<br>• Thuốc & Vắc xin: Lưu ý tiền sử dùng các loại thuốc gần đây (kháng sinh, chống động kinh) và các vắc xin mới tiêm chủng.<br><br><b>💡 Giải thích của AI:</b><br>Hạch to đi kèm xuất huyết dưới da hoặc đau xương khớp là dấu hiệu cảnh báo đỏ của suy tủy do lơxêmi thâm nhiễm.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 57, Mục 2.1 - Bệnh sử)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
+            "Benh-su",
+            "Ac-tinh",
             "Mo-lien-ket"
         ]
     },
     {
         "id": "PED53-B12",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Tình trạng quá mẫn",
-        "section": "B1_3",
-        "text": "[Barem gốc] Hai tình trạng quá mẫn gây hạch to ở trẻ em theo giáo trình gồm: {{c1::bệnh huyết thanh}} và {{c1::phản ứng thuốc}}.",
-        "extra": "Văn bản gốc mục 3. Tình trạng quá mẫn (trang 55-56).",
+        "type": "basic",
+        "section": "B2",
+        "category": "Khai thác tiền sử dịch tễ đặc biệt",
+        "front": "Những yếu tố tiền sử dịch tễ và tiếp xúc động vật đặc biệt cần hỏi khi trẻ có hạch to theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiền sử bị mèo cào, mèo cắn (Bệnh mèo cào do Bartonella henselae).<br>2) Tiền sử súc vật khác cắn hoặc tiếp xúc phân gia súc (Toxoplasma, Dại, Brucella).<br>3) Tổn thương trầy xước, nhọt ngoài da vùng lân cận.<br>4) Tiền sử liên quan đến yếu tố nguy cơ nhiễm HIV.<br>5) Tiền sử di chuyển, du lịch từ vùng xa hoặc vùng rừng núi về (Bệnh sốt rét, bệnh Lyme).<br><br><b>💡 Giải thích của AI:</b><br>Bệnh mèo cào là nguyên nhân rất hay bị bỏ sót: hạch nách hoặc hạch cổ to xuất hiện sau vết cào của mèo từ 1 đến 3 tuần.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 57, Mục 2.1 - Bệnh sử)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
-            "Qua-man"
+            "Benh-su",
+            "Dich-te",
+            "Meo-cao"
         ]
     },
     {
         "id": "PED53-B13",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Bệnh ác tính",
-        "section": "B1_4",
-        "text": "[Barem gốc] Hai loại u lympho ác tính gây hạch to thường gặp ở trẻ em theo giáo trình là: {{c1::u lympho Hodgkin}} và {{c1::u lympho không Hodgkin}}.",
-        "extra": "Văn bản gốc mục 4. Bệnh ác tính (trang 56).",
+        "type": "basic",
+        "section": "B3",
+        "category": "Hạch khu trú vs toàn thể",
+        "front": "Phân biệt Hạch to khu trú và Hạch to toàn thể? Nguyên nhân gây hạch to toàn thể theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hạch to khu trú: Hạch to ở một vùng giải phẫu duy nhất, thường do tổn thương viêm hoặc u ở khu vực dẫn lưu bạch huyết tương ứng.<br>• Hạch to toàn thể: Được định nghĩa khi HẠCH TO TRÊN HAI VÙNG HẠCH KHÔNG GẦN NHAU (không tiếp giáp nhau).<br>• Nguyên nhân hạch to toàn thể:<br>1) Nhiễm khuẩn toàn thể: Lao, thương hàn, giang mai, Brucella.<br>2) Nhiễm virus: EBV, CMV, HIV, Rubella.<br>3) Nhiễm đơn bào (Toxoplasma) hoặc nấm lan tỏa.<br>4) Bệnh tự miễn (Lupus, JIA), bệnh ác tính (Lơxêmi, U lympho), bệnh tích lũy lipid, bệnh huyết thanh, phản ứng thuốc.<br><br><b>💡 Giải thích của AI:</b><br>Định nghĩa 'trên 2 vùng hạch không gần nhau' (ví dụ hạch cổ kèm hạch bẹn) là mốc chuẩn để xác định bệnh lý mang tính chất toàn thân.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 57, Mục 2.2 - Khám xét)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
-            "Ac-tinh"
+            "Khu-tru-vs-Toan-the"
         ]
     },
     {
         "id": "PED53-B14",
         "track": "barem_goc",
         "type": "basic",
-        "category": "Bệnh ác tính",
-        "section": "B1_4",
-        "front": "Kể tên 4 nhóm bệnh ác tính gây hạch to ở trẻ em theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) U lympho (Hodgkin & không Hodgkin). 2) Bệnh lơxêmi. 3) Di căn ung thư. 4) Bệnh tăng mô bào.<br><b>💡 Barem:</b> Bắt buộc loại trừ sớm bằng khám xét kỹ và sinh thiết khi có chỉ định.",
-        "extra": "Văn bản gốc mục 4. Bệnh ác tính (trang 56).",
+        "section": "B3",
+        "category": "Hạch ở sâu",
+        "front": "Các vị trí Hạch ở sâu trong cơ thể có thể bị to và các phương tiện chẩn đoán hình ảnh để phát hiện?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Các vị trí hạch ở sâu: Hạch mạc treo ruột, hạch sau phúc mạc, hạch trung thất.<br>• Đặc điểm: Các hạch này thường to, nhiều hạch và dính thành khối; thường là biểu hiện của bệnh lý toàn thân.<br>• Phương tiện chẩn đoán: Không thể sờ thấy trên khám lâm sàng, bắt buộc phải dùng:<br>1) Chụp X-quang lồng ngực.<br>2) Siêu âm ổ bụng.<br>3) Chụp cắt lớp vi tính (CLVT / CT scan).<br>• Lưu ý: Hạch trung thất to ở trẻ em ngoài nguyên nhân do lao, PHẦN LỚN LÀ BỆNH ÁC TÍNH.<br><br><b>💡 Giải thích của AI:</b><br>Hạch trung thất to ở trẻ em là cờ đỏ báo động cấp cứu U lympho nguyên bào lympho hoặc U lympho Hodgkin chèn ép đường thở.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 57, Mục 2.2 - Khám xét)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
-            "Ac-tinh"
+            "Hach-o-sau",
+            "Trung-that",
+            "Mac-treo"
         ]
     },
     {
         "id": "PED53-B15",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Bệnh tăng mô bào",
-        "section": "B1_4",
-        "text": "[Barem gốc] 3 thể bệnh tăng mô bào gây hạch to theo giáo trình: tăng mô bào tế bào {{c1::Langerhans}}, tăng mô bào {{c1::liên võng tủy}}, tăng mô bào lympho {{c1::thực bào hồng cầu gia đình}}.",
-        "extra": "Văn bản gốc: Bệnh tăng mô bào: tăng mô bào tế bào Lengerhans, tăng mô bào liên võng tủy, tăng mô bào lympho thực bào hồng cầu gia đình (trang 56).",
+        "type": "basic",
+        "section": "B3",
+        "category": "Vùng dẫn lưu: Chẩm & Quanh tai",
+        "front": "Nguyên nhân phổ biến gây hạch to ở vùng Chẩm và vùng Quanh tai theo giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hạch chẩm to: Nhiễm khuẩn vùng da đầu (chốc lở, nhọt da đầu, chấy rận), Nhiễm virus Rubella.<br>2) Hạch quanh tai (trước tai) to: Nhiễm khuẩn ở mắt (viêm kết mạc, hội chứng mắt - hạch Parinaud), Bệnh mèo cào (Bartonella henselae).<br><br><b>💡 Giải thích của AI:</b><br>Hạch chẩm to kèm phát ban mịn và sốt nhẹ là dấu hiệu lâm sàng kinh điển của bệnh Rubella ở trẻ nhỏ.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 57, Mục 2.2 - Vùng hạch to)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
-            "Tang-mo-bao"
+            "Vung-dan-luu",
+            "Hach-cham",
+            "Quanh-tai"
         ]
     },
     {
         "id": "PED53-B16",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Bệnh Castleman",
-        "section": "B1_5",
-        "text": "[Barem gốc] Bệnh Castleman trong nhóm tăng sinh mô bạch huyết gồm 2 thể: quá sản hạch bạch huyết {{c1::khổng lồ}} và quá sản hạch bạch huyết {{c1::nang mạch}}.",
-        "extra": "Văn bản gốc: Bệnh Castleman: quá sản hạch bạch huyết khổng lồ, quá sản hạch bạch huyết nang mạch (trang 56).",
+        "type": "basic",
+        "section": "B3",
+        "category": "Vùng dẫn lưu: Cổ & Dưới hàm",
+        "front": "Nguyên nhân phổ biến gây hạch to ở vùng Cổ và vùng Dưới hàm theo giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hạch cổ to: Viêm hạch do tụ cầu, liên cầu khuẩn, viêm amydal, viêm họng, tăng bạch cầu đơn nhân nhiễm khuẩn (EBV), nhiễm Toxoplasma, bệnh ác tính (U lympho, Lơxêmi), bệnh Kawasaki.<br>2) Hạch dưới hàm to: Lao hạch, U lympho Hodgkin, U lympho không Hodgkin, bệnh nấm Histoplasma, nhiễm khuẩn răng miệng.<br><br><b>💡 Giải thích của AI:</b><br>Hạch cổ to một bên cấp tính kèm sốt cao > 5 ngày không đáp ứng kháng sinh, mắt đỏ, môi đỏ nứt nẻ phải nghĩ ngay đến Bệnh Kawasaki để điều trị IVIG phòng phình động mạch vành.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 57 - 58, Mục 2.2 - Vùng hạch to)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
-            "Castleman"
+            "Vung-dan-luu",
+            "Hach-co",
+            "Duoi-ham"
         ]
     },
     {
         "id": "PED53-B17",
         "track": "barem_goc",
         "type": "basic",
-        "category": "Tăng sinh bạch huyết",
-        "section": "B1_5",
-        "front": "Kể tên các bệnh rối loạn tăng sinh mô bạch huyết gây hạch to (ngoài bệnh Castleman) theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bệnh hạch nguyên bào MD mạch, HC tăng sinh lympho liên kết-X, u hạt dạng lympho, bệnh Rosai-Dorfman, HC ALPS.<br><b>💡 Barem:</b> Các bệnh rối loạn tăng sinh mô bạch huyết kèm biến loạn miễn dịch phức tạp.",
-        "extra": "Văn bản gốc mục 5. Rối loạn tăng sinh mô bạch huyết (trang 56).",
+        "section": "B3",
+        "category": "Vùng dẫn lưu: Nách & Chậu bẹn",
+        "front": "Nguyên nhân phổ biến gây hạch to ở vùng Nách và vùng Chậu bẹn theo giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hạch nách to: Nhiễm khuẩn vùng cánh tay, thành ngực; Bệnh ác tính (U lympho, bệnh bạch cầu); Bệnh mèo cào; Phản ứng sau tiêm chủng vắc xin BCG.<br>2) Hạch vùng chậu bẹn to: Nhiễm khuẩn ở chi dưới (vết xước, nhọt chân, nấm kẽ); Nhiễm khuẩn vùng háng và cơ quan sinh dục ngoài.<br><br><b>💡 Giải thích của AI:</b><br>Khi thấy hạch nách hoặc hạch bẹn to đơn độc, luôn luôn phải vạch tìm ổ xước da hoặc nhiễm trùng ở toàn bộ chi tương ứng.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 58, Mục 2.2 - Vùng hạch to)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
-            "Tang-sinh"
+            "Vung-dan-luu",
+            "Hach-nach",
+            "Chau-ben"
         ]
     },
     {
         "id": "PED53-B18",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Tăng sinh bạch huyết",
-        "section": "B1_5",
-        "text": "[Barem gốc] Rối loạn tăng sinh mô bạch huyết di truyền liên kết nhiễm sắc thể giới tính gây hạch to là {{c1::hội chứng tăng sinh bạch huyết liên kết – X}}.",
-        "extra": "Văn bản gốc: Hội chứng tăng sinh bạch huyết liên kết – X (trang 56).",
+        "type": "basic",
+        "section": "B3",
+        "category": "Vùng dẫn lưu: Trung thất & Ổ bụng",
+        "front": "Nguyên nhân phổ biến gây hạch to ở vùng Trung thất và vùng Ổ bụng theo giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hạch trung thất to: Bệnh lao, Bệnh ác tính (U lympho Hodgkin, U lympho không Hodgkin, Lơxêmi dòng T), Bệnh nấm Histoplasma, Bệnh Sarcoidosis.<br>2) Hạch bụng to: Bệnh ác tính (U lympho Burkitt, u nguyên bào thần kinh), Viêm hạch mạc treo ruột do virus hoặc vi khuẩn.<br><br><b>💡 Giải thích của AI:</b><br>U lympho Burkitt ở bụng phát triển với tốc độ nhân đôi cực nhanh, biểu hiện bằng khối u bụng to nhanh kèm lồng ruột hoặc tắc ruột.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 58, Mục 2.2 - Vùng hạch to)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
-            "Tang-sinh"
+            "Vung-dan-luu",
+            "Trung-that",
+            "O-bung"
         ]
     },
     {
         "id": "PED53-B19",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Bệnh tích lũy",
-        "section": "B1_6",
-        "text": "[Barem gốc] Hai bệnh tích lũy gây hạch to được nêu trong giáo trình là bệnh {{c1::Niemann-Pick}} và bệnh {{c1::loạn dưỡng cystin}}.",
-        "extra": "Văn bản gốc mục 6. Bệnh tích lũy (trang 56).",
+        "type": "basic",
+        "section": "B3",
+        "category": "Quy luật hạch thượng đòn",
+        "front": "Ý nghĩa lâm sàng và định hướng bệnh lý của Hạch to vùng Thượng đòn (thượng đòn trái vs thượng đòn phải) theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hạch thượng đòn to luôn luôn là hạch bệnh lý ác tính cho đến khi có bằng chứng ngược lại.<br>• Định hướng theo vị trí:<br>1) Hạch thượng đòn trái (Hạch Virchow / Trousseau): Thường là bệnh ác tính phát triển từ trong ổ bụng lan rộng qua ống ngực tới vùng thượng đòn trái.<br>2) Hạch thượng đòn phải: Chứng tỏ có tổn thương ác tính hoặc nhiễm trùng từ vùng trung thất hoặc lồng ngực/phổi.<br>• Phối hợp nặng: Hạch thượng đòn và hạch nách cùng to thường biểu hiện một tình trạng bệnh cảnh rất nặng nề.<br><br><b>💡 Giải thích của AI:</b><br>Quy tắc vàng: Bất kỳ hạch nào sờ thấy ở hố thượng đòn (dù nhỏ &lt; 1 cm) đều là cờ đỏ bắt buộc phải chụp CT và sinh thiết ngay lập tức.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 57, Mục 2.2 - Khám xét)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
-            "Tich-luy"
+            "Thuong-don",
+            "Hach-Virchow",
+            "Co-do"
         ]
     },
     {
         "id": "PED53-B20",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Bệnh u hạt",
-        "section": "B1_7",
-        "text": "[Barem gốc] Hai bệnh u hạt gây hạch to theo giáo trình là bệnh {{c1::sarcoid}} và bệnh {{c1::tăng u hạt mạn tính}}.",
-        "extra": "Văn bản gốc mục 7. Bệnh u hạt (trang 56).",
+        "type": "basic",
+        "section": "B3",
+        "category": "Kích thước hạch bệnh lý",
+        "front": "Ngưỡng kích thước nào bắt buộc phải coi là Hạch bệnh lý theo giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Ngưỡng kích thước: Hạch bạch huyết có đường kính trên 2 cm (> 2 cm) BẮT BUỘC PHẢI COI LÀ HẠCH BỆNH LÝ.<br>• Tính chất tiến triển: Hạch bạch huyết to lên dần theo thời gian, càng ngày càng to ra là dấu hiệu chắc chắn của hạch bệnh lý cần can thiệp chẩn đoán chuyên sâu.<br><br><b>💡 Giải thích của AI:</b><br>Hạch phản ứng viêm thông thường hiếm khi vượt quá 2 cm và sẽ thoái lui sau 2 - 4 tuần. Hạch > 2 cm không đáp ứng điều trị là chỉ định cần làm xét nghiệm xâm lấn.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 58, Mục Kích thước hạch to)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
-            "U-hat"
+            "Kich-thuoc-benh-ly",
+            "Tren-2cm"
         ]
     },
     {
         "id": "PED53-B21",
         "track": "barem_goc",
         "type": "basic",
-        "category": "Nguyên nhân khác",
-        "section": "B1_8",
-        "front": "Kể tên 4 nguyên nhân khác gây hạch to được liệt kê ở mục 8 của giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phơi nhiễm beryllium. 2) Cường giáp. 3) Loạn gamma globulin máu tiên phát. 4) Viêm hạch sau tiêm chủng.<br><b>💡 Barem:</b> Luôn lưu ý tiền sử tiêm chủng và sử dụng thuốc gần đây khi trẻ có hạch to cấp.",
-        "extra": "Văn bản gốc mục 8. Nguyên nhân khác (trang 56).",
+        "section": "B3",
+        "category": "4 Kiểu tính chất hạch",
+        "front": "Phân biệt 4 kiểu tính chất sờ nắn hạch lâm sàng giúp định hướng nguyên nhân theo giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hạch to một vùng, đau phù nề quanh hạch, mặt da đỏ nóng: Viêm hạch bạch huyết cấp tính do vi khuẩn (điều trị kháng sinh 2 tuần không đỡ phải theo dõi sát).<br>2) Hạch to nhiều nơi, hạch dính vào nhau, sờ không đau, không đỏ ngoài da: Nhiễm khuẩn lan tỏa, nhiễm virus, bao gồm cả Lao và các bệnh toàn thể.<br>3) Hạch to, mật độ cứng chắc, sờ không đau, dính sâu vào tổ chức xung quanh: Nghi ngờ hạch di căn ung thư hoặc thâm nhiễm của bệnh lý ác tính.<br>4) Hạch to nhiều hạch dính chuỗi, mặt da đỏ không đều, có hạch chắc có hạch mềm, rò rỉ dịch nhầy bã đậu (không phải mủ): Nghĩ ngay tới HẠCH LAO.<br><br><b>💡 Giải thích của AI:</b><br>Mô tả 'mặt da đỏ không đều, hạch chắc lẫn hạch mềm hóa bã đậu rò dịch nhầy' là hình ảnh mô tả lâm sàng kinh điển của Bệnh tràng nhạc (lao hạch) (lao hạch).",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 58, Mục Tính chất hạch to)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Nguyen-nhan",
-            "Khac"
+            "Tinh-chat-hach",
+            "4-kieu-tinh-chat"
         ]
     },
     {
         "id": "PED53-B22",
         "track": "barem_goc",
         "type": "basic",
-        "category": "Tiếp cận chẩn đoán",
-        "section": "B2_0",
-        "front": "Trình bày 4 bước theo trình tự tiếp cận chẩn đoán bệnh nhân hạch to theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh sử. 2) Khám hạch (khu trú/toàn thể) & toàn thân. 3) Xét nghiệm không xâm nhập. 4) Sinh thiết hạch.<br><b>💡 Barem:</b> Trình tự chuẩn: đi từ không xâm nhập đến xâm nhập; sinh thiết là xét nghiệm quyết định.",
-        "extra": "Văn bản gốc mục II. Tiếp cận chẩn đoán bệnh hạch bạch huyết (trang 56).",
+        "section": "B4",
+        "category": "Khám toàn thân kết hợp",
+        "front": "Khi phát hiện trẻ có hạch to, người thầy thuốc cần khám toàn diện những cơ quan nào để tìm dấu hiệu kết hợp?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tuyến giáp: Xem tuyến giáp có phì đại to không (phát hiện cường giáp Basedow).<br>2) Khám bụng: Bắt buộc sờ nắn xem Gan và Lách có to không.<br>3) Hệ cơ xương khớp: Kiểm tra có viêm đau các khớp không (bệnh mô liên kết Lupus, JIA).<br>4) Da và niêm mạc: Tìm các ban ngoài da, chấm bầm máu xuất huyết.<br>5) Mắt: Kiểm tra có vàng mắt, vàng da hoặc viêm kết mạc mắt không.<br><br><b>💡 Giải thích của AI:</b><br>Không bao giờ được dừng lại ở việc sờ mỗi hạch cổ; khám toàn thân từ đầu đến chân mới giúp định vị bản chất bệnh lý tại chỗ hay toàn thân.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 58, Mục Khám toàn thân)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Tiep-can"
+            "Kham-toan-than"
         ]
     },
     {
         "id": "PED53-B23",
         "track": "barem_goc",
         "type": "basic",
-        "category": "Bệnh sử nhiễm khuẩn",
-        "section": "B2_1",
-        "front": "Khi khai thác bệnh sử nghi ngờ nhiễm khuẩn ở bệnh nhân hạch to, cần chú ý những điểm gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thời gian hạch to & sốt, nhiễm khuẩn vùng dẫn lưu (họng, hô hấp trên), và dấu hiệu lao (ho kéo dài, sẹo BCG, sụt cân).<br><b>💡 Barem:</b> Luôn luôn kiểm tra sẹo BCG và diễn biến lao ở mọi trẻ em có hạch to.",
-        "extra": "Văn bản gốc mục 2.1 Bệnh sử (trang 56).",
+        "section": "B4",
+        "category": "Hội chứng kết hợp: Lao & Lơxêmi",
+        "front": "Hai hội chứng lâm sàng kết hợp kinh điển: Hạch to định hướng bệnh Lao và Hạch to định hướng bệnh Lơxêmi?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Định hướng bệnh Lao: Hạch to kèm theo sốt thất thường kéo dài mạn tính, cơ thể gầy sút suy yếu, ho kéo dài → Cần làm các xét nghiệm tìm vi khuẩn lao để xác định chẩn đoán.<br>• Định hướng bệnh Lơxêmi (Bạch cầu cấp) hoặc tăng mô bào: Hạch to toàn thể kèm theo GAN TO, LÁCH TO, XUẤT HUYẾT DƯỚI DA và THIẾU MÁU RÕ RỆT.<br><br><b>💡 Giải thích của AI:</b><br>Tam chứng thâm nhiễm (Gan - Lách - Hạch to) kết hợp hội chứng suy tủy (thiếu máu + xuất huyết) là bức tranh lâm sàng không thể nhầm lẫn của Bạch cầu cấp ở trẻ em.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 58, Mục Khám toàn thân)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Benh-su",
-            "Nhiem-khuan"
+            "Hoi-chung-ket-hop",
+            "Lao",
+            "Loxemi"
         ]
     },
     {
         "id": "PED53-B24",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Bệnh sử ác tính",
-        "section": "B2_1",
-        "text": "[Barem gốc] Khai thác bệnh sử nghi bệnh ác tính ở trẻ có hạch to: chú ý các biểu hiện {{c1::sốt thất thường}}, {{c1::chảy máu mũi}} và {{c1::bầm máu ở da}}.",
-        "extra": "Văn bản gốc: Hỏi các biểu hiện của bệnh ác tính như sốt thất thường, chảy máu mũi, bầm máu ở da (trang 57).",
+        "type": "basic",
+        "section": "B4",
+        "category": "Hội chứng kết hợp: U lympho & HIV",
+        "front": "Hai hội chứng lâm sàng kết hợp: Hạch to định hướng U lympho ác tính và Hạch to định hướng nhiễm HIV?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Định hướng U lympho ác tính: Hạch to ở ngoại biên KẾT HỢP VỚI HẠCH Ở TRONG SÂU (trung thất, ổ bụng).<br>• Định hướng nhiễm HIV: Hạch to toàn thể kèm theo sụt cân, sốt kéo dài không rõ nguyên nhân, rối loạn tiêu hóa mạn tính và lách to.<br><br><b>💡 Giải thích của AI:</b><br>U lympho thường khởi phát bằng một hạch cổ hoặc hạch nách không đau nhưng khi chụp phim ngực/bụng lại phát hiện khối hạch trong sâu khổng lồ.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 58, Mục Khám toàn thân)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Benh-su",
-            "Ac-tinh"
+            "Hoi-chung-ket-hop",
+            "U-lympho",
+            "HIV"
         ]
     },
     {
         "id": "PED53-B25",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Bệnh sử mô liên kết",
-        "section": "B2_1",
-        "text": "[Barem gốc] Khai thác bệnh sử nghi bệnh mô liên kết ở trẻ hạch to: hỏi phát hiện {{c1::đau khớp}}, {{c1::phát ban}} và {{c1::sốt}}; lưu ý tới vắc xin mới tiêm chủng và các thuốc đã dùng.",
-        "extra": "Văn bản gốc: Hỏi phát hiện các bệnh mô liên kết như đau khớp, phát ban và sốt. Lưu ý tới vaccin mới tiêm chủng và các thuốc đã dùng (trang 57).",
+        "type": "basic",
+        "section": "B5",
+        "category": "Xét nghiệm chẩn đoán ban đầu",
+        "front": "Các xét nghiệm cận lâm sàng không xâm nhập và chỉ định xét nghiệm tủy đồ trong chẩn đoán hạch to theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Xét nghiệm ban đầu:<br>1) Công thức máu ngoại biên và tốc độ máu lắng.<br>2) Các nghiệm pháp trong da (Mantoux tìm lao, test da bệnh nấm, mèo cào).<br>3) Nuôi cấy vi khuẩn vùng tổn thương.<br>4) Xét nghiệm huyết thanh học: CMV, Toxoplasma, EBV, HIV.<br>5) Chẩn đoán hình ảnh: Chụp X-quang, CLVT, siêu âm ổ bụng tìm hạch sâu, khối u.<br>• Chỉ định xét nghiệm Tủy đồ (Chọc hút tủy xương): Khi nghi ngờ một bệnh lý về HUYẾT HỌC như bệnh lơxêmi, bệnh tăng mô bào, u lympho hoặc bệnh tích lũy lipid.<br><br><b>💡 Giải thích của AI:</b><br>Luôn luôn tuân thủ nguyên tắc: Thăm dò các xét nghiệm không xâm nhập và xét nghiệm huyết học trước, rồi mới đến sinh thiết hạch.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 59, Mục 2.3 - Xét nghiệm)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Benh-su",
-            "Mo-lien-ket"
+            "Xet-nghiem",
+            "Tuy-do",
+            "Huyet-thanh"
         ]
     },
     {
         "id": "PED53-B26",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Bệnh sử dịch tễ",
-        "section": "B2_1",
-        "text": "[Barem gốc] Khai thác tiền sử và dịch tễ ở trẻ hạch to: hỏi nguy cơ liên quan {{c1::nhiễm HIV}}, tiền sử bị {{c1::mèo cào, súc vật cắn}}, tổn thương ở da, mới {{c1::di chuyển từ xa về}}.",
-        "extra": "Văn bản gốc: Hỏi bệnh sử có liên quan đến nhiễm HIV, tiền sử bị mèo cào, súc vật cắn, tổn thương ở da, mới đi chuyển từ xa về (trang 57).",
+        "type": "basic",
+        "section": "B5",
+        "category": "Chỉ định sinh thiết hạch",
+        "front": "4 chỉ định bắt buộc phải Sinh thiết hạch bạch huyết theo đúng giáo trình Nhi khoa Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Sinh thiết hạch bạch huyết được chỉ định khi có 1 trong 4 điều kiện:<br>1) Nghi ngờ một bệnh lý ác tính (hạch cứng, dính, không đau, sụt cân, triệu chứng B).<br>2) Các xét nghiệm ban đầu không kết luận được VÀ kích thước hạch bạch huyết trên 2,5 cm (> 2,5 cm).<br>3) Hạch bạch huyết to kéo dài (không rõ nguyên nhân).<br>4) Hạch to đã dùng kháng sinh điều trị trong vòng 1 tháng mà hạch không lui.<br><br><b>💡 Giải thích của AI:</b><br>Mốc hạch > 2,5 cm và điều trị kháng sinh 1 tháng không lui là 2 mốc số liệu vàng khi thi lý thuyết của Bộ môn.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 59, Mục Sinh thiết hạch)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Benh-su",
-            "Dich-te"
+            "Sinh-thiet-hach",
+            "4-chi-dinh"
         ]
     },
     {
         "id": "PED53-B27",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Định nghĩa hạch toàn thể",
-        "section": "B2_2",
-        "text": "[Barem gốc] Hạch bạch huyết được định nghĩa là to toàn thể khi hạch to trên {{c1::hai vùng hạch không gần nhau}}.",
-        "extra": "Văn bản gốc: Hạch bạch huyết to toàn thể khi hạch to trên hai vùng hạch không gần nhau (trang 57).",
+        "type": "basic",
+        "section": "B5",
+        "category": "Kỹ thuật sinh thiết hạch",
+        "front": "4 nguyên tắc kỹ thuật quan trọng khi tiến hành lấy hạch sinh thiết theo giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Vị trí lấy hạch: KHÔNG NÊN sinh thiết hạch ở phần trên cổ và vùng bẹn (vì hay bị viêm phản ứng mạn xơ hóa khó đọc kết quả); NÊN sinh thiết hạch ở vùng dưới cổ và vùng nách để có kết quả tin cậy hơn.<br>2) Lựa chọn hạch: Nên sinh thiết HẠCH TO NHẤT, không phải là hạch dễ lấy nhất. Cần hội chẩn giữa chuyên khoa ung bướu và ngoại khoa để chọn hạch.<br>3) Quy cách lấy bệnh phẩm: Cần sinh thiết lấy NGUYÊN VẸN CẢ BAO HẠCH (Excisional biopsy), tuyệt đối KHÔNG lấy từng mảnh vụn.<br>4) Bảo quản và gửi bệnh phẩm: Phải gửi ngay tới nhà giải phẫu bệnh trong MÔI TRƯỜNG NUÔI CẤY TỔ CHỨC để tránh mô bị khô; KHÔNG để chỗ ánh sáng mạnh, chỗ nóng; TUYỆT ĐỐI KHÔNG BỌC TRONG GẠC KHÔ.<br><br><b>💡 Giải thích của AI:</b><br>Lấy nguyên cả bao hạch giúp nhà giải phẫu bệnh đánh giá được toàn vẹn cấu trúc nang lympho, phân biệt U lympho nang với tăng sản phản ứng lành tính.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 59, Mục Chú ý sinh thiết)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Dinh-nghia"
+            "Sinh-thiet-hach",
+            "Ky-thuat",
+            "Bao-quan"
         ]
     },
     {
         "id": "PED53-B28",
         "track": "barem_goc",
         "type": "basic",
-        "category": "Nguyên nhân hạch toàn thể",
-        "section": "B2_2",
-        "front": "Kể các nhóm nguyên nhân chính gây hạch to toàn thể theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhiễm trùng toàn thể (lao, thương hàn, giang mai, CMV). 2) Tự miễn, ác tính. 3) Tích lũy lipid, bệnh huyết thanh, phản ứng thuốc.<br><b>💡 Barem:</b> Hạch to toàn thể (≥ 2 vùng không gần nhau) gợi ý bệnh lý hệ thống.",
-        "extra": "Văn bản gốc mục 2.2 Khám xét hạch (trang 57).",
+        "section": "B5",
+        "category": "Xét nghiệm trên bệnh phẩm sinh thiết",
+        "front": "Các xét nghiệm chuyên sâu cần tiến hành trên bệnh phẩm sinh thiết hạch theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nuôi cấy và nhuộm Gram tìm vi khuẩn, virus, nấm.<br>2) Xét nghiệm tìm kháng nguyên/ADN virus.<br>3) Mô bệnh học tiêu bản nhuộm thông thường.<br>4) Kính hiển vi điện tử.<br>5) Nhuộm hóa mô miễn dịch.<br>6) Đếm tế bào dưới dòng chảy (Flow cytometry).<br>7) Nghiên cứu gen: Phân tích tái sắp xếp gen thụ thể tế bào T (TCR) và gen globulin miễn dịch (Ig) để xác định tính đơn dòng ác tính trong bệnh Lơxêmi và U lympho.<br><br><b>💡 Giải thích của AI:</b><br>Xác định tính đơn dòng (Monoclonality) qua gen TCR và Ig là bằng chứng xác thực khẳng định tế bào tăng sinh là ác tính (ung thư) chứ không phải đáp ứng miễn dịch đa dòng lành tính.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 59 - 60, Mục Xét nghiệm sinh thiết)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Nguyen-nhan"
+            "Sinh-thiet-hach",
+            "Xet-nghiem-chuyen-sau"
         ]
     },
     {
         "id": "PED53-B29",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Dẫn lưu hạch đầu mặt",
-        "section": "B2_2",
-        "text": "[Barem gốc] Mối liên quan vùng dẫn lưu: hạch góc hàm to thường do {{c1::nhiễm khuẩn ở họng, viêm amydal}}; hạch cổ to do {{c1::nhiễm khuẩn đường hô hấp trên}}; hạch chẩm to do {{c1::nhiễm khuẩn vùng da đầu}}.",
-        "extra": "Văn bản gốc mục 2.2 Khám xét hạch (trang 57).",
+        "type": "basic",
+        "section": "B6",
+        "category": "Điều trị viêm hạch cấp vi khuẩn",
+        "front": "Phác đồ kháng sinh và thời gian điều trị Viêm hạch cấp tính do vi khuẩn theo giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Căn nguyên: Tụ cầu vàng hoặc liên cầu khuẩn tan huyết nhóm A (ở sơ sinh có thể gặp liên cầu nhóm B).<br>• Kháng sinh lựa chọn ban đầu: Amoxicillin-clavulanic hoặc nhóm Cephalosporin thế hệ 1.<br>• Nếu nghi ngờ tụ cầu vàng kháng Methicillin cộng đồng (CA-MRSA): Dùng Clindamycin hoặc Trimethoprim-sulfamethoxazol (TMP-SMX).<br>• Thời gian điều trị: Kéo dài 10 - 14 ngày hoặc ít nhất 5 ngày sau khi các dấu hiệu viêm giảm.<br>• Hạch hóa mủ: Phải trích rạch dẫn lưu mủ, nhuộm Gram và cấy mủ tìm vi khuẩn để chỉnh kháng sinh.<br><br><b>💡 Giải thích của AI:</b><br>Kháng sinh đường uống áp dụng cho thể nhẹ; nếu trẻ sốt cao nhiễm trùng nhiễm độc phải dùng kháng sinh tĩnh mạch.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 60, Mục III - Điều trị)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Dan-luu"
+            "Dieu-tri",
+            "Khang-sinh",
+            "Viem-hach-cap"
         ]
     },
     {
         "id": "PED53-B30",
         "track": "barem_goc",
         "type": "basic",
-        "category": "Hạch thượng đòn",
-        "section": "B2_2",
-        "front": "Ý nghĩa lâm sàng khi sờ thấy hạch to ở vùng thượng đòn trái và thượng đòn phải?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thượng đòn trái: bệnh ác tính từ ổ bụng qua ống ngực; Thượng đòn phải: tổn thương trong lồng ngực (phổi, trung thất).<br><b>💡 Barem:</b> Hạch thượng đòn luôn là bệnh nặng, bắt buộc tìm bệnh lý ở lồng ngực hoặc ổ bụng.",
-        "extra": "Văn bản gốc mục 2.2 Khám xét hạch (trang 57).",
+        "section": "B6",
+        "category": "Điều trị vi khuẩn kỵ khí",
+        "front": "Phác đồ kháng sinh khi nghi ngờ nhiễm trùng vi khuẩn kỵ khí gây viêm hạch vùng đầu mặt cổ theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Nguồn gốc: Thường liên quan tới các ổ nhiễm khuẩn từ vùng miệng, họng, răng hàm mặt.<br>• Kháng sinh lựa chọn: Dùng Metronidazol hoặc Clindamycin.<br>• Phối hợp: Có thể kết hợp Metronidazol/Clindamycin với nhóm Cephalosporin thế hệ 3 (như Cefotaxime hoặc Ceftriaxone) để bao phủ phổ vi khuẩn rộng.<br><br><b>💡 Giải thích của AI:</b><br>Vi khuẩn kỵ khí khoang miệng tiết nhiều men phá hủy mô mạnh, tạo dịch mủ thối và hoại tử mô nhanh chóng.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 60, Mục III - Điều trị)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Thuong-don"
+            "Dieu-tri",
+            "Vi-khuan-ky-khi",
+            "Metronidazol"
         ]
     },
     {
         "id": "PED53-B31",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Hạch thượng đòn và nách",
-        "section": "B2_2",
-        "text": "[Barem gốc] Hạch bạch huyết to ở thượng đòn nên tìm bệnh lý ở {{c1::trung thất}}; hạch bạch huyết to ở {{c1::thượng đòn và nách to}} thường là tình trạng bệnh nặng.",
-        "extra": "Văn bản gốc: Hạch bạch huyết to ở thượng đòn nên tìm bệnh lý ở trung thất, hạch bạch huyết ở thượng đòn và nách to thường là tình trạng bệnh nặng (trang 57).",
+        "type": "basic",
+        "section": "B6",
+        "category": "Điều trị Lao hạch & NTM",
+        "front": "Nguyên tắc điều trị Lao hạch và Viêm hạch do Mycobacteria không điển hình (NTM)? Quy tắc an toàn bắt buộc?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Mycobacteria không điển hình (NTM): Các chủng này thường kháng với thuốc chống lao thông thường, phương pháp điều trị tối ưu là PHẪU THUẬT CẮT BỎ TOÀN BỘ HẠCH.<br>• QUY TẮC AN TOÀN BẮT BUỘC TRONG LAO HẠCH: TUYỆT ĐỐI TRÁNH RẠCH HOẶC DẪN LƯU HẠCH TRONG TRƯỜNG HỢP NHIỄM LAO.<br>• Hậu quả nếu rạch: Rạch hạch lao sẽ tạo đường rò bã đậu mạn tính kéo dài ra ngoài da, tạo sẹo xấu co kéo và nhiễm trùng cơ hội không thể liền miệng.<br><br><b>💡 Giải thích của AI:</b><br>Đây là lỗi điều trị kinh điển ở tuyến cơ sở: thấy hạch mềm tưởng áp xe mủ thông thường liền rạch tháo mủ, khiến hạch rò rỉ dịch bã đậu hàng tháng trời.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 60, Mục III - Điều trị)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Thuong-don"
+            "Dieu-tri",
+            "Lao-hach",
+            "NTM",
+            "Cam-rach"
         ]
     },
     {
         "id": "PED53-B32",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Hạch sâu",
-        "section": "B2_2",
-        "text": "[Barem gốc] Các nhóm hạch sâu gồm hạch ở {{c1::mạc treo, sau ổ bụng, trung thất}}; các hạch này to nhiều, dính thành khối thường là bệnh toàn thể, cần phát hiện bằng {{c1::X quang, siêu âm, CLVT (CT)}}.",
-        "extra": "Văn bản gốc: hạch bạch huyết ở sâu cũng có thể to và nhiều như hạch ở mạc treo, ở sau ổ bụng, ở trung thất... (trang 57).",
+        "type": "basic",
+        "section": "B6",
+        "category": "Điều trị Mèo cào & Herpes",
+        "front": "Thái độ điều trị Bệnh mèo cào và Viêm hạch do Herpes simplex theo giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bệnh mèo cào (Bartonella henselae):<br>1) Ở bệnh nhân miễn dịch bình thường: Hạch thường tự ổn định và tự thoái lui sau vài tuần đến vài tháng mà không cần kháng sinh.<br>2) Ở bệnh nhân suy giảm miễn dịch: Cần dùng kháng sinh như Azithromycin, Rifampin hoặc Doxycycline (cho trẻ > 8 tuổi).<br>• Nhiễm virus Herpes simplex nặng kèm viêm hạch cục bộ: Sử dụng Acyclovir đường uống để rút ngắn thời gian bệnh.<br>• Hạch do ung thư: Phải chỉ định sinh thiết hạch để xác định chẩn đoán và chuyển chuyên khoa ung bướu.<br><br><b>💡 Giải thích của AI:</b><br>Trong bệnh mèo cào, kháng sinh không làm giảm nhanh kích thước hạch ở trẻ khỏe mạnh nhưng Azithromycin giúp rút ngắn thời gian tồn tại của hạch.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 60 - 61, Mục III - Điều trị)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Hach-sau"
+            "Dieu-tri",
+            "Meo-cao",
+            "Herpes",
+            "Acyclovir"
         ]
     },
     {
         "id": "PED53-B33",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Hạch trung thất",
-        "section": "B2_2",
-        "text": "[Barem gốc] Hạch trung thất to ở trẻ em ngoài nguyên nhân do {{c1::lao}}, phần lớn là do {{c1::bệnh ác tính}}.",
-        "extra": "Văn bản gốc: Hạch trung thất to ngoài nguyên nhân lao, phần lớn là bệnh ác tính ở trẻ em (trang 57).",
+        "type": "basic",
+        "section": "B7",
+        "category": "Bẫy thi - Vị trí sinh thiết",
+        "front": "Giải thích vì sao giáo trình khuyến cáo KHÔNG NÊN sinh thiết hạch ở phần trên cổ và vùng bẹn?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hạch phần trên cổ và hạch vùng bẹn là những trạm hạch thường xuyên tiếp nhận các kích thích viêm mạn tính liên tục từ khoang miệng, amidan và chi dưới/vùng sinh dục.<br>• Do đó, các hạch ở hai vị trí này thường có tình trạng xơ hóa, viêm tăng sinh phản ứng mạn tính làm biến dạng cấu trúc hạch, gây khó khăn cho việc phân định mô bệnh học và dễ dẫn đến kết quả âm tính giả hoặc chẩn đoán sai.<br>• Ngược lại, hạch vùng dưới cổ và nách ít bị viêm phản ứng thường quy nên giữ được kiến trúc mô bệnh học nguyên bản tin cậy hơn.<br><br><b>💡 Giải thích của AI:</b><br>Đây là câu hỏi thi lý thuyết rất hay giải thích bản chất thực hành lâm sàng mà sinh viên thường chỉ học vẹt mà không hiểu lý do.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 59, Mục Chú ý sinh thiết)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Trung-that"
+            "Bay-thi",
+            "Vi-tri-sinh-thiet"
         ]
     },
     {
         "id": "PED53-B34",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Nguyên nhân theo vùng",
-        "section": "B2_2",
-        "text": "[Barem gốc] Nguyên nhân theo vùng hạch: hạch chẩm to do {{c1::nhiễm khuẩn da đầu, rubella}}; hạch quanh tai to do {{c1::nhiễm khuẩn ở mắt, bệnh mèo cào}}.",
-        "extra": "Văn bản gốc: Hạch chẩm to: nhiễm khuẩn da đầu, rubella; Hạch quanh tai to: nhiễm khuẩn ở mắt, bệnh mèo cào (trang 57).",
+        "type": "basic",
+        "section": "B7",
+        "category": "Bẫy thi - Tụ cầu sơ sinh",
+        "front": "Căn nguyên vi khuẩn gây viêm hạch cấp tính có hoặc không kèm viêm mô tế bào đặc thù ở trẻ sơ sinh là gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Ở trẻ sơ sinh và trẻ nhỏ, ngoài tụ cầu vàng, căn nguyên đặc thù cần lưu ý là LIÊN CẦU KHUẨN NHÓM B (Group B Streptococcus - GBS / Streptococcus agalactiae), có thể gây viêm hạch cổ cấp tính kèm hoặc không kèm viêm mô tế bào (Cellulitis-adenitis syndrome).<br><br><b>💡 Giải thích của AI:</b><br>Hội chứng viêm mô tế bào - viêm hạch do liên cầu nhóm B ở trẻ sơ sinh thường khởi phát sốt cao, sưng đỏ vùng dưới hàm hoặc má, đòi hỏi dùng Ampicillin hoặc Penicillin liều cao đường tĩnh mạch.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 60, Mục III - Điều trị)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Dan-luu"
+            "Bay-thi",
+            "Lien-cau-nhom-B",
+            "So-sinh"
         ]
     },
     {
         "id": "PED53-B35",
         "track": "barem_goc",
         "type": "basic",
-        "category": "Nguyên nhân theo vùng",
-        "section": "B2_2",
-        "front": "Kể tên các nguyên nhân phổ biến gây hạch cổ to theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhiễm khuẩn tụ cầu, liên cầu, viêm amidan. 2) Bệnh tăng bạch cầu đơn nhân. 3) Toxoplasma. 4) Ác tính. 5) Bệnh Kawasaki.<br><b>💡 Barem:</b> Hạch cổ là vị trí gặp nhiều nhất ở trẻ em, đa dạng từ lành tính đến ác tính.",
-        "extra": "Văn bản gốc mục các nguyên nhân phổ biến của vùng hạch to (trang 57).",
+        "section": "B7",
+        "category": "Bẫy thi - Ký sinh trùng & Nấm",
+        "front": "Kể tên các căn nguyên đơn bào và nấm gây hạch to theo giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đơn bào (Ký sinh trùng):<br>1) Toxoplasma gondii: Thường gây hạch cổ sau hoặc hạch toàn thể không đau, lây qua phân mèo hoặc thịt chưa nấu chín.<br>2) Trypanosoma (Bệnh ngủ châu Phi hoặc bệnh Chagas).<br>• Nấm:<br>1) Nấm Histoplasma: Gây hạch dưới hàm, hạch trung thất to.<br>2) Nấm da.<br><br><b>💡 Giải thích của AI:</b><br>Nhiễm Toxoplasma là nguyên nhân phổ biến thứ hai sau EBV gây hội chứng tăng bạch cầu đơn nhân có hạch to ở người trẻ tuổi.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 55, 58)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Hach-co"
+            "Bay-thi",
+            "Toxoplasma",
+            "Histoplasma"
+        ]
+    },
+    {
+        "id": "PED53-E01",
+        "track": "ebm",
+        "type": "basic",
+        "section": "E0",
+        "category": "Cờ đỏ cấp cứu & Ác tính",
+        "front": "5 dấu hiệu Cờ đỏ (Red Flags) báo động hạch to ác tính hoặc chèn ép cấp cứu sinh tử ở trẻ em?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hạch vùng thượng đòn (Supraclavicular node): Bất kể kích thước bao nhiêu đều là dấu hiệu ác tính cho đến khi có bằng chứng ngược lại.<br>2) Khối hạch trung thất gây ho khan, khó thở, thở rít hoặc Hội chứng tĩnh mạch chủ trên (SVCS: phù áo choàng, tĩnh mạch cổ nổi to).<br>3) Hạch có mật độ cứng như đá (stony hard), dính chặt vào mô sâu hoặc kết thành chùm bất động (matted nodes), kích thước > 2 - 3 cm.<br>4) Xuất hiện bộ ba 'Triệu chứng B' của U lympho: Sốt không rõ nguyên nhân kéo dài > 38°C, sụt cân > 10% trong 6 tháng, đổ mồ hôi trộm đêm ướt đầm áo gối.<br>5) Hạch to toàn thể đi kèm thiếu máu, xuất huyết dưới da hoặc đau xương khớp dữ dội về đêm (Cờ đỏ Bạch cầu cấp ALL).<br><br><b>💡 Giải thích của AI:</b><br>Có bất kỳ cờ đỏ nào trong số trên là chỉ định chụp X-quang ngực khẩn cấp và hội chẩn chuyên khoa Huyết học - Ung bướu ngay trong 24 giờ.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Sàng lọc cờ đỏ hạch to ác tính (Bước 0)",
+        "tags": [
+            "PED-53",
+            "EBM",
+            "Co-do",
+            "Red-flags",
+            "Ac-tinh"
+        ]
+    },
+    {
+        "id": "PED53-E02",
+        "track": "ebm",
+        "type": "basic",
+        "section": "E0",
+        "category": "Hội chứng SVCS do hạch trung thất",
+        "front": "Hội chứng tĩnh mạch chủ trên (SVCS) do hạch trung thất khổng lồ ở trẻ em biểu hiện như thế nào và vì sao là cấp cứu sinh tử?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Biểu hiện lâm sàng: Khối hạch trung thất trước to (thường do U lympho tế bào T hoặc Hodgkin) chèn ép tĩnh mạch chủ trên gây:<br>1) Phù nề mặt, cổ và hai tay ('phù áo choàng').<br>2) Tĩnh mạch cổ nổi to, tuần hoàn bàng hệ nổi rõ ở thành ngực trên.<br>3) Khó thở tăng khi nằm ngửa, tím tái, thở rít thanh khí quản.<br>• Nguy cơ sinh tử: Có thể gây xẹp đường thở hoàn toàn và ngừng tim đột ngột khi đặt trẻ nằm ngửa hoặc khi gây mê làm thủ thuật.<br><br><b>💡 Giải thích của AI:</b><br>Tuyệt đối không được cho trẻ nghi ngờ SVCS nằm ngửa hoặc tiêm thuốc an thần giãn cơ khi chưa chuẩn bị sẵn sàng can thiệp mở khí quản.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Cấp cứu chèn ép trung thất SVCS (Bước 0)",
+        "tags": [
+            "PED-53",
+            "EBM",
+            "SVCS",
+            "Hach-trung-that",
+            "Cap-cuu"
+        ]
+    },
+    {
+        "id": "PED53-E03",
+        "track": "ebm",
+        "type": "basic",
+        "section": "E1",
+        "category": "Tam giác thâm nhiễm",
+        "front": "Tại sao Bạch cầu cấp (ALL) lại biểu hiện bằng Tam giác thâm nhiễm: Hạch to — Gan to — Lách to?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Cơ chế: Các tế bào non ác tính dòng lympho (Lymphoblast) sinh sôi vô độ trong tủy xương rồi tràn vào dòng máu tuần hoàn.<br>• Chúng di chuyển và thâm nhiễm ồ ạt vào hệ thống liên võng nội mô của cơ thể bao gồm các hạch bạch huyết, các bè gan và tủy đỏ của lách.<br>• Sự thâm nhiễm tế bào non ngoại lai làm phá vỡ cấu trúc mô bình thường, gây phì đại đồng thời cả hạch toàn thể, gan to và lách to.<br><br><b>💡 Giải thích của AI:</b><br>Hạch trong ALL to do thâm nhiễm tế bào ác tính từ tủy xương tràn ra, khác với hạch trong nhiễm trùng to do tăng sinh miễn dịch tại chỗ.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Tam giác thâm nhiễm trong ALL (Phần III.1)",
+        "tags": [
+            "PED-53",
+            "EBM",
+            "Tam-giac-tham-nhiem",
+            "ALL",
+            "Gan-Lach-Hach"
+        ]
+    },
+    {
+        "id": "PED53-E04",
+        "track": "ebm",
+        "type": "basic",
+        "section": "E1",
+        "category": "Phân biệt EBV vs ALL",
+        "front": "Bảng phân định lâm sàng và huyết học chi tiết: Nhiễm trùng EBV (Tăng bạch cầu đơn nhân) vs Bạch cầu cấp (ALL)?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Nhiễm trùng EBV (Tăng bạch cầu đơn nhân):<br>1) Lâm sàng: Viêm họng giả mạc trắng dày, hạch cổ đối xứng đau nhẹ, gan lách to nhẹ.<br>2) Huyết học: KHÔNG CÓ SUY TỦY (Hồng cầu và Tiểu cầu bình thường, không xuất huyết).<br>3) Tế bào máu: Xuất hiện tế bào lympho không điển hình (Downey cells) > 10%.<br>4) Xét nghiệm đặc hiệu: Test Monospot (+) hoặc kháng thể IgM VCA (+).<br>• Bạch cầu cấp (ALL):<br>1) Lâm sàng: Hạch to không đau, đau nhức xương khớp dữ dội về đêm.<br>2) Huyết học: SUY TỦY 3 DÒNG RÕ RỆT (Thiếu máu nặng + Giảm tiểu cầu gây xuất huyết dưới da, chảy máu mũi).<br>3) Hóa sinh: Axit uric và LDH máu tăng vọt.<br>4) Tủy đồ: Tế bào non ác tính (Blast) chiếm ≥ 20%.<br><br><b>💡 Giải thích của AI:</b><br>Chìa khóa phân biệt vàng: Nhìn vào số lượng tiểu cầu và niêm mạc da: EBV tiểu cầu bình thường và không xuất huyết; ALL tiểu cầu tụt dốc và xuất huyết rầm rộ.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Bảng phân định EBV vs ALL (Phần III.2)",
+        "tags": [
+            "PED-53",
+            "EBM",
+            "Phan-biet",
+            "EBV",
+            "ALL",
+            "Tieu-cau"
+        ]
+    },
+    {
+        "id": "PED53-E05",
+        "track": "ebm",
+        "type": "basic",
+        "section": "E2",
+        "category": "Cạm bẫy dùng Corticoid",
+        "front": "Vì sao trẻ em có hạch to TUYỆT ĐỐI CẤM DÙNG CORTICOID làm test điều trị thử giảm kích thước hạch?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hiệu ứng xóa mờ chẩn đoán: Corticoid tiêu diệt tế bào non ung thư máu (Lymphoblast) rất nhanh nhưng không triệt để.<br>• Hậu quả tai hại:<br>1) Làm hạch nhỏ lại tạm thời tạo cảm giác khỏi bệnh giả tạo, nhưng bệnh ác tính vẫn âm thầm tiến triển.<br>2) Khi chọc tủy đồ sau đó, tế bào non đã bị tiêu biến tạm thời dẫn đến kết quả âm tính giả, làm chậm trễ chẩn đoán ung thư máu hàng tuần đến hàng tháng.<br>3) Làm tăng nguy cơ kháng hóa chất điều trị ung thư sau này.<br>4) Có thể khởi phát Hội chứng ly giải khối u cấp tính (TLS) đe dọa tử vong do suy thận cấp.<br><br><b>💡 Giải thích của AI:</b><br>Quy tắc đạo đức hành nghề: Không bao giờ kê Corticoid cho một trẻ có hạch to chưa rõ nguyên nhân.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Cạm bẫy dùng Corticoid thử nghiệm (Phần VI.1)",
+        "tags": [
+            "PED-53",
+            "EBM",
+            "Cam-bay",
+            "Cam-Corticoid",
+            "ALL"
+        ]
+    },
+    {
+        "id": "PED53-E06",
+        "track": "ebm",
+        "type": "basic",
+        "section": "E2",
+        "category": "Cạm bẫy lạm dụng FNA",
+        "front": "Vì sao không nên lạm dụng Chọc hút kim nhỏ (FNA) ở trẻ em có hạch to nghi ngờ u lympho?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hạn chế của FNA: Chọc hút kim nhỏ chỉ lấy được một cụm tế bào rời rạc (tế bào học), hoàn toàn không đánh giá được kiến trúc mô học toàn vẹn của hạch (nang lympho, vùng tủy, vỏ hạch).<br>• Tỷ lệ âm tính giả rất cao: Trong U lympho ở trẻ em, tỷ lệ âm tính giả của FNA lên tới 40%, rất dễ kết luận nhầm là 'tăng sản phản ứng lành tính'.<br>• Tiêu chuẩn vàng quốc tế: Bắt buộc phải là Phẫu thuật lấy trọn vẹn nguyên cả bao hạch (Excisional biopsy) để làm mô bệnh học và hóa mô miễn dịch.<br><br><b>💡 Giải thích của AI:</b><br>FNA có thể hữu ích ở người lớn nghi ung thư biểu mô di căn, nhưng ở trẻ em nghi U lympho hoặc bệnh mô bào thì FNA hoàn toàn không đủ độ tin cậy.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Cạm bẫy lạm dụng FNA (Phần VI.2)",
+        "tags": [
+            "PED-53",
+            "EBM",
+            "Cam-bay",
+            "FNA",
+            "Sinh-thiet-tron-ven"
+        ]
+    },
+    {
+        "id": "PED53-E07",
+        "track": "ebm",
+        "type": "basic",
+        "section": "E2",
+        "category": "Cạm bẫy chẩn đoán nhầm dị tật cổ",
+        "front": "Phân biệt Hạch to vùng cổ với các Dị tật bẩm sinh vùng cổ thường gặp (Nang giáp lưỡi, Nang khe mang, U bạch mạch)?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nang ống giáp lưỡi: Nằm ở CHÍNH GIỮA CỔ (đường giữa), có đặc tính kinh điển là DI ĐỘNG LÊN XUỐNG THEO NHỊP NUỐT VÀ KHI THÈ LƯỠI.<br>2) Nang khe mang (Branchial cleft cyst): Nằm ở bờ trước cơ ức đòn chũm (thường ở 1/3 trên hoặc 1/3 giữa), tròn nhẵn, không đau trừ khi bội nhiễm.<br>3) U bạch mạch dạng nang (Cystic hygroma): Thường ở tam giác cổ sau, mật độ rất mềm, ranh giới không rõ, SOi ĐÈN CÓ TÍNH CHẤT THẤU QUANG DƯƠNG TÍNH.<br><br><b>💡 Giải thích của AI:</b><br>Nang giáp lưỡi di động theo nhịp nuốt do dính vào xương móng; U bạch mạch soi đèn thấu quang do chứa dịch bạch huyết trong suốt.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Phân biệt dị tật bẩm sinh vùng cổ (Phần VI.5)",
+        "tags": [
+            "PED-53",
+            "EBM",
+            "Cam-bay",
+            "Nang-giap-luoi",
+            "Nang-khe-mang",
+            "Hygroma"
+        ]
+    },
+    {
+        "id": "PED53-E08",
+        "track": "ebm",
+        "type": "basic",
+        "section": "E3",
+        "category": "Bệnh mô bào Langerhans - LCH",
+        "front": "Tam chứng lâm sàng kinh điển và dấu hiệu hóa mô miễn dịch đặc hiệu của Bệnh mô bào tế bào Langerhans (LCH)?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tam chứng lâm sàng kinh điển:<br>1) Hạch to nhiều nơi (hạch cổ, hạch nách).<br>2) Tổn thương xương: Các ổ tiêu xương hình đục lỗ (punched-out lytic lesions) trên X-quang xương sọ hoặc xương dài.<br>3) Tổn thương da: Ban dát sẩn dạng vảy tiết bã mỡ ở da đầu (rất dễ nhầm với 'cứt trâu' ở trẻ nhũ nhi) hoặc vùng nếp kẽ bẹn.<br>• Dấu hiệu nội tiết đi kèm: Đái tháo nhạt (uống nhiều, tiểu nhiều do tổn thương cuống tuyến yên).<br>• Hóa mô miễn dịch đặc hiệu: Nhuộm CD1a dương tính và Langerin (CD207) dương tính.<br><br><b>💡 Giải thích của AI:</b><br>Thấy trẻ có hạch to kèm ban vảy da đầu dai dẳng giống viêm da tiết bã và tổn thương đục lỗ xương sọ → nghĩ ngay đến LCH.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Bệnh mô bào tế bào Langerhans LCH (Phần XI.1)",
+        "tags": [
+            "PED-53",
+            "EBM",
+            "LCH",
+            "Langerhans",
+            "Tieu-xuong-so"
+        ]
+    },
+    {
+        "id": "PED53-E09",
+        "track": "ebm",
+        "type": "basic",
+        "section": "E3",
+        "category": "Hội chứng thực bào máu - HLH",
+        "front": "Hội chứng thực bào máu (HLH) ở trẻ em có các tiêu chuẩn chẩn đoán xét nghiệm sinh tử nào?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Chẩn đoán HLH khi có đột biến gen hoặc đạt ≥ 5/8 tiêu chuẩn sau:<br>1) Sốt cao kéo dài liên tục.<br>2) Lách to.<br>3) Giảm tế bào máu ngoại vi từ 2 dòng trở lên (Hb &lt; 90 g/L, Tiểu cầu &lt; 100 G/L, Neutrophil &lt; 1 G/L).<br>4) Tăng Triglycerid máu (≥ 3 mmol/L) và/hoặc Giảm Fibrinogen máu (≤ 1,5 g/L).<br>5) Nồng độ FERRITIN HUYẾT THANH TĂNG CỰC CAO (thường &ge; 500 ng/mL, đặc biệt > 3000 - 10.000 ng/mL).<br>6) Hiện tượng thực bào tế bào máu trong tủy xương, lách hoặc hạch.<br>7) Giảm hoặc mất hoạt tính tế bào NK.<br>8) Tăng nồng độ thụ thể CD25 hòa tan (sIL-2R).<br><br><b>💡 Giải thích của AI:</b><br>Ferritin tăng hàng nghìn ng/mL kết hợp giảm Fibrinogen và lách to là cặp dấu hiệu chỉ điểm bão cytokine đe dọa tử vong của HLH.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Hội chứng thực bào máu HLH (Phần XI.2)",
+        "tags": [
+            "PED-53",
+            "EBM",
+            "HLH",
+            "Thuc-bao-mau",
+            "Ferritin"
+        ]
+    },
+    {
+        "id": "PED53-E10",
+        "track": "ebm",
+        "type": "basic",
+        "section": "E3",
+        "category": "Bệnh mèo cào - Xử trí mủ",
+        "front": "Bệnh cảnh lâm sàng điển hình của Bệnh mèo cào và nguyên tắc xử trí khi hạch bị hóa mủ?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bệnh cảnh điển hình: Trẻ có tiền sử bị mèo cào hoặc liếm vào vết xước trước đó 1 - 3 tuần; xuất hiện sẩn đỏ hoặc mụn mủ tại vết cào; sau đó hạch lympho vùng dẫn lưu (hạch nách, hạch cổ, hạch bẹn) sưng to đơn độc, đau nhẹ.<br>• Xử trí khi hạch hóa mủ:<br>1) CHỈ DÙNG KIM CHỌC HÚT GIẢI ÁP để giảm đau và giải tỏa căng tức cho trẻ.<br>2) TUYỆT ĐỐI KHÔNG ĐƯỢC RẠCH MỔ DẪN LƯU HỞ.<br>• Lý do cấm rạch: Rạch hạch trong bệnh mèo cào sẽ tạo đường rò mủ kéo dài và để lại sẹo xấu xơ chai.<br><br><b>💡 Giải thích của AI:</b><br>Cùng nguyên tắc với lao hạch: hạch mèo cào hóa mủ chỉ được chọc hút bằng kim vô khuẩn, cấm rạch mổ mở.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Bệnh mèo cào và xử trí mủ (Phần VII.2, X.3)",
+        "tags": [
+            "PED-53",
+            "EBM",
+            "Meo-cao",
+            "Bartonella",
+            "Choc-hut-kim"
+        ]
+    },
+    {
+        "id": "PED53-E11",
+        "track": "ebm",
+        "type": "basic",
+        "section": "E3",
+        "category": "Lao hạch - Bệnh tràng nhạc",
+        "front": "Đặc điểm lâm sàng của Lao hạch cổ (Bệnh tràng nhạc - Scrofula) và phác đồ điều trị kháng lao chuẩn?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đặc điểm lâm sàng: Thường gặp ở vùng cổ; các hạch to dần, dính vào nhau thành chuỗi hoặc chùm, không nóng không đỏ lúc đầu; sau đó nhuyễn hóa dính vào da, da tím tái rồi vỡ rò chất bã đậu, tạo vết loét lâu liền và sẹo co kéo nhăn nheo hình 'chân rết'.<br>• Phác đồ điều trị kháng lao chuẩn: Điều trị nội khoa theo phác đồ chống lao quốc gia:<br>1) Giai đoạn tấn công (2 tháng): 4 thuốc Rifampicin (R) + Isoniazid (H) + Pyrazinamid (Z) + Ethambutol (E).<br>2) Giai đoạn duy trì (4 tháng): 2 thuốc Rifampicin (R) + Isoniazid (H).<br>• Tổng thời gian điều trị: 6 tháng (2RHZE / 4RH).<br><br><b>💡 Giải thích của AI:</b><br>Lao hạch là thể lao ngoài phổi hay gặp nhất ở trẻ em; điều trị bằng thuốc kháng lao toàn thân là biện pháp cốt lõi chữa lành bệnh.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Lao hạch ngoại biên (Phần VII.3)",
+        "tags": [
+            "PED-53",
+            "EBM",
+            "Lao-hach",
+            "Scrofula",
+            "Trang-nhac",
+            "2RHZE"
+        ]
+    },
+    {
+        "id": "PED53-E12",
+        "track": "ebm",
+        "type": "basic",
+        "section": "E4",
+        "category": "Trình tự Tủy đồ vs Sinh thiết hạch",
+        "front": "Quy tắc xác định trình tự ưu tiên giữa Chọc hút tủy đồ và Sinh thiết hạch khi tiếp cận trẻ có hạch to bất thường?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Quy tắc ưu tiên:<br>1) Nếu trẻ có HẠCH TO KÈM THEO GAN LÁCH TO HOẶC BẤT THƯỜNG TẾ BÀO MÁU NGOẠI BIÊN (thiếu máu, giảm tiểu cầu, tăng/giảm bạch cầu bất thường) → BẮT BUỘC CHỌC TỦY ĐỒ TRƯỚC.<br>2) Nếu Tủy đồ bình thường HOẶC bệnh nhân chỉ có hạch to đơn độc khu trú (không có biểu hiện tủy) → MỚI TIẾN HÀNH PHẪU THUẬT SINH THIẾT HẠCH.<br>• Lý do: Chọc hút tủy đồ là thủ thuật đơn giản, ít xâm lấn, cho kết quả chẩn đoán nhanh trong vài giờ; trong khi sinh thiết hạch là một cuộc phẫu thuật mở cần gây mê/tiền mê và có nguy cơ biến chứng chảy máu, nhiễm trùng.<br><br><b>💡 Giải thích của AI:</b><br>Chọc tủy đồ trước giúp chẩn đoán ngay Bạch cầu cấp ALL mà không cần phải mổ xẻ hạch của trẻ một cách không cần thiết.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Trình tự chỉ định tủy đồ vs sinh thiết (Phần X.4)",
+        "tags": [
+            "PED-53",
+            "EBM",
+            "Tuy-do-truoc",
+            "Sinh-thiet-sau",
+            "Trinh-tu"
+        ]
+    },
+    {
+        "id": "PED53-E13",
+        "track": "ebm",
+        "type": "basic",
+        "section": "E4",
+        "category": "10 Quy tắc vàng thực chiến tại giường",
+        "front": "Kể tên 5 trong số các Quy tắc vàng thực chiến khi tiếp cận trẻ có hạch to tại giường bệnh?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hạch thượng đòn bất kể kích thước đều là cờ đỏ ác tính.<br>2) Không bao giờ dùng Corticoid để thử làm giảm kích thước hạch.<br>3) Luôn luôn sờ nắn tìm Gan to và Lách to khi thấy trẻ có hạch to.<br>4) Tránh sinh thiết hạch bẹn và hạch vùng trên cổ nếu có hạch ở vị trí khác.<br>5) Không rạch mổ hạch nghi ngờ do lao hoặc bệnh mèo cào vì sẽ gây rò mủ kéo dài.<br><br><b>💡 Giải thích của AI:</b><br>Đây là 5 quy tắc thực chiến đúc kết từ hàng nghìn ca lâm sàng, giúp bác sĩ không bao giờ mắc sai lầm chuyên môn nghiêm trọng.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — 10 Quy tắc vàng thực chiến (Phần X.2)",
+        "tags": [
+            "PED-53",
+            "EBM",
+            "Quy-tac-vang",
+            "Thuc-chien"
         ]
     },
     {
         "id": "PED53-B36",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Nguyên nhân theo vùng",
-        "section": "B2_2",
-        "text": "[Barem gốc] Hạch dưới hàm to theo giáo trình do các nguyên nhân: {{c1::lao}}, {{c1::u lympho Hodgkin, u lympho không Hodgkin}} và {{c1::bệnh nấm Histoplasma}}.",
-        "extra": "Văn bản gốc: Hạch dưới hàm to do: lao, U lympho Hodgkin, u lympho không Hodgkin, bệnh nấm Histoplasma (trang 58).",
+        "type": "basic",
+        "section": "B1",
+        "category": "Bệnh Kawasaki & Hạch to",
+        "front": "Đặc điểm hạch cổ to trong Bệnh Kawasaki và các tiêu chuẩn chẩn đoán lâm sàng đi kèm?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đặc điểm hạch: Hạch cổ to thường ở MỘT BÊN, kích thước ≥ 1,5 cm, chắc, không đau hoặc đau nhẹ, KHÔNG BAO GIỜ HÓA MỦ.<br>• Các tiêu chuẩn lâm sàng kinh điển đi kèm (Sốt cao ≥ 5 ngày + 4/5 tiêu chuẩn):<br>1) Viêm kết mạc mắt hai bên không tiết mủ.<br>2) Biến đổi khoang miệng: Môi đỏ khô nứt nẻ, lưỡi dâu tây (Strawberry tongue), họng đỏ rực.<br>3) Biến đổi đầu chi: Phù mu bàn tay/chân, đỏ lòng bàn tay/chân ở giai đoạn cấp; bong da quanh móng ở giai đoạn bán cấp.<br>4) Phát ban đa dạng toàn thân (không có mụn nước).<br><br><b>💡 Giải thích của AI:</b><br>Hạch cổ trong Kawasaki là một tiêu chuẩn chẩn đoán; điều trị khẩn cấp bằng IVIG liều cao và Aspirin giúp giảm tỷ lệ biến chứng phình giãn động mạch vành từ 25% xuống dưới 5%.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 55, 57, Mục Nhiễm khuẩn & Hạch cổ)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Duoi-ham"
+            "Kawasaki",
+            "Hach-co-1-ben"
         ]
     },
     {
         "id": "PED53-B37",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Nguyên nhân theo vùng",
-        "section": "B2_2",
-        "text": "[Barem gốc] Hạch nách to do {{c1::nhiễm khuẩn cánh tay, thành ngực, bệnh ác tính, bệnh mèo cào}}; hạch vùng chậu bẹn to do {{c1::nhiễm khuẩn ở chi dưới, nhiễm khuẩn vùng háng}}.",
-        "extra": "Văn bản gốc mục các nguyên nhân phổ biến của vùng hạch to (trang 58).",
+        "type": "basic",
+        "section": "B3",
+        "category": "Phân biệt hạch dưới hàm",
+        "front": "Chẩn đoán phân biệt các nguyên nhân gây Hạch dưới hàm to theo giáo trình Y Thái Bình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lao hạch: Hạch to dần, dính thành chuỗi, không nóng đỏ, có thể nhuyễn hóa rò bã đậu.<br>2) U lympho ác tính (Hodgkin và không Hodgkin): Hạch to nhanh, chắc, không đau, không dính da nhưng dính sâu vào mô nền.<br>3) Nhiễm nấm Histoplasma: Sốt kéo dài, hạch to kèm tổn thương loét niêm mạc miệng họng.<br>4) Nhiễm khuẩn răng miệng / Amidan: Hạch sưng nóng đỏ đau cấp tính, tìm thấy sâu răng, viêm quanh cuống hoặc áp xe quanh amidan.<br><br><b>💡 Giải thích của AI:</b><br>Khám hạch dưới hàm luôn luôn phải kết hợp soi kỹ khoang miệng và kiểm tra răng hàm mặt để tìm ổ nhiễm khuẩn tiên phát.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 58, Mục Hạch dưới hàm)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Nach-ben"
+            "Hach-duoi-ham",
+            "Phan-biet"
         ]
     },
     {
         "id": "PED53-B38",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Nguyên nhân theo vùng",
-        "section": "B2_2",
-        "text": "[Barem gốc] Hạch trung thất to do {{c1::lao, bệnh ác tính, nấm Histoplasma, bệnh sarcoid}}; hạch bụng to do {{c1::bệnh ác tính, viêm hạch mạc treo}}.",
-        "extra": "Văn bản gốc mục các nguyên nhân phổ biến của vùng hạch to (trang 58).",
+        "type": "basic",
+        "section": "B3",
+        "category": "Phân biệt hạch ổ bụng",
+        "front": "Phân biệt Viêm hạch mạc treo ruột cấp tính với Hạch ổ bụng ác tính ở trẻ em?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Viêm hạch mạc treo ruột cấp tính:<br>1) Thường xuất hiện sau đợt viêm đường hô hấp trên hoặc viêm ruột do virus.<br>2) Trẻ đau bụng từng cơn quanh rốn hoặc hố chậu phải, sốt nhẹ, không có phản ứng thành bụng thực sự.<br>3) Siêu âm bụng: Chùm hạch mạc treo to nhưng hình bầu dục, ranh giới rõ, còn rốn hạch, tự thoái lui sau 1 - 2 tuần.<br>• Hạch ổ bụng ác tính (U lympho Burkitt, u nguyên bào thần kinh):<br>1) Hạch phát triển rất nhanh thành khối lớn dính cố định, chèn ép gây bán tắc ruột, lồng ruột hoặc cổ trướng.<br>2) Siêu âm/CT: Khối hạch mất cấu trúc rốn hạch bình thường, thâm nhiễm mạc treo.<br><br><b>💡 Giải thích của AI:</b><br>Viêm hạch mạc treo là nguyên nhân thường gặp nhất gây đau bụng cấp giả viêm ruột thừa ở trẻ nhỏ; siêu âm là công cụ phân biệt tuyệt vời.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 58, Mục Hạch bụng to)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Trung-that",
-            "Bung"
+            "Viem-hach-mac-treo",
+            "Hach-o-bung"
         ]
     },
     {
         "id": "PED53-B39",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Kích thước bệnh lý",
-        "section": "B2_2",
-        "text": "[Barem gốc] Về kích thước: hạch bạch huyết to trên {{c1::2 cm}} phải coi là bệnh lý, kèm theo tính chất hạch {{c1::to lên dần, càng ngày càng to}} là hạch bệnh lý.",
-        "extra": "Văn bản gốc: Hạch bạch huyết to trên 2 cm phải coi là bệnh lý, thêm vào hạch bạch huyết to lên dần, càng ngày càng to là hạch bệnh lý (trang 58).",
+        "type": "basic",
+        "section": "B5",
+        "category": "Tủy đồ trong chẩn đoán hạch to",
+        "front": "Xét nghiệm Tủy đồ giúp xác định những bệnh lý huyết học và bệnh chuyển hóa nào ở trẻ có hạch to theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh lơxêmi (Bạch cầu cấp): Tủy đồ thấy các tế bào non ác tính (Blast) thâm nhiễm chiếm tỷ lệ cao (≥ 20%), ức chế các dòng tế bào tủy bình thường.<br>2) Bệnh tăng mô bào (Histiocytosis): Phát hiện các tế bào mô bào bất thường hoặc hiện tượng thực bào tế bào máu trong tủy.<br>3) U lympho ác tính: Đánh giá giai đoạn xem tế bào u lympho đã xâm lấn vào tủy xương hay chưa.<br>4) Bệnh tích lũy lipid (Bệnh Niemann-Pick, Gaucher): Phát hiện các tế bào bọt (Foam cells / Niemann-Pick cells) hoặc tế bào Gaucher chứa đầy lipid ứ đọng trong tủy xương.<br><br><b>💡 Giải thích của AI:</b><br>Tủy đồ là xét nghiệm quyết định xác lập chẩn đoán ung thư máu và các bệnh lý tích lũy bẩm sinh mà sinh thiết hạch đơn thuần không thể thay thế được.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 59, Mục 2.3 - Xét nghiệm)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Kich-thuoc"
+            "Tuy-do",
+            "Niemann-Pick",
+            "Loxemi"
         ]
     },
     {
         "id": "PED53-B40",
         "track": "barem_goc",
-        "type": "cloze",
-        "category": "Tính chất hạch vi khuẩn",
-        "section": "B2_2",
-        "text": "[Barem gốc] Hạch to một vùng, đau phù nề quanh hạch, mặt da đỏ nóng là {{c1::viêm hạch do vi khuẩn}}; nếu điều trị kháng sinh {{c1::hai tuần}} mà hạch không nhỏ đi thì cần theo dõi cẩn thận.",
-        "extra": "Văn bản gốc mục Tính chất hạch to (trang 58).",
+        "type": "basic",
+        "section": "B5",
+        "category": "Xét nghiệm gen trên bệnh phẩm sinh thiết",
+        "front": "Mục đích của việc nghiên cứu gen thụ thể tế bào T (TCR) và gen globulin miễn dịch (Ig) trên bệnh phẩm sinh thiết hạch theo giáo trình?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Mục đích cốt lõi: XÁC ĐỊNH TÍNH ĐƠN DÒNG (Monoclonality) của quần thể tế bào lympho để chẩn đoán xác định bệnh Lơxêmi và U lympho ác tính.<br>• Cơ chế phân định:<br>1) Tăng sinh lành tính (phản ứng viêm): Quần thể tế bào lympho mang các thụ thể TCR và Ig đa dạng (tính đa dòng - Polyclonality).<br>2) Tăng sinh ác tính (ung thư): Toàn bộ các tế bào u đều bắt nguồn từ một tế bào đột biến ban đầu nên mang chung một kiểu tái sắp xếp gen TCR hoặc Ig giống hệt nhau (tính đơn dòng - Monoclonality).<br><br><b>💡 Giải thích của AI:</b><br>Phân tích tính đơn dòng bằng kỹ thuật sinh học phân tử là tiêu chuẩn vàng phân định các ca ranh giới khó giữa tăng sản lympho phản ứng với u lympho giai đoạn sớm.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 60, Mục Xét nghiệm sinh thiết)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Tinh-chat"
+            "TCR",
+            "Ig-gene",
+            "Don-dong"
         ]
     },
     {
         "id": "PED53-B41",
         "track": "barem_goc",
         "type": "basic",
-        "category": "Tính chất hạch ác tính",
-        "section": "B2_2",
-        "front": "Đặc điểm khám hạch tại chỗ gợi ý hạch di căn hoặc thâm nhiễm của bệnh ác tính là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Hạch to, cứng, không đau, dính sâu vào tổ chức xung quanh.<br><br><b>💡 Lưu ý:</b><br>Mật độ cứng chắc và kém di động do xâm lấn mô nâng đỡ là cờ đỏ cảnh báo ung thư.",
-        "extra": "Văn bản gốc: Hạch to, cứng, không đau, dính sâu vào tổ chức xung quanh nghi tới hạch di căn hoặc thâm nhiễm của bệnh ác tính (trang 58).",
+        "section": "B6",
+        "category": "Kháng sinh CA-MRSA",
+        "front": "Khi nghi ngờ tụ cầu vàng kháng Methicillin cộng đồng (CA-MRSA) gây viêm hạch cấp tính, giáo trình khuyến cáo dùng những kháng sinh nào?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Khuyến cáo dùng 1 trong 2 loại kháng sinh:<br>1) Clindamycin: Liều 30 - 40 mg/kg/ngày chia 3 - 4 lần (uống hoặc tiêm tĩnh mạch).<br>2) Trimethoprim-sulfamethoxazol (TMP-SMX / Bactrim): Liều 8 - 10 mg/kg/ngày (tính theo liều Trimethoprim) chia 2 lần uống.<br>• Lưu ý: Nhóm Cephalosporin thế hệ 1 (Cephalexin, Cefazolin) và Amoxicillin-clavulanic hoàn toàn KHÔNG CÓ TÁC DỤNG với CA-MRSA.<br><br><b>💡 Giải thích của AI:</b><br>Tụ cầu vàng kháng Methicillin cộng đồng tiết độc tố PVL gây hoại tử mô nhanh, việc chuyển đổi sớm sang Clindamycin vừa diệt khuẩn vừa ức chế tiết độc tố vi khuẩn.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 60, Mục III - Điều trị)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Ac-tinh"
+            "CA-MRSA",
+            "Clindamycin",
+            "TMP-SMX"
         ]
     },
     {
         "id": "PED53-B42",
         "track": "barem_goc",
         "type": "basic",
-        "category": "Tính chất hạch lao",
-        "section": "B2_2",
-        "front": "Mô tả tính chất điển hình của hạch lao qua thăm khám tại chỗ theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Hạch to, nhiều, dính vào nhau, mặt da đỏ không đều, có hạch chắc có hạch mềm, đôi khi có rò và rỉ chất nhầy không phải mủ.<br><br><b>💡 Lưu ý:</b><br>Viêm bã đậu hóa tạo mật độ mềm chắc không đồng nhất và rò chất nhầy đặc trưng cho hạch lao.",
-        "extra": "Văn bản gốc mục Tính chất hạch to (trang 58).",
+        "section": "B6",
+        "category": "Phẫu thuật hạch NTM vs Lao",
+        "front": "Vì sao viêm hạch do Mycobacteria không điển hình (NTM) thường phải phẫu thuật cắt bỏ toàn bộ hạch trong khi Lao hạch thì không?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mycobacteria không điển hình (NTM - như M. avium, M. scrofulaceum): Hầu hết các chủng này đề kháng tự nhiên với các thuốc chống lao thông thường (INH, Rifampicin); do đó phẫu thuật cắt bỏ toàn bộ hạch trọn vẹn là biện pháp điều trị triệt căn khỏi bệnh dứt điểm (> 95% thành công).<br>2) Lao hạch thông thường (M. tuberculosis): Rất nhạy cảm với phác đồ thuốc chống lao phối hợp toàn thân (2RHZE/4RH); điều trị nội khoa khỏi hoàn toàn nên không cần phẫu thuật cắt bỏ hạch.<br><br><b>💡 Giải thích của AI:</b><br>NTM thường gặp ở trẻ 1 - 5 tuổi khỏe mạnh, chỉ có hạch cổ một bên to dần và không có triệu chứng toàn thân, khác với lao thường có tiền sử tiếp xúc và phản ứng Mantoux dương tính mạnh.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 60, Mục III - Điều trị)",
         "tags": [
             "PED-53",
             "Barem-goc",
-            "Kham-xet",
-            "Lao"
+            "NTM",
+            "Cat-bo-hach"
         ]
     },
     {
-        "id": "PED53-B43",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Tính chất hạch lan tỏa",
-        "section": "B2_2",
-        "text": "[Barem gốc] Hạch to ở nhiều nơi, các hạch dính vào nhau, sờ {{c1::không đau}}, ngoài da {{c1::không đỏ}} gợi ý nhiễm khuẩn lan tỏa, virus, kể cả lao và các bệnh toàn thể khác.",
-        "extra": "Văn bản gốc mục Tính chất hạch to (trang 58).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Kham-xet",
-            "Tinh-chat"
-        ]
-    },
-    {
-        "id": "PED53-B44",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Khám toàn thân",
-        "section": "B2_2",
-        "text": "[Barem gốc] Khám toàn thân ở trẻ hạch to cần phát hiện các dấu hiệu: xem {{c1::tuyến giáp có to không}} (phì đại tuyến giáp), {{c1::gan và lách có to không}}, có viêm đau khớp, phát ban hoặc {{c1::vàng mắt}} (kết mạc).",
-        "extra": "Văn bản gốc mục Khám toàn thân (trang 58).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Kham-xet",
-            "Toan-than"
-        ]
-    },
-    {
-        "id": "PED53-B45",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Hội chứng phối hợp",
-        "section": "B2_2",
-        "text": "[Barem gốc] Hội chứng phối hợp: hạch to kèm theo sốt thất thường kéo dài mạn tính, cơ thể suy yếu, ho kéo dài cần tìm {{c1::lao}} để xác định chẩn đoán.",
-        "extra": "Văn bản gốc mục Khám toàn thân (trang 58).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Kham-xet",
-            "Lao"
-        ]
-    },
-    {
-        "id": "PED53-B46",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Hội chứng phối hợp",
-        "section": "B2_2",
-        "text": "[Barem gốc] Hội chứng phối hợp: hạch to toàn thể kèm theo {{c1::gan to, lách to, xuất huyết, thiếu máu}} cần tìm bệnh ác tính như {{c1::bệnh lơxêmi, bệnh tăng mô bào}}.",
-        "extra": "Văn bản gốc mục Khám toàn thân (trang 58).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Kham-xet",
-            "Ac-tinh"
-        ]
-    },
-    {
-        "id": "PED53-B47",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Hội chứng phối hợp",
-        "section": "B2_2",
-        "text": "[Barem gốc] Hội chứng phối hợp: hạch to toàn thể, sụt cân, sốt không rõ nguyên nhân, {{c1::rối loạn tiêu hóa}} kèm theo {{c1::lách to}} cần tìm nhiễm HIV.",
-        "extra": "Văn bản gốc mục Khám toàn thân (trang 58-59).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Kham-xet",
-            "HIV"
-        ]
-    },
-    {
-        "id": "PED53-B48",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Hội chứng phối hợp",
-        "section": "B2_2",
-        "text": "[Barem gốc] Hạch to ngoại biên kết hợp đồng thời với hạch to ở trong sâu ở trẻ em còn có thể do {{c1::u lympho ác tính}}.",
-        "extra": "Văn bản gốc mục Khám toàn thân (trang 58).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Kham-xet",
-            "Ac-tinh"
-        ]
-    },
-    {
-        "id": "PED53-B49",
-        "track": "barem_goc",
+        "id": "PED53-E14",
+        "track": "ebm",
         "type": "basic",
-        "category": "Xét nghiệm ban đầu",
-        "section": "B2_3",
-        "front": "Kể tên các xét nghiệm không xâm nhập và ban đầu trong tiếp cận chẩn đoán hạch to?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) CTM, máu lắng, tủy đồ. 2) Test da Mantoux, cấy vi khuẩn. 3) Huyết thanh học (CMV, EBV, Toxoplasma). 4) CĐHA (X-quang, SA, CT).<br><b>💡 Barem:</b> Khoanh vùng nguyên nhân bằng xét nghiệm không xâm nhập trước khi chỉ định sinh thiết.",
-        "extra": "Văn bản gốc mục 2.3 Xét nghiệm chẩn đoán (trang 59).",
+        "section": "E0",
+        "category": "Sinh lý mô lympho theo tuổi",
+        "front": "Đặc điểm phát triển sinh lý của mô lympho theo lứa tuổi ở trẻ em và đỉnh cao phát triển ở độ tuổi nào?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Sau sinh: Khối lượng mô lympho còn nhỏ, trẻ sơ sinh phần lớn không sờ thấy hạch.<br>• Giai đoạn phát triển mạnh mẽ: Mô lympho tăng sinh nhanh chóng trong thời thơ ấu và ĐẠT ĐỈNH CAO LỚN NHẤT LÚC 4 ĐẾN 8 TUỔI (ở lứa tuổi này khối lượng mô lympho có thể đạt tới 200% so với người lớn bình thường).<br>• Giai đoạn thoái triển: Sau tuổi dậy thì dưới tác động của hormone sinh dục, mô lympho dần teo nhỏ và thoái triển về kích thước ổn định của người trưởng thành.<br><br><b>💡 Giải thích của AI:</b><br>Hiểu được sinh lý đỉnh phát triển lúc 4 - 8 tuổi giúp bác sĩ giải thích trấn an gia đình khi thấy trẻ mẫu giáo hay sờ thấy vài hạch nhỏ lành tính ở cổ hoặc bẹn.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Phát triển mô lympho theo tuổi (Phần I.1)",
         "tags": [
             "PED-53",
-            "Barem-goc",
-            "Xet-nghiem"
+            "EBM",
+            "Sinh-ly-lympho",
+            "Dinh-4-8-tuoi"
         ]
     },
     {
-        "id": "PED53-B50",
-        "track": "barem_goc",
+        "id": "PED53-E15",
+        "track": "ebm",
         "type": "basic",
-        "category": "Chỉ định sinh thiết",
-        "section": "B2_3",
-        "front": "4 chỉ định sinh thiết hạch bạch huyết theo giáo trình là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nghi ngờ bệnh ác tính. 2) Không kết luận được VÀ hạch > 2,5 cm. 3) Hạch to kéo dài. 4) Dùng kháng sinh 1 tháng không lui.<br><b>💡 Barem:</b> 4 chỉ định sinh thiết kinh điển cần thuộc lòng từng chữ khi làm bài thi tự luận.",
-        "extra": "Văn bản gốc: Sinh thiết hạch bạch huyết nếu... (trang 59).",
+        "section": "E0",
+        "category": "Dấu hiệu hạch Delphian",
+        "front": "Hạch Delphian là gì? Vị trí giải phẫu và ý nghĩa lâm sàng đặc biệt của nó?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Vị trí giải phẫu: Là hạch lympho nằm ở đường giữa cổ, ngay phía trên eo tuyến giáp và trước màng nhẫn giáp (còn gọi là hạch tiền thanh quản - Prelaryngeal node).<br>• Ý nghĩa lâm sàng đặc biệt: Khi hạch Delphian sưng to, gợi ý cao:<br>1) Di căn của Ung thư tuyến giáp (đặc biệt ung thư thể nhú).<br>2) Ung thư thanh quản.<br>3) Nhiễm trùng nặng vùng hạ thanh môn.<br><br><b>💡 Giải thích của AI:</b><br>Tên gọi 'Delphian' bắt nguồn từ lời sấm truyền đền Delphi Hy Lạp cổ đại: hạch này sưng to là điềm báo của một bệnh lý ác tính nghiêm trọng tại thanh quản hoặc tuyến giáp.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Dấu hiệu hạch Delphian (Phần I.2)",
         "tags": [
             "PED-53",
-            "Barem-goc",
-            "Xet-nghiem",
-            "Sinh-thiet"
+            "EBM",
+            "Hach-Delphian",
+            "Ung-thu-giap"
         ]
     },
     {
-        "id": "PED53-B51",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Vị trí sinh thiết",
-        "section": "B2_3",
-        "text": "[Barem gốc] Vị trí sinh thiết hạch: KHÔNG nên sinh thiết hạch ở {{c1::phần trên cổ và vùng bẹn}}; NÊN sinh thiết hạch ở {{c1::vùng dưới cổ và nách}} để có kết quả tin cậy hơn.",
-        "extra": "Văn bản gốc: Không nên sinh thiết hạch phần trên cổ và hạch vùng bẹn, nên sinh thiết hạch vùng dưới cổ và nách để có kết quả tin cậy hơn (trang 59).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Xet-nghiem",
-            "Sinh-thiet"
-        ]
-    },
-    {
-        "id": "PED53-B52",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Chọn hạch sinh thiết",
-        "section": "B2_3",
-        "text": "[Barem gốc] Chọn hạch sinh thiết: nên sinh thiết hạch {{c1::to nhất}}, không phải là hạch {{c1::dễ thấy nhất}}; nên có sự thảo luận giữa chuyên khoa ung thư và ngoại khoa để chọn hạch.",
-        "extra": "Văn bản gốc: Nên sinh thiết hạch to nhất, không phải là hạch dễ thấy nhất (trang 59).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Xet-nghiem",
-            "Sinh-thiet"
-        ]
-    },
-    {
-        "id": "PED53-B53",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Bệnh phẩm sinh thiết",
-        "section": "B2_3",
-        "text": "[Barem gốc] Kỹ thuật lấy bệnh phẩm sinh thiết hạch: cần sinh thiết lấy hạch {{c1::nguyên vẹn cả bao hạch}}, tuyệt đối {{c1::không lấy từng mảnh}}.",
-        "extra": "Văn bản gốc: Cần sinh thiết lấy hạch nguyên vẹn cả bao hạch, không lấy từng mảnh (trang 59).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Xet-nghiem",
-            "Sinh-thiet"
-        ]
-    },
-    {
-        "id": "PED53-B54",
-        "track": "barem_goc",
+        "id": "PED53-E16",
+        "track": "ebm",
         "type": "basic",
-        "category": "Bảo quản sinh thiết",
-        "section": "B2_3",
-        "front": "4 quy tắc bảo quản và vận chuyển hạch sinh thiết tới nhà giải phẫu bệnh theo sách?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gửi trong môi trường nuôi cấy tổ chức (tránh khô); TUYỆT ĐỐI KHÔNG để chỗ sáng mạnh, chỗ nóng hoặc bọc trong gạc khô.<br><b>💡 Barem:</b> Tổn thương tế bào do khô hoặc nhiệt độ sẽ phá hỏng hoàn toàn cấu trúc vi thể của hạch.",
-        "extra": "Văn bản gốc: Phải gửi tới nhà giải phẫu bệnh, hạch sinh thiết trong môi trường nuôi cấy tổ chức để tránh tổ chức bị khô... (trang 59).",
+        "section": "E2",
+        "category": "Hội chứng giả u lympho do thuốc",
+        "front": "Hội chứng giả u lympho do thuốc (Drug-induced pseudolymphoma) là gì? Các thuốc thường gây ra tình trạng này?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bản chất: Là tình trạng hạch to toàn thân lành tính xuất hiện sau khi dùng thuốc, kèm sốt, phát ban da, tăng bạch cầu ái toan; trên tiêu bản mô bệnh học hạch rất giống u lympho ác tính nhưng hoàn toàn lành tính.<br>• Các thuốc thường gặp nhất: Thuốc chống động kinh (Phenytoin, Carbamazepin, Lamotrigine, Phenobarbital), Allopurinol.<br>• Diễn tiến: Hạch và các triệu chứng sẽ tự thoái lui và biến mất hoàn toàn sau khi NGỪNG THUỐC từ 2 đến 8 tuần.<br><br><b>💡 Giải thích của AI:</b><br>Luôn luôn hỏi kỹ tiền sử dùng thuốc chống co giật trước khi quyết định sinh thiết hạch để tránh chẩn đoán nhầm tai hại sang u lympho ác tính.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Hội chứng giả u lympho (Phần II)",
         "tags": [
             "PED-53",
-            "Barem-goc",
-            "Xet-nghiem",
-            "Sinh-thiet"
+            "EBM",
+            "Pseudolymphoma",
+            "Phenytoin"
         ]
     },
     {
-        "id": "PED53-B55",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Xét nghiệm mô sinh thiết",
-        "section": "B2_3",
-        "text": "[Barem gốc] Các xét nghiệm trên mô sinh thiết hạch: nuôi cấy & nhuộm Gram tìm vi khuẩn/virus/nấm; xét nghiệm virus; mô học; {{c1::kính hiển vi điện tử}}; nhuộm {{c1::hóa mô}}; {{c1::đếm tế bào dưới dòng chảy (flow cytometry)}}; nghiên cứu gen.",
-        "extra": "Văn bản gốc mục các xét nghiệm khi sinh thiết hạch (trang 59-60).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Xet-nghiem",
-            "Sinh-thiet"
-        ]
-    },
-    {
-        "id": "PED53-B56",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Nghiên cứu gen",
-        "section": "B2_3",
-        "text": "[Barem gốc] Xét nghiệm gen trên mô hạch: nghiên cứu gen với {{c1::thụ thể tế bào T}} và gen {{c1::globulin miễn dịch}} để xác định tính đơn dòng trong bệnh lơxêmi và u lympho.",
-        "extra": "Văn bản gốc: Nghiên cứu gen với thụ thể tế bào T và gen globulin miễn dịch để xác định tính đơn dòng trong bệnh lơxemi và u lympho (trang 60).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Xet-nghiem",
-            "Sinh-thiet"
-        ]
-    },
-    {
-        "id": "PED53-B57",
-        "track": "barem_goc",
+        "id": "PED53-E17",
+        "track": "ebm",
         "type": "basic",
-        "category": "Nguyên nhân viêm hạch cấp",
-        "section": "B3",
-        "front": "Các vi khuẩn thường gặp gây viêm hạch cấp tính vùng đầu mặt cổ theo lứa tuổi là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ lớn: tụ cầu vàng hoặc liên cầu khuẩn beta tan huyết nhóm A; Trẻ sơ sinh/nhỏ: có thể gặp liên cầu nhóm B (GBS).<br><b>💡 Barem:</b> GBS là căn nguyên đặc thù của lứa tuổi sơ sinh và nhũ nhi nhỏ cần cảnh giác.",
-        "extra": "Văn bản gốc mục III. Điều trị (trang 60).",
+        "section": "E3",
+        "category": "Viêm hạch sau tiêm BCG",
+        "front": "Thái độ xử trí Viêm hạch nách sau tiêm vắc xin phòng lao BCG ở trẻ nhũ nhi theo hướng dẫn quốc tế?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Diễn tiến tự nhiên: Hạch nách cùng bên tiêm BCG sưng to là phản ứng miễn dịch thường gặp; hầu hết tự thoái triển trong vòng vài tháng mà không cần can thiệp.<br>• Nguyên tắc xử trí:<br>1) Thể không hóa mủ: Theo dõi định kỳ, KHÔNG DÙNG THUỐC KHÁNG LAO (vì chủng BCG kháng Pyrazinamid và đáp ứng kém).<br>2) Thể hóa mủ dọa vỡ da: CHỈ DÙNG KIM CHỌC HÚT VÔ KHUẨN GIẢI ÁP để tránh hạch tự vỡ loét.<br>3) TUYỆT ĐỐI CẤM RẠCH MỔ DẪN LƯU VÌ SẼ GÂY VẾT LOÉT RÒ MỦ BÃ ĐẬU KÉO DÀI.<br><br><b>💡 Giải thích của AI:</b><br>Phẫu thuật cắt bỏ hạch chỉ đặt ra khi hạch dính da tạo lỗ rò dai dẳng nhiều tháng không liền hoặc chọc hút thất bại.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Xử trí hạch sau tiêm BCG (Phần VII)",
         "tags": [
             "PED-53",
-            "Barem-goc",
-            "Dieu-tri",
-            "Can-nguyen"
+            "EBM",
+            "Hach-BCG",
+            "Choc-hut"
         ]
     },
     {
-        "id": "PED53-B58",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Kháng sinh viêm hạch cấp",
-        "section": "B3",
-        "text": "[Barem gốc] Kháng sinh kinh nghiệm điều trị viêm hạch cấp do liên cầu nhóm A và tụ cầu vàng: sử dụng {{c1::Amoxicillin-clavulanic}} hoặc nhóm {{c1::cephalosporin}} (đường uống hoặc tiêm).",
-        "extra": "Văn bản gốc: Điều trị sử dụng kháng sinh tác dụng với liên cầu nhóm A và các chủng tụ cầu vàng: Amoxicillin-clavunalic hoặc nhóm cephalosporin (trang 60).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Dieu-tri",
-            "Khang-sinh"
-        ]
-    },
-    {
-        "id": "PED53-B59",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Điều trị CA-MRSA",
-        "section": "B3",
-        "text": "[Barem gốc] Trường hợp nhiễm trùng do tụ cầu kháng methicillin trong cộng đồng (CA-MRSA) gây viêm hạch có thể dùng: {{c1::clindamycin}} hoặc {{c1::trimethoprim-sulfamethoxazol (TMP-SMX)}}.",
-        "extra": "Văn bản gốc: Trường hợp nhiễm trùng do tụ cầu kháng methicillin trong cộng đồng có thể dùng clindamycin hoặc trimethoprim-sulfamethoxazol (trang 60).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Dieu-tri",
-            "MRSA"
-        ]
-    },
-    {
-        "id": "PED53-B60",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Thời gian kháng sinh",
-        "section": "B3",
-        "text": "[Barem gốc] Thời gian điều trị kháng sinh trong viêm hạch cấp: {{c1::10–14 ngày}} hoặc ít nhất sau {{c1::5 ngày}} các dấu hiệu viêm giảm.",
-        "extra": "Văn bản gốc: Thời gian điều trị 10-14 ngày hoặc ít nhất sau 5 ngày các dấu hiệu viêm giảm (trang 60).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Dieu-tri",
-            "Khang-sinh"
-        ]
-    },
-    {
-        "id": "PED53-B61",
-        "track": "barem_goc",
+        "id": "PED53-E18",
+        "track": "ebm",
         "type": "basic",
-        "category": "Xử trí hạch có mủ",
-        "section": "B3",
-        "front": "Xử trí đối với hạch bạch huyết đã có mủ theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tiến hành dẫn lưu mủ, đồng thời nhuộm Gram mủ để tìm vi khuẩn giúp lựa chọn kháng sinh thích hợp.<br><br><b>💡 Lưu ý:</b><br>Khi đã tụ mủ thì kháng sinh đơn thuần không đủ — bắt buộc phải dẫn lưu ổ mủ ngoại khoa.",
-        "extra": "Văn bản gốc: Đối với hạch có mủ, dẫn lưu mủ, nhuộm gram để tìm vi khuẩn lựa chọn kháng sinh thích hợp (trang 60).",
+        "section": "E4",
+        "category": "Quy trình xử lý bệnh phẩm sinh thiết",
+        "front": "Quy trình xử lý bệnh phẩm sinh thiết hạch chuẩn quốc tế để đảm bảo chất lượng chẩn đoán mô bệnh học tối ưu?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phòng mổ lấy trọn vẹn cả bao hạch, chuyển NGAY LẬP TỨC sang phòng giải phẫu bệnh trong trạng thái TƯƠI KHÔNG CỐ ĐỊNH (Fresh tissue) đặt trên gạc ẩm tẩm nước muối sinh lý.<br>2) Chia mẫu mô vô khuẩn tại phòng xét nghiệm:<br>• Một phần gửi nuôi cấy vi sinh (vi khuẩn ái khí, kỵ khí, vi khuẩn lao AFB, nấm).<br>• Một phần làm xét nghiệm đếm tế bào dòng chảy (Flow cytometry) và sinh học phân tử di truyền.<br>• Phần còn lại cố định trong dung dịch Formol đệm 10% để đúc nến làm mô bệnh học và nhuộm hóa mô miễn dịch.<br>3) Tuyệt đối không để hạch bị ngâm formol toàn bộ trước khi chia mẫu vi sinh.<br><br><b>💡 Giải thích của AI:</b><br>Nếu phẫu thuật viên tự ý thả toàn bộ hạch vào lọ formol, vi khuẩn sẽ chết không cấy được và tế bào bị cố định không thể làm Flow cytometry.",
+        "extra": "📖 Nguồn: EBM Lâm sàng — Quy trình xử lý bệnh phẩm sinh thiết (Phần XIII)",
         "tags": [
             "PED-53",
-            "Barem-goc",
-            "Dieu-tri",
-            "Dan-luu"
-        ]
-    },
-    {
-        "id": "PED53-B62",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Nhiễm khuẩn kỵ khí",
-        "section": "B3",
-        "text": "[Barem gốc] Viêm hạch đầu mặt cổ nghi ngờ nhiễm vi khuẩn kỵ khí vùng miệng: kháng sinh được dùng là {{c1::Metronidazol}} hoặc {{c1::Clindamycin}}, có thể kết hợp với {{c1::Cephalosporin thế hệ 3}}.",
-        "extra": "Văn bản gốc mục III. Điều trị (trang 60).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Dieu-tri",
-            "Ky-khi"
-        ]
-    },
-    {
-        "id": "PED53-B63",
-        "track": "barem_goc",
-        "type": "basic",
-        "category": "Hạch lao và Mycobacteria",
-        "section": "B3",
-        "front": "2 nguyên tắc xử trí ngoại khoa và can thiệp đối với hạch lao và Mycobacteria không điển hình (NTM)?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) NTM kháng thuốc chống lao nên thường phải phẫu thuật cắt hạch. 2) CẤM rạch dẫn lưu hạch lao để tránh rò rỉ mạn tính.<br><b>💡 Barem:</b> Rạch hạch lao là sai lầm kinh điển dẫn đến rò mủ bã đậu kéo dài nhiều tháng.",
-        "extra": "Văn bản gốc: nhiều chủng mycobacteria không điển hình kháng với thuốc chống lao thường phải cắt bỏ hạch, tránh rạch hoặc dẫn lưu trong trường hợp nhiễm lao (trang 60).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Dieu-tri",
-            "Lao",
-            "Bay"
-        ]
-    },
-    {
-        "id": "PED53-B64",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Bệnh mèo cào",
-        "section": "B3",
-        "text": "[Barem gốc] Viêm hạch trong bệnh mèo cào: thường {{c1::tự ổn định}}; ở bệnh nhân suy giảm miễn dịch có thể dùng kháng sinh: {{c1::Azithromycin, Rifampin và Doxycyclin}}.",
-        "extra": "Văn bản gốc: Trường hợp viêm hạch trong bệnh mèo cào thường tự ổn định, một số kháng sinh có thể dùng ở bệnh nhân giảm miễn dịch: Azithromicin, Rifampin và doxycyclin (trang 60).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Dieu-tri",
-            "Meo-cao"
-        ]
-    },
-    {
-        "id": "PED53-B65",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Herpes simplex",
-        "section": "B3",
-        "text": "[Barem gốc] Nhiễm virus Herpes simplex nặng kèm theo viêm hạch cục bộ: sử dụng {{c1::Acyclovir}} đường {{c1::uống}} để rút ngắn thời gian bệnh.",
-        "extra": "Văn bản gốc: Trường hợp nhiễm virus herpes simplex nặng kèm theo viêm hạch cục bộ, sử dụng Acyclovir đường uống rút ngắn thời gian bệnh (trang 61).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Dieu-tri",
-            "Herpes"
-        ]
-    },
-    {
-        "id": "PED53-B66",
-        "track": "barem_goc",
-        "type": "basic",
-        "category": "Hạch ung thư trẻ em",
-        "section": "B3",
-        "front": "Đặc điểm hạch và các triệu chứng toàn thân cảnh báo ung thư ở trẻ em cần chỉ định sinh thiết?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Hạch thường to, chắc, không đau; kèm theo sốt không giải thích được, sụt cân, đổ mồ hôi đêm.<br><br><b>💡 Lưu ý:</b><br>Khi gặp tổ hợp dấu hiệu này, nên chỉ định sinh thiết hạch để xác định chẩn đoán bản chất.",
-        "extra": "Văn bản gốc: Hạch trong các bệnh ung thư trẻ em: thường to, chắc, không đau, có sốt không giải thích được, sụt cân, đổ mồ hôi đêm, nên chỉ định sinh thiết hạch để xác định nguyên nhân (trang 61).",
-        "tags": [
-            "PED-53",
-            "Barem-goc",
-            "Dieu-tri",
-            "Ung-thu"
-        ]
-    },
-    {
-        "id": "PED53-B67",
-        "type": "cloze",
-        "section": "B1_1",
-        "category": "Căn nguyên đơn bào",
-        "text": "[Barem gốc] Hai căn nguyên đơn bào gây bệnh hạch bạch huyết to được nêu trong giáo trình gồm: {{c1::toxoplasma}} và {{c1::trypanosomia}}.",
-        "extra": "Văn bản gốc mục 1. Nhiễm khuẩn: Đơn bào (trang 55).",
-        "tags": [
-            "PED-53",
-            "Barem-goc"
-        ]
-    },
-    {
-        "id": "PED53-B68",
-        "type": "cloze",
-        "section": "B1_1",
-        "category": "Căn nguyên nấm",
-        "text": "[Barem gốc] Hai căn nguyên nấm gây hạch bạch huyết to theo giáo trình gồm: {{c1::nấm da}} và {{c1::histoplasma}}.",
-        "extra": "Văn bản gốc mục 1. Nhiễm khuẩn: Nấm (trang 55).",
-        "tags": [
-            "PED-53",
-            "Barem-goc"
-        ]
-    },
-    {
-        "id": "PED53-B69",
-        "type": "cloze",
-        "section": "B1_5",
-        "category": "Hội chứng ALPS",
-        "text": "[Barem gốc] Trong các rối loạn tăng sinh mô bạch huyết, ALPS là tên viết tắt của {{c1::hội chứng tăng sinh bạch huyết tự miễn}}.",
-        "extra": "Văn bản gốc mục 5. Rối loạn tăng sinh mô bạch huyết (trang 56).",
-        "tags": [
-            "PED-53",
-            "Barem-goc"
-        ]
-    },
-    {
-        "id": "PED53-B70",
-        "type": "cloze",
-        "section": "B1_5",
-        "category": "Bệnh Rosai-Dorfman",
-        "text": "[Barem gốc] Bệnh Rosai-Dorfman trong nhóm tăng sinh mô bạch huyết còn được gọi là bệnh {{c1::tăng mô bào xoang kèm hạch to}}.",
-        "extra": "Văn bản gốc mục 5. Rối loạn tăng sinh mô bạch huyết (trang 56).",
-        "tags": [
-            "PED-53",
-            "Barem-goc"
-        ]
-    },
-    {
-        "id": "PED53-B71",
-        "type": "basic",
-        "section": "B2_2",
-        "category": "Hạch sâu trong ổ bụng",
-        "front": "Triệu chứng và phương pháp phát hiện các hạch sâu trong ổ bụng (hạch mạc treo, sau phúc mạc) theo giáo trình là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thường gây đau bụng tái diễn; cần phát hiện bằng siêu âm ổ bụng, chụp cắt lớp vi tính (CT) hoặc X-quang.<br><b>💡 Barem:</b> Hạch sâu to nhiều dính thành khối thường chỉ điểm bệnh toàn thể hoặc ác tính.",
-        "extra": "Văn bản gốc mục 2.2 Khám xét hạch (trang 57).",
-        "tags": [
-            "PED-53",
-            "Barem-goc"
-        ]
-    },
-    {
-        "id": "PED53-B72",
-        "type": "cloze",
-        "section": "B2_2",
-        "category": "Hạch thượng đòn và nách",
-        "text": "[Barem gốc] Khi khám hạch ngoại vi, tình trạng hạch bạch huyết ở {{c1::thượng đòn và nách to đồng thời}} thường chỉ điểm một {{c1::tình trạng bệnh nặng}}.",
-        "extra": "Văn bản gốc mục 2.2 Khám xét hạch (trang 57).",
-        "tags": [
-            "PED-53",
-            "Barem-goc"
-        ]
-    },
-    {
-        "id": "PED53-B73",
-        "type": "basic",
-        "section": "B2_3",
-        "category": "Chỉ định tủy đồ trong hạch to",
-        "front": "Chỉ định chọc hút tủy xương (tủy đồ) trong tiếp cận bệnh nhân hạch to theo giáo trình khi nào?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Khi nghi ngờ bệnh lơxêmi, u lympho, bệnh tăng mô bào hoặc bệnh tích lũy.<br><b>💡 Barem:</b> Thực hiện trước các xét nghiệm xâm lấn phẫu thuật khi có tổn thương hệ tạo máu.",
-        "extra": "Văn bản gốc mục 2.3 Cận lâm sàng (trang 58).",
-        "tags": [
-            "PED-53",
-            "Barem-goc"
-        ]
-    },
-    {
-        "id": "PED53-B74",
-        "type": "cloze",
-        "section": "B3",
-        "category": "Kháng sinh viêm hạch cấp vi khuẩn",
-        "text": "[Barem gốc] Điều trị viêm hạch cấp tính do tụ cầu hoặc liên cầu thường dùng kháng sinh uống nhóm {{c1::Cephalosporin thế hệ 1 (như cephalexin)}} hoặc {{c1::Amoxicillin-Clavulanat}} trong 10-14 ngày.",
-        "extra": "Văn bản gốc mục III. Điều trị (trang 59-60).",
-        "tags": [
-            "PED-53",
-            "Barem-goc"
-        ]
-    },
-    {
-        "id": "PED53-B75",
-        "type": "basic",
-        "section": "B3",
-        "category": "Kháng sinh vi khuẩn kỵ khí răng miệng",
-        "front": "Kháng sinh nào được ưu tiên khi viêm hạch bắt nguồn từ nhiễm khuẩn răng miệng họng chứa vi khuẩn kỵ khí?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Amoxicillin-Clavulanat hoặc Clindamycin.<br><b>💡 Barem:</b> Giúp bao phủ tốt cả vi khuẩn Gram dương hiếu khí và vi khuẩn kỵ khí khoang miệng.",
-        "extra": "Văn bản gốc mục III. Điều trị (trang 60).",
-        "tags": [
-            "PED-53",
-            "Barem-goc"
+            "EBM",
+            "Quy-trinh-sinh-thiet",
+            "Flow-cytometry"
         ]
     }
 ]

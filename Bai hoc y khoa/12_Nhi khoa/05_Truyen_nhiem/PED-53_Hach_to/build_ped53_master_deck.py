@@ -28,21 +28,8 @@ JSON_PATH = TARGET_DIR / "PED-53_Hach_to_MASTER_v1.cards.v2.json"
 APKG_PATH = TARGET_DIR / "PED-53_Hach_to_MASTER_v1.apkg"
 
 REQUIRED_SECTIONS = [
-    "B0",
-    "B1_0",
-    "B1_1",
-    "B1_2",
-    "B1_3",
-    "B1_4",
-    "B1_5",
-    "B1_6",
-    "B1_7",
-    "B1_8",
-    "B2_0",
-    "B2_1",
-    "B2_2",
-    "B2_3",
-    "B3",
+    "B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7",
+    "E0", "E1", "E2", "E3", "E4"
 ]
 
 CSS_STYLE = """
