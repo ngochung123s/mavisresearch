@@ -24,8 +24,9 @@ DECK_NAME = "Nhi khoa Y6::PED-51: Thấp tim ở trẻ em"
 JSON_PATH = TARGET_DIR / "PED-51_Thap_tim_MASTER_v1.cards.v2.json"
 APKG_PATH = TARGET_DIR / "PED-51_Thap_tim_MASTER_v1.apkg"
 
-REQUIRED_SECTIONS = ["B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9",
-                     "E0", "E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8"]
+REQUIRED_SECTIONS = [
+    "B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10", "B11"
+]
 
 CSS_STYLE = """
 .card {
