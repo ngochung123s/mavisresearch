@@ -29,9 +29,7 @@ APKG_PATH = TARGET_DIR / "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_
 
 REQUIRED_SECTIONS = [
     "B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9",
-    "B10", "B11", "B12", "B13", "B14", "B15", "B16", "B17", "B18",
-    "E0", "E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8", "E9",
-    "E10", "E11", "E12", "E13", "E14", "E15"
+    "B10", "B11", "B12", "B13", "B14", "B15", "B16", "B17", "B18", "B19"
 ]
 
 CSS_STYLE = """
