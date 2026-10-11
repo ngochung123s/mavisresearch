@@ -1,0 +1,36 @@
+{
+  "guidelines": [
+    {
+      "claim_id": "C-001",
+      "society": "WHO",
+      "title": "WHO guideline on the prevention and management of wasting and nutritional oedema (acute malnutrition) in infants and children under 5 years",
+      "document_id": "WHO-NFS-2023-WASTING",
+      "version": "2023",
+      "publication_date": "2023-12-29",
+      "accessed_at": "2026-10-11",
+      "canonical_url": "https://www.who.int/publications/i/item/9789240082830",
+      "local_copy": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\04_Tieu_hoa_va_Dinh_duong\\PED-30_Danh_gia_dinh_duong_theo_chuan_WHO\\outputs\\sources\\WHO_2023_wasting_guideline_9789240082830_eng.txt",
+      "sha256": "a7aadcc53f6114d31c9588ffd466179931d811badbae64366ac1b45a936636c2",
+      "recommendation_text": "WHZ or WLZ < -3 SD (or MUAC < 115 mm as an alternative measure) and/or nutritional oedema.",
+      "locator": "Section 1.2.3 / Page 6",
+      "pmid": null,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "C-002",
+      "society": "WHO",
+      "title": "WHO Child Growth Standards: Length/height-for-age, weight-for-age, weight-for-length, weight-for-height and body mass index-for-age: Methods and development",
+      "document_id": "WHO-2006-GROWTH-STANDARDS",
+      "version": "2006",
+      "publication_date": "2006-04-27",
+      "accessed_at": "2026-10-11",
+      "canonical_url": "https://www.who.int/publications/i/item/924154693X",
+      "local_copy": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\04_Tieu_hoa_va_Dinh_duong\\PED-30_Danh_gia_dinh_duong_theo_chuan_WHO\\outputs\\sources\\WHO_2006_growth_standards_924154693X_eng.txt",
+      "sha256": "c915dee53361e511afd241e1cf91bf76004051bd9c9dcefd114af33881ba74e2",
+      "recommendation_text": "To fit a single model for the whole age range, 0.7 cm was therefore added to the cross-sectional height values before merging them with the longitudinal sample's length data.",
+      "locator": "Chapter 3 / Page 11",
+      "pmid": "16817681",
+      "superseded_by": null
+    }
+  ]
+}

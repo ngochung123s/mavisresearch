@@ -1,0 +1,36 @@
+{
+  "lesson_id": "PED-30",
+  "generated_at": "2026-10-11T12:00:00Z",
+  "artifacts": [
+    {
+      "claim_id": "C-001",
+      "pmid": "17076211",
+      "type": "diagram",
+      "file_path": "outputs/visual_evidence/17076211_diagram_01_muac_shakir_tape_cutoffs.png",
+      "sha256": "bb36e279b5fb971fd0599d0db98a7ebefa5cbd02e2008a24633fe3b23d1f5084",
+      "page_number": "S7-S23",
+      "source_document": "Myatt M et al. Food Nutr Bull 2006 & WHO 2023 Wasting Guideline",
+      "caption": "Thang đo Vòng cánh tay (MUAC) ở trẻ 6–59 tháng theo chuẩn WHO (Thước dây Shakir 3 vùng màu: Đỏ < 115 mm, Vàng 115–124 mm, Xanh ≥ 125 mm)"
+    },
+    {
+      "claim_id": "C-003",
+      "pmid": "16817681",
+      "type": "table",
+      "file_path": "outputs/visual_evidence/16817681_table_01_who_zscore_cutoffs.png",
+      "sha256": "d8af9fa3779ad9803fa950f3ec9844bd595c89e1b6a92f1eb526bf3051e731f6",
+      "page_number": "76-85",
+      "source_document": "WHO Child Growth Standards 2006 (Acta Paediatr Suppl 450) & WHO 2007 Reference",
+      "caption": "Bảng đối chiếu phân loại tình trạng dinh dưỡng trẻ em theo các chỉ số Z-Score của WHO (WAZ, HAZ, WHZ, BAZ)"
+    },
+    {
+      "claim_id": "C-003",
+      "pmid": "16817681",
+      "type": "graph",
+      "file_path": "outputs/visual_evidence/16817681_graph_01_who_growth_velocity_curves.png",
+      "sha256": "8d8a47c0d3a84603c997d146b734bc10f53afbb3bbdac75af82f0dc602a1737b",
+      "page_number": "Figure 1",
+      "source_document": "WHO Child Growth Standards 2006 Growth Velocity Methods and Development",
+      "caption": "Động học đường cong tăng trưởng WHO: nhận diện đường bình thường song song kênh, cờ đỏ đi ngang (chững cân) và đi xuống cắt kênh percentiles"
+    }
+  ]
+}

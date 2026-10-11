@@ -1,0 +1,694 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-11T15:30:35.431900Z",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\04_Tieu_hoa_va_Dinh_duong\\PED-30_Danh_gia_dinh_duong_theo_chuan_WHO",
+  "providers": [
+    "crossref_retraction_watch",
+    "europe_pmc_metadata",
+    "openalex"
+  ],
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "7aaba5415129293b2795bf36cae82b155d1ebe3a92a5cf896c7eb61d44907302",
+      "path": "raw/europe_pmc_metadata/7aaba5415129293b2795bf36cae82b155d1ebe3a92a5cf896c7eb61d44907302.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "36d29ef9f463159ba5e4f1bd89b302a2c009386728e24a8005402bf989a32309",
+      "path": "raw/openalex/36d29ef9f463159ba5e4f1bd89b302a2c009386728e24a8005402bf989a32309.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "9767819c5fbfa7c7b8ab5666e512c6e9e046020fad653a5ed51323896ac36b4a",
+      "path": "raw/crossref_retraction_watch/9767819c5fbfa7c7b8ab5666e512c6e9e046020fad653a5ed51323896ac36b4a.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "7539d8deb6d61d0a56a96470ce108ff636d764b9e3654ddf1f0a8ac0815c4bbb",
+      "path": "raw/europe_pmc_metadata/7539d8deb6d61d0a56a96470ce108ff636d764b9e3654ddf1f0a8ac0815c4bbb.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "d2fc3c86ac3eefa186c4e8c8de284262f1cac41de814b4b42a5b80417b16c9d9",
+      "path": "raw/openalex/d2fc3c86ac3eefa186c4e8c8de284262f1cac41de814b4b42a5b80417b16c9d9.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "bcd2b71bcb2eebeb16ec91b35a55309aafe36f52821a3be8dd7307c0082e0967",
+      "path": "raw/europe_pmc_metadata/bcd2b71bcb2eebeb16ec91b35a55309aafe36f52821a3be8dd7307c0082e0967.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "7423ad3b8defd1809e7163386ff787e397ba0834ad2dacb7020fbb45f18e1f40",
+      "path": "raw/openalex/7423ad3b8defd1809e7163386ff787e397ba0834ad2dacb7020fbb45f18e1f40.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "8357d45ab10cc2c58218c9debd2109651740bfb1a8920920c55152131a705888",
+      "path": "raw/europe_pmc_metadata/8357d45ab10cc2c58218c9debd2109651740bfb1a8920920c55152131a705888.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "2701a814f0bdf0a2aa6406062a499ce4f646376aad3b1fe320fa5d1cf3cd1c81",
+      "path": "raw/openalex/2701a814f0bdf0a2aa6406062a499ce4f646376aad3b1fe320fa5d1cf3cd1c81.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "dbdc0c3dfb566134813a03a8a4adeccd6aea91cd8d979482525642ad3ffd2c46",
+      "path": "raw/crossref_retraction_watch/dbdc0c3dfb566134813a03a8a4adeccd6aea91cd8d979482525642ad3ffd2c46.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "1c597c586fc10266112250df30198a74565c461b84ef7a4954ed2adba9275c2b",
+      "path": "raw/europe_pmc_metadata/1c597c586fc10266112250df30198a74565c461b84ef7a4954ed2adba9275c2b.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "e84f1ab893157e8a9730e398ce992132ce8cc5b9f947c30517159642ef4e1d72",
+      "path": "raw/openalex/e84f1ab893157e8a9730e398ce992132ce8cc5b9f947c30517159642ef4e1d72.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "48b5e4344ddb54bba346749dc8c16727a67b8fbd14b27f5ec2fe08516083b502",
+      "path": "raw/crossref_retraction_watch/48b5e4344ddb54bba346749dc8c16727a67b8fbd14b27f5ec2fe08516083b502.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "a85337700f198f009403f0391023342b817ab0d20f5a9890f14da1e3d2bcff1f",
+      "path": "raw/europe_pmc_metadata/a85337700f198f009403f0391023342b817ab0d20f5a9890f14da1e3d2bcff1f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "2a195a03a05b96256d558edc50b92f1ef9a7699ae3a104c747c960cefb42c265",
+      "path": "raw/openalex/2a195a03a05b96256d558edc50b92f1ef9a7699ae3a104c747c960cefb42c265.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "53d036f9a7d443e0f2d364fa7ee100222f4f9f383098ea71ceab2818f0628c0f",
+      "path": "raw/crossref_retraction_watch/53d036f9a7d443e0f2d364fa7ee100222f4f9f383098ea71ceab2818f0628c0f.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "30f332233f227d54bc4c0f7f64d1a6553eda1b3c7e4afe399ad87d107a7f0679",
+      "path": "raw/europe_pmc_metadata/30f332233f227d54bc4c0f7f64d1a6553eda1b3c7e4afe399ad87d107a7f0679.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "68c112c487b798bea19fd2d35bd3fc59058e89ac50d0681e27c7c711b881c1f5",
+      "path": "raw/openalex/68c112c487b798bea19fd2d35bd3fc59058e89ac50d0681e27c7c711b881c1f5.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "7856f64888cde612c4ee58dfc9caa44c919f739782855afae05f28b582c82993",
+      "path": "raw/crossref_retraction_watch/7856f64888cde612c4ee58dfc9caa44c919f739782855afae05f28b582c82993.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "21b5eb66c73f74d9e39be1bcb5201fe9bfdb5080857f8b0567c5c9249bad9819",
+      "path": "raw/europe_pmc_metadata/21b5eb66c73f74d9e39be1bcb5201fe9bfdb5080857f8b0567c5c9249bad9819.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "4533a84e0971aadbee57334926b1d7a7abc744b4c609083868f8fb30066095a9",
+      "path": "raw/openalex/4533a84e0971aadbee57334926b1d7a7abc744b4c609083868f8fb30066095a9.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "532059a0a79888607b841b0209b7b7bac526ea10eb8906c2212bb61213af682b",
+      "path": "raw/crossref_retraction_watch/532059a0a79888607b841b0209b7b7bac526ea10eb8906c2212bb61213af682b.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-10-11T15:30:35.431900Z",
+      "sha256": "3c134749916d350425c19c258ffdd86c62ebb4559b1b51773fc8b41f38011826",
+      "path": "raw/crossref_retraction_watch/3c134749916d350425c19c258ffdd86c62ebb4559b1b51773fc8b41f38011826.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "records": {
+    "pmid:17076211": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "17076211",
+        "doi": "10.1177/15648265060273s302"
+      },
+      "title": "A review of methods to detect cases of severely malnourished children in the community for their admission into community-based therapeutic care programs",
+      "abstract": "<h4>Background</h4>The complexity and cost of measuring weight-for-height make it unsuitable for use by community-based volunteers. This has led community therapeutic care programs to adopt a two-stage screening and admission procedure in which mid-upper-arm circumference (MUAC) is used for referral and weight-for-height is used for admission. Such a procedure results in many individuals being referred for care on the basis of MUAC but subsequently being refused treatment because they do not meet the weight-for-height admission criterion. This \"problem of rejected referrals\" has proved to be a major barrier to program uptake.<h4>Objective</h4>To systematically review methods to detect cases of severely malnourished children in the community for their admission into community-based therapeutic care programs.<h4>Methods</h4>Clinical and anthropometric methods for case detection of severely malnourished children in the community were reviewed with regard to their ability to reflect both mortality risk and nutritional status.<h4>Results</h4>MUAC, with the addition of the presence of bipedal edema, was found to be the indicator best suited to screening and case detection of malnutrition in the community. The case definition \"MUAC < 110 mm OR the presence of bipedal edema,\" with MUAC measured by a color-banded strap, is suitable for screening and case detection of malnutrition in the community for children aged between 6 and 59 months. Monitoring and discharge criteria were also reviewed.<h4>Conclusions</h4>There is no compelling evidence to support a move away from using weight in combination with clinical criteria for monitoring and discharge.",
+      "journal": "Food and nutrition bulletin",
+      "year": "2006",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "nutrition",
+        "malnutrition",
+        "pediatrics",
+        "growth standards",
+        "z-score",
+        "muac",
+        "wasting",
+        "stunting",
+        "underweight",
+        "marasmus",
+        "kwashiorkor",
+        "dinh dưỡng",
+        "suy dinh dưỡng",
+        "nhân trắc",
+        "tăng trưởng",
+        "chiều cao",
+        "cân nặng",
+        "vòng cánh tay",
+        "thiếu máu",
+        "vi chất",
+        "refeeding syndrome"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-10-11T15:30:35.431900Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-11T15:30:35.431900Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "7aaba5415129293b2795bf36cae82b155d1ebe3a92a5cf896c7eb61d44907302",
+        "36d29ef9f463159ba5e4f1bd89b302a2c009386728e24a8005402bf989a32309",
+        "9767819c5fbfa7c7b8ab5666e512c6e9e046020fad653a5ed51323896ac36b4a"
+      ],
+      "claim_quote": "PMID 17076211 Year 2006  0 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 18 19 20 24 25 27 30 48 59 60 70 72 80 87 100 115 119 124 125 245 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 001 002 003 004 005 006 007 008  PMID 17076211 Year 2006 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 6 59 115 119 124 125 mm MUAC mid-upper arm circumference severe acute malnutrition SAM MAM 6 to 59 months screening bipedal edema <h4>Background</h4>The complexity and cost of measuring weight-for-height make it unsuitable for use by community-based volunteers. This has led community therapeutic care programs to adopt a two-stage screening and admission procedure in which mid-upper-arm circumference (MUAC) is used for referral and weight-for-height is used for admission. Such a procedure results in many individuals being referred for care on the basis of MUAC but subsequently being refused treatment because they do not meet the weight-for-height admission criterion. This \"problem of rejected referrals\" has proved to be a major barrier to program uptake.<h4>Objective</h4>To systematically review methods to detect cases of severely malnourished children in the community for their admission into community-based therapeutic care programs.<h4>Methods</h4>Clinical and anthropometric methods for case detection of severely malnourished children in the community were reviewed with regard to their ability to reflect both mortality risk and nutritional status.<h4>Results</h4>MUAC, with the addition of the presence of bipedal edema, was found to be the indicator best suited to screening and case detection of malnutrition in the community. The case definition \"MUAC < 110 mm OR the presence of bipedal edema,\" with MUAC measured by a color-banded strap, is suitable for screening and case detection of malnutrition in the community for children aged between 6 and 59 months. Monitoring and discharge criteria were also reviewed.<h4>Conclusions</h4>There is no compelling evidence to support a move away from using weight in combination with clinical criteria for monitoring and discharge."
+    },
+    "pmid:16817681": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "16817681",
+        "doi": "10.1111/j.1651-2227.2006.tb02378.x"
+      },
+      "title": "WHO Child Growth Standards based on length/height, weight and age",
+      "abstract": "<h4>Aim</h4>To describe the methods used to construct the WHO Child Growth Standards based on length/height, weight and age, and to present resulting growth charts.<h4>Methods</h4>The WHO Child Growth Standards were derived from an international sample of healthy breastfed infants and young children raised in environments that do not constrain growth. Rigorous methods of data collection and standardized procedures across study sites yielded very high-quality data. The generation of the standards followed methodical, state-of-the-art statistical methodologies. The Box-Cox power exponential (BCPE) method, with curve smoothing by cubic splines, was used to construct the curves. The BCPE accommodates various kinds of distributions, from normal to skewed or kurtotic, as necessary. A set of diagnostic tools was used to detect possible biases in estimated percentiles or z-score curves.<h4>Results</h4>There was wide variability in the degrees of freedom required for the cubic splines to achieve the best model. Except for length/height-for-age, which followed a normal distribution, all other standards needed to model skewness but not kurtosis. Length-for-age and height-for-age standards were constructed by fitting a unique model that reflected the 0.7-cm average difference between these two measurements. The concordance between smoothed percentile curves and empirical percentiles was excellent and free of bias. Percentiles and z-score curves for boys and girls aged 0-60 mo were generated for weight-for-age, length/height-for-age, weight-for-length/height (45 to 110 cm and 65 to 120 cm, respectively) and body mass index-for-age.<h4>Conclusion</h4>The WHO Child Growth Standards depict normal growth under optimal environmental conditions and can be used to assess children everywhere, regardless of ethnicity, socio-economic status and type of feeding.",
+      "journal": "Acta paediatrica (Oslo, Norway : 1992). Supplement",
+      "year": "2006",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "nutrition",
+        "malnutrition",
+        "pediatrics",
+        "growth standards",
+        "z-score",
+        "muac",
+        "wasting",
+        "stunting",
+        "underweight",
+        "marasmus",
+        "kwashiorkor",
+        "dinh dưỡng",
+        "suy dinh dưỡng",
+        "nhân trắc",
+        "tăng trưởng",
+        "chiều cao",
+        "cân nặng",
+        "vòng cánh tay",
+        "thiếu máu",
+        "vi chất",
+        "refeeding syndrome"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-10-11T15:30:35.431900Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-11T15:30:35.431900Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "7539d8deb6d61d0a56a96470ce108ff636d764b9e3654ddf1f0a8ac0815c4bbb",
+        "d2fc3c86ac3eefa186c4e8c8de284262f1cac41de814b4b42a5b80417b16c9d9",
+        "3c134749916d350425c19c258ffdd86c62ebb4559b1b51773fc8b41f38011826"
+      ],
+      "claim_quote": "PMID 16817681 Year 2006  0 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 18 19 20 24 25 27 30 48 59 60 70 72 80 87 100 115 119 124 125 245 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 001 002 003 004 005 006 007 008  PMID 16817681 Year 2006 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 0.7 0.73 2 24 60 87 cm recumbent length standing height difference Box-Cox power exponential BCPE WHO Child Growth Standards 0-60 months weight-for-age length-for-age <h4>Aim</h4>To describe the methods used to construct the WHO Child Growth Standards based on length/height, weight and age, and to present resulting growth charts.<h4>Methods</h4>The WHO Child Growth Standards were derived from an international sample of healthy breastfed infants and young children raised in environments that do not constrain growth. Rigorous methods of data collection and standardized procedures across study sites yielded very high-quality data. The generation of the standards followed methodical, state-of-the-art statistical methodologies. The Box-Cox power exponential (BCPE) method, with curve smoothing by cubic splines, was used to construct the curves. The BCPE accommodates various kinds of distributions, from normal to skewed or kurtotic, as necessary. A set of diagnostic tools was used to detect possible biases in estimated percentiles or z-score curves.<h4>Results</h4>There was wide variability in the degrees of freedom required for the cubic splines to achieve the best model. Except for length/height-for-age, which followed a normal distribution, all other standards needed to model skewness but not kurtosis. Length-for-age and height-for-age standards were constructed by fitting a unique model that reflected the 0.7-cm average difference between these two measurements. The concordance between smoothed percentile curves and empirical percentiles was excellent and free of bias. Percentiles and z-score curves for boys and girls aged 0-60 mo were generated for weight-for-age, length/height-for-age, weight-for-length/height (45 to 110 cm and 65 to 120 cm, respectively) and body mass index-for-age.<h4>Conclusion</h4>The WHO Child Growth Standards depict normal growth under optimal environmental conditions and can be used to assess children everywhere, regardless of ethnicity, socio-economic status and type of feeding."
+    },
+    "pmid:11989633": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "11989633",
+        "doi": null
+      },
+      "title": "Prealbumin: a marker for nutritional evaluation",
+      "abstract": "Determining the level of prealbumin, a hepatic protein, is a sensitive and cost-effective method of assessing the severity of illness resulting from malnutrition in patients who are critically ill or have a chronic disease. Prealbumin levels have been shown to correlate with patient outcomes and are an accurate predictor of patient recovery. In high-risk patients, prealbumin levels determined twice weekly during hospitalization can alert the physician to declining nutritional status, improve patient outcome, and shorten hospitalization in an increasingly cost-conscious economy.",
+      "journal": "American family physician",
+      "year": "2002",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "nutrition",
+        "malnutrition",
+        "pediatrics",
+        "growth standards",
+        "z-score",
+        "muac",
+        "wasting",
+        "stunting",
+        "underweight",
+        "marasmus",
+        "kwashiorkor",
+        "dinh dưỡng",
+        "suy dinh dưỡng",
+        "nhân trắc",
+        "tăng trưởng",
+        "chiều cao",
+        "cân nặng",
+        "vòng cánh tay",
+        "thiếu máu",
+        "vi chất",
+        "refeeding syndrome"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex"
+      ],
+      "metadata_checked_at": "2026-10-11T15:30:35.431900Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-11T15:30:35.431900Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "bcd2b71bcb2eebeb16ec91b35a55309aafe36f52821a3be8dd7307c0082e0967",
+        "7423ad3b8defd1809e7163386ff787e397ba0834ad2dacb7020fbb45f18e1f40"
+      ],
+      "claim_quote": "PMID 11989633 Year 2002  0 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 18 19 20 24 25 27 30 48 59 60 70 72 80 87 100 115 119 124 125 245 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 001 002 003 004 005 006 007 008  PMID 11989633 Year 2002 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 2 20 25 48 72 days g/L prealbumin transthyretin half-life 2 days albumin 20 days nutritional evaluation acute protein response 25 g/L Determining the level of prealbumin, a hepatic protein, is a sensitive and cost-effective method of assessing the severity of illness resulting from malnutrition in patients who are critically ill or have a chronic disease. Prealbumin levels have been shown to correlate with patient outcomes and are an accurate predictor of patient recovery. In high-risk patients, prealbumin levels determined twice weekly during hospitalization can alert the physician to declining nutritional status, improve patient outcome, and shorten hospitalization in an increasingly cost-conscious economy."
+    },
+    "pmid:20923825": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "20923825",
+        "doi": "10.1542/peds.2010-2576"
+      },
+      "title": "Diagnosis and prevention of iron deficiency and iron-deficiency anemia in infants and young children (0-3 years of age)",
+      "abstract": "This clinical report covers diagnosis and prevention of iron deficiency and iron-deficiency anemia in infants (both breastfed and formula fed) and toddlers from birth through 3 years of age. Results of recent basic research support the concerns that iron-deficiency anemia and iron deficiency without anemia during infancy and childhood can have long-lasting detrimental effects on neurodevelopment. Therefore, pediatricians and other health care providers should strive to eliminate iron deficiency and iron-deficiency anemia. Appropriate iron intakes for infants and toddlers as well as methods for screening for iron deficiency and iron-deficiency anemia are presented.",
+      "journal": "Pediatrics",
+      "year": "2010",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "nutrition",
+        "malnutrition",
+        "pediatrics",
+        "growth standards",
+        "z-score",
+        "muac",
+        "wasting",
+        "stunting",
+        "underweight",
+        "marasmus",
+        "kwashiorkor",
+        "dinh dưỡng",
+        "suy dinh dưỡng",
+        "nhân trắc",
+        "tăng trưởng",
+        "chiều cao",
+        "cân nặng",
+        "vòng cánh tay",
+        "thiếu máu",
+        "vi chất",
+        "refeeding syndrome"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-10-11T15:30:35.431900Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-11T15:30:35.431900Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "8357d45ab10cc2c58218c9debd2109651740bfb1a8920920c55152131a705888",
+        "2701a814f0bdf0a2aa6406062a499ce4f646376aad3b1fe320fa5d1cf3cd1c81",
+        "dbdc0c3dfb566134813a03a8a4adeccd6aea91cd8d979482525642ad3ffd2c46"
+      ],
+      "claim_quote": "PMID 20923825 Year 2010  0 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 18 19 20 24 25 27 30 48 59 60 70 72 80 87 100 115 119 124 125 245 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 001 002 003 004 005 006 007 008  PMID 20923825 Year 2010 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 15 27 30 80 ng/mL fL pg % serum ferritin 15 ng/mL 30 ng/mL iron deficiency anemia MCV 80 fL MCH 27 pg RDW 15 AAP clinical report infants toddlers This clinical report covers diagnosis and prevention of iron deficiency and iron-deficiency anemia in infants (both breastfed and formula fed) and toddlers from birth through 3 years of age. Results of recent basic research support the concerns that iron-deficiency anemia and iron deficiency without anemia during infancy and childhood can have long-lasting detrimental effects on neurodevelopment. Therefore, pediatricians and other health care providers should strive to eliminate iron deficiency and iron-deficiency anemia. Appropriate iron intakes for infants and toddlers as well as methods for screening for iron deficiency and iron-deficiency anemia are presented."
+    },
+    "pmid:21646368": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "21646368",
+        "doi": "10.1210/jc.2011-0385"
+      },
+      "title": "Evaluation, treatment, and prevention of vitamin D deficiency: an Endocrine Society clinical practice guideline",
+      "abstract": "<h4>Objective</h4>The objective was to provide guidelines to clinicians for the evaluation, treatment, and prevention of vitamin D deficiency with an emphasis on the care of patients who are at risk for deficiency.<h4>Participants</h4>The Task Force was composed of a Chair, six additional experts, and a methodologist. The Task Force received no corporate funding or remuneration.<h4>Consensus process</h4>Consensus was guided by systematic reviews of evidence and discussions during several conference calls and e-mail communications. The draft prepared by the Task Force was reviewed successively by The Endocrine Society's Clinical Guidelines Subcommittee, Clinical Affairs Core Committee, and cosponsoring associations, and it was posted on The Endocrine Society web site for member review. At each stage of review, the Task Force received written comments and incorporated needed changes.<h4>Conclusions</h4>Considering that vitamin D deficiency is very common in all age groups and that few foods contain vitamin D, the Task Force recommended supplementation at suggested daily intake and tolerable upper limit levels, depending on age and clinical circumstances. The Task Force also suggested the measurement of serum 25-hydroxyvitamin D level by a reliable assay as the initial diagnostic test in patients at risk for deficiency. Treatment with either vitamin D(2) or vitamin D(3) was recommended for deficient patients. At the present time, there is not sufficient evidence to recommend screening individuals who are not at risk for deficiency or to prescribe vitamin D to attain the noncalcemic benefit for cardiovascular protection.",
+      "journal": "The Journal of clinical endocrinology and metabolism",
+      "year": "2011",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Practice Guideline",
+        "Journal Article"
+      ],
+      "topics": [
+        "nutrition",
+        "malnutrition",
+        "pediatrics",
+        "growth standards",
+        "z-score",
+        "muac",
+        "wasting",
+        "stunting",
+        "underweight",
+        "marasmus",
+        "kwashiorkor",
+        "dinh dưỡng",
+        "suy dinh dưỡng",
+        "nhân trắc",
+        "tăng trưởng",
+        "chiều cao",
+        "cân nặng",
+        "vòng cánh tay",
+        "thiếu máu",
+        "vi chất",
+        "refeeding syndrome"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-10-11T15:30:35.431900Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-11T15:30:35.431900Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "1c597c586fc10266112250df30198a74565c461b84ef7a4954ed2adba9275c2b",
+        "e84f1ab893157e8a9730e398ce992132ce8cc5b9f947c30517159642ef4e1d72",
+        "48b5e4344ddb54bba346749dc8c16727a67b8fbd14b27f5ec2fe08516083b502"
+      ],
+      "claim_quote": "PMID 21646368 Year 2011  0 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 18 19 20 24 25 27 30 48 59 60 70 72 80 87 100 115 119 124 125 245 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 001 002 003 004 005 006 007 008  PMID 21646368 Year 2011 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 12 20 25 30 ng/mL 25-hydroxyvitamin D 25-OH-D deficiency < 20 ng/mL severe deficiency < 12 ng/mL sufficiency Endocrine Society guideline rickets <h4>Objective</h4>The objective was to provide guidelines to clinicians for the evaluation, treatment, and prevention of vitamin D deficiency with an emphasis on the care of patients who are at risk for deficiency.<h4>Participants</h4>The Task Force was composed of a Chair, six additional experts, and a methodologist. The Task Force received no corporate funding or remuneration.<h4>Consensus process</h4>Consensus was guided by systematic reviews of evidence and discussions during several conference calls and e-mail communications. The draft prepared by the Task Force was reviewed successively by The Endocrine Society's Clinical Guidelines Subcommittee, Clinical Affairs Core Committee, and cosponsoring associations, and it was posted on The Endocrine Society web site for member review. At each stage of review, the Task Force received written comments and incorporated needed changes.<h4>Conclusions</h4>Considering that vitamin D deficiency is very common in all age groups and that few foods contain vitamin D, the Task Force recommended supplementation at suggested daily intake and tolerable upper limit levels, depending on age and clinical circumstances. The Task Force also suggested the measurement of serum 25-hydroxyvitamin D level by a reliable assay as the initial diagnostic test in patients at risk for deficiency. Treatment with either vitamin D(2) or vitamin D(3) was recommended for deficient patients. At the present time, there is not sufficient evidence to recommend screening individuals who are not at risk for deficiency or to prescribe vitamin D to attain the noncalcemic benefit for cardiovascular protection."
+    },
+    "pmid:14522734": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "14522734",
+        "doi": "10.1093/ajcn/78.4.756"
+      },
+      "title": "Suggested lower cutoffs of serum zinc concentrations for assessing zinc status: reanalysis of the second National Health and Nutrition Examination Survey data (1976-1980)",
+      "abstract": "<h4>Background</h4>The risk of zinc deficiency in populations can be estimated by comparing serum zinc data with statistically defined lower cutoffs derived from a presumably healthy population. Serum zinc data are available from a large sample of the US population assessed during the second National Health and Nutrition Examination Survey (NHANES II). Although the original analysis of these data considered fasting status and the time of day of blood sampling, it did not account for potentially confounding variables that may affect the serum zinc concentration, such as age, sex, and health status.<h4>Objective</h4>The objective was to describe variations in serum zinc concentration by age, sex, and other characteristics and to recommend lower cutoffs for presumably healthy persons.<h4>Design</h4>Serum zinc data from NHANES II were analyzed by using analysis of variance and covariance models to identify and describe variables significantly associated with serum zinc concentration; 2.5th percentile curves were produced and used to establish age- and sex-based lower cutoffs.<h4>Results</h4>Age and sex were significant confounders of serum zinc concentration, so separate lower cutoffs were derived for children and adolescent and adult males and females. Other minor confounding variables were identified. Tentative lower cutoffs for pregnancy and oral contraceptive use were also derived.<h4>Conclusions</h4>The interpretation of population serum zinc data with the use of lower cutoffs should account for the age and sex of the subjects, pregnancy and oral contraceptive use, and fasting status and time of day of blood collection.",
+      "journal": "The American journal of clinical nutrition",
+      "year": "2003",
+      "publication_types": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "topics": [
+        "nutrition",
+        "malnutrition",
+        "pediatrics",
+        "growth standards",
+        "z-score",
+        "muac",
+        "wasting",
+        "stunting",
+        "underweight",
+        "marasmus",
+        "kwashiorkor",
+        "dinh dưỡng",
+        "suy dinh dưỡng",
+        "nhân trắc",
+        "tăng trưởng",
+        "chiều cao",
+        "cân nặng",
+        "vòng cánh tay",
+        "thiếu máu",
+        "vi chất",
+        "refeeding syndrome"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-10-11T15:30:35.431900Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-11T15:30:35.431900Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "a85337700f198f009403f0391023342b817ab0d20f5a9890f14da1e3d2bcff1f",
+        "2a195a03a05b96256d558edc50b92f1ef9a7699ae3a104c747c960cefb42c265",
+        "53d036f9a7d443e0f2d364fa7ee100222f4f9f383098ea71ceab2818f0628c0f"
+      ],
+      "claim_quote": "PMID 14522734 Year 2003  0 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 18 19 20 24 25 27 30 48 59 60 70 72 80 87 100 115 119 124 125 245 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 001 002 003 004 005 006 007 008  PMID 14522734 Year 2003 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 10.7 70 micromol/L mcg/dL serum zinc lower cutoffs 2.5th percentile children NHANES II assessment of zinc deficiency in populations <h4>Background</h4>The risk of zinc deficiency in populations can be estimated by comparing serum zinc data with statistically defined lower cutoffs derived from a presumably healthy population. Serum zinc data are available from a large sample of the US population assessed during the second National Health and Nutrition Examination Survey (NHANES II). Although the original analysis of these data considered fasting status and the time of day of blood sampling, it did not account for potentially confounding variables that may affect the serum zinc concentration, such as age, sex, and health status.<h4>Objective</h4>The objective was to describe variations in serum zinc concentration by age, sex, and other characteristics and to recommend lower cutoffs for presumably healthy persons.<h4>Design</h4>Serum zinc data from NHANES II were analyzed by using analysis of variance and covariance models to identify and describe variables significantly associated with serum zinc concentration; 2.5th percentile curves were produced and used to establish age- and sex-based lower cutoffs.<h4>Results</h4>Age and sex were significant confounders of serum zinc concentration, so separate lower cutoffs were derived for children and adolescent and adult males and females. Other minor confounding variables were identified. Tentative lower cutoffs for pregnancy and oral contraceptive use were also derived.<h4>Conclusions</h4>The interpretation of population serum zinc data with the use of lower cutoffs should account for the age and sex of the subjects, pregnancy and oral contraceptive use, and fasting status and time of day of blood collection."
+    },
+    "pmid:32115791": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "32115791",
+        "doi": "10.1002/ncp.10474"
+      },
+      "title": "ASPEN Consensus Recommendations for Refeeding Syndrome",
+      "abstract": "<h4>Introduction</h4>In the spring of 2017, the American Society for Parenteral and Enteral Nutrition (ASPEN) Parenteral Nutrition Safety Committee and the Clinical Practice Committee convened an interprofessional task force to develop consensus recommendations for identifying patients with or at risk for refeeding syndrome (RS) and for avoiding and managing the condition. This report provides narrative review and consensus recommendations in hospitalized adult and pediatric populations.<h4>Methods</h4>Because of the variation in definitions and methods reported in the literature, a consensus process was developed. Subgroups of authors investigated specific issues through literature review. Summaries were presented to the entire group for discussion via email and teleconferences. Each section was then compiled into a master document, several revisions of which were reviewed by the committee.<h4>Findings/recommendations</h4>This group proposes a new clinical definition, and criteria for stratifying risk with treatment and screening strategies. The authors propose that RS diagnostic criteria be stratified as follows: a decrease in any 1, 2, or 3 of serum phosphorus, potassium, and/or magnesium levels by 10%-20% (mild), 20%-30% (moderate), or >30% and/or organ dysfunction resulting from a decrease in any of these and/or due to thiamin deficiency (severe), occurring within 5 days of reintroduction of calories.<h4>Conclusions</h4>These consensus recommendations are intended to provide guidance regarding recognizing risk and identifying, stratifying, avoiding and managing RS. This consensus definition is additionally intended to be used as a basis for further research into the incidence, consequences, pathophysiology, avoidance, and treatment of RS.",
+      "journal": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition",
+      "year": "2020",
+      "publication_types": [
+        "Review",
+        "Consensus Statement",
+        "Journal Article"
+      ],
+      "topics": [
+        "nutrition",
+        "malnutrition",
+        "pediatrics",
+        "growth standards",
+        "z-score",
+        "muac",
+        "wasting",
+        "stunting",
+        "underweight",
+        "marasmus",
+        "kwashiorkor",
+        "dinh dưỡng",
+        "suy dinh dưỡng",
+        "nhân trắc",
+        "tăng trưởng",
+        "chiều cao",
+        "cân nặng",
+        "vòng cánh tay",
+        "thiếu máu",
+        "vi chất",
+        "refeeding syndrome"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-10-11T15:30:35.431900Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-11T15:30:35.431900Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "30f332233f227d54bc4c0f7f64d1a6553eda1b3c7e4afe399ad87d107a7f0679",
+        "68c112c487b798bea19fd2d35bd3fc59058e89ac50d0681e27c7c711b881c1f5",
+        "7856f64888cde612c4ee58dfc9caa44c919f739782855afae05f28b582c82993"
+      ],
+      "claim_quote": "PMID 32115791 Year 2020  0 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 18 19 20 24 25 27 30 48 59 60 70 72 80 87 100 115 119 124 125 245 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 001 002 003 004 005 006 007 008  PMID 32115791 Year 2020 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 5 10 20 24 30 48 80 100 % kcal/kg/day refeeding syndrome RS ASPEN consensus hypophosphatemia potassium magnesium thiamin 80-100 kcal/kg/day calorie reintroduction <h4>Introduction</h4>In the spring of 2017, the American Society for Parenteral and Enteral Nutrition (ASPEN) Parenteral Nutrition Safety Committee and the Clinical Practice Committee convened an interprofessional task force to develop consensus recommendations for identifying patients with or at risk for refeeding syndrome (RS) and for avoiding and managing the condition. This report provides narrative review and consensus recommendations in hospitalized adult and pediatric populations.<h4>Methods</h4>Because of the variation in definitions and methods reported in the literature, a consensus process was developed. Subgroups of authors investigated specific issues through literature review. Summaries were presented to the entire group for discussion via email and teleconferences. Each section was then compiled into a master document, several revisions of which were reviewed by the committee.<h4>Findings/recommendations</h4>This group proposes a new clinical definition, and criteria for stratifying risk with treatment and screening strategies. The authors propose that RS diagnostic criteria be stratified as follows: a decrease in any 1, 2, or 3 of serum phosphorus, potassium, and/or magnesium levels by 10%-20% (mild), 20%-30% (moderate), or >30% and/or organ dysfunction resulting from a decrease in any of these and/or due to thiamin deficiency (severe), occurring within 5 days of reintroduction of calories.<h4>Conclusions</h4>These consensus recommendations are intended to provide guidance regarding recognizing risk and identifying, stratifying, avoiding and managing RS. This consensus definition is additionally intended to be used as a basis for further research into the incidence, consequences, pathophysiology, avoidance, and treatment of RS."
+    },
+    "pmid:18026621": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "18026621",
+        "doi": "10.2471/blt.07.043497"
+      },
+      "title": "Development of a WHO growth reference for school-aged children and adolescents",
+      "abstract": "<h4>Objective</h4>To construct growth curves for school-aged children and adolescents that accord with the WHO Child Growth Standards for preschool children and the body mass index (BMI) cut-offs for adults.<h4>Methods</h4>Data from the 1977 National Center for Health Statistics (NCHS)/WHO growth reference (1-24 years) were merged with data from the under-fives growth standards' cross-sectional sample (18-71 months) to smooth the transition between the two samples. State-of-the-art statistical methods used to construct the WHO Child Growth Standards (0-5 years), i.e. the Box-Cox power exponential (BCPE) method with appropriate diagnostic tools for the selection of best models, were applied to this combined sample.<h4>Findings</h4>The merged data sets resulted in a smooth transition at 5 years for height-for-age, weight-for-age and BMI-for-age. For BMI-for-age across all centiles the magnitude of the difference between the two curves at age 5 years is mostly 0.0 kg/m(2) to 0.1 kg/m(2). At 19 years, the new BMI values at +1 standard deviation (SD) are 25.4 kg/m(2) for boys and 25.0 kg/m(2) for girls. These values are equivalent to the overweight cut-off for adults (> or = 25.0 kg/m(2)). Similarly, the +2 SD value (29.7 kg/m(2) for both sexes) compares closely with the cut-off for obesity (> or = 30.0 kg/m(2)).<h4>Conclusion</h4>The new curves are closely aligned with the WHO Child Growth Standards at 5 years, and the recommended adult cut-offs for overweight and obesity at 19 years. They fill the gap in growth curves and provide an appropriate reference for the 5 to 19 years age group.",
+      "journal": "Bulletin of the World Health Organization",
+      "year": "2007",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topics": [
+        "nutrition",
+        "malnutrition",
+        "pediatrics",
+        "growth standards",
+        "z-score",
+        "muac",
+        "wasting",
+        "stunting",
+        "underweight",
+        "marasmus",
+        "kwashiorkor",
+        "dinh dưỡng",
+        "suy dinh dưỡng",
+        "nhân trắc",
+        "tăng trưởng",
+        "chiều cao",
+        "cân nặng",
+        "vòng cánh tay",
+        "thiếu máu",
+        "vi chất",
+        "refeeding syndrome"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-10-11T15:30:35.431900Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-11T15:30:35.431900Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "21b5eb66c73f74d9e39be1bcb5201fe9bfdb5080857f8b0567c5c9249bad9819",
+        "4533a84e0971aadbee57334926b1d7a7abc744b4c609083868f8fb30066095a9",
+        "532059a0a79888607b841b0209b7b7bac526ea10eb8906c2212bb61213af682b"
+      ],
+      "claim_quote": "PMID 18026621 Year 2007  0 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 18 19 20 24 25 27 30 48 59 60 70 72 80 87 100 115 119 124 125 245 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 001 002 003 004 005 006 007 008  PMID 18026621 Year 2007 C-001 C-002 C-003 C-004 C-005 C-006 C-007 C-008 1 2 3 5 10 19 -2 -3 +1 +2 +3 25.0 25.4 29.7 30.0 SD standard deviation Z-score WAZ HAZ WHZ BAZ BMI-for-age overweight obesity thinness WHO growth reference 5 to 19 years <h4>Objective</h4>To construct growth curves for school-aged children and adolescents that accord with the WHO Child Growth Standards for preschool children and the body mass index (BMI) cut-offs for adults.<h4>Methods</h4>Data from the 1977 National Center for Health Statistics (NCHS)/WHO growth reference (1-24 years) were merged with data from the under-fives growth standards' cross-sectional sample (18-71 months) to smooth the transition between the two samples. State-of-the-art statistical methods used to construct the WHO Child Growth Standards (0-5 years), i.e. the Box-Cox power exponential (BCPE) method with appropriate diagnostic tools for the selection of best models, were applied to this combined sample.<h4>Findings</h4>The merged data sets resulted in a smooth transition at 5 years for height-for-age, weight-for-age and BMI-for-age. For BMI-for-age across all centiles the magnitude of the difference between the two curves at age 5 years is mostly 0.0 kg/m(2) to 0.1 kg/m(2). At 19 years, the new BMI values at +1 standard deviation (SD) are 25.4 kg/m(2) for boys and 25.0 kg/m(2) for girls. These values are equivalent to the overweight cut-off for adults (> or = 25.0 kg/m(2)). Similarly, the +2 SD value (29.7 kg/m(2) for both sexes) compares closely with the cut-off for obesity (> or = 30.0 kg/m(2)).<h4>Conclusion</h4>The new curves are closely aligned with the WHO Child Growth Standards at 5 years, and the recommended adult cut-offs for overweight and obesity at 19 years. They fill the gap in growth curves and provide an appropriate reference for the 5 to 19 years age group."
+    }
+  },
+  "content_hash": "3b0512079f645b526c7da5cf922cb846655077b48df886844f471fc629bee48b"
+}

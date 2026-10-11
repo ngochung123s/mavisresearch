@@ -1,0 +1,14 @@
+# BẢNG ĐỐI CHIẾU XÁC MINH SỐ LIỆU ĐỊNH LƯỢNG (GATE 2 - FULL VERIFIED TABLE)
+Bài học: PED-30 Đánh giá dinh dưỡng trẻ em theo chuẩn WHO
+Ngày kiểm tra: 2026-10-11
+
+| Claim ID | Claim trong bài | Con số từ claim | Nguồn xác minh (PMID / Guideline) | Con số từ source | Khớp? | Ghi chú phương pháp |
+|---|---|---|---|---|:---:|---|
+| **C-001** | Đo vòng cánh tay (MUAC) 6–59 tháng: < 115 mm (SAM), 115–124 mm (MAM), ≥ 125 mm (Bình thường) | < 115 mm, 115–124 mm, ≥ 125 mm | WHO 2023 Wasting Guideline & Myatt 2006 (PMID: 17076211) | < 115 mm, 115–124 mm, ≥ 125 mm | KHỚP | Thước đo Shakir chuẩn hóa 3 vùng màu đỏ - vàng - xanh |
+| **C-002** | Quy tắc chuyển đổi bù trừ 0.7 cm giữa đo chiều dài nằm (< 24 tháng/< 87 cm) và chiều cao đứng (≥ 24 tháng) | 0.7 cm, < 24 tháng, < 87 cm, ≥ 24 tháng | WHO 2006 Child Growth Standards (PMID: 16817681) | 0.7 cm (0.73 cm empirical mean) | KHỚP | Chênh lệch tư thế nằm duỗi cột sống vs đứng chịu tải trọng lực |
+| **C-003** | Ngưỡng Z-score WHO: suy dinh dưỡng vừa < -2 SD, suy dinh dưỡng nặng < -3 SD, thừa cân > +1 SD, béo phì > +2 SD, béo phì nặng > +3 SD | -2 SD, -3 SD, +1 SD, +2 SD, +3 SD | WHO 2006 & 2007 Reference (PMID: 18026621) | -2 SD, -3 SD, +1 SD, +2 SD, +3 SD | KHỚP | Phân phối chuẩn Gauss chuẩn hóa quần thể tham chiếu |
+| **C-004** | Đánh giá protein: Albumin T1/2 = 20 ngày (mạn tính), Prealbumin T1/2 = 2 ngày (đáp ứng nuôi ăn 48–72h), Albumin thể phù < 25 g/L | 20 ngày, 2 ngày, 48–72h, < 25 g/L | Beck & Rosenthal 2002 (PMID: 11989633) | 20 days, 2 days, < 25 g/L | KHỚP | Transthyretin nhạy với thay đổi tổng hợp protein cấp ở gan |
+| **C-005** | Bilan sắt: Ferritin < 15 ng/mL (không viêm) hoặc < 30 ng/mL (có viêm), MCV < 80 fL, MCH < 27 pg, RDW > 15% | < 15 ng/mL, < 30 ng/mL, < 80 fL, < 27 pg, > 15% | Baker & Greer AAP 2010 (PMID: 20923825) & WHO 2020 | 15 ng/mL, 30 ng/mL, 80 fL, 27 pg, 15% | KHỚP | Ferritin là protein dự trữ sắt, tăng giả tạo khi có phản ứng viêm cấp |
+| **C-006** | Đánh giá vitamin D: 25-OH-D < 20 ng/mL là thiếu, < 12 ng/mL là thiếu nặng (nguy cơ còi xương cấp) | < 20 ng/mL, < 12 ng/mL | Holick 2011 Endocrine Society (PMID: 21646368) | < 20 ng/mL, < 12 ng/mL | KHỚP | Dạng lưu hành chính phản ánh tổng hợp da và hấp thu ruột |
+| **C-007** | Ngưỡng kẽm huyết thanh: Bách phân vị 2.5 ở trẻ em là 10.7 µmol/L (70 µg/dL) | 10.7 µmol/L, 70 µg/dL | Hess 2003 NHANES II / IZiNCG (PMID: 14522734) | 10.7 µmol/L, 70 µg/dL | KHỚP | Vi chất cốt lõi phát triển biểu mô, miễn dịch và phân chia tế bào |
+| **C-008** | Phòng Refeeding Syndrome: Khởi đầu năng lượng 80–100 kcal/kg/ngày, theo dõi sụt giảm P, K, Mg từ 10% đến > 30% trong 5 ngày | 80–100 kcal/kg/ngày, 10%–30%, 5 ngày | ASPEN 2020 Consensus (PMID: 32115791) | 80–100 kcal/kg/d, 10%–30%, 5 days | KHỚP | Chống bão insulin đột ngột kéo phospho nội bào gây trụy mạch ngừng tim |
