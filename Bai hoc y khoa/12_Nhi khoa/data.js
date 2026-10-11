@@ -2,12 +2,12 @@
 window.PED_LIBRARY_DATA = {
   "metadata": {
     "title": "PedViewer — Thư viện Sách & Bài học Nhi khoa",
-    "version": "20261011_230312",
-    "generated_at": "2026-10-11 23:03:12",
+    "version": "20261012_001341",
+    "generated_at": "2026-10-12 00:13:41",
     "total_curriculum": 56,
     "total_ped": 30,
     "total_pedytb": 12,
-    "total_cards": 2886,
+    "total_cards": 2890,
     "blocks": [
       "Block 0 — Nền tảng tư duy, Tiếp cận & Dược lý Nhi khoa",
       "Block 1 — Hồi sức, Cấp cứu & Ngộ độc Nhi khoa",
@@ -474,10 +474,10 @@ window.PED_LIBRARY_DATA = {
       "block": "Block 4 — Tiêu hóa & Dinh dưỡng Nhi khoa",
       "scope": "Đọc biểu đồ tăng trưởng và Z-score (Weight-for-Age, Height-for-Age, Weight-for-Height, BMI-for-Age); phân loại thể nhẹ cân, thấp còi, gầy còm; sàng lọc béo phì.",
       "dependency": "PED-01",
-      "curriculum_status": "✅ GATES ĐẠT (MD + PEDYTB + APKG 106 thẻ Master)",
+      "curriculum_status": "✅ GATES ĐẠT (MD + PEDYTB + APKG 110 thẻ Basic)",
       "has_ped": true,
       "has_pedytb": true,
-      "cards_count": 106,
+      "cards_count": 110,
       "apkg_file": "PED-30_Danh_gia_dinh_duong_MASTER_v1.apkg",
       "folder_rel": "04_Tieu_hoa_va_Dinh_duong/PED-30_Danh_gia_dinh_duong_theo_chuan_WHO"
     },
@@ -16113,7 +16113,7 @@ window.PED_LIBRARY_DATA = {
       "has_pedytb": false,
       "has_cards": true,
       "ped_file": "PED-24_Croup_Viem_thanh_khi_phe_quan_cap_2026-09-17_RELEASE_v1.md",
-      "ped_content": "# BÀI HỌC Y KHOA: VIÊM THANH KHÍ PHẾ QUẢN CẤP (CROUP) Ở TRẺ EM (PED-24)\n\n**Mã bài:** PED-24  \n**Chuyên khoa:** Nhi khoa / Hô hấp Nhi & Cấp cứu Nhi  \n**Đối tượng:** Bác sĩ thực hành, học viên lâm sàng, sinh viên y khoa chuẩn bị trực cấp cứu và đi buồng bệnh Nhi (Chế độ sư phạm: L3_BEGINNER — Cầm tay chỉ việc cho người bắt đầu)  \n**Đường học trước:** PED-01: Đặc điểm sinh lý & Bảng sinh hiệu bình thường theo tuổi · PED-02: Tam giác đánh giá PAT & Tiếp cận ABCDE · PED-20: Sơ đồ tiếp cận trẻ Ho và Khò khè theo lứa tuổi  \n**Đường học tiếp theo:** PED-21: Viêm phổi mắc phải cộng đồng (CAP) · PED-22: Viêm tiểu phế quản cấp ở trẻ nhũ nhi · PED-25: Liệu pháp Oxy & Hỗ trợ hô hấp không xâm lấn  \n**Revision phát hành:** RELEASE v1  \n**Research brief khóa nguồn:** PED-24_RESEARCH_BRIEF.md  \n\n---\n\n## 0. TỔNG QUAN — VÌ SAO BÀI NÀY QUAN TRỌNG?\n\nCroup (Viêm thanh khí phế quản cấp - Laryngotracheobronchitis) là một trong những nguyên nhân phổ biến nhất gây tắc nghẽn đường hô hấp trên cấp tính ở trẻ nhỏ, đặc biệt trong độ tuổi từ 6 tháng đến 36 tháng tuổi. Tình trạng này là nguyên nhân của hàng trăm ngàn lượt khám cấp cứu hàng năm trên toàn thế giới, thường bùng phát vào mùa thu đông và ban đêm.\n\nĐối với người thầy thuốc trực cấp cứu Nhi khoa, Croup là một tình huống lâm sàng vô cùng đặc biệt:\n- **Áp lực tâm lý tột độ:** Một đứa trẻ đang ngủ yên lúc nửa đêm đột ngột thức giấc, ho dữ dội với âm thanh chát chúa như tiếng chó sủa (barking cough), tiếng thở rít thanh quản khò khè thì hít vào (inspiratory stridor) và rút lõm lồng ngực rõ rệt. Bố mẹ thường rơi vào trạng thái hoảng loạn cực độ vì nghĩ con mình sắp nghẹt thở chết.\n- **Ranh giới mong manh giữa an toàn và thảm họa:** Mặc dù trên 85% các trường hợp Croup thuộc thể nhẹ và có thể điều trị ngoại trú an toàn, nhưng nếu bác sĩ đánh giá sai mức độ nặng, bỏ sót các dấu hiệu cảnh báo nguy kịch, hoặc xử trí sai lầm (như thăm khám họng thô bạo bằng que đè lưỡi, chỉ định thuốc an thần, hoặc giữ trẻ lại để chụp X-quang không cần thiết), đường thở của trẻ có thể bị bít tắc hoàn toàn chỉ trong vài phút.\n- **Chiến thắng vang dội của Y học chứng cứ (EBM):** Croup là một trong những minh chứng rực rỡ nhất của việc áp dụng y học chứng cứ trong Nhi khoa. Việc triển khai liệu pháp Dexamethasone liều duy nhất cho mọi thể Croup (từ nhẹ đến nặng) kết hợp với khí dung L-Adrenaline cấp cứu đã làm giảm hơn 80% tỷ lệ phải đặt nội khí quản và giảm ngoạn mục tỷ lệ nhập viện hồi sức trên toàn cầu.\n\nNắm vững cơ chế bệnh sinh, phân tầng đúng bằng thang điểm Westley, sử dụng thuốc đúng thời điểm và tuân thủ nguyên tắc chăm sóc tối thiểu (Minimal Handling) là chìa khóa vàng giúp bác sĩ cứu sống bệnh nhi và mang lại sự an tâm tuyệt đối cho gia đình.\n\n### 0.1 Nền tảng tối thiểu cần dùng ngay\n\nDành cho học viên và bác sĩ bắt đầu thực hành lâm sàng, dưới đây là các khái niệm giải phẫu, sinh lý và thuật ngữ bắt buộc phải nắm vững:\n\n- **Croup (Viêm thanh khí phế quản cấp)** là một hội chứng lâm sàng đường hô hấp đặc trưng bởi sự khởi phát đột ngột của tam chứng: ho tiếng ông ổng (barking cough), khàn tiếng (hoarseness), và thở rít thì hít vào (inspiratory stridor) do phù nề vùng hạ thanh môn.\n- **Vòng sụn nhẫn (Cricoid cartilage)** là một cấu trúc sụn hoàn chỉnh duy nhất của đường thở hình chiếc nhẫn nằm ngay dưới sụn giáp, đại diện cho điểm hẹp nhất của đường dẫn khí ở trẻ em dưới 8 tuổi. Vì vòng sụn này kín hoàn toàn và không thể giãn nở ra ngoài, mọi hiện tượng viêm phù nề niêm mạc chỉ có thể lồi vào trong lòng ống, làm hẹp nghiêm trọng khẩu kính đường thở.\n- **Thở rít thanh quản (Stridor)** là một âm thanh bệnh lý âm sắc cao, thô ráp, phát sinh khi dòng không khí xoáy đi qua đoạn đường thở lớn ngoài lồng ngực bị hẹp (thường gặp nhất ở thanh quản và hạ thanh môn), nghe rõ nhất ở thì hít vào.\n- **Ho tiếng ông ổng (Barking cough)** là một kiểu ho đặc biệt có âm vang thô ráp kim khí giống như tiếng hải cẩu sủa hoặc tiếng chó sủa, phát sinh do luồng không khí tốc độ cao đi qua vùng hạ thanh môn bị phù nề làm rung các dây thanh âm và mô mềm thanh quản.\n- **Hiện tượng dội ngược (Rebound phenomenon)** là một tình trạng tái hẹp lòng đường thở cấp tính sau khi thuốc co mạch khí dung (như Adrenaline) hết tác dụng dược lý trong khi quá trình viêm nền vẫn chưa được kiểm soát bởi Corticoid.\n- **Thang điểm Westley (Westley Croup Score)** là một công cụ lâm sàng lượng hóa mức độ nghiêm trọng của Croup gồm 5 tiêu chí: Thở rít, Co kéo cơ hô hấp, Thông khí phổi, Tím tái và Tri giác.\n- **L-Adrenaline (Epinephrine 1:1000)** là một thuốc cấp cứu chủ vận mạnh trên cả thụ thể $\\alpha$ và $\\beta$-adrenergic; trong Croup, tác dụng kích thích thụ thể $\\alpha_1$-adrenergic gây co các tiểu động mạch niêm mạc hạ thanh môn, dẫn đến hấp thu dịch phù nề và mở rộng tức thì lòng đường thở.\n- **Dexamethasone** là một Glucocorticoid tổng hợp có hoạt tính kháng viêm cực mạnh (gấp 25–30 lần Hydrocortisone) và thời gian bán thải sinh học kéo dài (36–72 giờ), có tác dụng ức chế giải phóng các cytokine tiền viêm và giảm tính thấm thành mạch tại đường thở.\n- **Dấu hiệu Nóc nhà thờ (Steeple sign)** là một dấu hiệu hình ảnh trên phim X-quang cổ thẳng (AP view), thể hiện sự thu hẹp hình nón đối xứng của cột khí vùng hạ thanh môn do phù nề niêm mạc.\n- **Liệu pháp xông hơi ẩm (Mist therapy)** là một phương pháp điều trị truyền thống sử dụng hơi nước nóng hoặc lạnh cho trẻ hít vào; các phân tích gộp hiện đại đã chứng minh phương pháp này không mang lại lợi ích lâm sàng và không làm thay đổi điểm số Croup.\n\n> 🚨 **BOX ĐỎ — BÁO ĐỘNG ĐỎ CẤP CỨU Ở TRẺ CROUP**  \n> Khi tiếp nhận trẻ có thở rít thanh quản hoặc nghi ngờ Croup, nếu xuất hiện **BẤT KỲ MỘT** dấu hiệu nào sau đây, phải kích hoạt kíp cấp cứu đường thở khó (gồm Bác sĩ Hồi sức Nhi và Bác sĩ Tai Mũi Họng) và chuẩn bị ngay phương tiện đặt nội khí quản:  \n> 1. **Thở rít thanh quản nghe rõ ở cả 2 thì (cả hít vào và thở ra)** khi trẻ đang nằm yên hoàn toàn.  \n> 2. Rút lõm lồng ngực dữ dội, co kéo hõm ức sâu, trẻ thở gật gù theo nhịp thở hoặc có biểu hiện kiệt sức cơ hô hấp.  \n> 3. Trẻ bứt rứt, kích thích, hoảng loạn hoặc ngược lại chuyển sang li bì, lơ mơ, giảm phản xạ (dấu hiệu thiếu oxy não và ứ $CO_2$ tối cấp).  \n> 4. Tím tái trung ương (tím môi, tím đầu chi hoặc niêm mạc) khi đang thở khí trời, hoặc $SpO_2 < 92\\%$.  \n> 5. Trẻ có biểu hiện nuốt khó, chảy nhiều nước dãi (drooling), ngồi rướn cổ ra trước theo \"tư thế ngửi hoa\" (sniffing position) và sốt cao nhiễm độc — cảnh báo đỏ của **Viêm nắp thanh môn cấp (Epiglottitis)**!  \n> ⚠️ **TUYỆT ĐỐI CẤM:** Không dùng que đè lưỡi khám họng, không ép trẻ nằm ngửa, không cố lấy ven gây đau đớn khi chưa chuẩn bị sẵn sàng kíp đặt ống nội khí quản!\n\n---\n\n## 1. ĐỊNH NGHĨA VÀ PHÂN LOẠI CỐT LÕI\n\nCroup không phải là một bệnh đơn lẻ mà là một hội chứng lâm sàng phản ánh tình trạng viêm nhiễm và phù nề cấp tính ở thanh quản, khí quản và các phế quản lớn.\n\n### 1.1 Định nghĩa lâm sàng chuẩn mực\n\nTheo Viện Hàn lâm Nhi khoa Hoa Kỳ (AAP), Hiệp hội Nhi khoa Canada: Acute management of croup in the emergency department. Published guidelines advise using steroids as the mainstay treatment for all children with croup. {claim:C-002} [GUIDELINE VERIFIED] (PMID: 29532807) và Hướng dẫn của Bộ Y tế Việt Nam:\n\n> **Viêm thanh khí phế quản cấp (Croup)** là một hội chứng nhiễm trùng đường hô hấp trên thường gặp ở trẻ em từ 6 tháng đến 36 tháng tuổi, đặc trưng bởi sự khởi phát cấp tính của:  \n> 1. **Ho tiếng ông ổng (Barking cough)**.  \n> 2. **Khàn tiếng (Hoarseness)** hoặc mất tiếng.  \n> 3. **Thở rít thì hít vào (Inspiratory stridor)**.  \n> 4. Các mức độ co kéo cơ hô hấp phụ (rút lõm hõm ức, co kéo liên sườn).  \n> Các triệu chứng này thường xuất hiện sau giai đoạn viêm long hô hấp trên 1–2 ngày và có xu hướng nặng lên rõ rệt vào ban đêm.\n\n```text\n[Giai đoạn 1 (Ngày 1-2)] Viêm long hô hấp trên: Sốt nhẹ 37.5-38.5°C, chảy mũi trong, ho húng hắng\n       ↓\n[Giai đoạn 2 (Đêm 2-3)] Bùng phát về đêm: Ho ông ổng đanh thép, khàn tiếng, thở rít khi hít vào\n       ↓\n[Giai đoạn 3 (Can thiệp)] Sau Dexamethasone ± Adrenaline: Giảm phù nề, hết thở rít khi nằm yên\n       ↓\n[Giai đoạn 4 (Ngày 4-7)] Hồi phục hoàn toàn: Tiếng ho mềm dần, ăn bú tốt, hết khàn giọng\n```\n\n### 1.2 Căn nguyên vi sinh học\n\nVirus là tác nhân gây bệnh chiếm ưu thế tuyệt đối trong Croup cấp ở trẻ em:\n1. **Human Parainfluenza Viruses (HPIV - Virus Á cúm):** Tác nhân vi sinh hàng đầu gây bệnh cảnh Viêm thanh khí phế quản cấp ở trẻ em. Croup seminar: Most children who present with acute onset of barky cough, stridor, and chest-wall indrawing have croup; parainfluenza is the predominant cause. {claim:C-001} [ABSTRACT VERIFIED] (PMID: 18295000). Virus Á cúm thuộc họ Paramyxoviridae, xâm nhập và nhân lên mạnh mẽ tại biểu mô đường thở. Trong các phân type, HPIV type 1 là chủng gây bệnh phổ biến nhất vào mùa thu đông, chiếm khoảng từ sáu mươi lăm đến bảy mươi lăm phần trăm tổng số ca bệnh được ghi nhận trên lâm sàng.\nHPIV type 2 gây bệnh cảnh tương tự nhưng thường nhẹ hơn. HPIV type 3 thường liên quan đến viêm tiểu phế quản và viêm phổi ở trẻ nhỏ hơn.\n2. **Respiratory Syncytial Virus (RSV) và Adenovirus:** Chiếm khoảng 10–15% các trường hợp, thường gây bệnh cảnh kéo dài và có thể lan xuống phế quản phổi gây khò khè phế quản phối hợp.\n3. **Virus Cúm (Influenza A và B):** Chiếm 5–10%, thường gây Croup thể nặng, sốt rất cao và có nguy cơ cao bội nhiễm vi khuẩn thứ phát.\n4. **Các virus khác:** Coronavirus, Rhinovirus, Metapneumovirus ở người (hMPV), Enterovirus.\n\n### 1.3 Phân loại thể lâm sàng: Croup virus vs Croup co thắt\n\nTrên lâm sàng, cần phân biệt hai thể bệnh chính có chiến lược theo dõi khác nhau:\n\n| Tiêu chí | Croup virus (Laryngotracheobronchitis) | Croup co thắt (Spasmodic Croup) |\n|---|---|---|\n| **Bản chất** | Nhiễm trùng đường thở do virus lan tỏa | Phản ứng co thắt thanh quản dị ứng / quá mẫn |\n| **Tiền triệu** | Có sốt nhẹ, chảy mũi, viêm long 1–2 ngày | KHÔNG có sốt, không có viêm long hô hấp trên |\n| **Khởi phát** | Tiến triển dần từ viêm long đến thở rít | Đột ngột thức giấc lúc nửa đêm vì ho ông ổng và thở rít |\n| **Tiền sử** | Thường là đợt đầu tiên hoặc hiếm khi tái phát | Hay tái phát nhiều lần, tiền sử bản thân/gia đình dị ứng |\n| **Toàn trạng** | Trẻ mệt mỏi, vẻ mặt nhiễm virus | Trẻ hoàn toàn bình thường vào ban ngày giữa các cơn |\n| **Thời gian kéo dài** | Kéo dài 3–7 ngày | Cơn thường biến mất nhanh sau vài giờ hoặc sáng hôm sau |\n| **Đáp ứng điều trị** | Đáp ứng tốt với Dexamethasone sau 1–2 giờ | Đáp ứng rất nhanh với không khí ẩm mát hoặc Dexamethasone |\n\n---\n\n## 2. CƠ CHẾ SINH LÝ BỆNH HỌC 5 TẦNG & ĐỊNH LUẬT POISEUILLE\n\nTại sao Croup lại nguy hiểm ở trẻ nhỏ trong khi ở người lớn cùng một loại virus Á cúm chỉ gây viêm thanh quản khàn tiếng nhẹ? Câu trả lời nằm trọn vẹn trong cấu trúc giải phẫu đặc thù của đường thở nhi khoa và định luật vật lý Poiseuille.\n\n### 2.1 Đặc điểm giải phẫu thanh quản nhi khoa & Vòng sụn nhẫn\n\nĐường thở của trẻ em không phải là một mô hình thu nhỏ đơn thuần của người lớn:\n1. **Hình thái hình phễu (Funnel shape):** Ở người lớn, thanh quản có hình trụ và khe thanh môn (vị trí giữa hai dây thanh âm) là điểm hẹp nhất. Ngược lại, ở trẻ nhỏ dưới 8 tuổi, thanh quản có hình phễu thon nhọn xuống dưới, và **điểm hẹp nhất nằm tại vùng hạ thanh môn (Subglottic space) ngang mức vòng sụn nhẫn**.\n2. **Cấu trúc vòng sụn nhẫn kín:** Khác với khí quản có các vòng sụn hình chữ C hở phía sau bởi cơ màng, vòng sụn nhẫn là một vòng sụn hoàn chỉnh $360^\\circ$ duy nhất. Lớp hạ niêm mạc vùng hạ thanh môn bên trong vòng sụn nhẫn cấu tạo bởi mô liên kết lỏng lẻo giàu mạng lưới mạch máu. Khi bị viêm, mô này phù nề ứ dịch mạnh mẽ nhưng không thể nở ra phía ngoài do bị vỏ sụn cứng cản lại; toàn bộ thể tích phù nề bắt buộc phải lồi vào trong lòng ống dẫn khí.\n3. **Dây thanh âm ngắn và góc nghiêng:** Thanh quản trẻ nằm cao hơn (ngang đốt sống cổ C3–C4 so với C5–C6 ở người lớn), sụn nắp mềm hình chữ Omega ($\\Omega$) dễ bị sụp về phía sau khi hít vào gắng sức.\n\n### 2.2 Định luật Poiseuille & Kháng lực đường thở ($R \\propto 1/r^4$)\n\nĐịnh luật Poiseuille chi phối dòng chảy tầng của chất khí qua một ống hình trụ:\n\n$$R = \\frac{8 \\eta L}{\\pi r^4}$$\n\nTrong đó:\n- $R$ là kháng lực đường thở (Airway Resistance).\n- $\\eta$ là độ nhớt của dòng khí.\n- $L$ là chiều dài của đoạn ống dẫn khí.\n- $r$ là bán kính lòng ống dẫn khí.\n\nHệ quả vật lý then chốt: **Kháng lực đường thở tỉ lệ nghịch với lũy thừa bậc 4 của bán kính lòng ống ($R \\propto 1/r^4$)**.\n\n> 💡 **VÍ DỤ VỀ ẢNH HƯỞNG CỦA ĐỊNH LUẬT POISEUILLE:**  \n> - Ở trẻ nhũ nhi bình thường, bán kính vùng hạ thanh môn khoảng $r = 2 \\text{ mm}$ (đường kính $4 \\text{ mm}$). Diện tích lòng ống là $S_1 = \\pi \\times 2^2 = 4\\pi \\approx 12.56 \\text{ mm}^2$. Kháng lực tương đối là $R_1 \\propto 1/2^4 = 1/16$.  \n> - Khi bị viêm phù nề niêm mạc dày thêm chỉ đúng **$1 \\text{ mm}$** chu vi:  \n>   + Bán kính mới giảm xuống còn $r = 1 \\text{ mm}$.  \n>   + Diện tích lòng ống còn $S_2 = \\pi \\times 1^2 = 1\\pi \\approx 3.14 \\text{ mm}^2$ $\\rightarrow$ **Mất đi $75\\%$ diện tích lưu thông khí!**  \n>   + Kháng lực đường thở mới: $R_2 \\propto 1/1^4 = 1/1$.  \n>   + Tỉ số kháng lực: $R_2 / R_1 = (1/1) / (1/16) = \\mathbf{16 \\text{ LẦN!}}$  \n> \n> *So sánh với người lớn:* Người lớn có đường kính hạ thanh môn khoảng $8 \\text{ mm}$ ($r = 4 \\text{ mm}$). Nếu phù nề $1 \\text{ mm}$, bán kính còn $3 \\text{ mm}$. Diện tích giảm từ $16\\pi$ xuống $9\\pi$ (chỉ giảm khoảng $44\\%$), và kháng lực chỉ tăng $(4/3)^4 \\approx 3.16$ lần. Đây là lý do người lớn chỉ cảm thấy khàn giọng và vướng họng, trong khi đứa trẻ rơi vào tình trạng suy hô hấp cấp tính đe dọa tính mạng!\n\n### 2.3 Chuỗi nhân quả 5 tầng hình thành Tam chứng Croup\n\nDưới đây là các chuỗi cơ chế nhân quả then chốt giải thích toàn bộ diễn tiến bệnh lý và đáp ứng dược lý:\n- Chuỗi 1 (Cơ chế hình thành tam chứng): Xâm nhập virus Á cúm → Phù nề mô đệm hạ thanh môn → Khẩu kính đường thở giảm một nửa → Kháng lực đường thở tăng vọt 16 lần theo định luật Poiseuille → Phát sinh ho ông ổng và thở rít thanh quản.\n- Chuỗi 2 (Hiệu ứng Bernoulli): Khẩu kính đường thở hẹp lại → Vận tốc dòng khí hít vào tăng vọt → Áp suất thủy tĩnh thành ống giảm sâu theo hiệu ứng Bernoulli → Hút các dây thanh môn bẹp vào nhau tạo tiếng thở rít và khàn giọng.\n- Chuỗi 3 (Công thở và suy hô hấp): Kháng lực đường thở tăng vọt → Cơ hoành co bóp gắng sức tối đa → Áp lực âm khoang màng phổi sâu trong thì hít vào → Rút lõm hõm ức và lồng ngực → Giảm thông khí phế nang và thiếu oxy máu.\n- Chuỗi 4 (Cơ chế tác dụng của Adrenaline): Khí dung L-Adrenaline 1:1000 → Kích thích chọn lọc thụ thể alpha-1 adrenergic → Co thắt tiểu động mạch hạ niêm mạc → Tái hấp thu dịch phù nề ngoại bào → Mở rộng lòng đường thở chỉ sau 10 đến 30 phút.\n- Chuỗi 5 (Cơ chế tác dụng của Dexamethasone): Dexamethasone gắn vào thụ thể Glucocorticoid nội bào → Di chuyển vào nhân ức chế yếu tố phiên mã NF-kB → Ngăn chặn giải phóng các cytokine gây viêm → Duy trì ổn định tính thấm thành mạch kéo dài 24 đến 72 giờ.\n\n\nSự xuất hiện của các triệu chứng lâm sàng diễn ra theo một chuỗi phản ứng dây chuyền sinh lý bệnh 5 tầng chặt chẽ:\n\n```text\nTầng 1: Xâm nhập virus Á cúm → Nhân lên tại biểu mô trụ thanh khí quản → Phù nề hạ niêm mạc hạ thanh môn\n       │\n       ▼\nTầng 2: Vòng sụn nhẫn không giãn nở → Bán kính lòng ống r giảm 50% → Kháng lực R tăng vọt 16 lần (Poiseuille)\n       │\n       ▼\nTầng 3: Tốc độ dòng khí tăng vọt → Áp suất thành giảm (Hiệu ứng Bernoulli) → Mô mềm rung lắc (Ho ông ổng, Khàn tiếng, Thở rít)\n       │\n       ▼\nTầng 4: Trẻ gắng sức hít vào → Tạo áp lực âm màng phổi lớn → Rút lõm hõm ức, liên sườn, phập phồng cánh mũi\n       │\n       ▼\nTầng 5: Giảm thông khí phế nang → Mất cân bằng V/Q → Thiếu oxy máu, ứ CO2, kiệt sức cơ hô hấp và ngừng thở\n```\n\n- **Tầng 1 (Cơ chế phân tử & mô bệnh học):** Virus Á cúm gắn vào thụ thể bề mặt tế bào biểu mô đường thở, nhân lên và gây phản ứng viêm cấp tính. Mạch máu giãn nở, tính thấm thành mạch tăng cao làm thoát dịch và thâm nhiễm bạch cầu đơn nhân vào lớp hạ niêm mạc lỏng lẻo của hạ thanh môn.\n- **Tầng 2 (Cơ chế cơ học đường thở kín):** Do vòng sụn nhẫn bao bọc bên ngoài cứng chắc, lớp phù nề bắt buộc phải tràn vào trong lòng ống. Đường kính đường thở bị bóp nghẹt. Kháng lực đường thở tăng theo hàm mũ lũy thừa 4 ($1/r^4$), tạo ra một nút thắt cổ chai ngay dưới dây thanh âm.\n- **Tầng 3 (Hiệu ứng Bernoulli và phát sinh tiếng động bệnh lý):**  \n  + Theo phương trình liên tục và định luật Bernoulli, khi một khối khí buộc phải đi qua một đoạn ống bị chít hẹp, vận tốc dòng khí phải tăng vọt lên để duy trì lưu lượng. Vận tốc khí tăng cao sẽ làm sụt giảm áp suất thủy tĩnh tại thành ống bên trong chỗ hẹp (Hiệu ứng Bernoulli).  \n  + Áp suất sụt giảm này hút các dây thanh âm và nếp gấp thanh môn khép sát vào nhau, làm chúng rung bần bật trong dòng khí xoáy. Dòng khí xoáy qua chỗ hẹp thì hít vào tạo ra tiếng **Thở rít thanh quản (Stridor)**. Dây thanh âm bị viêm phù nề mất tính đàn hồi mềm mại gây ra tiếng **Khàn giọng (Hoarseness)**. Luồng khí tống ra với áp lực cao làm rung thành khí quản và hạ thanh môn phát ra tiếng **Ho ông ổng (Barking cough)**.\n- **Tầng 4 (Đáp ứng cơ học bù trừ & Công thở):** Để duy trì thể tích lưu thông qua chỗ hẹp, cơ hoành và các cơ hô hấp phụ (cơ ức đòn chũm, cơ liên sườn) phải co bóp tối đa, tạo ra một áp lực âm tính trong khoang màng phổi rất sâu trong thì hít vào. Do lồng ngực trẻ nhỏ có khung xương sườn mềm và độ đàn hồi cao, áp lực âm sâu này hút lõm các mô mềm vào trong, biểu hiện thành **rút lõm hõm ức, rút lõm bờ sườn và hõm trên đòn**.\n- **Tầng 5 (Suy sụp thông khí & Kiệt sức):** Khi tắc nghẽn trở nên quá nặng nề, công hô hấp tăng vọt làm tiêu tốn lượng oxy khổng lồ của cơ thể. Trẻ bắt đầu mệt cơ hoành. Thể tích thông khí phút sụt giảm nghiêm trọng, dẫn đến giảm thông khí phế nang, thiếu oxy máu ($SpO_2$ giảm) và ứ trệ $CO_2$. Toan hô hấp kết hợp toan chuyển hóa do thiếu oxy mô sẽ làm suy ức chế cơ tim và trung tâm hô hấp, dẫn đến ngưng thở nếu không được giải phóng đường thở kịp thời.\n\n### 2.4 Cơ chế tác dụng dược lý của Adrenaline & Glucocorticoid\n\nHai vũ khí tối thượng trong điều trị Croup đánh trúng vào hai mắt xích sinh lý bệnh khác nhau:\n\n1. **Khí dung L-Adrenaline (Epinephrine 1:1000): Tác dụng co mạch tức thì qua thụ thể $\\alpha_1$**  \n   - Khi được khí dung trực tiếp vào đường thở, Adrenaline gắn chọn lọc lên các thụ thể **$\\alpha_1$-adrenergic** trên màng tế bào cơ trơn tiểu động mạch tại lớp hạ niêm mạc vùng hạ thanh môn.  \n   - Hoạt hóa thụ thể $\\alpha_1$ làm co mạch máu tại chỗ mạnh mẽ $\\rightarrow$ Giảm áp lực thủy tĩnh mao mạch $\\rightarrow$ Nhanh chóng tái hấp thu dịch phù nề ngoại bào vào lòng mạch $\\rightarrow$ Giảm độ dày niêm mạc hạ thanh môn từ $1 \\text{ mm}$ xuống chỉ còn $0.2 - 0.3 \\text{ mm}$ chỉ trong vòng **10 đến 30 phút**.  \n   - Bán kính lòng ống phục hồi trở lại, kháng lực đường thở giảm 16 lần, tiếng thở rít biến mất và công hô hấp của trẻ dịu đi ngoạn mục.  \n   - *Hạn chế dược lý:* Adrenaline bị thoái giáng nhanh bởi enzyme COMT và MAO tại mô; thời gian tác dụng chỉ kéo dài từ **90 đến 120 phút**. Thuốc không ức chế được phản ứng viêm nền do virus.\n\n2. **Dexamethasone: Tác dụng kháng viêm bền vững qua thụ thể Glucocorticoid nhân**  \n   - Dexamethasone khuếch tán qua màng tế bào, gắn vào thụ thể Glucocorticoid trong tế bào chất và di chuyển vào nhân tế bào.  \n   - Tại nhân, phức hợp này ức chế yếu tố phiên mã $NF-\\kappa B$, ngăn chặn phiên mã các gen mã hóa các cytokine tiền viêm (như $IL-1\\beta$, $IL-6$, $TNF-\\alpha$) và enzyme $COX-2$. Đồng thời, thuốc kích thích tổng hợp Lipocortin-1 (Annexin A1), ức chế Phospholipase $A_2$, dập tắt chuỗi chuyển hóa Acid Arachidonic.  \n   - Tác dụng sinh học này làm bền vững màng lysosome, phục hồi tính toàn vẹn hàng rào nội mô mao mạch, chấm dứt hiện tượng thoát mạch dịch viêm.  \n   - *Động học:* Tác dụng kháng viêm bắt đầu xuất hiện sau **1 đến 2 giờ**, đạt đỉnh cao sau **4 đến 6 giờ** và duy trì ổn định kéo dài từ **24 đến 72 giờ** (nhờ thời gian bán hủy sinh học dài). Do đó, Dexamethasone tạo ra chiếc \"khiên bảo vệ\" che phủ hoàn hảo khoảng trống khi tác dụng của Adrenaline thoái lui.\n\n---\n\n## 3. TIẾP CẬN CHẨN ĐOÁN & THANG ĐIỂM WESTLEY TẠI GIƯỜNG\n\nChẩn đoán Croup là một **chẩn đoán hoàn toàn dựa trên lâm sàng**. Không có bất kỳ xét nghiệm máu hay hình ảnh học nào có thể thay thế được đôi tai và mắt nhìn của người thầy thuốc tại giường bệnh.\n\n### 3.1 Nhận diện Tam chứng kinh điển tại giường\n\nKhi đứng trước một bệnh nhi, bác sĩ cần lắng nghe và quan sát 3 triệu chứng kinh điển:\n1. **Ho tiếng ông ổng (Barking cough):** Âm sắc chát chúa, đanh thép, vang vọng, thường làm đứa trẻ giật mình khóc thét sau mỗi cơn ho.\n2. **Khàn tiếng (Hoarseness):** Tiếng khóc của trẻ nghẹt ngào, khàn đặc hoặc mất hẳn tiếng khóc (chỉ thấy há miệng khóc nhưng không thành tiếng).\n3. **Thở rít thì hít vào (Inspiratory Stridor):** Âm thanh rít thô ráp âm sắc cao nghe rõ nhất ở vùng cổ khi trẻ hít vào. Bác sĩ cần phân biệt rõ:\n   - *Thở rít chỉ xuất hiện khi kích thích (khi quấy khóc, vận động):* Tắc nghẽn mức độ nhẹ.\n   - *Thở rít xuất hiện liên tục ngay cả khi trẻ nằm yên ngủ ngoan:* Tắc nghẽn mức độ vừa đến nặng, báo hiệu đường kính đường thở đã giảm trên 50%.\n   - *Thở rít cả hai thì (biphasic stridor):* Tắc nghẽn hạ thanh môn ở mức độ nguy kịch cực kỳ nặng nề.\n\n### 3.2 Thang điểm Westley (Westley Croup Score) 5 tiêu chí\n\nThang điểm Westley là công cụ kinh điển được chuẩn hóa quốc tế: Nebulized racemic epinephrine by IPPB for the treatment of croup: a double-blind study. Clinical scores were significantly improved following treatment. {claim:C-009} [DATA VERIFIED] (PMID: 347921) giúp lượng hóa mức độ tắc nghẽn đường thở và theo dõi đáp ứng điều trị:\n\n| Tiêu chí đánh giá | Điểm số | Mô tả lâm sàng chi tiết |\n|---|:---:|---|\n| **1. Thở rít thì hít vào (Inspiratory Stridor)** | 0 | Hoàn toàn không có thở rít |\n| | 1 | Thở rít chỉ nghe thấy khi trẻ kích thích, quấy khóc hoặc vận động |\n| | 2 | **Thở rít nghe rõ khi trẻ nằm yên tĩnh hoàn toàn** |\n| **2. Co kéo cơ hô hấp phụ (Retractions)** | 0 | Không có co kéo lồng ngực |\n| | 1 | Co kéo mức độ nhẹ (kín đáo ở kẽ sườn) |\n| | 2 | Co kéo mức độ vừa (rút lõm bờ sườn và kẽ sườn rõ) |\n| | 3 | **Co kéo mức độ nặng (rút lõm hõm ức sâu, phập phồng cánh mũi, đầu gật gù)** |\n| **3. Thông khí phổi (Air Entry)** | 0 | Thông khí phổi vào đều hai bên phế trường |\n| | 1 | Rì rào phế nang giảm nhẹ |\n| | 2 | **Rì rào phế nang giảm nặng rõ rệt (nghe tim phổi thấy tiếng thông khí rất yếu)** |\n| **4. Tím tái (Cyanosis)** | 0 | Da niêm hồng hào hoàn toàn khi thở khí trời |\n| | 4 | Tím tái chỉ xuất hiện khi quấy khóc, kích thích |\n| | 5 | **Tím tái liên tục ngay cả khi nằm yên tĩnh trong khí trời** |\n| **5. Tri giác (Level of Consciousness)** | 0 | Tỉnh táo hoàn toàn, tương tác tốt với bố mẹ |\n| | 5 | **Bứt rứt, kích thích vật vã, hoảng loạn hoặc li bì, lơ mơ, kiệt sức** |\n\n### 3.3 Phân tầng mức độ nặng tại giường\n\nDựa trên tổng điểm Westley (từ 0 đến 17 điểm), Croup được chia thành 4 mức độ:\n\n1. **Croup thể Nhẹ (Westley $\\le 2$ điểm):**\n   - Trẻ có ho ông ổng, khàn tiếng.\n   - Thở rít thanh quản chỉ xuất hiện khi quấy khóc, **hoàn toàn KHÔNG có thở rít khi nằm yên**.\n   - Không có hoặc chỉ có co kéo lồng ngực mức độ rất nhẹ.\n   - Trẻ hoàn toàn tỉnh táo, chơi ngoan, bú tốt, hồng hào.\n2. **Croup thể Vừa (Westley $3 - 5$ điểm):**\n   - **Thở rít thanh quản nghe rõ ngay cả khi trẻ nằm yên tĩnh**.\n   - Co kéo lồng ngực và rút lõm bờ sườn mức độ vừa.\n   - Thông khí phổi vẫn còn tương đối tốt.\n   - Trẻ tỉnh táo, có thể quấy khóc nhưng dỗ nín được, chưa có rối loạn tri giác, không tím tái.\n3. **Croup thể Nặng (Westley $6 - 11$ điểm):**\n   - Thở rít thanh quản thì hít vào rất to khi nằm yên (hoặc thở rít cả hai thì).\n   - Rút lõm lồng ngực và hõm ức dữ dội, đầu gật gù theo nhịp thở.\n   - Rì rào phế nang giảm rõ rệt.\n   - **Trẻ bứt rứt, kích thích, lo âu, hoảng sợ, không thể dỗ nín** (biểu hiện của đói oxy mô não).\n4. **Croup Dọa Suy Hô Hấp (Westley $\\ge 12$ điểm):**\n   - Tiếng thở rít có thể giảm đi do lưu lượng dòng khí quá yếu (dấu hiệu \"phổi câm\" thanh quản).\n   - Rì rào phế nang hầu như không nghe thấy.\n   - Trẻ lơ mơ, li bì, kiệt sức cơ hô hấp, giảm trương lực cơ.\n   - Tím tái trung ương hoặc da tái nhợt, vã mồ hôi lạnh, nhịp tim chậm.\n   - Nguy cơ ngưng thở tử vong trong tích tắc nếu không đặt nội khí quản ngay!\n\n---\n\n## 4. CHẨN ĐOÁN PHÂN BIỆT SỐNG CÒN & CỜ ĐỎ (RED FLAGS)\n\nBất kỳ đứa trẻ nào có biểu hiện thở rít cấp tính đều phải được sàng lọc cẩn thận để không bỏ sót các cấp cứu ngoại khoa và nhiễm trùng tối cấp đường thở trên.\n\n### 4.1 Bảng chẩn đoán phân biệt các nguyên nhân gây thở rít cấp\n\n| Bệnh cảnh | Lứa tuổi thường gặp | Tác nhân chính | Khởi phát & Đặc điểm lâm sàng cốt lõi | Dấu hiệu phân biệt quyết định |\n|---|:---:|---|---|---|\n| **Croup virus điển hình** | 6 – 36 tháng | Virus Á cúm (HPIV-1, 2, 3) | Khởi phát 1–2 ngày viêm long, sốt nhẹ, ho ông ổng, khàn tiếng, thở rít về đêm. | **Có ho ông ổng rầm rộ**, đáp ứng nhanh với Dexamethasone và Adrenaline khí dung. |\n| **Viêm nắp thanh môn cấp (Epiglottitis)** | 2 – 7 tuổi | *Haemophilus influenzae* type b (Hib), Phế cầu, Tụ cầu | Khởi phát tối cấp trong vài giờ, **sốt cao đùng đùng, bộ mặt nhiễm trùng nhiễm độc nặng**. | **HOÀN TOÀN KHÔNG HO**, nuốt nghẹn, **chảy nhiều nước dãi (drooling)**, ngồi tư thế ngửi hoa, nuốt rất đau. Cấm đè lưỡi! |\n| **Viêm khí quản vi khuẩn (Bacterial Tracheitis)** | 1 – 10 tuổi | *Staphylococcus aureus*, Phế cầu, Liên cầu A | Ban đầu giống Croup nhưng sau 2–3 ngày đột ngột sốt cao trở lại, nhiễm độc, suy hô hấp nặng vọt lên. | **Đờm mủ đặc quánh**, ho đau đớn dữ dội, **KHÔNG ĐÁP ỨNG với Adrenaline khí dung**, soi thanh quản thấy màng giả mủ bít khí quản. |\n| **Dị vật đường thở (Foreign Body)** | 6 tháng – 4 tuổi | Hạt đậu, đồ chơi nhỏ, thức ăn | Khởi phát đột ngột tức thì sau một cơn sặc, hội chứng xâm nhập rõ, ban ngày khi đang ăn/chơi. | **KHÔNG CÓ SỐT**, không có viêm long trước đó, thở rít đột ngột hoặc thở rít phối hợp khò khè một bên phổi. |\n| **Áp xe thành sau họng (RPA)** | < 5 tuổi | Liên cầu, Tụ cầu, Vi khuẩn kỵ khí | Sốt cao, đau họng dữ dội, cổ ưỡn ra sau (tư thế ngửa cổ giảm chèn ép), cứng gáy, nuốt đau. | **Khối phồng một bên ở thành sau họng**, nói giọng ngậm hạt thị, há miệng hạn chế (trismus), chụp X-quang cổ nghiêng thấy dày mô mềm trước cột sống. |\n\n### 4.2 Nhận diện cờ đỏ của Viêm nắp thanh môn cấp (Epiglottitis)\n\nViêm nắp thanh môn cấp là một thảm họa đường thở. Kể từ khi có vắc xin cộng hợp Hib trong chương trình tiêm chủng mở rộng, tỷ lệ bệnh đã giảm hơn 95%, nhưng vẫn có thể gặp do phế cầu, tụ cầu hoặc ở trẻ chưa tiêm chủng đầy đủ:\n- **Tam chứng 3D kinh điển:** **Drooling** (Chảy dãi do nuốt đau không dám nuốt), **Dysphagia** (Nuốt khó), và **Distress** (Suy hô hấp tiến triển nhanh).\n- **Bộ tứ \"Không ho - Sốt cao - Tư thế ngửi hoa - Chảy dãi\":** Nếu một đứa trẻ thở rít mà **KHÔNG HỀ HO**, sốt cao trên 39°C và ngồi rướn cổ cằm chìa ra trước, phải nghĩ ngay đến Viêm nắp thanh môn cấp cho đến khi có bằng chứng ngược lại!\n- ⚠️ **QUY TẮC BẤT DI BẤT DỊCH:** **Tuyệt đối KHÔNG dùng que đè lưỡi khám họng!** Việc dùng que đè lưỡi có thể kích thích phản xạ phó giao cảm hoặc làm nắp thanh môn sưng đỏ hình \"quả anh đào\" (cherry red) sụp xuống bít hoàn toàn lỗ thanh môn, gây ngưng thở đột ngột trên bàn khám. Bệnh nhi cần được giữ yên trong lòng mẹ, thở oxy nhẹ nhàng và chuyển thẳng vào phòng mổ để kíp GMHS và TMH đặt nội khí quản dưới đèn soi thanh quản trực tiếp.\n\n### 4.3 Nhận diện cờ đỏ của Viêm khí quản vi khuẩn (Bacterial Tracheitis)\n\nViêm khí quản do vi khuẩn (còn gọi là \"Croup giả mạc\" - Pseudomembranous croup) là tình trạng nhiễm trùng hoại tử cấp tính lòng khí quản, thường do *Staphylococcus aureus* (bao gồm cả MRSA):\n- Bệnh cảnh ban đầu hoàn toàn giống Croup virus thông thường, nhưng trẻ không thuyên giảm mà đột ngột sốt cao vọt lên, vẻ mặt nhiễm độc lờ đờ, khó thở co kéo dữ dội.\n- **Dấu hiệu nhận diện quan trọng nhất:** Trẻ **hoàn toàn không đáp ứng với khí dung Adrenaline** (hoặc chỉ cải thiện thoáng qua vài phút rồi nặng lên ngay). Khí dung Adrenaline không thể giải quyết được các mảng mủ hoại tử và chất tiết đặc quánh đang đóng bánh làm nghẹt lòng khí quản.\n- Đứa trẻ cần được chuyển Hồi sức Nhi ngay để hút đờm mủ qua nội khí quản và dùng kháng sinh phổ rộng đường tĩnh mạch (như Vancomycin phối hợp Cefotaxime/Ceftriaxone).\n\n---\n\n## 5. CẬN LÂM SÀNG & GIÁ TRỊ CỦA DẤU HIỆU NÓC NHÀ THỜ (STEEPLE SIGN)\n\n### 5.1 X-quang cổ thẳng (AP view) & Dấu hiệu Steeple Sign\n\nTrên phim chụp X-quang vùng cổ tư thế thẳng (Anteroposterior view) ở thì hít vào:\n- Bình thường, cột khí hạ thanh môn có hình vuông hoặc hình vòm vai tù (shoulder appearance).\n- Trong Croup, lớp phù nề đối xứng hai bên của hạ thanh môn làm cột khí bị thu hẹp dần từ dưới lên tạo thành hình chóp nón đối xứng, được gọi là **Dấu hiệu Nóc nhà thờ (Steeple Sign)** hoặc dấu hiệu cây bút chì nhọn (Pencil-point sign).\n- Trên phim cổ nghiêng (Lateral view): Nắp thanh môn hoàn toàn bình thường (không sưng to, không có hình ngón tay cái cái béo tròn - \"Thumbprint sign\" của viêm nắp thanh môn) và mô mềm thành sau họng không bị dày.\n\n### 5.2 Xét nghiệm máu, vi sinh & Khí máu: Khi nào chỉ định?\n\n- **Công thức máu và CRP/Procalcitonin:** Hoàn toàn KHÔNG cần thiết ở Croup điển hình. Bạch cầu có thể bình thường hoặc tăng nhẹ lympho do virus. Chỉ làm khi nghi ngờ nhiễm khuẩn thứ phát (Viêm khí quản vi khuẩn) hoặc chẩn đoán không rõ ràng.\n- **Test nhanh virus hô hấp (PCR đa mồi):** Có thể làm tại khoa nội trú để cách ly kiểm soát nhiễm khuẩn, nhưng không làm thay đổi quyết định điều trị cấp cứu ban đầu.\n- **Khí máu động mạch hoặc mao mạch:** Chỉ chỉ định ở bệnh nhi Croup rất nặng, dọa suy hô hấp không đáp ứng với Adrenaline khí dung và Dexamethasone, đang chuẩn bị can thiệp đặt nội khí quản.\n\n### 5.3 Nguyên tắc sống còn: Lâm sàng là quyết định\n\n> ⛔ **CẢNH BÁO LÂM SÀNG:**  \n> Croup là chẩn đoán lâm sàng! **Tuyệt đối KHÔNG BAO GIỜ trì hoãn việc cấp cứu, trì hoãn cho uống Dexamethasone hay trì hoãn khí dung Adrenaline để đưa một đứa trẻ đang khó thở đi chụp X-quang cổ!**  \n> Việc đặt trẻ nằm ngửa trên bàn chụp X-quang trong phòng lạnh, cách ly khỏi vòng tay mẹ, trẻ quấy khóc hoảng sợ có thể làm tăng kháng lực đường thở lên gấp nhiều lần và gây ngưng thở tắc nghẽn ngay tại phòng chụp X-quang! Chỉ chụp X-quang khi trẻ đã ổn định hoàn toàn về hô hấp hoặc khi nghi ngờ dị vật đường thở bỏ quên hay chẩn đoán phân biệt không rõ ràng.\n\n---\n\n## 6. CHIẾN LƯỢC ĐIỀU TRỊ CỐT LÕI — THUỐC & PHÁC ĐỒ CẤP CỨU\n\nPhác đồ xử trí Croup hiện đại là sự phối hợp nhịp nhàng giữa một thuốc tác dụng chậm nhưng kéo dài (Dexamethasone) và một thuốc tác dụng cực nhanh nhưng ngắn hạn (Adrenaline khí dung).\n\n### 6.1 Dexamethasone: Tiêu chuẩn vàng cho mọi thể Croup\n\nDexamethasone là nền tảng điều trị bắt buộc cho **TẤT CẢ** các trường hợp Croup, bất kể mức độ nhẹ, vừa hay nặng:\n1. **Tại sao Croup nhẹ cũng phải dùng Dexamethasone?**\n   - Thử nghiệm lâm sàng kinh điển của Bjornson và cộng sự trên New England Journal of Medicine: A randomized trial of a single dose of oral dexamethasone for mild croup. In children with mild croup, dexamethasone resulted in lower return to medical care, quicker resolution of symptoms, and less lost sleep. {claim:C-004} [DATA VERIFIED] (PMID: 15385657).\n   - Nghiên cứu thực hiện trên bảy trăm hai mươi trẻ Croup thể nhẹ đã chứng minh Dexamethasone liều duy nhất làm giảm hơn một nửa số lượt tái khám cấp cứu, giúp trẻ hồi phục nhanh hơn, ngủ ngoan hơn và giảm lo âu cho cha mẹ.\n   - Bằng chứng từ tổng quan hệ thống Cochrane khẳng định vai trò của Glucocorticoid: Glucocorticoids for croup in children. Glucocorticoids reduced symptoms of croup at two hours, shortened hospital stays, and reduced the rate of return visits to care. {claim:C-005} [DATA VERIFIED] (PMID: 30133690).\n\n2. **Liều lượng và Đường dùng:**\n   - **Liều chuẩn:** $0.15 \\text{ đến } 0.6 \\text{ mg/kg}$ liều duy nhất (tối đa $16 \\text{ mg}$).\n   - *Liều thấp $0.15 \\text{ mg/kg}$:* Các nghiên cứu và hướng dẫn của Hiệp hội Nhi khoa Canada (CPS) cho thấy liều $0.15 \\text{ mg/kg}$ có hiệu quả lâm sàng tương đương liều $0.6 \\text{ mg/kg}$ ở thể nhẹ và vừa, đồng thời giúp giảm thiểu lượng dịch thuốc phải uống, hạn chế nguy cơ nôn trớ ở trẻ nhỏ.\n   - *Liều cao $0.6 \\text{ mg/kg}$:* Thường được ưu tiên dùng trong thể nặng hoặc dọa suy hô hấp.\n   - **Đường uống là lựa chọn hàng đầu:** Dexamethasone hấp thu qua đường tiêu hóa cực kỳ nhanh và sinh khả dụng đạt trên 80%. Hiệu quả của đường uống hoàn toàn tương đương với đường tiêm bắp hay tiêm tĩnh mạch.\n   - **Đường tiêm (Bắp hoặc Tĩnh mạch):** CHỈ dùng khi trẻ nôn liên tục không thể uống được, hoặc trẻ đang suy hô hấp rất nặng cần can thiệp hồi sức tích cực.\n\n### 6.2 L-Adrenaline khí dung: Giải cứu đường thở cấp tính\n\nChỉ định: Dùng cho Croup thể **VỪA và NẶNG** (trẻ có thở rít thanh quản và co kéo lồng ngực khi nằm yên, Westley $\\ge 3$) hoặc dọa suy hô hấp.\n\n1. **Chế phẩm và Liều lượng:**\n   - **L-Adrenaline 1:1000 (ống $1 \\text{ mg/1 ml}$):** Đây là chế phẩm thông dụng sẵn có tại mọi cơ sở y tế Việt Nam.\n   - **Liều dùng:** **$0.5 \\text{ ml/kg}$ dung dịch 1:1000 (tối đa $5 \\text{ ml}$ cho một lần khí dung)**. Dùng trực tiếp dung dịch Adrenaline nguyên chất, không cần thiết phải pha loãng thêm nếu thể tích đã đủ $3 - 4 \\text{ ml}$ cho buồng khí dung.\n   - *Nếu dùng Racemic Epinephrine 2.25% (chế phẩm tại Bắc Mỹ):* Liều là $0.05 \\text{ ml/kg}$ (tối đa $0.5 \\text{ ml}$) pha trong $3 \\text{ ml}$ nước muối sinh lý. - Tổng quan Cochrane khẳng định: Nebulized epinephrine for croup in children. Nebulized epinephrine was associated with clinically and statistically significant transient reduction of symptoms of croup post-treatment. Evidence does not favor racemic epinephrine over L-epinephrine. {claim:C-007} [DATA VERIFIED] (PMID: 24114291).\n   - Báo cáo kết luận rằng L-Adrenaline khí dung có hiệu quả và độ an toàn tương đương Racemic Epinephrine, mang lại cải thiện lâm sàng nhanh chóng. Do đó không cần tìm kiếm chế phẩm racemic đắt tiền.\n2. **Kỹ thuật khí dung:**\n   - Khí dung qua mặt nạ (mask) áp nhẹ lên mặt trẻ, gắn với nguồn oxy lưu lượng cao **$4 - 6 \\text{ L/phút}$**.\n   - Nếu trẻ sợ hãi giãy giụa khi áp mask, người mẹ có thể cầm mask để cách mũi miệng trẻ $1 - 2 \\text{ cm}$ (kỹ thuật \"blow-by\") để trẻ hít dần mà không hoảng loạn.\n3. **Hiệu quả và Tần suất lặp lại:**\n   - Điểm số Croup cải thiện rõ rệt chỉ sau **10 đến 30 phút**.\n   - Nếu sau liều thứ nhất 30 phút mà trẻ vẫn còn thở rít và co kéo nặng, có thể lặp lại liều thứ 2 sau 30–60 phút.\n   - Nếu trẻ cần tới **3 liều Adrenaline khí dung liên tiếp trong vòng 2 giờ**, bắt buộc phải chuyển trẻ vào phòng Hồi sức Tích cực (PICU) vì nguy cơ kiệt sức cơ hô hấp và đặt nội khí quản là rất cao.\n\n### 6.3 Hiện tượng dội ngược (Rebound phenomenon) & Cửa sổ an toàn 3–4 giờ\n\nMột trong những sai lầm chết người trong cấp cứu Croup là: Thấy trẻ hết thở rít sau khi khí dung Adrenaline 30 phút vội vàng cho trẻ xuất viện về nhà ngay!\n\n> ⚠️ **BẢN CHẤT DƯỢC LÝ CỦA HIỆN TƯỢNG DỘI NGƯỢC:**  \n> - Tác dụng co mạch của Adrenaline biến mất hoàn toàn sau **90 đến 120 phút** do thuốc bị chuyển hóa hết. Trong khi đó, tác dụng kháng viêm của Dexamethasone uống cần **1 đến 2 giờ** mới bắt đầu phát huy và đạt đỉnh sau 4–6 giờ.  \n> - Nếu cho trẻ về quá sớm, khi Adrenaline hết tác dụng mà Dexamethasone chưa kịp ngấm đầy đủ, các mạch máu hạ thanh môn sẽ giãn nở trở lại, dịch viêm tái tích tụ và lòng đường thở sẽ co hẹp đột ngột trở lại (hiện tượng dội ngược). Trẻ có thể bị ngưng thở tắc nghẽn trên đường về nhà hoặc trong đêm!  \n> \n> 🕒 **QUY TẮC CỬA SỔ AN TOÀN 3–4 GIỜ:**  \n> Bất kỳ trẻ Croup nào sau khi được khí dung Adrenaline BẮT BUỘC phải được lưu lại theo dõi sát tại phòng cấp cứu tối thiểu **3 đến 4 giờ** tính từ liều Adrenaline cuối cùng. Trẻ chỉ được phép xem xét xuất viện khi và chỉ khi:  \n> 1. Đã qua hết 4 giờ quan sát.  \n> 2. Hoàn toàn không còn thở rít khi nằm yên.  \n> 3. Không còn rút lõm lồng ngực.  \n> 4. Tri giác tỉnh táo, hồng hào trong khí trời, bú/uống tốt.\n\n\nDưới đây là các ví dụ minh họa cụ thể để học viên vận dụng tính toán trên lâm sàng:\n- **Ví dụ 1 (Tính liều Dexamethasone uống cho trẻ nhẹ cân):** Bé 9 tháng tuổi nặng 8 kg bị Croup thể nhẹ. Liều Dexamethasone cần dùng là: 8 kg × 0.15 mg/kg = 1.2 mg (dùng 0.3 ml từ ống tiêm 4 mg/ml pha chút nước đường cho uống).\n- **Ví dụ 2 (Tính liều L-Adrenaline 1:1000 khí dung):** Bé 18 tháng tuổi nặng 11 kg bị Croup thể vừa có thở rít khi nằm yên. Liều Adrenaline 1:1000 tính theo công thức: 11 kg × 0.5 ml/kg = 5.5 ml. Vì trần liều tối đa là 5 ml nên bác sĩ chỉ định đúng 5 ml dung dịch Adrenaline 1:1000 nguyên chất cho vào bầu khí dung.\n- **Ví dụ 3 (Tính kháng lực đường thở theo Poiseuille):** Khi đường kính hạ thanh môn của trẻ giảm từ 4 mm xuống 2 mm (bán kính giảm từ 2 mm xuống 1 mm), kháng lực đường thở tăng từ (1/16) lên (1/1) tức tăng gấp 16 lần.\n- **Ví dụ 4 (Nhận diện Croup co thắt):** Bé 2 tuổi có tiền sử viêm da cơ địa, nửa đêm thức giấc ho ông ổng thở rít nhưng hoàn toàn không sốt, không chảy mũi; sau khi bế ra ngoài trời mát hít thở không khí đêm thì cơn dịu dần.\n- **Ví dụ 5 (Phân biệt thở rít hít vào và khò khè thở ra):** Bé 15 tháng tuổi nghe tiếng rít thô ráp âm sắc cao ở vùng cổ ở thì hít vào là thở rít thanh quản do Croup; ngược lại tiếng rít nhạc âm sắc cao nghe rõ khắp hai phế trường ở thì thở ra là khò khè do hen hoặc viêm tiểu phế quản.\n- **Ví dụ 6 (Xử trí khi quá trần liều Dexamethasone):** Bé 8 tuổi nặng 35 kg mắc Croup. Nếu tính 35 kg × 0.6 mg/kg = 21 mg thì đã vượt quá trần liều tối đa cho phép là 16 mg. Bác sĩ chỉ định đúng trần liều 16 mg Dexamethasone đường uống.\n\n### 6.4 Phác đồ xử trí cấp cứu theo từng mức độ Westley\n\n| Phân độ Westley | Đánh giá lâm sàng | Phác đồ xử trí cấp cứu tức thì | Hướng xử trí tiếp theo |\n|---|---|---|---|\n| **Croup nhẹ**<br>(Điểm $\\le 2$) | Ho ông ổng, khàn tiếng, **KHÔNG thở rít khi nằm yên**, không co kéo. | **Dexamethasone $0.15 \\text{ mg/kg}$ uống liều duy nhất** (tối đa $16 \\text{ mg}$). Không cần Adrenaline khí dung. | Theo dõi tại phòng khám 30–60 phút. Hướng dẫn chăm sóc và dấu hiệu tái khám ngay. Xuất viện điều trị tại nhà. |\n| **Croup vừa**<br>(Điểm $3 - 5$) | **Có thở rít khi nằm yên**, co kéo liên sườn/bờ sườn vừa, tỉnh táo, chưa tím. | 1. **Dexamethasone $0.15 - 0.6 \\text{ mg/kg}$ uống** (hoặc tiêm nếu nôn).<br>2. **L-Adrenaline 1:1000 ($0.5 \\text{ ml/kg}$, tối đa $5 \\text{ ml}$) khí dung qua oxy**. | Lưu theo dõi tại Cấp cứu tối thiểu **3–4 giờ**. Nếu hết thở rít khi nằm yên và không co kéo sau 4 giờ $\\rightarrow$ Cân nhắc xuất viện. Nếu còn thở rít $\\rightarrow$ Nhập viện khoa Nhi. |\n| **Croup nặng**<br>(Điểm $6 - 11$) | Thở rít to liên tục, co kéo hõm ức dữ dội, **bứt rứt kích thích**, giảm thông khí. | 1. Thở oxy qua mask hoặc blow-by.<br>2. **L-Adrenaline 1:1000 ($0.5 \\text{ ml/kg}$, tối đa $5 \\text{ ml}$) khí dung ngay**.<br>3. **Dexamethasone $0.6 \\text{ mg/kg}$ tiêm bắp hoặc tĩnh mạch**.<br>4. Lặp lại Adrenaline khí dung sau 30 phút nếu chưa thuyên giảm. | **Nhập viện bắt buộc** vào phòng Cấp cứu / Hồi sức. Báo kíp Hồi sức và TMH sẵn sàng hỗ trợ đường thở. Không để trẻ quấy khóc. |\n| **Dọa suy hô hấp**<br>(Điểm $\\ge 12$) | Li bì, lơ mơ, kiệt sức, **thở rít 2 thì hoặc tiếng thở yếu dần (phổi câm)**, tím tái. | 1. **Gọi hỗ trợ khẩn cấp kíp Đặt nội khí quản & GMHS**.<br>2. Thở oxy $100\\%$ qua mask có túi dự trữ.<br>3. **Khí dung L-Adrenaline $5 \\text{ ml}$ liên tục**.<br>4. Dexamethasone $0.6 \\text{ mg/kg}$ TM.<br>5. Chuẩn bị ống NKQ nhỏ hơn bình thường $0.5 - 1 \\text{ mm}$. | Chuyển ngay đến phòng PICU hoặc phòng mổ. Chuẩn bị mở khí quản cấp cứu nếu không đặt được ống nội khí quản. |\n\n### 6.5 Các thuốc thay thế khi không có Dexamethasone uống\n\nTrong điều kiện cơ sở y tế không có sẵn Dexamethasone dạng siro/dung dịch uống hoặc dạng tiêm:\n1. **Dexamethasone dạng tiêm dùng để uống:** Ống tiêm Dexamethasone Phosphate ($4 \\text{ mg/ml}$) có thể pha với một thìa nhỏ siro ngọt hoặc sữa mẹ cho trẻ uống trực tiếp. Sinh khả dụng và hiệu quả hoàn toàn tương đương.\n2. **Budesonide khí dung (Pulmicort Respules):**  \n   - Liều: $2 \\text{ mg}$ khí dung liều duy nhất.  \n   - Tác dụng kháng viêm tại chỗ nhanh chóng, có thể phối hợp cùng lúc với khí dung Adrenaline ở trẻ nôn nhiều không thể uống thuốc. Tuy nhiên chi phí đắt hơn và không vượt trội hơn Dexamethasone uống.\n3. **Prednisolone đường uống:**  \n   - Liều: $1 \\text{ mg/kg/ngày}$ uống trong $2 - 3 \\text{ ngày}$.  \n   - Kém ưu tiên hơn Dexamethasone do thời gian bán thải ngắn hơn (phải uống nhiều ngày) và vị đắng dễ làm trẻ nôn trớ.\n\n---\n\n## 7. CÁC BIỆN PHÁP CẤM HOẶC KHÔNG KHUYẾN CÁO\n\nTrong thực hành lâm sàng, việc **biết cái gì KHÔNG ĐƯỢC LÀM** quan trọng không kém gì việc biết kê đơn thuốc. Dưới đây là các can thiệp sai lầm đã bị y văn quốc tế bác bỏ:\n\n### 7.1 Xông hơi ẩm (Mist therapy): Bằng chứng Cochrane bác bỏ\n\nTrong nhiều thập kỷ, biện pháp xông hơi nước (như đưa trẻ vào phòng tắm xả nước nóng đầy hơi ẩm, hoặc dùng máy phun sương) được dân gian và cả nhân viên y tế truyền miệng rộng rãi.\n- **Bằng chứng khoa học:** Tổng quan hệ thống và phân tích gộp của Moore và Little: Humidified air inhalation for treating croup: a systematic review and meta-analysis. The croup score of children managed in an emergency setting with croup does not improve greatly with inhalation of humidified air. {claim:C-010} [DATA VERIFIED] (PMID: 17602176).\n- Đánh giá các thử nghiệm lâm sàng ngẫu nhiên có đối chứng đã kết luận rằng hít không khí ẩm không tạo ra bất kỳ sự khác biệt có ý nghĩa thống kê nào về điểm số Croup và không làm giảm tỷ lệ phải nhập viện.\n- **Nguy cơ tiềm ẩn:** Việc dùng nước nóng xông hơi tại nhà có nguy cơ rất cao gây **bỏng nhiệt da và niêm mạc đường hô hấp** của trẻ. Hơi nước lạnh từ máy phun sương bẩn có thể phát tán nấm mốc và vi khuẩn vào sâu đường thở. Do đó, các hướng dẫn quốc tế (AAP, CPS) đồng thuận **KHÔNG khuyến cáo xông hơi ẩm thường quy**.\n\n### 7.2 Kháng sinh thường quy: Không có chỉ định\n\n- Bản chất của Croup là do nhiễm virus (Á cúm, RSV, Cúm). Kháng sinh hoàn toàn không có tác dụng tiêu diệt virus, không rút ngắn thời gian bệnh và không ngăn ngừa được bội nhiễm vi khuẩn.\n- Việc kê đơn kháng sinh bừa bãi chỉ làm tăng chi phí, gây loạn khuẩn đường ruột (tiêu chảy) và làm gia tăng vi khuẩn kháng thuốc trong cộng đồng.\n- Kháng sinh CHỈ được chỉ định khi có bằng chứng rõ ràng của nhiễm khuẩn thứ phát, cụ thể là **Viêm khí quản vi khuẩn** (sốt cao nhiễm độc, mủ khí quản, không đáp ứng Adrenaline) hoặc viêm phổi bội nhiễm.\n\n### 7.3 Thuốc giảm ho, kháng Histamin & Chống chỉ định tuyệt đối thuốc an thần\n\n1. **Thuốc giảm ho (Dextromethorphan, Codein):** Phản xạ ho là cơ chế bảo vệ sống còn giúp tống xuất chất nhầy đờm dãi ra khỏi đường thở đang bị hẹp. Thuốc giảm ho ức chế trung tâm ho hành não làm ứ đọng đờm, tăng nguy cơ tắc nghẽn đường thở và gây buồn ngủ, che lấp các dấu hiệu suy hô hấp.\n2. **Thuốc kháng Histamin (Promethazine, Diphenhydramine, Chlorpheniramine):** Các thuốc này có tác dụng kháng cholinergic làm khô chất tiết niêm mạc, biến đờm nhầy thành các nút nhầy đặc quánh bít chặt vào vùng hạ thanh môn đang phù nề, làm tình trạng khó thở trầm trọng hơn.\n3. **CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI — THUỐC AN THẦN:**  \n   - Khi một đứa trẻ Croup bứt rứt, quấy khóc, giãy giụa, nhiều bác sĩ ít kinh nghiệm nghĩ rằng trẻ \"quấy quá\" nên cho một liều Seduxen (Diazepam) hoặc Chloral hydrate để trẻ \"ngủ yên\".  \n   - ⚠️ **ĐÂY LÀ HÀNH VI CỰC KỲ NGUY HIỂM!** Sự bứt rứt, lo âu của đứa trẻ chính là **tiếng chuông báo động của tình trạng thiếu oxy não cấp tính và phản xạ tăng công thở để tự cứu sống mình**.  \n   - Cho thuốc an thần sẽ dập tắt phản xạ thở bù trừ, ức chế trung tâm hô hấp và làm giãn các cơ hầu họng, khiến đường thở sụp đổ hoàn toàn dẫn đến ngừng thở tử vong ngay lập tức!\n\n---\n\n## 8. CHĂM SÓC HỖ TRỢ & NGUYÊN TẮC \"LESS IS MORE\"\n\nTại khoa Cấp cứu Nhi khoa, câu thần chú trong xử trí Croup chính là: **\"Less is More — Can thiệp càng ít thô bạo, bệnh nhi càng an toàn\"**.\n\n```text\n(1) Can thiệp thô bạo gây đau đớn (đè lưỡi, chọc ven, tách khỏi mẹ)\n       ↓\n(2) Trẻ sợ hãi hoảng loạn, khóc thét và giãy giụa\n       ↓\n(3) Tốc độ dòng khí hít vào tăng vọt, áp lực âm hút bẹp mô thanh quản\n       ↓\n(4) Đường thở hạ thanh môn tắc nghẽn hoàn toàn dẫn tới ngừng thở\n```\n\n### 8.1 Liệu pháp oxy an toàn (Blow-by oxy)\n\n- Chỉ định thở oxy khi: Trẻ có tím tái hoặc độ bão hòa oxy máu mao mạch **$SpO_2 < 92\\%$** (hoặc $< 90\\%$ theo một số hướng dẫn) khi thở khí trời.\n- **Kỹ thuật cho thở:** Tuyệt đối không cố gắng chụp chặt mặt nạ hoặc đút gọng kính mũi sâu vào mũi trẻ nếu trẻ giãy giụa từ chối. Hãy dùng kỹ thuật **\"Blow-by\"**: để đầu dây oxy hoặc mặt nạ cách mũi miệng trẻ khoảng $2 - 3 \\text{ cm}$ để dòng oxy $4 - 6 \\text{ L/phút}$ thổi nhẹ nhàng qua mũi miệng trẻ trong khi trẻ vẫn đang được mẹ ôm ấp.\n\n### 8.2 Giảm tối đa kích thích & Đặt trẻ trong lòng người chăm sóc\n\n- **Mọi thao tác khám và điều trị phải được thực hiện trên đùi người mẹ:** Cho trẻ ngồi thẳng hoặc tựa đầu vào ngực mẹ. Tư thế ngồi thẳng giúp cơ hoành di động dễ dàng hơn và làm giảm áp lực chèn ép lên vùng hạ thanh môn so với tư thế nằm ngửa.\n- **Trì hoãn các thủ thuật xâm lấn chưa cấp thiết:** Hoãn việc lấy máu xét nghiệm, hoãn chọc ven truyền dịch nếu trẻ vẫn uống được và chưa rơi vào tình trạng nguy kịch. Nếu bắt buộc phải tiêm thuốc hoặc lấy ven, phải có sự chuẩn bị chu đáo, thao tác nhanh gọn, dứt khoát và có người hỗ trợ giữ trẻ nhẹ nhàng.\n\n### 8.3 Bù dịch và dinh dưỡng an toàn\n\n- Do thở nhanh, thở mở miệng và sốt, trẻ Croup rất dễ bị mất nước qua đường hô hấp.\n- Khuyến khích mẹ cho trẻ uống từng ngụm nhỏ nước nguội, nước quả hoặc sữa mẹ chia làm nhiều lần.\n- **Cảnh báo hít sặc:** Tuyệt đối không ép trẻ ăn no hoặc uống nhiều nước một lúc khi trẻ đang thở rít và co kéo nặng (nhịp thở $> 60 \\text{ lần/phút}$), vì nguy cơ sặc dịch vào đường thở là cực kỳ cao. Chỉ truyền dịch tĩnh mạch duy trì khi trẻ nôn liên tục, có dấu hiệu mất nước hoặc suy hô hấp nặng phải nhịn ăn đường miệng.\n\n---\n\n## 9. 8 SAI LẦM LÂM SÀNG KINH ĐIỂN CẦN TRÁNH (MISCONCEPTIONS & PITFALLS)\n\nDưới đây là 8 bẫy lâm sàng thường gặp nhất mà học viên và bác sĩ thực hành cần khắc cốt ghi tâm:\n\n1. **Bẫy lâm sàng 1: Bỏ qua Dexamethasone ở Croup thể nhẹ vì nghĩ \"chưa cần thiết\".**  \n   - *Sai lầm:* Nghĩ rằng chỉ khi nào trẻ khó thở, có thở rít khi nằm yên mới cần dùng Corticoid, còn Croup nhẹ chỉ cần cho về theo dõi.  \n   - *Thực tế:* Thử nghiệm NEJM của Bjornson đã chứng minh Dexamethasone liều duy nhất cho Croup nhẹ làm giảm hơn $50\\%$ tỷ lệ nhập viện và tái khám cấp cứu, rút ngắn thời gian bệnh và tiết kiệm chi phí. Không cho Dexamethasone là tước đi cơ hội điều trị dự phòng chuyển nặng tốt nhất của trẻ.\n\n2. **Bẫy lâm sàng 2: Cho bệnh nhi xuất viện ngay sau khi khí dung Adrenaline thấy trẻ êm dịu.**  \n   - *Sai lầm:* Khí dung Adrenaline xong thấy trẻ hết thở rít, hồng hào, liền ký giấy cho trẻ về nhà sau 30 phút.  \n   - *Thực tế:* Thuốc chỉ có tác dụng co mạch tạm thời trong 90–120 phút. Khi Adrenaline hết tác dụng, hiện tượng dội ngược sẽ xuất hiện khiến đường thở tái hẹp đột ngột. Bắt buộc phải lưu giữ trẻ theo dõi tối thiểu **3 đến 4 giờ** sau liều Adrenaline cuối cùng.\n\n3. **Bẫy lâm sàng 3: Cố đè lưỡi thăm khám họng sâu ở trẻ nghi ngờ viêm nắp thanh môn cấp.**  \n   - *Sai lầm:* Thấy trẻ sốt cao thở rít, liền dùng que đè lưỡi ấn mạnh vào gốc lưỡi để \"xem họng có viêm không\".  \n   - *Thực tế:* Đè lưỡi có thể kích thích co thắt thanh môn tức thì hoặc làm sập nắp thanh môn phù nề bít kín đường thở, khiến trẻ ngưng thở tử vong ngay trên tay bác sĩ!\n\n4. **Bẫy lâm sàng 4: Trì hoãn cấp cứu để đưa trẻ đi chụp X-quang cổ tìm dấu hiệu \"Nóc nhà thờ\".**  \n   - *Sai lầm:* Muốn có bằng chứng X-quang \"chắc chắn\" trước khi ra y lệnh khí dung Adrenaline.  \n   - *Thực tế:* Croup là chẩn đoán lâm sàng. Dấu hiệu Nóc nhà thờ chỉ thấy ở khoảng 50% các trường hợp và không có độ nhạy tuyệt đối. Đưa trẻ đang khó thở đi chụp phim làm tăng nguy cơ tử vong do kích thích và trì hoãn thuốc cấp cứu.\n\n5. **Bẫy lâm sàng 5: Dùng thuốc an thần cho đứa trẻ Croup đang quấy khóc, bứt rứt.**  \n   - *Sai lầm:* Nghĩ rằng cho an thần nhẹ (như Seduxen) giúp trẻ đỡ quấy khóc, đỡ thở rít.  \n   - *Thực tế:* Bứt rứt là dấu hiệu cảnh báo thiếu oxy não! Thuốc an thần sẽ triệt tiêu phản xạ hô hấp bù trừ của trẻ, gây ngừng thở tắc nghẽn đột ngột. Chống chỉ định tuyệt đối!\n\n6. **Bẫy lâm sàng 6: Kê đơn kháng sinh thường quy và thuốc giảm ho ngoại trú.**  \n   - *Sai lầm:* Nghĩ rằng \"kê thêm kháng sinh cho chắc\" và \"cho giảm ho để trẻ đỡ đau họng đêm ngủ ngon\".  \n   - *Thực tế:* Croup là bệnh do virus; kháng sinh hoàn toàn vô dụng. Thuốc giảm ho làm ức chế phản xạ tống đờm, gây ứ đọng nút nhầy làm bít tắc thanh khí quản nặng hơn.\n\n7. **Bẫy lâm sàng 7: Kê Dexamethasone kéo dài 5–7 ngày liên tục cho Croup thông thường.**  \n   - *Sai lầm:* Nghĩ rằng kháng viêm phải uống đủ đợt như điều trị bệnh mạn tính.  \n   - *Thực tế:* Croup cấp tính chỉ cần **duy nhất 1 liều Dexamethasone** (hoặc tối đa liều thứ 2 sau 24 giờ nếu triệu chứng tái diễn). Dùng kéo dài làm tăng nguy cơ ức chế trục dưới đồi - tuyến yên - thượng thận, loét dạ dày và bội nhiễm nấm/vi khuẩn mà không mang lại thêm bất kỳ lợi ích lâm sàng nào.\n\n8. **Bẫy lâm sàng 8: Đánh giá nhầm \"trẻ đỡ khó thở\" khi tiếng thở rít đột ngột nhỏ đi ở bệnh nhi đang mệt.**  \n   - *Sai lầm:* Trẻ đang thở rít to dữ dội, sau một lúc thấy tiếng thở rít nhỏ dần, tưởng trẻ đã thuyên giảm.  \n   - *Thực tế:* Nếu tiếng thở rít nhỏ đi mà kèm theo trẻ lơ mơ, li bì, rì rào phế nang mờ nhạt (dấu hiệu \"phổi câm\"), đó là dấu hiệu của **kiệt sức cơ hô hấp**! Lưu lượng khí qua thanh quản không còn đủ mạnh để tạo ra tiếng rít. Đây là giai đoạn tiền ngưng thở tối nguy cấp!\n\n---\n\n## 10. 4 CHECKPOINT TƯ DUY ĐỘT PHÁ TẠI GIƯỜNG\n\nDưới đây là 4 tình huống tư duy giúp học viên tự kiểm tra phản xạ lâm sàng tại giường:\n\n### Checkpoint 1: Đánh giá tiếng thở rít khi nằm yên\n- **Tình huống:** Một bé trai 2 tuổi được mẹ bế vào viện lúc 1 giờ sáng vì ho ông ổng. Khi mẹ ngồi dỗ, bé nằm ngủ yên trong lòng mẹ. Bác sĩ áp ống nghe vào vùng cổ nghe thấy tiếng thở rít êm dịu ở thì hít vào, lồng ngực co kéo nhẹ bờ sườn, $SpO_2$ là $96\\%$. Phân loại mức độ nặng và thái độ xử trí ban đầu là gì?\n- **Phân tích tư duy:** Trẻ có thở rít thanh quản thì hít vào **ngay cả khi nằm yên tĩnh hoàn toàn**. Theo thang điểm Westley, tiêu chí thở rít khi nằm yên được 2 điểm, kèm co kéo nhẹ 1 điểm $\\rightarrow$ Tổng điểm Westley là 3 điểm $\\rightarrow$ **Croup thể vừa**.\n- **Xử trí đúng:** Cho uống Dexamethasone $0.15 \\text{ mg/kg}$ ngay lập tức, kết hợp khí dung L-Adrenaline 1:1000 ($0.5 \\text{ ml/kg}$, tối đa $5 \\text{ ml}$) qua mask có oxy. Lưu theo dõi tại phòng cấp cứu tối thiểu 3–4 giờ.\n\n### Checkpoint 2: Nhận diện cờ đỏ không ho và chảy dãi\n- **Tình huống:** Bé gái 4 tuổi vào cấp cứu vì thở rít và sốt cao $39.5^\\circ\\text{C}$. Mẹ bé cho biết bé khởi phát sốt từ trưa, đến tối thì khó thở tăng nhanh. Trẻ ngồi thẳng rướn cổ ra trước, miệng hé mở, nước dãi chảy ròng ròng xuống cằm, mắt mở to sợ hãi, hoàn toàn không nghe thấy tiếng ho nào. Bạn có nên dùng que đè lưỡi để khám amidan không?\n- **Phân tích tư duy:** Các dấu hiệu cảnh báo đỏ xuất hiện đầy đủ: Trẻ lớn (4 tuổi), sốt cao đột ngột, thở rít, **HOÀN TOÀN KHÔNG HO**, chảy nhiều nước dãi (nuốt đau), tư thế ngửi hoa. Đây là bệnh cảnh kinh điển của **Viêm nắp thanh môn cấp (Epiglottitis)**!\n- **Hành động sống còn:** **TUYỆT ĐỐI KHÔNG DÙNG QUE ĐÈ LƯỠI KHÁM HỌNG!** Không ép trẻ nằm xuống. Giữ trẻ ngồi yên trong lòng mẹ, cho thở oxy blow-by, kích hoạt ngay kíp Đặt nội khí quản cấp cứu (Hồi sức + Tai Mũi Họng) và chuẩn bị chuyển thẳng vào phòng mổ.\n\n### Checkpoint 3: Xử trí trẻ nôn trớ sau khi uống Dexamethasone\n- **Tình huống:** Trẻ Croup thể nhẹ được cho uống Dexamethasone $0.15 \\text{ mg/kg}$. Tuy nhiên, sau khi uống được 10 phút, trẻ quấy khóc và nôn trớ ra toàn bộ dịch thuốc kèm sữa. Bác sĩ nên xử trí bước tiếp theo như thế nào?\n- **Phân tích tư duy:** Nếu trẻ nôn trong vòng **15 đến 30 phút** sau khi uống, lượng thuốc hấp thu vào máu chưa đáng kể.\n- **Hướng xử trí:** Để trẻ bình tâm lại trong 10–15 phút. Nếu cơ sở có Dexamethasone siro ngọt dễ uống hơn, có thể cho uống lại liều tương đương. Nếu trẻ tiếp tục nôn hoặc từ chối uống, chuyển sang tiêm bắp Dexamethasone với liều $0.15 \\text{ mg/kg}$ (hoặc khí dung Budesonide $2 \\text{ mg}$) để đảm bảo hiệu quả điều trị.\n\n### Checkpoint 4: Trẻ không đáp ứng với Adrenaline khí dung\n- **Tình huống:** Bé trai 3 tuổi chẩn đoán Croup nặng, đã được tiêm Dexamethasone và khí dung Adrenaline liều 1. Sau 30 phút, trẻ vẫn thở rít dữ dội, sốt cao vọt lên $40^\\circ\\text{C}$, đờm dãi đặc mủ và vẻ mặt lờ đờ nhiễm độc. Bác sĩ cho tiếp liều Adrenaline thứ 2 nhưng sau 20 phút trẻ hoàn toàn không có dấu hiệu thuyên giảm. Bệnh lý gì cần phải nghĩ đến ngay?\n- **Phân tích tư duy:** Croup virus thông thường đáp ứng cực kỳ nhạy với Adrenaline khí dung (giảm phù nề sau 10–30 phút). Nếu trẻ **sốt cao nhiễm độc, đờm mủ và hoàn toàn không đáp ứng với 2 liều Adrenaline liên tiếp**, thủ phạm hàng đầu là **Viêm khí quản do vi khuẩn (Bacterial Tracheitis)**!\n- **Hành động sống còn:** Chuyển ngay đến phòng PICU, chuẩn bị kíp đặt nội khí quản hút sạch mủ hoại tử làm thông thoáng đường thở, cấy mủ khí quản và khởi động ngay kháng sinh tĩnh mạch phổ rộng (Vancomycin phối hợp Cefotaxime).\n\n---\n\n## 11. 2 CA LÂM SÀNG THỰC CHIẾN CÓ LỜI GIẢI CHI TIẾT\n\n### 11.1 Case 1: Trẻ 18 tháng Croup thể vừa lúc nửa đêm tại phòng cấp cứu\n\n**Bệnh sử:** Bé trai Nguyễn Hoàng M., 18 tháng tuổi, nặng $11 \\text{ kg}$, được bố mẹ đưa vào viện cấp cứu lúc 2 giờ sáng. Bố mẹ kể: Cách đây 2 ngày bé có sốt nhẹ $38^\\circ\\text{C}$, chảy nước mũi trong và ho húng hắng, vẫn ăn chơi ngoan. Tối nay bé đi ngủ bình thường, nhưng đến 1 giờ sáng bé đột ngột thức giấc, ho dữ dội từng cơn với tiếng ho vang đanh như tiếng chó sủa, tiếng thở khò khè rít rầm rĩ và thở co kéo lồng ngực. Bố mẹ quá hoảng loạn bế thẳng vào viện.\n\n**Khám thực thể tại phòng cấp cứu:**\n- Trẻ tỉnh, quấy khóc bứt rứt khi thấy nhân viên y tế, nhưng khi được mẹ ôm vào lòng thì nằm yên dỗ nín được.\n- Sinh hiệu: Mạch $135 \\text{ lần/phút}$, Huyết áp $95/60 \\text{ mmHg}$, Nhịp thở $44 \\text{ lần/phút}$, Nhiệt độ $38.2^\\circ\\text{C}$, $SpO_2 = 95\\%$ (khí trời).\n- Khám hô hấp: Khi bé nằm yên trên ngực mẹ, nghe rõ tiếng thở rít thanh quản thì hít vào bằng tai trần. Lồng ngực co kéo kẽ sườn và rút lõm bờ sườn mức độ vừa. Không có rút lõm hõm ức nặng. Rì rào phế nang êm dịu hai bên phế trường, không nghe ran ẩm hay ran rít phế quản.\n- Họng: Niêm mạc họng đỏ nhẹ, không có giả mạc, không sưng phồng thành sau họng, không chảy nước dãi, nuốt bình thường.\n\n**Đánh giá thang điểm Westley tại giường:**\n- Thở rít: Nghe rõ khi nằm yên $\\rightarrow$ 2 điểm.\n- Co kéo cơ hô hấp: Rút lõm mức độ vừa $\\rightarrow$ 2 điểm.\n- Thông khí phổi: Bình thường $\\rightarrow$ 0 điểm.\n- Tím tái: Hồng hào trong khí trời $\\rightarrow$ 0 điểm.\n- Tri giác: Tỉnh táo, dỗ nín được $\\rightarrow$ 0 điểm.\n- **Tổng điểm Westley:** **4 điểm $\\rightarrow$ Croup thể Vừa (Moderate Croup)**.\n\n**Kế hoạch xử trí tức thì:**\n1. **Dexamethasone đường uống:**  \n   - Liều $0.15 \\text{ mg/kg} \\times 11 \\text{ kg} = 1.65 \\text{ mg}$ (có thể dùng $2 \\text{ mg}$ liều duy nhất dạng siro hoặc dùng nửa ống tiêm Dexamethasone $4 \\text{ mg/ml}$ pha chút nước đường cho uống).\n2. **Khí dung L-Adrenaline 1:1000 qua oxy:**  \n   - Liều: $0.5 \\text{ ml/kg} \\times 11 \\text{ kg} = 5.5 \\text{ ml} \\rightarrow$ Lấy liều tối đa là **$5 \\text{ ml}$ dung dịch Adrenaline 1:1000 nguyên chất**.  \n   - Đặt vào bầu khí dung, gắn mask khí dung có oxy hỗ trợ $5 \\text{ L/phút}$. Mẹ cầm mask đặt nhẹ trước mũi miệng bé trong 15 phút.\n3. **Chăm sóc hỗ trợ:** Giữ bé nằm yên trong lòng mẹ, không lấy máu xét nghiệm, không chụp X-quang.\n\n**Diễn tiến sau điều trị:**\n- Sau khí dung Adrenaline 20 phút: Bé thở êm hơn rõ rệt, tiếng thở rít biến mất khi nằm yên, co kéo lồng ngực giảm hẳn, nhịp thở giảm còn $34 \\text{ lần/phút}$, $SpO_2 = 98\\%$. Bé ngủ ngoan trên tay mẹ. Điểm Westley giảm xuống còn 1 điểm.\n- **Quyết định theo dõi an toàn:** Bác sĩ giải thích cho bố mẹ hiểu về \"hiện tượng dội ngược\" và yêu cầu lưu lại phòng cấp cứu để theo dõi đủ **4 giờ**.\n- Sau 4 giờ theo dõi (lúc 6 giờ sáng): Bé thức dậy đòi bú, chơi ngoan, không còn thở rít khi nằm yên, chỉ ho húng hắng vài tiếng ông ổng nhẹ, không co kéo cơ hô hấp, $SpO_2 = 98\\%$.\n- **Xử trí kết thúc:** Bác sĩ cho bé xuất viện về nhà, không kê thêm kháng sinh hay thuốc giảm ho, hướng dẫn bố mẹ hạ sốt bằng Paracetamol ($10 - 15 \\text{ mg/kg}$ khi sốt $\\ge 38.5^\\circ\\text{C}$), cho uống nhiều nước và dặn dò các dấu hiệu cần tái khám cấp cứu ngay.\n\n---\n\n### 11.2 Case 2: Trẻ 3 tuổi nghi Croup không đáp ứng Adrenaline khí dung — Diễn tiến Viêm khí quản do vi khuẩn\n\n**Bệnh sử:** Bé gái Trần Bảo N., 3 tuổi, nặng $14 \\text{ kg}$. Tiền sử 3 ngày trước bé ho, chảy mũi, được phòng khám tư chẩn đoán viêm đường hô hấp trên và cho uống siro ho. Chiều nay bé bắt đầu ho ông ổng và thở rít, gia đình đưa vào bệnh viện huyện được chẩn đoán Croup và tiêm 1 mũi Dexamethasone $2 \\text{ mg}$. Tuy nhiên đến tối bé sốt cao liên tục $39.8^\\circ\\text{C}$, khó thở tăng vọt, tím môi nên được chuyển cấp cứu tuyến tỉnh lúc 23 giờ.\n\n**Khám thực thể tại khoa Cấp cứu:**\n- Trẻ mệt lả, vẻ mặt nhiễm độc lờ đờ, thở gắng sức dữ dội.\n- Sinh hiệu: Mạch $165 \\text{ lần/phút}$, Nhịp thở $58 \\text{ lần/phút}$, Nhiệt độ $40^\\circ\\text{C}$, Huyết áp $85/50 \\text{ mmHg}$, $SpO_2 = 88\\%$ (thở khí trời).\n- Khám hô hấp: Thở rít to cả hai thì (hít vào và thở ra) nghe rõ khắp phòng bệnh. Rút lõm lồng ngực và hõm ức rất sâu, cánh mũi phập phồng, đầu gật gù theo nhịp thở. Nghe phổi: Thông khí phổi giảm nặng hai bên, nghe thấy tiếng lọc sọc đờm đặc ở đường thở lớn.\n- Khám hầu họng nhanh: Họng đỏ rực, có nhiều đờm mủ vàng đục trào lên từ thanh quản, không có giả mạc hầu họng, không phồng thành sau họng.\n\n**Đánh giá ban đầu & Can thiệp cấp cứu:**\n- Điểm Westley sơ bộ: Thở rít (2) + Co kéo nặng (3) + Giảm thông khí (2) + Tím tái (5) + Tri giác lờ đờ (5) = **17 điểm $\\rightarrow$ Croup dọa suy hô hấp tối nguy cấp**.\n- Bác sĩ ra y lệnh cấp cứu ngay:\n  1. Cho thở oxy qua mask $100\\%$.\n  2. Khí dung ngay L-Adrenaline 1:1000 ($5 \\text{ ml}$ nguyên chất qua oxy).\n  3. Tiêm tĩnh mạch Dexamethasone $0.6 \\text{ mg/kg} \\times 14 \\text{ kg} \\approx 8 \\text{ mg}$.\n  4. Báo động đỏ kíp Đặt nội khí quản Hồi sức Nhi và kíp Soi Tai Mũi Họng.\n\n**Đáp ứng điều trị bất thường:**\n- Sau 20 phút khí dung Adrenaline: Triệu chứng thở rít và co kéo lồng ngực **HOÀN TOÀN KHÔNG CẢI THIỆN**, $SpO_2$ chỉ nhích lên $90\\%$ với oxy mask. Đờm mủ tiếp tục trào lên miệng hầu. Trẻ bắt đầu có cơn ngừng thở ngắn $10 \\text{ giây}$.\n\n**Phân tích tư duy chẩn đoán:**\n- Một đứa trẻ có bệnh cảnh ban đầu giống Croup nhưng sau 3 ngày chuyển biến sốt cao đùng đùng, nhiễm độc toàn thân nặng, đờm mủ đặc quánh và **hoàn toàn trơ với khí dung Adrenaline** $\\rightarrow$ Đây chắc chắn không phải Croup virus đơn thuần mà là **Viêm khí quản do vi khuẩn (Bacterial Tracheitis)**, biến chứng bít tắc màng giả mủ!\n\n**Lời giải & Xử trí chuyên sâu:**\n1. **Kiểm soát đường thở ngay tại chỗ:**  \n   - Tiến hành đặt ống nội khí quản cấp cứu. Do hạ thanh môn phù nề và lòng khí quản đầy mủ đặc, bác sĩ chọn ống nội khí quản cỡ nhỏ hơn dự kiến (số 4.0 có bóng chèn thay vì số 4.5).  \n   - Soi thanh quản trực tiếp thấy: Nắp thanh môn bình thường, hạ thanh môn phù nề nặng và lòng khí quản phía dưới dây thanh chứa đầy các mảng giả mạc mủ hoại tử màu vàng xám bít tắc gần hoàn toàn lòng ống.  \n   - Bác sĩ tiến hành hút sạch mủ đặc qua ống nội khí quản, bơm rửa nhẹ nhàng bằng nước muối sinh lý, lấy dịch mủ gửi nhuộm Gram và cấy vi sinh.\n2. **Hồi sức và Kháng sinh tĩnh mạch trúng đích:**  \n   - Chuyển bệnh nhi vào khoa Hồi sức Tích cực (PICU), thở máy hỗ trợ.  \n   - Bắt đầu ngay kháng sinh tĩnh mạch phổ rộng bao phủ tụ cầu vàng kháng Methicillin (MRSA) và vi khuẩn gram âm: **Vancomycin ($60 \\text{ mg/kg/ngày}$ chia 4 lần) phối hợp Ceftriaxone ($100 \\text{ mg/kg/ngày}$ tiêm TM)**.  \n   - Bù dịch tĩnh mạch chống sốc và hạ sốt tích cực.\n3. **Kết quả:** Sau 48 giờ thở máy và điều trị kháng sinh, cấy mủ khí quản mọc *Staphylococcus aureus*. Bệnh nhi được cai máy thở, rút ống nội khí quản an toàn sau 5 ngày và hồi phục hoàn toàn không để lại di chứng hẹp hạ thanh môn.\n\n---\n\n## 12. TIPS LÂM SÀNG THỰC CHIẾN DÀNH CHO BÁC SĨ TRỰC\n\nDưới đây là 10 kinh nghiệm xương máu giúp bác sĩ trực cấp cứu tự tin xử trí Croup chính xác và an toàn:\n\n1. **Tip 1 — Croup là chẩn đoán lâm sàng, đừng biến X-quang thành cái bẫy chết người:** Nếu trẻ đang thở rít khi nằm yên, hãy cho khí dung Adrenaline và uống Dexamethasone ngay tại giường. Đừng bao giờ chuyển trẻ đi chụp phim khi đường thở chưa ổn định.\n2. **Tip 2 — Tận dụng ống tiêm Dexamethasone để uống:** Nếu bệnh viện không có siro Dexamethasone, hãy bẻ ống tiêm Dexamethasone $4 \\text{ mg/ml}$, dùng bơm tiêm rút đúng liều ($0.15 \\text{ mg/kg}$), pha vào một thìa nhỏ sữa mẹ hoặc nước đường rồi cho trẻ uống. Thuốc hấp thu cực tốt và tác dụng tương đương tiêm.\n3. **Tip 3 — Nguyên tắc \"1 liều duy nhất\":** Đừng lạm dụng kê đơn Dexamethasone uống 3–5 ngày cho Croup thông thường. Một liều duy nhất $0.15 \\text{ mg/kg}$ là đủ để bao phủ toàn bộ giai đoạn đỉnh điểm nguy hiểm của bệnh.\n4. **Tip 4 — Luôn nhớ con số 4 giờ sau Adrenaline:** Sau khi khí dung Adrenaline, dù trẻ có vẻ hoàn toàn bình thường, bắt buộc phải dặn điều dưỡng ghi bảng theo dõi và giữ trẻ lại phòng cấp cứu đủ 4 giờ để canh chừng hiện tượng dội ngược.\n5. **Tip 5 — Đừng bao giờ dùng Adrenaline đơn độc mà không kèm Dexamethasone:** Adrenaline chỉ là giải pháp \"mua thời gian\" (cứu nguy trong 2 giờ). Dexamethasone mới là thuốc điều trị gốc rễ dập tắt phản xạ viêm. Luôn cho Dexamethasone cùng lúc hoặc ngay sau Adrenaline.\n6. **Tip 6 — Chọn cỡ ống nội khí quản nhỏ hơn 0.5 – 1 cỡ khi phải đặt ống:** Khi Croup nặng bắt buộc phải đặt nội khí quản, đường thở hạ thanh môn đang bị hẹp đáng kể. Luôn chuẩn bị sẵn ống nội khí quản nhỏ hơn cỡ tính theo tuổi từ 0.5 đến 1 số (ví dụ trẻ 2 tuổi bình thường dùng ống 4.5 thì phải chuẩn bị sẵn ống 4.0 và 3.5).\n7. **Tip 7 — Giữ trẻ trong vòng tay mẹ là liều thuốc an thần tốt nhất:** Đừng giằng trẻ ra khỏi mẹ để khám. Tiếng khóc thét của trẻ làm áp lực đường thở tăng vọt và có thể biến một ca Croup vừa thành Croup tắc nghẽn suy hô hấp chỉ trong vài giây.\n8. **Tip 8 — Cảnh giác với dấu hiệu \"yên lặng chết chóc\":** Nếu một đứa trẻ Croup đang thở rít ầm ĩ đột nhiên thở êm ắng nhưng lờ đờ, mắt đờ đẫn, đừng vội mừng! Hãy áp ống nghe kiểm tra thông khí phổi ngay; nếu rì rào phế nang mất hút, đó là kiệt sức cơ hô hấp và dọa ngừng thở!\n9. **Tip 9 — Nhận diện viêm nắp thanh môn bằng câu thần chú \"4 Không\":** Không ho, Không nằm ngửa được, Không nuốt được (chảy dãi), Không được dùng que đè lưỡi!\n10. **Tip 10 — Hướng dẫn gia đình kỹ lưỡng trước khi cho về:** Dặn dò cha mẹ luôn bế dựng trẻ, tiếp tục cho bú/uống nhiều nước, và quay lại viện ngay nếu thấy trẻ có thở rít khi đang ngủ yên, thở rút lõm ngực hoặc khó thở tăng dần.\n\n---\n\n## 13. TIÊU CHUẨN XUẤT VIỆN, THEO DÕI VÀ TÓM TẮT THỰC HÀNH\n\n### 13.1 Tiêu chuẩn nhập viện\n\nCần chỉ định cho bệnh nhi nhập viện điều trị nội trú khi có **bất kỳ một** trong các tiêu chuẩn sau:\n1. Trẻ có Croup thể nặng hoặc dọa suy hô hấp (Westley $\\ge 6$) tại bất kỳ thời điểm nào.\n2. Trẻ Croup thể vừa không đáp ứng hoặc triệu chứng thở rít khi nằm yên vẫn còn sau 4 giờ theo dõi kể từ liều Adrenaline và Dexamethasone đầu tiên.\n3. Trẻ cần từ **2 liều Adrenaline khí dung trở lên** trong đợt cấp cứu.\n4. Trẻ có dấu hiệu mất nước, nôn trớ liên tục không thể uống thuốc hay bù dịch tại nhà.\n5. Trẻ thuộc nhóm nguy cơ cao: Tuổi quá nhỏ ($< 6 \\text{ tháng}$), tiền sử sinh non, có bệnh lý hẹp thanh quản bẩm sinh hoặc bệnh tim bẩm sinh kèm theo.\n6. Yếu tố gia đình - xã hội: Nhà ở quá xa cơ sở y tế, phương tiện đi lại khó khăn vào ban đêm, hoặc cha mẹ quá lo lắng, không có khả năng theo dõi và chăm sóc trẻ an toàn.\n\n### 13.2 Tiêu chuẩn xuất viện an toàn & Hướng dẫn gia đình theo dõi tại nhà\n\nTrẻ có thể xuất viện an toàn từ phòng khám hoặc phòng cấp cứu khi đáp ứng **toàn bộ** các điều kiện sau:\n- Đã được dùng Dexamethasone đầy đủ.\n- Hoàn toàn **không có thở rít thanh quản khi nằm yên tĩnh**.\n- Không có rút lõm lồng ngực (hoặc chỉ co kéo nhẹ kẽ sườn).\n- Rì rào phế nang thông khí tốt hai bên phổi.\n- Da niêm hồng hào, $SpO_2 \\ge 95\\%$ trong khí trời.\n- Đã qua thời gian theo dõi an toàn tối thiểu **3 đến 4 giờ** sau liều Adrenaline cuối cùng.\n- Trẻ tỉnh táo, tươi tỉnh, ăn uống hoặc bú được tốt.\n- Bố mẹ hiểu rõ và nắm vững các dấu hiệu cảnh báo cần đưa trẻ quay lại viện ngay.\n\n**Hướng dẫn gia đình chăm sóc tại nhà:**\n- **Tư thế:** Bế trẻ ở tư thế ngồi thẳng hoặc kê cao đầu giường khi ngủ giúp trẻ thở dễ dàng hơn.\n- **Dinh dưỡng & Bù nước:** Cho trẻ uống nhiều nước ấm, nước hoa quả hoặc bú mẹ nhiều lần trong ngày.\n- **Hạ sốt:** Dùng Paracetamol liều $10 - 15 \\text{ mg/kg/lần}$ mỗi 4–6 giờ khi sốt $\\ge 38.5^\\circ\\text{C}$ gây khó chịu cho trẻ.\n- 🚨 **Đưa trẻ đi tái khám cấp cứu ngay lập tức nếu xuất hiện bất kỳ dấu hiệu nào sau đây:**\n  1. Trẻ thở rít khò khè to ngay cả khi đang ngủ hoặc nằm yên.\n  2. Thấy ngực hoặc hõm cổ của trẻ bị rút lõm sâu mỗi khi hít vào.\n  3. Trẻ thở nhanh gấp gáp, cánh mũi phập phồng hoặc đầu gật gù theo nhịp thở.\n  4. Trẻ nuốt khó, chảy nhiều nước dãi, không thể bú hoặc uống nước được.\n  5. Môi hoặc đầu ngón tay ngón chân của trẻ có màu tím tái hoặc nhợt nhạt.\n  6. Trẻ bứt rứt, kích thích khó dỗ hoặc ngược lại li bì, mệt lả, ngủ gọi khó dậy.\n\n### 13.3 Tóm tắt thực hành lâm sàng cốt lõi\n\n```text\nBệnh nhi nghi ngờ Croup (Ho ông ổng + Khàn tiếng + Thở rít hít vào)\n  ├── Đánh giá phân loại theo thang điểm Westley lâm sàng:\n  │     ├── [Croup Nhẹ: điểm ≤ 2]: Dexamethasone 0.15 mg/kg PO liều duy nhất → Về nhà an toàn\n  │     ├── [Croup Vừa: điểm 3-5]: Dexamethasone + L-Adrenaline khí dung qua oxy → Theo dõi 4 giờ\n  │     │     ├── Sau 4 giờ hết thở rít khi nằm yên → Cho xuất viện theo dõi tại nhà\n  │     │     └── Sau 4 giờ còn thở rít hoặc co kéo → Nhập viện khoa Nhi điều trị nội trú\n  │     └── [Croup Nặng: điểm 6-11 hoặc Dọa ngưng thở]:\n  │           ├── Thở oxy blow-by + Khí dung ngay L-Adrenaline 5 ml nguyên chất\n  │           ├── Dexamethasone 0.6 mg/kg tiêm TM/tiêm bắp\n  │           └── Kích hoạt kíp PICU chuẩn bị đặt ống nội khí quản số nhỏ\n```\n\n---\n\n## 14. TÀI LIỆU THAM KHẢO & BẰNG CHỨNG Y HỌC\n\n1. Bjornson CL, Klassen TP, Williamson J, Brant R, Mitton C, Plint A, Bulloch B, Evered L, Johnson DW. A randomized trial of a single dose of oral dexamethasone for mild croup. The New England Journal of Medicine. 2004. PMID: 15385657.\n2. Gates A, Gates M, Vandermeer B, Johnson C, Hartling L, Johnson DW, Klassen TP. Glucocorticoids for croup in children. Cochrane Database of Systematic Reviews. 2018. PMID: 30133690.\n3. Bjornson C, Russell K, Vandermeer B, Klassen TP, Johnson DW. Nebulized epinephrine for croup in children. Cochrane Database of Systematic Reviews. 2013. PMID: 24114291.\n4. Ortiz-Alvarez O. Acute management of croup in the emergency department. Paediatrics & Child Health. 2017. PMID: 29532807.\n5. Bjornson CL, Johnson DW. Croup. The Lancet. 2008. PMID: 18295000.\n6. Moore M, Little P. Humidified air inhalation for treating croup: a systematic review and meta-analysis. Family Practice. 2007. PMID: 17602176.\n7. Westley CR, Cotton EK, Brooks JG. Nebulized racemic epinephrine by IPPB for the treatment of croup: a double-blind study. American Journal of Diseases of Children. 1978. PMID: 347921.\n8. **Kliegman RM, St. Geme JW, Blum NJ, et al. (2020)**: *Nelson Textbook of Pediatrics, 21st Edition.* Philadelphia: Elsevier. Chapter 412: Croup (Laryngotracheobronchitis). [GUIDELINE VERIFIED]\n9. **Bộ Y tế Việt Nam (2015/2020)**: *Hướng dẫn chẩn đoán và điều trị bệnh Croup (Viêm thanh khí phế quản cấp) ở trẻ em.* Quyết định số 3312/QĐ-BYT. Hà Nội: Nhà xuất bản Y học. [GUIDELINE VERIFIED]\n10. **Bệnh viện Nhi Đồng 1 (2020)**: *Phác đồ điều trị Nhi khoa — Viêm thanh khí phế quản cấp (Croup).* TP. Hồ Chí Minh: Nhà xuất bản Y học. [GUIDELINE VERIFIED]\n11. **Bệnh viện Nhi Đồng 2 (2021)**: *Phác đồ điều trị Nhi khoa.* TP. Hồ Chí Minh: Nhà xuất bản Y học. [GUIDELINE VERIFIED]\n",
+      "ped_content": "# BÀI HỌC Y KHOA: VIÊM THANH KHÍ PHẾ QUẢN CẤP (CROUP) Ở TRẺ EM (PED-24)\n\n**Mã bài:** PED-24  \n**Chuyên khoa:** Nhi khoa / Hô hấp Nhi & Cấp cứu Nhi  \n**Đối tượng:** Bác sĩ thực hành, học viên lâm sàng, sinh viên y khoa chuẩn bị trực cấp cứu và đi buồng bệnh Nhi (Chế độ sư phạm: L3_BEGINNER — Cầm tay chỉ việc cho người bắt đầu)  \n**Đường học trước:** PED-01: Đặc điểm sinh lý & Bảng sinh hiệu bình thường theo tuổi · PED-02: Tam giác đánh giá PAT & Tiếp cận ABCDE · PED-20: Sơ đồ tiếp cận trẻ Ho và Khò khè theo lứa tuổi  \n**Đường học tiếp theo:** PED-21: Viêm phổi mắc phải cộng đồng (CAP) · PED-22: Viêm tiểu phế quản cấp ở trẻ nhũ nhi · PED-25: Liệu pháp Oxy & Hỗ trợ hô hấp không xâm lấn  \n**Revision phát hành:** RELEASE v1  \n**Research brief khóa nguồn:** PED-24_RESEARCH_BRIEF.md  \n\n---\n\n## 0. TỔNG QUAN — VÌ SAO BÀI NÀY QUAN TRỌNG?\n\nCroup (Viêm thanh khí phế quản cấp - Laryngotracheobronchitis) là một trong những nguyên nhân phổ biến nhất gây tắc nghẽn đường hô hấp trên cấp tính ở trẻ nhỏ, đặc biệt trong độ tuổi từ 6 tháng đến 36 tháng tuổi. Tình trạng này là nguyên nhân của hàng trăm ngàn lượt khám cấp cứu hàng năm trên toàn thế giới, thường bùng phát vào mùa thu đông và ban đêm.\n\nĐối với người thầy thuốc trực cấp cứu Nhi khoa, Croup là một tình huống lâm sàng vô cùng đặc biệt:\n- **Áp lực tâm lý tột độ:** Một đứa trẻ đang ngủ yên lúc nửa đêm đột ngột thức giấc, ho dữ dội với âm thanh chát chúa như tiếng chó sủa (barking cough), tiếng thở rít thanh quản khò khè thì hít vào (inspiratory stridor) và rút lõm lồng ngực rõ rệt. Bố mẹ thường rơi vào trạng thái hoảng loạn cực độ vì nghĩ con mình sắp nghẹt thở chết.\n- **Ranh giới mong manh giữa an toàn và thảm họa:** Mặc dù trên 85% các trường hợp Croup thuộc thể nhẹ và có thể điều trị ngoại trú an toàn, nhưng nếu bác sĩ đánh giá sai mức độ nặng, bỏ sót các dấu hiệu cảnh báo nguy kịch, hoặc xử trí sai lầm (như thăm khám họng thô bạo bằng que đè lưỡi, chỉ định thuốc an thần, hoặc giữ trẻ lại để chụp X-quang không cần thiết), đường thở của trẻ có thể bị bít tắc hoàn toàn chỉ trong vài phút.\n- **Chiến thắng vang dội của Y học chứng cứ (EBM):** Croup là một trong những minh chứng rực rỡ nhất của việc áp dụng y học chứng cứ trong Nhi khoa. Việc triển khai liệu pháp Dexamethasone liều duy nhất cho mọi thể Croup (từ nhẹ đến nặng) kết hợp với khí dung L-Adrenaline cấp cứu đã làm giảm hơn 80% tỷ lệ phải đặt nội khí quản và giảm ngoạn mục tỷ lệ nhập viện hồi sức trên toàn cầu.\n\nNắm vững cơ chế bệnh sinh, phân tầng đúng bằng thang điểm Westley, sử dụng thuốc đúng thời điểm và tuân thủ nguyên tắc chăm sóc tối thiểu (Minimal Handling) là chìa khóa vàng giúp bác sĩ cứu sống bệnh nhi và mang lại sự an tâm tuyệt đối cho gia đình.\n\n### 0.1 Nền tảng tối thiểu cần dùng ngay\n\nDành cho học viên và bác sĩ bắt đầu thực hành lâm sàng, dưới đây là các khái niệm giải phẫu, sinh lý và thuật ngữ bắt buộc phải nắm vững:\n\n- **Croup (Viêm thanh khí phế quản cấp)** là một hội chứng lâm sàng đường hô hấp đặc trưng bởi sự khởi phát đột ngột của tam chứng: ho tiếng ông ổng (barking cough), khàn tiếng (hoarseness), và thở rít thì hít vào (inspiratory stridor) do phù nề vùng hạ thanh môn.\n- **Vòng sụn nhẫn (Cricoid cartilage)** là một cấu trúc sụn hoàn chỉnh duy nhất của đường thở hình chiếc nhẫn nằm ngay dưới sụn giáp, đại diện cho điểm hẹp nhất của đường dẫn khí ở trẻ em dưới 8 tuổi. Vì vòng sụn này kín hoàn toàn và không thể giãn nở ra ngoài, mọi hiện tượng viêm phù nề niêm mạc chỉ có thể lồi vào trong lòng ống, làm hẹp nghiêm trọng khẩu kính đường thở.\n- **Thở rít thanh quản (Stridor)** là một âm thanh bệnh lý âm sắc cao, thô ráp, phát sinh khi dòng không khí xoáy đi qua đoạn đường thở lớn ngoài lồng ngực bị hẹp (thường gặp nhất ở thanh quản và hạ thanh môn), nghe rõ nhất ở thì hít vào.\n- **Ho tiếng ông ổng (Barking cough)** là một kiểu ho đặc biệt có âm vang thô ráp kim khí giống như tiếng hải cẩu sủa hoặc tiếng chó sủa, phát sinh do luồng không khí tốc độ cao đi qua vùng hạ thanh môn bị phù nề làm rung các dây thanh âm và mô mềm thanh quản.\n- **Hiện tượng dội ngược (Rebound phenomenon)** là một tình trạng tái hẹp lòng đường thở cấp tính sau khi thuốc co mạch khí dung (như Adrenaline) hết tác dụng dược lý trong khi quá trình viêm nền vẫn chưa được kiểm soát bởi Corticoid.\n- **Thang điểm Westley (Westley Croup Score)** là một công cụ lâm sàng lượng hóa mức độ nghiêm trọng của Croup gồm 5 tiêu chí: Thở rít, Co kéo cơ hô hấp, Thông khí phổi, Tím tái và Tri giác.\n- **L-Adrenaline (Epinephrine 1:1000)** là một thuốc cấp cứu chủ vận mạnh trên cả thụ thể $\\alpha$ và $\\beta$-adrenergic; trong Croup, tác dụng kích thích thụ thể $\\alpha_1$-adrenergic gây co các tiểu động mạch niêm mạc hạ thanh môn, dẫn đến hấp thu dịch phù nề và mở rộng tức thì lòng đường thở.\n- **Dexamethasone** là một Glucocorticoid tổng hợp có hoạt tính kháng viêm cực mạnh (gấp 25–30 lần Hydrocortisone) và thời gian bán thải sinh học kéo dài (36–72 giờ), có tác dụng ức chế giải phóng các cytokine tiền viêm và giảm tính thấm thành mạch tại đường thở.\n- **Dấu hiệu Nóc nhà thờ (Steeple sign)** là một dấu hiệu hình ảnh trên phim X-quang cổ thẳng (AP view), thể hiện sự thu hẹp hình nón đối xứng của cột khí vùng hạ thanh môn do phù nề niêm mạc.\n- **Liệu pháp xông hơi ẩm (Mist therapy)** là một phương pháp điều trị truyền thống sử dụng hơi nước nóng hoặc lạnh cho trẻ hít vào; các phân tích gộp hiện đại đã chứng minh phương pháp này không mang lại lợi ích lâm sàng và không làm thay đổi điểm số Croup.\n\n> 🚨 **BOX ĐỎ — BÁO ĐỘNG ĐỎ CẤP CỨU Ở TRẺ CROUP**  \n> Khi tiếp nhận trẻ có thở rít thanh quản hoặc nghi ngờ Croup, nếu xuất hiện **BẤT KỲ MỘT** dấu hiệu nào sau đây, phải kích hoạt kíp cấp cứu đường thở khó (gồm Bác sĩ Hồi sức Nhi và Bác sĩ Tai Mũi Họng) và chuẩn bị ngay phương tiện đặt nội khí quản:  \n> 1. **Thở rít thanh quản nghe rõ ở cả 2 thì (cả hít vào và thở ra)** khi trẻ đang nằm yên hoàn toàn.  \n> 2. Rút lõm lồng ngực dữ dội, co kéo hõm ức sâu, trẻ thở gật gù theo nhịp thở hoặc có biểu hiện kiệt sức cơ hô hấp.  \n> 3. Trẻ bứt rứt, kích thích, hoảng loạn hoặc ngược lại chuyển sang li bì, lơ mơ, giảm phản xạ (dấu hiệu thiếu oxy não và ứ $CO_2$ tối cấp).  \n> 4. Tím tái trung ương (tím môi, tím đầu chi hoặc niêm mạc) khi đang thở khí trời, hoặc $SpO_2 < 92\\%$.  \n> 5. Trẻ có biểu hiện nuốt khó, chảy nhiều nước dãi (drooling), ngồi rướn cổ ra trước theo \"tư thế ngửi hoa\" (sniffing position) và sốt cao nhiễm độc — cảnh báo đỏ của **Viêm nắp thanh môn cấp (Epiglottitis)**!  \n> ⚠️ **TUYỆT ĐỐI CẤM:** Không dùng que đè lưỡi khám họng, không ép trẻ nằm ngửa, không cố lấy ven gây đau đớn khi chưa chuẩn bị sẵn sàng kíp đặt ống nội khí quản!\n\n---\n\n## 1. ĐỊNH NGHĨA VÀ PHÂN LOẠI CỐT LÕI\n\nCroup không phải là một bệnh đơn lẻ mà là một hội chứng lâm sàng phản ánh tình trạng viêm nhiễm và phù nề cấp tính ở thanh quản, khí quản và các phế quản lớn.\n\n### 1.1 Định nghĩa lâm sàng chuẩn mực\n\nTheo Viện Hàn lâm Nhi khoa Hoa Kỳ (AAP), Hiệp hội Nhi khoa Canada: Acute management of croup in the emergency department. Published guidelines advise using steroids as the mainstay treatment for all children with croup. {claim:C-002} [GUIDELINE VERIFIED] (PMID: 29532807) và Hướng dẫn của Bộ Y tế Việt Nam:\n\n> **Viêm thanh khí phế quản cấp (Croup)** là một hội chứng nhiễm trùng đường hô hấp trên thường gặp ở trẻ em từ 6 tháng đến 36 tháng tuổi, đặc trưng bởi sự khởi phát cấp tính của:  \n> 1. **Ho tiếng ông ổng (Barking cough)**.  \n> 2. **Khàn tiếng (Hoarseness)** hoặc mất tiếng.  \n> 3. **Thở rít thì hít vào (Inspiratory stridor)**.  \n> 4. Các mức độ co kéo cơ hô hấp phụ (rút lõm hõm ức, co kéo liên sườn).  \n> Các triệu chứng này thường xuất hiện sau giai đoạn viêm long hô hấp trên 1–2 ngày và có xu hướng nặng lên rõ rệt vào ban đêm.\n\n```text\n[Giai đoạn 1 (Ngày 1-2)] Viêm long hô hấp trên: Sốt nhẹ 37.5-38.5°C, chảy mũi trong, ho húng hắng\n       ↓\n[Giai đoạn 2 (Đêm 2-3)] Bùng phát về đêm: Ho ông ổng đanh thép, khàn tiếng, thở rít khi hít vào\n       ↓\n[Giai đoạn 3 (Can thiệp)] Sau Dexamethasone ± Adrenaline: Giảm phù nề, hết thở rít khi nằm yên\n       ↓\n[Giai đoạn 4 (Ngày 4-7)] Hồi phục hoàn toàn: Tiếng ho mềm dần, ăn bú tốt, hết khàn giọng\n```\n\n### 1.2 Căn nguyên vi sinh học\n\nVirus là tác nhân gây bệnh chiếm ưu thế tuyệt đối trong Croup cấp ở trẻ em:\n1. **Human Parainfluenza Viruses (HPIV - Virus Á cúm):** Tác nhân vi sinh hàng đầu gây bệnh cảnh Viêm thanh khí phế quản cấp ở trẻ em. Croup seminar: Most children who present with acute onset of barky cough, stridor, and chest-wall indrawing have croup; parainfluenza is the predominant cause. {claim:C-001} [ABSTRACT VERIFIED] (PMID: 18295000). Virus Á cúm thuộc họ Paramyxoviridae, xâm nhập và nhân lên mạnh mẽ tại biểu mô đường thở. Trong các phân type, HPIV type 1 là chủng gây bệnh phổ biến nhất vào mùa thu đông, chiếm khoảng từ sáu mươi lăm đến bảy mươi lăm phần trăm tổng số ca bệnh được ghi nhận trên lâm sàng.\nHPIV type 2 gây bệnh cảnh tương tự nhưng thường nhẹ hơn. HPIV type 3 thường liên quan đến viêm tiểu phế quản và viêm phổi ở trẻ nhỏ hơn.\n2. **Respiratory Syncytial Virus (RSV) và Adenovirus:** Chiếm khoảng 10–15% các trường hợp, thường gây bệnh cảnh kéo dài và có thể lan xuống phế quản phổi gây khò khè phế quản phối hợp.\n3. **Virus Cúm (Influenza A và B):** Chiếm 5–10%, thường gây Croup thể nặng, sốt rất cao và có nguy cơ cao bội nhiễm vi khuẩn thứ phát.\n4. **Các virus khác:** Coronavirus, Rhinovirus, Metapneumovirus ở người (hMPV), Enterovirus.\n\n### 1.3 Phân loại thể lâm sàng: Croup virus vs Croup co thắt\n\nTrên lâm sàng, cần phân biệt hai thể bệnh chính có chiến lược theo dõi khác nhau:\n\n| Tiêu chí | Croup virus (Laryngotracheobronchitis) | Croup co thắt (Spasmodic Croup) |\n|---|---|---|\n| **Bản chất** | Nhiễm trùng đường thở do virus lan tỏa | Phản ứng co thắt thanh quản dị ứng / quá mẫn |\n| **Tiền triệu** | Có sốt nhẹ, chảy mũi, viêm long 1–2 ngày | KHÔNG có sốt, không có viêm long hô hấp trên |\n| **Khởi phát** | Tiến triển dần từ viêm long đến thở rít | Đột ngột thức giấc lúc nửa đêm vì ho ông ổng và thở rít |\n| **Tiền sử** | Thường là đợt đầu tiên hoặc hiếm khi tái phát | Hay tái phát nhiều lần, tiền sử bản thân/gia đình dị ứng |\n| **Toàn trạng** | Trẻ mệt mỏi, vẻ mặt nhiễm virus | Trẻ hoàn toàn bình thường vào ban ngày giữa các cơn |\n| **Thời gian kéo dài** | Kéo dài 3–7 ngày | Cơn thường biến mất nhanh sau vài giờ hoặc sáng hôm sau |\n| **Đáp ứng điều trị** | Đáp ứng tốt với Dexamethasone sau 1–2 giờ | Đáp ứng rất nhanh với không khí ẩm mát hoặc Dexamethasone |\n\n---\n\n## 2. CƠ CHẾ SINH LÝ BỆNH HỌC 5 TẦNG & ĐỊNH LUẬT POISEUILLE\n\nTại sao Croup lại nguy hiểm ở trẻ nhỏ trong khi ở người lớn cùng một loại virus Á cúm chỉ gây viêm thanh quản khàn tiếng nhẹ? Câu trả lời nằm trọn vẹn trong cấu trúc giải phẫu đặc thù của đường thở nhi khoa và định luật vật lý Poiseuille.\n\n### 2.1 Đặc điểm giải phẫu thanh quản nhi khoa & Vòng sụn nhẫn\n\nĐường thở của trẻ em không phải là một mô hình thu nhỏ đơn thuần của người lớn:\n1. **Hình thái hình phễu (Funnel shape):** Ở người lớn, thanh quản có hình trụ và khe thanh môn (vị trí giữa hai dây thanh âm) là điểm hẹp nhất. Ngược lại, ở trẻ nhỏ dưới 8 tuổi, thanh quản có hình phễu thon nhọn xuống dưới, và **điểm hẹp nhất nằm tại vùng hạ thanh môn (Subglottic space) ngang mức vòng sụn nhẫn**.\n2. **Cấu trúc vòng sụn nhẫn kín:** Khác với khí quản có các vòng sụn hình chữ C hở phía sau bởi cơ màng, vòng sụn nhẫn là một vòng sụn hoàn chỉnh $360^\\circ$ duy nhất. Lớp hạ niêm mạc vùng hạ thanh môn bên trong vòng sụn nhẫn cấu tạo bởi mô liên kết lỏng lẻo giàu mạng lưới mạch máu. Khi bị viêm, mô này phù nề ứ dịch mạnh mẽ nhưng không thể nở ra phía ngoài do bị vỏ sụn cứng cản lại; toàn bộ thể tích phù nề bắt buộc phải lồi vào trong lòng ống dẫn khí.\n3. **Dây thanh âm ngắn và góc nghiêng:** Thanh quản trẻ nằm cao hơn (ngang đốt sống cổ C3–C4 so với C5–C6 ở người lớn), sụn nắp mềm hình chữ Omega ($\\Omega$) dễ bị sụp về phía sau khi hít vào gắng sức.\n\n### 2.2 Định luật Poiseuille & Kháng lực đường thở ($R \\propto 1/r^4$)\n\nĐịnh luật Poiseuille chi phối dòng chảy tầng của chất khí qua một ống hình trụ:\n\n$$R = \\frac{8 \\eta L}{\\pi r^4}$$\n\nTrong đó:\n- $R$ là kháng lực đường thở (Airway Resistance).\n- $\\eta$ là độ nhớt của dòng khí.\n- $L$ là chiều dài của đoạn ống dẫn khí.\n- $r$ là bán kính lòng ống dẫn khí.\n\nHệ quả vật lý then chốt: **Kháng lực đường thở tỉ lệ nghịch với lũy thừa bậc 4 của bán kính lòng ống ($R \\propto 1/r^4$)**.\n\n> 💡 **VÍ DỤ VỀ ẢNH HƯỞNG CỦA ĐỊNH LUẬT POISEUILLE:**  \n> - Ở trẻ nhũ nhi bình thường, bán kính vùng hạ thanh môn khoảng $r = 2 \\text{ mm}$ (đường kính $4 \\text{ mm}$). Diện tích lòng ống là $S_1 = \\pi \\times 2^2 = 4\\pi \\approx 12.56 \\text{ mm}^2$. Kháng lực tương đối là $R_1 \\propto 1/2^4 = 1/16$.  \n> - Khi bị viêm phù nề niêm mạc dày thêm chỉ đúng **$1 \\text{ mm}$** chu vi:  \n>   + Bán kính mới giảm xuống còn $r = 1 \\text{ mm}$.  \n>   + Diện tích lòng ống còn $S_2 = \\pi \\times 1^2 = 1\\pi \\approx 3.14 \\text{ mm}^2$ $\\rightarrow$ **Mất đi $75\\%$ diện tích lưu thông khí!**  \n>   + Kháng lực đường thở mới: $R_2 \\propto 1/1^4 = 1/1$.  \n>   + Tỉ số kháng lực: $R_2 / R_1 = (1/1) / (1/16) = \\mathbf{16 \\text{ LẦN!}}$  \n> \n> *So sánh với người lớn:* Người lớn có đường kính hạ thanh môn khoảng $8 \\text{ mm}$ ($r = 4 \\text{ mm}$). Nếu phù nề $1 \\text{ mm}$, bán kính còn $3 \\text{ mm}$. Diện tích giảm từ $16\\pi$ xuống $9\\pi$ (chỉ giảm khoảng $44\\%$), và kháng lực chỉ tăng $(4/3)^4 \\approx 3.16$ lần. Đây là lý do người lớn chỉ cảm thấy khàn giọng và vướng họng, trong khi đứa trẻ rơi vào tình trạng suy hô hấp cấp tính đe dọa tính mạng!\n\n### 2.3 Chuỗi nhân quả 5 tầng hình thành Tam chứng Croup\n\nDưới đây là các chuỗi cơ chế nhân quả then chốt giải thích toàn bộ diễn tiến bệnh lý và đáp ứng dược lý:\n- Chuỗi 1 (Cơ chế hình thành tam chứng): Xâm nhập virus Á cúm → Phù nề mô đệm hạ thanh môn → Khẩu kính đường thở giảm một nửa → Kháng lực đường thở tăng vọt 16 lần theo định luật Poiseuille → Phát sinh ho ông ổng và thở rít thanh quản.\n- Chuỗi 2 (Hiệu ứng Bernoulli): Khẩu kính đường thở hẹp lại → Vận tốc dòng khí hít vào tăng vọt → Áp suất thủy tĩnh thành ống giảm sâu theo hiệu ứng Bernoulli → Hút các dây thanh môn bẹp vào nhau tạo tiếng thở rít và khàn giọng.\n- Chuỗi 3 (Công thở và suy hô hấp): Kháng lực đường thở tăng vọt → Cơ hoành co bóp gắng sức tối đa → Áp lực âm khoang màng phổi sâu trong thì hít vào → Rút lõm hõm ức và lồng ngực → Giảm thông khí phế nang và thiếu oxy máu.\n- Chuỗi 4 (Cơ chế tác dụng của Adrenaline): Khí dung L-Adrenaline 1:1000 → Kích thích chọn lọc thụ thể alpha-1 adrenergic → Co thắt tiểu động mạch hạ niêm mạc → Tái hấp thu dịch phù nề ngoại bào → Mở rộng lòng đường thở chỉ sau 10 đến 30 phút.\n- Chuỗi 5 (Cơ chế tác dụng của Dexamethasone): Dexamethasone gắn vào thụ thể Glucocorticoid nội bào → Di chuyển vào nhân ức chế yếu tố phiên mã NF-kB → Ngăn chặn giải phóng các cytokine gây viêm → Duy trì ổn định tính thấm thành mạch kéo dài 24 đến 72 giờ.\n\n\nSự xuất hiện của các triệu chứng lâm sàng diễn ra theo một chuỗi phản ứng dây chuyền sinh lý bệnh 5 tầng chặt chẽ:\n\n```text\nTầng 1: Xâm nhập virus Á cúm → Nhân lên tại biểu mô trụ thanh khí quản → Phù nề hạ niêm mạc hạ thanh môn\n       │\n       ▼\nTầng 2: Vòng sụn nhẫn không giãn nở → Bán kính lòng ống r giảm 50% → Kháng lực R tăng vọt 16 lần (Poiseuille)\n       │\n       ▼\nTầng 3: Tốc độ dòng khí tăng vọt → Áp suất thành giảm (Hiệu ứng Bernoulli) → Mô mềm rung lắc (Ho ông ổng, Khàn tiếng, Thở rít)\n       │\n       ▼\nTầng 4: Trẻ gắng sức hít vào → Tạo áp lực âm màng phổi lớn → Rút lõm hõm ức, liên sườn, phập phồng cánh mũi\n       │\n       ▼\nTầng 5: Giảm thông khí phế nang → Mất cân bằng V/Q → Thiếu oxy máu, ứ CO2, kiệt sức cơ hô hấp và ngừng thở\n```\n\n- **Tầng 1 (Cơ chế phân tử & mô bệnh học):** Virus Á cúm gắn vào thụ thể bề mặt tế bào biểu mô đường thở, nhân lên và gây phản ứng viêm cấp tính. Mạch máu giãn nở, tính thấm thành mạch tăng cao làm thoát dịch và thâm nhiễm bạch cầu đơn nhân vào lớp hạ niêm mạc lỏng lẻo của hạ thanh môn.\n- **Tầng 2 (Cơ chế cơ học đường thở kín):** Do vòng sụn nhẫn bao bọc bên ngoài cứng chắc, lớp phù nề bắt buộc phải tràn vào trong lòng ống. Đường kính đường thở bị bóp nghẹt. Kháng lực đường thở tăng theo hàm mũ lũy thừa 4 ($1/r^4$), tạo ra một nút thắt cổ chai ngay dưới dây thanh âm.\n- **Tầng 3 (Hiệu ứng Bernoulli và phát sinh tiếng động bệnh lý):**  \n  + Theo phương trình liên tục và định luật Bernoulli, khi một khối khí buộc phải đi qua một đoạn ống bị chít hẹp, vận tốc dòng khí phải tăng vọt lên để duy trì lưu lượng. Vận tốc khí tăng cao sẽ làm sụt giảm áp suất thủy tĩnh tại thành ống bên trong chỗ hẹp (Hiệu ứng Bernoulli).  \n  + Áp suất sụt giảm này hút các dây thanh âm và nếp gấp thanh môn khép sát vào nhau, làm chúng rung bần bật trong dòng khí xoáy. Dòng khí xoáy qua chỗ hẹp thì hít vào tạo ra tiếng **Thở rít thanh quản (Stridor)**. Dây thanh âm bị viêm phù nề mất tính đàn hồi mềm mại gây ra tiếng **Khàn giọng (Hoarseness)**. Luồng khí tống ra với áp lực cao làm rung thành khí quản và hạ thanh môn phát ra tiếng **Ho ông ổng (Barking cough)**.\n- **Tầng 4 (Đáp ứng cơ học bù trừ & Công thở):** Để duy trì thể tích lưu thông qua chỗ hẹp, cơ hoành và các cơ hô hấp phụ (cơ ức đòn chũm, cơ liên sườn) phải co bóp tối đa, tạo ra một áp lực âm tính trong khoang màng phổi rất sâu trong thì hít vào. Do lồng ngực trẻ nhỏ có khung xương sườn mềm và độ đàn hồi cao, áp lực âm sâu này hút lõm các mô mềm vào trong, biểu hiện thành **rút lõm hõm ức, rút lõm bờ sườn và hõm trên đòn**.\n- **Tầng 5 (Suy sụp thông khí & Kiệt sức):** Khi tắc nghẽn trở nên quá nặng nề, công hô hấp tăng vọt làm tiêu tốn lượng oxy khổng lồ của cơ thể. Trẻ bắt đầu mệt cơ hoành. Thể tích thông khí phút sụt giảm nghiêm trọng, dẫn đến giảm thông khí phế nang, thiếu oxy máu ($SpO_2$ giảm) và ứ trệ $CO_2$. Toan hô hấp kết hợp toan chuyển hóa do thiếu oxy mô sẽ làm suy ức chế cơ tim và trung tâm hô hấp, dẫn đến ngưng thở nếu không được giải phóng đường thở kịp thời.\n\n### 2.4 Cơ chế tác dụng dược lý của Adrenaline & Glucocorticoid\n\nHai vũ khí tối thượng trong điều trị Croup đánh trúng vào hai mắt xích sinh lý bệnh khác nhau:\n\n1. **Khí dung L-Adrenaline (Epinephrine 1:1000): Tác dụng co mạch tức thì qua thụ thể $\\alpha_1$**  \n   - Khi được khí dung trực tiếp vào đường thở, Adrenaline gắn chọn lọc lên các thụ thể **$\\alpha_1$-adrenergic** trên màng tế bào cơ trơn tiểu động mạch tại lớp hạ niêm mạc vùng hạ thanh môn.  \n   - Hoạt hóa thụ thể $\\alpha_1$ làm co mạch máu tại chỗ mạnh mẽ $\\rightarrow$ Giảm áp lực thủy tĩnh mao mạch $\\rightarrow$ Nhanh chóng tái hấp thu dịch phù nề ngoại bào vào lòng mạch $\\rightarrow$ Giảm độ dày niêm mạc hạ thanh môn từ $1 \\text{ mm}$ xuống chỉ còn $0.2 - 0.3 \\text{ mm}$ chỉ trong vòng **10 đến 30 phút**.  \n   - Bán kính lòng ống phục hồi trở lại, kháng lực đường thở giảm 16 lần, tiếng thở rít biến mất và công hô hấp của trẻ dịu đi ngoạn mục.  \n   - *Hạn chế dược lý:* Adrenaline bị thoái giáng nhanh bởi enzyme COMT và MAO tại mô; thời gian tác dụng chỉ kéo dài từ **90 đến 120 phút**. Thuốc không ức chế được phản ứng viêm nền do virus.\n\n2. **Dexamethasone: Tác dụng kháng viêm bền vững qua thụ thể Glucocorticoid nhân**  \n   - Dexamethasone khuếch tán qua màng tế bào, gắn vào thụ thể Glucocorticoid trong tế bào chất và di chuyển vào nhân tế bào.  \n   - Tại nhân, phức hợp này ức chế yếu tố phiên mã $NF-\\kappa B$, ngăn chặn phiên mã các gen mã hóa các cytokine tiền viêm (như $IL-1\\beta$, $IL-6$, $TNF-\\alpha$) và enzyme $COX-2$. Đồng thời, thuốc kích thích tổng hợp Lipocortin-1 (Annexin A1), ức chế Phospholipase $A_2$, dập tắt chuỗi chuyển hóa Acid Arachidonic.  \n   - Tác dụng sinh học này làm bền vững màng lysosome, phục hồi tính toàn vẹn hàng rào nội mô mao mạch, chấm dứt hiện tượng thoát mạch dịch viêm.  \n   - *Động học:* Tác dụng kháng viêm bắt đầu xuất hiện sau **1 đến 2 giờ**, đạt đỉnh cao sau **4 đến 6 giờ** và duy trì ổn định kéo dài từ **24 đến 72 giờ** (nhờ thời gian bán hủy sinh học dài). Do đó, Dexamethasone tạo ra chiếc \"khiên bảo vệ\" che phủ hoàn hảo khoảng trống khi tác dụng của Adrenaline thoái lui.\n\n---\n\n## 3. TIẾP CẬN CHẨN ĐOÁN & THANG ĐIỂM WESTLEY TẠI GIƯỜNG\n\nChẩn đoán Croup là một **chẩn đoán hoàn toàn dựa trên lâm sàng**. Không có bất kỳ xét nghiệm máu hay hình ảnh học nào có thể thay thế được đôi tai và mắt nhìn của người thầy thuốc tại giường bệnh.\n\n### 3.1 Nhận diện Tam chứng kinh điển tại giường\n\nKhi đứng trước một bệnh nhi, bác sĩ cần lắng nghe và quan sát 3 triệu chứng kinh điển:\n1. **Ho tiếng ông ổng (Barking cough):** Âm sắc chát chúa, đanh thép, vang vọng, thường làm đứa trẻ giật mình khóc thét sau mỗi cơn ho.\n2. **Khàn tiếng (Hoarseness):** Tiếng khóc của trẻ nghẹt ngào, khàn đặc hoặc mất hẳn tiếng khóc (chỉ thấy há miệng khóc nhưng không thành tiếng).\n3. **Thở rít thì hít vào (Inspiratory Stridor):** Âm thanh rít thô ráp âm sắc cao nghe rõ nhất ở vùng cổ khi trẻ hít vào. Bác sĩ cần phân biệt rõ:\n   - *Thở rít chỉ xuất hiện khi kích thích (khi quấy khóc, vận động):* Tắc nghẽn mức độ nhẹ.\n   - *Thở rít xuất hiện liên tục ngay cả khi trẻ nằm yên ngủ ngoan:* Tắc nghẽn mức độ vừa đến nặng, báo hiệu đường kính đường thở đã giảm trên 50%.\n   - *Thở rít cả hai thì (biphasic stridor):* Tắc nghẽn hạ thanh môn ở mức độ nguy kịch cực kỳ nặng nề.\n\n### 3.2 Thang điểm Westley (Westley Croup Score) 5 tiêu chí\n\nThang điểm Westley là công cụ kinh điển được chuẩn hóa quốc tế: Nebulized racemic epinephrine by IPPB for the treatment of croup: a double-blind study. Clinical scores were significantly improved following treatment. {claim:C-009} [DATA VERIFIED] (PMID: 347921) giúp lượng hóa mức độ tắc nghẽn đường thở và theo dõi đáp ứng điều trị:\n\n| Tiêu chí đánh giá | Điểm số | Mô tả lâm sàng chi tiết |\n|---|:---:|---|\n| **1. Thở rít thì hít vào (Inspiratory Stridor)** | 0 | Hoàn toàn không có thở rít |\n| | 1 | Thở rít chỉ nghe thấy khi trẻ kích thích, quấy khóc hoặc vận động |\n| | 2 | **Thở rít nghe rõ khi trẻ nằm yên tĩnh hoàn toàn** |\n| **2. Co kéo cơ hô hấp phụ (Retractions)** | 0 | Không có co kéo lồng ngực |\n| | 1 | Co kéo mức độ nhẹ (kín đáo ở kẽ sườn) |\n| | 2 | Co kéo mức độ vừa (rút lõm bờ sườn và kẽ sườn rõ) |\n| | 3 | **Co kéo mức độ nặng (rút lõm hõm ức sâu, phập phồng cánh mũi, đầu gật gù)** |\n| **3. Thông khí phổi (Air Entry)** | 0 | Thông khí phổi vào đều hai bên phế trường |\n| | 1 | Rì rào phế nang giảm nhẹ |\n| | 2 | **Rì rào phế nang giảm nặng rõ rệt (nghe tim phổi thấy tiếng thông khí rất yếu)** |\n| **4. Tím tái (Cyanosis)** | 0 | Da niêm hồng hào hoàn toàn khi thở khí trời |\n| | 4 | Tím tái chỉ xuất hiện khi quấy khóc, kích thích |\n| | 5 | **Tím tái liên tục ngay cả khi nằm yên tĩnh trong khí trời** |\n| **5. Tri giác (Level of Consciousness)** | 0 | Tỉnh táo hoàn toàn, tương tác tốt với bố mẹ |\n| | 5 | **Bứt rứt, kích thích vật vã, hoảng loạn hoặc li bì, lơ mơ, kiệt sức** |\n\n### 3.3 Phân tầng mức độ nặng tại giường\n\nDựa trên tổng điểm Westley (từ 0 đến 17 điểm), Croup được chia thành 4 mức độ:\n\n1. **Croup thể Nhẹ (Westley $\\le 2$ điểm):**\n   - Trẻ có ho ông ổng, khàn tiếng.\n   - Thở rít thanh quản chỉ xuất hiện khi quấy khóc, **hoàn toàn KHÔNG có thở rít khi nằm yên**.\n   - Không có hoặc chỉ có co kéo lồng ngực mức độ rất nhẹ.\n   - Trẻ hoàn toàn tỉnh táo, chơi ngoan, bú tốt, hồng hào.\n2. **Croup thể Vừa (Westley $3 - 5$ điểm):**\n   - **Thở rít thanh quản nghe rõ ngay cả khi trẻ nằm yên tĩnh**.\n   - Co kéo lồng ngực và rút lõm bờ sườn mức độ vừa.\n   - Thông khí phổi vẫn còn tương đối tốt.\n   - Trẻ tỉnh táo, có thể quấy khóc nhưng dỗ nín được, chưa có rối loạn tri giác, không tím tái.\n3. **Croup thể Nặng (Westley $6 - 11$ điểm):**\n   - Thở rít thanh quản thì hít vào rất to khi nằm yên (hoặc thở rít cả hai thì).\n   - Rút lõm lồng ngực và hõm ức dữ dội, đầu gật gù theo nhịp thở.\n   - Rì rào phế nang giảm rõ rệt.\n   - **Trẻ bứt rứt, kích thích, lo âu, hoảng sợ, không thể dỗ nín** (biểu hiện của đói oxy mô não).\n4. **Croup Dọa Suy Hô Hấp (Westley $\\ge 12$ điểm):**\n   - Tiếng thở rít có thể giảm đi do lưu lượng dòng khí quá yếu (dấu hiệu \"phổi câm\" thanh quản).\n   - Rì rào phế nang hầu như không nghe thấy.\n   - Trẻ lơ mơ, li bì, kiệt sức cơ hô hấp, giảm trương lực cơ.\n   - Tím tái trung ương hoặc da tái nhợt, vã mồ hôi lạnh, nhịp tim chậm.\n   - Nguy cơ ngưng thở tử vong trong tích tắc nếu không đặt nội khí quản ngay!\n\n---\n\n## 4. CHẨN ĐOÁN PHÂN BIỆT SỐNG CÒN & CỜ ĐỎ (RED FLAGS)\n\nBất kỳ đứa trẻ nào có biểu hiện thở rít cấp tính đều phải được sàng lọc cẩn thận để không bỏ sót các cấp cứu ngoại khoa và nhiễm trùng tối cấp đường thở trên.\n\n### 4.1 Bảng chẩn đoán phân biệt các nguyên nhân gây thở rít cấp\n\n| Bệnh cảnh | Lứa tuổi thường gặp | Tác nhân chính | Khởi phát & Đặc điểm lâm sàng cốt lõi | Dấu hiệu phân biệt quyết định |\n|---|:---:|---|---|---|\n| **Croup virus điển hình** | 6 – 36 tháng | Virus Á cúm (HPIV-1, 2, 3) | Khởi phát 1–2 ngày viêm long, sốt nhẹ, ho ông ổng, khàn tiếng, thở rít về đêm. | **Có ho ông ổng rầm rộ**, đáp ứng nhanh với Dexamethasone và Adrenaline khí dung. |\n| **Viêm nắp thanh môn cấp (Epiglottitis)** | 2 – 7 tuổi | *Haemophilus influenzae* type b (Hib), Phế cầu, Tụ cầu | Khởi phát tối cấp trong vài giờ, **sốt cao đùng đùng, bộ mặt nhiễm trùng nhiễm độc nặng**. | **HOÀN TOÀN KHÔNG HO**, nuốt nghẹn, **chảy nhiều nước dãi (drooling)**, ngồi tư thế ngửi hoa, nuốt rất đau. Cấm đè lưỡi! |\n| **Viêm khí quản vi khuẩn (Bacterial Tracheitis)** | 1 – 10 tuổi | *Staphylococcus aureus*, Phế cầu, Liên cầu A | Ban đầu giống Croup nhưng sau 2–3 ngày đột ngột sốt cao trở lại, nhiễm độc, suy hô hấp nặng vọt lên. | **Đờm mủ đặc quánh**, ho đau đớn dữ dội, **KHÔNG ĐÁP ỨNG với Adrenaline khí dung**, soi thanh quản thấy màng giả mủ bít khí quản. |\n| **Dị vật đường thở (Foreign Body)** | 6 tháng – 4 tuổi | Hạt đậu, đồ chơi nhỏ, thức ăn | Khởi phát đột ngột tức thì sau một cơn sặc, hội chứng xâm nhập rõ, ban ngày khi đang ăn/chơi. | **KHÔNG CÓ SỐT**, không có viêm long trước đó, thở rít đột ngột hoặc thở rít phối hợp khò khè một bên phổi. |\n| **Áp xe thành sau họng (RPA)** | < 5 tuổi | Liên cầu, Tụ cầu, Vi khuẩn kỵ khí | Sốt cao, đau họng dữ dội, cổ ưỡn ra sau (tư thế ngửa cổ giảm chèn ép), cứng gáy, nuốt đau. | **Khối phồng một bên ở thành sau họng**, nói giọng ngậm hạt thị, há miệng hạn chế (trismus), chụp X-quang cổ nghiêng thấy dày mô mềm trước cột sống. |\n\n### 4.2 Nhận diện cờ đỏ của Viêm nắp thanh môn cấp (Epiglottitis)\n\nViêm nắp thanh môn cấp là một thảm họa đường thở. Kể từ khi có vắc xin cộng hợp Hib trong chương trình tiêm chủng mở rộng, tỷ lệ bệnh đã giảm hơn 95%, nhưng vẫn có thể gặp do phế cầu, tụ cầu hoặc ở trẻ chưa tiêm chủng đầy đủ:\n- **Tam chứng 3D kinh điển:** **Drooling** (Chảy dãi do nuốt đau không dám nuốt), **Dysphagia** (Nuốt khó), và **Distress** (Suy hô hấp tiến triển nhanh).\n- **Bộ tứ \"Không ho - Sốt cao - Tư thế ngửi hoa - Chảy dãi\":** Nếu một đứa trẻ thở rít mà **KHÔNG HỀ HO**, sốt cao trên 39°C và ngồi rướn cổ cằm chìa ra trước, phải nghĩ ngay đến Viêm nắp thanh môn cấp cho đến khi có bằng chứng ngược lại!\n- ⚠️ **QUY TẮC BẤT DI BẤT DỊCH:** **Tuyệt đối KHÔNG dùng que đè lưỡi khám họng!** Việc dùng que đè lưỡi có thể kích thích phản xạ phó giao cảm hoặc làm nắp thanh môn sưng đỏ hình \"quả anh đào\" (cherry red) sụp xuống bít hoàn toàn lỗ thanh môn, gây ngưng thở đột ngột trên bàn khám. Bệnh nhi cần được giữ yên trong lòng mẹ, thở oxy nhẹ nhàng và chuyển thẳng vào phòng mổ để kíp GMHS và TMH đặt nội khí quản dưới đèn soi thanh quản trực tiếp.\n\n### 4.3 Nhận diện cờ đỏ của Viêm khí quản vi khuẩn (Bacterial Tracheitis)\n\nViêm khí quản do vi khuẩn (còn gọi là \"Croup giả mạc\" - Pseudomembranous croup) là tình trạng nhiễm trùng hoại tử cấp tính lòng khí quản, thường do *Staphylococcus aureus* (bao gồm cả MRSA):\n- Bệnh cảnh ban đầu hoàn toàn giống Croup virus thông thường, nhưng trẻ không thuyên giảm mà đột ngột sốt cao vọt lên, vẻ mặt nhiễm độc lờ đờ, khó thở co kéo dữ dội.\n- **Dấu hiệu nhận diện quan trọng nhất:** Trẻ **hoàn toàn không đáp ứng với khí dung Adrenaline** (hoặc chỉ cải thiện thoáng qua vài phút rồi nặng lên ngay). Khí dung Adrenaline không thể giải quyết được các mảng mủ hoại tử và chất tiết đặc quánh đang đóng bánh làm nghẹt lòng khí quản.\n- Đứa trẻ cần được chuyển Hồi sức Nhi ngay để hút đờm mủ qua nội khí quản và dùng kháng sinh phổ rộng đường tĩnh mạch (như Vancomycin phối hợp Cefotaxime/Ceftriaxone).\n\n---\n\n## 5. CẬN LÂM SÀNG & GIÁ TRỊ CỦA DẤU HIỆU NÓC NHÀ THỜ (STEEPLE SIGN)\n\n### 5.1 X-quang cổ thẳng (AP view) & Dấu hiệu Steeple Sign\n\nTrên phim chụp X-quang vùng cổ tư thế thẳng (Anteroposterior view) ở thì hít vào:\n- Bình thường, cột khí hạ thanh môn có hình vuông hoặc hình vòm vai tù (shoulder appearance).\n- Trong Croup, lớp phù nề đối xứng hai bên của hạ thanh môn làm cột khí bị thu hẹp dần từ dưới lên tạo thành hình chóp nón đối xứng, được gọi là **Dấu hiệu Nóc nhà thờ (Steeple Sign)** hoặc dấu hiệu cây bút chì nhọn (Pencil-point sign).\n- Trên phim cổ nghiêng (Lateral view): Nắp thanh môn hoàn toàn bình thường (không sưng to, không có hình ngón tay cái cái béo tròn - \"Thumbprint sign\" của viêm nắp thanh môn) và mô mềm thành sau họng không bị dày.\n\n![Dấu hiệu Nóc nhà thờ (Steeple Sign) trên phim X-quang cổ thẳng ở bệnh nhi Croup](outputs/figures/PED24_fig1_steeple_sign.jpg)\n\n\n### 5.2 Xét nghiệm máu, vi sinh & Khí máu: Khi nào chỉ định?\n\n- **Công thức máu và CRP/Procalcitonin:** Hoàn toàn KHÔNG cần thiết ở Croup điển hình. Bạch cầu có thể bình thường hoặc tăng nhẹ lympho do virus. Chỉ làm khi nghi ngờ nhiễm khuẩn thứ phát (Viêm khí quản vi khuẩn) hoặc chẩn đoán không rõ ràng.\n- **Test nhanh virus hô hấp (PCR đa mồi):** Có thể làm tại khoa nội trú để cách ly kiểm soát nhiễm khuẩn, nhưng không làm thay đổi quyết định điều trị cấp cứu ban đầu.\n- **Khí máu động mạch hoặc mao mạch:** Chỉ chỉ định ở bệnh nhi Croup rất nặng, dọa suy hô hấp không đáp ứng với Adrenaline khí dung và Dexamethasone, đang chuẩn bị can thiệp đặt nội khí quản.\n\n### 5.3 Nguyên tắc sống còn: Lâm sàng là quyết định\n\n> ⛔ **CẢNH BÁO LÂM SÀNG:**  \n> Croup là chẩn đoán lâm sàng! **Tuyệt đối KHÔNG BAO GIỜ trì hoãn việc cấp cứu, trì hoãn cho uống Dexamethasone hay trì hoãn khí dung Adrenaline để đưa một đứa trẻ đang khó thở đi chụp X-quang cổ!**  \n> Việc đặt trẻ nằm ngửa trên bàn chụp X-quang trong phòng lạnh, cách ly khỏi vòng tay mẹ, trẻ quấy khóc hoảng sợ có thể làm tăng kháng lực đường thở lên gấp nhiều lần và gây ngưng thở tắc nghẽn ngay tại phòng chụp X-quang! Chỉ chụp X-quang khi trẻ đã ổn định hoàn toàn về hô hấp hoặc khi nghi ngờ dị vật đường thở bỏ quên hay chẩn đoán phân biệt không rõ ràng.\n\n---\n\n## 6. CHIẾN LƯỢC ĐIỀU TRỊ CỐT LÕI — THUỐC & PHÁC ĐỒ CẤP CỨU\n\nPhác đồ xử trí Croup hiện đại là sự phối hợp nhịp nhàng giữa một thuốc tác dụng chậm nhưng kéo dài (Dexamethasone) và một thuốc tác dụng cực nhanh nhưng ngắn hạn (Adrenaline khí dung).\n\n### 6.1 Dexamethasone: Tiêu chuẩn vàng cho mọi thể Croup\n\nDexamethasone là nền tảng điều trị bắt buộc cho **TẤT CẢ** các trường hợp Croup, bất kể mức độ nhẹ, vừa hay nặng:\n1. **Tại sao Croup nhẹ cũng phải dùng Dexamethasone?**\n   - Thử nghiệm lâm sàng kinh điển của Bjornson và cộng sự trên New England Journal of Medicine: A randomized trial of a single dose of oral dexamethasone for mild croup. In children with mild croup, dexamethasone resulted in lower return to medical care, quicker resolution of symptoms, and less lost sleep. {claim:C-004} [DATA VERIFIED] (PMID: 15385657).\n   - Nghiên cứu thực hiện trên bảy trăm hai mươi trẻ Croup thể nhẹ đã chứng minh Dexamethasone liều duy nhất làm giảm hơn một nửa số lượt tái khám cấp cứu, giúp trẻ hồi phục nhanh hơn, ngủ ngoan hơn và giảm lo âu cho cha mẹ.\n   - Bằng chứng từ tổng quan hệ thống Cochrane khẳng định vai trò của Glucocorticoid: Glucocorticoids for croup in children. Glucocorticoids reduced symptoms of croup at two hours, shortened hospital stays, and reduced the rate of return visits to care. {claim:C-005} [DATA VERIFIED] (PMID: 30133690).\n\n2. **Liều lượng và Đường dùng:**\n   - **Liều chuẩn:** $0.15 \\text{ đến } 0.6 \\text{ mg/kg}$ liều duy nhất (tối đa $16 \\text{ mg}$).\n   - *Liều thấp $0.15 \\text{ mg/kg}$:* Các nghiên cứu và hướng dẫn của Hiệp hội Nhi khoa Canada (CPS) cho thấy liều $0.15 \\text{ mg/kg}$ có hiệu quả lâm sàng tương đương liều $0.6 \\text{ mg/kg}$ ở thể nhẹ và vừa, đồng thời giúp giảm thiểu lượng dịch thuốc phải uống, hạn chế nguy cơ nôn trớ ở trẻ nhỏ.\n   - *Liều cao $0.6 \\text{ mg/kg}$:* Thường được ưu tiên dùng trong thể nặng hoặc dọa suy hô hấp.\n   - **Đường uống là lựa chọn hàng đầu:** Dexamethasone hấp thu qua đường tiêu hóa cực kỳ nhanh và sinh khả dụng đạt trên 80%. Hiệu quả của đường uống hoàn toàn tương đương với đường tiêm bắp hay tiêm tĩnh mạch.\n   - **Đường tiêm (Bắp hoặc Tĩnh mạch):** CHỈ dùng khi trẻ nôn liên tục không thể uống được, hoặc trẻ đang suy hô hấp rất nặng cần can thiệp hồi sức tích cực.\n\n### 6.2 L-Adrenaline khí dung: Giải cứu đường thở cấp tính\n\nChỉ định: Dùng cho Croup thể **VỪA và NẶNG** (trẻ có thở rít thanh quản và co kéo lồng ngực khi nằm yên, Westley $\\ge 3$) hoặc dọa suy hô hấp.\n\n1. **Chế phẩm và Liều lượng:**\n   - **L-Adrenaline 1:1000 (ống $1 \\text{ mg/1 ml}$):** Đây là chế phẩm thông dụng sẵn có tại mọi cơ sở y tế Việt Nam.\n   - **Liều dùng:** **$0.5 \\text{ ml/kg}$ dung dịch 1:1000 (tối đa $5 \\text{ ml}$ cho một lần khí dung)**. Dùng trực tiếp dung dịch Adrenaline nguyên chất, không cần thiết phải pha loãng thêm nếu thể tích đã đủ $3 - 4 \\text{ ml}$ cho buồng khí dung.\n   - *Nếu dùng Racemic Epinephrine 2.25% (chế phẩm tại Bắc Mỹ):* Liều là $0.05 \\text{ ml/kg}$ (tối đa $0.5 \\text{ ml}$) pha trong $3 \\text{ ml}$ nước muối sinh lý. - Tổng quan Cochrane khẳng định: Nebulized epinephrine for croup in children. Nebulized epinephrine was associated with clinically and statistically significant transient reduction of symptoms of croup post-treatment. Evidence does not favor racemic epinephrine over L-epinephrine. {claim:C-007} [DATA VERIFIED] (PMID: 24114291).\n   - Báo cáo kết luận rằng L-Adrenaline khí dung có hiệu quả và độ an toàn tương đương Racemic Epinephrine, mang lại cải thiện lâm sàng nhanh chóng. Do đó không cần tìm kiếm chế phẩm racemic đắt tiền.\n2. **Kỹ thuật khí dung:**\n   - Khí dung qua mặt nạ (mask) áp nhẹ lên mặt trẻ, gắn với nguồn oxy lưu lượng cao **$4 - 6 \\text{ L/phút}$**.\n   - Nếu trẻ sợ hãi giãy giụa khi áp mask, người mẹ có thể cầm mask để cách mũi miệng trẻ $1 - 2 \\text{ cm}$ (kỹ thuật \"blow-by\") để trẻ hít dần mà không hoảng loạn.\n3. **Hiệu quả và Tần suất lặp lại:**\n   - Điểm số Croup cải thiện rõ rệt chỉ sau **10 đến 30 phút**.\n   - Nếu sau liều thứ nhất 30 phút mà trẻ vẫn còn thở rít và co kéo nặng, có thể lặp lại liều thứ 2 sau 30–60 phút.\n   - Nếu trẻ cần tới **3 liều Adrenaline khí dung liên tiếp trong vòng 2 giờ**, bắt buộc phải chuyển trẻ vào phòng Hồi sức Tích cực (PICU) vì nguy cơ kiệt sức cơ hô hấp và đặt nội khí quản là rất cao.\n\n### 6.3 Hiện tượng dội ngược (Rebound phenomenon) & Cửa sổ an toàn 3–4 giờ\n\nMột trong những sai lầm chết người trong cấp cứu Croup là: Thấy trẻ hết thở rít sau khi khí dung Adrenaline 30 phút vội vàng cho trẻ xuất viện về nhà ngay!\n\n> ⚠️ **BẢN CHẤT DƯỢC LÝ CỦA HIỆN TƯỢNG DỘI NGƯỢC:**  \n> - Tác dụng co mạch của Adrenaline biến mất hoàn toàn sau **90 đến 120 phút** do thuốc bị chuyển hóa hết. Trong khi đó, tác dụng kháng viêm của Dexamethasone uống cần **1 đến 2 giờ** mới bắt đầu phát huy và đạt đỉnh sau 4–6 giờ.  \n> - Nếu cho trẻ về quá sớm, khi Adrenaline hết tác dụng mà Dexamethasone chưa kịp ngấm đầy đủ, các mạch máu hạ thanh môn sẽ giãn nở trở lại, dịch viêm tái tích tụ và lòng đường thở sẽ co hẹp đột ngột trở lại (hiện tượng dội ngược). Trẻ có thể bị ngưng thở tắc nghẽn trên đường về nhà hoặc trong đêm!  \n> \n> 🕒 **QUY TẮC CỬA SỔ AN TOÀN 3–4 GIỜ:**  \n> Bất kỳ trẻ Croup nào sau khi được khí dung Adrenaline BẮT BUỘC phải được lưu lại theo dõi sát tại phòng cấp cứu tối thiểu **3 đến 4 giờ** tính từ liều Adrenaline cuối cùng. Trẻ chỉ được phép xem xét xuất viện khi và chỉ khi:  \n> 1. Đã qua hết 4 giờ quan sát.  \n> 2. Hoàn toàn không còn thở rít khi nằm yên.  \n> 3. Không còn rút lõm lồng ngực.  \n> 4. Tri giác tỉnh táo, hồng hào trong khí trời, bú/uống tốt.\n\n\nDưới đây là các ví dụ minh họa cụ thể để học viên vận dụng tính toán trên lâm sàng:\n- **Ví dụ 1 (Tính liều Dexamethasone uống cho trẻ nhẹ cân):** Bé 9 tháng tuổi nặng 8 kg bị Croup thể nhẹ. Liều Dexamethasone cần dùng là: 8 kg × 0.15 mg/kg = 1.2 mg (dùng 0.3 ml từ ống tiêm 4 mg/ml pha chút nước đường cho uống).\n- **Ví dụ 2 (Tính liều L-Adrenaline 1:1000 khí dung):** Bé 18 tháng tuổi nặng 11 kg bị Croup thể vừa có thở rít khi nằm yên. Liều Adrenaline 1:1000 tính theo công thức: 11 kg × 0.5 ml/kg = 5.5 ml. Vì trần liều tối đa là 5 ml nên bác sĩ chỉ định đúng 5 ml dung dịch Adrenaline 1:1000 nguyên chất cho vào bầu khí dung.\n- **Ví dụ 3 (Tính kháng lực đường thở theo Poiseuille):** Khi đường kính hạ thanh môn của trẻ giảm từ 4 mm xuống 2 mm (bán kính giảm từ 2 mm xuống 1 mm), kháng lực đường thở tăng từ (1/16) lên (1/1) tức tăng gấp 16 lần.\n- **Ví dụ 4 (Nhận diện Croup co thắt):** Bé 2 tuổi có tiền sử viêm da cơ địa, nửa đêm thức giấc ho ông ổng thở rít nhưng hoàn toàn không sốt, không chảy mũi; sau khi bế ra ngoài trời mát hít thở không khí đêm thì cơn dịu dần.\n- **Ví dụ 5 (Phân biệt thở rít hít vào và khò khè thở ra):** Bé 15 tháng tuổi nghe tiếng rít thô ráp âm sắc cao ở vùng cổ ở thì hít vào là thở rít thanh quản do Croup; ngược lại tiếng rít nhạc âm sắc cao nghe rõ khắp hai phế trường ở thì thở ra là khò khè do hen hoặc viêm tiểu phế quản.\n- **Ví dụ 6 (Xử trí khi quá trần liều Dexamethasone):** Bé 8 tuổi nặng 35 kg mắc Croup. Nếu tính 35 kg × 0.6 mg/kg = 21 mg thì đã vượt quá trần liều tối đa cho phép là 16 mg. Bác sĩ chỉ định đúng trần liều 16 mg Dexamethasone đường uống.\n\n### 6.4 Phác đồ xử trí cấp cứu theo từng mức độ Westley\n\n| Phân độ Westley | Đánh giá lâm sàng | Phác đồ xử trí cấp cứu tức thì | Hướng xử trí tiếp theo |\n|---|---|---|---|\n| **Croup nhẹ**<br>(Điểm $\\le 2$) | Ho ông ổng, khàn tiếng, **KHÔNG thở rít khi nằm yên**, không co kéo. | **Dexamethasone $0.15 \\text{ mg/kg}$ uống liều duy nhất** (tối đa $16 \\text{ mg}$). Không cần Adrenaline khí dung. | Theo dõi tại phòng khám 30–60 phút. Hướng dẫn chăm sóc và dấu hiệu tái khám ngay. Xuất viện điều trị tại nhà. |\n| **Croup vừa**<br>(Điểm $3 - 5$) | **Có thở rít khi nằm yên**, co kéo liên sườn/bờ sườn vừa, tỉnh táo, chưa tím. | 1. **Dexamethasone $0.15 - 0.6 \\text{ mg/kg}$ uống** (hoặc tiêm nếu nôn).<br>2. **L-Adrenaline 1:1000 ($0.5 \\text{ ml/kg}$, tối đa $5 \\text{ ml}$) khí dung qua oxy**. | Lưu theo dõi tại Cấp cứu tối thiểu **3–4 giờ**. Nếu hết thở rít khi nằm yên và không co kéo sau 4 giờ $\\rightarrow$ Cân nhắc xuất viện. Nếu còn thở rít $\\rightarrow$ Nhập viện khoa Nhi. |\n| **Croup nặng**<br>(Điểm $6 - 11$) | Thở rít to liên tục, co kéo hõm ức dữ dội, **bứt rứt kích thích**, giảm thông khí. | 1. Thở oxy qua mask hoặc blow-by.<br>2. **L-Adrenaline 1:1000 ($0.5 \\text{ ml/kg}$, tối đa $5 \\text{ ml}$) khí dung ngay**.<br>3. **Dexamethasone $0.6 \\text{ mg/kg}$ tiêm bắp hoặc tĩnh mạch**.<br>4. Lặp lại Adrenaline khí dung sau 30 phút nếu chưa thuyên giảm. | **Nhập viện bắt buộc** vào phòng Cấp cứu / Hồi sức. Báo kíp Hồi sức và TMH sẵn sàng hỗ trợ đường thở. Không để trẻ quấy khóc. |\n| **Dọa suy hô hấp**<br>(Điểm $\\ge 12$) | Li bì, lơ mơ, kiệt sức, **thở rít 2 thì hoặc tiếng thở yếu dần (phổi câm)**, tím tái. | 1. **Gọi hỗ trợ khẩn cấp kíp Đặt nội khí quản & GMHS**.<br>2. Thở oxy $100\\%$ qua mask có túi dự trữ.<br>3. **Khí dung L-Adrenaline $5 \\text{ ml}$ liên tục**.<br>4. Dexamethasone $0.6 \\text{ mg/kg}$ TM.<br>5. Chuẩn bị ống NKQ nhỏ hơn bình thường $0.5 - 1 \\text{ mm}$. | Chuyển ngay đến phòng PICU hoặc phòng mổ. Chuẩn bị mở khí quản cấp cứu nếu không đặt được ống nội khí quản. |\n\n### 6.5 Các thuốc thay thế khi không có Dexamethasone uống\n\nTrong điều kiện cơ sở y tế không có sẵn Dexamethasone dạng siro/dung dịch uống hoặc dạng tiêm:\n1. **Dexamethasone dạng tiêm dùng để uống:** Ống tiêm Dexamethasone Phosphate ($4 \\text{ mg/ml}$) có thể pha với một thìa nhỏ siro ngọt hoặc sữa mẹ cho trẻ uống trực tiếp. Sinh khả dụng và hiệu quả hoàn toàn tương đương.\n2. **Budesonide khí dung (Pulmicort Respules):**  \n   - Liều: $2 \\text{ mg}$ khí dung liều duy nhất.  \n   - Tác dụng kháng viêm tại chỗ nhanh chóng, có thể phối hợp cùng lúc với khí dung Adrenaline ở trẻ nôn nhiều không thể uống thuốc. Tuy nhiên chi phí đắt hơn và không vượt trội hơn Dexamethasone uống.\n3. **Prednisolone đường uống:**  \n   - Liều: $1 \\text{ mg/kg/ngày}$ uống trong $2 - 3 \\text{ ngày}$.  \n   - Kém ưu tiên hơn Dexamethasone do thời gian bán thải ngắn hơn (phải uống nhiều ngày) và vị đắng dễ làm trẻ nôn trớ.\n\n---\n\n## 7. CÁC BIỆN PHÁP CẤM HOẶC KHÔNG KHUYẾN CÁO\n\nTrong thực hành lâm sàng, việc **biết cái gì KHÔNG ĐƯỢC LÀM** quan trọng không kém gì việc biết kê đơn thuốc. Dưới đây là các can thiệp sai lầm đã bị y văn quốc tế bác bỏ:\n\n### 7.1 Xông hơi ẩm (Mist therapy): Bằng chứng Cochrane bác bỏ\n\nTrong nhiều thập kỷ, biện pháp xông hơi nước (như đưa trẻ vào phòng tắm xả nước nóng đầy hơi ẩm, hoặc dùng máy phun sương) được dân gian và cả nhân viên y tế truyền miệng rộng rãi.\n- **Bằng chứng khoa học:** Tổng quan hệ thống và phân tích gộp của Moore và Little: Humidified air inhalation for treating croup: a systematic review and meta-analysis. The croup score of children managed in an emergency setting with croup does not improve greatly with inhalation of humidified air. {claim:C-010} [DATA VERIFIED] (PMID: 17602176).\n- Đánh giá các thử nghiệm lâm sàng ngẫu nhiên có đối chứng đã kết luận rằng hít không khí ẩm không tạo ra bất kỳ sự khác biệt có ý nghĩa thống kê nào về điểm số Croup và không làm giảm tỷ lệ phải nhập viện.\n- **Nguy cơ tiềm ẩn:** Việc dùng nước nóng xông hơi tại nhà có nguy cơ rất cao gây **bỏng nhiệt da và niêm mạc đường hô hấp** của trẻ. Hơi nước lạnh từ máy phun sương bẩn có thể phát tán nấm mốc và vi khuẩn vào sâu đường thở. Do đó, các hướng dẫn quốc tế (AAP, CPS) đồng thuận **KHÔNG khuyến cáo xông hơi ẩm thường quy**.\n\n### 7.2 Kháng sinh thường quy: Không có chỉ định\n\n- Bản chất của Croup là do nhiễm virus (Á cúm, RSV, Cúm). Kháng sinh hoàn toàn không có tác dụng tiêu diệt virus, không rút ngắn thời gian bệnh và không ngăn ngừa được bội nhiễm vi khuẩn.\n- Việc kê đơn kháng sinh bừa bãi chỉ làm tăng chi phí, gây loạn khuẩn đường ruột (tiêu chảy) và làm gia tăng vi khuẩn kháng thuốc trong cộng đồng.\n- Kháng sinh CHỈ được chỉ định khi có bằng chứng rõ ràng của nhiễm khuẩn thứ phát, cụ thể là **Viêm khí quản vi khuẩn** (sốt cao nhiễm độc, mủ khí quản, không đáp ứng Adrenaline) hoặc viêm phổi bội nhiễm.\n\n### 7.3 Thuốc giảm ho, kháng Histamin & Chống chỉ định tuyệt đối thuốc an thần\n\n1. **Thuốc giảm ho (Dextromethorphan, Codein):** Phản xạ ho là cơ chế bảo vệ sống còn giúp tống xuất chất nhầy đờm dãi ra khỏi đường thở đang bị hẹp. Thuốc giảm ho ức chế trung tâm ho hành não làm ứ đọng đờm, tăng nguy cơ tắc nghẽn đường thở và gây buồn ngủ, che lấp các dấu hiệu suy hô hấp.\n2. **Thuốc kháng Histamin (Promethazine, Diphenhydramine, Chlorpheniramine):** Các thuốc này có tác dụng kháng cholinergic làm khô chất tiết niêm mạc, biến đờm nhầy thành các nút nhầy đặc quánh bít chặt vào vùng hạ thanh môn đang phù nề, làm tình trạng khó thở trầm trọng hơn.\n3. **CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI — THUỐC AN THẦN:**  \n   - Khi một đứa trẻ Croup bứt rứt, quấy khóc, giãy giụa, nhiều bác sĩ ít kinh nghiệm nghĩ rằng trẻ \"quấy quá\" nên cho một liều Seduxen (Diazepam) hoặc Chloral hydrate để trẻ \"ngủ yên\".  \n   - ⚠️ **ĐÂY LÀ HÀNH VI CỰC KỲ NGUY HIỂM!** Sự bứt rứt, lo âu của đứa trẻ chính là **tiếng chuông báo động của tình trạng thiếu oxy não cấp tính và phản xạ tăng công thở để tự cứu sống mình**.  \n   - Cho thuốc an thần sẽ dập tắt phản xạ thở bù trừ, ức chế trung tâm hô hấp và làm giãn các cơ hầu họng, khiến đường thở sụp đổ hoàn toàn dẫn đến ngừng thở tử vong ngay lập tức!\n\n---\n\n## 8. CHĂM SÓC HỖ TRỢ & NGUYÊN TẮC \"LESS IS MORE\"\n\nTại khoa Cấp cứu Nhi khoa, câu thần chú trong xử trí Croup chính là: **\"Less is More — Can thiệp càng ít thô bạo, bệnh nhi càng an toàn\"**.\n\n```text\n(1) Can thiệp thô bạo gây đau đớn (đè lưỡi, chọc ven, tách khỏi mẹ)\n       ↓\n(2) Trẻ sợ hãi hoảng loạn, khóc thét và giãy giụa\n       ↓\n(3) Tốc độ dòng khí hít vào tăng vọt, áp lực âm hút bẹp mô thanh quản\n       ↓\n(4) Đường thở hạ thanh môn tắc nghẽn hoàn toàn dẫn tới ngừng thở\n```\n\n### 8.1 Liệu pháp oxy an toàn (Blow-by oxy)\n\n- Chỉ định thở oxy khi: Trẻ có tím tái hoặc độ bão hòa oxy máu mao mạch **$SpO_2 < 92\\%$** (hoặc $< 90\\%$ theo một số hướng dẫn) khi thở khí trời.\n- **Kỹ thuật cho thở:** Tuyệt đối không cố gắng chụp chặt mặt nạ hoặc đút gọng kính mũi sâu vào mũi trẻ nếu trẻ giãy giụa từ chối. Hãy dùng kỹ thuật **\"Blow-by\"**: để đầu dây oxy hoặc mặt nạ cách mũi miệng trẻ khoảng $2 - 3 \\text{ cm}$ để dòng oxy $4 - 6 \\text{ L/phút}$ thổi nhẹ nhàng qua mũi miệng trẻ trong khi trẻ vẫn đang được mẹ ôm ấp.\n\n### 8.2 Giảm tối đa kích thích & Đặt trẻ trong lòng người chăm sóc\n\n- **Mọi thao tác khám và điều trị phải được thực hiện trên đùi người mẹ:** Cho trẻ ngồi thẳng hoặc tựa đầu vào ngực mẹ. Tư thế ngồi thẳng giúp cơ hoành di động dễ dàng hơn và làm giảm áp lực chèn ép lên vùng hạ thanh môn so với tư thế nằm ngửa.\n- **Trì hoãn các thủ thuật xâm lấn chưa cấp thiết:** Hoãn việc lấy máu xét nghiệm, hoãn chọc ven truyền dịch nếu trẻ vẫn uống được và chưa rơi vào tình trạng nguy kịch. Nếu bắt buộc phải tiêm thuốc hoặc lấy ven, phải có sự chuẩn bị chu đáo, thao tác nhanh gọn, dứt khoát và có người hỗ trợ giữ trẻ nhẹ nhàng.\n\n### 8.3 Bù dịch và dinh dưỡng an toàn\n\n- Do thở nhanh, thở mở miệng và sốt, trẻ Croup rất dễ bị mất nước qua đường hô hấp.\n- Khuyến khích mẹ cho trẻ uống từng ngụm nhỏ nước nguội, nước quả hoặc sữa mẹ chia làm nhiều lần.\n- **Cảnh báo hít sặc:** Tuyệt đối không ép trẻ ăn no hoặc uống nhiều nước một lúc khi trẻ đang thở rít và co kéo nặng (nhịp thở $> 60 \\text{ lần/phút}$), vì nguy cơ sặc dịch vào đường thở là cực kỳ cao. Chỉ truyền dịch tĩnh mạch duy trì khi trẻ nôn liên tục, có dấu hiệu mất nước hoặc suy hô hấp nặng phải nhịn ăn đường miệng.\n\n---\n\n## 9. 8 SAI LẦM LÂM SÀNG KINH ĐIỂN CẦN TRÁNH (MISCONCEPTIONS & PITFALLS)\n\nDưới đây là 8 bẫy lâm sàng thường gặp nhất mà học viên và bác sĩ thực hành cần khắc cốt ghi tâm:\n\n1. **Bẫy lâm sàng 1: Bỏ qua Dexamethasone ở Croup thể nhẹ vì nghĩ \"chưa cần thiết\".**  \n   - *Sai lầm:* Nghĩ rằng chỉ khi nào trẻ khó thở, có thở rít khi nằm yên mới cần dùng Corticoid, còn Croup nhẹ chỉ cần cho về theo dõi.  \n   - *Thực tế:* Thử nghiệm NEJM của Bjornson đã chứng minh Dexamethasone liều duy nhất cho Croup nhẹ làm giảm hơn $50\\%$ tỷ lệ nhập viện và tái khám cấp cứu, rút ngắn thời gian bệnh và tiết kiệm chi phí. Không cho Dexamethasone là tước đi cơ hội điều trị dự phòng chuyển nặng tốt nhất của trẻ.\n\n2. **Bẫy lâm sàng 2: Cho bệnh nhi xuất viện ngay sau khi khí dung Adrenaline thấy trẻ êm dịu.**  \n   - *Sai lầm:* Khí dung Adrenaline xong thấy trẻ hết thở rít, hồng hào, liền ký giấy cho trẻ về nhà sau 30 phút.  \n   - *Thực tế:* Thuốc chỉ có tác dụng co mạch tạm thời trong 90–120 phút. Khi Adrenaline hết tác dụng, hiện tượng dội ngược sẽ xuất hiện khiến đường thở tái hẹp đột ngột. Bắt buộc phải lưu giữ trẻ theo dõi tối thiểu **3 đến 4 giờ** sau liều Adrenaline cuối cùng.\n\n3. **Bẫy lâm sàng 3: Cố đè lưỡi thăm khám họng sâu ở trẻ nghi ngờ viêm nắp thanh môn cấp.**  \n   - *Sai lầm:* Thấy trẻ sốt cao thở rít, liền dùng que đè lưỡi ấn mạnh vào gốc lưỡi để \"xem họng có viêm không\".  \n   - *Thực tế:* Đè lưỡi có thể kích thích co thắt thanh môn tức thì hoặc làm sập nắp thanh môn phù nề bít kín đường thở, khiến trẻ ngưng thở tử vong ngay trên tay bác sĩ!\n\n4. **Bẫy lâm sàng 4: Trì hoãn cấp cứu để đưa trẻ đi chụp X-quang cổ tìm dấu hiệu \"Nóc nhà thờ\".**  \n   - *Sai lầm:* Muốn có bằng chứng X-quang \"chắc chắn\" trước khi ra y lệnh khí dung Adrenaline.  \n   - *Thực tế:* Croup là chẩn đoán lâm sàng. Dấu hiệu Nóc nhà thờ chỉ thấy ở khoảng 50% các trường hợp và không có độ nhạy tuyệt đối. Đưa trẻ đang khó thở đi chụp phim làm tăng nguy cơ tử vong do kích thích và trì hoãn thuốc cấp cứu.\n\n5. **Bẫy lâm sàng 5: Dùng thuốc an thần cho đứa trẻ Croup đang quấy khóc, bứt rứt.**  \n   - *Sai lầm:* Nghĩ rằng cho an thần nhẹ (như Seduxen) giúp trẻ đỡ quấy khóc, đỡ thở rít.  \n   - *Thực tế:* Bứt rứt là dấu hiệu cảnh báo thiếu oxy não! Thuốc an thần sẽ triệt tiêu phản xạ hô hấp bù trừ của trẻ, gây ngừng thở tắc nghẽn đột ngột. Chống chỉ định tuyệt đối!\n\n6. **Bẫy lâm sàng 6: Kê đơn kháng sinh thường quy và thuốc giảm ho ngoại trú.**  \n   - *Sai lầm:* Nghĩ rằng \"kê thêm kháng sinh cho chắc\" và \"cho giảm ho để trẻ đỡ đau họng đêm ngủ ngon\".  \n   - *Thực tế:* Croup là bệnh do virus; kháng sinh hoàn toàn vô dụng. Thuốc giảm ho làm ức chế phản xạ tống đờm, gây ứ đọng nút nhầy làm bít tắc thanh khí quản nặng hơn.\n\n7. **Bẫy lâm sàng 7: Kê Dexamethasone kéo dài 5–7 ngày liên tục cho Croup thông thường.**  \n   - *Sai lầm:* Nghĩ rằng kháng viêm phải uống đủ đợt như điều trị bệnh mạn tính.  \n   - *Thực tế:* Croup cấp tính chỉ cần **duy nhất 1 liều Dexamethasone** (hoặc tối đa liều thứ 2 sau 24 giờ nếu triệu chứng tái diễn). Dùng kéo dài làm tăng nguy cơ ức chế trục dưới đồi - tuyến yên - thượng thận, loét dạ dày và bội nhiễm nấm/vi khuẩn mà không mang lại thêm bất kỳ lợi ích lâm sàng nào.\n\n8. **Bẫy lâm sàng 8: Đánh giá nhầm \"trẻ đỡ khó thở\" khi tiếng thở rít đột ngột nhỏ đi ở bệnh nhi đang mệt.**  \n   - *Sai lầm:* Trẻ đang thở rít to dữ dội, sau một lúc thấy tiếng thở rít nhỏ dần, tưởng trẻ đã thuyên giảm.  \n   - *Thực tế:* Nếu tiếng thở rít nhỏ đi mà kèm theo trẻ lơ mơ, li bì, rì rào phế nang mờ nhạt (dấu hiệu \"phổi câm\"), đó là dấu hiệu của **kiệt sức cơ hô hấp**! Lưu lượng khí qua thanh quản không còn đủ mạnh để tạo ra tiếng rít. Đây là giai đoạn tiền ngưng thở tối nguy cấp!\n\n---\n\n## 10. 4 CHECKPOINT TƯ DUY ĐỘT PHÁ TẠI GIƯỜNG\n\nDưới đây là 4 tình huống tư duy giúp học viên tự kiểm tra phản xạ lâm sàng tại giường:\n\n### Checkpoint 1: Đánh giá tiếng thở rít khi nằm yên\n- **Tình huống:** Một bé trai 2 tuổi được mẹ bế vào viện lúc 1 giờ sáng vì ho ông ổng. Khi mẹ ngồi dỗ, bé nằm ngủ yên trong lòng mẹ. Bác sĩ áp ống nghe vào vùng cổ nghe thấy tiếng thở rít êm dịu ở thì hít vào, lồng ngực co kéo nhẹ bờ sườn, $SpO_2$ là $96\\%$. Phân loại mức độ nặng và thái độ xử trí ban đầu là gì?\n- **Phân tích tư duy:** Trẻ có thở rít thanh quản thì hít vào **ngay cả khi nằm yên tĩnh hoàn toàn**. Theo thang điểm Westley, tiêu chí thở rít khi nằm yên được 2 điểm, kèm co kéo nhẹ 1 điểm $\\rightarrow$ Tổng điểm Westley là 3 điểm $\\rightarrow$ **Croup thể vừa**.\n- **Xử trí đúng:** Cho uống Dexamethasone $0.15 \\text{ mg/kg}$ ngay lập tức, kết hợp khí dung L-Adrenaline 1:1000 ($0.5 \\text{ ml/kg}$, tối đa $5 \\text{ ml}$) qua mask có oxy. Lưu theo dõi tại phòng cấp cứu tối thiểu 3–4 giờ.\n\n### Checkpoint 2: Nhận diện cờ đỏ không ho và chảy dãi\n- **Tình huống:** Bé gái 4 tuổi vào cấp cứu vì thở rít và sốt cao $39.5^\\circ\\text{C}$. Mẹ bé cho biết bé khởi phát sốt từ trưa, đến tối thì khó thở tăng nhanh. Trẻ ngồi thẳng rướn cổ ra trước, miệng hé mở, nước dãi chảy ròng ròng xuống cằm, mắt mở to sợ hãi, hoàn toàn không nghe thấy tiếng ho nào. Bạn có nên dùng que đè lưỡi để khám amidan không?\n- **Phân tích tư duy:** Các dấu hiệu cảnh báo đỏ xuất hiện đầy đủ: Trẻ lớn (4 tuổi), sốt cao đột ngột, thở rít, **HOÀN TOÀN KHÔNG HO**, chảy nhiều nước dãi (nuốt đau), tư thế ngửi hoa. Đây là bệnh cảnh kinh điển của **Viêm nắp thanh môn cấp (Epiglottitis)**!\n- **Hành động sống còn:** **TUYỆT ĐỐI KHÔNG DÙNG QUE ĐÈ LƯỠI KHÁM HỌNG!** Không ép trẻ nằm xuống. Giữ trẻ ngồi yên trong lòng mẹ, cho thở oxy blow-by, kích hoạt ngay kíp Đặt nội khí quản cấp cứu (Hồi sức + Tai Mũi Họng) và chuẩn bị chuyển thẳng vào phòng mổ.\n\n### Checkpoint 3: Xử trí trẻ nôn trớ sau khi uống Dexamethasone\n- **Tình huống:** Trẻ Croup thể nhẹ được cho uống Dexamethasone $0.15 \\text{ mg/kg}$. Tuy nhiên, sau khi uống được 10 phút, trẻ quấy khóc và nôn trớ ra toàn bộ dịch thuốc kèm sữa. Bác sĩ nên xử trí bước tiếp theo như thế nào?\n- **Phân tích tư duy:** Nếu trẻ nôn trong vòng **15 đến 30 phút** sau khi uống, lượng thuốc hấp thu vào máu chưa đáng kể.\n- **Hướng xử trí:** Để trẻ bình tâm lại trong 10–15 phút. Nếu cơ sở có Dexamethasone siro ngọt dễ uống hơn, có thể cho uống lại liều tương đương. Nếu trẻ tiếp tục nôn hoặc từ chối uống, chuyển sang tiêm bắp Dexamethasone với liều $0.15 \\text{ mg/kg}$ (hoặc khí dung Budesonide $2 \\text{ mg}$) để đảm bảo hiệu quả điều trị.\n\n### Checkpoint 4: Trẻ không đáp ứng với Adrenaline khí dung\n- **Tình huống:** Bé trai 3 tuổi chẩn đoán Croup nặng, đã được tiêm Dexamethasone và khí dung Adrenaline liều 1. Sau 30 phút, trẻ vẫn thở rít dữ dội, sốt cao vọt lên $40^\\circ\\text{C}$, đờm dãi đặc mủ và vẻ mặt lờ đờ nhiễm độc. Bác sĩ cho tiếp liều Adrenaline thứ 2 nhưng sau 20 phút trẻ hoàn toàn không có dấu hiệu thuyên giảm. Bệnh lý gì cần phải nghĩ đến ngay?\n- **Phân tích tư duy:** Croup virus thông thường đáp ứng cực kỳ nhạy với Adrenaline khí dung (giảm phù nề sau 10–30 phút). Nếu trẻ **sốt cao nhiễm độc, đờm mủ và hoàn toàn không đáp ứng với 2 liều Adrenaline liên tiếp**, thủ phạm hàng đầu là **Viêm khí quản do vi khuẩn (Bacterial Tracheitis)**!\n- **Hành động sống còn:** Chuyển ngay đến phòng PICU, chuẩn bị kíp đặt nội khí quản hút sạch mủ hoại tử làm thông thoáng đường thở, cấy mủ khí quản và khởi động ngay kháng sinh tĩnh mạch phổ rộng (Vancomycin phối hợp Cefotaxime).\n\n---\n\n## 11. 2 CA LÂM SÀNG THỰC CHIẾN CÓ LỜI GIẢI CHI TIẾT\n\n### 11.1 Case 1: Trẻ 18 tháng Croup thể vừa lúc nửa đêm tại phòng cấp cứu\n\n**Bệnh sử:** Bé trai Nguyễn Hoàng M., 18 tháng tuổi, nặng $11 \\text{ kg}$, được bố mẹ đưa vào viện cấp cứu lúc 2 giờ sáng. Bố mẹ kể: Cách đây 2 ngày bé có sốt nhẹ $38^\\circ\\text{C}$, chảy nước mũi trong và ho húng hắng, vẫn ăn chơi ngoan. Tối nay bé đi ngủ bình thường, nhưng đến 1 giờ sáng bé đột ngột thức giấc, ho dữ dội từng cơn với tiếng ho vang đanh như tiếng chó sủa, tiếng thở khò khè rít rầm rĩ và thở co kéo lồng ngực. Bố mẹ quá hoảng loạn bế thẳng vào viện.\n\n**Khám thực thể tại phòng cấp cứu:**\n- Trẻ tỉnh, quấy khóc bứt rứt khi thấy nhân viên y tế, nhưng khi được mẹ ôm vào lòng thì nằm yên dỗ nín được.\n- Sinh hiệu: Mạch $135 \\text{ lần/phút}$, Huyết áp $95/60 \\text{ mmHg}$, Nhịp thở $44 \\text{ lần/phút}$, Nhiệt độ $38.2^\\circ\\text{C}$, $SpO_2 = 95\\%$ (khí trời).\n- Khám hô hấp: Khi bé nằm yên trên ngực mẹ, nghe rõ tiếng thở rít thanh quản thì hít vào bằng tai trần. Lồng ngực co kéo kẽ sườn và rút lõm bờ sườn mức độ vừa. Không có rút lõm hõm ức nặng. Rì rào phế nang êm dịu hai bên phế trường, không nghe ran ẩm hay ran rít phế quản.\n- Họng: Niêm mạc họng đỏ nhẹ, không có giả mạc, không sưng phồng thành sau họng, không chảy nước dãi, nuốt bình thường.\n\n**Đánh giá thang điểm Westley tại giường:**\n- Thở rít: Nghe rõ khi nằm yên $\\rightarrow$ 2 điểm.\n- Co kéo cơ hô hấp: Rút lõm mức độ vừa $\\rightarrow$ 2 điểm.\n- Thông khí phổi: Bình thường $\\rightarrow$ 0 điểm.\n- Tím tái: Hồng hào trong khí trời $\\rightarrow$ 0 điểm.\n- Tri giác: Tỉnh táo, dỗ nín được $\\rightarrow$ 0 điểm.\n- **Tổng điểm Westley:** **4 điểm $\\rightarrow$ Croup thể Vừa (Moderate Croup)**.\n\n**Kế hoạch xử trí tức thì:**\n1. **Dexamethasone đường uống:**  \n   - Liều $0.15 \\text{ mg/kg} \\times 11 \\text{ kg} = 1.65 \\text{ mg}$ (có thể dùng $2 \\text{ mg}$ liều duy nhất dạng siro hoặc dùng nửa ống tiêm Dexamethasone $4 \\text{ mg/ml}$ pha chút nước đường cho uống).\n2. **Khí dung L-Adrenaline 1:1000 qua oxy:**  \n   - Liều: $0.5 \\text{ ml/kg} \\times 11 \\text{ kg} = 5.5 \\text{ ml} \\rightarrow$ Lấy liều tối đa là **$5 \\text{ ml}$ dung dịch Adrenaline 1:1000 nguyên chất**.  \n   - Đặt vào bầu khí dung, gắn mask khí dung có oxy hỗ trợ $5 \\text{ L/phút}$. Mẹ cầm mask đặt nhẹ trước mũi miệng bé trong 15 phút.\n3. **Chăm sóc hỗ trợ:** Giữ bé nằm yên trong lòng mẹ, không lấy máu xét nghiệm, không chụp X-quang.\n\n**Diễn tiến sau điều trị:**\n- Sau khí dung Adrenaline 20 phút: Bé thở êm hơn rõ rệt, tiếng thở rít biến mất khi nằm yên, co kéo lồng ngực giảm hẳn, nhịp thở giảm còn $34 \\text{ lần/phút}$, $SpO_2 = 98\\%$. Bé ngủ ngoan trên tay mẹ. Điểm Westley giảm xuống còn 1 điểm.\n- **Quyết định theo dõi an toàn:** Bác sĩ giải thích cho bố mẹ hiểu về \"hiện tượng dội ngược\" và yêu cầu lưu lại phòng cấp cứu để theo dõi đủ **4 giờ**.\n- Sau 4 giờ theo dõi (lúc 6 giờ sáng): Bé thức dậy đòi bú, chơi ngoan, không còn thở rít khi nằm yên, chỉ ho húng hắng vài tiếng ông ổng nhẹ, không co kéo cơ hô hấp, $SpO_2 = 98\\%$.\n- **Xử trí kết thúc:** Bác sĩ cho bé xuất viện về nhà, không kê thêm kháng sinh hay thuốc giảm ho, hướng dẫn bố mẹ hạ sốt bằng Paracetamol ($10 - 15 \\text{ mg/kg}$ khi sốt $\\ge 38.5^\\circ\\text{C}$), cho uống nhiều nước và dặn dò các dấu hiệu cần tái khám cấp cứu ngay.\n\n---\n\n### 11.2 Case 2: Trẻ 3 tuổi nghi Croup không đáp ứng Adrenaline khí dung — Diễn tiến Viêm khí quản do vi khuẩn\n\n**Bệnh sử:** Bé gái Trần Bảo N., 3 tuổi, nặng $14 \\text{ kg}$. Tiền sử 3 ngày trước bé ho, chảy mũi, được phòng khám tư chẩn đoán viêm đường hô hấp trên và cho uống siro ho. Chiều nay bé bắt đầu ho ông ổng và thở rít, gia đình đưa vào bệnh viện huyện được chẩn đoán Croup và tiêm 1 mũi Dexamethasone $2 \\text{ mg}$. Tuy nhiên đến tối bé sốt cao liên tục $39.8^\\circ\\text{C}$, khó thở tăng vọt, tím môi nên được chuyển cấp cứu tuyến tỉnh lúc 23 giờ.\n\n**Khám thực thể tại khoa Cấp cứu:**\n- Trẻ mệt lả, vẻ mặt nhiễm độc lờ đờ, thở gắng sức dữ dội.\n- Sinh hiệu: Mạch $165 \\text{ lần/phút}$, Nhịp thở $58 \\text{ lần/phút}$, Nhiệt độ $40^\\circ\\text{C}$, Huyết áp $85/50 \\text{ mmHg}$, $SpO_2 = 88\\%$ (thở khí trời).\n- Khám hô hấp: Thở rít to cả hai thì (hít vào và thở ra) nghe rõ khắp phòng bệnh. Rút lõm lồng ngực và hõm ức rất sâu, cánh mũi phập phồng, đầu gật gù theo nhịp thở. Nghe phổi: Thông khí phổi giảm nặng hai bên, nghe thấy tiếng lọc sọc đờm đặc ở đường thở lớn.\n- Khám hầu họng nhanh: Họng đỏ rực, có nhiều đờm mủ vàng đục trào lên từ thanh quản, không có giả mạc hầu họng, không phồng thành sau họng.\n\n**Đánh giá ban đầu & Can thiệp cấp cứu:**\n- Điểm Westley sơ bộ: Thở rít (2) + Co kéo nặng (3) + Giảm thông khí (2) + Tím tái (5) + Tri giác lờ đờ (5) = **17 điểm $\\rightarrow$ Croup dọa suy hô hấp tối nguy cấp**.\n- Bác sĩ ra y lệnh cấp cứu ngay:\n  1. Cho thở oxy qua mask $100\\%$.\n  2. Khí dung ngay L-Adrenaline 1:1000 ($5 \\text{ ml}$ nguyên chất qua oxy).\n  3. Tiêm tĩnh mạch Dexamethasone $0.6 \\text{ mg/kg} \\times 14 \\text{ kg} \\approx 8 \\text{ mg}$.\n  4. Báo động đỏ kíp Đặt nội khí quản Hồi sức Nhi và kíp Soi Tai Mũi Họng.\n\n**Đáp ứng điều trị bất thường:**\n- Sau 20 phút khí dung Adrenaline: Triệu chứng thở rít và co kéo lồng ngực **HOÀN TOÀN KHÔNG CẢI THIỆN**, $SpO_2$ chỉ nhích lên $90\\%$ với oxy mask. Đờm mủ tiếp tục trào lên miệng hầu. Trẻ bắt đầu có cơn ngừng thở ngắn $10 \\text{ giây}$.\n\n**Phân tích tư duy chẩn đoán:**\n- Một đứa trẻ có bệnh cảnh ban đầu giống Croup nhưng sau 3 ngày chuyển biến sốt cao đùng đùng, nhiễm độc toàn thân nặng, đờm mủ đặc quánh và **hoàn toàn trơ với khí dung Adrenaline** $\\rightarrow$ Đây chắc chắn không phải Croup virus đơn thuần mà là **Viêm khí quản do vi khuẩn (Bacterial Tracheitis)**, biến chứng bít tắc màng giả mủ!\n\n**Lời giải & Xử trí chuyên sâu:**\n1. **Kiểm soát đường thở ngay tại chỗ:**  \n   - Tiến hành đặt ống nội khí quản cấp cứu. Do hạ thanh môn phù nề và lòng khí quản đầy mủ đặc, bác sĩ chọn ống nội khí quản cỡ nhỏ hơn dự kiến (số 4.0 có bóng chèn thay vì số 4.5).  \n   - Soi thanh quản trực tiếp thấy: Nắp thanh môn bình thường, hạ thanh môn phù nề nặng và lòng khí quản phía dưới dây thanh chứa đầy các mảng giả mạc mủ hoại tử màu vàng xám bít tắc gần hoàn toàn lòng ống.  \n   - Bác sĩ tiến hành hút sạch mủ đặc qua ống nội khí quản, bơm rửa nhẹ nhàng bằng nước muối sinh lý, lấy dịch mủ gửi nhuộm Gram và cấy vi sinh.\n2. **Hồi sức và Kháng sinh tĩnh mạch trúng đích:**  \n   - Chuyển bệnh nhi vào khoa Hồi sức Tích cực (PICU), thở máy hỗ trợ.  \n   - Bắt đầu ngay kháng sinh tĩnh mạch phổ rộng bao phủ tụ cầu vàng kháng Methicillin (MRSA) và vi khuẩn gram âm: **Vancomycin ($60 \\text{ mg/kg/ngày}$ chia 4 lần) phối hợp Ceftriaxone ($100 \\text{ mg/kg/ngày}$ tiêm TM)**.  \n   - Bù dịch tĩnh mạch chống sốc và hạ sốt tích cực.\n3. **Kết quả:** Sau 48 giờ thở máy và điều trị kháng sinh, cấy mủ khí quản mọc *Staphylococcus aureus*. Bệnh nhi được cai máy thở, rút ống nội khí quản an toàn sau 5 ngày và hồi phục hoàn toàn không để lại di chứng hẹp hạ thanh môn.\n\n---\n\n## 12. TIPS LÂM SÀNG THỰC CHIẾN DÀNH CHO BÁC SĨ TRỰC\n\nDưới đây là 10 kinh nghiệm xương máu giúp bác sĩ trực cấp cứu tự tin xử trí Croup chính xác và an toàn:\n\n1. **Tip 1 — Croup là chẩn đoán lâm sàng, đừng biến X-quang thành cái bẫy chết người:** Nếu trẻ đang thở rít khi nằm yên, hãy cho khí dung Adrenaline và uống Dexamethasone ngay tại giường. Đừng bao giờ chuyển trẻ đi chụp phim khi đường thở chưa ổn định.\n2. **Tip 2 — Tận dụng ống tiêm Dexamethasone để uống:** Nếu bệnh viện không có siro Dexamethasone, hãy bẻ ống tiêm Dexamethasone $4 \\text{ mg/ml}$, dùng bơm tiêm rút đúng liều ($0.15 \\text{ mg/kg}$), pha vào một thìa nhỏ sữa mẹ hoặc nước đường rồi cho trẻ uống. Thuốc hấp thu cực tốt và tác dụng tương đương tiêm.\n3. **Tip 3 — Nguyên tắc \"1 liều duy nhất\":** Đừng lạm dụng kê đơn Dexamethasone uống 3–5 ngày cho Croup thông thường. Một liều duy nhất $0.15 \\text{ mg/kg}$ là đủ để bao phủ toàn bộ giai đoạn đỉnh điểm nguy hiểm của bệnh.\n4. **Tip 4 — Luôn nhớ con số 4 giờ sau Adrenaline:** Sau khi khí dung Adrenaline, dù trẻ có vẻ hoàn toàn bình thường, bắt buộc phải dặn điều dưỡng ghi bảng theo dõi và giữ trẻ lại phòng cấp cứu đủ 4 giờ để canh chừng hiện tượng dội ngược.\n5. **Tip 5 — Đừng bao giờ dùng Adrenaline đơn độc mà không kèm Dexamethasone:** Adrenaline chỉ là giải pháp \"mua thời gian\" (cứu nguy trong 2 giờ). Dexamethasone mới là thuốc điều trị gốc rễ dập tắt phản xạ viêm. Luôn cho Dexamethasone cùng lúc hoặc ngay sau Adrenaline.\n6. **Tip 6 — Chọn cỡ ống nội khí quản nhỏ hơn 0.5 – 1 cỡ khi phải đặt ống:** Khi Croup nặng bắt buộc phải đặt nội khí quản, đường thở hạ thanh môn đang bị hẹp đáng kể. Luôn chuẩn bị sẵn ống nội khí quản nhỏ hơn cỡ tính theo tuổi từ 0.5 đến 1 số (ví dụ trẻ 2 tuổi bình thường dùng ống 4.5 thì phải chuẩn bị sẵn ống 4.0 và 3.5).\n7. **Tip 7 — Giữ trẻ trong vòng tay mẹ là liều thuốc an thần tốt nhất:** Đừng giằng trẻ ra khỏi mẹ để khám. Tiếng khóc thét của trẻ làm áp lực đường thở tăng vọt và có thể biến một ca Croup vừa thành Croup tắc nghẽn suy hô hấp chỉ trong vài giây.\n8. **Tip 8 — Cảnh giác với dấu hiệu \"yên lặng chết chóc\":** Nếu một đứa trẻ Croup đang thở rít ầm ĩ đột nhiên thở êm ắng nhưng lờ đờ, mắt đờ đẫn, đừng vội mừng! Hãy áp ống nghe kiểm tra thông khí phổi ngay; nếu rì rào phế nang mất hút, đó là kiệt sức cơ hô hấp và dọa ngừng thở!\n9. **Tip 9 — Nhận diện viêm nắp thanh môn bằng câu thần chú \"4 Không\":** Không ho, Không nằm ngửa được, Không nuốt được (chảy dãi), Không được dùng que đè lưỡi!\n10. **Tip 10 — Hướng dẫn gia đình kỹ lưỡng trước khi cho về:** Dặn dò cha mẹ luôn bế dựng trẻ, tiếp tục cho bú/uống nhiều nước, và quay lại viện ngay nếu thấy trẻ có thở rít khi đang ngủ yên, thở rút lõm ngực hoặc khó thở tăng dần.\n\n---\n\n## 13. TIÊU CHUẨN XUẤT VIỆN, THEO DÕI VÀ TÓM TẮT THỰC HÀNH\n\n### 13.1 Tiêu chuẩn nhập viện\n\nCần chỉ định cho bệnh nhi nhập viện điều trị nội trú khi có **bất kỳ một** trong các tiêu chuẩn sau:\n1. Trẻ có Croup thể nặng hoặc dọa suy hô hấp (Westley $\\ge 6$) tại bất kỳ thời điểm nào.\n2. Trẻ Croup thể vừa không đáp ứng hoặc triệu chứng thở rít khi nằm yên vẫn còn sau 4 giờ theo dõi kể từ liều Adrenaline và Dexamethasone đầu tiên.\n3. Trẻ cần từ **2 liều Adrenaline khí dung trở lên** trong đợt cấp cứu.\n4. Trẻ có dấu hiệu mất nước, nôn trớ liên tục không thể uống thuốc hay bù dịch tại nhà.\n5. Trẻ thuộc nhóm nguy cơ cao: Tuổi quá nhỏ ($< 6 \\text{ tháng}$), tiền sử sinh non, có bệnh lý hẹp thanh quản bẩm sinh hoặc bệnh tim bẩm sinh kèm theo.\n6. Yếu tố gia đình - xã hội: Nhà ở quá xa cơ sở y tế, phương tiện đi lại khó khăn vào ban đêm, hoặc cha mẹ quá lo lắng, không có khả năng theo dõi và chăm sóc trẻ an toàn.\n\n### 13.2 Tiêu chuẩn xuất viện an toàn & Hướng dẫn gia đình theo dõi tại nhà\n\nTrẻ có thể xuất viện an toàn từ phòng khám hoặc phòng cấp cứu khi đáp ứng **toàn bộ** các điều kiện sau:\n- Đã được dùng Dexamethasone đầy đủ.\n- Hoàn toàn **không có thở rít thanh quản khi nằm yên tĩnh**.\n- Không có rút lõm lồng ngực (hoặc chỉ co kéo nhẹ kẽ sườn).\n- Rì rào phế nang thông khí tốt hai bên phổi.\n- Da niêm hồng hào, $SpO_2 \\ge 95\\%$ trong khí trời.\n- Đã qua thời gian theo dõi an toàn tối thiểu **3 đến 4 giờ** sau liều Adrenaline cuối cùng.\n- Trẻ tỉnh táo, tươi tỉnh, ăn uống hoặc bú được tốt.\n- Bố mẹ hiểu rõ và nắm vững các dấu hiệu cảnh báo cần đưa trẻ quay lại viện ngay.\n\n**Hướng dẫn gia đình chăm sóc tại nhà:**\n- **Tư thế:** Bế trẻ ở tư thế ngồi thẳng hoặc kê cao đầu giường khi ngủ giúp trẻ thở dễ dàng hơn.\n- **Dinh dưỡng & Bù nước:** Cho trẻ uống nhiều nước ấm, nước hoa quả hoặc bú mẹ nhiều lần trong ngày.\n- **Hạ sốt:** Dùng Paracetamol liều $10 - 15 \\text{ mg/kg/lần}$ mỗi 4–6 giờ khi sốt $\\ge 38.5^\\circ\\text{C}$ gây khó chịu cho trẻ.\n- 🚨 **Đưa trẻ đi tái khám cấp cứu ngay lập tức nếu xuất hiện bất kỳ dấu hiệu nào sau đây:**\n  1. Trẻ thở rít khò khè to ngay cả khi đang ngủ hoặc nằm yên.\n  2. Thấy ngực hoặc hõm cổ của trẻ bị rút lõm sâu mỗi khi hít vào.\n  3. Trẻ thở nhanh gấp gáp, cánh mũi phập phồng hoặc đầu gật gù theo nhịp thở.\n  4. Trẻ nuốt khó, chảy nhiều nước dãi, không thể bú hoặc uống nước được.\n  5. Môi hoặc đầu ngón tay ngón chân của trẻ có màu tím tái hoặc nhợt nhạt.\n  6. Trẻ bứt rứt, kích thích khó dỗ hoặc ngược lại li bì, mệt lả, ngủ gọi khó dậy.\n\n### 13.3 Tóm tắt thực hành lâm sàng cốt lõi\n\n```text\nBệnh nhi nghi ngờ Croup (Ho ông ổng + Khàn tiếng + Thở rít hít vào)\n  ├── Đánh giá phân loại theo thang điểm Westley lâm sàng:\n  │     ├── [Croup Nhẹ: điểm ≤ 2]: Dexamethasone 0.15 mg/kg PO liều duy nhất → Về nhà an toàn\n  │     ├── [Croup Vừa: điểm 3-5]: Dexamethasone + L-Adrenaline khí dung qua oxy → Theo dõi 4 giờ\n  │     │     ├── Sau 4 giờ hết thở rít khi nằm yên → Cho xuất viện theo dõi tại nhà\n  │     │     └── Sau 4 giờ còn thở rít hoặc co kéo → Nhập viện khoa Nhi điều trị nội trú\n  │     └── [Croup Nặng: điểm 6-11 hoặc Dọa ngưng thở]:\n  │           ├── Thở oxy blow-by + Khí dung ngay L-Adrenaline 5 ml nguyên chất\n  │           ├── Dexamethasone 0.6 mg/kg tiêm TM/tiêm bắp\n  │           └── Kích hoạt kíp PICU chuẩn bị đặt ống nội khí quản số nhỏ\n```\n\n---\n\n## 14. TÀI LIỆU THAM KHẢO & BẰNG CHỨNG Y HỌC\n\n1. Bjornson CL, Klassen TP, Williamson J, Brant R, Mitton C, Plint A, Bulloch B, Evered L, Johnson DW. A randomized trial of a single dose of oral dexamethasone for mild croup. The New England Journal of Medicine. 2004. PMID: 15385657.\n2. Gates A, Gates M, Vandermeer B, Johnson C, Hartling L, Johnson DW, Klassen TP. Glucocorticoids for croup in children. Cochrane Database of Systematic Reviews. 2018. PMID: 30133690.\n3. Bjornson C, Russell K, Vandermeer B, Klassen TP, Johnson DW. Nebulized epinephrine for croup in children. Cochrane Database of Systematic Reviews. 2013. PMID: 24114291.\n4. Ortiz-Alvarez O. Acute management of croup in the emergency department. Paediatrics & Child Health. 2017. PMID: 29532807.\n5. Bjornson CL, Johnson DW. Croup. The Lancet. 2008. PMID: 18295000.\n6. Moore M, Little P. Humidified air inhalation for treating croup: a systematic review and meta-analysis. Family Practice. 2007. PMID: 17602176.\n7. Westley CR, Cotton EK, Brooks JG. Nebulized racemic epinephrine by IPPB for the treatment of croup: a double-blind study. American Journal of Diseases of Children. 1978. PMID: 347921.\n8. **Kliegman RM, St. Geme JW, Blum NJ, et al. (2020)**: *Nelson Textbook of Pediatrics, 21st Edition.* Philadelphia: Elsevier. Chapter 412: Croup (Laryngotracheobronchitis). [GUIDELINE VERIFIED]\n9. **Bộ Y tế Việt Nam (2015/2020)**: *Hướng dẫn chẩn đoán và điều trị bệnh Croup (Viêm thanh khí phế quản cấp) ở trẻ em.* Quyết định số 3312/QĐ-BYT. Hà Nội: Nhà xuất bản Y học. [GUIDELINE VERIFIED]\n10. **Bệnh viện Nhi Đồng 1 (2020)**: *Phác đồ điều trị Nhi khoa — Viêm thanh khí phế quản cấp (Croup).* TP. Hồ Chí Minh: Nhà xuất bản Y học. [GUIDELINE VERIFIED]\n11. **Bệnh viện Nhi Đồng 2 (2021)**: *Phác đồ điều trị Nhi khoa.* TP. Hồ Chí Minh: Nhà xuất bản Y học. [GUIDELINE VERIFIED]\n",
       "pedytb_file": null,
       "pedytb_content": "",
       "cards_count": 100,
@@ -19714,7 +19714,7 @@ window.PED_LIBRARY_DATA = {
       "block": "Block 4 — Tiêu hóa & Dinh dưỡng Nhi khoa",
       "scope": "Đọc biểu đồ tăng trưởng và Z-score (Weight-for-Age, Height-for-Age, Weight-for-Height, BMI-for-Age); phân loại thể nhẹ cân, thấp còi, gầy còm; sàng lọc béo phì.",
       "dependency": "PED-01",
-      "curriculum_status": "✅ GATES ĐẠT (MD + PEDYTB + APKG 106 thẻ Master)",
+      "curriculum_status": "✅ GATES ĐẠT (MD + PEDYTB + APKG 110 thẻ Basic)",
       "has_ped": true,
       "has_pedytb": true,
       "has_cards": true,
@@ -19722,276 +19722,257 @@ window.PED_LIBRARY_DATA = {
       "ped_content": "# BÀI HỌC Y KHOA: TIẾP CẬN KHÁM DINH DƯỠNG VÀ ĐÁNH GIÁ TĂNG TRƯỞNG NHI KHOA HIỆN ĐẠI (PED-30)\n**Ngày:** 2026-10-11 | **Chuyên khoa:** Nhi khoa — Tiêu hóa & Dinh dưỡng | **Đối tượng:** Bác sĩ, học viên sau đại học và người học mất gốc cần học từ nền tảng\n\n---\n\n## 0. TỔNG QUAN — VÌ SAO BÀI NÀY QUAN TRỌNG?\n\nTrong thực hành lâm sàng Nhi khoa hàng ngày, **Đánh giá tình trạng dinh dưỡng và tăng trưởng** là kỹ năng nền tảng của mọi bác sĩ khám chữa bệnh cho trẻ em. Dinh dưỡng không đơn thuần là câu hỏi \"cháu nặng bao nhiêu cân\" hay nhìn xem em bé \"béo hay gầy\", mà là một quy trình chẩn đoán y khoa logic nhằm trả lời 4 câu hỏi sống còn:\n1. Trẻ có đang bị suy dinh dưỡng không, thể bệnh là gì (nhẹ cân, thấp còi hay gầy còm cấp tính)?\n2. Quá trình thiếu hụt xảy ra gần đây (cấp tính) hay đã tích lũy âm thầm từ lâu trong quá khứ (mạn tính)?\n3. Trẻ có các dấu hiệu thiếu hụt vi chất tiềm ẩn hay tổn thương cơ quan đe dọa tính mạng không?\n4. Đâu là các bẫy lâm sàng nguy hiểm có thể gây tử vong (như bẫy phù che giấu cân nặng giả tạo ở thể Kwashiorkor, hoặc hiểm họa Hội chứng Nuôi ăn lại khi bù năng lượng sai lầm)?\n\nĐo sai $1 - 2\\text{ cm}$ chiều cao hoặc không tháo chiếc bỉm ướt nặng $300 - 500\\text{ g}$ có thể làm lệch phân loại Z-score của trẻ từ bình thường sang suy dinh dưỡng hoặc ngược lại, dẫn đến chỉ định can thiệp sai lệch.\n\n**Mục tiêu của bài:**\n- Làm chủ quy trình tiếp cận thăm khám dinh dưỡng nhi khoa toàn diện theo **Mô hình 4 trục ABCD kinh điển** (Anthropometry - Cận lâm sàng Biochemical - Lâm sàng Clinical - Khẩu phần Dietary).\n- Thực hành chuẩn xác kỹ thuật cân, đo chiều dài nằm, đo chiều cao đứng, áp dụng quy tắc chuyển đổi bù trừ $\\pm 0.7\\text{ cm}$, và đo vòng cánh tay (MUAC) bằng thước dây Shakir 3 vùng màu.\n- Đọc, vẽ và diễn giải chuẩn xác 4 chỉ số Z-score tăng trưởng theo chuẩn WHO: WAZ, HAZ, WHZ, BAZ và nhận diện các cờ đỏ động học tăng trưởng sớm.\n- Khám phát hiện phù dinh dưỡng, teo khối cơ, mất mỡ dưới da, phân biệt rạch ròi Marasmus vs Kwashiorkor và checklist thiếu vi chất từ đầu đến chân.\n- Nhận diện và xử trí an toàn 2 bẫy lâm sàng tử vong: Bẫy phù giữ nước và Hiểm họa Hội chứng Nuôi ăn lại (Refeeding Syndrome).\n\n> **TIÊU CHUẨN BẮT BUỘC — DẠY TỪ GỐC, KHÔNG GIỚI HẠN ĐỘ DÀI:** Viết để một người học mất gốc vẫn theo được. Trước khi dùng một thuật ngữ, chữ viết tắt, chỉ số, cơ quan, cơ chế, thủ thuật hoặc quyết định điều trị lần đầu, phải giải thích bằng tiếng Việt đơn giản: **nó là gì → bình thường hoạt động ra sao → vì sao bất thường này quan trọng → nhận ra bằng cách nào → làm gì tiếp theo**. Sau lần giải thích đầu tiên, mới dùng viết tắt/thuật ngữ ngắn.\n\n### 📋 TRƯỚC KHI ĐỌC — NỀN TẢNG CẦN DÙNG\n\n### 0.1 Nền tảng tối thiểu cần dùng ngay\n\nĐể người học chưa từng tiếp xúc với dinh dưỡng nhi khoa có thể nắm bắt mạch bài học ngay từ trang đầu tiên, dưới đây là các khái niệm gốc rễ:\n\n1. **Khái niệm Suy dinh dưỡng (Malnutrition):** Là tình trạng mất cân bằng giữa lượng chất dinh dưỡng nạp vào cơ thể và nhu cầu cơ thể cần để duy trì sự sống, tăng trưởng và các chức năng đặc hiệu. Ở trẻ em, suy dinh dưỡng có 3 thể chính:\n   - *Nhẹ cân (Underweight):* Cân nặng thấp so với tuổi.\n   - *Thấp còi (Stunting):* Chiều cao thấp so với tuổi, phản ánh thiếu dinh dưỡng trường diễn kéo dài.\n   - *Gầy còm (Wasting):* Cân nặng thấp so với chiều cao, phản ánh tình trạng sụt cân cấp tính gần đây.\n2. **Khái niệm Độ lệch chuẩn (Z-score):** Chiều cao và cân nặng của một quần thể trẻ em khỏe mạnh phân bố theo hình chuông (phân phối Gauss). Z-score là khoảng cách giữa chỉ số đo được của một đứa trẻ so với giá trị trung vị (Median) của quần thể tham chiếu chuẩn WHO, tính bằng số lần độ lệch chuẩn (Standard Deviation - SD).\n   - $Z = 0$: Trẻ có chỉ số đúng bằng trung vị của trẻ khỏe mạnh cùng lứa tuổi và giới tính.\n   - $Z < -2\\text{ SD}$: Ngưỡng chẩn đoán suy dinh dưỡng mức độ vừa.\n   - $Z < -3\\text{ SD}$: Ngưỡng chẩn đoán suy dinh dưỡng mức độ nặng.\n   - $Z > +2\\text{ SD}$: Ngưỡng xem xét thừa cân hoặc béo phì.\n3. **Mô hình 4 trục ABCD:**\n   - **A (Anthropometry - Nhân trắc học):** Cân nặng, chiều cao, chu vi vòng đầu, vòng cánh tay MUAC.\n   - **B (Biochemical - Cận lâm sàng):** Albumin, Prealbumin, bilan sắt, vitamin D, kẽm, điện giải đồ.\n   - **C (Clinical - Khám lâm sàng):** Tìm phù, teo cơ, mất mỡ, tổn thương da, niêm mạc, lông tóc móng.\n   - **D (Dietary - Khẩu phần ăn):** Hỏi chế độ ăn 24 giờ, cách bú mẹ, cách pha sữa, thói quen ăn dặm.\n\n```text\n                  BẢN ĐỒ TIẾP CẬN THĂM KHÁM DINH DƯỠNG NHI KHOA\n  ┌──────────────────┬──────────────────┬──────────────────┬──────────────────┐\n  │ A (Nhân trắc)    │ B (Cận lâm sàng) │ C (Lâm sàng)     │ D (Khẩu phần)    │\n  │ W, H, HC, MUAC,  │ Albumin, Pre-alb,│ Khám từ đầu-chân,│ 24h Recall,      │\n  │ Z-Score chuẩn WHO│ Bilan máu, Sắt, D│ Phù, Mỡ, Teo cơ  │ 4 nhóm thực phẩm │\n  └──────────────────┴──────────────────┴──────────────────┴──────────────────┘\n```\n\n---\n\n## 1. ĐỊNH NGHĨA & KỸ THUẬT NHÂN TRẮC HỌC CHUẨN XÁC (ANTHROPOMETRY) [CỐT LÕI]\n\n### 1.0 Nền tảng: Sinh lý nhân trắc học — Tại sao kỹ thuật đo quyết định tất cả? [CỐT LÕI]\n\nNhân trắc học dinh dưỡng là phương pháp đo đạc các kích thước hình thái bên ngoài của cơ thể sống. Không giống như người lớn có kích thước khung xương đã cố định, cơ thể trẻ em là một đối tượng liên tục biến đổi và chịu ảnh hưởng trực tiếp của trọng lực, độ giãn của khớp sụn và trương lực cơ.\n\n- **Sinh lý cột sống và tư thế:** Chiều dài đo ở tư thế nằm (Recumbent length) luôn dài hơn chiều cao đo ở tư thế đứng (Standing height) trung bình khoảng $0.7\\text{ cm}$. Lý do là khi nằm ngửa, các đĩa đệm gian đốt sống được giải phóng khỏi áp lực tải trọng của trọng lực cơ thể, đồng thời độ cong sinh lý của cột sống được kéo thẳng ra áp sát mặt giường phẳng. Khi trẻ đứng lên, trọng lực cơ thể nén các đĩa đệm xẹp xuống nhẹ và làm tăng các đường cong ưỡn thắt lưng và gù ngực.\n- **Tác động của quần áo và tã bỉm:** Một đứa trẻ 12 tháng tuổi trung bình nặng khoảng $9 - 10\\text{ kg}$. Một chiếc tã bỉm thấm đầy nước tiểu có thể nặng từ $300 - 500\\text{ g}$. Nếu không tháo bỉm trước khi cân, lượng nước tiểu này chiếm tới $3 - 5\\%$ tổng trọng lượng cơ thể đứa trẻ, đủ để đẩy một em bé đang nằm ở ranh giới suy dinh dưỡng cấp nặng ($Z = -3.1\\text{ SD}$) lên mức vừa ($Z = -2.7\\text{ SD}$), làm bỏ sót cơ hội can thiệp cấp cứu!\n\n---\n\n### 1.1 Kỹ thuật cân trọng lượng cơ thể (Weight)\n\n**Mục tiêu:** Xác định khối lượng toàn bộ cơ thể trẻ một cách chuẩn xác, loại trừ mọi yếu tố ngoại lai.\n\n**Chuẩn bị dụng cụ và bệnh nhi:**\n- *Trẻ dưới 2 tuổi (hoặc trẻ chưa đứng vững):* Bắt buộc dùng cân máng điện tử (độ chính xác đến $10\\text{ g}$). Cân phải đặt trên mặt bàn cứng, thăng bằng, đã chỉnh về số 0 (Tare).\n- *Trẻ từ 2 tuổi trở lên (đã đứng vững độc lập):* Dùng cân bàn điện tử hoặc cân đòn cơ học (độ chính xác đến $100\\text{ g}$).\n- *Quy tắc chuẩn bị bắt buộc:*\n  - Phòng cân phải kín gió, nhiệt độ ấm áp ($25 - 28^\\circ\\text{C}$).\n  - Cởi bỏ toàn bộ áo khoác ngoài, mũ nón, giày dép, tất chân.\n  - **Bắt buộc tháo hoàn toàn tã bỉm.** Nếu trời lạnh hoặc trẻ quá quấy khóc, chỉ để lại một lớp quần áo lót mỏng nhất, sau đó cân riêng bộ quần áo tương tự để trừ bì.\n\n**Thao tác đo:**\n- Đặt trẻ nằm hoặc ngồi giữa lòng máng cân, dỗ dành trẻ không cựa quậy mạnh.\n- Chờ màn hình điện tử ổn định hoặc quả cân thăng bằng, đọc kết quả ngang tầm mắt. Ghi nhận cân nặng theo đơn vị kilôgam với 1 chữ số thập phân (đối với trẻ lớn) hoặc 2 chữ số thập phân (đối với trẻ nhũ nhi).\n\n> ⚠️ HỌC VIÊN HAY NHẦM: Rất nhiều học viên tiện tay cân luôn cả bỉm của trẻ vì sợ bẩn cân hoặc ngại cởi. Hãy nhớ rằng một chiếc bỉm ướt nặng nửa ký lô gam sẽ làm biến dạng toàn bộ đánh giá lâm sàng của bạn.\n\n---\n\n### 1.2 Kỹ thuật đo Chiều dài nằm vs Chiều cao đứng & Quy tắc chuyển đổi bù trừ\n\n**1. Chiều dài nằm (Recumbent Length):**\n- *Đối tượng bắt buộc:* Trẻ dưới 24 tháng tuổi (hoặc trẻ dưới $87\\text{ cm}$ nếu không biết chính xác tuổi).\n- *Dụng cụ:* Thước hộp đo nằm bằng gỗ hoặc nhựa cứng (Infantometer), có thanh chặn đầu cố định và thanh trượt chân di động. Thước dây mềm tuyệt đối không được dùng vì co giãn và cong vênh.\n- *Quy trình 2 người đo bắt buộc:*\n  - **Người đo 1 (thường là điều dưỡng hoặc phụ huynh):** Giữ đầu trẻ. Đặt trẻ nằm ngửa giữa máng thước, hai mắt nhìn thẳng lên trần nhà sao cho mặt phẳng nối đuôi mắt và lỗ tai ngoài (mặt phẳng Frankfort) vuông góc với mặt giường. Áp sát đỉnh đầu trẻ chạm vào thanh chặn cố định.\n  - **Người đo 2 (bác sĩ):** Đứng bên cạnh. Một tay đặt nhẹ lên hai đầu gối của trẻ ấn thẳng xuống mặt thước (không dùng lực quá mạnh gây đau); tay kia kéo thanh trượt di động áp sát vững chắc vào hai gót chân của trẻ (bàn chân gập vuông góc $90^\\circ$ với cẳng chân).\n  - Đọc kết quả chính xác đến $0.1\\text{ cm}$.\n\n**2. Chiều cao đứng (Standing Height):**\n- *Đối tượng bắt buộc:* Trẻ từ 24 tháng tuổi trở lên (đã biết đứng thẳng).\n- *Dụng cụ:* Thước đo đứng gắn tường hoặc thước có bàn đứng (Stadiometer).\n- *Quy trình đo theo 5 điểm chạm:*\n  - Trẻ đứng chân trần trên mặt sàn phẳng, hai gót chân chụm hình chữ V nhẹ, hai tay buông xuôi thân mình.\n  - Đảm bảo **5 điểm của cơ thể chạm vào mặt phẳng thẳng đứng của thước:** (1) Hai gót chân, (2) Bắp chân, (3) Hai mông, (4) Hai bả vai, (5) Ụ chẩm đầu.\n  - Chỉnh đầu trẻ nhìn thẳng sao cho đường nối bờ dưới ổ mắt và gờ trên lỗ tai ngoài nằm trên một mặt phẳng nằm ngang song song mặt đất (Mặt phẳng Frankfort).\n  - Hạ thanh trượt nhẹ nhàng chạm vào đỉnh đầu (ấn nhẹ để ép lớp tóc dày), đọc kết quả chính xác đến $0.1\\text{ cm}$.\n\n**3. Quy tắc chuyển đổi bù trừ bắt buộc $0.7\\text{ cm}$:**\nQuy tắc chuyển đổi bù trừ 0.7 cm giữa đo chiều dài nằm và chiều cao đứng (WHO Child Growth Standards based on length/height weight and age 0.7-cm average difference between recumbent length and standing height) ở trẻ nhỏ theo chuẩn WHO (PMID: 16817681) [DATA VERIFIED] {claim: C-002}. Do đó, khi điều kiện đo bị đảo ngược:\n- Nếu trẻ $\\ge 24$ tháng tuổi nhưng bị ốm nặng, yếu liệt không thể đứng được mà phải đo nằm:\n  $$\\text{Chiều cao tương đương} = \\text{Chiều dài nằm đo được} - 0.7\\text{ cm}$$\n- Nếu trẻ $< 24$ tháng tuổi nhưng cương quyết không chịu nằm, phải đo đứng:\n  $$\\text{Chiều dài tương đương} = \\text{Chiều cao đứng đo được} + 0.7\\text{ cm}$$\n\n---\n\n### 1.3 Kỹ thuật đo Vòng cánh tay (MUAC) & Thước dây Shakir\n\n**Vòng cánh tay (Mid-Upper Arm Circumference - MUAC)** là chỉ số nhân trắc học phản ánh trực tiếp khối cơ và lớp mỡ dưới da ở cánh tay. Từ 6 đến 59 tháng tuổi, chu vi cánh tay của trẻ khỏe mạnh hầu như không thay đổi nhiều (tăng rất chậm dưới $1\\text{ cm}$ trong suốt 4 năm), do đó MUAC trở thành công cụ sàng lọc suy dinh dưỡng cấp tính xuất sắc, độc lập với chiều cao và tuổi tác!\n\n- **Đối tượng:** Trẻ từ **6 đến 59 tháng tuổi**.\n- **Kỹ thuật xác định vị trí chuẩn:**\n  1. Yêu cầu trẻ để lộ hoàn toàn cánh tay trái.\n  2. Gập cẳng tay trái vuông góc $90^\\circ$ tại khớp khuỷu, lòng bàn tay ngửa.\n  3. Bác sĩ dùng ngón tay sờ tìm hai mốc giải phẫu xương: **Mỏm cùng vai (Acromion)** ở trên và **Mỏm khuỷu xương trụ (Olecranon)** ở dưới.\n  4. Đặt đầu thước dây tại mỏm cùng vai, kéo thẳng đến mỏm khuỷu, đọc khoảng cách và xác định chính xác **điểm giữa** (Midpoint). Đánh dấu nhẹ bằng bút dạ.\n  5. Cho trẻ duỗi thẳng tay trái xuôi tự nhiên theo thân mình. Quấn thước dây chuyên dụng vòng qua điểm giữa vừa đánh dấu. Thước phải áp sát chu vi da, phẳng phiu, tuyệt đối không kéo thít chặt làm lún mô mỡ mềm và cũng không để lỏng lẻo.\n  6. Đọc kết quả qua khe cửa sổ của thước, ghi nhận theo đơn vị milimet ($\\text{mm}$).\n\n![Thang đo Vòng cánh tay MUAC theo chuẩn WHO](outputs/visual_evidence/17076211_diagram_01_muac_shakir_tape_cutoffs.png)\n\nĐo vòng cánh tay (Mid-upper-arm circumference MUAC to detect severely malnourished children bipedal edema) ở trẻ 6–59 tháng: < 115 mm (SAM), 115–124 mm (MAM), >= 125 mm (Bình thường) theo nghiên cứu của Myatt et al. (PMID: 17076211) [DATA VERIFIED] {claim: C-001}.\n- 🔴 **VÙNG ĐỎ ($< 115\\text{ mm}$):** **Suy dinh dưỡng cấp nặng (Severe Acute Malnutrition - SAM)**. Trẻ có nguy cơ tử vong do nhiễm trùng và suy kiệt cao gấp 9–11 lần so với trẻ bình thường. Bắt buộc chuyển tuyến hoặc đưa vào chương trình điều trị nội/ngoại trú khẩn cấp!\n- 🟡 **VÙNG VÀNG ($115 - 124\\text{ mm}$):** **Suy dinh dưỡng cấp vừa (Moderate Acute Malnutrition - MAM)**. Trẻ cần được tư vấn dinh dưỡng, bổ sung thực phẩm năng lượng cao hoặc theo dõi sát để tránh tụt xuống SAM.\n- 🟢 **VÙNG XANH ($\\ge 125\\text{ mm}$):** **Dinh dưỡng bình thường**. Không có nguy cơ gầy còm cấp tính tại thời điểm đo.\n\n---\n\n### 1.4 Kỹ thuật đo Chu vi vòng đầu (Occipitofrontal Circumference - OFC)\n\nVòng đầu phản ánh trực tiếp thể tích hộp sọ và sự phát triển của não bộ trong 2–3 năm đầu đời:\n- Dùng thước dây mềm, không co giãn.\n- Vòng thước qua điểm nhô cao nhất của **xương chẩm** ở phía sau, đi qua trên vành tai hai bên và điểm gờ trên cung mày (ngay trên hai lông mày) ở phía trước.\n- Kéo căng vừa phải, đọc số đo lớn nhất chính xác đến $0.1\\text{ cm}$. Tra trên biểu đồ vòng đầu theo tuổi của WHO:\n  - $<-2\\text{ SD}$: Tật đầu nhỏ (Microcephaly) do chậm phát triển não bộ, dị tật bẩm sinh hoặc di chứng suy dinh dưỡng bào thai nặng.\n  - $>+2\\text{ SD}$: Đầu to (Macrocephaly), cần loại trừ não úng thủy (Hydrocephalus) hoặc u não.\n\n\n### 1.5 Các ví dụ minh họa tính toán nhân trắc trong thực hành\n- **Ví dụ 1 (Tính bù trừ chiều cao đo nằm):** Bé trai 28 tháng tuổi bị gãy xương đùi bó bột, phải đo chiều dài nằm là $89.5\\text{ cm}$. Chiều cao đứng chuẩn hóa = $89.5 - 0.7 = 88.8\\text{ cm}$.\n- **Ví dụ 2 (Tính bù trừ chiều cao đo đứng):** Bé gái 20 tháng tuổi nhất định không chịu nằm, đo đứng được $80.3\\text{ cm}$. Chiều dài nằm chuẩn hóa = $80.3 + 0.7 = 81.0\\text{ cm}$.\n- **Ví dụ 3 (Trừ bì bỉm ướt):** Cân bé 11 tháng cả bỉm nặng $8.9\\text{ kg}$. Tháo bỉm ướt cân riêng được $420\\text{ g}$. Cân nặng thực của bé = $8.9 - 0.42 = 8.48\\text{ kg}$.\n- **Ví dụ 4 (Đo MUAC phân loại nhanh):** Bé gái 3 tuổi đo MUAC tay trái tại điểm giữa là $112\\text{ mm}$ (dưới ngưỡng $115\\text{ mm}$) $\\rightarrow$ Xếp vào vùng Đỏ (SAM) dù chưa có cân điện tử.\n- **Ví dụ 5 (Tính năng lượng khởi đầu F-75):** Bé trai $7\\text{ kg}$ thể Marasmus cần năng lượng khởi đầu $80\\text{ kcal/kg/ngày} = 560\\text{ kcal/ngày}$. Mỗi $100\\text{ ml}$ F-75 cung cấp $75\\text{ kcal}$, nên bé cần $560 / 0.75 = 747\\text{ ml}$ F-75/ngày, chia 8 cữ mỗi cữ $93\\text{ ml}$.\n- **Ví dụ 6 (Phát hiện chững tăng trưởng):** Bé 8 tháng cân nặng $7.5\\text{ kg}$ (kênh -1 SD), 9 tháng $7.5\\text{ kg}$, 10 tháng $7.4\\text{ kg}$. Đường cong đi ngang 3 tháng là cờ đỏ suy dinh dưỡng sớm.\n- **Ví dụ 7 (Diễn giải Ferritin khi có viêm):** Bé gái 2 tuổi viêm phổi có Hb $92\\text{ g/L}$, MCV $68\\text{ fL}$, Ferritin $24\\text{ ng/mL}$, CRP $35\\text{ mg/L}$. Dù Ferritin $> 15\\text{ ng/mL}$, nhưng do có viêm nên ngưỡng $< 30\\text{ ng/mL}$ vẫn xác định thiếu sắt.\n- **Ví dụ 8 (Nhận diện tóc đổi màu cờ):** Bé 3 tuổi sau 3 tháng chỉ ăn cháo muối nhạt xuất hiện các dải tóc màu hung đỏ xen kẽ tóc đen tự nhiên, phản ánh các giai đoạn thiếu hụt đạm ngắt quãng.\n\n### 🛑 DỪNG 1 PHÚT — TỰ KIỂM TRA 1\n\n> **Câu hỏi:** Một bé trai 26 tháng tuổi bị sốt bại liệt, hai chân yếu mềm không đứng được. Bác sĩ đặt bé nằm trên giường đo được chiều dài là $84.2\\text{ cm}$. Khi nhập phần mềm WHO Anthro để tra Z-score, bác sĩ phải nhập con số chiều cao nào?\n>\n> *(Đáp án: Trẻ $\\ge 24$ tháng tuổi quy chuẩn phải đo đứng. Khi bắt buộc phải đo nằm, phải áp dụng quy tắc trừ $0.7\\text{ cm}$. Chiều cao tương đương cần nhập là: $84.2 - 0.7 = 83.5\\text{ cm}$.)*\n\n---\n\n## 2. SINH LÝ & CƠ CHẾ BỆNH SINH TĂNG TRƯỞNG THEO CHUẨN WHO [CỐT LÕI]\n\n### 2.1 Sinh lý bình thường: Động lực học tăng trưởng qua các lứa tuổi\n\nTăng trưởng thể chất ở trẻ em không diễn ra đều đặn theo đường thẳng mà biến thiên theo từng giai đoạn sinh lý rõ rệt:\n1. **Giai đoạn bào thai & nhũ nhi (0–12 tháng):** Tốc độ tăng trưởng nhanh nhất trong toàn bộ cuộc đời. Chiều dài trẻ tăng khoảng $25\\text{ cm}$ trong năm đầu đời, cân nặng tăng gấp 3 lần lúc sinh vào mốc 1 tuổi. Tăng trưởng giai đoạn này phụ thuộc phần lớn vào dinh dưỡng của mẹ, sữa mẹ và nồng độ Insulin/IGF-1 (Insulin-like Growth Factor 1).\n2. **Giai đoạn răng sữa (1–5 tuổi):** Tốc độ tăng trưởng chậm lại nhưng ổn định: tăng khoảng $2\\text{ kg/năm}$ và $6 - 8\\text{ cm/năm}$. Trục nội tiết Tuyến yên — Tuyến giáp — Tuyến thượng thận (GH - Tuyến giáp) bắt đầu đóng vai trò chi phối chính.\n3. **Giai đoạn tiền học đường và dậy thì:** Tăng trưởng nhảy vọt (Pubertal growth spurt) dưới tác động phối hợp giữa Hormon tăng trưởng (GH) và Hormon sinh dục (Estrogen/Testosterone).\n\n![Biểu đồ Động học Đường cong Tăng trưởng WHO & Các Cờ đỏ Suy dinh dưỡng Sớm](outputs/visual_evidence/16817681_graph_01_who_growth_velocity_curves.png)\n\n---\n\n### 2.2 Hệ thống 4 chỉ số Z-Score chuẩn của WHO (2006 & 2007)\n\nNgưỡng Z-score WHO: suy dinh dưỡng vừa < -2 SD, suy dinh dưỡng nặng < -3 SD, thừa cân > +1 SD, béo phì > +2 SD (Development of a WHO growth reference for school-aged children and adolescents BMI-for-age standard deviation cut-offs) cho trẻ em 0–19 tuổi theo WHO (PMID: 18026621) [DATA VERIFIED] {claim: C-003}.\n\n![Bảng Phân loại Tình trạng Dinh dưỡng theo các Chỉ số Z-Score của WHO](outputs/visual_evidence/16817681_table_01_who_zscore_cutoffs.png)\n\nBốn chỉ số Z-score cốt lõi bao gồm:\n\n| Chỉ số Z-Score | Tên tiếng Việt & Ý nghĩa sinh lý | Nhóm tuổi áp dụng | Ngưỡng suy dinh dưỡng | Ngưỡng thừa cân / béo phì |\n|---|---|---|---|---|\n| **WAZ** *(Weight-for-Age)* | **Cân nặng theo tuổi (Nhẹ cân):** Phản ánh tổng thể kích thước khối lượng, không phân biệt được trẻ mới bị gầy còm gần đây hay bị thấp lùn từ xưa. | Trẻ sơ sinh đến $< 10$ tuổi (không dùng $\\ge 10$ tuổi vì dậy thì phân tán lớn) | • $<-2\\text{ SD}$: Nhẹ cân vừa<br>• $<-3\\text{ SD}$: Nhẹ cân nặng | • $>+1\\text{ SD}$: Bình thường cao<br>• Không dùng chẩn đoán béo phì đơn độc |\n| **HAZ** *(Height-for-Age)* | **Chiều cao/dài theo tuổi (Thấp còi):** Phản ánh quá trình thiếu hụt dinh dưỡng, ốm đau tích lũy kéo dài trong quá khứ (**suy dinh dưỡng mạn tính**). | Toàn bộ từ sơ sinh đến $19$ tuổi | • $<-2\\text{ SD}$: Thấp còi vừa<br>• $<-3\\text{ SD}$: Thấp còi nặng | • $>+3\\text{ SD}$: Rất cao (cần cảnh giác u tuyến yên tiết GH) |\n| **WHZ** *(Weight-for-Height)* | **Cân nặng theo chiều cao (Gầy còm):** Đánh giá khối mô nạc và mô mỡ tương ứng với khung xương; phản ánh sụt cân cấp tính gần đây (**suy dinh dưỡng cấp tính**). | Áp dụng cho trẻ sơ sinh đến $< 5$ tuổi (hoặc chiều cao $< 120\\text{ cm}$) | • $<-2\\text{ SD}$: Gầy còm vừa (MAM)<br>• $<-3\\text{ SD}$: Gầy còm nặng (SAM) | • $>+2\\text{ SD}$: Thừa cân<br>• $>+3\\text{ SD}$: Béo phì |\n| **BAZ** *(BMI-for-Age)* | **Chỉ số khối cơ thể theo tuổi ($W/H^2$):** Công cụ ưu tiên để đánh giá gầy còm và thừa cân - béo phì ở trẻ lớn khi chiều cao biến thiên theo dậy thì. | Bắt buộc cho trẻ từ $5$ đến $19$ tuổi (thay thế WHZ) | • $<-2\\text{ SD}$: Gầy còm vừa (Thinness)<br>• $<-3\\text{ SD}$: Gầy còm nặng (Severe thinness) | • $>+1\\text{ SD}$: Thừa cân<br>• $>+2\\text{ SD}$: Béo phì<br>• $>+3\\text{ SD}$: Béo phì nặng |\n\n---\n\n### 2.3 Động học đường cong tăng trưởng — Bắt trúng \"Cờ đỏ\" trước khi chạm ngưỡng $<-2\\text{ SD}$\n\nĐánh giá một điểm cắt Z-score tĩnh chỉ cho biết tình trạng tại thời điểm hiện tại. Quan sát **động học đường cong tăng trưởng qua nhiều lần khám** (Growth velocity) mới là đỉnh cao của thực hành nhi khoa hiện đại:\n1. **Đường tăng trưởng bình thường:** Đường biểu diễn các chấm cân nặng/chiều cao qua các tháng đi lên đều đặn và chạy **song song với các kênh phân vị** của biểu đồ chuẩn WHO.\n2. **Cờ đỏ 1 — Đường nằm ngang (Flattening):** Cân nặng không tăng trong 2–3 tháng liên tiếp ở trẻ nhũ nhi (hoặc không tăng chiều cao trong 6 tháng). Dù Z-score hiện tại của trẻ vẫn đang ở mức $-0.5\\text{ SD}$ (trong giới hạn bình thường), đây đã là dấu hiệu báo động sớm nhất của tình trạng suy dinh dưỡng tiềm ẩn!\n3. **Cờ đỏ 2 — Đường đi xuống (Falling / Dropping percentiles):** Đường tăng trưởng dốc xuống hoặc **cắt ngang qua 2 kênh bách phân vị lớn** (ví dụ từ kênh $+1\\text{ SD}$ tụt xuống kênh $-1\\text{ SD}$). Đây là bằng chứng không thể chối cãi của sụt cân cấp tính bệnh lý (tiêu chảy kéo dài, nhiễm trùng mạn, bỏ bú, kém hấp thu).\n\n---\n\n### 2.4 Diễn biến tự nhiên & Biến chứng suy dinh dưỡng: Chuỗi nhân quả 4 bước\n\nMỗi biến chứng suy dinh dưỡng đều tuân theo chuỗi sinh lý bệnh chặt chẽ: **Tại sao → Là gì → Thế nào → Nếu không điều trị thì sao**:\n\n- **Biến chứng 1: Teo nhung mao niêm mạc ruột và suy giảm bài tiết men tụy**\n  - *Tại sao:* Thiếu acid amin và năng lượng khiến các tế bào biểu mô ruột (vốn có tốc độ thay mới cực nhanh 3–5 ngày) không thể phân chia và tái tạo.\n  - *Là gì:* Tình trạng cùn nhung mao ruột, giảm diện tích hấp thu và thiếu hụt thứ phát enzym disaccharidase (đặc biệt là lactase).\n  - *Thế nào:* Trẻ ăn bất cứ thức ăn thông thường nào cũng bị tiêu chảy thẩm thấu, phân chua, phân sống có bọt.\n  - *Nếu không điều trị:* Tạo nên vòng xoắn bệnh lý ác tính: Thiếu ăn → Teo ruột → Tiêu chảy kém hấp thu → Thiếu ăn nặng hơn → Suy kiệt tử vong.\n- **Biến chứng 2: Suy giảm miễn dịch mắc phải do suy dinh dưỡng (Nutritional Acquired Immunodeficiency)**\n  - *Tại sao:* Teo tuyến ức, teo hạch lympho do thiếu nguyên liệu tổng hợp tế bào lympho T và thiếu kẽm/vitamin A.\n  - *Là gì:* Mất hàng rào bảo vệ miễn dịch niêm mạc và giảm nồng độ bổ thể, giảm đáp ứng kháng thể.\n  - *Thế nào:* Trẻ dễ nhiễm trùng huyết từ vi khuẩn gram âm đường ruột, viêm phổi hoại tử, nhiễm nấm Candida miệng lan rộng. Đáng sợ nhất: **trẻ suy dinh dưỡng nặng khi nhiễm trùng nặng thường KHÔNG SỐT, KHÔNG TĂNG BẠCH CẦU** mà biểu hiện bằng hạ thân nhiệt và lơ mơ!\n  - *Nếu không điều trị:* Sốc nhiễm khuẩn tiềm tàng, toan chuyển hóa và tử vong nhanh chóng.\n- **Biến chứng 3: Teo cơ tim và suy tuần hoàn cung lượng thấp**\n  - *Tại sao:* Cơ thể dị hóa chính khối cơ tim để lấy năng lượng nuôi não bộ.\n  - *Là gì:* Giảm khối lượng cơ thất trái, giảm thể tích nhát bóp và giảm tưới máu thận.\n  - *Thế nào:* Nhịp tim chậm, mạch nhỏ, huyết áp thấp, thiểu niệu. Tim không chịu được bất kỳ sự tăng thể tích tuần hoàn đột ngột nào.\n  - *Nếu không điều trị:* Bác sĩ thiếu kinh nghiệm thấy trẻ li bì nghĩ là mất nước rồi truyền dịch tĩnh mạch nhanh sẽ gây quá tải thể tích cấp tính $\\rightarrow$ Phù phổi cấp và suy tim ngừng đập ngay trên bàn truyền dịch!\n\n### 🛑 DỪNG 1 PHÚT — TỰ KIỂM TRA 2\n\n> **Câu hỏi:** Một bé gái 10 tháng tuổi, tháng thứ 7 nặng $8.5\\text{ kg}$, tháng thứ 8 nặng $8.5\\text{ kg}$, tháng thứ 9 nặng $8.4\\text{ kg}$, tháng thứ 10 nặng $8.3\\text{ kg}$. Tra Z-score hiện tại WAZ của bé là $-1.4\\text{ SD}$. Bác sĩ có thể kết luận bé hoàn toàn khỏe mạnh bình thường không?\n>\n> *(Đáp án: Tuyệt đối KHÔNG. Mặc dù Z-score hiện tại $-1.4\\text{ SD}$ chưa chạm mốc suy dinh dưỡng ($<-2\\text{ SD}$), nhưng đường cong tăng trưởng của bé đã đi ngang và đi xuống trong 3 tháng liên tiếp (cắt kênh percentiles). Đây là cờ đỏ suy dinh dưỡng sớm bắt buộc phải tìm nguyên nhân và can thiệp ngay.)*\n\n---\n\n## 3. KHÁM LÂM SÀNG & CHẨN ĐOÁN SUY DINH DƯỠNG TOÀN DIỆN (TRỤC C) [CỐT LÕI]\n\n### 3.1 Khám Phù Dinh Dưỡng (Bilateral Pitting Edema) — Quy tắc vàng Kwashiorkor\n\nKhám phù là bước lâm sàng tối quan trọng quyết định phân tầng điều trị:\n\n- **Kỹ thuật khám chuẩn:**\n  1. Đặt trẻ nằm hoặc ngồi thoải mái.\n  2. Bác sĩ dùng mặt ngón tay cái của hai bàn tay ấn nhẹ nhàng nhưng chắc chắn lên **mặt trước xương chày** (hoặc mu bàn chân của cả hai bên) trong vòng **đúng 3 giây**.\n  3. Nhấc ngón tay ra và dùng đầu ngón tay miết nhẹ qua vùng vừa ấn để cảm nhận vết lõm tồn lưu.\n- **Quy tắc vàng chẩn đoán:** Phù dinh dưỡng **BẮT BUỘC PHẢI LÀ PHÙ MỀM, ẤN LÕM VÀ XUẤT HIỆN ĐỐI XỨNG Ở CẢ HAI BÊN CƠ THỂ**. Phù một bên chi là phù do huyết khối, viêm mô tế bào hoặc chấn thương, không phải phù dinh dưỡng!\n\n**Phân độ phù dinh dưỡng (Kwashiorkor Staging):**\n- **Độ 1 (+): Phù nhẹ.** Phù chỉ khu trú ở mu bàn chân hai bên.\n- **Độ 2 (++): Phù vừa.** Phù lan lên cả hai cẳng chân, bàn tay, cẳng tay.\n- **Độ 3 (+++): Phù nặng/Toàn thân.** Phù toàn thân, phù mặt (mặt tròn như mặt trăng rằm - *Moon face*), phù mí mắt mọng nước, có thể kèm theo cổ trướng và tràn dịch màng phổi.\n\n> 🚨 **QUY TẮC CỨNG:** Trẻ có phù dinh dưỡng đối xứng hai bên (bất kể độ mấy) **TỰ ĐỘNG ĐƯỢC XẾP THẲNG VÀO SUY DINH DƯỠNG CẤP NẶNG (SAM)** theo định nghĩa của WHO, bất kể chỉ số Z-score lúc đó là bao nhiêu!\n\n---\n\n### 3.2 Đánh giá Teo Khối Cơ & Mất Lớp Mỡ Dưới Da\n\n**1. Trình tự mất lớp mỡ dưới da:**\nDưới tác động của thiếu hụt năng lượng trường diễn, cơ thể huy động lipid dự trữ theo một trình tự giải phẫu định sẵn:\n$$\\text{Mỡ bụng} \\rightarrow \\text{Mỡ đùi, cánh tay} \\rightarrow \\text{Mỡ mông} \\rightarrow \\text{Cuối cùng là Túi mỡ má (Bichat fat pad)}$$\n- *Giai đoạn sớm/vừa:* Trẻ mất mỡ bụng (da bụng nhăn nhúm, mỏng như giấy), mỡ đùi nhẽo, nhưng hai má vẫn còn bầu bĩnh.\n- *Giai đoạn cực nặng (Marasmus):* Cơ thể tiêu hủy nốt túi mỡ Bichat ở má. Hai má hóp sâu, gò má nhô cao, mắt trũng sâu, trán nhăn nheo tạo nên **vẻ mặt cụ già (Old man face)** điển hình.\n\n**2. Đánh giá teo khối cơ:**\n- Khám cơ thái dương: Vùng hố thái dương hai bên lõm sâu xuống, nhìn rõ bờ ngoài hốc mắt.\n- Khám cơ delta và cơ ngực: Xương đòn nhô cao, các khoang liên sườn lộ rõ như bậc thang.\n- Khám cơ mông: Yêu cầu cởi quần quan sát vùng mông. Khối cơ mông teo nhẽo hoàn toàn, mất nếp lằn mông sinh lý, da vùng mông chùng xuống xếp thành nhiều nếp gấp lùng bùng như **\"đứa trẻ mặc chiếc quần quá rộng\"** (dấu hiệu quần lùng bùng / da bọc xương).\n\n---\n\n### 3.3 Checklist phát hiện thiếu hụt vi chất từ đầu đến chân (Head-to-Toe)\n\nDưới đây là bảng kiểm lâm sàng hệ thống giúp bác sĩ không bỏ sót bất kỳ vi chất dinh dưỡng nào:\n\n- **1. Khám vùng Đầu & Tóc:**\n  - *Tóc thưa, khô giòn, dễ nhổ, rụng nhiều:* Hướng đến thiếu Protein, Kẽm hoặc Sắt.\n  - *Dấu hiệu cờ (Flag sign):* Các dải tóc nhạt màu/hung đỏ xen kẽ các dải tóc sẫm màu tự nhiên, phản ánh các giai đoạn thiếu hụt Protein ngắt quãng ở trẻ Kwashiorkor.\n  - *Thóp trước rộng, chậm liền sau 18 tháng tuổi:* Biểu hiện kinh điển của còi xương do thiếu Vitamin D và Canxi.\n  - *Bướu trán, bướu đỉnh (Craniotabes - sọ mềm):* Xương sọ chậm cốt hóa trong còi xương tiến triển.\n- **2. Khám vùng Mắt:**\n  - *Quáng gà (chiều tối nhìn kém, hay vấp ngã khi chập tối):* Dấu hiệu sớm nhất của thiếu Vitamin A (giai đoạn XN).\n  - *Vệt Bitot (mảng bọt xà phòng hình tam giác bám ở kết mạc nhãn cầu):* Khô kết mạc do thiếu Vitamin A (giai đoạn X1B).\n  - *Khô giác mạc, loét nhuyễn giác mạc (Keratomalacia):* Cấp cứu nhãn khoa khẩn cấp, nguy cơ mù lòa vĩnh viễn trong 24–48 giờ nếu không được bổ sung Vitamin A liều cao ngay lập tức!\n- **3. Khám vùng Miệng & Răng lợi:**\n  - *Viêm nứt khóe mép hai bên (Cheilosis / Angular stomatitis):* Hướng đến thiếu Vitamin B2 (Riboflavin) hoặc Vitamin B6.\n  - *Lưỡi đỏ rực, teo gai nhẵn bóng (Glossitis):* Biểu hiện của thiếu Vitamin B12, Acid Folic, hoặc thiếu máu thiếu Sắt.\n  - *Chảy máu chân răng, lợi sưng đỏ bầm tím (Scurvy):* Thiếu hụt nghiêm trọng Vitamin C (Acid ascorbic).\n  - *Răng mọc chậm (sau 12 tháng chưa mọc chiếc răng nào), men răng thiểu sản:* Hướng đến còi xương do thiếu Canxi và Vitamin D.\n- **4. Khám Lồng ngực & Hệ xương:**\n  - *Chuỗi hạt sườn (Rachitic rosary):* Phì đại sụn tiếp hợp ở khớp sườn ức nhô lên như chuỗi tràng hạt.\n  - *Rãnh Harrison:* Rãnh lõm ngang ở đáy lồng ngực do cơ hoành co kéo xương sườn bị mềm hóa khi trẻ thở.\n  - *Vòng cổ tay, vòng cổ chân to bè:* Phì đại đầu dưới xương quay và xương chày ở sụn tiếp hợp.\n  - *Biến dạng xương chi dưới: Chân cong chữ O (Genu varum) hoặc chân chữ X (Genu valgum)* khi trẻ bắt đầu đứng và tập đi chịu sức nặng cơ thể.\n- **5. Khám Móng tay & Tổn thương Da:**\n  - *Móng tay lõm hình thìa (Koilonychia), móng khô dễ gãy:* Đặc hiệu của thiếu máu thiếu Sắt mạn tính nặng.\n  - *Mảng da bong tróc sẫm màu kiểu \"sơn nứt\" (Flaky-paint dermatosis):* Điển hình ở vùng đùi, mông, bẹn trong thể Kwashiorkor.\n  - *Viêm da bong vảy đỏ quanh các lỗ tự nhiên và đầu ngón chi (Acrodermatitis enteropathica):* Dấu hiệu kinh điển của thiếu hụt Kẽm nặng.\n\n---\n\n> 🚨 **BOX ĐỎ — AN TOÀN TRƯỚC KHI CHẨN ĐOÁN THƯỜNG QUY:**\n> Ngay khi tiếp nhận một trẻ nghi ngờ suy dinh dưỡng nặng, trước khi cân đo chi tiết hoặc làm xét nghiệm thường quy, bác sĩ bắt buộc phải rà soát các **CỜ ĐỎ CẤP CỨU ĐE DỌA TỬ VONG TRONG VÒNG 24 GIỜ**:\n> 1. **Hạ thân nhiệt ($< 35.5^\\circ\\text{C}$ đo nách hoặc $< 36.0^\\circ\\text{C}$ đo hậu môn):** Nguy cơ tử vong rất cao. Hành động ngay: Ủ ấm da kề da (Kangaroo), đắp chăn ấm, đội mũ, phòng ấm, cho uống ngay nước đường ấm.\n> 2. **Hạ đường huyết ($< 3.0\\text{ mmol/L}$ hoặc $< 54\\text{ mg/dL}$):** Dấu hiệu: lơ mơ, vã mồ hôi lạnh, giật mình, co giật hoặc hôn mê. Hành động ngay: Cho uống hoặc bơm dạ dày $50\\text{ ml}$ dung dịch Glucose $10\\%$ ngay lập tức (nếu hôn mê: tiêm TM $5\\text{ ml/kg}$ Glucose $10\\%$).\n> 3. **Dấu hiệu sốc / Giảm tưới máu nặng:** Mạch nhanh nhỏ khó bắt, chi lạnh ngắt, thời gian đổ đầy mao mạch (CRT) $\\ge 3\\text{ giây}$, li bì hoặc hôn mê.\n> 4. **Phù toàn thân độ 3 kèm khó thở hoặc tràn dịch màng phổi.**\n> 5. **Tổn thương loét nhuyễn giác mạc (thiếu Vitamin A cấp tính):** Cho uống ngay Vitamin A liều điều trị theo tuổi để cứu thị lực của trẻ!\n\n---\n\n### 3.4 Chẩn đoán phân biệt hai thể suy dinh dưỡng nặng kinh điển\n\n| Tiêu chí so sánh | Thể Teo đét (Marasmus) | Thể Phù (Kwashiorkor) | Thể Phối hợp (Marasmic Kwashiorkor) |\n|---|---|---|---|\n| **Cơ chế bệnh sinh** | Thiếu hụt toàn bộ cả Calorie lẫn Protein (đói ăn toàn diện) | Thiếu hụt Protein đơn thuần, năng lượng từ tinh bột vẫn đủ | Thiếu protein cực nặng trên nền đói ăn kéo dài |\n| **Chỉ số WAZ** | Giảm cực nặng ($< -3\\text{ SD}$, thường $< 60\\%$ chuẩn) | Giảm nhẹ/vừa, bị che giấu bởi nước phù | Giảm rất nặng sau khi trừ lượng nước phù |\n| **Phù dinh dưỡng** | **HOÀN TOÀN KHÔNG CÓ PHÙ** | **BẮT BUỘC PHẢI CÓ PHÙ** (từ mu chân đến toàn thân) | **CÓ PHÙ** (ở bàn chân hoặc cẳng chân) |\n| **Lớp mỡ dưới da** | Mất sạch hoàn toàn, mất cả túi mỡ má Bichat | Còn giữ lại một phần mỡ dưới da | Mất gần hết lớp mỡ dưới da |\n| **Vẻ mặt** | Mặt cụ già (Old man face, hóp má, nhăn nheo) | Mặt tròn như mặt trăng rằm (Moon face) | Hốc hác kèm phù mí mắt nhẹ |\n| **Tổn thương da & tóc** | Da khô nhăn nheo, tóc tương đối bình thường | Da nứt nẻ kiểu \"sơn nứt\", tóc dấu hiệu cờ | Tổn thương da sơn nứt kèm teo cơ nặng |\n| **Kích thước gan** | Gan bình thường | **Gan to ứ mỡ** (thiếu Apo B-100 vận chuyển lipid) | Gan to ứ mỡ |\n| **Tâm lý & Hành vi** | Trẻ rất thèm ăn, quấy khóc đòi ăn | Trẻ chán ăn, bỏ bú, lãnh đạm, thờ ơ, u sầu | Rất chán ăn, thờ ơ |\n| **Albumin máu** | Bình thường hoặc giảm nhẹ ($> 28\\text{ g/L}$) | Giảm cực nặng ($< 25\\text{ g/L}$, thậm chí $< 15\\text{ g/L}$) | Giảm rất nặng |\n| **Tiên lượng** | Nguy cơ suy kiệt, hạ thân nhiệt | Nguy cơ nhiễm trùng huyết, suy tim cấp | **Tiên lượng tử vong cao nhất!** |\n\n> ⚠️ HỌC VIÊN HAY NHẦM: Rất nhiều bác sĩ nhầm phù Kwashiorkor với Hội chứng Thận hư hoặc Suy tim. Hãy nhớ rằng phù thận hư thường bắt đầu từ mi mắt vào buổi sáng và kèm theo protein niệu ồ ạt; trong khi phù Kwashiorkor luôn đi kèm dấu hiệu teo cơ, tóc đổi màu cờ, gan to thoái hóa mỡ và tiền sử ăn dặm toàn bột đường thiếu đạm trầm trọng.\n\n### 🛑 DỪNG 1 PHÚT — TỰ KIỂM TRA 3\n\n> **Câu hỏi:** Một bé gái 16 tháng tuổi có cân nặng nằm ở kênh $-1.8\\text{ SD}$, nhưng thăm khám thấy hai mu bàn chân ấn lõm rõ rệt đối xứng hai bên, da vùng mông bong tróc từng mảng nâu đen. Chẩn đoán phân loại suy dinh dưỡng của bé là gì?\n>\n> *(Đáp án: Bé bị **Suy dinh dưỡng cấp nặng thể phù (Kwashiorkor / SAM)**. Mặc dù Z-score là $-1.8\\text{ SD}$ (trông như chưa chạm ngưỡng suy dinh dưỡng vừa), nhưng sự hiện diện của phù đối xứng hai bên tự động xác lập chẩn đoán SAM. Cân nặng của bé đang bị giữ nước phù làm tăng giả tạo.)*\n\n---\n\n## 4. EVIDENCE & GUIDELINES [CỐT LÕI]\n\n### 4.1 Hướng dẫn Hàng đầu của WHO (2023 Guideline for Wasting & Nutritional Oedema)\n\n**Nguồn:** World Health Organization (2023). *WHO guideline on the prevention and management of wasting and nutritional oedema (acute malnutrition) in infants and children under 5 years.* Geneva: WHO. [GUIDELINE VERIFIED]\n\n**Khuyến cáo chính:**\n1. **Tiêu chuẩn chẩn đoán SAM:** Trẻ 6–59 tháng tuổi được chẩn đoán Suy dinh dưỡng cấp nặng (SAM) khi có **$WHZ < -3\\text{ SD}$** HOẶC **$MUAC < 115\\text{ mm}$** HOẶC **Có phù dinh dưỡng hai bên** [DATA VERIFIED].\n2. **Tiêu chuẩn chẩn đoán MAM:** Suy dinh dưỡng cấp vừa (MAM) được xác định khi **$-3\\text{ SD} \\le WHZ < -2\\text{ SD}$** HOẶC **$115\\text{ mm} \\le MUAC < 125\\text{ mm}$** và không có phù [DATA VERIFIED].\n3. **Phân luồng điều trị:** Trẻ SAM không có biến chứng y khoa và còn cảm giác thèm ăn (vượt qua test thử ăn RUTF) có thể điều trị ngoại trú tại cộng đồng; trẻ có biến chứng (bỏ ăn, sốt cao, hạ thân nhiệt, phù độ 3, tổn thương mắt nặng) bắt buộc phải nhập viện điều trị nội trú.\n\n---\n\n### 4.2 Các Công trình Nghiên cứu & Bằng chứng Định lượng (Peer-Reviewed Evidence)\n\n1. **Chuẩn tăng trưởng WHO 2006 (Acta Paediatr Suppl 2006):**\n   - Nghiên cứu MGRS trên 8,440 trẻ em khỏe mạnh chứng minh trẻ em ở mọi chủng tộc (châu Á, châu Âu, châu Phi, châu Mỹ) đều có tiềm năng tăng trưởng tương đương nhau nếu được nuôi dưỡng và chăm sóc trong môi trường tối ưu [DATA VERIFIED].\n   - Xác lập chênh lệch trung bình giữa đo nằm và đo đứng là $0.7\\text{ cm}$ làm cơ sở cho quy tắc chuyển đổi [DATA VERIFIED].\n2. **Chuẩn tăng trưởng WHO 2007 cho lứa tuổi 5–19 (Bull World Health Organ 2007):**\n   - Thiết lập đường cong BMI theo tuổi (BAZ) nối tiếp mượt mà với chuẩn trẻ dưới 5 tuổi. Điểm cắt $+1\\text{ SD}$ tại 19 tuổi tương ứng đúng với BMI $25\\text{ kg/m}^2$ (thừa cân), và $+2\\text{ SD}$ tương ứng với BMI $30\\text{ kg/m}^2$ (béo phì) của người trưởng thành [DATA VERIFIED].\n3. **Giá trị sàng lọc của MUAC (Myatt et al., Food Nutr Bull 2006):**\n   - Đánh giá có hệ thống khẳng định MUAC kết hợp với khám phù mu chân là công cụ cộng đồng có độ nhạy và giá trị dự báo tử vong cao nhất, vượt trội hơn so với đo cân nặng theo chiều cao tại thực địa [DATA VERIFIED].\n4. **Động học Protein của Prealbumin (Beck & Rosenthal, Am Fam Physician 2002):**\n   - Prealbumin (Transthyretin) có thời gian bán hủy cực ngắn ($2\\text{ ngày}$) so với Albumin ($20\\text{ ngày}$). Nồng độ Prealbumin phản ánh chính xác sự cải thiện tổng hợp protein tại gan chỉ sau $48 - 72\\text{ giờ}$ can thiệp dinh dưỡng [DATA VERIFIED].\n5. **Tiêu chuẩn Bilan Sắt theo AAP (Baker & Greer AAP, Pediatrics 2010):**\n   - Nồng độ Ferritin huyết thanh $< 15\\text{ ng/mL}$ khẳng định cạn kiệt dự trữ sắt ở trẻ nhỏ. Tuy nhiên khi có phản ứng viêm, ngưỡng chẩn đoán phải nâng lên $< 30\\text{ ng/mL}$ vì Ferritin là một protein phản ứng viêm giai đoạn cấp [DATA VERIFIED].\n6. **Hướng dẫn Thiếu Vitamin D của Endocrine Society (Holick et al. Endocrine Society, J Clin Endocrinol Metab 2011):**\n   - Nồng độ $25\\text{-OH-Vitamin D} < 20\\text{ ng/mL}$ ($< 50\\text{ nmol/L}$) xác định thiếu vitamin D; nồng độ $< 12\\text{ ng/mL}$ xác định thiếu nặng có nguy cơ trực tiếp dẫn đến còi xương và co giật do hạ canxi máu.\nĐánh giá vitamin D: 25-OH-Vitamin D < 20 ng/mL là thiếu, < 12 ng/mL là thiếu nặng (Evaluation, treatment, and prevention of vitamin D deficiency Endocrine Society clinical practice guideline) theo Holick et al. (PMID: 21646368) [DATA VERIFIED] {claim: C-006}. [DATA VERIFIED].\n7. **Ngưỡng Kẽm Huyết Thanh (Hess et al., Am J Clin Nutr 2003):**\n   - Điểm cắt bách phân vị 2.5 dưới của nồng độ kẽm huyết thanh ở trẻ em buổi sáng là $10.7\\ \\mu\\text{mol/L}$ ($70\\ \\mu\\text{g/dL}$).\nNgưỡng kẽm huyết thanh dưới 10.7 micromol/L hay 70 mcg/dL (Suggested lower cutoffs of serum zinc concentrations for assessing zinc status in children and adolescent males females) theo nghiên cứu NHANES II của Hess et al. (PMID: 14522734) [DATA VERIFIED] {claim: C-007}. [DATA VERIFIED].\n8. **Đồng thuận ASPEN về Hội chứng Nuôi ăn lại (da Silva et al. ASPEN, Nutr Clin Pract 2020):**\n   - Định nghĩa Hội chứng Nuôi ăn lại dựa trên mức độ sụt giảm nồng độ Phospho, Kali, Magie máu trong vòng 5 ngày đầu tái nuôi ăn: giảm $10\\% - 20\\%$ (nhẹ), giảm $20\\% - 30\\%$ (vừa), giảm $> 30\\%$ hoặc kèm rối loạn chức năng cơ quan (nặng). Khuyến cáo khởi đầu năng lượng thận trọng $80 - 100\\text{ kcal/kg/ngày}$ [DATA VERIFIED].\n\n---\n\n## 5. CẬN LÂM SÀNG (TRỤC B) & ĐIỀU TRỊ & THEO DÕI DINH DƯỠNG [CỐT LÕI]\n\n### 5.1 Cận lâm sàng Dinh dưỡng & Chuỗi Reasoning 5 tầng (Khoan sâu nhân quả)\n\nMọi chỉ định cận lâm sàng trong dinh dưỡng phải tuân theo chuỗi nhân quả 5 tầng:\n\n#### 1. Bilan Protein huyết thanh: Albumin vs Prealbumin\n- **Tầng 1 (Cơ chế phân tử):** Albumin là protein đơn phân kích thước $66\\text{ kDa}$ do gan tổng hợp; Prealbumin (Transthyretin) là tetramer $55\\text{ kDa}$ vận chuyển thyroxin và phức hợp liên kết retinol.\n- **Tầng 2 (Tác động sinh lý bệnh):** Thời gian bán hủy (Half-life) của Albumin là $20\\text{ ngày}$, trong khi thời gian bán hủy của Prealbumin chỉ vỏn vẹn **$2\\text{ ngày}$**.\nĐánh giá protein huyết thanh: Albumin thời gian bán hủy 20 ngày, Prealbumin thời gian bán hủy 2 ngày (Prealbumin a marker for nutritional evaluation in patients who are critically ill or have chronic disease) theo Beck & Rosenthal (PMID: 11989633) [DATA VERIFIED] {claim: C-004}. Khi tế bào gan thiếu acid amin, sự tổng hợp của cả hai protein đều giảm, nhưng nồng độ Prealbumin máu tụt xuống gần như ngay lập tức.\n- **Tầng 3 (Biến đổi lâm sàng & xét nghiệm):** Trẻ suy dinh dưỡng mới can thiệp nuôi ăn tĩnh mạch hoặc ăn ống thông 3 ngày: Albumin huyết thanh vẫn chưa thay đổi gì (vẫn thấp), nhưng Prealbumin đã có thể tăng vọt từ $80\\text{ mg/L}$ lên $160\\text{ mg/L}$.\n- **Tầng 4 (Tại sao chọn):** Dùng Albumin để đánh giá tình trạng thiếu đạm **mạn tính** lúc nhập viện (Albumin $< 25\\text{ g/L}$ ở thể phù). Dùng Prealbumin để theo dõi **đáp ứng nuôi dưỡng cấp tính** mỗi $48 - 72\\text{ giờ}$.\n- **Tầng 5 (Hậu quả nếu chọn sai):** Nếu bác sĩ dựa vào Albumin để đánh giá xem chế độ ăn mới có hiệu quả hay không trong tuần đầu tiên, bác sĩ sẽ lầm tưởng bệnh nhân không đáp ứng $\\rightarrow$ Tăng khẩu phần ăn quá nhanh $\\rightarrow$ Gây Hội chứng Nuôi ăn lại tử vong!\n\n#### 2. Bilan Thiếu máu & Sắt: Cạm bẫy Ferritin tăng giả khi viêm\n- **Tầng 1:** Ferritin là phức hợp protein dự trữ sắt chính trong cơ thể; biểu hiện gen của Ferritin được kích hoạt bởi cả nồng độ sắt nội bào lẫn các cytokine tiền viêm (IL-1, IL-6, TNF-alpha).\n- **Tầng 2:** Khi trẻ bị nhiễm trùng (viêm phổi, tiêu chảy, lao), phản ứng viêm kích thích gan tăng sản xuất Ferritin máu.\n- **Tầng 3:** Công thức máu của trẻ cho thấy hồng cầu nhỏ nhược sắc rõ rệt ($\\text{MCV} < 80\\text{ fL}$, $\\text{MCH} < 27\\text{ pg}$, $\\text{RDW} > 15\\%$), nhưng xét nghiệm Ferritin lại trả về kết quả bình thường hoặc cao ($60\\text{ ng/mL}$).\n- **Tầng 4:** Ở trẻ không có viêm, Ferritin $< 15\\text{ ng/mL}$ là tiêu chuẩn vàng chẩn đoán cạn kiệt sắt. Nhưng khi có viêm (kèm CRP tăng), điểm cắt chẩn đoán phải nâng lên **$< 30\\text{ ng/mL}$**, hoặc phải kiểm tra độ bão hòa Transferrin (TSAT $< 16\\%$).\nChẩn đoán thiếu sắt: Ferritin < 15 ng/mL hoặc < 30 ng/mL khi viêm, MCV < 80 fL, MCH < 27 pg, RDW > 15% (Diagnosis and prevention of iron deficiency and iron-deficiency anemia in infants and young children) theo Baker & Greer AAP (PMID: 20923825) [DATA VERIFIED] {claim: C-005}.\n- **Tầng 5:** Nếu thấy Ferritin $25\\text{ ng/mL}$ mà kết luận trẻ \"đủ sắt\" và không bổ sung sắt khi nhiễm trùng đã ổn định $\\rightarrow$ Trẻ tiếp tục thiếu máu thiếu sắt nặng, chậm phát triển nhận thức và suy giảm vận động vĩnh viễn.\n\n---\n\n### 5.2 Đánh giá Khẩu phần ăn (Trục D - Dietary) & Thói quen nuôi dưỡng\n\nKhai thác tiền sử ăn uống nhằm bóc tách tận gốc rễ sai lầm của gia đình:\n\n**1. Phương pháp hỏi khẩu phần 24 giờ (24-Hour Dietary Recall):**\n- Bác sĩ yêu cầu người nuôi dưỡng trực tiếp nhớ lại và mô tả toàn bộ những gì trẻ đã ăn, uống trong 24 giờ trước đó (từ lúc thức dậy sáng hôm trước đến sáng hôm nay).\n- Cụ thể hóa định lượng: Dùng các vật dụng trực quan (bát ăn cơm gia đình, thìa canh $15\\text{ ml}$, thìa cà phê $5\\text{ ml}$, bình sữa có vạch $\\text{ml}$).\n\n**2. Bốn nhóm chất bắt buộc trong tô bột/cháo của trẻ:**\n- *Nhóm 1 (Chất bột đường - Glucid):* Gạo, ngô, khoai, yến mạch — cung cấp năng lượng cơ bản.\n- *Nhóm 2 (Chất đạm - Protein):* Thịt, cá, tôm, trứng, đậu đỗ — cung cấp acid amin xây dựng tế bào, kháng thể và enzym.\n- *Nhóm 3 (Chất béo - Lipid):* Dầu thực vật, mỡ động vật — cung cấp năng lượng đậm đặc ($9\\text{ kcal/g}$) và là dung môi hòa tan bắt buộc.\n- *Nhóm 4 (Rau củ quả - Vitamin & Khoáng):* Rau lá xanh thẫm, quả chín vàng/đỏ — cung cấp vi chất và chất xơ.\n\n> ⚠️ HỌC VIÊN HAY NHẦM — BẪY NƯỚC HẦM XƯƠNG: Rất nhiều gia đình ninh xương ống lấy nước nấu cháo cho con vì tin rằng \"nước xương có nhiều canxi giúp cứng xương\". Thực tế phân tích cho thấy nước hầm xương **hoàn toàn không có canxi hữu dụng, chỉ có một ít chất béo no khó tiêu và chất béo thơm, giá trị dinh dưỡng gần như bằng không**. Hơn nữa, vì nghĩ nước xương đã béo nên phụ huynh **hoàn toàn không cho thêm dầu mỡ**. Hậu quả: bữa ăn của trẻ thiếu năng lượng nghiêm trọng và cơ thể không thể hấp thu được các vitamin tan trong dầu (A, D, E, K), dẫn đến suy dinh dưỡng thấp còi, còi xương thiếu vitamin D và khô mắt mù lòa do thiếu vitamin A!\n\n**3. Khai thác Sữa & Cách pha sữa:**\n- *Trẻ bú mẹ:* Đánh giá số cữ bú ngày/đêm, thời gian mỗi cữ, khớp ngậm đúng (cằm chạm vú mẹ, quầng vú dưới ngậm nhiều hơn quầng vú trên).\n- *Trẻ uống sữa công thức:* **Bắt buộc hỏi chi tiết cách pha sữa:** Pha bao nhiêu thìa gạt với bao nhiêu ml nước ấm? Nhiều gia đình hoàn cảnh khó khăn mua hộp sữa đắt tiền nhưng lại pha loãng gấp đôi để tiết kiệm. Trẻ uống no bụng nước nhưng thiếu năng lượng trầm trọng, dẫn đến suy dinh dưỡng thể teo đét và hạ natri máu thẩm thấu!\n\n---\n\n### 5.3 Phác đồ mẫu — Điều trị và Quản lý dinh dưỡng theo phân tầng\n\n#### Phác đồ 1: Quản lý Ngoại trú Suy dinh dưỡng Cấp vừa (MAM) không biến chứng\n\n**Bệnh cảnh:** Bé 14 tháng tuổi, $WHZ = -2.4\\text{ SD}$, $MUAC = 120\\text{ mm}$, không có phù, tỉnh táo, chơi ngoan, ăn được cháo.\n\n**Kế hoạch can thiệp:**\n1. **Điều chỉnh khẩu phần ăn tại nhà:**\n   - Tăng đậm độ năng lượng của tô cháo: Mỗi bát cháo ($200\\text{ ml}$) bắt buộc có đủ: $30\\text{ g}$ thịt/cá băm nhỏ, $30\\text{ g}$ rau xanh, và **$10\\text{ ml}$ dầu ăn/mỡ lợn** khuấy đều khi cháo vừa bắc ra khỏi bếp.\n   - Cho trẻ ăn 3 bữa chính + 2–3 bữa phụ (sữa mẹ hoặc sữa chua, hoa quả chín mềm).\n2. **Bổ sung vi chất kẽm và đa vi chất:**\n   - Kẽm nguyên tố (Kẽm gluconat): $10\\text{ mg/ngày}$ uống buổi sáng sau ăn trong 14 ngày (kích thích vị giác và phục hồi biểu mô ruột).\n   - Siro đa vitamin và khoáng chất (chứa Vitamin A, D, B-complex, Sắt, Canxi) theo nhu cầu khuyến nghị (RDA) hàng ngày.\n3. **Tẩy giun định kỳ:** Nếu trẻ $\\ge 12$ tháng tuổi và chưa tẩy giun trong 6 tháng qua: Albendazole $200\\text{ mg}$ uống liều duy nhất.\n4. **Tái khám:** Sau 2 tuần để đánh giá tốc độ tăng cân.\n\n---\n\n#### Phác đồ 2: Xử trí Nội trú Suy dinh dưỡng Cấp nặng (SAM) — Phòng ngừa Hiểm họa Hội chứng Nuôi ăn lại\n\n**Bệnh cảnh:** Bé 20 tháng tuổi, $WHZ < -3\\text{ SD}$, teo cơ mông nặng, vẻ mặt cụ già, bị bỏ đói nhiều tuần do hoàn cảnh gia đình, nhập viện trong tình trạng suy kiệt nặng.\n\nPhòng hội chứng nuôi ăn lại: Khởi đầu năng lượng 80–100 kcal/kg/ngày, theo dõi sụt giảm Phospho Kali Magie 10%–30% trong 5 ngày (ASPEN Consensus Recommendations for Refeeding Syndrome) theo đồng thuận ASPEN (PMID: 32115791) [DATA VERIFIED] {claim: C-008}.\n- Tuyệt đối KHÔNG bù dinh dưỡng năng lượng cao ngay ngày đầu!\n- **Khởi đầu năng lượng thấp:** Chỉ cung cấp **$80 - 100\\text{ kcal/kg/ngày}$** (hoặc dùng sữa công thức F-75 của WHO: $75\\text{ kcal/100 ml}$, protein thấp $0.9\\text{ g/100 ml}$) chia nhỏ làm 8–12 cữ ăn trong ngày (mỗi 2–3 giờ ăn một lần).\n- **Cơ chế phòng ngừa Refeeding:**\n  $$\\text{Ăn carbohydrate từ từ} \\rightarrow \\text{Insulin tiết mức thấp ổn định} \\rightarrow \\text{Không kéo ồ ạt P, K, Mg vào nội bào} \\rightarrow \\text{Bảo tồn nồng độ Phospho máu} \\rightarrow \\text{Ngăn ngừa suy tim}$$\n- Bổ sung Thiamin (Vitamin B1): $50 - 100\\text{ mg}$ uống hoặc tiêm trước khi nạp carbohydrate (phòng biến chứng não Wernicke).\n- Theo dõi sát điện giải đồ: Định lượng Phospho, Kali, Magie máu tại thời điểm nhập viện và kiểm tra lại sau 24 giờ, 48 giờ.\n- Chỉ bắt đầu tăng dần năng lượng lên $130 - 150\\text{ kcal/kg/ngày}$ (chuyển sang F-100 hoặc RUTF) sau $3 - 5\\text{ ngày}$ khi trẻ đã ổn định lâm sàng, ăn ngon miệng và điện giải máu hoàn toàn bình thường.\n\n---\n\n### 5.4 Hướng dẫn Theo dõi, Tái khám & Tiêu chí Nhập viện\n\n**Tiêu chí bắt buộc Nhập viện điều trị Nội trú:**\n- Trẻ có phù dinh dưỡng mức độ nặng (Độ 3) hoặc phù mặt.\n- Trẻ có Suy dinh dưỡng cấp nặng (SAM: $WHZ < -3\\text{ SD}$ hoặc $MUAC < 115\\text{ mm}$) kèm theo **bất kỳ một biến chứng y khoa nào**:\n  - Không còn cảm giác thèm ăn (thất bại với test ăn RUTF).\n  - Sốt cao hoặc hạ thân nhiệt ($< 35.5^\\circ\\text{C}$).\n  - Li bì, hôn mê hoặc co giật.\n  - Viêm phổi nặng, thở nhanh rút lõm lồng ngực.\n  - Tiêu chảy mất nước nặng hoặc nôn liên tục.\n  - Thiếu máu rất nặng (lòng bàn tay trắng bệch).\n  - Tổn thương loét nhuyễn giác mạc do thiếu Vitamin A.\n\n**Lịch theo dõi và tái khám ngoại trú:**\n- **Tuần 1:** Đánh giá khả năng dung nạp thức ăn, phát hiện tiêu chảy, nôn trớ hoặc sụt cân tiếp tục.\n- **Tuần 2 & Tuần 4:** Đo lại Cân nặng và Vòng cánh tay MUAC. Tốc độ tăng cân kỳ vọng trong giai đoạn hồi phục: $\\ge 5\\text{ g/kg/ngày}$ (tốt: $\\ge 10\\text{ g/kg/ngày}$).\n- **Tháng 2 & Tháng 3:** Đo lại Chiều cao và tra lại toàn bộ Z-score (WAZ, HAZ, WHZ). Đánh giá sự hồi phục chiều cao bắt kịp (Catch-up growth).\n\n---\n\n## 6. LƯU ĐỒ QUYẾT ĐỊNH LÂM SÀNG [CỐT LÕI]\n\nDưới đây là lưu đồ tiếp cận lâm sàng chuẩn hóa, tích hợp đầy đủ nhánh cấp cứu (🛑) và nhánh Plan B khi thiếu nguồn lực:\n\n```text\n               LƯU ĐỒ TIẾP CẬN KHÁM VÀ PHÂN LOẠI DINH DƯỠNG NHI KHOA\n               \n  [Trẻ đến khám dinh dưỡng / Sàng lọc sức khỏe Nhi khoa]\n                     │\n                     ▼\n  Bước 1: Có CỜ ĐỎ CẤP CỨU đe dọa tính mạng không?\n  (Hạ đường huyết, Hạ thân nhiệt <35.5°C, Sốc/chi lạnh, Li bì, Loét giác mạc)\n  ├── CÓ → 🛑 HỒI SỨC CẤP CỨU NGAY:\n  │         • Ủ ấm, cho uống nước đường 10% ngay\n  │         • Chuyển vào Khoa Cấp cứu / Hồi sức Nhi\n  │         • Áp dụng Phác đồ 10 bước của WHO (PED-31)\n  │\n  └── KHÔNG → Bước 2: Có PHÙ DINH DƯỠNG ĐỐI XỨNG HAI BÊN không?\n      (Ấn mu chân 3 giây có vết lõm đối xứng)\n      ├── CÓ → 🛑 CHẨN ĐOÁN XÁC ĐỊNH: SUY DINH DƯỠNG CẤP NẶNG (SAM thể Kwashiorkor)\n      │         • Không phụ thuộc vào chỉ số Z-score!\n      │         • Nhập viện điều trị nội trú, cẩn trọng bẫy cân nặng giả tạo\n      │\n      └── KHÔNG → Bước 3: Đánh giá Nhân trắc (WHZ, MUAC, HAZ, WAZ, BAZ)\n          │\n          ├── [ĐẦY ĐỦ NGUỒN LỰC — PLAN A]: Đo Cân nặng chuẩn + Đo Dài/Cao chuẩn\n          │   ├── WHZ < -3 SD (hoặc BAZ < -3 SD) → 🛑 SAM (Thể teo đét Marasmus)\n          │   │   ├── Có biến chứng hoặc chán ăn → Nhập viện nội trú\n          │   │   └── Tỉnh táo, ăn được RUTF → Quản lý SAM ngoại trú\n          │   │\n          │   ├── -3 SD ≤ WHZ < -2 SD (hoặc -3 SD ≤ BAZ < -2 SD) → ⚠️ MAM (Gầy còm vừa)\n          │   │   └── Tư vấn ăn dặm đậm độ cao, bổ sung vi chất, theo dõi 2 tuần\n          │   │\n          │   ├── HAZ < -2 SD nhưng WHZ bình thường → ⚠️ THẤP CÒI (Suy dinh dưỡng mạn)\n          │   │   └── Tìm nguyên nhân mạn tính, cải thiện canxi/vitamin D/vi chất\n          │   │\n          │   ├── WHZ > +2 SD (hoặc BAZ > +2 SD) → ⚠️ THỪA CÂN / BÉO PHÌ\n          │   │   └── Tư vấn tiết chế khẩu phần, tăng vận động\n          │   │\n          │   └── Các chỉ số trong khoảng -2 SD đến +1 SD → ✅ DINH DƯỠNG BÌNH THƯỜNG\n          │       └── Đánh giá động học đường cong tăng trưởng (phát hiện chững cân sớm)\n          │\n          └── [THIẾU NGUỒN LỰC — PLAN B: Không có cân chuẩn, chỉ có thước dây]\n              ├── Dùng Thước dây Shakir đo MUAC (Trẻ 6–59 tháng):\n              │   ├── MUAC < 115 mm (Vùng Đỏ) → 🛑 SAM → Chuyển tuyến hoặc cấp RUTF\n              │   ├── 115–124 mm (Vùng Vàng) → ⚠️ MAM → Tư vấn dinh dưỡng tăng cường\n              │   └── ≥ 125 mm (Vùng Xanh) → ✅ Bình thường\n              └── Ngưỡng chuyển tuyến an toàn: Bất kỳ trẻ nào có phù mu chân hoặc sụt cân liên tục\n```\n\n**Giải thích từng bước trong lưu đồ:**\n1. **Bước 1 — Sàng lọc cấp cứu:** Không bao giờ để một đứa trẻ đang tụt đường huyết hay hạ thân nhiệt nằm chờ đo chiều cao hay hỏi tiền sử ăn uống 24 giờ. Cấp cứu luôn đi trước đánh giá thường quy.\n2. **Bước 2 — Khám phù mu chân:** Đây là động tác khám lâm sàng nhanh nhất (chỉ mất 3 giây) nhưng có giá trị quyết định chuyển thẳng bệnh nhân vào nhóm suy dinh dưỡng nặng, tránh bỏ sót Kwashiorkor.\n3. **Bước 3 — Phân nhánh Plan A vs Plan B:** Ở phòng khám tuyến huyện/tỉnh có đầy đủ cân máng và thước Stadiometer, bác sĩ áp dụng bộ chuẩn Z-score toàn diện. Tại các trạm y tế vùng cao hoặc khi đi khám dã ngoại không có cân chuẩn, thước đo MUAC là Plan B an toàn và đáng tin cậy nhất để không bỏ sót trẻ có nguy cơ tử vong.\n\n---\n\n## 7. SAI LẦM THƯỜNG GẶP — LÂM SÀNG [CỐT LÕI]\n\n| # | Sai lầm lâm sàng | Hậu quả nguy hại | Cách phòng tránh chuẩn xác |\n|---|---|---|---|\n| **1** | Cân trẻ nhỏ nhưng không tháo bỉm/tã ướt | Bỉm ướt nặng $300 - 500\\text{ g}$ làm tăng cân nặng giả tạo, đẩy Z-score từ SAM lên MAM, bỏ sót trẻ suy dinh dưỡng nặng | Bắt buộc cởi sạch bỉm và áo khoác trước khi đặt lên bàn cân |\n| **2** | Đo trẻ $\\ge 24$ tháng ở tư thế nằm (hoặc $< 24$ tháng đo đứng) mà không cộng/trừ bù trừ $0.7\\text{ cm}$ | Chiều dài đo nằm luôn dài hơn đo đứng $0.7\\text{ cm}$, làm sai lệch chỉ số HAZ và WHZ | Áp dụng triệt để quy tắc: $\\ge 24$ tháng đo nằm phải **trừ $0.7\\text{ cm}$**; $< 24$ tháng đo đứng phải **cộng $0.7\\text{ cm}$** |\n| **3** | Nhìn trẻ có má phúng phính hoặc cân nặng trong dải bình thường mà bỏ qua khám phù mu chân | Bỏ sót suy dinh dưỡng thể Kwashiorkor; trẻ bị giữ nước phù che giấu teo cơ nặng | Luôn ấn mu bàn chân 3 giây ở mọi trẻ đến khám dinh dưỡng |\n| **4** | Nuôi ăn lại ồ ạt với thức ăn giàu năng lượng ngay ngày đầu nhập viện ở trẻ đói ăn lâu ngày | Kích hoạt tiết insulin ồ ạt $\\rightarrow$ Kéo Phospho vào nội bào $\\rightarrow$ Hạ Phospho máu cấp tính $\\rightarrow$ Suy tim, loạn nhịp và tử vong do **Hội chứng Nuôi ăn lại** | Bắt đầu năng lượng thấp ($80 - 100\\text{ kcal/kg/ngày}$), chia nhỏ cữ ăn và theo dõi sát điện giải đồ |\n| **5** | Cho trẻ ăn cháo nấu bằng nước hầm xương nguyên chất mà không cho dầu mỡ | Nước xương không có canxi hữu dụng; thiếu dầu mỡ làm trẻ không hấp thu được vitamin tan trong dầu (A, D, E, K) $\\rightarrow$ Còi xương và khô mắt | Hướng dẫn phụ huynh cho $5 - 10\\text{ ml}$ dầu ăn hoặc mỡ lợn vào mỗi bát cháo, ăn cả xác thịt/cá |\n\n---\n\n## 8. BẢNG VI CHẤT VÀ LIỀU DÙNG [THAM KHẢO]\n\nDưới đây là liều lượng bổ sung các vi chất cốt lõi trong phòng ngừa và điều trị suy dinh dưỡng ở trẻ em:\n\n- **Vitamin A (Retinol):**\n  - *Liều phòng ngừa định kỳ (mỗi 6 tháng):*\n    - Trẻ 6–11 tháng: $100,000\\text{ IU}$ (viên nang màu xanh) uống 1 liều duy nhất.\n    - Trẻ 12–59 tháng: $200,000\\text{ IU}$ (viên nang màu đỏ) uống mỗi 6 tháng.\n  - *Liều điều trị khi có tổn thương mắt (quáng gà, vệt Bitot, khô giác mạc):*\n    - Uống 3 liều: Liều 1 ngay ngày đầu chẩn đoán; Liều 2 vào ngày hôm sau; Liều 3 sau 2 tuần. Liều lượng theo tuổi ($< 6$ tháng: $50,000\\text{ IU}$; 6–11 tháng: $100,000\\text{ IU}$; $\\ge 12$ tháng: $200,000\\text{ IU}$).\n- **Kẽm (Zinc):**\n  - *Liều bổ sung dinh dưỡng / Tiêu chảy:*\n    - Trẻ $< 6$ tháng: $10\\text{ mg/ngày}$ kẽm nguyên tố, uống trong 10–14 ngày.\n    - Trẻ $\\ge 6$ tháng: $20\\text{ mg/ngày}$ kẽm nguyên tố, uống trong 10–14 ngày.\n- **Sắt nguyên tố (Elemental Iron):**\n  - *Liều điều trị thiếu máu thiếu sắt:* $3 - 6\\text{ mg/kg/ngày}$ sắt nguyên tố chia làm 1–2 lần, uống giữa các bữa ăn (kèm vitamin C để tăng hấp thu), uống liên tục trong 2–3 tháng sau khi Hb đã về bình thường để bù đầy kho dự trữ Ferritin.\n  - ⚠️ *Cảnh báo an toàn:* Tuyệt đối KHÔNG cho uống sắt liều cao trong giai đoạn hồi sức ban đầu của trẻ suy dinh dưỡng nặng (vì sắt tự do là thức ăn cho vi khuẩn phát triển, dễ gây bùng phát nhiễm trùng huyết).\n- **Vitamin D3 (Cholecalciferol):**\n  - *Liều dự phòng hàng ngày:* $400\\text{ IU/ngày}$ cho trẻ bú mẹ hoàn toàn từ những ngày đầu sau sinh đến 1 tuổi; $600\\text{ IU/ngày}$ cho trẻ trên 1 tuổi.\n  - *Liều điều trị còi xương tiến triển:* $2,000\\text{ IU/ngày}$ uống liên tục trong 6–12 tuần kèm Canxi ($500\\text{ mg/ngày}$).\n\n### 8.1 Checklist An toàn Trước khi Kê Đơn Bổ sung Vi chất\n\nTrước khi kê đơn bổ sung vi chất cho trẻ suy dinh dưỡng, bác sĩ phải tự trả lời các câu hỏi sau:\n- [ ] Trẻ có đang ở trong giai đoạn cấp cứu hồi sức của SAM không? (Nếu có $\\rightarrow$ Trì hoãn bổ sung sắt cho đến khi trẻ bắt đầu thèm ăn và qua giai đoạn cấp).\n- [ ] Trẻ có đang có biểu hiện nhiễm trùng cấp tính hoặc sốt cao không?\n- [ ] Chế phẩm sắt dự kiến kê có tính theo hàm lượng **sắt nguyên tố** hay muối sắt? (Bắt buộc quy đổi về sắt nguyên tố để tránh quá liều).\n- [ ] Trẻ có tiền sử dị ứng hoặc nôn trớ với kẽm không? (Kẽm nên uống sau ăn để giảm kích ứng dạ dày).\n- [ ] Đã dặn người nhà phân biệt rõ giữa liều nhỏ giọt (Drop) và liều xi-rô (Syrup) của Vitamin D để tránh ngộ độc vitamin D cấp tính chưa?\n\n### 8.2 Điều chỉnh liều theo dân số đặc biệt\n\n- **Trẻ suy dinh dưỡng có suy thận cấp trước thận:** Trì hoãn bổ sung Kali và Magie đường uống cho đến khi trẻ có nước tiểu trở lại.\n- **Trẻ suy dinh dưỡng có bệnh lý gan mạn:** Thận trọng với các chế phẩm vitamin tan trong dầu liều cao tích lũy.\n\n---\n\n## 9. ÁP DỤNG TẠI VIỆT NAM [CỐT LÕI]\n\n- **Tình hình dịch tễ tại Việt Nam:** Theo số liệu của Viện Dinh Dưỡng Quốc Gia, tỷ lệ suy dinh dưỡng thể nhẹ cân ở trẻ dưới 5 tuổi tại Việt Nam đã giảm xuống dưới $12\\%$, tuy nhiên **tỷ lệ suy dinh dưỡng thể thấp còi (HAZ $<-2\\text{ SD}$) vẫn còn ở mức cao (khoảng $19 - 20\\%$)**, đặc biệt tập trung ở các vùng đồng bào dân tộc thiểu số miền núi phía Bắc và Tây Nguyên. Gánh nặng kép về dinh dưỡng đang gia tăng nhanh chóng: tỷ lệ thừa cân - béo phì ở học sinh khu vực đô thị lớn (Hà Nội, TP. Hồ Chí Minh) đã vượt ngưỡng $30 - 40\\%$.\n- **Văn bản pháp lý áp dụng:** Quyết định số 4487/QĐ-BYT của Bộ Y tế về *Hướng dẫn chẩn đoán và điều trị bệnh suy dinh dưỡng cấp tính ở trẻ em từ 0 đến 72 tháng tuổi*.\n- **Sản phẩm dinh dưỡng sẵn có tại Việt Nam:**\n  - *RUTF (Ready-to-Use Therapeutic Food):* Gói bột dinh dưỡng ăn liền dạng paste (như Plumpy'Nut hoặc Hebi sản xuất trong nước) được cung cấp qua các chương trình mục tiêu y tế cho trẻ SAM ngoại trú.\n  - *Sữa F-75 và F-100:* Thường chỉ có tại các bệnh viện Nhi tuyến tỉnh hoặc trung ương; tại tuyến huyện có thể tự pha chế sữa thay thế tương đương theo công thức hướng dẫn của Bộ Y tế (sữa bột nguyên kem, đường, dầu ăn và khoáng vi lượng CMV).\n- **Kế hoạch hành động linh hoạt (Plan A / Plan B):**\n  - *Plan A (Đầy đủ nguồn lực tại phòng khám đa khoa / bệnh viện):* Đánh giá đủ 4 chỉ số Z-score bằng phần mềm WHO Anthro, xét nghiệm công thức máu, Ferritin, Prealbumin, điện giải đồ, 25-OH-Vitamin D.\n  - *Plan B (Trạm y tế xã / Khám dã ngoại thiếu trang thiết bị):* Dùng thước dây đo MUAC cho trẻ 6–59 tháng, ấn mu chân 3 giây tìm phù. Trẻ có $MUAC < 115\\text{ mm}$ hoặc có phù $\\rightarrow$ Khẳng định SAM $\\rightarrow$ Hướng dẫn người nhà cho ăn cháo đậm độ cao hoặc cấp RUTF, hẹn tái khám mỗi tuần hoặc chuyển tuyến trên nếu có dấu hiệu nặng.\n\n---\n\n## 10. CASE LÂM SÀNG [NÂNG CAO]\n\n### Case 1: Đánh giá chậm tăng trưởng và sai lầm ăn dặm ở trẻ 14 tháng tuổi\n\n**Bệnh cảnh:** Bé trai 14 tháng tuổi được mẹ đưa đến khám vì \"cháu dạo này lười ăn và không tăng cân\". Tiền sử sinh đủ tháng, cân nặng lúc sinh $3.2\\text{ kg}$, bú mẹ hoàn toàn trong 6 tháng đầu. Từ 7 tháng tuổi bé ăn dặm. Mẹ kể: \"Em ngày nào cũng ninh $0.5\\text{ kg}$ xương ống lấy nước nấu cháo với gạo và thịt nạc cho con, nhưng không dám cho dầu ăn vì sợ cháu đi ngoài\". Khám thực thể: Bé tỉnh, nhanh nhẹn, da niêm mạc hồng nhạt, không có phù mu chân. Cân nặng: $8.6\\text{ kg}$ (đã cởi bỉm), Chiều dài nằm: $76.0\\text{ cm}$.\n\n**Trình tự 5 bước phân tích quyết định lâm sàng cho Case 1:**\n1. *Nhận diện nguy cơ cấp cứu ở Case 1:* Bé tỉnh táo, không hạ thân nhiệt, không suy hô hấp, không dấu hiệu mất nước $\\rightarrow$ Không có cờ đỏ cấp cứu.\n2. *Dữ kiện thay đổi xác suất:* \n   - Tra chuẩn WHO: Tại 14 tháng tuổi bé trai, Cân nặng trung vị là $10.1\\text{ kg}$, Chiều cao trung vị là $78.0\\text{ cm}$.\n   - Tính toán Z-score: $WAZ = -1.9\\text{ SD}$ (sát ngưỡng nhẹ cân), $HAZ = -0.9\\text{ SD}$ (bình thường), $WHZ = -2.1\\text{ SD}$ ($<-2\\text{ SD}$: Gầy còm cấp tính mức độ vừa - MAM).\n   - Khẩu phần ăn: Nấu cháo bằng nước hầm xương không cho dầu mỡ $\\rightarrow$ Thiếu năng lượng trầm trọng và nguy cơ thiếu vitamin tan trong dầu.\n3. *Hành động ngay:*\n   - Chẩn đoán: Suy dinh dưỡng cấp vừa (MAM) do sai lầm nuôi dưỡng.\n   - Hướng dẫn mẹ ngay tại phòng khám: Bỏ thói quen ninh nước xương; mỗi bát cháo bắt buộc cho thêm $10\\text{ ml}$ dầu ăn trẻ em; ăn cả bã thịt/cá và rau xanh băm nhỏ.\n   - Kê đơn: Kẽm gluconat $10\\text{ mg/ngày}$ uống sau ăn trong 14 ngày; Vitamin D3 $600\\text{ IU/ngày}$.\n4. *Kế hoạch theo dõi ngoại trú cho Case 1:* Hẹn tái khám sau 2 tuần để cân lại. Mục tiêu tăng cân: $\\ge 200 - 300\\text{ g}$ trong 2 tuần.\n5. *Phân tích các phương án sai cho Case 1:* Cho bé uống thuốc bổ đắt tiền mà không sửa thói quen cho dầu mỡ là sai lầm phổ biến nhất của bác sĩ, vì thiếu cơ chất năng lượng thì enzym và thuốc bổ không thể phát huy tác dụng.\n\n---\n\n### Case 2: Bẫy phù che giấu cân nặng ở trẻ suy dinh dưỡng thể Kwashiorkor\n\n**Bệnh cảnh:** Bé gái 18 tháng tuổi đến khám vì \"hai chân dạo này to ra, da bị sạm\". Khai thác mẹ cho biết bé cai sữa lúc 12 tháng, sau đó gia đình cho ăn bột sắn dây quấy với đường và nước cơm vì bé không chịu ăn thịt cá. Khám: Bé thờ ơ, mặt tròn mí mắt mọng nước, hai má bầu bĩnh. Ấn hai mu bàn chân lõm sâu tồn lưu $> 10\\text{ giây}$, phù lan lên giữa cẳng chân (Độ 2). Da vùng bẹn và đùi có các mảng bong vảy sẫm màu kiểu sơn nứt. Tóc thưa rụng nhiều, có dải tóc màu hung đỏ xen lẫn dải đen (dấu hiệu cờ). Khám bụng thấy gan mấp mé dưới bờ sườn $3\\text{ cm}$, mật độ mềm. Cân nặng: $9.8\\text{ kg}$, Chiều cao: $80.5\\text{ cm}$.\n\n**Bản đồ quyết định điều trị và hồi sức khẩn cấp cho Case 2:**\n1. *Nhận diện nguy cơ cấp cứu ở Case 2:* Trẻ thờ ơ, lãnh đạm, có gan to và phù độ 2 $\\rightarrow$ Nguy cơ nhiễm trùng huyết và hạ đường huyết rình rập. Cần kiểm tra ngay đường huyết mao mạch và nhiệt độ.\n2. *Dữ kiện phù đối xứng và gan to thoái hóa mỡ thay đổi xác suất (Case 2):* \n   - Tra Z-score: Cân nặng $9.8\\text{ kg}$ ở bé gái 18 tháng tuổi có $WAZ = -0.8\\text{ SD}$ (hoàn toàn bình thường!).\n   - Tuy nhiên, sự xuất hiện của **phù ấn lõm đối xứng hai bên** và tổn thương da sơn nứt khẳng định chẩn đoán thể **Kwashiorkor**. Cân nặng $9.8\\text{ kg}$ thực chất là do chứa $1.5 - 2\\text{ kg}$ nước phù ngoại bào!\n3. *Hành động ngay:*\n   - Chẩn đoán: Suy dinh dưỡng cấp nặng thể phù (SAM - Kwashiorkor).\n   - **Chỉ định nhập viện điều trị nội trú ngay lập tức.**\n   - Lập đường truyền hoặc đặt ống thông dạ dày nuôi dưỡng bằng sữa F-75 với năng lượng ban đầu thận trọng $80\\text{ kcal/kg/ngày}$.\n   - Làm xét nghiệm khẩn: Albumin máu (dự kiến $< 20\\text{ g/L}$), điện giải đồ (chú ý Kali và Phospho), công thức máu, đường huyết.\n4. *Kế hoạch theo dõi nội trú cho Case 2:*\n   - Theo dõi sự thoái lui của phù: Khi phù giảm dần, cân nặng của trẻ sẽ giảm xuống (ví dụ từ $9.8\\text{ kg}$ tụt xuống $8.0\\text{ kg}$), khi đó Z-score thực tế mới bộc lộ ($WHZ < -3\\text{ SD}$).\n   - Theo dõi mạch, nhịp thở mỗi 4 giờ để phát hiện suy tim do quá tải tuần hoàn.\n5. *Phân tích các phương án sai cho Case 2:* Nếu bác sĩ chỉ nhìn vào bảng cân nặng thấy $WAZ = -0.8\\text{ SD}$ rồi cho trẻ về nhà theo dõi ngoại trú, đứa trẻ có thể tử vong trong vòng 48–72 giờ vì nhiễm trùng huyết hoặc suy tim tại nhà!\n\n---\n\n### Case 3: Trẻ 2 tuổi thể teo đét Marasmus và cách phòng ngừa Hội chứng Nuôi ăn lại\n\n**Bệnh cảnh:** Bé trai 24 tháng tuổi, con thứ 5 trong một gia đình nghèo ở vùng sâu, được chuyển đến bệnh viện tỉnh vì viêm phế quản phổi và suy kiệt. Khám: Bé tỉnh nhưng quấy khóc đòi ăn liên tục, mắt trũng sâu, hai má hóp hoàn toàn lộ rõ xương hàm (vẻ mặt cụ già). Khối cơ thái dương teo nhẽo, xương sườn nhô cao, mông mất sạch nếp lằn cơ, da chùng thành nếp gấp lùng bùng. Không có phù. Cân nặng: $7.2\\text{ kg}$ (chuẩn tuổi 24 tháng là $12.2\\text{ kg}$), Chiều cao đứng: $79.0\\text{ cm}$. Tính Z-score: $WAZ = -4.2\\text{ SD}$, $HAZ = -2.8\\text{ SD}$, $WHZ = -4.1\\text{ SD}$. Xét nghiệm: Đường huyết $3.2\\text{ mmol/L}$, Albumin máu $30\\text{ g/L}$, Phospho máu $1.2\\text{ mmol/L}$ (bình thường $1.3 - 1.9\\text{ mmol/L}$).\n\n**Quy trình 5 bước phòng ngừa hội chứng nuôi ăn lại cho Case 3:**\n1. *Nhận diện nguy cơ cấp cứu ở Case 3:* Trẻ bị SAM thể teo đét cực nặng ($WHZ < -4\\text{ SD}$) có viêm phổi đi kèm $\\rightarrow$ Bắt buộc điều trị nội trú tại phòng cấp cứu dinh dưỡng.\n2. *Dữ kiện cạn kiệt phospho và nguy cơ refeeding thay đổi xác suất (Case 3):* Trẻ bị đói ăn kéo dài nhiều tháng, tế bào đã cạn kiệt Phospho dự trữ. Nếu cho ăn lượng calo lớn ngay lập tức, glucose sẽ kích thích tụy tiết insulin ồ ạt, đẩy nốt lượng Phospho ít ỏi trong máu vào nội bào $\\rightarrow$ Hạ phospho máu cấp tính $\\rightarrow$ Ngừng tim tử vong do Hội chứng Nuôi ăn lại (Refeeding Syndrome).\n3. *Hành động ngay:*\n   - Cho uống ngay Vitamin B1 (Thiamin) $50\\text{ mg}$ trước cữ ăn đầu tiên.\n   - Khởi đầu nuôi ăn bằng sữa F-75 với tổng năng lượng đúng **$80\\text{ kcal/kg/ngày}$** (tương đương với trẻ $7.2\\text{ kg}$ là $576\\text{ kcal/ngày}$, chia làm 8 cữ, mỗi cữ khoảng $95\\text{ ml}$ F-75 cách nhau 3 giờ).\n   - Bắt đầu kháng sinh điều trị viêm phổi (Ampicillin + Gentamicin theo phác đồ WHO).\n4. *Kế hoạch theo dõi điện giải và nuôi ăn cho Case 3:*\n   - Xét nghiệm lại điện giải đồ và Phospho máu sau 24 giờ và 48 giờ.\n   - Khi Phospho máu ổn định và trẻ dung nạp tốt sau 3 ngày, mới nâng dần thể tích sữa lên $100 - 130\\text{ kcal/kg/ngày}$.\n5. *Phân tích các phương án sai cho Case 3:* Thấy em bé quá gầy và luôn mồm khóc đòi ăn, nếu bác sĩ hoặc người nhà mủi lòng cho bé uống ngay một bình sữa đặc nhiều đường $200\\text{ ml}$ hoặc ăn một bát cháo đầy thịt, bé có thể lên cơn khó thở, phù phổi cấp và ngừng tim đột ngột trong đêm do hội chứng Refeeding!\n\n---\n\n## 11. TIPS THỰC HÀNH (CLINICAL PEARLS) [THAM KHẢO]\n\n1. **Tháo bỉm là nguyên tắc bất di bất dịch:** Đừng bao giờ tin vào cân nặng của một đứa trẻ đang mặc bỉm; một bỉm đầy nước tiểu có thể nặng tới nửa ký lô gam.\n2. **Quy tắc 5 điểm chạm khi đo đứng:** Gót chân, bắp chân, mông, bả vai, ụ chẩm — nếu thiếu 1 trong 5 điểm này, chiều cao đo được sẽ ngắn hơn thực tế $1 - 2\\text{ cm}$.\n3. **Mặt phẳng Frankfort là chìa khóa:** Đường nối bờ dưới ổ mắt đến bờ trên lỗ tai ngoài phải luôn nằm ngang; cúi đầu hoặc ngửa đầu đều làm sai lệch chiều cao.\n4. **Nhớ con số $0.7\\text{ cm}$:** Đo nằm luôn dài hơn đo đứng $0.7\\text{ cm}$. Trẻ lớn đo nằm phải trừ đi; trẻ nhỏ đo đứng phải cộng thêm.\n5. **Tay trái và điểm giữa cho MUAC:** Luôn đo tay trái ở điểm giữa của đường nối mỏm cùng vai và mỏm khuỷu; đo lệch lên trên hoặc xuống dưới $1\\text{ cm}$ sẽ cho kết quả sai lệch hoàn toàn.\n6. **Thước dây Shakir là vũ khí chống tử vong:** Ba màu Đỏ ($<115\\text{ mm}$), Vàng ($115 - 124\\text{ mm}$), Xanh ($\\ge 125\\text{ mm}$) giúp sàng lọc cộng đồng chỉ trong 10 giây.\n7. **Có phù là SAM, không cần nhìn cân:** Phù dinh dưỡng đối xứng hai bên tự động xác lập chẩn đoán Suy dinh dưỡng cấp nặng thể Kwashiorkor.\n8. **Đừng để má bầu bĩnh đánh lừa:** Lớp mỡ má Bichat mất cuối cùng; trẻ vẫn có thể bị suy dinh dưỡng nặng dù hai má trông vẫn tròn trịa.\n9. **Nhìn cơ mông để thấy da bọc xương:** Nếp lằn mông mất và da xếp nếp lùng bùng là dấu hiệu kinh điển của teo cơ nặng trong Marasmus.\n10. **Prealbumin nhạy hơn Albumin gấp 10 lần:** Đánh giá đáp ứng dinh dưỡng cấp tính trong 3 ngày nằm viện phải dựa vào Prealbumin ($T_{1/2} = 2\\text{ ngày}$), không dùng Albumin ($T_{1/2} = 20\\text{ ngày}$).\n11. **Bắt đầu chậm, đi từ từ để tránh Refeeding:** Trẻ đói lâu ngày chỉ được khởi đầu $80 - 100\\text{ kcal/kg/ngày}$; tăng calo quá nhanh sẽ giết chết bệnh nhân bằng bão insulin.\n12. **Dầu mỡ là linh hồn của tô cháo:** Nấu cháo không có dầu mỡ thì vitamin A và D không thể hấp thu; luôn dặn bà mẹ cho $5 - 10\\text{ ml}$ dầu ăn vào mỗi bát bột/cháo.\n\n---\n\n## 11b. BỆNH HỌC CHUYÊN SÂU [NÂNG CAO]\n\n### Cơ chế phân tử của Gan ứ mỡ trong Thể Kwashiorkor\nTại sao trẻ thể Kwashiorkor lại bị gan to thoái hóa mỡ (Fatty liver) trong khi trẻ thể Marasmus gan lại hoàn toàn bình thường?\n- Cơ chế nằm ở sự tổng hợp của **Apolipoprotein B-100 (Apo B-100)** tại lưới nội chất của tế bào gan.\n- Ở trẻ Kwashiorkor, khẩu phần ăn chỉ có chất bột đường mà thiếu hụt acid amin trầm trọng. Gan vẫn nhận được năng lượng từ carbohydrate và tổng hợp nên Triglyceride từ glucose thừa. Tuy nhiên, do thiếu hụt các acid amin thiết yếu (đặc biệt là methionine, choline và lysine), tế bào gan **không thể tổng hợp được protein vỏ bọc Apolipoprotein B-100**.\n- Thiếu Apo B-100, triglyceride không thể được đóng gói thành các hạt lipoprotein tỷ trọng rất thấp (VLDL) để xuất bào ra khỏi gan vào máu tuần hoàn. Kết quả là toàn bộ mỡ bị ứ đọng lại trong các bóng mỡ nội bào của tế bào nhu mô gan, đẩy nhân tế bào ra rìa và làm gan sưng to, mềm, vàng óng khi sinh thiết.\n\n### Sinh lý bệnh phân tử của Hội chứng Nuôi ăn lại (Refeeding Syndrome)\n- **Chuỗi phản ứng phân tử:**\n  $$\\text{Đói lâu ngày} \\rightarrow \\text{Dị hóa mỡ & thể ceton} \\rightarrow \\text{Insulin nền rất thấp} \\rightarrow \\text{Ăn nhiều glucose đột ngột} \\rightarrow \\text{Tụy tiết bão Insulin}$$\n  $$\\rightarrow \\text{Insulin kích hoạt bơm } \\text{Na}^+\\text{-K}^+\\text{-ATPase} \\text{ và đồng vận chuyển Na-Phospho} \\rightarrow \\text{Phospho, Kali, Magie bị hút ồ ạt vào tế bào}$$\n  $$\\rightarrow \\text{Nồng độ Phospho ngoại bào tụt tự do} \\rightarrow \\text{Mất nguyên liệu tổng hợp ATP và 2,3-DPG} \\rightarrow \\text{Hồng cầu giảm nhả oxy, cơ tim liệt co bóp} \\rightarrow \\text{Suy tim cấp & Loạn nhịp ngừng tim}$$\n\n---\n\n## 11c. BẢNG TRA NHANH — 1 PHÚT TẠI PHÒNG KHÁM [THAM KHẢO]\n\n| Câu hỏi lâm sàng | Trả lời nhanh tại giường bệnh |\n|---|---|\n| **Khi nào chẩn đoán SAM?** | $WHZ < -3\\text{ SD}$ HOẶC $MUAC < 115\\text{ mm}$ HOẶC Có phù dinh dưỡng đối xứng hai bên |\n| **Khi nào chẩn đoán MAM?** | $-3\\text{ SD} \\le WHZ < -2\\text{ SD}$ HOẶC $115\\text{ mm} \\le MUAC < 125\\text{ mm}$ (không có phù) |\n| **Khi nào chẩn đoán Thấp còi?** | $HAZ < -2\\text{ SD}$ (phản ánh suy dinh dưỡng mạn tính tích lũy) |\n| **Khi nào chẩn đoán Nhẹ cân?** | $WAZ < -2\\text{ SD}$ (chỉ dùng cho trẻ dưới 10 tuổi) |\n| **Cộng hay trừ $0.7\\text{ cm}$?** | Trẻ $\\ge 24$ tháng đo nằm $\\rightarrow$ **Trừ $0.7\\text{ cm}$**; Trẻ $< 24$ tháng đo đứng $\\rightarrow$ **Cộng $0.7\\text{ cm}$** |\n| **Khởi đầu calo ở trẻ đói lâu ngày?** | Bắt đầu thấp: **$80 - 100\\text{ kcal/kg/ngày}$**; dùng F-75; chia 8 cữ/ngày |\n| **Cờ đỏ cần chuyển tuyến cấp cứu?** | Hạ nhiệt độ $< 35.5^\\circ\\text{C}$, Đường huyết $< 3.0\\text{ mmol/L}$, Chi lạnh, Li bì, Phù độ 3, Loét giác mạc |\n\n---\n\n## 11d. SO SÁNH CÁC PHÁC ĐỒ — Khi nào chọn cái nào? [THAM KHẢO]\n\n| Tiêu chí quyết định | MAM ngoại trú tại nhà | SAM không biến chứng ngoại trú | SAM có biến chứng nội trú |\n|---|---|---|---|\n| **Tiêu chuẩn vào** | $-3 \\le WHZ < -2\\text{ SD}$ hoặc MUAC $115 - 124\\text{ mm}$ | $WHZ < -3\\text{ SD}$ hoặc MUAC $< 115\\text{ mm}$, tỉnh táo, ăn được | SAM có phù độ 3, bỏ ăn, sốt cao, hạ thân nhiệt, biến chứng |\n| **Sản phẩm dinh dưỡng** | Thức ăn gia đình đậm độ cao + Bổ sung kẽm/vi chất | Gói RUTF ăn liền ($150 - 185\\text{ kcal/kg/ngày}$) | Sữa F-75 giai đoạn đầu ($80 - 100\\text{ kcal/kg/ngày}$), sau đó lên F-100 |\n| **Theo dõi điện giải** | Không bắt buộc | Không bắt buộc nếu ăn tốt | Bắt buộc định lượng P, K, Mg, đường huyết |\n| **Nơi quản lý** | Trạm y tế / Ngoại trú | Trạm y tế / Ngoại trú | Khoa Cấp cứu / Dinh dưỡng bệnh viện |\n\n---\n\n## 11e. DẤU HIỆU ĐÁP ỨNG ĐIỀU TRỊ [CỐT LÕI]\n\n**Đáp ứng tốt — Tiếp tục phác đồ:**\n- Trẻ bắt đầu thèm ăn trở lại, tươi tỉnh, linh hoạt, hết vẻ mặt u sầu.\n- Phù dinh dưỡng thoái lui hoàn toàn (ở thể Kwashiorkor).\n- Tốc độ tăng cân đạt mục tiêu: $\\ge 5\\text{ g/kg/ngày}$ (mức trung bình) hoặc $\\ge 10\\text{ g/kg/ngày}$ (mức tốt).\n- Prealbumin huyết thanh tăng rõ rệt sau 48–72 giờ.\n\n**Thất bại điều trị — Cần rà soát và hội chẩn:**\n- Trẻ không tăng cân hoặc tiếp tục sụt cân sau 7 ngày can thiệp.\n- Tốc độ tăng cân dưới $5\\text{ g/kg/ngày}$ dù đã cung cấp đủ năng lượng (cần tìm ổ nhiễm trùng ẩn giấu: lao, nhiễm trùng tiết niệu, HIV, trào ngược).\n- Phù không giảm hoặc nặng thêm sau 7 ngày dùng F-75.\n\n---\n\n## 11f. CÂU HỎI BỆNH NHÂN THƯỜNG HỎI (Patient FAQ) [THAM KHẢO]\n\n**\"Bác sĩ ơi, em ninh nước xương ống nấu cháo cho cháu hàng ngày có tốt không?\"**\n→ Nước hầm xương chỉ có mùi thơm và chất béo khó tiêu, hầu như không có canxi và rất ít đạm. Nấu cháo bằng nước xương không cho dầu mỡ sẽ làm bé bị thiếu năng lượng và còi xương. Mẹ nên nấu cháo bằng nước thường hoặc nước luộc gà/thịt, bắt buộc băm nhỏ thịt/cá cho con ăn cả xác và cho thêm 1 thìa canh dầu ăn vào bát cháo của bé.\n\n**\"Con em nhìn mặt vẫn tròn trịa, má bầu bĩnh thì làm sao bị suy dinh dưỡng được?\"**\n→ Ở trẻ em, lớp mỡ ở má là nơi cuối cùng bị teo đi. Nhiều bé bị suy dinh dưỡng nặng hoặc bị thể phù Kwashiorkor mặt vẫn tròn như mặt trăng rằm nhưng tay chân đã teo hết cơ. Bác sĩ phải đo chiều cao, cân nặng và ấn mu bàn chân thì mới biết chính xác được.\n\n---\n\n## 12. TÓM TẮT & TỔNG KẾT — 10 ĐIỂM CẦN NHỚ [CỐT LÕI]\n\n1. Tiếp cận dinh dưỡng nhi khoa phải dựa trên 4 trục **ABCD**: Nhân trắc (A), Cận lâm sàng (B), Lâm sàng (C) và Khẩu phần (D).\n2. Luôn cởi bỏ bỉm/tã ướt trước khi cân trẻ; bỉm ướt nặng $300 - 500\\text{ g}$ sẽ làm biến dạng toàn bộ chẩn đoán.\n3. Chiều dài đo nằm luôn dài hơn chiều cao đo đứng $0.7\\text{ cm}$; luôn nhớ quy tắc cộng/trừ bù trừ khi điều kiện đo bị đảo ngược.\n4. Thước dây Shakir đo vòng cánh tay (MUAC) ở trẻ 6–59 tháng tuổi là công cụ sàng lọc cộng đồng xuất sắc: Đỏ ($<115\\text{ mm}$), Vàng ($115 - 124\\text{ mm}$), Xanh ($\\ge 125\\text{ mm}$).\n5. Bốn chỉ số Z-score WHO: WAZ (nhẹ cân, $<10$ tuổi), HAZ (thấp còi mạn tính), WHZ (gầy còm cấp tính, $<5$ tuổi), BAZ (BMI theo tuổi, 5–19 tuổi).\n6. Đường biểu diễn cân nặng đi ngang trong 2–3 tháng (Flattening) hoặc cắt kênh percentiles là cờ đỏ suy dinh dưỡng sớm cần can thiệp ngay.\n7. Phù dinh dưỡng mềm ấn lõm đối xứng hai bên tự động xác lập chẩn đoán Suy dinh dưỡng cấp nặng (SAM thể Kwashiorkor) bất kể Z-score.\n8. Gan to thoái hóa mỡ trong Kwashiorkor là do thiếu Apolipoprotein B-100 để vận chuyển triglyceride ra khỏi gan.\n9. Prealbumin có thời gian bán hủy 2 ngày, là chỉ số nhạy nhất đánh giá đáp ứng dinh dưỡng cấp tính trong 48–72 giờ.\n10. Nuôi ăn lại trẻ đói lâu ngày phải khởi đầu năng lượng thấp ($80 - 100\\text{ kcal/kg/ngày}$) để phòng ngừa tử vong do Hội chứng Nuôi ăn lại (Refeeding Syndrome).\n\n---\n\n### 🛑 TỰ KIỂM TRA CUỐI BÀI\n\n> **Câu 1:** Tại sao trẻ dưới 24 tháng tuổi bắt buộc phải đo chiều dài nằm bằng thước hộp Infantometer mà không đo chiều cao đứng?\n>\n> *(Đáp án: Trẻ dưới 24 tháng tuổi chưa hoàn thiện trương lực cơ và độ cong sinh lý của cột sống, các khớp sụn lỏng lẻo. Đo nằm giúp giải phóng tải trọng trọng lực, kéo thẳng cột sống và cố định đầu - gót chân chính xác, tránh sai số do tư thế đứng chùng gối hoặc ưỡn bụng.)*\n>\n> **Câu 2:** Phân biệt cơ chế gây phù trong Hội chứng Thận hư vs Phù dinh dưỡng trong Kwashiorkor?\n>\n> *(Đáp án: Hội chứng Thận hư phù do mất protein ồ ạt qua màng lọc cầu thận bị tổn thương (tiểu đạm ngưỡng thận hư); Kwashiorkor phù do thiếu hụt protein nặng nề từ khẩu phần ăn dẫn đến gan suy giảm tổng hợp albumin máu, kèm theo tăng tính thấm thành mạch và giữ muối nước.)*\n>\n> **Câu 3:** Một trẻ 18 tháng tuổi nặng $7.0\\text{ kg}$, $WHZ < -3\\text{ SD}$, không có phù, không sốt, ăn hết 1 gói RUTF tại phòng khám. Trẻ nên được điều trị nội trú hay ngoại trú?\n>\n> *(Đáp án: Trẻ bị SAM không có biến chứng y khoa và vượt qua test thử ăn RUTF (Appetite test dương tính) $\\rightarrow$ Đủ tiêu chuẩn điều trị ngoại trú tại cộng đồng theo khuyến cáo WHO 2023, cấp RUTF và hẹn tái khám hàng tuần.)*\n\n---\n\n## 13. TÀI LIỆU THAM KHẢO\n\n1. **Myatt M, Khara T, Collins S. (2006)** \"A review of methods to detect cases of severely malnourished children in the community for their admission into community-based therapeutic care programs.\" *Food Nutr Bull.* PMID: **17076211**. [DATA VERIFIED]\n2. **WHO Multicentre Growth Reference Study Group (2006)** \"WHO Child Growth Standards based on length/height, weight and age.\" *Acta Paediatr Suppl.* PMID: **16817681**. [DATA VERIFIED]\n3. **de Onis M, Onyango AW, Borghi E, et al. (2007)** \"Development of a WHO growth reference for school-aged children and adolescents.\" *Bull World Health Organ.* PMID: **18026621**. [DATA VERIFIED]\n4. **Beck FK, Rosenthal TC. (2002)** \"Prealbumin: a marker for nutritional evaluation.\" *Am Fam Physician.* PMID: **11989633**. [DATA VERIFIED]\n5. **Baker RD, Greer FR; Committee on Nutrition American Academy of Pediatrics. (2010)** \"Diagnosis and prevention of iron deficiency and iron-deficiency anemia in infants and young children (0-3 years of age).\" *Pediatrics.* PMID: **20923825**. [DATA VERIFIED]\n6. **Holick MF, Binkley NC, Bischoff-Ferrari HA, et al. (2011)** \"Evaluation, treatment, and prevention of vitamin D deficiency: an Endocrine Society clinical practice guideline.\" *J Clin Endocrinol Metab.* PMID: **21646368**. [DATA VERIFIED]\n7. **Hess SY, Peerson JM, King JC, Brown KH. (2003)** \"Suggested lower cutoffs of serum zinc concentrations for assessing zinc status: reanalysis of the second National Health and Nutrition Examination Survey data (NHANES II).\" *Am J Clin Nutr.* PMID: **14522734**. [DATA VERIFIED]\n8. **da Silva JSV, Seres DS, Sabino K, et al. (2020)** \"ASPEN Consensus Recommendations for Refeeding Syndrome.\" *Nutr Clin Pract.* PMID: **32115791**. [DATA VERIFIED]\n9. **World Health Organization (2023)** \"WHO guideline on the prevention and management of wasting and nutritional oedema (acute malnutrition) in infants and children under 5 years.\" *Geneva: World Health Organization.* [GUIDELINE VERIFIED]\n10. **Bộ Y tế Việt Nam (2020)** \"Hướng dẫn chẩn đoán và điều trị bệnh suy dinh dưỡng cấp tính ở trẻ em từ 0 đến 72 tháng tuổi (Ban hành kèm theo Quyết định số 4487/QĐ-BYT).\" *Hà Nội: Bộ Y tế.* [GUIDELINE VERIFIED]\n",
       "pedytb_file": "PED-30_Danh_gia_dinh_duong_PEDYTB.md",
       "pedytb_content": "# GIÁO TRÌNH NHI KHOA (BAREM BỘ MÔN): KHÁM VÀ ĐÁNH GIÁ DINH DƯỠNG TRẺ EM (PED-30)\n\n**Mã bài:** PEDYTB-30 | **Bộ môn:** Nhi khoa Đại học Y Dược Thái Bình / Proxy chuẩn hóa Y6  \n**Chủ đề:** Khám lâm sàng dinh dưỡng, Kỹ thuật nhân trắc học, Z-score WHO, Phân loại suy dinh dưỡng và Xử trí ban đầu\n\n---\n\n## MỤC TIÊU HỌC TẬP (BAREM THI TỰ LUẬN)\n1. Trình bày được kỹ thuật cân đo nhân trắc học chuẩn (Cân nặng, Chiều dài nằm, Chiều cao đứng, Vòng cánh tay MUAC) và quy tắc chuyển đổi bù trừ.\n2. Trình bày được phân loại tình trạng dinh dưỡng trẻ em theo chuẩn Z-score của Tổ chức Y tế Thế giới (WHO 2006 & 2007): WAZ, HAZ, WHZ, BAZ.\n3. Mô tả được kỹ thuật khám phát hiện phù dinh dưỡng, đánh giá lớp mỡ dưới da, teo cơ và checklist phát hiện thiếu hụt vi chất từ đầu đến chân.\n4. Phân biệt được hai thể suy dinh dưỡng nặng kinh điển: Thể Teo đét (Marasmus) và Thể Phù (Kwashiorkor).\n5. Trình bày được chỉ định cận lâm sàng dinh dưỡng (Albumin, Prealbumin, Bilan sắt, Vitamin D, Kẽm) và phương pháp đánh giá khẩu phần 24 giờ.\n6. Nêu được 2 bẫy lâm sàng nguy hiểm: Bẫy phù che giấu cân nặng giả tạo và Hiểm họa Hội chứng Nuôi ăn lại (Refeeding Syndrome).\n\n---\n\n## PHẦN 1: MÔ HÌNH 4 TRỤC ABCD TRONG THĂM KHÁM DINH DƯỠNG\n```text\n                  BẢN ĐỒ TIẾP CẬN THĂM KHÁM DINH DƯỠNG NHI KHOA\n  ┌──────────────────┬──────────────────┬──────────────────┬──────────────────┐\n  │ A (Nhân trắc)    │ B (Cận lâm sàng) │ C (Lâm sàng)     │ D (Khẩu phần)    │\n  │ W, H, HC, MUAC,  │ Albumin, Pre-alb,│ Khám từ đầu-chân,│ 24h Recall,      │\n  │ Z-Score chuẩn WHO│ Bilan máu, Sắt, D│ Phù, Mỡ, Teo cơ  │ 4 nhóm thực phẩm │\n  └──────────────────┴──────────────────┴──────────────────┴──────────────────┘\n```\n\n---\n\n## PHẦN 2: TRỤC A — ANTHROPOMETRY (KỸ THUẬT NHÂN TRẮC HỌC CHUẨN)\n\n### 1. Kỹ thuật cân đo Cân nặng & Chiều dài/Chiều cao\n* **Cân nặng (Weight):**\n  * Trẻ dưới 2 tuổi: Dùng cân máng điện tử, đặt trẻ nằm hoặc ngồi giữa máng.\n  * Trẻ từ 2 tuổi trở lên: Dùng cân đứng, trẻ đứng giữa bàn cân, mắt nhìn thẳng.\n  * Nguyên tắc: Cởi bỏ hết áo khoác ngoài, giày dép, **bắt buộc tháo bỉm/tã** (một bỉm đầy nước tiểu có thể nặng tới 300–500 g, làm sai lệch chẩn đoán).\n* **Chiều dài nằm (Recumbent Length) vs Chiều cao đứng (Standing Height):**\n  * Trẻ dưới 24 tháng tuổi (hoặc dưới 87 cm): **BẮT BUỘC ĐO CHIỀU DÀI NẰM** bằng thước hộp đo nằm (Infantometer). Cần 2 người đo: 1 người giữ đầu trẻ chạm thanh chặn trên (mặt phẳng mắt - tai vuông góc với giường), 1 người giữ thẳng 2 đầu gối và đẩy thanh trượt áp sát vào 2 gót chân.\n  * Trẻ từ 24 tháng tuổi trở lên: **ĐO CHIỀU CAO ĐỨNG** bằng thước đứng (Stadiometer). Bỏ giày dép, đứng thẳng theo **5 điểm chạm vào mặt phẳng thước:** (1) Gót chân, (2) Bắp chân, (3) Mông, (4) Bả vai, (5) Ụ chẩm. Mắt nhìn ngang theo mặt phẳng Frankfort.\n  * **Quy đổi bắt buộc:** Nếu trẻ từ 2 tuổi trở lên nhưng bắt buộc phải đo nằm thì lấy kết quả **trừ đi 0.7 cm**. Nếu trẻ dưới 2 tuổi nhưng đo đứng thì lấy kết quả **cộng thêm 0.7 cm**.\n\n---\n\n### 2. Kỹ thuật đo Vòng cánh tay (MUAC - Mid-Upper Arm Circumference)\n* **Đối tượng:** Áp dụng cho trẻ từ 6 đến 59 tháng tuổi.\n* **Vị trí đo:** Tay trái, gập khuỷu tay 90 độ. Xác định điểm giữa của đường nối từ mỏm cùng vai (Acromion) đến mỏm khuỷu (Olecranon). Thả lỏng tay xuôi theo thân mình, quấn thước dây vòng quanh điểm giữa này (thước áp sát da, không bóp thít mô mềm).\n* **Thang màu chuẩn của Thước dây Shakir (Đánh giá Suy dinh dưỡng cấp):**\n  * **ĐỎ (< 115 mm):** Suy dinh dưỡng cấp nặng (SAM) — Nguy cơ tử vong rất cao, cần can thiệp cấp cứu!\n  * **VÀNG (115–124 mm):** Suy dinh dưỡng cấp vừa (MAM) — Cần can thiệp bổ sung dinh dưỡng.\n  * **XANH (≥ 125 mm):** Dinh dưỡng bình thường — Không có nguy cơ gầy còm cấp tính.\n\n---\n\n### 3. Phân loại tình trạng dinh dưỡng theo Chỉ số Z-Score của WHO (2006 & 2007)\nDùng phần mềm WHO Anthro hoặc bảng chuẩn để tra các chỉ số dựa trên Cân nặng (W), Chiều cao/dài (H), Tuổi (A):\n\n| Chỉ số Z-Score | Ý nghĩa lâm sàng đánh giá | Ngưỡng < -2 SD | Ngưỡng < -3 SD | Ngưỡng > +2 SD |\n| :--- | :--- | :--- | :--- | :--- |\n| **WAZ** (Weight-for-Age) | **Nhẹ cân (Underweight):** Phản ánh tổng thể, không phân biệt thiếu cân mới xảy ra hay thấp bé lâu ngày. (Chỉ dùng cho trẻ dưới 10 tuổi). | Nhẹ cân vừa | Nhẹ cân rất nặng | Xem xét thừa cân (cần đối chiếu WHZ/BAZ) |\n| **HAZ** (Height-for-Age) | **Thấp còi (Stunting):** Phản ánh suy dinh dưỡng mạn tính kéo dài, di chứng thiếu hụt dinh dưỡng lâu ngày. | Thấp còi vừa | Thấp còi rất nặng | Rất cao (> +3 SD: nghi ngờ u tuyến yên) |\n| **WHZ** (Weight-for-Height)<br>(Trẻ < 5 tuổi) | **Gầy còm (Wasting):** Phản ánh suy dinh dưỡng cấp tính, sụt cân gần đây do ốm đau, tiêu chảy, thiếu ăn cấp tính. | Gầy còm vừa (MAM) | Gầy còm nặng (SAM) | > +2 SD: Thừa cân<br>> +3 SD: Béo phì |\n| **BAZ** (BMI-for-Age)<br>(Trẻ 5–19 tuổi) | **Chỉ số khối cơ thể theo tuổi:** Đánh giá gầy còm và thừa cân - béo phì ở trẻ lớn và vị thành niên. | Gầy còm vừa | Gầy còm nặng | > +1 SD: Thừa cân<br>> +2 SD: Béo phì<br>> +3 SD: Béo phì nặng |\n\n---\n\n## PHẦN 3: TRỤC C — CLINICAL (KHÁM LÂM SÀNG TOÀN DIỆN TỪ ĐẦU ĐẾN CHÂN)\n\n### 1. Khám Phù Dinh Dưỡng (Bilateral Pitting Edema)\n* **Kỹ thuật:** Dùng 2 ngón tay cái ấn nhẹ nhưng chắc chắn lên mặt trước xương chày hoặc mu bàn chân của cả hai bên trong vòng 3 giây, sau đó buông ra và miết nhẹ xem có vết lõm hay không.\n* **Quy tắc vàng:** Chỉ được chẩn đoán phù dinh dưỡng khi phù mềm, ấn lõm và xuất hiện **ĐỐI XỨNG HAI BÊN**.\n* **Phân độ phù dinh dưỡng (Kwashiorkor):**\n  * **Độ 1 (+):** Phù nhẹ, chỉ khu trú ở 2 mu bàn chân.\n  * **Độ 2 (++):** Phù lan lên cả 2 cẳng chân, bàn tay, cẳng tay.\n  * **Độ 3 (+++):** Phù toàn thân, phù mặt (mặt tròn như mặt trăng rằm - Moon face), phù mí mắt, tràn dịch đa màng.\n  * **Ý nghĩa:** Trẻ có phù dinh dưỡng tự động được xếp thẳng vào **SUY DINH DƯỠNG CẤP NẶNG (SAM)**, không cần nhìn chỉ số Z-score!\n\n---\n\n### 2. Đánh giá Mất Khối Mỡ Dưới Da & Teo Khối Cơ\n* **Lớp mỡ dưới da mất theo thứ tự:** Mỡ bụng → Mỡ đùi, cánh tay → Mỡ mông → Cuối cùng là Túi mỡ má (Bichat fat pad).\n  * Nếu trẻ vẫn còn má bầu bĩnh nhưng người gầy: Mới suy dinh dưỡng mức độ vừa.\n  * Nếu mất luôn cả mỡ má: Hai má hõm sâu, mắt trũng, trán nhăn nheo tạo nên vẻ mặt cụ già (Old man face) → Suy dinh dưỡng thể teo đét (Marasmus) cực kỳ nặng nề.\n* **Khối cơ:** Teo cơ thái dương (hõm thái dương), teo cơ delta, teo cơ mông (mất nếp lằn mông, dấu hiệu quần lùng bùng / da bọc xương).\n\n---\n\n### 3. Checklist khám phát hiện thiếu vi chất từ đầu đến chân (Head-to-Toe)\n1. **Đầu & Tóc:** Tóc thưa khô giòn dễ rụng (thiếu Protein/Kẽm/Sắt); Dấu hiệu cờ Flag sign (thiếu protein ngắt quãng trong Kwashiorkor); Thóp rộng chậm liền > 18 tháng, bướu trán, bướu đỉnh (còi xương do thiếu Vitamin D và Canxi).\n2. **Mắt:** Quáng gà chiều tối nhìn kém, Vệt Bitot mảng bọt xà phòng kết mạc, khô loét nhuyễn giác mạc (thiếu Vitamin A - nguy cơ mù lòa cấp).\n3. **Miệng & Răng lợi:** Viêm nứt khóe mép Cheilosis (thiếu Vitamin B2, B6); Lưỡi đỏ rực mất gai Glossitis (thiếu B12, Folate, Sắt); Chảy máu chân răng bệnh Scurvy (thiếu Vitamin C); Răng mọc chậm > 12 tháng chưa mọc răng (thiếu Vitamin D, Canxi).\n4. **Lồng ngực & Xương:** Chuỗi hạt sườn (Rachitic rosary), Rãnh Harrison kéo cơ hoành, ngực hình ức gà; Vòng cổ tay, vòng cổ chân to bè (phì đại sụn tiếp hợp); Chân cong chữ O (Genu varum) hoặc chân cong chữ X (Genu valgum) do xương mềm khi chịu lực tuổi tập đi.\n5. **Móng & Da:** Móng tay lõm hình thìa Koilonychia, lòng bàn tay nhợt nhạt (thiếu máu thiếu sắt); Mảng da bong tróc \"sơn nứt\" Flaky-paint dermatosis (thể Kwashiorkor); Viêm da quanh lỗ tự nhiên và đầu ngón chi Acrodermatitis enteropathica (thiếu Kẽm).\n\n---\n\n## PHẦN 4: SO SÁNH HAI THỂ SUY DINH DƯỠNG NẶNG (MARASMUS vs KWASHIORKOR)\n\n| Tiêu chí | Thể Teo đét (Marasmus) | Thể Phù (Kwashiorkor) |\n| :--- | :--- | :--- |\n| **Cơ chế bệnh sinh** | Thiếu hụt toàn bộ cả Năng lượng lẫn Protein (đói ăn hoàn toàn). | Thiếu hụt Protein đơn thuần, năng lượng từ tinh bột vẫn cung cấp đủ. |\n| **Cân nặng theo tuổi (WAZ)** | Giảm cực nặng (< -3 SD, thường < 60% chuẩn). | Giảm nhẹ/vừa, bị che giấu bởi tình trạng giữ nước phù. |\n| **Triệu chứng Phù** | Hoàn toàn KHÔNG CÓ PHÙ. | BẮT BUỘC PHẢI CÓ PHÙ (đối xứng 2 bên từ mu chân đến toàn thân). |\n| **Lớp mỡ dưới da** | Mất sạch hoàn toàn (mất cả túi mỡ Bichat ở má). | Còn giữ lại một phần mỡ dưới da. |\n| **Vẻ mặt** | Mặt cụ già (nhăn nheo, mắt trũng, má hóp). | Mặt tròn như mặt trăng rằm, mí mắt mọng nước. |\n| **Tổn thương Da & Tóc** | Da khô nhăn nheo, tóc tương đối bình thường. | Da nứt nẻ bong vảy sơn nứt, tóc thưa đổi màu cờ (Flag sign). |\n| **Gan** | Kích thước bình thường. | Gan to ứ mỡ (thiếu Apolipoprotein vận chuyển triglyceride). |\n| **Tâm lý & Hành vi** | Trẻ luôn thèm ăn, háu ăn, quấy khóc đòi ăn. | Trẻ chán ăn, bỏ bú, lãnh đạm, thờ ơ, u sầu với xung quanh. |\n| **Albumin máu** | Bình thường hoặc giảm nhẹ (> 28 g/L). | Giảm rất nặng (< 25 g/L, thậm chí < 15 g/L). |\n\n*Thể phối hợp (Marasmic Kwashiorkor):* Trẻ có đặc điểm thể teo đét (gầy trơ xương, mất sạch mỡ) nhưng lại xuất hiện thêm phù ở mu bàn chân/cẳng chân. Đây là thể có tiên lượng tử vong cao nhất.\n\n---\n\n## PHẦN 5: TRỤC B — BIOCHEMICAL & TRỤC D — DIETARY\n\n### 1. Bilan Cận lâm sàng dinh dưỡng\n* **Albumin huyết thanh:** Thời gian bán hủy 20 ngày, phản ánh tình trạng protein mạn tính.\n* **Prealbumin (Transthyretin):** Thời gian bán hủy 2 ngày, nhạy nhất để theo dõi đáp ứng nuôi dưỡng cấp tính trong 48–72 giờ.\n* **Bilan Sắt:** Công thức máu (Hb giảm, MCV < 80 fL, MCH < 27 pg, RDW > 15%); Ferritin < 15 ng/mL (hoặc < 30 ng/mL khi có viêm kèm theo).\n* **Bilan Xương & Còi xương:** 25-OH-Vitamin D (< 20 ng/mL là thiếu, < 12 ng/mL là thiếu nặng); Phosphatase kiềm (ALP) tăng rất cao trong còi xương tiến triển; Canxi và Phospho máu.\n* **Điện giải & Kẽm:** Chú ý Kali, Natri, Phospho và Magie máu; Kẽm huyết thanh bình thường > 10.7 µmol/L (70 µg/dL).\n\n### 2. Đánh giá Khẩu phần ăn 24 giờ (24-Hour Dietary Recall)\n* Khai thác toàn bộ thức ăn, nước uống trong 24 giờ qua: số bữa chính, bữa phụ, định lượng thực phẩm.\n* Đánh giá 4 nhóm chất: Tinh bột, Đạm, Béo (dầu mỡ 5–10 ml/bát), Rau củ quả.\n* Phát hiện bẫy nấu nước hầm xương không cho dầu mỡ (gây thiếu vitamin tan trong dầu A, D, E, K).\n* Khai thác cách pha sữa công thức (tránh pha quá loãng gây suy dinh dưỡng và hạ natri máu).\n\n---\n\n## PHẦN 6: HAI BẪY LÂM SÀNG TỬ VONG\n\n1. **Bẫy Cân nặng giả tạo ở trẻ Kwashiorkor:** Khối lượng nước phù che giấu cân nặng thực; khi phù thoái lui, cân nặng thực tụt xuống mức suy dinh dưỡng cực nặng. Không bao giờ dùng cân nặng đơn thuần để loại trừ suy dinh dưỡng khi trẻ có phù.\n2. **Hiểm họa Hội chứng Nuôi ăn lại (Refeeding Syndrome):** Nạp carbohydrate đột ngột sau bỏ đói kéo dài kích hoạt tiết Insulin ồ ạt → kéo nhanh Phospho, Kali, Magie vào nội bào → hạ Phospho máu cấp tính dẫn đến suy tim cấp, loạn nhịp và tử vong. Phòng ngừa bằng cách khởi đầu năng lượng thấp (80–100 kcal/kg/ngày) và theo dõi sát điện giải đồ.\n",
-      "cards_count": 106,
+      "cards_count": 110,
       "cards_data": [
         {
           "id": "PED30-B0-01",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Khung tiếp cận toàn diện",
           "section": "B0",
-          "text": "[Barem gốc] Mô hình 4 trục kinh điển trong thăm khám dinh dưỡng Nhi khoa (ABCD) bao gồm: (1) A là {{c1::Nhân trắc học (Anthropometry)}}; (2) B là {{c1::Cận lâm sàng (Biochemical)}}; (3) C là {{c1::Lâm sàng (Clinical)}}; (4) D là {{c1::Khẩu phần ăn (Dietary)}}.",
-          "extra": "🎯 Trả lời cốt lõi: 4 trục ABCD tạo nên cẩm nang tiếp cận toàn diện không bỏ sót.<br><br>💡 Giải thích: A (W, H, HC, MUAC), B (Albumin, Sắt, D, Kẽm), C (Khám đầu-chân, phù, mỡ, cơ), D (Hỏi khẩu phần 24h).",
+          "front": "Mô hình 4 trục kinh điển ABCD trong thăm khám dinh dưỡng Nhi khoa bao gồm những thành phần nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 4 trục thăm khám độc lập bổ trợ cho nhau:<br>1) <b>A (Anthropometry - Nhân trắc học):</b> Cân nặng, chiều cao/dài, chu vi vòng đầu, vòng cánh tay MUAC và các chỉ số Z-score chuẩn WHO.<br>2) <b>B (Biochemical - Cận lâm sàng):</b> Bilan protein (Albumin, Prealbumin), bilan sắt, chuyển hóa xương (Vitamin D, Canxi, ALP), kẽm và điện giải đồ.<br>3) <b>C (Clinical - Khám lâm sàng toàn diện):</b> Đánh giá từ đầu đến chân tìm phù dinh dưỡng, mức độ mất mỡ dưới da, teo khối cơ và các dấu hiệu thiếu vi chất.<br>4) <b>D (Dietary - Khẩu phần ăn):</b> Khai thác khẩu phần ăn 24 giờ qua, thói quen bú mẹ, cách pha sữa và sai lầm ăn dặm.<br><br><b>💡 Giải thích của AI:</b><br>Mô hình ABCD giúp bác sĩ không bao giờ sa vào cái bẫy chỉ nhìn vào cân nặng đơn thuần để kết luận đứa trẻ có suy dinh dưỡng hay không.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 0.1 Nền tảng tối thiểu cần dùng ngay)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B0",
-            "ABCD",
-            "Tong-quan"
+            "Tong-quan",
+            "ABCD"
           ]
         },
         {
           "id": "PED30-B0-02",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Mục tiêu đào tạo lâm sàng",
           "section": "B0",
-          "text": "[Barem gốc] 3 mục tiêu học tập cơ bản khi đánh giá suy dinh dưỡng trẻ em: (1) Nắm vững kỹ thuật {{c1::cân đo nhân trắc học chuẩn}}; (2) Phân loại chính xác theo {{c1::Z-score chuẩn WHO}}; (3) Phát hiện được {{c1::dấu hiệu thiếu vi chất}} và bẫy lâm sàng.",
-          "extra": "🎯 Trả lời cốt lõi: Ba mục tiêu sống còn trong barem thi lý thuyết và lâm sàng Bộ môn Nhi.<br><br>💡 Giải thích: Cần thuộc lòng để làm trọn vẹn bài thi tự luận.",
+          "front": "Nêu 4 câu hỏi chẩn đoán sống còn mà người thầy thuốc phải trả lời khi khám dinh dưỡng cho một trẻ em?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ có bị suy dinh dưỡng không và thuộc thể hình thái nào: Nhẹ cân (WAZ), Thấp còi (HAZ) hay Gầy còm (WHZ)?<br>2) Quá trình thiếu hụt này xảy ra cấp tính gần đây (do ốm đau, tiêu chảy) hay đã tích lũy âm thầm mạn tính từ lâu trong quá khứ?<br>3) Trẻ có các dấu hiệu thiếu hụt vi chất tiềm ẩn hoặc biến chứng cơ quan đe dọa tính mạng hay không?<br>4) Đâu là các bẫy lâm sàng nguy hiểm cần phòng ngừa (bẫy phù che giấu cân nặng giả tạo ở Kwashiorkor, hoặc hiểm họa Hội chứng Nuôi ăn lại Refeeding)?",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 0. Tổng quan — Vì sao bài này quan trọng?)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B0",
             "Muc-tieu",
-            "Barem"
+            "Chan-doan"
           ]
         },
         {
           "id": "PED30-B0-03",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Phân loại thể suy dinh dưỡng",
           "section": "B0",
-          "text": "[Barem gốc] Ba thể suy dinh dưỡng cơ bản theo phân loại hình thái lâm sàng: (1) Thể nhẹ cân: Cân nặng thấp so với {{c1::tuổi (WAZ)}}; (2) Thể thấp còi: Chiều cao thấp so với {{c1::tuổi (HAZ)}}; (3) Thể gầy còm: Cân nặng thấp so với {{c1::chiều cao (WHZ)}}.",
-          "extra": "🎯 Trả lời cốt lõi: 3 thể hình thái tương ứng 3 chỉ số nhân trắc học trục A.<br><br>💡 Giải thích: WAZ (nhẹ cân), HAZ (thấp còi mạn tính), WHZ (gầy còm cấp tính).",
+          "front": "Ba thể suy dinh dưỡng cơ bản theo phân loại hình thái nhân trắc học là gì và mỗi thể phản ánh điều gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thể Nhẹ cân (Underweight - WAZ &lt; -2 SD):</b> Cân nặng thấp so với tuổi; phản ánh sự thiếu hụt khối lượng tổng thể nhưng không phân biệt được mới gầy gần đây hay đã thấp bé từ lâu.<br>2) <b>Thể Thấp còi (Stunting - HAZ &lt; -2 SD):</b> Chiều cao thấp so với tuổi; phản ánh quá trình thiếu dinh dưỡng mạn tính trường diễn kéo dài trong quá khứ.<br>3) <b>Thể Gầy còm (Wasting - WHZ &lt; -2 SD):</b> Cân nặng thấp so với chiều cao; phản ánh tình trạng sụt cân cấp tính gần đây.<br><br><b>💡 Giải thích của AI:</b><br>Thể gầy còm (WHZ) là thể có nguy cơ tử vong cấp tính cao nhất do phản ánh sự suy thoái nhanh chóng của khối nạc và hệ miễn dịch.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 0.1 Nền tảng & WHO Child Growth Standards)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B0",
-            "Phan-loai",
-            "The-benh"
+            "The-suy-dinh-duong",
+            "WAZ-HAZ-WHZ"
           ]
         },
         {
           "id": "PED30-B0-04",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Nguyên lý Z-score",
           "section": "B0",
-          "text": "[Barem gốc] Suy dinh dưỡng thể Thấp còi (Stunting) phản ánh quá trình thiếu hụt dinh dưỡng {{c1::mạn tính, kéo dài trong quá khứ}}, là di chứng tích lũy lâu ngày.",
-          "extra": "🎯 Trả lời cốt lõi: Chiều cao phản ánh sự phát triển của khung xương theo thời gian dài.<br><br>💡 Giải thích: Khác với thể gầy còm phản ánh sụt cân cấp tính xảy ra gần đây.",
+          "front": "Khái niệm chỉ số Z-score (Độ lệch chuẩn) trong nhân trắc học WHO được hiểu như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Định nghĩa:</b> Z-score là khoảng cách từ giá trị nhân trắc đo được của đứa trẻ tới giá trị trung vị (Median) của quần thể chuẩn WHO, tính bằng số lần độ lệch chuẩn (Standard Deviation - SD).<br>2) <b>Công thức:</b> Z = (Giá trị đo được - Giá trị trung vị của chuẩn) / Độ lệch chuẩn của chuẩn.<br>3) <b>Ý nghĩa các mốc:</b><br>- Z = 0: Trùng với giá trị trung vị của trẻ khỏe mạnh cùng tuổi và giới.<br>- Z &lt; -2 SD: Điểm cắt xác định suy dinh dưỡng mức độ vừa.<br>- Z &lt; -3 SD: Điểm cắt xác định suy dinh dưỡng mức độ nặng.<br>- Z &gt; +2 SD: Điểm cắt xác định thừa cân / béo phì.<br><br><b>💡 Giải thích của AI:</b><br>Z-score vượt trội hơn % cân nặng chuẩn (phân loại Gomez/Wellcome) vì chuẩn hóa được sự phân tán phi đối xứng của biểu đồ tăng trưởng trẻ em.",
+          "extra": "📖 Nguồn: WHO 2006 Child Growth Standards (PMID: 16817681)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B0",
-            "Thap-coi",
-            "HAZ"
+            "Z-score",
+            "Nguyen-ly"
           ]
         },
         {
           "id": "PED30-B0-05",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Dịch tễ học dinh dưỡng",
           "section": "B0",
-          "text": "[Barem gốc] Suy dinh dưỡng thể Gầy còm (Wasting) phản ánh tình trạng thiếu hụt dinh dưỡng {{c1::cấp tính, sụt cân gần đây}} do ốm đau, tiêu chảy hoặc thiếu đói cấp.",
-          "extra": "🎯 Trả lời cốt lõi: Cân nặng theo chiều cao nhạy nhất với biến động dinh dưỡng cấp.<br><br>💡 Giải thích: WHZ là chỉ số sống còn để phát hiện nguy cơ tử vong sớm ở trẻ dưới 5 tuổi.",
+          "front": "Khái niệm 'Gánh nặng kép về dinh dưỡng' (Double Burden of Malnutrition) tại Việt Nam biểu hiện như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tồn tại song song hai thái cực:</b> Trong khi tỷ lệ suy dinh dưỡng thấp còi (HAZ &lt; -2 SD) ở trẻ em dưới 5 tuổi tại các tỉnh miền núi và Tây Nguyên vẫn còn ở mức cao (khoảng 19–20%), thì tỷ lệ thừa cân - béo phì ở học sinh các đô thị lớn (Hà Nội, TP.HCM) đã tăng vọt lên mức 30–40%.<br>2) <b>Thách thức lâm sàng:</b> Bác sĩ nhi khoa hiện đại phải thành thạo cả hai kỹ năng: điều trị phục hồi suy dinh dưỡng gầy còm cấp tính và tư vấn tiết chế vận động điều trị béo phì để dự phòng hội chứng chuyển hóa sớm.",
+          "extra": "📖 Nguồn: Viện Dinh Dưỡng Quốc Gia Việt Nam & Bài học PED-30 (Mục 9)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B0",
-            "Gay-com",
-            "WHZ"
+            "Dich-te",
+            "Ganh-nang-kep"
           ]
         },
         {
           "id": "PED30-B0-06",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Tiêu chuẩn chẩn đoán SAM",
           "section": "B0",
-          "text": "[EBM Update] Theo Hướng dẫn WHO 2023 về Wasting, Suy dinh dưỡng cấp nặng (SAM) ở trẻ 6–59 tháng tuổi được xác định khi có ít nhất 1 trong 3 tiêu chuẩn: (1) WHZ &lt; {{c1::-3 SD}}; (2) MUAC &lt; {{c1::115 mm}}; (3) {{c1::Có phù dinh dưỡng đối xứng hai bên}}.",
-          "extra": "🎯 Trả lời cốt lõi: Chỉ cần 1 trong 3 tiêu chuẩn là đủ khẳng định SAM.<br><br>💡 Giải thích: Có phù tự động xếp SAM bất kể chỉ số Z-score (WHO Guideline 2023, PMID: 17076211).",
+          "front": "Theo Hướng dẫn mới nhất của WHO năm 2023, Suy dinh dưỡng cấp nặng (SAM) ở trẻ 6–59 tháng tuổi được chẩn đoán khi có những tiêu chuẩn nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ từ 6 đến 59 tháng tuổi được chẩn đoán xác định SAM khi có <b>ít nhất 1 trong 3 tiêu chuẩn</b> sau:<br>1) <b>WHZ &lt; -3 SD:</b> Chỉ số Cân nặng theo chiều cao dưới -3 độ lệch chuẩn.<br>2) <b>MUAC &lt; 115 mm:</b> Vòng cánh tay dưới 115 mm (Vùng Đỏ trên thước dây Shakir).<br>3) <b>Có Phù dinh dưỡng đối xứng hai bên:</b> Xuất hiện phù mềm ấn lõm ở cả hai bàn chân (bất kể chỉ số Z-score lúc đó là bao nhiêu).<br><br><b>💡 Giải thích của AI:</b><br>Sự hiện diện của phù đối xứng hai bên là tiêu chuẩn độc lập và có trọng số cao nhất: trẻ có phù tự động xếp SAM vì tỷ lệ tử vong tương đương hoặc cao hơn nhóm WHZ &lt; -3 SD.",
+          "extra": "📖 Nguồn: WHO Guideline on Wasting and Nutritional Oedema (2023)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B0",
-            "SAM",
-            "WHO-2023",
-            "Tieu-chuan"
+            "Tieu-chuan-SAM",
+            "WHO-2023"
           ]
         },
         {
           "id": "PED30-B0-07",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Tiêu chuẩn chẩn đoán MAM",
           "section": "B0",
-          "text": "[EBM Update] Theo WHO 2023, Suy dinh dưỡng cấp vừa (MAM) ở trẻ 6–59 tháng tuổi được xác định khi: {{c1::-3 SD ≤ WHZ &lt; -2 SD}} HOẶC {{c1::115 mm ≤ MUAC &lt; 125 mm}}, và tuyệt đối {{c2::không có phù dinh dưỡng}}.",
-          "extra": "🎯 Trả lời cốt lõi: MAM nằm giữa ngưỡng -3 SD và -2 SD (hoặc MUAC 115–124 mm).<br><br>💡 Giải thích: Nếu xuất hiện phù thì lập tức chuyển từ MAM sang SAM ngay.",
+          "front": "Theo WHO 2023, Suy dinh dưỡng cấp vừa (MAM) ở trẻ 6–59 tháng tuổi được xác định bằng những tiêu chí nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Suy dinh dưỡng cấp vừa (MAM) được chẩn đoán khi trẻ thỏa mãn đồng thời 2 điều kiện:<br>1) <b>Nhân trắc học trong dải trung gian:</b><br>- Hoặc: <b>-3 SD ≤ WHZ &lt; -2 SD</b><br>- Hoặc: <b>115 mm ≤ MUAC &lt; 125 mm</b> (Vùng Vàng trên thước dây Shakir).<br>2) <b>Điều kiện âm tính bắt buộc:</b> Hoàn toàn <b>KHÔNG CÓ PHÙ DINH DƯỠNG</b>.<br><br><b>💡 Giải thích của AI:</b><br>MAM là giai đoạn cửa sổ can thiệp vàng: trẻ chưa có biến chứng đe dọa tính mạng, có thể điều trị phục hồi hoàn toàn bằng thức ăn gia đình giàu dinh dưỡng kết hợp bổ sung vi chất mà không cần nhập viện.",
+          "extra": "📖 Nguồn: WHO Guideline on Wasting and Nutritional Oedema (2023)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B0",
-            "MAM",
+            "Tieu-chuan-MAM",
             "WHO-2023"
           ]
         },
         {
           "id": "PED30-B0-08",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Nghiên cứu nền tảng MGRS",
           "section": "B0",
-          "text": "[EBM Update] Khái niệm Z-score (Độ lệch chuẩn) trong nhân trắc học WHO: Z-score biểu thị khoảng cách từ giá trị đo được của trẻ đến {{c1::giá trị trung vị (Median)}} của quần thể chuẩn, tính theo đơn vị {{c2::độ lệch chuẩn (SD)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Z = (X - Median) / SD (chuẩn hóa theo tuổi và giới tính).<br><br>💡 Giải thích: Khắc phục nhược điểm của phân loại Gomez hay Wellcome theo % cân nặng đơn thuần.",
+          "front": "Kết luận mang tính cách mạng của Nghiên cứu Tăng trưởng Đa trung tâm WHO 2006 (MGRS) đối với sự phát triển của trẻ em toàn cầu là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tiềm năng tăng trưởng sinh học đồng nhất:</b> Trẻ em được sinh ra ở bất kỳ đâu trên thế giới (Brazil, Ghana, Ấn Độ, Na Uy, Oman hay Hoa Kỳ) đều có tốc độ và tiềm năng phát triển thể chất giống hệt nhau trong 5 năm đầu đời nếu được nuôi bằng sữa mẹ hoàn toàn và sống trong môi trường kinh tế, vệ sinh tối ưu.<br>2) <b>Ý nghĩa thực tiễn:</b> Sự khác biệt về tầm vóc giữa các quốc gia chủ yếu do điều kiện dinh dưỡng, bệnh tật và môi trường sống chi phối, chứ không phải do gen hay chủng tộc. Do đó, chuẩn tăng trưởng WHO 2006 được áp dụng đồng nhất cho mọi trẻ em trên toàn cầu.",
+          "extra": "📖 Nguồn: WHO Multicentre Growth Reference Study Group (Acta Paediatr Suppl 2006, PMID: 16817681)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B0",
-            "Z-score",
-            "Nguyen-ly"
-          ]
-        },
-        {
-          "id": "PED30-B0-09",
-          "track": "ebm_update",
-          "card_type": "cloze",
-          "section": "B0",
-          "text": "[EBM Update] Nghiên cứu đa trung tâm chuẩn tăng trưởng WHO 2006 (MGRS) chứng minh: Trẻ em thuộc các chủng tộc khác nhau (châu Á, Âu, Phi, Mỹ) đều có {{c1::tiềm năng tăng trưởng thể chất tương đương nhau}} nếu được nuôi dưỡng trong điều kiện tối ưu.",
-          "extra": "🎯 Trả lời cốt lõi: Mọi trẻ em khỏe mạnh sinh ra đều tăng trưởng theo một quy luật sinh học chung.<br><br>💡 Giải thích: Bác bỏ quan điểm sai lầm cho rằng trẻ em châu Á mặc định phải thấp bé hơn trẻ phương Tây (PMID: 16817681).",
-          "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B0",
             "MGRS",
             "WHO-2006"
           ]
         },
         {
+          "id": "PED30-B0-09",
+          "track": "ebm_update",
+          "type": "basic",
+          "category": "Phân tầng quản lý SAM",
+          "section": "B0",
+          "front": "Theo khuyến cáo của WHO, tiêu chuẩn phân luồng trẻ SAM điều trị ngoại trú tại cộng đồng vs điều trị nội trú tại bệnh viện là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đủ điều kiện điều trị Ngoại trú:</b> Trẻ SAM không có biến chứng y khoa, tỉnh táo và <b>vượt qua test thử ăn RUTF</b> (Appetite test dương tính, ăn ngon miệng ít nhất 1/4–1/3 gói RUTF tại phòng khám).<br>2) <b>Bắt buộc Nhập viện điều trị Nội trú:</b> Khi có bất kỳ một trong các yếu tố sau:<br>- Thất bại với test thử ăn RUTF (Appetite test âm tính: chán ăn, từ chối ăn).<br>- Có phù dinh dưỡng mức độ nặng (Độ 3) hoặc phù mặt.<br>- Có biến chứng y khoa cấp tính: Sốt cao hoặc hạ thân nhiệt (&lt; 35.5°C), li bì, co giật, suy hô hấp, tiêu chảy mất nước nặng, thiếu máu nặng, loét nhuyễn giác mạc.",
+          "extra": "📖 Nguồn: WHO 2023 Wasting Guideline & Bộ Y tế QĐ 4487",
+          "tags": [
+            "Phan-luong-SAM",
+            "Appetite-test"
+          ]
+        },
+        {
           "id": "PED30-B0-10",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Cơ chế tử vong sớm trong SAM",
           "section": "B0",
-          "text": "[EBM Update] Gánh nặng kép về dinh dưỡng (Double Burden of Malnutrition) tại Việt Nam: Tỷ lệ trẻ em thấp còi ở vùng sâu vùng xa còn {{c1::khoảng 19–20%}}, trong khi tỷ lệ thừa cân - béo phì ở học sinh đô thị lớn đã vượt {{c2::30–40%}}.",
-          "extra": "🎯 Trả lời cốt lõi: Tồn tại song hành cả suy dinh dưỡng thiếu hụt lẫn béo phì thừa cân.<br><br>💡 Giải thích: Đòi hỏi bác sĩ thực hành phải nắm vững cả công cụ chẩn đoán gầy còm lẫn sàng lọc béo phì.",
+          "front": "Ba nguyên nhân trực tiếp gây tử vong nhanh nhất trong 48 giờ đầu nhập viện ở trẻ suy dinh dưỡng cấp nặng là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hạ đường huyết (Hypoglycemia &lt; 3.0 mmol/L):</b> Do cạn kiệt glycogen dự trữ tại gan và giảm tân tạo đường, dẫn đến hôn mê và ngừng thở.<br>2) <b>Hạ thân nhiệt (Hypothermia &lt; 35.5°C):</b> Do mất lớp mỡ dưới da, diện tích bề mặt cơ thể lớn và giảm chuyển hóa sinh nhiệt tế bào.<br>3) <b>Rối loạn điện giải & Quá tải tuần hoàn cấp:</b> Bác sĩ truyền dịch tĩnh mạch quá nhanh gây suy tim cấp do cơ tim bị teo nhẽo; hoặc nạp calo quá nhanh gây Hội chứng Nuôi ăn lại (Refeeding Syndrome).",
+          "extra": "📖 Nguồn: WHO Pocket Book of Hospital Care for Children & Bài học PED-30",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B0",
-            "Dich-te",
-            "Viet-Nam"
+            "Tu-vong-som",
+            "Ha-duong-huyet"
           ]
         },
         {
           "id": "PED30-B1-01",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Kỹ thuật cân trẻ em",
           "section": "B1",
-          "text": "[Barem gốc] Quy tắc chọn cân theo lứa tuổi: Trẻ dưới 2 tuổi sử dụng {{c1::cân máng điện tử}}; trẻ từ 2 tuổi trở lên sử dụng {{c1::cân đứng (cân bàn hoặc cân đòn)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Chọn đúng loại cân phù hợp với khả năng đứng vững của trẻ.<br><br>💡 Giải thích: Cân máng có độ nhạy đến 10g, an toàn cho trẻ nằm hoặc ngồi.",
+          "front": "Quy tắc chọn loại cân và nguyên tắc chuẩn bị trẻ trước khi cân trọng lượng cơ thể là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chọn loại cân theo lứa tuổi:</b><br>- Trẻ dưới 2 tuổi (hoặc chưa đứng vững): Dùng cân máng điện tử có độ chính xác đến 10g.<br>- Trẻ từ 2 tuổi trở lên: Dùng cân bàn điện tử hoặc cân đòn cơ học có độ chính xác đến 100g.<br>2) <b>Nguyên tắc chuẩn bị bắt buộc:</b><br>- Cân đặt nơi phẳng, thăng bằng, chỉnh về số 0 (Tare).<br>- Phòng cân ấm áp, kín gió.<br>- Cởi bỏ toàn bộ áo khoác ngoài, mũ, giày dép, tất chân.<br>- <b>BẮT BUỘC THÁO BỎ HOÀN TOÀN TÃ BỈM.</b> Nếu trời lạnh, chỉ để lại một lớp quần lót mỏng và trừ bì sau đó.",
+          "extra": "📖 Nguồn: Giáo trình Nhi khoa & Hướng dẫn nhân trắc WHO",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B1",
-            "Can-nang",
-            "Dung-cu"
+            "Ky-thuat-can",
+            "Thao-bim"
           ]
         },
         {
           "id": "PED30-B1-02",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Hậu quả của việc không tháo bỉm",
           "section": "B1",
-          "text": "[Barem gốc] Nguyên tắc chuẩn bị trẻ trước khi cân: Cởi bỏ hết áo khoác ngoài, giày dép và bắt buộc {{c1::tháo bỏ hoàn toàn tã bỉm}}.",
-          "extra": "🎯 Trả lời cốt lõi: Bắt buộc tháo bỉm trước khi cân trẻ.<br><br>💡 Giải thích: Một chiếc bỉm ướt đầy nước tiểu nặng tới 300–500g, làm lệch chẩn đoán phân loại Z-score.",
+          "front": "Tại sao việc không tháo bỉm ướt trước khi cân có thể làm sai lệch hoàn toàn chẩn đoán phân loại suy dinh dưỡng?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Trọng lượng nước tiểu trong bỉm:</b> Một chiếc tã bỉm thấm đầy nước tiểu của trẻ nhũ nhi có thể nặng từ 300g đến 500g.<br>2) <b>Sai lệch Z-score:</b> Ở một đứa trẻ 12 tháng tuổi nặng khoảng 9kg, 400g nước tiểu chiếm tới hơn 4% tổng trọng lượng cơ thể. Sai số này đủ sức làm tăng chỉ số Z-score lên 0.3–0.5 SD.<br>3) <b>Hậu quả lâm sàng:</b> Biến một đứa trẻ đang ở ranh giới suy dinh dưỡng nặng (SAM, Z = -3.2 SD) thành suy dinh dưỡng vừa (MAM, Z = -2.8 SD), làm mất cơ hội được can thiệp điều trị hồi sức khẩn cấp!",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 1.0 Nền tảng sinh lý nhân trắc học)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B1",
-            "Thao-bim",
-            "Can-chuan"
+            "Bim-uot",
+            "Sai-lech-Zscore"
           ]
         },
         {
           "id": "PED30-B1-03",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Quy định tư thế đo chiều cao",
           "section": "B1",
-          "text": "[Barem gốc] Quy định tư thế đo chiều dài/chiều cao theo lứa tuổi: Trẻ dưới 24 tháng tuổi bắt buộc đo {{c1::chiều dài nằm}}; trẻ từ 24 tháng tuổi trở lên bắt buộc đo {{c1::chiều cao đứng}}.",
-          "extra": "🎯 Trả lời cốt lõi: Mốc phân định 24 tháng tuổi (2 tuổi) hoặc mốc 87 cm.<br><br>💡 Giải thích: Trẻ &lt; 24 tháng đo nằm bằng thước hộp Infantometer; trẻ ≥ 24 tháng đo đứng bằng Stadiometer.",
+          "front": "Quy định bắt buộc về tư thế đo Chiều dài nằm vs Chiều cao đứng theo lứa tuổi của trẻ là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Trẻ dưới 24 tháng tuổi (hoặc chiều cao dưới 87 cm):</b> BẮT BUỘC ĐO CHIỀU DÀI NẰM (Recumbent Length) bằng thước hộp đo nằm Infantometer.<br>2) <b>Trẻ từ 24 tháng tuổi trở lên (đã biết đứng thẳng):</b> BẮT BUỘC ĐO CHIỀU CAO ĐỨNG (Standing Height) bằng thước đo đứng Stadiometer.",
+          "extra": "📖 Nguồn: WHO Child Growth Standards (2006, PMID: 16817681)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B1",
-            "Chieu-dai",
-            "Chieu-cao",
-            "Moc-tuoi"
+            "Chieu-dai-nam",
+            "Chieu-cao-dung"
           ]
         },
         {
           "id": "PED30-B1-04",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Kỹ thuật đo Infantometer",
           "section": "B1",
-          "text": "[Barem gốc] Dụng cụ chuẩn để đo chiều dài nằm ở trẻ dưới 2 tuổi là {{c1::thước hộp đo nằm (Infantometer)}} có thanh chặn đầu cố định và thanh trượt chân di động; tuyệt đối không dùng {{c2::thước dây mềm}}.",
-          "extra": "🎯 Trả lời cốt lõi: Thước hộp Infantometer với 2 người đo.<br><br>💡 Giải thích: Thước dây mềm bị co giãn và cong theo nếp gấp cơ thể làm sai số lớn.",
+          "front": "Mô tả quy trình kỹ thuật đo chiều dài nằm bằng thước hộp Infantometer với 2 người đo?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Người đo 1 (giữ đầu):</b> Đặt trẻ nằm ngửa giữa máng thước, hai mắt nhìn thẳng lên trần nhà sao cho mặt phẳng Frankfort vuông góc mặt giường; hai tay người đo ôm nhẹ hai bên tai, giữ đỉnh đầu áp sát thanh chặn cố định ở trên.<br>2) <b>Người đo 2 (bác sĩ/điều dưỡng đo):</b> Một tay đặt lên hai đầu gối của trẻ ấn nhẹ thẳng xuống mặt thước; tay kia kéo thanh trượt chân áp sát vững chắc vào hai gót chân trẻ (bàn chân vuông góc 90° với cẳng chân).<br>3) <b>Đọc kết quả:</b> Đọc chỉ số chính xác đến 0.1 cm.",
+          "extra": "📖 Nguồn: Hướng dẫn kỹ thuật nhân trắc học WHO & Bộ Y tế",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B1",
             "Infantometer",
-            "Dung-cu"
+            "2-nguoi-do"
           ]
         },
         {
           "id": "PED30-B1-05",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Kỹ thuật đo Stadiometer",
           "section": "B1",
-          "text": "[Barem gốc] Khi đo chiều cao đứng bằng thước Stadiometer, trẻ phải tiếp xúc với mặt phẳng thẳng đứng của thước tại {{c1::5 điểm chạm}}: (1) Gót chân; (2) Bắp chân; (3) Mông; (4) Bả vai; (5) Ụ chẩm đầu.",
-          "extra": "🎯 Trả lời cốt lõi: Đủ 5 điểm chạm để đảm bảo trục cơ thể hoàn toàn thẳng đứng.<br><br>💡 Giải thích: Thiếu 1 trong 5 điểm này làm chiều cao đo được ngắn hơn thực tế 1–2 cm.",
+          "front": "Kỹ thuật đo chiều cao đứng bằng thước Stadiometer quy định '5 điểm chạm' và định hướng đầu như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Năm điểm chạm vào mặt phẳng thẳng đứng của thước:</b><br>- (1) Hai gót chân (chụm chữ V nhẹ).<br>- (2) Bắp chân.<br>- (3) Hai mông.<br>- (4) Hai bả vai.<br>- (5) Ụ chẩm đầu.<br>2) <b>Định hướng đầu theo Mặt phẳng Frankfort:</b> Đường nối bờ dưới ổ mắt và gờ trên lỗ tai ngoài phải nằm trên mặt phẳng nằm ngang song song mặt sàn.<br>3) <b>Hạ thanh chặn:</b> Ép nhẹ lớp tóc dày chạm vào đỉnh đầu, đọc kết quả chính xác đến 0.1 cm.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 1.2 Kỹ thuật đo chiều cao đứng)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B1",
+            "Stadiometer",
             "5-diem-cham",
-            "Stadiometer"
+            "Frankfort"
           ]
         },
         {
           "id": "PED30-B1-06",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Quy tắc chuyển đổi bù trừ",
           "section": "B1",
-          "text": "[Barem gốc] Mặt phẳng định hướng đầu chuẩn khi đo chiều cao đứng là {{c1::Mặt phẳng Frankfort}}, xác định bằng đường thẳng nối {{c2::bờ dưới ổ mắt}} với {{c2::gờ trên lỗ tai ngoài}} song song với mặt đất.",
-          "extra": "🎯 Trả lời cốt lõi: Mặt phẳng Frankfort đảm bảo mắt nhìn thẳng ngang tầm.<br><br>💡 Giải thích: Ngửa đầu hoặc cúi đầu làm đỉnh đầu bị lệch hạ thấp chiều cao đo.",
+          "front": "Quy tắc chuyển đổi bù trừ bắt buộc ±0.7 cm giữa đo chiều dài nằm và chiều cao đứng được áp dụng như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Chiều dài đo nằm luôn dài hơn chiều cao đo đứng trung bình 0.7 cm. Do đó:<br>1) Nếu trẻ <b>≥ 24 tháng tuổi</b> nhưng bị yếu liệt, ốm nặng không đứng được mà phải đo nằm:<br>Chiều cao chuẩn hóa = Chiều dài nằm đo được - 0.7 cm<br>2) Nếu trẻ <b>&lt; 24 tháng tuổi</b> nhưng không chịu nằm, đo ở tư thế đứng:<br>Chiều dài chuẩn hóa = Chiều cao đứng đo được + 0.7 cm",
+          "extra": "📖 Nguồn: WHO Child Growth Standards (PMID: 16817681)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B1",
-            "Frankfort",
-            "Tu-the-dau"
+            "Quy-tac-07cm",
+            "Bu-tru"
           ]
         },
         {
           "id": "PED30-B1-07",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Kỹ thuật đo MUAC",
           "section": "B1",
-          "text": "[Barem gốc] Quy tắc chuyển đổi bù trừ bắt buộc: Nếu trẻ ≥ 2 tuổi nhưng bắt buộc phải đo nằm thì lấy kết quả {{c1::trừ đi 0.7 cm}}; nếu trẻ &lt; 2 tuổi nhưng đo đứng thì lấy kết quả {{c2::cộng thêm 0.7 cm}}.",
-          "extra": "🎯 Trả lời cốt lõi: Đo nằm dài hơn đo đứng trung bình 0.7 cm.<br><br>💡 Giải thích: Trẻ lớn đo nằm phải TRỪ 0.7 cm; trẻ nhỏ đo đứng phải CỘNG 0.7 cm (PMID: 16817681).",
+          "front": "Đối tượng áp dụng, vị trí xác định và kỹ thuật đo Vòng cánh tay (MUAC) bằng thước dây Shakir là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đối tượng:</b> Trẻ em từ 6 đến 59 tháng tuổi.<br>2) <b>Vị trí đo:</b> Tay trái. Gập khuỷu tay 90°, xác định điểm giữa của đường nối từ mỏm cùng vai (Acromion) đến mỏm khuỷu (Olecranon).<br>3) <b>Thao tác đo:</b> Thả lỏng tay xuôi thân mình. Quấn thước dây chuyên dụng vòng qua điểm giữa vừa đánh dấu; thước phải áp sát chu vi da phẳng phiu, không bóp thít mô mỡ mềm và không để lỏng lẻo. Đọc kết quả qua khe cửa sổ theo đơn vị mm.",
+          "extra": "📖 Nguồn: WHO 2023 Wasting Guideline & Myatt et al. (PMID: 17076211)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B1",
-            "Bu-tru-07cm",
-            "Quy-tac-vang"
+            "MUAC",
+            "Thao-tac-do"
           ]
         },
         {
           "id": "PED30-B1-08",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Phân loại màu thước Shakir",
           "section": "B1",
-          "text": "[Barem gốc] Thước dây Shakir đo vòng cánh tay (MUAC) phân loại 3 vùng màu: (1) Màu Đỏ (&lt; 115 mm) là {{c1::Suy dinh dưỡng cấp nặng (SAM)}}; (2) Màu Vàng (115–124 mm) là {{c1::Suy dinh dưỡng cấp vừa (MAM)}}; (3) Màu Xanh (≥ 125 mm) là {{c1::Dinh dưỡng bình thường}}.",
-          "extra": "🎯 Trả lời cốt lõi: Thang 3 vùng màu đo tại cánh tay trái ở điểm giữa.<br><br>💡 Giải thích: Đỏ &lt; 115mm (nguy cơ tử vong cao), Vàng 115-124mm, Xanh ≥ 125mm.",
+          "front": "Thang 3 vùng màu chuẩn trên Thước dây Shakir đo MUAC phân loại tình trạng dinh dưỡng như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 🔴 <b>VÙNG ĐỎ (&lt; 115 mm):</b> Suy dinh dưỡng cấp nặng (SAM). Trẻ có nguy cơ tử vong cao gấp 9–11 lần bình thường; cần cấp cứu hoặc đưa vào chương trình điều trị SAM khẩn cấp.<br>2) 🟡 <b>VÙNG VÀNG (115 – 124 mm):</b> Suy dinh dưỡng cấp vừa (MAM). Cần tư vấn chế độ ăn bổ sung đậm độ cao để ngăn chặn tụt xuống SAM.<br>3) 🟢 <b>VÙNG XANH (≥ 125 mm):</b> Tình trạng dinh dưỡng bình thường; không có nguy cơ gầy còm cấp tính.",
+          "extra": "📖 Nguồn: WHO Wasting Guidelines & Myatt 2006 (PMID: 17076211)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B1",
             "Shakir",
             "3-vung-mau"
           ]
@@ -19999,59 +19980,56 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED30-B1-09",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Đo chu vi vòng đầu",
           "section": "B1",
-          "text": "[Barem gốc] Kỹ thuật xác định vị trí đo vòng cánh tay (MUAC): Đo trên tay {{c1::trái}}, gập khuỷu 90 độ, tìm điểm giữa của đường nối giữa {{c2::mỏm cùng vai (Acromion)}} và {{c2::mỏm khuỷu (Olecranon)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Tay trái, điểm giữa mỏm cùng vai và mỏm khuỷu.<br><br>💡 Giải thích: Khi quấn thước phải thả lỏng tay xuôi thân mình, thước áp sát da không thít chặt mô mềm.",
+          "front": "Kỹ thuật đo Chu vi vòng đầu (OFC) và ý nghĩa lâm sàng của hai thái cực bất thường Z-score là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Kỹ thuật:</b> Dùng thước dây mềm không co giãn, quấn qua điểm nhô cao nhất của xương chẩm ở phía sau, đi qua trên vành tai hai bên và điểm gờ trên cung mày ở phía trước. Đọc số đo lớn nhất chính xác đến 0.1 cm.<br>2) <b>Ý nghĩa hai thái cực Z-score:</b><br>- <b>OFC &lt; -2 SD:</b> Tật đầu nhỏ (Microcephaly); chỉ điểm chậm phát triển não bộ, dị tật bẩm sinh hoặc di chứng suy dinh dưỡng bào thai nặng.<br>- <b>OFC &gt; +2 SD:</b> Đầu to (Macrocephaly); cần loại trừ tràn dịch não (não úng thủy) hoặc u não.",
+          "extra": "📖 Nguồn: Giáo trình Nhi khoa & Biểu đồ vòng đầu WHO",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B1",
-            "Vi-tri-MUAC",
-            "Ky-thuat"
+            "Vong-dau",
+            "OFC",
+            "Dau-nho"
           ]
         },
         {
           "id": "PED30-B1-10",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Cơ chế sinh lý chênh lệch 0.7 cm",
           "section": "B1",
-          "text": "[EBM Update] Lý do sinh lý khiến chiều dài đo nằm dài hơn chiều cao đo đứng 0.7 cm: Khi nằm ngửa, các {{c1::đĩa đệm gian đốt sống}} được giải phóng khỏi áp lực nén của trọng lực và {{c2::độ cong sinh lý cột sống}} được kéo thẳng ra.",
-          "extra": "🎯 Trả lời cốt lõi: Giải phóng tải trọng trọng lực trên cột sống.<br><br>💡 Giải thích: Khi đứng lên, trọng lực cơ thể nén các đĩa đệm và tăng độ cong ưỡn làm chiều cao giảm 0.7 cm (PMID: 16817681).",
+          "front": "Tại sao về mặt giải phẫu và sinh lý học, chiều dài đo ở tư thế nằm luôn dài hơn chiều cao đo đứng 0.7 cm?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Giải phóng trọng lực trên đĩa đệm:</b> Ở tư thế nằm ngửa, các đĩa đệm gian đốt sống được giải phóng khỏi áp lực tải trọng của toàn bộ trọng lượng cơ thể, giúp đĩa đệm nở rộng tối đa.<br>2) <b>Kéo thẳng các độ cong sinh lý:</b> Trọng lực và trương lực cơ khi nằm giúp cột sống áp sát mặt giường phẳng, kéo thẳng các độ cong ưỡn thắt lưng và gù ngực sinh lý.<br>3) <b>Khi đứng lên:</b> Trọng lực cơ thể nén các đĩa đệm xẹp xuống nhẹ và làm tăng độ cong cột sống, khiến chiều cao đứng giảm đi trung bình đúng 0.7 cm (chính xác thực nghiệm là 0.73 cm).",
+          "extra": "📖 Nguồn: WHO Child Growth Standards (PMID: 16817681)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B1",
-            "Sinh-ly-cot-song",
-            "07cm"
+            "Sinh-ly-07cm",
+            "Cot-song"
           ]
         },
         {
           "id": "PED30-B1-11",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Cơ sở sinh học của chỉ số MUAC",
           "section": "B1",
-          "text": "[EBM Update] Cơ sở khoa học của việc đo MUAC ở trẻ 6–59 tháng tuổi: Ở lứa tuổi này, chu vi cánh tay của trẻ khỏe mạnh {{c1::hầu như không thay đổi (tăng dưới 1 cm trong 4 năm)}}, nên phản ánh trực tiếp khối cơ và mỡ nạc độc lập với tuổi.",
-          "extra": "🎯 Trả lời cốt lõi: Chu vi cánh tay tương đối hằng định từ 6 đến 59 tháng.<br><br>💡 Giải thích: Giúp sàng lọc suy dinh dưỡng cấp nhanh chóng ngay cả khi không biết chính xác tuổi của trẻ.",
+          "front": "Tại sao chỉ số MUAC lại được chọn làm công cụ sàng lọc suy dinh dưỡng cấp xuất sắc ở lứa tuổi 6–59 tháng?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hằng định sinh học theo tuổi:</b> Ở trẻ em khỏe mạnh từ 6 đến 59 tháng tuổi, chu vi cánh tay hầu như tăng rất ít (tổng mức tăng dưới 1 cm trong suốt 4 năm), do sự cân bằng tự nhiên giữa giảm nhẹ lớp mỡ dưới da và tăng khối cơ.<br>2) <b>Độ nhạy cao với sụt cân cấp:</b> Khi thiếu năng lượng và protein cấp tính, cơ thể dị hóa khối cơ cánh tay và mô mỡ dưới da cực nhanh → MUAC sụt giảm mạnh mẽ.<br>3) <b>Ưu thế thực địa:</b> Độc lập với chiều cao và không đòi hỏi phải biết chính xác tháng tuổi, rất lý tưởng để sàng lọc diện rộng tại cộng đồng.",
+          "extra": "📖 Nguồn: Myatt et al. (Food Nutr Bull 2006, PMID: 17076211)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B1",
             "Co-so-MUAC",
-            "Co-mo"
+            "6-59-thang"
           ]
         },
         {
           "id": "PED30-B1-12",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Bằng chứng dự báo tử vong của MUAC",
           "section": "B1",
-          "text": "[EBM Update] Nghiên cứu Myatt et al. (2006) chứng minh: MUAC kết hợp với khám phù mu chân có {{c1::độ nhạy và giá trị dự báo tử vong cao hơn}} so với chỉ số cân nặng theo chiều cao (WHZ) trong sàng lọc cộng đồng.",
-          "extra": "🎯 Trả lời cốt lõi: MUAC &lt; 115 mm bắt trúng những trẻ có nguy cơ tử vong cao nhất.<br><br>💡 Giải thích: Dễ thực hiện, độ lặp lại cao, không cần thiết bị cồng kềnh (PMID: 17076211).",
+          "front": "Nghiên cứu của Myatt et al. (2006) đã chứng minh ưu thế vượt trội của MUAC so với chỉ số WHZ trong dự báo tử vong như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Dự báo tử vong chính xác hơn:</b> Trẻ có MUAC &lt; 115 mm có nguy cơ tử vong trong vòng vài tuần cao hơn hẳn so với những trẻ chỉ có WHZ &lt; -3 SD nhưng MUAC ≥ 115 mm.<br>2) <b>Khắc phục sai số đo chiều cao:</b> Tại thực địa, việc đo chiều cao trẻ nhỏ rất dễ sai số 1–2 cm (làm méo mó WHZ), trong khi đo MUAC có độ tin cậy và độ lặp lại giữa các quan sát viên cao hơn nhiều.<br>3) <b>Kết luận:</b> WHO chính thức đưa MUAC &lt; 115 mm thành tiêu chuẩn nhập viện điều trị SAM độc lập ngang hàng với WHZ &lt; -3 SD.",
+          "extra": "📖 Nguồn: Myatt et al. (PMID: 17076211) & WHO 2023 Guideline",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B1",
             "Myatt-2006",
             "Du-bao-tu-vong"
           ]
@@ -20059,666 +20037,628 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED30-B1-13",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Bẫy kỹ thuật đo Infantometer",
           "section": "B1",
-          "text": "[EBM Update] Đo chu vi vòng đầu (OFC) chuẩn: Thước dây đi qua điểm nhô nhất của {{c1::xương chẩm}} ở phía sau và qua {{c1::gờ trên cung mày}} ở phía trước; bất thường khi Z-score &lt; {{c2::-2 SD (tật đầu nhỏ)}} hoặc &gt; {{c2::+2 SD (đầu to/não úng thủy)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Vòng đầu phản ánh thể tích não bộ trong 2-3 năm đầu đời.<br><br>💡 Giải thích: Đầu nhỏ gợi ý chậm phát triển não hoặc suy dinh dưỡng bào thai nặng; đầu to cần loại trừ u não hoặc tràn dịch não.",
+          "front": "Những sai lầm kỹ thuật nào thường gặp khi đo Infantometer và hậu quả của chúng lên chẩn đoán là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Các sai lầm thường gặp:</b><br>- Chỉ có 1 người đo, để đầu trẻ nghiêng lệch hoặc không chạm thanh chặn trên.<br>- Đầu gối trẻ bị co gập, không được ấn thẳng áp sát máng thước.<br>- Bàn chân không gập vuông góc, đo chạm vào mũi chân thay vì gót chân.<br>2) <b>Hậu quả:</b> Chiều dài đo được ngắn hơn thực tế 1–3 cm → làm chỉ số HAZ bị thấp còi giả tạo, đồng thời làm chỉ số WHZ (Cân nặng/Chiều cao) bị tăng giả tạo, dẫn đến bỏ sót những đứa trẻ đang bị suy dinh dưỡng gầy còm cấp tính!",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 1.2 & Mục 7 Sai lầm thường gặp)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B1",
-            "Vong-dau",
-            "OFC"
+            "Bay-Infantometer",
+            "Sai-so"
           ]
         },
         {
           "id": "PED30-B1-14",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Bẫy kỹ thuật đo Stadiometer",
           "section": "B1",
-          "text": "[EBM Update] Bẫy lâm sàng khi đo MUAC: Bác sĩ kéo thước quá chặt làm {{c1::lún sâu vào lớp mỡ dưới da}} sẽ làm kết quả giả tạo giảm xuống vùng Đỏ; nếu để thước quá lỏng sẽ bỏ sót SAM.",
-          "extra": "🎯 Trả lời cốt lõi: Thước phải áp sát chu vi da mà không gây lõm mô mềm.<br><br>💡 Giải thích: Cần luyện tập thành thạo cảm giác tay trên thước dây Shakir.",
+          "front": "Hai sai lầm kinh điển khi đo chiều cao đứng Stadiometer làm kết quả ngắn hơn thực tế là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Không kiểm soát 5 điểm chạm:</b> Trẻ đứng chùng đầu gối hoặc bụng ưỡn về phía trước làm lưng cong, mông và bắp chân không chạm thước → chiều cao ngắn đi 1–2 cm.<br>2) <b>Đầu ngửa hoặc cúi (lệch mặt phẳng Frankfort):</b> Khi trẻ ngửa đầu lên trần nhà hoặc cúi gằm mặt xuống đất, đỉnh đầu không phải là điểm tiếp xúc cao nhất với thanh trượt → chiều cao đo được bị giảm giả tạo.",
+          "extra": "📖 Nguồn: Hướng dẫn kỹ thuật nhân trắc học WHO & PED-30",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B1",
-            "Bay-MUAC",
-            "Ky-thuat"
+            "Bay-Stadiometer",
+            "Frankfort"
           ]
         },
         {
           "id": "PED30-B1-15",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Bẫy lực ép khi đo MUAC",
           "section": "B1",
-          "text": "[EBM Update] Bẫy lâm sàng khi đo Infantometer 1 người: Nếu chỉ có 1 người đo, đầu trẻ dễ bị nghiêng hoặc đầu gối co gập \\→ kết quả chiều dài đo được sẽ {{c1::ngắn hơn thực tế}} \\→ tính toán chỉ số WHZ bị {{c2::tăng giả tạo (bỏ sót gầy còm)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Bắt buộc phải có 2 người đo Infantometer.<br><br>💡 Giải thích: 1 người giữ đầu áp sát thanh cố định, 1 người ấn thẳng gối và đẩy thanh trượt chân.",
+          "front": "Lực siết của thước dây ảnh hưởng như thế nào đến độ chính xác của số đo vòng cánh tay MUAC?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nếu siết quá chặt (ép lún mô mềm):</b> Do lớp mỡ và cơ của trẻ suy dinh dưỡng rất nhẽo, lực siết mạnh sẽ ép lõm sâu vào mô mềm, làm giảm kết quả đo từ 3 đến 5 mm → chẩn đoán nhầm trẻ MAM thành SAM.<br>2) <b>Nếu quấn quá lỏng:</b> Thước không áp sát da hoặc bị chùng → số đo tăng giả tạo, bỏ sót trẻ suy dinh dưỡng nặng.<br>3) <b>Chuẩn mực:</b> Thước áp sát chu vi da phẳng phiu, nhìn thấy mép thước chạm nhẹ vào bề mặt da mà không tạo nếp lằn lõm.",
+          "extra": "📖 Nguồn: Hướng dẫn sử dụng thước dây Shakir WHO/UNICEF",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B1",
-            "Bay-Infantometer",
-            "2-nguoi-do"
+            "Bay-MUAC",
+            "Luc-siet"
           ]
         },
         {
           "id": "PED30-B1-16",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Ứng dụng tính toán bù trừ chiều cao",
           "section": "B1",
-          "text": "[EBM Update] Tác động định lượng của chiếc bỉm ướt: Một trẻ 10 kg có bỉm ướt 400g chiếm {{c1::4% trọng lượng cơ thể}}, đủ để làm thay đổi Z-score cân nặng tới {{c2::0.4 SD}}, biến một trẻ SAM (-3.2 SD) thành MAM (-2.8 SD).",
-          "extra": "🎯 Trả lời cốt lõi: Cởi bỉm ướt là y lệnh bắt buộc trước khi cân.<br><br>💡 Giải thích: Bỏ sót SAM đồng nghĩa với việc trẻ không được cấp sữa điều trị F-75/RUTF và tăng nguy cơ tử vong.",
+          "front": "Tình huống: Một bé trai 28 tháng tuổi bị bó bột đùi không đứng được, đo chiều dài nằm được 89.5 cm. Chiều cao đứng chuẩn hóa để tra Z-score là bao nhiêu?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Quy tắc áp dụng:</b> Trẻ ≥ 24 tháng tuổi chuẩn mực là đo đứng. Khi bắt buộc phải đo nằm, phải <b>trừ đi 0.7 cm</b>.<br>2) <b>Tính toán:</b><br>Chiều cao đứng chuẩn hóa = 89.5 cm - 0.7 cm = 88.8 cm.<br>3) <b>Hành động:</b> Nhập con số 88.8 cm vào phần mềm WHO Anthro ở ô Standing Height để tính Z-score chuẩn xác.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 1.5 Ví dụ 1)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B1",
-            "Bim-uot",
-            "Dinh-luong"
+            "Tinh-toan-07",
+            "Tru-07"
           ]
         },
         {
           "id": "PED30-B1-17",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Ứng dụng tính toán bù trừ chiều dài",
           "section": "B1",
-          "text": "[EBM Update] Ví dụ chuyển đổi: Bé trai 26 tháng đo nằm được 84.7 cm. Chiều cao đứng chuẩn hóa để tra Z-score là: 84.7 - 0.7 = {{c1::84.0 cm}}.",
-          "extra": "🎯 Trả lời cốt lõi: Trẻ ≥ 24 tháng đo nằm phải TRỪ 0.7 cm.<br><br>💡 Giải thích: Nếu không trừ, nhập 84.7 cm sẽ làm chỉ số WHZ bị thấp giả tạo hoặc HAZ cao giả tạo.",
+          "front": "Tình huống: Một bé gái 20 tháng tuổi khóc giãy không chịu nằm, đo chiều cao đứng được 80.3 cm. Chiều dài nằm chuẩn hóa để tra Z-score là bao nhiêu?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Quy tắc áp dụng:</b> Trẻ &lt; 24 tháng tuổi chuẩn mực là đo nằm. Khi bắt buộc phải đo đứng, phải <b>cộng thêm 0.7 cm</b>.<br>2) <b>Tính toán:</b><br>Chiều dài nằm chuẩn hóa = 80.3 cm + 0.7 cm = 81.0 cm.<br>3) <b>Hành động:</b> Nhập con số 81.0 cm vào phần mềm WHO Anthro ở ô Recumbent Length để tra chuẩn tăng trưởng.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 1.5 Ví dụ 2)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B1",
-            "Vi-du-07cm",
-            "Tinh-toan"
+            "Tinh-toan-07",
+            "Cong-07"
           ]
         },
         {
           "id": "PED30-B1-18",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Ứng dụng trừ bì bỉm ướt",
           "section": "B1",
-          "text": "[EBM Update] Ví dụ chuyển đổi: Bé gái 18 tháng tuổi đo đứng được 75.3 cm. Chiều dài nằm chuẩn hóa để tra Z-score là: 75.3 + 0.7 = {{c1::76.0 cm}}.",
-          "extra": "🎯 Trả lời cốt lõi: Trẻ &lt; 24 tháng đo đứng phải CỘNG 0.7 cm.<br><br>💡 Giải thích: Đưa về đúng chuẩn chiều dài nằm của lứa tuổi dưới 24 tháng theo WHO.",
+          "front": "Tình huống: Cân một bé gái 11 tháng tuổi cả bỉm được 8.9 kg. Tháo chiếc bỉm ướt ra cân riêng được 420g. Cân nặng thực của bé là bao nhiêu và thay đổi Z-score ra sao?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cân nặng thực tế:</b><br>Cân nặng thực = 8.9 kg - 0.42 kg = 8.48 kg.<br>2) <b>Biến đổi Z-score:</b> Ở bé gái 11 tháng tuổi (trung vị chuẩn là 8.7 kg, 1 SD khoảng 0.9 kg), mức giảm 420g làm chỉ số WAZ giảm từ -0.22 SD xuống -0.69 SD.<br>3) <b>Ý nghĩa:</b> Trừ bì bỉm ướt là nguyên tắc bất di bất dịch để không làm méo mó quyết định điều trị.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 1.5 Ví dụ 3)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B1",
-            "Vi-du-cong-07",
-            "Tinh-toan"
+            "Tru-bi-bim",
+            "Thuc-hanh"
           ]
         },
         {
           "id": "PED30-B2-01",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Chỉ số WAZ",
           "section": "B2",
-          "text": "[Barem gốc] Chỉ số WAZ (Weight-for-Age) phản ánh thể suy dinh dưỡng {{c1::Nhẹ cân (Underweight)}}, chỉ được áp dụng cho trẻ dưới {{c2::10 tuổi}}.",
-          "extra": "🎯 Trả lời cốt lõi: WAZ đánh giá nhẹ cân ở trẻ &lt; 10 tuổi.<br><br>💡 Giải thích: Từ 10 tuổi trở lên trẻ bước vào dậy thì có sự phân tán lớn về tầm vóc, bắt buộc dùng BAZ.",
+          "front": "Chỉ số WAZ (Weight-for-Age) đánh giá thể suy dinh dưỡng nào, áp dụng cho lứa tuổi nào và các ngưỡng phân loại ra sao?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đánh giá:</b> Thể suy dinh dưỡng Nhẹ cân (Underweight).<br>2) <b>Lứa tuổi áp dụng:</b> Trẻ từ sơ sinh đến dưới 10 tuổi (tuyệt đối không dùng cho trẻ ≥ 10 tuổi vì dậy thì phân tán lớn).<br>3) <b>Các ngưỡng phân loại:</b><br>- WAZ &lt; -2 SD: Nhẹ cân vừa.<br>- WAZ &lt; -3 SD: Nhẹ cân nặng.<br>- WAZ &gt; +2 SD: Xem xét thừa cân (bắt buộc đối chiếu WHZ/BAZ, không chẩn đoán béo phì đơn độc).",
+          "extra": "📖 Nguồn: WHO Child Growth Standards 2006 & de Onis 2007 (PMID: 18026621)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B2",
             "WAZ",
             "Nhe-can",
-            "Duoi-10-tuoi"
+            "Nguong-Zscore"
           ]
         },
         {
           "id": "PED30-B2-02",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Chỉ số HAZ",
           "section": "B2",
-          "text": "[Barem gốc] Các ngưỡng phân loại của chỉ số WAZ: (1) WAZ &lt; -2 SD là {{c1::Nhẹ cân vừa}}; (2) WAZ &lt; -3 SD là {{c1::Nhẹ cân nặng}}; (3) WAZ &gt; +2 SD cần {{c2::đối chiếu thêm WHZ/BAZ để xác định thừa cân}}.",
-          "extra": "🎯 Trả lời cốt lõi: Ngưỡng -2 SD và -3 SD chuẩn hóa của WHO.<br><br>💡 Giải thích: WAZ không dùng đơn độc để chẩn đoán béo phì vì trẻ có thể nặng cân do khung xương to cao.",
+          "front": "Chỉ số HAZ (Height-for-Age) phản ánh điều gì, áp dụng cho lứa tuổi nào và các ngưỡng phân loại ra sao?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ý nghĩa:</b> Đánh giá thể Thấp còi (Stunting), phản ánh sự thiếu hụt dinh dưỡng và ốm đau mạn tính trường diễn tích lũy trong quá khứ.<br>2) <b>Lứa tuổi áp dụng:</b> Áp dụng cho toàn bộ trẻ từ 0 đến 19 tuổi.<br>3) <b>Các ngưỡng phân loại:</b><br>- HAZ &lt; -2 SD: Thấp còi vừa.<br>- HAZ &lt; -3 SD: Thấp còi nặng.<br>- HAZ &gt; +3 SD: Chiều cao rất cao (cần cảnh giác u tuyến yên tiết hormon GH).",
+          "extra": "📖 Nguồn: WHO Child Growth Standards 2006 & de Onis 2007",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B2",
-            "Nguong-WAZ",
-            "Z-score"
+            "HAZ",
+            "Thap-coi",
+            "Nguong-Zscore"
           ]
         },
         {
           "id": "PED30-B2-03",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Chỉ số WHZ",
           "section": "B2",
-          "text": "[Barem gốc] Chỉ số HAZ (Height-for-Age) phản ánh thể suy dinh dưỡng {{c1::Thấp còi (Stunting)}}; ngưỡng HAZ &lt; -2 SD là {{c2::thấp còi vừa}}, HAZ &lt; -3 SD là {{c2::thấp còi nặng}}.",
-          "extra": "🎯 Trả lời cốt lõi: HAZ đánh giá suy dinh dưỡng mạn tính trường diễn.<br><br>💡 Giải thích: Nếu HAZ &gt; +3 SD cần cảnh giác bất thường u tuyến yên tiết hormon tăng trưởng (GH).",
+          "front": "Chỉ số WHZ (Weight-for-Height) đánh giá thể suy dinh dưỡng nào, áp dụng cho nhóm tuổi nào và các ngưỡng phân loại ra sao?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ý nghĩa:</b> Đánh giá thể Gầy còm (Wasting), phản ánh tình trạng sụt cân cấp tính gần đây.<br>2) <b>Lứa tuổi áp dụng:</b> Dành riêng cho trẻ dưới 5 tuổi (hoặc trẻ có chiều cao dưới 120 cm).<br>3) <b>Các ngưỡng phân loại:</b><br>- WHZ &lt; -3 SD: Gầy còm nặng (SAM).<br>- -3 SD ≤ WHZ &lt; -2 SD: Gầy còm vừa (MAM).<br>- -2 SD đến +1 SD: Dinh dưỡng bình thường.<br>- WHZ &gt; +2 SD: Thừa cân (Overweight).<br>- WHZ &gt; +3 SD: Béo phì (Obesity).",
+          "extra": "📖 Nguồn: WHO 2006 Standards & WHO 2023 Wasting Guideline",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B2",
-            "HAZ",
-            "Thap-coi",
-            "Nguong"
+            "WHZ",
+            "Gay-com",
+            "SAM-MAM"
           ]
         },
         {
           "id": "PED30-B2-04",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Chỉ số BAZ",
           "section": "B2",
-          "text": "[Barem gốc] Chỉ số WHZ (Weight-for-Height) áp dụng cho trẻ {{c1::dưới 5 tuổi}} (hoặc chiều cao &lt; 120 cm) nhằm đánh giá thể suy dinh dưỡng {{c2::Gầy còm (Wasting)}}.",
-          "extra": "🎯 Trả lời cốt lõi: WHZ đánh giá gầy còm cấp tính ở trẻ &lt; 5 tuổi.<br><br>💡 Giải thích: Là chỉ số quan trọng nhất để sàng lọc nguy cơ tử vong cấp trong cộng đồng.",
+          "front": "Chỉ số BAZ (BMI-for-Age) được áp dụng cho nhóm tuổi nào và bảng ngưỡng phân loại có điểm gì khác biệt so với WHZ?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lứa tuổi áp dụng:</b> Bắt buộc cho trẻ từ 5 đến 19 tuổi (thay thế WHZ).<br>2) <b>Bảng ngưỡng phân loại theo WHO 2007:</b><br>- BAZ &lt; -3 SD: Gầy còm nặng (Severe thinness).<br>- BAZ &lt; -2 SD: Gầy còm vừa (Thinness).<br>- BAZ &gt; +1 SD: Thừa cân (Overweight) - <i>Lưu ý: Điểm cắt thừa cân của BAZ là +1 SD, trong khi ở WHZ là +2 SD!</i><br>- BAZ &gt; +2 SD: Béo phì (Obesity).<br>- BAZ &gt; +3 SD: Béo phì nặng (Severe obesity).",
+          "extra": "📖 Nguồn: de Onis et al. (Bull World Health Organ 2007, PMID: 18026621)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B2",
-            "WHZ",
-            "Gay-com",
-            "Duoi-5-tuoi"
-          ]
-        },
-        {
-          "id": "PED30-B2-05",
-          "track": "barem_goc",
-          "card_type": "cloze",
-          "section": "B2",
-          "text": "[Barem gốc] Các ngưỡng phân loại của chỉ số WHZ: (1) WHZ &lt; -2 SD là {{c1::Gầy còm vừa (MAM)}}; (2) WHZ &lt; -3 SD là {{c1::Gầy còm nặng (SAM)}}; (3) WHZ &gt; +2 SD là {{c2::Thừa cân}}; (4) WHZ &gt; +3 SD là {{c2::Béo phì}}.",
-          "extra": "🎯 Trả lời cốt lõi: Bảng 4 ngưỡng Z-score kinh điển của WHZ.<br><br>💡 Giải thích: Cần thuộc lòng từng ngưỡng để phân loại chuẩn xác khi làm bệnh án thi.",
-          "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B2",
-            "Nguong-WHZ",
-            "SAM",
-            "MAM",
-            "Beo-phi"
-          ]
-        },
-        {
-          "id": "PED30-B2-06",
-          "track": "barem_goc",
-          "card_type": "cloze",
-          "section": "B2",
-          "text": "[Barem gốc] Chỉ số BAZ (BMI-for-Age) là chỉ số bắt buộc áp dụng cho lứa tuổi {{c1::từ 5 đến 19 tuổi}} để đánh giá cả gầy còm lẫn thừa cân - béo phì.",
-          "extra": "🎯 Trả lời cốt lõi: BAZ thay thế WHZ ở trẻ từ 5 đến 19 tuổi.<br><br>💡 Giải thích: BMI = Cân nặng (kg) / [Chiều cao (m)]² sau đó tra theo biểu đồ BAZ chuẩn WHO 2007 (PMID: 18026621).",
-          "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B2",
             "BAZ",
             "BMI-for-Age",
             "5-19-tuoi"
           ]
         },
         {
-          "id": "PED30-B2-07",
+          "id": "PED30-B2-05",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Động học tăng trưởng bình thường",
           "section": "B2",
-          "text": "[Barem gốc] Các ngưỡng phân loại của chỉ số BAZ ở trẻ 5–19 tuổi: (1) BAZ &lt; -2 SD là {{c1::Gầy còm vừa}}; (2) BAZ &lt; -3 SD là {{c1::Gầy còm nặng}}; (3) BAZ &gt; +1 SD là {{c2::Thừa cân}}; (4) BAZ &gt; +2 SD là {{c2::Béo phì}}; (5) BAZ &gt; +3 SD là {{c2::Béo phì nặng}}.",
-          "extra": "🎯 Trả lời cốt lõi: Điểm cắt thừa cân của BAZ là &gt; +1 SD (khác với WHZ là &gt; +2 SD).<br><br>💡 Giải thích: Tại mốc 19 tuổi, +1 SD tương đương BMI 25 kg/m² và +2 SD tương đương BMI 30 kg/m² của người lớn.",
+          "front": "Đặc điểm của đường biểu diễn tăng trưởng bình thường trên biểu đồ tăng trưởng WHO là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Xu hướng đi lên:</b> Đường nối các chấm cân nặng hoặc chiều cao qua các tháng phải liên tục đi lên theo thời gian.<br>2) <b>Chạy song song kênh:</b> Đường tăng trưởng chạy song song với các đường cong bách phân vị chuẩn (kênh phân vị) của biểu đồ WHO.<br>3) <b>Tốc độ kỳ vọng:</b> Phù hợp với lứa tuổi: 0–3 tháng tăng 700–800 g/tháng; 4–6 tháng tăng 500–600 g/tháng; 7–12 tháng tăng 300–400 g/tháng; sau 1 tuổi tăng khoảng 150–200 g/tháng (khoảng 2 kg/năm).",
+          "extra": "📖 Nguồn: WHO Child Growth Standards Velocity Curves & Bài học PED-30",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B2",
-            "Nguong-BAZ",
-            "Thua-can",
-            "Beo-phi"
-          ]
-        },
-        {
-          "id": "PED30-B2-08",
-          "track": "barem_goc",
-          "card_type": "cloze",
-          "section": "B2",
-          "text": "[Barem gốc] Động học tăng trưởng: Đường biểu diễn cân nặng bình thường của trẻ trên biểu đồ WHO phải có hướng {{c1::đi lên và chạy song song với các đường kênh chuẩn}}.",
-          "extra": "🎯 Trả lời cốt lõi: Tăng trưởng bình thường chạy song song kênh.<br><br>💡 Giải thích: Tốc độ tăng trưởng ổn định phản ánh nạp năng lượng đáp ứng đủ nhu cầu phát triển.",
-          "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B2",
-            "Dong-hoc",
+            "Dong-hoc-tang-truong",
             "Binh-thuong"
           ]
         },
         {
-          "id": "PED30-B2-09",
+          "id": "PED30-B2-06",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Cờ đỏ đường cong tăng trưởng",
           "section": "B2",
-          "text": "[Barem gốc] Hai cờ đỏ động học tăng trưởng báo động suy dinh dưỡng sớm: (1) Đường tăng trưởng {{c1::đi ngang (Flattening)}} liên tục 2–3 tháng; (2) Đường tăng trưởng {{c2::đi xuống hoặc cắt ngang qua các kênh percentiles (Falling)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Đi ngang hoặc đi xuống cắt kênh là cờ đỏ suy dinh dưỡng sớm.<br><br>💡 Giải thích: Cần can thiệp ngay cả khi chỉ số Z-score lúc đó vẫn nằm trong giới hạn bình thường.",
+          "front": "Hai 'Cờ đỏ' động học tăng trưởng báo động nguy cơ suy dinh dưỡng sớm trước khi Z-score chạm mốc &lt; -2 SD là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cờ đỏ 1 — Đường đi ngang (Flattening / Growth faltering):</b> Cân nặng của trẻ không tăng trong 2–3 tháng liên tiếp ở trẻ dưới 1 tuổi (hoặc không tăng chiều cao trong 6 tháng). Dù Z-score lúc đó vẫn ở mức bình thường (ví dụ -0.5 SD), đây đã là dấu hiệu suy dinh dưỡng tiềm ẩn.<br>2) <b>Cờ đỏ 2 — Đường đi xuống cắt kênh (Dropping percentiles):</b> Đường tăng trưởng dốc xuống hoặc cắt ngang qua 2 kênh bách phân vị lớn (ví dụ tụt từ kênh +1 SD xuống -1 SD). Đây là bằng chứng của sụt cân cấp tính bệnh lý cần can thiệp khẩn cấp.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 2.3 Động học đường cong tăng trưởng)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B2",
             "Co-do",
             "Flattening",
             "Falling"
           ]
         },
         {
+          "id": "PED30-B2-07",
+          "track": "barem_goc",
+          "type": "basic",
+          "category": "Biến chứng teo ruột trong SAM",
+          "section": "B2",
+          "front": "Cơ chế chuỗi 4 bước giải thích biến chứng teo nhung mao niêm mạc ruột và kém hấp thu ở trẻ suy dinh dưỡng là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tại sao:</b> Tế bào biểu mô ruột có tốc độ thay mới cực nhanh (3–5 ngày), phụ thuộc trực tiếp vào acid amin và năng lượng từ khẩu phần ăn.<br>2) <b>Là gì:</b> Thiếu đói kéo dài khiến tế bào ruột ngừng phân chia, niêm mạc bị cùn phẳng, teo đét nhung mao và mất lớp men disaccharidase (đặc biệt là Lactase).<br>3) <b>Thế nào:</b> Khi trẻ ăn thức ăn thường hoặc sữa bò, đường lactose không được thủy phân → lên men hút nước gây tiêu chảy thẩm thấu, phân chua phân sống.<br>4) <b>Nếu không điều trị:</b> Tạo vòng xoắn ác tính: Tiêu chảy → Kém hấp thu → Suy dinh dưỡng nặng hơn → Kiệt quệ tử vong.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 2.4 Biến chứng suy dinh dưỡng)",
+          "tags": [
+            "Teo-ruot",
+            "Lactase",
+            "Tieu-chay"
+          ]
+        },
+        {
+          "id": "PED30-B2-08",
+          "track": "barem_goc",
+          "type": "basic",
+          "category": "Biến chứng suy giảm miễn dịch",
+          "section": "B2",
+          "front": "Cơ chế chuỗi 4 bước giải thích biến chứng Suy giảm miễn dịch mắc phải (NAID) trong suy dinh dưỡng nặng là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tại sao:</b> Thiếu hụt acid amin nguyên liệu cùng với thiếu kẽm và vitamin A làm teo các cơ quan lympho trung ương và ngoại vi.<br>2) <b>Là gì:</b> Tuyến ức teo nhỏ, hạch lympho teo đét, giảm số lượng tế bào lympho T (đặc biệt là CD4) và giảm nồng độ bổ thể, giảm bài xuất IgA tiết niêm mạc.<br>3) <b>Thế nào:</b> Mất hàng rào bảo vệ niêm mạc, vi khuẩn gram âm đường ruột dễ chuyển vị vào máu gây nhiễm trùng huyết; viêm phổi hoại tử; nấm Candida lan rộng.<br>4) <b>Nếu không điều trị:</b> Trẻ nhiễm trùng nặng nhưng <b>không sốt, không tăng bạch cầu</b> mà rơi thẳng vào sốc nhiễm khuẩn hạ thân nhiệt và tử vong.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 2.4 Biến chứng suy dinh dưỡng)",
+          "tags": [
+            "Mien-dich",
+            "Tuyen-uc",
+            "Khong-sot"
+          ]
+        },
+        {
+          "id": "PED30-B2-09",
+          "track": "barem_goc",
+          "type": "basic",
+          "category": "Biến chứng tim mạch trong SAM",
+          "section": "B2",
+          "front": "Cơ chế chuỗi 4 bước giải thích biến chứng Teo cơ tim và suy tuần hoàn cung lượng thấp ở trẻ suy dinh dưỡng nặng là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tại sao:</b> Để duy trì sự sống cho não bộ, cơ thể buộc phải tự tiêu hóa chính khối cơ vân và cơ tim để lấy acid amin.<br>2) <b>Là gì:</b> Giảm bề dày cơ tim thất trái, giảm thể tích nhát bóp và giảm tưới máu thận.<br>3) <b>Thế nào:</b> Nhịp tim chậm, huyết áp thấp, tưới máu ngoại vi kém; tim mất hoàn toàn khả năng thích ứng với việc tăng thể tích tuần hoàn đột ngột.<br>4) <b>Nếu không điều trị đúng:</b> Nếu bác sĩ lầm tưởng trẻ li bì là do mất nước rồi truyền dịch tĩnh mạch nhanh → quá tải thể tích cấp → Phù phổi cấp và suy tim ngừng đập đột ngột ngay trên bàn truyền dịch!",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 2.4 Biến chứng suy dinh dưỡng)",
+          "tags": [
+            "Teo-co-tim",
+            "Qua-tai-dich",
+            "Phu-phoi"
+          ]
+        },
+        {
           "id": "PED30-B2-10",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Hạn chế lâm sàng của WAZ",
           "section": "B2",
-          "text": "[EBM Update] Giới hạn của chỉ số WAZ: Không thể phân biệt được một đứa trẻ bị sụt cân cấp do tiêu chảy gần đây hay bị thấp còi teo nhỏ từ nhiều năm trước, vì cả hai trường hợp đều có {{c1::cân nặng thấp so với tuổi}}.",
-          "extra": "🎯 Trả lời cốt lõi: WAZ chỉ phản ánh khối lượng tổng thể, thiếu tính đặc hiệu.<br><br>💡 Giải thích: Bắt buộc phải kết hợp HAZ và WHZ để bóc tách thể bệnh cấp hay mạn.",
+          "front": "Tại sao chỉ số WAZ (Cân nặng theo tuổi) không thể dùng làm công cụ duy nhất để chỉ định can thiệp dinh dưỡng cấp?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thiếu tính phân định cấp/mạn:</b> Một đứa trẻ có WAZ = -2.5 SD có thể là do:<br>- Trẻ bị sụt cân cấp tính nguy kịch sau đợt tiêu chảy cấp (gầy còm, WHZ &lt; -3 SD).<br>- Hoặc trẻ bị thấp lùn từ xưa do suy dinh dưỡng bào thai nhưng hiện tại cân đối (thấp còi, HAZ &lt; -3 SD, nhưng WHZ bình thường).<br>2) <b>Khác biệt can thiệp:</b> Thể gầy còm cần điều trị cấp cứu ngay bằng sữa năng lượng cao F-75/RUTF, trong khi thể thấp còi cần cải thiện vi chất và chế độ ăn dài hạn.<br>3) <b>Kết luận:</b> Bắt buộc phải dùng WHZ và HAZ để phân loại chính xác bản chất thiếu hụt.",
+          "extra": "📖 Nguồn: WHO Child Growth Standards & Bài học PED-30",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B2",
-            "Gioi-han-WAZ",
+            "Han-che-WAZ",
             "Phan-biet"
           ]
         },
         {
           "id": "PED30-B2-11",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Sinh lý tăng trưởng bắt kịp",
           "section": "B2",
-          "text": "[EBM Update] Hiện tượng bắt kịp tăng trưởng (Catch-up growth): Khi trẻ suy dinh dưỡng được cung cấp đủ năng lượng và protein, tốc độ tăng cân có thể đạt gấp {{c1::4 đến 5 lần}} bình thường (đạt mức {{c2::≥ 10 g/kg/ngày}}).",
-          "extra": "🎯 Trả lời cốt lõi: Tốc độ tăng trưởng bắt kịp rất ngoạn mục khi giải tỏa nguyên nhân đói.<br><br>💡 Giải thích: Sự hồi phục cân nặng diễn ra trước (vài tuần), hồi phục chiều cao diễn ra sau (vài tháng).",
+          "front": "Sinh lý học của Hiện tượng Tăng trưởng Bắt kịp (Catch-up growth) và tốc độ tăng cân kỳ vọng là bao nhiêu?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế:</b> Khi được giải phóng khỏi tình trạng thiếu đói và nhiễm trùng, trục nội tiết GH - IGF-1 và nồng độ insulin tăng vọt, kích hoạt quá trình tổng hợp protein và tích lũy mô với tốc độ tối đa.<br>2) <b>Tốc độ tăng cân kỳ vọng:</b> Ở trẻ hồi phục sau SAM, tốc độ tăng cân có thể đạt gấp 4–5 lần trẻ bình thường:<br>- Mức đạt yêu cầu: <b>≥ 5 g/kg/ngày</b>.<br>- Mức tăng trưởng tốt: <b>≥ 10 g/kg/ngày</b>.<br>3) <b>Trình tự hồi phục:</b> Cân nặng hồi phục trước trong vài tuần đầu; chiều cao bắt đầu hồi phục sau vài tháng.",
+          "extra": "📖 Nguồn: WHO 2023 Wasting Guideline & PED-30 (Mục 11e)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B2",
             "Catch-up-growth",
-            "Hoi-phuc"
+            "5g-kg-ngay"
           ]
         },
         {
           "id": "PED30-B2-12",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Cơ chế nội tiết theo lứa tuổi",
           "section": "B2",
-          "text": "[EBM Update] Trục nội tiết chi phối tăng trưởng thể chất: Giai đoạn nhũ nhi phụ thuộc chủ yếu vào {{c1::Insulin và IGF-1}} từ dinh dưỡng; giai đoạn sau 1 tuổi phụ thuộc chính vào {{c2::Hormon tăng trưởng (GH) và hormon tuyến giáp}}.",
-          "extra": "🎯 Trả lời cốt lõi: Chuyển giao cơ chế nội tiết tăng trưởng theo mốc 1 tuổi.<br><br>💡 Giải thích: Suy giáp bẩm sinh nếu không phát hiện sớm sẽ gây lùn và thiểu năng trí tuệ không hồi phục.",
+          "front": "Sự chuyển giao cơ chế nội tiết chi phối tăng trưởng thể chất diễn ra như thế nào giữa giai đoạn trước và sau 1 tuổi?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Giai đoạn 0–12 tháng tuổi (Nhũ nhi):</b> Tăng trưởng phụ thuộc chủ yếu vào <b>Dinh dưỡng, Insulin và IGF-1</b>. Vai trò của hormon tăng trưởng tuyến yên (GH) ở giai đoạn này rất mờ nhạt.<br>2) <b>Giai đoạn sau 1 tuổi:</b> Bắt đầu chuyển giao sang sự điều hòa thống trị của <b>Trục nội tiết Tuyến yên - Tuyến giáp (GH và Hormon giáp T3/T4)</b>.<br>3) <b>Ý nghĩa lâm sàng:</b> Trẻ suy giáp bẩm sinh trong vài tháng đầu có thể tăng cân tương đối tốt nhờ bú mẹ, nhưng sau 6–12 tháng nếu không được điều trị hormon thay thế sẽ ngừng tăng trưởng chiều cao đột ngột và chậm phát triển trí tuệ vĩnh viễn.",
+          "extra": "📖 Nguồn: Sinh lý học Nhi khoa & Nelson Textbook of Pediatrics",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B2",
             "Noi-tiet",
-            "GH-IGF1"
+            "GH-Insulin",
+            "Tuyen-giap"
           ]
         },
         {
           "id": "PED30-B2-13",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Chuẩn BAZ nối tiếp người lớn",
           "section": "B2",
-          "text": "[EBM Update] Cơ chế phân tử của suy giảm miễn dịch trong suy dinh dưỡng: Thiếu protein và năng lượng dẫn đến teo tế bào lympho tại {{c1::tuyến ức và hạch lympho}} \\→ giảm số lượng và chức năng của {{c2::tế bào lympho T hỗ trợ (CD4)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Teo tuyến ức gây suy giảm miễn dịch qua trung gian tế bào.<br><br>💡 Giải thích: Tạo vòng xoắn ác tính: Suy dinh dưỡng \\→ Nhiễm trùng \\→ Kém hấp thu \\→ Suy dinh dưỡng nặng hơn.",
+          "front": "Nghiên cứu của de Onis et al. (2007) đã giải quyết sự đứt gãy giữa biểu đồ tăng trưởng trẻ em và người lớn như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vấn đề cũ:</b> Biểu đồ chuẩn trước đây bị đứt gãy tại mốc 5 tuổi và 18 tuổi, không khớp với ngưỡng thừa cân béo phì của người lớn.<br>2) <b>Giải pháp WHO 2007:</b> Xây dựng đường cong BAZ từ 5 đến 19 tuổi nối tiếp mượt mà với chuẩn trẻ dưới 5 tuổi.<br>3) <b>Khớp nối chính xác tại mốc 19 tuổi:</b><br>- Ngưỡng +1 SD ở 19 tuổi tương ứng đúng BMI 25.4 kg/m² (nam) và 25.0 kg/m² (nữ) → trùng khớp hoàn hảo với ngưỡng Thừa cân (≥ 25 kg/m²) của người lớn.<br>- Ngưỡng +2 SD tương ứng đúng BMI 29.7 kg/m² → trùng khớp với ngưỡng Béo phì (≥ 30 kg/m²) của người lớn.",
+          "extra": "📖 Nguồn: de Onis et al. (Bull World Health Organ 2007, PMID: 18026621)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B2",
-            "Tuyen-uc",
-            "Mien-dich"
-          ]
-        },
-        {
-          "id": "PED30-B2-14",
-          "track": "ebm_update",
-          "card_type": "cloze",
-          "section": "B2",
-          "text": "[EBM Update] Đặc điểm nguy hiểm của nhiễm trùng ở trẻ SAM: Trẻ suy dinh dưỡng nặng khi bị viêm phổi nặng hoặc nhiễm trùng huyết thường {{c1::KHÔNG có phản ứng sốt}} và {{c2::bạch cầu máu không tăng}}, mà lại biểu hiện bằng {{c3::hạ thân nhiệt và li bì}}.",
-          "extra": "🎯 Trả lời cốt lõi: Mất phản ứng viêm và đáp ứng sốt sinh lý.<br><br>💡 Giải thích: Do cơ thể kiệt quệ cytokine (IL-1, TNF-alpha) và năng lượng sinh nhiệt. Bác sĩ thấy không sốt dễ bỏ sót nhiễm trùng huyết tử vong.",
-          "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B2",
-            "Nhiem-trung-SAM",
-            "Khong-sot",
-            "Ha-than-nhiet"
-          ]
-        },
-        {
-          "id": "PED30-B2-15",
-          "track": "ebm_update",
-          "card_type": "cloze",
-          "section": "B2",
-          "text": "[EBM Update] Biến đổi tim mạch trong suy dinh dưỡng nặng: Khối cơ tâm thất trái bị {{c1::teo nhỏ và giảm co bóp}}, cung lượng tim giảm; tim rất nhạy cảm với {{c2::tình trạng quá tải thể tích cấp tính}}.",
-          "extra": "🎯 Trả lời cốt lõi: Teo cơ tim dẫn đến suy tuần hoàn cung lượng thấp.<br><br>💡 Giải thích: Tuyệt đối không truyền dịch tĩnh mạch nhanh ở trẻ SAM trừ khi có sốc mất nước nguy kịch.",
-          "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B2",
-            "Teo-co-tim",
-            "Qua-tai-tuan-hoan"
-          ]
-        },
-        {
-          "id": "PED30-B2-16",
-          "track": "ebm_update",
-          "card_type": "cloze",
-          "section": "B2",
-          "text": "[EBM Update] Biến đổi tiêu hóa trong suy dinh dưỡng nặng: Nhung mao ruột non bị {{c1::teo đét và cùn phẳng}}, giảm nghiêm trọng diện tích hấp thu và thiếu hụt thứ phát enzym {{c2::Lactase diềm bàn chải}}.",
-          "extra": "🎯 Trả lời cốt lõi: Teo niêm mạc ruột gây tiêu chảy thẩm thấu khi ăn thức ăn thường.<br><br>💡 Giải thích: Lý do sữa F-75 và F-100 của WHO phải có lượng lactose thấp và áp lực thẩm thấu phù hợp.",
-          "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B2",
-            "Teo-ruot",
-            "Lactase"
-          ]
-        },
-        {
-          "id": "PED30-B2-17",
-          "track": "ebm_update",
-          "card_type": "cloze",
-          "section": "B2",
-          "text": "[EBM Update] Nghiên cứu de Onis et al. (2007) xác lập chuẩn BAZ 5–19 tuổi: Điểm cắt BAZ &gt; +1 SD tại 19 tuổi tương ứng với BMI {{c1::25.4 kg/m² (nam) và 25.0 kg/m² (nữ)}}, trùng khớp với ngưỡng {{c2::thừa cân của người trưởng thành}}.",
-          "extra": "🎯 Trả lời cốt lõi: Khớp nối hoàn hảo giữa chuẩn nhi khoa và chuẩn người lớn (PMID: 18026621).<br><br>💡 Giải thích: Tương tự, ngưỡng +2 SD tương đương BMI 29.7 kg/m² (ngưỡng béo phì 30 kg/m²).",
-          "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B2",
             "deOnis-2007",
             "BAZ-Adult"
           ]
         },
         {
+          "id": "PED30-B2-14",
+          "track": "ebm_update",
+          "type": "basic",
+          "category": "Cảnh báo hạ thân nhiệt ở trẻ SAM",
+          "section": "B2",
+          "front": "Tại sao trẻ suy dinh dưỡng nặng rất dễ bị hạ thân nhiệt (&lt; 35.5°C) và cách phòng ngừa tử vong do hạ thân nhiệt là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế dễ hạ nhiệt:</b><br>- Mất hoàn toàn lớp mỡ dưới da cách nhiệt.<br>- Diện tích bề mặt cơ thể trên một đơn vị trọng lượng rất lớn.<br>- Thiếu cơ chất glucose để chuyển hóa sinh nhiệt tế bào tại gan và cơ vân.<br>2) <b>Nguy cơ:</b> Hạ thân nhiệt dẫn đến ức chế hô hấp, trụy mạch và tử vong trong đêm.<br>3) <b>Phòng ngừa bắt buộc:</b><br>- Ủ ấm da kề da (Kangaroo) hoặc đắp chăn ấm, đội mũ, đi tất.<br>- Phòng bệnh duy trì nhiệt độ ấm 25–28°C, tránh gió lùa.<br>- Cho trẻ ăn hoặc uống nước đường ấm ngay cả ban đêm (không để trẻ nhịn đói quá 2–3 giờ).",
+          "extra": "📖 Nguồn: WHO Pocket Book of Hospital Care for Children (2019)",
+          "tags": [
+            "Ha-than-nhiet",
+            "Phong-ngua"
+          ]
+        },
+        {
+          "id": "PED30-B2-15",
+          "track": "ebm_update",
+          "type": "basic",
+          "category": "Phản chứng về truyền dịch ở trẻ SAM",
+          "section": "B2",
+          "front": "Tại sao việc chỉ định truyền dịch tĩnh mạch nhanh ở trẻ suy dinh dưỡng nặng bị tiêu chảy lại cực kỳ nguy hiểm?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Trương lực cơ tim suy sụp:</b> Khối cơ tim của trẻ SAM bị teo nhẽo nặng, buồng tim giãn, khả năng co bóp tống máu giảm sút.<br>2) <b>Ứ trệ Natri nội bào:</b> Tế bào trẻ SAM bị suy giảm bơm Na-K-ATPase nên tích tụ nhiều natri trong nội bào; việc truyền dịch chứa nhiều muối sẽ làm ứ nước ngoại bào dữ dội.<br>3) <b>Hậu quả:</b> Bù dịch nhanh sẽ gây quá tải thể tích nhĩ phải và thất trái cấp tính → Phù phổi cấp và suy tim ngừng đập.<br>4) <b>Quy tắc WHO:</b> Tuyệt đối KHÔNG truyền dịch TM cho trẻ SAM trừ khi có sốc giảm thể tích mất bù; mọi trường hợp mất nước nhẹ-vừa đều bù bằng đường uống (dùng dung dịch ReSoMaL).",
+          "extra": "📖 Nguồn: WHO 2013 Updates & WHO 2023 Wasting Guideline",
+          "tags": [
+            "Truyen-dich-SAM",
+            "Suy-tim",
+            "ReSoMaL"
+          ]
+        },
+        {
+          "id": "PED30-B2-16",
+          "track": "ebm_update",
+          "type": "basic",
+          "category": "Cơ chế tiêu chảy thẩm thấu do sữa",
+          "section": "B2",
+          "front": "Tại sao trẻ suy dinh dưỡng nặng khi mới nhập viện nếu cho uống ngay sữa công thức thông thường hoặc sữa đặc có đường sẽ bị tiêu chảy dữ dội?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thiếu hụt men Lactase:</b> Niêm mạc ruột bị cùn phẳng làm mất sạch enzym lactase ở diềm bàn chải.<br>2) <b>Áp lực thẩm thấu cao:</b> Sữa thông thường và sữa đặc chứa nồng độ đường lactose và sucrose rất cao. Không được tiêu hóa, lượng đường này nằm lại trong lòng ruột tạo áp lực thẩm thấu lớn, kéo ồ ạt nước từ mạch máu vào lòng ruột.<br>3) <b>Hậu quả:</b> Gây tiêu chảy thẩm thấu tóe nước, mất nước cấp tính và toan chuyển hóa.<br>4) <b>Giải pháp:</b> WHO thiết kế sữa F-75 có lượng lactose rất thấp và áp lực thẩm thấu an toàn (khoảng 330 mOsm/L).",
+          "extra": "📖 Nguồn: WHO Management of Severe Malnutrition & Bài học PED-30",
+          "tags": [
+            "Tieu-chay-tham-thau",
+            "F-75",
+            "Lactose"
+          ]
+        },
+        {
+          "id": "PED30-B2-17",
+          "track": "ebm_update",
+          "type": "basic",
+          "category": "Ví dụ phát hiện chững cân sớm",
+          "section": "B2",
+          "front": "Tình huống: Một bé trai 9 tháng tuổi cân nặng 7.6 kg (nằm ở kênh -1 SD trên biểu đồ WAZ). Ba tháng trước đó bé cân nặng lần lượt là: 6 tháng 7.6 kg, 7 tháng 7.6 kg, 8 tháng 7.5 kg. Bác sĩ cần nhận định gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhận định Z-score tĩnh:</b> WAZ = -1 SD (trông như hoàn toàn bình thường, chưa chạm mốc suy dinh dưỡng -2 SD).<br>2) <b>Nhận định động học tăng trưởng:</b> Cân nặng của bé đã đi ngang và đi xuống trong suốt 3 tháng liên tiếp (Flattening / Growth faltering). Ở lứa tuổi 6–9 tháng, bé đáng lẽ phải tăng thêm ít nhất 1.0–1.2 kg.<br>3) <b>Kết luận & Hành động:</b> Đây là <b>Cờ đỏ suy dinh dưỡng sớm</b>. Bác sĩ phải khai thác ngay chế độ ăn dặm (tìm sai lầm thiếu dầu mỡ, thiếu đạm) và kiểm tra sức khỏe để can thiệp kịp thời, không đợi đến khi bé tụt xuống dưới -2 SD mới điều trị!",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 1.5 Ví dụ 6)",
+          "tags": [
+            "Vi-du-chung-can",
+            "Co-do"
+          ]
+        },
+        {
           "id": "PED30-B2-18",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Chỉ số Z-score trên 10 tuổi",
           "section": "B2",
-          "text": "[EBM Update] Sự khác biệt cơ bản giữa chuẩn tăng trưởng WHO 2006 (Standards) và chuẩn NCHS cũ (References): Chuẩn WHO 2006 mô tả {{c1::trẻ em NÊN tăng trưởng như thế nào (chuẩn mực kê toa)}} thay vì chỉ mô tả {{c2::trẻ em ĐANG tăng trưởng như thế nào (tham chiếu mô tả)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Chuẩn WHO 2006 là chuẩn quy chuẩn (Prescriptive standard).<br><br>💡 Giải thích: Lấy trẻ bú mẹ hoàn toàn trong điều kiện tối ưu làm chuẩn mực toàn cầu.",
+          "front": "Tại sao chỉ số Cân nặng theo tuổi (WAZ) tuyệt đối không được sử dụng để đánh giá dinh dưỡng ở trẻ em từ 10 tuổi trở lên?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Biến thiên dậy thì phân tán lớn:</b> Từ 10 tuổi trở lên, trẻ bước vào giai đoạn dậy thì với thời điểm bùng nổ tăng trưởng (Growth spurt) rất khác nhau giữa các cá thể và giữa hai giới (trẻ dậy thì sớm có cân nặng và chiều cao vượt trội so với trẻ dậy thì muộn).<br>2) <b>Mất tính đại diện:</b> Cân nặng theo tuổi lúc này không phản ánh được thể trạng nạc hay mỡ mà phụ thuộc vào việc trẻ đã tăng vọt chiều cao hay chưa.<br>3) <b>Giải pháp chuẩn:</b> Bắt buộc phải sử dụng chỉ số <b>BMI theo tuổi (BAZ)</b> vì BMI đã chuẩn hóa cân nặng theo bình phương chiều cao của chính đứa trẻ đó.",
+          "extra": "📖 Nguồn: WHO 2007 Growth Reference (PMID: 18026621)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B2",
-            "Standards-vs-References",
-            "WHO-2006"
+            "WAZ-tren-10-tuoi",
+            "Day-thi",
+            "BAZ"
           ]
         },
         {
           "id": "PED30-B3-01",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Kỹ thuật khám phù dinh dưỡng",
           "section": "B3",
-          "text": "[Barem gốc] Kỹ thuật khám phù dinh dưỡng chuẩn: Dùng mặt ngón tay cái ấn nhẹ nhưng chắc chắn lên {{c1::mặt trước xương chày hoặc mu bàn chân}} của cả hai bên trong vòng {{c2::đúng 3 giây}}.",
-          "extra": "🎯 Trả lời cốt lõi: Ấn 2 bên đối xứng trong 3 giây tìm vết lõm.<br><br>💡 Giải thích: Động tác 3 giây quyết định chẩn đoán suy dinh dưỡng cấp nặng thể phù.",
+          "front": "Kỹ thuật khám phát hiện phù dinh dưỡng chuẩn và 2 tiêu chuẩn bắt buộc để khẳng định phù do dinh dưỡng là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Kỹ thuật khám:</b> Dùng mặt ngón tay cái của hai bàn tay ấn nhẹ nhàng nhưng chắc chắn lên mặt trước xương chày hoặc mu bàn chân của cả hai bên trong vòng <b>đúng 3 giây</b>, sau đó buông ra và miết nhẹ kiểm tra vết lõm tồn lưu.<br>2) <b>Hai tiêu chuẩn bắt buộc:</b><br>- (1) Phù mềm, ấn lõm (Pitting edema).<br>- (2) Xuất hiện <b>ĐỐI XỨNG Ở CẢ HAI BÊN CƠ THỂ</b> (Bilateral).<br><br><b>💡 Giải thích của AI:</b><br>Phù một bên chi luôn là phù do nguyên nhân cơ học/viêm tại chỗ (viêm mô tế bào, huyết khối tĩnh mạch, chấn thương), tuyệt đối không phải phù dinh dưỡng.",
+          "extra": "📖 Nguồn: Hướng dẫn khám dinh dưỡng lâm sàng WHO & Bộ Y tế",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B3",
             "Kham-phu",
-            "3-giay"
+            "3-giay",
+            "Doi-xung"
           ]
         },
         {
           "id": "PED30-B3-02",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Ba phân độ phù Kwashiorkor",
           "section": "B3",
-          "text": "[Barem gốc] Quy tắc vàng chẩn đoán phù dinh dưỡng: Phù bắt buộc phải là phù mềm, ấn lõm và xuất hiện {{c1::ĐỐI XỨNG Ở CẢ HAI BÊN CƠ THỂ}}.",
-          "extra": "🎯 Trả lời cốt lõi: Bắt buộc phải đối xứng 2 bên.<br><br>💡 Giải thích: Phù 1 bên chi là phù do viêm tắc tĩnh mạch, viêm mô tế bào hoặc chấn thương, không phải phù dinh dưỡng.",
+          "front": "Ba phân độ lâm sàng của phù dinh dưỡng (Kwashiorkor) và ý nghĩa tiên lượng của chúng là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Độ 1 (+): Phù nhẹ:</b> Phù khu trú ở hai mu bàn chân.<br>2) <b>Độ 2 (++): Phù vừa:</b> Phù lan lên cả hai cẳng chân, bàn tay và cẳng tay.<br>3) <b>Độ 3 (+++): Phù nặng / Toàn thân:</b> Phù toàn thân, phù mặt (mặt tròn như mặt trăng rằm Moon face), mí mắt mọng nước, có thể kèm tràn dịch màng phổi, màng bụng.<br><br><b>💡 Giải thích của AI:</b><br>Mọi phân độ phù (kể cả Độ 1) đều tự động xếp trẻ vào nhóm SAM. Riêng Phù độ 3 là cờ đỏ nguy kịch bắt buộc nhập viện điều trị tích cực vì nguy cơ phù phổi và tử vong rất cao.",
+          "extra": "📖 Nguồn: WHO Management of Severe Malnutrition & PED-30",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B3",
-            "Phu-doi-xung",
-            "Quy-tac-vang"
+            "Phan-do-phu",
+            "Do-1-2-3",
+            "Moon-face"
           ]
         },
         {
           "id": "PED30-B3-03",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Trình tự mất mỡ dưới da",
           "section": "B3",
-          "text": "[Barem gốc] Ba phân độ phù dinh dưỡng trên lâm sàng: (1) Độ 1 (+): Phù nhẹ chỉ ở {{c1::hai mu bàn chân}}; (2) Độ 2 (++): Phù lan lên {{c1::hai cẳng chân, bàn tay, cẳng tay}}; (3) Độ 3 (+++): Phù {{c1::toàn thân, phù mặt, tràn dịch đa màng}}.",
-          "extra": "🎯 Trả lời cốt lõi: Phân độ 1+, 2+, 3+ theo mức độ lan rộng từ ngoại vi vào trung tâm.<br><br>💡 Giải thích: Phù độ 3 có nguy cơ phù phổi và suy tim rất cao.",
+          "front": "Trình tự giải phẫu của sự tiêu biến lớp mỡ dưới da trong suy dinh dưỡng diễn ra như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Lớp mỡ dưới da mất theo thứ tự giải phẫu định sẵn từ trung tâm ra ngoại vi và lên mặt:<br>1) <b>Mỡ bụng:</b> Mất đầu tiên (da bụng nhăn nheo, mỏng như giấy bọc).<br>2) <b>Mỡ chi:</b> Mất tiếp theo ở đùi và cánh tay (da đùi nhẽo, tạo nếp gấp).<br>3) <b>Mỡ mông:</b> Mất ở giai đoạn nặng (mất nếp lằn mông sinh lý).<br>4) <b>Túi mỡ má Bichat:</b> MẤT CUỐI CÙNG trong suy dinh dưỡng cực nặng.<br><br><b>💡 Giải thích của AI:</b><br>Túi mỡ má Bichat có chức năng hỗ trợ động tác mút bú sinh tồn của trẻ nhũ nhi nên được cơ thể bảo vệ đến cùng. Khi mất túi mỡ này, hai má hóp sâu tạo nên vẻ mặt cụ già (Old man face) của thể Marasmus.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.2 Đánh giá mất mỡ dưới da)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B3",
-            "Phan-do-phu",
-            "Do-1-2-3"
+            "Mat-mo",
+            "Bichat",
+            "Old-man-face"
           ]
         },
         {
           "id": "PED30-B3-04",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Đánh giá teo khối cơ",
           "section": "B3",
-          "text": "[Barem gốc] Quy tắc phân loại sống còn: Trẻ có phù dinh dưỡng đối xứng hai bên (bất kể độ mấy) {{c1::TỰ ĐỘNG ĐƯỢC XẾP THẲNG VÀO SUY DINH DƯỠNG CẤP NẶNG (SAM)}} mà không cần nhìn chỉ số Z-score.",
-          "extra": "🎯 Trả lời cốt lõi: Có phù = SAM ngay lập tức.<br><br>💡 Giải thích: Tránh bẫy cân nặng bình thường giả tạo do nước ứ đọng che giấu teo cơ trầm trọng.",
+          "front": "Các vị trí giải phẫu chuẩn để đánh giá tình trạng teo khối cơ trên lâm sàng là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ thái dương:</b> Quan sát hố thái dương hai bên lõm sâu xuống, bờ ngoài hốc mắt nhô cao.<br>2) <b>Cơ delta và cơ ngực:</b> Xương đòn nhô cao, các khoang liên sườn lộ rõ như bậc thang.<br>3) <b>Cơ mông:</b> Yêu cầu cởi quần quan sát vùng mông; khối cơ mông teo nhẽo hoàn toàn, mất nếp lằn mông, da chùng xuống xếp thành nhiều nếp gấp lùng bùng (dấu hiệu 'quần lùng bùng' / da bọc xương).",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.2 Đánh giá teo khối cơ)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B3",
-            "Co-phu-la-SAM",
-            "Quy-tac-vang"
+            "Teo-co",
+            "Co-thai-duong",
+            "Co-mong"
           ]
         },
         {
           "id": "PED30-B3-05",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Dấu hiệu cờ ở tóc",
           "section": "B3",
-          "text": "[Barem gốc] Trình tự giải phẫu mất lớp mỡ dưới da trong suy dinh dưỡng: Mỡ {{c1::bụng}} \\→ Mỡ {{c1::chi (đùi, cánh tay)}} \\→ Mỡ {{c1::mông}} \\→ Cuối cùng là Túi mỡ {{c1::má (Bichat)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Mỡ má Bichat mất cuối cùng trong suy dinh dưỡng cực nặng.<br><br>💡 Giải thích: Khi mất sạch mỡ má tạo nên vẻ mặt cụ già (Old man face) của thể Marasmus.",
+          "front": "Dấu hiệu cờ (Flag sign) ở tóc của trẻ suy dinh dưỡng biểu hiện như thế nào và phản ánh cơ chế bệnh sinh gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Biểu hiện lâm sàng:</b> Sợi tóc của trẻ có các dải màu nhạt (hung đỏ, vàng hoe hoặc trắng) xen kẽ với các dải tóc màu đen tự nhiên, trông như những sọc ngang của lá cờ.<br>2) <b>Cơ chế bệnh sinh:</b> Quá trình tổng hợp sắc tố Melanin trong nang tóc đòi hỏi acid amin thiết yếu (Tyrosine, Phenylalanine). Các dải tóc nhạt màu tương ứng với các giai đoạn trẻ bị đói protein trầm trọng; các dải tóc đen tương ứng với giai đoạn trẻ được ăn đủ đạm.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.3 Checklist vi chất & Kwashiorkor)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B3",
-            "Mat-mo",
-            "Trinh-tu-giai-phau",
-            "Bichat"
+            "Flag-sign",
+            "Dau-hieu-co",
+            "Toc"
           ]
         },
         {
           "id": "PED30-B3-06",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Tổn thương mắt do thiếu Vitamin A",
           "section": "B3",
-          "text": "[Barem gốc] Dấu hiệu teo cơ mông trong thể teo đét Marasmus: Khối cơ mông teo nhẽo hoàn toàn, mất nếp lằn mông sinh lý, da vùng mông chùng xuống xếp thành nếp như {{c1::mặc quần lùng bùng (quần quá rộng) / da bọc xương}}.",
-          "extra": "🎯 Trả lời cốt lõi: Dấu hiệu quần lùng bùng là chỉ điểm teo cơ mông nặng.<br><br>💡 Giải thích: Luôn yêu cầu cởi quần quan sát vùng mông khi khám dinh dưỡng.",
+          "front": "Bốn giai đoạn tổn thương mắt lâm sàng do thiếu Vitamin A và dấu hiệu nào là tối cấp cứu mù lòa?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Giai đoạn XN — Quáng gà:</b> Nhìn kém lúc chập tối, trẻ hay va vấp vào đồ vật khi trời nhá nhem (dấu hiệu sớm nhất).<br>2) <b>Giai đoạn X1B — Vệt Bitot:</b> Mảng bọt xà phòng màu trắng xám hình tam giác bám ở kết mạc nhãn cầu gần rìa giác mạc.<br>3) <b>Giai đoạn X2 — Khô giác mạc:</b> Giác mạc mất độ bóng trong suốt, mờ đục như kính mờ.<br>4) <b>Giai đoạn X3 — Loét nhuyễn giác mạc (Keratomalacia):</b> <b>ĐÂY LÀ TỐI CẤP CỨU NHÃN KHOA.</b> Giác mạc bị hoại tử mềm nhũn, loét thủng phòi mống mắt gây mù lòa vĩnh viễn trong 24–48 giờ nếu không được uống Vitamin A liều cao ngay lập tức!",
+          "extra": "📖 Nguồn: Phân loại tổn thương mắt WHO & Bài học PED-30",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B3",
-            "Teo-co-mong",
-            "Quan-lung-bung"
-          ]
-        },
-        {
-          "id": "PED30-B3-07",
-          "track": "barem_goc",
-          "card_type": "cloze",
-          "section": "B3",
-          "text": "[Barem gốc] Dấu hiệu tổn thương tóc trong thể Kwashiorkor: Tóc thưa, khô giòn, dễ nhổ, đổi màu hung đỏ hoặc vàng; xuất hiện {{c1::Dấu hiệu cờ (Flag sign)}} gồm các dải tóc nhạt màu xen kẽ sẫm màu.",
-          "extra": "🎯 Trả lời cốt lõi: Flag sign phản ánh các đợt thiếu protein ngắt quãng.<br><br>💡 Giải thích: Tóc mọc trong giai đoạn thiếu đạm thì mất sắc tố melanin; khi ăn đủ đạm lại có màu đen bình thường.",
-          "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B3",
-            "Flag-sign",
-            "Dau-hieu-co",
-            "Kwashiorkor"
-          ]
-        },
-        {
-          "id": "PED30-B3-08",
-          "track": "barem_goc",
-          "card_type": "cloze",
-          "section": "B3",
-          "text": "[Barem gốc] Tổn thương mắt do thiếu Vitamin A theo thứ tự tiến triển: (1) Quáng gà (nhìn kém chập tối); (2) Vệt {{c1::Bitot (mảng bọt xà phòng kết mạc)}}; (3) Khô kết mạc giác mạc; (4) {{c2::Loét nhuyễn giác mạc (Keratomalacia)}} gây mù lòa cấp tính.",
-          "extra": "🎯 Trả lời cốt lõi: Loét nhuyễn giác mạc là cấp cứu nhãn khoa khẩn cấp.<br><br>💡 Giải thích: Cần cho uống ngay Vitamin A liều điều trị theo tuổi trong vòng 24 giờ đầu.",
-          "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B3",
             "Vitamin-A",
             "Bitot",
             "Loet-giac-mac"
           ]
         },
         {
-          "id": "PED30-B3-09",
+          "id": "PED30-B3-07",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Tổn thương xương do còi xương",
           "section": "B3",
-          "text": "[Barem gốc] Dấu hiệu còi xương do thiếu Vitamin D và Canxi trên hệ xương: (1) Thóp trước rộng, chậm liền sau {{c1::18 tháng}}; (2) Chuỗi hạt {{c2::sườn (Rachitic rosary)}}; (3) Rãnh {{c2::Harrison ở lồng ngực}}; (4) Vòng cổ tay, cổ chân to bè; (5) Chân cong chữ O hoặc chữ X.",
-          "extra": "🎯 Trả lời cốt lõi: Bộ triệu chứng biến dạng xương kinh điển của còi xương tiến triển.<br><br>💡 Giải thích: Do sụn tiếp hợp phì đại không cốt hóa được khi thiếu canxi/vitamin D.",
+          "front": "Checklist 5 dấu hiệu biến dạng hệ xương kinh điển ở trẻ còi xương do thiếu Vitamin D và Canxi là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đầu:</b> Thóp trước rộng, chậm liền sau 18 tháng tuổi; bướu trán, bướu đỉnh (xương sọ mềm Craniotabes).<br>2) <b>Răng:</b> Răng mọc chậm (sau 12 tháng chưa mọc răng), men răng thiểu sản dễ sún răng.<br>3) <b>Lồng ngực:</b> Chuỗi hạt sườn (Rachitic rosary - phì đại sụn tiếp hợp khớp sườn ức nhô lên như chuỗi tràng hạt); Rãnh Harrison (rãnh lõm ngang đáy ngực do cơ hoành kéo).<br>4) <b>Chi trên:</b> Vòng cổ tay to bè (phì đại đầu dưới xương quay).<br>5) <b>Chi dưới:</b> Vòng cổ chân to bè; chân cong biến dạng hình chữ O (Genu varum) hoặc chữ X (Genu valgum) khi trẻ bắt đầu tập đi chịu lực.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.3 Checklist khám vi chất)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B3",
             "Coi-xuong",
             "Hat-suon",
-            "Harrison",
-            "Vitamin-D"
+            "Harrison"
           ]
         },
         {
-          "id": "PED30-B3-10",
-          "track": "ebm_update",
-          "card_type": "cloze",
+          "id": "PED30-B3-08",
+          "track": "barem_goc",
+          "type": "basic",
+          "category": "Tổn thương da sơn nứt trong Kwashiorkor",
           "section": "B3",
-          "text": "[EBM Update] Bốn cờ đỏ đe dọa tử vong trong vòng 24 giờ đầu ở trẻ SAM cần cấp cứu ngay: (1) Hạ thân nhiệt (&lt; {{c1::35.5 °C}} đo nách); (2) Hạ đường huyết (&lt; {{c1::3.0 mmol/L}}); (3) Dấu hiệu {{c2::sốc / chi lạnh ngắt / CRT ≥ 3 giây}}; (4) {{c2::Loét nhuyễn giác mạc}}.",
-          "extra": "🎯 Trả lời cốt lõi: Bộ 4 cờ đỏ cấp cứu tối khẩn của WHO Pocket Book.<br><br>💡 Giải thích: Phải hồi sức ủ ấm và cho uống nước đường trước khi làm thủ tục khám thường quy.",
+          "front": "Đặc điểm tổn thương da kiểu 'sơn nứt' (Flaky-paint dermatosis) trong thể Kwashiorkor là gì và dễ nhầm với bệnh nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đặc điểm tổn thương:</b> Da xuất hiện các mảng tăng sắc tố màu nâu sẫm hoặc đen, sau đó nứt nẻ và bong vảy từng mảng lớn như lớp sơn tường cũ bị bong tróc, để lại nền da đỏ rỉ dịch rớm máu ở dưới.<br>2) <b>Vị trí điển hình:</b> Hay gặp ở vùng chịu tì đè và ẩm ướt: đùi, mông, bẹn, quanh hậu môn và cẳng chân.<br>3) <b>Chẩn đoán nhầm:</b> Rất dễ bị chẩn đoán nhầm thành bỏng nước sôi (do gia đình bế đi viện muộn) hoặc nhầm với hội chứng Stevens-Johnson, viêm da bong vảy do thuốc.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.3 Checklist khám vi chất)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B3",
-            "Co-do-cap-cuu",
-            "Ha-than-nhiet",
-            "Ha-duong-huyet"
-          ]
-        },
-        {
-          "id": "PED30-B3-11",
-          "track": "ebm_update",
-          "card_type": "cloze",
-          "section": "B3",
-          "text": "[EBM Update] Tổn thương da kiểu \"sơn nứt\" (Flaky-paint dermatosis) trong Kwashiorkor: Da xuất hiện các mảng tăng sắc tố sẫm màu, sau đó {{c1::nứt nẻ bong vảy từng mảng lớn}} để lộ lớp biểu bì non đỏ rỉ dịch, hay gặp ở {{c2::vùng bẹn, đùi, mông}}.",
-          "extra": "🎯 Trả lời cốt lõi: Rất dễ bị nhầm với bỏng nước sôi hoặc hội chứng Stevens-Johnson.<br><br>💡 Giải thích: Hậu quả của thiếu hụt protein nặng, thiếu kẽm và thiếu acid béo thiết yếu.",
-          "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B3",
             "Son-nut",
             "Flaky-paint",
             "Kwashiorkor"
           ]
         },
         {
-          "id": "PED30-B3-12",
-          "track": "ebm_update",
-          "card_type": "cloze",
+          "id": "PED30-B3-09",
+          "track": "barem_goc",
+          "type": "basic",
+          "category": "Viêm da do thiếu Kẽm",
           "section": "B3",
-          "text": "[EBM Update] Viêm da đầu chi và quanh các lỗ tự nhiên (Acrodermatitis enteropathica): Biểu hiện tổn thương da đỏ bong vảy, mụn nước quanh miệng, mũi, hậu môn và đầu ngón tay chân là dấu hiệu kinh điển của {{c1::thiếu Kẽm nặng}}.",
-          "extra": "🎯 Trả lời cốt lõi: Viêm da quanh lỗ tự nhiên gợi ý ngay thiếu Kẽm.<br><br>💡 Giải thích: Bổ sung kẽm liều điều trị tổn thương da sẽ thoái lui nhanh chóng trong 1–2 tuần.",
+          "front": "Biểu hiện lâm sàng của tổn thương da trong thiếu Kẽm nặng (Acrodermatitis enteropathica) có đặc điểm định vị gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vị trí định vị đặc hiệu:</b> Tổn thương da khu trú quanh các lỗ tự nhiên của cơ thể (quanh miệng, quanh mũi, mắt, quanh hậu môn, sinh dục) và ở đầu các ngón chi (đầu ngón tay, ngón chân).<br>2) <b>Tính chất tổn thương:</b> Viêm da đỏ rực, mụn nước, bọng nước, trợt loét đóng vảy tiết, kèm theo rụng tóc nhiều và tiêu chảy kéo dài.<br>3) <b>Đáp ứng điều trị:</b> Đáp ứng ngoạn mục: khi bổ sung kẽm đường uống, tổn thương da sẽ lành sẹo nhanh chóng chỉ sau 1–2 tuần.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.3 Checklist khám vi chất)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B3",
-            "Thieu-kem",
-            "Acrodermatitis"
+            "Acrodermatitis",
+            "Thieu-kem"
           ]
         },
         {
-          "id": "PED30-B3-13",
+          "id": "PED30-B3-10",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Bộ tứ cờ đỏ cấp cứu trong 24 giờ",
           "section": "B3",
-          "text": "[EBM Update] Dấu hiệu móng tay lõm hình thìa (Koilonychia): Móng tay mỏng, bẹt hoặc lõm lòng chảo ở giữa, gờ móng nhô cao, móng khô giòn dễ gãy là triệu chứng đặc hiệu của {{c1::thiếu máu thiếu Sắt mạn tính nặng}}.",
-          "extra": "🎯 Trả lời cốt lõi: Koilonychia chỉ điểm thiếu sắt trường diễn.<br><br>💡 Giải thích: Do thiếu enzym chứa sắt tham gia vào quá trình biệt hóa tế bào mầm móng tay.",
+          "front": "Box đỏ an toàn: Liệt kê Bộ tứ cờ đỏ đe dọa tử vong trong vòng 24 giờ đầu ở trẻ SAM và hành động xử trí tức thì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hạ đường huyết (&lt; 3.0 mmol/L):</b> Cho uống ngay 50 ml dung dịch Glucose 10% (nếu hôn mê: tiêm TM 5 ml/kg Glucose 10%).<br>2) <b>Hạ thân nhiệt (&lt; 35.5°C):</b> Ủ ấm da kề da Kangaroo, phòng ấm 25–28°C, đội mũ, cho uống nước đường ấm ngay.<br>3) <b>Sốc giảm thể tích / Sốc nhiễm khuẩn:</b> Mạch nhanh nhỏ, chi lạnh ngắt, thời gian đổ đầy mao mạch (CRT) ≥ 3 giây → hồi sức cấp cứu khẩn cấp.<br>4) <b>Loét nhuyễn giác mạc (thiếu Vitamin A):</b> Cho uống ngay 1 liều Vitamin A theo tuổi (100.000–200.000 IU) trong ngày đầu tiên để cứu thị giác của trẻ.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Box Đỏ An toàn trước chẩn đoán thường quy)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B3",
-            "Mong-thia",
+            "Co-do-cap-cuu",
+            "Box-do"
+          ]
+        },
+        {
+          "id": "PED30-B3-11",
+          "track": "ebm_update",
+          "type": "basic",
+          "category": "Cơ chế móng thìa do thiếu sắt",
+          "section": "B3",
+          "front": "Tại sao thiếu máu thiếu sắt mạn tính nặng lại gây ra dấu hiệu móng tay lõm hình thìa (Koilonychia)?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế phân tử:</b> Sắt là co-factor bắt buộc của enzym Cytochrome oxidase và các enzym tổng hợp keratin trong tế bào mầm móng tay.<br>2) <b>Hậu quả mô học:</b> Thiếu sắt kéo dài làm chậm phân chia tế bào chất nền móng và giảm lượng keratinized tissue → phiến móng bị mỏng đi, mất độ cong lồi sinh lý.<br>3) <b>Biến dạng hình thìa:</b> Áp lực cơ học từ việc cầm nắm đẩy phần giữa của móng lõm xuống như lòng chảo, hai gờ móng cong vênh lên trên tạo hình chiếc thìa múc súp.",
+          "extra": "📖 Nguồn: Baker & Greer AAP (Pediatrics 2010, PMID: 20923825)",
+          "tags": [
             "Koilonychia",
+            "Mong-thia",
             "Thieu-sat"
           ]
         },
         {
-          "id": "PED30-B3-14",
+          "id": "PED30-B3-12",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Tổn thương niêm mạc miệng do thiếu Vitamin B",
           "section": "B3",
-          "text": "[EBM Update] Viêm nứt kẽ mép (Cheilosis / Angular stomatitis) và Viêm lưỡi đỏ mất gai (Glossitis): Thường phản ánh tình trạng thiếu hụt đồng thời các vitamin nhóm B gồm: {{c1::Vitamin B2 (Riboflavin), B6 (Pyridoxine), B12 và Folate}}.",
-          "extra": "🎯 Trả lời cốt lõi: Nứt khóe mép hướng đến B2/B6; lưỡi đỏ nhẵn bóng hướng đến B12/Folate/Sắt.<br><br>💡 Giải thích: Các tế bào biểu mô niêm mạc miệng có tốc độ phân chia nhanh nên nhạy cảm với thiếu vitamin B.",
+          "front": "Phân biệt triệu chứng và vi chất nghi ngờ giữa Viêm nứt kẽ mép (Cheilosis) và Viêm lưỡi mất gai (Glossitis)?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Viêm nứt kẽ mép (Cheilosis / Angular stomatitis):</b><br>- Triệu chứng: Nứt nẻ, loét trợt đau rát ở hai góc khóe mép.<br>- Vi chất nghi ngờ: Hướng đến thiếu <b>Vitamin B2 (Riboflavin)</b> hoặc <b>Vitamin B6 (Pyridoxine)</b>.<br>2) <b>Viêm lưỡi mất gai (Glossitis):</b><br>- Triệu chứng: Lưỡi sưng to, đỏ rực, các gai lưỡi teo phẳng khiến bề mặt lưỡi nhẵn bóng như miếng thịt bò tươi.<br>- Vi chất nghi ngờ: Điển hình của thiếu <b>Vitamin B12</b>, <b>Acid Folic (B9)</b>, hoặc thiếu máu thiếu <b>Sắt</b> nặng.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.3 Checklist khám vi chất)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B3",
-            "Nut-mep",
+            "Cheilosis",
             "Glossitis",
             "Vitamin-B"
           ]
         },
         {
-          "id": "PED30-B3-15",
+          "id": "PED30-B3-13",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Cơ chế chảy máu lợi trong Scurvy",
           "section": "B3",
-          "text": "[EBM Update] Phân biệt Phù Kwashiorkor vs Phù Hội chứng Thận hư: Phù thận hư thường bắt đầu từ {{c1::mi mắt vào buổi sáng}} và kèm theo {{c2::protein niệu ồ ạt (> 50 mg/kg/ngày)}}; trong khi phù Kwashiorkor bắt đầu từ {{c3::mu bàn chân hai bên}} và luôn có teo cơ đi kèm.",
-          "extra": "🎯 Trả lời cốt lõi: Vị trí khởi phát và xét nghiệm nước tiểu giúp phân định rạch ròi.<br><br>💡 Giải thích: Kwashiorkor không có protein niệu ngưỡng thận hư; tiền sử ăn dặm toàn bột đường thiếu đạm.",
+          "front": "Sinh lý bệnh học của bệnh Scurvy ở trẻ em: Tại sao thiếu Vitamin C lại gây chảy máu chân răng và đau xương dữ dội?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Giảm tổng hợp Collagen:</b> Vitamin C là co-factor của enzym Prolyl hydroxylase để hydroxyl hóa proline tạo chuỗi xoắn ba collagen vững chắc.<br>2) <b>Thành mạch yếu gây xuất huyết:</b> Thiếu vitamin C làm collagen mạch máu mỏng manh dễ vỡ → chảy máu chân răng, lợi sưng phì đại bầm tím, xuất huyết dưới da.<br>3) <b>Xuất huyết dưới màng xương gây đau xương:</b> Máu tụ dưới màng xương ở đầu các xương dài gây đau đớn dữ dội khi chạm vào, khiến trẻ nằm bất động ở tư thế co đùi chân ếch (Frog-leg position).",
+          "extra": "📖 Nguồn: Nelson Textbook of Pediatrics & Bài học PED-30",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B3",
+            "Scurvy",
+            "Vitamin-C",
+            "Collagen"
+          ]
+        },
+        {
+          "id": "PED30-B3-14",
+          "track": "ebm_update",
+          "type": "basic",
+          "category": "Phân biệt Phù Kwashiorkor vs Hội chứng Thận hư",
+          "section": "B3",
+          "front": "Bảng đối chiếu 4 điểm quyết định giúp phân biệt tại giường giữa Phù dinh dưỡng (Kwashiorkor) và Phù Hội chứng Thận hư?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vị trí khởi phát phù:</b> Phù thận hư thường bắt đầu từ mi mắt vào buổi sáng sau ngủ dậy; Phù Kwashiorkor bắt đầu từ mu bàn chân hai bên và cẳng chân.<br>2) <b>Khối cơ và lớp mỡ:</b> Thận hư cơ thể vẫn mập mạp, cơ không teo; Kwashiorkor luôn có teo cơ thái dương, teo cơ mông và da bọc xương đi kèm.<br>3) <b>Tổn thương da tóc:</b> Kwashiorkor có da bong vảy kiểu sơn nứt, tóc thưa đổi màu cờ (Flag sign); Thận hư da tóc bình thường.<br>4) <b>Xét nghiệm nước tiểu:</b> Thận hư có protein niệu ồ ạt (> 50 mg/kg/ngày hoặc 3+ đến 4+); Kwashiorkor protein niệu âm tính hoặc vết.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.3 & PED-40 Hội chứng Thận hư)",
+          "tags": [
             "Phan-biet-phu",
             "Than-hu",
             "Kwashiorkor"
           ]
         },
         {
+          "id": "PED30-B3-15",
+          "track": "ebm_update",
+          "type": "basic",
+          "category": "Tâm lý học hành vi trong hai thể nặng",
+          "section": "B3",
+          "front": "Sự đối lập sâu sắc về biểu hiện tâm lý và hành vi giữa trẻ thể Marasmus và trẻ thể Kwashiorkor phản ánh điều gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Trẻ thể Marasmus:</b> Rất thèm ăn, háu ăn, mắt nhìn chăm chú theo thức ăn, quấy khóc đòi ăn liên tục khi thấy người lớn cầm đồ ăn → Phản ánh cơ thể đang bị đói năng lượng toàn diện nhưng các thụ thể đói ở vùng dưới đồi vẫn còn đáp ứng.<br>2) <b>Trẻ thể Kwashiorkor:</b> Rất chán ăn, từ chối bú, nằm bất động, khuôn mặt thờ ơ, u sầu, lãnh đạm với môi trường xung quanh → Hậu quả của nhiễm độc chuyển hóa, thiếu kali và magie nội bào nặng nề, cùng với teo niêm mạc ruột gây buồn nôn.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.4 Bảng so sánh)",
+          "tags": [
+            "Tam-ly",
+            "Marasmus",
+            "Kwashiorkor"
+          ]
+        },
+        {
           "id": "PED30-B3-16",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Cơ chế vẻ mặt cụ già trong Marasmus",
           "section": "B3",
-          "text": "[EBM Update] Vẻ mặt trong hai thể suy dinh dưỡng nặng: Thể Marasmus có vẻ mặt {{c1::cụ già (Old man face)}} do mất túi mỡ má Bichat; thể Kwashiorkor có vẻ mặt {{c2::tròn như mặt trăng rằm (Moon face)}} do phù ứ nước mô mềm.",
-          "extra": "🎯 Trả lời cốt lõi: Mặt cụ già (Marasmus) vs Mặt trăng rằm (Kwashiorkor).<br><br>💡 Giải thích: Dù mặt tròn trăng rằm nhưng trẻ Kwashiorkor có biểu hiện tâm lý thờ ơ, lãnh đạm, u sầu.",
+          "front": "Tại sao trẻ thể teo đét Marasmus lại có vẻ mặt cụ già (Old man face / Monkey face)?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mất cấu trúc đệm mỡ má Bichat:</b> Túi mỡ má Bichat là đệm mỡ sâu nằm giữa cơ cắn và cơ mút. Khi cơ thể đói đến cùng kiệt, túi mỡ này bị tiêu hủy hoàn toàn khiến hai má hóp sâu dính vào xương hàm.<br>2) <b>Teo cơ thái dương và mắt trũng:</b> Mỡ quanh hốc mắt và cơ thái dương bị teo biến khiến hai nhãn cầu trũng sâu, gò má nhô cao.<br>3) <b>Da trán nhăn nheo:</b> Da mất hoàn toàn lớp mỡ đệm trở nên chùng xuống xếp thành nhiều nếp nhăn nheo trên trán → tạo nên diện mạo một ông cụ già trên cơ thể một đứa trẻ vài tháng tuổi.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.2 Đánh giá mất mỡ dưới da)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B3",
-            "Ve-mat",
-            "Old-man",
-            "Moon-face"
+            "Ve-mat-cu-gia",
+            "Marasmus",
+            "Bichat"
           ]
         },
         {
           "id": "PED30-B3-17",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Ví dụ nhận diện tóc đổi màu cờ",
           "section": "B3",
-          "text": "[EBM Update] Tâm lý và hành vi khác biệt: Trẻ thể Marasmus thường {{c1::rất thèm ăn, háu ăn, quấy khóc đòi ăn liên tục}}; trong khi trẻ thể Kwashiorkor lại {{c2::rất chán ăn, bỏ bú, thờ ơ, lãnh đạm với xung quanh}}.",
-          "extra": "🎯 Trả lời cốt lõi: Háo ăn (Marasmus) vs Chán ăn lãnh đạm (Kwashiorkor).<br><br>💡 Giải thích: Trẻ Kwashiorkor chán ăn do rối loạn điện giải, thiếu kali/magie và teo niêm mạc ruột nặng.",
+          "front": "Tình huống: Một bé gái 3 tuổi ăn dặm bằng bột sắn dây và nước cơm trong 4 tháng sau cai sữa. Khám thấy tóc thưa rụng, sợi tóc có các dải màu hung đỏ xen kẽ các dải đen. Bác sĩ giải thích cho gia đình như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tên dấu hiệu:</b> Đây là <b>Dấu hiệu cờ (Flag sign)</b> kinh điển của thể suy dinh dưỡng thiếu đạm Kwashiorkor.<br>2) <b>Giải thích cho gia đình:</b> Sợi tóc của bé phản ánh lịch sử ăn uống: những đợt gia đình chỉ cho ăn bột sắn thiếu đạm thì sợi tóc mọc ra không tổng hợp được sắc tố đen nên bị đổi màu hung đỏ/vàng; đợt nào có thức ăn đạm thì tóc lại mọc màu đen.<br>3) <b>Hành động:</b> Nhập viện kiểm tra ngay Albumin máu và tìm phù dinh dưỡng ở hai mu chân.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 1.5 Ví dụ 8)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B3",
-            "Tam-ly",
-            "Them-an",
-            "Chan-an"
+            "Vi-du-Flag-sign",
+            "Kwashiorkor"
           ]
         },
         {
           "id": "PED30-B3-18",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Cảnh báo không dùng sắt giai đoạn cấp",
           "section": "B3",
-          "text": "[EBM Update] Bệnh Scurvy ở trẻ em: Triệu chứng chảy máu chân răng, lợi sưng đỏ bầm tím, xuất huyết dưới màng xương gây đau xương dữ dội khiến trẻ nằm ở tư thế đùi co gập chân ếch (Frog-leg position) do thiếu hụt nghiêm trọng {{c1::Vitamin C (Acid ascorbic)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Bệnh Scurvy do thiếu Vitamin C làm giảm tổng hợp collagen thành mạch.<br><br>💡 Giải thích: Thường gặp ở trẻ ăn dặm bột nấu quá chín kỹ làm phá hủy toàn bộ vitamin C tự nhiên.",
+          "front": "Tại sao trong giai đoạn cấp cứu hồi sức ban đầu (giai đoạn 1) của trẻ SAM, WHO tuyệt đối CẤM bổ sung sắt?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nồng độ Transferrin máu cực thấp:</b> Do gan suy giảm tổng hợp protein, lượng Transferrin vận chuyển sắt trong máu của trẻ SAM gần như cạn kiệt.<br>2) <b>Sắt tự do gây độc:</b> Nếu cho uống hoặc tiêm sắt, lượng sắt này sẽ tồn tại dưới dạng sắt tự do (Free unbound iron) lưu hành trong huyết tương.<br>3) <b>Bùng phát nhiễm trùng huyết:</b> Sắt tự do là nguồn dinh dưỡng thiết yếu kích thích vi khuẩn độc lực cao (như Klebsiella, E. coli, Yersinia) phân chia nhân lên ồ ạt, đồng thời tạo phản ứng Fenton sinh gốc tự do phá hủy màng tế bào → gây bùng phát nhiễm trùng huyết tối cấp và tử vong!<br>4) <b>Quy tắc:</b> Chỉ bổ sung sắt khi trẻ bước sang giai đoạn hồi phục (trẻ đã thèm ăn và bắt đầu tăng cân).",
+          "extra": "📖 Nguồn: WHO Management of Severe Malnutrition (2019/2023)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B3",
-            "Scurvy",
-            "Vitamin-C",
-            "Chay-mau-loi"
+            "Cam-dung-sat",
+            "Nhiem-trung-huyet",
+            "Fenton"
           ]
         },
         {
           "id": "PED30-B4-01",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Cơ chế bệnh sinh Marasmus vs Kwashiorkor",
           "section": "B4",
-          "text": "[Barem gốc] Khác biệt cốt lõi về cơ chế bệnh sinh: Thể Marasmus do {{c1::thiếu hụt toàn bộ cả Calorie lẫn Protein (đói ăn toàn diện)}}; thể Kwashiorkor do {{c2::thiếu hụt Protein đơn thuần trong khi năng lượng từ tinh bột vẫn cung cấp đủ}}.",
-          "extra": "🎯 Trả lời cốt lõi: Đói toàn diện (Marasmus) vs Đói đạm đơn thuần (Kwashiorkor).<br><br>💡 Giải thích: Nguồn gốc từ tiếng Ghana: 'Kwashiorkor' nghĩa là 'căn bệnh của đứa trẻ bị thay thế khi mẹ sinh con thứ hai' (phải cai sữa mẹ ăn bột sắn đường).",
+          "front": "So sánh sự khác biệt căn bản về cơ chế bệnh sinh giữa Thể Teo đét (Marasmus) và Thể Phù (Kwashiorkor)?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thể Teo đét (Marasmus):</b> Do <b>thiếu hụt toàn bộ cả Calorie lẫn Protein</b> (tình trạng đói ăn toàn diện, ăn không đủ cả lượng lẫn chất). Cơ thể thích nghi bằng cách tự dị hóa toàn bộ mô mỡ và mô cơ.<br>2) <b>Thể Phù (Kwashiorkor):</b> Do <b>thiếu hụt Protein đơn thuần nhưng năng lượng từ tinh bột vẫn cung cấp đủ</b> (ví dụ trẻ ăn dặm toàn bột sắn, nước cơm đường, ngô). Cơ thể không kích hoạt được cơ chế dị hóa thích nghi, dẫn đến suy sụp tổng hợp protein tại gan.",
+          "extra": "📖 Nguồn: Giáo trình Nhi khoa & Bài học PED-30 (Mục 3.4)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B4",
             "Co-che-benh-sinh",
             "Marasmus",
             "Kwashiorkor"
@@ -20727,14 +20667,13 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED30-B4-02",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Triệu chứng phù phân định",
           "section": "B4",
-          "text": "[Barem gốc] Khác biệt về triệu chứng Phù: Thể Marasmus {{c1::HOÀN TOÀN KHÔNG CÓ PHÙ}}; thể Kwashiorkor {{c2::BẮT BUỘC PHẢI CÓ PHÙ ĐỐI XỨNG HAI BÊN}}.",
-          "extra": "🎯 Trả lời cốt lõi: Phù là tiêu chuẩn phân định sống còn giữa hai thể.<br><br>💡 Giải thích: Nếu trẻ Marasmus xuất hiện thêm phù thì được xếp vào thể phối hợp Marasmic Kwashiorkor.",
+          "front": "Sự hiện diện của triệu chứng Phù phân định rạch ròi giữa Thể Marasmus và Thể Kwashiorkor như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thể Marasmus:</b> <b>HOÀN TOÀN KHÔNG CÓ PHÙ</b> (ấn mu chân không lõm). Trẻ gầy trơ xương, teo đét toàn thân.<br>2) <b>Thể Kwashiorkor:</b> <b>BẮT BUỘC PHẢI CÓ PHÙ DINH DƯỠNG ĐỐI XỨNG HAI BÊN</b> (ít nhất là phù mu chân độ 1, lan lên cẳng chân độ 2 hoặc toàn thân độ 3).<br><br><b>💡 Giải thích của AI:</b><br>Nếu một đứa trẻ gầy trơ xương như Marasmus nhưng lại xuất hiện thêm phù mu chân thì được chẩn đoán là Thể phối hợp Marasmic Kwashiorkor.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.4 Bảng so sánh)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B4",
             "Phu",
             "Tieu-chi-phan-dinh"
           ]
@@ -20742,152 +20681,145 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED30-B4-03",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Kích thước Gan phân định",
           "section": "B4",
-          "text": "[Barem gốc] Khác biệt về kích thước Gan: Thể Marasmus gan {{c1::bình thường}}; thể Kwashiorkor gan {{c2::sưng to do thoái hóa mỡ (gan ứ mỡ)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Gan to ứ mỡ là đặc trưng của Kwashiorkor.<br><br>💡 Giải thích: Do thiếu hụt Apolipoprotein B-100 vận chuyển mỡ ra khỏi gan.",
+          "front": "Kích thước gan khác nhau như thế nào giữa thể Marasmus và thể Kwashiorkor?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thể Marasmus:</b> Gan có kích thước <b>hoàn toàn bình thường</b>, mật độ chắc, không to dưới bờ sườn.<br>2) <b>Thể Kwashiorkor:</b> <b>GAN TO RÕ RỆT DO THOÁI HÓA MỠ</b> (gan to mấp mé dưới bờ sườn 2–4 cm, bờ tù, mật độ mềm, không đau).",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.4 Bảng so sánh)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B4",
             "Gan-to",
-            "ApoB100"
+            "Thoai-hoa-mo"
           ]
         },
         {
           "id": "PED30-B4-04",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Albumin máu phân định",
           "section": "B4",
-          "text": "[Barem gốc] Khác biệt về nồng độ Albumin huyết thanh: Thể Marasmus Albumin {{c1::bình thường hoặc giảm nhẹ (> 28 g/L)}}; thể Kwashiorkor Albumin {{c2::giảm rất nặng (&lt; 25 g/L, thậm chí &lt; 15 g/L)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Albumin giảm sâu làm sụt áp lực keo huyết tương gây phù trong Kwashiorkor.<br><br>💡 Giải thích: Marasmus dị hóa cơ lấy acid amin bù trừ nên gan vẫn duy trì được albumin tương đối.",
+          "front": "Nồng độ Albumin huyết thanh biến đổi khác biệt như thế nào giữa Marasmus và Kwashiorkor?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thể Marasmus:</b> Nồng độ Albumin máu <b>bình thường hoặc chỉ giảm nhẹ</b> (thường vẫn duy trì &gt; 28 g/L) do gan vẫn được cung cấp acid amin từ quá trình dị hóa cơ vân.<br>2) <b>Thể Kwashiorkor:</b> Nồng độ Albumin máu <b>giảm cực kỳ nặng nề</b> (thường &lt; 25 g/L, thậm chí tụt sâu xuống dưới 15 g/L) do tế bào gan cạn kiệt acid amin nguyên liệu tổng hợp.",
+          "extra": "📖 Nguồn: Beck & Rosenthal (Am Fam Physician 2002, PMID: 11989633)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B4",
-            "Albumin",
-            "Giam-nang"
+            "Albumin-mau",
+            "Giam-nang-25"
           ]
         },
         {
           "id": "PED30-B4-05",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Đặc điểm lớp mỡ dưới da phân định",
           "section": "B4",
-          "text": "[Barem gốc] Khác biệt về lớp mỡ dưới da: Thể Marasmus {{c1::mất sạch hoàn toàn lớp mỡ (mất cả túi mỡ má Bichat)}}; thể Kwashiorkor {{c2::vẫn còn giữ lại một phần lớp mỡ dưới da}}.",
-          "extra": "🎯 Trả lời cốt lõi: Marasmus tiêu sạch mỡ; Kwashiorkor còn mỡ dưới da.<br><br>💡 Giải thích: Vì Kwashiorkor vẫn nạp thừa tinh bột nên quá trình lipogenesis từ glucose vẫn diễn ra.",
+          "front": "Tình trạng lớp mỡ dưới da khác nhau như thế nào giữa thể Marasmus và Kwashiorkor?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thể Marasmus:</b> Lớp mỡ dưới da <b>mất sạch hoàn toàn trên toàn bộ cơ thể</b> (mất cả túi mỡ má Bichat, tạo nên vẻ mặt cụ già hốc hác).<br>2) <b>Thể Kwashiorkor:</b> <b>Vẫn còn giữ lại một phần lớp mỡ dưới da</b> ở chi và thân mình, hai má vẫn còn bầu bĩnh do cơ thể vẫn chuyển hóa đường tinh bột thừa thành mỡ dự trữ.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.4 Bảng so sánh)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B4",
             "Lop-mo",
-            "Bichat"
+            "Marasmus",
+            "Kwashiorkor"
           ]
         },
         {
           "id": "PED30-B4-06",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Thể phối hợp Marasmic Kwashiorkor",
           "section": "B4",
-          "text": "[Barem gốc] Định nghĩa Thể phối hợp (Marasmic Kwashiorkor): Trẻ có đặc điểm của thể teo đét (gầy trơ xương, teo cơ nặng) nhưng đồng thời lại xuất hiện {{c1::triệu chứng phù ở bàn chân/cẳng chân}}.",
-          "extra": "🎯 Trả lời cốt lõi: Kết hợp teo cơ trơ xương của Marasmus + phù của Kwashiorkor.<br><br>💡 Giải thích: Đây là thể lâm sàng có tiên lượng tử vong cao nhất trong mọi thể suy dinh dưỡng nặng.",
+          "front": "Định nghĩa và đặc điểm lâm sàng của Thể phối hợp (Marasmic Kwashiorkor) là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Định nghĩa:</b> Là thể suy dinh dưỡng nặng kết hợp triệu chứng của cả hai thể: vừa có tình trạng teo đét cạn kiệt mỡ cơ của Marasmus vừa có triệu chứng phù của Kwashiorkor.<br>2) <b>Đặc điểm lâm sàng:</b> Trẻ gầy trơ xương, cơ teo nhẽo, xương sườn nhô cao, mất nếp lằn mông nhưng ở hai mu bàn chân hoặc cẳng chân lại xuất hiện phù mềm ấn lõm.<br>3) <b>Tiên lượng:</b> Là thể có <b>tỷ lệ tử vong cao nhất</b> trong các thể suy dinh dưỡng nặng do cơ thể vừa kiệt quệ năng lượng vừa sụp đổ protein và miễn dịch.",
+          "extra": "📖 Nguồn: Giáo trình Nhi khoa & WHO Management of Severe Malnutrition",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B4",
             "Marasmic-Kwashiorkor",
-            "Phoi-hop",
-            "Tu-vong-cao"
+            "Tu-vong-cao-nhat"
           ]
         },
         {
           "id": "PED30-B4-07",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Tổn thương da và tóc phân định",
           "section": "B4",
-          "text": "[Barem gốc] Tiên lượng tử vong: Trong 3 thể suy dinh dưỡng nặng (Marasmus, Kwashiorkor, Marasmic Kwashiorkor), thể có nguy cơ tử vong cao nhất trên thực hành lâm sàng là {{c1::Thể phối hợp (Marasmic Kwashiorkor)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Marasmic Kwashiorkor có tỷ lệ tử vong cao nhất.<br><br>💡 Giải thích: Cơ thể vừa kiệt quệ hoàn toàn nguồn năng lượng vừa suy sụp protein và hệ thống miễn dịch.",
+          "front": "Sự khác biệt về biểu hiện da và tóc giữa thể Marasmus và thể Kwashiorkor là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thể Marasmus:</b> Da khô, nhăn nheo, lỏng lẻo; tóc tương đối bình thường, không đổi màu.<br>2) <b>Thể Kwashiorkor:</b> Tổn thương da và tóc rất nặng nề và đặc hiệu:<br>- Da nứt nẻ, bong vảy sẫm màu từng mảng kiểu 'sơn nứt' (Flaky-paint dermatosis).<br>- Tóc thưa, khô giòn, dễ nhổ, đổi màu hung đỏ hoặc vàng, có dấu hiệu cờ (Flag sign).",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.4 Bảng so sánh)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B4",
-            "Tien-luong",
-            "Tu-vong"
+            "Da-toc",
+            "Son-nut",
+            "Flag-sign"
           ]
         },
         {
           "id": "PED30-B4-08",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Cơ chế phân tử Gan ứ mỡ trong Kwashiorkor",
           "section": "B4",
-          "text": "[EBM Update] Cơ chế phân tử của Gan nhiễm mỡ trong Kwashiorkor: Tế bào gan vẫn tổng hợp Triglyceride từ tinh bột thừa nhưng không thể tổng hợp được {{c1::Apolipoprotein B-100 (Apo B-100)}} do thiếu acid amin thiết yếu \\→ không đóng gói được {{c2::VLDL}} để xuất bào.",
-          "extra": "🎯 Trả lời cốt lõi: Thiếu Apo B-100 làm tắc nghẽn xuất bào VLDL gây ứ mỡ tại gan.<br><br>💡 Giải thích: Mỡ bị ứ lại trong bóng mỡ nội bào gan, gan to mềm bờ tù vàng óng.",
+          "front": "Cơ chế sinh học phân tử giải thích tại sao trẻ Kwashiorkor bị gan to ứ mỡ trong khi trẻ Marasmus gan lại bình thường?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tổng hợp triglyceride thừa:</b> Khẩu phần ăn nhiều bột đường cung cấp thừa glucose → gan vẫn tổng hợp Triglyceride bình thường.<br>2) <b>Thiếu Apolipoprotein B-100:</b> Do thiếu hụt nghiêm trọng acid amin thiết yếu từ thức ăn, tế bào gan không thể tổng hợp được vỏ bọc protein <b>Apolipoprotein B-100 (Apo B-100)</b>.<br>3) <b>Tắc nghẽn xuất bào VLDL:</b> Thiếu Apo B-100, triglyceride không thể đóng gói thành lipoprotein tỷ trọng rất thấp (VLDL) để vận chuyển ra khỏi gan vào máu → toàn bộ mỡ ứ đọng lại trong các hạt mỡ nội bào gan làm gan to ứ mỡ nặng nề.<br>4) <b>Ở Marasmus:</b> Không có tình trạng thừa tinh bột và cơ thể dị hóa cơ giải phóng đủ acid amin cho gan tổng hợp Apo B-100 nên gan không bị ứ mỡ.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 11b Bệnh học chuyên sâu)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B4",
-            "ApoB-100",
-            "VLDL",
-            "Gan-u-mo"
+            "Co-che-ApoB100",
+            "Gan-u-mo",
+            "VLDL"
           ]
         },
         {
           "id": "PED30-B4-09",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Thích nghi nội tiết trong Marasmus",
           "section": "B4",
-          "text": "[EBM Update] Cơ chế thích nghi chuyển hóa trong Marasmus: Nồng độ Insulin huyết tương {{c1::giảm rất thấp}} và Cortisol/GH {{c2::tăng cao}} \\→ kích hoạt quá trình dị hóa mỡ tạo thể ceton và dị hóa khối cơ giải phóng acid amin nuôi não và gan.",
-          "extra": "🎯 Trả lời cốt lõi: Đáp ứng nội tiết thích nghi tối đa với nạn đói.<br><br>💡 Giải thích: Nhờ đó gan vẫn tổng hợp được một lượng albumin tối thiểu để duy trì áp lực keo, nên Marasmus không bị phù.",
+          "front": "Cơ chế thích nghi nội tiết (Hormonal Adaptation) giúp trẻ thể Marasmus bảo tồn nồng độ Albumin máu không bị tụt sâu là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Insulin giảm rất thấp:</b> Do không có carbohydrate nạp vào, tuyến tụy ngừng tiết insulin.<br>2) <b>Cortisol và GH tăng cao:</b> Kích hoạt quá trình tiêu mỡ (Lipolysis) giải phóng acid béo tự do tạo thể ceton nuôi não bộ; đồng thời kích hoạt tiêu cơ vân (Proteolysis).<br>3) <b>Ưu tiên nguồn cho gan:</b> Lượng acid amin từ cơ vân dị hóa được đưa về gan làm nguyên liệu ưu tiên tổng hợp Albumin.<br>4) <b>Kết quả:</b> Nhờ đó nồng độ Albumin máu vẫn duy trì được &gt; 28 g/L, đủ để duy trì áp lực keo huyết tương ngăn ngừa tình trạng phù mạch.",
+          "extra": "📖 Nguồn: Sinh lý bệnh học Nhi khoa & Bài học PED-30",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B4",
-            "Thich-nghi-Marasmus",
-            "Insulin-thap"
+            "Thich-nghi-noi-tiet",
+            "Insulin-thap",
+            "Cortisol"
           ]
         },
         {
           "id": "PED30-B4-10",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Cơ chế đa yếu tố gây phù trong Kwashiorkor",
           "section": "B4",
-          "text": "[EBM Update] Cơ chế bệnh sinh của Phù trong Kwashiorkor: Không chỉ do giảm áp lực keo vì hạ Albumin, mà còn do: (1) {{c1::Tăng tính thấm thành mạch}} do gốc tự do stress oxy hóa; (2) {{c2::Giảm bài xuất Natri tại thận}} do giảm mức lọc cầu thận.",
-          "extra": "🎯 Trả lời cốt lõi: Cơ chế đa yếu tố: hạ albumin + tăng tính thấm mao mạch + giữ muối nước.<br><br>💡 Giải thích: Truyền Albumin đơn thuần không giải quyết được phù trong Kwashiorkor nếu không xử trí nhiễm trùng và chống stress oxy hóa.",
+          "front": "Tại sao quan điểm 'Phù Kwashiorkor chỉ đơn thuần do giảm áp lực keo vì hạ Albumin' hiện nay được coi là chưa đầy đủ?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bằng chứng phản biện:</b> Nhiều trẻ Kwashiorkor khi truyền bù Albumin nồng độ lên bình thường nhưng phù vẫn không giảm; ngược lại trong giai đoạn hồi phục khi phù thoái lui thì Albumin máu vẫn còn rất thấp.<br>2) <b>Cơ chế đa yếu tố hiện đại:</b><br>- Giảm áp lực keo huyết tương (hạ Albumin &lt; 25 g/L).<br>- <b>Tăng tính thấm thành mao mạch</b> do các gốc tự do peroxide phá hủy màng tế bào nội mô (thiếu chất chống oxy hóa glutathione, kẽm, vitamin E).<br>- <b>Ứ trệ Natri và nước</b> tại thận do giảm mức lọc cầu thận và tăng tiết ADH không thích hợp.<br>3) <b>Ý nghĩa:</b> Điều trị phù không phải là truyền albumin mà là giải quyết stress oxy hóa, phục hồi bơm ion tế bào và bù vi chất.",
+          "extra": "📖 Nguồn: Golden MH (Lancet / Food Nutr Bull) & PED-30",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B4",
-            "Co-che-phu-Kwashiorkor",
+            "Co-che-phu-hien-dai",
+            "Golden",
             "Tinh-tham-thanh-mach"
           ]
         },
         {
           "id": "PED30-B4-11",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Thuyết Stress oxy hóa của Golden",
           "section": "B4",
-          "text": "[EBM Update] Thuyết Stress oxy hóa trong Kwashiorkor (Golden's hypothesis): Thiếu hụt các chất chống oxy hóa bảo vệ (Kẽm, Đồng, Selen, Vitamin E, Glutathione) \\→ các gốc tự do peroxide phá hủy màng tế bào \\→ gây tổn thương {{c1::da sơn nứt, phù và ứ mỡ gan}}.",
-          "extra": "🎯 Trả lời cốt lõi: Mất cân bằng giữa gốc tự do và hệ thống phòng ngự chống oxy hóa.<br><br>💡 Giải thích: Giải thích tại sao nhiều trẻ cùng ăn thiếu đạm nhưng chỉ trẻ có nhiễm trùng/thiếu vi chất mới biểu hiện Kwashiorkor.",
+          "front": "Thuyết Stress oxy hóa của Golden (Golden's Hypothesis) giải thích bệnh sinh thể Kwashiorkor như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mất cân bằng oxy hóa:</b> Khi trẻ bị nhiễm trùng (sởi, tiêu chảy) tạo ra lượng lớn gốc tự do tiền viêm, trong khi khẩu phần ăn thiếu nghiêm trọng các chất chống oxy hóa bảo vệ (Kẽm, Đồng, Selen, Vitamin E, Vitamin A, Cysteine).<br>2) <b>Suy sụp Glutathione:</b> Gan không tổng hợp đủ Glutathione (chất chống oxy hóa nội bào mạnh nhất).<br>3) <b>Tổn thương mô:</b> Gốc tự do phá hủy màng tế bào nội mô gây thoát dịch phù, làm tổn thương da bong vảy kiểu sơn nứt, và phá hủy màng tế bào gan gây ứ đọng lipid.<br>4) <b>Ý nghĩa:</b> Giải thích vì sao nhiều trẻ cùng ăn thiếu đạm nhưng chỉ những trẻ có đợt nhiễm trùng cấp kèm theo mới bùng phát thành Kwashiorkor.",
+          "extra": "📖 Nguồn: Golden MH & Bài học PED-30 (Mục 11b)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B4",
-            "Stress-oxy-hoa",
             "Golden",
+            "Stress-oxy-hoa",
             "Glutathione"
           ]
         },
         {
           "id": "PED30-B4-12",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Hiện tượng sụt cân thoái phù",
           "section": "B4",
-          "text": "[EBM Update] Bẫy sụt cân sau điều trị ở thể Kwashiorkor: Trong 5–7 ngày đầu nuôi dưỡng đúng phác đồ, cân nặng của trẻ sẽ {{c1::giảm xuống (sụt cân)}} do lượng nước phù được đào thải ra ngoài; đây là dấu hiệu {{c2::đáp ứng điều trị tốt chứ không phải bệnh nặng lên}}.",
-          "extra": "🎯 Trả lời cốt lõi: Sụt cân ban đầu là dấu hiệu thoái lui của phù.<br><br>💡 Giải thích: Bác sĩ cần giải thích trước cho người nhà để tránh hoang mang khi thấy cân nặng con bị tụt.",
+          "front": "Tại sao trong 5–7 ngày đầu điều trị Kwashiorkor, đứa trẻ bị sụt cân nhưng bác sĩ lại coi đó là dấu hiệu đáp ứng điều trị rất tốt?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thoái lui lượng nước phù:</b> Khi được nuôi dưỡng đúng bằng sữa F-75, các bơm ion tế bào hồi phục, natri và nước ngoại bào được thận đào thải ra ngoài qua nước tiểu → phù xẹp dần.<br>2) <b>Giảm khối lượng nước giả tạo:</b> Lượng nước phù đào thải có thể nặng từ 1kg đến 2kg, làm cân nặng của trẻ tụt xuống.<br>3) <b>Bộc lộ cân nặng thực:</b> Khi hết phù, cân nặng thực tế không phù mới bộc lộ (lúc này Z-score thực tế mới lộ diện mức SAM teo cơ).<br>4) <b>Dặn dò gia đình:</b> Bác sĩ phải giải thích rõ trước cho phụ huynh rằng việc con sụt cân trong tuần đầu là do 'tiêu nước phù', từ tuần thứ 2 con mới bắt đầu tăng khối thịt thực tế.",
+          "extra": "📖 Nguồn: WHO Management of Severe Malnutrition & PED-30",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B4",
             "Sut-can-thoai-phu",
             "Dap-ung-tot"
           ]
@@ -20895,263 +20827,277 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED30-B4-13",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Cơ chế chán ăn trong Kwashiorkor",
           "section": "B4",
-          "text": "[EBM Update] Nồng độ Albumin trong Marasmus vs Kwashiorkor: Albumin &lt; 25 g/L là tiêu chuẩn kinh điển của {{c1::Kwashiorkor}}; trong khi ở Marasmus, nồng độ Albumin thường {{c2::trên 28 g/L (duy trì tương đối tốt)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Ngưỡng Albumin &lt; 25 g/L chỉ điểm suy thoái chức năng tổng hợp protein cấp của gan.<br><br>💡 Giải thích: Là một trong các tiêu chuẩn sinh hóa để xác định thể phù dinh dưỡng (PMID: 11989633).",
+          "front": "Tại sao trẻ thể Kwashiorkor lại bị chán ăn bỏ bú dữ dội và giải pháp can thiệp giai đoạn đầu là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế chán ăn:</b><br>- Hạ kali và hạ magie nội bào làm giảm nhu động tiêu hóa và ức chế trung tâm thèm ăn ở vùng dưới đồi.<br>- Teo niêm mạc dạ dày ruột gây trướng bụng, buồn nôn khi ăn.<br>- Nhiễm trùng đường ruột tiềm ẩn và nhiễm nấm Candida miệng.<br>2) <b>Giải pháp can thiệp:</b><br>- Nếu trẻ từ chối uống: <b>Bắt buộc đặt ống thông dạ dày (Sonde dạ dày)</b> để bơm sữa F-75 chia nhỏ nhiều cữ, tuyệt đối không ép trẻ ăn bằng thìa gây sặc vào phổi.<br>- Bổ sung đầy đủ Kali và Magie trong dung dịch sữa.<br>- Rút sonde dạ dày ngay khi trẻ hồi phục cảm giác thèm ăn và tự uống được.",
+          "extra": "📖 Nguồn: WHO 2023 Wasting Guideline & Bài học PED-30",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B4",
-            "Nguong-Albumin-25",
-            "Sinh-hoa"
+            "Chan-an",
+            "Sonde-da-day",
+            "F-75"
           ]
         },
         {
           "id": "PED30-B4-14",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Chuyển vị vi khuẩn trong SAM",
           "section": "B4",
-          "text": "[EBM Update] Nguy cơ nhiễm trùng huyết vi khuẩn Gram âm trong SAM: Mất hàng rào biểu mô ruột và giảm bài xuất dịch mật \\→ {{c1::vi khuẩn đường ruột (E. coli, Klebsiella)}} chuyển vị qua thành ruột trực tiếp vào máu tuần hoàn gây sốc nhiễm khuẩn.",
-          "extra": "🎯 Trả lời cốt lõi: Chuyển vị vi khuẩn (Bacterial translocation) qua niêm mạc ruột teo đét.<br><br>💡 Giải thích: WHO khuyến cáo bắt buộc dùng kháng sinh phổ rộng thường quy (như Amoxicillin hoặc Ampicillin + Gentamicin) cho mọi trẻ SAM.",
+          "front": "Hiện tượng 'Chuyển vị vi khuẩn' (Bacterial Translocation) ở trẻ suy dinh dưỡng nặng diễn ra như thế nào và phác đồ kháng sinh thường quy của WHO là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế chuyển vị:</b> Teo nhung mao niêm mạc ruột làm giãn rộng các liên kết vòng bịt giữa các tế bào biểu mô, kết hợp với giảm bài tiết acid dịch vị và IgA tiết → vi khuẩn gram âm đường ruột (E. coli, Klebsiella) vượt qua thành ruột xâm nhập trực tiếp vào hệ tuần hoàn mạc treo gây nhiễm trùng huyết.<br>2) <b>Phác đồ kháng sinh thường quy của WHO:</b> Mọi trẻ SAM bắt buộc dùng kháng sinh ngay từ ngày đầu nhập viện dù không có dấu hiệu nhiễm trùng:<br>- Trẻ SAM không biến chứng: <b>Amoxicillin đường uống</b> 50–100 mg/kg/ngày trong 5 ngày.<br>- Trẻ SAM có biến chứng nhập viện: <b>Ampicillin TM (50 mg/kg mỗi 6h) phối hợp Gentamicin TM (7.5 mg/kg mỗi ngày 1 lần)</b> trong ít nhất 7 ngày.",
+          "extra": "📖 Nguồn: WHO 2023 Wasting Guideline & Bộ Y tế QĐ 4487",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B4",
             "Chuyen-vi-vi-khuan",
             "Khang-sinh-SAM"
           ]
         },
         {
+          "id": "PED30-B4-15",
+          "track": "ebm_update",
+          "type": "basic",
+          "category": "Ví dụ nhận diện thể phối hợp",
+          "section": "B4",
+          "front": "Tình huống: Một bé trai 18 tháng tuổi người gầy trơ xương, cơ thái dương lõm sâu, da mông chùng nếp lùng bùng, nhưng thăm khám thấy hai mu bàn chân ấn lõm rõ rệt. Chẩn đoán và thái độ xử trí là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chẩn đoán:</b> <b>Suy dinh dưỡng cấp nặng Thể phối hợp (Marasmic Kwashiorkor)</b>.<br>2) <b>Nhận định nguy cơ:</b> Đây là thể bệnh có tiên lượng tử vong cao nhất, nguy cơ tử vong do hạ đường huyết, hạ thân nhiệt và suy tim rình rập.<br>3) <b>Thái độ xử trí:</b> Nhập viện nội trú ngay lập tức; khởi đầu bằng sữa F-75 với năng lượng thấp 80 kcal/kg/ngày; tuyệt đối không truyền dịch nhanh và theo dõi sát điện giải đồ.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 3.4 Bảng so sánh)",
+          "tags": [
+            "Marasmic-Kwashiorkor",
+            "Xu-tri"
+          ]
+        },
+        {
+          "id": "PED30-B4-16",
+          "track": "ebm_update",
+          "type": "basic",
+          "category": "Rối loạn tâm thần vận động trong Kwashiorkor",
+          "section": "B4",
+          "front": "Biểu hiện thần kinh tâm thần đặc trưng của trẻ thể Kwashiorkor khi sắp bình phục là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Giai đoạn toàn phát:</b> Trẻ luôn ủ rũ, u sầu, sợ hãi, khóc yếu ớt khi bị chạm vào người, nằm co quắp và mất hết hứng thú với đồ chơi và người xung quanh.<br>2) <b>Dấu hiệu báo hiệu bình phục:</b> Trẻ bắt đầu nở nụ cười, chịu nhìn vào mắt mẹ, chịu chơi đồ chơi và mỉm cười đáp lại nhân viên y tế.<br>3) <b>Ý nghĩa lâm sàng:</b> Dấu hiệu tâm lý 'trẻ biết mỉm cười trở lại' được coi là một trong những chỉ số lâm sàng tinh tế và đáng tin cậy nhất chứng tỏ quá trình phục hồi chuyển hóa của tế bào não đã thành công.",
+          "extra": "📖 Nguồn: WHO Management of Severe Malnutrition & Bài học PED-30",
+          "tags": [
+            "Tam-than-van-dong",
+            "Binh-phuc"
+          ]
+        },
+        {
           "id": "PED30-B5-01",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Thời gian bán hủy Albumin vs Prealbumin",
           "section": "B5",
-          "text": "[Barem gốc] Thời gian bán hủy của Albumin huyết thanh là {{c1::20 ngày}}, do đó chỉ có giá trị đánh giá tình trạng dinh dưỡng {{c2::mạn tính kéo dài}}.",
-          "extra": "🎯 Trả lời cốt lõi: T1/2 = 20 ngày phản ánh mạn tính.<br><br>💡 Giải thích: Không dùng Albumin để theo dõi sự thay đổi dinh dưỡng ngắn hạn trong vài ngày nằm viện.",
+          "front": "So sánh thời gian bán hủy (Half-life) và ứng dụng lâm sàng giữa Albumin huyết thanh và Prealbumin?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Albumin huyết thanh:</b><br>- Thời gian bán hủy: Dài, khoảng <b>20 ngày</b>.<br>- Ứng dụng: Chỉ có giá trị đánh giá tình trạng dinh dưỡng mạn tính kéo dài; không nhạy để theo dõi đáp ứng ngắn hạn.<br>2) <b>Prealbumin (Transthyretin):</b><br>- Thời gian bán hủy: Cực ngắn, chỉ <b>2 ngày</b>.<br>- Ứng dụng: Chỉ số nhạy nhất để theo dõi đáp ứng nuôi dưỡng cấp tính trong vòng 48–72 giờ nằm viện.",
+          "extra": "📖 Nguồn: Beck FK, Rosenthal TC (Am Fam Physician 2002, PMID: 11989633)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B5",
             "Albumin",
-            "T12-20-ngay"
+            "Prealbumin",
+            "T12"
           ]
         },
         {
           "id": "PED30-B5-02",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Bilan chẩn đoán thiếu máu thiếu sắt",
           "section": "B5",
-          "text": "[Barem gốc] Thời gian bán hủy của Prealbumin (Transthyretin) là {{c1::2 ngày}}, là chỉ số nhạy nhất để theo dõi {{c2::đáp ứng nuôi dưỡng cấp tính}} trong vòng 48–72 giờ.",
-          "extra": "🎯 Trả lời cốt lõi: T1/2 = 2 ngày phản ánh đáp ứng cấp tính.<br><br>💡 Giải thích: Đạt tiêu chuẩn vàng cận lâm sàng để theo dõi nuôi ăn tĩnh mạch hoặc qua sonde dạ dày (PMID: 11989633).",
+          "front": "Bộ tiêu chuẩn xét nghiệm huyết học khẳng định thiếu máu thiếu sắt ở trẻ em bao gồm những chỉ số nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Công thức máu:</b> Hemoglobin (Hb) giảm, hồng cầu nhỏ nhược sắc không đều:<br>- MCV &lt; 80 fL (Thể tích trung bình hồng cầu giảm).<br>- MCH &lt; 27 pg (Lượng huyết sắc tố trung bình giảm).<br>- RDW &gt; 15% (Dải phân bố kích thước hồng cầu tăng rộng).<br>2) <b>Ferritin huyết thanh:</b> Phản ánh lượng sắt dự trữ:<br>- Trẻ bình thường không viêm: <b>Ferritin &lt; 15 ng/mL</b> khẳng định cạn kiệt sắt.<br>- Trẻ có phản ứng viêm (kèm CRP tăng): Ngưỡng chẩn đoán nâng lên <b>Ferritin &lt; 30 ng/mL</b>.",
+          "extra": "📖 Nguồn: Baker RD, Greer FR AAP (Pediatrics 2010, PMID: 20923825)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B5",
-            "Prealbumin",
-            "T12-2-ngay"
+            "Thieu-mau-thieu-sat",
+            "Ferritin",
+            "MCV",
+            "RDW"
           ]
         },
         {
           "id": "PED30-B5-03",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Xét nghiệm đánh giá Vitamin D",
           "section": "B5",
-          "text": "[Barem gốc] Tiêu chuẩn chẩn đoán thiếu máu thiếu sắt trên công thức máu: Hemoglobin giảm kèm hồng cầu nhỏ nhược sắc với: MCV &lt; {{c1::80 fL}}, MCH &lt; {{c1::27 pg}}, và dải phân bố kích thước hồng cầu RDW &gt; {{c2::15%}}.",
-          "extra": "🎯 Trả lời cốt lõi: Hồng cầu nhỏ nhược sắc không đều (RDW tăng).<br><br>💡 Giải thích: RDW &gt; 15% là chìa khóa phân biệt với Thalassemia thể ẩn (thường có RDW bình thường &lt; 14%).",
+          "front": "Xét nghiệm tiêu chuẩn vàng đánh giá tình trạng Vitamin D trong cơ thể và các ngưỡng phân loại theo Endocrine Society là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Xét nghiệm chuẩn:</b> Định lượng nồng độ <b>25-OH-Vitamin D (Calcidiol)</b> trong huyết thanh.<br>2) <b>Các ngưỡng phân loại:</b><br>- <b>25-OH-D &lt; 12 ng/mL (&lt; 30 nmol/L):</b> Thiếu vitamin D mức độ nặng (nguy cơ còi xương tiến triển và hạ canxi máu co giật).<br>- <b>12 ng/mL ≤ 25-OH-D &lt; 20 ng/mL:</b> Thiếu vitamin D.<br>- <b>20 ng/mL ≤ 25-OH-D &lt; 30 ng/mL:</b> Không đủ vitamin D (Inadequacy).<br>- <b>25-OH-D ≥ 30 ng/mL (≥ 75 nmol/L):</b> Đủ vitamin D tối ưu.",
+          "extra": "📖 Nguồn: Holick MF et al. Endocrine Society (J Clin Endocrinol Metab 2011, PMID: 21646368)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B5",
-            "Cong-thuc-mau",
-            "MCV",
-            "MCH",
-            "RDW"
+            "25-OH-D",
+            "Vitamin-D",
+            "Holick-2011"
           ]
         },
         {
           "id": "PED30-B5-04",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Ý nghĩa men Phosphatase kiềm",
           "section": "B5",
-          "text": "[Barem gốc] Nồng độ Ferritin huyết thanh phản ánh {{c1::lượng sắt dự trữ trong cơ thể}}; ở trẻ em không có phản ứng viêm, nồng độ Ferritin &lt; {{c2::15 ng/mL}} khẳng định chẩn đoán cạn kiệt sắt.",
-          "extra": "🎯 Trả lời cốt lõi: Ferritin &lt; 15 ng/mL là tiêu chuẩn vàng thiếu sắt (AAP 2010, PMID: 20923825).<br><br>💡 Giải thích: Phản ánh kho sắt dự trữ tại gan và tủy xương.",
+          "front": "Tại sao enzym Phosphatase kiềm (ALP) lại tăng rất cao trong bệnh còi xương đang tiến triển?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguồn gốc:</b> Enzym Phosphatase kiềm xương do các nguyên bào tạo xương (Osteoblast) tiết ra trong quá trình khoáng hóa khung collagen xương.<br>2) <b>Cơ chế tăng trong còi xương:</b> Khi thiếu vitamin D và canxi, mô xương không khoáng hóa được khiến cơ thể tăng sinh bù trừ các nguyên bào tạo xương → bài tiết lượng lớn ALP vào máu.<br>3) <b>Giá trị theo dõi:</b> ALP là chỉ số sinh hóa nhạy nhất phản ánh còi xương đang hoạt động; khi điều trị vitamin D đủ liều, ALP sẽ giảm dần về bình thường sau 6–12 tuần.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 5.1 Cận lâm sàng dinh dưỡng)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B5",
-            "Ferritin",
-            "15ng-ml"
-          ]
-        },
-        {
-          "id": "PED30-B5-05",
-          "track": "barem_goc",
-          "card_type": "cloze",
-          "section": "B5",
-          "text": "[Barem gốc] Xét nghiệm đánh giá dự trữ Vitamin D chuẩn nhất là định lượng {{c1::25-OH-Vitamin D (Calcidiol)}}; ngưỡng &lt; {{c2::20 ng/mL}} là thiếu vitamin D, ngưỡng &lt; {{c2::12 ng/mL}} là thiếu nặng.",
-          "extra": "🎯 Trả lời cốt lõi: 25-OH-Vitamin D phản ánh chính xác dự trữ cơ thể (Endocrine Society, PMID: 21646368).<br><br>💡 Giải thích: Không định lượng 1,25-(OH)2-Vitamin D vì dạng này có thời gian bán hủy ngắn và bị PTH bù trừ làm sai lệch.",
-          "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B5",
-            "25-OH-D",
-            "20ng-ml",
-            "12ng-ml"
-          ]
-        },
-        {
-          "id": "PED30-B5-06",
-          "track": "barem_goc",
-          "card_type": "cloze",
-          "section": "B5",
-          "text": "[Barem gốc] Enzym Phosphatase kiềm (ALP - Alkaline Phosphatase) trong máu sẽ {{c1::tăng rất cao}} trong giai đoạn còi xương đang tiến triển do tăng hoạt động của {{c2::nguyên bào tạo xương (Osteoblast)}}.",
-          "extra": "🎯 Trả lời cốt lõi: ALP tăng cao chỉ điểm còi xương đang hoạt động.<br><br>💡 Giải thích: Khi điều trị vitamin D đủ liều, ALP sẽ giảm dần về bình thường sau vài tuần.",
-          "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B5",
             "ALP",
             "Coi-xuong",
             "Osteoblast"
           ]
         },
         {
-          "id": "PED30-B5-07",
+          "id": "PED30-B5-05",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Ngưỡng Kẽm huyết thanh",
           "section": "B5",
-          "text": "[Barem gốc] Nồng độ Kẽm huyết thanh ở trẻ em bình thường là &gt; {{c1::10.7 µmol/L (tương đương > 70 µg/dL)}} theo chuẩn bách phân vị 2.5 của NHANES II (PMID: 14522734).",
-          "extra": "🎯 Trả lời cốt lõi: Ngưỡng dưới bình thường của kẽm là 10.7 µmol/L (70 µg/dL).<br><br>💡 Giải thích: Dưới ngưỡng này gây chậm lớn, rụng tóc, tiêu chảy kéo dài và suy giảm miễn dịch.",
+          "front": "Ngưỡng dưới bình thường của Kẽm huyết thanh ở trẻ em là bao nhiêu và hậu quả của việc thiếu kẽm là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ngưỡng chuẩn hóa:</b> Nồng độ Kẽm huyết thanh buổi sáng bình thường ở trẻ em là <b>≥ 10.7 µmol/L (tương đương ≥ 70 µg/dL)</b> theo chuẩn bách phân vị 2.5 của NHANES II (PMID: 14522734).<br>2) <b>Hậu quả của thiếu kẽm:</b><br>- Giảm phân chia tế bào, chậm phát triển chiều cao và thấp còi.<br>- Teo gai vị giác gây chán ăn, biếng ăn kéo dài.<br>- Teo niêm mạc ruột làm tăng thời gian và mức độ nặng của các đợt tiêu chảy.<br>- Suy giảm miễn dịch qua trung gian tế bào, dễ nhiễm trùng tái diễn.",
+          "extra": "📖 Nguồn: Hess SY et al. (Am J Clin Nutr 2003, PMID: 14522734)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B5",
             "Kem-huyet-thanh",
-            "107-umol"
+            "107-umol",
+            "Hess-2003"
           ]
         },
         {
-          "id": "PED30-B5-08",
-          "track": "ebm_update",
-          "card_type": "cloze",
+          "id": "PED30-B5-06",
+          "track": "barem_goc",
+          "type": "basic",
+          "category": "Bẫy Ferritin tăng giả tạo khi viêm",
           "section": "B5",
-          "text": "[EBM Update] Bẫy Ferritin tăng giả tạo trong phản ứng viêm: Ferritin là một {{c1::protein phản ứng viêm giai đoạn cấp (Acute-phase reactant)}}; khi trẻ có nhiễm trùng đi kèm (CRP tăng), điểm cắt chẩn đoán thiếu sắt phải nâng lên &lt; {{c2::30 ng/mL}}.",
-          "extra": "🎯 Trả lời cốt lõi: Nâng ngưỡng Ferritin lên &lt; 30 ng/mL khi có viêm (AAP 2010, PMID: 20923825).<br><br>💡 Giải thích: Nếu chỉ lấy ngưỡng 15 ng/mL sẽ bỏ sót rất nhiều trẻ thiếu sắt đang bị viêm phổi hoặc tiêu chảy.",
+          "front": "Tại sao xét nghiệm Ferritin huyết thanh có thể bị tăng giả tạo và cách khắc phục trên lâm sàng là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất sinh học:</b> Ferritin là một protein phản ứng viêm giai đoạn cấp (Acute-phase reactant). Khi cơ thể có nhiễm trùng (viêm phổi, tiêu chảy) hoặc viêm mạn, gan sẽ tăng sản xuất Ferritin bất kể lượng sắt trong cơ thể thừa hay thiếu.<br>2) <b>Hậu quả:</b> Một trẻ thiếu sắt nặng nhưng bị viêm phổi có thể có Ferritin trả về kết quả 40 ng/mL (trông như bình thường), làm bác sĩ bỏ sót chẩn đoán thiếu sắt.<br>3) <b>Cách khắc phục:</b> Luôn làm xét nghiệm kèm CRP hoặc tốc độ máu lắng; nếu CRP tăng, bắt buộc phải nâng ngưỡng chẩn đoán thiếu sắt lên <b>&lt; 30 ng/mL</b> (hoặc kiểm tra độ bão hòa Transferrin TSAT &lt; 16%).",
+          "extra": "📖 Nguồn: Baker RD, Greer FR AAP (Pediatrics 2010, PMID: 20923825)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B5",
             "Bay-Ferritin",
             "Viem-tang-gia",
-            "30ng-ml"
+            "CRP"
           ]
         },
         {
-          "id": "PED30-B5-09",
-          "track": "ebm_update",
-          "card_type": "cloze",
+          "id": "PED30-B5-07",
+          "track": "barem_goc",
+          "type": "basic",
+          "category": "Bộ ba điện giải trong Refeeding",
           "section": "B5",
-          "text": "[EBM Update] Bộ ba điện giải đồ sống còn cần theo dõi để phát hiện Hội chứng Nuôi ăn lại (Refeeding Syndrome): {{c1::Phospho máu (Phosphate)}}, {{c1::Kali máu (Potassium)}} và {{c1::Magie máu (Magnesium)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Theo dõi bộ ba P, K, Mg nội bào.<br><br>💡 Giải thích: Trong đó hạ Phospho máu là biến đổi nguy hiểm nhất dẫn đến suy tim cấp và tử vong.",
+          "front": "Bộ ba điện giải đồ sống còn bắt buộc phải định lượng và theo dõi sát để phòng ngừa Hội chứng Nuôi ăn lại là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Bắt buộc theo dõi <b>Bộ ba ion nội bào: Phospho, Kali và Magie</b>:<br>1) <b>Phospho máu (Phosphate):</b> Ion quan trọng nhất; hạ phospho cấp tính dẫn đến mất ATP và 2,3-DPG gây suy tim ngừng đập.<br>2) <b>Kali máu (Potassium):</b> Tụt sâu gây loạn nhịp tim nguy hiểm và liệt ruột.<br>3) <b>Magie máu (Magnesium):</b> Thiếu magie làm liệt bơm Na-K-ATPase và gây hạ canxi, hạ kali máu kháng trị.",
+          "extra": "📖 Nguồn: ASPEN Consensus Recommendations (Nutr Clin Pract 2020, PMID: 32115791)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B5",
             "Bo-ba-dien-giai",
             "P-K-Mg",
             "Refeeding"
           ]
         },
         {
-          "id": "PED30-B5-10",
+          "id": "PED30-B5-08",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Phân tầng hạ Phospho máu theo ASPEN",
           "section": "B5",
-          "text": "[EBM Update] Cơ chế hạ Canxi máu bù trừ trong còi xương: Khi thiếu vitamin D, ruột giảm hấp thu canxi \\→ tuyến cận giáp tăng tiết {{c1::Hormon cận giáp (PTH)}} \\→ huy động canxi từ xương và tăng đào thải phospho qua thận \\→ Canxi máu duy trì bình thường nhưng {{c2::Phospho máu giảm sâu}}.",
-          "extra": "🎯 Trả lời cốt lõi: Canxi máu bình thường nhờ PTH bù trừ, Phospho máu giảm.<br><br>💡 Giải thích: Vì vậy trong còi xương sớm, xét nghiệm canxi máu thường bình thường, không được dùng canxi bình thường để loại trừ còi xương!",
+          "front": "Tiêu chuẩn phân tầng mức độ hạ Phospho máu theo Đồng thuận ASPEN 2020 về Hội chứng Nuôi ăn lại là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Dựa trên tỷ lệ sụt giảm nồng độ Phospho máu trong vòng 5 ngày đầu tái nuôi ăn:<br>1) <b>Hạ Phospho máu nhẹ:</b> Nồng độ Phospho máu giảm từ <b>10% đến 20%</b> so với trước ăn.<br>2) <b>Hạ Phospho máu vừa:</b> Nồng độ Phospho máu giảm từ <b>20% đến 30%</b>.<br>3) <b>Hạ Phospho máu nặng:</b> Nồng độ Phospho máu giảm <b>&gt; 30%</b> hoặc nồng độ tuyệt đối tụt xuống dưới <b>0.6 mmol/L (&lt; 1.8 mg/dL)</b>, hoặc xuất hiện rối loạn chức năng cơ quan đe dọa tính mạng (suy tim, co giật, suy hô hấp).",
+          "extra": "📖 Nguồn: da Silva JSV et al. ASPEN (Nutr Clin Pract 2020, PMID: 32115791)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B5",
+            "Phan-tang-Phospho",
+            "ASPEN-2020"
+          ]
+        },
+        {
+          "id": "PED30-B5-09",
+          "track": "ebm_update",
+          "type": "basic",
+          "category": "Cơ chế bù trừ Canxi - Phospho trong còi xương",
+          "section": "B5",
+          "front": "Tại sao trong xét nghiệm giai đoạn đầu của còi xương thiếu vitamin D, Canxi máu thường bình thường nhưng Phospho máu lại giảm sâu?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hạ canxi máu kích hoạt PTH:</b> Thiếu vitamin D làm giảm hấp thu canxi tại ruột → canxi ion hóa máu giảm nhẹ → tuyến cận giáp lập tức tăng tiết hormon cận giáp (PTH).<br>2) <b>Tác động của PTH:</b><br>- PTH kích thích hủy cốt bào rút canxi từ xương vào máu → giữ nồng độ Canxi máu ở mức bình thường.<br>- Đồng thời PTH ức chế tái hấp thu phosphat ở ống lượn gần của thận → đào thải lượng lớn Phospho ra nước tiểu.<br>3) <b>Kết quả sinh hóa:</b> Canxi máu bình thường (hoặc giảm nhẹ), trong khi Phospho máu tụt sâu và ALP tăng vọt.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 5.1 Cận lâm sàng dinh dưỡng)",
+          "tags": [
             "PTH-bu-tru",
             "Phospho-giam",
             "Coi-xuong"
           ]
         },
         {
+          "id": "PED30-B5-10",
+          "track": "ebm_update",
+          "type": "basic",
+          "category": "Cơ chế toan chuyển hóa ở trẻ SAM",
+          "section": "B5",
+          "front": "Cơ chế sinh lý bệnh của Toan chuyển hóa (Metabolic Acidosis) ở trẻ suy dinh dưỡng nặng là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tăng sinh Acid Lactic:</b> Giảm thể tích tuần hoàn và thiếu oxy mô do suy tim cung lượng thấp → chuyển hóa yếm khí sinh nhiều Acid Lactic.<br>2) <b>Mất Bicarbonate qua tiêu hóa:</b> Teo ruột và tiêu chảy phân nước làm mất lượng lớn ion HCO3- ra ngoài theo phân.<br>3) <b>Suy giảm bài xuất acid tại thận:</b> Giảm mức lọc cầu thận và giảm sản xuất amoniac (NH3) tại ống thận khiến thận không thể đào thải ion H+.<br>4) <b>Nguy hiểm:</b> Toan chuyển hóa làm suy sụp co bóp cơ tim và gây sốc tuần hoàn kháng trị.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 5.1 Cận lâm sàng dinh dưỡng)",
+          "tags": [
+            "Toan-chuyen-hoa",
+            "Khi-mau",
+            "Lactate"
+          ]
+        },
+        {
           "id": "PED30-B5-11",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Bẫy lấy máu xét nghiệm Kẽm",
           "section": "B5",
-          "text": "[EBM Update] Phân tầng mức độ hạ Phospho máu trong Hội chứng Refeeding theo ASPEN 2020: (1) Nhẹ: giảm {{c1::10%–20%}}; (2) Vừa: giảm {{c1::20%–30%}}; (3) Nặng: giảm {{c1::> 30%}} hoặc nồng độ Phospho máu &lt; {{c2::0.6 mmol/L (1.8 mg/dL)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Phân tầng sụt giảm Phospho theo ASPEN (PMID: 32115791).<br><br>💡 Giải thích: Giảm &gt; 30% đòi hỏi phải giảm ngay tốc độ truyền calo và bù phospho tĩnh mạch.",
+          "front": "Hai sai lầm kỹ thuật khi lấy mẫu máu xét nghiệm Kẽm huyết thanh có thể làm kết quả tăng giả tạo là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tan máu (Hemolysis):</b> Nồng độ kẽm bên trong hồng cầu cao gấp 10–12 lần nồng độ trong huyết tương. Nếu thao tác lấy máu làm vỡ hồng cầu, lượng kẽm nội bào tràn ra huyết thanh làm kết quả tăng giả tạo.<br>2) <b>Nhiễm bẩn dụng cụ kim loại:</b> Nắp cao su của ống nghiệm thông thường hoặc đầu kim tiêm chứa muối kẽm có thể làm thôi nhiễm kẽm vào mẫu bệnh phẩm.<br>3) <b>Chuẩn mực:</b> Lấy máu bằng ống nghiệm chuyên dụng không nhiễm kim loại (Trace-element tube) và ly tâm tách huyết thanh trong vòng 1 giờ.",
+          "extra": "📖 Nguồn: IZiNCG Technical Document on Zinc Assessment",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B5",
-            "Phan-tang-Refeeding",
-            "ASPEN-2020",
-            "Phospho"
+            "Bay-lay-mau-kem",
+            "Tan-mau"
           ]
         },
         {
           "id": "PED30-B5-12",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Động học phục hồi Prealbumin",
           "section": "B5",
-          "text": "[EBM Update] Bẫy lấy máu xét nghiệm kẽm huyết thanh: Kẽm có nồng độ rất cao trong hồng cầu, do đó nếu mẫu máu bị {{c1::tan máu (Hemolysis)}} hoặc để tiếp xúc lâu với kim tiêm kim loại có thể làm nồng độ kẽm đo được {{c2::tăng giả tạo}}.",
-          "extra": "🎯 Trả lời cốt lõi: Máu tan máu làm tăng kẽm giả tạo.<br><br>💡 Giải thích: Cần lấy máu bằng ống nghiệm chuyên dụng không nhiễm kim loại và ly tâm tách huyết thanh sớm.",
+          "front": "Tại sao Prealbumin được coi là thước đo cận lâm sàng xuất sắc nhất để đánh giá hiệu quả của phác đồ nuôi ăn trong tuần đầu?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hồ bơi nội mạch nhỏ:</b> Tổng lượng Prealbumin trong cơ thể rất nhỏ và thời gian bán hủy chỉ 2 ngày.<br>2) <b>Nhạy cảm với nạp protein:</b> Khi gan nhận đủ acid amin từ thức ăn, sự tổng hợp Prealbumin tăng lên ngay lập tức. Sau 48–72 giờ nuôi dưỡng hiệu quả, nồng độ Prealbumin có thể tăng gấp đôi (ví dụ từ 80 mg/L lên 160 mg/L).<br>3) <b>So sánh với Albumin:</b> Albumin có thời gian bán hủy 20 ngày và thể tích phân bố lớn, do đó trong 7 ngày đầu Albumin hầu như không nhúc nhích dù bệnh nhân đang phục hồi rất tốt.",
+          "extra": "📖 Nguồn: Beck FK, Rosenthal TC (Am Fam Physician 2002, PMID: 11989633)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B5",
-            "Bay-xet-nghiem-kem",
-            "Tan-mau"
+            "Prealbumin",
+            "Hoi-phuc-48-72h"
           ]
         },
         {
           "id": "PED30-B5-13",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Rối loạn đông máu trong Kwashiorkor",
           "section": "B5",
-          "text": "[EBM Update] Vai trò của xét nghiệm khí máu động mạch ở trẻ SAM: Trẻ suy dinh dưỡng nặng dễ bị {{c1::Toan chuyển hóa (Metabolic acidosis)}} do giảm tưới máu mô, tăng acid lactic và suy giảm khả năng tái hấp thu bicabonate ở ống thận.",
-          "extra": "🎯 Trả lời cốt lõi: Toan chuyển hóa là dấu hiệu suy kiệt tuần hoàn nặng.<br><br>💡 Giải thích: Toan chuyển hóa làm giảm nhạy cảm của thụ thể cơ tim với catecholamine gây tụt huyết áp kháng trị.",
+          "front": "Cơ chế gây rối loạn đông máu kéo dài PT/INR ở trẻ Kwashiorkor và can thiệp ban đầu là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế:</b> Tế bào gan thoái hóa mỡ nặng nề làm suy sụp khả năng tổng hợp các yếu tố đông máu huyết tương, đặc biệt là các yếu tố đông máu phụ thuộc vitamin K (II, VII, IX, X). Đồng thời thiếu dịch mật làm giảm hấp thu vitamin K tại ruột.<br>2) <b>Hậu quả:</b> Thời gian Prothrombin (PT) và tỷ lệ INR kéo dài, trẻ có nguy cơ xuất huyết tiêu hóa và chảy máu dưới da nguy kịch.<br>3) <b>Can thiệp tức thì:</b> Bắt buộc tiêm bắp <b>Vitamin K1 liều 1 mg</b> duy nhất ngay ngày đầu nhập viện cho mọi trẻ suy dinh dưỡng nặng.",
+          "extra": "📖 Nguồn: WHO Management of Severe Malnutrition & Bài học PED-30",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B5",
-            "Khi-mau",
-            "Toan-chuyen-hoa"
+            "Dong-mau",
+            "Vitamin-K1",
+            "Kwashiorkor"
           ]
         },
         {
           "id": "PED30-B5-14",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Ví dụ biện luận Ferritin khi có viêm",
           "section": "B5",
-          "text": "[EBM Update] Bilan đông máu trong Kwashiorkor: Tế bào gan suy thoái giảm tổng hợp các yếu tố đông máu phụ thuộc vitamin K (II, VII, IX, X) \\→ thời gian prothrombin (PT) và tỷ lệ {{c1::INR kéo dài}} \\→ nguy cơ xuất huyết tiêu hóa và xuất huyết dưới da.",
-          "extra": "🎯 Trả lời cốt lõi: Kéo dài INR/PT do suy giảm chức năng tổng hợp gan.<br><br>💡 Giải thích: Cần tiêm bắp Vitamin K1 (1 mg) ngay khi tiếp nhận trẻ suy dinh dưỡng nặng.",
+          "front": "Tình huống: Một bé gái 2 tuổi bị viêm phổi nặng, xét nghiệm máu: Hb 92 g/L, MCV 68 fL, MCH 21 pg, RDW 17%, Ferritin 24 ng/mL, CRP 35 mg/L. Bác sĩ biện luận tình trạng sắt của bé như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hồng cầu:</b> MCV &lt; 80 fL, MCH &lt; 27 pg, RDW &gt; 15% khẳng định thiếu máu hồng cầu nhỏ nhược sắc không đều.<br>2) <b>Biện luận Ferritin:</b> Mặc dù Ferritin = 24 ng/mL (nằm trên ngưỡng 15 ng/mL thông thường), nhưng bệnh nhi đang có tình trạng viêm cấp tính rõ rệt với CRP = 35 mg/L.<br>3) <b>Kết luận:</b> Khi có viêm, điểm cắt chẩn đoán cạn kiệt sắt nâng lên &lt; 30 ng/mL → Ferritin 24 ng/mL khẳng định <b>Bé bị Thiếu máu thiếu Sắt thực sự</b>. Bác sĩ cần điều trị viêm phổi ổn định trước, sau đó bổ sung sắt đủ liều cho bé.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 1.5 Ví dụ 7 & AAP 2010)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B5",
-            "Dong-mau",
-            "Vitamin-K",
-            "PT-INR"
+            "Vi-du-Ferritin",
+            "Viem-tang-gia"
           ]
         },
         {
           "id": "PED30-B6-01",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Phương pháp hỏi khẩu phần 24 giờ",
           "section": "B6",
-          "text": "[Barem gốc] Phương pháp hỏi khẩu phần 24 giờ qua (24-Hour Dietary Recall): Bác sĩ yêu cầu người nuôi dưỡng kể chi tiết toàn bộ thức ăn, nước uống mà trẻ đã nạp trong vòng {{c1::24 giờ của ngày hôm trước}} từ lúc thức dậy đến sáng hôm nay.",
-          "extra": "🎯 Trả lời cốt lõi: Thu thập bức tranh thực tế về bữa ăn của trẻ.<br><br>💡 Giải thích: Dùng các vật dụng trực quan (bát con, thìa canh, muỗng cà phê, bình sữa có vạch ml) để định lượng chính xác.",
+          "front": "Mục tiêu và các bước thực hiện phương pháp Hỏi khẩu phần ăn 24 giờ qua (24-Hour Dietary Recall) là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mục tiêu:</b> Tái hiện trung thực toàn bộ lượng thức ăn và nước uống mà trẻ thực tế đã nạp trong ngày hôm trước để phát hiện sai lầm nuôi dưỡng.<br>2) <b>Các bước thực hiện:</b><br>- Xác định khoảng thời gian trọn vẹn: từ lúc trẻ thức dậy sáng hôm qua đến lúc thức dậy sáng hôm nay.<br>- Hỏi chi tiết số bữa chính và số bữa phụ trong ngày.<br>- Hỏi thành phần từng món ăn và cách chế biến (cháo loãng hay đặc, có cho dầu mỡ không).<br>- Định lượng bằng vật dụng quen thuộc: bát ăn cơm con, thìa canh (15 ml), thìa cà phê (5 ml), cữ sữa (ml).",
+          "extra": "📖 Nguồn: Giáo trình Dinh dưỡng Nhi khoa & Bài học PED-30 (Mục 5.2)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B6",
             "24h-Recall",
             "Hoi-khau-phan"
           ]
@@ -21159,14 +21105,13 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED30-B6-02",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Bốn nhóm chất bắt buộc",
           "section": "B6",
-          "text": "[Barem gốc] Bốn nhóm chất dinh dưỡng bắt buộc phải có trong mỗi bữa ăn dặm của trẻ: (1) Nhóm Bột đường (Glucid); (2) Nhóm {{c1::Đạm (Protein)}}; (3) Nhóm {{c1::Chất béo (Lipid: dầu/mỡ)}}; (4) Nhóm {{c1::Rau củ quả (Vitamin & Khoáng chất)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Bắt buộc đủ 4 nhóm chất trong tô cháo/bột.<br><br>💡 Giải thích: Thiếu bất kỳ nhóm nào đều dẫn đến suy dinh dưỡng hoặc thiếu hụt vi chất đặc hiệu.",
+          "front": "Bốn nhóm chất dinh dưỡng bắt buộc phải có trong mỗi tô cháo/bột ăn dặm của trẻ em là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhóm 1 — Tinh bột (Glucid):</b> Gạo, bột mì, ngô, khoai, yến mạch (cung cấp năng lượng cơ bản).<br>2) <b>Nhóm 2 — Chất đạm (Protein):</b> Thịt, cá, tôm, trứng, đậu đỗ (cung cấp acid amin xây dựng cơ thể, enzym và kháng thể).<br>3) <b>Nhóm 3 — Chất béo (Lipid):</b> Dầu ăn trẻ em, mỡ lợn (cung cấp năng lượng đậm đặc và là dung môi hòa tan vitamin A, D, E, K).<br>4) <b>Nhóm 4 — Rau củ & Quả (Vitamin & Khoáng chất):</b> Rau lá xanh thẫm, củ quả màu vàng/đỏ (cung cấp vi chất và chất xơ).",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 5.2 Bốn nhóm chất bắt buộc)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B6",
             "4-nhom-chat",
             "To-chao"
           ]
@@ -21174,187 +21119,209 @@ window.PED_LIBRARY_DATA = {
         {
           "id": "PED30-B6-03",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Định lượng dầu mỡ ăn dặm",
           "section": "B6",
-          "text": "[Barem gốc] Định lượng chất béo bắt buộc trong mỗi bát bột/cháo của trẻ ăn dặm: Bắt buộc phải cho từ {{c1::5 đến 10 ml dầu ăn hoặc mỡ lợn}} vào mỗi bát cháo khi vừa bắc ra khỏi bếp.",
-          "extra": "🎯 Trả lời cốt lõi: Mỗi bát cháo cần 5–10 ml dầu mỡ.<br><br>💡 Giải thích: Chất béo cung cấp năng lượng đậm đặc (9 kcal/g) giúp trẻ ăn ít thể tích nhưng đủ calo.",
+          "front": "Định lượng chất béo (dầu/mỡ) tối thiểu bắt buộc phải cho vào mỗi bát bột/cháo của trẻ ăn dặm là bao nhiêu?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Định lượng bắt buộc:</b> Bắt buộc phải cho từ <b>5 đến 10 ml dầu ăn hoặc mỡ lợn</b> (tương đương 1 đến 2 thìa cà phê đầy) vào mỗi bát bột hoặc cháo của trẻ.<br>2) <b>Thời điểm cho:</b> Cho vào khi cháo vừa nấu chín bắc ra khỏi bếp để tránh nhiệt độ cao phá hủy các acid béo chưa no (DHA, EPA, Omega-3).<br>3) <b>Tầm quan trọng:</b> Chất béo cung cấp đậm độ năng lượng cao (9 kcal/g), giúp đứa trẻ dạ dày nhỏ ăn ít thể tích nhưng vẫn nạp đủ tổng calo.",
+          "extra": "📖 Nguồn: Viện Dinh Dưỡng Quốc Gia & Bài học PED-30",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B6",
             "Dau-mo",
-            "5-10ml"
+            "5-10ml",
+            "Chat-beo"
           ]
         },
         {
           "id": "PED30-B6-04",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Sai lầm nước hầm xương",
           "section": "B6",
-          "text": "[Barem gốc] Sai lầm kinh điển khi nấu cháo nước hầm xương: Nước xương chỉ có tủy mỡ khó tiêu, hoàn toàn {{c1::không có canxi hữu dụng}} và thiếu năng lượng; việc không cho dầu mỡ làm trẻ không hấp thu được các {{c2::vitamin tan trong dầu (A, D, E, K)}}.",
-          "extra": "🎯 Trả lời cốt lõi: Nước hầm xương không có canxi và gây thiếu vitamin tan trong dầu.<br><br>💡 Giải thích: Hậu quả trực tiếp dẫn đến suy dinh dưỡng thấp còi, còi xương và khô mắt.",
+          "front": "Tại sao thói quen 'nấu cháo bằng nước hầm xương không cho dầu mỡ' của nhiều bà mẹ lại là thủ phạm gây suy dinh dưỡng và còi xương?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nước xương không có canxi:</b> Canxi trong xương ống là canxi vô cơ không tan trong nước sôi; nước hầm xương hầu như chỉ có tủy mỡ bão hòa khó tiêu và hương vị thơm, lượng canxi thực tế gần như bằng không.<br>2) <b>Thiếu năng lượng trầm trọng:</b> Nghĩ rằng nước xương đã 'bổ và béo' nên người nhà hoàn toàn không cho thêm dầu mỡ, khiến bát cháo bị thiếu hụt calo nặng.<br>3) <b>Không hấp thu được vitamin tan trong dầu:</b> Thiếu dầu mỡ làm đường ruột không thể hấp thu các vitamin tan trong dầu (A, D, E, K) → dẫn đến còi xương nặng do thiếu Vitamin D và khô mắt do thiếu Vitamin A!",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 5.2 Sai lầm nước hầm xương)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B6",
             "Nuoc-ham-xuong",
-            "Sai-lam"
+            "Sai-lam",
+            "Coi-xuong"
           ]
         },
         {
           "id": "PED30-B6-05",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Hậu quả pha sữa quá loãng",
           "section": "B6",
-          "text": "[Barem gốc] Bẫy pha sữa công thức quá loãng: Nhiều gia đình hoàn cảnh khó khăn pha sữa quá loãng để tiết kiệm \\→ trẻ uống no nước nhưng thiếu năng lượng trầm trọng dẫn đến suy dinh dưỡng thể {{c1::Marasmus (teo đét)}} và biến chứng nguy hiểm là {{c2::Hạ natri máu}}.",
-          "extra": "🎯 Trả lời cốt lõi: Pha sữa quá loãng gây teo đét và ngộ độc nước hạ natri máu.<br><br>💡 Giải thích: Luôn hỏi chi tiết số muỗng gạt sữa pha với bao nhiêu ml nước.",
+          "front": "Bẫy pha sữa công thức quá loãng dẫn đến hai hậu quả bệnh lý nghiêm trọng nào ở trẻ nhũ nhi?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Suy dinh dưỡng thể teo đét (Marasmus):</b> Nhiều gia đình khó khăn pha loãng gấp đôi thể tích nước để tiết kiệm sữa → trẻ uống no nước nhưng thiếu calo và protein trầm trọng, cơ thể teo đét kiệt quệ.<br>2) <b>Ngộ độc nước và Hạ Natri máu thẩm thấu:</b> Trẻ nhũ nhi có chức năng cô đặc nước tiểu của thận chưa hoàn thiện; nạp lượng nước nhược trương quá lớn làm tụt Natri máu cấp tính → phù não, co giật, hôn mê và tử vong.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 5.2 Khai thác cách pha sữa)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B6",
             "Pha-sua-loang",
-            "Ha-natri-mau"
+            "Ha-natri-mau",
+            "Ngo-doc-nuoc"
           ]
         },
         {
           "id": "PED30-B6-06",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Bẫy cân nặng giả tạo ở Kwashiorkor",
           "section": "B6",
-          "text": "[Barem gốc] Bẫy lâm sàng số 1 — Cân nặng giả tạo ở thể Kwashiorkor: Trẻ phù toàn thân độ 3 có thể có chỉ số Z-score nằm trong dải {{c1::hoàn toàn bình thường}}, nhưng khi điều trị hết phù, cân nặng thực tế sẽ {{c2::tụt sâu xuống mức suy dinh dưỡng nặng}}.",
-          "extra": "🎯 Trả lời cốt lõi: Khối lượng nước phù che giấu cân nặng thực tế.<br><br>💡 Giải thích: Tuyệt đối không dựa vào cân nặng bình thường để loại trừ suy dinh dưỡng khi trẻ có phù!",
+          "front": "Bẫy lâm sàng số 1: 'Cân nặng giả tạo ở thể Kwashiorkor' diễn ra như thế nào và quy tắc vàng để không bị đánh lừa là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bẫy lâm sàng:</b> Trẻ bị Kwashiorkor phù toàn thân độ 3 có thể chứa từ 1 đến 2 kg nước phù trong khoang gian bào → cân nặng đo được trông như bình thường (Z-score WAZ nằm ở dải -0.5 SD đến -1.0 SD). Bác sĩ không thăm khám kỹ sẽ tưởng trẻ khỏe mạnh và cho về nhà.<br>2) <b>Quy tắc vàng:</b> <b>KHÔNG BAO GIỜ DÙNG CÂN NẶNG ĐƠN THUẦN ĐỂ KẾT LUẬN TRẺ KHÔNG SUY DINH DƯỠNG KHI CƠ THỂ ĐANG CÓ PHÙ.</b> Có phù đối xứng hai bên tự động xếp vào SAM bất kể cân nặng!",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 6 Hai bẫy lâm sàng tử vong)",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B6",
-            "Can-nang-gia-tao",
-            "Bay-Kwashiorkor"
+            "Bay-Kwashiorkor",
+            "Can-nang-gia-tao"
           ]
         },
         {
           "id": "PED30-B6-07",
           "track": "barem_goc",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Bẫy Hội chứng Nuôi ăn lại (Refeeding)",
           "section": "B6",
-          "text": "[Barem gốc] Bẫy lâm sàng số 2 — Hiểm họa Hội chứng Nuôi ăn lại (Refeeding Syndrome): Xảy ra khi một trẻ bị bỏ đói lâu ngày được nạp một lượng lớn {{c1::Carbohydrate (đường bột)}} đột ngột ngay trong những ngày đầu nhập viện.",
-          "extra": "🎯 Trả lời cốt lõi: Nạp calo đường bột đột ngột kích hoạt Refeeding Syndrome.<br><br>💡 Giải thích: Có thể làm trẻ ngừng tim và tử vong trong vòng 24–48 giờ đầu nếu không phòng ngừa.",
+          "front": "Bẫy lâm sàng số 2: Hiểm họa 'Hội chứng Nuôi ăn lại' (Refeeding Syndrome) xảy ra trong hoàn cảnh nào và tại sao lại gây tử vong đột ngột?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hoàn cảnh xảy ra:</b> Khi một đứa trẻ bị suy dinh dưỡng nặng hoặc bỏ đói lâu ngày bỗng nhiên được người nhà hoặc bác sĩ cho ăn một lượng lớn calo và carbohydrate (đường bột) ngay trong những ngày đầu nhập viện.<br>2) <b>Nguyên nhân tử vong đột ngột:</b> Glucose nạp vào ồ ạt kích thích tuyến tụy tiết 'bão Insulin' → Insulin đẩy toàn bộ Phospho, Kali, Magie từ máu vào trong tế bào → nồng độ Phospho máu tụt tự do → cơ tim mất ATP và tế bào hồng cầu mất 2,3-DPG → <b>Suy tim cấp, phù phổi cấp, loạn nhịp tim và ngừng tim tử vong chỉ sau 24–48 giờ!</b>",
+          "extra": "📖 Nguồn: ASPEN Consensus Recommendations (PMID: 32115791) & PED-30",
           "tags": [
-            "PED-30",
-            "barem_goc",
-            "Sec-B6",
             "Refeeding-Syndrome",
-            "Carbohydrate"
+            "Ha-Phospho",
+            "Tu-vong"
           ]
         },
         {
           "id": "PED30-B6-08",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Cơ chế phân tử bão Insulin trong Refeeding",
           "section": "B6",
-          "text": "[EBM Update] Chuỗi cơ chế bệnh sinh của Hội chứng Nuôi ăn lại: Nạp Glucose đột ngột \\→ Tụy tiết ồ ạt {{c1::Insulin}} \\→ Insulin kích hoạt bơm Na-K-ATPase đẩy toàn bộ {{c2::Phospho, Kali, Magie}} từ máu vào trong tế bào \\→ Hạ Phospho máu cấp tính \\→ {{c3::Suy tim cấp, phù phổi cấp, ngừng tim tử vong}}.",
-          "extra": "🎯 Trả lời cốt lõi: Bão Insulin kéo Phospho vào nội bào gây suy tim cấp.<br><br>💡 Giải thích: Thiếu phospho làm tế bào không tổng hợp được ATP và hồng cầu mất 2,3-DPG.",
+          "front": "Mô tả chuỗi biến đổi sinh hóa phân tử từng bước xảy ra trong cơ thể khi Hội chứng Nuôi ăn lại bùng phát?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Chuỗi 5 bước sinh hóa phân tử:<br>1) <b>Đói kéo dài:</b> Cơ thể chuyển sang dị hóa mỡ tạo ceton; insulin nền rất thấp; tế bào cạn kiệt phospho nội bào.<br>2) <b>Nạp glucose đột ngột:</b> Kích thích tế bào beta đảo tụy tiết lượng lớn Insulin.<br>3) <b>Hoạt hóa bơm ion:</b> Insulin kích hoạt bơm Na-K-ATPase và kênh đồng vận chuyển Na-Phospho đưa glucose, P, K, Mg vào nội bào để tổng hợp glycogen và protein.<br>4) <b>Hạ Phospho ngoại bào cực độ:</b> Nồng độ Phospho huyết thanh tụt dốc không phanh.<br>5) <b>Khủng hoảng năng lượng:</b> Thiếu phospho vô cơ làm ngừng trệ quá trình phosphoryl hóa tạo ATP và mất 2,3-DPG (hồng cầu không nhả được oxy cho mô) → hoại tử tế bào cơ, liệt cơ hoành, suy tim và tử vong.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 11b Sinh lý bệnh phân tử Refeeding)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B6",
             "Co-che-Refeeding",
             "Bao-Insulin",
-            "Ha-Phospho"
+            "ATP"
           ]
         },
         {
           "id": "PED30-B6-09",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Nguyên tắc khởi đầu năng lượng thấp",
           "section": "B6",
-          "text": "[EBM Update] Nguyên tắc vàng phòng ngừa Hội chứng Nuôi ăn lại (ASPEN 2020): Khởi đầu nuôi ăn ở trẻ có nguy cơ cao với mức năng lượng thấp chỉ từ {{c1::80 đến 100 kcal/kg/ngày}}, chia nhỏ làm {{c2::8 đến 12 cữ ăn}} trong ngày.",
-          "extra": "🎯 Trả lời cốt lõi: Bắt đầu thấp (80–100 kcal/kg/ngày), đi từ từ (PMID: 32115791).<br><br>💡 Giải thích: Dùng sữa F-75 có tỷ lệ đạm thấp (0.9g/100ml) và áp lực thẩm thấu an toàn.",
+          "front": "Nguyên tắc vàng về mức năng lượng khởi đầu để phòng ngừa Hội chứng Nuôi ăn lại theo ASPEN 2020 và WHO là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bắt đầu ở mức năng lượng thấp:</b> Chỉ cung cấp từ <b>80 đến 100 kcal/kg/ngày</b> trong những ngày đầu tiên (dùng sữa công thức F-75 của WHO có đậm độ 75 kcal/100 ml).<br>2) <b>Chia nhỏ bữa ăn:</b> Chia làm 8 đến 12 cữ ăn trong ngày (mỗi 2 đến 3 giờ ăn một lần, kể cả ban đêm) để tránh đỉnh tăng insulin đột ngột.<br>3) <b>Bổ sung Thiamin trước ăn:</b> Bắt buộc cho uống hoặc tiêm Thiamin (Vitamin B1) liều 50–100 mg trước cữ ăn đầu tiên.<br>4) <b>Theo dõi điện giải:</b> Định lượng Phospho, Kali, Magie máu tại thời điểm nhập viện và kiểm tra lại sau 24h, 48h.",
+          "extra": "📖 Nguồn: da Silva JSV et al. ASPEN (PMID: 32115791) & WHO 2023",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B6",
             "Khoi-dau-80-100",
-            "ASPEN",
-            "Phong-ngua"
+            "F-75",
+            "Thiamin"
           ]
         },
         {
           "id": "PED30-B6-10",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Tiêu chí tăng tiến năng lượng an toàn",
           "section": "B6",
-          "text": "[EBM Update] Bổ sung Thiamin (Vitamin B1) trước khi nuôi ăn lại: Bắt buộc cho uống hoặc tiêm Thiamin liều {{c1::50–100 mg}} trước khi nạp carbohydrate để phòng ngừa biến chứng não cấp tính là {{c2::Bệnh não Wernicke}} và toan lactic máu.",
-          "extra": "🎯 Trả lời cốt lõi: Bổ sung Thiamin trước cữ ăn đầu tiên.<br><br>💡 Giải thích: Thiamin là coenzym bắt buộc của Pyruvate dehydrogenase trong chu trình Krebs chuyển hóa glucose.",
+          "front": "Khi nào người thầy thuốc mới được phép nâng mức năng lượng từ 100 lên 130–150 kcal/kg/ngày ở trẻ SAM?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Chỉ được chuyển từ sữa khởi đầu F-75 sang sữa bắt kịp F-100 hoặc RUTF khi thỏa mãn đồng thời 3 điều kiện:<br>1) <b>Thời gian ổn định:</b> Trẻ đã dung nạp tốt với F-75 sau ít nhất <b>3 đến 5 ngày</b>.<br>2) <b>Lâm sàng cải thiện:</b> Trẻ hết vẻ mặt u sầu, bắt đầu thèm ăn trở lại, không có biến chứng sốt hay tiêu chảy.<br>3) <b>Sinh hóa ổn định:</b> Nồng độ Phospho, Kali và Magie máu hoàn toàn bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Vội vã chuyển sang sữa giàu năng lượng F-100 quá sớm trong 48 giờ đầu sẽ kích hoạt lại Hội chứng Nuôi ăn lại làm bệnh nhân suy tim tái phát.",
+          "extra": "📖 Nguồn: WHO Management of Severe Malnutrition & Bài học PED-30",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B6",
-            "Thiamin",
-            "Vitamin-B1",
-            "Wernicke"
+            "Chuyen-sang-F100",
+            "Tieu-chi-an-toan"
           ]
         },
         {
           "id": "PED30-B6-11",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Sản phẩm RUTF",
           "section": "B6",
-          "text": "[EBM Update] Tiêu chí tăng dần năng lượng an toàn trong hồi phục dinh dưỡng: Chỉ tăng năng lượng từ 100 lên 130–150 kcal/kg/ngày khi: (1) Trẻ dung nạp tốt sau {{c1::3–5 ngày}}; (2) {{c1::Hết vẻ mặt u sầu, bắt đầu thèm ăn}}; (3) Điện giải đồ (Phospho, Kali) {{c2::hoàn toàn ổn định}}.",
-          "extra": "🎯 Trả lời cốt lõi: Đảm bảo 3 điều kiện ổn định trước khi chuyển sang F-100/RUTF.<br><br>💡 Giải thích: Vội vàng chuyển sang sữa năng lượng cao F-100 quá sớm sẽ kích hoạt lại biến chứng Refeeding.",
+          "front": "Sản phẩm RUTF (Ready-to-Use Therapeutic Food) có thành phần dinh dưỡng gì và tại sao lại tạo nên cuộc cách mạng trong điều trị SAM?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thành phần dinh dưỡng:</b> Bột nhão ăn liền làm từ bột đậu phộng, sữa bột nguyên kem, dầu thực vật, đường và phức hợp khoáng vi lượng CMV. Cung cấp đậm độ năng lượng rất cao (khoảng 500 kcal trong một gói 92g).<br>2) <b>Ưu thế cách mạng:</b><br>- <b>Không chứa nước:</b> Hoạt độ nước cực thấp nên vi khuẩn không thể phát triển, gói kín bảo quản được nhiều tháng ở nhiệt độ thường mà không cần tủ lạnh.<br>- <b>Không cần pha chế:</b> Gia đình bóc gói cho trẻ ăn trực tiếp, loại bỏ nguy cơ tiêu chảy do pha sữa bằng nguồn nước ô nhiễm.<br>- <b>Chuyển dịch điều trị:</b> Cho phép hơn 85% trẻ SAM không biến chứng được điều trị khỏi hoàn toàn tại nhà thay vì phải nằm viện.",
+          "extra": "📖 Nguồn: WHO 2023 Wasting Guideline & Bài học PED-30",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B6",
-            "Chuyen-sang-F100",
-            "On-dinh"
+            "RUTF",
+            "PlumpyNut",
+            "Cach-mang"
           ]
         },
         {
           "id": "PED30-B6-12",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Kỹ thuật Appetite Test với RUTF",
           "section": "B6",
-          "text": "[EBM Update] Khái niệm RUTF (Ready-to-Use Therapeutic Food): Là sản phẩm dinh dưỡng dạng bột nhão đóng gói ăn liền (gốc đậu phộng, sữa, đường, dầu và khoáng vi lượng), cung cấp khoảng {{c1::500 kcal / gói 92g}}, dùng điều trị {{c2::SAM ngoại trú không biến chứng}}.",
-          "extra": "🎯 Trả lời cốt lõi: RUTF là cuộc cách mạng giúp điều trị SAM tại nhà.<br><br>💡 Giải thích: Không chứa nước nên không bị nhiễm khuẩn, người nhà bóc gói cho trẻ ăn trực tiếp không cần nấu nướng.",
+          "front": "Quy trình thực hiện 'Test thử cảm giác thèm ăn' (Appetite Test) bằng RUTF và tiêu chuẩn đánh giá kết quả là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Quy trình thực hiện:</b><br>- Cho mẹ rửa tay sạch, ngồi cùng trẻ ở một góc phòng khám yên tĩnh, dỗ dành trẻ.<br>- Đưa một gói RUTF đã bóc cho trẻ tự cầm ăn hoặc mẹ đút từng chút một trong vòng 30 phút, cho trẻ uống thêm nước sạch từng ngụm.<br>2) <b>Tiêu chuẩn đánh giá:</b><br>- <b>Appetite Test ĐẠT (Dương tính):</b> Trẻ ăn ngon lành ít nhất <b>1/4 đến 1/3 gói RUTF</b> (tùy cân nặng) → Đủ điều kiện quản lý ngoại trú tại nhà.<br>- <b>Appetite Test THẤT BẠI (Âm tính):</b> Trẻ từ chối ăn, ngậm chặt miệng hoặc quấy khóc nôn trớ → BẮT BUỘC NHẬP VIỆN ĐIỀU TRỊ NỘI TRÚ (dấu hiệu chỉ điểm nhiễm trùng nặng hoặc rối loạn chuyển hóa).",
+          "extra": "📖 Nguồn: WHO 2023 Wasting Guideline & Bộ Y tế QĐ 4487",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B6",
+            "Appetite-Test",
             "RUTF",
-            "PlumpyNut",
-            "SAM-ngoai-tru"
+            "Phan-luong"
           ]
         },
         {
           "id": "PED30-B6-13",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Xử trí toan lactic và thiếu Thiamin",
           "section": "B6",
-          "text": "[EBM Update] Test thử cảm giác thèm ăn (Appetite Test) với RUTF: Cho trẻ ngồi ăn thử gói RUTF trong 30 phút ở nơi yên tĩnh; trẻ ăn hết ít nhất {{c1::1/4 đến 1/3 gói}} là Appetite test dương tính \\→ đủ tiêu chuẩn {{c2::quản lý ngoại trú}}.",
-          "extra": "🎯 Trả lời cốt lõi: Appetite test dương tính = đủ điều kiện điều trị ngoại trú.<br><br>💡 Giải thích: Nếu trẻ từ chối ăn hoặc ăn quá ít = thất bại với test ăn \\→ bắt buộc nhập viện điều trị nội trú.",
+          "front": "Tại sao việc bổ sung Thiamin (Vitamin B1) trước khi cho ăn carbohydrate lại là chỉ định bắt buộc ở trẻ bỏ đói lâu ngày?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vai trò co-factor:</b> Thiamin pyrophosphate (TPP) là co-enzym bắt buộc của phức hợp Pyruvate dehydrogenase để chuyển pyruvate thành Acetyl-CoA đi vào chu trình Krebs tạo năng lượng hiếu khí.<br>2) <b>Hậu quả nếu thiếu Thiamin:</b> Khi nạp glucose mà không có thiamin, pyruvate không thể vào chu trình Krebs mà bị ứ đọng chuyển thành <b>Acid Lactic</b> gây toan lactic máu nặng nề, đồng thời gây tổn thương các nhân xám trung ương thần kinh (Bệnh não Wernicke).<br>3) <b>Liều dùng:</b> Cho uống hoặc tiêm Thiamin 50–100 mg trước cữ ăn đầu tiên.",
+          "extra": "📖 Nguồn: ASPEN Refeeding Guidelines (PMID: 32115791)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B6",
-            "Appetite-test",
-            "RUTF",
-            "Ngoai-tru"
+            "Thiamin",
+            "Vitamin-B1",
+            "Wernicke",
+            "Toan-lactic"
           ]
         },
         {
           "id": "PED30-B6-14",
           "track": "ebm_update",
-          "card_type": "cloze",
+          "type": "basic",
+          "category": "Ví dụ xử trí bé Kwashiorkor",
           "section": "B6",
-          "text": "[EBM Update] Bổ sung Sắt ở trẻ SAM: Tuyệt đối {{c1::KHÔNG bổ sung sắt trong giai đoạn cấp cứu ban đầu (giai đoạn 1)}} vì sắt tự do kích thích vi khuẩn phát triển mạnh gây nhiễm trùng huyết; chỉ bắt đầu bổ sung sắt khi trẻ bước vào {{c2::giai đoạn hồi phục bắt đầu tăng cân}}.",
-          "extra": "🎯 Trả lời cốt lõi: Trì hoãn bổ sung sắt đến giai đoạn hồi phục.<br><br>💡 Giải thích: Sắt tự do chưa gắn transferrin là nguồn dưỡng chất cho vi khuẩn độc lực cao sinh sôi.",
+          "front": "Tình huống Case 2: Một bé gái 18 tháng tuổi nặng 9.8 kg (WAZ = -0.8 SD), nhưng hai mu chân phù lõm độ 2, da mông bong tróc sơn nứt, tóc đổi màu cờ. Bác sĩ cần ra quyết định chẩn đoán và xử trí gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chẩn đoán:</b> <b>Suy dinh dưỡng cấp nặng thể phù (SAM - Kwashiorkor)</b>. Cân nặng 9.8 kg là do ứ đọng 1.5–2 kg nước phù che giấu teo cơ nặng.<br>2) <b>Quyết định xử trí:</b><br>- <b>Chỉ định nhập viện nội trú ngay lập tức.</b><br>- Nuôi dưỡng ban đầu bằng sữa F-75 với năng lượng thấp 80 kcal/kg/ngày (tính theo cân nặng khô ước tính khoảng 8kg).<br>- Làm xét nghiệm khẩn: Albumin máu, đường huyết, điện giải đồ P, K, Mg.<br>- Tiêm bắp Vitamin K1 1 mg; trì hoãn bổ sung sắt cho đến giai đoạn hồi phục.<br>3) <b>Cảnh báo sai lầm:</b> Tuyệt đối không nhìn vào WAZ = -0.8 SD rồi cho về nhà theo dõi ngoại trú!",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 10 Case 2)",
           "tags": [
-            "PED-30",
-            "ebm_update",
-            "Sec-B6",
-            "Tri-hoan-sat",
-            "Giai-doan-cap",
-            "Nhiem-trung-huyet"
+            "Case-2",
+            "Kwashiorkor",
+            "Xu-tri"
+          ]
+        },
+        {
+          "id": "PED30-B6-15",
+          "track": "ebm_update",
+          "type": "basic",
+          "category": "Ví dụ xử trí bé Marasmus",
+          "section": "B6",
+          "front": "Tình huống Case 3: Bé trai 24 tháng tuổi nặng 7.2 kg (WHZ &lt; -4 SD), vẻ mặt cụ già, teo cơ mông nặng, đói ăn kéo dài nhiều tháng, nhập viện vì viêm phổi. Kế hoạch phòng ngừa Refeeding của bác sĩ là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chỉ định dinh dưỡng ban đầu:</b> Nuôi ăn bằng sữa F-75 với tổng năng lượng đúng <b>80 kcal/kg/ngày</b> (7.2 kg × 80 = 576 kcal/ngày, chia 8 cữ mỗi cữ khoảng 95 ml F-75 cách nhau 3 giờ).<br>2) <b>Bổ sung vi chất phòng ngừa:</b> Cho uống Thiamin (Vitamin B1) 50 mg trước cữ ăn đầu tiên.<br>3) <b>Theo dõi sinh hóa:</b> Xét nghiệm lại điện giải đồ và Phospho máu sau 24h và 48h.<br>4) <b>Kháng sinh:</b> Điều trị viêm phổi bằng Ampicillin + Gentamicin.<br>5) <b>Nguyên tắc an toàn:</b> Dù bé quấy khóc đòi ăn liên tục, tuyệt đối không tăng calo trong 48 giờ đầu để tránh bão insulin gây suy tim cấp!",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 10 Case 3)",
+          "tags": [
+            "Case-3",
+            "Marasmus",
+            "Phong-Refeeding"
+          ]
+        },
+        {
+          "id": "PED30-B6-16",
+          "track": "ebm_update",
+          "type": "basic",
+          "category": "Tư vấn dinh dưỡng tại phòng khám",
+          "section": "B6",
+          "front": "Bác sĩ cần tư vấn như thế nào cho một bà mẹ có thói quen ninh nước hầm xương để nấu cháo cho con vì sợ con bị còi xương?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Giải thích bản chất:</b> Nước hầm xương chỉ có mùi thơm và tủy mỡ bão hòa khó tiêu, hàm lượng canxi thực tế rất thấp (không tan trong nước sôi).<br>2) <b>Tác hại nếu không cho dầu mỡ:</b> Nấu cháo không có dầu mỡ làm bé bị thiếu năng lượng và không hấp thu được Vitamin D và Vitamin A, trực tiếp khiến bé bị còi xương và khô mắt.<br>3) <b>Hướng dẫn thực hành chuẩn:</b><br>- Nấu cháo bằng nước thường hoặc nước luộc thịt/gà.<br>- <b>Bắt buộc cho trẻ ăn cả xác thịt/cá:</b> Băm nhỏ thịt nạc, cá, tôm nấu nhừ để cung cấp đạm và canxi thật.<br>- <b>Bắt buộc cho 5–10 ml dầu ăn hoặc mỡ lợn</b> vào mỗi bát cháo khi vừa nấu chín.<br>- Bổ sung rau xanh băm nhỏ và trái cây tươi hàng ngày.",
+          "extra": "📖 Nguồn: Bài học PED-30 (Mục 11f Patient FAQ)",
+          "tags": [
+            "Tu-van-dinh-duong",
+            "Nuoc-ham-xuong"
           ]
         }
       ],
