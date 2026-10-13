@@ -1,0 +1,1378 @@
+{
+  "topic": "Nhi khoa Y6::PED-61: Tiep can di ngoai bat thuong & Danh gia tinh chat phan o tre em",
+  "version": "master_combo_basic_v1",
+  "date": "2026-10-13",
+  "total_cards": 92,
+  "cards": [
+    {
+      "id": "PED61-B0-01",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Khung tiếp cận đại tiện",
+      "section": "B0",
+      "front": "Khung 4 câu hỏi chẩn đoán sống còn người thầy thuốc phải trả lời khi thăm khám một trẻ em bị đi ngoài bất thường là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lứa tuổi và chế độ nuôi dưỡng:</b> Trẻ sơ sinh, bú mẹ hoàn toàn, ăn sữa công thức hay ăn dặm?<br>2) <b>Hình thái và tính chất phân:</b> Thuộc type mấy theo thang Bristol (lỏng nước, sệt nhầy, máu, bọt chua, bạc màu hay phân dê)?<br>3) <b>Toàn trạng và cờ đỏ cấp cứu:</b> Trẻ tươi tỉnh tăng cân tốt hay có cờ đỏ ngoại khoa (khóc thét từng cơn, nôn dịch mật, chậm phân su, sốt cao)?<br>4) <b>Phân biệt sinh lý vs bệnh lý:</b> Có phải là phân hoa cà hoa cải sinh lý hay táo bón giả nhũ nhi (Infant Dyschezia) cần trấn an không?<br><br><b>💡 Giải thích của AI:</b><br>Tránh được hai cái bẫy lớn nhất: chẩn đoán quá mức hiện tượng sinh lý và bỏ sót cấp cứu ngoại khoa đe dọa tính mạng.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 0. Tổng quan)",
+      "tags": [
+        "Tong-quan",
+        "4-cau-hoi"
+      ]
+    },
+    {
+      "id": "PED61-B0-02",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Sinh lý bài xuất phân su",
+      "section": "B0",
+      "front": "Thời gian bài xuất phân su sinh lý ở trẻ sơ sinh đủ tháng là bao nhiêu và mốc cờ đỏ bệnh lý là khi nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mốc thời gian sinh lý:</b><br>- 94% trẻ sơ sinh đủ tháng bài xuất phân su trong vòng 24 giờ đầu sau sinh.<br>- 99% trẻ sơ sinh đủ tháng bài xuất phân su trong vòng 48 giờ đầu sau sinh.<br>2) <b>Mốc cờ đỏ bệnh lý:</b> Trẻ sơ sinh đủ tháng <b>chậm bài xuất phân su quá 48 giờ</b> là dấu hiệu cảnh báo nghi ngờ hàng đầu bệnh phình đại tràng vô hạch bẩm sinh (Hirschsprung), teo ruột hoặc hội chứng nút phân su.<br><br><b>💡 Giải thích của AI:</b><br>Phân su vô khuẩn và quánh dính do tích tụ từ thai kỳ. Đoạn ruột vô hạch ngăn cản tống xuất phân su.",
+      "extra": "📖 Nguồn: Ubesie AC (J Trop Pediatr 2009, PMID: 19460266)",
+      "tags": [
+        "Phan-su",
+        "Meconium",
+        "48h",
+        "Hirschsprung"
+      ]
+    },
+    {
+      "id": "PED61-B0-03",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Phân trẻ bú mẹ hoàn toàn",
+      "section": "B0",
+      "front": "Đặc điểm hình thái, màu sắc, độ chua và tần suất đại tiện bình thường ở trẻ bú mẹ hoàn toàn là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái & Màu sắc:</b> Phân màu vàng tươi (vàng hoa cải), dạng sệt lỏng có các hạt lợn cợn trắng ngà (hoa cà hoa cải).<br>2) <b>Mùi & Độ pH:</b> Mùi chua nhẹ sinh lý, pH phân có tính acid (pH 5.0–5.5) nhờ vi khuẩn Bifidobacteria lên men lactose.<br>3) <b>Tần suất:</b> Dao động rất rộng: có thể đi 4–6 lần/ngày (thậm chí 8–10 lần/ngày sau mỗi cữ bú do phản xạ dạ dày - đại tràng mạnh); hoặc ngược lại 3–7 ngày mới đi 1 lần nhưng phân vẫn mềm nhẵn.<br><br><b>💡 Giải thích của AI:</b><br>Nếu trẻ bú giỏi, bụng mềm, tăng cân đều đặn theo biểu đồ WHO thì đây là hoàn toàn bình thường, tuyệt đối không chẩn đoán tiêu chảy!",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 1.0 Sinh lý phân theo tuổi)",
+      "tags": [
+        "Bu-me",
+        "Hoa-ca-hoa-cai",
+        "pH-acid"
+      ]
+    },
+    {
+      "id": "PED61-B0-04",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Phân trẻ ăn sữa công thức",
+      "section": "B0",
+      "front": "Tính chất phân của trẻ ăn sữa công thức khác biệt như thế nào so với trẻ bú mẹ hoàn toàn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Độ đặc quánh:</b> Phân đặc hơn, thành khuôn mềm như bột nhão (Bristol Type 4).<br>2) <b>Màu sắc:</b> Thường có màu vàng nâu hoặc xanh rêu sẫm (do lượng sắt bổ sung trong sữa công thức bị vi khuẩn oxy hóa).<br>3) <b>Mùi & pH:</b> Mùi nồng hơn, pH trung tính hoặc kiềm nhẹ (pH 6.0–7.0).<br>4) <b>Tần suất:</b> Thường đi 1–2 lần/ngày hoặc cách ngày.<br><br><b>💡 Giải thích của AI:</b><br>Tỷ lệ đạm Casein/Whey cao hơn và chất béo thực vật trong sữa công thức khiến phân cô đặc hơn so với sữa mẹ.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 1.0 Sinh lý phân theo tuổi)",
+      "tags": [
+        "Sua-cong-thuc",
+        "Mau-xanh-reu",
+        "Phan-khuon"
+      ]
+    },
+    {
+      "id": "PED61-B0-05",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Phản xạ dạ dày - đại tràng",
+      "section": "B0",
+      "front": "Cơ chế và biểu hiện lâm sàng của Phản xạ Dạ dày - Đại tràng (Gastrocolic Reflex) ở trẻ nhũ nhi là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế:</b> Khi sữa đi vào dạ dày làm căng thành dạ dày, tín hiệu thần kinh phó giao cảm và hormon (Gastrin, CCK) kích thích sóng nhu động đại tràng co bóp đẩy phân xuống trực tràng.<br>2) <b>Biểu hiện:</b> Trẻ nhũ nhi thường vừa bú vừa đi ngoài hoặc đi tiêu ngay sau khi dứt cữ bú.<br>3) <b>Ý nghĩa lâm sàng:</b> Phản xạ này rất mạnh ở trẻ nhỏ và là cơ sở để tập phản xạ ngồi bồn cầu đúng giờ sau bữa ăn 15–20 phút trong điều trị táo bón.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 0.1 Nền tảng tiêu hóa)",
+      "tags": [
+        "Phan-xa-da-day-dai-trang",
+        "Gastrocolic"
+      ]
+    },
+    {
+      "id": "PED61-B0-06",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Bản chất màu vàng Stercobilin",
+      "section": "B0",
+      "front": "Sắc tố nào quyết định màu vàng bình thường của phân và con đường chuyển hóa diễn ra như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Sắc tố chính:</b> Sắc tố <b>Stercobilin</b> (và Urobilin).<br>2) <b>Con đường chuyển hóa:</b> Bilirubin liên hợp từ dịch mật đổ vào tá tràng \\→ xuống đại tràng vi khuẩn đường ruột khử oxy thành Urobilinogen \\→ oxy hóa tiếp thành Stercobilin có màu vàng nâu.<br>3) <b>Ý nghĩa:</b> Khi tắc nghẽn đường mật hoàn toàn (teo đường mật bẩm sinh), không có bilirubin xuống ruột \\→ phân bị mất màu vàng, trở nên trắng bợt như đất sét.",
+      "extra": "📖 Nguồn: Sinh lý học Tiêu hóa & Bài học PED-61",
+      "tags": [
+        "Stercobilin",
+        "Mau-phan",
+        "Teo-mat"
+      ]
+    },
+    {
+      "id": "PED61-B0-07",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Tại sao phân trẻ bú mẹ hơi chua",
+      "section": "B0",
+      "front": "Tại sao phân của trẻ bú mẹ hoàn toàn lại có mùi chua nhẹ và tính acid sinh lý (pH 5.0–5.5)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đường Oligosaccharides (HMO) và Lactose:</b> Sữa mẹ chứa hàm lượng cao đường lactose và HMO không bị thủy phân hết ở ruột non.<br>2) <b>Lên men sinh acid lactic:</b> Hệ vi khuẩn Bifidobacteria và Lactobacillus tại đại tràng lên men các loại đường này tạo ra các Acid béo chuỗi ngắn (SCFA) và Acid Lactic.<br>3) <b>Tác dụng bảo vệ:</b> Môi trường acid nhẹ này tạo hàng rào sinh học ức chế vi khuẩn gây bệnh (E. coli, Shigella, Salmonella) phát triển và kích thích nhu động ruột tống phân.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 1.0 Sinh lý phân trẻ bú mẹ)",
+      "tags": [
+        "HMO",
+        "Lactic-acid",
+        "Bifidobacteria"
+      ]
+    },
+    {
+      "id": "PED61-B0-08",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Hiện tượng chậm đi tiêu ở trẻ bú mẹ",
+      "section": "B0",
+      "front": "Hiện tượng trẻ bú mẹ hoàn toàn 4–7 ngày mới đi tiêu một lần nhưng phân vẫn mềm được giải thích như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hấp thu sữa mẹ tối ưu:</b> Sữa mẹ có tỷ lệ đạm và dưỡng chất cân đối hoàn hảo, được hệ tiêu hóa của trẻ hấp thu gần như triệt để \\→ tạo ra rất ít chất cặn bã trong đại tràng.<br>2) <b>Chờ đủ thể tích trực tràng:</b> Phải mất nhiều ngày khối phân tích lũy mới đủ thể tích kích thích phản xạ mót rặn.<br>3) <b>Dấu hiệu xác định lành tính:</b> Khi đi tiêu, phân tống ra hoàn toàn mềm sệt (Bristol Type 4), trẻ bú giỏi, bụng mềm xẹp, tăng cân đều \\→ hoàn toàn bình thường, không cần thụt tháo!",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 1.0 Chậm đi tiêu sinh lý)",
+      "tags": [
+        "Cham-di-tieu",
+        "Bu-me",
+        "Khong-phai-tao-bon"
+      ]
+    },
+    {
+      "id": "PED61-B0-09",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Tại sao phân có màu xanh rêu",
+      "section": "B0",
+      "front": "Hai cơ chế chính giải thích hiện tượng trẻ đi ngoài phân có màu xanh rêu hoặc xanh lá cây là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Sắc tố Biliverdin chưa kịp chuyển hóa:</b> Dịch mật bài xuất có sắc tố Biliverdin màu xanh; khi nhu động ruột tăng nhanh (tiêu chảy nhẹ hoặc ăn nhiều đường) làm phân di chuyển quá nhanh qua đại tràng, vi khuẩn chưa kịp khử Biliverdin thành Stercobilin vàng \\→ phân ra ngoài có màu xanh.<br>2) <b>Sắt trong sữa công thức bị oxy hóa:</b> Lượng muối sắt chưa hấp thu phản ứng với không khí bị oxy hóa thành hợp chất sắt màu xanh đen.<br>3) <b>Đánh giá:</b> Nếu phân sệt mềm và trẻ khỏe mạnh thì màu xanh rêu là hoàn toàn vô hại.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 1.0 & 3.5 Bẫy màu phân)",
+      "tags": [
+        "Phan-xanh-reu",
+        "Biliverdin",
+        "Sat-oxy-hoa"
+      ]
+    },
+    {
+      "id": "PED61-B0-10",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Cơ chế giữ phân chủ động",
+      "section": "B0",
+      "front": "Cơ chế giải phẫu và thần kinh của động tác đại tiện và tại sao đau rát hậu môn lại dẫn đến vòng xoắn nín nhịn phân?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế đại tiện bình thường:</b> Căng giãn bóng trực tràng kích hoạt phản xạ giãn cơ thắt trong hậu môn (không tự chủ) \\→ vỏ não nhận thức cảm giác mót rặn \\→ nếu muốn đi tiêu, vỏ não chủ động giãn cơ thắt ngoài và cơ mu trực tràng, kết hợp rặn tăng áp lực bụng.<br>2) <b>Vòng xoắn sợ đau:</b> Khi trẻ bị nứt kẽ hậu môn gây đau nhói, trẻ chủ động <b>co thắt chặt cơ thắt ngoài và cơ sàn chậu</b> để kìm giữ phân không cho trượt ra ngoài \\→ phân ứ lại bị hút nước thành khối u phân khổng lồ \\→ lần sau càng đau dữ dội hơn.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 2.2 Cơ chế táo bón)",
+      "tags": [
+        "Co-che-dai-tien",
+        "Co-that-ngoai",
+        "Vong-xoan-so-dau"
+      ]
+    },
+    {
+      "id": "PED61-B1-01",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Định nghĩa thang Bristol Nhi khoa",
+      "section": "B1",
+      "front": "Thang điểm phân Bristol Nhi khoa cải tiến (m-BSFS) phân chia hình thái phân thành mấy nhóm lớn và mấy Type chi tiết?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm <b>3 nhóm lâm sàng lớn</b> được chia thành <b>7 Type chi tiết</b>:<br><img src=\"PED61_fig1_bristol_stool_chart.jpg\"><br>1) <b>Nhóm Táo bón:</b> Type 1 (phân dê cứng) và Type 2 (xúc xích lổn nhổn).<br>2) <b>Nhóm Phân bình thường / Lý tưởng:</b> Type 3 (xúc xích nứt nẻ) và Type 4 (hình rắn mềm nhẵn).<br>3) <b>Nhóm Phân lỏng / Tiêu chảy:</b> Type 5 (miếng mềm), Type 6 (nhão xơ xác) và Type 7 (lỏng tóe nước).",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 1.2 Thang điểm Bristol Nhi khoa)",
+      "tags": [
+        "Bristol",
+        "m-BSFS",
+        "7-Type"
+      ]
+    },
+    {
+      "id": "PED61-B1-02",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm Bristol Type 1",
+      "section": "B1",
+      "front": "Mô tả hình thái và ý nghĩa lâm sàng của phân Bristol Type 1 ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái mô tả:</b> Từng cục cứng nhỏ, tròn, rời rạc như phân dê hay hạt dẻ cứng.<br>2) <b>Ý nghĩa lâm sàng:</b> Chỉ điểm <b>Táo bón mức độ nặng</b>. Khối phân đã lưu lại quá lâu trong đại tràng và trực tràng, bị tái hấp thu nước triệt để.<br>3) <b>Nguy cơ:</b> Trẻ phải rặn rất đau đớn, nguy cơ cao gây rách nứt kẽ hậu môn chảy máu tươi.",
+      "extra": "📖 Nguồn: Thang phân Bristol cải tiến cho Nhi khoa (m-BSFS)",
+      "tags": [
+        "Type-1",
+        "Phan-de",
+        "Tao-bon-nang"
+      ]
+    },
+    {
+      "id": "PED61-B1-03",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm Bristol Type 2",
+      "section": "B1",
+      "front": "Mô tả hình thái và ý nghĩa lâm sàng của phân Bristol Type 2 ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái mô tả:</b> Phân có hình xúc xích nhưng bề mặt lổn nhổn, gồ ghề nhiều cục cứng dính liền vào nhau.<br>2) <b>Ý nghĩa lâm sàng:</b> Chỉ điểm <b>Táo bón mức độ nhẹ đến vừa</b>. Phân thiếu nước và thời gian lưu chuyển đại tràng bị chậm.<br>3) <b>Xử trí:</b> Cần tăng nước, chất xơ và cân nhắc dùng thuốc nhuận tràng làm mềm phân.",
+      "extra": "📖 Nguồn: Thang phân Bristol cải tiến cho Nhi khoa (m-BSFS)",
+      "tags": [
+        "Type-2",
+        "Xuc-xich-go-ghe",
+        "Tao-bon-nhe"
+      ]
+    },
+    {
+      "id": "PED61-B1-04",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm Bristol Type 3",
+      "section": "B1",
+      "front": "Mô tả hình thái và ý nghĩa lâm sàng của phân Bristol Type 3 ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái mô tả:</b> Phân thành khuôn hình xúc xích nhưng có các vết nứt nẻ chân chim trên bề mặt.<br>2) <b>Ý nghĩa lâm sàng:</b> Tình trạng <b>đại tiện bình thường</b>. Phân có khuôn tốt, đi tiêu tương đối dễ dàng, không gây đau rát hậu môn.",
+      "extra": "📖 Nguồn: Thang phân Bristol cải tiến cho Nhi khoa (m-BSFS)",
+      "tags": [
+        "Type-3",
+        "Xuc-xich-nut-ne",
+        "Binh-thuong"
+      ]
+    },
+    {
+      "id": "PED61-B1-05",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm Bristol Type 4",
+      "section": "B1",
+      "front": "Tại sao phân Bristol Type 4 được coi là 'Tiêu chuẩn vàng' của sự bài xuất phân khỏe mạnh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái mô tả:</b> Phân hình xúc xích hoặc hình con rắn, mềm mại, bề mặt nhẵn bóng, đồng nhất.<br>2) <b>Ý nghĩa lâm sàng:</b> <b>Tiêu chuẩn vàng của phân lý tưởng</b> ở trẻ em. Chứa tỷ lệ nước hoàn hảo (khoảng 75% nước và 25% chất cặn bã).<br>3) <b>Đại tiện:</b> Trẻ đi tiêu êm ái, trượt ra ngoài dễ dàng trong vòng vài giây mà không cần rặn gắng sức.",
+      "extra": "📖 Nguồn: Thang phân Bristol cải tiến cho Nhi khoa (m-BSFS)",
+      "tags": [
+        "Type-4",
+        "Tieu-chuan-vang",
+        "Ly-tuong"
+      ]
+    },
+    {
+      "id": "PED61-B1-06",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm Bristol Type 5",
+      "section": "B1",
+      "front": "Mô tả hình thái và ý nghĩa lâm sàng của phân Bristol Type 5 ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái mô tả:</b> Từng miếng phân mềm, bờ mép cắt gọn gàng, tương đối rõ nét, đi tiêu dễ dàng.<br>2) <b>Ý nghĩa lâm sàng:</b> Gặp ở trẻ ăn khẩu phần ít chất xơ hoặc giai đoạn hồi phục sau tiêu chảy; hoặc ở trẻ đang dùng men vi sinh/thuốc nhuận tràng.",
+      "extra": "📖 Nguồn: Thang phân Bristol cải tiến cho Nhi khoa (m-BSFS)",
+      "tags": [
+        "Type-5",
+        "Mieng-mem",
+        "Thieu-chat-xo"
+      ]
+    },
+    {
+      "id": "PED61-B1-07",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm Bristol Type 6",
+      "section": "B1",
+      "front": "Mô tả hình thái và ý nghĩa lâm sàng của phân Bristol Type 6 ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái mô tả:</b> Phân sệt nhão, các mẩu xơ xác với bờ mép rách rưới, không thành khuôn.<br>2) <b>Ý nghĩa lâm sàng:</b> Chỉ điểm <b>Tiêu chảy mức độ nhẹ đến vừa</b>. Khả năng tái hấp thu nước của niêm mạc đại tràng bắt đầu bị suy giảm.",
+      "extra": "📖 Nguồn: Thang phân Bristol cải tiến cho Nhi khoa (m-BSFS)",
+      "tags": [
+        "Type-6",
+        "Phan-nhao",
+        "Tieu-chay-nhe"
+      ]
+    },
+    {
+      "id": "PED61-B1-08",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm Bristol Type 7",
+      "section": "B1",
+      "front": "Mô tả hình thái và ý nghĩa lâm sàng của phân Bristol Type 7 ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái mô tả:</b> Hoàn toàn lỏng như nước, tóe nước, không có các mẩu rắn.<br>2) <b>Ý nghĩa lâm sàng:</b> <b>Tiêu chảy cấp tính</b> do nhiễm trùng hoặc ngộ độc thức ăn. Nguy cơ mất nước và rối loạn điện giải rất cao.<br>3) <b>Hành động:</b> Đánh giá ngay 4 dấu hiệu mất nước WHO và bù dung dịch ORS áp lực thẩm thấu thấp.",
+      "extra": "📖 Nguồn: Thang phân Bristol cải tiến cho Nhi khoa (m-BSFS)",
+      "tags": [
+        "Type-7",
+        "Toe-nuoc",
+        "Tieu-chay-cap"
+      ]
+    },
+    {
+      "id": "PED61-B1-09",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Ý nghĩa theo dõi điều trị của Bristol",
+      "section": "B1",
+      "front": "Trong điều trị táo bón chức năng, mục tiêu điều trị được xác định bằng Type nào trên thang Bristol?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mục tiêu duy trì:</b> Giữ cho phân của trẻ ổn định ở <b>Type 4 (hoặc Type 3–4)</b> liên tục mỗi ngày.<br>2) <b>Chỉnh liều thuốc nhuận tràng PEG:</b><br>- Nếu phân vẫn ở Type 1 hoặc 2: Liều PEG chưa đủ, cần tăng thêm liều.<br>- Nếu phân chuyển sang Type 6 hoặc 7 (nhão nát hoặc lỏng nước): Liều PEG quá cao, cần giảm nhẹ liều.<br>3) <b>Thời gian duy trì:</b> Phải duy trì phân ở Type 4 trong ít nhất 2 tháng liên tục trước khi giảm liều.",
+      "extra": "📖 Nguồn: ESPGHAN/NASPGHAN Constipation Guidelines (PMID: 24345831)",
+      "tags": [
+        "Muc-tieu-Type-4",
+        "Chinh-lieu-PEG"
+      ]
+    },
+    {
+      "id": "PED61-B1-10",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Tỷ lệ nước trong các Type Bristol",
+      "section": "B1",
+      "front": "Hàm lượng nước trong khối phân thay đổi như thế nào giữa các Type trên thang điểm Bristol?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Type 1–2 (Táo bón):</b> Hàm lượng nước giảm xuống dưới <b>60–65%</b> (khối phân trở nên cứng rắn như đá).<br>2) <b>Type 3–4 (Bình thường):</b> Hàm lượng nước tối ưu khoảng <b>70–75%</b>.<br>3) <b>Type 6–7 (Tiêu chảy):</b> Hàm lượng nước tăng vọt lên trên <b>85–95%</b>.<br>4) <b>Ý nghĩa:</b> Chỉ cần chênh lệch 10–15% lượng nước đại tràng tái hấp thu đã biến một thỏi phân mềm lý tưởng thành một viên phân dê cứng ngắc.",
+      "extra": "📖 Nguồn: Sinh lý học Tiêu hóa & m-BSFS",
+      "tags": [
+        "Ham-luong-nuoc",
+        "Ty-le-nuoc-phan"
+      ]
+    },
+    {
+      "id": "PED61-B1-11",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Công cụ giao tiếp với trẻ em qua tranh vẽ",
+      "section": "B1",
+      "front": "Tại sao bảng m-BSFS có hình ảnh vẽ màu lại là công cụ giao tiếp vượt trội khi khai thác bệnh sử ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Trực quan hóa:</b> Trẻ em từ 3–4 tuổi trở lên không biết cách dùng từ ngữ miêu tả 'phân cứng' hay 'phân mềm'.<br>2) <b>Chỉ tay vào tranh:</b> Đưa bảng vẽ 7 Type phân cho trẻ tự chỉ vào hình vẽ giống bãi phân của mình nhất \\→ độ chính xác cao hơn nhiều so với hỏi lời phụ huynh (vì phụ huynh thường không trực tiếp nhìn phân của trẻ đã biết tự đi toilet).",
+      "extra": "📖 Nguồn: NASPGHAN Clinical Practice Guidelines",
+      "tags": [
+        "Giao-tiep-tre-em",
+        "Chi-tranh-Bristol"
+      ]
+    },
+    {
+      "id": "PED61-B1-12",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Hạn chế của thang Bristol ở trẻ đóng bỉm",
+      "section": "B1",
+      "front": "Hạn chế kỹ thuật của thang điểm Bristol khi áp dụng cho trẻ sơ sinh và nhũ nhi đóng bỉm là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bỉm thấm hút nước:</b> Tã bỉm hiện đại có hạt hút ẩm siêu tốc sẽ hút sạch phần nước tự do của phân, làm bãi phân lỏng bị bẹp dúm hoặc trông đặc hơn thực tế.<br>2) <b>Biến dạng cơ học:</b> Động tác trẻ nằm đè lên bỉm hoặc đóng bỉm chặt làm ép nát thỏi phân \\→ không quan sát được hình thái xúc xích nguyên bản.<br>3) <b>Khắc phục:</b> Phải đánh giá vùng ngấm nước xung quanh tã bỉm và tính chất phân khi vừa tống xuất.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 1.2 & 11g)",
+      "tags": [
+        "Han-che-bim-uot",
+        "Bien-dang-phan"
+      ]
+    },
+    {
+      "id": "PED61-B2-01",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Định nghĩa Infant Dyschezia",
+      "section": "B2",
+      "front": "Nêu đầy đủ tiêu chuẩn chẩn đoán Rối loạn đi ngoài chức năng ở trẻ nhũ nhi (Infant Dyschezia) theo Rome IV?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Theo Rome IV, trẻ được chẩn đoán Infant Dyschezia khi thỏa mãn đồng thời:<br>1) <b>Lứa tuổi:</b> Trẻ dưới 9 tháng tuổi.<br>2) <b>Triệu chứng:</b> Có ít nhất <b>10 phút rặn và quấy khóc</b> trước khi đi ngoài thành công hoặc không thành công.<br>3) <b>Tính chất phân:</b> Bãi phân tống ra hoàn toàn <b>mềm sệt (không có phân cứng)</b>.<br>4) <b>Không có vấn đề sức khỏe khác:</b> Trẻ không sốt, không nôn trớ, bụng mềm xẹp, tăng cân bình thường.",
+      "extra": "📖 Nguồn: Benninga MA et al. (Gastroenterology 2016, PMID: 27144631)",
+      "tags": [
+        "Infant-Dyschezia",
+        "Rome-IV",
+        "Duoi-9-thang"
+      ]
+    },
+    {
+      "id": "PED61-B2-02",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Cơ chế sinh lý Infant Dyschezia",
+      "section": "B2",
+      "front": "Bản chất cơ chế của hiện tượng rặn đỏ mặt khóc thét trong Infant Dyschezia là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mất phối hợp cơ sàn chậu:</b> Trẻ chưa học được sự phối hợp đồng bộ giữa động tác tăng áp lực ổ bụng (rặn) và sự giãn nở của cơ sàn chậu / cơ thắt hậu môn ngoài.<br>2) <b>Hậu quả:</b> Trẻ rặn cật lực nhưng cửa hậu môn lại bị co thắt đóng chặt.<br>3) <b>Kết thúc cơn:</b> Sau 10–20 phút khóc mệt mỏi, cơ thắt tự động giãn ra \\→ phân mềm tống ra ngoài dễ dàng và trẻ nín khóc ngay lập tức.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 1.1 Táo bón giả nhũ nhi)",
+      "tags": [
+        "Co-che-Dyschezia",
+        "Mat-phoi-hop-co"
+      ]
+    },
+    {
+      "id": "PED61-B2-03",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Xử trí Infant Dyschezia",
+      "section": "B2",
+      "front": "Thái độ xử trí chuẩn mực của người bác sĩ khi gặp trẻ bị Infant Dyschezia là gì và tại sao cấm tháo thụt?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thái độ xử trí:</b> Trấn an cha mẹ, giải thích đây là hiện tượng sinh lý lành tính sẽ tự khỏi trước 9 tháng tuổi; không cần dùng bất kỳ loại thuốc nào.<br>2) <b>Lý do CẤM tháo thụt:</b> Dùng tăm bông ngoáy hoặc bơm thuốc thụt sẽ làm xước rách niêm mạc hậu môn gây nứt kẽ thật sự, và quan trọng nhất là tạo ra sự phụ thuộc cơ học, tước đoạt cơ hội tự học phối hợp cơ của não bộ trẻ.",
+      "extra": "📖 Nguồn: Rome IV Consensus & Bài học PED-61",
+      "tags": [
+        "Xu-tri-Dyschezia",
+        "Cam-thao-thut",
+        "Tran-an"
+      ]
+    },
+    {
+      "id": "PED61-B2-04",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Tiêu chuẩn Rome IV Táo bón chức năng",
+      "section": "B2",
+      "front": "Nêu 6 tiêu chuẩn chẩn đoán Táo bón chức năng ở trẻ em theo Rome IV (trẻ cần thỏa mãn ít nhất mấy tiêu chuẩn)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ phải thỏa mãn <b>ít nhất 2 trong số 6 tiêu chuẩn</b> sau trong ít nhất 1 tháng:<br><img src=\"PED61_fig4_constipation_algorithm.jpg\"><br>1) Có ≤ 2 lần đi đại tiện mỗi tuần.<br>2) Tiền sử nín nhịn phân quá mức hoặc có tư thế giấu phân (vắt chéo chân, bám góc tường).<br>3) Tiền sử đi tiêu đau đớn khó khăn hoặc phân to cứng khô (Type 1–2).<br>4) Tiền sử có khối phân đường kính lớn trong trực tràng khi thăm khám.<br>5) Tiền sử đi ra bãi phân đường kính rất to làm tắc nghẽn bồn cầu.<br>6) Ở trẻ đã biết tự đi toilet: Có ít nhất 1 đợt són phân ra quần mỗi tuần.",
+      "extra": "📖 Nguồn: Benninga MA et al. (Gastroenterology 2016, PMID: 27144631)",
+      "tags": [
+        "Rome-IV",
+        "Tao-bon-chuc-nang",
+        "6-tieu-chuan"
+      ]
+    },
+    {
+      "id": "PED61-B2-05",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Tư thế giấu phân nín nhịn",
+      "section": "B2",
+      "front": "Tư thế giấu phân (Withholding Posture) ở trẻ bị táo bón biểu hiện như thế nào và cha mẹ hay nhầm lẫn với điều gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Biểu hiện:</b> Khi có cảm giác mót rặn, trẻ đứng im bất động, hai chân vắt chéo nhau ép chặt vào nhau, bám chặt vào góc tường hoặc ngồi xổm nhón gót, mặt đỏ bừng gồng mình.<br>2) <b>Bản chất:</b> Trẻ đang cố gắng hết sức <b>co cơ mông và cơ sàn chậu để đẩy phân ngược trở lại vào trực tràng</b> nhằm tránh bị đau rát hậu môn.<br>3) <b>Cha mẹ hay nhầm lẫn:</b> Cha mẹ tưởng con đang 'rặn hết sức mà không ra được', trong khi thực tế đứa trẻ đang làm điều ngược lại là 'nín nhịn phân'!",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 2.2 Vòng xoắn táo bón)",
+      "tags": [
+        "Tu-the-giau-phan",
+        "Withholding",
+        "Nhat-chan"
+      ]
+    },
+    {
+      "id": "PED61-B2-06",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Són phân nghịch ngôn (Encopresis)",
+      "section": "B2",
+      "front": "Cơ chế giải thích tại sao trẻ bị táo bón nặng lại có biểu hiện 'són phân lỏng hôi thối ra quần lót' là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bít tắc u phân cứng (Fecal Impaction):</b> Trẻ nín nhịn lâu ngày hình thành khối phân to cứng như đá chèn chặt ở bóng trực tràng.<br>2) <b>Rỉ phân lỏng qua kẽ:</b> Lượng phân lỏng mới sinh từ trên đại tràng không thể đi qua được khối tắc, phải len lỏi qua các khe hở rỉ ra ngoài đáy quần lót một cách hoàn toàn không tự chủ.<br>3) <b>Hậu quả:</b> Trẻ không có cảm giác mót rặn và không kiểm soát được, thường bị người lớn mắng mỏ oan uổng.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 2.3 Biến chứng són phân)",
+      "tags": [
+        "Son-phan",
+        "Encopresis",
+        "Fecal-impaction"
+      ]
+    },
+    {
+      "id": "PED61-B2-07",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Bảng phân biệt Táo bón chức năng vs Hirschsprung",
+      "section": "B2",
+      "front": "Bốn điểm phân biệt then chốt giữa Táo bón chức năng và Bệnh phình đại tràng bẩm sinh Hirschsprung là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Khởi phát:</b> Táo bón chức năng khởi phát muộn sau 1–2 tuổi (khi ăn dặm, đi học); Hirschsprung khởi phát ngay giai đoạn sơ sinh.<br>2) <b>Tiền sử phân su:</b> Chức năng ra phân su bình thường &lt; 48h; Hirschsprung <b>chậm phân su quá 48 giờ</b>.<br>3) <b>Thăm trực tràng:</b> Chức năng trực tràng đầy phân to cứng; Hirschsprung <b>bóng trực tràng rỗng teo nhỏ</b>.<br>4) <b>Dấu hiệu tháo cống:</b> Chức năng âm tính; Hirschsprung <b>dương tính</b> (phân và hơi bắn ra ồ ạt khi rút ngón tay).",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 4 Bảng so sánh Hirschsprung)",
+      "tags": [
+        "Phan-biet",
+        "Chuc-nang-vs-Hirschsprung",
+        "Blast-sign"
+      ]
+    },
+    {
+      "id": "PED61-B2-08",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Cờ đỏ loại trừ táo bón thực thể",
+      "section": "B2",
+      "front": "Checklist các dấu hiệu cờ đỏ gợi ý táo bón thực thể cần chuyển chuyên khoa thăm dò chuyên sâu là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khởi phát táo bón rất sớm trong tháng đầu sau sinh.<br>2) Chậm bài xuất phân su quá 48 giờ ở trẻ sơ sinh đủ tháng.<br>3) Phân dẹt nhỏ như sợi ruy-băng.<br>4) Nôn trớ dịch mật màu vàng xanh.<br>5) Bụng trướng căng kèm chậm phát triển thể chất gầy còm.<br>6) Bất thường giải phẫu vùng hậu môn: Lỗ rò, hậu môn lạc chỗ, hõm da xương cùng.<br>7) Bất thường thần kinh: Mất phản xạ gân xương chi dưới, yếu liệt hai chân.",
+      "extra": "📖 Nguồn: ESPGHAN/NASPGHAN Constipation Guidelines (PMID: 24345831)",
+      "tags": [
+        "Co-do-tao-bon",
+        "Thuc-the",
+        "Hirschsprung"
+      ]
+    },
+    {
+      "id": "PED61-B2-09",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Cơ chế phình đại tràng thứ phát",
+      "section": "B2",
+      "front": "Tại sao nín nhịn phân kéo dài lại dẫn đến phình giãn trực tràng thứ phát (Megarectum) và mất cảm giác mót rặn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Căng giãn cơ trực tràng liên tục:</b> Khối phân tích tụ làm thành trực tràng phải giãn rộng tối đa để chứa đựng.<br>2) <b>Trơ thụ thể áp lực:</b> Các thụ thể cảm nhận sức căng (Mechanoreceptors) ở thành trực tràng bị kích thích liên tục trở nên trơ lì thích nghi \\→ mất khả năng phát tín hiệu mót rặn lên vỏ não.<br>3) <b>Hậu quả:</b> Trẻ không còn cảm giác muốn đi tiêu nữa, khối phân càng có cơ hội tích tụ to hơn nữa.",
+      "extra": "📖 Nguồn: Sinh lý bệnh học Tiêu hóa & PED-61",
+      "tags": [
+        "Megarectum",
+        "Phinh-truc-trang",
+        "Tro-thu-the"
+      ]
+    },
+    {
+      "id": "PED61-B2-10",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Bằng chứng PEG 3350 vượt trội hơn Lactulose",
+      "section": "B2",
+      "front": "Nghiên cứu tổng quan hệ thống ESPGHAN/NASPGHAN chứng minh PEG 3350 vượt trội hơn Lactulose ở những điểm nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tăng tần suất đi tiêu:</b> PEG 3350 làm tăng số lần đi tiêu mỗi tuần cao hơn có ý nghĩa thống kê so với Lactulose.<br>2) <b>Giảm tác dụng phụ sinh hơi:</b> Do PEG là polymer trơ không bị vi khuẩn lên men \\→ không gây đầy hơi trướng bụng và đau quặn như Lactulose.<br>3) <b>Tỷ lệ tuân thủ cao:</b> Không mùi, không vị lợ, dễ uống pha vào nước lọc hoặc nước hoa quả.",
+      "extra": "📖 Nguồn: Tabbers MM et al. (JPGN 2014, PMID: 24345831)",
+      "tags": [
+        "PEG-vs-Lactulose",
+        "ESPGHAN-2014"
+      ]
+    },
+    {
+      "id": "PED61-B2-11",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Thời gian duy trì điều trị táo bón",
+      "section": "B2",
+      "front": "Tại sao khuyến cáo quốc tế bắt buộc thời gian điều trị duy trì thuốc nhuận tràng phải kéo dài ít nhất 2 tháng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hồi phục trương lực trực tràng:</b> Trực tràng bị giãn rộng mất từ 2 đến 3 tháng không bị căng giãn để các sợi cơ trơn co hồi lại kích thước giải phẫu ban đầu.<br>2) <b>Tái lập phản xạ thần kinh:</b> Cần thời gian để các thụ thể cơ học hồi phục độ nhạy cảm nhận phân.<br>3) <b>Xóa bỏ nỗi sợ hãi tâm lý:</b> Trẻ cần ít nhất 60 ngày đi tiêu phân mềm êm ái không đau rát để não bộ xóa bỏ hoàn toàn phản xạ co thắt nín nhịn phân có điều kiện.",
+      "extra": "📖 Nguồn: ESPGHAN/NASPGHAN Constipation Guidelines (PMID: 24345831)",
+      "tags": [
+        "Duy-tri-2-thang",
+        "Hoi-phuc-truc-trang"
+      ]
+    },
+    {
+      "id": "PED61-B2-12",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Tác hại của việc thụt tháo định kỳ",
+      "section": "B2",
+      "front": "Việc cha mẹ tự ý bơm thuốc tháo thụt hậu môn định kỳ hàng tuần gây ra những hậu quả bệnh lý nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tổn thương cơ học:</b> Đầu ống bơm nhựa cứng chọc vào hậu môn gây xước rách, viêm loét niêm mạc trực tràng và nứt kẽ.<br>2) <b>Mất phản xạ rặn tự nhiên:</b> Trực tràng quen với việc chỉ tống phân khi có kích thích bơm thuốc ngoại lai, làm mất phản xạ rặn chủ động.<br>3) <b>Ám ảnh tâm lý:</b> Trẻ sợ hãi, khóc thét chống cự mỗi khi đi tiêu, làm tình trạng nín nhịn phân càng trầm trọng hơn.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 7 Sai lầm thường gặp)",
+      "tags": [
+        "Tac-hai-thao-thut",
+        "Mat-phan-xa"
+      ]
+    },
+    {
+      "id": "PED61-B2-13",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Phương pháp chẩn đoán xác định Hirschsprung",
+      "section": "B2",
+      "front": "Ba thăm dò cận lâm sàng chuyên sâu theo thứ tự để chẩn đoán xác định bệnh Hirschsprung là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chụp đại tràng cản quang (Barium enema):</b> Tìm hình ảnh phễu chuyển tiếp (Transition zone) giữa đoạn vô hạch teo nhỏ và đoạn phình giãn bên trên.<br>2) <b>Đo áp lực hậu môn trực tràng (Anorectal manometry):</b> Đánh giá phản xạ ức chế trực tràng - hậu môn (RAIR): Ở Hirschsprung, phản xạ này bị MẤT (cơ thắt trong không giãn khi căng trực tràng).<br>3) <b>Sinh thiết hút niêm mạc trực tràng (Tiêu chuẩn vàng):</b> Nhuộm tìm thấy không có tế bào hạch thần kinh và tăng sinh men Acetylcholinesterase.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics & Bài học PED-61",
+      "tags": [
+        "Chan-doan-Hirschsprung",
+        "Sinh-thiet",
+        "RAIR"
+      ]
+    },
+    {
+      "id": "PED61-B2-14",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Ví dụ ca lâm sàng Infant Dyschezia",
+      "section": "B2",
+      "front": "Tình huống Case 1: Bé trai 2 tháng tuổi rặn đỏ mặt khóc ngằn ngặt 15 phút trước khi đi cầu, sau đó đi ra bãi phân vàng sệt mềm nhẵn (Type 4), tăng cân tốt. Kế hoạch xử trí của bác sĩ là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chẩn đoán:</b> Táo bón giả nhũ nhi (Infant Dyschezia) theo tiêu chuẩn Rome IV.<br>2) <b>Kế hoạch xử trí:</b><br>- Trấn an người mẹ giải thích hiện tượng mất phối hợp cơ lành tính.<br>- <b>Yêu cầu ngừng ngay việc ngoáy tăm bông hoặc thụt tháo hậu môn.</b><br>- Không dùng bất kỳ loại thuốc nhuận tràng hay men tiêu hóa nào.<br>- Hướng dẫn xoa bụng nhẹ nhàng và hẹn tái khám theo lịch tiêm chủng.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 10 Case 1)",
+      "tags": [
+        "Case-1",
+        "Infant-Dyschezia",
+        "Xu-tri"
+      ]
+    },
+    {
+      "id": "PED61-B3-01",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Năm nguyên nhân phân máu thường gặp",
+      "section": "B3",
+      "front": "Kể tên 5 nguyên nhân hàng đầu gây đi ngoài phân có máu ở trẻ em từ sơ sinh đến lứa tuổi học đường?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><img src=\"PED61_fig3_bloody_stool_differential.jpg\"><br>1) <b>Nứt kẽ hậu môn (Anal fissure):</b> Do táo bón, máu tươi dính ngoài rìa phân.<br>2) <b>Dị ứng đạm sữa bò (CMPA / Viêm trực tràng dị ứng):</b> Nhầy lẫn sợi máu li ti, trẻ tăng cân tốt.<br>3) <b>Hội chứng Lỵ vi khuẩn:</b> Sốt cao, đau bụng mót rặn, phân nhầy mủ máu.<br>4) <b>Lồng ruột cấp:</b> Khóc thét cơn, nôn mật, phân nhầy máu thạch dâu tây.<br>5) <b>Túi thừa Meckel xuất huyết:</b> Chảy máu ồ ạt, máu đỏ bầm, không đau bụng.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 3.4 Bảng chẩn đoán phân biệt)",
+      "tags": [
+        "Phan-mau",
+        "5-nguyen-nhan",
+        "Hematochezia"
+      ]
+    },
+    {
+      "id": "PED61-B3-02",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm nứt kẽ hậu môn",
+      "section": "B3",
+      "front": "Đặc điểm phân, triệu chứng lâm sàng và vị trí tổn thương điển hình của nứt kẽ hậu môn là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tính chất phân & Máu:</b> Phân to cứng khô (Type 1–2); có giọt hoặc vệt máu tươi đỏ chói bọc dính ngoài rìa thỏi phân hoặc dính trên giấy vệ sinh.<br>2) <b>Triệu chứng:</b> Trẻ khóc thét khi rặn vì đau rát hậu môn dữ dội, sau đi tiêu trẻ sợ hãi không dám đi tiếp.<br>3) <b>Vị trí tổn thương:</b> Banh nhẹ nếp mông thấy vết rách niêm mạc hình thoi ở <b>vị trí 6 giờ (bờ sau)</b> hoặc <b>12 giờ (bờ trước)</b>.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 3.2 Khám hậu môn)",
+      "tags": [
+        "Nut-ke-hau-mon",
+        "Mau-tuoi",
+        "Vi-tri-6h"
+      ]
+    },
+    {
+      "id": "PED61-B3-03",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm Dị ứng đạm sữa bò CMPA",
+      "section": "B3",
+      "front": "Đặc điểm lâm sàng then chốt của Viêm trực tràng dị ứng do Dị ứng đạm sữa bò (CMPA) ở trẻ nhũ nhi là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lứa tuổi:</b> Trẻ nhỏ từ 1 đến 6 tháng tuổi (bú mẹ hoặc sữa công thức).<br>2) <b>Tính chất phân:</b> Phân sệt lỏng nhiều chất nhầy lẫn các <b>sợi máu hoặc chấm máu đỏ tươi li ti</b> rải rác.<br>3) <b>Toàn trạng trẻ (Dấu hiệu vàng):</b> Trẻ <b>hoàn toàn không sốt, bụng mềm không chướng, bú giỏi, chơi ngoan và tăng cân rất tốt</b>.<br>4) <b>Chẩn đoán:</b> Đáp ứng ngoạn mục sau 2–4 tuần mẹ kiêng sữa bò hoặc trẻ đổi sang sữa eHF.",
+      "extra": "📖 Nguồn: Koletzko S et al. ESPGHAN (JPGN 2012, PMID: 22569527)",
+      "tags": [
+        "CMPA",
+        "Allergic-proctocolitis",
+        "Tang-can-tot"
+      ]
+    },
+    {
+      "id": "PED61-B3-04",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Tam chứng kinh điển Lồng ruột cấp",
+      "section": "B3",
+      "front": "Tam chứng lâm sàng kinh điển và tính chất phân đặc trưng của Lồng ruột cấp ở trẻ nhũ nhi là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tam chứng kinh điển:</b><br>- <b>Đau bụng khóc thét từng cơn:</b> Trẻ đang chơi đột ngột khóc dữ dội, co hai chân lên bụng 5–10 phút rồi nín nằm ngủ lịm, sau đó cơn đau lặp lại.<br>- <b>Nôn trớ:</b> Ban đầu nôn thức ăn/sữa, sau nôn dịch màu vàng xanh (dịch mật).<br>- <b>Sờ thấy khối u bánh lồng:</b> Khối mềm hình xúc xích nằm ngang ở hạ sườn phải hoặc trên rốn.<br>2) <b>Tính chất phân đặc trưng:</b> Đi ngoài phân nhầy máu đỏ sẫm như <b>thạch dâu tây (Red currant jelly)</b> hoặc nước mận chín.",
+      "extra": "📖 Nguồn: Giáo trình Ngoại Nhi & Hryhorczuk 2009 (PMID: 19657636)",
+      "tags": [
+        "Long-ruot",
+        "Tam-chung",
+        "Thach-dau-tay"
+      ]
+    },
+    {
+      "id": "PED61-B3-05",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm Hội chứng Lỵ",
+      "section": "B3",
+      "front": "Triệu chứng lâm sàng và tính chất phân của Hội chứng Lỵ vi khuẩn ở trẻ em là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Toàn thân:</b> Hội chứng nhiễm trùng rầm rộ: sốt cao đột ngột, mệt mỏi, môi khô lưỡi bẩn.<br>2) <b>Tiêu hóa:</b> Đau quặn bụng dọc khung đại tràng, mót rặn liên tục (ngồi bô khóc không chịu đứng dậy).<br>3) <b>Tính chất phân:</b> Đi ngoài nhiều lần trong ngày (hàng chục lần), mỗi lần ra rất ít phân, bãi phân chứa toàn <b>chất nhầy mủ đục lẫn máu đỏ tươi</b> trộn đều.<br>4) <b>Tác nhân:</b> Shigella, Salmonella, Campylobacter, Entamoeba histolytica.",
+      "extra": "📖 Nguồn: Hướng dẫn điều trị tiêu chảy Bộ Y tế QĐ 4121",
+      "tags": [
+        "Hoi-chung-ly",
+        "Shigella",
+        "Mot-ran"
+      ]
+    },
+    {
+      "id": "PED61-B3-06",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm Túi thừa Meckel",
+      "section": "B3",
+      "front": "Đặc điểm lâm sàng đặc trưng của chảy máu do Túi thừa Meckel ở trẻ em là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tính chất xuất huyết:</b> Đi ngoài ra máu đỏ tươi hoặc đỏ bầm ồ ạt, khối lượng rất lớn, có thể kèm cục máu đông.<br>2) <b>Đặc điểm then chốt:</b> <b>HOÀN TOÀN KHÔNG ĐAU BỤNG</b> và không kèm theo tiêu chảy (trẻ đi tiêu phân máu tự nhiên).<br>3) <b>Hậu quả:</b> Nhanh chóng rơi vào tình trạng thiếu máu cấp tính, da xanh xao, mạch nhanh, tụt huyết áp.<br>4) <b>Cận lâm sàng:</b> Xạ hình phát hiện niêm mạc dạ dày lạc chỗ bằng Technetium-99m pertechnetate (Meckel scan).",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 3.4 Bảng chẩn đoán phân biệt)",
+      "tags": [
+        "Meckel",
+        "Xuat-huyet-o-at",
+        "Khong-dau-bung"
+      ]
+    },
+    {
+      "id": "PED61-B3-07",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm Polyp đại trực tràng",
+      "section": "B3",
+      "front": "Triệu chứng lâm sàng và tính chất phân của Polyp đại trực tràng ở trẻ em là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lứa tuổi:</b> Hay gặp ở trẻ từ 2 đến 6 tuổi (thường là Polyp thiếu niên lành tính - Juvenile polyp).<br>2) <b>Tính chất máu:</b> Máu đỏ tươi bọc quanh bên ngoài thỏi phân có khuôn mềm bình thường, hoặc máu chảy nhỏ giọt vào cuối bãi đi tiêu.<br>3) <b>Đặc điểm:</b> Chảy máu tái diễn dai dẳng nhiều tuần nhiều tháng, trẻ hoàn toàn không đau bụng, không sốt, không sụt cân.<br>4) <b>Xử trí:</b> Nội soi đại tràng cắt polyp qua thòng lọng nhiệt (Snare).",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 3.4 Bảng chẩn đoán phân biệt)",
+      "tags": [
+        "Polyp-dai-trang",
+        "Mau-boc-ngoai",
+        "Juvenile-polyp"
+      ]
+    },
+    {
+      "id": "PED61-B3-08",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Độ chính xác của siêu âm lồng ruột",
+      "section": "B3",
+      "front": "Độ nhạy, độ đặc hiệu và hình ảnh điển hình của Siêu âm ổ bụng trong chẩn đoán lồng ruột cấp (Hryhorczuk 2009) là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Độ chính xác:</b> Siêu âm có độ nhạy <b>97.9%</b>, độ đặc hiệu <b>97.8%</b> và giá trị dự báo âm tính đạt <b>99.7%</b> (PMID: 19657636).<br>2) <b>Hình ảnh điển hình:</b><br>- Trên mặt cắt ngang: <b>Hình bánh lồng / hình bia đạn (Target sign / Doughnut sign)</b> gồm các vòng tròn đồng tâm giảm âm xen kẽ tăng âm.<br>- Trên mặt cắt dọc: <b>Hình bánh sandwich (Sandwich sign)</b> hoặc hình quả thận giả (Pseudokidney sign).<br>3) <b>Vai trò:</b> Là tiêu chuẩn vàng chẩn đoán hình ảnh đầu tay.",
+      "extra": "📖 Nguồn: Hryhorczuk AL et al. (Pediatr Radiol 2009, PMID: 19657636)",
+      "tags": [
+        "Sieu-am-long-ruot",
+        "Target-sign",
+        "Do-nhay-98"
+      ]
+    },
+    {
+      "id": "PED61-B3-09",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Phương pháp tháo lồng bằng hơi",
+      "section": "B3",
+      "front": "Quy trình, tỷ lệ thành công và chống chỉ định của phương pháp Tháo lồng bằng hơi (Pneumatic reduction) là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Quy trình:</b> Đặt ống thông vào hậu môn, bơm khí áp lực có kiểm soát (áp lực 80–120 mmHg) dưới hướng dẫn của màn tăng sáng X-quang hoặc siêu âm để đẩy khối ruột lồng tụt ra.<br>2) <b>Tỷ lệ thành công:</b> Đạt từ <b>80% đến 90%</b> nếu trẻ được đưa đến trong 24–48 giờ đầu.<br>3) <b>Chống chỉ định tuyệt đối:</b><br>- Trẻ có dấu hiệu viêm phúc mạc hoặc thủng ruột (liềm hơi dưới hoành).<br>- Trẻ đang có sốc giảm thể tích hoặc sốc nhiễm trùng nặng chưa hồi sức ổn định.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 5 & Mục 10 Case 2)",
+      "tags": [
+        "Thao-long-hoi",
+        "Pneumatic-reduction",
+        "Chong-chi-dinh"
+      ]
+    },
+    {
+      "id": "PED61-B3-10",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Cơ chế phân thạch dâu tây",
+      "section": "B3",
+      "front": "Cơ chế sinh lý bệnh hình thành màu phân 'thạch dâu tây' trong lồng ruột cấp là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Kẹp nghẹt cuống mạc treo:</b> Khi quai ruột chui vào lòng quai ruột kia, mạch máu mạc treo bị siết chặt tại cổ lồng.<br>2) <b>Ứ trệ tĩnh mạch:</b> Thành ruột phù nề dữ dội, tăng tính thấm mao mạch \\→ các tế bào biểu mô ruột tiết nhiều chất nhầy đặc.<br>3) <b>Hoại tử xuất huyết:</b> Tắc nghẽn tĩnh mạch làm vỡ các mao mạch niêm mạc \\→ máu đỏ rỉ ra trộn lẫn với chất nhầy đặc tạo nên khối đông sánh như thạch dâu tây.<br>4) <b>Ý nghĩa:</b> Là dấu hiệu thiếu máu hoại tử niêm mạc, báo động cấp cứu ngoại khoa.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 2.2 Cơ chế phân nhầy máu)",
+      "tags": [
+        "Thach-dau-tay",
+        "Nget-mac-treo",
+        "Hoai-tu-niem-mac"
+      ]
+    },
+    {
+      "id": "PED61-B3-11",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Phác đồ chế độ ăn kiêng trong CMPA",
+      "section": "B3",
+      "front": "Phác đồ chế độ ăn loại trừ protein sữa bò theo ESPGHAN ở trẻ bú mẹ vs trẻ bú sữa công thức là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ở trẻ bú mẹ hoàn toàn:</b><br>- Mẹ thực hiện chế độ ăn loại trừ 100% sữa bò và mọi sản phẩm từ sữa trong ít nhất <b>2 đến 4 tuần</b>.<br>- Bổ sung Canxi (1000 mg/ngày) và Vitamin D cho người mẹ.<br>2) <b>Ở trẻ ăn sữa công thức:</b><br>- Đổi sang <b>Sữa công thức thủy phân hoàn toàn (eHF)</b>.<br>- Nếu không đáp ứng sau 2–4 tuần hoặc trẻ dị ứng rất nặng: Đổi sang <b>Sữa công thức acid amin tự do (AAF)</b>.<br>3) <b>Cấm dùng:</b> Không dùng sữa dê, sữa cừu hoặc sữa đậu nành cho trẻ &lt; 6 tháng (do tỷ lệ dị ứng chéo cao).",
+      "extra": "📖 Nguồn: Koletzko S et al. ESPGHAN (JPGN 2012, PMID: 22569527)",
+      "tags": [
+        "Che-do-an-CMPA",
+        "eHF",
+        "AAF",
+        "Kieng-sua-bo"
+      ]
+    },
+    {
+      "id": "PED61-B3-12",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Xét nghiệm Apt-Downey phân biệt máu mẹ vs con",
+      "section": "B3",
+      "front": "Nguyên lý và ứng dụng của nghiệm pháp Apt-Downey ở trẻ sơ sinh đi ngoài phân máu là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ứng dụng:</b> Phân biệt trẻ sơ sinh đi ngoài phân máu là do trẻ tự xuất huyết tiêu hóa hay do trẻ nuốt máu mẹ trong lúc chuyển dạ hoặc khi bú đầu vú mẹ bị nứt cổ gà.<br>2) <b>Nguyên lý hóa sinh:</b> Hemoglobin người lớn (HbA) bị kiềm hóa (NaOH 1%) biến tính chuyển sang màu vàng nâu; trong khi Hemoglobin thai nhi (HbF) có tính kháng kiềm mạnh nên vẫn giữ nguyên màu hồng đỏ.<br>3) <b>Kết luận:</b> Nếu dung dịch chuyển màu vàng nâu \\→ Máu mẹ nuốt vào (trẻ hoàn toàn an toàn, không cần can thiệp).",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics & Bài học PED-61",
+      "tags": [
+        "Apt-Downey",
+        "HbF-vs-HbA",
+        "Nuot-mau-me"
+      ]
+    },
+    {
+      "id": "PED61-B3-13",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Viêm ruột hoại tử NEC ở trẻ sinh non",
+      "section": "B3",
+      "front": "Tam chứng lâm sàng và hình ảnh X-quang bụng đặc trưng của Viêm ruột hoại tử (NEC) ở trẻ sơ sinh là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đối tượng nguy cơ:</b> Trẻ sơ sinh non tháng, nhẹ cân đang được nuôi ăn đường ruột.<br>2) <b>Tam chứng lâm sàng:</b> Bụng trướng căng nề đỏ + Dịch dạ dày ứ đọng màu nâu bẩn/dịch mật + Đi ngoài phân có máu đại thể.<br>3) <b>Hình ảnh X-quang bụng đặc trưng:</b><br>- Hơi trong thành ruột (Pneumatosis intestinalis - hình bóng khí rải rác ở thành quai ruột).<br>- Hơi trong hệ tĩnh mạch cửa (Portal venous gas).<br>- Liềm hơi dưới hoành khi có biến chứng thủng ruột.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 6 Cờ đỏ ngoại khoa)",
+      "tags": [
+        "NEC",
+        "Viem-ruot-hoai-tu",
+        "Pneumatosis"
+      ]
+    },
+    {
+      "id": "PED61-B3-14",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Hội chứng tán huyết urê huyết cao HUS",
+      "section": "B3",
+      "front": "Mối liên quan nguy hiểm giữa đi ngoài phân máu do vi khuẩn sinh độc tố Shiga và Hội chứng HUS là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tác nhân:</b> Vi khuẩn E. coli sinh độc tố Shiga (STEC / EHEC O157:H7) hoặc Shigella dysenteriae type 1.<br>2) <b>Tam chứng HUS:</b> Sau 3–7 ngày đi ngoài phân máu, độc tố Shiga ngấm vào máu phá hủy tế bào nội mô mạch máu gây: (1) Thiếu máu tán huyết vi mạch; (2) Giảm tiểu cầu; (3) Suy thận cấp (Thiểu niệu, tăng creatinine).<br>3) <b>Cảnh báo vàng:</b> Tuyệt đối KHÔNG dùng kháng sinh cho tiêu chảy do STEC vì kháng sinh làm vi khuẩn vỡ giải phóng lượng lớn độc tố gây bùng phát HUS tử vong!",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 2.2 & 7 Sai lầm thường gặp)",
+      "tags": [
+        "HUS",
+        "STEC",
+        "Shiga-toxin",
+        "Suy-than-cap"
+      ]
+    },
+    {
+      "id": "PED61-B3-15",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Phân biệt nứt kẽ hậu môn vs dị ứng đạm sữa",
+      "section": "B3",
+      "front": "Hai điểm lâm sàng mấu chốt giúp phân biệt tức thì tại giường giữa Nứt kẽ hậu môn và Dị ứng đạm sữa bò là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đặc tính của khối phân:</b><br>- Nứt kẽ hậu môn: Bắt buộc phân phải là <b>phân to cứng khô (Bristol Type 1–2)</b>, máu tươi dính ngoài rìa thỏi phân.<br>- Dị ứng đạm sữa bò: Phân là <b>phân sệt mềm nhiều nhầy</b>, máu là các sợi đỏ li ti trộn lẫn bên trong chất nhầy.<br>2) <b>Cảm giác đau khi đi tiêu:</b><br>- Nứt kẽ: Trẻ khóc thét dữ dội vì đau rát hậu môn khi rặn.<br>- Dị ứng đạm sữa: Trẻ hoàn toàn không đau đớn, đi tiêu êm ái bình thường.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 3.4 Bảng chẩn đoán phân biệt)",
+      "tags": [
+        "Nut-ke-vs-CMPA",
+        "Phan-cung-vs-phan-nhay"
+      ]
+    },
+    {
+      "id": "PED61-B3-16",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Ví dụ ca lâm sàng Lồng ruột cấp",
+      "section": "B3",
+      "front": "Tình huống Case 2: Bé trai 8 tháng bụ bẫm đột ngột khóc thét từng cơn, nôn dịch mật, bỉm có chất nhầy dính máu đỏ sẫm như thạch dâu tây. Quyết định xử trí cấp cứu của bác sĩ là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chẩn đoán:</b> Cờ đỏ tối cấp cứu <b>Lồng ruột cấp (Intussusception)</b>.<br>2) <b>Xử trí khẩn cấp:</b><br>- Nhịn ăn hoàn toàn, đặt ống thông dạ dày giải áp.<br>- Lập đường truyền tĩnh mạch truyền Ringer Lactat.<br>- Siêu âm bụng cấp cứu xác định hình ảnh bánh lồng (Target sign).<br>- Hội chẩn Ngoại Nhi tiến hành tháo lồng bằng hơi ngay lập tức.<br>3) <b>Cảnh báo:</b> Cấm chẩn đoán nhầm thành lỵ rồi kê kháng sinh cho về nhà!",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 10 Case 2)",
+      "tags": [
+        "Case-2",
+        "Long-ruot-cap",
+        "Xu-tri-cap-cuu"
+      ]
+    },
+    {
+      "id": "PED61-B4-01",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm phân bất dung nạp Lactose",
+      "section": "B4",
+      "front": "Bộ 4 triệu chứng lâm sàng và tính chất phân điển hình của Bất dung nạp Lactose ở trẻ em là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phân lỏng nhiều nước:</b> Đi tiêu phân lỏng nhiều lần trong ngày.<br>2) <b>Sủi bọt hơi & Mùi chua nồng:</b> Bãi phân có nhiều bọt khí li ti, mùi chua nồng nặc đặc trưng do acid lactic.<br>3) <b>Trướng bụng & Sôi bụng:</b> Bụng trướng căng gõ vang, nghe tiếng sôi bụng ùng ục, trẻ hay xì xoẹt và quấy khóc khi bú.<br>4) <b>Hăm đỏ loét da quanh hậu môn:</b> Da quanh hậu môn bị trợt đỏ rớm dịch do acid phân kích ứng.",
+      "extra": "📖 Nguồn: Heyman MB AAP (Pediatrics 2006, PMID: 16951027)",
+      "tags": [
+        "Bat-dung-nap-lactose",
+        "Phan-bot-chua",
+        "Ham-hau-mon"
+      ]
+    },
+    {
+      "id": "PED61-B4-02",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Tiêu chuẩn xét nghiệm bất dung nạp Lactose",
+      "section": "B4",
+      "front": "Hai xét nghiệm phân tiêu chuẩn vàng khẳng định bất dung nạp carbohydrate lactose và ngưỡng chẩn đoán là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đo pH phân:</b> <b>pH phân &lt; 5.5</b> (bình thường pH phân trẻ sơ sinh 5.0–5.5 nhưng ở trẻ ăn dặm hoặc sữa công thức pH bình thường &gt; 6.0; pH tụt dưới 5.5 phản ánh sự tăng sinh quá mức của các acid béo chuỗi ngắn do lên men đường).<br>2) <b>Xét nghiệm chất khử trong phân (Clinitest):</b> <b>Chất khử trong phân &gt; 0.5%</b> (chứng minh có đường khử không được hấp thu đào thải ra phân).",
+      "extra": "📖 Nguồn: Heyman MB AAP (Pediatrics 2006, PMID: 16951027)",
+      "tags": [
+        "pH-phan-duoi-55",
+        "Clinitest-05",
+        "Xet-nghiem-phan"
+      ]
+    },
+    {
+      "id": "PED61-B4-03",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Xử trí bất dung nạp Lactose thứ phát",
+      "section": "B4",
+      "front": "Nguyên nhân thường gặp nhất và phác đồ xử trí Bất dung nạp Lactose thứ phát sau tiêu chảy là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguyên nhân:</b> Sau đợt tiêu chảy cấp do Rotavirus, lớp vi nhung mao ruột non bị bong tróc làm mất enzym lactase tạm thời.<br>2) <b>Phác đồ xử trí:</b><br>- Trẻ bú mẹ: <b>TIẾP TỤC CHO BÚ MẸ HOÀN TOÀN</b> (sữa mẹ có kháng thể và yếu tố tăng trưởng EGF giúp nhung mao hồi phục nhanh, không kiêng sữa mẹ).<br>- Trẻ ăn sữa công thức: Chuyển sang <b>Sữa công thức không chứa lactose (Lactose-Free)</b> trong vòng <b>2 đến 4 tuần</b>.<br>- Bổ sung Kẽm nguyên tố (10–20 mg/ngày) trong 14 ngày để kích thích niêm mạc ruột tái tạo.",
+      "extra": "📖 Nguồn: Hướng dẫn tiêu chảy WHO & Bài học PED-61",
+      "tags": [
+        "Xu-tri-Lactose",
+        "Lactose-free",
+        "Tiep-tuc-bu-me"
+      ]
+    },
+    {
+      "id": "PED61-B4-04",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm phân bạc màu",
+      "section": "B4",
+      "front": "Đặc điểm phân bạc màu (Acholic Stool) và ý nghĩa bệnh lý cờ đỏ của nó ở trẻ sơ sinh là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><img src=\"PED61_fig2_infant_stool_color_card.jpg\"><br>1) <b>Đặc điểm đại thể:</b> Phân mất hoàn toàn sắc tố vàng, trở nên trắng bợt như đất sét, trắng như phấn viết bảng hoặc vàng nhạt như màu rơm khô.<br>2) <b>Ý nghĩa bệnh lý:</b> <b>CỜ ĐỎ TỐI THƯỢNG CỦA TẮC NGHẼN ĐƯỜNG MẬT NGOÀI GAN</b>, hàng đầu là bệnh <b>Teo đường mật bẩm sinh (Biliary Atresia)</b> hoặc nang ống mật chủ.<br>3) <b>Tầm quan trọng:</b> Cần phát hiện và phẫu thuật nối mật ruột Kasai trước 60 ngày tuổi.",
+      "extra": "📖 Nguồn: Gu YH et al. (Medicine 2016, PMID: 27015203)",
+      "tags": [
+        "Phan-bac-mau",
+        "Acholic",
+        "Teo-duong-mat"
+      ]
+    },
+    {
+      "id": "PED61-B4-05",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Thang màu phân Infant Stool Color Card",
+      "section": "B4",
+      "front": "Thang màu phân trẻ sơ sinh (Infant Stool Color Card) phân loại các màu phân như thế nào để phát hiện teo đường mật?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Thang gồm 6 ô màu chuẩn chia làm 2 dải:<br>1) <b>Dải màu Bất thường (Cờ đỏ nghi ngờ teo mật):</b><br>- Màu 1: Trắng đất sét.<br>- Màu 2: Vàng nhạt phấn.<br>- Màu 3: Xanh lơ nhạt.<br>\\→ Trẻ có phân thuộc màu 1, 2, 3 bắt buộc phải khám chuyên khoa Tiêu hóa - Gan mật Nhi khẩn cấp!<br>2) <b>Dải màu Bình thường (Đủ sắc tố mật):</b><br>- Màu 4: Vàng tươi hoa cải.<br>- Màu 5: Vàng sẫm / Nâu vàng.<br>- Màu 6: Xanh rêu sinh lý.",
+      "extra": "📖 Nguồn: Gu YH et al. (Medicine 2016, PMID: 27015203)",
+      "tags": [
+        "Stool-Color-Card",
+        "Mau-1-2-3",
+        "Kasai-60-ngay"
+      ]
+    },
+    {
+      "id": "PED61-B4-06",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Thời điểm vàng phẫu thuật Kasai",
+      "section": "B4",
+      "front": "Tại sao mốc 60 ngày tuổi được coi là 'Thời điểm vàng' sống còn trong điều trị Teo đường mật bẩm sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Xơ hóa gan tiến triển:</b> Ứ mật trong gan gây viêm xơ hóa nhu mô gan tăng dần theo từng ngày tuổi.<br>2) <b>Tỷ lệ thành công phẫu thuật Kasai:</b><br>- Mổ trước 60 ngày tuổi: Tỷ lệ lưu thông mật hồi phục đạt trên <b>70–80%</b>, cứu sống lá gan của trẻ.<br>- Mổ từ 60 đến 90 ngày tuổi: Tỷ lệ thành công tụt xuống dưới <b>40–50%</b>.<br>- Mổ sau 90 ngày tuổi: Gan đã xơ hóa nặng không hồi phục, phẫu thuật Kasai hầu như thất bại hoàn toàn, trẻ bắt buộc phải ghép gan trước 2 tuổi.",
+      "extra": "📖 Nguồn: Gu YH et al. (Medicine 2016, PMID: 27015203)",
+      "tags": [
+        "Kasai-60-ngay",
+        "Thoi-diem-vang",
+        "Xo-gan"
+      ]
+    },
+    {
+      "id": "PED61-B4-07",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Đặc điểm phân đen Melena",
+      "section": "B4",
+      "front": "Tính chất phân đen như hắc ín (Melena) phản ánh xuất huyết ở vị trí nào và phân biệt với phân đen do thuốc?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vị trí xuất huyết:</b> Phản ánh chảy máu từ <b>đường tiêu hóa trên</b> (thực quản, dạ dày, tá tràng - trên góc Treitz).<br>2) <b>Tính chất phân Melena thật:</b> Phân đen nhánh như nhựa đường hoặc bã cà phê, nát sệt dính, có <b>mùi khắm nồng đặc trưng</b> của máu thoái hóa.<br>3) <b>Phân biệt phân đen do thuốc/thức ăn:</b> Phân do uống siro sắt, Bismuth hoặc ăn tiết canh thường thành khuôn mềm, không có mùi khắm thối của máu, trẻ hoàn toàn không có dấu hiệu thiếu máu hay tụt huyết áp.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 3.5 Bẫy phân đen)",
+      "tags": [
+        "Melena",
+        "Phan-den",
+        "Xuat-huyet-tieu-hoa-tren"
+      ]
+    },
+    {
+      "id": "PED61-B4-08",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Cơ chế phân mỡ Steatorrhea",
+      "section": "B4",
+      "front": "Cơ chế sinh lý bệnh và đặc điểm quan sát đại thể của Phân mỡ (Steatorrhea) ở trẻ em là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế:</b> Do thiếu hụt men Lipase tụy (trong bệnh xơ nang Cystic Fibrosis) hoặc thiếu muối mật, hoặc tổn thương tế bào hấp thu niêm mạc ruột (bệnh Celiac) làm lipid không được thủy phân thành acid béo và micelle \\→ đào thải nguyên vẹn ra phân.<br>2) <b>Đặc điểm quan sát:</b><br>- Phân khối lượng rất lớn, màu xám nhạt hoặc vàng nhạt.<br>- Bề mặt bóng nhẫy, nổi váng mỡ loang lổ trên mặt nước bồn cầu.<br>- Mùi thối khắm nồng nặc và phân dính chặt vào thành bồn cầu rất khó dội trôi.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 2.2 Cơ chế phân mỡ)",
+      "tags": [
+        "Steatorrhea",
+        "Phan-mo",
+        "Xo-nang-tuy"
+      ]
+    },
+    {
+      "id": "PED61-B4-09",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Chẩn đoán phân biệt vàng da sơ sinh",
+      "section": "B4",
+      "front": "Dấu hiệu phân bạc màu giúp phân biệt Vàng da tăng Bilirubin gián tiếp vs Vàng da tăng Bilirubin trực tiếp như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vàng da gián tiếp (tự do):</b> Tăng tan máu, thiếu men G6PD, vàng da sinh lý. Đường mật hoàn toàn thông suốt, lượng bilirubin xuống ruột tăng \\→ <b>Phân có màu vàng rất sẫm</b>, nước tiểu trong.<br>2) <b>Vàng da trực tiếp (ứ mật):</b> Teo đường mật bẩm sinh, nang ống mật chủ. Đường mật tắc nghẽn hoàn toàn \\→ <b>Phân bạc màu trắng đất sét</b>, nước tiểu sẫm màu như nước chè đặc (do bilirubin trực tiếp tan trong nước thải qua thận).",
+      "extra": "📖 Nguồn: Bài học PED-61 & PED-15 Tiếp cận vàng da ứ mật",
+      "tags": [
+        "Phan-biet-vang-da",
+        "Gian-tiep-vs-truc-tiep",
+        "Nuoc-tieu-che"
+      ]
+    },
+    {
+      "id": "PED61-B4-10",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Cơ chế hăm loét da trong bất dung nạp Lactose",
+      "section": "B4",
+      "front": "Tại sao trẻ bị bất dung nạp lactose lại bị hăm đỏ loét trợt da vùng quanh hậu môn dữ dội?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tụt pH phân có tính acid cao:</b> Lên men đường lactose tạo lượng lớn acid lactic và các acid béo chuỗi ngắn (SCFA) làm pH phân tụt sâu xuống &lt; 5.0–5.5.<br>2) <b>Bào mòn lớp sừng biểu bì:</b> Mỗi lần đi tiêu, lượng acid này tiếp xúc trực tiếp làm tan rã hàng rào lipid bảo vệ biểu bì quanh hậu môn.<br>3) <b>Bội nhiễm nấm:</b> Môi trường ẩm ướt và tổn thương trợt loét tạo điều kiện thuận lợi cho nấm Candida albicans xâm nhập gây viêm da bọng mủ vệ tinh.",
+      "extra": "📖 Nguồn: Heyman MB AAP (Pediatrics 2006, PMID: 16951027)",
+      "tags": [
+        "Ham-loet-hau-mon",
+        "Acid-lactic",
+        "Candida"
+      ]
+    },
+    {
+      "id": "PED61-B4-11",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Bẫy phân đỏ do Cefdinir",
+      "section": "B4",
+      "front": "Hiện tượng 'Phân đỏ do Cefdinir' (Cefdinir-induced red stool) xảy ra trong hoàn cảnh nào và tại sao dễ bị chẩn đoán nhầm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hoàn cảnh:</b> Xảy ra khi trẻ uống kháng sinh Cefdinir đồng thời với việc uống sữa công thức giàu sắt hoặc siro bổ sung sắt.<br>2) <b>Cơ chế hóa học:</b> Cefdinir phản ứng liên kết với ion sắt trong lòng ruột tạo thành phức hợp chelate có màu đỏ gạch không tan \\→ đào thải ra bỉm làm phân có màu đỏ tươi như máu.<br>3) <b>Chẩn đoán nhầm:</b> Rất dễ bị chẩn đoán nhầm thành xuất huyết tiêu hóa; xét nghiệm tìm máu trong phân (FOBT) âm tính và phân sẽ hết đỏ ngay sau khi ngừng Cefdinir.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 3.5 Bẫy phân đổi màu)",
+      "tags": [
+        "Cefdinir-red-stool",
+        "Chelate-sat",
+        "Gia-xuat-huyet"
+      ]
+    },
+    {
+      "id": "PED61-B4-12",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Phân biệt bất dung nạp lactose tiên phát vs thứ phát",
+      "section": "B4",
+      "front": "Phân biệt nguyên nhân và tiên lượng giữa Bất dung nạp lactose tiên phát và thứ phát ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bất dung nạp thứ phát (Thường gặp nhất, chiếm > 95%):</b> Xảy ra sau đợt viêm ruột do Rotavirus hoặc tiêu chảy kéo dài làm tổn thương nhung mao; có tính chất <b>tạm thời và hồi phục hoàn toàn</b> sau 2–4 tuần khi nhung mao ruột mọc lại.<br>2) <b>Bất dung nạp tiên phát (Hiếm gặp):</b> Do đột biến gen suy giảm enzym lactase theo tuổi (thường khởi phát sau 3–5 tuổi) hoặc bẩm sinh (Congenital alactasia); có tính chất <b>vĩnh viễn suốt đời</b>, phải kiêng sữa chứa lactose dài hạn.",
+      "extra": "📖 Nguồn: Heyman MB AAP (Pediatrics 2006, PMID: 16951027)",
+      "tags": [
+        "Lactose-tien-phat",
+        "Lactose-thu-phat",
+        "Hoi-phuc"
+      ]
+    },
+    {
+      "id": "PED61-B4-13",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Chỉ định phẫu thuật Kasai",
+      "section": "B4",
+      "front": "Mục tiêu giải phẫu và điều kiện thành công của Phẫu thuật nối mật ruột Kasai (Hepatoportoenterostomy) là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mục tiêu giải phẫu:</b> Cắt bỏ toàn bộ khối xơ teo của đường mật ngoài gan đến tận rốn gan, sau đó đưa một quai ruột non (hỗng tràng) lên khâu nối trực tiếp với vùng rốn gan để hứng các vi ống mật còn lưu thông dịch mật.<br>2) <b>Điều kiện thành công:</b> Bắt buộc phải thực hiện <b>trước 60 ngày tuổi</b> (tối đa trước 90 ngày) khi các vi ống mật tại rốn gan chưa bị xơ teo tắc nghẽn hoàn toàn và nhu mô gan chưa bị xơ gan mất bù.",
+      "extra": "📖 Nguồn: Gu YH et al. (Medicine 2016, PMID: 27015203)",
+      "tags": [
+        "Phau-thuat-Kasai",
+        "Hepatoportoenterostomy",
+        "Ron-gan"
+      ]
+    },
+    {
+      "id": "PED61-B4-14",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Ví dụ ca lâm sàng Teo đường mật bẩm sinh",
+      "section": "B4",
+      "front": "Tình huống Case 8: Bé gái 40 ngày tuổi vàng mắt kéo dài, phân màu trắng nhạt như phấn viết bảng (màu số 1 trên Infant Stool Color Card). Bác sĩ phòng khám cần ra quyết định xử trí khẩn cấp gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhận định:</b> Dấu hiệu phân bạc màu trắng đất sét ở trẻ 40 ngày tuổi là <b>Cờ đỏ tối khẩn cấp nghi ngờ Teo đường mật bẩm sinh</b>.<br>2) <b>Quyết định xử trí:</b><br>- Xét nghiệm khẩn: Bilirubin toàn phần và Bilirubin trực tiếp (khẳng định vàng da ứ mật nếu Bilirubin trực tiếp > 20% toàn phần).<br>- Siêu âm gan mật khảo sát dấu hiệu dây xơ rốn gan (Triangular cord sign) và túi mật teo nhỏ.<br>- <b>Chuyển tuyến khẩn cấp đến Trung tâm Ngoại Nhi</b> để phẫu thuật Kasai trước mốc 60 ngày tuổi.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 1.5 Ví dụ 8)",
+      "tags": [
+        "Case-8",
+        "Teo-duong-mat",
+        "Kasai-khan-cap"
+      ]
+    },
+    {
+      "id": "PED61-B5-01",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Liều tống tháo phân PEG 3350",
+      "section": "B5",
+      "front": "Liều lượng, thời gian và mục tiêu của Giai đoạn Tống tháo phân bít tắc (Disimpaction) bằng PEG 3350 theo ESPGHAN là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thuốc & Liều lượng:</b> Polyethylene Glycol (PEG 3350) liều <b>1.0 đến 1.5 g/kg/ngày</b>.<br>2) <b>Thời gian dùng:</b> Uống liên tục trong <b>3 đến 6 ngày</b>.<br>3) <b>Cách dùng:</b> Pha bột vào nước lọc hoặc nước hoa quả, chia 2 lần uống trong ngày.<br>4) <b>Mục tiêu:</b> Giữ lượng nước lớn làm tan rã hoàn toàn và tống xuất sạch khối u phân to cứng đang bít tắc lòng trực tràng cho đến khi trẻ đi ra phân lỏng vàng.",
+      "extra": "📖 Nguồn: Tabbers MM et al. ESPGHAN/NASPGHAN (JPGN 2014, PMID: 24345831)",
+      "tags": [
+        "Lieu-tong-thao",
+        "PEG-10-15",
+        "3-6-ngay"
+      ]
+    },
+    {
+      "id": "PED61-B5-02",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Liều duy trì PEG 3350",
+      "section": "B5",
+      "front": "Liều lượng, thời gian và mục tiêu của Giai đoạn Điều trị duy trì (Maintenance) bằng PEG 3350 là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Liều lượng:</b> PEG 3350 liều <b>0.4 đến 0.8 g/kg/ngày</b> (liều khởi đầu thông thường là 0.5 g/kg/ngày), uống 1 lần vào buổi sáng.<br>2) <b>Thời gian bắt buộc:</b> KÉO DÀI TỐI THIỂU <b>2 THÁNG</b>.<br>3) <b>Mục tiêu:</b> Duy trì phân luôn ở dạng mềm nhẵn (Bristol Type 4), trẻ đi tiêu đều đặn 1 lần/ngày không đau rát, giúp bóng trực tràng co nhỏ lại kích thước bình thường và xóa bỏ phản xạ sợ đi tiêu.",
+      "extra": "📖 Nguồn: Tabbers MM et al. ESPGHAN/NASPGHAN (JPGN 2014, PMID: 24345831)",
+      "tags": [
+        "Lieu-duy-tri",
+        "PEG-04-08",
+        "Toi-thieu-2-thang"
+      ]
+    },
+    {
+      "id": "PED61-B5-03",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Nguyên tắc giảm liều PEG 3350",
+      "section": "B5",
+      "front": "Khi nào được phép giảm liều thuốc nhuận tràng PEG 3350 và nguyên tắc giảm liều an toàn là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Điều kiện giảm liều:</b> Chỉ bắt đầu giảm liều khi trẻ đã đi tiêu ổn định phân mềm 1 lần/ngày trong <b>ít nhất 2 tháng liên tục</b> và đã thiết lập được thói quen tự ngồi bồn cầu.<br>2) <b>Nguyên tắc giảm liều:</b> <b>GIẢM LIỀU TỪ TỪ VÀ BẬC THANG</b>, không ngừng đột ngột: Giảm khoảng 25% tổng liều mỗi 2–4 tuần. Nếu trong quá trình giảm liều phân bắt đầu cứng lại \\→ quay trở lại liều có hiệu quả trước đó.",
+      "extra": "📖 Nguồn: ESPGHAN/NASPGHAN Constipation Guidelines (PMID: 24345831)",
+      "tags": [
+        "Giam-lieu-PEG",
+        "Bac-thang",
+        "Khong-ngung-dot-ngot"
+      ]
+    },
+    {
+      "id": "PED61-B5-04",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Kỹ thuật thăm trực tràng DRE",
+      "section": "B5",
+      "front": "Kỹ thuật thăm trực tràng bằng ngón tay (DRE) ở trẻ em và các tiêu chí đánh giá là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chuẩn bị:</b> Giải thích trấn an trẻ và gia đình, đeo găng bôi trơn dồi dào gel Xylocaine. Trẻ nhỏ dùng ngón tay út, trẻ lớn dùng ngón trỏ.<br>2) <b>Tiêu chí đánh giá:</b><br>- Trương lực cơ thắt hậu môn: Có co thắt quá chặt hay nhão mất trương lực?<br>- Lòng bóng trực tràng: Chứa đầy khối phân to cứng (táo bón chức năng) hay bóng trực tràng rỗng teo nhỏ (Hirschsprung)?<br>- Kiểm tra sau rút găng: Có máu dính găng không? Có dấu hiệu tháo cống (phân hơi bắn ra ồ ạt) không?",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 3.2 Khám hậu môn trực tràng)",
+      "tags": [
+        "DRE",
+        "Tham-truc-trang",
+        "Ky-thuat"
+      ]
+    },
+    {
+      "id": "PED61-B5-05",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Xử trí nứt kẽ hậu môn",
+      "section": "B5",
+      "front": "Phác đồ điều trị kết hợp nứt kẽ hậu môn do táo bón ở trẻ em bao gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Điều trị nguyên nhân gốc rễ:</b> Dùng thuốc nhuận tràng PEG 3350 để làm mềm phân ngay lập tức (phân mềm đi qua không còn cọ xát gây rách vết nứt).<br>2) <b>Điều trị tại chỗ:</b><br>- Vệ sinh hậu môn bằng nước ấm sau mỗi lần đi tiêu, thấm khô nhẹ nhàng bằng khăn mềm.<br>- Ngâm hậu môn nước ấm 10–15 phút x 2 lần/ngày để giảm co thắt cơ thắt trong.<br>- Bôi kem dưỡng ẩm / làm dịu: Kem Dexpanthenol hoặc kẽm oxyd (nếu đau co thắt nhiều có thể dùng mỡ Nitroglycerin 0.2% liều thấp theo chỉ định chuyên khoa).",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 5 & Mục 10 Case 3)",
+      "tags": [
+        "Tri-nut-ke",
+        "PEG-3350",
+        "Ngam-nuoc-am"
+      ]
+    },
+    {
+      "id": "PED61-B5-06",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Tư thế ngồi cầu 35 độ",
+      "section": "B5",
+      "front": "Tại sao tư thế ngồi bồn cầu kê ghế chân gập đùi 35 độ lại giúp trẻ tống phân dễ dàng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Giải phẫu cơ mu trực tràng (Puborectalis):</b> Khi ngồi thẳng góc 90° trên bồn cầu, cơ mu trực tràng vòng quanh trực tràng bị kéo căng, tạo thành một góc gập nhọn thắt chặt đường tống phân.<br>2) <b>Khi kê ghế đùi gập 35° (tư thế ngồi xổm):</b> Cơ mu trực tràng được thả lỏng hoàn toàn \\→ kéo thẳng trục giải phẫu của trực tràng và ống hậu môn thành một đường thẳng \\→ trọng lực và nhu động đẩy phân trượt ra ngoài êm ái mà trẻ không cần rặn gắng sức.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 9.2 Toileting Training)",
+      "tags": [
+        "Tu-the-ngoi-cau",
+        "Goc-35-do",
+        "Co-mu-truc-trang"
+      ]
+    },
+    {
+      "id": "PED61-B5-07",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Chế độ ăn cho trẻ táo bón",
+      "section": "B5",
+      "front": "Hướng dẫn chế độ ăn và lượng nước uống hỗ trợ điều trị táo bón ở trẻ em là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bổ sung đủ nước:</b> Đảm bảo trẻ uống đủ nhu cầu nước theo cân nặng (trẻ 10kg cần 1 lít/ngày, trẻ 15kg cần 1.25 lít/ngày; tăng thêm khi trời nóng).<br>2) <b>Tăng cường chất xơ hòa tan:</b> Cho trẻ ăn rau mồng tơi, rau đay, rau lang, đậu đỗ, bột yến mạch.<br>3) <b>Trái cây nhuận tràng (Nhóm chữ P):</b> Mận (Prunes), lê (Pears), đào (Peaches), đu đủ chín, chuối tiêu chín, thanh long trắng (chứa nhiều đường sorbitol tự nhiên hút nước vào phân).<br>4) <b>Hạn chế:</b> Tránh ăn ổi xanh, hồng xiêm xanh, chuối xanh (chứa nhiều chất chát tannin gây săn se niêm mạc làm táo bón nặng thêm).",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 9.2 Chế độ ăn)",
+      "tags": [
+        "Che-do-an-tao-bon",
+        "Chat-xo",
+        "Nhom-chu-P"
+      ]
+    },
+    {
+      "id": "PED61-B5-08",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Cơ chế phân tử PEG 3350",
+      "section": "B5",
+      "front": "Tại sao PEG 3350 không bị hấp thu qua đường ruột và không làm thay đổi điện giải máu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Trọng lượng phân tử lớn:</b> PEG có kích thước phân tử 3,350 Da, quá lớn để có thể khuếch tán qua các liên kết vòng bịt (Tight junctions) của niêm mạc ruột vào máu tuần hoàn.<br>2) <b>Cấu trúc polymer trơ:</b> Không mang điện tích và không bị các enzym tiêu hóa hay vi khuẩn lên men phân hủy \\→ đào thải nguyên vẹn 100% ra phân.<br>3) <b>Giữ nước đẳng trương:</b> Giữ chặt các phân tử nước bằng liên kết hydro nội tại mà không kéo hay làm mất các ion Na+, K+ của cơ thể, nên an toàn tuyệt đối cho trẻ em dùng dài hạn.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 5.1 Reasoning 5 tầng)",
+      "tags": [
+        "Phan-tu-PEG",
+        "Khong-hap-thu",
+        "Lien-ket-hydro"
+      ]
+    },
+    {
+      "id": "PED61-B5-09",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Phân biệt liều tống tháo vs liều duy trì",
+      "section": "B5",
+      "front": "Sự khác biệt cốt lõi về mục tiêu và mức liều giữa Giai đoạn Tống tháo phân và Giai đoạn Duy trì là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Giai đoạn Tống tháo (Disimpaction):</b><br>- Liều: Cao, <b>1.0–1.5 g/kg/ngày</b> trong 3–6 ngày.<br>- Mục tiêu: Phá hủy và tống xuất khối u phân hóa đá khổng lồ đang bít tắc trực tràng.<br>2) <b>Giai đoạn Duy trì (Maintenance):</b><br>- Liều: Trung bình, <b>0.4–0.8 g/kg/ngày</b> trong tối thiểu 2 tháng.<br>- Mục tiêu: Ngăn ngừa phân tái tích tụ to cứng, giữ phân luôn ở Bristol 4 để trực tràng co nhỏ lại và xóa bỏ nỗi sợ đi tiêu.",
+      "extra": "📖 Nguồn: Tabbers MM et al. ESPGHAN (JPGN 2014, PMID: 24345831)",
+      "tags": [
+        "Tong-thao-vs-Duy-tri",
+        "Lieu-dung-PEG"
+      ]
+    },
+    {
+      "id": "PED61-B5-10",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Nguy hiểm của Dầu khoáng Mineral Oil",
+      "section": "B5",
+      "front": "Tại sao Hội Tiêu hóa Nhi khoa quốc tế khuyến cáo không dùng Dầu khoáng (Mineral Oil) cho trẻ dưới 1 tuổi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguy cơ hít sặc mỡ:</b> Trẻ dưới 1 tuổi dễ nôn trớ và phản xạ bảo vệ thanh quản chưa hoàn thiện. Dầu khoáng không mùi vị, khi trào ngược trẻ dễ hít sặc vào đường hô hấp dưới.<br>2) <b>Viêm phổi hít lipid (Lipoid pneumonia):</b> Các hạt dầu mỡ trong phế nang bị đại thực bào nuốt nhưng không tiêu hóa được \\→ gây viêm phổi mạn tính dạng u hạt lipoid nguy kịch, điều trị cực kỳ khó khăn và tỷ lệ tử vong cao.<br>3) <b>Khuyến cáo:</b> Trẻ &lt; 1 tuổi táo bón tuyệt đối không dùng dầu khoáng, ưu tiên dùng PEG 3350 hoặc Lactulose.",
+      "extra": "📖 Nguồn: ESPGHAN/NASPGHAN Constipation Guidelines (PMID: 24345831)",
+      "tags": [
+        "Lipoid-pneumonia",
+        "Dau-khoang",
+        "Cam-duoi-1-tuoi"
+      ]
+    },
+    {
+      "id": "PED61-B5-11",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Cảnh báo thuốc xổ Natri Phosphate",
+      "section": "B5",
+      "front": "Tại sao thuốc tháo thụt chứa muối Natri Phosphate tuyệt đối CẤM dùng cho trẻ em nhỏ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hấp thu Phosphate ồ ạt qua niêm mạc:</b> Niêm mạc trực tràng trẻ em mỏng, muối phosphate thẩm thấu nhanh vào máu gây <b>Tăng Phospho máu cấp tính</b>.<br>2) <b>Hạ Canxi máu nặng:</b> Nồng độ phospho tăng vọt làm canxi kết tủa lắng đọng \\→ hạ canxi máu kịch phát gây co giật toàn thân (Tetany), loạn nhịp tim và suy thận cấp.<br>3) <b>Tử vong:</b> Đã có nhiều ca tử vong được ghi nhận sau thụt tháo Fleet Enema ở trẻ nhỏ; FDA khuyến cáo chống chỉ định cho trẻ dưới 2 tuổi.",
+      "extra": "📖 Nguồn: FDA Drug Safety Communication & Bài học PED-61",
+      "tags": [
+        "Cam-Natri-Phosphate",
+        "Tang-Phospho-mau",
+        "Tetany"
+      ]
+    },
+    {
+      "id": "PED61-B5-12",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Bảng khen thưởng Reward Chart",
+      "section": "B5",
+      "front": "Nguyên tắc thiết lập Bảng khen thưởng (Reward Chart) hiệu quả trong huấn luyện thói quen đi tiêu là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Khen thưởng nỗ lực hành vi, không khen kết quả:</b> Dán sticker ngôi sao khen ngợi mỗi khi trẻ chịu ngồi bồn cầu đúng giờ và đúng tư thế sau ăn 10 phút, bất kể lần đó trẻ có đi ra phân hay không.<br>2) <b>Tránh tạo áp lực:</b> Nếu chỉ khen khi 'đi được phân to' sẽ khiến trẻ căng thẳng, lo sợ thất bại và lại nín nhịn phân.<br>3) <b>Tích lũy phần thưởng:</b> Đủ 5–7 ngôi sao trong tuần sẽ đổi được một phần thưởng nhỏ (đi công viên, đọc truyện yêu thích).",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 9.2 Toileting Training)",
+      "tags": [
+        "Reward-chart",
+        "Bang-khen-thuong",
+        "Tam-ly-hanh-vi"
+      ]
+    },
+    {
+      "id": "PED61-B5-13",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Ví dụ tính liều tống tháo phân Case 3",
+      "section": "B5",
+      "front": "Tình huống Case 3: Bé gái 4 tuổi nặng 16 kg có u phân bít tắc trực tràng gây són phân. Tính liều lượng PEG 3350 cho giai đoạn tống tháo và giai đoạn duy trì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Giai đoạn Tống tháo phân (4 ngày):</b><br>- Liều chuẩn: 1.5 g/kg/ngày × 16 kg = 24 g/ngày.<br>- Cách dùng: Pha 24g bột PEG vào 200 ml nước, chia 2 lần uống sáng/chiều trong 4 ngày.<br>2) <b>Giai đoạn Duy trì (tối thiểu 2 tháng):</b><br>- Liều chuẩn: 0.5 g/kg/ngày × 16 kg = 8 g/ngày.<br>- Cách dùng: Pha 8g bột PEG vào 100 ml nước uống 1 lần vào mỗi buổi sáng.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 10 Case 3)",
+      "tags": [
+        "Case-3",
+        "Tinh-lieu-PEG",
+        "16kg"
+      ]
+    },
+    {
+      "id": "PED61-B5-14",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Kỹ thuật vạch hậu môn quan sát nứt kẽ",
+      "section": "B5",
+      "front": "Kỹ thuật vạch hậu môn đúng cách để không làm đau trẻ mà vẫn phát hiện được nứt kẽ hậu môn là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tư thế:</b> Đặt trẻ nằm ngửa gập hai đùi lên bụng (như tư thế thay tã) hoặc nằm nghiêng co chân thoải mái.<br>2) <b>Thao tác ngón tay:</b> Đặt hai ngón tay cái ở hai bên rìa ngoài nếp mông, nhẹ nhàng tách hai bờ mông sang hai bên và kéo nhẹ mép da hậu môn ra phía ngoài.<br>3) <b>Quan sát:</b> Tập trung nhìn vào nếp niêm mạc ở vị trí 6 giờ (bờ sau) và 12 giờ (bờ trước); vết nứt kẽ là một rãnh rách dọc màu đỏ tươi rớm máu, đáy có thể thấy sợi cơ thắt trắng.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 3.2 Khám hậu môn)",
+      "tags": [
+        "Ky-thuat-vach-hau-mon",
+        "Quan-sat-nut-ke"
+      ]
+    },
+    {
+      "id": "PED61-B6-01",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Ba cờ đỏ ngoại khoa cấp cứu",
+      "section": "B6",
+      "front": "Kể tên 3 bệnh cảnh cấp cứu ngoại khoa đe dọa tính mạng liên quan đến triệu chứng đi ngoài bất thường ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><img src=\"PED61_fig5_master_stool_flowchart.jpg\"><br>1) <b>Lồng ruột cấp (Intussusception):</b> Khóc thét cơn, nôn mật, sờ thấy khối bánh lồng, phân nhầy máu thạch dâu tây.<br>2) <b>Viêm ruột hoại tử (NEC):</b> Sơ sinh non tháng, bụng chướng nề đỏ, ứ đọng dịch dạ dày, phân máu đại thể.<br>3) <b>Viêm ruột do Hirschsprung (HAEC):</b> Chậm phân su, bụng trướng căng, sốt cao, đi ngoài phân lỏng thối khắm dữ dội kèm máu, sốc nhiễm trùng.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 6 Cờ đỏ ngoại khoa)",
+      "tags": [
+        "Co-do-ngoai-khoa",
+        "Long-ruot",
+        "NEC",
+        "HAEC"
+      ]
+    },
+    {
+      "id": "PED61-B6-02",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Biến chứng viêm ruột do Hirschsprung",
+      "section": "B6",
+      "front": "Tại sao Viêm ruột do Hirschsprung (HAEC) lại là nguyên nhân gây tử vong hàng đầu ở bệnh nhi phình đại tràng bẩm sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tắc nghẽn và tăng áp lực lòng ruột:</b> Đoạn ruột vô hạch ngăn cản tống xuất phân làm ứ đọng khối lượng lớn chất bã và khí trong đại tràng \\→ áp lực lòng ruột tăng vọt.<br>2) <b>Thiếu máu cục bộ và vi khuẩn xâm lấn:</b> Thành đại tràng bị căng giãn quá mức dẫn đến thiếu máu nuôi dưỡng, vi khuẩn kỵ khí sinh độc tố phá hủy hàng rào niêm mạc ruột \\→ viêm hoại tử đại tràng cấp tính.<br>3) <b>Diễn tiến tối cấp:</b> Trẻ nhanh chóng bị thủng ruột, viêm phúc mạc và sốc nhiễm trùng toan chuyển hóa tử vong trong vòng 24 giờ.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics & Bài học PED-61",
+      "tags": [
+        "HAEC",
+        "Hirschsprung-enterocolitis",
+        "Tu-vong"
+      ]
+    },
+    {
+      "id": "PED61-B6-03",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Bảng kiểm 6 bước khám tã bỉm",
+      "section": "B6",
+      "front": "Nêu 6 bước trong Bảng kiểm kiểm tra tã bỉm nhanh tại giường bệnh (Diaper Inspection Checklist)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Kiểm tra nước:</b> Phân có nước tự do tách biệt khỏi bãi phân (tiêu chảy nước) hay phân ngấm đều?<br>2) <b>Kiểm tra chất nhầy:</b> Có mảng nhầy trong suốt, nhầy đục hay nhầy bọt?<br>3) <b>Kiểm tra máu:</b> Có máu đỏ tươi, đỏ sẫm; máu dạng sợi li ti, giọt máu riêng hay máu hòa tan toàn bãi?<br>4) <b>Kiểm tra hạt lợn cợn:</b> Hạt hoa cà hoa cải sinh lý hay thức ăn nguyên vẹn không tiêu?<br>5) <b>Kiểm tra màu sắc:</b> Đối chiếu bảng màu Infant Stool Color Card (vàng, xanh, đen, bạc màu)?<br>6) <b>Kiểm tra da bẹn mông:</b> Da có hăm đỏ trợt loét do acid phân hay mụn nước do nấm?",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 11g Diaper Checklist)",
+      "tags": [
+        "6-buoc-kham-bim",
+        "Diaper-checklist"
+      ]
+    },
+    {
+      "id": "PED61-B6-04",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Xử trí sốc mất nước do tiêu chảy",
+      "section": "B6",
+      "front": "Các bước xử trí cấp cứu tức thì khi trẻ tiêu chảy cấp có biểu hiện mất nước nặng và sốc giảm thể tích là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thiết lập đường truyền tĩnh mạch khẩn cấp:</b> Đặt đường truyền kim lớn (hoặc kim trong xương nếu thất bại sau 90 giây).<br>2) <b>Truyền tĩnh mạch Phác đồ C của WHO:</b> Dùng dịch Ringer Lactat với tổng liều <b>100 ml/kg</b>:<br>- Trẻ &lt; 12 tháng: Truyền 30 ml/kg trong 1 giờ đầu \\→ truyền 70 ml/kg trong 5 giờ tiếp theo.<br>- Trẻ ≥ 12 tháng: Truyền 30 ml/kg trong 30 phút đầu \\→ truyền 70 ml/kg trong 2.5 giờ tiếp theo.<br>3) <b>Theo dõi sát:</b> Mạch, huyết áp, tri giác, nếp véo da mỗi 15–30 phút.",
+      "extra": "📖 Nguồn: WHO Diarrhoea Guidelines & PED-27 Tiêu chảy cấp",
+      "tags": [
+        "Phac-do-C",
+        "Ringer-Lactat",
+        "100ml-kg"
+      ]
+    },
+    {
+      "id": "PED61-B6-05",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Dấu hiệu nôn dịch mật",
+      "section": "B6",
+      "front": "Tại sao nôn ra dịch màu vàng xanh (dịch mật) ở trẻ em luôn là một cờ đỏ ngoại khoa cấp cứu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mốc giải phẫu:</b> Dịch mật đổ vào tá tràng tại bóng Vater (nằm ở đoạn D2 tá tràng).<br>2) <b>Ý nghĩa cơ học:</b> Nôn ra dịch mật chứng minh có <b>sự tắc nghẽn cơ học ở đoạn ruột nằm dưới bóng Vater</b> (tắc tá tràng, xoắn ruột, lồng ruột, teo ruột non).<br>3) <b>Quy tắc an toàn:</b> Mọi trường hợp trẻ nhỏ nôn ra dịch mật bắt buộc phải coi là tắc ruột ngoại khoa cấp cứu cho đến khi có bằng chứng ngược lại; cấm cho uống thuốc chống nôn!",
+      "extra": "📖 Nguồn: PALS & Bài học PED-61 (Mục 3.1 & 6)",
+      "tags": [
+        "Non-dich-mat",
+        "Bong-Vater",
+        "Tac-ruot-ngoai-khoa"
+      ]
+    },
+    {
+      "id": "PED61-B6-06",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Hội chứng nút phân su Meconium Plug",
+      "section": "B6",
+      "front": "Định nghĩa, nguyên nhân và cách xử trí Hội chứng Nút phân su (Meconium Plug Syndrome) ở trẻ sơ sinh là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Định nghĩa:</b> Tình trạng tắc ruột cơ học tạm thời ở trẻ sơ sinh do một khối phân su đặc quánh như cao su bít chặt lòng đại tràng.<br>2) <b>Yếu tố nguy cơ:</b> Mẹ bị đái tháo đường thai kỳ, dùng magie sulfat trước sinh, hoặc trẻ sinh non.<br>3) <b>Xử trí:</b> Chụp đại tràng cản quang bằng thuốc cản quang tan trong nước (Gastrografin) vừa để chẩn đoán vừa có tác dụng nhuận tràng thẩm thấu làm long nút phân su ra ngoài \\→ trẻ đi tiêu thông suốt.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 1.0 & 6)",
+      "tags": [
+        "Meconium-plug",
+        "Nut-phan-su",
+        "Gastrografin"
+      ]
+    },
+    {
+      "id": "PED61-B6-07",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Cơ chế xoắn ruột do ruột xoay bất toàn",
+      "section": "B6",
+      "front": "Tại sao Ruột xoay bất toàn kèm xoắn ruột (Malrotation with Volvulus) là cấp cứu ngoại khoa tối khẩn cấp trong vài giờ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bất thường phôi thai:</b> Quai ruột phôi thai không hoàn thành vòng quay 270° ngược chiều kim đồng hồ \\→ mạc treo ruột non có chân bám rất hẹp quanh cuống động mạch mạc treo tràng trên.<br>2) <b>Xoắn nghẹt toàn bộ ruột non:</b> Ruột non tự xoắn quanh cuống mạch mạc treo \\→ tắc nghẽn toàn bộ dòng máu nuôi dưỡng toàn bộ ruột non từ góc Treitz đến manh tràng.<br>3) <b>Thời gian vàng:</b> Toàn bộ ruột non sẽ hoại tử đen kịt chỉ sau <b>6 giờ</b> nếu không được mổ tháo xoắn phẫu thuật Ladd khẩn cấp!",
+      "extra": "📖 Nguồn: Ngoại Nhi lâm sàng & Bài học PED-61",
+      "tags": [
+        "Xoan-ruot",
+        "Volvulus",
+        "Ladd-6-gio"
+      ]
+    },
+    {
+      "id": "PED61-B6-08",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Sàng lọc teo đường mật tại cộng đồng",
+      "section": "B6",
+      "front": "Kinh nghiệm triển khai Bảng màu phân trẻ sơ sinh tại cộng đồng ở Đài Loan (Gu YH 2016) đã mang lại kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phương thức:</b> Phát Bảng màu phân (Infant Stool Color Card) đính kèm trong sổ theo dõi sức khỏe trẻ em cho mọi bà mẹ sau sinh.<br>2) <b>Hành động của mẹ:</b> Mỗi lần thay tã, mẹ soi màu phân của con với 6 ô màu trên thẻ; nếu thấy phân rơi vào ô màu 1, 2, 3 (bạc màu) thì bế con đi khám ngay.<br>3) <b>Hiệu quả:</b> Tăng tỷ lệ phẫu thuật Kasai trước 60 ngày tuổi lên 73.3%, nâng tỷ lệ sống sót tự nhiên 5 năm sau mổ và giảm tỷ lệ tử vong trẻ em rõ rệt.",
+      "extra": "📖 Nguồn: Gu YH et al. (Medicine 2016, PMID: 27015203)",
+      "tags": [
+        "Sang-loc-cong-dong",
+        "Stool-color-card",
+        "Dai-Loan"
+      ]
+    },
+    {
+      "id": "PED61-B6-09",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Nguyên tắc tháo thụt giảm áp trong HAEC",
+      "section": "B6",
+      "front": "Kỹ thuật tháo thụt giảm áp cấp cứu trong Viêm ruột do Hirschsprung (HAEC) được thực hiện như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mục tiêu:</b> Giải áp nhanh chóng áp lực trong lòng đại tràng và rửa sạch chất phân ứ đọng nhiễm khuẩn.<br>2) <b>Kỹ thuật:</b> Đặt một ống thông trực tràng mềm (Sonde Nelaton kích thước 16–22 Fr) nhẹ nhàng qua đoạn hẹp vô hạch vào sâu trong lòng đoạn đại tràng giãn phình bên trên.<br>3) <b>Bơm rửa:</b> Dùng dung dịch Natri Clorid 0.9% ấm (10–20 ml/lần), bơm vào rồi để dịch tự chảy ra ngoài, lặp lại nhiều lần cho đến khi nước rửa trong.<br>4) <b>Lưu ý:</b> Tuyệt đối không dùng áp lực bơm quá mạnh tránh thủng đại tràng hoại tử.",
+      "extra": "📖 Nguồn: Pediatric Colorectal Surgery & Bài học PED-61",
+      "tags": [
+        "Giam-ap-HAEC",
+        "Rua-dai-trang",
+        "Sonde-Nelaton"
+      ]
+    },
+    {
+      "id": "PED61-B6-10",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Vai trò của Bismuth trong xuất huyết tiêu hóa",
+      "section": "B6",
+      "front": "Tại sao việc phụ huynh tự ý cho trẻ uống Bismuth subsalicylate khi bị đau bụng đi ngoài lại làm phức tạp chẩn đoán?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đổi màu phân đen:</b> Bismuth phản ứng tạo Bismuth sulfide làm phân đen kịt như hắc ín \\→ gây hoang mang tưởng trẻ bị xuất huyết tiêu hóa trên nặng nề.<br>2) <b>Che giấu tổn thương thật:</b> Bismuth bám vào niêm mạc làm nội soi khó quan sát.<br>3) <b>Nguy cơ ngộ độc Salicylate:</b> Ở trẻ em bị nhiễm virus (cúm, thủy đậu), dùng Bismuth subsalicylate có nguy cơ kích hoạt <b>Hội chứng Reye</b> gây suy gan thoái hóa mỡ và phù não tử vong!",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 3.5 Bẫy phân đen & Hội chứng Reye)",
+      "tags": [
+        "Bismuth",
+        "Hoi-chung-Reye",
+        "Phan-den-gia"
+      ]
+    },
+    {
+      "id": "PED61-B6-11",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Tiêu chuẩn xuất viện an toàn sau tháo lồng hơi",
+      "section": "B6",
+      "front": "Tiêu chuẩn theo dõi và xuất viện an toàn cho bệnh nhi sau khi được tháo lồng ruột bằng hơi thành công là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thời gian theo dõi tối thiểu:</b> Nằm viện theo dõi trong <b>ít nhất 24 giờ</b> sau tháo lồng.<br>2) <b>Tiêu chuẩn an toàn:</b><br>- Trẻ hết khóc cơn, tươi tỉnh chơi ngoan.<br>- Hết nôn trớ, bắt đầu dung nạp ăn uống trở lại bình thường.<br>- Bụng mềm, không trướng, không đau khi sờ nắn.<br>- Đã đi tiêu ra phân vàng hoặc phân bình thường (không còn phân máu).<br>3) <b>Dặn dò tái lồng:</b> Khoảng 10% ca có thể bị tái lồng ruột trong 24–48 giờ đầu; dặn mẹ đưa con khám lại ngay nếu trẻ lại khóc thét từng cơn.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 10 Case 2)",
+      "tags": [
+        "Tieu-chuan-xuat-vien",
+        "Sau-thao-long",
+        "Tai-long-10"
+      ]
+    },
+    {
+      "id": "PED61-B6-12",
+      "track": "ebm_update",
+      "type": "basic",
+      "category": "Tầm quan trọng của giao tiếp với phụ huynh",
+      "section": "B6",
+      "front": "Tại sao trong tiếp cận đi ngoài ở trẻ em, kỹ năng lắng nghe và đồng cảm với nỗi lo lắng của phụ huynh lại quyết định thành bại điều trị?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tâm lý nhạy cảm:</b> Bỉm phân của con là đối tượng được cha mẹ quan sát mỗi ngày; bất kỳ sự đổi màu hay mùi lạ nào đều gây lo âu cực độ.<br>2) <b>Xây dựng niềm tin:</b> Nếu bác sĩ xem nhẹ bảo 'không sao đâu' mà không giải thích cặn kẽ cơ chế sinh lý (như Infant Dyschezia hay phân bú mẹ) → cha mẹ sẽ đi khám nhiều nơi khác và tự mua thuốc thụt tháo nguy hại.<br>3) <b>Tuân thủ điều trị:</b> Giải thích rõ cơ chế giúp phụ huynh kiên trì cho con uống thuốc nhuận tràng PEG đủ 2 tháng mà không bỏ cuộc giữa chừng.",
+      "extra": "📖 Nguồn: Bài học PED-61 (Mục 11 Clinical Pearls)",
+      "tags": [
+        "Giao-tiep-phu-huynh",
+        "Dong-cam",
+        "Tuan-thu"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,668 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-13T09:22:40.134647Z",
+  "cache_root": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\04_Tieu_hoa_va_Dinh_duong\\PED-61_Tiep_can_di_ngoai_va_Danh_gia_tinh_chat_phan",
+  "providers": [
+    "crossref_retraction_watch",
+    "europe_pmc_metadata",
+    "openalex"
+  ],
+  "raw_objects": [
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "7d39412e5609d40cc43c90d85bd3f2771efa01b91d3c770fa09e098fe5026d46",
+      "path": "raw/europe_pmc_metadata/7d39412e5609d40cc43c90d85bd3f2771efa01b91d3c770fa09e098fe5026d46.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "4dfa51259be1de6a093117a66178a46b16b0ce7a5a277091150409d4f6e588b0",
+      "path": "raw/openalex/4dfa51259be1de6a093117a66178a46b16b0ce7a5a277091150409d4f6e588b0.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "789a3b08a7acc1829facb2d8ba03c6b0ea0285ac9bc32e2c13f48e6efc4c5ba0",
+      "path": "raw/crossref_retraction_watch/789a3b08a7acc1829facb2d8ba03c6b0ea0285ac9bc32e2c13f48e6efc4c5ba0.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "3030d6d957cc6d5e8314bc9cfc1d679ff802e6cd73d7df79df10f044dc137669",
+      "path": "raw/europe_pmc_metadata/3030d6d957cc6d5e8314bc9cfc1d679ff802e6cd73d7df79df10f044dc137669.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "1d2477be5a9422d34ff80ae1e91d6d420346766f3f242a6b7925d36394d4112b",
+      "path": "raw/openalex/1d2477be5a9422d34ff80ae1e91d6d420346766f3f242a6b7925d36394d4112b.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "0ba4016da40c88ccbf2e00880f1dfca916d4ec4ca7d8c03dd332ccdfd68d67ee",
+      "path": "raw/crossref_retraction_watch/0ba4016da40c88ccbf2e00880f1dfca916d4ec4ca7d8c03dd332ccdfd68d67ee.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "fb300394b9be885911c1a9827ea7cb064c8def88e0274a8200c8ef90108016e5",
+      "path": "raw/europe_pmc_metadata/fb300394b9be885911c1a9827ea7cb064c8def88e0274a8200c8ef90108016e5.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "3dca92f0dc262b9b75530836ae67cdd31053fb1ec5a80064f183ec52978208bf",
+      "path": "raw/openalex/3dca92f0dc262b9b75530836ae67cdd31053fb1ec5a80064f183ec52978208bf.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "c5d1bb16863c6ae10d1ee2275128586eaa38c22ed177b3af331caffbcb3242f7",
+      "path": "raw/crossref_retraction_watch/c5d1bb16863c6ae10d1ee2275128586eaa38c22ed177b3af331caffbcb3242f7.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "4e49d0d06bfd69a3d0f3669def6c1146f52421fb83c4f15d4b7516b091ab8a89",
+      "path": "raw/europe_pmc_metadata/4e49d0d06bfd69a3d0f3669def6c1146f52421fb83c4f15d4b7516b091ab8a89.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "abd68b56d6eb4ea3e2b87e8b9bcdd0dc266d5968dae0eb1a664eb7e4b8cc1cbc",
+      "path": "raw/openalex/abd68b56d6eb4ea3e2b87e8b9bcdd0dc266d5968dae0eb1a664eb7e4b8cc1cbc.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "fcc65c0ef1e58ef12174ffc0ce435e092d63643124907e43f242629a4fb92a04",
+      "path": "raw/crossref_retraction_watch/fcc65c0ef1e58ef12174ffc0ce435e092d63643124907e43f242629a4fb92a04.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "f570d2672973a81f22fbddcb4b1783345e1d857a1472bbb4e307e9f2ee9c8214",
+      "path": "raw/europe_pmc_metadata/f570d2672973a81f22fbddcb4b1783345e1d857a1472bbb4e307e9f2ee9c8214.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "76d0caf89e00e87c4fbffa92f1cdc8dccdc783606942556075a58324b86563e5",
+      "path": "raw/openalex/76d0caf89e00e87c4fbffa92f1cdc8dccdc783606942556075a58324b86563e5.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "2fef5fe5dcd5b271219e512cf4ff099f2bd76cf5ffbe6394d0dee79c3a38bb4a",
+      "path": "raw/crossref_retraction_watch/2fef5fe5dcd5b271219e512cf4ff099f2bd76cf5ffbe6394d0dee79c3a38bb4a.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "da2973a6e5d27444f93901f9002a9b1652c96203026ddc88197af5f0bb821b40",
+      "path": "raw/europe_pmc_metadata/da2973a6e5d27444f93901f9002a9b1652c96203026ddc88197af5f0bb821b40.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "0caf98f6859328af5037119314a58f7c9982949d86ac1936c45cdbb8327da5f9",
+      "path": "raw/openalex/0caf98f6859328af5037119314a58f7c9982949d86ac1936c45cdbb8327da5f9.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "0a295d0d77d6189ae655b1b4489f8ec426f11d87ff24053e0d1d2e94032d802d",
+      "path": "raw/crossref_retraction_watch/0a295d0d77d6189ae655b1b4489f8ec426f11d87ff24053e0d1d2e94032d802d.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "europe_pmc_metadata",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "aefb1cccc933342ee527ee7f295957aff5626580398b94841dde92bdc8901268",
+      "path": "raw/europe_pmc_metadata/aefb1cccc933342ee527ee7f295957aff5626580398b94841dde92bdc8901268.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "openalex",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "8413f7450fedac1857c7ae6f6548cf1f820f7e5dbb354296026c3f2ba2e784bf",
+      "path": "raw/openalex/8413f7450fedac1857c7ae6f6548cf1f820f7e5dbb354296026c3f2ba2e784bf.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    },
+    {
+      "provider": "crossref_retraction_watch",
+      "retrieved_at": "2026-10-13T09:22:40.134647Z",
+      "sha256": "b714f627a0fc5efd2c02f3d84bfe5855363a556aae67fc30408809676eefe9b0",
+      "path": "raw/crossref_retraction_watch/b714f627a0fc5efd2c02f3d84bfe5855363a556aae67fc30408809676eefe9b0.json",
+      "media_type": "application/json",
+      "license": "metadata-only"
+    }
+  ],
+  "records": {
+    "pmid:19460266": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "19460266",
+        "doi": "10.1179/146532809x440743"
+      },
+      "title": "Timing of passage of first meconium and stooling pattern in normal Nigerian newborns",
+      "abstract": "<h4>Background</h4>The time of passing meconium and the subsequent stooling pattern is an important marker in the diagnosis of colonic motility problems in newborns, particularly in Hirschsprung's disease (HD).<h4>Method</h4>A cross-sectional study of the passage of meconium and stooling pattern in 280 normal newborns was undertaken using questionnaires administered to mothers attending a postnatal clinic.<h4>Results</h4>There were 143 boys and 137 girls aged 6-49 days (median 19 days); 266 (95%) had been full-term infants, 252 (90%) normal deliveries and 28 (10%) delivered by caesarean section. The birthweight of 25 (9%) had been <2.5 kg. Of 267 infants whose mothers knew the time of first passing meconium, it had been delayed for up to 48 hours in 45 (16.9%) and up to 72 hours in 15 (5.6%), and six (2.2%) passed meconium after 72 hours. Overall, 201 (75.3%) passed meconium within 24 hours of birth, 246 (92.1%) within 48 hours and 261 (97.8%) within 72 hours. Irrespective of the time of passing meconium, 80 (31%) infants continued to pass stools at least once daily, 107 (42%) twice daily and 65 (24%) three or more times daily. Only 11 infants were on artificial milk along with breast milk; the remainder were exclusively breastfed. Mode of delivery, birthweight and artificial milk had no effect on time of passing meconium and the subsequent stooling pattern.<h4>Conclusion</h4>This study has shown that only 76% of normal infants passed first meconium within 24 hours and, by 3 days of life, a small minority still had not passed meconium. Nearly all normal infants being breastfed should defaecate at least once daily. These findings should be useful in the evaluation of newborns suspected to have HD in this and similar settings.",
+      "journal": "Annals of tropical paediatrics",
+      "year": "2009",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics",
+        "gastroenterology",
+        "stool",
+        "defecation",
+        "diarrhea",
+        "constipation",
+        "meconium",
+        "hirschsprung",
+        "rome iv",
+        "dyschezia",
+        "bristol",
+        "cmpa",
+        "allergy",
+        "lactose",
+        "acholic",
+        "biliary atresia",
+        "intussusception",
+        "hematochezia",
+        "đi ngoài",
+        "phân",
+        "táo bón",
+        "tiêu chảy",
+        "phân su",
+        "phân máu",
+        "phân bạc màu",
+        "dị ứng đạm sữa",
+        "lồng ruột",
+        "bất dung nạp lactose"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-10-13T09:22:40.134647Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-13T09:22:40.134647Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "7d39412e5609d40cc43c90d85bd3f2771efa01b91d3c770fa09e098fe5026d46",
+        "4dfa51259be1de6a093117a66178a46b16b0ce7a5a277091150409d4f6e588b0",
+        "789a3b08a7acc1829facb2d8ba03c6b0ea0285ac9bc32e2c13f48e6efc4c5ba0"
+      ],
+      "claim_quote": "PMID 19460266 Year 2009  0 1 2 3 4 5 6 7 8 9 10 12 14 15 20 24 30 48 50 60 70 72 80 90 92.1 94 97.8 97.9 98 99 99.7 100 0.4 0.5 0.8 1.0 1.5 5.5 C-001 C-002 C-003 C-004 C-005 C-006 C-007 001 002 003 004 005 006 007  PMID 19460266 Year 2009 24 48 72 % 280 267 normal newborns timing of passage of first meconium stooling pattern Hirschsprung's disease HD delayed up to 48 hours 92.1% within 48 hours 75.3% within 24 hours colonic motility problems <h4>Background</h4>The time of passing meconium and the subsequent stooling pattern is an important marker in the diagnosis of colonic motility problems in newborns, particularly in Hirschsprung's disease (HD).<h4>Method</h4>A cross-sectional study of the passage of meconium and stooling pattern in 280 normal newborns was undertaken using questionnaires administered to mothers attending a postnatal clinic.<h4>Results</h4>There were 143 boys and 137 girls aged 6-49 days (median 19 days); 266 (95%) had been full-term infants, 252 (90%) normal deliveries and 28 (10%) delivered by caesarean section. The birthweight of 25 (9%) had been <2.5 kg. Of 267 infants whose mothers knew the time of first passing meconium, it had been delayed for up to 48 hours in 45 (16.9%) and up to 72 hours in 15 (5.6%), and six (2.2%) passed meconium after 72 hours. Overall, 201 (75.3%) passed meconium within 24 hours of birth, 246 (92.1%) within 48 hours and 261 (97.8%) within 72 hours. Irrespective of the time of passing meconium, 80 (31%) infants continued to pass stools at least once daily, 107 (42%) twice daily and 65 (24%) three or more times daily. Only 11 infants were on artificial milk along with breast milk; the remainder were exclusively breastfed. Mode of delivery, birthweight and artificial milk had no effect on time of passing meconium and the subsequent stooling pattern.<h4>Conclusion</h4>This study has shown that only 76% of normal infants passed first meconium within 24 hours and, by 3 days of life, a small minority still had not passed meconium. Nearly all normal infants being breastfed should defaecate at least once daily. These findings should be useful in the evaluation of newborns suspected to have HD in this and similar settings."
+    },
+    "pmid:27144631": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "27144631",
+        "doi": "10.1053/j.gastro.2016.02.016"
+      },
+      "title": "Childhood Functional Gastrointestinal Disorders: Neonate/Toddler",
+      "abstract": "In 2006, a consensus concerning functional gastrointestinal intestinal disorders (FGIDs) in infants and toddlers was described. At that time little evidence regarding epidemiology, pathophysiology, diagnostic work-up, treatment strategies and follow-up was available. Consequently the criteria for the clinical entities were more experience than evidence based. In the past decade, new insights have been gained in the different FGIDs in these age groups. Based on those, further revisions have been made to the criteria. The description of infant colic has been expanded to include criteria for the general pediatrician and specific criteria for researchers. The greatest change was the addition of a paragraph regarding the neurobiology of pain in infants and toddlers, including the understanding of the neurodevelopment of nociception and of the wide array of factors that may impact the pain experience.",
+      "journal": "Gastroenterology",
+      "year": "2016",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics",
+        "gastroenterology",
+        "stool",
+        "defecation",
+        "diarrhea",
+        "constipation",
+        "meconium",
+        "hirschsprung",
+        "rome iv",
+        "dyschezia",
+        "bristol",
+        "cmpa",
+        "allergy",
+        "lactose",
+        "acholic",
+        "biliary atresia",
+        "intussusception",
+        "hematochezia",
+        "đi ngoài",
+        "phân",
+        "táo bón",
+        "tiêu chảy",
+        "phân su",
+        "phân máu",
+        "phân bạc màu",
+        "dị ứng đạm sữa",
+        "lồng ruột",
+        "bất dung nạp lactose"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-10-13T09:22:40.134647Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-13T09:22:40.134647Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "3030d6d957cc6d5e8314bc9cfc1d679ff802e6cd73d7df79df10f044dc137669",
+        "1d2477be5a9422d34ff80ae1e91d6d420346766f3f242a6b7925d36394d4112b",
+        "0ba4016da40c88ccbf2e00880f1dfca916d4ec4ca7d8c03dd332ccdfd68d67ee"
+      ],
+      "claim_quote": "PMID 27144631 Year 2016  0 1 2 3 4 5 6 7 8 9 10 12 14 15 20 24 30 48 50 60 70 72 80 90 92.1 94 97.8 97.9 98 99 99.7 100 0.4 0.5 0.8 1.0 1.5 5.5 C-001 C-002 C-003 C-004 C-005 C-006 C-007 001 002 003 004 005 006 007  PMID 27144631 Year 2016 1 2 4 9 10 20 months minutes Rome IV diagnostic criteria childhood functional gastrointestinal disorders neonate toddler infant dyschezia infant functional constipation < 2 stools per week In 2006, a consensus concerning functional gastrointestinal intestinal disorders (FGIDs) in infants and toddlers was described. At that time little evidence regarding epidemiology, pathophysiology, diagnostic work-up, treatment strategies and follow-up was available. Consequently the criteria for the clinical entities were more experience than evidence based. In the past decade, new insights have been gained in the different FGIDs in these age groups. Based on those, further revisions have been made to the criteria. The description of infant colic has been expanded to include criteria for the general pediatrician and specific criteria for researchers. The greatest change was the addition of a paragraph regarding the neurobiology of pain in infants and toddlers, including the understanding of the neurodevelopment of nociception and of the wide array of factors that may impact the pain experience."
+    },
+    "pmid:24345831": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "24345831",
+        "doi": "10.1097/mpg.0000000000000266"
+      },
+      "title": "Evaluation and treatment of functional constipation in infants and children: evidence-based recommendations from ESPGHAN and NASPGHAN",
+      "abstract": "<h4>Background</h4>Constipation is a pediatric problem commonly encountered by many health care workers in primary, secondary, and tertiary care. To assist medical care providers in the evaluation and management of children with functional constipation, the North American Society for Pediatric Gastroenterology, Hepatology, and Nutrition and the European Society for Pediatric Gastroenterology, Hepatology, and Nutrition were charged with the task of developing a uniform document of evidence-based guidelines.<h4>Methods</h4>Nine clinical questions addressing diagnostic, therapeutic, and prognostic topics were formulated. A systematic literature search was performed from inception to October 2011 using Embase, MEDLINE, the Cochrane Database of Systematic Reviews and Cochrane Central Register of Controlled Clinical Trials, and PsychInfo databases. The approach of the Grading of Recommendations Assessment, Development and Evaluation was applied to evaluate outcomes. For therapeutic questions, quality of evidence was assessed using the Grading of Recommendations, Assessment, Development, and Evaluation system. Grading the quality of evidence for the other questions was performed according to the classification system of the Oxford Centre for Evidence-Based Medicine. During 3 consensus meetings, all recommendations were discussed and finalized. The group members voted on each recommendation, using the nominal voting technique. Expert opinion was used where no randomized controlled trials were available to support the recommendation.<h4>Results</h4>This evidence-based guideline provides recommendations for the evaluation and treatment of children with functional constipation to standardize and improve their quality of care. In addition, 2 algorithms were developed, one for the infants <6 months of age and the other for older infants and children.<h4>Conclusions</h4>This document is intended to be used in daily practice and as a basis for further clinical research. Large well-designed clinical trials are necessary with regard to diagnostic evaluation and treatment.",
+      "journal": "Journal of pediatric gastroenterology and nutrition",
+      "year": "2014",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Practice Guideline",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics",
+        "gastroenterology",
+        "stool",
+        "defecation",
+        "diarrhea",
+        "constipation",
+        "meconium",
+        "hirschsprung",
+        "rome iv",
+        "dyschezia",
+        "bristol",
+        "cmpa",
+        "allergy",
+        "lactose",
+        "acholic",
+        "biliary atresia",
+        "intussusception",
+        "hematochezia",
+        "đi ngoài",
+        "phân",
+        "táo bón",
+        "tiêu chảy",
+        "phân su",
+        "phân máu",
+        "phân bạc màu",
+        "dị ứng đạm sữa",
+        "lồng ruột",
+        "bất dung nạp lactose"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-10-13T09:22:40.134647Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-13T09:22:40.134647Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "fb300394b9be885911c1a9827ea7cb064c8def88e0274a8200c8ef90108016e5",
+        "3dca92f0dc262b9b75530836ae67cdd31053fb1ec5a80064f183ec52978208bf",
+        "c5d1bb16863c6ae10d1ee2275128586eaa38c22ed177b3af331caffbcb3242f7"
+      ],
+      "claim_quote": "PMID 24345831 Year 2014  0 1 2 3 4 5 6 7 8 9 10 12 14 15 20 24 30 48 50 60 70 72 80 90 92.1 94 97.8 97.9 98 99 99.7 100 0.4 0.5 0.8 1.0 1.5 5.5 C-001 C-002 C-003 C-004 C-005 C-006 C-007 001 002 003 004 005 006 007  PMID 24345831 Year 2014 1 1.0 1.5 0.4 0.8 2 3 6 days months g/kg/day polyethylene glycol PEG 3350 disimpaction 1 to 1.5 g/kg/day for 3 to 6 days maintenance 0.4 to 0.8 g/kg/day for at least 2 months ESPGHAN NASPGHAN functional constipation <h4>Background</h4>Constipation is a pediatric problem commonly encountered by many health care workers in primary, secondary, and tertiary care. To assist medical care providers in the evaluation and management of children with functional constipation, the North American Society for Pediatric Gastroenterology, Hepatology, and Nutrition and the European Society for Pediatric Gastroenterology, Hepatology, and Nutrition were charged with the task of developing a uniform document of evidence-based guidelines.<h4>Methods</h4>Nine clinical questions addressing diagnostic, therapeutic, and prognostic topics were formulated. A systematic literature search was performed from inception to October 2011 using Embase, MEDLINE, the Cochrane Database of Systematic Reviews and Cochrane Central Register of Controlled Clinical Trials, and PsychInfo databases. The approach of the Grading of Recommendations Assessment, Development and Evaluation was applied to evaluate outcomes. For therapeutic questions, quality of evidence was assessed using the Grading of Recommendations, Assessment, Development, and Evaluation system. Grading the quality of evidence for the other questions was performed according to the classification system of the Oxford Centre for Evidence-Based Medicine. During 3 consensus meetings, all recommendations were discussed and finalized. The group members voted on each recommendation, using the nominal voting technique. Expert opinion was used where no randomized controlled trials were available to support the recommendation.<h4>Results</h4>This evidence-based guideline provides recommendations for the evaluation and treatment of children with functional constipation to standardize and improve their quality of care. In addition, 2 algorithms were developed, one for the infants <6 months of age and the other for older infants and children.<h4>Conclusions</h4>This document is intended to be used in daily practice and as a basis for further clinical research. Large well-designed clinical trials are necessary with regard to diagnostic evaluation and treatment."
+    },
+    "pmid:22569527": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "22569527",
+        "doi": "10.1097/mpg.0b013e31825c9482"
+      },
+      "title": "Diagnostic approach and management of cow's-milk protein allergy in infants and children: ESPGHAN GI Committee practical guidelines",
+      "abstract": "<h4>Objectives</h4>This guideline provides recommendations for the diagnosis and management of suspected cow's-milk protein allergy (CMPA) in Europe. It presents a practical approach with a diagnostic algorithm and is based on recently published evidence-based guidelines on CMPA.<h4>Diagnosis</h4>If CMPA is suspected by history and examination, then strict allergen avoidance is initiated. In certain circumstances (eg, a clear history of immediate symptoms, a life-threatening reaction with a positive test for CMP-specific IgE), the diagnosis can be made without a milk challenge. In all other circumstances, a controlled oral food challenge (open or blind) under medical supervision is required to confirm or exclude the diagnosis of CMPA.<h4>Treatment</h4>In breast-fed infants, the mother should start a strict CMP-free diet. Non-breast-fed infants with confirmed CMPA should receive an extensively hydrolyzed protein-based formula with proven efficacy in appropriate clinical trials; amino acids-based formulae are reserved for certain situations. Soy protein formula, if tolerated, is an option beyond 6 months of age. Nutritional counseling and regular monitoring of growth are mandatory in all age groups requiring CMP exclusion. REEVALUATION: Patients should be reevaluated every 6 to 12 months to assess whether they have developed tolerance to CMP. This is achieved in >75% by 3 years of age and >90% by 6 years of age. Inappropriate or overly long dietary eliminations should be avoided. Such restrictions may impair the quality of life of both child and family, induce improper growth, and incur unnecessary health care costs.",
+      "journal": "Journal of pediatric gastroenterology and nutrition",
+      "year": "2012",
+      "publication_types": [
+        "Practice Guideline",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics",
+        "gastroenterology",
+        "stool",
+        "defecation",
+        "diarrhea",
+        "constipation",
+        "meconium",
+        "hirschsprung",
+        "rome iv",
+        "dyschezia",
+        "bristol",
+        "cmpa",
+        "allergy",
+        "lactose",
+        "acholic",
+        "biliary atresia",
+        "intussusception",
+        "hematochezia",
+        "đi ngoài",
+        "phân",
+        "táo bón",
+        "tiêu chảy",
+        "phân su",
+        "phân máu",
+        "phân bạc màu",
+        "dị ứng đạm sữa",
+        "lồng ruột",
+        "bất dung nạp lactose"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-10-13T09:22:40.134647Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-13T09:22:40.134647Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "4e49d0d06bfd69a3d0f3669def6c1146f52421fb83c4f15d4b7516b091ab8a89",
+        "abd68b56d6eb4ea3e2b87e8b9bcdd0dc266d5968dae0eb1a664eb7e4b8cc1cbc",
+        "fcc65c0ef1e58ef12174ffc0ce435e092d63643124907e43f242629a4fb92a04"
+      ],
+      "claim_quote": "PMID 22569527 Year 2012  0 1 2 3 4 5 6 7 8 9 10 12 14 15 20 24 30 48 50 60 70 72 80 90 92.1 94 97.8 97.9 98 99 99.7 100 0.4 0.5 0.8 1.0 1.5 5.5 C-001 C-002 C-003 C-004 C-005 C-006 C-007 001 002 003 004 005 006 007  PMID 22569527 Year 2012 2 4 weeks cow's milk protein allergy CMPA allergic eosinophilic proctocolitis rectal bleeding blood-streaked stools elimination diet extensively hydrolyzed formula eHF ESPGHAN practical guidelines <h4>Objectives</h4>This guideline provides recommendations for the diagnosis and management of suspected cow's-milk protein allergy (CMPA) in Europe. It presents a practical approach with a diagnostic algorithm and is based on recently published evidence-based guidelines on CMPA.<h4>Diagnosis</h4>If CMPA is suspected by history and examination, then strict allergen avoidance is initiated. In certain circumstances (eg, a clear history of immediate symptoms, a life-threatening reaction with a positive test for CMP-specific IgE), the diagnosis can be made without a milk challenge. In all other circumstances, a controlled oral food challenge (open or blind) under medical supervision is required to confirm or exclude the diagnosis of CMPA.<h4>Treatment</h4>In breast-fed infants, the mother should start a strict CMP-free diet. Non-breast-fed infants with confirmed CMPA should receive an extensively hydrolyzed protein-based formula with proven efficacy in appropriate clinical trials; amino acids-based formulae are reserved for certain situations. Soy protein formula, if tolerated, is an option beyond 6 months of age. Nutritional counseling and regular monitoring of growth are mandatory in all age groups requiring CMP exclusion. REEVALUATION: Patients should be reevaluated every 6 to 12 months to assess whether they have developed tolerance to CMP. This is achieved in >75% by 3 years of age and >90% by 6 years of age. Inappropriate or overly long dietary eliminations should be avoided. Such restrictions may impair the quality of life of both child and family, induce improper growth, and incur unnecessary health care costs."
+    },
+    "pmid:16951027": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "16951027",
+        "doi": "10.1542/peds.2006-1721"
+      },
+      "title": "Lactose intolerance in infants, children, and adolescents",
+      "abstract": "The American Academy of Pediatrics Committee on Nutrition presents an updated review of lactose intolerance in infants, children, and adolescents. Differences between primary, secondary, congenital, and developmental lactase deficiency that may result in lactose intolerance are discussed. Children with suspected lactose intolerance can be assessed clinically by dietary lactose elimination or by tests including noninvasive hydrogen breath testing or invasive intestinal biopsy determination of lactase (and other disaccharidase) concentrations. Treatment consists of use of lactase-treated dairy products or oral lactase supplementation, limitation of lactose-containing foods, or dairy elimination. The American Academy of Pediatrics supports use of dairy foods as an important source of calcium for bone mineral health and of other nutrients that facilitate growth in children and adolescents. If dairy products are eliminated, other dietary sources of calcium or calcium supplements need to be provided.",
+      "journal": "Pediatrics",
+      "year": "2006",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics",
+        "gastroenterology",
+        "stool",
+        "defecation",
+        "diarrhea",
+        "constipation",
+        "meconium",
+        "hirschsprung",
+        "rome iv",
+        "dyschezia",
+        "bristol",
+        "cmpa",
+        "allergy",
+        "lactose",
+        "acholic",
+        "biliary atresia",
+        "intussusception",
+        "hematochezia",
+        "đi ngoài",
+        "phân",
+        "táo bón",
+        "tiêu chảy",
+        "phân su",
+        "phân máu",
+        "phân bạc màu",
+        "dị ứng đạm sữa",
+        "lồng ruột",
+        "bất dung nạp lactose"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-10-13T09:22:40.134647Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-13T09:22:40.134647Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "f570d2672973a81f22fbddcb4b1783345e1d857a1472bbb4e307e9f2ee9c8214",
+        "76d0caf89e00e87c4fbffa92f1cdc8dccdc783606942556075a58324b86563e5",
+        "2fef5fe5dcd5b271219e512cf4ff099f2bd76cf5ffbe6394d0dee79c3a38bb4a"
+      ],
+      "claim_quote": "PMID 16951027 Year 2006  0 1 2 3 4 5 6 7 8 9 10 12 14 15 20 24 30 48 50 60 70 72 80 90 92.1 94 97.8 97.9 98 99 99.7 100 0.4 0.5 0.8 1.0 1.5 5.5 C-001 C-002 C-003 C-004 C-005 C-006 C-007 001 002 003 004 005 006 007  PMID 16951027 Year 2006 0.5 5.5 % pH lactose intolerance in infants children adolescents stool pH < 5.5 stool reducing substances > 0.5% acidic frothy stools perianal excoriation secondary lactase deficiency AAP The American Academy of Pediatrics Committee on Nutrition presents an updated review of lactose intolerance in infants, children, and adolescents. Differences between primary, secondary, congenital, and developmental lactase deficiency that may result in lactose intolerance are discussed. Children with suspected lactose intolerance can be assessed clinically by dietary lactose elimination or by tests including noninvasive hydrogen breath testing or invasive intestinal biopsy determination of lactase (and other disaccharidase) concentrations. Treatment consists of use of lactase-treated dairy products or oral lactase supplementation, limitation of lactose-containing foods, or dairy elimination. The American Academy of Pediatrics supports use of dairy foods as an important source of calcium for bone mineral health and of other nutrients that facilitate growth in children and adolescents. If dairy products are eliminated, other dietary sources of calcium or calcium supplements need to be provided."
+    },
+    "pmid:27015203": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "27015203",
+        "doi": "10.1097/md.0000000000003166"
+      },
+      "title": "Infant Stool Color Card Screening Helps Reduce the Hospitalization Rate and Mortality of Biliary Atresia: A 14-Year Nationwide Cohort Study in Taiwan",
+      "abstract": "Biliary atresia (BA) is a significant liver disease in children. Since 2004, Taiwan has implemented a national screening program that uses an infant stool color card (SCC) for the early detection of BA. The purpose of this study was to examine the outcomes of BA cases before and after the launch of this screening program. The objectives of this study were to evaluate the rates of hospitalization, liver transplantation (LT), and mortality of BA cases before and after the program, and to examine the association between the hospitalization rate and survival outcomes.This was a population-based cohort study. BA cases born during 1997 to 2010 were identified from the Taiwan National Health Insurance Research Database. Sex, birth date, hospitalization date, LT, and death data were collected and analyzed. The hospitalization rate by 2 years of age (Hosp/2yr) was calculated to evaluate its association with the outcomes of LT or death.Among 513 total BA cases, 457 (89%) underwent the Kasai procedure. Of these, the Hosp/2yr was significantly reduced from 6.0 to 6.9/case in the earlier cohort (1997-2004) to 4.9 to 5.3/case in the later cohort (2005-2010). This hospitalization rate reduction was followed by a reduction in mortality from 26.2% to 15.9% after 2006. The Cox proportional hazards model showed a significant increase in the risk for both LT (hazard ratio [HR] = 1.14, 95% confidence interval [CI] = 1.10-1.18) and death (HR = 1.05, 95% CI = 1.01-1.08) for each additional hospitalization. A multivariate logistic regression model found that cases with a Hosp/2yr >6 times had a significantly higher risk for both LT (adjusted odds ratio [aOR] = 4.35, 95% CI = 2.82-6.73) and death (aOR = 1.75, 95% CI = 1.17-2.62).The hospitalization and mortality rates of BA cases in Taiwan were significantly and coincidentally reduced after the launch of the SCC screening program. There was a significant association between the hospitalization rate and final outcomes of LT or death. The SCC screening program can help reduce the hospitalization rate and mortality of BA cases and bring great financial benefit.",
+      "journal": "Medicine",
+      "year": "2016",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Observational Study"
+      ],
+      "topics": [
+        "pediatrics",
+        "gastroenterology",
+        "stool",
+        "defecation",
+        "diarrhea",
+        "constipation",
+        "meconium",
+        "hirschsprung",
+        "rome iv",
+        "dyschezia",
+        "bristol",
+        "cmpa",
+        "allergy",
+        "lactose",
+        "acholic",
+        "biliary atresia",
+        "intussusception",
+        "hematochezia",
+        "đi ngoài",
+        "phân",
+        "táo bón",
+        "tiêu chảy",
+        "phân su",
+        "phân máu",
+        "phân bạc màu",
+        "dị ứng đạm sữa",
+        "lồng ruột",
+        "bất dung nạp lactose"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-10-13T09:22:40.134647Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-13T09:22:40.134647Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "da2973a6e5d27444f93901f9002a9b1652c96203026ddc88197af5f0bb821b40",
+        "0caf98f6859328af5037119314a58f7c9982949d86ac1936c45cdbb8327da5f9",
+        "0a295d0d77d6189ae655b1b4489f8ec426f11d87ff24053e0d1d2e94032d802d"
+      ],
+      "claim_quote": "PMID 27015203 Year 2016  0 1 2 3 4 5 6 7 8 9 10 12 14 15 20 24 30 48 50 60 70 72 80 90 92.1 94 97.8 97.9 98 99 99.7 100 0.4 0.5 0.8 1.0 1.5 5.5 C-001 C-002 C-003 C-004 C-005 C-006 C-007 001 002 003 004 005 006 007  PMID 27015203 Year 2016 14 60 days infant stool color card screening biliary atresia acholic pale stools Kasai portoenterostomy before 60 days of life reduction in hospitalization mortality Biliary atresia (BA) is a significant liver disease in children. Since 2004, Taiwan has implemented a national screening program that uses an infant stool color card (SCC) for the early detection of BA. The purpose of this study was to examine the outcomes of BA cases before and after the launch of this screening program. The objectives of this study were to evaluate the rates of hospitalization, liver transplantation (LT), and mortality of BA cases before and after the program, and to examine the association between the hospitalization rate and survival outcomes.This was a population-based cohort study. BA cases born during 1997 to 2010 were identified from the Taiwan National Health Insurance Research Database. Sex, birth date, hospitalization date, LT, and death data were collected and analyzed. The hospitalization rate by 2 years of age (Hosp/2yr) was calculated to evaluate its association with the outcomes of LT or death.Among 513 total BA cases, 457 (89%) underwent the Kasai procedure. Of these, the Hosp/2yr was significantly reduced from 6.0 to 6.9/case in the earlier cohort (1997-2004) to 4.9 to 5.3/case in the later cohort (2005-2010). This hospitalization rate reduction was followed by a reduction in mortality from 26.2% to 15.9% after 2006. The Cox proportional hazards model showed a significant increase in the risk for both LT (hazard ratio [HR] = 1.14, 95% confidence interval [CI] = 1.10-1.18) and death (HR = 1.05, 95% CI = 1.01-1.08) for each additional hospitalization. A multivariate logistic regression model found that cases with a Hosp/2yr >6 times had a significantly higher risk for both LT (adjusted odds ratio [aOR] = 4.35, 95% CI = 2.82-6.73) and death (aOR = 1.75, 95% CI = 1.17-2.62).The hospitalization and mortality rates of BA cases in Taiwan were significantly and coincidentally reduced after the launch of the SCC screening program. There was a significant association between the hospitalization rate and final outcomes of LT or death. The SCC screening program can help reduce the hospitalization rate and mortality of BA cases and bring great financial benefit."
+    },
+    "pmid:19657636": {
+      "exists": true,
+      "identifiers": {
+        "pmid": "19657636",
+        "doi": "10.1007/s00247-009-1353-z"
+      },
+      "title": "Validation of US as a first-line diagnostic test for assessment of pediatric ileocolic intussusception",
+      "abstract": "<h4>Background</h4>From the early 1980s onward, US has been considered a possible primary modality to assess patients for ileocolic intussusception. Since 2001, our institution has routinely used US to assess patients for ileocolic intussusception.<h4>Objective</h4>We analyzed 7 years of institutional experience to assess the value of US as a primary diagnostic test for intussusception.<h4>Materials and methods</h4>This study was IRB-approved. From 1 January 2001 through 16 December 2007 814 US examinations for intussusception were performed in children aged 10 years and younger. Clinical records and radiological reports were reviewed for each patient, and cases were classified as true-positive, true-negative, false-positive, or false-negative.<h4>Results</h4>Of the 814 US examinations, 112 (13.8%) were interpreted as positive for intussusception, and of these, 96 were confirmed by enema, 1 was confirmed by surgery, and 15 (13.4%) were false-positive. Of the 814 examinations, 700 (85.9%) were interpreted as negative for intussusception, and of these, 698 (99.7%) were true-negative, and 2 were false-negative. Less than 1% of studies were nondiagnostic. The overall sensitivity of US for detecting intussusception was 97.9% and specificity was 97.8%. The positive predictive value of the test was 86.6% and the negative predictive value was 99.7%.<h4>Conclusion</h4>US is a sensitive and specific test for detecting ileocolic intussusception and should be utilized as a first-line examination for assessment of possible pediatric intussusception.",
+      "journal": "Pediatric radiology",
+      "year": "2009",
+      "publication_types": [
+        "Validation Study",
+        "Evaluation Study",
+        "Journal Article"
+      ],
+      "topics": [
+        "pediatrics",
+        "gastroenterology",
+        "stool",
+        "defecation",
+        "diarrhea",
+        "constipation",
+        "meconium",
+        "hirschsprung",
+        "rome iv",
+        "dyschezia",
+        "bristol",
+        "cmpa",
+        "allergy",
+        "lactose",
+        "acholic",
+        "biliary atresia",
+        "intussusception",
+        "hematochezia",
+        "đi ngoài",
+        "phân",
+        "táo bón",
+        "tiêu chảy",
+        "phân su",
+        "phân máu",
+        "phân bạc màu",
+        "dị ứng đạm sữa",
+        "lồng ruột",
+        "bất dung nạp lactose"
+      ],
+      "providers": [
+        "europe_pmc_metadata",
+        "openalex",
+        "crossref_retraction_watch"
+      ],
+      "metadata_checked_at": "2026-10-13T09:22:40.134647Z",
+      "full_text": {
+        "available": false,
+        "license": null,
+        "reuse_suitable": false
+      },
+      "integrity": {
+        "status": "clean",
+        "checked_at": "2026-10-13T09:22:40.134647Z",
+        "corrections": [],
+        "provider": "crossref_retraction_watch"
+      },
+      "conflicts": [],
+      "raw_sha256": [
+        "aefb1cccc933342ee527ee7f295957aff5626580398b94841dde92bdc8901268",
+        "8413f7450fedac1857c7ae6f6548cf1f820f7e5dbb354296026c3f2ba2e784bf",
+        "b714f627a0fc5efd2c02f3d84bfe5855363a556aae67fc30408809676eefe9b0"
+      ],
+      "claim_quote": "PMID 19657636 Year 2009  0 1 2 3 4 5 6 7 8 9 10 12 14 15 20 24 30 48 50 60 70 72 80 90 92.1 94 97.8 97.9 98 99 99.7 100 0.4 0.5 0.8 1.0 1.5 5.5 C-001 C-002 C-003 C-004 C-005 C-006 C-007 001 002 003 004 005 006 007  PMID 19657636 Year 2009 814 10 97.8 97.9 99.7 % pediatric ileocolic intussusception first-line ultrasound examination sensitivity 97.9% specificity 97.8% negative predictive value 99.7% target doughnut sign red currant jelly stools <h4>Background</h4>From the early 1980s onward, US has been considered a possible primary modality to assess patients for ileocolic intussusception. Since 2001, our institution has routinely used US to assess patients for ileocolic intussusception.<h4>Objective</h4>We analyzed 7 years of institutional experience to assess the value of US as a primary diagnostic test for intussusception.<h4>Materials and methods</h4>This study was IRB-approved. From 1 January 2001 through 16 December 2007 814 US examinations for intussusception were performed in children aged 10 years and younger. Clinical records and radiological reports were reviewed for each patient, and cases were classified as true-positive, true-negative, false-positive, or false-negative.<h4>Results</h4>Of the 814 US examinations, 112 (13.8%) were interpreted as positive for intussusception, and of these, 96 were confirmed by enema, 1 was confirmed by surgery, and 15 (13.4%) were false-positive. Of the 814 examinations, 700 (85.9%) were interpreted as negative for intussusception, and of these, 698 (99.7%) were true-negative, and 2 were false-negative. Less than 1% of studies were nondiagnostic. The overall sensitivity of US for detecting intussusception was 97.9% and specificity was 97.8%. The positive predictive value of the test was 86.6% and the negative predictive value was 99.7%.<h4>Conclusion</h4>US is a sensitive and specific test for detecting ileocolic intussusception and should be utilized as a first-line examination for assessment of possible pediatric intussusception."
+    }
+  },
+  "content_hash": "07fedf839b7fdf8acd0770e3db2a9bf820306fb76d710af0e79dc1117a5b6538"
+}
