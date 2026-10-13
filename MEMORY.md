@@ -549,6 +549,35 @@ Type: workflow
 **Output convention**: PPTX là optional deliverable, chỉ tạo khi user yêu cầu; lưu cùng lesson folder dưới `Bai hoc y khoa/`, không ghi root/C:.
 
 ---
+<a id="cloudflare-pages-deployment"></a>
+### Cloudflare Pages Deployment cho HungMed / MedViewer (2026-10-13)
+
+**Type**: Infrastructure & Deployment Workflow
+
+**Production URL**: `https://dvnhmed.pages.dev`  
+- Mobile: `https://dvnhmed.pages.dev/mobile.html` (Dark/Light mode, touch-friendly UI).  
+- Desktop: `https://dvnhmed.pages.dev/app.html` (HungMed 3-column clinical reference reader).  
+- Thư mục nguồn web: `Bai hoc y khoa/12_Nhi khoa/`.  
+
+**Bẫy giao diện Cloudflare (Pitfall quan trọng):**
+- Giao diện mới gộp chung **Workers & Pages**. Bấm "Create application" rồi chọn "Continue with GitHub" mặc định tạo **Worker** (chạy backend script, lệnh `npx wrangler deploy`), không có cài đặt static web.
+- Để tạo Pages: Phải bấm link đáy *"Need to use the legacy Pages workflow? Continue to Pages"* hoặc truy cập trực tiếp `/workers-and-pages/create/pages`.
+- Cài đặt Pages:
+  - **Framework preset**: `None`
+  - **Root directory (advanced)**: `Bai hoc y khoa/12_Nhi khoa` (TUYỆT ĐỐI không có dấu gạch chéo `/` ở đầu vì UI đã có icon `/`, gõ `/...` sẽ gây lỗi `Failed: root directory not found`).
+  - **Build command**: để trống
+  - **Build output directory**: `/`
+
+**Cache invalidation (`_headers`):**
+- File `Bai hoc y khoa/12_Nhi khoa/_headers` cấu hình `Cache-Control: public, max-age=0, must-revalidate` cho `data.js`, `CATALOG_PED_VIEWER.json`, `*.html` để người dùng không bị dính cache cũ khi có bài mới.
+
+**CI/CD Workflow cập nhật bài học:**
+1. Cập nhật bài học / data: `python build_unified_med_library.py`
+2. Push GitHub: `git add . && git commit -m "..." && git push origin main`
+3. Cloudflare Pages tự động trigger build và live sau 15-20 giây.
+
+---
+
 
 <a id="pitfalls"></a>
 ### Pitfalls đã gặp (ngoài các mục trên)

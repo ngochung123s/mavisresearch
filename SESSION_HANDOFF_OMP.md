@@ -51,3 +51,41 @@
   3. *Dictation Typing*: Word Runner chuẩn MonkeyType, tương thích 100% bộ gõ Telex/VNI Unikey, kèm chọn mục nhỏ (chunking 50-150 từ) và đo WPM/Accuracy.
   4. *Bareme Matcher*: Bấm đề thi gợi ý, tự gõ bài làm, máy tự chấm điểm /10 theo từ khóa, số liệu và từ điển đồng nghĩa y khoa.
 - Toàn bộ source code app và thư viện đã được commit và push lên GitHub repo `ngochung123s/mavisresearch` (Commit `15b433e`).
+
+---
+
+## 3. HungMed Portal (MedViewer) & Cloudflare Pages CI/CD Deployment (2026-10-13)
+
+### A. Thông tin Trang Web Chính thức
+- **Tên cổng thông tin:** HungMed · Sổ Tay Lâm Sàng Nhi - Sản | BS. Đỗ Văn Ngọc Hưng
+- **URL gốc:** `https://dvnhmed.pages.dev` (tự động điều hướng theo User Agent thiết bị)
+- **Bản Điện thoại (Mobile):** `https://dvnhmed.pages.dev/mobile.html`
+  - Hỗ trợ đầy đủ chế độ Sáng / Tối (Dark / Light Mode) lưu trạng thái qua `localStorage`.
+  - Drawer menu bài học, touch targets chuẩn $\ge 44\text{px}$, typography tối ưu đọc lâm sàng.
+- **Bản Máy tính (Desktop):** `https://dvnhmed.pages.dev/app.html`
+  - Giao diện 3 cột tra cứu nhanh: Danh mục bài học - Nội dung toàn văn - Tóm tắt lâm sàng & Hình ảnh chứng cứ.
+- **Thư mục mã nguồn Web:** `Bai hoc y khoa/12_Nhi khoa/`
+
+### B. Cấu hình Chuẩn Cloudflare Pages
+- **GitHub Repository:** `ngochung123s/mavisresearch` (Branch `main`)
+- **Project Name:** `dvnhmed`
+- **Framework preset:** `None`
+- **Root directory (Advanced):** `Bai hoc y khoa/12_Nhi khoa` (*Lưu ý: Không có dấu gạch chéo `/` ở đầu*).
+- **Build command:** *(Để trống)*
+- **Build output directory:** `/`
+- **Cache Control (`_headers`):** Đã cấu hình `Cache-Control: public, max-age=0, must-revalidate` cho `data.js`, `CATALOG_PED_VIEWER.json`, `*.html` để không bị lưu cache cứng khi cập nhật bài học mới.
+
+### C. Quy trình Tự động Cập nhật Bài học Mới (CI/CD Workflow)
+1. Viết bài / bổ sung ca lâm sàng / cập nhật dữ liệu trong `Bai hoc y khoa/`.
+2. Cập nhật thư viện và build file dữ liệu:
+   ```bash
+   cd "F:/DL/mavisresearch/Bai hoc y khoa/12_Nhi khoa"
+   python build_unified_med_library.py
+   ```
+3. Đẩy lên GitHub:
+   ```bash
+   git add .
+   git commit -m "feat(ped): cap nhat bai hoc moi"
+   git push origin main
+   ```
+4. Cloudflare Pages tự động kéo bản mới nhất và cập nhật trang web sau ~15-20 giây.
