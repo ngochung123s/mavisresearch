@@ -640,7 +640,7 @@
 </div>
 
 <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
-<script src="data.js?v=20261013_165828"></script>
+<script src="data.js?v=20261013_215500"></script>
 
 <!-- APPLICATION SCRIPT LOGIC -->
 <script>
@@ -1101,26 +1101,26 @@
       singleBody.classList.remove('hidden');
       splitWrap.classList.add('hidden');
       tocSourceMd = lesson.content || '';
-      singleBody.innerHTML = parseMarkdownWithKaTeX(lesson.content || '# Đang cập nhật...', lesson.id, false);
+      singleBody.innerHTML = parseMarkdownWithKaTeX(lesson.content || '# Đang cập nhật...', lesson.id, false, lesson.folder_rel);
     } else {
       if (currentViewMode === 'split') {
         singleBody.classList.add('hidden');
         splitWrap.classList.remove('hidden');
         splitWrap.classList.add('grid');
         tocSourceMd = lesson.ped_content || '';
-        document.getElementById('splitPedBody').innerHTML = parseMarkdownWithKaTeX(lesson.ped_content || '> Chưa có bài PED chuẩn', lesson.id, false);
-        document.getElementById('splitYtbBody').innerHTML = parseMarkdownWithKaTeX(lesson.pedytb_content || '> Chưa có sách YTB', lesson.id, true);
+        document.getElementById('splitPedBody').innerHTML = parseMarkdownWithKaTeX(lesson.ped_content || '> Chưa có bài PED chuẩn', lesson.id, false, lesson.folder_rel);
+        document.getElementById('splitYtbBody').innerHTML = parseMarkdownWithKaTeX(lesson.pedytb_content || '> Chưa có sách YTB', lesson.id, true, lesson.folder_rel);
       } else if (currentViewMode === 'pedytb') {
         singleBody.classList.remove('hidden');
         splitWrap.classList.add('hidden');
         tocSourceMd = lesson.pedytb_content || '';
         isSecondary = true;
-        singleBody.innerHTML = parseMarkdownWithKaTeX(lesson.pedytb_content || '> Chưa có bản sách Y Thái Bình', lesson.id, true);
+        singleBody.innerHTML = parseMarkdownWithKaTeX(lesson.pedytb_content || '> Chưa có bản sách Y Thái Bình', lesson.id, true, lesson.folder_rel);
       } else {
         singleBody.classList.remove('hidden');
         splitWrap.classList.add('hidden');
         tocSourceMd = lesson.ped_content || lesson.content || '';
-        singleBody.innerHTML = parseMarkdownWithKaTeX(lesson.ped_content || lesson.content || '> Đang biên soạn...', lesson.id, false);
+        singleBody.innerHTML = parseMarkdownWithKaTeX(lesson.ped_content || lesson.content || '> Đang biên soạn...', lesson.id, false, lesson.folder_rel);
       }
     }
 
@@ -1148,9 +1148,26 @@
       .replace(/\n/g, '<br>');
   }
 
-  function parseMarkdownWithKaTeX(content, lessonId, isSecondary) {
+  function parseMarkdownWithKaTeX(content, lessonId, isSecondary, folderRel) {
     let text = (content || '').trimStart().replace(/^---\s*[\r\n]+[\s\S]*?[\r\n]+---\s*[\r\n]*/, '');
     if (!text) return '<p class="text-[var(--text-muted)]">Chưa có nội dung bài giảng.</p>';
+
+    // Chuẩn hóa đường dẫn tương đối của ảnh theo folder_rel của bài học
+    if (folderRel) {
+      const cleanFolder = folderRel.replace(/\/+$/, '');
+      text = text.replace(/!\[(.*?)\]\(((?!https?:\/\/|\/|data:)(?:\.\/)?([^)]+))\)/g, (match, alt, fullSrc, cleanSrc) => {
+        if (!cleanSrc.startsWith(cleanFolder)) {
+          return `![${alt}](${cleanFolder}/${cleanSrc.replace(/^\.\//, '')})`;
+        }
+        return match;
+      });
+      text = text.replace(/<img\s+([^>]*?)src=["']((?!https?:\/\/|\/|data:)(?:\.\/)?([^"']+))["']([^>]*?)>/gi, (match, pre, fullSrc, cleanSrc, post) => {
+        if (!cleanSrc.startsWith(cleanFolder)) {
+          return `<img ${pre}src="${cleanFolder}/${cleanSrc.replace(/^\.\//, '')}"${post}>`;
+        }
+        return match;
+      });
+    }
 
     // Page banner
     text = text.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
@@ -1540,13 +1557,21 @@
       const reader = new FileReader();
       reader.onload = (evt) => {
         const text = evt.target.result;
+        const pedMatch = file.name.match(/PED-\d+[a-z]?/i);
+        let foundFolder = null;
+        if (pedMatch) {
+          const matchId = pedMatch[0].toUpperCase();
+          const pLesson = (getUnifiedData().ped || []).find(l => l.id === matchId);
+          if (pLesson && pLesson.folder_rel) foundFolder = pLesson.folder_rel;
+        }
         const fakeLesson = {
-          id: 'FILE',
+          id: pedMatch ? pedMatch[0].toUpperCase() : 'FILE',
           title: file.name,
           block: 'Tệp nạp ngoài',
           chapter: 'Tệp nạp ngoài',
           content: text,
-          ped_content: text
+          ped_content: text,
+          folder_rel: foundFolder
         };
         selectLessonDirect(fakeLesson);
       };
@@ -1562,7 +1587,7 @@
     document.getElementById('breadcrumbText').textContent = `Tệp nạp ngoài › ${lesson.id}`;
     document.getElementById('priorityChip').classList.add('hidden');
     document.getElementById('keyChipsContainer').classList.add('hidden');
-    document.getElementById('singleArticleBody').innerHTML = parseMarkdownWithKaTeX(lesson.content, lesson.id, false);
+    document.getElementById('singleArticleBody').innerHTML = parseMarkdownWithKaTeX(lesson.content, lesson.id, false, lesson.folder_rel);
   }
 
   async function forceSyncCloud() {

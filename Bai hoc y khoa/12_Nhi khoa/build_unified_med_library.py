@@ -24,6 +24,31 @@ def strip_frontmatter(text: str) -> str:
         return re.sub(r"^---\s*[\r\n]+[\s\S]*?[\r\n]+---\s*[\r\n]*", "", cleaned)
     return text
 
+def normalize_image_paths(md_text: str, folder_rel: str) -> str:
+    if not folder_rel or not md_text:
+        return md_text
+    clean_folder = folder_rel.replace("\\", "/").rstrip("/")
+    def repl_md(m):
+        alt = m.group(1)
+        src = m.group(2)
+        if not src.startswith(("http://", "https://", "data:", "/")) and not src.startswith(clean_folder):
+            clean_src = src.lstrip("./")
+            return f"![{alt}]({clean_folder}/{clean_src})"
+        return m.group(0)
+
+    def repl_img(m):
+        pre = m.group(1)
+        src = m.group(2)
+        post = m.group(3)
+        if not src.startswith(("http://", "https://", "data:", "/")) and not src.startswith(clean_folder):
+            clean_src = src.lstrip("./")
+            return f'<img {pre}src="{clean_folder}/{clean_src}"{post}>'
+        return m.group(0)
+
+    res = re.sub(r'!\[(.*?)\]\(((?!https?:\/\/|\/|data:)(?:\.\/)?([^)]+))\)', repl_md, md_text)
+    res = re.sub(r'<img\s+([^>]*?)src=["\']((?!https?:\/\/|\/|data:)(?:\.\/)?([^"\']+))["\']([^>]*?)>', repl_img, res, flags=re.IGNORECASE)
+    return res
+
 def parse_ped_curriculum() -> list[dict]:
     if not CURRICULUM_PATH.exists():
         print(f"Warning: Curriculum file not found at {CURRICULUM_PATH}")
@@ -90,12 +115,14 @@ def scan_ped_files() -> dict[str, dict]:
 
             fpath = root_path / file
             if file.endswith(".md"):
+                raw_text = strip_frontmatter(fpath.read_text(encoding="utf-8"))
+                norm_text = normalize_image_paths(raw_text, discovered[ped_id]["folder_rel"])
                 if "PEDYTB" in file.upper():
                     discovered[ped_id]["pedytb_file"] = file
-                    discovered[ped_id]["pedytb_content"] = strip_frontmatter(fpath.read_text(encoding="utf-8"))
+                    discovered[ped_id]["pedytb_content"] = norm_text
                 elif ("RELEASE" in file.upper() or (file.startswith("PED-") and "BRIEF" not in file.upper())) and "KNOWLEDGE_CHECK" not in file.upper():
                     discovered[ped_id]["ped_file"] = file
-                    discovered[ped_id]["ped_content"] = strip_frontmatter(fpath.read_text(encoding="utf-8"))
+                    discovered[ped_id]["ped_content"] = norm_text
             elif file.endswith(".cards.v2.json"):
                 if "MASTER" in file.upper() or not discovered[ped_id]["cards_file"]:
                     discovered[ped_id]["cards_file"] = file

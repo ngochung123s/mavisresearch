@@ -574,7 +574,7 @@
   </div>
 
   <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
-  <script src="data.js?v=20261013_165828"></script>
+  <script src="data.js?v=20261013_215500"></script>
 
   <!-- APPLICATION SCRIPT LOGIC -->
   <script>
@@ -929,7 +929,7 @@
         }
       }
 
-      container.innerHTML = parseMarkdownWithKaTeX(md, lesson.id, isSecondary);
+      container.innerHTML = parseMarkdownWithKaTeX(md, lesson.id, isSecondary, lesson.folder_rel);
 
       // Build bottom sheet TOC
       buildMobileTOC(md, isSecondary);
@@ -980,9 +980,26 @@
         .replace(/\n/g, '<br>');
     }
 
-    function parseMarkdownWithKaTeX(content, lessonId, isSecondary) {
+    function parseMarkdownWithKaTeX(content, lessonId, isSecondary, folderRel) {
       let text = (content || '').trimStart().replace(/^---\s*[\r\n]+[\s\S]*?[\r\n]+---\s*[\r\n]*/, '');
       if (!text) return '<p class="text-[var(--text-muted)]">Chưa có nội dung bài giảng.</p>';
+
+      // Chuẩn hóa đường dẫn tương đối của ảnh theo folder_rel của bài học
+      if (folderRel) {
+        const cleanFolder = folderRel.replace(/\/+$/, '');
+        text = text.replace(/!\[(.*?)\]\(((?!https?:\/\/|\/|data:)(?:\.\/)?([^)]+))\)/g, (match, alt, fullSrc, cleanSrc) => {
+          if (!cleanSrc.startsWith(cleanFolder)) {
+            return `![${alt}](${cleanFolder}/${cleanSrc.replace(/^\.\//, '')})`;
+          }
+          return match;
+        });
+        text = text.replace(/<img\s+([^>]*?)src=["']((?!https?:\/\/|\/|data:)(?:\.\/)?([^"']+))["']([^>]*?)>/gi, (match, pre, fullSrc, cleanSrc, post) => {
+          if (!cleanSrc.startsWith(cleanFolder)) {
+            return `<img ${pre}src="${cleanFolder}/${cleanSrc.replace(/^\.\//, '')}"${post}>`;
+          }
+          return match;
+        });
+      }
 
       text = text.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
         return `\n\n<div class="page-marker-banner"><svg class="w-3.5 h-3.5 text-[var(--text-muted)]" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg><span>Trang ${p} · Giáo trình ĐHYD Thái Bình</span></div>\n\n`;

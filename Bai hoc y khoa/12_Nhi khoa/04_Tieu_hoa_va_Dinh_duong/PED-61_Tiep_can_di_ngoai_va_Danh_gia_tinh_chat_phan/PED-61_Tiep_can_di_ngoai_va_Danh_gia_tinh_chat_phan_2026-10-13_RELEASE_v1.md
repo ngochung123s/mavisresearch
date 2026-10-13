@@ -43,7 +43,20 @@ Tính chất và tần suất đi ngoài của một đứa trẻ thay đổi ng
 - **Trẻ bú mẹ hoàn toàn:** Phân có màu vàng tươi (vàng hoa cải), độ sệt mềm như sinh tố hoặc có các hạt lợn cợn màu trắng ngà (hoa cà hoa cải - thực chất là các cục xà phòng canxi và đạm sữa chưa tiêu hóa hết). Mùi phân chua nhẹ tự nhiên, pH acid sinh lý ($5.0 - 5.5$) giúp ức chế vi khuẩn gây bệnh phát triển. Trẻ có thể đi ngoài 4–6 lần/ngày, thậm chí 8–10 lần/ngày sau mỗi cữ bú. Ngược lại, một số trẻ bú mẹ hấp thu gần như 100% sữa mẹ có thể 3–7 ngày mới đi ngoài một lần nhưng khi đi phân vẫn mềm nhẵn $\rightarrow$ đây là hiện tượng "chậm đi tiêu sinh lý", hoàn toàn không phải táo bón!
 - **Trẻ ăn sữa công thức:** Sữa công thức giàu protein casein và chất béo khó tiêu hơn sữa mẹ, làm phân đặc hơn thành khuôn mềm như bột nhão, màu vàng nâu hoặc xanh rêu sẫm (do lượng sắt bổ sung bị oxy hóa), mùi nồng hơn. Tần suất đi tiêu thường là 1–2 lần/ngày hoặc cách ngày.
 
-![Bảng màu phân trẻ sơ sinh và nhũ nhi](outputs/figures/PED61_fig2_infant_stool_color_card.jpg)
+> 🖼️ **HÌNH 1: HÌNH ẢNH ĐẠI THỂ PHÂN SU SINH LÝ Ở TRẺ SƠ SINH (NORMAL NEONATAL MECONIUM)**
+>
+> ![Hình ảnh lâm sàng phân su trẻ sơ sinh (Meconium Stool) bài xuất trong 24–48 giờ đầu](outputs/figures/PED61_fig5_master_stool_flowchart.jpg)
+>
+> 🔍 **Hướng dẫn đọc & Chú thích dấu hiệu lâm sàng:**
+> - **Màu sắc & Thể chất:** Phân su có màu xanh đen sẫm (dark green / blackish-green), quánh dính như hắc ín/nhựa đường (tar-like, viscous), không mùi do vô khuẩn trong tử cung.
+> - **Thành phần:** Gồm nước ($70-80\%$), chất nhầy tiêu hóa, tế bào biểu mô ruột bong tróc, lông tơ và dịch ối thai nhi nuốt vào, muối mật và sắc tố Biliverdin/Bilirubin tích tụ từ tháng thứ 3–4 thai kỳ.
+> - **Diễn tiến:** Bài xuất trong 24–48 giờ đầu sau sinh; ngày 3–5 chuyển sang màu xanh nâu/vàng nâu (phân chuyển tiếp); sau đó chuyển hẳn sang phân vàng hoa cải khi trẻ bú mẹ ổn định.
+>
+> 💡 **Điểm chốt lâm sàng (Clinical Pearl):**
+> - **Mốc 24h & 48h:** $94\%$ trẻ đủ tháng bài xuất phân su trong 24 giờ đầu, $99\%$ trong 48 giờ đầu (PMID: 19460266).
+> - **CỜ ĐỎ CHẬM PHÂN SU:** Trẻ sơ sinh đủ tháng **chậm bài xuất phân su quá 48 giờ** là dấu hiệu cảnh báo nghi ngờ hàng đầu của: (1) Bệnh phình đại tràng vô hạch bẩm sinh (Hirschsprung); (2) Teo ruột bẩm sinh; (3) Hội chứng nút phân su (Meconium plug syndrome) hoặc tắc ruột phân su trong bệnh xơ nang (Cystic Fibrosis). Cần thăm trực tràng nhẹ nhàng tìm Blast sign và theo dõi sát bụng trướng, nôn trớ!
+>
+> 📚 *Nguồn: Bệnh viện Ommelander Ziekenhuis Groningen / Wikimedia Commons; Ubesie & Ibeziako, J Trop Pediatr (PMID: 19460266).*
 
 ---
 
@@ -65,7 +78,20 @@ Tính chất và tần suất đi ngoài của một đứa trẻ thay đổi ng
 
 Thang điểm phân Bristol kinh điển của người lớn đã được chuẩn hóa và sửa đổi dành riêng cho trẻ em (Modified Bristol Stool Form Scale for Children - m-BSFS):
 
-![Thang điểm phân Bristol Nhi khoa cải tiến](outputs/figures/PED61_fig1_bristol_stool_chart.jpg)
+> 🖼️ **HÌNH 2: BẢNG PHÂN LOẠI 7 HÌNH THÁI PHÂN THEO THANG ĐIỂM BRISTOL NHI KHOA (m-BSFS)**
+>
+> ![Thang điểm phân Bristol Nhi khoa cải tiến (Bristol Stool Form Scale)](outputs/figures/PED61_fig1_bristol_stool_chart.jpg)
+>
+> 🔍 **Hướng dẫn đọc & Đối chiếu 3 nhóm lâm sàng:**
+> - **Nhóm Táo bón (Type 1 & 2):** Type 1 (cục cứng phân dê rời rạc, thời gian lưu đại tràng $\ge 100\text{h}$) và Type 2 (xúc xích lổn nhổn gồ ghề). Trẻ phải rặn khó khăn, nguy cơ nứt kẽ hậu môn và són phân encopresis.
+> - **Nhóm Bình thường / Khuôn lý tưởng (Type 3 & 4):** Type 3 (xúc xích nứt nẻ bề mặt) và Type 4 (hình xúc xích/rắn mềm, nhẵn bóng). **Type 4 là tiêu chuẩn vàng** đại tiện khỏe mạnh, không đau rát.
+> - **Nhóm Phân lỏng / Tiêu chảy (Type 5, 6 & 7):** Type 5 (từng miếng mềm dễ đi tiêu), Type 6 (phân nhão xơ xác, mép rách rưới) và Type 7 (hoàn toàn lỏng tóe nước, cờ đỏ mất nước cấp tính).
+>
+> 💡 **Điểm chốt lâm sàng (Clinical Pearl):**
+> - **Công cụ giao tiếp khách quan:** Trong bệnh sử, luôn đưa bảng Bristol cho cha mẹ hoặc trẻ tự chỉ để xác định hình thái phân, tránh câu hỏi mơ hồ "cháu đi bình thường không?".
+> - **Mục tiêu điều trị táo bón:** Dùng PEG 3350 chỉnh liều để giữ phân ổn định ở **Type 4** đều đặn 1 lần/ngày.
+>
+> 📚 *Nguồn: Lewis SJ, Heaton KW. Scand J Gastroenterol 1997; Wikimedia Commons (File:Bristol_stool_chart.svg).*
 
 Bảy hình thái phân được phân định rạch ròi:
 - **Type 1 (Phân dê):** Từng cục cứng nhỏ, tròn, rời rạc như phân dê hay hạt dẻ. Trẻ phải rặn rất đau đớn, phân lưu lại quá lâu ở đại tràng bị tái hấp thu cạn kiệt nước $\rightarrow$ **Táo bón nặng**.
@@ -130,7 +156,22 @@ Khi có bất kỳ tổn thương cơ học, nhiễm trùng, miễn dịch hay d
 
 #### 2. Phân nhầy máu đại thể: Cơ chế tổn thương niêm mạc đại trực tràng
 
-![Lưu đồ chẩn đoán phân biệt trẻ đi ngoài phân máu](outputs/figures/PED61_fig3_bloody_stool_differential.jpg)
+> 🖼️ **HÌNH 3: HÌNH ẢNH SIÊU ÂM DẤU HIỆU BIA ĐẠN (TARGET SIGN / DONUT SIGN) TRONG LỒNG RUỘT CẤP Ở TRẺ ĐI NGOÀI PHÂN MÁU**
+>
+> ![Hình ảnh siêu âm dấu hiệu bia đạn trong Lồng ruột cấp ở trẻ đi ngoài phân máu (Target Sign on Ultrasound)](outputs/figures/PED61_fig3_bloody_stool_differential.jpg)
+>
+> 🔍 **Hướng dẫn đọc & Chú thích dấu hiệu chẩn đoán hình ảnh:**
+> - **Mặt cắt ngang (Transverse view):** Đầu dò Linear tần số cao cắt ngang qua khối bánh lồng ở vùng bụng dưới phải / hạ sườn phải.
+> - **Cấu trúc vòng đồng tâm (Concentric rings):**
+>   - *Vòng ngoài giảm âm (Hypoechoic rim):* Thành phù nề, ứ trệ tuần hoàn của quai ruột ngoài đón lồng (intussuscipiens - thường là manh tràng/đại tràng lên).
+>   - *Lõi trung tâm tăng âm (Hyperechoic center):* Mạc treo ruột chứa mạch máu và lớp thanh mạc bị cuốn vào trong cùng với quai ruột lồng (intussusceptum - thường là đoạn cuối hồi tràng).
+> - **Đường kính khối lồng:** Thường từ $25 - 35\text{ mm}$, hình ảnh tròn đều hoặc bầu dục giống hình "bia bắn đạn" hay "bánh donut".
+>
+> 💡 **Điểm chốt lâm sàng (Clinical Pearl):**
+> - **Tiêu chuẩn vàng chẩn đoán đầu tay:** Siêu âm có độ nhạy **97.9%**, độ đặc hiệu **97.8%**, giá trị dự báo âm tính **99.7%** (PMID: 19657636).
+> - **CẢNH BÁO:** Tam chứng kinh điển (Khóc thét từng cơn + Nôn dịch mật + Phân thạch dâu tây) thực chất chỉ xuất hiện đầy đủ ở $< 50\%$ ca. Phân có máu là dấu hiệu muộn của ruột thiếu máu hoại tử. Đừng chờ đến khi thấy máu mới siêu âm! Phát hiện sớm giúp tháo lồng bằng hơi áp lực thành công $> 90\%$, bảo tồn ruột tuyệt đối.
+>
+> 📚 *Nguồn: Hryhorczuk AL et al., Pediatr Radiol 2009; Wikimedia Commons (File:Ultrasound of target sign in intussusception).*
 
 - *Hội chứng Lỵ:* Vi khuẩn Shigella hoặc Amip xâm nhập trực tiếp phá hủy tế bào biểu mô niêm mạc đại tràng, tạo các ổ loét nông chảy máu và thâm nhiễm bạch cầu đa nhân $\rightarrow$ phân ít, nhiều chất nhầy mủ và máu tươi, đi kèm đau quặn bụng và mót rặn dữ dội.
 - *Dị ứng đạm sữa bò (Allergic Proctocolitis):* Theo khuyến cáo của ESPGHAN (PMID: 22569527) [DATA VERIFIED] {claim: C-004}, Dị ứng đạm sữa bò thể viêm trực tràng dị ứng (CMPA allergic proctocolitis cow's milk protein allergy) gây đi ngoài phân nhầy sợi máu ở trẻ bú mẹ hoặc sữa công thức; đáp ứng với chế độ ăn loại trừ trong 2–4 tuần. Phản ứng miễn dịch không qua trung gian IgE làm thâm nhiễm bạch cầu ái toan (Eosinophil) vào niêm mạc trực tràng, gây viêm loét vi thể rỉ các sợi máu nhỏ li ti, nhưng không gây tổn thương toàn thân.
@@ -146,6 +187,24 @@ Theo hướng dẫn của Viện Hàn lâm Nhi khoa Hoa Kỳ AAP (PMID: 16951027
 Theo nghiên cứu của Gu et al. (PMID: 27015203) [DATA VERIFIED] {claim: C-006}, Sàng lọc phân bạc màu bằng Thang màu phân trẻ sơ sinh (Infant stool color card screening biliary atresia acholic pale stools) phát hiện teo đường mật bẩm sinh trước 60 ngày tuổi giúp giảm tỷ lệ tử vong và tăng hiệu quả phẫu thuật Kasai.
 - Quá trình viêm xơ teo tắc đường mật ngoài gan ngăn cản hoàn toàn dòng chảy của dịch mật xuống tá tràng $\rightarrow$ không có bilirubin xuống ruột để chuyển hóa thành Stercobilin $\rightarrow$ phân mất hoàn toàn sắc tố, trở nên trắng bợt như đất sét hoặc phấn viết bảng.
 
+> 🖼️ **HÌNH 4: BẢNG MÀU PHÂN CHUẨN HÓA SÀNG LỌC TEO ĐƯỜNG MẬT BẨM SINH (INFANT STOOL COLOUR CARD FOR BILIARY ATRESIA SCREENING)**
+>
+> ![Thang màu phân trẻ sơ sinh sàng lọc teo đường mật bẩm sinh (BC Infant Stool Colour Card)](outputs/figures/PED61_fig2_infant_stool_color_card.jpg)
+>
+> 🔍 **Hướng dẫn đọc & Đối chiếu màu phân:**
+> - **Nhóm BẤT THƯỜNG / Phân bạc màu (Abnormal Stool Colours — Ô #1 đến #6):**
+>   - *Ô #1, #2, #3:* Trắng bợt như đất sét, trắng phấn viết bảng, vàng nhạt như rơm khô (Acholic stools) $\rightarrow$ tắc nghẽn dịch mật hoàn toàn.
+>   - *Ô #4, #5, #6:* Vàng mù tạt nhạt, xanh xám nhạt $\rightarrow$ suy giảm bài tiết sắc tố mật nghiêm trọng.
+> - **Nhóm BÌNH THƯỜNG (Normal Stool Colours — Ô #7 đến #9):**
+>   - *Ô #7, #8, #9:* Vàng tươi hoa cải, vàng nâu, xanh rêu đậm $\rightarrow$ dòng lưu thông sắc tố mật bình thường.
+>
+> 💡 **Điểm chốt lâm sàng (Clinical Pearl):**
+> - **CỬA SỔ VÀNG PHẪU THUẬT KASAI (< 60 ngày tuổi):** Phẫu thuật nối mật - ruột (Kasai portoenterostomy) trước 60 ngày tuổi cho tỷ lệ thành công lưu thông mật đạt $\approx 70-80\%$, trong khi sau 60–90 ngày tuổi gan đã xơ hóa không hồi phục, bắt buộc phải ghép gan (PMID: 27015203).
+> - **Nguyên tắc khám:** Soi tã bỉm của trẻ đối chiếu trực tiếp dưới ánh sáng tự nhiên ban ngày. Bất kỳ trẻ nào còn vàng da sau 2 tuần tuổi có màu phân thuộc ô #1–#6 phải lập tức định lượng Bilirubin trực tiếp và chuyển tuyến chuyên khoa Gan mật Nhi!
+>
+> 📚 *Nguồn: Biliary Atresia Screening Program, Perinatal Services BC (Canada); Gu YH et al., Medicine 2016.*
+
+
 #### 5. Phân đen như hắc ín: Cơ chế xuất huyết tiêu hóa cao
 - Máu từ thực quản, dạ dày hoặc tá tràng chảy xuống ruột non tiếp xúc với acid dịch vị và các enzym tiêu hóa $\rightarrow$ Hemoglobin bị oxy hóa thành Hematin có màu nâu đen. Khi xuống đại tràng, vi khuẩn tiếp tục chuyển hóa lưu huỳnh tạo mùi khắm nồng đặc trưng.
 
@@ -154,7 +213,22 @@ Theo nghiên cứu của Gu et al. (PMID: 27015203) [DATA VERIFIED] {claim: C-00
 
 #### 7. Táo bón: Vòng xoắn bệnh lý nín nhịn phân
 
-![Thuật toán tiếp cận Táo bón ở trẻ em](outputs/figures/PED61_fig4_constipation_algorithm.jpg)
+> 🖼️ **HÌNH 5: PHIM CHỤP X-QUANG ĐẠI TRÀNG CẢN QUANG (BARIUM ENEMA) — DẤU HIỆU VÙNG CHUYỂN TIẾP TRONG BỆNH HIRSCHSPRUNG**
+>
+> ![Hình ảnh X-quang đại tràng cản quang bộc lộ vùng chuyển tiếp bệnh Hirschsprung gây táo bón sơ sinh (Barium Enema Radiograph)](outputs/figures/PED61_fig4_constipation_algorithm.jpg)
+>
+> 🔍 **Hướng dẫn đọc & Chú thích dấu hiệu X-quang:**
+> - **1. Đoạn teo hẹp vô hạch (Narrow aganglionic segment):** Ở đoạn dưới cùng (trực tràng / trực tràng - sigma), khẩu kính lòng ruột thu nhỏ, co thắt liên tục do thiếu vắng hoàn toàn các tế bào hạch thần kinh phó giao cảm (Meissner và Auerbach).
+> - **2. Vùng chuyển tiếp (Transition Zone):** Hình nón hoặc hình phễu giãn dần (cone-like / funnel dilatation). Đây là **DẤU HIỆU X-QUANG ĐẶC HIỆU NHẤT** xác định bệnh Hirschsprung và định hướng ranh giới phẫu thuật hạ đại tràng (Pull-through).
+> - **3. Đoạn đại tràng phình giãn khổng lồ (Megacolon):** Phần đại tràng phía trên vùng chuyển tiếp có hạch bình thường nhưng bị ứ đọng phân và hơi kéo dài, thành ruột phì đại dày lên để tăng lực tống tháo qua chỗ hẹp.
+>
+> 💡 **Điểm chốt lâm sàng (Clinical Pearl):**
+> - **Chẩn đoán phân biệt với Táo bón chức năng:**
+>   - *Táo bón chức năng:* Khởi phát sau 1–2 tuổi, phân su ra bình thường, bóng trực tràng rộng chứa đầy phân to cứng, són phân thường gặp.
+>   - *Bệnh Hirschsprung:* Khởi phát ngay sơ sinh, chậm phân su $> 48\text{h}$, bóng trực tràng hẹp rỗng ôm chặt ngón tay, dấu hiệu tháo cống Blast sign dương tính (rút ngón tay phân và hơi bắn ra ồ ạt), trẻ chậm lớn bụng chướng căng.
+> - **Tiêu chuẩn vàng chẩn đoán:** Sinh thiết trực tràng hút (Rectal suction biopsy) chứng minh không có tế bào hạch thần kinh và tăng sinh sợi thần kinh chứa men acetylcholinesterase.
+>
+> 📚 *Nguồn: Bệnh viện Nhi Trung ương & Radiopaedia; Wikimedia Commons (File:Hirschsprung.jpg).*
 
 Theo đồng thuận ESPGHAN và NASPGHAN (PMID: 24345831) [DATA VERIFIED] {claim: C-003}, Phác đồ ESPGHAN / NASPGHAN điều trị táo bón chức năng: Polyethylene glycol PEG 3350 liều tống tháo phân 1.0–1.5 g/kg/ngày trong 3–6 ngày, liều duy trì 0.4–0.8 g/kg/ngày trong ít nhất 2 tháng (Evaluation and treatment of functional constipation in infants and children).
 - Táo bón chức năng ở trẻ em hình thành theo vòng xoắn bệnh lý ác tính:
@@ -415,7 +489,7 @@ Trong thực hành nhi khoa, bác sĩ rất thường gặp các trường hợp
 
 Dưới đây là sơ đồ dòng quyết định xử trí toàn diện trẻ có triệu chứng đi ngoài bất thường:
 
-![Bản đồ tiếp cận toàn diện trẻ đi ngoài bất thường](outputs/figures/PED61_fig5_master_stool_flowchart.jpg)
+
 
 ```text
                LƯU ĐỒ TIẾP CẬN TRẺ ĐI NGOÀI BẤT THƯỜNG TẠI PHÒNG KHÁM
