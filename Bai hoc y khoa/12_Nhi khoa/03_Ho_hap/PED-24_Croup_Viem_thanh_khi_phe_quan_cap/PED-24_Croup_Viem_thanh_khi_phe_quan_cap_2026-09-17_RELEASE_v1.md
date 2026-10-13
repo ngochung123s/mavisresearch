@@ -289,6 +289,9 @@ Trên phim chụp X-quang vùng cổ tư thế thẳng (Anteroposterior view) �
 - Trong Croup, lớp phù nề đối xứng hai bên của hạ thanh môn làm cột khí bị thu hẹp dần từ dưới lên tạo thành hình chóp nón đối xứng, được gọi là **Dấu hiệu Nóc nhà thờ (Steeple Sign)** hoặc dấu hiệu cây bút chì nhọn (Pencil-point sign).
 - Trên phim cổ nghiêng (Lateral view): Nắp thanh môn hoàn toàn bình thường (không sưng to, không có hình ngón tay cái cái béo tròn - "Thumbprint sign" của viêm nắp thanh môn) và mô mềm thành sau họng không bị dày.
 
+![Dấu hiệu Nóc nhà thờ (Steeple Sign) trên phim X-quang cổ thẳng ở bệnh nhi Croup](outputs/figures/PED24_fig1_steeple_sign.jpg)
+
+
 ### 5.2 Xét nghiệm máu, vi sinh & Khí máu: Khi nào chỉ định?
 
 - **Công thức máu và CRP/Procalcitonin:** Hoàn toàn KHÔNG cần thiết ở Croup điển hình. Bạch cầu có thể bình thường hoặc tăng nhẹ lympho do virus. Chỉ làm khi nghi ngờ nhiễm khuẩn thứ phát (Viêm khí quản vi khuẩn) hoặc chẩn đoán không rõ ràng.

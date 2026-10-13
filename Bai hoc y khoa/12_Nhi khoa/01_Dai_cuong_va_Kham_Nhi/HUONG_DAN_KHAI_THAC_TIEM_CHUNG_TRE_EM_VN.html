@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>HƯỚNG DẪN LÂM SÀNG: KHAI THÁC TIỀN SỬ TIÊM CHỦNG Ở TRẺ EM VIỆT NAM</title>
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 12mm 14mm 12mm 14mm;
+    }
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+      font-size: 10pt;
+      line-height: 1.45;
+      color: #1e293b;
+      background: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Header bar */
+    .header-box {
+      border-bottom: 2.5px solid #0284c7;
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .hospital-sub {
+      font-size: 8.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #0369a1;
+    }
+    .doc-category {
+      font-size: 8pt;
+      font-weight: 600;
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 2px 8px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-top: 2px;
+    }
+    .doc-title {
+      font-size: 15pt;
+      font-weight: 800;
+      color: #0f172a;
+      text-transform: uppercase;
+      margin: 6px 0 2px 0;
+      letter-spacing: -0.01em;
+    }
+    .doc-subtitle {
+      font-size: 9.5pt;
+      font-weight: 500;
+      color: #64748b;
+      font-style: italic;
+    }
+
+    /* Section Styling */
+    .section-title {
+      font-size: 11pt;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: #0369a1;
+      background: #f0f9ff;
+      border-left: 4px solid #0284c7;
+      padding: 4px 8px;
+      margin: 12px 0 6px 0;
+      display: flex;
+      align-items: center;
+    }
+    
+    /* Cards and Boxes */
+    .rule-box {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 8px 10px;
+      margin-bottom: 8px;
+    }
+    .rule-box-alert {
+      background: #fffbeb;
+      border: 1px solid #fef3c7;
+      border-left: 4px solid #f59e0b;
+      border-radius: 4px;
+      padding: 6px 10px;
+      margin: 6px 0;
+      font-size: 9.5pt;
+    }
+    .rule-box-danger {
+      background: #fef2f2;
+      border: 1px solid #fee2e2;
+      border-left: 4px solid #ef4444;
+      border-radius: 4px;
+      padding: 6px 10px;
+      margin: 6px 0;
+      font-size: 9.5pt;
+    }
+
+    /* Question Script Card */
+    .step-card {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      margin-bottom: 8px;
+      page-break-inside: avoid;
+      overflow: hidden;
+    }
+    .step-header {
+      background: #f1f5f9;
+      padding: 5px 10px;
+      font-weight: 700;
+      font-size: 9.5pt;
+      color: #1e293b;
+      border-bottom: 1px solid #e2e8f0;
+      display: flex;
+      justify-content: space-between;
+    }
+    .step-header .badge {
+      background: #0284c7;
+      color: #ffffff;
+      font-size: 7.5pt;
+      padding: 1px 6px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+    .step-body {
+      padding: 6px 10px;
+    }
+    .question-item {
+      margin-bottom: 6px;
+    }
+    .question-item:last-child {
+      margin-bottom: 0;
+    }
+    .q-text {
+      color: #0f172a;
+      font-weight: 600;
+      font-size: 9.5pt;
+    }
+    .q-intent {
+      color: #475569;
+      font-size: 8.5pt;
+      margin-left: 12px;
+      margin-top: 1px;
+    }
+    .q-intent strong {
+      color: #0369a1;
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 6px 0 10px 0;
+      font-size: 8.5pt;
+    }
+    th, td {
+      border: 1px solid #cbd5e1;
+      padding: 5px 7px;
+      vertical-align: middle;
+    }
+    th {
+      background-color: #f1f5f9;
+      color: #0f172a;
+      font-weight: 700;
+      text-align: left;
+    }
+    tr:nth-child(even) td {
+      background-color: #f8fafc;
+    }
+
+    .badge-tc {
+      display: inline-block;
+      padding: 1px 5px;
+      font-size: 7.5pt;
+      font-weight: 700;
+      border-radius: 3px;
+    }
+    .badge-tcmr {
+      background: #dcfce7;
+      color: #15803d;
+      border: 1px solid #bbf7d0;
+    }
+    .badge-dv {
+      background: #fef3c7;
+      color: #b45309;
+      border: 1px solid #fde68a;
+    }
+
+    /* Footer */
+    .doc-footer {
+      border-top: 1px solid #cbd5e1;
+      padding-top: 4px;
+      margin-top: 10px;
+      font-size: 7.5pt;
+      color: #94a3b8;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header-box">
+    <div>
+      <div class="hospital-sub">TÀI LIỆU HƯỚNG DẪN LÂM SÀNG BÁC SĨ NHI KHOA</div>
+      <div class="doc-title">HƯỚNG DẪN KHAI THÁC TIỀN SỬ TIÊM CHỦNG Ở TRẺ EM VIỆT NAM</div>
+      <div class="doc-subtitle">Bộ câu hỏi lâm sàng từng bước theo mốc lứa tuổi • Kỹ thuật đối soát ngôn ngữ phụ huynh • Nhận diện cờ đỏ</div>
+    </div>
+    <div style="text-align: right;">
+      <span class="doc-category">LÂM SÀNG NHI & Y6</span><br>
+      <span style="font-size: 8pt; color: #64748b;">Phiên bản: 2026.1</span>
+    </div>
+  </div>
+
+  <!-- NGUYÊN TẮC CỐT LÕI -->
+  <div class="rule-box" style="margin-bottom: 6px;">
+    <strong style="color: #0369a1;">3 NGUYÊN TẮC VÀNG KHI HỎI TIỀN SỬ TIÊM CHỦNG:</strong>
+    <ol style="margin: 3px 0 0 16px; padding: 0; font-size: 9pt;">
+      <li><strong>Không hỏi tắt bằng tên chuyên môn:</strong> Phụ huynh không nhớ DPT, Hib, IPV hay PCV. Phải dùng từ gợi tả: <em>"mũi bắp tay", "nhỏ giọt vào miệng", "mũi tiêm ở đùi"</em>.</li>
+      <li><strong>Phân luồng nguồn tiêm ngay từ đầu:</strong> Tiêm Trạm Y tế xã/phường (TCMR mở rộng - miễn phí) hay Tiêm Dịch vụ (VNVC, Potec, Safpo, viện Pasteur).</li>
+      <li><strong>Tìm kiếm sẹo BCG trên cơ delta trái:</strong> Mọi cuộc khám lâm sàng đều phải trực tiếp quan sát vết sẹo tiêm phòng lao.</li>
+    </ol>
+  </div>
+
+  <!-- BƯỚC 1 -->
+  <div class="step-card">
+    <div class="step-header">
+      <span>BƯỚC 1: THIẾT LẬP KHUNG NGUỒN TIÊM & BẰNG CHỨNG XÁC THỰC</span>
+      <span class="badge">BƯỚC ĐẦU TIÊN</span>
+    </div>
+    <div class="step-body">
+      <div class="question-item">
+        <div class="q-text">1.1. "Gia đình có mang theo Sổ tiêm chủng của bé hoặc có cài ứng dụng 'Sổ sức khỏe điện tử / App VNVC' trên điện thoại không?"</div>
+        <div class="q-intent">🎯 <strong>Ý nghĩa:</strong> Nếu có sổ/app, đối soát trực tiếp ngày tháng và tên thương mại vắc xin, tránh mất thời gian hỏi suy đoán.</div>
+      </div>
+      <div class="question-item" style="margin-top: 4px;">
+        <div class="q-text">1.2. "Từ bé đến giờ, bé được tiêm ở Trạm y tế phường/xã (ngày tiêm cố định hàng tháng) hay tiêm tại các trung tâm dịch vụ như VNVC, phòng tiêm dịch vụ?"</div>
+        <div class="q-intent">🎯 <strong>Ý nghĩa:</strong> Phân định nhanh phác đồ vắc xin: Trạm Y tế dùng 5 trong 1 (DPT-VGB-Hib) + uống OPV; Dịch vụ dùng 6 trong 1 (Infanrix Hexa/Hexaxim) + phế cầu + rota.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BƯỚC 2 -->
+  <div class="step-card">
+    <div class="step-header">
+      <span>BƯỚC 2: MỐC SƠ SINH (TRONG 24 GIỜ ĐẦU & THÁNG ĐẦU SAU SINH)</span>
+      <span class="badge">SƠ SINH</span>
+    </div>
+    <div class="step-body">
+      <div class="question-item">
+        <div class="q-text">2.1. (Viêm gan B sơ sinh): "Sau khi sinh trong 24 giờ đầu tại viện sản, bé có được tiêm 1 mũi ở bắp đùi trước khi về phòng nằm với mẹ không?"</div>
+        <div class="q-intent">🎯 <strong>Ý nghĩa:</strong> Đánh giá nguy cơ lây truyền virus viêm gan B chu sinh từ mẹ sang con.</div>
+      </div>
+      <div class="question-item" style="margin-top: 4px;">
+        <div class="q-text">2.2. (Lao - BCG): "Lúc mới sinh trong tháng đầu, bé có được tiêm 1 mũi ở bắp tay trái không? Cho bác sĩ xem bắp tay trái của bé xem có vết sẹo nhỏ nào không?"</div>
+        <div class="q-intent">🎯 <strong>Ý nghĩa & Khám:</strong> Sau 3-4 tuần nốt tiêm mưng mủ rồi tạo sẹo lõm. Không có sẹo + không rõ tiền sử = Trẻ chưa có miễn dịch bảo vệ Lao màng não/Lao kê!</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BƯỚC 3 -->
+  <div class="step-card">
+    <div class="step-header">
+      <span>BƯỚC 3: MỐC 2 – 3 – 4 THÁNG TUỔI (TRỤC MIỄN DỊCH BẢO VỆ THEN CHỐT)</span>
+      <span class="badge">2 - 3 - 4 THÁNG</span>
+    </div>
+    <div class="step-body">
+      <div class="question-item">
+        <div class="q-text">3.1. (Mũi phối hợp 5 trong 1 hoặc 6 trong 1):</div>
+        <div style="font-size: 9pt; margin-left: 10px; color: #1e293b;">
+          • <em>Nếu tiêm Dịch vụ:</em> "Lúc bé 2, 3, 4 tháng tuổi, mỗi tháng có tiêm 1 mũi 6 trong 1 ở đùi không? Đã tiêm đủ 3 mũi chưa?"<br>
+          • <em>Nếu tiêm Trạm Y tế:</em> "Lúc 2, 3, 4 tháng, bé có tiêm mũi 5 trong 1 ở đùi và có NHỎ THUỐC BẠI LIỆT vào miệng không?"
+        </div>
+        <div class="q-intent">🎯 <strong>Ý nghĩa:</strong> Phòng Bạch hầu, Ho gà, Uốn ván, VGB, Hib (và Bại liệt). Cực kỳ quan trọng ở trẻ viêm phổi: Hib gây viêm nắp thanh môn, viêm phổi hoại tử.</div>
+      </div>
+      <div class="question-item" style="margin-top: 4px;">
+        <div class="q-text">3.2. (Bại liệt tiêm IPV - Với trẻ tiêm Trạm y tế): "Lúc bé được 5 tháng tuổi, trạm có tiêm thêm 1 mũi bại liệt ở bắp đùi không?"</div>
+        <div class="q-intent">🎯 <strong>Ý nghĩa:</strong> Đối soát mũi tiêm bại liệt bất hoạt (IPV) theo lịch của Bộ Y tế.</div>
+      </div>
+      <div class="question-item" style="margin-top: 4px;">
+        <div class="q-text">3.3. (Phế cầu khuẩn - Synflorix / Prevenar 13): "Gia đình có tiêm mũi ngừa Phế cầu (viêm tai giữa, viêm phổi, viêm màng não do phế cầu) cho bé không? Đã tiêm mấy mũi?"</div>
+        <div class="q-intent">🎯 <strong>Ý nghĩa cốt lõi:</strong> Trẻ viêm phổi đã tiêm phế cầu ít nguy cơ nhiễm <em>S. pneumoniae</em> kháng thuốc thể xâm lấn.</div>
+      </div>
+      <div class="question-item" style="margin-top: 4px;">
+        <div class="q-text">3.4. (Rota virus): "Trước 6 tháng tuổi, bé có được cho uống vắc xin phòng tiêu chảy do Rota virus (loại 2 liều Rotarix hoặc 3 liều RotaTeq) không?"</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BƯỚC 4 & 5 -->
+  <div class="step-card">
+    <div class="step-header">
+      <span>BƯỚC 4 & 5: MỐC 6 – 9 – 12 – 18 THÁNG (SỞI, CÚM, VIÊM NÃO NHẬT BẢN & MŨI NHẮC)</span>
+      <span class="badge">6 ĐẾN 24 THÁNG</span>
+    </div>
+    <div class="step-body">
+      <div class="question-item">
+        <div class="q-text">4.1. (Mốc 9 tháng - Sởi đơn / Sởi phối hợp): "Lúc tròn 9 tháng, bé có được tiêm mũi Sởi đơn ở trạm y tế hay mũi 3 trong 1 Sởi - Quai bị - Rubella ở trung tâm dịch vụ không?"</div>
+        <div class="q-intent">🚨 <strong>Cờ đỏ viêm phổi:</strong> Trẻ sốt phát ban, viêm long kèm tổn thương phổi chưa tiêm sởi $ightarrow$ Cảnh giác ngay Sởi biến chứng viêm phổi nặng!</div>
+      </div>
+      <div class="question-item" style="margin-top: 4px;">
+        <div class="q-text">4.2. (Viêm não Nhật Bản - Lúc 12 tháng): "Lúc bé tròn 1 tuổi, gia đình có tiêm mũi Viêm não Nhật Bản không? Tiêm loại của nhà nước 3 mũi (Jevax) hay loại dịch vụ 1 mũi (Imojev)?"</div>
+      </div>
+      <div class="question-item" style="margin-top: 4px;">
+        <div class="q-text">5.1. (Mũi nhắc lại lúc 18-24 tháng): "Lúc 18 tháng đến 2 tuổi, bé có tiêm nhắc lại mũi Bạch hầu - Ho gà - Uốn ván (DPT) và mũi Sởi - Rubella (MR) chưa?"</div>
+        <div class="q-intent">🎯 <strong>Ý nghĩa:</strong> Kháng thể từ 3 mũi đầu giảm sau 1 năm; thiếu mũi nhắc này trẻ rất dễ bùng phát Ho gà hoặc Bạch hầu ác tính.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BƯỚC 6: PHẢN ỨNG PHỤ -->
+  <div class="step-card">
+    <div class="step-header">
+      <span>BƯỚC 6: TẦM SOÁT PHẢN ỨNG NẶNG SAU TIÊM & LÝ DO CHẬM LỊCH</span>
+      <span class="badge">AN TOÀN TIÊM CHỦNG</span>
+    </div>
+    <div class="step-body">
+      <div class="question-item">
+        <div class="q-text">6.1. "Những lần tiêm trước, bé có từng bị sốt co giật, tím tái, khó thở, nổi mày đay khắp người, khóc thét không dỗ được nhiều giờ hay phải vào viện cấp cứu không?"</div>
+        <div class="q-intent">🎯 <strong>Ý nghĩa:</strong> Nhận diện tiền sử phản vệ, co giật sau tiêm ho gà toàn tế bào để chuyển sang vắc xin vô bào hoặc xử trí chống chỉ định.</div>
+      </div>
+      <div class="question-item" style="margin-top: 4px;">
+        <div class="q-text">6.2. "Gần đây bé có bị bỏ lỡ hay hoãn mũi tiêm nào không? Lý do vì sao (trẻ ốm, trạm hết vắc xin, hay gia đình quên)?"</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BẢNG ĐỐI CHIẾU NHANH -->
+  <div class="section-title">BẢNG TRA CỨU ĐỐI CHIẾU: TỪ NGỮ PHỤ HUYNH ↔ THUẬT NGỮ Y KHOA</div>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 32%;">Mô tả từ phụ huynh</th>
+        <th style="width: 25%;">Thuật ngữ / Tên vắc xin</th>
+        <th style="width: 28%;">Bệnh phòng ngừa</th>
+        <th style="width: 15%; text-align: center;">Chương trình</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>"Mũi tiêm bắp tay trái lúc mới đẻ, có sẹo"</strong></td>
+        <td><strong>BCG</strong></td>
+        <td>Lao (Lao màng não, Lao kê)</td>
+        <td style="text-align: center;"><span class="badge-tc badge-tcmr">TCMR</span></td>
+      </tr>
+      <tr>
+        <td><strong>"Mũi tiêm ở đùi ngày đầu sau đẻ tại viện sản"</strong></td>
+        <td><strong>HepB sơ sinh</strong></td>
+        <td>Viêm gan virus B chu sinh</td>
+        <td style="text-align: center;"><span class="badge-tc badge-tcmr">TCMR</span></td>
+      </tr>
+      <tr>
+        <td><strong>"Mũi 5 trong 1 của trạm y tế + uống thuốc"</strong></td>
+        <td><strong>DPT - VGB - Hib + OPV</strong></td>
+        <td>Bạch hầu, Ho gà, Uốn ván, VGB, Hib + Bại liệt</td>
+        <td style="text-align: center;"><span class="badge-tc badge-tcmr">TCMR</span></td>
+      </tr>
+      <tr>
+        <td><strong>"Mũi 6 trong 1 tiêm dịch vụ ở đùi"</strong></td>
+        <td><strong>Infanrix Hexa / Hexaxim</strong></td>
+        <td>6 bệnh (thêm Bại liệt dạng tiêm IPV)</td>
+        <td style="text-align: center;"><span class="badge-tc badge-tcmr">Dịch vụ</span></td>
+      </tr>
+      <tr>
+        <td><strong>"Mũi ngừa phế cầu / viêm tai / viêm phổi"</strong></td>
+        <td><strong>Synflorix / Prevenar 13</strong></td>
+        <td><em>Streptococcus pneumoniae</em> (phế cầu)</td>
+        <td style="text-align: center;"><span class="badge-tc badge-dv">Dịch vụ</span></td>
+      </tr>
+      <tr>
+        <td><strong>"Thuốc nhỏ tiêu chảy uống trước 6 tháng"</strong></td>
+        <td><strong>Rotarix / RotaTeq / Rotavin</strong></td>
+        <td>Tiêu chảy cấp do Rota virus</td>
+        <td style="text-align: center;"><span class="badge-tc badge-dv">Dịch vụ / TCMR mới</span></td>
+      </tr>
+      <tr>
+        <td><strong>"Mũi sởi lúc 9 tháng ở trạm"</strong></td>
+        <td><strong>MV (Measles Vaccine)</strong></td>
+        <td>Sởi đơn chủng</td>
+        <td style="text-align: center;"><span class="badge-tc badge-tcmr">TCMR</span></td>
+      </tr>
+      <tr>
+        <td><strong>"Mũi sởi - quai bị - rubella lúc 1 tuổi"</strong></td>
+        <td><strong>MMR / MMR II / Priorix</strong></td>
+        <td>Sởi, Quai bị, Rubella</td>
+        <td style="text-align: center;"><span class="badge-tc badge-dv">Dịch vụ</span></td>
+      </tr>
+      <tr>
+        <td><strong>"Mũi viêm não tiêm 3 mũi / tiêm 1 mũi dịch vụ"</strong></td>
+        <td><strong>Jevax (3 liều) / Imojev (sống)</strong></td>
+        <td>Viêm não Nhật Bản</td>
+        <td style="text-align: center;"><span class="badge-tc badge-tcmr">TCMR & DV</span></td>
+      </tr>
+      <tr>
+        <td><strong>"Mũi tiêm nhắc lại 18 tháng ở trạm"</strong></td>
+        <td><strong>DPT4 + MR (Sởi - Rubella)</strong></td>
+        <td>Bạch hầu, Ho gà, Uốn ván + Sởi, Rubella</td>
+        <td style="text-align: center;"><span class="badge-tc badge-tcmr">TCMR</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- FOOTER -->
+  <div class="doc-footer">
+    <span>Lưu hành nội bộ học thuật • Bộ môn Nhi khoa</span>
+    <span>Biên soạn: Tài liệu Huấn luyện Kỹ năng Tiền lâm sàng Y khoa</span>
+    <span>Trang 1/1</span>
+  </div>
+
+</body>
+</html>

@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PedViewer · Trình Đọc Sách & Bài Học Nhi Khoa (PED & PEDYTB)</title>
+  <meta name="theme-color" content="#121214">
+  <meta name="color-scheme" content="dark">
+  <title>HungMed · Sổ Tay Lâm Sàng Nhi - Sản | BS. Đỗ Văn Ngọc Hưng</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -14,935 +16,1558 @@
       theme: {
         extend: {
           fontFamily: {
-            sans: ['"Be Vietnam Pro"', 'system-ui', 'sans-serif'],
+            sans: ['"Be Vietnam Pro"', 'system-ui', '-apple-system', 'sans-serif'],
             mono: ['"JetBrains Mono"', 'monospace']
-          },
-          colors: {
-            brand: {
-              50: '#ecfeff',
-              500: '#06b6d4',
-              600: '#0891b2',
-              700: '#0e7490'
-            }
           }
         }
       }
     }
   </script>
-  <!-- Marked.js for fast Markdown parsing -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <!-- KaTeX for Medical & Clinical Formulas (e.g. PaO2, PaCO2, HR, CO = HR x SV) -->
+  <!-- Marked.js (Nạp tệp cục bộ trước, dự phòng CDN) -->
+  <script src="marked.min.js"></script>
+  <script>if (!window.marked) document.write('<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"><\/script>');</script>
+  <!-- KaTeX -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
   <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+
   <style>
+    /* BẢNG MÀU CHUẨN DESIGN TOKENS (MỤC 6.1 & 6.2 TRONG PROMPTY.MD) */
     :root {
-      --bg-base: #090e17;
-      --bg-panel: #0f172a;
-      --bg-card: rgba(255, 255, 255, 0.035);
-      --border-color: rgba(255, 255, 255, 0.08);
-      --text-main: #e2e8f0;
-      --text-muted: #94a3b8;
-    }
-    html.sepia {
-      --bg-base: #fbf0d9;
-      --bg-panel: #f4e3c1;
-      --bg-card: rgba(0, 0, 0, 0.03);
-      --border-color: rgba(120, 80, 20, 0.15);
-      --text-main: #382818;
-      --text-muted: #785a3a;
+      --bg: #121214;
+      --surface: #18181A;
+      --surface-2: #1F1F23;
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #E4E4E7;
+      --text-secondary: #A1A1AA;
+      --text-muted: #8B8B94;
+      --accent: #72C2E7;
+      --accent-soft: rgba(114, 194, 231, 0.1);
+      --src-ytb: #C084FC;
+      --danger: #F87171;
+      --warning: #FBBF24;
+      --topbar-height: 48px;
+      --viewer-font-size: 16px;
     }
     html.light {
-      --bg-base: #f8fafc;
-      --bg-panel: #ffffff;
-      --bg-card: rgba(0, 0, 0, 0.02);
-      --border-color: rgba(0, 0, 0, 0.08);
-      --text-main: #0f172a;
-      --text-muted: #64748b;
+      --bg: #F7F6F3;
+      --surface: #FFFFFF;
+      --surface-2: #EFEEEA;
+      --border: rgba(0, 0, 0, 0.08);
+      --text: #2F3437;
+      --text-secondary: #55534E;
+      --text-muted: #6B6A66;
+      --accent: #155E75;
+      --accent-soft: rgba(21, 94, 117, 0.08);
+      --src-ytb: #7E22CE;
+      --danger: #B42318;
+      --warning: #8A5A00;
     }
 
     body {
-      background-color: var(--bg-base);
-      color: var(--text-main);
+      background-color: var(--bg);
+      color: var(--text);
       font-family: 'Be Vietnam Pro', sans-serif;
     }
 
-    /* Scrollbars */
-    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    /* Scrollbars tối giản */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
     ::-webkit-scrollbar-track { background: transparent; }
-    ::-webkit-scrollbar-thumb { background: rgba(148, 163, 184, 0.2); border-radius: 4px; }
-    ::-webkit-scrollbar-thumb:hover { background: rgba(148, 163, 184, 0.4); }
+    ::-webkit-scrollbar-thumb { background: rgba(139, 139, 148, 0.25); border-radius: 99px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(139, 139, 148, 0.4); }
 
-    /* Markdown prose styles */
-    .prose-custom {
-      font-size: var(--viewer-font-size, 15px);
-      line-height: 1.75;
-      color: var(--text-main);
+    /* Prose đọc bài giảng êm dịu */
+    .prose-reader {
+      font-size: var(--viewer-font-size, 16px);
+      line-height: 1.65;
+      color: var(--text);
     }
-    .prose-custom h1 {
-      font-size: 1.6em;
-      font-weight: 800;
-      letter-spacing: -0.025em;
-      margin-top: 1.2em;
-      margin-bottom: 0.5em;
-      color: #ffffff;
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 0.4em;
+    .prose-reader :where(p, li, blockquote) {
+      max-width: 62ch;
     }
-    html.light .prose-custom h1 { color: #0f172a; }
-    html.sepia .prose-custom h1 { color: #201408; }
-
-    .prose-custom h2 {
-      font-size: 1.25em;
+    .prose-reader h1 {
+      font-size: 1.625em;
       font-weight: 700;
       letter-spacing: -0.015em;
-      margin-top: 1.4em;
-      margin-bottom: 0.4em;
-      color: #f1f5f9;
-      display: flex;
-      align-items: center;
-      gap: 8px;
+      margin-top: 1.2em;
+      margin-bottom: 0.5em;
+      color: var(--text);
+      line-height: 1.3;
+      text-wrap: balance;
+      scroll-margin-top: calc(var(--topbar-height) + 16px);
     }
-    .prose-custom h2::before {
-      content: "";
-      display: inline-block;
-      width: 3px;
-      height: 1.1em;
-      background: #06b6d4;
-      border-radius: 2px;
-      flex-shrink: 0;
+    .prose-reader h2 {
+      font-size: 1.375em;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      margin-top: 2em;
+      margin-bottom: 0.6em;
+      color: var(--text);
+      line-height: 1.35;
+      text-wrap: balance;
+      scroll-margin-top: calc(var(--topbar-height) + 16px);
     }
-    html.light .prose-custom h2 { color: #1e293b; }
-    html.sepia .prose-custom h2 { color: #35210e; }
-
-    .prose-custom h3 {
-      font-size: 1.1em;
+    .prose-reader h3 {
+      font-size: 1.125em;
       font-weight: 600;
-      margin-top: 1.1em;
-      margin-bottom: 0.3em;
-      color: #e2e8f0;
+      margin-top: 1.3em;
+      margin-bottom: 0.4em;
+      color: var(--text);
+      line-height: 1.4;
+      text-wrap: balance;
+      scroll-margin-top: calc(var(--topbar-height) + 16px);
     }
-    html.light .prose-custom h3 { color: #334155; }
-    html.sepia .prose-custom h3 { color: #4a341e; }
-
-    .prose-custom h4 {
+    .prose-reader h4 {
       font-size: 0.95em;
       font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: 0.04em;
-      margin-top: 0.9em;
-      margin-bottom: 0.2em;
-      color: var(--text-muted);
-    }
-    .prose-custom p {
-      margin-bottom: 0.8em;
-    }
-    .prose-custom ul {
-      list-style-type: disc;
-      padding-left: 1.4em;
-      margin-bottom: 0.8em;
-    }
-    .prose-custom ol {
-      list-style-type: decimal;
-      padding-left: 1.4em;
-      margin-bottom: 0.8em;
-    }
-    .prose-custom li {
+      letter-spacing: 0.03em;
+      margin-top: 1em;
       margin-bottom: 0.3em;
+      color: var(--text-muted);
+      scroll-margin-top: calc(var(--topbar-height) + 16px);
     }
-    .prose-custom strong {
-      font-weight: 700;
-      color: #ffffff;
+    .prose-reader p {
+      margin-bottom: 0.75em;
+      color: var(--text);
     }
-    html.light .prose-custom strong { color: #0f172a; }
-    html.sepia .prose-custom strong { color: #201408; }
+    .prose-reader ul { list-style-type: disc; padding-left: 1.4em; margin-bottom: 0.75em; }
+    .prose-reader ol { list-style-type: decimal; padding-left: 1.4em; margin-bottom: 0.75em; }
+    .prose-reader li { margin-bottom: 0.25em; }
+    .prose-reader strong { font-weight: 700; color: var(--text); }
 
-    .prose-custom table {
+    .prose-reader table {
       width: 100%;
-      border-collapse: separate;
-      border-spacing: 0;
-      margin: 1.2em 0;
-      font-size: 0.88em;
+      border-collapse: collapse;
+      margin: 1.3em 0;
+      font-size: 0.9em;
       line-height: 1.6;
-      border-radius: 10px;
-      border: 1px solid var(--border-color);
-      background: rgba(255, 255, 255, 0.015);
+      border: 1px solid var(--border);
+      border-radius: 6px;
       overflow-x: auto;
       display: block;
     }
-    .prose-custom th, .prose-custom td {
-      border-bottom: 1px solid var(--border-color);
-      border-right: 1px solid var(--border-color);
-      padding: 9px 14px;
+    .prose-reader th, .prose-reader td {
+      border: 1px solid var(--border);
+      padding: 8px 12px;
       text-align: left;
     }
-    .prose-custom th {
-      background: rgba(255, 255, 255, 0.035);
-      font-weight: 700;
-      color: #e2e8f0;
-      text-transform: uppercase;
-      font-size: 0.78em;
-      letter-spacing: 0.04em;
+    .prose-reader th {
+      background: var(--surface);
+      font-weight: 600;
+      color: var(--text);
     }
-    html.light .prose-custom th { background: #f1f5f9; color: #334155; }
-    html.sepia .prose-custom th { background: #ebd9c8; color: #4a341e; }
-    .prose-custom tr:last-child td { border-bottom: none; }
-    .prose-custom th:last-child, .prose-custom td:last-child { border-right: none; }
-    .prose-custom tr:nth-child(even) { background: rgba(255, 255, 255, 0.012); }
 
-    .prose-custom blockquote {
-      border-left: 3px solid #0891b2;
-      padding: 10px 16px;
+    .prose-reader code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.86em;
+      background: var(--surface-2);
+      padding: 0.15em 0.35em;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      color: var(--accent);
+    }
+    .prose-reader pre {
+      background: var(--surface);
+      padding: 14px;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.82em;
+      margin: 1.1em 0;
+      border: 1px solid var(--border);
+    }
+    .prose-reader blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 1.1em 0;
       font-style: normal;
-      color: var(--text-main);
-      background: rgba(8, 145, 178, 0.06);
-      border-radius: 0 8px 8px 0;
-      margin: 1em 0;
-      font-size: 0.95em;
+      background: var(--accent-soft);
+      border-radius: 0 6px 6px 0;
+      color: var(--text-secondary);
+    }
+    .prose-reader img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin: 1.3em auto;
+      display: block;
+      border: 1px solid var(--border);
+    }
+    .prose-reader hr {
+      border: none;
+      height: 1px;
+      background: var(--border);
+      margin: 1.8em auto;
+      max-width: 120px;
     }
 
-    /* Page banner in PEDYTB */
+    :focus-visible {
+      outline: 2px solid var(--accent) !important;
+      outline-offset: 2px !important;
+    }
+    /* Dòng bài trong sidebar (Mục 5.1 & 10 trong prompty.md) */
+    .lesson-row {
+      display: grid;
+      grid-template-columns: 7ch 1fr auto;
+      gap: 0.5rem;
+      align-items: start;
+      min-height: 40px;
+      padding: 6px 8px;
+      border-radius: 6px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+      line-height: 1.35;
+      transition: background-color 150ms ease-out, color 150ms ease-out;
+    }
+    .lesson-row:hover {
+      background-color: var(--surface-2);
+      color: var(--text);
+    }
+    .lesson-row[aria-current="page"] {
+      background-color: var(--surface-2);
+      color: var(--text);
+      font-weight: 600;
+      border-left: 3px solid var(--accent);
+    }
+    .lesson-row .lesson-id {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      font-weight: 700;
+      inline-size: 7ch;
+      min-width: 7ch;
+      white-space: nowrap;
+    }
+    .lesson-row[aria-current="page"] .lesson-id {
+      color: var(--accent);
+    }
+    .lesson-row .lesson-title {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      min-width: 0;
+      word-break: break-word;
+    }
+    .source-dots {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding-top: 3px;
+      flex-shrink: 0;
+    }
+    .dot-source {
+      width: 6px;
+      height: 6px;
+      border-radius: 9999px;
+      display: inline-block;
+    }
+    .dot-source.ped-filled { background-color: var(--accent); }
+    .dot-source.ped-empty { border: 1px solid var(--text-muted); background: transparent; }
+    .dot-source.ytb-filled { background-color: var(--src-ytb); }
+    .dot-source.ytb-empty { border: 1px solid var(--text-muted); background: transparent; }
+
+    .block-header-btn {
+      width: 100%;
+      text-align: left;
+      padding: 8px 6px 4px 6px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      background-color: var(--surface);
+      z-index: 10;
+      border: none;
+      cursor: pointer;
+      user-select: none;
+    }
+    .block-header-btn:hover {
+      color: var(--text);
+    }
+    .block-header-btn .block-count {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--text-muted);
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Callout lâm sàng (Mục 5.6 trong prompty.md) */
+    .callout-box {
+      border-radius: 6px;
+      padding: 12px 14px;
+      margin: 1.2em 0;
+      font-size: 0.95em;
+      line-height: 1.6;
+      max-width: 62ch;
+    }
+    .callout-box .callout-header {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 6px;
+    }
+    .callout-danger {
+      border-left: 4px solid var(--danger);
+      background-color: rgba(248, 113, 113, 0.09);
+    }
+    .callout-danger .callout-header { color: var(--danger); }
+    .callout-warning {
+      border-left: 4px solid var(--warning);
+      background-color: rgba(251, 191, 36, 0.09);
+    }
+    .callout-warning .callout-header { color: var(--warning); }
+    .callout-accent {
+      border-left: 4px solid var(--accent);
+      background-color: var(--accent-soft);
+    }
+    .callout-accent .callout-header { color: var(--accent); }
+
+    /* TOC link styles */
+    .toc-link {
+      display: block;
+      padding: 4px 6px;
+      border-radius: 4px;
+      color: var(--text-muted);
+      text-decoration: none;
+      line-height: 1.35;
+      font-size: 12px;
+      transition: color 150ms ease-out, background-color 150ms ease-out;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+    }
+    .toc-link:hover {
+      color: var(--text);
+      background-color: var(--surface-2);
+    }
+    .toc-link.active {
+      color: var(--accent);
+      font-weight: 600;
+      background-color: var(--accent-soft);
+    }
+    .toc-link.level-3 {
+      padding-left: 14px;
+      font-size: 11px;
+    }
+    .source-ref-content {
+      color: var(--text-secondary);
+      font-size: 0.95em;
+      line-height: 1.55;
+    }
+    .source-ref-content ul {
+      margin-bottom: 0;
+      padding-left: 1.2em;
+    }
+
+    /* Slogan bài học */
+    .lesson-slogan {
+      font-size: 0.9375em;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+      font-style: italic;
+      max-width: 62ch;
+    }
+
     .page-marker-banner {
       display: flex;
       align-items: center;
-      gap: 12px;
-      margin: 28px 0 16px 0;
-      padding: 6px 14px;
-      border-radius: 8px;
-      background: rgba(168, 85, 247, 0.12);
-      border: 1px dashed rgba(168, 85, 247, 0.35);
-      font-size: 12px;
-      font-weight: 700;
-      color: #c084fc;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+      gap: 8px;
+      margin: 24px 0 16px 0;
+      padding: 6px 12px;
+      border-radius: 6px;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+    .text-balance {
+      text-wrap: balance;
     }
 
-    /* Badge indicators */
-    .badge-ped {
-      background: rgba(6, 182, 212, 0.15);
-      border: 1px solid rgba(6, 182, 212, 0.35);
-      color: #22d3ee;
-    }
-    .badge-pedytb {
-      background: rgba(168, 85, 247, 0.15);
-      border: 1px solid rgba(168, 85, 247, 0.35);
-      color: #c084fc;
-    }
-    .badge-anki {
-      background: rgba(244, 63, 94, 0.15);
-      border: 1px solid rgba(244, 63, 94, 0.35);
-      color: #fb7185;
-    }
+    /* Zen Mode */
+    body.zen-mode #sidebar { display: none !important; }
+    body.zen-mode #mainTopBar { display: none !important; }
+    body.zen-mode #zenFloatingDock { display: flex !important; }
+    body.zen-mode #articleContainer { max-width: 62ch; margin: 0 auto; }
 
-    /* Drop animation */
-    .drag-over {
-      border-color: #38bdf8 !important;
-      background: rgba(56, 189, 248, 0.08) !important;
+    /* Reduced Motion */
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto !important; }
+      * { transition: none !important; animation: none !important; }
     }
   </style>
 </head>
-<body class="h-screen flex flex-col overflow-hidden select-text">
+<body class="h-screen w-screen flex overflow-hidden select-text bg-[var(--bg)] text-[var(--text)]">
+  <!-- Link bỏ qua tới nội dung cho bàn phím / screen reader -->
+  <a href="#scrollViewport" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:px-3 focus:py-1.5 focus:bg-[var(--surface-2)] focus:border-2 focus:border-[var(--accent)] focus:rounded-md focus:text-xs focus:text-[var(--text)] focus:font-semibold">Bỏ qua tới nội dung</a>
 
-  <!-- ================= TOP NAVBAR ================= -->
-  <header class="h-14 border-b border-white/10 bg-[#0c1322] px-4 flex items-center justify-between shrink-0 z-30">
-    <div class="flex items-center gap-3">
-      <button id="toggleSidebarBtn" class="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-slate-300 transition" title="Ẩn/Hiện Mục lục">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"/></svg>
-      </button>
-      <div class="flex items-center gap-2">
-        <span class="text-xl">🩺</span>
-        <span class="font-extrabold text-sm sm:text-base tracking-tight text-slate-100">PedViewer</span>
-        <span class="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded font-mono bg-white/5 text-cyan-400 border border-white/10">Nhi Khoa YTB</span>
-      </div>
-      <div class="h-4 w-[1px] bg-white/10 mx-1 hidden sm:block"></div>
-      <div id="currentLessonHeader" class="text-xs sm:text-sm font-semibold text-slate-200 truncate max-w-xs sm:max-w-md hidden md:block">
-        Đang tải bài học...
+  <!-- ================= A. SIDEBAR (~288px) ================= -->
+  <aside id="sidebar" class="w-[288px] border-r border-[var(--border)] bg-[var(--surface)] flex flex-col shrink-0 z-20 transition-all duration-150">
+    <!-- 1. Header Sidebar: Logo HungMed / BS. Đỗ Văn Ngọc Hưng -->
+    <div class="h-12 px-3 border-b border-[var(--border)] flex items-center justify-between shrink-0 bg-[var(--surface)]">
+      <div class="flex items-center gap-2 min-w-0">
+        <svg class="w-4 h-4 text-[var(--accent)] shrink-0" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 3v5a4.5 4.5 0 0 0 9 0V3"/><path d="M9 12.5v4a4.5 4.5 0 0 0 9 0v-2"/><circle cx="18" cy="12" r="2.5"/></svg>
+        <div class="truncate">
+          <span class="font-bold text-sm tracking-tight text-[var(--text)]">HungMed</span>
+          <span class="text-[11px] text-[var(--text-muted)] block truncate -mt-0.5">BS. Đỗ Văn Ngọc Hưng</span>
+        </div>
       </div>
     </div>
 
-    <!-- VIEW MODES SELECTOR -->
-    <div class="flex items-center bg-white/5 border border-white/10 rounded-xl p-0.5 gap-0.5">
-      <button onclick="setViewMode('split')" id="btn-view-split" class="px-2.5 py-1 rounded-lg text-xs font-bold transition flex items-center gap-1.5 bg-cyan-500/20 text-cyan-300 border border-cyan-500/40" title="Xem song song PED + Sách YTB">
-        <span>🌗</span> <span class="hidden sm:inline">Song song</span>
-      </button>
-      <button onclick="setViewMode('ped')" id="btn-view-ped" class="px-2.5 py-1 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition flex items-center gap-1.5" title="Chỉ xem bài học chuẩn PED">
-        <span>📘</span> <span class="hidden sm:inline">PED Chuẩn</span>
-      </button>
-      <button onclick="setViewMode('pedytb')" id="btn-view-pedytb" class="px-2.5 py-1 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition flex items-center gap-1.5" title="Chỉ xem giáo trình mở rộng PEDYTB">
-        <span>📕</span> <span class="hidden sm:inline">Sách YTB</span>
-      </button>
-      <button onclick="setViewMode('anki')" id="btn-view-anki" class="px-2.5 py-1 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition flex items-center gap-1.5" title="Xem thẻ Anki">
-        <span>🗂️</span> <span class="hidden sm:inline">Thẻ Anki</span>
-      </button>
+    <!-- 2. Segmented control chọn chuyên khoa (Nhi khoa | Sản khoa) -->
+    <div class="p-2.5 border-b border-[var(--border)] bg-[var(--surface)]">
+      <div class="grid grid-cols-2 p-0.5 rounded-lg border border-[var(--border)] bg-[var(--surface-2)] gap-1 text-xs font-semibold">
+        <button onclick="switchSpecialty('ped')" id="tab-ped" class="py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 bg-[var(--surface)] text-[var(--text)] shadow-sm">
+          <span>Nhi khoa</span> <span class="text-[10px] font-mono tabular-nums text-[var(--text-muted)]" id="count-ped">(33)</span>
+        </button>
+        <button onclick="switchSpecialty('obgyn')" id="tab-obgyn" class="py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--text)]">
+          <span>Sản khoa</span> <span class="text-[10px] font-mono tabular-nums text-[var(--text-muted)]" id="count-obgyn">(54)</span>
+        </button>
+      </div>
     </div>
 
-    <!-- CONTROLS: SYNC SCROLL, FONT, THEME -->
-    <div class="flex items-center gap-2">
-      <!-- Sync Scroll Toggle -->
-      <button onclick="toggleSyncScroll()" id="syncScrollBtn" class="px-2 py-1 rounded-lg text-xs font-mono bg-white/5 hover:bg-white/10 text-cyan-400 border border-cyan-500/30 transition flex items-center gap-1" title="Đồng bộ cuộn trang hai cột">
-        <span id="syncIcon">🔗</span> <span class="hidden xl:inline">Sync Scroll</span>
-      </button>
+    <!-- 3. Ô tìm kiếm (Ctrl+K) -->
+    <div class="p-2.5 border-b border-[var(--border)]">
+      <div class="relative flex items-center">
+        <svg class="w-3.5 h-3.5 text-[var(--text-muted)] absolute left-2.5 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        <input type="text" id="searchInput" oninput="filterLessons()" placeholder="Tìm bài học, từ khóa…" class="w-full bg-[var(--bg)] border border-[var(--border)] rounded-md px-2.5 py-1.5 pl-7 pr-14 text-xs text-[var(--text)] placeholder-[var(--text-muted)] focus:outline-none focus:border-[var(--accent)]">
+        <span class="absolute right-2 flex items-center gap-0.5 pointer-events-none text-[10px] text-[var(--text-muted)] font-mono">
+          <kbd class="px-1 py-0.2 rounded bg-[var(--surface-2)] border border-[var(--border)]">Ctrl</kbd>
+          <kbd class="px-1 py-0.2 rounded bg-[var(--surface-2)] border border-[var(--border)]">K</kbd>
+        </span>
+      </div>
+    </div>
 
-      <!-- Font Size -->
-      <div class="flex items-center bg-white/5 rounded-lg border border-white/10 px-1 py-0.5">
-        <button onclick="changeFontSize(-1)" class="px-1.5 py-0.5 text-xs text-slate-400 hover:text-white font-mono" title="Giảm cỡ chữ">A-</button>
-        <span id="fontSizeDisplay" class="text-[11px] font-mono px-1 text-slate-300">15</span>
-        <button onclick="changeFontSize(1)" class="px-1.5 py-0.5 text-xs text-slate-400 hover:text-white font-mono" title="Tăng cỡ chữ">A+</button>
+    <!-- 4. Danh sách bài học -->
+    <div id="lessonsList" class="flex-1 overflow-y-auto p-2 space-y-0.5"></div>
+
+    <!-- 5. Chân sidebar -->
+    <div class="p-2.5 border-t border-[var(--border)] text-[11px] text-[var(--text-muted)] flex items-center justify-between">
+      <span id="sidebarTotalLabel">33 bài · Nhi khoa</span>
+      <button onclick="openDropModal()" class="hover:text-[var(--text)] flex items-center gap-1.5">
+        <svg class="w-3.5 h-3.5" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        <span>Nạp file .md</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- ================= B. MAIN (CHỈ CÓ ĐÚNG 1 THANH TRÊN 48PX) ================= -->
+  <main class="flex-1 flex flex-col overflow-hidden bg-[var(--bg)] min-w-0 relative">
+
+    <!-- THANH TRÊN DUY NHẤT (CAO 48PX) -->
+    <header id="mainTopBar" class="h-12 border-b border-[var(--border)] bg-[var(--surface)] px-3 flex items-center justify-between shrink-0 z-30">
+      <div class="flex items-center gap-2 min-w-0 mr-2">
+        <button id="sidebarToggleBtn" onclick="toggleSidebar()" aria-label="Đóng/mở danh sách bài" class="p-1.5 rounded hover:bg-[var(--surface-2)] text-[var(--text-muted)] hover:text-[var(--text)] transition">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"/></svg>
+        </button>
+        <div id="collapsedBrand" class="hidden items-center gap-1.5 font-bold text-xs text-[var(--text)] shrink-0">
+          <svg class="w-4 h-4 text-[var(--accent)] shrink-0" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 3v5a4.5 4.5 0 0 0 9 0V3"/><path d="M9 12.5v4a4.5 4.5 0 0 0 9 0v-2"/><circle cx="18" cy="12" r="2.5"/></svg>
+          <span>HungMed</span>
+        </div>
+        <nav aria-label="Vị trí trang" class="truncate text-xs font-medium text-[var(--text-muted)]">
+          <span id="breadcrumbText">Block 4 — Tiêu hóa &amp; Dinh dưỡng Nhi khoa › PED-46</span>
+        </nav>
       </div>
 
-      <!-- Cloud Sync Button -->
-      <button onclick="forceSyncCloud()" id="cloudSyncBtn" class="px-2.5 py-1 rounded-lg text-xs font-semibold bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10 transition flex items-center gap-1" title="Đồng bộ lại toàn bộ dữ liệu mới nhất từ GitHub Cloud">
-        <span>🔄</span> <span class="hidden lg:inline">Cập nhật Cloud</span>
-      </button>
+      <div class="flex items-center gap-1.5 text-xs shrink-0">
+        <!-- Chế độ xem: Segmented control -->
+        <div id="pedViewModesWrap" class="flex items-center bg-[var(--surface-2)] border border-[var(--border)] rounded-md p-0.5 text-xs font-medium">
+          <button id="btn-view-ped" onclick="setViewMode('ped')" class="px-2.5 py-1 rounded text-xs font-medium transition bg-[var(--surface)] text-[var(--text)] shadow-sm">PED chuẩn</button>
+          <button id="btn-view-pedytb" onclick="setViewMode('pedytb')" class="px-2.5 py-1 rounded text-xs font-medium transition text-[var(--text-muted)] hover:text-[var(--text)]">Sách YTB</button>
+          <button id="btn-view-split" onclick="setViewMode('split')" class="px-2.5 py-1 rounded text-xs font-medium transition text-[var(--text-muted)] hover:text-[var(--text)]">Song song</button>
+        </div>
 
-      <!-- Checklist Link -->
-      <a href="checklist.html" class="px-2.5 py-1 rounded-lg text-xs font-semibold bg-cyan-600/20 hover:bg-cyan-600/40 text-cyan-300 border border-cyan-500/30 transition flex items-center gap-1" title="Mở Sổ Tay Ôn Tập & Checklist Thông Minh">
-        <span>📋</span> <span class="hidden md:inline">Checklist Ôn</span>
-      </a>
-      <!-- Mobile View Link -->
-      <a href="mobile.html" onclick="localStorage.setItem('ped_viewer_target','mobile')" class="px-2.5 py-1 rounded-lg text-xs font-semibold bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10 transition flex items-center gap-1" title="Chuyển sang giao diện Điện thoại">
-        <span>📱</span> <span class="hidden md:inline">Bản Mobile</span>
-      </a>
-      <!-- Theme Switcher -->
-      <button onclick="cycleTheme()" id="themeBtn" class="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-slate-300 transition text-xs" title="Chuyển nền: Dark / Sepia / Light">
-        🌙
-      </button>
-    </div>
-  </header>
-
-  <!-- ================= MAIN WORKSPACE ================= -->
-  <div class="flex-1 flex overflow-hidden relative">
-
-    <!-- SIDEBAR: CURRICULUM & SEARCH -->
-    <aside id="sidebar" class="w-80 border-r border-white/10 bg-[#0a101d] flex flex-col shrink-0 transition-all duration-200 z-20">
-      <!-- Search & Filters -->
-      <div class="p-3 border-b border-white/10 space-y-2">
+        <!-- 2. Mục lục ▾ (chỉ hiện khi không có cột mục lục bên phải) -->
         <div class="relative">
-          <input type="text" id="searchInput" oninput="filterLessons()" placeholder="Tìm kiếm bài học, ID, triệu chứng..." class="w-full bg-white/5 border border-white/10 rounded-xl px-3 py-1.5 pl-8 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-cyan-500/50">
-          <svg class="w-4 h-4 text-slate-400 absolute left-2.5 top-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-        </div>
-
-        <!-- Quick filter badges -->
-        <div class="flex items-center gap-1.5 overflow-x-auto pb-1 text-[11px]">
-          <button onclick="setFilter('all')" id="flt-all" class="px-2 py-0.5 rounded-md bg-white/10 text-white font-medium shrink-0">Tất cả (46)</button>
-          <button onclick="setFilter('ped')" id="flt-ped" class="px-2 py-0.5 rounded-md bg-white/5 text-cyan-400 hover:bg-white/10 shrink-0">Có PED</button>
-          <button onclick="setFilter('pedytb')" id="flt-pedytb" class="px-2 py-0.5 rounded-md bg-white/5 text-purple-400 hover:bg-white/10 shrink-0">Có PEDYTB</button>
-          <button onclick="setFilter('anki')" id="flt-anki" class="px-2 py-0.5 rounded-md bg-white/5 text-rose-400 hover:bg-white/10 shrink-0">Có Anki</button>
-        </div>
-      </div>
-
-      <!-- Lessons List -->
-      <div id="lessonsList" class="flex-1 overflow-y-auto p-2 space-y-1">
-        <!-- Injected via JavaScript -->
-      </div>
-
-      <!-- Drag & Drop Dropzone for external markdown files -->
-      <div id="dropzone" class="p-3 border-t border-white/10 bg-black/20 text-center">
-        <label class="cursor-pointer block border border-dashed border-white/20 rounded-xl p-2.5 hover:border-cyan-500/50 transition">
-          <input type="file" id="filePicker" accept=".md,.txt,.json" class="hidden" onchange="handleFileSelect(event)">
-          <div class="text-[11px] font-semibold text-slate-300 flex items-center justify-center gap-1.5">
-            <span>📥</span> <span>Kéo thả hoặc Nạp file .md</span>
+          <button onclick="toggleTocDropdown()" id="tocDropdownBtn" class="px-2 py-1 rounded border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:text-[var(--text)] flex items-center gap-1 font-medium transition" aria-label="Mục lục bài đọc">
+            <span>Mục lục ▾</span>
+          </button>
+          <div id="tocDropdownMenu" class="hidden absolute right-0 mt-1 w-64 max-h-96 overflow-y-auto bg-[var(--surface)] border border-[var(--border)] rounded-lg shadow-xl p-2 z-50 text-xs space-y-1">
+            <div class="text-[11px] font-bold text-[var(--text-muted)] px-2 py-1 uppercase tracking-wider border-b border-[var(--border)] mb-1">Trong bài này</div>
+            <div id="tocDropdownList" class="space-y-0.5"></div>
           </div>
-          <p class="text-[9px] text-slate-500 mt-0.5">Hỗ trợ đọc ngay lập tức file PED hoặc PEDYTB mới</p>
-        </label>
-      </div>
-    </aside>
-
-    <!-- CONTENT DISPLAY AREA -->
-    <main class="flex-1 flex flex-col overflow-hidden bg-[#070b13]">
-
-      <!-- Active Article Subbar -->
-      <div class="h-10 border-b border-white/5 bg-white/[0.015] px-4 flex items-center justify-between shrink-0 text-xs">
-        <div class="flex items-center gap-2">
-          <span id="activeBadgeID" class="px-2 py-0.5 rounded font-mono font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40">PED-46</span>
-          <span id="activeLessonTitle" class="font-bold text-slate-200">Tiếp cận gan to ở trẻ em</span>
         </div>
-        <div class="flex items-center gap-3 text-slate-400 text-[11px]">
-          <span id="statPedInfo">📘 PED: <b class="text-slate-300">Chưa có</b></span>
-          <span id="statPedytbInfo">📕 Sách YTB: <b class="text-purple-300">Sẵn sàng (Tr. 37-44)</b></span>
-          <span id="statCardsInfo">🗂️ Anki: <b class="text-rose-300">0 thẻ</b></span>
-        </div>
-      </div>
 
-      <!-- Split Screen / Document Viewer Container -->
-      <div id="documentContainer" class="flex-1 flex overflow-hidden">
+        <!-- 3. Sao chép -->
+        <button onclick="copyCurrentContent()" id="copyBtn" class="px-2.5 py-1 rounded border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:text-[var(--text)] flex items-center gap-1 transition" title="Sao chép Markdown nguồn đang xem" aria-label="Sao chép Markdown">
+          <span>Sao chép</span>
+        </button>
 
-        <!-- COLUMN 1: PED LESSON (Chuẩn hóa Why-based) -->
-        <div id="colPed" class="flex-1 flex flex-col border-r border-white/10 overflow-hidden bg-[#090e17]/80">
-          <div class="px-4 py-2 border-b border-white/5 bg-cyan-950/20 flex items-center justify-between shrink-0">
-            <div class="flex items-center gap-2">
-              <span class="text-xs font-bold text-cyan-400 flex items-center gap-1">
-                <span>📘</span> BÀI HỌC CHUẨN (PED CLINICAL WHY-BASED)
-              </span>
-              <span id="pedFilenameBadge" class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-white/5 text-slate-400">PED-XX.md</span>
+        <!-- Aa Popover -->
+        <div class="relative">
+          <button onclick="toggleAaPopover()" id="aaBtn" class="px-2.5 py-1 rounded border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:text-[var(--text)] font-mono font-medium" aria-label="Cài đặt cỡ chữ và giao diện">
+            Aa
+          </button>
+          <div id="aaPopoverMenu" class="hidden absolute right-0 mt-1 w-52 bg-[var(--surface)] border border-[var(--border)] rounded-lg shadow-xl p-3 z-50 space-y-3 text-xs">
+            <div>
+              <div class="text-[11px] font-semibold text-[var(--text-muted)] mb-1.5 uppercase tracking-wider">Cỡ chữ</div>
+              <div class="flex items-center justify-between bg-[var(--surface-2)] border border-[var(--border)] rounded p-1">
+                <button onclick="changeFontSize(-1)" class="w-7 h-6 rounded flex items-center justify-center font-mono hover:bg-[var(--surface)] text-[var(--text)]">A−</button>
+                <span id="fontSizeDisplay" class="font-mono text-[var(--text)] font-semibold">16px</span>
+                <button onclick="changeFontSize(1)" class="w-7 h-6 rounded flex items-center justify-center font-mono hover:bg-[var(--surface)] text-[var(--text)]">A+</button>
+              </div>
             </div>
-            <button onclick="copyContent('ped')" class="text-[11px] text-slate-400 hover:text-white px-2 py-0.5 rounded bg-white/5 transition" title="Sao chép nội dung bài">
-              📋 Copy
+            <div>
+              <div class="text-[11px] font-semibold text-[var(--text-muted)] mb-1.5 uppercase tracking-wider">Giao diện</div>
+              <div class="grid grid-cols-2 gap-1 bg-[var(--surface-2)] border border-[var(--border)] rounded p-1 text-[11px] text-center">
+                <button onclick="applyTheme('dark')" id="themeOptDark" class="py-1 rounded font-medium bg-[var(--surface)] text-[var(--text)] shadow-sm">Tối</button>
+                <button onclick="applyTheme('light')" id="themeOptLight" class="py-1 rounded font-medium text-[var(--text-muted)] hover:text-[var(--text)]">Sáng</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Zen -->
+        <button onclick="toggleZenMode()" id="zenBtn" class="px-2.5 py-1 rounded border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:text-[var(--text)] font-medium transition" title="Chế độ đọc tập trung (Z)" aria-label="Chế độ đọc tập trung">
+          Zen
+        </button>
+
+        <!-- ⋯ More Menu -->
+        <div class="relative">
+          <button onclick="toggleMoreMenu()" id="moreBtn" class="p-1 px-1.5 rounded border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:text-[var(--text)] font-bold text-xs" aria-label="Tùy chọn khác">
+            ⋯
+          </button>
+          <div id="moreMenuDropdown" class="hidden absolute right-0 mt-1 w-44 bg-[var(--surface)] border border-[var(--border)] rounded-lg shadow-xl p-1 z-50 text-xs">
+            <button onclick="copyShareLink()" class="w-full text-left px-2.5 py-1.5 rounded hover:bg-[var(--surface-2)] text-[var(--text)] flex items-center justify-between">
+              <span>Sao chép link</span>
             </button>
-          </div>
-          <div id="pedContentScroll" onscroll="handleScroll(event, 'ped')" class="flex-1 overflow-y-auto p-6 sm:p-8">
-            <div id="pedArticleBody" class="prose-custom max-w-3xl mx-auto">
-              <!-- Rendered via Markdown -->
-            </div>
-          </div>
-        </div>
-
-        <!-- COLUMN 2: PEDYTB (Giáo trình mở rộng OCR) -->
-        <div id="colPedytb" class="flex-1 flex flex-col overflow-hidden bg-[#0d0f1b]/90">
-          <div class="px-4 py-2 border-b border-white/5 bg-purple-950/20 flex items-center justify-between shrink-0">
-            <div class="flex items-center gap-2">
-              <span class="text-xs font-bold text-purple-400 flex items-center gap-1">
-                <span>📕</span> GIÁO TRÌNH MỞ RỘNG (PEDYTB - BẢN GỐC SÁCH Y THÁI BÌNH)
-              </span>
-              <span id="pedytbFilenameBadge" class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-white/5 text-slate-400">PEDYTB.md</span>
-            </div>
-            <button onclick="copyContent('pedytb')" class="text-[11px] text-slate-400 hover:text-white px-2 py-0.5 rounded bg-white/5 transition" title="Sao chép văn bản sách">
-              📋 Copy
+            <button onclick="forceSyncCloud()" class="w-full text-left px-2.5 py-1.5 rounded hover:bg-[var(--surface-2)] text-[var(--text)] flex items-center justify-between">
+              <span>Cập nhật Cloud</span>
             </button>
+            <a href="mobile.html" class="block w-full text-left px-2.5 py-1.5 rounded hover:bg-[var(--surface-2)] text-[var(--text)]">
+              <span>Bản Mobile</span>
+            </a>
           </div>
-          <div id="pedytbContentScroll" onscroll="handleScroll(event, 'pedytb')" class="flex-1 overflow-y-auto p-6 sm:p-8">
-            <div id="pedytbArticleBody" class="prose-custom max-w-3xl mx-auto">
-              <!-- Rendered via Markdown -->
+        </div>
+      </div>
+    </header>
+
+    <!-- VÙNG CUỘN ĐỌC BÀI GIẢNG -->
+    <div id="scrollViewport" class="flex-1 overflow-y-auto p-4 sm:p-8 lg:p-10 relative">
+      <div id="readingWorkspaceWrap" class="max-w-[1040px] mx-auto flex items-start justify-center gap-8">
+
+        <!-- Cột bài đọc (max 62ch) -->
+        <div id="articleContainer" class="w-full max-w-[62ch] min-w-0 pb-28">
+
+          <!-- ĐẦU BÀI (META LINE -> H1 DUY NHẤT -> MÔ TẢ -> THÂN BÀI) -->
+          <header id="articleLeadHeader" class="mb-6 space-y-2">
+            <div class="flex items-center gap-2 text-xs">
+              <span id="lessonBadgeID" class="font-mono font-bold px-1.5 py-0.5 rounded bg-[var(--surface-2)] text-[var(--accent)] border border-[var(--border)]">PED-46</span>
+              <span class="text-[var(--text-muted)]">·</span>
+              <span id="priorityChip" class="px-2 py-0.5 rounded font-medium text-[11px] whitespace-nowrap bg-amber-500/10 text-[var(--warning)] border border-amber-500/20">Ưu tiên P0</span>
+              <span id="secondarySourceMeta" class="text-[var(--text-muted)] text-xs font-medium"></span>
+            </div>
+
+            <h1 id="lessonMainTitle" class="text-[2.125em] font-bold text-[var(--text)] tracking-tight leading-[1.2] text-balance">
+              Tiếp cận gan to ở trẻ em (Hepatomegaly)
+            </h1>
+
+            <p id="lessonLeadScope" class="text-[1em] text-[var(--text-secondary)] leading-relaxed max-w-[62ch]">
+              Định nghĩa kích thước gan theo tuổi &amp; công thức Nelson; kỹ thuật khám (gõ bờ trên, sờ bờ dưới, các nghiệm pháp Murphy, rung gan, ấn kẽ sườn, phản hồi gan TMC); phân loại nguyên nhân 6 cơ chế và hội chứng lâm sàng (gan to đơn thuần, gan to vàng da, gan to lách to, gan lách hạch to); chỉ định CLS định hướng.
+            </p>
+
+            <div id="keyChipsContainer" class="hidden pt-2 flex-wrap items-center gap-1.5"></div>
+          </header>
+
+          <!-- NỘI DUNG MARKDOWN ĐƠN CỘT -->
+          <div id="singleArticleBody" class="prose-reader"></div>
+
+          <!-- CHẾ ĐỘ SONG SONG (TỈ LỆ MẶC ĐỊNH 55/45, THANH CHIA KÉO/ĐỔI TỈ LỆ) -->
+          <div id="splitArticleWrap" class="hidden flex-row gap-0 w-full relative">
+            <!-- Cột trái (PED chuẩn) -->
+            <div id="splitColPed" class="pr-4 min-w-0" style="width: 55%;">
+              <div class="sticky top-0 bg-[var(--bg)] pb-2 pt-1 border-b border-[var(--border)] mb-4 flex items-center justify-between z-10">
+                <div class="flex items-center gap-1.5 border-l-2 border-[var(--accent)] pl-2 text-xs font-bold text-[var(--accent)] uppercase tracking-wider">
+                  <span>Bài học chuẩn · PED</span>
+                </div>
+                <button onclick="copyContent('ped')" aria-label="Sao chép Markdown PED chuẩn" class="p-1 rounded hover:bg-[var(--surface-2)] text-[var(--text-muted)] hover:text-[var(--text)] text-xs" title="Sao chép Markdown PED">
+                  <svg class="w-3.5 h-3.5" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                </button>
+              </div>
+              <div id="splitPedBody" class="prose-reader"></div>
+            </div>
+
+            <!-- Thanh chia cột có thể kéo hoặc bấm nút ◆ (WCAG 2.5.7, 2.1.1) -->
+            <div id="splitDivider" role="separator" tabindex="0" aria-valuenow="55" aria-valuemin="40" aria-valuemax="60" aria-label="Thanh chia tỉ lệ cột (dùng phím mũi tên trái/phải để đổi)" class="w-4 shrink-0 flex items-center justify-center cursor-col-resize select-none group relative">
+              <div class="w-px h-full bg-[var(--border)] group-hover:bg-[var(--accent)] group-focus:bg-[var(--accent)]"></div>
+              <button onclick="cycleSplitRatio()" id="splitRatioBtn" type="button" class="absolute p-1 rounded-full bg-[var(--surface)] border border-[var(--border)] text-[10px] text-[var(--text-muted)] hover:text-[var(--text)] shadow hover:scale-110 transition z-20" title="Đổi tỉ lệ (55/45, 50/50, 40/60) & cuộn đồng bộ" aria-label="Đổi tỉ lệ cột">
+                ◆
+              </button>
+            </div>
+
+            <!-- Cột phải (Sách YTB) -->
+            <div id="splitColYtb" class="pl-4 min-w-0" style="width: 45%;">
+              <div class="sticky top-0 bg-[var(--bg)] pb-2 pt-1 border-b border-[var(--border)] mb-4 flex items-center justify-between z-10">
+                <div class="flex items-center gap-1.5 border-l-2 border-[var(--src-ytb)] pl-2 text-xs font-bold text-[var(--src-ytb)] uppercase tracking-wider">
+                  <span id="splitYtbTitleLabel">ĐHYD Thái Bình · Sách YTB</span>
+                </div>
+                <button onclick="copyContent('pedytb')" aria-label="Sao chép Markdown Sách YTB" class="p-1 rounded hover:bg-[var(--surface-2)] text-[var(--text-muted)] hover:text-[var(--text)] text-xs" title="Sao chép Markdown Sách YTB">
+                  <svg class="w-3.5 h-3.5" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                </button>
+              </div>
+              <div id="splitYtbBody" class="prose-reader"></div>
             </div>
           </div>
+
         </div>
 
-        <!-- COLUMN 3: ANKI CARDS VIEWER (Optional panel) -->
-        <div id="colAnki" class="hidden flex-1 flex flex-col overflow-hidden bg-[#0d131f]">
-          <div class="px-4 py-2 border-b border-white/5 bg-rose-950/20 flex items-center justify-between shrink-0">
-            <span class="text-xs font-bold text-rose-400 flex items-center gap-1">
-              <span>🗂️</span> BỘ THẺ FLASHCARD ANKI V2 (CORE & WHY-BASED)
-            </span>
-            <span id="ankiCountBadge" class="text-xs font-mono font-bold text-rose-300">0 THẺ</span>
-          </div>
-          <div class="flex-1 overflow-y-auto p-6">
-            <div id="ankiCardsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-5xl mx-auto">
-              <!-- Injected Anki cards -->
-            </div>
-          </div>
-        </div>
+        <!-- CỘT MỤC LỤC DÍNH BÊN PHẢI (STICKY KHI MÀN HÌNH ĐỦ RỘNG) -->
+        <aside id="stickyRightToc" class="hidden xl:block w-[210px] shrink-0 sticky top-2 max-h-[calc(100vh-80px)] overflow-y-auto pl-4 border-l border-[var(--border)] text-xs space-y-1">
+          <div class="text-[11px] font-bold text-[var(--text-muted)] uppercase tracking-wider mb-2">Trong bài này</div>
+          <div id="stickyTocList" class="space-y-0.5"></div>
+        </aside>
 
       </div>
+    </div>
 
-    </main>
+    <!-- DOCK NỔI KHI BẬT ZEN MODE (GÓC DƯỚI PHẢI) -->
+    <div id="zenFloatingDock" class="hidden fixed bottom-6 right-6 bg-[var(--surface)] border border-[var(--border)] rounded-full shadow-2xl px-3 py-1.5 items-center gap-2 z-50 text-xs">
+      <button onclick="toggleTocDropdown()" class="px-2 py-1 rounded hover:bg-[var(--surface-2)] text-[var(--text-muted)] hover:text-[var(--text)]">Mục lục ▾</button>
+      <button onclick="toggleAaPopover()" class="px-2 py-1 rounded hover:bg-[var(--surface-2)] text-[var(--text-muted)] hover:text-[var(--text)] font-mono">Aa</button>
+      <button onclick="toggleZenMode()" class="px-2.5 py-1 rounded bg-[var(--surface-2)] text-[var(--text)] font-medium">Thoát Zen (Esc)</button>
+    </div>
+  </main>
+</div>
 
-  </div>
+<!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
+<script src="data.js?v=20261013_165828"></script>
 
-  <!-- LOAD DATA SCRIPT -->
-  <script src="data.js?v=20260917_174026"></script>
+<!-- APPLICATION SCRIPT LOGIC -->
+<script>
+  let currentSpecialty = 'ped'; // 'ped' | 'obgyn'
+  let currentLesson = null;
+  let currentViewMode = 'ped'; // 'ped' | 'pedytb' | 'split'
+  let currentTheme = 'dark';
+  let currentFontSize = 16;
+  let h1Observer = null;
 
-  <!-- APPLICATION LOGIC SCRIPT -->
-  <script>
-    let currentLesson = null;
-    let currentViewMode = 'split'; // split | ped | pedytb | anki
-    let currentTheme = 'dark'; // dark | sepia | light
-    let currentFontSize = 15;
-    let syncScrollEnabled = true;
-    let currentFilter = 'all';
+  document.addEventListener('DOMContentLoaded', () => {
+    // 1. Phục hồi cấu hình (mặc định luôn là dark theme chuẩn)
+    const savedTheme = localStorage.getItem('hungmed_theme') || 'dark';
+    applyTheme(savedTheme);
 
-    const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/ngochung123s/mavisresearch/main/Bai%20hoc%20y%20khoa/12_Nhi%20khoa/CATALOG_PED_VIEWER.json';
-    const CACHE_KEY = 'ped_library_cache_v1';
+    try {
+      const savedFont = localStorage.getItem('hungmed_font');
+      if (savedFont) applyFontSize(Number(savedFont));
 
-    // Initialize application
-    document.addEventListener('DOMContentLoaded', () => {
-      bootstrapLibrary();
-      setupDragAndDrop();
+      const savedSpec = localStorage.getItem('hungmed_specialty');
+      if (savedSpec === 'ped' || savedSpec === 'obgyn') currentSpecialty = savedSpec;
+    } catch(e) {}
+
+    // 2. Setup IntersectionObserver cho H1
+    setupH1Observer();
+
+    // 3. Khởi động ứng dụng
+    initApp();
+    setupKeyboardShortcuts();
+  });
+
+  function setupH1Observer() {
+    const h1El = document.getElementById('lessonMainTitle');
+    if (!h1El) return;
+    if (h1Observer) h1Observer.disconnect();
+
+    h1Observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const breadcrumbEl = document.getElementById('breadcrumbText');
+        if (!currentLesson) return;
+        if (entry.isIntersecting) {
+          // H1 đang hiện trên màn hình
+          const groupName = currentLesson.block || currentLesson.chapter || '';
+          breadcrumbEl.textContent = `${groupName} › ${currentLesson.id}`;
+        } else {
+          // H1 đã cuộn khuất
+          breadcrumbEl.textContent = `${currentLesson.id} · ${currentLesson.title}`;
+        }
+      });
+    }, { root: document.getElementById('scrollViewport'), threshold: 0.1 });
+
+    h1Observer.observe(h1El);
+  }
+
+  function getUnifiedData() {
+    if (window.HUNG_MED_DATA) return window.HUNG_MED_DATA;
+    const pedLessons = (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.lessons) ? window.PED_LIBRARY_DATA.lessons : [];
+    const obgynLessons = window.SAN_KHOA_DATA || [];
+    return {
+      metadata: (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.metadata) || { total_ped: pedLessons.length, total_obgyn: obgynLessons.length },
+      ped: pedLessons,
+      obgyn: obgynLessons
+    };
+  }
+
+  function initApp() {
+    const data = getUnifiedData();
+    const pCount = (data.ped || []).length;
+    const oCount = (data.obgyn || []).length;
+
+    document.getElementById('count-ped').textContent = `(${pCount})`;
+    document.getElementById('count-obgyn').textContent = `(${oCount})`;
+
+    // Rule 5.12: Parse URL params
+    const urlParams = new URLSearchParams(window.location.search);
+    const kParam = urlParams.get('k');
+    const baiParam = urlParams.get('bai');
+    const xemParam = urlParams.get('xem');
+
+    if (kParam === 'nhi' || kParam === 'ped') currentSpecialty = 'ped';
+    else if (kParam === 'san' || kParam === 'obgyn') currentSpecialty = 'obgyn';
+
+    if (xemParam === 'song-song' || xemParam === 'split') currentViewMode = 'split';
+    else if (xemParam === 'pedytb' || xemParam === 'ytb') currentViewMode = 'pedytb';
+    else if (xemParam === 'ped') currentViewMode = 'ped';
+
+    updateSpecialtyView(baiParam);
+
+    if (window.location.hash) {
+      setTimeout(() => {
+        const target = document.getElementById(window.location.hash.slice(1));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      }, 350);
+    }
+  }
+
+  function switchSpecialty(spec) {
+    if (currentSpecialty === spec) return;
+    currentSpecialty = spec;
+    try { localStorage.setItem('hungmed_specialty', spec); } catch(e) {}
+    document.getElementById('searchInput').value = '';
+    updateSpecialtyView();
+  }
+
+  function updateSpecialtyView(preferLessonId) {
+    const isPed = currentSpecialty === 'ped';
+    const data = getUnifiedData();
+    const tabPed = document.getElementById('tab-ped');
+    const tabObgyn = document.getElementById('tab-obgyn');
+    const pedSelector = document.getElementById('pedViewModesWrap');
+
+    if (isPed) {
+      tabPed.className = 'py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 bg-[var(--surface)] text-[var(--text)] shadow-sm';
+      tabObgyn.className = 'py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--text)]';
+      pedSelector.classList.remove('hidden');
+      pedSelector.classList.add('flex');
+      document.getElementById('sidebarTotalLabel').textContent = `${(data.ped || []).length} bài · Nhi khoa`;
+    } else {
+      tabObgyn.className = 'py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 bg-[var(--surface)] text-[var(--text)] shadow-sm';
+      tabPed.className = 'py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--text)]';
+      pedSelector.classList.add('hidden');
+      pedSelector.classList.remove('flex');
+      document.getElementById('sidebarTotalLabel').textContent = `${(data.obgyn || []).length} bài · Sản khoa`;
+    }
+
+    const pool = isPed ? (data.ped || []) : (data.obgyn || []);
+    renderSidebarList(pool);
+
+    let defLesson = null;
+    if (preferLessonId) {
+      defLesson = pool.find(l => l.id.toLowerCase() === preferLessonId.toLowerCase());
+    }
+    if (!defLesson) {
+      defLesson = isPed
+        ? (pool.find(l => l.id === 'PED-46') || pool.find(l => l.has_ped || l.has_pedytb) || pool[0])
+        : (pool.find(l => l.id === 'SK-01') || pool[0]);
+    }
+
+    if (defLesson) {
+      selectLesson(defLesson.id);
+    }
+  }
+
+  let collapsedBlocks = [];
+  try {
+    const savedCollapsed = localStorage.getItem('hungmed_collapsed_blocks');
+    if (savedCollapsed) collapsedBlocks = JSON.parse(savedCollapsed);
+  } catch(e) {}
+
+  function toggleBlockCollapse(groupTitle) {
+    const idx = collapsedBlocks.indexOf(groupTitle);
+    if (idx >= 0) {
+      collapsedBlocks.splice(idx, 1);
+    } else {
+      collapsedBlocks.push(groupTitle);
+    }
+    try { localStorage.setItem('hungmed_collapsed_blocks', JSON.stringify(collapsedBlocks)); } catch(e) {}
+    const data = getUnifiedData();
+    const pool = currentSpecialty === 'ped' ? (data.ped || []) : (data.obgyn || []);
+    renderSidebarList(pool);
+  }
+
+  function renderSidebarList(lessons) {
+    const listEl = document.getElementById('lessonsList');
+    listEl.innerHTML = '';
+
+    // Group lessons by block or chapter
+    const groups = {};
+    lessons.forEach(l => {
+      const g = l.block || l.chapter || 'Chuyên đề';
+      if (!groups[g]) groups[g] = [];
+      groups[g].push(l);
     });
 
-    function saveDataCache(data) {
-      try {
-        localStorage.setItem(CACHE_KEY, JSON.stringify(data));
-      } catch (e) {
-        console.warn('Cannot save to localStorage:', e);
-      }
-    }
+    const activeGroup = currentLesson ? (currentLesson.block || currentLesson.chapter) : null;
 
-    function loadDataCache() {
-      try {
-        const str = localStorage.getItem(CACHE_KEY);
-        return str ? JSON.parse(str) : null;
-      } catch (e) {
-        return null;
-      }
-    }
+    Object.keys(groups).forEach(groupTitle => {
+      const items = groups[groupTitle];
+      // Active group is ALWAYS open per rule 5.1
+      const isCollapsed = collapsedBlocks.includes(groupTitle) && groupTitle !== activeGroup;
 
-    async function bootstrapLibrary() {
-      // 1. Render immediately from in-memory or localStorage cache for instant load
-      let hasRendered = false;
-      if (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.lessons && window.PED_LIBRARY_DATA.lessons.length > 0) {
-        initLibraryUI();
-        hasRendered = true;
-      } else {
-        const cached = loadDataCache();
-        if (cached && cached.lessons && cached.lessons.length > 0) {
-          window.PED_LIBRARY_DATA = cached;
-          initLibraryUI();
-          hasRendered = true;
-        }
-      }
+      const groupWrap = document.createElement('div');
+      groupWrap.className = 'mb-1';
 
-      // 2. Fetch fresh catalog from Netlify origin (stale-while-revalidate)
-      try {
-        const resp = await fetch('CATALOG_PED_VIEWER.json?t=' + Date.now(), { cache: 'no-store' });
-        if (resp.ok) {
-          const freshData = await resp.json();
-          if (freshData && freshData.lessons && freshData.lessons.length > 0) {
-            const currentCount = (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.lessons) ? window.PED_LIBRARY_DATA.lessons.length : 0;
-            const currentVer = (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.metadata) ? window.PED_LIBRARY_DATA.metadata.version : '';
-            const freshVer = (freshData.metadata) ? freshData.metadata.version : '';
+      const headerBtn = document.createElement('button');
+      headerBtn.type = 'button';
+      headerBtn.className = 'block-header-btn';
+      headerBtn.setAttribute('aria-expanded', !isCollapsed);
+      headerBtn.onclick = () => toggleBlockCollapse(groupTitle);
 
-            if (!hasRendered || freshData.lessons.length !== currentCount || freshVer !== currentVer) {
-              window.PED_LIBRARY_DATA = freshData;
-              saveDataCache(freshData);
-              initLibraryUI();
-              console.log(`[PedViewer] Đã đồng bộ ${freshData.lessons.length} bài học mới nhất từ máy chủ.`);
-            }
-            return;
-          }
-        }
-      } catch (e) {
-        console.warn("[PedViewer] Không thể fetch CATALOG_PED_VIEWER.json từ máy chủ:", e);
-      }
+      const chevronIcon = isCollapsed
+        ? '<svg class="w-3.5 h-3.5 text-[var(--text-muted)] shrink-0 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>'
+        : '<svg class="w-3.5 h-3.5 text-[var(--text-muted)] shrink-0 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>';
 
-      if (!hasRendered) {
-        console.warn("Chưa tìm thấy data.js hoặc nguồn dữ liệu nào. Hãy dùng nút Kéo thả để nạp file.");
-      }
-    }
+      headerBtn.innerHTML = `
+        <div class="flex items-center gap-1.5 min-w-0 pr-2">
+          ${chevronIcon}
+          <span class="truncate">${groupTitle}</span>
+        </div>
+        <span class="block-count">${items.length}</span>
+      `;
+      groupWrap.appendChild(headerBtn);
 
-    function initLibraryUI() {
-      if (!window.PED_LIBRARY_DATA || !window.PED_LIBRARY_DATA.lessons) return;
-      document.getElementById('flt-all').textContent = `Tất cả (${window.PED_LIBRARY_DATA.lessons.length})`;
-      renderSidebar(window.PED_LIBRARY_DATA.lessons);
+      const itemsWrap = document.createElement('div');
+      itemsWrap.className = isCollapsed ? 'hidden' : 'space-y-0.5 mt-0.5';
 
-      // Auto-select PED-46 or first lesson with data
-      const defaultLesson = window.PED_LIBRARY_DATA.lessons.find(l => l.id === 'PED-46') ||
-                            window.PED_LIBRARY_DATA.lessons.find(l => l.has_ped || l.has_pedytb) ||
-                            window.PED_LIBRARY_DATA.lessons[0];
-      if (defaultLesson) {
-        selectLesson(defaultLesson.id);
-      }
-    }
-    async function forceSyncCloud() {
-      const btn = document.getElementById('cloudSyncBtn');
-      const origText = btn.innerHTML;
-      btn.disabled = true;
-      btn.innerHTML = '<span>⏳</span> <span class="hidden lg:inline">Đang tải...</span>';
-      try {
-        let resp = await fetch('CATALOG_PED_VIEWER.json?t=' + Date.now(), { cache: 'no-store' });
-        if (!resp.ok) {
-          resp = await fetch(GITHUB_RAW_URL, { cache: 'no-cache' });
-        }
-        if (!resp.ok) throw new Error("HTTP " + resp.status);
-        const data = await resp.json();
-        if (data && data.lessons && data.lessons.length > 0) {
-          window.PED_LIBRARY_DATA = data;
-          saveDataCache(data);
-          initLibraryUI();
-          alert(`Đã đồng bộ thành công ${data.lessons.length} bài học từ máy chủ!`);
-        } else {
-          throw new Error("Dữ liệu trống");
-        }
-      } catch (err) {
-        alert("Lỗi đồng bộ: " + err.message + ". Hãy kiểm tra kết nối mạng.");
-      } finally {
-        btn.disabled = false;
-        btn.innerHTML = origText;
-      }
-    }
-
-    // Render Sidebar List
-    function renderSidebar(lessons) {
-      const listEl = document.getElementById('lessonsList');
-      listEl.innerHTML = '';
-
-      let lastBlock = '';
-
-      lessons.forEach(l => {
-        // Block header
-        if (l.block && l.block !== lastBlock) {
-          lastBlock = l.block;
-          const blockHeader = document.createElement('div');
-          blockHeader.className = 'text-[10px] uppercase font-mono font-extrabold text-slate-500 pt-3 pb-1 px-2 tracking-wider';
-          blockHeader.textContent = l.block;
-          listEl.appendChild(blockHeader);
-        }
-
-        const itemBtn = document.createElement('button');
-        itemBtn.id = `item-${l.id}`;
-        itemBtn.onclick = () => selectLesson(l.id);
+      items.forEach(l => {
+        const row = document.createElement('a');
+        row.href = `?k=${currentSpecialty}&bai=${l.id}`;
+        row.id = `sidebar-item-${l.id}`;
+        row.className = 'lesson-row';
+        row.title = l.title;
 
         const isCurrent = currentLesson && currentLesson.id === l.id;
-        itemBtn.className = `w-full text-left p-2 rounded-xl transition flex items-start justify-between gap-2 text-xs group ${
-          isCurrent ? 'bg-cyan-500/20 border border-cyan-500/40 text-white' : 'hover:bg-white/5 text-slate-300'
-        }`;
+        if (isCurrent) row.setAttribute('aria-current', 'page');
 
-        let badges = '';
-        if (l.has_ped) {
-          badges += `<span class="badge-ped text-[9px] font-mono px-1 py-0.2 rounded font-bold">PED</span> `;
-        }
-        if (l.has_pedytb) {
-          badges += `<span class="badge-pedytb text-[9px] font-mono px-1 py-0.2 rounded font-bold">YTB</span> `;
-        }
-        if (l.has_cards) {
-          badges += `<span class="badge-anki text-[9px] font-mono px-1 py-0.2 rounded font-bold">${l.cards_count}🃏</span>`;
-        }
+        row.onclick = (e) => {
+          if (!e.ctrlKey && !e.metaKey) {
+            e.preventDefault();
+            selectLesson(l.id);
+          }
+        };
 
-        itemBtn.innerHTML = `
-          <div class="flex-1 min-w-0">
-            <div class="flex items-center gap-1.5 mb-0.5">
-              <span class="font-mono font-extrabold text-cyan-400 text-[11px]">${l.id}</span>
-              <span class="font-semibold truncate">${l.title}</span>
-            </div>
-            <p class="text-[10px] text-slate-500 truncate">${l.scope || ''}</p>
-          </div>
-          <div class="shrink-0 flex items-center gap-1 pt-0.5">
-            ${badges}
-          </div>
-        `;
-        listEl.appendChild(itemBtn);
-      });
-    }
-
-    // Filter lessons in sidebar
-    function filterLessons() {
-      const q = document.getElementById('searchInput').value.toLowerCase();
-      if (!window.PED_LIBRARY_DATA) return;
-
-      const filtered = window.PED_LIBRARY_DATA.lessons.filter(l => {
-        const matchesQuery = l.id.toLowerCase().includes(q) ||
-                             l.title.toLowerCase().includes(q) ||
-                             (l.scope && l.scope.toLowerCase().includes(q));
-
-        if (!matchesQuery) return false;
-
-        if (currentFilter === 'ped') return l.has_ped;
-        if (currentFilter === 'pedytb') return l.has_pedytb;
-        if (currentFilter === 'anki') return l.has_cards;
-        return true;
-      });
-
-      renderSidebar(filtered);
-    }
-
-    function setFilter(flt) {
-      currentFilter = flt;
-      ['all', 'ped', 'pedytb', 'anki'].forEach(f => {
-        const btn = document.getElementById(`flt-${f}`);
-        if (f === flt) {
-          btn.className = 'px-2 py-0.5 rounded-md bg-cyan-500 text-slate-900 font-bold shrink-0';
+        let dots = '';
+        if (currentSpecialty === 'ped') {
+          const pedDot = l.has_ped ? '<span class="dot-source ped-filled"></span>' : '<span class="dot-source ped-empty"></span>';
+          const ytbDot = l.has_pedytb ? '<span class="dot-source ytb-filled"></span>' : '<span class="dot-source ytb-empty"></span>';
+          const sourceDesc = (l.has_ped ? 'Có PED chuẩn' : 'Chưa có PED chuẩn') + ', ' + (l.has_pedytb ? 'có Sách YTB' : 'chưa có Sách YTB');
+          dots = `<div class="source-dots" aria-label="${sourceDesc}" title="${sourceDesc}">${pedDot}${ytbDot}</div>`;
         } else {
-          btn.className = 'px-2 py-0.5 rounded-md bg-white/5 text-slate-400 hover:bg-white/10 shrink-0';
+          dots = `<span class="text-[11px] text-[var(--text-muted)] font-mono tabular-nums shrink-0 pt-0.5">${l.word_count ? l.word_count.toLocaleString() + ' từ' : ''}</span>`;
         }
-      });
-      filterLessons();
-    }
 
-    // Select Lesson
-    function selectLesson(id) {
-      if (!window.PED_LIBRARY_DATA) return;
-      const lesson = window.PED_LIBRARY_DATA.lessons.find(l => l.id === id);
-      if (!lesson) return;
-
-      currentLesson = lesson;
-
-      // Update sidebar active class
-      document.querySelectorAll('#lessonsList button').forEach(b => {
-        b.classList.remove('bg-cyan-500/20', 'border', 'border-cyan-500/40', 'text-white');
-      });
-      const activeBtn = document.getElementById(`item-${id}`);
-      if (activeBtn) {
-        activeBtn.classList.add('bg-cyan-500/20', 'border', 'border-cyan-500/40', 'text-white');
-      }
-
-      // Update Header info
-      document.getElementById('currentLessonHeader').textContent = `[${lesson.id}] ${lesson.title}`;
-      document.getElementById('activeBadgeID').textContent = lesson.id;
-      document.getElementById('activeLessonTitle').textContent = lesson.title;
-
-      document.getElementById('statPedInfo').innerHTML = `📘 PED: <b class="${lesson.has_ped ? 'text-cyan-300' : 'text-slate-500'}">${lesson.has_ped ? 'Sẵn sàng' : 'Chưa có'}</b>`;
-      document.getElementById('statPedytbInfo').innerHTML = `📕 Sách YTB: <b class="${lesson.has_pedytb ? 'text-purple-300' : 'text-slate-500'}">${lesson.has_pedytb ? 'Sẵn sàng' : 'Chưa có'}</b>`;
-      document.getElementById('statCardsInfo').innerHTML = `🗂️ Anki: <b class="${lesson.has_cards ? 'text-rose-300' : 'text-slate-500'}">${lesson.cards_count} thẻ</b>`;
-
-      document.getElementById('pedFilenameBadge').textContent = lesson.ped_file || 'Chưa biên soạn';
-      document.getElementById('pedytbFilenameBadge').textContent = lesson.pedytb_file || 'Chưa OCR';
-
-      // Render Markdown Content
-      renderMarkdownColumn('ped', lesson.ped_content || getEmptyPedPlaceholder(lesson));
-      renderMarkdownColumn('pedytb', lesson.pedytb_content || getEmptyPedytbPlaceholder(lesson));
-      renderAnkiCards(lesson.cards_data || []);
-
-      // Auto-switch view if only one type exists
-      if (!lesson.has_ped && lesson.has_pedytb && currentViewMode === 'ped') {
-        setViewMode('pedytb');
-      } else if (lesson.has_ped && !lesson.has_pedytb && currentViewMode === 'pedytb') {
-        setViewMode('ped');
-      }
-    }
-
-    // Render markdown with custom tags (e.g. <!-- Page XX -->) and strip YAML frontmatter
-    // Format Math in plain text (e.g. Anki cards)
-    function formatMathInText(str) {
-      if (!str || !window.katex) return str || '';
-      str = str.replace(/\$\$([\s\S]+?)\$\$/g, (m, expr) => {
-        try {
-          return katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false });
-        } catch(e) { return m; }
-      });
-      str = str.replace(/(^|[^\\])\$([^\$\n]+?)\$/g, (m, prefix, expr) => {
-        if (/^\d+(?:[.,]\d+)?\s*$/.test(expr)) return m;
-        try {
-          return prefix + katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
-        } catch(e) { return m; }
-      });
-      return str;
-    }
-
-    // Render markdown with custom tags, protected KaTeX math, and strip YAML frontmatter
-    function renderMarkdownColumn(type, content) {
-      const container = document.getElementById(`${type}ArticleBody`);
-      let text = (content || '').trimStart().replace(/^---\s*[\r\n]+[\s\S]*?[\r\n]+---\s*[\r\n]*/, '');
-
-      text = text.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
-        return `\n\n<div class="page-marker-banner"><span>📖 Trang ${p}</span> <span class="text-purple-300/40">•</span> <span>Giáo trình Nhi khoa Y Thái Bình</span></div>\n\n`;
-      });
-
-      const mathStore = [];
-      text = text.replace(/\$\$([\s\S]+?)\$\$/g, (m, expr) => {
-        let rendered = m;
-        if (window.katex) {
-          try {
-            rendered = katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false });
-          } catch(e) { rendered = m; }
-        }
-        const id = `@@MATH_BLOCK_${mathStore.length}@@`;
-        mathStore.push(rendered);
-        return id;
-      });
-
-      text = text.replace(/(^|[^\\])\$([^\$\n]+?)\$/g, (m, prefix, expr) => {
-        if (/^\d+(?:[.,]\d+)?\s*$/.test(expr)) return m;
-        let rendered = `$${expr}$`;
-        if (window.katex) {
-          try {
-            rendered = katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
-          } catch(e) { rendered = `$${expr}$`; }
-        }
-        const id = `@@MATH_INLINE_${mathStore.length}@@`;
-        mathStore.push(rendered);
-        return prefix + id;
-      });
-
-      let html = window.marked ? marked.parse(text) : text;
-      html = html.replace(/@@MATH_(?:BLOCK|INLINE)_(\d+)@@/g, (m, idx) => mathStore[Number(idx)] || m);
-      container.innerHTML = html;
-    }
-
-    // Render Anki Cards
-    function renderAnkiCards(cards) {
-      const grid = document.getElementById('ankiCardsGrid');
-      const badge = document.getElementById('ankiCountBadge');
-      badge.textContent = `${cards.length} THẺ`;
-      grid.innerHTML = '';
-
-      if (cards.length === 0) {
-        grid.innerHTML = `
-          <div class="col-span-full py-16 text-center text-slate-500">
-            <span class="text-4xl block mb-2">📭</span>
-            Chưa có bộ thẻ Anki cards.v2.json cho chuyên đề này.
-          </div>
+        row.innerHTML = `
+          <span class="lesson-id">${l.id}</span>
+          <span class="lesson-title">${l.title}</span>
+          ${dots}
         `;
-        return;
-      }
-
-      cards.forEach((c, idx) => {
-        const cardEl = document.createElement('div');
-        cardEl.className = 'bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col justify-between hover:border-rose-500/40 transition group';
-
-        // Track badge
-        let trackBadge = '';
-        if (c.track === 'barem_goc') {
-          trackBadge = `<span class="px-2 py-0.5 rounded font-bold font-mono text-[9px] bg-amber-500/20 text-amber-300 border border-amber-500/40">🏛️ BAREM GỐC YTB</span>`;
-        } else if (c.track === 'ebm_hien_dai') {
-          trackBadge = `<span class="px-2 py-0.5 rounded font-bold font-mono text-[9px] bg-cyan-500/20 text-cyan-300 border border-cyan-500/40">🔬 EBM & LÂM SÀNG</span>`;
-        }
-
-        // Cloze clean preview
-        let cleanText = c.text ? c.text.replace(/{{c\d+::(.*?)(?:::(.*?))?}}/g, '<span class="bg-rose-500/20 text-rose-300 border-b-2 border-rose-500 px-1 py-0.5 rounded font-bold">$1</span>') : '';
-        cleanText = formatMathInText(cleanText);
-        let extraText = formatMathInText(c.extra || '');
-
-        cardEl.innerHTML = `
-          <div>
-            <div class="flex items-center justify-between text-[10px] font-mono text-slate-500 mb-2">
-              <div class="flex items-center gap-1.5">
-                <span class="px-1.5 py-0.5 rounded bg-white/5 font-bold text-rose-400">#${idx + 1}</span>
-                ${trackBadge}
-              </div>
-              <span>${c.card_type || 'Cloze'}</span>
-            </div>
-            <div class="text-xs text-slate-200 leading-relaxed mb-3">
-              ${cleanText}
-            </div>
-          </div>
-          ${c.extra ? `
-            <div class="pt-2 border-t border-white/5 text-[11px] text-slate-400 italic">
-              <b class="${c.track === 'barem_goc' ? 'text-amber-400' : 'text-cyan-400'} not-italic">💡 ${c.track === 'barem_goc' ? 'Barem giáo trình gốc' : 'Lập luận lâm sàng & EBM'}:</b> ${extraText}
-            </div>
-          ` : ''}
-        `;
-        grid.appendChild(cardEl);
-      });
-    }
-
-    // View Modes
-    function setViewMode(mode) {
-      currentViewMode = mode;
-      const colPed = document.getElementById('colPed');
-      const colPedytb = document.getElementById('colPedytb');
-      const colAnki = document.getElementById('colAnki');
-
-      ['split', 'ped', 'pedytb', 'anki'].forEach(m => {
-        const btn = document.getElementById(`btn-view-${m}`);
-        if (m === mode) {
-          btn.className = 'px-2.5 py-1 rounded-lg text-xs font-bold transition flex items-center gap-1.5 bg-cyan-500/20 text-cyan-300 border border-cyan-500/40';
-        } else {
-          btn.className = 'px-2.5 py-1 rounded-lg text-xs font-bold text-slate-400 hover:text-white transition flex items-center gap-1.5';
-        }
+        itemsWrap.appendChild(row);
       });
 
-      if (mode === 'split') {
-        colPed.classList.remove('hidden');
-        colPedytb.classList.remove('hidden');
-        colAnki.classList.add('hidden');
-      } else if (mode === 'ped') {
-        colPed.classList.remove('hidden');
-        colPedytb.classList.add('hidden');
-        colAnki.classList.add('hidden');
-      } else if (mode === 'pedytb') {
-        colPed.classList.add('hidden');
-        colPedytb.classList.remove('hidden');
-        colAnki.classList.add('hidden');
-      } else if (mode === 'anki') {
-        colPed.classList.add('hidden');
-        colPedytb.classList.add('hidden');
-        colAnki.classList.remove('hidden');
-      }
+      groupWrap.appendChild(itemsWrap);
+      listEl.appendChild(groupWrap);
+    });
+  }
+
+  function filterLessons() {
+    const q = document.getElementById('searchInput').value.toLowerCase().trim();
+    const data = getUnifiedData();
+    const pool = currentSpecialty === 'ped' ? (data.ped || []) : (data.obgyn || []);
+
+    const filtered = pool.filter(l => {
+      return !q ||
+        l.id.toLowerCase().includes(q) ||
+        l.title.toLowerCase().includes(q) ||
+        (l.author && l.author.toLowerCase().includes(q)) ||
+        (l.block && l.block.toLowerCase().includes(q)) ||
+        (l.chapter && l.chapter.toLowerCase().includes(q));
+    });
+
+    renderSidebarList(filtered);
+    const countLabel = q ? `${filtered.length} kết quả` : (currentSpecialty === 'ped' ? `${pool.length} bài · Nhi khoa` : `${pool.length} bài · Sản khoa`);
+    document.getElementById('sidebarTotalLabel').textContent = countLabel;
+  }
+  function selectLesson(id) {
+    const data = getUnifiedData();
+    const pool = currentSpecialty === 'ped' ? (data.ped || []) : (data.obgyn || []);
+    const lesson = pool.find(l => l.id === id);
+    if (!lesson) return;
+
+    currentLesson = lesson;
+
+    // Sidebar active state
+    document.querySelectorAll('#lessonsList .lesson-row').forEach(row => {
+      row.removeAttribute('aria-current');
+    });
+    const activeRow = document.getElementById(`sidebar-item-${id}`);
+    if (activeRow) {
+      activeRow.setAttribute('aria-current', 'page');
+      activeRow.scrollIntoView({ block: 'nearest' });
     }
 
-    // Synchronized scroll
-    let isSyncing = false;
-    function handleScroll(e, source) {
-      if (!syncScrollEnabled || currentViewMode !== 'split' || isSyncing) return;
-      isSyncing = true;
+    // Update Topbar Breadcrumb
+    const groupName = lesson.block || lesson.chapter || '';
+    document.getElementById('breadcrumbText').textContent = `${groupName} › ${lesson.id}`;
 
-      const pedScroll = document.getElementById('pedContentScroll');
-      const pedytbScroll = document.getElementById('pedytbContentScroll');
+    // Update Reader Header (Lead)
+    document.getElementById('lessonBadgeID').textContent = lesson.id;
+    document.getElementById('lessonMainTitle').textContent = lesson.title;
 
-      if (source === 'ped') {
-        const pct = pedScroll.scrollTop / (pedScroll.scrollHeight - pedScroll.clientHeight || 1);
-        pedytbScroll.scrollTop = pct * (pedytbScroll.scrollHeight - pedytbScroll.clientHeight);
+    // Priority chip
+    const pChip = document.getElementById('priorityChip');
+    if (lesson.priority) {
+      pChip.textContent = `Ưu tiên ${lesson.priority}`;
+      pChip.classList.remove('hidden');
+    } else {
+      pChip.classList.add('hidden');
+    }
+
+    // Secondary meta (e.g. Sách YTB page / author)
+    const secMeta = document.getElementById('secondarySourceMeta');
+    if (currentSpecialty === 'obgyn') {
+      secMeta.textContent = lesson.author ? `· ${lesson.author}` : '';
+      secMeta.classList.remove('hidden');
+      document.getElementById('lessonLeadScope').textContent = `${lesson.chapter || ''} · ${lesson.word_count ? lesson.word_count.toLocaleString() + ' từ' : ''}`;
+    } else {
+      secMeta.classList.add('hidden');
+      document.getElementById('lessonLeadScope').textContent = lesson.scope || '';
+    }
+
+    // Key chips
+    renderKeyChips(lesson);
+
+    // Disable view modes if sources are missing
+    updateViewModeButtons(lesson);
+
+    // Render Article Content
+    renderArticleContent(lesson);
+    updateUrlState(true);
+
+    // Reset scroll
+    document.getElementById('scrollViewport').scrollTop = 0;
+  }
+
+  function updateViewModeButtons(lesson) {
+    if (currentSpecialty !== 'ped') return;
+    const btnPed = document.getElementById('btn-view-ped');
+    const btnYtb = document.getElementById('btn-view-pedytb');
+    const btnSplit = document.getElementById('btn-view-split');
+
+    if (!lesson.has_ped) {
+      btnPed.disabled = true;
+      btnPed.classList.add('opacity-40', 'cursor-not-allowed');
+      btnPed.title = "Bài này chưa có PED chuẩn";
+    } else {
+      btnPed.disabled = false;
+      btnPed.classList.remove('opacity-40', 'cursor-not-allowed');
+      btnPed.title = "";
+    }
+
+    if (!lesson.has_pedytb) {
+      btnYtb.disabled = true;
+      btnYtb.classList.add('opacity-40', 'cursor-not-allowed');
+      btnYtb.title = "Bài này chưa có Sách YTB";
+      btnSplit.disabled = true;
+      btnSplit.classList.add('opacity-40', 'cursor-not-allowed');
+    } else {
+      btnYtb.disabled = false;
+      btnYtb.classList.remove('opacity-40', 'cursor-not-allowed');
+      btnYtb.title = "";
+      btnSplit.disabled = !lesson.has_ped;
+      btnSplit.classList.toggle('opacity-40', !lesson.has_ped);
+    }
+
+    // Auto adjust view mode if current mode invalid
+    if (currentViewMode === 'ped' && !lesson.has_ped && lesson.has_pedytb) {
+      setViewMode('pedytb');
+    } else if (currentViewMode === 'pedytb' && !lesson.has_pedytb && lesson.has_ped) {
+      setViewMode('ped');
+    }
+  }
+
+  function renderKeyChips(lesson) {
+    const container = document.getElementById('keyChipsContainer');
+    const nums = lesson.key_numbers || [];
+    const drugs = lesson.key_drugs || [];
+
+    if (nums.length === 0 && drugs.length === 0) {
+      container.classList.add('hidden');
+      container.classList.remove('flex');
+      container.innerHTML = '';
+      return;
+    }
+
+    container.classList.remove('hidden');
+    container.classList.add('flex');
+
+    let html = '<span class="text-[11px] font-medium text-[var(--text-muted)] mr-1">Mốc số liệu:</span>';
+    nums.slice(0, 14).forEach(n => {
+      html += `<span class="px-2 py-0.5 rounded bg-[var(--surface-2)] border border-[var(--border)] text-[var(--text)] font-mono text-[11px]">${n}</span>`;
+    });
+    drugs.slice(0, 6).forEach(d => {
+      html += `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-[var(--surface-2)] border border-[var(--border)] text-[var(--text-secondary)] font-mono text-[11px]"><svg class="w-3 h-3 text-[var(--text-muted)]" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="10.5" y1="19.5" x2="19.5" y2="10.5"/><path d="m8.5 8.5 7 7a4.95 4.95 0 0 1-7 7l-7-7a4.95 4.95 0 0 1 7-7Z"/></svg><span>${d}</span></span>`;
+    });
+    container.innerHTML = html;
+  }
+  function setViewMode(mode) {
+    currentViewMode = mode;
+    ['ped', 'pedytb', 'split'].forEach(m => {
+      const btn = document.getElementById(`btn-view-${m}`);
+      if (!btn) return;
+      if (m === mode) {
+        btn.className = 'px-2.5 py-1 rounded text-xs font-medium transition bg-[var(--surface)] text-[var(--text)] shadow-sm';
       } else {
-        const pct = pedytbScroll.scrollTop / (pedytbScroll.scrollHeight - pedytbScroll.clientHeight || 1);
-        pedScroll.scrollTop = pct * (pedScroll.scrollHeight - pedScroll.clientHeight);
+        btn.className = 'px-2.5 py-1 rounded text-xs font-medium transition text-[var(--text-muted)] hover:text-[var(--text)]';
       }
+    });
 
-      setTimeout(() => { isSyncing = false; }, 30);
+    // Rule 5.2.3: Ở chế độ Song song nút sao chép thanh trên ẩn, mỗi cột có nút sao chép riêng
+    const copyBtn = document.getElementById('copyBtn');
+    if (copyBtn) copyBtn.classList.toggle('hidden', mode === 'split');
+
+    // Rule 5.8: Ở cửa sổ < 1440px, bật Song song thì sidebar tự thu lại
+    if (mode === 'split' && window.innerWidth < 1440) {
+      const sidebar = document.getElementById('sidebar');
+      if (sidebar && !sidebar.classList.contains('hidden')) {
+        toggleSidebar();
+      }
     }
 
-    function toggleSyncScroll() {
-      syncScrollEnabled = !syncScrollEnabled;
-      const btn = document.getElementById('syncScrollBtn');
-      if (syncScrollEnabled) {
-        btn.className = 'px-2 py-1 rounded-lg text-xs font-mono bg-white/5 hover:bg-white/10 text-cyan-400 border border-cyan-500/30 transition flex items-center gap-1';
-        document.getElementById('syncIcon').textContent = '🔗';
+    if (currentLesson) {
+      renderArticleContent(currentLesson);
+      updateUrlState(false);
+    }
+  }
+
+  function updateUrlState(isNewHistoryItem = false) {
+    if (!currentLesson) return;
+    const kVal = currentSpecialty === 'ped' ? 'nhi' : 'san';
+    const xemVal = currentViewMode === 'split' ? 'song-song' : currentViewMode;
+    const hashVal = window.location.hash || '';
+    const newUrl = `?k=${kVal}&bai=${currentLesson.id}&xem=${xemVal}${hashVal}`;
+    if (isNewHistoryItem) {
+      history.pushState(null, '', newUrl);
+    } else {
+      history.replaceState(null, '', newUrl);
+    }
+  }
+
+  let currentSplitRatio = 55;
+  function cycleSplitRatio() {
+    if (currentSplitRatio === 55) currentSplitRatio = 50;
+    else if (currentSplitRatio === 50) currentSplitRatio = 40;
+    else currentSplitRatio = 55;
+    applySplitRatio(currentSplitRatio);
+  }
+
+  function applySplitRatio(ratio) {
+    currentSplitRatio = ratio;
+    const colPed = document.getElementById('splitColPed');
+    const colYtb = document.getElementById('splitColYtb');
+    const divider = document.getElementById('splitDivider');
+    if (colPed && colYtb) {
+      colPed.style.width = ratio + '%';
+      colYtb.style.width = (100 - ratio) + '%';
+    }
+    if (divider) divider.setAttribute('aria-valuenow', ratio);
+  }
+
+  function renderArticleContent(lesson) {
+    const singleBody = document.getElementById('singleArticleBody');
+    const splitWrap = document.getElementById('splitArticleWrap');
+
+    let tocSourceMd = '';
+    let isSecondary = false;
+
+    if (currentSpecialty === 'obgyn') {
+      singleBody.classList.remove('hidden');
+      splitWrap.classList.add('hidden');
+      tocSourceMd = lesson.content || '';
+      singleBody.innerHTML = parseMarkdownWithKaTeX(lesson.content || '# Đang cập nhật...', lesson.id, false);
+    } else {
+      if (currentViewMode === 'split') {
+        singleBody.classList.add('hidden');
+        splitWrap.classList.remove('hidden');
+        splitWrap.classList.add('grid');
+        tocSourceMd = lesson.ped_content || '';
+        document.getElementById('splitPedBody').innerHTML = parseMarkdownWithKaTeX(lesson.ped_content || '> Chưa có bài PED chuẩn', lesson.id, false);
+        document.getElementById('splitYtbBody').innerHTML = parseMarkdownWithKaTeX(lesson.pedytb_content || '> Chưa có sách YTB', lesson.id, true);
+      } else if (currentViewMode === 'pedytb') {
+        singleBody.classList.remove('hidden');
+        splitWrap.classList.add('hidden');
+        tocSourceMd = lesson.pedytb_content || '';
+        isSecondary = true;
+        singleBody.innerHTML = parseMarkdownWithKaTeX(lesson.pedytb_content || '> Chưa có bản sách Y Thái Bình', lesson.id, true);
       } else {
-        btn.className = 'px-2 py-1 rounded-lg text-xs font-mono bg-white/5 hover:bg-white/10 text-slate-500 border border-white/10 transition flex items-center gap-1';
-        document.getElementById('syncIcon').textContent = '🔓';
+        singleBody.classList.remove('hidden');
+        splitWrap.classList.add('hidden');
+        tocSourceMd = lesson.ped_content || lesson.content || '';
+        singleBody.innerHTML = parseMarkdownWithKaTeX(lesson.ped_content || lesson.content || '> Đang biên soạn...', lesson.id, false);
       }
     }
 
-    // Font size controls
-    function changeFontSize(delta) {
-      currentFontSize = Math.min(24, Math.max(12, currentFontSize + delta));
-      document.documentElement.style.setProperty('--viewer-font-size', `${currentFontSize}px`);
-      document.getElementById('fontSizeDisplay').textContent = currentFontSize;
+    // Rule 5.7: Extract headings BEFORE heading demotion
+    updateTOC(tocSourceMd, isSecondary);
+  }
+
+  function slugify(text) {
+    return (text || '')
+      .toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/đ/g, 'd')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  }
+
+  function fallbackMarkdown(text) {
+    return text
+      .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+      .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+      .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+      .replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>')
+      .replace(/^\- (.*$)/gim, '<li>$1</li>')
+      .replace(/\n\n/g, '<p></p>')
+      .replace(/\n/g, '<br>');
+  }
+
+  function parseMarkdownWithKaTeX(content, lessonId, isSecondary) {
+    let text = (content || '').trimStart().replace(/^---\s*[\r\n]+[\s\S]*?[\r\n]+---\s*[\r\n]*/, '');
+    if (!text) return '<p class="text-[var(--text-muted)]">Chưa có nội dung bài giảng.</p>';
+
+    // Page banner
+    text = text.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
+      return `\n\n<div class="page-marker-banner"><svg class="w-3.5 h-3.5 text-[var(--text-muted)]" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg><span>Trang ${p} · Giáo trình ĐHYD Thái Bình</span></div>\n\n`;
+    });
+
+    // Rule 5.4.1: If first H1 starts with lessonId, do not render it
+    if (lessonId) {
+      const idEsc = lessonId.replace('-', '\\-');
+      const h1Pattern = new RegExp(`^#\\s*${idEsc}[:\\s][^\\n]*\\r?\\n*`, 'i');
+      text = text.replace(h1Pattern, '');
     }
 
-    // Theme switching
-    function cycleTheme() {
-      const themes = ['dark', 'sepia', 'light'];
-      const nextIdx = (themes.indexOf(currentTheme) + 1) % themes.length;
-      currentTheme = themes[nextIdx];
-
-      document.documentElement.classList.remove('dark', 'sepia', 'light');
-      document.documentElement.classList.add(currentTheme);
-
-      const icons = { dark: '🌙', sepia: '📜', light: '☀️' };
-      document.getElementById('themeBtn').textContent = icons[currentTheme];
+    // Rule 5.4.2: If H1 does not start with lessonId (e.g. Sách YTB: # GAN TO...),
+    // keep it but demote all headings by 1 level (# -> ##, ## -> ###, ### -> ####)
+    if (isSecondary || (text.startsWith('# ') && !text.match(/^#\s*[A-Z0-9]+-[A-Z0-9]+/i))) {
+      text = text.replace(/^(#{1,5})\s/gm, '$1# ');
     }
 
-    // Copy Content
-    function copyContent(type) {
-      if (!currentLesson) return;
-      const content = type === 'ped' ? currentLesson.ped_content : currentLesson.pedytb_content;
-      navigator.clipboard.writeText(content).then(() => {
-        alert(`Đã sao chép nội dung ${type.toUpperCase()} vào bộ nhớ tạm!`);
-      });
+    // Rule 5.4.3: Blockquote starting with "Nguồn đối chiếu" -> <details>
+    text = text.replace(/(?:^|\n)>\s*\*{0,2}Nguồn đối chiếu:?\*{0,2}\s*\n((?:>[^\n]*\n?)*)/gi, (m, body) => {
+      const lines = body.split('\n')
+        .map(l => l.replace(/^>\s*/, '').trim())
+        .filter(l => l.length > 0);
+      const bulletCount = lines.filter(l => l.startsWith('*') || l.startsWith('-')).length || lines.length;
+      const bodyMd = lines.join('\n');
+      return `\n<details class="source-ref-details"><summary>Nguồn đối chiếu (${bulletCount})</summary><div class="source-ref-content">\n\n${bodyMd}\n\n</div></details>\n`;
+    });
+
+    // Slogan rule 5.4.4: Style slogan paragraph cleanly
+    text = text.replace(/^(\*(?:Tài liệu|Tiêu chuẩn)[\s\S]*?\*)\s*$/m, (m, slogan) => {
+      return `<div class="lesson-slogan">${slogan.replace(/^\*|\*$/g, '')}</div>`;
+    });
+
+    // Protect math
+    const mathStore = [];
+    text = text.replace(/\$\$([\s\S]+?)\$\$/g, (m, expr) => {
+      let rendered = m;
+      if (window.katex && typeof window.katex.renderToString === 'function') {
+        try {
+          rendered = window.katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false });
+        } catch(e) { rendered = m; }
+      }
+      const id = `@@MATH_BLOCK_${mathStore.length}@@`;
+      mathStore.push(rendered);
+      return id;
+    });
+
+    text = text.replace(/(^|[^\\])\$([^\$\n]+?)\$/g, (m, prefix, expr) => {
+      if (/^\d+(?:[.,]\d+)?\s*$/.test(expr)) return m;
+      let rendered = `$${expr}$`;
+      if (window.katex && typeof window.katex.renderToString === 'function') {
+        try {
+          rendered = window.katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
+        } catch(e) { rendered = `$${expr}$`; }
+      }
+      const id = `@@MATH_INLINE_${mathStore.length}@@`;
+      mathStore.push(rendered);
+      return prefix + id;
+    });
+
+    let html = '';
+    try {
+      const mdObj = window.marked || (typeof marked !== 'undefined' ? marked : null);
+      if (mdObj && typeof mdObj.parse === 'function') {
+        html = mdObj.parse(text);
+      } else if (typeof mdObj === 'function') {
+        html = mdObj(text);
+      } else {
+        html = fallbackMarkdown(text);
+      }
+    } catch(e) {
+      html = fallbackMarkdown(text);
     }
 
-    // Drag and drop & File Picker
-    function setupDragAndDrop() {
-      const dropzone = document.getElementById('dropzone');
-      window.addEventListener('dragover', (e) => { e.preventDefault(); dropzone.classList.add('drag-over'); });
-      window.addEventListener('dragleave', () => { dropzone.classList.remove('drag-over'); });
-      window.addEventListener('drop', (e) => {
+    html = html.replace(/@@MATH_(?:BLOCK|INLINE)_(\d+)@@/g, (m, idx) => mathStore[Number(idx)] || m);
+
+    // Callouts Rule 5.6: Cờ đỏ, Barem, Pearl
+    html = html.replace(/<li>\s*<strong>(Bước 0 — Báo động đỏ[^<]*?)<\/strong>\s*:?(.*?)<\/li>/gi, (m, title, rest) => {
+      return `<li class="callout-box callout-danger list-none -ml-4">
+        <div class="callout-header">
+          <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+          <span>CỜ ĐỎ · ${title}</span>
+        </div>
+        <div class="text-[var(--text)] text-sm leading-relaxed">${rest}</div>
+      </li>`;
+    });
+
+    html = html.replace(/<li>\s*<strong>(Tiêu chuẩn khám lâm sàng \(Barem[^<]*?\)|Barem[^<]*?)<\/strong>\s*:?(.*?)<\/li>/gi, (m, title, rest) => {
+      return `<li class="callout-box callout-warning list-none -ml-4">
+        <div class="callout-header">
+          <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <span>BAREM THI · ${title}</span>
+        </div>
+        <div class="text-[var(--text)] text-sm leading-relaxed">${rest}</div>
+      </li>`;
+    });
+
+    // Add slugs to headings for anchors
+    html = html.replace(/<h([2-6])([^>]*)>(.*?)<\/h\1>/gi, (match, level, attrs, textInner) => {
+      const plainText = textInner.replace(/<[^>]+>/g, '').trim();
+      const slug = slugify(plainText);
+      return `<h${level}${attrs} id="${slug}">${textInner}</h${level}>`;
+    });
+
+    return html;
+  }
+
+  function extractTocHeadings(rawMarkdown, isSecondary) {
+    const headings = [];
+    const lines = (rawMarkdown || '').split('\n');
+    lines.forEach(line => {
+      const trimmed = line.trim();
+      const m = trimmed.match(/^(#{2,3})\s+(.*)$/);
+      if (m) {
+        const level = m[1].length;
+        let title = m[2].replace(/\*\*|__|\*|_/g, '').trim();
+        headings.push({
+          level,
+          title,
+          slug: slugify(title)
+        });
+      }
+    });
+    return headings;
+  }
+
+  let tocObserver = null;
+  function updateTOC(rawMarkdown, isSecondary) {
+    const stickyList = document.getElementById('stickyTocList');
+    const dropdownList = document.getElementById('tocDropdownList');
+    const stickyAside = document.getElementById('stickyRightToc');
+    const dropdownBtn = document.getElementById('tocDropdownBtn');
+    if (!stickyList || !dropdownList) return;
+
+    stickyList.innerHTML = '';
+    dropdownList.innerHTML = '';
+
+    const headings = extractTocHeadings(rawMarkdown, isSecondary);
+
+    if (headings.length === 0) {
+      if (stickyAside) stickyAside.classList.add('hidden');
+      if (dropdownBtn) dropdownBtn.classList.add('hidden');
+      return;
+    }
+
+    if (dropdownBtn) dropdownBtn.classList.remove('hidden');
+    if (stickyAside && currentViewMode !== 'split') {
+      stickyAside.classList.remove('hidden');
+    } else if (stickyAside) {
+      stickyAside.classList.add('hidden');
+    }
+
+    headings.forEach((h, idx) => {
+      const link = document.createElement('a');
+      link.href = `#${h.slug}`;
+      link.className = `toc-link ${h.level === 3 ? 'level-3' : ''}`;
+      link.textContent = h.title;
+      link.dataset.slug = h.slug;
+
+      link.onclick = (e) => {
         e.preventDefault();
-        dropzone.classList.remove('drag-over');
-        if (e.dataTransfer.files.length > 0) {
-          loadFile(e.dataTransfer.files[0]);
+        const targetEl = document.getElementById(h.slug);
+        if (targetEl) {
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          history.replaceState(null, '', `#${h.slug}`);
+          setActiveTocItem(h.slug);
+        }
+        document.getElementById('tocDropdownMenu')?.classList.add('hidden');
+      };
+
+      const dropdownLink = link.cloneNode(true);
+      dropdownLink.onclick = link.onclick;
+
+      stickyList.appendChild(link);
+      dropdownList.appendChild(dropdownLink);
+    });
+
+    setupTocObserver();
+  }
+
+  function setActiveTocItem(slug) {
+    document.querySelectorAll('.toc-link').forEach(el => {
+      el.classList.toggle('active', el.dataset.slug === slug);
+    });
+  }
+
+  function setupTocObserver() {
+    if (tocObserver) tocObserver.disconnect();
+    const headingElements = document.querySelectorAll('.prose-reader h2, .prose-reader h3');
+    if (headingElements.length === 0) return;
+
+    tocObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.target.id) {
+          setActiveTocItem(entry.target.id);
         }
       });
+    }, { root: document.getElementById('scrollViewport'), rootMargin: '-40px 0px -70% 0px' });
+
+    headingElements.forEach(el => tocObserver.observe(el));
+  }
+
+  function toggleTocDropdown() {
+    const menu = document.getElementById('tocDropdownMenu');
+    menu.classList.toggle('hidden');
+    document.getElementById('aaPopoverMenu')?.classList.add('hidden');
+    document.getElementById('moreMenuDropdown')?.classList.add('hidden');
+  }
+
+  function copyCurrentContent() {
+    if (!currentLesson) return;
+    let text = '';
+    let label = '';
+    if (currentSpecialty === 'obgyn') {
+      text = currentLesson.content || '';
+      label = `Sách Sản khoa (${currentLesson.id})`;
+    } else if (currentViewMode === 'pedytb') {
+      text = currentLesson.pedytb_content || '';
+      label = `Sách YTB (${currentLesson.pedytb_file || 'PEDYTB.md'})`;
+    } else {
+      text = currentLesson.ped_content || currentLesson.content || '';
+      label = `PED chuẩn (${currentLesson.ped_file || 'PED.md'})`;
     }
 
-    function handleFileSelect(event) {
-      if (event.target.files.length > 0) {
-        loadFile(event.target.files[0]);
+    navigator.clipboard.writeText(text).then(() => {
+      showToast(`Đã sao chép Markdown (${label})`);
+    }).catch(() => {
+      showToast("Không thể sao chép tự động.");
+    });
+  }
+
+  function copyContent(source) {
+    if (!currentLesson) return;
+    let text = '';
+    let label = '';
+    if (source === 'ped') {
+      text = currentLesson.ped_content || '';
+      label = `PED chuẩn (${currentLesson.ped_file || 'PED.md'})`;
+    } else if (source === 'pedytb') {
+      text = currentLesson.pedytb_content || '';
+      label = `Sách YTB (${currentLesson.pedytb_file || 'PEDYTB.md'})`;
+    } else {
+      text = currentLesson.content || '';
+      label = currentLesson.id;
+    }
+    navigator.clipboard.writeText(text).then(() => {
+      showToast(`Đã sao chép Markdown (${label})`);
+    }).catch(() => {
+      showToast("Không thể sao chép tự động.");
+    });
+  }
+
+  function copyShareLink() {
+    const url = window.location.href;
+    navigator.clipboard.writeText(url).then(() => {
+      showToast("Đã sao chép link bài giảng!");
+    });
+  }
+
+  function showToast(msg) {
+    let t = document.getElementById('toastNotice');
+    if (!t) {
+      t = document.createElement('div');
+      t.id = 'toastNotice';
+      t.className = 'fixed bottom-5 left-1/2 -translate-x-1/2 px-4 py-2 rounded-lg bg-[var(--surface-2)] border border-[var(--border)] text-xs text-[var(--text)] shadow-xl z-50 transition-opacity duration-200';
+      document.body.appendChild(t);
+    }
+    t.textContent = msg;
+    t.style.opacity = '1';
+    setTimeout(() => { t.style.opacity = '0'; }, 3500);
+  }
+
+  function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('hidden');
+    const brand = document.getElementById('collapsedBrand');
+    if (sidebar.classList.contains('hidden')) {
+      brand.classList.remove('hidden');
+      brand.classList.add('flex');
+    } else {
+      brand.classList.add('hidden');
+      brand.classList.remove('flex');
+    }
+  }
+
+  function toggleZenMode() {
+    document.body.classList.toggle('zen-mode');
+  }
+
+  function changeFontSize(delta) {
+    currentFontSize = Math.max(13, Math.min(22, currentFontSize + delta));
+    applyFontSize(currentFontSize);
+    try { localStorage.setItem('hungmed_font', currentFontSize); } catch(e) {}
+  }
+
+  function applyFontSize(size) {
+    currentFontSize = size;
+    document.documentElement.style.setProperty('--viewer-font-size', `${size}px`);
+    const disp = document.getElementById('fontSizeDisplay');
+    if (disp) disp.textContent = `${size}px`;
+  }
+
+  function applyTheme(theme) {
+    currentTheme = theme;
+    const html = document.documentElement;
+    html.classList.remove('dark', 'light');
+
+    let effective = theme;
+    if (theme === 'auto') {
+      effective = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    html.classList.add(effective);
+    html.style.colorScheme = effective;
+
+    try { localStorage.setItem('hungmed_theme', theme); } catch(e) {}
+
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    if (metaTheme) metaTheme.setAttribute('content', effective === 'light' ? '#F7F6F3' : '#121214');
+
+    const optDark = document.getElementById('themeOptDark');
+    const optLight = document.getElementById('themeOptLight');
+    if (optDark && optLight) {
+      if (theme === 'dark') {
+        optDark.className = 'py-1 rounded font-medium bg-[var(--surface)] text-[var(--text)] shadow-sm';
+        optLight.className = 'py-1 rounded font-medium text-[var(--text-muted)] hover:text-[var(--text)]';
+      } else {
+        optLight.className = 'py-1 rounded font-medium bg-[var(--surface)] text-[var(--text)] shadow-sm';
+        optDark.className = 'py-1 rounded font-medium text-[var(--text-muted)] hover:text-[var(--text)]';
       }
     }
+  }
 
-    function loadFile(file) {
-      const reader = new FileReader();
-      reader.onload = (e) => {
-        const text = e.target.result;
-        const fname = file.name;
+  function toggleAaPopover() {
+    const menu = document.getElementById('aaPopoverMenu');
+    menu.classList.toggle('hidden');
+    document.getElementById('moreMenuDropdown').classList.add('hidden');
+  }
 
-        if (fname.toUpperCase().includes('PEDYTB')) {
-          renderMarkdownColumn('pedytb', text);
-          setViewMode('pedytb');
-          document.getElementById('pedytbFilenameBadge').textContent = fname + ' (File nạp)';
-        } else {
-          renderMarkdownColumn('ped', text);
-          setViewMode('ped');
-          document.getElementById('pedFilenameBadge').textContent = fname + ' (File nạp)';
+  function toggleMoreMenu() {
+    const menu = document.getElementById('moreMenuDropdown');
+    menu.classList.toggle('hidden');
+    document.getElementById('aaPopoverMenu').classList.add('hidden');
+  }
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('#aaBtn') && !e.target.closest('#aaPopoverMenu')) {
+      document.getElementById('aaPopoverMenu')?.classList.add('hidden');
+    }
+    if (!e.target.closest('#moreBtn') && !e.target.closest('#moreMenuDropdown')) {
+      document.getElementById('moreMenuDropdown')?.classList.add('hidden');
+    }
+    if (!e.target.closest('#tocDropdownBtn') && !e.target.closest('#tocDropdownMenu')) {
+      document.getElementById('tocDropdownMenu')?.classList.add('hidden');
+    }
+  });
+
+  function setupKeyboardShortcuts() {
+    document.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        const search = document.getElementById('searchInput');
+        if (search) search.focus();
+      } else if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'b') {
+        e.preventDefault();
+        toggleSidebar();
+      } else if (e.key === 'Escape') {
+        if (document.body.classList.contains('zen-mode')) {
+          toggleZenMode();
         }
+        document.getElementById('aaPopoverMenu')?.classList.add('hidden');
+        document.getElementById('moreMenuDropdown')?.classList.add('hidden');
+        document.getElementById('tocDropdownMenu')?.classList.add('hidden');
+      } else if (e.key.toLowerCase() === 'z' && !['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
+        toggleZenMode();
+      }
+    });
+  }
+
+  function openDropModal() {
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = '.md,.txt';
+    input.onchange = (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (evt) => {
+        const text = evt.target.result;
+        const fakeLesson = {
+          id: 'FILE',
+          title: file.name,
+          block: 'Tệp nạp ngoài',
+          chapter: 'Tệp nạp ngoài',
+          content: text,
+          ped_content: text
+        };
+        selectLessonDirect(fakeLesson);
       };
       reader.readAsText(file, 'utf-8');
-    }
-
-    // Toggle Sidebar
-    document.getElementById('toggleSidebarBtn').onclick = () => {
-      const sidebar = document.getElementById('sidebar');
-      sidebar.classList.toggle('hidden');
     };
+    input.click();
+  }
 
-    // Placeholders
-    function getEmptyPedPlaceholder(lesson) {
-      return `# [${lesson.id}] ${lesson.title}\n\n> **Trạng thái:** 📋 Đang chờ biên soạn bài học lâm sàng Why-based chuẩn hóa.\n\n* **Mục tiêu:** ${lesson.scope || 'Đang cập nhật'}\n* **Phụ thuộc:** ${lesson.dependency || 'Không'}\n* **Tài liệu tham khảo mở rộng:** Hãy chuyển sang tab **📕 Sách YTB** để đọc nguyên văn giáo trình OCR!`;
-    }
+  function selectLessonDirect(lesson) {
+    currentLesson = lesson;
+    document.getElementById('lessonBadgeID').textContent = lesson.id;
+    document.getElementById('lessonMainTitle').textContent = lesson.title;
+    document.getElementById('breadcrumbText').textContent = `Tệp nạp ngoài › ${lesson.id}`;
+    document.getElementById('priorityChip').classList.add('hidden');
+    document.getElementById('keyChipsContainer').classList.add('hidden');
+    document.getElementById('singleArticleBody').innerHTML = parseMarkdownWithKaTeX(lesson.content, lesson.id, false);
+  }
 
-    function getEmptyPedytbPlaceholder(lesson) {
-      return `# [${lesson.id}] ${lesson.title}\n\n> **Trạng thái:** 📖 Chưa có bản chụp OCR Giáo trình Y Thái Bình cho chuyên đề này.\n\nBạn có thể dán ảnh chụp vào khung chat Claude hoặc nạp trực tiếp file \`*_PEDYTB.md\` vào thanh bên để hiển thị ngay lập tức!`;
-    }
-  </script>
+  async function forceSyncCloud() {
+    showToast("Đang đồng bộ dữ liệu mới nhất...");
+  }
+</script>
 </body>
 </html>

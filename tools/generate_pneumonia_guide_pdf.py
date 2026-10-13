@@ -1,0 +1,494 @@
+"""
+generate_pneumonia_guide_pdf.py
+Biên dịch Cẩm nang Toàn diện Viêm phổi Nhi khoa (Sinh lý bệnh, Phân độ WHO, Căn nguyên, 
+Cận lâm sàng, Kháng sinh & Thuật toán xử trí thất bại 48-72h) ra PDF chuẩn A4 
+bằng Microsoft Edge Headless, lưu tại Desktop và gửi qua Telegram Bot.
+"""
+import os
+import sys
+import json
+import subprocess
+import urllib.request
+from pathlib import Path
+import shutil
+
+# Paths
+OUTPUT_DIR = Path(r"F:\DL\mavisresearch\Bai hoc y khoa\12_Nhi khoa\02_Ho_hap")
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+HTML_PATH = OUTPUT_DIR / "CAM_NANG_VIEM_PHOI_NHI_KHOA_TOAN_DIEN.html"
+PDF_PATH = OUTPUT_DIR / "CAM_NANG_VIEM_PHOI_NHI_KHOA_TOAN_DIEN.pdf"
+DESKTOP_PDF = Path(r"C:\Users\THANHANH\Desktop\Huong_Dan_Viem_Phoi_Nhi_Khoa_Toan_Dien.pdf")
+
+EDGE_PATH = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+CHAT_ID = int(os.environ.get("TELEGRAM_CHAT_ID", "6569183642"))
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+
+HTML_CONTENT = """<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>CẨM NANG LÂM SÀNG TOÀN DIỆN: VIÊM PHỔI TRẺ EM</title>
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 9mm 12mm 9mm 12mm;
+    }
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+      font-size: 8.5pt;
+      line-height: 1.38;
+      color: #1e293b;
+      background: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Header bar */
+    .header-box {
+      border-bottom: 2.5px solid #0284c7;
+      padding-bottom: 5px;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .hospital-sub {
+      font-size: 7.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #0369a1;
+    }
+    .doc-category {
+      font-size: 7.5pt;
+      font-weight: 700;
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 2px 7px;
+      border-radius: 4px;
+      display: inline-block;
+    }
+    .doc-title {
+      font-size: 13pt;
+      font-weight: 800;
+      color: #0f172a;
+      text-transform: uppercase;
+      margin: 3px 0 1px 0;
+      letter-spacing: -0.01em;
+    }
+    .doc-subtitle {
+      font-size: 8pt;
+      font-weight: 500;
+      color: #64748b;
+      font-style: italic;
+    }
+
+    /* Section Styling */
+    .section-title {
+      font-size: 9pt;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: #0369a1;
+      background: #f0f9ff;
+      border-left: 3.5px solid #0284c7;
+      padding: 2.5px 6px;
+      margin: 7px 0 4px 0;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Grid & Cards */
+    .card-grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 6px;
+      margin-bottom: 5px;
+    }
+    .card-grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
+      margin-bottom: 5px;
+    }
+    .panel {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+      padding: 5px 7px;
+      page-break-inside: avoid;
+    }
+    .panel-header {
+      font-weight: 800;
+      font-size: 8.5pt;
+      color: #0369a1;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 2px;
+      margin-bottom: 3px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .panel-header .badge {
+      font-size: 6.5pt;
+      background: #0284c7;
+      color: #ffffff;
+      padding: 1px 4px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+    
+    .callout-box {
+      background: #f8fafc;
+      border-left: 3px solid #64748b;
+      padding: 3px 6px;
+      font-size: 8pt;
+      margin: 3px 0;
+      border-radius: 0 4px 4px 0;
+    }
+    .callout-alert {
+      background: #fffbeb;
+      border-left-color: #f59e0b;
+      color: #92400e;
+    }
+    .callout-danger {
+      background: #fef2f2;
+      border-left-color: #ef4444;
+      color: #991b1b;
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 3px 0 5px 0;
+      font-size: 7.8pt;
+    }
+    th, td {
+      border: 1px solid #cbd5e1;
+      padding: 3px 5px;
+      vertical-align: middle;
+    }
+    th {
+      background-color: #f1f5f9;
+      color: #0f172a;
+      font-weight: 700;
+      text-align: left;
+    }
+    tr:nth-child(even) td {
+      background-color: #f8fafc;
+    }
+
+    ul, ol {
+      margin: 2px 0 3px 12px;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 1px;
+    }
+
+    .doc-footer {
+      border-top: 1px solid #cbd5e1;
+      padding-top: 3px;
+      margin-top: 6px;
+      font-size: 7.2pt;
+      color: #94a3b8;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header-box">
+    <div>
+      <div class="hospital-sub">TÀI LIỆU HƯỚNG DẪN LÂM SÀNG & HUẤN LUYỆN Y KHOA • BỘ MÔN NHI KHOA</div>
+      <div class="doc-title">CẨM NANG TOÀN DIỆN: VIÊM PHỔI TRẺ EM</div>
+      <div class="doc-subtitle">Sinh lý bệnh • Phân độ WHO/IMCI • Phân định căn nguyên 3 trục • Chiến lược kháng sinh & Thuật toán xử trí thất bại 48-72h</div>
+    </div>
+    <div style="text-align: right;">
+      <span class="doc-category">HÔ HẤP NHI LÂM SÀNG</span><br>
+      <span style="font-size: 7pt; color: #64748b;">Khổ in A4 • 2026.1</span>
+    </div>
+  </div>
+
+  <!-- PHẦN 1: SINH LÝ BỆNH & CHẨN ĐOÁN -->
+  <div class="card-grid-2">
+    <div class="panel">
+      <div class="panel-header">
+        <span>1. SINH LÝ BỆNH & CƠ CHẾ SUY HÔ HẤP</span>
+        <span class="badge">BỆNH HỌC</span>
+      </div>
+      <ul>
+        <li><strong>Rối loạn V/Q Mismatch & Shunt phải - trái:</strong> Dịch rỉ viêm và bạch cầu lấp kín phế nang $\rightarrow$ Phế nang không được thông khí ($V=0$) nhưng mạch máu vẫn tưới máu ($Q>0$) $\rightarrow$ Máu tĩnh mạch không trao đổi oxy $\rightarrow$ <strong>Tụt $PaO_2$, tụt $SpO_2$</strong>.</li>
+        <li><strong>Giảm độ giãn nở (Compliance) & Tăng công thở:</strong> Phổi đông đặc trở nên "cứng". Trẻ phải huy động cơ hô hấp phụ để giãn nở lồng ngực $\rightarrow$ Dẫn đến <em>rút lõm lồng ngực, phập phồng cánh mũi, đầu gật gù</em>.</li>
+        <li><strong>Kiệt cơ hô hấp (Exhaustion):</strong> Khi cơ liên sườn và cơ hoành kiệt sức, nhịp thở có thể chậm lại đột ngột $\rightarrow$ Cảnh báo ngưng thở tối cấp!</li>
+      </ul>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <span>2. QUY TẮC BẮT BUỘC ĐO NHỊP THỞ & 4 DẤU HIỆU NGUY HIỂM</span>
+        <span class="badge">WHO / IMCI</span>
+      </div>
+      <div style="font-size: 8pt; margin-bottom: 2px;">
+        <strong>Nguyên tắc đếm:</strong> Đếm trọn vẹn trong 60 giây khi trẻ nằm yên, không khóc, không sốt cao (hạ sốt trước khi đếm).
+      </div>
+      <table style="margin: 2px 0;">
+        <tr>
+          <td><strong>&lt; 2 tháng tuổi:</strong> $\ge 60$ lần/phút (nguy kịch)</td>
+          <td><strong>2 – 11 tháng tuổi:</strong> $\ge 50$ lần/phút</td>
+        </tr>
+        <tr>
+          <td><strong>12 tháng – 5 tuổi:</strong> $\ge 40$ lần/phút</td>
+          <td><strong>&gt; 5 tuổi:</strong> $\ge 30$ lần/phút</td>
+        </tr>
+      </table>
+      <div class="callout-box callout-danger" style="margin-top: 2px;">
+        🚨 <strong>4 Dấu hiệu nguy hiểm toàn thân:</strong> (1) Không uống được / bỏ bú, (2) Nôn tất cả mọi thứ, (3) Co giật trong đợt bệnh, (4) Li bì hoặc khó đánh thức.
+      </div>
+    </div>
+  </div>
+
+  <!-- PHẦN 2: PHÂN ĐỘ WHO / IMCI & TUYẾN ĐIỀU TRỊ -->
+  <div class="section-title">2. PHÂN ĐỘ VIÊM PHỔI THEO WHO / IMCI & PHÂN CẤP ĐIỀU TRỊ</div>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 20%;">Phân loại</th>
+        <th style="width: 48%;">Tiêu chuẩn lâm sàng nhận diện</th>
+        <th style="width: 32%;">Chiến lược điều trị & Tuyến xử trí</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1. Không viêm phổi</strong><br><small>(Ho/cảm lạnh)</small></td>
+        <td>• Có ho hoặc khó thở.<br>• <strong>Không</strong> thở nhanh theo tuổi.<br>• <strong>Không</strong> rút lõm lồng ngực và không dấu hiệu nguy hiểm.</td>
+        <td>• Chăm sóc tại nhà, vệ sinh mũi họng, hạ sốt.<br>• <strong>Không dùng kháng sinh</strong>.<br>• Tái khám sau 2 ngày hoặc khi thở nhanh/nặng hơn.</td>
+      </tr>
+      <tr>
+        <td><strong>2. Viêm phổi</strong><br><small>(Mức độ nhẹ - Ngoại trú)</small></td>
+        <td>• Có ho hoặc khó thở + <strong>Thở nhanh theo tuổi</strong>.<br>• <strong>Không</strong> rút lõm lồng ngực.<br>• Không có dấu hiệu nguy hiểm toàn thân.</td>
+        <td>• Điều trị ngoại trú với <strong>Amoxicillin uống liều cao: 80–90 mg/kg/ngày</strong> chia 2 lần x 5 ngày.<br>• Bắt buộc hẹn khám lại đánh giá sau 48 giờ.</td>
+      </tr>
+      <tr>
+        <td><strong>3. Viêm phổi nặng</strong><br><small>(Bắt buộc nhập viện)</small></td>
+        <td>• Thở nhanh + <strong>Ít nhất 1 trong các dấu hiệu:</strong><br>
+           1) Rút lõm lồng ngực rõ (hạ sườn lõm vào ở thì hít vào).<br>
+           2) Có bất kỳ Dấu hiệu nguy hiểm toàn thân nào.<br>
+           3) $SpO_2 < 90\%$ (hoặc $< 92\%$), tím tái, thở rên (grunting), đầu gật gù.</td>
+        <td>• <strong>Nhập viện ngay / Chuyển khoa Cấp cứu</strong>.<br>
+          • Thở oxy nếu $SpO_2 < 92\%$ hoặc co kéo nặng.<br>
+          • Kháng sinh tiêm tĩnh mạch: <strong>Ampicillin tiêm</strong> (150–200 mg/kg/ngày) hoặc <strong>Cefotaxime / Ceftriaxone</strong>.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- PHẦN 3: PHÂN ĐỊNH CĂN NGUYÊN THEO 3 TRỤC -->
+  <div class="section-title">3. PHÂN ĐỊNH CĂN NGUYÊN THEO 3 TRỤC LÂM SÀNG</div>
+  <div class="card-grid-3">
+    
+    <div class="panel">
+      <div class="panel-header">
+        <span>TRỤC 1: THEO LỨA TUỔI</span>
+        <span class="badge">VI SINH HỌC</span>
+      </div>
+      <ul style="font-size: 7.8pt;">
+        <li><strong>Sơ sinh (&lt; 28 ngày):</strong> GBS (Liên cầu B), <em>E. coli</em>, <em>Listeria</em>, Tụ cầu, RSV. Nguy cơ cơn ngưng thở cao!</li>
+        <li><strong>1 – 3 tháng:</strong> <em>Chlamydia trachomatis</em> (viêm phổi không sốt, mẹ viêm âm đạo), Ho gà (cơn ho tím tái, tăng lympho), RSV.</li>
+        <li><strong>3 tháng – 5 tuổi:</strong> Virus (RSV, Cúm, Adeno chiếm 60–70%); Vi khuẩn: <strong>Phế cầu</strong> (số 1), Hib, Tụ cầu vàng.</li>
+        <li><strong>&gt; 5 tuổi:</strong> <strong>Vi khuẩn không điển hình</strong>: <em>Mycoplasma pneumoniae</em> (30–50%), <em>C. pneumoniae</em>; Phế cầu.</li>
+      </ul>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <span>TRỤC 2: HOÀN CẢNH KHỞI PHÁT</span>
+        <span class="badge">DỊCH TỄ</span>
+      </div>
+      <ul style="font-size: 7.8pt;">
+        <li><strong>Viêm phổi hít (Aspiration):</strong> Trẻ bại não, động kinh, GERD nặng, sặc sữa/dị vật. Vi khuẩn kỵ khí hầu họng + Gram âm đường ruột. Thường tổn thương phân thùy đỉnh thùy dưới.</li>
+        <li><strong>Viêm phổi bệnh viện (HAP/VAP):</strong> Nằm viện / thở máy $\ge 48$h. Vi khuẩn đa kháng ESKAPE: <em>Pseudomonas</em>, <em>Acinetobacter</em>, <em>Klebsiella</em> ESBL, MRSA.</li>
+        <li><strong>Chùm ca bệnh:</strong> Mùa đông - xuân: Cúm A bùng phát, RSV gây viêm tiểu phế quản/phổi nhũ nhi.</li>
+      </ul>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <span>TRỤC 3: THEO CƠ ĐỊA ĐẶC BIỆT</span>
+        <span class="badge">CỜ ĐỎ</span>
+      </div>
+      <ul style="font-size: 7.8pt;">
+        <li><strong>Suy dinh dưỡng cấp nặng (SAM):</strong> Thường không sốt, không ho rõ do giảm đáp ứng viêm; tác nhân hay gặp là Gr(-) đường ruột, Tụ cầu, Lao.</li>
+        <li><strong>Tim bẩm sinh có shunt Trái - Phải:</strong> Ứ máu phổi liên tục, dễ viêm phổi tái diễn, suy tim ứ huyết đi kèm.</li>
+        <li><strong>Suy giảm miễn dịch / Ghép tạng:</strong> Cảnh giác cao với <em>Pneumocystis jirovecii</em> (PJP), nấm xâm lấn (<em>Aspergillus</em>), CMV, trực khuẩn Lao.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- PHẦN 4: SO SÁNH 3 KIỂU HÌNH CĂN NGUYÊN TẠI GIƯỜNG -->
+  <div class="section-title">4. BẢNG SO SÁNH ĐỐI CHIẾU 3 KIỂU HÌNH CĂN NGUYÊN TẠI GIƯỜNG</div>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 18%;">Đặc điểm</th>
+        <th style="width: 28%;">Vi khuẩn điển hình (Phế cầu, Hib)</th>
+        <th style="width: 27%;">Viêm phổi do Virus (RSV, Cúm)</th>
+        <th style="width: 27%;">Không điển hình (<em>Mycoplasma</em>)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Khởi phát & Sốt</strong></td>
+        <td>Đột ngột, sốt cao $39–40^\circ\text{C}$, vẻ mặt nhiễm độc.</td>
+        <td>Từ từ, sốt vừa/cao, kèm viêm long hô hấp trên rầm rộ.</td>
+        <td>Bán cấp, sốt nhẹ/vừa, mệt mỏi, đau đầu.</td>
+      </tr>
+      <tr>
+        <td><strong>Tính chất ho & Ran</strong></td>
+        <td>Ho đờm đục, <strong>ran ẩm to/nhỏ hạt khu trú 1 vùng</strong>.</td>
+        <td>Ho kèm khò khè, <strong>ran rít, ran ngáy, ran ẩm rải rác 2 bên</strong>.</td>
+        <td><strong>Ho khan kịch phát, rũ rượi, dai dẳng</strong>; nghe phổi ít ran.</td>
+      </tr>
+      <tr>
+        <td><strong>Công thức máu & CRP</strong></td>
+        <td>$\text{WBC} > 15.000/\mu\text{L}$ (Neutrophil ưu thế), $\text{CRP} > 40–60\text{ mg/L}$.</td>
+        <td>$\text{WBC}$ bình thường/giảm (Lympho ưu thế), $\text{CRP} < 20\text{ mg/L}$.</td>
+        <td>$\text{WBC}$ bình thường hoặc tăng nhẹ, $\text{CRP}$ tăng nhẹ ($10–40\text{ mg/L}$).</td>
+      </tr>
+      <tr>
+        <td><strong>Hình ảnh X-quang</strong></td>
+        <td><strong>Đông đặc thùy phổi</strong>, có hình ảnh phế quản khí.</td>
+        <td>Dày thành phế quản, ứ khí 2 bên, thâm nhiễm mô kẽ.</td>
+        <td>Thâm nhiễm mô kẽ lưới nốt quanh rốn phổi (phân ly X-quang).</td>
+      </tr>
+      <tr>
+        <td><strong>Lựa chọn Kháng sinh</strong></td>
+        <td><strong>Amoxicillin / Ampicillin / Cephalosporin III</strong></td>
+        <td><strong>Không dùng kháng sinh</strong> (Cúm: Oseltamivir)</td>
+        <td><strong>Macrolide (Azithromycin / Clarithromycin)</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- PHẦN 5: CHIẾN LƯỢC KHÁNG SINH & THUẬT TOÁN 48-72 GIỜ -->
+  <div class="card-grid-2">
+    <div class="panel">
+      <div class="panel-header">
+        <span>5. NGUYÊN TẮC KHÁNG SINH & LIỀU DÙNG CHUẨN</span>
+        <span class="badge">ĐIỀU TRỊ</span>
+      </div>
+      <ul>
+        <li><strong>Vì sao Amoxicillin liều cao (80–90 mg/kg/ngày)?</strong> Phế cầu kháng Penicillin qua biến đổi thụ thể PBP (không tiết Beta-lactamase) $\rightarrow$ Nồng độ cao bão hòa được PBP biến đổi, diệt được phế cầu kháng trung gian.</li>
+        <li><strong>Trẻ sơ sinh (&lt; 2 tháng):</strong> <em>Ampicillin</em> (150–200 mg/kg/ngày) + <em>Gentamicin</em> (5 mg/kg/ngày) tiêm tĩnh mạch.</li>
+        <li><strong>Nghi ngờ Tụ cầu (bóng khí, tràn mủ màng phổi):</strong> Bổ sung ngay <em>Oxacillin / Vancomycin / Linezolid</em>.</li>
+        <li><strong>Viêm phổi Mycoplasma:</strong> <em>Azithromycin</em>: 10 mg/kg (ngày 1, max 500mg), sau đó 5 mg/kg/ngày (ngày 2–5).</li>
+      </ul>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <span>6. THUẬT TOÁN ĐÁNH GIÁ THẤT BẠI SAU 48–72 GIỜ (5 CHỮ C)</span>
+        <span class="badge">THEO DÕI</span>
+      </div>
+      <div style="font-size: 7.8pt; margin-bottom: 2px;">
+        Nếu trẻ sau 48–72h vẫn sốt cao, thở co kéo tăng, $SpO_2$ giảm $\rightarrow$ Tìm 5 nguyên nhân:
+      </div>
+      <ol style="font-size: 7.8pt; margin-left: 12px;">
+        <li><strong>Complications (Biến chứng):</strong> Tràn mủ màng phổi, tràn khí màng phổi, xẹp phổi, áp xe $\rightarrow$ Chụp lại X-quang / Siêu âm phổi!</li>
+        <li><strong>Coverage (Chưa trùm đúng căn nguyên):</strong> Vi khuẩn kháng thuốc, vi khuẩn không điển hình (cần Macrolide), hoặc thực tế là virus/lao.</li>
+        <li><strong>Compliance & Dose:</strong> Liều có bị thiếu cân? Hấp thu đường uống có kém?</li>
+        <li><strong>Co-morbidity:</strong> Dị tật tim bẩm sinh, GERD sặc liên tục, suy giảm miễn dịch.</li>
+        <li><strong>Cause is not pneumonia:</strong> Dị vật đường thở bỏ quên, hen nhũ nhi, suy tim.</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- PHẦN 6: 4 BẪY LÂM SÀNG CẦN NHỚ KHI ĐI BUỒNG -->
+  <div class="callout-box callout-danger" style="margin-top: 4px; padding: 4px 8px;">
+    <strong>4 BẪY LÂM SÀNG TỬ VONG & BÀI HỌC KHI ĐI BUỒNG KHOA NHI:</strong>
+    <ul style="margin: 2px 0 0 12px; font-size: 7.8pt;">
+      <li><strong>1. Trẻ sơ sinh nhiễm RSV:</strong> Cực kỳ cảnh giác cơn <em>ngừng thở (Apnea)</em> do ức chế hành não, có thể ngưng thở trước khi kịp co kéo lồng ngực. Luôn gắn monitor theo dõi.</li>
+      <li><strong>2. Bẫy bỏ sót Viêm tai giữa:</strong> Có tới 10–20% trẻ viêm phế quản phổi có viêm tai giữa mủ kèm theo do vi khuẩn lan qua vòi nhĩ. Luôn soi tai ở trẻ sốt kéo dài!</li>
+      <li><strong>3. Cấm tuyệt đối dùng thuốc ức chế ho:</strong> Ho là phản xạ sinh lý tống xuất đờm mủ bảo vệ phế nang. Dùng giảm ho làm ứ đọng đờm tắc nghẽn đường thở.</li>
+      <li><strong>4. X-quang bóng khí (Pneumatocele) + Tràn mủ:</strong> Nghĩ ngay đến Tụ cầu vàng (*S. aureus*) $\rightarrow$ Chọc tháo dẫn lưu sớm và phối hợp kháng sinh chống tụ cầu.</li>
+    </ul>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="doc-footer">
+    <span>Bộ môn Nhi khoa • Lưu hành đào tạo lâm sàng Y6 & Bác sĩ thực hành</span>
+    <span>Phác đồ dựa trên Hướng dẫn Bộ Y tế, WHO và Nelson Textbook of Pediatrics</span>
+    <span>Trang 1/1</span>
+  </div>
+
+</body>
+</html>
+"""
+
+def generate_pdf():
+    print("1. Đang ghi file HTML template...")
+    HTML_PATH.write_text(HTML_CONTENT, encoding="utf-8")
+    print(f"   -> Đã ghi file HTML: {HTML_PATH}")
+
+    print("2. Đang biên dịch PDF bằng Edge Headless...")
+    cmd = [
+        EDGE_PATH,
+        "--headless",
+        "--disable-gpu",
+        "--no-pdf-header-footer",
+        f"--print-to-pdf={PDF_PATH}",
+        str(HTML_PATH)
+    ]
+    subprocess.run(cmd, check=True)
+    pdf_size_kb = PDF_PATH.stat().st_size // 1024
+    print(f"   -> Đã xuất file PDF thành công: {PDF_PATH} ({pdf_size_kb} KB)")
+
+    # Sao chép ra Desktop
+    shutil.copy2(PDF_PATH, DESKTOP_PDF)
+    print(f"   -> Đã copy bản PDF ra Desktop: {DESKTOP_PDF}")
+    return PDF_PATH
+
+def send_to_telegram(pdf_file: Path):
+    if not BOT_TOKEN:
+        print("LỖI: Biến môi trường TELEGRAM_BOT_TOKEN không tồn tại!")
+        return False
+        
+    print(f"3. Đang gửi file PDF qua Telegram Bot tới chat_id {CHAT_ID}...")
+    boundary = "----WebKitFormBoundaryPneumoniaDoc2026"
+    headers = {"Content-Type": f"multipart/form-data; boundary={boundary}"}
+    
+    with open(pdf_file, "rb") as f:
+        file_bytes = f.read()
+        
+    filename = "Huong_Dan_Viem_Phoi_Nhi_Khoa_Toan_Dien.pdf"
+    
+    caption = "🫁 CẨM NANG LÂM SÀNG TOÀN DIỆN: VIÊM PHỔI TRẺ EM\n\n" \
+              "• Sinh lý bệnh: V/Q Mismatch, giảm độ giãn nở & kiệt cơ hô hấp\n" \
+              "• Phân độ WHO/IMCI: Bảng ngưỡng thở nhanh theo tuổi & 4 dấu hiệu nguy hiểm\n" \
+              "• Phân định căn nguyên 3 trục: Tuổi, hoàn cảnh (hít/HAP), cơ địa (SAM/tim BS)\n" \
+              "• Bảng đối chiếu 3 kiểu hình tại giường: Vi khuẩn vs Virus vs Mycoplasma\n" \
+              "• Chiến lược Amoxicillin liều cao, kháng sinh nội trú & Thuật toán 5 chữ C sau 48-72h."
+
+    body = []
+    body.append(f"--{boundary}\r\nContent-Disposition: form-data; name=\"chat_id\"\r\n\r\n{CHAT_ID}\r\n".encode("utf-8"))
+    body.append(f"--{boundary}\r\nContent-Disposition: form-data; name=\"caption\"\r\n\r\n{caption}\r\n".encode("utf-8"))
+    body.append(f"--{boundary}\r\nContent-Disposition: form-data; name=\"document\"; filename=\"{filename}\"\r\nContent-Type: application/pdf\r\n\r\n".encode("utf-8"))
+    body.append(file_bytes)
+    body.append(f"\r\n--{boundary}--\r\n".encode("utf-8"))
+    
+    payload = b"".join(body)
+    req = urllib.request.Request(f"https://api.telegram.org/bot{BOT_TOKEN}/sendDocument", data=payload, headers=headers)
+    with urllib.request.urlopen(req, timeout=40) as resp:
+        res = json.loads(resp.read().decode("utf-8"))
+        print("   -> Kết quả gửi Telegram thành công:", res.get("ok"))
+        return res
+
+if __name__ == "__main__":
+    pdf = generate_pdf()
+    send_to_telegram(pdf)
+    print("HOÀN TẤT 100%!")

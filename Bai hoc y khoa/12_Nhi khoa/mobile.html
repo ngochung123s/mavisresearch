@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="PedViewer">
-  <meta name="theme-color" content="#000000">
-  <meta name="mobile-web-app-capable" content="yes">
-  <title>PedViewer Mobile · Sách & Bài Học Nhi Khoa</title>
+  <meta name="apple-mobile-web-app-title" content="HungMed">
+  <meta name="theme-color" content="#121214">
+  <meta name="color-scheme" content="dark">
+  <title>HungMed Mobile · Sổ Tay Lâm Sàng Nhi - Sản | BS. Đỗ Văn Ngọc Hưng</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
@@ -21,786 +21,1007 @@
           fontFamily: {
             sans: ['"Be Vietnam Pro"', 'system-ui', '-apple-system', 'sans-serif'],
             mono: ['"JetBrains Mono"', 'monospace']
-          },
-          colors: {
-            brand: {
-              400: '#22d3ee',
-              500: '#06b6d4',
-              600: '#0891b2',
-            }
           }
         }
       }
     }
   </script>
-  <!-- Marked.js -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <!-- KaTeX for Medical & Clinical Formulas (e.g. PaO2, PaCO2, HR, CO = HR x SV) -->
+  <!-- Marked.js (Nạp tệp cục bộ trước, dự phòng CDN) -->
+  <script src="marked.min.js"></script>
+  <script>if (!window.marked) document.write('<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"><\/script>');</script>
+  <!-- KaTeX for Medical & Clinical Formulas -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
   <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+
   <style>
+    /* BẢNG MÀU CHUẨN DESIGN TOKENS (MỤC 6.1 & 6.2 TRONG PROMPTY.MD) */
     :root {
-      --bg-base: #090a0f;
-      --bg-card: #111420;
-      --bg-header: rgba(12, 16, 26, 0.92);
-      --border-color: rgba(255, 255, 255, 0.08);
-      --text-main: #f1f5f9;
-      --text-muted: #94a3b8;
-      --viewer-size: 15.5px;
-    }
-    html.sepia {
-      --bg-base: #f7ede2;
-      --bg-card: #ebd9c8;
-      --bg-header: rgba(247, 237, 226, 0.94);
-      --border-color: rgba(120, 80, 30, 0.15);
-      --text-main: #291c10;
-      --text-muted: #7d5f42;
+      --bg: #121214;
+      --surface: #18181A;
+      --surface-2: #1F1F23;
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #E4E4E7;
+      --text-secondary: #A1A1AA;
+      --text-muted: #8B8B94;
+      --accent: #72C2E7;
+      --accent-soft: rgba(114, 194, 231, 0.1);
+      --src-ytb: #C084FC;
+      --danger: #F87171;
+      --warning: #FBBF24;
+      --viewer-font-size: 16px;
     }
     html.light {
-      --bg-base: #f8fafc;
-      --bg-card: #ffffff;
-      --bg-header: rgba(255, 255, 255, 0.95);
-      --border-color: rgba(0, 0, 0, 0.08);
-      --text-main: #0f172a;
-      --text-muted: #64748b;
+      --bg: #F7F6F3;
+      --surface: #FFFFFF;
+      --surface-2: #EFEEEA;
+      --border: rgba(0, 0, 0, 0.08);
+      --text: #2F3437;
+      --text-secondary: #55534E;
+      --text-muted: #6B6A66;
+      --accent: #155E75;
+      --accent-soft: rgba(21, 94, 117, 0.08);
+      --src-ytb: #7E22CE;
+      --danger: #B42318;
+      --warning: #8A5A00;
     }
 
     body {
-      background-color: var(--bg-base);
-      color: var(--text-main);
-      font-family: 'Be Vietnam Pro', -apple-system, sans-serif;
-      -webkit-tap-highlight-color: transparent;
-      padding-top: env(safe-area-inset-top);
-      padding-bottom: env(safe-area-inset-bottom);
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Be Vietnam Pro', sans-serif;
+      touch-action: manipulation;
     }
 
-    /* Mobile Prose Customization — Editorial Clinical Style */
+    /* Mobile typography styles */
     .prose-mobile {
-      font-size: var(--viewer-size);
-      line-height: 1.8;
-      color: var(--text-main);
+      font-size: var(--viewer-font-size, 16px);
+      line-height: 1.65;
+      color: var(--text);
+      word-break: break-word;
     }
     .prose-mobile h1 {
-      font-size: 1.4em;
-      font-weight: 800;
-      letter-spacing: -0.025em;
-      color: #ffffff;
-      margin: 1.4em 0 0.6em 0;
-      line-height: 1.3;
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 8px;
-    }
-    html.light .prose-mobile h1 { color: #0f172a; }
-    html.sepia .prose-mobile h1 { color: #201408; }
-
-    .prose-mobile h2 {
-      font-size: 1.2em;
+      font-size: 1.5em;
       font-weight: 700;
       letter-spacing: -0.015em;
-      color: #f1f5f9;
-      margin: 1.4em 0 0.5em 0;
-      line-height: 1.35;
-      scroll-margin-top: 105px;
+      margin-top: 1.1em;
+      margin-bottom: 0.5em;
+      color: var(--text);
+      line-height: 1.3;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4em;
+    }
+    .prose-mobile h2 {
+      font-size: 1.25em;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      margin-top: 1.6em;
+      margin-bottom: 0.5em;
+      color: var(--text);
       display: flex;
       align-items: center;
       gap: 6px;
+      line-height: 1.35;
+      scroll-margin-top: 96px;
     }
     .prose-mobile h2::before {
       content: "";
       display: inline-block;
       width: 3px;
       height: 1em;
-      background: #06b6d4;
+      background: var(--accent);
       border-radius: 2px;
-      margin-right: 4px;
       flex-shrink: 0;
     }
-    html.light .prose-mobile h2 { color: #1e293b; }
-    html.sepia .prose-mobile h2 { color: #35210e; }
-
     .prose-mobile h3 {
-      font-size: 1.05em;
+      font-size: 1.1em;
       font-weight: 600;
-      color: #e2e8f0;
-      margin: 1.2em 0 0.4em 0;
-      scroll-margin-top: 105px;
+      margin-top: 1.2em;
+      margin-bottom: 0.4em;
+      color: var(--text);
+      line-height: 1.4;
+      scroll-margin-top: 96px;
     }
-    html.light .prose-mobile h3 { color: #334155; }
-    html.sepia .prose-mobile h3 { color: #4a341e; }
-
     .prose-mobile h4 {
       font-size: 0.95em;
       font-weight: 600;
-      color: var(--text-muted);
       text-transform: uppercase;
-      letter-spacing: 0.04em;
-      margin: 1em 0 0.3em 0;
+      letter-spacing: 0.03em;
+      margin-top: 1em;
+      margin-bottom: 0.3em;
+      color: var(--text-muted);
+      scroll-margin-top: 96px;
     }
+    .prose-mobile p { margin-bottom: 0.8em; color: var(--text); }
+    .prose-mobile ul { list-style-type: disc; padding-left: 1.3em; margin-bottom: 0.8em; }
+    .prose-mobile ol { list-style-type: decimal; padding-left: 1.3em; margin-bottom: 0.8em; }
+    .prose-mobile li { margin-bottom: 0.25em; }
+    .prose-mobile strong { font-weight: 700; color: var(--text); }
 
-    .prose-mobile p {
-      margin-bottom: 0.9em;
-      color: var(--text-main);
-    }
-    .prose-mobile ul, .prose-mobile ol {
-      padding-left: 1.25em;
-      margin-bottom: 0.9em;
-    }
-    .prose-mobile li {
-      margin-bottom: 0.4em;
-    }
-    .prose-mobile strong {
-      font-weight: 700;
-      color: #ffffff;
-    }
-    html.light .prose-mobile strong { color: #0f172a; }
-    html.sepia .prose-mobile strong { color: #201408; }
-
-    /* Tables on mobile */
     .prose-mobile table {
       width: 100%;
-      border-collapse: separate;
-      border-spacing: 0;
+      border-collapse: collapse;
       margin: 1.2em 0;
-      font-size: 0.82em;
+      font-size: 0.86em;
       line-height: 1.5;
-      display: block;
+      border: 1px solid var(--border);
+      border-radius: 6px;
       overflow-x: auto;
+      display: block;
       -webkit-overflow-scrolling: touch;
-      border-radius: 10px;
-      border: 1px solid var(--border-color);
-      background: rgba(255, 255, 255, 0.015);
     }
     .prose-mobile th, .prose-mobile td {
-      border-bottom: 1px solid var(--border-color);
-      border-right: 1px solid var(--border-color);
-      padding: 8px 12px;
-      min-width: 120px;
+      border: 1px solid var(--border);
+      padding: 7px 10px;
+      text-align: left;
     }
     .prose-mobile th {
-      background: rgba(255, 255, 255, 0.04);
-      color: #e2e8f0;
-      font-weight: 700;
-      text-transform: uppercase;
-      font-size: 0.75em;
-      letter-spacing: 0.04em;
-    }
-    html.light .prose-mobile th { background: #f1f5f9; color: #334155; }
-    html.sepia .prose-mobile th { background: #ebd9c8; color: #4a341e; }
-
-    .prose-mobile tr:last-child td {
-      border-bottom: none;
-    }
-    .prose-mobile th:last-child, .prose-mobile td:last-child {
-      border-right: none;
+      background: var(--surface);
+      font-weight: 600;
+      color: var(--text);
     }
 
-    .prose-mobile blockquote {
-      border-left: 3px solid #0891b2;
-      padding: 8px 14px;
-      margin: 1em 0;
-      font-style: normal;
-      background: rgba(8, 145, 178, 0.06);
-      border-radius: 0 8px 8px 0;
-      font-size: 0.92em;
-      color: var(--text-main);
+    .prose-mobile code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.86em;
+      background: var(--surface-2);
+      padding: 0.15em 0.35em;
+      border-radius: 4px;
+      color: var(--accent);
+      border: 1px solid var(--border);
     }
     .prose-mobile pre {
-      background: #07090e;
+      background: var(--surface);
       padding: 12px;
       border-radius: 8px;
       overflow-x: auto;
       font-family: 'JetBrains Mono', monospace;
-      font-size: 0.8em;
-      margin: 0.9em 0;
-      border: 1px solid var(--border-color);
+      font-size: 0.82em;
+      margin: 1em 0;
+      border: 1px solid var(--border);
+    }
+    .prose-mobile blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 14px;
+      margin: 1em 0;
+      font-style: normal;
+      background: var(--accent-soft);
+      border-radius: 0 6px 6px 0;
+      color: var(--text-secondary);
+    }
+    .prose-mobile img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin: 1.2em auto;
+      display: block;
+      border: 1px solid var(--border);
+    }
+    .prose-mobile hr {
+      border: none;
+      height: 1px;
+      background: var(--border);
+      margin: 1.6em auto;
+      max-width: 100px;
     }
 
-    /* Page banner in PEDYTB */
+    /* Khối nguồn đối chiếu thu gọn */
+    .source-ref-details {
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--surface-2);
+      padding: 6px 10px;
+      margin: 10px 0 16px 0;
+      font-size: 0.875em;
+    }
+    .source-ref-details summary {
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--text-muted);
+      user-select: none;
+      outline: none;
+    }
+    .source-ref-content {
+      color: var(--text-secondary);
+      font-size: 0.95em;
+      line-height: 1.55;
+    }
+    .source-ref-content ul {
+      margin-bottom: 0;
+      padding-left: 1.2em;
+    }
+
+    /* Callout lâm sàng */
+    .callout-box {
+      border-radius: 6px;
+      padding: 10px 12px;
+      margin: 1em 0;
+      font-size: 0.95em;
+      line-height: 1.55;
+    }
+    .callout-box .callout-header {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 4px;
+    }
+    .callout-danger {
+      border-left: 4px solid var(--danger);
+      background-color: rgba(248, 113, 113, 0.09);
+    }
+    .callout-danger .callout-header { color: var(--danger); }
+    .callout-warning {
+      border-left: 4px solid var(--warning);
+      background-color: rgba(251, 191, 36, 0.09);
+    }
+    .callout-warning .callout-header { color: var(--warning); }
+    .callout-accent {
+      border-left: 4px solid var(--accent);
+      background-color: var(--accent-soft);
+    }
+    .callout-accent .callout-header { color: var(--accent); }
+
+    .lesson-slogan {
+      font-size: 0.9375em;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+      font-style: italic;
+    }
+
     .page-marker-banner {
       display: flex;
       align-items: center;
       gap: 8px;
-      margin: 24px 0 14px 0;
-      padding: 5px 12px;
-      border-radius: 8px;
-      background: rgba(168, 85, 247, 0.12);
-      border: 1px dashed rgba(168, 85, 247, 0.4);
+      margin: 20px 0 14px 0;
+      padding: 6px 12px;
+      border-radius: 6px;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
       font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    /* Drawer & Lesson row */
+    .drawer-panel {
+      overscroll-behavior: contain;
+    }
+    .lesson-row {
+      display: grid;
+      grid-template-columns: 7ch 1fr auto;
+      gap: 0.5rem;
+      align-items: start;
+      min-height: 44px;
+      padding: 8px 10px;
+      border-radius: 6px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+      line-height: 1.35;
+    }
+    .lesson-row:hover, .lesson-row:active {
+      background-color: var(--surface-2);
+      color: var(--text);
+    }
+    .lesson-row[aria-current="page"] {
+      background-color: var(--surface-2);
+      color: var(--text);
+      font-weight: 600;
+      border-left: 3px solid var(--accent);
+    }
+    .lesson-row .lesson-id {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
       font-weight: 700;
-      color: #c084fc;
-      letter-spacing: 0.03em;
+      inline-size: 7ch;
+      min-width: 7ch;
+      white-space: nowrap;
+    }
+    .lesson-row[aria-current="page"] .lesson-id {
+      color: var(--accent);
+    }
+    .lesson-row .lesson-title {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      min-width: 0;
+      word-break: break-word;
     }
 
-    /* Flashcard 3D flip effect */
-    .perspective-1000 {
-      perspective: 1000px;
+    .source-dots {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding-top: 4px;
+      flex-shrink: 0;
     }
-    .transform-style-3d {
-      transform-style: preserve-3d;
+    .dot-source {
+      width: 6px;
+      height: 6px;
+      border-radius: 9999px;
+      display: inline-block;
     }
-    .backface-hidden {
-      backface-visibility: hidden;
+    .dot-source.ped-filled { background-color: var(--accent); }
+    .dot-source.ped-empty { border: 1px solid var(--text-muted); background: transparent; }
+    .dot-source.ytb-filled { background-color: var(--src-ytb); }
+    .dot-source.ytb-empty { border: 1px solid var(--text-muted); background: transparent; }
+
+    .block-header-btn {
+      width: 100%;
+      text-align: left;
+      padding: 10px 8px 6px 8px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      background-color: var(--surface);
+      z-index: 10;
+      border: none;
+      user-select: none;
     }
-    .rotate-y-180 {
-      transform: rotateY(180deg);
+    .block-header-btn .block-count {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--text-muted);
+      font-variant-numeric: tabular-nums;
     }
 
-    /* Hide scrollbars for clean UI */
-    .no-scrollbar::-webkit-scrollbar { display: none; }
-    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    .toc-sheet-link {
+      display: block;
+      padding: 8px 10px;
+      border-radius: 6px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+    .toc-sheet-link:active {
+      background-color: var(--surface-2);
+      color: var(--text);
+    }
+    .toc-sheet-link.level-3 {
+      padding-left: 20px;
+      font-size: 12px;
+    }
   </style>
 </head>
-<body class="h-screen w-screen flex flex-col overflow-hidden select-none">
+<body class="h-screen w-screen flex flex-col overflow-hidden select-text bg-[var(--bg)] text-[var(--text)]">
 
-  <!-- ================= STICKY TOP HEADER ================= -->
-  <header class="shrink-0 bg-[#0c1322]/95 backdrop-blur border-b border-white/10 z-30">
-    <div class="h-12 px-3 flex items-center justify-between">
-      <!-- Left: Lesson Picker Trigger -->
-      <button onclick="openDrawer()" class="flex items-center gap-2 max-w-[65%] text-left active:opacity-70 transition">
-        <span class="text-base shrink-0">🩺</span>
-        <div class="truncate">
-          <div class="flex items-center gap-1.5">
-            <span id="headerLessonID" class="font-mono text-[11px] font-black px-1.5 py-0.2 rounded bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">PED-46</span>
-            <span id="headerLessonTitle" class="text-xs font-bold text-slate-100 truncate">Tiếp cận gan to ở trẻ em</span>
+  <!-- ================= 1. HEADER MOBILE (CHUẨN MỤC 4.3 & 5.10 TRONG PROMPTY.MD) ================= -->
+  <header class="shrink-0 bg-[var(--surface)] border-b border-[var(--border)] z-30">
+    <!-- Dòng 1: ≡ · Mã bài & Tên · Aa · ⋯ (Vùng bấm ≥ 44x44px) -->
+    <div class="h-12 px-2 flex items-center justify-between">
+      <!-- Nút mở drawer danh sách bài -->
+      <div class="flex items-center gap-1.5 min-w-0 mr-1">
+        <button onclick="openDrawer()" aria-label="Mở danh sách bài học" class="h-11 w-11 rounded-lg flex items-center justify-center text-[var(--text-muted)] hover:text-[var(--text)] active:bg-[var(--surface-2)] shrink-0 transition">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"/></svg>
+        </button>
+
+        <div class="flex items-center gap-1.5 min-w-0">
+          <span id="headerLessonID" class="font-mono text-xs font-bold px-1.5 py-0.5 rounded bg-[var(--surface-2)] text-[var(--accent)] border border-[var(--border)] shrink-0">PED-46</span>
+          <span id="headerLessonTitle" class="text-xs font-semibold text-[var(--text)] truncate">Tiếp cận gan to ở trẻ em</span>
+        </div>
+      </div>
+
+      <!-- Nút Aa và More ⋯ -->
+      <div class="flex items-center gap-1 shrink-0">
+        <!-- Nút Aa: Cỡ chữ và Chế độ Sáng / Tối -->
+        <div class="relative">
+          <button onclick="toggleAaPopover()" id="mobileAaBtn" aria-label="Cài đặt cỡ chữ và giao diện Sáng / Tối" class="h-11 px-2.5 rounded-lg flex items-center justify-center font-mono font-medium text-xs text-[var(--text-muted)] hover:text-[var(--text)] active:bg-[var(--surface-2)] transition">
+            Aa
+          </button>
+          <div id="mobileAaPopover" class="hidden absolute right-0 mt-1 w-56 bg-[var(--surface)] border border-[var(--border)] rounded-xl shadow-2xl p-3 z-50 space-y-3 text-xs">
+            <div>
+              <div class="text-[11px] font-semibold text-[var(--text-muted)] mb-1.5 uppercase tracking-wider">Cỡ chữ</div>
+              <div class="flex items-center justify-between bg-[var(--surface-2)] border border-[var(--border)] rounded-lg p-1">
+                <button onclick="changeFontSize(-1)" class="w-8 h-8 rounded flex items-center justify-center font-mono font-bold hover:bg-[var(--surface)] text-[var(--text)]">A−</button>
+                <span id="fontSizeDisplay" class="font-mono text-[var(--text)] font-semibold">16px</span>
+                <button onclick="changeFontSize(1)" class="w-8 h-8 rounded flex items-center justify-center font-mono font-bold hover:bg-[var(--surface)] text-[var(--text)]">A+</button>
+              </div>
+            </div>
+            <div>
+              <div class="text-[11px] font-semibold text-[var(--text-muted)] mb-1.5 uppercase tracking-wider">Giao diện (Sáng / Tối)</div>
+              <div class="grid grid-cols-2 gap-1.5 bg-[var(--surface-2)] border border-[var(--border)] rounded-lg p-1 text-xs text-center font-medium">
+                <button onclick="applyTheme('dark')" id="themeOptDark" class="py-1.5 rounded-md transition bg-[var(--surface)] text-[var(--text)] shadow-sm">Tối</button>
+                <button onclick="applyTheme('light')" id="themeOptLight" class="py-1.5 rounded-md transition text-[var(--text-muted)] hover:text-[var(--text)]">Sáng</button>
+              </div>
+            </div>
           </div>
         </div>
-        <svg class="w-3.5 h-3.5 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-      </button>
 
-      <!-- Right: Action buttons (A-, A+, Theme) -->
-      <div class="flex items-center gap-1.5 shrink-0">
-        <button onclick="changeFontSize(-1)" class="w-7 h-7 rounded-lg bg-white/5 border border-white/10 text-xs font-mono text-slate-300 flex items-center justify-center active:bg-white/20">A-</button>
-        <button onclick="changeFontSize(1)" class="w-7 h-7 rounded-lg bg-white/5 border border-white/10 text-xs font-mono text-slate-300 flex items-center justify-center active:bg-white/20">A+</button>
-        <button onclick="cycleTheme()" id="themeBtn" class="w-7 h-7 rounded-lg bg-white/5 border border-white/10 text-xs flex items-center justify-center active:bg-white/20">🌙</button>
+        <!-- Nút ⋯ (Menu tùy chọn) -->
+        <div class="relative">
+          <button onclick="toggleMoreMenu()" id="mobileMoreBtn" aria-label="Tùy chọn khác" class="h-11 w-9 rounded-lg flex items-center justify-center font-bold text-xs text-[var(--text-muted)] hover:text-[var(--text)] active:bg-[var(--surface-2)] transition">
+            ⋯
+          </button>
+          <div id="mobileMoreMenu" class="hidden absolute right-0 mt-1 w-48 bg-[var(--surface)] border border-[var(--border)] rounded-xl shadow-2xl p-1 z-50 text-xs">
+            <button onclick="copyCurrentContent()" class="w-full text-left px-3 py-2 rounded-lg hover:bg-[var(--surface-2)] text-[var(--text)] flex items-center justify-between">
+              <span>Sao chép Markdown</span>
+            </button>
+            <button onclick="copyShareLink()" class="w-full text-left px-3 py-2 rounded-lg hover:bg-[var(--surface-2)] text-[var(--text)] flex items-center justify-between">
+              <span>Sao chép link bài</span>
+            </button>
+            <a href="app.html" onclick="localStorage.setItem('ped_viewer_target','desktop')" class="block w-full text-left px-3 py-2 rounded-lg hover:bg-[var(--surface-2)] text-[var(--text)]">
+              <span>Bản Máy tính (Desktop)</span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- Quick Navigation Sub-bar (Section Jumper Chips) -->
-    <div id="sectionPillsBar" class="h-9 px-2.5 flex items-center gap-1.5 overflow-x-auto no-scrollbar border-t border-white/5 text-[11px]">
-      <!-- Dynamically filled with section anchor chips -->
+    <!-- Dòng 2: Segmented control [ PED chuẩn | Sách YTB ] (Mục 4.3 prompty.md) -->
+    <div id="pedSubModesBar" class="h-10 px-3 pb-1.5 flex items-center">
+      <div class="w-full grid grid-cols-2 p-0.5 rounded-lg border border-[var(--border)] bg-[var(--surface-2)] text-xs font-medium text-center">
+        <button id="btn-tab-ped" onclick="switchMobileSource('ped')" class="py-1 rounded-md transition bg-[var(--surface)] text-[var(--text)] shadow-sm">PED chuẩn</button>
+        <button id="btn-tab-pedytb" onclick="switchMobileSource('pedytb')" class="py-1 rounded-md transition text-[var(--text-muted)] hover:text-[var(--text)]">Sách YTB</button>
+      </div>
     </div>
   </header>
 
-  <!-- ================= MAIN CONTENT SWIPER / TABS ================= -->
+  <!-- ================= 2. KHUNG NỘI DUNG CHÍNH ================= -->
   <main class="flex-1 overflow-hidden relative">
 
-    <!-- VIEW 1: PED CHUẨN (Why-based EBM Lesson) -->
-    <div id="view-ped" class="h-full w-full overflow-y-auto px-4 py-5 select-text">
-      <div id="pedContainer" class="prose-mobile max-w-xl mx-auto pb-24">
-        <!-- Markdown injected -->
+    <!-- CỘT CUỘN ĐỌC BÀI GIẢNG -->
+    <div id="mobileScrollViewport" class="h-full w-full overflow-y-auto px-4 py-5 select-text">
+      <div id="articleContainer" class="max-w-xl mx-auto pb-28">
+
+        <!-- ĐẦU BÀI (META LINE -> H1 DUY NHẤT -> MÔ TẢ) -->
+        <header id="mobileLeadHeader" class="mb-5 space-y-2">
+          <div class="flex items-center gap-2 text-xs">
+            <span id="leadLessonID" class="font-mono font-bold px-1.5 py-0.5 rounded bg-[var(--surface-2)] text-[var(--accent)] border border-[var(--border)]">PED-46</span>
+            <span class="text-[var(--text-muted)]">·</span>
+            <span id="leadPriorityChip" class="px-2 py-0.5 rounded font-medium text-[11px] whitespace-nowrap bg-amber-500/10 text-[var(--warning)] border border-amber-500/20">Ưu tiên P0</span>
+            <span id="leadSecondaryMeta" class="text-[var(--text-muted)] text-xs font-medium"></span>
+          </div>
+
+          <h1 id="leadMainTitle" class="text-xl sm:text-2xl font-bold text-[var(--text)] tracking-tight leading-snug">
+            Tiếp cận gan to ở trẻ em (Hepatomegaly)
+          </h1>
+
+          <p id="leadScopeText" class="text-xs sm:text-sm text-[var(--text-secondary)] leading-relaxed">
+            Định nghĩa kích thước gan theo tuổi &amp; công thức Nelson; kỹ thuật khám (gõ bờ trên, sờ bờ dưới, các nghiệm pháp Murphy, rung gan, ấn kẽ sườn, phản hồi gan TMC); phân loại nguyên nhân 6 cơ chế và hội chứng lâm sàng.
+          </p>
+
+          <div id="keyChipsContainer" class="hidden pt-2 flex-wrap items-center gap-1.5"></div>
+        </header>
+
+        <!-- NỘI DUNG BÀI ĐỌC -->
+        <div id="mobileArticleBody" class="prose-mobile"></div>
+
       </div>
     </div>
 
-    <!-- VIEW 2: SÁCH YTB (Original Textbook OCR) -->
-    <div id="view-pedytb" class="hidden h-full w-full overflow-y-auto px-4 py-5 select-text bg-[#090b14]">
-      <div id="pedytbContainer" class="prose-mobile max-w-xl mx-auto pb-24">
-        <!-- Markdown injected -->
-      </div>
-    </div>
-
-    <!-- VIEW 3: THẺ ANKI (Interactive Mobile Flashcard Player) -->
-    <div id="view-anki" class="hidden h-full w-full overflow-y-auto px-4 py-4 flex flex-col justify-between max-w-md mx-auto pb-20">
-      <!-- Filter and stats header -->
-      <div class="shrink-0 space-y-2 mb-3">
-        <div class="flex items-center justify-between text-xs">
-          <div class="flex items-center gap-1.5">
-            <span class="font-mono text-rose-400 font-bold" id="cardProgressText">Thẻ 1 / 28</span>
-            <span id="currentCardTrackBadge" class="text-[9px] font-mono px-2 py-0.5 rounded font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40">🏛️ BAREM GỐC</span>
-          </div>
-          <!-- Filter buttons -->
-          <div class="flex items-center bg-white/5 rounded-lg p-0.5 text-[10px]">
-            <button onclick="setAnkiFilter('all')" id="btn-flt-all" class="px-2 py-0.5 rounded font-bold bg-rose-500 text-white">Tất cả</button>
-            <button onclick="setAnkiFilter('barem_goc')" id="btn-flt-barem" class="px-2 py-0.5 rounded text-slate-400">Gốc</button>
-            <button onclick="setAnkiFilter('ebm_hien_dai')" id="btn-flt-ebm" class="px-2 py-0.5 rounded text-slate-400">EBM</button>
-          </div>
-        </div>
-        <!-- Progress Bar -->
-        <div class="w-full bg-white/10 h-1.5 rounded-full overflow-hidden">
-          <div id="cardProgressBar" class="bg-gradient-to-r from-rose-500 to-cyan-400 h-full w-0 transition-all duration-200"></div>
-        </div>
-      </div>
-
-      <!-- Card Box (Tap to Reveal / Flip) -->
-      <div onclick="toggleCardFlip()" id="flashcardBox" class="flex-1 min-h-[300px] bg-white/[0.04] border border-white/10 rounded-2xl p-5 flex flex-col justify-between shadow-2xl relative cursor-pointer active:scale-[0.99] transition">
-        <div>
-          <div class="flex items-center justify-between text-[10px] text-slate-500 font-mono mb-2">
-            <span id="cardIDBadge" class="text-rose-400 font-bold">#PED46-001</span>
-            <span class="text-slate-500">Chạm để lật đáp án 👆</span>
-          </div>
-          <div id="cardQuestionText" class="text-sm font-medium leading-relaxed text-slate-100 select-text">
-            Đang tải câu hỏi thẻ...
-          </div>
-        </div>
-
-        <!-- Answer / Extra reveal area -->
-        <div id="cardAnswerArea" class="hidden mt-4 pt-3 border-t border-white/10">
-          <div class="text-[11px] leading-relaxed select-text" id="cardExtraText">
-            <!-- Injected extra text -->
-          </div>
-        </div>
-
-        <div class="pt-2 text-center text-[10px] text-slate-500">
-          <span id="flipPrompt">Bấm vào thẻ để hiện đáp án</span>
-        </div>
-      </div>
-
-      <!-- Bottom Player Controls -->
-      <div class="shrink-0 flex items-center justify-between gap-3 mt-4">
-        <button onclick="prevCard()" class="flex-1 py-2.5 rounded-xl bg-white/5 active:bg-white/10 border border-white/10 text-xs font-bold text-slate-300 flex items-center justify-center gap-1.5">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
-          <span>Trước</span>
-        </button>
-        <button onclick="toggleCardFlip()" class="flex-1 py-2.5 rounded-xl bg-cyan-500/20 active:bg-cyan-500/30 border border-cyan-500/40 text-xs font-bold text-cyan-300 flex items-center justify-center gap-1.5">
-          <span id="btnFlipText">Lật thẻ</span>
-        </button>
-        <button onclick="nextCard()" class="flex-1 py-2.5 rounded-xl bg-white/5 active:bg-white/10 border border-white/10 text-xs font-bold text-slate-300 flex items-center justify-center gap-1.5">
-          <span>Sau</span>
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
-        </button>
-      </div>
-    </div>
+    <!-- ================= 3. NÚT MỤC LỤC NỔI GÓC DƯỚI (MỤC 4.3 & 5.10) ================= -->
+    <button id="floatingTocBtn" onclick="openTocSheet()" aria-label="Mở mục lục bài đọc" class="fixed bottom-5 right-4 z-20 px-3.5 py-2 rounded-full bg-[var(--surface)] text-[var(--text)] border border-[var(--border)] shadow-2xl flex items-center gap-1.5 text-xs font-semibold backdrop-blur active:scale-95 transition">
+      <svg class="w-4 h-4 text-[var(--accent)]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h7"/></svg>
+      <span>Mục lục ▴</span>
+    </button>
 
   </main>
 
-  <!-- ================= BOTTOM NAVIGATION DOCK (4 TABS) ================= -->
-  <nav class="h-14 bg-[#0a0f1d]/95 backdrop-blur border-t border-white/10 flex items-center justify-around shrink-0 z-30 px-2">
-    <!-- Tab 1: Bài học PED -->
-    <button onclick="switchTab('ped')" id="tab-ped" class="flex-1 flex flex-col items-center justify-center py-1 text-cyan-400 font-bold">
-      <span class="text-base">📘</span>
-      <span class="text-[10px] mt-0.5">Bài PED</span>
-    </button>
-    <!-- Tab 2: Sách YTB -->
-    <button onclick="switchTab('pedytb')" id="tab-pedytb" class="flex-1 flex flex-col items-center justify-center py-1 text-slate-400 hover:text-slate-200">
-      <span class="text-base">📕</span>
-      <span class="text-[10px] mt-0.5">Sách YTB</span>
-    </button>
-    <!-- Tab 3: Thẻ Anki -->
-    <button onclick="switchTab('anki')" id="tab-anki" class="flex-1 flex flex-col items-center justify-center py-1 text-slate-400 hover:text-slate-200">
-      <span class="text-base">🗂️</span>
-      <span class="text-[10px] mt-0.5">Lật thẻ</span>
-    </button>
-    <!-- Tab 4: Menu bài -->
-    <button onclick="openDrawer()" id="tab-menu" class="flex-1 flex flex-col items-center justify-center py-1 text-slate-400 hover:text-slate-200">
-      <span class="text-base">📑</span>
-      <span class="text-[10px] mt-0.5">Mục lục</span>
-    </button>
-  </nav>
+  <!-- ================= 4. BOTTOM SHEET MỤC LỤC (BẬT LÊN KHI BẤM MỤC LỤC ▴) ================= -->
+  <div id="tocSheetOverlay" onclick="closeTocSheet()" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-40 hidden opacity-0 transition-opacity duration-200"></div>
 
-  <!-- ================= LESSON SELECTOR DRAWER (OFF-CANVAS) ================= -->
+  <div id="tocSheetPanel" class="fixed inset-x-0 bottom-0 max-h-[75vh] bg-[var(--surface)] border-t border-[var(--border)] rounded-t-2xl z-50 transform translate-y-full transition-transform duration-200 flex flex-col shadow-2xl overscroll-contain">
+    <div class="px-4 py-3 border-b border-[var(--border)] flex items-center justify-between shrink-0">
+      <div class="flex items-center gap-2">
+        <span class="text-xs font-bold text-[var(--text)] uppercase tracking-wider">Trong bài này</span>
+        <span id="tocSheetCount" class="text-[10px] font-mono text-[var(--text-muted)]">(0 mục)</span>
+      </div>
+      <button onclick="closeTocSheet()" aria-label="Đóng mục lục" class="h-10 w-10 -mr-2 rounded-lg flex items-center justify-center text-[var(--text-muted)] hover:text-[var(--text)]">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div id="tocSheetList" class="flex-1 overflow-y-auto p-3 space-y-1 text-xs">
+      <!-- Injected -->
+    </div>
+  </div>
+
+  <!-- ================= 5. NGĂN KÉO DANH SÁCH BÀI (DRAWER MỞ BẰNG ≡) ================= -->
   <div id="drawerOverlay" onclick="closeDrawer()" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-40 hidden opacity-0 transition-opacity duration-200"></div>
 
-  <div id="drawerPanel" class="fixed inset-y-0 left-0 w-[85%] max-w-sm bg-[#0a101d] border-r border-white/10 z-50 transform -translate-x-full transition-transform duration-200 flex flex-col shadow-2xl">
-    <div class="h-14 px-4 border-b border-white/10 flex items-center justify-between shrink-0">
-      <div class="flex items-center gap-2">
-        <span class="text-lg">🩺</span>
-        <span class="font-extrabold text-sm text-cyan-400 tracking-tight">Danh Mục Bài Học</span>
+  <div id="drawerPanel" class="drawer-panel fixed inset-y-0 left-0 w-[85%] max-w-sm bg-[var(--surface)] border-r border-[var(--border)] z-50 transform -translate-x-full transition-transform duration-200 flex flex-col shadow-2xl">
+    <!-- Header ngăn kéo: Logo + Tên + Nút đóng -->
+    <div class="h-12 px-3 border-b border-[var(--border)] flex items-center justify-between shrink-0">
+      <div class="flex items-center gap-2 min-w-0">
+        <svg class="w-4 h-4 text-[var(--accent)] shrink-0" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 3v5a4.5 4.5 0 0 0 9 0V3"/><path d="M9 12.5v4a4.5 4.5 0 0 0 9 0v-2"/><circle cx="18" cy="12" r="2.5"/></svg>
+        <div class="truncate">
+          <span class="font-bold text-sm tracking-tight text-[var(--text)]">HungMed</span>
+          <span class="text-[11px] text-[var(--text-muted)] block truncate -mt-0.5">BS. Đỗ Văn Ngọc Hưng</span>
+        </div>
       </div>
-      <button onclick="closeDrawer()" class="p-1 rounded-lg text-slate-400 hover:text-white">
+      <button onclick="closeDrawer()" aria-label="Đóng danh sách bài" class="h-10 w-10 rounded-lg flex items-center justify-center text-[var(--text-muted)] hover:text-[var(--text)]">
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
       </button>
     </div>
 
-    <!-- Search box -->
-    <div class="p-3 border-b border-white/10">
-      <input type="text" id="mobileSearchInput" oninput="filterDrawerLessons()" placeholder="Tìm kiếm mã bài, triệu chứng..." class="w-full bg-white/5 border border-white/10 rounded-xl px-3 py-2 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-cyan-500">
+    <!-- Segmented control chọn chuyên khoa: Nhi khoa | Sản khoa -->
+    <div class="p-2.5 border-b border-[var(--border)]">
+      <div class="grid grid-cols-2 p-0.5 rounded-lg border border-[var(--border)] bg-[var(--surface-2)] gap-1 text-xs font-semibold">
+        <button onclick="switchMobileSpecialty('ped')" id="mobile-tab-ped" class="py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 bg-[var(--surface)] text-[var(--text)] shadow-sm">
+          <span>Nhi khoa</span> <span class="text-[10px] font-mono tabular-nums text-[var(--text-muted)]" id="mobile-count-ped">(33)</span>
+        </button>
+        <button onclick="switchMobileSpecialty('obgyn')" id="mobile-tab-obgyn" class="py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--text)]">
+          <span>Sản khoa</span> <span class="text-[10px] font-mono tabular-nums text-[var(--text-muted)]" id="mobile-count-obgyn">(54)</span>
+        </button>
+      </div>
     </div>
 
-    <!-- Drawer Lessons List -->
-    <div id="drawerList" class="flex-1 overflow-y-auto p-2 space-y-1">
-      <!-- Injected -->
-    </div>
-
-    <div class="p-3 border-t border-white/10 bg-black/30 text-[11px] space-y-2">
-      <div class="flex items-center justify-between">
-        <button onclick="openDataModal()" class="text-cyan-400 hover:text-cyan-300 flex items-center gap-1 font-semibold">
-          <span>🔄</span> Nạp dữ liệu
-        </button>
-        <a href="app.html" onclick="localStorage.setItem('ped_viewer_target','desktop')" class="text-slate-400 hover:text-slate-200 flex items-center gap-1 font-semibold">
-          <span>💻</span> Bản Desktop
-        </a>
-        <a href="checklist.html" class="text-amber-400 hover:text-amber-300 flex items-center gap-1 font-semibold">
-          <span>📋</span> Checklist
-        </a>
-      </div>
-      <div class="text-center text-[10px] text-slate-500">
-        PedViewer Mobile V1.0 · Tự học Nhi khoa YTB
+    <!-- Ô tìm kiếm (Ctrl+K) -->
+    <div class="p-2.5 border-b border-[var(--border)]">
+      <div class="relative flex items-center">
+        <svg class="w-3.5 h-3.5 text-[var(--text-muted)] absolute left-2.5 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        <input type="text" id="mobileSearchInput" oninput="filterDrawerLessons()" placeholder="Tìm bài học, triệu chứng…" class="w-full bg-[var(--bg)] border border-[var(--border)] rounded-md px-2.5 py-1.5 pl-7 text-xs text-[var(--text)] placeholder-[var(--text-muted)] focus:outline-none focus:border-[var(--accent)]">
       </div>
     </div>
-  </div>
 
-  <!-- ================= NO DATA / DATA SETUP MODAL ================= -->
-  <div id="dataModal" class="fixed inset-0 bg-black/85 backdrop-blur-md z-50 flex items-center justify-center p-4 hidden">
-    <div class="bg-[#0f172a] border border-white/15 rounded-2xl max-w-sm w-full p-5 space-y-4 text-slate-200 shadow-2xl">
-      <div class="text-center space-y-1">
-        <div class="w-12 h-12 mx-auto rounded-2xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-2xl shadow-lg shadow-cyan-500/20">
-          🩺
-        </div>
-        <h2 class="text-base font-bold text-white pt-1">PedViewer Mobile · Dữ Liệu</h2>
-        <p class="text-xs text-slate-400" id="dataModalSubtitle">Chưa phát hiện file <code>data.js</code> (do mở file riêng lẻ hoặc bảo mật trình duyệt chặn nạp cục bộ).</p>
-      </div>
+    <!-- Danh sách bài trong ngăn kéo -->
+    <div id="drawerList" class="flex-1 overflow-y-auto p-2 space-y-0.5"></div>
 
-      <div class="space-y-2.5 pt-1">
-        <!-- Option 1: Cloud sync from GitHub -->
-        <button onclick="syncDataFromCloud()" id="btnSyncCloud" class="w-full py-2.5 px-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white text-xs font-bold flex items-center justify-center gap-2 shadow-lg shadow-cyan-500/25 transition active:scale-[0.98]">
-          <span class="text-base">🌐</span>
-          <span>Tải tự động từ GitHub Cloud</span>
-        </button>
-
-        <!-- Option 2: File picker for data.js or CATALOG_PED_VIEWER.json -->
-        <button onclick="document.getElementById('dataFilePicker').click()" class="w-full py-2.5 px-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-slate-200 text-xs font-semibold flex items-center justify-center gap-2 transition active:scale-[0.98]">
-          <span class="text-base">📁</span>
-          <span>Chọn file data.js hoặc JSON từ máy</span>
-        </button>
-        <input type="file" id="dataFilePicker" class="hidden" accept=".js,.json" onchange="handleDataFileSelected(event)">
-
-        <!-- Option 3: Direct Markdown file reader -->
-        <button onclick="document.getElementById('mdFilePicker').click()" class="w-full py-2.5 px-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-slate-200 text-xs font-semibold flex items-center justify-center gap-2 transition active:scale-[0.98]">
-          <span class="text-base">📄</span>
-          <span>Mở nhanh 1 file bài học (.md)</span>
-        </button>
-        <input type="file" id="mdFilePicker" class="hidden" accept=".md" onchange="handleMdFileSelected(event)">
-
-        <!-- Option 4: Link to checklist -->
-        <a href="checklist.html" class="w-full py-2.5 px-3 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-white/10 text-slate-300 text-xs font-semibold flex items-center justify-center gap-2 transition">
-          <span>📋</span>
-          <span>Mở Sổ tay Checklist Ôn tập (47 bài)</span>
-        </a>
-      </div>
-
-      <div id="syncStatusBox" class="hidden p-2.5 rounded-xl bg-cyan-950/60 border border-cyan-500/30 text-center text-xs text-cyan-300 font-mono">
-        <span id="syncStatusText" class="animate-pulse">⏳ Đang xử lý...</span>
-      </div>
-
-      <div class="flex items-center justify-between text-[11px] text-slate-400 pt-1">
-        <button onclick="closeDataModal()" id="btnCloseDataModal" class="text-slate-400 hover:text-white underline">
-          Đóng cửa sổ
-        </button>
-        <span class="text-[10px] text-slate-500">Tự động lưu offline</span>
-      </div>
+    <!-- Chân ngăn kéo -->
+    <div class="p-2.5 border-t border-[var(--border)] text-[11px] text-[var(--text-muted)] flex items-center justify-between">
+      <span id="mobileTotalLabel">33 bài · Nhi khoa</span>
+      <a href="app.html" onclick="localStorage.setItem('ped_viewer_target','desktop')" class="hover:text-[var(--text)] font-medium">Bản Desktop</a>
     </div>
   </div>
 
-  <!-- LOAD DATA SCRIPT -->
-  <script src="data.js?v=20260917_174026"></script>
+  <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
+  <script src="data.js?v=20261013_165828"></script>
 
-  <!-- SCRIPT LOGIC -->
+  <!-- APPLICATION SCRIPT LOGIC -->
   <script>
+    let currentSpecialty = 'ped'; // 'ped' | 'obgyn'
     let currentLesson = null;
-    let activeTab = 'ped'; // ped | pedytb | anki
+    let mobileSource = 'ped'; // 'ped' | 'pedytb' (cho Nhi khoa)
     let currentTheme = 'dark';
-    let currentFontSize = 15.5;
-
-    // Anki card state
-    let allCards = [];
-    let filteredCards = [];
-    let currentCardIdx = 0;
-    let isFlipped = false;
-    let ankiFilter = 'all';
-
-    const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/ngochung123s/mavisresearch/main/Bai%20hoc%20y%20khoa/12_Nhi%20khoa/CATALOG_PED_VIEWER.json';
-    const CACHE_KEY = 'ped_mobile_library_cache_v1';
+    let currentFontSize = 16;
 
     document.addEventListener('DOMContentLoaded', () => {
-      initApp();
+      // 1. Phục hồi cấu hình theme & font
+      const savedTheme = localStorage.getItem('hungmed_theme') || 'dark';
+      applyTheme(savedTheme);
+
+      try {
+        const savedFont = localStorage.getItem('hungmed_font');
+        if (savedFont) applyFontSize(Number(savedFont));
+        const savedSpec = localStorage.getItem('hungmed_specialty');
+        if (savedSpec === 'ped' || savedSpec === 'obgyn') currentSpecialty = savedSpec;
+      } catch(e) {}
+
+      initMobileApp();
+      setupGlobalListeners();
     });
 
-    function saveDataCache(data) {
-      try {
-        localStorage.setItem(CACHE_KEY, JSON.stringify(data));
-      } catch (e) {
-        console.warn('Cannot save to localStorage cache (quota or disabled):', e);
-      }
-    }
-
-    function loadDataCache() {
-      try {
-        const str = localStorage.getItem(CACHE_KEY);
-        return str ? JSON.parse(str) : null;
-      } catch (e) {
-        console.warn('Cannot read from localStorage cache:', e);
-        return null;
-      }
-    }
-
-    function openDataModal(subtitle) {
-      const modal = document.getElementById('dataModal');
-      if (subtitle) {
-        document.getElementById('dataModalSubtitle').textContent = subtitle;
-      }
-      modal.classList.remove('hidden');
-    }
-
-    function closeDataModal() {
-      const modal = document.getElementById('dataModal');
-      modal.classList.add('hidden');
-    }
-
-    function showSyncStatus(msg) {
-      const box = document.getElementById('syncStatusBox');
-      const txt = document.getElementById('syncStatusText');
-      box.classList.remove('hidden');
-      txt.textContent = msg;
-    }
-
-    function hideSyncStatus() {
-      const box = document.getElementById('syncStatusBox');
-      box.classList.add('hidden');
-    }
-
-    async function syncDataFromCloud() {
-      const btn = document.getElementById('btnSyncCloud');
-      const origHtml = btn.innerHTML;
-      btn.disabled = true;
-      showSyncStatus("⏳ Đang tải dữ liệu từ máy chủ...");
-
-      try {
-        let resp = await fetch('CATALOG_PED_VIEWER.json?t=' + Date.now(), { cache: 'no-store' });
-        if (!resp.ok) {
-          resp = await fetch(GITHUB_RAW_URL, { cache: 'no-cache' });
-        }
-        if (!resp.ok) throw new Error("HTTP " + resp.status);
-        const data = await resp.json();
-        if (data && data.lessons && data.lessons.length > 0) {
-          window.PED_LIBRARY_DATA = data;
-          saveDataCache(data);
-          showSyncStatus(`✅ Đã tải ${data.lessons.length} bài học thành công!`);
-          setTimeout(() => {
-            closeDataModal();
-            setupAppUI();
-          }, 600);
-        } else {
-          throw new Error("Dữ liệu trống");
-        }
-      } catch (err) {
-        showSyncStatus("❌ Lỗi tải: " + err.message + ". Vui lòng thử lại hoặc chọn file từ máy.");
-      } finally {
-        btn.disabled = false;
-        btn.innerHTML = origHtml;
-      }
-    }
-
-    function handleDataFileSelected(event) {
-      const file = event.target.files[0];
-      if (!file) return;
-      const reader = new FileReader();
-      reader.onload = function(e) {
-        try {
-          const text = e.target.result;
-          let data = null;
-          if (file.name.endsWith('.js') || text.includes('PED_LIBRARY_DATA')) {
-            const jsonText = text.replace(/^\s*\/\*[\s\S]*?\*\/\s*window\.PED_LIBRARY_DATA\s*=\s*/, '').replace(/;\s*$/, '');
-            data = JSON.parse(jsonText);
-          } else {
-            data = JSON.parse(text);
-          }
-          if (data && (data.lessons || Array.isArray(data))) {
-            const normalized = data.lessons ? data : { lessons: data, metadata: {} };
-            window.PED_LIBRARY_DATA = normalized;
-            saveDataCache(normalized);
-            alert(`Đã nạp thành công ${normalized.lessons.length} bài học!`);
-            closeDataModal();
-            setupAppUI();
-          } else {
-            alert("Cấu trúc file không đúng định dạng dữ liệu PedViewer.");
-          }
-        } catch (err) {
-          alert("Lỗi đọc file: " + err.message);
-        }
+    function getUnifiedData() {
+      if (window.HUNG_MED_DATA) return window.HUNG_MED_DATA;
+      const pedLessons = (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.lessons) ? window.PED_LIBRARY_DATA.lessons : [];
+      const obgynLessons = window.SAN_KHOA_DATA || [];
+      return {
+        metadata: (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.metadata) || { total_ped: pedLessons.length, total_obgyn: obgynLessons.length },
+        ped: pedLessons,
+        obgyn: obgynLessons
       };
-      reader.readAsText(file);
     }
 
-    function handleMdFileSelected(event) {
-      const file = event.target.files[0];
-      if (!file) return;
-      const reader = new FileReader();
-      reader.onload = function(e) {
-        const text = e.target.result;
-        const fname = file.name.replace(/\.[^/.]+$/, "");
-        const singleLesson = {
-          id: "FILE_DOC",
-          title: fname,
-          block: "Bài đọc nạp từ máy",
-          has_ped: true,
-          has_pedytb: false,
-          has_cards: false,
-          ped_content: text,
-          cards_data: []
-        };
-        window.PED_LIBRARY_DATA = {
-          lessons: [singleLesson],
-          metadata: { total_ped: 1 }
-        };
-        closeDataModal();
-        setupAppUI();
-        selectLesson("FILE_DOC");
-      };
-      reader.readAsText(file);
+    function initMobileApp() {
+      const data = getUnifiedData();
+      const pCount = (data.ped || []).length;
+      const oCount = (data.obgyn || []).length;
+
+      document.getElementById('mobile-count-ped').textContent = `(${pCount})`;
+      document.getElementById('mobile-count-obgyn').textContent = `(${oCount})`;
+
+      // Parse URL params
+      const urlParams = new URLSearchParams(window.location.search);
+      const kParam = urlParams.get('k');
+      const baiParam = urlParams.get('bai');
+      const xemParam = urlParams.get('xem');
+
+      if (kParam === 'nhi' || kParam === 'ped') currentSpecialty = 'ped';
+      else if (kParam === 'san' || kParam === 'obgyn') currentSpecialty = 'obgyn';
+
+      if (xemParam === 'pedytb' || xemParam === 'ytb') mobileSource = 'pedytb';
+      else if (xemParam === 'ped') mobileSource = 'ped';
+
+      updateMobileSpecialtyView(baiParam);
+
+      if (window.location.hash) {
+        setTimeout(() => {
+          const target = document.getElementById(window.location.hash.slice(1));
+          if (target) target.scrollIntoView({ behavior: 'smooth' });
+        }, 350);
+      }
     }
 
-    async function initApp() {
-      // 1. Initial render from in-memory or localStorage cache for INSTANT load
-      let hasRendered = false;
-      if (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.lessons && window.PED_LIBRARY_DATA.lessons.length > 0) {
-        setupAppUI();
-        hasRendered = true;
+    function switchMobileSpecialty(spec) {
+      if (currentSpecialty === spec) return;
+      currentSpecialty = spec;
+      try { localStorage.setItem('hungmed_specialty', spec); } catch(e) {}
+      document.getElementById('mobileSearchInput').value = '';
+      updateMobileSpecialtyView();
+    }
+
+    function updateMobileSpecialtyView(preferLessonId) {
+      const isPed = currentSpecialty === 'ped';
+      const data = getUnifiedData();
+      const tabPed = document.getElementById('mobile-tab-ped');
+      const tabObgyn = document.getElementById('mobile-tab-obgyn');
+      const subModesBar = document.getElementById('pedSubModesBar');
+
+      if (isPed) {
+        tabPed.className = 'py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 bg-[var(--surface)] text-[var(--text)] shadow-sm';
+        tabObgyn.className = 'py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--text)]';
+        subModesBar.classList.remove('hidden');
+        document.getElementById('mobileTotalLabel').textContent = `${(data.ped || []).length} bài · Nhi khoa`;
       } else {
-        const cached = loadDataCache();
-        if (cached && cached.lessons && cached.lessons.length > 0) {
-          window.PED_LIBRARY_DATA = cached;
-          setupAppUI();
-          hasRendered = true;
-        }
+        tabObgyn.className = 'py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 bg-[var(--surface)] text-[var(--text)] shadow-sm';
+        tabPed.className = 'py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--text)]';
+        subModesBar.classList.add('hidden');
+        document.getElementById('mobileTotalLabel').textContent = `${(data.obgyn || []).length} bài · Sản khoa`;
       }
 
-      // 2. Fetch fresh catalog from Netlify origin (stale-while-revalidate)
-      try {
-        const resp = await fetch('CATALOG_PED_VIEWER.json?t=' + Date.now(), { cache: 'no-store' });
-        if (resp.ok) {
-          const freshData = await resp.json();
-          if (freshData && freshData.lessons && freshData.lessons.length > 0) {
-            const currentCount = (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.lessons) ? window.PED_LIBRARY_DATA.lessons.length : 0;
-            const currentVer = (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.metadata) ? window.PED_LIBRARY_DATA.metadata.version : '';
-            const freshVer = (freshData.metadata) ? freshData.metadata.version : '';
+      const pool = isPed ? (data.ped || []) : (data.obgyn || []);
+      renderDrawerList(pool);
 
-            if (!hasRendered || freshData.lessons.length !== currentCount || freshVer !== currentVer) {
-              window.PED_LIBRARY_DATA = freshData;
-              saveDataCache(freshData);
-              setupAppUI();
-              console.log(`[PedViewer Mobile] Đã cập nhật ${freshData.lessons.length} bài học mới từ máy chủ.`);
-            }
-            return;
-          }
-        }
-      } catch (e) {
-        console.warn("[PedViewer Mobile] Không thể fetch CATALOG_PED_VIEWER.json:", e);
+      let defLesson = null;
+      if (preferLessonId) {
+        defLesson = pool.find(l => l.id.toLowerCase() === preferLessonId.toLowerCase());
+      }
+      if (!defLesson) {
+        defLesson = isPed
+          ? (pool.find(l => l.id === 'PED-46') || pool.find(l => l.has_ped || l.has_pedytb) || pool[0])
+          : (pool.find(l => l.id === 'SK-01') || pool[0]);
       }
 
-      // 3. Fallback to interactive modal if still no data
-      if (!hasRendered) {
-        openDataModal();
+      if (defLesson) {
+        selectLesson(defLesson.id);
       }
     }
 
-    function setupAppUI() {
-      if (!window.PED_LIBRARY_DATA || !window.PED_LIBRARY_DATA.lessons) return;
-      renderDrawer(window.PED_LIBRARY_DATA.lessons);
+    let collapsedBlocks = [];
+    function toggleBlockCollapse(groupTitle) {
+      const idx = collapsedBlocks.indexOf(groupTitle);
+      if (idx >= 0) collapsedBlocks.splice(idx, 1);
+      else collapsedBlocks.push(groupTitle);
 
-      // Default lesson: PED-46 or first available
-      const def = window.PED_LIBRARY_DATA.lessons.find(l => l.id === 'PED-46') || window.PED_LIBRARY_DATA.lessons[0];
-      if (def) {
-        selectLesson(def.id);
-      }
+      const data = getUnifiedData();
+      const pool = currentSpecialty === 'ped' ? (data.ped || []) : (data.obgyn || []);
+      renderDrawerList(pool);
     }
 
-    function renderDrawer(lessons) {
+    function renderDrawerList(lessons) {
       const container = document.getElementById('drawerList');
       container.innerHTML = '';
 
-      let lastBlock = '';
+      const groups = {};
       lessons.forEach(l => {
-        if (l.block && l.block !== lastBlock) {
-          lastBlock = l.block;
-          const header = document.createElement('div');
-          header.className = 'text-[9px] font-mono font-bold uppercase text-slate-500 px-2 pt-3 pb-1 tracking-wider';
-          header.textContent = l.block;
-          container.appendChild(header);
-        }
+        const g = l.block || l.chapter || 'Chuyên đề';
+        if (!groups[g]) groups[g] = [];
+        groups[g].push(l);
+      });
 
-        const btn = document.createElement('button');
-        btn.onclick = () => {
-          selectLesson(l.id);
-          closeDrawer();
-        };
+      const activeGroup = currentLesson ? (currentLesson.block || currentLesson.chapter) : null;
 
-        const isCurrent = currentLesson && currentLesson.id === l.id;
-        btn.className = `w-full text-left p-2.5 rounded-xl flex items-center justify-between text-xs transition ${
-          isCurrent ? 'bg-cyan-500/20 text-cyan-300 font-bold border border-cyan-500/30' : 'text-slate-300 hover:bg-white/5'
-        }`;
+      Object.keys(groups).forEach(groupTitle => {
+        const items = groups[groupTitle];
+        const isCollapsed = collapsedBlocks.includes(groupTitle) && groupTitle !== activeGroup;
 
-        let tags = '';
-        if (l.has_ped) tags += `<span class="text-[9px] font-mono px-1 py-0.2 rounded bg-cyan-500/20 text-cyan-300">PED</span> `;
-        if (l.has_pedytb) tags += `<span class="text-[9px] font-mono px-1 py-0.2 rounded bg-purple-500/20 text-purple-300">YTB</span> `;
-        if (l.has_cards) tags += `<span class="text-[9px] font-mono px-1 py-0.2 rounded bg-rose-500/20 text-rose-300">${l.cards_count}🗂️</span>`;
+        const groupWrap = document.createElement('div');
+        groupWrap.className = 'mb-1';
 
-        btn.innerHTML = `
-          <div class="truncate mr-2">
-            <span class="font-mono font-black text-cyan-400">${l.id}</span>
-            <span class="ml-1">${l.title}</span>
+        const headerBtn = document.createElement('button');
+        headerBtn.type = 'button';
+        headerBtn.className = 'block-header-btn';
+        headerBtn.setAttribute('aria-expanded', !isCollapsed);
+        headerBtn.onclick = () => toggleBlockCollapse(groupTitle);
+
+        const chevronIcon = isCollapsed
+          ? '<svg class="w-3.5 h-3.5 text-[var(--text-muted)] shrink-0 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>'
+          : '<svg class="w-3.5 h-3.5 text-[var(--text-muted)] shrink-0 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>';
+
+        headerBtn.innerHTML = `
+          <div class="flex items-center gap-1.5 min-w-0 pr-2">
+            ${chevronIcon}
+            <span class="truncate">${groupTitle}</span>
           </div>
-          <div class="shrink-0 flex items-center gap-1">${tags}</div>
+          <span class="block-count">${items.length}</span>
         `;
-        container.appendChild(btn);
+        groupWrap.appendChild(headerBtn);
+
+        const itemsWrap = document.createElement('div');
+        itemsWrap.className = isCollapsed ? 'hidden' : 'space-y-0.5 mt-0.5';
+
+        items.forEach(l => {
+          const row = document.createElement('a');
+          row.href = `?k=${currentSpecialty}&bai=${l.id}`;
+          row.id = `drawer-item-${l.id}`;
+          row.className = 'lesson-row';
+          row.title = l.title;
+
+          const isCurrent = currentLesson && currentLesson.id === l.id;
+          if (isCurrent) row.setAttribute('aria-current', 'page');
+
+          row.onclick = (e) => {
+            e.preventDefault();
+            selectLesson(l.id);
+            closeDrawer();
+          };
+
+          let dots = '';
+          if (currentSpecialty === 'ped') {
+            const pedDot = l.has_ped ? '<span class="dot-source ped-filled"></span>' : '<span class="dot-source ped-empty"></span>';
+            const ytbDot = l.has_pedytb ? '<span class="dot-source ytb-filled"></span>' : '<span class="dot-source ytb-empty"></span>';
+            const sourceDesc = (l.has_ped ? 'Có PED chuẩn' : 'Chưa có PED chuẩn') + ', ' + (l.has_pedytb ? 'có Sách YTB' : 'chưa có Sách YTB');
+            dots = `<div class="source-dots" aria-label="${sourceDesc}" title="${sourceDesc}">${pedDot}${ytbDot}</div>`;
+          } else {
+            dots = `<span class="text-[11px] text-[var(--text-muted)] font-mono tabular-nums shrink-0 pt-0.5">${l.word_count ? l.word_count.toLocaleString() + ' từ' : ''}</span>`;
+          }
+
+          row.innerHTML = `
+            <span class="lesson-id">${l.id}</span>
+            <span class="lesson-title">${l.title}</span>
+            ${dots}
+          `;
+          itemsWrap.appendChild(row);
+        });
+
+        groupWrap.appendChild(itemsWrap);
+        container.appendChild(groupWrap);
       });
     }
 
     function filterDrawerLessons() {
-      const q = document.getElementById('mobileSearchInput').value.toLowerCase();
-      if (!window.PED_LIBRARY_DATA) return;
-      const filtered = window.PED_LIBRARY_DATA.lessons.filter(l => {
-        return l.id.toLowerCase().includes(q) || l.title.toLowerCase().includes(q);
+      const q = document.getElementById('mobileSearchInput').value.toLowerCase().trim();
+      const data = getUnifiedData();
+      const pool = currentSpecialty === 'ped' ? (data.ped || []) : (data.obgyn || []);
+
+      const filtered = pool.filter(l => {
+        return !q ||
+          l.id.toLowerCase().includes(q) ||
+          l.title.toLowerCase().includes(q) ||
+          (l.author && l.author.toLowerCase().includes(q)) ||
+          (l.block && l.block.toLowerCase().includes(q)) ||
+          (l.chapter && l.chapter.toLowerCase().includes(q));
       });
-      renderDrawer(filtered);
+
+      renderDrawerList(filtered);
     }
 
     function selectLesson(id) {
-      if (!window.PED_LIBRARY_DATA) return;
-      const lesson = window.PED_LIBRARY_DATA.lessons.find(l => l.id === id);
+      const data = getUnifiedData();
+      const pool = currentSpecialty === 'ped' ? (data.ped || []) : (data.obgyn || []);
+      const lesson = pool.find(l => l.id === id);
       if (!lesson) return;
 
       currentLesson = lesson;
 
-      // Header update
+      // Drawer active item highlight
+      document.querySelectorAll('#drawerList .lesson-row').forEach(row => {
+        row.removeAttribute('aria-current');
+      });
+      const activeRow = document.getElementById(`drawer-item-${id}`);
+      if (activeRow) {
+        activeRow.setAttribute('aria-current', 'page');
+        activeRow.scrollIntoView({ block: 'nearest' });
+      }
+
+      // Update Topbar
       document.getElementById('headerLessonID').textContent = lesson.id;
       document.getElementById('headerLessonTitle').textContent = lesson.title;
 
-      // Render Markdown
-      renderMarkdown('ped', lesson.ped_content || `# [${lesson.id}] ${lesson.title}\n\n> 📋 Chưa có bài chuẩn Why-based.`);
-      renderMarkdown('pedytb', lesson.pedytb_content || `# [${lesson.id}] ${lesson.title}\n\n> 📖 Chưa có bản chụp giáo trình YTB.`);
+      // Update Lead
+      document.getElementById('leadLessonID').textContent = lesson.id;
+      document.getElementById('leadMainTitle').textContent = lesson.title;
 
-      // Generate section pills
-      generateSectionPills();
+      const pChip = document.getElementById('leadPriorityChip');
+      if (lesson.priority) {
+        pChip.textContent = `Ưu tiên ${lesson.priority}`;
+        pChip.classList.remove('hidden');
+      } else {
+        pChip.classList.add('hidden');
+      }
 
-      // Init Anki cards
-      initAnkiCards(lesson.cards_data || []);
+      const secMeta = document.getElementById('leadSecondaryMeta');
+      if (currentSpecialty === 'obgyn') {
+        secMeta.textContent = lesson.author ? `· ${lesson.author}` : '';
+        secMeta.classList.remove('hidden');
+        document.getElementById('leadScopeText').textContent = `${lesson.chapter || ''} · ${lesson.word_count ? lesson.word_count.toLocaleString() + ' từ' : ''}`;
+      } else {
+        secMeta.classList.add('hidden');
+        document.getElementById('leadScopeText').textContent = lesson.scope || '';
+      }
 
-      // Auto switch to available tab
-      if (!lesson.has_ped && lesson.has_pedytb && activeTab === 'ped') {
-        switchTab('pedytb');
+      // Render Key Chips
+      renderKeyChips(lesson);
+
+      // Update sub-modes buttons (PED chuẩn | Sách YTB)
+      updateMobileSourceButtons(lesson);
+
+      // Render content
+      renderMobileContent(lesson);
+
+      // Update URL State
+      updateUrlState(true);
+
+      document.getElementById('mobileScrollViewport').scrollTop = 0;
+    }
+
+    function updateMobileSourceButtons(lesson) {
+      if (currentSpecialty !== 'ped') return;
+      const bPed = document.getElementById('btn-tab-ped');
+      const bYtb = document.getElementById('btn-tab-pedytb');
+
+      if (!lesson.has_ped) {
+        bPed.disabled = true;
+        bPed.classList.add('opacity-40');
+      } else {
+        bPed.disabled = false;
+        bPed.classList.remove('opacity-40');
+      }
+
+      if (!lesson.has_pedytb) {
+        bYtb.disabled = true;
+        bYtb.classList.add('opacity-40');
+      } else {
+        bYtb.disabled = false;
+        bYtb.classList.remove('opacity-40');
+      }
+
+      if (mobileSource === 'ped' && !lesson.has_ped && lesson.has_pedytb) {
+        mobileSource = 'pedytb';
+      } else if (mobileSource === 'pedytb' && !lesson.has_pedytb && lesson.has_ped) {
+        mobileSource = 'ped';
+      }
+
+      bPed.className = mobileSource === 'ped'
+        ? 'py-1 rounded-md transition bg-[var(--surface)] text-[var(--text)] shadow-sm'
+        : 'py-1 rounded-md transition text-[var(--text-muted)] hover:text-[var(--text)]';
+      bYtb.className = mobileSource === 'pedytb'
+        ? 'py-1 rounded-md transition bg-[var(--surface)] text-[var(--text)] shadow-sm'
+        : 'py-1 rounded-md transition text-[var(--text-muted)] hover:text-[var(--text)]';
+    }
+
+    function switchMobileSource(src) {
+      // Rule 5.10: Giữ nguyên tỉ lệ phần trăm cuộn của tài liệu
+      const scrollEl = document.getElementById('mobileScrollViewport');
+      const pct = scrollEl.scrollHeight > scrollEl.clientHeight
+        ? scrollEl.scrollTop / (scrollEl.scrollHeight - scrollEl.clientHeight)
+        : 0;
+
+      mobileSource = src;
+      const bPed = document.getElementById('btn-tab-ped');
+      const bYtb = document.getElementById('btn-tab-pedytb');
+      bPed.className = src === 'ped'
+        ? 'py-1 rounded-md transition bg-[var(--surface)] text-[var(--text)] shadow-sm'
+        : 'py-1 rounded-md transition text-[var(--text-muted)] hover:text-[var(--text)]';
+      bYtb.className = src === 'pedytb'
+        ? 'py-1 rounded-md transition bg-[var(--surface)] text-[var(--text)] shadow-sm'
+        : 'py-1 rounded-md transition text-[var(--text-muted)] hover:text-[var(--text)]';
+
+      if (currentLesson) {
+        renderMobileContent(currentLesson);
+        scrollEl.scrollTop = pct * (scrollEl.scrollHeight - scrollEl.clientHeight);
+        updateUrlState(false);
       }
     }
 
-    // Format Math in plain text (e.g. Anki cards)
-    function formatMathInText(str) {
-      if (!str || !window.katex) return str || '';
-      str = str.replace(/\$\$([\s\S]+?)\$\$/g, (m, expr) => {
-        try {
-          return katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false });
-        } catch(e) { return m; }
-      });
-      str = str.replace(/(^|[^\\])\$([^\$\n]+?)\$/g, (m, prefix, expr) => {
-        if (/^\d+(?:[.,]\d+)?\s*$/.test(expr)) return m;
-        try {
-          return prefix + katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
-        } catch(e) { return m; }
-      });
-      return str;
+    function renderMobileContent(lesson) {
+      const container = document.getElementById('mobileArticleBody');
+      let md = '';
+      let isSecondary = false;
+
+      if (currentSpecialty === 'obgyn') {
+        md = lesson.content || '';
+      } else {
+        if (mobileSource === 'pedytb') {
+          md = lesson.pedytb_content || '> Chưa có bản Sách Y Thái Bình';
+          isSecondary = true;
+        } else {
+          md = lesson.ped_content || lesson.content || '> Đang biên soạn...';
+        }
+      }
+
+      container.innerHTML = parseMarkdownWithKaTeX(md, lesson.id, isSecondary);
+
+      // Build bottom sheet TOC
+      buildMobileTOC(md, isSecondary);
     }
 
-    function renderMarkdown(type, content) {
-      const container = document.getElementById(`${type}Container`);
+    function renderKeyChips(lesson) {
+      const container = document.getElementById('keyChipsContainer');
+      const nums = lesson.key_numbers || [];
+      const drugs = lesson.key_drugs || [];
+
+      if (nums.length === 0 && drugs.length === 0) {
+        container.classList.add('hidden');
+        container.classList.remove('flex');
+        container.innerHTML = '';
+        return;
+      }
+
+      container.classList.remove('hidden');
+      container.classList.add('flex');
+
+      let html = '<span class="text-[11px] font-medium text-[var(--text-muted)] mr-1">Mốc số liệu:</span>';
+      nums.slice(0, 10).forEach(n => {
+        html += `<span class="px-2 py-0.5 rounded bg-[var(--surface-2)] border border-[var(--border)] text-[var(--text)] font-mono text-[11px]">${n}</span>`;
+      });
+      drugs.slice(0, 4).forEach(d => {
+        html += `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-[var(--surface-2)] border border-[var(--border)] text-[var(--text-secondary)] font-mono text-[11px]"><svg class="w-3 h-3 text-[var(--text-muted)]" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="10.5" y1="19.5" x2="19.5" y2="10.5"/><path d="m8.5 8.5 7 7a4.95 4.95 0 0 1-7 7l-7-7a4.95 4.95 0 0 1 7-7Z"/></svg><span>${d}</span></span>`;
+      });
+      container.innerHTML = html;
+    }
+
+    function slugify(text) {
+      return (text || '')
+        .toLowerCase()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .replace(/đ/g, 'd')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+    }
+
+    function fallbackMarkdown(text) {
+      return text
+        .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+        .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+        .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+        .replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>')
+        .replace(/^\- (.*$)/gim, '<li>$1</li>')
+        .replace(/\n\n/g, '<p></p>')
+        .replace(/\n/g, '<br>');
+    }
+
+    function parseMarkdownWithKaTeX(content, lessonId, isSecondary) {
       let text = (content || '').trimStart().replace(/^---\s*[\r\n]+[\s\S]*?[\r\n]+---\s*[\r\n]*/, '');
+      if (!text) return '<p class="text-[var(--text-muted)]">Chưa có nội dung bài giảng.</p>';
 
       text = text.replace(/<!--\s*Page\s*(\d+)\s*-->/gi, (m, p) => {
-        return `\n\n<div class="page-marker-banner"><span>📖 Trang ${p}</span> <span class="text-purple-300/40">•</span> <span>Giáo trình Nhi khoa Y Thái Bình</span></div>\n\n`;
+        return `\n\n<div class="page-marker-banner"><svg class="w-3.5 h-3.5 text-[var(--text-muted)]" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg><span>Trang ${p} · Giáo trình ĐHYD Thái Bình</span></div>\n\n`;
       });
 
+      // Rule 5.4.1: If first H1 starts with lessonId, do not render it
+      if (lessonId) {
+        const idEsc = lessonId.replace('-', '\\-');
+        const h1Pattern = new RegExp(`^#\\s*${idEsc}[:\\s][^\\n]*\\r?\\n*`, 'i');
+        text = text.replace(h1Pattern, '');
+      }
+
+      // Rule 5.4.2: If H1 does not start with lessonId, demote by 1 level
+      if (isSecondary || (text.startsWith('# ') && !text.match(/^#\s*[A-Z0-9]+-[A-Z0-9]+/i))) {
+        text = text.replace(/^(#{1,5})\s/gm, '$1# ');
+      }
+
+      // Rule 5.4.3: Blockquote starting with "Nguồn đối chiếu" -> <details>
+      text = text.replace(/(?:^|\n)>\s*\*{0,2}Nguồn đối chiếu:?\*{0,2}\s*\n((?:>[^\n]*\n?)*)/gi, (m, body) => {
+        const lines = body.split('\n')
+          .map(l => l.replace(/^>\s*/, '').trim())
+          .filter(l => l.length > 0);
+        const bulletCount = lines.filter(l => l.startsWith('*') || l.startsWith('-')).length || lines.length;
+        const bodyMd = lines.join('\n');
+        return `\n<details class="source-ref-details"><summary>Nguồn đối chiếu (${bulletCount})</summary><div class="source-ref-content">\n\n${bodyMd}\n\n</div></details>\n`;
+      });
+
+      // Slogan rule 5.4.4
+      text = text.replace(/^(\*(?:Tài liệu|Tiêu chuẩn)[\s\S]*?\*)\s*$/m, (m, slogan) => {
+        return `<div class="lesson-slogan">${slogan.replace(/^\*|\*$/g, '')}</div>`;
+      });
+
+      // Protect math
       const mathStore = [];
       text = text.replace(/\$\$([\s\S]+?)\$\$/g, (m, expr) => {
         let rendered = m;
-        if (window.katex) {
+        if (window.katex && typeof window.katex.renderToString === 'function') {
           try {
-            rendered = katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false });
+            rendered = window.katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false });
           } catch(e) { rendered = m; }
         }
         const id = `@@MATH_BLOCK_${mathStore.length}@@`;
@@ -811,9 +1032,9 @@
       text = text.replace(/(^|[^\\])\$([^\$\n]+?)\$/g, (m, prefix, expr) => {
         if (/^\d+(?:[.,]\d+)?\s*$/.test(expr)) return m;
         let rendered = `$${expr}$`;
-        if (window.katex) {
+        if (window.katex && typeof window.katex.renderToString === 'function') {
           try {
-            rendered = katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
+            rendered = window.katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
           } catch(e) { rendered = `$${expr}$`; }
         }
         const id = `@@MATH_INLINE_${mathStore.length}@@`;
@@ -821,208 +1042,257 @@
         return prefix + id;
       });
 
-      let html = window.marked ? marked.parse(text) : text;
+      let html = '';
+      try {
+        const mdObj = window.marked || (typeof marked !== 'undefined' ? marked : null);
+        if (mdObj && typeof mdObj.parse === 'function') {
+          html = mdObj.parse(text);
+        } else if (typeof mdObj === 'function') {
+          html = mdObj(text);
+        } else {
+          html = fallbackMarkdown(text);
+        }
+      } catch(e) {
+        html = fallbackMarkdown(text);
+      }
+
       html = html.replace(/@@MATH_(?:BLOCK|INLINE)_(\d+)@@/g, (m, idx) => mathStore[Number(idx)] || m);
-      container.innerHTML = html;
+
+      // Callouts Rule 5.6
+      html = html.replace(/<li>\s*<strong>(Bước 0 — Báo động đỏ[^<]*?)<\/strong>\s*:?(.*?)<\/li>/gi, (m, title, rest) => {
+        return `<li class="callout-box callout-danger list-none -ml-4">
+          <div class="callout-header">
+            <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+            <span>CỜ ĐỎ · ${title}</span>
+          </div>
+          <div class="text-[var(--text)] text-sm leading-relaxed">${rest}</div>
+        </li>`;
+      });
+
+      html = html.replace(/<li>\s*<strong>(Tiêu chuẩn khám lâm sàng \(Barem[^<]*?\)|Barem[^<]*?)<\/strong>\s*:?(.*?)<\/li>/gi, (m, title, rest) => {
+        return `<li class="callout-box callout-warning list-none -ml-4">
+          <div class="callout-header">
+            <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span>BAREM THI · ${title}</span>
+          </div>
+          <div class="text-[var(--text)] text-sm leading-relaxed">${rest}</div>
+        </li>`;
+      });
+
+      // Add IDs to headings for anchor jump
+      html = html.replace(/<h([2-6])([^>]*)>(.*?)<\/h\1>/gi, (match, level, attrs, textInner) => {
+        const plainText = textInner.replace(/<[^>]+>/g, '').trim();
+        const slug = slugify(plainText);
+        return `<h${level}${attrs} id="${slug}">${textInner}</h${level}>`;
+      });
+
+      return html;
     }
 
-    // Generate section quick-jumper pills from H2 headers
-    function generateSectionPills() {
-      const pillsContainer = document.getElementById('sectionPillsBar');
-      pillsContainer.innerHTML = '';
+    function extractTocHeadings(rawMarkdown, isSecondary) {
+      const headings = [];
+      const lines = (rawMarkdown || '').split('\n');
+      lines.forEach(line => {
+        const trimmed = line.trim();
+        const m = trimmed.match(/^(#{2,3})\s+(.*)$/);
+        if (m) {
+          const level = m[1].length;
+          let title = m[2].replace(/\*\*|__|\*|_/g, '').trim();
+          headings.push({
+            level,
+            title,
+            slug: slugify(title)
+          });
+        }
+      });
+      return headings;
+    }
 
-      const activeView = activeTab === 'pedytb' ? 'view-pedytb' : 'view-ped';
-      const headings = document.getElementById(activeView).querySelectorAll('h2');
+    function buildMobileTOC(rawMarkdown, isSecondary) {
+      const listEl = document.getElementById('tocSheetList');
+      const countEl = document.getElementById('tocSheetCount');
+      const btn = document.getElementById('floatingTocBtn');
+      if (!listEl) return;
+
+      listEl.innerHTML = '';
+      const headings = extractTocHeadings(rawMarkdown, isSecondary);
+      countEl.textContent = `(${headings.length} mục)`;
 
       if (headings.length === 0) {
-        pillsContainer.innerHTML = '<span class="text-[10px] text-slate-500 italic">Không có đề mục nhanh</span>';
+        if (btn) btn.classList.add('hidden');
+        listEl.innerHTML = '<p class="text-[var(--text-muted)] text-center py-4">Chưa có đề mục trong bài</p>';
         return;
       }
 
-      headings.forEach((h, i) => {
-        const id = `heading-${activeTab}-${i}`;
-        h.id = id;
+      if (btn) btn.classList.remove('hidden');
 
-        const pill = document.createElement('button');
-        pill.className = 'px-2.5 py-0.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-[10px] text-slate-300 font-medium shrink-0 active:bg-cyan-500/20 active:text-cyan-300 transition truncate max-w-[150px]';
-        // Short clean title
-        pill.textContent = h.textContent.replace(/^(Phần\s+[I|V|X]+|Bước\s+\d+)\s*[:—\-]\s*/i, '').trim();
-        pill.onclick = () => {
-          h.scrollIntoView({ behavior: 'smooth' });
+      headings.forEach(h => {
+        const a = document.createElement('a');
+        a.href = `#${h.slug}`;
+        a.className = `toc-sheet-link ${h.level === 3 ? 'level-3' : 'font-semibold text-[var(--text)]'}`;
+        a.textContent = h.title;
+        a.onclick = (e) => {
+          e.preventDefault();
+          const target = document.getElementById(h.slug);
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            history.replaceState(null, '', `#${h.slug}`);
+          }
+          closeTocSheet();
         };
-        pillsContainer.appendChild(pill);
+        listEl.appendChild(a);
       });
     }
 
-    // Bottom Navigation Tabs
-    function switchTab(tab) {
-      activeTab = tab;
-
-      ['ped', 'pedytb', 'anki'].forEach(t => {
-        const btn = document.getElementById(`tab-${t}`);
-        const view = document.getElementById(`view-${t}`);
-
-        if (t === tab) {
-          view.classList.remove('hidden');
-          btn.className = 'flex-1 flex flex-col items-center justify-center py-1 text-cyan-400 font-bold';
-        } else {
-          view.classList.add('hidden');
-          btn.className = 'flex-1 flex flex-col items-center justify-center py-1 text-slate-400 hover:text-slate-200';
-        }
+    function openTocSheet() {
+      const overlay = document.getElementById('tocSheetOverlay');
+      const panel = document.getElementById('tocSheetPanel');
+      overlay.classList.remove('hidden');
+      requestAnimationFrame(() => {
+        overlay.classList.remove('opacity-0');
+        panel.classList.remove('translate-y-full');
       });
-
-      generateSectionPills();
     }
 
-    // Anki Flashcard Engine
-    function initAnkiCards(cards) {
-      allCards = cards;
-      setAnkiFilter('all');
-    }
-
-    function setAnkiFilter(flt) {
-      ankiFilter = flt;
-      ['all', 'barem', 'ebm'].forEach(f => {
-        const btn = document.getElementById(`btn-flt-${f}`);
-        const active = (flt === 'all' && f === 'all') ||
-                       (flt === 'barem_goc' && f === 'barem') ||
-                       (flt === 'ebm_hien_dai' && f === 'ebm');
-        if (active) {
-          btn.className = 'px-2 py-0.5 rounded font-bold bg-rose-500 text-white';
-        } else {
-          btn.className = 'px-2 py-0.5 rounded text-slate-400 hover:text-slate-200';
-        }
-      });
-
-      if (flt === 'all') {
-        filteredCards = allCards;
-      } else {
-        filteredCards = allCards.filter(c => c.track === flt);
-      }
-
-      currentCardIdx = 0;
-      isFlipped = false;
-      renderCurrentCard();
-    }
-
-    function renderCurrentCard() {
-      if (!filteredCards || filteredCards.length === 0) {
-        document.getElementById('cardProgressText').textContent = '0 / 0';
-        document.getElementById('cardIDBadge').textContent = '#TRỐNG';
-        document.getElementById('cardQuestionText').innerHTML = 'Chưa có thẻ flashcard phù hợp.';
-        document.getElementById('cardAnswerArea').classList.add('hidden');
-        document.getElementById('cardProgressBar').style.width = '0%';
-        return;
-      }
-
-      const c = filteredCards[currentCardIdx];
-      isFlipped = false;
-
-      // Progress
-      document.getElementById('cardProgressText').textContent = `Thẻ ${currentCardIdx + 1} / ${filteredCards.length}`;
-      const pct = ((currentCardIdx + 1) / filteredCards.length) * 100;
-      document.getElementById('cardProgressBar').style.width = `${pct}%`;
-
-      // Track badge
-      const trackBadge = document.getElementById('currentCardTrackBadge');
-      if (c.track === 'barem_goc') {
-        trackBadge.textContent = '🏛️ BAREM GỐC YTB';
-        trackBadge.className = 'text-[9px] font-mono px-2 py-0.5 rounded font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40';
-      } else {
-        trackBadge.textContent = '🔬 EBM & LÂM SÀNG';
-        trackBadge.className = 'text-[9px] font-mono px-2 py-0.5 rounded font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40';
-      }
-
-      document.getElementById('cardIDBadge').textContent = `#${c.id || (currentCardIdx + 1)}`;
-
-      // Question (Cloze hidden)
-      let qText = c.text ? c.text.replace(/{{c\d+::(.*?)(?:::(.*?))?}}/g, '<span class="bg-rose-500/20 text-rose-300 border-b-2 border-dashed border-rose-500 px-1.5 py-0.5 rounded font-bold">[ ... ]</span>') : '';
-      qText = formatMathInText(qText);
-      document.getElementById('cardQuestionText').innerHTML = qText;
-
-      // Extra
-      const answerArea = document.getElementById('cardAnswerArea');
-      answerArea.classList.add('hidden');
-
-      const isBarem = c.track === 'barem_goc';
-      const extraFormatted = formatMathInText(c.extra || 'Không có ghi chú thêm.');
-      document.getElementById('cardExtraText').innerHTML = `
-        <div class="p-3 rounded-xl ${isBarem ? 'bg-amber-950/20 border border-amber-500/30' : 'bg-cyan-950/20 border border-cyan-500/30'}">
-          <b class="${isBarem ? 'text-amber-400' : 'text-cyan-400'} block mb-1">💡 ${isBarem ? 'Barem giáo trình gốc YTB' : 'Lập luận lâm sàng & EBM'}:</b>
-          <span class="text-slate-200">${extraFormatted}</span>
-        </div>
-      `;
-
-      document.getElementById('btnFlipText').textContent = 'Lật thẻ';
-      document.getElementById('flipPrompt').textContent = 'Chạm vào thẻ để hiện đáp án';
-    }
-
-    function toggleCardFlip() {
-      if (!filteredCards || filteredCards.length === 0) return;
-      isFlipped = !isFlipped;
-
-      const c = filteredCards[currentCardIdx];
-      const answerArea = document.getElementById('cardAnswerArea');
-
-      if (isFlipped) {
-        // Show cloze answer highlighted
-        let aText = c.text ? c.text.replace(/{{c\d+::(.*?)(?:::(.*?))?}}/g, '<span class="bg-emerald-500/20 text-emerald-300 border-b-2 border-emerald-500 px-1.5 py-0.5 rounded font-bold">$1</span>') : '';
-        aText = formatMathInText(aText);
-        document.getElementById('cardQuestionText').innerHTML = aText;
-        answerArea.classList.remove('hidden');
-        document.getElementById('btnFlipText').textContent = 'Ẩn đáp án';
-        document.getElementById('flipPrompt').textContent = 'Chạm để ẩn đáp án';
-      } else {
-        renderCurrentCard();
-      }
-    }
-
-    function nextCard() {
-      if (!filteredCards || filteredCards.length === 0) return;
-      currentCardIdx = (currentCardIdx + 1) % filteredCards.length;
-      renderCurrentCard();
-    }
-
-    function prevCard() {
-      if (!filteredCards || filteredCards.length === 0) return;
-      currentCardIdx = (currentCardIdx - 1 + filteredCards.length) % filteredCards.length;
-      renderCurrentCard();
-    }
-
-    // Drawer Controls
-    function openDrawer() {
-      document.getElementById('drawerOverlay').classList.remove('hidden');
+    function closeTocSheet() {
+      const overlay = document.getElementById('tocSheetOverlay');
+      const panel = document.getElementById('tocSheetPanel');
+      overlay.classList.add('opacity-0');
+      panel.classList.add('translate-y-full');
       setTimeout(() => {
-        document.getElementById('drawerOverlay').classList.remove('opacity-0');
-        document.getElementById('drawerPanel').classList.remove('-translate-x-full');
-      }, 10);
-    }
-
-    function closeDrawer() {
-      document.getElementById('drawerOverlay').classList.add('opacity-0');
-      document.getElementById('drawerPanel').classList.add('-translate-x-full');
-      setTimeout(() => {
-        document.getElementById('drawerOverlay').classList.add('hidden');
+        overlay.classList.add('hidden');
       }, 200);
     }
 
-    // Font size
-    function changeFontSize(delta) {
-      currentFontSize = Math.min(22, Math.max(13, currentFontSize + delta));
-      document.documentElement.style.setProperty('--viewer-size', `${currentFontSize}px`);
+    function openDrawer() {
+      const overlay = document.getElementById('drawerOverlay');
+      const panel = document.getElementById('drawerPanel');
+      overlay.classList.remove('hidden');
+      requestAnimationFrame(() => {
+        overlay.classList.remove('opacity-0');
+        panel.classList.remove('-translate-x-full');
+      });
     }
 
-    // Theme Switch
-    function cycleTheme() {
-      const themes = ['dark', 'sepia', 'light'];
-      const nextIdx = (themes.indexOf(currentTheme) + 1) % themes.length;
-      currentTheme = themes[nextIdx];
+    function closeDrawer() {
+      const overlay = document.getElementById('drawerOverlay');
+      const panel = document.getElementById('drawerPanel');
+      overlay.classList.add('opacity-0');
+      panel.classList.add('-translate-x-full');
+      setTimeout(() => {
+        overlay.classList.add('hidden');
+      }, 200);
+    }
 
-      document.documentElement.classList.remove('dark', 'sepia', 'light');
-      document.documentElement.classList.add(currentTheme);
+    function toggleAaPopover() {
+      const menu = document.getElementById('mobileAaPopover');
+      menu.classList.toggle('hidden');
+      document.getElementById('mobileMoreMenu')?.classList.add('hidden');
+    }
 
-      const icons = { dark: '🌙', sepia: '📜', light: '☀️' };
-      document.getElementById('themeBtn').textContent = icons[currentTheme];
+    function toggleMoreMenu() {
+      const menu = document.getElementById('mobileMoreMenu');
+      menu.classList.toggle('hidden');
+      document.getElementById('mobileAaPopover')?.classList.add('hidden');
+    }
+
+    function changeFontSize(delta) {
+      currentFontSize = Math.max(13, Math.min(22, currentFontSize + delta));
+      applyFontSize(currentFontSize);
+      try { localStorage.setItem('hungmed_font', currentFontSize); } catch(e) {}
+    }
+
+    function applyFontSize(size) {
+      currentFontSize = size;
+      document.documentElement.style.setProperty('--viewer-font-size', `${size}px`);
+      const disp = document.getElementById('fontSizeDisplay');
+      if (disp) disp.textContent = `${size}px`;
+    }
+
+    function applyTheme(theme) {
+      currentTheme = theme;
+      const html = document.documentElement;
+      html.classList.remove('dark', 'light');
+
+      let effective = theme;
+      if (theme === 'auto') {
+        effective = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      html.classList.add(effective);
+      html.style.colorScheme = effective;
+
+      try { localStorage.setItem('hungmed_theme', theme); } catch(e) {}
+
+      const metaTheme = document.querySelector('meta[name="theme-color"]');
+      if (metaTheme) metaTheme.setAttribute('content', effective === 'light' ? '#F7F6F3' : '#121214');
+
+      const optDark = document.getElementById('themeOptDark');
+      const optLight = document.getElementById('themeOptLight');
+      if (optDark && optLight) {
+        if (effective === 'dark') {
+          optDark.className = 'py-1.5 rounded-md transition bg-[var(--surface)] text-[var(--text)] shadow-sm';
+          optLight.className = 'py-1.5 rounded-md transition text-[var(--text-muted)] hover:text-[var(--text)]';
+        } else {
+          optLight.className = 'py-1.5 rounded-md transition bg-[var(--surface)] text-[var(--text)] shadow-sm';
+          optDark.className = 'py-1.5 rounded-md transition text-[var(--text-muted)] hover:text-[var(--text)]';
+        }
+      }
+    }
+
+    function copyCurrentContent() {
+      if (!currentLesson) return;
+      let text = '';
+      if (currentSpecialty === 'obgyn') text = currentLesson.content || '';
+      else if (mobileSource === 'pedytb') text = currentLesson.pedytb_content || '';
+      else text = currentLesson.ped_content || currentLesson.content || '';
+
+      navigator.clipboard.writeText(text).then(() => {
+        alert("Đã sao chép Markdown vào khay nhớ tạm!");
+      }).catch(() => {
+        alert("Không thể sao chép tự động");
+      });
+      document.getElementById('mobileMoreMenu')?.classList.add('hidden');
+    }
+
+    function copyShareLink() {
+      const url = window.location.href;
+      navigator.clipboard.writeText(url).then(() => {
+        alert("Đã sao chép link bài giảng!");
+      });
+      document.getElementById('mobileMoreMenu')?.classList.add('hidden');
+    }
+
+    function updateUrlState(isNewHistoryItem = false) {
+      if (!currentLesson) return;
+      const kVal = currentSpecialty === 'ped' ? 'nhi' : 'san';
+      const xemVal = mobileSource;
+      const hashVal = window.location.hash || '';
+      const newUrl = `?k=${kVal}&bai=${currentLesson.id}&xem=${xemVal}${hashVal}`;
+      if (isNewHistoryItem) {
+        history.pushState(null, '', newUrl);
+      } else {
+        history.replaceState(null, '', newUrl);
+      }
+    }
+
+    function setupGlobalListeners() {
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('#mobileAaBtn') && !e.target.closest('#mobileAaPopover')) {
+          document.getElementById('mobileAaPopover')?.classList.add('hidden');
+        }
+        if (!e.target.closest('#mobileMoreBtn') && !e.target.closest('#mobileMoreMenu')) {
+          document.getElementById('mobileMoreMenu')?.classList.add('hidden');
+        }
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          closeDrawer();
+          closeTocSheet();
+          document.getElementById('mobileAaPopover')?.classList.add('hidden');
+          document.getElementById('mobileMoreMenu')?.classList.add('hidden');
+        }
+      });
     }
   </script>
 </body>
