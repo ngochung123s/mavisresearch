@@ -51,10 +51,13 @@ In checklist này ra hoặc copy vào session, check từng mục:
   - Không giới hạn độ dài. Nếu bài dài chạm trần token output, áp dụng quy trình Pass-by-Pass (Turn 1: Sec 0 -> Sec 4; Turn 2: Sec 5 -> Hết).
   - Đặt ngưỡng định lượng cụ thể trong prompt: tối thiểu 2 phác đồ đơn thuốc hoàn chỉnh, 10 Clinical Pearls, 5 bẫy lâm sàng 4 cột.
 - **QUY TẮC NHÚNG VÀ HIỂN THỊ HÌNH ẢNH / BIỂU ĐỒ (IMAGE & DIAGRAM GOVERNANCE):**
+  - **CẤM TUYỆT ĐỐI ẢNH AI GEN.**
+  - **CỔNG KIỂM DUYỆT CHUYÊN MÔN HÌNH ẢNH CHẨN ĐOÁN:** CẤM chọn ảnh chỉ dựa vào keyword hay tên file tải về. Bắt buộc đối soát metadata và caption y văn gốc. Phim CT Scan bắt buộc phải là lát cắt ngang (Axial) hoặc đứng (Coronal) hiển thị rõ cửa sổ chẩn đoán phù hợp (Lung window cho nhu mô phổi/bẫy khí/mosaic, Mediastinal window cho hạch/mạch máu). CẤM TUYỆT ĐỐI các mô hình dựng 3D ảo thô thiển (virtual bronchography, 3D volume reconstruction cành cây khô) vì không có giá trị chẩn đoán tổn thương nhu mô phổi cho bác sĩ lâm sàng.
+  - **Phim X-quang & Siêu âm**: Phải là phim chụp tư thế chuẩn lâm sàng (thẳng PA/AP, nghiêng), siêu âm 2D B-mode/Doppler thực tế có thang đo độ sâu.
   - **Sơ đồ tư duy / Flowchart**: Ưu tiên 100% dùng mã Mermaid (` ```mermaid `) để tự động hóa render HD khi xuất bản DOCX/HTML. Nếu chỉ dùng Markdown viewer online thì dùng ASCII Art.
-  - **Ảnh y văn thực tế (Guideline/ECG/Siêu âm)**: Yêu cầu LLM tìm kiếm URL ảnh trực tiếp (.png/.jpg) từ nguồn chính thống uy tín (MedSci, Wikimedia, PubMed Central) và nhúng đúng cú pháp `![Mô tả ảnh](URL_truc_tiep)`.
-  - **Script tự động nhúng ảnh vào DOCX**: `md_to_docx.py` sẽ tự động download ảnh từ URL hoặc render mã Mermaid thành ảnh HD nhúng thẳng vào Word.
-- **TRÌNH BÀY CHUẨN MARKDOWN:**
+  - **Ảnh y văn thực tế**: Lấy URL ảnh trực tiếp (.png/.jpg) từ nguồn chính thống uy tín (MedSci, Wikimedia Commons, PubMed Central), nén Pillow ≤ 150 KB và nhúng đúng cú pháp `![Mô tả ảnh](outputs/figures/TÊN_FILE)`.
+- **TRÌNH BÀY CHUẨN MARKDOWN & CHỐNG LỖI INDENTED CODE BLOCK:**
+  - **CẤM DÙNG `\text{...}` HAY CÚ PHÁP LATEX THÔ TRONG CHUỖI SUY LUẬN:** Trong Python, `\text` biến thành ký tự Tab `\t` (ASCII 9) khiến trình đọc Markdown (marked.js) hiểu nhầm thành Indented Code Block tạo thanh cuộn ngang vỡ giao diện (`ext{...} \longrightarrow`). Chuỗi suy luận 7 tầng bắt buộc dùng **Blockquote Markdown (`> 🔄 **Chuỗi cơ chế:** ... → ...`)**, dùng 100% mũi tên Unicode `→`, KHÔNG thụt tab đầu dòng, KHÔNG dùng cặp dấu `$$`.
   - **CẤM KÝ HIỆU PHẦN TRĂM (%) TRONG INLINE MATH ($...$):** Tuyệt đối không đưa dấu `%` hay các bất đẳng thức chứa `%` vào trong cặp dấu `$ ... $` (như `$50% \le FEV1 < 80\%$`) vì KaTeX/MathJax sẽ coi `%` là ký tự comment. Viết Plain Text cho phần trăm (`50% ≤ FEV1 < 80%`).
   - **BẢNG GỌN GÀNG:** Tránh bảng quá rộng (≥4 cột có chữ dài); ưu tiên danh sách có tiêu đề khi thông tin phức tạp.
   - **QUẢN LÝ OUTPUTS:** Tất cả sản phẩm xuất bản (`.docx`, `.apkg`, `.cards.v2.json`, `brief.md`) PHẢI nằm gọn trong subfolder `outputs/` của từng bài học.
