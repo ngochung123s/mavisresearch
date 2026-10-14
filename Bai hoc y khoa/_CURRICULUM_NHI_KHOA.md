@@ -64,6 +64,7 @@
 | **PED-23** | P0 | Hen phế quản trẻ em: Chẩn đoán & Kiểm soát mạn | Tiêu chuẩn chẩn đoán hen ở trẻ < 5 tuổi và ≥ 5 tuổi; bậc thang điều trị duy trì (GINA: ICS liều thấp/vừa); kỹ thuật dùng bình xịt định liều kèm buồng đệm (MDI + Spacer); kế hoạch hành động tại nhà. | PED-08 | ❌ CHƯA CÓ |
 | **PED-24** | P0 | Croup (Viêm thanh khí phế quản cấp) | Tam chứng ho ông ổng, thở rít khi nằm yên, khàn tiếng; thang điểm Westley; xử trí: Dexamethasone liều duy nhất uống/tiêm, khí dung Adrenaline trong thể nặng. | PED-01, 20 | ✅ GATES ĐẠT (MD + APKG 100 thẻ Master) |
 | **PED-25** | P0 | Liệu pháp Oxy & Hỗ trợ hô hấp không xâm lấn | Chỉ định và giới hạn của canula mũi, mặt nạ có túi dự trữ; nguyên lý và chỉ định oxy dòng cao qua mũi (HFNC), thở áp lực dương liên tục (CPAP) trong suy hô hấp nhi. | PED-02 | ✅ GATES ĐẠT (MD + APKG 150 thẻ) |
+| **PED-62** | P0 | Căn nguyên vi sinh hô hấp thường gặp ở trẻ em (RSV, Adenovirus, Mycoplasma, hMPV, Phế cầu) | Bệnh học 7 tầng; phân biệt tắc nghẽn ứ khí (RSV, hMPV) vs viêm hoại tử và di chứng BO (Adenovirus) vs phân ly lâm sàng X-quang và kháng Beta-lactam (Mycoplasma) vs 4 giai đoạn đông đặc thùy (Phế cầu); ma trận 12 tiêu chí và 8 bẫy lâm sàng. | PED-20, 21, 22 | ✅ GATES ĐẠT (MD + APKG 28 thẻ + 4 ảnh y văn) |
 
 ---
 
