@@ -85,7 +85,8 @@ RSV (Respiratory Syncytial Virus - Virus hợp bào hô hấp) là một virus R
 ### 1.2 Chuỗi suy luận bệnh học 7 tầng của RSV
 Để hiểu bản chất lâm sàng của một ca viêm tiểu phế quản do RSV, chúng ta cùng phân tích chuỗi nhân quả 7 tầng liên hoàn:
 
-	ext{Protein F & G} \longrightarrow 	ext{Hợp bào & Hoại tử biểu mô} \longrightarrow 	ext{Nút nhầy bít tắc lòng ống} \longrightarrow 	ext{Bẫy khí & Xẹp phổi rải rác} \longrightarrow 	ext{Khò khè thì thở ra & Co kéo} \longrightarrow 	ext{X-quang ứ khí} \longrightarrow 	ext{Triết lý Less is More}
+> 🔄 **Chuỗi cơ chế 7 tầng của RSV:**  
+> **Protein F & G** → **Hợp bào & Hoại tử biểu mô** → **Nút nhầy bít tắc lòng ống** → **Bẫy khí & Xẹp phổi rải rác** → **Khò khè thì thở ra & Co kéo** → **X-quang ứ khí** → **Triết lý Less is More**
 
 1. **Tầng 1 (Phân tử & Thụ thể):** Glycoprotein G gắn vào thụ thể biểu mô; Glycoprotein F kích hoạt dung hợp màng, đưa bộ máy di truyền RNA của virus vào bên trong tế bào hô hấp.
 2. **Tầng 2 (Tổn thương tế bào):** Virus nhân lên ồ ạt trong bào tương, gây độc tế bào trực tiếp. Tế bào lông chuyển bị tổn thương, phù nề, mất chức năng quét chất nhầy và cuối cùng bị hoại tử, bong tróc hàng loạt vào trong lòng đường dẫn khí.
@@ -124,7 +125,8 @@ Trong số hơn 100 serotype của Adenovirus, các type thuộc loài B (như t
 ### 2.2 Chuỗi suy luận bệnh học 7 tầng của Adenovirus
 Khác hoàn toàn với RSV (vốn chỉ gây viêm xuất tiết và bít tắc cơ học có khả năng hồi phục hoàn toàn), Adenovirus là "kẻ tàn phá hoại tử cấu trúc":
 
-	ext{Adenovirus DNA} \longrightarrow 	ext{Xâm nhập biểu mô & CAR} \longrightarrow 	ext{Viêm phế quản hoại tử toàn tầng} \longrightarrow 	ext{Bão Cytokine & Bẫy CRP vọt} \longrightarrow 	ext{Xơ hóa sẹo hẹp lòng ống} \longrightarrow 	ext{Di chứng BO & Swyer-James} \longrightarrow 	ext{Hồi sức tích cực & Tránh nhầm Sepsis}
+> 🔄 **Chuỗi cơ chế 7 tầng của Adenovirus:**  
+> **Adenovirus DNA** → **Xâm nhập biểu mô & CAR** → **Viêm phế quản hoại tử toàn tầng** → **Bão Cytokine & Bẫy CRP vọt** → **Xơ hóa sẹo hẹp lòng ống** → **Di chứng BO & Swyer-James** → **Hồi sức tích cực & Tránh nhầm Sepsis**
 
 1. **Tầng 1 (Bám dính & Xâm nhập):** Sợi fiber của Adenovirus gắn vào thụ thể CAR, kích hoạt quá trình nhập bào qua bọng clathrin. Virus thoát khỏi endosome, đưa bộ gen DNA vào thẳng nhân tế bào để chiếm quyền kiểm soát hệ thống phiên mã.
 2. **Tầng 2 (Nhân lên & Tiêu giải tế bào):** Quá trình sao chép của Adenovirus kết thúc bằng sự ly giải tế bào ồ ạt (Lytic cycle). Hàng triệu hạt virus mới phóng thích phá hủy tế bào vật chủ, để lại các thể vùi đặc trưng trong nhân tế bào (Intranuclear inclusion bodies).
@@ -144,8 +146,8 @@ Khác hoàn toàn với RSV (vốn chỉ gây viêm xuất tiết và bít tắc
    - Hồi sức hô hấp tích cực, bảo vệ phổi sớm: Thở oxy, nCPAP, HFNC hoặc thông khí nhân tạo bảo vệ phổi (Low tidal volume) khi có ARDS.
    - Cảnh giác biến chứng bội nhiễm vi khuẩn thứ phát (đặc biệt là Tụ cầu vàng hoặc Phế cầu trên nền niêm mạc đã bị hoại tử).
 
-![CT lồng ngực hội chứng Swyer-James do di chứng Adenovirus](outputs/figures/PED62_fig2_adenovirus_swyer_james_ct.jpg)  
-*Hình 2: Phim chụp cắt lớp vi tính (CT Scan) lồng ngực ở bệnh nhân có di chứng hội chứng Swyer-James / Viêm tiểu phế quản tắc nghẽn sau nhiễm Adenovirus. Quan sát thấy vùng nhu mô phổi tăng sáng bất thường do bẫy khí và giảm tưới máu mao mạch phổi.*
+![HRCT ngực di chứng Viêm tiểu phế quản tắc nghẽn sau nhiễm Adenovirus](outputs/figures/PED62_fig2_adenovirus_swyer_james_ct.jpg)  
+*Hình 2: Phim chụp cắt lớp vi tính độ phân giải cao (HRCT ngực) cửa sổ nhu mô phổi ở bệnh nhân di chứng Viêm tiểu phế quản tắc nghẽn (Post-infectious Bronchiolitis Obliterans). Quan sát thấy tổn thương dạng khảm (Mosaic pattern), vùng bẫy khí tăng sáng (Air trapping) và dày thành phế quản.*
 
 ---
 
@@ -162,7 +164,8 @@ Tế bào của nó chỉ được bao bọc bởi một màng lipid ba lớp ch
 ### 3.2 Chuỗi suy luận bệnh học 7 tầng của Mycoplasma pneumoniae
 Hiện tượng "Lâm sàng phân ly X-quang" nổi tiếng của Mycoplasma được giải thích cặn kẽ qua chuỗi nhân quả sau:
 
-	ext{Không vách} \longrightarrow 	ext{Bám dính Protein P1} \longrightarrow 	ext{Độc tố CARDS & Liệt lông chuyển} \longrightarrow 	ext{Thâm nhiễm mô kẽ quanh phế quản} \longrightarrow 	ext{Ho khan kiệt sức & Phân ly X-quang} \longrightarrow 	ext{Kháng thể lạnh & MIRM} \longrightarrow 	ext{Kháng sinh ức chế Protein}
+> 🔄 **Chuỗi cơ chế 7 tầng của Mycoplasma pneumoniae:**  
+> **Không có vách Peptidoglycan** → **Bám dính Protein P1** → **Độc tố CARDS & Liệt lông chuyển** → **Thâm nhiễm mô kẽ quanh phế quản** → **Ho khan kiệt sức & Phân ly X-quang** → **Kháng thể lạnh & MIRM** → **Kháng sinh ức chế tổng hợp Protein**
 
 1. **Tầng 1 (Cấu trúc phân tử & Bộ máy bám dính):** Đầu tế bào Mycoplasma có một cấu trúc chuyên biệt gọi là cơ quan bám (Attachment organelle) chứa phức hợp **Protein bám P1 (Adhesin P1)** và các protein phụ trợ (P30, P116). Protein P1 nhận diện và gắn kết cực kỳ chặt chẽ vào các gốc acid sialic (Neuraminic acid) hiện diện trên bề mặt tế bào biểu mô có lông chuyển của đường dẫn khí.
 2. **Tầng 2 (Tiết độc tố CARDS Toxin):** Sau khi bám dính, Mycoplasma không xâm nhập vào máu mà ký sinh ngoài bề mặt tế bào. Nó bắt đầu tiết ra độc tố độc quyền có tên là **CARDS Toxin (Community-Acquired Respiratory Distress Syndrome Toxin)**. Đây là một độc tố có hoạt tính ADP-ribosyltransferase và giải phóng không bào tương tự như độc tố ho gà.
