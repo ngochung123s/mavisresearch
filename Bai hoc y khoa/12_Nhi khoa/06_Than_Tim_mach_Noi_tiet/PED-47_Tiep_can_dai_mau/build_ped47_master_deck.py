@@ -133,7 +133,7 @@ CLOZE_MODEL = genanki.Model(
 def escape_angle_brackets(text: str) -> str:
     if not text:
         return ""
-    return re.sub(r"<(?!(?:b|/b|i|/i|br|div|/div|span|/span|hr)\b)", "&lt;", text)
+    return re.sub(r"<(?![a-zA-Z/])", "&lt;", text)
 
 
 def main() -> int:

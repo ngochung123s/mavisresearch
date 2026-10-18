@@ -110,7 +110,8 @@ BASIC_MODEL = genanki.Model(
 def escape_angle_brackets(text: str) -> str:
     if not text:
         return ""
-    return re.sub(r"<(?!(?:b|/b|i|/i|br|div|/div|span|/span|hr|img))", "&lt;", text)
+    return re.sub(r"<(?![a-zA-Z/])", "&lt;", text)
+
 
 def main() -> int:
     print(f"=== BUILD PED-62 MASTER DECK: '{DECK_NAME}' ===")

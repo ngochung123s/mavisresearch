@@ -2,7 +2,7 @@
   "topic": "Nhi khoa Y6::PED-47: Tiếp cận đái máu ở trẻ em",
   "version": "master_combo_v1",
   "date": "2026-09-28",
-  "total_cards": 79,
+  "total_cards": 83,
   "cards": [
     {
       "id": "PED47-B01",
@@ -25,8 +25,8 @@
       "type": "cloze",
       "category": "Mục tiêu bài học",
       "section": "B0",
-      "text": "[Barem gốc] Bài <span style=\"color:#74c0fc\"><b>Đái máu</b></span> gồm <span style=\"color:#ffd43b\"><b>4 mục tiêu</b></span>: định nghĩa & cơ chế, {{c1::<span style=\"color:#ff6b6b\"><b>nguyên nhân</b></span>}}, lâm sàng & cận lâm sàng, và {{c1::<span style=\"color:#51cf66\"><b>cách tiếp cận bệnh nhân đái máu</b></span>}}.",
-      "extra": "<b>💡 Giải thích của AI:</b> 4 mục tiêu chuẩn mực định hình cấu trúc đề thi tự luận Bộ môn Nhi và tư duy lâm sàng tiếp cận toàn diện.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Mục tiêu)",
+      "text": "[Barem gốc] Bài <span style=\"color:#74c0fc\"><b>Đái máu</b></span> gồm <span style=\"color:#ffd43b\"><b>4 mục tiêu cốt lõi</b></span>: {{c1::<span style=\"color:#74c0fc\"><b>định nghĩa & cơ chế</b></span>, <span style=\"color:#ff6b6b\"><b>nguyên nhân</b></span>, <span style=\"color:#ffd43b\"><b>lâm sàng & cận lâm sàng</b></span>, và <span style=\"color:#51cf66\"><b>cách tiếp cận bệnh nhân đái máu</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Che trọn vẹn cả 4 mục tiêu để active recall toàn phần cấu trúc bài học, không để lộ mớm đáp án.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Mục tiêu)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -152,44 +152,47 @@
     {
       "id": "PED47-B11",
       "track": "barem_goc",
-      "type": "cloze",
+      "type": "basic",
       "category": "Nguyên nhân đái máu",
       "section": "B3",
-      "text": "[Barem gốc] Các <span style=\"color:#74c0fc\"><b>nguyên nhân đái máu tại cầu thận</b></span> tiên phát trong sách gồm: {{c1::<span style=\"color:#ff6b6b\"><b>viêm cầu thận cấp sau nhiễm liên cầu</b></span>}}, viêm cầu thận mạn, và bệnh thận {{c1::<span style=\"color:#74c0fc\"><b>IgA (bệnh Berger)</b></span>}}.",
-      "extra": "<b>💡 Giải thích của AI:</b> Đây là 3 nguyên nhân cầu thận tiên phát thường gặp nhất trên lâm sàng nhi khoa, trong đó APSGN phổ biến nhất ở tuổi học đường.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Bảng mục 3)",
+      "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Bảng mục 3)",
       "tags": [
         "PED-47",
         "Barem-goc",
         "Nguyen-nhan"
-      ]
+      ],
+      "front": "Theo giáo trình Nhi Thái Bình, <span style=\"color:#ffd43b\"><b>3 nhóm nguyên nhân đái máu tại cầu thận tiên phát</b></span> gồm những bệnh lý nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 3 bệnh lý cầu thận tiên phát:<br>1) <span style=\"color:#ff6b6b\"><b>Viêm cầu thận cấp sau nhiễm liên cầu (APSGN):</b></span> Thường gặp nhất ở tuổi học đường.<br>2) <span style=\"color:#74c0fc\"><b>Viêm cầu thận mạn:</b></span> Diễn tiến âm thầm, tổn thương cầu thận kéo dài.<br>3) <span style=\"color:#74c0fc\"><b>Bệnh thận IgA (Bệnh Berger):</b></span> Đái máu đại thể tái phát trùng với đợt sốt nhiễm trùng đường hô hấp trên.<br><br><b>💡 Giải thích của AI:</b><br>Đây là 3 nguyên nhân cầu thận tiên phát thường gặp nhất trên lâm sàng nhi khoa. Người học cần nắm trọn cả 3 bệnh lý để phân biệt với nhóm nguyên nhân thứ phát do bệnh hệ thống."
     },
     {
       "id": "PED47-B12",
       "track": "barem_goc",
-      "type": "cloze",
+      "type": "basic",
       "category": "Nguyên nhân đái máu",
       "section": "B3",
-      "text": "[Barem gốc] Các bệnh <span style=\"color:#74c0fc\"><b>hệ thống và di truyền</b></span> gây đái máu tại cầu thận gồm: {{c1::<span style=\"color:#ff6b6b\"><b>Lupus ban đỏ hệ thống</b></span>}}, Scholein Henoch (viêm mạch IgA), và hội chứng {{c1::<span style=\"color:#74c0fc\"><b>Alport</b></span>}}.",
-      "extra": "<b>💡 Giải thích của AI:</b> Nhóm bệnh lý thứ phát và di truyền cần khai thác kỹ triệu chứng ngoài thận (ban da, đau khớp, thính lực) để chẩn đoán phân biệt.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Bảng mục 3)",
+      "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Bảng mục 3)",
       "tags": [
         "PED-47",
         "Barem-goc",
         "Nguyen-nhan"
-      ]
+      ],
+      "front": "Kể tên các bệnh lý <span style=\"color:#74c0fc\"><b>hệ thống và di truyền</b></span> gây đái máu tại cầu thận theo giáo trình Nhi Thái Bình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm các bệnh lý kinh điển:<br>1) <span style=\"color:#ff6b6b\"><b>Lupus ban đỏ hệ thống (SLE):</b></span> Tổn thương đa cơ quan, ban cánh bướm, giảm bổ thể kéo dài.<br>2) <span style=\"color:#ff6b6b\"><b>Schönlein-Henoch (Viêm mạch IgA):</b></span> Tử ban dạng đi bốt đối xứng chi dưới, đau bụng, đau khớp.<br>3) <span style=\"color:#74c0fc\"><b>Hội chứng Alport:</b></span> Bệnh thận di truyền liên kết NST X gây tổn thương màng đáy cầu thận đi kèm điếc tiếp nhận thần kinh giác quan.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm bệnh lý thứ phát và di truyền đòi hỏi thăm khám toàn diện ngoài thận (da, khớp, thính lực) để không bỏ sót các tổn thương đa cơ quan phối hợp."
     },
     {
       "id": "PED47-B13",
       "track": "barem_goc",
-      "type": "cloze",
+      "type": "basic",
       "category": "Nguyên nhân đái máu",
       "section": "B3",
-      "text": "[Barem gốc] Các nguyên nhân <span style=\"color:#74c0fc\"><b>ngoài cầu thận thường gặp</b></span> theo sách gồm: {{c1::<span style=\"color:#ff6b6b\"><b>nhiễm trùng đường tiểu</b></span>}}, {{c1::<span style=\"color:#ff6b6b\"><b>sỏi tiết niệu</b></span>}}, và chấn thương đường tiết niệu.",
-      "extra": "<b>💡 Giải thích của AI:</b> Đái máu kèm tiểu buốt rát, tiểu dắt nghĩ nhiều đến nhiễm trùng; kèm đau quặn thắt nghĩ sỏi; có tiền sử va đập nghĩ chấn thương.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Bảng mục 3)",
+      "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Bảng mục 3)",
       "tags": [
         "PED-47",
         "Barem-goc",
         "Nguyen-nhan"
-      ]
+      ],
+      "front": "Các nguyên nhân <span style=\"color:#74c0fc\"><b>ngoài cầu thận thường gặp nhất</b></span> gây đái máu ở trẻ em theo giáo trình là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 3 nhóm nguyên nhân phổ biến:<br>1) <span style=\"color:#ff6b6b\"><b>Nhiễm trùng đường tiết niệu:</b></span> Viêm bàng quang, viêm đài bể thận (kèm sốt, tiểu buốt, tiểu rắt).<br>2) <span style=\"color:#ff6b6b\"><b>Sỏi đường tiết niệu:</b></span> Cọ xát biểu mô gây đái máu đại thể kèm cơn đau quặn thận.<br>3) <span style=\"color:#ffd43b\"><b>Chấn thương đường tiết niệu:</b></span> Chấn thương thận, dập vỡ bàng quang hoặc niệu đạo sau tai nạn, va đập.<br><br><b>💡 Giải thích của AI:</b><br>Đái máu ngoài cầu thận thường có đặc điểm hồng cầu đồng dạng, có thể có máu cục và protein niệu âm tính hoặc ở mức vết."
     },
     {
       "id": "PED47-B14",
@@ -528,8 +531,8 @@
       "type": "cloze",
       "category": "Thuật toán tiếp cận",
       "section": "B6",
-      "text": "[Barem gốc] <span style=\"color:#51cf66\"><b>Bước 2</b></span> thuật toán tiếp cận: Tìm dấu hiệu <span style=\"color:#74c0fc\"><b>viêm cầu thận cấp</b></span> qua tam chứng kinh điển gồm: {{c1::<span style=\"color:#ff6b6b\"><b>phù</b></span>}}, {{c1::<span style=\"color:#ff6b6b\"><b>tăng huyết áp</b></span>}}, và thiểu niệu/suy thận.",
-      "extra": "<b>💡 Giải thích của AI:</b> Bước 2 sàng lọc cấp cứu: nếu có tam chứng viêm cầu thận cấp phải nhập viện theo dõi huyết áp và cân bằng nước điện giải phòng biến chứng suy tim ứ huyết, phù phổi cấp.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 23, Sơ đồ thuật toán Bước 2)",
+      "text": "[Barem gốc] <span style=\"color:#51cf66\"><b>Bước 2</b></span> thuật toán tiếp cận: Tìm dấu hiệu <span style=\"color:#74c0fc\"><b>viêm cầu thận cấp</b></span> qua tam chứng kinh điển gồm: {{c1::<span style=\"color:#ff6b6b\"><b>phù, tăng huyết áp, và thiểu niệu/suy thận</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Che trọn vẹn cả tam chứng để active recall toàn phần, không mớm lộ vế nào.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 23, Sơ đồ tiếp cận)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -840,8 +843,8 @@
       "type": "cloze",
       "category": "Viêm mạch Henoch",
       "section": "E3",
-      "text": "[EBM] Tứ chứng kinh điển của <span style=\"color:#74c0fc\"><b>Viêm mạch Schonlein-Henoch (HSP / IgA vasculitis)</b></span> gồm: {{c1::<span style=\"color:#ff6b6b\"><b>tử ban sờ thấy ở chi dưới</b></span>}}, đau khớp/viêm khớp, {{c1::<span style=\"color:#ff6b6b\"><b>đau bụng ngoại khoa</b></span>}}, và tổn thương thận (đái máu, đạm niệu).",
-      "extra": "<b>💡 Giải thích của AI:</b> Bệnh học tương đồng với bệnh thận IgA nhưng biểu hiện viêm mạch máu nhỏ toàn thân; biến chứng lồng ruột hồi-hồi tràng cần được theo dõi sát.<br>📖 Nguồn: Ozen S et al. EULAR/PRINTO/PRES criteria for Henoch-Schönlein purpura 2010",
+      "text": "[EBM] Tứ chứng kinh điển của <span style=\"color:#74c0fc\"><b>Viêm mạch Schonlein-Henoch (HSP / IgA vasculitis)</b></span> gồm: {{c1::<span style=\"color:#ff6b6b\"><b>tử ban sờ thấy ở chi dưới, đau khớp/viêm khớp, đau bụng ngoại khoa, và tổn thương thận (đái máu, đạm niệu)</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Che toàn bộ tứ chứng kinh điển để active recall toàn diện bệnh cảnh Schönlein-Henoch.<br>📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.171",
       "tags": [
         "PED-47",
         "EBM",
@@ -1159,6 +1162,71 @@
         "PED-47",
         "EBM",
         "Cam-bay"
+      ]
+    },
+    {
+      "id": "PED47-B29-ALL",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Chỉ định sinh thiết thận",
+      "section": "B5",
+      "front": "Kể tên <span style=\"color:#ffd43b\"><b>7 chỉ định sinh thiết thận kinh điển</b></span> ở trẻ em đái máu theo giáo trình Nhi Thái Bình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Protein niệu ngưỡng thận hư kéo dài</b></span> (&gt; 50 mg/kg/ngày hoặc UPr/UCr &gt; 2 mg/mg).<br>2) <span style=\"color:#ffd43b\"><b>Bổ thể C3 giảm thấp kéo dài</b></span> quá 6 – 8 tuần.<br>3) <span style=\"color:#ff6b6b\"><b>Mức lọc cầu thận (eGFR) suy giảm</b></span> dưới 60 ml/phút/1.73 m².<br>4) Bệnh nhân mắc <span style=\"color:#74c0fc\"><b>bệnh thận thứ phát hoặc bệnh hệ thống</b></span> (Lupus, Henoch-Schönlein nặng).<br>5) Tiền sử gia đình có người mắc <span style=\"color:#74c0fc\"><b>bệnh thận di truyền hoặc suy thận mạn</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Đái máu đại thể tái diễn nhiều đợt</b></span> không rõ nguyên nhân ngoài cầu thận.<br>7) <span style=\"color:#ff6b6b\"><b>Đái máu do cầu thận kéo dài trên 1 năm</b></span> không rõ căn nguyên.<br><br><b>💡 Giải thích của AI:</b><br>Thẻ Basic này cung cấp khung xương 7 chỉ định toàn diện để Active Recall trước khi đi vào các con số định lượng chi tiết.",
+      "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.3 Chỉ định sinh thiết thận)",
+      "tags": [
+        "PED-47",
+        "Barem-goc",
+        "Sinh-thiet-than",
+        "Chi-dinh-tong-quan"
+      ]
+    },
+    {
+      "id": "PED47-B36-ALL",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Thuật toán tiếp cận",
+      "section": "B6",
+      "front": "Trình bày sơ đồ <span style=\"color:#51cf66\"><b>5 bước tiếp cận bệnh nhân đái máu</b></span> theo giáo trình Nhi Thái Bình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Bước 1:</b></span> <b>Xác định đái máu thực sự</b> (loại trừ đái máu giả do thức ăn, thuốc, Hb niệu, Myoglobin niệu).<br>2) <span style=\"color:#ff6b6b\"><b>Bước 2:</b></span> <b>Tìm dấu hiệu viêm cầu thận cấp</b> qua tam chứng kinh điển (phù, tăng huyết áp, thiểu niệu).<br>3) <span style=\"color:#74c0fc\"><b>Bước 3:</b></span> <b>Phân loại vị trí:</b> Tại cầu thận (kèm protein niệu, hồng cầu biến dạng &gt; 80%, trụ hồng cầu) vs Ngoài cầu thận (hồng cầu đồng dạng, không đạm niệu).<br>4) <span style=\"color:#ffd43b\"><b>Bước 4:</b></span> <b>Thăm dò xét nghiệm định danh nguyên nhân:</b> Cầu thận (ASLO, C3, ANA, sinh thiết) vs Ngoài cầu thận (siêu âm, cấy nước tiểu, X-quang hệ niệu).<br>5) <span style=\"color:#51cf66\"><b>Bước 5:</b></span> <b>Điều trị theo nguyên nhân đặc hiệu</b> và theo dõi chức năng thận.<br><br><b>💡 Giải thích của AI:</b><br>Nắm chắc lưu đồ 5 bước giúp bác sĩ không bao giờ bị rối loạn khi đứng trước một bệnh nhi có nước tiểu đỏ.",
+      "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 23, Sơ đồ tiếp cận bệnh nhân đái máu)",
+      "tags": [
+        "PED-47",
+        "Barem-goc",
+        "Thuat-toan-5-buoc"
+      ]
+    },
+    {
+      "id": "PED47-ALG-01",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Thuật toán ra quyết định nhanh",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#51cf66\"><b>Thuật toán 30 giây:</b></span> Phân biệt tức thì <span style=\"color:#ff6b6b\"><b>Đái máu thật</b></span> vs <span style=\"color:#ffd43b\"><b>Đái máu giả</b></span> tại phòng cấp cứu bằng que thử Dipstick và soi cặn lắng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <span style=\"color:#ffd43b\"><b>KỊCH BẢN 1 (Nước tiểu đỏ + Dipstick ÂM TÍNH):</b></span> \\→ <span style=\"color:#51cf66\"><b>100% ĐÁI MÁU GIẢ</b></span> do thực phẩm (củ dền đỏ) hoặc thuốc (Rifampicin, Metronidazole). Không cần thăm dò thận.<br>• <span style=\"color:#ffd43b\"><b>KỊCH BẢN 2 (Nước tiểu đỏ + Dipstick DƯƠNG TÍNH nhưng Soi KHÔNG CÓ HỒNG CẦU):</b></span> \\→ Đái sắc tố: <span style=\"color:#ff6b6b\"><b>Hemoglobin tự do</b></span> (tán huyết nội mạch cấp) hoặc <span style=\"color:#ff6b6b\"><b>Myoglobin</b></span> (tiêu cơ vân cấp do co giật/chấn thương). Xử trí: Kiềm hóa nước tiểu + bù dịch bảo vệ ống thận.<br>• <span style=\"color:#ff6b6b\"><b>KỊCH BẢN 3 (Nước tiểu đỏ + Dipstick DƯƠNG TÍNH + Soi CÓ HỒNG CẦU NGUYÊN VẸN):</b></span> \\→ <span style=\"color:#ff6b6b\"><b>ĐÁI MÁU THẬT SỰ</b></span>. Tiến hành phân loại cầu thận vs ngoài cầu thận.<br><br><b>💡 Giải thích của AI:</b><br>Thuật toán 3 nhánh này giải quyết sai lầm phổ biến nhất ở phòng cấp cứu: vội kết luận đái máu khi bệnh nhân thực chất bị tiêu cơ vân hoặc uống thuốc Rifampicin.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.538 (PED-47, Thuật toán quyết định)",
+      "tags": [
+        "PED-47",
+        "Thuat-toan",
+        "Dai-mau-that-gia"
+      ]
+    },
+    {
+      "id": "PED47-ALG-02",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Thuật toán ra quyết định nhanh",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#51cf66\"><b>Ma trận quyết định nhị phân:</b></span> Bảng 5 tiêu chí phân định tức thì <span style=\"color:#74c0fc\"><b>Đái máu tại cầu thận</b></span> vs <span style=\"color:#51cf66\"><b>Đái máu ngoài cầu thận</b></span> tại giường bệnh là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Màu sắc nước tiểu:</b></span> Cầu thận \\→ Màu nâu sẫm, nước coca, nước rửa thịt; Ngoài cầu thận \\→ Màu đỏ tươi, hồng tươi.<br>2) <span style=\"color:#ffd43b\"><b>Máu cục (Cục máu đông):</b></span> Cầu thận \\→ <span style=\"color:#51cf66\"><b>HOÀN TOÀN KHÔNG CÓ</b></span> (do urokinase ống thận làm tan fibrin); Ngoài cầu thận \\→ <span style=\"color:#ff6b6b\"><b>CÓ THỂ CÓ MÁU CỤC</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Protein niệu đi kèm:</b></span> Cầu thận \\→ <span style=\"color:#ff6b6b\"><b>Protein niệu đáng kể (UPr/UCr &gt; 0.2 mg/mg)</b></span>; Ngoài cầu thận \\→ Âm tính hoặc chỉ ở mức vết.<br>4) <span style=\"color:#ffd43b\"><b>Hình thái hồng cầu niệu:</b></span> Cầu thận \\→ <span style=\"color:#ff6b6b\"><b>Biến dạng đa hình thái &gt; 80% (Acanthocyte &gt; 5%)</b></span>; Ngoài cầu thận \\→ <span style=\"color:#51cf66\"><b>Đồng dạng tròn đều</b></span>.<br>5) <span style=\"color:#ffd43b\"><b>Trụ hồng cầu (RBC Casts):</b></span> Cầu thận \\→ <span style=\"color:#ff6b6b\"><b>DƯƠNG TÍNH</b></span> (tiêu chuẩn vàng); Ngoài cầu thận \\→ <span style=\"color:#51cf66\"><b>ÂM TÍNH</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bảng 5 tiêu chí này là la bàn định hướng phân khoa: tại cầu thận chuyển Nội thận nhi; ngoài cầu thận chuyển Ngoại nhi/thăm dò tiết niệu.",
+      "extra": "📖 Nguồn: Nelson 21st Ch.538 & Harriet Lane Handbook (PED-47, Thuật toán quyết định)",
+      "tags": [
+        "PED-47",
+        "Thuat-toan",
+        "Phan-dinh-cau-than"
       ]
     }
   ]
