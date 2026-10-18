@@ -1,7 +1,7 @@
 {
   "deck_id": 170962001,
   "deck_name": "Nhi khoa Y6::PED-62: Dac diem benh hoc & Can nguyen vi sinh ho hap o tre em",
-  "card_count": 28,
+  "card_count": 68,
   "cards": [
     {
       "id": "PED62-B0-01",
@@ -10,9 +10,9 @@
       "category": "Khung tiếp cận tổng quan",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Khung phân loại các căn nguyên vi sinh gây nhiễm trùng đường hô hấp dưới thường gặp ở trẻ em gồm mấy nhóm lớn? Kể tên các đại diện chính của từng nhóm.",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 3 nhóm vi sinh lớn:<br>1) <b>Nhóm Virus đường thở nhỏ:</b> RSV (Respiratory Syncytial Virus), Adenovirus, hMPV (human Metapneumovirus), virus Cúm và Á cúm.<br>2) <b>Nhóm Vi khuẩn không điển hình (Atypical bacteria):</b> <i>Mycoplasma pneumoniae</i>, <i>Chlamydia pneumoniae</i>.<br>3) <b>Nhóm Vi khuẩn điển hình gây đông đặc phế nang:</b> Phế cầu (<i>Streptococcus pneumoniae</i>), Tụ cầu vàng (<i>Staphylococcus aureus</i>), <i>Haemophilus influenzae</i> type b (Hib).<br><br><b>💡 Giải thích của AI:</b><br>Nắm vững 3 nhóm lớn này là chìa khóa vàng để quyết định điều trị: Nhóm 1 chủ yếu cần chăm sóc hỗ trợ thông thoáng đường thở và oxy (không dùng kháng sinh); Nhóm 2 bắt buộc dùng kháng sinh ức chế tổng hợp protein (Macrolide) vì vi khuẩn không có vách peptidoglycan; Nhóm 3 bắt buộc dùng kháng sinh Beta-lactam liều cao để tiêu diệt vi khuẩn đông đặc phế nang.",
-      "extra": "📖 Nguồn: PIDS/IDSA CAP Guideline 2011 & Nelson Textbook of Pediatrics (PED-62, Mục 0.2)",
+      "front": "<span style=\"color:#ffd43b\"><b>3 lý do cốt tử</b></span> vì sao bác sĩ Nhi khoa bắt buộc phải hiểu sâu <span style=\"color:#74c0fc\"><b>bệnh học vi sinh</b></span> thay vì chỉ điều trị theo triệu chứng là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất tổn thương tế bào quyết định biểu hiện lâm sàng:</b> Tổn thương hoại tử biểu mô tiết nhầy tắc lòng ống (RSV) hoàn toàn khác với viêm mủ đông đặc lòng phế nang (Phế cầu).<br>2) <b>Tránh thảm họa lạm dụng kháng sinh:</b> Kháng sinh vô tác dụng với virus (RSV, Adeno, hMPV) và các vi khuẩn kháng tự nhiên (Mycoplasma không có vách peptidoglycan).<br>3) <b>Tránh dùng thuốc sai cơ chế:</b> Thuốc giãn phế quản (Salbutamol) và Corticoid không giải quyết được nút nhầy hoại tử bít tắc cơ học trong viêm tiểu phế quản do RSV.<br><br><b>💡 Giải thích của AI:</b><br>Hiểu sâu bệnh học vi sinh giúp bác sĩ phân biệt được nguyên nhân cơ bản của suy hô hấp: do co thắt cơ trơn (đáp ứng với Salbutamol) hay do nút nhầy bít tắc lòng tiểu phế quản (chống chỉ định Salbutamol, cần hút đờm dãi và hỗ trợ thông khí). Điều này cứu bệnh nhi khỏi các can thiệp dược lý vô ích và có hại.",
+      "extra": "📖 Nguồn: PIDS/IDSA CAP Guideline 2011 & Nelson Textbook of Pediatrics (PED-62, Mục 0.1)",
       "tags": [
         "PED-62",
         "B0-Tong-quan",
@@ -23,12 +23,12 @@
       "id": "PED62-B0-02",
       "type": "basic",
       "section": "B0",
-      "category": "Động học lứa tuổi",
+      "category": "Khung tiếp cận tổng quan",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Căn nguyên vi sinh gây bệnh đường hô hấp dưới ở trẻ em phân bố theo các mốc lứa tuổi như thế nào?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Phân bố đặc thù theo 4 mốc tuổi:<br>1) <b>Trẻ nhũ nhi &lt; 6 tháng tuổi:</b> RSV chiếm ưu thế tuyệt đối (gây viêm tiểu phế quản cấp ứ khí dữ dội do đường thở nhỏ).<br>2) <b>Trẻ từ 6 tháng đến 2 tuổi:</b> Bùng phát RSV, hMPV, Adenovirus và bắt đầu xuất hiện Phế cầu.<br>3) <b>Trẻ từ 2 tuổi đến 5 tuổi:</b> Giai đoạn đi nhà trẻ, thường gặp nhiễm khuẩn phối hợp (đồng nhiễm virus và vi khuẩn), Phế cầu là vi khuẩn hàng đầu.<br>4) <b>Trẻ trên 5 tuổi (Tuổi đi học):</b> <i>Mycoplasma pneumoniae</i> chiếm ưu thế vượt trội (30% – 50% các ca viêm phổi CAP), bên cạnh Phế cầu.<br><br><b>💡 Giải thích của AI:</b><br>Tuổi của bệnh nhi là chiếc la bàn định hướng vi sinh đầu tiên tại phòng cấp cứu. Trẻ nhũ nhi &lt; 6 tháng khò khè ứ khí phải nghĩ ngay tới RSV; ngược lại một đứa trẻ 8 tuổi ho khan kéo dài phải phản xạ ngay tới Mycoplasma trước tiên.",
-      "extra": "📖 Nguồn: Hướng dẫn chẩn đoán và điều trị CAP Nhi khoa - Bộ Y tế & PIDS/IDSA (PED-62, Mục 0.3)",
+      "front": "Khung phân loại <span style=\"color:#ffd43b\"><b>3 nhóm căn nguyên vi sinh chính</b></span> gây nhiễm trùng đường hô hấp dưới ở trẻ em gồm những nhóm nào và <span style=\"color:#74c0fc\"><b>các đại diện điển hình</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 3 nhóm vi sinh lớn:<br>1) <span style=\"color:#74c0fc\"><b>Nhóm Virus đường thở nhỏ:</b></span> RSV (Respiratory Syncytial Virus), Adenovirus, hMPV (human Metapneumovirus), virus Cúm và Á cúm.<br>2) <span style=\"color:#74c0fc\"><b>Nhóm Vi khuẩn không điển hình (Atypical bacteria):</b></span> <i>Mycoplasma pneumoniae</i>, <i>Chlamydia pneumoniae</i>.<br>3) <span style=\"color:#74c0fc\"><b>Nhóm Vi khuẩn điển hình phế nang:</b></span> Phế cầu (<i>Streptococcus pneumoniae</i>), Tụ cầu vàng (<i>Staphylococcus aureus</i>), <i>Haemophilus influenzae</i> type b (Hib).<br><br><b>💡 Giải thích của AI:</b><br>Đây là chiếc 'la bàn' vi sinh học giúp định hướng chẩn đoán tại giường bệnh: Nhóm 1 cần chăm sóc hỗ trợ thông khí và hút đờm dãi; Nhóm 2 bắt buộc dùng kháng sinh nội bào (Macrolide); Nhóm 3 bắt buộc dùng kháng sinh diệt khuẩn tác động lên vách (Beta-lactam liều cao).",
+      "extra": "📖 Nguồn: PIDS/IDSA CAP Guideline 2011 (PED-62, Mục 0.2)",
       "tags": [
         "PED-62",
         "B0-Tong-quan",
@@ -36,419 +36,1095 @@
       ]
     },
     {
+      "id": "PED62-B0-03",
+      "type": "basic",
+      "section": "B0",
+      "category": "Khung tiếp cận tổng quan",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Đặc điểm <span style=\"color:#74c0fc\"><b>bệnh học tế bào</b></span> và <span style=\"color:#ff6b6b\"><b>triệu chứng thính chẩn kinh điển</b></span> của <span style=\"color:#74c0fc\"><b>Nhóm 1 (Virus đường thở nhỏ)</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bệnh học tế bào:</b> Xâm nhập và gây hoại tử biểu mô lông chuyển đường dẫn khí nhỏ (tiểu phế quản), tăng tiết dịch nhầy kết hợp xác tế bào tạo <span style=\"color:#ff6b6b\"><b>nút nhầy bít tắc lòng ống</b></span> gây bẫy khí và xẹp phổi rải rác.<br>2) <b>Thính chẩn kinh điển:</b> Nghe phổi rộn rã tiếng <span style=\"color:#ff6b6b\"><b>ran rít, ran ngáy, khò khè thì thở ra</b></span> và <span style=\"color:#ff6b6b\"><b>ran ẩm nhỏ hạt mịn (Fine crackles)</b></span> rải rác cả hai phế trường.<br><br><b>💡 Giải thích của AI:</b><br>Đặc trưng của nhiễm virus đường thở nhỏ là tổn thương lan tỏa hai bên phế trường với biểu hiện tắc nghẽn đường thở (khò khè, ran rít do lòng ống hẹp lại vì phù nề và ứ dịch nhầy), kèm ran ẩm nhỏ hạt do dịch ứ đọng trong các tiểu phế quản tận cùng vỡ ra khi hít vào.",
+      "extra": "📖 Nguồn: AAP Guideline: Diagnosis & Management of Bronchiolitis (PED-62, Mục 0.2)",
+      "tags": [
+        "PED-62",
+        "B0-Tong-quan",
+        "Virus"
+      ]
+    },
+    {
+      "id": "PED62-B0-04",
+      "type": "basic",
+      "section": "B0",
+      "category": "Khung tiếp cận tổng quan",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Đặc điểm <span style=\"color:#74c0fc\"><b>bệnh học tế bào</b></span> và <span style=\"color:#ffd43b\"><b>nghịch lý chẩn đoán</b></span> của <span style=\"color:#74c0fc\"><b>Nhóm 2 (Vi khuẩn không điển hình - Mycoplasma)</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bệnh học tế bào:</b> Không có vách tế bào peptidoglycan; ký sinh bề mặt màng tế bào vật chủ, tiết độc tố làm liệt lông chuyển và gây <span style=\"color:#74c0fc\"><b>viêm mô kẽ quanh phế quản mạch máu</b></span>.<br>2) <b>Nghịch lý chẩn đoán:</b> Hiện tượng <span style=\"color:#ffd43b\"><b>phân ly lâm sàng - X-quang</b></span>: Trẻ ho khan dữ dội dai dẳng kiệt sức, nghe phổi ran rất nghèo nàn, nhưng phim X-quang phổi thâm nhiễm mô kẽ lan tỏa 'rực lửa'.<br><br><b>💡 Giải thích của AI:</b><br>Vì tổn thương chủ yếu nằm ở mô kẽ vách phế nang và tổ chức liên kết quanh phế quản chứ không tích tụ mủ trong lòng phế nang, nên khi nghe phổi bác sĩ chỉ nghe thấy tiếng thở thô hoặc vài ran rải rác, trong khi trên X-quang mạng lưới mô kẽ dày lên tạo hình ảnh thâm nhiễm dạng lưới hạt rất nặng nề.",
+      "extra": "📖 Nguồn: British Thoracic Society (BTS) Pediatric CAP Guideline (PED-62, Mục 0.2)",
+      "tags": [
+        "PED-62",
+        "B0-Tong-quan",
+        "Mycoplasma"
+      ]
+    },
+    {
+      "id": "PED62-B0-05",
+      "type": "basic",
+      "section": "B0",
+      "category": "Khung tiếp cận tổng quan",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Đặc điểm <span style=\"color:#74c0fc\"><b>bệnh học</b></span> và <span style=\"color:#ff6b6b\"><b>hội chứng lâm sàng kinh điển</b></span> của <span style=\"color:#74c0fc\"><b>Nhóm 3 (Vi khuẩn điển hình - Phế cầu)</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bệnh học:</b> Viêm mủ cấp tính gây tràn ngập dịch rỉ viêm, fibrin, hồng cầu và bạch cầu trung tính vào lòng phế nang, làm mất hoàn toàn khí và biến nhu mô phổi thành một khối đặc chắc (<span style=\"color:#ff6b6b\"><b>đông đặc thùy phổi</b></span>).<br>2) <b>Lâm sàng kinh điển:</b> Sốt cao rét run đột ngột, ho đờm rỉ sắt, đau ngực kiểu màng phổi, kèm <span style=\"color:#ff6b6b\"><b>hội chứng đông đặc điển hình</b></span> (rung thanh tăng, gõ đục, rì rào phế nang giảm, ran nổ dòn thì hít vào).<br><br><b>💡 Giải thích của AI:</b><br>Vi khuẩn điển hình gây tổn thương phế nang khu trú theo thùy hoặc phân thùy. Sự lấp đầy phế nang bằng mủ và fibrin dẫn truyền âm thanh từ thanh quản xuống thành ngực tốt hơn (rung thanh tăng, tiếng thổi ống) và cản trở sóng gõ (gõ đục), tạo nên bệnh cảnh đối lập hoàn toàn với tổn thương mô kẽ hay phế quản.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.428 (PED-62, Mục 0.2)",
+      "tags": [
+        "PED-62",
+        "B0-Tong-quan",
+        "Phe-cau"
+      ]
+    },
+    {
+      "id": "PED62-B0-06",
+      "type": "basic",
+      "section": "B0",
+      "category": "Khung tiếp cận tổng quan",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>Động học phân bố căn nguyên vi sinh hô hấp</b></span> theo <span style=\"color:#ffd43b\"><b>3 lứa tuổi vàng</b></span> ở trẻ em diễn ra như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Trẻ sơ sinh & dưới 2 tháng tuổi:</b></span> Hàng đầu là <span style=\"color:#74c0fc\"><b>Liên cầu nhóm B (GBS)</b></span>, trực khuẩn Gram âm đường ruột (<i>E. coli</i>, <i>Klebsiella</i>), <i>Listeria monocytogenes</i>, <i>Chlamydia trachomatis</i> và CMV.<br>2) <span style=\"color:#ffd43b\"><b>Trẻ từ 2 tháng đến 5 tuổi:</b></span> <span style=\"color:#74c0fc\"><b>Virus chiếm ưu thế tuyệt đối (> 70%)</b></span>, đứng đầu là RSV, tiếp theo là hMPV, Adenovirus, virus Cúm; vi khuẩn thường gặp là Phế cầu (<i>S. pneumoniae</i>).<br>3) <span style=\"color:#ffd43b\"><b>Trẻ trên 5 tuổi:</b></span> <span style=\"color:#74c0fc\"><b>Vi khuẩn không điển hình vọt lên hàng đầu</b></span> (<i>Mycoplasma pneumoniae</i> chiếm 30% – 50%), tiếp theo là Phế cầu; virus giảm dần vai trò.<br><br><b>💡 Giải thích của AI:</b><br>Tuổi là chìa khóa vàng số 1 trong tiếp cận hô hấp nhi: Trẻ càng nhỏ (nhũ nhi) thì căn nguyên virus tắc nghẽn càng áp đảo; trẻ học đường và thanh thiếu niên thì căn nguyên Mycoplasma không điển hình trở thành tác nhân chính quyết định lựa chọn kháng sinh ban đầu.",
+      "extra": "📖 Nguồn: PIDS/IDSA Guidelines on CAP in Infants and Children (PED-62, Mục 0.3)",
+      "tags": [
+        "PED-62",
+        "B0-Tong-quan",
+        "Dich-te-tuoi"
+      ]
+    },
+    {
       "id": "PED62-B1-01",
       "type": "basic",
       "section": "B1",
-      "category": "Cấu trúc vi sinh",
+      "category": "RSV - Vi sinh & Bệnh học",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Cấu trúc vỏ ngoài của RSV gồm 2 glycoprotein chính nào quyết định độc lực và cơ chế xâm nhập của virus?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 2 glycoprotein xuyên màng:<br>1) <b>Glycoprotein G (Attachment Protein):</b> Đóng vai trò bám dính, giúp virus nhận diện và gắn vào thụ thể trên bề mặt tế bào biểu mô hô hấp có lông chuyển.<br>2) <b>Glycoprotein F (Fusion Protein):</b> Đóng vai trò dung hợp màng, đưa RNA virus vào bào tương và làm màng các tế bào biểu mô lân cận dính liền lại tạo thành <b>khối tế bào hợp bào khổng lồ đa nhân (Syncytia)</b>.<br><br><b>💡 Giải thích của AI:</b><br>Chính hiện tượng hợp bào do Protein F kích hoạt đã tạo nên tên gọi Respiratory Syncytial Virus. Khối hợp bào làm mất hoàn toàn kiến trúc vi thể của lớp biểu mô có lông chuyển, làm tê liệt cơ chế quét nhầy tự nhiên của phổi.",
-      "extra": "📖 Nguồn: Virology & Pathology of RSV - Lancet 2022 (PMID: 35598608, PED-62, Mục 1.1)",
+      "front": "Đặc điểm <span style=\"color:#74c0fc\"><b>cấu trúc vi sinh</b></span> và chức năng của <span style=\"color:#ffd43b\"><b>2 gai Glycoprotein vỏ chính</b></span> của virus <span style=\"color:#74c0fc\"><b>RSV</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <b>Cấu trúc:</b> Virus RNA sợi đơn âm, không phân đoạn, thuộc họ <i>Paramyxoviridae</i> (chi <i>Orthopneumovirus</i>).<br>• <span style=\"color:#74c0fc\"><b>Glycoprotein G (Attachment protein):</b></span> Chịu trách nhiệm <b>đính bám</b> hạt virus vào thụ thể bề mặt tế bào biểu mô đường hô hấp.<br>• <span style=\"color:#74c0fc\"><b>Glycoprotein F (Fusion protein):</b></span> Chịu trách nhiệm <b>dung hợp</b> màng virus với màng tế bào vật chủ để giải phóng RNA vào bào tương, đồng thời hòa màng các tế bào lân cận tạo thành <span style=\"color:#ff6b6b\"><b>hợp bào khổng lồ đa nhân (Syncytia)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chính Protein F tạo nên tên gọi 'Respiratory Syncytial Virus' (Virus hợp bào hô hấp). Protein F cũng là đích tác động của kháng thể đơn dòng dự phòng Palivizumab và Nirsevimab nhằm ngăn chặn virus xâm nhập tế bào biểu mô ở trẻ có nguy cơ cao.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.286 (PED-62, Mục 1.1)",
       "tags": [
         "PED-62",
-        "B1-RSV-Co-che",
-        "EBM-Master"
+        "B1-RSV",
+        "Vi-sinh"
       ]
     },
     {
       "id": "PED62-B1-02",
       "type": "basic",
       "section": "B1",
-      "category": "Chuỗi bệnh học tế bào",
+      "category": "RSV - Vi sinh & Bệnh học",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Trình bày chuỗi tổn thương giải phẫu bệnh học từ tế bào đến lòng tiểu phế quản trong nhiễm RSV.",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Chuỗi tổn thương tuần tự gồm 4 mắt xích:<br>1) Virus nhân lên gây hoại tử và bong tróc hàng loạt tế bào biểu mô lông chuyển vào lòng ống.<br>2) Mô đệm quanh tiểu phế quản bị phù nề và thâm nhiễm dày đặc tế bào lympho.<br>3) Tăng tiết dịch nhầy kết hợp với xác tế bào hoại tử và sợi fibrin tạo thành <b>các nút nhầy cơ học (Mucus plugs)</b>.<br>4) Các nút nhầy bít tắc lòng tiểu phế quản gây hẹp đường kính và tăng kháng lực đường thở.<br><br><b>💡 Giải thích của AI:</b><br>Nắm chắc chuỗi tổn thương này giúp bác sĩ hiểu bản chất sâu xa: đường thở bị bít tắc là do nút nhầy cơ học và phù nề mô đệm, hoàn toàn không phải do co thắt cơ trơn đơn thuần.",
-      "extra": "📖 Nguồn: AAP Bronchiolitis Clinical Practice Guideline (PMID: 25349312, PED-62, Mục 1.2)",
+      "front": "Cơ chế tổn thương tế bào ở <span style=\"color:#ffd43b\"><b>Tầng 1 & Tầng 2</b></span> trong chuỗi bệnh học 7 tầng của <span style=\"color:#74c0fc\"><b>RSV</b></span> diễn ra như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Tầng 1 (Xâm nhập chọn lọc):</b></span> RSV có ái lực đặc hiệu với tế bào biểu mô có lông chuyển của các đường dẫn khí nhỏ (tiểu phế quản có đường kính &lt; 2 mm).<br>2) <span style=\"color:#ffd43b\"><b>Tầng 2 (Hoại tử & bong tróc):</b></span> Virus nhân lên làm phá hủy cấu trúc tế bào, gây <span style=\"color:#ff6b6b\"><b>hoại tử tế bào biểu mô</b></span> và làm bong tróc hàng loạt tế bào biểu mô chết vào trong lòng tiểu phế quản, đồng thời phá hủy hoàn toàn hệ thống lông chuyển dọn nhầy.<br><br><b>💡 Giải thích của AI:</b><br>Đường thở nhỏ của trẻ nhũ nhi vốn có khẩu kính rất hẹp. Khi lớp lông chuyển bị phá hủy và tế bào biểu mô chết tróc ra lòng ống, cơ chế tự làm sạch sinh lý bị tê liệt, tạo tiền đề cho sự ứ đọng dịch và bít tắc cơ học không thể hồi phục nhanh bằng thuốc.",
+      "extra": "📖 Nguồn: AAP Guideline: Diagnosis & Management of Bronchiolitis (PED-62, Mục 1.2)",
       "tags": [
         "PED-62",
-        "B1-RSV-Co-che",
-        "EBM-Master"
+        "B1-RSV",
+        "Co-che-7-tang"
       ]
     },
     {
       "id": "PED62-B1-03",
       "type": "basic",
       "section": "B1",
-      "category": "Cơ chế van 1 chiều",
+      "category": "RSV - Vi sinh & Bệnh học",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Cơ chế van một chiều (Ball-valve mechanism) trong viêm tiểu phế quản do RSV dẫn đến hai hiện tượng đối lập nào trên nhu mô phổi?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Dẫn đến 2 hiện tượng đối lập cùng tồn tại song song:<br>1) <b>Bẫy khí & Ứ khí phế nang toàn thể (Air trapping / Hyperinflation):</b> Khi hít vào lòng ống giãn ra khí lách qua được nút nhầy, khi thở ra lòng ống xẹp lại nút nhầy bít kín không khí bị nhốt lại trong phế nang.<br>2) <b>Xẹp phổi dưới phân thùy (Atelectasis):</b> Xảy ra tại những tiểu phế quản bị nút nhầy bít kín hoàn toàn 100%, không khí còn lại trong phế nang bị hấp thu hết vào máu làm phế nang xẹp dính.<br><br><b>💡 Giải thích của AI:</b><br>Chính sự kết hợp giữa các vùng ứ khí phế nang quá mức và các vùng xẹp phổi rải rác tạo nên hình ảnh X-quang loang lổ đặc thù của RSV. Vùng xẹp phổi rất hay gặp ở thùy trên phổi phải và thường bị chẩn đoán nhầm là viêm phổi vi khuẩn.",
-      "extra": "📖 Nguồn: Pathophysiology of Small Airway Obstruction - AAP 2014 (PED-62, Mục 1.2)",
+      "front": "Cơ chế hình thành <span style=\"color:#ff6b6b\"><b>Nút nhầy bít tắc (Mucus plug)</b></span> ở <span style=\"color:#ffd43b\"><b>Tầng 3</b></span> chuỗi bệnh học <span style=\"color:#74c0fc\"><b>RSV</b></span> gồm những thành phần nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nút nhầy bít tắc lòng tiểu phế quản được tạo nên bởi sự kết tụ của 4 thành phần:<br>1) <span style=\"color:#ff6b6b\"><b>Xác tế bào biểu mô hoại tử bong tróc.</b></span><br>2) <span style=\"color:#ff6b6b\"><b>Chất nhầy đặc quánh</b></span> do các tế bào đài tăng tiết phản ứng.<br>3) <span style=\"color:#74c0fc\"><b>Xâm nhập tế bào viêm đơn nhân</b></span> (Lymphocyte và Macrophage) ở thành tiểu phế quản.<br>4) <span style=\"color:#ffd43b\"><b>Mạng lưới sợi huyết (Fibrin)</b></span> và dịch phù nề xuất tiết.<br><br><b>💡 Giải thích của AI:</b><br>Nút nhầy này hoạt động như một chiếc 'nút chai' bít kín lòng ống. Do cấu tạo từ xác tế bào và nhầy khô đặc, không có thuốc nào có thể làm 'tan' nút nhầy ngay lập tức; giải pháp duy nhất là cung cấp đủ độ ẩm (khí thở ẩm ấm, bồi phụ dịch) và hút thông thoáng đường hô hấp trên.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.286 (PED-62, Mục 1.2)",
       "tags": [
         "PED-62",
-        "B1-RSV-Co-che",
-        "EBM-Master"
+        "B1-RSV",
+        "Co-che-7-tang"
+      ]
+    },
+    {
+      "id": "PED62-B1-04",
+      "type": "basic",
+      "section": "B1",
+      "category": "RSV - Vi sinh & Bệnh học",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Bản chất của <span style=\"color:#ffd43b\"><b>Cơ chế van một chiều (Ball-valve mechanism)</b></span> và hiện tượng <span style=\"color:#ff6b6b\"><b>Bẫy khí & Ứ khí phế nang (Air trapping & Hyperinflation)</b></span> ở <span style=\"color:#ffd43b\"><b>Tầng 4</b></span> của <span style=\"color:#74c0fc\"><b>RSV</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế van 1 chiều:</b> Khi <b>hít vào</b>, áp suất âm lồng ngực làm tiểu phế quản dãn rộng tự nhiên giúp không khí lách qua được nút nhầy vào phế nang. Nhưng khi <b>thở ra</b>, lồng ngực co lại và tiểu phế quản xẹp hẹp lại, nút nhầy bít kín hoàn toàn chặn đứng dòng khí thoát ra ngoài.<br>2) <b>Hậu quả:</b> Không khí bị bẫy lại trong phế nang (<span style=\"color:#ff6b6b\"><b>Air trapping</b></span>), làm phế nang căng phồng quá mức (<span style=\"color:#ff6b6b\"><b>Hyperinflation</b></span>), đè ép các mao mạch quanh phế nang gây rối loạn tỷ lệ Thông khí/Tưới máu (V/Q mismatch).<br><br><b>💡 Giải thích của AI:</b><br>Hiện tượng bẫy khí giải thích vì sao trẻ viêm tiểu phế quản có lồng ngực hình thùng, thì thở ra kéo dài, nghe phổi có tiếng khò khè thì thở ra và trên X-quang thấy phổi ứ khí sáng rực, vòm hoành bị đè phẳng lì.",
+      "extra": "📖 Nguồn: AAP Guideline: Diagnosis & Management of Bronchiolitis (PED-62, Mục 1.2)",
+      "tags": [
+        "PED-62",
+        "B1-RSV",
+        "Co-che-7-tang"
+      ]
+    },
+    {
+      "id": "PED62-B1-05",
+      "type": "basic",
+      "section": "B1",
+      "category": "RSV - Vi sinh & Bệnh học",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Cơ chế gây <span style=\"color:#ff6b6b\"><b>Xẹp thùy trên phổi phải (RUL atelectasis)</b></span> ở <span style=\"color:#ffd43b\"><b>Tầng 5</b></span> của <span style=\"color:#74c0fc\"><b>RSV</b></span> là gì và làm thế nào để không nhầm với <span style=\"color:#74c0fc\"><b>viêm phổi đông đặc do vi khuẩn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế:</b> Khi nút nhầy gây bít tắc <b>hoàn toàn 100%</b> lòng tiểu phế quản, lượng khí còn lại trong phế nang bị mao mạch hấp thu hết sạch trong khi không có khí mới vào, dẫn tới xẹp hoàn toàn nhu mô phổi (thường gặp nhất ở thùy trên phổi phải RUL do nhánh phế quản thùy này đi chếch dễ ứ đọng đờm).<br>2) <b>Phân biệt với đông đặc vi khuẩn:</b><br>• <span style=\"color:#ff6b6b\"><b>Xẹp phổi (Atelectasis):</b></span> Có dấu hiệu <b>giảm thể tích phổi</b> (rãnh liên thùy bị kéo cong lên trên, tim và khí quản bị co kéo lệch về bên xẹp).<br>• <span style=\"color:#74c0fc\"><b>Đông đặc (Consolidation):</b></span> <b>Thể tích phổi được bảo tồn</b> hoặc hơi phồng nhẹ (rãnh liên thùy giữ nguyên vị trí phẳng hoặc đẩy lồi ra ngoài).<br><br><b>💡 Giải thích của AI:</b><br>Đây là cái bẫy kinh điển: Thấy đám mờ thùy trên phổi phải vội kết luận 'viêm phổi thùy do vi khuẩn' và kê kháng sinh mạnh, trong khi bản chất chỉ là xẹp phổi do nút nhầy RSV. Bệnh nhi cần được vỗ rung hút đờm dãi và thông khí áp lực dương thay vì đổi kháng sinh.",
+      "extra": "📖 Nguồn: AAP Guideline: Diagnosis & Management of Bronchiolitis (PED-62, Mục 1.2 & Bẫy 1)",
+      "tags": [
+        "PED-62",
+        "B1-RSV",
+        "Co-che-7-tang",
+        "X-quang"
+      ]
+    },
+    {
+      "id": "PED62-B1-06",
+      "type": "basic",
+      "section": "B1",
+      "category": "RSV - Lâm sàng & Thính chẩn",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Biểu hiện <span style=\"color:#ff6b6b\"><b>lâm sàng và thính chẩn kinh điển</b></span> ở <span style=\"color:#ffd43b\"><b>Tầng 6</b></span> của viêm tiểu phế quản do <span style=\"color:#74c0fc\"><b>RSV</b></span> ở trẻ nhũ nhi gồm những dấu hiệu gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Khởi phát:</b> Triệu chứng viêm long đường hô hấp trên trong <span style=\"color:#ffd43b\"><b>2 – 3 ngày đầu</b></span> (sốt nhẹ, chảy mũi trong, hắt hơi).<br>2) <b>Toàn phát:</b> Xuất hiện hội chứng suy hô hấp và tắc nghẽn đường thở dưới: Thở nhanh, co kéo rút lõm lồng ngực, phập phồng cánh mũi, bú ngắt quãng, tím tái khi ho.<br>3) <b>Thính chẩn kinh điển:</b> Thì thở ra kéo dài, nghe đầy tiếng <span style=\"color:#ff6b6b\"><b>khò khè (Wheezing), ran rít, ran ngáy</b></span> kèm <span style=\"color:#ff6b6b\"><b>ran ẩm nhỏ hạt mịn (Fine crackles)</b></span> rải rác cả hai đáy phổi.<br><br><b>💡 Giải thích của AI:</b><br>Tiếng khò khè và ran rít sinh ra do dòng khí xoáy qua các tiểu phế quản bị chít hẹp do phù nề và nhầy dính. Tiếng ran ẩm nhỏ hạt mịn sinh ra do sự bục vỡ của các màng dịch nhầy ứ đọng trong các tiểu phế quản tận khi áp lực âm hít vào kéo căng lồng ngực.",
+      "extra": "📖 Nguồn: AAP Guideline: Diagnosis & Management of Bronchiolitis (PMID: 25349312, PED-62, Mục 1.2)",
+      "tags": [
+        "PED-62",
+        "B1-RSV",
+        "Lam-sang"
+      ]
+    },
+    {
+      "id": "PED62-B1-07",
+      "type": "basic",
+      "section": "B1",
+      "category": "RSV - Phác đồ điều trị",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>3 nguyên tắc 'KHÔNG ĐƯỢC LÀM'</b></span> và <span style=\"color:#51cf66\"><b>3 trụ cột xử trí chuẩn mực</b></span> theo hướng dẫn của Viện Hàn lâm Nhi khoa Hoa Kỳ (AAP) cho <span style=\"color:#74c0fc\"><b>RSV</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <span style=\"color:#ff6b6b\"><b>3 NGUYÊN TẮC 'KHÔNG' (Chống chỉ định thường quy):</b></span><br>1) <span style=\"color:#ff6b6b\"><b>KHÔNG dùng thuốc giãn phế quản (Salbutamol):</b></span> Do không có co thắt cơ trơn; Salbutamol gây tim đập nhanh, tăng tiêu thụ oxy và giãn mạch làm nặng thêm V/Q mismatch.<br>2) <span style=\"color:#ff6b6b\"><b>KHÔNG dùng Corticoid toàn thân hoặc khí dung:</b></span> Không làm giảm tỷ lệ nhập viện hay rút ngắn thời gian thở oxy, lại ức chế miễn dịch làm chậm đào thải virus.<br>3) <span style=\"color:#ff6b6b\"><b>KHÔNG dùng kháng sinh thường quy:</b></span> Tỷ lệ bội nhiễm vi khuẩn ở RSV nguyên phát cực thấp (&lt; 1% – 2%).<br>• <span style=\"color:#51cf66\"><b>3 TRỤ CỘT XỬ TRÍ CHUẨN:</b></span><br>1) <span style=\"color:#51cf66\"><b>Hút thông thoáng đường thở trên</b></span> bằng bấc sâu hoặc máy hút áp lực nhẹ trước bữa ăn và trước khi ngủ.<br>2) <span style=\"color:#51cf66\"><b>Thở oxy ẩm ấm hoặc oxy dòng cao qua gọng mũi (HFNC):</b></span> Tạo áp lực dương cuối kỳ thở ra (PEEP động) mở phế quản.<br>3) <span style=\"color:#51cf66\"><b>Bảo đảm dinh dưỡng và bù đủ dịch</b></span> (chia nhỏ bữa bú, truyền dịch nếu trẻ thở nhanh &gt; 60 – 70 lần/phút có nguy cơ sặc).<br><br><b>💡 Giải thích của AI:</b><br>Cốt lõi điều trị RSV là hỗ trợ sinh lý bảo tồn đường thở để cơ thể tự phục hồi sau 7-10 ngày khi lớp biểu mô lông chuyển tái sinh. Các can thiệp dùng thuốc ồ ạt không những không hiệu quả mà còn gây hại cho trẻ.",
+      "extra": "📖 Nguồn: AAP Clinical Practice Guideline: The Diagnosis, Management, and Prevention of Bronchiolitis (Pediatrics 2014, PED-62, Mục 1.2)",
+      "tags": [
+        "PED-62",
+        "B1-RSV",
+        "Dieu-tri"
+      ]
+    },
+    {
+      "id": "PED62-B1-08",
+      "type": "basic",
+      "section": "B1",
+      "category": "RSV - Hình ảnh học",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Phân tích <span style=\"color:#ffd43b\"><b>4 dấu hiệu hình ảnh học kinh điển</b></span> trên phim X-quang ngực thẳng của bệnh nhi viêm tiểu phế quản do <span style=\"color:#74c0fc\"><b>RSV</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><img src=\"PED62_fig1_rsv_bronchiolitis_xray.jpg\" style=\"max-width:100%;border-radius:8px;margin:8px 0;\"><br>1) <span style=\"color:#ff6b6b\"><b>Ứ khí phế nang hai bên (Hyperinflation):</b></span> Cả hai phế trường tăng sáng rõ rệt.<br>2) <span style=\"color:#ffd43b\"><b>Đè bẹp vòm hoành:</b></span> Hai vòm hoành bị đẩy hạ thấp xuống dưới xương sườn 6 trước hoặc xương sườn 9–10 sau và trở nên phẳng lì.<br>3) <span style=\"color:#74c0fc\"><b>Dày thành quanh phế quản (Peribronchial cuffing):</b></span> Hình ảnh các đường viền song song ('đường ray xe lửa') hoặc hình nhẫn quanh các cuống phế quản vùng rốn phổi do phù nề mô kẽ.<br>4) <span style=\"color:#ff6b6b\"><b>Đám mờ xẹp phổi dạng mảng hoặc xẹp thùy trên phổi phải (RUL):</b></span> Do nút nhầy bít tắc hoàn toàn lòng phế quản phân thùy.<br><br><b>💡 Giải thích của AI:</b><br>X-quang trong RSV phản ánh chính xác cơ chế bẫy khí: không khí ứ lại đẩy căng lồng ngực làm các khoảng liên sườn dãn rộng và vòm hoành phẳng. Các đám mờ rải rác phần lớn là xẹp phổi dưới phân thùy chứ không phải đông đặc vi khuẩn.",
+      "extra": "📖 Nguồn: AAP Bronchiolitis Guideline & Radiopaedia (PED-62, Mục 1.2, Hình 1)",
+      "tags": [
+        "PED-62",
+        "B1-RSV",
+        "X-quang"
       ]
     },
     {
       "id": "PED62-B2-01",
       "type": "basic",
       "section": "B2",
-      "category": "Lâm sàng kinh điển",
+      "category": "Adenovirus - Vi sinh & Bệnh học",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Triệu chứng lâm sàng và thính chẩn kinh điển của viêm tiểu phế quản do RSV ở trẻ nhũ nhi gồm những dấu hiệu gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm các dấu hiệu lâm sàng kinh điển:<br>1) Khởi phát viêm long đường hô hấp trên 2–3 ngày (sốt nhẹ, chảy mũi trong, hắt hơi).<br>2) Chuyển nhanh sang hội chứng tắc nghẽn đường hô hấp dưới: Thở nhanh, co kéo rút lõm lồng ngực, phập phồng cánh mũi, bú ngắt quãng.<br>3) Nghe phổi: <b>Khò khè (Wheezing) thì thở ra</b> kéo dài, tiếng ran rít, ran ngáy và <b>ran ẩm nhỏ hạt mịn (Fine crackles)</b> rải rác ở hai đáy phổi.<br><br><b>💡 Giải thích của AI:</b><br>Tiếng khò khè và ran rít thì thở ra sinh ra do dòng khí xoáy qua các tiểu phế quản bị chít hẹp. Tiếng ran ẩm nhỏ hạt mịn sinh ra do dịch tiết trong lòng các ống dẫn khí nhỏ bị dòng khí bóc tách ở thì hít vào.",
-      "extra": "📖 Nguồn: AAP Guideline: Diagnosis & Management of Bronchiolitis (PMID: 25349312, PED-62, Mục 1.2)",
+      "front": "Đặc điểm <span style=\"color:#74c0fc\"><b>cấu trúc vi sinh</b></span>, tính bền vững và các <span style=\"color:#ff6b6b\"><b>serotype độc lực cao</b></span> gây tổn thương hô hấp nặng của <span style=\"color:#74c0fc\"><b>Adenovirus</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <b>Cấu trúc:</b> Virus DNA chuỗi kép (dsDNA), không có vỏ bọc lipid (Non-enveloped), vỏ capsid hình khối 20 mặt đối xứng với các sợi fiber nhô ra từ đỉnh.<br>• <b>Thụ thể xâm nhập:</b> Đầu sợi fiber gắn đặc hiệu vào thụ thể <span style=\"color:#74c0fc\"><b>CAR (Coxsackievirus and Adenovirus Receptor)</b></span> trên bề mặt tế bào biểu mô đường thở.<br>• <b>Độ bền vững:</b> Vì không có vỏ lipid, Adenovirus trơ lì và cực kỳ bền vững với các dung môi hữu cơ, cồn sát khuẩn thông thường và xà phòng nhẹ.<br>• <span style=\"color:#ff6b6b\"><b>Các Serotype độc lực cao:</b></span> <b>Serotype 3, 7, 14 và 21</b> là các chủng chịu trách nhiệm chính gây viêm phổi hoại tử, suy hô hấp cấp nặng và để lại di chứng xơ hóa phổi mạn tính ở trẻ nhỏ.<br><br><b>💡 Giải thích của AI:</b><br>Tính chất không có vỏ lipid khiến Adenovirus tồn tại rất lâu trên các bề mặt đồ chơi, dụng cụ y tế và dễ gây dịch bùng phát trong các nhà trẻ, bệnh viện. Phải dùng dung dịch chứa clo hoạt tính (Chlorine) hoặc cồn nồng độ cao kết hợp chất khử khuẩn chuyên dụng mới bất hoạt được virus.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.284 (PED-62, Mục 2.1)",
       "tags": [
         "PED-62",
-        "B2-RSV-Lam-sang",
-        "EBM-Master"
+        "B2-Adenovirus",
+        "Vi-sinh"
       ]
     },
     {
       "id": "PED62-B2-02",
       "type": "basic",
       "section": "B2",
-      "category": "Cờ đỏ cấp cứu",
+      "category": "Adenovirus - Vi sinh & Bệnh học",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Dấu hiệu cờ đỏ nguy hiểm chết người cần đặc biệt cảnh giác khi nhiễm RSV ở trẻ sơ sinh và trẻ đẻ non &lt; 35 tuần là gì? Cơ chế sinh lý?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Dấu hiệu cờ đỏ: <b>Cơn ngừng thở trung ương (Central apnea)</b> đột ngột.<br><br><b>💡 Giải thích của AI:</b><br>Ở trẻ sinh non hoặc trẻ &lt; 2 tháng tuổi, trung tâm điều hòa hô hấp tại hành não chưa trưởng thành hoàn toàn. RSV kích thích các thụ thể hướng tâm của dây thần kinh phế vị (Vagus nerve) tại phế quản, kích hoạt phản xạ ức chế hô hấp trung ương. Cơn ngừng thở có thể xuất hiện rất sớm trước khi trẻ có triệu chứng thở nhanh hay khò khè, do đó trẻ đẻ non nhiễm RSV bắt buộc phải theo dõi SpO2 liên tục.",
-      "extra": "📖 Nguồn: Schroeder AR et al. Apnea in Bronchiolitis - Pediatrics (PED-62, Mục 1.2)",
+      "front": "Cơ chế tổn thương tế bào ở <span style=\"color:#ffd43b\"><b>Tầng 1 & Tầng 2</b></span> trong chuỗi bệnh học của <span style=\"color:#74c0fc\"><b>Adenovirus</b></span> có gì khác biệt mang tính hủy diệt so với RSV?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Tầng 1 (Ly giải tế bào trực tiếp):</b></span> Sau khi xâm nhập qua CAR receptor, Adenovirus nhân lên mạnh mẽ trong nhân tế bào vật chủ và kích hoạt chu trình ly giải (Lytic cycle) làm nổ tung tế bào.<br>2) <span style=\"color:#ffd43b\"><b>Tầng 2 (Viêm hoại tử toàn tầng biểu mô):</b></span> Khác với RSV chỉ gây tổn thương bề mặt biểu mô, Adenovirus gây <span style=\"color:#ff6b6b\"><b>viêm phế quản - tiểu phế quản hoại tử toàn tầng (Necrotizing bronchiolitis)</b></span>: tổn thương ăn sâu qua màng đáy, phá hủy lớp cơ trơn và tổ chức sụn nâng đỡ của thành phế quản.<br><br><b>💡 Giải thích của AI:</b><br>Tổn thương 'toàn tầng' xuyên thủng cấu trúc nâng đỡ giải phẫu của phế quản giải thích vì sao Adenovirus để lại tổn thương vĩnh viễn: khi biểu mô và sụn bị hoại tử, cơ thể không thể tái tạo lại nguyên trạng mà buộc phải thay thế bằng mô hạt xơ hóa, dẫn tới xẹp dính và bít tắc hoàn toàn lòng ống (Viêm tiểu phế quản tắc nghẽn).",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.284 & BTS Guidelines (PED-62, Mục 2.2)",
       "tags": [
         "PED-62",
-        "B2-RSV-Lam-sang",
-        "EBM-Master"
+        "B2-Adenovirus",
+        "Co-che-7-tang"
       ]
     },
     {
       "id": "PED62-B2-03",
       "type": "basic",
       "section": "B2",
-      "category": "Hình ảnh học X-quang",
+      "category": "Adenovirus - Vi sinh & Bệnh học",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Các dấu hiệu X-quang ngực điển hình của viêm tiểu phế quản do RSV là gì?<br><img src='PED62_fig1_rsv_bronchiolitis_xray.jpg'>",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 3 dấu hiệu X-quang điển hình:<br>1) <b>Ứ khí phế trường toàn thể:</b> Hai phế trường tăng sáng bất thường, vòm hoành hai bên phẳng và bị đẩy hạ thấp xuống dưới xương sườn 8–9, các khoảng liên sườn giãn rộng nằm ngang.<br>2) <b>Dày thành quanh phế quản (Peribronchial cuffing):</b> Tạo hình ảnh vòng nhẫn hoặc đường ray xe lửa do phù nề quanh phế quản.<br>3) <b>Xẹp phổi rải rác:</b> Các đám mờ dạng dải hoặc hình tam giác ở ngoại vi (đặc biệt thùy trên phổi phải).<br><br><b>💡 Giải thích của AI:</b><br>Hình ảnh lồng ngực căng phồng ứ khí là minh chứng trực quan cho hiện tượng bẫy khí. Đám mờ xẹp phổi thùy trên phải thường có bờ co kéo rãnh liên thùy, giúp phân biệt với đông đặc phổi do vi khuẩn.",
-      "extra": "📖 Nguồn: Radiographic Patterns in Pediatric Bronchiolitis (PED-62, Mục 1.2 & Hình 1)",
+      "front": "Bản chất của hiện tượng <span style=\"color:#ff6b6b\"><b>Bão Cytokine</b></span> và <span style=\"color:#ffd43b\"><b>Bão CRP / Ferritin</b></span> ở <span style=\"color:#ffd43b\"><b>Tầng 3</b></span> của <span style=\"color:#74c0fc\"><b>Adenovirus</b></span> khiến bác sĩ dễ nhầm lẫn với bệnh cảnh nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế bão Cytokine:</b> Sự phá hủy ồ ạt tế bào biểu mô kích hoạt đại thực bào và tế bào tua giải phóng ồ ạt các cytokine tiền viêm: <span style=\"color:#ff6b6b\"><b>IL-1, IL-6 và TNF-alpha</b></span>.<br>2) <b>Hậu quả xét nghiệm:</b> Dẫn tới hội chứng phản ứng viêm toàn thân dữ dội: Sốt cao liên tục <span style=\"color:#ffd43b\"><b>39°C – 40°C trơ với thuốc hạ sốt kéo dài 10 – 14 ngày</b></span>; các chỉ số viêm pha cấp tăng vọt: <span style=\"color:#ff6b6b\"><b>CRP &gt; 100 mg/L</b></span> và <span style=\"color:#ff6b6b\"><b>Ferritin &gt; 1.000 ng/mL</b></span>.<br>3) <b>Bệnh cảnh dễ nhầm lẫn:</b> Bác sĩ thường nhầm lẫn với <span style=\"color:#ff6b6b\"><b>Nhiễm khuẩn huyết nặng (Severe Sepsis) hoặc Sốc nhiễm khuẩn</b></span> do vi khuẩn Gram âm, dẫn đến việc đổi sang các kháng sinh phổ rộng thế hệ mới nhất (Carbapenem, Vancomycin) một cách vô ích.<br><br><b>💡 Giải thích của AI:</b><br>Đây là cái bẫy xét nghiệm lớn nhất trong Nhi khoa: Một bệnh nhân nhiễm virus hoàn toàn có thể có CRP > 100-150 mg/L và Procalcitonin tăng nhẹ nếu tác nhân là Adenovirus serotype độc lực cao. Để tránh bẫy, cần kết hợp dịch tễ, PCR đờm và theo dõi sát động học Procalcitonin (PCT thường không tăng vọt khủng khiếp như trong sốc nhiễm khuẩn thực sự).",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.284 & PIDS Guidelines (PED-62, Mục 2.2 & Bẫy 2)",
       "tags": [
         "PED-62",
-        "B2-RSV-Xquang",
-        "EBM-Master"
+        "B2-Adenovirus",
+        "Bao-CRP",
+        "Cam-bay"
       ]
     },
     {
       "id": "PED62-B2-04",
       "type": "basic",
       "section": "B2",
-      "category": "Triết lý điều trị",
+      "category": "Adenovirus - Di chứng mạn tính",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Vì sao Viện Hàn lâm Nhi khoa Hoa Kỳ (AAP 2014/2022) đưa ra khuyến cáo mạnh KHÔNG sử dụng kháng sinh, thuốc giãn phế quản (Salbutamol) và Corticosteroid toàn thân thường quy trong viêm tiểu phế quản do RSV?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Dựa trên 3 bằng chứng sinh học:<br>1) <b>Kháng sinh:</b> Vô hiệu 100% vì căn nguyên là virus; lạm dụng kháng sinh gây loạn khuẩn ruột và tăng kháng thuốc.<br>2) <b>Salbutamol:</b> Tắc nghẽn là do nút nhầy và phù nề mô đệm, không phải do co thắt cơ trơn; cơ trơn phế quản ở trẻ nhũ nhi &lt; 6 tháng chưa phát triển thụ thể Beta-2 hoàn thiện.<br>3) <b>Corticosteroid toàn thân:</b> Không làm giảm tỷ lệ nhập viện hay rút ngắn thời gian thở oxy; ngược lại làm chậm đào thải virus qua mũi họng.<br><br><b>💡 Giải thích của AI:</b><br>Triết lý điều trị quốc tế là 'Less is More': Ba trụ cột sống còn của RSV là làm thông thoáng mũi họng bằng hút dịch nhầy nước muối sinh lý, cung cấp oxy giữ SpO2 ≥ 90% – 92%, và nuôi dưỡng chia nhỏ cữ bú hoặc sonde dạ dày tránh hít sặc.",
-      "extra": "📖 Nguồn: AAP Bronchiolitis Guideline (PMID: 25349312, [CLM-62-02, CLM-62-03], PED-62, Mục 1.2)",
+      "front": "Cơ chế hình thành <span style=\"color:#ffd43b\"><b>2 di chứng xơ hóa đường thở mạn tính nguy hiểm</b></span> ở <span style=\"color:#ffd43b\"><b>Tầng 5</b></span> sau khi trẻ bị nhiễm <span style=\"color:#74c0fc\"><b>Adenovirus thể hoại tử nặng</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Viêm tiểu phế quản tắc nghẽn (Bronchiolitis Obliterans - BO):</b></span> Sau khi biểu mô và sụn bị hoại tử, mô liên kết xơ phát triển quá mức lấp đầy lòng tiểu phế quản, tạo nên các dải sẹo xơ bít kín vĩnh viễn lòng ống, khiến trẻ bị suy hô hấp mạn tính, khò khè kéo dài trơ với mọi thuốc giãn phế quản.<br>2) <span style=\"color:#ff6b6b\"><b>Hội chứng Swyer-James-MacLeod:</b></span> Tổn thương hoại tử mạch máu phổi kết hợp với bít tắc tiểu phế quản làm giảm tưới máu nghiêm trọng (Hypoperfusion) và ứ khí cục bộ mạn tính ở một thùy hoặc toàn bộ một bên phổi.<br><br><b>💡 Giải thích của AI:</b><br>Adenovirus là căn nguyên hàng đầu gây ra BO sau nhiễm trùng ở trẻ em (chiếm tới 70-80% các ca BO hậu nhiễm trùng). Trẻ sau cơn bão Adenovirus cấp nếu tiếp tục khò khè, ho dai dẳng trên 6-8 tuần bắt buộc phải được chuyển chụp HRCT phổi lát cắt mỏng để xác định BO sớm.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.284 & BTS Pediatric Guidelines (PED-62, Mục 2.2)",
       "tags": [
         "PED-62",
-        "B2-RSV-Dieu-tri",
-        "EBM-Master"
+        "B2-Adenovirus",
+        "Di-chung-BO"
+      ]
+    },
+    {
+      "id": "PED62-B2-05",
+      "type": "basic",
+      "section": "B2",
+      "category": "Adenovirus - Hình ảnh học",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Phân tích các <span style=\"color:#ffd43b\"><b>dấu hiệu chẩn đoán đặc trưng</b></span> của <span style=\"color:#ff6b6b\"><b>Hội chứng Swyer-James-MacLeod</b></span> trên phim cắt lớp vi tính độ phân giải cao (HRCT) sau nhiễm <span style=\"color:#74c0fc\"><b>Adenovirus</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><img src=\"PED62_fig2_adenovirus_swyer_james_ct.jpg\" style=\"max-width:100%;border-radius:8px;margin:8px 0;\"><br>1) <span style=\"color:#ffd43b\"><b>Phổi quá sáng một bên (Hyperlucent lung):</b></span> Một bên thùy phổi hoặc toàn bộ một bên phổi sáng hơn rõ rệt so với bên đối diện trên cửa sổ nhu mô phổi (Lung window).<br>2) <span style=\"color:#74c0fc\"><b>Giảm tưới máu mạch máu phổi (Hypoperfusion):</b></span> Các nhánh mạch máu phổi ở bên tổn thương có khẩu kính nhỏ teo lại và thưa thớt hơn hẳn bên lành.<br>3) <span style=\"color:#ff6b6b\"><b>Bẫy khí thì thở ra (Air trapping):</b></span> Khi chụp ở thì thở ra, vùng phổi bệnh lý không giảm thể tích mà vẫn giữ nguyên độ sáng và căng phồng do bít tắc cơ học lòng tiểu phế quản.<br>4) <span style=\"color:#74c0fc\"><b>Giãn phế quản hình túi hoặc hình trụ:</b></span> Thường đi kèm ở các phân thùy bị xơ hóa co kéo.<br><br><b>💡 Giải thích của AI:</b><br>Sự phối hợp giữa 'phổi quá sáng + giảm kích thước mạch máu phổi + bẫy khí thì thở ra' trên HRCT là tiêu chuẩn vàng khẳng định hội chứng Swyer-James-MacLeod, giúp phân biệt với tràn khí màng phổi hoặc dị vật đường thở bỏ quên.",
+      "extra": "📖 Nguồn: BTS Guidelines on Pediatric Bronchiolitis Obliterans & Radiopaedia (PED-62, Mục 2.2, Hình 2)",
+      "tags": [
+        "PED-62",
+        "B2-Adenovirus",
+        "HRCT",
+        "Swyer-James"
+      ]
+    },
+    {
+      "id": "PED62-B2-06",
+      "type": "basic",
+      "section": "B2",
+      "category": "Adenovirus - Lâm sàng",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Biểu hiện <span style=\"color:#ff6b6b\"><b>lâm sàng toàn diện</b></span> của bệnh nhi nhiễm <span style=\"color:#74c0fc\"><b>Adenovirus thể nặng</b></span> ở <span style=\"color:#ffd43b\"><b>Tầng 6</b></span> gồm những hội chứng gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Sốt đặc trưng:</b> <span style=\"color:#ff6b6b\"><b>Sốt cao rét run liên tục 39°C – 40°C</b></span>, đáp ứng rất kém với Paracetamol/Ibuprofen, kéo dài dai dẳng từ <span style=\"color:#ffd43b\"><b>10 đến 14 ngày</b></span>.<br>2) <b>Hội chứng suy hô hấp cấp tiến triển:</b> Thở nhanh, rút lõm lồng ngực sâu, tím tái; nghe phổi ran ẩm, ran ngáy và ran nổ lan tỏa cả 2 phế trường.<br>3) <b>Biểu hiện ngoài phổi đặc hiệu:</b><br>• <span style=\"color:#74c0fc\"><b>Sốt viêm kết mạc họng (Pharyngoconjunctival fever):</b></span> Đỏ mắt, chảy nước mắt, viêm họng đỏ xuất tiết.<br>• <span style=\"color:#ff6b6b\"><b>Hội chứng gan lách to, tiêu chảy cấp</b></span> và tổn thương tim mạch (viêm cơ tim thoáng qua).<br><br><b>💡 Giải thích của AI:</b><br>Sự kết hợp giữa 'Sốt cao trơ hạ sốt kéo dài trên 1 tuần + Suy hô hấp tiến triển nhanh + Đỏ mắt kết mạc' ở trẻ nhỏ là tam chứng lâm sàng kinh điển định hướng ngay đến Adenovirus trước khi có kết quả PCR khẳng định.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.284 (PED-62, Mục 2.2)",
+      "tags": [
+        "PED-62",
+        "B2-Adenovirus",
+        "Lam-sang"
+      ]
+    },
+    {
+      "id": "PED62-B2-07",
+      "type": "basic",
+      "section": "B2",
+      "category": "Adenovirus - Điều trị",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Nguyên lý <span style=\"color:#51cf66\"><b>xử trí hỗ trợ</b></span> và chỉ định thuốc kháng virus <span style=\"color:#51cf66\"><b>Cidofovir</b></span> cùng <span style=\"color:#51cf66\"><b>IVIG</b></span> trong trường hợp <span style=\"color:#74c0fc\"><b>Adenovirus nguy kịch</b></span> ở <span style=\"color:#ffd43b\"><b>Tầng 7</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hỗ trợ hô hấp là sống còn:</b> Hỗ trợ thông khí sớm bằng HFNC, CPAP hoặc thở máy bảo vệ phổi (thể tích lưu thông thấp Vt 4–6 ml/kg để tránh chấn thương áp lực trên nền phổi hoại tử).<br>2) <span style=\"color:#51cf66\"><b>Thuốc kháng virus Cidofovir:</b></span> Là thuốc ức chế chọn lọc men DNA polymerase của virus; chỉ định trong các ca <b>suy hô hấp tối cấp, tổn thương đa cơ quan hoặc trên bệnh nhi suy giảm miễn dịch</b>. <i>Lưu ý:</i> Bắt buộc dùng kèm Probenecid và truyền bù dịch tích cực để dự phòng độc tính hoại tử ống thận cấp.<br>3) <span style=\"color:#51cf66\"><b>IVIG (Immunoglobulin truyền tĩnh mạch):</b></span> Cân nhắc dùng liều điều hòa miễn dịch (1 – 2 g/kg) để dập tắt cơn bão cytokine và cung cấp kháng thể trung hòa trong thể bệnh nhiễm độc nặng.<br><br><b>💡 Giải thích của AI:</b><br>Vì chưa có thuốc kháng virus đặc hiệu được FDA phê duyệt hoàn toàn cho Adenovirus ở người bình thường, việc dùng Cidofovir là chỉ định off-label cứu mạng (salvage therapy). Độc tính trên thận của Cidofovir rất lớn nên đòi hỏi theo dõi sát creatinin máu và protein niệu mỗi ngày.",
+      "extra": "📖 Nguồn: PIDS Guidelines & Nelson Textbook of Pediatrics (PED-62, Mục 2.2)",
+      "tags": [
+        "PED-62",
+        "B2-Adenovirus",
+        "Dieu-tri",
+        "Cidofovir"
       ]
     },
     {
       "id": "PED62-B3-01",
       "type": "basic",
       "section": "B3",
-      "category": "Cấu trúc & Độc lực",
+      "category": "Mycoplasma - Vi sinh & Bệnh học",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Cấu trúc vi sinh của Adenovirus có điểm gì đặc biệt giúp nó tồn tại rất bền vững ở môi trường ngoại cảnh? Serotype nào khét tiếng gây viêm phổi nặng ở trẻ nhỏ?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cấu trúc:</b> Adenovirus là virus DNA chuỗi kép <b>KHÔNG CÓ VỎ BỌC LIPID (Non-enveloped)</b>, capsid khối đa diện 20 mặt rất bền vững với cồn, ether, dung môi hòa tan lipid và biến đổi pH rộng từ 3 đến 9.<br>2) <b>Serotype độc lực cao:</b> <b>Adenovirus serotype 7</b> (thuộc loài B) khét tiếng nhất với khả năng gây viêm phổi hoại tử ác tính và suy hô hấp cấp tiến triển ở trẻ em.<br><br><b>💡 Giải thích của AI:</b><br>Vì không có màng lipid kép, các dung dịch sát khuẩn tay chứa cồn thông thường không diệt được Adenovirus một cách triệt để. Virus tồn tại hàng tuần trên đồ chơi, dụng cụ y tế và là thủ phạm gây lây nhiễm chéo hàng loạt trong các khoa hô hấp nhi.",
-      "extra": "📖 Nguồn: Lynch JP 3rd et al. Adenovirus Epidemiology - Semin Respir Crit Care Med (PMID: 34918322, PED-62, Mục 2.1)",
+      "front": "Đặc tính sinh học độc nhất vô nhị về <span style=\"color:#74c0fc\"><b>cấu trúc tế bào</b></span> của <span style=\"color:#74c0fc\"><b>Mycoplasma pneumoniae</b></span> quyết định tính <span style=\"color:#ff6b6b\"><b>kháng tự nhiên 100%</b></span> với nhóm kháng sinh nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <b>Đặc tính độc nhất:</b> <i>Mycoplasma pneumoniae</i> là vi khuẩn sống tự do nhỏ nhất (0.2 – 0.3 µm) và <span style=\"color:#ff6b6b\"><b>HOÀN TOÀN KHÔNG CÓ VÁCH TẾ BÀO PEPTIDOGLYCAN</b></span>. Thay vào đó, màng tế bào của nó có 3 lớp lipid chứa <span style=\"color:#ffd43b\"><b>Sterol</b></span> giúp duy trì tính ổn định cơ học.<br>• <span style=\"color:#ff6b6b\"><b>Kháng tự nhiên 100%:</b></span> Kháng hoàn toàn với toàn bộ nhóm kháng sinh ức chế tổng hợp vách tế bào: <span style=\"color:#ff6b6b\"><b>Penicillin, Ampicillin/Amoxicillin, tất cả các thế hệ Cephalosporin và Carbapenem</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mọi kháng sinh nhóm Beta-lactam đều tác động bằng cách ức chế các enzym PBP tạo cầu nối peptidoglycan ở vách vi khuẩn. Vì Mycoplasma hoàn toàn không có vách peptidoglycan, việc dùng kháng sinh Beta-lactam (kể cả Amox-Clav liều cao hay Cefuroxime/Ceftriaxone) là sai lầm dược lý 100%, hoàn toàn vô tác dụng và làm kéo dài thời gian bệnh.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.250 & BTS Guidelines (PED-62, Mục 3.1 & Bẫy 3)",
       "tags": [
         "PED-62",
-        "B3-Adeno-Co-che",
-        "EBM-Master"
+        "B3-Mycoplasma",
+        "Vi-sinh",
+        "Duoc-ly"
       ]
     },
     {
       "id": "PED62-B3-02",
       "type": "basic",
       "section": "B3",
-      "category": "Bệnh học hoại tử tế bào",
+      "category": "Mycoplasma - Vi sinh & Bệnh học",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Điểm khác biệt cốt lõi trong cơ chế bệnh học mô bệnh giữa Adenovirus và RSV là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Điểm khác biệt cốt lõi là <b>tính chất hoại tử toàn tầng cấu trúc</b>:<br>- <b>RSV:</b> Chỉ gây hoại tử bong tróc lớp biểu mô bề mặt có lông chuyển và phù nề mô đệm; cấu trúc màng đáy và lớp cơ trơn thành phế quản vẫn được bảo tồn, tổn thương có khả năng hồi phục hoàn toàn.<br>- <b>Adenovirus:</b> Gây <b>viêm phế quản hoại tử toàn tầng (Necrotizing bronchitis)</b>; phá hủy hoàn toàn lớp biểu mô, màng đáy, hệ thống mao mạch và cả <b>lớp cơ trơn thành tiểu phế quản</b>; dẫn đến sẹo xơ bít kín vĩnh viễn không hồi phục.<br><br><b>💡 Giải thích của AI:</b><br>Sự phá hủy lớp cơ trơn và màng đáy chính là nguyên nhân giải thích vì sao Adenovirus để lại di chứng đường thở mạn tính nặng nề, trong khi trẻ khỏi RSV thường hồi phục hoàn toàn cấu trúc giải phẫu phổi.",
-      "extra": "📖 Nguồn: Pathology of Severe Viral Lower Respiratory Infections (PMID: 34918322, PED-62, Mục 2.2)",
+      "front": "Cơ chế đính bám của <span style=\"color:#74c0fc\"><b>Protein P1/P30</b></span> và tác động hủy hoại tế bào của <span style=\"color:#ff6b6b\"><b>Độc tố CARDS</b></span> ở <span style=\"color:#ffd43b\"><b>Tầng 1 & Tầng 2</b></span> của <span style=\"color:#74c0fc\"><b>Mycoplasma pneumoniae</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><img src=\"PED62_fig3_mycoplasma_pathology_cilia.jpg\" style=\"max-width:100%;border-radius:8px;margin:8px 0;\"><br>1) <span style=\"color:#ffd43b\"><b>Tầng 1 (Đính bám chuyên biệt):</b></span> Mycoplasma dùng cơ quan bám đầu nhọn chứa phức hợp <span style=\"color:#74c0fc\"><b>P1 Adhesin và P30</b></span> để neo chặt vào thụ thể sialoglycoconjugate ở gốc các lông chuyển biểu mô đường thở.<br>2) <span style=\"color:#ffd43b\"><b>Tầng 2 (Độc tố CARDS & Liệt lông chuyển):</b></span> Vi khuẩn tiết ra độc tố <span style=\"color:#ff6b6b\"><b>CARDS toxin (Community-Acquired Respiratory Distress Syndrome toxin)</b></span> có hoạt tính ADP-ribosylating: gây thoái hóa không bào tế bào (Vacuolation), <span style=\"color:#ff6b6b\"><b>tê liệt và rụng hoàn toàn hệ thống lông chuyển (Ciliostasis)</b></span>, đồng thời giải phóng hydrogen peroxide (H₂O₂) và các gốc oxy phản ứng (ROS) phá hủy mô.<br><br><b>💡 Giải thích của AI:</b><br>Khi hệ thống lông chuyển bị tê liệt và tế bào bị kích ứng liên tục bởi độc tố CARDS, đường thở mất khả năng đẩy chất nhầy ra ngoài, kích hoạt các thụ thể ho dưới biểu mô gây ra những cơn ho khan dữ dội, liên tục, rũ rượi đặc trưng như ho gà.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.250 & PNAS Research (PED-62, Mục 3.2, Hình 3)",
       "tags": [
         "PED-62",
-        "B3-Adeno-Co-che",
-        "EBM-Master"
+        "B3-Mycoplasma",
+        "Co-che-7-tang",
+        "Doc-to-CARDS"
       ]
     },
     {
       "id": "PED62-B3-03",
       "type": "basic",
       "section": "B3",
-      "category": "Bẫy xét nghiệm viêm",
+      "category": "Mycoplasma - Vi sinh & Bệnh học",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Bẫy xét nghiệm viêm (Bão CRP) kinh điển của Adenovirus là gì? Bác sĩ thường mắc sai lầm gì trên lâm sàng?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bẫy xét nghiệm:</b> Dù là virus, Adenovirus kích hoạt phản ứng miễn dịch qua trung gian tế bào và cơn bão cytokine cực mạnh, kích thích gan tổng hợp lượng lớn protein pha cấp: <b>Bạch cầu tăng &gt; 20.000/mm³ (ưu thế Neutrophil), CRP vọt &gt; 80 – 150 mg/L, Procalcitonin tăng cao</b>.<br>2) <b>Sai lầm lâm sàng:</b> Bác sĩ nhìn bảng xét nghiệm kết luận nhầm là nhiễm khuẩn huyết (Sepsis) nặng và leo thang kháng sinh bao vây lên Meropenem + Vancomycin vô ích.<br><br><b>💡 Giải thích của AI:</b><br>Để không bị bẫy, cần tìm các dấu hiệu chỉ điểm virus: Sốt cao liên tục 7–14 ngày, mắt đỏ viêm kết mạc, viêm họng hạch (PCF) và chỉ định xét nghiệm PCR Adenovirus dịch tỵ hầu để xác chẩn.",
-      "extra": "📖 Nguồn: Biomarkers in Pediatric Adenovirus Pneumonia (PED-62, Mục 2.2 & Bẫy 2)",
+      "front": "Đặc điểm tổn thương mô bệnh học ở <span style=\"color:#ffd43b\"><b>Tầng 3</b></span> của <span style=\"color:#74c0fc\"><b>Mycoplasma pneumoniae</b></span> tại sao lại được gọi là <span style=\"color:#74c0fc\"><b>Viêm phổi mô kẽ</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vị trí thâm nhiễm:</b> Viêm nhiễm chủ yếu xảy ra ở <span style=\"color:#74c0fc\"><b>khoảng kẽ quanh phế quản và quanh mạch máu (Peribronchovascular interstitial space)</b></span> và các vách phế nang, chứ không tràn ngập mủ trong lòng phế nang như vi khuẩn điển hình.<br>2) <b>Thành phần tế bào viêm:</b> Thâm nhiễm ưu thế tuyệt đối bởi các tế bào đơn nhân bao gồm <span style=\"color:#74c0fc\"><b>Lympho T (CD4+, CD8+) và tương bào (Plasma cells)</b></span>.<br>3) <b>Hậu quả:</b> Làm dày thành phế quản và các vách phế nang, cản trở sự khuếch tán khí mà không làm đông đặc nhu mô.<br><br><b>💡 Giải thích của AI:</b><br>Chính tính chất tổn thương mô kẽ (interstitial) này giải thích vì sao khi khám lâm sàng gõ phổi không đục, không có tiếng thổi ống và ít ran ẩm ướt như phế cầu, mà biểu hiện bằng tiếng thở thô ráp hoặc ran rít nhẹ do lòng phế quản bị phù nề từ ngoài thành ép vào.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.250 (PED-62, Mục 3.2)",
       "tags": [
         "PED-62",
-        "B3-Adeno-Lam-sang",
-        "EBM-Master"
+        "B3-Mycoplasma",
+        "Mo-ke",
+        "Co-che-7-tang"
       ]
     },
     {
       "id": "PED62-B3-04",
       "type": "basic",
       "section": "B3",
-      "category": "Di chứng mạn tính",
+      "category": "Mycoplasma - Lâm sàng & Hình ảnh",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Hai di chứng hô hấp dài hạn nguy hiểm nhất sau nhiễm Adenovirus thể nặng ở trẻ em là gì? Hình ảnh trên phim CT ngực?<br><img src='PED62_fig2_adenovirus_swyer_james_ct.jpg'>",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Viêm tiểu phế quản tắc nghẽn sau nhiễm trùng (Post-infectious Bronchiolitis Obliterans - PIBO):</b> Lòng tiểu phế quản bị sẹo mô hạt và mô xơ bít kín vĩnh viễn; trẻ khò khè dai dẳng nhiều năm, giảm dung tích phổi không hồi phục.<br>2) <b>Hội chứng Swyer-James-MacLeod:</b> Viêm tắc mao mạch phổi mạn tính làm teo nhỏ và giảm tưới máu một bên phổi, kết hợp bẫy khí phế nang.<br>3) <b>Hình ảnh CT:</b> Vùng nhu mô phổi tổn thương tăng sáng bất thường (Hyperlucent lung) xen kẽ vùng phổi bình thường tạo hình ảnh dạng khảm (Mosaic attenuation).<br><br><b>💡 Giải thích của AI:</b><br>Trẻ sau khi sốt cao do Adenovirus nếu vẫn tiếp tục khò khè kéo dài trên 6–8 tuần và không đáp ứng với thuốc giãn phế quản cần phải được chụp CT ngực độ phân giải cao (HRCT) để phát hiện sớm di chứng PIBO.",
-      "extra": "📖 Nguồn: Post-infectious Bronchiolitis Obliterans in Children (PMID: 34918322, PED-62, Mục 2.2 & Hình 2)",
+      "front": "Bản chất của hiện tượng <span style=\"color:#ffd43b\"><b>'Phân ly lâm sàng - X-quang'</b></span> ở <span style=\"color:#ffd43b\"><b>Tầng 4</b></span> của bệnh nhân viêm phổi do <span style=\"color:#74c0fc\"><b>Mycoplasma pneumoniae</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Hiện tượng phân ly lâm sàng - X-quang là sự đối lập sâu sắc giữa 2 miền triệu chứng:<br>1) <span style=\"color:#51cf66\"><b>Lâm sàng tương đối nhẹ và nghèo nàn:</b></span> Trẻ lớn vẫn tỉnh táo, đi lại được, không khó thở rõ rệt; nghe phổi bằng ống nghe chỉ thấy tiếng thở thô hoặc vài ran rải rác rất mờ nhạt.<br>2) <span style=\"color:#ff6b6b\"><b>Phim X-quang phổi tổn thương rực lửa:</b></span> Hình ảnh thâm nhiễm mô kẽ lan tỏa hai bên phế trường dạng lưới nốt (Reticulonodular), dày thành phế quản quanh rốn phổi hoặc các đám mờ kính mờ (Ground-glass opacities) rộng lớn.<br><br><b>💡 Giải thích của AI:</b><br>Vì bệnh nhi vẫn sinh hoạt tương đối bình thường ('Walking pneumonia' - Viêm phổi đi lại), nhiều bác sĩ chủ quan chẩn đoán là viêm đường hô hấp trên hoặc viêm phế quản co thắt, bỏ qua chụp X-quang và bỏ sót giai đoạn vàng điều trị Macrolide.",
+      "extra": "📖 Nguồn: British Thoracic Society (BTS) Pediatric Guidelines (PED-62, Mục 3.2 & Bẫy 4)",
       "tags": [
         "PED-62",
-        "B3-Adeno-Di-chung",
-        "EBM-Master"
+        "B3-Mycoplasma",
+        "Phan-ly-lam-sang",
+        "X-quang"
+      ]
+    },
+    {
+      "id": "PED62-B3-05",
+      "type": "basic",
+      "section": "B3",
+      "category": "Mycoplasma - Biểu hiện ngoài phổi",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Cơ chế sinh ra <span style=\"color:#ffd43b\"><b>Kháng thể ngưng kết lạnh (Cold agglutinins - IgM)</b></span> và các <span style=\"color:#ff6b6b\"><b>biểu hiện tự miễn ngoài phổi</b></span> ở <span style=\"color:#ffd43b\"><b>Tầng 5</b></span> của <span style=\"color:#74c0fc\"><b>Mycoplasma pneumoniae</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế Kháng thể ngưng kết lạnh:</b> Kháng nguyên bề mặt của Mycoplasma có sự tương đồng phân tử (Molecular mimicry) với kháng nguyên I trên màng hồng cầu người, kích thích cơ thể sinh kháng thể tự miễn <span style=\"color:#ffd43b\"><b>IgM ngưng kết lạnh (Cold agglutinins)</b></span>. Ở nhiệt độ ngoại vi thấp (&lt; 37°C), IgM làm ngưng kết hồng cầu gây tắc mạch đầu chi và tán huyết.<br>2) <span style=\"color:#ff6b6b\"><b>Các biểu hiện ngoài phổi điển hình:</b></span><br>• <span style=\"color:#ff6b6b\"><b>Tổn thương da & niêm mạc (MIRM):</b></span> Hội chứng phát ban và viêm niêm mạc do Mycoplasma (<i>Mycoplasma-induced rash and mucositis</i>) với loét miệng, viêm kết mạc và ban hồng ban đa dạng.<br>• <span style=\"color:#74c0fc\"><b>Huyết học:</b></span> Thiếu máu tán huyết tự miễn ngoại vi, hiện tượng Raynaud.<br>• <span style=\"color:#74c0fc\"><b>Thần kinh & khớp:</b></span> Viêm não, viêm màng não vô khuẩn, hội chứng Guillain-Barré, đau khớp và viêm khớp phản ứng.<br><br><b>💡 Giải thích của AI:</b><br>Sự xuất hiện của loét niêm mạc miệng hoặc thiếu máu tán huyết ở một trẻ ho kéo dài là chỉ dấu quan trọng hướng tới Mycoplasma. Test ngưng kết lạnh tại giường (lấy máu vào ống nghiệm cho vào cốc nước đá thấy máu vón cục, làm ấm lên lại tan ra) là nghiệm pháp sàng lọc kinh điển.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.250 (PED-62, Mục 3.2)",
+      "tags": [
+        "PED-62",
+        "B3-Mycoplasma",
+        "Ngoai-phoi",
+        "MIRM"
+      ]
+    },
+    {
+      "id": "PED62-B3-06",
+      "type": "basic",
+      "section": "B3",
+      "category": "Mycoplasma - Điều trị & Kháng thuốc",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Phác đồ điều trị đầu tay bằng <span style=\"color:#51cf66\"><b>Macrolide</b></span> và hướng xử trí khi gặp chủng <span style=\"color:#ff6b6b\"><b>Mycoplasma kháng Macrolide (đột biến gen 23S rRNA)</b></span> ở <span style=\"color:#ffd43b\"><b>Tầng 7</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Lựa chọn đầu tay:</b></span> Nhóm Macrolide ức chế tổng hợp protein tại tiểu phần ribosome 50S:<br>• <span style=\"color:#51cf66\"><b>Azithromycin:</b></span> <span style=\"color:#ffd43b\"><b>10 mg/kg ngày đầu tiên</b></span> (tối đa 500 mg), sau đó <span style=\"color:#ffd43b\"><b>5 mg/kg/ngày từ ngày 2 đến ngày 5</b></span> (tối đa 250 mg/ngày).<br>• Hoặc <b>Clarithromycin:</b> 15 mg/kg/ngày chia 2 lần trong 7–10 ngày.<br>2) <span style=\"color:#ff6b6b\"><b>Khi kháng Macrolide (sốt kéo dài sau 48–72h điều trị + PCR phát hiện đột biến A2063G trên gen 23S rRNA):</b></span><br>• <span style=\"color:#51cf66\"><b>Doxycycline:</b></span> <span style=\"color:#ffd43b\"><b>4 mg/kg/ngày chia 2 lần</b></span> (tối đa 200 mg/ngày) cho trẻ ≥ 8 tuổi (hoặc cân nhắc đợt ngắn ngày &lt; 8 tuổi theo khuyến cáo mới của CDC/AAP).<br>• <span style=\"color:#51cf66\"><b>Fluoroquinolone hô hấp:</b></span> Levofloxacin (16–20 mg/kg/ngày) hoặc Moxifloxacin trong trường hợp thất bại hoặc nặng đe dọa tính mạng.<br><br><b>💡 Giải thích của AI:</b><br>Tỷ lệ Mycoplasma kháng Macrolide tại Châu Á và Việt Nam hiện nay đã lên tới 70-90%. Nếu bệnh nhi dùng Azithromycin đúng liều mà sau 48-72 giờ vẫn sốt cao liên tục, khó thở tăng lên và X-quang tiến triển xấu, bắt buộc phải chuyển sang Doxycycline thay vì tăng liều Macrolide.",
+      "extra": "📖 Nguồn: PIDS/IDSA CAP Guidelines & WHO/CDC Guidelines (PED-62, Mục 3.2)",
+      "tags": [
+        "PED-62",
+        "B3-Mycoplasma",
+        "Dieu-tri",
+        "Khang-Macrolide"
       ]
     },
     {
       "id": "PED62-B4-01",
       "type": "basic",
       "section": "B4",
-      "category": "Đặc tính không vách",
+      "category": "hMPV - Vi sinh & Bệnh học",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Đặc điểm sinh học độc nhất vô nhị của Mycoplasma pneumoniae là gì? Hai hệ quả lâm sàng mang tính nguyên tắc sống còn?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đặc điểm:</b> <b>HOÀN TOÀN KHÔNG CÓ VÁCH TẾ BÀO PEPTIDOGLYCAN</b>; tế bào chỉ bọc bởi màng lipid 3 lớp chứa sterol.<br>2) <b>Hệ quả 1:</b> <b>Kháng tự nhiên 100% với toàn bộ kháng sinh nhóm Beta-lactam</b> (Penicillin, Amox, Augmentin, Cefuroxime, Cefotaxime, Meropenem) vì thuốc không có điểm bám enzyme transpeptidase.<br>3) <b>Hệ quả 2:</b> <b>Không bắt màu khi nhuộm Gram</b> bệnh phẩm đờm hay dịch phế quản.<br><br><b>💡 Giải thích của AI:</b><br>Kê đơn Amoxicillin hay Cephalosporin cho một ca viêm phổi do Mycoplasma là sai lầm nghiêm trọng về mặt dược lý vi sinh. Phải bắt buộc sử dụng các nhóm kháng sinh ức chế tổng hợp protein tại ribosome.",
-      "extra": "📖 Nguồn: PIDS/IDSA Guidelines & Front Pediatr 2026 (PMID: 42232629, [CLM-62-05], PED-62, Mục 3.1)",
+      "front": "Vị trí phân loại học và <span style=\"color:#74c0fc\"><b>cơ chế gây bệnh học tế bào tương đồng với RSV</b></span> của <span style=\"color:#74c0fc\"><b>hMPV (human Metapneumovirus)</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <b>Phân loại:</b> Được phân lập lần đầu năm 2001 tại Hà Lan; thuộc họ <i>Pneumoviridae</i> (cùng họ với RSV), là virus RNA sợi đơn âm có vỏ bọc.<br>• <b>Cơ chế gây bệnh:</b> Cũng sử dụng <span style=\"color:#74c0fc\"><b>Protein dung hợp F (Fusion protein)</b></span> để xâm nhập và hòa màng tế bào biểu mô có lông chuyển của đường thở nhỏ.<br>• <b>Bệnh học tế bào:</b> Gây hoại tử biểu mô, tăng tiết chất nhầy, bong tróc tế bào chết tạo nút nhầy bít tắc lòng tiểu phế quản tương tự như RSV, gây nên hội chứng viêm tiểu phế quản tắc nghẽn và bẫy khí.<br><br><b>💡 Giải thích của AI:</b><br>Vì cơ chế sinh bệnh học và hình ảnh tổn thương vi thể của hMPV gần như sao chép y nguyên RSV, trên thực tế lâm sàng không thể phân biệt được hai loại virus này nếu chỉ dựa vào khám bệnh hay chụp X-quang, mà bắt buộc phải dùng kỹ thuật sinh học phân tử RT-PCR đa mồi.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.287 (PED-62, Mục 4.1 & 4.2)",
       "tags": [
         "PED-62",
-        "B4-Mycoplasma-Co-che",
-        "EBM-Master"
+        "B4-hMPV",
+        "Vi-sinh",
+        "Co-che"
       ]
     },
     {
       "id": "PED62-B4-02",
       "type": "basic",
       "section": "B4",
-      "category": "Cơ chế bám & Độc tố CARDS",
+      "category": "hMPV - Điểm khác biệt với RSV",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Mycoplasma pneumoniae bám vào biểu mô hô hấp nhờ cấu trúc nào và tiết ra độc tố gì gây tổn thương lông chuyển?<br><img src='PED62_fig3_mycoplasma_pathology_cilia.jpg'>",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cấu trúc bám:</b> Phức hợp <b>Protein bám P1 (Adhesin P1)</b> tại cơ quan bám chuyên biệt, gắn chặt vào thụ thể acid sialic trên màng tế bào biểu mô lông chuyển.<br>2) <b>Độc tố:</b> Tiết độc tố <b>CARDS Toxin (Community-Acquired Respiratory Distress Syndrome Toxin)</b> có hoạt tính ADP-ribosyltransferase.<br>3) <b>Hậu quả:</b> Gây tê liệt và rụng hàng loạt lông chuyển (Ciliostasis), niêm mạc trơ trụi mất phản xạ thanh thải chất nhầy, kích hoạt thụ thể ho liên tục.<br><br><b>💡 Giải thích của AI:</b><br>Chính sự tê liệt lông chuyển và tổn thương không bào tế bào biểu mô đã giải thích vì sao bệnh nhân Mycoplasma có triệu chứng ho khan dữ dội từng cơn kiệt sức kéo dài nhiều tuần.",
-      "extra": "📖 Nguồn: Pathogenesis of Mycoplasma pneumoniae Infections (PED-62, Mục 3.2 & Hình 3)",
+      "front": "<span style=\"color:#ffd43b\"><b>3 điểm khác biệt lâm sàng & dịch tễ học tinh tế</b></span> giữa <span style=\"color:#74c0fc\"><b>hMPV</b></span> và <span style=\"color:#74c0fc\"><b>RSV</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Lứa tuổi mắc bệnh ưu thế:</b></span> RSV đạt đỉnh cao nhất ở trẻ nhỏ dưới 6 tháng tuổi; trong khi hMPV có xu hướng gặp ở trẻ <span style=\"color:#ffd43b\"><b>lớn hơn một chút (từ 6 tháng đến 2 tuổi)</b></span> và nhóm người già suy giảm miễn dịch.<br>2) <span style=\"color:#ff6b6b\"><b>Mức độ sốt:</b></span> Trẻ nhiễm hMPV thường có tỷ lệ <span style=\"color:#ff6b6b\"><b>sốt cao (&gt; 38.5°C – 39°C) nhiều hơn</b></span> và tần suất gặp viêm tai giữa cấp đi kèm cao hơn so với RSV đơn thuần.<br>3) <span style=\"color:#ffd43b\"><b>Mùa dịch lưu hành:</b></span> Đỉnh dịch của RSV thường xuất hiện vào đầu đến giữa mùa đông; trong khi đỉnh dịch của hMPV thường <span style=\"color:#ffd43b\"><b>đến muộn hơn vào cuối đông và kéo dài sang mùa xuân</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hiểu được sự phân bố dịch tễ này giúp bác sĩ giải thích được các đợt bùng phát 'viêm tiểu phế quản' vào mùa xuân khi mùa dịch RSV đã lắng xuống: thủ phạm chính lúc đó chính là hMPV.",
+      "extra": "📖 Nguồn: PIDS/IDSA Guidelines & Nelson Textbook of Pediatrics (PED-62, Mục 4.3)",
       "tags": [
         "PED-62",
-        "B4-Mycoplasma-Co-che",
-        "EBM-Master"
+        "B4-hMPV",
+        "Dich-te",
+        "So-sanh-RSV"
       ]
     },
     {
       "id": "PED62-B4-03",
       "type": "basic",
       "section": "B4",
-      "category": "Phân ly lâm sàng - X-quang",
+      "category": "hMPV - Hiểm họa đồng nhiễm",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Bản chất bệnh học của hiện tượng 'Lâm sàng phân ly X-quang' (Phổi nghe êm nhưng X-quang rực lửa) trong nhiễm Mycoplasma pneumoniae là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tại phế nang:</b> Mycoplasma KHÔNG thu hút bạch cầu đa nhân lấp đầy phế nang tạo mủ đông đặc; lòng phế nang vẫn chứa khí thông thoáng nên đặt ống nghe <b>rì rào phế nang vẫn nghe rõ, rất nghèo nàn ran ẩm</b>.<br>2) <b>Tại mô kẽ:</b> Tế bào lympho và đại thực bào thâm nhiễm dày đặc quanh mạch máu - phế quản và vách liên phế nang; cản tia X tạo hình ảnh <b>thâm nhiễm mạng lưới nốt kẽ (Reticulonodular pattern)</b> lan tỏa hai phế trường.<br><br><b>💡 Giải thích của AI:</b><br>Đây là bài học cảnh giác kinh điển: Một trẻ lớn ho khan nhiều tuần dù nghe phổi hoàn toàn bình thường vẫn không được chủ quan loại trừ viêm phổi; bắt buộc phải chụp X-quang ngực thẳng để khảo sát mô kẽ.",
-      "extra": "📖 Nguồn: Clinical-Radiological Dissociation in Mycoplasma CAP (PED-62, Mục 3.2 & Bẫy 4)",
+      "front": "Hiểm họa lâm sàng khi xảy ra hiện tượng <span style=\"color:#ff6b6b\"><b>Đồng nhiễm (Co-infection) giữa RSV và hMPV</b></span> ở trẻ nhũ nhi là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Tăng nguy cơ nhập khoa Hồi sức tích cực Nhi (PICU) gấp 10 lần:</b></span> Đồng nhiễm làm gia tăng cấp số nhân phản ứng viêm hoại tử và bít tắc lòng tiểu phế quản.<br>2) <span style=\"color:#ff6b6b\"><b>Gia tăng tỷ lệ suy hô hấp nặng và thở máy xâm nhập:</b></span> Trẻ đồng nhiễm thường suy hô hấp diễn tiến rất nhanh, đòi hỏi hỗ trợ áp lực dương (CPAP/thở máy) cao hơn nhiều so với đơn nhiễm một loại virus.<br>3) <span style=\"color:#ffd43b\"><b>Kéo dài thời gian nằm viện:</b></span> Thời gian thở oxy ẩm ấm và nằm viện kéo dài gấp đôi so với các ca nhiễm RSV đơn thuần.<br><br><b>💡 Giải thích của AI:</b><br>Hiện tượng 'hiệp đồng hủy hoại' này là lý do vì sao một đứa trẻ viêm tiểu phế quản đang theo dõi bỗng nhiên trở nặng đột ngột, tím tái, SpO2 tụt sâu dù trước đó đáp ứng tốt. Bác sĩ cần nghĩ ngay đến đồng nhiễm RSV + hMPV hoặc bội nhiễm vi khuẩn để nâng bậc hỗ trợ hô hấp kịp thời.",
+      "extra": "📖 Nguồn: Semple MG et al. J Infect Dis 2005 (PED-62, Mục 4.4 & Bẫy 5)",
       "tags": [
         "PED-62",
-        "B4-Mycoplasma-Lam-sang",
-        "EBM-Master"
-      ]
-    },
-    {
-      "id": "PED62-B4-04",
-      "type": "basic",
-      "section": "B4",
-      "category": "Biểu hiện ngoài phổi & MIRM",
-      "badge": "EBM Master",
-      "badge_class": "badge-ebm",
-      "front": "Hai biến chứng ngoài phổi do cơ chế tự miễn dịch đặc thù của Mycoplasma pneumoniae là gì? Hội chứng MIRM có đặc điểm gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ngưng kết tố lạnh (Cold Agglutinins):</b> Sinh kháng thể IgM chống kháng nguyên I của hồng cầu khi gặp lạnh; gây thiếu máu tán huyết tự miễn nhẹ, tím đầu chi.<br>2) <b>Hội chứng MIRM (Mycoplasma-induced rash and mucositis) [CLM-62-06]:</b> Hội chứng ban da niêm mạc với đặc trưng: <b>Loét niêm mạc đa vị trí rất rầm rộ</b> (mắt đỏ loét giác mạc, môi đóng vảy tiết máu đen nứt nẻ, loét khoang miệng) nhưng <b>tổn thương da lại rất ít hoặc chỉ có vài nốt ban rải rác</b>.<br><br><b>💡 Giải thích của AI:</b><br>MIRM trước đây hay bị chẩn đoán nhầm là hội chứng Stevens-Johnson (SJS) do dị ứng thuốc. Nhận diện đúng MIRM giúp tránh ngừng oan các thuốc cần thiết và chỉ định đúng Macrolide điều trị Mycoplasma căn nguyên.",
-      "extra": "📖 Nguồn: Canavan TN et al. MIRM Review & J Med Case Rep 2026 (PMID: 42316381, PED-62, Mục 3.2)",
-      "tags": [
-        "PED-62",
-        "B4-Mycoplasma-Ngoai-phoi",
-        "EBM-Master"
-      ]
-    },
-    {
-      "id": "PED62-B4-05",
-      "type": "basic",
-      "section": "B4",
-      "category": "Kháng sinh đích",
-      "badge": "EBM Master",
-      "badge_class": "badge-ebm",
-      "front": "Phác đồ kháng sinh hàng đầu cho Mycoplasma pneumoniae ở trẻ em là gì? Khi nghi ngờ Mycoplasma kháng Macrolide xử trí ra sao?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đầu tay:</b> Nhóm <b>Macrolide</b>: Azithromycin 10 mg/kg/ngày uống 1 lần x 5 ngày (uống lúc đói), hoặc Clarithromycin 15 mg/kg/ngày chia 2 lần x 7–10 ngày.<br>2) <b>Nghi ngờ kháng thuốc (sốt kéo dài &gt; 48–72h sau Azithromycin) [CLM-62-05]:</b><br>- Trẻ ≥ 8 tuổi: Đổi sang <b>Doxycycline</b> 4 mg/kg/ngày chia 2 lần.<br>- Trẻ &lt; 8 tuổi hoặc thể nặng: Cân nhắc chuyển sang Quinolone hô hấp (<b>Levofloxacin</b> 16–20 mg/kg/ngày hoặc Moxifloxacin) dưới sự hội chẩn chuyên khoa truyền nhiễm.<br><br><b>💡 Giải thích của AI:</b><br>Tỷ lệ Mycoplasma kháng Macrolide tại khu vực châu Á đang tăng cao do đột biến gen 23S rRNA. Doxycycline có hiệu quả diệt khuẩn vượt trội và liệu trình ngắn ngày an toàn cho trẻ ≥ 8 tuổi.",
-      "extra": "📖 Nguồn: Front Pediatr 2026 (PMID: 42232629) & PIDS/IDSA CAP Guideline (PED-62, Mục 3.2)",
-      "tags": [
-        "PED-62",
-        "B4-Mycoplasma-Dieu-tri",
-        "EBM-Master"
+        "B4-hMPV",
+        "Dong-nhiem",
+        "Cap-cuu"
       ]
     },
     {
       "id": "PED62-B5-01",
       "type": "basic",
       "section": "B5",
-      "category": "Vi sinh & Phân loại",
+      "category": "Phế cầu - Vi sinh & Độc lực",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Human Metapneumovirus (hMPV) thuộc họ virus nào? Ba điểm khác biệt lâm sàng tinh tế giữa hMPV và RSV là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phân loại:</b> Thuộc họ <i>Pneumoviridae</i> (cùng họ với RSV), phát hiện năm 2001 [CLM-62-08].<br>2) <b>Ba điểm khác biệt lâm sàng:</b><br>- <b>Lứa tuổi:</b> hMPV tấn công trẻ tuổi hơi lớn hơn RSV (đỉnh điểm 6 tháng đến 2 tuổi và cả trẻ mẫu giáo 3–5 tuổi).<br>- <b>Sốt:</b> Trẻ nhiễm hMPV có tỷ lệ sốt cao (≥ 38.5°C – 39°C) cao hơn đáng kể so với RSV đơn thuần.<br>- <b>Khởi phát hen:</b> hMPV là tác nhân kích hoạt cơn hen phế quản cấp nặng ở trẻ cơ địa dị ứng mạnh mẽ hơn.<br><br><b>💡 Giải thích của AI:</b><br>Dù triệu chứng cơ bản cũng là viêm tiểu phế quản khò khè ứ khí, một đứa trẻ trên 1 tuổi có sốt cao kèm khò khè tái phát cần gợi ý tới hMPV nhiều hơn là RSV.",
-      "extra": "📖 Nguồn: van den Hoogen BG et al. Nat Med 2001 (PMID: 11385510, PED-62, Mục 4.1 & 4.3)",
+      "front": "Đặc điểm hình thái học và <span style=\"color:#ffd43b\"><b>3 vũ khí độc lực tối thượng</b></span> của <span style=\"color:#74c0fc\"><b>Phế cầu (Streptococcus pneumoniae)</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <b>Hình thái học:</b> Song cầu Gram dương (Gram-positive diplococci) hình ngọn nến hoặc hình ngọn giáo, xếp đôi hoặc chuỗi ngắn.<br>• <span style=\"color:#ffd43b\"><b>3 Vũ khí độc lực tối thượng:</b></span><br>1) <span style=\"color:#ff6b6b\"><b>Vỏ Polysaccharide (Capsule):</b></span> Vũ khí quan trọng nhất, tạo lớp vỏ nhầy cản trở sự bắt giữ và thực bào của bạch cầu đa nhân trung tính; phân định hơn 100 serotype.<br>2) <span style=\"color:#ff6b6b\"><b>Độc tố Pneumolysin:</b></span> Gắn vào cholesterol màng tế bào vật chủ tạo các lỗ thủng màng (pore-forming toxin), ly giải hồng cầu, tế bào biểu mô và ức chế hóa ứng động bạch cầu.<br>3) <span style=\"color:#74c0fc\"><b>Men IgA Protease:</b></span> Cắt đôi liên kết bản lề của kháng thể IgA tiết (sIgA) trên niêm mạc, giúp vi khuẩn vượt qua hàng rào miễn dịch bề mặt để xâm nhập sâu vào nhu mô phổi.<br><br><b>💡 Giải thích của AI:</b><br>Chính lớp vỏ polysaccharide giúp phế cầu sống sót và nhân lên ào ạt trong lòng phế nang trước khi hệ miễn dịch kịp đáp ứng. Vắc xin phế cầu (Synflorix, Prevenar-13, PCV-15/20) được thiết kế gắn các polysaccharide vỏ này với protein tải để tạo miễn dịch ghi nhớ bảo vệ trẻ em.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.208 (PED-62, Mục 5.1)",
       "tags": [
         "PED-62",
-        "B5-hMPV-Lam-sang",
-        "EBM-Master"
+        "B5-Phe-cau",
+        "Vi-sinh",
+        "Doc-luc"
       ]
     },
     {
       "id": "PED62-B5-02",
       "type": "basic",
       "section": "B5",
-      "category": "Hiểm họa đồng nhiễm",
+      "category": "Phế cầu - Giải phẫu bệnh",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Tại sao hiện tượng đồng nhiễm giữa hMPV và RSV ở trẻ nhũ nhi lại được xem là một hiểm họa lâm sàng tại phòng cấp cứu và hồi sức tích cực (PICU)?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế bão Cytokine:</b> Đồng nhiễm hMPV + RSV kích hoạt đồng thời hai thụ thể TLR-4 và TLR-7/8, gây giải phóng ồ ạt các cytokine tiền viêm IL-8 và TNF-alpha tại niêm mạc phổi.<br>2) <b>Hậu quả:</b> Tình trạng suy hô hấp xấu đi cực nhanh, tăng gấp 3 lần nguy cơ suy kiệt cơ hô hấp phải thở máy xâm lấn và kéo dài ngày nằm PICU.<br>3) <b>Chẩn đoán:</b> Test nhanh kháng nguyên không phát hiện được hMPV; bắt buộc làm <b>RT-PCR đa mồi (Respiratory Multiplex PCR Panel)</b>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là lời giải cho những ca viêm tiểu phế quản test nhanh RSV dương tính nhưng diễn tiến nặng nề bất thường trơ với oxy canula: luôn phải đặt câu hỏi về đồng nhiễm hMPV hoặc vi khuẩn phối hợp.",
-      "extra": "📖 Nguồn: Health Sci Rep 2026 (PMID: 42741467, PED-62, Mục 4.4 & Bẫy 5)",
+      "front": "Kể tên và nêu <span style=\"color:#ffd43b\"><b>mốc thời gian tiến triển</b></span> của <span style=\"color:#ffd43b\"><b>4 giai đoạn giải phẫu bệnh học kinh điển</b></span> trong viêm phổi thùy do <span style=\"color:#74c0fc\"><b>Phế cầu</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 4 giai đoạn nối tiếp nhau:<br>1) <span style=\"color:#ffd43b\"><b>Giai đoạn Sung huyết (Congestion / Engorgement):</b></span> Xảy ra trong <span style=\"color:#ffd43b\"><b>24 giờ đầu tiên</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Giai đoạn Gan hóa đỏ (Red hepatization):</b></span> Diễn ra từ <span style=\"color:#ffd43b\"><b>ngày thứ 2 đến ngày thứ 4</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Giai đoạn Gan hóa xám (Gray hepatization):</b></span> Diễn ra từ <span style=\"color:#ffd43b\"><b>ngày thứ 4 đến ngày thứ 6</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Giai đoạn Hồi phục / Tiêu hủy (Resolution):</b></span> Diễn ra từ <span style=\"color:#ffd43b\"><b>ngày thứ 8 đến ngày thứ 10</b></span> trở đi.<br><br><b>💡 Giải thích của AI:</b><br>Bốn giai đoạn này mô tả sự tương tác động học giữa phế cầu và hệ thống đáp ứng miễn dịch tế bào: từ lúc dịch rỉ viêm tràn vào lòng phế nang, đến khi hồng cầu và bạch cầu lắp đầy biến phổi thành khối đặc chắc, rồi bạch cầu thoái hóa và cuối cùng đại thực bào dọn sạch hiện trường.",
+      "extra": "📖 Nguồn: Robbins and Cotran Pathologic Basis of Disease 10th & Nelson (PED-62, Mục 5.2)",
       "tags": [
         "PED-62",
-        "B5-hMPV-Dong-nhiem",
-        "EBM-Master"
+        "B5-Phe-cau",
+        "Giai-phau-benh"
+      ]
+    },
+    {
+      "id": "PED62-B5-03",
+      "type": "basic",
+      "section": "B5",
+      "category": "Phế cầu - Giải phẫu bệnh",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Biến đổi vi thể và đại thể ở <span style=\"color:#ffd43b\"><b>Giai đoạn 1 (Sung huyết - 24 giờ đầu)</b></span> của Viêm phổi thùy do <span style=\"color:#74c0fc\"><b>Phế cầu</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <b>Biến đổi vi thể:</b> Các mao mạch thành phế nang dãn rộng tối đa, ứ đầy máu; trong lòng phế nang <span style=\"color:#ffd43b\"><b>tràn ngập dịch rỉ viêm giàu protein huyết tương và vô số phế cầu</b></span> nhân lên tự do; có rất ít hồng cầu và bạch cầu đa nhân trung tính.<br>• <b>Đại thể phổi:</b> Thùy phổi bị tổn thương to ra, nặng, ứ máu đỏ sẫm, khi cắt ngang có nhiều dịch bọt màu hồng chảy ra.<br><br><b>💡 Giải thích của AI:</b><br>Trong 24 giờ đầu, vi khuẩn mới bắt đầu kích hoạt phản ứng viêm mạch máu tại chỗ khiến huyết tương rò rỉ vào phế nang. Lúc này bạch cầu trung tính chưa kịp được tủy xương huy động đến với số lượng lớn, dịch phế nang đóng vai trò môi trường nuôi cấy lý tưởng giúp phế cầu nhân đôi nhanh chóng.",
+      "extra": "📖 Nguồn: Robbins Pathologic Basis of Disease & Nelson 21st Ch.428 (PED-62, Mục 5.2)",
+      "tags": [
+        "PED-62",
+        "B5-Phe-cau",
+        "Giai-phau-benh",
+        "Sung-huyet"
+      ]
+    },
+    {
+      "id": "PED62-B5-04",
+      "type": "basic",
+      "section": "B5",
+      "category": "Phế cầu - Giải phẫu bệnh",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Thành phần vi thể lòng phế nang và lý do vì sao được gọi là <span style=\"color:#ff6b6b\"><b>Giai đoạn 2 (Gan hóa đỏ - ngày 2 đến 4)</b></span> ở Viêm phổi <span style=\"color:#74c0fc\"><b>Phế cầu</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <b>Thành phần vi thể:</b> Lòng phế nang chứa đầy <span style=\"color:#ff6b6b\"><b>hồng cầu thoát mạch</b></span>, các sợi huyết (<span style=\"color:#ffd43b\"><b>Fibrin</b></span>) kết mạng dày đặc, cùng với lượng lớn <span style=\"color:#74c0fc\"><b>bạch cầu đa nhân trung tính</b></span> và phế cầu đang bị thực bào.<br>• <b>Lý do gọi là 'Gan hóa đỏ':</b> Nhu mô phổi mất hoàn toàn không khí, trở nên <span style=\"color:#ff6b6b\"><b>đặc chắc, không xẹp, mặt cắt có màu đỏ nâu sẫm và độ chắc tương tự như mô gan</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hồng cầu thoát mạch ồ ạt qua thành mao mạch bị tổn thương bởi Pneumolysin lấp đầy phế nang. Sự hiện diện đồng thời của hồng cầu thoái hóa và dịch rỉ viêm giải thích vì sao bệnh nhân ở giai đoạn này ho ra đờm có màu rỉ sắt (Rust-colored sputum) kinh điển.",
+      "extra": "📖 Nguồn: Robbins Pathologic Basis of Disease 10th (PED-62, Mục 5.2)",
+      "tags": [
+        "PED-62",
+        "B5-Phe-cau",
+        "Giai-phau-benh",
+        "Gan-hoa-do"
+      ]
+    },
+    {
+      "id": "PED62-B5-05",
+      "type": "basic",
+      "section": "B5",
+      "category": "Phế cầu - Giải phẫu bệnh",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Biến đổi vi thể nào làm thùy phổi mất màu đỏ và chuyển thành <span style=\"color:#ffd43b\"><b>Giai đoạn 3 (Gan hóa xám - ngày 4 đến 6)</b></span> trong Viêm phổi <span style=\"color:#74c0fc\"><b>Phế cầu</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hồng cầu thoái hóa và ly giải:</b> Toàn bộ hồng cầu thoát mạch trước đó bị phân hủy và biến mất.<br>2) <b>Mạng lưới Fibrin và bạch cầu chèn ép mạch máu:</b> Bạch cầu đa nhân tiếp tục di cư ồ ạt kết hợp với mạng lưới Fibrin đóng bánh dày đặc trong lòng phế nang, tạo áp lực cơ học <span style=\"color:#ffd43b\"><b>chèn ép làm xẹp các mao mạch thành phế nang</b></span>, triệt tiêu dòng máu sung huyết.<br>3) <b>Đại thể:</b> Mặt cắt nhu mô phổi chuyển từ màu đỏ nâu sang <span style=\"color:#ffd43b\"><b>màu xám tro hoặc xám đục, khô ráo và đặc cứng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chính việc mao mạch bị ép xẹp ngăn không cho máu tới khiến phổi mất sắc đỏ và chuyển sang màu xám. Mặc dù vi khuẩn bị tiêu diệt nhiều ở giai đoạn này, tình trạng suy hô hấp vẫn có thể nặng nề do sự đông đặc cơ học cản trở trao đổi khí.",
+      "extra": "📖 Nguồn: Robbins Pathologic Basis of Disease 10th (PED-62, Mục 5.2)",
+      "tags": [
+        "PED-62",
+        "B5-Phe-cau",
+        "Giai-phau-benh",
+        "Gan-hoa-xam"
+      ]
+    },
+    {
+      "id": "PED62-B5-06",
+      "type": "basic",
+      "section": "B5",
+      "category": "Phế cầu - Giải phẫu bệnh",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Vai trò của <span style=\"color:#51cf66\"><b>Đại thực bào phế nang</b></span> và tiến trình làm sạch lòng phế nang ở <span style=\"color:#51cf66\"><b>Giai đoạn 4 (Hồi phục / Tiêu hủy - ngày 8 đến 10)</b></span> của Viêm phổi <span style=\"color:#74c0fc\"><b>Phế cầu</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đại thực bào thâm nhập áp đảo:</b> Đại thực bào phế nang trở thành tế bào chiếm ưu thế, tiết ra các <span style=\"color:#51cf66\"><b>enzyme phân giải protein (Proteolytic enzymes)</b></span>.<br>2) <b>Hóa lỏng chất xuất tiết:</b> Các enzyme tiêu hóa khối Fibrin đông đặc, xác bạch cầu và mảnh vụn tế bào chuyển chúng thành dạng dịch lỏng mịn.<br>3) <b>Đào thải và tái thông khí:</b> Dịch lỏng được tống xuất ra ngoài nhờ <span style=\"color:#51cf66\"><b>phản xạ ho hoặc hấp thu qua hệ bạch huyết</b></span>; phế nang dần dần được làm sạch hoàn toàn và hồi phục cấu trúc trao đổi khí bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Khác với viêm phổi do Tụ cầu vàng hay Adenovirus (gây hoại tử vách phế nang và để lại sẹo xơ hoặc bóng khí), phế cầu thường bảo tồn nguyên vẹn khung liên kết màng đáy phế nang. Do đó, nếu được điều trị đúng, cấu trúc phổi có thể hồi phục hoàn toàn không để lại sẹo.",
+      "extra": "📖 Nguồn: Robbins Pathologic Basis of Disease 10th & Nelson (PED-62, Mục 5.2)",
+      "tags": [
+        "PED-62",
+        "B5-Phe-cau",
+        "Giai-phau-benh",
+        "Hoi-phuc"
+      ]
+    },
+    {
+      "id": "PED62-B5-07",
+      "type": "basic",
+      "section": "B5",
+      "category": "Phế cầu - Lâm sàng",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Hội chứng lâm sàng và các dấu hiệu thăm khám thực thể của <span style=\"color:#ff6b6b\"><b>Hội chứng đông đặc kinh điển</b></span> do viêm phổi thùy <span style=\"color:#74c0fc\"><b>Phế cầu</b></span> ở trẻ em gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lâm sàng khởi phát:</b> <span style=\"color:#ff6b6b\"><b>Sốt cao đột ngột kèm rét run</b></span> (39°C – 40°C), đau ngực màng phổi nhói theo nhịp thở, thở nhanh nông, ho đờm rỉ sắt hoặc đờm mủ đục.<br>2) <span style=\"color:#ff6b6b\"><b>Tam chứng đông đặc kinh điển (Khi khám phổi):</b></span><br>• <span style=\"color:#ff6b6b\"><b>Rung thanh TĂNG</b></span> rõ rệt tại vùng thùy phổi tổn thương.<br>• <span style=\"color:#ff6b6b\"><b>Gõ ĐỤC</b></span> tương ứng với ranh giới giải phẫu của thùy phổi.<br>• <span style=\"color:#ff6b6b\"><b>Rì rào phế nang GIẢM</b></span>, xuất hiện <span style=\"color:#ff6b6b\"><b>tiếng thổi ống (Tubular breathing)</b></span> và nghe thấy tiếng <span style=\"color:#ff6b6b\"><b>ran nổ dòn (Crepitant crackles)</b></span> ở cuối thì hít vào.<br><br><b>💡 Giải thích của AI:</b><br>Âm thanh được dẫn truyền qua môi trường đặc (nhu mô phổi gan hóa chứa đầy dịch viêm) nhanh và mạnh hơn môi trường xốp chứa khí, do đó rung thanh tăng và tiếng thở thanh khí quản truyền nguyên vẹn xuống thành ngực tạo nên tiếng thổi ống. Ran nổ dòn sinh ra do các phế nang bị dính dịch viêm bóc tách ra đột ngột ở cuối thì hít vào.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.428 (PED-62, Mục 5.3)",
+      "tags": [
+        "PED-62",
+        "B5-Phe-cau",
+        "Lam-sang",
+        "Hoi-chung-dong-dac"
+      ]
+    },
+    {
+      "id": "PED62-B5-08",
+      "type": "basic",
+      "section": "B5",
+      "category": "Phế cầu - Hình ảnh học",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Phân tích các <span style=\"color:#ffd43b\"><b>đặc điểm hình ảnh học kinh điển</b></span> trên phim X-quang ngực của bệnh nhi viêm phổi thùy do <span style=\"color:#74c0fc\"><b>Phế cầu</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><img src=\"PED62_fig4_streptococcus_pneumoniae_lobar_xray.jpg\" style=\"max-width:100%;border-radius:8px;margin:8px 0;\"><br>1) <span style=\"color:#ff6b6b\"><b>Đám mờ đông đặc đồng nhất (Dense homogenous consolidation):</b></span> Hình tam giác đáy quay ra thành ngực, đỉnh quay về rốn phổi, chiếm trọn vẹn một thùy hoặc phân thùy phổi.<br>2) <span style=\"color:#51cf66\"><b>Dấu hiệu phế quản hơi (Air bronchogram):</b></span> Hình ảnh các nhánh phế quản chứa khí màu đen nổi bật trên nền nhu mô phổi phế nang đông đặc mờ trắng.<br>3) <span style=\"color:#ffd43b\"><b>Thể tích thùy phổi được bảo tồn nguyên vẹn:</b></span> Rãnh liên thùy không bị co kéo về phía tổn thương (khác biệt cốt tử với xẹp phổi).<br>4) <span style=\"color:#74c0fc\"><b>Phản ứng màng phổi:</b></span> Thường đi kèm tràn dịch màng phổi mủ lượng ít đến vừa ở góc sườn hoành cùng bên.<br><br><b>💡 Giải thích của AI:</b><br>Dấu hiệu phế quản hơi khẳng định chắc chắn tổn thương nằm ở lòng phế nang: phế nang bị lấp đầy mủ trắng bao quanh đường dẫn khí phế quản lớn vẫn còn thông thoáng chứa khí đen.",
+      "extra": "📖 Nguồn: PIDS/IDSA CAP Guidelines & Radiopaedia (PED-62, Mục 5.3, Hình 4)",
+      "tags": [
+        "PED-62",
+        "B5-Phe-cau",
+        "X-quang",
+        "Air-bronchogram"
+      ]
+    },
+    {
+      "id": "PED62-B5-09",
+      "type": "basic",
+      "section": "B5",
+      "category": "Phế cầu - Kháng sinh",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Cơ chế kháng thuốc của <span style=\"color:#74c0fc\"><b>Phế cầu</b></span> với Penicillin là gì và vì sao <span style=\"color:#51cf66\"><b>Amoxicillin liều cao (80 – 90 mg/kg/ngày)</b></span> vẫn là lựa chọn đầu tay?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế kháng thuốc:</b> Khác với vi khuẩn Gram âm tiết men Beta-lactamase, Phế cầu kháng Penicillin thông qua cơ chế <span style=\"color:#ff6b6b\"><b>biến đổi cấu trúc gen đích mã hóa Penicillin-Binding Proteins (PBP 1a, 2x, 2b)</b></span>, làm giảm ái lực gắn của kháng sinh.<br>2) <b>Lý do dùng Amoxicillin liều cao:</b> Vì là giảm ái lực chứ không phải phá hủy cấu trúc phân tử thuốc, nên khi tăng liều <span style=\"color:#51cf66\"><b>Amoxicillin lên 80 – 90 mg/kg/ngày</b></span>, nồng độ thuốc trong huyết tương và nhu mô phổi vượt xa nồng độ ức chế tối thiểu (MIC), bão hòa hoàn toàn các thụ thể PBP đột biến và tiêu diệt vi khuẩn hiệu quả.<br>3) <span style=\"color:#ff6b6b\"><b>Khi phế cầu kháng mức độ cao (MIC ≥ 4–8 µg/mL):</b></span> Chuyển sang Ceftriaxone (50–100 mg/kg/ngày) hoặc Vancomycin.<br><br><b>💡 Giải thích của AI:</b><br>Không cần thiết phải dùng ngay kháng sinh phối hợp ức chế beta-lactamase (như Amoxicillin + Acid Clavulanic) nếu không nghi ngờ vi khuẩn tiết men, vì Acid Clavulanic không có tác dụng trên sự đột biến PBP của phế cầu mà chỉ làm tăng nguy cơ tiêu chảy cho trẻ.",
+      "extra": "📖 Nguồn: PIDS/IDSA Guidelines on Pediatric CAP 2011 (PED-62, Mục 5.3)",
+      "tags": [
+        "PED-62",
+        "B5-Phe-cau",
+        "Khang-sinh",
+        "Amoxicillin"
       ]
     },
     {
       "id": "PED62-B6-01",
       "type": "basic",
       "section": "B6",
-      "category": "Yếu tố độc lực",
+      "category": "Ma trận đối đầu vi sinh",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Ba vũ khí độc lực chủ lực của Streptococcus pneumoniae (Phế cầu) gây tổn thương mô phổi là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 3 vũ khí độc lực tối thượng:<br>1) <b>Vỏ Polysaccharide (Capsule):</b> Ngăn cản hiện tượng opsonin hóa và chống lại sự thực bào của đại thực bào; có hơn 100 serotype vỏ khác nhau (cơ sở sản xuất vắc xin PCV).<br>2) <b>Độc tố Pneumolysin:</b> Gắn vào cholesterol trên màng tế bào vật chủ, tạo các lỗ thủng màng gây tan tế bào phế nang, tế bào nội mô mao mạch và liệt chuyển động lông chuyển.<br>3) <b>Enzyme Autolysin (LytA) & IgA Protease:</b> LytA tự hủy vi khuẩn giải phóng ồ ạt Pneumolysin; IgA protease phá hủy kháng thể niêm mạc giúp vi khuẩn tự do xâm lấn.<br><br><b>💡 Giải thích của AI:</b><br>Chính độc tố Pneumolysin làm thủng hàng rào màng phế nang - mao mạch, mở đường cho dịch phù giàu protein và hồng cầu tràn ngập vào lòng phế nang khởi phát giai đoạn sung huyết.",
-      "extra": "📖 Nguồn: Streptococcus pneumoniae Pathogenesis - Nat Rev Microbiol (PED-62, Mục 5.1)",
+      "front": "So sánh đối đầu: <span style=\"color:#ffd43b\"><b>Lứa tuổi ưu thế</b></span> và <span style=\"color:#74c0fc\"><b>cơ chế bệnh sinh cốt lõi</b></span> của <span style=\"color:#74c0fc\"><b>5 căn nguyên vi sinh hô hấp</b></span> chính ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>RSV:</b></span> Trẻ nhũ nhi &lt; 2 tuổi (đỉnh &lt; 6 tháng); cơ chế bít tắc lòng tiểu phế quản do nút nhầy hoại tử và bẫy khí.<br>2) <span style=\"color:#74c0fc\"><b>Adenovirus:</b></span> Mọi lứa tuổi (đặc biệt 6 tháng – 5 tuổi); cơ chế viêm hoại tử toàn tầng biểu mô phế quản và bão cytokine toàn thân.<br>3) <span style=\"color:#74c0fc\"><b>Mycoplasma pneumoniae:</b></span> Trẻ học đường &gt; 5 tuổi; cơ chế bám dính P1, độc tố CARDS gây liệt lông chuyển và viêm mô kẽ quanh mạch máu.<br>4) <span style=\"color:#74c0fc\"><b>hMPV:</b></span> Trẻ từ 6 tháng đến 2 tuổi; cơ chế hoại tử biểu mô tiết nhầy tương đồng RSV nhưng sốt cao hơn.<br>5) <span style=\"color:#74c0fc\"><b>Phế cầu (S. pneumoniae):</b></span> Mọi lứa tuổi (đặc biệt &lt; 2 tuổi và trẻ lớn); cơ chế viêm mủ đông đặc lòng phế nang lan theo thùy phổi.<br><br><b>💡 Giải thích của AI:</b><br>Nắm chắc lứa tuổi và cơ chế là chiếc chìa khóa giúp bác sĩ khu trú ngay 80% khả năng chẩn đoán: Trẻ 3 tháng khò khè nghĩ ngay RSV/hMPV; trẻ 8 tuổi ho rũ rượi nghĩ ngay Mycoplasma; trẻ sốt rét run đau ngực nghĩ ngay Phế cầu.",
+      "extra": "📖 Nguồn: PIDS/IDSA & Nelson Textbook of Pediatrics (PED-62, Mục 6)",
       "tags": [
         "PED-62",
-        "B6-Phe-cau-Co-che",
-        "EBM-Master"
+        "B6-Ma-tran",
+        "So-sanh",
+        "Dich-te"
       ]
     },
     {
       "id": "PED62-B6-02",
       "type": "basic",
       "section": "B6",
-      "category": "4 giai đoạn bệnh học",
+      "category": "Ma trận đối đầu vi sinh",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Kể tên và nêu đặc điểm mô bệnh học chính của 4 giai đoạn giải phẫu bệnh kinh điển trong Viêm phổi thùy do Phế cầu.",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tuần tự qua 4 giai đoạn:<br>1) <b>Giai đoạn Sung huyết (Ngày 1–2):</b> Mao mạch phế nang giãn rộng ứ máu, dịch phù giàu protein và vi khuẩn tràn ngập phế nang; phổi sưng to đỏ sẫm.<br>2) <b>Giai đoạn Canh hóa đỏ (Ngày 2–4):</b> Hàng triệu bạch cầu trung tính, hồng cầu và sợi fibrin đông tụ lấp kín phế nang; nhu mô phổi chắc nịch như mô gan, chìm nghỉm trong nước; hội chứng đông đặc lâm sàng rầm rộ.<br>3) <b>Giai đoạn Canh hóa xám (Ngày 4–8):</b> Hồng cầu tan rã, mao mạch bị chèn ép thiếu máu; lòng phế nang đầy fibrin và bạch cầu thoái hóa; phổi màu xám tro chắc.<br>4) <b>Giai đoạn Tiêu biến/Hồi phục (Sau ngày 8):</b> Đại thực bào tiết men tiêu hủy fibrin, dịch mủ loãng dần được ho khạc ra ngoài; phế nang tái thông khí hoàn toàn không để lại sẹo.<br><br><b>💡 Giải thích của AI:</b><br>Nắm vững 4 giai đoạn giúp hiểu tiếng nghe phổi: Ran nổ mịn ở giai đoạn sung huyết, tiếng thổi ống ở giai đoạn canh hóa đỏ, và hàng loạt ran ẩm to/vừa hạt ở giai đoạn hồi phục (ran phục hồi).",
-      "extra": "📖 Nguồn: Robbins & Cotran Pathologic Basis of Disease (PED-62, Mục 5.2)",
+      "front": "So sánh đối đầu: <span style=\"color:#ff6b6b\"><b>Đặc điểm thính chẩn nghe phổi</b></span> và <span style=\"color:#ffd43b\"><b>hình ảnh X-quang</b></span> của <span style=\"color:#74c0fc\"><b>5 căn nguyên vi sinh hô hấp</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>RSV:</b> Nghe ran rít, ran ngáy, ran ẩm nhỏ hạt hai đáy; X-quang ứ khí phế nang, vòm hoành phẳng, xẹp thùy trên phổi phải.<br>2) <b>Adenovirus:</b> Nghe ran nổ, ran ẩm lan tỏa cả 2 phổi; X-quang thâm nhiễm loang lổ hai bên hoặc đông đặc đa thùy nặng nề.<br>3) <b>Mycoplasma:</b> Nghe rất nghèo nàn (tiếng thở thô, ít ran); X-quang thâm nhiễm mô kẽ mạng lưới rực lửa (phân ly lâm sàng - X-quang).<br>4) <b>hMPV:</b> Nghe khò khè thì thở ra, ran rít, ran ẩm; X-quang ứ khí lồng ngực và dày thành phế quản.<br>5) <b>Phế cầu:</b> Nghe rung thanh tăng, gõ đục, ran nổ hít vào, tiếng thổi ống; X-quang đông đặc đồng nhất trọn vẹn một thùy có phế quản hơi.<br><br><b>💡 Giải thích của AI:</b><br>Thính chẩn và X-quang là hai mặt đối chiếu của một tổn thương: Tổn thương đường dẫn khí nhỏ nghe tiếng khò khè/ran rít + X-quang ứ khí; tổn thương mô kẽ nghe nghèo nàn + X-quang dạng lưới; tổn thương phế nang nghe ran nổ + X-quang đông đặc.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.428 & BTS Guidelines (PED-62, Mục 6)",
       "tags": [
         "PED-62",
-        "B6-Phe-cau-Giai-phau",
-        "EBM-Master"
+        "B6-Ma-tran",
+        "Thinh-chan",
+        "X-quang"
       ]
     },
     {
       "id": "PED62-B6-03",
       "type": "basic",
       "section": "B6",
-      "category": "Lâm sàng & X-quang",
+      "category": "Ma trận đối đầu vi sinh",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Đặc điểm lâm sàng kinh điển và hình ảnh X-quang đặc trưng của viêm phổi thùy do Phế cầu ở trẻ em là gì?<br><img src='PED62_fig4_streptococcus_pneumoniae_lobar_xray.jpg'>",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lâm sàng:</b> Khởi phát đột ngột, sốt cao rực lửa 39.5°C – 40.5°C rét run, vẻ mặt nhiễm độc, thở nhanh, <b>thở rên (Grunting)</b>, đau ngực màng phổi. Hội chứng đông đặc rõ: Gõ đục, rung thanh tăng, tiếng thổi ống.<br>2) <b>Hình ảnh X-quang:</b> Đám mờ <b>đông đặc thùy phổi đồng nhất</b> chiếm trọn một thùy hoặc phân thùy phổi, ranh giới rõ theo rãnh liên thùy, bên trong có <b>dấu hiệu phế quản khí (Air bronchogram)</b>.<br><br><b>💡 Giải thích của AI:</b><br>Dấu hiệu phế quản khí sinh ra do các nhánh phế quản lớn dẫn khí vẫn thông thoáng màu đen nổi bật trên nền nhu mô phế nang xung quanh đã bị dịch mủ lấp đầy màu trắng; đây là bằng chứng khẳng định tổn thương nằm tại phế nang.",
-      "extra": "📖 Nguồn: PIDS/IDSA CAP Guidelines (PMID: 21880587, PED-62, Mục 5.3 & Hình 4)",
+      "front": "So sánh đối đầu: <span style=\"color:#ffd43b\"><b>Động học xét nghiệm viêm (WBC, CRP, Procalcitonin)</b></span> và <span style=\"color:#51cf66\"><b>thuốc điều trị đặc hiệu đầu tay</b></span> của <span style=\"color:#74c0fc\"><b>5 tác nhân vi sinh</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>RSV & hMPV:</b> WBC bình thường hoặc tăng nhẹ lympho, CRP &lt; 20 mg/L, PCT &lt; 0.25 ng/mL; <span style=\"color:#51cf66\"><b>Điều trị hỗ trợ</b></span> (hút đờm dãi, thở oxy/HFNC, bù dịch).<br>2) <b>Adenovirus:</b> WBC tăng cao, <span style=\"color:#ff6b6b\"><b>CRP tăng vọt &gt; 100 mg/L (Bão CRP)</b></span>, PCT tăng nhẹ; <span style=\"color:#51cf66\"><b>Hỗ trợ hô hấp, Cidofovir, IVIG</b></span> trong thể nặng.<br>3) <b>Mycoplasma:</b> WBC bình thường hoặc tăng nhẹ, CRP tăng vừa (20–50 mg/L), PCT thường &lt; 0.5 ng/mL; <span style=\"color:#51cf66\"><b>Kháng sinh Macrolide (Azithromycin)</b></span> hoặc Doxycycline.<br>4) <b>Phế cầu:</b> <span style=\"color:#ff6b6b\"><b>WBC tăng cao &gt; 15.000 – 20.000/mm³ ưu thế Neutrophil</b></span>, CRP &gt; 60 – 100 mg/L, <span style=\"color:#ff6b6b\"><b>PCT tăng rất cao &gt; 2 – 5 ng/mL</b></span>; <span style=\"color:#51cf66\"><b>Amoxicillin liều cao (80 – 90 mg/kg/ngày)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Procalcitonin là dấu ấn đặc hiệu nhất giúp phân biệt Phế cầu (vi khuẩn điển hình kích hoạt PCT tăng vọt) với Virus; riêng Adenovirus có bão CRP nhưng PCT thường không tăng tương xứng ở mức sốc vi khuẩn.",
+      "extra": "📖 Nguồn: PIDS/IDSA Guidelines & Nelson Textbook of Pediatrics (PED-62, Mục 6)",
       "tags": [
         "PED-62",
-        "B6-Phe-cau-Lam-sang",
-        "EBM-Master"
-      ]
-    },
-    {
-      "id": "PED62-B6-04",
-      "type": "basic",
-      "section": "B6",
-      "category": "Biến chứng & Kháng sinh",
-      "badge": "EBM Master",
-      "badge_class": "badge-ebm",
-      "front": "Hai biến chứng màng phổi và nhu mô nguy hiểm của Phế cầu là gì? Kháng sinh đường uống lựa chọn hàng đầu theo PIDS/IDSA và Bộ Y tế?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Biến chứng:</b><br>- <b>Tràn dịch/Tràn mủ màng phổi (Empyema):</b> Viêm phế nang lan ra sát lá tạng màng phổi gây viêm thanh tơ mủ.<br>- <b>Viêm phổi hoại tử (Necrotizing pneumonia):</b> Tắc mạch máu nuôi dưỡng tạo nhiều ổ áp xe hoại tử nhỏ.<br>2) <b>Kháng sinh hàng đầu:</b> <b>Amoxicillin đường uống liều cao (80 – 90 mg/kg/ngày chia 2–3 lần)</b> [CLM-62-04].<br><br><b>💡 Giải thích của AI:</b><br>Cần dùng liều cao 80–90 mg/kg/ngày (thay vì liều chuẩn 40–50 mg/kg/ngày) để nồng độ thuốc trong dịch lót phế nang vượt qua ngưỡng ức chế tối thiểu MIC của các chủng phế cầu có biến đổi protein gắn penicillin (PBP).",
-      "extra": "📖 Nguồn: PIDS/IDSA Guidelines (PMID: 21880587, [CLM-62-04], PED-62, Mục 5.3)",
-      "tags": [
-        "PED-62",
-        "B6-Phe-cau-Dieu-tri",
-        "EBM-Master"
+        "B6-Ma-tran",
+        "Xet-nghiem",
+        "Dieu-tri"
       ]
     },
     {
       "id": "PED62-B7-01",
       "type": "basic",
       "section": "B7",
-      "category": "Bẫy phân biệt X-quang",
+      "category": "Cạm bẫy lâm sàng sinh tử",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Làm thế nào để phân biệt trên phim X-quang ngực giữa tổn thương Xẹp thùy phổi do RSV và tổn thương Đông đặc thùy phổi do Phế cầu?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Phân biệt dựa trên 3 tiêu chí giải phẫu:<br>1) <b>Thể tích thùy phổi:</b> Xẹp phổi do RSV làm <b>giảm thể tích</b>, co kéo rãnh liên thùy về phía tổn thương; Đông đặc do Phế cầu <b>bảo tồn nguyên vẹn thể tích</b> hoặc hơi phồng nhẹ.<br>2) <b>Hình thái đám mờ:</b> Xẹp phổi thường có hình dải mờ hoặc hình tam giác ngoại vi đáy quay ra ngoài; Đông đặc phế cầu mờ chiếm trọn vẹn thùy phổi đồng nhất.<br>3) <b>Dấu hiệu phế quản khí (Air bronchogram):</b> Xẹp phổi KHÔNG có phế quản khí (do phế quản đã bị nút nhầy bít kín); Đông đặc phế cầu CÓ phế quản khí rõ rệt.<br><br><b>💡 Giải thích của AI:</b><br>Bác sĩ phân biệt được 3 tiêu chí này sẽ không bị 'bẫy' kê kháng sinh tiêm vô ích cho các ca viêm tiểu phế quản RSV có xẹp thùy trên phổi phải.",
-      "extra": "📖 Nguồn: Radiologic Differential: Atelectasis vs Consolidation (PED-62, Mục 7, Bẫy 1)",
+      "front": "Cạm bẫy 1: Dấu hiệu X-quang sống còn nào giúp tránh nhầm lẫn <span style=\"color:#ff6b6b\"><b>Xẹp thùy trên phổi phải do RSV</b></span> với <span style=\"color:#74c0fc\"><b>Viêm phổi đông đặc do vi khuẩn</b></span>, tránh kê kháng sinh oan uổng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Dấu hiệu X-quang sống còn:</b> Đánh giá <span style=\"color:#ffd43b\"><b>thể tích thùy phổi và sự co kéo cấu trúc lân cận</b></span>:<br>• <b>Xẹp phổi (RSV):</b> Làm <span style=\"color:#ff6b6b\"><b>giảm thể tích thùy phổi</b></span>, kéo rãnh liên thùy bé cong vồng lên trên, khí quản và rốn phổi bị co kéo lệch về bên tổn thương.<br>• <b>Đông đặc vi khuẩn:</b> <span style=\"color:#51cf66\"><b>Thể tích thùy phổi được bảo tồn</b></span> hoặc hơi phồng; rãnh liên thùy giữ nguyên đường thẳng nằm ngang hoặc bị đẩy vồng nhẹ xuống dưới.<br>2) <b>Hành động đúng:</b> Không vội vàng kê kháng sinh; tập trung làm <span style=\"color:#51cf66\"><b>vật lý trị liệu hô hấp, vỗ rung, hút sạch đờm dãi</b></span> và thở oxy ẩm ấm để giải phóng nút nhầy.<br><br><b>💡 Giải thích của AI:</b><br>Hơn 50% trẻ nhũ nhi viêm tiểu phế quản do RSV có đám mờ xẹp phổi trên X-quang. Kê kháng sinh không làm tan nút nhầy mà chỉ tiêu diệt hệ vi sinh vật đường ruột có lợi của trẻ.",
+      "extra": "📖 Nguồn: AAP Guidelines: Diagnosis and Management of Bronchiolitis (PED-62, Mục 7, Bẫy 1)",
       "tags": [
         "PED-62",
-        "B7-Bay-lam-sang",
-        "EBM-Master"
+        "B7-Cam-bay",
+        "RSV",
+        "X-quang"
       ]
     },
     {
       "id": "PED62-B7-02",
       "type": "basic",
       "section": "B7",
-      "category": "Ý nghĩa thở rên",
+      "category": "Cạm bẫy lâm sàng sinh tử",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Cơ chế sinh lý học và ý nghĩa cảnh báo lâm sàng của tiếng Thở rên (Grunting) ở trẻ nhỏ bị viêm phổi là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế sinh lý:</b> Trẻ chủ động khép thanh môn lại một phần ở thì thở ra trong khi các cơ hoành và cơ thành bụng tiếp tục co bóp; tạo ra một <b>áp lực dương cuối thì thở ra (PEEP nội sinh)</b> nhằm giữ cho các phế nang bị tổn thương không bị xẹp hoàn toàn.<br>2) <b>Ý nghĩa lâm sàng:</b> Thở rên là dấu hiệu cảnh báo <b>tổn thương đông đặc phế nang nặng nề và độ giãn nở phổi suy giảm nghiêm trọng</b> (thường gặp trong Phế cầu hoặc suy hô hấp nặng); là tiêu chuẩn xếp loại Viêm phổi rất nặng cần cấp cứu ngay.<br><br><b>💡 Giải thích của AI:</b><br>Tiếng thở rên phát ra âm thanh 'ừ... ừ...' êm dịu ở thì thở ra, rất dễ bị người nhà nhầm là trẻ rên rỉ khi ngủ. Thầy thuốc phải coi thở rên là một cờ đỏ cấp cứu tối khẩn.",
-      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics - Respiratory Mechanics (PED-62, Mục 8, Pearl 5)",
+      "front": "Cạm bẫy 2: Hiện tượng <span style=\"color:#ff6b6b\"><b>'Bão CRP' của Adenovirus</b></span> khiến bác sĩ dễ phạm sai lầm điều trị gì và cách tiếp cận đúng đắn là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Sai lầm điều trị thường gặp:</b> Thấy bệnh nhi sốt cao liên tục kèm xét nghiệm <span style=\"color:#ff6b6b\"><b>CRP &gt; 100 – 150 mg/L</b></span>, bác sĩ vội vàng chẩn đoán 'Nhiễm khuẩn huyết / Viêm phổi vi khuẩn kháng thuốc' và liên tục đổi, leo thang kháng sinh phổ rộng bậc cao (Meropenem, Vancomycin).<br>2) <b>Cách tiếp cận đúng:</b><br>• Làm xét nghiệm khẳng định <span style=\"color:#51cf66\"><b>PCR Adenovirus đờm/dịch tỵ hầu</b></span>.<br>• Định lượng <span style=\"color:#ffd43b\"><b>Procalcitonin (PCT)</b></span>: Trong Adenovirus, PCT thường không tăng quá cao (&lt; 1 – 2 ng/mL) không tương xứng với mức tăng phi mã của CRP.<br>• Tránh leo thang kháng sinh mù quáng; tập trung <span style=\"color:#51cf66\"><b>hồi sức hô hấp, hạ sốt, bù dịch</b></span> và cân nhắc hội chẩn dùng IVIG/Cidofovir nếu suy tạng.<br><br><b>💡 Giải thích của AI:</b><br>Phản ứng viêm toàn thân do bão IL-6 kích hoạt tế bào gan sản xuất CRP cực mạnh là đặc trưng sinh học của Adenovirus chứ không chứng minh có mặt vi khuẩn.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.284 (PED-62, Mục 7, Bẫy 2)",
       "tags": [
         "PED-62",
-        "B7-Bay-lam-sang",
-        "EBM-Master"
+        "B7-Cam-bay",
+        "Adenovirus",
+        "Bao-CRP"
       ]
     },
     {
       "id": "PED62-B7-03",
       "type": "basic",
       "section": "B7",
-      "category": "Ca thực chiến nhũ nhi",
+      "category": "Cạm bẫy lâm sàng sinh tử",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Bé 4 tháng tuổi khò khè 3 ngày, thở 58 l/p, co kéo rút lõm ngực, SpO2 91%, X-quang có đám mờ thùy trên phổi phải co kéo nhẹ rãnh liên thùy, bạch cầu và CRP bình thường. Chẩn đoán và phác đồ xử trí?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chẩn đoán:</b> Viêm tiểu phế quản cấp do <b>RSV</b> mức độ trung bình có biến chứng xẹp thùy trên phổi phải.<br>2) <b>Xử trí tại giường:</b><br>- Thở oxy canula mũi 1 L/phút duy trì SpO2 ≥ 92% – 94%.<br>- Nhỏ nước muối 0.9% và hút thông đờm nhầy mũi họng nông trước các cữ bú.<br>- Chia nhỏ cữ bú mẹ; nếu thở nhanh &gt; 60–70 l/p đặt sonde dạ dày ăn nhỏ giọt.<br>- <b>CẤM:</b> Không dùng kháng sinh, không tiêm Corticoid, không khí dung Salbutamol.<br><br><b>💡 Giải thích của AI:</b><br>Ca bệnh minh họa hoàn hảo cho việc chẩn đoán dựa trên lâm sàng và tránh bẫy xẹp phổi do nút nhầy. Tuân thủ nghiêm ngặt triết lý Less is More giúp trẻ hồi phục an toàn mà không bị tác dụng phụ của thuốc.",
-      "extra": "📖 Nguồn: AAP Bronchiolitis Management Guidelines (PED-62, Mục 10, Ca lâm sàng 1)",
+      "front": "Cạm bẫy 3: Vì sao kê đơn <span style=\"color:#ff6b6b\"><b>Amoxicillin hoặc Cephalosporin</b></span> cho <span style=\"color:#74c0fc\"><b>Mycoplasma pneumoniae</b></span> là một sai lầm dược lý học vi sinh nghiêm trọng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế dược lý sai lầm:</b> Kháng sinh nhóm Beta-lactam (Penicillin, Amoxicillin, Ampicillin, Cephalosporin) tiêu diệt vi khuẩn bằng cách gắn vào men transpeptidase (PBP) để ức chế tổng hợp thành peptidoglycan.<br>2) <b>Bản chất của Mycoplasma:</b> <span style=\"color:#ff6b6b\"><b>Hoàn toàn không có thành peptidoglycan</b></span> trong cấu tạo sinh học; do đó các thụ thể đích để Beta-lactam tác động không hề tồn tại.<br>3) <b>Hậu quả:</b> Bệnh nhân uống kháng sinh hoàn toàn vô tác dụng, vi khuẩn tiếp tục nhân lên phá hủy lông chuyển và gây biến chứng tổn thương phổi kéo dài.<br><br><b>💡 Giải thích của AI:</b><br>Kê Cephalosporin cho Mycoplasma cũng giống như 'bắn đạn vào không khí'. Phải dùng kháng sinh ức chế tổng hợp protein nội bào như Macrolide (Azithromycin) hoặc Tetracycline (Doxycycline).",
+      "extra": "📖 Nguồn: PIDS/IDSA Guidelines & BTS Guidelines (PED-62, Mục 7, Bẫy 3)",
       "tags": [
         "PED-62",
-        "B7-Ca-thuc-chien",
-        "EBM-Master"
+        "B7-Cam-bay",
+        "Mycoplasma",
+        "Duoc-ly"
       ]
     },
     {
       "id": "PED62-B7-04",
       "type": "basic",
       "section": "B7",
-      "category": "Ca thực chiến trẻ lớn",
+      "category": "Cạm bẫy lâm sàng sinh tử",
       "badge": "EBM Master",
       "badge_class": "badge-ebm",
-      "front": "Bé 7 tuổi sốt 39.5°C kéo dài 8 ngày, ho khan dữ dội từng cơn kiệt sức, nghe phổi êm ả, X-quang mờ dạng mạng lưới kẽ lan tỏa hai bên, CRP 78 mg/L, đã uống Cefuroxime 4 ngày không đỡ. Chẩn đoán căn nguyên và phác đồ thay đổi kháng sinh?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chẩn đoán căn nguyên:</b> Viêm phổi không điển hình do <b><i>Mycoplasma pneumoniae</i></b> (hiện tượng phân ly lâm sàng - X-quang kinh điển).<br>2) <b>Giải thích thất bại:</b> Cefuroxime vô hiệu 100% vì Mycoplasma không có vách peptidoglycan.<br>3) <b>Phác đồ kháng sinh đích:</b><br>- Ngừng ngay Cefuroxime.<br>- Chuyển sang <b>Azithromycin</b> uống: 10 mg/kg/ngày uống 1 lần duy nhất lúc đói x 5 ngày liên tục.<br>- Hạ sốt Paracetamol 10–15 mg/kg khi sốt ≥ 38.5°C.<br>- Nếu sau 48–72h vẫn sốt cao liên tục (nghi kháng Macrolide) → Hội chẩn đổi sang Doxycycline 4 mg/kg/ngày.<br><br><b>💡 Giải thích của AI:</b><br>Ca bệnh nhấn mạnh phản xạ nhận diện hiện tượng phân ly lâm sàng - X-quang ở trẻ tuổi đi học và nguyên tắc đổi ngay sang kháng sinh ức chế tổng hợp protein ribosome.",
-      "extra": "📖 Nguồn: PIDS/IDSA CAP Guideline & Front Pediatr 2026 (PED-62, Mục 10, Ca lâm sàng 2)",
+      "front": "Cạm bẫy 4: Hiện tượng <span style=\"color:#ffd43b\"><b>'Lâm sàng êm nhưng X-quang rực lửa'</b></span> ở trẻ ho dai dẳng do Mycoplasma dẫn tới sai lầm chẩn đoán lâm sàng nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Sai lầm thường gặp:</b> Vì trẻ lớn vẫn tỉnh táo, chạy nhảy, không khó thở rõ và nghe phổi không có ran ẩm ướt rầm rộ, bác sĩ thường chủ quan kết luận <span style=\"color:#ff6b6b\"><b>'Viêm đường hô hấp trên / Ho dị ứng'</b></span> và chỉ cho siro ho, không chỉ định chụp X-quang ngực.<br>2) <b>Hậu quả:</b> Bỏ lọt chẩn đoán viêm phổi mô kẽ tiến triển nặng, bỏ lỡ thời điểm vàng điều trị Macrolide khiến bệnh kéo dài hàng tháng và dễ xuất hiện các biến chứng ngoài phổi (loét niêm mạc MIRM, viêm khớp, thiếu máu tán huyết).<br>3) <b>Quy tắc thực hành:</b> Mọi trẻ lớn (&gt; 5 tuổi) <span style=\"color:#51cf66\"><b>ho khan dữ dội từng cơn kéo dài trên 7–10 ngày kèm sốt nhẹ hoặc vừa</b></span> bắt buộc phải được chụp X-quang phổi.<br><br><b>💡 Giải thích của AI:</b><br>Đừng bao giờ để sự 'tỉnh táo' của trẻ đánh lừa. Tổn thương mô kẽ do Mycoplasma không làm giảm oxy máu nhanh như đông đặc phế nang nên trẻ ít có triệu chứng suy hô hấp rõ rệt ở giai đoạn đầu.",
+      "extra": "📖 Nguồn: BTS Guidelines on Pediatric CAP & Nelson 21st Ch.250 (PED-62, Mục 7, Bẫy 4)",
       "tags": [
         "PED-62",
-        "B7-Ca-thuc-chien",
-        "EBM-Master"
+        "B7-Cam-bay",
+        "Mycoplasma",
+        "Phan-ly"
+      ]
+    },
+    {
+      "id": "PED62-B7-05",
+      "type": "basic",
+      "section": "B7",
+      "category": "Cạm bẫy lâm sàng sinh tử",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Cạm bẫy 5: Hậu quả của việc <span style=\"color:#ff6b6b\"><b>bỏ quên nguy cơ đồng nhiễm RSV + hMPV</b></span> ở trẻ nhũ nhi suy hô hấp nặng đột ngột là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bỏ lỡ nguy cơ trở nặng tối cấp:</b> Bác sĩ coi thường bệnh cảnh khi chỉ test nhanh thấy RSV dương tính, không lường trước nguy cơ đồng nhiễm hMPV có thể khiến trẻ <span style=\"color:#ff6b6b\"><b>suy hô hấp kịch phát phải nhập PICU gấp 10 lần</b></span>.<br>2) <b>Chậm trễ nâng bậc hỗ trợ hô hấp:</b> Không chủ động chuyển sang thở oxy dòng cao qua gọng mũi (HFNC) hoặc CPAP sớm, dẫn đến tình trạng kiệt sức hô hấp, ngừng thở và phải đặt nội khí quản cấp cứu.<br>3) <b>Hành động chuẩn:</b> Trên các ca viêm tiểu phế quản diễn tiến nặng bất thường hoặc đáp ứng kém với oxy thường, cần chỉ định làm <span style=\"color:#51cf66\"><b>PCR đa mồi (Multiplex PCR panel)</b></span> để phát hiện đồng nhiễm virus.<br><br><b>💡 Giải thích của AI:</b><br>Sự cộng hưởng tổn thương giữa hai virus cùng họ Pneumoviridae làm bong tróc toàn bộ lớp biểu mô và tạo lượng nút nhầy khổng lồ bít kín toàn bộ hai cây phế quản.",
+      "extra": "📖 Nguồn: Semple MG et al. J Infect Dis 2005 (PED-62, Mục 7, Bẫy 5)",
+      "tags": [
+        "PED-62",
+        "B7-Cam-bay",
+        "hMPV",
+        "Dong-nhiem"
+      ]
+    },
+    {
+      "id": "PED62-B7-06",
+      "type": "basic",
+      "section": "B7",
+      "category": "Cạm bẫy lâm sàng sinh tử",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Cạm bẫy 6: Vì sao thói quen <span style=\"color:#ff6b6b\"><b>khí dung Salbutamol và tiêm Corticoid toàn thân vô tội vạ</b></span> cho trẻ viêm tiểu phế quản RSV lại bị AAP kịch liệt phản đối?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế bệnh học không phù hợp:</b> Tắc nghẽn trong RSV là do <span style=\"color:#ff6b6b\"><b>nút nhầy hoại tử và phù nề lòng ống</b></span>, hoàn toàn KHÔNG có co thắt cơ trơn phế quản như trong Hen; Salbutamol không thể làm giãn một lòng ống bị bít bởi nút nhầy.<br>2) <b>Tác hại của Salbutamol:</b> Gây tim đập nhanh, bứt rứt, tăng tiêu thụ oxy cơ tim và dãn mạch phổi ở các phế nang thông khí kém làm nặng thêm bất tương xứng V/Q khiến SpO2 tụt sâu hơn.<br>3) <b>Tác hại của Corticoid:</b> Các thử nghiệm lâm sàng lớn chứng minh Corticoid không rút ngắn thời gian nằm viện, lại gây ức chế miễn dịch làm chậm quá trình thanh thải virus RSV và tăng nguy cơ bội nhiễm.<br><br><b>💡 Giải thích của AI:</b><br>AAP khuyến cáo rõ ràng: Trẻ dưới 12 tháng tuổi bị viêm tiểu phế quản lần đầu tiên KHÔNG ĐƯỢC sử dụng Salbutamol hay Corticoid thường quy. Liệu pháp chuẩn là hút đờm dãi, thở oxy ẩm và bồi phụ dịch.",
+      "extra": "📖 Nguồn: AAP Clinical Practice Guideline on Bronchiolitis 2014 (PED-62, Mục 7, Bẫy 6)",
+      "tags": [
+        "PED-62",
+        "B7-Cam-bay",
+        "RSV",
+        "Lam-dung-thuoc"
+      ]
+    },
+    {
+      "id": "PED62-B7-07",
+      "type": "basic",
+      "section": "B7",
+      "category": "Cạm bẫy lâm sàng sinh tử",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Cạm bẫy 7: Nguy cơ khi đánh đồng tình trạng <span style=\"color:#ff6b6b\"><b>ho kéo dài ở trẻ lớn với 'dị ứng thời tiết'</b></span> mà bỏ sót <span style=\"color:#74c0fc\"><b>Mycoplasma pneumoniae</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguy cơ bỏ sót:</b> Trẻ ho khan dữ dội dai dẳng &gt; 2 tuần thường bị chẩn đoán nhầm thành Hen phế quản hoặc ho kích ứng thời tiết và được kê đơn thuốc kháng histamin, khí dung giãn phế quản đơn thuần.<br>2) <b>Hậu quả:</b> Vi khuẩn tiếp tục âm thầm nhân lên, gây viêm phế quản mạn tính, giãn phế quản thứ phát hoặc kích hoạt các phản ứng tự miễn dịch toàn thân (hội chứng viêm não, tổn thương tim mạch, viêm khớp phản ứng).<br>3) <b>Dấu hiệu cảnh báo hướng tới Mycoplasma:</b> Cơn ho khan kiệt sức rũ rượi, không đáp ứng với thuốc dị ứng, có tiền sử tiếp xúc với bạn cùng lớp có triệu chứng tương tự.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi đợt bùng phát ho kéo dài trong lớp học mầm non lớn hoặc tiểu học cần phải đặt Mycoplasma pneumoniae lên hàng đầu trong chẩn đoán phân biệt.",
+      "extra": "📖 Nguồn: BTS Guidelines & Nelson Textbook of Pediatrics (PED-62, Mục 7, Bẫy 7)",
+      "tags": [
+        "PED-62",
+        "B7-Cam-bay",
+        "Mycoplasma",
+        "Ho-keo-dai"
+      ]
+    },
+    {
+      "id": "PED62-B7-08",
+      "type": "basic",
+      "section": "B7",
+      "category": "Cạm bẫy lâm sàng sinh tử",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Cạm bẫy 8: Vì sao nguy hiểm khi thầy thuốc đợi đủ các triệu chứng rầm rộ mới chẩn đoán <span style=\"color:#74c0fc\"><b>Viêm phổi Phế cầu</b></span> ở <span style=\"color:#ffd43b\"><b>trẻ sơ sinh và trẻ nhũ nhi</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thiếu triệu chứng kinh điển ở trẻ nhỏ:</b> Trẻ sơ sinh và nhũ nhi dưới 6 tháng tuổi có hệ miễn dịch chưa hoàn thiện, thường <span style=\"color:#ff6b6b\"><b>HOÀN TOÀN KHÔNG có sốt cao rét run, không ho đờm rỉ sắt và không có hội chứng đông đặc rõ rệt</b></span>.<br>2) <b>Biểu hiện lâm sàng không điển hình:</b> Trẻ chỉ biểu hiện bằng <span style=\"color:#ff6b6b\"><b>bú kém, bỏ bú, li bì, nôn trớ, chướng bụng, hạ thân nhiệt (&lt; 36°C) hoặc thở rên (Grunting)</b></span>.<br>3) <b>Nguy cơ tử vong:</b> Nếu đợi đủ triệu chứng kinh điển người lớn mới điều trị thì bệnh nhi đã rơi vào sốc nhiễm khuẩn phế cầu, viêm màng não mủ hoặc suy hô hấp kiệt sức không thể hồi phục.<br><br><b>💡 Giải thích của AI:</b><br>Ở trẻ nhũ nhi, 'Thở nhanh' theo ngưỡng WHO và 'Bỏ bú' là hai dấu hiệu có giá trị nhạy nhất để phát hiện sớm viêm phổi, vượt trội hơn nhiều so với việc nghe ran hay tìm tiếng thổi ống.",
+      "extra": "📖 Nguồn: WHO Pocket Book of Hospital Care for Children & Nelson (PED-62, Mục 7, Bẫy 8)",
+      "tags": [
+        "PED-62",
+        "B7-Cam-bay",
+        "Phe-cau",
+        "Nhu-nhi"
+      ]
+    },
+    {
+      "id": "PED62-B8-01",
+      "type": "basic",
+      "section": "B8",
+      "category": "Hạt ngọc lâm sàng bỏ túi",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Nội dung và ý nghĩa của <span style=\"color:#ffd43b\"><b>Clinical Pearl 1 & 2</b></span>: 'Khò khè đầu đời là của Virus' và 'Ran rít do co thắt vs Ran rít do nút nhầy' là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <span style=\"color:#74c0fc\"><b>Pearl 1 ('Khò khè đầu đời là của Virus'):</b></span> Hơn 80% các đợt khò khè khởi phát lần đầu tiên ở trẻ dưới 1 tuổi là do căn nguyên virus (RSV, hMPV, Rhinovirus); vi khuẩn hầu như không gây khò khè đơn độc.<br>• <span style=\"color:#ff6b6b\"><b>Pearl 2 ('Ran rít co thắt vs Ran rít nút nhầy'):</b></span> Tiếng ran rít trong Hen thay đổi nhanh chóng sau khí dung Salbutamol; còn tiếng ran rít trong RSV là do thành ống phù nề và nút nhầy bít tắc nên hoàn toàn trơ lì với thuốc giãn phế quản.<br><br><b>💡 Giải thích của AI:</b><br>Hai viên ngọc lâm sàng này giúp bác sĩ phân định rạch ròi giữa đợt cấp Hen phế quản (co thắt cơ trơn) và Viêm tiểu phế quản do virus (tổn thương cấu trúc phù nề và nút nhầy cơ học).",
+      "extra": "📖 Nguồn: PIDS/IDSA Guidelines & Nelson Textbook of Pediatrics (PED-62, Mục 8)",
+      "tags": [
+        "PED-62",
+        "B8-Clinical-Pearls"
+      ]
+    },
+    {
+      "id": "PED62-B8-02",
+      "type": "basic",
+      "section": "B8",
+      "category": "Hạt ngọc lâm sàng bỏ túi",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Nội dung và ý nghĩa của <span style=\"color:#ffd43b\"><b>Clinical Pearl 3 & 4</b></span>: 'Xẹp phổi hút vào, Đông đặc đẩy ra' và 'Cơn ho rũ rượi kiệt sức ở trẻ lớn' là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <span style=\"color:#ff6b6b\"><b>Pearl 3 ('Xẹp phổi hút vào, Đông đặc đẩy ra'):</b></span> Trên X-quang, xẹp phổi làm giảm thể tích kéo các cấu trúc lân cận (rãnh liên thùy, khí quản, cơ hoành) co rút lệch về phía tổn thương; trong khi đông đặc phổi bảo tồn nguyên vẹn thể tích hoặc đẩy nhẹ các cấu trúc ra xa.<br>• <span style=\"color:#74c0fc\"><b>Pearl 4 ('Cơn ho rũ rượi kiệt sức ở trẻ lớn'):</b></span> Trẻ từ 5 tuổi trở lên ho khan liên tục từng cơn đỏ mặt tía tai kéo dài trên 1 tuần là dấu hiệu lâm sàng nhạy nhất chỉ điểm độc tố CARDS của <i>Mycoplasma pneumoniae</i> làm tê liệt hệ thống lông chuyển.<br><br><b>💡 Giải thích của AI:</b><br>Pearl 3 là nguyên lý hình ảnh học cơ bản giúp tránh nhầm lẫn xẹp thùy trên phổi phải với viêm phổi thùy; Pearl 4 định hướng ngay việc chỉ định dùng Macrolide sớm.",
+      "extra": "📖 Nguồn: Nelson 21st Ch.428 & BTS Guidelines (PED-62, Mục 8)",
+      "tags": [
+        "PED-62",
+        "B8-Clinical-Pearls"
+      ]
+    },
+    {
+      "id": "PED62-B8-03",
+      "type": "basic",
+      "section": "B8",
+      "category": "Hạt ngọc lâm sàng bỏ túi",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Nội dung và ý nghĩa của <span style=\"color:#ffd43b\"><b>Clinical Pearl 5 & 6</b></span>: 'Bão CRP không đồng nghĩa với Kháng sinh bậc cao' và 'Trẻ nhũ nhi viêm phổi không cần ho rầm rộ' là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <span style=\"color:#ff6b6b\"><b>Pearl 5 ('Bão CRP không đồng nghĩa với Kháng sinh bậc cao'):</b></span> Nồng độ CRP tăng &gt; 100 mg/L ở trẻ viêm phổi có thể do phản ứng bão cytokine của Adenovirus; đừng vội vàng leo thang Meropenem hay Vancomycin nếu chưa có bằng chứng vi khuẩn rõ rệt.<br>• <span style=\"color:#ffd43b\"><b>Pearl 6 ('Trẻ nhũ nhi viêm phổi không cần ho rầm rộ'):</b></span> Dấu hiệu sớm và đáng tin cậy nhất của viêm phổi ở trẻ dưới 2 tháng tuổi là <span style=\"color:#ffd43b\"><b>thở nhanh và bỏ bú</b></span>; phản xạ ho ở lứa tuổi này rất yếu ớt và thường không xuất hiện.<br><br><b>💡 Giải thích của AI:</b><br>Hai viên ngọc lâm sàng này giúp bác sĩ giữ vững sự bình tĩnh trước một kết quả xét nghiệm CRP cao chót vót và nâng cao cảnh giác với những dấu hiệu sinh tồn thầm lặng ở trẻ nhỏ.",
+      "extra": "📖 Nguồn: WHO Pocket Book & Nelson Textbook of Pediatrics (PED-62, Mục 8)",
+      "tags": [
+        "PED-62",
+        "B8-Clinical-Pearls"
+      ]
+    },
+    {
+      "id": "PED62-B8-04",
+      "type": "basic",
+      "section": "B8",
+      "category": "Hạt ngọc lâm sàng bỏ túi",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Nội dung và ý nghĩa của <span style=\"color:#ffd43b\"><b>Clinical Pearl 7 & 8</b></span>: 'Salbutamol chỉ có tác dụng khi có cơ trơn co thắt' và 'Di chứng xơ hóa phế quản sau Adenovirus' là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <span style=\"color:#51cf66\"><b>Pearl 7 ('Salbutamol chỉ có tác dụng khi có cơ trơn co thắt'):</b></span> Thụ thể Beta-2 chỉ phát huy tác dụng giãn lòng ống khi cơ trơn đang co thắt; trong viêm tiểu phế quản do RSV lòng ống tắc vì xác tế bào hoại tử, dùng Salbutamol chỉ đem lại tác dụng phụ tim đập nhanh và tụt oxy máu.<br>• <span style=\"color:#ff6b6b\"><b>Pearl 8 ('Di chứng xơ hóa phế quản sau Adenovirus'):</b></span> Bất kỳ trẻ nào sau viêm phổi Adenovirus nặng mà vẫn tiếp tục khò khè, ho kéo dài trên 6 tuần bắt buộc phải tầm soát Viêm tiểu phế quản tắc nghẽn (BO) bằng chụp HRCT phổi.<br><br><b>💡 Giải thích của AI:</b><br>Pearl 7 là lời nhắc nhở dược lý học thực chứng bảo vệ trẻ khỏi dùng thuốc vô ích; Pearl 8 nhắc nhở theo dõi dài hạn để phát hiện di chứng phổi mạn tính kịp thời.",
+      "extra": "📖 Nguồn: AAP Guidelines 2014 & BTS Pediatric Guidelines (PED-62, Mục 8)",
+      "tags": [
+        "PED-62",
+        "B8-Clinical-Pearls"
+      ]
+    },
+    {
+      "id": "PED62-B8-05",
+      "type": "basic",
+      "section": "B8",
+      "category": "Hạt ngọc lâm sàng bỏ túi",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Nội dung và ý nghĩa của <span style=\"color:#ffd43b\"><b>Clinical Pearl 9 & 10</b></span>: 'Hút đờm dãi sạch là liều thuốc giãn phế quản tốt nhất' và 'Amoxicillin liều cao vẫn là vua diệt Phế cầu' là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <span style=\"color:#51cf66\"><b>Pearl 9 ('Hút đờm dãi sạch là liều thuốc tốt nhất cho RSV'):</b></span> Khai thông đường thở trên bằng bấc sâu hoặc hút mũi sạch sẽ làm giảm tới 50% công thở và cải thiện ngay chỉ số SpO2 cho trẻ viêm tiểu phế quản.<br>• <span style=\"color:#51cf66\"><b>Pearl 10 ('Amoxicillin liều cao vẫn là vua diệt Phế cầu'):</b></span> Đừng vội vàng chuyển sang Cephalosporin thế hệ 3 uống; Amoxicillin liều cao (80 – 90 mg/kg/ngày) đạt nồng độ tại nhu mô phổi cao gấp nhiều lần MIC của phế cầu kháng trung gian và diệt khuẩn triệt để nhất.<br><br><b>💡 Giải thích của AI:</b><br>Hai viên ngọc lâm sàng kết thúc này khẳng định chân lý điều trị: điều dưỡng cơ bản tốt (hút mũi) cứu sống bệnh nhân virus; và kháng sinh kinh điển đúng liều (Amox liều cao) vẫn đánh bại vi khuẩn vượt trội hơn các kháng sinh thời thượng.",
+      "extra": "📖 Nguồn: AAP Guidelines & PIDS/IDSA CAP Guidelines (PED-62, Mục 8)",
+      "tags": [
+        "PED-62",
+        "B8-Clinical-Pearls"
+      ]
+    },
+    {
+      "id": "PED62-B9-01",
+      "type": "basic",
+      "section": "B9",
+      "category": "Checkpoints tư duy phản biện",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Checkpoint 1 (Cơ chế sinh học): Tại sao thuốc giãn phế quản Salbutamol có hiệu quả rất tốt trong <span style=\"color:#74c0fc\"><b>Hen phế quản</b></span> nhưng lại hoàn toàn vô tác dụng trong <span style=\"color:#ff6b6b\"><b>Viêm tiểu phế quản do RSV</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất tắc nghẽn trong Hen:</b> Là do <span style=\"color:#51cf66\"><b>sự co thắt chủ động của lớp cơ trơn phế quản</b></span>; Salbutamol kích thích thụ thể Beta-2 adrenergic trên cơ trơn làm tăng cAMP gây giãn cơ trơn tức thì.<br>2) <b>Bản chất tắc nghẽn trong RSV:</b> Là do <span style=\"color:#ff6b6b\"><b>sự bít tắc cơ học lòng ống bởi nút nhầy hoại tử</b></span> kết hợp với phù nề thành tiểu phế quản; ở trẻ nhỏ dưới 1 tuổi lớp cơ trơn tiểu phế quản chưa phát triển hoàn thiện và không hề bị co thắt.<br>3) <b>Hậu quả:</b> Salbutamol không thể làm tan nút nhầy hay giảm phù nề, mà chỉ gây tác dụng phụ có hại.<br><br><b>💡 Giải thích của AI:</b><br>Muốn giải quyết bít tắc cơ học trong RSV, chỉ có cách làm loãng đờm (khí thở ẩm ấm, bù dịch), hút đờm dãi và tạo áp lực dương (CPAP/HFNC) để nong rộng lòng ống cho khí lưu thông.",
+      "extra": "📖 Nguồn: AAP Bronchiolitis Guidelines 2014 (PED-62, Mục 9, Checkpoint 1)",
+      "tags": [
+        "PED-62",
+        "B9-Checkpoints",
+        "Co-che",
+        "Salbutamol"
+      ]
+    },
+    {
+      "id": "PED62-B9-02",
+      "type": "basic",
+      "section": "B9",
+      "category": "Checkpoints tư duy phản biện",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Checkpoint 2 (Dược lý vi sinh): Một bác sĩ kê đơn <span style=\"color:#ff6b6b\"><b>Cefuroxime axetil (Cephalosporin thế hệ 2) đường uống</b></span> để điều trị viêm phổi do <span style=\"color:#74c0fc\"><b>Mycoplasma pneumoniae</b></span> — Phân tích sai lầm dược lý này?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế tác dụng của Cephalosporin:</b> Gắn vào các enzyme PBP để ức chế bước cuối cùng trong quá trình tổng hợp lớp lưới peptidoglycan tạo nên vách tế bào vi khuẩn.<br>2) <b>Điểm sai lầm cốt tử:</b> <i>Mycoplasma pneumoniae</i> là vi khuẩn <span style=\"color:#ff6b6b\"><b>hoàn toàn không có vách peptidoglycan</b></span>; chúng được bao bọc bởi màng lipid chứa sterol.<br>3) <b>Kết luận:</b> Cefuroxime axetil hoàn toàn vô tác dụng (hiệu quả điều trị bằng 0), gây tốn kém tiền bạc và tiêu diệt hệ vi khuẩn đường ruột có ích của bệnh nhi.<br><br><b>💡 Giải thích của AI:</b><br>Bắt buộc phải sử dụng các nhóm kháng sinh thâm nhập được vào nội bào và ức chế tổng hợp protein tại ribosome: Macrolide (Azithromycin, Clarithromycin), Tetracycline (Doxycycline) hoặc Fluoroquinolone.",
+      "extra": "📖 Nguồn: PIDS/IDSA CAP Guidelines (PED-62, Mục 9, Checkpoint 2)",
+      "tags": [
+        "PED-62",
+        "B9-Checkpoints",
+        "Duoc-ly",
+        "Cefuroxime"
+      ]
+    },
+    {
+      "id": "PED62-B9-03",
+      "type": "basic",
+      "section": "B9",
+      "category": "Checkpoints tư duy phản biện",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Checkpoint 3 (Hình ảnh học): Trên phim X-quang phổi, làm thế nào để phân biệt chắc chắn một tổn thương <span style=\"color:#ff6b6b\"><b>Xẹp thùy phổi do nút nhầy (Atelectasis)</b></span> với <span style=\"color:#74c0fc\"><b>Đông đặc thùy phổi do vi khuẩn (Consolidation)</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Dựa vào <span style=\"color:#ffd43b\"><b>3 tiêu chí hình ảnh học đối chiếu</b></span>:<br>1) <span style=\"color:#ffd43b\"><b>Thể tích thùy phổi bị tổn thương:</b></span><br>• <b>Xẹp phổi:</b> Luôn kèm hiện tượng <span style=\"color:#ff6b6b\"><b>GIẢM THỂ TÍCH</b></span> rõ rệt của thùy phổi.<br>• <b>Đông đặc:</b> <span style=\"color:#51cf66\"><b>BẢO TỒN THỂ TÍCH</b></span> hoặc thể tích thùy phổi hơi phồng to nhẹ.<br>2) <span style=\"color:#ffd43b\"><b>Sự di lệch của rãnh liên thùy:</b></span><br>• <b>Xẹp phổi:</b> Rãnh liên thùy bị <span style=\"color:#ff6b6b\"><b>kéo cong lõm về phía tổn thương</b></span>.<br>• <b>Đông đặc:</b> Rãnh liên thùy giữ nguyên vị trí giải phẫu hoặc bị đẩy vồng ra xa.<br>3) <span style=\"color:#ffd43b\"><b>Sự di lệch của khí quản và tim:</b></span><br>• <b>Xẹp phổi:</b> Bị co kéo lệch về bên tổn thương (nếu xẹp diện rộng).<br>• <b>Đông đặc:</b> Không gây di lệch hoặc đẩy nhẹ sang bên đối diện nếu có tràn dịch đi kèm.<br><br><b>💡 Giải thích của AI:</b><br>Quy tắc vàng: 'Xẹp phổi kéo vào (giảm thể tích), đông đặc đẩy ra (bảo tồn thể tích)'. Nhớ quy tắc này sẽ giúp bác sĩ không bao giờ chẩn đoán nhầm xẹp phổi RSV thành viêm phổi vi khuẩn.",
+      "extra": "📖 Nguồn: Radiopaedia & BTS Guidelines (PED-62, Mục 9, Checkpoint 3)",
+      "tags": [
+        "PED-62",
+        "B9-Checkpoints",
+        "X-quang",
+        "Atelectasis"
+      ]
+    },
+    {
+      "id": "PED62-B9-04",
+      "type": "basic",
+      "section": "B9",
+      "category": "Checkpoints tư duy phản biện",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Checkpoint 4 (Dấu ấn sinh học): Phân tích giá trị phân định của <span style=\"color:#51cf66\"><b>Procalcitonin (PCT)</b></span> so với <span style=\"color:#ffd43b\"><b>CRP</b></span> trong việc phân biệt <span style=\"color:#ff6b6b\"><b>Bão CRP do Adenovirus</b></span> với <span style=\"color:#74c0fc\"><b>Nhiễm khuẩn huyết do Phế cầu</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế sản xuất:</b><br>• <b>CRP:</b> Gan sản xuất dưới kích thích của IL-6; Adenovirus kích hoạt bão IL-6 cực mạnh khiến CRP tăng vọt &gt; 100 mg/L dù không có vi khuẩn.<br>• <b>Procalcitonin:</b> Được kích hoạt bởi nội độc tố vi khuẩn (LPS) và các độc tố vi khuẩn chuyên biệt, nhưng bị <span style=\"color:#51cf66\"><b>ỨC CHẾ MẠNH MẼ bởi Interferon-gamma (IFN-γ)</b></span> do cơ thể tiết ra trong các đợt nhiễm virus.<br>2) <b>Giá trị phân định lâm sàng:</b><br>• <b>Adenovirus:</b> CRP tăng rất cao (&gt; 100 mg/L) nhưng <span style=\"color:#51cf66\"><b>PCT thường ở mức thấp hoặc tăng nhẹ (&lt; 0.5 – 1.0 ng/mL)</b></span> do bị IFN-γ ức chế.<br>• <b>Nhiễm khuẩn Phế cầu xâm lấn:</b> Cả CRP và <span style=\"color:#ff6b6b\"><b>PCT đều tăng vọt dữ dội (&gt; 2 – 10 ng/mL)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Procalcitonin là 'trọng tài' công tâm nhất khi đối diện với một ca bão CRP: Nếu PCT thấp dưới 0.5 ng/mL, bác sĩ có thể tự tin trì hoãn leo thang kháng sinh phổ rộng và theo dõi sát căn nguyên virus.",
+      "extra": "📖 Nguồn: Schuetz P et al. Cochrane Database Syst Rev 2017 & PIDS Guidelines (PED-62, Mục 9, Checkpoint 4)",
+      "tags": [
+        "PED-62",
+        "B9-Checkpoints",
+        "Biomarker",
+        "PCT-vs-CRP"
+      ]
+    },
+    {
+      "id": "PED62-B9-05",
+      "type": "basic",
+      "section": "B9",
+      "category": "Checkpoints tư duy phản biện",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Checkpoint 5 (Dự phòng di chứng): Làm thế nào để nhận diện sớm và quản lý theo dõi nguy cơ <span style=\"color:#ff6b6b\"><b>Viêm tiểu phế quản tắc nghẽn (BO)</b></span> sau khi trẻ bị nhiễm <span style=\"color:#74c0fc\"><b>Adenovirus thể hoại tử nặng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Dấu hiệu cảnh báo sớm:</b> Trẻ sau đợt nhiễm Adenovirus cấp tính vẫn tiếp tục <span style=\"color:#ff6b6b\"><b>khò khè, ho kéo dài, khó thở khi gắng sức và phụ thuộc oxy sau 6 – 8 tuần</b></span> dù đã được điều trị tối ưu.<br>2) <b>Tiêu chuẩn vàng chẩn đoán:</b> Chỉ định chụp <span style=\"color:#51cf66\"><b>HRCT phổi lát cắt mỏng cả thì hít vào và thở ra</b></span> để tìm hình ảnh bẫy khí dạng khảm (Mosaic perfusion / Air trapping), dày thành phế quản và giãn phế quản.<br>3) <b>Kế hoạch quản lý:</b><br>• Khí dung Corticoid liều cao kéo dài để ức chế phản ứng viêm xơ hóa tiếp diễn.<br>• Làm vật lý trị liệu hô hấp thường xuyên để dẫn lưu đờm.<br>• Tiêm phòng đầy đủ Cúm và Phế cầu để ngăn ngừa các đợt nhiễm trùng bội nhiễm tái phát.<br><br><b>💡 Giải thích của AI:</b><br>Viêm tiểu phế quản tắc nghẽn sau Adenovirus là di chứng tàn phá chức năng hô hấp của trẻ suốt đời. Nhận diện sớm trên HRCT giúp can thiệp kháng viêm kịp thời trước khi các sẹo xơ bít kín vĩnh viễn lòng ống.",
+      "extra": "📖 Nguồn: BTS Guidelines on Pediatric Bronchiolitis Obliterans (PED-62, Mục 9, Checkpoint 5)",
+      "tags": [
+        "PED-62",
+        "B9-Checkpoints",
+        "Di-chung-BO",
+        "HRCT"
+      ]
+    },
+    {
+      "id": "PED62-B10-01",
+      "type": "basic",
+      "section": "B10",
+      "category": "Ca lâm sàng thực chiến",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Ca lâm sàng 1 (Bước 1 & 2): Trẻ nhũ nhi 4 tháng tuổi vào viện vì khò khè, thở rút lõm lồng ngực, bú ngắt quãng; X-quang phổi có <span style=\"color:#ff6b6b\"><b>đám mờ ở thùy trên phổi phải (RUL)</b></span> — Phân tích <span style=\"color:#74c0fc\"><b>hội chứng lâm sàng</b></span> và <span style=\"color:#ffd43b\"><b>bẫy hình ảnh học</b></span> của ca bệnh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Bước 1 (Nhận diện hội chứng lâm sàng):</b></span> Trẻ 4 tháng tuổi có hội chứng viêm long hô hấp trên 3 ngày chuyển sang hội chứng suy hô hấp và tắc nghẽn đường thở dưới (thở nhanh, rút lõm ngực sâu, khò khè thì thở ra, ran rít, ran ẩm nhỏ hạt hai đáy). Bệnh cảnh điển hình của <span style=\"color:#74c0fc\"><b>Viêm tiểu phế quản cấp do virus (hàng đầu là RSV)</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Bước 2 (Giải mã bẫy hình ảnh học X-quang):</b></span> Đám mờ thùy trên phổi phải (RUL) kèm theo rãnh liên thùy bé bị kéo cong vồng lên trên và phế trường hai bên ứ khí tăng sáng khẳng định đây là tổn thương <span style=\"color:#ff6b6b\"><b>Xẹp thùy trên phổi phải do nút nhầy bít tắc (Atelectasis)</b></span> chứ KHÔNG PHẢI viêm phổi thùy đông đặc do vi khuẩn.<br><br><b>💡 Giải thích của AI:</b><br>Nhận diện chính xác xẹp phổi do nút nhầy ở Bước 2 là chìa khóa then chốt ngăn chặn việc chỉ định dùng kháng sinh tĩnh mạch và chụp CT không cần thiết cho trẻ.",
+      "extra": "📖 Nguồn: AAP Guidelines 2014 & Clinical Case Records (PED-62, Mục 10, Ca 1)",
+      "tags": [
+        "PED-62",
+        "B10-Ca-lam-sang",
+        "Ca-1",
+        "RSV-Atelectasis"
+      ]
+    },
+    {
+      "id": "PED62-B10-02",
+      "type": "basic",
+      "section": "B10",
+      "category": "Ca lâm sàng thực chiến",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Ca lâm sàng 1 (Bước 3, 4 & 5): Kế hoạch <span style=\"color:#51cf66\"><b>xử trí hỗ trợ 3 KHÔNG, 3 NÊN</b></span> và <span style=\"color:#ffd43b\"><b>tiêu chuẩn xuất viện an toàn</b></span> cho trẻ nhũ nhi 4 tháng tuổi viêm tiểu phế quản RSV xẹp thùy trên phổi phải?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Kế hoạch xử trí 3 NÊN:</b></span><br>• <span style=\"color:#51cf66\"><b>Hút thông thoáng đường thở trên</b></span> trước mỗi cữ bú.<br>• <span style=\"color:#51cf66\"><b>Thở oxy qua gọng mũi hoặc HFNC</b></span> để duy trì SpO2 &gt; 92% – 94%.<br>• <span style=\"color:#51cf66\"><b>Chia nhỏ cữ bú</b></span> (ăn qua sonde dạ dày nếu nhịp thở &gt; 60 lần/phút để tránh hít sặc).<br>2) <span style=\"color:#ff6b6b\"><b>Kế hoạch 3 KHÔNG:</b></span> KHÔNG dùng Salbutamol khí dung, KHÔNG tiêm Corticoid, KHÔNG kê kháng sinh.<br>3) <span style=\"color:#ffd43b\"><b>Tiêu chuẩn xuất viện an toàn:</b></span> Trẻ tự thở khí phòng với SpO2 &gt; 92% ổn định trong 12–24h, nhịp thở về mức an toàn theo tuổi, bú mẹ tốt đạt &gt; 75% nhu cầu bình thường và gia đình hiểu rõ các dấu hiệu cảnh báo tái khám.<br><br><b>💡 Giải thích của AI:</b><br>Đám mờ xẹp phổi trên X-quang sẽ tự tái thông khí sau 5-7 ngày khi nút nhầy được cơ thể hóa lỏng và ho tống xuất; không cần chụp lại X-quang kiểm tra nếu lâm sàng trẻ cải thiện tốt.",
+      "extra": "📖 Nguồn: AAP Clinical Practice Guideline: Bronchiolitis (PED-62, Mục 10, Ca 1)",
+      "tags": [
+        "PED-62",
+        "B10-Ca-lam-sang",
+        "Ca-1",
+        "Dieu-tri"
+      ]
+    },
+    {
+      "id": "PED62-B10-03",
+      "type": "basic",
+      "section": "B10",
+      "category": "Ca lâm sàng thực chiến",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Ca lâm sàng 2 (Bước 1 & 2): Trẻ 7 tuổi sốt cao 39°C kéo dài 7 ngày, ho khan từng cơn kiệt sức rũ rượi, khám phổi ran rất nghèo nàn nhưng X-quang có <span style=\"color:#ff6b6b\"><b>đám mờ thâm nhiễm dạng lưới hạt lan tỏa hai bên</b></span>, CRP 45 mg/L — Phân tích <span style=\"color:#74c0fc\"><b>hội chứng lâm sàng</b></span> và <span style=\"color:#74c0fc\"><b>căn nguyên vi sinh</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Bước 1 (Nhận diện hội chứng phân ly lâm sàng - X-quang):</b></span> Trẻ 7 tuổi (lứa tuổi học đường) có sự đối lập rõ rệt giữa lâm sàng (tỉnh táo, không khó thở nặng, nghe phổi ran rất nghèo nàn) với hình ảnh X-quang thâm nhiễm mô kẽ lan tỏa nặng nề; cơn ho khan dữ dội từng cơn kiệt sức kéo dài &gt; 1 tuần.<br>2) <span style=\"color:#74c0fc\"><b>Bước 2 (Định danh căn nguyên vi sinh):</b></span> Bệnh cảnh lâm sàng và dịch tễ hướng tới 95% là <span style=\"color:#74c0fc\"><b>Viêm phổi không điển hình do <i>Mycoplasma pneumoniae</i></b></span>; chỉ định làm Real-time PCR dịch tỵ hầu để khẳng định chẩn đoán.<br><br><b>💡 Giải thích của AI:</b><br>Sự kết hợp giữa: Trẻ học đường + Ho khan rũ rượi + Nghe phổi nghèo nàn + X-quang mô kẽ rực lửa + CRP tăng vừa (45 mg/L) là bệnh cảnh sách giáo khoa kinh điển của Mycoplasma pneumoniae.",
+      "extra": "📖 Nguồn: BTS Pediatric CAP Guidelines & Nelson 21st Ch.250 (PED-62, Mục 10, Ca 2)",
+      "tags": [
+        "PED-62",
+        "B10-Ca-lam-sang",
+        "Ca-2",
+        "Mycoplasma"
+      ]
+    },
+    {
+      "id": "PED62-B10-04",
+      "type": "basic",
+      "section": "B10",
+      "category": "Ca lâm sàng thực chiến",
+      "badge": "EBM Master",
+      "badge_class": "badge-ebm",
+      "front": "Ca lâm sàng 2 (Bước 3, 4 & 5): Phác đồ <span style=\"color:#51cf66\"><b>kháng sinh đặc hiệu</b></span>, hướng xử trí khi <span style=\"color:#ff6b6b\"><b>sốt không hạ sau 48h (nghi ngờ kháng Macrolide)</b></span> và các <span style=\"color:#ff6b6b\"><b>biến chứng ngoài phổi cần theo dõi</b></span> ở trẻ 7 tuổi viêm phổi Mycoplasma?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Bước 3 (Kháng sinh đặc hiệu đầu tay):</b></span> Bắt đầu ngay với <span style=\"color:#51cf66\"><b>Azithromycin đường uống</b></span>: <span style=\"color:#ffd43b\"><b>10 mg/kg vào Ngày 1</b></span> (tối đa 500 mg), sau đó <span style=\"color:#ffd43b\"><b>5 mg/kg/ngày từ Ngày 2 đến Ngày 5</b></span> (tối đa 250 mg/ngày). <i>Chống chỉ định dùng Amoxicillin hay Cephalosporin</i>.<br>2) <span style=\"color:#ff6b6b\"><b>Bước 4 (Khi nghi ngờ kháng Macrolide):</b></span> Nếu sau 48–72h điều trị trẻ vẫn sốt cao liên tục, ho tăng lên và X-quang phổi xấu đi: Chuyển sang <span style=\"color:#51cf66\"><b>Doxycycline 4 mg/kg/ngày chia 2 lần</b></span> trong 7–10 ngày (hoặc Quinolone hô hấp như Levofloxacin nếu suy hô hấp).<br>3) <span style=\"color:#ff6b6b\"><b>Bước 5 (Theo dõi biến chứng ngoài phổi):</b></span> Khám kỹ niêm mạc miệng, mắt tìm <span style=\"color:#ff6b6b\"><b>Hội chứng phát ban viêm niêm mạc (MIRM)</b></span>, kiểm tra công thức máu và nước tiểu tìm thiếu máu tán huyết tự miễn do kháng thể ngưng kết lạnh, theo dõi tri giác phát hiện viêm não sớm.<br><br><b>💡 Giải thích của AI:</b><br>Doxycycline có hiệu quả diệt Mycoplasma kháng Macrolide vượt trội và an toàn khi dùng ngắn ngày (7-10 ngày), giúp dập tắt sốt nhanh chóng trong vòng 24-48 giờ.",
+      "extra": "📖 Nguồn: PIDS/IDSA Guidelines & Nelson Textbook of Pediatrics (PED-62, Mục 10, Ca 2)",
+      "tags": [
+        "PED-62",
+        "B10-Ca-lam-sang",
+        "Ca-2",
+        "Dieu-tri"
+      ]
+    },
+    {
+      "id": "PED62-ALG-01",
+      "type": "basic",
+      "section": "B0",
+      "category": "Thuật toán ra quyết định nhanh",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#51cf66\"><b>Thuật toán phân luồng 3 nhánh:</b></span> Tiếp cận căn nguyên vi sinh hô hấp ở trẻ em theo <span style=\"color:#ffd43b\"><b>Lứa tuổi</b></span> và <span style=\"color:#74c0fc\"><b>Bản chất tổn thương</b></span> tại giường như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <span style=\"color:#74c0fc\"><b>NHÁNH 1 (Trẻ &lt; 2 tuổi + Khò khè tắc nghẽn + Ran rít/ngáy/ẩm nhỏ hạt):</b></span> Nghĩ ngay <b>Virus đường thở nhỏ (RSV hàng đầu, hMPV)</b> \\→ Chiến lược hỗ trợ hút thông thoáng đờm dãi + oxy ẩm ấm; <span style=\"color:#ff6b6b\"><b>chống chỉ định kháng sinh, giãn phế quản và corticoid</b></span>.<br>• <span style=\"color:#74c0fc\"><b>NHÁNH 2 (Mọi lứa tuổi + Sốt cao đột ngột rét run + Đông đặc thùy phổi + Ran nổ dòn):</b></span> Nghĩ ngay <b>Vi khuẩn điển hình (Phế cầu hàng đầu)</b> \\→ <span style=\"color:#51cf66\"><b>Amoxicillin liều cao 80 – 90 mg/kg/ngày</b></span>.<br>• <span style=\"color:#74c0fc\"><b>NHÁNH 3 (Trẻ &gt; 5 tuổi + Ho khan rũ rượi kiệt sức + Khám phổi nghèo nàn nhưng X-quang mô kẽ lan tỏa):</b></span> Nghĩ ngay <b>Vi khuẩn không điển hình (<i>Mycoplasma pneumoniae</i>)</b> \\→ <span style=\"color:#51cf66\"><b>Macrolide (Azithromycin) hoặc Doxycycline</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thuật toán 3 nhánh này giúp bác sĩ phân loại bệnh nhân trong 60 giây đầu tiên, chọn trúng đích can thiệp và tránh kê đơn sai lầm.",
+      "extra": "📖 Nguồn: PIDS/IDSA Pediatric CAP Guidelines & AAP Bronchiolitis Guidelines (PED-62, Thuật toán quyết định)",
+      "tags": [
+        "PED-62",
+        "Thuat-toan",
+        "Phan-luong"
+      ]
+    },
+    {
+      "id": "PED62-ALG-02",
+      "type": "basic",
+      "section": "B1",
+      "category": "Thuật toán ra quyết định nhanh",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#51cf66\"><b>Bảng kiểm hành động tại giường (Bedside Checklist):</b></span> <span style=\"color:#ff6b6b\"><b>3 KHÔNG</b></span> và <span style=\"color:#51cf66\"><b>3 NÊN</b></span> chuẩn mực của AAP khi tiếp nhận trẻ nhũ nhi nghi viêm tiểu phế quản do <span style=\"color:#74c0fc\"><b>RSV</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <span style=\"color:#ff6b6b\"><b>3 KHÔNG (Tránh can thiệp có hại):</b></span><br>1) <span style=\"color:#ff6b6b\"><b>KHÔNG khí dung Salbutamol:</b></span> Không có co thắt cơ trơn; Salbutamol gây tim đập nhanh và tăng V/Q mismatch.<br>2) <span style=\"color:#ff6b6b\"><b>KHÔNG dùng Corticoid:</b></span> Không rút ngắn ngày nằm viện, làm chậm đào thải virus.<br>3) <span style=\"color:#ff6b6b\"><b>KHÔNG kê kháng sinh:</b></span> Tỷ lệ bội nhiễm vi khuẩn cực thấp (&lt; 1% – 2%).<br>• <span style=\"color:#51cf66\"><b>3 NÊN (Can thiệp cứu sống):</b></span><br>1) <span style=\"color:#51cf66\"><b>NÊN hút thông thoáng đường thở trên</b></span> bằng bấc sâu hoặc máy hút nhẹ trước khi ăn/ngủ.<br>2) <span style=\"color:#51cf66\"><b>NÊN thở oxy ẩm ấm hoặc HFNC</b></span> tạo PEEP động mở phế quản, duy trì SpO2 &gt; 92% – 94%.<br>3) <span style=\"color:#51cf66\"><b>NÊN bảo đảm dinh dưỡng đủ dịch</b></span> (ăn qua sonde dạ dày nếu nhịp thở &gt; 60 lần/phút để tránh sặc).<br><br><b>💡 Giải thích của AI:</b><br>Bảng kiểm 3 KHÔNG - 3 NÊN là quy chuẩn vàng tại các trung tâm cấp cứu Nhi khoa trên thế giới để chuẩn hóa điều trị RSV thực chứng.",
+      "extra": "📖 Nguồn: AAP Clinical Practice Guideline on Bronchiolitis 2014 (PED-62, Thuật toán quyết định)",
+      "tags": [
+        "PED-62",
+        "Thuat-toan",
+        "Checklist-RSV"
+      ]
+    },
+    {
+      "id": "PED62-ALG-03",
+      "type": "basic",
+      "section": "B5",
+      "category": "Thuật toán ra quyết định nhanh",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#51cf66\"><b>Thuật toán 3 bước X-quang:</b></span> Phân biệt tức thì <span style=\"color:#ff6b6b\"><b>Xẹp thùy trên phổi phải do RSV</b></span> vs <span style=\"color:#74c0fc\"><b>Đông đặc thùy phổi do Phế cầu</b></span> để tránh kê kháng sinh oan uổng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <span style=\"color:#ffd43b\"><b>BƯỚC 1 (Kiểm tra Rãnh liên thùy bé):</b></span> Nếu rãnh liên thùy bị <span style=\"color:#ff6b6b\"><b>KÉO CONG VỒNG LÊN TRÊN</b></span> \\→ Xẹp phổi; Nếu rãnh liên thùy <span style=\"color:#51cf66\"><b>NẰM NGANG PHẲNG hoặc ĐẨY VỒNG XUỐNG</b></span> \\→ Đông đặc.<br>• <span style=\"color:#ffd43b\"><b>BƯỚC 2 (Kiểm tra Thể tích thùy phổi):</b></span> Nếu <span style=\"color:#ff6b6b\"><b>GIẢM THỂ TÍCH</b></span> rõ rệt \\→ Xẹp phổi; Nếu <span style=\"color:#51cf66\"><b>BẢO TỒN NGUYÊN VẸN</b></span> thể tích \\→ Đông đặc.<br>• <span style=\"color:#ffd43b\"><b>BƯỚC 3 (Kiểm tra Di lệch trung thất):</b></span> Nếu khí quản bị <span style=\"color:#ff6b6b\"><b>KÉO LỆCH VỀ BÊN TỔN THƯƠNG</b></span> \\→ Xẹp phổi; Nếu khí quản <span style=\"color:#51cf66\"><b>Ở ĐƯỜNG GIỮA</b></span> \\→ Đông đặc.<br>• <span style=\"color:#51cf66\"><b>HÀNH ĐỘNG:</b></span> Xẹp thùy do RSV \\→ Vỗ rung, hút đờm, oxy ẩm (KHÔNG kháng sinh); Đông đặc do Phế cầu \\→ Amoxicillin liều cao.<br><br><b>💡 Giải thích của AI:</b><br>Quy tắc 3 bước này giải quyết triệt để sự hoang mang khi nhìn thấy đám mờ thùy trên phổi phải ở trẻ nhũ nhi.",
+      "extra": "📖 Nguồn: Radiopaedia & BTS Pediatric CAP Guidelines (PED-62, Thuật toán quyết định)",
+      "tags": [
+        "PED-62",
+        "Thuat-toan",
+        "X-quang"
+      ]
+    },
+    {
+      "id": "PED62-ALG-04",
+      "type": "basic",
+      "section": "B5",
+      "category": "Thuật toán ra quyết định nhanh",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#51cf66\"><b>Bảng liều thuốc bỏ túi (Pocket Dosing Guide):</b></span> Liều lượng, đường dùng và thời gian điều trị chuẩn của <span style=\"color:#ffd43b\"><b>5 loại thuốc chủ lực</b></span> trong nhiễm trùng hô hấp trẻ em là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Amoxicillin (Diệt Phế cầu):</b></span> <span style=\"color:#ffd43b\"><b>80 – 90 mg/kg/ngày chia 2 – 3 lần uống</b></span> trong 7 – 10 ngày (tối đa 2.000 – 3.000 mg/ngày).<br>2) <span style=\"color:#51cf66\"><b>Azithromycin (Diệt Mycoplasma):</b></span> <span style=\"color:#ffd43b\"><b>10 mg/kg ngày 1</b></span> (max 500 mg), sau đó <span style=\"color:#ffd43b\"><b>5 mg/kg/ngày từ ngày 2 đến ngày 5</b></span> (max 250 mg).<br>3) <span style=\"color:#51cf66\"><b>Doxycycline (Mycoplasma kháng Macrolide):</b></span> <span style=\"color:#ffd43b\"><b>4 mg/kg/ngày chia 2 lần uống</b></span> trong 7 – 10 ngày (trẻ ≥ 8 tuổi hoặc đợt ngắn &lt; 8 tuổi).<br>4) <span style=\"color:#51cf66\"><b>Cidofovir (Adenovirus nguy kịch):</b></span> <span style=\"color:#ffd43b\"><b>5 mg/kg truyền TM 1 lần/tuần</b></span> kèm Probenecid và truyền bù dịch tích cực chống độc thận.<br>5) <span style=\"color:#51cf66\"><b>IVIG (Bão Cytokine Adenovirus):</b></span> <span style=\"color:#ffd43b\"><b>1 – 2 g/kg truyền tĩnh mạch chậm</b></span> trong 24 – 48 giờ.<br><br><b>💡 Giải thích của AI:</b><br>Bảng liều này là sổ tay hành động tại giường giúp bác sĩ tra cứu liều chuẩn xác chỉ trong 10 giây, tránh bẫy liều thấp thất bại điều trị của Phế cầu hoặc quên liều tải của Azithromycin.",
+      "extra": "📖 Nguồn: PIDS/IDSA Guidelines & Harriet Lane Handbook (PED-62, Thuật toán quyết định)",
+      "tags": [
+        "PED-62",
+        "Thuat-toan",
+        "Pocket-Dosing"
       ]
     }
   ]

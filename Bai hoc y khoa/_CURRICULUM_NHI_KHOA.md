@@ -22,7 +22,7 @@
 | **PED-02** | P0 | Tam giác đánh giá nhi khoa (PAT) & Tiếp cận ABCDE | Đánh giá nhanh trong 60 giây đầu: Vẻ ngoài (Appearance) - Hô hấp (Breathing) - Tuần hoàn da (Circulation); phân biệt suy hô hấp vs kiệt sức hô hấp, sốc bù vs mất bù. | — | ✅ GATES ĐẠT (MD + APKG 48 thẻ + App HTML) |
 | **PED-02b** | P0 | Hướng dẫn thăm khám lâm sàng & Nghiệm pháp đặc thù Nhi khoa | Triết lý "Khám không khóc", trình tự khám đảo ngược/cơ hội; khám toàn diện các hệ cơ quan; bộ nghiệm pháp và phản xạ nguyên thủy đặc thù Nhi. | PED-01, 02 | ✅ GATES ĐẠT (MD) |
 | **PED-03** | P0 | Nguyên tắc kê đơn & Tính liều thuốc an toàn ở trẻ em | Tính liều theo mg/kg; **bẫy trần liều người lớn**; dạng bào chế thực tế (siro, cốm, viên đạn); tốc độ truyền dịch và các thuốc chống chỉ định ở trẻ nhỏ. | — | ✅ GATES ĐẠT (MD + APKG 48 thẻ + App HTML) |
-| **PED-63** | P0 | Biến thiên công thức bạch cầu theo tuổi & Nhận định Nhiễm trùng vs Virus | Sinh lý 2 lần bắt chéo Neutrophil - Lympho (5-7 ngày & 5-7 tuổi); bẫy đọc CBC theo chuẩn người lớn; các dấu hiệu nhận định nhiễm khuẩn vs virus (WBC, ANC, I/T ratio, dải chuyển trái, bạch cầu đa hình, hạt độc tính, Dohle, Lympho không điển hình, bẫy ho gà/thương hàn). | PED-01 | ✅ GATES ĐẠT (MD + APKG 24 thẻ) |
+| **PED-63** | P0 | Biến thiên công thức bạch cầu theo tuổi & Nhận định Nhiễm trùng vs Virus | Sinh lý 2 lần bắt chéo Neutrophil - Lympho (5-7 ngày & 5-7 tuổi); bẫy đọc CBC theo chuẩn người lớn; các dấu hiệu nhận định nhiễm khuẩn vs virus (WBC, ANC, I/T ratio, dải chuyển trái, bạch cầu đa hình, hạt độc tính, Dohle, Lympho không điển hình, bẫy ho gà/thương hàn). | PED-01 | ✅ GATES ĐẠT (MD + APKG 52 thẻ Master Basic) |
 ---
 
 ### Block 1 — Hồi sức, Cấp cứu & Ngộ độc Nhi khoa (09 bài)
@@ -64,7 +64,7 @@
 | **PED-23** | P0 | Hen phế quản trẻ em: Chẩn đoán & Kiểm soát mạn | Tiêu chuẩn chẩn đoán hen ở trẻ < 5 tuổi và ≥ 5 tuổi; bậc thang điều trị duy trì (GINA: ICS liều thấp/vừa); kỹ thuật dùng bình xịt định liều kèm buồng đệm (MDI + Spacer); kế hoạch hành động tại nhà. | PED-08 | ❌ CHƯA CÓ |
 | **PED-24** | P0 | Croup (Viêm thanh khí phế quản cấp) | Tam chứng ho ông ổng, thở rít khi nằm yên, khàn tiếng; thang điểm Westley; xử trí: Dexamethasone liều duy nhất uống/tiêm, khí dung Adrenaline trong thể nặng. | PED-01, 20 | ✅ GATES ĐẠT (MD + APKG 100 thẻ Master) |
 | **PED-25** | P0 | Liệu pháp Oxy & Hỗ trợ hô hấp không xâm lấn | Chỉ định và giới hạn của canula mũi, mặt nạ có túi dự trữ; nguyên lý và chỉ định oxy dòng cao qua mũi (HFNC), thở áp lực dương liên tục (CPAP) trong suy hô hấp nhi. | PED-02 | ✅ GATES ĐẠT (MD + APKG 150 thẻ) |
-| **PED-62** | P0 | Căn nguyên vi sinh hô hấp thường gặp ở trẻ em (RSV, Adenovirus, Mycoplasma, hMPV, Phế cầu) | Bệnh học 7 tầng; phân biệt tắc nghẽn ứ khí (RSV, hMPV) vs viêm hoại tử và di chứng BO (Adenovirus) vs phân ly lâm sàng X-quang và kháng Beta-lactam (Mycoplasma) vs 4 giai đoạn đông đặc thùy (Phế cầu); ma trận 12 tiêu chí và 8 bẫy lâm sàng. | PED-20, 21, 22 | ✅ GATES ĐẠT (MD + APKG 28 thẻ + 4 ảnh y văn) |
+| **PED-62** | P0 | Căn nguyên vi sinh hô hấp thường gặp ở trẻ em (RSV, Adenovirus, Mycoplasma, hMPV, Phế cầu) | Bệnh học 7 tầng; phân biệt tắc nghẽn ứ khí (RSV, hMPV) vs viêm hoại tử và di chứng BO (Adenovirus) vs phân ly lâm sàng X-quang và kháng Beta-lactam (Mycoplasma) vs 4 giai đoạn đông đặc thùy (Phế cầu); ma trận 12 tiêu chí và 8 bẫy lâm sàng. | PED-20, 21, 22 | ✅ GATES ĐẠT (MD + APKG 68 thẻ Master Basic + 4 ảnh y văn) |
 
 ---
 

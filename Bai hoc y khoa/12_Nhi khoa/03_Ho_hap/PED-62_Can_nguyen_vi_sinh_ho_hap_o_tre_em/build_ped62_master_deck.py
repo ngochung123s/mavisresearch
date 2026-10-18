@@ -21,7 +21,7 @@ APKG_PATH = TARGET_DIR / "PED-62_Can_nguyen_vi_sinh_ho_hap_o_tre_em_2026-10-14_R
 FIGURES_DIR = TARGET_DIR / "outputs" / "figures"
 
 REQUIRED_SECTIONS = [
-    "B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7"
+    "B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10"
 ]
 
 CSS_STYLE = """
