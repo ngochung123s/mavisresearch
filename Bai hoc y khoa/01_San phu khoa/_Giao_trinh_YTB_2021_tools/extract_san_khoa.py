@@ -267,8 +267,10 @@ def save_image(rid: str, lesson_id: str, n: int, media_dir: Path, report: Counte
 
 # ---------------------------------------------------------------- dựng Markdown
 BULLET_RE = re.compile(r"^\s*([-–—+•▪●➢✓❖◆*_·])\s*")
-# "2.1. Tên", "2.1 Tên", "3. Tên", "3) Tên" — chữ đứng sau số. KHÔNG bắt "1: …", "1610: …", "0,5 cm", "3 giờ sau…"
-NUM_HEAD_RE = re.compile(r"^(\d+(?:\.\d+)+)\.?\s*(?=[^\W\d_])(.*)$|^(\d+)[.)]\s*(?=[^\W\d_(\"“])(.*)$")
+# "2.1. Tên", "2.1 Tên", "4.4 . Tên", "3. Tên", "3) Tên" — chữ đứng sau số. KHÔNG bắt "1: …", "1610: …", "0,5 cm",
+# "3 giờ sau…", "1.5 ml …" (số thập phân + đơn vị: không có dấu "." sau số thì chữ đầu phải viết hoa)
+NUM_HEAD_RE = re.compile(r"^(\d+(?:\.\d+)+)(?:[\t ]*\.[\t ]*(?=[^\W\d_])|[\t ]+(?=[A-ZÀ-ỸĐ]))(.*)$"
+                         r"|^(\d+)[.)]\s*(?=[^\W\d_(\"“])(.*)$")
 CHAPTER_RE = re.compile(r"^CHƯƠNG\s+(?:[IVX]+|\d+)\b")
 ROMAN_RE = re.compile(r"^(?:X{0,3})(?:IX|IV|V?I{0,3})\.\s+\S")
 H2_WORDS = re.compile(r"^(?:[IVX]+\.\s*)?(?:MỤC TIÊU|CÂU HỎI|TÀI LIỆU THAM KHẢO|LƯỢNG GIÁ)", re.U | re.I)
@@ -282,6 +284,7 @@ def upper_ratio(t: str) -> float:
 
 def classify(text: str, style: str, bold: float) -> tuple[str, str]:
     t = clean_inline(text)
+    t = re.sub(r"^(\d+)\.\s+(?=\d+\.)", r"\1.", re.sub(r"^(\d+)\.\s+(\d+)\.\s+(?=\d+\.)", r"\1.\2.", t))  # "3. 1. 3." → "3.1.3."
     if not t:
         return "empty", ""
     if style.lower().startswith("toc"):
@@ -303,9 +306,9 @@ def classify(text: str, style: str, bold: float) -> tuple[str, str]:
             return "h2", f"{num}. {m_rest.upper() if upper_ratio(m_rest) > 0.6 else m_rest}"
         if depth >= 2 and heading_like or depth >= 2 and len(t) < 70 and not t.endswith("."):
             return f"h{min(depth + 1, 5)}", f"{num}. {m_rest}"
-        return "olist", f"{num}. {m_rest}"
-    if m and rest:
-        return "olist", f"{num}. {rest}"
+        return ("olist" if depth == 1 else "para"), f"{num}. {m_rest}"
+    if m and rest:  # "2.1.1. …" không phải cú pháp danh sách Markdown → đoạn riêng, không dính dòng trước/sau
+        return ("olist" if not m.group(1) else "para"), f"{num}. {rest}"
     b = BULLET_RE.match(t)
     if b and len(t) > len(b.group(0)):
         return ("ulist2" if b.group(1) == "+" else "ulist"), t[b.end():]
@@ -459,7 +462,9 @@ def render(spec, seg, report) -> tuple[str, str, int]:
     prev = None
     for kind, t in out:
         is_list = kind in ("ulist", "ulist2", "olist")
-        if not (is_list and prev in ("ulist", "ulist2", "olist")) and md_lines[-1] != "":
+        # đổi loại danh sách (gạch đầu dòng ↔ đánh số) phải có dòng trống, nếu không "2. …" bị dính vào mục trước
+        same_list = is_list and prev in ("ulist", "ulist2", "olist") and (kind == "olist") == (prev == "olist")
+        if not same_list and md_lines[-1] != "":
             md_lines.append("")
         if kind.startswith("h"):
             md_lines += ["#" * int(kind[1]) + " " + t, ""]
