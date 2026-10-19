@@ -44,7 +44,7 @@
 - Kết quả từng bước: `outputs/verification/<basename>/` gồm `release.json`, `lesson-lint.json`, `card-lint.json` (+ `gate-results.json` nếu `evidence_bundle`).
 - Chỉ ghi `✅ GATES ĐẠT` trong curriculum khi `release.json` có `status = PUBLISH_READY`.
 - `--mode hotfix` chỉ để **vá bài cũ**: lỗi bài + lỗi quy chuẩn thẻ ghi thành nợ, chỉ chặn lỗi kỹ thuật của thẻ; không chạy `build_pipeline`; không được nâng trạng thái lên `✅ GATES ĐẠT`.
-- `post_release` của chuyên khoa chạy tự động (Nhi khoa: `12_Nhi khoa/build_ped_library.py` → PedViewer `data.js`, `CATALOG_PED_VIEWER.json`, `checklist.html`).
+- `post_release` của chuyên khoa chạy tự động (Nhi khoa: `12_Nhi khoa/build_unified_med_library.py` → web HungMed `data.js` gồm **cả Nhi + Sản khoa**, `CATALOG_PED_VIEWER.json`, `checklist.html`, số `?v=` trong app/mobile/checklist). Builder dừng (BLOCK) nếu thiếu nguồn Sản khoa; push `main` = Cloudflare Pages `dvnhmed` deploy ngay.
 
 ## 3. Cấu trúc folder bài & `lesson.json`
 

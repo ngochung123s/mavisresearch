@@ -329,9 +329,9 @@ Thông liên thất, còn ống động mạch, kênh nhĩ thất, hẹp eo ĐMC
 ### 6.1. Bảng phân độ lâm sàng suy tim trẻ em Việt Nam
 | Phân độ | Mức độ khó thở | Kích thước gan dưới sườn | Phù | Nước tiểu | Tiên lượng hồi phục |
 |:---:|---|---|---|---|---|
-| **Độ 1** | Khó thở khi gắng sức (khi bú) | Dưới sườn phải $< 2	ext{ cm}$ | Không phù hoặc kín đáo | Gần bình thường | Tiên lượng tốt |
-| **Độ 2** | Khó thở thường xuyên | Gan $2 - 4	ext{ cm}$ dưới bờ sườn | Phù nhẹ chi dưới | Giảm nhẹ | Đáp ứng điều trị nội |
-| **Độ 3** | Khó thở nặng co kéo | Gan $> 4 - 5	ext{ cm}$, **còn thu nhỏ** sau điều trị | Phù to toàn thân | Thiểu niệu | **Còn hồi phục**, đáp ứng tích cực |
+| **Độ 1** | Khó thở khi gắng sức (khi bú) | Dưới sườn phải $< 2\text{ cm}$ | Không phù hoặc kín đáo | Gần bình thường | Tiên lượng tốt |
+| **Độ 2** | Khó thở thường xuyên | Gan $2 - 4\text{ cm}$ dưới bờ sườn | Phù nhẹ chi dưới | Giảm nhẹ | Đáp ứng điều trị nội |
+| **Độ 3** | Khó thở nặng co kéo | Gan $> 4 - 5\text{ cm}$, **còn thu nhỏ** sau điều trị | Phù to toàn thân | Thiểu niệu | **Còn hồi phục**, đáp ứng tích cực |
 | **Độ 4** | Khó thở liên tục, thở ngáp | Gan to cứng, **không thu nhỏ** | Phù to, cổ trướng | Rất ít / vô niệu | **Không hồi phục**, xơ gan tim |
 
 ### 6.2. Thang điểm Ross cải tiến cho trẻ nhũ nhi
@@ -385,16 +385,16 @@ Thực hiện tốt các nguyên tắc chăm sóc cơ bản giúp giảm bớt g
 
 | Nhóm thuốc | Tên thuốc | Liều dùng an toàn | Cơ chế & Tác dụng |
 |---|---|---|---|
-| Lợi tiểu quai | **Furosemid** | $1 - 2	ext{ mg/kg/ngày}$ tiêm TM hoặc uống chia 1 - 2 lần | Giảm nhanh tiền gánh, theo dõi hạ Kali máu |
-| Lợi tiểu Thiazide | **Hydrochlorothiazide** | $1 - 2	ext{ mg/kg/ngày}$ uống chia 2 lần | Lợi tiểu ống lượn xa, phối hợp duy trì |
-| Kháng Aldosterone | **Spironolacton** | $1 - 3	ext{ mg/kg/ngày}$ uống chia 1 - 2 lần | Giữ Kali, chống xơ hóa cơ tim |
-| Ức chế men chuyển | **Captopril** | $0,1 - 0,3	ext{ mg/kg/liều}$ ngày 3 lần, tăng dần tới $1 - 2	ext{ mg/kg/ngày}$ | Giảm hậu gánh, uống trước ăn 1 giờ |
-| Ức chế men chuyển | **Enalapril** | $0,1 - 0,5	ext{ mg/kg/ngày}$ uống chia 1 - 2 lần | Giảm hậu gánh kéo dài ở trẻ lớn |
-| Chẹn beta giao cảm | **Carvedilol** | Bắt đầu $0,05	ext{ mg/kg/liều}$ ngày 2 lần, tăng dần tới $0,2 - 0,4	ext{ mg/kg/ngày}$ | Ức chế độc tính giao cảm (chỉ dùng khi hết ứ dịch) |
-| Inotrope ức chế PDE-3| **Milrinone** | Duy trì $0,25 - 0,75	ext{ }\mu	ext{g/kg/phút}$ truyền TM | Tăng co bóp và giãn mạch (Inodilator) |
-| Inotrope Catecholamine| **Dobutamin** | $2,5 - 10	ext{ }\mu	ext{g/kg/phút}$ truyền TM | Kích thích beta-1 làm tăng co bóp cơ tim |
-| Inotrope & Co mạch | **Dopamin** | $5 - 10	ext{ }\mu	ext{g/kg/phút}$ (inotrope) hoặc $10 - 20	ext{ }\mu	ext{g/kg/phút}$ (co mạch) | Dùng khi suy tim có tụt huyết áp nặng |
-| Giãn mạch trực tiếp | **Nitroprusside** | $0,5 - 4	ext{ }\mu	ext{g/kg/phút}$ truyền TM liên tục | Giãn tiểu động mạch và tĩnh mạch, bọc giấy bạc |
+| Lợi tiểu quai | **Furosemid** | $1 - 2\text{ mg/kg/ngày}$ tiêm TM hoặc uống chia 1 - 2 lần | Giảm nhanh tiền gánh, theo dõi hạ Kali máu |
+| Lợi tiểu Thiazide | **Hydrochlorothiazide** | $1 - 2\text{ mg/kg/ngày}$ uống chia 2 lần | Lợi tiểu ống lượn xa, phối hợp duy trì |
+| Kháng Aldosterone | **Spironolacton** | $1 - 3\text{ mg/kg/ngày}$ uống chia 1 - 2 lần | Giữ Kali, chống xơ hóa cơ tim |
+| Ức chế men chuyển | **Captopril** | $0,1 - 0,3\text{ mg/kg/liều}$ ngày 3 lần, tăng dần tới $1 - 2\text{ mg/kg/ngày}$ | Giảm hậu gánh, uống trước ăn 1 giờ |
+| Ức chế men chuyển | **Enalapril** | $0,1 - 0,5\text{ mg/kg/ngày}$ uống chia 1 - 2 lần | Giảm hậu gánh kéo dài ở trẻ lớn |
+| Chẹn beta giao cảm | **Carvedilol** | Bắt đầu $0,05\text{ mg/kg/liều}$ ngày 2 lần, tăng dần tới $0,2 - 0,4\text{ mg/kg/ngày}$ | Ức chế độc tính giao cảm (chỉ dùng khi hết ứ dịch) |
+| Inotrope ức chế PDE-3| **Milrinone** | Duy trì $0,25 - 0,75\text{ }\mu\text{g/kg/phút}$ truyền TM | Tăng co bóp và giãn mạch (Inodilator) |
+| Inotrope Catecholamine| **Dobutamin** | $2,5 - 10\text{ }\mu\text{g/kg/phút}$ truyền TM | Kích thích beta-1 làm tăng co bóp cơ tim |
+| Inotrope & Co mạch | **Dopamin** | $5 - 10\text{ }\mu\text{g/kg/phút}$ (inotrope) hoặc $10 - 20\text{ }\mu\text{g/kg/phút}$ (co mạch) | Dùng khi suy tim có tụt huyết áp nặng |
+| Giãn mạch trực tiếp | **Nitroprusside** | $0,5 - 4\text{ }\mu\text{g/kg/phút}$ truyền TM liên tục | Giãn tiểu động mạch và tĩnh mạch, bọc giấy bạc |
 
 ---
 
@@ -575,17 +575,17 @@ Sau 1 tuần điều trị nội khoa tối ưu, trẻ thở êm hơn, gan co v�
 ## 13. TIPS THỰC HÀNH LÂM SÀNG & THEO DÕI ĐIỀU DƯỠNG
 
 1. **Tip 1:** Đếm nhịp thở khi ngủ trọn vẹn 1 phút.
-Nhịp thở $> 50	ext{ nhịp/phút}$ ở trẻ nhũ nhi là dấu hiệu sớm nhất của suy tim mất bù.
+Nhịp thở $> 50\text{ nhịp/phút}$ ở trẻ nhũ nhi là dấu hiệu sớm nhất của suy tim mất bù.
 2. **Tip 2:** Dùng bút dạ y tế gạch một đường nhỏ đánh dấu bờ dưới gan trên da bụng trẻ vào buổi sáng để theo dõi đáp ứng với Furosemid trực quan.
 3. **Tip 3:** Đếm nhịp tim qua ống nghe trọn 1 phút trước khi cho uống Digoxin.
-Nếu nhịp tim $< 100	ext{ nhịp/phút}$ ở trẻ nhũ nhi hoặc $< 70	ext{ nhịp/phút}$ ở trẻ lớn thì tạm dừng thuốc ngay.
+Nếu nhịp tim $< 100\text{ nhịp/phút}$ ở trẻ nhũ nhi hoặc $< 70\text{ nhịp/phút}$ ở trẻ lớn thì tạm dừng thuốc ngay.
 4. **Tip 4:** Cân trẻ mỗi sáng vào cùng khung giờ.
-Tăng cân đột ngột $> 30 - 50	ext{ g/ngày}$ là bằng chứng ứ dịch chứ không phải phát triển thể chất.
+Tăng cân đột ngột $> 30 - 50\text{ g/ngày}$ là bằng chứng ứ dịch chứ không phải phát triển thể chất.
 5. **Tip 5:** Cho trẻ nằm đầu cao $30 - 45^\circ$ (Fowler) giúp cơ hoành hạ xuống dễ dàng và giảm ứ máu về tim.
 6. **Tip 6:** Không cho trẻ suy tim bú kéo dài quá 30 phút mỗi cữ để tránh tiêu hao năng lượng gây sụt cân.
 7. **Tip 7:** Đục lỗ núm vú bình sữa rộng hơn một chút để sữa chảy dễ dàng khi trẻ mút nhẹ, tiết kiệm công thở.
 8. **Tip 8:** Cho uống Captopril cách thời điểm dùng Furosemid ít nhất 1-2 giờ để tránh tụt huyết áp tư thế phối hợp.
-9. **Tip 9:** Theo dõi nước tiểu từng giờ trong suy tim cấp truyền inotrope, duy trì đích $> 1	ext{ mL/kg/giờ}$.
+9. **Tip 9:** Theo dõi nước tiểu từng giờ trong suy tim cấp truyền inotrope, duy trì đích $> 1\text{ mL/kg/giờ}$.
 10. **Tip 10:** Nhận diện vã mồ hôi lạnh ở trán và da đầu khi bú là dấu hiệu cường giao cảm điển hình của suy tim nhũ nhi.
 11. **Tip 11:** Truyền thuốc inotrope vận mạch qua catheter tĩnh mạch trung tâm, tuyệt đối tránh thoát mạch gây hoại tử mô.
 12. **Tip 12:** Hạn chế làm thủ thuật gây đau không cần thiết để tránh kích thích cơn khóc làm tăng vọt huyết áp đẩy vào phù phổi cấp.

@@ -19,7 +19,7 @@ Thư mục chứa các bài học Nhi khoa thực chiến, bám sát khung **Cor
 - **`02_Ho_hap`** — **cần hợp nhất** vào `03_Ho_hap`: không có folder `PED-xx`, chỉ chứa tài liệu rời về hô hấp (cẩm nang viêm phế quản / viêm phổi / Zero-Omission, infographic RSV & cúm A, `.md` về RSV–cúm A và viêm tai giữa cấp). Cùng chuyên khoa với Block 3 và đánh số trùng tiền tố `02_` với `02_So_sinh_hoc`.
 - **`01_Dai_cuong_va_Kham_Nhi`** — **cần hợp nhất / xếp lại**: chỉ có 1 hướng dẫn khai thác tiền sử tiêm chủng trẻ em (`.html` + `.pdf`), không có bài PED; nội dung thuộc nhóm nền tảng/tiếp cận → ứng viên chuyển sang `00_Nen_tang_va_Tiep_can`. Trùng tiền tố `01_` với `01_Hoi_suc_Cap_cuu_Ngo_doc`.
 
-Ngoài các block còn có bộ PedViewer ở root (`index.html`, `app.html`, `mobile.html`, `checklist.html`, `data.js`, `CATALOG_PED_VIEWER.json`, `build_ped_library.py`, `build_unified_med_library.py`, `build_master_ped_decks.py`, cấu hình Netlify). PedViewer chỉ đọc file ở **root folder bài** và bỏ qua `outputs/`.
+Ngoài các block còn có bộ PedViewer ở root (`index.html`, `app.html`, `mobile.html`, `checklist.html`, `data.js`, `CATALOG_PED_VIEWER.json`, `build_unified_med_library.py` — builder duy nhất của `data.js` (Nhi + Sản), `build_master_ped_decks.py`, `_headers`/`_redirects` cho Cloudflare Pages `dvnhmed.pages.dev`; `netlify.toml` là cấu hình cũ). PedViewer chỉ đọc file ở **root folder bài** và bỏ qua `outputs/`.
 
 ## Cấu trúc lưu trữ mỗi bài (theo `RULES_LESSON_APKG.md` §3)
 

@@ -326,7 +326,7 @@ Hạ canxi máu là một xét nghiệm rất thường gặp trên bảng kết
 Khi albumin máu giảm sâu, lượng canxi liên kết bị mất đi làm cho nồng độ **Canxi toàn phần (Total Calcium)** xét nghiệm được giảm xuống rất thấp (< 2.0 mmol/L).
 - Tuy nhiên, thành phần có hoạt tính sinh học điều hòa dẫn truyền thần kinh cơ là **Canxi ion hóa (Ca2+)** thường vẫn duy trì ở mức hoàn toàn bình thường (1.15 - 1.30 mmol/L).
 - Công thức hiệu chỉnh canxi theo albumin:
-$$	ext{Canxi hiệu chỉnh (mmol/L)} = 	ext{Canxi toàn phần đo được (mmol/L)} + 0.02 	imes (40 - 	ext{Albumin máu (g/L)})$$
+$$\text{Canxi hiệu chỉnh (mmol/L)} = \text{Canxi toàn phần đo được (mmol/L)} + 0.02 \times (40 - \text{Albumin máu (g/L)})$$
 - **Chỉ định canxi:** Tuyệt đối KHÔNG tiêm canxi tĩnh mạch cấp cứu nếu trẻ không có triệu chứng lâm sàng của hạ canxi máu (dấu Chvostek, Trousseau, co thắt thanh quản, co giật) và canxi ion hóa bình thường.
 Chỉ bổ sung canxi đường uống kết hợp Vitamin D3 hàng ngày để dự phòng biến chứng loãng xương do corticoid kéo dài.
 

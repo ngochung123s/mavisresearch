@@ -10,7 +10,7 @@ Trình tự (RULES_LESSON_APKG.md §2):
   3. evidence     — chuyên khoa `evidence_bundle`: build_pipeline.py (offline, 7 gate nguồn + DOCX + learner smoke,
                     APKG candidate do deck_builder build) ; `ncbi_artifacts`: nhãn ↔ artifact đã kiểm ở bước 2
   4. deck_builder — card_lint + APKG + verify (+ đồng bộ Anki tại chỗ nếu --sync-anki)
-  5. post_release — script của chuyên khoa trong specialties.json (vd. build_ped_library.py)
+  5. post_release — script của chuyên khoa trong specialties.json (vd. build_unified_med_library.py)
 Mode `release` (bài mới/viết lại): mọi gate BLOCK. Mode `hotfix` (bài cũ): lỗi bài + governance thẻ chỉ ghi nợ,
 không chạy build_pipeline, chỉ chặn lỗi kỹ thuật của thẻ.
 Kết quả: outputs/verification/<basename>/release.json. Exit 0 = phát hành được, 2 = BLOCK.

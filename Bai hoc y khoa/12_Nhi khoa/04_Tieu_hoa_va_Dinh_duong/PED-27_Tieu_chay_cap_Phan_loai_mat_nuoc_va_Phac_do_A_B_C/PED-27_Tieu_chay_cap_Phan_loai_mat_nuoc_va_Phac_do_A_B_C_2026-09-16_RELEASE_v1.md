@@ -249,17 +249,17 @@ Phác đồ B được áp dụng tại trạm y tế, phòng khám hoặc buồ
 ### 5.1 Công thức tính thể tích dung dịch ORS trong 4 giờ đầu
 Thể tích dung dịch ORS áp lực thẩm thấu thấp cần cho trẻ uống trong 4 giờ đầu được tính theo công thức chuẩn của WHO:
 
-$$	ext{Thể tích ORS (ml)} = 	ext{Cân nặng của trẻ (kg)} 	imes 75	ext{ ml}$$
+$$\text{Thể tích ORS (ml)} = \text{Cân nặng của trẻ (kg)} \times 75\text{ ml}$$
 
 Nếu tại cơ sở y tế không có sẵn cân hoặc chưa thể cân trẻ ngay, nhân viên y tế có thể ước tính lượng ORS theo bảng phân tầng lứa tuổi của WHO:
 
 | Nhóm tuổi của trẻ | Cân nặng ước tính (kg) | Thể tích ORS cần uống trong 4 giờ (ml) | Khoảng thể tích khuyến cáo |
 |---|:---:|:---:|:---:|
-| **Dưới 4 tháng tuổi** | $< 6	ext{ kg}$ | $200 - 400	ext{ ml}$ | $75	ext{ ml/kg} 	imes 	ext{cân nặng}$ |
-| **Từ 4 đến 11 tháng tuổi** | $6 - 9.9	ext{ kg}$ | $400 - 700	ext{ ml}$ | $75	ext{ ml/kg} 	imes 	ext{cân nặng}$ |
-| **Từ 12 đến 23 tháng tuổi** | $10 - 11.9	ext{ kg}$ | $700 - 900	ext{ ml}$ | $75	ext{ ml/kg} 	imes 	ext{cân nặng}$ |
-| **Từ 2 đến 4 tuổi** | $12 - 15.9	ext{ kg}$ | $900 - 1400	ext{ ml}$ | $75	ext{ ml/kg} 	imes 	ext{cân nặng}$ |
-| **Từ 5 đến 14 tuổi** | $16 - 29.9	ext{ kg}$ | $1400 - 2200	ext{ ml}$ | $75	ext{ ml/kg} 	imes 	ext{cân nặng}$ |
+| **Dưới 4 tháng tuổi** | $< 6\text{ kg}$ | $200 - 400\text{ ml}$ | $75\text{ ml/kg} \times \text{cân nặng}$ |
+| **Từ 4 đến 11 tháng tuổi** | $6 - 9.9\text{ kg}$ | $400 - 700\text{ ml}$ | $75\text{ ml/kg} \times \text{cân nặng}$ |
+| **Từ 12 đến 23 tháng tuổi** | $10 - 11.9\text{ kg}$ | $700 - 900\text{ ml}$ | $75\text{ ml/kg} \times \text{cân nặng}$ |
+| **Từ 2 đến 4 tuổi** | $12 - 15.9\text{ kg}$ | $900 - 1400\text{ ml}$ | $75\text{ ml/kg} \times \text{cân nặng}$ |
+| **Từ 5 đến 14 tuổi** | $16 - 29.9\text{ kg}$ | $1400 - 2200\text{ ml}$ | $75\text{ ml/kg} \times \text{cân nặng}$ |
 
 ### 5.2 Kỹ thuật cho uống và xử trí nôn trớ
 - Cho trẻ ngồi dậy thoải mái trong lòng mẹ, dùng thìa (muỗng) nhỏ hoặc cốc nhỏ cho uống từng thìa một.
@@ -290,7 +290,7 @@ Sau đúng 4 giờ bù dịch theo Phác đồ B, người bác sĩ phải tiế
 - Bổ sung Kẽm đủ 10-14 ngày         - Bắt đầu cho ăn nhẹ xen kẽ      - Tổng liều 100 ml/kg
 ```
 
-- **Thất bại bù nước đường uống trong Phác đồ B:** Được xác định khi trẻ nôn liên tục không thể uống được (nôn $\ge 3$ lần trong 1 giờ), lượng phân bài xuất quá lớn vượt quá tốc độ bù đường uống (tốc độ đi ngoài $> 15 - 20	ext{ ml/kg/giờ}$), hoặc xuất hiện trướng bụng liệt ruột. Khi đó, chỉ định đặt ống thông dạ dày (Sonde dạ dày) để nhỏ giọt ORS chậm với tốc độ 20 ml/kg/giờ, hoặc chuyển sang truyền dịch tĩnh mạch.
+- **Thất bại bù nước đường uống trong Phác đồ B:** Được xác định khi trẻ nôn liên tục không thể uống được (nôn $\ge 3$ lần trong 1 giờ), lượng phân bài xuất quá lớn vượt quá tốc độ bù đường uống (tốc độ đi ngoài $> 15 - 20\text{ ml/kg/giờ}$), hoặc xuất hiện trướng bụng liệt ruột. Khi đó, chỉ định đặt ống thông dạ dày (Sonde dạ dày) để nhỏ giọt ORS chậm với tốc độ 20 ml/kg/giờ, hoặc chuyển sang truyền dịch tĩnh mạch.
 
 ---
 
@@ -310,8 +310,8 @@ Tổng thời gian truyền tĩnh mạch Phác đồ C (WHO plan C rehydration f
 
 | Nhóm tuổi của trẻ | BƯỚC 1: Hồi sức khẩn cấp ban đầu (30 ml/kg) | BƯỚC 2: Bù dịch duy trì tiếp theo (70 ml/kg) | Tổng thời gian truyền đủ 100 ml/kg |
 |---|---|---|:---:|
-| **Trẻ từ 12 tháng tuổi trở lên** *(Trẻ $\ge 1$ tuổi)* | Truyền tĩnh mạch **$30	ext{ ml/kg}$ trong $30	ext{ phút}$** đầu tiên | Truyền tĩnh mạch **$70	ext{ ml/kg}$ trong $2.5	ext{ giờ}$** tiếp theo | **$3	ext{ giờ}$** |
-| **Trẻ dưới 12 tháng tuổi** *(Trẻ nhũ nhi $< 1$ tuổi)* | Truyền tĩnh mạch **$30	ext{ ml/kg}$ trong $1	ext{ giờ}$** đầu tiên | Truyền tĩnh mạch **$70	ext{ ml/kg}$ trong $5	ext{ giờ}$** tiếp theo | **$6	ext{ giờ}$** |
+| **Trẻ từ 12 tháng tuổi trở lên** *(Trẻ $\ge 1$ tuổi)* | Truyền tĩnh mạch **$30\text{ ml/kg}$ trong $30\text{ phút}$** đầu tiên | Truyền tĩnh mạch **$70\text{ ml/kg}$ trong $2.5\text{ giờ}$** tiếp theo | **$3\text{ giờ}$** |
+| **Trẻ dưới 12 tháng tuổi** *(Trẻ nhũ nhi $< 1$ tuổi)* | Truyền tĩnh mạch **$30\text{ ml/kg}$ trong $1\text{ giờ}$** đầu tiên | Truyền tĩnh mạch **$70\text{ ml/kg}$ trong $5\text{ giờ}$** tiếp theo | **$6\text{ giờ}$** |
 
 ```text
                SƠ ĐỒ PHÂN BỔ TỐC ĐỘ DỊCH TRUYỀN TĨNH MẠCH PHÁC ĐỒ C
@@ -334,9 +334,9 @@ Tổng thời gian truyền tĩnh mạch Phác đồ C (WHO plan C rehydration f
 ### 6.3 Theo dõi sát và đánh giá lâm sàng trong quá trình truyền dịch
 - **Đánh giá mỗi 15 đến 30 phút:** Kiểm tra mạch quay, mạch bẹn, huyết áp, tri giác, thời gian đổ đầy mao mạch (CRT) và nhịp thở.
 - **Xử trí sau khi hết Bước 1 (30 ml/kg):**
-  - Nếu mạch quay vẫn còn rất yếu, nhanh nhỏ khó bắt hoặc huyết áp chưa cải thiện → Lặp lại ngay một liều truyền tĩnh mạch $30	ext{ ml/kg}$ Ringer Lactat nữa với tốc độ như Bước 1 trước khi chuyển sang Bước 2.
-  - Nếu mạch quay đã bắt rõ, chi ấm, CRT $< 2$ giây → Chuyển sang truyền tiếp Bước 2 ($70	ext{ ml/kg}$) đúng thời gian quy định.
-- **Bắt đầu cho uống ORS xen kẽ càng sớm càng tốt:** Ngay khi trẻ tỉnh táo lại và có thể nuốt được (thường sau 1–2 giờ truyền dịch), hãy bắt đầu cho trẻ uống ORS với liều nhỏ khoảng **$5	ext{ ml/kg/giờ}$** song song với đường truyền tĩnh mạch đang chảy. Việc uống ORS sớm giúp cung cấp thêm Kali, Bicarbonat và đường mà dịch Ringer Lactat chưa cung cấp đủ, đồng thời kích thích tuần hoàn mạc treo ruột hoạt động trở lại.
+  - Nếu mạch quay vẫn còn rất yếu, nhanh nhỏ khó bắt hoặc huyết áp chưa cải thiện → Lặp lại ngay một liều truyền tĩnh mạch $30\text{ ml/kg}$ Ringer Lactat nữa với tốc độ như Bước 1 trước khi chuyển sang Bước 2.
+  - Nếu mạch quay đã bắt rõ, chi ấm, CRT $< 2$ giây → Chuyển sang truyền tiếp Bước 2 ($70\text{ ml/kg}$) đúng thời gian quy định.
+- **Bắt đầu cho uống ORS xen kẽ càng sớm càng tốt:** Ngay khi trẻ tỉnh táo lại và có thể nuốt được (thường sau 1–2 giờ truyền dịch), hãy bắt đầu cho trẻ uống ORS với liều nhỏ khoảng **$5\text{ ml/kg/giờ}$** song song với đường truyền tĩnh mạch đang chảy. Việc uống ORS sớm giúp cung cấp thêm Kali, Bicarbonat và đường mà dịch Ringer Lactat chưa cung cấp đủ, đồng thời kích thích tuần hoàn mạc treo ruột hoạt động trở lại.
 - **Đánh giá lại toàn diện sau khi hoàn thành 100 ml/kg:**
   - Sau 3 giờ (trẻ $\ge 12$ tháng) hoặc sau 6 giờ (trẻ $< 12$ tháng): Khám lại toàn bộ 4 dấu hiệu mất nước.
   - Nếu hết mất nước → Chuyển sang Phác đồ A để duy trì tại nhà.
@@ -356,8 +356,8 @@ Bổ sung Kẽm nguyên tố là trụ cột bắt buộc trong điều trị ti
   - Ức chế dòng tiết dịch Cl⁻ qua kênh ion phụ thuộc cAMP, giảm tình trạng tiêu chảy xuất tiết.
   - Kích hoạt lympho bào T và đại thực bào tại các mảng Peyer đường ruột, tăng sinh kháng thể tiết sIgA chống lại mầm bệnh.
 - **Liều lượng và thời gian sử dụng chuẩn hóa:**
-  - **Trẻ dưới 6 tháng tuổi:** Uống **$10	ext{ mg}$ Kẽm nguyên tố/ngày** (dùng liên tục từ 10 đến 14 ngày).
-  - **Trẻ từ 6 tháng tuổi trở lên:** Uống **$20	ext{ mg}$ Kẽm nguyên tố/ngày** (dùng liên tục từ 10 đến 14 ngày).
+  - **Trẻ dưới 6 tháng tuổi:** Uống **$10\text{ mg}$ Kẽm nguyên tố/ngày** (dùng liên tục từ 10 đến 14 ngày).
+  - **Trẻ từ 6 tháng tuổi trở lên:** Uống **$20\text{ mg}$ Kẽm nguyên tố/ngày** (dùng liên tục từ 10 đến 14 ngày).
   - Cách dùng: Cho uống sau bữa ăn từ 30 phút đến 1 giờ để giảm kích ứng dạ dày gây nôn trớ. Dùng viên kẽm phân tán hòa tan với một thìa nhỏ nước hoặc sữa mẹ.
 
 ### 7.2 Chỉ định kháng sinh hợp lý trong tiêu chảy cấp
@@ -366,13 +366,13 @@ Kháng sinh hoàn toàn không có tác dụng đối với các trường hợp
 Kháng sinh **CHỈ ĐƯỢC CHỈ ĐỊNH** trong các tình huống lâm sàng đặc biệt sau:
 1. **Hội chứng lỵ (Tiêu chảy phân có nhầy máu đại thể):**
    - Tác nhân hàng đầu là vi khuẩn *Shigella*.
-   - Kháng sinh đầu tay đường uống: **Ciprofloxacin** ($15	ext{ mg/kg} 	imes 2	ext{ lần/ngày}$ trong 3 ngày) hoặc **Azithromycin** ($10 - 12	ext{ mg/kg} 	imes 1	ext{ lần/ngày}$ trong 3 đến 5 ngày).
-   - Nếu bệnh nặng hoặc không uống được: **Ceftriaxone** ($50 - 100	ext{ mg/kg/ngày}$ tiêm tĩnh mạch trong 3 đến 5 ngày).
+   - Kháng sinh đầu tay đường uống: **Ciprofloxacin** ($15\text{ mg/kg} \times 2\text{ lần/ngày}$ trong 3 ngày) hoặc **Azithromycin** ($10 - 12\text{ mg/kg} \times 1\text{ lần/ngày}$ trong 3 đến 5 ngày).
+   - Nếu bệnh nặng hoặc không uống được: **Ceftriaxone** ($50 - 100\text{ mg/kg/ngày}$ tiêm tĩnh mạch trong 3 đến 5 ngày).
 2. **Nghi ngờ bệnh Tả (Cholera) có mất nước nặng:**
    - Trẻ tiêu chảy phân toàn nước xối xả liên tục ở vùng đang có dịch tả lưu hành.
-   - Kháng sinh lựa chọn: **Azithromycin** ($20	ext{ mg/kg}$ uống liều duy nhất) hoặc **Ciprofloxacin** liều duy nhất.
+   - Kháng sinh lựa chọn: **Azithromycin** ($20\text{ mg/kg}$ uống liều duy nhất) hoặc **Ciprofloxacin** liều duy nhất.
 3. **Nhiễm ký sinh trùng Giardia lamblia hoặc Entamoeba histolytica:**
-   - Sử dụng **Metronidazole** ($30 - 40	ext{ mg/kg/ngày}$ chia 3 lần trong 5 đến 7 ngày).
+   - Sử dụng **Metronidazole** ($30 - 40\text{ mg/kg/ngày}$ chia 3 lần trong 5 đến 7 ngày).
 4. **Trẻ tiêu chảy cấp kèm nhiễm khuẩn toàn thân, nhiễm trùng huyết hoặc trẻ suy giảm miễn dịch nặng:** Sử dụng kháng sinh phổ rộng đường tĩnh mạch theo phác đồ nhiễm khuẩn huyết.
 
 ### 7.3 Các thuốc điều trị hỗ trợ khác và những thuốc cấm kỵ
@@ -423,22 +423,22 @@ Trẻ được xem xét cho xuất viện khi đáp ứng đầy đủ các tiê
 ## 9. BIẾN CHỨNG VÀ RỐI LOẠN ĐIỆN GIẢI NGUY HIỂM
 
 ### 9.1 Rối loạn Natri máu: Hạ Natri vs Tăng Natri máu
-- **Hạ Natri máu (Hyponatremia - $Na^+ < 130	ext{ mmol/L}$):**
+- **Hạ Natri máu (Hyponatremia - $Na^+ < 130\text{ mmol/L}$):**
   - Cơ chế: Do mất muối qua phân kết hợp với việc gia đình chỉ cho trẻ uống nước lọc đơn thuần, nước đường quá loãng hoặc truyền dịch nhược trương.
-  - Lâm sàng: Trẻ ngủ gà, lờ đờ, yếu cơ, đau đầu, buồn nôn; khi $Na^+ < 120	ext{ mmol/L}$ có nguy cơ phù não cấp gây co giật và hôn mê.
-  - Xử trí: Nếu có co giật do hạ Natri máu nặng, truyền cấp cứu dung dịch Natri Clorid ưu trương 3% liều $3 - 5	ext{ ml/kg}$ trong 15–30 phút để nâng nhanh Natri máu qua ngưỡng nguy hiểm.
-- **Tăng Natri máu (Hypernatremia - $Na^+ > 150	ext{ mmol/L}$):**
+  - Lâm sàng: Trẻ ngủ gà, lờ đờ, yếu cơ, đau đầu, buồn nôn; khi $Na^+ < 120\text{ mmol/L}$ có nguy cơ phù não cấp gây co giật và hôn mê.
+  - Xử trí: Nếu có co giật do hạ Natri máu nặng, truyền cấp cứu dung dịch Natri Clorid ưu trương 3% liều $3 - 5\text{ ml/kg}$ trong 15–30 phút để nâng nhanh Natri máu qua ngưỡng nguy hiểm.
+- **Tăng Natri máu (Hypernatremia - $Na^+ > 150\text{ mmol/L}$):**
   - Cơ chế: Do mất nước tự do nhiều hơn mất muối (tiêu chảy phân nước thẩm thấu nhiều), hoặc do bà mẹ pha gói ORS quá đặc (ít nước hơn hướng dẫn).
   - Lâm sàng: Da trẻ sờ vào có cảm giác "nhào bột" (doughy feel), trẻ cực kỳ kích thích quấy khóc khát nước dữ dội, sốt cao không rõ ổ nhiễm, tăng phản xạ gân xương, co giật do teo tế bào não và xuất huyết nội sọ.
-  - Xử trí: Bù dịch hạ Natri từ từ trong vòng 48 giờ bằng dung dịch nhược trương (như Ringer Lactat pha loãng hoặc Dextrose 5% trong nửa muối), tốc độ hạ Natri không được vượt quá $0.5	ext{ mmol/L/giờ}$ để tránh phù não hồi ứng tử vong.
+  - Xử trí: Bù dịch hạ Natri từ từ trong vòng 48 giờ bằng dung dịch nhược trương (như Ringer Lactat pha loãng hoặc Dextrose 5% trong nửa muối), tốc độ hạ Natri không được vượt quá $0.5\text{ mmol/L/giờ}$ để tránh phù não hồi ứng tử vong.
 
-### 9.2 Hạ Kali máu (Hypokalemia - $K^+ < 3.5	ext{ mmol/L}$)
+### 9.2 Hạ Kali máu (Hypokalemia - $K^+ < 3.5\text{ mmol/L}$)
 - **Cơ chế:** Nồng độ Kali trong dịch phân tiêu chảy rất cao (20–40 mmol/L). Trẻ mất một lượng Kali khổng lồ mà không được bù đắp kịp thời, đặc biệt khi dùng dịch truyền tĩnh mạch không có Kali.
 - **Lâm sàng:** Trẻ yếu cơ toàn thân, giảm trương lực cơ, trướng bụng liệt ruột cơ năng, phản xạ gân xương giảm hoặc mất, tiếng tim mờ, rối loạn nhịp tim (sóng T dẹt, xuất hiện sóng U, đoạn ST chênh xuống, ngoại tâm thu thất).
-- **Xử trí:** Bổ sung Kali qua đường uống bằng ORS, nước dừa hoặc chuối tiêu chín. Nếu truyền tĩnh mạch, chỉ được pha Kali Clorid (KCl) vào chai dịch truyền sau khi trẻ đã có nước tiểu, nồng độ KCl trong chai dịch truyền tĩnh mạch ngoại vi tuyệt đối không được vượt quá 40 mmol/L ($0.3\%$) và tốc độ truyền không vượt quá $0.5	ext{ mmol/kg/giờ}$.
+- **Xử trí:** Bổ sung Kali qua đường uống bằng ORS, nước dừa hoặc chuối tiêu chín. Nếu truyền tĩnh mạch, chỉ được pha Kali Clorid (KCl) vào chai dịch truyền sau khi trẻ đã có nước tiểu, nồng độ KCl trong chai dịch truyền tĩnh mạch ngoại vi tuyệt đối không được vượt quá 40 mmol/L ($0.3\%$) và tốc độ truyền không vượt quá $0.5\text{ mmol/kg/giờ}$.
 
 ### 9.3 Toan chuyển hóa và Suy thận cấp trước thận
-- **Toan chuyển hóa (Metabolic Acidosis):** Do mất Bicarbonat qua phân kết hợp với ứ đọng acid lactic do sốc giảm tưới máu. Trẻ có nhịp thở nhanh sâu không co kéo (thở kiểu Kussmaul), môi đỏ rực bất thường. Điều trị căn bản là hồi phục thể tích tuần hoàn bằng Ringer Lactat, thận sẽ tự đào thải acid và giữ lại kiềm khi được tưới máu đầy đủ; chỉ cân nhắc bù Natri Bicarbonat khi pH máu $< 7.1$ hoặc $HCO_3^- < 10	ext{ mmol/L}$ sau khi đã bù đủ dịch.
+- **Toan chuyển hóa (Metabolic Acidosis):** Do mất Bicarbonat qua phân kết hợp với ứ đọng acid lactic do sốc giảm tưới máu. Trẻ có nhịp thở nhanh sâu không co kéo (thở kiểu Kussmaul), môi đỏ rực bất thường. Điều trị căn bản là hồi phục thể tích tuần hoàn bằng Ringer Lactat, thận sẽ tự đào thải acid và giữ lại kiềm khi được tưới máu đầy đủ; chỉ cân nhắc bù Natri Bicarbonat khi pH máu $< 7.1$ hoặc $HCO_3^- < 10\text{ mmol/L}$ sau khi đã bù đủ dịch.
 - **Suy thận cấp trước thận (Pre-renal AKI):** Tụt huyết áp và mất dịch làm giảm dòng máu đến thận. Xét nghiệm thấy Urê và Creatinin máu tăng cao, tỷ lệ BUN/Creatinin $> 20$. Nếu được hồi sức bù dịch kịp thời trong giai đoạn trước thận, chức năng thận sẽ hồi phục hoàn toàn mà không để lại di chứng hoại tử ống thận cấp.
 
 ---
@@ -477,9 +477,9 @@ Trẻ được xem xét cho xuất viện khi đáp ứng đầy đủ các tiê
 | **Vị trí điều trị** | Tại nhà | Tại cơ sở y tế / Buồng lưu | Phòng cấp cứu / Hồi sức Nhi |
 | **Đường bù dịch** | Đường uống | Đường uống (hoặc Sonde dạ dày) | Đường tĩnh mạch (hoặc Truyền trong xương) |
 | **Loại dịch lựa chọn** | ORS áp lực thẩm thấu thấp 245 mOsm/L | ORS áp lực thẩm thấu thấp 245 mOsm/L | Dung dịch Ringer Lactat |
-| **Liều lượng dịch** | 50–100 ml (< 2t) hoặc 100–200 ml (2–10t) sau mỗi lần tiêu chảy | $75	ext{ ml/kg}$ trong $4	ext{ giờ}$ đầu | $100	ext{ ml/kg}$ ($30	ext{ ml/kg}$ rồi $70	ext{ ml/kg}$) |
-| **Thời gian theo dõi** | Hướng dẫn dấu hiệu tái khám | Khám lại toàn diện sau $4	ext{ giờ}$ | Đánh giá mỗi 15–30 phút, tổng kết sau 3h hoặc 6h |
-| **Bổ sung Kẽm** | $10	ext{ mg}$ (< 6th) hoặc $20	ext{ mg}$ ($\ge 6	ext{th}$) $	imes$ 10–14 ngày | $10	ext{ mg}$ (< 6th) hoặc $20	ext{ mg}$ ($\ge 6	ext{th}$) $	imes$ 10–14 ngày | Cho uống Kẽm ngay khi trẻ chuyển sang Phác đồ A/B |
+| **Liều lượng dịch** | 50–100 ml (< 2t) hoặc 100–200 ml (2–10t) sau mỗi lần tiêu chảy | $75\text{ ml/kg}$ trong $4\text{ giờ}$ đầu | $100\text{ ml/kg}$ ($30\text{ ml/kg}$ rồi $70\text{ ml/kg}$) |
+| **Thời gian theo dõi** | Hướng dẫn dấu hiệu tái khám | Khám lại toàn diện sau $4\text{ giờ}$ | Đánh giá mỗi 15–30 phút, tổng kết sau 3h hoặc 6h |
+| **Bổ sung Kẽm** | $10\text{ mg}$ (< 6th) hoặc $20\text{ mg}$ ($\ge 6\text{th}$) $\times$ 10–14 ngày | $10\text{ mg}$ (< 6th) hoặc $20\text{ mg}$ ($\ge 6\text{th}$) $\times$ 10–14 ngày | Cho uống Kẽm ngay khi trẻ chuyển sang Phác đồ A/B |
 | **Chế độ dinh dưỡng** | Tiếp tục bú mẹ và ăn uống bình thường | Cho bú mẹ xen kẽ, ăn nhẹ sau 4 giờ | Bắt đầu cho ăn lại ngay khi hết mất nước nặng |
 
 ---
@@ -490,7 +490,7 @@ Dưới đây là 14 kinh nghiệm xương máu giúp bác sĩ thực hành tự
 - **Tip 1 (Đọc kỹ thể tích gói ORS):** Trên thị trường hiện có 2 loại gói ORS: loại pha với đúng 1000 ml nước và loại gói nhỏ pha với đúng 200 ml nước. Trước khi hướng dẫn người nhà, bác sĩ phải cầm tận tay gói thuốc đọc kỹ thể tích in trên bao bì để dặn bà mẹ đong nước tuyệt đối chính xác.
 - **Tip 2 (Bình đo thể tích chuẩn):** Khuyên người nhà dùng bình sữa của trẻ nhỏ có chia vạch mililit (ml) rõ ràng để đong nước pha ORS; tuyệt đối không được áng chừng bằng mắt hoặc dùng bát ăn cơm/cốc uống trà để đong nước.
 - **Tip 3 (Quy tắc không bao giờ chia nhỏ gói thuốc):** Nghiêm cấm bà mẹ bẻ đôi hoặc chia nhỏ gói bột ORS để pha từng cốc nhỏ (vì các tinh thể Natri, Kali, Glucose không phân bố đồng đều trong gói bột khô, chia nhỏ sẽ gây sai lệch nồng độ nghiêm trọng).
-- **Tip 4 (Đồng hồ đếm giọt khi truyền Phác đồ C):** Luôn nhớ hệ số dây truyền dịch chuẩn: $1	ext{ ml} = 20	ext{ giọt}$. Để tính số giọt/phút: lấy tổng thể tích dịch (ml) nhân 20 rồi chia cho số phút truyền. Ví dụ: cần truyền 300 ml trong 30 phút $
+- **Tip 4 (Đồng hồ đếm giọt khi truyền Phác đồ C):** Luôn nhớ hệ số dây truyền dịch chuẩn: $1\text{ ml} = 20\text{ giọt}$. Để tính số giọt/phút: lấy tổng thể tích dịch (ml) nhân 20 rồi chia cho số phút truyền. Ví dụ: cần truyền 300 ml trong 30 phút $
 ightarrow$ tốc độ là 200 giọt/phút (mở khóa xả tối đa hoặc dùng máy truyền dịch).
 - **Tip 5 (Dấu hiệu khát nước ở trẻ nhũ nhi):** Ở trẻ chưa biết nói, dấu hiệu "khát uống háo hức" được nhận biết khi đưa thìa nước đến gần thì trẻ nhoài người về phía trước, há to miệng đón thìa, nuốt ừng ực và khóc thét đòi uống tiếp khi rút thìa nước ra.
 - **Tip 6 (Không đo mạch ngoại vi ở cổ tay khi nghi sốc):** Ở trẻ sơ sinh và nhũ nhi nhỏ, mạch quay rất khó sờ. Khi nghi ngờ sốc, hãy bắt mạch cánh tay (Brachial artery) ở mặt trong cánh tay hoặc bắt mạch bẹn (Femoral artery) để đánh giá chính xác độ nảy của mạch.
@@ -500,7 +500,7 @@ ightarrow$ cảnh giác cao độ với lồng ruột cấp hoặc viêm ruột 
 - **Tip 9 (Nước tiểu là thước đo tưới máu vàng):** Dặn điều dưỡng và bà mẹ theo dõi chiếc tã lót đầu tiên sau khi bù dịch. Trẻ đi tiểu ướt tã trong vòng 4 giờ là bằng chứng vàng xác nhận thể tích lòng mạch đã phục hồi và thận được bảo vệ an toàn.
 - **Tip 10 (Tránh bẫy kháng sinh cho tiêu chảy phân nước):** Nhìn thấy trẻ sốt nhẹ và đi ngoài phân lỏng nhiều nước, không được vội vàng kê kháng sinh. Hơn 80% trường hợp là do virus, kháng sinh không có tác dụng mà còn làm rối loạn hệ vi sinh đường ruột nặng hơn.
 - **Tip 11 (Vệ sinh và bảo vệ da hậu môn):** Tiêu chảy nhiều lần làm phân acid gây trợt loét da hậu môn rất đau đớn khiến trẻ quấy khóc không yên. Hướng dẫn rửa nhẹ bằng nước ấm sau mỗi lần đi ngoài, thấm khô bằng khăn mềm và bôi một lớp mỡ Oxyd kẽm hoặc Dexpanthenol bảo vệ da.
-- **Tip 12 (Phối hợp cho uống ORS sớm trong Phác đồ C):** Ngay khi trẻ truyền tĩnh mạch hồi sức tỉnh lại, cho uống ORS nhấp từng thìa nhỏ ($5	ext{ ml/kg/giờ}$). Dịch ORS uống sẽ cung cấp Kali và Bicarbonat giúp hồi phục toan kiềm nhanh hơn nhiều so với việc chỉ truyền Ringer Lactat đơn thuần.
+- **Tip 12 (Phối hợp cho uống ORS sớm trong Phác đồ C):** Ngay khi trẻ truyền tĩnh mạch hồi sức tỉnh lại, cho uống ORS nhấp từng thìa nhỏ ($5\text{ ml/kg/giờ}$). Dịch ORS uống sẽ cung cấp Kali và Bicarbonat giúp hồi phục toan kiềm nhanh hơn nhiều so với việc chỉ truyền Ringer Lactat đơn thuần.
 - **Tip 13 (Cảnh giác quá tải dịch ở trẻ suy dinh dưỡng):** Ở trẻ suy dinh dưỡng nặng hoặc có bệnh tim bẩm sinh, việc truyền tĩnh mạch nhanh 100 ml/kg theo Phác đồ C thông thường có thể đẩy trẻ vào phù phổi cấp và suy tim. Nhóm này cần áp dụng phác đồ dịch truyền đặc biệt ReSoMal và bù chậm dưới sự theo dõi sát của bác sĩ chuyên khoa.
 - **Tip 14 (Uống kẽm vào buổi sáng):** Kẽm có thể gây cảm giác buồn nôn nhẹ nếu uống lúc đói. Nên cho trẻ uống kẽm vào buổi sáng hoặc buổi trưa sau khi đã ăn no khoảng 30–60 phút để trẻ dung nạp tốt nhất.
 
@@ -511,7 +511,7 @@ ightarrow$ cảnh giác cao độ với lồng ruột cấp hoặc viêm ruột 
 Dưới đây là các bẫy lâm sàng nguy hiểm mà nhân viên y tế thường hay nhầm lẫn và sai phạm trong xử trí tiêu chảy cấp:
 - **Bẫy lâm sàng 1: Pha gói ORS không đủ thể tích nước quy định.**  
   *Sai lầm:* Người nhà thấy gói bột nhiều sợ nhạt nên pha một gói 1000 ml vào một cốc nước 200 ml cho trẻ uống.  
-  *Hậu quả:* Dung dịch ORS trở thành dung dịch cực kỳ ưu trương ($> 1000	ext{ mOsm/L}$). Khi uống vào lòng mạch, nồng độ Natri máu tăng vọt cấp tính làm teo tế bào não và xuất huyết nội sọ, đồng thời áp lực thẩm thấu lòng ruột hút nước ngược từ cơ thể ra ngoài khiến tiêu chảy bùng phát dữ dội hơn.  
+  *Hậu quả:* Dung dịch ORS trở thành dung dịch cực kỳ ưu trương ($> 1000\text{ mOsm/L}$). Khi uống vào lòng mạch, nồng độ Natri máu tăng vọt cấp tính làm teo tế bào não và xuất huyết nội sọ, đồng thời áp lực thẩm thấu lòng ruột hút nước ngược từ cơ thể ra ngoài khiến tiêu chảy bùng phát dữ dội hơn.  
   *Khắc phục:* Bác sĩ và điều dưỡng phải dặn đi dặn lại bà mẹ đong đủ chính xác 1 lít nước hoặc 200 ml nước tùy loại gói; nếu trẻ không uống hết thì đổ bỏ sau 24 giờ chứ tuyệt đối không chia nhỏ gói bột để pha.
 - **Bẫy lâm sàng 2: Nhầm lẫn giữa "khát nước háo hức" và "uống nước bình thường".**  
   *Sai lầm:* Thấy trẻ cầm cốc nước uống thì vội ghi nhận là "uống bình thường" và xếp vào nhóm không mất nước.  
@@ -547,8 +547,8 @@ Dưới đây là các bẫy lâm sàng nguy hiểm mà nhân viên y tế thư�
 ightarrow$ Không có dấu hiệu nào của mất nước. Chẩn đoán xác định: Tiêu chảy cấp ngày thứ 2, hiện **Không mất nước**.
 - **Kế hoạch xử trí chi tiết theo Phác đồ A:**
   1. Cho trẻ tiếp tục điều trị và chăm sóc tại nhà.
-  2. Bù nước dự phòng bằng ORS áp lực thẩm thấu thấp (gói pha 200 ml): Cho trẻ uống **$50 - 100	ext{ ml}$ ORS ngay sau mỗi lần đi ngoài phân lỏng** hoặc nôn ói. Hướng dẫn mẹ cách pha đúng 1 gói vào 200 ml nước đun sôi để nguội.
-  3. Bổ sung Kẽm: Vì trẻ 9 tháng tuổi ($\ge 6	ext{ tháng}$), chỉ định Kẽm nguyên tố liều **$20	ext{ mg/ngày}$** (uống 1 lần/ngày vào buổi sáng sau ăn), uống liên tục đủ 14 ngày.
+  2. Bù nước dự phòng bằng ORS áp lực thẩm thấu thấp (gói pha 200 ml): Cho trẻ uống **$50 - 100\text{ ml}$ ORS ngay sau mỗi lần đi ngoài phân lỏng** hoặc nôn ói. Hướng dẫn mẹ cách pha đúng 1 gói vào 200 ml nước đun sôi để nguội.
+  3. Bổ sung Kẽm: Vì trẻ 9 tháng tuổi ($\ge 6\text{ tháng}$), chỉ định Kẽm nguyên tố liều **$20\text{ mg/ngày}$** (uống 1 lần/ngày vào buổi sáng sau ăn), uống liên tục đủ 14 ngày.
   4. Chế độ ăn: Tiếp tục cho bú mẹ theo nhu cầu, tăng cữ bú. Cho ăn cháo thịt nạc nấu nhừ với cà rốt nghiền, chia nhỏ 5–6 bữa trong ngày.
   5. Hướng dẫn dấu hiệu nguy hiểm cần đưa đi khám lại ngay: Sốt cao, nôn liên tục mọi thứ, đi ngoài phân có máu, đi tiêu nhiều nước hơn, hoặc trẻ mệt lả li bì không uống được.
 
@@ -560,11 +560,11 @@ ightarrow$ Không có dấu hiệu nào của mất nước. Chẩn đoán xác 
   2. Mắt: Trũng rõ rệt (Dấu hiệu Có mất nước).
   3. Uống nước: Khát nước nhiều, uống háo hức (Dấu hiệu Có mất nước).
   4. Nếp véo da: Mất chậm 1.5 giây (Dấu hiệu Có mất nước).  
-  Trẻ có đủ cả 4/4 dấu hiệu của nhóm "Có mất nước". Thể tích thâm hụt ước tính khoảng 5%–10% trọng lượng cơ thể ($550 - 1100	ext{ ml}$). Chẩn đoán xác định: Tiêu chảy cấp ngày thứ 2, **Có mất nước** mức độ trung bình.
+  Trẻ có đủ cả 4/4 dấu hiệu của nhóm "Có mất nước". Thể tích thâm hụt ước tính khoảng 5%–10% trọng lượng cơ thể ($550 - 1100\text{ ml}$). Chẩn đoán xác định: Tiêu chảy cấp ngày thứ 2, **Có mất nước** mức độ trung bình.
 - **Kế hoạch xử trí chi tiết theo Phác đồ B:**
   1. Cho trẻ lưu lại phòng cấp cứu/buồng lưu để thực hiện bù nước bằng ORS đường uống trong 4 giờ đầu.
   2. Tính tổng thể tích ORS cần uống trong 4 giờ:  
-     $$	ext{Thể tích ORS} = 11	ext{ kg} 	imes 75	ext{ ml/kg} = 825	ext{ ml}$$
+     $$\text{Thể tích ORS} = 11\text{ kg} \times 75\text{ ml/kg} = 825\text{ ml}$$
   3. Kỹ thuật cho uống: Cho trẻ uống chậm rãi từng thìa nhỏ hoặc từng ngụm nhỏ bằng cốc, khoảng 1–2 phút cho uống một thìa. Mỗi giờ cần uống được khoảng 200 ml.
   4. Xử trí khi nôn trớ: Trong giờ đầu tiên, bé bị nôn ra một lần khoảng 30 ml ORS. Bác sĩ hướng dẫn mẹ cho bé tạm dừng uống 10 phút để dạ dày nghỉ ngơi. Sau 10 phút, cho uống lại chậm hơn: cứ 3 phút một thìa nhỏ. Sau đó bé không nôn thêm và uống hết 800 ml trong 4 giờ.
   5. Đánh giá lại sau 4 giờ: Bé tỉnh táo, tươi tỉnh chơi ngoan, mắt hết trũng, nếp véo da mất nhanh dưới 1 giây, khi đưa nước bé uống từ tốn không còn háo hức. Bé đã đi tiểu một bãi nước tiểu vàng trong tã lót.  
@@ -588,21 +588,21 @@ ightarrow$ **Sốc giảm thể tích do mất nước nặng**.
   2. Đặt ngay 2 đường truyền tĩnh mạch ngoại vi kim to cỡ 22G hoặc 20G ở mu bàn tay và cẳng chân.
   3. Lựa chọn dịch truyền: **Dung dịch Ringer Lactat**.
   4. Tính toán tổng thể tích dịch:  
-     $$	ext{Tổng thể tích (100 ml/kg)} = 10	ext{ kg} 	imes 100	ext{ ml/kg} = 1000	ext{ ml}$$
-  5. Vì trẻ 14 tháng tuổi ($\ge 12	ext{ tháng}$), lộ trình truyền dịch được thực hiện trong **tổng thời gian 3 giờ** qua 2 bước:
-     - **BƯỚC 1 (Hồi sức khẩn cấp):** Truyền tĩnh mạch $30	ext{ ml/kg}$ trong $30	ext{ phút}$ đầu:  
-       $$	ext{Thể tích Bước 1} = 10	ext{ kg} 	imes 30	ext{ ml/kg} = 300	ext{ ml Ringer Lactat truyền trong 30 phút}$$  
+     $$\text{Tổng thể tích (100 ml/kg)} = 10\text{ kg} \times 100\text{ ml/kg} = 1000\text{ ml}$$
+  5. Vì trẻ 14 tháng tuổi ($\ge 12\text{ tháng}$), lộ trình truyền dịch được thực hiện trong **tổng thời gian 3 giờ** qua 2 bước:
+     - **BƯỚC 1 (Hồi sức khẩn cấp):** Truyền tĩnh mạch $30\text{ ml/kg}$ trong $30\text{ phút}$ đầu:  
+       $$\text{Thể tích Bước 1} = 10\text{ kg} \times 30\text{ ml/kg} = 300\text{ ml Ringer Lactat truyền trong 30 phút}$$  
        Tốc độ xả dịch: 200 giọt/phút (mở khóa dịch truyền xả dòng tối đa).
      - **Đánh giá lại sau 30 phút:** Sau khi truyền xong 300 ml, khám lại thấy mạch quay bắt rõ hơn (140 lần/phút), huyết áp tăng lên 85/55 mmHg, chi ấm dần, CRT rút ngắn còn 2 giây $
 ightarrow$ Huyết động đã cải thiện, cho phép chuyển sang Bước 2.
-     - **BƯỚC 2 (Bù dịch duy trì):** Truyền tĩnh mạch $70	ext{ ml/kg}$ trong $2.5	ext{ giờ}$ tiếp theo:  
-       $$	ext{Thể tích Bước 2} = 10	ext{ kg} 	imes 70	ext{ ml/kg} = 700	ext{ ml Ringer Lactat truyền trong 2.5 giờ (150 phút)}$$  
-       Tốc độ truyền: $rac{700	ext{ ml} 	imes 20	ext{ giọt}}{150	ext{ phút}} pprox 93	ext{ giọt/phút}$.
-  6. Sau 1.5 giờ truyền dịch, bé bắt đầu mở mắt tỉnh táo hơn, khóc đòi mẹ. Bác sĩ cho điều dưỡng thử nhấp từng thìa nhỏ ORS cho bé uống với tốc độ $5	ext{ ml/kg/giờ}$ ($50	ext{ ml/giờ}$) song song với đường truyền tĩnh mạch.
+     - **BƯỚC 2 (Bù dịch duy trì):** Truyền tĩnh mạch $70\text{ ml/kg}$ trong $2.5\text{ giờ}$ tiếp theo:  
+       $$\text{Thể tích Bước 2} = 10\text{ kg} \times 70\text{ ml/kg} = 700\text{ ml Ringer Lactat truyền trong 2.5 giờ (150 phút)}$$  
+       Tốc độ truyền: $\frac{700\text{ ml} \times 20\text{ giọt}}{150\text{ phút}} \approx 93\text{ giọt/phút}$.
+  6. Sau 1.5 giờ truyền dịch, bé bắt đầu mở mắt tỉnh táo hơn, khóc đòi mẹ. Bác sĩ cho điều dưỡng thử nhấp từng thìa nhỏ ORS cho bé uống với tốc độ $5\text{ ml/kg/giờ}$ ($50\text{ ml/giờ}$) song song với đường truyền tĩnh mạch.
   7. **Đánh giá lại sau 3 giờ:** Hoàn thành đủ 1000 ml Ringer Lactat. Khám lại: Bé hoàn toàn tỉnh táo, mắt bớt trũng, tự cầm thìa uống nước được háo hức, nếp véo da mất chậm sau 1 giây, mạch 120 lần/phút, HA 95/60 mmHg, bé đã đi tiểu được 80 ml nước tiểu vàng nhạt.  
      $
 ightarrow$ Kết luận: Thoát sốc, trẻ chuyển từ "Mất nước nặng" sang "Có mất nước".
-  8. Xử trí tiếp theo: Rút kim truyền dịch, chuyển sang thực hiện Phác đồ B đường uống với ORS 75 ml/kg trong 4 giờ tiếp theo ($750	ext{ ml}$ ORS trong 4 giờ), theo dõi sát và bổ sung Kẽm khi trẻ ổn định.
+  8. Xử trí tiếp theo: Rút kim truyền dịch, chuyển sang thực hiện Phác đồ B đường uống với ORS 75 ml/kg trong 4 giờ tiếp theo ($750\text{ ml}$ ORS trong 4 giờ), theo dõi sát và bổ sung Kẽm khi trẻ ổn định.
 
 ---
 

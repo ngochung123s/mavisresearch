@@ -4,7 +4,7 @@ Tạo bộ thẻ Anki Master kết hợp hoàn chỉnh cho PED-46 và PED-47:
 - Track 1: [🏛️ BAREM GỐC Y THÁI BÌNH] (Bản 1 - Học thuộc lòng để ăn trọn điểm thi tự luận Bộ môn)
 - Track 2: [🔬 EBM HIỆN ĐẠI & LÂM SÀNG] (Bản 2 - Phản xạ chẩn đoán lâm sàng, cờ đỏ cấp cứu và guideline quốc tế)
 - Xuất file .cards.v2.json và file .apkg nhị phân thực thụ cho Anki.
-- Cập nhật data.js cho PedViewer.
+- data.js của web do build_unified_med_library.py sinh (script này không ghi data.js).
 """
 import json
 import genanki

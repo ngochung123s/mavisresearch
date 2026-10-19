@@ -108,19 +108,19 @@ Khác với Neutrophil và Lympho, các dòng bạch cầu khác có tỷ lệ t
 Để nhận định một ca bệnh sốt là do **Vi khuẩn (Nhiễm trùng)** hay do **Virus**, người thầy thuốc không bao giờ nhìn đơn độc một con số WBC, mà phải phân tích bộ 5 thông số sau:
 
 ### 4.1 Số lượng tuyệt đối bạch cầu đa nhân trung tính (ANC)
-$$	ext{ANC (Absolute Neutrophil Count)} = 	ext{WBC} 	imes rac{\% 	ext{Neutrophil (Đoạn + Đũa)}}{100}$$
+$$\text{ANC (Absolute Neutrophil Count)} = \text{WBC} \times \frac{\% \text{Neutrophil (Đoạn + Đũa)}}{100}$$
 
-* **Trong Nhiễm khuẩn cấp:** Tủy xương huy động dòng bạch cầu hạt ra ngoại vi, $	ext{ANC}$ thường **tăng cao** vượt ngưỡng sinh lý theo tuổi.
+* **Trong Nhiễm khuẩn cấp:** Tủy xương huy động dòng bạch cầu hạt ra ngoại vi, $\text{ANC}$ thường **tăng cao** vượt ngưỡng sinh lý theo tuổi.
 * **Định lượng ngưỡng nghi ngờ nhiễm khuẩn xâm lấn:**
-  * Trẻ nhũ nhi: $	ext{ANC} > 10.000/mm³$ là dấu hiệu chỉ điểm mạnh nhiễm khuẩn nặng.
-  * Ngược lại, $	ext{ANC} < 1.000/mm³$ (hoặc $< 500/mm³$) cảnh báo nguy cơ nhiễm trùng cơ hội đe dọa tính mạng (Neutropenia).
+  * Trẻ nhũ nhi: $\text{ANC} > 10.000/mm³$ là dấu hiệu chỉ điểm mạnh nhiễm khuẩn nặng.
+  * Ngược lại, $\text{ANC} < 1.000/mm³$ (hoặc $< 500/mm³$) cảnh báo nguy cơ nhiễm trùng cơ hội đe dọa tính mạng (Neutropenia).
 
 ### 4.2 Hiện tượng Chuyển trái (Left Shift) & Chỉ số I/T ratio
 * **Bạch cầu đũa (Band cells):** Là dạng bạch cầu trung tính non vừa rời tủy, nhân chưa phân đoạn rõ ràng (dạng hình dải chữ U hoặc C).
 * **Định nghĩa Chuyển trái:** Khi tỷ lệ bạch cầu non (Band cells, Metamyelocyte, Myelocyte) tăng vọt trong máu ngoại vi (thường Band $> 10\%$ hoặc tuyệt đối $> 1.000/mm³$). Điều này phản ánh tủy xương đang bị "vắt kiệt" phải đẩy cả quân lính chưa trưởng thành ra trận.
 * **Chỉ số I/T Ratio (Immature to Total Ratio) — Vũ khí tối thượng ở Sơ sinh:**
-  $$	ext{I/T Ratio} = rac{	ext{Tổng tế bào non (Band + Metamyelocyte + Myelocyte)}}{	ext{Tổng bạch cầu hạt trung tính (Tế bào non + Phân đoạn)}}$$
-  * **$	ext{I/T Ratio} \ge 0.2$:** Độ nhạy rất cao chẩn đoán **Nhiễm khuẩn sơ sinh sớm/muộn**. Nếu $	ext{I/T} \ge 0.3$, nguy cơ tử vong do sốc nhiễm khuẩn sơ sinh tăng gấp nhiều lần.
+  $$\text{I/T Ratio} = \frac{\text{Tổng tế bào non (Band + Metamyelocyte + Myelocyte)}}{\text{Tổng bạch cầu hạt trung tính (Tế bào non + Phân đoạn)}}$$
+  * **$\text{I/T Ratio} \ge 0.2$:** Độ nhạy rất cao chẩn đoán **Nhiễm khuẩn sơ sinh sớm/muộn**. Nếu $\text{I/T} \ge 0.3$, nguy cơ tử vong do sốc nhiễm khuẩn sơ sinh tăng gấp nhiều lần.
 
 ### 4.3 Dấu ấn hình thái học tế bào (Cellular Morphologic Markers)
 Khi nhiễm khuẩn nặng, dưới tác động của endotoxin và cytokine (IL-1, TNF-alpha), bạch cầu trung tính xuất hiện 3 biến đổi hình thái đặc trưng trên tiêu bản nhuộm Giemsa:
@@ -134,7 +134,7 @@ Ngược lại với vi khuẩn, khi nhiễm virus (Dengue, EBV, CMV, Sởi, Cú
 * **Số lượng tổng bạch cầu:** Thường **bình thường hoặc giảm nhẹ** (Leukopenia do virus ức chế tạm thời tủy xương).
 * **Dòng Lympho:** Tỷ lệ % tăng cao, đặc biệt xuất hiện **Lympho không điển hình (Atypical Lymphocytes / Reactive Lymphocytes / Tế bào Downey)**:
   * Kích thước tế bào rất to, bào tương rộng bắt màu kiềm đậm ở rìa, viền bào tương uốn lượn ôm quanh các hồng cầu lân cận.
-  * Nếu $	ext{Lympho không điển hình} > 10\%$: Định hướng cao tới hội chứng tăng bạch cầu đơn nhân nhiễm khuẩn (Infectious Mononucleosis do EBV/CMV) hoặc Sốt xuất huyết Dengue vào những ngày nguy hiểm.
+  * Nếu $\text{Lympho không điển hình} > 10\%$: Định hướng cao tới hội chứng tăng bạch cầu đơn nhân nhiễm khuẩn (Infectious Mononucleosis do EBV/CMV) hoặc Sốt xuất huyết Dengue vào những ngày nguy hiểm.
 
 ---
 
@@ -156,7 +156,7 @@ Ngược lại với vi khuẩn, khi nhiễm virus (Dengue, EBV, CMV, Sởi, Cú
 * Đây là tiên lượng cực nặng: Tủy xương đã bị suy kiệt, toàn bộ bạch cầu tuần hoàn đã bị huy động và tiêu hủy tại các ổ hoại tử vi mạch ngoại vi.
 
 ### ⚠️ Ngoại lệ 4: Stress sơ sinh gây "Chuyển trái sinh lý"
-* Trong 24 – 72 giờ đầu sau sinh, tủy trẻ sơ sinh có thể phóng thích một số Myelocyte ($1\%$) và Band cells ($5\% – 10\%$) ra máu ngoại vi mà hoàn toàn không có nhiễm trùng. Bắt buộc phải dùng chỉ số $	ext{I/T Ratio}$ kết hợp lâm sàng chứ không dựa vào mỗi sự xuất hiện của tế bào non.
+* Trong 24 – 72 giờ đầu sau sinh, tủy trẻ sơ sinh có thể phóng thích một số Myelocyte ($1\%$) và Band cells ($5\% – 10\%$) ra máu ngoại vi mà hoàn toàn không có nhiễm trùng. Bắt buộc phải dùng chỉ số $\text{I/T Ratio}$ kết hợp lâm sàng chứ không dựa vào mỗi sự xuất hiện của tế bào non.
 
 ### ⚠️ Ngoại lệ 5: Tác dụng của Corticoid gây tăng Neutrophil giả tạo
 * Khi trẻ dùng Dexamethasone (trong Croup) hoặc Methylprednisolone (trong Hen/Thận hư), bạch cầu Neutrophil tăng vọt lên $15.000 – 20.000/mm³$.
@@ -169,13 +169,13 @@ Ngược lại với vi khuẩn, khi nhiễm virus (Dengue, EBV, CMV, Sởi, Cú
 | Tiêu chí đối đầu | Nhiễm trùng Vi khuẩn điển hình | Nhiễm trùng do Virus điển hình |
 | :--- | :--- | :--- |
 | **1. Tổng số WBC** | Thường **tăng cao** ($> 15.000/mm³$ ở trẻ nhỏ) | **Bình thường hoặc giảm nhẹ** ($4.000 – 10.000/mm³$) |
-| **2. Dòng Neutrophil** | Tăng ưu thế cả tỷ lệ $\%$ và số lượng tuyệt đối $	ext{ANC}$ | Tỷ lệ $\%$ bình thường hoặc giảm |
+| **2. Dòng Neutrophil** | Tăng ưu thế cả tỷ lệ $\%$ và số lượng tuyệt đối $\text{ANC}$ | Tỷ lệ $\%$ bình thường hoặc giảm |
 | **3. Hiện tượng chuyển trái** | **Dương tính** (Band cells $> 10\%$, I/T $\ge 0.2$) | **Âm tính** (Rất hiếm khi có chuyển trái) |
 | **4. Hạt độc tính & Không bào** | **Xuất hiện rõ** trên tiêu bản máu nhuộm | Hầu như không có |
 | **5. Thể Döhle** | Có thể xuất hiện | Không có |
 | **6. Dòng Lymphocyte** | Tỷ lệ $\%$ giảm tương đối | Tăng ưu thế, xuất hiện **Lympho không điển hình** |
-| **7. Procalcitonin (PCT)** | **Tăng rất nhanh và cao** ($> 0.5 – 2.0 	ext{ ng/ml}$) | **Bình thường hoặc tăng rất nhẹ** ($< 0.5 	ext{ ng/ml}$) |
-| **8. CRP** | **Tăng cao rõ rệt** ($> 20 – 40 	ext{ mg/L}$) sau 24h | Bình thường hoặc chỉ tăng nhẹ ($< 10 – 20 	ext{ mg/L}$) |
+| **7. Procalcitonin (PCT)** | **Tăng rất nhanh và cao** ($> 0.5 – 2.0 \text{ ng/ml}$) | **Bình thường hoặc tăng rất nhẹ** ($< 0.5 \text{ ng/ml}$) |
+| **8. CRP** | **Tăng cao rõ rệt** ($> 20 – 40 \text{ mg/L}$) sau 24h | Bình thường hoặc chỉ tăng nhẹ ($< 10 – 20 \text{ mg/L}$) |
 | **9. Động học sốt** | Sốt cao liên tục, đáp ứng kém thuốc hạ sốt, trẻ li bì | Sốt dao động, cắt sốt trẻ tươi tỉnh chơi ngoan |
 | **10. Đáp ứng kháng sinh** | Cắt sốt và cải thiện lâm sàng sau 48 – 72 giờ | **Hoàn toàn không đáp ứng** với kháng sinh |
 
@@ -195,10 +195,10 @@ Ngược lại với vi khuẩn, khi nhiễm virus (Dengue, EBV, CMV, Sởi, Cú
 
 1. **Procalcitonin (PCT) — Thước đo vàng phân biệt Vi khuẩn vs Virus:**
    * Do tế bào nhu mô (gan, phổi, thận) tổng hợp trực tiếp khi bị kích thích bởi độc tố vi khuẩn (Endotoxin, IL-1, TNF-alpha).
-   * **Đặc tính độc nhất:** Khi nhiễm **Virus**, cơ thể sản xuất nhiều **Interferon-gamma (IFN-$\gamma$)** — chất này có tác dụng **ức chế trực tiếp** tế bào tổng hợp PCT. Do đó, nhiễm virus dù sốt cao 40°C thì PCT vẫn luôn ở mức thấp ($< 0.25 – 0.5 	ext{ ng/ml}$).
+   * **Đặc tính độc nhất:** Khi nhiễm **Virus**, cơ thể sản xuất nhiều **Interferon-gamma (IFN-$\gamma$)** — chất này có tác dụng **ức chế trực tiếp** tế bào tổng hợp PCT. Do đó, nhiễm virus dù sốt cao 40°C thì PCT vẫn luôn ở mức thấp ($< 0.25 – 0.5 \text{ ng/ml}$).
 2. **CRP (C-Reactive Protein):**
    * Do gan sản xuất dưới sự kích hoạt của IL-6.
-   * Tăng chậm hơn bạch cầu (bắt đầu tăng sau 6–12 giờ, đạt đỉnh sau 36–48 giờ). Giá trị $> 40 	ext{ mg/L}$ gợi ý mạnh nhiễm khuẩn, $> 100 	ext{ mg/L}$ cảnh báo nhiễm khuẩn nặng/nhiễm khuẩn huyết.
+   * Tăng chậm hơn bạch cầu (bắt đầu tăng sau 6–12 giờ, đạt đỉnh sau 36–48 giờ). Giá trị $> 40 \text{ mg/L}$ gợi ý mạnh nhiễm khuẩn, $> 100 \text{ mg/L}$ cảnh báo nhiễm khuẩn nặng/nhiễm khuẩn huyết.
 3. **Ferritin:**
    * Tăng vọt trong các hội chứng bão cytokine (HLH - Hội chứng thực bào máu, MIS-C sau nhiễm SARS-CoV-2, nhiễm trùng huyết nặng).
 
@@ -206,10 +206,10 @@ Ngược lại với vi khuẩn, khi nhiễm virus (Dengue, EBV, CMV, Sởi, Cú
 
 ## MỤC 8: 10 CLINICAL PEARLS (HẠT NGỌC LÂM SÀNG BỎ TÚI)
 
-1. **Không bao giờ đọc tỷ lệ % đơn độc:** Luôn cầm bút nhân tổng số WBC với % để tính ra số lượng tuyệt đối $	ext{ANC}$ và $	ext{ALC}$.
+1. **Không bao giờ đọc tỷ lệ % đơn độc:** Luôn cầm bút nhân tổng số WBC với % để tính ra số lượng tuyệt đối $\text{ANC}$ và $\text{ALC}$.
 2. **Quy tắc bắt chéo 5-5:** Cứ thấy trẻ từ sau 7 ngày tuổi đến 5 tuổi thì mặc định trong đầu: **Lympho 60%, Neutro 30% là bình thường**.
 3. **Lam máu kính hiển vi là chân lý:** Khi máy đếm báo kết quả nghi ngờ, yêu cầu kỹ thuật viên kéo lam nhuộm soi tìm hạt độc tính, không bào và đếm bạch cầu đũa thủ công.
-4. **Sơ sinh sốt phải tính I/T ratio:** $	ext{I/T Ratio} \ge 0.2$ là chỉ định bắt buộc phải tầm soát nhiễm khuẩn huyết sơ sinh và dùng kháng sinh ngay.
+4. **Sơ sinh sốt phải tính I/T ratio:** $\text{I/T Ratio} \ge 0.2$ là chỉ định bắt buộc phải tầm soát nhiễm khuẩn huyết sơ sinh và dùng kháng sinh ngay.
 5. **Đừng vội truyền kháng sinh cho trẻ ho rũ có bạch cầu 50.000:** Hãy nghĩ ngay đến **Ho gà** (Pertussis) trước khi chẩn đoán ung thư máu.
 6. **Bạch cầu tụt trong nhiễm trùng là dấu hiệu báo tử:** Trẻ sốc nhiễm khuẩn mà bạch cầu giảm $< 4.000/mm³$ tiên lượng tử vong cao hơn nhiều so với bạch cầu tăng $30.000/mm³$.
 7. **Interferon-gamma của virus kìm hãm Procalcitonin:** Nhờ đó mà PCT là xét nghiệm phân biệt vi khuẩn và virus nhạy bén nhất hiện nay.
@@ -224,21 +224,21 @@ Ngược lại với vi khuẩn, khi nhiễm virus (Dengue, EBV, CMV, Sởi, Cú
 ### Ca lâm sàng 1: Bẫy diễn giải kết quả ở trẻ nhũ nhi
 * **Bệnh sử:** Bé trai 14 tháng tuổi, sốt 38.5°C ngày thứ 2, chảy mũi trong, ho húng hắng, ăn ngủ bình thường. Khám: Trẻ tươi tỉnh, họng đỏ nhẹ, phổi không ran, nhịp thở 32 ck/phút.
 * **Xét nghiệm:**
-  * WBC: $9.8 	ext{ G/L}$
+  * WBC: $9.8 \text{ G/L}$
   * Neutrophil: $28\%$
   * Lymphocyte: $64\%$
-  * CRP: $4 	ext{ mg/L}$
+  * CRP: $4 \text{ mg/L}$
 * **Lời giải 5 bước:**
-  * **Bước 1 (Tính số lượng tuyệt đối):** $	ext{ANC} = 9.800 	imes 28\% = 2.744/mm³$ (nằm trong giới hạn bình thường theo tuổi). $	ext{ALC} = 9.800 	imes 64\% = 6.272/mm³$.
+  * **Bước 1 (Tính số lượng tuyệt đối):** $\text{ANC} = 9.800 \times 28\% = 2.744/mm³$ (nằm trong giới hạn bình thường theo tuổi). $\text{ALC} = 9.800 \times 64\% = 6.272/mm³$.
   * **Bước 2 (Đối chiếu sinh lý bắt chéo):** Trẻ 14 tháng tuổi thuộc giai đoạn giữa 2 lần bắt chéo (sau 7 ngày đến 5 tuổi). Tỷ lệ Lympho $64\%$ và Neutro $28\%$ là **hoàn toàn bình thường**.
-  * **Bước 3 (Đánh giá dấu ấn viêm):** WBC bình thường, không có chuyển trái, CRP âm tính ($< 5 	ext{ mg/L}$).
+  * **Bước 3 (Đánh giá dấu ấn viêm):** WBC bình thường, không có chuyển trái, CRP âm tính ($< 5 \text{ mg/L}$).
   * **Bước 4 (Kết luận căn nguyên):** Nhiễm trùng đường hô hấp trên do **Virus** thể nhẹ.
   * **Bước 5 (Kế hoạch xử trí):** Giải thích phụ huynh, hạ sốt khi sốt $\ge 38.5°C$, vệ sinh mũi họng, **tuyệt đối KHÔNG dùng kháng sinh**.
 
 ### Ca lâm sàng 2: Nhận diện nhiễm khuẩn nặng ở trẻ sơ sinh
 * **Bệnh sử:** Trẻ sơ sinh 10 ngày tuổi, sinh đủ tháng, mẹ rỉ ối 16 giờ. Nhập viện vì bú kém, hạ thân nhiệt (nhiệt độ nách 36.0°C), da tái, thở không đều.
 * **Xét nghiệm:**
-  * WBC: $19.5 	ext{ G/L}$
+  * WBC: $19.5 \text{ G/L}$
   * Neutrophil phân đoạn (Segmented): $35\%$
   * Bạch cầu đũa (Band cells): $15\%$
   * Metamyelocyte: $2\%$
@@ -246,10 +246,10 @@ Ngược lại với vi khuẩn, khi nhiễm virus (Dengue, EBV, CMV, Sởi, Cú
 * **Lời giải 5 bước:**
   * **Bước 1 (Nhận diện tế bào non):** Xuất hiện bạch cầu đũa $15\%$ và hậu tủy bào $2\%$ ở trẻ 10 ngày tuổi là chuyển trái rõ rệt.
   * **Bước 2 (Tính chỉ số I/T Ratio):**
-    $$	ext{Tổng Immature} = 15\% (	ext{Band}) + 2\% (	ext{Meta}) = 17\%$$
-    $$	ext{Tổng Neutrophil} = 35\% (	ext{Seg}) + 17\% (	ext{Immature}) = 52\%$$
-    $$	ext{I/T Ratio} = rac{17}{52} = 0.327$$
-  * **Bước 3 (Biện luận I/T):** $	ext{I/T Ratio} = 0.33 > 0.2$ (ngưỡng bệnh lý rất cao).
+    $$\text{Tổng Immature} = 15\% (\text{Band}) + 2\% (\text{Meta}) = 17\%$$
+    $$\text{Tổng Neutrophil} = 35\% (\text{Seg}) + 17\% (\text{Immature}) = 52\%$$
+    $$\text{I/T Ratio} = \frac{17}{52} = 0.327$$
+  * **Bước 3 (Biện luận I/T):** $\text{I/T Ratio} = 0.33 > 0.2$ (ngưỡng bệnh lý rất cao).
   * **Bước 4 (Kết luận):** Theo dõi **Nhiễm khuẩn sơ sinh sớm/muộn mức độ nặng**.
   * **Bước 5 (Xử trí cấp cứu):** Cấy máu, chọc dịch não tủy, ủ ấm và bắt đầu ngay phác đồ kháng sinh tĩnh mạch phổ rộng (Ampicillin + Gentamicin).
 

@@ -74,8 +74,8 @@ Tại buồng bệnh sơ sinh và phòng khám nhi, việc chẩn đoán sớm �
 ### 1.1 Sự lỗi thời của định nghĩa cũ và Tiêu chuẩn mới NASPGHAN 2017
 - **Định nghĩa cũ (Lỗi thời và nguy hiểm)**: Trước đây, nhiều y văn quy định ứ mật khi Bilirubin trực tiếp trên 2.0 mg/dL. Định nghĩa này làm chậm trễ việc phát hiện Teo đường mật bẩm sinh ở giai đoạn sớm khi nồng độ Bilirubin trực tiếp mới chỉ dao động từ 1.0 đến 1.9 mg/dL, khiến nhiều bệnh nhi bị bỏ lỡ khung thời gian phẫu thuật vàng.
 - **Tiêu chuẩn chẩn đoán mới đồng thuận quốc tế (NASPGHAN / ESPGHAN 2017)**:
-  1. Nồng độ **Bilirubin trực tiếp (Direct Bilirubin) $> 1.0	ext{ mg/dL}$** ($17.1\ \mu	ext{mol/L}$) khi nồng độ Bilirubin toàn phần $< 5.0	ext{ mg/dL}$ ($85.5\ \mu	ext{mol/L}$).
-  2. Nồng độ **Bilirubin trực tiếp chiếm $> 20\%$ Bilirubin toàn phần** khi nồng độ Bilirubin toàn phần $\ge 5.0	ext{ mg/dL}$.
+  1. Nồng độ **Bilirubin trực tiếp (Direct Bilirubin) $> 1.0\text{ mg/dL}$** ($17.1\ \mu\text{mol/L}$) khi nồng độ Bilirubin toàn phần $< 5.0\text{ mg/dL}$ ($85.5\ \mu\text{mol/L}$).
+  2. Nồng độ **Bilirubin trực tiếp chiếm $> 20\%$ Bilirubin toàn phần** khi nồng độ Bilirubin toàn phần $\ge 5.0\text{ mg/dL}$.
 - **Quy tắc thực hành 14 ngày & 21 ngày**:
   - Trẻ sơ sinh bú sữa công thức: Bắt buộc xét nghiệm Bilirubin toàn phần và trực tiếp nếu còn vàng da sau **14 ngày tuổi**.
   - Trẻ sơ sinh bú mẹ hoàn toàn: Bắt buộc xét nghiệm Bilirubin toàn phần và trực tiếp nếu còn vàng da sau **21 ngày tuổi**.
@@ -180,7 +180,7 @@ Hiện tượng kém hấp thu lipid tại ruột non kéo theo sự thất tho�
 | **Màu sắc phân theo thời gian** | Phân bạc màu liên tục hoặc chuyển bạc màu hoàn toàn sau vài tuần. | Màu phân dao động, vàng nhạt ngắt quãng, hiếm khi trắng hoàn toàn. |
 | **Khám mật độ gan tại giường** | Gan to rất sớm, mật độ chắc cứng, bờ sắc, lách to tiến triển. | Gan mềm hoặc chắc nhẹ, lách to phụ thuộc mức độ nhiễm trùng. |
 | **Chỉ số men gan GGT** | Tăng rất cao, thường vượt ngưỡng 300 đến 600 UI/L. | Bình thường hoặc chỉ tăng nhẹ dưới 200 đến 300 UI/L. |
-| **Dấu hiệu siêu âm gan mật** | Có Triangular cord sign (dày $\ge 4	ext{ mm}$), túi mật teo nhỏ $< 1.5	ext{ cm}$. | Đường mật ngoài gan thông suốt, túi mật co bóp bình thường sau ăn. |
+| **Dấu hiệu siêu âm gan mật** | Có Triangular cord sign (dày $\ge 4\text{ mm}$), túi mật teo nhỏ $< 1.5\text{ cm}$. | Đường mật ngoài gan thông suốt, túi mật co bóp bình thường sau ăn. |
 | **Thái độ điều trị quyết định** | **Phẫu thuật Kasai cấp cứu trước 60 ngày tuổi**. | Điều trị nội khoa bảo tồn, dinh dưỡng và điều trị căn nguyên. |
 
 - **Ví dụ minh họa 3**: Trẻ 40 ngày tuổi đủ tháng cân nặng lúc sinh 3.2 kg, phân trắng như phân cò, gan to 3 cm dưới sườn mật độ chắc và GGT 680 UI/L là bức tranh điển hình của teo đường mật bẩm sinh cần mổ Kasai khẩn.
@@ -288,7 +288,7 @@ Lý tưởng nhất: TRƯỚC 45 NGÀY      Khả năng phải ghép gan cao    
   - *Mổ sau 90 ngày tuổi*: Tỷ lệ thành công chỉ còn **dưới 20% đến 25%** do mô gan đã bị xơ hóa không thể hồi phục; phẫu thuật Kasai lúc này hầu như không còn mang lại lợi ích và trẻ bắt buộc phải chờ đợi ghép gan.
 
 ### 5.2 Phác đồ Dinh dưỡng chuyên biệt cho trẻ ứ mật sơ sinh
-- **Nhu cầu năng lượng**: Do tình trạng kém hấp thu mỡ và chuyển hóa tăng cao, trẻ ứ mật cần nhu cầu năng lượng rất lớn, đạt từ **130% đến 150% nhu cầu khuyến nghị (RDA)**, tương đương từ $130	ext{ đến }150	ext{ kcal/kg/ngày}$.
+- **Nhu cầu năng lượng**: Do tình trạng kém hấp thu mỡ và chuyển hóa tăng cao, trẻ ứ mật cần nhu cầu năng lượng rất lớn, đạt từ **130% đến 150% nhu cầu khuyến nghị (RDA)**, tương đương từ $130\text{ đến }150\text{ kcal/kg/ngày}$.
 - **Bổ sung chất béo chuỗi trung bình (MCT)**:
   - Sử dụng các loại sữa công thức chuyên biệt cho bệnh gan mật có chứa chất béo chuỗi trung bình MCT chiếm từ **30% đến 50% tổng lượng chất béo**.
   - MCT không cần muối mật nhũ tương hóa, được hấp thu trực tiếp qua niêm mạc ruột vào tĩnh mạch cửa cung cấp nguồn calo quý giá giúp trẻ tăng cân.
@@ -303,7 +303,7 @@ Lý tưởng nhất: TRƯỚC 45 NGÀY      Khả năng phải ghép gan cao    
 
 ### 5.3 Thuốc hỗ trợ bảo vệ tế bào gan và kích thích tiết mật
 - **Ursodeoxycholic acid (UDCA / Ursodiol)**:
-  - Liều lượng chuẩn: **$15	ext{ đến }20	ext{ mg/kg/ngày}$**, chia làm 2 đến 3 lần uống cùng bữa ăn.
+  - Liều lượng chuẩn: **$15\text{ đến }20\text{ mg/kg/ngày}$**, chia làm 2 đến 3 lần uống cùng bữa ăn.
   - Tác dụng: Thay thế các acid mật kỵ nước nội sinh gây độc bằng acid mật ưa nước lành tính, kích thích bơm xuất bào BSEP bài tiết dịch mật và ổn định màng tế bào gan.
 
 ---
