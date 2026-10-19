@@ -7,12 +7,14 @@ Sinh trong `12_Nhi khoa/`:
   - CATALOG_PED_VIEWER.json  cùng payload (bản đọc được cho người/agent)
   - checklist.html           EMBEDDED_CURRICULUM (dự phòng khi không tải được data.js)
   - app.html, mobile.html, checklist.html: `data.js?v=<version>` để trình duyệt lấy bản mới
+  - san_khoa_media/          ảnh giáo trình Sản (chép từ nguồn, xóa ảnh không còn dùng)
 
 Nguồn:
   - Nhi khoa: `_CURRICULUM_NHI_KHOA.md` + folder bài `PED-xx_*` (bỏ outputs/). Folder có lesson.json thì
     lấy đúng file bài / cards / APKG khai trong manifest.
-  - Sản khoa: giáo trình ĐHYD Thái Bình 2021 ở `--san-dir` (mặc định F:/DL/Giao_trinh_San_khoa_Y_Thai_Binh_2021).
-    Thiếu nguồn Sản → DỪNG, không ghi gì (tránh deploy trang mất mục Sản khoa).
+  - Sản khoa: giáo trình ĐHYD Thái Bình 2021 ở `--san-dir` (mặc định F:/DL/Giao_trinh_San_khoa_Y_Thai_Binh_2021),
+    do `01_San phu khoa/_Giao_trinh_YTB_2021_tools/extract_san_khoa.py` trích từ file .doc gốc.
+    Thiếu nguồn Sản hoặc thiếu ảnh được trỏ tới → DỪNG, không ghi gì (tránh deploy trang mất/hỏng mục Sản khoa).
 
 Chạy tự động sau mỗi lần release bài Nhi (post_release trong 10_Script Python/specialties.json).
 Push `main` = Cloudflare Pages deploy.
@@ -23,6 +25,7 @@ import argparse
 import json
 import os
 import re
+import shutil
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -156,12 +159,16 @@ def scan_ped_files() -> dict[str, dict]:
     return discovered
 
 
+SAN_MEDIA_WEB = BASE_DIR / "san_khoa_media"  # ảnh giáo trình Sản phải nằm trong web root mới hiển thị được
+IMG_LINK_RE = re.compile(r"\]\(media/([^)]+)\)")
+
+
 def scan_obgyn_files(san_dir: Path) -> list[dict]:
     index_file = san_dir / "index.json"
     if not index_file.exists():
         raise SystemExit(f"[BLOCK] không thấy nguồn Sản khoa {index_file} — dừng để không ghi đè data.js "
                          f"thành bản mất mục Sản khoa. Dùng --san-dir nếu nguồn ở chỗ khác.")
-    lessons = []
+    lessons, used_media = [], set()
     for item in json.loads(index_file.read_text(encoding="utf-8")):
         md_path, json_path = san_dir / item["md_path"], san_dir / item["json_path"]
         if not md_path.exists():
@@ -169,17 +176,36 @@ def scan_obgyn_files(san_dir: Path) -> list[dict]:
         meta = {}
         if json_path.exists():
             meta = json.loads(json_path.read_text(encoding="utf-8"))
+        content = md_path.read_text(encoding="utf-8")
+        for rel in IMG_LINK_RE.findall(content):
+            if not (san_dir / "media" / rel).is_file():
+                raise SystemExit(f"[BLOCK] Sản khoa {item['id']}: thiếu ảnh media/{rel}")
+            used_media.add(rel)
         lessons.append({
             "id": item["id"], "specialty": "obgyn", "specialty_name": "Sản Phụ Khoa",
             "chapter": item["chapter"], "folder": item["folder"], "title": item["title"],
             "author": item.get("author", "Bộ môn Phụ Sản ĐHYD Thái Bình"), "word_count": item.get("word_count", 0),
-            "content": md_path.read_text(encoding="utf-8"),
+            "content": IMG_LINK_RE.sub(lambda m: f"]({SAN_MEDIA_WEB.name}/{m.group(1)})", content),
             "key_numbers": meta.get("key_numbers", []), "key_drugs": meta.get("key_drugs", []),
             "md_path": item["md_path"],
         })
     if not lessons:
         raise SystemExit(f"[BLOCK] {index_file} không có bài Sản khoa nào")
+    sync_media(san_dir / "media", used_media)
     return lessons
+
+
+def sync_media(src_root: Path, used: set[str]) -> None:
+    """Chép ảnh Sản đang được dùng vào web root; xóa ảnh không còn bài nào trỏ tới."""
+    for rel in used:
+        src, dst = src_root / rel, SAN_MEDIA_WEB / rel
+        if not dst.exists() or dst.stat().st_size != src.stat().st_size:
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(src, dst)
+    if SAN_MEDIA_WEB.exists():
+        for f in SAN_MEDIA_WEB.rglob("*"):
+            if f.is_file() and f.relative_to(SAN_MEDIA_WEB).as_posix() not in used:
+                f.unlink()
 
 
 def build_payload(san_dir: Path, version: str, generated_at: str) -> dict:

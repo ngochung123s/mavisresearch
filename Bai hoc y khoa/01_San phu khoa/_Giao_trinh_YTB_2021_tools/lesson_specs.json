@@ -1,0 +1,498 @@
+[
+ {
+  "id": "SK-01",
+  "folder": "01_San_thuong",
+  "chapter": "Chương 1. Sản thường",
+  "title": "Khung chậu nữ về phương diện sản khoa",
+  "author": "Ths. Bùi Thị Thanh Tuyền",
+  "regex": "KHUNG\\s+CHẬU\\s+NỮ\\s+VỀ\\s+PHƯƠNG\\s+DIỆN\\s+SẢN\\s+KHOA",
+  "basename": "SK-01_khung_chau_nu_ve_phuong_dien_san_khoa"
+ },
+ {
+  "id": "SK-02",
+  "folder": "01_San_thuong",
+  "chapter": "Chương 1. Sản thường",
+  "title": "Sinh lý phụ khoa",
+  "author": "Bs.CKII Nguyễn Thị Tuyết",
+  "regex": "SINH\\s+L[YÝIÍ]\\s+PHỤ\\s+KHOA",
+  "basename": "SK-02_sinh_ly_phu_khoa"
+ },
+ {
+  "id": "SK-03",
+  "folder": "01_San_thuong",
+  "chapter": "Chương 1. Sản thường",
+  "title": "Sự thụ tinh, làm tổ và phát triển của trứng",
+  "author": "Ths. Bùi Thị Thanh Tuyền",
+  "regex": "SỰ\\s+THỤ\\s+TINH,\\s+LÀM\\s+TỔ",
+  "basename": "SK-03_su_thu_tinh_lam_to_va_phat_trien_cua_trung"
+ },
+ {
+  "id": "SK-04",
+  "folder": "01_San_thuong",
+  "chapter": "Chương 1. Sản thường",
+  "title": "Tính chất thai nhi và phần phụ đủ tháng",
+  "author": "Ths. Trần Thị Len",
+  "regex": "TÍNH\\s+CHẤT\\s+THAI\\s+NHI\\s+VÀ\\s+PHẦN\\s+PHỤ",
+  "basename": "SK-04_tinh_chat_thai_nhi_va_phan_phu_du_thang"
+ },
+ {
+  "id": "SK-05",
+  "folder": "01_San_thuong",
+  "chapter": "Chương 1. Sản thường",
+  "title": "Thay đổi giải phẫu, sinh lý người phụ nữ có thai",
+  "author": "Ths. Trần Thị Len",
+  "regex": "THAY\\s+ĐỔI\\s+GIẢI\\s+PHẪU,\\s+SINH\\s+L[YÝIÍ]",
+  "basename": "SK-05_thay_doi_giai_phau_sinh_ly_nguoi_phu_nu_co_thai"
+ },
+ {
+  "id": "SK-06",
+  "folder": "01_San_thuong",
+  "chapter": "Chương 1. Sản thường",
+  "title": "Chẩn đoán thai nghén",
+  "author": "Ths. Nguyễn Văn Hiền",
+  "regex": "CHẨN\\s+ĐOÁN\\s+THAI\\s+NGHÉN",
+  "basename": "SK-06_chan_doan_thai_nghen"
+ },
+ {
+  "id": "SK-07",
+  "folder": "01_San_thuong",
+  "chapter": "Chương 1. Sản thường",
+  "title": "Sinh lý chuyển dạ",
+  "author": "Ths. Bùi Thị Thanh Tuyền",
+  "regex": "SINH\\s+L[YÝIÍ]\\s+CHUYỂN\\s+DẠ",
+  "basename": "SK-07_sinh_ly_chuyen_da"
+ },
+ {
+  "id": "SK-08",
+  "folder": "01_San_thuong",
+  "chapter": "Chương 1. Sản thường",
+  "title": "Chẩn đoán ngôi, thế, kiểu thế",
+  "author": "Ths. Đặng Thị Việt Hằng",
+  "regex": "CHẨN\\s+ĐOÁN\\s+NGÔI,\\s+THẾ",
+  "basename": "SK-08_chan_doan_ngoi_the_kieu_the"
+ },
+ {
+  "id": "SK-09",
+  "folder": "01_San_thuong",
+  "chapter": "Chương 1. Sản thường",
+  "title": "Ngôi chỏm và cơ chế đẻ ngôi chỏm",
+  "author": "Ths. Đặng Thị Việt Hằng",
+  "regex": "NGÔI\\s+CHỎM\\s+VÀ\\s+CƠ\\s+CHẾ\\s+ĐẺ",
+  "basename": "SK-09_ngoi_chom_va_co_che_de_ngoi_chom"
+ },
+ {
+  "id": "SK-10",
+  "folder": "01_San_thuong",
+  "chapter": "Chương 1. Sản thường",
+  "title": "Các thuốc điều chỉnh cơn co tử cung",
+  "author": "Ths. Nguyễn Trung Kiên",
+  "regex": "CÁC\\s+THUỐC\\s+ĐIỀU\\s+CHỈNH\\s+CƠN\\s+CO",
+  "basename": "SK-10_cac_thuoc_dieu_chinh_con_co_tu_cung"
+ },
+ {
+  "id": "SK-11",
+  "folder": "01_San_thuong",
+  "chapter": "Chương 1. Sản thường",
+  "title": "Những yếu tố tiên lượng một cuộc đẻ",
+  "author": "Ts. Bùi Minh Tiến",
+  "regex": "NHỮNG\\s+YẾU\\s+TỐ\\s+TIÊN\\s+LƯỢNG",
+  "basename": "SK-11_nhung_yeu_to_tien_luong_mot_cuoc_de"
+ },
+ {
+  "id": "SK-12",
+  "folder": "01_San_thuong",
+  "chapter": "Chương 1. Sản thường",
+  "title": "Sổ rau thường",
+  "author": "TS. Bùi Minh Tiến",
+  "regex": "SỔ\\s+RAU\\s+THƯỜNG",
+  "basename": "SK-12_so_rau_thuong"
+ },
+ {
+  "id": "SK-13",
+  "folder": "01_San_thuong",
+  "chapter": "Chương 1. Sản thường",
+  "title": "Hậu sản thường",
+  "author": "TS. Bùi Minh Tiến",
+  "regex": "HẬU\\s+SẢN\\s+THƯỜNG",
+  "basename": "SK-13_hau_san_thuong"
+ },
+ {
+  "id": "SK-14",
+  "folder": "01_San_thuong",
+  "chapter": "Chương 1. Sản thường",
+  "title": "Một số phương pháp thăm dò trong sản khoa",
+  "author": "THs. BSCKII. Lê Hải Dương, Ths. Phạm Thị Quỳnh Như",
+  "regex": "MỘT\\s+SỐ\\s+PHƯƠNG\\s+PHÁP\\s+THĂM\\s+DÒ",
+  "basename": "SK-14_mot_so_phuong_phap_tham_do_trong_san_khoa"
+ },
+ {
+  "id": "SK-15",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Sẩy thai",
+  "author": "Ths. Nguyễn Trung Kiên",
+  "regex": "^SẨY\\s+THAI$",
+  "basename": "SK-15_say_thai"
+ },
+ {
+  "id": "SK-16",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Thai chết lưu trong tử cung",
+  "author": "Ths. Nguyễn Trung Kiên",
+  "regex": "THAI\\s+CHẾT\\s+(?:LƯU\\s+)?TRONG\\s+TỬ\\s+CUNG",
+  "basename": "SK-16_thai_chet_luu_trong_tu_cung"
+ },
+ {
+  "id": "SK-17",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Thai ngoài tử cung",
+  "author": "Ths. Nguyễn Trung Kiên",
+  "regex": "^THAI\\s+NGOÀI\\s+TỬ\\s+CUNG$",
+  "basename": "SK-17_thai_ngoai_tu_cung"
+ },
+ {
+  "id": "SK-18",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Chửa trứng",
+  "author": "Ths. BSCK II. Lê Hải Dương, Ths. Phạm Thị Quỳnh Như",
+  "regex": "^CHỬA\\s+TRỨNG$",
+  "basename": "SK-18_chua_trung"
+ },
+ {
+  "id": "SK-19",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Đẻ khó",
+  "author": "PGS. TS. Ninh Văn Minh",
+  "regex": "^ĐẺ\\s+KHÓ$",
+  "basename": "SK-19_de_kho"
+ },
+ {
+  "id": "SK-20",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai",
+  "author": "Ths. Đinh Văn Hoành",
+  "regex": "NGÔI\\s+MẶT,\\s+NGÔI\\s+TRÁN",
+  "basename": "SK-20_ngoi_mat_ngoi_tran_ngoi_thop_truoc_ngoi_vai"
+ },
+ {
+  "id": "SK-21",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Đẻ non",
+  "author": "Ths. BSCK II. Hoàng Tiến Nam",
+  "regex": "^ĐẺ\\s+NON$",
+  "basename": "SK-21_de_non"
+ },
+ {
+  "id": "SK-55",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Thai già tháng",
+  "author": "Bộ môn Phụ Sản ĐHYD Thái Bình",
+  "regex": "THAI\\s+GIÀ\\s+THÁNG",
+  "basename": "SK-55_thai_gia_thang",
+  "note": "bản cũ cùng chủ đề với SK-36 (Thai quá ngày sinh); trước đây bị dính vào cuối SK-21"
+ },
+ {
+  "id": "SK-22",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Đa ối",
+  "author": "Ths. BSCK II. Hoàng Tiến Nam",
+  "regex": "^ĐA\\s+ỐI$",
+  "basename": "SK-22_da_oi"
+ },
+ {
+  "id": "SK-23",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Thiểu ối",
+  "author": "Ths. BSCK II. Hoàng Tiến Nam",
+  "regex": "^THIỂU\\s+ỐI$",
+  "basename": "SK-23_thieu_oi"
+ },
+ {
+  "id": "SK-24",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Thai nghén nguy cơ cao",
+  "author": "PGS. TS. Ninh Văn Minh",
+  "regex": "THAI\\s+NGHÉN\\s+NGUY\\s+CƠ\\s+CAO",
+  "basename": "SK-24_thai_nghen_nguy_co_cao"
+ },
+ {
+  "id": "SK-25",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Chỉ định mổ lấy thai",
+  "author": "Ths. Nguyễn Trung Kiên",
+  "regex": "CHỈ\\s+ĐỊNH\\s+MỔ\\s+LẤY\\s+THAI",
+  "basename": "SK-25_chi_dinh_mo_lay_thai"
+ },
+ {
+  "id": "SK-26",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Forceps sản khoa",
+  "author": "BsCK II. Nguyễn Thị Tuyết",
+  "regex": "FORCEPS\\s+SẢN\\s+KHOA|^FORCEPS$",
+  "basename": "SK-26_forceps_san_khoa"
+ },
+ {
+  "id": "SK-27",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Giác hút sản khoa",
+  "author": "Bs CK II. Nguyễn Thị Tuyết",
+  "regex": "GIÁC\\s+HÚT\\s+SẢN\\s+KHOA|^GIÁC\\s+HÚT$",
+  "basename": "SK-27_giac_hut_san_khoa"
+ },
+ {
+  "id": "SK-28",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Vỡ tử cung",
+  "author": "Ths. Đinh Văn Hoành",
+  "regex": "^VỠ\\s+TỬ\\s+CUNG$",
+  "basename": "SK-28_vo_tu_cung"
+ },
+ {
+  "id": "SK-29",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Rau tiền đạo",
+  "author": "Ths. Nguyễn Trung Kiên",
+  "regex": "^RAU\\s+TIỀN\\s+ĐẠO$",
+  "basename": "SK-29_rau_tien_dao"
+ },
+ {
+  "id": "SK-30",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Rau bong non",
+  "author": "Ths. Nguyễn Trung Kiên",
+  "regex": "^RAU\\s+BONG\\s+NON$",
+  "basename": "SK-30_rau_bong_non"
+ },
+ {
+  "id": "SK-31",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Đa thai",
+  "author": "Ths. Bs CK II. Hoàng Tiến Nam",
+  "regex": "^ĐA\\s+THAI$",
+  "basename": "SK-31_da_thai"
+ },
+ {
+  "id": "SK-32",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Ngôi mông",
+  "author": "Ths. Bs CK II. Hoàng Tiến Nam",
+  "regex": "^NGÔI\\s+MÔNG$",
+  "basename": "SK-32_ngoi_mong"
+ },
+ {
+  "id": "SK-33",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Chảy máu sau sinh",
+  "author": "Ths. Bùi Thị Thanh Tuyền",
+  "regex": "CHẢY\\s+MÁU\\s+SAU\\s+SINH",
+  "basename": "SK-33_chay_mau_sau_sinh"
+ },
+ {
+  "id": "SK-34",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Suy thai",
+  "author": "Ths. Đinh Văn Hoành",
+  "regex": "^SUY\\s+THAI$",
+  "basename": "SK-34_suy_thai"
+ },
+ {
+  "id": "SK-35",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Tiền sản giật - Sản giật",
+  "author": "Ths. Đinh Văn Hoành",
+  "regex": "TIỀN\\s+SẢN\\s+GIẬT",
+  "basename": "SK-35_tien_san_giat_san_giat"
+ },
+ {
+  "id": "SK-36",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Thai quá ngày sinh",
+  "author": "Ths. Nguyễn Văn Hiền",
+  "regex": "THAI\\s+QUÁ\\s+NGÀY\\s+SINH",
+  "basename": "SK-36_thai_qua_ngay_sinh"
+ },
+ {
+  "id": "SK-37",
+  "folder": "02_San_benh",
+  "chapter": "Chương 2. Sản bệnh",
+  "title": "Nhiễm khuẩn hậu sản",
+  "author": "Ths. Nguyễn Trung Kiên",
+  "regex": "NHIỄM\\s+KHUẨN\\s+HẬU\\s+SẢN",
+  "basename": "SK-37_nhiem_khuan_hau_san"
+ },
+ {
+  "id": "SK-38",
+  "folder": "03_Phu_khoa",
+  "chapter": "Chương 3. Phụ khoa",
+  "title": "Thăm dò trong phụ khoa",
+  "author": "Ths. Phạm Thị Quỳnh Như",
+  "regex": "THĂM\\s+DÒ\\s+TRONG\\s+PHỤ\\s+KHOA",
+  "basename": "SK-38_tham_do_trong_phu_khoa"
+ },
+ {
+  "id": "SK-39",
+  "folder": "03_Phu_khoa",
+  "chapter": "Chương 3. Phụ khoa",
+  "title": "Tổn thương lành tính cổ tử cung",
+  "author": "Ths. Đinh Văn Hoành",
+  "regex": "TỔN\\s+THƯƠNG\\s+LÀNH\\s+TÍNH\\s+CỔ\\s+TỬ\\s+CUNG",
+  "basename": "SK-39_ton_thuong_lanh_tinh_co_tu_cung"
+ },
+ {
+  "id": "SK-40",
+  "folder": "03_Phu_khoa",
+  "chapter": "Chương 3. Phụ khoa",
+  "title": "Ung thư cổ tử cung",
+  "author": "TS. Bùi Minh Tiến, TS. Phan Văn Cương",
+  "regex": "UNG\\s+THƯ\\s+CỔ\\s+TỬ\\s+CUNG",
+  "basename": "SK-40_ung_thu_co_tu_cung"
+ },
+ {
+  "id": "SK-41",
+  "folder": "03_Phu_khoa",
+  "chapter": "Chương 3. Phụ khoa",
+  "title": "Ung thư niêm mạc tử cung",
+  "author": "TS. Bùi Minh Tiến, TS. Phan Văn Cương",
+  "regex": "UNG\\s+THƯ\\s+NIÊM\\s+MẠC\\s+TỬ\\s+CUNG",
+  "basename": "SK-41_ung_thu_niem_mac_tu_cung"
+ },
+ {
+  "id": "SK-42",
+  "folder": "03_Phu_khoa",
+  "chapter": "Chương 3. Phụ khoa",
+  "title": "Ung thư nguyên bào nuôi",
+  "author": "Ths. Đinh Văn Hoành",
+  "regex": "UNG\\s+THƯ\\s+NGUYÊN\\s+BÀO\\s+NUÔI",
+  "basename": "SK-42_ung_thu_nguyen_bao_nuoi"
+ },
+ {
+  "id": "SK-43",
+  "folder": "03_Phu_khoa",
+  "chapter": "Chương 3. Phụ khoa",
+  "title": "Bệnh của tuyến vú",
+  "author": "Ths. Nguyễn Văn Hiền, TS. Phan Văn Cương",
+  "regex": "BỆNH\\s+CỦA\\s+TUYẾN\\s+VÚ",
+  "basename": "SK-43_benh_cua_tuyen_vu"
+ },
+ {
+  "id": "SK-44",
+  "folder": "03_Phu_khoa",
+  "chapter": "Chương 3. Phụ khoa",
+  "title": "Rối loạn kinh nguyệt",
+  "author": "Ths. Phạm Thị Quỳnh Như",
+  "regex": "RỐI\\s+LOẠN\\s+KINH\\s+NGUYỆT",
+  "basename": "SK-44_roi_loan_kinh_nguyet"
+ },
+ {
+  "id": "SK-45",
+  "folder": "03_Phu_khoa",
+  "chapter": "Chương 3. Phụ khoa",
+  "title": "Viêm sinh dục",
+  "author": "TS. Bùi Minh Tiến",
+  "regex": "^VIÊM\\s+SINH\\s+DỤC$",
+  "basename": "SK-45_viem_sinh_duc"
+ },
+ {
+  "id": "SK-46",
+  "folder": "03_Phu_khoa",
+  "chapter": "Chương 3. Phụ khoa",
+  "title": "U xơ tử cung",
+  "author": "TS. BS. Bùi Minh Tiến",
+  "regex": "^U\\s+XƠ\\s+TỬ\\s+CUNG$",
+  "basename": "SK-46_u_xo_tu_cung"
+ },
+ {
+  "id": "SK-47",
+  "folder": "03_Phu_khoa",
+  "chapter": "Chương 3. Phụ khoa",
+  "title": "Khối u buồng trứng",
+  "author": "TS. BS. Bùi Minh Tiến, TS. BS. Phan Văn Cương",
+  "regex": "KHỐI\\s+U\\s+BUỒNG\\s+TRỨNG",
+  "basename": "SK-47_khoi_u_buong_trung"
+ },
+ {
+  "id": "SK-48",
+  "folder": "04_So_sinh",
+  "chapter": "Chương 4. Sơ sinh",
+  "title": "Tử vong bà mẹ và trẻ sơ sinh",
+  "author": "Ths. BSCK II. Hoàng Tiến Nam",
+  "regex": "TỬ\\s+VONG\\s+BÀ\\s+MẸ\\s+VÀ\\s+TRẺ\\s+SƠ\\s+SINH",
+  "basename": "SK-48_tu_vong_ba_me_va_tre_so_sinh"
+ },
+ {
+  "id": "SK-49",
+  "folder": "04_So_sinh",
+  "chapter": "Chương 4. Sơ sinh",
+  "title": "Hồi sức sơ sinh ngạt",
+  "author": "Ths. Đinh Văn Hoành",
+  "regex": "HỒI\\s+SỨC\\s+SƠ\\s+SINH\\s+NGẠT",
+  "basename": "SK-49_hoi_suc_so_sinh_ngat"
+ },
+ {
+  "id": "SK-50",
+  "folder": "05_Ke_hoach_hoa_gia_dinh",
+  "chapter": "Chương 5. Kế hoạch hóa gia đình",
+  "title": "Các biện pháp tránh thai",
+  "author": "Bs.CKII. Nguyễn Thị Tuyết",
+  "regex": "CÁC\\s+BIỆN\\s+PHÁP\\s+TRÁNH\\s+THAI",
+  "basename": "SK-50_cac_bien_phap_tranh_thai"
+ },
+ {
+  "id": "SK-51",
+  "folder": "06_Ho_tro_sinh_san",
+  "chapter": "Chương 6. Hỗ trợ sinh sản",
+  "title": "Đại cương vô sinh",
+  "author": "Bs.CK II. Nguyễn Thị Tuyết",
+  "regex": "ĐẠI\\s+CƯƠNG\\s+VÔ\\s+SINH",
+  "basename": "SK-51_dai_cuong_vo_sinh"
+ },
+ {
+  "id": "SK-52",
+  "folder": "06_Ho_tro_sinh_san",
+  "chapter": "Chương 6. Hỗ trợ sinh sản",
+  "title": "Sức khoẻ sinh sản vị thành niên",
+  "author": "THs. BSCKII. Lê Hải Dương",
+  "regex": "SỨC\\s+KHO[EẺ]\\s+SINH\\s+SẢN\\s+VỊ\\s+THÀNH\\s+NIÊN",
+  "basename": "SK-52_suc_khoe_sinh_san_vi_thanh_nien"
+ },
+ {
+  "id": "SK-53",
+  "folder": "06_Ho_tro_sinh_san",
+  "chapter": "Chương 6. Hỗ trợ sinh sản",
+  "title": "Sức khoẻ sinh sản trong thời kỳ mãn kinh",
+  "author": "THs. BSCKII. Lê Hải Dương",
+  "regex": "SỨC\\s+KHO[EẺ]\\s+SINH\\s+SẢN\\s+TRONG\\s+THỜI\\s+KỲ\\s+MÃN\\s+KINH",
+  "basename": "SK-53_suc_khoe_sinh_san_trong_thoi_ky_man_kinh"
+ },
+ {
+  "id": "SK-54",
+  "folder": "06_Ho_tro_sinh_san",
+  "chapter": "Chương 6. Hỗ trợ sinh sản",
+  "title": "Các phương pháp hỗ trợ sinh sản",
+  "author": "Ths. Nguyễn Văn Hiền",
+  "regex": "CÁC\\s+PHƯƠNG\\s+PHÁP\\s+HỖ\\s+TRỢ\\s+SINH\\s+SẢN",
+  "basename": "SK-54_cac_phuong_phap_ho_tro_sinh_san"
+ }
+]
