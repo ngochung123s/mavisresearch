@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="theme-color" content="#121214">
@@ -11,23 +11,24 @@
     (function() {
       var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768;
       var saved = localStorage.getItem('ped_viewer_target');
+      var keep = window.location.search + window.location.hash; // giữ ?k=…&bai=… khi chuyển trang
 
       // Nếu trên điện thoại: Luôn ưu tiên bản mobile.html trừ khi có cờ ép buộc trên màn hình lớn
       if (isMobile) {
         if (saved === 'desktop' && window.innerWidth > 600) {
-          window.location.replace('app.html');
+          window.location.replace('app.html' + keep);
           return;
         }
-        window.location.replace('mobile.html');
+        window.location.replace('mobile.html' + keep);
         return;
       }
 
       if (saved === 'mobile') {
-        window.location.replace('mobile.html');
+        window.location.replace('mobile.html' + keep);
         return;
       }
 
-      window.location.replace('app.html');
+      window.location.replace('app.html' + keep);
     })();
   </script>
 </head>
