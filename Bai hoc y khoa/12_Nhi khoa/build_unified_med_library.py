@@ -108,8 +108,7 @@ def _apply_manifest(entry: dict, folder: Path) -> None:
     basename = manifest.get("deck", {}).get("basename")
     if basename and (folder / f"{basename}.cards.v2.json").exists():
         entry["cards_file"] = f"{basename}.cards.v2.json"
-        entry["cards_data"] = _load_cards(folder / entry["cards_file"])
-        entry["cards_count"] = len(entry["cards_data"])
+        entry["cards_count"] = len(_load_cards(folder / entry["cards_file"]))
     if basename and (folder / f"{basename}.apkg").exists():
         entry["apkg_file"] = f"{basename}.apkg"
 
@@ -127,7 +126,7 @@ def scan_ped_files() -> dict[str, dict]:
             ped_id = ped_m.group(1).upper()
             entry = discovered.setdefault(ped_id, {
                 "ped_file": None, "ped_content": "", "pedytb_file": None, "pedytb_content": "",
-                "cards_file": None, "cards_count": 0, "cards_data": [], "apkg_file": None, "html_file": None,
+                "cards_file": None, "cards_count": 0, "apkg_file": None, "html_file": None,
                 "folder_rel": str(root_path.relative_to(BASE_DIR)).replace("\\", "/"),
             })
             fpath = root_path / file
@@ -143,8 +142,8 @@ def scan_ped_files() -> dict[str, dict]:
             elif file.endswith(".cards.v2.json"):
                 if "MASTER" in upper or not entry["cards_file"]:
                     try:
-                        entry["cards_data"] = _load_cards(fpath)
-                        entry["cards_file"], entry["cards_count"] = file, len(entry["cards_data"])
+                        entry["cards_count"] = len(_load_cards(fpath))
+                        entry["cards_file"] = file
                     except (ValueError, OSError) as e:
                         print(f"[WARN] {ped_id}: không đọc được {file}: {e}")
             elif file.endswith(".apkg"):
@@ -201,7 +200,8 @@ def build_payload(san_dir: Path, version: str, generated_at: str) -> dict:
             "ped_file": disc.get("ped_file"), "ped_content": disc.get("ped_content", ""),
             "pedytb_file": disc.get("pedytb_file"), "pedytb_content": disc.get("pedytb_content", ""),
             "content": disc.get("ped_content") or disc.get("pedytb_content", ""),
-            "cards_count": disc.get("cards_count", 0), "cards_data": disc.get("cards_data", []),
+            # chỉ số thẻ — nội dung thẻ nằm trong APKG/cards.v2.json, viewer không đọc (bớt ~3,4 MB cho điện thoại)
+            "cards_count": disc.get("cards_count", 0),
             "apkg_file": disc.get("apkg_file"), "html_file": disc.get("html_file"),
             "folder_rel": disc.get("folder_rel", ""),
         })

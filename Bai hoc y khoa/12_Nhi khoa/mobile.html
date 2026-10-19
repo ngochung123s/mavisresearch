@@ -153,6 +153,10 @@
       border: 1px solid var(--border);
       padding: 7px 10px;
       text-align: left;
+      /* bảng đã cuộn ngang được → không bẻ chữ giữa từ ("Nh|óm tuổ|i") */
+      word-break: normal;
+      overflow-wrap: normal;
+      min-width: 4.5em;
     }
     .prose-mobile th {
       background: var(--surface);
@@ -178,6 +182,13 @@
       font-size: 0.82em;
       margin: 1em 0;
       border: 1px solid var(--border);
+    }
+    /* Công thức dạng khối dài hơn màn hình: cuộn ngang trong khung, không kéo lệch cả trang */
+    .prose-mobile .katex-display {
+      max-width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      padding: 2px 0;
     }
     .prose-mobile blockquote {
       border-left: 3px solid var(--accent);
@@ -584,7 +595,7 @@
   </div>
 
   <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
-  <script src="data.js?v=20261020_011816"></script>
+  <script src="data.js?v=20261020_013054"></script>
 
   <!-- APPLICATION SCRIPT LOGIC -->
   <script>
