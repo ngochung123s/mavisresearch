@@ -133,12 +133,15 @@ class GovernanceAndModes(unittest.TestCase):
         self.assertIn("D_DECK_NAME", codes([basic()], {"deck_name": "Medical::PED-13_Suy_ho_hap::2026-09-15"}))
 
     def test_deck_name_follows_each_specialty_root(self):
-        noi = "1. Y Khoa - Nội Khoa & Cấp Cứu::02. Tim Mạch::IM-22 Suy tim"
+        noi = "1. Y Khoa - Nội Khoa & Cấp Cứu::02. Tim Mạch::IM-22 Suy tim mạn"
         self.assertNotIn("D_DECK_NAME", codes([basic()], {"deck_name": noi, "specialty": "noi", "id": "IM-22"}))
         # mã bài trong tên deck phải trùng mã bài của manifest
         self.assertIn("D_DECK_NAME", codes([basic()], {"deck_name": noi, "specialty": "noi", "id": "IM-23"}))
         # deck Nội đặt nhầm dưới gốc Nhi
-        self.assertIn("D_DECK_NAME", codes([basic()], {"deck_name": "Nhi khoa Y6::IM-22 Suy tim", "specialty": "noi"}))
+        self.assertIn("D_DECK_NAME", codes([basic()], {"deck_name": "Nhi khoa Y6::IM-22 Suy tim mạn", "specialty": "noi"}))
+        # tên không dấu dù ngắn vẫn bị chặn
+        self.assertIn("D_DECK_NAME", codes([basic()], {"deck_name": noi.replace("Suy tim mạn", "Tieu chay cap"),
+                                                      "specialty": "noi", "id": "IM-22"}))
 
     def test_duplicate_ids_and_fronts(self):
         found = codes([basic("X-1"), basic("X-1")])

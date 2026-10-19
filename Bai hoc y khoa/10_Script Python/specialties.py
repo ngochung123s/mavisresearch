@@ -33,6 +33,11 @@ class Specialty:
     artifact_dir: str
     curriculum: str
     post_release: tuple[str, ...]
+    models: tuple = ()  # (("basic", {...}), ("cloze", {...})) — notetype riêng của chuyên khoa (rỗng = YKhoa_Master_*)
+
+    @property
+    def model_overrides(self) -> dict:
+        return dict(self.models)
 
     @property
     def id_re(self) -> str:
@@ -61,8 +66,7 @@ class Specialty:
             return f"phải có dạng `{self.deck_root}::[nhóm::]<{self.id_prefix}-xx> <Tên>` (ví dụ: {self.deck_example})"
         if lesson_id and m.group(1) != lesson_id:
             return f"mã bài trong tên deck ({m.group(1)}) khác mã bài ({lesson_id})"
-        title_words = re.findall(r"[^\W\d_]{2,}", m.group(2))
-        if len(title_words) >= 4 and not VN_DIACRITIC_RE.search(m.group(2)):  # tên ngắn như "Suy tim" có thể không dấu
+        if not VN_DIACRITIC_RE.search(m.group(2)):
             return "tên bài trong deck phải viết tiếng Việt có dấu"
         return None
 
@@ -74,6 +78,7 @@ def load() -> dict[str, Specialty]:
     for item in data["specialties"]:
         item = {k: v for k, v in item.items() if not k.startswith("_")}
         item["post_release"] = tuple(item.get("post_release", []))
+        item["models"] = tuple((k, v) for k, v in item.get("models", {}).items() if not k.startswith("_"))
         spec = Specialty(**item)
         if spec.evidence_mode not in EVIDENCE_MODES:
             raise ValueError(f"{spec.key}: evidence_mode không hợp lệ {spec.evidence_mode!r}")

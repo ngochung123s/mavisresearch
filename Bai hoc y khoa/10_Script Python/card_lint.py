@@ -352,24 +352,57 @@ def read_apkg(apkg_path: Path) -> tuple[list[dict], list[str], dict[str, int]]:
     return cards, deck_names, media
 
 
+def lesson_folder(path: Path) -> tuple[Path, "specialties.Specialty | None", str | None]:
+    """Folder bài chứa `path` (thư mục gần nhất có mã bài theo registry) + chuyên khoa + mã bài."""
+    specialty = specialties.for_path(path)
+    if specialty:
+        for folder in [path.parent, *path.parent.parents]:
+            if lesson_id := specialty.lesson_id_from_folder(folder.name):
+                return folder, specialty, lesson_id
+            if folder.name == specialty.folder:
+                break
+    return path.parent, specialty, None
+
+
 def lint_apkg(apkg_path: Path, mode: str) -> tuple[list[Issue], dict]:
     cards, deck_names, media = read_apkg(apkg_path)
     spec = {"deck_name": deck_names[0] if len(deck_names) == 1 else (deck_names[-1] if deck_names else "")}
-    if specialty := specialties.for_path(apkg_path):
+    folder, specialty, lesson_id = lesson_folder(apkg_path)
+    if specialty:
         spec["specialty"] = specialty.key
-        spec["id"] = specialty.lesson_id_from_folder(apkg_path.parent.name)
+        spec["id"] = lesson_id
     issues = lint_cards(cards, spec) + lint_media(cards, None, media) + lint_diacritics(apkg_path)
     classify(issues, mode)
     basic = sum(1 for c in cards if c["type"] == "basic")
-    return issues, {"deck": spec["deck_name"], "id": spec.get("id") or apkg_path.parent.name,
+    return issues, {"deck": spec["deck_name"], "id": lesson_id or folder.name,
                     "specialty": spec.get("specialty"), "notes": len(cards), "basic": basic,
                     "cloze": len(cards) - basic}
 
 
 def release_apkgs(root: Path) -> list[Path]:
-    """APKG phát hành của các folder bài dưới `root` (bỏ outputs/ candidate, legacy, bản trùng)."""
-    skip = {"_duplicates_review", "80_Legacy_by_format", "99_Inbox", "08_Anki Deck - apkg", "cache"}
-    return sorted(p for p in root.rglob("*.apkg") if not skip & set(p.parts) and "verification" not in p.parts)
+    """MỘT APKG hiện hành cho mỗi folder bài dưới `root`.
+
+    Ưu tiên: APKG của lesson.json → bản ở root folder bài (không phải candidate outputs/) → tên chứa MASTER →
+    mới nhất theo mtime. Bỏ legacy, bản trùng, thư mục verification.
+    """
+    skip = {"_duplicates_review", "80_Legacy_by_format", "99_Inbox", "08_Anki Deck - apkg", "cache", "verification"}
+    groups: dict[Path, list[Path]] = {}
+    for p in root.rglob("*.apkg"):
+        if skip & set(p.parts):
+            continue
+        groups.setdefault(lesson_folder(p)[0], []).append(p)
+    chosen = []
+    for folder, files in groups.items():
+        manifest = folder / "lesson.json"
+        if manifest.exists():
+            import lesson_manifest
+
+            target = lesson_manifest.load(folder).apkg_path
+            if target.exists():
+                chosen.append(target)
+                continue
+        chosen.append(max(files, key=lambda p: (p.parent == folder, "MASTER" in p.name.upper(), p.stat().st_mtime)))
+    return sorted(chosen)
 
 
 def main(argv: list[str] | None = None) -> int:

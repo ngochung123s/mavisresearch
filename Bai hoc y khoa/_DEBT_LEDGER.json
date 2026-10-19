@@ -6,12 +6,11 @@
     "manifest": true,
     "profile": "foundation",
     "lesson": "PED-01_Dac_diem_sinh_ly_va_Sinh_hieu_theo_tuoi_2026-09-13_RELEASE_v1.md",
-    "debt": 113,
+    "debt": 104,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_LATEX": 102,
-      "V_NOT_FETCHED": 7,
-      "V_NO_PMID": 3
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [],
     "decks": [
@@ -44,12 +43,11 @@
     "manifest": true,
     "profile": "foundation",
     "lesson": "PED-02_Tam_giac_danh_gia_PAT_va_ABCDE_2026-09-13_RELEASE_v1.md",
-    "debt": 85,
+    "debt": 75,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_LATEX": 73,
-      "V_NOT_FETCHED": 6,
-      "V_NO_PMID": 5
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [],
     "decks": [
@@ -81,12 +79,11 @@
     "manifest": true,
     "profile": "foundation",
     "lesson": "PED-03_Nguyen_tac_ke_don_va_Tinh_lieu_thuoc_an_toan_2026-09-13_RELEASE_v1.md",
-    "debt": 152,
+    "debt": 141,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_LATEX": 139,
-      "V_NOT_FETCHED": 8,
-      "V_NO_PMID": 4
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [],
     "decks": [
@@ -305,13 +302,12 @@
     "manifest": true,
     "profile": "foundation",
     "lesson": "PED-13_Suy_ho_hap_so_sinh_va_Lieu_phap_Surfactant_2026-09-15_RELEASE_v1.md",
-    "debt": 52,
+    "debt": 41,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_LATEX": 35,
       "S_DEPTH": 4,
-      "V_NOT_FETCHED": 11,
-      "V_NO_PMID": 1
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [
       "Basic concepts explained",
@@ -343,12 +339,11 @@
     "manifest": true,
     "profile": "foundation",
     "lesson": "PED-14_Vang_da_tang_Bilirubin_gian_tiep_so_sinh_2026-09-13_RELEASE_v1.md",
-    "debt": 12,
+    "debt": 3,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_LATEX": 1,
-      "V_NOT_FETCHED": 8,
-      "V_NO_PMID": 2
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [],
     "decks": [
@@ -380,13 +375,12 @@
     "manifest": true,
     "profile": "foundation",
     "lesson": "PED-15_Tiep_can_vang_da_u_mat_va_Teo_duong_mat_bam_sinh_2026-09-13_RELEASE_v1.md",
-    "debt": 21,
+    "debt": 12,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_CONTROL_CHAR": 5,
       "F_LATEX": 5,
-      "V_NOT_FETCHED": 9,
-      "V_NO_PMID": 1
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [],
     "decks": [
@@ -418,13 +412,12 @@
     "manifest": true,
     "profile": "foundation",
     "lesson": "PED-16_Nhiem_khuan_so_sinh_som_va_muon_2026-09-15_RELEASE_v1.md",
-    "debt": 30,
+    "debt": 16,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_LATEX": 13,
       "S_DEPTH": 1,
-      "V_NOT_FETCHED": 12,
-      "V_NO_PMID": 3
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [
       "Examples (ví dụ / VD)"
@@ -453,14 +446,13 @@
     "manifest": true,
     "profile": "disease",
     "lesson": "PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh_2026-09-17_RELEASE_v1.md",
-    "debt": 148,
+    "debt": 138,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_LATEX": 133,
       "M_PROFILE": 1,
       "S_DEPTH": 2,
-      "V_NOT_FETCHED": 7,
-      "V_NO_PMID": 4
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [
       "Clinical cases with solutions",
@@ -520,14 +512,13 @@
     "manifest": true,
     "profile": "disease",
     "lesson": "PED-21_Viem_phoi_mac_phai_cong_dong_CAP_2026-09-15_RELEASE_v1.md",
-    "debt": 37,
+    "debt": 28,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_LATEX": 22,
       "M_PROFILE": 1,
       "S_DEPTH": 3,
-      "V_NOT_FETCHED": 6,
-      "V_NO_PMID": 4
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [
       "Clinical cases with solutions",
@@ -558,14 +549,13 @@
     "manifest": true,
     "profile": "disease",
     "lesson": "PED-22_Viem_tieu_phe_quan_cap_o_tre_nhu_nhi_2026-09-15_RELEASE_v1.md",
-    "debt": 33,
+    "debt": 24,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_LATEX": 18,
       "M_PROFILE": 1,
       "S_DEPTH": 3,
-      "V_NOT_FETCHED": 6,
-      "V_NO_PMID": 4
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [
       "Clinical cases with solutions",
@@ -596,14 +586,13 @@
     "manifest": false,
     "profile": "disease (giả định)",
     "lesson": "PED-24_Croup_Viem_thanh_khi_phe_quan_cap_2026-09-17_RELEASE_v1.md",
-    "debt": 100,
+    "debt": 90,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_LATEX": 85,
       "M_MANIFEST": 1,
       "S_DEPTH": 2,
-      "V_NOT_FETCHED": 7,
-      "V_NO_PMID": 4
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [
       "Clinical cases with solutions",
@@ -637,14 +626,13 @@
     "manifest": true,
     "profile": "disease",
     "lesson": "PED-25_Lieu_phap_Oxy_va_Ho_tro_ho_hap_khong_xam_lan_2026-09-17_RELEASE_v1.md",
-    "debt": 212,
+    "debt": 202,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_LATEX": 195,
       "M_PROFILE": 1,
       "S_DEPTH": 4,
-      "V_NOT_FETCHED": 7,
-      "V_NO_PMID": 4
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [
       "Clinical cases with solutions",
@@ -682,7 +670,7 @@
       "M_FILENAME": 1,
       "M_MANIFEST": 1,
       "S_DEPTH": 7,
-      "V_NO_PMID": 1
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [
       "Clinical cases with solutions",
@@ -1012,11 +1000,11 @@
     "manifest": true,
     "profile": "foundation",
     "lesson": "PED-32_Tiep_can_tre_Sot_va_Sot_chua_ro_nguyen_nhan_2026-09-17_RELEASE_v1.md",
-    "debt": 79,
+    "debt": 68,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_LATEX": 66,
-      "V_NOT_FETCHED": 12
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [],
     "decks": [
@@ -1043,12 +1031,12 @@
     "manifest": false,
     "profile": "disease (giả định)",
     "lesson": "PED-35_Benh_Tay_Chan_Mieng_2026-09-30_RELEASE_v2.md",
-    "debt": 35,
+    "debt": 5,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "M_MANIFEST": 1,
       "S_DEPTH": 2,
-      "V_NOT_FETCHED": 31
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [
       "Mechanism chains (→ / Tầng 1..5)",
@@ -1125,11 +1113,11 @@
     "manifest": true,
     "profile": "foundation",
     "lesson": "PED-49_Tiep_can_benh_nhan_phat_ban_2026-09-25_RELEASE_v1.md",
-    "debt": 10,
+    "debt": 3,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_LATEX": 1,
-      "V_NOT_FETCHED": 8
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [],
     "decks": [
@@ -1190,23 +1178,6 @@
           "G_COLOR_FRONT": 60,
           "W_TIER": 1
         }
-      },
-      {
-        "apkg": "12_Nhi khoa/05_Truyen_nhiem/PED-53_Hach_to/PED-53_Tiep_can_hach_to_2026-10-03_RELEASE_v1.apkg",
-        "deck": "Nhi khoa Y6::PED-53: Hạch to ở trẻ em (EBM Update)",
-        "id": "PED-53",
-        "specialty": "nhi",
-        "notes": 48,
-        "basic": 33,
-        "cloze": 15,
-        "block": 0,
-        "debt": 67,
-        "by_code": {
-          "G_ALGO_COUNT": 1,
-          "G_COLOR_BACK": 33,
-          "G_COLOR_FRONT": 33,
-          "W_TIER": 1
-        }
       }
     ]
   },
@@ -1233,24 +1204,6 @@
       "Tips bullets (Section 7)"
     ],
     "decks": [
-      {
-        "apkg": "12_Nhi khoa/05_Truyen_nhiem/PED-54_Tiep_can_tre_dau_khop/PED-54_Tiep_can_tre_dau_khop_2026-10-03_RELEASE_v1.apkg",
-        "deck": "Nhi khoa Y6::PED-54: Tiếp cận trẻ đau khớp (EBM Update)",
-        "id": "PED-54",
-        "specialty": "nhi",
-        "notes": 48,
-        "basic": 30,
-        "cloze": 18,
-        "block": 0,
-        "debt": 62,
-        "by_code": {
-          "G_ALGO_COUNT": 1,
-          "G_COLOR_BACK": 30,
-          "G_COLOR_FRONT": 30,
-          "G_PARTIAL_CLOZE": 1,
-          "W_TIER": 1
-        }
-      },
       {
         "apkg": "12_Nhi khoa/05_Truyen_nhiem/PED-54_Tiep_can_tre_dau_khop/PED-54_Tiep_can_tre_dau_khop_MASTER_v1.apkg",
         "deck": "Nhi khoa Y6::PED-54: Tiếp cận trẻ đau khớp",
@@ -1306,14 +1259,14 @@
     "manifest": false,
     "profile": "disease (giả định)",
     "lesson": "PED-40_Hoi_chung_than_hu_nguyen_phat_2026-09-21_RELEASE_v1.md",
-    "debt": 17,
+    "debt": 6,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_CONTROL_CHAR": 1,
       "F_LATEX": 1,
       "M_MANIFEST": 1,
       "S_DEPTH": 1,
-      "V_NOT_FETCHED": 12
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [
       "Clinical cases with solutions"
@@ -1347,12 +1300,12 @@
     "manifest": false,
     "profile": "disease (giả định)",
     "lesson": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
-    "debt": 12,
+    "debt": 5,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "M_MANIFEST": 1,
       "S_DEPTH": 2,
-      "V_NOT_FETCHED": 8
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [
       "Clinical cases with solutions",
@@ -1428,12 +1381,12 @@
     "manifest": true,
     "profile": "foundation",
     "lesson": "PED-48_Suy_tim_o_tre_em_2026-09-19_RELEASE_v1.md",
-    "debt": 44,
+    "debt": 38,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_CONTROL_CHAR": 17,
       "F_LATEX": 19,
-      "V_NOT_FETCHED": 7
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [],
     "decks": [
@@ -1464,13 +1417,12 @@
     "manifest": false,
     "profile": "disease (giả định)",
     "lesson": "PED-51_Thap_tim_2026-09-28_RELEASE_v1.md",
-    "debt": 64,
+    "debt": 5,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "M_MANIFEST": 1,
       "S_DEPTH": 2,
-      "V_NOT_FETCHED": 9,
-      "V_NO_PMID": 51
+      "V_NO_ARTIFACTS": 1
     },
     "depth_fails": [
       "Clinical cases with solutions",
@@ -1577,7 +1529,28 @@
       "Tips bullets (Section 7)",
       "Total size (words / nonblank lines)"
     ],
-    "decks": []
+    "decks": [
+      {
+        "apkg": "11_Noi khoa/00_Nen_tang_va_Kham_xet_nghiem/IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban/outputs/IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1.apkg",
+        "deck": "ART::IM-04_Part3_Sinh_hoa_va_tich_hop_RELEASE_v1::2026-07-29",
+        "id": "IM-04",
+        "specialty": "noi",
+        "notes": 26,
+        "basic": 26,
+        "cloze": 0,
+        "block": 1,
+        "debt": 105,
+        "by_code": {
+          "D_DECK_NAME": 1,
+          "G_ALGO_COUNT": 1,
+          "G_BACK_STRUCTURE": 26,
+          "G_COLOR_BACK": 26,
+          "G_COLOR_FRONT": 26,
+          "G_EXTRA_EMPTY": 26,
+          "W_TIER": 1
+        }
+      }
+    ]
   },
   {
     "specialty": "noi",
@@ -1654,7 +1627,29 @@
       "Self-check checkpoints",
       "Tips bullets (Section 7)"
     ],
-    "decks": []
+    "decks": [
+      {
+        "apkg": "11_Noi khoa/00_Nen_tang_va_Kham_xet_nghiem/IM-05b_Nguyen_ly_ECG/outputs/shadow_ncbi_free_build/IM-44_Nguyen_ly_ECG_2026-07-29_RELEASE_v2.apkg",
+        "deck": "Internal medicine::IM-44_Nguyen_ly_ECG_RELEASE_v2::2026-07-29",
+        "id": "IM-05b",
+        "specialty": "noi",
+        "notes": 22,
+        "basic": 13,
+        "cloze": 9,
+        "block": 5,
+        "debt": 62,
+        "by_code": {
+          "D_DECK_NAME": 1,
+          "G_ALGO_COUNT": 1,
+          "G_BACK_STRUCTURE": 13,
+          "G_COLOR_BACK": 13,
+          "G_COLOR_FRONT": 13,
+          "G_EXTRA_EMPTY": 22,
+          "P_BACK_SOURCE": 4,
+          "W_TIER": 1
+        }
+      }
+    ]
   },
   {
     "specialty": "noi",
@@ -2260,6 +2255,30 @@
           "G_EXTRA_EMPTY": 16,
           "W_TIER": 1
         }
+      },
+      {
+        "apkg": "11_Noi khoa/02_Tim_mach/IM-20_Tang_huyet_ap/outputs/IM-20_Tang_huyet_ap_2026-07-18.apkg",
+        "deck": "Internal medicine::IM-20_Tang_huyet_ap::2026-07-18",
+        "id": "IM-20",
+        "specialty": "noi",
+        "notes": 106,
+        "basic": 14,
+        "cloze": 92,
+        "block": 19,
+        "debt": 62,
+        "by_code": {
+          "D_DECK_NAME": 1,
+          "G_ALGO_COUNT": 1,
+          "G_BACK_STRUCTURE": 14,
+          "G_COLOR_BACK": 14,
+          "G_COLOR_FRONT": 14,
+          "G_EXTRA_EMPTY": 14,
+          "G_PARTIAL_CLOZE": 5,
+          "P_BACK_SOURCE": 14,
+          "T_CONTROL_CHAR": 2,
+          "T_LATEX": 2,
+          "W_TIER": 1
+        }
       }
     ]
   },
@@ -2318,27 +2337,6 @@
     ],
     "decks": [
       {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-20a_Benh_mach_vanh_man/Benh_Mach_Vanh_Man_CCS_On_Thi_Dai_Hoc_Y_Duoc_Thai_Binh.apkg",
-        "deck": "Nội khoa - Bệnh mạch vành mạn & Hội chứng vành mạn (CCS & CCD Master Deck)",
-        "id": "IM-20a",
-        "specialty": "noi",
-        "notes": 20,
-        "basic": 15,
-        "cloze": 5,
-        "block": 16,
-        "debt": 61,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 15,
-          "G_COLOR_BACK": 15,
-          "G_COLOR_FRONT": 15,
-          "G_EXTRA_EMPTY": 15,
-          "P_BACK_SOURCE": 15,
-          "W_TIER": 1
-        }
-      },
-      {
         "apkg": "11_Noi khoa/02_Tim_mach/IM-20a_Benh_mach_vanh_man/Co_che_ky_thuat_chup_mach_vanh_qua_da_CAG.apkg",
         "deck": "Internal medicine::Co_che_ky_thuat_chup_mach_vanh_qua_da_CAG",
         "id": "IM-20a",
@@ -2356,27 +2354,6 @@
           "G_COLOR_FRONT": 10,
           "G_EXTRA_EMPTY": 10,
           "P_BACK_SOURCE": 10,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-20a_Benh_mach_vanh_man/Giai_phau_mach_vanh_va_can_lam_sang_tim_mach.apkg",
-        "deck": "Internal medicine::Giai_phau_mach_vanh_va_can_lam_sang_tim_mach",
-        "id": "IM-20a",
-        "specialty": "noi",
-        "notes": 12,
-        "basic": 9,
-        "cloze": 3,
-        "block": 10,
-        "debt": 37,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 9,
-          "G_COLOR_BACK": 9,
-          "G_COLOR_FRONT": 9,
-          "G_EXTRA_EMPTY": 9,
-          "P_BACK_SOURCE": 9,
           "W_TIER": 1
         }
       }
@@ -2407,49 +2384,6 @@
       "Tips bullets (Section 7)"
     ],
     "decks": [
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-21_Hoi_chung_vanh_cap/Anki - IM-21_Hoi_chung_vanh_cap_2026-07-17 - 2026-07-17.apkg",
-        "deck": "Internal medicine::IM-21_Hoi_chung_vanh_cap::2026-07-17",
-        "id": "IM-21",
-        "specialty": "noi",
-        "notes": 99,
-        "basic": 99,
-        "cloze": 0,
-        "block": 96,
-        "debt": 397,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 99,
-          "G_COLOR_BACK": 99,
-          "G_COLOR_FRONT": 99,
-          "G_EXTRA_EMPTY": 99,
-          "P_BACK_SOURCE": 11,
-          "T_ESCAPED_TAG": 84,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-21_Hoi_chung_vanh_cap/ECG_Nhoi_Mau_Co_Tim_Cap_On_Thi_Dai_Hoc_Y_Duoc_Thai_Binh.apkg",
-        "deck": "Nội khoa - Điện tâm đồ (ECG) Nhồi máu cơ tim cấp (ECG AMI Mastery)",
-        "id": "IM-21",
-        "specialty": "noi",
-        "notes": 12,
-        "basic": 9,
-        "cloze": 3,
-        "block": 10,
-        "debt": 37,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 9,
-          "G_COLOR_BACK": 9,
-          "G_COLOR_FRONT": 9,
-          "G_EXTRA_EMPTY": 9,
-          "P_BACK_SOURCE": 9,
-          "W_TIER": 1
-        }
-      },
       {
         "apkg": "11_Noi khoa/02_Tim_mach/IM-21_Hoi_chung_vanh_cap/Nhoi_Mau_Co_Tim_Cap_On_Thi_Dai_Hoc_Y_Duoc_Thai_Binh.apkg",
         "deck": "Nội khoa - Hội chứng vành cấp & Nhồi máu cơ tim cấp (ACS & AMI Master Deck)",
@@ -2588,79 +2522,7 @@
     "depth_fails": [],
     "decks": [
       {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-23b_Cac_roi_loan_nhip_tim/Anki - IM-23b_Cac_roi_loan_nhip_tim_2026-08-11 - 2026-08-11.apkg",
-        "deck": "Internal medicine::IM-23b_Cac_roi_loan_nhip_tim::2026-08-19",
-        "id": "IM-23b",
-        "specialty": "noi",
-        "notes": 106,
-        "basic": 26,
-        "cloze": 80,
-        "block": 29,
-        "debt": 106,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 26,
-          "G_COLOR_BACK": 26,
-          "G_COLOR_FRONT": 26,
-          "G_EXTRA_EMPTY": 26,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 26,
-          "T_CONTROL_CHAR": 1,
-          "T_LATEX": 1,
-          "W_TIER": 1
-        }
-      },
-      {
         "apkg": "11_Noi khoa/02_Tim_mach/IM-23b_Cac_roi_loan_nhip_tim/IM-23b_Cac_roi_loan_nhip_tim_2026-08-19.apkg",
-        "deck": "IM-23b: Các rối loạn nhịp tim (Arrhythmias)",
-        "id": "IM-23b",
-        "specialty": "noi",
-        "notes": 106,
-        "basic": 26,
-        "cloze": 80,
-        "block": 30,
-        "debt": 106,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 26,
-          "G_COLOR_BACK": 26,
-          "G_COLOR_FRONT": 26,
-          "G_EXTRA_EMPTY": 26,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 26,
-          "T_CONTROL_CHAR": 1,
-          "T_LATEX": 2,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-23b_Cac_roi_loan_nhip_tim/Roi_Loan_Nhip_Tim_On_Thi_2026-08-19.apkg",
-        "deck": "IM-23b: Các rối loạn nhịp tim (Arrhythmias)",
-        "id": "IM-23b",
-        "specialty": "noi",
-        "notes": 106,
-        "basic": 26,
-        "cloze": 80,
-        "block": 30,
-        "debt": 106,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 26,
-          "G_COLOR_BACK": 26,
-          "G_COLOR_FRONT": 26,
-          "G_EXTRA_EMPTY": 26,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 26,
-          "T_CONTROL_CHAR": 1,
-          "T_LATEX": 2,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-23b_Cac_roi_loan_nhip_tim/Roi_Loan_Nhip_Tim_On_Thi_Dai_Hoc_Y_Duoc_Thai_Binh.apkg",
         "deck": "IM-23b: Các rối loạn nhịp tim (Arrhythmias)",
         "id": "IM-23b",
         "specialty": "noi",
@@ -2759,7 +2621,32 @@
       "Self-check checkpoints",
       "Tips bullets (Section 7)"
     ],
-    "decks": []
+    "decks": [
+      {
+        "apkg": "11_Noi khoa/03_Ho_hap/IM-29_Hen_phe_quan/outputs/IM-29_Hen_phe_quan_On_Thi_Flashcards.apkg",
+        "deck": "Nội khoa::IM-29 Hen Phế Quản - Ôn Thi Siêu Chi Tiết",
+        "id": "IM-29",
+        "specialty": "noi",
+        "notes": 130,
+        "basic": 96,
+        "cloze": 34,
+        "block": 114,
+        "debt": 386,
+        "by_code": {
+          "D_DECK_NAME": 1,
+          "G_ALGO_COUNT": 1,
+          "G_BACK_STRUCTURE": 96,
+          "G_COLOR_BACK": 96,
+          "G_COLOR_FRONT": 96,
+          "G_EXTRA_EMPTY": 96,
+          "G_PARTIAL_CLOZE": 1,
+          "P_BACK_SOURCE": 96,
+          "T_CONTROL_CHAR": 1,
+          "T_LATEX": 16,
+          "W_TIER": 1
+        }
+      }
+    ]
   },
   {
     "specialty": "noi",
@@ -2783,7 +2670,31 @@
       "Self-check checkpoints",
       "Tips bullets (Section 7)"
     ],
-    "decks": []
+    "decks": [
+      {
+        "apkg": "11_Noi khoa/03_Ho_hap/IM-30_COPD/outputs/IM-30_COPD_2026-07-30_RELEASE_v1.apkg",
+        "deck": "Internal medicine::IM-30_COPD_RELEASE_v1::2026-07-30",
+        "id": "IM-30",
+        "specialty": "noi",
+        "notes": 68,
+        "basic": 44,
+        "cloze": 24,
+        "block": 54,
+        "debt": 177,
+        "by_code": {
+          "D_DECK_NAME": 1,
+          "G_ALGO_COUNT": 1,
+          "G_BACK_STRUCTURE": 44,
+          "G_COLOR_BACK": 44,
+          "G_COLOR_FRONT": 44,
+          "G_EXTRA_EMPTY": 44,
+          "P_BACK_SOURCE": 44,
+          "T_CONTROL_CHAR": 2,
+          "T_LATEX": 7,
+          "W_TIER": 1
+        }
+      }
+    ]
   },
   {
     "specialty": "noi",
@@ -2807,7 +2718,30 @@
       "Self-check checkpoints",
       "Tips bullets (Section 7)"
     ],
-    "decks": []
+    "decks": [
+      {
+        "apkg": "11_Noi khoa/03_Ho_hap/IM-34a_Tam_phe_man/outputs/IM-34a_Tam_phe_man_On_Thi_Flashcards.apkg",
+        "deck": "Nội khoa::IM-34a Tâm Phế Mạn - Ôn Thi Siêu Chi Tiết",
+        "id": "IM-34a",
+        "specialty": "noi",
+        "notes": 50,
+        "basic": 43,
+        "cloze": 7,
+        "block": 65,
+        "debt": 173,
+        "by_code": {
+          "D_DECK_NAME": 1,
+          "G_ALGO_COUNT": 1,
+          "G_BACK_STRUCTURE": 43,
+          "G_COLOR_BACK": 43,
+          "G_COLOR_FRONT": 43,
+          "G_EXTRA_EMPTY": 43,
+          "P_BACK_SOURCE": 43,
+          "T_LATEX": 21,
+          "W_TIER": 1
+        }
+      }
+    ]
   },
   {
     "specialty": "noi",
@@ -2925,6 +2859,27 @@
       "Tips bullets (Section 7)"
     ],
     "decks": [
+      {
+        "apkg": "11_Noi khoa/04_Tieu_hoa_va_Gan_mat/IM-37_Loet_da_day_ta_trang_GERD_kho_tieu/outputs/Anki - IM-37_Loet_da_day_ta_trang_GERD_kho_tieu_2026-07-20 - 2026-07-20.apkg",
+        "deck": "Internal medicine::IM-37_Loet_da_day_ta_trang_GERD_kho_tieu::2026-07-20",
+        "id": "IM-37",
+        "specialty": "noi",
+        "notes": 50,
+        "basic": 50,
+        "cloze": 0,
+        "block": 38,
+        "debt": 201,
+        "by_code": {
+          "D_DECK_NAME": 1,
+          "G_ALGO_COUNT": 1,
+          "G_BACK_STRUCTURE": 50,
+          "G_COLOR_BACK": 50,
+          "G_COLOR_FRONT": 50,
+          "G_EXTRA_EMPTY": 50,
+          "P_BACK_SOURCE": 37,
+          "W_TIER": 1
+        }
+      },
       {
         "apkg": "11_Noi khoa/04_Tieu_hoa_va_Gan_mat/IM-37_QA_H_pylori_dieu_tri/Anki - QA-HP-dieu-tri_2026-07-20 - 2026-07-20.apkg",
         "deck": "QA-HP-dieu-tri 2026-07-20",
@@ -3069,26 +3024,6 @@
     },
     "depth_fails": [],
     "decks": [
-      {
-        "apkg": "11_Noi khoa/04_Tieu_hoa_va_Gan_mat/IM-38c_Hoi_chung_ruot_kich_thich_IBS/Anki - IBS-AI tự tạo.apkg",
-        "deck": "IBS-AI tự tạo",
-        "id": "IM-38c",
-        "specialty": "noi",
-        "notes": 4,
-        "basic": 4,
-        "cloze": 0,
-        "block": 1,
-        "debt": 17,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 4,
-          "G_COLOR_BACK": 4,
-          "G_COLOR_FRONT": 4,
-          "G_EXTRA_EMPTY": 4,
-          "W_TIER": 1
-        }
-      },
       {
         "apkg": "11_Noi khoa/04_Tieu_hoa_va_Gan_mat/IM-38c_Hoi_chung_ruot_kich_thich_IBS/IBS_On_Thi_Dai_Hoc_Y_Duoc_Thai_Binh.apkg",
         "deck": "Y Khoa::Noi Khoa::Tieu Hoa::Hoi Chung Ruot Kich Thich IBS - On Thi Dai Hoc Y Duoc Thai Binh",
@@ -3265,26 +3200,6 @@
     ],
     "decks": [
       {
-        "apkg": "11_Noi khoa/04_Tieu_hoa_va_Gan_mat/IM-42a_Viem_tuy_cap/Anki - IM-42a Viem tuy cap 50 cards - 2026-07-23.apkg",
-        "deck": "Nội khoa::IM-42a Viêm tụy cấp",
-        "id": "IM-42a",
-        "specialty": "noi",
-        "notes": 50,
-        "basic": 36,
-        "cloze": 14,
-        "block": 4,
-        "debt": 109,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 36,
-          "G_COLOR_BACK": 36,
-          "G_COLOR_FRONT": 36,
-          "P_BACK_SOURCE": 3,
-          "W_TIER": 1
-        }
-      },
-      {
         "apkg": "11_Noi khoa/04_Tieu_hoa_va_Gan_mat/IM-42a_Viem_tuy_cap/Anki - IM-42a_Viem_tuy_cap_Tone_Hong.apkg",
         "deck": "IM-42a_Viem_tuy_cap_Tone_Hong",
         "id": "IM-42a",
@@ -3303,25 +3218,6 @@
           "G_EXTRA_EMPTY": 36,
           "G_PARTIAL_CLOZE": 1,
           "P_BACK_SOURCE": 4,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/04_Tieu_hoa_va_Gan_mat/IM-42a_Viem_tuy_cap/IM-42a_Viem_tuy_cap_2026-07-23_RELEASE_v1_TONE_HONG.apkg",
-        "deck": "Nội khoa :: IM-42a Viêm Tụy Cấp [Tone Hồng]",
-        "id": "IM-42a",
-        "specialty": "noi",
-        "notes": 10,
-        "basic": 0,
-        "cloze": 10,
-        "block": 4,
-        "debt": 3,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_CLOZE_ONLY": 1,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 3,
           "W_TIER": 1
         }
       }
@@ -3433,26 +3329,6 @@
     ],
     "decks": [
       {
-        "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-43a_Sinh_ly_nephron/Anki - Sinh_ly_nephron_2026-07-22 - 2026-07-22.apkg",
-        "deck": "Internal medicine::Sinh_ly_nephron::2026-07-22",
-        "id": "IM-43a",
-        "specialty": "noi",
-        "notes": 80,
-        "basic": 80,
-        "cloze": 0,
-        "block": 1,
-        "debt": 321,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 80,
-          "G_COLOR_BACK": 80,
-          "G_COLOR_FRONT": 80,
-          "G_EXTRA_EMPTY": 80,
-          "W_TIER": 1
-        }
-      },
-      {
         "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-43a_Sinh_ly_nephron/Anki - Sinh_ly_nephron_2026-07-22_RELEASE_v2 - 2026-07-22.apkg",
         "deck": "Internal medicine::Sinh_ly_nephron_RELEASE_v2::2026-07-22",
         "id": "IM-43a",
@@ -3504,22 +3380,22 @@
     ],
     "decks": [
       {
-        "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-43b_Thuoc_loi_tieu/Anki - Thuoc_loi_tieu_2026-07-22 - 2026-07-22.apkg",
-        "deck": "Internal medicine::Thuoc_loi_tieu::2026-07-22",
+        "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu/outputs/Anki - IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu_2026-07-26.apkg",
+        "deck": "Internal medicine::IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu::2026-07-26",
         "id": "IM-43b",
         "specialty": "noi",
-        "notes": 80,
-        "basic": 80,
+        "notes": 115,
+        "basic": 115,
         "cloze": 0,
         "block": 1,
-        "debt": 321,
+        "debt": 461,
         "by_code": {
           "D_DECK_NAME": 1,
           "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 80,
-          "G_COLOR_BACK": 80,
-          "G_COLOR_FRONT": 80,
-          "G_EXTRA_EMPTY": 80,
+          "G_BACK_STRUCTURE": 115,
+          "G_COLOR_BACK": 115,
+          "G_COLOR_FRONT": 115,
+          "G_EXTRA_EMPTY": 115,
           "W_TIER": 1
         }
       },
@@ -3717,49 +3593,6 @@
     ],
     "decks": [
       {
-        "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-47_Roi_loan_toan_kiem_va_doc_khi_mau_dong_mach/IM-47_Doc_Khi_Mau_Dong_Mach_ABG_SuperDetailed.apkg",
-        "deck": "Medxy::11_Noi_Khoa::IM-47_Doc_Khi_Mau_Dong_Mach_ABG",
-        "id": "IM-47",
-        "specialty": "noi",
-        "notes": 44,
-        "basic": 30,
-        "cloze": 14,
-        "block": 16,
-        "debt": 135,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 30,
-          "G_COLOR_BACK": 30,
-          "G_COLOR_FRONT": 30,
-          "G_EXTRA_EMPTY": 44,
-          "T_DUP_FRONT": 15,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-47_Roi_loan_toan_kiem_va_doc_khi_mau_dong_mach/IM-47_Doc_Khi_Mau_Dong_Mach_ABG_SuperDetailed_110Cards.apkg",
-        "deck": "Medxy::11_Noi_Khoa::IM-47_Doc_Khi_Mau_Dong_Mach_ABG_SuperDetailed",
-        "id": "IM-47",
-        "specialty": "noi",
-        "notes": 48,
-        "basic": 35,
-        "cloze": 13,
-        "block": 10,
-        "debt": 156,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 35,
-          "G_COLOR_BACK": 35,
-          "G_COLOR_FRONT": 35,
-          "G_EXTRA_EMPTY": 48,
-          "G_PARTIAL_CLOZE": 2,
-          "T_DUP_FRONT": 9,
-          "W_TIER": 1
-        }
-      },
-      {
         "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-47_Roi_loan_toan_kiem_va_doc_khi_mau_dong_mach/IM-47b_Roi_loan_can_bang_kiem_toan.apkg",
         "deck": "IM-47b: Rối loạn cân bằng kiềm toan (Acid - Base Disorders)",
         "id": "IM-47",
@@ -3778,50 +3611,6 @@
           "G_EXTRA_EMPTY": 5,
           "G_PARTIAL_CLOZE": 2,
           "P_BACK_SOURCE": 5,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-47_Roi_loan_toan_kiem_va_doc_khi_mau_dong_mach/Khi_Mau_Dong_Mach_Medxy_110Cards_Final.apkg",
-        "deck": "Medxy::11_Noi_Khoa::IM-47_Doc_Khi_Mau_Dong_Mach_ABG_110Cards",
-        "id": "IM-47",
-        "specialty": "noi",
-        "notes": 113,
-        "basic": 91,
-        "cloze": 22,
-        "block": 10,
-        "debt": 388,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 91,
-          "G_COLOR_BACK": 91,
-          "G_COLOR_FRONT": 91,
-          "G_EXTRA_EMPTY": 113,
-          "G_PARTIAL_CLOZE": 1,
-          "T_CLOZE_SYNTAX": 1,
-          "T_DUP_FRONT": 8,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-47_Roi_loan_toan_kiem_va_doc_khi_mau_dong_mach/Khí_Máu_Động_Mạch_Medxy_SuperDetailed_125Cards.apkg",
-        "deck": "Medxy::11_Noi_Khoa::IM-47_Doc_Khi_Mau_Dong_Mach_ABG_SuperDetailed_120Cards",
-        "id": "IM-47",
-        "specialty": "noi",
-        "notes": 47,
-        "basic": 47,
-        "cloze": 0,
-        "block": 13,
-        "debt": 189,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 47,
-          "G_COLOR_BACK": 47,
-          "G_COLOR_FRONT": 47,
-          "G_EXTRA_EMPTY": 47,
-          "T_DUP_FRONT": 12,
           "W_TIER": 1
         }
       }
@@ -4079,26 +3868,6 @@
     ],
     "decks": [
       {
-        "apkg": "11_Noi khoa/06_Noi_tiet_va_Chuyen_hoa/IM-57_Chuyen_hoa_xuong_vitamin_D_va_loang_xuong/IM-57_Chuyen_hoa_xuong_vitamin_D_va_loang_xuong_2026-07-22_RELEASE_v1.apkg",
-        "deck": "Internal medicine::IM-57_Chuyen_hoa_xuong_vitamin_D_va_loang_xuong_RELEASE_v1::2026-07-22",
-        "id": "IM-57",
-        "specialty": "noi",
-        "notes": 80,
-        "basic": 80,
-        "cloze": 0,
-        "block": 1,
-        "debt": 321,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 80,
-          "G_COLOR_BACK": 80,
-          "G_COLOR_FRONT": 80,
-          "G_EXTRA_EMPTY": 80,
-          "W_TIER": 1
-        }
-      },
-      {
         "apkg": "11_Noi khoa/06_Noi_tiet_va_Chuyen_hoa/IM-57_Chuyen_hoa_xuong_vitamin_D_va_loang_xuong/Loang_Xuong_On_Thi_Dai_Hoc_Y_Duoc_Thai_Binh.apkg",
         "deck": "Y Khoa::Noi Khoa::Co Xuong Khop::Loang Xuong - On Thi Dai Hoc Y Duoc Thai Binh",
         "id": "IM-57",
@@ -4196,67 +3965,6 @@
           "P_BACK_SOURCE": 11,
           "T_CLOZE_SYNTAX": 6,
           "T_LATEX": 1,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/10_Co_xuong_khop/IM-82_Gout_va_tang_acid_uric/Gout_On_Thi_Dai_Hoc_Y_Duoc_Thai_Binh.apkg",
-        "deck": "Y Khoa::Noi Khoa::Co Xuong Khop::Gout - On Thi Dai Hoc Y Duoc Thai Binh",
-        "id": "IM-82",
-        "specialty": "noi",
-        "notes": 43,
-        "basic": 43,
-        "cloze": 0,
-        "block": 44,
-        "debt": 130,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 43,
-          "G_COLOR_BACK": 43,
-          "G_COLOR_FRONT": 43,
-          "P_BACK_SOURCE": 32,
-          "T_CLOZE_SYNTAX": 11,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/10_Co_xuong_khop/IM-82_Gout_va_tang_acid_uric/IM-82_Gout_va_tang_acid_uric_2026-07-22_RELEASE_v1.apkg",
-        "deck": "Internal medicine::IM-82_Gout_va_tang_acid_uric_RELEASE_v1::2026-07-22",
-        "id": "IM-82",
-        "specialty": "noi",
-        "notes": 51,
-        "basic": 51,
-        "cloze": 0,
-        "block": 1,
-        "debt": 205,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 51,
-          "G_COLOR_BACK": 51,
-          "G_COLOR_FRONT": 51,
-          "G_EXTRA_EMPTY": 51,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/10_Co_xuong_khop/IM-82_Gout_va_tang_acid_uric/IM-82_Gout_va_tang_acid_uric_2026-08-02_RELEASE_v2_FULL.apkg",
-        "deck": "Nội Khoa - IM-82: Gout và Tăng Acid Uric Máu (Full Master Deck)",
-        "id": "IM-82",
-        "specialty": "noi",
-        "notes": 32,
-        "basic": 28,
-        "cloze": 4,
-        "block": 29,
-        "debt": 85,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 28,
-          "G_COLOR_BACK": 28,
-          "G_COLOR_FRONT": 28,
-          "P_BACK_SOURCE": 28,
           "W_TIER": 1
         }
       }
@@ -4385,27 +4093,6 @@
       "Tips bullets (Section 7)"
     ],
     "decks": [
-      {
-        "apkg": "01_San phu khoa/22_AUB_Abnormal_Uterine_Bleeding/Anki - AUB_Abnormal_Uterine_Bleeding 40 cards - 2026-06-29.apkg",
-        "deck": "Medical::AUB_Abnormal_Uterine_Bleeding",
-        "id": "OB-22",
-        "specialty": "san",
-        "notes": 42,
-        "basic": 23,
-        "cloze": 19,
-        "block": 1,
-        "debt": 96,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 23,
-          "G_COLOR_BACK": 23,
-          "G_COLOR_FRONT": 23,
-          "G_EXTRA_EMPTY": 23,
-          "G_PARTIAL_CLOZE": 3,
-          "W_TIER": 1
-        }
-      },
       {
         "apkg": "01_San phu khoa/22_AUB_Abnormal_Uterine_Bleeding/Anki - AUB_Abnormal_Uterine_Bleeding_2026-06-29 - 2026-06-29.apkg",
         "deck": "Medical::AUB Abnormal Uterine Bleeding 2026-06-29::2026-06-29",
@@ -4649,26 +4336,6 @@
     ],
     "decks": [
       {
-        "apkg": "01_San phu khoa/37_Contraception_Comprehensive/Anki - Contraception_Comprehensive_2026-07-06 - 2026-07-06.apkg",
-        "deck": "OBGYN - Tranh thai toan dien ADR & Xu tri",
-        "id": "OB-37",
-        "specialty": "san",
-        "notes": 14,
-        "basic": 10,
-        "cloze": 4,
-        "block": 1,
-        "debt": 41,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 10,
-          "G_COLOR_BACK": 10,
-          "G_COLOR_FRONT": 10,
-          "G_EXTRA_EMPTY": 10,
-          "W_TIER": 1
-        }
-      },
-      {
         "apkg": "01_San phu khoa/37_Contraception_Comprehensive/Anki - Contraception_Comprehensive_2026-07-13 - 2026-07-13.apkg",
         "deck": "OBGYN - Tranh thai toan dien ADR & Xu tri",
         "id": "OB-37",
@@ -4826,27 +4493,6 @@
     },
     "depth_fails": [],
     "decks": [
-      {
-        "apkg": "02_Ho tro sinh san ART/09_Long_GnRH_Agonist_Protocol/Anki - Long GnRH Agonist 17 cards - 2026-06-18.apkg",
-        "deck": "Long GnRH Agonist Protocol - 18/06/2026",
-        "id": "ART-09",
-        "specialty": "art",
-        "notes": 17,
-        "basic": 17,
-        "cloze": 0,
-        "block": 7,
-        "debt": 69,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 17,
-          "G_COLOR_BACK": 17,
-          "G_COLOR_FRONT": 17,
-          "G_EXTRA_EMPTY": 17,
-          "P_BACK_SOURCE": 6,
-          "W_TIER": 1
-        }
-      },
       {
         "apkg": "02_Ho tro sinh san ART/09_Long_GnRH_Agonist_Protocol/Anki - Long GnRH Agonist 18 cards - 2026-06-18.apkg",
         "deck": "Long GnRH Agonist Protocol - 18/06/2026",
@@ -5011,27 +4657,6 @@
     ],
     "decks": [
       {
-        "apkg": "02_Ho tro sinh san ART/18_ART_Trigger/Anki - ART Trigger IVF 20 cards - 2026-06-27.apkg",
-        "deck": "ART::ART Trigger Mechanism Protocol (2026-06-27)",
-        "id": "ART-18",
-        "specialty": "art",
-        "notes": 26,
-        "basic": 26,
-        "cloze": 0,
-        "block": 12,
-        "debt": 105,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 26,
-          "G_COLOR_BACK": 26,
-          "G_COLOR_FRONT": 26,
-          "G_EXTRA_EMPTY": 26,
-          "P_BACK_SOURCE": 11,
-          "W_TIER": 1
-        }
-      },
-      {
         "apkg": "02_Ho tro sinh san ART/18_ART_Trigger/Anki - Dual_vs_Double_Trigger_Mechanism_2026-06-29 - 2026-06-29.apkg",
         "deck": "ART::Dual_vs_Double_Trigger_Mechanism::2026-06-29",
         "id": "ART-18",
@@ -5050,28 +4675,6 @@
           "G_EXTRA_EMPTY": 16,
           "G_PARTIAL_CLOZE": 3,
           "P_BACK_SOURCE": 11,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "02_Ho tro sinh san ART/18_ART_Trigger/Anki - EFS_Management_2026-06-29 - 2026-06-29.apkg",
-        "deck": "ART::EFS_Management::2026-06-29",
-        "id": "ART-18",
-        "specialty": "art",
-        "notes": 21,
-        "basic": 15,
-        "cloze": 6,
-        "block": 13,
-        "debt": 63,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 15,
-          "G_COLOR_BACK": 15,
-          "G_COLOR_FRONT": 15,
-          "G_EXTRA_EMPTY": 15,
-          "G_PARTIAL_CLOZE": 2,
-          "P_BACK_SOURCE": 12,
           "W_TIER": 1
         }
       }
@@ -5460,7 +5063,29 @@
       "M_MANIFEST": 2
     },
     "depth_fails": [],
-    "decks": []
+    "decks": [
+      {
+        "apkg": "02_Ho tro sinh san ART/46_Endometrioma_Adenomyosis_ART_Infertility/outputs/46_Endometrioma_Adenomyosis_ART_Infertility.apkg",
+        "deck": "ART::46_Endometrioma_Adenomyosis_ART_Infertility",
+        "id": "ART-46",
+        "specialty": "art",
+        "notes": 8,
+        "basic": 8,
+        "cloze": 0,
+        "block": 9,
+        "debt": 33,
+        "by_code": {
+          "D_DECK_NAME": 1,
+          "G_ALGO_COUNT": 1,
+          "G_BACK_STRUCTURE": 8,
+          "G_COLOR_BACK": 8,
+          "G_COLOR_FRONT": 8,
+          "G_EXTRA_EMPTY": 8,
+          "P_BACK_SOURCE": 8,
+          "W_TIER": 1
+        }
+      }
+    ]
   },
   {
     "specialty": "sieu_am_thai",
@@ -5488,27 +5113,6 @@
       {
         "apkg": "03_Sieu am thai/03_Bat thuong nuoc oi/Anki - Amniotic_Fluid_Abnormalities - 2026-06-27.apkg",
         "deck": "Medical::Amniotic_Fluid_Abnormalities::2026-06-27",
-        "id": "FUS-03",
-        "specialty": "sieu_am_thai",
-        "notes": 29,
-        "basic": 17,
-        "cloze": 12,
-        "block": 18,
-        "debt": 69,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 17,
-          "G_COLOR_BACK": 17,
-          "G_COLOR_FRONT": 17,
-          "G_EXTRA_EMPTY": 17,
-          "P_BACK_SOURCE": 17,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "03_Sieu am thai/03_Bat thuong nuoc oi/Anki - Bat thuong nuoc oi v2 25 cards - 2026-06-27.apkg",
-        "deck": "OB-GYN::Amniotic_Fluid::2026-06-27",
         "id": "FUS-03",
         "specialty": "sieu_am_thai",
         "notes": 29,
@@ -5722,153 +5326,6 @@
           "G_EXTRA_EMPTY": 26,
           "W_TIER": 1
         }
-      },
-      {
-        "apkg": "03_Sieu am thai/07_Fetal_Neurosonography/Anki - Bất sản vòm sọ Acrania.apkg",
-        "deck": "Fetal ultrasound::bất-sản-vòm-sọ-acrania",
-        "id": "FUS-07",
-        "specialty": "sieu_am_thai",
-        "notes": 24,
-        "basic": 20,
-        "cloze": 4,
-        "block": 1,
-        "debt": 81,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 20,
-          "G_COLOR_BACK": 20,
-          "G_COLOR_FRONT": 20,
-          "G_EXTRA_EMPTY": 20,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "03_Sieu am thai/07_Fetal_Neurosonography/Anki - Các mặt cắt theo đường khớp và thóp.apkg",
-        "deck": "Fetal ultrasound::các_mặt_cắt_theo_đường_khớp_và_thóp",
-        "id": "FUS-07",
-        "specialty": "sieu_am_thai",
-        "notes": 15,
-        "basic": 13,
-        "cloze": 2,
-        "block": 1,
-        "debt": 53,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 13,
-          "G_COLOR_BACK": 13,
-          "G_COLOR_FRONT": 13,
-          "G_EXTRA_EMPTY": 13,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "03_Sieu am thai/07_Fetal_Neurosonography/Anki - Dinh khop so som Craniosynostosis.apkg",
-        "deck": "Fetal ultrasound::dinh-khop-so-som-craniosynostosis::2026-07-03",
-        "id": "FUS-07",
-        "specialty": "sieu_am_thai",
-        "notes": 26,
-        "basic": 20,
-        "cloze": 6,
-        "block": 1,
-        "debt": 82,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 20,
-          "G_COLOR_BACK": 20,
-          "G_COLOR_FRONT": 20,
-          "G_EXTRA_EMPTY": 20,
-          "G_PARTIAL_CLOZE": 1,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "03_Sieu am thai/07_Fetal_Neurosonography/Anki - Encephalocele.apkg",
-        "deck": "Fetal ultrasound::encephalocele",
-        "id": "FUS-07",
-        "specialty": "sieu_am_thai",
-        "notes": 22,
-        "basic": 18,
-        "cloze": 4,
-        "block": 1,
-        "debt": 73,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 18,
-          "G_COLOR_BACK": 18,
-          "G_COLOR_FRONT": 18,
-          "G_EXTRA_EMPTY": 18,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "03_Sieu am thai/07_Fetal_Neurosonography/Anki - Fetal Neurosonography 23 cards - 2026-06-30.apkg",
-        "deck": "Fetal ultrasound::Fetal_Neurosonography_cards",
-        "id": "FUS-07",
-        "specialty": "sieu_am_thai",
-        "notes": 23,
-        "basic": 17,
-        "cloze": 6,
-        "block": 18,
-        "debt": 70,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 17,
-          "G_COLOR_BACK": 17,
-          "G_COLOR_FRONT": 17,
-          "G_EXTRA_EMPTY": 17,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 17,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "03_Sieu am thai/07_Fetal_Neurosonography/Anki - Gian nao that Ventriculomegaly.apkg",
-        "deck": "Fetal ultrasound::gian-nao-that-ventriculomegaly::2026-07-03",
-        "id": "FUS-07",
-        "specialty": "sieu_am_thai",
-        "notes": 60,
-        "basic": 52,
-        "cloze": 8,
-        "block": 7,
-        "debt": 210,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 52,
-          "G_COLOR_BACK": 52,
-          "G_COLOR_FRONT": 52,
-          "G_EXTRA_EMPTY": 52,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 6,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "03_Sieu am thai/07_Fetal_Neurosonography/Anki - Holoprosencephaly.apkg",
-        "deck": "Fetal ultrasound::Holoprosencephaly::2026-07-03",
-        "id": "FUS-07",
-        "specialty": "sieu_am_thai",
-        "notes": 54,
-        "basic": 47,
-        "cloze": 7,
-        "block": 5,
-        "debt": 190,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 47,
-          "G_COLOR_BACK": 47,
-          "G_COLOR_FRONT": 47,
-          "G_EXTRA_EMPTY": 47,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 4,
-          "W_TIER": 1
-        }
       }
     ]
   },
@@ -5950,28 +5407,6 @@
     "decks": [
       {
         "apkg": "03_Sieu am thai/09_Sinh_trac_thai_Biometry/Anki - Sinh trac thai Biometry 18 cards - 2026-07-02.apkg",
-        "deck": "Fetal ultrasound::Sinh_trac_thai_Biometry_cards",
-        "id": "FUS-09",
-        "specialty": "sieu_am_thai",
-        "notes": 18,
-        "basic": 14,
-        "cloze": 4,
-        "block": 2,
-        "debt": 58,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 14,
-          "G_COLOR_BACK": 14,
-          "G_COLOR_FRONT": 14,
-          "G_EXTRA_EMPTY": 14,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 1,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "03_Sieu am thai/09_Sinh_trac_thai_Biometry/Anki - Sinh_trac_thai_Biometry_cards - undated.apkg",
         "deck": "Fetal ultrasound::Sinh_trac_thai_Biometry_cards",
         "id": "FUS-09",
         "specialty": "sieu_am_thai",
@@ -6578,26 +6013,6 @@
           "G_EXTRA_EMPTY": 17,
           "W_TIER": 1
         }
-      },
-      {
-        "apkg": "04_Sieu am tong quat/03_Sieu_am_tuyen_vu/Anki - Sieu am tuyen vu 14 cards - 2026-06-28.apkg",
-        "deck": "Imaging::Breast_US::2026-06-28",
-        "id": "US-03",
-        "specialty": "sieu_am",
-        "notes": 14,
-        "basic": 14,
-        "cloze": 0,
-        "block": 1,
-        "debt": 57,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 14,
-          "G_COLOR_BACK": 14,
-          "G_COLOR_FRONT": 14,
-          "G_EXTRA_EMPTY": 14,
-          "W_TIER": 1
-        }
       }
     ]
   },
@@ -6870,7 +6285,7 @@
   },
   {
     "specialty": "san",
-    "id": "GDM_Comprehensive",
+    "id": "OB-08",
     "folder": "01_San phu khoa\\08_GDM\\GDM_Comprehensive",
     "manifest": false,
     "profile": null,
@@ -6882,7 +6297,7 @@
       {
         "apkg": "01_San phu khoa/08_GDM/GDM_Comprehensive/Anki - GDM_Comprehensive_2026-06-28 - 2026-06-28.apkg",
         "deck": "OB/GYN::GDM_Comprehensive::2026-06-28",
-        "id": "GDM_Comprehensive",
+        "id": "OB-08",
         "specialty": "san",
         "notes": 38,
         "basic": 25,
@@ -7175,62 +6590,6 @@
     ]
   },
   {
-    "specialty": "art",
-    "id": "outputs",
-    "folder": "02_Ho tro sinh san ART\\46_Endometrioma_Adenomyosis_ART_Infertility\\outputs",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "02_Ho tro sinh san ART/46_Endometrioma_Adenomyosis_ART_Infertility/outputs/46_Endometrioma_Adenomyosis_ART_Infertility.apkg",
-        "deck": "ART::46_Endometrioma_Adenomyosis_ART_Infertility",
-        "id": "outputs",
-        "specialty": "art",
-        "notes": 8,
-        "basic": 8,
-        "cloze": 0,
-        "block": 9,
-        "debt": 33,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 8,
-          "G_COLOR_BACK": 8,
-          "G_COLOR_FRONT": 8,
-          "G_EXTRA_EMPTY": 8,
-          "P_BACK_SOURCE": 8,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "02_Ho tro sinh san ART/46_Endometrioma_Adenomyosis_ART_Infertility/outputs/Endometrioma_Adenomyosis_ART_Infertility.apkg",
-        "deck": "Endometrioma & Adenomyosis in ART - Infertility Mastery",
-        "id": "outputs",
-        "specialty": "art",
-        "notes": 8,
-        "basic": 8,
-        "cloze": 0,
-        "block": 17,
-        "debt": 33,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 8,
-          "G_COLOR_BACK": 8,
-          "G_COLOR_FRONT": 8,
-          "G_EXTRA_EMPTY": 8,
-          "P_BACK_SOURCE": 8,
-          "T_ESCAPED_TAG": 8,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
     "specialty": "sieu_am_thai",
     "id": "FUS-01",
     "folder": "03_Sieu am thai\\01_Sieu am tim thai",
@@ -7294,27 +6653,6 @@
           "G_EXTRA_EMPTY": 22,
           "P_BACK_SOURCE": 9,
           "T_ESCAPED_TAG": 22,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "03_Sieu am thai/10_Fetal_Doppler/Anki - Fetal Doppler thai ky 20 cards - 2026-06-19.apkg",
-        "deck": "Fetal Doppler thai ky - 19/06/2026",
-        "id": "FUS-10",
-        "specialty": "sieu_am_thai",
-        "notes": 20,
-        "basic": 20,
-        "cloze": 0,
-        "block": 10,
-        "debt": 81,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 20,
-          "G_COLOR_BACK": 20,
-          "G_COLOR_FRONT": 20,
-          "G_EXTRA_EMPTY": 20,
-          "P_BACK_SOURCE": 9,
           "W_TIER": 1
         }
       }
@@ -7390,107 +6728,7 @@
   },
   {
     "specialty": "sieu_am_thai",
-    "id": "D1_Chorionicity_Amnionicity",
-    "folder": "03_Sieu am thai\\42_Twin_Pregnancy\\D1_Chorionicity_Amnionicity",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "03_Sieu am thai/42_Twin_Pregnancy/D1_Chorionicity_Amnionicity/Anki - Chorionicity_Amnionicity_2026-07-05 - 2026-07-05.apkg",
-        "deck": "Twin - D1 - Chorionicity & Amnionicity",
-        "id": "D1_Chorionicity_Amnionicity",
-        "specialty": "sieu_am_thai",
-        "notes": 22,
-        "basic": 16,
-        "cloze": 6,
-        "block": 1,
-        "debt": 65,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 16,
-          "G_COLOR_BACK": 16,
-          "G_COLOR_FRONT": 16,
-          "G_EXTRA_EMPTY": 16,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "sieu_am_thai",
-    "id": "D2_MCMA",
-    "folder": "03_Sieu am thai\\42_Twin_Pregnancy\\D2_MCMA",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "03_Sieu am thai/42_Twin_Pregnancy/D2_MCMA/Anki - MCMA_2026-07-05 - 2026-07-05.apkg",
-        "deck": "Twin - D2 - MCMA - Song thai 1 buong oi",
-        "id": "D2_MCMA",
-        "specialty": "sieu_am_thai",
-        "notes": 17,
-        "basic": 12,
-        "cloze": 5,
-        "block": 1,
-        "debt": 49,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 12,
-          "G_COLOR_BACK": 12,
-          "G_COLOR_FRONT": 12,
-          "G_EXTRA_EMPTY": 12,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "sieu_am_thai",
-    "id": "D3_MCDA_TTTS_TAPS_sIUGR",
-    "folder": "03_Sieu am thai\\42_Twin_Pregnancy\\D3_MCDA_TTTS_TAPS_sIUGR",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "03_Sieu am thai/42_Twin_Pregnancy/D3_MCDA_TTTS_TAPS_sIUGR/Anki - MCDA_TTTS_TAPS_sIUGR_2026-07-06 - 2026-07-06.apkg",
-        "deck": "Twin - D3 - MCDA TTTS TAPS sIUGR",
-        "id": "D3_MCDA_TTTS_TAPS_sIUGR",
-        "specialty": "sieu_am_thai",
-        "notes": 20,
-        "basic": 14,
-        "cloze": 6,
-        "block": 1,
-        "debt": 58,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 14,
-          "G_COLOR_BACK": 14,
-          "G_COLOR_FRONT": 14,
-          "G_EXTRA_EMPTY": 14,
-          "G_PARTIAL_CLOZE": 1,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "sieu_am_thai",
-    "id": "D4_DCDA_Monitoring",
+    "id": "FUS-42",
     "folder": "03_Sieu am thai\\42_Twin_Pregnancy\\D4_DCDA_Monitoring",
     "manifest": false,
     "profile": null,
@@ -7502,7 +6740,7 @@
       {
         "apkg": "03_Sieu am thai/42_Twin_Pregnancy/D4_DCDA_Monitoring/Anki - DCDA_Monitoring_2026-07-06 - 2026-07-06.apkg",
         "deck": "Twin - D4 - DCDA Theo doi & Sinh",
-        "id": "D4_DCDA_Monitoring",
+        "id": "FUS-42",
         "specialty": "sieu_am_thai",
         "notes": 14,
         "basic": 10,
@@ -7516,963 +6754,6 @@
           "G_COLOR_BACK": 10,
           "G_COLOR_FRONT": 10,
           "G_EXTRA_EMPTY": 10,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "noi",
-    "id": "outputs",
-    "folder": "11_Noi khoa\\00_Nen_tang_va_Kham_xet_nghiem\\IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban\\outputs",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "11_Noi khoa/00_Nen_tang_va_Kham_xet_nghiem/IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban/outputs/IM-04_Part1_Nguyen_ly_doc_xet_nghiem_2026-07-29_RELEASE_v1.apkg",
-        "deck": "ART::IM-04_Part1_Nguyen_ly_doc_xet_nghiem_RELEASE_v1::2026-07-29",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 24,
-        "basic": 17,
-        "cloze": 7,
-        "block": 1,
-        "debt": 77,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 17,
-          "G_COLOR_BACK": 17,
-          "G_COLOR_FRONT": 17,
-          "G_EXTRA_EMPTY": 24,
-          "G_PARTIAL_CLOZE": 1,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/00_Nen_tang_va_Kham_xet_nghiem/IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban/outputs/IM-04_Part2_Huyet_hoc_va_dong_mau_2026-07-29_RELEASE_v1.apkg",
-        "deck": "ART::IM-04_Part2_Huyet_hoc_va_dong_mau_RELEASE_v1::2026-07-29",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 25,
-        "basic": 25,
-        "cloze": 0,
-        "block": 1,
-        "debt": 101,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 25,
-          "G_COLOR_BACK": 25,
-          "G_COLOR_FRONT": 25,
-          "G_EXTRA_EMPTY": 25,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/00_Nen_tang_va_Kham_xet_nghiem/IM-04_Huong_dan_doc_xet_nghiem_mau_co_ban/outputs/IM-04_Part3_Sinh_hoa_va_tich_hop_2026-07-29_RELEASE_v1.apkg",
-        "deck": "ART::IM-04_Part3_Sinh_hoa_va_tich_hop_RELEASE_v1::2026-07-29",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 26,
-        "basic": 26,
-        "cloze": 0,
-        "block": 1,
-        "debt": 105,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 26,
-          "G_COLOR_BACK": 26,
-          "G_COLOR_FRONT": 26,
-          "G_EXTRA_EMPTY": 26,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/00_Nen_tang_va_Kham_xet_nghiem/IM-05b_Nguyen_ly_ECG/outputs/IM-44_Nguyen_ly_ECG_2026-07-28_RELEASE_v1.apkg",
-        "deck": "Internal medicine::IM-44_Nguyen_ly_ECG_RELEASE_v1::2026-07-28",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 5,
-        "basic": 4,
-        "cloze": 1,
-        "block": 1,
-        "debt": 18,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 4,
-          "G_COLOR_BACK": 4,
-          "G_COLOR_FRONT": 4,
-          "G_EXTRA_EMPTY": 5,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/00_Nen_tang_va_Kham_xet_nghiem/IM-05b_Nguyen_ly_ECG/outputs/IM-44_Nguyen_ly_ECG_2026-07-29_RELEASE_v2.apkg",
-        "deck": "Internal medicine::IM-44_Nguyen_ly_ECG_RELEASE_v2::2026-07-29",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 22,
-        "basic": 13,
-        "cloze": 9,
-        "block": 5,
-        "debt": 62,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 13,
-          "G_COLOR_BACK": 13,
-          "G_COLOR_FRONT": 13,
-          "G_EXTRA_EMPTY": 22,
-          "P_BACK_SOURCE": 4,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/01_Cap_cuu_va_Hoi_chung_cap/IM-07b_Suy_ho_hap_cap/outputs/IM-07b_Suy_ho_hap_cap.apkg",
-        "deck": "IM-07b: Chẩn đoán & Xử trí cấp cứu ban đầu Suy hô hấp cấp",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 48,
-        "basic": 24,
-        "cloze": 24,
-        "block": 25,
-        "debt": 100,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 24,
-          "G_COLOR_BACK": 24,
-          "G_COLOR_FRONT": 24,
-          "G_EXTRA_EMPTY": 24,
-          "G_PARTIAL_CLOZE": 3,
-          "P_BACK_SOURCE": 24,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/01_Cap_cuu_va_Hoi_chung_cap/IM-07c_Hoi_chung_suy_ho_hap_cap_tien_trien_ARDS/outputs/IM-07c_Hoi_chung_suy_ho_hap_cap_tien_trien_ARDS.apkg",
-        "deck": "IM-07c: Hội chứng suy hô hấp cấp tiến triển (ARDS)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 36,
-        "basic": 18,
-        "cloze": 18,
-        "block": 19,
-        "debt": 74,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 18,
-          "G_COLOR_BACK": 18,
-          "G_COLOR_FRONT": 18,
-          "G_EXTRA_EMPTY": 18,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 18,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/01_Cap_cuu_va_Hoi_chung_cap/IM-08_Soc_va_giam_tuoi_mau_mo/outputs/IM-08_Soc_va_giam_tuoi_mau_mo.apkg",
-        "deck": "IM-08: Đại Cương Về Sốc và Giảm Tưới Máu Mô",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 34,
-        "basic": 5,
-        "cloze": 29,
-        "block": 6,
-        "debt": 22,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 5,
-          "G_COLOR_BACK": 5,
-          "G_COLOR_FRONT": 5,
-          "G_EXTRA_EMPTY": 5,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 5,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/01_Cap_cuu_va_Hoi_chung_cap/IM-08b_Soc_giam_the_tich/outputs/IM-08b_Soc_giam_the_tich.apkg",
-        "deck": "IM-08b: Sốc Giảm Thể Tích & Sốc Mất Máu Cấp",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 27,
-        "basic": 4,
-        "cloze": 23,
-        "block": 5,
-        "debt": 18,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 4,
-          "G_COLOR_BACK": 4,
-          "G_COLOR_FRONT": 4,
-          "G_EXTRA_EMPTY": 4,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 4,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/01_Cap_cuu_va_Hoi_chung_cap/IM-08c_Soc_do_tim/outputs/IM-08c_Soc_do_tim.apkg",
-        "deck": "IM-08c: Sốc Do Tim (Cardiogenic Shock)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 24,
-        "basic": 4,
-        "cloze": 20,
-        "block": 5,
-        "debt": 17,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 4,
-          "G_COLOR_BACK": 4,
-          "G_COLOR_FRONT": 4,
-          "G_EXTRA_EMPTY": 4,
-          "P_BACK_SOURCE": 4,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/01_Cap_cuu_va_Hoi_chung_cap/IM-11_Soc_nhiem_khuan/outputs/IM-11_Soc_nhiem_khuan.apkg",
-        "deck": "IM-11: Sốc Nhiễm Khuẩn (Septic Shock)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 26,
-        "basic": 4,
-        "cloze": 22,
-        "block": 5,
-        "debt": 18,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 4,
-          "G_COLOR_BACK": 4,
-          "G_COLOR_FRONT": 4,
-          "G_EXTRA_EMPTY": 4,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 4,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/01_Cap_cuu_va_Hoi_chung_cap/IM-12_Phu_phoi_cap_huyet_dong/outputs/IM-12_Phu_phoi_cap_huyet_dong.apkg",
-        "deck": "IM-12: Phù Phổi Cấp Huyết Động",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 24,
-        "basic": 12,
-        "cloze": 12,
-        "block": 13,
-        "debt": 50,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 12,
-          "G_COLOR_BACK": 12,
-          "G_COLOR_FRONT": 12,
-          "G_EXTRA_EMPTY": 12,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 12,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/01_Cap_cuu_va_Hoi_chung_cap/IM-13_Phan_ve_va_phu_mach/outputs/IM-13_Phan_ve_va_phu_mach.apkg",
-        "deck": "IM-13: Phản Vệ và Phù Mạch",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 45,
-        "basic": 7,
-        "cloze": 38,
-        "block": 8,
-        "debt": 31,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 7,
-          "G_COLOR_BACK": 7,
-          "G_COLOR_FRONT": 7,
-          "G_EXTRA_EMPTY": 7,
-          "G_PARTIAL_CLOZE": 2,
-          "P_BACK_SOURCE": 7,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/01_Cap_cuu_va_Hoi_chung_cap/IM-18_Cap_cuu_ngung_tuan_hoan/outputs/IM-18_Cap_cuu_ngung_tuan_hoan.apkg",
-        "deck": "IM-18: Cấp Cứu Ngừng Tuần Hoàn (CPR)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 55,
-        "basic": 6,
-        "cloze": 49,
-        "block": 7,
-        "debt": 28,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 6,
-          "G_COLOR_BACK": 6,
-          "G_COLOR_FRONT": 6,
-          "G_EXTRA_EMPTY": 6,
-          "G_PARTIAL_CLOZE": 3,
-          "P_BACK_SOURCE": 6,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-20_Tang_huyet_ap/outputs/IM-20_Tang_huyet_ap_2026-07-18.apkg",
-        "deck": "Internal medicine::IM-20_Tang_huyet_ap::2026-07-18",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 106,
-        "basic": 14,
-        "cloze": 92,
-        "block": 19,
-        "debt": 62,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 14,
-          "G_COLOR_BACK": 14,
-          "G_COLOR_FRONT": 14,
-          "G_EXTRA_EMPTY": 14,
-          "G_PARTIAL_CLOZE": 5,
-          "P_BACK_SOURCE": 14,
-          "T_CONTROL_CHAR": 2,
-          "T_LATEX": 2,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-20a_Benh_mach_vanh_man/outputs/Benh_Mach_Vanh_Man_CCS_On_Thi_Dai_Hoc_Y_Duoc_Thai_Binh.apkg",
-        "deck": "Nội khoa - Bệnh mạch vành mạn & Hội chứng vành mạn (CCS & CCD Master Deck)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 20,
-        "basic": 15,
-        "cloze": 5,
-        "block": 16,
-        "debt": 61,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 15,
-          "G_COLOR_BACK": 15,
-          "G_COLOR_FRONT": 15,
-          "G_EXTRA_EMPTY": 15,
-          "P_BACK_SOURCE": 15,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-20a_Benh_mach_vanh_man/outputs/IM-20a_Benh_mach_vanh_man_2026-08-19.apkg",
-        "deck": "Internal medicine::IM-20a_Benh_mach_vanh_man::2026-08-19",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 110,
-        "basic": 34,
-        "cloze": 76,
-        "block": 35,
-        "debt": 138,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 34,
-          "G_COLOR_BACK": 34,
-          "G_COLOR_FRONT": 34,
-          "G_EXTRA_EMPTY": 34,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 34,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-21_Hoi_chung_vanh_cap/outputs/ECG_Nhoi_Mau_Co_Tim_Cap_2026-08-19.apkg",
-        "deck": "Internal medicine::ECG_Nhoi_Mau_Co_Tim_Cap::2026-08-19",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 12,
-        "basic": 9,
-        "cloze": 3,
-        "block": 13,
-        "debt": 37,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 9,
-          "G_COLOR_BACK": 9,
-          "G_COLOR_FRONT": 9,
-          "G_EXTRA_EMPTY": 9,
-          "P_BACK_SOURCE": 9,
-          "T_ESCAPED_TAG": 3,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-21_Hoi_chung_vanh_cap/outputs/ECG_Nhoi_Mau_Co_Tim_Cap_On_Thi_Dai_Hoc_Y_Duoc_Thai_Binh.apkg",
-        "deck": "Nội khoa - Điện tâm đồ (ECG) Nhồi máu cơ tim cấp (ECG AMI Mastery)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 12,
-        "basic": 9,
-        "cloze": 3,
-        "block": 10,
-        "debt": 37,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 9,
-          "G_COLOR_BACK": 9,
-          "G_COLOR_FRONT": 9,
-          "G_EXTRA_EMPTY": 9,
-          "P_BACK_SOURCE": 9,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-21_Hoi_chung_vanh_cap/outputs/IM-21_Hoi_chung_vanh_cap_2026-08-19.apkg",
-        "deck": "Internal medicine::IM-21_Hoi_chung_vanh_cap::2026-08-19",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 36,
-        "basic": 25,
-        "cloze": 11,
-        "block": 37,
-        "debt": 101,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 25,
-          "G_COLOR_BACK": 25,
-          "G_COLOR_FRONT": 25,
-          "G_EXTRA_EMPTY": 25,
-          "P_BACK_SOURCE": 25,
-          "T_ESCAPED_TAG": 11,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-21_Hoi_chung_vanh_cap/outputs/Nhoi_Mau_Co_Tim_Cap_On_Thi_Dai_Hoc_Y_Duoc_Thai_Binh.apkg",
-        "deck": "Nội khoa - Hội chứng vành cấp & Nhồi máu cơ tim cấp (ACS & AMI Master Deck)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 36,
-        "basic": 25,
-        "cloze": 11,
-        "block": 26,
-        "debt": 101,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 25,
-          "G_COLOR_BACK": 25,
-          "G_COLOR_FRONT": 25,
-          "G_EXTRA_EMPTY": 25,
-          "P_BACK_SOURCE": 25,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-22_Suy_tim/P1_Nen_tang/outputs/IM-22_P1_Nen_tang_2026-07-29_RELEASE_v1.apkg",
-        "deck": "Internal medicine::IM-22_P1_Nen_tang_RELEASE_v1::2026-07-29",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 107,
-        "basic": 107,
-        "cloze": 0,
-        "block": 1,
-        "debt": 429,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 107,
-          "G_COLOR_BACK": 107,
-          "G_COLOR_FRONT": 107,
-          "G_EXTRA_EMPTY": 107,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-22_Suy_tim/P2_Chan_doan/outputs/IM-22_P2_Chan_doan_2026-07-30_RELEASE_v11_FULL.apkg",
-        "deck": "Noi Khoa - IM-22 P2: Chan Doan Suy Tim (v11 Full)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 114,
-        "basic": 107,
-        "cloze": 7,
-        "block": 108,
-        "debt": 324,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 107,
-          "G_COLOR_BACK": 107,
-          "G_COLOR_FRONT": 107,
-          "G_PARTIAL_CLOZE": 2,
-          "P_BACK_SOURCE": 107,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-22_Suy_tim/P3_HFrEF_man/outputs/IM-22_P3_HFrEF_man_2026-07-30_RELEASE_v1.apkg",
-        "deck": "Internal medicine::IM-22_P3_HFrEF_man_RELEASE_v1::2026-07-30",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 117,
-        "basic": 117,
-        "cloze": 0,
-        "block": 1,
-        "debt": 469,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 117,
-          "G_COLOR_BACK": 117,
-          "G_COLOR_FRONT": 117,
-          "G_EXTRA_EMPTY": 117,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-22_Suy_tim/P4_HFpEF_Comorbidities/outputs/IM-22_P4_HFpEF_Comorbidities_2026-07-30_RELEASE_v1.apkg",
-        "deck": "IM-22 P4 HFpEF Comorbidities 2026-07-30 RELEASE v1",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 15,
-        "basic": 15,
-        "cloze": 0,
-        "block": 3,
-        "debt": 61,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 15,
-          "G_COLOR_BACK": 15,
-          "G_COLOR_FRONT": 15,
-          "G_EXTRA_EMPTY": 15,
-          "P_BACK_SOURCE": 2,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-22_Suy_tim/P5_Suy_tim_cap/outputs/IM-22_P5_Suy_tim_cap_2026-07-30_RELEASE_v1.apkg",
-        "deck": "Internal medicine::IM-22_P5_Suy_tim_cap_RELEASE_v1::2026-07-30",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 151,
-        "basic": 117,
-        "cloze": 34,
-        "block": 38,
-        "debt": 520,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 117,
-          "G_COLOR_BACK": 117,
-          "G_COLOR_FRONT": 117,
-          "G_EXTRA_EMPTY": 151,
-          "G_PARTIAL_CLOZE": 17,
-          "P_BACK_SOURCE": 27,
-          "T_DUP_FRONT": 10,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-23b_Cac_roi_loan_nhip_tim/outputs/IM-23b_Cac_roi_loan_nhip_tim_2026-08-19.apkg",
-        "deck": "IM-23b: Các rối loạn nhịp tim (Arrhythmias)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 106,
-        "basic": 26,
-        "cloze": 80,
-        "block": 30,
-        "debt": 106,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 26,
-          "G_COLOR_BACK": 26,
-          "G_COLOR_FRONT": 26,
-          "G_EXTRA_EMPTY": 26,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 26,
-          "T_CONTROL_CHAR": 1,
-          "T_LATEX": 2,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-23b_Cac_roi_loan_nhip_tim/outputs/Roi_Loan_Nhip_Tim_On_Thi_2026-08-19.apkg",
-        "deck": "IM-23b: Các rối loạn nhịp tim (Arrhythmias)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 106,
-        "basic": 26,
-        "cloze": 80,
-        "block": 30,
-        "debt": 106,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 26,
-          "G_COLOR_BACK": 26,
-          "G_COLOR_FRONT": 26,
-          "G_EXTRA_EMPTY": 26,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 26,
-          "T_CONTROL_CHAR": 1,
-          "T_LATEX": 2,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-23b_Cac_roi_loan_nhip_tim/outputs/Roi_Loan_Nhip_Tim_On_Thi_Dai_Hoc_Y_Duoc_Thai_Binh.apkg",
-        "deck": "IM-23b: Các rối loạn nhịp tim (Arrhythmias)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 106,
-        "basic": 26,
-        "cloze": 80,
-        "block": 30,
-        "debt": 106,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 26,
-          "G_COLOR_BACK": 26,
-          "G_COLOR_FRONT": 26,
-          "G_EXTRA_EMPTY": 26,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 26,
-          "T_CONTROL_CHAR": 1,
-          "T_LATEX": 2,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/03_Ho_hap/IM-29_Hen_phe_quan/outputs/IM-29_Hen_phe_quan_On_Thi_Flashcards.apkg",
-        "deck": "Nội khoa::IM-29 Hen Phế Quản - Ôn Thi Siêu Chi Tiết",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 130,
-        "basic": 96,
-        "cloze": 34,
-        "block": 114,
-        "debt": 386,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 96,
-          "G_COLOR_BACK": 96,
-          "G_COLOR_FRONT": 96,
-          "G_EXTRA_EMPTY": 96,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 96,
-          "T_CONTROL_CHAR": 1,
-          "T_LATEX": 16,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/03_Ho_hap/IM-30_COPD/outputs/IM-30_COPD_2026-07-30_RELEASE_v1.apkg",
-        "deck": "Internal medicine::IM-30_COPD_RELEASE_v1::2026-07-30",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 68,
-        "basic": 44,
-        "cloze": 24,
-        "block": 54,
-        "debt": 177,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 44,
-          "G_COLOR_BACK": 44,
-          "G_COLOR_FRONT": 44,
-          "G_EXTRA_EMPTY": 44,
-          "P_BACK_SOURCE": 44,
-          "T_CONTROL_CHAR": 2,
-          "T_LATEX": 7,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/03_Ho_hap/IM-30_COPD/outputs/IM-30_COPD_2026-07-30_RELEASE_v1_pink.apkg",
-        "deck": "IM-30 · Bệnh Phổi Tắc Nghẽn Mạn Tính (COPD)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 68,
-        "basic": 68,
-        "cloze": 0,
-        "block": 78,
-        "debt": 273,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 68,
-          "G_COLOR_BACK": 68,
-          "G_COLOR_FRONT": 68,
-          "G_EXTRA_EMPTY": 68,
-          "P_BACK_SOURCE": 44,
-          "T_CLOZE_SYNTAX": 24,
-          "T_CONTROL_CHAR": 2,
-          "T_LATEX": 7,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/03_Ho_hap/IM-34a_Tam_phe_man/outputs/IM-34a_Tam_phe_man_On_Thi_Flashcards.apkg",
-        "deck": "Nội khoa::IM-34a Tâm Phế Mạn - Ôn Thi Siêu Chi Tiết",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 50,
-        "basic": 43,
-        "cloze": 7,
-        "block": 65,
-        "debt": 173,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 43,
-          "G_COLOR_BACK": 43,
-          "G_COLOR_FRONT": 43,
-          "G_EXTRA_EMPTY": 43,
-          "P_BACK_SOURCE": 43,
-          "T_LATEX": 21,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/04_Tieu_hoa_va_Gan_mat/IM-37_Loet_da_day_ta_trang_GERD_kho_tieu/outputs/Anki - IM-37_Loet_da_day_ta_trang_GERD_kho_tieu_2026-07-20 - 2026-07-20.apkg",
-        "deck": "Internal medicine::IM-37_Loet_da_day_ta_trang_GERD_kho_tieu::2026-07-20",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 50,
-        "basic": 50,
-        "cloze": 0,
-        "block": 38,
-        "debt": 201,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 50,
-          "G_COLOR_BACK": 50,
-          "G_COLOR_FRONT": 50,
-          "G_EXTRA_EMPTY": 50,
-          "P_BACK_SOURCE": 37,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-43_Suy_than_cap/outputs/IM-43_Suy_than_cap.apkg",
-        "deck": "IM-43: Suy thận cấp & Tổn thương thận cấp (AKI)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 76,
-        "basic": 6,
-        "cloze": 70,
-        "block": 7,
-        "debt": 27,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 6,
-          "G_COLOR_BACK": 6,
-          "G_COLOR_FRONT": 6,
-          "G_EXTRA_EMPTY": 6,
-          "G_PARTIAL_CLOZE": 2,
-          "P_BACK_SOURCE": 6,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu/outputs/Anki - IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu_2026-07-26.apkg",
-        "deck": "Internal medicine::IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu::2026-07-26",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 115,
-        "basic": 115,
-        "cloze": 0,
-        "block": 1,
-        "debt": 461,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 115,
-          "G_COLOR_BACK": 115,
-          "G_COLOR_FRONT": 115,
-          "G_EXTRA_EMPTY": 115,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu/outputs/Anki - IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu_2026-07-29_RELEASE_v3.apkg",
-        "deck": "Internal medicine::IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu_RELEASE_v3::2026-07-29",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 160,
-        "basic": 160,
-        "cloze": 0,
-        "block": 1,
-        "debt": 641,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 160,
-          "G_COLOR_BACK": 160,
-          "G_COLOR_FRONT": 160,
-          "G_EXTRA_EMPTY": 160,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-43b_Sinh_ly_Nephron_va_Thuoc_loi_tieu/outputs/Anki - QA_Huong_dan_theo_doi_va_chinh_lieu_loi_tieu_2026-07-29.apkg",
-        "deck": "Internal medicine::QA_Huong_dan_theo_doi_va_chinh_lieu_loi_tieu::2026-07-29",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 80,
-        "basic": 80,
-        "cloze": 0,
-        "block": 1,
-        "debt": 321,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 80,
-          "G_COLOR_BACK": 80,
-          "G_COLOR_FRONT": 80,
-          "G_EXTRA_EMPTY": 80,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-45_Roi_loan_natri_va_can_bang_nuoc/outputs/IM-45_Roi_loan_natri_va_can_bang_nuoc.apkg",
-        "deck": "IM-45: Rối loạn nước - điện giải (Natri, Kali, Calci)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 57,
-        "basic": 6,
-        "cloze": 51,
-        "block": 7,
-        "debt": 26,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 6,
-          "G_COLOR_BACK": 6,
-          "G_COLOR_FRONT": 6,
-          "G_EXTRA_EMPTY": 6,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 6,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/05_Than_va_Roi_loan_dien_giai/IM-47_Roi_loan_toan_kiem_va_doc_khi_mau_dong_mach/outputs/IM-47b_Roi_loan_can_bang_kiem_toan.apkg",
-        "deck": "IM-47b: Rối loạn cân bằng kiềm toan (Acid - Base Disorders)",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 39,
-        "basic": 5,
-        "cloze": 34,
-        "block": 6,
-        "debt": 23,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 5,
-          "G_COLOR_BACK": 5,
-          "G_COLOR_FRONT": 5,
-          "G_EXTRA_EMPTY": 5,
-          "G_PARTIAL_CLOZE": 2,
-          "P_BACK_SOURCE": 5,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/06_Noi_tiet_va_Chuyen_hoa/IM-51_Dai_thao_duong/P7_Insulin_therapy/outputs/Anki - IM-51_P7_Insulin_therapy_2026-08-05 - 2026-08-05.apkg",
-        "deck": "Internal medicine::IM-51_Dai_thao_duong::P7_Insulin_therapy",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 14,
-        "basic": 14,
-        "cloze": 0,
-        "block": 1,
-        "debt": 57,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 14,
-          "G_COLOR_BACK": 14,
-          "G_COLOR_FRONT": 14,
-          "G_EXTRA_EMPTY": 14,
-          "W_TIER": 1
-        }
-      },
-      {
-        "apkg": "11_Noi khoa/06_Noi_tiet_va_Chuyen_hoa/IM-56_Roi_loan_lipid_mau/outputs/IM-56_Roi_loan_lipid_mau.apkg",
-        "deck": "Internal medicine::IM-56_Roi_loan_lipid_mau",
-        "id": "outputs",
-        "specialty": "noi",
-        "notes": 28,
-        "basic": 25,
-        "cloze": 3,
-        "block": 26,
-        "debt": 101,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 25,
-          "G_COLOR_BACK": 25,
-          "G_COLOR_FRONT": 25,
-          "G_EXTRA_EMPTY": 25,
-          "P_BACK_SOURCE": 25,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "noi",
-    "id": "shadow_ncbi_free_build",
-    "folder": "11_Noi khoa\\00_Nen_tang_va_Kham_xet_nghiem\\IM-05b_Nguyen_ly_ECG\\outputs\\shadow_ncbi_free_build",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "11_Noi khoa/00_Nen_tang_va_Kham_xet_nghiem/IM-05b_Nguyen_ly_ECG/outputs/shadow_ncbi_free_build/IM-44_Nguyen_ly_ECG_2026-07-29_RELEASE_v2.apkg",
-        "deck": "Internal medicine::IM-44_Nguyen_ly_ECG_RELEASE_v2::2026-07-29",
-        "id": "shadow_ncbi_free_build",
-        "specialty": "noi",
-        "notes": 22,
-        "basic": 13,
-        "cloze": 9,
-        "block": 5,
-        "debt": 62,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 13,
-          "G_COLOR_BACK": 13,
-          "G_COLOR_FRONT": 13,
-          "G_EXTRA_EMPTY": 22,
-          "P_BACK_SOURCE": 4,
           "W_TIER": 1
         }
       }
@@ -8507,418 +6788,6 @@
           "G_COLOR_FRONT": 314,
           "G_EXTRA_EMPTY": 314,
           "P_BACK_SOURCE": 24,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "noi",
-    "id": "P_Dieu_tri_chi_tiet",
-    "folder": "11_Noi khoa\\02_Tim_mach\\IM-22_Suy_tim\\P6_Suy_tim_tien_trien\\P_Dieu_tri_chi_tiet",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-22_Suy_tim/P6_Suy_tim_tien_trien/P_Dieu_tri_chi_tiet/Anki - IM-22_P6_Suy_tim_tien_trien_2026-08-05 - 2026-08-05.apkg",
-        "deck": "Internal medicine::IM-22_P6_Suy_tim_tien_trien::2026-08-05",
-        "id": "P_Dieu_tri_chi_tiet",
-        "specialty": "noi",
-        "notes": 48,
-        "basic": 33,
-        "cloze": 15,
-        "block": 34,
-        "debt": 150,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 33,
-          "G_COLOR_BACK": 33,
-          "G_COLOR_FRONT": 33,
-          "G_EXTRA_EMPTY": 48,
-          "G_PARTIAL_CLOZE": 2,
-          "P_BACK_SOURCE": 33,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "noi",
-    "id": "P7_Huong_dan_chinh_lieu",
-    "folder": "11_Noi khoa\\02_Tim_mach\\IM-22_Suy_tim\\P7_Huong_dan_chinh_lieu",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "11_Noi khoa/02_Tim_mach/IM-22_Suy_tim/P7_Huong_dan_chinh_lieu/Anki - IM-22_P7_Huong_dan_chinh_lieu_2026-08-05 - 2026-08-05.apkg",
-        "deck": "Internal medicine::IM-22_P7_Huong_dan_chinh_lieu::2026-08-05",
-        "id": "P7_Huong_dan_chinh_lieu",
-        "specialty": "noi",
-        "notes": 70,
-        "basic": 44,
-        "cloze": 26,
-        "block": 45,
-        "debt": 203,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 44,
-          "G_COLOR_BACK": 44,
-          "G_COLOR_FRONT": 44,
-          "G_EXTRA_EMPTY": 70,
-          "P_BACK_SOURCE": 44,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "noi",
-    "id": "P_Dieu_tri_dung_cu_hit",
-    "folder": "11_Noi khoa\\03_Ho_hap\\IM-30_COPD\\P_Dieu_tri_dung_cu_hit",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "11_Noi khoa/03_Ho_hap/IM-30_COPD/P_Dieu_tri_dung_cu_hit/Anki - IM-30_COPD_Dieu_tri_dung_cu_hit_2026-08-05 - 2026-08-05.apkg",
-        "deck": "Internal medicine::IM-30_COPD_Dieu_tri_dung_cu_hit::2026-08-05",
-        "id": "P_Dieu_tri_dung_cu_hit",
-        "specialty": "noi",
-        "notes": 48,
-        "basic": 27,
-        "cloze": 21,
-        "block": 28,
-        "debt": 131,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 27,
-          "G_COLOR_BACK": 27,
-          "G_COLOR_FRONT": 27,
-          "G_EXTRA_EMPTY": 48,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 27,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "noi",
-    "id": "P2_Sinh_ly_benh",
-    "folder": "11_Noi khoa\\06_Noi_tiet_va_Chuyen_hoa\\IM-51_Dai_thao_duong\\P2_Sinh_ly_benh",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "11_Noi khoa/06_Noi_tiet_va_Chuyen_hoa/IM-51_Dai_thao_duong/P2_Sinh_ly_benh/Anki - IM-51_P2_Sinh_ly_benh_2026-08-05 - 2026-08-05.apkg",
-        "deck": "Internal medicine::IM-51_P2_Sinh_ly_benh::2026-08-05",
-        "id": "P2_Sinh_ly_benh",
-        "specialty": "noi",
-        "notes": 32,
-        "basic": 20,
-        "cloze": 12,
-        "block": 21,
-        "debt": 93,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 20,
-          "G_COLOR_BACK": 20,
-          "G_COLOR_FRONT": 20,
-          "G_EXTRA_EMPTY": 32,
-          "P_BACK_SOURCE": 20,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "noi",
-    "id": "P3_Chan_doan_sang_loc",
-    "folder": "11_Noi khoa\\06_Noi_tiet_va_Chuyen_hoa\\IM-51_Dai_thao_duong\\P3_Chan_doan_sang_loc",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "11_Noi khoa/06_Noi_tiet_va_Chuyen_hoa/IM-51_Dai_thao_duong/P3_Chan_doan_sang_loc/Anki - IM-51_P3_Chan_doan_sang_loc_2026-08-05 - 2026-08-05.apkg",
-        "deck": "Internal medicine::IM-51_P3_Chan_doan_sang_loc::2026-08-05",
-        "id": "P3_Chan_doan_sang_loc",
-        "specialty": "noi",
-        "notes": 29,
-        "basic": 15,
-        "cloze": 14,
-        "block": 16,
-        "debt": 75,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 15,
-          "G_COLOR_BACK": 15,
-          "G_COLOR_FRONT": 15,
-          "G_EXTRA_EMPTY": 29,
-          "P_BACK_SOURCE": 15,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "noi",
-    "id": "P4_Muc_tieu_dieu_tri_ca_the_hoa",
-    "folder": "11_Noi khoa\\06_Noi_tiet_va_Chuyen_hoa\\IM-51_Dai_thao_duong\\P4_Muc_tieu_dieu_tri_ca_the_hoa",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "11_Noi khoa/06_Noi_tiet_va_Chuyen_hoa/IM-51_Dai_thao_duong/P4_Muc_tieu_dieu_tri_ca_the_hoa/Anki - IM-51_P4_Muc_tieu_dieu_tri_ca_the_hoa_2026-08-05 - 2026-08-05.apkg",
-        "deck": "Internal medicine::IM-51_P4_Muc_tieu_dieu_tri_ca_the_hoa::2026-08-05",
-        "id": "P4_Muc_tieu_dieu_tri_ca_the_hoa",
-        "specialty": "noi",
-        "notes": 23,
-        "basic": 12,
-        "cloze": 11,
-        "block": 13,
-        "debt": 60,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 12,
-          "G_COLOR_BACK": 12,
-          "G_COLOR_FRONT": 12,
-          "G_EXTRA_EMPTY": 23,
-          "P_BACK_SOURCE": 12,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "noi",
-    "id": "P5_Dung_thuoc_khong_dung_thuoc",
-    "folder": "11_Noi khoa\\06_Noi_tiet_va_Chuyen_hoa\\IM-51_Dai_thao_duong\\P5_Dung_thuoc_khong_dung_thuoc",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "11_Noi khoa/06_Noi_tiet_va_Chuyen_hoa/IM-51_Dai_thao_duong/P5_Dung_thuoc_khong_dung_thuoc/Anki - IM-51_P5_Dieu_tri_khong_dung_thuoc_2026-08-05 - 2026-08-05.apkg",
-        "deck": "Internal medicine::IM-51_P5_Dieu_tri_khong_dung_thuoc::2026-08-05",
-        "id": "P5_Dung_thuoc_khong_dung_thuoc",
-        "specialty": "noi",
-        "notes": 16,
-        "basic": 7,
-        "cloze": 9,
-        "block": 8,
-        "debt": 38,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 7,
-          "G_COLOR_BACK": 7,
-          "G_COLOR_FRONT": 7,
-          "G_EXTRA_EMPTY": 16,
-          "P_BACK_SOURCE": 7,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "noi",
-    "id": "P6_Thuoc_khong_insulin",
-    "folder": "11_Noi khoa\\06_Noi_tiet_va_Chuyen_hoa\\IM-51_Dai_thao_duong\\P6_Thuoc_khong_insulin",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "11_Noi khoa/06_Noi_tiet_va_Chuyen_hoa/IM-51_Dai_thao_duong/P6_Thuoc_khong_insulin/Anki - IM-51_P6_Thuoc_khong_insulin_2026-08-05 - 2026-08-05.apkg",
-        "deck": "Internal medicine::IM-51_Dai_thao_duong::P6_Thuoc_khong_insulin",
-        "id": "P6_Thuoc_khong_insulin",
-        "specialty": "noi",
-        "notes": 20,
-        "basic": 20,
-        "cloze": 0,
-        "block": 1,
-        "debt": 81,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 20,
-          "G_COLOR_BACK": 20,
-          "G_COLOR_FRONT": 20,
-          "G_EXTRA_EMPTY": 20,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "noi",
-    "id": "P7_Insulin_therapy",
-    "folder": "11_Noi khoa\\06_Noi_tiet_va_Chuyen_hoa\\IM-51_Dai_thao_duong\\P7_Insulin_therapy",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "11_Noi khoa/06_Noi_tiet_va_Chuyen_hoa/IM-51_Dai_thao_duong/P7_Insulin_therapy/Anki - IM-51_P7_Insulin_therapy_2026-08-05 - 2026-08-05.apkg",
-        "deck": "Y Khoa::Nội khoa::IM-51 Đái tháo đường::P7 Insulin therapy",
-        "id": "P7_Insulin_therapy",
-        "specialty": "noi",
-        "notes": 22,
-        "basic": 22,
-        "cloze": 0,
-        "block": 29,
-        "debt": 89,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 22,
-          "G_COLOR_BACK": 22,
-          "G_COLOR_FRONT": 22,
-          "G_EXTRA_EMPTY": 22,
-          "P_BACK_SOURCE": 22,
-          "T_CONTROL_CHAR": 3,
-          "T_LATEX": 3,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "noi",
-    "id": "P8_Bien_chung_cap_tinh",
-    "folder": "11_Noi khoa\\06_Noi_tiet_va_Chuyen_hoa\\IM-51_Dai_thao_duong\\P8_Bien_chung_cap_tinh",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "11_Noi khoa/06_Noi_tiet_va_Chuyen_hoa/IM-51_Dai_thao_duong/P8_Bien_chung_cap_tinh/Anki - IM-51_P8_Bien_chung_cap_tinh_2026-08-05 - 2026-08-05.apkg",
-        "deck": "Internal medicine::IM-51_P8_Bien_chung_cap_tinh::2026-08-05",
-        "id": "P8_Bien_chung_cap_tinh",
-        "specialty": "noi",
-        "notes": 53,
-        "basic": 36,
-        "cloze": 17,
-        "block": 37,
-        "debt": 162,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 36,
-          "G_COLOR_BACK": 36,
-          "G_COLOR_FRONT": 36,
-          "G_EXTRA_EMPTY": 53,
-          "P_BACK_SOURCE": 36,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "noi",
-    "id": "P9_Bien_chung_man_tinh",
-    "folder": "11_Noi khoa\\06_Noi_tiet_va_Chuyen_hoa\\IM-51_Dai_thao_duong\\P9_Bien_chung_man_tinh",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "11_Noi khoa/06_Noi_tiet_va_Chuyen_hoa/IM-51_Dai_thao_duong/P9_Bien_chung_man_tinh/Anki - IM-51_P9_Bien_chung_man_tinh_2026-08-05 - 2026-08-05.apkg",
-        "deck": "Internal medicine::IM-51_P9_Bien_chung_man_tinh::2026-08-05",
-        "id": "P9_Bien_chung_man_tinh",
-        "specialty": "noi",
-        "notes": 20,
-        "basic": 9,
-        "cloze": 11,
-        "block": 12,
-        "debt": 48,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 9,
-          "G_COLOR_BACK": 9,
-          "G_COLOR_FRONT": 9,
-          "G_EXTRA_EMPTY": 20,
-          "P_BACK_SOURCE": 11,
-          "W_TIER": 1
-        }
-      }
-    ]
-  },
-  {
-    "specialty": "noi",
-    "id": "P_Duoc_ly_dieu_tri",
-    "folder": "11_Noi khoa\\06_Noi_tiet_va_Chuyen_hoa\\IM-51_Dai_thao_duong\\P_Duoc_ly_dieu_tri",
-    "manifest": false,
-    "profile": null,
-    "lesson": null,
-    "debt": 0,
-    "by_code": {},
-    "depth_fails": [],
-    "decks": [
-      {
-        "apkg": "11_Noi khoa/06_Noi_tiet_va_Chuyen_hoa/IM-51_Dai_thao_duong/P_Duoc_ly_dieu_tri/Anki - IM-51_Duoc_ly_dieu_tri_2026-08-05 - 2026-08-05.apkg",
-        "deck": "Internal medicine::IM-51_Duoc_ly_dieu_tri::2026-08-05",
-        "id": "P_Duoc_ly_dieu_tri",
-        "specialty": "noi",
-        "notes": 54,
-        "basic": 32,
-        "cloze": 22,
-        "block": 33,
-        "debt": 152,
-        "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 32,
-          "G_COLOR_BACK": 32,
-          "G_COLOR_FRONT": 32,
-          "G_EXTRA_EMPTY": 54,
-          "G_PARTIAL_CLOZE": 1,
-          "P_BACK_SOURCE": 32,
           "W_TIER": 1
         }
       }

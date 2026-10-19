@@ -137,6 +137,10 @@ def check_labels(text: str, m: lesson_manifest.Manifest) -> list[Issue]:
     fetch_p = _find_artifact(m.lesson_dir, "ncbi_fetch.json")
     match_p = _find_artifact(m.lesson_dir, "abstract_match.jsonl")
     table_p = _find_artifact(m.lesson_dir, "full_verify_table.md")
+    if not fetch_p and any(lb in ALLOWED_LABELS for _, line in _prose_lines(text) for lb in LABEL_RE.findall(line)):
+        # thiếu cả Gate 0 → 1 lỗi duy nhất thay vì 1 lỗi cho mỗi PMID
+        return issues + [Issue("V_NO_ARTIFACTS", "*", "bài gắn nhãn verification nhưng không có ncbi_fetch.json "
+                                                       "(Gate 0) trong folder bài")]
     fetched = json.loads(fetch_p.read_text(encoding="utf-8")) if fetch_p else {}
     matched = {}
     if match_p:

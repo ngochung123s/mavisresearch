@@ -146,6 +146,19 @@ class ManifestAndModes(unittest.TestCase):
                                .read_text(encoding="utf-8"))["steps"]
         self.assertEqual(steps[-1], {"step": "evidence_pipeline", "exit_code": 2, "status": "BLOCK"})
 
+    def test_cli_exit_code_is_2_when_release_blocks_and_0_in_hotfix(self):
+        with tempfile.TemporaryDirectory() as t:
+            d = make_lesson(Path(t), "12_Nhi khoa/PED-98_Thu", "nhi", "PED-98", "# quá ngắn\n")
+            self.assertEqual(LL.main([str(d), "--mode", "release"]), 2)
+            self.assertEqual(LL.main([str(d), "--mode", "hotfix"]), 0)
+
+    def test_missing_ncbi_artifacts_reported_once(self):
+        with tempfile.TemporaryDirectory() as t:
+            d = make_lesson(Path(t), "12_Nhi khoa/PED-98_Thu", "nhi", "PED-98",
+                            "A (PMID: 111111) [DATA VERIFIED]\nB (PMID: 222222) [GUIDELINE VERIFIED]\n")
+            found = [i.code for i in LL.check_labels(LM.load(d).lesson_path.read_text(encoding="utf-8"), LM.load(d))]
+        self.assertEqual(found, ["V_NO_ARTIFACTS"])
+
 
 if __name__ == "__main__":
     unittest.main()

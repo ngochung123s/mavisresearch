@@ -65,16 +65,17 @@ BADGE_HTML = '<div class="badge {{BadgeClass}}">{{Badge}}{{#Category}} • {{Cat
 EXTRA_HTML = '{{#Extra}}<div class="extra-box"><div class="extra-title">Nguồn trích dẫn y chứng & Tài liệu học tập:</div>{{Extra}}</div>{{/Extra}}'
 
 
-def model_specs(spec: dict) -> dict[str, dict]:
-    chosen = {**SHARED_MODELS, **(spec.get("models") or {})}
+def model_specs(spec: dict, specialty_models: dict | None = None) -> dict[str, dict]:
+    """Notetype: mặc định YKhoa_Master_*; chuyên khoa (specialties.json) rồi lesson.json có thể ghi đè."""
+    chosen = {**SHARED_MODELS, **(specialty_models or {}), **(spec.get("models") or {})}
     basic, cloze = chosen["basic"], chosen["cloze"]
     return {
         "basic": {"id": int(basic["id"]), "name": basic["name"], "fields": BASIC_FIELDS, "is_cloze": False, "css": CSS,
-                  "template_name": "Y khoa Master Basic",
+                  "template_name": basic.get("template", "Y khoa Master Basic"),
                   "qfmt": BADGE_HTML + '<div class="question">{{Front}}</div>',
                   "afmt": BADGE_HTML + '<div class="question">{{Front}}</div><hr id="answer"><div class="answer-box">{{Back}}</div>' + EXTRA_HTML},
         "cloze": {"id": int(cloze["id"]), "name": cloze["name"], "fields": CLOZE_FIELDS, "is_cloze": True, "css": CSS,
-                  "template_name": "Y khoa Master Cloze",
+                  "template_name": cloze.get("template", "Y khoa Master Cloze"),
                   "qfmt": BADGE_HTML + '<div class="question">{{cloze:Text}}</div>',
                   "afmt": BADGE_HTML + '<div class="question">{{cloze:Text}}</div>' + EXTRA_HTML},
     }
@@ -123,7 +124,7 @@ def build(lesson_dir: Path, mode: str, sync_anki: bool, lint_only: bool, output:
     m = lesson_manifest.load(lesson_dir)
     spec, code = m.deck, m.id
     apkg_path = Path(output).resolve() if output else m.apkg_path
-    models = model_specs(spec)
+    models = model_specs(spec, m.specialty.model_overrides)
     if errors := lesson_manifest.validate(m):
         for e in errors:
             print(f"  [BLOCK] lesson.json: {e}")

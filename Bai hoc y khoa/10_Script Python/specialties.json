@@ -12,6 +12,11 @@
       "evidence_mode": "ncbi_artifacts",
       "artifact_dir": ".",
       "curriculum": "_CURRICULUM_NHI_KHOA.md",
+      "models": {
+        "_doc": "notetype đã dùng cho 24 deck PED trong Anki — KHÔNG đổi id/tên (đổi = import APKG bỏ qua note cùng GUID)",
+        "basic": {"id": 1790604700021, "name": "NhiKhoa_Master_Basic", "template": "Nhi khoa Master Basic"},
+        "cloze": {"id": 1790604702132, "name": "NhiKhoa_Master_Cloze", "template": "Nhi khoa Master Cloze"}
+      },
       "post_release": ["12_Nhi khoa/build_ped_library.py"]
     },
     {
