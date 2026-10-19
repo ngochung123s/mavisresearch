@@ -26,7 +26,7 @@
 - ❌ **TUYỆT ĐỐI KHÔNG ghi file vào ổ C:** (C sắp kiệt). Mọi output phải nằm trong `F:\DL\mavisresearch\`.
 - ✅ Mọi script/output liên quan y khoa → `F:\DL\mavisresearch\Bai hoc y khoa\`.
 - ✅ Workspace này sync lên Google Drive (script `C:\Users\THANHANH\.mavis\scripts\sync_to_gdrive.ps1`).
-- 🩺 **Track Nhi khoa (PED)**: mọi bài trong `Bai hoc y khoa/12_Nhi khoa/` theo `Bai hoc y khoa/12_Nhi khoa/PED_RULES.md` (+ 4 managed skill nó nêu). Ngoại lệ so với quy tắc Sản/ART/Nội bên dưới: evidence theo `medical-verification-governance`, build bằng `10_Script Python/ped_deck_builder.py`, APKG/cards ở root folder bài, deck `Nhi khoa Y6::PED-xx: <Tên có dấu>`.
+- 🩺 **Build bài học + APKG (mọi chuyên khoa)**: theo `Bai hoc y khoa/RULES_LESSON_APKG.md` (nguồn chân lý duy nhất). Một lệnh phát hành: `python "Bai hoc y khoa/10_Script Python/release_lesson.py" <lesson_dir> --mode release [--evidence-bundle ... --guidelines ...]`. Đổi rule: managed skill + `RULES_LESSON_APKG.md` (+ commit linter riêng). Ngoại lệ PED: `evidence_mode ncbi_artifacts`, APKG ở root folder bài.
 
 ---
 

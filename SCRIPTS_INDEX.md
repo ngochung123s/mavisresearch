@@ -182,7 +182,7 @@ python rebuild_all_docx_v2.py
 
 | Mistake | Hậu quả | Fix |
 |---|---|---|
-| Dùng `make_*_lesson.py` cũ cho bài mới | Mất dấu tiếng Việt | Viết MD có dấu; dùng `build_apkg.py` |
+| Dùng `make_*_lesson.py` cũ cho bài mới | Mất dấu tiếng Việt | Viết MD có dấu; dùng `release_lesson.py` (→ `deck_builder.py`) |
 | Quên chạy `citation_audit.py` sau build | Có thể có paper sai topic | Audit là bắt buộc trước khi ship |
 | Quên verify dấu sau khi build | PowerShell console hiển thị sai → tưởng lỗi | `python verify_diacritics.py` |
 | Cần DOCX cho bài cũ | `md_to_docx.py` chỉ dành cho rebuild/xuất lại bài cũ | Không build DOCX cho bài mới |

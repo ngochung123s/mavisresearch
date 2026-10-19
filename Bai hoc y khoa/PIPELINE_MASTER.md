@@ -1,7 +1,7 @@
 # PIPELINE_MASTER.md — Sổ tay Vận hành Toàn bộ Pipeline Bài học Y khoa
 
 > ⚠️ **LEGACY / lịch sử (2026-07-26).** Đã bị thay thế: bước evidence qua NCBI E-utilities, pipeline 5 tầng với Mavis/Gemini, nhãn cũ (`[ABSTRACT MATCH]`, `[FULL VERIFIED]`, `[DIRECTION ONLY]`, `[TEXTBOOK]`).
-> Hiện hành (Sản/ART/Siêu âm/Nội): `WORKFLOW.md` + `AGENTS.md` (`evidence_sync.py` → `build_pipeline.py --evidence-bundle`, 5 nhãn canonical). Nhi khoa (PED): `12_Nhi khoa/PED_RULES.md`.
+> Hiện hành (evidence Sản/ART/Siêu âm/Nội): `WORKFLOW.md` + `AGENTS.md` (`evidence_sync.py` → `release_lesson.py --evidence-bundle`, 5 nhãn canonical). Build bài/APKG mọi chuyên khoa: `RULES_LESSON_APKG.md`.
 
 **Ngày tạo:** 2026-07-26 | **Cập nhật:** sau vụ audit Gemini (IBS 6 Part)
 **Mục đích:** Mô tả toàn bộ quy trình từ A-Z: ai chạy cái gì, lệnh gì, file nào, ở đâu.

@@ -552,6 +552,10 @@ Không được gắn `[THAM KHẢO]` cho nội dung an toàn, chống chỉ đ�
 8. ✅ Mọi số liệu cụ thể (RR, CI, %, n=), ngưỡng xét nghiệm, protocol detail, liều thuốc và khuyến cáo guideline phải có Claim ID + PMID/guideline evidence + exact quote nguyên văn từ local file/abstract. Kiến thức consensus sinh lý/giải phẫu cơ bản trình bày tự do, không gán nhãn LLM hay tự chế PMID.
 9. ✅ Sau khi viết xong, chạy pipeline hiện hành: `verify_all_pmids.py`, `verify_claims.py`, `citation_audit.py`, `verify_diacritics.py`, build/verify APKG; chỉ công bố khi các gate bắt buộc không BLOCK.
 10. ✅ Cập nhật `_README.md` và `_CATALOG.md` sau khi package đạt gate.
+11. ✅ Tạo `lesson.json` cạnh file bài (schema theo `RULES_LESSON_APKG.md` §3).
+12. ✅ Chuỗi cơ chế viết dạng blockquote `> 🔄 **Chuỗi cơ chế:** … → …` (mũi tên Unicode `→`, không LaTeX, không thụt tab).
+13. ✅ Ảnh đặt tên `<MÃ>_figN_<ten>.jpg`, nén ≤150 KB, lưu trong `outputs/figures/`.
+14. ✅ Lệnh cuối cùng: `python "10_Script Python/release_lesson.py" <lesson_dir> --mode release` (thêm `--evidence-bundle`/`--guidelines` với chuyên khoa dùng evidence bundle).
 
 ### Quy tắc cứng
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Nguồn thẻ duy nhất của PED-01 (build: 10_Script Python/ped_deck_builder.py)
+# Nguồn thẻ duy nhất của PED-01 (build: 10_Script Python/release_lesson.py)
 cards_data = [
   {
     "id": "PED01-V2-001",

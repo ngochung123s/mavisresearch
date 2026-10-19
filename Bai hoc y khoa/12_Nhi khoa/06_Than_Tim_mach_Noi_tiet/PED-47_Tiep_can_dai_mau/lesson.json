@@ -1,0 +1,30 @@
+{
+  "id": "PED-47",
+  "specialty": "nhi",
+  "profile": "disease",
+  "lesson": "PED-47_Tiep_can_dai_mau_2026-09-13_RELEASE_v1.md",
+  "barem": "PED-47_Tiep_can_dai_mau_PEDYTB.md",
+  "deck": {
+    "deck_id": 2139366082017,
+    "deck_name": "Nhi khoa Y6::PED-47: Tiếp cận đái máu ở trẻ em",
+    "basename": "PED-47_Tiep_can_dai_mau_MASTER_v1",
+    "required_sections": [
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "E0",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7"
+    ],
+    "cards_source": "ped47_cards_data.py"
+  }
+}

@@ -3,7 +3,7 @@
 > **Quy trình chuẩn cho mỗi bài học y khoa mới**
 > Cập nhật: 2026-07-29 — provider-neutral NCBI-free evidence sync, offline build bắt buộc bundle và chặn egress.
 
-> **Phạm vi:** file này áp dụng cho Sản phụ khoa / ART / Siêu âm / Nội khoa. Track **Nhi khoa (PED)** theo `12_Nhi khoa/PED_RULES.md` (+ 4 managed skill nó nêu); khi mâu thuẫn trên phạm vi PED thì PED_RULES.md thắng.
+> **Phạm vi:** build bài / thẻ / APKG / Anki cho **mọi chuyên khoa** theo `RULES_LESSON_APKG.md` (nguồn chân lý). File này giữ **phase evidence** (brief, evidence_sync, bundle, claim gates) cho các chuyên khoa có `evidence_bundle` (Sản phụ khoa / ART / Siêu âm / Nội khoa). PED dùng `evidence_mode ncbi_artifacts`.
 
 ## 📋 CHECKLIST TRƯỚC MỖI BÀI MỚI
 
@@ -64,8 +64,9 @@ In checklist này ra hoặc copy vào session, check từng mục:
   - **BẢNG GỌN GÀNG:** Tránh bảng quá rộng (≥4 cột có chữ dài); ưu tiên danh sách có tiêu đề khi thông tin phức tạp.
   - **QUẢN LÝ OUTPUTS:** Tất cả sản phẩm xuất bản (`.docx`, `.apkg`, `.cards.v2.json`, `brief.md`) PHẢI nằm gọn trong subfolder `outputs/` của từng bài học.
 - Mọi protocol detail, liều, timing, ngưỡng, RR/CI/%/n= phải có Claim ID và nguồn đã verify tương ứng.
-[ ] **5. CHẠY RELEASE RUNNER CANONICAL** — một lệnh duy nhất:
-       - `python "10_Script Python/build_pipeline.py" --brief <brief.md> --lesson <release.md> --cards <release.cards.v2.json> --guidelines <guideline_evidence.json> --evidence-bundle <bundle.json>`
+[ ] **4b. TẠO `lesson.json`** cạnh file bài (schema + deck root theo `RULES_LESSON_APKG.md` §3; tạo bằng `lesson_manifest.py`).
+[ ] **5. CHẠY RELEASE RUNNER CANONICAL** — một lệnh duy nhất (`release_lesson.py` gọi `build_pipeline.py` bên trong):
+       - `python "10_Script Python/release_lesson.py" <lesson_dir> --mode release --evidence-bundle <bundle.json> --guidelines <guideline_evidence.json>`
        - Runner và mọi Python subprocess bị chặn network egress; verifier chỉ đọc bundle đã kiểm schema/hash/freshness.
        - Citation gate giữ mọi occurrence (không deduplicate) và yêu cầu **0 BLOCK, 0 WARN**. Required gate WARN/SKIP/thiếu artifact/exit khác 0 đều FAIL.
 [ ] **6. EVIDENCE MANIFEST** — runner tự sinh `outputs/verification/<release-id>/gate-results.json`.
@@ -97,7 +98,7 @@ Online evidence sync
     └─ Official sources (authority/type/translation/version)
     ↓ immutable raw + normalized cache + hashed bundle
 Research Brief → offline 7 gates → viết MD/cards
-    ↓ build_pipeline.py --evidence-bundle (egress blocked)
+    ↓ release_lesson.py --evidence-bundle (→ build_pipeline.py, egress blocked)
 APKG + DOCX + learner artifacts + hashed gate manifest
 publish_gate.py (mọi required gate = PASS)
     ├─ PASS → update README + CATALOG / promote
@@ -113,9 +114,9 @@ publish_gate.py (mọi required gate = PASS)
 | **Research Brief + contract** | **`RESEARCH_BRIEF_TEMPLATE.md`** | Khóa profile, Claim ID, PICO/outcome/timepoint và nguồn trước research. |
 | Brief source gates | `preflight_claim_check.py --evidence-bundle` | Strict 7 gates từng occurrence; topic advisory cũng offline. |
 | Guideline evidence | `verify_guidelines.py` + official bundle record | URL/version/access/local hash/supersession/authority/document type/translation endorsement. |
-| Release runner | `build_pipeline.py --evidence-bundle` | Offline canonical path; chặn egress, sinh hashed evidence manifest. |
+| Release runner | `release_lesson.py --evidence-bundle` (→ `build_pipeline.py`) | Một lệnh canonical; offline, chặn egress, sinh hashed evidence manifest. |
 | Promotion decision | `publish_gate.py` | Chỉ tin manifest đủ command/exit/artifact/hash; fail-closed. |
-| Build APKG/DOCX | `build_apkg.py`, `md_to_docx.py` | Chỉ được gọi qua release runner cho release mới. |
+| Build APKG/DOCX | `deck_builder.py`, `md_to_docx.py` | Chỉ được gọi qua `release_lesson.py` cho release mới. |
 
 
 ## 🖥️ PPTX WORKFLOW (CẬP NHẬT 2026-07-13)
@@ -143,25 +144,16 @@ Quy tắc:
 - Chạy `C:\Users\THANHANH\.claude\skills\pptx\scripts\qa_pptx.py` trước khi bàn giao.
 - `F:\DL\mavisresearch\Bai hoc y khoa\10_Script Python\slider3636.py` là workflow legacy 13.33 × 7.5; chỉ dùng khi cần rebuild deck cũ hoặc user yêu cầu giữ format cũ.
 
-## 🏷️ ANKI DECK NAMING (CẬP NHẬT 2026-06-29)
+## 🏷️ ANKI DECK NAMING (CẬP NHẬT 2026-10-19)
 
-**4 main deck cha, dùng `::` làm separator:**
-
-| Main deck | Chuyên khoa | Ví dụ deck con |
-|---|---|---|
-| **ART** | Hỗ trợ sinh sản | `ART::LPS::2026-06-29`, `ART::Trigger::EFS::2026-06-29` |
-| **Fetal ultrasound** | Siêu âm thai | `Fetal ultrasound::Doppler::2026-06-24` |
-| **OB/GYN** | Sản phụ khoa tổng quát | `OB/GYN::GDM::2026-06-28` |
-| **Internal medicine** | Nội khoa người lớn | `Internal medicine::Topic_Short::YYYY-MM-DD` |
-| **Nhi khoa Y6** | Nhi khoa | `Nhi khoa Y6::PED-63: Biến thiên công thức bạch cầu…` (không hậu tố ngày; bản EBM: ` (EBM Update)`) |
-
-- `build_apkg.py` tự động detect main deck từ path folder (Sản/ART/Siêu âm/Nội; track Nhi khoa build bằng `ped_deck_builder.py`, tên deck theo `12_Nhi khoa/PED_RULES.md`)
+Tên deck và 4 root (`Nhi khoa Y6`, `1. Y Khoa - Nội Khoa & Cấp Cứu`, `2. Y Khoa - Sản Phụ Khoa & ART`, `Imaging`) theo **`RULES_LESSON_APKG.md` §1**; `deck_builder.py` lấy từ `lesson.json` + `specialties.json`.
 - Khi import vào Anki, deck cha cùng tên sẽ tự gộp → đồng bộ
 
 ## 🛠️ TOOLCHAIN PHÁT HÀNH
 
 - `evidence_sync.py`: pha online duy nhất; Europe PMC metadata không ép OA + OA full text/license + Crossref/Retraction Watch + OpenAlex + official sources.
-- `build_pipeline.py --evidence-bundle`: release runner offline canonical, chặn network subprocess.
+- `release_lesson.py --evidence-bundle`: lệnh release canonical; gọi `build_pipeline.py` (offline, chặn network subprocess) + `deck_builder.py`.
+- `lesson_lint.py` / `debt_ledger.py` / `specialties.json`: lint bài, sổ nợ `_DEBT_LEDGER.md`, registry chuyên khoa.
 - `publish_gate.py`: xác thực contract và hashed evidence manifest.
 - `preflight_check_pmids.py` / `verify_all_pmids.py`: existence + exact identity + relevance từ bundle.
 - `verify_claim_vs_abstract.py` / `verify_claims.py`: mọi occurrence, không deduplicate.
@@ -170,7 +162,7 @@ Quy tắc:
 - `retraction_check.py`: fresh integrity data từ Crossref/Retraction Watch bundle.
 - `citation_audit.py --evidence-bundle`: occurrence-based; release yêu cầu 0 BLOCK/0 WARN.
 - `profile_check.py` / `depth_check.py`: cấu trúc và chiều sâu theo profile.
-- `build_apkg.py --verify` + `verify_apkg_diacritics.py`: build và kiểm package.
+- `deck_builder.py --verify` + `verify_apkg_diacritics.py`: build và kiểm package.
 - `md_to_docx.py`: tạo DOCX release trong `outputs/`.
 - `make_knowledge_check.py --output-dir outputs`: learner smoke trước publish.
 
@@ -249,12 +241,16 @@ F:\DL\mavisresearch\Bai hoc y khoa\
 ├── 03_Sieu am thai/                    ← Bài siêu âm THAI (chỉ fetal)
 ├── 11_Noi khoa/                           ← Nội khoa người lớn
 ├── 10_Script Python/
-│   ├── build_pipeline.py                ← Release runner canonical
+│   ├── release_lesson.py                ← Lệnh release duy nhất
+│   ├── build_pipeline.py                ← Release runner (được release_lesson gọi)
+│   ├── lesson_lint.py                   ← Lint bài
+│   ├── debt_ledger.py                   ← Sổ nợ _DEBT_LEDGER.md
+│   ├── specialties.json                 ← Registry chuyên khoa
 │   ├── publish_gate.py                  ← Kiểm manifest có hash
 │   ├── verify_claims.py                 ← Kiểm từng claim occurrence
 │   ├── verify_guidelines.py             ← Guideline evidence riêng
 │   ├── md_to_docx.py                    ← DOCX release bắt buộc
-│   ├── build_apkg.py                    ← APKG candidate/release
+│   ├── deck_builder.py                  ← APKG candidate/release
 │   ├── verify_diacritics.py             ← Verify dấu
 │   └── make_*_lesson.py                 ← DEPRECATED
 ├── 80_Legacy_by_format/                ← HTML/APKG/Markdown bài cũ theo format
@@ -289,7 +285,7 @@ F:\DL\mavisresearch\Bai hoc y khoa\
 | PowerShell hiển thị `?` | Verify content bằng `python -c` |
 | Evidence sync 429/5xx/malformed/outage | Fail-closed; không retry/proxy/NCBI fallback; sync lại sau khi provider phục hồi |
 | Citation audit > 0 BLOCK/WARN | Sửa occurrence/source/claim/authority rồi tạo bundle mới; không hạ gate |
-| Muốn đổi workflow mới | Non-PED: update `WORKFLOW.md` + `AGENTS.md` + `MEMORY.md` (3 chỗ). PED (Nhi khoa): update managed skill + `12_Nhi khoa/PED_RULES.md` (+ commit linter `ped_card_lint.py` + test riêng nếu rule kiểm được tự động) |
+| Muốn đổi workflow mới | Build/thẻ/APKG: update managed skill + `RULES_LESSON_APKG.md` (+ commit linter riêng). Phase evidence: update `WORKFLOW.md` + `AGENTS.md` + `MEMORY.md` (3 chỗ) |
 
 ## 🔗 RELATED FILES
 

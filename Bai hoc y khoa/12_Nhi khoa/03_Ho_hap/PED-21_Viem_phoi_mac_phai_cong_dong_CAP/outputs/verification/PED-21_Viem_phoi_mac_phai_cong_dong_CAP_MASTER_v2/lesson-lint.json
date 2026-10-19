@@ -1,0 +1,244 @@
+{
+  "id": "PED-21",
+  "specialty": "nhi",
+  "profile": "disease",
+  "lesson": "PED-21_Viem_phoi_mac_phai_cong_dong_CAP_2026-09-15_RELEASE_v1.md",
+  "mode": "release",
+  "summary": {
+    "block": 37,
+    "debt": 0,
+    "warn": 0,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 22,
+      "M_PROFILE": 1,
+      "S_DEPTH": 3,
+      "V_NOT_FETCHED": 6,
+      "V_NO_PMID": 4
+    }
+  },
+  "issues": [
+    {
+      "code": "M_PROFILE",
+      "card_id": "lesson.json",
+      "message": "profile 'disease' khác contract trong brief ('clinical_topic') — brief dùng profile ngoài danh sách ('disease', 'foundation', 'pharmacology')",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Examples (ví dụ / VD)",
+      "message": "2 (cần 8)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Clinical cases with solutions",
+      "message": "2 (cần 3)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Tips bullets (Section 7)",
+      "message": "10 (cần 12)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 30",
+      "message": "LaTeX/escape thừa `$V_A/Q \\to 0$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 31",
+      "message": "LaTeX/escape thừa `$T > \\text{MIC}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 128",
+      "message": "LaTeX/escape thừa `$C_L = \\Delta V / \\Delta P$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 129",
+      "message": "LaTeX/escape thừa `$V_E = RR \\times V_T$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 131",
+      "message": "LaTeX/escape thừa `$CO_2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 149",
+      "message": "LaTeX/escape thừa `$V_A/Q \\to 0$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 151",
+      "message": "LaTeX/escape thừa `$V_A/Q = 0$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 153",
+      "message": "LaTeX/escape thừa `$FiO_2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 197",
+      "message": "LaTeX/escape thừa `$\\le 0.06\\ \\mu\\text{g/mL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 198",
+      "message": "LaTeX/escape thừa `$T > \\text{MIC} \\ge 40 - 50\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 199",
+      "message": "LaTeX/escape thừa `$8 - 10\\ \\mu\\text{g/mL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 288",
+      "message": "LaTeX/escape thừa `$CO_2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 303",
+      "message": "LaTeX/escape thừa `$PaO_2/FiO_2 \\le 300$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 470",
+      "message": "LaTeX/escape thừa `$T > \\text{MIC} < 40\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 484",
+      "message": "LaTeX/escape thừa `$10 - 15\\text{ mg/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 490",
+      "message": "LaTeX/escape thừa `$14\\text{ kg} \\times 90\\text{ ` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 539",
+      "message": "LaTeX/escape thừa `$10\\text{ kg} \\times 90\\text{ ` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 573",
+      "message": "LaTeX/escape thừa `$FiO_2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 582",
+      "message": "LaTeX/escape thừa `$14\\text{ kg} \\times 80\\text{ ` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 583",
+      "message": "LaTeX/escape thừa `$14\\text{ kg} \\times 60\\text{ ` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 587",
+      "message": "LaTeX/escape thừa `$PaCO_2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 614",
+      "message": "LaTeX/escape thừa `$CO_2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "C_CHAIN_FORMAT",
+      "card_id": "*",
+      "message": "chỉ 0 chuỗi cơ chế dạng `> 🔄 **Chuỗi cơ chế:** … → …` (profile disease cần ≥ 4)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NO_PMID",
+      "card_id": "dòng 632",
+      "message": "[GUIDELINE VERIFIED] không kèm PMID trên cùng dòng",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NO_PMID",
+      "card_id": "dòng 633",
+      "message": "[GUIDELINE VERIFIED] không kèm PMID trên cùng dòng",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 634",
+      "message": "PMID 21880587 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 635",
+      "message": "PMID 21948916 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 636",
+      "message": "PMID 34726706 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 637",
+      "message": "PMID 33683325 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 638",
+      "message": "PMID 26407446 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 639",
+      "message": "PMID 21041595 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NO_PMID",
+      "card_id": "dòng 640",
+      "message": "[GUIDELINE VERIFIED] không kèm PMID trên cùng dòng",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NO_PMID",
+      "card_id": "dòng 641",
+      "message": "[GUIDELINE VERIFIED] không kèm PMID trên cùng dòng",
+      "severity": "BLOCK"
+    }
+  ]
+}

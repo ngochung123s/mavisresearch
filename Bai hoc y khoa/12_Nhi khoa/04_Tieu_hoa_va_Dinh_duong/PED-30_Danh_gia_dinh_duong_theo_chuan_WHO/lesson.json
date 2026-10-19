@@ -1,0 +1,26 @@
+{
+  "id": "PED-30",
+  "specialty": "nhi",
+  "profile": "foundation",
+  "lesson": "PED-30_Danh_gia_dinh_duong_2026-10-11_RELEASE_v1.md",
+  "brief": "PED-30_RESEARCH_BRIEF.md",
+  "barem": "PED-30_Danh_gia_dinh_duong_PEDYTB.md",
+  "deck": {
+    "deck_id": 170930001,
+    "deck_name": "Nhi khoa Y6::PED-30: Đánh giá dinh dưỡng trẻ em theo chuẩn WHO",
+    "basename": "PED-30_Danh_gia_dinh_duong_MASTER_v1",
+    "required_sections": [
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "cards_source": "ped30_cards_data.py",
+    "legacy_anki_decks": [
+      "Nhi khoa Y6::PED-30: Danh gia dinh duong tre em theo chuan WHO"
+    ]
+  }
+}

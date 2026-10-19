@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 > Mirror của `AGENTS.md` nhưng focus vào commands + architecture + Claude Code-specific tips.
 > **Owner**: Bác sĩ Ngọc Hưng 🍅 🐈‍⬛ | **AI assistant**: tên model đang dùng (trước đây MiniMax Mavis)
-> **PED:** track Nhi khoa (`Bai hoc y khoa/12_Nhi khoa/`) theo `Bai hoc y khoa/12_Nhi khoa/PED_RULES.md`; phần còn lại của file này canonical cho Sản/ART/Siêu âm/Nội (xem `Bai hoc y khoa/WORKFLOW.md` + `Bai hoc y khoa/AGENTS.md`).
+> **Build bài + APKG (mọi chuyên khoa):** theo `Bai hoc y khoa/RULES_LESSON_APKG.md`; phase evidence xem `Bai hoc y khoa/WORKFLOW.md` + `Bai hoc y khoa/AGENTS.md`.
 > **Cập nhật**: 2026-06-27
 
 ---
@@ -76,7 +76,7 @@ python "Bai hoc y khoa/10_Script Python/rebuild_all_docx_v2.py"
 Europe PMC / Crossref / OpenAlex (evidence_sync.py) → offline evidence bundle → lesson MD + cards V2 → build_pipeline.py (gates + APKG + DOCX) → publish_gate.py
 ```
 
-The canonical source of truth is the **UTF-8 markdown release file inside each lesson folder** (`Bai hoc y khoa/XX_Chuyen_khoa/XX_Ten_bai/`, outputs in its `outputs/`). Cards V2 JSON → APKG via `build_apkg.py`, invoked by the release runner `build_pipeline.py`. `lesson_builder.py` is only a shared Anki model/deck library. `md_to_docx.py` is legacy support for rebuilding or exporting old lessons only. Never hardcode lesson content in build scripts — that was the root cause of the 2026-06-22 diacritics bug.
+The canonical source of truth is the **UTF-8 markdown release file inside each lesson folder** (`Bai hoc y khoa/XX_Chuyen_khoa/XX_Ten_bai/`, outputs in its `outputs/`). Cards V2 JSON → APKG via `deck_builder.py`, invoked by the release runner `release_lesson.py` (→ `build_pipeline.py`); each lesson needs `lesson.json`. `lesson_builder.py` is only a shared Anki model/deck library. `md_to_docx.py` is legacy support for rebuilding or exporting old lessons only. Never hardcode lesson content in build scripts — that was the root cause of the 2026-06-22 diacritics bug.
 
 ### Key scripts and their roles
 
@@ -116,7 +116,7 @@ Specific claims (RR, CI, %, n=) require `[DATA VERIFIED]` (exact quote vs abstra
 
 Non-PED release workflow: do NOT call NCBI E-utilities and do not use the buggy MCP `pubmed_fetch`. The only online evidence phase is `Bai hoc y khoa/10_Script Python/evidence_sync.py` (Europe PMC metadata/abstract, Crossref/Retraction Watch, OpenAlex, official manifests); build then runs offline from the bundle via `build_pipeline.py --evidence-bundle`. See `Bai hoc y khoa/AGENTS.md`.
 
-**PED track** follows `Bai hoc y khoa/12_Nhi khoa/PED_RULES.md` (evidence per `medical-verification-governance`, NCBI artifacts allowed there).
+**PED track**: evidence_mode `ncbi_artifacts` (NCBI artifacts allowed), APKG at lesson root; build rules in `Bai hoc y khoa/RULES_LESSON_APKG.md`.
 
 For guideline searches, always sort by date, never by relevance.
 
@@ -151,7 +151,7 @@ For guideline searches, always sort by date, never by relevance.
 4. Read `Bai hoc y khoa/WORKFLOW.md` before writing a new daily lesson.
 5. Automatically build styled `.docx` for all markdown lessons/parts and save them into the `outputs/` subfolder.
 6. Do not cite specific numbers without a verified label (`[DATA VERIFIED]` / `[FULL TEXT VERIFIED]` / `[GUIDELINE VERIFIED]`) backed by `evidence_sync.py` bundle + quote artifact.
-6.1. NEVER self-assign verification tags (5 canonical labels: `[FETCHED]`, `[ABSTRACT VERIFIED]`, `[DATA VERIFIED]`, `[FULL TEXT VERIFIED]`, `[GUIDELINE VERIFIED]`). Tags are ONLY permitted after running verification scripts / evidence bundle (`evidence_sync.py` → `build_pipeline.py`). Legacy labels `[FULL VERIFIED]`, `[ABSTRACT MATCH]`, `[DIRECTION ONLY]`, `[TEXTBOOK]` are banned. (PED: labels per `PED_RULES.md` §7.)
+6.1. NEVER self-assign verification tags (5 canonical labels: `[FETCHED]`, `[ABSTRACT VERIFIED]`, `[DATA VERIFIED]`, `[FULL TEXT VERIFIED]`, `[GUIDELINE VERIFIED]`). Tags are ONLY permitted after running verification scripts / evidence bundle (`evidence_sync.py` → `release_lesson.py`). Legacy labels `[FULL VERIFIED]`, `[ABSTRACT MATCH]`, `[DIRECTION ONLY]`, `[TEXTBOOK]` are banned. (PED: labels per `RULES_LESSON_APKG.md`.)
 - **Markdown Live Preview Rules (MarkdownLivePreview.dev)**:
   - Flowchart: Không dùng Mermaid block. Dùng ` ```text ` hoặc danh sách thụt lề.
    - LaTeX Math: Dùng `$ inline $` và `$$ block $$`. **CẤM gõ ký hiệu `%` hoặc các biểu thức chỉ số phần trăm/bất đẳng thức phần trăm (như `$50% \le \text{FEV1} < 80\%$`) inside inline LaTeX `$ ... $`** vì parser KaTeX/MathJax coi `%` là dấu comment làm ẩn/lỗi mất toàn bộ chữ phía sau. Mọi con số %, khoảng %, bất đẳng thức % (SpO2, FEV1, PaO2) PHẢI viết bằng plain text (vd: `50% ≤ FEV1 < 80%`, `SpO2 < 88%`).
@@ -159,5 +159,5 @@ For guideline searches, always sort by date, never by relevance.
   - Mandatory Verification Report: Mọi output xuất bản phải công bố kết quả kiểm tra qua các script verify trong chat (`md_to_docx.py`, `citation_audit.py`, `verify_diacritics.py`).
   - Clinical Case Answers: Always write detailed clinical case solutions directly at the end of the corresponding `.md` Part file and update the `.docx` in `outputs/`.
 7. **Medical Flashcard Governance**: Khi thiết kế thẻ Anki, bắt buộc tuân thủ bộ quy tắc trong skill `medical-flashcard-governance`: Kiến trúc thẻ phân tầng từ Tổng quan đến Chi tiết (Thẻ Tầng 1 hỏi khung tổng thể "A gồm những gì/mấy nhóm/các tiêu chuẩn nào", liệt kê đầy đủ danh mục $\rightarrow$ Thẻ Tầng 2 đào sâu chi tiết từng nhánh con, không cắt xén thông tin vì sợ thẻ dài), không lộ tên thuốc/liều đầu tay ở câu dẫn, tất cả cloze dùng `{{c1::...}}`, trường extra không làm lộ đáp án của bậc tiếp theo, phần nguồn/vị trí thông tin tuyệt đối không để ở mặt `Back` (chuyển sang trường `Extra`/`Source`), mặt `Back` giữ nguyên vẹn cấu trúc: `🎯 Trả lời cốt lõi` + `💡 Giải thích của AI` (cơ chế/logic/mẹo nhớ), và 100% dùng ký tự Unicode chuẩn (`→`, `≥`, `≤`, `×`, `µg`, `β`), tuyệt đối không viết mã LaTeX trong thẻ.
-7.1. **Nhi khoa (PED)**: rule 7 trên chỉ canonical cho Sản/ART/Nội. Track `Bai hoc y khoa/12_Nhi khoa/PED-xx` theo `Bai hoc y khoa/12_Nhi khoa/PED_RULES.md` (+ 4 managed skill `medical-lesson-release-gates`, `medical-flashcard-governance`, `medical-verification-governance`, `medical-visual-evidence-extraction`): Basic-first, back `🎯`/`💡`, build bằng `ped_deck_builder.py`, APKG/cards ở root folder bài, deck `Nhi khoa Y6::PED-xx: <Tên có dấu>`.
+7.1. **Build bài + APKG (mọi chuyên khoa)**: theo `Bai hoc y khoa/RULES_LESSON_APKG.md` (+ managed skill `medical-lesson-release-gates`, `medical-flashcard-governance`, `medical-verification-governance`, `medical-visual-evidence-extraction`); lệnh duy nhất `release_lesson.py --mode release`. PED: `evidence_mode ncbi_artifacts`, APKG ở root folder bài.
 8. **Visual Chat Box Layout**: Định dạng câu trả lời bằng khung viền mở đầu `╭─ 🤖 CLAUDE ──────────────────────────────────────────────` và kết thúc `╰──────────────────────────────────────────────────────────` để phân cách rõ ràng với dòng prompt của người dùng.

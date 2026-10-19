@@ -2,7 +2,7 @@
 
 Thư mục chứa các bài học Nhi khoa thực chiến, bám sát khung **Core 45** tại `_CURRICULUM_NHI_KHOA.md`.
 
-> **Quy tắc canonical của track này: [`PED_RULES.md`](PED_RULES.md)** (dual-track Barem/EBM, chu trình phát hành 5 bước, schema thẻ, gate linter, đồng bộ Anki). Rule gốc nằm ở 4 managed skill mà file đó nêu; khi `WORKFLOW.md`/`AGENTS.md` mâu thuẫn trên phạm vi PED thì `PED_RULES.md` thắng.
+> **Quy tắc canonical build bài/thẻ/APKG (mọi chuyên khoa, gồm Nhi khoa): [`../RULES_LESSON_APKG.md`](../RULES_LESSON_APKG.md)**. Mỗi bài có `lesson.json`; lock Anki là `anki_lock.json`. Phát hành bằng `release_lesson.py`.
 
 ## Các folder block hiện có
 
@@ -21,15 +21,15 @@ Thư mục chứa các bài học Nhi khoa thực chiến, bám sát khung **Cor
 
 Ngoài các block còn có bộ PedViewer ở root (`index.html`, `app.html`, `mobile.html`, `checklist.html`, `data.js`, `CATALOG_PED_VIEWER.json`, `build_ped_library.py`, `build_unified_med_library.py`, `build_master_ped_decks.py`, cấu hình Netlify). PedViewer chỉ đọc file ở **root folder bài** và bỏ qua `outputs/`.
 
-## Cấu trúc lưu trữ mỗi bài (theo `PED_RULES.md` §3)
+## Cấu trúc lưu trữ mỗi bài (theo `RULES_LESSON_APKG.md` §3)
 
 ```text
 12_Nhi khoa/<Block>/PED-XX_<Ten_khong_dau>/
 ├── PED-XX_<Ten>_<YYYY-MM-DD>_RELEASE_vN.md   # bài Track 2 / master (nội dung có dấu)
 ├── PED-XX_<Ten>_PEDYTB.md                    # barem Track 1 (nếu có)
 ├── pedXX_cards_data.py                       # NGUỒN DUY NHẤT của thẻ (list cards_data)
-├── ped_deck.json                             # spec deck
-├── pedXX_anki_lock.json                      # sinh tự động: GUID + Anki note id cố định
+├── lesson.json                               # spec bài/deck
+├── anki_lock.json                            # sinh tự động: GUID + Anki note id cố định
 ├── <basename>.cards.v2.json                  # sinh tự động (PedViewer đọc)
 ├── <basename>.apkg                           # sinh tự động — đúng 1 APKG/bài
 └── outputs/
@@ -39,6 +39,6 @@ Ngoài các block còn có bộ PedViewer ở root (`index.html`, `app.html`, `m
 ```
 
 - Đúng 1 APKG + 1 `cards.v2.json` ở root folder bài; bản cũ/trùng chuyển vào `Bai hoc y khoa/_duplicates_review/`.
-- Build bằng `10_Script Python/ped_deck_builder.py <lesson_dir> --mode release [--sync-anki]`; deck `Nhi khoa Y6::PED-xx: <Tên có dấu>` (bản EBM: ` (EBM Update)`).
+- Build bằng `python "10_Script Python/release_lesson.py" <lesson_dir> --mode release [--sync-anki]` (→ `deck_builder.py`); deck theo `RULES_LESSON_APKG.md` §1 (`Nhi khoa Y6::PED-xx: <Tên có dấu>`, bản EBM: ` (EBM Update)`).
 - Filename/folder không dấu; nội dung và tên deck có dấu.
 - Một số bài cũ chưa chuyển sang cấu trúc này (ví dụ `.md` rời trong block) — theo dõi trạng thái trong `_CURRICULUM_NHI_KHOA.md`.

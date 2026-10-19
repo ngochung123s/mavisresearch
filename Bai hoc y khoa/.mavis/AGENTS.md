@@ -5,7 +5,7 @@
 > AI: tên model đang dùng (trước đây: MiniMax Mavis; hiện tại: opencode deepseek-v4-pro)
 > Updated: 2026-06-29
 
-> **Nhi khoa (PED):** file này áp dụng cho Sản/ART/Siêu âm/Nội khoa. Track Nhi khoa theo `12_Nhi khoa/PED_RULES.md` (ngoại lệ: evidence theo `medical-verification-governance`, build bằng `ped_deck_builder.py`, APKG/cards ở root folder bài, deck `Nhi khoa Y6::PED-xx: <Tên có dấu>`).
+> **Build bài + APKG (mọi chuyên khoa):** theo `RULES_LESSON_APKG.md` (lệnh `release_lesson.py --mode release`). File này giữ phase evidence cho Sản/ART/Siêu âm/Nội. PED: `evidence_mode ncbi_artifacts`, APKG ở root folder bài.
 
 ## Quy ước ngôn ngữ (CẬP NHẬT 2026-06-22)
 
@@ -43,7 +43,7 @@
 **Format:** `MAIN_DECK::Topic_Short::YYYY-MM-DD`
 
 - Ví dụ: `ART::LPS::2026-06-29`, `ART::Trigger::Dual_Double::2026-06-29`, `OB/GYN::GDM::2026-06-28`, `Fetal ultrasound::Amniotic_Fluid::2026-06-27`
-- `build_apkg.py` tự động detect main deck từ folder path của cards JSON
+- `deck_builder.py` tự động detect main deck theo `RULES_LESSON_APKG.md` §1 / `lesson.json`
 - Khi import vào Anki, deck cha sẽ tự động gộp các deck con cùng tên
 
 ## Cấu trúc folder release
@@ -97,7 +97,7 @@ Bai hoc y khoa/
 | `publish_gate.py` | Xác thực contract, command, exit code, inputs/artifacts và SHA-256 |
 | `verify_claims.py` | Kiểm từng claim occurrence; zero claim là BLOCK |
 | `verify_guidelines.py` | Kiểm guideline web/PDF, freshness và supersession |
-| `build_apkg.py` | Build APKG candidate/release từ cards JSON |
+| `deck_builder.py` | Build APKG candidate/release từ cards JSON (gọi qua `release_lesson.py`) |
 | `verify_apkg_diacritics.py` | Kiểm dấu và số note/card thực trong APKG |
 | `md_to_docx.py` | Tạo DOCX release bắt buộc trong `outputs/` |
 | `citation_audit.py` | Citation lint; release yêu cầu 0 BLOCK và 0 WARN |

@@ -1,0 +1,28 @@
+{
+  "id": "PED-21",
+  "specialty": "nhi",
+  "profile": "disease",
+  "lesson": "PED-21_Viem_phoi_mac_phai_cong_dong_CAP_2026-09-15_RELEASE_v1.md",
+  "brief": "PED-21_RESEARCH_BRIEF.md",
+  "deck": {
+    "deck_id": 8228538576102,
+    "deck_name": "Nhi khoa Y6::PED-21: Viêm phổi mắc phải cộng đồng (CAP)",
+    "basename": "PED-21_Viem_phoi_mac_phai_cong_dong_CAP_MASTER_v2",
+    "required_sections": [
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12"
+    ],
+    "cards_source": "ped21_cards_data.py"
+  }
+}

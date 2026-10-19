@@ -1,0 +1,518 @@
+{
+  "id": "PED-63",
+  "specialty": "nhi",
+  "profile": "foundation",
+  "lesson": "PED-63_Bien_thien_cong_thuc_bach_cau_theo_tuoi_va_Nhan_dinh_Nhiem_trung_vs_Virus_2026-10-16_RELEASE_v1.md",
+  "mode": "hotfix",
+  "summary": {
+    "block": 0,
+    "debt": 83,
+    "warn": 0,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_CONTROL_CHAR": 26,
+      "F_LATEX": 48,
+      "S_DEPTH": 8
+    }
+  },
+  "issues": [
+    {
+      "code": "S_DEPTH",
+      "card_id": "Profile structural markers (foundation)",
+      "message": "7 issues (cần 0 issues) missing heading: định nghĩa; missing heading: cơ chế; missing heading: theo dõi; missing heading: tóm tắt; missing heading: tips; missing prerequisite: nền tảng tối thiểu cần dùng ngay; missing safety: box đỏ",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Main sections count (##) & keywords",
+      "message": "12 sections (4/8 keywords) (cần ≥10 sections (8 keywords)) Missing keywords: ['ĐỊNH NGHĨA', 'CƠ CHẾ', 'THEO DÕI', 'TÓM TẮT']",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Total size (words / nonblank lines)",
+      "message": "3924 words / 211 lines (cần ≥5000 words (lines informational, ref 500))",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Mechanism chains (→ / Tầng 1..5)",
+      "message": "1 (cần 3)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Examples (ví dụ / VD)",
+      "message": "0 (cần 6)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Self-check checkpoints",
+      "message": "0 (cần 4)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Tips bullets (Section 7)",
+      "message": "0 (cần 10)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Section 0.1 depth (foundation primer ≥15 lines)",
+      "message": "7 (cần 15) ### 0.1 Nền tảng tối thiểu — quá ngắn hoặc không tồn tại",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 100",
+      "message": "LaTeX/escape thừa `$1\\% – 4\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 101",
+      "message": "LaTeX/escape thừa `$0.5\\% – 1\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 102",
+      "message": "LaTeX/escape thừa `$4\\% – 8\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 111",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 111",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 112",
+      "message": "LaTeX/escape thừa `ext{` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 112",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 114",
+      "message": "LaTeX/escape thừa `$\text{ANC}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 114",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 116",
+      "message": "LaTeX/escape thừa `$\text{ANC} > 10.000/mm³$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 116",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 117",
+      "message": "LaTeX/escape thừa `$\text{ANC} < 1.000/mm³$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 117",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 121",
+      "message": "LaTeX/escape thừa `$> 10\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 123",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 123",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 124",
+      "message": "LaTeX/escape thừa `ext{` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 124",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 125",
+      "message": "LaTeX/escape thừa `$\text{I/T Ratio} \\ge 0.2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 125",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 139",
+      "message": "LaTeX/escape thừa `$\text{Lympho không điển hình} ` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 139",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 153",
+      "message": "LaTeX/escape thừa `$< 4.000/mm³$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 157",
+      "message": "LaTeX/escape thừa `$< 2.000/mm³$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 161",
+      "message": "LaTeX/escape thừa `$1\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 161",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 164",
+      "message": "LaTeX/escape thừa `$15.000 – 20.000/mm³$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 173",
+      "message": "LaTeX/escape thừa `$> 15.000/mm³$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 174",
+      "message": "LaTeX/escape thừa `$\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 174",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 175",
+      "message": "LaTeX/escape thừa `$> 10\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 178",
+      "message": "LaTeX/escape thừa `$\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 179",
+      "message": "LaTeX/escape thừa `$> 0.5 – 2.0 \text{ ng/ml}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 179",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 180",
+      "message": "LaTeX/escape thừa `$> 20 – 40 \text{ mg/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 180",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 200",
+      "message": "LaTeX/escape thừa `$\\gamma$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 200",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 203",
+      "message": "LaTeX/escape thừa `$> 40 \text{ mg/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 203",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 211",
+      "message": "LaTeX/escape thừa `$\text{ANC}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 211",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 214",
+      "message": "LaTeX/escape thừa `$\text{I/T Ratio} \\ge 0.2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 214",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 216",
+      "message": "LaTeX/escape thừa `$< 4.000/mm³$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 218",
+      "message": "LaTeX/escape thừa `$> 85\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 229",
+      "message": "LaTeX/escape thừa `$9.8 \text{ G/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 229",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 230",
+      "message": "LaTeX/escape thừa `$28\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 231",
+      "message": "LaTeX/escape thừa `$64\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 232",
+      "message": "LaTeX/escape thừa `$4 \text{ mg/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 232",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 234",
+      "message": "LaTeX/escape thừa `$\text{ANC} = 9.800 \times 28\\% ` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 234",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 235",
+      "message": "LaTeX/escape thừa `$64\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 236",
+      "message": "LaTeX/escape thừa `$< 5 \text{ mg/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 236",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 238",
+      "message": "LaTeX/escape thừa `$\\ge 38.5°C$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 243",
+      "message": "LaTeX/escape thừa `$19.5 \text{ G/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 243",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 244",
+      "message": "LaTeX/escape thừa `$35\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 245",
+      "message": "LaTeX/escape thừa `$15\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 246",
+      "message": "LaTeX/escape thừa `$2\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 247",
+      "message": "LaTeX/escape thừa `$42\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 249",
+      "message": "LaTeX/escape thừa `$15\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 251",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 251",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 252",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 252",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 253",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 253",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 254",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 255",
+      "message": "LaTeX/escape thừa `$\text{I/T Ratio} = 0.33 > 0.2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 255",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "DEBT"
+    },
+    {
+      "code": "C_CHAIN_FORMAT",
+      "card_id": "*",
+      "message": "chỉ 0 chuỗi cơ chế dạng `> 🔄 **Chuỗi cơ chế:** … → …` (profile foundation cần ≥ 3)",
+      "severity": "DEBT"
+    }
+  ]
+}

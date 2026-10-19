@@ -1,0 +1,29 @@
+{
+  "id": "PED-27",
+  "specialty": "nhi",
+  "profile": "foundation",
+  "lesson": "PED-27_Tieu_chay_cap_Phan_loai_mat_nuoc_va_Phac_do_A_B_C_2026-09-16_RELEASE_v1.md",
+  "brief": "PED-27_RESEARCH_BRIEF.md",
+  "deck": {
+    "deck_id": 2264611042805,
+    "deck_name": "Nhi khoa Y6::PED-27: Tiêu chảy cấp: Phân loại mất nước & Phác đồ A - B - C",
+    "basename": "PED-27_Tieu_chay_cap_Phan_loai_mat_nuoc_va_Phac_do_A_B_C_MASTER_v2",
+    "required_sections": [
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13"
+    ],
+    "cards_source": "ped27_cards_data.py"
+  }
+}

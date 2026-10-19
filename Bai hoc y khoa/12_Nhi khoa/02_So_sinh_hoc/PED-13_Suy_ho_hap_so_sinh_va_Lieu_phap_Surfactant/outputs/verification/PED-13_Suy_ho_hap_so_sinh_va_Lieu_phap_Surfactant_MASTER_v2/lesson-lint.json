@@ -1,0 +1,346 @@
+{
+  "id": "PED-13",
+  "specialty": "nhi",
+  "profile": "disease",
+  "lesson": "PED-13_Suy_ho_hap_so_sinh_va_Lieu_phap_Surfactant_2026-09-15_RELEASE_v1.md",
+  "mode": "hotfix",
+  "summary": {
+    "block": 0,
+    "debt": 54,
+    "warn": 0,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 35,
+      "M_PROFILE": 1,
+      "S_DEPTH": 5,
+      "V_NOT_FETCHED": 11,
+      "V_NO_PMID": 1
+    }
+  },
+  "issues": [
+    {
+      "code": "M_PROFILE",
+      "card_id": "lesson.json",
+      "message": "profile 'disease' khác contract trong brief ('foundation')",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Profile structural markers (disease)",
+      "message": "3 issues (cần 0 issues) missing heading: chẩn đoán; missing heading: điều trị; missing heading: theo dõi",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Main sections count (##) & keywords",
+      "message": "14 sections (9/10 keywords) (cần ≥10 sections (10 keywords)) Missing keywords: ['CHẨN ĐOÁN']",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Examples (ví dụ / VD)",
+      "message": "0 (cần 8)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Clinical cases with solutions",
+      "message": "2 (cần 3)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Tips bullets (Section 7)",
+      "message": "10 (cần 12)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 124",
+      "message": "LaTeX/escape thừa `$P = 2T/r$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 127",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 128",
+      "message": "LaTeX/escape thừa `$P$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 129",
+      "message": "LaTeX/escape thừa `$T$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 130",
+      "message": "LaTeX/escape thừa `$C_L$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 152",
+      "message": "LaTeX/escape thừa `$Na^+/K^+$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 154",
+      "message": "LaTeX/escape thừa `$V_E = RR \\times V_T$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 177",
+      "message": "LaTeX/escape thừa `$V_A/Q$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 197",
+      "message": "LaTeX/escape thừa `$pH < 7.20$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 198",
+      "message": "LaTeX/escape thừa `$A_2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 274",
+      "message": "LaTeX/escape thừa `$FiO_2 = 1.0$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 276",
+      "message": "LaTeX/escape thừa `$PaO_2 > 150\\text{ mmHg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 277",
+      "message": "LaTeX/escape thừa `$PaO_2 < 100\\text{ mmHg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 303",
+      "message": "LaTeX/escape thừa `$FiO_2 = 21\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 304",
+      "message": "LaTeX/escape thừa `$FiO_2 = 21\\% - 30\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 311",
+      "message": "LaTeX/escape thừa `$FiO_2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 352",
+      "message": "LaTeX/escape thừa `$FiO_2 \\ge 0.30$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 353",
+      "message": "LaTeX/escape thừa `$FiO_2 \\ge 0.30 - 0.40$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 354",
+      "message": "LaTeX/escape thừa `$FiO_2 \\ge 0.30$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 511",
+      "message": "LaTeX/escape thừa `$FiO_2 \\ge 0.30$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 534",
+      "message": "LaTeX/escape thừa `$FiO_2 = 0.35$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 536",
+      "message": "LaTeX/escape thừa `$FiO_2 = 0.35$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 545",
+      "message": "LaTeX/escape thừa `$FiO_2 = 0.35 \\ge 0.30$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 551",
+      "message": "LaTeX/escape thừa `$1.2\\text{ kg} \\times 200\\text` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 561",
+      "message": "LaTeX/escape thừa `$FiO_2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 574",
+      "message": "LaTeX/escape thừa `$FiO_2 = 0.80$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 588",
+      "message": "LaTeX/escape thừa `$14 - 16\\text{ cmH2O}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 589",
+      "message": "LaTeX/escape thừa `$10\\text{ Hz}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 590",
+      "message": "LaTeX/escape thừa `$\\Delta P$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 594",
+      "message": "LaTeX/escape thừa `$10\\text{ mL/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 597",
+      "message": "LaTeX/escape thừa `$720\\text{ mg} = 9.0\\text{ mL}` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 607",
+      "message": "LaTeX/escape thừa `$25 - 37\\ ^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 610",
+      "message": "LaTeX/escape thừa `$FiO_2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 625",
+      "message": "LaTeX/escape thừa `$2.5\\text{ mL/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 626",
+      "message": "LaTeX/escape thừa `$FiO_2 \\ge 30\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "C_CHAIN_FORMAT",
+      "card_id": "*",
+      "message": "chỉ 0 chuỗi cơ chế dạng `> 🔄 **Chuỗi cơ chế:** … → …` (profile disease cần ≥ 4)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 646",
+      "message": "PMID 36863329 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 647",
+      "message": "PMID 24379228 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 648",
+      "message": "PMID 33087557 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 649",
+      "message": "PMID 26534956 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 650",
+      "message": "PMID 15342981 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 651",
+      "message": "PMID 26055034 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 652",
+      "message": "PMID 22177439 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 653",
+      "message": "PMID 16549210 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 654",
+      "message": "PMID 16651330 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 655",
+      "message": "PMID 9255193 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_NOT_FETCHED",
+      "card_id": "dòng 656",
+      "message": "PMID 13310237 không có trong ncbi_fetch.json (Gate 0)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_NO_PMID",
+      "card_id": "dòng 657",
+      "message": "[GUIDELINE VERIFIED] không kèm PMID trên cùng dòng",
+      "severity": "DEBT"
+    }
+  ]
+}

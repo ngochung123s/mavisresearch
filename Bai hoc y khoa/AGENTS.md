@@ -38,10 +38,5 @@ Cấm nhãn cũ `[TEXTBOOK]`, `[ABSTRACT MATCH]`, `[DIRECTION ONLY]`, `[FULL VER
 
 ## Nhi khoa (PED)
 
-Phạm vi file này: Sản phụ khoa / ART / Siêu âm / Nội khoa. Track Nhi khoa (`12_Nhi khoa/PED-xx`) theo **`12_Nhi khoa/PED_RULES.md`** (+ 4 managed skill: `medical-lesson-release-gates`, `medical-flashcard-governance`, `medical-verification-governance`, `medical-visual-evidence-extraction`). Ngoại lệ PED so với các mục trên:
-
-- Evidence theo `medical-verification-governance` (artifact NCBI `ncbi_fetch.json` → `abstract_match.jsonl` → `full_verify_table.md` + `outputs/visual_evidence/`), không bắt buộc `evidence_sync.py`/bundle.
-- Build bằng `10_Script Python/ped_deck_builder.py` (lint `ped_card_lint.py`), không qua `build_pipeline.py`/`publish_gate.py`.
-- APKG + `cards.v2.json` nằm ở **root folder bài** (không trong `outputs/`).
-- Deck: `Nhi khoa Y6::PED-xx: <Tên có dấu>` (bản EBM: ` (EBM Update)`), không hậu tố ngày.
-- Đổi rule PED: cập nhật managed skill + `PED_RULES.md` (+ commit linter riêng), không sửa `WORKFLOW.md`/file này.
+Build bài học + APKG (mọi chuyên khoa) theo **`RULES_LESSON_APKG.md`** (nguồn chân lý; + managed skill `medical-lesson-release-gates`, `medical-flashcard-governance`, `medical-verification-governance`, `medical-visual-evidence-extraction`). Một lệnh: `python "10_Script Python/release_lesson.py" <lesson_dir> --mode release [--evidence-bundle ... --guidelines ...]` (cần `lesson.json`). File này giữ phase evidence cho Sản phụ khoa / ART / Siêu âm / Nội khoa. Ngoại lệ PED: `evidence_mode ncbi_artifacts` (artifact NCBI `ncbi_fetch.json` → `abstract_match.jsonl` → `full_verify_table.md` + `outputs/visual_evidence/`), APKG ở root folder bài.
+- Đổi rule build/thẻ/APKG: cập nhật managed skill + `RULES_LESSON_APKG.md` (+ commit linter riêng). Đổi rule evidence: `WORKFLOW.md` + `AGENTS.md` + `MEMORY.md`.

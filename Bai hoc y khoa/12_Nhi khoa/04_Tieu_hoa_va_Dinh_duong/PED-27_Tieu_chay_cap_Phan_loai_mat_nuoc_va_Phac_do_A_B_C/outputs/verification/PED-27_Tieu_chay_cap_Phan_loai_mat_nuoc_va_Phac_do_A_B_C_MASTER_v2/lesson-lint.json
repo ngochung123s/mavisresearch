@@ -1,0 +1,725 @@
+{
+  "id": "PED-27",
+  "specialty": "nhi",
+  "profile": "foundation",
+  "lesson": "PED-27_Tieu_chay_cap_Phan_loai_mat_nuoc_va_Phac_do_A_B_C_2026-09-16_RELEASE_v1.md",
+  "mode": "release",
+  "summary": {
+    "block": 117,
+    "debt": 0,
+    "warn": 0,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_CONTROL_CHAR": 45,
+      "F_LATEX": 60,
+      "V_NOT_GUIDELINE": 4,
+      "V_NO_ABSTRACT_MATCH": 1,
+      "V_NO_FULL_VERIFY": 2,
+      "V_NO_PMID": 4
+    }
+  },
+  "issues": [
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 186",
+      "message": "LaTeX/escape thừa `$\\ge 2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 188",
+      "message": "LaTeX/escape thừa `$< 5\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 189",
+      "message": "LaTeX/escape thừa `$5\\% - 10\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 190",
+      "message": "LaTeX/escape thừa `$> 10\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 252",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 252",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 258",
+      "message": "LaTeX/escape thừa `$< 6\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 258",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 259",
+      "message": "LaTeX/escape thừa `$6 - 9.9\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 259",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 260",
+      "message": "LaTeX/escape thừa `$10 - 11.9\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 260",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 261",
+      "message": "LaTeX/escape thừa `$12 - 15.9\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 261",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 262",
+      "message": "LaTeX/escape thừa `$16 - 29.9\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 262",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 293",
+      "message": "LaTeX/escape thừa `$\\ge 3$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 293",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 299",
+      "message": "LaTeX/escape thừa `$> 10\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 313",
+      "message": "LaTeX/escape thừa `$\\ge 1$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 313",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 314",
+      "message": "LaTeX/escape thừa `$< 1$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 314",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 337",
+      "message": "LaTeX/escape thừa `$30\text{ ml/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 337",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 338",
+      "message": "LaTeX/escape thừa `$< 2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 338",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 339",
+      "message": "LaTeX/escape thừa `$5\text{ ml/kg/giờ}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 339",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 341",
+      "message": "LaTeX/escape thừa `$\\ge 12$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 359",
+      "message": "LaTeX/escape thừa `$10\text{ mg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 359",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 360",
+      "message": "LaTeX/escape thừa `$20\text{ mg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 360",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 369",
+      "message": "LaTeX/escape thừa `$15\text{ mg/kg} \times 2\text{ l` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 369",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 370",
+      "message": "LaTeX/escape thừa `$50 - 100\text{ mg/kg/ngày}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 370",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 373",
+      "message": "LaTeX/escape thừa `$20\text{ mg/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 373",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 375",
+      "message": "LaTeX/escape thừa `$30 - 40\text{ mg/kg/ngày}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 375",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 426",
+      "message": "LaTeX/escape thừa `$Na^+ < 130\text{ mmol/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 426",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 428",
+      "message": "LaTeX/escape thừa `$Na^+ < 120\text{ mmol/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 428",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 429",
+      "message": "LaTeX/escape thừa `$3 - 5\text{ ml/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 429",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 430",
+      "message": "LaTeX/escape thừa `$Na^+ > 150\text{ mmol/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 430",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 433",
+      "message": "LaTeX/escape thừa `$0.5\text{ mmol/L/giờ}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 433",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 435",
+      "message": "LaTeX/escape thừa `$K^+ < 3.5\text{ mmol/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 435",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 438",
+      "message": "LaTeX/escape thừa `$0.3\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 438",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 441",
+      "message": "LaTeX/escape thừa `$< 7.1$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 441",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 442",
+      "message": "LaTeX/escape thừa `$> 20$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 480",
+      "message": "LaTeX/escape thừa `$75\text{ ml/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 480",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 481",
+      "message": "LaTeX/escape thừa `$4\text{ giờ}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 481",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 482",
+      "message": "LaTeX/escape thừa `$10\text{ mg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 482",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 493",
+      "message": "LaTeX/escape thừa `$1\text{ ml} = 20\text{ giọt}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 493",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 494",
+      "message": "LaTeX/escape thừa `ightarrow` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 499",
+      "message": "LaTeX/escape thừa `ightarrow` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 503",
+      "message": "LaTeX/escape thừa `$5\text{ ml/kg/giờ}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 503",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 514",
+      "message": "LaTeX/escape thừa `$> 1000\text{ mOsm/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 514",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 531",
+      "message": "LaTeX/escape thừa `$\\ge 1$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 547",
+      "message": "LaTeX/escape thừa `ightarrow` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 550",
+      "message": "LaTeX/escape thừa `$50 - 100\text{ ml}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 550",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 551",
+      "message": "LaTeX/escape thừa `$\\ge 6\text{ tháng}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 551",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 563",
+      "message": "LaTeX/escape thừa `$550 - 1100\text{ ml}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 563",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 567",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 567",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 572",
+      "message": "LaTeX/escape thừa `ightarrow` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 584",
+      "message": "LaTeX/escape thừa `ightarrow` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 591",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 591",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 592",
+      "message": "LaTeX/escape thừa `$\\ge 12\text{ tháng}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 592",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 593",
+      "message": "LaTeX/escape thừa `$30\text{ ml/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 593",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 594",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 594",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 597",
+      "message": "LaTeX/escape thừa `ightarrow` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 598",
+      "message": "LaTeX/escape thừa `$70\text{ ml/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 598",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 599",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 599",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 601",
+      "message": "LaTeX/escape thừa `ext{` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 601",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 602",
+      "message": "LaTeX/escape thừa `$5\text{ ml/kg/giờ}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 602",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 605",
+      "message": "LaTeX/escape thừa `ightarrow` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 606",
+      "message": "LaTeX/escape thừa `$750\text{ ml}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "F_CONTROL_CHAR",
+      "card_id": "dòng 606",
+      "message": "ký tự điều khiển '\\t'",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "C_CHAIN_FORMAT",
+      "card_id": "*",
+      "message": "chỉ 0 chuỗi cơ chế dạng `> 🔄 **Chuỗi cơ chế:** … → …` (profile foundation cần ≥ 3)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NOT_GUIDELINE",
+      "card_id": "dòng 182",
+      "message": "PMID 24739189 không có pubtype Guideline/Consensus",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NOT_GUIDELINE",
+      "card_id": "dòng 183",
+      "message": "PMID 24739189 không có pubtype Guideline/Consensus",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NO_FULL_VERIFY",
+      "card_id": "dòng 218",
+      "message": "[DATA VERIFIED] PMID 14627948 không có trong full_verify_table.md (Gate 2)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NO_PMID",
+      "card_id": "dòng 612",
+      "message": "[GUIDELINE VERIFIED] không kèm PMID trên cùng dòng (guideline không PMID phải có mục trong guideline_evidence.json)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NO_PMID",
+      "card_id": "dòng 613",
+      "message": "[GUIDELINE VERIFIED] không kèm PMID trên cùng dòng (guideline không PMID phải có mục trong guideline_evidence.json)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NO_PMID",
+      "card_id": "dòng 614",
+      "message": "[GUIDELINE VERIFIED] không kèm PMID trên cùng dòng (guideline không PMID phải có mục trong guideline_evidence.json)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NOT_GUIDELINE",
+      "card_id": "dòng 618",
+      "message": "PMID 24739189 không có pubtype Guideline/Consensus",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NO_FULL_VERIFY",
+      "card_id": "dòng 619",
+      "message": "[DATA VERIFIED] PMID 14627948 không có trong full_verify_table.md (Gate 2)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NO_ABSTRACT_MATCH",
+      "card_id": "dòng 620",
+      "message": "[GUIDELINE VERIFIED] PMID 19386673 thiếu dòng match trong abstract_match.jsonl (Gate 1)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NOT_GUIDELINE",
+      "card_id": "dòng 620",
+      "message": "PMID 19386673 không có pubtype Guideline/Consensus",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "V_NO_PMID",
+      "card_id": "dòng 621",
+      "message": "[GUIDELINE VERIFIED] không kèm PMID trên cùng dòng (guideline không PMID phải có mục trong guideline_evidence.json)",
+      "severity": "BLOCK"
+    }
+  ]
+}

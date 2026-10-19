@@ -2,8 +2,8 @@
 window.PED_LIBRARY_DATA = {
   "metadata": {
     "title": "PedViewer — Thư viện Sách & Bài học Nhi khoa",
-    "version": "20261019_221645",
-    "generated_at": "2026-10-19 22:16:45",
+    "version": "20261019_232802",
+    "generated_at": "2026-10-19 23:28:02",
     "total_curriculum": 59,
     "total_ped": 34,
     "total_pedytb": 13,
