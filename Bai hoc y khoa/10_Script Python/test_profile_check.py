@@ -26,14 +26,11 @@ BOX ĐỎ
 
 PHARMACOLOGY = """## Tổng quan
 ## Bản đồ nhóm thuốc
-## Kháng lợi tiểu
 ## Kê đơn thực hành
 ## Theo dõi
 ## Tổng kết
 ## Tips
 ## Tài liệu tham khảo
-Sinh lý Nephron là bài tiên quyết.
-NKCC2 là đích ở TAL; theo dõi creatinine.
 ```text
 A --> B
 ```
@@ -52,8 +49,31 @@ class ProfileCheckTest(unittest.TestCase):
 
     def test_pharmacology_passes_and_missing_marker_fails(self):
         self.assertEqual(check_profile_content("pharmacology", PHARMACOLOGY), [])
-        failures = check_profile_content("pharmacology", PHARMACOLOGY.replace("creatinine", "xét nghiệm"))
-        self.assertIn("missing monitoring: creatinine", failures)
+        failures = check_profile_content("pharmacology", PHARMACOLOGY.replace("BOX ĐỎ", "Cảnh báo"))
+        self.assertIn("missing safety: box đỏ", failures)
+
+    def test_pharmacology_is_generic_not_diuretic_specific(self):
+        statin = PHARMACOLOGY.replace("Bản đồ nhóm thuốc", "Bản đồ nhóm thuốc hạ lipid")
+        self.assertEqual(check_profile_content("pharmacology", statin), [])
+
+    def test_vietnamese_case_markers_pass(self):
+        for variant in ("Ca lâm sàng 1", "### Ca 1", "### Ca lâm sàng"):
+            text = FOUNDATION.replace("### Case 1", variant if variant.startswith("###") else "### " + variant)
+            if variant == "Ca lâm sàng 1":
+                text = FOUNDATION.replace("### Case 1", "Ca lâm sàng 1")
+            self.assertEqual(check_profile_content("foundation", text), [], variant)
+
+    def test_flowchart_bare_fence_with_glyphs_and_mermaid_pass(self):
+        ascii_tree = FOUNDATION.replace("```text\nA --> B\n```", "```\nA\n├── B\n└── C\n```")
+        self.assertEqual(check_profile_content("foundation", ascii_tree), [])
+        mermaid = FOUNDATION.replace("```text", "```mermaid")
+        self.assertEqual(check_profile_content("foundation", mermaid), [])
+
+    def test_flowchart_bare_fence_without_glyphs_fails(self):
+        plain = FOUNDATION.replace("```text\nA --> B\n```", "```\nA và B\n```")
+        self.assertIn("missing flowchart: ```text", check_profile_content("foundation", plain))
+        one_glyph = FOUNDATION.replace("```text\nA --> B\n```", "```\nA → B\n```")
+        self.assertIn("missing flowchart: ```text", check_profile_content("foundation", one_glyph))
 
     def test_heading_terms_in_prose_do_not_satisfy_profile(self):
         prose_only = FOUNDATION.replace("## Tóm tắt\n", "Tóm tắt nằm trong đoạn văn, không phải heading.\n")

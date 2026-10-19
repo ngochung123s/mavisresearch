@@ -7,11 +7,52 @@ from depth_check import (
     DepthConfig,
     FoundationConfig,
     check_guidelines,
+    check_padding_and_duplicates,
+    check_total_size,
+    check_sections,
+    PharmacologyConfig,
     run_depth_check,
 )
 
 
 class DepthCheckTests(unittest.TestCase):
+    def test_padding_ignores_code_fences_and_label_lines(self):
+        content = "\n".join([
+            "## A", "Dòng nội dung đầu tiên của mục A.", "Dòng nội dung thứ hai của mục A.", "Dòng ba.",
+            "```", "▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼", "▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼", "=" * 40, "=" * 40, "```",
+            "> 💡 **Điểm chốt lâm sàng (Clinical Pearl):**", "Nội dung pearl một.",
+            "> 💡 **Điểm chốt lâm sàng (Clinical Pearl):**", "Nội dung pearl hai.",
+            "**Các bước xử trí lâm sàng:**", "**Các bước xử trí lâm sàng:**", "**Các bước xử trí lâm sàng:**",
+        ])
+        passed, _, issues = check_padding_and_duplicates(content)
+        self.assertTrue(passed, issues)
+
+    def test_padding_still_flags_duplicate_prose_and_short_section(self):
+        sentence = "Câu văn xuôi dài ba mươi ký tự."
+        self.assertGreaterEqual(len(sentence), 25)
+        dup = "## A\n" + sentence + "\nNội dung khác một.\n" + sentence + "\nNội dung khác hai.\n"
+        self.assertFalse(check_padding_and_duplicates(dup)[0])
+        short = "## A\nChỉ một dòng.\n## B\nMột.\nHai.\nBa.\n"
+        passed, _, issues = check_padding_and_duplicates(short)
+        self.assertFalse(passed)
+        self.assertTrue(any("## A" in i for i in issues))
+
+    def test_total_size_words_block_lines_informational(self):
+        cfg = DepthConfig()
+        lines = [" ".join(["từ"] * 24) for _ in range(300)]  # 7200 words / 300 lines
+        passed, words, nlines = check_total_size("\n".join(lines), cfg)
+        self.assertTrue(passed)
+        self.assertEqual(nlines, 300)
+        small = "\n".join(" ".join(["từ"] * 13) for _ in range(300))  # 3900 words
+        self.assertFalse(check_total_size(small, cfg)[0])
+
+    def test_pharmacology_sections_generic(self):
+        content = "\n".join(f"## {i}. {h}" for i, h in enumerate([
+            "Tổng quan", "Bản đồ nhóm thuốc statin", "Kê đơn thực hành", "Theo dõi",
+            "Tổng kết", "Tips", "Tài liệu tham khảo", "Phụ lục"]))
+        passed, count, found, missing = check_sections(content, PharmacologyConfig())
+        self.assertTrue(passed, missing)
+
     def test_metabolic_bone_guidelines_count(self):
         content = "NOGG ISCD USPSTF Endocrine Society NOGG"
         passed, count, found = check_guidelines(content, DepthConfig())

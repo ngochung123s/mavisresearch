@@ -52,21 +52,46 @@ PROFILE_REQUIREMENTS = {
             "tổng quan",
             "bản đồ nhóm thuốc",
             "kê đơn thực hành",
-            "kháng lợi tiểu",
+            "theo dõi",
             "tổng kết",
             "tips",
             "tài liệu tham khảo",
         ),
         "markers": {
-            "prerequisite_link": "sinh lý nephron",
-            "segment_map": "nkcc2",
-            "monitoring": "creatinine",
             "flowchart": "```text",
             "case": "case 1",
             "safety": "box đỏ",
         },
-    }
+    },
 }
+
+FLOW_GLYPHS = "├└│↓▼→"
+FENCE_RE = re.compile(r"^[ \t]*```([^\n]*)\n(.*?)^[ \t]*```[ \t]*$", re.MULTILINE | re.DOTALL)
+
+
+def _has_flowchart(content: str) -> bool:
+    for match in FENCE_RE.finditer(content):
+        if match.group(1).strip().casefold() in ("text", "mermaid"):
+            return True
+        if sum(match.group(2).count(g) for g in FLOW_GLYPHS) >= 2:
+            return True
+    return False
+
+
+def _has_case(normalized: str) -> bool:
+    return bool(
+        "case 1" in normalized
+        or "ca lâm sàng 1" in normalized
+        or re.search(r"^#{3}\s+ca\s+(1\b|lâm sàng)", normalized, re.MULTILINE)
+    )
+
+
+def _marker_present(name: str, marker: str, content: str, normalized: str) -> bool:
+    if name == "flowchart":
+        return _has_flowchart(content)
+    if name == "case":
+        return _has_case(normalized)
+    return marker in normalized
 
 
 def check_profile_content(profile: str, content: str) -> list[str]:
@@ -85,7 +110,7 @@ def check_profile_content(profile: str, content: str) -> list[str]:
     failures.extend(
         f"missing {name}: {marker}"
         for name, marker in requirements["markers"].items()
-        if marker not in normalized
+        if not _marker_present(name, marker, content, normalized)
     )
     return failures
 

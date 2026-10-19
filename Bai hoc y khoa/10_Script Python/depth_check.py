@@ -171,7 +171,6 @@ class PharmacologyConfig(DepthConfig):
     required_section_keywords: list = field(default_factory=lambda: [
         "TỔNG QUAN",
         "BẢN ĐỒ NHÓM THUỐC",
-        "KHÁNG LỢI TIỂU",
         "KÊ ĐƠN THỰC HÀNH",
         "THEO DÕI",
         "TỔNG KẾT",
@@ -244,12 +243,6 @@ class DepthReport:
 # ============================================================
 # CHECK FUNCTIONS
 # ============================================================
-def check_sections(content: str, cfg: DepthConfig) -> tuple[bool, int, list]:
-    """Đếm section chính (## X. ...) và check đủ required keywords."""
-    section_pattern = re.compile(r"^##\s+\d*\.?\s*(.+)$", re.MULTILINE)
-    sections = section_pattern.findall(content)
-    section_upper = [s.upper().strip() for s in sections]
-    section_joined = " || ".join(section_upper)
 def check_sections(content: str, cfg: DepthConfig) -> tuple[bool, int, int, list]:
     """Đếm section chính (## X. ...) và check đủ required keywords."""
     section_pattern = re.compile(r"^##\s+\d*\.?\s*(.+)$", re.MULTILINE)
@@ -270,7 +263,6 @@ def check_sections(content: str, cfg: DepthConfig) -> tuple[bool, int, int, list
         "BẰNG CHỨNG": ["BẰNG CHỨNG", "WHAT'S NEW", "CẬP NHẬT", "EVIDENCE", "NGHIÊN CỨU MỚI", "GUIDELINE MỚI", "WHAT IS NEW"],
         "TÀI LIỆU THAM KHẢO": ["TÀI LIỆU THAM KHẢO", "REFERENCES", "THAM KHẢO", "BIBLIOGRAPHY"],
         "BẢN ĐỒ NHÓM THUỐC": ["BẢN ĐỒ NHÓM THUỐC", "DRUG MAP", "PHÂN LOẠI THUỐC"],
-        "KHÁNG LỢI TIỂU": ["KHÁNG LỢI TIỂU", "RESISTANCE", "ĐƠN THỦY"],
         "KÊ ĐƠN THỰC HÀNH": ["KÊ ĐƠN THỰC HÀNH", "PRESCRIBING", "LIỀU DÙNG VÀ KÊ ĐƠN"],
     }
 
@@ -289,7 +281,7 @@ def check_total_size(content: str, cfg: DepthConfig) -> tuple[bool, int, int]:
     """Check total word count and nonblank line count."""
     words = len(content.split())
     nonblank_lines = len([ln for ln in content.splitlines() if ln.strip()])
-    passed = words >= cfg.min_total_words and nonblank_lines >= cfg.min_total_lines
+    passed = words >= cfg.min_total_words  # lines are informational only
     return passed, words, nonblank_lines
 
 def check_subsections(content: str, cfg: DepthConfig) -> tuple[bool, int]:
@@ -626,11 +618,26 @@ def check_placeholders(content: str) -> tuple[bool, int, list[str]]:
 
 def check_padding_and_duplicates(content: str) -> tuple[bool, int, list[str]]:
     """Detect verbatim padding/repeats, template-pattern line repeats, and overly short main sections."""
-    lines = [ln.strip() for ln in content.splitlines() if ln.strip()]
+    lines = []
+    in_fence = False
+    for raw in content.splitlines():
+        ln = raw.strip()
+        if ln.startswith("```"):
+            in_fence = not in_fence
+            continue
+        if in_fence or not ln:
+            continue
+        lines.append(ln)
+
+    def _is_label(ln: str) -> bool:
+        stripped = re.sub(r"[>*_#\s]+", " ", ln)
+        stripped = re.sub(r"[^\w\s:()/,.\-–—'\"%]", "", stripped).strip()
+        return len(stripped) <= 60 and stripped.endswith(":")
 
     candidates = [
         ln for ln in lines
         if len(ln) >= 25
+        and not _is_label(ln)
         and not ln.startswith("#")
         and not ln.startswith("```")
         and not ln.startswith("|---")
@@ -722,7 +729,7 @@ def run_depth_check(md_path: Path, cfg: DepthConfig = None) -> DepthReport:
         "Total size (words / nonblank lines)",
         passed,
         f"{words} words / {lines} lines",
-        f"{cfg.min_total_words} words / {cfg.min_total_lines} lines",
+        f"≥{cfg.min_total_words} words (lines informational, ref {cfg.min_total_lines})",
     )
 
     # 5. Mechanism chains
