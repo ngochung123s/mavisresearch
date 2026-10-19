@@ -1,4 +1,8 @@
 # STRICT_EXECUTE_PROMPT.md — Prompt mẫu siết chặt cho Model Execute (Tầng 2)
+
+> ⚠️ **LEGACY / lịch sử (2026-07-26).** Bảng tag trong prompt này (`[TEXTBOOK]`, `[ABSTRACT MATCH]`, `[DIRECTION ONLY]`, `[FULL VERIFIED]`, `[Thông tin cơ bản - LLM verified]`) đã bị thay thế bởi 5 nhãn canonical: `[FETCHED]`, `[ABSTRACT VERIFIED]`, `[DATA VERIFIED]`, `[FULL TEXT VERIFIED]`, `[GUIDELINE VERIFIED]`.
+> Hiện hành (Sản/ART/Siêu âm/Nội): `WORKFLOW.md` + `AGENTS.md` + `RESEARCH_BRIEF_TEMPLATE.md`. Nhi khoa (PED): `12_Nhi khoa/PED_RULES.md`.
+
 **Ngày tạo:** 2026-07-26 | **Mục đích:** Dùng cho mọi LLM (Gemini/DeepSeek/Claude) khi thực thi viết bài từ Research Brief
 
 ---

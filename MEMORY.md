@@ -1,5 +1,9 @@
 # MEMORY.md — Lessons learned & technical notes
 
+> ⚠️ **LEGACY / lịch sử.** Đã bị thay thế: nhãn `[FULL VERIFIED]`/`[DIRECTION ONLY]`/`[PMC VERIFIED]`, workaround E-utilities `webfetch`/BioMCP làm nguồn release, gate ≥ 8000 từ, pipeline citation_audit cũ.
+> Hiện hành (Sản/ART/Siêu âm/Nội): `Bai hoc y khoa/WORKFLOW.md` + `Bai hoc y khoa/AGENTS.md`. Nhi khoa (PED): `Bai hoc y khoa/12_Nhi khoa/PED_RULES.md`.
+> Các bài học kỹ thuật (bẫy, bug, convention không liên quan evidence) vẫn có giá trị tham khảo; rule evidence/nhãn bên dưới nếu mâu thuẫn thì bỏ qua.
+
 > **Mục đích**: Các entry memory quan trọng nhất từ Mavis, được clean và tái cấu trúc cho AI agent khác
 > (Codex, Claude Code, Cursor...) đọc hiểu mà không cần context Mavis gốc.
 > **Cập nhật**: 2026-06-29

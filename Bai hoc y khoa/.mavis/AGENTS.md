@@ -5,6 +5,8 @@
 > AI: tên model đang dùng (trước đây: MiniMax Mavis; hiện tại: opencode deepseek-v4-pro)
 > Updated: 2026-06-29
 
+> **Nhi khoa (PED):** file này áp dụng cho Sản/ART/Siêu âm/Nội khoa. Track Nhi khoa theo `12_Nhi khoa/PED_RULES.md` (ngoại lệ: evidence theo `medical-verification-governance`, build bằng `ped_deck_builder.py`, APKG/cards ở root folder bài, deck `Nhi khoa Y6::PED-xx: <Tên có dấu>`).
+
 ## Quy ước ngôn ngữ (CẬP NHẬT 2026-06-22)
 
 **QUAN TRỌNG**: Từ bài 22/06/2026 trở đi, **NỘI DUNG bài học dùng tiếng Việt CÓ DẤU** đầy đủ. Trước đó (12-19/06) tôi dùng không dấu - đã convert sang có dấu qua script `add_diacritics.py`.
@@ -133,8 +135,8 @@ Xem `_README.md` để biết danh sách đầy đủ. Format: `STT | Tên bài 
 ## Tools thường dùng
 
 - `pubmed_search` / PubMed MCP - search với filter nếu MCP được mount
-- `biomcp search article --source pubmed` và `biomcp get article PMID` - workflow chính khi MCP không expose native tool trong OpenCode
-- `webfetch` với E-utilities - fallback khi MCP/BioMCP lỗi hoặc cần query đặc biệt
+- `biomcp search article --source pubmed` và `biomcp get article PMID` - chỉ để khám phá/tra cứu thủ công khi MCP không expose native tool; kết quả KHÔNG thay thế evidence bundle của `evidence_sync.py` (legacy, không dùng cho release workflow)
+- ~~`webfetch` với E-utilities~~ - đã bỏ: release workflow cấm gọi NCBI/E-utilities (xem `AGENTS.md` mục "Evidence provider và build")
 - `web_search` (MCP matrix) - tìm guideline chính thức trên web
 - `python` (PowerShell) - chạy build scripts
 - `build_pipeline.py` - chạy toàn bộ release gate và xuất báo cáo kiểm định
@@ -142,7 +144,7 @@ Xem `_README.md` để biết danh sách đầy đủ. Format: `STT | Tên bài 
 ## Bugs đã biết & cách workaround
 
 1. **PowerShell single-quote JSON**: Dùng `--file` flag thay vì inline
-2. **MCP `pubmed_fetch` trả empty hoặc MCP không được mount trong agent**: Dùng `biomcp` CLI trước, rồi mới fallback `webfetch` E-utilities directly
+2. **MCP `pubmed_fetch` trả empty hoặc MCP không được mount trong agent**: Dùng `biomcp` CLI cho khám phá/tra cứu thủ công (không phải bằng chứng release); bằng chứng release chỉ qua `evidence_sync.py` (Europe PMC). Không fallback `webfetch` E-utilities.
 3. **MCP PubMed search fail với UTF-8** (ký tự Greek, Turkish): Dùng search query đơn giản hơn
 4. **PowerShell console hiển thị UTF-8 sai** (ký tự `?`): Dùng Python `-c` để verify content
 5. **add_diacritics ~80-90% accuracy**: Một số từ ambiguous giữ nguyên không dấu (vd "gan" = gan/gần, "nam" = nam/năm)

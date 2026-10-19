@@ -3,6 +3,8 @@ name: medical-flashcard-governance
 description: "Quy tắc chuẩn hóa thiết kế bộ thẻ flashcard Anki Y khoa siêu chi tiết từ tài liệu bài giảng (văn bản gốc + góc nhìn bổ sung AI), chống lỗi hiển thị LaTeX/ký tự, chống lộ đáp án ở extra và chống đục lỗ ngược thứ bậc kiến thức."
 ---
 
+> **Phạm vi repo-copy này:** áp dụng cho Sản/ART/Nội. Nhi khoa (PED) dùng managed skill `medical-flashcard-governance` (`C:/Users/THANHANH/.omp/agent/managed-skills/`) + `Bai hoc y khoa/12_Nhi khoa/PED_RULES.md`: Basic-first, back `🎯 Trả lời cốt lõi` / `💡 Giải thích của AI`; khi khác file này thì bản PED thắng.
+
 # Quy tắc Thiết kế Flashcard Y khoa Siêu Chi Tiết (Anki Flashcard Governance)
 
 ## 1. Triết Lý Cốt Lõi

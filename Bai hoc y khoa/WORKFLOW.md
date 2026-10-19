@@ -3,6 +3,8 @@
 > **Quy trình chuẩn cho mỗi bài học y khoa mới**
 > Cập nhật: 2026-07-29 — provider-neutral NCBI-free evidence sync, offline build bắt buộc bundle và chặn egress.
 
+> **Phạm vi:** file này áp dụng cho Sản phụ khoa / ART / Siêu âm / Nội khoa. Track **Nhi khoa (PED)** theo `12_Nhi khoa/PED_RULES.md` (+ 4 managed skill nó nêu); khi mâu thuẫn trên phạm vi PED thì PED_RULES.md thắng.
+
 ## 📋 CHECKLIST TRƯỚC MỖI BÀI MỚI
 
 In checklist này ra hoặc copy vào session, check từng mục:
@@ -54,7 +56,7 @@ In checklist này ra hoặc copy vào session, check từng mục:
   - **CẤM TUYỆT ĐỐI ẢNH AI GEN.**
   - **CỔNG KIỂM DUYỆT CHUYÊN MÔN HÌNH ẢNH CHẨN ĐOÁN:** CẤM chọn ảnh chỉ dựa vào keyword hay tên file tải về. Bắt buộc đối soát metadata và caption y văn gốc. Phim CT Scan bắt buộc phải là lát cắt ngang (Axial) hoặc đứng (Coronal) hiển thị rõ cửa sổ chẩn đoán phù hợp (Lung window cho nhu mô phổi/bẫy khí/mosaic, Mediastinal window cho hạch/mạch máu). CẤM TUYỆT ĐỐI các mô hình dựng 3D ảo thô thiển (virtual bronchography, 3D volume reconstruction cành cây khô) vì không có giá trị chẩn đoán tổn thương nhu mô phổi cho bác sĩ lâm sàng.
   - **Phim X-quang & Siêu âm**: Phải là phim chụp tư thế chuẩn lâm sàng (thẳng PA/AP, nghiêng), siêu âm 2D B-mode/Doppler thực tế có thang đo độ sâu.
-  - **Sơ đồ tư duy / Flowchart**: Ưu tiên 100% dùng mã Mermaid (` ```mermaid `) để tự động hóa render HD khi xuất bản DOCX/HTML. Nếu chỉ dùng Markdown viewer online thì dùng ASCII Art.
+  - **Sơ đồ tư duy / Flowchart**: Mermaid (` ```mermaid `) chỉ dùng cho output build DOCX/HTML (render HD khi xuất bản). Markdown xem trực tuyến / PedViewer (MarkdownLivePreview) theo `AGENTS.md`: KHÔNG dùng mermaid, dùng ` ```text ` ASCII-art hoặc danh sách phân cấp.
   - **Ảnh y văn thực tế**: Lấy URL ảnh trực tiếp (.png/.jpg) từ nguồn chính thống uy tín (MedSci, Wikimedia Commons, PubMed Central), nén Pillow ≤ 150 KB và nhúng đúng cú pháp `![Mô tả ảnh](outputs/figures/TÊN_FILE)`.
 - **TRÌNH BÀY CHUẨN MARKDOWN & CHỐNG LỖI INDENTED CODE BLOCK:**
   - **CẤM DÙNG `\text{...}` HAY CÚ PHÁP LATEX THÔ TRONG CHUỖI SUY LUẬN:** Trong Python, `\text` biến thành ký tự Tab `\t` (ASCII 9) khiến trình đọc Markdown (marked.js) hiểu nhầm thành Indented Code Block tạo thanh cuộn ngang vỡ giao diện (`ext{...} \longrightarrow`). Chuỗi suy luận 7 tầng bắt buộc dùng **Blockquote Markdown (`> 🔄 **Chuỗi cơ chế:** ... → ...`)**, dùng 100% mũi tên Unicode `→`, KHÔNG thụt tab đầu dòng, KHÔNG dùng cặp dấu `$$`.
@@ -151,8 +153,9 @@ Quy tắc:
 | **Fetal ultrasound** | Siêu âm thai | `Fetal ultrasound::Doppler::2026-06-24` |
 | **OB/GYN** | Sản phụ khoa tổng quát | `OB/GYN::GDM::2026-06-28` |
 | **Internal medicine** | Nội khoa người lớn | `Internal medicine::Topic_Short::YYYY-MM-DD` |
+| **Nhi khoa Y6** | Nhi khoa | `Nhi khoa Y6::PED-63: Biến thiên công thức bạch cầu…` (không hậu tố ngày; bản EBM: ` (EBM Update)`) |
 
-- `build_apkg.py` tự động detect main deck từ path folder
+- `build_apkg.py` tự động detect main deck từ path folder (Sản/ART/Siêu âm/Nội; track Nhi khoa build bằng `ped_deck_builder.py`, tên deck theo `12_Nhi khoa/PED_RULES.md`)
 - Khi import vào Anki, deck cha cùng tên sẽ tự gộp → đồng bộ
 
 ## 🛠️ TOOLCHAIN PHÁT HÀNH
@@ -286,7 +289,7 @@ F:\DL\mavisresearch\Bai hoc y khoa\
 | PowerShell hiển thị `?` | Verify content bằng `python -c` |
 | Evidence sync 429/5xx/malformed/outage | Fail-closed; không retry/proxy/NCBI fallback; sync lại sau khi provider phục hồi |
 | Citation audit > 0 BLOCK/WARN | Sửa occurrence/source/claim/authority rồi tạo bundle mới; không hạ gate |
-| Muốn đổi workflow mới | Update `WORKFLOW.md` + `AGENTS.md` + `MEMORY.md` (3 chỗ) |
+| Muốn đổi workflow mới | Non-PED: update `WORKFLOW.md` + `AGENTS.md` + `MEMORY.md` (3 chỗ). PED (Nhi khoa): update managed skill + `12_Nhi khoa/PED_RULES.md` (+ commit linter `ped_card_lint.py` + test riêng nếu rule kiểm được tự động) |
 
 ## 🔗 RELATED FILES
 

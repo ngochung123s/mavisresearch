@@ -35,3 +35,13 @@ Cấm nhãn cũ `[TEXTBOOK]`, `[ABSTRACT MATCH]`, `[DIRECTION ONLY]`, `[FULL VER
 - Filename/folder không dấu. Mọi deliverable release nằm trong folder bài học, output nhị phân/evidence trong `outputs/`.
 - Bài mới dùng `L3_BEGINNER`, dạy từ gốc; bài cấp cứu có BOX ĐỎ và Plan B.
 - Không ghi ổ C; không sửa/release bài học trong cùng workstream sửa verifier.
+
+## Nhi khoa (PED)
+
+Phạm vi file này: Sản phụ khoa / ART / Siêu âm / Nội khoa. Track Nhi khoa (`12_Nhi khoa/PED-xx`) theo **`12_Nhi khoa/PED_RULES.md`** (+ 4 managed skill: `medical-lesson-release-gates`, `medical-flashcard-governance`, `medical-verification-governance`, `medical-visual-evidence-extraction`). Ngoại lệ PED so với các mục trên:
+
+- Evidence theo `medical-verification-governance` (artifact NCBI `ncbi_fetch.json` → `abstract_match.jsonl` → `full_verify_table.md` + `outputs/visual_evidence/`), không bắt buộc `evidence_sync.py`/bundle.
+- Build bằng `10_Script Python/ped_deck_builder.py` (lint `ped_card_lint.py`), không qua `build_pipeline.py`/`publish_gate.py`.
+- APKG + `cards.v2.json` nằm ở **root folder bài** (không trong `outputs/`).
+- Deck: `Nhi khoa Y6::PED-xx: <Tên có dấu>` (bản EBM: ` (EBM Update)`), không hậu tố ngày.
+- Đổi rule PED: cập nhật managed skill + `PED_RULES.md` (+ commit linter riêng), không sửa `WORKFLOW.md`/file này.

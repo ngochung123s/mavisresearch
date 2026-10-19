@@ -1,5 +1,9 @@
 # CONTEXT.md — User profile & cross-project context
 
+> ⚠️ **LEGACY / lịch sử (chụp 2026-06-27).** Đã bị thay thế: nhãn `[FULL VERIFIED]`, E-utilities/`webfetch` NCBI, tier-gating citation cũ, gate ≥ 8000 từ, quy trình `lesson_builder` cũ.
+> Hiện hành (Sản/ART/Siêu âm/Nội): `Bai hoc y khoa/WORKFLOW.md` + `Bai hoc y khoa/AGENTS.md` (5 nhãn canonical, `evidence_sync.py` Europe PMC, `build_pipeline.py`). Nhi khoa (PED): `Bai hoc y khoa/12_Nhi khoa/PED_RULES.md`.
+> Chỉ dùng file này để tham khảo hồ sơ người dùng; mọi rule workflow bên dưới nếu mâu thuẫn thì bỏ qua.
+
 > **Mục đích**: File này chứa toàn bộ context về USER (bác sĩ Ngọc Hưng) — copy vào `~/.claude/CLAUDE.md`
 > (global) để Claude Code ở bất kỳ project nào cũng biết bạn là ai.
 > **Cập nhật**: 2026-06-27
